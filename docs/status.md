@@ -9,7 +9,7 @@ _Last updated 11 October 2026. Read this first in a new session, then `docs/plan
 | Repo scaffold (plan Phase 0) | Done and deployed: schema (21 classes incl. `listing`, `screen`), 124 themes, story roles, predicates, validator, graph/derive/api/coverage scripts, Hijri converter, Astro site (en/ar, RTL), CI, issue forms |
 | Content (Phase 1 spine, started) | 13 periods, 25 events of the Prophet's life (with sides on conflicts), 4 people, 6 places (GeoNames/Pleiades ids on 5), 12 sources, *The Message* (screen example), all `draft` |
 | Qur'an | Frozen from Tanzil v1.1: `work/quran`, 114 suras, 6,236 ayat. Source files committed in `data/work/quran-source/` with sha256; the validator re-checks every ayah byte for byte. Sura names are museum labels still to verify against Tanzil metadata. Second witness (King Fahd Hafs) not done. |
-| Doc 16 (event maps) | Partly implemented: `map` block on `event`, `map`/`illustration` media kinds, `geo/` folder, validator rules (every map feature needs a source), deterministic renderer `scripts/media/maps/render.py` (run in `.venv-media`; outputs to `~/islam-museum-media/img`). One pilot map (Battle of Badr, schematic route). **Not done:** Natural Earth basemap (needs download), scale bar/north arrow, `brief.py`, `accuracy.yaml`, `verify_coords.py`, illustration generation (needs diffusion model), `ingest.py` and showing maps on event pages. |
+| Doc 16 (event maps) | Partly implemented: `map` block on `event`, `map`/`illustration` media kinds, `geo/` folder, validator rules (every map feature needs a source), deterministic renderer `scripts/media/maps/render.py` (run in `.venv-media`; outputs to `~/islam-museum-media/img`). One pilot map (Battle of Badr, schematic route). Natural Earth vector layers are downloaded and used by the renderer (the shaded-relief raster SR_HR and ETOPO1 elevation were still downloading; check `$HARVEST/basemaps/downloads/`). **Not done:** relief/hillshade drawing, scale bar/north arrow, `brief.py`, `accuracy.yaml`, `verify_coords.py`, illustration generation (needs diffusion model), `ingest.py` and showing maps on event pages. |
 | Plan documents | 00-16 in `docs/plan/`. |
 
 Run `npm install && npm install --prefix site && npm test && npm run build` to confirm the state (expect 0 validation errors, 25 tests passing, about 12,900 pages).
@@ -35,6 +35,15 @@ Both skip finished files and resume partial ones. Checksums go to `$HARVEST/raw/
 - `scripts/harvest/collections/reconcile_places.py [--apply]` matches museum places to GeoNames and Pleiades.
 - `scripts/harvest/wikidata/run_queries.py` ran 5 seed queries (1,074 QIDs in `$HARVEST/db/seeds.txt`). IDs in the queries were verified against Wikidata labels.
 - `scripts/harvest/wikidata/filter_dump.py` (two-pass streaming subset filter, self-tested by `test_filter.py`) is written but **not yet run on the real dump**.
+
+## Parallel work (who owns what)
+
+| Stream | Owner | Where | Status |
+|---|---|---|---|
+| Prophetic-era people (batches A-F: family, Companions, Meccan opposition, protectors, Medina allies, Ridda, groups) | Devin, from its own clone, via PRs on `devin/people-batch-*` | `data/person/**`, Prophetic-era `data/group/**`, own `data/source/**`, `content/*/person/**`, `data/_stubs.d/devin-people.yaml`. Prompt: `docs/delegation/devin-people-lane.md` | Delegated 11 Oct 2026; review its PRs before merging (all content is `draft`; check sources are real) |
+| Schema, scripts, site, i18n, events, places, periods, maps, Qur'an, local harvest | Maintainer session (Claude) | everything else | In progress |
+
+Devin's schema needs arrive as `docs/requests/devin-*.md`. Unresolved references for parallel contributors go in `data/_stubs.d/*.yaml` (read by the validator and graph builder alongside `data/_stubs.yaml`).
 
 ## Next steps, in order
 
