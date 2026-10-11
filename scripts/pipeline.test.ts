@@ -126,3 +126,15 @@ describe("the Qur'an text is frozen (docs/plan/15 §6.3 acceptance test 3)", () 
     expect(c.nodes.filter((n) => n.class === "passage" && n.data.unit === "ayah").length).toBe(6236);
   });
 });
+
+describe("scope rule: Sunni is the default and first view (docs/scope.md)", () => {
+  const ps = (...traditions: string[]) => ({ perspectives: traditions.map((tr) => ({ tradition: tr, summary: { en: "x" } })) });
+  it("rejects a perspectives block whose first entry is not Sunni", () => {
+    expect(msgs(run(base("event", "zz-test-k", { kind: "other", ...ps("academic", "sunni") })), "error")).toMatch(/must start with a Sunni entry/);
+    expect(msgs(run(base("event", "zz-test-l", { kind: "other", ...ps("shia-twelver") })), "error")).toMatch(/must start with a Sunni entry/);
+  });
+  it("requires the order Sunni, academic, then other views", () => {
+    expect(msgs(run(base("event", "zz-test-m", { kind: "other", ...ps("sunni", "shia-twelver", "academic") })), "error")).toMatch(/out of order/);
+    expect(msgs(run(base("event", "zz-test-n", { kind: "other", ...ps("sunni-hanafi", "sunni-shafii", "academic", "shia-twelver", "ibadi") })), "error")).toBe("");
+  });
+});

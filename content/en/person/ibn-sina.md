@@ -20,6 +20,7 @@ Among his best-known books are [[work/al-qanun-fi-al-tibb|the Canon of Medicine]
 Later Muslim thinkers engaged with him in both directions: [[person/al-ghazali]] criticised some of his views, while many others built on his system. Latin translations carried his medicine and philosophy into medieval Europe.
 
 :::perspectives
+- **Sunni**: Sunni scholars judged him differently. Al-Ghazali held that three of his teachings amounted to unbelief, while his medical works were widely used {cite:gutas-2014}.
 - **Academic**: Historians note that his father is reported to have been Ismaili, and that Ibn Sina's own religious affiliation is debated {cite:gutas-2014}.
 :::
 

@@ -187,6 +187,16 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     }
 
 
+
+    // ---- scope rule (docs/scope.md): Sunni first and default; order Sunni, then academic, then any other view; every entry labelled
+    if (entity.perspectives?.length) {
+      const rank = (t: string) => (t.startsWith("sunni") ? 0 : t === "academic" ? 1 : 2);
+      const ps: any[] = entity.perspectives;
+      if (rank(ps[0].tradition) !== 0) err(file, `perspectives must start with a Sunni entry (sunni or sunni-*); the first entry is "${ps[0].tradition}" (docs/scope.md)`);
+      for (let i = 1; i < ps.length; i++) if (rank(ps[i].tradition) < rank(ps[i - 1].tradition)) err(file, `perspectives[${i}] "${ps[i].tradition}" is out of order: Sunni entries first, then academic, then any other view (docs/scope.md)`);
+      ps.forEach((x, i) => { if (!x.tradition) err(file, `perspectives[${i}] has no tradition label: every view is labelled`); });
+    }
+
     // ---- map blocks (docs/plan/16): every feature needs a source; schematic positions are flagged; sides must exist
     if (entity.class === "event" && entity.map) {
       const m = entity.map;
@@ -284,6 +294,18 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     for (const m of pr.body.matchAll(linkRe)) if (!resolves(m[1])) err(pr.file, `unresolved link [[${m[1]}]]`);
     for (const m of pr.body.matchAll(citeRe)) if (!known.has(`source/${m[1]}`)) err(pr.file, `{cite:${m[1]}} does not resolve to a source`);
     if (/\b(peace be upon him|pbuh|\(saw\)|ﷺ|صلى الله عليه وسلم)/i.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
+
+    // scope rule in prose: a perspectives block must start with a Sunni entry, and non-Sunni doctrine must be labelled before it is stated
+    for (const blk of pr.body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {
+      const labels = [...blk[1].matchAll(/^- \*\*(.+?)\*\*:/gm)].map((m) => m[1].toLowerCase());
+      if (labels.length && !(labels[0].startsWith("sunni") || labels[0].includes("أهل السنة") || labels[0].startsWith("سني"))) err(pr.file, "the perspectives block must start with the Sunni entry (docs/scope.md)");
+    }
+    const NON_SUNNI = /(Twelver|Shia|Shi'a|Shi‘a|Ismaili|Ibadi|Ahmadi(?:yya)?|Quranist|Zaydi|الشيعة|الإسماعيلية|الإباضية|الأحمدية|القرآنيون|الزيدية)/;
+    const VERB = /\b(hold|holds|believe|believes|teach|teaches|regard|regards|maintain|maintains|designated|consider|considers)\b|(يرى|يرون|يعتقد|يعتقدون|تعتقد|ترى|يؤمن|يؤمنون)/;
+    for (const sentence of pr.body.replace(/:::perspectives[\s\S]*?\n:::/g, "").split(/(?<=[.!?؟])\s+/)) {
+      const n = sentence.match(NON_SUNNI), vb = sentence.match(VERB);
+      if (n && vb && vb.index! < n.index!) warn(pr.file, `non-Sunni view stated before its label: "${sentence.slice(0, 80)}…" (name the community first, docs/scope.md)`);
+    }
     if (!/^## /m.test(pr.body)) warn(pr.file, "no section headings");
   }
   for (const { entity, file } of loaded) {

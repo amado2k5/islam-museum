@@ -17,6 +17,9 @@ relations:
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
 perspectives:
+  - tradition: sunni
+    summary: { en: "The early sira tradition preserves the text in Ibn Ishaq's biography, as transmitted by Ibn Hisham, and Sunni scholarship has treated it as a covenant the Prophet made to organise the community of Medina.", ar: "تحفظ السيرة المبكرة نص الصحيفة في سيرة ابن إسحاق برواية ابن هشام، وعدّها علماء أهل السنة عهدًا عقده النبي لتنظيم جماعة المدينة." }
+    sources: [source/ibn-ishaq-guillaume]
   - tradition: academic
     summary: { en: "Historians generally accept that it reflects the early Medinan period, and debate whether it was a single agreement or several combined." }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]

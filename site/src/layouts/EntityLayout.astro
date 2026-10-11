@@ -65,9 +65,13 @@ const sectionHtml = sections.map((s) => {
 });
 const proseSources = [...new Set(citeList.map((c) => c.source))];
 const ownSources = [...new Set([...(d.sources ?? []), ...proseSources])].map((id) => byId.get(id)).filter(Boolean) as Node[];
-const perspectives = sectionHtml.flatMap((s) => s.persp).length
-  ? sectionHtml.flatMap((s) => s.persp)
-  : (d.perspectives ?? []).map((p: any) => ({ tradition: traditionLabel(p.tradition, lang), html: p.summary[lang] ?? p.summary.en }));
+const perspectivesRaw = sectionHtml.flatMap((s) => s.persp).length
+  ? sectionHtml.flatMap((s) => s.persp).map((p) => ({ label: p.tradition, html: p.html, sunni: /^(sunni|أهل السنة|سني)/i.test(p.tradition) }))
+  : (d.perspectives ?? []).map((p: any) => ({ label: traditionLabel(p.tradition, lang), html: p.summary[lang] ?? p.summary.en, sunni: String(p.tradition).startsWith("sunni") }));
+// scope rule (docs/scope.md): the Sunni entry is the main view; every other view is labelled before its text
+const sunniViews = perspectivesRaw.filter((p) => p.sunni);
+const otherViews = perspectivesRaw.filter((p) => !p.sunni);
+const perspectives = perspectivesRaw;
 
 const bibliography = (s: Node) => {
   const a = (s.data.author ?? []).map((x: any) => [x.family, x.given].filter(Boolean).join(", ")).join("; ");
@@ -166,11 +170,16 @@ const reviewStatus = d.status?.review ?? "draft";
         {perspectives.length > 0 && (
           <section data-role="main" class="sec" aria-labelledby="persp">
             <h2 id="persp">{T.entity.perspectives}</h2>
-            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px">
-              {perspectives.map((p) => (
-                <div class="panel"><h3 class="ui" style="margin:0 0 6px;font-size:1rem">{p.tradition}</h3><div set:html={p.html} /></div>
-              ))}
-            </div>
+            {sunniViews.map((p) => (
+              <div class="panel" style="margin-bottom:14px;border-inline-start:4px solid var(--gold)"><h3 class="ui" style="margin:0 0 6px;font-size:1rem">{T.entity.sunni_frame}</h3><div set:html={p.html} /></div>
+            ))}
+            {otherViews.length > 0 && (
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px">
+                {otherViews.map((p) => (
+                  <div class="panel"><h3 class="ui" style="margin:0 0 6px;font-size:1rem">{fmt(T.entity.view, { label: p.label })}</h3><div set:html={p.html} /></div>
+                ))}
+              </div>
+            )}
           </section>
         )}
 
