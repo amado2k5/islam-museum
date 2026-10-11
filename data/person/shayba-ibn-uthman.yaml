@@ -1,0 +1,25 @@
+id: person/shayba-ibn-uthman
+class: person
+label: { en: "Shayba ibn Uthman al-Hajabi", ar: "شيبة بن عثمان الحجبي" }
+names:
+  - { kind: full, lang: ar, value: "شيبة بن عثمان بن أبي طلحة الحجبي العبدري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A hereditary custodian of the Kaaba from Banu Abd al-Dar who joined the march to Hunayn intending to assassinate the Prophet to avenge his father and uncle slain at Uhud; upon drawing close, he was overcome with awe, and the Prophet placed his hand on his chest and prayed for him, whereupon he embraced Islam and fought loyally."
+  ar: "سادن الكعبة من بني عبد الدار؛ خرج مع الجيش إلى حنين مضمرًا قتل النبي ثأرًا لأبيه وعمه المقتولين بأحد، فلما دنا منه حال دونه رعب، فدعاه النبي ووضع يده على صدره فأسلم وحسن إسلامه وقاتل دونه."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "أسلم يوم حنين بعد محاولة اغتيال النبي (ابن هشام 4/88).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630-01~" }, note: "أسلم يوم حنين." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/battle-of-hunayn, role: convert, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 88", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 88" }

@@ -1,0 +1,22 @@
+id: person/qarib-ibn-al-aswad
+class: person
+label: { en: "Qarib ibn al-Aswad", ar: "قارب بن الأسود الثقفي" }
+names:
+  - { kind: full, lang: ar, value: "قارب بن الأسود بن مسعود بن معتب الثقفي" }
+gender: male
+roles: [tribal-leader]
+summary:
+  en: "A leader of the Ahlaf faction of Thaqif who commanded their contingent at the Battle of Hunayn; upon the confederation's collapse, he skillfully extricated his men toward Ta'if, preventing mass casualties among his clan."
+  ar: "سيد حلف الأحلاف من ثقيف وقائد رايتهم يوم حنين؛ صمد في المعركة ثم انحاز بقومه نحو الطائف لما انهزمت هوازن، فسلّم قومه ولم يُصب منهم إلا رجلان."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, status: tradition, note: "قاد راية الأحلاف من ثقيف يوم حنين وانحاز بهم إلى الطائف.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/thaqif }
+  - { type: participated_in, target: event/battle-of-hunayn, role: thaqif-commander, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 80, 90–92", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 80, 90–92" }

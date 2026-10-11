@@ -1,0 +1,18 @@
+id: place/awtas
+class: place
+kind: site
+label: { en: "Awtas", ar: "أوطاس" }
+summary:
+  en: "A valley in the territory of Hawazin where Malik ibn Awf mustered the tribal confederation before Hunayn, and where the defeated remnants of Hawazin rallied under Durayd ibn al-Simma before being pursued by Abu Amir al-Ash'ari."
+  ar: "وادٍ في ديار هوازن عسكر فيه مالك بن عوف بالقبائل وأموالها قبل حنين، وفيه لجأ المنهزمون من هوازن تحت قيادة دريد بن الصمة، ودارت فيه سرية أوطاس."
+wings: [place]
+themes: [battles]
+regions: [arabia]
+historical_names:
+  - { name: "أوطاس", note: "واد في ديار هوازن قرب حنين والطائف" }
+relations:
+  - { type: located_in, target: place/taif, confidence: medium, note: "وادٍ في ديار هوازن بين حنين والطائف." }
+coordinate_note: "Coordinates withheld: situated in Hawazin territory between Mecca and Ta'if per classical gazetteers."
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 80–81, 97–99", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 80–99" }

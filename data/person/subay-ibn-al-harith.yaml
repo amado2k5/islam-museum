@@ -1,0 +1,23 @@
+id: person/subay-ibn-al-harith
+class: person
+label: { en: "Subay' Dhu al-Khimar", ar: "سبيع ذو الخمار الثقفي" }
+names:
+  - { kind: full, lang: ar, value: "سبيع بن الحارث بن مالك الثقفي" }
+  - { kind: laqab, lang: ar, value: "ذو الخمار" }
+gender: male
+roles: [tribal-leader]
+summary:
+  en: "Leader of Banu Malik of Thaqif alongside his brother Ahmar at the Battle of Hunayn; his clan bore the brunt of the Muslim counterattack and suffered heavy casualties around their banner before falling back to Ta'if."
+  ar: "سيد بني مالك من ثقيف وقائد لواء بني مالك مع أخيه أحمر يوم حنين؛ اشتد القتال حول لوائهم فقُتل منهم نحو سبعين رجلاً ثم انحازوا إلى الطائف."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, status: tradition, note: "قائد بني مالك من ثقيف يوم حنين.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/thaqif }
+  - { type: participated_in, target: event/battle-of-hunayn, role: banu-malik-commander, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 80, 90–91", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 80, 90–91" }

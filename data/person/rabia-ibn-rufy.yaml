@@ -1,0 +1,26 @@
+id: person/rabia-ibn-rufy
+class: person
+label: { en: "Rabi'a ibn Rufay' (Ibn al-Dughunna)", ar: "ربيعة بن رفيع السلمي (ابن الدغنة)" }
+names:
+  - { kind: full, lang: ar, value: "ربيعة بن رفيع بن أهبان بن ثعلبة السلمي" }
+  - { kind: alternate, lang: ar, value: "ابن الدغنة" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A warrior of Banu Sulaym (known as Ibn al-Dughunna) who caught up with the aged Durayd ibn al-Simma at Awtas after the rout of Hunayn and killed him after an exchange of swords."
+  ar: "فارس من بني سليم يعرف بابن الدغنة؛ أدرك الشيخ دريد بن الصمة بأوطاس بعد هزيمة حنين فقتله بعد مراجعة كلامية مشهورة بسيف دريد نفسه."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "فارس من بني سليم شهد حنين وأوطاس وقتل دريد بن الصمة.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي من بني سليم." }
+relations:
+  - { type: member_of, target: group/banu-sulaym }
+  - { type: participated_in, target: event/expedition-to-awtas, role: slayer-of-durayd, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 93–94", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 93–94" }

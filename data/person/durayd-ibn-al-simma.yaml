@@ -1,0 +1,25 @@
+id: person/durayd-ibn-al-simma
+class: person
+label: { en: "Durayd ibn al-Simma", ar: "دريد بن الصمة" }
+names:
+  - { kind: full, lang: ar, value: "دريد بن الصمة معاوية بن الحارث الجشمي" }
+gender: male
+roles: [general, poet]
+summary:
+  en: "A legendary pre-Islamic knight, tribal champion and poet of Banu Jusham (Hawazin); an old, blind veteran carried in a litter at Hunayn, he vehemently criticized Malik ibn Awf's strategy of bringing women and herds into battle, and was slain at Awtas."
+  ar: "فارس هوازن وشاعرها وسيد بني جشم في الجاهلية؛ شيخ كبير كفيف حُمل في هودجه يوم حنين، وأنكر على مالك بن عوف سوق الأموال والنساء قائلاً «وهل يرد المنهزم شيء؟»، وقُتل بأوطاس."
+wings: [people]
+themes: [battles, literature, the-elderly]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "قتل بأوطاس إثر هزيمة حنين.", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, status: tradition, note: "حضر حنين في بني جشم مستشاراً حربياً وقُتل بأوطاس.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-jusham }
+  - { type: member_of, target: group/hawazin }
+  - { type: participated_in, target: event/battle-of-hunayn, role: military-adviser, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/expedition-to-awtas, role: killed-leader, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 80–82, 93–94", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 80–94" }

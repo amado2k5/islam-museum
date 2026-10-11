@@ -1,0 +1,18 @@
+id: place/wadi-hunayn
+class: place
+kind: site
+label: { en: "Wadi Hunayn", ar: "وادي حنين" }
+summary:
+  en: "A deep, hollow valley in the Tihama lowlands between Mecca and Ta'if with narrow gorges where the Hawazin confederation laid their ambush against the Muslim army in Shawwal 8 AH."
+  ar: "وادٍ من أودية تهامة أجوف جرار بين مكة والطائف، فيه مضايق وشعاب كمنت فيها هوازن لجيش المسلمين في شوال 8هـ."
+wings: [place]
+themes: [battles]
+regions: [arabia]
+historical_names:
+  - { name: "حنين", note: "واد قرب ذي المجاز بين مكة والطائف" }
+relations:
+  - { type: located_in, target: place/mecca, confidence: medium, note: "بين مكة والطائف قرب ذي المجاز." }
+coordinate_note: "Valley between Mecca and Ta'if; coordinates withheld pending standard gazetteer check."
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 84–86", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 84–86" }

@@ -1,0 +1,26 @@
+id: person/ayman-ibn-ubayd
+class: person
+label: { en: "Ayman ibn Ubayd", ar: "أيمن بن عبيد" }
+names:
+  - { kind: full, lang: ar, value: "أيمن بن عبيد بن زيد الحبشي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "The son of Barakah (Umm Ayman, the Prophet's nursemaid) and half-brother of Usama ibn Zayd; an Ethiopian-Arab Muslim who remained steadfast around the Prophet when the lines broke at Hunayn and fell fighting as a martyr."
+  ar: "ابن أم أيمن بركة الحبشية حاضنة النبي، وأخو أسامة بن زيد لأمه؛ صحابي ثبت مع النبي حين انكشف الناس يوم حنين وقاتل دونه حتى استشهد."
+wings: [people]
+themes: [battles, race-colour-ethnicity]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "استشهد يوم حنين وهو يقاتل حول النبي.", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: martyr, status: tradition, note: "من النفر القلائل الذين ثبتوا حول النبي يوم حنين واستشهد دونه (ابن هشام 4/88، 101).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي بدري/أحدي شهيد حنين." }
+relations:
+  - { type: child_of, target: person/umm-ayman }
+  - { type: participated_in, target: event/battle-of-hunayn, role: martyr, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 88, 101", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 88, 101" }

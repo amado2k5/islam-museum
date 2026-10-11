@@ -1,0 +1,30 @@
+id: event/expedition-to-awtas
+class: event
+kind: raid
+label: { en: "The expedition to Awtas", ar: "سرية أوطاس" }
+summary:
+  en: "A detachment sent by the Prophet under Abu Amir al-Ash'ari in pursuit of the routed Hawazin remnants encamped at Awtas; Abu Amir was struck by an arrow and martyred after routing nine enemy champions, whereupon Abu Musa al-Ash'ari took the banner and secured victory."
+  ar: "سرية بعثها النبي في آثار منهزمي هوازن بأوطاس بقيادة أبي عامر الأشعري؛ قاتل تسعة إخوة فغلبهم ثم رماه سلمة بن دريد بسهم في ركبته فاستشهد، فأخذ الراية ابن أخيه أبو موسى الأشعري وفتح الله عليه."
+wings: [time, people, place]
+themes: [battles, skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, status: tradition, derived: true, note: "في شوال سنة 8هـ إثر هزيمة حنين.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/awtas }
+  - { type: part_of, target: event/battle-of-hunayn }
+  - { type: had_participant, target: person/abu-amir-al-ashari, role: commander-and-martyr, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/durayd-ibn-al-simma, role: killed-leader, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/rabia-ibn-rufy, role: slayer-of-durayd, sources: [source/ibn-hisham-saqqa] }
+sides:
+  - label: { en: "Muslim pursuit detachment", ar: "سرية المسلمين بأوطاس" }
+    participants: [group/early-muslims]
+    commanders: [person/abu-amir-al-ashari]
+  - label: { en: "Routed Hawazin forces at Awtas", ar: "فلول هوازن بأوطاس" }
+    participants: [group/hawazin, group/banu-jusham]
+    commanders: [person/durayd-ibn-al-simma]
+casualties: { value: 1, status: tradition, note: "استشهد قائد السرية أبو عامر الأشعري، وقُتل دريد بن الصمة وجمع من مقاتلي هوازن.", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 97–101", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 97–101" }

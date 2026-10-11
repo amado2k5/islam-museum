@@ -1,0 +1,26 @@
+id: person/abu-amir-al-ashari
+class: person
+label: { en: "Abu Amir al-Ash'ari", ar: "أبو عامر الأشعري" }
+names:
+  - { kind: full, lang: ar, value: "عبيد بن سليم بن حضار الأشعري" }
+  - { kind: kunya, lang: ar, value: "أبو عامر" }
+gender: male
+roles: [companion, general]
+traditions: [sunni]
+summary:
+  en: "A senior Ash'ari Companion and paternal uncle of Abu Musa al-Ash'ari; appointed by the Prophet to lead the pursuit column against the routed Hawazin at Awtas, he slew nine enemy champions before falling martyred to an arrow, handing the banner to Abu Musa."
+  ar: "صحابي جليل من الأشعريين وعم أبي موسى الأشعري؛ أمره النبي على سرية تعقب هوازن بأوطاس، فبارز تسعة إخوة فقتلهم ثم رماه سلمة بن دريد بسهم في ركبته فاستشهد بعد أن سلّم الراية لأبي موسى، واستغفر له النبي."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "استشهد بأوطاس إثر إصابته بسهم في ركبته.", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: martyr, status: tradition, note: "قائد سرية أوطاس وشهيدها.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي شهيد بأوطاس." }
+relations:
+  - { type: participated_in, target: event/expedition-to-awtas, role: commander-and-martyr, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 97–101", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 97–101" }

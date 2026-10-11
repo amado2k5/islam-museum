@@ -12,11 +12,14 @@ regions: [arabia]
 date:
   start: { edtf: "0630~", hijri: "0008-10", calendar: julian, precision: year, status: tradition }
 relations:
+  - { type: occurred_at, target: place/wadi-hunayn }
   - { type: occurred_at, target: place/mecca }
   - { type: occurred_at, target: place/taif }
   - { type: had_participant, target: person/muhammad }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/conquest-of-mecca }
+  - { type: basis_for, target: concept/ariya-madmuna, sources: [source/ibn-hisham-saqqa] }
+  - { type: basis_for, target: concept/prohibition-killing-women-children, sources: [source/ibn-hisham-saqqa] }
 sides:
   - label: { en: "Muslims of Medina and Mecca", ar: "مسلمو المدينة ومكة" }
     participants: [group/early-muslims]
@@ -24,5 +27,5 @@ sides:
   - label: { en: "Hawazin and Thaqif", ar: "هوازن وثقيف" }
     participants: [group/hawazin, group/thaqif]
     commanders: [person/malik-ibn-awf]
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

@@ -1,0 +1,18 @@
+id: group/banu-nasr
+class: group
+kind: clan
+label: { en: "Banu Nasr", ar: "بنو نصر بن معاوية" }
+summary:
+  en: "A leading clan of the Hawazin confederation; from it hailed Malik ibn Awf al-Nasri, commander of the polytheist confederation at the Battle of Hunayn."
+  ar: "بطن رئيس من قبائل هوازن؛ منه خرج مالك بن عوف النصري قائد جموع هوازن وثقيف يوم حنين."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: unverified }
+relations:
+  - { type: part_of, target: group/hawazin, note: "بطن من هوازن." }
+  - { type: participated_in, target: event/battle-of-hunayn, role: confederation-clan, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 80", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 80" }

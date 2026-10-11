@@ -1,0 +1,25 @@
+id: person/abdullah-ibn-abi-hadrad
+class: person
+label: { en: "Abdullah ibn Abi Hadrad al-Aslami", ar: "عبد الله بن أبي حدرد الأسلمي" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن أبي حدرد الأسلمي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Companion of Banu Aslam dispatched by the Prophet as an undercover scout to Hawazin's camp at Awtas before Hunayn; he stayed among them, overheard Malik ibn Awf's orders, and brought vital intelligence back to Medina's army."
+  ar: "صحابي من بني أسلم بعثه النبي عيناً متخفياً إلى عسكر هوازن بأوطاس قبل حنين؛ فأقام فيهم حتى سمع مقالة مالك بن عوف وخطته الحربية، ثم رجع إلى النبي فأخبره."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "عين النبي واستخباراته بأوطاس قبل حنين.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي من بني أسلم." }
+relations:
+  - { type: member_of, target: group/banu-aslam }
+  - { type: participated_in, target: event/battle-of-hunayn, role: scout, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 83–84", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 83–84" }
