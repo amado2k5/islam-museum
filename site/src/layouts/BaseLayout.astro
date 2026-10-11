@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { ui, other, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 
 interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean }
@@ -9,7 +9,8 @@ const T = ui(lang);
 const fullTitle = path === `/${lang}/` ? `${T.name} · ${T.tagline}` : `${title} · ${T.name}`;
 const desc = description ?? T.landing.lede;
 const canonical = `${SITE}${path}`;
-const alt = alternates ?? { [lang]: path, [other(lang)]: path.replace(`/${lang}/`, `/${other(lang)}/`) };
+const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
+const multilingual = LANGS.length > 1;
 const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
 ---
@@ -22,7 +23,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />
     {Object.entries(alt).map(([l, h]) => <link rel="alternate" hreflang={l} href={`${SITE}${h}`} />)}
-    <link rel="alternate" hreflang="x-default" href={`${SITE}${alt.en ?? path}`} />
+    <link rel="alternate" hreflang="x-default" href={`${SITE}${alt.ar ?? path}`} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:type" content={ogType} />
@@ -61,7 +62,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
         <div style="display:flex;align-items:center;gap:10px" class="ui">
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search}</a>
           <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} style="border:0;cursor:pointer">◐</button>
-          <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)">{T.switch_to}</a>
+          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)">{T.switch_to}</a>}
         </div>
       </div>
       <nav aria-label={T.a11y.menu} class="ui" style="margin-top:14px">

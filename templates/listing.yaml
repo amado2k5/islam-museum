@@ -1,7 +1,7 @@
 id: listing/slug-here
 class: listing
 kind: bookshop          # see schema/enums/kinds.yaml (listing)
-label: { en: "", ar: "" }
+label: { ar: "" }          # Arabic first (docs/language.md); en is added in Phase 4
 summary: { en: "", ar: "" }
 wings: [made]
 categories: []          # schema/enums/listing-categories.yaml

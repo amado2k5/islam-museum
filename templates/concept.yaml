@@ -1,10 +1,9 @@
 id: concept/slug-here          # immutable; lowercase ASCII, hyphens
 class: concept
 kind: belief   # belief | doctrine | legal | ethical | discipline | art_form | architectural_element | scientific | political | social | term
-label: { en: "", ar: "" }
+label: { ar: "" }          # Arabic first (docs/language.md); en is added in Phase 4
 summary:
-  en: ""            # one sentence
-  ar: ""
+  ar: ""            # one sentence, required
 wings: []           # people | place | time | ideas | objects | words | living | today
 periods: []         # period/... ids
 regions: []         # see schema/enums/regions.yaml

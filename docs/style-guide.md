@@ -1,5 +1,7 @@
 # Style guide
 
+**Language: Arabic first** (`docs/language.md`). Phase 1 is written in Arabic: labels, summaries, prose, alt text, map labels, questions. `label.ar` and `summary.ar` are required; English is added in Phase 4 by translation. Write Modern Standard Arabic, clear and warm, short sentences, full punctuation, correct hamza and ta marbuta, diacritics only where they prevent misreading (always on Qur'anic text), Western digits by default. Examples below are in English for the maintainers; the Arabic equivalents follow the same rules.
+
 **Voice.** A warm, precise docent. Describe, do not prescribe ("Muslims fast during Ramadan", not "must"). Attribute beliefs to holders ("Sunni tradition holds…") and facts to sources.
 
 **Reader.** Intelligent, knows nothing. Define each Arabic term on first use, inline, then link `[[concept/...]]`. The Brief is understandable by a 12-year-old.

@@ -11,6 +11,7 @@ from pathlib import Path
 import yaml
 
 REPO = Path(__file__).resolve().parents[3]
+LANGS = ("ar",)   # Arabic first (docs/language.md); add "en" in Phase 4
 SRC = Path.home() / "islam-museum-media" / "img"
 J = lambda s: json.dumps(s, ensure_ascii=False)
 tr = lambda d, l: (d or {}).get(l) or (d or {}).get("en") or ""
@@ -40,7 +41,7 @@ for slug in sys.argv[1:]:
     web = Path.home() / "islam-museum-media" / "web" / "maps" / slug
     dest = REPO / "site" / "public" / "media" / "maps" / slug
     for d in (web, dest): d.mkdir(parents=True, exist_ok=True)
-    for lang in ("en", "ar"):
+    for lang in LANGS:
         im = Image.open(src / f"1536.{lang}.png").convert("RGB")
         im = im.resize((1280, round(im.height * 1280 / im.width)), Image.LANCZOS)
         im.save(web / f"map.{lang}.webp", "WEBP", quality=82, method=6)
@@ -49,17 +50,17 @@ for slug in sys.argv[1:]:
     rec = f"""id: {mid}
 class: media
 kind: map
-label: {{ en: {J('Schematic map of ' + tr(ev['label'], 'en'))}, ar: {J('خريطة تخطيطية: ' + tr(ev['label'], 'ar'))} }}
-summary: {{ en: {J('Map for ' + tr(ev['label'], 'en') + ', drawn from sourced positions.')}, ar: {J('خريطة: ' + tr(ev['label'], 'ar') + '، مرسومة من مواقع موثَّقة.')} }}
+label: {{ ar: {J('خريطة تخطيطية: ' + tr(ev['label'], 'ar'))} }}
+summary: {{ ar: {J('خريطة: ' + tr(ev['label'], 'ar') + '، مرسومة من مواقع موثَّقة.')} }}
 wings: [place]
-alt: {{ en: {J(alt(ev, 'en'))}, ar: {J(alt(ev, 'ar'))} }}
+alt: {{ ar: {J(alt(ev, 'ar'))} }}
 depicts: [{ev['id']}]
 generated: {{ tool: {meta['tool']}, version: "{meta['version']}", inputs_hash: "{meta['inputs_hash']}", date: "{date.today().isoformat()}" }}
 precision: {meta['precision']}
 basemap_sources: [source/natural-earth, source/etopo1]
 license: CC0
 attribution: "islam.museum, CC0. Basemap: Natural Earth and NOAA ETOPO1 (public domain)."
-files: {{ webp_en: media/maps/{slug}/map.en.webp, webp_ar: media/maps/{slug}/map.ar.webp }}
+files: {{ webp_ar: media/maps/{slug}/map.ar.webp }}
 sources: [{', '.join(sorted(set((ev['map'].get('sources') or []))))}]
 status: {{ review: draft, completeness: 2, generated_by: "scripts/media/maps/ingest.py; awaiting human review of every feature against its source" }}
 """

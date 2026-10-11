@@ -169,7 +169,7 @@ if __name__ == "__main__":
             else: i += 1
         return vals or default
     out = opt("--out", [str(Path.home() / "islam-museum-media" / "img")])[0]
-    langs = opt("--lang", ["en", "ar"])
+    langs = opt("--lang", ["ar"])   # Arabic first (docs/language.md); pass --lang ar en for both
     events = opt("--event", [p.stem for p in sorted((REPO / "data" / "event").glob("*.yaml")) if "map" in yaml.safe_load(p.read_text())])
     for slug in events:
         for lang in langs:

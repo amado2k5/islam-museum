@@ -9,7 +9,11 @@ const sorted = <T>(a: T[], f: (t: T) => number) => [...a].sort((x, y) => f(x) - 
 
 
 // ---------- build-time search aids (docs/plan/03 §13: no runtime AI or compute) ----------
-const norm = (s: string) => s.normalize("NFKD").replace(/[\u0300-\u036f\u064B-\u0652\u0670]/g, "").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()/,.]/g, " ").replace(/\s+/g, " ").trim();
+// One normaliser for build and browser (the search page carries a copy): strips Arabic diacritics and tatweel, folds hamza/alef, ta marbuta and
+// alef maqsura forms, removes Latin diacritics and apostrophes, turns hyphens into spaces.
+const norm = (s: string) =>
+  s.normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي")
+    .toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()/,.]/g, " ").replace(/\s+/g, " ").trim();
 
 /** Variant spellings -> canonical labels, from labels, names[], aliases and the rules in scripts/search-variants.yaml. */
 export function buildSynonyms(c: Compiled) {
@@ -17,11 +21,11 @@ export function buildSynonyms(c: Compiled) {
   const out = new Map<string, Set<string>>();
   const add = (variant: string, canonical: string) => {
     const v = norm(variant);
-    if (v.length < 3 || v === norm(canonical)) return;
+    if (v.length < 3 || v === canonical) return;     // identical to the label: nothing to expand (Arabic spelling variants differ after normalising)
     (out.get(v) ?? out.set(v, new Set()).get(v)!).add(canonical);
   };
   for (const n of c.nodes.filter((x) => !x.stub && !(x.class === "passage" && x.data.unit === "ayah") && x.class !== "source")) {
-    const canonical = n.label.en;
+    const canonical = n.label.ar ?? n.label.en;   // Arabic first: the canonical label is the Arabic one
     if (!canonical) continue;
     const forms = new Set<string>([canonical, ...Object.values(n.label), ...(n.data.names ?? []).map((x: any) => x.value), ...n.aliases.map((a) => a.split("/")[1].replace(/-/g, " "))]);
     for (const form of forms) {
@@ -38,7 +42,18 @@ export function buildSynonyms(c: Compiled) {
       }
     }
   }
-  return Object.fromEntries([...out].sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, [...v].slice(0, 3)]));
+  // Per-word spellings: each Arabic word that appears in a label is keyed by its normalised form, so "مكه" finds "مكة" and "الاسلام" finds "الإسلام".
+  const words = new Map<string, Map<string, number>>();
+  for (const n of c.nodes.filter((x) => !x.stub && !(x.class === "passage" && x.data.unit === "ayah"))) {
+    for (const w of (n.label.ar ?? "").split(/[\s،()]+/)) {
+      const k = norm(w);
+      if (k.length < 2 || k === w) continue;
+      const m = words.get(k) ?? words.set(k, new Map()).get(k)!;
+      m.set(w, (m.get(w) ?? 0) + 1);
+    }
+  }
+  const wordMap = Object.fromEntries([...words].map(([k, m]) => [k, [...m].sort((a, b) => b[1] - a[1])[0][0]]));
+  return { whole: Object.fromEntries([...out].sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, [...v].slice(0, 3)])), words: wordMap };
 }
 
 /** "People also explored": shared neighbours (weight 3) and shared themes (weight 1), plus the same period, computed once at build time. */
@@ -125,5 +140,5 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   for (const [k, v] of Object.entries(d)) writeFileSync(p(".cache", "derived", `${k}.json`), JSON.stringify(v));
   mkdirSync(p("site", "public"), { recursive: true });
   writeFileSync(p("site", "public", "search-synonyms.json"), JSON.stringify(d.synonyms));   // loaded by the client-side search page
-  console.log(`derived: ${d.timeline.length} timeline rows, ${d.map.features.length} map features, ${Object.keys(d.ego).length} ego graphs, ${Object.keys(d.related).length} related lists, ${Object.keys(d.synonyms).length} search variants`);
+  console.log(`derived: ${d.timeline.length} timeline rows, ${d.map.features.length} map features, ${Object.keys(d.ego).length} ego graphs, ${Object.keys(d.related).length} related lists, ${Object.keys(d.synonyms.whole).length} whole-label variants, ${Object.keys(d.synonyms.words).length} word spellings`);
 }

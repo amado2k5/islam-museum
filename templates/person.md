@@ -1,25 +1,25 @@
 ---
 id: person/slug-here
-lang: en
-source_lang: en
+lang: ar
+source_lang: ar
 translators: []
 ---
 
-## Brief
-<!-- 2–3 sentences, used by cards and the Brief depth setting -->
+## نبذة
+<!-- من جملتين إلى ثلاث، تُستعمل في البطاقات -->
 
-## Life
+## الحياة
 <!--  -->
 
-## Work
+## الأعمال
 <!--  -->
 
-## Legacy
+## الأثر
 <!--  -->
 
-## For young visitors
+## للزوار الصغار
 <!--  -->
 
-## Notes for scholars
+## ملاحظات للباحثين
 <!--  -->
 

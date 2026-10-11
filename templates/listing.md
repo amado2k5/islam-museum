@@ -1,10 +1,19 @@
 ---
 id: listing/slug-here
-lang: en
-source_lang: en
+lang: ar
+source_lang: ar
 translators: []
 ---
 
-## Brief
+## نبذة
+<!-- من جملتين إلى ثلاث، تُستعمل في البطاقات -->
 
-## About
+## نظرة عامة
+<!--  -->
+
+## للزوار الصغار
+<!--  -->
+
+## ملاحظات للباحثين
+<!--  -->
+
