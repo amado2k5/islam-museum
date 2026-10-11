@@ -1,0 +1,23 @@
+id: person/umm-mabad
+class: person
+label: { en: "Umm Ma'bad", ar: "أم معبد" }
+names:
+  - { kind: full, lang: ar, value: "أم معبد الخزاعية" }
+gender: female
+roles: [host]
+traditions: [sunni]
+summary:
+  en: "A Khuza'ite woman whose wayside tent the Hijra party passed; in a lean year she let the Prophet milk her worn-out ewe, which yielded foaming milk for all — the context of her famous description of him."
+  ar: "امرأة خزاعية صاحبة خيمة على الطريق تطعم المارة وتسقيهم؛ مرّ بها رهط الهجرة في سنة شهباء فأذنت للنبي أن يحلب شاتها العاجزة فدرّت عليه باللبن؛ ومن هذا المشهد وصفها المشهور له لزوجها أبي معبد."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: host, start: { edtf: "0622" }, status: tradition, note: "آوت رهط الهجرة عند خيمتها (الرحيق ص169؛ زاد المعاد 2/53-54).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "لم يذكر الكتاب إسلامها في هذا الموضع؛ كانت مع زوجها على دين قومهما.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: participated_in, target: event/hijra, role: "صاحبة مشهد الشاة في الطريق", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 169-170" }

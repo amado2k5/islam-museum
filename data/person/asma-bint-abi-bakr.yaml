@@ -1,0 +1,27 @@
+id: person/asma-bint-abi-bakr
+class: person
+label: { en: "Asma bint Abi Bakr", ar: "أسماء بنت أبي بكر" }
+names:
+  - { kind: full, lang: ar, value: "أسماء بنت أبي بكر الصديق" }
+  - { kind: laqab, lang: ar, value: "ذات النطاقين" }
+gender: female
+died: { edtf: "0692~", hijri: "0073", calendar: julian, precision: year, status: tradition, note: "ماتت جمادى الأولى سنة 73هـ وقد جاوزت المائة على المشهور؛ خارج نطاق هذا القسم.", sources: [source/tabaqat-ibn-sad] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "Abu Bakr's elder daughter, who carried provisions to the two fugitives in the cave of Thawr and split her girdle in two to tie the food bag — hence her byname Dhat al-Nitaqayn, 'she of the two girdles'."
+  ar: "ابنة أبي بكر الكبرى وأخت عائشة؛ حملت سفرة النبي وأبيها إلى الغار، وإذ لم تجد للسفرة عصاماً شقّت نطاقها اثنين فربطت بأحدهما وانتطقت بالآخر، فسُميت ذات النطاقين."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/sahih-al-bukhari] }
+faith:
+  - { value: sunni, basis: tradition, note: "مسلمة مبكرة؛ تسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: child_of, target: person/abu-bakr }
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/hijra, role: "حملت السفرة إلى الغار — صاحبة قصة ذات النطاقين", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 165-166, 170" }

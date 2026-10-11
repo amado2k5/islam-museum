@@ -1,0 +1,25 @@
+id: event/ghar-thawr
+class: event
+kind: other
+label: { en: "The three nights in the cave of Thawr", ar: "ليالي غار ثور الثلاث" }
+summary:
+  en: "The Prophet and Abu Bakr hid in the cave of Thawr for the nights of Friday, Saturday and Sunday while Quraysh combed the country offering a hundred camels for each man; their pursuers reached the cave's mouth and turned back."
+  ar: "مكث النبي وأبو بكر في غار ثور ثلاث ليالٍ — الجمعة والسبت والأحد — وقريش تطوف البلاد رائجة مائة ناقة عن كل واحد منهما؛ وبلغ المطاردون باب الغار ورجعوا، وكان عبد الله بن أبي بكر ينقل الأخبار وعامر بن فهيرة يعفي الأثر بالغنم."
+wings: [time, people, place]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622-09-13~", calendar: julian, precision: day, status: tradition, note: "ثلاث ليال: الجمعة والسبت والأحد (فتح الباري 7/336؛ الرحيق ص165)." }
+  end: { edtf: "0622-09-16", hijri: "0001-03-01", calendar: julian, precision: day, status: tradition, note: "خرجا ليلة الإثنين غرة ربيع الأول 1هـ (الرحيق ص166)." }
+significance:
+  ar: "من أشهر مشاهد الهجرة؛ ارتبطت عند المسلمين بقوله تعالى «إذ يقول لصاحبه لا تحزن إن الله معنا» (التوبة ٤٠) (الرحيق ص166؛ بخاري 1/516، 1/558)."
+relations:
+  - { type: occurred_at, target: place/ghar-thawr }
+  - { type: part_of, target: event/hijra }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, role: "دخل الغار قبله وسد الثقب بإزاره ولُدغ", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-abi-bakr, role: "يبيت عندهما ويأتيهما بالخبر", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/amir-ibn-fuhayra, role: "يرعى عليهما منحة غنم ويعفي الأثر", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 164-166" }

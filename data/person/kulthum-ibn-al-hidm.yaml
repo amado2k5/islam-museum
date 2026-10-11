@@ -1,0 +1,25 @@
+id: person/kulthum-ibn-al-hidm
+class: person
+label: { en: "Kulthum ibn al-Hidm", ar: "كلثوم بن الهدم" }
+names:
+  - { kind: full, lang: ar, value: "كلثوم بن الهدم الأنصاري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "The Ansari of Banu Amr ibn Awf who hosted the Prophet at Quba — the better-attested report, though Sa'd ibn Khaythama is also named — and hosted Ali again when he caught up from Mecca."
+  ar: "أنصاري من بني عمرو بن عوف نزل عليه النبي بقباء — وهو الأثبت وقيل سعد بن خيثمة — ونزل عليه علي بن أبي طالب كذلك لما لحق بهما من مكة."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-sira] }
+  - { role: host, start: { edtf: "0622-09" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "أنصاري؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/quba-sojourn, role: "مضيف النبي بقباء", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 171-172" }
