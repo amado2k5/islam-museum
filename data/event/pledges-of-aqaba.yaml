@@ -3,19 +3,26 @@ class: event
 kind: treaty
 label: { en: "The Pledges of Aqaba", ar: "بيعتا العقبة" }
 summary:
-  en: "Two meetings at Aqaba, near Mecca, at which men from Medina pledged to protect the Prophet, preparing the migration."
-  ar: "لقاءان عند العقبة قرب مكة تعهّد فيهما رجال من المدينة بحماية النبي، تمهيدًا للهجرة."
+  en: "The First and Second Pledges of Aqaba at Mina in the 12th and 13th years of prophethood (621 and 622 CE), in which delegates from Yathrib pledged allegiance to the Prophet, preparing Medina as the haven of the Hijra."
+  ar: "بيعتا العقبة الأولى (بيعة النساء: 12 رجلاً في سنة 12 نبوية) والثانية (بيعة الحرب: 73 رجلاً وامرأتان في سنة 13 نبوية) عند العقبة بمنى، اللتان مهدتا لهجرة المسلمين وتأسيس دار الإسلام بالمدينة."
 wings: [time, people]
 themes: [peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0621~", calendar: julian, precision: year, status: tradition, note: "The first pledge is placed in 621 and the second, larger one in 622." }
-  end: { edtf: "0622~", calendar: julian, precision: year }
+  start: { edtf: "0621-07~", calendar: julian, precision: month, status: tradition, note: "بيعة العقبة الأولى في رجب/موسم حج سنة 12 من النبوة (يوليو 621م)." }
+  end: { edtf: "0622-06~", calendar: julian, precision: month, status: tradition, note: "بيعة العقبة الكبرى في موسم حج سنة 13 من النبوة (يونيو 622م) (الرحيق ص143-154)." }
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/musab-ibn-umayr, role: "سفير الإسلام إلى المدينة بعد الأولى", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/asad-ibn-zurara, role: "شهد البيعتين وكان أول من بايع في الثانية ونقيب بني النجار", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ubada-ibn-al-samit, role: "راوي بيعة العقبة الأولى وشاهد البيعتين ونقيب بني عوف", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-bara-ibn-marur, role: "نقيب بني سلمة والمتكلم باسم الأنصار في الثانية", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-abbas-ibn-ubada, role: "أكد خطورة البيعة على الأنصار", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "حضر ليتوثق لابن أخيه وهو على دين قومه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/ansar, role: "المبايعون من الأوس والخزرج", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/musnad-ahmad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 143-154" }

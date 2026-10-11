@@ -1,0 +1,28 @@
+id: person/abdullah-ibn-amr-ibn-haram
+class: person
+label: { en: "Abdullah ibn Amr ibn Haram", ar: "عبد الله بن عمرو بن حرام" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن عمرو بن حرام السلمي الخزرجي" }
+  - { kind: kunya, lang: ar, value: "أبو جابر" }
+gender: male
+roles: [companion, notable]
+traditions: [sunni]
+summary:
+  en: "A prominent chief of Banu Salima of the Khazraj, father of Jabir ibn Abdullah; he embraced Islam and took the Second Pledge of Aqaba where he was appointed a naqib; he fought at Badr and was the first Muslim martyred at the battle of Uhud, where the Prophet spoke of God speaking to him without a veil."
+  ar: "سيد بني سلمة ووالد الصحابي جابر بن عبد الله؛ أسلم وشهد بيعة العقبة الثانية وكان أحد النقباء، وشهد بدراً واستشهد بأحد فكان أول قتيل من المسلمين فيها، وكلمه الله كفاحاً بلا حجاب."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0622~" }, status: tradition, note: "أسلم في بيعة العقبة الثانية وكان نقيباً (الرحيق ص148، 152).", sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد أحد ونقيب من الأنصار." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/khazraj }
+  - { type: participated_in, target: event/pledges-of-aqaba, role: "نقيب بني سلمة", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 148, 152" }
