@@ -1,6 +1,4 @@
-# Source registry (docs/plan/15 §3, §5, §11). No source is fetched unless it is listed here with licence, layer, method and limits.
-# The working copy lives in $HARVEST/sources.yaml (last_fetch and checksum fields are filled there); this is the template.
-user_agent: "islam-museum-harvest/0.1 (https://github.com/amado2k5/islam-museum)"   # add a contact email in your working copy if you want higher Wikimedia limits
+user_agent: islam-museum-harvest/0.1 (https://github.com/amado2k5/islam-museum)
 sources:
   wikidata-query:
     name: Wikidata Query Service
@@ -8,23 +6,79 @@ sources:
     licence: CC0 1.0
     layer: cc0
     method: sparql, in series, one query file per class and signal
-    limits: { pause_seconds: 5, timeout_seconds: 60, backoff_on: [429, 503] }
+    limits:
+      pause_seconds: 5
+      timeout_seconds: 60
+      backoff_on:
+      - 429
+      - 503
     status: enabled
   wikidata-dump:
     name: Wikidata JSON dump
     url: https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
     licence: CC0 1.0
     layer: cc0
-    method: aria2c, two connections, resumable; stream through the subset filter, then delete
-    limits: { connections: 2, size_gib: 96 }
-    status: planned          # not downloaded yet: needs about 100 GiB free
+    method: aria2c, two connections, resumable; stream through the subset filter,
+      then delete
+    limits:
+      connections: 2
+      size_gib: 96
+      note: kept after download until the subset filter has run once; delete afterwards
+    status: enabled
   wikipedia-dumps:
     name: Wikipedia article dumps, by language
     url: https://dumps.wikimedia.org/
     licence: CC BY-SA 4.0 and GFDL
     layer: by-sa
     method: dumps only, two connections; pointers and context, never merged into cc0
-    status: planned
+    status: enabled
+    limits:
+      connections: 2
+      first_ring:
+      - en
+      - fr
+      - ar
+      - fa
+      - id
+      - tr
+      - bn
+      - ur
+      - ms
+      second_ring:
+      - de
+      - es
+      - ru
+      - zh
+      - hi
+      - ha
+      - sw
+      - so
+      - bs
+      - sq
+      - az
+      - uz
+      - kk
+      - tt
+      - ku
+      - ps
+      - pa
+      - sd
+      - ta
+      - ml
+      - th
+      - ja
+      - ko
+      - it
+      - nl
+      - pt
+      files:
+      - pages-articles-multistream.xml.bz2
+      - pages-articles-multistream-index.txt.bz2
+      - page.sql.gz
+      - categorylinks.sql.gz
+      size_gib:
+        first_ring: 47.1
+        second_ring: 44.5
   tanzil-quran:
     name: Tanzil Qur'an text v1.1 (Uthmani and Simple Clean)
     url: https://tanzil.net/download/
@@ -37,7 +91,8 @@ sources:
     url: https://github.com/OpenITI
     licence: CC BY-NC-SA 4.0 (varies by repository)
     layer: nc
-    method: git clone of selected repositories; facts extracted with quotes, text never republished
+    method: git clone of selected repositories; facts extracted with quotes, text
+      never republished
     status: planned
   met-open-access:
     name: Metropolitan Museum Open Access
@@ -54,7 +109,13 @@ sources:
     method: csv download
     status: planned
   forbidden:
-    - { name: Quran Foundation API, reason: no storage beyond a week, no redistribution }
-    - { name: Zabihah, reason: terms prohibit collection }
-    - { name: Mawaqit, reason: terms prohibit collection }
-    - { name: YouTube API data, reason: terms prohibit storage and redistribution }
+  - name: Quran Foundation API
+    reason: no storage beyond a week
+    no redistribution: null
+  - name: Zabihah
+    reason: terms prohibit collection
+  - name: Mawaqit
+    reason: terms prohibit collection
+  - name: YouTube API data
+    reason: terms prohibit storage and redistribution
+workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)
