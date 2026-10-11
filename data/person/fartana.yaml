@@ -1,0 +1,21 @@
+id: person/fartana
+class: person
+label: { en: "Fartana", ar: "فرتنى" }
+names:
+  - { kind: full, lang: ar, value: "فرتنى قينة ابن خطل" }
+gender: female
+roles: []
+summary:
+  en: "One of the two singing slave-girls of Abdullah ibn Khatal in Mecca who performed lampoons against the Prophet; proscribed on the day of the Conquest, one was killed while the other fled, sought protection, and embraced Islam."
+  ar: "إحدى قينتي عبد الله بن خطل بمكة كانتا تغنيان بهجاء النبي؛ أُمر بقتلهما يوم الفتح فقُتلت إحداهما وهربت الأخرى حتى استؤمن لها فأسلمت."
+wings: [people]
+themes: [women, laws-of-war-and-peace, music]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: victim, status: tradition, note: "أهدر دمها مع ابن خطل لهجائهما النبي (ابن هشام 4/52).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: participated_in, target: event/fath-mecca-proscribed-persons, role: proscribed-singer, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 52–53", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 52–53" }

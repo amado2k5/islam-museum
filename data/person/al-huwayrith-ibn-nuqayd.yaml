@@ -1,0 +1,25 @@
+id: person/al-huwayrith-ibn-nuqayd
+class: person
+label: { en: "al-Huwayrith ibn Nuqaydh", ar: "الحويرث بن نقيد" }
+names:
+  - { kind: full, lang: ar, value: "الحويرث بن نقيد بن وهب بن عبد بن قصي" }
+gender: male
+roles: []
+summary:
+  en: "A Qurashi in Mecca who persistently harassed the Prophet; when al-Abbas was escorting the Prophet's daughters Fatima and Umm Kulthum to Medina, al-Huwayrith prodded their camel so they fell; he was ordered killed on the Conquest and slain by Ali ibn Abi Talib."
+  ar: "رجل من قريش كان يؤذي النبي بمكة؛ ولما حمل العباس ابنتي النبي فاطمة وأم كلثوم يهاجر بهما نخس بهما الحويرث فألقاهما على الأرض؛ أهدر النبي دمه يوم الفتح وقتله علي بن أبي طالب."
+wings: [people]
+themes: [laws-of-war-and-peace, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: day, status: tradition, note: "قتله علي بن أبي طالب يوم فتح مكة.", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: persecutor, toward: person/muhammad, status: tradition, note: "ممن كان يؤذي النبي بمكة ونخس بعير فاطمة وأم كلثوم.", sources: [source/ibn-hisham-saqqa] }
+  - { role: victim, status: tradition, note: "أمر النبي بقتله يوم الفتح وقتله علي بن أبي طالب.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: died_in, target: place/mecca }
+  - { type: participated_in, target: event/fath-mecca-proscribed-persons, role: executed-person, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 52–53", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 52–53" }

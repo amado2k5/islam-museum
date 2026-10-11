@@ -1,0 +1,21 @@
+id: event/fath-mecca-sermon
+class: event
+kind: declaration
+label: { en: "The Prophet's sermon at the Kaaba and general amnesty", ar: "خطبة النبي عند باب الكعبة والأمان العام" }
+summary:
+  en: "Standing at the threshold of the Kaaba, the Prophet addressed the assembled people of Mecca, abolishing pre-Islamic blood feuds, reciting Qur'an 49:13 on human equality, returning the hereditary custodianship of the key to Uthman ibn Talha, and declaring a comprehensive general amnesty with the renowned words: 'Go, for you are the free ones' (al-Tulaqa')."
+  ar: "وقف النبي على باب الكعبة خطيبًا في أهل مكة، فأسقط مآثر الجاهلية ودماءها، وتلا 49:13 في المساواة، وأعاد مفتاح السدانة لعثمان بن طلحة، وأعلن العفو العام الشامل بكلمته الخالدة: «اذهبوا فأنتم الطلقاء»."
+wings: [time, people, place]
+themes: [peace-making-and-coexistence, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم فتح مكة بعد الطواف، رمضان 8هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: part_of, target: event/conquest-of-mecca }
+  - { type: had_participant, target: person/muhammad, role: speaker-and-amnesty-giver, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: hearer, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 54–55", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 54–55" }

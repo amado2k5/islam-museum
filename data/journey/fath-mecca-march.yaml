@@ -1,0 +1,21 @@
+id: journey/fath-mecca-march
+class: journey
+kind: military_campaign
+label: { ar: "مسيرة فتح مكة", en: "The march of the Conquest of Mecca" }
+summary:
+  ar: "مسيرة جيش الفتح بعشرة آلاف مقاتل من المدينة إلى مكة في رمضان 8هـ (يناير 630م): الخروج لعشر مضين من رمضان واستخلاف أبي رهم الغفاري، فالنزول بالكديد والإفطار، ثم التعسكر بمر الظهران وإيقاد النيران، فذي طوى وتقسيم ألوية الدخول، حتى دخول مكة."
+  en: "The march of the ten-thousand-strong army of the Conquest from Medina to Mecca in Ramadan 8 AH (January 630 CE): departing Medina on 10 Ramadan, breaking fast at al-Kudayd, encamping with 10,000 fires at Marr al-Zahran, halting at Dhu Tuwa to divide columns, and entering Mecca."
+wings: [time, place, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad, person/abu-bakr, person/umar-ibn-al-khattab, person/ali-ibn-abi-talib, person/khalid-ibn-al-walid, person/zubayr-ibn-al-awwam]
+legs:
+  - { from: place/medina, to: place/al-kudayd, mode: march, note: "خرج لعشر مضين من رمضان واستخلف على المدينة أبا رهم كلثوم بن حصين الغفاري؛ وصام حتى بلغ الكديد فأفطر وأفطر الناس (ابن هشام 4/42)", sources: [source/ibn-hisham-saqqa] }
+  - { from: place/al-kudayd, to: place/marr-al-zahran, mode: march, note: "نزل مر الظهران في عشرة آلاف من المسلمين فأوقدوا عشرة آلاف نار؛ وفيه استأمن العباس لأبي سفيان وأسلم صبيحة الليلة (ابن هشام 4/42–46)", sources: [source/ibn-hisham-saqqa] }
+  - { from: place/marr-al-zahran, to: place/dhu-tuwa, mode: march, note: "حبس العباس أبا سفيان بمضيق الوادي عند خطم الجبل حتى مرت به كتائب القبائل والكتيبة الخضراء، ثم مضى الجيش إلى ذي طوى (ابن هشام 4/46–47)", sources: [source/ibn-hisham-saqqa] }
+  - { from: place/dhu-tuwa, to: place/mecca, mode: march, note: "نزل ذي طوى واضعاً رأسه تواضعاً، وفرق جيشه: الزبير من كدى، وسعد بن عبادة ثم علي من كداء، وخالد من أسفل مكة من الليط، وأبو عبيدة بالصف، ودخل النبي من أذاخر (ابن هشام 4/48–49)", sources: [source/ibn-hisham-saqqa] }
+distance_km: 450
+relations:
+  - { type: part_of, target: event/conquest-of-mecca }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 42–49" }

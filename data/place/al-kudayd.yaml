@@ -1,0 +1,18 @@
+id: place/al-kudayd
+class: place
+kind: site
+label: { en: "al-Kudayd", ar: "الكديد" }
+summary:
+  en: "A watering place between Usfan and Amaj on the road between Medina and Mecca; there the Prophet broke his fast and the army broke theirs on the march of the Conquest in Ramadan 8 AH."
+  ar: "ماء بين عسفان وأمج على طريق المدينة ومكة؛ نزل عنده النبي في مسيرة فتح مكة في رمضان سنة ثمان فأفطر وأفطر الناس معه."
+wings: [place]
+themes: [sacred-space-and-pilgrimage, fasting]
+regions: [arabia]
+historical_names:
+  - { name: "الكديد", note: "بفتح الكاف وكسر الدال؛ ماء بين عسفان وأمج" }
+relations:
+  - { type: located_in, target: place/mecca, confidence: medium, note: "بين عسفان وأمج على طريق مكة." }
+coordinate_note: "Coordinates withheld: situated between Usfan and Amaj per the classical text."
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 42", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 42" }

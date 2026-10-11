@@ -1,0 +1,24 @@
+id: person/salama-ibn-al-mayla
+class: person
+label: { en: "Salama ibn al-Mayla' al-Juhani", ar: "سلمة بن الميلاء الجهني" }
+names:
+  - { kind: full, lang: ar, value: "سلمة بن الميلاء الجهني" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A warrior of Juhayna who was killed in Khalid ibn al-Walid's cavalry during the entry into Mecca on the day of the Conquest."
+  ar: "مقاتل من جهينة كان في خيل خالد بن الوليد، أُصيب وقُتل يوم فتح مكة في مناوشات الدخول."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: martyr, status: tradition, note: "أصيب في خيل خالد بن الوليد يوم فتح مكة (ابن هشام 4/50).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "من قتلى المسلمين يوم فتح مكة." }
+relations:
+  - { type: participated_in, target: event/khandama-skirmish, role: fallen-fighter, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 50" }

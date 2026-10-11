@@ -1,0 +1,18 @@
+id: place/marr-al-zahran
+class: place
+kind: site
+label: { en: "Marr al-Zahran", ar: "مر الظهران" }
+summary:
+  en: "A major valley stage one stage north of Mecca (modern Wadi Fatima); there the ten-thousand-strong Muslim army encamped and lit ten thousand fires, Abu Sufyan was brought in by al-Abbas, and the tribes paraded in iron before the entry."
+  ar: "وادٍ فسيح على مرحلة شمال مكة (وادي فاطمة اليوم)؛ عسكر فيه جيش الفتح بعشرة آلاف مقاتل وأوقدوا عشرة آلاف نار، وفيه أتى العباس بأبي سفيان واستعرضت القبائل بالسلاح قبيل دخول مكة."
+wings: [place]
+themes: [sacred-space-and-pilgrimage, battles]
+regions: [arabia]
+historical_names:
+  - { name: "مر الظهران", note: "وادي فاطمة حالياً" }
+relations:
+  - { type: located_in, target: place/mecca, confidence: high, note: "على مرحلة من مكة؛ وادي فاطمة اليوم." }
+coordinate_note: "Position corresponds to modern Wadi Fatima north of Mecca; coordinates withheld pending standard gazetteer check."
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 42–47", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 42–47" }

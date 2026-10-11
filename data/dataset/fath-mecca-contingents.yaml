@@ -1,0 +1,13 @@
+id: dataset/fath-mecca-contingents
+class: dataset
+label: { ar: "تعداد وألوية جيش فتح مكة", en: "Contingents and banners of the Conquest of Mecca army" }
+summary:
+  ar: "جدول قبائل وأعداد المقاتلين في جيش فتح مكة (عشرة آلاف مقاتل)، مستخرج من سيرة ابن هشام (الجزء الرابع ص 42، 63) بتحقيق مصطفى السقا."
+  en: "Tribal contingents and fighter numbers in the army of the Conquest of Mecca (10,000 men), extracted from Ibn Hisham's Sira (juz' 4 pp. 42, 63)."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+rows_file: datasets/fath-mecca-contingents.csv
+license: CC0
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 42, 63" }

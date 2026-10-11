@@ -1,0 +1,23 @@
+id: event/abu-sufyan-conversion
+class: event
+kind: other
+label: { en: "The conversion of Abu Sufyan ibn Harb", ar: "إسلام أبي سفيان بن حرب بمر الظهران" }
+summary:
+  en: "At Marr al-Zahran on the eve of the Conquest, al-Abbas brought Abu Sufyan into the Muslim camp; after witnessing the ten thousand campfires and parading contingents, Abu Sufyan professed Islam, and the Prophet granted general sanctuary to whoever entered his house."
+  ar: "في مر الظهران عشيّة الفتح، أتى العباس بن عبد المطلب بأبي سفيان بعدما رأى نيران المعسكر، وشهد استعراض كتائب القبائل بمضيق الوادي، فأسلم صبيحة تلك الليلة، وجعل النبي داره إحدى دور الأمان لأهل مكة."
+wings: [time, people, place]
+themes: [converts-and-leavers, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: day, status: tradition, derived: true, note: "عشية وصبيحة النزول بمر الظهران في رمضان سنة 8هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/marr-al-zahran }
+  - { type: part_of, target: event/conquest-of-mecca }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: convert, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: accepted-conversion, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: protector-mediator, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: challenged-enemy, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 44–47", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 44–47" }

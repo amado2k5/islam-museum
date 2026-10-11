@@ -1,0 +1,24 @@
+id: person/fadala-ibn-umayr
+class: person
+label: { en: "Fadala ibn Umayr al-Laythi", ar: "فضالة بن عمير الليثي" }
+names:
+  - { kind: full, lang: ar, value: "فضالة بن عمير بن الملوح الليثي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A man of Banu Layth who intended to assassinate the Prophet while he was performing tawaf around the Kaaba during the Conquest; the Prophet called him by name, placed his hand over his chest until his heart calmed, and Fadala embraced Islam."
+  ar: "رجل من بني ليث همّ باغتيال النبي وهو يطوف بالبيت عام الفتح؛ فناداه النبي باسمه ووضع يده الشريفة على صدره فسكن قلبه وأسلم من ساعته."
+wings: [people]
+themes: [converts-and-leavers, sacred-space-and-pilgrimage]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "همّ بقتل النبي في الطواف فعفا عنه ووضع يده على صدره فأسلم (ابن هشام 4/59–60).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم يوم فتح مكة." }
+relations:
+  - { type: participated_in, target: event/fath-mecca-cleansing-kaaba, role: convert, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 59–60", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 59–60" }

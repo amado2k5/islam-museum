@@ -1,0 +1,33 @@
+id: event/khandama-skirmish
+class: event
+kind: skirmish
+label: { en: "The skirmish of al-Khandama", ar: "وقعة الخندمة" }
+summary:
+  en: "A sharp clash on the heights of al-Khandama where armed resisters from Quraysh and Banu Bakr under Safwan ibn Umayya, Ikrima ibn Abi Jahl, and Suhayl ibn Amr attempted to bar Khalid ibn al-Walid's entry; the resistance was quickly routed, leaving twelve to thirteen Meccan fighters dead, while Kurz ibn Jabir, Khunays ibn Khalid, and Salama ibn al-Mayla' fell on the Muslim side."
+  ar: "مناوشة بالسلاح على جبل الخندمة تجمع فيها مقاتلون من قريش وبني بكر بقيادة صفوان وعكرمة وسهيل لصد مجنبة خالد بن الوليد؛ انهزم المقاتلون سريعاً بعد مقتل 12 أو 13 رجلاً منهم، واستشهد من المسلمين كرز بن جابر وخنيس بن خالد وسلمة بن الميلاء."
+wings: [time, people, place]
+themes: [battles, skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: day, status: tradition, derived: true, note: "صبيحة يوم فتح مكة، رمضان 8هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-khandama }
+  - { type: occurred_at, target: place/mecca }
+  - { type: part_of, target: event/conquest-of-mecca }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: muslim-column-commander, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/kurz-ibn-jabir-al-fihri, role: fallen-fighter, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khunays-ibn-khalid, role: fallen-fighter, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/salama-ibn-al-mayla, role: fallen-fighter, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/himas-ibn-qays, role: defeated-combatant, sources: [source/ibn-hisham-saqqa] }
+sides:
+  - label: { en: "Muslim cavalry under Khalid ibn al-Walid", ar: "خيل المسلمين بقيادة خالد بن الوليد" }
+    participants: [group/early-muslims, group/banu-aslam, group/banu-ghifar, group/muzayna]
+    commanders: [person/khalid-ibn-al-walid]
+  - label: { en: "Quraysh and Banu Bakr resisters", ar: "مقاتلو قريش وبني بكر بالخندمة" }
+    participants: [group/quraysh, group/banu-bakr]
+    commanders: [person/suhayl-ibn-amr]
+casualties: { range: [15, 16], status: tradition, note: "قتل من المشركين نحو 12 أو 13 رجلاً ثم انهزموا، واستشهد من المسلمين ثلاثة: كرز بن جابر وخنيس بن خالد وسلمة بن الميلاء.", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 49–50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 49–50" }

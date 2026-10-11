@@ -1,0 +1,26 @@
+id: person/abdullah-ibn-sad-ibn-abi-sarh
+class: person
+label: { en: "Abdullah ibn Sa'd ibn Abi Sarh", ar: "عبد الله بن سعد بن أبي سرح" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن سعد بن أبي سرح بن الحارث العامري القرشي" }
+gender: male
+roles: [companion, official]
+traditions: [sunni]
+summary:
+  en: "A scribe of revelation who apostatized back to Quraysh; proscribed on the day of the Conquest, he was sheltered by his foster brother Uthman ibn Affan who pleaded for him until the Prophet granted him pardon; he returned to Islam and later governed Egypt under Umar and Uthman."
+  ar: "كاتب للوحي في المدينة ارتد ولحق بمكة؛ أهدر النبي دمه يوم الفتح فاستأمن له أخوه من الرضاعة عثمان بن عفان بعد صمت طويل، فعفا عنه وأسلم وحسن إسلامه وولاه عمر ثم عثمان مصر."
+wings: [people]
+themes: [converts-and-leavers, laws-of-war-and-peace]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, egypt-nile]
+story_roles:
+  - { role: left-islam, status: tradition, note: "كان يكتب الوحي فارتد مشركًا ولحق بقريش (ابن هشام 4/51).", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, status: tradition, note: "جدد إسلامه يوم الفتح بشفاعة عثمان بن عفان (ابن هشام 4/51–52).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم وحسن إسلامه بعد الفتح." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/fath-mecca-proscribed-persons, role: pardoned-person, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 51–52", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 51–52" }

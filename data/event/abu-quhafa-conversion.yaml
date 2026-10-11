@@ -1,0 +1,22 @@
+id: event/abu-quhafa-conversion
+class: event
+kind: other
+label: { en: "The conversion of Abu Quhafa", ar: "إسلام أبي قحافة عثمان بن عامر" }
+summary:
+  en: "At Dhu Tuwa or upon the entry into Mecca, Abu Bakr led his aged, blind father Abu Quhafa to the Prophet to profess Islam; the Prophet remarked with tenderness that he should have gone to the old man instead, and instructed that his white hair be dyed."
+  ar: "بذي طوى عند مشارف مكة، قاد أبو بكر الصديق أباه الكفيف الطاعن في السن أبا قحافة إلى النبي ليعلن إسلامه؛ فرحب به النبي تكريماً وقال: «هلا تركت الشيخ في بيته حتى نكون نحن نأتيه»، وأمر بصبغ شيبه."
+wings: [time, people, place]
+themes: [converts-and-leavers, the-elderly]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم دخول مكة بذي طوى، رمضان 8هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/dhu-tuwa }
+  - { type: part_of, target: event/conquest-of-mecca }
+  - { type: had_participant, target: person/abu-quhafa, role: convert, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-bakr, role: guide-and-son, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: accepted-conversion, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 48", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 48" }

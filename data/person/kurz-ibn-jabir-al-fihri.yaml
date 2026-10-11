@@ -1,0 +1,25 @@
+id: person/kurz-ibn-jabir-al-fihri
+class: person
+label: { en: "Kurz ibn Jabir al-Fihri", ar: "كرز بن جابر الفهري" }
+names:
+  - { kind: full, lang: ar, value: "كرز بن جابر بن وهب بن حبيب بن هلال الفهري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Companion from Banu Muharib ibn Fihr; in the conquest of Mecca he rode in Khalid ibn al-Walid's cavalry, strayed off the main road with Khunays ibn Khalid, and was killed defending his fallen comrade at al-Khandama."
+  ar: "صحابي من بني محارب بن فهر؛ سار في خيل خالد بن الوليد يوم فتح مكة فشذّ مع خنيس بن خالد عن الطريق فلقيا المقاتلين بالخندمة، فقُتل وهو يدافع عن خنيس راجزًا."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: martyr, status: tradition, note: "استشهد يوم فتح مكة بالخندمة مدافعًا عن خنيس بن خالد وهو يرتجز: «لأضربن اليوم عن أبي صخر…».", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي شهيد يوم الفتح." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/khandama-skirmish, role: fallen-fighter, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 50" }

@@ -1,0 +1,16 @@
+id: place/al-khandama
+class: place
+kind: mountain
+label: { en: "al-Khandama", ar: "الخندمة" }
+summary:
+  en: "A rugged mountain on the edge of Mecca where resisters from Quraysh and Banu Bakr gathered under Safwan ibn Umayya, Ikrima ibn Abi Jahl, and Suhayl ibn Amr, and clashed with Khalid ibn al-Walid's column on the morning of the Conquest."
+  ar: "جبل وعر بفرع مكة تجمّع فيه مقاتلو قريش وبني بكر بقيادة صفوان وعكرمة وسهيل لصد المسلمين، ودارت فيه وقعة الخندمة مع مجنبة خالد بن الوليد صبيحة الفتح."
+wings: [place]
+themes: [battles]
+regions: [arabia]
+relations:
+  - { type: located_in, target: place/mecca }
+coordinate_note: "Mountain ridge overlooking Mecca."
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 49–50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 49–50" }

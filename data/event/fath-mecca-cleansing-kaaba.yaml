@@ -1,0 +1,22 @@
+id: event/fath-mecca-cleansing-kaaba
+class: event
+kind: other
+label: { en: "The cleansing of the Kaaba and destruction of idols", ar: "تطهير الكعبة وتكسير الأصنام" }
+summary:
+  en: "Upon entering the sacred precinct, the Prophet circumambulated the Kaaba on his mount, toppled three hundred and sixty lead-fastened idols with his staff while reciting Qur'an 17:81, opened the sanctuary with Uthman ibn Talha's key, effaced the wall frescoes inside while reciting Qur'an 3:67, and had Bilal deliver the adhan from atop the roof."
+  ar: "طاف النبي بالبيت على راحلته، وأشار بقضيب في يده إلى 360 صنمًا مشدودة بالرصاص حول الكعبة فجعلت تسقط وهو يتلو 17:81، ثم تسلم المفتاح من عثمان بن طلحة، وطمس الصور وتماثيل الأزلام بداخلها متلوًّا 3:67، وأمر بلالاً فأذن من فوق ظهر الكعبة."
+wings: [time, people, place]
+themes: [sacred-space-and-pilgrimage, creed]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم فتح مكة، رمضان 8هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: part_of, target: event/conquest-of-mecca }
+  - { type: had_participant, target: person/muhammad, role: cleansed-sanctuary, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/bilal-ibn-rabah, role: muezzin-atop-kaaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/fadala-ibn-umayr, role: convert, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 54–56, 59", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 54–59" }

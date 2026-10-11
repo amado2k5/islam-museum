@@ -1,0 +1,25 @@
+id: person/khirash-ibn-umayya
+class: person
+label: { en: "Khirash ibn Umayya al-Ka'bi", ar: "خراش بن أمية الكعبي" }
+names:
+  - { kind: full, lang: ar, value: "خراش بن أمية بن ربيعة الكعبي الخزاعي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A warrior of Banu Ka'b of Khuza'a who, following the conquest of Mecca, ambushed and killed Ibn al-Anwa' al-Hudhali for pre-Islamic blood; the Prophet strongly condemned the act, paid the victim's wergild himself, and delivered the sermon of Mecca's perpetual inviolability."
+  ar: "رجل من بني كعب من خزاعة غدر بابن الأنوع الهذلي بعد الفتح فقتله بثأر قديم؛ فأنكر النبي صنيعه أشد الإنكار وقال «إن خراشًا لقتّال»، وودى القتيل من ماله وخطب في حرمة مكة."
+wings: [people]
+themes: [laws-of-war-and-peace, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "صحابي من خزاعة شهد الفتح وعاتبه النبي لقتله ابن الأنوع (ابن هشام 4/56–57).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي من خزاعة." }
+relations:
+  - { type: member_of, target: group/khuzaa }
+  - { type: participated_in, target: event/khirash-incident, role: slayer, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 56–58", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 56–58" }

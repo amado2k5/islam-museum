@@ -1,0 +1,22 @@
+id: person/himas-ibn-qays
+class: person
+label: { en: "Himas ibn Qays al-Dili", ar: "حماس بن قيس الديلي" }
+names:
+  - { kind: full, lang: ar, value: "حماس بن قيس بن خالد الديلي" }
+gender: male
+roles: [tribal-leader]
+summary:
+  en: "A warrior of Banu Bakr who prepared weapons before the Conquest boasting he would kill Muhammad's companions; he fought at al-Khandama, broke and fled to his house, reciting famous verses to his wife."
+  ar: "رجل من بني بكر أعدّ سلاحه قبل الفتح وتوعّد أصحاب النبي، وقاتل بالخندمة فلما رأى خيل خالد انهزم إلى داره وأغلق بابه، وقال لامرأته أبياته الشهيرة: «إنكِ لو شهدتِ يوم الخندمة…»."
+wings: [people]
+themes: [battles, literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, status: tradition, note: "قاتل في صفوان وعكرمة بالخندمة ثم فر إلى بيته.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-bakr }
+  - { type: participated_in, target: event/khandama-skirmish, role: defeated-combatant, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 49–50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 49–50" }

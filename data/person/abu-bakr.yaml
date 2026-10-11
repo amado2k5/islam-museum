@@ -19,6 +19,7 @@ story_roles:
 relations:
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }
+  - { type: child_of, target: person/abu-quhafa }
   - { type: participated_in, target: event/hijra, role: companion }
 external_ids: { wikidata: Q43380 }
 perspectives:

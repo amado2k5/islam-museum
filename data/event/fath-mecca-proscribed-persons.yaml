@@ -1,0 +1,39 @@
+id: event/fath-mecca-proscribed-persons
+class: event
+kind: other
+label: { en: "The proscribed persons on the day of the Conquest", ar: "من أهدرت دماؤهم يوم فتح مكة" }
+summary:
+  en: "Prior to entering Mecca, the Prophet ordered the army to fight only those who offered armed resistance, except for a small named group of individuals accused of apostasy combined with murder, severe physical harm, or treasonous incitement, ordered slain even if found under the Kaaba's curtains. Several were executed, while others were granted protection and returned to Islam."
+  ar: "عهد النبي إلى أمرائه ألا يقاتلوا إلا من قاتلهم، واستثنى نفرًا محددين سمّاهم وأمر بقتلهم ولو تعلقوا بأستار الكعبة لجرائم قتل مقترنة بالردة أو أذى شديد أو هجاء تحريضي؛ فقُتل بعضهم واستؤمن لآخرين فعفا عنهم وأسلموا."
+wings: [time, people, place]
+themes: [laws-of-war-and-peace, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم فتح مكة، رمضان 8هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: part_of, target: event/conquest-of-mecca }
+  - { type: had_participant, target: person/muhammad, role: issued-order-and-pardons, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: proscribed-then-pardoned, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-khatal, role: proscribed-and-executed, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-huwayrith-ibn-nuqayd, role: proscribed-and-executed, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/miqyas-ibn-subaba, role: proscribed-and-executed, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/fartana, role: proscribed-singer, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/sara-al-mawla, role: proscribed-then-pardoned, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: executor-of-order, sources: [source/ibn-hisham-saqqa] }
+perspectives:
+  - tradition: sunni
+    summary:
+      ar: "يرى التراث السني أن الإهدار لم يكن لأجل الشرك بل لجرائم جنائية محددة ارتكبها أصحابها (كالقتل العمد بعد الغدر وأخذ الصدقة، ونخس بنات النبي، والتحريض الحربي)، وأن العفو النبوي شمل كل من جاء تائبًا ومستأمنًا كابن أبي سرح وعكرمة."
+      en: "Sunni scholarship maintains that the death decrees targeted specific capital crimes (murder coupled with treason, severe physical assault of non-combatants, and war incitement), not polytheism itself, and highlights that anyone who genuinely sought protection and repented was pardoned."
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    summary:
+      ar: "يدرس المؤرخون قائمة المهدرة دماؤهم بوصفها تدبيرًا استثنائيًا ومحدودًا للغاية استهدف كسر شوكة أشد المعارضين والمنشقين سياسيًا عن الجماعة المسلمة، ويشيرون إلى تفاوت الروايات المبكرة في أسماء وأعداد المستثنين وفي مصائر بعضهم."
+      en: "Modern historians analyze the proscription as a selective, highly contained political-judicial measure targeting key ideological opponents, apostate officials, and perpetrators of specific outrages, noting that early sources display small variations in the exact roster of names and ultimate fates."
+    sources: [source/watt-1956-medina]
+sensitivity: contested
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 51–53", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa, source/watt-1956-medina]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 51–53" }

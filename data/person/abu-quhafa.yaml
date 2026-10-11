@@ -1,0 +1,26 @@
+id: person/abu-quhafa
+class: person
+label: { en: "Abu Quhafa Uthman ibn Amir", ar: "أبو قحافة عثمان بن عامر" }
+names:
+  - { kind: full, lang: ar, value: "عثمان بن عامر بن عمرو بن كعب بن سعد بن تيم" }
+  - { kind: kunya, lang: ar, value: "أبو قحافة" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "The father of Abu Bakr al-Siddiq; an old, blind man who watched the Muslim army enter Mecca from Mount Abu Qubays and was brought by his son to the Prophet at Dhu Tuwa to profess Islam."
+  ar: "والد أبي بكر الصديق؛ شيخ كبير كفيف أشرف يوم الفتح من جبل أبي قبيس مع ابنته ينظر قدوم الجيش، فأتى به ابنه أبو بكر إلى النبي بذي طوى حتى أسلم."
+wings: [people]
+themes: [converts-and-leavers, the-elderly]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "أسلم يوم فتح مكة بذي طوى حين جاء به ابنه أبو بكر، فقال النبي: «هلا تركت الشيخ في بيته حتى نكون نحن نأتيه»، وأمر بتغيير شيبه.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح (8هـ)." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/abu-quhafa-conversion, role: convert, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 48", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 48" }

@@ -1,0 +1,26 @@
+id: person/khunays-ibn-khalid
+class: person
+label: { en: "Khunays ibn Khalid al-Khuza'i", ar: "خنيس بن خالد الخزاعي (أبو صخر)" }
+names:
+  - { kind: full, lang: ar, value: "خنيس بن خالد بن ربيعة بن أصرم الخزاعي" }
+  - { kind: kunya, lang: ar, value: "أبو صخر" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Khuza'i Companion (kunya Abu Sakhr, allied to Banu Munqidh) in Khalid ibn al-Walid's cavalry; he took an alternate path on entering Mecca and was killed at al-Khandama along with Kurz ibn Jabir."
+  ar: "صحابي من خزاعة (يكنى أبا صخر، حليف بني منقذ) كان في خيل خالد بن الوليد يوم الفتح؛ شذ عن الجيش مع كرز بن جابر فقُتلا بالخندمة صبيحة الفتح."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: martyr, status: tradition, note: "استشهد يوم فتح مكة بالخندمة مع كرز بن جابر الفهري.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي شهيد يوم الفتح." }
+relations:
+  - { type: member_of, target: group/khuzaa }
+  - { type: participated_in, target: event/khandama-skirmish, role: fallen-fighter, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 50" }

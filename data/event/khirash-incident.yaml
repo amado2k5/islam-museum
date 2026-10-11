@@ -1,0 +1,22 @@
+id: event/khirash-incident
+class: event
+kind: other
+label: { en: "The killing of Ibn al-Anwa' and the sermon on Mecca's sanctity", ar: "مقتل ابن الأنوع وخطبة النبي في حرمة مكة" }
+summary:
+  en: "After the general safety was proclaimed, Khirash ibn Umayya ambushed and killed Ibn al-Anwa' al-Hudhali to settle an old blood dispute; the Prophet strongly condemned the murder, paid the full wergild from his own funds, and the next day delivered a decisive sermon proclaiming the perpetual inviolability of Mecca's blood, trees, and game."
+  ar: "بعد إعلان الأمان غدر خراش بن أمية الخزاعي برجل من هذيل (ابن الأنوع) فقتله بثأر قديم؛ فغضب النبي وأنكر فعله ودفع ديته كاملة من ماله، وخطب الغداة في حرمة مكة المؤبدة وتحريم سفك الدم أو قطع الشجر فيها."
+wings: [time, people, place]
+themes: [laws-of-war-and-peace, sacred-space-and-pilgrimage]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: day, status: tradition, derived: true, note: "الغداة من يوم الفتح، رمضان 8هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: part_of, target: event/conquest-of-mecca }
+  - { type: had_participant, target: person/muhammad, role: judge-and-blood-money-payer, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khirash-ibn-umayya, role: slayer, sources: [source/ibn-hisham-saqqa] }
+casualties: { value: 1, status: tradition, note: "قتل ابن الأنوع الهذلي غدراً بعد الأمان، فوداه النبي بمائة من الإبل.", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 56–58", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 56–58" }

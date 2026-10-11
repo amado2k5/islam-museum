@@ -1,0 +1,26 @@
+id: person/miqyas-ibn-subaba
+class: person
+label: { en: "Miqyas ibn Subaba", ar: "مقيس بن صبابة" }
+names:
+  - { kind: full, lang: ar, value: "مقيس بن صبابة السهمي القرشي" }
+  - { kind: alternate, lang: ar, value: "مقيس بن حبابة" }
+gender: male
+roles: []
+summary:
+  en: "A man of Banu Sahm who came to Medina feigning Islam to claim blood money for his brother killed accidentally; after accepting the wergild, he murdered his brother's killer and fled back to Mecca an apostate; proscribed on the day of the Conquest and slain by Numayla ibn Abdullah."
+  ar: "رجل من بني سهم أظهر الإسلام ليأخذ دية أخيه الذي قُتل خطأ؛ فلما أخذ الدية غدر بالقاتل فقتله وارتد إلى مكة مشركًا، فأهدر دمه يوم الفتح وقتله نُميلة بن عبد الله من قومه."
+wings: [people]
+themes: [converts-and-leavers, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: day, status: tradition, note: "قتل يوم فتح مكة بالسوق.", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: left-islam, status: tradition, note: "قتل الأنصاري بعد أخذ الدية وارتد إلى قريش مشركًا (ابن هشام 4/52).", sources: [source/ibn-hisham-saqqa] }
+  - { role: victim, status: tradition, note: "أمر النبي بقتله وقُتل بالسوق قتله نميلة بن عبد الله (ابن هشام 4/53).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: died_in, target: place/mecca }
+  - { type: participated_in, target: event/fath-mecca-proscribed-persons, role: executed-apostate, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 52–53", generated_by: "Devin", run: "ibn-hisham-batch-1b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 52–53" }
