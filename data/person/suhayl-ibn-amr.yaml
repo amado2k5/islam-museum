@@ -1,0 +1,34 @@
+id: person/suhayl-ibn-amr
+class: person
+label: { en: "Suhayl ibn Amr", ar: "سهيل بن عمرو" }
+names:
+  - { kind: full, lang: ar, value: "سهيل بن عمرو العامري" }
+gender: male
+born: { edtf: "0570~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0639~", calendar: julian, precision: year, status: tradition, note: "Died in the plague of Amwas, ~18 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [politician]
+traditions: []
+summary:
+  en: "Quraysh's orator and spokesman — the diplomat who faced Muhammad across the table at Hudaybiyya — who converted at the conquest and died a Muslim in the plague of Amwas."
+  ar: "خطيب قريش ولسانها — الدبلوماسي الذي جلس في مفاوضة الحديبية في مقابل محمد — وأسلم يوم الفتح ومات مسلمًا في طاعون عمواس."
+wings: [people]
+themes: [peace-making-and-coexistence, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0630" }, status: historical, note: "Captured at Badr and ransomed; later Quraysh's spokesman and treaty negotiator.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: convert, start: { edtf: "0630" }, status: tradition, note: "Converted at the conquest of Mecca; tradition records the Prophet predicting that Suhayl would yet stand in a place that would gladden the Muslims.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0630" }, end: { edtf: "0639" }, status: tradition, note: "The tradition remembers him delivering the eulogy oration in Mecca at the news of the Prophet's death.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, sources: [source/watt-1956-medina] }
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/amwas }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/battle-of-badr, role: captured-and-ransomed, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/treaty-of-hudaybiyya, role: meccan-negotiator, sources: [source/ibn-ishaq-guillaume] }
+  - { type: signed, target: event/treaty-of-hudaybiyya, role: signatory-for-quraysh, sources: [source/ibn-ishaq-guillaume] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

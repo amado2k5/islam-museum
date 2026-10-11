@@ -1,0 +1,51 @@
+id: person/abu-sufyan-ibn-harb
+class: person
+label: { en: "Abu Sufyan ibn Harb", ar: "أبو سفيان بن حرب" }
+names:
+  - { kind: full, lang: ar, value: "صخر بن حرب بن أمية الأموي" }
+gender: male
+born: { edtf: "0560~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0653~", calendar: julian, precision: year, status: debated, note: "Reported at Mecca or Medina, 31-32 AH / ~652-653 CE, at a great age.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993] }
+roles: [politician, merchant]
+traditions: []
+summary:
+  en: "Leader of Mecca through the years of open war against the Muslims — commander at Uhud and the Trench — who submitted at the conquest of Mecca and ended his life a Muslim; father of the first Umayyad caliph."
+  ar: "زعيم مكة في سنين الحرب المعلنة ضد المسلمين — قائد بأحد والخندق — الذي دخل في الإسلام يوم الفتح ومات مسلمًا؛ والد أول خلفاء بني أمية."
+wings: [people]
+themes: [battles, peace-making-and-coexistence, trade-and-finance]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0630" }, status: historical, note: "Commanded the Meccan side at Uhud (625) and led the confederates at the Trench (627); the caravan whose rescue precipitated Badr was his.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: convert, start: { edtf: "0630" }, status: tradition, note: "Submitted on the eve of the conquest of Mecca; the tradition records the Prophet granting safety at his house.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0630" }, end: { edtf: "0632" }, status: tradition, note: "Fought with the Muslims at Hunayn and Ta'if weeks after his conversion; tradition places the loss of his second eye at Ta'if.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: ruler, start: { edtf: "0634~" }, end: { edtf: "0653~" }, status: tradition, note: "Governor (of Najran or the Hijaz districts in the sources' varying accounts) under Abu Bakr and Umar.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, note: "Leader of Mecca's traditional order through the war years.", sources: [source/watt-1956-medina] }
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, note: "Late convert; the sincerity of the conversion is debated by historians, while the tradition counts him among the companions.", sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: child_of, target: person/harb-ibn-umayya }
+  - { type: member_of, target: group/banu-umayya }
+  - { type: member_of, target: group/quraysh }
+  - { type: spouse_of, target: person/hind-bint-utba }
+  - { type: opposed, target: person/muhammad, start: { edtf: "0624" }, end: { edtf: "0630" }, sources: [source/watt-1956-medina] }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0625" }, end: { edtf: "0627" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-uhud, role: meccan-commander, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-the-trench, role: confederate-commander, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/conquest-of-mecca, role: submission, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-hunayn, role: muslim-side, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/ibn-ishaq-guillaume] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "A companion by conversion before the conquest; the tradition counts him among the people of virtue in Islam, notes his service as governor under the Rashidun, and records the Prophet's grant that whoever entered Abu Sufyan's house was safe." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians read his career as the arc of Meccan realpolitik: the able leader of the opposition who converted when resistance had become impossible, and whose Umayyad kin then rose within the new state." }
+    sources: [source/watt-1956-medina]
+  - tradition: shia-twelver
+    summary: { en: "Twelver Shia tradition remembers him through his son Mu'awiya's war against Ali and regards the late conversion with deep suspicion." }
+    sources: [source/momen-1985]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+sensitivity: contested
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

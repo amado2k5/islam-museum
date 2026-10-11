@@ -1,0 +1,37 @@
+id: person/ikrima-ibn-abi-jahl
+class: person
+label: { en: "Ikrima ibn Abi Jahl", ar: "عكرمة بن أبي جهل" }
+names:
+  - { kind: full, lang: ar, value: "عكرمة بن عمرو بن هشام المخزومي" }
+gender: male
+born: { edtf: "0585~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0636~", calendar: julian, precision: year, status: tradition, note: "Killed at the Yarmuk (or at Ajnadayn in some accounts), 15 AH / ~636 CE.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993] }
+roles: [general]
+traditions: []
+summary:
+  en: "Son of Abu Jahl: a leader of the Meccan opposition who was pardoned at the conquest of Mecca, became a Muslim, and died fighting under the banner of Islam on the Syrian front."
+  ar: "ابن أبي جهل: من قادة المعارضة المكية، أُمن يوم الفتح فأسلم، وقُتل يقاتل تحت راية الإسلام في جبهة الشام."
+wings: [people]
+themes: [battles, converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0630" }, status: historical, note: "Fought on the Meccan side at Uhud and commanded a wing at the conquest, where his group alone offered resistance.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: convert, start: { edtf: "0630" }, status: tradition, note: "Fled toward Yemen after the conquest, was pardoned at his wife Umm Hakim's intercession, and returned to pledge Islam.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: commander, start: { edtf: "0632" }, end: { edtf: "0636" }, status: tradition, note: "Led troops against Musaylima in the Ridda wars, then on the Syrian front, where he was killed.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
+  - { role: martyr, start: { edtf: "0636" }, status: tradition, note: "The tradition counts his death at the Yarmuk a martyrdom — a deliberate reversal, in its telling, of his father's death at Badr.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, sources: [source/watt-1956-medina] }
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, note: "Late convert under the Prophet's general amnesty.", sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/yarmuk }
+  - { type: child_of, target: person/abu-jahl }
+  - { type: spouse_of, target: person/umm-hakim-bint-al-harith }
+  - { type: member_of, target: group/banu-makhzum }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0630" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/conquest-of-mecca, role: resistance-commander, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-yarmuk, role: muslim-commander, sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

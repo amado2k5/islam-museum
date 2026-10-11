@@ -1,0 +1,31 @@
+id: person/malik-ibn-awf
+class: person
+label: { en: "Malik ibn Awf al-Nasri", ar: "مالك بن عوف النصري" }
+names:
+  - { kind: full, lang: ar, value: "مالك بن عوف النصري" }
+gender: male
+born: { edtf: "0580~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0640~", calendar: julian, precision: decade, status: tradition, note: "Date uncertain; survived into the caliphate.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [general]
+traditions: []
+summary:
+  en: "The young commander of Hawazin who fielded the tribal confederation against the Muslims at Hunayn — and within weeks accepted Islam, reconciled with the Prophet at al-Ji'rana, and led his people back to their faith and their property."
+  ar: "القائد الشاب لهوازن الذي ساق الاتحاد القبلي في مقابل المسلمين بحُنين — ثم أسلم بعد أسابيع، وصالحه النبي بالجعرانة، وعاد بقومه إلى ديارهم وأموالهم."
+wings: [people]
+themes: [battles, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0630" }, end: { edtf: "0630" }, status: historical, note: "Commanded the Hawazin-Thaqif confederation at Hunayn, weeks after the conquest of Mecca.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: convert, start: { edtf: "0630" }, status: tradition, note: "Came to the Prophet at al-Ji'rana during the siege of Ta'if, accepted Islam, and was appointed over the Muslims of his people.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+faith:
+  - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, sources: [source/watt-1956-medina] }
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: member_of, target: group/hawazin }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0630" }, end: { edtf: "0630" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-hunayn, role: hawazin-commander, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/siege-of-taif, role: defected-and-converted, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

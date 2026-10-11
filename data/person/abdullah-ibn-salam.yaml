@@ -1,0 +1,41 @@
+id: person/abdullah-ibn-salam
+class: person
+label: { en: "Abdullah ibn Salam", ar: "عبد الله بن سلام" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن سلام" }
+  - { kind: given, lang: ar, value: "الحصين بن سلام" }
+gender: male
+born: { edtf: "0550~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0663~", calendar: julian, precision: year, status: tradition, note: "Died at Medina, ~43 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [scholar]
+traditions: []
+summary:
+  en: "A learned rabbi of Banu Qaynuqa' who examined the Prophet, declared him genuine, and became the most famous Jewish convert of Medina — held in Sunni tradition as one promised paradise."
+  ar: "حبر عالم من بني قينقاع اختبر النبي فشهد بصدقه وأسلم، فصار أشهر من أسلم من يهود المدينة — ويعدّه التراث السني من المبشرين بالجنة."
+wings: [people]
+themes: [converts-and-leavers, islam-and-judaism, scripture-and-its-sciences]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: scholar, start: { edtf: "0610~" }, status: tradition, note: "A learned man of the Jewish community of Medina before Islam; the tradition preserves his questions to the Prophet.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: convert, start: { edtf: "0622" }, status: tradition, note: "Converted at the Prophet's arrival in Medina, publicly against the counsel of his own community.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: companion, start: { edtf: "0622" }, end: { edtf: "0632" }, status: tradition, note: "Counted among the companions; in the tradition, one of those named as promised paradise.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: jewish, basis: documented, end: { edtf: "0622" }, note: "A rabbi of Banu Qaynuqa'.", sources: [source/watt-1956-medina] }
+  - { value: sunni, basis: tradition, start: { edtf: "0622" }, note: "Convert and companion.", sources: [source/ibn-sad-tabaqat-bewley] }
+labelled:
+  - { label: { en: "Ibn al-habr (son of the rabbi)", ar: "ابن الحبر" }, by: "the Muslim community", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: died_in, target: place/medina }
+  - { type: member_of, target: group/banu-qaynuqa }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0622" }, sources: [source/ibn-sad-tabaqat-bewley] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "The model sincere convert: a scholar of the older scripture who recognized the Prophet and bore witness openly, against his community's disapproval." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians note the account serves apologetic ends — a Jewish scholar validating the Prophet — while accepting that individual conversions from Medina's Jewish tribes did occur." }
+    sources: [source/watt-1956-medina]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

@@ -1,0 +1,36 @@
+id: person/kab-ibn-al-ashraf
+class: person
+label: { en: "Ka'b ibn al-Ashraf", ar: "كعب بن الأشرف" }
+names:
+  - { kind: full, lang: ar, value: "كعب بن الأشرف" }
+gender: male
+born: { edtf: "0585~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0624-09~", hijri: "0003-03~", calendar: julian, precision: month, status: historical, note: "Assassinated at his stronghold near Medina, Rabi' I 3 AH / ~September 624 CE, by a band led by Muhammad ibn Maslama with the Prophet's sanction.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+roles: [poet]
+traditions: []
+summary:
+  en: "A poet of Banu Nadir — Jewish on his father's side, Arab on his mother's — whose verses mourned the Meccan dead of Badr and satirized the Muslims and their women; assassinated with the Prophet's sanction in the first political killing of the Medinan period."
+  ar: "شاعر من بني النضير — يهودي لأبيه عربي لأمه — رثت أبياته قتلى مكة ببدر وهجت المسلمين ونساءهم؛ اغتيل بإذن النبي في أول اغتيال سياسي في العهد المدني."
+wings: [people]
+themes: [literature, factions-splits-schisms, polemic-and-apologetic]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0624" }, status: historical, note: "After Badr he went to Mecca composing elegies that incited Quraysh to revenge, then returned to satirize the Muslims in Medina.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: victim, start: { edtf: "0624-09~" }, status: historical, note: "Killed by a group of the Ansar led by Muhammad ibn Maslama; the sources record the Prophet authorizing the killing.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: jewish, basis: documented, note: "Of Banu Nadir through his father; his mother was of the Arab tribe of Banu Nadir's allies.", sources: [source/watt-1956-medina] }
+relations:
+  - { type: died_in, target: place/medina }
+  - { type: member_of, target: group/banu-nadir }
+  - { type: opposed, target: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0624" }, sources: [source/ibn-ishaq-guillaume] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "An enemy poet whose incitement after Badr made him, in the tradition's judgment, a combatant in verse; his killing is narrated as an authorized act of war." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians treat the affair as a political assassination in the factional struggle inside Medina, and note that the sources differ on details and on how far the Prophet directed it." }
+    sources: [source/watt-1956-medina]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+sensitivity: contested
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

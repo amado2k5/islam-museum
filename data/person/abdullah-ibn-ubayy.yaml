@@ -1,0 +1,41 @@
+id: person/abdullah-ibn-ubayy
+class: person
+label: { en: "Abdullah ibn Ubayy", ar: "عبد الله بن أبي بن سلول" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن أبي بن سلول الخزرجي" }
+gender: male
+born: { edtf: "0580~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0631-02~", hijri: "0009-11~", calendar: julian, precision: month, status: historical, note: "Died at Medina in Dhu al-Qa'da 9 AH / early 631 CE.", sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina] }
+roles: [politician]
+traditions: []
+summary:
+  en: "The chief of Khazraj who had been preparing to be crowned king of Medina when the Hijra ended his ambition — remembered in the Sunni sources as the leader of the 'hypocrites' who opposed the Prophet from inside the city."
+  ar: "سيد الخزرج الذي كانت يثرب تهيئ لتتويجه ملكًا حين قطعت الهجرة طموحه — يذكره التراث السني زعيمًا للمنافقين الذين عارضوا النبي من داخل المدينة."
+wings: [people]
+themes: [factions-splits-schisms, desertions-defections-withdrawals]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: ruler, start: { edtf: "0618~" }, end: { edtf: "0622" }, status: historical, note: "The acknowledged leader of Khazraj; the sources say the Aws and Khazraj had agreed to crown him king of Medina before the Prophet's arrival.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0623" }, end: { edtf: "0631" }, status: historical, note: "Professed Islam but led the internal opposition: he withdrew his contingent before Uhud, was implicated by the tradition in the slander against Aisha, and worked to split the community.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: debated, start: { edtf: "0623~" }, note: "Outwardly professed Islam; the Sunni sources classify him as the chief of the munafiqin, while historians describe a Medinese leader whose conversion was political.", sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina] }
+labelled:
+  - { label: { en: "Ra'is al-munafiqin (chief of the hypocrites)", ar: "رئيس المنافقين" }, by: "Sunni tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: died_in, target: place/medina }
+  - { type: member_of, target: group/khazraj }
+  - { type: opposed, target: person/muhammad, start: { edtf: "0623" }, end: { edtf: "0631" }, sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { type: deserted, target: event/battle-of-uhud, start: { edtf: "0625" }, note: "Withdrew a third of the army on the eve of the battle.", sources: [source/ibn-ishaq-guillaume] }
+  - { type: revealed_in, target: passage/quran-63-1, note: "Sura al-Munafiqun is read by the tradition as revealed concerning him and his faction.", sources: [source/ibn-sad-tabaqat-bewley] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "The chief of the munafiqin: outwardly Muslim, inwardly working against the Prophet — the figure around whom sura al-Munafiqun and the slander affair are read. The tradition also records that the Prophet prayed over him and gave him his own shirt for a shroud." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians describe a Medinese aristocrat whose political base the Prophet steadily absorbed; 'hypocrite' is the tradition's category for what was also a straightforward contest for power inside Medina." }
+    sources: [source/watt-1956-medina]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+sensitivity: contested
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
