@@ -42,7 +42,7 @@ Both skip finished files and resume partial ones. Checksums go to `$HARVEST/raw/
 | Stream | Owner | Where | Status |
 |---|---|---|---|
 | Prophetic-era people (batches A-F: family, Companions, Meccan opposition, protectors, Medina allies, Ridda, groups) | Devin, from its own clone, via PRs on `devin/people-batch-*` | `data/person/**`, Prophetic-era `data/group/**`, own `data/source/**`, `content/*/person/**`, `data/_stubs.d/devin-people.yaml`. Prompt: `docs/delegation/devin-people-lane.md` | Batches A-F merged 11 Oct 2026; review any further PRs before merging (all content is `draft`; check sources are real) |
-| Sīrat Ibn Hishām juz' 4 mining (plan 18: endgame, conquests, expeditions, delegations, passing) | Devin (sira mining lane) | `data/**`, `content/ar/**`, `datasets/**` | Batch 1 (فتح مكة pp. 31–69, 1a/1b) and Batch 2a (حنين وأوطاس pp. 80–101) merged to main; 0 validation errors, 32 tests passing |
+| Sīrat Ibn Hishām juz' 4 mining (plan 18: endgame, conquests, expeditions, delegations, passing) | Devin (sira mining lane) | `data/**`, `content/ar/**`, `datasets/**` | Batch 1 (فتح مكة pp. 31–69) and Batch 2 (حنين والطائف pp. 80–129) merged to main; 0 validation errors, 32 tests passing |
 | Schema, scripts, site, i18n, events, places, periods, maps, Qur'an, local harvest | Maintainer session (Claude) | everything else | In progress |
 
 Devin's schema needs arrive as `docs/requests/devin-*.md`. Unresolved references for parallel contributors go in `data/_stubs.d/*.yaml` (read by the validator and graph builder alongside `data/_stubs.yaml`).
