@@ -1,0 +1,46 @@
+id: person/aisha
+class: person
+label: { en: Aisha bint Abi Bakr, ar: عائشة بنت أبي بكر }
+names:
+  - { kind: full, lang: ar, value: عائشة بنت أبي بكر الصديق }
+  - { kind: laqab, lang: ar-Latn, value: "Umm al-Mu'minin (Mother of the Believers)" }
+gender: female
+born: { edtf: "0613~", calendar: julian, precision: year, status: debated, note: "Traditional reports place her birth about 613–614 CE; some modern writers argue for an earlier date. Recorded as debated.", sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina] }
+died: { edtf: "0678-07", hijri: "0058-09", calendar: julian, precision: month, status: tradition, note: "Traditionally 17 Ramadan 58 AH (about July 678 CE).", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, scholar]
+traditions: [sunni, shia-twelver]
+summary:
+  en: "A wife of the Prophet and daughter of Abu Bakr; one of the most prolific transmitters of hadith in Sunni tradition, whose role is viewed differently across the traditions."
+  ar: "زوجة النبي وابنة أبي بكر، من أكثر الرواة حديثًا في التقليد السني، ويُنظر إلى دورها بصورة مختلفة بين التقاليد."
+wings: [people]
+themes: [women, scripture-and-its-sciences, factions-splits-schisms]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, start: { edtf: "0623~" }, end: { edtf: "0632" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0623~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: transmitter, start: { edtf: "0632~" }, status: historical, note: "One of the most frequently cited narrators in the Sunni hadith collections.", sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). She predates the Sunni-Shia division." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/medina }
+  - { type: child_of, target: person/abu-bakr }
+  - { type: spouse_of, target: person/muhammad, start: { edtf: "0623~" }, end: { edtf: "0632" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: member_of, target: group/ahl-al-bayt, note: "As a wife of the Prophet; the membership of Ahl al-Bayt is itself contested and shown under perspectives on the group page." }
+  - { type: participated_in, target: event/hijra, role: emigrant, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-uhud, role: brought-water-to-the-fighters, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: mentioned_in, target: passage/quran-24-11, note: "The tafsir tradition associates the 'slander' verses with her vindication.", sources: [source/ibn-sad-tabaqat-bewley] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni tradition honors Aisha as Mother of the Believers, a beloved wife of the Prophet and one of the most important narrators of hadith, whose knowledge shaped early law and practice." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians treat the reports about her age and marriage cautiously as later tradition, while recognizing her as a major early authority for hadith and for the politics of the first civil war." }
+    sources: [source/watt-1956-medina]
+  - tradition: shia-twelver
+    summary: { en: "Twelver Shia tradition is critical of Aisha chiefly for leading the forces that fought Ali at the Battle of the Camel, while still acknowledging her place among the Prophet's wives." }
+    sources: [source/momen-1985]
+sensitivity: contested
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

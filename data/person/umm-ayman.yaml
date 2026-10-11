@@ -1,0 +1,31 @@
+id: person/umm-ayman
+class: person
+label: { en: Umm Ayman (Baraka bint Tha'laba), ar: أم أيمن بركة بنت ثعلبة }
+names:
+  - { kind: full, lang: ar, value: بركة بنت ثعلبة الحبشية }
+  - { kind: kunya, lang: ar, value: أم أيمن }
+gender: female
+born: { edtf: "056X", calendar: julian, precision: decade, status: tradition, note: "Year unknown; she was an Abyssinian woman of the Prophet's parents' household.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "065X", calendar: julian, precision: decade, status: tradition, note: "Reports place her death in the early caliphate; the year is not firmly recorded.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An Abyssinian freedwoman of the Prophet's family who cared for him as a child and again after his mother's death, and is counted among the Companions."
+  ar: "مولاة حبشية من بيت أهل النبي، رعت شأنه صغيرًا ثم بعد وفاة أمه، وتُعد من الصحابة."
+wings: [people]
+themes: [women, slavery-and-freedom, race-colour-ethnicity]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "Counted among the Companions; she also served the Prophet's household as nurse and caretaker in his childhood.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+labelled:
+  - { label: { en: "Umm Ayman" }, by: "the Prophet's household and the tradition (her kunya, better known than her given name Baraka)", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: lived_in, target: place/mecca }
+  - { type: lived_in, target: place/medina, start: { edtf: "0622" } }
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/battle-of-uhud, role: tended-the-wounded, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }

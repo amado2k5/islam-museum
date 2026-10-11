@@ -1,0 +1,34 @@
+id: person/zaynab-bint-ali
+class: person
+label: { en: Zaynab bint Ali, ar: زينب بنت علي }
+names:
+  - { kind: full, lang: ar, value: زينب بنت علي بن أبي طالب }
+  - { kind: laqab, lang: ar-Latn, value: "Zaynab al-Kubra" }
+gender: female
+born: { edtf: "0626~", calendar: julian, precision: year, status: tradition, note: "Traditionally born in Medina shortly after her brother Husayn; the exact year is not certain.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0682~", calendar: julian, precision: year, status: tradition, note: "Reports differ on the year and on whether she died in Damascus, Cairo or Medina; Cairo tradition gives about 682 CE.", sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985] }
+roles: [companion]
+traditions: [sunni, shia-twelver]
+summary:
+  en: "Granddaughter of the Prophet through Fatima and Ali; a survivor of Karbala whose accounts and defiance made her a central voice of her family in tradition."
+  ar: "حفيدة النبي من فاطمة وعلي، ومن الناجين من واقعة كربلاء، وقد جعلتها رواياتها وشجاعتها صوتًا مركزيًا لأهل بيتها في التقليد."
+wings: [people]
+themes: [women, civil-wars-and-revolts, sects-and-schools]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia, levant-iraq, egypt-nile]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: witness, start: { edtf: "0680-10-10" }, status: tradition, note: "Survived Karbala and is remembered in tradition as the voice of the captives before Ibn Ziyad and Yazid.", sources: [source/momen-1985] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). She is also venerated in Shia tradition; see the group and family contexts." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: child_of, target: person/ali-ibn-abi-talib }
+  - { type: child_of, target: person/fatima }
+  - { type: sibling_of, target: person/hasan-ibn-ali }
+  - { type: sibling_of, target: person/husayn-ibn-ali }
+  - { type: member_of, target: group/ahl-al-bayt }
+  - { type: member_of, target: group/banu-hashim }
+  - { type: participated_in, target: event/karbala, role: survivor-taken-captive, sources: [source/momen-1985] }
+sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

@@ -1,0 +1,43 @@
+id: person/fatima
+class: person
+label: { en: Fatima bint Muhammad, ar: فاطمة بنت محمد }
+names:
+  - { kind: full, lang: ar, value: فاطمة بنت محمد بن عبد الله }
+  - { kind: laqab, lang: ar-Latn, value: al-Zahra }
+gender: female
+born: { edtf: "0605~", calendar: julian, precision: year, status: debated, note: "Traditions differ, commonly between about 605 and about 615 CE; recorded as debated.", sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997] }
+died: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, note: "She died a few months after the Prophet; reports give roughly three to six months.", sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997] }
+roles: []
+traditions: [sunni, shia-twelver]
+summary:
+  en: "The youngest daughter of the Prophet and Khadija and wife of Ali ibn Abi Talib; mother of Hasan and Husayn and a central figure of Ahl al-Bayt in both Sunni and Shia tradition."
+  ar: "صغرى بنات النبي وخديجة وزوجة علي بن أبي طالب، وهي أم الحسن والحسين وشخصية محورية في أهل البيت عند السنة والشيعة معًا."
+wings: [people]
+themes: [women, family-marriage-kinship, sects-and-schools]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, sources: [source/ibn-ishaq-guillaume, source/madelung-1997] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). She is also claimed centrally by Shia tradition; see perspectives." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/medina }
+  - { type: child_of, target: person/muhammad }
+  - { type: child_of, target: person/khadija }
+  - { type: spouse_of, target: person/ali-ibn-abi-talib, start: { edtf: "0624~" }, end: { edtf: "0632~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: member_of, target: group/ahl-al-bayt }
+  - { type: member_of, target: group/banu-hashim }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni tradition reveres Fatima as the foremost woman of the Prophet's household, the wife of Ali and mother of Hasan and Husayn, holding her among the most virtuous women." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians note that early sources record few independent details of her life, and that the disputed events after the Prophet's death — the succession and the estate of Fadak — are reported through later, partisan accounts." }
+    sources: [source/madelung-1997, source/watt-1956-medina]
+  - tradition: shia-twelver
+    summary: { en: "Twelver Shia tradition venerates Fatima as the Mistress of the Women of the Worlds, holds that she was wronged over the succession and over Fadak, and remembers her grief after the Prophet's death as part of her sanctity." }
+    sources: [source/momen-1985, source/madelung-1997]
+sensitivity: contested
+sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/momen-1985]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
