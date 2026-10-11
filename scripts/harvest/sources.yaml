@@ -87,27 +87,55 @@ sources:
     method: manual download in a browser, then scripts/harvest/quran/verify_quran.py
     status: manual
   openiti:
-    name: OpenITI corpus
-    url: https://github.com/OpenITI
-    licence: CC BY-NC-SA 4.0 (varies by repository)
+    name: OpenITI MAKHZAN 2026.1.2 (Zenodo 19861912)
+    url: https://zenodo.org/records/19861912
+    licence: CC BY-NC-SA 4.0
     layer: nc
-    method: git clone of selected repositories; facts extracted with quotes, text
-      never republished
-    status: planned
+    method: zenodo files, md5 checked; facts extracted with quotes, text never republished
+    status: enabled
+    limits:
+      note: 'non-commercial: text is mined for facts, never republished'
+      size_gib: 5.7
+    downloads:
+    - url: https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_Data_2026-1-2.zip/content
+      dest: raw/openiti/OpenITI-Makhzan_Data_2026-1-2.zip
+      md5: 347a06a5714091665b7292775840a0f0
+      size: 6109859716
+    - url: https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_Metadata_2026-1-2.tsv/content
+      dest: raw/openiti/OpenITI-Makhzan_Metadata_2026-1-2.tsv
+      md5: 26e448803e90274a228ebee2a9df7e96
+      size: 568495
+    - url: https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_ReleaseNotes_2026-1-2.pdf/content
+      dest: raw/openiti/OpenITI-Makhzan_ReleaseNotes_2026-1-2.pdf
+      md5: 490b22ec83b5e445c191c0bf671233e5
+      size: 86921
   met-open-access:
-    name: Metropolitan Museum Open Access
+    name: Metropolitan Museum of Art Open Access
     url: https://github.com/metmuseum/openaccess
     licence: CC0 1.0
     layer: cc0
-    method: csv download
-    status: planned
+    method: csv download (github raw redirect to LFS)
+    status: enabled
+    limits: {}
+    downloads:
+    - url: https://github.com/metmuseum/openaccess/raw/master/MetObjects.csv
+      dest: raw/collections/met/MetObjects.csv
+      size: 317650992
   pleiades:
-    name: Pleiades gazetteer
+    name: Pleiades gazetteer of ancient places
     url: https://pleiades.stoa.org/downloads
     licence: CC BY 3.0
     layer: by
-    method: csv download
-    status: planned
+    method: daily CSV dumps from atlantides.org
+    status: enabled
+    limits: {}
+    downloads:
+    - url: https://atlantides.org/downloads/pleiades/dumps/pleiades-places-latest.csv.gz
+      dest: raw/collections/pleiades/pleiades-places-latest.csv.gz
+    - url: https://atlantides.org/downloads/pleiades/dumps/pleiades-names-latest.csv.gz
+      dest: raw/collections/pleiades/pleiades-names-latest.csv.gz
+    - url: https://atlantides.org/downloads/pleiades/dumps/pleiades-locations-latest.csv.gz
+      dest: raw/collections/pleiades/pleiades-locations-latest.csv.gz
   forbidden:
   - name: Quran Foundation API
     reason: no storage beyond a week
@@ -118,4 +146,25 @@ sources:
     reason: terms prohibit collection
   - name: YouTube API data
     reason: terms prohibit storage and redistribution
+  geonames:
+    name: GeoNames gazetteer dump
+    url: https://www.geonames.org/export/
+    licence: CC BY 4.0
+    layer: by
+    method: dump files from download.geonames.org
+    status: enabled
+    limits: {}
+    downloads:
+    - url: https://download.geonames.org/export/dump/allCountries.zip
+      dest: raw/collections/geonames/allCountries.zip
+      size: 422014673
+    - url: https://download.geonames.org/export/dump/alternateNamesV2.zip
+      dest: raw/collections/geonames/alternateNamesV2.zip
+      size: 204829015
+    - url: https://download.geonames.org/export/dump/countryInfo.txt
+      dest: raw/collections/geonames/countryInfo.txt
+      size: 31680
+    - url: https://download.geonames.org/export/dump/admin1CodesASCII.txt
+      dest: raw/collections/geonames/admin1CodesASCII.txt
+      size: 151583
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)
