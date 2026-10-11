@@ -1,0 +1,27 @@
+id: person/muawwidh-ibn-afra
+class: person
+label: { en: "Mu'awwidh ibn Afra", ar: "معوذ بن عفراء" }
+names:
+  - { kind: full, lang: ar, value: "معوذ بن الحارث بن رفاعة، المعروف بابن عفراء" }
+gender: male
+died: { edtf: "0624-03-13", hijri: "0002-09-17", calendar: julian, precision: day, status: tradition, note: "قُتل في وقعة بدر نفسها بعد ضربه أبا جهل (الرحيق ص221).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A young Khazraji — known by his mother's name Afra — who with Mu'adh ibn Amr ibn al-Jamuh struck Abu Jahl at Badr and left him dying; Mu'awwidh fought on until he was killed in the same battle."
+  ar: "فتى خزرجي اشتُهر باسم أمه عفراء؛ مرّ بأبي جهل بعد ضربة أخيه معاذ بن عمرو فأثبته، ثم قاتل حتى قُتل في الوقعة نفسها؛ قضى النبي أن كليهما قتل أبا جهل."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/sahih-al-bukhari] }
+  - { role: martyr, start: { edtf: "0624-03-13" }, status: tradition, note: "شهيد يوم بدر (الرحيق ص221 هامش).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+faith:
+  - { value: sunni, basis: tradition, note: "أنصاري من أهل بدر؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/battle-of-badr, role: "ضرب أبا جهل حتى أثبته", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/mishkat-al-masabih]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 220-221)" }

@@ -1,0 +1,26 @@
+id: person/umayr-ibn-al-humam
+class: person
+label: { en: "Umayr ibn al-Humam", ar: "عمير بن الحمام" }
+names:
+  - { kind: full, lang: ar, value: "عمير بن الحمام الأنصاري الخزرجي" }
+gender: male
+died: { edtf: "0624-03-13", hijri: "0002-09-17", calendar: julian, precision: day, status: tradition, note: "استُشهد يوم بدر (الرحيق ص218؛ مسلم ٢/١٣٩).", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Khazraji Companion who, hearing the Prophet's call to a paradise wide as the heavens at Badr, threw away the dates he was eating — reckoning life until they were finished too long — and fought until he was killed."
+  ar: "صحابي خزرجي سمع تحريض النبي على القتال يوم بدر فألقى تمرات كان يأكلها قائلاً إنها لحياة طويلة، ثم قاتل حتى قُتل."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/sahih-muslim] }
+  - { role: martyr, start: { edtf: "0624-03-13" }, status: tradition, note: "من شهداء بدر.", sources: [source/sahih-muslim] }
+faith:
+  - { value: sunni, basis: tradition, note: "أنصاري من أهل بدر؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-badr, role: "استُشهد في الهجوم", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/mishkat-al-masabih]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (p. 218)" }

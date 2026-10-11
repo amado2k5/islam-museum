@@ -1,0 +1,32 @@
+id: person/zubayr-ibn-al-awwam
+class: person
+label: { en: "al-Zubayr ibn al-Awwam", ar: "الزبير بن العوام" }
+names:
+  - { kind: full, lang: ar, value: "الزبير بن العوام بن خويلد بن أسد القرشي الأسدي" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الله" }
+gender: male
+born: { edtf: "0594~", calendar: julian, precision: year, status: tradition, sources: [source/tabaqat-ibn-sad] }
+died: { edtf: "0656-12", hijri: "0036", calendar: julian, precision: month, status: tradition, note: "قُتل في وادي السباء بعد انصرافه عن معركة الجمل؛ خارج نطاق قسم بدر.", sources: [source/tabaqat-ibn-sad, source/ibn-hisham-sira] }
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  en: "One of the earliest converts and a cousin of the Prophet through his mother Safiyya; at Badr he was one of the army's two horsemen, commanded the right wing, and joined the patrol that captured Quraysh's water-bearers."
+  ar: "من السابقين إلى الإسلام، وابن خالة النبي؛ كان يوم بدر أحد فارسَي الجيش وقائد ميمنته، وشارك في دورية الاستطلاع التي أسرَت سقاة قريش."
+wings: [people]
+themes: [battles, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/tabaqat-ibn-sad] }
+  - { role: convert, status: tradition, note: "من السابقين الأولين إلى الإسلام.", sources: [source/tabaqat-ibn-sad] }
+  - { role: commander, start: { edtf: "0624" }, status: tradition, note: "قائد الميمنة وأحد فارسَي الجيش يوم بدر (الرحيق ص205).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "من العشرة المبشرين عند أهل السنة؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: child_of, target: person/safiyya-bint-abd-al-muttalib, sources: [source/ibn-hisham-sira] }
+  - { type: member_of, target: group/quraysh }
+  - { type: member_of, target: group/muhajirun }
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/battle-of-badr, role: "قيادة الميمنة؛ من فريق استطلاع الغلامين", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 205, 210)" }

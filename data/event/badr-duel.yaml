@@ -1,0 +1,41 @@
+id: event/badr-duel
+class: event
+kind: skirmish
+label: { en: "The duel at Badr", ar: "مبارزة بدر" }
+summary:
+  en: "The opening single combat of Badr: Utba, Shayba and al-Walid of Quraysh against Ubayda, Hamza and Ali; all three Qurayshis fell, and Ubayda died of his wound days later."
+  ar: "المبارزة الافتتاحية في بدر: عتبة وشيبة ابنا ربيعة والوليد بن عتبة في مقابل عبيدة بن الحارث وحمزة وعلي؛ قُتل القرشيون الثلاثة، وقضى عبيدة من جرحه بعد أيام."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-03-13", hijri: "0002-09-17", calendar: julian, precision: day, status: tradition, note: "افتتاح الالتحام يوم الوقعة (الرحيق ص216)." }
+outcome:
+  en: "All three Quraysh duelists killed; Ubayda mortally wounded."
+  ar: "مقتل المبارزين القرشيين الثلاثة؛ جرح عبيدة جرحاً قضى منه."
+casualties:
+  value: 4
+  status: tradition
+  note: "عتبة وشيبة والوليد بن عتبة من قريش؛ عبيدة بن الحارث قضى من جرحه بالصفراء بعد أربعة أو خمسة أيام (الرحيق ص217)."
+  sources: [source/mubarakpuri-raheeq]
+significance:
+  ar: "فقد المشركون ثلاثة من خيرة فرسانهم وقادتهم دفعة واحدة فكانت بداية سيئة لهم (الرحيق ص217)."
+sides:
+  - label: { en: "Muslim duelists", ar: "المبارزون المسلمون" }
+    participants: [person/ubayda-ibn-al-harith, person/hamza, person/ali-ibn-abi-talib]
+  - label: { en: "Quraysh duelists", ar: "المبارزون القرشيون" }
+    participants: [person/utba-ibn-rabia, person/shayba-ibn-rabia, person/al-walid-ibn-utba]
+relations:
+  - { type: occurred_at, target: place/badr }
+  - { type: part_of, target: event/battle-of-badr }
+  - { type: had_participant, target: person/utba-ibn-rabia, role: "مبارز عن قريش؛ قُتل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/shayba-ibn-rabia, role: "مبارز عن قريش؛ قُتل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-walid-ibn-utba, role: "مبارز عن قريش؛ قُتل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ubayda-ibn-al-harith, role: "أسنّ المبارزين؛ جُرح وقضى بعد أيام", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, role: "مبارز؛ قتل قرنه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "مبارز؛ قتل قرنه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/awf-ibn-al-harith, note: "خرج مع الأنصاريين الثلاثة أولاً فردّهم القرشيون طالبين الأكفاء من بني عمهم (الرحيق ص216)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-rawaha, note: "من الأنصاريين الثلاثة الذين خرجوا أولاً", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mishkat-al-masabih]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 216-217" }
