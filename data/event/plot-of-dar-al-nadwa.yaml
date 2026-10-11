@@ -1,20 +1,25 @@
 id: event/plot-of-dar-al-nadwa
 class: event
-kind: other
-label: { en: "The plot at Dar al-Nadwa", ar: "اجتماع دار الندوة" }
+kind: council
+label: { en: "The plot at Dar al-Nadwa", ar: "اجتماع دار الندوة وقرار اغتيال النبي" }
 summary:
-  en: "The Quraysh leaders met at their assembly house in Mecca to decide what to do about the Prophet, shortly before the Hijra."
-  ar: "اجتمع زعماء قريش في دار الندوة بمكة ليتشاوروا في أمر النبي، قبيل الهجرة بقليل."
+  en: "The fateful meeting of Quraysh's parliament in Dar al-Nadwa on Thursday 26 Safar 14 AH (12 September 622 CE) where chiefs debated expelling, imprisoning, or assassinating Muhammad, resolving on Abu Jahl's proposal to strike him simultaneously with a young warrior from each clan."
+  ar: "اجتماع برلمان قريش في دار الندوة صبيحة يوم الخميس 26 صفر سنة 14 من النبوة (12 سبتمبر 622م) بعد استكمال هجرة الصحابة؛ تشاوروا بين الحبس والنفي والقتل، فأجمعوا على رأي أبي جهل باغتياله بضربة رجل واحد من فتيان كل قبيلة ليتفرق دمه في القبائل."
 wings: [time, people]
 themes: [peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0622~", calendar: julian, precision: year, status: tradition, note: "Reported by Ibn Ishaq; the details of the discussion are traditional." }
+  start: { edtf: "0622-09-12~", calendar: julian, precision: day, status: tradition, note: "صباح يوم الخميس 26 صفر سنة 14 من النبوة (12 سبتمبر 622م) (الرحيق ص159-161)." }
 relations:
   - { type: occurred_at, target: place/mecca }
-  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-jahl, role: "صاحب الاقتراح المجاز بقتل النبي بضربة رجل واحد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/jubayr-ibn-mutim, role: "حضر عن بني نوفل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "حضر عن بني عبد شمس", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-nadr-ibn-al-harith, role: "حضر عن بني عبد الدار", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umayya-ibn-khalaf, role: "حضر عن بني جمح", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, role: "سادات مكة المجتمعون", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/pledges-of-aqaba }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 158-161" }

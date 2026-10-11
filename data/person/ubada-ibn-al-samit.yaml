@@ -1,0 +1,28 @@
+id: person/ubada-ibn-al-samit
+class: person
+label: { en: "Ubada ibn al-Samit", ar: "عبادة بن الصامت" }
+names:
+  - { kind: full, lang: ar, value: "عبادة بن الصامت بن قيس الأنصاري الخزرجي" }
+  - { kind: kunya, lang: ar, value: "أبو الوليد" }
+gender: male
+roles: [companion, notable, jurist]
+traditions: [sunni]
+summary:
+  en: "A senior Companion and chieftain of Banu Awf of the Khazraj; he witnessed both Pledges of Aqaba, narrated the text of the First Pledge in Sahih al-Bukhari, served as a naqib, and later participated in all major battles and the conquest of the Levant."
+  ar: "صحابي بدري ونقيب بني عوف من الخزرج؛ شهد بيعتي العقبة وكان راوي نص بيعة العقبة الأولى في الصحيح، وشهد بدراً والمشاهد كلها، وأحد الذين جمعوا القرآن وقضى بالشام في خلافة عمر."
+wings: [people]
+themes: [converts-and-leavers, worship-and-the-pillars]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0621~" }, status: tradition, note: "بايع في بيعة العقبة الأولى ورواها في الصحيح (الرحيق ص143-144).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { role: companion, start: { edtf: "0621~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0621~" }, note: "صحابي بدري ونقيب وفقيه الأنصار." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/khazraj }
+  - { type: participated_in, target: event/pledges-of-aqaba, role: "نقيب بني عوف وراوي البيعة الأولى", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 143-144, 152" }
