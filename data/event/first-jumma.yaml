@@ -1,0 +1,23 @@
+id: event/first-jumma
+class: event
+kind: other
+label: { en: "The first Friday prayer", ar: "أول جمعة في بني سالم بن عوف" }
+summary:
+  en: "On the Friday of his entry into Medina, prayer time overtook the Prophet among Banu Salim ibn Awf, and he led a congregation of a hundred men in the mosque in the valley bottom — counted in the sira as the first Jumu'a."
+  ar: "أدركت الجمعة النبي وهو في طريقه إلى المدينة في بني سالم بن عوف، فجمع بهم في المسجد الذي في بطن الوادي وكانوا مائة رجل؛ وتُعدّ في السيرة أول جمعة."
+wings: [time, people, place]
+themes: [sacred-time]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622-09-24", hijri: "0001-03-12", calendar: julian, precision: day, status: tradition, note: "يوم الجمعة بعد الإقامة بقباء (الرحيق ص172؛ بخاري 1/555، 1/560)." }
+significance:
+  ar: "أول جمعة يصليها النبي بالمسلمين على المشهور (الرحيق ص172)."
+relations:
+  - { type: occurred_at, target: place/medina, note: "في بني سالم بن عوف — المسجد الذي في بطن الوادي" }
+  - { type: part_of, target: event/hijra }
+  - { type: had_participant, target: person/muhammad, role: "إمام الجمعة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, role: "ردف النبي في المسير", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-salim, note: "أدركته الجمعة فيهم وكانوا مائة رجل" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 172-173" }

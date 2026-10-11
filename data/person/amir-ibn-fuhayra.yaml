@@ -1,0 +1,26 @@
+id: person/amir-ibn-fuhayra
+class: person
+label: { en: "Amir ibn Fuhayra", ar: "عامر بن فهيرة" }
+names:
+  - { kind: full, lang: ar, value: "عامر بن فهيرة، مولى أبي بكر الصديق" }
+gender: male
+died: { edtf: "0625~", calendar: julian, precision: year, status: tradition, note: "قُتل في بئر معونة على المشهور؛ خارج نطاق هذا القسم.", sources: [source/tabaqat-ibn-sad, source/ibn-hisham-sira] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "Abu Bakr's freedman who grazed a gift flock over the cave of Thawr each evening to feed the fugitives and erase Abdullah's tracks, then travelled with them to Medina and wrote Suraqa's letter of safe-conduct."
+  ar: "مولى أبي بكر؛ كان يرعى عليهما منحة غنم فيبيتان في رسلها، ويتبع بغنمه أثر عبد الله بن أبي بكر ليعفي عليه؛ ثم ارتحل مع النبي وأبي بكر إلى المدينة، وكتب كتاب الأمان لسراقة بن مالك."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-sira] }
+faith:
+  - { value: sunni, basis: tradition, note: "مسلم من موالي أبي بكر؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/ghar-thawr, role: "الراعي صاحب المنحة ومعفي الأثر", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: participated_in, target: event/hijra, role: "ارتحل معهما؛ كتب كتاب أمن سراقة", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 165-169" }

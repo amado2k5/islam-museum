@@ -1,0 +1,27 @@
+id: person/abdullah-ibn-abi-bakr
+class: person
+label: { en: "Abdullah ibn Abi Bakr", ar: "عبد الله بن أبي بكر" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن أبي بكر الصديق" }
+gender: male
+died: { edtf: "0693~", calendar: julian, precision: year, status: tradition, note: "قُتل بالطائف في حرب ابن الزبير والحجاج على المشهور؛ خارج نطاق هذا القسم.", sources: [source/tabaqat-ibn-sad] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "Abu Bakr's son, 'a bright, quick-witted youth' in Aisha's description, who spent the three cave nights with the fugitives, left before dawn to mingle with Quraysh by day, and brought them the news each evening."
+  ar: "ابن أبي بكر، وصفته عائشة بأنه «غلام شاب ثقف لقن»؛ كان يبيت عند النبي وأبيه في الغار ويدلج بسحر فيصبح مع قريش كبائت، فما يسمع أمراً يُكتادان به إلا وعاه وأتاهما به ليلاً."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/sahih-al-bukhari] }
+faith:
+  - { value: sunni, basis: tradition, note: "مسلم من أهل بيت أبي بكر؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: child_of, target: person/abu-bakr }
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/ghar-thawr, role: "عين الأخبار الليلية للمختبئين", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: participated_in, target: event/hijra, role: "خرج بعد الهجرة بعيال أبيه منهم عائشة", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 165, 173" }
