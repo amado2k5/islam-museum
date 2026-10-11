@@ -1,0 +1,27 @@
+id: event/islam-of-umar
+class: event
+kind: other
+label: { en: "Umar accepts Islam", ar: "إسلام عمر بن الخطاب" }
+summary:
+  en: "In Dhu al-Hijja of year six — three days after Hamza — Umar, who had set out with his sword to kill the Prophet, was redirected by Nu'aym ibn Abdullah to his own sister's house; he heard the opening of sura Ta-Ha from Sa'id and Fatima, then went to the house of al-Arqam and declared the shahada, and the Muslims marched out in two rows and prayed openly at the Kaaba."
+  ar: "في ذي الحجة من السنة السادسة — بعد ثلاثة أيام من إسلام حمزة — خرج عمر بسيفه يريد قتل النبي، فردّه نعيم بن عبد الله إلى بيت أخته؛ فسمع صدر سورة طه من سعيد وفاطمة، ثم أتى دار الأرقم فشهد الشهادة، وخرج المسلمون في صفين يتقدمهم حمزة وعمر حتى صلوا عند الكعبة جهاراً، فسمّاه النبي الفاروق."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0616-12~", calendar: julian, precision: month, status: tradition, note: "ذو الحجة من السنة السادسة من النبوة، بعد ثلاثة أيام من إسلام حمزة (الرحيق ص101؛ ابن الجوزي ص11)." }
+significance:
+  ar: "قال ابن مسعود: ما زلنا أعزة منذ أسلم عمر؛ وما كنا نقدر أن نصلي عند الكعبة حتى أسلم (الرحيق ص105-106؛ بخاري 1/545)."
+relations:
+  - { type: occurred_at, target: place/mecca, note: "دار الأرقم" }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أسلم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/fatima-bint-al-khattab, role: "كانت تقرأ صدر طه مع زوجها", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/said-ibn-zayd, role: "زوج أخته يعلمها", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/nuaym-ibn-abdullah, role: "أرشده إلى بيت أخته", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, role: "تقدّم أحد الصفين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-as-ibn-wail, role: "ردّ الناس عنه بعد إسلامه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad }
+  - { type: caused_by, target: event/islam-of-hamza }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/tarikh-umar-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 101-106" }

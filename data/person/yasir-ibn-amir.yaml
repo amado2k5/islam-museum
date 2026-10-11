@@ -1,0 +1,25 @@
+id: person/yasir-ibn-amir
+class: person
+label: { en: "Yasir ibn Amir", ar: "ياسر بن عامر" }
+names:
+  - { kind: full, lang: ar, value: "ياسر بن عامر، والد عمار" }
+gender: male
+died: { edtf: "0615~", calendar: julian, precision: year, status: tradition, note: "مات في العذاب (الرحيق ص90).", sources: [source/mubarakpuri-raheeq] }
+roles: [companion, martyr]
+traditions: [sunni]
+summary:
+  en: "Father of Ammar and husband of Sumayya; the whole family was tortured by the polytheists, and Yasir died under torture while the Prophet told them 'Patience, family of Yasir — your appointed place is Paradise.'"
+  ar: "والد عمار وزوج سمية؛ عُذّبت الأسرة كلها عند بني مخزوم، ومات ياسر في العذاب والنبي يقول لهم: «صبراً آل ياسر فإن موعدكم الجنة»."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: martyr, end: { edtf: "0615~" }, status: tradition, note: "مات في العذاب (الرحيق ص90).", sources: [source/mubarakpuri-raheeq] }
+  - { role: victim, status: tradition }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: spouse_of, target: person/sumayya-bint-khayyat }
+  - { type: participated_in, target: event/persecution-of-mustadafin, role: "مات في العذاب", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 90" }

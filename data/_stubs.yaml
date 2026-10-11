@@ -18,14 +18,9 @@
 - { id: language/persian, label: { en: "Persian" } }
 - { id: polity/rashidun-caliphate, label: { en: "The Rashidun Caliphate" } }
 # Stubs for the al-Raheeq mining, batch 1 (Badr pp. 204–233) — remove each line as the entity is written.
-- { id: person/al-miqdad-ibn-amr, label: { ar: "المقداد بن عمرو", en: "al-Miqdad ibn Amr" } }
-- { id: person/muawwidh-ibn-afra, label: { ar: "معوذ بن عفراء", en: "Mu'awwidh ibn Afra" } }
-- { id: person/hubab-ibn-al-mundhir, label: { ar: "الحباب بن المنذر", en: "al-Hubab ibn al-Mundhir" } }
-- { id: person/ubayda-ibn-al-harith, label: { ar: "عبيدة بن الحارث", en: "Ubayda ibn al-Harith" } }
 - { id: person/abu-lubaba, label: { ar: "أبو لبابة بن عبد المنذر", en: "Abu Lubaba ibn Abd al-Mundhir" } }
 - { id: person/ibn-umm-maktum, label: { ar: "عبد الله بن أم مكتوم", en: "Abdullah ibn Umm Maktum" } }
 - { id: person/damdam-ibn-amr, label: { ar: "ضمضم بن عمرو الغفاري", en: "Damdum ibn Amr al-Ghifari" } }
-- { id: person/al-akhnas-ibn-shariq, label: { ar: "الأخنس بن شريق", en: "al-Akhnas ibn Shariq" } }
 - { id: person/umayr-ibn-wahb, label: { ar: "عمير بن وهب الجمحي", en: "Umayr ibn Wahb al-Jumahi" } }
 - { id: person/hakim-ibn-hizam, label: { ar: "حكيم بن حزام", en: "Hakim ibn Hizam" } }
 - { id: person/amir-ibn-al-hadrami, label: { ar: "عامر بن الحضرمي", en: "Amir ibn al-Hadrami" } }
@@ -34,8 +29,6 @@
 - { id: person/shayba-ibn-rabia, label: { ar: "شيبة بن ربيعة", en: "Shayba ibn Rabi'a" } }
 - { id: person/al-walid-ibn-utba, label: { ar: "الوليد بن عتبة", en: "al-Walid ibn Utba" } }
 - { id: person/al-aswad-ibn-abd-al-asad, label: { ar: "الأسود بن عبد الأسد", en: "al-Aswad ibn Abd al-Asad" } }
-- { id: person/sawad-ibn-ghaziyya, label: { ar: "سواد بن غزية", en: "Sawad ibn Ghaziyya" } }
-- { id: person/umayr-ibn-al-humam, label: { ar: "عمير بن الحمام", en: "Umayr ibn al-Humam" } }
 - { id: person/awf-ibn-al-harith, label: { ar: "عوف بن الحارث (ابن عفراء)", en: "Awf ibn al-Harith (ibn Afra)" } }
 - { id: person/abu-hudhayfa-ibn-utba, label: { ar: "أبو حذيفة بن عتبة", en: "Abu Hudhayfa ibn Utba" } }
 - { id: person/al-mujadhdhar-ibn-ziyad, label: { ar: "المجذر بن زياد البلوي", en: "al-Mujadhdhar ibn Ziyad al-Balawi" } }
@@ -125,6 +118,19 @@
 - { id: person/umayya-ibn-abi-al-salt, label: { ar: "أمية بن أبي الصلت", en: "Umayya ibn Abi al-Salt" }, note: "Meccan monotheist poet" }
 - { id: person/quss-ibn-saida, label: { ar: "قس بن ساعدة", en: "Quss ibn Sa'ida" }, note: "Pre-Islamic monotheist preacher" }
 - { id: person/amr-ibn-nufayl, label: { ar: "عمرو بن نفيل", en: "Amr ibn Nufayl" }, note: "Meccan monotheist" }
-- { id: person/zayd-ibn-thabit, label: { ar: "زيد بن ثابت", en: "Zayd ibn Thabit" }, note: "Companion and scribe" }
 - { id: person/al-baraa-ibn-azib, label: { ar: "البراء بن عازب", en: "al-Bara' ibn 'Azib" }, note: "Companion and hadith narrator" }
 - { id: person/muqatil-ibn-sulayman, label: { ar: "مقاتل بن سليمان", en: "Muqatil ibn Sulayman" }, note: "Early Qur'an commentator cited by the book" }
+- { id: person/utba-ibn-abi-lahab, label: { ar: "عتبة بن أبي لهب", en: "Utba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Ruqayya" }
+- { id: person/utayba-ibn-abi-lahab, label: { ar: "عتيبة بن أبي لهب", en: "Utayba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Umm Kulthum" }
+- { id: person/zinnira, label: { ar: "زنيرة", en: "Zinnira" }, note: "Slave woman freed by Abu Bakr" }
+- { id: person/al-nahdiyya, label: { ar: "النهدية", en: "al-Nahdiyya" }, note: "Slave woman freed by Abu Bakr with her daughter" }
+- { id: person/umm-ubays, label: { ar: "أم عبيس", en: "Umm Ubays" }, note: "Slave woman freed by Abu Bakr" }
+- { id: person/abu-fakiha, label: { ar: "أبو فكيهة", en: "Abu Fakiha" }, note: "Aflah, client of Banu Abd al-Dar, tortured" }
+- { id: person/umm-anmar, label: { ar: "أم أنمار", en: "Umm Anmar" }, note: "Khabbab's mistress" }
+- { id: person/nuaym-ibn-abdullah, label: { ar: "نعيم بن عبد الله", en: "Nu'aym ibn Abdullah" }, note: "Redirected Umar to his sister's house" }
+- { id: person/urwa-ibn-al-zubayr, label: { ar: "عروة بن الزبير", en: "Urwa ibn al-Zubayr" }, note: "Tabi'i narrator" }
+- { id: person/amar-ibn-al-walid, label: { ar: "عمارة بن الوليد", en: "Amara ibn al-Walid" }, note: "Whom Quraysh offered in exchange" }
+- { id: person/abdullah-ibn-muhammad, label: { ar: "عبد الله بن محمد", en: "Abdullah ibn Muhammad" }, note: "The Prophet's second son; died young" }
+- { id: person/jaria-banu-muammal, label: { ar: "جارية بني مؤمل", en: "Slave girl of Banu Mu'ammal" }, note: "Freed by Abu Bakr" }
+- { id: person/abdullah-ibn-judan-freedwoman, label: { ar: "مولاة عبد الله بن جدعان", en: "Freedwoman of Ibn Jud'an" }, note: "Told Hamza of Abu Jahl's insult" }
+- { id: building/dar-al-arqam, label: { ar: "دار الأرقم", en: "Dar al-Arqam" }, note: "The house where early Muslims met; Umar's conversion" }

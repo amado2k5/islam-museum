@@ -13,6 +13,8 @@ summary:
 text: "وَأَنذِرْ عَشِيرَتَكَ ٱلْأَقْرَبِينَ"
 text_search: "وأنذر عشيرتك الأقربين"
 relations:
+  - { type: revealed_about, target: event/safa-proclamation, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: revealed_about, target: event/dawat-al-ashira, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }

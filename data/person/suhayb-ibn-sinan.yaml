@@ -1,0 +1,22 @@
+id: person/suhayb-ibn-sinan
+class: person
+label: { en: "Suhayb ibn Sinan al-Rumi", ar: "صهيب بن سنان الرومي" }
+names:
+  - { kind: full, lang: ar, value: "صهيب بن سنان، يعرف بصهيب الرومي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An early Muslim of the persecuted in Mecca who later recalled that when Umar embraced Islam 'Islam appeared, and we sat around the House in circles and took our share back from those who had been harsh to us.'"
+  ar: "من أوائل المسلمين المبتلين بمكة؛ يروي أنه لما أسلم عمر ظهر الإسلام ودُعي إليه علانية وجلس المسلمون حول البيت حلقاً وانتصفوا ممن غلظ عليهم."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "شاهد على أثر إسلام عمر (الرحيق ص105؛ ابن الجوزي ص13).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: participated_in, target: event/islam-of-umar, role: "شهد أثر إسلامه", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/tarikh-umar-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 105" }

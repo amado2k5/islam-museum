@@ -1,0 +1,22 @@
+id: event/dawat-al-ashira
+class: event
+kind: gathering
+label: { en: "The call to the nearest kin", ar: "الدعوة في الأقربين" }
+summary:
+  en: "After «وأنذر عشيرتك الأقربين» came down, the Prophet twice gathered Banu Hashim — about forty-five men with some of Banu al-Muttalib — declared himself God's messenger to them in particular and to people in general; Abu Lahab sabotaged the first gathering, and at the second Abu Talib pledged his protection while refusing to leave his fathers' religion."
+  ar: "بعد نزول «وأنذر عشيرتك الأقربين» دعا النبي بني هاشم مرتين — نحو خمسة وأربعين رجلاً معهم نفر من بني المطلب — فأعلمهم أنه رسول الله إليهم خاصة وإلى الناس عامة؛ فخرب أبو لهب المجلس الأول، وفي الثاني تعهد أبو طالب بالحماية وأبى فراق دين عبد المطلب."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0613~", calendar: julian, precision: year, status: tradition, note: "بداية السنة الرابعة من النبوة (الرحيق ص78)." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-lahab, role: "أفسد المجلس الأول وثبّط في الثاني", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-talib, role: "تعهد بالحماية: لمنعه ما بقينا", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-hashim }
+  - { type: caused, target: event/safa-proclamation }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 78-79" }

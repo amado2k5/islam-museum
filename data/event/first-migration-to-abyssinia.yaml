@@ -3,18 +3,23 @@ class: event
 kind: migration
 label: { en: "The first migration to Abyssinia", ar: "الهجرة الأولى إلى الحبشة" }
 summary:
-  en: "A small group of persecuted Muslims left Mecca for the Christian kingdom of Aksum, where the ruler gave them protection."
-  ar: "غادرت جماعة صغيرة من المسلمين المضطهَدين مكة إلى مملكة أكسوم المسيحية، حيث حماهم ملكها."
+  en: "In Rajab of the fifth year of prophethood, twelve men and four women — led by Uthman ibn Affan with the Prophet's daughter Ruqayya — slipped away by night to the port of Shu'ayba and sailed in two merchant ships to the kingdom of the Negus, 'a just king under whom no one is wronged'; most returned in Shawwal on the false report that Quraysh had converted."
+  ar: "في رجب من السنة الخامسة للنبوة هاجر اثنا عشر رجلاً وأربع نسوة — رئيسهم عثمان بن عفان ومعه رقية بنت النبي — تسللاً في ظلمة الليل إلى ميناء شعيبة فأبحرت بهم سفينتان إلى ملك النجاشي «الذي لا يظلم عنده أحد»؛ ثم رجع أكثرهم في شوال حين بلغهم باطلاً أن قريشاً أسلمت."
 wings: [time, people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0615~", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0615~", calendar: julian, precision: month, status: tradition, note: "رجب من السنة الخامسة من النبوة؛ العودة في شوال من السنة نفسها (الرحيق ص92-94؛ زاد المعاد 1/24)." }
 relations:
-  - { type: occurred_at, target: place/mecca }
+  - { type: occurred_at, target: place/mecca, note: "انطلاقاً من ميناء شعيبة" }
   - { type: occurred_at, target: place/aksum }
-  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/muhammad, role: "أمرهم بالهجرة فراراً بدينهم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "رئيس الفوج ومعه رقية", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ruqayya-bint-muhammad, role: "مع زوجها في أول بيت هاجر بعد إبراهيم ولوط", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-najashi, role: "أمنهم وأحسن جوارهم", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused_by, target: event/persecution-of-mustadafin }
+  - { type: caused, target: event/second-migration-to-abyssinia }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 92-94" }
