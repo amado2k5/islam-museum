@@ -1,0 +1,31 @@
+id: person/tulayha-ibn-khuwaylid
+class: person
+label: { en: "Tulayha ibn Khuwaylid", ar: "طليحة بن خويلد" }
+names:
+  - { kind: full, lang: ar, value: "طليحة بن خويلد بن نوفل الأسدي" }
+gender: male
+born: { edtf: "0590~", calendar: julian, precision: decade, status: tradition, sources: [source/tabari-donner-1993] }
+died: { edtf: "0642~", calendar: julian, precision: decade, status: tradition, note: "Reported to have died a Muslim under Umar's caliphate; some accounts place him at the conquests in Iraq.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993] }
+roles: [general]
+traditions: []
+summary:
+  en: "War-chief of Banu Asad who claimed prophecy at the Prophet's death, was broken by Khalid at Buzakha, fled to Syria — then returned, became a Muslim, and fought in the conquests he had once stood against."
+  ar: "سيد حرب من بني أسد ادّعى النبوة عند وفاة النبي، فكسره خالد ببزاخة وفرّ إلى الشام — ثم عاد مسلمًا فقاتل في الفتوح التي كان قد وقف ضدها."
+wings: [people]
+themes: [civil-wars-and-revolts, battles, converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: rival-claimant, toward: person/muhammad, start: { edtf: "0632" }, end: { edtf: "0632" }, status: historical, note: "Claimed prophecy among Banu Asad at the Prophet's death, drawing several Ghatafan and Tayyi' clans to him.", sources: [source/tabari-donner-1993, source/watt-1956-medina] }
+  - { role: rebel, toward: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, status: historical, note: "Defeated by Khalid ibn al-Walid at Buzakha; fled beyond the caliphate's reach to Syria.", sources: [source/tabari-donner-1993] }
+  - { role: convert, start: { edtf: "0633~" }, status: tradition, note: "Returned and professed Islam; the tradition has him fight in the conquests of Iraq under the caliphate.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993] }
+faith:
+  - { value: arabian-polytheism, basis: debated, note: "His prophetic claim is the only certain datum; the tradition treats him as an apostate claimant.", sources: [source/watt-1956-medina] }
+  - { value: sunni, basis: tradition, start: { edtf: "0633~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: member_of, target: group/banu-asad-ibn-khuzayma }
+  - { type: fought, target: person/khalid-ibn-al-walid, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+  - { type: participated_in, target: event/battle-of-buzakha, role: defeated-commander, sources: [source/tabari-donner-1993] }
+  - { type: opposed, target: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

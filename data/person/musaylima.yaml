@@ -1,0 +1,34 @@
+id: person/musaylima
+class: person
+label: { en: "Musaylima", ar: "مسيلمة" }
+names:
+  - { kind: full, lang: ar, value: "مسيلمة بن حبيب الحنفي" }
+  - { kind: laqab, lang: ar, value: "مسيلمة الكذاب" }
+gender: male
+born: { edtf: "0580~", calendar: julian, precision: decade, status: tradition, sources: [source/tabari-donner-1993] }
+died: { edtf: "0632-12~", hijri: "0011-12~", calendar: julian, precision: month, status: historical, note: "Killed at the battle of Yamama (Aqraba'), Rabi' II or Jumada 12 AH / late 632 CE; the tradition attributes the blow to Wahshi ibn Harb.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
+roles: [politician]
+traditions: []
+summary:
+  en: "Chief and religious claimant of Banu Hanifa in Yamama who preached a parallel prophecy to Muhammad's and exchanged letters with him — killed at Yamama in the bloodiest battle of the Ridda wars."
+  ar: "سيد بني حنيفة باليمامة ادّعى النبوة في موازاة محمد وراسله — قُتل باليمامة في أدمى معارك حروب الردة."
+wings: [people]
+themes: [civil-wars-and-revolts, battles, prophets]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: rival-claimant, toward: person/muhammad, start: { edtf: "0630~" }, end: { edtf: "0632" }, status: historical, note: "Claimed prophecy among Banu Hanifa while Muhammad lived; the sources preserve their exchange of letters.", sources: [source/tabari-donner-1993, source/watt-1956-medina] }
+  - { role: rebel, toward: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, status: historical, note: "Led Banu Hanifa against the caliphate's army at Yamama; the battle's cost in memorizers of the Qur'an is remembered as hastening the codex's collection.", sources: [source/tabari-donner-1993] }
+faith:
+  - { value: arabian-polytheism, basis: debated, note: "His own prophetic movement drew on Hanifan monotheism and possibly Christian influence; the tradition names him al-Kadhdhab, 'the liar.'", sources: [source/watt-1956-medina, source/tabari-donner-1993] }
+labelled:
+  - { label: { en: "al-Kadhdhab (the arch-liar)", ar: "الكذاب" }, by: "Muslim tradition", status: tradition, sources: [source/tabari-donner-1993] }
+relations:
+  - { type: born_in, target: place/yamama }
+  - { type: died_in, target: place/yamama }
+  - { type: member_of, target: group/banu-hanifa }
+  - { type: corresponded_with, target: person/muhammad, start: { edtf: "0630~" }, note: "The sources preserve his letter proposing a partition of prophecy and Muhammad's reply.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
+  - { type: fought, target: person/khalid-ibn-al-walid, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+  - { type: participated_in, target: event/battle-of-yamama, role: hanifa-commander, sources: [source/tabari-donner-1993] }
+sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

@@ -1,0 +1,31 @@
+id: person/al-aswad-al-ansi
+class: person
+label: { en: "al-Aswad al-Ansi", ar: "الأسود العنسي" }
+names:
+  - { kind: full, lang: ar, value: "عبْهَلة بن كعب العنسي" }
+  - { kind: laqab, lang: ar, value: "ذو الخمار" }
+  - { kind: laqab, lang: ar, value: "ذو الحمار" }
+gender: male
+born: { edtf: "0580~", calendar: julian, precision: decade, status: tradition, sources: [source/tabari-donner-1993] }
+died: { edtf: "0632-05~", hijri: "0011-03~", calendar: julian, precision: month, status: historical, note: "Killed in San'a by Fayruz al-Daylami and Yemeni notables; the tradition places his death days before the Prophet's.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
+roles: [politician]
+traditions: []
+summary:
+  en: "Abhala ibn Ka'b, called al-Aswad 'the veiled one' — a soothsayer of Yemen who claimed prophecy, seized San'a and much of Yemen for a few weeks, and was cut down by the Persian colony that had first served him."
+  ar: "عبْهَلة بن كعب الملقب بالأسود «ذي الخمار» — كاهن من اليمن ادّعى النبوة، فملك صنعاء وجلّ اليمن أسابيع، ثم قتله الأبناء الفرس الذين خدموه أول الأمر."
+wings: [people]
+themes: [civil-wars-and-revolts, prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: rival-claimant, toward: person/muhammad, start: { edtf: "0632" }, end: { edtf: "0632" }, status: historical, note: "Claimed prophecy in Yemen and briefly held San'a and the south in the Prophet's last weeks.", sources: [source/tabari-donner-1993, source/watt-1956-medina] }
+  - { role: ruler, start: { edtf: "0632" }, end: { edtf: "0632" }, status: historical, note: "Seized power over most of Yemen, expelling the Prophet's governors, before his own allies killed him.", sources: [source/tabari-donner-1993] }
+faith:
+  - { value: arabian-polytheism, basis: debated, note: "A kahin (soothsayer) claiming prophecy; the religious content of his movement is thinly documented.", sources: [source/watt-1956-medina] }
+relations:
+  - { type: member_of, target: group/banu-ans }
+  - { type: died_in, target: place/sanaa }
+  - { type: opposed, target: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+  - { type: ruled_over, target: place/yemen, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
