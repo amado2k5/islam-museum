@@ -1,0 +1,31 @@
+id: person/sajah
+class: person
+label: { en: "Sajah bint al-Harith", ar: "سجاح بنت الحارث" }
+names:
+  - { kind: full, lang: ar, value: "سجاح بنت الحارث بن سويد" }
+gender: female
+born: { edtf: "0590~", calendar: julian, precision: decade, status: tradition, sources: [source/tabari-donner-1993] }
+died: { edtf: "0660~", calendar: julian, precision: decade, status: tradition, note: "Reported to have died in the Jazira or at Basra under Mu'awiya's caliphate, having returned to Islam.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
+roles: [poet]
+traditions: []
+summary:
+  en: "A woman of Tamim by her father and Taghib by her mother who claimed prophecy in rhymed speech, marched an army toward Medina, then turned to Yamama and joined Musaylima — before returning to Islam and living into the caliphate."
+  ar: "امرأة من تميم لأبيها ومن تغلب لأمها ادّعت النبوة بسجعها، وساقت جيشًا نحو المدينة، ثم توجهت إلى اليمامة فالتحقت بمسيلمة — قبل أن تعود إلى الإسلام وتعيش في عهد الخلافة."
+wings: [people]
+themes: [civil-wars-and-revolts, women, prophets]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: rival-claimant, toward: person/muhammad, start: { edtf: "0632" }, end: { edtf: "0632" }, status: historical, note: "Claimed prophecy among her mother's people and her father's tribe; fielded an army that briefly threatened Medina.", sources: [source/tabari-donner-1993, source/watt-1956-medina] }
+  - { role: rebel, toward: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, status: historical, note: "Marched against Medina, then withdrew to join Musaylima in Yamama — where, in the sources' accounts, she accepted his prophecy and married him briefly.", sources: [source/tabari-donner-1993] }
+  - { role: convert, start: { edtf: "0633~" }, status: tradition, note: "Returned to Islam after the Ridda; the tradition records her living as a Muslim into the caliphate of Mu'awiya.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: christian, basis: debated, note: "Raised among the Christian Taghib of the Jazira; her own claim and later reversion complicate any single label — recorded as debated.", sources: [source/tabari-donner-1993, source/watt-1956-medina] }
+  - { value: sunni, basis: tradition, start: { edtf: "0633~" }, note: "The tradition holds she died a Muslim.", sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: member_of, target: group/banu-tamim }
+  - { type: member_of, target: group/banu-taghib }
+  - { type: spouse_of, target: person/musaylima, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+  - { type: opposed, target: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
