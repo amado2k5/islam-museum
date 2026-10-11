@@ -28,6 +28,32 @@
         "army"
       ]
     },
+    "made": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "by_muslims",
+        "basis"
+      ],
+      "properties": {
+        "by_muslims": {
+          "type": "boolean"
+        },
+        "basis": {
+          "enum": [
+            "self-identified",
+            "documented",
+            "unverified"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "founded": {
       "$ref": "_base.schema.json#/$defs/date"
     },

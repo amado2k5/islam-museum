@@ -1,0 +1,19 @@
+id: listing/slug-here
+class: listing
+kind: bookshop          # see schema/enums/kinds.yaml (listing)
+label: { en: "", ar: "" }
+summary: { en: "", ar: "" }
+wings: [made]
+categories: []          # schema/enums/listing-categories.yaml
+made:
+  by_muslims: true
+  basis: self-identified   # self-identified | documented | unverified (never published)
+  sources: []              # the owner's own statement, or two documented sources
+founded: { edtf: "" }
+status_business: active
+location: { place: place/slug, online_only: false, serves: [] }
+links: { website: "" }
+languages: []
+relations: []
+sources: []
+status: { review: draft, completeness: 0, generated_by: "" }

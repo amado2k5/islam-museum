@@ -1,0 +1,13 @@
+id: period/modern-era
+class: period
+kind: era
+label: { en: "The Modern Era", ar: "العصر الحديث" }
+summary:
+  en: "The years after the abolition of the Ottoman caliphate in 1924, with new nation-states, mass education, oil economies and competing political ideas."
+  ar: "السنوات التي أعقبت إلغاء الخلافة العثمانية سنة 1924: دول وطنية جديدة وتعليم واسع واقتصادات نفطية وأفكار سياسية متنافسة."
+wings: [time]
+regions: [global]
+start: { edtf: "1924", calendar: gregorian, precision: year, status: historical, note: "From the abolition of the caliphate to the Iranian revolution; conventional boundaries." }
+end: { edtf: "1979", calendar: gregorian, precision: year, status: historical }
+sources: [source/hodgson-1974, source/hourani-1991]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }

@@ -16,4 +16,4 @@ A free, open, all-digital museum of Islam with nine wings, built as a knowledge 
 | 10 | [Image generation](10-image-generation.md) | Generating all illustrative imagery on a local Mac: policy, models, setup, commands, batch pipeline, monitoring, review, and the complete prompt system per class |
 | 11 | [Made directory](11-made-directory.md) | The ninth wing: a directory of Muslim-made shops, brands, books, apps, studios, media, charities and institutions; schema, discovery, verification, presentation |
 
-**Status (11 October 2026):** repository created; bilingual "opening soon" page live at https://islam.museum via GitHub Actions → GitHub Pages → Cloudflare. Next step: Phase 0 scaffold (Prompt B in 07).
+**Status (11 October 2026):** repository created; bilingual "opening soon" page live at https://islam.museum via GitHub Actions → GitHub Pages → Cloudflare. Phase 0 scaffold implemented (schema, pipeline, Astro site, CI) and deployed; Phase 1 spine begun (12 periods). Next: people, places, events per `06-roadmap.md`.

@@ -1,0 +1,13 @@
+id: period/rashidun
+class: period
+kind: era
+label: { en: "The Rashidun Caliphate", ar: "عصر الخلفاء الراشدين" }
+summary:
+  en: "The rule of the first four caliphs after the Prophet, Abu Bakr, Umar, Uthman and Ali, when the community expanded from Arabia into the Levant, Iraq, Egypt and Iran."
+  ar: "حكم الخلفاء الأربعة الأوائل بعد النبي: أبو بكر وعمر وعثمان وعلي، حين اتسعت الجماعة من الجزيرة إلى الشام والعراق ومصر وإيران."
+wings: [time]
+regions: [arabia]
+start: { edtf: "0632", hijri: "0011", calendar: julian, precision: year, status: historical }
+end: { edtf: "0661", hijri: "0041", calendar: julian, precision: year, status: historical }
+sources: [source/hodgson-1974, source/hourani-1991]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }

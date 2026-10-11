@@ -15,10 +15,11 @@ const claimStatus = ids("claim-status");
 const sensitivity = ids("sensitivity");
 const review = ids("review");
 const licenses = ids("licenses");
+const listingCategories = ids("listing-categories");
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing",
 ] as const;
 
 const ref = (name: string) => ({ $ref: `_base.schema.json#/$defs/${name}` });
@@ -28,6 +29,10 @@ const str = { type: "string" };
 const strs = { type: "array", items: str };
 const intStr = { type: "integer" };
 const enm = (v: string[]) => ({ enum: v });
+const madeBlock = {
+  type: "object", additionalProperties: false, required: ["by_muslims", "basis"],
+  properties: { by_muslims: { type: "boolean" }, basis: enm(["self-identified", "documented", "unverified"]), sources: strs },
+};
 
 const base = {
   $schema: "https://json-schema.org/draft/2020-12/schema",
@@ -132,7 +137,7 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     },
   },
   group: {
-    properties: { ...kind("group"), founded: D, dissolved: D, founder: entityRef, headquarters: entityRef,
+    properties: { ...kind("group"), made: madeBlock, founded: D, dissolved: D, founder: entityRef, headquarters: entityRef,
       members_estimate: intStr, active_regions: { type: "array", items: enm(regions) } },
     required: ["kind"],
   },
@@ -152,7 +157,7 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   },
   period: {
     properties: { ...kind("period"), start: D, end: D, parent_period: entityRef, defining_events: entityRefs },
-    required: ["start", "end"],
+    required: ["start"],
   },
   journey: {
     properties: { ...kind("journey"), travelers: entityRefs, distance_km: { type: "number" }, geometry: str,
@@ -187,7 +192,7 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     required: ["kind", "license", "attribution", "alt"],
   },
   work: {
-    properties: { ...kind("work"), genre: strs, disciplines: strs, authors: entityRefs, language: entityRef, composed: D,
+    properties: { ...kind("work"), made: madeBlock, genre: strs, disciplines: strs, authors: entityRefs, language: entityRef, composed: D,
       structure: str, editions: strs, translations: strs, openiti_uri: str, commentaries: entityRefs, manuscripts: entityRefs },
     required: ["kind"],
   },
@@ -230,6 +235,16 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       edition: { type: ["string", "integer"] }, publisher: str, URL: { type: "string", format: "uri" }, DOI: str, ISBN: str,
       language: str, reliability_note: str, open_access: { type: "boolean" } },
     required: ["kind", "type", "title"],
+  },
+  listing: {
+    properties: { ...kind("listing"), categories: { type: "array", items: enm(listingCategories), uniqueItems: true }, made: madeBlock,
+      founded: D, status_business: enm(["active", "closed", "unknown"]),
+      location: { type: "object", additionalProperties: false, properties: { place: entityRef, address: L, coordinates: ref("coordinates"),
+        online_only: { type: "boolean" }, serves: { type: "array", items: { type: "string", pattern: "^([a-z]{2}|global)$" } } } },
+      links: { type: "object", additionalProperties: true }, languages: strs,
+      certifications: { type: "array", items: { type: "object", required: ["body"], properties: { body: str, ref: str, source: str, checked: { type: "string", format: "date" } } } },
+      owner_contact_on_file: { type: "boolean" }, provenance: { type: "object" } },
+    required: ["kind", "categories", "made"],
   },
   dataset: {
     properties: { columns: strs, rows_file: str, source: entityRef, license: enm(licenses),

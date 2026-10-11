@@ -1,0 +1,13 @@
+id: period/colonial-era
+class: period
+kind: era
+label: { en: "The Colonial Era", ar: "العصر الاستعماري" }
+summary:
+  en: "The period when European powers conquered, ruled or dominated most Muslim-majority lands, and when reform and independence movements arose."
+  ar: "الفترة التي أخضعت فيها القوى الأوروبية معظم البلاد ذات الأغلبية المسلمة أو حكمتها أو هيمنت عليها، ونشأت فيها حركات الإصلاح والاستقلال."
+wings: [time]
+regions: [global]
+start: { edtf: "1798", calendar: gregorian, precision: year, status: historical, note: "From Napoleon's invasion of Egypt; end approximates the wave of independence after 1945." }
+end: { edtf: "1950~", calendar: gregorian, precision: year, status: historical }
+sources: [source/hodgson-1974, source/hourani-1991]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }

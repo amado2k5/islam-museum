@@ -1,0 +1,13 @@
+id: period/crusades-ayyubid-mamluk
+class: period
+kind: era
+label: { en: "The Crusades, Ayyubids and Mamluks", ar: "الحروب الصليبية والأيوبيون والمماليك" }
+summary:
+  en: "The age of the Crusader states, Saladin's Ayyubids and the Mamluk sultanate in Egypt and Syria, ending with the Ottoman conquest."
+  ar: "عصر الإمارات الصليبية والأيوبيين بقيادة صلاح الدين والمماليك في مصر والشام، وينتهي بالفتح العثماني."
+wings: [time]
+regions: [levant-iraq]
+start: { edtf: "1095", calendar: julian, precision: year, status: historical, note: "From the call to the First Crusade to the Ottoman conquest of Egypt; overlaps neighbouring periods by design." }
+end: { edtf: "1517", calendar: julian, precision: year, status: historical }
+sources: [source/hodgson-1974, source/hourani-1991]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }

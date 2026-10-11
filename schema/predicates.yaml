@@ -319,3 +319,27 @@ related_to:
   label: { en: "Related to", ar: "ذو صلة بـ" }
   inverse_label: { en: "Related to", ar: "ذو صلة بـ" }
   temporal: false
+
+sells_work:
+  inverse: sold_at
+  domain: [listing]
+  range: [work]
+  label: { en: "Sells", ar: "يبيع" }
+  inverse_label: { en: "Sold at", ar: "يُباع في" }
+  temporal: false
+
+publishes:
+  inverse: published_by
+  domain: [listing,group]
+  range: [work]
+  label: { en: "Publishes", ar: "ينشر" }
+  inverse_label: { en: "Published by", ar: "نشره" }
+  temporal: false
+
+certified_by:
+  inverse: certifies
+  domain: [listing]
+  range: [group]
+  label: { en: "Certified by", ar: "معتمد من" }
+  inverse_label: { en: "Certifies", ar: "يعتمد" }
+  temporal: false

@@ -15,10 +15,10 @@ export function ui(lang: Lang): any {
 /** Interpolate {name} placeholders. */
 export const fmt = (s: string, vars: Record<string, string>) => s.replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? `{${k}}`);
 
-export const WINGS = ["time", "place", "people", "ideas", "objects", "words", "living", "today"] as const;
+export const WINGS = ["time", "place", "people", "ideas", "objects", "words", "living", "today", "made"] as const;
 export type Wing = (typeof WINGS)[number];
 
-export const WING_PATH: Record<Wing, string> = { time: "time", place: "place", people: "people", ideas: "ideas", objects: "objects", words: "words", living: "living", today: "today" };
+export const WING_PATH: Record<Wing, string> = { time: "time", place: "place", people: "people", ideas: "ideas", objects: "objects", words: "words", living: "living", today: "today", made: "made" };
 export const wingHref = (lang: Lang, w: Wing) => `/${lang}/${WING_PATH[w]}/`;
 
 export const t = (lang: Lang, path: string): string => path.split(".").reduce((o: any, k) => o?.[k], ui(lang)) ?? path;

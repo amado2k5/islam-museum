@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "listing.schema.json",
+  "title": "Museum entity: listing",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "listing"
+    },
+    "kind": {
+      "enum": [
+        "shop",
+        "brand",
+        "restaurant",
+        "food_product",
+        "publisher",
+        "bookshop",
+        "library",
+        "company",
+        "startup",
+        "app",
+        "software",
+        "game",
+        "studio",
+        "media",
+        "podcast",
+        "magazine",
+        "charity",
+        "foundation",
+        "school",
+        "university",
+        "clinic",
+        "fund",
+        "fashion",
+        "craft",
+        "artist_practice",
+        "travel",
+        "event_series",
+        "platform",
+        "other"
+      ]
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "books",
+          "education",
+          "food",
+          "fashion",
+          "beauty",
+          "technology",
+          "games",
+          "finance",
+          "health",
+          "travel",
+          "arts-design",
+          "media-entertainment",
+          "charity",
+          "architecture-construction",
+          "agriculture",
+          "crafts-heritage",
+          "sports",
+          "kids-family"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "made": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "by_muslims",
+        "basis"
+      ],
+      "properties": {
+        "by_muslims": {
+          "type": "boolean"
+        },
+        "basis": {
+          "enum": [
+            "self-identified",
+            "documented",
+            "unverified"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "founded": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "status_business": {
+      "enum": [
+        "active",
+        "closed",
+        "unknown"
+      ]
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "place": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "address": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "coordinates": {
+          "$ref": "_base.schema.json#/$defs/coordinates"
+        },
+        "online_only": {
+          "type": "boolean"
+        },
+        "serves": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^([a-z]{2}|global)$"
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "body"
+        ],
+        "properties": {
+          "body": {
+            "type": "string"
+          },
+          "ref": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "checked": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "owner_contact_on_file": {
+      "type": "boolean"
+    },
+    "provenance": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "kind",
+    "categories",
+    "made"
+  ],
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,13 @@
+id: period/gunpowder-empires
+class: period
+kind: era
+label: { en: "The Gunpowder Empires", ar: "إمبراطوريات البارود" }
+summary:
+  en: "The age of the Ottoman, Safavid and Mughal empires, three large and long-lived states with powerful courts, armies and arts."
+  ar: "عصر الدول العثمانية والصفوية والمغولية الهندية، ثلاث دول كبرى طويلة العمر ذات بلاطات وجيوش وفنون عظيمة."
+wings: [time]
+regions: [anatolia-balkans]
+start: { edtf: "1500~", calendar: julian, precision: year, status: historical, note: "Dates are approximate; the three empires rose and fell at different times." }
+end: { edtf: "1800~", calendar: gregorian, precision: year, status: historical }
+sources: [source/hodgson-1974, source/hourani-1991]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; boundaries are curatorial and approximate" }
