@@ -159,4 +159,4 @@ Compiled entity example (abridged):
 3. Remove a source file; the build fails on the dangling `{cite:}`.
 4. Feed an NC-licensed source; the output is isolated and labelled, and the validator rejects any attempt to merge it into CC BY-SA prose.
 5. A contested entity (Saqifa, Ghadir Khumm) produces a perspectives block with the Sunni entry first, then the academic entry, then the labelled Twelver Shia entry, each cited; a block whose first entry is not Sunni, or an entry without a tradition label, fails validation.
-6. Translating `content/en/person/ibn-sina.md` to Arabic preserves every `{cite:}` and `[[link]]` and uses glossary forms.
+6. (Phase 4) Translating `content/ar/person/ibn-sina.md` to English preserves every `{cite:}` and `[[link]]` and uses glossary forms.

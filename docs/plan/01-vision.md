@@ -42,7 +42,7 @@ Design for the stranger first. If the stranger feels welcome and informed, every
 4. **A Sunni frame, respectful of all.** The museum describes Islam as understood by Ahl al-Sunna wa'l-Jama'a (the four madhhabs, the Ash'ari, Maturidi and Athari creeds, the Sufi orders within Sunni Islam); see `docs/scope.md`. Within that frame it is deliberately broad: all four schools, classical and reformist readings, Arabs, Persians, Turks, South Asians, Africans, Southeast Asians, Chinese, Europeans, Americans; women and men; rulers and the ruled. Any other point of view (Shia, Ibadi, Ahmadi, academic, non-Muslim) may be mentioned freely and is always labelled before it is stated, so Sunni Islam stays the unlabelled default and no reader mistakes another view for the museum's own.
 5. **Everything connected.** No dead ends. Every page leads to time, place, people and ideas around it. Serendipity is a feature.
 6. **Hijri-native, timely and transparent.** Dual calendar everywhere. "Today" is part of the story. Every page shows when it was last updated and by whom.
-7. **Beautiful and calm.** A museum, not a portal. Arabic typography as a first-class citizen; right-to-left as a first-class layout.
+7. **Beautiful and calm, in Arabic first.** A museum, not a portal. Arabic is the primary language and right-to-left the default layout (`docs/language.md`); other languages are translations of the finished Arabic museum.
 8. **Durable.** Plain text in git, standard formats (Markdown, YAML, JSON Schema, GeoJSON, EDTF, IIIF, JSON-LD), static hosting, no vendor lock-in, readable without JavaScript, usable offline.
 9. **Machine-readable.** Stable URLs, JSON-LD, a static API, Wikidata alignment, `llms.txt`. Built to be cited correctly by humans and machines.
 10. **Honest about gaps.** Coverage maps show what the museum does not yet have. Drafts are labelled drafts.
@@ -98,6 +98,6 @@ What islam.museum does that has not been done:
 
 ## 8. Success looks like
 
-- **Year 1:** 2,000+ connected entities, English + Arabic, all nine wings open, 2,000 verified screen titles, 60 theme hubs open, both sides present on every conflict page, 500 verified Made listings, timeline/map/network halls live, 50 exhibits, 200 questions, cited on Wikipedia and by AI assistants, 20 contributors.
+- **Year 1:** 2,000+ connected entities, in Arabic, all nine wings open, 2,000 verified screen titles, 60 theme hubs open, both sides present on every conflict page, 500 verified Made listings, timeline/map/network halls live, 50 exhibits, 200 questions, cited on Wikipedia and by AI assistants, 20 contributors.
 - **Year 2:** 10,000+ entities, 6 languages, IIIF objects from 10 institutions, Qur'an and hadith integrated, educator kits, API in use by researchers, a volunteer editorial board.
 - **Year 5:** The default first stop online for anyone, anywhere, who wants to understand Islam and its civilization; a dataset used in research and education worldwide; a model other faiths and civilizations copy.

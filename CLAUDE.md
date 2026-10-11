@@ -10,7 +10,7 @@ Non-negotiables
 - Every entity cites sources; every dated fact needs two sources or a flag. Wikipedia is a pointer, not a source.
 - Voice: a warm, precise, neutral docent. Describe, never prescribe. No honorifics typed into prose (the UI renders them). Scope: Sunni Islam is the default and main frame and research starts from Sunni sources (docs/scope.md); any other view may be mentioned and must be labelled before it is stated. Contested topics use the perspectives block with the Sunni position(s) first, then the academic view, then any other view, each cited and labelled.
 - Licenses: prose CC BY-SA 4.0, data CC0, code MIT; third-party content keeps its own license, recorded per version; media only from the whitelist in schema/enums/licenses.yaml; no figurative depictions of prophets; no AI-generated portraits.
-- Arabic and RTL are first-class: test every UI change in /ar/.
+- Arabic is the primary language (docs/language.md): Phase 1 content, UI, alt text, maps and questions are Arabic only; English and other languages are translated later (Phase 4). The site's default locale is ar and RTL is the default layout. Validation requires label.ar and summary.ar.
 - Accessibility: WCAG 2.2 AA; alt text required; no JS needed to read a page; islands lazy-load.
 - Run `npm run validate` before proposing any content change and `npm run build` before any site change. Fix what fails.
 - AI-generated content enters as status.review: draft with a provenance block; never mark reviewed/verified yourself.

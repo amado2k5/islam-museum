@@ -6,7 +6,7 @@ A concrete step that sits between the content pipeline (09), the image plan (10)
 
 | Output | How | For which events | Format |
 |---|---|---|---|
-| **Locator map** | programmatic | every event with a place | SVG + PNG, 3:2, en + ar |
+| **Locator map** | programmatic | every event with a place | SVG + PNG, 3:2, Arabic labels (English in Phase 4) |
 | **Battle or siege schematic** | programmatic, from a `map` block in the event YAML | battles, sieges, naval battles | SVG + PNG, 1:1 and 3:2 |
 | **Campaign or war map** | programmatic, from child events and legs | wars, campaigns, conquests, revolts, migrations | SVG + PNG, 3:2 and 21:9 |
 | **Polity context layer** | programmatic, from `geo/polity/*.geojson` at the event date | all | drawn under the above |

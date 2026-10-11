@@ -1,5 +1,9 @@
 # 05 · Editorial policy, licensing, contribution, governance
 
+## 0. Language
+
+Arabic first: all content is written in Arabic in Phases 0–3 and translated later (`docs/language.md`). The rules below apply to the Arabic text; translations must preserve them.
+
 ## 1. Voice
 
 The museum speaks like a thoughtful docent: warm, precise, descriptive, never preaching, never sneering. Rules of thumb:

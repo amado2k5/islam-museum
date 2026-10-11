@@ -4,6 +4,8 @@ A free, open, all-digital museum of Islam with nine wings and four cross-cutting
 
 > **Scope note.** Sunni Islam (Ahl al-Sunna wa'l-Jama'a) is the museum's default and main frame, and research starts from Sunni sources. Any other point of view may be mentioned, and is always labelled before it is stated so the reader never mistakes it for the museum's frame. The full rule is in [`docs/scope.md`](../scope.md).
 
+> **Language rule.** Arabic is the primary language. Phase 1 is built entirely in Arabic; English and other languages are translated from the finished Arabic later (Phase 4). Full policy: [`docs/language.md`](../language.md).
+
 > **Runtime rule.** AI is used only while building: drafting, extracting, verifying, translating, illustrating. The published website is static files with no model, no server code and no database behind any visitor request (`03-architecture.md` §13).
 
 

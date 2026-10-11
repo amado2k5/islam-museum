@@ -177,10 +177,10 @@ Pagefind indexes rendered pages. Each entity page sets `data-pagefind-body`, plu
 
 ## 10. Internationalisation
 
-- Astro i18n routing with `en` default and `ar` RTL; UI strings in `i18n/*.yaml`; prose per language; labels multilingual in data.
-- Fallback chain per page: requested language → English → any; a visible banner "This page is not yet translated — help translate" links to a prefilled GitHub issue.
+- Astro i18n routing with `ar` as the default locale and RTL as the default layout (`docs/language.md`); UI strings in `i18n/ar.yaml` first; prose per language; labels multilingual in data with Arabic required.
+- Fallback chain per page: requested language → Arabic → any; a visible banner "This page is not yet translated — help translate" links to a prefilled GitHub issue.
 - Numbers, dates and calendars via `Intl` with per-language preferences (Arabic-Indic digits optional).
-- Language order of attack: en, ar → ur, id, tr, fr → es, bn, fa, sw, zh, de, ms, ha, bs.
+- Language order of attack: ar (Phases 0–3) → en, ur, id, tr, fr (Phase 4) → es, bn, fa, sw, zh, de, ms, ha, bs.
 
 ## 11. Security, privacy, resilience
 

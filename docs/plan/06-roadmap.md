@@ -10,7 +10,7 @@ Deliverables:
 - Local harvest workstation on the founder's Mac per `15-local-harvest.md`: workspace, source registry, the Qur'an text downloaded, verified and frozen, Wikidata seed sets, first-ring Wikipedia dumps. Runs without Claude.
 - Scaffold additions from documents 12–14 (the scaffold itself is in place as of 11 October 2026): `screen` schema, template and page layout; `themes` and `story-roles` enums; `themes[]`, `story_roles[]`, `faith[]`, `labelled[]`, `tensions[]` and `basis[]` fields; the added kinds and predicates; the one-sided-conflict warning, the tension lint and the licence-layer check in the validator; Screening Room and theme hub page layouts.
 - `scripts/`: validate, build-graph, derive, export-api, hijri convert (with anchor tests), coverage report.
-- `site/`: Astro + Tailwind + i18n (en, ar) + entity page layout + hall placeholders + search (Pagefind) + JSON-LD + sitemaps + API export.
+- `site/`: Astro + Tailwind + i18n (ar default; en later) + entity page layout + hall placeholders + search (Pagefind) + JSON-LD + sitemaps + API export.
 - CI: validate on PR; deploy on main to GitHub Pages; Cloudflare cache purge.
 - DNS: `islam.museum` proxied via Cloudflare → GitHub Pages, HTTPS, `www` redirect, Cloudflare Web Analytics.
 - A real landing page: the vision, the nine wings, "opening soon", links to GitHub and Discussions.
@@ -19,7 +19,7 @@ Exit criteria: `npm run validate && npm run build` green; https://islam.museum s
 
 ## Phase 1 · The Spine (weeks 3–10)
 
-Content targets (en + ar; `reviewed` status):
+Content targets (Arabic only in Phase 1, per `docs/language.md`; `reviewed` status):
 
 | Class | Count | Notes |
 |---|---|---|
@@ -40,7 +40,7 @@ Content targets (en + ar; `reviewed` status):
 | exhibit | 8 | "Islam in 30 minutes" tour · The Life of the Prophet · The House of Wisdom · Al-Andalus · Women who shaped Islam · Timbuktu and the Sahel · Islam in China · The Islamic Year (Living) |
 | source | 120 | critical editions and scholarship for the above |
 | dataset | 3 | Muslim population by country (Pew) · Hajj attendance by year · UNESCO World Heritage sites of Islamic civilization |
-| media | 150 + ~650 | CC0/PD images with alt text in en + ar, plus ~650 approved AI-assisted illustrations generated locally per `10-image-generation.md` (wings, periods, regions, places, events, person still-lifes, concepts, practices, journeys, questions) and programmatic name tiles for every person |
+| media | 150 + ~650 | CC0/PD images with Arabic alt text, plus ~650 approved AI-assisted illustrations generated locally per `10-image-generation.md` (wings, periods, regions, places, events, person still-lifes, concepts, practices, journeys, questions) and programmatic name tiles for every person |
 | listing | 100 | Made wing seed across 20 countries and all categories, plus a Library shelf of 100 books by living Muslim authors (`11-made-directory.md`) |
 | screen | 300 | Films, series, documentaries and programmes about Islam across at least 25 languages, each linked to what it is about; the verified seed list of `12-screen-index.md` §9 first |
 | theme hubs | 16 | One hub per theme family opened to the minimum set, all spine entities theme-tagged, 20 tension cards, every ghazwa and sariyya as an event with both sides (`14-themes-atlas.md` §9) |
@@ -79,6 +79,8 @@ Network hall full (teacher–student, isnad, families, dynasties, path finder) �
 Qur'an browser (Tanzil text; permitted translations; links to events/people/places) · hadith browser with isnad mini-graphs and sunnah.com deep links · poetry anthology · IIIF viewer with QDL/Bodleian/Gallica manuscripts and Met/Smithsonian/Walters CC0 objects imported (≥ 500 objects) · per-version license registry · Objects hall full · media repo live.
 
 ## Phase 4 · Community and languages (months 6–9)
+
+English is translated from the finished Arabic first (UI, then spine, then the rest), followed by Urdu, Indonesian, Turkish and French (`docs/language.md`).
 
 Contributor program; wing editors; issue forms; translation workflow; languages: ur, id, tr, fr; educator kits (printable exhibits, lesson plans as `exhibit kind: lesson`); first outreach to universities and museums; Wikipedia citations of islam.museum; monthly data release with DOI.
 

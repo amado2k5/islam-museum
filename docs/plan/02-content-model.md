@@ -208,8 +208,8 @@ external_ids: { wikidata: Q35484, geonames: "109223", pleiades: "..." }
 
 ```
 data/person/ibn-sina.yaml          ← facts, once
-content/en/person/ibn-sina.md      ← English prose
-content/ar/person/ibn-sina.md      ← Arabic prose
+content/ar/person/ibn-sina.md      ← Arabic prose (written first; required)
+content/en/person/ibn-sina.md      ← English prose (Phase 4, translated from Arabic)
 content/fr/person/ibn-sina.md      ← may not exist yet → page falls back to English body with the Arabic/English label, and shows "Help translate"
 ```
 
@@ -219,7 +219,7 @@ Prose file:
 ---
 id: person/ibn-sina
 lang: en
-source_lang: en              # or translation_of: en@<content-hash> for staleness detection
+source_lang: ar              # English and others carry translation_of: ar@<content-hash> for staleness detection
 translators: []
 ---
 
