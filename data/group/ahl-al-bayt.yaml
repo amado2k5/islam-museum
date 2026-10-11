@@ -1,0 +1,34 @@
+id: group/ahl-al-bayt
+class: group
+kind: family
+label: { en: "Ahl al-Bayt", ar: "أهل البيت" }
+summary:
+  en: "'The People of the House' — the Prophet's household: the family around whom the deepest loyalties and the deepest split in Islamic history would form."
+  ar: "«أهل البيت» — بيت النبي: العائلة التي تشكّل حولها أعمق الولاءات وأعمق انقسام في تاريخ الإسلام."
+wings: [people]
+themes: [family-marriage-kinship, sects-and-schools]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-sad-tabaqat-bewley] }
+story_roles:
+  - { role: family-of-the-prophet, start: { edtf: "0622~" }, status: tradition, note: "The family circle of the Prophet in Medina — its exact membership is itself a point of difference between traditions.", sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: member_of, target: group/banu-hashim }
+  - { type: has_member, target: person/muhammad }
+  - { type: has_member, target: person/ali-ibn-abi-talib }
+  - { type: has_member, target: person/fatima }
+  - { type: has_member, target: person/hasan-ibn-ali }
+  - { type: has_member, target: person/husayn-ibn-ali }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni tradition includes in Ahl al-Bayt the Prophet's wives together with Ali, Fatima, Hasan and Husayn and their kin — honored by the verse of purification and the hadith of the cloak, without conferring religious authority on descent alone." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians treat 'the house' as a sacred category that expanded with the community's later debates about leadership, its boundaries drawn differently at different moments." }
+    sources: [source/madelung-1997]
+  - tradition: shia-twelver
+    summary: { en: "Twelver Shia tradition defines Ahl al-Bayt as the people of the cloak — Muhammad, Ali, Fatima, Hasan and Husayn — and the line of Imams descended through them, bearers of the Prophet's religious authority." }
+    sources: [source/momen-1985]
+sensitivity: contested
+sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/momen-1985]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

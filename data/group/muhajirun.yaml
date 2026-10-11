@@ -1,0 +1,24 @@
+id: group/muhajirun
+class: group
+kind: people
+label: { en: "The Muhajirun", ar: "المهاجرون" }
+summary:
+  en: "'The Emigrants' — the Muslims who left Mecca for Abyssinia and then Medina, giving up home and property for the faith; the community's founding layer in the Prophet's city."
+  ar: "«المهاجرون» — المسلمون الذين تركوا مكة إلى الحبشة ثم إلى المدينة، نازحين عن ديارهم وأموالهم في الدين؛ الطبقة المؤسسة في مدينة النبي."
+wings: [people]
+themes: [refugees-migrants-diaspora, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-sad-tabaqat-bewley] }
+founded: { edtf: "0622", calendar: julian, precision: year, status: tradition, note: "The category crystallizes with the Hijra, though the earlier Abyssinia migrants share it.", sources: [source/ibn-sad-tabaqat-bewley] }
+story_roles:
+  - { role: victim, start: { edtf: "0615~" }, end: { edtf: "0622" }, status: historical, note: "Driven out by the Meccan persecution; left property and kin behind.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0622" }, end: { edtf: "0632" }, status: tradition, note: "The tradition ranks the Muhajirun — above all the earliest — as the first layer of the companions.", sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: lived_in, target: place/mecca, end: { edtf: "0622" } }
+  - { type: lived_in, target: place/medina, start: { edtf: "0622" } }
+  - { type: participated_in, target: event/first-migration-to-abyssinia, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/hijra, role: migrating-party, sources: [source/ibn-ishaq-guillaume] }
+  - { type: allied_with, target: group/ansar, start: { edtf: "0622" }, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

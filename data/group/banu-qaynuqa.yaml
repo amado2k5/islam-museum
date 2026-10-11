@@ -1,0 +1,20 @@
+id: group/banu-qaynuqa
+class: group
+kind: tribe
+label: { en: "Banu Qaynuqa'", ar: "بنو قينقاع" }
+summary:
+  en: "The first of Medina's three Jewish tribes to break with the Prophet — goldsmiths of the city's market, besieged after Badr and expelled to Syria in 624."
+  ar: "أول قبائل يهود المدينة الثلاث قطيعةً مع النبي — صاغة سوق المدينة، حوصروا بعد بدر وأُجلوا إلى الشام سنة 624م."
+wings: [people]
+themes: [islam-and-judaism, non-muslim-minorities-under-muslim-rule]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: documented, sources: [source/watt-1956-medina] }
+story_roles:
+  - { role: opponent, toward: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0624" }, status: historical, note: "Clashed with the Muslim market after Badr; besieged fifteen days and expelled.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: victim, start: { edtf: "0624" }, status: historical, note: "Expelled from Medina to Syria, leaving their property and weapons — the first of the three expulsions.", sources: [source/ibn-ishaq-guillaume] }
+relations:
+  - { type: lived_in, target: place/medina, end: { edtf: "0624" } }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0624" }, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

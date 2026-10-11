@@ -1,0 +1,25 @@
+id: group/banu-nadir
+class: group
+kind: tribe
+label: { en: "Banu Nadir", ar: "بنو النضير" }
+summary:
+  en: "Medina's second Jewish tribe to break with the Prophet — date-palm landholders expelled to Khaybar in 625 after the breakdown of the pact, where their exiles kept the quarrel alive."
+  ar: "ثاني قبائل يهود المدينة قطيعةً مع النبي — ملاك نخل أُجلوا إلى خيبر سنة 625م بعد انهيار العهد، وأبقى مهجّروهم الخصومة حية."
+wings: [people]
+themes: [islam-and-judaism, non-muslim-minorities-under-muslim-rule]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: documented, sources: [source/watt-1956-medina] }
+story_roles:
+  - { role: ally, toward: group/early-muslims, start: { edtf: "0622" }, end: { edtf: "0625" }, status: historical, note: "Party to the Medina pact before relations broke down.", sources: [source/watt-1956-medina] }
+  - { role: opponent, toward: group/early-muslims, start: { edtf: "0625" }, end: { edtf: "0628" }, status: historical, note: "The tradition accuses their chiefs of plotting against the Prophet's life; after exile at Khaybar the sources credit them with encouraging the confederates.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: victim, start: { edtf: "0625" }, status: historical, note: "Besieged, then expelled — leaving their palms and much property, carrying away what the camels bore.", sources: [source/ibn-ishaq-guillaume] }
+relations:
+  - { type: lived_in, target: place/medina, end: { edtf: "0625" } }
+  - { type: lived_in, target: place/khaybar, start: { edtf: "0625" } }
+  - { type: member_of, target: group/jews-of-khaybar, start: { edtf: "0625" } }
+  - { type: has_member, target: person/kab-ibn-al-ashraf }
+  - { type: has_member, target: person/huyayy-ibn-akhtab }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0625" }, end: { edtf: "0625" }, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

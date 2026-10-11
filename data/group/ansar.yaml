@@ -1,0 +1,25 @@
+id: group/ansar
+class: group
+kind: people
+label: { en: "The Ansar", ar: "الأنصار" }
+summary:
+  en: "'The Helpers' — the Muslims of Medina, of Aws and Khazraj, who invited the Prophet to their city, sheltered the refugees, and supplied the community's fighting strength."
+  ar: "«الأنصار» — مسلمو المدينة من الأوس والخزرج الذين دعوا النبي إلى مدينتهم، وآووا المهاجرين، وكانوا عماد قوة الجماعة."
+wings: [people]
+themes: [hospitality, converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-sad-tabaqat-bewley] }
+founded: { edtf: "0622", calendar: julian, precision: year, status: tradition, note: "The name belongs to the Medinan converts around the pledges of Aqaba and the Hijra.", sources: [source/ibn-sad-tabaqat-bewley] }
+story_roles:
+  - { role: host, toward: person/muhammad, start: { edtf: "0622" }, status: historical, note: "Received the Prophet by invitation after the pledges of Aqaba.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: protector, toward: group/muhajirun, start: { edtf: "0622" }, status: historical, note: "Sheltered the Meccan refugees; the Prophet paired them with the emigrants in the brotherhood pact.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: ally, toward: person/muhammad, start: { edtf: "0622" }, end: { edtf: "0632" }, status: historical, note: "Supplied the bulk of the community's fighters at Badr, Uhud and after.", sources: [source/watt-1956-medina] }
+relations:
+  - { type: lived_in, target: place/medina }
+  - { type: allied_with, target: group/muhajirun, start: { edtf: "0622" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: protected, target: group/muhajirun, start: { edtf: "0622" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/pledges-of-aqaba, role: pledging-party, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/brotherhood-of-muhajirun-and-ansar, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
