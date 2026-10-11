@@ -1,0 +1,60 @@
+# Source registry (docs/plan/15 §3, §5, §11). No source is fetched unless it is listed here with licence, layer, method and limits.
+# The working copy lives in $HARVEST/sources.yaml (last_fetch and checksum fields are filled there); this is the template.
+user_agent: "islam-museum-harvest/0.1 (https://github.com/amado2k5/islam-museum)"   # add a contact email in your working copy if you want higher Wikimedia limits
+sources:
+  wikidata-query:
+    name: Wikidata Query Service
+    url: https://query.wikidata.org/sparql
+    licence: CC0 1.0
+    layer: cc0
+    method: sparql, in series, one query file per class and signal
+    limits: { pause_seconds: 5, timeout_seconds: 60, backoff_on: [429, 503] }
+    status: enabled
+  wikidata-dump:
+    name: Wikidata JSON dump
+    url: https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2
+    licence: CC0 1.0
+    layer: cc0
+    method: aria2c, two connections, resumable; stream through the subset filter, then delete
+    limits: { connections: 2, size_gib: 96 }
+    status: planned          # not downloaded yet: needs about 100 GiB free
+  wikipedia-dumps:
+    name: Wikipedia article dumps, by language
+    url: https://dumps.wikimedia.org/
+    licence: CC BY-SA 4.0 and GFDL
+    layer: by-sa
+    method: dumps only, two connections; pointers and context, never merged into cc0
+    status: planned
+  tanzil-quran:
+    name: Tanzil Qur'an text v1.1 (Uthmani and Simple Clean)
+    url: https://tanzil.net/download/
+    licence: Tanzil terms (verbatim copies only, attribution, notice kept)
+    layer: by
+    method: manual download in a browser, then scripts/harvest/quran/verify_quran.py
+    status: manual
+  openiti:
+    name: OpenITI corpus
+    url: https://github.com/OpenITI
+    licence: CC BY-NC-SA 4.0 (varies by repository)
+    layer: nc
+    method: git clone of selected repositories; facts extracted with quotes, text never republished
+    status: planned
+  met-open-access:
+    name: Metropolitan Museum Open Access
+    url: https://github.com/metmuseum/openaccess
+    licence: CC0 1.0
+    layer: cc0
+    method: csv download
+    status: planned
+  pleiades:
+    name: Pleiades gazetteer
+    url: https://pleiades.stoa.org/downloads
+    licence: CC BY 3.0
+    layer: by
+    method: csv download
+    status: planned
+  forbidden:
+    - { name: Quran Foundation API, reason: no storage beyond a week, no redistribution }
+    - { name: Zabihah, reason: terms prohibit collection }
+    - { name: Mawaqit, reason: terms prohibit collection }
+    - { name: YouTube API data, reason: terms prohibit storage and redistribution }

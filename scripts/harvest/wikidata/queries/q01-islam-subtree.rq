@@ -1,0 +1,2 @@
+# Everything in the subclass tree of Islam (concepts, schools, practices, institutions classified under it).
+SELECT DISTINCT ?item WHERE { ?item wdt:P279+ wd:Q432 . } LIMIT 5000

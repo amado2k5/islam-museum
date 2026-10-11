@@ -1,0 +1,5 @@
+# Works (films, books, series) whose main subject is Islam (Q432), the Qur'an (Q428) or Muhammad (Q9458). IDs verified against Wikidata labels, 2026-10-11.
+SELECT DISTINCT ?item WHERE {
+  VALUES ?s { wd:Q432 wd:Q9458 wd:Q428 }
+  ?item wdt:P921 ?s .
+} LIMIT 5000

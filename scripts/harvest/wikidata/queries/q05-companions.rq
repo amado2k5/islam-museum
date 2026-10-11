@@ -1,0 +1,2 @@
+# People tied to the class "Companions of the Prophet" (Q188711, verified 2026-10-11) by occupation, membership or position.
+SELECT DISTINCT ?item WHERE { ?item wdt:P106|wdt:P463|wdt:P39|wdt:P31 wd:Q188711 . ?item wdt:P31 wd:Q5 . } LIMIT 5000

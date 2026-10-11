@@ -1,0 +1,8 @@
+# Conflicts of the Prophetic era, found three ways: parts of the same campaigns as the Battle of Badr (Q486124), battles in Saudi Arabia (Q851)
+# dated 610-632 CE, and battles whose participants include the early Muslim sides. IDs verified against Wikidata 2026-10-11.
+SELECT DISTINCT ?item WHERE {
+  { wd:Q486124 wdt:P361 ?campaign . ?item wdt:P361 ?campaign . }
+  UNION
+  { ?item wdt:P31/wdt:P279* wd:Q178561 ; wdt:P17 wd:Q851 ; wdt:P585 ?d .
+    FILTER(?d >= "0610-01-01T00:00:00Z"^^xsd:dateTime && ?d <= "0633-01-01T00:00:00Z"^^xsd:dateTime) }
+} LIMIT 2000

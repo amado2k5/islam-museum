@@ -1,0 +1,5 @@
+# Audiovisual works whose main subject is in the Islam subtree (signals of docs/plan/12 §5).
+SELECT DISTINCT ?item WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q2431196 .
+  ?item wdt:P921 ?s . ?s wdt:P279* wd:Q432 .
+} LIMIT 5000
