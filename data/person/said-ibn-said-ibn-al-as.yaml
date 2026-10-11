@@ -1,0 +1,26 @@
+id: person/said-ibn-said-ibn-al-as
+class: person
+label: { en: "Sa'id ibn Sa'id ibn al-As", ar: "سعيد بن سعيد بن العاص" }
+names:
+  - { kind: full, lang: ar, value: "سعيد بن سعيد بن العاص بن أمية الأموي القرشي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An early Muslim of Banu Umayya, brother of Khalid ibn Sa'id and Amr ibn Sa'id; he migrated to Abyssinia and fell as a martyr to an arrow at the siege of Ta'if."
+  ar: "صحابي جليل من بني أمية، أخو خالد وعمرو ابني سعيد بن العاص؛ هاجر إلى الحبشة وشهد المشاهد واستُشهد بسهم رُمي به في حصار الطائف."
+wings: [people]
+themes: [battles, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630-01", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "استشهد بحصن الطائف بنبل ثقيف.", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: martyr, status: tradition, note: "استشهد في حصار الطائف (ابن هشام 4/128–129).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي من مهاجرة الحبشة شهيد الطائف." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/siege-of-taif, role: martyr, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 128–129", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 128–129" }

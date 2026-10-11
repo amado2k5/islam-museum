@@ -1,0 +1,26 @@
+id: person/thabit-ibn-al-jid
+class: person
+label: { en: "Thabit ibn al-Jidh'", ar: "ثابت بن الجذع الأنصاري" }
+names:
+  - { kind: full, lang: ar, value: "ثابت بن الجذع ثعلبة بن زيد بن الحارث الخزرجي الأنصاري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An Ansari veteran of the Second Pledge of al-Aqaba from Banu Salama (Khazraj); he fought at Badr, Uhud, and the Trench, and attained martyrdom during the siege of Ta'if."
+  ar: "صحابي بدري من الأنصار من بني سلمة من الخزرج؛ شهد العقبة الثانية وبدرًا وأحدًا والخندق، ونال الشهادة في حصار حصن الطائف في شوال 8هـ."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630-01", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "استشهد في حصار الطائف.", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: martyr, status: tradition, note: "صحابي بدري استشهد بالطائف (ابن هشام 4/129).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي بدري أنصاري." }
+relations:
+  - { type: member_of, target: group/khazraj }
+  - { type: participated_in, target: event/siege-of-taif, role: martyr, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 129", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 129" }

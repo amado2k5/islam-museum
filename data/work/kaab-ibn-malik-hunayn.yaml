@@ -1,0 +1,22 @@
+id: work/kaab-ibn-malik-hunayn
+class: work
+kind: poem
+label: { ar: "قصيدة كعب بن مالك في يوم حنين ومسير الطائف", en: "Ka'b ibn Malik's ode on Hunayn and the march to Ta'if" }
+summary:
+  ar: "قصيدة كعب بن مالك الأنصاري في يوم حنين ومسير الجيش لحصار الطائف، يصف فيها نصر الله لنبيه ودحر الشرك ودك حصون الطائف. مطلعها: «وقائلةٍ ألا تَبكِي أخاها»."
+  en: "The ode by Ka'b ibn Malik al-Ansari commemorating the victory at Hunayn and the army's advance to besiege the fortress of Ta'if."
+genre: [poetry]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-hisham-saqqa] }
+authors: [person/kaab-ibn-malik]
+language: language/arabic
+composed: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, status: tradition, derived: true, note: "في شوال سنة 8هـ إبان حنين وحصار الطائف.", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [literature, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: event/battle-of-hunayn }
+  - { type: mentions, target: event/siege-of-taif, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 120–124", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 120–124" }

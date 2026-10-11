@@ -1,0 +1,23 @@
+id: work/abbas-ibn-mirdas-hunayn
+class: work
+kind: poem
+label: { ar: "قصيدة العباس بن مرداس في يوم حنين", en: "Abbas ibn Mirdas's ode on the Battle of Hunayn" }
+summary:
+  ar: "قصيدة العباس بن مرداس السلمي يصف فيها وقائع يوم حنين، وافتخاره ببلاء بني سليم وثبات المسلمين بعد الانكشاف الأول، والرد على شعراء هوازن. مطلعها: «تَقَضَّى أمورٌ وتأتِي أمور»."
+  en: "The ode composed by Abbas ibn Mirdas al-Sulami celebrating the steadfastness of Banu Sulaym and the Muslims' counter-rally at the Battle of Hunayn, answering Hawazin's poets."
+genre: [poetry]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-hisham-saqqa] }
+authors: [person/abbas-ibn-mirdas]
+language: language/arabic
+composed: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, status: tradition, derived: true, note: "في شوال سنة 8هـ إثر يوم حنين.", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [literature, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: event/battle-of-hunayn }
+  - { type: mentions, target: event/battle-of-hunayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/banu-sulaym, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 102–112", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 102–112" }

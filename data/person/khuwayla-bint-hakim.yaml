@@ -1,0 +1,26 @@
+id: person/khuwayla-bint-hakim
+class: person
+label: { en: "Khuwayla bint Hakim al-Sulamiyya", ar: "خويلة بنت حكيم السلمية" }
+names:
+  - { kind: full, lang: ar, value: "خويلة بنت حكيم بن أمية بن حارثة بن الأوقص السلمية" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An early Muslim woman from Banu Sulaym, wife of Uthman ibn Maz'un; she accompanied the Muslim camp during the siege of Ta'if and requested the jewellery of the women of Thaqif upon the fortress's anticipated fall."
+  ar: "صحابية جليلة من بني سليم، زوجة عثمان بن مظعون؛ شهدت حصار الطائف وسألت النبي حلي بادية بنت غيلان أو حلي الفارعة إن فتح الله عليه الطائف."
+wings: [people]
+themes: [women, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "صحابية رافقت الجيش في حصار الطائف (ابن هشام 4/127).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابية فاضلة." }
+relations:
+  - { type: member_of, target: group/banu-sulaym }
+  - { type: spouse_of, target: person/uthman-ibn-mazun }
+  - { type: participated_in, target: event/siege-of-taif, role: camp-companion, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 127", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 127" }

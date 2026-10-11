@@ -14,13 +14,21 @@ date:
 relations:
   - { type: occurred_at, target: place/taif }
   - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: had_participant, target: person/abu-bakra-al-thaqafi, role: freed-slave-convert, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khuwayla-bint-hakim, role: camp-companion, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-abi-umayya, role: martyr, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/said-ibn-said-ibn-al-as, role: martyr, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/thabit-ibn-al-jid, role: martyr, sources: [source/ibn-hisham-saqqa] }
+  - { type: basis_for, target: concept/emancipation-of-enemy-slaves, sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/battle-of-hunayn }
+casualties: { value: 12, status: tradition, note: "استشهد اثنا عشر رجلاً من المسلمين في حصار الطائف بنبل ثقيف.", sources: [source/ibn-hisham-saqqa] }
 sides:
   - label: { en: "Muslims of Medina and Mecca", ar: "مسلمو المدينة ومكة" }
     participants: [group/early-muslims]
     commanders: [person/muhammad]
   - label: { en: "Thaqif of Ta'if", ar: "ثقيف أهل الطائف" }
     participants: [group/thaqif]
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

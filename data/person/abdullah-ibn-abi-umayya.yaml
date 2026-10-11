@@ -1,0 +1,27 @@
+id: person/abdullah-ibn-abi-umayya
+class: person
+label: { en: "Abdullah ibn Abi Umayya", ar: "عبد الله بن أبي أمية" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن أبي أمية بن المغيرة المخزومي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Qurashi nobleman of Banu Makhzum, brother of Umm Salama and maternal cousin of the Prophet; after opposing the early call, he accepted Islam on the road to the conquest of Mecca and was martyred by an arrow during the siege of Ta'if."
+  ar: "صحابي من أشراف بني مخزوم، أخو أم سلمة أم المؤمنين وابن عمة النبي عاتكة بنت عبد المطلب؛ عادى الدعوة بمكة ثم أسلم في طريق فتح مكة بنيق العقاب، واستُشهد بسهم في حصار الطائف."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630-01", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "استشهد بسهم رُمي به في حصار الطائف.", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: convert, status: tradition, note: "أسلم بنيق العقاب في طريق فتح مكة بعد شفاعة أم سلمة له (ابن هشام 4/42–44).", sources: [source/ibn-hisham-saqqa] }
+  - { role: martyr, status: tradition, note: "استشهد في حصار الطائف (ابن هشام 4/129).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/siege-of-taif, role: martyr, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 42–44, 129", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 42–129" }

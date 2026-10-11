@@ -1,0 +1,27 @@
+id: person/abbas-ibn-mirdas
+class: person
+label: { en: "Abbas ibn Mirdas al-Sulami", ar: "العباس بن مرداس السلمي" }
+names:
+  - { kind: full, lang: ar, value: "العباس بن مرداس بن أبي عامر السلمي" }
+gender: male
+roles: [companion, poet, tribal-leader]
+traditions: [sunni]
+summary:
+  en: "A knight, poet and chieftain of Banu Sulaym; he embraced Islam prior to the conquest of Mecca after a miraculous encounter with his idol Dimar, led the Sulaym contingent at the Conquest and Hunayn, and was renowned for his stirring war poetry."
+  ar: "فارس وشاعر وسيد من بني سليم؛ أسلم قبيل فتح مكة بعد مناداة صنمه ضمار من جوفه، وقاد فرسان سليم في الفتح وحنين، واشتُهر بمطولاته الشعرية في الفخر والحماسة."
+wings: [people]
+themes: [literature, battles, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "أسلم قبل فتح مكة بعد سماعه صوتاً من جوف صنمه ضمار يدعوه إلى التوحيد (ابن هشام 4/69–70).", sources: [source/ibn-hisham-saqqa] }
+  - { role: companion, status: tradition, note: "شهد فتح مكة وحنين قائداً وشاعراً في بني سليم.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0629~" }, note: "أسلم قبيل فتح مكة." }
+relations:
+  - { type: member_of, target: group/banu-sulaym }
+  - { type: authored, target: work/abbas-ibn-mirdas-hunayn }
+  - { type: participated_in, target: event/battle-of-hunayn, role: sulaym-commander-and-poet, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 69–70, 102–112", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 69–112" }

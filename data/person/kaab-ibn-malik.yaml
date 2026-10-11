@@ -1,0 +1,26 @@
+id: person/kaab-ibn-malik
+class: person
+label: { en: "Ka'b ibn Malik al-Ansari", ar: "كعب بن مالك الأنصاري" }
+names:
+  - { kind: full, lang: ar, value: "كعب بن مالك بن أبي كعب بن القين الخزرجي الأنصاري" }
+gender: male
+roles: [companion, poet]
+traditions: [sunni]
+summary:
+  en: "One of the three chief poets of the Prophet from the Ansar (Banu Salama of Khazraj); he witnessed the Second Pledge of al-Aqaba, fought in the early campaigns, defended the community with his eloquent verses at Hunayn, and was later one of the three whose repentance at Tabuk was accepted."
+  ar: "شاعر رسول الله وأحد فرسان الأنصار من بني سلمة من الخزرج؛ شهد العقبة الثانية والمشاهد، ونافح عن الإسلام بقصائده في حنين ومسير الطائف، وهو أحد الثلاثة الذين خُلّفوا في تبوك فتيب عليهم."
+wings: [people]
+themes: [literature, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "شاعر الرسول وشهد المشاهد معه (ابن هشام 4/120).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي أنصاري جليل." }
+relations:
+  - { type: member_of, target: group/khazraj }
+  - { type: authored, target: work/kaab-ibn-malik-hunayn }
+  - { type: participated_in, target: event/battle-of-hunayn, role: poet-and-combatant, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 120–124", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 120–124" }
