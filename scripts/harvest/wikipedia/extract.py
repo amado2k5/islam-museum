@@ -15,6 +15,7 @@ ap.add_argument("--lang", required=True); ap.add_argument("--limit", type=int, d
 ap.add_argument("--titles", nargs="*"); ap.add_argument("--out")
 ap.add_argument("--min-ncats", type=int, default=3, help="weak pages (depth 4-6) are taken only if held by at least this many in-scope categories")
 a = ap.parse_args()
+LANGVAR = a.lang   # English keeps wikipedia.duckdb; other languages use wikipedia-<lang>.duckdb
 HARVEST = Path(os.environ.get("HARVEST", Path.home() / "islam-museum-harvest"))
 L = a.lang
 RAW = HARVEST / "raw" / "wikipedia" / L
@@ -28,9 +29,10 @@ want_titles = {t.replace(" ", "_") for t in (a.titles or [])}
 want_ids: dict = {}
 if not want_titles:
     import duckdb
-    con = duckdb.connect(str(HARVEST / "db" / "wikipedia.duckdb"), read_only=True)
+    con = duckdb.connect(str(HARVEST / "db" / ("wikipedia.duckdb" if LANGVAR == "en" else f"wikipedia-{LANGVAR}.duckdb")), read_only=True)
     q = f"select page_id, depth, strong from wp_{L}_scope where strong or ncats >= {a.min_ncats} order by depth, page_id" + (f" limit {a.limit}" if a.limit else "")
     want_ids = {r[0]: (r[1], r[2]) for r in con.execute(q).fetchall()}
+    con.close()   # release the database lock: other jobs can write while this long extraction runs
     print(f"{len(want_ids):,} pages selected")
 
 # ---- offsets from the index

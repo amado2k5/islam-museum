@@ -1,11 +1,13 @@
 id: event/islam-of-hamza
 class: event
+aliases: [event/conversion-of-hamza]   # merged from the earlier English-first stub (same event); the id still resolves
 kind: other
 label: { en: "Hamza accepts Islam", ar: "إسلام حمزة بن عبد المطلب" }
 summary:
   en: "In late year six, Abu Jahl passed the Prophet at al-Safa and abused him while he stayed silent; a freedwoman of Abdullah ibn Jud'an told Hamza, returning from the hunt, who struck Abu Jahl with his bow and declared 'I abuse him while I follow his religion — take that if you can' — anger first, then faith settled in his heart."
   ar: "في أواخر السنة السادسة مرّ أبو جهل بالنبي عند الصفا فآذاه ونال منه والنبي ساكت؛ فأخبرت مولاة لعبد الله بن جدعان حمزةَ العائد من القنص، فخرج فضرب أبا جهل بالقوس وقال: تشتم ابن أخي وأنا على دينه؟ — وكان إسلامه أول الأمر أنفة ثم شرح الله صدره فاعتز به المسلمون."
 wings: [time, people]
+themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
@@ -16,5 +18,5 @@ relations:
   - { type: had_participant, target: person/abu-jahl, role: "سبّه فشجّه حمزة بالقوس", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/muhammad }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 100-101" }

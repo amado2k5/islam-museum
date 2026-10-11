@@ -11,9 +11,10 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--lang", required=True); ap.add_argument("--max-depth", type=int, default=6)
 ap.add_argument("--seeds", default=str(Path(__file__).with_name("seed-categories.yaml")))
 a = ap.parse_args()
+LANGVAR = a.lang   # English keeps wikipedia.duckdb; other languages use wikipedia-<lang>.duckdb
 HARVEST = Path(os.environ.get("HARVEST", Path.home() / "islam-museum-harvest"))
 cfg = yaml.safe_load(open(a.seeds))[a.lang]
-con = duckdb.connect(str(HARVEST / "db" / "wikipedia.duckdb"))
+con = duckdb.connect(str(HARVEST / "db" / ("wikipedia.duckdb" if LANGVAR == "en" else f"wikipedia-{LANGVAR}.duckdb")))
 L = a.lang
 
 con.execute(f"""create or replace temp table cat_edge as

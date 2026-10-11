@@ -11,6 +11,7 @@ import duckdb
 
 HARVEST = Path(os.environ.get("HARVEST", Path.home() / "islam-museum-harvest"))
 lang = sys.argv[1]
+LANGVAR = lang   # English keeps wikipedia.duckdb; every other language gets its own file so jobs for different languages can run at the same time
 which = sys.argv[2:] or ["page", "linktarget", "categorylinks"]
 RAW = HARVEST / "raw" / "wikipedia" / lang
 TMP = HARVEST / "layers" / "by-sa" / "wikipedia" / lang
@@ -57,7 +58,7 @@ def run(table):
                 for m in CL.finditer(line):
                     o.write(f"{m.group(1).decode()}\t{m.group(4).decode()}\t{m.group(5).decode()}\n"); n += 1
     print(f"{table}: {n:,} rows parsed in {time.time() - t0:.0f}s -> {out.name}")
-    con = duckdb.connect(str(HARVEST / "db" / "wikipedia.duckdb"))
+    con = duckdb.connect(str(HARVEST / "db" / ("wikipedia.duckdb" if LANGVAR == "en" else f"wikipedia-{LANGVAR}.duckdb")))
     cols = {"page": "{'id':'BIGINT','ns':'INTEGER','title':'VARCHAR','is_redirect':'INTEGER','len':'BIGINT'}",
             "linktarget": "{'id':'BIGINT','ns':'INTEGER','title':'VARCHAR'}",
             "categorylinks": "{'from_id':'BIGINT','type':'VARCHAR','target_id':'BIGINT'}"}[table]

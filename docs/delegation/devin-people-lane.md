@@ -12,6 +12,7 @@ You are contributing content to islam.museum, an open, free, all-digital museum 
 YOUR TASK: author the "Prophetic-era people" lane: person entities (and a few group entities) for the people around the Prophet Muhammad, on every side of the story, as DRAFT content with real, verifiable sources. This is Phase 1 of docs/plan/06-roadmap.md, with the significance rule of docs/plan/13-figures.md.
 
 READ FIRST (in the repo, in this order)
+00. docs/collaboration.md (NEW): never ignore, discard or revert another session's work; before every batch and every push, fetch origin/main, read what is new, and merge it with yours. Duplicates are merged (keep the richer entity, alias the other, carry over sources), never deleted. Also docs/language.md (Arabic first) which postdates this prompt: write Arabic label/summary/prose first; English is optional.
 0. docs/scope.md (NEW, decided 11 Oct 2026): Sunni Islam is the museum's default and main frame; every other view is welcome and must be labelled before it is stated
 1. CLAUDE.md (non-negotiable rules)
 2. docs/status.md (project state)

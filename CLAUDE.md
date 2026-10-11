@@ -19,3 +19,4 @@ Non-negotiables
 - Never write, complete or correct Qur'an text: it comes only from the frozen Tanzil files and is referenced by sura:ayah.
 - Harvesting runs on the founder's Mac with local models (docs/plan/15); respect the licence layers: only cc0/by facts or our own cited research enter data/.
 - Commit only when asked; conventional commit messages; small PRs per cell batch (≤ 25 entities).
+- Collaboration (docs/collaboration.md): several sessions and Devin work in parallel. Never ignore, discard or revert another session's work; fetch and review what is new on main before starting and before every push, then merge it with yours (duplicates become aliases, nothing is deleted blindly); never `git add -A`; use one git worktree per session; commit explicit paths; run validate and tests after merging.
