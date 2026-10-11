@@ -1,0 +1,25 @@
+id: event/first-encounter-with-the-ansar
+class: event
+kind: gathering
+label: { en: "First encounter with the six Ansar at al-Aqaba", ar: "لقاء النبي بالنفر الستة من الخزرج بالعقبة" }
+summary:
+  en: "The historic meeting at al-Aqaba during the pilgrimage season of the 11th year of prophethood (July 620 CE) between the Prophet and six notables from the Khazraj clan of Yathrib, who embraced Islam and carried its call to Medina."
+  ar: "لقاء النبي في موسم حج السنة 11 من النبوة (يوليو 620م) بستة من سادات الخزرج بيثرب عند العقبة بمنى، فأسلموا بعد سماع القرآن وكانوا نواة الأنصار ومقدمة بيعتي العقبة."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0620-07~", calendar: julian, precision: month, status: tradition, note: "موسم حج سنة 11 من النبوة (يوليو 620م) (الرحيق ص135-136)." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/asad-ibn-zurara, role: "أحد النفر الستة من بني النجار", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/awf-ibn-al-harith, role: "أحد النفر الستة (ابن عفراء)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/rafi-ibn-malik, role: "أحد النفر الستة من بني زريق", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/qutba-ibn-amir, role: "أحد النفر الستة من بني سلمة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uqba-ibn-amir-ibn-nabi, role: "أحد النفر الستة من بني حرام", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/jabir-ibn-abdullah-ibn-riab, role: "أحد النفر الستة من بني عبيد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/ansar, role: "طليعة الأنصار المسلمين من الخزرج", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 135-136" }

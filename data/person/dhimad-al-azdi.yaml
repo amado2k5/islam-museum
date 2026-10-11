@@ -1,0 +1,25 @@
+id: person/dhimad-al-azdi
+class: person
+label: { en: "Dhimad al-Azdi", ar: "ضماد الأزدي" }
+names:
+  - { kind: full, lang: ar, value: "ضماد بن ثعلبة الأزدي" }
+gender: male
+roles: [companion, physician]
+traditions: [sunni]
+summary:
+  en: "An Azdi physician and traditional healer from Azd Shanu'a who arrived in Mecca and offered to treat the Prophet Muhammad after hearing claims that he was mad; upon hearing the Prophet's Khutbat al-Hajah, he declared Islam immediately and pledged his tribe's allegiance."
+  ar: "طبيب راقٍ من أزد شنوءة باليمن؛ قدم مكة وسمع سفهاءها يزعمون أن محمداً مجنون فعرض أن يرقيه، فلما سمع منه خطبة الحاجة بهرته فأسلم وبايع على نفسه وعلى قومه."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0619~" }, status: tradition, note: "أسلم لما سمع خطبة الحاجة (الرحيق ص135؛ صحيح مسلم).", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+  - { role: companion, start: { edtf: "0619~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0619~" }, note: "صحابي من أزد شنوءة." }
+relations:
+  - { type: born_in, target: place/yemen }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0619~" }, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 135" }

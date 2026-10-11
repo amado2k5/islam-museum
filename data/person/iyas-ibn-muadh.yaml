@@ -1,0 +1,24 @@
+id: person/iyas-ibn-muadh
+class: person
+label: { en: "Iyas ibn Mu'adh", ar: "إياس بن معاذ" }
+names:
+  - { kind: full, lang: ar, value: "إياس بن معاذ بن أنس الأوسي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A young Awsite lad from Yathrib who came to Mecca in an alliance-seeking delegation before the battle of Bu'ath; when the Prophet presented Islam to the delegation, Iyas declared it better than their tribal cause, but was struck down by his leader Abu al-Haysar; he died shortly thereafter in Yathrib praising God."
+  ar: "غلام حدث من الأوس قدم مكة في وفد يطلب الحلف ضد الخزرج قبل بعاث؛ فلما عرض النبي عليهم الإسلام قال إياس: هذا والله خير مما جئتم له، فزجره أبو الحيسر؛ ثم مات بيثرب وهو يهلل ويكبّر ويحمد الله."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0620~" }, status: tradition, note: "أسلم في وفد الأوس بمكة (الرحيق ص133).", sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, start: { edtf: "0620~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0620~" }, note: "مات بيثرب على التوحيد قبل الهجرة." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/aws }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 133" }

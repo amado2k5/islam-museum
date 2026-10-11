@@ -1,20 +1,24 @@
 id: event/journey-to-taif
 class: event
 kind: other
-label: { en: "The journey to Ta'if", ar: "الخروج إلى الطائف" }
+label: { en: "The Prophet's journey to al-Ta'if", ar: "خروج النبي إلى الطائف" }
 summary:
-  en: "The Prophet travelled to the hill town of Ta'if seeking support, was rejected, and returned to Mecca under protection."
-  ar: "سافر النبي إلى الطائف طلبًا للنصرة فرُدَّ، وعاد إلى مكة في جوار أحد وجهائها."
-wings: [time, people]
+  en: "The Prophet Muhammad's journey on foot with Zayd ibn Haritha to al-Ta'if in Shawwal of the tenth year of prophethood, seeking support from Thaqif, their rejection, the incident of Addas in the orchard, and the encounter with the Jinn at Nakhla on return."
+  ar: "خروج النبي ماشياً على قدميه ومعه زيد بن حارثة إلى الطائف في شوال سنة 10 من النبوة يلتمس النصرة من ثقيف، وردّ رؤسائهم الثلاثة له، وإغراء الصبيان به، ودعاؤه في بستان ابني ربيعة وإسلام عداس، واستماع نفر من الجن للقرآن بوادي نخلة في طريق العودة."
+wings: [time, people, place]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0619~", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0619-05~", calendar: julian, precision: month, status: tradition, note: "شوال سنة 10 من النبوة (أواخر مايو أو أوائل يونيو 619م)؛ أقام بها عشرة أيام (الرحيق ص125-129)." }
 relations:
-  - { type: occurred_at, target: place/mecca }
   - { type: occurred_at, target: place/taif }
+  - { type: occurred_at, target: place/mecca }
   - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "رفيقه في الرحلة، وقاه بنفسه حتى شُج رأسه شجاجاً", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/addas, role: "غلام نصراني من نينوى أسلم في بستان ابني ربيعة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/utba-ibn-rabia, role: "صاحب البستان مع أخيه شيبة أرسلا عنباً مع عداس", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muthim-ibn-adi, role: "أجار النبي عند دخوله مكة بعد عودته", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/year-of-sorrow }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 125-130" }
