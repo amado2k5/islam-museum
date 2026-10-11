@@ -141,7 +141,7 @@ Compiled entity example (abridged):
 
 - Entity pages are **prerendered HTML** from the compiled graph (no fetch needed to read).
 - Islands fetch only what they need: the timeline loads `derived/timeline/<period>.json` for the visible range; the map loads one GeoJSON layer at a time; the network island loads `derived/ego/<id>.json` and expands on click; search loads Pagefind chunks; "Wander" and "On this day" read small indexes; Compare loads two entity JSONs.
-- Because every island reads the same JSON the API publishes, **anything a visitor can see, a researcher can download**, and the AI docent (Phase 5) retrieves from the same files.
+- Because every island reads the same JSON the API publishes, **anything a visitor can see, a researcher can download**, and the build-time question pipeline (07 Prompt P) reads the same files. No model runs at request time.
 
 ## 8. Running it: cadence, cost, models
 

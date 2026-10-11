@@ -183,10 +183,15 @@ Generate docs/coverage.md and api/v1/meta/coverage.json from .cache/graph.json: 
 
 ---
 
-## P · AI docent (Phase 5, Cloudflare Worker)
+## P · Precomputed answers from visitor questions (Phase 5, build time only)
 
 ```
-Design and implement /ask: a Cloudflare Worker using Workers AI + Vectorize over the museum's own api/v1 JSON (chunks: summary, sections, perspectives, with id and lang). Behaviour: answer only from retrieved museum content; always cite entity URLs; show perspectives when the topic is contested; refuse rulings and personal religious guidance with a gentle pointer to the Ideas wing; support en and ar; rate-limit per IP within the free tier; log nothing personal. Provide a static fallback (search results) when the Worker is unavailable. Include an evaluation set of 50 questions with expected citations and a script to run it.
+The published site has no runtime AI (docs/plan/03-architecture.md §13). Implement the build-time replacement for an "ask the museum" feature:
+1. scripts/questions/harvest-queries.ts: read the exported zero-result and low-click search queries (Cloudflare Web Analytics export or the site's own anonymous query log file) and GitHub Discussions questions; normalise, cluster near-duplicates (transliteration variants, en/ar), rank by frequency; write .cache/questions/candidates.json.
+2. For each candidate not already covered by a question/ entity, run Prompt I to draft a question entity with sources and links, status draft, for human review.
+3. scripts/questions/synonyms.ts: generate search synonyms and transliteration variants (Avicenna → Ibn Sina, Koran → Qur'an, Mohammed → Muhammad) from names[] and label fields into site/public/search-synonyms.json, loaded by the client-side search.
+4. Build-time "related questions" and "people also explored" lists from graph proximity and the query clusters, emitted into the entity JSON.
+Everything runs in CI or locally and is published as static pages and JSON; nothing executes per visitor request.
 ```
 
 ---

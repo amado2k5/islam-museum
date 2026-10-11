@@ -7,12 +7,12 @@
 | GitHub Pages | Static files only; published site ≤ 1 GB; soft 100 GB/month bandwidth; 10 builds/hour; 100 MB/file | Text-only main repo; media elsewhere; Cloudflare caches HTML so GitHub bandwidth is rarely hit |
 | GitHub Actions | 2,000 min/month (private) / generous for public repos | Public repo → effectively free CI; keep builds under ~10 min |
 | Cloudflare (DNS+CDN) | Unlimited bandwidth, free SSL, cache rules, redirects, Web Analytics | Cache everything at the edge; privacy-first analytics with no cookies |
-| Cloudflare Workers | 100k requests/day, 10 ms CPU | Enough for a small API layer, redirects, "random", search fallback, later RAG |
+| Cloudflare Workers | 100k requests/day, 10 ms CPU | Not needed for visitors; reserved for build-side jobs only if ever required (redirects and headers are Cloudflare rules, not code) |
 | Cloudflare R2 | 10 GB storage, free egress, 1M writes/10M reads per month | Thumbnails, map tiles (PMTiles), audio, later 3D models |
-| Cloudflare D1 / KV / Vectorize / Workers AI | Free tiers (5 GB D1, 1 GB KV, 5M vectors, 10k neurons/day) | Future: bookmarks, annotations, semantic search, AI docent |
+| Cloudflare D1 / KV / Vectorize / Workers AI | Free tiers | **Not used on the published site.** No runtime AI, no runtime database (see §13). |
 | Cloudflare Pages (alt host) | 20,000 files per deployment, 25 MB/file, 500 builds/month | **The file-count limit rules it out** for the main site at scale (a 10k-entity, 3-language site is >60k files). GitHub Pages wins. Use CF Pages only for PR previews if wanted. |
 
-Decision: **GitHub Pages hosts the site**, built by GitHub Actions (not the legacy Jekyll builder), proxied by **Cloudflare** with aggressive caching. Media on a second GitHub Pages repo (`media.islam.museum`) and/or R2. Workers only when a feature truly needs compute.
+Decision: **GitHub Pages hosts the site**, built by GitHub Actions (not the legacy Jekyll builder), proxied by **Cloudflare** with aggressive caching. Media on a second GitHub Pages repo (`media.islam.museum`) and/or R2. No runtime compute: the published site is static files only (see §13).
 
 ## 2. Stack
 
@@ -152,7 +152,7 @@ Slugs are ASCII, lowercase, hyphenated, derived from the common English/translit
 - Redirect rules: root → language; legacy aliases via Bulk Redirects (free list up to 20 rules; beyond that use static HTML meta-refresh pages generated at build).
 - Transform rules: add CORS `Access-Control-Allow-Origin: *` on `/api/*`; security headers.
 - Web Analytics: enabled, no cookies.
-- Workers (later): `/api/v1/random`, `/api/v1/search?q=` fallback, `/ask` (RAG docent), `/og/*` on-demand images if build-time becomes too slow.
+- No Workers in front of visitors. Random, on-this-day and search run client-side on prebuilt indexes; share cards are built at build time.
 
 ## 7. Search
 
@@ -190,13 +190,25 @@ Pagefind indexes rendered pages. Each entity page sets `data-pagefind-body`, plu
 - Monthly export of the full graph (`api/v1/graph/*.ndjson`) and a GitHub Release; Zenodo DOI per release for citation.
 - The site has no runtime dependency: if Cloudflare disappears, GitHub Pages still serves it; if GitHub disappears, any static host serves `dist/`; if the web disappears, the repo is the museum.
 
+## 13. No AI and no compute at runtime (hard rule)
+
+Decision (founder, 11 October 2026): AI exists only in the building phase. Once content is drafted, verified, translated, illustrated and built, the published website is a finished, static artifact.
+
+- **No model answers a visitor.** There is no chat, no "ask the museum", no generated summaries, no on-demand translation, no semantic search service. Every answer a visitor can get is a page or a JSON file that already exists.
+- **No server-side code on the visitor path.** No Workers, functions, databases or vector stores serve requests. Cloudflare provides only DNS, TLS, caching, redirects and headers.
+- **Everything is precomputed at build time:** search indexes (Pagefind), related-entity recommendations, snapshot years, on-this-day, ego graphs, path-finder adjacency, question-and-answer pages, share cards, derived maps.
+- **Interactivity is client-side only** and works on static files: timelines, maps, network views, compare, bookmarks in localStorage, random (client picks from an index), search (client loads index chunks).
+- **Community input goes through GitHub** (issue forms, discussions, pull requests), never through a service the site runs.
+- **What replaces the AI docent:** the Questions wing (precomputed, reviewed answers to the questions people actually ask), strong static search with synonyms and transliteration variants, and the "wander", "connections" and "path" features built from the graph at build time. Zero-result searches, collected through privacy-preserving analytics, feed new Questions in the next build.
+- **Build-time AI stays:** drafting, extraction, judging, translation, illustration and map prompts per `09-ai-content-pipeline.md`, `10-image-generation.md` and `16-event-maps-and-images.md`, always followed by human review before publication.
+
 ## 12. Growth path (when free tiers or static limits bite)
 
 | Symptom | Move |
 |---|---|
 | Build > 15 min | Split Astro build per language or wing into parallel jobs; cache `.cache/graph.json`; incremental builds |
 | Site > 1 GB | Move `api/` and OpenGraph images to R2; strip inline JSON-LD duplication |
-| Search index too big | Worker + D1 FTS5 or Vectorize |
+| Search index too big | Shard the Pagefind index by wing and language and load chunks lazily; precompute per-wing indexes. No server-side search. |
 | Need user state | Bookmarks in localStorage first; then Worker + D1 with GitHub OAuth, opt-in |
 | Heavy traffic | Already on Cloudflare; nothing changes |
 | Institutional partner wants a mirror | `git clone`, `npm run build`, done |

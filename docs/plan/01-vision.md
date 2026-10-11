@@ -46,6 +46,7 @@ Design for the stranger first. If the stranger feels welcome and informed, every
 8. **Durable.** Plain text in git, standard formats (Markdown, YAML, JSON Schema, GeoJSON, EDTF, IIIF, JSON-LD), static hosting, no vendor lock-in, readable without JavaScript, usable offline.
 9. **Machine-readable.** Stable URLs, JSON-LD, a static API, Wikidata alignment, `llms.txt`. Built to be cited correctly by humans and machines.
 10. **Honest about gaps.** Coverage maps show what the museum does not yet have. Drafts are labelled drafts.
+11. **No AI at runtime.** AI is a tool of the building phase only: drafting, extraction, translation, verification, illustration. The published museum is finished work served as static files. No visitor request is answered by a model, no page is generated on demand, and nothing a visitor reads is produced by a model at the time of reading.
 11. **Complete and unafraid.** Everyone and everything of significance to the story belongs here: supporters and opponents, allies and critics, achievements and failures, agreements and contradictions. The test is significance, not sympathy. The museum describes and attributes; it does not honour, condemn or resolve in its own voice (`13-figures.md`, `14-themes-atlas.md`).
 
 ## 5. What "Islam" covers here (scope)

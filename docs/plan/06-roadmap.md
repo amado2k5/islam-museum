@@ -82,9 +82,9 @@ Qur'an browser (Tanzil text; permitted translations; links to events/people/plac
 
 Contributor program; wing editors; issue forms; translation workflow; languages: ur, id, tr, fr; educator kits (printable exhibits, lesson plans as `exhibit kind: lesson`); first outreach to universities and museums; Wikipedia citations of islam.museum; monthly data release with DOI.
 
-## Phase 5 · Data product and AI docent (months 9–12)
+## Phase 5 · Data product and precomputed answers (months 9–12)
 
-API docs; Wikidata reconciliation and round-trip bot (propose Hijri dates as qualifiers/notes); Linked Art/CIDOC-CRM JSON-LD export; `llms.txt` and structured facts for assistants; Workers + Vectorize "Ask the museum" grounded strictly on museum content with citations and refusal on rulings; datasets wing; Today wing filled.
+API docs; Wikidata reconciliation and round-trip bot (propose Hijri dates as qualifiers/notes); Linked Art/CIDOC-CRM JSON-LD export; `llms.txt` and structured facts for external assistants that read the site; the Questions wing grown from zero-result searches and visitor questions (answers drafted with AI at build time, reviewed, published as static pages); search synonyms and transliteration variants; datasets wing; Today wing filled. No runtime AI: see `03-architecture.md` §13.
 
 ## Phase 6 · Year 2 and beyond
 

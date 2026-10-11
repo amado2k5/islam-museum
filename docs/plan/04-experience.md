@@ -163,6 +163,7 @@ Class-specific panels:
 ### Made hall
 - **World map** of listings by country and category; **category grid**; **Library shelf** (books by living Muslim authors, by genre and language); **Apps shelf**; **Institutions shelf**; **Near you** (geolocation stays in the browser).
 - **Listing page**: name in both scripts, kind, categories, founded, map, public links, founder, basis badge (self-identified / documented), certifications with sources, cross-links into the story, last-checked date, correct-or-remove link. No ratings, no ads. See `11-made-directory.md`.
+- **No chat, no AI at runtime.** Visitors get precomputed, reviewed pages and client-side tools over static indexes; the Questions wing and search play the role a chatbot would, without a model behind any request (`03-architecture.md` §13).
 - **Illustrations setting** (`show | hide`) applies to all AI-assisted images across the museum; each carries an "Illustration" badge and a "how this image was made" disclosure (see `10-image-generation.md`).
 
 ## 5. Cross-cutting features

@@ -101,7 +101,7 @@ Each line is a theme (a hub page). Examples in brackets show the breadth expecte
 ### I. Digital Islam
 - **Famous Islamic websites and apps** [Qur'an and hadith platforms; fatwa sites of every tradition; online libraries; teaching institutes; news and community sites; children's platforms; prayer-time and Qur'an apps], each a `work` of `kind: website` or `app`, listed with its publisher and self-described orientation, and marked "listed, not endorsed"
 - **The history of Islam online** [the first sites of the 1990s; forums; satellite preachers to YouTube shaykhs; online fatwas; scholarship on "cyber-Islam"]
-- **AI and Islam** [Qur'an and hadith chatbots, their errors, scholarly responses; this museum's own docent rules]
+- **AI and Islam** [Qur'an and hadith chatbots, their errors, scholarly responses; this museum's own rule that AI is used only during building and never at runtime]
 
 ### J. Charity and humane work
 - **Zakat and sadaqa** [rules by school; zakat institutions by country; data]

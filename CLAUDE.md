@@ -3,7 +3,7 @@
 You are working on islam.museum, an open, free, all-digital museum of Islam: the faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into until today. Read docs/plan/ before architectural changes. Key documents: 01-vision (principles), 02-content-model (classes, predicates, dates), 03-architecture (stack, layout, pipeline), 04-experience (halls and pages), 05-editorial (voice, perspectives, licensing), 06-roadmap, 09-ai-content-pipeline, 12-screen-index, 13-figures, 14-themes-atlas, 15-local-harvest.
 
 Non-negotiables
-- Static site on GitHub Pages behind Cloudflare; no servers, no databases, no paid services. Astro + Svelte islands + Tailwind; TypeScript scripts; Pagefind search; MapLibre + PMTiles; Sigma.js graphs.
+- Static site on GitHub Pages behind Cloudflare; no servers, no databases, no paid services. No AI at runtime: models are used only in the building phase; nothing on the published site calls a model or any server code per visitor request (docs/plan/03-architecture.md §13). Astro + Svelte islands + Tailwind; TypeScript scripts; Pagefind search; MapLibre + PMTiles; Sigma.js graphs.
 - Content is a knowledge graph in git: data/<class>/<slug>.yaml (language-neutral facts) + content/<lang>/<class>/<slug>.md (prose). IDs are "class/slug", immutable; renames via aliases.
 - Dates: EDTF + Hijri string + calendar flag + precision; never invent a date; conversions marked derived.
 - Relations use schema/predicates.yaml only; write the edge once; inverses are computed.
