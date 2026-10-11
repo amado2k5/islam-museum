@@ -3,18 +3,20 @@ class: event
 kind: other
 label: { en: "The Prophet's marriage to Khadija", ar: "زواج النبي من خديجة" }
 summary:
-  en: "The marriage of Muhammad and Khadija bint Khuwaylid, a Meccan merchant, about fifteen years before the first revelation."
-  ar: "زواج محمد من خديجة بنت خويلد، التاجرة المكية، قبل نحو خمس عشرة سنة من بدء الوحي."
+  en: "The marriage of Muhammad and Khadija bint Khuwaylid, arranged after her trade trip under his management to Syria; the book gives her dowry as twenty young camels and her age as forty, and notes she remained his only wife until she died."
+  ar: "زواج محمد من خديجة بنت خويلد بعد رحلتها التجارية التي خرج بها إلى الشام؛ أصدقها عشرين بكرة وكانت سنها أربعين سنة يومئذ، وهي أول امرأة تزوجها ولم يتزوج عليها حتى ماتت."
 wings: [time, people]
 themes: [women, family-marriage-kinship]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0595~", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0595~", calendar: julian, precision: year, status: tradition, note: "بعد رجوعه من الشام بشهرين وهو ابن خمس وعشرون سنة (الرحيق ص60-61؛ ابن هشام 1/189-190)." }
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/khadija }
+  - { type: had_participant, target: person/nafisa-bint-munya, role: "تولّت التفويض بينهما", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/maysara, role: "غلام خديجة رفيق رحلة الشام", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 60-61" }

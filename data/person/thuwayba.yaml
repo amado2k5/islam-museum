@@ -1,0 +1,23 @@
+id: person/thuwayba
+class: person
+label: { en: "Thuwayba", ar: "ثويبة" }
+names:
+  - { kind: full, lang: ar, value: "ثويبة، مولاة أبي لهب" }
+gender: female
+roles: [wet-nurse]
+traditions: [sunni]
+summary:
+  en: "The freedwoman of Abu Lahab who first suckled the Prophet after his mother, with the milk of her son Masruh; she had nursed Hamza before him and Abu Salama after him."
+  ar: "مولاة أبي لهب، أول من أرضعت النبي بعد أمه بلبن ابنها مسروح؛ وكانت قد أرضعت قبله حمزة بن عبد المطلب وأرضعت بعده أبا سلمة بن عبد الأسد المخزومي."
+wings: [people]
+themes: [women, family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, note: "رضاعة النبي تربطها بالأسرة؛ أسلمت واعتقها أبو لاحب يوم الإثنين لبشارتها بموته في بعض الروايات — خارج هذا القسم.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: unknown, basis: unknown, note: "لم يذكر الكتاب إسلامها في هذا الموضع." }
+relations:
+  - { type: participated_in, target: event/year-of-the-elephant-and-birth, role: "أول مرضعة بعد الأم", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 55" }

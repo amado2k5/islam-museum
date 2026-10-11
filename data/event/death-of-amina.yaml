@@ -1,0 +1,21 @@
+id: event/death-of-amina
+class: event
+kind: death
+label: { en: "The death of Amina at al-Abwa", ar: "وفاة آمنة بالأبواء" }
+summary:
+  en: "On the way back from a month in Yathrib visiting the grave of her husband, Amina bint Wahb fell ill and died at al-Abwa between Mecca and Medina, leaving her six-year-old son an orphan a second time."
+  ar: "في طريق العودة من زيارة قبر زوجها بيثرب بعد مقام شهر، دهم المرض آمنة بنت وهب فماتت بالأبواء بين مكة والمدينة، فتيتم ابنها ذو السنين الست مرة ثانية."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0577~", calendar: julian, precision: year, status: tradition, note: "وابنها في السادسة (الرحيق ص57؛ ابن هشام 1/168)." }
+relations:
+  - { type: occurred_at, target: place/al-abwa }
+  - { type: had_participant, target: person/amina-bint-wahb, role: "المتوفاة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, role: "صحبها الرحلة وهو في السادسة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umm-ayman, role: "خادمتها في الرحلة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abd-al-muttalib, role: "ردّ الحفيد إلى مكة", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 57" }

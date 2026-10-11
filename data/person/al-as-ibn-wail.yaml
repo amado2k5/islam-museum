@@ -1,0 +1,23 @@
+id: person/al-as-ibn-wail
+class: person
+label: { en: "al-As ibn Wa'il", ar: "العاص بن وائل" }
+names:
+  - { kind: full, lang: ar, value: "العاص بن وائل السهمي" }
+gender: male
+roles: [merchant]
+traditions: [sunni]
+summary:
+  en: "The Sahmi notable whose withholding of a Zabidi merchant's due sparked the events leading to the Fudul pact — the confederates rose and wrested the man's right from him."
+  ar: "وجيه سهمي اشترى بضاعة رجل من زبيد وحبس عنه حقه؛ فكان سبب مناشدة الزبيدي واجتماع حلف الفضول الذي انتزع منه الحق — فيما يروى الكتاب عن سبب الحلف."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, status: tradition, note: "صاحب المظلمة التي كانت سبب الحلف (الرحيق ص60).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "قرشي ما قبل الإسلام." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/hilf-al-fudul, role: "المطلوب إلى حق الزبيدي", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 60" }

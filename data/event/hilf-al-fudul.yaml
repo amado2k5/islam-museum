@@ -1,0 +1,26 @@
+id: event/hilf-al-fudul
+class: event
+kind: treaty
+label: { en: "Hilf al-Fudul (the pact of the virtuous)", ar: "حلف الفضول" }
+summary:
+  en: "A pact sworn in Dhu al-Qa'da at the house of Abdullah ibn Jud'an by the clans of Hashim, al-Muttalib, Asad ibn Abd al-Uzza, Zuhra ibn Kilab and Taym ibn Murra, to stand with anyone wronged in Mecca until his right is restored; the young Muhammad witnessed it and praised it after prophethood."
+  ar: "حلف تعاقدت عليه قبائل بنو هاشم وبنو المطلب وأسد بن عبد العزى وزهرة بن كلاب وتيم بن مرة في دار عبد الله بن جدعان في ذي القعدة، على أن لا يجدوا بمكة مظلوماً من أهلها وغيرهم إلا قاموا معه حتى ترد عليه مظلمته؛ شهده النبي وقال بعد الرسالة إنه لو أُدعى به في الإسلام لأجاب."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0586~", calendar: julian, precision: year, status: tradition, note: "على أثر حرب الفجار في ذي القعدة (الرحيق ص59)." }
+significance:
+  ar: "وصفه الكتاب بأن روحه تنافي الحمية الجاهلية؛ وقال النبي بعد الرسالة: لقد شهدت في دار عبد الله بن جدعان حلفاً ما أحب أن لي به حمر النعم، ولو أدعى به في الإسلام لأجبت (الرحيق ص59-60؛ ابن هشام 1/113، 1/135)."
+relations:
+  - { type: occurred_at, target: place/mecca, note: "دار عبد الله بن جدعان التيمي" }
+  - { type: had_participant, target: person/muhammad, role: "شهد الحلف", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-judan, role: "في داره اجتمع الحالفون لسنه وشرفه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-zubayr-ibn-abd-al-muttalib, role: "بدأ الدعوة إلى الحلف بعد مناشدة الزبيدي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-as-ibn-wail, role: "من استُنزع منه حق الزبيدي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-hashim }
+  - { type: had_participant, target: group/banu-al-muttalib }
+  - { type: caused_by, target: event/harb-al-fijar }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 59-60" }
