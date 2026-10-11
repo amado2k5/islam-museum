@@ -384,7 +384,7 @@ e.g. West Africa & Sahel: "a mud-brick mosque with wooden torons and tapering to
 {STYLE_PREFIX} Architectural reconstruction impression of {label} as it may have looked around {year} CE in {place_label}: {architectural_description_from_data}; materials {materials}; style {style}. Exterior three-quarter view in morning light, no figures. {STYLE_SUFFIX}
 ```
 
-**event**
+**event** (the full event system, including maps, scene briefs, per-kind templates, twenty worked prompts and seed coordinates, is in `16-event-maps-and-images.md`)
 ```
 {STYLE_PREFIX} The setting of {label} ({date_human}) at {place_label}: {event_scene}. Figures: {figure_policy_sentence}. Mood: {mood}. {STYLE_SUFFIX}
 ```
