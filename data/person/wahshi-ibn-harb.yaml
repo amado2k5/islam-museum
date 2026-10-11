@@ -1,0 +1,31 @@
+id: person/wahshi-ibn-harb
+class: person
+label: { en: "Wahshi ibn Harb", ar: "وحشي بن حرب" }
+names:
+  - { kind: full, lang: ar, value: "وحشي بن حرب الحبشي" }
+gender: male
+born: { edtf: "0600~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0645~", calendar: julian, precision: decade, status: tradition, note: "Date uncertain; he lived into the caliphate.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: []
+traditions: []
+summary:
+  en: "An Abyssinian slave famous for his javelin: promised his freedom for killing Hamza at Uhud, he later became a Muslim and, in the tradition's account, also killed the false prophet Musaylima at Yamama."
+  ar: "عبد حبشي اشتهر بحربته: وُعد بالحرية على قتل حمزة بأحد، ثم أسلم وفي رواية التراث قتل مسيلمة الكذاب باليمامة."
+wings: [people]
+themes: [battles, slavery-and-freedom, converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0625" }, end: { edtf: "0625" }, status: historical, note: "Fought at Uhud and killed Hamza with a javelin, earning his freedom from his owner Jubayr ibn Mut'im.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: convert, start: { edtf: "0630~" }, status: tradition, note: "Converted after the conquest; the tradition records him keeping away from the Prophet at first, from the weight of what he had done.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: commander, start: { edtf: "0632" }, end: { edtf: "0633" }, status: tradition, note: "Fought at Yamama; the tradition attributes to his javelin the killing of Musaylima — 'I killed the best of people and the worst of people.'", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "Late convert; the tradition preserves his own words about his two killings.", sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/aksum }
+  - { type: fought, target: person/hamza, start: { edtf: "0625" }, end: { edtf: "0625" }, note: "The sources record that he killed Hamza at Uhud.", sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-uhud, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-yamama, role: muslim-side, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: fought, target: person/musaylima, start: { edtf: "0632" }, end: { edtf: "0632" }, note: "The tradition attributes Musaylima's death to his javelin.", sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

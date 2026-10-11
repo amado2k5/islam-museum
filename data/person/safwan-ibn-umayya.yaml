@@ -1,0 +1,35 @@
+id: person/safwan-ibn-umayya
+class: person
+label: { en: "Safwan ibn Umayya", ar: "صفوان بن أمية" }
+names:
+  - { kind: full, lang: ar, value: "صفوان بن أمية بن خلف الجمحي" }
+gender: male
+born: { edtf: "0590~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0661~", calendar: julian, precision: year, status: tradition, note: "Reported at Mecca, ~41-42 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [politician]
+traditions: []
+summary:
+  en: "Son of Umayya ibn Khalaf and a chief of Banu Jumah: among the last of the Meccan leadership to submit — pardoned at the Prophet's order on the road to Jeddah — who then fought for Islam at Hunayn and died an elder of Quraysh."
+  ar: "ابن أمية بن خلف وسيد من بني جُمح: من آخر قادة مكة إسلامًا — أُمن بأمر النبي على طريق جدة — ثم قاتل مع المسلمين بحُنين ومات شيخًا في قريش."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0630" }, status: historical, note: "Continued his father's line of opposition; the sources record him financing the confederates and sending an agent to assassinate the Prophet.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: convert, start: { edtf: "0630" }, status: tradition, note: "Fled toward Jeddah at the conquest; the Prophet granted him safety and two months' grace, after which he returned and converted.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0630" }, status: tradition, note: "Fought at Hunayn on the Muslim side within weeks of his pardon — the famous case of a man the Prophet 'made Islam dear to' with a gift of livestock.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, sources: [source/watt-1956-medina] }
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/mecca }
+  - { type: child_of, target: person/umayya-ibn-khalaf }
+  - { type: member_of, target: group/banu-jumah }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/conquest-of-mecca, role: fled-then-pardoned, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-hunayn, role: muslim-side, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

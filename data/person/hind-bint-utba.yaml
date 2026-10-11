@@ -1,0 +1,41 @@
+id: person/hind-bint-utba
+class: person
+label: { en: "Hind bint Utba", ar: "هند بنت عتبة" }
+names:
+  - { kind: full, lang: ar, value: "هند بنت عتبة بن ربيعة" }
+gender: female
+born: { edtf: "0575~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0640~", calendar: julian, precision: decade, status: tradition, note: "Date uncertain; reported in the caliphate of Umar.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: []
+traditions: []
+summary:
+  en: "Daughter of the Meccan elder Utba ibn Rabi'a and wife of Abu Sufyan: the sira's most vivid figure of Meccan defiance at Uhud, who converted with the conquest of Mecca; mother of the caliph Mu'awiya."
+  ar: "ابنة شيخ مكة عتبة بن ربيعة وزوجة أبي سفيان: أوضح صور السيرة في التحدي المكي بأحد، وأسلمت يوم الفتح؛ أم الخليفة معاوية."
+wings: [people]
+themes: [battles, women]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: group/early-muslims, start: { edtf: "0625" }, end: { edtf: "0630" }, status: historical, note: "Present at Uhud urging on the Meccan fighters; the sira attributes to her the mutilation of Hamza's body, told in varying detail.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: convert, start: { edtf: "0630" }, status: tradition, note: "Converted at the conquest of Mecca; the tradition preserves her pointed exchanges with the Prophet at the women's pledge.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, sources: [source/watt-1956-medina] }
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+labelled:
+  - { label: { en: "'Akilat al-akbad' (eater of the liver) — a name given her for the Uhud mutilation", ar: "آكلة الأكباد" }, by: "later Muslim tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: child_of, target: person/utba-ibn-rabia }
+  - { type: spouse_of, target: person/abu-sufyan-ibn-harb }
+  - { type: member_of, target: group/banu-abd-shams }
+  - { type: participated_in, target: event/battle-of-uhud, role: inciting-the-meccan-line, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/conquest-of-mecca, role: convert, sources: [source/ibn-sad-tabaqat-bewley] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Counted among the women who pledged allegiance and became companions; the tradition records her sharp exchanges with the Prophet at the pledge and her later life in piety." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians note that the Uhud mutilation scene is told in the sira with varying detail and polemical coloring, and treat her as a case study in how the sources shape portraits of enemy women." }
+    sources: [source/watt-1956-medina]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
