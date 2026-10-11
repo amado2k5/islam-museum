@@ -167,4 +167,47 @@ sources:
     - url: https://download.geonames.org/export/dump/admin1CodesASCII.txt
       dest: raw/collections/geonames/admin1CodesASCII.txt
       size: 151583
+  natural-earth:
+    name: Natural Earth 10 m (physical, admin-0, shaded relief)
+    url: https://www.naturalearthdata.com/downloads/
+    licence: Public domain
+    layer: cc0
+    method: zip downloads from naciscdn.org; unzipped into $HARVEST/basemaps
+    status: enabled
+    limits: {}
+    downloads:
+    - url: https://naciscdn.org/naturalearth/10m/physical/ne_10m_land.zip
+      dest: basemaps/downloads/ne_10m_land.zip
+      size: 3269070
+    - url: https://naciscdn.org/naturalearth/10m/physical/ne_10m_ocean.zip
+      dest: basemaps/downloads/ne_10m_ocean.zip
+      size: 3189765
+    - url: https://naciscdn.org/naturalearth/10m/physical/ne_10m_coastline.zip
+      dest: basemaps/downloads/ne_10m_coastline.zip
+      size: 3069451
+    - url: https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip
+      dest: basemaps/downloads/ne_10m_rivers_lake_centerlines.zip
+      size: 2079507
+    - url: https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes.zip
+      dest: basemaps/downloads/ne_10m_lakes.zip
+      size: 2349685
+    - url: https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_countries.zip
+      dest: basemaps/downloads/ne_10m_admin_0_countries.zip
+      size: 4930492
+    - url: https://naciscdn.org/naturalearth/10m/raster/SR_HR.zip
+      dest: basemaps/downloads/SR_HR.zip
+      size: 44367365
+  etopo1:
+    name: ETOPO1 Ice Surface global relief (NOAA)
+    url: https://www.ngdc.noaa.gov/mgg/global/
+    licence: Public domain (US government)
+    layer: cc0
+    method: single netcdf download, gzip
+    status: enabled
+    limits:
+      size_mib: 377
+    downloads:
+    - url: https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/ice_surface/grid_registered/netcdf/ETOPO1_Ice_g_gmt4.grd.gz
+      dest: basemaps/downloads/ETOPO1_Ice_g_gmt4.grd.gz
+      size: 395148066
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)

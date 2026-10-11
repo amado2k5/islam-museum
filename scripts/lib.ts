@@ -44,8 +44,9 @@ export function loadEnumIds(name: string): string[] {
 
 export interface Stub { id: string; label?: Localized; note?: string }
 export function loadStubs(): Stub[] {
-  const f = p("data", "_stubs.yaml");
-  return existsSync(f) ? (readYaml<Stub[]>(f) ?? []) : [];
+  // data/_stubs.yaml plus any data/_stubs.d/*.yaml, so parallel contributors never edit the same file
+  const files = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")];
+  return files.filter((f) => existsSync(f)).flatMap((f) => readYaml<Stub[]>(f) ?? []);
 }
 
 export function loadEntities(): { entity: Entity; file: string }[] {

@@ -87,7 +87,7 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       aliasOwner.set(a, entity.id);
     }
   }
-  for (const id of stubIds) if (known.has(id)) warn(p("data", "_stubs.yaml"), `${id} is now written; remove it from _stubs.yaml`);
+  for (const id of stubIds) if (known.has(id)) warn(p("data", "_stubs.yaml"), `${id} is now written; remove it from the stub list (data/_stubs.yaml or data/_stubs.d/)`);
   const resolves = (id: string) => known.has(id) || stubIds.has(id) || aliasOwner.has(id);
   const classOf = (id: string) => id.split("/")[0];
 
