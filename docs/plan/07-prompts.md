@@ -250,3 +250,75 @@ Write the harvest scripts specified in docs/plan/15-local-harvest.md under scrip
 Scripts: wikidata/run_queries.py (paginated SPARQL from queries/*.rq, serial, with back-off) · wikidata/filter_dump.py (stream the JSON dump from stdin, keep seeds and one-hop neighbours, write Parquet) · wikipedia/select_pages.py (offline category walk in DuckDB from page.sql.gz and categorylinks.sql.gz with depth limit, stop-list and the two-signal rule) · wikipedia/extract.py (mwxml + mwparserfromhell: QID, titles, categories, infobox hints, references with ISBN/DOI, section text into SQLite FTS5) · quran/verify_quran.py (exists) · quran/compare_witness.py (report differences between two Qur'an text files, change nothing) · quran/generate_passages.py (work/quran, 114 suras, 6,236 passages, verbatim text, Tanzil attribution) · screen/candidates.py (the signals of docs/plan/12 §5) · directories/*.py (one per registered directory) · web/ (Scrapy project with ROBOTSTXT_OBEY = True and a one-second delay) · llm/ (Ollama client with JSON-schema outputs for relevance, claims, relations, reconciliation, judge, draft, translate; gold-set runner that blocks batches below the bar) · promote.py (candidates → data/ and content/ on a branch, with provenance.layer) · status.py.
 Add tests with small fixtures for each script, including a fixture Qur'an file and a fixture category tree that leaks. Do not download anything while writing or testing. Report honestly what was not tested.
 ```
+
+---
+
+## Q · Ingest a new source book (for Devin or any autonomous agent)
+
+Repeats the الرحيق المختوم pass (`17-raheeq-makhtum.md`) for another book: inspect, OCR with Apple Vision, analyse, write the plan document with a chapter-to-entity map, and finish by producing the drilling prompt for a later content session. Attach the PDF when running it.
+
+```
+You are ingesting a new source book for islam.museum, an open, Arabic-first, static digital museum of Islam whose content is a knowledge graph in git. The attached file is the book. Your job is to repeat, for this file, exactly what was done for «الرحيق المختوم», which is documented in docs/plan/17-raheeq-makhtum.md, and to end by producing a drilling prompt that a later session will use to mine the book into entities.
+
+READ FIRST (in the repo ~/Documents/GitHub/islam-museum, branch main)
+docs/plan/00-README.md, docs/scope.md, docs/language.md, CLAUDE.md, docs/plan/02-content-model.md, docs/plan/05-editorial.md, docs/plan/09-ai-content-pipeline.md, docs/plan/15-local-harvest.md §3 (licence layers) and docs/plan/17-raheeq-makhtum.md (your template: copy its structure, section by section).
+
+ENVIRONMENT RULE
+OCR must be done with Apple Vision (the macOS text-recognition framework) through the Python package `ocrmac`, because it produced clean Arabic on the previous book at under a second per page. Apple Vision exists only on macOS. Before anything else, run `uname -s`. If it prints "Darwin", do the OCR yourself as described below. If it does not, do NOT substitute another OCR engine: prepare the two scripts below in the harvest folder, print the exact commands the user must run on their Mac, stop, and ask the user to run them and upload the resulting pages.json, book.txt and the page images; then continue from step 3 with those files.
+
+STEP 1 · INSPECT THE FILE (do not skip)
+1. Record size, page count, PDF metadata (title, author, creator, producer, dates) with pymupdf: `uv run --quiet --with pymupdf python -c "import pymupdf,sys; d=pymupdf.open(sys.argv[1]); print(d.page_count, d.metadata)" "<ATTACHED_PDF>"`.
+2. Test for a text layer: total extractable characters over all pages and the number of pages with fewer than 20 characters. If most pages have real text, keep that text as the primary layer and still OCR for comparison only if it is poor. If the file is image-only (as the previous book was), OCR is required.
+3. Identify the book: title, author, edition, publisher, year, language, and whether it is a classical public-domain work, a modern copyrighted work, or a scan from a sharing site. Decide the licence layer per docs/plan/15 §3 (public domain → `pd`; modern copyrighted reference → `copyrighted-reference`: facts and citations only, quotes ≤ 40 words, text never in the repo).
+4. Report these findings to the user in a short table before OCR.
+
+STEP 2 · OCR WITH APPLE VISION (macOS only)
+Create the harvest folder `~/islam-museum-harvest/raw/books/<book-slug>/` (ASCII slug from the title) and write this script there as `ocr_apple_vision.py`:
+
+#!/usr/bin/env python3
+"""OCR every page with Apple Vision (ocrmac). Writes pages.json, book.txt and page PNGs. Deterministic; resumable."""
+import sys, json, time, pathlib, pymupdf
+from ocrmac import ocrmac
+src = sys.argv[1]; langs = sys.argv[2].split(",") if len(sys.argv) > 2 else ["ar-SA"]
+out = pathlib.Path("."); (out/"pages-png").mkdir(exist_ok=True)
+doc = pymupdf.open(src); t0 = time.time(); pages = []
+for i in range(doc.page_count):
+    pno = i + 1; png = out/"pages-png"/f"p{pno:03d}.png"
+    if not png.exists(): doc[i].get_pixmap(dpi=200).save(str(png))
+    res = ocrmac.OCR(str(png), language_preference=langs, recognition_level="accurate").recognize()
+    lines = sorted(res, key=lambda r: (-r[2][1], -r[2][0]))      # top to bottom, right to left
+    pages.append({"page": pno, "text": "\n".join(r[0] for r in lines), "boxes": len(res)})
+    if pno % 25 == 0: print(f"{pno}/{doc.page_count} pages, {time.time()-t0:.0f}s", flush=True)
+(out/"pages.json").write_text(json.dumps(pages, ensure_ascii=False))
+(out/"book.txt").write_text("\n".join(f"\n\n===== [p{p['page']}] =====\n{p['text']}" for p in pages))
+print("done", len(pages), "pages", f"{time.time()-t0:.0f}s")
+
+Run it from inside that folder: `uv run --quiet --with pymupdf --with ocrmac python ocr_apple_vision.py "<ATTACHED_PDF>" ar-SA` (add other language codes, comma-separated, if the book mixes languages; use `en-US` for English books). Use `caffeinate -i` in front of the command for books over 300 pages. Expect under one second per page on Apple Silicon.
+Then quality-check: print the text of three pages from the start, middle and end next to their PNGs; confirm Arabic shaping, line order and footnote capture; note systematic OCR errors (on the previous book the honorific ﷺ came out as علله / علا / عليل / عل / عليا) and record them in a `README.md` in the folder together with the licence layer and the command used. Copy the PDF into the folder under an ASCII name.
+
+STEP 3 · FIND THE STRUCTURE
+1. Determine whether PDF page numbers equal printed page numbers by reading the running footers (e.g. "- ٦٠ -") on several pages; record the offset.
+2. Locate the table of contents (often the last pages in Arabic books, the first in others) by counting lines that end in a number; dump it to `toc.txt` with page markers. Locate the bibliography (`bib.txt`) and the front matter (`front.txt`).
+3. Parse the table of contents into a list of {title, page_start, page_end, level}; save as `toc.json`. Verify ten random entries against the page text.
+
+STEP 4 · ANALYSE THE BOOK FOR THE MUSEUM
+Read the table of contents in full and sample at least one page per major section. Then decide, with reasons:
+- what period(s), region(s) and wings of the museum the book serves, and which existing entities in data/ it will enrich (search data/ for overlapping IDs);
+- which classes it yields and in what quantities (event, journey, place, building, person, group, polity, concept, practice, work, passage edges, object, dataset, question, exhibit, map blocks, source entities from its bibliography), following the table format of docs/plan/17 §2;
+- a chapter map: every major section with its page range and what it becomes (docs/plan/17 §3 format);
+- the book's sectarian position and reliability class per docs/scope.md and docs/plan/09 §2 (T1 primary, T2 reference, T3 pointer); which sections are contested and need a perspectives block and Tier A review;
+- rights: what may be ingested, quoted (≤ 40 words) or only cited;
+- a batch order of at most 25 entities per batch, richest and best-sourced sections first.
+
+STEP 5 · WRITE THE PLAN DOCUMENT
+Create docs/plan/<NN>-<book-slug>.md where NN is the next free number, with exactly these sections, modelled on docs/plan/17: title and one-paragraph description of the book and the copy; 1 Rights and how the book may be used; 2 What the book yields (by museum class); 3 The chapter map; 4 The pipeline for this book (OCR done, clean, segment, extract, judge, draft in Arabic, validate, PR); 5 Order of work; 6 The drilling prompt; 7 Acceptance tests. Add a row for it in docs/plan/00-README.md in numeric order and one sentence in docs/plan/06-roadmap.md pointing to it under the phase it serves.
+
+STEP 6 · THE DRILLING PROMPT (section 6 of your document, and your final message)
+Write a complete, self-contained prompt that a later content session (any capable model) can paste to mine the book, with the same skeleton as docs/plan/17 §6: INPUTS (the harvest folder paths, the page-offset rule, the repo), RULES (Arabic first; rights and the 40-word quotation limit; citations to the book page AND the primary source it cites; Sunni default frame with labelled other views; claim status; dates recorded exactly as the book gives them in the source calendar; the OCR error list to watch for; no figurative depiction of prophets; everything status draft with provenance), PROCEDURE per batch (load pages, claims table with page and ≤ 40-word quote, reuse-or-create entities by class with the fields each needs, Arabic prose in the docent voice with {cite:} and [[links]], stubs, validate, batch report, branch and pull request), BATCH ORDER (every section with page ranges and Tier A marks), QUALITY BAR, and the closing instruction to show the claims table for batch 1 before writing files. Tailor every list to this book: its sections, its contested topics, its OCR quirks, its citation style.
+
+STEP 7 · DELIVER
+- Nothing from the book's text goes into the repo; only the plan document and index/roadmap edits do.
+- Run `npm run validate` if you touched anything under data/ (you should not have).
+- Commit with a conventional message ("docs: plan NN — mining <book> into <what it serves>"), push to main (if main is protected, open a pull request and say so).
+- Final message: the inspection table, the OCR statistics (pages, seconds, characters, error patterns), the harvest folder path, the entity-yield table, a link to the plan document, and the full drilling prompt in a code block.
+```
