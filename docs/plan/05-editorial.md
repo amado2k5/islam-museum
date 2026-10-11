@@ -4,7 +4,7 @@
 
 The museum speaks like a thoughtful docent: warm, precise, descriptive, never preaching, never sneering. Rules of thumb:
 
-- Describe; do not prescribe. "Muslims fast during Ramadan" not "Muslims must fast". "Sunni tradition holds…", "Twelver Shia tradition holds…", "Historians generally agree…".
+- Describe; do not prescribe. "Muslims fast during Ramadan" not "Muslims must fast". "The tradition holds…" (meaning Sunni Islam, see `docs/scope.md`), "The Hanafi school holds…", "Twelver Shia tradition holds…" (in a labelled other-views note), "Historians generally agree…".
 - Attribute beliefs and reports to their holders; attribute facts to sources.
 - Assume the reader knows nothing and is intelligent. Define every Arabic term the first time, inline, then link to the concept.
 - No honorifics typed into prose (the UI renders them on request from data). Refer to "the Prophet Muhammad" on first mention, "the Prophet" or "Muhammad" afterwards, following the visitor's setting.
@@ -16,7 +16,7 @@ The museum speaks like a thoughtful docent: warm, precise, descriptive, never pr
 
 Every key statement is one of: **scriptural** (the Qur'an states), **tradition** (reported in hadith, sira, tabaqat, hagiography), **historical** (consensus of historians, with sources), **debated** (live disagreement, present the positions), **legend** (popular, not supported by sources, but culturally significant). Badges are subtle and explained once on *How to read this museum*.
 
-Contested topics (succession after the Prophet, the compilation of the Qur'an, the status of particular figures, modern political events, origins debates) **must** use the `perspectives` block with at least the major traditions represented and the academic view, each cited. Editors do not adjudicate. The goal is that a Sunni, a Shia, an Ibadi, a secular historian and a curious outsider each recognise their view presented fairly on the same page.
+**Scope.** The museum speaks from Sunni Islam; see `docs/scope.md`. Contested topics (succession after the Prophet, the compilation of the Qur'an, the status of particular figures, modern political events, origins debates) **must** use the `perspectives` block with the Sunni position or positions (by school where they differ) and the academic or historical view, each cited, and an `other_views` note where another community's position is needed to understand the history. Editors present the Sunni understanding as the museum's frame and describe other positions accurately and respectfully without adopting them. The goal is that a Sunni Muslim of any school, a secular historian and a curious outsider each recognise the account as fair, and that a visitor from another community finds their community described accurately and never attacked.
 
 ## 3. Sensitive content policy
 
@@ -75,7 +75,7 @@ A **per-version license registry** (like Sefaria) lives in `data/passage/*` and 
 1. **Suggest** via GitHub Issue Forms: *Suggest an entity*, *Report an error*, *Request a translation*, *Propose an exhibit*. Forms capture the structured fields so an editor (or an AI-assisted script) can turn them into files.
 2. **Author** by pull request: copy a template from `templates/`, fill `data/` and `content/`, run `npm run validate`, open the PR. The PR template asks for sources and a sensitivity check.
 3. **CI** validates schema, links, dates, licenses, alt text, and builds a preview.
-4. **Review**: at least one wing editor approves (CODEOWNERS routes `data/person/**` to the People editors, etc.). Contested topics require two reviewers from different traditions where available.
+4. **Review**: at least one wing editor approves (CODEOWNERS routes `data/person/**` to the People editors, etc.). Contested topics require two reviewers from different schools or backgrounds where available.
 5. **Merge → deploy → credit**: contributors appear on the page ("Contributors") from git history, and in `CONTRIBUTORS.md`.
 6. **Translate**: prose files carry `translation_of: en@<hash>`; a weekly job flags stale translations; the Request-a-translation form creates a checklist.
 7. **AI assistance**: contributors may use the prompts in `07-prompts.md`; outputs land as `review: draft` with a `generated_by` note, and must be verified before `reviewed`.
@@ -86,7 +86,7 @@ Code of Conduct: Contributor Covenant plus a museum-specific clause: respect for
 
 - **Steward** (founder) holds the domain, the organisation and final say on charter questions; commits to open licenses irrevocably.
 - **Wing editors** (volunteers; initially the steward) own quality per wing.
-- **Editorial board** (target year 2): scholars and educators from different traditions and regions; advisory on policy and disputes; names published.
+- **Editorial board** (target year 2): Sunni scholars and educators from different schools and regions; advisory on policy and disputes; names published.
 - **Decisions** are recorded as ADRs in `docs/adr/`; policy changes by PR to `docs/`.
 - **Disputes** about content go through the perspectives mechanism first, then the board.
 - **Legal home**: start as a personal project with clear licenses; move to a non-profit (or fiscal sponsorship) when donations or partnerships need it.

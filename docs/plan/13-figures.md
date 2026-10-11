@@ -1,5 +1,7 @@
 # 13 · Figures — everyone who mattered to the story, for it and against it
 
+> **Scope note.** The museum speaks from Sunni Islam (Ahl al-Sunna wa'l-Jama'a). Other Muslim communities are covered as history and fact, described with respect, but not presented as parallel framings of Islam. The full rule is in [`docs/scope.md`](../scope.md).
+
 The People wing so far is built around the faithful: prophets, family, Companions, scholars, rulers, scientists, poets. This document widens it to **every person of significance to the story of Islam, anywhere, at any time, in any role**: those who carried it, those who fought it, those who protected it without sharing it, those who left it, those who studied it from outside, those who attacked it in print, and those who changed sides. A museum that shows only the admired half of the cast cannot explain the story.
 
 ## 1. The rule: significance, not sympathy
@@ -143,7 +145,7 @@ These extend `05-editorial.md`.
 - **Perpetrators of recent mass violence get a minimal record.** Name, date, the act, the court outcome. No portrait, no manifesto, no biography that could serve as publicity. The event page is about the victims and the response.
 - **Living people:** only public, sourced facts; their stance only in their own words or by formal public acts; no speculation about belief; correction and removal channel; two reviewers.
 - **Leaving and entering Islam** are recorded only from the person's own statements, or for historical figures from the sources, with the calendar date and without commentary.
-- **Sectarian opponents are not "enemies".** Figures who fought other Muslims are presented through the perspectives block. The same person may be a `saint` to one tradition and a `rebel` to another, and the page shows both.
+- **Sectarian opponents are not "enemies".** Figures who fought other Muslims are presented through the Sunni account with the academic view in `perspectives`, and the other community's view of them in `other_views`. The same person may be a `rebel` in the Sunni account and a `saint` to another community, and the page shows both, labelled.
 - **Outside scholars** are presented with their contribution and with the critiques made of them, including the critique of orientalism and the replies to it.
 - **Honorifics and curses** from the tradition are rendered only by the honorifics toggle from data, attributed, and never typed into prose.
 - **Kid mode** shows opposition figures in plain, unfrightening language and hides `violence` and `contested` content.
@@ -173,7 +175,7 @@ These extend `05-editorial.md`.
 | The museum is accused of honouring enemies or of smearing critics | The charter principle of significance, not sympathy, stated on "How to read this museum"; identical page anatomy for all; attribution of every judgement |
 | Labelling a living person's belief or hostility | Self-identification only; formal public acts only; Tier A review; removal channel |
 | Becoming a platform for hate or for extremist notoriety | Describe, do not reproduce; minimal-record rule; no media from violent groups |
-| Sectarian dispute over who was right in the civil wars | Roles carry perspectives; equal columns; no adjudication |
+| Sectarian dispute over who was right in the civil wars | Roles carry the Sunni account and the academic view in perspectives; other communities' views in a labelled other_views note; no polemic |
 | Binary "with/against" thinking flattens the story | Roles are plural and time-scoped; the stance lens is derived and never printed |
 | Endless scope | Importance score; lanes with counts; coverage rule per grid cell |
 | Defamation | Facts with sources; court findings cited as such; prompt correction |
@@ -182,7 +184,7 @@ These extend `05-editorial.md`.
 
 1. `person/umar-ibn-al-khattab` shows an opposition role ending and a Companion role beginning around 616, each sourced; the stance strip changes once.
 2. `event/battle-of-uhud` lists commanders on both sides; removing one side triggers the validator warning.
-3. `person/abu-talib` shows `protector` in all perspectives and a `debated` claim about his faith with Sunni and Shia columns.
+3. `person/abu-talib` shows `protector` in all perspectives and a `debated` claim about his faith with the Sunni and academic columns and a Twelver Shia other-views note.
 4. A living critic's page contains no faith value other than a cited self-description, and fails validation if `basis` is anything else.
 5. A polemical work and three refutations render as one dated thread via `responded_to`.
 6. The People hall filter "Changed sides" returns Khalid ibn al-Walid, Abu Sufyan and Ghazan.

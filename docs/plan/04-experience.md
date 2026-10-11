@@ -58,7 +58,7 @@ Every class renders the same skeleton with class-specific panels, so visitors le
 ├──────────────────────────────────────────────────────────────────────────┤
 │ BODY (depth-controlled): Brief | Standard | Deep                         │
 │   Life · Work · Legacy  (+ For young visitors · Notes for scholars)      │
-│   :::perspectives  — parallel columns by tradition                       │
+│   :::perspectives  — Sunni schools + academic view; other views as note │
 │   Inline [[links]], footnotes {cite}                                     │
 ├──────────────────────────────────────────────────────────────────────────┤
 │ CONNECTIONS  (grouped by relation type, each a row of cards)             │
@@ -169,7 +169,7 @@ Class-specific panels:
 
 - **Depth dial** (Brief · Standard · Deep) persisted per visitor; Brief shows the `## Brief` section and key facts; Deep adds scholarly notes and all perspectives expanded.
 - **Honorifics toggle**: show ﷺ / عليه السلام / رضي الله عنه after names (default on for Arabic UI, off for others; always a one-click choice). Rendered from data roles, never typed into prose, so the text stays neutral for everyone.
-- **Perspectives** rendered as equal columns; a visitor may set a "preferred perspective first" ordering without hiding others.
+- **Perspectives** (Sunni schools and the academic view) rendered as equal columns; a visitor may set a "preferred school first" ordering without hiding others. **Other views** (other Muslim communities) render as a labelled note beneath, per `docs/scope.md`.
 - **Kid mode**: bigger type, `## For young visitors` text where present, simplified navigation, no sensitive content.
 - **Reading mode / print**: clean print stylesheet; "Print this exhibit as a handout" for educators.
 - **Bookmarks → My tour**: localStorage list; export as URL (`/tour?ids=…`) or as a printable sheet; no account.

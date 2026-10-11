@@ -39,7 +39,7 @@ Design for the stranger first. If the stranger feels welcome and informed, every
 1. **Open.** Text under CC BY-SA 4.0, structured data under CC0, code under MIT. Full data downloadable. No paywalls, no ads, no tracking beyond privacy-preserving aggregate analytics.
 2. **Welcoming to all.** Written for the curious outsider first. No assumption of belief or disbelief. No proselytizing, no polemics, no mockery. Every faith, race, culture, age and background should feel the door is open.
 3. **Faithful to sources.** Every entity cites sources. Every non-trivial claim is tagged by its nature: scripture, tradition, historical consensus, scholarly debate, popular legend. The tradition's own voice and historical scholarship are both presented, clearly labelled, never conflated and never pitted against each other.
-4. **Plural by design.** Sunni, Shia (Twelver, Ismaili, Zaydi), Ibadi, Sufi orders, regional traditions, reformers and classical schools; Arabs, Persians, Turks, South Asians, Africans, Southeast Asians, Chinese, Europeans, Americans; women and men; rulers and the ruled. Where traditions differ, the schema holds *perspectives*, not a winner.
+4. **A Sunni frame, respectful of all.** The museum describes Islam as understood by Ahl al-Sunna wa'l-Jama'a (the four madhhabs, the Ash'ari, Maturidi and Athari creeds, the Sufi orders within Sunni Islam); see `docs/scope.md`. Within that frame it is deliberately broad: all four schools, classical and reformist readings, Arabs, Persians, Turks, South Asians, Africans, Southeast Asians, Chinese, Europeans, Americans; women and men; rulers and the ruled. Shia, Ibadi, Ahmadi and other communities are part of the story as history and fact, described accurately and with respect, never as parallel framings of Islam and never as targets.
 5. **Everything connected.** No dead ends. Every page leads to time, place, people and ideas around it. Serendipity is a feature.
 6. **Hijri-native, timely and transparent.** Dual calendar everywhere. "Today" is part of the story. Every page shows when it was last updated and by whom.
 7. **Beautiful and calm.** A museum, not a portal. Arabic typography as a first-class citizen; right-to-left as a first-class layout.
@@ -76,7 +76,7 @@ What islam.museum does that has not been done:
 
 1. **One graph for everything.** Texts, objects, people, places, events, ideas and practices in a single, typed, dated, sourced graph.
 2. **A Hijri-native time machine.** Dual-calendar timeline with cross-section snapshots: "the Islamic world in 450 AH" — who was alive, what stood, who ruled where, what was being written.
-3. **Perspectives in the schema, not in edit wars.** Contested topics carry structured, cited viewpoints by tradition and by scholarship.
+3. **Perspectives in the schema, not in edit wars.** Contested topics carry structured, cited viewpoints: the Sunni schools and the academic or historical view, with other communities' positions recorded as labelled notes where history needs them.
 4. **Depth dial and persona tours.** The same node serves a 12-year-old, a tourist and a PhD.
 5. **Journeys as a first-class lens.** Hijra, Ibn Battuta, Hajj caravan routes, trans-Saharan trade, the spread of Islam to the Malay world, Malcolm X's Hajj, modern migrations.
 6. **Networks of knowledge across 14 centuries.** Teacher–student chains, isnad, families, dynasties, patronage, rendered as explorable graphs.

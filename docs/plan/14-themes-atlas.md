@@ -1,5 +1,7 @@
 # 14 · The Themes atlas — every aspect of Islam, and how "everything" becomes checkable
 
+> **Scope note.** The museum speaks from Sunni Islam (Ahl al-Sunna wa'l-Jama'a). Other Muslim communities are covered as history and fact, described with respect, but not presented as parallel framings of Islam. The full rule is in [`docs/scope.md`](../scope.md).
+
 The museum already organises the story by **time** (12 periods), **place** (14 regions) and **kind of thing** (22 classes). This document adds the fourth axis: **theme**. Women, children, the elderly, people with disabilities, indigenous peoples and minorities; websites, conferences and gatherings; factions and splits; wars, skirmishes and desertions; religion against custom; contradictions and hard questions; charity and humane work; halal food; evolution; organisations; science, medicine, astronomy: each is a theme that cuts across every period, region and class.
 
 "Everything" is not a promise anyone can keep by intention. It becomes real when it is a **grid with empty cells the public can see**. A theme is covered when its cells are filled; a theme nobody thought of is added in one line and immediately shows up as empty.

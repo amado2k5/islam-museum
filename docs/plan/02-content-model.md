@@ -14,7 +14,7 @@ The museum is a **knowledge graph stored as plain text in git**. This document d
 | Space | WGS84 coordinates; GeoJSON for extents; historical names with time ranges | Standard, map-ready, Pleiades/Wikidata-compatible. |
 | Alignment | External IDs: Wikidata QID first, then VIAF, Pleiades, GeoNames, Archnet, OpenITI, museum accession numbers | Interoperability; we can round-trip with Wikidata and link to collections. |
 | Relationships | Typed, directional, optionally time-scoped and sourced; inverses computed at build | One place to write a fact; both pages show it. |
-| Perspectives | Structured `perspectives` block keyed by tradition | Plurality is in the schema, not fought out in prose. |
+| Perspectives | Structured `perspectives` block for Sunni schools and the academic view; `other_views` for other communities (see `docs/scope.md`) | Differences are in the schema, not fought out in prose. |
 | Claim status | Every dated fact and key statement can carry `status` | Readers see what is scripture, tradition, consensus, debate or legend. |
 | Depth | Every entity has `summary` (1 sentence), `abstract` (1 paragraph), full body, optional `kids` and `scholarly` sections | One node, many depths; the UI has a depth dial. |
 
@@ -237,7 +237,7 @@ Ibn Sina was born near [[place/bukhara]] around 980 CE ... He studied logic unde
 
 :::perspectives
 - **Academic**: ...
-- **Shia (Twelver)**: ...
+- **Ash'ari critique (al-Ghazali)**: ...
 :::
 
 ## For young visitors
@@ -259,13 +259,17 @@ perspectives:
   - tradition: sunni
     summary: { en: "...", ar: "..." }
     sources: [source/...]
-  - tradition: shia-twelver
+  - tradition: sunni-hanbali
     summary: ...
   - tradition: academic
     summary: ...
+other_views:                      # same shape; other communities, rendered as a labelled note beneath, not as a column
+  - tradition: shia-twelver
+    summary: ...
+    sources: [source/...]
 ```
 
-Tradition enum (`schema/enums/traditions.yaml`): `sunni`, `sunni-hanafi`, `sunni-maliki`, `sunni-shafii`, `sunni-hanbali`, `shia-twelver`, `shia-ismaili`, `shia-zaydi`, `ibadi`, `sufi`, `ahmadiyya`, `quranist`, `academic`, `other` — extendable. UI shows perspectives as parallel columns with equal weight.
+Tradition enum (`schema/enums/traditions.yaml`): `sunni`, `sunni-hanafi`, `sunni-maliki`, `sunni-shafii`, `sunni-hanbali`, `shia-twelver`, `shia-ismaili`, `shia-zaydi`, `ibadi`, `sufi`, `ahmadiyya`, `quranist`, `academic`, `other` — extendable, and kept in full so people, groups and polities can be classified as what they were. In `perspectives` only `sunni`, `sunni-*` and `academic` are allowed (validator rule); other values go in `other_views`. The UI shows perspectives as parallel columns and other views as a labelled note. Scope rule: `docs/scope.md`.
 
 Claim status enum: `scriptural` (stated in the Qur'an), `tradition` (reported in hadith/sira/tabaqat), `historical` (consensus of historians), `debated` (live scholarly disagreement), `legend` (popular, not supported). Shown as subtle badges, explained once in a "How to read this museum" page.
 

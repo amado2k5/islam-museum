@@ -8,7 +8,7 @@ Non-negotiables
 - Dates: EDTF + Hijri string + calendar flag + precision; never invent a date; conversions marked derived.
 - Relations use schema/predicates.yaml only; write the edge once; inverses are computed.
 - Every entity cites sources; every dated fact needs two sources or a flag. Wikipedia is a pointer, not a source.
-- Voice: a warm, precise, neutral docent. Describe, never prescribe. No honorifics typed into prose (the UI renders them). Contested topics use the perspectives block with Sunni, Shia and academic views, each cited.
+- Voice: a warm, precise, neutral docent. Describe, never prescribe. No honorifics typed into prose (the UI renders them). Scope: the museum speaks from Sunni Islam (docs/scope.md); other communities are covered as history and fact, respectfully, never as parallel framings. Contested topics use the perspectives block with the Sunni position(s) and the academic view, each cited, plus an other_views note where another community's position is needed.
 - Licenses: prose CC BY-SA 4.0, data CC0, code MIT; third-party content keeps its own license, recorded per version; media only from the whitelist in schema/enums/licenses.yaml; no figurative depictions of prophets; no AI-generated portraits.
 - Arabic and RTL are first-class: test every UI change in /ar/.
 - Accessibility: WCAG 2.2 AA; alt text required; no JS needed to read a page; islands lazy-load.

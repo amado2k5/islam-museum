@@ -2,6 +2,9 @@
 
 A free, open, all-digital museum of Islam with nine wings and four cross-cutting entrances (Questions, Exhibits, the Screening Room, Themes), built as a knowledge graph in git, published as a static site on GitHub Pages behind Cloudflare. Read in order; each document stands alone.
 
+> **Scope note.** The museum speaks from Sunni Islam (Ahl al-Sunna wa'l-Jama'a). Other Muslim communities are covered as history and fact, described with respect, but not presented as parallel framings of Islam. The full rule is in [`docs/scope.md`](../scope.md).
+
+
 | # | Document | What it answers |
 |---|---|---|
 | 01 | [Vision](01-vision.md) | What this is, who it is for, the charter, scope (nine wings, four entrances), what is genuinely new, success criteria |
