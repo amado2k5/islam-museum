@@ -1,6 +1,6 @@
 # islam.museum — the plan
 
-A free, open, all-digital museum of Islam, built as a knowledge graph in git, published as a static site on GitHub Pages behind Cloudflare. Read in order; each document stands alone.
+A free, open, all-digital museum of Islam with nine wings, built as a knowledge graph in git, published as a static site on GitHub Pages behind Cloudflare. Read in order; each document stands alone.
 
 | # | Document | What it answers |
 |---|---|---|
@@ -13,5 +13,7 @@ A free, open, all-digital museum of Islam, built as a knowledge graph in git, pu
 | 07 | [Prompts](07-prompts.md) | Copy-paste prompts: CLAUDE.md, scaffold, schema, entity authoring, cell batches, imports, judge, translation, questions, exhibits, halls, Hijri engine, deploy, review, docent |
 | 08 | [Prior art](08-prior-art.md) | What exists (museums, text platforms, gazetteers, atlases, standards), what to ingest/link/learn from, licensing verdicts |
 | 09 | [AI content pipeline](09-ai-content-pipeline.md) | How AI discovers, pulls, verifies and stores content from inception to now; source tiers; coverage grid; static JSON; UI consumption |
+| 10 | [Image generation](10-image-generation.md) | Generating all illustrative imagery on a local Mac: policy, models, setup, commands, batch pipeline, monitoring, review, and the complete prompt system per class |
+| 11 | [Made directory](11-made-directory.md) | The ninth wing: a directory of Muslim-made shops, brands, books, apps, studios, media, charities and institutions; schema, discovery, verification, presentation |
 
 **Status (11 October 2026):** repository created; bilingual "opening soon" page live at https://islam.museum via GitHub Actions → GitHub Pages → Cloudflare. Next step: Phase 0 scaffold (Prompt B in 07).

@@ -14,7 +14,8 @@ Atrium ─┬─ Questions (plain-language door)
         │         ├─ Objects ─ Visual grid · By material/type/museum · Deep zoom
         │         ├─ Words   ─ Qur'an · Hadith · Poetry & prose · Languages & scripts
         │         ├─ Living  ─ Practices · Hijri calendar · Festivals · Food/dress/music by region
-        │         └─ Today   ─ Nations · Institutions · Data · Contemporary figures · Future
+        │         ├─ Today   ─ Nations · Institutions · Data · Contemporary figures · Future
+        │         └─ Made    ─ World map of listings · Categories · Library shelf · Apps · Near you
         ├─ Search (everywhere)
         └─ Wander (random)
 ```
@@ -28,7 +29,7 @@ Calm, mostly typographic, one strong image. In order:
 3. **Four doors**, as large cards: *I'm new to Islam* (Questions + the 30-minute tour) · *Travel through time* (Timeline) · *Explore the map* (Map) · *Meet the people* (People gallery).
 4. **On this day**: 3 events that happened on this Hijri or Gregorian day.
 5. **Featured exhibit** (rotates weekly) and **Recently added / updated** (RSS too).
-6. **The eight wings** as a quiet row of doors with one-line descriptions.
+6. **The nine wings** as a quiet row of doors with one-line descriptions.
 7. Footer: about, how to read this museum, licenses, contribute, API, languages.
 
 ## 3. The Label (entity page anatomy)
@@ -146,6 +147,11 @@ Class-specific panels:
 - **Data**: charts from `dataset` nodes (population, hajj numbers, mosques, manuscripts digitised).
 - **The 21st century timeline** with the same event schema; sober framing (see editorial policy).
 - **Futures**: eschatology as *tradition* (clearly labelled), demographic projections as *data* (clearly sourced), and the museum's own roadmap.
+
+### Made hall
+- **World map** of listings by country and category; **category grid**; **Library shelf** (books by living Muslim authors, by genre and language); **Apps shelf**; **Institutions shelf**; **Near you** (geolocation stays in the browser).
+- **Listing page**: name in both scripts, kind, categories, founded, map, public links, founder, basis badge (self-identified / documented), certifications with sources, cross-links into the story, last-checked date, correct-or-remove link. No ratings, no ads. See `11-made-directory.md`.
+- **Illustrations setting** (`show | hide`) applies to all AI-assisted images across the museum; each carries an "Illustration" badge and a "how this image was made" disclosure (see `10-image-generation.md`).
 
 ## 5. Cross-cutting features
 

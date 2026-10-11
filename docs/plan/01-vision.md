@@ -49,7 +49,7 @@ Design for the stranger first. If the stranger feels welcome and informed, every
 
 ## 5. What "Islam" covers here (scope)
 
-Everything the founder listed, organised into eight museum **wings** (the visitor's mental model) sitting over about twenty **entity classes** (the data model, see `02-content-model.md`):
+Everything the founder listed, organised into nine museum **wings** (the visitor's mental model) sitting over about twenty **entity classes** (the data model, see `02-content-model.md`):
 
 | Wing | What lives there | Example nodes |
 |---|---|---|
@@ -61,6 +61,7 @@ Everything the founder listed, organised into eight museum **wings** (the visito
 | **Words** | Qur'an, hadith, poetry, prose, languages and scripts | Surat al-Fatiha · Sahih al-Bukhari · Rumi · Ajami · Jawi |
 | **Living** | Practices, calendar, festivals, food, dress, music, everyday culture by region | Salah · Hajj · Ramadan · Eid · Henna · Qawwali · Dhikr |
 | **Today** | Modern nations, institutions, demographics, contemporary figures and events, the future | OIC · Al-Azhar · Muslim population data · 21st-century events |
+| **Made** | A directory of what Muslims create and own today: shops, brands, publishers, books, apps, studios, media, charities, schools (see 11-made-directory.md) | A bookshop in Fez · a Qur'an app · a modest-fashion brand · a Muslim-run publisher |
 
 Plus two cross-cutting entrances: **Questions** (plain-language FAQ for newcomers) and **Exhibits** (curated narratives and guided tours).
 
@@ -91,6 +92,6 @@ What islam.museum does that has not been done:
 
 ## 8. Success looks like
 
-- **Year 1:** 2,000+ connected entities, English + Arabic, all eight wings open, timeline/map/network halls live, 50 exhibits, 200 questions, cited on Wikipedia and by AI assistants, 20 contributors.
+- **Year 1:** 2,000+ connected entities, English + Arabic, all nine wings open, 500 verified Made listings, timeline/map/network halls live, 50 exhibits, 200 questions, cited on Wikipedia and by AI assistants, 20 contributors.
 - **Year 2:** 10,000+ entities, 6 languages, IIIF objects from 10 institutions, Qur'an and hadith integrated, educator kits, API in use by researchers, a volunteer editorial board.
 - **Year 5:** The default first stop online for anyone, anywhere, who wants to understand Islam and its civilization; a dataset used in research and education worldwide; a model other faiths and civilizations copy.

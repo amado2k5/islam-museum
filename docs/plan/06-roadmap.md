@@ -38,9 +38,10 @@ Content targets (en + ar; `reviewed` status):
 | exhibit | 8 | "Islam in 30 minutes" tour · The Life of the Prophet · The House of Wisdom · Al-Andalus · Women who shaped Islam · Timbuktu and the Sahel · Islam in China · The Islamic Year (Living) |
 | source | 120 | critical editions and scholarship for the above |
 | dataset | 3 | Muslim population by country (Pew) · Hajj attendance by year · UNESCO World Heritage sites of Islamic civilization |
-| media | 150 | CC0/PD images with alt text in en + ar |
+| media | 150 + ~650 | CC0/PD images with alt text in en + ar, plus ~650 approved AI-assisted illustrations generated locally per `10-image-generation.md` (wings, periods, regions, places, events, person still-lifes, concepts, practices, journeys, questions) and programmatic name tiles for every person |
+| listing | 100 | Made wing seed across 20 countries and all categories, plus a Library shelf of 100 books by living Muslim authors (`11-made-directory.md`) |
 
-Features: entity pages for all classes; Time hall (timeline, eras, snapshot year, today); Place hall (map with time slider, journeys); People gallery + ego network; glossary; Questions; 8 exhibits; search; depth dial; honorifics toggle; API; coverage page.
+Features: entity pages for all classes; Made hall with map and shelves; Time hall (timeline, eras, snapshot year, today); Place hall (map with time slider, journeys); People gallery + ego network; glossary; Questions; 8 exhibits; search; depth dial; honorifics toggle; API; coverage page.
 
 ### Seed list · events in the Prophet's life (~90, each an `event`)
 Year of the Elephant and birth (c. 570) · death of Amina · care of Abd al-Muttalib then Abu Talib · journey to Syria with Abu Talib · Harb al-Fijar · Hilf al-Fudul · trade for Khadija · marriage to Khadija (c. 595) · rebuilding of the Kaaba and the Black Stone arbitration (c. 605) · retreats on Hira · first revelation (c. 610) · Khadija, Ali, Zayd, Abu Bakr accept Islam · public preaching (c. 613) · persecution of early Muslims · Bilal's ordeal · conversion of Hamza and of Umar (c. 616) · first migration to Abyssinia (615) · second migration to Abyssinia · boycott of Banu Hashim (c. 616–619) · Year of Sorrow: deaths of Khadija and Abu Talib (619) · journey to Ta'if · Isra and Mi'raj (tradition) · first and second pledges of Aqaba (620–622) · plot of Dar al-Nadwa · Hijra (622) · Masjid Quba · arrival at Medina · building the Prophet's Mosque · Constitution of Medina · brotherhood of Muhajirun and Ansar · change of qibla (624) · fasting of Ramadan prescribed · Battle of Badr (624) · marriage of Fatima and Ali · Banu Qaynuqa · Battle of Uhud (625) · Hamza's death · Banu Nadir · Battle of the Trench (627) · Banu Qurayza · marriage to Zaynab bint Jahsh · incident of the slander · Treaty of Hudaybiyya (628) · Khaybar (628) · letters to rulers · Umrah of Qada (629) · Battle of Mu'tah (629) · Conquest of Mecca (630) · cleansing of the Kaaba · Battle of Hunayn · siege of Ta'if · Expedition to Tabuk (630) · Year of Delegations (631) · death of Ibrahim · Hajj led by Abu Bakr · Farewell Pilgrimage and Sermon (632) · Ghadir Khumm (632, perspectives) · final illness · death of the Prophet (8 June 632 / 12 Rabi' I 11 AH) · Saqifa (perspectives) · burial. Plus births/deaths of key figures and the revelation of key surahs as `event`s linked to `passage`s.
@@ -67,7 +68,7 @@ What is Islam? · Who was Muhammad? · What is the Qur'an? · What do Muslims be
 
 ## Phase 2 · The halls complete (months 3–4)
 
-Network hall full (teacher–student, isnad, families, dynasties, path finder) · snapshot year with map · Hijri calendar app · "What was here" · compare · bookmarks/My tour · kid mode · print mode · OpenGraph cards · PWA offline · coverage page · RSS. Content: +500 entities via Wikidata-assisted import (people, places, polities) drafted with AI and reviewed.
+Network hall full (teacher–student, isnad, families, dynasties, path finder) · snapshot year with map · Hijri calendar app · "What was here" · compare · bookmarks/My tour · kid mode · print mode · OpenGraph cards · PWA offline · coverage page · RSS. Content: +500 entities via Wikidata-assisted import (people, places, polities) drafted with AI and reviewed; listing harvest pipeline to 1,000 verified Made entries; long-tail illustration batches.
 
 ## Phase 3 · Words and objects (months 5–7)
 

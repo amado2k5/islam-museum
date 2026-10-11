@@ -20,7 +20,7 @@ The museum is a **knowledge graph stored as plain text in git**. This document d
 
 ## 2. Entity classes
 
-Twenty classes, grouped by what they are. Each has a JSON Schema in `schema/<class>.schema.json` and a Markdown template in `templates/<class>.md`.
+Twenty-one classes, grouped by what they are. Each has a JSON Schema in `schema/<class>.schema.json` and a Markdown template in `templates/<class>.md`.
 
 ### Actors
 | Class | What | Key fields beyond the common base |
@@ -69,7 +69,12 @@ Twenty classes, grouped by what they are. Each has a JSON Schema in `schema/<cla
 | `source` | A bibliographic source: primary text, edition, article, book, website, archive, museum record | CSL-JSON fields (`type`, `title`, `author`, `issued`, `publisher`, `URL`, `DOI`, `ISBN`), `kind ∈ {primary, secondary, tertiary, reference_data}`, `language`, `reliability_note`, `open_access` |
 | `dataset` | A table of structured facts: Muslim population by country by year, Hajj attendance, mosque counts, manuscript counts, rulers lists | `columns[]`, `rows_file` (CSV), `source`, `license`, `coverage` (time/space), `method_note` |
 
-Twenty classes. Adding `oral_history`, `recipe`, `lesson_plan`, `model3d`, `game` later = new schema + template + page layout; the graph, build and UI patterns already handle it.
+### Made (directory)
+| Class | What | Key fields |
+|---|---|---|
+| `listing` | A contemporary Muslim-made business, brand, shop, publisher, app, studio, media outlet, charity, school or product (see `11-made-directory.md`) | `kind`, `categories[]`, `made {by_muslims, basis ∈ {self-identified, documented, unverified}, sources}`, `founded`, `status_business`, `location {place, coordinates, online_only, serves[]}`, `links`, `certifications[]`, `last_checked` |
+
+Twenty-one classes. Adding `oral_history`, `recipe`, `lesson_plan`, `model3d`, `game` later = new schema + template + page layout; the graph, build and UI patterns already handle it.
 
 ## 3. Common base (every entity)
 
@@ -146,7 +151,7 @@ located_in:
   range: [place]
 ```
 
-Core predicates (v0.1): `born_in`, `died_in`, `buried_in`, `lived_in`, `traveled_to`, `student_of`/`teacher_of`, `child_of`/`parent_of`, `spouse_of`, `sibling_of`, `member_of`/`has_member`, `founder_of`/`founded_by`, `ruler_of`/`ruled_by`, `successor_of`/`predecessor_of`, `patron_of`/`patronized_by`, `authored`/`authored_by`, `commentary_on`/`has_commentary`, `translation_of`/`translated_as`, `built`/`built_by`, `commissioned`/`commissioned_by`, `located_in`/`contains`, `capital_of`/`had_capital`, `occurred_at`/`site_of`, `participated_in`/`had_participant`, `part_of`/`has_part`, `caused`/`caused_by`, `influenced`/`influenced_by`, `opposed`/`opposed_by`, `depicts`/`depicted_in`, `held_by`/`holds`, `made`/`made_by`, `made_in`/`origin_of`, `mentions`/`mentioned_in`, `exemplifies`/`exemplified_by`, `practiced_in`/`has_practice`, `wrote_in`/`language_of`, `spoke`, `revealed_about`, `basis_for`/`based_on`, `same_as` (external), `related_to` (typed fallback, discouraged).
+Core predicates (v0.1): `born_in`, `died_in`, `buried_in`, `lived_in`, `traveled_to`, `student_of`/`teacher_of`, `child_of`/`parent_of`, `spouse_of`, `sibling_of`, `member_of`/`has_member`, `founder_of`/`founded_by`, `ruler_of`/`ruled_by`, `successor_of`/`predecessor_of`, `patron_of`/`patronized_by`, `authored`/`authored_by`, `commentary_on`/`has_commentary`, `translation_of`/`translated_as`, `built`/`built_by`, `commissioned`/`commissioned_by`, `located_in`/`contains`, `capital_of`/`had_capital`, `occurred_at`/`site_of`, `participated_in`/`had_participant`, `part_of`/`has_part`, `caused`/`caused_by`, `influenced`/`influenced_by`, `opposed`/`opposed_by`, `depicts`/`depicted_in`, `held_by`/`holds`, `made`/`made_by`, `made_in`/`origin_of`, `mentions`/`mentioned_in`, `exemplifies`/`exemplified_by`, `practiced_in`/`has_practice`, `wrote_in`/`language_of`, `spoke`, `revealed_about`, `basis_for`/`based_on`, `sells_work`/`sold_at`, `publishes`/`published_by`, `certified_by`/`certifies`, `same_as` (external), `related_to` (typed fallback, discouraged).
 
 Rules:
 - Write the edge once, on whichever side is more natural; the build creates the inverse.
