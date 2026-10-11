@@ -6,12 +6,14 @@ Strategy: **build the spine first, then grow the body.** The spine is a small, d
 
 Deliverables:
 - Repo scaffold per `03-architecture.md`: licenses, CONTRIBUTING, CODE_OF_CONDUCT, GOVERNANCE, CLAUDE.md, style guide, editorial policy.
-- `schema/` v0.1: base + 20 classes, predicates registry, enums, external-id patterns; 10 example entities validate.
+- `schema/` v0.1: base + 22 classes (including `listing` and `screen`), predicates registry, enums (including `themes` and `story-roles`), external-id patterns; 10 example entities validate.
+- Local harvest workstation on the founder's Mac per `15-local-harvest.md`: workspace, source registry, the Qur'an text downloaded, verified and frozen, Wikidata seed sets, first-ring Wikipedia dumps. Runs without Claude.
+- Scaffold additions from documents 12–14 (the scaffold itself is in place as of 11 October 2026): `screen` schema, template and page layout; `themes` and `story-roles` enums; `themes[]`, `story_roles[]`, `faith[]`, `labelled[]`, `tensions[]` and `basis[]` fields; the added kinds and predicates; the one-sided-conflict warning, the tension lint and the licence-layer check in the validator; Screening Room and theme hub page layouts.
 - `scripts/`: validate, build-graph, derive, export-api, hijri convert (with anchor tests), coverage report.
 - `site/`: Astro + Tailwind + i18n (en, ar) + entity page layout + hall placeholders + search (Pagefind) + JSON-LD + sitemaps + API export.
 - CI: validate on PR; deploy on main to GitHub Pages; Cloudflare cache purge.
 - DNS: `islam.museum` proxied via Cloudflare → GitHub Pages, HTTPS, `www` redirect, Cloudflare Web Analytics.
-- A real landing page: the vision, the eight wings, "opening soon", links to GitHub and Discussions.
+- A real landing page: the vision, the nine wings, "opening soon", links to GitHub and Discussions.
 
 Exit criteria: `npm run validate && npm run build` green; https://islam.museum serves the landing page and `/en/person/ibn-sina`; Lighthouse ≥ 95/100.
 
@@ -23,7 +25,7 @@ Content targets (en + ar; `reviewed` status):
 |---|---|---|
 | period | 12 | Pre-Islamic Arabia · Prophetic era (Meccan, Medinan) · Rashidun · Umayyad · Abbasid (early, fragmentation) · Fatimid/Buyid/Seljuk era · Crusades & Ayyubid/Mamluk · Mongol & post-Mongol · Gunpowder empires (Ottoman, Safavid, Mughal) · Colonial era · Modern · Contemporary |
 | event | 200 | ~90 in the Prophet's life (see list), 40 Rashidun & Umayyad, 40 Abbasid–1500, 30 since 1500 |
-| person | 150 | see list |
+| person | 150 + 100 | see list, plus 100 figures from every side of the story (`13-figures.md` §3): the complete Prophetic-era cast including opponents, protectors and those who changed sides, and 40 from later lanes |
 | place | 60 | see list |
 | polity | 30 | see list |
 | building | 25 | Kaaba · Prophet's Mosque · Dome of the Rock · Umayyad Mosque · Great Mosque of Córdoba · Ibn Tulun · al-Azhar · al-Qarawiyyin · Qarawiyyin Library · Alhambra · Great Mosque of Kairouan · Great Mosque of Samarra · Taj Mahal · Süleymaniye · Hagia Sophia · Registan · Djinguereber (Timbuktu) · Great Mosque of Djenné · Shah Mosque Isfahan · Great Mosque of Xi'an · Bibi-Khanym · Qutb Minar · Sultan Hassan · Masjid al-Haram expansions · Sankoré |
@@ -34,14 +36,16 @@ Content targets (en + ar; `reviewed` status):
 | language | 12 | Arabic · Persian · Ottoman Turkish · Turkish · Urdu · Bengali · Malay/Indonesian · Swahili · Hausa · Bosnian (Arebica) · Chinese (Xiao'erjing) · Wolof (Wolofal) |
 | journey | 10 | Hijra · Isra and Mi'raj (as tradition) · Expedition to Tabuk · Ibn Battuta · Ibn Fadlan · Ibn Jubayr · Mansa Musa's Hajj · Zheng He's voyages · Evliya Çelebi · Malcolm X's Hajj |
 | group | 25 | Quraysh · Banu Hashim · Ansar · Muhajirun · Ahl al-Bayt · the four madhhabs · Twelver Shia · Ismailis · Zaydis · Ibadis · Mu'tazila · Ash'aris · Maturidis · Qadiriyya · Naqshbandiyya · Mevlevi · Chishti · Tijaniyya · Mamluks · Janissaries · Brethren of Purity · Banu Musa · Hui · Moriscos … |
-| question | 60 | see list |
+| question | 60 → about 220 | see list, plus ten starter questions for each of the 16 theme hubs |
 | exhibit | 8 | "Islam in 30 minutes" tour · The Life of the Prophet · The House of Wisdom · Al-Andalus · Women who shaped Islam · Timbuktu and the Sahel · Islam in China · The Islamic Year (Living) |
 | source | 120 | critical editions and scholarship for the above |
 | dataset | 3 | Muslim population by country (Pew) · Hajj attendance by year · UNESCO World Heritage sites of Islamic civilization |
 | media | 150 + ~650 | CC0/PD images with alt text in en + ar, plus ~650 approved AI-assisted illustrations generated locally per `10-image-generation.md` (wings, periods, regions, places, events, person still-lifes, concepts, practices, journeys, questions) and programmatic name tiles for every person |
 | listing | 100 | Made wing seed across 20 countries and all categories, plus a Library shelf of 100 books by living Muslim authors (`11-made-directory.md`) |
+| screen | 300 | Films, series, documentaries and programmes about Islam across at least 25 languages, each linked to what it is about; the verified seed list of `12-screen-index.md` §9 first |
+| theme hubs | 16 | One hub per theme family opened to the minimum set, all spine entities theme-tagged, 20 tension cards, every ghazwa and sariyya as an event with both sides (`14-themes-atlas.md` §9) |
 
-Features: entity pages for all classes; Made hall with map and shelves; Time hall (timeline, eras, snapshot year, today); Place hall (map with time slider, journeys); People gallery + ego network; glossary; Questions; 8 exhibits; search; depth dial; honorifics toggle; API; coverage page.
+Features: entity pages for all classes; Screening Room with "On screen" panels; theme hubs and theme filter; "Place in the story" roles on people; Made hall with map and shelves; Time hall (timeline, eras, snapshot year, today); Place hall (map with time slider, journeys); People gallery + ego network; glossary; Questions; 8 exhibits; search; depth dial; honorifics toggle; API; coverage page.
 
 ### Seed list · events in the Prophet's life (~90, each an `event`)
 Year of the Elephant and birth (c. 570) · death of Amina · care of Abd al-Muttalib then Abu Talib · journey to Syria with Abu Talib · Harb al-Fijar · Hilf al-Fudul · trade for Khadija · marriage to Khadija (c. 595) · rebuilding of the Kaaba and the Black Stone arbitration (c. 605) · retreats on Hira · first revelation (c. 610) · Khadija, Ali, Zayd, Abu Bakr accept Islam · public preaching (c. 613) · persecution of early Muslims · Bilal's ordeal · conversion of Hamza and of Umar (c. 616) · first migration to Abyssinia (615) · second migration to Abyssinia · boycott of Banu Hashim (c. 616–619) · Year of Sorrow: deaths of Khadija and Abu Talib (619) · journey to Ta'if · Isra and Mi'raj (tradition) · first and second pledges of Aqaba (620–622) · plot of Dar al-Nadwa · Hijra (622) · Masjid Quba · arrival at Medina · building the Prophet's Mosque · Constitution of Medina · brotherhood of Muhajirun and Ansar · change of qibla (624) · fasting of Ramadan prescribed · Battle of Badr (624) · marriage of Fatima and Ali · Banu Qaynuqa · Battle of Uhud (625) · Hamza's death · Banu Nadir · Battle of the Trench (627) · Banu Qurayza · marriage to Zaynab bint Jahsh · incident of the slander · Treaty of Hudaybiyya (628) · Khaybar (628) · letters to rulers · Umrah of Qada (629) · Battle of Mu'tah (629) · Conquest of Mecca (630) · cleansing of the Kaaba · Battle of Hunayn · siege of Ta'if · Expedition to Tabuk (630) · Year of Delegations (631) · death of Ibrahim · Hajj led by Abu Bakr · Farewell Pilgrimage and Sermon (632) · Ghadir Khumm (632, perspectives) · final illness · death of the Prophet (8 June 632 / 12 Rabi' I 11 AH) · Saqifa (perspectives) · burial. Plus births/deaths of key figures and the revelation of key surahs as `event`s linked to `passage`s.
@@ -68,7 +72,7 @@ What is Islam? · Who was Muhammad? · What is the Qur'an? · What do Muslims be
 
 ## Phase 2 · The halls complete (months 3–4)
 
-Network hall full (teacher–student, isnad, families, dynasties, path finder) · snapshot year with map · Hijri calendar app · "What was here" · compare · bookmarks/My tour · kid mode · print mode · OpenGraph cards · PWA offline · coverage page · RSS. Content: +500 entities via Wikidata-assisted import (people, places, polities) drafted with AI and reviewed; listing harvest pipeline to 1,000 verified Made entries; long-tail illustration batches.
+Network hall full (teacher–student, isnad, families, dynasties, path finder) · snapshot year with map · Hijri calendar app · "What was here" · compare · bookmarks/My tour · kid mode · print mode · OpenGraph cards · PWA offline · coverage page · RSS. Content: +500 entities via Wikidata-assisted import (people, places, polities) drafted with AI and reviewed; listing harvest pipeline to 1,000 verified Made entries; long-tail illustration batches. The full local harvest (`15`) running weekly on the Mac; Screen index to 2,000 verified titles with all Wikipedia category trees walked and the first give-back to Wikidata (`12`); +250 figures from the remaining lanes, the "Stance over time" strip and People hall facets (`13`); 60 theme hubs, the family tree of movements, the conflict explorer, "religion or custom?" on 30 practices, 100 tension cards (`14`).
 
 ## Phase 3 · Words and objects (months 5–7)
 
@@ -99,6 +103,10 @@ IIIF partnerships (Aga Khan Museum, MIA Doha, IAMM, David Collection); 3D scans 
 | Hijri date errors | Store source Hijri; derived values flagged; anchor tests; uncertainty shown |
 | AI hallucinations in content | Draft label; two-source rule; citations required; validation that cited sources exist |
 | Static limits for interactivity | Islands with compact indexes; Workers upgrade path documented |
+| "Everything" as a goal that cannot be finished | A four-axis coverage grid (period × region × class × theme) with public empty cells; minimum sets per theme hub; curated core plus imported long tail |
+| Including opponents, critics and hard questions draws fire from every side | Charter principle 11; identical page anatomy for all; attribution of every judgement; tension cards with all voices; Tier A review |
+| Local models hallucinate during the harvest | Quote-span rule, second-family judge, rules, gold sets, human review; the Qur'an text is never written by a model and is checked byte for byte at build |
+| Licence contamination from harvested sources | Licence layers on disk and a validator wall on `provenance.layer` |
 
 ## Metrics dashboard (public, from `api/v1/meta/coverage.json`)
-Entities by class/wing/period/region/language · review status mix · sources per entity · women share · broken links · build time · site size · visitors by wing (Cloudflare) · zero-result searches.
+Entities by class/wing/period/region/theme/language · screen titles by language and country · role families per grid cell · theme hubs at minimum set · review status mix · sources per entity · women share · broken links · build time · site size · visitors by wing (Cloudflare) · zero-result searches.

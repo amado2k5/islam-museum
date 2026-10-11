@@ -49,14 +49,15 @@ islam-museum/
 │  └─ editorial-policy.md
 ├─ schema/
 │  ├─ _base.schema.json           # common fields
-│  ├─ person.schema.json … dataset.schema.json
+│  ├─ person.schema.json … dataset.schema.json  listing.schema.json  screen.schema.json
 │  ├─ predicates.yaml             # relationship registry with inverses, domain, range, labels
-│  ├─ enums/ (regions, traditions, roles, kinds, disciplines, materials, licenses)
+│  ├─ enums/ (regions, traditions, roles, kinds, disciplines, materials, licenses, themes, story-roles)
 │  └─ external-id-patterns.yaml   # wikidata: https://www.wikidata.org/wiki/{id} …
 ├─ data/                          # language-neutral YAML, one file per entity
 │  ├─ person/  group/  polity/  event/  period/  journey/
 │  ├─ place/  building/  object/  media/  work/  passage/
 │  ├─ concept/  language/  practice/  exhibit/  question/  source/  dataset/
+│  ├─ listing/  screen/
 │  └─ _stubs.yaml                 # wanted entities referenced but not yet written
 ├─ content/                       # prose per language, mirrors data/
 │  ├─ en/  ar/  (fr/ ur/ tr/ id/ es/ later)
@@ -69,6 +70,7 @@ islam-museum/
 │  ├─ validate.ts  build-graph.ts  derive.ts  export-api.ts  export-jsonld.ts
 │  ├─ hijri/  (convert.ts, anchors.test.ts)
 │  ├─ import/  (wikidata.ts, met-open-access.ts, pleiades.ts)
+│  ├─ harvest/ (Python, run on the founder's Mac per 15-local-harvest.md: wikidata/, wikipedia/, quran/, screen/, directories/, web/, promote.py, status.py)
 │  ├─ media/   (thumbnails.ts, license-check.ts)
 │  └─ report/  (coverage.ts → docs/coverage.md + api/v1/meta/coverage.json)
 ├─ site/                          # Astro project
@@ -77,7 +79,7 @@ islam-museum/
 │  │  ├─ layouts/  components/  islands/ (Timeline.svelte, Map.svelte, Graph.svelte, HijriCalendar.svelte, DepthDial.svelte, Search.svelte)
 │  │  ├─ pages/[lang]/[class]/[slug].astro   # entity pages
 │  │  ├─ pages/[lang]/(time|place|people|ideas|objects|words|living|today)/index.astro
-│  │  ├─ pages/[lang]/exhibits/…  questions/…  wander.astro  today.astro
+│  │  ├─ pages/[lang]/exhibits/…  questions/…  screen/…  themes/[slug].astro  wander.astro  today.astro
 │  │  ├─ pages/api/v1/…           # static JSON endpoints emitted at build
 │  │  ├─ loaders/graph.ts         # Astro content loader reading .cache/graph.json
 │  │  └─ styles/tokens.css
@@ -88,6 +90,8 @@ islam-museum/
 │  └─ PULL_REQUEST_TEMPLATE.md  CODEOWNERS
 └─ .cache/                        # gitignored compiled graph
 ```
+
+The **harvest workspace** (raw dumps, licence-layered extracts, local databases, model caches: hundreds of GB) lives outside this repository on the founder's Mac and is never committed; only validated candidates arrive here, by pull request (`15-local-harvest.md`).
 
 A second repo **`islam-museum-media`** (GitHub Pages at `media.islam.museum`, or an R2 bucket behind the same hostname) holds thumbnails, audio snippets, PMTiles. Each media file has a sidecar in `data/media/*.yaml` in the main repo with license and attribution.
 
@@ -126,6 +130,9 @@ https://islam.museum/en/time/hijri/450      snapshot year (AH)
 https://islam.museum/en/place/map?at=1258   map at a date
 https://islam.museum/en/exhibits/house-of-wisdom
 https://islam.museum/en/questions/what-is-sharia
+https://islam.museum/en/screen/                 the Screening Room
+https://islam.museum/en/screen/al-risala-1976
+https://islam.museum/en/themes/medicine
 https://islam.museum/en/wander              random entity (static: picks client-side from index)
 https://islam.museum/en/today               on this day (Hijri + Gregorian)
 https://islam.museum/api/v1/person/ibn-sina.json

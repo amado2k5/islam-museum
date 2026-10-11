@@ -12,6 +12,9 @@ This is the operating plan for using AI to populate the museum from the origins 
 6. **No invented quotes, no invented images, no rulings, no polemics.** A lint rejects first-person religious instruction, sectarian slurs, and unsourced superlatives ("the greatest…").
 7. **Risk-tiered review.** Contested, sacred, living-person and modern-political topics get two reviewers; ordinary historical entities get one; CC0 structured imports get sampling.
 8. **Attribution and license travel with the content.** The pipeline refuses sources whose license is unknown and keeps non-commercial material in its own labelled files.
+9. **The harvest runs locally.** Discovery, download, parsing, extraction, classification and judging run on the founder's Mac with local scripts and open-weight models, with no cloud model in the path (`15-local-harvest.md`). The rules above apply to local models exactly as written.
+10. **Scripture is never generated.** No model writes, completes or corrects Qur'an text; it comes only from the verified, frozen source files.
+11. **Every side is retrieved.** For conflicts, debates and schisms the pipeline fetches sources from each party and from outside scholarship, and records participants on all sides (`13-figures.md`).
 
 ## 2. Where the content comes from (source map)
 
@@ -24,6 +27,8 @@ Tiering drives both retrieval order and citation weight.
 | **T2 reference and scholarship** | Encyclopaedia Iranica (open access), Diyanet İslam Ansiklopedisi (free, Turkish), Encyclopaedia of Islam (cite only; paywalled), Cambridge/Oxford histories (cite), open-access journals via OpenAlex, Semantic Scholar, CORE, DOAJ, JSTOR open content, university repositories, Smarthistory (CC BY-NC-SA), Archnet (link), museum catalogue essays | Historical consensus, debates, context, bibliography |
 | **T3 pointers** | Wikipedia in en/ar/fa/tr/ur/id (CC BY-SA; use its references, not its claims), Muslim Heritage, World History Encyclopedia, podcasts | Discovery of entities and of T1/T2 sources; never the cited source |
 | **T4 contemporary** | Reputable news archives, official institutional pages, OIC/UNESCO/ISESCO/IRCICA publications, Pew, academic reports | *Today* wing; living-person policy applies; always dated |
+| **Screen** | Wikidata film and television items (CC0), Europeana and DPLA metadata (CC0); national and global film databases as identifiers and pointers only | The Screen index (`12-screen-index.md` §3) |
+| **Directories** | Open charity registers, Curlie, official member lists; OpenStreetMap in a separate ODbL layer | Candidates for organisations, charities, websites and the Made wing; leads, never facts about belief (`15-local-harvest.md` §6.7) |
 
 Legal gates (from the licensing survey): Quran Foundation API content is called client-side only, never stored; OpenITI and Smarthistory text stays non-commercial-labelled; Aga Khan Museum images CC BY-NC; QDL via IIIF with per-item rights; Brill/Oxford cited not copied; GPL corpora isolated.
 
@@ -38,6 +43,8 @@ For each cell the AI produces a **cell manifest**: the top-N candidates per clas
 - number of times already referenced as a stub by existing museum entities (graph demand)
 - zero-result search queries on the live site (visitor demand)
 - editor-assigned priority tags (curatorial judgement)
+
+A third dimension, **theme** (about 125 themes, `14-themes-atlas.md`), is tracked on the same grid, and a cell counts as covered for people only when it holds figures from at least four role families, including opposition and outside observers (`13-figures.md` §4).
 
 Fill priority = importance × (1 − current coverage of the cell). The public **coverage page** renders the grid so visitors and contributors see what is thin. The modern period (1800–today) is split into Colonial, Modern (1900–1990) and Contemporary (1990–today) cells with their own sources (T4), a living-person policy and a slower cadence.
 
@@ -138,7 +145,8 @@ Compiled entity example (abridged):
 
 ## 8. Running it: cadence, cost, models
 
-- **Local sessions** (Claude Code) for the spine: run `plan-cell` → review manifest → `draft` batches of 10–25 → review PRs. Humans spend their time reviewing, not typing.
+- **Local harvest (default for everything up to and including drafts):** all stages from PLAN to DRAFT can run on the Mac with open-weight models through Ollama, a second model family as judge, and gold sets that gate each pass (`15-local-harvest.md` §7). No tokens, no uploads.
+- **Claude sessions** (optional, Claude Code) for the spine: run `plan-cell` → review manifest → `draft` batches of 10–25 → review PRs. Humans spend their time reviewing, not typing.
 - **Scheduled GitHub Actions** (weekly): Wikidata diff; link health; new CC0 objects from museum APIs; stale translation report; coverage report. Monthly: a cell batch for the long tail, opened as PRs for review.
 - **Models**: a fast model (claude-sonnet-5-5) for extraction, drafting and translation at volume; a stronger model (claude-opus-5-5 or claude-fable-5-1) for the judge, contested topics and exhibit writing. Prompt caching for the fixed context (schema, style guide, glossary, enums). Pin model IDs in `provenance`.
 - **Cost**: per entity, retrieval plus extraction plus drafting plus judging is a few tens of thousands of input tokens and a few thousand output tokens; measure on the first 100 entities and budget from current pricing before scaling. Structured imports cost nothing.

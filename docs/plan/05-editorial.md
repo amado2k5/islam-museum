@@ -29,7 +29,14 @@ Contested topics (succession after the Prophet, the compilation of the Qur'an, t
 | Colonialism, slavery, gender, sectarian conflict | Covered honestly, with multiple perspectives, primary sources, and modern scholarship; no apologetics, no polemics. |
 | Living persons | Only well-sourced public facts; no speculation; a removal/correction channel; privacy-first. |
 | Modern politics | Events and actors described; the museum takes no positions; perspectives block mandatory. |
-| Children's content | Kid mode hides `violence`, `mature`, `contested` sensitivity items. |
+| Children's content | Kid mode hides `violence`, `mature`, `contested`, `polemical` sensitivity items. |
+| Opponents, critics and persecutors | Included by significance, not sympathy (`13-figures.md`). Describe the act, attribute the judgement; never "enemy of Islam" in the museum's voice; roles are time-scoped; each side's case stated as its holders would state it. Perpetrators of recent mass violence get a minimal record with no portrait. |
+| Polemical and hateful material | Described and cited, never reproduced, displayed or linked for viewing (`sensitivity: polemical`). Media made by violent extremist groups is not indexed. |
+| Films and programmes | Listed, not endorsed; no ratings; depiction of prophets, Companions and Imams stated in words, no stills; reception reported with sources and perspectives; official watch links only (`12-screen-index.md`). |
+| Contradictions and hard questions | Never hidden. Written as tension cards: the tension in the words of those who raise it, every response in the words of those who give it, at least two cited voices, no verdict from the museum (`14-themes-atlas.md` §4). |
+| Women, children, the elderly, people with disabilities, minorities and other protected groups | Three labelled layers kept apart: what the texts say, what each school held and holds, what happened and happens in practice with dated data. Range of positions, communities' own voices, both protection and persecution documented, no rulings, no advocacy (`14-themes-atlas.md` §6). |
+| Religion versus custom | Show the texts, the schools, the geography of the practice and present-day voices; the museum does not label a practice "Islamic" or "un-Islamic" (`14-themes-atlas.md` §5). |
+| A person's religion | Recorded only as self-identified (the only basis accepted for the living), documented, or reported by tradition, with the basis shown; never inferred from a name, family or origin. |
 
 ## 4. Sourcing rules
 
@@ -58,6 +65,8 @@ Contested topics (succession after the Prophet, the compilation of the Qur'an, t
 | Media | Per item, whitelist only: CC0, CC BY, CC BY-SA, CC BY-NC (ad-free site), Public Domain, explicit institutional open terms | Validation fails on unknown license. Attribution rendered under every image. |
 | Qur'an text | Tanzil (CC BY, verbatim with link) | Translations only where redistribution is clearly permitted; otherwise deep link to Quran.com. The Quran Foundation API may only be called client-side within its terms, never pre-baked. |
 | Hadith text | Classical Arabic text is public domain; translations and numbering schemes per source | Verify sunnah.com terms before any ingestion; deep-link by default. |
+| Screen index (`data/screen/`) | **CC0** for the facts we hold: titles, dates, countries, languages, credits, identifiers from Wikidata, open archives and our own cited research | Nothing copied from IMDb, TMDB or all-rights-reserved national databases beyond the identifier; no posters, stills, clips or subtitle files; TVmaze (CC BY-SA) kept separate if used. |
+| Harvested material on the founder's Mac | Kept in licence layers (`cc0`, `by`, `by-sa`, `odbl`, `nc`, `link-only`, `unverified`) | Only `cc0` and `by` facts, or facts established by our own reading and cited, may enter `data/`; the validator checks `provenance.layer` (`15-local-harvest.md` §3). |
 
 A **per-version license registry** (like Sefaria) lives in `data/passage/*` and `data/work/*`: every text version records translator, year, source URL and license, and the UI displays it. A `LICENSES.md` at the root lists all third-party content licenses in use.
 

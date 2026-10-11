@@ -46,6 +46,7 @@ Design for the stranger first. If the stranger feels welcome and informed, every
 8. **Durable.** Plain text in git, standard formats (Markdown, YAML, JSON Schema, GeoJSON, EDTF, IIIF, JSON-LD), static hosting, no vendor lock-in, readable without JavaScript, usable offline.
 9. **Machine-readable.** Stable URLs, JSON-LD, a static API, Wikidata alignment, `llms.txt`. Built to be cited correctly by humans and machines.
 10. **Honest about gaps.** Coverage maps show what the museum does not yet have. Drafts are labelled drafts.
+11. **Complete and unafraid.** Everyone and everything of significance to the story belongs here: supporters and opponents, allies and critics, achievements and failures, agreements and contradictions. The test is significance, not sympathy. The museum describes and attributes; it does not honour, condemn or resolve in its own voice (`13-figures.md`, `14-themes-atlas.md`).
 
 ## 5. What "Islam" covers here (scope)
 
@@ -63,7 +64,9 @@ Everything the founder listed, organised into nine museum **wings** (the visitor
 | **Today** | Modern nations, institutions, demographics, contemporary figures and events, the future | OIC · Al-Azhar · Muslim population data · 21st-century events |
 | **Made** | A directory of what Muslims create and own today: shops, brands, publishers, books, apps, studios, media, charities, schools (see 11-made-directory.md) | A bookshop in Fez · a Qur'an app · a modest-fashion brand · a Muslim-run publisher |
 
-Plus two cross-cutting entrances: **Questions** (plain-language FAQ for newcomers) and **Exhibits** (curated narratives and guided tours).
+Plus four cross-cutting entrances: **Questions** (plain-language FAQ for newcomers), **Exhibits** (curated narratives and guided tours), the **Screening Room** (an index of every film, series and programme about Islam in any language, `12-screen-index.md`) and **Themes** (about 125 themes that cut across every wing, from women and minorities to war, charity, food and science, `14-themes-atlas.md`).
+
+The People wing covers everyone who mattered to the story in any role, including opponents, critics, protectors and outside observers (`13-figures.md`).
 
 ## 6. What has been attempted, and what is genuinely new
 
@@ -81,6 +84,8 @@ What islam.museum does that has not been done:
 8. **An open data product**, aligned with Wikidata, exposed as JSON-LD and a static API, designed to be the source AI assistants cite.
 9. **Zero-cost, forkable, offline-capable infrastructure.** The entire museum is a git repository.
 10. **A genuinely welcoming front door** for people who know nothing and are afraid of asking.
+11. **The first open, multilingual index of Islam on screen**, filed by what each work is about.
+12. **Both sides of every conflict and every argument**, with roles that change over time and hard questions stated with all their answers.
 
 ## 7. Non-goals (for now)
 
@@ -92,6 +97,6 @@ What islam.museum does that has not been done:
 
 ## 8. Success looks like
 
-- **Year 1:** 2,000+ connected entities, English + Arabic, all nine wings open, 500 verified Made listings, timeline/map/network halls live, 50 exhibits, 200 questions, cited on Wikipedia and by AI assistants, 20 contributors.
+- **Year 1:** 2,000+ connected entities, English + Arabic, all nine wings open, 2,000 verified screen titles, 60 theme hubs open, both sides present on every conflict page, 500 verified Made listings, timeline/map/network halls live, 50 exhibits, 200 questions, cited on Wikipedia and by AI assistants, 20 contributors.
 - **Year 2:** 10,000+ entities, 6 languages, IIIF objects from 10 institutions, Qur'an and hadith integrated, educator kits, API in use by researchers, a volunteer editorial board.
 - **Year 5:** The default first stop online for anyone, anywhere, who wants to understand Islam and its civilization; a dataset used in research and education worldwide; a model other faiths and civilizations copy.

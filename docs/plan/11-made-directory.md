@@ -19,7 +19,8 @@ One new class, **`listing`**, plus reuse of existing classes:
 | What | Class | Notes |
 |---|---|---|
 | Shops, brands, restaurants, companies, studios, apps, games, products, media outlets, podcasts, funds, clinics, schools, charities | `listing` | New class (schema below) |
-| Books, films, albums, courses by Muslim authors/creators | `work` with `kind` and `made.by_muslims` | Already in the Words wing; the Made wing aggregates them as a "Library" shelf |
+| Books, albums, courses by Muslim authors/creators | `work` with `kind` and `made.by_muslims` | Already in the Words wing; the Made wing aggregates them as a "Library" shelf |
+| Films and television by Muslim creators | `screen` with `made.by_muslims` | Catalogued in the Screen index (`12-screen-index.md`); the Made wing shows them as a "Screen" shelf when the basis is documented |
 | Organisations and institutions (universities, museums, NGOs) | `group` with `kind: organization` or `institution` | Already in the Today wing; aggregated here when `made.by_muslims` is set |
 | Founders and authors | `person` (living-person rules) | Linked by `founded_by`, `authored_by` |
 | Physical premises | `place` + coordinates | For the map |
@@ -79,6 +80,8 @@ New predicates: `founded_by/founder_of` (exists), `sells_work/sold_at`, `publish
 | Media | Podcast directories, YouTube channels with public self-identification, magazines | `listing kind: podcast/media` |
 | Press and reference | Wikidata (founder, country, industry), reputable press features | `basis: documented` with the source |
 | Institutions | OIC, ISESCO, IRCICA member lists; university lists; museum associations | `group` entries |
+
+Candidate harvesting from open registers and directories runs on the founder's Mac (`15-local-harvest.md` §6.7). A register entry is a lead only; the basis rules above decide what is published.
 
 The AI pipeline (09) gets a `listing` branch: `harvest-candidates` → `dedupe` → `verify-basis` (finds the owner's public self-identification or two documented sources; otherwise `unverified` and not published) → `draft-listing` → PR. Unverified candidates are kept in a private wanted-list, not on the site.
 

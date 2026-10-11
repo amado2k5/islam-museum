@@ -20,12 +20,12 @@ The museum is a **knowledge graph stored as plain text in git**. This document d
 
 ## 2. Entity classes
 
-Twenty-one classes, grouped by what they are. Each has a JSON Schema in `schema/<class>.schema.json` and a Markdown template in `templates/<class>.md`.
+Twenty-two classes, grouped by what they are. Each has a JSON Schema in `schema/<class>.schema.json` and a Markdown template in `templates/<class>.md`.
 
 ### Actors
 | Class | What | Key fields beyond the common base |
 |---|---|---|
-| `person` | A human individual | `names` (given, kunya, nasab, nisba, laqab, regnal, pen), `gender`, `born`, `died`, `floruit`, `roles[]`, `traditions[]`, `disciplines[]`, `languages[]` |
+| `person` | A human individual | `names` (given, kunya, nasab, nisba, laqab, regnal, pen), `gender`, `born`, `died`, `floruit`, `roles[]`, `traditions[]`, `disciplines[]`, `languages[]`, `story_roles[]` (time-scoped part played in the story, on any side), `faith[]` (documented, never inferred), `labelled[]` (epithets with their owner); see `13-figures.md` |
 | `group` | A collective: `kind ∈ {tribe, clan, family, people, denomination, madhhab, order, movement, organization, institution, guild, army}` | `kind`, `founded`, `dissolved`, `founder`, `headquarters`, `members_estimate`, `active_regions[]` |
 | `polity` | A state, caliphate, dynasty, emirate, sultanate, empire, modern nation | `kind`, `start`, `end`, `capitals[] (time-scoped)`, `extent[] (GeoJSON by date)`, `predecessor`, `successor`, `official_languages[]`, `religious_policy` |
 
@@ -51,7 +51,7 @@ Twenty-one classes, grouped by what they are. Each has a JSON Schema in `schema/
 ### Thought and word
 | Class | What | Key fields |
 |---|---|---|
-| `work` | An intellectual or creative work: book, treatise, poem, diwan, map, musical composition, film, website | `kind`, `genre[]`, `disciplines[]`, `authors[]`, `language`, `composed`, `structure` (chapters/surahs), `editions[]`, `translations[]`, `openiti_uri`, `commentaries[]`, `manuscripts[]` |
+| `work` | An intellectual or creative work: book, treatise, poem, diwan, map, musical composition, website, app, fatwa, declaration, charter, law, report (films and television are `screen`) | `kind`, `genre[]`, `disciplines[]`, `authors[]`, `language`, `composed`, `structure` (chapters/surahs), `editions[]`, `translations[]`, `openiti_uri`, `commentaries[]`, `manuscripts[]` |
 | `passage` | An addressable unit inside a `work`: Qur'an ayah or surah, hadith number, poem line, chapter | `work`, `ref` (canonical locator e.g. `2:255`, `bukhari:1`), `text` (original), `translations{lang: {text, translator, license}}`, `audio[]`, `context` |
 | `concept` | An idea, term, doctrine, legal notion, discipline, virtue, science, art form, architectural element | `term` (Arabic + transliteration + other langs), `kind ∈ {belief, doctrine, legal, ethical, discipline, art_form, architectural_element, scientific, political, social, term}`, `definitions[] (by tradition)`, `parent_concept`, `etymology` |
 | `language` | A language or script associated with Muslim peoples | `kind ∈ {language, script, dialect}`, `scripts[]`, `speakers_estimate`, `regions[]`, `literary_tradition_from`, `iso639`, `sample_media[]` |
@@ -69,12 +69,17 @@ Twenty-one classes, grouped by what they are. Each has a JSON Schema in `schema/
 | `source` | A bibliographic source: primary text, edition, article, book, website, archive, museum record | CSL-JSON fields (`type`, `title`, `author`, `issued`, `publisher`, `URL`, `DOI`, `ISBN`), `kind ∈ {primary, secondary, tertiary, reference_data}`, `language`, `reliability_note`, `open_access` |
 | `dataset` | A table of structured facts: Muslim population by country by year, Hajj attendance, mosque counts, manuscript counts, rulers lists | `columns[]`, `rows_file` (CSV), `source`, `license`, `coverage` (time/space), `method_note` |
 
+### Screen
+| Class | What | Key fields |
+|---|---|---|
+| `screen` | A film, series, documentary, programme, animation or episode about Islam, from any country in any language (see `12-screen-index.md`) | `format`, `relevance ∈ {primary, substantial, setting}`, `titles[]` (every script and release title), `released`, `countries[]`, `languages{}`, `versions[]`, `depiction{}` (prophets, Companions, Imams), `approach`, `reception[]`, `watch[]` (official links only), film and TV `external_ids` |
+
 ### Made (directory)
 | Class | What | Key fields |
 |---|---|---|
 | `listing` | A contemporary Muslim-made business, brand, shop, publisher, app, studio, media outlet, charity, school or product (see `11-made-directory.md`) | `kind`, `categories[]`, `made {by_muslims, basis ∈ {self-identified, documented, unverified}, sources}`, `founded`, `status_business`, `location {place, coordinates, online_only, serves[]}`, `links`, `certifications[]`, `last_checked` |
 
-Twenty-one classes. Adding `oral_history`, `recipe`, `lesson_plan`, `model3d`, `game` later = new schema + template + page layout; the graph, build and UI patterns already handle it.
+Twenty-two classes. Adding `oral_history`, `recipe`, `lesson_plan`, `model3d`, `game` later = new schema + template + page layout; the graph, build and UI patterns already handle it.
 
 ## 3. Common base (every entity)
 
@@ -91,6 +96,7 @@ summary:                       # one sentence, multilingual
   ar: ...
 wings: [people, ideas]         # which museum wings surface this node
 tags: [medicine, philosophy, golden-age]
+themes: [medicine, philosophy-and-logic]   # controlled list of about 125 themes, see 14-themes-atlas.md
 periods: [period/abbasid-fragmentation]
 regions: [region/persia-central-asia]   # controlled list, see schema/enums
 external_ids:
@@ -107,7 +113,7 @@ status:                        # editorial state
   completeness: 3              # 0–5
   last_reviewed: 2026-10-01
   reviewers: [ahmed]
-sensitivity: none              # none | figurative-prophet | violence | contested | sacred
+sensitivity: none              # none | figurative-prophet | violence | contested | sacred | polemical | mature
 ```
 
 ## 4. Relationships (edges)
@@ -152,6 +158,10 @@ located_in:
 ```
 
 Core predicates (v0.1): `born_in`, `died_in`, `buried_in`, `lived_in`, `traveled_to`, `student_of`/`teacher_of`, `child_of`/`parent_of`, `spouse_of`, `sibling_of`, `member_of`/`has_member`, `founder_of`/`founded_by`, `ruler_of`/`ruled_by`, `successor_of`/`predecessor_of`, `patron_of`/`patronized_by`, `authored`/`authored_by`, `commentary_on`/`has_commentary`, `translation_of`/`translated_as`, `built`/`built_by`, `commissioned`/`commissioned_by`, `located_in`/`contains`, `capital_of`/`had_capital`, `occurred_at`/`site_of`, `participated_in`/`had_participant`, `part_of`/`has_part`, `caused`/`caused_by`, `influenced`/`influenced_by`, `opposed`/`opposed_by`, `depicts`/`depicted_in`, `held_by`/`holds`, `made`/`made_by`, `made_in`/`origin_of`, `mentions`/`mentioned_in`, `exemplifies`/`exemplified_by`, `practiced_in`/`has_practice`, `wrote_in`/`language_of`, `spoke`, `revealed_about`, `basis_for`/`based_on`, `sells_work`/`sold_at`, `publishes`/`published_by`, `certified_by`/`certifies`, `same_as` (external), `related_to` (typed fallback, discouraged).
+
+Added with documents 12–14: **screen** `about`/`subject_of`, `set_in`/`setting_of`, `directed_by`/`directed`, `written_by`/`wrote_screenplay`, `produced_by`/`produced`, `broadcast_by`/`broadcast`, `features`/`appears_in`, `adaptation_of`/`adapted_as`, `version_of`/`has_version`, `episode_of`/`has_episode`; **figures** `fought`/`fought_by`, `allied_with`, `protected`/`protected_by`, `persecuted`/`persecuted_by`, `debated_with`, `corresponded_with`, `critic_of`/`criticised_by`, `responded_to`/`answered_by`, `wrote_about`, `condemned`/`condemned_by`, `converted_under`/`received_conversion_of`, `ruled_over`; **themes** `split_from`/`split_into`, `merged_into`/`absorbed`, `deserted`/`deserted_by`, `defected_to`/`received_defector`, `convened`/`convened_by`, `attended`/`attended_by`, `issued`/`issued_by`, `signed`/`signed_by`, `rules_on`/`ruled_on_by`, `regulates`/`regulated_by`, `funds`/`funded_by`, `serves`/`served_by`.
+
+Kinds added with document 14: `event.kind` gains war, campaign, battle, skirmish, raid, siege, revolt, civil-war, mutiny, desertion, defection, massacre, expulsion, truce, treaty, schism, council, conference, declaration, gathering and others, with a common `sides[]` block for conflicts; `group.kind` gains sect, school, faction, party, council, charity, relief-agency, certifier, standards-body, bank, university and population groups; `practice` gains `basis[]` (scriptural, prophetic-practice, juristic, customary, contested, per tradition); `question` and `concept` gain `tensions[]`.
 
 Rules:
 - Write the edge once, on whichever side is more natural; the build creates the inverse.
@@ -261,7 +271,7 @@ Claim status enum: `scriptural` (stated in the Qur'an), `tradition` (reported in
 
 ## 9. Sensitivity and media policy flags
 
-`sensitivity` on entities and media: `none`, `figurative-prophet` (figurative depictions of prophets: never shown by default, text-described), `violence`, `human-remains`, `sacred` (e.g. relics: handle reverently), `contested` (political), `mature`. The UI respects visitor settings.
+`sensitivity` on entities and media: `none`, `figurative-prophet` (figurative depictions of prophets: never shown by default, text-described), `violence`, `human-remains`, `sacred` (e.g. relics: handle reverently), `contested` (political), `mature`, `polemical` (works and material attacking Islam or Muslims, or attacking others in Islam's name: described and cited, never reproduced or linked for viewing). The UI respects visitor settings.
 
 ## 10. Example files
 
@@ -369,6 +379,7 @@ From these files the build produces, for every entity: an HTML page per language
 ## 12. Future-proofing checklist
 
 - New class → add schema, template, page layout, enum entries, predicate domain/range. No migration.
+- New theme → one entry in `schema/enums/themes.yaml`; its hub page and its empty coverage cells appear at the next build.
 - New language → add `i18n/<lang>.yaml` and start translating prose; labels can be added to data files incrementally.
 - New relationship → one entry in `predicates.yaml`.
 - New external system → one key under `external_ids` and a URL pattern in `schema/external-id-patterns.yaml`.

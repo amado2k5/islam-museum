@@ -7,6 +7,8 @@ A visitor enters an **Atrium**, chooses a **Wing** (a lens on the whole graph), 
 ```
 Atrium ─┬─ Questions (plain-language door)
         ├─ Exhibits & Tours (curated door)
+        ├─ Screening Room (every film, series and programme about Islam, by subject, language, country, era)
+        ├─ Themes (about 125 themes in 16 families, each a hub across all wings)
         ├─ Wings ─┬─ Time    ─ Timeline hall · Eras · Snapshot year · Today/On this day
         │         ├─ Place   ─ Map hall · Regions · Journeys · "What was here"
         │         ├─ People  ─ Gallery · Networks · Families & dynasties · Path finder
@@ -91,6 +93,9 @@ Class-specific panels:
 | `question` | Short answer first; "the longer answer"; "where this leads" (3–6 entities); related questions |
 | `exhibit` | Scrollytelling rooms with featured entities and media; progress indicator; "continue the tour" |
 | `dataset` | Interactive chart; table; download CSV; method and source |
+| `screen` | All titles and scripts; format, year, countries, languages; what it is about (linked); how it depicts sacred figures; versions and dubs; reception with sources; official places to watch; no ratings (see `12-screen-index.md` §8) |
+| `person`, `group`, `polity` (added) | "Place in the story": time-scoped roles on any side; "Stance over time" strip; "How others named them" (see `13-figures.md` §6) |
+| every class (added) | "On screen": films and programmes about this entity. Theme chips linking to the hubs |
 
 ## 4. The halls
 
@@ -113,6 +118,7 @@ Class-specific panels:
 - **Networks** (Sigma.js): teacher–student, isnad, family, patronage, correspondence; filter by era; ego-graph for any person; dynasty trees.
 - **Path finder**: pick two nodes, see the shortest chains ("Ibn Sina → al-Ghazali → … → Timbuktu").
 - **Women in the story**, **Converts**, **Travelers**, **Non-Muslims in the story** as curated facets, because they are systematically under-surfaced elsewhere.
+- **Every side of the story** (`13-figures.md`): facets for *Carriers*, *Opponents and critics*, *Protectors and allies*, *Changed sides*, *Rival claimants*, *Observers and scholars from outside*; an encounters layer in the network (debated, corresponded, allied, fought) across faith lines.
 - **Pronounce**: audio of names (community-contributed, CC0).
 
 ### Ideas hall
@@ -147,6 +153,12 @@ Class-specific panels:
 - **Data**: charts from `dataset` nodes (population, hajj numbers, mosques, manuscripts digitised).
 - **The 21st century timeline** with the same event schema; sober framing (see editorial policy).
 - **Futures**: eschatology as *tradition* (clearly labelled), demographic projections as *data* (clearly sourced), and the museum's own roadmap.
+
+### Screening Room (cross-cutting entrance)
+- Browse by what a work is about, then by language, country, decade made, era depicted, format and approach; two timelines (when made, what time it depicts); a map of where made and where set; Ramadan seasons by Hijri year; a children's shelf. Title pages carry reception and official watch links, and no ratings. See `12-screen-index.md`.
+
+### Themes (cross-cutting entrance)
+- Sixteen family cards open about 125 theme hubs: each with a guide, starter questions, a filtered timeline and map, people on every side, key texts, practices with their basis (religion or custom), tension cards for the hard questions, data, screen titles, and its own list of gaps. The family tree of movements, the conflict explorer and the population-group pages live here. Every hall accepts a theme filter. See `14-themes-atlas.md`.
 
 ### Made hall
 - **World map** of listings by country and category; **category grid**; **Library shelf** (books by living Muslim authors, by genre and language); **Apps shelf**; **Institutions shelf**; **Near you** (geolocation stays in the browser).

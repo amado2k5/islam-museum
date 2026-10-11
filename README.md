@@ -3,7 +3,7 @@
 An open, free, all-digital museum of Islam: the faith, the civilization, the peoples, the places, the ideas, the objects and the living culture, from its origins to today.
 
 - **Live:** https://islam.museum (bilingual, English and Arabic)
-- **Plan:** [`docs/plan/`](docs/plan/00-README.md): vision, content model, architecture, experience, editorial policy, roadmap, prompts, prior art, AI content pipeline
+- **Plan:** [`docs/plan/`](docs/plan/00-README.md): vision, content model, architecture, experience, editorial policy, roadmap, prompts, prior art, AI content pipeline, image generation, Made directory, Screen index (films and television about Islam in every language), figures on every side of the story, the Themes atlas, and the local harvest that runs on a Mac
 - **Deploy:** GitHub Actions builds `site/` into `dist/` and publishes it to GitHub Pages behind Cloudflare (`.github/workflows/deploy.yml`)
 
 ## How it works

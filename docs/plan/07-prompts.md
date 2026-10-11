@@ -9,7 +9,7 @@ Copy-paste prompts for building and populating the museum with Claude Code (or t
 ```
 # islam.museum — project context
 
-You are working on islam.museum, an open, free, all-digital museum of Islam: the faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into until today. Read docs/plan/ before architectural changes. Key documents: 01-vision (principles), 02-content-model (classes, predicates, dates), 03-architecture (stack, layout, pipeline), 04-experience (halls and pages), 05-editorial (voice, perspectives, licensing), 06-roadmap, 09-ai-content-pipeline.
+You are working on islam.museum, an open, free, all-digital museum of Islam: the faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into until today. Read docs/plan/ before architectural changes. Key documents: 01-vision (principles), 02-content-model (classes, predicates, dates), 03-architecture (stack, layout, pipeline), 04-experience (halls and pages), 05-editorial (voice, perspectives, licensing), 06-roadmap, 09-ai-content-pipeline, 12-screen-index, 13-figures, 14-themes-atlas, 15-local-harvest.
 
 Non-negotiables
 - Static site on GitHub Pages behind Cloudflare; no servers, no databases, no paid services. Astro + Svelte islands + Tailwind; TypeScript scripts; Pagefind search; MapLibre + PMTiles; Sigma.js graphs.
@@ -23,6 +23,10 @@ Non-negotiables
 - Accessibility: WCAG 2.2 AA; alt text required; no JS needed to read a page; islands lazy-load.
 - Run `npm run validate` before proposing any content change and `npm run build` before any site change. Fix what fails.
 - AI-generated content enters as status.review: draft with a provenance block; never mark reviewed/verified yourself.
+- Significance, not sympathy: opponents, critics and allies are included with time-scoped story_roles; describe the act, attribute the judgement; never write "enemy of Islam" or an equivalent in the museum's voice; a person's faith is recorded only with its basis and never inferred.
+- Hard questions are written as tension cards with at least two cited voices and no verdict.
+- Never write, complete or correct Qur'an text: it comes only from the frozen Tanzil files and is referenced by sura:ayah.
+- Harvesting runs on the founder's Mac with local models (docs/plan/15); respect the licence layers: only cc0/by facts or our own cited research enter data/.
 - Commit only when asked; conventional commit messages; small PRs per cell batch (≤ 25 entities).
 ```
 
@@ -33,11 +37,11 @@ Non-negotiables
 ```
 Scaffold the islam.museum repository exactly per docs/plan/03-architecture.md §3. Create:
 1. Root files: LICENSE (MIT), LICENSE-CONTENT.md (CC BY-SA 4.0 for content/, CC0 for data/ geo/ datasets/), CONTRIBUTING.md, CODE_OF_CONDUCT.md (Contributor Covenant + the museum clause from docs/plan/05-editorial.md §7), GOVERNANCE.md, CLAUDE.md (from docs/plan/07-prompts.md Prompt A), docs/style-guide.md, docs/editorial-policy.md (condensed from 05), docs/adr/0001-static-git-knowledge-graph.md.
-2. schema/: _base.schema.json and one JSON Schema per class in docs/plan/02-content-model.md §2 (person, group, polity, event, period, journey, place, building, object, media, work, passage, concept, language, practice, exhibit, question, source, dataset), predicates.yaml with inverses/domain/range/labels for every predicate in §4, enums/ (regions, traditions, roles, kinds per class, disciplines, materials, licenses, sensitivity, claim-status), external-id-patterns.yaml.
+2. schema/: _base.schema.json and one JSON Schema per class in docs/plan/02-content-model.md §2 (person, group, polity, event, period, journey, place, building, object, media, work, passage, concept, language, practice, exhibit, question, source, dataset, listing, screen), predicates.yaml with inverses/domain/range/labels for every predicate in §4, enums/ (regions, traditions, roles, kinds per class, disciplines, materials, licenses, sensitivity, claim-status), external-id-patterns.yaml.
 3. templates/<class>.yaml and templates/<class>.md with the conventional section headings.
 4. scripts/ (TypeScript, run with tsx, tested with vitest): validate.ts (ajv + EDTF parse via `edtf` + Hijri sanity + link resolution against data/ and data/_stubs.yaml + license whitelist + alt text + slug rules + duplicate external IDs), build-graph.ts (graphology; inverse edges; date normalisation to earliest/latest; prose attach; contemporaries; coverage) → .cache/graph.json, derive.ts (timeline rows, GeoJSON layers, ego graphs, snapshot-year indexes, on-this-day indexes), export-api.ts (api/v1 per docs/plan/09 §6), hijri/convert.ts (tabular arithmetical converter + Umm al-Qura for ≥1300 AH; anchors.test.ts with: 1 Muharram 1 AH = 16 July 622 Julian; 12 Rabi' I 11 AH = 8 June 632; 1 Muharram 1447 = 26 June 2025), report/coverage.ts.
 5. data/ with the example entities from docs/plan/02 §10 plus enough stubs/entities that validation passes (person/ibn-sina, place/medina, place/mecca, place/hamadan, place/bukhara, event/hijra, person/muhammad, person/abu-bakr, period/prophetic-era, source/gutas-2014, source/gohlman-1974 …) and content/en + content/ar prose for ibn-sina and hijra.
-6. site/: Astro 5 project with Tailwind 4, Svelte, i18n routing (en default, ar RTL), a content loader reading .cache/graph.json, layouts/EntityLayout.astro implementing the page anatomy in docs/plan/04 §3 (header, at-a-glance, in-time strip placeholder, in-space mini map placeholder, body with depth dial, connections grouped by predicate, sources, cite, JSON-LD, edit link), pages for [lang]/[class]/[slug], hall index placeholders for the eight wings, wander, today, questions, exhibits, api export, sitemap, robots.txt, llms.txt, Pagefind integration, fonts self-hosted and subsetted (Noto Naskh Arabic, Amiri, Reem Kufi, Source Serif 4, Inter), design tokens from docs/plan/04 §6, dark mode, print stylesheet.
+6. site/: Astro 5 project with Tailwind 4, Svelte, i18n routing (en default, ar RTL), a content loader reading .cache/graph.json, layouts/EntityLayout.astro implementing the page anatomy in docs/plan/04 §3 (header, at-a-glance, in-time strip placeholder, in-space mini map placeholder, body with depth dial, connections grouped by predicate, sources, cite, JSON-LD, edit link), pages for [lang]/[class]/[slug], hall index placeholders for the nine wings, the Screening Room (screen/) and Themes (themes/[slug]), wander, today, questions, exhibits, api export, sitemap, robots.txt, llms.txt, Pagefind integration, fonts self-hosted and subsetted (Noto Naskh Arabic, Amiri, Reem Kufi, Source Serif 4, Inter), design tokens from docs/plan/04 §6, dark mode, print stylesheet.
 7. .github/workflows/validate.yml (PR: validate + build + link check + Lighthouse budget 95/100), deploy.yml (main: build site/ → upload-pages-artifact → deploy-pages → purge Cloudflare cache with secrets CF_ZONE_ID/CF_API_TOKEN), ISSUE_TEMPLATE forms (suggest-entity, report-error, request-translation, propose-exhibit), PULL_REQUEST_TEMPLATE.md, CODEOWNERS.
 8. package.json scripts: validate, graph, derive, api, build, dev, test, coverage.
 Move the current landing/ page into site/src/pages as the temporary home page in both languages. Keep every page readable without JavaScript. Verify in /ar/ that RTL mirrors correctly. Finish by running validate, test and build, and report results honestly.
@@ -183,4 +187,61 @@ Generate docs/coverage.md and api/v1/meta/coverage.json from .cache/graph.json: 
 
 ```
 Design and implement /ask: a Cloudflare Worker using Workers AI + Vectorize over the museum's own api/v1 JSON (chunks: summary, sections, perspectives, with id and lang). Behaviour: answer only from retrieved museum content; always cite entity URLs; show perspectives when the topic is contested; refuse rulings and personal religious guidance with a gentle pointer to the Ideas wing; support en and ar; rate-limit per IP within the free tier; log nothing personal. Provide a static fallback (search results) when the Worker is unavailable. Include an evaluation set of 50 questions with expected citations and a script to run it.
+```
+
+---
+
+## Q · Screen title (film, series, documentary, programme)
+
+```
+Create the museum entity screen/[slug] for "[original title]" ([year], [country]) per docs/plan/12-screen-index.md §4 and schema/screen.schema.json.
+1. IDENTIFY. Find the Wikidata item and every identifier Wikidata holds (IMDb, TMDB, EIDR, elCinema, SinemaTürk, SourehCinema and the rest). Confirm existence, year, countries, original languages and format from two independent sources; a national film database may be one of them. Record conflicts; do not average them.
+2. TITLES. Collect titles[] in the original script first, then transliteration, release, broadcast and dubbed titles, each with its language and kind. Dubs and retitled releases are versions[], never new entities.
+3. RELEVANCE. Assign primary | substantial | setting with one evidence sentence. If it is below "setting", stop and add it to the wanted-list instead.
+4. ABOUT. Add about and set_in relations to existing museum entities; create stubs for missing ones. An entry with no about or set_in edge is not finished.
+5. DEPICTION. Fill depiction{} for prophets, Companions and Imams from sources, in words. If the Prophet is depicted in any form, set sensitivity: figurative-prophet.
+6. RECEPTION. Add dated, sourced reception[] entries (approvals, objections, fatwas, bans, cuts, awards, protests). Where receptions conflict, add a perspectives block. Report; do not judge.
+7. WATCH. Add watch[] only for official sources (rights holder, licensed service, the broadcaster's own channel, a public-domain archive file), each with kind, region and today's date. If none can be verified as official, leave it empty.
+8. Copy nothing but the identifier from IMDb, TMDB or all-rights-reserved databases. No poster, no still.
+9. Write content/en and content/ar prose: Brief, What it is about, How it was made, How it depicts sacred figures, How it was received, Versions. No rating, no review, no recommendation. Validate. Leave status.review: draft.
+```
+
+---
+
+## R · Figure with story roles (any side)
+
+```
+Create or extend [person|group|polity]/[slug] per docs/plan/13-figures.md, using Prompt D for retrieval, extraction and verification, with these additions:
+1. story_roles[]: list every documented role from schema/enums/story-roles.yaml with start and end dates, the entity it was toward, sources and claim status. Include opposition, protection, alliance and changes of side. If traditions disagree about a role, store each with its perspective.
+2. faith[]: only with a basis (self-identified, documented, tradition, debated, unknown). For a living person only self-identified is allowed; otherwise unknown. Never infer from name, family or origin.
+3. labelled[]: epithets and curses given by others, each with who gave it and a source. Never use them in prose.
+4. Relations: for every conflict, debate, treaty or correspondence, link the event and the people on the other side (fought, debated_with, corresponded_with, allied_with, protected, persecuted, critic_of, responded_to).
+5. Prose: describe acts and attribute judgements. State this person's own case as they or their sources state it, then the responses as their holders state them. No "enemy", "hero", "villain", "infidel" or equivalents in the museum's voice. Do not quote abuse at length; do not reproduce hate imagery.
+6. If the person is a perpetrator of recent mass violence: minimal record only (name, date, act, court outcome), no image, and link to the event page centred on the victims.
+7. Flag review tier A for living persons, sectarian conflicts and modern political figures. Validate. Leave status.review: draft.
+```
+
+---
+
+## S · Theme hub and tension cards
+
+```
+Open the theme hub [theme slug] per docs/plan/14-themes-atlas.md.
+1. From .cache/graph.json list every entity tagged with the theme, by class, period and region, and print the empty cells against the minimum set in §1.
+2. Propose the entities that would fill the most important gaps (people from at least 3 traditions and 4 regions and from several role families; events; works; practices; datasets; screen titles) and add them to data/_stubs.yaml with one-line reasons.
+3. Write exhibit/theme-[slug] (kind: theme-guide): 600–900 words in the docent voice, using only existing entities, covering what the texts say, what the schools hold, and what happened in practice, kept as three labelled layers.
+4. Write ten starter questions (Prompt I).
+5. List the theme's tensions. For each write a tension card: kind (textual | between-schools | ideal-and-history | tradition-and-modernity), the statement in the words of those who raise it with sources, the passages involved, and the responses of each tradition and of academic scholarship in their own terms with sources. At least two cited voices. No resolution, no verdict.
+6. For practices under this theme, fill basis[] per tradition (scriptural, prophetic-practice, juristic, customary, contested) with citations and regions.
+7. Validate, preview /en/themes/[slug] and /ar/themes/[slug], and report what the hub still lacks.
+```
+
+---
+
+## T · Local harvest scripts (written once; the harvest itself runs without Claude)
+
+```
+Write the harvest scripts specified in docs/plan/15-local-harvest.md under scripts/harvest/ (Python 3.12, run with uv on macOS, no cloud services, no calls to any hosted model). Every script: reads its sources from the registry sources.yaml and refuses a source that is not registered; sends the harvest User-Agent; is resumable from a checkpoint; logs one line per item; writes only inside $HARVEST; records sha256 of every download; tags every output with its licence layer.
+Scripts: wikidata/run_queries.py (paginated SPARQL from queries/*.rq, serial, with back-off) · wikidata/filter_dump.py (stream the JSON dump from stdin, keep seeds and one-hop neighbours, write Parquet) · wikipedia/select_pages.py (offline category walk in DuckDB from page.sql.gz and categorylinks.sql.gz with depth limit, stop-list and the two-signal rule) · wikipedia/extract.py (mwxml + mwparserfromhell: QID, titles, categories, infobox hints, references with ISBN/DOI, section text into SQLite FTS5) · quran/verify_quran.py (exists) · quran/compare_witness.py (report differences between two Qur'an text files, change nothing) · quran/generate_passages.py (work/quran, 114 suras, 6,236 passages, verbatim text, Tanzil attribution) · screen/candidates.py (the signals of docs/plan/12 §5) · directories/*.py (one per registered directory) · web/ (Scrapy project with ROBOTSTXT_OBEY = True and a one-second delay) · llm/ (Ollama client with JSON-schema outputs for relevance, claims, relations, reconciliation, judge, draft, translate; gold-set runner that blocks batches below the bar) · promote.py (candidates → data/ and content/ on a branch, with provenance.layer) · status.py.
+Add tests with small fixtures for each script, including a fixture Qur'an file and a fixture category tree that leaks. Do not download anything while writing or testing. Report honestly what was not tested.
 ```

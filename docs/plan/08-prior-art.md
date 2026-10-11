@@ -130,3 +130,35 @@ Recurring failure modes: closed data behind national or institutional branding; 
 5. **Provenance per fact**, not per dataset (al-Thurayya, OXCIS). Our quote-span claims in 09.
 6. **Ship CC BY/BY-SA CSV + GeoJSON + JSON, bilingual Arabic/English fields natively, deep links and DOIs** (Open Context and the Turkish atlas prove a small team can). Our `api/v1`, monthly Zenodo releases.
 7. **Guided tours and narratives per map** (Sluglett's text-per-map; the Turkish atlas's ten tours) as the museum-style entry on top of the data. Our `exhibit` class.
+
+## 9. Film, television and directory data (third research pass, October 2026)
+
+Survey for `12-screen-index.md` and `15-local-harvest.md`. V = confirmed on the source's own page; S = second-hand; U = not confirmed.
+
+**What exists as a list of films about Islam**
+
+| Attempt | Size | Verdict |
+|---|---|---|
+| English Wikipedia "List of Islam-related films" and "List of Islam-related animated films" | about 110 and about 41 titles (V) | Pointers |
+| Wikipedia "Category:Films about Islam" (Wikidata Q6832758) and its counterparts in ar, tr, fa, id, ur, fr | 85 pages and 9 subcategories in English (S) | Walk offline from the dumps; pointers |
+| Wikidata: audiovisual works with Islam as `main subject` | 5 exact, 19 including sub-topics; about 30 films by looser label matching, out of about 337,000 films (measured on a mirror) | The gap we fill and give back |
+| *Muslims in the Movies: A Global Anthology* (2021) · Jack Shaheen's *Reel Bad Arabs* (about 1,000 films, 1896–2000) and his archive at NYU · Lancaster "Islamism in Arab Fiction and Film" · USC Annenberg *Missing & Maligned* (2021) · the Riz Test | Scholarship and criteria, not catalogues | Cite; mine filmographies |
+
+**No open, multilingual, structured catalogue of films and television about Islam was found.**
+
+**Film and television data sources**
+
+- **Ingest (CC0):** Wikidata (225 film-identifier properties, 60 for television); Europeana metadata including the European Film Gateway and EUscreen; DPLA.
+- **Separate share-alike layer or ID only:** TVmaze (CC BY-SA, V).
+- **Identifier and link only:** TMDB (non-commercial use with attribution, V; six-month cache limit, S); IMDb non-commercial datasets (personal and non-commercial use, local copies allowed, republishing not, V); TheTVDB; OMDb; EIDR; ISAN; elCinema (Arabic; all rights reserved, non-commercial copying of documents allowed, V); SinemaTürk, Sinemalar and the Turkish Cinema Archive Database (TSA); SourehCinema (Persian); filmindonesia.or.id; Indiancine.ma (more than 80,000 films, no stated licence); Pakistan Film Magazine; Bangla Movie Database; Africiné (27,663 films) and Africultures; Kinopoisk; Douban.
+- **Discovery only:** Letterboxd, MUBI, JustWatch; broadcasters and platforms; festivals (the Kazan festival of Muslim cinema, held since 2005; the Muslim International Film Festival in London; Mizna); curated services (Alchemiya, Unity Productions Foundation, Qalbox, Muslim Kids TV).
+- **Do not harvest:** YouTube API data (30-day storage limit, aggregation restricted, V).
+- **Weakest coverage, needing people:** Hausa cinema, Central Asia, Malay television, Bangladesh, Egyptian state television.
+
+**Wikimedia bulk access (V unless marked):** monthly XML dumps (English 25.1 GiB, Arabic 2.0, Persian 1.5, Turkish 1.1, Indonesian 1.2, French 6.7, Urdu 0.5, Bengali 0.5, Malay 0.4); Wikidata JSON dump 96 GiB bz2; two connections per IP on the dump servers; a descriptive User-Agent required, including for dumps since mid-2026; new global API rate limits in 2026 favour identified clients (numbers S); the query service was split in January 2026 into a main graph and a scholarly graph (S); Wikimedia Enterprise offers free monthly snapshots with an account. Wikipedia text is CC BY-SA 4.0; Wikidata is CC0.
+
+**Qur'an text sources:** Tanzil v1.1 (CC BY 3.0, verbatim copies only, attribution, link and notice required, V) → **ingest verbatim**; King Fahd Complex Hafs text (free use in software and websites; fonts may not be modified, V) → second witness; Tarteel QUL (227 translations, 115 tafsirs, 30 scripts as SQLite and JSON; code MIT, data rights vary per resource, V) → per resource; Quran Foundation API (no storage beyond a week, no redistribution, no build-time bundles, V) → client-side links only; GitHub collections under permissive repository licences do not clear translators' rights → **verify per translation**. Public-domain English translations: Sale, Rodwell, Palmer; Pickthall's 1930 edition in the United States from 1 January 2026 (by the publication-year rule; confirm the edition).
+
+**Directories:** Charity Commission for England and Wales (daily full extract and API, Open Government Licence, V); ACNC Australia (weekly, CC BY, V); IRS exempt-organisations file (V); Curlie, the successor of DMOZ (data dump, CC BY 3.0, V); OpenStreetMap (ODbL: cannot be merged into CC0 data, V); MuslimsInBritain.org (reproduction permitted with acknowledgement, no API, V); Zabihah and Mawaqit (automated collection or commercial use prohibited, V) → **not harvested**. DOAJ dumps are now by request; Encyclopaedia Iranica asserts all rights and offers no bulk access → cite and link.
+
+**Local tooling (October 2026):** Ollama with JSON-schema structured outputs; mlx-lm; llama.cpp; Apache-2.0 multilingual models that fit in 20–25 GB (the Qwen 3.x family); BGE-M3 and Qwen3-Embedding for multilingual embeddings; QLever can index all of Wikidata with about 2 TB of disk.
