@@ -76,9 +76,13 @@ sources:
       - pages-articles-multistream-index.txt.bz2
       - page.sql.gz
       - categorylinks.sql.gz
+      - linktarget.sql.gz
       size_gib:
         first_ring: 47.1
         second_ring: 44.5
+      note: categorylinks now stores cl_target_id; the category names are in linktarget.sql.gz,
+        so it is required for the category walk (added 11 Oct 2026; not in the original
+        plan list)
   tanzil-quran:
     name: Tanzil Qur'an text v1.1 (Uthmani and Simple Clean)
     url: https://tanzil.net/download/
@@ -86,29 +90,6 @@ sources:
     layer: by
     method: manual download in a browser, then scripts/harvest/quran/verify_quran.py
     status: manual
-  openiti:
-    name: OpenITI MAKHZAN 2026.1.2 (Zenodo 19861912)
-    url: https://zenodo.org/records/19861912
-    licence: CC BY-NC-SA 4.0
-    layer: nc
-    method: zenodo files, md5 checked; facts extracted with quotes, text never republished
-    status: enabled
-    limits:
-      note: 'non-commercial: text is mined for facts, never republished'
-      size_gib: 5.7
-    downloads:
-    - url: https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_Data_2026-1-2.zip/content
-      dest: raw/openiti/OpenITI-Makhzan_Data_2026-1-2.zip
-      md5: 347a06a5714091665b7292775840a0f0
-      size: 6109859716
-    - url: https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_Metadata_2026-1-2.tsv/content
-      dest: raw/openiti/OpenITI-Makhzan_Metadata_2026-1-2.tsv
-      md5: 26e448803e90274a228ebee2a9df7e96
-      size: 568495
-    - url: https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_ReleaseNotes_2026-1-2.pdf/content
-      dest: raw/openiti/OpenITI-Makhzan_ReleaseNotes_2026-1-2.pdf
-      md5: 490b22ec83b5e445c191c0bf671233e5
-      size: 86921
   met-open-access:
     name: Metropolitan Museum of Art Open Access
     url: https://github.com/metmuseum/openaccess
@@ -210,4 +191,54 @@ sources:
     - url: https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/ice_surface/grid_registered/netcdf/ETOPO1_Ice_g_gmt4.grd.gz
       dest: basemaps/downloads/ETOPO1_Ice_g_gmt4.grd.gz
       size: 395148066
+  openiti-makhzan:
+    name: OpenITI Makhzan 2026.1.2 (annotated manuscript and print data for text recognition;
+      NOT the text corpus)
+    url: https://zenodo.org/records/19861912
+    licence: CC BY-NC-SA 4.0
+    layer: nc
+    method: zenodo files, md5 checked; manuscript/print catalogue metadata and transcriptions;
+      facts only
+    status: enabled
+    limits:
+      note: 'non-commercial: text is mined for facts, never republished'
+      size_gib: 5.7
+    downloads:
+    - url: https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_Data_2026-1-2.zip/content
+      dest: raw/openiti/OpenITI-Makhzan_Data_2026-1-2.zip
+      md5: 347a06a5714091665b7292775840a0f0
+      size: 6109859716
+    - url: https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_Metadata_2026-1-2.tsv/content
+      dest: raw/openiti/OpenITI-Makhzan_Metadata_2026-1-2.tsv
+      md5: 26e448803e90274a228ebee2a9df7e96
+      size: 568495
+    - url: https://zenodo.org/api/records/19861912/files/OpenITI-Makhzan_ReleaseNotes_2026-1-2.pdf/content
+      dest: raw/openiti/OpenITI-Makhzan_ReleaseNotes_2026-1-2.pdf
+      md5: 490b22ec83b5e445c191c0bf671233e5
+      size: 86921
+  openiti-corpus:
+    name: 'OpenITI: a Machine-Readable Corpus of Islamicate Texts 2025.1.9 (Zenodo
+      17767721)'
+    url: https://zenodo.org/records/17767721
+    licence: CC BY-NC-SA 4.0
+    layer: nc
+    method: zenodo files, md5 checked; facts and bibliographic leads mined with short
+      quotations; text never republished
+    status: enabled
+    limits:
+      size_gib: 5.5
+      note: 'non-commercial: never republish text'
+    downloads:
+    - url: https://zenodo.org/api/records/17767721/files/OpenITI_metadata_2025-1-9.tsv/content
+      dest: raw/openiti/corpus/OpenITI_metadata_2025-1-9.tsv
+      md5: cb2226f64264efa964df9ef659d40199
+      size: 12092756
+    - url: https://zenodo.org/api/records/17767721/files/OpenITI_release-notes_2025-1-9.zip/content
+      dest: raw/openiti/corpus/OpenITI_release-notes_2025-1-9.zip
+      md5: e127a3fccd2df033a6462542820f55a0
+      size: 204028
+    - url: https://zenodo.org/api/records/17767721/files/OpenITI_data_2025-1-9.zip/content
+      dest: raw/openiti/corpus/OpenITI_data_2025-1-9.zip
+      md5: 95cf19a9320fee6c37c4c26c9fa860b1
+      size: 5936029637
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)

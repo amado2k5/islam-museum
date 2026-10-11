@@ -1,0 +1,42 @@
+# Seed categories per language for the offline category walk (docs/plan/15 §6.2). English is the master list; other languages are mapped from it
+# through interlanguage links (langlinks) or Wikidata, never typed by hand, so that "equivalent" means what Wikipedia itself says it means.
+# Titles use underscores, without the "Category:" prefix.
+en:
+  seeds:
+    - Islam
+    - History_of_Islam
+    - Muslims
+    - Islamic_studies
+    - Islamic_culture
+    - Islamic_art
+    - Islamic_architecture
+    - Islamic_law
+    - Islamic_theology
+    - Islamic_philosophy
+    - Sufism
+    - Quran
+    - Hadith
+    - Muhammad
+    - Films_about_Islam
+    - Islamic_websites
+    - Islamic_organizations
+    - Islamic_calendar
+    - Islamic_pilgrimage
+  # Category trees leak: "Islam" reaches "Muslim-majority countries" and from there nearly everything. A stopped category is not entered
+  # and nothing below it is reached through it (articles can still be reached by another route).
+  stoplist:
+    - Muslim-majority_countries
+    - Countries_in_the_Middle_East
+    - Countries_in_Africa
+    - Countries_in_Asia
+    - Islam_by_country
+    - Organisation_of_Islamic_Cooperation_members
+    - Member_states_of_the_Organisation_of_Islamic_Cooperation
+    - Islamic_terrorism
+    - Islamophobia
+    - People_by_religion
+    - Religion_by_country
+    - Religion_in_Asia
+    - Religion_in_Africa
+    - Religion_in_Europe
+    - Religion_in_the_Middle_East
