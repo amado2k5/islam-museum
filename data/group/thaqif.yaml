@@ -1,0 +1,24 @@
+id: group/thaqif
+class: group
+kind: tribe
+label: { en: "Thaqif", ar: "ثقيف" }
+summary:
+  en: "The tribe of Ta'if, keepers of the sanctuary of al-Lat — who drove the Prophet out with stones when he came to them alone, then, after Hunayn, negotiated their city into Islam on their own terms."
+  ar: "قبيلة الطائف وولاة حرم اللات — رجموا النبي حين جاءهم وحيدًا، ثم فاوضوا بعد حُنين مدينتهم إلى الإسلام بشروطهم."
+wings: [people]
+themes: [battles, converts-and-leavers, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: documented, sources: [source/watt-1956-medina] }
+story_roles:
+  - { role: persecutor, toward: person/muhammad, start: { edtf: "0619" }, end: { edtf: "0619" }, status: historical, note: "The Ta'if elders rejected the Prophet's appeal and set the town's rabble to stone him out — the journey tradition calls his hardest day.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0630" }, end: { edtf: "0630" }, status: historical, note: "Stood with Hawazin at Hunayn and held the fortress of Ta'if against the Muslim siege.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: convert, start: { edtf: "0630" }, end: { edtf: "0630" }, status: historical, note: "Their delegation negotiated the surrender of Ta'if and the destruction of al-Lat.", sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: lived_in, target: place/taif }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0630" }, end: { edtf: "0630" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/journey-to-taif, role: rejecting-party, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-hunayn, role: ally-of-hawazin, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/siege-of-taif, role: besieged-party, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

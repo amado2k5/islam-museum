@@ -1,0 +1,22 @@
+id: group/hawazin
+class: group
+kind: tribe
+label: { en: "Hawazin", ar: "هوازن" }
+summary:
+  en: "The great nomadic confederation of the Hijaz — rival of Quraysh and the Prophet's own foster-kin — that fielded the last massed Arab army against the Muslims at Hunayn and then came over within the year."
+  ar: "الاتحاد البدوي الكبير في الحجاز — غريم قريش ورضاعة النبي — الذي ساق آخر جيوش العرب جماهير في مقابل المسلمين بحُنين ثم دخل فيهم في العام نفسه."
+wings: [people]
+themes: [battles, converts-and-leavers]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: documented, sources: [source/watt-1956-medina] }
+story_roles:
+  - { role: host, toward: person/muhammad, start: { edtf: "0570~" }, end: { edtf: "0575~" }, status: tradition, note: "The Prophet was fostered among the Hawazin clan of Banu Sa'd ibn Bakr by Halima.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0630" }, end: { edtf: "0630" }, status: historical, note: "Fielded the confederation under Malik ibn Awf at Hunayn, weeks after the conquest of Mecca.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: convert, start: { edtf: "0630" }, status: historical, note: "Their delegation accepted Islam at al-Ji'rana and recovered their captives and property in the amnesty.", sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: fought, target: group/early-muslims, start: { edtf: "0630" }, end: { edtf: "0630" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-hunayn, role: confederation, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/siege-of-taif, role: sheltering-in-the-fortress, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

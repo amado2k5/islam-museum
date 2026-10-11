@@ -1,0 +1,23 @@
+id: group/jews-of-khaybar
+class: group
+kind: people
+label: { en: "The Jewish communities of Khaybar", ar: "يهود خيبر" }
+summary:
+  en: "The Jewish oasis communities of Khaybar, north of Medina — farmers and smiths behind strong fortresses, including exiles of Banu Nadir — subdued in 628 and left on the land under tribute until Umar's expulsion."
+  ar: "الجماعات اليهودية بواحة خيبر شمال المدينة — زرّاع وحدادون وراء حصون منيعة، منهم مهجّرو بني النضير — أُخضعت سنة 628م وبقيت في الأرض بخراج حتى إجلاء عمر."
+wings: [people]
+themes: [islam-and-judaism, non-muslim-minorities-under-muslim-rule, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: documented, sources: [source/watt-1956-medina] }
+story_roles:
+  - { role: opponent, toward: group/early-muslims, start: { edtf: "0625~" }, end: { edtf: "0628" }, status: historical, note: "Sheltered the exiled leadership of Banu Nadir and, in the sources' telling, encouraged the confederates against Medina.", sources: [source/watt-1956-medina] }
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0628" }, end: { edtf: "0628" }, status: historical, note: "Defended their fortresses through the Khaybar campaign until terms.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: collaborator, toward: polity/rashidun-caliphate, start: { edtf: "0628" }, end: { edtf: "0642~" }, status: historical, note: "Remained farming the oasis on a share of the crop until Umar moved them out in his caliphate.", sources: [source/watt-1956-medina, source/tabari-donner-1993] }
+relations:
+  - { type: lived_in, target: place/khaybar }
+  - { type: has_member, target: group/banu-nadir, note: "The exiles of Banu Nadir resettled largely at Khaybar.", sources: [source/watt-1956-medina] }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0628" }, end: { edtf: "0628" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-khaybar, role: defending-community, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/tabari-donner-1993]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

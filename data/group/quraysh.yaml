@@ -1,0 +1,27 @@
+id: group/quraysh
+class: group
+kind: tribe
+label: { en: "Quraysh", ar: "قريش" }
+summary:
+  en: "The tribe that held Mecca and the custodianship of the Kaaba — the Prophet's own people, its elite his fiercest opponents for a decade, then, after 630, the core of the new community's leadership."
+  ar: "القبيلة التي ملكت مكة وولاية الكعبة — قوم النبي نفسه، وكانت نخبته أشد خصومه عقدًا، ثم صارت بعد سنة 630م صلب قيادة الجماعة الجديدة."
+wings: [people]
+themes: [battles, trade-and-finance, conquest-and-its-debates]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: documented, sources: [source/watt-1953-mecca] }
+story_roles:
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0613~" }, end: { edtf: "0630" }, status: historical, note: "The tribe's leadership drove the opposition through the Meccan period and the first Medinan wars; the tribe itself also held the Prophet's earliest followers.", sources: [source/watt-1953-mecca, source/ibn-ishaq-guillaume] }
+  - { role: persecutor, toward: group/early-muslims, start: { edtf: "0614~" }, end: { edtf: "0622" }, status: historical, note: "Clan-by-clan persecution of vulnerable converts in Mecca, including the boycott of Banu Hashim.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: convert, start: { edtf: "0630" }, status: historical, note: "Quraysh as a body submitted at the conquest of Mecca.", sources: [source/ibn-ishaq-guillaume] }
+labelled:
+  - { label: { en: "Quraysh — 'the tribe' par excellence in the sources", ar: "قريش" }, by: "the Islamic sources", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: lived_in, target: place/mecca }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0628" }, sources: [source/watt-1956-medina] }
+  - { type: persecuted, target: group/early-muslims, start: { edtf: "0614~" }, end: { edtf: "0622" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-badr, role: defeated-party, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-uhud, role: attacking-party, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/conquest-of-mecca, role: submitted, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

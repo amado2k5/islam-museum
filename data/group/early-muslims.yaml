@@ -1,0 +1,28 @@
+id: group/early-muslims
+class: group
+kind: community-organisation
+label: { en: "The early Muslim community", ar: "الجماعة المسلمة الأولى" }
+summary:
+  en: "The first generation of believers gathered around the Prophet in Mecca and Medina — the persecuted handful of the first decade that became the founding community of Islam."
+  ar: "الجيل الأول من المؤمنين حول النبي في مكة والمدينة — القلة المستضعفة في العقد الأول التي صارت الجماعة المؤسسة للإسلام."
+wings: [people]
+themes: [converts-and-leavers, refugees-migrants-diaspora, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-sad-tabaqat-bewley] }
+founded: { edtf: "0610~", calendar: julian, precision: decade, status: tradition, note: "From the first conversions after the opening revelations.", sources: [source/ibn-sad-tabaqat-bewley] }
+story_roles:
+  - { role: victim, start: { edtf: "0613~" }, end: { edtf: "0622" }, status: historical, note: "The Meccan years: boycott, torture of the unprotected converts, and two migrations for safety.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: convert, start: { edtf: "0610~" }, status: historical, note: "The community's own story-role: the converts who crossed over one household at a time.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: military-opponent, start: { edtf: "0624" }, end: { edtf: "0630" }, status: historical, note: "The community at war, from Badr to the conquest.", sources: [source/ibn-ishaq-guillaume] }
+relations:
+  - { type: lived_in, target: place/mecca, end: { edtf: "0622" } }
+  - { type: lived_in, target: place/medina, start: { edtf: "0622" } }
+  - { type: participated_in, target: event/first-migration-to-abyssinia, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/hijra, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-uhud, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-the-trench, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/conquest-of-mecca, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

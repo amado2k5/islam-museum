@@ -1,0 +1,22 @@
+id: group/banu-hashim
+class: group
+kind: clan
+label: { en: "Banu Hashim", ar: "بنو هاشم" }
+summary:
+  en: "The Prophet's own clan within Quraysh — divided over his mission yet bound to him by blood, sheltering him through the boycott whether they believed or not."
+  ar: "عشيرة النبي نفسها في قريش — انقسمت على رسالته لكنها التفّت به بالدم، وأوته في سني المقاطعة مؤمنَها وغير مؤمنها."
+wings: [people]
+themes: [family-marriage-kinship, care-for-the-vulnerable]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: documented, sources: [source/watt-1953-mecca] }
+story_roles:
+  - { role: protector, toward: person/muhammad, start: { edtf: "0619" }, end: { edtf: "0619" }, status: historical, note: "The clan — Muslims and non-Muslims together — shared his boycott in the quarter of Abu Talib rather than surrender him.", sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca] }
+  - { role: victim, start: { edtf: "0617~" }, end: { edtf: "0619~" }, status: historical, note: "Subject of the Meccan boycott: marriage and commerce banned with the clan for two to three years.", sources: [source/ibn-ishaq-guillaume] }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: lived_in, target: place/mecca }
+  - { type: protected, target: person/muhammad, start: { edtf: "0617~" }, end: { edtf: "0619~" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/boycott-of-banu-hashim, role: boycotted-party, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
