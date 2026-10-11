@@ -1,0 +1,20 @@
+id: event/brotherhood-of-muhajirun-and-ansar
+class: event
+kind: other
+label: { en: "The brotherhood of the Muhajirun and Ansar", ar: "المؤاخاة بين المهاجرين والأنصار" }
+summary:
+  en: "The Prophet paired emigrants from Mecca with helpers from Medina as brothers, sharing support in the first months after the Hijra."
+  ar: "آخى النبي بين المهاجرين من مكة والأنصار من المدينة، فتقاسموا العون في الأشهر الأولى بعد الهجرة."
+wings: [time, people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622~", hijri: "0001", calendar: julian, precision: year, status: tradition, note: "Reports differ on when the pairings were made and on the exact pairs." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/hijra }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

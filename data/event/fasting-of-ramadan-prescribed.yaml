@@ -1,0 +1,22 @@
+id: event/fasting-of-ramadan-prescribed
+class: event
+kind: other
+label: { en: "The prescription of the Ramadan fast", ar: "فرض صيام رمضان" }
+summary:
+  en: "The fast of the month of Ramadan was prescribed for the Muslims of Medina in the second year after the Hijra."
+  ar: "فُرض صيام شهر رمضان على المسلمين في المدينة في السنة الثانية للهجرة."
+wings: [time, people]
+themes: [worship-and-the-pillars, fasting]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624~", hijri: "0002", calendar: julian, precision: year, status: scriptural, note: "Qur'an 2:183-185; the year follows the sira tradition." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/hijra }
+  - { type: mentioned_in, target: passage/quran-2-183 }
+  - { type: mentioned_in, target: passage/quran-2-185 }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

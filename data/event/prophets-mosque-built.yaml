@@ -1,0 +1,20 @@
+id: event/prophets-mosque-built
+class: event
+kind: founding
+label: { en: "The building of the Prophet's Mosque", ar: "بناء المسجد النبوي" }
+summary:
+  en: "Soon after arriving in Medina, the Prophet and his companions built a mosque and living quarters on a plot of land, a model for later mosques."
+  ar: "بنى النبي وأصحابه بعد وصولهم إلى المدينة مسجدًا ومساكن على قطعة أرض، وصار أنموذجًا للمساجد اللاحقة."
+wings: [time, people]
+themes: [mosques]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622~", hijri: "0001", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/hijra }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

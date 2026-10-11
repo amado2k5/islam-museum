@@ -1,0 +1,20 @@
+id: event/year-of-delegations
+class: event
+kind: other
+label: { en: "The Year of Delegations", ar: "عام الوفود" }
+summary:
+  en: "In the ninth year after the Hijra, delegations from tribes across Arabia came to Medina to accept Islam or make agreements."
+  ar: "وفدت في السنة التاسعة للهجرة وفود من قبائل الجزيرة العربية إلى المدينة لتعلن إسلامها أو تعقد الاتفاقات."
+wings: [time, people]
+themes: [peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/conquest-of-mecca }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

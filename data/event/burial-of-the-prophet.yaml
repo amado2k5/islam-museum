@@ -1,0 +1,22 @@
+id: event/burial-of-the-prophet
+class: event
+kind: other
+label: { en: "The burial of the Prophet", ar: "دفن النبي" }
+summary:
+  en: "The Prophet was buried in the room of Aisha, beside the mosque in Medina; the place later became part of the Prophet's Mosque."
+  ar: "دُفن النبي في حجرة عائشة بجوار المسجد في المدينة، وصارت الحجرة لاحقًا جزءًا من المسجد النبوي."
+wings: [time, people]
+themes: [sacred-space-and-pilgrimage]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-06", hijri: "0011-03", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/death-of-the-prophet }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

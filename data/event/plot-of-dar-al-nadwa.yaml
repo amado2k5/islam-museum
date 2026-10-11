@@ -1,0 +1,20 @@
+id: event/plot-of-dar-al-nadwa
+class: event
+kind: other
+label: { en: "The plot at Dar al-Nadwa", ar: "اجتماع دار الندوة" }
+summary:
+  en: "The Quraysh leaders met at their assembly house in Mecca to decide what to do about the Prophet, shortly before the Hijra."
+  ar: "اجتمع زعماء قريش في دار الندوة بمكة ليتشاوروا في أمر النبي، قبيل الهجرة بقليل."
+wings: [time, people]
+themes: [peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622~", calendar: julian, precision: year, status: tradition, note: "Reported by Ibn Ishaq; the details of the discussion are traditional." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/pledges-of-aqaba }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

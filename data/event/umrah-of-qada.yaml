@@ -1,0 +1,20 @@
+id: event/umrah-of-qada
+class: event
+kind: pilgrimage
+label: { en: "The Umrah of Qada", ar: "عمرة القضاء" }
+summary:
+  en: "As agreed at Hudaybiyya, the Prophet and his companions entered Mecca the following year to perform the lesser pilgrimage, and the Quraysh withdrew from the city for three days."
+  ar: "أدى النبي وأصحابه في العام التالي عمرة القضاء كما اتُّفق في الحديبية، فخرجت قريش من مكة ثلاثة أيام."
+wings: [time, people]
+themes: [pilgrimages-and-mass-gatherings]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0629-03", hijri: "0007-11", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/treaty-of-hudaybiyya }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

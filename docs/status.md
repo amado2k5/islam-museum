@@ -7,7 +7,7 @@ _Last updated 11 October 2026. Read this first in a new session, then `docs/plan
 | Area | State |
 |---|---|
 | Repo scaffold (plan Phase 0) | Done and deployed: schema (21 classes incl. `listing`, `screen`), 124 themes, story roles, predicates, validator, graph/derive/api/coverage scripts, Hijri converter, Astro site (en/ar, RTL), CI, issue forms |
-| Content (Phase 1 spine, started) | 13 periods, 25 events of the Prophet's life (with sides on conflicts), 4 people, 6 places (GeoNames/Pleiades ids on 5), 12 sources, *The Message* (screen example), all `draft` |
+| Content (Phase 1 spine, started) | 13 periods, 25 events of the Prophet's life (with sides on conflicts), 4 people, 31 places (GeoNames ids on all, Pleiades ids where a unique match exists), 12 sources, *The Message* (screen example), all `draft` |
 | Qur'an | Frozen from Tanzil v1.1: `work/quran`, 114 suras, 6,236 ayat. Source files committed in `data/work/quran-source/` with sha256; the validator re-checks every ayah byte for byte. Sura names are museum labels still to verify against Tanzil metadata. Second witness (King Fahd Hafs) not done. |
 | Doc 16 (event maps) | Pipeline built end to end for maps: `map` block on events, `map`/`illustration` media kinds, `geo/`, validator rules (every map feature needs a source), deterministic renderer `scripts/media/maps/render.py` (Natural Earth vectors + shaded relief, scale bar, north arrow, en/ar), `verify_coords.py` (GeoNames check: 12 ok, 1 check, 1 unmatched, 1 missing), `scripts/media/brief.py` (24 scene briefs, ETOPO1 elevation), `scripts/media/accuracy.yaml` (one unreviewed entry), `ingest.py` (writes `data/media/*` and copies SVGs to `site/public/media/maps/`), event pages show the map. One pilot map (Battle of Badr, schematic route, draft). Basemap and elevation files are in `$HARVEST/basemaps/` (not in git). **Not done:** more map blocks with sourced features (camps, lines), polity-extent layer under maps, the accuracy table needs a reviewer's sources, illustration generation (needs the local image model of doc 10; `brief.py` output is ready for it), Wikidata P625 check (needs the dump). Run in `.venv-media` (renderer) and `.venv-harvest` (verify_coords). |
 | Plan documents | 00-16 in `docs/plan/`. |
@@ -24,8 +24,8 @@ Run `npm install && npm install --prefix site && npm test && npm run build` to c
 
 | Queue | Command | Contents | Size |
 |---|---|---|---|
-| Wikimedia dumps | `cd scripts/harvest && source ../../.venv-harvest/bin/activate && python download_dumps.py` | first-ring Wikipedias (en fr ar fa id tr bn ur ms), the 96 GiB Wikidata JSON dump, 26 second-ring Wikipedias | about 188 GiB, about 10 MB/s |
-| Small sources | `python download_misc.py` | OpenITI Makhzan 2026.1.2 (Zenodo 19861912, CC BY-NC-SA, md5 verified), Met Open Access, Pleiades, GeoNames | about 7 GiB |
+| Wikimedia dumps | `cd scripts/harvest && source ../../.venv-harvest/bin/activate && python download_dumps.py` | first-ring Wikipedias (en fr ar fa id tr bn ur ms), the 96 GiB Wikidata JSON dump, 26 second-ring Wikipedias; five files per language: article dump, its index, `page`, `categorylinks` and **`linktarget`** (added: categorylinks now stores `cl_target_id`, so category names live in linktarget) | about 195 GiB, about 10 MB/s |
+| Small sources | `python download_misc.py [source ...]` | **openiti-corpus** 2025.1.9 (Zenodo 17767721, the real text corpus, 5.9 GB, CC BY-NC-SA, md5 verified), openiti-makhzan 2026.1.2 (Zenodo 19861912: manuscript/print data for text recognition, NOT the corpus; kept for catalogue metadata), Met, Pleiades, GeoNames, Natural Earth, ETOPO1 | about 20 GiB |
 
 Both skip finished files and resume partial ones. Checksums go to `$HARVEST/raw/checksums.sha256`. Run them inside tmux (`tmux new -s harvest-dl`) with `caffeinate -dims`. Check state with `python scripts/harvest/status.py` and `tmux ls`.
 
@@ -34,6 +34,7 @@ Both skip finished files and resume partial ones. Checksums go to `$HARVEST/raw/
 - `scripts/harvest/collections/load_tables.py` loads Pleiades, GeoNames, Met (and OpenITI metadata once downloaded) into `$HARVEST/db/harvest.duckdb`.
 - `scripts/harvest/collections/reconcile_places.py [--apply]` matches museum places to GeoNames and Pleiades.
 - `scripts/harvest/wikidata/run_queries.py` ran 5 seed queries (1,074 QIDs in `$HARVEST/db/seeds.txt`). IDs in the queries were verified against Wikidata labels.
+- `scripts/harvest/wikipedia/load_sql.py LANG` parses the MySQL dumps (page, linktarget, categorylinks) into `$HARVEST/db/wikipedia.duckdb`; `select_pages.py --lang LANG` walks categories offline from `seed-categories.yaml` (stop-list for leaking categories) into `wp_<lang>_scope`; `extract.py --lang LANG` reads only the needed compressed blocks via the multistream index and writes JSONL (lead, sections, infobox hints, references, categories) to `layers/by-sa/wikipedia/LANG/`. English page table is loaded; categorylinks/linktarget loading and the first walk were in progress. Other languages: seed categories are to be mapped from English through langlinks, not typed by hand (langlinks dumps not downloaded yet).
 - `scripts/harvest/wikidata/filter_dump.py` (two-pass streaming subset filter, self-tested by `test_filter.py`) is written but **not yet run on the real dump**.
 
 ## Parallel work (who owns what)
@@ -49,7 +50,7 @@ Devin's schema needs arrive as `docs/requests/devin-*.md`. Unresolved references
 
 1. Let the downloads finish (check `tmux ls`; rerun the queue commands if a session died).
 2. After `raw/wikidata/latest-all.json.bz2` is complete: run the filter, pass 1 then pass 2, then `--build` (commands in the script's docstring). Do not delete the dump until the tables exist.
-3. Load the OpenITI metadata (`load_tables.py`), then the Wikipedia category walk and page extraction (doc 15 §6.2; scripts `select_pages.py` and `extract.py` are not written yet).
+3. Finish the English Wikipedia walk (`load_sql.py en categorylinks linktarget`, `select_pages.py --lang en`, then `extract.py --lang en`); then mine OpenITI (corpus zip is unzipped on demand, never republished) and run the same walk for the other languages as their dumps finish.
 4. Finish doc 16: basemap download (Natural Earth, ETOPO), more map blocks with sourced features, `brief.py`, `accuracy.yaml`, `verify_coords.py`, ingest maps into `media/` and event pages; illustrations need the local image model (doc 10).
 5. Continue Phase 1 spine content: places (60), people (150 + 100), more events, per `docs/plan/06-roadmap.md`; first screen batch; theme hubs.
 6. Manual items for the founder: second witness for the Qur'an text; verify sura names against Tanzil metadata; verify bibliographic details of the draft sources; add a contact email to the harvest User-Agent if wanted.

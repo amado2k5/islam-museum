@@ -1,0 +1,26 @@
+id: event/battle-of-mutah
+class: event
+kind: battle
+label: { en: "The Battle of Mu'tah", ar: "غزوة مؤتة" }
+summary:
+  en: "A Muslim force sent north toward the Byzantine frontier met a larger Byzantine-led army at Mu'tah; after its first three commanders fell, Khalid ibn al-Walid led the survivors back."
+  ar: "التقى جيش مسلم أُرسل نحو الحدود البيزنطية بجيش بيزنطي أكبر عند مؤتة؛ وبعد استشهاد قادته الثلاثة الأوائل قاد خالد بن الوليد الناجين عائدين."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0629-09", hijri: "0008-05", calendar: julian, precision: month, status: tradition, note: "The outcome is described differently in the sources: some call it a withdrawal, others a defeat or a draw." }
+relations:
+  - { type: occurred_at, target: place/mutah }
+  - { type: had_participant, target: person/zayd-ibn-haritha }
+  - { type: had_participant, target: person/jafar-ibn-abi-talib }
+  - { type: had_participant, target: person/khalid-ibn-al-walid }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim force sent from Medina", ar: "قوة المسلمين الموجَّهة من المدينة" }
+    participants: [group/early-muslims]
+    commanders: [person/zayd-ibn-haritha, person/jafar-ibn-abi-talib, person/khalid-ibn-al-walid]
+  - label: { en: "Byzantine forces and their Arab allies", ar: "القوات البيزنطية وحلفاؤها من العرب" }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

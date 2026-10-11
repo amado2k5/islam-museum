@@ -1,0 +1,21 @@
+id: event/second-migration-to-abyssinia
+class: event
+kind: migration
+label: { en: "The second migration to Abyssinia", ar: "الهجرة الثانية إلى الحبشة" }
+summary:
+  en: "A larger group of Muslims, including women, left Mecca for the Christian kingdom of Aksum, where the king gave them protection."
+  ar: "هاجرت جماعة أكبر من المسلمين، ومعهم نساء، من مكة إلى مملكة أكسوم المسيحية فحماهم ملكها."
+wings: [time, people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0616~", calendar: julian, precision: year, status: tradition, note: "Traditions differ on the exact year and the number of migrants." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: occurred_at, target: place/aksum }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/first-migration-to-abyssinia }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
