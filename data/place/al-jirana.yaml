@@ -1,0 +1,18 @@
+id: place/al-jirana
+class: place
+kind: site
+label: { en: "al-Ji'rana", ar: "الجعرانة" }
+summary:
+  en: "A settlement between Mecca and Ta'if where the Prophet halted the spoils and captives of Hunayn, received Hawazin's delegation and granted them general amnesty, distributed the shares to al-Mu'allafa Qulubuhum, addressed the Ansar, and entered ihram for Umrah."
+  ar: "موضع بين مكة والطائف حبس فيه النبي سبايا وغنائم حنين، واستقبل فيه وفد هوازن فرد إليهم أسرارهم وسباياهم، وقسم الفيء على المؤلفة قلوبهم، وخطب في الأنصار خطبته الشهيرة، وأحرم منه بعمرته في ذي القعدة سنة ثمان."
+wings: [place]
+themes: [sacred-space-and-pilgrimage, battles]
+regions: [arabia]
+historical_names:
+  - { name: "الجعرانة", note: "بكسر الجيم وإسكان العين وتخفيف الراء أو تشديدها؛ ميقات لأهل مكة" }
+relations:
+  - { type: located_in, target: place/mecca, confidence: high, note: "بين مكة والطائف؛ من مواقيت الحرم." }
+coordinate_note: "Coordinates withheld pending gazetteer check; situated north-east of Mecca on the road to Ta'if."
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 131–143", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 131–143" }

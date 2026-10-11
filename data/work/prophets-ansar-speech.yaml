@@ -1,0 +1,22 @@
+id: work/prophets-ansar-speech
+class: work
+kind: sermon
+label: { ar: "خطبة النبي للأنصار بالجعرانة", en: "The Prophet's address to the Ansar at al-Ji'rana" }
+summary:
+  ar: "الخطبة النبوية المؤثرة التي خاطب بها النبي الأنصار وحدهم في الحظيرة بالجعرانة تطييباً لخواطرهم بعد قسمة فيء حنين، وقوله: «ألا ترضون أن يذهب الناس بالشاة والبعير وترجعون برسول الله إلى رحالكم؟»."
+  en: "The renowned, moving address delivered by the Prophet exclusively to the Ansar in the enclosure at al-Ji'rana after the division of Hunayn's spoils, moving them to tears."
+genre: [sermon]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-hisham-saqqa] }
+authors: [person/muhammad]
+language: language/arabic
+composed: { edtf: "0630-02", hijri: "0008-11", calendar: julian, precision: month, status: tradition, derived: true, note: "في ذي القعدة سنة 8هـ بالجعرانة.", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [peace-making-and-coexistence, community-conventions]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: event/prophets-speech-to-the-ansar }
+  - { type: mentions, target: event/prophets-speech-to-the-ansar, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 142–143", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 142–143" }

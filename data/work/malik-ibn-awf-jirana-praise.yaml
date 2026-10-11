@@ -1,0 +1,22 @@
+id: work/malik-ibn-awf-jirana-praise
+class: work
+kind: poem
+label: { ar: "قصيدة مالك بن عوف في مدح النبي بالجعرانة", en: "Malik ibn Awf's eulogy of the Prophet at al-Ji'rana" }
+summary:
+  ar: "الأبيات التي قالها مالك بن عوف النصري حين جاء النبي مسلماً بالجعرانة فرد عليه أهله وماله وأعطاه مئة من الإبل؛ مطلعها: «ما إن رأيتُ ولا سمعتُ بمثله / في الناسِ كلِّهمُ بمثلِ محمدِ»."
+  en: "The verses recited by Malik ibn Awf al-Nasri upon coming to the Prophet in submission at al-Ji'rana, after having his family and wealth restored and receiving one hundred camels."
+genre: [poetry]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-hisham-saqqa] }
+authors: [person/malik-ibn-awf]
+language: language/arabic
+composed: { edtf: "0630-02", hijri: "0008-11", calendar: julian, precision: month, status: tradition, derived: true, note: "في ذي القعدة سنة 8هـ بالجعرانة.", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [literature, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: event/distribution-of-hunayn-spoils }
+  - { type: mentions, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 134", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 134" }

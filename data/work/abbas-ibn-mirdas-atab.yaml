@@ -1,0 +1,23 @@
+id: work/abbas-ibn-mirdas-atab
+class: work
+kind: poem
+label: { ar: "أبيات عتاب العباس بن مرداس في قسمة الجعرانة", en: "Abbas ibn Mirdas's verses of reproach on the Ji'rana division" }
+summary:
+  ar: "أبيات العباس بن مرداس السلمي التي عاتب فيها النبي حين نقص عطاؤه عن مائة بعير وفُضّل عليه الأقرع وعيينة؛ مطلعها: «أتجعلُ نهبي ونهبَ العُبيدِ بين عيينةَ والأقرعِ»، فأتم له النبي المائة حتى رضي."
+  en: "The verses of gentle reproach composed by Abbas ibn Mirdas when granted fewer camels than Uyayna and al-Aqra', upon which the Prophet ordered his share completed to a full hundred until he was satisfied."
+genre: [poetry]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-hisham-saqqa] }
+authors: [person/abbas-ibn-mirdas]
+language: language/arabic
+composed: { edtf: "0630-02", hijri: "0008-11", calendar: julian, precision: month, status: tradition, derived: true, note: "في ذي القعدة سنة 8هـ بالجعرانة.", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [literature, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: event/distribution-of-hunayn-spoils }
+  - { type: mentions, target: person/uyayna-ibn-hisn, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/al-aqra-ibn-habis, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 137", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 137" }

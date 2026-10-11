@@ -1,0 +1,25 @@
+id: person/al-nadir-ibn-al-harith-al-thaqafi
+class: person
+label: { en: "al-Nadir ibn al-Harith al-Thaqafi", ar: "النضير بن الحارث الثقفي" }
+names:
+  - { kind: full, lang: ar, value: "النضير بن الحارث بن كلدة بن عمرو بن علاج الثقفي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A prominent Thaqafi physician-nobleman and son of the famed physician al-Harith ibn Kalada; allied to Banu Abd al-Dar, he embraced Islam and was granted one hundred camels by the Prophet at al-Ji'rana among al-Mu'allafa Qulubuhum."
+  ar: "شريف ثقفي من بني علاج وابن طبيب العرب الحارث بن كلدة، حليف بني عبد الدار؛ أسلم وأعطاه النبي مئة بعير بالجعرانة في سهم المؤلفة قلوبهم."
+wings: [people]
+themes: [converts-and-leavers, medicine]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "أسلم عام الفتح وأعطاه النبي مئة بعير بالجعرانة (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح." }
+relations:
+  - { type: member_of, target: group/thaqif }
+  - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 136", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 136" }

@@ -1,0 +1,25 @@
+id: person/al-harith-ibn-hisham
+class: person
+label: { en: "al-Harith ibn Hisham", ar: "الحارث بن هشام المخزومي" }
+names:
+  - { kind: full, lang: ar, value: "الحارث بن هشام بن المغيرة المخزومي القرشي" }
+gender: male
+roles: [companion, general]
+traditions: [sunni]
+summary:
+  en: "A prominent nobleman of Banu Makhzum and brother of Abu Jahl; after fierce opposition to Islam at Badr and Uhud, he embraced Islam on the day of the conquest of Mecca, was granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, and fell as a martyr in the conquest of Syria."
+  ar: "شريف من سادات بني مخزوم وأخو أبي جهل بن هشام؛ حارب المسلمين ببدر وأحد ثم أسلم يوم فتح مكة وحسن إسلامه، وأعطاه النبي مئة بعير بالجعرانة، واستُشهد في فتوح الشام."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: convert, status: tradition, note: "أسلم يوم فتح مكة وأعطاه النبي مائة بعير بالجعرانة (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 136", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 136" }

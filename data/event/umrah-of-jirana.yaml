@@ -1,0 +1,21 @@
+id: event/umrah-of-jirana
+class: event
+kind: pilgrimage
+label: { en: "The Prophet's Umrah from al-Ji'rana", ar: "عمرة النبي من الجعرانة" }
+summary:
+  en: "After completing the distribution of spoils, the Prophet entered the state of ihram from al-Ji'rana by night, entered Mecca to perform the rites of Umrah, confirmed Attab ibn Asid as governor of Mecca, and departed back to Medina in Dhu al-Qa'dah 8 AH."
+  ar: "بعد فراغه من قسمة الفيء، أحرم النبي بالعمرة ليلاً من الجعرانة، ودخل مكة فطاف وسعى، وثبّت عتاب بن أسيد أميراً على مكة، ثم قفل راجعاً بجيشه إلى المدينة في ذي القعدة سنة 8هـ."
+wings: [time, people, place]
+themes: [sacred-space-and-pilgrimage, worship-and-the-pillars]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-02", hijri: "0008-11", calendar: julian, precision: month, status: tradition, derived: true, note: "في ذي القعدة سنة 8هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-jirana }
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad, role: pilgrim, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/attab-ibn-usayd, role: appointed-governor-of-mecca, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 143", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 143" }

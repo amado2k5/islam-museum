@@ -1,0 +1,24 @@
+id: person/uyayna-ibn-hisn
+class: person
+label: { en: "Uyayna ibn Hisn al-Fazari", ar: "عيينة بن حصن الفزاري" }
+names:
+  - { kind: full, lang: ar, value: "عيينة بن حصن بن حذيفة بن بدر الفزاري الغطفاني" }
+gender: male
+roles: [companion, tribal-leader]
+traditions: [sunni]
+summary:
+  en: "A powerful, mercurial chieftain of Banu Fazara in Najd (dubbed 'the foolish chief obeyed by ten thousand swords'); granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, he later faltered during the Ridda wars before repenting and returning to Islam."
+  ar: "سيد بني فزارة وغطفان في نجد؛ قاد الأحزاب يوم الخندق، وأعطاه النبي مئة بعير بالجعرانة تأليفاً لقلبه؛ ارتد مع طليحة ثم أسر وتاب وحسن إسلامه في خلافة أبي بكر وعمر."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "أعطاه النبي مئة بعير بالجعرانة تأليفاً لقلبه وقومه (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم بعد الفتح ثم تاب بعد الردة." }
+relations:
+  - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient-leader, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 136–137" }

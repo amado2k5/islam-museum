@@ -1,0 +1,13 @@
+id: dataset/jirana-grants
+class: dataset
+label: { ar: "عطايا المؤلفة قلوبهم بالجعرانة", en: "Grants to al-Mu'allafa Qulubuhum at al-Ji'rana" }
+summary:
+  ar: "جدول مقادير العطايا والأموال التي قسمها النبي بالجعرانة (شوال 8هـ) على سادات قريش ورؤساء قبائل نجد تأليفاً لقلوبهم، مستخرج من سيرة ابن هشام (الجزء الرابع ص 135–138)."
+  en: "Roster of grant amounts and gifts distributed by the Prophet at al-Ji'rana (Shawwal 8 AH) to the chieftains of Quraysh and Najdi tribal leaders to reconcile their hearts, extracted from Ibn Hisham's Sira (juz' 4 pp. 135–138)."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+rows_file: datasets/jirana-grants.csv
+license: CC0
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 135–138" }

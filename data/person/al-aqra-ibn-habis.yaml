@@ -1,0 +1,25 @@
+id: person/al-aqra-ibn-habis
+class: person
+label: { en: "al-Aqra' ibn Habis al-Tamimi", ar: "الأقرع بن حابس التميمي" }
+names:
+  - { kind: full, lang: ar, value: "الأقرع بن حابس بن عقال بن محمد المجاشعي الدارمي التميمي" }
+gender: male
+roles: [companion, tribal-leader]
+traditions: [sunni]
+summary:
+  en: "A paramount chieftain and arbitrator of Banu Tamim in Najd; given one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum to reconcile his tribe, he became a loyal Companion and participated in the early Islamic conquests."
+  ar: "سيد بني تميم وحَكَمُهم في الجاهلية؛ أعطاه النبي مئة بعير بالجعرانة في سهم المؤلفة قلوبهم لتثبيت قومه، فأسلم وحسن إسلامه وشهد الفتوح الإسلامية."
+wings: [people]
+themes: [reconciliation-and-unity, converts-and-leavers, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, persia-central-asia]
+story_roles:
+  - { role: convert, status: tradition, note: "من سادات نجد الذين تألفهم النبي بالجعرانة بمائة بعير (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح/حنين." }
+relations:
+  - { type: member_of, target: group/banu-tamim }
+  - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient-leader, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 136–137" }

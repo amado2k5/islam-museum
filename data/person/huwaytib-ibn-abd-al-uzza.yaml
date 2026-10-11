@@ -1,0 +1,25 @@
+id: person/huwaytib-ibn-abd-al-uzza
+class: person
+label: { en: "Huwaytib ibn Abd al-Uzza", ar: "حويطب بن عبد العزى" }
+names:
+  - { kind: full, lang: ar, value: "حويطب بن عبد العزى بن أبي قيس العامري القرشي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Meccan nobleman of Banu Amir ibn Lu'ayy who witnessed the Treaty of al-Hudaybiyya on Quraysh's side; he embraced Islam at the conquest of Mecca, was granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, and lived to a very advanced age."
+  ar: "شريف قرشي من بني عامر بن لؤي شهد صلح الحديبية مع قريش؛ أسلم عام فتح مكة وأعطاه النبي مئة من الإبل بالجعرانة في المؤلفة قلوبهم، وعُمّر حتى تجاوز مائة سنة."
+wings: [people]
+themes: [converts-and-leavers, the-elderly]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "أسلم عام الفتح وأعطاه النبي مائة بعير بالجعرانة (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم عام الفتح." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 136", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 136" }

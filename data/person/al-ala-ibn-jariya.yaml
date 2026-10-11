@@ -1,0 +1,25 @@
+id: person/al-ala-ibn-jariya
+class: person
+label: { en: "al-Ala ibn Jariya al-Thaqafi", ar: "العلاء بن جارية الثقفي" }
+names:
+  - { kind: full, lang: ar, value: "العلاء بن جارية بن أسيد بن معتب الثقفي" }
+gender: male
+roles: [companion, tribal-leader]
+traditions: [sunni]
+summary:
+  en: "A leader of Thaqif allied to Banu Zuhra; he embraced Islam after the fall of Mecca and was granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum to reconcile his tribe."
+  ar: "سيد من ثقيف وحليف بني زهرة بن كلاب؛ أسلم بعد فتح مكة وأعطاه النبي مئة من الإبل بالجعرانة في سهم المؤلفة قلوبهم لتأليف حلفائه وقومه."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "أعطاه النبي مئة بعير بالجعرانة في المؤلفة قلوبهم (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح." }
+relations:
+  - { type: member_of, target: group/thaqif }
+  - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 136", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 136" }

@@ -1,0 +1,28 @@
+id: event/distribution-of-hunayn-spoils
+class: event
+kind: other
+label: { en: "The distribution of Hunayn spoils at al-Ji'rana", ar: "قسمة غنائم حنين وعطايا المؤلفة بالجعرانة" }
+summary:
+  en: "At al-Ji'rana the Prophet divided the vast spoils of Hunayn (twenty-four thousand camels, forty thousand sheep, and four thousand silver awqiya); he warned against the misappropriation of spoils, and bestowed major grants upon Meccan notables and Najdi tribal chieftains to reconcile their hearts to Islam."
+  ar: "قسم النبي بالجعرانة أموال حنين العظيمة (24 ألف بعير وأكثر من 40 ألف شاة و4 آلاف أوقية فضة) بعد حجز الخمس؛ وحذر من الغلول، وخص سادات قريش ورؤساء قبائل نجد بعطايا جزيلة تأليفاً لقلوبهم."
+wings: [time, people, place]
+themes: [laws-of-war-and-peace, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-02", hijri: "0008-11", calendar: julian, precision: month, status: tradition, derived: true, note: "في ذي القعدة سنة 8هـ بالجعرانة.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-jirana }
+  - { type: part_of, target: event/battle-of-hunayn }
+  - { type: basis_for, target: concept/al-muallafa-qulubuhum, sources: [source/ibn-hisham-saqqa] }
+  - { type: basis_for, target: concept/ghulul, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: apportioner-of-spoils, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: recipient, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/safwan-ibn-umayya, role: recipient, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/suhayl-ibn-amr, role: recipient, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/uyayna-ibn-hisn, role: recipient, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-aqra-ibn-habis, role: recipient, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/dhu-al-khuwaysira, role: challenger-critic, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 135–141", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 135–141" }

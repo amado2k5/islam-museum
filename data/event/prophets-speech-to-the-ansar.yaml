@@ -1,0 +1,21 @@
+id: event/prophets-speech-to-the-ansar
+class: event
+kind: declaration
+label: { en: "The Prophet's speech to the Ansar at al-Ji'rana", ar: "خطبة النبي للأنصار في الحظيرة بالجعرانة" }
+summary:
+  en: "After the Ansar felt grieved that newly reconciled Qurashi and Bedouin chieftains received large gifts while they received nothing, the Prophet gathered them in an enclosure at al-Ji'rana and delivered an impassioned, tearful address: 'Are you not pleased that people return with sheep and camels while you return with the Messenger of God to your dwellings?', moving the entire gathering to tears."
+  ar: "حين وجد الأنصار في أنفسهم إثر تفضيل قريش وسادات نجد بالعطايا، جمعهم النبي وحدهم في حظيرة بالجعرانة وخطب فيهم خطبته المؤثرة: «ألا ترضون يا معشر الأنصار أن يذهب الناس بالشاة والبعير وترجعون برسول الله إلى رحالكم؟»، فبكى القوم حتى أخضلوا لحاهم وقالوا رضينا برسول الله قسماً وحظاً."
+wings: [time, people, place]
+themes: [peace-making-and-coexistence, community-conventions]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-02", hijri: "0008-11", calendar: julian, precision: month, status: tradition, derived: true, note: "في ذي القعدة سنة 8هـ بالجعرانة.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-jirana }
+  - { type: part_of, target: event/battle-of-hunayn }
+  - { type: had_participant, target: person/muhammad, role: speaker-and-comforter, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/sad-ibn-ubada, role: spokesman-of-the-ansar, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 142–143", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 142–143" }

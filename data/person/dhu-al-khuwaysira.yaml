@@ -1,0 +1,23 @@
+id: person/dhu-al-khuwaysira
+class: person
+label: { en: "Dhu al-Khuwaysira al-Tamimi", ar: "ذو الخويصرة التميمي" }
+names:
+  - { kind: full, lang: ar, value: "حرقوص بن زهير السعدي التميمي" }
+  - { kind: laqab, lang: ar, value: "ذو الخويصرة" }
+gender: male
+roles: [rebel]
+summary:
+  en: "A man of Banu Tamim (identified as Hurqus ibn Zuhayr al-Sa'di) who brazenly challenged the Prophet during the distribution of spoils at al-Ji'rana, saying 'Act justly, for you have not acted justly'; the Prophet rebuked him and foretold that from his progeny would emerge a sect that passes out of religion (the Kharijites)."
+  ar: "رجل من بني تميم (هو حرقوص بن زهير السعدي) واجه النبي بوقاحة في قسمة الجعرانة قائلاً: «يا محمد اعدل فوالله ما عدلت!»؛ فأنكر عليه النبي صنيعه وأخبر أنه يخرج من صلبه قوم يمرقون من الدين (الخوارج)."
+wings: [people]
+themes: [dissent-heresy-freethought, factions-splits-schisms]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: critic, toward: person/muhammad, status: tradition, note: "اعترض على قسمة غنائم حنين بالجعرانة (ابن هشام 4/139–140).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-tamim }
+  - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: insolent-objector, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 139–140", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 139–140" }
