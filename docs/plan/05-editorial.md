@@ -4,7 +4,7 @@
 
 The museum speaks like a thoughtful docent: warm, precise, descriptive, never preaching, never sneering. Rules of thumb:
 
-- Describe; do not prescribe. "Muslims fast during Ramadan" not "Muslims must fast". "The tradition holds…" (meaning Sunni Islam, see `docs/scope.md`), "The Hanafi school holds…", "Twelver Shia tradition holds…" (in a labelled other-views note), "Historians generally agree…".
+- Describe; do not prescribe. "Muslims fast during Ramadan" not "Muslims must fast". "The tradition holds…" (meaning Sunni Islam, see `docs/scope.md`), "The Hanafi school holds…", "In Twelver Shia tradition, …" (always labelled before the view is stated), "Historians generally agree…".
 - Attribute beliefs and reports to their holders; attribute facts to sources.
 - Assume the reader knows nothing and is intelligent. Define every Arabic term the first time, inline, then link to the concept.
 - No honorifics typed into prose (the UI renders them on request from data). Refer to "the Prophet Muhammad" on first mention, "the Prophet" or "Muhammad" afterwards, following the visitor's setting.
@@ -16,7 +16,7 @@ The museum speaks like a thoughtful docent: warm, precise, descriptive, never pr
 
 Every key statement is one of: **scriptural** (the Qur'an states), **tradition** (reported in hadith, sira, tabaqat, hagiography), **historical** (consensus of historians, with sources), **debated** (live disagreement, present the positions), **legend** (popular, not supported by sources, but culturally significant). Badges are subtle and explained once on *How to read this museum*.
 
-**Scope.** The museum speaks from Sunni Islam; see `docs/scope.md`. Contested topics (succession after the Prophet, the compilation of the Qur'an, the status of particular figures, modern political events, origins debates) **must** use the `perspectives` block with the Sunni position or positions (by school where they differ) and the academic or historical view, each cited, and an `other_views` note where another community's position is needed to understand the history. Editors present the Sunni understanding as the museum's frame and describe other positions accurately and respectfully without adopting them. The goal is that a Sunni Muslim of any school, a secular historian and a curious outsider each recognise the account as fair, and that a visitor from another community finds their community described accurately and never attacked.
+**Scope.** Sunni Islam is the museum's default and main frame and research starts from Sunni sources; see `docs/scope.md`. Contested topics (succession after the Prophet, the compilation of the Qur'an, the status of particular figures, modern political events, origins debates) **must** use the `perspectives` block with the Sunni position or positions first (by school where they differ), then the academic or historical view, then any other view the topic needs, each cited and each labelled. Editors present the Sunni understanding as the museum's frame and describe every other position accurately and respectfully, naming it before stating it, without adopting it. The goal is that a Sunni Muslim of any school, a secular historian and a curious outsider each recognise the account as fair, and that a visitor from any other community finds their view stated accurately, labelled, and never attacked.
 
 ## 3. Sensitive content policy
 

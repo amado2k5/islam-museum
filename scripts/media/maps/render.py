@@ -5,6 +5,8 @@ Usage: render.py [--event slug ...] [--lang en|ar ...] [--out DIR]     default o
 import hashlib, json, math, os, sys
 from pathlib import Path
 import yaml
+import warnings
+warnings.filterwarnings("ignore", message="The GeoSeries you are attempting to plot is empty")
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -50,7 +52,7 @@ def place_coords(pid):
 
 
 def basemap_files():
-    return sorted(p.name for p in BASE.glob("ne_10m_*.shp")) if BASE.exists() else []
+    return sorted([p.name for p in BASE.glob("ne_10m_*.shp")] + [p.name for p in BASE.glob("SR_HR.tif")]) if BASE.exists() else []
 
 
 def inputs_hash(ev, m, geos):
@@ -78,9 +80,22 @@ def render(slug, lang, out_root):
         from shapely.geometry import box
         bb = box(minx, miny, maxx, maxy)
         ax.add_patch(Rectangle((minx, miny), maxx - minx, maxy - miny, facecolor=STYLE["sea"], edgecolor="none", zorder=0))
-        gpd.read_file(BASE / "ne_10m_land.shp", bbox=bb.bounds).plot(ax=ax, color=STYLE["land"], linewidth=0)
+        gpd.read_file(BASE / "ne_10m_land.shp", bbox=bb.bounds).plot(ax=ax, color=STYLE["land"], linewidth=0, zorder=1)
+        if m.get("basemap", "terrain") == "terrain" and (BASE / "SR_HR.tif").exists():
+            import numpy as np, rasterio
+            from rasterio.windows import from_bounds
+            with rasterio.open(BASE / "SR_HR.tif") as r:
+                win = from_bounds(minx, miny, maxx, maxy, r.transform)
+                arr = r.read(1, window=win, boundless=True, fill_value=0).astype(float)
+            ax.imshow(arr, extent=(minx, maxx, miny, maxy), cmap="gray", alpha=0.32, zorder=2, aspect="auto", interpolation="bilinear")
+        if (BASE / "ne_10m_ocean.shp").exists():
+            gpd.read_file(BASE / "ne_10m_ocean.shp", bbox=bb.bounds).plot(ax=ax, color=STYLE["sea"], linewidth=0, zorder=3)
+        if (BASE / "ne_10m_coastline.shp").exists():
+            gpd.read_file(BASE / "ne_10m_coastline.shp", bbox=bb.bounds).plot(ax=ax, color="#7F93A6", linewidth=0.6, zorder=3)
         if (BASE / "ne_10m_rivers_lake_centerlines.shp").exists():
-            gpd.read_file(BASE / "ne_10m_rivers_lake_centerlines.shp", bbox=bb.bounds).plot(ax=ax, color=STYLE["river"], linewidth=0.6)
+            gpd.read_file(BASE / "ne_10m_rivers_lake_centerlines.shp", bbox=bb.bounds).plot(ax=ax, color=STYLE["river"], linewidth=0.6, zorder=3)
+        if (BASE / "ne_10m_lakes.shp").exists():
+            gpd.read_file(BASE / "ne_10m_lakes.shp", bbox=bb.bounds).plot(ax=ax, color=STYLE["sea"], linewidth=0, zorder=3)
         have_base = True
     names = FONT[lang]
     sides = ev.get("sides", [])
@@ -116,6 +131,18 @@ def render(slug, lang, out_root):
             if any(f.get("side") == i for f in m.get("features", [])):
                 fig.text(0.97 if lang == "ar" else 0.03, 0.86 - 0.04 * i, txt("— " + tr(s["label"], lang), lang), fontsize=8, color=STYLE["side"][i % 4], family=names,
                          ha="right" if lang == "ar" else "left", transform=fig.transFigure)
+    # scale bar (nice round length, about a fifth of the width) and north arrow
+    width_km = (maxx - minx) * 111.0 * max(0.2, math.cos(math.radians(center[0])))
+    nice = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000]
+    bar_km = max([n for n in nice if n <= width_km * 0.22] or [1])
+    bar_deg = bar_km / (111.0 * max(0.2, math.cos(math.radians(center[0]))))
+    pad_x, pad_y = (maxx - minx) * 0.03, (maxy - miny) * 0.05
+    x0 = (maxx - pad_x - bar_deg) if lang == "ar" else (minx + pad_x)
+    ax.plot([x0, x0 + bar_deg], [miny + pad_y, miny + pad_y], color=STYLE["text"], linewidth=2.2, zorder=8, solid_capstyle="butt")
+    ax.text(x0 + bar_deg / 2, miny + pad_y * 1.25, f"{bar_km} km" if lang == "en" else f"{bar_km} كم", ha="center", va="bottom", fontsize=8, family=names, color=STYLE["text"], zorder=8)
+    nx = (minx + pad_x * 1.5) if lang == "ar" else (maxx - pad_x * 1.5)
+    ax.annotate("", xy=(nx, maxy - pad_y * 0.6), xytext=(nx, maxy - pad_y * 2.6), arrowprops=dict(arrowstyle="-|>", color=STYLE["text"], lw=1.4, mutation_scale=12), zorder=8)
+    ax.text(nx, maxy - pad_y * 2.9, "N" if lang == "en" else "ش", ha="center", va="top", fontsize=9, family=names, color=STYLE["text"], zorder=8)
     notes = []
     if m["precision"] in ("approximate", "schematic"): notes.append(NOTE[lang])
     if not have_base: notes.append(NOBASE[lang])
@@ -124,7 +151,7 @@ def render(slug, lang, out_root):
     out = Path(out_root) / f"map-{ev['id'].replace('/', '-')}"
     out.mkdir(parents=True, exist_ok=True)
     meta = {"tool": "scripts/media/maps/render.py", "version": VERSION, "inputs_hash": inputs_hash(ev, m, geos), "precision": m["precision"], "basemap": basemap_files()}
-    fig.savefig(out / f"map.{lang}.svg", metadata={"Date": None, "Creator": f"islam.museum render.py {VERSION}"}, format="svg")
+    fig.savefig(out / f"map.{lang}.svg", dpi=96, metadata={"Date": None, "Creator": f"islam.museum render.py {VERSION}"}, format="svg")
     fig.savefig(out / f"1536.{lang}.png", dpi=170, metadata={"Software": None})
     plt.close(fig)
     (out / "meta.json").write_text(json.dumps(meta, indent=1, ensure_ascii=False))

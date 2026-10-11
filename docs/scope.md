@@ -1,20 +1,19 @@
-# Scope note: the museum speaks from Sunni Islam
+# Scope note: Sunni Islam is the default and main frame
 
-**Decision (founder, 11 October 2026).** islam.museum presents Islam as understood by *Ahl al-Sunna wa'l-Jama'a*: the Qur'an; the Sunna as transmitted in the canonical Sunni hadith collections; the four schools of law (Hanafi, Maliki, Shafi'i, Hanbali); the Ash'ari, Maturidi and Athari creeds; and the Sufi orders within Sunni Islam. When the museum's own voice says "Islam", "Muslims", "the tradition holds" or "scholars agree", it means this.
+**Decision (founder, 11 October 2026).** islam.museum researches and presents Islam from the standpoint of Sunni Islam, *Ahl al-Sunna wa'l-Jama'a*: the Qur'an; the Sunna as transmitted in the canonical Sunni hadith collections; the four schools of law (Hanafi, Maliki, Shafi'i, Hanbali); the Ash'ari, Maturidi and Athari creeds; and the Sufi orders within Sunni Islam. When the museum's own voice says "Islam", "Muslims", "the tradition holds" or "scholars agree" without a label, it means this. Research for every entity starts from Sunni sources and Sunni scholarship.
 
-**What this excludes as a framing.** Shia Islam (Twelver, Ismaili, Zaydi), Ibadi Islam, the Ahmadiyya, Quranists, the Nation of Islam and other groups are **not** presented as parallel framings of Islam. Their doctrines do not appear as equal "perspective" columns, their legal rulings are not the museum's rulings, and their theological claims are not the museum's claims.
+**Other points of view are welcome, and always labelled.** The museum is free to mention any other view: Shia (Twelver, Ismaili, Zaydi), Ibadi, Ahmadiyya, Quranist, the Nation of Islam, academic and non-Muslim perspectives, and anything else the story needs. The one rule is that **a non-Sunni view is named before it is stated**, so a reader never assumes the museum is speaking from it. In prose: "In Twelver Shia tradition, …", "Ismaili sources hold that …", "Historians outside the tradition generally argue …". In data: every `perspectives` entry carries its `tradition`, the Sunni entry comes first and is the default shown, and the UI prints the label of every other entry prominently before its text.
 
-**What this does not exclude.** The story of Islam cannot be told without them, so they remain in the museum **as history and as fact**:
-- polities (Fatimids, Buyids, Safavids, Qarmatians, the Imamate of Oman), figures, events (Karbala, Siffin, the Fatimid founding of Cairo), places, works and `group` entries with `kind: denomination` are all covered;
-- they are described in the docent voice: factually, respectfully, by their self-designations, with sources, without polemics, slurs or mockery;
-- where a reader needs it to understand history or a living community, a short labelled note states what that group holds ("Twelver Shia tradition holds that…"), placed beneath the Sunni account, never alongside it as an equal column;
-- the Figures policy (docs/plan/13) and the Themes atlas (docs/plan/14) keep their full scope: everyone significant, for and against, every theme including sects and splits.
+**What this means in practice.**
+- The Sunni account is the main text of every page. Other communities' positions appear after it, clearly labelled, never unlabelled and never first.
+- Everyone and everything is still covered: Shia, Ibadi and other polities (Fatimids, Buyids, Safavids, Qarmatians, the Imamate of Oman), figures, events (Karbala, Siffin, the founding of Cairo), places, works and `group` entries with `kind: denomination`. They are described factually and respectfully, by their self-designations, with sources, without polemics, slurs or mockery.
+- The Figures policy (docs/plan/13) and the Themes atlas (docs/plan/14) keep their full scope: everyone significant, for and against, every theme including sects and splits.
+- The welcoming-to-all principle, the descriptive voice and the sensitive-content rules in docs/plan/05 stand unchanged.
 
 **Mechanics.**
-- `perspectives[]` is for differences **within** Sunni Islam (madhhabs, creeds, Sufi and Salafi currents, reformist and traditional readings) and for the academic or historical view set against the tradition's account. Allowed `tradition` values in `perspectives`: `sunni`, `sunni-*`, `academic`.
-- `other_views[]` (same shape as `perspectives`) records the positions of other groups where historically necessary; rendered as a labelled note.
-- `schema/enums/traditions.yaml` keeps every value, because people, groups and polities must be classified as what they were.
-- The validator rejects a `perspectives` entry whose `tradition` is outside the allowed set and points to `other_views`.
-- Existing Phase 1 events that carry Shia entries in `perspectives` (Ghadir Khumm, Saqifa, Karbala when written) move those entries to `other_views`.
+- `perspectives[]` holds every view that matters for a topic. Order: `sunni` or `sunni-*` entries first, then `academic`, then any other tradition. The validator requires a Sunni entry whenever the block exists and requires a `tradition` on every entry; it rejects an unlabelled entry and a block whose first entry is not Sunni.
+- `schema/enums/traditions.yaml` keeps every value so people, groups and polities can be classified as what they were and so labels are consistent.
+- The UI renders the Sunni entry as the main column under the heading "Sunni tradition (the museum's frame)" and each further entry under its own label ("Twelver Shia view", "Academic view", "Ibadi view").
+- A prose lint flags sentences that state a non-Sunni doctrine without a preceding label in the same sentence or the one before.
 
-**Where visitors see it.** The About page and *How to read this museum* carry one sentence: "This museum describes Islam as understood in the Sunni tradition. Other Muslim communities are part of the story and are described with respect." The welcoming-to-all principle, the neutral descriptive voice and the sensitive-content rules in docs/plan/05 stand unchanged: a visitor from any community should find their community described accurately and never attacked.
+**Where visitors see it.** The About page and *How to read this museum* carry one sentence: "This museum describes Islam from the standpoint of the Sunni tradition. Other views are included and are always labelled as such."

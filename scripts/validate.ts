@@ -209,6 +209,11 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     }
     if (entity.class === "media" && entity.kind !== "map" && entity.kind !== "illustration" && !entity.generated && !entity.attribution) err(file, "attribution is required for media that is not generated");
 
+    if (entity.class === "media" && entity.files) {
+      for (const [k, f] of Object.entries<string>(entity.files)) if (f.startsWith("media/") && !existsSync(p("site", "public", f))) warn(file, `files.${k}: ${f} is not in site/public/ (media files live in the media repo; the page omits the image until they are present)`);
+    }
+    if (entity.media?.map && !(known.has(entity.media.map) && classOf(entity.media.map) === "media")) err(file, `media.map: ${entity.media.map} is not an existing media entity`);
+
     // ---- screen index rules (docs/plan/12)
     if (entity.class === "screen") {
       if (!(entity.relations ?? []).some((r: any) => ["about", "set_in", "subject_of", "setting_of"].includes(r.type))) warn(file, "no about/set_in edge: listed, not yet indexed");

@@ -85,7 +85,7 @@ Each stage is a small TypeScript script in `scripts/ai/` that can run locally th
 |---|---|
 | Hallucinated facts | Retrieval-grounded extraction; quote spans; entailment judge; unsupported claims cannot enter `data/` |
 | Wrong dates | Dual-source rule; calendar flags; plausibility rules; Hijri stored as in source; conversions marked derived; anchor tests for the converter |
-| Sectarian bias or polemic | Scope rule (`docs/scope.md`): Sunni frame, other communities described accurately and respectfully; contested-topic list triggers mandatory perspectives and other_views; validator restricts `perspectives.tradition`; neutral-language lint; two reviewers from different backgrounds for Tier A |
+| Sectarian bias or polemic | Scope rule (`docs/scope.md`): Sunni frame first and main, every other view labelled before it is stated; contested-topic list triggers mandatory perspectives; validator requires a Sunni first entry and a label on every entry; prose lint for unlabelled non-Sunni statements; neutral-language lint; two reviewers from different backgrounds for Tier A |
 | Over-claiming ("Muslims invented X") | Sources must be T1/T2; superlative lint; phrasing "is credited by…" with cite |
 | Copyright | License whitelist at fetch time; non-commercial content isolated; quotes limited in length; media attribution mandatory |
 | Fabricated sources | `source` entities must resolve (DOI/ISBN/URL check); the citation checker fails the build if a `{cite:}` has no source file |
@@ -158,5 +158,5 @@ Compiled entity example (abridged):
 2. Insert a deliberately false claim into a cached source; the judge marks it `single-source`/`conflict` against Wikidata.
 3. Remove a source file; the build fails on the dangling `{cite:}`.
 4. Feed an NC-licensed source; the output is isolated and labelled, and the validator rejects any attempt to merge it into CC BY-SA prose.
-5. A contested entity (Saqifa, Ghadir Khumm) produces a perspectives block with the Sunni and academic entries and an other_views note with the Twelver Shia position, each cited; a Shia entry placed in `perspectives` fails validation.
+5. A contested entity (Saqifa, Ghadir Khumm) produces a perspectives block with the Sunni entry first, then the academic entry, then the labelled Twelver Shia entry, each cited; a block whose first entry is not Sunni, or an entry without a tradition label, fails validation.
 6. Translating `content/en/person/ibn-sina.md` to Arabic preserves every `{cite:}` and `[[link]]` and uses glossary forms.

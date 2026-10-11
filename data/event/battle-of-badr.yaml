@@ -31,7 +31,7 @@ map:
   precision: schematic
   center: [22.9, 39.2]
   extent_km: 650
-  basemap: plain
+  basemap: terrain
   date_for_borders: "0624"
   features:
     - { type: point, role: city, label: { en: Medina, ar: المدينة المنورة }, at: [24.4686, 39.6142], source: source/geonames-gazetteer }
@@ -42,5 +42,6 @@ map:
   legend: true
   sources: [source/ibn-ishaq-guillaume, source/geonames-gazetteer]
   note: { en: "Straight lines show only where each force set out from and where they met; they are not the routes taken. Camps and battle lines are not drawn because no sourced positions are recorded here yet." }
+media: { map: media/map-event-battle-of-badr }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

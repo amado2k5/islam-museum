@@ -1,0 +1,18 @@
+# Period x region accuracy table (docs/plan/16 §7): sourced one-liners the scene brief inserts, so every prompt in a period shares correct details.
+# STATUS: DRAFT. The only entry so far restates the founder's worked example in docs/plan/16 §2.4. Each line needs a reviewer to attach a
+# citation (source/...) before it is relied on for any image; the brief carries `accuracy_status` so unreviewed lines are visible downstream.
+- period: period/prophetic-era
+  region: arabia
+  accuracy_status: unreviewed
+  origin: "docs/plan/16 §2.4 (worked example), to be sourced"
+  sides_dress:
+    default: "simple Hijazi robes, cloth head-covers, leather shields, spears; few horses, camels"
+  material_culture: "no firearms, no fortifications, tents of goat hair, waterskins, palm-fibre ropes"
+  avoid_anachronisms:
+    - "minarets (none in 624)"
+    - "domes"
+    - "paper"
+    - "plate armour"
+    - "stirrups: debated, omit"
+  figure_policy: none          # docs/plan/16 §1: no figures at all for the Prophetic era
+  sources: []

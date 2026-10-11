@@ -112,7 +112,7 @@ const base = {
     sources: entityRefs,
     media: {
       type: "object", additionalProperties: false,
-      properties: { hero: entityRef, gallery: entityRefs },
+      properties: { hero: entityRef, gallery: entityRefs, map: entityRef },
     },
     status: {
       type: "object", additionalProperties: false, required: ["review"],

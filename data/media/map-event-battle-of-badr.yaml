@@ -1,0 +1,16 @@
+id: media/map-event-battle-of-badr
+class: media
+kind: map
+label: { en: "Schematic map of The Battle of Badr", ar: "خريطة تخطيطية: غزوة بدر" }
+summary: { en: "Map for The Battle of Badr, drawn from sourced positions.", ar: "خريطة: غزوة بدر، مرسومة من مواقع موثَّقة." }
+wings: [place]
+alt: { en: "Schematic map for The Battle of Badr showing Medina, Mecca, Badr (wells), with dashed lines for the movement of Muslims of Medina, Quraysh of Mecca. Positions are approximate.", ar: "خريطة تخطيطية: غزوة بدر. تُظهر المواضع التالية: المدينة المنورة، مكة المكرمة، بدر (الآبار). الخطوط المتقطعة تبيّن مسير كل طرف: مسلمو المدينة، قريش مكة. المواقع تقريبية." }
+depicts: [event/battle-of-badr]
+generated: { tool: scripts/media/maps/render.py, version: "0.1", inputs_hash: "sha256:44c025e3e709d3dfb22e799e86f5fd1b8492c5780c5b164568205d6213655cfe", date: "2026-10-11" }
+precision: schematic
+basemap_sources: [source/natural-earth, source/etopo1]
+license: CC0
+attribution: "islam.museum, CC0. Basemap: Natural Earth and NOAA ETOPO1 (public domain)."
+files: { webp_en: media/maps/battle-of-badr/map.en.webp, webp_ar: media/maps/battle-of-badr/map.ar.webp }
+sources: [source/geonames-gazetteer, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "scripts/media/maps/ingest.py; awaiting human review of every feature against its source" }

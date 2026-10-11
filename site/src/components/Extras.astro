@@ -1,5 +1,7 @@
 ---
 // Panels for the additions of docs 12-14: themes, place in the story, conflict sides, screen facts, tensions, on screen.
+import { existsSync } from "node:fs";
+import { repoPath } from "../lib/paths";
 import { byId, edgesFrom, href, labelOf } from "../lib/graph";
 import { ui, type Lang } from "../lib/i18n";
 import { formatDate } from "../lib/dates";
@@ -13,8 +15,23 @@ const lab = (id: string) => { const x = byId.get(id); return x ? labelOf(x, lang
 const range = (s: any, e: any) => [formatDate(s, lang).text, formatDate(e, lang).text].filter(Boolean).join(" – ");
 const screens = onScreen(n.id);
 const graphAbout = (id: string) => edgesFrom(id).filter((e) => e.type === "about" && !e.inverse).map((e) => byId.get(e.to)!).filter(Boolean);
+const mapMedia = d.media?.map ? byId.get(d.media.map) : undefined;
+const mapFileRel = mapMedia?.data.files?.[`webp_${lang}`] ?? mapMedia?.data.files?.webp_en;
+// media files live in the media repo; show the figure only when the file is present at build time
+const mapFile = mapFileRel && existsSync(repoPath("site", "public", mapFileRel)) ? mapFileRel : undefined;
 const faithText = (d.faith ?? []) as any[];
 ---
+{mapMedia && mapFile && (
+  <figure class="panel" style="margin:0 0 1.2rem">
+    <img src={`/${mapFile}`} alt={mapMedia.data.alt?.[lang] ?? mapMedia.data.alt?.en} width="1536" height="1024" loading="lazy" style="width:100%;height:auto;border-radius:10px;background:var(--bg)" />
+    <figcaption class="ui muted" style="font-size:.85rem;margin-top:8px">
+      {T.map.caption} · {T.map.precision[mapMedia.data.precision] ?? mapMedia.data.precision}
+      {d.map?.note && <> · {d.map.note[lang] ?? d.map.note.en}</>}
+      · <a href={href(lang, mapMedia.id)}>{T.map.details}</a>
+    </figcaption>
+  </figure>
+)}
+
 {n.class === "passage" && d.text && (
   <section class="panel" style="margin-bottom:1.2rem" aria-label={n.label[lang] ?? n.label.en}>
     <p lang="ar" dir="rtl" style="font-family:var(--ar-quran);font-size:clamp(1.6rem,4vw,2.4rem);line-height:2.2;margin:0">{d.text}</p>

@@ -1,6 +1,6 @@
 # 14 · The Themes atlas — every aspect of Islam, and how "everything" becomes checkable
 
-> **Scope note.** The museum speaks from Sunni Islam (Ahl al-Sunna wa'l-Jama'a). Other Muslim communities are covered as history and fact, described with respect, but not presented as parallel framings of Islam. The full rule is in [`docs/scope.md`](../scope.md).
+> **Scope note.** Sunni Islam (Ahl al-Sunna wa'l-Jama'a) is the museum's default and main frame, and research starts from Sunni sources. Any other point of view may be mentioned, and is always labelled before it is stated so the reader never mistakes it for the museum's frame. The full rule is in [`docs/scope.md`](../scope.md).
 
 The museum already organises the story by **time** (12 periods), **place** (14 regions) and **kind of thing** (22 classes). This document adds the fourth axis: **theme**. Women, children, the elderly, people with disabilities, indigenous peoples and minorities; websites, conferences and gatherings; factions and splits; wars, skirmishes and desertions; religion against custom; contradictions and hard questions; charity and humane work; halal food; evolution; organisations; science, medicine, astronomy: each is a theme that cuts across every period, region and class.
 
