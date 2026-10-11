@@ -1,0 +1,21 @@
+id: event/fatrat-al-wahy
+class: event
+kind: revelation
+label: { en: "The pause of revelation (Fatra)", ar: "فترة الوحي" }
+summary:
+  en: "The pause in revelation after the first descent at Hira — days rather than years in the reading of Ibn Sa'd via Ibn Abbas that the book prefers — ending when Jibril appeared seated on a throne between heaven and earth and surat al-Muddaththir came down with the command to rise and warn."
+  ar: "انقطاع الوحي بعد نزوله الأول بحراء، ويرجّح الكتاب أنه كان أياماً لا سنين برواية ابن سعد عن ابن عباس؛ ثم انتهى بظهور الملك قاعداً على كرسي بين السماء والأرض ونزول «يا أيها المدثر» بأمر القيام والإنذار."
+wings: [time, people]
+themes: [scripture-and-its-sciences, prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0610~", calendar: julian, precision: year, status: debated, note: "مدة الفترة أيام عند ابن سعد عن ابن عباس — وهو ترجيح الكتاب — والمشهور ثلاث سنين أو سنتان ونصف ولا يصح عنده (الرحيق ص69)." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: caused_by, target: event/first-revelation }
+  - { type: caused, target: event/al-dawa-al-sirriyya }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/tabaqat-ibn-sad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 68-70" }

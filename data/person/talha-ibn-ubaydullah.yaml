@@ -1,0 +1,23 @@
+id: person/talha-ibn-ubaydullah
+class: person
+label: { en: "Talha ibn Ubaydullah", ar: "طلحة بن عبيد الله" }
+names:
+  - { kind: full, lang: ar, value: "طلحة بن عبيد الله بن عثمان التيمي القرشي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "One of the first band of eight; he accepted Islam at Abu Bakr's invitation during the secret call in Mecca."
+  ar: "أحد الثمانية الرعيل الأول؛ أسلم بدعوة أبي بكر الصديق في سنوات الدعوة السرية بمكة."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "أسلم بدعوة أبي بكر", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
