@@ -1,0 +1,33 @@
+id: person/abu-dharr-al-ghifari
+class: person
+label: { en: "Abu Dharr al-Ghifari", ar: "أبو ذر الغفاري" }
+names:
+  - { kind: full, lang: ar, value: "جندب بن جنادة الغفاري" }
+gender: male
+born: { edtf: "0590~", calendar: julian, precision: decade, status: tradition, note: "Exact birth year unknown; he was among the very first converts.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0652", calendar: julian, precision: year, status: tradition, note: "Died in exile at al-Rabadha, about 32 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A tribesman of Ghifar among the very first converts, remembered for fierce asceticism and for denouncing the hoarding of wealth; Uthman exiled him to al-Rabadha, where he died."
+  ar: "رجل من غفار من أوائل من أسلم، يذكره التراث بزهده الصارم وبإنكاره كنز الأموال؛ نفاه عثمان إلى الربذة فمات بها."
+wings: [people]
+themes: [the-poor-and-the-worker, spirituality-and-sufism, dissent-heresy-freethought]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: convert, start: { edtf: "0614~" }, status: tradition, note: "Counted among the first five or six converts in the tradition.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0614~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: critic, toward: person/muawiya-ibn-abi-sufyan, start: { edtf: "0644~" }, status: tradition, note: "Publicly denounced the accumulation of wealth by Umayyad officials in Syria; sent back to Medina, then exiled.", sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+labelled:
+  - { label: { en: "'The truthfulness of the heavens has no one more truthful than Abu Dharr' — a saying attributed to the Prophet", ar: "أصدق أهل السماء أبو ذر" }, by: "a saying attributed to the Prophet in the tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: member_of, target: group/banu-ghifar }
+  - { type: member_of, target: group/early-muslims }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0614~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: died_in, target: place/al-rabadha, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

@@ -1,0 +1,34 @@
+id: person/abdullah-ibn-masud
+class: person
+label: { en: "Abdullah ibn Mas'ud", ar: "عبد الله بن مسعود" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن مسعود بن غافل الهذلي" }
+gender: male
+born: { edtf: "0594~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0653~", calendar: julian, precision: year, status: tradition, note: "Died in Medina about 32 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, scholar]
+traditions: [sunni]
+summary:
+  en: "A shepherd of Mecca among the first converts, remembered as the first man to recite the Qur'an aloud there; in Kufa he became a founding teacher of its school of learning."
+  ar: "راعٍ مكي من أول المسلمين، يذكره التراث أول من جهر بقراءة القرآن في مكة؛ وفي الكوفة صار أستاذ جيلها الأول في العلم."
+wings: [people]
+themes: [scripture-and-its-sciences, the-poor-and-the-worker]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: convert, start: { edtf: "0613~" }, status: tradition, note: "Counted among the first six converts.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0613~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: scholar, start: { edtf: "0640~" }, status: historical, note: "Sent to Kufa as its teacher in Qur'an and law; his readings were long studied there.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/medina }
+  - { type: member_of, target: group/early-muslims }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0613~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/first-migration-to-abyssinia, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: lived_in, target: place/kufa, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

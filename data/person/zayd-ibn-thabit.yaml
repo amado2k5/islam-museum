@@ -1,0 +1,32 @@
+id: person/zayd-ibn-thabit
+class: person
+label: { en: "Zayd ibn Thabit", ar: "زيد بن ثابت" }
+names:
+  - { kind: full, lang: ar, value: "زيد بن ثابت بن الضحاك الخزرجي" }
+gender: male
+born: { edtf: "0611~", calendar: julian, precision: year, status: tradition, note: "About eleven years old at the Hijra.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0660~", calendar: julian, precision: year, status: tradition, note: "Died in Medina about 45 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, scholar]
+traditions: [sunni]
+summary:
+  en: "A young Ansari who became the Prophet's scribe of revelation; Abu Bakr set him to gather the Qur'an, and Uthman's committee under him produced the standard recension still read today."
+  ar: "أنصاري شاب صار كاتب وحي النبي؛ كلفه أبو بكر بجمع القرآن، وترأس لجنة عثمان فخرج منها المصحف المعتمد الذي يُقرأ اليوم."
+wings: [people]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0622" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: scholar, start: { edtf: "0632~" }, status: historical, note: "Scribe of the revelation; headed the committees that collected the Qur'an under Abu Bakr and standardized it under Uthman.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: official, start: { edtf: "0644~" }, status: tradition, note: "Served in the administration of Medina under the caliphs.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: died_in, target: place/medina }
+  - { type: member_of, target: group/khazraj }
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-the-trench, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: student_of, target: person/muhammad, note: "Scribe of the revelation; headed the committees that collected the Qur'an under Abu Bakr and standardized it under Uthman.", sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

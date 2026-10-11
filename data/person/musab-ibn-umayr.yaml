@@ -1,0 +1,36 @@
+id: person/musab-ibn-umayr
+class: person
+label: { en: "Mus'ab ibn Umayr", ar: "مصعب بن عمير" }
+names:
+  - { kind: full, lang: ar, value: "مصعب بن عمير بن هاشم العبدري" }
+gender: male
+born: { edtf: "0585~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0625-03-23", hijri: "0003-08-15", calendar: julian, precision: day, status: tradition, note: "Killed carrying the standard at Uhud, 15 Shawwal 3 AH.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A refined young Qurayshi of wealth who embraced Islam early and was sent to Medina before the Hijra as the community's first emissary and teacher; killed bearing the standard at Uhud."
+  ar: "شاب قرشي مرفه أسلم مبكرًا فبعثه النبي إلى المدينة قبل الهجرة أول داعية ومعلم؛ قُتل حاملًا الراية يوم أُحد."
+wings: [people]
+themes: [dawa-and-christian-mission, battles, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0613~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0613~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: missionary, toward: place/medina, start: { edtf: "0621" }, end: { edtf: "0622" }, status: tradition, note: "Sent to teach Islam in Medina before the Hijra; remembered as the community's first emissary.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: martyr, start: { edtf: "0625-03-23" }, status: tradition, note: "Killed bearing the Muslim standard at Uhud.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/uhud }
+  - { type: member_of, target: group/banu-abd-al-dar }
+  - { type: member_of, target: group/quraysh }
+  - { type: member_of, target: group/early-muslims }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0613~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/first-migration-to-abyssinia, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-badr, role: standard-bearer, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-uhud, role: standard-bearer, sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }

@@ -1,0 +1,36 @@
+id: person/amr-ibn-al-as
+class: person
+label: { en: "Amr ibn al-As", ar: "عمرو بن العاص" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن العاص بن وائل السهمي" }
+gender: male
+born: { edtf: "0573~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0663~", calendar: julian, precision: year, status: tradition, note: "Died in Egypt about 43 AH, where he was governor.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, general, politician]
+traditions: [sunni]
+summary:
+  en: "A Meccan diplomat who opposed the Muslims until 629–630, then converted and became the commander who conquered Egypt — and later Mu'awiya's chief ally in the first civil war."
+  ar: "دبلوماسي مكي عارض المسلمين حتى 629–630م ثم أسلم وصار القائد الذي فتح مصر، وبعدها حليف معاوية الأول في الفتنة الأولى."
+wings: [people]
+themes: [wars-and-campaigns, converts-and-leavers, civil-wars-and-revolts]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia, egypt-nile, levant-iraq]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0625~" }, end: { edtf: "0629" }, status: historical, note: "Fought on the Meccan side at Uhud.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+  - { role: convert, start: { edtf: "0629" }, status: historical, note: "Embraced Islam between Hudaybiyya and the conquest of Mecca.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0629" }, status: historical, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: changed-sides, start: { edtf: "0629" }, status: historical, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: commander, toward: polity/rashidun-caliphate, start: { edtf: "0639" }, end: { edtf: "0646~" }, status: historical, note: "Led the conquest of Egypt under Umar and governed it.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: documented, note: "Embraced Islam about 629–630 CE after opposing the early community; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/egypt }
+  - { type: member_of, target: group/quraysh }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0625" }, end: { edtf: "0629" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-uhud, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0629" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/conquest-of-egypt, role: muslim-commander, sources: [source/tabari-donner-1993] }
+  - { type: allied_with, target: person/muawiya-ibn-abi-sufyan, start: { edtf: "0657~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

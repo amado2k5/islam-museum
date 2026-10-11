@@ -1,0 +1,36 @@
+id: person/saad-ibn-abi-waqqas
+class: person
+label: { en: "Sa'd ibn Abi Waqqas", ar: "سعد بن أبي وقاص" }
+names:
+  - { kind: full, lang: ar, value: "سعد بن مالك بن وهيب الزهري" }
+gender: male
+born: { edtf: "0595~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0674~", calendar: julian, precision: year, status: tradition, note: "Died at his estate at al-Aqiq near Medina, about 55 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, general]
+traditions: [sunni]
+summary:
+  en: "One of the earliest converts, an archer at Badr, and the commander who broke the Sasanian army at al-Qadisiyya about 636; founder of the garrison city of Kufa."
+  ar: "من السابقين إلى الإسلام، رامي يوم بدر، والقائد الذي كسر الجيش الساساني في القادسية نحو سنة 636م؛ مؤسس مدينة الكوفة."
+wings: [people]
+themes: [wars-and-campaigns, battles, cities]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: convert, start: { edtf: "0611~" }, status: tradition, note: "Among the earliest converts, through Abu Bakr.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0611~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: commander, toward: polity/rashidun-caliphate, start: { edtf: "0636~" }, end: { edtf: "0645~" }, status: historical, note: "Commanded at al-Qadisiyya, then governed Iraq and founded Kufa.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/medina }
+  - { type: member_of, target: group/banu-zuhra }
+  - { type: member_of, target: group/quraysh }
+  - { type: converted_under, target: person/abu-bakr, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-badr, role: archer, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-uhud, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-qadisiyya, role: muslim-commander, sources: [source/tabari-donner-1993] }
+  - { type: lived_in, target: place/kufa, note: "Founded and governed the garrison city of Kufa under Umar's orders.", sources: [source/tabari-donner-1993] }
+sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

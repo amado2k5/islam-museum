@@ -1,0 +1,32 @@
+id: person/sumayya-bint-khayyat
+class: person
+label: { en: "Sumayya bint Khayyat", ar: "سمية بنت خياط" }
+names:
+  - { kind: full, lang: ar, value: "سمية بنت خياط" }
+gender: female
+born: { edtf: "0560~", calendar: julian, precision: decade, status: tradition, note: "Birth year not recorded; she was an older woman at her death.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0615~", calendar: julian, precision: year, status: tradition, note: "Killed under torture in Mecca, before the Hijra; the tradition counts her the first martyr of Islam.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An elderly woman of the first converts, tortured in Mecca for her faith; the tradition counts her the first martyr of Islam, mother of the Companion Ammar ibn Yasir."
+  ar: "امرأة مسنة من أول المسلمين، عُذّبت في مكة على دينها؛ ويعدّها التراث أول شهيد في الإسلام، أم الصحابي عمار بن ياسر."
+wings: [people]
+themes: [women, slavery-and-freedom, anti-muslim-hatred]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0613~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0613~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: martyr, start: { edtf: "0615~" }, status: tradition, note: "The tradition names her the first person killed for embracing Islam.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: victim, start: { edtf: "0615~" }, status: tradition, note: "Tortured by Abu Jahl and the Meccan leadership for her faith.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: died_in, target: place/mecca }
+  - { type: member_of, target: group/early-muslims }
+  - { type: spouse_of, target: person/yasir-ibn-amir, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: persecuted_by, target: person/abu-jahl, start: { edtf: "0614~" }, end: { edtf: "0615~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/first-muslim-martyrdom, role: victim, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }

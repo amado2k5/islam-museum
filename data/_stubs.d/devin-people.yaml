@@ -4,19 +4,71 @@
 - { id: person/hashim-ibn-abd-manaf, label: { en: "Hashim ibn Abd Manaf" }, note: "Eponym of Banu Hashim; great-grandfather of the Prophet" }
 - { id: person/fatima-bint-asad, label: { en: "Fatima bint Asad" }, note: "Wife of Abu Talib, mother of Ali" }
 - { id: person/abu-salama, label: { en: "Abu Salama (Abdullah ibn Abd al-Asad)" }, note: "First husband of Umm Salama; early migrant to Abyssinia" }
-- { id: person/umar-ibn-al-khattab, label: { en: "Umar ibn al-Khattab" }, note: "Written in devin/people-batch-B" }
 - { id: person/huyayy-ibn-akhtab, label: { en: "Huyayy ibn Akhtab" }, note: "Chief of Banu Nadir; father of Safiyya" }
 - { id: group/banu-hashim, label: { en: "Banu Hashim" }, note: "Written in devin/people-batch-F" }
 - { id: group/ahl-al-bayt, label: { en: "Ahl al-Bayt" }, note: "Written in devin/people-batch-F" }
 - { id: group/banu-makhzum, label: { en: "Banu Makhzum" }, note: "Clan of Quraysh" }
 - { id: group/banu-nadir, label: { en: "Banu Nadir" }, note: "Written in devin/people-batch-F" }
+- { id: group/ansar, label: { en: "The Ansar" }, note: "Written in devin/people-batch-F" }
+- { id: group/muhajirun, label: { en: "The Muhajirun" }, note: "Written in devin/people-batch-F" }
 - { id: place/karbala, label: { en: "Karbala" }, note: "Site of Husayn's death, 680 CE" }
-- { id: place/mutah, label: { en: "Mu'ta" }, note: "Battle site in southern Jordan, 629 CE" }
-- { id: event/battle-of-mutah, label: { en: "Battle of Mu'ta" }, note: "629 CE; Zayd, Ja'far and Ibn Rawaha killed" }
+- { id: place/qadisiyya, label: { en: "al-Qadisiyya" }, note: "Battle site in Iraq, ~636 CE" }
+- { id: place/yarmuk, label: { en: "The Yarmuk" }, note: "Battle site, 636 CE" }
 - { id: event/karbala, label: { en: "The killing of Husayn at Karbala" }, note: "10 Muharram 61 AH / 680 CE" }
+- { id: event/battle-of-qadisiyya, label: { en: "Battle of al-Qadisiyya" }, note: "~636 CE; Sa'd ibn Abi Waqqas defeats the Sasanians" }
+- { id: event/battle-of-yarmuk, label: { en: "Battle of the Yarmuk" }, note: "636 CE; Khalid ibn al-Walid against the Byzantines" }
+- { id: event/battle-of-yamama, label: { en: "Battle of Yamama" }, note: "632 CE; Khalid ibn al-Walid against Musaylima" }
+- { id: event/ridda-wars, label: { en: "The Ridda wars" }, note: "632–633 CE; campaigns under Abu Bakr" }
+- { id: event/battle-of-the-camel, label: { en: "Battle of the Camel" }, note: "656 CE; first fitna" }
+- { id: event/conquest-of-syria, label: { en: "The conquest of Syria" }, note: "634–638 CE" }
+- { id: event/conquest-of-egypt, label: { en: "The conquest of Egypt" }, note: "639–642 CE; Amr ibn al-As" }
+- { id: event/murder-of-uthman, label: { en: "The murder of Uthman" }, note: "656 CE" }
+- { id: event/first-muslim-martyrdom, label: { en: "The killing of Sumayya and Yasir" }, note: "~615 CE; first martyrs in tradition" }
 - { id: polity/umayyad-caliphate, label: { en: "The Umayyad Caliphate" } }
+# People written in later batches, referenced here:
 - { id: person/waraqa-ibn-nawfal, label: { en: "Waraqa ibn Nawfal" }, note: "Written in devin/people-batch-C" }
 - { id: person/wahshi-ibn-harb, label: { en: "Wahshi ibn Harb" }, note: "Written in devin/people-batch-D" }
-- { id: person/jafar-ibn-abi-talib, label: { en: "Ja'far ibn Abi Talib" }, note: "Written in devin/people-batch-B" }
 - { id: person/abraha, label: { en: "Abraha" }, note: "Written in devin/people-batch-C" }
-- { id: person/uthman-ibn-affan, label: { en: "Uthman ibn Affan" }, note: "Written in devin/people-batch-B" }
+- { id: person/abu-sufyan-ibn-harb, label: { en: "Abu Sufyan ibn Harb" }, note: "Written in devin/people-batch-D; also in _stubs.yaml" }
+- { id: person/muawiya-ibn-abi-sufyan, label: { en: "Mu'awiya ibn Abi Sufyan" }, note: "First Umayyad caliph" }
+- { id: person/amr-ibn-hisham, label: { en: "Amr ibn Hisham" }, note: "Father of Ikrima" }
+- { id: person/musaylima, label: { en: "Musaylima" }, note: "Written in devin/people-batch-E" }
+- { id: person/talha-ibn-ubaydullah, label: { en: "Talha ibn Ubaydullah" }, note: "Companion; fallen at the Camel" }
+- { id: person/zubayr-ibn-al-awwam, label: { en: "al-Zubayr ibn al-Awwam" }, note: "Companion; fallen near the Camel" }
+- { id: person/yasir-ibn-amir, label: { en: "Yasir ibn Amir" }, note: "Husband of Sumayya; early martyr" }
+- { id: person/ammar-ibn-yasir, label: { en: "Ammar ibn Yasir" }, note: "Son of Sumayya and Yasir" }
+- { id: person/habbab-ibn-al-aratt, label: { en: "Khabbab ibn al-Aratt" }, note: "Early convert; tortured in Mecca" }
+- { id: person/abdu-shams-ibn-abd-manaf, label: { en: "Abd Shams ibn Abd Manaf" }, note: "Ancestor of the Umayyads" }
+- { id: person/hind-bint-utba, label: { en: "Hind bint Utba" }, note: "Written in devin/people-batch-D" }
+- { id: person/suhayb-al-rumi, label: { en: "Suhayb al-Rumi" }, note: "Companion; Roman-born freedman" }
+- { id: person/abdullah-ibn-ubayy, label: { en: "Abdullah ibn Ubayy" }, note: "Written in devin/people-batch-D" }
+- { id: person/malik-ibn-nuwayra, label: { en: "Malik ibn Nuwayra" }, note: "Killed by Khalid's troops; contested affair" }
+- { id: person/muadh-ibn-amr-ibn-al-jamuh, label: { en: "Mu'adh ibn Amr ibn al-Jamuh" }, note: "Ansari who struck Abu Jahl at Badr" }
+- { id: person/utba-ibn-rabia, label: { en: "Utba ibn Rabi'a" }, note: "Written in devin/people-batch-C" }
+- { id: person/saffiyya-bint-abd-al-muttalib, label: { en: "Saffiyya bint Abd al-Muttalib" }, note: "Aunt of the Prophet" }
+- { id: person/al-khattab-ibn-nufayl, label: { en: "al-Khattab ibn Nufayl" }, note: "Father of Umar" }
+- { id: person/ruqayya-bint-muhammad, label: { en: "Ruqayya bint Muhammad" }, note: "Daughter of the Prophet; first wife of Uthman" }
+- { id: person/umm-kulthum-bint-muhammad, label: { en: "Umm Kulthum bint Muhammad" }, note: "Daughter of the Prophet; second wife of Uthman" }
+- { id: person/umayya-ibn-khalaf, label: { en: "Umayya ibn Khalaf" }, note: "Written in devin/people-batch-C" }
+- { id: person/al-walid-ibn-al-mughira, label: { en: "al-Walid ibn al-Mughira" }, note: "Written in devin/people-batch-C" }
+- { id: person/negus-of-aksum, label: { en: "the Negus of Aksum" }, note: "Written in devin/people-batch-C" }
+- { id: group/banu-adi, label: { en: "Banu Adi" }, note: "Clan of Quraysh; clan of Umar" }
+- { id: group/banu-umayya, label: { en: "Banu Umayya" }, note: "Clan of Quraysh; clan of Uthman" }
+- { id: group/banu-ghifar, label: { en: "Banu Ghifar" }, note: "Tribe of Abu Dharr" }
+- { id: group/banu-zuhra, label: { en: "Banu Zuhra" }, note: "Clan of Quraysh; clan of Sa'd and the Prophet's mother" }
+- { id: group/khazraj, label: { en: "Banu Khazraj" }, note: "One of the two Ansar tribes" }
+- { id: group/banu-abd-al-dar, label: { en: "Banu Abd al-Dar" }, note: "Clan of Quraysh; clan of Mus'ab ibn Umayr" }
+- { id: work/mushaf-uthmani, label: { en: "The Uthmanic recension of the Qur'an" }, note: "Standard codex produced under Uthman" }
+- { id: place/homs, label: { en: "Homs (Emesa)" }, note: "Syria; reported death place of Khalid ibn al-Walid" }
+- { id: place/amwas, label: { en: "Amwas (Emmaus)" }, note: "Palestine; site of the plague of 639 CE" }
+- { id: place/yemen, label: { en: "Yemen" }, note: "Mu'adh ibn Jabal sent there as teacher and judge" }
+- { id: place/al-rabadha, label: { en: "al-Rabadha" }, note: "Exile and death place of Abu Dharr" }
+- { id: place/egypt, label: { en: "Egypt" }, note: "Conquered 639–642 CE under Amr ibn al-As" }
+- { id: polity/byzantine-empire, label: { en: "The Byzantine Empire" } }
+- { id: polity/sasanian-empire, label: { en: "The Sasanian Empire" } }
+- { id: group/banu-jumah, label: { en: "Banu Jumah" }, note: "Clan of Quraysh; clan of Umayya ibn Khalaf" }
+- { id: group/banu-abd-shams, label: { en: "Banu Abd Shams" }, note: "Clan of Quraysh; clan of Utba ibn Rabi'a and Uqba ibn Abi Mu'ayt" }
+- { id: person/hisham-ibn-al-mughira, label: { en: "Hisham ibn al-Mughira" }, note: "Father of Abu Jahl (Amr ibn Hisham)" }
+- { id: person/ikrima-ibn-abi-jahl, label: { en: "Ikrima ibn Abi Jahl" }, note: "Written in devin/people-batch-D" }
+- { id: group/banu-asad-ibn-abd-al-uzza, label: { en: "Banu Asad ibn Abd al-Uzza" }, note: "Clan of Quraysh; clan of Khadija and Waraqa" }
+- { id: building/al-qullays-sanaa, label: { en: "al-Qullays, the cathedral of San'a" }, note: "Built by Abraha to rival the Kaaba" }

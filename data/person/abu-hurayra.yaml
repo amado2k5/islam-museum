@@ -1,0 +1,42 @@
+id: person/abu-hurayra
+class: person
+label: { en: "Abu Hurayra", ar: "أبو هريرة" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بن صخر الدوسي" }
+gender: male
+born: { edtf: "0603~", calendar: julian, precision: decade, status: tradition, note: "Born among the tribe of Daws in the Yemeni highlands; date approximate.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0681~", calendar: julian, precision: year, status: debated, note: "Reports give 57–59 AH (about 678–681 CE).", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, scholar]
+traditions: [sunni, shia-twelver]
+summary:
+  en: "A convert of the Khaybar years who became, by far, the most prolific narrator of hadith in the Sunni collections — a fact celebrated by the tradition and debated by scholars."
+  ar: "ممن أسلم زمن خيبر وصار، بفارق كبير، أكثر رواة الحديث في دواوين السنة — وهي حقيقة يحتفي بها التراث ويناقشها الباحثون."
+wings: [people]
+themes: [scripture-and-its-sciences, converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0629~" }, status: tradition, note: "Arrived at Medina and embraced Islam around the time of Khaybar.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0629~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: transmitter, start: { edtf: "0632~" }, status: tradition, note: "The single most prolific narrator in the Sunni hadith collections, despite accompanying the Prophet for only about three years.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: official, start: { edtf: "0638~" }, status: tradition, note: "Served briefly as governor of Bahrayn under Umar.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: died_in, target: place/medina }
+  - { type: member_of, target: group/early-muslims }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0629~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-khaybar, sources: [source/ibn-sad-tabaqat-bewley] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni tradition venerates Abu Hurayra as the foremost narrator of hadith: a man who devoted himself to memorizing the Prophet's words, with thousands of reports transmitted through him." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians and hadith critics note that many reports in his name are later attributions; the sheer volume, produced in about three years of companionship, is treated as a phenomenon of the tradition's growth." }
+    sources: [source/watt-1956-medina]
+  - tradition: shia-twelver
+    summary: { en: "Twelver Shia tradition is cautious about Abu Hurayra, accepting his narrations selectively and regarding some as serving later Umayyad interests." }
+    sources: [source/momen-1985]
+sensitivity: contested
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

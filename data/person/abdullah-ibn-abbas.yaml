@@ -1,0 +1,35 @@
+id: person/abdullah-ibn-abbas
+class: person
+label: { en: "Abdullah ibn Abbas", ar: "عبد الله بن عباس" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن عباس بن عبد المطلب" }
+gender: male
+born: { edtf: "0619~", calendar: julian, precision: year, status: tradition, note: "Born about three years before the Hijra.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0688~", calendar: julian, precision: year, status: tradition, note: "Died at al-Ta'if about 68 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, scholar]
+traditions: [sunni]
+summary:
+  en: "The Prophet's young cousin who grew up in Medina and became the tradition's founding authority on the interpretation of the Qur'an — remembered as the father of tafsir."
+  ar: "ابن عم النبي الصغير الذي نشأ في المدينة وصار في التراث أعلى مرجعية في تفسير القرآن — يُذكر أبًا للتفسير."
+wings: [people]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, note: "Cousin of the Prophet and of Ali.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0622" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: scholar, start: { edtf: "0640~" }, status: historical, note: "Teacher and authority on tafsir, law and the poetry of the Arabs.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: official, start: { edtf: "0656~" }, end: { edtf: "0660~" }, status: tradition, note: "Governor of Basra under Ali; later withdrew to the Hijaz.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+labelled:
+  - { label: { en: "Hibr al-Umma (the scholar of the community); Tarjuman al-Qur'an (interpreter of the Qur'an)", ar: "حبر الأمة" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/taif }
+  - { type: child_of, target: person/abbas-ibn-abd-al-muttalib }
+  - { type: member_of, target: group/banu-hashim }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
