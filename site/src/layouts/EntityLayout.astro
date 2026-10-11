@@ -5,7 +5,7 @@ import TimeStrip from "../components/TimeStrip.astro";
 import MiniMap from "../components/MiniMap.astro";
 import Extras from "../components/Extras.astro";
 import { byId, buildDate, href, labelOf, summaryOf, related, REPO, SITE } from "../lib/graph";
-import { ui, other, fmt, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, other, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse } from "../lib/markdown";
 import { formatDate } from "../lib/dates";
 import { connectionsOf, externalUrl, jsonLd, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
@@ -79,9 +79,7 @@ const bibliography = (s: Node) => {
   return `${a ? a.replace(/\.$/, "") + ". " : ""}${y ? `(${y}). ` : ""}${s.data.title ?? labelOf(s, "en")}${s.data.publisher ? `. ${s.data.publisher}` : ""}.`;
 };
 
-const alternates = {
-  en: href("en", n.id), ar: href("ar", n.id),
-};
+const alternates = Object.fromEntries(LANGS.map((l) => [l, href(l, n.id)]));
 const altNames = [...new Set([...Object.values(n.label), ...(d.names ?? []).map((x: any) => x.value), ...n.aliases.map((a) => a.split("/")[1].replace(/-/g, " "))])].filter((x) => x !== title);
 const wingChips = n.wings.filter((w) => (WINGS as readonly string[]).includes(w));
 const wishUrl = `${REPO}/issues/new?template=request-translation.yml&title=${encodeURIComponent(`Translate ${n.id} to ${lang}`)}`;

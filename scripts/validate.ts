@@ -8,7 +8,7 @@ import { createHash } from "node:crypto";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import edtf from "edtf";
-import { CLASSES, LANGS, loadEntities, loadPredicates, loadProse, loadStubs, p, readYaml, rel, resolvePredicates } from "./lib.js";
+import { CLASSES, LANGS, PUBLISHED_LANGS, loadEntities, loadPredicates, loadProse, loadStubs, p, readYaml, rel, resolvePredicates } from "./lib.js";
 import { hijriToCivil, toJDN } from "./hijri/convert.js";
 
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
@@ -102,11 +102,11 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       }
     }
 
-    if (!entity.label?.en) err(file, "label.en is required");
-    if (!entity.summary?.en) err(file, "summary.en is required");
+    // Arabic first (docs/language.md): label.ar and summary.ar are required; English is optional until Phase 4.
+    // Sources are exempt: a bibliographic entry is titled in the language of the work, not translated.
     if (entity.class !== "source") {
-      if (!entity.label?.ar) warn(file, "label.ar missing (Arabic is first-class)");
-      if (!entity.summary?.ar) warn(file, "summary.ar missing");
+      if (!entity.label?.ar) err(file, "label.ar is required (Arabic is the primary language, docs/language.md)");
+      if (!entity.summary?.ar) err(file, "summary.ar is required (Arabic is the primary language, docs/language.md)");
     }
 
     // dates
@@ -246,7 +246,7 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
 
     // media: licence and alt text in every published language
     if (entity.class === "media") {
-      for (const lang of LANGS) if (!entity.alt?.[lang]) err(file, `alt text missing for "${lang}" (required in every language we publish)`);
+      for (const lang of PUBLISHED_LANGS) if (!entity.alt?.[lang]) err(file, `alt text missing for "${lang}" (required in every language we publish)`);
     }
     if (entity.class === "media" && entity.sensitivity === "figurative-prophet") err(file, "figurative depictions of prophets are never displayed; describe in text instead");
   }
@@ -309,8 +309,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     if (!/^## /m.test(pr.body)) warn(pr.file, "no section headings");
   }
   for (const { entity, file } of loaded) {
-    if (["person", "event"].includes(entity.class) && !seen.has(`en:${entity.id}`) && entity.status?.completeness >= 2) {
-      warn(file, "completeness >= 2 but no English prose in content/en/");
+    if (["person", "event"].includes(entity.class) && !seen.has(`ar:${entity.id}`) && entity.status?.completeness >= 2) {
+      warn(file, "completeness >= 2 but no Arabic prose in content/ar/");
     }
   }
 

@@ -1,13 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { ui } from "../lib/i18n";
-const en = ui("en"), ar = ui("ar");
+const T = ui("ar");
 ---
-<BaseLayout lang="en" title={en.not_found.title} path="/404/" noindex alternates={{ en: "/404/", ar: "/404/" }}>
+<BaseLayout lang="ar" title={T.not_found.title} path="/404/" noindex alternates={{ ar: "/404/" }}>
   <div class="wrap" style="padding-block:6vh">
-    <h1>{en.not_found.title}</h1>
-    <p>{en.not_found.body} <a href="/en/">{en.not_found.home}</a></p>
-    <h1 lang="ar" dir="rtl" style="font-family:var(--ar-display)">{ar.not_found.title}</h1>
-    <p lang="ar" dir="rtl">{ar.not_found.body} <a href="/ar/">{ar.not_found.home}</a></p>
+    <h1>{T.not_found.title}</h1>
+    <p>{T.not_found.body} <a href="/ar/">{T.not_found.home}</a></p>
   </div>
 </BaseLayout>

@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { ui, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { href } from "../lib/graph";
+const { lang, path } = Astro.props as { lang: Lang; path: string };
+const T = ui(lang);
+---
+<BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/" }}>
+  <div class="wrap" style="padding-block:4vh 20px">
+    <p class="eyebrow">{T.landing.eyebrow}</p>
+    <h1 class="display" style="max-width:20ch;font-weight:400;font-size:clamp(2.2rem,6vw,4.4rem)">{T.landing.title_pre} <strong style="font-weight:600;color:var(--link)">{T.landing.title_strong}</strong> {T.landing.title_post}</h1>
+    <p style="font-size:clamp(1.1rem,2vw,1.35rem);max-width:60ch">{T.landing.lede}</p>
+    <p class="ui muted" id="today-line" data-prefix={T.landing.today_is} aria-live="polite" style="margin-bottom:2rem"></p>
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{T.landing.soon}</p>
+    <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={href(lang, "event/hijra")}>{T.landing.start} <span class="flip" aria-hidden="true">→</span></a> <span class="muted">{T.landing.start_hint}</span></p>
+
+    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted);margin-top:3rem">{T.landing.wings}</h2>
+    <ul class="grid-cards" style="margin-bottom:3.5rem">
+      {WINGS.map((w) => (
+        <li><a class="card" href={wingHref(lang, w)}><b style={`border-inline-start:4px solid var(--wing-${w});padding-inline-start:10px`}>{T.wings[w].title}</b><span>{T.wings[w].blurb}</span></a></li>
+      ))}
+    </ul>
+
+    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.entrances.title}</h2>
+    <ul class="grid-cards" style="margin-bottom:3.5rem">
+      {(["questions", "exhibits", "screen", "themes"] as const).map((k) => (
+        <li><a class="card" href={`/${lang}/${k}/`}><b>{T.entrances[k].title}</b><span>{T.entrances[k].blurb}</span></a></li>
+      ))}
+    </ul>
+
+    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.landing.how}</h2>
+    <ul class="ui muted" style="display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;list-style:none">
+      {T.landing.pillars.map((p: string) => <li style="display:flex;gap:8px;align-items:center"><span aria-hidden="true" style="width:6px;height:6px;background:var(--gold);border-radius:50%"></span>{p}</li>)}
+    </ul>
+  </div>
+  <script is:inline>
+    (function () {
+      var el = document.getElementById("today-line");
+      if (!el) return;
+      var l = document.documentElement.lang;
+      try {
+        var now = new Date(), loc = (l === "ar" ? "ar" : "en-GB");
+        var h = new Intl.DateTimeFormat(loc + "-u-ca-islamic-umalqura-nu-latn", { day: "numeric", month: "long", year: "numeric" }).format(now);
+        var g = new Intl.DateTimeFormat(loc + "-u-nu-latn", { day: "numeric", month: "long", year: "numeric" }).format(now);
+        el.textContent = el.dataset.prefix + " " + h + " · " + g;
+      } catch (e) {}
+    })();
+  </script>
+</BaseLayout>
