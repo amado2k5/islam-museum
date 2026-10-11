@@ -1,0 +1,31 @@
+id: person/utba-ibn-rabia
+class: person
+label: { en: "Utba ibn Rabi'a", ar: "عتبة بن ربيعة" }
+names:
+  - { kind: full, lang: ar, value: "عتبة بن ربيعة بن عبد شمس" }
+gender: male
+born: { edtf: "0565~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0624-03-13", hijri: "0002-09-17", calendar: julian, precision: day, status: historical, note: "Killed at Badr, 17 Ramadan 2 AH.", sources: [source/ibn-ishaq-guillaume] }
+roles: []
+traditions: []
+summary:
+  en: "An elder of Banu Abd Shams who argued for a negotiated settlement with Muhammad — and is remembered dying at Badr, father of Hind bint Utba."
+  ar: "شيخ من بني عبد شمس كان يرى المساومة مع محمد — ويذكر مقتولًا ببدر، وهو والد هند بنت عتبة."
+wings: [people]
+themes: [anti-muslim-hatred, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0613~" }, status: historical, sources: [source/ibn-ishaq-guillaume] }
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0619~" }, status: tradition, note: "Carried Quraysh's offer of wealth and kingship to the Prophet and heard his answer; the sira has him advise against fighting at Badr.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0624" }, status: historical, note: "Marched with the army despite his doubts and was killed at Badr.", sources: [source/ibn-ishaq-guillaume] }
+faith:
+  - { value: arabian-polytheism, basis: documented, sources: [source/watt-1953-mecca] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/badr }
+  - { type: member_of, target: group/banu-abd-shams }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/battle-of-badr, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

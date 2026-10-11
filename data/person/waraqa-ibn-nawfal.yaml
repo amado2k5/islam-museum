@@ -1,0 +1,29 @@
+id: person/waraqa-ibn-nawfal
+class: person
+label: { en: "Waraqa ibn Nawfal", ar: "ورقة بن نوفل" }
+names:
+  - { kind: full, lang: ar, value: "ورقة بن نوفل بن أسد الأسدي" }
+gender: male
+born: { edtf: "0555~", calendar: julian, precision: decade, status: tradition, note: "An old man — described as blind and aged — at the first revelation.", sources: [source/ibn-ishaq-guillaume] }
+died: { edtf: "0610~", calendar: julian, precision: year, status: tradition, note: "Died shortly after the first revelation, before the preaching became public.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [scholar]
+traditions: [sunni]
+summary:
+  en: "Khadija's cousin, an elderly Meccan Christian who had studied the scriptures; the man who first told the shaken Prophet that what had come to him in the cave was prophecy."
+  ar: "ابن عم خديجة، شيخ مكي نصراني درس الكتب؛ هو أول من قال للنبي المرتجف إن ما جاءه في الغار هو النبوة."
+wings: [people]
+themes: [islam-and-christianity, converts-and-leavers, scripture-and-its-sciences]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, note: "Described in the sources as a Christian who had learned the scriptures and could write Hebrew or Arabic script.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0610" }, end: { edtf: "0610" }, status: tradition, note: "Identified the revelation at Hira' as the 'great nomos' that came to Moses, and warned of the expulsion to come.", sources: [source/ibn-ishaq-guillaume] }
+faith:
+  - { value: christian, basis: tradition, note: "The sira tradition describes him as a Christian learned in the scriptures; some accounts make him a hanif who later believed in the Prophet." }
+relations:
+  - { type: died_in, target: place/mecca }
+  - { type: member_of, target: group/quraysh }
+  - { type: member_of, target: group/banu-asad-ibn-abd-al-uzza }
+  - { type: participated_in, target: event/first-revelation, role: identified-the-revelation, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

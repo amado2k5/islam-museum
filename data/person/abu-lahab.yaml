@@ -1,0 +1,37 @@
+id: person/abu-lahab
+class: person
+label: { en: "Abu Lahab", ar: "أبو لهب" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزى بن عبد المطلب" }
+gender: male
+born: { edtf: "0560~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0624", calendar: julian, precision: year, status: tradition, note: "Died shortly after Badr, of disease, in the tradition's account.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [politician]
+traditions: []
+summary:
+  en: "An uncle of the Prophet who became one of his most vocal opponents in Mecca, alongside his wife Umm Jamil — the household singled out in Qur'an 111."
+  ar: "عمّ النبي الذي صار من أشد معارضيه صوتًا في مكة هو وزوجته أم جميل — البيت الذي تذكره سورة المسد."
+wings: [people]
+themes: [anti-muslim-hatred, family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: historical, note: "Paternal uncle of the Prophet.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0613~" }, status: historical, note: "Openly hostile through the Meccan period; the tafsir tradition associates him with sura 111.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+  - { role: persecutor, toward: group/early-muslims, start: { edtf: "0613~" }, end: { edtf: "0622" }, status: tradition, note: "With his wife Umm Jamil, among the documented harassers of the Prophet's circle.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: documented, note: "Held to Mecca's traditional cult.", sources: [source/watt-1953-mecca] }
+labelled:
+  - { label: { en: "Abu Lahab ('Father of Flame')", ar: "أبو لهب" }, by: "usage in the sira tradition, possibly from a striking complexion", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/mecca }
+  - { type: child_of, target: person/abd-al-muttalib }
+  - { type: sibling_of, target: person/abu-talib }
+  - { type: spouse_of, target: person/umm-jamil }
+  - { type: member_of, target: group/banu-hashim }
+  - { type: member_of, target: group/quraysh }
+  - { type: mentioned_in, target: passage/quran-111-1, note: "Sura 111 (al-Masad) is held by all commentators to refer to him and his wife.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/boycott-of-banu-hashim, role: sided-against-his-own-clan, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

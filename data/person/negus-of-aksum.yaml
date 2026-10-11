@@ -1,0 +1,30 @@
+id: person/negus-of-aksum
+class: person
+label: { en: "the Negus of Aksum", ar: "النجاشي" }
+names:
+  - { kind: full, lang: ar-Latn, value: "Ashama ibn Abjar" }
+  - { kind: laqab, lang: ar-Latn, value: "al-Najashi (the Negus)" }
+gender: male
+born: { edtf: "0580~", calendar: julian, precision: decade, status: debated, note: "The identity of the Negus who sheltered the Muslims is not certain; the Arabic sources give the name Ashama.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0630~", calendar: julian, precision: decade, status: tradition, note: "Tradition reports the Prophet led a funeral prayer for him in absentia.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [ruler]
+traditions: []
+summary:
+  en: "The Christian king of Aksum who gave the first Muslim exiles refuge and heard Ja'far's recitation — remembered in the tradition as a just ruler who, in some reports, himself became a Muslim."
+  ar: "ملك الحبشة النصراني الذي آوى مهاجري المسلمين الأوائل وسمع تلاوة جعفر — يذكره التراث حاكمًا عادلًا، وفي بعض الروايات أسلم."
+wings: [people]
+themes: [refugees-migrants-diaspora, islam-and-christianity]
+periods: [period/prophetic-era]
+regions: [east-africa, arabia]
+story_roles:
+  - { role: protector, toward: group/early-muslims, start: { edtf: "0615" }, end: { edtf: "0628~" }, status: tradition, note: "Granted refuge to the Muslim exiles of Abyssinia and refused the Meccan envoys' demand to surrender them.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0615~" }, status: tradition, note: "Corresponded with the Prophet; some traditions make him a believer.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: christian, basis: documented, note: "Christian king of Aksum; later Islamic tradition also reports his conversion, which historians treat as tradition rather than documented fact." }
+relations:
+  - { type: ruler_of, target: place/aksum, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: protected, target: group/early-muslims, start: { edtf: "0615" }, end: { edtf: "0628~" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: corresponded_with, target: person/muhammad, note: "The tradition preserves letters exchanged between the Prophet and the Negus.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/first-migration-to-abyssinia, role: host-and-protector, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

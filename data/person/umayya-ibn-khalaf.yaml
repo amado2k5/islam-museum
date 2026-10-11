@@ -1,0 +1,32 @@
+id: person/umayya-ibn-khalaf
+class: person
+label: { en: "Umayya ibn Khalaf", ar: "أمية بن خلف" }
+names:
+  - { kind: full, lang: ar, value: "أمية بن خلف الجمحي" }
+gender: male
+born: { edtf: "0570~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0624-03-13", hijri: "0002-09-17", calendar: julian, precision: day, status: historical, note: "Killed at Badr, 17 Ramadan 2 AH.", sources: [source/ibn-ishaq-guillaume] }
+roles: []
+traditions: []
+summary:
+  en: "A headman of the clan of Jumah remembered above all as the owner who tortured Bilal — one of the named persecutors of the weak converts, killed at Badr."
+  ar: "سيد من بني جُمح يذكر قبل كل شيء بأنه مولى بلال الذي عذّبه — من المسماة بأيديهم عذاب مستضعفي المسلمين، وقُتل ببدر."
+wings: [people]
+themes: [anti-muslim-hatred, slavery-and-freedom, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: persecutor, toward: person/bilal-ibn-rabah, start: { edtf: "0612~" }, end: { edtf: "0615~" }, status: historical, note: "Tortured his slave Bilal for embracing Islam until Abu Bakr ransomed and freed him.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0613~" }, status: historical, sources: [source/ibn-ishaq-guillaume] }
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0624" }, status: historical, note: "Marched with the Meccan army to Badr and was killed there.", sources: [source/ibn-ishaq-guillaume] }
+faith:
+  - { value: arabian-polytheism, basis: documented, note: "Of the Meccan elite and its traditional cult.", sources: [source/watt-1953-mecca] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/badr }
+  - { type: member_of, target: group/banu-jumah }
+  - { type: member_of, target: group/quraysh }
+  - { type: persecuted, target: person/bilal-ibn-rabah, start: { edtf: "0612~" }, end: { edtf: "0615~" }, sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-badr, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

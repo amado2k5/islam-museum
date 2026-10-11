@@ -1,0 +1,31 @@
+id: person/uqba-ibn-abi-muayt
+class: person
+label: { en: "Uqba ibn Abi Mu'ayt", ar: "عقبة بن أبي معيط" }
+names:
+  - { kind: full, lang: ar, value: "عقبة بن أبي معيط بن عمرو بن أمية" }
+gender: male
+born: { edtf: "0570~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0624-03", calendar: julian, precision: month, status: historical, note: "Taken captive at Badr and executed on the return march, March 624 CE.", sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca] }
+roles: []
+traditions: []
+summary:
+  en: "A Qurashi of Banu Abd Shams among the documented harassers of the Prophet in Mecca; captured at Badr, he was one of the two captives executed on the march home — a fact the sources record soberly."
+  ar: "قرشي من بني عبد شمس من الموثق أذاهم للنبي بمكة؛ أُسر ببدر وكان أحد الأسيرين اللذين أُعدما في طريق العودة — حقيقة تسجلها المصادر بجفاف."
+wings: [people]
+themes: [anti-muslim-hatred, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: persecutor, toward: person/muhammad, start: { edtf: "0613~" }, end: { edtf: "0622" }, status: historical, note: "The sources document specific acts: throwing offal on the Prophet while he prayed, and throttling him with his cloak.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0624" }, status: historical, note: "Fought on the Meccan side at Badr; captured and executed.", sources: [source/ibn-ishaq-guillaume] }
+faith:
+  - { value: arabian-polytheism, basis: documented, sources: [source/watt-1953-mecca] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/badr }
+  - { type: member_of, target: group/banu-abd-shams }
+  - { type: member_of, target: group/quraysh }
+  - { type: persecuted, target: person/muhammad, start: { edtf: "0613~" }, end: { edtf: "0622" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-badr, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

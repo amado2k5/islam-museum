@@ -1,0 +1,31 @@
+id: person/al-nadr-ibn-al-harith
+class: person
+label: { en: "al-Nadr ibn al-Harith", ar: "النضر بن الحارث" }
+names:
+  - { kind: full, lang: ar, value: "النضر بن الحارث بن علقمة العبدري" }
+gender: male
+born: { edtf: "0575~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0624-03", calendar: julian, precision: month, status: historical, note: "Taken captive at Badr and executed on the return, March 624 CE.", sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca] }
+roles: []
+traditions: []
+summary:
+  en: "A Qurashi who had traveled to al-Hira and returned with Persian tales of kings and heroes, offering them against the Prophet's recitation — captured at Badr and executed on the march home."
+  ar: "قرشي سافر إلى الحيرة وعاد بأخبار الفرس في الملوك والأبطال يعرضها بديلًا عن تلاوة النبي — أُسر ببدر وأُعدم في طريق العودة."
+wings: [people]
+themes: [anti-muslim-hatred, literature, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0613~" }, status: historical, note: "Rival storyteller who held audiences against the Prophet's; the tafsir tradition links him with the verses about 'tales of the ancients'.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0624" }, status: historical, note: "Marched with the Meccan army; captured at Badr and executed.", sources: [source/ibn-ishaq-guillaume] }
+faith:
+  - { value: arabian-polytheism, basis: documented, sources: [source/watt-1953-mecca] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/badr }
+  - { type: member_of, target: group/banu-abd-al-dar }
+  - { type: member_of, target: group/quraysh }
+  - { type: persecuted, target: person/muhammad, start: { edtf: "0613~" }, end: { edtf: "0622" }, note: "Among those who harassed and mocked the Prophet in the Meccan years.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-badr, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
