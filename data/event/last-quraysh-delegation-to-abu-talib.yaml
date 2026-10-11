@@ -1,0 +1,26 @@
+id: event/last-quraysh-delegation-to-abu-talib
+class: event
+kind: council
+label: { en: "Last Quraysh delegation to Abu Talib", ar: "آخر وفد لقريش إلى أبي طالب" }
+summary:
+  en: "A delegation of Quraysh notables visiting Abu Talib on his sickbed to seek a compromise with Muhammad; the Prophet answered by demanding a single word: 'La ilaha illa Allah'."
+  ar: "وفادة سادات قريش نحو خمسة وعشرين رجلاً إلى أبي طالب في مرضه الأخير ليعطوه وينصفوه، فطلب منهم النبي كلمة واحدة تملكهم العرب وتدين لهم بها العجم، فأنزل الله فيهم صدر سورة ص."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0619~", calendar: julian, precision: year, status: tradition, note: "قبيل وفاة أبي طالب في السنة العاشرة من النبوة (الرحيق ص113-114)." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad, role: "صاحب العرض بكلمة التوحيد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-talib, role: "المحتضر الذي دعاه لإنصاف قومه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/utba-ibn-rabia, role: "من رؤساء الوفد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/shayba-ibn-rabia, role: "من رؤساء الوفد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "من رؤساء الوفد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umayya-ibn-khalaf, role: "من رؤساء الوفد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "من رؤساء الوفد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-as-ibn-wail, role: "من رؤساء الوفد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, role: "الوفد المفاوض", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 113-114" }

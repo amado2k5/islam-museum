@@ -1,0 +1,26 @@
+id: person/hisham-ibn-amr
+class: person
+label: { en: "Hisham ibn Amr al-Amiri", ar: "هشام بن عمرو العامري" }
+names:
+  - { kind: full, lang: ar, value: "هشام بن عمرو بن ربيعة العامري القرشي" }
+gender: male
+roles: [notable]
+traditions: [sunni]
+summary:
+  en: "A prominent Qurayshi notable of Banu Amir ibn Lu'ayy who secretly supplied food to Banu Hashim during the boycott and initiated the effort of the five notables to tear up the unjust charter."
+  ar: "وجيه قرشي من بني عامر بن لؤي، كان يصل بني هاشم في الشِعب بالطعام سراً بالليل، وهو الذي سعى في نقض صحيفة المقاطعة فجمع زهيراً والمطعم وأبا البختري وزمعة حتى نُقضت."
+wings: [people]
+themes: [care-for-the-vulnerable]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: protector, toward: group/banu-hashim, start: { edtf: "0616~" }, end: { edtf: "0619~" }, status: tradition, note: "كان يحمل البعير طعاماً في الليل حتى يدخله الشعب ثم يطلق خطامه (الرحيق ص110-111).", sources: [source/mubarakpuri-raheeq] }
+  - { role: interlocutor, start: { edtf: "0619~" }, status: tradition, note: "المحرك الأول لنقض صحيفة المقاطعة (الرحيق ص111).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "قرشي قبل إسلامه لاحقاً." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/boycott-of-banu-hashim, role: "الساعي في نقض الصحيفة ومهدي الميرة سراً", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 110-112" }

@@ -1,0 +1,25 @@
+id: person/zuhayr-ibn-abi-umayya
+class: person
+label: { en: "Zuhayr ibn Abi Umayya", ar: "زهير بن أبي أمية" }
+names:
+  - { kind: full, lang: ar, value: "زهير بن أبي أمية المخزومي" }
+gender: male
+roles: [notable]
+traditions: [sunni]
+summary:
+  en: "A Makhzumi notable whose mother was Atika bint Abd al-Muttalib; the first among the five Meccan leaders to publicly challenge and break the boycott charter in the Haram."
+  ar: "وجيه مخزومي أمه عاتكة بنت عبد المطلب عمة النبي؛ أول من تكلم في نقض صحيفة المقاطعة في الحرم، فطاف بالبيت وخطب في أهل مكة حتى تتابع معه النفر الخمسة."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0619~" }, status: tradition, note: "أول من نادى بنقض الصحيفة جهراً في المسجد الحرام (الرحيق ص111-112).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "قرشي من بني مخزوم." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/boycott-of-banu-hashim, role: "فاتح الكلام في نقض الصحيفة", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 111-112" }
