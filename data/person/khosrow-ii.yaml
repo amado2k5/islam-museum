@@ -1,0 +1,28 @@
+id: person/khosrow-ii
+class: person
+label: { en: "Khosrow II", ar: "كسرى الثاني" }
+names:
+  - { kind: full, lang: ar-Latn, value: "Khosrow Parviz (Khosrow the Victorious)" }
+gender: male
+born: { edtf: "0570~", calendar: julian, precision: year, status: historical, sources: [source/tabari-bosworth-1999] }
+died: { edtf: "0628-02-28", calendar: julian, precision: day, status: historical, note: "Deposed and executed in the coup of his son Kavadh II, February 628 CE.", sources: [source/tabari-bosworth-1999, source/kaegi-2003] }
+roles: [ruler]
+traditions: []
+summary:
+  en: "The last great Sasanian shah (590–628), whose armies took Jerusalem and reached Constantinople's walls before Heraclius broke his empire. The tradition records that he tore up the Prophet's letter — and died within months."
+  ar: "آخر عظام ملوك الساسانيين (590–628م)، أخذت جيوشه القدس وبلغت أسوار القسطنطينية قبل أن يكسر هرقل إمبراطوريته. وتروي الرواية أنه مزّق رسالة النبي — ومات بعد شهور."
+wings: [people]
+themes: [islam-and-zoroastrianism, wars-and-campaigns]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [persia-central-asia, levant-iraq]
+story_roles:
+  - { role: ruler, toward: polity/sasanian-empire, start: { edtf: "0590" }, end: { edtf: "0628" }, status: historical, sources: [source/tabari-bosworth-1999] }
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0627~" }, status: tradition, note: "The tradition records that he received the Prophet's letter, tore it, and ordered Yemen's governor to seize the Prophet — before his own fall.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-bosworth-1999] }
+faith:
+  - { value: zoroastrian, basis: documented, note: "Sasanian shahanshah; the empire's Zoroastrian establishment stood behind his throne.", sources: [source/tabari-bosworth-1999] }
+relations:
+  - { type: ruler_of, target: polity/sasanian-empire, start: { edtf: "0590" }, end: { edtf: "0628" }, sources: [source/tabari-bosworth-1999] }
+  - { type: corresponded_with, target: person/muhammad, note: "The tradition reports the Prophet's letter to Kisra and the shah's contemptuous reply.", sources: [source/ibn-sad-tabaqat-bewley, source/tabari-bosworth-1999] }
+  - { type: fought, target: polity/byzantine-empire, start: { edtf: "0602" }, end: { edtf: "0628" }, note: "The great Byzantine-Sasanian war that exhausted both empires.", sources: [source/kaegi-2003, source/tabari-bosworth-1999] }
+sources: [source/tabari-bosworth-1999, source/kaegi-2003]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

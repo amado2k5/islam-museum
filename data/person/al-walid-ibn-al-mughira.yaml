@@ -1,0 +1,30 @@
+id: person/al-walid-ibn-al-mughira
+class: person
+label: { en: "al-Walid ibn al-Mughira", ar: "الوليد بن المغيرة" }
+names:
+  - { kind: full, lang: ar, value: "الوليد بن المغيرة المخزومي" }
+gender: male
+born: { edtf: "0550~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0620~", calendar: julian, precision: year, status: tradition, note: "Died shortly after the boycott period, before Badr.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: []
+traditions: []
+summary:
+  en: "The grand old man of Banu Makhzum — arbiter of Quraysh's elders, father of Khalid, and the man whose poetic verdicts shaped how Mecca first named the Prophet's recitation."
+  ar: "شيخ بني مخزوم الكبير — حكم شيوخ قريش، وأبو خالد، والرجل الذي شكّلت أحكامه البلاغية ما سمّت به مكة أولًا تلاوة النبي."
+wings: [people]
+themes: [anti-muslim-hatred, literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0613~" }, status: historical, note: "Senior voice of the Makhzum opposition; the sira preserves his council-scene judging the revelation 'a magic that comes down from the magic of old'.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: persecutor, toward: group/early-muslims, start: { edtf: "0613~" }, end: { edtf: "0620~" }, status: tradition, note: "Of the elite that pressed the boycott of Banu Hashim.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: documented, note: "An elder of Mecca's traditional order.", sources: [source/watt-1953-mecca] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/mecca }
+  - { type: member_of, target: group/banu-makhzum }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/boycott-of-banu-hashim, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1953-mecca]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

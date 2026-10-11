@@ -1,0 +1,28 @@
+id: person/umm-jamil
+class: person
+label: { en: "Umm Jamil", ar: "أم جميل" }
+names:
+  - { kind: full, lang: ar, value: "أروى بنت حرب بن أمية" }
+gender: female
+born: { edtf: "0565~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+roles: []
+traditions: []
+summary:
+  en: "Wife of Abu Lahab and sister of Abu Sufyan; remembered in the sources for harassing the Prophet — the 'carrier of wood' of Qur'an 111 in the commentators' reading."
+  ar: "زوجة أبي لهب وأخت أبي سفيان؛ تذكرها المصادر بأذاها للنبي — «حمالة الحطب» في قراءة المفسرين لسورة المسد."
+wings: [people]
+themes: [women, anti-muslim-hatred]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0613~" }, status: tradition, note: "The sources describe her carrying thorns to scatter in the Prophet's path.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: documented, note: "Of the Meccan elite and its traditional cult.", sources: [source/watt-1953-mecca] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: spouse_of, target: person/abu-lahab }
+  - { type: sibling_of, target: person/abu-sufyan-ibn-harb }
+  - { type: member_of, target: group/banu-umayya }
+  - { type: mentioned_in, target: passage/quran-111-4, note: "Commentators identify her as the 'carrier of wood' of sura 111.", sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }

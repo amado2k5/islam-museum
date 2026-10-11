@@ -1,0 +1,40 @@
+id: person/abu-jahl
+class: person
+label: { en: "Abu Jahl (Amr ibn Hisham)", ar: "أبو جهل" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن هشام بن المغيرة المخزومي" }
+  - { kind: laqab, lang: ar-Latn, value: "Abu al-Hakam (as his own people called him)" }
+gender: male
+born: { edtf: "0570~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0624-03-13", hijri: "0002-09-17", calendar: julian, precision: day, status: historical, note: "Killed at Badr, 17 Ramadan 2 AH (13 March 624 CE).", sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca] }
+roles: [politician]
+traditions: []
+summary:
+  en: "The most implacable leader of Meccan opposition to Muhammad: organizer of the boycott of Banu Hashim, persecutor of the weak converts, and the Quraysh commander killed at Badr."
+  ar: "أعنف زعماء معارضة مكة لمحمد: صاحب مقاطعة بني هاشم، ومعذّب المستضعفين من المسلمين، وقائد قريش الذي قُتل ببدر."
+wings: [people]
+themes: [anti-muslim-hatred, battles, skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0613~" }, status: historical, note: "The leading voice of the Meccan opposition through the whole Meccan period.", sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca] }
+  - { role: persecutor, toward: group/early-muslims, start: { edtf: "0614~" }, end: { edtf: "0622" }, status: historical, note: "Documented in the sources as persecuting vulnerable converts, including the family of Yasir; Sumayya's killing is attributed to him.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0624" }, status: historical, note: "Led the Meccan army at Badr and was killed there.", sources: [source/ibn-ishaq-guillaume] }
+faith:
+  - { value: arabian-polytheism, basis: documented, note: "A leader of Mecca's traditional cult and defender of its order.", sources: [source/watt-1953-mecca] }
+labelled:
+  - { label: { en: "Abu Jahl ('Father of Ignorance') — the Muslims' name for him; his own people called him Abu al-Hakam, 'Father of Wisdom'", ar: "أبو جهل" }, by: "the Muslim community, polemically reversing his honorific", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/badr }
+  - { type: child_of, target: person/hisham-ibn-al-mughira }
+  - { type: member_of, target: group/banu-makhzum }
+  - { type: member_of, target: group/quraysh }
+  - { type: persecuted, target: group/early-muslims, start: { edtf: "0614~" }, end: { edtf: "0622" }, note: "The sources attribute to him the torture and killing of weak converts, including Sumayya bint Khayyat.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: persecuted, target: person/sumayya-bint-khayyat, end: { edtf: "0615~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0624" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/boycott-of-banu-hashim, role: organizer, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/plot-of-dar-al-nadwa, role: leading-voice, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-badr, role: meccan-commander, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

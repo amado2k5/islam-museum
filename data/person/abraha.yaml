@@ -1,0 +1,28 @@
+id: person/abraha
+class: person
+label: { en: "Abraha", ar: "أبرهة" }
+names:
+  - { kind: laqab, lang: ar-Latn, value: "Abraha al-Ashram" }
+gender: male
+born: { edtf: "0520~", calendar: julian, precision: decade, status: historical, sources: [source/tabari-bosworth-1999] }
+died: { edtf: "0570~", calendar: julian, precision: decade, status: debated, note: "His campaign on Mecca — the 'Year of the Elephant' — is dated by tradition to ~570 CE, and by inscription evidence to ~552 CE.", sources: [source/tabari-bosworth-1999, source/watt-1953-mecca] }
+roles: [general, ruler]
+traditions: []
+summary:
+  en: "The Aksumite governor who made himself ruler of Yemen, built the great church of San'a, and marched on Mecca with an elephant — the invader of the 'Year of the Elephant' remembered in Qur'an 105."
+  ar: "الوالي الحبشي الذي استقل بحكم اليمن، وبنى كنيسة صنعاء العظيمة، وزحف على مكة بفيل — قائد «عام الفيل» الذي تذكره سورة الفيل."
+wings: [people]
+themes: [wars-and-campaigns, islam-and-christianity, sacred-space-and-pilgrimage]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: military-opponent, toward: group/quraysh, start: { edtf: "0552~" }, end: { edtf: "0570~" }, status: tradition, note: "Marched on Mecca intending to destroy the Kaaba; the tradition dates the campaign to the year of the Prophet's birth.", sources: [source/ibn-ishaq-guillaume, source/tabari-bosworth-1999] }
+  - { role: ruler, toward: place/yemen, start: { edtf: "0530~" }, end: { edtf: "0570~" }, status: historical, note: "Rose from Aksumite commander to independent ruler of Himyar (Yemen).", sources: [source/tabari-bosworth-1999] }
+faith:
+  - { value: christian, basis: documented, note: "A Christian ruler of the Aksumite sphere who built the great cathedral of San'a to rival Mecca's pilgrimage.", sources: [source/tabari-bosworth-1999] }
+relations:
+  - { type: ruler_of, target: place/yemen, sources: [source/tabari-bosworth-1999] }
+  - { type: participated_in, target: event/year-of-the-elephant-and-birth, role: invader, sources: [source/ibn-ishaq-guillaume, source/tabari-bosworth-1999] }
+  - { type: built, target: building/al-qullays-sanaa, note: "Built the cathedral al-Qullays at San'a to draw the Arabs' pilgrimage away from Mecca.", sources: [source/tabari-bosworth-1999] }
+sources: [source/tabari-bosworth-1999, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

@@ -1,0 +1,28 @@
+id: person/zayd-ibn-amr
+class: person
+label: { en: "Zayd ibn Amr", ar: "زيد بن عمرو" }
+names:
+  - { kind: full, lang: ar, value: "زيد بن عمرو بن نفيل" }
+gender: male
+born: { edtf: "0560~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-ishaq-guillaume] }
+died: { edtf: "0605~", calendar: julian, precision: year, status: tradition, note: "Died a few years before the first revelation, killed by brigands near al-Ta'if in one account.", sources: [source/ibn-ishaq-guillaume] }
+roles: [preacher]
+traditions: [sunni]
+summary:
+  en: "A Meccan seeker who rejected the idols of his people and sought 'the religion of Abraham' years before the Prophet's mission — the tradition's example of the hanif, the indigenous monotheist."
+  ar: "باحث مكي رفض أصنام قومه وطلب «دين إبراهيم» قبل بعثة النبي بسنين — مثال التراث على الحنيف، الموحّد البدوي."
+wings: [people]
+themes: [creed, islam-and-christianity, tradition-versus-culture]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: critic, toward: group/quraysh, start: { edtf: "0590~" }, status: tradition, note: "Publicly denounced idolatry and the sacrifice to idols; driven out of Mecca and forced to live in the hills above it.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: witness, start: { edtf: "0610~" }, status: tradition, note: "Remembered in the tradition as a monotheist who died just before the mission he half-expected.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: hanif, basis: tradition, note: "The tradition holds him up as the hanif — one who sought Abraham's pure monotheism before Islam." }
+relations:
+  - { type: member_of, target: group/banu-adi }
+  - { type: member_of, target: group/quraysh }
+  - { type: traveled_to, target: place/taif, note: "Exiled to the hills above Mecca in the al-Ta'if direction by his own people.", sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

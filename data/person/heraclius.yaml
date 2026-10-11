@@ -1,0 +1,28 @@
+id: person/heraclius
+class: person
+label: { en: "Heraclius", ar: "هرقل" }
+names:
+  - { kind: full, lang: ar-Latn, value: "Flavius Heraclius" }
+gender: male
+born: { edtf: "0575~", calendar: julian, precision: year, status: historical, sources: [source/kaegi-2003] }
+died: { edtf: "0641-02-11", calendar: julian, precision: day, status: historical, sources: [source/kaegi-2003] }
+roles: [ruler]
+traditions: []
+summary:
+  en: "Byzantine emperor (610–641) who reconquered Jerusalem from Persia and then watched the Muslim conquest of Syria. The tradition preserves a letter from the Prophet and an audience in which Heraclius questioned Abu Sufyan."
+  ar: "إمبراطور بيزنطة (610–641م) الذي استرد القدس من الفرس ثم رأى الفتح الإسلامي للشام. وتحفظ الرواية رسالة من النبي ومقابلة سأل فيها أبا سفيان."
+wings: [people]
+themes: [islam-and-christianity, wars-and-campaigns]
+periods: [period/prophetic-era, period/rashidun]
+regions: [levant-iraq, anatolia-balkans]
+story_roles:
+  - { role: ruler, toward: polity/byzantine-empire, start: { edtf: "0610" }, end: { edtf: "0641" }, status: historical, sources: [source/kaegi-2003] }
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0628~" }, status: tradition, note: "The hadith tradition reports a letter from the Prophet and an audience in which Heraclius questioned Abu Sufyan about him.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: christian, basis: documented, note: "Byzantine emperor and defender of Chalcedonian Orthodoxy.", sources: [source/kaegi-2003] }
+relations:
+  - { type: ruler_of, target: polity/byzantine-empire, start: { edtf: "0610" }, end: { edtf: "0641" }, sources: [source/kaegi-2003] }
+  - { type: corresponded_with, target: person/muhammad, note: "The tradition preserves the Prophet's letter summoning him to Islam.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: fought, target: polity/sasanian-empire, start: { edtf: "0622" }, end: { edtf: "0628" }, note: "His victorious counter-invasion ended the Byzantine-Sasanian war.", sources: [source/kaegi-2003] }
+sources: [source/kaegi-2003, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
