@@ -9,13 +9,13 @@ export default defineConfig({
   trailingSlash: "always",
   build: { format: "directory" },
   i18n: {
-    locales: ["ar"],
-    defaultLocale: "ar",
+    locales: ["en", "ar"],
+    defaultLocale: "en",
     routing: { prefixDefaultLocale: true, redirectToDefaultLocale: false },
   },
   integrations: [
     svelte(),
-    sitemap({ i18n: { defaultLocale: "ar", locales: { ar: "ar" } } }),
+    sitemap({ i18n: { defaultLocale: "en", locales: { en: "en", ar: "ar" } } }),
   ],
   vite: { plugins: [tailwindcss()], server: { fs: { allow: [".."] } } },
 });

@@ -2,10 +2,8 @@ import { readFileSync } from "node:fs";
 import { repoPath } from "./paths";
 import { parse } from "yaml";
 
-// Arabic first (docs/language.md): the site publishes Arabic only through Phase 3. Add "en" here, in astro.config.mjs and in scripts/lib.ts PUBLISHED_LANGS when the English translation ships (Phase 4).
-export const LANGS = ["ar"] as const;
-export const ALL_LANGS = ["ar", "en"] as const;
-export type Lang = "ar" | "en";
+export const LANGS = ["en", "ar"] as const;
+export type Lang = (typeof LANGS)[number];
 export const other = (l: Lang): Lang => (l === "en" ? "ar" : "en");
 
 const cache = new Map<string, any>();

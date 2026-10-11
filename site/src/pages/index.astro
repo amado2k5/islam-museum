@@ -1,5 +1,37 @@
 ---
-// Arabic is the default locale (docs/language.md): the root serves the Arabic home page directly. The canonical URL form stays /ar/.
-import Landing from "../components/Landing.astro";
+// Root: choose a language. Cloudflare can do this at the edge by Accept-Language (docs/plan/03 §6);
+// this page is the fallback that works on any static host.
+import { SITE } from "../lib/graph";
 ---
-<Landing lang="ar" path="/ar/" />
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>islam.museum · متحف الإسلام</title>
+    <meta name="description" content="An open, free, all-digital museum of Islam. متحف رقمي مفتوح ومجاني للإسلام." />
+    <link rel="canonical" href={`${SITE}/en/`} />
+    <link rel="alternate" hreflang="en" href={`${SITE}/en/`} />
+    <link rel="alternate" hreflang="ar" href={`${SITE}/ar/`} />
+    <link rel="alternate" hreflang="x-default" href={`${SITE}/en/`} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="color-scheme" content="light dark" />
+    <noscript><meta http-equiv="refresh" content="0; url=/en/" /></noscript>
+    <style>
+      body{margin:0;min-height:100svh;display:grid;place-items:center;font-family:system-ui,sans-serif;background:#f7f3ea;color:#1b1b1f}
+      @media(prefers-color-scheme:dark){body{background:#17171a;color:#ede8dd}}
+      a{font-size:1.5rem;margin:0 14px;color:inherit}
+    </style>
+    <script is:inline>
+      (function () {
+        var l = null;
+        try { l = localStorage.getItem("lang"); } catch (e) {}
+        if (!l) l = (navigator.language || "en").toLowerCase().indexOf("ar") === 0 ? "ar" : "en";
+        location.replace("/" + l + "/" + location.search + location.hash);
+      })();
+    </script>
+  </head>
+  <body>
+    <main><p><a href="/en/">English</a> <a href="/ar/" lang="ar">العربية</a></p></main>
+  </body>
+</html>
