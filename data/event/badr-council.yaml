@@ -1,0 +1,28 @@
+id: event/badr-council
+class: event
+kind: council
+label: { en: "The Badr war council", ar: "المجلس الاستشاري عشية بدر" }
+summary:
+  en: "The consultative council the Prophet held at Dhi Afran after news of the Quraysh levy reached him, in which the Muslim commanders — and Sa'd ibn Mu'adh speaking for the Ansar — pledged to fight beyond the letter of the Aqaba pledge."
+  ar: "مجلس عسكري استشاري عقده النبي بوادي ذي أفران بعدما بلغه خبر العير والنفير؛ تكلم فيه أبو بكر وعمر والمقداد، وأجاب سعد بن معاذ عن الأنصار ببيعة قتال تتجاوز نصوص العقبة."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { hijri: "0002-09", calendar: julian, precision: month, status: tradition, note: "قبل الوصول إلى بدر بأيام، إثر وصول الخبر بوادي ذفران (الرحيق ص208)." }
+outcome:
+  en: "Decision to advance on Badr; the Ansar pledge support outside their own territory."
+  ar: "قرار المضي إلى بدر؛ التزام الأنصار بالقتال خارج ديارهم."
+significance:
+  ar: "تجاوزت بيعة الأنصار في هذا المجلس نصوص العقبة التي لم تكن تلزمهم بالقتال خارج ديارهم (الرحيق ص209)."
+relations:
+  - { type: occurred_at, target: place/dhi-afran }
+  - { type: part_of, target: event/battle-of-badr }
+  - { type: had_participant, target: person/muhammad, role: "عقد المجلس واستشار الجيش", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, role: "تكلم فأحسن", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "تكلم فأحسن", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-miqdad-ibn-amr, role: "صاحب كلمة «برك الغماد»", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-muadh, role: "أجاب عن الأنصار", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 208-209" }

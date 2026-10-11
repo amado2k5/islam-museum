@@ -1,0 +1,23 @@
+id: person/al-akhnas-ibn-shariq
+class: person
+label: { en: "al-Akhnas ibn Shariq", ar: "الأخنس بن شريق" }
+names:
+  - { kind: full, lang: ar, value: "الأخنس بن شريق الثقفي" }
+gender: male
+roles: [tribal-leader]
+traditions: [sunni]
+summary:
+  en: "A Thaqafi leader allied to Banu Zuhra who marched with the Meccan army, then judged a battle against Medina unnecessary after the caravan escaped and led the whole Zuhra contingent — some 300 men — home before Badr."
+  ar: "زعيم ثقفي حليف بني زهرة ورئيس عليهم في نفير بدر؛ رأى أن لا حاجة بقريش إلى القتال بعد نجاة العير، فردّ بني زهرة كلهم — نحو ثلاثمائة رجل — فلم يشهد بدر زهريٌّ واحد."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, start: { edtf: "0624" }, end: { edtf: "0624" }, status: tradition, note: "خرج في جيش مكة قائداً لفصيل بني زهرة ثم ردّهم قبل اللقاء؛ لم يقاتل في بدر (الرحيق ص207-208).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, start: { edtf: "0624" }, note: "في جيش مشركي مكة وقت بدر؛ إسلامه اللاحق خارج نطاق هذا القسم.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/thaqif }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 207-208)" }

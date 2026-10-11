@@ -1,0 +1,29 @@
+id: person/al-miqdad-ibn-amr
+class: person
+label: { en: "al-Miqdad ibn Amr", ar: "المقداد بن عمرو" }
+names:
+  - { kind: full, lang: ar, value: "المقداد بن عمرو البهراني، ويُعرف بالمقداد بن الأسود بالتبنّي" }
+gender: male
+died: { edtf: "0654~", hijri: "0033~", calendar: julian, precision: year, status: tradition, note: "مات بالجرف قرب المدينة سنة ثلاث وثلاثين على المشهور؛ خارج نطاق قسم بدر.", sources: [source/tabaqat-ibn-sad] }
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  en: "A Bahrani confederate adopted into Quraysh and one of the first Muslims; at Badr he was one of the army's two horsemen, commanded the left wing, and made the council's famous pledge to fight to Bark al-Ghimad."
+  ar: "حليف بهراني تبنّاه الأسود بن عبد يغوث الزهري فاشتُهر بالمقداد بن الأسود؛ من السابقين إلى الإسلام، وكان يوم بدر أحد فارسَي الجيش وقائد ميسرته، وصاحب كلمة «برك الغماد» في المجلس الاستشاري."
+wings: [people]
+themes: [battles, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, sources: [source/tabaqat-ibn-sad] }
+  - { role: companion, status: tradition, sources: [source/tabaqat-ibn-sad] }
+  - { role: commander, start: { edtf: "0624" }, status: tradition, note: "قائد الميسرة يوم بدر (الرحيق ص205).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "من مهاجرة السابقين؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/muhajirun }
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/battle-of-badr, role: "قيادة الميسرة؛ أحد الفارسين", sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/badr-council, role: "تكلم بعد أبي بكر وعمر", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tabaqat-ibn-sad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 205, 209)" }

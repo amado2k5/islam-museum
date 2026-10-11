@@ -1,0 +1,24 @@
+id: person/sawad-ibn-ghaziyya
+class: person
+label: { en: "Sawad ibn Ghaziyya", ar: "سواد بن غزية" }
+names:
+  - { kind: full, lang: ar, value: "سواد بن غزية الأنصاري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An Ansari Companion at Badr who, when the Prophet's arrow nicked him while straightening the ranks, bared his own belly for retaliation; the Prophet embraced him instead — the best-known of the 'wonders of faith' vignettes from the battle."
+  ar: "صحابي أنصاري وقف يوم بدر متقدماً على الصف فأوجعه النبي بقدحٍ وهو يسوّي الصفوف، فكشف عن بطنه طالباً القصاص، فعانقه النبي؛ وتروى قصته في «روائع الإيمان» من مشاهد بدر."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "أنصاري من أهل بدر؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-badr, role: "صاحب قصة القَدَح قبل الالتحام", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (p. 215)" }

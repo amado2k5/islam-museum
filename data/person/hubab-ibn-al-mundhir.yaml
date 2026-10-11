@@ -1,0 +1,24 @@
+id: person/hubab-ibn-al-mundhir
+class: person
+label: { en: "al-Hubab ibn al-Mundhir", ar: "الحباب بن المنذر" }
+names:
+  - { kind: full, lang: ar, value: "الحباب بن المنذر بن الجموح الخزرجي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Khazraji Companion whose counsel at Badr — to occupy the nearest well, block the others and build a reservoir — the Prophet accepted, giving the Muslim camp control of the water."
+  ar: "صحابي خزرجي صاحب مشورة الماء يوم بدر: النزول على أدنى ماء من قريش، وتغوير القُلُب خلفه، وبناء حوض يُشرب منه ولا يُشرب من دونه؛ فأخذ النبي برأيه."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "أنصاري من أهل بدر؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-badr, role: "صاحب مشورة النزول على الماء", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (p. 211)" }

@@ -1,0 +1,20 @@
+id: event/badr-qulayb
+class: event
+kind: other
+label: { en: "The Qulayb at Badr", ar: "القليب — دفن قتلى المشركين ببدر" }
+summary:
+  en: "After the battle the Quraysh dead were cast into a pit (the qulayb) at Badr, where the Prophet addressed them by name; when Umar asked how he spoke to the dead he answered that they heard him no less than the living."
+  ar: "أُلقي قتلى المشركين بعد الوقعة في بئر مطمورة يقال لها القليب، فوقف النبي عليها يناديهم بأسمائهم؛ ولما سأله عمر عن خطاب موتى لا يسمعون قال إنهم ليسوا بأسمع لما يقول منهم."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { hijri: "0002-09", calendar: julian, precision: month, status: tradition, note: "بعد الوقعة مباشرة؛ في رواية مشكاة ٢/٣٤٥ بعد ثلاثة أيام (الرحيق ص225)." }
+relations:
+  - { type: occurred_at, target: place/badr }
+  - { type: part_of, target: event/battle-of-badr }
+  - { type: had_participant, target: person/muhammad, role: "وقف على القليب ونادى القتلى", sources: [source/mubarakpuri-raheeq, source/mishkat-al-masabih] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "سأل عن خطاب الموتى", sources: [source/mubarakpuri-raheeq, source/mishkat-al-masabih] }
+sources: [source/mubarakpuri-raheeq, source/mishkat-al-masabih]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (p. 225)" }

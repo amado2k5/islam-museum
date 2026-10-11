@@ -1,0 +1,29 @@
+id: person/ubayda-ibn-al-harith
+class: person
+label: { en: "Ubayda ibn al-Harith", ar: "عبيدة بن الحارث" }
+names:
+  - { kind: full, lang: ar, value: "عبيدة بن الحارث بن المطلب بن عبد مناف الهاشمي" }
+gender: male
+died: { edtf: "0624-03-1X", hijri: "0002-09", calendar: julian, precision: month, status: tradition, note: "مات بالصفراء بعد أربعة أو خمسة أيام من وقعة بدر وهو في طريق العودة إلى المدينة (الرحيق ص217).", sources: [source/mubarakpuri-raheeq] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Hashimi Muhajir, the eldest of the three Muslim duelists at Badr; he exchanged two blows with Utba ibn Rabi'a that left both mortally wounded, and died at al-Safra days later on the march home."
+  ar: "هاشمي مهاجري، أسنّ المبارزين الثلاثة يوم بدر؛ اختلف بينه وبين عتبة بن ربيعة ضربتان أثخن كلٌّ منهما صاحبه، فقُطعت رجله ومات بالصفراء بعد أربعة أو خمسة أيام."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-sira] }
+  - { role: martyr, start: { edtf: "0624-03" }, status: tradition, note: "من جرح بدر؛ يُعدّ من شهدائها.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "هاشمي مهاجري؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/banu-hashim }
+  - { type: member_of, target: group/muhajirun }
+  - { type: participated_in, target: event/badr-duel, role: "بارز عتبة بن ربيعة — على رواية ابن إسحاق", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/mubarakpuri-raheeq] }
+  - { type: died_in, target: place/al-safra }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mishkat-al-masabih]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 204-233 (pp. 216-217)" }
