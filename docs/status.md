@@ -1,6 +1,6 @@
 # Project status and how to resume
 
-_Last updated 11 October 2026. Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
+_Last updated 11 October 2026, 18:15 EDT._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
 
 ## What exists
 
@@ -45,6 +45,16 @@ Both skip finished files and resume partial ones. Checksums go to `$HARVEST/raw/
 | Schema, scripts, site, i18n, events, places, periods, maps, Qur'an, local harvest | Maintainer session (Claude) | everything else | In progress |
 
 Devin's schema needs arrive as `docs/requests/devin-*.md`. Unresolved references for parallel contributors go in `data/_stubs.d/*.yaml` (read by the validator and graph builder alongside `data/_stubs.yaml`).
+
+## Live state snapshot (11 Oct 2026, ~18:15 EDT)
+
+| Item | State |
+|---|---|
+| Downloads on `/Volumes/exmicroSD/islam-museum-harvest` | **Done and checksummed:** all 9 first-ring Wikipedias (5 files each, incl. linktarget), OpenITI corpus 2025.1.9 (md5 ok) and Makhzan, Pleiades, GeoNames, Met, Natural Earth, ETOPO1. **Running (tmux `harvest-dl`):** Wikidata JSON dump, 8% of 96 GiB at about 8 MB/s (about 3 h), then the 26 second-ring Wikipedias (about 46 GiB). Resume: `python scripts/harvest/download_dumps.py`. About 72 GB raw on disk, 870 GiB free. |
+| English Wikipedia tables (`$HARVEST/db/wikipedia.duckdb`) | `wp_en_page` (22.0 M rows) and `wp_en_catlinks` (226.6 M rows) loaded; `wp_en_linktarget` loading; **next:** `python scripts/harvest/wikipedia/select_pages.py --lang en`, then `extract.py --lang en`. Other languages' SQL dumps not parsed yet (`load_sql.py LANG`). |
+| Wikidata | Dump downloading; `filter_dump.py` (two-pass) ready and self-tested, not yet run on the real dump. 1,074 seed QIDs in `$HARVEST/db/seeds.txt`. |
+| Devin (people lane) | Branches `devin/people-batch-A` … `-F` are all pushed. **A reviewed by the maintainer: clean** (0 validation errors when merged with main, Sunni-first perspectives, real sources). B-F not yet reviewed. None merged: merge after review (`git merge --no-ff origin/devin/people-batch-X`, then `npm run validate && npm test`, then remove stubs the batch resolves from `data/_stubs.d/claude-events.yaml` and `data/_stubs.yaml`). |
+| Content on main | 31 places, 39 events (Prophetic era), 13 periods, 12+ sources, Qur'an (frozen), *The Message*; all `draft` |
 
 ## Next steps, in order
 
