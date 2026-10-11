@@ -185,7 +185,7 @@ part_of: place/hejaz
 external_ids: { wikidata: Q35484, geonames: "109223", pleiades: "..." }
 ```
 
-- `polity.extent[]` holds dated GeoJSON snapshots (e.g. 661, 750, 900) for the map's time slider. Start coarse (hand-drawn simplified polygons), refine later.
+- `polity.extent[]` holds dated GeoJSON snapshots (e.g. 661, 750, 900) for the map's time slider, each with `precision ∈ {schematic, approximate, documented}` and a `source`, because every open border dataset (OpenHistoricalMap, historical-basemaps) is coarse and borders of pre-modern polities were zones, not lines. The UI renders schematic extents with soft edges. Start coarse, refine later.
 - `journey.legs[]` compile to a LineString with per-leg dates for animated routes.
 - Regions controlled list (`schema/enums/regions.yaml`): Arabia · Levant & Iraq · Egypt & Nile · Maghreb · al-Andalus & Europe · Anatolia, Caucasus & Balkans · Persia & Central Asia · South Asia · Southeast Asia · China & East Asia · West Africa & Sahel · East Africa & Swahili coast · Americas & Oceania · Global/Diaspora.
 
