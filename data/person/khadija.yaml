@@ -1,0 +1,38 @@
+id: person/khadija
+class: person
+label: { en: Khadija bint Khuwaylid, ar: خديجة بنت خويلد }
+names:
+  - { kind: full, lang: ar, value: خديجة بنت خويلد بن أسد بن عبد العزى بن قصي }
+gender: female
+born: { edtf: "0555~", calendar: julian, precision: year, status: tradition, note: "Tradition places her birth around 555 CE, about fifteen years before the Prophet; the exact year is not certain.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0619-04~", calendar: julian, precision: month, status: tradition, note: "Traditionally Ramadan, three years before the Hijra (about April 619 CE), in the same period as Abu Talib's death.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+roles: [merchant, companion]
+traditions: [sunni, shia-twelver]
+summary:
+  en: "A wealthy Meccan merchant who was the Prophet Muhammad's first wife and, in tradition, the first person to believe in his message."
+  ar: "تاجرة مكية ثرية، كانت أول أزواج النبي محمد، وهي في الرواية أول من آمن برسالته."
+wings: [people]
+themes: [women, family-marriage-kinship, trade-and-finance]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: merchant, end: { edtf: "0610~" }, status: tradition, sources: [source/ibn-ishaq-guillaume] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0610~" }, status: tradition, note: "Tradition counts her the first person to embrace Islam.", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+  - { role: family-of-the-prophet, status: tradition, sources: [source/ibn-ishaq-guillaume] }
+  - { role: companion, start: { edtf: "0610~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, end: { edtf: "0610~" } }
+  - { value: sunni, basis: tradition, start: { edtf: "0610~" }, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). She predates the Sunni-Shia division." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/mecca }
+  - { type: child_of, target: person/khuwaylid-ibn-asad }
+  - { type: spouse_of, target: person/muhammad, start: { edtf: "0595~" }, end: { edtf: "0619-04~" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: member_of, target: group/banu-hashim, note: "By marriage into the Prophet's household; her own clan was Asad ibn Abd al-Uzza of Quraysh." }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/marriage-to-khadija }
+  - { type: participated_in, target: event/first-revelation, role: comforted-the-prophet, note: "Tradition reports she reassured the Prophet after the first revelation.", sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/boycott-of-banu-hashim }
+  - { type: participated_in, target: event/year-of-sorrow }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

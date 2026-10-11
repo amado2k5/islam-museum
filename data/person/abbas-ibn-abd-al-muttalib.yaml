@@ -1,0 +1,38 @@
+id: person/abbas-ibn-abd-al-muttalib
+class: person
+label: { en: al-Abbas ibn Abd al-Muttalib, ar: العباس بن عبد المطلب }
+names:
+  - { kind: full, lang: ar, value: العباس بن عبد المطلب بن هاشم }
+  - { kind: kunya, lang: ar-Latn, value: Abu al-Fadl }
+gender: male
+born: { edtf: "0568~", calendar: julian, precision: year, status: tradition, note: "Approximate; sources differ on the year.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0653~", hijri: "0033~", calendar: julian, precision: year, status: tradition, note: "Died in Medina in 32 or 33 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, merchant]
+traditions: [sunni, shia-twelver]
+summary:
+  en: "An uncle of the Prophet, captured with the Meccan side at Badr and later a Muslim, whose descendants founded the Abbasid caliphate."
+  ar: "عمّ النبي، أُسر مع المكيين في بدر ثم أسلم لاحقًا، ومن نسله قامت الخلافة العباسية."
+wings: [people]
+themes: [family-marriage-kinship, factions-splits-schisms]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: group/early-muslims, start: { edtf: "0624-03" }, end: { edtf: "0624-03" }, status: tradition, note: "Reported to have marched with the Meccan army to Badr and been captured; some reports say he was already secretly Muslim.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: convert, start: { edtf: "0630~" }, status: tradition, note: "The timing of his conversion is itself reported differently — openly by the conquest of Mecca, secretly earlier according to some reports.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0630~" }, end: { edtf: "0653~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: family-of-the-prophet, status: tradition, sources: [source/ibn-ishaq-guillaume] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, end: { edtf: "0630~" } }
+  - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/medina }
+  - { type: child_of, target: person/abd-al-muttalib }
+  - { type: sibling_of, target: person/abu-talib }
+  - { type: sibling_of, target: person/hamza }
+  - { type: member_of, target: group/banu-hashim }
+  - { type: participated_in, target: event/battle-of-badr, role: captured-on-the-meccan-side, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/conquest-of-mecca }
+  - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

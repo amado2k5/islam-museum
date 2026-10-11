@@ -1,0 +1,34 @@
+id: person/zayd-ibn-haritha
+class: person
+label: { en: Zayd ibn Haritha, ar: زيد بن حارثة }
+names:
+  - { kind: full, lang: ar, value: زيد بن حارثة الكلبي }
+  - { kind: alternate, lang: ar-Latn, value: "Zayd ibn Muhammad (before reversion to his father's name)" }
+gender: male
+born: { edtf: "058X", calendar: julian, precision: decade, status: tradition, note: "Year unknown; a young man when he came into the Prophet's household.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0629-09", hijri: "0008-05", calendar: julian, precision: month, status: tradition, note: "Killed at Mu'ta in Jumada I 8 AH (about September 629 CE).", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A freedman of the Prophet, once adopted by him, who became one of the earliest Muslims and commanded the expedition to Mu'ta, where he was killed; the only Companion named in the Qur'an."
+  ar: "مولى النبي وقد تبنّاه يومًا، فكان من أوائل المسلمين، وقاد غزوة مؤتة التي قُتل فيها، وهو الصحابي الوحيد المذكور اسمه في القرآن."
+wings: [people]
+themes: [slavery-and-freedom, family-marriage-kinship, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0610~" }, status: tradition, note: "Among the earliest believers, traditionally counted after Khadija, Ali and Abu Bakr.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0610~" }, end: { edtf: "0629-09" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: family-of-the-prophet, end: { edtf: "0627~" }, status: tradition, note: "Adopted as 'Zayd ibn Muhammad' before the practice of such adoption was ended; he is remembered as the Prophet's freedman.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: commander, start: { edtf: "0629-09" }, end: { edtf: "0629-09" }, status: tradition, note: "Appointed commander of the Mu'ta expedition.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: martyr, start: { edtf: "0629-09" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: died_in, target: place/mutah }
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-mutah, role: commander-killed, sources: [source/ibn-ishaq-guillaume] }
+  - { type: revealed_in, target: passage/quran-33-37, note: "The only Companion named in the Qur'an; the verse addresses his situation directly.", sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

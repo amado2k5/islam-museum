@@ -1,0 +1,27 @@
+id: person/halima-al-sadiyya
+class: person
+label: { en: Halima al-Sa'diyya, ar: حليمة السعدية }
+names:
+  - { kind: full, lang: ar, value: حليمة بنت أبي ذؤيب السعدية }
+gender: female
+born: { edtf: "054X", calendar: julian, precision: decade, status: tradition, note: "Unknown; she was a young mother when she nursed the Prophet around 570–576 CE.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "06XX", calendar: julian, precision: century, status: tradition, note: "Tradition reports she met the Prophet again in later life; the year of her death is not recorded.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: []
+traditions: [sunni]
+summary:
+  en: "A Bedouin woman of Banu Sa'd who nursed the infant Muhammad in the desert for several years, as was the Meccan custom, and is remembered in tradition as his foster-mother."
+  ar: "امرأة بدوية من بني سعد أرضعت النبي محمد رضيعًا في البادية سنوات عدة كما كانت عادة أهل مكة، وتُذكر في التقليد بأنها مرضعته."
+wings: [people]
+themes: [women, family-marriage-kinship]
+periods: [period/prophetic-era, period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "Counted among the Companions in the biographical tradition for having met the Prophet after his mission; she is chiefly remembered as his foster-mother before it.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, end: { edtf: "062X" } }
+  - { value: sunni, basis: tradition, note: "Tradition reports she embraced Islam; the timing is not recorded precisely." }
+relations:
+  - { type: member_of, target: group/hawazin, note: "Banu Sa'd ibn Bakr is a clan of the Hawazin confederacy.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: lived_in, target: place/mecca, start: { edtf: "062X" }, note: "Later reports place her in Mecca and Medina.", sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }

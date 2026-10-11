@@ -1,0 +1,33 @@
+id: person/abd-al-muttalib
+class: person
+label: { en: Abd al-Muttalib ibn Hashim, ar: عبد المطلب بن هاشم }
+names:
+  - { kind: full, lang: ar, value: شيبة بن هاشم بن عبد مناف }
+  - { kind: alternate, lang: en, value: "Shayba ibn Hashim" }
+gender: male
+born: { edtf: "0497~", calendar: julian, precision: year, status: tradition, note: "Very approximate; the chronology of the Prophet's grandfather is not firmly recorded.", sources: [source/ibn-ishaq-guillaume] }
+died: { edtf: "0578~", calendar: julian, precision: year, status: tradition, note: "Traditionally when the Prophet was about eight years old.", sources: [source/ibn-ishaq-guillaume] }
+roles: []
+traditions: [sunni]
+summary:
+  en: "The Prophet Muhammad's grandfather and guardian, a leading elder of Quraysh remembered in tradition for restoring the well of Zamzam and leading Mecca at the time of Abraha's campaign."
+  ar: "جدّ النبي محمد وكافله، ومن كبار شيوخ قريش، يُذكر في التقليد بحفره بئر زمزم وبقيادته مكة زمن حملة أبرهة."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: protector, toward: person/muhammad, end: { edtf: "0578~" }, status: tradition, note: "Guardian of the orphaned Muhammad after the death of his mother Amina.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: official, toward: group/quraysh, status: tradition, note: "Remembered as holder of the offices of siqaya (water for pilgrims) and rifada (feeding) among Quraysh.", sources: [source/ibn-ishaq-guillaume] }
+  - { role: family-of-the-prophet, status: tradition, sources: [source/ibn-ishaq-guillaume] }
+faith:
+  - { value: other, basis: debated, note: "Most sources place him in Mecca's polytheist milieu; some reports in tradition call him a hanif who rejected idols. Recorded as debated.", sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca] }
+relations:
+  - { type: born_in, target: place/medina, note: "Tradition places his birth in Yathrib, his mother's town." }
+  - { type: died_in, target: place/mecca }
+  - { type: child_of, target: person/hashim-ibn-abd-manaf }
+  - { type: member_of, target: group/banu-hashim }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/year-of-the-elephant-and-birth, role: led-mecca-during-the-campaign, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1953-mecca]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

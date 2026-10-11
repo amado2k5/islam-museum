@@ -1,0 +1,38 @@
+id: person/umm-salama
+class: person
+label: { en: Umm Salama (Hind bint Abi Umayya), ar: أم سلمة هند بنت أبي أمية }
+names:
+  - { kind: full, lang: ar, value: هند بنت أبي أمية بن المغيرة المخزومية }
+  - { kind: kunya, lang: ar, value: أم سلمة }
+gender: female
+born: { edtf: "059X", calendar: julian, precision: decade, status: tradition, note: "Year not recorded precisely.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0680~", calendar: julian, precision: year, status: tradition, note: "Reports differ between about 59 and 62 AH; she lived to be the last surviving wife of the Prophet in some accounts.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, scholar]
+traditions: [sunni]
+summary:
+  en: "A wife of the Prophet remembered for her counsel at Hudaybiyya and for the hundreds of hadith transmitted on her authority in Sunni tradition."
+  ar: "زوجة النبي، تُذكر برأيها يوم الحديبية وبمئات الأحاديث التي رُويت عنها في التقليد السني."
+wings: [people]
+themes: [women, scripture-and-its-sciences]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0615~" }, status: tradition, note: "She and her first husband Abu Salama were early Muslims who migrated to Abyssinia.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: family-of-the-prophet, start: { edtf: "0626~" }, end: { edtf: "0632" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0615~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: transmitter, start: { edtf: "0632~" }, status: historical, sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/medina }
+  - { type: spouse_of, target: person/abu-salama, end: { edtf: "0625" }, note: "He died of wounds after Uhud.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: spouse_of, target: person/muhammad, start: { edtf: "0626~" }, end: { edtf: "0632" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: member_of, target: group/banu-makhzum }
+  - { type: member_of, target: group/ahl-al-bayt, note: "As a wife of the Prophet; membership is itself contested and shown under perspectives on the group page." }
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/first-migration-to-abyssinia, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/hijra, role: emigrant }
+  - { type: participated_in, target: event/treaty-of-hudaybiyya, role: advised-the-prophet, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

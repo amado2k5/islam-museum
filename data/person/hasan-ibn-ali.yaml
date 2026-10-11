@@ -1,0 +1,45 @@
+id: person/hasan-ibn-ali
+class: person
+label: { en: Hasan ibn Ali, ar: الحسن بن علي }
+names:
+  - { kind: full, lang: ar, value: الحسن بن علي بن أبي طالب }
+gender: male
+born: { edtf: "0625-03~", hijri: "0003-09~", calendar: julian, precision: month, status: tradition, note: "Traditionally mid-Ramadan 3 AH (about March 625 CE).", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0670~", hijri: "0050~", calendar: julian, precision: year, status: tradition, note: "Died in Medina in 49 or 50 AH; tradition reports poisoning, which historians treat as unproven.", sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997] }
+roles: [companion]
+traditions: [sunni, shia-twelver]
+summary:
+  en: "Elder grandson of the Prophet through Fatima and Ali; briefly caliph in 661 CE before abdicating in favor of Muawiya, an act understood differently across the traditions."
+  ar: "حفيد النبي الأكبر من فاطمة وعلي، تولّى الخلافة فترة وجيزة سنة 661م قبل أن يتنازل عنها لمعاوية، وهو أمر تفهمه التقاليد بصورة مختلفة."
+wings: [people]
+themes: [sects-and-schools, peace-making-and-coexistence, civil-wars-and-revolts]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0661-01" }, end: { edtf: "0661-08~" }, status: historical, note: "Brief caliphate after Ali's death, ended by his abdication to Muawiya.", sources: [source/madelung-1997] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). He is also the second Imam of Twelver Shia; see perspectives." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: died_in, target: place/medina }
+  - { type: buried_in, target: place/medina }
+  - { type: child_of, target: person/ali-ibn-abi-talib }
+  - { type: child_of, target: person/fatima }
+  - { type: sibling_of, target: person/husayn-ibn-ali }
+  - { type: sibling_of, target: person/zaynab-bint-ali }
+  - { type: member_of, target: group/ahl-al-bayt }
+  - { type: member_of, target: group/banu-hashim }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni tradition reveres Hasan as the Prophet's beloved grandson and counts his abdication an act of reconciliation that ended the first civil war — 'the year of unity'." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians describe a caliphate that lacked the military and political base to continue, so that the abdication was as much a consequence of weakness as of peacemaking." }
+    sources: [source/madelung-1997]
+  - tradition: shia-twelver
+    summary: { en: "Twelver Shia tradition venerates Hasan as the second Imam, who abdicated under duress to spare his followers, and holds that he was later poisoned at Muawiya's instigation." }
+    sources: [source/momen-1985]
+sensitivity: contested
+sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/momen-1985]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
