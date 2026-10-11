@@ -40,3 +40,32 @@ en:
     - Religion_in_Africa
     - Religion_in_Europe
     - Religion_in_the_Middle_East
+  # Regular expressions for categories that leak into unrelated people, places and sport. Found by listing the largest categories at depth >= 3
+  # (docs/plan/15 §6.2: "category trees leak"); legitimate trees such as Muslim scholars and Battles involving the Ottoman Empire are not matched.
+  stop_patterns:
+    - "_stubs$"
+    - "_alumni$"
+    - "_politicians"
+    - "^Medalists_at_"
+    - "_players$"
+    - "_footballers"
+    - "_cricketers"
+    - "_athletes"
+    - "^Recipients_of_"
+    - "^Burials_at_"
+    - "_people_of_.*_descent$"
+    - "^Knights_of_"
+    - "^Members_of_the_"
+    - "^Roman_towns"
+    - "^Populated_places_of_the_Byzantine"
+    - "_depopulated_"
+    - "_film_directors$"
+    - "_actors$"
+    - "_actresses$"
+    - "_singers$"
+    - "_MPs$"
+    - "_MPAs"
+    - "_MLAs"
+    - "_academic_staff"
+    - "^Academic_staff_of_"
+    - "^Pashas$"

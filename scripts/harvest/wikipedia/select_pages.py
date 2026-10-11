@@ -28,7 +28,10 @@ con.execute(f"""create or replace temp table art_edge as
   join wp_{L}_linktarget t on t.id = c.target_id and t.ns = 14
   where c.type = 'page'""")
 
+import re
 stop = set(cfg.get("stoplist", []))
+stop_re = [re.compile(x) for x in cfg.get("stop_patterns", [])]
+is_stopped = lambda cat: cat in stop or any(r.search(cat) for r in stop_re)
 depth = {s: 0 for s in cfg["seeds"]}
 frontier = list(depth)
 children: dict = {}
@@ -38,7 +41,7 @@ for d in range(1, a.max_depth + 1):
     nxt = []
     for cat in frontier:
         for ch in children.get(cat, []):
-            if ch in depth or ch in stop:
+            if ch in depth or is_stopped(ch):
                 continue
             depth[ch] = d; nxt.append(ch)
     frontier = nxt
@@ -46,12 +49,15 @@ for d in range(1, a.max_depth + 1):
 missing = [s for s in cfg["seeds"] if s not in children and not con.execute(f"select 1 from wp_{L}_page where ns = 14 and title = ? limit 1", [s]).fetchone()]
 if missing: print("seed categories not found in this wiki:", missing)
 
-con.execute("create or replace temp table cat_depth(cat varchar, depth integer)")
-con.executemany("insert into cat_depth values (?, ?)", list(depth.items()))
+con.execute(f"create or replace table wp_{L}_catdepth(cat varchar, depth integer)")
+con.executemany(f"insert into wp_{L}_catdepth values (?, ?)", list(depth.items()))
+# ncats = how many distinct in-scope categories hold the article: a second signal for weak (depth 4-6) pages, since a leaked page usually sits in one stray category
 con.execute(f"""create or replace table wp_{L}_scope as
-  select page_id, any_value(title) as title, min(d.depth) as depth, min(d.depth) <= 3 as strong
-  from art_edge e join cat_depth d on d.cat = e.cat group by page_id""")
+  select page_id, any_value(title) as title, min(d.depth) as depth, min(d.depth) <= 3 as strong, count(distinct e.cat) as ncats
+  from art_edge e join wp_{L}_catdepth d on d.cat = e.cat group by page_id""")
 n, strong = con.execute(f"select count(*), count(*) filter (strong) from wp_{L}_scope").fetchone()
+weak2 = con.execute(f"select count(*) filter (not strong and ncats >= 2), count(*) filter (not strong and ncats >= 3) from wp_{L}_scope").fetchone()
+print(f"weak pages with a second category signal: ncats>=2: {weak2[0]:,}, ncats>=3: {weak2[1]:,}")
 print(f"in scope: {n:,} articles ({strong:,} strong, {n - strong:,} weak) from {len(depth):,} categories")
 rep = HARVEST / "reports" / f"wikipedia-{L}-scope.txt"
 lines = [f"{L}: {n:,} articles in scope ({strong:,} strong)", "by depth: " + ", ".join(f"{d}={c:,}" for d, c in con.execute(f"select depth, count(*) from wp_{L}_scope group by 1 order by 1").fetchall())]
