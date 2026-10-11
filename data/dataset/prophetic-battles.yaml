@@ -1,0 +1,13 @@
+id: dataset/prophetic-battles
+class: dataset
+label: { ar: "أرقام غزوات العهد النبوي", en: "Figures of the Prophetic-era battles" }
+summary:
+  ar: "جدول أعداد الجيشين والقتلى والأسارى في غزوات العهد النبوي، مستخرج من الرحيق المختوم مع مصادره الكلاسيكية."
+  en: "Army strengths, dead and prisoners per Prophetic-era battle, extracted from al-Raheeq al-Makhtum with its classical citations."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [arabia]
+rows_file: datasets/prophetic-battles.csv
+license: CC0
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; started with Badr (al-Raheeq pp. 204–233); rows grow with each batch" }
