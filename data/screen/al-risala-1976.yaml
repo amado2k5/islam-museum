@@ -1,0 +1,41 @@
+id: screen/al-risala-1976
+class: screen
+format: film
+relevance: primary
+label: { en: The Message, ar: الرسالة }
+titles:
+  - { lang: ar, value: الرسالة, kind: original }
+  - { lang: en, value: The Message, kind: original, note: "Released first as Mohammad, Messenger of God" }
+  - { lang: tr, value: Çağrı, kind: dubbed }
+summary:
+  en: Epic film about the birth of Islam, shot in separate Arabic and English versions with different casts; the Prophet is never shown or heard.
+  ar: فيلم ملحمي عن ميلاد الإسلام، صُوِّر بنسختين عربية وإنجليزية بممثلين مختلفين، ولا يُرى فيه النبي ولا يُسمع.
+wings: [words, today]
+themes: [images-of-islam, images-and-figural-art]
+released: { edtf: "1976", calendar: gregorian, precision: year }
+countries: [lb, ly, kw, ma, gb]
+languages: { original: [ar, en], dubbed: [tr] }
+versions:
+  - { lang: ar, runtime_min: null, note: "Arabic-language version with an Arab cast" }
+  - { lang: en, runtime_min: null, note: "English-language version" }
+depiction:
+  prophet: not-shown
+  companions: some-shown
+  imams: not-applicable
+  note: "Scenes addressing the Prophet are filmed from his point of view."
+approach: historical-drama
+relations:
+  - { type: about, target: person/muhammad }
+  - { type: about, target: event/hijra }
+  - { type: about, target: event/battle-of-badr }
+  - { type: about, target: event/battle-of-uhud }
+  - { type: set_in, target: period/prophetic-era }
+  - { type: set_in, target: place/mecca }
+  - { type: set_in, target: place/medina }
+reception:
+  - { kind: approval, by: "al-Azhar, as stated in the film's opening title", date: { edtf: "1976" }, status: debated, note: "Later reported as withdrawn. Both statements are to be recorded with sources.", sources: [] }
+  - { kind: objection, by: "Muslim World League", sources: [] }
+  - { kind: ban, where: [sa, eg, kw], note: "Bans in several countries are reported; their dates and lifting are to be sourced.", sources: [] }
+external_ids: { wikidata: Q588464 }
+sources: []
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5, from the worked example in docs/plan/12 §4 and §9; every reception entry still needs its sources" }

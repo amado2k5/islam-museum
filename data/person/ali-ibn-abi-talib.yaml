@@ -10,8 +10,13 @@ summary:
   en: Cousin and son-in-law of the Prophet and the fourth caliph (r. 656–661 CE); the first Imam in Shia tradition.
   ar: ابن عم النبي وصهره ورابع الخلفاء (حكم 656–661م)، وهو الإمام الأول عند الشيعة.
 wings: [people]
+themes: [sects-and-schools]
 periods: [period/prophetic-era]
 regions: [arabia, levant-iraq]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, sources: [source/ibn-ishaq-guillaume] }
+  - { role: companion, status: tradition, sources: [source/ibn-ishaq-guillaume] }
+  - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0656", calendar: julian, precision: year }, end: { edtf: "0661", calendar: julian, precision: year }, status: historical, sources: [source/watt-1956-medina] }
 relations:
   - { type: born_in, target: place/mecca }
   - { type: participated_in, target: event/hijra, role: stayed-behind-then-followed, sources: [source/ibn-ishaq-guillaume] }

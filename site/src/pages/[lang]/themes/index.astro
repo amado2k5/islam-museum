@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { realNodes } from "../../../lib/graph";
+import { themeFamilies, themes } from "../../../lib/entity";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const count = (id: string) => realNodes.filter((n) => n.themes.includes(id)).length;
+---
+<BaseLayout lang={lang} title={T.themes.title} description={T.themes.lede} path={`/${lang}/themes/`}>
+  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
+    <h1>{T.themes.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{T.themes.lede}</p>
+    {themeFamilies.map((f) => (
+      <section style="margin-block:2rem">
+        <h2 class="ui" style="font-size:1.1rem;color:var(--muted);font-weight:500">{f.label[lang]}</h2>
+        <ul class="grid-cards">
+          {themes.filter((t) => t.family === f.id).map((t) => (
+            <li><a class="card" href={`/${lang}/themes/${t.id}/`}><b>{t.label[lang]}</b><span class="ui">{count(t.id)} {T.themes.open_count}</span></a></li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

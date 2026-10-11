@@ -97,6 +97,155 @@
     },
     "religious_policy": {
       "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "story_roles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "role"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "prophet-figure",
+              "family-of-the-prophet",
+              "companion",
+              "successor",
+              "scholar",
+              "jurist",
+              "transmitter",
+              "preacher",
+              "saint",
+              "reformer",
+              "revivalist",
+              "founder",
+              "missionary",
+              "ruler",
+              "commander",
+              "official",
+              "patron",
+              "legislator",
+              "colonial-administrator",
+              "resistance-leader",
+              "opponent",
+              "military-opponent",
+              "persecutor",
+              "rival-claimant",
+              "rebel",
+              "protector",
+              "ally",
+              "host",
+              "interlocutor",
+              "collaborator",
+              "convert",
+              "left-islam",
+              "changed-sides",
+              "critic",
+              "polemicist",
+              "apologist",
+              "orientalist-scholar",
+              "historian",
+              "translator",
+              "traveller-observer",
+              "journalist",
+              "artist-on-islam",
+              "scientist",
+              "physician",
+              "philosopher",
+              "poet",
+              "artist",
+              "architect",
+              "traveller",
+              "merchant",
+              "martyr",
+              "victim",
+              "witness"
+            ]
+          },
+          "toward": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "start": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "end": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "perspective": {
+            "enum": [
+              "sunni",
+              "sunni-hanafi",
+              "sunni-maliki",
+              "sunni-shafii",
+              "sunni-hanbali",
+              "shia-twelver",
+              "shia-ismaili",
+              "shia-zaydi",
+              "ibadi",
+              "sufi",
+              "ahmadiyya",
+              "quranist",
+              "academic",
+              "other"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "labelled": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "by"
+        ],
+        "properties": {
+          "label": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "by": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   },
   "required": [

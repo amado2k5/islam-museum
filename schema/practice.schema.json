@@ -80,6 +80,78 @@
         "type": "string",
         "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
       }
+    },
+    "basis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ],
+        "properties": {
+          "tradition": {
+            "enum": [
+              "sunni",
+              "sunni-hanafi",
+              "sunni-maliki",
+              "sunni-shafii",
+              "sunni-hanbali",
+              "shia-twelver",
+              "shia-ismaili",
+              "shia-zaydi",
+              "ibadi",
+              "sufi",
+              "ahmadiyya",
+              "quranist",
+              "academic",
+              "other"
+            ]
+          },
+          "value": {
+            "enum": [
+              "scriptural",
+              "prophetic-practice",
+              "juristic",
+              "customary",
+              "contested"
+            ]
+          },
+          "school": {
+            "type": "string"
+          },
+          "regions": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "arabia",
+                "levant-iraq",
+                "egypt-nile",
+                "maghreb",
+                "andalus-europe",
+                "anatolia-balkans",
+                "persia-central-asia",
+                "south-asia",
+                "southeast-asia",
+                "china-east-asia",
+                "west-africa-sahel",
+                "east-africa",
+                "americas-oceania",
+                "global"
+              ]
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "required": [

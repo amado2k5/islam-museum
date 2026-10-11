@@ -20,6 +20,13 @@ const compact = (n: Node) => ({
   coordinates: n.coordinates, wikidata: n.data.external_ids?.wikidata, status: n.data.status?.review,
 });
 
+import { readFileSync as rf } from "node:fs";
+import { parse as yparse } from "yaml";
+function themeIndex(c: Compiled) {
+  const themes: any[] = yparse(rf(p("schema", "enums", "themes.yaml"), "utf8"));
+  return themes.map((t) => ({ ...t, entries: c.nodes.filter((n) => !n.stub && n.themes.includes(t.id)).map((n) => n.id) }));
+}
+
 export function exportApi(c: Compiled) {
   rmSync(OUT, { recursive: true, force: true });
   const real = c.nodes.filter((n) => !n.stub);
@@ -34,6 +41,7 @@ export function exportApi(c: Compiled) {
   }
   write("graph/nodes.ndjson", c.nodes.map((n) => JSON.stringify(compact(n))).join("\n") + "\n");
   write("graph/edges.ndjson", c.edges.filter((e) => !e.inverse).map((e) => JSON.stringify(e)).join("\n") + "\n");
+  write("themes/index.json", JSON.stringify(themeIndex(c), null, 1));
   write("meta/coverage.json", JSON.stringify({ generated: c.generated, ...c.coverage }, null, 1));
   write("meta/index.json", JSON.stringify({
     version: "v1", generated: c.generated, classes: CLASSES.filter((k) => real.some((n) => n.class === k)),

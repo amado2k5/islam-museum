@@ -77,6 +77,111 @@
     },
     "etymology": {
       "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "tensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "statement",
+          "responses"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "textual",
+              "between-schools",
+              "ideal-and-history",
+              "tradition-and-modernity"
+            ]
+          },
+          "statement": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "raised_by": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "who"
+              ],
+              "properties": {
+                "who": {
+                  "type": "string"
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "passages": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "responses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "tradition",
+                "summary"
+              ],
+              "properties": {
+                "tradition": {
+                  "enum": [
+                    "sunni",
+                    "sunni-hanafi",
+                    "sunni-maliki",
+                    "sunni-shafii",
+                    "sunni-hanbali",
+                    "shia-twelver",
+                    "shia-ismaili",
+                    "shia-zaydi",
+                    "ibadi",
+                    "sufi",
+                    "ahmadiyya",
+                    "quranist",
+                    "academic",
+                    "other"
+                  ]
+                },
+                "summary": {
+                  "type": "string"
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "required": [

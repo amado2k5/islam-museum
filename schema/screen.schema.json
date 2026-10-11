@@ -1,0 +1,296 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "screen.schema.json",
+  "title": "Museum entity: screen",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "screen"
+    },
+    "format": {
+      "enum": [
+        "film",
+        "short",
+        "tv_film",
+        "series",
+        "miniseries",
+        "episode",
+        "documentary",
+        "documentary_series",
+        "animation",
+        "children",
+        "programme",
+        "web_series",
+        "recorded_performance"
+      ]
+    },
+    "relevance": {
+      "enum": [
+        "primary",
+        "substantial",
+        "setting"
+      ]
+    },
+    "titles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "lang",
+          "value"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "lang": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "original",
+              "transliteration",
+              "dubbed",
+              "release",
+              "broadcast",
+              "working",
+              "alternate"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "released": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "first_broadcast": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "ramadan_season": {
+      "type": "integer"
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]{2}$"
+      }
+    },
+    "languages": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "original": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "dubbed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "subtitled": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "seasons": {
+      "type": "integer"
+    },
+    "episodes": {
+      "type": "integer"
+    },
+    "runtime_min": {
+      "type": "number"
+    },
+    "broadcaster": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "part_of": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "lang": {
+            "type": "string"
+          },
+          "runtime_min": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "depiction": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "prophet": {
+          "enum": [
+            "not-shown",
+            "voice",
+            "point-of-view",
+            "figure-without-face",
+            "face",
+            "not-applicable"
+          ]
+        },
+        "companions": {
+          "enum": [
+            "none",
+            "some-shown",
+            "shown",
+            "not-applicable"
+          ]
+        },
+        "imams": {
+          "enum": [
+            "not-shown",
+            "voice",
+            "light",
+            "shown",
+            "not-applicable"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "approach": {
+      "enum": [
+        "devotional",
+        "historical-drama",
+        "documentary",
+        "journalism",
+        "educational",
+        "children",
+        "drama-of-muslim-life",
+        "comedy",
+        "travel",
+        "recitation-or-lecture",
+        "critical",
+        "polemical"
+      ]
+    },
+    "reception": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "approval",
+              "objection",
+              "fatwa",
+              "ban",
+              "cut",
+              "award",
+              "protest",
+              "release",
+              "withdrawal",
+              "other"
+            ]
+          },
+          "by": {
+            "type": "string"
+          },
+          "where": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "date": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "status": {
+            "enum": [
+              "scriptural",
+              "tradition",
+              "historical",
+              "debated",
+              "legend"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "watch": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "url"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "official-free",
+              "official-paid",
+              "archive"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "region": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "checked": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "format",
+    "relevance",
+    "titles"
+  ],
+  "unevaluatedProperties": false
+}

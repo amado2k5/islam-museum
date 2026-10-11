@@ -3,6 +3,7 @@ import BaseLayout from "./BaseLayout.astro";
 import DepthDial from "../components/DepthDial.svelte";
 import TimeStrip from "../components/TimeStrip.astro";
 import MiniMap from "../components/MiniMap.astro";
+import Extras from "../components/Extras.astro";
 import { byId, buildDate, href, labelOf, summaryOf, REPO, SITE } from "../lib/graph";
 import { ui, other, fmt, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse } from "../lib/markdown";
@@ -138,6 +139,8 @@ const reviewStatus = d.status?.review ?? "draft";
             </section>
           )}
         </div>
+
+        <Extras node={n} lang={lang} />
 
         {untranslated && (
           <p class="panel ui" role="note" style="font-size:.92rem">{T.entity.not_translated} <a href={wishUrl}>{T.entity.help_translate}</a></p>

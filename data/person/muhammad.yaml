@@ -13,9 +13,12 @@ summary:
   en: The Prophet of Islam (c. 570–632 CE), through whom Muslims believe the Qur'an was revealed, and the founder of the first Muslim community in Medina.
   ar: نبي الإسلام (نحو 570–632م)، الذي يؤمن المسلمون بنزول القرآن عليه، ومؤسس أول مجتمع إسلامي في المدينة المنورة.
 wings: [people, time]
+themes: [prophets]
 periods: [period/prophetic-era]
 regions: [arabia]
 sensitivity: figurative-prophet
+story_roles:
+  - { role: prophet-figure, start: { edtf: "0610~", calendar: julian, precision: year }, status: tradition, sources: [source/ibn-ishaq-guillaume] }
 relations:
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }

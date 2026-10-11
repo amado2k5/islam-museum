@@ -16,10 +16,13 @@ const sensitivity = ids("sensitivity");
 const review = ids("review");
 const licenses = ids("licenses");
 const listingCategories = ids("listing-categories");
+const themes = ids("themes");
+const storyRoles = ids("story-roles");
+const faith = ids("faith");
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen",
 ] as const;
 
 const ref = (name: string) => ({ $ref: `_base.schema.json#/$defs/${name}` });
@@ -120,8 +123,42 @@ const base = {
       },
     },
     sensitivity: enm(sensitivity),
+    themes: { type: "array", items: enm(themes), uniqueItems: true },
+    provenance: {
+      type: "object", additionalProperties: true,
+      properties: { layer: enm(kinds["provenance-layer"]), source: str, harvested: { type: "string" }, submitted_via: str, generated_by: str },
+    },
   },
   required: ["id", "class", "label", "summary", "status"],
+};
+
+
+const dated = { type: "object", additionalProperties: false, properties: { start: ref("date"), end: ref("date") } };
+const storyRole = {
+  type: "object", additionalProperties: false, required: ["role"],
+  properties: { role: enm(storyRoles), toward: entityRef, start: ref("date"), end: ref("date"), status: enm(claimStatus),
+    perspective: enm(traditions), note: str, sources: strs },
+};
+const faithEntry = {
+  type: "object", additionalProperties: false, required: ["value", "basis"],
+  properties: { value: enm(faith), basis: enm(["self-identified", "documented", "tradition", "debated", "unknown"]),
+    start: ref("date"), end: ref("date"), note: str, sources: strs },
+};
+const labelled = {
+  type: "object", additionalProperties: false, required: ["label", "by"],
+  properties: { label: ref("localized"), by: str, status: enm(claimStatus), sources: strs },
+};
+const actorExtras = { story_roles: { type: "array", items: storyRole }, faith: { type: "array", items: faithEntry }, labelled: { type: "array", items: labelled } };
+const rangeNum = { type: "object", additionalProperties: false, properties: { value: { type: "number" }, range: { type: "array", items: { type: "number" }, minItems: 2, maxItems: 2 }, sources: strs, status: enm(claimStatus), note: str } };
+const tension = {
+  type: "object", additionalProperties: false, required: ["id", "kind", "statement", "responses"],
+  properties: {
+    id: str, kind: enm(kinds.tension), statement: ref("localized"), status: enm(claimStatus),
+    raised_by: { type: "array", items: { type: "object", required: ["who"], properties: { who: str, sources: strs } } },
+    passages: entityRefs,
+    responses: { type: "array", items: { type: "object", additionalProperties: false, required: ["tradition", "summary"],
+      properties: { tradition: enm(traditions), summary: str, sources: strs } } },
+  },
 };
 
 const kind = (c: string) => ({ kind: enm(kinds[c]) });
@@ -133,12 +170,12 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     properties: {
       names: { type: "array", items: ref("name") }, gender: enm(["male", "female", "unknown"]),
       born: D, died: D, floruit: D, roles: strs, traditions: { type: "array", items: enm(traditions) },
-      disciplines: entityRefs, languages: entityRefs,
+      disciplines: entityRefs, languages: entityRefs, ...actorExtras,
     },
   },
   group: {
     properties: { ...kind("group"), made: madeBlock, founded: D, dissolved: D, founder: entityRef, headquarters: entityRef,
-      members_estimate: intStr, active_regions: { type: "array", items: enm(regions) } },
+      members_estimate: intStr, active_regions: { type: "array", items: enm(regions) }, story_roles: actorExtras.story_roles, labelled: actorExtras.labelled },
     required: ["kind"],
   },
   polity: {
@@ -146,13 +183,16 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       capitals: { type: "array", items: { type: "object", required: ["place"], properties: { place: entityRef, start: D, end: D } } },
       extent: { type: "array", items: { type: "object", required: ["geojson", "precision"],
         properties: { at: D, geojson: str, precision: enm(["schematic", "approximate", "documented"]), source: str } } },
-      predecessor: entityRef, successor: entityRef, official_languages: entityRefs, religious_policy: L },
+      predecessor: entityRef, successor: entityRef, official_languages: entityRefs, religious_policy: L, story_roles: actorExtras.story_roles, labelled: actorExtras.labelled },
     required: ["kind"],
   },
   event: {
     properties: { ...kind("event"), date: ref("dateRange"), places: entityRefs,
       participants: { type: "array", items: { type: "object", required: ["target"], properties: { target: entityRef, role: str } } },
-      outcome: L, part_of: entityRef, casualties: str, significance: L },
+      outcome: L, part_of: entityRef, casualties: { oneOf: [str, rangeNum] }, significance: L,
+      sides: { type: "array", items: { type: "object", additionalProperties: false, required: ["label"], properties: { label: L, participants: entityRefs, commanders: entityRefs, strength: rangeNum, note: str } } },
+      laws_of_war: entityRefs, recurs: str, first_held: D,
+      editions: { type: "array", items: { type: "object", properties: { year: { type: "integer" }, attendance: rangeNum, note: str } } } },
     required: ["kind"],
   },
   period: {
@@ -193,7 +233,10 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   },
   work: {
     properties: { ...kind("work"), made: madeBlock, genre: strs, disciplines: strs, authors: entityRefs, language: entityRef, composed: D,
-      structure: str, editions: strs, translations: strs, openiti_uri: str, commentaries: entityRefs, manuscripts: entityRefs },
+      structure: str, editions: strs, translations: strs, openiti_uri: str, commentaries: entityRefs, manuscripts: entityRefs,
+      url: { type: "string", format: "uri" }, launched: D, closed: D, languages: strs, publisher: entityRef, archive_url: { type: "string", format: "uri" },
+      orientation: { type: "object", additionalProperties: false, properties: { value: str, basis: enm(["self-described", "documented"]) } },
+      content_type: enm(["scripture", "hadith", "fatwa", "library", "education", "news", "community", "children", "academic", "apologetics", "criticism"]) },
     required: ["kind"],
   },
   passage: {
@@ -206,7 +249,7 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   concept: {
     properties: { ...kind("concept"), term: { type: "object", additionalProperties: str },
       definitions: { type: "array", items: { type: "object", required: ["text"], properties: { tradition: enm(traditions), text: L, sources: strs } } },
-      parent_concept: entityRef, etymology: L },
+      parent_concept: entityRef, etymology: L, tensions: { type: "array", items: tension } },
     required: ["kind"],
   },
   language: {
@@ -217,7 +260,8 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   practice: {
     properties: { ...kind("practice"), when: L, who: L,
       where_variations: { type: "array", items: { type: "object", required: ["region", "description"], properties: { region: enm(regions), description: L } } },
-      obligation: enm(["obligatory", "recommended", "cultural"]), scriptural_basis: entityRefs },
+      obligation: enm(["obligatory", "recommended", "cultural"]), scriptural_basis: entityRefs,
+      basis: { type: "array", items: { type: "object", additionalProperties: false, required: ["value"], properties: { tradition: enm(traditions), value: enm(kinds["practice-basis"]), school: str, regions: { type: "array", items: enm(regions) }, sources: strs, note: str } } } },
     required: ["kind"],
   },
   exhibit: {
@@ -227,7 +271,7 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     required: ["kind"],
   },
   question: {
-    properties: { question: L, short_answer: L, long_answer: L, related: entityRefs, audience: strs },
+    properties: { question: L, short_answer: L, long_answer: L, related: entityRefs, audience: strs, tensions: { type: "array", items: tension } },
     required: ["question"],
   },
   source: {
@@ -245,6 +289,29 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       certifications: { type: "array", items: { type: "object", required: ["body"], properties: { body: str, ref: str, source: str, checked: { type: "string", format: "date" } } } },
       owner_contact_on_file: { type: "boolean" }, provenance: { type: "object" } },
     required: ["kind", "categories", "made"],
+  },
+  screen: {
+    properties: {
+      format: enm(kinds["screen-format"]), relevance: enm(kinds["screen-relevance"]),
+      titles: { type: "array", items: { type: "object", required: ["lang", "value"], additionalProperties: false,
+        properties: { lang: str, value: str, kind: enm(["original", "transliteration", "dubbed", "release", "broadcast", "working", "alternate"]), note: str } } },
+      released: D, first_broadcast: D, ramadan_season: { type: "integer" },
+      countries: { type: "array", items: { type: "string", pattern: "^[a-z]{2}$" } },
+      languages: { type: "object", additionalProperties: false, properties: { original: strs, dubbed: strs, subtitled: strs } },
+      seasons: intStr, episodes: intStr, runtime_min: { type: "number" }, broadcaster: entityRef, part_of: entityRef,
+      versions: { type: "array", items: { type: "object", properties: { lang: str, runtime_min: { type: ["number", "null"] }, note: str } } },
+      depiction: { type: "object", additionalProperties: false, properties: {
+        prophet: enm(["not-shown", "voice", "point-of-view", "figure-without-face", "face", "not-applicable"]),
+        companions: enm(["none", "some-shown", "shown", "not-applicable"]),
+        imams: enm(["not-shown", "voice", "light", "shown", "not-applicable"]), note: str } },
+      approach: enm(kinds["screen-approach"]),
+      reception: { type: "array", items: { type: "object", required: ["kind"], properties: {
+        kind: enm(["approval", "objection", "fatwa", "ban", "cut", "award", "protest", "release", "withdrawal", "other"]),
+        by: str, where: strs, date: D, status: enm(claimStatus), note: str, sources: strs } } },
+      watch: { type: "array", items: { type: "object", required: ["kind", "url"], properties: {
+        kind: enm(["official-free", "official-paid", "archive"]), url: { type: "string", format: "uri" }, region: strs, checked: { type: "string", format: "date" } } } },
+    },
+    required: ["format", "relevance", "titles"],
   },
   dataset: {
     properties: { columns: strs, rows_file: str, source: entityRef, license: enm(licenses),

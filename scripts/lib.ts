@@ -11,7 +11,7 @@ export const rel = (f: string) => relative(ROOT, f);
 
 export const CLASSES = [
   "person", "group", "polity", "event", "period", "journey", "place", "building", "object",
-  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing",
+  "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen",
 ] as const;
 export type EntityClass = (typeof CLASSES)[number];
 export const LANGS = ["en", "ar"] as const;

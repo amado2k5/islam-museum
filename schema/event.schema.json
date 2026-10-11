@@ -27,7 +27,34 @@
         "conference",
         "siege",
         "pilgrimage",
-        "other"
+        "other",
+        "war",
+        "campaign",
+        "skirmish",
+        "raid",
+        "naval-battle",
+        "revolt",
+        "civil-war",
+        "mutiny",
+        "desertion",
+        "defection",
+        "massacre",
+        "expulsion",
+        "persecution",
+        "truce",
+        "schism",
+        "council",
+        "congress",
+        "declaration",
+        "fatwa-event",
+        "gathering",
+        "pilgrimage-season",
+        "famine",
+        "epidemic",
+        "disaster-relief",
+        "law-enacted",
+        "court-ruling",
+        "census"
       ]
     },
     "date": {
@@ -66,10 +93,178 @@
       "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
     },
     "casualties": {
-      "type": "string"
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "value": {
+              "type": "number"
+            },
+            "range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "status": {
+              "enum": [
+                "scriptural",
+                "tradition",
+                "historical",
+                "debated",
+                "legend"
+              ]
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        }
+      ]
     },
     "significance": {
       "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "sides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "label"
+        ],
+        "properties": {
+          "label": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "participants": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "commanders": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+            }
+          },
+          "strength": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+              "range": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "status": {
+                "enum": [
+                  "scriptural",
+                  "tradition",
+                  "historical",
+                  "debated",
+                  "legend"
+                ]
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "laws_of_war": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "recurs": {
+      "type": "string"
+    },
+    "first_held": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "year": {
+            "type": "integer"
+          },
+          "attendance": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+              "range": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "status": {
+                "enum": [
+                  "scriptural",
+                  "tradition",
+                  "historical",
+                  "debated",
+                  "legend"
+                ]
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "required": [

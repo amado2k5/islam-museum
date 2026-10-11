@@ -19,6 +19,8 @@ nav:
   wander: Wander
   search: Search
   coverage: Coverage
+  screen: Screening Room
+  themes: Themes
 a11y:
   skip: Skip to content
   theme: Toggle dark mode
@@ -28,35 +30,55 @@ landing:
   title_pre: A museum for the
   title_strong: whole story
   title_post: of Islam.
-  lede: From the world it was born into, through fourteen centuries of faith, scholarship, art, cities, journeys and peoples, to today. Every person, place, event, idea, object and practice connected to everything around it, in time and space, for the curious of every background.
+  lede: From the world it was born into, through fourteen centuries of faith, scholarship, art, cities, journeys and peoples, to today. Every person, place, event, idea, object and practice connected to
+    everything around it, in time and space, for the curious of every background.
   soon: The first galleries are being built. Opening soon.
-  today_is: "Today is"
+  today_is: Today is
   wings: Nine wings
   start: Start with the Prophet's migration
   start_hint: A first visit
   how: How we build it
   pillars:
-    - Free, with no ads, forever
-    - Open data and open text
-    - Every claim sourced
-    - All traditions, fairly
-    - Arabic and English first, more languages to come
-    - Written for the curious stranger
+  - Free, with no ads, forever
+  - Open data and open text
+  - Every claim sourced
+  - All traditions, fairly
+  - Arabic and English first, more languages to come
+  - Written for the curious stranger
+  entrances: Four ways in
 wings:
-  time: { title: Time, blurb: "Eras, timelines, this day in history, any year in the Islamic world." }
-  place: { title: Place, blurb: "Cities, sites and routes on a map that moves through time." }
-  people: { title: People, blurb: "Prophets, companions, scholars, rulers, scientists, poets, travelers: women and men who shaped the story." }
-  ideas: { title: Ideas, blurb: "Beliefs, concepts, sciences and schools, explained in plain words." }
-  objects: { title: Objects, blurb: "Manuscripts, art, architecture and relics from collections worldwide." }
-  words: { title: Words, blurb: "Qur'an, hadith, poetry, and the languages and scripts of Muslim peoples." }
-  living: { title: Living Islam, blurb: "Practices, the Islamic year, festivals, food, dress and music by region." }
-  today: { title: Today, blurb: "Nations, institutions, data and the people of the present." }
-  made: { title: Made, blurb: "What Muslims make and own today: bookshops, publishers, apps, studios, brands and charities." }
+  time:
+    title: Time
+    blurb: Eras, timelines, this day in history, any year in the Islamic world.
+  place:
+    title: Place
+    blurb: Cities, sites and routes on a map that moves through time.
+  people:
+    title: People
+    blurb: 'Prophets, companions, scholars, rulers, scientists, poets, travelers: women and men who shaped the story.'
+  ideas:
+    title: Ideas
+    blurb: Beliefs, concepts, sciences and schools, explained in plain words.
+  objects:
+    title: Objects
+    blurb: Manuscripts, art, architecture and relics from collections worldwide.
+  words:
+    title: Words
+    blurb: Qur'an, hadith, poetry, and the languages and scripts of Muslim peoples.
+  living:
+    title: Living Islam
+    blurb: Practices, the Islamic year, festivals, food, dress and music by region.
+  today:
+    title: Today
+    blurb: Nations, institutions, data and the people of the present.
+  made:
+    title: Made
+    blurb: 'What Muslims make and own today: bookshops, publishers, apps, studios, brands and charities.'
 hall:
-  coming: "This wing is being built. What is here so far:"
-  empty: "Nothing here yet. This wing opens as the collection grows."
-  phase: "Roadmap: the full {wing} hall arrives in a later phase."
-  map_note: "A schematic map of the places in this wing (an interactive map with a time slider is planned)."
+  coming: 'This wing is being built. What is here so far:'
+  empty: Nothing here yet. This wing opens as the collection grows.
+  phase: 'Roadmap: the full {wing} hall arrives in a later phase.'
+  map_note: A schematic map of the places in this wing (an interactive map with a time slider is planned).
 entity:
   breadcrumb: Museum
   at_a_glance: At a glance
@@ -74,7 +96,7 @@ entity:
   connections: Connections
   sources: Sources
   cite: Cite this page
-  cite_text: "islam.museum contributors. “{title}”. islam.museum, {url}. CC BY-SA 4.0. Accessed {date}."
+  cite_text: islam.museum contributors. “{title}”. islam.museum, {url}. CC BY-SA 4.0. Accessed {date}.
   edit: Improve this page on GitHub
   report: Report an error
   perspectives: Perspectives
@@ -171,6 +193,179 @@ not_found:
 footer:
   open: An open project in the making
   github: Follow the work on GitHub
-  licenses: "Prose CC BY-SA 4.0 · Data CC0 · Code MIT"
+  licenses: Prose CC BY-SA 4.0 · Data CC0 · Code MIT
   api: Data API
   privacy: No cookies. No tracking. No ads.
+roles:
+  prophet-figure: Prophet
+  family-of-the-prophet: Family of the Prophet
+  companion: Companion
+  successor: Successor
+  scholar: Scholar
+  jurist: Jurist
+  transmitter: Transmitter
+  preacher: Preacher
+  saint: Saint (as venerated)
+  reformer: Reformer
+  revivalist: Revivalist
+  founder: Founder
+  missionary: Missionary
+  ruler: Ruler
+  commander: Commander
+  official: Official
+  patron: Patron
+  legislator: Legislator
+  colonial-administrator: Colonial administrator
+  resistance-leader: Resistance leader
+  opponent: Opponent
+  military-opponent: Military opponent
+  persecutor: Persecutor
+  rival-claimant: Rival claimant
+  rebel: Rebel
+  protector: Protector
+  ally: Ally
+  host: Host
+  interlocutor: Interlocutor
+  collaborator: Collaborator
+  convert: Convert to Islam
+  left-islam: Left Islam
+  changed-sides: Changed sides
+  critic: Critic
+  polemicist: Polemicist
+  apologist: Apologist
+  orientalist-scholar: Orientalist scholar
+  historian: Historian
+  translator: Translator
+  traveller-observer: Traveller and observer
+  journalist: Journalist
+  artist-on-islam: Artist on Islam
+  scientist: Scientist
+  physician: Physician
+  philosopher: Philosopher
+  poet: Poet
+  artist: Artist
+  architect: Architect
+  traveller: Traveller
+  merchant: Merchant
+  martyr: Martyr (as regarded)
+  victim: Victim
+  witness: Witness
+entrances:
+  title: Four ways in
+  questions:
+    title: Questions
+    blurb: Plain answers for newcomers.
+  exhibits:
+    title: Exhibits
+    blurb: Curated tours and stories.
+  screen:
+    title: Screening Room
+    blurb: Films, series and programmes about Islam, in any language.
+  themes:
+    title: Themes
+    blurb: Women, war, medicine, food, charity and 120 more, across every wing.
+themes:
+  title: Themes
+  lede: Subjects that cut across every wing, from women and minorities to war, charity, food and science.
+  family: Family
+  entries: Entries on this theme
+  guide: Guide
+  no_guide: The curated guide for this theme has not been written yet.
+  timeline: Earliest entries
+  empty: No entries are tagged with this theme yet. The cell is shown empty on purpose.
+  missing: What is missing? Tell us
+  minimum: A theme is open when it has a reviewed guide, 10 questions, 25 entries across 5 classes, and voices from several traditions and regions.
+  open_count: entries
+  tensions: Tensions on this theme
+  on_this_theme: Tagged with
+screen:
+  title: Screening Room
+  lede: 'An index of films, series and programmes about Islam. Listed, not endorsed: no ratings, no reviews, no clips.'
+  empty: No titles are indexed yet.
+  about: About
+  set_in: Set in
+  format: Format
+  relevance: Relevance
+  released: Released
+  countries: Countries
+  languages: Languages
+  original: original
+  dubbed: dubbed
+  approach: Approach
+  depiction: Depiction of sacred figures
+  prophet: The Prophet
+  companions: Companions
+  imams: Imams
+  titles: Titles in other languages
+  reception: Reception
+  watch: Where to watch officially
+  no_watch: No official link recorded.
+  check: Check it against the record
+  on_screen: On screen
+  not_endorsed: Listed, not endorsed.
+  all: All
+  filter: Filter
+  format_values:
+    film: Film
+    short: Short film
+    tv_film: TV film
+    series: Series
+    miniseries: Miniseries
+    episode: Episode
+    documentary: Documentary
+    documentary_series: Documentary series
+    animation: Animation
+    children: Children
+    programme: Programme
+    web_series: Web series
+    recorded_performance: Recorded performance
+  relevance_values:
+    primary: About Islam
+    substantial: Muslim history or life carries the story
+    setting: Muslim society as setting
+  depiction_values:
+    not-shown: Not shown
+    voice: Voice only
+    point-of-view: Point of view
+    figure-without-face: Figure without a face
+    face: Face shown
+    not-applicable: Not applicable
+    none: None
+    some-shown: Some shown
+    shown: Shown
+    light: Shown as light
+  reception_values:
+    approval: Approval
+    objection: Objection
+    fatwa: Fatwa
+    ban: Ban
+    cut: Cut
+    award: Award
+    protest: Protest
+    release: Release
+    withdrawal: Withdrawal
+    other: Other
+story:
+  title: Place in the story
+  others: How others named them
+  toward: toward
+  from: from
+  stance_note: Roles are dated and sourced; the museum describes the act and attributes the judgement.
+tension:
+  title: A hard question
+  statement: The tension
+  raised: Raised by
+  responses: Responses, in the words of those who give them
+  passages: Passages
+  no_verdict: The museum does not resolve this tension.
+  kinds:
+    textual: Textual
+    between-schools: Between schools
+    ideal-and-history: Ideal and history
+    tradition-and-modernity: Tradition and modernity
+conflict:
+  sides: Sides
+  commanders: Commanders
+  strength: Strength
+  casualties: Casualties
+  one_sided: This entry has not yet recorded the other side.

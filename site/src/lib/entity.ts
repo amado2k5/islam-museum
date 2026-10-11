@@ -52,7 +52,7 @@ export function placesOf(id: string) {
 const SCHEMA_TYPE: Record<string, string> = {
   person: "Person", group: "Organization", polity: "Organization", event: "Event", period: "Event", journey: "Event",
   place: "Place", building: "Place", object: "VisualArtwork", media: "MediaObject", work: "CreativeWork", passage: "CreativeWork",
-  concept: "DefinedTerm", language: "Language", practice: "Event", exhibit: "CreativeWork", question: "Question", source: "CreativeWork", dataset: "Dataset",
+  concept: "DefinedTerm", language: "Language", practice: "Event", exhibit: "CreativeWork", question: "Question", source: "CreativeWork", dataset: "Dataset", listing: "Organization", screen: "CreativeWork",
 };
 
 const iso = (d: any): string | undefined => {
@@ -84,7 +84,29 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
     if (dd) ld.deathPlace = { "@type": "Place", name: labelOf(byId.get(dd.to)!, lang) };
     if (d.gender && d.gender !== "unknown") ld.gender = d.gender;
   }
+  if (n.class === "screen") {
+    ld["@type"] = ["series", "miniseries", "documentary_series", "web_series"].includes(d.format) ? "TVSeries" : d.format === "episode" ? "TVEpisode" : "Movie";
+    ld.dateCreated = iso(d.released);
+    ld.countryOfOrigin = (d.countries ?? []).map((c: string) => c.toUpperCase());
+    ld.name = labelOf(n, lang);
+    ld.alternateName = (d.titles ?? []).map((t: any) => t.value);
+  }
   if (n.class === "event") { ld.startDate = iso(d.date?.start); ld.endDate = iso(d.date?.end); }
   if (n.class === "place" && n.coordinates) ld.geo = { "@type": "GeoCoordinates", latitude: n.coordinates[0], longitude: n.coordinates[1] };
   return JSON.parse(JSON.stringify(ld));
+}
+
+// ---- themes (docs/plan/14) ----
+export interface Theme { id: string; family: string; label: { en: string; ar: string } }
+export interface ThemeFamily { id: string; label: { en: string; ar: string } }
+export const themes: Theme[] = parse(readFileSync(repoPath("schema", "enums", "themes.yaml"), "utf8"));
+export const themeFamilies: ThemeFamily[] = parse(readFileSync(repoPath("schema", "enums", "theme-families.yaml"), "utf8"));
+export const themeById = new Map(themes.map((t) => [t.id, t]));
+export const themeLabel = (id: string, lang: Lang) => themeById.get(id)?.label[lang] ?? id;
+
+/** Screen titles about / set in an entity (edges computed as subject_of / setting_of). */
+export function onScreen(id: string): { node: Node; how: "about" | "set_in" }[] {
+  return edgesFrom(id)
+    .filter((e) => (e.type === "subject_of" || e.type === "setting_of") && byId.get(e.to)?.class === "screen")
+    .map((e) => ({ node: byId.get(e.to)!, how: e.type === "subject_of" ? ("about" as const) : ("set_in" as const) }));
 }

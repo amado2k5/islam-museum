@@ -22,7 +22,24 @@
         "composition",
         "film",
         "website",
-        "other"
+        "other",
+        "app",
+        "online-library",
+        "fatwa",
+        "declaration",
+        "charter",
+        "constitution",
+        "law",
+        "court-judgment",
+        "report",
+        "survey",
+        "standard",
+        "curriculum",
+        "sermon",
+        "lecture-series",
+        "podcast",
+        "newspaper",
+        "journal"
       ]
     },
     "made": {
@@ -108,6 +125,60 @@
         "type": "string",
         "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
       }
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "launched": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "closed": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "publisher": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "archive_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "orientation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "basis": {
+          "enum": [
+            "self-described",
+            "documented"
+          ]
+        }
+      }
+    },
+    "content_type": {
+      "enum": [
+        "scripture",
+        "hadith",
+        "fatwa",
+        "library",
+        "education",
+        "news",
+        "community",
+        "children",
+        "academic",
+        "apologetics",
+        "criticism"
+      ]
     }
   },
   "required": [

@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
+import { formatDate } from "../../../lib/dates";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const items = realNodes.filter((n) => n.class === "screen").sort((a, b) => (a.span?.earliest ?? 0) - (b.span?.earliest ?? 0));
+const formats = [...new Set(items.map((n) => n.data.format))];
+const relevances = ["primary", "substantial", "setting"].filter((r) => items.some((n) => n.data.relevance === r));
+---
+<BaseLayout lang={lang} title={T.screen.title} description={T.screen.lede} path={`/${lang}/screen/`}>
+  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
+    <h1>{T.screen.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{T.screen.lede}</p>
+    {items.length === 0 ? <p class="panel ui">{T.screen.empty}</p> : (
+      <>
+        <form class="ui no-print" id="filters" style="display:flex;flex-wrap:wrap;gap:10px;margin:1rem 0" aria-label={T.screen.filter}>
+          <label>{T.screen.format} <select name="format"><option value="">{T.screen.all}</option>{formats.map((f) => <option value={f}>{T.screen.format_values[f] ?? f}</option>)}</select></label>
+          <label>{T.screen.relevance} <select name="relevance"><option value="">{T.screen.all}</option>{relevances.map((r) => <option value={r}>{T.screen.relevance_values[r]}</option>)}</select></label>
+        </form>
+        <ul class="grid-cards" id="list">
+          {items.map((n) => (
+            <li data-format={n.data.format} data-relevance={n.data.relevance}>
+              <a class="card" href={href(lang, n.id)}>
+                <span class="ui" style="font-size:.78rem;text-transform:uppercase;letter-spacing:.08em">{T.screen.format_values[n.data.format] ?? n.data.format}</span>
+                <b>{labelOf(n, lang)}</b>
+                <span class="ui" style="display:block;font-size:.85rem">{formatDate(n.data.released, lang).text} · {(n.data.countries ?? []).map((c: string) => c.toUpperCase()).join(" ")}</span>
+                <span>{summaryOf(n, lang)}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <script is:inline>
+          (function () {
+            var f = document.getElementById("filters"), items = document.querySelectorAll("#list li");
+            if (!f) return;
+            f.addEventListener("change", function () {
+              var fm = f.format.value, rl = f.relevance.value;
+              items.forEach(function (li) { li.hidden = (fm && li.dataset.format !== fm) || (rl && li.dataset.relevance !== rl); });
+            });
+          })();
+        </script>
+      </>
+    )}
+  </div>
+</BaseLayout>

@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { MultiDirectedGraph } from "graphology";
 import {
-  Entity, LANGS, Localized, Prose, dateRange, loadEntities, loadPredicates, loadProse, loadStubs, p,
+  Entity, LANGS, Localized, loadEnumIds, Prose, dateRange, loadEntities, loadPredicates, loadProse, loadStubs, p,
   resolvePredicates, Range,
 } from "./lib.js";
 
@@ -15,7 +15,7 @@ export interface Edge {
 export interface ProseDoc { sections: { heading: string; markdown: string }[]; frontmatter: Record<string, any> }
 export interface Node {
   id: string; class: string; slug: string; label: Localized; summary: Localized;
-  stub: boolean; wings: string[]; regions: string[]; periods: string[]; tags: string[]; aliases: string[];
+  stub: boolean; wings: string[]; regions: string[]; periods: string[]; tags: string[]; aliases: string[]; themes: string[];
   span?: Range; display?: { start?: any; end?: any };
   coordinates?: [number, number];
   data: Record<string, any>;
@@ -26,7 +26,7 @@ export interface Node {
 export interface Compiled { generated: string; nodes: Node[]; edges: Edge[]; coverage: Coverage }
 export interface Coverage {
   entities: number; stubs: number;
-  byClass: Record<string, number>; byWing: Record<string, number>; byPeriod: Record<string, number>; byRegion: Record<string, number>;
+  byClass: Record<string, number>; byWing: Record<string, number>; byPeriod: Record<string, number>; byRegion: Record<string, number>; byTheme: Record<string, number>; emptyThemes: string[];
   byReview: Record<string, number>; proseByLang: Record<string, number>;
   avgSourcesPerEntity: number; womenShare: number | null; wanted: string[];
 }
@@ -76,10 +76,10 @@ export function compile(): Compiled {
 
   for (const e of entities) {
     const { span, display } = entitySpan(e);
-    const { relations, label, summary, wings, regions, periods, tags, aliases, id, class: cls, ...rest } = e;
+    const { relations, label, summary, wings, regions, periods, tags, aliases, themes, id, class: cls, ...rest } = e;
     const node: Node = {
       id, class: cls, slug: id.split("/")[1], label, summary, stub: false,
-      wings: wings ?? [], regions: regions ?? [], periods: periods ?? [], tags: tags ?? [], aliases: aliases ?? [],
+      wings: wings ?? [], regions: regions ?? [], periods: periods ?? [], tags: tags ?? [], aliases: aliases ?? [], themes: themes ?? [],
       span, display, coordinates: e.coordinates, data: rest, prose: {}, degree: 0, contemporaries: [],
     };
     nodes.set(id, node);
@@ -89,7 +89,7 @@ export function compile(): Compiled {
     const [cls, slug] = s.id.split("/");
     nodes.set(s.id, {
       id: s.id, class: cls, slug, label: s.label ?? { en: slug }, summary: {}, stub: true, wings: [], regions: [], periods: [],
-      tags: [], aliases: [], data: { note: s.note }, prose: {}, degree: 0, contemporaries: [],
+      tags: [], aliases: [], themes: [], data: { note: s.note }, prose: {}, degree: 0, contemporaries: [],
     });
   }
   for (const pr of prose) {
@@ -146,6 +146,8 @@ function coverage(list: Node[], entities: Entity[]): Coverage {
     byWing: tally(real, (n) => n.wings),
     byPeriod: tally(real, (n) => n.periods),
     byRegion: tally(real, (n) => n.regions),
+    byTheme: tally(real, (n) => n.themes),
+    emptyThemes: loadEnumIds("themes").filter((t) => !real.some((n) => n.themes.includes(t))),
     byReview: tally(entities, (e) => [e.status?.review ?? "unknown"]),
     proseByLang: Object.fromEntries(LANGS.map((l) => [l, real.filter((n) => n.prose[l]).length])),
     avgSourcesPerEntity: entities.length ? +(entities.reduce((s, e) => s + (e.sources?.length ?? 0), 0) / entities.length).toFixed(2) : 0,

@@ -6,6 +6,7 @@ summary:
   en: "The Muslims advanced on the oasis of Khaybar, north of Medina, and brought it under their authority."
   ar: "تقدّم المسلمون إلى واحة خيبر شمال المدينة وأخضعوها لسلطانهم."
 wings: [time, people]
+themes: [skirmishes-raids-expeditions]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
@@ -16,5 +17,11 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/treaty-of-hudaybiyya }
+sides:
+  - label: { en: "Muslims of Medina" }
+    participants: [group/early-muslims]
+    commanders: [person/muhammad]
+  - label: { en: "Jewish communities of Khaybar" }
+    participants: [group/jews-of-khaybar]
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

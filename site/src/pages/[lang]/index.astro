@@ -23,6 +23,13 @@ const T = ui(lang);
       ))}
     </ul>
 
+    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.entrances.title}</h2>
+    <ul class="grid-cards" style="margin-bottom:3.5rem">
+      {(["questions", "exhibits", "screen", "themes"] as const).map((k) => (
+        <li><a class="card" href={`/${lang}/${k}/`}><b>{T.entrances[k].title}</b><span>{T.entrances[k].blurb}</span></a></li>
+      ))}
+    </ul>
+
     <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.landing.how}</h2>
     <ul class="ui muted" style="display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;list-style:none">
       {T.landing.pillars.map((p: string) => <li style="display:flex;gap:8px;align-items:center"><span aria-hidden="true" style="width:6px;height:6px;background:var(--gold);border-radius:50%"></span>{p}</li>)}

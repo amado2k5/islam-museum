@@ -6,6 +6,7 @@ summary:
   en: "A battle in a valley near Mecca against the tribes of Hawazin and Thaqif, shortly after the conquest of Mecca."
   ar: "معركة في وادٍ قرب مكة ضد قبيلتي هوازن وثقيف بُعيد فتح مكة."
 wings: [time, people]
+themes: [battles]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
@@ -16,5 +17,12 @@ relations:
   - { type: had_participant, target: person/muhammad }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/conquest-of-mecca }
+sides:
+  - label: { en: "Muslims of Medina and Mecca" }
+    participants: [group/early-muslims]
+    commanders: [person/muhammad]
+  - label: { en: "Hawazin and Thaqif" }
+    participants: [group/hawazin, group/thaqif]
+    commanders: [person/malik-ibn-awf]
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

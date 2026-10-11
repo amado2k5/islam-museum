@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { REPO, href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
+import { themeFamilies, themes } from "../../../lib/entity";
+import { formatDate } from "../../../lib/dates";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => themes.map((t) => ({ params: { lang, slug: t.id }, props: { lang, theme: t } })));
+}
+const { lang, theme } = Astro.props as { lang: Lang; theme: (typeof themes)[number] };
+const T = ui(lang);
+const fam = themeFamilies.find((f) => f.id === theme.family)!;
+const items = realNodes.filter((n) => n.themes.includes(theme.id)).sort((a, b) => (a.span?.earliest ?? 1e9) - (b.span?.earliest ?? 1e9));
+const byClass = new Map<string, typeof items>();
+for (const n of items) byClass.set(n.class, [...(byClass.get(n.class) ?? []), n]);
+const tensions = items.flatMap((n) => (n.data.tensions ?? []).map((t: any) => ({ t, n })));
+const dateOf = (n: any) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start ?? n.data.released, lang).text;
+---
+<BaseLayout lang={lang} title={theme.label[lang]} description={fam.label[lang]} path={`/${lang}/themes/${theme.id}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" style="font-size:.88rem;margin-bottom:14px"><a href={`/${lang}/themes/`} style="color:inherit">{T.themes.title}</a> › {fam.label[lang]}</nav>
+    <h1>{theme.label[lang]}</h1>
+    <p class="muted ui">{T.themes.family}: {fam.label[lang]} · {items.length} {T.themes.open_count}</p>
+    <section class="panel ui" style="max-width:var(--measure)"><b>{T.themes.guide}.</b> {T.themes.no_guide}</section>
+
+    {items.length === 0 ? (
+      <p class="panel ui" style="margin-top:1.5rem">{T.themes.empty} <a href={`${REPO}/issues/new?template=suggest-entity.yml&title=${encodeURIComponent(`Theme: ${theme.id}`)}`}>{T.themes.missing}</a></p>
+    ) : (
+      <>
+        <h2>{T.themes.entries}</h2>
+        {[...byClass.entries()].map(([cls, ns]) => (
+          <section style="margin-block:1.2rem">
+            <h3 class="ui muted" style="font-size:.9rem;text-transform:uppercase;letter-spacing:.08em">{T.class[cls]}</h3>
+            <ul class="grid-cards">
+              {ns.map((n) => <li><a class="card" href={href(lang, n.id)}><b>{labelOf(n, lang)}</b>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>)}
+            </ul>
+          </section>
+        ))}
+        {tensions.length > 0 && <><h2>{T.themes.tensions}</h2><ul class="ui">{tensions.map(({ t, n }) => <li><a href={href(lang, n.id)}>{t.statement[lang] ?? t.statement.en}</a></li>)}</ul></>}
+        <p class="ui muted" style="margin-top:2rem"><a href={`${REPO}/issues/new?template=suggest-entity.yml&title=${encodeURIComponent(`Theme: ${theme.id}`)}`}>{T.themes.missing}</a> · {T.themes.minimum}</p>
+      </>
+    )}
+  </div>
+</BaseLayout>

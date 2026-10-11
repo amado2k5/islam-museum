@@ -10,8 +10,12 @@ summary:
   en: Close companion of the Prophet and the first caliph (r. 632–634 CE); his succession is understood differently in Sunni and Shia tradition.
   ar: صاحب النبي وأول الخلفاء (حكم 632–634م)، ويُفهم تولّيه الخلافة بصورة مختلفة في التقليدين السني والشيعي.
 wings: [people]
+themes: [sects-and-schools]
 periods: [period/prophetic-era]
 regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0610~", calendar: julian, precision: year }, status: tradition, sources: [source/ibn-ishaq-guillaume] }
+  - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0632", calendar: julian, precision: year }, end: { edtf: "0634", calendar: julian, precision: year }, status: historical, sources: [source/watt-1956-medina] }
 relations:
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }

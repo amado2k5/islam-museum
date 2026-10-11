@@ -6,6 +6,7 @@ summary:
   en: "The Prophet entered Mecca with a large force after the Quraysh broke the truce, and the city largely surrendered without fighting."
   ar: "دخل النبي مكة بجيش كبير بعد أن نقضت قريش الهدنة، وسلّمت المدينة في معظمها دون قتال."
 wings: [time, people]
+themes: [conquest-and-its-debates, peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
@@ -17,5 +18,12 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/treaty-of-hudaybiyya }
+sides:
+  - label: { en: "Muslims of Medina and allied tribes" }
+    participants: [group/early-muslims]
+    commanders: [person/muhammad]
+  - label: { en: "Quraysh of Mecca" }
+    participants: [group/quraysh]
+    commanders: [person/abu-sufyan-ibn-harb]
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

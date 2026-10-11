@@ -12,6 +12,7 @@ import { hijriToCivil, toJDN } from "./hijri/convert.js";
 
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
 
+const CONFLICT_KINDS = new Set(["war", "campaign", "battle", "skirmish", "raid", "siege", "naval-battle", "revolt", "civil-war", "mutiny", "massacre", "conquest"]);
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const REF = /^[a-z]+\/[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -48,7 +49,7 @@ function* walkDates(node: any, path = ""): Generator<[string, any]> {
   for (const [k, v] of Object.entries(node)) yield* walkDates(v, path ? `${path}.${k}` : k);
 }
 
-export function validateAll(): { issues: Issue[]; entityCount: number; proseCount: number } {
+export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
   const issues: Issue[] = [];
   const err = (file: string, msg: string) => issues.push({ level: "error", file: rel(file), msg });
   const warn = (file: string, msg: string) => issues.push({ level: "warn", file: rel(file), msg });
@@ -63,7 +64,7 @@ export function validateAll(): { issues: Issue[]; entityCount: number; proseCoun
   const idPatterns = readYaml<Record<string, { pattern: string }>>(p("schema", "external-id-patterns.yaml"));
 
   // ---- load
-  const loaded = loadEntities();
+  const loaded = [...loadEntities(), ...extra];
   const stubs = loadStubs();
   const known = new Set<string>();
   const stubIds = new Set(stubs.map((s) => s.id));
@@ -149,6 +150,49 @@ export function validateAll(): { issues: Issue[]; entityCount: number; proseCoun
       for (const s of r.sources ?? []) if (!known.has(s)) err(file, `${where}: source ${s} does not exist`);
       if (r.type === "related_to") warn(file, `${where}: related_to is a discouraged fallback; use a typed predicate`);
     });
+
+
+    // ---- references inside structured fields (story roles, sides, tensions, locations ...)
+    const REF_KEYS = new Set(["toward", "participants", "commanders", "passages", "part_of", "parent_period", "parent_concept", "publisher", "broadcaster",
+      "founder", "headquarters", "predecessor", "successor", "patron", "architect", "location", "place", "maker", "made_in", "modern_country", "work", "language", "authors", "languages", "defining_events", "related"]);
+    const walkRefs = (node: any, path: string) => {
+      if (!node || typeof node !== "object") return;
+      if (Array.isArray(node)) { node.forEach((x, i) => walkRefs(x, `${path}[${i}]`)); return; }
+      for (const [k, val] of Object.entries<any>(node)) {
+        if (k === "relations") continue; // handled above with predicate rules
+        const vals = Array.isArray(val) ? val : [val];
+        if (REF_KEYS.has(k)) for (const x of vals) if (typeof x === "string" && REF.test(x) && !resolves(x)) err(file, `${path ? path + "." : ""}${k}: ${x} does not exist; add the entity or declare it in data/_stubs.yaml`);
+        walkRefs(val, path ? `${path}.${k}` : k);
+      }
+    };
+    walkRefs(entity, "");
+
+    // ---- licence wall (docs/plan/15 §3): only cc0, by or our own cited research may enter data/
+    const layer = entity.provenance?.layer;
+    if (layer && !["cc0", "by", "own-research"].includes(layer)) err(file, `provenance.layer "${layer}" may not enter data/ (only cc0, by or own-research; see docs/plan/15 §3)`);
+    if (layer === "own-research" && own.size === 0) err(file, "provenance.layer own-research requires cited sources");
+
+    // ---- conflicts must show both sides (docs/plan/13 and 14): warn when a conflict has fewer than two sides
+    if (entity.class === "event" && CONFLICT_KINDS.has(entity.kind) && (entity.sides?.length ?? 0) < 2) {
+      warn(file, `${entity.kind} lists ${entity.sides?.length ?? 0} sides; conflicts must show both sides (sides[] with at least two)`);
+    }
+
+    // ---- tension cards need at least two cited voices (docs/plan/14 §4)
+    for (const [i, t] of (entity.tensions ?? []).entries()) {
+      const voices = [...(t.raised_by ?? []), ...(t.responses ?? [])].filter((x: any) => (x.sources ?? []).length > 0);
+      if (voices.length < 2) err(file, `tensions[${i}] (${t.id}): needs at least two cited voices, has ${voices.length}`);
+      for (const s of voices.flatMap((x: any) => x.sources ?? [])) if (!known.has(s)) err(file, `tensions[${i}]: source ${s} does not exist`);
+    }
+
+    // ---- screen index rules (docs/plan/12)
+    if (entity.class === "screen") {
+      if (!(entity.relations ?? []).some((r: any) => ["about", "set_in", "subject_of", "setting_of"].includes(r.type))) warn(file, "no about/set_in edge: listed, not yet indexed");
+      for (const [i, r] of (entity.reception ?? []).entries()) if (!(r.sources ?? []).length) warn(file, `reception[${i}] (${r.kind}) has no sources`);
+      if (entity.approach === "polemical" && entity.sensitivity !== "polemical") err(file, "approach polemical requires sensitivity: polemical");
+      if (entity.sensitivity === "polemical" && (entity.watch ?? []).length) err(file, "polemical works are described and cited, never linked for viewing: remove watch[]");
+      if (entity.depiction?.prophet === "face") err(file, "a depiction showing a prophet's face is described in words only and must not carry watch links or images");
+    }
+    if (entity.sensitivity === "polemical" && entity.class === "media") err(file, "polemical material is never reproduced as media");
 
     // external ids
     for (const [k, v] of Object.entries<string>(entity.external_ids ?? {})) {

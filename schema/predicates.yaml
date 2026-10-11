@@ -343,3 +343,275 @@ certified_by:
   label: { en: "Certified by", ar: "معتمد من" }
   inverse_label: { en: "Certifies", ar: "يعتمد" }
   temporal: false
+
+about:
+  inverse: subject_of
+  domain: [screen,work]
+  range: ["*"]
+  label: { en: "About", ar: "عن" }
+  inverse_label: { en: "Subject of", ar: "موضوع" }
+  temporal: false
+
+set_in:
+  inverse: setting_of
+  domain: [screen,work]
+  range: ["*"]
+  label: { en: "Set in", ar: "تدور أحداثه في" }
+  inverse_label: { en: "Setting of", ar: "مسرح" }
+  temporal: false
+
+directed_by:
+  inverse: directed
+  domain: [screen]
+  range: [person,group]
+  label: { en: "Directed by", ar: "إخراج" }
+  inverse_label: { en: "Directed", ar: "أخرج" }
+  temporal: false
+
+written_by:
+  inverse: wrote_screenplay
+  domain: [screen]
+  range: [person]
+  label: { en: "Written by", ar: "تأليف" }
+  inverse_label: { en: "Wrote the screenplay of", ar: "كتب سيناريو" }
+  temporal: false
+
+produced_by:
+  inverse: produced
+  domain: [screen]
+  range: [person,group]
+  label: { en: "Produced by", ar: "إنتاج" }
+  inverse_label: { en: "Produced", ar: "أنتج" }
+  temporal: false
+
+broadcast_by:
+  inverse: broadcast
+  domain: [screen]
+  range: [group]
+  label: { en: "Broadcast by", ar: "بثّته" }
+  inverse_label: { en: "Broadcast", ar: "بثّت" }
+  temporal: false
+
+features:
+  inverse: appears_in
+  domain: [screen]
+  range: [person,group]
+  label: { en: "Features", ar: "بطولة" }
+  inverse_label: { en: "Appears in", ar: "يظهر في" }
+  temporal: false
+
+adaptation_of:
+  inverse: adapted_as
+  domain: [screen]
+  range: [work,screen]
+  label: { en: "Adaptation of", ar: "مقتبس من" }
+  inverse_label: { en: "Adapted as", ar: "اقتُبس في" }
+  temporal: false
+
+version_of:
+  inverse: has_version
+  domain: [screen]
+  range: [screen]
+  label: { en: "Version of", ar: "نسخة من" }
+  inverse_label: { en: "Has version", ar: "له نسخة" }
+  temporal: false
+
+episode_of:
+  inverse: has_episode
+  domain: [screen]
+  range: [screen]
+  label: { en: "Episode of", ar: "حلقة من" }
+  inverse_label: { en: "Has episode", ar: "له حلقة" }
+  temporal: false
+
+fought:
+  inverse: fought_by
+  domain: [person,group,polity]
+  range: [person,group,polity]
+  label: { en: "Fought", ar: "قاتل" }
+  inverse_label: { en: "Fought by", ar: "قاتله" }
+  temporal: true
+
+allied_with:
+  inverse: allied_with
+  domain: [person,group,polity]
+  range: [person,group,polity]
+  label: { en: "Allied with", ar: "حليف" }
+  inverse_label: { en: "Allied with", ar: "حليف" }
+  temporal: true
+
+protected:
+  inverse: protected_by
+  domain: [person,group,polity]
+  range: [person,group,polity]
+  label: { en: "Protected", ar: "حمى" }
+  inverse_label: { en: "Protected by", ar: "حماه" }
+  temporal: true
+
+persecuted:
+  inverse: persecuted_by
+  domain: [person,group,polity]
+  range: [person,group,polity]
+  label: { en: "Persecuted", ar: "اضطهد" }
+  inverse_label: { en: "Persecuted by", ar: "اضطهده" }
+  temporal: true
+
+debated_with:
+  inverse: debated_with
+  domain: [person]
+  range: [person]
+  label: { en: "Debated with", ar: "ناظر" }
+  inverse_label: { en: "Debated with", ar: "ناظر" }
+  temporal: false
+
+corresponded_with:
+  inverse: corresponded_with
+  domain: [person,group,polity]
+  range: [person,group,polity]
+  label: { en: "Corresponded with", ar: "راسل" }
+  inverse_label: { en: "Corresponded with", ar: "راسل" }
+  temporal: false
+
+critic_of:
+  inverse: criticised_by
+  domain: [person,group,work]
+  range: [person,work,concept,group]
+  label: { en: "Critic of", ar: "ناقد لـ" }
+  inverse_label: { en: "Criticised by", ar: "انتقده" }
+  temporal: false
+
+responded_to:
+  inverse: answered_by
+  domain: [work]
+  range: [work]
+  label: { en: "Responded to", ar: "ردّ على" }
+  inverse_label: { en: "Answered by", ar: "رُدّ عليه" }
+  temporal: false
+
+wrote_about:
+  inverse: written_about_by
+  domain: [person]
+  range: ["*"]
+  label: { en: "Wrote about", ar: "كتب عن" }
+  inverse_label: { en: "Written about by", ar: "كُتب عنه" }
+  temporal: false
+
+condemned:
+  inverse: condemned_by
+  domain: [person,group,polity,work]
+  range: ["*"]
+  label: { en: "Condemned", ar: "أدان" }
+  inverse_label: { en: "Condemned by", ar: "أدانه" }
+  temporal: false
+
+converted_under:
+  inverse: received_conversion_of
+  domain: [person,group]
+  range: [person,group,polity]
+  label: { en: "Converted under", ar: "أسلم على يد" }
+  inverse_label: { en: "Received the conversion of", ar: "أسلم على يديه" }
+  temporal: true
+
+ruled_over:
+  inverse: under_rule_of
+  domain: [person,polity]
+  range: [group,place,polity]
+  label: { en: "Ruled over", ar: "حكم" }
+  inverse_label: { en: "Under the rule of", ar: "تحت حكم" }
+  temporal: true
+
+split_from:
+  inverse: split_into
+  domain: [group]
+  range: [group]
+  label: { en: "Split from", ar: "انشق عن" }
+  inverse_label: { en: "Split into", ar: "انقسم إلى" }
+  temporal: true
+
+merged_into:
+  inverse: absorbed
+  domain: [group]
+  range: [group]
+  label: { en: "Merged into", ar: "اندمج في" }
+  inverse_label: { en: "Absorbed", ar: "استوعب" }
+  temporal: true
+
+deserted:
+  inverse: deserted_by
+  domain: [person,group]
+  range: [group,person,event]
+  label: { en: "Deserted", ar: "تخلّى عن" }
+  inverse_label: { en: "Deserted by", ar: "تخلّى عنه" }
+  temporal: true
+
+defected_to:
+  inverse: received_defector
+  domain: [person,group]
+  range: [group,polity,person]
+  label: { en: "Defected to", ar: "انحاز إلى" }
+  inverse_label: { en: "Received the defector", ar: "استقبل المنشق" }
+  temporal: true
+
+convened:
+  inverse: convened_by
+  domain: [person,group,polity]
+  range: [event]
+  label: { en: "Convened", ar: "دعا إلى" }
+  inverse_label: { en: "Convened by", ar: "دعا إليه" }
+  temporal: false
+
+attended:
+  inverse: attended_by
+  domain: [person,group,polity]
+  range: [event]
+  label: { en: "Attended", ar: "حضر" }
+  inverse_label: { en: "Attended by", ar: "حضره" }
+  temporal: false
+
+issued:
+  inverse: issued_by
+  domain: [person,group,polity]
+  range: [work]
+  label: { en: "Issued", ar: "أصدر" }
+  inverse_label: { en: "Issued by", ar: "صدر عن" }
+  temporal: false
+
+signed:
+  inverse: signed_by
+  domain: [person,group,polity]
+  range: [work,event]
+  label: { en: "Signed", ar: "وقّع" }
+  inverse_label: { en: "Signed by", ar: "وقّعه" }
+  temporal: false
+
+rules_on:
+  inverse: ruled_on_by
+  domain: [work]
+  range: [concept,practice,group]
+  label: { en: "Rules on", ar: "يحكم في" }
+  inverse_label: { en: "Ruled on by", ar: "حُكم فيه بـ" }
+  temporal: false
+
+regulates:
+  inverse: regulated_by
+  domain: [work]
+  range: [group,practice,concept]
+  label: { en: "Regulates", ar: "ينظّم" }
+  inverse_label: { en: "Regulated by", ar: "ينظّمه" }
+  temporal: false
+
+funds:
+  inverse: funded_by
+  domain: [person,group,polity]
+  range: [group,work,building,listing,event]
+  label: { en: "Funds", ar: "يموّل" }
+  inverse_label: { en: "Funded by", ar: "يموّله" }
+  temporal: false
+
+serves:
+  inverse: served_by
+  domain: [group,listing,building]
+  range: [group]
+  label: { en: "Serves", ar: "يخدم" }
+  inverse_label: { en: "Served by", ar: "يخدمه" }
+  temporal: false
