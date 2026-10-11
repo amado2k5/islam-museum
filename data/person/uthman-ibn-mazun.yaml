@@ -1,0 +1,23 @@
+id: person/uthman-ibn-mazun
+class: person
+label: { en: "Uthman ibn Maz'un", ar: "عثمان بن مظعون" }
+names:
+  - { kind: full, lang: ar, value: "عثمان بن مظعون بن حبيب الجمحي القرشي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "One of the earliest Muslims of the secret call; he accepted Islam with his brothers Qudama and Abdullah."
+  ar: "من أوائل المسلمين في الدعوة السرية؛ أسلم مع أخويه قدامة وعبد الله."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين في الدعوة السرية (الرحيق ص75-76).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين مع أخويه", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }
