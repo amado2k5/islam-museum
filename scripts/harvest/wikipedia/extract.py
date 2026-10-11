@@ -51,7 +51,9 @@ import html
 
 def unxml(s): return html.unescape(s)
 
-CITE = re.compile(r"^(cite|citation)", re.I)
+# Template-name prefixes per language: infoboxes and citation templates are named differently on each wiki.
+CITE = re.compile(r"^(cite|citation|استشهاد|مرجع|وب|كتاب)", re.I) if L == "ar" else re.compile(r"^(cite|citation)", re.I)
+INFOBOX = re.compile(r"^(infobox|صندوق|معلومات)", re.I) if L == "ar" else re.compile(r"^infobox", re.I)
 
 def parse_page(xml: str, depth_strong):
     title = unxml(re.search(r"<title>(.*?)</title>", xml, re.S).group(1))
@@ -65,13 +67,19 @@ def parse_page(xml: str, depth_strong):
     for tpl in code.filter_templates(recursive=True):
         name = str(tpl.name).strip()
         low = name.lower()
-        if low.startswith("infobox"):
+        if INFOBOX.match(name):
             infoboxes.append({"name": name, "params": {str(p.name).strip(): mw.parse(str(p.value)).strip_code().strip()[:300] for p in tpl.params if str(p.value).strip()}})
         elif CITE.match(low):
-            g = lambda k: (str(tpl.get(k).value).strip() if tpl.has(k) else None)
-            refs.append({"kind": name, "title": g("title"), "author": g("author") or g("last") or g("last1"), "publisher": g("publisher"), "year": g("year") or g("date"),
-                         "isbn": g("isbn"), "doi": g("doi"), "url": g("url"), "journal": g("journal")})
-    cats = [str(l.title).split(":", 1)[1].split("|")[0].strip() for l in code.filter_wikilinks() if str(l.title).lower().startswith("category:")]
+            def g(*keys):
+                for k in keys:                     # Arabic citation templates use Arabic parameter names as well as English ones
+                    if tpl.has(k) and str(tpl.get(k).value).strip(): return str(tpl.get(k).value).strip()
+                return None
+            refs.append({"kind": name, "title": g("title", "عنوان", "العنوان"), "author": g("author", "last", "last1", "مؤلف", "المؤلف", "الأخير"),
+                         "publisher": g("publisher", "ناشر", "الناشر"), "year": g("year", "date", "سنة", "تاريخ", "السنة"), "isbn": g("isbn", "ردمك"),
+                         "doi": g("doi"), "url": g("url", "مسار", "رابط"), "journal": g("journal", "دورية", "مجلة"),
+                         # when no known parameter matched, keep the raw parameters so the citation is not lost
+                         **({"raw": {str(p.name).strip(): str(p.value).strip()[:160] for p in tpl.params if str(p.value).strip()}} if not g("title", "عنوان", "العنوان") else {})})
+    cats = [str(l.title).split(":", 1)[1].split("|")[0].strip() for l in code.filter_wikilinks() if str(l.title).lower().startswith(("category:", "تصنيف:"))]
     ilinks = [str(l.title)[:80] for l in code.filter_wikilinks() if ":" not in str(l.title)]
     inter = [str(l.title).split(":", 1)[0] for l in code.filter_wikilinks() if re.match(r"^[a-z]{2,3}(-[a-z]+)?:", str(l.title))]
     sections, lead = [], ""
