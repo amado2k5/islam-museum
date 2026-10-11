@@ -1,0 +1,26 @@
+id: person/tufayl-ibn-amr-al-dawsi
+class: person
+label: { en: "al-Tufayl ibn Amr al-Dawsi", ar: "الطفيل بن عمرو الدوسي" }
+names:
+  - { kind: full, lang: ar, value: "الطفيل بن عمرو الدوسي" }
+  - { kind: laqab, lang: ar, value: "ذو النور" }
+gender: male
+roles: [companion, poet, notable]
+traditions: [sunni]
+summary:
+  en: "A noble chief and renowned poet of the Daws tribe who arrived in Mecca around the eleventh year of prophethood; warned against listening to Muhammad, he stuffed his ears with cotton but upon hearing the recitation at the Kaaba embraced Islam, later calling his entire tribe to the faith."
+  ar: "سيد قبيلة دوس وشاعرها الشريف الملقب بذي النور؛ حذّرته قريش من النبي فحشا أذنيه كرسفاً، حتى سمعه يصلي عند الكعبة فاستمع لكلامه وأسلم، ودعا قومه باليمن حتى قدم بهم مسلمين بخيبر."
+wings: [people]
+themes: [converts-and-leavers, literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0620~" }, status: tradition, note: "أسلم بمكة في أواخر سنة 11 من النبوة (الرحيق ص134-135).", sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, start: { edtf: "0620~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0620~" }, note: "صحابي جليل من سادات دوس." }
+relations:
+  - { type: born_in, target: place/yemen }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0620~" }, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 134-135" }

@@ -1,25 +1,28 @@
 id: event/isra-and-miraj
 class: event
-kind: other
+kind: revelation
 label: { en: "The Isra and Mi'raj", ar: "الإسراء والمعراج" }
 summary:
-  en: "The night journey of the Prophet from Mecca to Jerusalem and his ascent through the heavens, as understood in Islamic tradition."
-  ar: "رحلة النبي ليلًا من مكة إلى بيت المقدس وعروجه إلى السماوات كما تفهمها التقاليد الإسلامية."
-wings: [time, people]
-themes: [prophets, sacred-space-and-pilgrimage]
+  en: "The miraculous nocturnal journey of Prophet Muhammad from al-Masjid al-Haram to al-Masjid al-Aqsa in Jerusalem, and his ascent through the seven heavens, where the five daily prayers were ordained."
+  ar: "إسراء النبي ليلاً بجسده على الصحيح بصحبة جبريل من المسجد الحرام إلى المسجد الأقصى على البراق وصلاته بالأنبياء إماماً، ثم عروجه إلى السماوات العلا وفرض الصلوات الخمس."
+wings: [time, people, place]
+themes: [prophets, worship-and-the-pillars]
 periods: [period/prophetic-era]
-regions: [arabia]
+regions: [arabia, levant-iraq]
 date:
-  start: { edtf: "0621~", calendar: julian, precision: year, status: debated, note: "The date and the nature of the journey are discussed in the tradition." }
+  start: { edtf: "0621~", calendar: julian, precision: year, status: debated, note: "اختلف في زمنه على ستة أقوال؛ رجح المباركفوري وقوعه بعد رحلة الطائف وقبل بيعة العقبة، في حدود السنة الحادية عشرة أو الثانية عشرة من النبوة (الرحيق ص137-138)." }
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: occurred_at, target: place/jerusalem }
   - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-bakr, role: "صدّق بالنبل فسمي الصديق", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "استهزأ بالخبر ونادى قريشاً للتكذيب", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
 perspectives:
   - tradition: sunni
-    summary: { en: "Many Sunni scholars understand it as a bodily and spiritual journey in a single night; others emphasise a spiritual vision." }
+    summary: { en: "Sunni scholars hold that the journey occurred in both body and soul while awake, citing explicit hadith reports in Bukhari and Muslim and the opening of Surat al-Isra." }
+    sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim]
   - tradition: academic
-    summary: { en: "Historians note that the Qur'anic references (17:1 and 53:1-18) are brief and that the detailed accounts come from later reports." }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+    summary: { en: "Historians analyse the varied early reports and traditions regarding the dating and nature of the night journey, contrasting the concise Qur'anic text with the developed details in classical hadith literature." }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 137-142" }

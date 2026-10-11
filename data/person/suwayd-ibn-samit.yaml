@@ -1,0 +1,25 @@
+id: person/suwayd-ibn-samit
+class: person
+label: { en: "Suwayd ibn Samit", ar: "سويد بن صامت" }
+names:
+  - { kind: full, lang: ar, value: "سويد بن الصامت بن عطية الأوسي" }
+  - { kind: laqab, lang: ar, value: "الكامل" }
+gender: male
+roles: [poet, notable]
+traditions: [sunni]
+summary:
+  en: "A renowned poet and noble warrior of the Aws tribe in Yathrib, called 'al-Kamil' for his valor and lineage; he met the Prophet in Mecca carrying the wisdom of Luqman, listened to the Qur'an, approved of it, and was killed at the battle of Bu'ath before fully establishing his practice."
+  ar: "شاعر وفارس شريف من الأوس بيثرب لقّبه قومه بالكامل لجلادته وشعره وشرفه؛ لقيه النبي بمكة ومعه مجلة لقمان، فاستمع إلى القرآن وقال إن هذا لقول حسن، وقُتل يوم بعاث قبل أن يستحكم إسلامه."
+wings: [people]
+themes: [literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0620~" }, status: tradition, note: "عرض عليه النبي الإسلام فأعجب بالقرآن (الرحيق ص132-133).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "لقي النبي وأعجب بالقرآن ثم قتل ببعاث." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/aws }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 132-133" }
