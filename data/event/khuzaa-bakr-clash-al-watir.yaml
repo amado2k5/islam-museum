@@ -1,0 +1,37 @@
+id: event/khuzaa-bakr-clash-al-watir
+class: event
+kind: raid
+label: { en: "The Bakr–Khuza'a clash at al-Watir", ar: "القتال بين بني بكر وخزاعة على الوتير" }
+summary:
+  en: "A night raid by Banu al-Dil of Banu Bakr — secretly armed and joined by men of Quraysh — on Khuza'a at their watering place al-Watir in lower Mecca. The breach of the Hudaybiyya truce it caused is the spark the tradition gives for the conquest of Mecca."
+  ar: "تبييت بني الديل من بني بكر خزاعةً على مائهم الوتير بأسفل مكة، بإمداد قريش لهم بالسلاح واشتراك بعضهم في القتال خفية؛ وهو خرق عهد الحديبية الذي جعلته الرواية شرارة فتح مكة."
+wings: [time, people, place]
+themes: [battles, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0629", hijri: "0008", calendar: julian, precision: year, status: tradition, note: "لا يؤرخه ابن إسحاق؛ وقع بين صلح الحديبية (ذو القعدة سنة ست) والمسيرة إلى مكة (رمضان سنة ثمان).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-watir }
+  - { type: occurred_at, target: place/mecca }
+  - { type: part_of, target: event/conquest-of-mecca, note: "الخرق الذي انتهى إلى الفتح؛ ترتب عليه كامل سلسلة الأسباب." }
+  - { type: caused_by, target: event/treaty-of-hudaybiyya, note: "شرط الحديبية: دخلت بنو بكر في عقد قريش ودخلت خزاعة في عقد النبي — فكان اعتداء بكر على خزاعة خرقًا للعهد." , sources: [source/ibn-hisham-saqqa] }
+  - { type: caused, target: event/khuzaa-appeal-to-medina }
+  - { type: caused, target: event/conquest-of-mecca }
+  - { type: had_participant, target: person/nawfal-ibn-muawiya, role: commander-raiding-party, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/tamim-ibn-asad, role: survivor, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/munabbih, role: killed, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/budayl-ibn-warqa, role: shelter-provider, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-akhzar-ibn-lut, role: poet-of-the-raiders, sources: [source/ibn-hisham-saqqa] }
+sides:
+  - label: { en: "Banu al-Dil of Banu Bakr, with secret Quraysh support", ar: "بنو الديل من بني بكر، بإمداد قريش الخفي" }
+    participants: [group/banu-al-dil, group/quraysh]
+    commanders: [person/nawfal-ibn-muawiya]
+    note: "لم يتبع نوفلًا كل بني بكر؛ رفدتهم قريش بالسلاح وقاتل معهم منها من قاتل بالليل مستخفيًا."
+  - label: { en: "Khuza'a", ar: "خزاعة" }
+    participants: [group/khuzaa]
+    note: "تحصنوا بدار بديل بن ورقاء ودار رافع مولاهم بعد الكرّة."
+casualties: { value: 1, status: tradition, note: "أصابت بنو الديل من خزاعة رجلًا يقال له منبه ليلة التبييت؛ ثم تحاوز الفريقان واقتتلا قتالًا لم يُعدّد قتلاه.", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 31–33", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 31–33" }

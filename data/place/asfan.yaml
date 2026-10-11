@@ -1,0 +1,16 @@
+id: place/asfan
+class: place
+kind: site
+label: { en: "Usfan", ar: "عسفان" }
+summary:
+  en: "A settlement two stages from Mecca on the Medina road; there Abu Sufyan met Budayl ibn Warqa' coming back from Medina, and there the Prophet's army passed on the march of the conquest."
+  ar: "موضع على مرحلتين من مكة على طريق المدينة؛ لقي فيه أبو سفيان بديلَ بن ورقاء عائدًا من المدينة، ومرّ به جيش الفتح."
+wings: [place]
+themes: [sacred-space-and-pilgrimage]
+regions: [arabia]
+relations:
+  - { type: located_in, target: place/mecca, note: "على مرحلتين من مكة على طريق المدينة (معجم البلدان، في حاشية ابن هشام).", confidence: medium, sources: [source/ibn-hisham-saqqa] }
+coordinate_note: "Coordinates withheld: the edition's note gives 'two stages from Mecca on the Medina road' only."
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 37", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 37" }

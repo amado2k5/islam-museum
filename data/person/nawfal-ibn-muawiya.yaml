@@ -1,0 +1,23 @@
+id: person/nawfal-ibn-muawiya
+class: person
+label: { en: "Nawfal ibn Mu'awiya al-Dili", ar: "نوفل بن معاوية الديلي" }
+names:
+  - { kind: full, lang: ar, value: "نوفل بن معاوية الديلي" }
+gender: male
+roles: [tribal-leader]
+summary:
+  en: "Chief of Banu al-Dil of Banu Bakr in the truce years; he led the night attack on Khuza'a at al-Watir seeking blood-revenge and refused to halt at the sanctuary's bounds — the breach that precipitated the conquest of Mecca."
+  ar: "سيد بني الديل من بني بكر في سنين الهدنة؛ قاد التبييت على خزاعة عند ماء الوتير طلبًا بثأر قديم، وأبى أن يفيء إليها حين ناشده رجاله حدود الحرم — وهو الخرق الذي ترتب عليه فتح مكة."
+wings: [people]
+themes: [battles, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: group/khuzaa, status: tradition, note: "خرج في بني الديل — وليس كل بني بكر — يبيّت خزاعة على الوتير؛ ولما ناشده أصحابه بحدود الحرم أبى أن يفيء وقال «أصيبوا ثأركم».", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-al-dil }
+  - { type: member_of, target: group/banu-bakr }
+  - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: commander-raiding-party, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 32", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 32" }

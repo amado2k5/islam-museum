@@ -1,0 +1,23 @@
+id: person/malik-ibn-abbad-al-hadrami
+class: person
+label: { en: "Malik ibn Abbad al-Hadrami", ar: "مالك بن عباد الحضرمي" }
+names:
+  - { kind: full, lang: ar, value: "مالك بن عباد الحضرمي" }
+gender: male
+roles: [tribal-leader]
+summary:
+  en: "A trader of Banu al-Hadrami under the protection pact of Banu al-Aswad ibn Razn; Khuza'a killed him on their land and took his goods — the first link in the feud that ended at al-Watir."
+  ar: "تاجر من بني الحضرمي كان حلفه إلى بني الأسود بن رزن؛ عدت عليه خزاعة في أرضها فقتلته وأخذت ماله، فكان قتله أول حلقة العداوة التي انتهت إلى تبييت الوتير."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: victim, status: tradition, note: "خرج تاجرًا فلما توسط أرض خزاعة عدوا عليه فقتلوه وأخذوا ماله؛ كان حلفه إلى بني الأسود بن رزن.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-al-hadrami }
+  - { type: allied_with, target: group/banu-al-aswad-b-razn, note: "حلف الحضرمي يومئذ إلى الأسود بن رزن.", sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/mecca, confidence: medium, note: "قتل في أرض خزاعة — أي نواحي مكة — دون تحديد في النص." , sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 31", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 31" }

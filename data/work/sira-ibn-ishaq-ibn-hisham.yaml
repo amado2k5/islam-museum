@@ -1,0 +1,21 @@
+id: work/sira-ibn-ishaq-ibn-hisham
+class: work
+kind: book
+genre: [sira, history]
+label: { ar: "سيرة ابن إسحاق برواية ابن هشام", en: "The Sira of Ibn Ishaq in Ibn Hisham's recension" }
+summary:
+  ar: "أقدم سيرة نبوية متصلة باقية؛ ألفها محمد بن إسحاق (ت 151هـ) ثم هذّبها ولخصها عبد الملك بن هشام (ت 213هـ أو 218هـ) فصارت المعروفة بـ«السيرة النبوية لابن هشام»."
+  en: "The earliest surviving continuous biography of the Prophet; composed by Muhammad ibn Ishaq (d. 151 AH) and abridged/recast by Abd al-Malik ibn Hisham (d. 213 or 218 AH) — the text known as Ibn Hisham's Sira."
+wings: [words, time]
+themes: [prophets, history-writing-and-social-thought, scripture-and-its-sciences]
+regions: [arabia]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-hisham-saqqa] }
+authors: [person/ibn-ishaq, person/ibn-hisham]
+language: language/arabic
+composed: { edtf: "0767~", hijri: "0150~", calendar: julian, precision: decade, status: historical, note: "Ibn Ishaq died 151/767; Ibn Hisham's recension followed in the early 3rd century AH.", sources: [source/ibn-hisham-saqqa] }
+structure: "four ajza' in the Saqqa/Halabi edition; juz' 4 covers the period from Jafar's return from Abyssinia and Khaybar to the Prophet's death and burial"
+relations:
+  - { type: wrote_in, target: language/arabic }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 scan" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from the 1936 Halabi scan" }

@@ -1,0 +1,23 @@
+id: work/amr-ibn-salim-istighatha
+class: work
+kind: poem
+label: { en: "Amr ibn Salim's plea", ar: "استغاثة عمرو بن سالم" }
+summary:
+  en: "The verses Amr ibn Salim al-Khuza'i recited before the Prophet in the Medina mosque after the al-Watir attack, invoking the pact of the fathers for Banu Ka'b. Ibn Ishaq calls it part of what stirred the conquest of Mecca. Opening: «يا رب إني ناشد محمدًا حلف أبينا وأبيه الأتلدا»."
+  ar: "الأبيات التي وقف بها عمرو بن سالم الخزاعي على النبي في مسجد المدينة بعد اعتداء الوتير، يناشده حلف الآباء لبني كعب؛ قال ابن إسحاق إنها «مما هاج فتح مكة». مطلعها: «يا رب إني ناشد محمدًا حلف أبينا وأبيه الأتلدا»."
+genre: [poetry, istighatha]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-hisham-saqqa] }
+authors: [person/amr-ibn-salim]
+language: language/arabic
+composed: { edtf: "0629", hijri: "0008", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد اعتداء الوتير وقبيل المسيرة.", sources: [source/ibn-hisham-saqqa] }
+wings: [people, time]
+themes: [literature, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: event/khuzaa-appeal-to-medina }
+  - { type: mentions, target: event/khuzaa-bakr-clash-al-watir, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/banu-kab-ibn-khuzaa, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 36–37", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 36–37" }

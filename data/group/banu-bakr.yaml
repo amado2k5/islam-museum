@@ -1,0 +1,23 @@
+id: group/banu-bakr
+class: group
+kind: tribe
+label: { en: "Banu Bakr ibn Abd Manat", ar: "بنو بكر بن عبد مناف" }
+summary:
+  en: "A tribe of Kinana that entered Quraysh's pact at Hudaybiyya; the night attack by its Banu al-Dil clan on Khuza'a at al-Watir — secretly armed by Quraysh — broke the truce and set off the conquest of Mecca."
+  ar: "قبيلة من كنانة دخلت في عقد قريش وعهدها يوم صلح الحديبية؛ وكان تبييت بطن بني الديل منها خزاعةً على ماء الوتير — بإمداد قريش خفية — الخرق الذي ترتب عليه فتح مكة."
+wings: [people, place]
+themes: [battles, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: unverified }
+story_roles:
+  - { role: military-opponent, toward: group/khuzaa, status: tradition, note: "خروج نوفل بن معاوية الديلي في بني الديل يبيّت خزاعة على الوتير، ولم يتبعه كل بني بكر؛ رفدت قريش بني بكر بالسلاح وقاتل معهم منها من قاتل بالليل مستخفيًا.", sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume] }
+  - { role: ally, toward: group/quraysh, start: { edtf: "0628" }, end: { edtf: "0630" }, status: tradition, note: "دخلت بنو بكر في عقد قريش وعهدهم في صلح الحديبية.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: part_of, target: group/kinana, note: "بنو بكر بن عبد مناف بن كنانة.", sources: [source/ibn-hisham-saqqa] }
+  - { type: allied_with, target: group/quraysh, start: { edtf: "0628" }, end: { edtf: "0630" }, note: "دخولها في عقد قريش وعهدهم بمقتضى شرط الحديبية.", sources: [source/ibn-hisham-saqqa] }
+  - { type: fought, target: group/khuzaa, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: attacker, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 31–32", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 31–32" }

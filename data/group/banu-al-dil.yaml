@@ -1,0 +1,18 @@
+id: group/banu-al-dil
+class: group
+kind: clan
+label: { en: "Banu al-Dil", ar: "بنو الديل" }
+summary:
+  en: "A clan of Banu Bakr ibn Abd Manat ibn Kinana — its leading house, Banu al-Aswad ibn Razn, had been killed by Khuza'a before Islam; in the truce of Hudaybiyya its men under Nawfal ibn Mu'awiya carried out the night attack on al-Watir."
+  ar: "بطن من بني بكر بن عبد مناف بن كنانة؛ قتلت خزاعة أشرافهم بني الأسود بن رزن قبل الإسلام، فاغتنموا هدنة الحديبية وبيّتوا خزاعة على الوتير بقيادة نوفل بن معاوية طلبًا للثأر."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: unverified }
+relations:
+  - { type: part_of, target: group/banu-bakr, note: "بطن من بني بكر بن عبد مناف بن كنانة.", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: raiding-party, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 31–32", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 31–32" }

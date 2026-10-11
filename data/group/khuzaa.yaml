@@ -1,0 +1,23 @@
+id: group/khuzaa
+class: group
+kind: tribe
+label: { en: "Khuza'a", ar: "خزاعة" }
+summary:
+  en: "The tribe of the Meccan lowland, long allied to the Prophet's house by marriage and oath; it entered his pact at Hudaybiyya, was attacked at al-Watir by Banu Bakr with Quraysh's secret aid, and its appeal to Medina set off the conquest of Mecca."
+  ar: "قبيلة تهامة جاورت مكة وصاهرت بيت النبوة؛ دخلت في عقد النبي وعهده يوم صلح الحديبية، فاعتدت عليها بنو بكر على ماء الوتير بمظاهرة قريش، فاستغاثت بالمدينة فكان في استغاثتها ما هاج فتح مكة."
+wings: [people, place]
+themes: [battles, laws-of-war-and-peace, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+made: { by_muslims: false, basis: unverified }
+story_roles:
+  - { role: ally, toward: person/muhammad, start: { edtf: "0628" }, end: { edtf: "0632" }, status: tradition, note: "دخلت خزاعة في عقد رسول الله وعهده في صلح الحديبية؛ وحلفها القديم إلى بيته عبر أم عبد مناف وأم قصي فاطمة بنت سعد الخزاعية.", sources: [source/ibn-hisham-saqqa] }
+  - { role: victim, toward: group/banu-bakr, status: tradition, note: "بيّتها نوفل بن معاوية في بني الديل على الوتير فأصابوا منها منبهًا وطاردوها إلى الحرم.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: allied_with, target: person/muhammad, start: { edtf: "0628" }, note: "دخلت في عقده وعهده عند صلح الحديبية.", sources: [source/ibn-hisham-saqqa] }
+  - { type: fought, target: group/banu-bakr, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: attacked-party, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/khuzaa-appeal-to-medina, role: appellant, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 31–37", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 31–37" }
