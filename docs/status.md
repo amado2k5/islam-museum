@@ -10,7 +10,7 @@ _Last updated 11 October 2026. Read this first in a new session, then `docs/plan
 | Content (Phase 1 spine, started) | 13 periods, 25 events of the Prophet's life (with sides on conflicts), 4 people, 31 places (GeoNames ids on all, Pleiades ids where a unique match exists), 12 sources, *The Message* (screen example), all `draft` |
 | Qur'an | Frozen from Tanzil v1.1: `work/quran`, 114 suras, 6,236 ayat. Source files committed in `data/work/quran-source/` with sha256; the validator re-checks every ayah byte for byte. Sura names are museum labels still to verify against Tanzil metadata. Second witness (King Fahd Hafs) not done. |
 | Doc 16 (event maps) | Pipeline built end to end for maps: `map` block on events, `map`/`illustration` media kinds, `geo/`, validator rules (every map feature needs a source), deterministic renderer `scripts/media/maps/render.py` (Natural Earth vectors + shaded relief, scale bar, north arrow, en/ar), `verify_coords.py` (GeoNames check: 12 ok, 1 check, 1 unmatched, 1 missing), `scripts/media/brief.py` (24 scene briefs, ETOPO1 elevation), `scripts/media/accuracy.yaml` (one unreviewed entry), `ingest.py` (writes `data/media/*` and copies SVGs to `site/public/media/maps/`), event pages show the map. One pilot map (Battle of Badr, schematic route, draft). Basemap and elevation files are in `$HARVEST/basemaps/` (not in git). **Not done:** more map blocks with sourced features (camps, lines), polity-extent layer under maps, the accuracy table needs a reviewer's sources, illustration generation (needs the local image model of doc 10; `brief.py` output is ready for it), Wikidata P625 check (needs the dump). Run in `.venv-media` (renderer) and `.venv-harvest` (verify_coords). |
-| Plan documents | 00-16 in `docs/plan/`. |
+| Plan documents | 00-16 in `docs/plan/`, plus `docs/scope.md` (Sunni default frame, all other views labelled) and the no-runtime-AI rule (ADR 0002). |
 
 Run `npm install && npm install --prefix site && npm test && npm run build` to confirm the state (expect 0 validation errors, 25 tests passing, about 12,900 pages).
 
@@ -57,6 +57,7 @@ Devin's schema needs arrive as `docs/requests/devin-*.md`. Unresolved references
 
 ## Rules to remember
 
+- **No AI and no compute at runtime** (docs/plan/03 §13, ADR 0002): AI is a build-time tool only. The site is static; `npm run check:static` (also in CI) fails the build on any runtime call to a non-static or external endpoint. Search synonyms (`scripts/search-variants.yaml` → `site/public/search-synonyms.json`) and related-entity lists (`derive.ts`) are precomputed at build time. Still to do from Prompt P (Phase 5): `scripts/questions/harvest-queries.ts` and the zero-result-search → Questions loop.
 - Only `cc0`/`by`/`own-research` layers may feed `data/`; Wikipedia (by-sa) and OpenITI (nc) are for discovery and facts with citations only (`docs/attribution.md`).
 - AI-generated content is `status.review: draft`; never mark `reviewed` or `verified`. Never write or correct Qur'an text.
 - Commit only when asked; conventional commits; at most 25 entities per content batch.

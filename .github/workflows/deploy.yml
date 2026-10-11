@@ -33,6 +33,8 @@ jobs:
         run: npm test
       - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
         run: npm run build
+      - name: No runtime AI or compute (guard)
+        run: npm run check:static
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site

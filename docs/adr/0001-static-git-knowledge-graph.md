@@ -10,4 +10,4 @@ Content is plain text in git: language-neutral YAML facts (`data/`) and Markdown
 
 ## Consequences
 + Zero hosting cost; git history is provenance; PRs are the editorial workflow; any static host can mirror it.
-− No runtime personalisation or write paths; heavy features (RAG docent, user state) wait for optional Cloudflare Workers (see `docs/plan/03-architecture.md` §12).
+− No runtime personalisation or write paths. Interactivity is client-side over prebuilt static indexes; there is no runtime AI, server code or database (see ADR 0002 and `docs/plan/03-architecture.md` §13).

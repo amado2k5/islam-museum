@@ -3,9 +3,71 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { Compiled, Node } from "./build-graph.js";
-import { p } from "./lib.js";
+import { p, readYaml } from "./lib.js";
 
 const sorted = <T>(a: T[], f: (t: T) => number) => [...a].sort((x, y) => f(x) - f(y));
+
+
+// ---------- build-time search aids (docs/plan/03 §13: no runtime AI or compute) ----------
+const norm = (s: string) => s.normalize("NFKD").replace(/[\u0300-\u036f\u064B-\u0652\u0670]/g, "").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()/,.]/g, " ").replace(/\s+/g, " ").trim();
+
+/** Variant spellings -> canonical labels, from labels, names[], aliases and the rules in scripts/search-variants.yaml. */
+export function buildSynonyms(c: Compiled) {
+  const rules = readYaml<{ swap: [string, string][]; drop_prefix: string[] }>(p("scripts", "search-variants.yaml"));
+  const out = new Map<string, Set<string>>();
+  const add = (variant: string, canonical: string) => {
+    const v = norm(variant);
+    if (v.length < 3 || v === norm(canonical)) return;
+    (out.get(v) ?? out.set(v, new Set()).get(v)!).add(canonical);
+  };
+  for (const n of c.nodes.filter((x) => !x.stub && !(x.class === "passage" && x.data.unit === "ayah") && x.class !== "source")) {
+    const canonical = n.label.en;
+    if (!canonical) continue;
+    const forms = new Set<string>([canonical, ...Object.values(n.label), ...(n.data.names ?? []).map((x: any) => x.value), ...n.aliases.map((a) => a.split("/")[1].replace(/-/g, " "))]);
+    for (const form of forms) {
+      const full = norm(form);
+      add(form, canonical);                                              // names and aliases find the canonical label
+      const bases = new Set([full]);
+      for (const pre of rules.drop_prefix) if (full.startsWith(pre + " ")) bases.add(full.slice(pre.length + 1));
+      for (const base of bases) {
+        add(base, canonical);
+        for (const [from, to] of rules.swap) {
+          if (base.includes(from)) add(base.replace(from, to), canonical);
+          if (base.includes(to)) add(base.replace(to, from), canonical);
+        }
+      }
+    }
+  }
+  return Object.fromEntries([...out].sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, [...v].slice(0, 3)]));
+}
+
+/** "People also explored": shared neighbours (weight 3) and shared themes (weight 1), plus the same period, computed once at build time. */
+export function buildRelated(c: Compiled, perNode = 8) {
+  const skip = (n: Node) => n.stub || n.class === "source" || n.class === "media" || (n.class === "passage" && n.data.unit === "ayah");
+  const nodes = c.nodes.filter((n) => !skip(n));
+  const ids = new Set(nodes.map((n) => n.id));
+  const nbr = new Map<string, Set<string>>();
+  for (const e of c.edges) {
+    if (e.inverse || !ids.has(e.from) || !ids.has(e.to)) continue;
+    (nbr.get(e.from) ?? nbr.set(e.from, new Set()).get(e.from)!).add(e.to);
+    (nbr.get(e.to) ?? nbr.set(e.to, new Set()).get(e.to)!).add(e.from);
+  }
+  const byTheme = new Map<string, string[]>();
+  for (const n of nodes) for (const t of n.themes) (byTheme.get(t) ?? byTheme.set(t, []).get(t)!).push(n.id);
+  const related: Record<string, string[]> = {};
+  for (const n of nodes) {
+    const score = new Map<string, number>();
+    const bump = (id: string, w: number) => { if (id !== n.id && ids.has(id)) score.set(id, (score.get(id) ?? 0) + w); };
+    for (const m of nbr.get(n.id) ?? []) {
+      bump(m, 2);                                            // direct neighbours
+      for (const k of nbr.get(m) ?? []) bump(k, 3);          // shares a neighbour
+    }
+    for (const t of n.themes) for (const k of (byTheme.get(t) ?? []).slice(0, 200)) bump(k, 1);
+    const top = [...score].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, perNode).map(([id]) => id);
+    if (top.length) related[n.id] = top;
+  }
+  return related;
+}
 
 export function derive(c: Compiled) {
   const real = c.nodes.filter((n) => !n.stub);
@@ -53,7 +115,7 @@ export function derive(c: Compiled) {
     visit(n, "start", n.data.date?.start); visit(n, "end", n.data.date?.end);
   }
 
-  return { timeline, map, ego, snapshots, onThisDay: { gregorian: onThisDay, hijri: hijriDay } };
+  return { timeline, map, ego, snapshots, onThisDay: { gregorian: onThisDay, hijri: hijriDay }, related: buildRelated(c), synonyms: buildSynonyms(c) };
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
@@ -61,5 +123,7 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const d = derive(c);
   mkdirSync(p(".cache", "derived"), { recursive: true });
   for (const [k, v] of Object.entries(d)) writeFileSync(p(".cache", "derived", `${k}.json`), JSON.stringify(v));
-  console.log(`derived: ${d.timeline.length} timeline rows, ${d.map.features.length} map features, ${Object.keys(d.ego).length} ego graphs`);
+  mkdirSync(p("site", "public"), { recursive: true });
+  writeFileSync(p("site", "public", "search-synonyms.json"), JSON.stringify(d.synonyms));   // loaded by the client-side search page
+  console.log(`derived: ${d.timeline.length} timeline rows, ${d.map.features.length} map features, ${Object.keys(d.ego).length} ego graphs, ${Object.keys(d.related).length} related lists, ${Object.keys(d.synonyms).length} search variants`);
 }

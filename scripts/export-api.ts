@@ -6,6 +6,7 @@ import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { Compiled, Node } from "./build-graph.js";
 import { CLASSES, p } from "./lib.js";
+import { buildRelated } from "./derive.js";
 
 const OUT = p("site", "public", "api", "v1");
 const write = (rel: string, body: string) => {
@@ -30,13 +31,14 @@ function themeIndex(c: Compiled) {
 export function exportApi(c: Compiled) {
   rmSync(OUT, { recursive: true, force: true });
   const real = c.nodes.filter((n) => !n.stub);
+  const related = buildRelated(c);
   for (const cls of CLASSES) {
     const items = real.filter((n) => n.class === cls);
     if (!items.length) continue;
     write(`${cls}/index.json`, JSON.stringify(items.map(compact), null, 1));
     for (const n of items) {
       const connections = c.edges.filter((e) => e.from === n.id).map(({ from, ...e }) => e);
-      write(`${cls}/${n.slug}.json`, JSON.stringify({ ...n, connections, license: { prose: "CC BY-SA 4.0", data: "CC0 1.0" } }, null, 1));
+      write(`${cls}/${n.slug}.json`, JSON.stringify({ ...n, connections, related: related[n.id] ?? [], license: { prose: "CC BY-SA 4.0", data: "CC0 1.0" } }, null, 1));
     }
   }
   write("graph/nodes.ndjson", c.nodes.map((n) => JSON.stringify(compact(n))).join("\n") + "\n");

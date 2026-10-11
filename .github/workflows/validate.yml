@@ -25,6 +25,8 @@ jobs:
         run: npm run validate
       - name: Build
         run: npm run build
+      - name: No runtime AI or compute (guard)
+        run: npm run check:static
       - name: Link check (internal)
         uses: lycheeverse/lychee-action@v2
         with:

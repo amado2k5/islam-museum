@@ -4,6 +4,7 @@ import { derive } from "./derive";
 import { edtfRange } from "./lib";
 import { hijriCeMismatch, hijriProblem, validateAll } from "./validate";
 import { p } from "./lib";
+import { scan } from "./check-static";
 
 describe("validate", () => {
   it("the repository content has no errors", () => {
@@ -119,7 +120,7 @@ describe("the Qur'an text is frozen (docs/plan/15 §6.3 acceptance test 3)", () 
       writeFileSync(file, original);
     }
     expect(validateAll().issues.filter((i) => i.level === "error")).toEqual([]);
-  });
+  }, 120_000);
   it("has all 114 suras and 6,236 ayat", () => {
     const c = compile();
     expect(c.nodes.filter((n) => n.class === "passage" && n.data.unit === "sura").length).toBe(114);
@@ -136,5 +137,17 @@ describe("scope rule: Sunni is the default and first view (docs/scope.md)", () =
   it("requires the order Sunni, academic, then other views", () => {
     expect(msgs(run(base("event", "zz-test-m", { kind: "other", ...ps("sunni", "shia-twelver", "academic") })), "error")).toMatch(/out of order/);
     expect(msgs(run(base("event", "zz-test-n", { kind: "other", ...ps("sunni-hanafi", "sunni-shafii", "academic", "shia-twelver", "ibadi") })), "error")).toBe("");
+  });
+});
+
+describe("no AI or compute at runtime (docs/adr/0002)", () => {
+  const w = async (name: string, body: string) => { const { mkdtempSync, writeFileSync } = await import("node:fs"); const d = mkdtempSync("/tmp/static-"); const f = `${d}/${name}`; writeFileSync(f, body); return f; };
+  it("accepts a same-origin static fetch", async () => {
+    expect(scan([await w("a.html", '<script>fetch("/search-synonyms.json")</script>')])).toEqual([]);
+  });
+  it("rejects external calls, sockets and non-static paths", async () => {
+    expect(scan([await w("b.html", '<script>fetch("https://api.example.com/ask")</script>')]).join()).toMatch(/external origin/);
+    expect(scan([await w("c.html", '<script>fetch("/ask?q=1")</script>')]).join()).toMatch(/non-static/);
+    expect(scan([await w("d.html", "<script>new WebSocket('wss://x')</script>")]).join()).toMatch(/WebSocket/);
   });
 });

@@ -18,7 +18,8 @@
     "test": "vitest run",
     "prebuild": "npm run validate && npm run graph && npm run derive && npm run api",
     "dev": "npm run graph && npm run derive && npm run api && npm --prefix site run dev",
-    "build": "npm --prefix site run build"
+    "build": "npm --prefix site run build",
+    "check:static": "tsx scripts/check-static.ts"
   },
   "dependencies": {
     "@umalqura/core": "^0.0.7",

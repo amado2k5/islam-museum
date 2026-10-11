@@ -4,7 +4,7 @@ import DepthDial from "../components/DepthDial.svelte";
 import TimeStrip from "../components/TimeStrip.astro";
 import MiniMap from "../components/MiniMap.astro";
 import Extras from "../components/Extras.astro";
-import { byId, buildDate, href, labelOf, summaryOf, REPO, SITE } from "../lib/graph";
+import { byId, buildDate, href, labelOf, summaryOf, related, REPO, SITE } from "../lib/graph";
 import { ui, other, fmt, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse } from "../lib/markdown";
 import { formatDate } from "../lib/dates";
@@ -86,6 +86,7 @@ const altNames = [...new Set([...Object.values(n.label), ...(d.names ?? []).map(
 const wingChips = n.wings.filter((w) => (WINGS as readonly string[]).includes(w));
 const wishUrl = `${REPO}/issues/new?template=request-translation.yml&title=${encodeURIComponent(`Translate ${n.id} to ${lang}`)}`;
 const citeText = fmt(T.entity.cite_text, { title, url: `${SITE}${path}`, date: buildDate });
+const relatedIds = related(n.id).filter((r) => byId.has(r));
 const reviewStatus = d.status?.review ?? "draft";
 ---
 <BaseLayout lang={lang} title={title} description={summaryOf(n, lang)} path={path} jsonld={jsonLd(n, lang, path)} alternates={alternates} ogType={n.class === "person" ? "profile" : "article"}>
@@ -196,6 +197,13 @@ const reviewStatus = d.status?.review ?? "draft";
                 </>
               ))}
             </dl>
+          </section>
+        )}
+
+        {relatedIds.length > 0 && (
+          <section data-role="main" class="sec ui no-print" aria-labelledby="rel">
+            <h2 id="rel">{T.entity.related}</h2>
+            <p style="display:flex;flex-wrap:wrap;gap:6px 8px">{relatedIds.map((r) => <a class="chip" href={href(lang, r)}>{labelOf(byId.get(r)!, lang)}</a>)}</p>
           </section>
         )}
 
