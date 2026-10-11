@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dataset.schema.json",
+  "title": "Museum entity: dataset",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "dataset"
+    },
+    "columns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rows_file": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "license": {
+      "enum": [
+        "CC0",
+        "CC-BY",
+        "CC-BY-SA",
+        "PD",
+        "institution-open"
+      ]
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "method_note": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "rows_file",
+    "license"
+  ],
+  "unevaluatedProperties": false
+}

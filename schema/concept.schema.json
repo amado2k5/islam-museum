@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "concept.schema.json",
+  "title": "Museum entity: concept",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "concept"
+    },
+    "kind": {
+      "enum": [
+        "belief",
+        "doctrine",
+        "legal",
+        "ethical",
+        "discipline",
+        "art_form",
+        "architectural_element",
+        "scientific",
+        "political",
+        "social",
+        "term"
+      ]
+    },
+    "term": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "definitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "tradition": {
+            "enum": [
+              "sunni",
+              "sunni-hanafi",
+              "sunni-maliki",
+              "sunni-shafii",
+              "sunni-hanbali",
+              "shia-twelver",
+              "shia-ismaili",
+              "shia-zaydi",
+              "ibadi",
+              "sufi",
+              "ahmadiyya",
+              "quranist",
+              "academic",
+              "other"
+            ]
+          },
+          "text": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "parent_concept": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "etymology": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source.schema.json",
+  "title": "Museum entity: source",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "source"
+    },
+    "kind": {
+      "enum": [
+        "primary",
+        "secondary",
+        "tertiary",
+        "reference_data"
+      ]
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "issued": {
+      "type": "object"
+    },
+    "edition": {
+      "type": [
+        "string",
+        "integer"
+      ]
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string",
+      "format": "uri"
+    },
+    "DOI": {
+      "type": "string"
+    },
+    "ISBN": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "reliability_note": {
+      "type": "string"
+    },
+    "open_access": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "kind",
+    "type",
+    "title"
+  ],
+  "unevaluatedProperties": false
+}

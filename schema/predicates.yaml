@@ -1,0 +1,321 @@
+# Predicate registry (docs/plan/02 §4). Write each edge once; inverses are computed at build.
+
+born_in:
+  inverse: birthplace_of
+  domain: [person]
+  range: [place]
+  label: { en: "Born in", ar: "وُلد في" }
+  inverse_label: { en: "Birthplace of", ar: "مسقط رأس" }
+  temporal: false
+
+died_in:
+  inverse: death_place_of
+  domain: [person]
+  range: [place]
+  label: { en: "Died in", ar: "توفي في" }
+  inverse_label: { en: "Place of death of", ar: "مكان وفاة" }
+  temporal: false
+
+buried_in:
+  inverse: burial_place_of
+  domain: [person]
+  range: [place,building]
+  label: { en: "Buried in", ar: "دُفن في" }
+  inverse_label: { en: "Burial place of", ar: "مدفن" }
+  temporal: false
+
+lived_in:
+  inverse: home_of
+  domain: [person,group]
+  range: [place]
+  label: { en: "Lived in", ar: "عاش في" }
+  inverse_label: { en: "Home of", ar: "موطن" }
+  temporal: true
+
+traveled_to:
+  inverse: visited_by
+  domain: [person,group]
+  range: [place]
+  label: { en: "Traveled to", ar: "سافر إلى" }
+  inverse_label: { en: "Visited by", ar: "زاره" }
+  temporal: true
+
+student_of:
+  inverse: teacher_of
+  domain: [person]
+  range: [person]
+  label: { en: "Studied under", ar: "تلقى العلم عن" }
+  inverse_label: { en: "Taught", ar: "تتلمذ عليه" }
+  temporal: true
+
+child_of:
+  inverse: parent_of
+  domain: [person]
+  range: [person]
+  label: { en: "Child of", ar: "ابن/ابنة" }
+  inverse_label: { en: "Parent of", ar: "والد/والدة" }
+  temporal: false
+
+spouse_of:
+  inverse: spouse_of
+  domain: [person]
+  range: [person]
+  label: { en: "Spouse of", ar: "زوج/زوجة" }
+  inverse_label: { en: "Spouse of", ar: "زوج/زوجة" }
+  temporal: true
+
+sibling_of:
+  inverse: sibling_of
+  domain: [person]
+  range: [person]
+  label: { en: "Sibling of", ar: "شقيق/شقيقة" }
+  inverse_label: { en: "Sibling of", ar: "شقيق/شقيقة" }
+  temporal: false
+
+member_of:
+  inverse: has_member
+  domain: [person,group]
+  range: [group]
+  label: { en: "Member of", ar: "عضو في" }
+  inverse_label: { en: "Has member", ar: "من أعضائه" }
+  temporal: true
+
+founder_of:
+  inverse: founded_by
+  domain: [person,group]
+  range: [group,polity,building,work]
+  label: { en: "Founder of", ar: "مؤسس" }
+  inverse_label: { en: "Founded by", ar: "أسسه" }
+  temporal: false
+
+ruler_of:
+  inverse: ruled_by
+  domain: [person]
+  range: [polity,place]
+  label: { en: "Ruler of", ar: "حاكم" }
+  inverse_label: { en: "Ruled by", ar: "حكمه" }
+  temporal: true
+
+successor_of:
+  inverse: predecessor_of
+  domain: [person,polity,group]
+  range: [person,polity,group]
+  label: { en: "Successor of", ar: "خلف" }
+  inverse_label: { en: "Predecessor of", ar: "سلف" }
+  temporal: true
+
+patron_of:
+  inverse: patronized_by
+  domain: [person,polity]
+  range: [person,group,work,building]
+  label: { en: "Patron of", ar: "راعي" }
+  inverse_label: { en: "Patronized by", ar: "برعاية" }
+  temporal: true
+
+authored:
+  inverse: authored_by
+  domain: [person,group]
+  range: [work]
+  label: { en: "Authored", ar: "ألّف" }
+  inverse_label: { en: "Authored by", ar: "من تأليف" }
+  temporal: false
+
+commentary_on:
+  inverse: has_commentary
+  domain: [work]
+  range: [work]
+  label: { en: "Commentary on", ar: "شرح على" }
+  inverse_label: { en: "Has commentary", ar: "له شرح" }
+  temporal: false
+
+translation_of:
+  inverse: translated_as
+  domain: [work]
+  range: [work]
+  label: { en: "Translation of", ar: "ترجمة لـ" }
+  inverse_label: { en: "Translated as", ar: "ترجم إلى" }
+  temporal: false
+
+built:
+  inverse: built_by
+  domain: [person,group,polity]
+  range: [building]
+  label: { en: "Built", ar: "بنى" }
+  inverse_label: { en: "Built by", ar: "بناه" }
+  temporal: false
+
+commissioned:
+  inverse: commissioned_by
+  domain: [person,group,polity]
+  range: [building,object,work]
+  label: { en: "Commissioned", ar: "أمر ببناء" }
+  inverse_label: { en: "Commissioned by", ar: "بتكليف من" }
+  temporal: false
+
+located_in:
+  inverse: contains
+  domain: [place,building,event,group,polity]
+  range: [place]
+  label: { en: "Located in", ar: "يقع في" }
+  inverse_label: { en: "Contains", ar: "يحتوي" }
+  temporal: false
+
+capital_of:
+  inverse: had_capital
+  domain: [place]
+  range: [polity]
+  label: { en: "Capital of", ar: "عاصمة" }
+  inverse_label: { en: "Had capital", ar: "عاصمتها" }
+  temporal: true
+
+occurred_at:
+  inverse: site_of
+  domain: [event]
+  range: [place,building]
+  label: { en: "Occurred at", ar: "وقع في" }
+  inverse_label: { en: "Site of", ar: "موقع" }
+  temporal: false
+
+participated_in:
+  inverse: had_participant
+  domain: [person,group,polity]
+  range: [event,journey]
+  label: { en: "Participated in", ar: "شارك في" }
+  inverse_label: { en: "Had participant", ar: "شارك فيه" }
+  temporal: false
+
+part_of:
+  inverse: has_part
+  domain: [event,period,place,work,concept,journey,group,object,passage,media,exhibit]
+  range: [event,period,place,work,concept,journey,group,object,exhibit]
+  label: { en: "Part of", ar: "جزء من" }
+  inverse_label: { en: "Has part", ar: "يتضمن" }
+  temporal: false
+
+caused:
+  inverse: caused_by
+  domain: [event]
+  range: [event]
+  label: { en: "Led to", ar: "أدى إلى" }
+  inverse_label: { en: "Caused by", ar: "سببه" }
+  temporal: false
+
+influenced:
+  inverse: influenced_by
+  domain: [person,group,work,concept]
+  range: [person,group,work,concept]
+  label: { en: "Influenced", ar: "أثّر في" }
+  inverse_label: { en: "Influenced by", ar: "تأثر بـ" }
+  temporal: false
+
+opposed:
+  inverse: opposed_by
+  domain: [person,group,polity]
+  range: [person,group,polity]
+  label: { en: "Opposed", ar: "عارض" }
+  inverse_label: { en: "Opposed by", ar: "عارضه" }
+  temporal: true
+
+depicts:
+  inverse: depicted_in
+  domain: [media,object,work]
+  range: [person,place,building,event,object,concept,group]
+  label: { en: "Depicts", ar: "يصوّر" }
+  inverse_label: { en: "Depicted in", ar: "صُوّر في" }
+  temporal: false
+
+held_by:
+  inverse: holds
+  domain: [object,media,work]
+  range: [group]
+  label: { en: "Held by", ar: "محفوظ في" }
+  inverse_label: { en: "Holds", ar: "يحتفظ بـ" }
+  temporal: true
+
+made:
+  inverse: made_by
+  domain: [person,group]
+  range: [object]
+  label: { en: "Made", ar: "صنع" }
+  inverse_label: { en: "Made by", ar: "صنعه" }
+  temporal: false
+
+made_in:
+  inverse: origin_of
+  domain: [object,work]
+  range: [place]
+  label: { en: "Made in", ar: "صُنع في" }
+  inverse_label: { en: "Origin of", ar: "منشأ" }
+  temporal: false
+
+mentions:
+  inverse: mentioned_in
+  domain: [work,passage,media,event,exhibit,question]
+  range: [person,place,event,concept,group,building,object,work,polity]
+  label: { en: "Mentions", ar: "يذكر" }
+  inverse_label: { en: "Mentioned in", ar: "ورد في" }
+  temporal: false
+
+exemplifies:
+  inverse: exemplified_by
+  domain: [object,building,work,person]
+  range: [concept,practice]
+  label: { en: "Exemplifies", ar: "يجسّد" }
+  inverse_label: { en: "Exemplified by", ar: "يتجسد في" }
+  temporal: false
+
+practiced_in:
+  inverse: has_practice
+  domain: [practice,concept]
+  range: [place,polity,group]
+  label: { en: "Practiced in", ar: "يُمارس في" }
+  inverse_label: { en: "Has practice", ar: "فيه ممارسة" }
+  temporal: false
+
+wrote_in:
+  inverse: language_of
+  domain: [person,work]
+  range: [language]
+  label: { en: "Wrote in", ar: "كتب بـ" }
+  inverse_label: { en: "Language of", ar: "لغة" }
+  temporal: false
+
+spoke:
+  inverse: spoken_by
+  domain: [person,group]
+  range: [language]
+  label: { en: "Spoke", ar: "تحدث بـ" }
+  inverse_label: { en: "Spoken by", ar: "يتحدث بها" }
+  temporal: false
+
+revealed_about:
+  inverse: revealed_in
+  domain: [passage]
+  range: [event,person,concept]
+  label: { en: "Revealed about", ar: "نزل في" }
+  inverse_label: { en: "Revealed in", ar: "نزل فيه" }
+  temporal: false
+
+basis_for:
+  inverse: based_on
+  domain: [event,passage,work,concept]
+  range: [concept,practice,event]
+  label: { en: "Basis for", ar: "أساس لـ" }
+  inverse_label: { en: "Based on", ar: "مبني على" }
+  temporal: false
+
+same_as:
+  inverse: same_as
+  domain: ["*"]
+  range: ["*"]
+  label: { en: "Same as", ar: "هو نفسه" }
+  inverse_label: { en: "Same as", ar: "هو نفسه" }
+  temporal: false
+
+related_to:
+  inverse: related_to
+  domain: ["*"]
+  range: ["*"]
+  label: { en: "Related to", ar: "ذو صلة بـ" }
+  inverse_label: { en: "Related to", ar: "ذو صلة بـ" }
+  temporal: false

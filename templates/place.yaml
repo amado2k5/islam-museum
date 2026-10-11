@@ -1,0 +1,16 @@
+id: place/slug-here          # immutable; lowercase ASCII, hyphens
+class: place
+kind: city   # city | town | region | province | oasis | river | mountain | sea | island | site
+label: { en: "", ar: "" }
+summary:
+  en: ""            # one sentence
+  ar: ""
+wings: []           # people | place | time | ideas | objects | words | living | today
+periods: []         # period/... ids
+regions: []         # see schema/enums/regions.yaml
+coordinates: [0.0, 0.0]     # [lat, lon] WGS84
+relations: []       # - { type: predicate-from-schema/predicates.yaml, target: class/slug, sources: [source/...] }
+perspectives: []    # required for contested topics
+external_ids: {}   # wikidata: Q...
+sources: []         # at least one source/... id
+status: { review: draft, completeness: 0, generated_by: "" }

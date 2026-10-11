@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@import "@fontsource/inter/latin-400.css";
+@import "@fontsource/inter/latin-500.css";
+@import "@fontsource/inter/latin-600.css";
+@import "@fontsource/source-serif-4/latin-400.css";
+@import "@fontsource/source-serif-4/latin-600.css";
+@import "@fontsource/source-serif-4/latin-400-italic.css";
+@import "@fontsource/noto-naskh-arabic/arabic-400.css";
+@import "@fontsource/noto-naskh-arabic/arabic-600.css";
+@import "@fontsource/amiri/arabic-400.css";
+@import "@fontsource/amiri/arabic-700.css";
+@import "@fontsource/reem-kufi/arabic-500.css";
+
+/* ---- Design tokens (docs/plan/04 §6): ivory, ink, lapis, teal, one gold accent, sand panels ---- */
+:root {
+  --ivory: #f7f3ea; --ink: #1b1b1f; --lapis: #1f4e8c; --teal: #0f5f5c; --gold: #b8932f; --sand: #e6dcc6;
+  --bg: var(--ivory); --fg: var(--ink); --panel: var(--sand); --muted: #5f5a53; --line: rgba(27, 27, 31, 0.14);
+  --link: var(--lapis); --accent: var(--gold); --focus: #0b3d91;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --ar-body: "Noto Naskh Arabic", "Amiri", "Geeza Pro", "Arabic Typesetting", serif;
+  --ar-display: "Amiri", "Reem Kufi", "Noto Naskh Arabic", serif;
+  --measure: 68ch;
+  --wing-time: #8a5a1f; --wing-place: #0f5f5c; --wing-people: #1f4e8c; --wing-ideas: #6b3f8c;
+  --wing-objects: #8c3f3f; --wing-words: #3f6b8c; --wing-living: #4d7a2b; --wing-today: #5f5a53;
+}
+:root[data-theme="dark"] {
+  --bg: #17171a; --fg: #ede8dd; --panel: #22232a; --muted: #b0aa9f; --line: rgba(237, 232, 221, 0.16);
+  --link: #8fb3e8; --focus: #b9d2ff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17171a; --fg: #ede8dd; --panel: #22232a; --muted: #b0aa9f; --line: rgba(237, 232, 221, 0.16);
+    --link: #8fb3e8; --focus: #b9d2ff;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg); font-family: var(--serif); font-size: 1.0625rem; line-height: 1.65;
+  -webkit-font-smoothing: antialiased; min-height: 100svh; display: flex; flex-direction: column;
+}
+html[lang="ar"] body { font-family: var(--ar-body); line-height: 1.95; font-size: 1.15rem; }
+html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] .display { font-family: var(--ar-display); }
+.latin { font-family: var(--sans); }
+[lang="ar"] .ltr, .ltr { unicode-bidi: isolate; }
+
+a { color: var(--link); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+a.stub-link { color: var(--muted); text-decoration-style: dotted; }
+
+h1, h2, h3 { line-height: 1.2; font-weight: 600; margin: 1.6em 0 0.5em; }
+h1 { font-size: clamp(2rem, 5vw, 3.4rem); margin-top: 0; font-weight: 500; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.15rem; }
+p { margin: 0 0 1em; }
+
+.wrap { width: 100%; max-width: 1100px; margin-inline: auto; padding-inline: 24px; }
+.prose { max-width: var(--measure); }
+.muted { color: var(--muted); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.skip { position: absolute; inset-inline-start: 12px; top: -60px; background: var(--fg); color: var(--bg); padding: 8px 14px; border-radius: 6px; z-index: 100; }
+.skip:focus { top: 12px; }
+
+/* sans UI text */
+.ui { font-family: var(--sans); }
+html[lang="ar"] .ui { font-family: var(--ar-body); }
+.eyebrow { font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.16em; font-size: 0.75rem; color: var(--gold); margin: 0 0 14px; }
+html[lang="ar"] .eyebrow { letter-spacing: 0; text-transform: none; font-family: var(--ar-body); font-size: 1rem; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-family: var(--sans); font-size: 0.82rem; background: var(--panel); border-radius: 999px; padding: 2px 11px; color: var(--fg); text-decoration: none; }
+html[lang="ar"] .chip { font-family: var(--ar-body); font-size: 0.95rem; }
+a.chip:hover { outline: 1px solid var(--gold); }
+.panel { background: var(--panel); border-radius: 14px; padding: 18px 20px; }
+.grid-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; list-style: none; padding: 0; margin: 0; }
+.card { display: block; background: var(--panel); border-radius: 14px; padding: 16px 18px; border: 1px solid transparent; color: inherit; text-decoration: none; height: 100%; }
+.card:hover { border-color: var(--gold); }
+.card b { display: block; font-weight: 600; font-size: 1.05rem; }
+.card span { color: var(--muted); font-size: 0.95rem; }
+
+.pattern { position: fixed; inset: 0; z-index: -1; opacity: 0.06; pointer-events: none; color: var(--fg); }
+
+/* RTL: logical properties throughout; mirror only what must mirror */
+[dir="rtl"] .flip { transform: scaleX(-1); }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+@media (forced-colors: active) { .chip, .panel, .card { border: 1px solid CanvasText; } }
+
+/* ---- print ---- */
+@media print {
+  :root, :root[data-theme="dark"] { --bg: #fff; --fg: #000; --panel: #fff; --muted: #333; --link: #000; }
+  .no-print, header.site, footer.site, .pattern, .skip, .depth-dial { display: none !important; }
+  body { font-size: 11pt; display: block; }
+  a { text-decoration: none; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; }
+  .panel, .card { border: 1px solid #999; break-inside: avoid; }
+  details { display: block; }
+}

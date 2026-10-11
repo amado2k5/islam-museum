@@ -1,0 +1,9 @@
+# External identifier keys: validation regex and URL template
+wikidata: { pattern: "^Q[1-9][0-9]*$", url: "https://www.wikidata.org/wiki/{id}" }
+viaf: { pattern: "^[0-9]+$", url: "https://viaf.org/viaf/{id}" }
+openiti: { pattern: "^[0-9]{4}[A-Za-z0-9]+$", url: "https://github.com/OpenITI/{id}" }
+pleiades: { pattern: "^[0-9]+$", url: "https://pleiades.stoa.org/places/{id}" }
+geonames: { pattern: "^[0-9]+$", url: "https://www.geonames.org/{id}" }
+archnet: { pattern: "^[0-9]+$", url: "https://www.archnet.org/sites/{id}" }
+unesco: { pattern: "^[0-9]+$", url: "https://whc.unesco.org/en/list/{id}" }
+getty-tgn: { pattern: "^[0-9]+$", url: "https://vocab.getty.edu/tgn/{id}" }

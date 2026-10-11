@@ -1,0 +1,26 @@
+---
+import { href, labelOf } from "../lib/graph";
+import type { Lang } from "../lib/i18n";
+import type { Node } from "../../../scripts/build-graph";
+// Schematic equirectangular dot map (no tiles). The interactive MapLibre map replaces it in Phase 1.
+const { places, lang, width = 100, height = 55 } = Astro.props as { places: Node[]; lang: Lang; width?: number; height?: number };
+const pts = places.filter((p) => p.coordinates);
+const lons = pts.map((p) => p.coordinates![1]);
+const lats = pts.map((p) => p.coordinates![0]);
+const pad = 6;
+const minLon = Math.min(...lons) - pad, maxLon = Math.max(...lons) + pad;
+const minLat = Math.min(...lats) - pad * 0.6, maxLat = Math.max(...lats) + pad * 0.6;
+const X = (lon: number) => ((lon - minLon) / (maxLon - minLon || 1)) * width;
+const Y = (lat: number) => height - ((lat - minLat) / (maxLat - minLat || 1)) * height;
+---
+{pts.length > 0 && (
+  <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label={pts.map((p) => labelOf(p, lang)).join(", ")} style="width:100%;height:auto;display:block;background:var(--panel);border-radius:10px;direction:ltr">
+    {pts.length > 1 && <polyline points={pts.map((p) => `${X(p.coordinates![1])},${Y(p.coordinates![0])}`).join(" ")} fill="none" stroke="var(--gold)" stroke-width=".4" stroke-dasharray="1 1" opacity=".8" />}
+    {pts.map((p) => (
+      <g>
+        <circle cx={X(p.coordinates![1])} cy={Y(p.coordinates![0])} r="1.3" fill="var(--lapis)" />
+        <a href={href(lang, p.id)}><text x={X(p.coordinates![1]) + 2} y={Y(p.coordinates![0]) + 1} font-size="3.2" fill="var(--fg)">{labelOf(p, lang)}</text></a>
+      </g>
+    ))}
+  </svg>
+)}

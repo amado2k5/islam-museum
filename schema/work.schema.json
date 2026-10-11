@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "work.schema.json",
+  "title": "Museum entity: work",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "work"
+    },
+    "kind": {
+      "enum": [
+        "book",
+        "treatise",
+        "poem",
+        "diwan",
+        "map",
+        "composition",
+        "film",
+        "website",
+        "other"
+      ]
+    },
+    "genre": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "disciplines": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "composed": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "structure": {
+      "type": "string"
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "translations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "openiti_uri": {
+      "type": "string"
+    },
+    "commentaries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "manuscripts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,16 @@
+name: Report an error
+description: Something on a page is wrong, unsourced, unfair to a tradition, or offensive
+title: "Error: "
+labels: [correction]
+body:
+  - type: input
+    id: page
+    attributes: { label: Page URL or entity id (for example person/ibn-sina) }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What is wrong? }
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes: { label: Source for the correction }

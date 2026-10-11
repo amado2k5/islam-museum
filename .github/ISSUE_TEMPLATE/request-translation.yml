@@ -1,0 +1,20 @@
+name: Request or offer a translation
+description: Ask for a page to be translated, or offer to translate one
+title: "Translate: "
+labels: [translation]
+body:
+  - type: input
+    id: page
+    attributes: { label: Entity id (for example person/ibn-sina) }
+    validations: { required: true }
+  - type: dropdown
+    id: lang
+    attributes:
+      label: Target language
+      options: [ar, en, ur, id, tr, fr, es, bn, fa, sw, zh, de, ms, ha, bs]
+    validations: { required: true }
+  - type: checkboxes
+    id: offer
+    attributes:
+      label: Are you offering to translate?
+      options: [{ label: "Yes, I can translate this" }]

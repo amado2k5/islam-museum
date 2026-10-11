@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "group.schema.json",
+  "title": "Museum entity: group",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "group"
+    },
+    "kind": {
+      "enum": [
+        "tribe",
+        "clan",
+        "family",
+        "people",
+        "denomination",
+        "madhhab",
+        "order",
+        "movement",
+        "organization",
+        "institution",
+        "guild",
+        "army"
+      ]
+    },
+    "founded": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "dissolved": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "founder": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "headquarters": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "members_estimate": {
+      "type": "integer"
+    },
+    "active_regions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "arabia",
+          "levant-iraq",
+          "egypt-nile",
+          "maghreb",
+          "andalus-europe",
+          "anatolia-balkans",
+          "persia-central-asia",
+          "south-asia",
+          "southeast-asia",
+          "china-east-asia",
+          "west-africa-sahel",
+          "east-africa",
+          "americas-oceania",
+          "global"
+        ]
+      }
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

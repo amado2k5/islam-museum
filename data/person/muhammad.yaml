@@ -1,0 +1,26 @@
+id: person/muhammad
+class: person
+label: { en: Muhammad, ar: محمد }
+names:
+  - { kind: full, lang: ar, value: محمد بن عبد الله بن عبد المطلب بن هاشم }
+  - { kind: kunya, lang: ar-Latn, value: Abu al-Qasim }
+gender: male
+born: { edtf: "0570~", calendar: julian, precision: year, status: tradition, note: "Traditionally the 'Year of the Elephant'; the exact year is not certain." }
+died: { edtf: "0632-06-08", hijri: "0011-03-12", calendar: julian, precision: day, status: tradition, note: "Traditional date; a tabular conversion of 12 Rabi' I 11 AH gives 7 June." }
+roles: [prophet, statesman]
+traditions: [sunni, shia-twelver]
+summary:
+  en: The Prophet of Islam (c. 570–632 CE), through whom Muslims believe the Qur'an was revealed, and the founder of the first Muslim community in Medina.
+  ar: نبي الإسلام (نحو 570–632م)، الذي يؤمن المسلمون بنزول القرآن عليه، ومؤسس أول مجتمع إسلامي في المدينة المنورة.
+wings: [people, time]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: figurative-prophet
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/medina }
+  - { type: buried_in, target: place/medina }
+  - { type: participated_in, target: event/hijra, role: protagonist }
+external_ids: { wikidata: Q9458 }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }

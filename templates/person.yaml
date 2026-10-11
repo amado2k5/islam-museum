@@ -1,0 +1,23 @@
+id: person/slug-here          # immutable; lowercase ASCII, hyphens
+class: person
+label: { en: "", ar: "" }
+summary:
+  en: ""            # one sentence
+  ar: ""
+wings: []           # people | place | time | ideas | objects | words | living | today
+periods: []         # period/... ids
+regions: []         # see schema/enums/regions.yaml
+names:
+  - { kind: full, lang: ar, value: "" }
+gender: male        # male | female | unknown
+born: { edtf: "", hijri: "", calendar: julian, precision: year, status: historical, sources: [] }
+died: { edtf: "", hijri: "", calendar: julian, precision: year }
+roles: []
+disciplines: []
+traditions: []
+languages: []
+relations: []       # - { type: predicate-from-schema/predicates.yaml, target: class/slug, sources: [source/...] }
+perspectives: []    # required for contested topics
+external_ids: {}   # wikidata: Q...
+sources: []         # at least one source/... id
+status: { review: draft, completeness: 0, generated_by: "" }

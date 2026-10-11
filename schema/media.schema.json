@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "media.schema.json",
+  "title": "Museum entity: media",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "media"
+    },
+    "kind": {
+      "enum": [
+        "image",
+        "audio",
+        "video",
+        "model3d",
+        "tileset"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "iiif_image": {
+      "type": "string",
+      "format": "uri"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "license": {
+      "enum": [
+        "CC0",
+        "CC-BY",
+        "CC-BY-SA",
+        "PD",
+        "institution-open"
+      ]
+    },
+    "attribution": {
+      "type": "string"
+    },
+    "creator": {
+      "type": "string"
+    },
+    "depicts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "alt": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    }
+  },
+  "required": [
+    "kind",
+    "license",
+    "attribution",
+    "alt"
+  ],
+  "unevaluatedProperties": false
+}

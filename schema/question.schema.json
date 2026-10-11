@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "question.schema.json",
+  "title": "Museum entity: question",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "question"
+    },
+    "question": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "short_answer": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "long_answer": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "audience": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "question"
+  ],
+  "unevaluatedProperties": false
+}

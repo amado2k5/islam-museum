@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href, labelOf, realNodes } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const pool = realNodes.filter((n) => !["source", "media", "dataset"].includes(n.class)).map((n) => ({ h: href(lang, n.id), l: labelOf(n, lang) }));
+---
+<BaseLayout lang={lang} title={T.wander.title} description={T.wander.lede} path={`/${lang}/wander/`}>
+  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
+    <h1>{T.wander.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{T.wander.lede}</p>
+    <p><a id="go" class="chip" style="border:1px solid var(--gold);font-size:1rem;padding:8px 18px" href={pool[0]?.h}>{T.wander.button}</a></p>
+    <script is:inline define:vars={{ pool }}>
+      var a = document.getElementById("go");
+      a.addEventListener("click", function (e) { e.preventDefault(); location.href = pool[Math.floor(Math.random() * pool.length)].h; });
+    </script>
+    <noscript><ul>{pool.map((p) => <li><a href={p.h}>{p.l}</a></li>)}</ul></noscript>
+  </div>
+</BaseLayout>

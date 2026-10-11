@@ -1,0 +1,20 @@
+id: person/ali-ibn-abi-talib
+class: person
+label: { en: Ali ibn Abi Talib, ar: علي بن أبي طالب }
+gender: male
+born: { edtf: "0600~", calendar: julian, precision: decade, status: tradition, note: "Traditions differ; the date is approximate." }
+died: { edtf: "0661-01", hijri: "0040-09", calendar: julian, precision: month, status: tradition }
+roles: [companion, caliph]
+traditions: [sunni, shia-twelver]
+summary:
+  en: Cousin and son-in-law of the Prophet and the fourth caliph (r. 656–661 CE); the first Imam in Shia tradition.
+  ar: ابن عم النبي وصهره ورابع الخلفاء (حكم 656–661م)، وهو الإمام الأول عند الشيعة.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: participated_in, target: event/hijra, role: stayed-behind-then-followed, sources: [source/ibn-ishaq-guillaume] }
+external_ids: { wikidata: Q7020 }
+sources: [source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }

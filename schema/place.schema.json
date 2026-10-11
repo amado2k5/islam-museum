@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "place.schema.json",
+  "title": "Museum entity: place",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "place"
+    },
+    "kind": {
+      "enum": [
+        "city",
+        "town",
+        "region",
+        "province",
+        "oasis",
+        "river",
+        "mountain",
+        "sea",
+        "island",
+        "site"
+      ]
+    },
+    "coordinates": {
+      "$ref": "_base.schema.json#/$defs/coordinates"
+    },
+    "geometry": {
+      "type": "string"
+    },
+    "historical_names": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "lang": {
+            "type": "string"
+          },
+          "from": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "until": {
+            "$ref": "_base.schema.json#/$defs/date"
+          }
+        }
+      }
+    },
+    "modern_country": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "part_of": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "founded": {
+      "$ref": "_base.schema.json#/$defs/date"
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

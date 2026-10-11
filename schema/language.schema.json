@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "language.schema.json",
+  "title": "Museum entity: language",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "language"
+    },
+    "kind": {
+      "enum": [
+        "language",
+        "script",
+        "dialect"
+      ]
+    },
+    "scripts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "speakers_estimate": {
+      "type": "integer"
+    },
+    "literary_tradition_from": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "iso639": {
+      "type": "string"
+    },
+    "sample_media": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

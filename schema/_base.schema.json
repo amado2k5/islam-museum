@@ -1,0 +1,415 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "_base.schema.json",
+  "title": "Museum entity base",
+  "type": "object",
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[a-z]{2,3}(-[A-Za-z]{2,4})?$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "entityRef": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "date": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "edtf": {
+          "type": "string"
+        },
+        "hijri": {
+          "type": "string"
+        },
+        "calendar": {
+          "enum": [
+            "julian",
+            "gregorian"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "day",
+            "month",
+            "year",
+            "decade",
+            "century"
+          ]
+        },
+        "status": {
+          "enum": [
+            "scriptural",
+            "tradition",
+            "historical",
+            "debated",
+            "legend"
+          ]
+        },
+        "derived": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "edtf"
+          ]
+        },
+        {
+          "required": [
+            "hijri"
+          ]
+        }
+      ]
+    },
+    "dateRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "$ref": "_base.schema.json#/$defs/date"
+        },
+        "end": {
+          "$ref": "_base.schema.json#/$defs/date"
+        }
+      }
+    },
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "target"
+      ],
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "start": {
+          "$ref": "_base.schema.json#/$defs/date"
+        },
+        "end": {
+          "$ref": "_base.schema.json#/$defs/date"
+        },
+        "role": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "perspective": {
+          "enum": [
+            "sunni",
+            "sunni-hanafi",
+            "sunni-maliki",
+            "sunni-shafii",
+            "sunni-hanbali",
+            "shia-twelver",
+            "shia-ismaili",
+            "shia-zaydi",
+            "ibadi",
+            "sufi",
+            "ahmadiyya",
+            "quranist",
+            "academic",
+            "other"
+          ]
+        }
+      }
+    },
+    "perspective": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tradition",
+        "summary"
+      ],
+      "properties": {
+        "tradition": {
+          "enum": [
+            "sunni",
+            "sunni-hanafi",
+            "sunni-maliki",
+            "sunni-shafii",
+            "sunni-hanbali",
+            "shia-twelver",
+            "shia-ismaili",
+            "shia-zaydi",
+            "ibadi",
+            "sufi",
+            "ahmadiyya",
+            "quranist",
+            "academic",
+            "other"
+          ]
+        },
+        "summary": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "value"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "full",
+            "given",
+            "kunya",
+            "nasab",
+            "nisba",
+            "laqab",
+            "regnal",
+            "pen",
+            "latinized",
+            "alternate"
+          ]
+        },
+        "lang": {
+          "type": "string"
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    },
+    "coordinates": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {
+        "type": "number"
+      }
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "class": {
+      "enum": [
+        "person",
+        "group",
+        "polity",
+        "event",
+        "period",
+        "journey",
+        "place",
+        "building",
+        "object",
+        "media",
+        "work",
+        "passage",
+        "concept",
+        "language",
+        "practice",
+        "exhibit",
+        "question",
+        "source",
+        "dataset"
+      ]
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "label": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "summary": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "wings": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "people",
+          "place",
+          "time",
+          "ideas",
+          "objects",
+          "words",
+          "living",
+          "today"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "periods": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "arabia",
+          "levant-iraq",
+          "egypt-nile",
+          "maghreb",
+          "andalus-europe",
+          "anatolia-balkans",
+          "persia-central-asia",
+          "south-asia",
+          "southeast-asia",
+          "china-east-asia",
+          "west-africa-sahel",
+          "east-africa",
+          "americas-oceania",
+          "global"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "external_ids": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "$ref": "_base.schema.json#/$defs/relation"
+      }
+    },
+    "perspectives": {
+      "type": "array",
+      "items": {
+        "$ref": "_base.schema.json#/$defs/perspective"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "hero": {
+          "type": "string",
+          "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+        },
+        "gallery": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          }
+        }
+      }
+    },
+    "status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "review"
+      ],
+      "properties": {
+        "review": {
+          "enum": [
+            "draft",
+            "reviewed",
+            "verified"
+          ]
+        },
+        "completeness": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 5
+        },
+        "last_reviewed": {
+          "type": "string",
+          "format": "date"
+        },
+        "reviewers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "generated_by": {
+          "type": "string"
+        }
+      }
+    },
+    "sensitivity": {
+      "enum": [
+        "none",
+        "figurative-prophet",
+        "violence",
+        "human-remains",
+        "sacred",
+        "contested",
+        "mature"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "class",
+    "label",
+    "summary",
+    "status"
+  ]
+}

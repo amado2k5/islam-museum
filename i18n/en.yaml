@@ -1,0 +1,173 @@
+dir: ltr
+name: Islam Museum
+tagline: A museum for the whole story of Islam
+lang_name: English
+switch_to: العربية
+nav:
+  home: Home
+  time: Time
+  place: Place
+  people: People
+  ideas: Ideas
+  objects: Objects
+  words: Words
+  living: Living
+  today: Today
+  questions: Questions
+  exhibits: Exhibits
+  wander: Wander
+  search: Search
+  coverage: Coverage
+a11y:
+  skip: Skip to content
+  theme: Toggle dark mode
+  menu: Main navigation
+landing:
+  eyebrow: A digital museum · open to everyone
+  title_pre: A museum for the
+  title_strong: whole story
+  title_post: of Islam.
+  lede: From the world it was born into, through fourteen centuries of faith, scholarship, art, cities, journeys and peoples, to today. Every person, place, event, idea, object and practice connected to everything around it, in time and space, for the curious of every background.
+  soon: The first galleries are being built. Opening soon.
+  today_is: "Today is"
+  wings: Eight wings
+  start: Start with the Prophet's migration
+  start_hint: A first visit
+  how: How we build it
+  pillars:
+    - Free, with no ads, forever
+    - Open data and open text
+    - Every claim sourced
+    - All traditions, fairly
+    - Arabic and English first, more languages to come
+    - Written for the curious stranger
+wings:
+  time: { title: Time, blurb: "Eras, timelines, this day in history, any year in the Islamic world." }
+  place: { title: Place, blurb: "Cities, sites and routes on a map that moves through time." }
+  people: { title: People, blurb: "Prophets, companions, scholars, rulers, scientists, poets, travelers: women and men who shaped the story." }
+  ideas: { title: Ideas, blurb: "Beliefs, concepts, sciences and schools, explained in plain words." }
+  objects: { title: Objects, blurb: "Manuscripts, art, architecture and relics from collections worldwide." }
+  words: { title: Words, blurb: "Qur'an, hadith, poetry, and the languages and scripts of Muslim peoples." }
+  living: { title: Living Islam, blurb: "Practices, the Islamic year, festivals, food, dress and music by region." }
+  today: { title: Today, blurb: "Nations, institutions, data and the people of the present." }
+hall:
+  coming: "This wing is being built. What is here so far:"
+  empty: "Nothing here yet. This wing opens as the collection grows."
+  phase: "Roadmap: the full {wing} hall arrives in a later phase."
+  map_note: "A schematic map of the places in this wing (an interactive map with a time slider is planned)."
+entity:
+  breadcrumb: Museum
+  at_a_glance: At a glance
+  roles: Roles
+  disciplines: Fields
+  tradition: Tradition
+  era: Era
+  region: Region
+  identifiers: Identifiers
+  review: Review
+  completeness: Completeness
+  in_time: In time
+  in_space: In space
+  contemporaries: Contemporaries
+  connections: Connections
+  sources: Sources
+  cite: Cite this page
+  cite_text: "islam.museum contributors. “{title}”. islam.museum, {url}. CC BY-SA 4.0. Accessed {date}."
+  edit: Improve this page on GitHub
+  report: Report an error
+  perspectives: Perspectives
+  not_translated: This page is not yet available in English. Showing the available text.
+  help_translate: Help translate
+  no_prose: The long-form text for this entry has not been written yet. The facts and connections below come from the museum's data.
+  stub_title: Not yet in the museum
+  stub_body: This entry is referenced by other pages and is on our wanted list. It has not been written yet.
+  stub_help: Suggest or write this entry
+  derived: Derived by calendar conversion; sources may differ by a day or two.
+  born: Born
+  died: Died
+  date: Date
+  start: From
+  end: To
+  place: Place
+  alternate_names: Also known as
+  figurative: Figurative depictions of prophets are never shown in this museum.
+depth:
+  label: Depth
+  brief: Brief
+  standard: Standard
+  deep: Deep
+status:
+  draft: Draft
+  reviewed: Reviewed
+  verified: Verified
+claim:
+  scriptural: Scriptural
+  tradition: Tradition
+  historical: Historical
+  debated: Debated
+  legend: Legend
+class:
+  person: Person
+  group: Group
+  polity: Polity
+  event: Event
+  period: Period
+  journey: Journey
+  place: Place
+  building: Building
+  object: Object
+  media: Media
+  work: Work
+  passage: Passage
+  concept: Concept
+  language: Language
+  practice: Practice
+  exhibit: Exhibit
+  question: Question
+  source: Source
+  dataset: Dataset
+search:
+  title: Search
+  placeholder: Search the museum
+  needs_build: Search is built with the site. Run a full build (npm run build) to enable it locally.
+  noscript: Search needs JavaScript. You can still browse the wings from the home page.
+wander:
+  title: Wander
+  lede: Let the museum choose. Each click takes you to an entry you did not ask for.
+  button: Take me somewhere
+today:
+  title: Today
+  lede: Where the Islamic and the Gregorian calendars meet.
+  gregorian: Gregorian
+  hijri: Hijri
+  on_this_day: On this day in the museum
+  none: No entry in the museum is dated to this day yet.
+  note: Entries appear here when they have a day-precision date. Historical dates follow their sources.
+questions:
+  title: Questions
+  lede: Plain answers for newcomers, with the sources behind them.
+  empty: The first questions are being written. They will appear here.
+exhibits:
+  title: Exhibits
+  lede: Curated tours, stories and trails through the collection.
+  empty: The first exhibits are being prepared. They will appear here.
+coverage:
+  title: Coverage
+  lede: What the museum holds today, and what it still wants. Gaps are shown, not hidden.
+  entities: Entries
+  wanted: Wanted
+  by_class: By class
+  by_wing: By wing
+  by_review: By review status
+  prose: Prose by language
+  sources_avg: Average sources per entry
+not_found:
+  title: Page not found
+  body: This page is not in the museum, at least not yet.
+  home: Back to the atrium
+footer:
+  open: An open project in the making
+  github: Follow the work on GitHub
+  licenses: "Prose CC BY-SA 4.0 · Data CC0 · Code MIT"
+  api: Data API
+  privacy: No cookies. No tracking. No ads.

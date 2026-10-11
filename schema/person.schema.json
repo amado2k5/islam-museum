@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "person.schema.json",
+  "title": "Museum entity: person",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "person"
+    },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "_base.schema.json#/$defs/name"
+      }
+    },
+    "gender": {
+      "enum": [
+        "male",
+        "female",
+        "unknown"
+      ]
+    },
+    "born": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "died": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "floruit": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "traditions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "sunni",
+          "sunni-hanafi",
+          "sunni-maliki",
+          "sunni-shafii",
+          "sunni-hanbali",
+          "shia-twelver",
+          "shia-ismaili",
+          "shia-zaydi",
+          "ibadi",
+          "sufi",
+          "ahmadiyya",
+          "quranist",
+          "academic",
+          "other"
+        ]
+      }
+    },
+    "disciplines": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    }
+  },
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,23 @@
+name: Suggest an entity
+description: Suggest a person, place, event, idea, object, work or practice for the museum
+title: "Entity: "
+labels: [suggestion]
+body:
+  - type: dropdown
+    id: class
+    attributes:
+      label: What kind of entry?
+      options: [person, group, polity, event, period, journey, place, building, object, work, passage, concept, language, practice, exhibit, question, source, dataset]
+    validations: { required: true }
+  - type: input
+    id: name
+    attributes: { label: Name (English and Arabic if you know it) }
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes: { label: Why does it belong in the museum? }
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Books, articles, museum records. Wikipedia is a pointer, not a source.

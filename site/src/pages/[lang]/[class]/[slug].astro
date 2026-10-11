@@ -1,0 +1,13 @@
+---
+import EntityLayout from "../../../layouts/EntityLayout.astro";
+import { nodes, SEGMENT } from "../../../lib/graph";
+import { LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    nodes.map((n) => ({ params: { lang, class: SEGMENT[n.class] ?? n.class, slug: n.slug }, props: { node: n, lang } })),
+  );
+}
+const { node, lang } = Astro.props as { node: (typeof nodes)[number]; lang: Lang };
+---
+<EntityLayout node={node} lang={lang} />

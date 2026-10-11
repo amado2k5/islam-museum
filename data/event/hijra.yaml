@@ -1,0 +1,27 @@
+id: event/hijra
+class: event
+kind: migration
+label: { en: The Hijra, ar: الهجرة النبوية }
+summary:
+  en: The migration of the Prophet Muhammad and his followers from Mecca to Medina in 622 CE, the event from which the Islamic calendar is counted.
+  ar: هجرة النبي محمد وأصحابه من مكة إلى المدينة سنة 622م، وهي الحدث الذي يبدأ منه التقويم الهجري.
+wings: [time, place, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622-09", hijri: "0001-02", calendar: julian, precision: month }
+  end: { edtf: "0622-09-24", hijri: "0001-03-12", calendar: julian, precision: day, status: tradition, note: "Traditional date of arrival at Quba; the calendar epoch (1 Muharram 1 AH = 16 July 622) was fixed later under Umar." }
+relations:
+  - { type: occurred_at, target: place/mecca, note: departure }
+  - { type: occurred_at, target: place/medina, note: arrival }
+  - { type: had_participant, target: person/muhammad, role: protagonist }
+  - { type: had_participant, target: person/abu-bakr, role: companion }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: stayed-behind-then-followed, sources: [source/ibn-ishaq-guillaume] }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/pledges-of-aqaba }
+  - { type: basis_for, target: concept/hijri-calendar }
+  - { type: mentioned_in, target: passage/quran-9-40 }
+  - { type: has_part, target: journey/hijra-route }
+external_ids: { wikidata: Q180226 }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); QID to be verified" }

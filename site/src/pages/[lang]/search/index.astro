@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+---
+<BaseLayout lang={lang} title={T.search.title} path={`/${lang}/search/`} noindex>
+  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
+    <h1>{T.search.title}</h1>
+    <div id="search" dir={T.dir}></div>
+    <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
+    <noscript><p class="panel ui">{T.search.noscript}</p></noscript>
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+    <script is:inline define:vars={{ placeholder: T.search.placeholder }}>
+      (function () {
+        var s = document.createElement("script");
+        s.src = "/pagefind/pagefind-ui.js";
+        s.onload = function () {
+          new PagefindUI({ element: "#search", showSubResults: true, showImages: false, translations: { placeholder: placeholder } });
+          var p = new URLSearchParams(location.search).get("q");
+          if (p) { var i = document.querySelector("#search input"); if (i) { i.value = p; i.dispatchEvent(new Event("input", { bubbles: true })); } }
+        };
+        s.onerror = function () { document.getElementById("search-fallback").hidden = false; };
+        document.head.appendChild(s);
+      })();
+    </script>
+  </div>
+</BaseLayout>

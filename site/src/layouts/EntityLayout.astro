@@ -1,0 +1,234 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import DepthDial from "../components/DepthDial.svelte";
+import TimeStrip from "../components/TimeStrip.astro";
+import MiniMap from "../components/MiniMap.astro";
+import { byId, buildDate, href, labelOf, summaryOf, REPO, SITE } from "../lib/graph";
+import { ui, other, fmt, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { renderProse } from "../lib/markdown";
+import { formatDate } from "../lib/dates";
+import { connectionsOf, externalUrl, jsonLd, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
+import type { Node } from "../../../scripts/build-graph";
+
+interface Props { node: Node; lang: Lang }
+const { node: n, lang } = Astro.props;
+const T = ui(lang);
+const path = href(lang, n.id);
+const title = labelOf(n, lang);
+const second = lang === "ar" ? n.label.en : n.label.ar;
+const d = n.data;
+
+// --- prose with fallback chain: requested language -> English -> none
+const proseLang = n.prose[lang] ? lang : n.prose.en ? "en" : null;
+const prose = proseLang ? n.prose[proseLang] : null;
+const untranslated = !!prose && proseLang !== lang;
+const brief = prose?.sections.find((s) => sectionRole(s.heading) === "brief");
+
+// --- dates for the header line
+const dateLine = (() => {
+  if (n.class === "person") {
+    const b = formatDate(d.born, lang), e = formatDate(d.died, lang);
+    return { text: [b.text, e.text].filter(Boolean).join(" – "), derived: b.derived || e.derived };
+  }
+  if (n.class === "event") {
+    const s = formatDate(d.date?.start, lang), e = formatDate(d.date?.end, lang);
+    return { text: [s.text, e.text].filter(Boolean).join(" – "), derived: s.derived || e.derived };
+  }
+  if (n.class === "period" || n.class === "polity") {
+    const s = formatDate(d.start, lang), e = formatDate(d.end, lang);
+    return { text: [s.text, e.text].filter(Boolean).join(" – "), derived: s.derived || e.derived };
+  }
+  return { text: "", derived: false };
+})();
+
+const places = placesOf(n.id);
+const groups = connectionsOf(n.id, lang);
+
+// --- sources: the entity's own + any cited in prose
+const sections = (prose?.sections ?? []).map((s) => ({ ...s, role: sectionRole(s.heading), r: renderProse(s.markdown, lang) }));
+// citation numbers are per-section in renderProse; re-number globally for the footnote list
+const citeList: { source: string; locator?: string }[] = [];
+const citeIndex = (c: { source: string; locator?: string }) => {
+  let i = citeList.findIndex((x) => x.source === c.source && x.locator === c.locator);
+  if (i < 0) { citeList.push(c); i = citeList.length - 1; }
+  return i + 1;
+};
+const sectionHtml = sections.map((s) => {
+  const map = new Map(s.r.cites.map((c) => [c.n, citeIndex(c)]));
+  const renumber = (h: string) =>
+    h.replace(/<sup class="cite"><a href="#note-(\d+)" id="cite-\d+-\d+">\d+<\/a><\/sup>/g, (_m, k) => {
+      const g = map.get(Number(k))!;
+      return `<sup class="cite"><a href="#note-${g}">${g}</a></sup>`;
+    });
+  return { ...s, html: renumber(s.r.html), persp: s.r.perspectives.map((p) => ({ ...p, html: renumber(p.html) })) };
+});
+const proseSources = [...new Set(citeList.map((c) => c.source))];
+const ownSources = [...new Set([...(d.sources ?? []), ...proseSources])].map((id) => byId.get(id)).filter(Boolean) as Node[];
+const perspectives = sectionHtml.flatMap((s) => s.persp).length
+  ? sectionHtml.flatMap((s) => s.persp)
+  : (d.perspectives ?? []).map((p: any) => ({ tradition: traditionLabel(p.tradition, lang), html: p.summary[lang] ?? p.summary.en }));
+
+const bibliography = (s: Node) => {
+  const a = (s.data.author ?? []).map((x: any) => [x.family, x.given].filter(Boolean).join(", ")).join("; ");
+  const y = s.data.issued?.["date-parts"]?.[0]?.[0];
+  return `${a ? a.replace(/\.$/, "") + ". " : ""}${y ? `(${y}). ` : ""}${s.data.title ?? labelOf(s, "en")}${s.data.publisher ? `. ${s.data.publisher}` : ""}.`;
+};
+
+const alternates = {
+  en: href("en", n.id), ar: href("ar", n.id),
+};
+const altNames = [...new Set([...Object.values(n.label), ...(d.names ?? []).map((x: any) => x.value), ...n.aliases.map((a) => a.split("/")[1].replace(/-/g, " "))])].filter((x) => x !== title);
+const wingChips = n.wings.filter((w) => (WINGS as readonly string[]).includes(w));
+const wishUrl = `${REPO}/issues/new?template=request-translation.yml&title=${encodeURIComponent(`Translate ${n.id} to ${lang}`)}`;
+const citeText = fmt(T.entity.cite_text, { title, url: `${SITE}${path}`, date: buildDate });
+const reviewStatus = d.status?.review ?? "draft";
+---
+<BaseLayout lang={lang} title={title} description={summaryOf(n, lang)} path={path} jsonld={jsonLd(n, lang, path)} alternates={alternates} ogType={n.class === "person" ? "profile" : "article"}>
+  <article id="entity-article" class="wrap" data-depth="standard" data-pagefind-body style="padding-block:10px 20px">
+    <nav class="ui muted no-print" aria-label={T.entity.breadcrumb} style="font-size:.88rem;margin-bottom:14px">
+      <a href={`/${lang}/`} style="color:inherit">{T.entity.breadcrumb}</a>
+      {wingChips[0] && <> › <a href={wingHref(lang, wingChips[0] as any)} style="color:inherit">{T.nav[wingChips[0]]}</a></>}
+      › <span>{T.class[n.class]}</span>
+    </nav>
+
+    <header style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:12px">
+      <div style="flex:1 1 420px;min-width:0">
+        {second && <p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.6rem,4vw,2.4rem);margin:0 0 4px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:var(--muted)`} data-pagefind-meta="alt">{second}</p>}
+        <h1 data-pagefind-meta="title">{title}</h1>
+        {dateLine.text && <p class="ui" style="margin:0 0 6px">{dateLine.text}{dateLine.derived && <span class="muted" title={T.entity.derived}> †</span>}</p>}
+        {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}
+        <p style="font-size:1.2rem;max-width:var(--measure)" data-pagefind-meta="summary">{summaryOf(n, lang) || ""}</p>
+      </div>
+      <div class="no-print"><DepthDial client:load labels={T.depth} /></div>
+    </header>
+
+    {n.stub ? (
+      <section class="panel" style="margin-top:1.5rem">
+        <h2 style="margin-top:0">{T.entity.stub_title}</h2>
+        <p>{T.entity.stub_body}</p>
+        <p class="ui"><a href={`${REPO}/issues/new?template=suggest-entity.yml&title=${encodeURIComponent(`Entity: ${n.id}`)}`}>{T.entity.stub_help} →</a></p>
+      </section>
+    ) : (
+      <>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-block:1.5rem">
+          <section class="panel ui" aria-labelledby="glance">
+            <h2 id="glance" style="font-size:1rem;margin:0 0 10px">{T.entity.at_a_glance}</h2>
+            <dl style="margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.92rem">
+              {d.roles?.length > 0 && <><dt class="muted">{T.entity.roles}</dt><dd style="margin:0">{d.roles.join(" · ")}</dd></>}
+              {d.traditions?.length > 0 && <><dt class="muted">{T.entity.tradition}</dt><dd style="margin:0">{d.traditions.map((x: string) => traditionLabel(x, lang)).join(" · ")}</dd></>}
+              {n.periods.length > 0 && <><dt class="muted">{T.entity.era}</dt><dd style="margin:0">{n.periods.map((p) => <a href={href(lang, p)}>{labelOf(byId.get(p)!, lang)}</a>).reduce((a: any[], c, i) => (i ? [...a, " · ", c] : [c]), [])}</dd></>}
+              {n.regions.length > 0 && <><dt class="muted">{T.entity.region}</dt><dd style="margin:0">{n.regions.map((r) => regionLabel(r, lang)).join(" · ")}</dd></>}
+              {Object.keys(d.external_ids ?? {}).length > 0 && <><dt class="muted">{T.entity.identifiers}</dt><dd style="margin:0" class="ltr" dir="ltr">{(Object.entries(d.external_ids) as [string, string][]).map(([k, v]) => <a href={externalUrl(k, v)} rel="noopener" style="margin-inline-end:10px">{k}:{v}</a>)}</dd></>}
+              <dt class="muted">{T.entity.review}</dt>
+              <dd style="margin:0"><span class="chip">{T.status[reviewStatus]}</span> {d.status?.completeness !== undefined && <span class="muted">{T.entity.completeness} {d.status.completeness}/5</span>}</dd>
+            </dl>
+            {d.sensitivity === "figurative-prophet" && <p class="muted" style="font-size:.85rem;margin:10px 0 0">{T.entity.figurative}</p>}
+          </section>
+
+          {(n.span || places.some((p) => p.coordinates)) && (
+            <section class="panel ui no-print" aria-label={T.entity.in_time}>
+              {n.span && <>
+                <h2 style="font-size:1rem;margin:0 0 8px">{T.entity.in_time}</h2>
+                <TimeStrip span={n.span} ids={n.contemporaries} lang={lang} self={n.id} />
+              </>}
+              {places.some((p) => p.coordinates) && <>
+                <h2 style="font-size:1rem;margin:14px 0 8px">{T.entity.in_space}</h2>
+                <MiniMap places={places} lang={lang} />
+              </>}
+            </section>
+          )}
+        </div>
+
+        {untranslated && (
+          <p class="panel ui" role="note" style="font-size:.92rem">{T.entity.not_translated} <a href={wishUrl}>{T.entity.help_translate}</a></p>
+        )}
+
+        <div class="prose" lang={proseLang ?? lang} dir={proseLang === "ar" ? "rtl" : "ltr"}>
+          {!prose && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
+          {sectionHtml.map((s) =>
+            s.role === "kids" || s.role === "scholars" ? (
+              <details data-role={s.role} class="sec" style="margin-block:1rem">
+                <summary style="cursor:pointer;font-weight:600"><span class="ui">{s.heading}</span></summary>
+                <div set:html={s.html} />
+              </details>
+            ) : (
+              <section data-role={s.role} class="sec">
+                <h2>{s.heading}</h2>
+                <div set:html={s.html} />
+              </section>
+            ),
+          )}
+        </div>
+
+        {perspectives.length > 0 && (
+          <section data-role="main" class="sec" aria-labelledby="persp">
+            <h2 id="persp">{T.entity.perspectives}</h2>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px">
+              {perspectives.map((p) => (
+                <div class="panel"><h3 class="ui" style="margin:0 0 6px;font-size:1rem">{p.tradition}</h3><div set:html={p.html} /></div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {groups.length > 0 && (
+          <section data-role="main" class="sec ui" aria-labelledby="conn">
+            <h2 id="conn">{T.entity.connections}</h2>
+            <dl style="display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:8px 18px;margin:0">
+              {groups.map((g) => (
+                <>
+                  <dt class="muted">{g.label}</dt>
+                  <dd style="margin:0;display:flex;flex-wrap:wrap;gap:6px 8px">
+                    {g.items.map(({ node: t }) => <a class={`chip${t.stub ? " stub-link" : ""}`} href={href(lang, t.id)}>{labelOf(t, lang)}</a>)}
+                  </dd>
+                </>
+              ))}
+            </dl>
+          </section>
+        )}
+
+        {(citeList.length > 0 || ownSources.length > 0) && (
+          <section data-role="main" class="sec ui" aria-labelledby="src">
+            <h2 id="src">{T.entity.sources}</h2>
+            {citeList.length > 0 && (
+              <ol style="padding-inline-start:1.4rem;font-size:.92rem">
+                {citeList.map((c, i) => {
+                  const s = byId.get(c.source);
+                  return <li id={`note-${i + 1}`}>{s ? bibliography(s) : c.source}{c.locator ? `, ${c.locator}` : ""}</li>;
+                })}
+              </ol>
+            )}
+            {ownSources.filter((s) => !proseSources.includes(s.id)).length > 0 && (
+              <ul style="padding-inline-start:1.4rem;font-size:.92rem">
+                {ownSources.filter((s) => !proseSources.includes(s.id)).map((s) => <li>{bibliography(s)}</li>)}
+              </ul>
+            )}
+          </section>
+        )}
+      </>
+    )}
+
+    <section class="sec ui no-print" style="margin-top:2rem;font-size:.9rem" aria-label={T.entity.cite}>
+      <details>
+        <summary style="cursor:pointer">{T.entity.cite}</summary>
+        <p class="panel" style="margin-top:8px;user-select:all">{citeText}</p>
+      </details>
+      <p class="muted">
+        <a href={`${REPO}/edit/main/data/${n.class}/${n.slug}.yaml`} rel="noopener">{T.entity.edit}</a> ·
+        <a href={`${REPO}/issues/new?template=report-error.yml&title=${encodeURIComponent(`Error: ${n.id}`)}`} rel="noopener">{T.entity.report}</a> ·
+        <a href={`/api/v1/${n.class}/${n.slug}.json`} class="ltr">JSON</a>
+      </p>
+    </section>
+
+    {altNames.length > 0 && <div hidden aria-hidden="true">{altNames.join(" ")}</div>}
+    <span hidden data-pagefind-filter={`class:${n.class}`}></span>
+    {n.wings.map((w) => <span hidden data-pagefind-filter={`wing:${w}`}></span>)}
+  </article>
+</BaseLayout>
+
+<style is:global>
+  #entity-article[data-depth="brief"] .sec:not([data-role="brief"]) { display: none; }
+  #entity-article .prose h2 { margin-top: 1.4em; }
+  sup.cite a { text-decoration: none; padding-inline: 1px; }
+  details[data-role] > summary { list-style: revert; }
+</style>

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "practice.schema.json",
+  "title": "Museum entity: practice",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "practice"
+    },
+    "kind": {
+      "enum": [
+        "ritual",
+        "pillar",
+        "festival",
+        "rite_of_passage",
+        "custom",
+        "food",
+        "dress",
+        "music",
+        "art",
+        "craft",
+        "sport",
+        "etiquette"
+      ]
+    },
+    "when": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "who": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "where_variations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "region",
+          "description"
+        ],
+        "properties": {
+          "region": {
+            "enum": [
+              "arabia",
+              "levant-iraq",
+              "egypt-nile",
+              "maghreb",
+              "andalus-europe",
+              "anatolia-balkans",
+              "persia-central-asia",
+              "south-asia",
+              "southeast-asia",
+              "china-east-asia",
+              "west-africa-sahel",
+              "east-africa",
+              "americas-oceania",
+              "global"
+            ]
+          },
+          "description": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          }
+        }
+      }
+    },
+    "obligation": {
+      "enum": [
+        "obligatory",
+        "recommended",
+        "cultural"
+      ]
+    },
+    "scriptural_basis": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "object.schema.json",
+  "title": "Museum entity: object",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "object"
+    },
+    "kind": {
+      "enum": [
+        "manuscript",
+        "folio",
+        "astrolabe",
+        "ceramic",
+        "textile",
+        "carpet",
+        "coin",
+        "sword",
+        "relic",
+        "tile",
+        "lamp",
+        "globe",
+        "instrument",
+        "glass",
+        "metalwork",
+        "other"
+      ]
+    },
+    "made": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "made_in": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "maker": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dimensions": {
+      "type": "string"
+    },
+    "inscriptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "lang": {
+            "type": "string"
+          },
+          "translation": {
+            "$ref": "_base.schema.json#/$defs/localized"
+          }
+        }
+      }
+    },
+    "holding_institution": {
+      "type": "string"
+    },
+    "accession_number": {
+      "type": "string"
+    },
+    "iiif_manifest": {
+      "type": "string",
+      "format": "uri"
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "event.schema.json",
+  "title": "Museum entity: event",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "event"
+    },
+    "kind": {
+      "enum": [
+        "battle",
+        "treaty",
+        "revelation",
+        "migration",
+        "founding",
+        "death",
+        "birth",
+        "conquest",
+        "discovery",
+        "publication",
+        "conference",
+        "siege",
+        "pilgrimage",
+        "other"
+      ]
+    },
+    "date": {
+      "$ref": "_base.schema.json#/$defs/dateRange"
+    },
+    "places": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "target"
+        ],
+        "properties": {
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "role": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "outcome": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "part_of": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "casualties": {
+      "type": "string"
+    },
+    "significance": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

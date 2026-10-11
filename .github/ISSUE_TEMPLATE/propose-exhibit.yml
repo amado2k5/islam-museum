@@ -1,0 +1,18 @@
+name: Propose an exhibit
+description: Propose a curated tour, story, lesson or trail
+title: "Exhibit: "
+labels: [exhibit]
+body:
+  - type: input
+    id: title
+    attributes: { label: Working title }
+    validations: { required: true }
+  - type: dropdown
+    id: kind
+    attributes: { label: Kind, options: [exhibition, story, tour, lesson, trail] }
+  - type: textarea
+    id: audience
+    attributes: { label: Audience and length }
+  - type: textarea
+    id: rooms
+    attributes: { label: Rooms (each with the entities it features) }

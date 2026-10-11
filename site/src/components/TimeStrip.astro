@@ -1,0 +1,25 @@
+---
+import { byId, href, labelOf } from "../lib/graph";
+import type { Lang } from "../lib/i18n";
+const { span, ids = [], lang, self } = Astro.props as { span: { earliest: number; latest: number }; ids?: string[]; lang: Lang; self: string };
+const MIN = 600, MAX = 2000;
+const x = (y: number) => ((Math.min(Math.max(y, MIN), MAX) - MIN) / (MAX - MIN)) * 100;
+const rows = [{ id: self, span }, ...ids.map((i) => ({ id: i, span: byId.get(i)?.span! })).filter((r) => r.span)];
+const dir = lang === "ar" ? "rtl" : "ltr";
+const ticks = [700, 1000, 1300, 1600, 1900];
+---
+<figure style="margin:0" class="no-print">
+  <svg viewBox={`0 0 100 ${rows.length * 7 + 8}`} role="img" aria-label={rows.map((r) => `${labelOf(byId.get(r.id)!, lang)}: ${Math.round(r.span.earliest)}–${Math.round(r.span.latest)}`).join("; ")} style="width:100%;height:auto;display:block;direction:ltr">
+    {ticks.map((t) => <g><line x1={x(t)} x2={x(t)} y1="0" y2={rows.length * 7 + 2} stroke="currentColor" opacity=".12" stroke-width=".25" /><text x={x(t)} y={rows.length * 7 + 7} font-size="2.6" text-anchor="middle" fill="currentColor" opacity=".6">{t}</text></g>)}
+    {rows.map((r, i) => (
+      <g>
+        <rect x={x(r.span.earliest)} y={i * 7 + 1.5} width={Math.max(x(r.span.latest) - x(r.span.earliest), 0.6)} height="4" rx="1" fill={i === 0 ? "var(--gold)" : "var(--lapis)"} opacity={i === 0 ? 1 : 0.55} />
+      </g>
+    ))}
+  </svg>
+  {ids.length > 0 && (
+    <figcaption class="ui muted" style="font-size:.85rem;margin-top:6px">
+      {ids.slice(0, 6).map((i, k) => <><a href={href(lang, i)} style="color:inherit">{labelOf(byId.get(i)!, lang)}</a>{k < Math.min(ids.length, 6) - 1 ? " · " : ""}</>)}
+    </figcaption>
+  )}
+</figure>

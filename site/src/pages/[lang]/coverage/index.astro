@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { graph, href, byId, labelOf } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const c = graph.coverage;
+const Table = (rec: Record<string, number>, label: (k: string) => string) => Object.entries(rec).map(([k, v]) => ({ k: label(k), v }));
+---
+<BaseLayout lang={lang} title={T.coverage.title} description={T.coverage.lede} path={`/${lang}/coverage/`}>
+  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
+    <h1>{T.coverage.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{T.coverage.lede}</p>
+    <p class="ui"><b>{c.entities}</b> {T.coverage.entities} · <b>{c.stubs}</b> {T.coverage.wanted} · {T.coverage.sources_avg}: <b>{c.avgSourcesPerEntity}</b></p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px" class="ui">
+      {[[T.coverage.by_class, Table(c.byClass, (k) => T.class[k] ?? k)], [T.coverage.by_wing, Table(c.byWing, (k) => T.nav[k] ?? k)], [T.coverage.by_review, Table(c.byReview, (k) => T.status[k] ?? k)], [T.coverage.prose, Table(c.proseByLang, (k) => k)]].map(([title, rows]: any) => (
+        <section class="panel"><h2 style="font-size:1rem;margin:0 0 8px">{title}</h2>
+          <table style="width:100%;border-collapse:collapse">{rows.map((r: any) => <tr><td>{r.k}</td><td style="text-align:end">{r.v}</td></tr>)}</table></section>
+      ))}
+    </div>
+    <h2>{T.coverage.wanted}</h2>
+    <ul class="ui" style="columns:2 260px">{c.wanted.map((w) => <li><a href={href(lang, w)} class="stub-link">{labelOf(byId.get(w)!, lang)}</a></li>)}</ul>
+  </div>
+</BaseLayout>

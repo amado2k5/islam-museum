@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "passage.schema.json",
+  "title": "Museum entity: passage",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "passage"
+    },
+    "work": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "ref": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "translations": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "translator": {
+            "type": "string"
+          },
+          "license": {
+            "enum": [
+              "CC0",
+              "CC-BY",
+              "CC-BY-SA",
+              "PD",
+              "institution-open"
+            ]
+          }
+        }
+      }
+    },
+    "audio": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "context": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    }
+  },
+  "required": [
+    "work",
+    "ref"
+  ],
+  "unevaluatedProperties": false
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "period.schema.json",
+  "title": "Museum entity: period",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "period"
+    },
+    "kind": {
+      "enum": [
+        "era",
+        "regional"
+      ]
+    },
+    "start": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "end": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "parent_period": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "defining_events": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    }
+  },
+  "required": [
+    "start",
+    "end"
+  ],
+  "unevaluatedProperties": false
+}

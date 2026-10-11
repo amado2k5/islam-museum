@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "polity.schema.json",
+  "title": "Museum entity: polity",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "polity"
+    },
+    "kind": {
+      "enum": [
+        "caliphate",
+        "dynasty",
+        "emirate",
+        "sultanate",
+        "empire",
+        "kingdom",
+        "state",
+        "nation",
+        "city-state"
+      ]
+    },
+    "start": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "end": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "capitals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "place"
+        ],
+        "properties": {
+          "place": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          },
+          "start": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "end": {
+            "$ref": "_base.schema.json#/$defs/date"
+          }
+        }
+      }
+    },
+    "extent": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "geojson",
+          "precision"
+        ],
+        "properties": {
+          "at": {
+            "$ref": "_base.schema.json#/$defs/date"
+          },
+          "geojson": {
+            "type": "string"
+          },
+          "precision": {
+            "enum": [
+              "schematic",
+              "approximate",
+              "documented"
+            ]
+          },
+          "source": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "predecessor": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "successor": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "official_languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+      }
+    },
+    "religious_policy": {
+      "$ref": "_base.schema.json#/$defs/localized"
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

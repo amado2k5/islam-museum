@@ -1,0 +1,98 @@
+---
+import "../styles/global.css";
+import { ui, other, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { SITE } from "../lib/graph";
+
+interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean }
+const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex } = Astro.props;
+const T = ui(lang);
+const fullTitle = path === `/${lang}/` ? `${T.name} · ${T.tagline}` : `${title} · ${T.name}`;
+const desc = description ?? T.landing.lede;
+const canonical = `${SITE}${path}`;
+const alt = alternates ?? { [lang]: path, [other(lang)]: path.replace(`/${lang}/`, `/${other(lang)}/`) };
+const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
+const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
+---
+<!doctype html>
+<html lang={lang} dir={T.dir}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    {Object.entries(alt).map(([l, h]) => <link rel="alternate" hreflang={l} href={`${SITE}${h}`} />)}
+    <link rel="alternate" hreflang="x-default" href={`${SITE}${alt.en ?? path}`} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="islam.museum" />
+    <meta property="og:locale" content={lang === "ar" ? "ar_AR" : "en_US"} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="color-scheme" content="light dark" />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script is:inline>
+      try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+    </script>
+    {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
+  </head>
+  <body>
+    <svg class="pattern" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="girih" width="120" height="120" patternUnits="userSpaceOnUse">
+          <g fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M60 10 L74 46 L110 60 L74 74 L60 110 L46 74 L10 60 L46 46 Z" />
+            <path d="M60 25 L85 35 L95 60 L85 85 L60 95 L35 85 L25 60 L35 35 Z" />
+            <path d="M0 0 L120 120 M120 0 L0 120 M60 0 V120 M0 60 H120" opacity=".35" />
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#girih)" />
+    </svg>
+    <a class="skip" href="#main">{T.a11y.skip}</a>
+    <header class="site wrap" style="padding-block:18px">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px">
+        <a class="ui" href={`/${lang}/`} style="display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.02em;text-decoration:none;color:var(--fg)">
+          <svg viewBox="0 0 64 64" width="26" height="26" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#1F4E8C" /><path d="M32 8l6.5 15.5L54 30l-15.5 6.5L32 52l-6.5-15.5L10 30l15.5-6.5z" fill="#F7F3EA" /></svg>
+          <span class="ltr" dir="ltr">islam.museum</span>
+        </a>
+        <div style="display:flex;align-items:center;gap:10px" class="ui">
+          <a class="chip" href={`/${lang}/search/`}>{T.nav.search}</a>
+          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} style="border:0;cursor:pointer">◐</button>
+          <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)">{T.switch_to}</a>
+        </div>
+      </div>
+      <nav aria-label={T.a11y.menu} class="ui" style="margin-top:14px">
+        <ul style="display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:0;padding:0;font-size:.95rem">
+          {WINGS.map((w) => <li><a href={wingHref(lang, w)} style="color:var(--fg);text-decoration:none">{T.nav[w]}</a></li>)}
+          <li style="opacity:.5" aria-hidden="true">·</li>
+          <li><a href={`/${lang}/questions/`} style="color:var(--fg);text-decoration:none">{T.nav.questions}</a></li>
+          <li><a href={`/${lang}/exhibits/`} style="color:var(--fg);text-decoration:none">{T.nav.exhibits}</a></li>
+          <li><a href={`/${lang}/wander/`} style="color:var(--fg);text-decoration:none">{T.nav.wander}</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main" style="flex:1">
+      <slot />
+    </main>
+    <footer class="site" style="border-top:1px solid var(--line);margin-top:3rem">
+      <div class="wrap ui" style="padding-block:22px;display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between;font-size:.9rem;color:var(--muted)">
+        <span>islam.museum · {T.footer.open}</span>
+        <span>{T.footer.licenses}</span>
+        <span><a href="/api/v1/meta/index.json" style="color:inherit">{T.footer.api}</a> · <a href={`/${lang}/coverage/`} style="color:inherit">{T.nav.coverage}</a> · <a href="https://github.com/amado2k5/islam-museum" rel="noopener" style="color:inherit">{T.footer.github}</a></span>
+        <span style="flex-basis:100%">{T.footer.privacy}</span>
+      </div>
+    </footer>
+    <script is:inline>
+      document.getElementById("theme")?.addEventListener("click", function () {
+        var el = document.documentElement;
+        var dark = el.getAttribute("data-theme") ? el.getAttribute("data-theme") === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+        var next = dark ? "light" : "dark";
+        el.setAttribute("data-theme", next);
+        try { localStorage.setItem("theme", next); } catch (e) {}
+      });
+    </script>
+  </body>
+</html>

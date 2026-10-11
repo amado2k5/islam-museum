@@ -1,0 +1,44 @@
+id: person/ibn-sina
+class: person
+aliases: [person/avicenna]
+label: { en: Ibn Sina (Avicenna), ar: ابن سينا, fa: ابن سینا }
+names:
+  - { kind: full, lang: ar, value: أبو علي الحسين بن عبد الله بن الحسن بن علي بن سينا }
+  - { kind: kunya, lang: ar-Latn, value: Abu Ali }
+  - { kind: laqab, lang: ar-Latn, value: al-Shaykh al-Ra'is }
+  - { kind: latinized, lang: la, value: Avicenna }
+gender: male
+born: { edtf: "0980~", hijri: "0370~", calendar: julian, precision: year, status: historical, note: "Traditional date; his biography implies 980, some give 973.", sources: [source/gutas-2014] }
+died: { edtf: "1037-06", hijri: "0428-09", calendar: julian, precision: month, status: historical, sources: [source/gutas-2014] }
+roles: [physician, philosopher, astronomer, vizier, poet]
+disciplines: [concept/medicine, concept/falsafa, concept/logic]
+traditions: [sunni-hanafi]
+languages: [language/arabic, language/persian]
+summary:
+  en: Persian polymath (c. 980–1037) whose Canon of Medicine and Book of Healing shaped medicine and philosophy across the Islamic world and Europe for centuries.
+  ar: عالم موسوعي فارسي (نحو 980–1037م) أثّر كتاباه القانون في الطب والشفاء في الفلسفة في العالم الإسلامي وأوروبا قرونًا.
+wings: [people, ideas]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+relations:
+  - { type: born_in, target: place/afshana }
+  - { type: died_in, target: place/hamadan }
+  - { type: buried_in, target: building/avicenna-mausoleum-hamadan }
+  - { type: lived_in, target: place/bukhara, end: { edtf: "1002~" } }
+  - { type: lived_in, target: place/isfahan, start: { edtf: "1024~" } }
+  - { type: student_of, target: person/abu-abdallah-al-natili, sources: [source/gohlman-1974] }
+  - { type: authored, target: work/al-qanun-fi-al-tibb }
+  - { type: authored, target: work/kitab-al-shifa }
+  - { type: patronized_by, target: person/ala-al-dawla-muhammad, start: { edtf: "1024~" } }
+  - { type: influenced_by, target: person/al-farabi }
+  - { type: influenced_by, target: person/aristotle }
+  - { type: influenced, target: person/al-ghazali, note: "Through critique in Tahafut al-Falasifa." }
+  - { type: influenced, target: person/ibn-rushd }
+  - { type: influenced, target: person/thomas-aquinas }
+perspectives:
+  - tradition: academic
+    summary: { en: "His father served the Samanids and is reported to have been Ismaili; Ibn Sina's own confessional identity is debated, and his philosophy was attacked by al-Ghazali and defended by later thinkers." }
+    sources: [source/gutas-2014]
+external_ids: { wikidata: Q8011, viaf: "31996761" }
+sources: [source/gohlman-1974, source/gutas-2014]
+status: { review: draft, completeness: 3, generated_by: "Claude Sonnet 5.5 (scaffold from docs/plan/02 §10)" }

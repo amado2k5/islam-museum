@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "building.schema.json",
+  "title": "Museum entity: building",
+  "allOf": [
+    {
+      "$ref": "_base.schema.json"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "class": {
+      "const": "building"
+    },
+    "kind": {
+      "enum": [
+        "mosque",
+        "madrasa",
+        "palace",
+        "fort",
+        "tomb",
+        "garden",
+        "bimaristan",
+        "observatory",
+        "bazaar",
+        "khan",
+        "hammam",
+        "bridge",
+        "minaret",
+        "library",
+        "shrine",
+        "other"
+      ]
+    },
+    "style": {
+      "type": "string"
+    },
+    "built": {
+      "$ref": "_base.schema.json#/$defs/date"
+    },
+    "patron": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "architect": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "location": {
+      "type": "string",
+      "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+    },
+    "coordinates": {
+      "$ref": "_base.schema.json#/$defs/coordinates"
+    },
+    "status_now": {
+      "enum": [
+        "standing",
+        "ruined",
+        "destroyed",
+        "rebuilt",
+        "converted"
+      ]
+    },
+    "unesco_id": {
+      "type": "string"
+    },
+    "archnet_id": {
+      "type": "string"
+    },
+    "materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dimensions": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "kind"
+  ],
+  "unevaluatedProperties": false
+}

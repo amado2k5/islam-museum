@@ -1,0 +1,16 @@
+id: question/slug-here          # immutable; lowercase ASCII, hyphens
+class: question
+label: { en: "", ar: "" }
+summary:
+  en: ""            # one sentence
+  ar: ""
+wings: []           # people | place | time | ideas | objects | words | living | today
+periods: []         # period/... ids
+regions: []         # see schema/enums/regions.yaml
+question: { en: "", ar: "" }
+short_answer: { en: "" }
+relations: []       # - { type: predicate-from-schema/predicates.yaml, target: class/slug, sources: [source/...] }
+perspectives: []    # required for contested topics
+external_ids: {}   # wikidata: Q...
+sources: []         # at least one source/... id
+status: { review: draft, completeness: 0, generated_by: "" }
