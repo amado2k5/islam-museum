@@ -1,0 +1,20 @@
+id: event/death-of-the-prophet
+class: event
+kind: death
+label: { en: "The death of the Prophet", ar: "وفاة النبي" }
+summary:
+  en: "The Prophet Muhammad died in Medina after a short illness, and was buried in the house of Aisha."
+  ar: "توفي النبي محمد بالمدينة بعد مرض قصير، ودُفن في بيت عائشة."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-06-08", hijri: "0011-03-12", calendar: julian, precision: day, status: tradition, note: "Traditionally 12 Rabi' I, 11 AH; a tabular conversion gives 7 June." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

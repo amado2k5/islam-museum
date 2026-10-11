@@ -1,0 +1,24 @@
+id: event/isra-and-miraj
+class: event
+kind: other
+label: { en: "The Isra and Mi'raj", ar: "الإسراء والمعراج" }
+summary:
+  en: "The night journey of the Prophet from Mecca to Jerusalem and his ascent through the heavens, as understood in Islamic tradition."
+  ar: "رحلة النبي ليلًا من مكة إلى بيت المقدس وعروجه إلى السماوات كما تفهمها التقاليد الإسلامية."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0621~", calendar: julian, precision: year, status: debated, note: "The date and the nature of the journey are discussed in the tradition." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: occurred_at, target: place/jerusalem }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Many Sunni scholars understand it as a bodily and spiritual journey in a single night; others emphasise a spiritual vision." }
+  - tradition: academic
+    summary: { en: "Historians note that the Qur'anic references (17:1 and 53:1-18) are brief and that the detailed accounts come from later reports." }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

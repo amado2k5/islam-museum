@@ -1,0 +1,20 @@
+id: event/expedition-to-tabuk
+class: event
+kind: other
+label: { en: "The expedition to Tabuk", ar: "غزوة تبوك" }
+summary:
+  en: "The Prophet led a large expedition north toward the Byzantine frontier as far as Tabuk; no battle took place."
+  ar: "قاد النبي حملة كبيرة شمالًا نحو الحدود البيزنطية حتى تبوك، ولم يقع قتال."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: occurred_at, target: place/tabuk }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

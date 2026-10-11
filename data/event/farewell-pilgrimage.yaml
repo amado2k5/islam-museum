@@ -1,0 +1,20 @@
+id: event/farewell-pilgrimage
+class: event
+kind: pilgrimage
+label: { en: "The Farewell Pilgrimage", ar: "حجة الوداع" }
+summary:
+  en: "The only pilgrimage the Prophet led, during which he gave the sermon known as the Farewell Sermon."
+  ar: "الحجة الوحيدة التي قادها النبي، وألقى فيها الخطبة المعروفة بخطبة الوداع."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-03", hijri: "0010-12", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

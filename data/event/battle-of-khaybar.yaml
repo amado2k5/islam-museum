@@ -1,0 +1,20 @@
+id: event/battle-of-khaybar
+class: event
+kind: conquest
+label: { en: "The expedition to Khaybar", ar: "غزوة خيبر" }
+summary:
+  en: "The Muslims advanced on the oasis of Khaybar, north of Medina, and brought it under their authority."
+  ar: "تقدّم المسلمون إلى واحة خيبر شمال المدينة وأخضعوها لسلطانهم."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628~", hijri: "0007", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/khaybar }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/treaty-of-hudaybiyya }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

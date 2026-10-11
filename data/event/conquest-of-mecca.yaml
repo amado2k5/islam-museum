@@ -1,0 +1,21 @@
+id: event/conquest-of-mecca
+class: event
+kind: conquest
+label: { en: "The conquest of Mecca", ar: "فتح مكة" }
+summary:
+  en: "The Prophet entered Mecca with a large force after the Quraysh broke the truce, and the city largely surrendered without fighting."
+  ar: "دخل النبي مكة بجيش كبير بعد أن نقضت قريش الهدنة، وسلّمت المدينة في معظمها دون قتال."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01", hijri: "0008-09", calendar: julian, precision: month, status: tradition, note: "Traditionally Ramadan, 8 AH." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/treaty-of-hudaybiyya }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

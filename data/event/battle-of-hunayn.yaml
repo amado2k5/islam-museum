@@ -1,0 +1,20 @@
+id: event/battle-of-hunayn
+class: event
+kind: battle
+label: { en: "The Battle of Hunayn", ar: "غزوة حنين" }
+summary:
+  en: "A battle in a valley near Mecca against the tribes of Hawazin and Thaqif, shortly after the conquest of Mecca."
+  ar: "معركة في وادٍ قرب مكة ضد قبيلتي هوازن وثقيف بُعيد فتح مكة."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630~", hijri: "0008-10", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: occurred_at, target: place/taif }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/conquest-of-mecca }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

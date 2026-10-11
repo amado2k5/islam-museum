@@ -1,0 +1,21 @@
+id: event/battle-of-uhud
+class: event
+kind: battle
+label: { en: "The Battle of Uhud", ar: "غزوة أحد" }
+summary:
+  en: "A battle near Mount Uhud in which the Quraysh gained the upper hand and Hamza, the Prophet's uncle, was killed."
+  ar: "معركة قرب جبل أحد تفوّقت فيها قريش واستشهد فيها حمزة عم النبي."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03", hijri: "0003-10", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/uhud }
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/hamza }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/battle-of-badr }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

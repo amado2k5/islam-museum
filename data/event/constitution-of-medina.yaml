@@ -1,0 +1,22 @@
+id: event/constitution-of-medina
+class: event
+kind: treaty
+label: { en: "The Constitution of Medina", ar: "صحيفة المدينة" }
+summary:
+  en: "A document, preserved in early sources, regulating relations among the Muslims and the other communities of Medina."
+  ar: "وثيقة حفظتها المصادر المبكرة تنظّم العلاقات بين المسلمين والجماعات الأخرى في المدينة."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622~", calendar: julian, precision: year, status: debated, note: "Scholars debate whether it is one text or several, and when it was written." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/hijra }
+perspectives:
+  - tradition: academic
+    summary: { en: "Historians generally accept that it reflects the early Medinan period, and debate whether it was a single agreement or several combined." }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

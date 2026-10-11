@@ -1,0 +1,19 @@
+id: event/change-of-qibla
+class: event
+kind: other
+label: { en: "The change of the qibla", ar: "تحويل القبلة" }
+summary:
+  en: "The direction of prayer was changed from Jerusalem to the Kaaba in Mecca, about a year and a half after the Hijra."
+  ar: "تحوّل اتجاه الصلاة من بيت المقدس إلى الكعبة بمكة بعد الهجرة بنحو سنة ونصف."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624~", hijri: "0002", calendar: julian, precision: year, status: scriptural, note: "Qur'an 2:142-150." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/hijra }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

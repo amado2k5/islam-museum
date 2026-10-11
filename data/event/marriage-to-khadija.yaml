@@ -1,0 +1,19 @@
+id: event/marriage-to-khadija
+class: event
+kind: other
+label: { en: "The Prophet's marriage to Khadija", ar: "زواج النبي من خديجة" }
+summary:
+  en: "The marriage of Muhammad and Khadija bint Khuwaylid, a Meccan merchant, about fifteen years before the first revelation."
+  ar: "زواج محمد من خديجة بنت خويلد، التاجرة المكية، قبل نحو خمس عشرة سنة من بدء الوحي."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0595~", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/khadija }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

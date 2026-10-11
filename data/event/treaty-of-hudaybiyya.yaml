@@ -1,0 +1,21 @@
+id: event/treaty-of-hudaybiyya
+class: event
+kind: treaty
+label: { en: "The Treaty of Hudaybiyya", ar: "صلح الحديبية" }
+summary:
+  en: "A ten-year truce between the Muslims and the Quraysh, agreed when the Prophet came to Mecca for pilgrimage."
+  ar: "هدنة لعشر سنوات بين المسلمين وقريش عُقدت حين جاء النبي إلى مكة معتمرًا."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628-03", hijri: "0006-11", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/hudaybiyya }
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/battle-of-the-trench }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

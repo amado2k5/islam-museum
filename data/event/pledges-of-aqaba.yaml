@@ -1,0 +1,20 @@
+id: event/pledges-of-aqaba
+class: event
+kind: treaty
+label: { en: "The Pledges of Aqaba", ar: "بيعتا العقبة" }
+summary:
+  en: "Two meetings at Aqaba, near Mecca, at which men from Medina pledged to protect the Prophet, preparing the migration."
+  ar: "لقاءان عند العقبة قرب مكة تعهّد فيهما رجال من المدينة بحماية النبي، تمهيدًا للهجرة."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0621~", calendar: julian, precision: year, status: tradition, note: "The first pledge is placed in 621 and the second, larger one in 622." }
+  end: { edtf: "0622~", calendar: julian, precision: year }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

@@ -1,0 +1,20 @@
+id: event/battle-of-the-trench
+class: event
+kind: siege
+label: { en: "The Battle of the Trench", ar: "غزوة الخندق" }
+summary:
+  en: "A siege of Medina by a coalition of Quraysh and allied tribes, which the defenders resisted behind a trench."
+  ar: "حصار لقريش وقبائل متحالفة معها للمدينة، صمد المدافعون فيه خلف خندق."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0627-03", hijri: "0005-10", calendar: julian, precision: month, status: tradition, note: "The month is approximate in the sources." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/battle-of-uhud }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

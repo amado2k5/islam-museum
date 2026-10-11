@@ -1,0 +1,20 @@
+id: event/boycott-of-banu-hashim
+class: event
+kind: other
+label: { en: "The boycott of the Banu Hashim", ar: "مقاطعة بني هاشم" }
+summary:
+  en: "Several Meccan clans agreed to shun the Prophet's clan, the Banu Hashim, and their allies for about three years."
+  ar: "تعاهدت عدة عشائر مكية على مقاطعة بني هاشم، عشيرة النبي، وحلفائهم نحو ثلاث سنوات."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0616~", calendar: julian, precision: year, status: tradition, note: "Both ends are approximate." }
+  end: { edtf: "0619~", calendar: julian, precision: year }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-talib }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

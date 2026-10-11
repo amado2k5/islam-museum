@@ -1,0 +1,19 @@
+id: event/first-migration-to-abyssinia
+class: event
+kind: migration
+label: { en: "The first migration to Abyssinia", ar: "الهجرة الأولى إلى الحبشة" }
+summary:
+  en: "A small group of persecuted Muslims left Mecca for the Christian kingdom of Aksum, where the ruler gave them protection."
+  ar: "غادرت جماعة صغيرة من المسلمين المضطهَدين مكة إلى مملكة أكسوم المسيحية، حيث حماهم ملكها."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0615~", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: occurred_at, target: place/aksum }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

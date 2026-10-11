@@ -1,0 +1,20 @@
+id: event/journey-to-taif
+class: event
+kind: other
+label: { en: "The journey to Ta'if", ar: "الخروج إلى الطائف" }
+summary:
+  en: "The Prophet travelled to the hill town of Ta'if seeking support, was rejected, and returned to Mecca under protection."
+  ar: "سافر النبي إلى الطائف طلبًا للنصرة فرُدَّ، وعاد إلى مكة في جوار أحد وجهائها."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0619~", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: occurred_at, target: place/taif }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/year-of-sorrow }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

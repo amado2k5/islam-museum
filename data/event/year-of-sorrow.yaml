@@ -1,0 +1,20 @@
+id: event/year-of-sorrow
+class: event
+kind: death
+label: { en: "The Year of Sorrow", ar: "عام الحزن" }
+summary:
+  en: "The year in which both Khadija and the Prophet's uncle and protector Abu Talib died."
+  ar: "العام الذي توفيت فيه خديجة وتوفي عم النبي وحاميه أبو طالب."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0619~", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/khadija }
+  - { type: had_participant, target: person/abu-talib }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

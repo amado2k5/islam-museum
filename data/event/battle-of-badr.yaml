@@ -1,0 +1,22 @@
+id: event/battle-of-badr
+class: event
+kind: battle
+label: { en: "The Battle of Badr", ar: "غزوة بدر" }
+summary:
+  en: "The first major battle between the Muslims of Medina and the Quraysh of Mecca, fought at the wells of Badr."
+  ar: "أول معركة كبرى بين مسلمي المدينة وقريش مكة، جرت عند آبار بدر."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-03-13", hijri: "0002-09-17", calendar: julian, precision: day, status: tradition, note: "Traditionally 17 Ramadan, 2 AH." }
+relations:
+  - { type: occurred_at, target: place/badr }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: had_participant, target: person/hamza }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/hijra }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

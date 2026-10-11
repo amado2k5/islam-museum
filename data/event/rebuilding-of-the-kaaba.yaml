@@ -1,0 +1,18 @@
+id: event/rebuilding-of-the-kaaba
+class: event
+kind: founding
+label: { en: "The rebuilding of the Kaaba", ar: "إعادة بناء الكعبة" }
+summary:
+  en: "The Quraysh rebuilt the Kaaba after flood damage, and the young Muhammad is reported to have settled their dispute over who would set the Black Stone."
+  ar: "أعادت قريش بناء الكعبة بعد أضرار السيل، ويُروى أن محمدًا الشاب فصل في خلافهم على من يضع الحجر الأسود."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0605~", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
