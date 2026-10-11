@@ -1,0 +1,21 @@
+id: event/sajdat-al-najm
+class: event
+kind: other
+label: { en: "The prostration at surat al-Najm", ar: "سجدة النجم" }
+summary:
+  en: "In Ramadan of the fifth year, before a great assembly of Quraysh's chiefs in the sanctuary, the Prophet recited surat al-Najm; when he reached its closing prostration and prostrated, none present held back and all fell prostrate — Muslims and polytheists alike, as Bukhari reports."
+  ar: "في رمضان من السنة الخامسة تلا النبي سورة النجم على جمع كبير من سادات قريش في الحرم، فلما قرأ آخرها «فاسجدوا لله واعبدوا» ثم سجد لم يتمالك أحد نفسه حتى خرّ ساجداً — مسلمهم ومشركهم — كما روى البخاري؛ وقد وردت رواية تزعم أنهم كذبوا عليه بكلمة عطف فيها على أصنامهم، والكتاب يصفها بالإفك المبين."
+wings: [time, people]
+themes: [scripture-and-its-sciences]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0615~", calendar: julian, precision: month, status: tradition, note: "رمضان من السنة الخامسة من النبوة (الرحيق ص93)." }
+relations:
+  - { type: occurred_at, target: place/mecca, note: "الحرم" }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: group/quraysh, role: "سجدوا جميعاً عند خواتيم السورة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: caused, target: event/second-migration-to-abyssinia, note: "بلغ المهاجرين خبر إسلام قريش فرجعوا في شوال، ثم اشتد عليهم البلاء", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 93-94" }

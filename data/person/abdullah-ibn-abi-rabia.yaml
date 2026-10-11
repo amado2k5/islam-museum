@@ -1,0 +1,22 @@
+id: person/abdullah-ibn-abi-rabia
+class: person
+label: { en: "Abdullah ibn Abi Rabi'a", ar: "عبد الله بن أبي ربيعة" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن أبي ربيعة المخزومي" }
+gender: male
+roles: [envoy]
+summary:
+  en: "One of Quraysh's two picked envoys — with Amr ibn al-As — sent to the Negus with gifts and coached arguments to extradite the Muslim migrants, before either man had accepted Islam."
+  ar: "أحد رسولَي قريش الجليدَين — مع عمرو بن العاص — إلى النجاشي بالهدايا والحجج لاسترداد المهاجرين المسلمين، وذلك قبل أن يسلم."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0616~" }, status: tradition, note: "وفد قريش إلى النجاشي (الرحيق ص94-97).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "أسلم لاحقاً على المشهور؛ في الوفادة كان على دين قومه.", sources: [source/ibn-hisham-sira] }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/second-migration-to-abyssinia, role: "رسول قريش إلى النجاشي", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 94-97" }
