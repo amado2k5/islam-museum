@@ -1,0 +1,32 @@
+id: person/nusayba-bint-kab
+class: person
+label: { en: "Nusayba bint Ka'b (Umm Umara)", ar: "نسيبة بنت كعب" }
+names:
+  - { kind: kunya, lang: ar, value: "أم عمارة" }
+  - { kind: full, lang: ar, value: "نسيبة بنت كعب بن عمرو المازنية" }
+gender: female
+born: { edtf: "0590~", calendar: julian, precision: decade, status: tradition, note: "Birth year not recorded; approximate.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An Ansari woman of Medina who pledged at Aqaba and fought at Uhud shielding the Prophet with sword and shield — the tradition's most famous woman warrior of the first generation."
+  ar: "امرأة أنصارية من أهل المدينة بايعت في العقبة وقاتلت يوم أُحد مدافعة عن النبي بالسيف والترس — أشهر مقاتلة في الجيل الأول عند التراث."
+wings: [people]
+themes: [women, battles, wars-and-campaigns]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0621" }, status: tradition, note: "One of the two women who pledged at the second Aqaba.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: companion, start: { edtf: "0621" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: protector, toward: person/muhammad, start: { edtf: "0625-03" }, end: { edtf: "0625-03" }, status: tradition, note: "Fought in the defense around the Prophet at Uhud and was wounded.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/khazraj }
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/pledges-of-aqaba, role: pledged-as-one-of-two-women, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-uhud, role: defender-of-the-prophet, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-yamama, role: wounded-fighter, sources: [source/tabari-donner-1993] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }

@@ -1,0 +1,52 @@
+id: person/umar-ibn-al-khattab
+class: person
+label: { en: "Umar ibn al-Khattab", ar: "عمر بن الخطاب" }
+names:
+  - { kind: full, lang: ar, value: "عمر بن الخطاب بن نفيل" }
+gender: male
+born: { edtf: "0584~", calendar: julian, precision: year, status: tradition, note: "Traditional reports place his birth around 584 CE.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0644-11", hijri: "0023-11", calendar: julian, precision: month, status: tradition, note: "Assassinated in Dhu al-Hijja 23 AH (November 644 CE) by the Persian slave Abu Lu'lu'a.", sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina] }
+roles: [companion, caliph]
+traditions: [sunni, shia-twelver]
+summary:
+  en: "Second caliph (634–644); under his rule the early community conquered Syria, Egypt and much of the Sasanian Empire. Remembered in Sunni tradition as al-Faruq, the model of just rule."
+  ar: "ثاني الخلفاء الراشدين (634–644م)؛ في عهده فتحت الجماعة الأولى الشام ومصر وجزءًا كبيرًا من الإمبراطورية الساسانية. يذكره التراث السني بالفاروق، مثال العدل في الحكم."
+wings: [people]
+themes: [development-of-law-theology-institutions, wars-and-campaigns, factions-splits-schisms]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq, egypt-nile]
+story_roles:
+  - { role: convert, start: { edtf: "0616~" }, status: tradition, note: "Tradition dates his conversion shortly before the Hijra, remembered as strengthening the community.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: companion, start: { edtf: "0616~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: successor, toward: person/abu-bakr, start: { edtf: "0634-08" }, status: historical, note: "Nominated by Abu Bakr on his deathbed.", sources: [source/watt-1956-medina] }
+  - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0634" }, end: { edtf: "0644" }, status: historical, sources: [source/watt-1956-medina] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). He predates the Sunni-Shia division." }
+labelled:
+  - { label: { en: "al-Faruq (the one who distinguishes truth from falsehood)", ar: "الفاروق" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/medina }
+  - { type: child_of, target: person/al-khattab-ibn-nufayl }
+  - { type: member_of, target: group/banu-adi }
+  - { type: member_of, target: group/quraysh }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0616~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-uhud, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/treaty-of-hudaybiyya, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/conquest-of-mecca, sources: [source/ibn-ishaq-guillaume] }
+  - { type: successor_of, target: person/abu-bakr, start: { edtf: "0634-08" }, sources: [source/watt-1956-medina] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni tradition venerates Umar as the second rightly-guided caliph, al-Faruq: the conversion that strengthened the community, and the just ruler who founded the institutions of the early Islamic state." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians credit his caliphate with the conquests of Syria, Egypt and Iraq and with organizing the early state, while reading the idealized memory of his justice as partly a later construction." }
+    sources: [source/watt-1956-medina]
+  - tradition: shia-twelver
+    summary: { en: "Twelver Shia tradition is critical of Umar, above all for the Saqifa succession that set aside Ali, and for episodes in the relationship with Fatima." }
+    sources: [source/momen-1985]
+sensitivity: contested
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }

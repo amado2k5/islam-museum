@@ -1,0 +1,33 @@
+id: person/salman-al-farisi
+class: person
+label: { en: "Salman al-Farisi", ar: "سلمان الفارسي" }
+names:
+  - { kind: laqab, lang: ar-Latn, value: "Salman the Persian" }
+gender: male
+born: { edtf: "0568~", calendar: julian, precision: decade, status: debated, note: "His own narrated biography is long; dates are approximate and debated.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0656~", calendar: julian, precision: decade, status: debated, note: "Reports place his death around 35–36 AH (656–657 CE) at al-Mada'in; some accounts give a much longer life.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Persian seeker who passed through Zoroastrianism and Christianity before reaching Muhammad; freed from slavery in Medina, he is remembered for proposing the trench at the siege of 627."
+  ar: "رجل فارسي طلب الحق فانتقل من المجوسية إلى النصرانية حتى لقي محمدًا؛ أُعتق من الرق في المدينة، ويُذكر باقتراحه حفر الخندق في حصار سنة 627م."
+wings: [people]
+themes: [converts-and-leavers, slavery-and-freedom, islam-and-zoroastrianism, islam-and-christianity]
+periods: [period/prophetic-era, period/rashidun]
+regions: [persia-central-asia, arabia, levant-iraq]
+story_roles:
+  - { role: convert, start: { edtf: "0622~" }, status: tradition, note: "Reached Medina as a slave and embraced Islam; the community ransomed his freedom.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: official, start: { edtf: "0648~" }, end: { edtf: "0656~" }, status: tradition, note: "Remembered as governor of al-Mada'in under Umar, though reports differ on its length.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Converted from Zoroastrianism via Christianity to Islam; recorded under the museum's Sunni frame (docs/scope.md)." }
+labelled:
+  - { label: { en: "Salman the Good (Salman al-Khayr); 'Salman is one of us, the People of the House'", ar: "سلمان الخير" }, by: "a saying attributed to the Prophet in the tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/isfahan }
+  - { type: lived_in, target: place/medina }
+  - { type: member_of, target: group/early-muslims }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0622~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-the-trench, role: proposed-digging-the-trench, sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

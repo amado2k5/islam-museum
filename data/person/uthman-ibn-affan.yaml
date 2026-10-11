@@ -1,0 +1,54 @@
+id: person/uthman-ibn-affan
+class: person
+label: { en: "Uthman ibn Affan", ar: "عثمان بن عفان" }
+names:
+  - { kind: full, lang: ar, value: "عثمان بن عفان بن أبي العاص" }
+gender: male
+born: { edtf: "0576~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0656-06-17", hijri: "0035-12-18", calendar: julian, precision: day, status: historical, note: "Killed by rebels in Medina, 18 Dhu al-Hijja 35 AH (17 June 656 CE).", sources: [source/watt-1956-medina, source/ibn-sad-tabaqat-bewley] }
+roles: [companion, caliph]
+traditions: [sunni, shia-twelver]
+summary:
+  en: "Third caliph (644–656); the early community married him to two of the Prophet's daughters in succession. Under him the Qur'an was standardized into a single recension; he was killed by rebels in Medina, opening the first civil war."
+  ar: "ثالث الخلفاء الراشدين (644–656م)؛ تزوج اثنتين من بنات النبي تباعًا. في عهده جُمع القرآن في مصحف معتمد؛ وقُتل على يد ثائرين في المدينة فافتُتحت الفتنة الأولى."
+wings: [people]
+themes: [scripture-and-its-sciences, civil-wars-and-revolts, development-of-law-theology-institutions]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0611~" }, status: tradition, note: "Among the earliest converts, through Abu Bakr.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0611~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: successor, toward: person/umar-ibn-al-khattab, start: { edtf: "0644-11" }, status: historical, note: "Chosen by the consultative committee (shura) Umar appointed.", sources: [source/watt-1956-medina] }
+  - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0644" }, end: { edtf: "0656" }, status: historical, sources: [source/watt-1956-medina] }
+  - { role: victim, start: { edtf: "0656-06-17" }, status: historical, note: "Besieged and killed in his house in Medina by rebel contingents.", sources: [source/watt-1956-medina] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). He predates the Sunni-Shia division." }
+labelled:
+  - { label: { en: "Dhu al-Nurayn (Possessor of the Two Lights)", ar: "ذو النورين" }, by: "Islamic tradition, for marrying two daughters of the Prophet in succession", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/taif }
+  - { type: died_in, target: place/medina }
+  - { type: member_of, target: group/banu-umayya }
+  - { type: member_of, target: group/quraysh }
+  - { type: spouse_of, target: person/ruqayya-bint-muhammad, end: { edtf: "0624" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: spouse_of, target: person/umm-kulthum-bint-muhammad, start: { edtf: "0625~" }, end: { edtf: "0630~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: converted_under, target: person/abu-bakr, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/treaty-of-hudaybiyya, role: envoy-to-mecca, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/first-migration-to-abyssinia, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: successor_of, target: person/umar-ibn-al-khattab, start: { edtf: "0644-11" }, sources: [source/watt-1956-medina] }
+  - { type: commissioned, target: work/mushaf-uthmani, note: "The standard recension of the Qur'an produced under his caliphate.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/murder-of-uthman, role: victim, sources: [source/watt-1956-medina] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni tradition venerates Uthman as the third rightly-guided caliph: modest and generous, the preserver who gave the community one recension of the Qur'an, and a martyr killed unjustly." }
+    sources: [source/ibn-sad-tabaqat-bewley]
+  - tradition: academic
+    summary: { en: "Historians record both his standardization of the Qur'an and the grievances — appointments of kinsmen, fiscal policy — that fed the revolt which killed him; the sources are early but partisan." }
+    sources: [source/watt-1956-medina]
+  - tradition: shia-twelver
+    summary: { en: "Twelver Shia tradition is critical of Uthman's caliphate, seeing in it the entrenchment of the Umayyads and further sidelining of the Prophet's household." }
+    sources: [source/momen-1985]
+sensitivity: contested
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }

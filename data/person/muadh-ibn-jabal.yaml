@@ -1,0 +1,34 @@
+id: person/muadh-ibn-jabal
+class: person
+label: { en: "Mu'adh ibn Jabal", ar: "معاذ بن جبل" }
+names:
+  - { kind: full, lang: ar, value: "معاذ بن جبل بن عمرو الخزرجي" }
+gender: male
+born: { edtf: "0603~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0639", calendar: julian, precision: year, status: tradition, note: "Died in the plague of Amwas (Emmaus) in Palestine, 18 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, scholar]
+traditions: [sunni]
+summary:
+  en: "A young Ansari convert of the pledges of Aqaba, remembered as the most learned of the community in what is lawful and forbidden; the Prophet sent him to Yemen as its teacher and judge."
+  ar: "أنصاري شاب من مؤمني بيعة العقبة، يذكره التراث أعلم الأمة بالحلال والحرام؛ بعثه النبي إلى اليمن معلمًا وقاضيًا."
+wings: [people]
+themes: [dawa-and-christian-mission, development-of-law-theology-institutions, islam-and-judaism]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: convert, start: { edtf: "0621" }, status: tradition, note: "Embraced Islam at the second pledge of Aqaba, aged about eighteen.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: companion, start: { edtf: "0621" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: missionary, toward: place/yemen, start: { edtf: "0631" }, end: { edtf: "0632" }, status: tradition, note: "Sent to Yemen to teach Islam, collect the alms and judge disputes.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: scholar, start: { edtf: "0630~" }, status: tradition, note: "Counted among the foremost in legal knowledge in the tradition.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: died_in, target: place/amwas }
+  - { type: member_of, target: group/khazraj }
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/pledges-of-aqaba, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: traveled_to, target: place/yemen, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

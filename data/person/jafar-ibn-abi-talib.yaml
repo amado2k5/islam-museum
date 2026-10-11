@@ -1,0 +1,36 @@
+id: person/jafar-ibn-abi-talib
+class: person
+label: { en: "Ja'far ibn Abi Talib", ar: "جعفر بن أبي طالب" }
+names:
+  - { kind: laqab, lang: ar-Latn, value: "Ja'far al-Tayyar (Ja'far the Flyer)" }
+gender: male
+born: { edtf: "0590~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0629-09", hijri: "0008-05", calendar: julian, precision: month, status: historical, note: "Killed at Mu'ta, Jumada I 8 AH (September 629 CE).", sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A brother of Ali who led the Muslim emigration to Abyssinia and answered the Negus for his people; killed at Mu'ta carrying the army's standard after Zayd ibn Haritha."
+  ar: "أخو علي الذي قاد هجرة المسلمين إلى الحبشة وأجاب النجاشي عن قومه؛ قُتل في مؤتة حاملًا راية الجيش بعد زيد بن حارثة."
+wings: [people]
+themes: [refugees-migrants-diaspora, islam-and-christianity, battles]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: convert, start: { edtf: "0612~" }, status: tradition, note: "Among the early converts, of the Prophet's own household.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0612~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: interlocutor, toward: person/negus-of-aksum, start: { edtf: "0615~" }, end: { edtf: "0628~" }, status: tradition, note: "Spokesman of the Muslim exiles before the Negus of Aksum.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: martyr, start: { edtf: "0629-09" }, status: tradition, note: "Fell carrying the standard at Mu'ta; the tradition remembers him as Ja'far al-Tayyar.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/mutah }
+  - { type: child_of, target: person/abu-talib }
+  - { type: sibling_of, target: person/ali-ibn-abi-talib }
+  - { type: member_of, target: group/banu-hashim }
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/first-migration-to-abyssinia, role: leader-and-spokesman, sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { type: traveled_to, target: place/aksum, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-mutah, role: second-commander, sources: [source/ibn-ishaq-guillaume] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

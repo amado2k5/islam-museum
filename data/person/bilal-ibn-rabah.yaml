@@ -1,0 +1,35 @@
+id: person/bilal-ibn-rabah
+class: person
+label: { en: "Bilal ibn Rabah", ar: "بلال بن رباح" }
+names:
+  - { kind: laqab, lang: ar-Latn, value: "Bilal al-Habashi (Bilal the Abyssinian)" }
+gender: male
+born: { edtf: "0580~", calendar: julian, precision: decade, status: tradition, note: "Born to an enslaved Abyssinian mother in Mecca; date approximate.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0640~", calendar: julian, precision: decade, status: debated, note: "Sources differ between about 17–20 AH (638–642 CE), and between Damascus and Medina as the place.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An Abyssinian-born slave in Mecca, among the earliest converts; freed by Abu Bakr and remembered as the first muezzin of Islam — the voice that called the community to prayer."
+  ar: "عبد حبشي المولد في مكة، من السابقين إلى الإسلام؛ أعتقه أبو بكر، ويذكره التراث أول مؤذن في الإسلام — الصوت الذي نادى الجماعة إلى الصلاة."
+wings: [people]
+themes: [slavery-and-freedom, race-colour-ethnicity, worship-and-the-pillars]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: convert, start: { edtf: "0612~" }, status: tradition, note: "Among the earliest converts, while still enslaved.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: victim, start: { edtf: "0612~" }, end: { edtf: "0615~" }, status: tradition, note: "Tortured by his owner for his faith until Abu Bakr bought and freed him.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: companion, start: { edtf: "0612~" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+labelled:
+  - { label: { en: "Sayyid al-Mu'adhdhinin (master of the muezzins)", ar: "سيد المؤذنين" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: member_of, target: group/early-muslims }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0612~" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: persecuted_by, target: person/umayya-ibn-khalaf, note: "Tortured by his owner Umayya ibn Khalaf until Abu Bakr ransomed and freed him.", start: { edtf: "0612~" }, end: { edtf: "0615~" }, sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/hijra, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/conquest-of-mecca, role: called-the-first-adhan-from-the-kaaba, sources: [source/ibn-sad-tabaqat-bewley] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

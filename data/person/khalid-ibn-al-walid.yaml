@@ -1,0 +1,57 @@
+id: person/khalid-ibn-al-walid
+class: person
+label: { en: "Khalid ibn al-Walid", ar: "خالد بن الوليد" }
+names:
+  - { kind: full, lang: ar, value: "خالد بن الوليد بن المغيرة المخزومي" }
+  - { kind: laqab, lang: ar-Latn, value: "Sayf Allah (the Sword of God)" }
+gender: male
+born: { edtf: "0585~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0642", calendar: julian, precision: year, status: debated, note: "Died in 21 AH (642 CE); sources differ between Homs and Medina as the place.", sources: [source/ibn-sad-tabaqat-bewley] }
+roles: [companion, general]
+traditions: [sunni]
+summary:
+  en: "The great commander on both sides of the early wars: the cavalry leader who turned the day at Uhud for the Meccans, then converted in 629 and led the Muslim armies at Mu'ta, in the Ridda wars and at the Yarmuk."
+  ar: "القائد العسكري الأبرز في جانبي الحروب الأولى: قائد خيل مكة الذي حوّل يوم أُحد، ثم أسلم سنة 629م فقاد جيوش المسلمين في مؤتة وحروب الردة واليرموك."
+wings: [people]
+themes: [wars-and-campaigns, battles, converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0625" }, end: { edtf: "0629" }, status: historical, note: "Commanded the Meccan cavalry at Uhud (625) and led the horsemen who blocked the Muslims before Hudaybiyya.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
+  - { role: convert, start: { edtf: "0629" }, status: historical, note: "Embraced Islam shortly before the conquest of Mecca.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: companion, start: { edtf: "0629" }, status: historical, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: changed-sides, start: { edtf: "0629" }, status: historical, note: "From commander of the Meccan cavalry to commander of the Muslim armies.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { role: commander, toward: polity/rashidun-caliphate, start: { edtf: "0629" }, end: { edtf: "0638" }, status: historical, note: "Commanded at Mu'ta, in the Ridda wars and in Syria; dismissed by Umar about 638.", sources: [source/tabari-donner-1993, source/watt-1956-medina] }
+faith:
+  - { value: sunni, basis: documented, note: "Embraced Islam in 629 CE after years of fighting on the Meccan side; recorded under the museum's Sunni frame (docs/scope.md)." }
+labelled:
+  - { label: { en: "Sayf Allah al-Maslul (the Unsheathed Sword of God)", ar: "سيف الله المسلول" }, by: "a saying attributed to the Prophet in the tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: died_in, target: place/homs, note: "Sources differ between Homs and Medina.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: child_of, target: person/al-walid-ibn-al-mughira }
+  - { type: member_of, target: group/banu-makhzum }
+  - { type: member_of, target: group/quraysh }
+  - { type: fought, target: group/early-muslims, start: { edtf: "0625" }, end: { edtf: "0629" }, note: "As Meccan cavalry commander at Uhud and before Hudaybiyya.", sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/battle-of-uhud, role: meccan-cavalry-commander, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/treaty-of-hudaybiyya, role: meccan-cavalry-commander, sources: [source/ibn-ishaq-guillaume] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0629" }, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-mutah, role: third-commander, sources: [source/ibn-ishaq-guillaume] }
+  - { type: participated_in, target: event/conquest-of-mecca, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: participated_in, target: event/battle-of-yamama, role: muslim-commander, sources: [source/tabari-donner-1993] }
+  - { type: participated_in, target: event/battle-of-yarmuk, role: muslim-commander, sources: [source/tabari-donner-1993] }
+  - { type: persecuted, target: person/malik-ibn-nuwayra, note: "The affair of Malik ibn Nuwayra — killed by Khalid's troops in the Ridda wars — is contested in the sources.", sources: [source/tabari-donner-1993] }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni tradition remembers Khalid as Sayf Allah, the undefeated commander whose genius served the early community — while also recording that the Prophet and Umar rebuked him over the affair of Malik ibn Nuwayra." }
+    sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
+  - tradition: academic
+    summary: { en: "Historians regard him as one of the most capable commanders of the early conquests, and treat the Malik ibn Nuwayra episode — a tribal leader killed and his wife taken — as a documented controversy." }
+    sources: [source/tabari-donner-1993]
+  - tradition: shia-twelver
+    summary: { en: "Twelver Shia tradition is broadly critical of Khalid, emphasizing the Malik ibn Nuwayra affair and his earlier role against the Muslims." }
+    sources: [source/momen-1985]
+sensitivity: contested
+sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/watt-1956-medina]
+status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }
