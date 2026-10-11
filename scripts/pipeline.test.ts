@@ -151,3 +151,24 @@ describe("no AI or compute at runtime (docs/adr/0002)", () => {
     expect(scan([await w("d.html", "<script>new WebSocket('wss://x')</script>")]).join()).toMatch(/WebSocket/);
   });
 });
+
+describe("Arabic first (docs/language.md)", () => {
+  it("requires label.ar and summary.ar, and does not require English", () => {
+    const noAr = { ...base("place", "zz-test-p", { kind: "city" }).entity };
+    delete (noAr as any).label.ar; delete (noAr as any).summary.ar;
+    const i = validateAll([{ entity: noAr, file: p("data", "place", "zz-test-p.yaml") }]).issues;
+    expect(msgs(i, "error")).toMatch(/label\.ar is required/);
+    expect(msgs(i, "error")).toMatch(/summary\.ar is required/);
+    const onlyAr = { ...base("place", "zz-test-q", { kind: "city" }).entity, label: { ar: "ت" }, summary: { ar: "ت" } };
+    expect(msgs(validateAll([{ entity: onlyAr, file: p("data", "place", "zz-test-q.yaml") }]).issues, "error")).toBe("");
+  });
+  it("exempts bibliographic sources from the Arabic label requirement", () => {
+    const src = { ...base("source", "zz-test-r", { kind: "secondary", type: "book", title: "T" }).entity, label: { en: "T" }, summary: { en: "t" } };
+    expect(msgs(validateAll([{ entity: src, file: p("data", "source", "zz-test-r.yaml") }]).issues, "error")).toBe("");
+  });
+  it("requires Arabic alt text on media, not English", () => {
+    const m = (alt: any) => ({ ...base("media", "zz-test-s", { kind: "map", license: "CC0", alt }).entity });
+    expect(msgs(validateAll([{ entity: m({ en: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "ar"/);
+    expect(msgs(validateAll([{ entity: m({ ar: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
+  });
+});

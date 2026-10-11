@@ -1,0 +1,25 @@
+id: journey/hijra-route
+class: journey
+label: { en: "The Hijra route", ar: "درب الهجرة" }
+summary:
+  en: "The Prophet's route from his house in Mecca to Quba and Medina via the cave of Thawr and the little-used Red Sea coastal track, guided by Abdullah ibn Urayqit; the waypoints follow Ibn Ishaq's itinerary."
+  ar: "درب النبي من بيته بمكة إلى قباء فالمدينة عبر غار ثور وطريق الساحل غير المألوف بقيادة عبد الله بن أريقط؛ والمواضع على ترتيب ابن إسحاق."
+kind: migration
+periods: [period/prophetic-era]
+regions: [arabia]
+legs:
+  - { from: place/mecca, to: place/ghar-thawr, start: { edtf: "0622-09-12~", status: tradition }, mode: "سيراً على الأقدام", note: "الخروج ليلاً من خوخة في دار أبي بكر؛ عكس طريق المدينة جنوباً نحو خمسة أميال حتى جبل ثور؛ حُفيت قدما النبي وحمله أبو بكر إلى الغار في قمة الجبل (الرحيق ص163-164)." }
+  - { from: place/ghar-thawr, to: place/qudaid, start: { edtf: "0622-09-16", status: tradition, note: "ليلة الإثنين غرة ربيع الأول 1هـ" }, mode: "على الراحلتين بقيادة عبد الله بن أريقط", note: "بعد ثلاث ليالٍ في الغار؛ أمعن الدليل جنوباً نحو اليمن ثم اتجه غرباً نحو الساحل فشمالاً قرب شاطئ البحر الأحمر؛ أسفل مكة ثم على الساحل حتى عارض الطريق أسفل عسفان ثم أسفل أمج حتى أجاز قديد (ابن هشام 1/491-492؛ الرحيق ص166-167). عندها لحق بهما سراقة (الرحيق ص168-169)." }
+  - { from: place/qudaid, to: place/laqf, mode: "ركوب", note: "أجاز الخرار ثم ثنية المرة ثم لقف (ابن هشام؛ الرحيق ص167). في هذا الشق خيمة أم معبد على رواية زاد المعاد 2/53-54 (الرحيق ص169)." }
+  - { from: place/laqf, to: place/dhi-kashr, mode: "ركوب", note: "مدلجة لقف ثم مدلجة مجاح ثم مرجح محاج ثم مرجح ذي الغضوين ثم بطن ذي كشر (ابن هشام؛ الرحيق ص167)." }
+  - { from: place/dhi-kashr, to: place/al-arj, mode: "ركوب", note: "على الجداجد ثم الأجرد ثم ذا سلم من بطن أعضاء مدلجة تجين ثم العبابيد ثم أجاز الفاجة ثم هبط العرج (ابن هشام؛ الرحيق ص167). في الطريق: حديث الصخرة واللبن (بخاري 1/510)، ولقاء أبي بريدة الذي أسلم مع سبعين رجلاً، ولقاء الزبير القافل من الشام (الرحيق ص167-170)." }
+  - { from: place/al-arj, to: place/quba, mode: "ركوب", note: "ثنية العائر عن يمين ركوبة ثم هبط بطن رئم ثم قباء (ابن هشام؛ الرحيق ص167)؛ النزول يوم الإثنين 8 ربيع الأول (الرحيق ص170)." }
+  - { from: place/quba, to: place/medina, start: { edtf: "0622-09-24", status: tradition, note: "يوم الجمعة بعد أربعة أيام على رواية ابن إسحاق المختارة" }, mode: "ركوب", note: "ركب يوم الجمعة وأبو بكر ردفه؛ أدركته الجمعة في بني سالم بن عوف فجمع بهم في مسجد بطن الوادي وكانوا مائة رجل؛ ثم دخل المدينة وبركت الناقة في موضع المسجد النبوي (الرحيق ص172-173)." }
+relations:
+  - { type: part_of, target: event/hijra }
+  - { type: had_participant, target: person/muhammad, role: "المهاجر", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, role: "الصاحب", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/amir-ibn-fuhayra, role: "ارتحل معهما", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-urayqit, role: "الدليل المستأجر", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 161-174" }

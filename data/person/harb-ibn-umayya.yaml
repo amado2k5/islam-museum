@@ -1,0 +1,25 @@
+id: person/harb-ibn-umayya
+class: person
+label: { en: "Harb ibn Umayya", ar: "حرب بن أمية" }
+names:
+  - { kind: full, lang: ar, value: "حرب بن أمية بن عبد شمس القرشي الأموي" }
+gender: male
+roles: [commander, tribal-leader]
+traditions: [sunni]
+summary:
+  en: "The senior Umayyad whom Quraysh and Kinana chose to lead them in the Fijar war against Qays 'Aylan, for his standing in age and honour; father of Abu Sufyan."
+  ar: "الشيخ الأموي الذي قاد قريشاً وكنانة كلها في حرب الفجار ضد قيس عيلان لمكانته فيهم سناً وشرفاً؛ وهو والد أبي سفيان."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: commander, start: { edtf: "0586~" }, status: tradition, note: "قائد قريش وكنانة في الفجار (الرحيق ص59).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "قرشي ما قبل الإسلام." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: child_of, target: person/umayya-ibn-abd-shams }
+  - { type: participated_in, target: event/harb-al-fijar, role: "قائد حلف قريش وكنانة", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 59" }

@@ -1,19 +1,25 @@
 id: event/rebuilding-of-the-kaaba
 class: event
 kind: founding
-label: { en: "The rebuilding of the Kaaba", ar: "إعادة بناء الكعبة" }
+label: { en: "The rebuilding of the Kaaba", ar: "إعادة بناء الكعبة وقضية الحجر الأسود" }
 summary:
-  en: "The Quraysh rebuilt the Kaaba after flood damage, and the young Muhammad is reported to have settled their dispute over who would set the Black Stone."
-  ar: "أعادت قريش بناء الكعبة بعد أضرار السيل، ويُروى أن محمدًا الشاب فصل في خلافهم على من يضع الحجر الأسود."
+  en: "Quraysh's rebuilding of the Kaaba when Muhammad was thirty-five — a flood-weakened structure rebuilt with 'lawful money only' — and the arbitration over the Black Stone that he settled with the cloak solution."
+  ar: "إعادة قريش بناء الكعبة لما كان عمر النبي خمساً وثلاثين سنة — بناءً لجدران صدّعها السيل بمال طيب لا مهر بغي ولا ربا ولا مظلمة — وتحكيمه في شرف وضع الحجر الأسود بحلّ الرداء الذي ارتضوه."
 wings: [time, people]
 themes: [architecture, sacred-space-and-pilgrimage]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0605~", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0605~", calendar: julian, precision: year, status: tradition, note: "لخمس وثلاثين سنة من مولده، قبل بعثته بخمس سنين تقريباً (الرحيق ص61؛ ابن هشام 1/192-197)." }
+significance:
+  ar: "شهد النبي فضيلة التحكيم قبل النبوة؛ وبنيت الكعبة بمال طيب، وتركت قريش منها نحو ستة أذرع — الحجر والحطيم — لقصور النفقة (الرحيق ص62؛ بخاري 1/215)."
 relations:
   - { type: occurred_at, target: place/mecca }
-  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/muhammad, role: "حَكَم في وضع الحجر الأسود؛ نقل الحجارة مع العباس", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/al-walid-ibn-al-mughira, role: "ابتدأ بهدمها", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-umayya-ibn-al-mughira, role: "اقترح التحكيم بأول داخل من باب المسجد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "نقل الحجارة مع النبي (بخاري 1/540)", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/baqum, role: "البنّاء الرومي", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 61-63" }

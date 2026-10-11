@@ -1,0 +1,26 @@
+id: person/fatima-bint-al-khattab
+class: person
+label: { en: "Fatima bint al-Khattab", ar: "فاطمة بنت الخطاب" }
+names:
+  - { kind: full, lang: ar, value: "فاطمة بنت الخطاب بن نفيل العدوية القرشية" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "Umar ibn al-Khattab's sister and Sa'id ibn Zayd's wife; among the earliest Muslims of the secret call, which the book counts among the first women to believe."
+  ar: "أخت عمر بن الخطاب وزوجة سعيد بن زيد؛ من أوائل المسلمات في سنوات الدعوة السرية بمكة."
+wings: [people]
+themes: [women]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0610~" }, status: tradition, note: "من السابقين الأولين مع زوجها (الرحيق ص76).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: child_of, target: person/al-khattab-ibn-nufayl }
+  - { type: spouse_of, target: person/said-ibn-zayd }
+  - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمات", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 76" }

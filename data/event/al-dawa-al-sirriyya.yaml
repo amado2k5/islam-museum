@@ -1,0 +1,43 @@
+id: event/al-dawa-al-sirriyya
+class: event
+kind: other
+label: { en: "The three years of the secret call", ar: "ثلاث سنوات من الدعوة السرية" }
+summary:
+  en: "The first stage of the call to Islam — individual and secret for three years — in which the first band believed: Khadija, Ali, Zayd and Abu Bakr on the first day, then those whom Abu Bakr called, then a company Ibn Hisham numbers at over forty from every clan of Quraysh; during it prayer was first prescribed."
+  ar: "المرحلة الأولى من مراحل الدعوة: دعوة فردية سرية دامت ثلاث سنين آمن فيها الرعيل الأول — خديجة وعلي وزيد وأبو بكر في أول يوم، ثم من أسلم بدعوة أبي بكر، ثم جماعة عدّها ابن هشام أكثر من أربعين من جميع بطون قريش؛ وفيها فرضت الصلاة أولاً."
+wings: [time, people]
+themes: [prophets, worship-and-the-pillars]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0610~", calendar: julian, precision: year, status: tradition, note: "من بدء الوحي" }
+  end: { edtf: "0613~", calendar: julian, precision: year, status: tradition, note: "ثلاث سنين حتى أول إظهار الدعوة (الرحيق ص74-77)" }
+significance:
+  ar: "فيها تكونت جماعة المؤمنين الأولى على الأخوة والتعاون وتبليغ الرسالة سراً؛ وكان المسلمون يصلون في الشعاب مستخفين من قومهم (الرحيق ص76-77؛ ابن هشام 1/247)."
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad, role: "يجتمع بهم ويرشدهم متخفياً" }
+  - { type: had_participant, target: person/khadija, role: "أول يوم من أيام الدعوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أول يوم؛ صبي في كفالة الرسول", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "أول يوم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, role: "أول يوم؛ ثم نشط في الدعوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "أسلم بدعوة أبي بكر", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "أسلم بدعوة أبي بكر", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "أسلم بدعوة أبي بكر", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "أسلم بدعوة أبي بكر", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "أسلم بدعوة أبي بكر", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/bilal-ibn-rabah, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-salama, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-arqam-ibn-abi-al-arqam, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uthman-ibn-mazun, role: "من أوائل المسلمين مع أخويه قدامة وعبد الله", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ubayda-ibn-al-harith, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/said-ibn-zayd, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/fatima-bint-al-khattab, role: "من أوائل المسلمات مع زوجها سعيد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/khabbab-ibn-al-aratt, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-masud, role: "من أوائل المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-talib, role: "أمر النبي وعلياً بالثبات على الصلاة حين رآهما", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: caused_by, target: event/fatrat-al-wahy }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 74-77" }

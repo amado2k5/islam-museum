@@ -1,0 +1,24 @@
+id: person/nafisa-bint-munya
+class: person
+label: { en: "Nafisa bint Munya", ar: "نفيسة بنت منية" }
+names:
+  - { kind: full, lang: ar, value: "نفيسة بنت منية، صديقة خديجة" }
+gender: female
+roles: [agent]
+traditions: [sunni]
+summary:
+  en: "Khadija's confidante to whom she disclosed her wish to marry Muhammad; Nafisa broached the matter with him, he consented, and the match proceeded through their uncles."
+  ar: "صديقة خديجة التي أفضت إليها بما في نفسها من الرغبة في الزواج بمحمد؛ فذهبت إليه تفاتحه في ذلك فرضي، وكلم أعمامه فخطبوها إليه من عمها وتم الزواج."
+wings: [people]
+themes: [women, family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0595~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "قرشية ما قبل الإسلام." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: participated_in, target: event/marriage-to-khadija, role: "الوسيطة بين الطرفين", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 60-61" }

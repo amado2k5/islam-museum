@@ -1,10 +1,9 @@
 id: journey/slug-here          # immutable; lowercase ASCII, hyphens
 class: journey
 kind: travel   # travel | pilgrimage_route | trade_route | diffusion | migration | military_campaign
-label: { en: "", ar: "" }
+label: { ar: "" }          # Arabic first (docs/language.md); en is added in Phase 4
 summary:
-  en: ""            # one sentence
-  ar: ""
+  ar: ""            # one sentence, required
 wings: []           # people | place | time | ideas | objects | words | living | today
 periods: []         # period/... ids
 regions: []         # see schema/enums/regions.yaml

@@ -1,0 +1,26 @@
+id: person/abu-ayyub-al-ansari
+class: person
+label: { en: "Abu Ayyub al-Ansari", ar: "أبو أيوب الأنصاري" }
+names:
+  - { kind: full, lang: ar, value: "خالد بن زيد بن كليب النجاري، أبو أيوب الأنصاري" }
+gender: male
+died: { edtf: "0674~", calendar: julian, precision: year, status: tradition, note: "قُتل ودُفن عند أسوار القسطنطينية على المشهور؛ خارج نطاق هذا القسم.", sources: [source/tabaqat-ibn-sad] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "The Najjari Ansari who took the Prophet's baggage into his house when the she-camel knelt among Banu al-Najjar — 'a man stays with his baggage' — becoming the Prophet's host in Medina until the mosque and rooms were built."
+  ar: "أنصاري نجاري بادر إلى رحل النبي فأدخله بيته حين بركت الناقة في بني النجار، وكان النبي يقول «المرء مع رحله»؛ فنزل عنده حتى بُني المسجد وحجراته، وصار مضيفه في المدينة."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/sahih-al-bukhari] }
+  - { role: host, start: { edtf: "0622-09" }, status: tradition, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+faith:
+  - { value: sunni, basis: tradition, note: "من أهل بيعة العقبة على المشهور؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/hijra, role: "أخذ الرحل إلى بيته فكان مضيف النبي بالمدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 173" }

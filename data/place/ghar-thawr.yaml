@@ -1,0 +1,15 @@
+id: place/ghar-thawr
+class: place
+label: { en: "Ghar Thawr (Cave of Thawr)", ar: "غار ثور" }
+summary:
+  en: "A cave at the top of Jabal Thawr, a rugged mountain south of Mecca, where the Prophet and Abu Bakr hid for three nights at the start of the Hijra."
+  ar: "غار في قمة جبل ثور، الجبل الوعر جنوب مكة؛ اختبأ فيه النبي وأبو بكر ثلاث ليالٍ في مستهل الهجرة."
+kind: site
+coordinates: [21.38, 39.85]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: place/mecca, note: "نحو خمسة أميال جنوب مكة في اتجاه اليمن (الرحيق ص164)" }
+  - { type: site_of, target: event/ghar-thawr }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 164-166" }

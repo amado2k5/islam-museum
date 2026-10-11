@@ -1,14 +1,13 @@
 id: question/slug-here          # immutable; lowercase ASCII, hyphens
 class: question
-label: { en: "", ar: "" }
+label: { ar: "" }          # Arabic first (docs/language.md); en is added in Phase 4
 summary:
-  en: ""            # one sentence
-  ar: ""
+  ar: ""            # one sentence, required
 wings: []           # people | place | time | ideas | objects | words | living | today
 periods: []         # period/... ids
 regions: []         # see schema/enums/regions.yaml
-question: { en: "", ar: "" }
-short_answer: { en: "" }
+question: { ar: "" }
+short_answer: { ar: "" }
 relations: []       # - { type: predicate-from-schema/predicates.yaml, target: class/slug, sources: [source/...] }
 perspectives: []    # required for contested topics
 external_ids: {}   # wikidata: Q...

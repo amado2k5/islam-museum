@@ -1,25 +1,25 @@
 ---
 id: concept/slug-here
-lang: en
-source_lang: en
+lang: ar
+source_lang: ar
 translators: []
 ---
 
-## Brief
-<!-- 2–3 sentences, used by cards and the Brief depth setting -->
+## نبذة
+<!-- من جملتين إلى ثلاث، تُستعمل في البطاقات -->
 
-## Meaning
+## المعنى
 <!--  -->
 
-## Development
+## التطور
 <!--  -->
 
-## Variations
+## الفروق
 <!--  -->
 
-## For young visitors
+## للزوار الصغار
 <!--  -->
 
-## Notes for scholars
+## ملاحظات للباحثين
 <!--  -->
 

@@ -1,0 +1,15 @@
+id: place/ghar-hira
+class: place
+label: { en: "Ghar Hira (Cave of Hira)", ar: "غار حراء" }
+summary:
+  en: "A small cave on Jabal al-Nur about two miles from Mecca — four cubits long and a cubit and three-quarters wide — where the Prophet used to retreat for worship during Ramadan before prophethood."
+  ar: "غار صغير في جبل النور على نحو ميلين من مكة، طوله أربعة أذرع وعرضه ذراع وثلاثة أرباع ذراع؛ كان النبي يعتكف فيه في رمضان قبل النبوة، ومعه أهله قريباً منه."
+kind: site
+coordinates: [21.46, 39.86]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: place/mecca, note: "على مبعدة نحو ميلين من مكة (الرحيق ص65)" }
+  - { type: site_of, target: event/first-revelation }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 65; coordinates from docs/plan/16 §6" }

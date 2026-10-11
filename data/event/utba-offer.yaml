@@ -1,0 +1,20 @@
+id: event/utba-offer
+class: event
+kind: council
+label: { en: "Utba ibn Rabi'a's offer to the Prophet", ar: "مساومة عتبة بن ربيعة" }
+summary:
+  en: "After the conversions of Hamza and Umar, Utba ibn Rabi'a volunteered to offer Muhammad wealth, leadership and kingship if he would abandon his call; the Prophet listened to the end, then recited the opening of sura Fussilat down to its prostration, and Utba went back urging Quraysh to leave the man be."
+  ar: "بعد إسلام حمزة وعمر قام عتبة بن ربيعة يعرض على النبي المال والسيادة والملك والطب إن كف عن دعوته؛ فاستمع له النبي حتى فرغ ثم قرأ عليه صدر سورة فصلت إلى سجدتها، فعاد عتبة إلى قريش يوصيهم بخلّي بين الرجل وما هو فيه."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0616~", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca, note: "المسجد الحرام" }
+  - { type: had_participant, target: person/utba-ibn-rabia, role: "عرض العروض ثم أسمعه النبي فصلت", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/muhammad }
+  - { type: caused_by, target: event/islam-of-umar }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 106-107" }

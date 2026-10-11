@@ -1,0 +1,23 @@
+id: person/abdullah-ibn-urayqit
+class: person
+label: { en: "Abdullah ibn Urayqit", ar: "عبد الله بن أريقط" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن أريقط الليثي" }
+gender: male
+roles: [guide]
+traditions: [sunni]
+summary:
+  en: "The Laythi tracker hired as guide for the Hijra — 'a skilled guide' still on Quraysh's religion, whom they nonetheless entrusted; he led the party by the little-used coastal road to Medina."
+  ar: "الدليل الليثي الذي استأجره النبي وأبو بكر للهجرة — «هادياً خريتاً» ماهراً بالطريق وكان على دين كفار قريش فأمنّاه على ذلك؛ سلك بهم طريق الساحل الذي لم يكن يسلكه أحد إلا نادراً."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: ally, start: { edtf: "0622" }, end: { edtf: "0622" }, status: tradition, note: "دليل مستأجر أمين رغم بقائه على دين قومه (الرحيق ص166).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "كان على دين كفار قريش حين استُؤجر (الرحيق ص166).", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: participated_in, target: event/hijra, role: "الدليل صاحب الراحلتين", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 166" }

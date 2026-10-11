@@ -1,0 +1,26 @@
+id: person/ammar-ibn-yasir
+class: person
+label: { en: "Ammar ibn Yasir", ar: "عمّار بن ياسر" }
+names:
+  - { kind: full, lang: ar, value: "عمّار بن ياسر بن عامر" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "Son of Yasir and Sumayya, a client of Banu Makhzum; he was tortured with his parents and heard the Prophet promise them Paradise — his inclusion among the eighty-three of the second Abyssinian migration is doubtful in the sources."
+  ar: "ابن ياسر وسمية، مولى لبني مخزوم؛ عُذّب مع أبويه والنبي يبشّرهم بالجنة، ويُشك في عدّه ضمن الثمانية والثلاثين من مهاجرة الحبشة الثانية."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: victim, start: { edtf: "0613~" }, status: tradition, note: "عُذّب مع أبويه (الرحيق ص90).", sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, status: tradition }
+faith:
+  - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
+relations:
+  - { type: child_of, target: person/yasir-ibn-amir }
+  - { type: child_of, target: person/sumayya-bint-khayyat }
+  - { type: participated_in, target: event/persecution-of-mustadafin, role: "عُذّب مع أبويه", sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/second-migration-to-abyssinia, role: "يُشك في عدّه ضمن المهاجرين", confidence: low, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 90, 94" }

@@ -1,0 +1,25 @@
+id: person/abu-burayda-al-aslami
+class: person
+label: { en: "Abu Burayda al-Aslami", ar: "أبو بريدة الأسلمي" }
+names:
+  - { kind: full, lang: ar, value: "أبو بريدة الأسلمي، رئيس قومه" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A tribal chief who rode out hunting the Quraysh bounty on the Prophet's head, but on meeting him embraced Islam on the spot with seventy of his people, and raised his turban on his spear as a banner of safe-conduct."
+  ar: "رئيس قومه خرج في طلب النبي رجاء مكافأة قريش؛ فلما لقيه وكلّمه أسلم مكانه مع سبعين رجلاً من قومه، ثم نزع عمامته وعقدها برمحه راية تعلن بأن ملك الأمن والسلام قد جاء."
+wings: [people]
+themes: [refugees-migrants-diaspora, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, start: { edtf: "0622" }, end: { edtf: "0622" }, status: tradition, note: "خرج في الطلب رجاء الجائزة (الرحيق ص170؛ رحمة للعالمين 1/101).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0622" }, status: tradition, note: "أسلم عند اللقاء مع سبعين من قومه.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0622" }, note: "أسلم في طريق الهجرة؛ يسجَّل في الإطار السني للمتحف." }
+relations:
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/hijra, role: "لقيه في الطريق فأسلم مع سبعين من قومه", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 170" }

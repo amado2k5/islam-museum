@@ -1,0 +1,33 @@
+id: event/persecution-of-mustadafin
+class: event
+kind: persecution
+label: { en: "The persecution of the vulnerable Muslims", ar: "اضطهاد المستضعفين" }
+summary:
+  en: "After mockery and bargaining failed, a twenty-five-man committee of Quraysh's chiefs headed by Abu Lahab resolved to fight Islam and torture its adherents; the clanless and enslaved Muslims bore the worst — Bilal under the midday rocks, the family of Yasir, Sumayya the first martyr speared by Abu Jahl, Abu Fakiha, Khabbab, and slave women whom Abu Bakr bought and freed."
+  ar: "بعد إخفاق السخرية والمساومة كوّن المشركون لجنة من خمسة وعشرين من سادات قريش رئيسها أبو لهب تقرر محاربة الإسلام وإيذاء رسوله وتعذيب الداخلين فيه؛ فكان أشد البلاء على المستضعفين — بلال تحت صخور الهاجرة، وآل ياسر، وسمية أول شهيدة طعنها أبو جهل بحربة، وأبو فكيهة وخباب والإماء اللواتي ابتاعهن أبو بكر فأعتقهن."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0613~", calendar: julian, precision: year, status: tradition, note: "بداية السنة الرابعة من النبوة وما بعدها (الرحيق ص85)." }
+  end: { edtf: "0622~", calendar: julian, precision: year, status: tradition }
+significance:
+  ar: "مات ياسر في العذاب وطعن أبو جهل سمية في قبلها بحربة فكانت أول شهيدة في الإسلام؛ وابتاع أبو بكر بلالاً وعامر بن فهيرة والإماء المسلمات فأعتقهن (الرحيق ص90-91)."
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/abu-lahab, role: "رئيس لجنة الخمسة والعشرين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umm-jamil, role: "تحمل الشوك فتضعه في طريق النبي وبابه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umayya-ibn-khalaf, role: "عذّب بلالاً بالحبل والصخور", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "طعن سمية فكانت أول شهيدة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/bilal-ibn-rabah, role: "عُذّب تحت الحجارة وهو يقول: أحد، أحد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/yasir-ibn-amir, role: "مات في العذاب هو وأهله يُعذّبون", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sumayya-bint-khayyat, role: "أول شهيدة في الإسلام", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ammar-ibn-yasir, role: "عُذّب مع أبويه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/khabbab-ibn-al-aratt, role: "أذيق أنواع العذاب", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-fakiha, role: "يُشد برجله ويُطاف به بجبال مكة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, role: "ابتاع المسلمين المعذّبين فأعتقهم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/musab-ibn-umayr, role: "أجاعته أمه وأخرجته من بيته", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/first-migration-to-abyssinia }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 85-91" }

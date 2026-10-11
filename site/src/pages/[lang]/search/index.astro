@@ -19,11 +19,15 @@ const T = ui(lang);
         s.src = "/pagefind/pagefind-ui.js";
         s.onload = function () {
           // Variant spellings (Koran, Mohammed, Madinah, Ghazali ...) are expanded with a static file built at build time; no server is involved.
-          var syn = {};
-          var norm = function (t) { return t.normalize("NFKD").replace(/[\u0300-\u036f\u064B-\u0652\u0670]/g, "").toLowerCase().replace(/['\u2019\u2018`\u02BF\u02BE]/g, "").replace(/[-_()\/,.]/g, " ").replace(/\s+/g, " ").trim(); };
+          var syn = { whole: {}, words: {} };
+          var norm = function (t) { return t.normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()\/,.]/g, " ").replace(/\s+/g, " ").trim(); };
           fetch("/search-synonyms.json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (j) { syn = j; }).catch(function () {});
           new PagefindUI({ element: "#search", showSubResults: true, showImages: false, translations: { placeholder: placeholder },
-            processTerm: function (term) { var hit = syn[norm(term)]; return hit && hit.length ? hit[0] : term; } });
+            processTerm: function (term) {
+              var whole = syn.whole[norm(term)];
+              if (whole && whole.length) return whole[0];
+              return term.split(/\s+/).map(function (w) { return syn.words[norm(w)] || w; }).join(" ");
+            } });
           var p = new URLSearchParams(location.search).get("q");
           if (p) { var i = document.querySelector("#search input"); if (i) { i.value = p; i.dispatchEvent(new Event("input", { bubbles: true })); } }
         };

@@ -14,7 +14,10 @@ export const CLASSES = [
   "media", "work", "passage", "concept", "language", "practice", "exhibit", "question", "source", "dataset", "listing", "screen",
 ] as const;
 export type EntityClass = (typeof CLASSES)[number];
+// Languages that have UI strings (i18n/<lang>.yaml); prose may exist in any of them.
 export const LANGS = ["en", "ar"] as const;
+// Languages the site publishes now (docs/language.md): Arabic only through Phase 3; English and others arrive in Phase 4 by translation.
+export const PUBLISHED_LANGS = ["ar"] as const;
 
 export type Localized = Record<string, string>;
 export interface Entity {
