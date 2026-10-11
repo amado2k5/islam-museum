@@ -187,7 +187,7 @@ participated_in:
 part_of:
   inverse: has_part
   domain: [event,period,place,work,concept,journey,group,object,passage,media,exhibit]
-  range: [event,period,place,work,concept,journey,group,object,exhibit]
+  range: [event,period,place,work,concept,journey,group,object,exhibit,passage]
   label: { en: "Part of", ar: "جزء من" }
   inverse_label: { en: "Has part", ar: "يتضمن" }
   temporal: false

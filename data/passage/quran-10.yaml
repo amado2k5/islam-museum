@@ -1,0 +1,18 @@
+id: passage/quran-10
+class: passage
+unit: sura
+work: work/quran
+ref: "10"
+sura: 10
+label: { en: "Sura 10: Yunus", ar: "سورة يونس" }
+summary:
+  en: "Sura 10 of the Qur'an, Yunus, has 109 verses."
+  ar: "السورة 10 من القرآن، سورة يونس، وعدد آياتها 109."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

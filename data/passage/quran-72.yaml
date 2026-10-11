@@ -1,0 +1,18 @@
+id: passage/quran-72
+class: passage
+unit: sura
+work: work/quran
+ref: "72"
+sura: 72
+label: { en: "Sura 72: Al-Jinn", ar: "سورة الجن" }
+summary:
+  en: "Sura 72 of the Qur'an, Al-Jinn, has 28 verses."
+  ar: "السورة 72 من القرآن، سورة الجن، وعدد آياتها 28."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

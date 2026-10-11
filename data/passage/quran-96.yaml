@@ -1,0 +1,18 @@
+id: passage/quran-96
+class: passage
+unit: sura
+work: work/quran
+ref: "96"
+sura: 96
+label: { en: "Sura 96: Al-Alaq", ar: "سورة العلق" }
+summary:
+  en: "Sura 96 of the Qur'an, Al-Alaq, has 19 verses."
+  ar: "السورة 96 من القرآن، سورة العلق، وعدد آياتها 19."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

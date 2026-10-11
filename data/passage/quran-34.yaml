@@ -1,0 +1,18 @@
+id: passage/quran-34
+class: passage
+unit: sura
+work: work/quran
+ref: "34"
+sura: 34
+label: { en: "Sura 34: Saba", ar: "سورة سبأ" }
+summary:
+  en: "Sura 34 of the Qur'an, Saba, has 54 verses."
+  ar: "السورة 34 من القرآن، سورة سبأ، وعدد آياتها 54."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

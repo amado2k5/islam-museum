@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-96-8
+class: passage
+unit: ayah
+work: work/quran
+ref: "96:8"
+sura: 96
+aya: 8
+label: { en: "Qur'an 96:8", ar: "القرآن 96:8" }
+summary:
+  en: "Qur'an 96:8 (sura Al-Alaq, verse 8)."
+  ar: "القرآن 96:8 (سورة العلق، الآية 8)."
+text: "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ"
+text_search: "إن إلى ربك الرجعى"
+relations:
+  - { type: part_of, target: passage/quran-96 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-15-44
+class: passage
+unit: ayah
+work: work/quran
+ref: "15:44"
+sura: 15
+aya: 44
+label: { en: "Qur'an 15:44", ar: "القرآن 15:44" }
+summary:
+  en: "Qur'an 15:44 (sura Al-Hijr, verse 44)."
+  ar: "القرآن 15:44 (سورة الحجر، الآية 44)."
+text: "لَهَا سَبْعَةُ أَبْوَٰبٍ لِّكُلِّ بَابٍ مِّنْهُمْ جُزْءٌ مَّقْسُومٌ"
+text_search: "لها سبعة أبواب لكل باب منهم جزء مقسوم"
+relations:
+  - { type: part_of, target: passage/quran-15 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

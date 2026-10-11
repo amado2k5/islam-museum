@@ -1,0 +1,25 @@
+id: work/quran
+class: work
+kind: book
+genre: [scripture]
+label: { en: "The Qur'an", ar: القرآن }
+summary:
+  en: "The scripture of Islam, which Muslims believe was revealed to the Prophet Muhammad; 114 suras and 6,236 verses in the Hafs reading as given by the Tanzil text."
+  ar: "كتاب الإسلام المقدس، يؤمن المسلمون بأنه أُنزل على النبي محمد؛ 114 سورة و6236 آية برواية حفص كما في نص تنزيل."
+wings: [words]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+language: language/arabic
+structure: "114 suras, 6,236 verses"
+sensitivity: sacred
+text_source:
+  name: "Tanzil Project, Quran Text v1.1"
+  url: https://tanzil.net/download/
+  files:
+    - { path: data/work/quran-source/tanzil-uthmani-v1.1.txt, sha256: 7f30c647331a61100ebf24a80507dc0fcdd9f2df97f1312b5b2dfcb982a7f326, use: text }
+    - { path: data/work/quran-source/tanzil-simple-clean-v1.1.txt, sha256: 1862ee63c70fbfc6285e0bb0b9587b89beb5b7891109a4d543d9d2cf8283e8c8, use: text_search }
+  frozen: "2026-10-11"
+  rule: "The text in passage/quran-* files must equal these files exactly; scripts/validate.ts checks it on every build."
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 2, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

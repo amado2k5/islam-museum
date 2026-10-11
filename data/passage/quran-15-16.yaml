@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-15-16
+class: passage
+unit: ayah
+work: work/quran
+ref: "15:16"
+sura: 15
+aya: 16
+label: { en: "Qur'an 15:16", ar: "القرآن 15:16" }
+summary:
+  en: "Qur'an 15:16 (sura Al-Hijr, verse 16)."
+  ar: "القرآن 15:16 (سورة الحجر، الآية 16)."
+text: "وَلَقَدْ جَعَلْنَا فِى ٱلسَّمَآءِ بُرُوجًا وَزَيَّنَّـٰهَا لِلنَّـٰظِرِينَ"
+text_search: "ولقد جعلنا في السماء بروجا وزيناها للناظرين"
+relations:
+  - { type: part_of, target: passage/quran-15 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

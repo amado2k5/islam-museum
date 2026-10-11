@@ -1,0 +1,18 @@
+id: passage/quran-28
+class: passage
+unit: sura
+work: work/quran
+ref: "28"
+sura: 28
+label: { en: "Sura 28: Al-Qasas", ar: "سورة القصص" }
+summary:
+  en: "Sura 28 of the Qur'an, Al-Qasas, has 88 verses."
+  ar: "السورة 28 من القرآن، سورة القصص، وعدد آياتها 88."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

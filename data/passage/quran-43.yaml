@@ -1,0 +1,18 @@
+id: passage/quran-43
+class: passage
+unit: sura
+work: work/quran
+ref: "43"
+sura: 43
+label: { en: "Sura 43: Az-Zukhruf", ar: "سورة الزخرف" }
+summary:
+  en: "Sura 43 of the Qur'an, Az-Zukhruf, has 89 verses."
+  ar: "السورة 43 من القرآن، سورة الزخرف، وعدد آياتها 89."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

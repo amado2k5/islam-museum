@@ -1,0 +1,18 @@
+id: passage/quran-110
+class: passage
+unit: sura
+work: work/quran
+ref: "110"
+sura: 110
+label: { en: "Sura 110: An-Nasr", ar: "سورة النصر" }
+summary:
+  en: "Sura 110 of the Qur'an, An-Nasr, has 3 verses."
+  ar: "السورة 110 من القرآن، سورة النصر، وعدد آياتها 3."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

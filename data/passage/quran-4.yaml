@@ -1,0 +1,18 @@
+id: passage/quran-4
+class: passage
+unit: sura
+work: work/quran
+ref: "4"
+sura: 4
+label: { en: "Sura 4: An-Nisa", ar: "سورة النساء" }
+summary:
+  en: "Sura 4 of the Qur'an, An-Nisa, has 176 verses."
+  ar: "السورة 4 من القرآن، سورة النساء، وعدد آياتها 176."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

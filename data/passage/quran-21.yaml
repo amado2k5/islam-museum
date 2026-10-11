@@ -1,0 +1,18 @@
+id: passage/quran-21
+class: passage
+unit: sura
+work: work/quran
+ref: "21"
+sura: 21
+label: { en: "Sura 21: Al-Anbiya", ar: "سورة الأنبياء" }
+summary:
+  en: "Sura 21 of the Qur'an, Al-Anbiya, has 112 verses."
+  ar: "السورة 21 من القرآن، سورة الأنبياء، وعدد آياتها 112."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

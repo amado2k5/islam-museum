@@ -1,0 +1,18 @@
+id: passage/quran-70
+class: passage
+unit: sura
+work: work/quran
+ref: "70"
+sura: 70
+label: { en: "Sura 70: Al-Ma'arij", ar: "سورة المعارج" }
+summary:
+  en: "Sura 70 of the Qur'an, Al-Ma'arij, has 44 verses."
+  ar: "السورة 70 من القرآن، سورة المعارج، وعدد آياتها 44."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

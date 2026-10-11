@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-26-26
+class: passage
+unit: ayah
+work: work/quran
+ref: "26:26"
+sura: 26
+aya: 26
+label: { en: "Qur'an 26:26", ar: "القرآن 26:26" }
+summary:
+  en: "Qur'an 26:26 (sura Ash-Shu'ara, verse 26)."
+  ar: "القرآن 26:26 (سورة الشعراء، الآية 26)."
+text: "قَالَ رَبُّكُمْ وَرَبُّ ءَابَآئِكُمُ ٱلْأَوَّلِينَ"
+text_search: "قال ربكم ورب آبائكم الأولين"
+relations:
+  - { type: part_of, target: passage/quran-26 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

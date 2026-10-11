@@ -1,0 +1,18 @@
+id: passage/quran-111
+class: passage
+unit: sura
+work: work/quran
+ref: "111"
+sura: 111
+label: { en: "Sura 111: Al-Masad", ar: "سورة المسد" }
+summary:
+  en: "Sura 111 of the Qur'an, Al-Masad, has 5 verses."
+  ar: "السورة 111 من القرآن، سورة المسد، وعدد آياتها 5."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -1,0 +1,18 @@
+id: passage/quran-74
+class: passage
+unit: sura
+work: work/quran
+ref: "74"
+sura: 74
+label: { en: "Sura 74: Al-Muddaththir", ar: "سورة المدثر" }
+summary:
+  en: "Sura 74 of the Qur'an, Al-Muddaththir, has 56 verses."
+  ar: "السورة 74 من القرآن، سورة المدثر، وعدد آياتها 56."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

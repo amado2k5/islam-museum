@@ -1,0 +1,18 @@
+id: passage/quran-33
+class: passage
+unit: sura
+work: work/quran
+ref: "33"
+sura: 33
+label: { en: "Sura 33: Al-Ahzab", ar: "سورة الأحزاب" }
+summary:
+  en: "Sura 33 of the Qur'an, Al-Ahzab, has 73 verses."
+  ar: "السورة 33 من القرآن، سورة الأحزاب، وعدد آياتها 73."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

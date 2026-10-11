@@ -1,0 +1,18 @@
+id: passage/quran-2
+class: passage
+unit: sura
+work: work/quran
+ref: "2"
+sura: 2
+label: { en: "Sura 2: Al-Baqara", ar: "سورة البقرة" }
+summary:
+  en: "Sura 2 of the Qur'an, Al-Baqara, has 286 verses."
+  ar: "السورة 2 من القرآن، سورة البقرة، وعدد آياتها 286."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

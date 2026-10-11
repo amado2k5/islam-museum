@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-5-55
+class: passage
+unit: ayah
+work: work/quran
+ref: "5:55"
+sura: 5
+aya: 55
+label: { en: "Qur'an 5:55", ar: "القرآن 5:55" }
+summary:
+  en: "Qur'an 5:55 (sura Al-Ma'ida, verse 55)."
+  ar: "القرآن 5:55 (سورة المائدة، الآية 55)."
+text: "إِنَّمَا وَلِيُّكُمُ ٱللَّهُ وَرَسُولُهُۥ وَٱلَّذِينَ ءَامَنُوا۟ ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُمْ رَٰكِعُونَ"
+text_search: "إنما وليكم الله ورسوله والذين آمنوا الذين يقيمون الصلاة ويؤتون الزكاة وهم راكعون"
+relations:
+  - { type: part_of, target: passage/quran-5 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

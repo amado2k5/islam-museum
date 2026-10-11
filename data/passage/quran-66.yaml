@@ -1,0 +1,18 @@
+id: passage/quran-66
+class: passage
+unit: sura
+work: work/quran
+ref: "66"
+sura: 66
+label: { en: "Sura 66: At-Tahrim", ar: "سورة التحريم" }
+summary:
+  en: "Sura 66 of the Qur'an, At-Tahrim, has 12 verses."
+  ar: "السورة 66 من القرآن، سورة التحريم، وعدد آياتها 12."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -15,6 +15,16 @@ const screens = onScreen(n.id);
 const graphAbout = (id: string) => edgesFrom(id).filter((e) => e.type === "about" && !e.inverse).map((e) => byId.get(e.to)!).filter(Boolean);
 const faithText = (d.faith ?? []) as any[];
 ---
+{n.class === "passage" && d.text && (
+  <section class="panel" style="margin-bottom:1.2rem" aria-label={n.label[lang] ?? n.label.en}>
+    <p lang="ar" dir="rtl" style="font-family:var(--ar-quran);font-size:clamp(1.6rem,4vw,2.4rem);line-height:2.2;margin:0">{d.text}</p>
+    <p class="ui muted" style="margin:10px 0 0;font-size:.85rem">{T.passage.attribution} <a href="https://tanzil.net" rel="noopener">tanzil.net</a> · {T.passage.verbatim}
+      {d.aya > 1 && <> · <a href={href(lang, `passage/quran-${d.sura}-${d.aya - 1}`)}>{T.passage.prev}</a></>}
+      {byId.has(`passage/quran-${d.sura}-${d.aya + 1}`) && <> · <a href={href(lang, `passage/quran-${d.sura}-${d.aya + 1}`)}>{T.passage.next}</a></>}
+    </p>
+  </section>
+)}
+
 {n.themes.length > 0 && (
   <p class="ui no-print" style="margin:0 0 1rem" aria-label={T.themes.on_this_theme}>
     {n.themes.map((t) => <a class="chip" style="margin-inline-end:6px" href={`/${lang}/themes/${t}/`}>{themeLabel(t, lang)}</a>)}

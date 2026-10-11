@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-21-92
+class: passage
+unit: ayah
+work: work/quran
+ref: "21:92"
+sura: 21
+aya: 92
+label: { en: "Qur'an 21:92", ar: "القرآن 21:92" }
+summary:
+  en: "Qur'an 21:92 (sura Al-Anbiya, verse 92)."
+  ar: "القرآن 21:92 (سورة الأنبياء، الآية 92)."
+text: "إِنَّ هَـٰذِهِۦٓ أُمَّتُكُمْ أُمَّةً وَٰحِدَةً وَأَنَا۠ رَبُّكُمْ فَٱعْبُدُونِ"
+text_search: "إن هذه أمتكم أمة واحدة وأنا ربكم فاعبدون"
+relations:
+  - { type: part_of, target: passage/quran-21 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

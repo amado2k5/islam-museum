@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-15-99
+class: passage
+unit: ayah
+work: work/quran
+ref: "15:99"
+sura: 15
+aya: 99
+label: { en: "Qur'an 15:99", ar: "القرآن 15:99" }
+summary:
+  en: "Qur'an 15:99 (sura Al-Hijr, verse 99)."
+  ar: "القرآن 15:99 (سورة الحجر، الآية 99)."
+text: "وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ"
+text_search: "واعبد ربك حتى يأتيك اليقين"
+relations:
+  - { type: part_of, target: passage/quran-15 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

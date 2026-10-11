@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-21-21
+class: passage
+unit: ayah
+work: work/quran
+ref: "21:21"
+sura: 21
+aya: 21
+label: { en: "Qur'an 21:21", ar: "القرآن 21:21" }
+summary:
+  en: "Qur'an 21:21 (sura Al-Anbiya, verse 21)."
+  ar: "القرآن 21:21 (سورة الأنبياء، الآية 21)."
+text: "أَمِ ٱتَّخَذُوٓا۟ ءَالِهَةً مِّنَ ٱلْأَرْضِ هُمْ يُنشِرُونَ"
+text_search: "أم اتخذوا آلهة من الأرض هم ينشرون"
+relations:
+  - { type: part_of, target: passage/quran-21 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

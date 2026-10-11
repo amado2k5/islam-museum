@@ -1,0 +1,18 @@
+id: passage/quran-11
+class: passage
+unit: sura
+work: work/quran
+ref: "11"
+sura: 11
+label: { en: "Sura 11: Hud", ar: "سورة هود" }
+summary:
+  en: "Sura 11 of the Qur'an, Hud, has 123 verses."
+  ar: "السورة 11 من القرآن، سورة هود، وعدد آياتها 123."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

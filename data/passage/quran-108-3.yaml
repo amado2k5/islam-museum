@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-108-3
+class: passage
+unit: ayah
+work: work/quran
+ref: "108:3"
+sura: 108
+aya: 3
+label: { en: "Qur'an 108:3", ar: "القرآن 108:3" }
+summary:
+  en: "Qur'an 108:3 (sura Al-Kawthar, verse 3)."
+  ar: "القرآن 108:3 (سورة الكوثر، الآية 3)."
+text: "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ"
+text_search: "إن شانئك هو الأبتر"
+relations:
+  - { type: part_of, target: passage/quran-108 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

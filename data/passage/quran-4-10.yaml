@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-4-10
+class: passage
+unit: ayah
+work: work/quran
+ref: "4:10"
+sura: 4
+aya: 10
+label: { en: "Qur'an 4:10", ar: "القرآن 4:10" }
+summary:
+  en: "Qur'an 4:10 (sura An-Nisa, verse 10)."
+  ar: "القرآن 4:10 (سورة النساء، الآية 10)."
+text: "إِنَّ ٱلَّذِينَ يَأْكُلُونَ أَمْوَٰلَ ٱلْيَتَـٰمَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًا ۖ وَسَيَصْلَوْنَ سَعِيرًا"
+text_search: "إن الذين يأكلون أموال اليتامى ظلما إنما يأكلون في بطونهم نارا ۖ وسيصلون سعيرا"
+relations:
+  - { type: part_of, target: passage/quran-4 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

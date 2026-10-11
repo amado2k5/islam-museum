@@ -1,0 +1,18 @@
+id: passage/quran-46
+class: passage
+unit: sura
+work: work/quran
+ref: "46"
+sura: 46
+label: { en: "Sura 46: Al-Ahqaf", ar: "سورة الأحقاف" }
+summary:
+  en: "Sura 46 of the Qur'an, Al-Ahqaf, has 35 verses."
+  ar: "السورة 46 من القرآن، سورة الأحقاف، وعدد آياتها 35."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

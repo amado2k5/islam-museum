@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-84-23
+class: passage
+unit: ayah
+work: work/quran
+ref: "84:23"
+sura: 84
+aya: 23
+label: { en: "Qur'an 84:23", ar: "القرآن 84:23" }
+summary:
+  en: "Qur'an 84:23 (sura Al-Inshiqaq, verse 23)."
+  ar: "القرآن 84:23 (سورة الانشقاق، الآية 23)."
+text: "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ"
+text_search: "والله أعلم بما يوعون"
+relations:
+  - { type: part_of, target: passage/quran-84 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

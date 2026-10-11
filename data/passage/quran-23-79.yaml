@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-23-79
+class: passage
+unit: ayah
+work: work/quran
+ref: "23:79"
+sura: 23
+aya: 79
+label: { en: "Qur'an 23:79", ar: "القرآن 23:79" }
+summary:
+  en: "Qur'an 23:79 (sura Al-Mu'minun, verse 79)."
+  ar: "القرآن 23:79 (سورة المؤمنون، الآية 79)."
+text: "وَهُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ"
+text_search: "وهو الذي ذرأكم في الأرض وإليه تحشرون"
+relations:
+  - { type: part_of, target: passage/quran-23 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

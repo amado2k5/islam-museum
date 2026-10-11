@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-15-9
+class: passage
+unit: ayah
+work: work/quran
+ref: "15:9"
+sura: 15
+aya: 9
+label: { en: "Qur'an 15:9", ar: "القرآن 15:9" }
+summary:
+  en: "Qur'an 15:9 (sura Al-Hijr, verse 9)."
+  ar: "القرآن 15:9 (سورة الحجر، الآية 9)."
+text: "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ"
+text_search: "إنا نحن نزلنا الذكر وإنا له لحافظون"
+relations:
+  - { type: part_of, target: passage/quran-15 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

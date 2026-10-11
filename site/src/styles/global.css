@@ -10,6 +10,7 @@
 @import "@fontsource/amiri/arabic-400.css";
 @import "@fontsource/amiri/arabic-700.css";
 @import "@fontsource/reem-kufi/arabic-500.css";
+@import "@fontsource/amiri-quran/arabic-400.css";
 
 /* ---- Design tokens (docs/plan/04 §6): ivory, ink, lapis, teal, one gold accent, sand panels ---- */
 :root {
@@ -20,6 +21,7 @@
   --sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
   --ar-body: "Noto Naskh Arabic", "Amiri", "Geeza Pro", "Arabic Typesetting", serif;
   --ar-display: "Amiri", "Reem Kufi", "Noto Naskh Arabic", serif;
+  --ar-quran: "Amiri Quran", "Amiri", "Noto Naskh Arabic", serif;
   --measure: 68ch;
   --wing-time: #8a5a1f; --wing-place: #0f5f5c; --wing-people: #1f4e8c; --wing-ideas: #6b3f8c;
   --wing-objects: #8c3f3f; --wing-words: #3f6b8c; --wing-living: #4d7a2b; --wing-today: #5f5a53; --wing-made: #a3541f;

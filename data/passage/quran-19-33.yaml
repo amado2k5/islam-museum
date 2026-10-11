@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-19-33
+class: passage
+unit: ayah
+work: work/quran
+ref: "19:33"
+sura: 19
+aya: 33
+label: { en: "Qur'an 19:33", ar: "القرآن 19:33" }
+summary:
+  en: "Qur'an 19:33 (sura Maryam, verse 33)."
+  ar: "القرآن 19:33 (سورة مريم، الآية 33)."
+text: "وَٱلسَّلَـٰمُ عَلَىَّ يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيًّا"
+text_search: "والسلام علي يوم ولدت ويوم أموت ويوم أبعث حيا"
+relations:
+  - { type: part_of, target: passage/quran-19 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

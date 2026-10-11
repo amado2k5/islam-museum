@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-89-24
+class: passage
+unit: ayah
+work: work/quran
+ref: "89:24"
+sura: 89
+aya: 24
+label: { en: "Qur'an 89:24", ar: "القرآن 89:24" }
+summary:
+  en: "Qur'an 89:24 (sura Al-Fajr, verse 24)."
+  ar: "القرآن 89:24 (سورة الفجر، الآية 24)."
+text: "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى"
+text_search: "يقول يا ليتني قدمت لحياتي"
+relations:
+  - { type: part_of, target: passage/quran-89 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

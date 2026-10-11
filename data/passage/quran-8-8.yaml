@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-8-8
+class: passage
+unit: ayah
+work: work/quran
+ref: "8:8"
+sura: 8
+aya: 8
+label: { en: "Qur'an 8:8", ar: "القرآن 8:8" }
+summary:
+  en: "Qur'an 8:8 (sura Al-Anfal, verse 8)."
+  ar: "القرآن 8:8 (سورة الأنفال، الآية 8)."
+text: "لِيُحِقَّ ٱلْحَقَّ وَيُبْطِلَ ٱلْبَـٰطِلَ وَلَوْ كَرِهَ ٱلْمُجْرِمُونَ"
+text_search: "ليحق الحق ويبطل الباطل ولو كره المجرمون"
+relations:
+  - { type: part_of, target: passage/quran-8 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

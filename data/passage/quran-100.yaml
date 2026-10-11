@@ -1,0 +1,18 @@
+id: passage/quran-100
+class: passage
+unit: sura
+work: work/quran
+ref: "100"
+sura: 100
+label: { en: "Sura 100: Al-Adiyat", ar: "سورة العاديات" }
+summary:
+  en: "Sura 100 of the Qur'an, Al-Adiyat, has 11 verses."
+  ar: "السورة 100 من القرآن، سورة العاديات، وعدد آياتها 11."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

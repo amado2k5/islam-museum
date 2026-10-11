@@ -1,0 +1,18 @@
+id: passage/quran-8
+class: passage
+unit: sura
+work: work/quran
+ref: "8"
+sura: 8
+label: { en: "Sura 8: Al-Anfal", ar: "سورة الأنفال" }
+summary:
+  en: "Sura 8 of the Qur'an, Al-Anfal, has 75 verses."
+  ar: "السورة 8 من القرآن، سورة الأنفال، وعدد آياتها 75."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

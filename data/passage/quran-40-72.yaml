@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-40-72
+class: passage
+unit: ayah
+work: work/quran
+ref: "40:72"
+sura: 40
+aya: 72
+label: { en: "Qur'an 40:72", ar: "القرآن 40:72" }
+summary:
+  en: "Qur'an 40:72 (sura Ghafir, verse 72)."
+  ar: "القرآن 40:72 (سورة غافر، الآية 72)."
+text: "فِى ٱلْحَمِيمِ ثُمَّ فِى ٱلنَّارِ يُسْجَرُونَ"
+text_search: "في الحميم ثم في النار يسجرون"
+relations:
+  - { type: part_of, target: passage/quran-40 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

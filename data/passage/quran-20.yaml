@@ -1,0 +1,18 @@
+id: passage/quran-20
+class: passage
+unit: sura
+work: work/quran
+ref: "20"
+sura: 20
+label: { en: "Sura 20: Ta-Ha", ar: "سورة طه" }
+summary:
+  en: "Sura 20 of the Qur'an, Ta-Ha, has 135 verses."
+  ar: "السورة 20 من القرآن، سورة طه، وعدد آياتها 135."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

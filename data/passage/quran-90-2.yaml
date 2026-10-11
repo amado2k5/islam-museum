@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-90-2
+class: passage
+unit: ayah
+work: work/quran
+ref: "90:2"
+sura: 90
+aya: 2
+label: { en: "Qur'an 90:2", ar: "القرآن 90:2" }
+summary:
+  en: "Qur'an 90:2 (sura Al-Balad, verse 2)."
+  ar: "القرآن 90:2 (سورة البلد، الآية 2)."
+text: "وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ"
+text_search: "وأنت حل بهذا البلد"
+relations:
+  - { type: part_of, target: passage/quran-90 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

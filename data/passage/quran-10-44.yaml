@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-10-44
+class: passage
+unit: ayah
+work: work/quran
+ref: "10:44"
+sura: 10
+aya: 44
+label: { en: "Qur'an 10:44", ar: "القرآن 10:44" }
+summary:
+  en: "Qur'an 10:44 (sura Yunus, verse 44)."
+  ar: "القرآن 10:44 (سورة يونس، الآية 44)."
+text: "إِنَّ ٱللَّهَ لَا يَظْلِمُ ٱلنَّاسَ شَيْـًٔا وَلَـٰكِنَّ ٱلنَّاسَ أَنفُسَهُمْ يَظْلِمُونَ"
+text_search: "إن الله لا يظلم الناس شيئا ولكن الناس أنفسهم يظلمون"
+relations:
+  - { type: part_of, target: passage/quran-10 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -16,7 +16,7 @@ export const GET: APIRoute = () => {
     `- [Graph edges](${SITE}/api/v1/graph/edges.ndjson)`,
     "",
     "## Entries",
-    ...realNodes.filter((n) => !["source", "media"].includes(n.class)).map((n) => `- [${labelOf(n, "en")}](${SITE}${href("en", n.id)}): ${summaryOf(n, "en")}`),
+    ...realNodes.filter((n) => !["source", "media"].includes(n.class) && !(n.class === "passage" && n.data.unit === "ayah")).map((n) => `- [${labelOf(n, "en")}](${SITE}${href("en", n.id)}): ${summaryOf(n, "en")}`),
     "",
   ];
   return new Response(lines.join("\n"), { headers: { "Content-Type": "text/plain; charset=utf-8" } });

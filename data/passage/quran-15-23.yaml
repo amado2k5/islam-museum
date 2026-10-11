@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-15-23
+class: passage
+unit: ayah
+work: work/quran
+ref: "15:23"
+sura: 15
+aya: 23
+label: { en: "Qur'an 15:23", ar: "القرآن 15:23" }
+summary:
+  en: "Qur'an 15:23 (sura Al-Hijr, verse 23)."
+  ar: "القرآن 15:23 (سورة الحجر، الآية 23)."
+text: "وَإِنَّا لَنَحْنُ نُحْىِۦ وَنُمِيتُ وَنَحْنُ ٱلْوَٰرِثُونَ"
+text_search: "وإنا لنحن نحيي ونميت ونحن الوارثون"
+relations:
+  - { type: part_of, target: passage/quran-15 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

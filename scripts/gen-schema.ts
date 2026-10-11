@@ -234,13 +234,13 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   work: {
     properties: { ...kind("work"), made: madeBlock, genre: strs, disciplines: strs, authors: entityRefs, language: entityRef, composed: D,
       structure: str, editions: strs, translations: strs, openiti_uri: str, commentaries: entityRefs, manuscripts: entityRefs,
-      url: { type: "string", format: "uri" }, launched: D, closed: D, languages: strs, publisher: entityRef, archive_url: { type: "string", format: "uri" },
+      text_source: { type: "object" }, url: { type: "string", format: "uri" }, launched: D, closed: D, languages: strs, publisher: entityRef, archive_url: { type: "string", format: "uri" },
       orientation: { type: "object", additionalProperties: false, properties: { value: str, basis: enm(["self-described", "documented"]) } },
       content_type: enm(["scripture", "hadith", "fatwa", "library", "education", "news", "community", "children", "academic", "apologetics", "criticism"]) },
     required: ["kind"],
   },
   passage: {
-    properties: { work: entityRef, ref: str, text: str,
+    properties: { work: entityRef, ref: str, unit: enm(["sura", "ayah", "hadith", "poem-line", "chapter", "other"]), sura: intStr, aya: intStr, text: str, text_search: str,
       translations: { type: "object", additionalProperties: { type: "object", required: ["text"],
         properties: { text: str, translator: str, license: enm(licenses) } } },
       audio: entityRefs, context: L },

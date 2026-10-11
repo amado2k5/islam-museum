@@ -3,7 +3,8 @@
 // Run: npm run validate [-- --strict]   (--strict turns warnings into failures)
 import { basename, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
+import { createHash } from "node:crypto";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import edtf from "edtf";
@@ -209,6 +210,35 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       for (const lang of LANGS) if (!entity.alt?.[lang]) err(file, `alt text missing for "${lang}" (required in every language we publish)`);
     }
     if (entity.class === "media" && entity.sensitivity === "figurative-prophet") err(file, "figurative depictions of prophets are never displayed; describe in text instead");
+  }
+
+
+  // ---- the Qur'an text is frozen (docs/plan/15 §6.3): every passage/quran-* must equal the committed Tanzil file, character for character
+  const quran = loaded.find((x) => x.entity?.id === "work/quran");
+  if (quran) {
+    const ts = quran.entity.text_source;
+    const files: Record<string, string[]> = {};
+    for (const f of ts?.files ?? []) {
+      const path = p(f.path);
+      if (!existsSync(path)) { err(quran.file, `text_source file ${f.path} is missing`); continue; }
+      const buf = readFileSync(path);
+      if (createHash("sha256").update(buf).digest("hex") !== f.sha256) err(quran.file, `${f.path} no longer matches its frozen sha256: the Tanzil source must never be edited`);
+      const m = new Map<string, string>();
+      for (const line of buf.toString("utf8").split(/\r?\n/)) { if (!line || line.startsWith("#")) continue; const [s, a, ...t] = line.split("|"); m.set(`${s}:${a}`, t.join("|")); }
+      files[f.use] = [...m.entries()].flat();
+      (files as any)[`map:${f.use}`] = m;
+    }
+    const mt: Map<string, string> | undefined = (files as any)["map:text"], ms: Map<string, string> | undefined = (files as any)["map:text_search"];
+    let ayat = 0, suras = 0;
+    for (const { entity: e, file } of loaded) {
+      if (e?.class !== "passage" || e.work !== "work/quran") continue;
+      if (e.unit === "sura") { suras++; continue; }
+      ayat++;
+      if (mt && mt.get(e.ref) !== e.text) err(file, `Qur'an text of ${e.ref} differs from the frozen Tanzil file (the text is never edited; regenerate with scripts/harvest/quran/generate.py)`);
+      if (ms && ms.get(e.ref) !== e.text_search) err(file, `text_search of ${e.ref} differs from the frozen Tanzil Simple Clean file`);
+      if (e.provenance?.layer !== "by") err(file, "Qur'an passages must carry provenance.layer: by (Tanzil attribution)");
+    }
+    if (mt && (ayat !== 6236 || suras !== 114 || mt.size !== 6236)) err(quran.file, `expected 114 suras and 6,236 ayat, found ${suras} and ${ayat}`);
   }
 
   // ---- prose

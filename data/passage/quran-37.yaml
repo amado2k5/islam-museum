@@ -1,0 +1,18 @@
+id: passage/quran-37
+class: passage
+unit: sura
+work: work/quran
+ref: "37"
+sura: 37
+label: { en: "Sura 37: As-Saffat", ar: "سورة الصافات" }
+summary:
+  en: "Sura 37 of the Qur'an, As-Saffat, has 182 verses."
+  ar: "السورة 37 من القرآن، سورة الصافات، وعدد آياتها 182."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

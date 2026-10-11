@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-2-50
+class: passage
+unit: ayah
+work: work/quran
+ref: "2:50"
+sura: 2
+aya: 50
+label: { en: "Qur'an 2:50", ar: "القرآن 2:50" }
+summary:
+  en: "Qur'an 2:50 (sura Al-Baqara, verse 50)."
+  ar: "القرآن 2:50 (سورة البقرة، الآية 50)."
+text: "وَإِذْ فَرَقْنَا بِكُمُ ٱلْبَحْرَ فَأَنجَيْنَـٰكُمْ وَأَغْرَقْنَآ ءَالَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ"
+text_search: "وإذ فرقنا بكم البحر فأنجيناكم وأغرقنا آل فرعون وأنتم تنظرون"
+relations:
+  - { type: part_of, target: passage/quran-2 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

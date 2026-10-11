@@ -1,0 +1,18 @@
+id: passage/quran-71
+class: passage
+unit: sura
+work: work/quran
+ref: "71"
+sura: 71
+label: { en: "Sura 71: Nuh", ar: "سورة نوح" }
+summary:
+  en: "Sura 71 of the Qur'an, Nuh, has 28 verses."
+  ar: "السورة 71 من القرآن، سورة نوح، وعدد آياتها 28."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

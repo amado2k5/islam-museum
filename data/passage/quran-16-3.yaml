@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-16-3
+class: passage
+unit: ayah
+work: work/quran
+ref: "16:3"
+sura: 16
+aya: 3
+label: { en: "Qur'an 16:3", ar: "القرآن 16:3" }
+summary:
+  en: "Qur'an 16:3 (sura An-Nahl, verse 3)."
+  ar: "القرآن 16:3 (سورة النحل، الآية 3)."
+text: "خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ تَعَـٰلَىٰ عَمَّا يُشْرِكُونَ"
+text_search: "خلق السماوات والأرض بالحق ۚ تعالى عما يشركون"
+relations:
+  - { type: part_of, target: passage/quran-16 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

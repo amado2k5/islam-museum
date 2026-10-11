@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-11-25
+class: passage
+unit: ayah
+work: work/quran
+ref: "11:25"
+sura: 11
+aya: 25
+label: { en: "Qur'an 11:25", ar: "القرآن 11:25" }
+summary:
+  en: "Qur'an 11:25 (sura Hud, verse 25)."
+  ar: "القرآن 11:25 (سورة هود، الآية 25)."
+text: "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦٓ إِنِّى لَكُمْ نَذِيرٌ مُّبِينٌ"
+text_search: "ولقد أرسلنا نوحا إلى قومه إني لكم نذير مبين"
+relations:
+  - { type: part_of, target: passage/quran-11 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

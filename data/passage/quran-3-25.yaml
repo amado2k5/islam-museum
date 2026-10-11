@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-3-25
+class: passage
+unit: ayah
+work: work/quran
+ref: "3:25"
+sura: 3
+aya: 25
+label: { en: "Qur'an 3:25", ar: "القرآن 3:25" }
+summary:
+  en: "Qur'an 3:25 (sura Al Imran, verse 25)."
+  ar: "القرآن 3:25 (سورة آل عمران، الآية 25)."
+text: "فَكَيْفَ إِذَا جَمَعْنَـٰهُمْ لِيَوْمٍ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ"
+text_search: "فكيف إذا جمعناهم ليوم لا ريب فيه ووفيت كل نفس ما كسبت وهم لا يظلمون"
+relations:
+  - { type: part_of, target: passage/quran-3 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

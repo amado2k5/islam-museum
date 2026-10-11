@@ -1,0 +1,18 @@
+id: passage/quran-91
+class: passage
+unit: sura
+work: work/quran
+ref: "91"
+sura: 91
+label: { en: "Sura 91: Ash-Shams", ar: "سورة الشمس" }
+summary:
+  en: "Sura 91 of the Qur'an, Ash-Shams, has 15 verses."
+  ar: "السورة 91 من القرآن، سورة الشمس، وعدد آياتها 15."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

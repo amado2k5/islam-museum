@@ -1,0 +1,18 @@
+id: passage/quran-15
+class: passage
+unit: sura
+work: work/quran
+ref: "15"
+sura: 15
+label: { en: "Sura 15: Al-Hijr", ar: "سورة الحجر" }
+summary:
+  en: "Sura 15 of the Qur'an, Al-Hijr, has 99 verses."
+  ar: "السورة 15 من القرآن، سورة الحجر، وعدد آياتها 99."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -19,7 +19,26 @@
     "ref": {
       "type": "string"
     },
+    "unit": {
+      "enum": [
+        "sura",
+        "ayah",
+        "hadith",
+        "poem-line",
+        "chapter",
+        "other"
+      ]
+    },
+    "sura": {
+      "type": "integer"
+    },
+    "aya": {
+      "type": "integer"
+    },
     "text": {
+      "type": "string"
+    },
+    "text_search": {
       "type": "string"
     },
     "translations": {

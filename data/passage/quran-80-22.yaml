@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-80-22
+class: passage
+unit: ayah
+work: work/quran
+ref: "80:22"
+sura: 80
+aya: 22
+label: { en: "Qur'an 80:22", ar: "القرآن 80:22" }
+summary:
+  en: "Qur'an 80:22 (sura Abasa, verse 22)."
+  ar: "القرآن 80:22 (سورة عبس، الآية 22)."
+text: "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ"
+text_search: "ثم إذا شاء أنشره"
+relations:
+  - { type: part_of, target: passage/quran-80 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

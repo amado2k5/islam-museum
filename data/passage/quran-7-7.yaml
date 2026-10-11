@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-7-7
+class: passage
+unit: ayah
+work: work/quran
+ref: "7:7"
+sura: 7
+aya: 7
+label: { en: "Qur'an 7:7", ar: "القرآن 7:7" }
+summary:
+  en: "Qur'an 7:7 (sura Al-A'raf, verse 7)."
+  ar: "القرآن 7:7 (سورة الأعراف، الآية 7)."
+text: "فَلَنَقُصَّنَّ عَلَيْهِم بِعِلْمٍ ۖ وَمَا كُنَّا غَآئِبِينَ"
+text_search: "فلنقصن عليهم بعلم ۖ وما كنا غائبين"
+relations:
+  - { type: part_of, target: passage/quran-7 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

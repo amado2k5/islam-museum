@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-81-11
+class: passage
+unit: ayah
+work: work/quran
+ref: "81:11"
+sura: 81
+aya: 11
+label: { en: "Qur'an 81:11", ar: "القرآن 81:11" }
+summary:
+  en: "Qur'an 81:11 (sura At-Takwir, verse 11)."
+  ar: "القرآن 81:11 (سورة التكوير، الآية 11)."
+text: "وَإِذَا ٱلسَّمَآءُ كُشِطَتْ"
+text_search: "وإذا السماء كشطت"
+relations:
+  - { type: part_of, target: passage/quran-81 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

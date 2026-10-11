@@ -147,7 +147,7 @@ const reviewStatus = d.status?.review ?? "draft";
         )}
 
         <div class="prose" lang={proseLang ?? lang} dir={proseLang === "ar" ? "rtl" : "ltr"}>
-          {!prose && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
+          {!prose && n.class !== "passage" && <p class="panel ui" role="note">{T.entity.no_prose}</p>}
           {sectionHtml.map((s) =>
             s.role === "kids" || s.role === "scholars" ? (
               <details data-role={s.role} class="sec" style="margin-block:1rem">

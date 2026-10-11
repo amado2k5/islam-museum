@@ -102,3 +102,27 @@ describe("rules from docs 12-15", () => {
     expect(msgs(run(base("person", "zz-test-j", { story_roles: [{ role: "ruler", toward: "polity/nowhere" }] })), "error")).toMatch(/does not exist/);
   });
 });
+
+describe("the Qur'an text is frozen (docs/plan/15 §6.3 acceptance test 3)", () => {
+  it("fails validation when one character of an ayah is changed, and passes again when restored", async () => {
+    const { readFileSync, writeFileSync } = await import("node:fs");
+    const file = p("data", "passage", "quran-112-1.yaml");
+    const original = readFileSync(file, "utf8");
+    try {
+      expect(validateAll().issues.filter((i) => i.level === "error")).toEqual([]);
+      // drop one combining mark from the text line (a one-character change)
+      const lines = original.split("\n").map((l) => (l.startsWith("text: ") ? l.replace(/[ً-ْٰ]/, "") : l));
+      writeFileSync(file, lines.join("\n"));
+      const errs = validateAll().issues.filter((i) => i.level === "error").map((i) => i.msg).join("\n");
+      expect(errs).toMatch(/differs from the frozen Tanzil file/);
+    } finally {
+      writeFileSync(file, original);
+    }
+    expect(validateAll().issues.filter((i) => i.level === "error")).toEqual([]);
+  });
+  it("has all 114 suras and 6,236 ayat", () => {
+    const c = compile();
+    expect(c.nodes.filter((n) => n.class === "passage" && n.data.unit === "sura").length).toBe(114);
+    expect(c.nodes.filter((n) => n.class === "passage" && n.data.unit === "ayah").length).toBe(6236);
+  });
+});

@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-5-118
+class: passage
+unit: ayah
+work: work/quran
+ref: "5:118"
+sura: 5
+aya: 118
+label: { en: "Qur'an 5:118", ar: "القرآن 5:118" }
+summary:
+  en: "Qur'an 5:118 (sura Al-Ma'ida, verse 118)."
+  ar: "القرآن 5:118 (سورة المائدة، الآية 118)."
+text: "إِن تُعَذِّبْهُمْ فَإِنَّهُمْ عِبَادُكَ ۖ وَإِن تَغْفِرْ لَهُمْ فَإِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
+text_search: "إن تعذبهم فإنهم عبادك ۖ وإن تغفر لهم فإنك أنت العزيز الحكيم"
+relations:
+  - { type: part_of, target: passage/quran-5 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

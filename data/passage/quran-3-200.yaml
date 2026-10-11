@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-3-200
+class: passage
+unit: ayah
+work: work/quran
+ref: "3:200"
+sura: 3
+aya: 200
+label: { en: "Qur'an 3:200", ar: "القرآن 3:200" }
+summary:
+  en: "Qur'an 3:200 (sura Al Imran, verse 200)."
+  ar: "القرآن 3:200 (سورة آل عمران، الآية 200)."
+text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ"
+text_search: "يا أيها الذين آمنوا اصبروا وصابروا ورابطوا واتقوا الله لعلكم تفلحون"
+relations:
+  - { type: part_of, target: passage/quran-3 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

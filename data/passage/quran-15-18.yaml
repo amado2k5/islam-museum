@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-15-18
+class: passage
+unit: ayah
+work: work/quran
+ref: "15:18"
+sura: 15
+aya: 18
+label: { en: "Qur'an 15:18", ar: "القرآن 15:18" }
+summary:
+  en: "Qur'an 15:18 (sura Al-Hijr, verse 18)."
+  ar: "القرآن 15:18 (سورة الحجر، الآية 18)."
+text: "إِلَّا مَنِ ٱسْتَرَقَ ٱلسَّمْعَ فَأَتْبَعَهُۥ شِهَابٌ مُّبِينٌ"
+text_search: "إلا من استرق السمع فأتبعه شهاب مبين"
+relations:
+  - { type: part_of, target: passage/quran-15 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

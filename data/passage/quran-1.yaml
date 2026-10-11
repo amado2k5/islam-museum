@@ -1,0 +1,18 @@
+id: passage/quran-1
+class: passage
+unit: sura
+work: work/quran
+ref: "1"
+sura: 1
+label: { en: "Sura 1: Al-Fatiha", ar: "سورة الفاتحة" }
+summary:
+  en: "Sura 1 of the Qur'an, Al-Fatiha, has 7 verses."
+  ar: "السورة 1 من القرآن، سورة الفاتحة، وعدد آياتها 7."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

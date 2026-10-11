@@ -6,7 +6,7 @@ import { href, labelOf, realNodes } from "../../../lib/graph";
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
-const pool = realNodes.filter((n) => !["source", "media", "dataset"].includes(n.class)).map((n) => ({ h: href(lang, n.id), l: labelOf(n, lang) }));
+const pool = realNodes.filter((n) => !["source", "media", "dataset"].includes(n.class) && !(n.class === "passage" && n.data.unit === "ayah")).map((n) => ({ h: href(lang, n.id), l: labelOf(n, lang) }));
 ---
 <BaseLayout lang={lang} title={T.wander.title} description={T.wander.lede} path={`/${lang}/wander/`}>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>

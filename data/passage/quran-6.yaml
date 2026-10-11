@@ -1,0 +1,18 @@
+id: passage/quran-6
+class: passage
+unit: sura
+work: work/quran
+ref: "6"
+sura: 6
+label: { en: "Sura 6: Al-An'am", ar: "سورة الأنعام" }
+summary:
+  en: "Sura 6 of the Qur'an, Al-An'am, has 165 verses."
+  ar: "السورة 6 من القرآن، سورة الأنعام، وعدد آياتها 165."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

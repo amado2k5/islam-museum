@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-44-45
+class: passage
+unit: ayah
+work: work/quran
+ref: "44:45"
+sura: 44
+aya: 45
+label: { en: "Qur'an 44:45", ar: "القرآن 44:45" }
+summary:
+  en: "Qur'an 44:45 (sura Ad-Dukhan, verse 45)."
+  ar: "القرآن 44:45 (سورة الدخان، الآية 45)."
+text: "كَٱلْمُهْلِ يَغْلِى فِى ٱلْبُطُونِ"
+text_search: "كالمهل يغلي في البطون"
+relations:
+  - { type: part_of, target: passage/quran-44 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

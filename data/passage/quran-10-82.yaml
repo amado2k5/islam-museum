@@ -1,0 +1,20 @@
+# Qur'an text: Tanzil Project v1.1 (https://tanzil.net), verbatim and unchanged. Licence notice: data/work/quran-source/. Never edit the text by hand.
+id: passage/quran-10-82
+class: passage
+unit: ayah
+work: work/quran
+ref: "10:82"
+sura: 10
+aya: 82
+label: { en: "Qur'an 10:82", ar: "القرآن 10:82" }
+summary:
+  en: "Qur'an 10:82 (sura Yunus, verse 82)."
+  ar: "القرآن 10:82 (سورة يونس، الآية 82)."
+text: "وَيُحِقُّ ٱللَّهُ ٱلْحَقَّ بِكَلِمَـٰتِهِۦ وَلَوْ كَرِهَ ٱلْمُجْرِمُونَ"
+text_search: "ويحق الله الحق بكلماته ولو كره المجرمون"
+relations:
+  - { type: part_of, target: passage/quran-10 }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

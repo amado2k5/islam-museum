@@ -1,0 +1,18 @@
+id: passage/quran-90
+class: passage
+unit: sura
+work: work/quran
+ref: "90"
+sura: 90
+label: { en: "Sura 90: Al-Balad", ar: "سورة البلد" }
+summary:
+  en: "Sura 90 of the Qur'an, Al-Balad, has 20 verses."
+  ar: "السورة 90 من القرآن، سورة البلد، وعدد آياتها 20."
+wings: [words]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/quran }
+sensitivity: sacred
+provenance: { layer: by, source: tanzil-quran-v1.1 }
+sources: [source/tanzil-quran]
+status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }
