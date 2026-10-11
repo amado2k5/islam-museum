@@ -1,20 +1,20 @@
 id: event/year-of-sorrow
 class: event
-kind: death
+kind: other
 label: { en: "The Year of Sorrow", ar: "عام الحزن" }
 summary:
-  en: "The year in which both Khadija and the Prophet's uncle and protector Abu Talib died."
-  ar: "العام الذي توفيت فيه خديجة وتوفي عم النبي وحاميه أبو طالب."
+  en: "The tenth year of prophethood in which the Prophet's protective uncle Abu Talib and his supportive wife Khadija bint Khuwaylid passed away within a short span."
+  ar: "السنة العاشرة من النبوة التي توفي فيها أبو طالب عم النبي وحاميه، وخديجة بنت خويلد زوجه وأول من آمن به، فسمّى النبي ذلك العام عام الحزن لتوالي المصائب."
 wings: [time, people]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0619~", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0619~", calendar: julian, precision: year, status: tradition, note: "السنة العاشرة من النبوة؛ وفاة أبي طالب في رجب وخديجة في رمضان على الصحيح (الرحيق ص115-117)." }
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: had_participant, target: person/muhammad }
-  - { type: had_participant, target: person/khadija }
-  - { type: had_participant, target: person/abu-talib }
+  - { type: had_participant, target: person/abu-talib, role: "توفي في رجب سنة 10 من النبوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/khadija, role: "توفيت في رمضان سنة 10 من النبوة ولها 65 سنة", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 115-117" }

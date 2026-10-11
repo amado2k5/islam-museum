@@ -1,0 +1,20 @@
+id: event/marriage-to-sawda
+class: event
+kind: other
+label: { en: "The Prophet's marriage to Sawda bint Zam'a", ar: "زواج النبي من سودة بنت زمعة" }
+summary:
+  en: "The marriage of Prophet Muhammad to Sawda bint Zam'a in Shawwal of the tenth year of prophethood, his first marriage after the death of Khadija."
+  ar: "زواج النبي من سودة بنت زمعة في شوال سنة 10 من النبوة بعد وفاة خديجة، وكانت من المهاجرات إلى الحبشة وتوفي عنها زوجها السكران بن عمرو بمكة."
+wings: [time, people]
+themes: [women, family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0619~", calendar: julian, precision: year, status: tradition, note: "شوال سنة 10 من النبوة بعد وفاة خديجة (الرحيق ص117-118)." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/sawda-bint-zama, role: "الزوجة", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 117-118" }
