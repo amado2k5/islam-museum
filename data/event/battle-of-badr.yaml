@@ -1,47 +1,91 @@
 id: event/battle-of-badr
 class: event
 kind: battle
-label: { en: "The Battle of Badr", ar: "غزوة بدر" }
+label: { en: "The Battle of Badr", ar: "غزوة بدر الكبرى" }
 summary:
-  en: "The first major battle between the Muslims of Medina and the Quraysh of Mecca, fought at the wells of Badr."
-  ar: "أول معركة كبرى بين مسلمي المدينة وقريش مكة، جرت عند آبار بدر."
-wings: [time, people]
+  en: "The first major battle between the Muslims of Medina and the Quraysh of Mecca, fought at the wells of Badr on 17 Ramadan 2 AH."
+  ar: "أول معركة كبرى فاصلة بين مسلمي المدينة وقريش مكة، دارت عند آبار بدر يوم الجمعة 17 رمضان 2هـ؛ بدأت مطاردةً لعير أبي سفيان وانتهت بهزيمة جيش مكة."
+wings: [time, people, place]
 themes: [battles]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0624-03-13", hijri: "0002-09-17", calendar: julian, precision: day, status: tradition, note: "Traditionally 17 Ramadan, 2 AH." }
+  start: { edtf: "0624-03-13", hijri: "0002-09-17", calendar: julian, precision: day, status: tradition, note: "ليلة الجمعة 17 رمضان 2هـ كما في الرحيق ص212؛ خروج النبي من المدينة 8 أو 12 رمضان" }
+outcome:
+  en: "Decisive Muslim victory; ~70 Quraysh killed and ~70 captured."
+  ar: "نصر حاسم للمسلمين؛ نحو سبعين قتيلاً وسبعين أسيراً من قريش."
+significance:
+  ar: "أول لقاء مسلح بين المسلمين والمشركين؛ رسّخ دولة المدينة وغيّر ميزان القوى في الحجاز (الرحيق ص233)."
+casualties:
+  value: 154
+  status: tradition
+  note: "المسلمون: 14 شهيداً (ستة من المهاجرين وثمانية من الأنصار)؛ المشركون: سبعون قتيلاً وسبعون أسيراً، عامتهم القادة والزعماء (الرحيق ص224)"
+  sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
 relations:
   - { type: occurred_at, target: place/badr }
-  - { type: had_participant, target: person/muhammad }
-  - { type: had_participant, target: person/abu-bakr }
-  - { type: had_participant, target: person/ali-ibn-abi-talib }
-  - { type: had_participant, target: person/hamza }
+  - { type: had_participant, target: person/muhammad, role: "القائد الأعلى للجيش الإسلامي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "حامل راية المهاجرين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/musab-ibn-umayr, role: "حامل لواء القيادة العامة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-muadh, role: "حامل راية الأنصار", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "قيادة الميمنة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-miqdad-ibn-amr, role: "قيادة الميسرة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "القائد العام لجيش مكة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/utba-ibn-rabia, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umayya-ibn-khalaf, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-nadr-ibn-al-harith, role: "حامل لواء المشركين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, note: "أُخرج كرهاً في جيش قريش ونُهي عن قتله (الرحيق ص222)", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/bilal-ibn-rabah, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-masud, role: "احتزّ رأس أبي جهل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/muadh-ibn-amr-ibn-al-jamuh, role: "ضرب أبا جهل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/muawwidh-ibn-afra, role: "ضرب أبا جهل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/hubab-ibn-al-mundhir, role: "صاحب مشورة الماء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ubayda-ibn-al-harith, role: "أحد المبارزين؛ استشهد بالصفراء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ikrima-ibn-abi-jahl, note: "قطع يد معاذ بن عمرو (الرحيق ص221)", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
+  - { type: caused, target: event/badr-prisoners, note: "أعقبتها قضية الأسارى والفداء" }
 sides:
   - label: { en: "Muslims of Medina", ar: "مسلمو المدينة" }
-    participants: [group/early-muslims]
+    participants: [group/early-muslims, group/muhajirun, group/ansar]
     commanders: [person/muhammad]
-  - label: { en: "Quraysh of Mecca", ar: "قريش مكة" }
+    strength:
+      range: [313, 317]
+      status: debated
+      note: "313 أو 314 أو 317 رجلاً؛ 82–86 من المهاجرين و61 من الأوس و170 من الخزرج؛ فرسان وسبعون بعيراً (الرحيق ص204–205)"
+      sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  - label: { en: "Quraysh of Mecca", ar: "جيش قريش" }
     participants: [group/quraysh]
     commanders: [person/abu-jahl]
+    strength:
+      value: 1000
+      status: tradition
+      note: "نحو 1300 عند الخروج بمائة فرس وستمائة درع؛ نقصوا إلى نحو ألف برجوع بني زهرة (~300) مع الأخنس بن شريق؛ تقدير النبي من الإبل المنحورة: بين التسعمائة والألف (الرحيق ص206–208، ص211)"
+      sources: [source/mubarakpuri-raheeq]
 map:
-  kind: route
+  kind: battle
   precision: schematic
-  center: [22.9, 39.2]
-  extent_km: 650
+  center: [23.77, 38.79]
+  extent_km: 8
   basemap: terrain
   date_for_borders: "0624"
   features:
-    - { type: point, role: city, label: { en: Medina, ar: المدينة المنورة }, at: [24.4686, 39.6142], source: source/geonames-gazetteer }
-    - { type: point, role: city, label: { en: Mecca, ar: مكة المكرمة }, at: [21.4225, 39.8262], source: source/geonames-gazetteer }
-    - { type: point, role: well, label: { en: "Badr (wells)", ar: "بدر (الآبار)" }, at: [23.77, 38.79], precision: locality, source: source/ibn-ishaq-guillaume }
-    - { type: line, role: march, side: 0, from: [24.4686, 39.6142], to: [23.77, 38.79], precision: schematic, source: source/ibn-ishaq-guillaume }
-    - { type: line, role: march, side: 1, from: [21.4225, 39.8262], to: [23.77, 38.79], precision: schematic, source: source/ibn-ishaq-guillaume }
+    - { type: point, role: well, label: { ar: "آبار بدر", en: "Wells of Badr" }, at: [23.77, 38.79], precision: locality, source: source/mubarakpuri-raheeq }
+    - { type: point, role: camp, side: 0, label: { ar: "معسكر المسلمين على الماء", en: "Muslim camp at the water" }, at: [23.768, 38.795], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: camp, side: 1, label: { ar: "معسكر قريش بالعدوة القصوى", en: "Quraysh camp, al-Udwa al-Quswa" }, at: [23.782, 38.775], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "العريش — مقر القيادة", en: "The 'Arish (command post)" }, at: [23.771, 38.793], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "الكثيب", en: "The dune (al-Kathib)" }, at: [23.778, 38.772], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "القليب — مقبرة قتلى المشركين", en: "The Qulayb (pit of the dead)" }, at: [23.773, 38.787], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "مقابر شهداء بدر", en: "Martyrs' cemetery" }, at: [23.766, 38.798], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "موقع قرية بدر", en: "Badr village site" }, at: [23.764, 38.800], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: line, role: march, side: 0, from: [24.4686, 39.6142], to: [23.77, 38.79], label: { ar: "مسير جيش المدينة عبر الروحاء والصفراء وذي أفران", en: "Medina army's march" }, precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: line, role: march, side: 1, from: [21.4225, 39.8262], to: [23.782, 38.775], label: { ar: "مسير جيش قريش عبر عسفان وقديد والجحفة", en: "Meccan army's march" }, precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: line, role: advance, side: 1, from: [23.55, 38.62], to: [23.47, 38.55], label: { ar: "العير بعد تحويلها إلى الساحل", en: "The caravan's escape to the coast" }, precision: schematic, source: source/mubarakpuri-raheeq }
   legend: true
-  sources: [source/ibn-ishaq-guillaume, source/geonames-gazetteer]
-  note: { en: "Straight lines show only where each force set out from and where they met; they are not the routes taken. Camps and battle lines are not drawn because no sourced positions are recorded here yet." }
+  sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  note: { ar: "مواضع تخطيطية مستمدة من خريطة الكتاب (ص214) ومن نص ابن هشام؛ المعسكر الإسلامي على أدنى ماء من بدر في العدوة الدنيا، ومعسكر قريش خلف الكثيب في العدوة القصوى.", en: "Schematic positions drawn from the book's own map (p. 214) and Ibn Hisham; the Muslims camped on the nearest water in al-Udwa al-Dunya, Quraysh behind the dune in al-Udwa al-Quswa." }
 media: { map: media/map-event-battle-of-badr }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 3, generated_by: "Devin; mined from al-Raheeq al-Makhtum pp. 204–233 with the classical citations in its footnotes" }
