@@ -3,16 +3,21 @@ class: event
 kind: birth
 label: { en: "The Year of the Elephant and the Prophet's birth", ar: "عام الفيل ومولد النبي" }
 summary:
-  en: "The traditional year of the Prophet Muhammad's birth in Mecca, remembered by the Arabs as the Year of the Elephant."
-  ar: "العام الذي تروي المصادر أن النبي محمدًا وُلد فيه بمكة، ويسميه العرب عام الفيل."
+  en: "The traditional year of the Prophet Muhammad's birth in Mecca — Monday 9 Rabi' I of the Year of the Elephant, given in the book as 20 or 22 April 571 CE."
+  ar: "العام الذي تروي المصادر أن النبي محمدًا وُلد فيه بشعب بني هاشم بمكة — صبيحة الإثنين التاسع من ربيع الأول لأول عام من حادثة الفيل، ويوافق 20 أو 22 أبريل 571م كما حققه المنصور فوري ومحمود باشا الفلكي."
 wings: [time, people]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0570~", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0571-04-2X", calendar: julian, precision: month, status: tradition, note: "صبيحة الإثنين 9 ربيع الأول عام الفيل، الموافق 20 أو 22 أبريل 571م (الرحيق ص54؛ رحمة للعالمين 1/38-39؛ الخضري 1/62). الاختلاف في تعيين يوم أبريل فرع لاختلاف التقويمات." }
+significance:
+  ar: "أخذ عبد المطلب المولود إلى الكعبة ودعا وشكر وسماه محمداً — ولم يكن الاسم معروفاً في العرب — وختنه يوم سابعه على عادة العرب (الرحيق ص54؛ ابن هشام 1/159-160)."
 relations:
-  - { type: occurred_at, target: place/mecca }
+  - { type: occurred_at, target: place/mecca, note: "شعب بني هاشم" }
   - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abd-al-muttalib, role: "سمّاه وختنه يوم سابعه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/thuwayba, role: "أول مرضعة بعد أمه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/halima-al-sadiyya, role: "مرضعته في بني سعد بن بكر", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5 (scaffold); upgraded by Devin from al-Raheeq al-Makhtum pp. 54-56" }

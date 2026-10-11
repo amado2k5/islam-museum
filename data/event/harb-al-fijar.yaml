@@ -1,0 +1,31 @@
+id: event/harb-al-fijar
+class: event
+kind: war
+label: { en: "The Fijar war", ar: "حرب الفجار" }
+summary:
+  en: "The sacrilegious war between Quraysh and Kinana on one side and Qays 'Aylan on the other, so named because it violated the sanctity of the sanctuary and the sacred months; the fifteen-year-old Muhammad attended, readying arrows for his uncles."
+  ar: "الحرب التي دارت بين قريش وكنانة وبين قيس عيلان، وسُميت فجاراً لانتهاك حرمات الحرم والأشهر الحرم؛ حضرها النبي وهو ابن خمس عشرة سنة ينبل على عمومته، أي يجهز لهم النبل للرمي."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0586~", calendar: julian, precision: year, status: tradition, note: "لخمس عشرة سنة من عمره (الرحيق ص59؛ ابن هشام 1/184-187)." }
+sides:
+  - label: { en: "Quraysh and Kinana", ar: "قريش وكنانة" }
+    participants: [group/quraysh, group/kinana]
+    commanders: [person/harb-ibn-umayya]
+  - label: { en: "Qays 'Aylan", ar: "قيس عيلان" }
+    participants: [group/qays-aylan]
+outcome:
+  en: "Qays prevailed in the morning; Kinana prevailed by mid-day."
+  ar: "كان الظفر أول النهار لقيس على كنانة حتى إذا كان وسط النهار كان الظفر لكنانة على قيس (الرحيق ص59)."
+significance:
+  ar: "على أثرها وقع حلف الفضول في ذي القعدة (الرحيق ص59)."
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad, role: "حضرها ينبل على عمومته", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/harb-ibn-umayya, role: "قائد قريش وكنانة لمكانته سناً وشرفاً", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/hilf-al-fudul }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 59-60" }

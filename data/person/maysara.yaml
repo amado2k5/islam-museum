@@ -1,0 +1,23 @@
+id: person/maysara
+class: person
+label: { en: "Maysara", ar: "ميسرة" }
+names:
+  - { kind: full, lang: ar, value: "ميسرة، غلام خديجة بنت خويلد" }
+gender: male
+roles: [agent]
+traditions: [sunni]
+summary:
+  en: "Khadija's servant who accompanied Muhammad on her trade trip to Syria and reported back the honesty and noble character he saw — the testimony that led her to seek his hand."
+  ar: "غلام خديجة رافق محمداً في رحلتها التجارية إلى الشام، فأخبرها بما رأى فيه من خلال عذبة وشمائل كريمة وفكر راجح ومنطق صادق ونهج أمين؛ فكان من أسباب رغبتها في زواجه."
+wings: [people]
+themes: []
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: witness, start: { edtf: "0595~" }, status: tradition, note: "شهد خُلق النبي في التجارة ونقله إلى خديجة (الرحيق ص60-61).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+faith:
+  - { value: unknown, basis: unknown }
+relations:
+  - { type: participated_in, target: event/marriage-to-khadija, role: "نقل شهادته في التجارة إلى خديجة", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 60-61" }

@@ -1,0 +1,20 @@
+id: event/bahira-encounter
+class: event
+kind: other
+label: { en: "The monk Bahira at Busra", ar: "لقاء الراهب بحيرا ببصرى" }
+summary:
+  en: "When Abu Talib's trade caravan stopped at Busra in Syria, the monk Bahira (whose name the book gives as Jirjis) recognized the twelve-year-old Muhammad by 'the seal of prophethood' between his shoulders, and advised his uncle to take him home for fear of the Jews."
+  ar: "لما نزل ركب أبي طالب التجاري ببصرى في الشام عرف الراهب بحيرا — واسمه عند الكتاب جرجيس — الفتى محمداً بصفته وخاتم النبوة في أسفل غضروف كتفه، وأوصى عمه بردّه ولا يقدم به إلى الشام خوفاً عليه من اليهود."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0583~", calendar: julian, precision: year, status: tradition, note: "وعمره اثنتا عشرة سنة — قيل وشهران وعشرة أيام عند ابن الجوزي (الرحيق ص58)." }
+relations:
+  - { type: occurred_at, target: place/busra }
+  - { type: had_participant, target: person/bahira, role: "عرفه بصفته وبالخاتم وأوصى بردّه", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/muhammad, role: "الفتى صاحب الخاتم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-talib, role: "أرجعه إلى مكة مع بعض غلمانه", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 58-59" }

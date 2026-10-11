@@ -1,0 +1,19 @@
+id: event/shaqq-al-sadr
+class: event
+kind: other
+label: { en: "The opening of the breast", ar: "حادثة شق الصدر" }
+summary:
+  en: "The tradition, narrated by Muslim via Anas, that Jibril opened the boy Muhammad's breast while he played with the lads in Banu Sa'd, removed 'Satan's share' and washed his heart with Zamzam water — after which Halima returned him to his mother."
+  ar: "ما يرويه مسلم عن أنس: أتى جبريل النبي وهو غلام يلعب مع الغلمان في بني سعد فشقّ عن قلبه وأخرج منه علقة وغسله في طست من ذهب بماء زمزم؛ وبعد هذه الوقعة خشيت عليه حليمة فردّته إلى أمه."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0574~", calendar: julian, precision: year, status: debated, note: "في السنة الرابعة أو الخامسة عند عامة أهل السير؛ ويقتضي سياق رواية ابن إسحاق أنه وقع في الثالثة (الرحيق ص56 هامش)." }
+relations:
+  - { type: occurred_at, target: place/bilad-banu-sad }
+  - { type: had_participant, target: person/muhammad, role: "كان يلعب مع الغلمان", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+  - { type: had_participant, target: person/halima-al-sadiyya, role: "ردّته إلى أمه خشية عليه", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 56-57" }

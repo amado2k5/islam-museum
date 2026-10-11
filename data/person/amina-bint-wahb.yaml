@@ -1,0 +1,28 @@
+id: person/amina-bint-wahb
+class: person
+label: { en: "Amina bint Wahb", ar: "آمنة بنت وهب" }
+names:
+  - { kind: full, lang: ar, value: "آمنة بنت وهب بن عبد مناف بن زهرة القرشية" }
+gender: female
+died: { edtf: "0577~", calendar: julian, precision: year, status: tradition, note: "ماتت بالأبواء في طريق العودة من يثرب وابنها في السادسة (الرحيق ص57).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+roles: [family-of-the-prophet]
+traditions: [sunni]
+summary:
+  en: "The Prophet's mother, of the Zuhra clan; she took her six-year-old son to Yathrib to visit his father's grave, fell ill on the road home, and died at al-Abwa between Mecca and Medina."
+  ar: "أم النبي، من بني زهرة؛ خرجت بولدها اليتيم إلى يثرب زيارةً لقبر أبيه فمكثت شهراً، ثم لحقها المرض في طريق العودة فماتت بالأبواء بين مكة والمدينة."
+wings: [people]
+themes: [family-marriage-kinship, women]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, note: "أم النبي.", sources: [source/ibn-hisham-sira] }
+faith:
+  - { value: arabian-polytheism, basis: tradition, note: "ماتت قبل البعثة؛ حالها الإيماني موضع خلاف لاهوتي لا يحسمه هذا القسم من الكتاب." }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: spouse_of, target: person/abdullah-ibn-abd-al-muttalib }
+  - { type: child_of, target: person/wahb-ibn-abd-manaf }
+  - { type: member_of, target: group/banu-zuhra }
+  - { type: participated_in, target: event/death-of-amina, role: "المتوفاة بالأبواء", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 54-57" }
