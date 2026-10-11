@@ -161,6 +161,24 @@ const tension = {
   },
 };
 
+const mapFeature = {
+  type: "object", additionalProperties: false, required: ["type", "role"],
+  properties: {
+    type: enm(["point", "line", "polygon"]), role: enm(kinds["map-feature-role"]), subkind: str, side: { type: "integer", minimum: 0 },
+    label: ref("localized"), at: ref("coordinates"), from: ref("coordinates"), to: ref("coordinates"),
+    path: { type: "array", items: ref("coordinates"), minItems: 2 }, geometry: str,
+    precision: enm(kinds["map-precision"]), source: str, note: str,
+  },
+};
+const eventMap = {
+  type: "object", additionalProperties: false, required: ["kind", "precision"],
+  properties: {
+    kind: enm(kinds["map-kind"]), precision: enm(kinds["map-precision"]), center: ref("coordinates"), extent_km: { type: "number", exclusiveMinimum: 0 },
+    basemap: enm(["terrain", "plain", "sea"]), date_for_borders: str, features: { type: "array", items: mapFeature },
+    legend: { type: "boolean" }, sources: strs, note: ref("localized"),
+  },
+};
+
 const kind = (c: string) => ({ kind: enm(kinds[c]) });
 const D = ref("date");
 const L = ref("localized");
@@ -191,7 +209,7 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       participants: { type: "array", items: { type: "object", required: ["target"], properties: { target: entityRef, role: str } } },
       outcome: L, part_of: entityRef, casualties: { oneOf: [str, rangeNum] }, significance: L,
       sides: { type: "array", items: { type: "object", additionalProperties: false, required: ["label"], properties: { label: L, participants: entityRefs, commanders: entityRefs, strength: rangeNum, note: str } } },
-      laws_of_war: entityRefs, recurs: str, first_held: D,
+      laws_of_war: entityRefs, map: eventMap, recurs: str, first_held: D,
       editions: { type: "array", items: { type: "object", properties: { year: { type: "integer" }, attendance: rangeNum, note: str } } } },
     required: ["kind"],
   },
@@ -206,7 +224,7 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
     required: ["kind"],
   },
   place: {
-    properties: { ...kind("place"), coordinates: ref("coordinates"), geometry: str,
+    properties: { ...kind("place"), coordinates: ref("coordinates"), coordinate_precision: enm(["site", "locality", "approx"]), coordinate_note: str, geometry: str,
       historical_names: { type: "array", items: { type: "object", required: ["name"],
         properties: { name: str, lang: str, from: D, until: D } } },
       modern_country: entityRef, part_of: entityRef, founded: D },
@@ -228,8 +246,10 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   },
   media: {
     properties: { ...kind("media"), url: { type: "string", format: "uri" }, iiif_image: { type: "string", format: "uri" },
-      thumbnail: str, license: enm(licenses), attribution: str, creator: str, depicts: entityRefs, alt: L },
-    required: ["kind", "license", "attribution", "alt"],
+      thumbnail: str, license: enm(licenses), attribution: str, creator: str, depicts: entityRefs, alt: L,
+      generated: { type: "object", properties: { tool: str, version: str, inputs_hash: str, date: str, model: str, seed: intStr, prompt_hash: str } },
+      precision: enm(kinds["map-precision"]), basemap_sources: strs, files: { type: "object", additionalProperties: str } },
+    required: ["kind", "license", "alt"],
   },
   work: {
     properties: { ...kind("work"), made: madeBlock, genre: strs, disciplines: strs, authors: entityRefs, language: entityRef, composed: D,

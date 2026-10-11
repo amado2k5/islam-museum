@@ -1,0 +1,15 @@
+id: place/badr
+class: place
+kind: town
+label: { en: "Badr", ar: "بدر" }
+summary:
+  en: "Settlement in the Hejaz, southwest of Medina, near the wells where the Battle of Badr was fought in 624 CE."
+  ar: "بلدة في الحجاز جنوب غرب المدينة المنورة، قرب الآبار التي دارت عندها غزوة بدر سنة 624م."
+wings: [place]
+regions: [arabia]
+coordinates: [23.77, 38.79]
+coordinate_precision: locality
+coordinate_note: "GeoNames places the modern town (Badr Hunayn) 1.4 km away; the exact site of the wells is a locality, not a surveyed point."
+external_ids: { geonames: "107744" }
+sources: [source/geonames-gazetteer]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from docs/plan/16 §6, checked against GeoNames" }

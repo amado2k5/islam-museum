@@ -9,7 +9,8 @@ _Last updated 11 October 2026. Read this first in a new session, then `docs/plan
 | Repo scaffold (plan Phase 0) | Done and deployed: schema (21 classes incl. `listing`, `screen`), 124 themes, story roles, predicates, validator, graph/derive/api/coverage scripts, Hijri converter, Astro site (en/ar, RTL), CI, issue forms |
 | Content (Phase 1 spine, started) | 13 periods, 25 events of the Prophet's life (with sides on conflicts), 4 people, 6 places (GeoNames/Pleiades ids on 5), 12 sources, *The Message* (screen example), all `draft` |
 | Qur'an | Frozen from Tanzil v1.1: `work/quran`, 114 suras, 6,236 ayat. Source files committed in `data/work/quran-source/` with sha256; the validator re-checks every ayah byte for byte. Sura names are museum labels still to verify against Tanzil metadata. Second witness (King Fahd Hafs) not done. |
-| Plan documents | 00-16 in `docs/plan/`. Doc 16 (event maps and images) is in the repo but **not yet implemented or read in detail**. |
+| Doc 16 (event maps) | Partly implemented: `map` block on `event`, `map`/`illustration` media kinds, `geo/` folder, validator rules (every map feature needs a source), deterministic renderer `scripts/media/maps/render.py` (run in `.venv-media`; outputs to `~/islam-museum-media/img`). One pilot map (Battle of Badr, schematic route). **Not done:** Natural Earth basemap (needs download), scale bar/north arrow, `brief.py`, `accuracy.yaml`, `verify_coords.py`, illustration generation (needs diffusion model), `ingest.py` and showing maps on event pages. |
+| Plan documents | 00-16 in `docs/plan/`. |
 
 Run `npm install && npm install --prefix site && npm test && npm run build` to confirm the state (expect 0 validation errors, 25 tests passing, about 12,900 pages).
 
@@ -40,7 +41,7 @@ Both skip finished files and resume partial ones. Checksums go to `$HARVEST/raw/
 1. Let the downloads finish (check `tmux ls`; rerun the queue commands if a session died).
 2. After `raw/wikidata/latest-all.json.bz2` is complete: run the filter, pass 1 then pass 2, then `--build` (commands in the script's docstring). Do not delete the dump until the tables exist.
 3. Load the OpenITI metadata (`load_tables.py`), then the Wikipedia category walk and page extraction (doc 15 §6.2; scripts `select_pages.py` and `extract.py` are not written yet).
-4. Read and implement doc 16 (map block, renderer, briefs).
+4. Finish doc 16: basemap download (Natural Earth, ETOPO), more map blocks with sourced features, `brief.py`, `accuracy.yaml`, `verify_coords.py`, ingest maps into `media/` and event pages; illustrations need the local image model (doc 10).
 5. Continue Phase 1 spine content: places (60), people (150 + 100), more events, per `docs/plan/06-roadmap.md`; first screen batch; theme hubs.
 6. Manual items for the founder: second witness for the Qur'an text; verify sura names against Tanzil metadata; verify bibliographic details of the draft sources; add a contact email to the harvest User-Agent if wanted.
 

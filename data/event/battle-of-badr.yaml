@@ -20,11 +20,27 @@ relations:
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
 sides:
-  - label: { en: "Muslims of Medina" }
+  - label: { en: "Muslims of Medina", ar: "مسلمو المدينة" }
     participants: [group/early-muslims]
     commanders: [person/muhammad]
-  - label: { en: "Quraysh of Mecca" }
+  - label: { en: "Quraysh of Mecca", ar: "قريش مكة" }
     participants: [group/quraysh]
     commanders: [person/abu-jahl]
+map:
+  kind: route
+  precision: schematic
+  center: [22.9, 39.2]
+  extent_km: 650
+  basemap: plain
+  date_for_borders: "0624"
+  features:
+    - { type: point, role: city, label: { en: Medina, ar: المدينة المنورة }, at: [24.4686, 39.6142], source: source/geonames-gazetteer }
+    - { type: point, role: city, label: { en: Mecca, ar: مكة المكرمة }, at: [21.4225, 39.8262], source: source/geonames-gazetteer }
+    - { type: point, role: well, label: { en: "Badr (wells)", ar: "بدر (الآبار)" }, at: [23.77, 38.79], precision: locality, source: source/ibn-ishaq-guillaume }
+    - { type: line, role: march, side: 0, from: [24.4686, 39.6142], to: [23.77, 38.79], precision: schematic, source: source/ibn-ishaq-guillaume }
+    - { type: line, role: march, side: 1, from: [21.4225, 39.8262], to: [23.77, 38.79], precision: schematic, source: source/ibn-ishaq-guillaume }
+  legend: true
+  sources: [source/ibn-ishaq-guillaume, source/geonames-gazetteer]
+  note: { en: "Straight lines show only where each force set out from and where they met; they are not the routes taken. Camps and battle lines are not drawn because no sourced positions are recorded here yet." }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

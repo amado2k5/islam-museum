@@ -29,6 +29,16 @@
     "coordinates": {
       "$ref": "_base.schema.json#/$defs/coordinates"
     },
+    "coordinate_precision": {
+      "enum": [
+        "site",
+        "locality",
+        "approx"
+      ]
+    },
+    "coordinate_note": {
+      "type": "string"
+    },
     "geometry": {
       "type": "string"
     },

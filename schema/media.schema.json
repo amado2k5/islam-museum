@@ -18,7 +18,9 @@
         "audio",
         "video",
         "model3d",
-        "tileset"
+        "tileset",
+        "map",
+        "illustration"
       ]
     },
     "url": {
@@ -56,12 +58,57 @@
     },
     "alt": {
       "$ref": "_base.schema.json#/$defs/localized"
+    },
+    "generated": {
+      "type": "object",
+      "properties": {
+        "tool": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "inputs_hash": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "prompt_hash": {
+          "type": "string"
+        }
+      }
+    },
+    "precision": {
+      "enum": [
+        "site",
+        "locality",
+        "approximate",
+        "schematic"
+      ]
+    },
+    "basemap_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
     }
   },
   "required": [
     "kind",
     "license",
-    "attribution",
     "alt"
   ],
   "unevaluatedProperties": false

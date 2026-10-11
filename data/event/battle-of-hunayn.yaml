@@ -18,10 +18,10 @@ relations:
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/conquest-of-mecca }
 sides:
-  - label: { en: "Muslims of Medina and Mecca" }
+  - label: { en: "Muslims of Medina and Mecca", ar: "مسلمو المدينة ومكة" }
     participants: [group/early-muslims]
     commanders: [person/muhammad]
-  - label: { en: "Hawazin and Thaqif" }
+  - label: { en: "Hawazin and Thaqif", ar: "هوازن وثقيف" }
     participants: [group/hawazin, group/thaqif]
     commanders: [person/malik-ibn-awf]
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]

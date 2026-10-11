@@ -18,10 +18,10 @@ relations:
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/battle-of-uhud }
 sides:
-  - label: { en: "Defenders of Medina" }
+  - label: { en: "Defenders of Medina", ar: "المدافعون عن المدينة" }
     participants: [group/early-muslims]
     commanders: [person/muhammad]
-  - label: { en: "Quraysh and allied tribes" }
+  - label: { en: "Quraysh and allied tribes", ar: "قريش والقبائل المتحالفة معها" }
     participants: [group/quraysh]
     commanders: [person/abu-sufyan-ibn-harb]
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]

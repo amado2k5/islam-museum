@@ -18,10 +18,10 @@ relations:
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/treaty-of-hudaybiyya }
 sides:
-  - label: { en: "Muslims of Medina" }
+  - label: { en: "Muslims of Medina", ar: "مسلمو المدينة" }
     participants: [group/early-muslims]
     commanders: [person/muhammad]
-  - label: { en: "Jewish communities of Khaybar" }
+  - label: { en: "Jewish communities of Khaybar", ar: "الجماعات اليهودية في خيبر" }
     participants: [group/jews-of-khaybar]
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

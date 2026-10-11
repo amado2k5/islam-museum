@@ -19,10 +19,10 @@ relations:
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/battle-of-badr }
 sides:
-  - label: { en: "Muslims of Medina" }
+  - label: { en: "Muslims of Medina", ar: "مسلمو المدينة" }
     participants: [group/early-muslims]
     commanders: [person/muhammad]
-  - label: { en: "Quraysh of Mecca and allies" }
+  - label: { en: "Quraysh of Mecca and allies", ar: "قريش مكة وحلفاؤها" }
     participants: [group/quraysh]
     commanders: [person/abu-sufyan-ibn-harb, person/khalid-ibn-al-walid]
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]

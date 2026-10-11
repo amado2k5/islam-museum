@@ -14,6 +14,7 @@ import { hijriToCivil, toJDN } from "./hijri/convert.js";
 export interface Issue { level: "error" | "warn"; file: string; msg: string }
 
 const CONFLICT_KINDS = new Set(["war", "campaign", "battle", "skirmish", "raid", "siege", "naval-battle", "revolt", "civil-war", "mutiny", "massacre", "conquest"]);
+const SPATIAL_KINDS = new Set(["battle", "siege", "naval-battle", "campaign", "war", "conquest", "treaty", "migration", "revolt", "massacre", "council", "founding", "raid", "skirmish"]);
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const REF = /^[a-z]+\/[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -184,6 +185,29 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (voices.length < 2) err(file, `tensions[${i}] (${t.id}): needs at least two cited voices, has ${voices.length}`);
       for (const s of voices.flatMap((x: any) => x.sources ?? [])) if (!known.has(s)) err(file, `tensions[${i}]: source ${s} does not exist`);
     }
+
+
+    // ---- map blocks (docs/plan/16): every feature needs a source; schematic positions are flagged; sides must exist
+    if (entity.class === "event" && entity.map) {
+      const m = entity.map;
+      (m.features ?? []).forEach((f: any, i: number) => {
+        if (!f.source) err(file, `map.features[${i}] (${f.role}) has no source: no map feature without a source`);
+        else if (!known.has(f.source)) err(file, `map.features[${i}]: source ${f.source} does not exist`);
+        if (f.side !== undefined && f.side >= (entity.sides?.length ?? 0)) err(file, `map.features[${i}]: side ${f.side} is not in sides[] (${entity.sides?.length ?? 0} listed)`);
+        if (f.type === "point" && !f.at) err(file, `map.features[${i}]: a point needs at`);
+        if (f.type === "line" && !(f.path || (f.from && f.to))) err(file, `map.features[${i}]: a line needs path or from and to`);
+        if (f.type === "polygon" && !f.geometry) err(file, `map.features[${i}]: a polygon needs geometry`);
+        if (f.geometry && !existsSync(p(f.geometry))) err(file, `map.features[${i}]: geometry file ${f.geometry} is missing`);
+      });
+      for (const s of m.sources ?? []) if (!known.has(s)) err(file, `map.sources: ${s} does not exist`);
+      if (!m.center && !(entity.relations ?? []).some((r: any) => ["occurred_at", "site_of"].includes(r.type))) err(file, "map needs a center or an occurred_at place");
+    }
+    if (entity.class === "event" && SPATIAL_KINDS.has(entity.kind)) {
+      const placed = (entity.relations ?? []).filter((r: any) => ["occurred_at", "site_of"].includes(r.type)).map((r: any) => r.target);
+      const hasCoords = entity.map?.center || placed.some((t: string) => loaded.find((x) => x.entity?.id === t)?.entity.coordinates);
+      if (!hasCoords) warn(file, `${entity.kind} has no coordinates (a place with coordinates or map.center) so no map can be drawn`);
+    }
+    if (entity.class === "media" && entity.kind !== "map" && entity.kind !== "illustration" && !entity.generated && !entity.attribution) err(file, "attribution is required for media that is not generated");
 
     // ---- screen index rules (docs/plan/12)
     if (entity.class === "screen") {

@@ -211,6 +211,149 @@
         "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
       }
     },
+    "map": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "precision"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "locator",
+            "battle",
+            "siege",
+            "naval",
+            "campaign",
+            "route",
+            "area"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "site",
+            "locality",
+            "approximate",
+            "schematic"
+          ]
+        },
+        "center": {
+          "$ref": "_base.schema.json#/$defs/coordinates"
+        },
+        "extent_km": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "basemap": {
+          "enum": [
+            "terrain",
+            "plain",
+            "sea"
+          ]
+        },
+        "date_for_borders": {
+          "type": "string"
+        },
+        "features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "role"
+            ],
+            "properties": {
+              "type": {
+                "enum": [
+                  "point",
+                  "line",
+                  "polygon"
+                ]
+              },
+              "role": {
+                "enum": [
+                  "well",
+                  "spring",
+                  "camp",
+                  "line",
+                  "advance",
+                  "retreat",
+                  "flank",
+                  "march",
+                  "siege_line",
+                  "wall",
+                  "gate",
+                  "fort",
+                  "ship",
+                  "landmark",
+                  "terrain",
+                  "city",
+                  "area",
+                  "event_point"
+                ]
+              },
+              "subkind": {
+                "type": "string"
+              },
+              "side": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "label": {
+                "$ref": "_base.schema.json#/$defs/localized"
+              },
+              "at": {
+                "$ref": "_base.schema.json#/$defs/coordinates"
+              },
+              "from": {
+                "$ref": "_base.schema.json#/$defs/coordinates"
+              },
+              "to": {
+                "$ref": "_base.schema.json#/$defs/coordinates"
+              },
+              "path": {
+                "type": "array",
+                "items": {
+                  "$ref": "_base.schema.json#/$defs/coordinates"
+                },
+                "minItems": 2
+              },
+              "geometry": {
+                "type": "string"
+              },
+              "precision": {
+                "enum": [
+                  "site",
+                  "locality",
+                  "approximate",
+                  "schematic"
+                ]
+              },
+              "source": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "legend": {
+          "type": "boolean"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        }
+      }
+    },
     "recurs": {
       "type": "string"
     },
