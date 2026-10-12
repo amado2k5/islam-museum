@@ -1,0 +1,57 @@
+id: person/umm-ziyad-al-ashjaiyya
+class: person
+label:
+  ar: أم زياد الأشجعية
+  en: Umm Ziyad al-Ashja'iyya
+names:
+- kind: full
+  lang: ar
+  value: أم زياد الأشجعية
+- kind: kunya
+  lang: ar
+  value: أم زياد
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'صحابية أشجعية خرجت مع النبي في غزوة خيبر مع خمس نسوة أخريات، فسألهن النبي: «بإذن من خرجتن؟» فأجبن أنهن خرجن لمداواة الجرحى ومناولة السهام وسقي السويق، فقُسم لهن من التمر.'
+  en: A Companion of Ashja' who went out with the Prophet on the Khaybar campaign with five other women; the Prophet asked 'With whose leave did you come out?' and they answered that they had come to treat the wounded, hand out arrows and give
+    out barley drink, and dates were apportioned to them.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12073 (ص 2000).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: participated_in
+  target: event/battle-of-khaybar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12073، ص 2000
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2000, entry 12073)

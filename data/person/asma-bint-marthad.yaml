@@ -1,0 +1,54 @@
+id: person/asma-bint-marthad
+class: person
+label:
+  ar: أسماء بنت مرثد
+  en: Asma' bint Marthad
+names:
+- kind: full
+  lang: ar
+  value: أسماء بنت مرثد (مرثدة) من بني حارثة الأنصارية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أنصارية من بني حارثة؛ ذكرها أبو عمر وقال إن حديثها لا يصح لانفراد حرام بن عثمان به وهو ضعيف عندهم جميعاً؛ ويذكر ابن سعد أنها أسلمت وبايعت وأن زوجها الضحاك بن خليفة.
+  en: An Ansari woman of Banu Haritha; Abu Umar mentions her and says her hadith is not sound because Haram ibn Uthman, who is weak in everyone's view, is alone in narrating it; Ibn Sa'd says she embraced Islam and pledged and that her husband
+    was al-Dahhak ibn Khalifa.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 10859 (ص 1812).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 10859، ص 1812
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1812, entry 10859)

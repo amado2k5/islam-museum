@@ -1,0 +1,61 @@
+id: person/umm-sad-bint-sad-ibn-al-rabi
+class: person
+label:
+  ar: أم سعد بنت سعد بن الربيع
+  en: Umm Sa'd bint Sa'd ibn al-Rabi'
+names:
+- kind: full
+  lang: ar
+  value: أم سعد (جميلة) بنت سعد بن الربيع الأنصارية
+- kind: kunya
+  lang: ar
+  value: أم سعد
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: ابنة سعد بن الربيع الذي قُتل يوم أحد وهي حمل؛ نشأت يتيمة في حجر أبي بكر، وتزوجها زيد بن ثابت فولدت له خارجة وسعداً وعثمان وسليمان وأم زيد؛ وبسببها وبسبب ميراثها ورد خبر في توريث الحمل.
+  en: Daughter of Sa'd ibn al-Rabi', who was killed at Uhud while she was in the womb; she grew up an orphan in Abu Bakr's care and married Zayd ibn Thabit, bearing him Kharija, Sa'd, Uthman, Sulayman and Umm Zayd; a report on the inheritance
+    of an unborn child is linked to her.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12091 (ص 2002).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/sad-ibn-al-rabi
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/zayd-ibn-thabit
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12091، ص 2002
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2002, entry 12091)

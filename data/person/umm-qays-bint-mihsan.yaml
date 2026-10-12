@@ -1,0 +1,57 @@
+id: person/umm-qays-bint-mihsan
+class: person
+label:
+  ar: أم قيس بنت محصن
+  en: Umm Qays bint Mihsan
+names:
+- kind: full
+  lang: ar
+  value: أم قيس بنت محصن الأسدية
+- kind: kunya
+  lang: ar
+  value: أم قيس
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أخت عكاشة بن محصن، أسلمت قديماً بمكة وبايعت وهاجرت؛ روت أحاديث في الصحيحين منها حديث ولدها الصغير الذي لم يأكل الطعام، وقال النبي في إحدى القصص «ما لها طال عمرها»، فقيل إنه لا يُعلم امرأة عمّرت ما عمّرت.
+  en: A sister of Ukkasha ibn Mihsan, she embraced Islam early at Mecca, gave her pledge and emigrated; she narrated hadith in the two collections, including the one about her small son who had not yet eaten food, and in one story the Prophet
+    said 'May her life be long', after which it was said no woman was known to have lived as long as she did.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12254 (ص 2027).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-asad
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12254، ص 2027
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2027, entry 12254)

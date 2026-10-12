@@ -1,0 +1,69 @@
+id: person/umm-kulthum-bint-ali
+class: person
+label:
+  ar: أم كلثوم بنت علي
+  en: Umm Kulthum bint Ali
+names:
+- kind: full
+  lang: ar
+  value: أم كلثوم بنت علي بن أبي طالب الهاشمية
+- kind: kunya
+  lang: ar
+  value: أم كلثوم
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: بنت علي بن أبي طالب وفاطمة بنت النبي، وُلدت في عهد النبي؛ يذكر ابن حجر أخباراً عن خطبة عمر بن الخطاب لها ومهرها وولديها زيد ورقية، ثم عن زواجها بعده من أبناء جعفر بن أبي طالب.
+  en: A daughter of Ali ibn Abi Talib and Fatima, the Prophet's daughter, born in the Prophet's lifetime; Ibn Hajar reports accounts of Umar ibn al-Khattab's proposal to her, her dower and her children Zayd and Ruqayya, and then her marriages
+    after him to sons of Ja'far ibn Abi Talib.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12273 (ص 2033).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/ali-ibn-abi-talib
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/fatima
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/umar-ibn-al-khattab
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/abdullah-ibn-jafar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12273، ص 2033
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2033, entry 12273)

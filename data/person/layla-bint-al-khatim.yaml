@@ -1,0 +1,54 @@
+id: person/layla-bint-al-khatim
+class: person
+label:
+  ar: ليلى بنت الخطيم
+  en: Layla bint al-Khatim
+names:
+- kind: full
+  lang: ar
+  value: ليلى بنت الخطيم بن عدي بن عمرو بن سواد بن ظفر الأنصارية الأوسية الظفرية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من بني ظفر من الأوس، استدركها أبو علي الجياني على الاستيعاب؛ تذكر الروايات أنها عرضت نفسها على النبي فقبلها ثم استقالته فأقالها، ويعدّها ابن سعد أول امرأة بايعت النبي من الأنصار، وكان يقال لها «أكلة الأسد».
+  en: From Banu Zafar of the Aws, added by Abu Ali al-Jayyani as a supplement to al-Isti'ab; reports say she offered herself to the Prophet who accepted and then she asked to be released and he released her; Ibn Sa'd counts her among the first
+    women of the Ansar to pledge to the Prophet, and she was called 'the lion's meal'.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11757 (ص 1955).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11757، ص 1955
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1955, entry 11757)
