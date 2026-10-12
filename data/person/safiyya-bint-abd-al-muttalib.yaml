@@ -1,0 +1,78 @@
+id: person/safiyya-bint-abd-al-muttalib
+class: person
+label:
+  ar: صفية بنت عبد المطلب
+  en: Safiyya bint Abd al-Muttalib
+names:
+- kind: full
+  lang: ar
+  value: صفية بنت عبد المطلب بن هاشم القرشية الهاشمية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: عمة النبي وأم الزبير بن العوام وشقيقة حمزة؛ أسلمت وهاجرت مع ولدها، وتُروى عنها قصة قتلها يهودياً أطلّ على الحصن يوم الخندق، وعاشت إلى خلافة عمر.
+  en: An aunt of the Prophet, mother of al-Zubayr ibn al-Awwam and full sister of Hamza; she embraced Islam and emigrated with her son, a report tells of her killing a man who spied on the women's fort at the Trench, and she lived into Umar's
+    caliphate.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 11451 (ص 1911).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/abd-al-muttalib
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/hamza
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/abu-talib
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/abbas-ibn-abd-al-muttalib
+  sources:
+  - source/ibn-hajar-isaba
+- type: parent_of
+  target: person/zubayr-ibn-al-awwam
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11451، ص 1911 (تراجم النساء)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-women-1
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1911, entry 11451)

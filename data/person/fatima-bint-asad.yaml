@@ -1,0 +1,61 @@
+id: person/fatima-bint-asad
+class: person
+label:
+  ar: فاطمة بنت أسد
+  en: Fatima bint Asad
+names:
+- kind: full
+  lang: ar
+  value: فاطمة بنت أسد بن هاشم بن عبد مناف الهاشمية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: والدة علي بن أبي طالب وإخوته؛ هاجرت وماتت بالمدينة في الصحيح، وكفّنها النبي في قميصه.
+  en: Mother of Ali ibn Abi Talib and his brothers; in the sounder report she emigrated and died in Medina, and the Prophet shrouded her in his shirt.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 11627 (ص 1934).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/abu-talib
+  sources:
+  - source/ibn-hajar-isaba
+- type: parent_of
+  target: person/ali-ibn-abi-talib
+  sources:
+  - source/ibn-hajar-isaba
+- type: parent_of
+  target: person/jafar-ibn-abi-talib
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11627، ص 1934 (تراجم النساء)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-women-1
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1934, entry 11627)

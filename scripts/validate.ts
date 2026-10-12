@@ -19,7 +19,8 @@ const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const REF = /^[a-z]+\/[a-z0-9]+(-[a-z0-9]+)*$/;
 
 /** Hijri strings: [-]YYYY[-MM[-DD]] with optional ~ ? markers; month 1-12, day 1-30. */
-export function hijriProblem(h: string): string | null {
+export function hijriProblem(h: any): string | null {
+  if (typeof h !== "string") return `Hijri date must be a quoted string (YAML reads an unquoted 0008 as a number): ${JSON.stringify(h)}`;
   const m = h.match(/^(-?\d{4})(?:-(\d{2})(?:-(\d{2}))?)?[~?%]?$/);
   if (!m) return `malformed Hijri date "${h}" (expected YYYY[-MM[-DD]] with optional ~ or ?)`;
   const mo = m[2] ? Number(m[2]) : 1;
