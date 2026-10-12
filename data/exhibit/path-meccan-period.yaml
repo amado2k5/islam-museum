@@ -1,0 +1,106 @@
+id: exhibit/path-meccan-period
+class: exhibit
+kind: trail
+label:
+  ar: 'العهد المكي: من الغار إلى الهجرة'
+summary:
+  ar: مسارٌ زمني عبر سنوات الدعوة بمكة، من نزول الوحي في غار حراء إلى الهجرة، في اثني عشر حدثًا مرتّبة كما تسلسلت.
+audience:
+- student
+- newcomer
+duration_minutes: 45
+wings:
+- time
+- people
+periods:
+- period/prophetic-era
+regions:
+- arabia
+rooms:
+- title:
+    ar: نزول الوحي
+  body:
+    ar: 'نقطة البداية: غار حراء.'
+  features:
+  - event/first-revelation
+- title:
+    ar: دعوة العشيرة
+  body:
+    ar: الانتقال إلى الدعوة وفق ما تبيّنه الصفحة، ومن حماها.
+  features:
+  - event/dawat-al-ashira
+- title:
+    ar: الأذى والتعذيب
+  body:
+    ar: ما أصاب الضعفاء من المؤمنين، وأسماء من ثبتوا.
+  features:
+  - event/persecution-of-mustadafin
+- title:
+    ar: الهجرة الأولى إلى الحبشة
+  body:
+    ar: أول خروج من مكة طلبًا للأمان.
+  features:
+  - event/first-migration-to-abyssinia
+- title:
+    ar: إسلام حمزة
+  body:
+    ar: كيف دخل حمزة في الإسلام، وما أثر ذلك.
+  features:
+  - event/islam-of-hamza
+- title:
+    ar: إسلام عمر
+  body:
+    ar: بعد أيام من إسلام حمزة، وماذا تغيّر في ظهور المسلمين.
+  features:
+  - event/islam-of-umar
+- title:
+    ar: مقاطعة بني هاشم
+  body:
+    ar: الصحيفة والحصار في الشعب.
+  features:
+  - event/boycott-of-banu-hashim
+- title:
+    ar: عام الحزن
+  body:
+    ar: فقد النبي حاميه وزوجه في سنة واحدة.
+  features:
+  - event/year-of-sorrow
+- title:
+    ar: الرحلة إلى الطائف
+  body:
+    ar: طلب النصرة خارج مكة.
+  features:
+  - event/journey-to-taif
+- title:
+    ar: بيعتا العقبة
+  body:
+    ar: اللتان مهّدتا لدار الهجرة في المدينة.
+  features:
+  - event/pledges-of-aqaba
+- title:
+    ar: دار الندوة
+  body:
+    ar: ما دبّرته قريش في آخر أيامه بمكة.
+  features:
+  - event/plot-of-dar-al-nadwa
+- title:
+    ar: الهجرة
+  body:
+    ar: نهاية العهد المكي وبداية المرحلة المدنية.
+  features:
+  - event/hijra
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/mubarakpuri-raheeq
+- source/ibn-hisham-sira
+provenance:
+  layer: own-research
+  source: مسار تعليمي مبني على صفحات المتحف نفسها (docs/plan/19-tour-learn.md)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: learn-pathways-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; pathway assembled from existing museum entries (docs/plan/19-tour-learn.md)

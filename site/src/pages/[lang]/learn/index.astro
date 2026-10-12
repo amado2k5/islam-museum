@@ -1,12 +1,15 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { href } from "../../../lib/graph";
+import { href, realNodes, labelOf, summaryOf } from "../../../lib/graph";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const L = T.learn;
+const ORDER = ["path-islam-in-30-minutes", "path-meccan-period", "path-abyssinia-migrations", "path-women-around-the-prophet", "path-from-opposition-to-islam"];
+const rank = (id: string) => { const k = ORDER.indexOf(id.replace("exhibit/", "")); return k === -1 ? 99 : k; };
+const paths = realNodes.filter((n: any) => n.class === "exhibit" && String(n.id).startsWith("exhibit/path-")).sort((a: any, b: any) => rank(a.id) - rank(b.id) || String(a.id).localeCompare(String(b.id)));
 ---
 <BaseLayout lang={lang} title={L.title} description={L.lede} path={`/${lang}/learn/`}>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
@@ -14,6 +17,16 @@ const L = T.learn;
     <h1>{L.title}</h1>
     <p style="font-size:1.2rem;max-width:var(--measure)">{L.lede}</p>
     <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{L.status}</p>
+
+    {paths.length > 0 && (
+      <section>
+        <h2>{L.available_title}</h2>
+        <p class="muted" style="max-width:var(--measure)">{L.available_note}</p>
+        <ul class="grid-cards" style="margin-bottom:2rem">{paths.map((n: any) => (
+          <li><a class="card" href={href(lang, n.id)}><h3 class="card-title">{labelOf(n, lang)}</h3><span>{summaryOf(n, lang)}</span><span class="ui muted" style="display:block;margin-top:8px">{L[`kind_${n.kind}`] ?? L.kind_trail} · {n.duration_minutes} {L.minutes} · {(n.rooms ?? []).length} {L.steps}</span></a></li>
+        ))}</ul>
+      </section>
+    )}
 
     <h2>{L.offer_title}</h2>
     <ul style="max-width:var(--measure);line-height:1.8">{L.offer.map((o: string) => <li>{o}</li>)}</ul>
