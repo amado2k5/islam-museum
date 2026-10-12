@@ -3,6 +3,12 @@ import "../styles/global.css";
 import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 import Logo from "../components/Logo.astro";
+// Webfonts sit one hop behind the stylesheet, which delays first paint under throttled networks; the two faces above the fold
+// are preloaded so they fetch in parallel with the CSS instead.
+import naskh400 from "@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2?url";
+import amiri400 from "@fontsource/amiri/files/amiri-arabic-400-normal.woff2?url";
+import serif400 from "@fontsource/source-serif-4/files/source-serif-4-latin-400-normal.woff2?url";
+import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2?url";
 
 interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean }
 const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex } = Astro.props;
@@ -14,6 +20,7 @@ const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`
 const multilingual = LANGS.length > 1;
 const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
+const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
 ---
 <!doctype html>
 <html lang={lang} dir={T.dir}>
@@ -36,6 +43,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
     <meta name="theme-color" content="#0a2533" />
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {fonts.map((f) => <link rel="preload" href={f} as="font" type="font/woff2" crossorigin />)}
     <script is:inline>
       document.documentElement.classList.add("js");
       try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); if (localStorage.getItem("font") === "sans") document.documentElement.setAttribute("data-font", "sans"); } catch (e) {}
