@@ -1,0 +1,57 @@
+---
+// Constellation view (Part 3, C.5): the entity graph around one centre, two hops, typed and coloured nodes, labelled edges.
+// The page is static: it renders a default centre with its neighbour list (the no-JS and screen-reader reading); the browser
+// reads ?from=<class/slug>, fetches /api/v1/graph/<class>/<slug>.json (static, same origin) and draws the SVG.
+import { readFileSync } from "node:fs";
+import { parse } from "yaml";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { repoPath } from "../../../lib/paths";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { byId, edgesFrom, href, labelOf, summaryOf } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const G = T.graph;
+const predicates: Record<string, any> = parse(readFileSync(repoPath("schema", "predicates.yaml"), "utf8"));
+const labels: Record<string, string> = {};
+for (const [k, v] of Object.entries(predicates)) { labels[k] = v.label?.[lang] ?? v.label?.en ?? k; if (v.inverse) labels[v.inverse] = v.inverse_label?.[lang] ?? v.inverse_label?.en ?? v.inverse; }
+const DEFAULT = "person/muhammad";
+const centre = byId.get(DEFAULT)!;
+const neighbours = edgesFrom(DEFAULT).filter((e) => !e.inverse && byId.get(e.to)).slice(0, 22).map((e) => ({ node: byId.get(e.to)!, type: e.type }));
+const CLASSES = ["person", "place", "event", "work", "concept", "group", "polity", "passage", "period", "journey", "building", "object", "practice", "source", "other"];
+const payload = { lang, labels, classes: Object.fromEntries(CLASSES.map((c) => [c, T.class[c] ?? G.other])), t: { centre: G.centre, open: G.open, recentre: G.recentre, neighbours: G.neighbours, loading: G.loading, failed: G.failed, hops: G.hops } };
+---
+<BaseLayout lang={lang} title={G.title} description={G.lede} path={`/${lang}/graph/`}>
+  <div class="wrap" style="padding-block:20px 10px" data-pagefind-ignore>
+    <h1 style="margin:0 0 6px">{G.title}</h1>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 14px">{G.lede}</p>
+    <form class="ui gx-form" data-gx-form role="search">
+      <label for="gx-from" class="sr-only">{G.from_label}</label>
+      <input id="gx-from" name="from" type="text" placeholder="person/abu-bakr" dir="ltr" value={DEFAULT} />
+      <button type="submit" class="btn btn-lapis">{G.go}</button>
+      <span class="muted" style="font-size:.85rem">{G.hint}</span>
+      <label class="muted" style="font-size:.85rem;display:inline-flex;align-items:center;gap:6px;margin-inline-start:auto"><input type="checkbox" data-gx-cross /> {G.cross}</label>
+    </form>
+    <div class="gx" data-graph data-default={DEFAULT}>
+      <div class="gx-stage" data-stage>
+        <svg viewBox="-520 -385 1040 770" data-svg role="img" aria-label={G.title} style="width:100%;height:auto;display:block;direction:ltr"></svg>
+        <div class="gx-card ui" data-card hidden></div>
+        <p class="gx-status ui muted" data-status aria-live="polite"></p>
+      </div>
+      <aside class="gx-side ui">
+        <h2 style="font-size:1rem;margin:0 0 8px">{G.legend}</h2>
+        <ul class="gx-legend" role="list">
+          {CLASSES.filter((c) => c !== "other").map((c) => <li><span class="gx-swatch" data-class={c}></span>{T.class[c] ?? c}</li>)}
+        </ul>
+        <h2 style="font-size:1rem;margin:14px 0 8px">{G.neighbours}</h2>
+        <ol class="gx-list" data-list>
+          {neighbours.map((x) => <li><a href={href(lang, x.node.id)}>{labelOf(x.node, lang)}</a> <span class="muted">— {labels[x.type] ?? x.type}</span></li>)}
+        </ol>
+      </aside>
+    </div>
+    <p class="muted ui" style="font-size:.85rem">{G.note}</p>
+    <script type="application/json" set:html={JSON.stringify(payload)} />
+  </div>
+  <script src="../../../scripts/graph.ts"></script>
+</BaseLayout>

@@ -4,6 +4,7 @@ import DepthDial from "../components/DepthDial.svelte";
 import TimeStrip from "../components/TimeStrip.astro";
 import MiniMap from "../components/MiniMap.astro";
 import Extras from "../components/Extras.astro";
+import JourneyPlayer from "../components/JourneyPlayer.astro";
 import PageHeader from "../components/PageHeader.astro";
 import ExploreBar from "../components/ExploreBar.astro";
 import { byId, buildDate, href, labelOf, summaryOf, related, REPO, SITE } from "../lib/graph";
@@ -102,6 +103,8 @@ const crumbs = [
   { label: T.class[n.class] },
 ];
 const reviewStatus = d.status?.review ?? "draft";
+// the constellation link only where export-api wrote a neighbourhood (a lone verse has none of its own)
+const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" && n.degree < 2);
 ---
 <BaseLayout lang={lang} title={title} description={summaryOf(n, lang) || fmt(T.entity.stub_desc, { label: labelOf(n, lang) })} path={path} jsonld={jsonLd(n, lang, path)} alternates={alternates} ogType={n.class === "person" ? "profile" : "article"}>
   <div class="reading-progress" aria-hidden="true"><span></span></div>
@@ -143,7 +146,7 @@ const reviewStatus = d.status?.review ?? "draft";
           {(n.span || places.some((p) => p.coordinates)) && (
             <section class="panel ui no-print" aria-label={T.entity.in_time}>
               {n.span && <>
-                <h2 style="font-size:1rem;margin:0 0 8px">{T.entity.in_time}</h2>
+                <h2 style="font-size:1rem;margin:0 0 8px">{n.class === "person" ? T.entity.life_in_time : T.entity.in_time}</h2>
                 <TimeStrip span={n.span} ids={n.contemporaries} lang={lang} self={n.id} />
               </>}
               {places.some((p) => p.coordinates) && <>
@@ -155,6 +158,7 @@ const reviewStatus = d.status?.review ?? "draft";
           )}
         </div>
 
+        {n.class === "journey" && d.waypoints && <JourneyPlayer node={n} lang={lang} />}
         <Extras node={n} lang={lang} />
 
         {untranslated && (
@@ -213,6 +217,7 @@ const reviewStatus = d.status?.review ?? "draft";
         {groups.length > 0 && (
           <section data-role="main" class="sec ui" aria-labelledby="conn">
             <h2 id="conn">{T.entity.connections}</h2>
+          {showGraph && <p class="ui no-print" style="margin:0 0 10px"><a class="chip" style="border:1px solid var(--gold)" href={`/${lang}/graph/?from=${n.id}`}>{T.graph.explore_link} <span class="flip" aria-hidden="true">→</span></a></p>}
             <dl style="display:grid;grid-template-columns:minmax(120px,max-content) 1fr;gap:8px 18px;margin:0">
               {groups.map((g) => (
                 <>

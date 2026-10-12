@@ -3,6 +3,8 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import MiniMap from "../../../components/MiniMap.astro";
 import PageHeader from "../../../components/PageHeader.astro";
 import ExploreBar from "../../../components/ExploreBar.astro";
+import TodayCards from "../../../components/TodayCards.astro";
+import HijriTimeline from "../../../components/HijriTimeline.astro";
 import { ui, LANGS, WINGS, WING_PATH, fmt, type Lang, type Wing } from "../../../lib/i18n";
 import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
 import { formatDate, timelineKey } from "../../../lib/dates";
@@ -40,6 +42,13 @@ const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinate
     {wing === "time" && <p class="ui" style="color:#c9d3d6;font-size:.9rem;margin:6px 0 0">{T.entity.dagger}</p>}
   </PageHeader>
   <div class="wrap" style="padding-block:24px 20px" data-pagefind-ignore>
+    {wing === "time" && <HijriTimeline lang={lang} />}
+    {wing === "today" && (
+      <section class="today-page" aria-labelledby="today-h">
+        <TodayCards lang={lang} full={true} />
+        <p class="muted ui" style="margin-top:1.5rem">{T.today.wing_note}</p>
+      </section>
+    )}
 
     {wing === "place" && placesWithCoords.length > 0 && (
       <figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure>
@@ -51,24 +60,6 @@ const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinate
       ))}
     </ul>
 
-    {wing === "today" && (
-      <section style="margin-top:2.5rem">
-        <h2>{T.today.title}</h2>
-        <p class="muted">{T.today.lede}</p>
-        <div class="panel ui" id="today-panel" data-g={T.today.gregorian} data-h={T.today.hijri} aria-live="polite"></div>
-        <script is:inline>
-          (function () {
-            var el = document.getElementById("today-panel"); if (!el) return;
-            var l = document.documentElement.lang, loc = l === "ar" ? "ar" : "en-GB", now = new Date();
-            try {
-              var h = new Intl.DateTimeFormat(loc + "-u-ca-islamic-umalqura-nu-latn", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(now);
-              var g = new Intl.DateTimeFormat(loc + "-u-nu-latn", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(now);
-              el.innerHTML = "<p style='margin:0'><b>" + el.dataset.h + ":</b> " + h + "</p><p style='margin:6px 0 0'><b>" + el.dataset.g + ":</b> " + g + "</p>";
-            } catch (e) {}
-          })();
-        </script>
-      </section>
-    )}
   </div>
   <ExploreBar lang={lang} />
 </BaseLayout>

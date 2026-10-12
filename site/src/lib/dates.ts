@@ -10,6 +10,8 @@ const HIJRI = {
   en: ["Muharram", "Safar", "Rabi' I", "Rabi' II", "Jumada I", "Jumada II", "Rajab", "Sha'ban", "Ramadan", "Shawwal", "Dhu al-Qa'da", "Dhu al-Hijja"],
   ar: ["محرم", "صفر", "ربيع الأول", "ربيع الآخر", "جمادى الأولى", "جمادى الآخرة", "رجب", "شعبان", "رمضان", "شوال", "ذو القعدة", "ذو الحجة"],
 };
+export const GREG_MONTHS = GREG;
+export const HIJRI_MONTHS = HIJRI;
 
 interface Parts { y: number; m?: number; d?: number; approx: boolean; uncertain: boolean; unknown: boolean }
 function parts(s: string): Parts | null {
@@ -78,7 +80,7 @@ export function startOf(data: any): any {
 const msToYear = (ms: number) => 1970 + ms / (365.2425 * 86_400_000);
 
 /** [year, month, day] from a stored Hijri string ("-0011", "0007~", "0010-12-08"); missing month or day count as 1. */
-function hijriParts(h: unknown): [number, number, number] | undefined {
+export function hijriParts(h: unknown): [number, number, number] | undefined {
   const m = typeof h === "string" ? h.match(/^(-?\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/) : null;
   return m ? [Number(m[1]), Number(m[2] ?? 1), Number(m[3] ?? 1)] : undefined;
 }

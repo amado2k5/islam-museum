@@ -1,8 +1,15 @@
 ---
-import { byId, href, labelOf } from "../lib/graph";
-import type { Lang } from "../lib/i18n";
+// Lifespan ribbon (Part 3, C.3): the entity's own bar (gold) against the era bands, then up to five contemporaries, on a shared
+// year scale. RTL puts the earliest year at the right. Approximate dates (EDTF "~", "?", "X") render with faded ends and a
+// «نحو» mark. Static SVG: no script; the caption lists the contemporaries for screen readers and without JS.
+import { byId, href, labelOf, realNodes } from "../lib/graph";
+import { ui, type Lang } from "../lib/i18n";
 const { span, ids = [], lang, self } = Astro.props as { span: { earliest: number; latest: number }; ids?: string[]; lang: Lang; self: string };
-const rows = [{ id: self, span }, ...ids.map((i) => ({ id: i, span: byId.get(i)?.span! })).filter((r) => r.span)];
+const T = ui(lang);
+const rtl = lang === "ar";
+const approx = (d: any) => typeof d?.edtf === "string" && /[~?%X]/.test(d.edtf);
+const ends = (id: string) => { const d = byId.get(id)?.data ?? {}; return { a: approx(d.born ?? d.floruit ?? d.date?.start ?? d.start), b: approx(d.died ?? d.date?.end ?? d.end) }; };
+const rows = [{ id: self, span }, ...ids.slice(0, 5).map((i) => ({ id: i, span: byId.get(i)?.span! })).filter((r) => r.span)].map((r) => ({ ...r, ...ends(r.id) }));
 // The scale is cut from the entity's own dates (and its contemporaries), with room on both sides for the marker.
 const lo = Math.min(...rows.map((r) => r.span.earliest)), hi = Math.max(...rows.map((r) => r.span.latest));
 const width = Math.max(hi - lo, 30);
@@ -12,23 +19,44 @@ const step = total <= 120 ? 10 : total <= 260 ? 25 : total <= 600 ? 50 : 100;
 const MIN = Math.floor((lo - margin) / step) * step, MAX = Math.ceil((hi + margin) / step) * step;
 // Build-time check: every marker lies on the scale (a marker outside it would be clipped, as the Hijra one was before).
 if (!rows.every((r) => r.span.earliest >= MIN && r.span.latest <= MAX)) throw new Error(`timeline strip for ${self}: a marker falls outside ${MIN}–${MAX}`);
-const x = (y: number) => ((y - MIN) / (MAX - MIN)) * 100;
+const x = (y: number) => { const t = (y - MIN) / (MAX - MIN); return (rtl ? 1 - t : t) * 100; };
+const left = (a: number, b: number) => Math.min(x(a), x(b));
+const w = (a: number, b: number) => Math.max(Math.abs(x(b) - x(a)), 0.6);
 const ticks: number[] = [];
 for (let t = MIN; t <= MAX; t += step) ticks.push(t);
-const dir = lang === "ar" ? "rtl" : "ltr";
+// era bands: the periods that overlap the scale, clipped to it
+const eras = realNodes.filter((n) => n.class === "period" && n.span && n.span.latest > MIN && n.span.earliest < MAX)
+  .map((n) => ({ id: n.id, label: labelOf(n, lang), a: Math.max(n.span!.earliest, MIN), b: Math.min(n.data.end ? n.span!.latest : MAX, MAX) }))
+  .filter((e) => e.b > e.a);
+const ROW = 7, TOP = 3;
+const H = rows.length * ROW + 2;
+const uid = self.replace(/[^a-z0-9]/gi, "-");
+const CE = lang === "ar" ? "م" : "";
 ---
-<figure style="margin:0" class="no-print">
-  <svg viewBox={`0 0 100 ${rows.length * 7 + 8}`} role="img" aria-label={rows.map((r) => `${labelOf(byId.get(r.id)!, lang)}: ${Math.floor(r.span.earliest)}–${Math.floor(r.span.latest)}`).join("; ")} style="width:100%;height:auto;display:block;direction:ltr">
-    {ticks.map((t) => <g><line x1={x(t)} x2={x(t)} y1="0" y2={rows.length * 7 + 2} stroke="currentColor" opacity=".12" stroke-width=".25" /><text x={x(t)} y={rows.length * 7 + 7} font-size="2.6" text-anchor="middle" fill="currentColor" opacity=".6">{t}</text></g>)}
-    {rows.map((r, i) => (
-      <g>
-        <rect x={x(r.span.earliest)} y={i * 7 + 1.5} width={Math.max(x(r.span.latest) - x(r.span.earliest), 0.6)} height="4" rx="1" fill={i === 0 ? "var(--gold)" : "var(--lapis)"} opacity={i === 0 ? 1 : 0.55} />
-      </g>
-    ))}
+<figure style="margin:0" class="no-print lifespan">
+  <svg viewBox={`0 0 100 ${H + 7}`} role="img" aria-label={rows.map((r) => `${labelOf(byId.get(r.id)!, lang)}: ${Math.floor(r.span.earliest)}–${Math.floor(r.span.latest)}`).join("; ")} style="width:100%;height:auto;display:block;direction:ltr">
+    <defs>
+      {rows.map((r, i) => { const lf = rtl ? r.b : r.a, rf = rtl ? r.a : r.b; const col = i === 0 ? "var(--gold)" : "var(--lapis)"; return (
+        <linearGradient id={`g-${uid}-${i}`} x1="0" x2="1"><stop offset="0" stop-color={col} stop-opacity={lf ? 0 : 1} /><stop offset=".3" stop-color={col} stop-opacity="1" /><stop offset=".7" stop-color={col} stop-opacity="1" /><stop offset="1" stop-color={col} stop-opacity={rf ? 0 : 1} /></linearGradient>
+      ); })}
+    </defs>
+    {eras.map((e, i) => <g><rect x={left(e.a, e.b)} y="0" width={w(e.a, e.b)} height={H} fill={i % 2 ? "var(--wing-place)" : "var(--wing-time)"} opacity=".1" /></g>)}
+    {ticks.map((t) => <g><line x1={x(t)} x2={x(t)} y1="0" y2={H} stroke="currentColor" opacity=".12" stroke-width=".25" /><text x={x(t)} y={H + 5.5} font-size="2.6" text-anchor="middle" fill="currentColor" opacity=".6">{t}{CE}</text></g>)}
+    {rows.map((r, i) => {
+      const bx = left(r.span.earliest, r.span.latest), bw = w(r.span.earliest, r.span.latest);
+      const fuzzy = r.a || r.b;
+      return (
+        <g style={`color:${i === 0 ? "var(--gold)" : "var(--lapis)"}`}>
+          {fuzzy
+            ? <rect x={bx - (rtl ? (r.b ? bw * 0.12 : 0) : (r.a ? bw * 0.12 : 0))} y={i * ROW + TOP - 1.5} width={bw * (1 + (r.a ? 0.12 : 0) + (r.b ? 0.12 : 0))} height="4" rx="1" fill={`url(#g-${uid}-${i})`} opacity={i === 0 ? 1 : 0.6} />
+            : <rect x={bx} y={i * ROW + TOP - 1.5} width={bw} height="4" rx="1" fill="currentColor" opacity={i === 0 ? 1 : 0.55} />}
+          {fuzzy && <text x={rtl ? bx + bw + 1.2 : bx - 1.2} y={i * ROW + TOP + 1.8} font-size="2.4" text-anchor={rtl ? "start" : "end"} fill="currentColor" opacity=".8">{lang === "ar" ? "نحو" : "c."}</text>}
+        </g>
+      );
+    })}
   </svg>
-  {ids.length > 0 && (
-    <figcaption class="ui muted" style="font-size:.85rem;margin-top:6px">
-      {ids.slice(0, 6).map((i, k) => <><a href={href(lang, i)} style="color:inherit">{labelOf(byId.get(i)!, lang)}</a>{k < Math.min(ids.length, 6) - 1 ? " · " : ""}</>)}
-    </figcaption>
-  )}
+  <figcaption class="ui muted" style="font-size:.85rem;margin-top:6px">
+    {eras.length > 0 && <span style="display:block;margin-bottom:2px">{eras.map((e, k) => <><a href={href(lang, e.id)} style="color:inherit">{e.label}</a>{k < eras.length - 1 ? " · " : ""}</>)}</span>}
+    {rows.length > 1 && <span>{T.entity.contemporaries}: {rows.slice(1).map((r, k) => <><a href={href(lang, r.id)} style="color:inherit">{labelOf(byId.get(r.id)!, lang)}</a>{k < rows.length - 2 ? " · " : ""}</>)}</span>}
+  </figcaption>
 </figure>

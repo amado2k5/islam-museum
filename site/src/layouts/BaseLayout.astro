@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
+import { wingCountLabel, explorePages } from "../lib/nav";
 import Logo from "../components/Logo.astro";
 // Webfonts sit one hop behind the stylesheet, which delays first paint under throttled networks; the two faces above the fold
 // are preloaded so they fetch in parallel with the CSS instead.
@@ -21,6 +22,8 @@ const multilingual = LANGS.length > 1;
 const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
 const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
+const wingCount = (w: string) => wingCountLabel(lang, w);
+const EXPLORE = explorePages(lang);
 ---
 <!doctype html>
 <html lang={lang} dir={T.dir}>
@@ -64,44 +67,49 @@ const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
       <rect width="100%" height="100%" fill="url(#girih)" />
     </svg>
     <a class="skip" href="#main">{T.a11y.skip}</a>
-    <header class="site wrap" style="padding-block:18px">
-      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px">
-        <a class="ui" href={`/${lang}/`} style="display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.02em;text-decoration:none;color:var(--fg)">
-          <Logo size={36} />
+    <header class="site topbar">
+      <div class="wrap nav-row">
+        <a class="ui brand" href={`/${lang}/`}>
+          <Logo size={34} />
           <span class="ltr" dir="ltr">islam.museum</span>
         </a>
-        <div style="display:flex;align-items:center;gap:10px" class="ui">
-          <a class="chip" href={`/${lang}/learn/`} style="border:1px solid var(--gold);font-weight:600">{T.nav.learn}</a>
-          <a class="chip" href={`/${lang}/search/`}>{T.nav.search}</a>
-          <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">{T.a11y.menu_open}</button>
-          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
+        <button class="menu-btn ui" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">☰ {T.a11y.menu_open}</button>
+        <nav aria-label={T.a11y.menu} class="ui nav-links" id="site-nav">
+          <details class="dd" data-dd>
+            <summary>{T.nav.wings_menu}</summary>
+            <ul class="dd-menu" role="list">
+              {WINGS.map((w) => <li><a href={wingHref(lang, w)}><span class="t">{T.wings[w].title}</span><span class="d">{wingCount(w)} — {T.wings[w].blurb}</span></a></li>)}
+            </ul>
+          </details>
+          <a class="top-link" href={`/${lang}/learn/`}>{T.nav.learn}</a>
+          <details class="dd" data-dd>
+            <summary>{T.nav.explore_menu}</summary>
+            <ul class="dd-menu" role="list">
+              {EXPLORE.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
+              <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
+            </ul>
+          </details>
+          <a class="top-link" href={`/${lang}/today/`}>{T.nav.today}</a>
+        </nav>
+        <div class="nav-tools ui">
+          <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
+          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)"><span class="ltr" dir="ltr">AR | EN</span></a>}
           <button class="chip" id="font-toggle" type="button" aria-pressed="false" style="border:0;cursor:pointer">{T.explore.font}</button>
-          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)">{T.switch_to}</a>}
+          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
         </div>
       </div>
-      <nav aria-label={T.a11y.menu} class="ui" style="margin-top:14px" id="site-nav">
-        <ul style="display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:0;padding:0;font-size:.95rem">
-          {WINGS.map((w) => <li><a href={wingHref(lang, w)} style="color:var(--fg);text-decoration:none">{T.nav[w]}</a></li>)}
-          <li style="opacity:.5" aria-hidden="true">·</li>
-          <li><a href={`/${lang}/learn/`} style="color:var(--fg);text-decoration:none">{T.nav.learn}</a></li>
-          <li><a href={`/${lang}/questions/`} style="color:var(--fg);text-decoration:none">{T.nav.questions}</a></li>
-          <li><a href={`/${lang}/exhibits/`} style="color:var(--fg);text-decoration:none">{T.nav.exhibits}</a></li>
-          <li><a href={`/${lang}/screen/`} style="color:var(--fg);text-decoration:none">{T.nav.screen}</a></li>
-          <li><a href={`/${lang}/themes/`} style="color:var(--fg);text-decoration:none">{T.nav.themes}</a></li>
-          <li><a href={`/${lang}/wander/`} style="color:var(--fg);text-decoration:none">{T.nav.wander}</a></li>
-          <li><a href={`/${lang}/foundation/`} style="color:var(--fg);text-decoration:none">{T.nav.foundation}</a></li>
-        </ul>
-      </nav>
     </header>
     <main id="main" style="flex:1">
       <slot />
     </main>
-    <footer class="site" style="border-top:1px solid var(--line);margin-top:3rem">
-      <div class="wrap ui" style="padding-block:22px;display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between;font-size:.9rem;color:var(--muted)">
-        <span>islam.museum · {T.footer.open}</span>
-        <span>{T.footer.licenses}</span>
-        <span><a href="/api/v1/meta/index.json" style="color:inherit">{T.footer.api}</a> · <a href={`/${lang}/coverage/`} style="color:inherit">{T.nav.coverage}</a> · <a href={`/${lang}/foundation/`} style="color:inherit">{T.nav.foundation}</a> · <a href="https://github.com/amado2k5/islam-museum" rel="noopener" style="color:inherit">{T.footer.github}</a></span>
-        <span style="flex-basis:100%">{T.footer.privacy}</span>
+    <footer class="site foot">
+      <div class="wrap ui">
+        <div class="fcols">
+          <div><h2>{T.footer.about}</h2><a href={`/${lang}/foundation/`}>{T.footer.about_project}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/05-editorial.md" rel="noopener">{T.footer.editorial}</a><a href={`/${lang}/questions/`}>{T.footer.faq}</a><a href={`/${lang}/foundation/`}>{T.nav.foundation}</a></div>
+          <div><h2>{T.footer.resources}</h2><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
+          <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.news}</a><a href="https://github.com/amado2k5/islam-museum/issues" rel="noopener">{T.footer.contact}</a><a href={`/${lang}/foundation/#privacy`}>{T.footer.privacy_policy}</a><span>{T.footer.no_tracking}</span></div>
+        </div>
+        <p class="fine">islam.museum · {T.footer.open} · {T.footer.licenses} · {T.footer.privacy}</p>
       </div>
     </footer>
     <script is:inline>
@@ -115,7 +123,16 @@ const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
             if (open) { var first = nav.querySelector("a"); if (first) first.focus(); } else if (back) mb.focus();
           };
           mb.addEventListener("click", function () { setOpen(!nav.classList.contains("open"), false); });
-          document.addEventListener("keydown", function (e) { if (e.key === "Escape" && nav.classList.contains("open")) setOpen(false, true); });
+          document.addEventListener("keydown", function (e) {
+            if (e.key !== "Escape") return;
+            if (nav.classList.contains("open")) setOpen(false, true);
+            nav.querySelectorAll("details[open]").forEach(function (d) { d.removeAttribute("open"); var s = d.querySelector("summary"); if (s && d.contains(document.activeElement)) s.focus(); });
+          });
+          // one dropdown open at a time; a click elsewhere closes it
+          nav.querySelectorAll("details[data-dd]").forEach(function (d) {
+            d.addEventListener("toggle", function () { if (d.open) nav.querySelectorAll("details[data-dd]").forEach(function (o) { if (o !== d) o.removeAttribute("open"); }); });
+          });
+          document.addEventListener("click", function (e) { if (!nav.contains(e.target)) nav.querySelectorAll("details[data-dd][open]").forEach(function (d) { d.removeAttribute("open"); }); });
         }
       })();
       (function () {
