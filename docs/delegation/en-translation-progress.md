@@ -14,9 +14,17 @@
   - group/ ×60 of 60 — complete (`adnan` through `thaqif`)
   - concept/ ×45 of 45, place/ ×27 of 27, source/ ×9 of 9, object/ ×9 of 9, polity/ ×8 of 8, work/ ×11 of 11, building/ ×5 of 5, practice/ ×4 of 4, journey/ ×3 of 3 — ALL prose classes complete; `content/en/` mirrors `content/ar/` exactly (per-class file lists identical)
 
+## Phase D (verification) — done
+
+- `validate` 0 errors / 326 warnings (pre-existing stubs/quality notes), `test` 45/45.
+- `build` 16,018 pages; Pagefind `pagefind-ar` + `pagefind-en` (7,865 pages each); `check:site` 0 errors/0 warnings; `check:static` 0 problems.
+- Fixed: English footnotes showed Arabic bibliographic citations — non-`ar` pages now cite `label.<lang>` (commit `4ac3c1e`).
+- Browser pass on local `dist/`: `/en/` landing, `/en/event/battle-of-badr/`, `/en/person/khadija/`, `/en/concept/tawhid/`, `/en/search/` (289 "Badr" results, `/en/` links) all English; language switcher round-trips `/en/` ↔ `/ar/` on the same entity; `/ar/` unaffected (rtl, full Arabic citations). Remaining Arabic on `en` pages is intentional: `العربية` switcher, bilingual name display, `Alt:` search meta.
+- Pagefind "no `<html>`" notes on `/ar/work/amr-ibn-salim-istighatha/` and `/ar/event/hatib-letter-to-quraysh/` are intentional Astro redirect stubs — not indexed, no action needed.
+
 ## Next step
 
-Phase D: full `validate` + `test` + `build`, `check:static`/browser pass on `/en/` routes, English Pagefind index check, no unexpected Arabic fallback where `en` prose exists.
+Lane complete. English is published end-to-end; all prose is draft and awaits human review (`status.review` unchanged).
 
 ## Conventions
 
