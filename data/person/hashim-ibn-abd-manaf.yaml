@@ -1,0 +1,19 @@
+id: person/hashim-ibn-abd-manaf
+class: person
+label: { en: "Hashim ibn Abd Manaf", ar: "هاشم بن عبد مناف" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "Son of Abd Manaf who drew the siqaya and rifada in the division of offices and held them all his life; eponym of Banu Hashim, the house from which the Prophet came."
+  ar: "ابن عبد مناف، خرجت له السقاية والرفادة في قرعة بني عبد مناف فوليهما طول حياته؛ إليه تنسب بنو هاشم، البيت الذي اصطفى الله منه النبي محمد."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/abd-manaf-ibn-qusayy }
+  - { type: member_of, target: group/banu-hashim }
+  - { type: member_of, target: group/quraysh }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

@@ -1,0 +1,23 @@
+id: person/qusayy-ibn-kilab
+class: person
+label: { en: "Qusayy ibn Kilab", ar: "قصي بن كلاب" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The Qahtani-raised Qurashi who returned to Mecca, married Hulayl’s daughter Hubba, took the custody of the Kaaba from Khuzaʾa around 440 CE after the arbitration of Yaʾmar ibn Awf, gathered Quraysh into the town’s quarters, founded Dar al-Nadwa, and held the five offices: riyasa, liwa, hijaba, siqaya and rifada."
+  ar: "القرشي الذي نشأ في بلاد قضاعة بأطراف الشام ثم عاد إلى مكة وتزوج حُبّى بنت هليل، واستلب ولاية البيت من خزاعة نحو سنة 440م بعد تحكيم يعمر بن عوف، فجمع قريشاً في مكة، وأسس دار الندوة، وكانت له مناصب الرياسة واللواء والحجابة والسقاية والرفادة."
+wings: [people]
+themes: [family-marriage-kinship, wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: ruler, toward: group/quraysh, status: tradition, note: "صارت له ثم لقريش السيادة التامة والأمر النافذ في مكة.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: ruler_of, target: place/mecca, start: { edtf: "0440~" }, sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+  - { type: member_of, target: group/quraysh }
+  - { type: founder_of, target: building/dar-al-nadwa, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: spouse_of, target: person/hubba-bint-hulayl, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/qusayy-takes-mecca, role: "الغالب على ولاية البيت", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ikhbar-al-kiram]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

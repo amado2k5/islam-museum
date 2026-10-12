@@ -1,0 +1,18 @@
+id: person/abu-ghubshan
+class: person
+label: { en: "Abu Ghubshan al-Khuzaʾi", ar: "أبو غبشان الخزاعي" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The Khuzaʾi who held the guardianship of the Kaaba on behalf of Hubba bint Hulayl and sold it to Qusayy for a skin of wine — the purchase Khuzaʾa resented, sparking the war that ended their rule of Mecca."
+  ar: "الخزاعي الذي كان وكيل حُبّى بنت هليل على سدانة الكعبة، فاشترى منه قصي ولاية البيت بزقّ من الخمر؛ فلم ترض خزاعة بهذا البيع فكان سبباً في الحرب التي أخرجتهم من ولاية مكة."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/khuzaa }
+  - { type: participated_in, target: event/qusayy-takes-mecca, role: "بائع ولاية البيت بزق خمر في الرواية الثالثة", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

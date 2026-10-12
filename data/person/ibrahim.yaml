@@ -1,0 +1,23 @@
+id: person/ibrahim
+class: person
+label: { en: "Ibrahim (Abraham)", ar: "إبراهيم" }
+gender: male
+roles: []
+faith: [{ value: hanif, basis: documented, note: "حنيفاً مسلماً في وصف القرآن.", sources: [source/tanzil-quran] }]
+summary:
+  en: "The patriarch of the Adnani Arabs in the sira’s telling: emigrant from Ur of the Chaldeans to Harran and then Palestine, who settled Hajar and the infant Ismail in the barren valley of Mecca, visited them on recorded journeys, submitted to the command of the sacrifice, and raised the foundations of the Kaaba with his son before calling mankind to the hajj."
+  ar: "أبو العرب المستعربة في عرض السيرة: هاجر من أور الكلدانيين إلى حرّان ثم فلسطين، وأسكن هاجر ورضيعها إسماعيل بوادٍ غير ذي زرع عند موضع البيت، وزارهما في رحلات ثبت منها أربع، وأذّن في الناس بالحج بعد أن رفع هو وابنه قواعد الكعبة."
+wings: [people]
+themes: [prophets, family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran] }
+relations:
+  - { type: child_of, target: person/azhar, note: "آزر في القرآن؛ تسميه التوراة تارح." , sources: [source/mubarakpuri-raheeq] }
+  - { type: spouse_of, target: person/hajar, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: built, target: building/kaaba, note: "رفع القواعد من البيت مع ابنه إسماعيل في رحلته الثالثة المحفوظة.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: lived_in, target: place/palestine, note: "اتخذ فلسطين قاعدة لدعوته بعد هجرته من أور وحرّان.", sources: [source/mubarakpuri-raheeq] }
+  - { type: traveled_to, target: place/mecca, note: "أربع رحلات محفوظة إلى مكة: الإسكان، الذبح، واختبار الزوجتين، وبناء البيت.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sifr-al-takwin]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

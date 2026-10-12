@@ -1,0 +1,20 @@
+id: event/sacrifice-of-ismail
+class: event
+kind: other
+label: { en: "The Command to Sacrifice Ismail", ar: "أمر ذبح إسماعيل" }
+summary:
+  en: "On one of Ibrahim’s visits to Mecca he is shown in a dream that he must sacrifice his son; father and son submit, and the son is ransomed with a great sacrifice — the trial the Quran recalls in Surat al-Saffat, and which the Raheeq narrative places before Isaac’s birth."
+  ar: "في إحدى رحلات إبراهيم إلى مكة رأى في المنام أنه يذبح ابنه إسماعيل، فامتثلا جميعاً للأمر، ففُدي بذبحٍ عظيم؛ وهي البلوى التي يذكرها القرآن في سورة الصافات، ويجعلها عرض السيرة قبل ميلاد إسحاق."
+wings: [time, people]
+themes: [prophets, sacred-space-and-pilgrimage]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "-1900~", calendar: julian, precision: year, status: tradition, note: "تقدير تقريبي ضمن زمن إسماعيل قبل شبابه؛ لا تاريخ محرر." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/ibrahim, role: "المأمور بالذبح", sources: [source/mubarakpuri-raheeq, source/tanzil-quran] }
+  - { type: had_participant, target: person/ismail, role: "الصبور المذبوح المفدي", sources: [source/mubarakpuri-raheeq, source/tanzil-quran] }
+  - { type: part_of, target: period/pre-islamic-arabia }
+sources: [source/mubarakpuri-raheeq, source/tanzil-quran]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

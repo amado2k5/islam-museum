@@ -1,0 +1,19 @@
+id: event/flood-of-al-aram
+class: event
+kind: other
+label: { en: "The Flood of al-Arim (the Bursting of Maʾrib Dam)", ar: "سيل العرم" }
+summary:
+  en: "The great breach of the Maʾrib dam around 450–451 CE which the Quran recalls as Sayl al-Arim; in the sira’s account it ruins Yemen’s settled life and sends the Qahtani tribes scattering across the peninsula."
+  ar: "الثّلمة العظيمة في سد مأرب نحو سنة 450–451م التي يذكرها القرآن بسيل العرم؛ وفي عرض السيرة أدت إلى خراب العمران باليمن وتشتت بطون قحطان في البلاد."
+wings: [time, people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0450~", calendar: julian, precision: year, status: debated, note: "450 أو 451م عند المباركفوري؛ والتعيين مختلف فيه بشدة بين المصادر." }
+relations:
+  - { type: occurred_at, target: place/marib }
+  - { type: occurred_at, target: building/marib-dam }
+  - { type: part_of, target: period/pre-islamic-arabia }
+sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran, source/tarikh-ard-al-quran]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

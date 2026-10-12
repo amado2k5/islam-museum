@@ -1,0 +1,18 @@
+id: person/abd-manaf-ibn-qusayy
+class: person
+label: { en: "Abd Manaf ibn Qusayy", ar: "عبد مناف بن قصي" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "Son of Qusayy who had already risen to leadership in his father’s lifetime; after his death his sons contested the offices with the sons of Abd al-Dar, and the siqaya and rifada fell to his line — inherited by Hashim, then al-Muttalib, then Abd al-Muttalib."
+  ar: "ابن قصي، وقد شرف وساد في حياة أبيه؛ نازع بنوه بني عمهم عبد الدار في المناصب بعد موته، فصارت السقاية والرفادة إلى بنيه، فولاها هاشم ثم المطلب ثم عبد المطلب."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/qusayy-ibn-kilab }
+  - { type: member_of, target: group/quraysh }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
