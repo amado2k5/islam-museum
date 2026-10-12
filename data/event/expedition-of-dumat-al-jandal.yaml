@@ -1,0 +1,19 @@
+id: event/expedition-of-dumat-al-jandal
+class: event
+kind: campaign
+label: { en: "The Expedition of Dumat al-Jandal", ar: "غزوة دومة الجندل" }
+summary:
+  en: "In Rabi' I 5 AH (August 626 CE), the Prophet led a 1,000-strong expedition to Dumat al-Jandal on the borders of Syria to secure the trade routes against marauding tribes; the gathering dispersed, and the Muslims established security and concluded non-aggression terms with tribal chiefs."
+  ar: "في ربيع الأول سنة 5هـ (أغسطس 626م) خرج النبي في ألف من أصحابه إلى دومة الجندل على مشارف الشام لتأمين طرق التجارة وزجر القبائل التي كانت تقطع الطريق وتتحشد لغزو المدينة؛ فتفرقت جموعهم وعقد معاهدة مع عيينة بن حصن وأقر الأمن في شمال الجزيرة."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia, levant-iraq]
+date:
+  start: { edtf: "0626-08~", hijri: "0005-03", calendar: julian, precision: month, status: tradition, note: "ربيع الأول سنة 5هـ (أغسطس 626م) بعد بدر الموعد بستة أشهر (الرحيق ص300)." }
+relations:
+  - { type: occurred_at, target: place/dumat-al-jandal }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uyayna-ibn-hisn, role: "عقد النبي معه موادعة في تلك الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 300" }

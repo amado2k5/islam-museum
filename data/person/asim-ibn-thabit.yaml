@@ -1,0 +1,27 @@
+id: person/asim-ibn-thabit
+class: person
+label: { en: "Asim ibn Thabit", ar: "عاصم بن ثابت" }
+names:
+  - { kind: full, lang: ar, value: "عاصم بن ثابت بن أبي الأقلح الأنصاري الأوسي" }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  en: "A prominent warrior and archer of the Aws who fought at Badr and Uhud; chosen as commander of the ten scouts sent in the Expedition of al-Raji' in 4 AH, where he refused surrender and fought until martyrdom; God sent a swarm of wasps to shield his body from desecration by Quraysh."
+  ar: "صحابي بدري وفارس رامٍ من الأوس؛ شهد بدراً وأحداً وكان أمير سرية الرجيع في صفر 4هـ، فقاتل بني لحيان رافضاً الأسر حتى استشهد؛ وقد نذر ألا يمس مشركاً ولا يمسه مشرك، فحمى الله جثمانه بسرب من الدبر فلم تقدر قريش على أخذ شيء منه."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: commander, toward: group/early-muslims, start: { edtf: "0625-07" }, end: { edtf: "0625-07" }, status: tradition, note: "أمير سرية الرجيع (الرحيق ص291–293).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد الرجيع." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/aws }
+  - { type: participated_in, target: event/incident-of-al-raji, role: "أمير السرية والشهيد المحمي بالدبر", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 291–293" }
