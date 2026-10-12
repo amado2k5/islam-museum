@@ -241,4 +241,16 @@ sources:
       dest: raw/openiti/corpus/OpenITI_data_2025-1-9.zip
       md5: 95cf19a9320fee6c37c4c26c9fa860b1
       size: 5936029637
+  archive-org-books:
+    name: Internet Archive open Arabic book scans (reference copies of prominent Sunni works)
+    url: https://archive.org
+    licence: per item; classical texts are public domain, modern editions and tahqiq apparatus stay copyrighted
+    layer: copyrighted-reference
+    method: advancedsearch + metadata API; only items served openly (never borrow-only or access-restricted); 1 request/second; resumable
+    status: enabled
+    limits:
+      pause_seconds: 1
+      max_items_per_book: 6
+      max_file_gib: 1.5
+      note: 'facts, chronology, names and citations only; never republish text; OCR text and PDFs stay in the harvest workspace, never in git'
 workspace: /Volumes/exmicroSD/islam-museum-harvest (symlinked from ~/islam-museum-harvest)
