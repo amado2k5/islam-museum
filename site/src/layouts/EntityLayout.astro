@@ -84,9 +84,10 @@ const issueText: string = d.issue?.[lang] ?? d.issue?.en ?? "";
 const perspectives = perspectivesRaw;
 
 const bibliography = (s: Node) => {
+  if (lang !== "ar") return labelOf(s, lang);
   const a = (s.data.author ?? []).map((x: any) => [x.family, x.given].filter(Boolean).join(", ")).join("; ");
   const y = s.data.issued?.["date-parts"]?.[0]?.[0];
-  return `${a ? a.replace(/\.$/, "") + ". " : ""}${y ? `(${y}). ` : ""}${s.data.title ?? labelOf(s, "en")}${s.data.publisher ? `. ${s.data.publisher}` : ""}.`;
+  return `${a ? a.replace(/\.$/, "") + ". " : ""}${y ? `(${y}). ` : ""}${s.data.title ?? labelOf(s, lang)}${s.data.publisher ? `. ${s.data.publisher}` : ""}.`;
 };
 
 const alternates = Object.fromEntries(LANGS.map((l) => [l, href(l, n.id)]));
