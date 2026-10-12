@@ -1,0 +1,58 @@
+id: person/zayd-ibn-al-khattab
+class: person
+label:
+  ar: زيد بن الخطاب
+  en: Zayd ibn al-Khattab
+names:
+- kind: full
+  lang: ar
+  value: زيد بن الخطاب بن نفيل العدوي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'أخو عمر وأكبر منه وأسلم قبله؛ شهد بدراً والمشاهد، وكانت راية المسلمين معه يوم اليمامة سنة 12هـ فاستُشهد بها؛ وقال عمر لما قُتل: «سبقني إلى الحسنيين أسلم قبلي واستشهد قبلي».'
+  en: 'Umar''s older brother, who embraced Islam before him; he fought at Badr and the later campaigns and carried the Muslim banner at al-Yamama in 12 AH, where he was killed; Umar said when he fell: ''He beat me to the two good things: he embraced
+    Islam before me and was martyred before me.'''
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 2968 (ص 515).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: sibling_of
+  target: person/umar-ibn-al-khattab
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 2968، ص 515
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 515, entry 2968)

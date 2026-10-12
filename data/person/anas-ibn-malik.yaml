@@ -1,0 +1,69 @@
+id: person/anas-ibn-malik
+class: person
+label:
+  ar: أنس بن مالك
+  en: Anas ibn Malik
+names:
+- kind: full
+  lang: ar
+  value: أنس بن مالك بن النضر بن ضمضم بن زيد بن حرام بن جندب الأنصاري الخزرجي النجاري
+- kind: kunya
+  lang: ar
+  value: أبو حمزة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: خادم النبي وأحد المكثرين من الرواية عنه؛ قدم النبي المدينة وهو ابن عشر سنين فأتت به أمه أم سليم ليخدمه، وسكن البصرة بعد الفتوح وهو آخر الصحابة موتاً بها، وتُذكر وفاته بين 90 و93هـ.
+  en: The servant of the Prophet and one of the most prolific narrators from him; he was ten when the Prophet reached Medina and his mother Umm Sulaym brought him to serve him; after the conquests he settled in Basra, where he was the last Companion
+    to die, with his death given between 90 and 93 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 430 (ص 100).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/umm-sulaym
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/basra
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 430، ص 100
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 100, entry 430)

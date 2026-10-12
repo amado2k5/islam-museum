@@ -1,0 +1,58 @@
+id: person/maymuna-bint-al-harith
+class: person
+label:
+  ar: ميمونة بنت الحارث
+  en: Maymuna bint al-Harith
+names:
+- kind: full
+  lang: ar
+  value: ميمونة بنت الحارث بن حزن الهلالية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أم المؤمنين، أخت أم الفضل لبابة؛ كان اسمها برة فسماها النبي ميمونة، وتزوجها في عمرة القضاء سنة 7هـ، وقال ابن سعد إنها آخر امرأة تزوجها ممن دخل بها؛ واختُلف هل كان النبي محرماً حين العقد.
+  en: A Mother of the Believers and sister of Umm al-Fadl Lubaba; she was named Barra and the Prophet called her Maymuna; he married her at the 'umrat al-qada' in 7 AH, and Ibn Sa'd says she was the last wife he took whom he consummated with;
+    whether he was in ihram at the contract is disputed.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11830 (ص 1965).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/umrah-of-qada
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11830، ص 1965
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1965, entry 11830)

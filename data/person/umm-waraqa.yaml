@@ -1,0 +1,61 @@
+id: person/umm-waraqa
+class: person
+label:
+  ar: أم ورقة بنت عبد الله
+  en: Umm Waraqa bint Abdullah
+names:
+- kind: full
+  lang: ar
+  value: أم ورقة بنت عبد الله بن الحارث بن عويمر بن نوفل الأنصارية
+- kind: kunya
+  lang: ar
+  value: أم ورقة
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'صحابية أنصارية قرأت القرآن؛ طلبت أن تخرج مع النبي إلى بدر لتمرّض المرضى فقال لها: «قري في بيتك فإن الله يرزقك الشهادة» فكانت تسمى الشهيدة، وأذن لها أن تتخذ في دارها مؤذناً، وقتلها غلام لها وجارية فصلبهما عمر.'
+  en: An Ansari Companion who had read the Qur'an; she asked to go out with the Prophet to Badr to nurse the sick and he told her to stay in her house since God would grant her martyrdom, so she was called 'the martyr'; he allowed her a muezzin
+    in her house, and a male and a female slave of hers killed her and Umar had them crucified.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12337 (ص 2044).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12337، ص 2044
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2044, entry 12337)
