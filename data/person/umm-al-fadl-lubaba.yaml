@@ -43,6 +43,11 @@ relations:
   target: person/abbas-ibn-abd-al-muttalib
   sources:
   - source/ibn-hajar-isaba
+- type: child_of
+  target: person/khawla-bint-awf
+  note: "أمها هند وهي خولة بنت عوف بن زهير بن الحارث (نساء حول الرسول ص203)."
+  sources:
+  - source/nisa-hawl-alrasul
 - type: parent_of
   target: person/abdullah-ibn-abbas
   sources:
@@ -63,6 +68,7 @@ provenance:
   run: isaba-batch-5
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2

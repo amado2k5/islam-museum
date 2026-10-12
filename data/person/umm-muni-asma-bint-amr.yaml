@@ -1,0 +1,31 @@
+id: person/umm-muni-asma-bint-amr
+class: person
+label: { en: "Umm Muni' (Asma bint Amr)", ar: "أم منيع (أسماء بنت عمرو)" }
+names:
+  - { kind: full, lang: ar, value: "أسماء بنت عمرو بن عدي بن ياسر بن سواء بن غنم بن كعب السلمية" }
+  - { kind: kunya, lang: ar, value: "أم منيع" }
+  - { kind: kunya, lang: ar, value: "أم معاذ" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Sulami Companion, mother of Mu'adh ibn Jabal; she was the second woman at the second pledge of Aqaba alongside Nusayba bint Ka'b (Umm Umara), and the tradition also counts her among the Muslims who witnessed Khaybar."
+  ar: "صحابية سلمية أم معاذ بن جبل؛ كانت المرأة الثانية في بيعة العقبة الثانية مع نسيبة بنت كعب أم عمارة، ويذكر ابن سعد أنها شهدت العقبة مع زوجها خديج بن سلامة وشهدت خيبر أيضاً."
+wings: [people]
+themes: [women]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: lived_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: spouse_of, target: person/khadij-ibn-salama, note: "شهدت العقبة مع زوجها خديج بن سلامة (نساء حول الرسول ص274، عن ابن سعد).", sources: [source/nisa-hawl-alrasul] }
+  - { type: parent_of, target: person/muadh-ibn-jabal, note: "أم معاذ بن جبل الذي شهد العقبة وبدراً والمشاهد وكان إمام الفقهاء (نساء حول الرسول ص275-278).", sources: [source/nisa-hawl-alrasul] }
+  - { type: participated_in, target: event/pledges-of-aqaba, role: "بايعت مع السبعين هي ونسيبة بنت كعب", sources: [source/nisa-hawl-alrasul] }
+  - { type: participated_in, target: event/battle-of-khaybar, note: "وقال ابن سعد إنها شهدت خيبر (نساء حول الرسول ص274).", sources: [source/nisa-hawl-alrasul] }
+sources: [source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 1, generated_by: "Devin; Nisa' Hawl al-Rasul pp. 273-278, lib-nisa-hawl-rasul" }
+provenance: { layer: own-research, source: "نساء حول الرسول (المكتبة العصرية 2015) ص273-278؛ ينقل عن الإصابة ترجمتي 1520 و49 والطبقات", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }

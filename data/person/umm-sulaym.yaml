@@ -45,8 +45,15 @@ relations:
   - source/ibn-hajar-isaba
 - type: spouse_of
   target: person/abu-talha-al-ansari
+  note: "خطبها قبل إسلامه فكان صداقها إسلامه (نساء حول الرسول ص253-254)."
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
+- type: spouse_of
+  target: person/malik-ibn-al-nadr
+  note: "زوجها الأول مالك بن النضر والد أنس؛ اختلف معها حين أسلمت وخرج إلى الشام فمات بها (نساء حول الرسول ص252)."
+  sources:
+  - source/nisa-hawl-alrasul
 - type: member_of
   target: group/ansar
   sources:
@@ -59,6 +66,7 @@ provenance:
   run: isaba-batch-3
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2

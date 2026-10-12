@@ -22,9 +22,13 @@ faith:
 relations:
   - { type: member_of, target: group/khathum }
   - { type: spouse_of, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa-1936] }
+  - { type: sibling_of, target: person/umm-al-fadl-lubaba, note: "أمها هند وهي خولة بنت عوف بن زهير بن الحارث — أم لبابة أم الفضل أيضاً (نساء حول الرسول ص203 و212).", sources: [source/nisa-hawl-alrasul] }
+  - { type: spouse_of, target: person/abu-bakr, note: "تزوجها أبو بكر بعد وفاة زوجها جعفر بن أبي طالب بمؤتة (نساء حول الرسول ص216-217).", sources: [source/nisa-hawl-alrasul] }
+  - { type: spouse_of, target: person/ali-ibn-abi-talib, note: "ثم تزوجها علي بعد وفاة أبي بكر وولدت له عوناً (نساء حول الرسول ص217).", sources: [source/nisa-hawl-alrasul] }
+  - { type: parent_of, target: person/awn-ibn-ali, sources: [source/nisa-hawl-alrasul] }
   - { type: participated_in, target: event/return-from-abyssinia, role: participant, sources: [source/ibn-hisham-saqqa-1936] }
   - { type: participated_in, target: event/mutah-prophets-grief-and-condolence, role: bereaved-widow, sources: [source/ibn-hisham-saqqa-1936] }
-sources: [source/ibn-hisham-saqqa-1936]
+sources: [source/ibn-hisham-saqqa-1936, source/nisa-hawl-alrasul]
 status:
   review: draft
   completeness: 1
