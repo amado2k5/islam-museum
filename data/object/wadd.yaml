@@ -1,0 +1,11 @@
+class: object
+id: object/wadd
+kind: other
+label: { ar: "ود", en: "Wadd" }
+summary: { ar: "صنم كلب بدومة الجندل.", en: "Wadd — a pre-Islamic Arabian idol." }
+themes: [tradition-versus-culture]
+relations:
+  - { type: held_by, target: group/kalb }
+  - { type: made_in, target: place/dumat-al-jandal }
+sources: [source/mubarakpuri-raheeq, source/akhbar-makka-al-azraqi]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 35–47" }
