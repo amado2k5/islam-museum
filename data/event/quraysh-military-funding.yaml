@@ -1,0 +1,38 @@
+id: event/quraysh-military-funding
+class: event
+kind: other
+label:
+  ar: تمويل جيش أحد
+  en: Funding of the Uhud Army
+summary:
+  ar: بيع قريش لألف بعير لجمع خمسين ألف دينار لتمويل حربهم ضد المسلمين.
+  en: The sale of a thousand camels by Quraysh to raise fifty thousand dinars to fund their war against Muslims.
+wings:
+- time
+- people
+- place
+periods:
+- period/prophetic-era
+regions:
+- arabia
+date:
+  start:
+    edtf: 0625-03
+    hijri: 0003-10
+    calendar: julian
+    precision: month
+    status: tradition
+    note: شوال سنة 3هـ كما في الرحيق المختوم؛ التحويل إلى الميلادي مشتق.
+relations:
+- type: part_of
+  target: event/preparation-for-uhud
+provenance:
+  layer: own-research
+  source: الرحيق المختوم (source/mubarakpuri-raheeq) p.248
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+sources:
+- source/mubarakpuri-raheeq
+status:
+  review: draft

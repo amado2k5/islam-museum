@@ -1,0 +1,20 @@
+id: person/amr-ibn-umayya
+class: person
+label:
+  ar: عمرو بن أمية
+summary:
+  ar: صحابي من بني أسد، هاجر إلى الحبشة وهلك بها.
+gender: male
+relations:
+  - type: member_of
+    target: group/banu-asad
+died:
+  hijri: "0007"
+  precision: year
+  note: "هلك بأرض الحبشة"
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

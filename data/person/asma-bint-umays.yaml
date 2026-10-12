@@ -1,24 +1,33 @@
 id: person/asma-bint-umays
 class: person
-label: { ar: "أسماء بنت عميس", en: "Asma' bint Umays" }
+label:
+  ar: أسماء بنت عميس
+  en: Asma' bint Umays
 names:
   - { kind: full, lang: ar, value: "أسماء بنت عميس الخثعمية" }
 gender: female
 roles: [companion]
 traditions: [sunni]
 summary:
-  ar: "صحابية، زوجة جعفر بن أبي طالب؛ لما أُصيب زوجها بمؤتة جاء النبي إلى بيتها وطلب أبناء جعفر، فلما رآهم تشممهم وذرفت عيناه، وأخبرها باستشهاده. رَوَت وصيّته بإطعام آل جعفر."
-  en: "Companion, wife of Ja'far ibn Abi Talib. When Ja'far was killed at Mu'tah the Prophet visited her home, asked for Ja'far's children, smelled them and wept, then told her of his martyrdom. She transmitted the Prophet's instruction to provide food for Ja'far's household."
+  ar: صحابية من الخثعميين، هاجرت إلى الحبشة وكانت زوجة لجعفر بن أبي طالب؛ لما أُصيب زوجها بمؤتة جاء النبي إلى بيتها وطلب أبناء جعفر، فلما رآهم تشممهم وذرفت عيناه، وأخبرها باستشهاده.
+  en: Companion, wife of Ja'far ibn Abi Talib. When Ja'far was killed at Mu'tah the Prophet visited her home, asked for Ja'far's children, smelled them and wept, then told her of his martyrdom.
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
-  - { role: witness, status: tradition, note: "زوجة جعفر بن أبي طالب، شهدت يوم استشهاده.", sources: [source/ibn-hisham-saqqa] }
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa-1936] }
+  - { role: witness, status: tradition, note: "زوجة جعفر بن أبي طالب، شهدت يوم استشهاده.", sources: [source/ibn-hisham-saqqa-1936] }
 faith:
   - { value: sunni, basis: tradition }
 relations:
-  - { type: spouse_of, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa] }
-  - { type: participated_in, target: event/mutah-prophets-grief-and-condolence, role: bereaved-widow, sources: [source/ibn-hisham-saqqa] }
-sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 22" }
+  - { type: member_of, target: group/khathum }
+  - { type: spouse_of, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa-1936] }
+  - { type: participated_in, target: event/return-from-abyssinia, role: participant, sources: [source/ibn-hisham-saqqa-1936] }
+  - { type: participated_in, target: event/mutah-prophets-grief-and-condolence, role: bereaved-widow, sources: [source/ibn-hisham-saqqa-1936] }
+sources: [source/ibn-hisham-saqqa-1936]
+status:
+  review: draft
+  completeness: 1
+provenance:
+  generated_by: codex
+  model: gpt-4o

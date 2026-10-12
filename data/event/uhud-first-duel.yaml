@@ -1,0 +1,20 @@
+id: event/uhud-first-duel
+kind: other
+class: event
+label:
+  ar: "المبارزة الأولى في أحد"
+  en: "The First Duel at Uhud"
+summary:
+  ar: "مبارزة بين الزبير بن العوام وطلحة بن أبي طلحة العبدري انتهت بقتل الأخير."
+  en: "A duel between al-Zubayr ibn al-Awwam and Talha ibn Abi Talha al-Abdari, ending with the latter's death."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.258, p.259 }
+status: { review: draft }
+relations:
+  - { type: part_of, target: event/battle-of-uhud }

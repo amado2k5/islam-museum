@@ -1,0 +1,25 @@
+id: event/return-of-abyssinian-emigrants
+class: event
+kind: migration
+label: { ar: "قدوم مهاجري الحبشة مع جعفر بن أبي طالب", en: "Return of the Abyssinian emigrants with Ja'far ibn Abi Talib" }
+summary:
+  ar: "بعد صلح الحديبية أرسل النبي عمرو بن أمية الضمري إلى النجاشي، فحمل النجاشي المهاجرين في سفينتين فقدموا على النبي وهو بخيبر بعد فتحه. استقبل النبي جعفر بن أبي طالب بالتقبيل بين عينيه وقال: «ما أدري بأيهما أنا أسر: بفتح خيبر أم بقدوم جعفر». وكان عدد من قدم في السفينتين ستة عشر رجلًا، وعدد من بقي أو قدم بعد ذلك أو هلك بأرض الحبشة أربعة وثلاثون رجلًا، وجاء معهم ست عشرة امرأة."
+  en: "After Hudaybiyya, the Prophet sent Amr ibn Umayya al-Damri to the Negus, who transported the remaining Muslim emigrants in two ships to the Prophet at Khaybar after the conquest. The Prophet received Ja'far with a kiss between the eyes, saying 'I do not know which gives me greater joy — the opening of Khaybar or the arrival of Ja'far.' Sixteen men came on the two ships; thirty-four others came later or died in Abyssinia; sixteen women made the emigration."
+wings: [time, people, place]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+date:
+  start: { edtf: "0628~", hijri: "0007~", calendar: julian, precision: year, status: tradition, note: "قدموا والنبي بخيبر، بعد الحديبية في ذي القعدة 6هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/khaybar }
+  - { type: occurred_at, target: place/aksum }
+  - { type: had_participant, target: person/jafar-ibn-abi-talib, role: leader, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: recipient, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/asma-bint-umays, role: returnee, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/umm-habiba-bint-abi-sufyan, role: returnee, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: returnee, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/second-migration-to-abyssinia }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 3-11", generated_by: "kiro", run: "ibn-hisham-batch-5" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 3-11" }

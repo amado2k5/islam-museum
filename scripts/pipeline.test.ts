@@ -172,3 +172,15 @@ describe("Arabic first (docs/language.md)", () => {
     expect(msgs(validateAll([{ entity: m({ ar: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
   });
 });
+
+describe("content quality guards (docs/content-quality.md)", () => {
+  it("rejects honorifics typed into a summary or label (ﷺ and the spelled-out formulas)", () => {
+    const i = run(base("event", "t-honorific", { summary: { ar: "أمر النبي ﷺ جيشه", en: "t" } }));
+    expect(msgs(i, "error")).toMatch(/honorifics must not be typed/);
+    const j = run(base("event", "t-honorific2", { summary: { ar: "قبلة إبراهيم عليه السلام", en: "t" } }));
+    expect(msgs(j, "error")).toMatch(/honorifics must not be typed/);
+  });
+  it("accepts a plain summary", () => {
+    expect(msgs(run(base("event", "t-plain", { summary: { ar: "خرج النبي إلى أحد", en: "t" } })), "error")).not.toMatch(/honorifics/);
+  });
+});

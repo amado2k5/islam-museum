@@ -1,0 +1,20 @@
+id: person/fatima-bint-safwan
+class: person
+label:
+  ar: فاطمة بنت صفوان
+summary:
+  ar: زوجة عمرو بن سعيد بن العاص، هلكت بأرض الحبشة.
+gender: female
+relations:
+  - type: spouse_of
+    target: person/amr-ibn-said-ibn-al-as
+died:
+  hijri: "0007"
+  precision: year
+  note: "هلكت بأرض الحبشة"
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

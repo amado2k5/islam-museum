@@ -1,0 +1,24 @@
+id: person/abdullah-ibn-jafar
+class: person
+label:
+  ar: عبد الله بن جعفر
+summary:
+  ar: ابن جعفر بن أبي طالب وأسماء بنت عميس، ولد في أرض الحبشة.
+gender: male
+relations:
+  - type: member_of
+    target: group/banu-hashim
+  - type: child_of
+    target: person/jafar-ibn-abi-talib
+  - type: child_of
+    target: person/asma-bint-umays
+born:
+  hijri: "0003"
+  precision: year
+  note: "ولد بأرض الحبشة"
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

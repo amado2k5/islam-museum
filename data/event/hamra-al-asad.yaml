@@ -1,0 +1,23 @@
+id: event/hamra-al-asad
+class: event
+kind: raid
+label: { en: "Expedition to Hamra al-Asad", ar: "غزوة حمراء الأسد" }
+summary:
+  ar: "صباح الأحد الثامن من شوال سنة 3هـ ندب النبي الناس لمتابعة قريش وقال: لا يخرج معنا إلا من شهد القتال. استجاب المسلمون على ما بهم من جراح. بلغوا حمراء الأسد على بعد ثمانية أميال من المدينة فعسكروا. أرسل النبي معبد بن أبي معبد الخزاعي إلى أبي سفيان، فشن عليه حرب أعصاب دعائية بالروحاء: «محمد خرج في جمع لم أر مثله قط يتحرقون عليكم». انهارت عزائم الجيش المكي فواصلوا الانسحاب إلى مكة. أرسل أبو سفيان ركباً من عبد القيس يبلّغ المسلمين تهديداً فلم يزدهم إلا إيماناً. أقام النبي الإثنين والثلاثاء والأربعاء ثم رجع وأعدم أبا عزة الجمحي الذي نكث عهده {cite:mubarakpuri-raheeq p.284}."
+wings: [time, people, place]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03-24", hijri: "0003-10-08", calendar: julian, precision: day, status: tradition, note: "يوم الأحد الثامن من شوال سنة 3هـ {cite:mubarakpuri-raheeq p.284}." }
+  end: { edtf: "0625-03-27", hijri: "0003-10-11", calendar: julian, precision: day, status: tradition, note: "رجع النبي يوم الأربعاء الحادي عشر {cite:mubarakpuri-raheeq p.286}." }
+relations:
+  - { type: occurred_at, target: place/hamra-al-asad }
+  - { type: occurred_at, target: place/medina }
+  - { type: part_of, target: event/battle-of-uhud }
+  - { type: had_participant, target: person/muhammad, role: "قاد الغزوة وأحكم المطاردة المعنوية", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "انصرف عن العودة بعد الحرب النفسية التي شنّها معبد الخزاعي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-azza-al-jumahi, role: "أُعدم بعد نكثه العهد الذي أُطلق به من أسرى بدر", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 284-287" }

@@ -1,0 +1,20 @@
+id: event/uhud-banner-struggle
+kind: other
+class: event
+label:
+  ar: "الصراع حول لواء المشركين"
+  en: "The Struggle for the Meccan Banner"
+summary:
+  ar: "سلسلة من المبارزات والقتال العنيف حول لواء قريش انتهت بإبادة عشرة من حمالة اللواء من بني عبد الدار."
+  en: "A series of duels and intense fighting around the Meccan banner, ending with the death of ten banner-bearers from Banu Abd al-Dar."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.259, p.260 }
+status: { review: draft }
+relations:
+  - { type: part_of, target: event/battle-of-uhud }

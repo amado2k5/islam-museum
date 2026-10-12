@@ -1,0 +1,23 @@
+id: event/uhud-burial-of-martyrs
+class: event
+kind: other
+label: { en: "Burial of the Uhud martyrs", ar: "دفن شهداء أحد" }
+summary:
+  ar: "أشرف رسول الله على الشهداء وقال: «أنا شهيد على هؤلاء». أمر بردّ من كان نقل قتيله إلى المدينة، وأن يُدفنوا في مضاجعهم بثيابهم بعد نزع الحديد والجلود بلا غسل، وكان يجمع الاثنين والثلاثة في القبر ويقدّم أكثرهم أخذاً للقرآن. دُفن عبد الله بن عمرو بن حرام وعمرو بن الجموح في قبر واحد لمحبتهما. تفقّدوا حنظلة فوجدوه يقطر ماء فقال النبي: الملائكة تغسله، فسمي غسيل الملائكة. وجد في الشهداء مصعب بن عمير ولم يُجد له كفن إلا بردة {cite:mubarakpuri-raheeq p.281}."
+wings: [time, people, place]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03-23", hijri: "0003-10-07", calendar: julian, precision: day, status: tradition, note: "عصر يوم أحد بعد انصراف المشركين {cite:mubarakpuri-raheeq p.281}." }
+relations:
+  - { type: occurred_at, target: place/uhud }
+  - { type: part_of, target: event/battle-of-uhud }
+  - { type: had_participant, target: person/muhammad, role: "أشرف على الدفن وصلى على الشهداء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, role: "شهيد؛ دُفن مع عبد الله بن جحش ابن أخته وأخيه من الرضاع", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/musab-ibn-umayr, role: "شهيد؛ كُفّن في بردته التي لا تغطيه كاملاً", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hanzala-ibn-abi-amir, role: "غسيل الملائكة؛ وُجد يقطر ماء فشهد النبي أن الملائكة تغسله", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-al-rabi, role: "وجده زيد بن ثابت بآخر رمق وفيه سبعون ضربة؛ أبلغ النبي سلامه", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 280-283" }
