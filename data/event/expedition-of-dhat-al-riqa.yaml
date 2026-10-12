@@ -1,0 +1,28 @@
+id: event/expedition-of-dhat-al-riqa
+class: event
+kind: campaign
+label: { en: "The Expedition of Dhat al-Riqa'", ar: "غزوة ذات الرقاع" }
+summary:
+  en: "In the 7th year AH after Khaybar (debated timing), the Prophet led an expedition into Najd against gathering clans of Ghatafan; named from the rags the Muslims wrapped around their injured feet; here Salat al-Khawf (prayer of fear) was performed and the incident of Abbad ibn Bishr praying while struck by arrows occurred."
+  ar: "غزوة قادها النبي إلى نجد لتأديب جموع من غطفان في السنة السابعة للهجرة بعد خيبر؛ سميت بذات الرقاع لربط المسلمين الخرق على أقدامهم التي نقبت من وعورة الأرض؛ شُرعت فيها صلاة الخوف وشهدت ثبات عباد بن بشر في صلاته وقد رشقه العدو بثلاثة أسهم."
+wings: [time, people]
+themes: [battles, worship-and-the-pillars]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628-07~", hijri: "0007-03", calendar: julian, precision: month, status: debated, note: "في السنة السابعة للهجرة بعد خيبر على ترجيح البخاري والمباركفوري لشهود أبي هريرة وأبي موسى الأشعري لها (الرحيق ص380–383)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة ومصلي صلاة الخوف", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abbad-ibn-bishr, role: "الحارس الذي أصيب بثلاثة أسهم في صلاته فلم يقطعها", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ammar-ibn-yasir, role: "رفيق عباد في حراسة الشعب", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "راوي الغزوة وتسميتها برقع الأقدام بالخرق", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslims", ar: "المسلمون" }
+    participants: [group/early-muslims]
+    commanders: [person/muhammad]
+  - label: { en: "Ghatafan clans", ar: "جموع غطفان وثعلبة ومحارب" }
+    participants: [group/ghatafan]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 380–383" }

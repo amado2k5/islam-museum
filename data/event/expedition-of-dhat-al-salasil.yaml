@@ -1,0 +1,29 @@
+id: event/expedition-of-dhat-al-salasil
+class: event
+kind: campaign
+label: { en: "The Expedition of Dhat al-Salasil", ar: "سرية ذات السلاسل" }
+summary:
+  en: "In Jumada II 8 AH (October 629 CE), following the Battle of Mu'tah, the Prophet dispatched Amr ibn al-As with 300 men (later reinforced by 200 led by Abu Ubayda) to Dhat al-Salasil on the borders of Syria to win over and neutralize the Quda'a and Bali tribes; Amr demonstrated tactical prudence, routed the gatherings, and established Muslim authority in the northern deserts."
+  ar: "في جمادى الآخرة سنة 8هـ إثر معركة مؤتة، بعث النبي عمرو بن العاص في ثلاثمائة مقاتل ثم أمده بمائتين عليهم أبو عبيدة إلى ذات السلاسل بأرض بلي وعذرة على حدود الشام؛ ففرق جموع قضاعة بحكمة عسكرية ومنع إيقاد النار واللحاق بالعدو، فرجع ظافراً وثبت هيبة المسلمين في أطراف الشام."
+wings: [time, people]
+themes: [battles, skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia, levant-iraq]
+date:
+  start: { edtf: "0629-10~", hijri: "0008-06", calendar: julian, precision: month, status: tradition, note: "جمادى الآخرة سنة 8هـ (أكتوبر 629م) (الرحيق ص392–393)." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "أمير السرية", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "قائد المدد المبعوث لنصرة عمرو", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abu-bakr, role: "ممن شارك في المدد تحت إمرة عمرو", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "ممن شارك في المدد", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/battle-of-mutah }
+sides:
+  - label: { en: "Muslim Detachment", ar: "جيش المسلمين" }
+    participants: [group/early-muslims]
+    commanders: [person/amr-ibn-al-as]
+  - label: { en: "Quda'a and allied clans", ar: "قبائل قضاعة وبلي وعذرة" }
+    participants: [group/kinana]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 392–393" }

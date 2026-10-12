@@ -1,20 +1,24 @@
 id: event/umrah-of-qada
 class: event
 kind: pilgrimage
-label: { en: "The Umrah of Qada", ar: "عمرة القضاء" }
+label: { en: "The Fulfilled Umrah (Umrat al-Qada)", ar: "عمرة القضاء" }
 summary:
-  en: "As agreed at Hudaybiyya, the Prophet and his companions entered Mecca the following year to perform the lesser pilgrimage, and the Quraysh withdrew from the city for three days."
-  ar: "أدى النبي وأصحابه في العام التالي عمرة القضاء كما اتُّفق في الحديبية، فخرجت قريش من مكة ثلاثة أيام."
+  en: "In Dhu al-Qa'da 7 AH (March 629 CE), fulfilling the treaty of Hudaybiyya, the Prophet and 2,000 Muslims entered Mecca unarmed to perform Umrah while Quraysh watched from the hills; the Prophet married Maymuna bint al-Harith and the demonstration of Muslim devotion profoundly shifted Meccan sentiment, leading to the conversions of Khalid ibn al-Walid, Amr ibn al-As, and Uthman ibn Talha."
+  ar: "في ذي القعدة سنة 7هـ (مارس 629م)، دخل النبي في ألفين من أصحابه معتمرين قضاءً لعمرة الحديبية، وخلت قريش مكة ثلاثة أيام ونزلوا برؤوس الجبال ينظرون إليهم، وطاف النبي بالبيت وهو يرتجز وابن رواحة متوشحاً سيفه بين يديه؛ وتزوج النبي ميمونة بنت الحارث، فمهدت هذه العمرة لفتح مكة وإسلام دهاة قريش: خالد وعمرو وعثمان بن طلحة."
 wings: [time, people]
-themes: [pilgrimages-and-mass-gatherings]
+themes: [pilgrimages-and-mass-gatherings, worship-and-the-pillars]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0629-03", hijri: "0007-11", calendar: julian, precision: month, status: tradition }
+  start: { edtf: "0629-03~", hijri: "0007-11", calendar: julian, precision: month, status: tradition, note: "ذي القعدة سنة 7هـ (مارس 629م) (الرحيق ص384–387)." }
 relations:
   - { type: occurred_at, target: place/mecca }
-  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/muhammad, role: "قائد المعتمرين", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abdullah-ibn-rawaha, role: "المرتجز بين يدي النبي بالسيف", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/maymuna-bint-al-harith, role: "تزوجها النبي بسرف إثر فراغ العمرة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "تولى عقد زواج ميمونة للنبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/treaty-of-hudaybiyya }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 384–387" }
