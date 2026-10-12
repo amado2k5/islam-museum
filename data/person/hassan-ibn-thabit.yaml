@@ -1,0 +1,28 @@
+id: person/hassan-ibn-thabit
+class: person
+label: { en: "Hassan ibn Thabit", ar: "حسان بن ثابت" }
+names:
+  - { kind: full, lang: ar, value: "حسان بن ثابت بن المنذر النجاري الأنصاري" }
+  - { kind: laqab, lang: ar, value: "شاعر الرسول" }
+gender: male
+roles: [companion, poet]
+traditions: [sunni]
+summary:
+  en: "The renowned 'Poet of the Prophet'; an Ansari chief of Banu al-Najjar who defended Islam and the Prophet with his eloquent poetry, endorsed by the Prophet with the supplication 'O God, support him with the Holy Spirit'; lived to over a hundred years."
+  ar: "شاعر الرسول وشاعر الأنصار؛ صحابي جليل من بني النجار كان ينفح عن رسول الله ويهجو خصومه بشعره، وكان النبي ينصب له منبراً في المسجد ويقول: «اللهم أيده بروح القدس»؛ عُمّر طويلاً وتوفي في خلافة معاوية."
+wings: [people]
+themes: [converts-and-leavers, literature]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: poet, toward: person/muhammad, start: { edtf: "0622~" }, status: historical, note: "شاعر النبي الذي كان ينفح عنه بالمسجد.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي وشاعر النبي." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/khazraj }
+  - { type: participated_in, target: event/incident-of-the-slander, role: "خاض في الإفك ثم جُلد وتاب وعفا عنه حسان بمدح عائشة", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }

@@ -1,0 +1,28 @@
+id: person/juwayriyya-bint-al-harith
+class: person
+label: { en: "Juwayriyya bint al-Harith", ar: "جويرية بنت الحارث" }
+names:
+  - { kind: full, lang: ar, value: "جويرية بنت الحارث بن أبي ضرار الخزاعية المصطلقية" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "Mother of the Believers; daughter of the chieftain of Banu al-Mustaliq, captured at al-Muraysi'; upon seeking the Prophet's help to pay her ransom contract, he offered to pay it and marry her, which led the Muslims to emancipate a hundred families of her tribe, making Aisha call her the greatest blessing to her people."
+  ar: "أم المؤمنين؛ ابنة الحارث بن أبي ضرار سيد بني المصطلق؛ سُبيت يوم المريسيع وكاتبت ثابت بن قيس، فقضى النبي كتابتها وتزوجها، فكان زواجها أعظم بركة على قومها إذ أعتق المسلمون مائة أهل بيت من بني المصطلق إكراماً لأصهار رسول الله."
+wings: [people]
+themes: [women, family-marriage-kinship]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0627" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, start: { edtf: "0627" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: family-of-the-prophet, start: { edtf: "0627" }, status: tradition, note: "زوج النبي وأم المؤمنين.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0627" }, note: "أم المؤمنين وزوج رسول الله." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: spouse_of, target: person/muhammad, start: { edtf: "0627" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/ahl-al-bayt }
+  - { type: participated_in, target: event/expedition-of-banu-al-mustaliq, role: "السبية التي تزوجها النبي فأُعتق قومها", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 326–327" }
