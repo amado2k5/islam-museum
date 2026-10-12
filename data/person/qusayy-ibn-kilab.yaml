@@ -14,6 +14,7 @@ regions: [arabia]
 story_roles:
   - { role: ruler, toward: group/quraysh, status: tradition, note: "صارت له ثم لقريش السيادة التامة والأمر النافذ في مكة.", sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: child_of, target: person/kilab-ibn-murrah }
   - { type: ruler_of, target: place/mecca, start: { edtf: "0440~" }, sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
   - { type: member_of, target: group/quraysh }
   - { type: founder_of, target: building/dar-al-nadwa, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }

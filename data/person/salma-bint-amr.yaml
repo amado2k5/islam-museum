@@ -1,0 +1,12 @@
+id: person/salma-bint-amr
+class: person
+label: { ar: "سلمى بنت عمرو", en: "Salmā bint ʿAmr" }
+summary: { ar: "امرأة من بني عدي بن النجار بيثرب؛ تزوجها هاشم بن عبد مناف وأقامت عند أهلها فولدت عبد المطلب وربّته بيثرب حتى جاء به خاله أو عمه إلى مكة.", en: "A woman of Banū ʿAdī ibn al-Najjār of Yathrib; Hāshim’s wife and ʿAbd al-Muṭṭalib’s mother, who raised the boy at Yathrib." }
+story_roles: [{ role: family-of-the-prophet }]
+themes: [family-marriage-kinship, women]
+relations:
+  - { type: spouse_of, target: person/hashim-ibn-abd-manaf }
+  - { type: member_of, target: group/banu-al-najjar }
+  - { type: lived_in, target: place/medina }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 48–53" }

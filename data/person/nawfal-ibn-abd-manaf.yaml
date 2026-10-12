@@ -1,0 +1,12 @@
+id: person/nawfal-ibn-abd-manaf
+class: person
+label: { ar: "نوفل بن عبد مناف", en: "Nawfal ibn ʿAbd Manāf" }
+summary: { ar: "عم عبد المطلب الذي وثب على أركاحه بعد موت المطلب فغصبه إياها، حتى ردّها بتدخل أخواله من بني النجار وتحالف بني هاشم وخزاعة.", en: "ʿAbd al-Muṭṭalib’s uncle who seized his offices after al-Muṭṭalib’s death, forced to restore them under pressure of the Najjār and the new pact." }
+story_roles: [{ role: rival-claimant }]
+themes: [family-marriage-kinship]
+relations:
+  - { type: child_of, target: person/abd-manaf-ibn-qusayy }
+  - { type: member_of, target: group/quraysh }
+  - { type: opposed, target: person/abd-al-muttalib }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 48–53" }

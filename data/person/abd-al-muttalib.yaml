@@ -23,6 +23,11 @@ story_roles:
 faith:
   - { value: other, basis: debated, note: "Most sources place him in Mecca's polytheist milieu; some reports in tradition call him a hanif who rejected idols. Recorded as debated.", sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca] }
 relations:
+  - { type: participated_in, target: event/recovery-of-abd-al-muttalib-rights }
+  - { type: participated_in, target: event/vow-and-lot-of-abd-al-muttalib }
+  - { type: participated_in, target: event/redigging-of-zamzam }
+  - { type: spouse_of, target: person/fatima-bint-amr }
+  - { type: child_of, target: person/salma-bint-amr }
   - { type: born_in, target: place/medina, note: "Tradition places his birth in Yathrib, his mother's town." }
   - { type: died_in, target: place/mecca }
   - { type: child_of, target: person/hashim-ibn-abd-manaf }

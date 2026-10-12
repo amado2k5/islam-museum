@@ -12,6 +12,8 @@ themes: [family-marriage-kinship]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
+  - { type: died_in, target: place/gaza }
+  - { type: spouse_of, target: person/salma-bint-amr }
   - { type: child_of, target: person/abd-manaf-ibn-qusayy }
   - { type: member_of, target: group/banu-hashim }
   - { type: member_of, target: group/quraysh }

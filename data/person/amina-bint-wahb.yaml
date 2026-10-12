@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: arabian-polytheism, basis: tradition, note: "ماتت قبل البعثة؛ حالها الإيماني موضع خلاف لاهوتي لا يحسمه هذا القسم من الكتاب." }
 relations:
+  - { type: died_in, target: place/al-abwa }
   - { type: member_of, target: group/quraysh }
   - { type: spouse_of, target: person/abdullah-ibn-abd-al-muttalib }
   - { type: child_of, target: person/wahb-ibn-abd-manaf }
