@@ -1,0 +1,60 @@
+id: person/shaddad-ibn-aws
+class: person
+label:
+  ar: شداد بن أوس
+  en: Shaddad ibn Aws
+names:
+- kind: full
+  lang: ar
+  value: شداد بن أوس بن ثابت الخزرجي النجاري ابن أخي حسان بن ثابت
+- kind: kunya
+  lang: ar
+  value: أبو يعلى
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من بني النجار ابن أخي حسان بن ثابت؛ وصفه عبادة بن الصامت بأنه ممن أوتي العلم والحلم، وسكن حمص ثم فلسطين، ودُفن ببيت المقدس سنة 58هـ على الراجح.
+  en: A Companion of Banu al-Najjar and nephew of Hassan ibn Thabit; Ubada ibn al-Samit described him as one given both knowledge and forbearance; he lived in Homs and then Palestine and was buried in Jerusalem, most likely in 58 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 3895 (ص 651).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/jerusalem
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 3895، ص 651
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 651, entry 3895)

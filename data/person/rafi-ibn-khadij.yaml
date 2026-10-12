@@ -1,0 +1,64 @@
+id: person/rafi-ibn-khadij
+class: person
+label:
+  ar: رافع بن خديج
+  en: Rafi' ibn Khadij
+names:
+- kind: full
+  lang: ar
+  value: رافع بن خديج بن رافع بن عدي بن يزيد بن جشم بن حارثة الأنصاري الأوسي الحارثي
+- kind: kunya
+  lang: ar
+  value: أبو عبد الله
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من الأوس؛ عُرض على النبي يوم بدر فاستصغره وأجازه يوم أحد فشهد ما بعدها، وأصابه سهم يوم أحد انتقض جرحه بعد سنين؛ مات بالمدينة وهو ابن ست وثمانين، واختُلف في سنة وفاته.
+  en: A Companion of the Aws; presented to the Prophet at Badr he was judged too young, then allowed at Uhud and fought after; an arrow struck him at Uhud and the wound reopened years later; he died in Medina aged eighty-six, with the year disputed.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 2548 (ص 446).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 2548، ص 446
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 446, entry 2548)

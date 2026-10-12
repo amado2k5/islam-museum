@@ -1,0 +1,54 @@
+id: person/al-shifa-bint-abdullah
+class: person
+label:
+  ar: الشفاء بنت عبد الله
+  en: al-Shifa' bint Abdullah
+names:
+- kind: full
+  lang: ar
+  value: الشفاء بنت عبد الله بن عبد شمس بن خلف بن شداد بن عبد الله بن قرط بن رزاح بن عدي بن كعب القرشية العدوية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من المهاجرات الأول، أسلمت قبل الهجرة وبايعت؛ كانت من عقلاء النساء وفضلائهن، وكان النبي يزورها ويقيل عندها، وعلّمت حفصة الكتابة، وكان عمر يقدمها في الرأي وربما ولاها شيئاً من أمر السوق.
+  en: One of the first emigrants, she embraced Islam before the Hijra and gave her pledge; counted among the wise and virtuous of women, the Prophet visited her and took his midday rest at her house, she taught Hafsa to write, and Umar valued
+    her opinion and at times put her in charge of something in the market.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11421 (ص 1905).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11421، ص 1905
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1905, entry 11421)

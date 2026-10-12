@@ -1,0 +1,65 @@
+id: person/umm-sulaym
+class: person
+label:
+  ar: أم سليم بنت ملحان
+  en: Umm Sulaym bint Milhan
+names:
+- kind: full
+  lang: ar
+  value: أم سليم بنت ملحان بنت خالد بن زيد بن حرام بن جندب الأنصارية
+- kind: kunya
+  lang: ar
+  value: أم سليم
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أم أنس خادم النبي، اشتهرت بكنيتها واختُلف في اسمها؛ أسلمت مع السابقين من الأنصار فغضب زوجها الأول مالك وخرج إلى الشام ومات بها، وخطبها أبو طلحة قبل أن يسلم فكان صداقها إسلامه، وغزت مع النبي واتخذت خنجراً يوم حنين.
+  en: The mother of Anas, the Prophet's servant, known by her kunya with her name disputed; she embraced Islam among the earliest of the Ansar, her first husband Malik left for Syria angry and died there, Abu Talha proposed to her before he was
+    Muslim and his Islam became her dower; she campaigned with the Prophet and carried a dagger at Hunayn.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12117 (ص 2006).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: parent_of
+  target: person/anas-ibn-malik
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/abu-talha-al-ansari
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12117، ص 2006
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2006, entry 12117)

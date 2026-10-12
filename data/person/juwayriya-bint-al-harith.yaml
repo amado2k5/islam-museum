@@ -1,0 +1,54 @@
+id: person/juwayriya-bint-al-harith
+class: person
+label:
+  ar: جويرية بنت الحارث
+  en: Juwayriya bint al-Harith
+names:
+- kind: full
+  lang: ar
+  value: جويرية بنت الحارث بن أبي ضرار بن حبيب بن جذيمة (المصطلق) الخزاعية المصطلقية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أم المؤمنين، ابنة سيد بني المصطلق؛ وقعت في السبي يوم المريسيع فكاتبت على نفسها، فأدى النبي كتابتها وتزوجها، فأطلق الناس ما في أيديهم من بني المصطلق، فأعتق الله بها مئة أهل بيت.
+  en: A Mother of the Believers, daughter of the chief of Banu al-Mustaliq; she fell among the captives at al-Muraysi' and arranged her own manumission, the Prophet paid it and married her, and people released the Mustaliq captives they held,
+    so that a hundred households were freed through her.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11056 (ص 1841).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11056، ص 1841
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1841, entry 11056)

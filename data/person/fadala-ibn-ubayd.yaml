@@ -1,0 +1,65 @@
+id: person/fadala-ibn-ubayd
+class: person
+label:
+  ar: فضالة بن عبيد
+  en: Fadala ibn Ubayd
+names:
+- kind: full
+  lang: ar
+  value: فضالة بن عبيد بن نافذ بن قيس بن صهيب بن الأصرم بن جحجبى بن كلفة بن عوف الأنصاري الأوسي
+- kind: kunya
+  lang: ar
+  value: أبو محمد
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من الأوس؛ أسلم قديماً ولم يشهد بدراً وشهد أحداً وما بعدها، وفتح مصر والشام، وولاه معاوية قضاء دمشق بعد أبي الدرداء، ومات في خلافة معاوية سنة 53هـ في قول المدائني.
+  en: A Companion of the Aws who embraced Islam early; he missed Badr but fought at Uhud and after, took part in the conquests of Egypt and Syria, was made judge of Damascus by Mu'awiya after Abu al-Darda, and died in Mu'awiya's caliphate, in
+    53 AH according to al-Mada'ini.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 7061 (ص 1196).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/damascus
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 7061، ص 1196
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1196, entry 7061)
