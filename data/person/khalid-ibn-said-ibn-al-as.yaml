@@ -1,20 +1,30 @@
 id: person/khalid-ibn-said-ibn-al-as
 class: person
-label:
-  ar: خالد بن سعيد بن العاص
-summary:
-  ar: صحابي من بني عبد شمس، هاجر إلى الحبشة وقُتل في مرج الصفر بالشام.
+label: { ar: "خالد بن سعيد بن العاص" }
+names:
+  - { kind: full, lang: ar, value: "خالد بن سعيد بن العاص بن أمية بن عبد شمس" }
 gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي من بني عبد شمس، هاجر إلى الحبشة بزوجته وولديه، وقدم في السفينتين، وقُتل بمرج الصفر في خلافة أبي بكر."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+died: { edtf: "0632/0634", calendar: julian, precision: year, status: tradition, derived: true, note: "قال ابن إسحاق: قُتل بمرج الصفر بأرض الشام في خلافة أبي بكر؛ لا يعيّن الكتاب السنة، فالتاريخ مشتق من مدة الخلافة ويحتاج مصدراً ثانياً", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص3)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
-  - type: member_of
-    target: group/banu-abd-shams
-died:
-  hijri: "0012"
-  precision: year
-  note: "قُتل مرج الصفر في خلافة أبي بكر"
-status:
-  review: draft
-sources: [source/ibn-hisham-saqqa-1936]
-provenance:
-  generated_by: codex
-  model: gpt-4o
+  - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
+  - { type: spouse_of, target: person/amina-bint-khalf, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/amr-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/aban-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }
+  - { type: child_of, target: person/said-ibn-al-as-abu-uhayha, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/marj-al-suffar, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 3", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

@@ -1,41 +1,35 @@
 # Ibn Hisham Lane — Progress
 
-**Lane:** hisham  
-**Branch:** content/ibn-hisham-continue  
-**Book:** السيرة النبوية لابن هشام — الجزء الرابع (السقا والأبياري وشلبي، 1936)  
-**Session agent:** kiro (KiroCrew dashboard), 2026-10-11  
+**Lane:** hisham
+**Book:** السيرة النبوية لابن هشام — الجزء الرابع (السقا والأبياري وشلبي، 1936); printed page = PDF page - 4
+**Sessions:** kiro (2026-10-11), Claude Sonnet 5.5 (2026-10-12, worktree `islam-museum-kiro`)
 
 ## Status
 
-Batches 1–3 are on main (done by Devin).
+- Batches 1-3 (فتح مكة، حنين والطائف، أموال هوازن pp. 31-143): on main.
+- Batch 4 (مؤتة pp. 15-30): on main.
+- Batch 5 (مهاجرة الحبشة pp. 3-11):
+  - 5a (Hashim, Abd Shams, Asad), 5b (Taym, Jumah, Sahm, Adi, Amir, Al-Harith) and a part of 5c: on main (thin Codex-generated person files).
+  - 5c-i (0c678b7): repaired three entities clobbered by earlier thin overwrites (banu-hashim, yazid-ibn-zamaa, umm-habiba-bint-abi-sufyan), merged duplicates (event/return-from-abyssinia -> alias of event/return-of-abyssinian-emigrants; person/umm-salama-bint-abi-umayya -> alias of person/umm-salama), 9 groups, 4 events, 1 journey, 1 concept, 1 place, roster dataset `datasets/abyssinia-muhajirun-roster.csv` (86 rows).
+  - 5c-ii: Abd Shams / Umayya allies / Asad / Abd al-Dar persons (21), 3 places, Ubaydullah event prose.
+  - Remaining plan: 5c-iii Zuhra, Taym, Makhzum + places; 5c-iv Jumah and Sahm; 5c-v Adi, Amir, Al-Harith; 5c-vi clan group prose and thin-group upgrade.
 
-### Batch 4 — غزوة مؤتة pp. 15–30 ✅ COMPLETE
-- **Commit:** d0d7da7 (on content/ibn-hisham-continue, needs merge to main)
-- **Pages covered:** printed 15–30 (PDF 19–34)
-- **Entities created/extended:**
-  - Extended: `event/battle-of-mutah` (sides, 8 has_part relations, Zuhri variant note)
-  - New events (8): `mutah-dispatch-of-army`, `mutah-halt-at-maan`, `mutah-martyrdom-of-zayd`, `mutah-martyrdom-of-jafar`, `mutah-martyrdom-of-ibn-rawaha`, `mutah-khalid-command-withdrawal`, `mutah-prophets-grief-and-condolence`, `mutah-return-to-medina`
-  - New persons (10): `abd-allah-ibn-rawaha`, `asma-bint-umays`, `thabit-ibn-aqram`, `qutba-ibn-qatada`, `malik-ibn-zaflah`, `masud-ibn-al-aswad-mutah`, `wahb-ibn-sad-ibn-abi-sarh`, `abbad-ibn-qays-mutah`, `al-harith-ibn-al-numan-mutah`, `suraqa-ibn-amr-mutah`
-  - New places (2): `maan`, `masharif`
-  - New works (2): `hassan-elegy-mutah-commanders`, `kab-ibn-malik-elegy-mutah`
-  - New stubs file: `data/_stubs.d/ibn-hisham.yaml` (17 targets)
-  - New prose: `content/ar/event/battle-of-mutah.md`
-- **Claims:** 64 (53 factual + 11 martyr list)
-- **Ibn Hisham flags captured:** 11
-- **OCR corrections:** 6 × جمفر → جعفر (confirmed on page images)
-- **Validate:** 0 errors, 32 tests pass after rebase
+## Doubt markers captured so far (pp. 3-11)
+
+- p3 «قال ابن هشام» introduces Ja'far's arrival report (Sufyan ibn Uyayna -> al-Ajlah -> al-Sha'bi).
+- p3-4 «ويقال: هُمينة بنت خلف» for Khalid ibn Said's wife (Amina).
+- p7 «فكان يقال: إن كان لأول رجل ورث أباه في الإسلام» (Abdullah ibn al-Muttalib).
+- p7 «يشك فيه أقتل ثم أم لا» (Abdullah ibn Sufyan); editors' footnote (via al-Istiab): Hisham vs Hashim ibn Abi Hudhayfa.
+- p8 «ويقال: قتل يوم خيبر، يشك فيه» (al-Sa'ib ibn al-Harith).
+- p5 vs p11: Rayta bint al-Harith died in Abyssinia (p5) or on the road (p11); unresolved, recorded as debated.
+- Page-image corrections: جعفر (p3, verified on image), Abu al-Rum ibn Umayr and Firas ibn al-Nadr (p7, OCR line garbled), Umm Habiba's daughter Habiba (p6).
 
 ## Next step
 
-**Batch 5 — مهاجرة الحبشة pp. 3–11** (three sub-batches by clan):
-- 5a: هاشم / عبد شمس / أسد
-- 5b: تيم / جمح / سهم / عدي / عامر / الحارث
-- 5c: بقية القبائل والمهاجرات
+5c-iii onward as above, then Batch 6 (تبوك pp. 159-172) on branch `content/ibn-hisham-batch-6`; Batch 7 (مسجد الضرار والثلاثة pp. 173-181) is not started.
 
-Then batch 6 (تبوك pp. 159–172) and batch 7 (مسجد الضرار pp. 173–181).
+## Open items
 
-## Open questions / flagged items
-
-- Push to `main` blocked by KiroCrew safety policy (protects main branch). Commit `d0d7da7` is on `content/ibn-hisham-continue` — founder must merge or grant push permission.
-- `place/al-balqa` referenced in prose but not yet created — founder may want to add or stub it.
-- Stub targets in `data/_stubs.d/ibn-hisham.yaml`: Hassan ibn Thabit, Ka'b ibn Malik, Zayd ibn Arqam, Qays ibn al-Musakhkhar, Abd Allah ibn Ja'far, Salama ibn Hisham, 4 secondary martyrs (per Ibn Shihab), place/Maab, place/al-Balqa, groups Lakhm/Judham/Banu Udhra.
+- `place/al-balqa`, `place/maab` and the Mu'ta stubs in `data/_stubs.d/ibn-hisham.yaml` are still stubs.
+- Coordinates for the new places (Marj al-Suffar, Ajnadayn, al-Zurayba, Maysan...) are not given: no docs/plan/16 §6 entry and no Wikidata check yet.
+- Two Negus entities exist (`person/al-najashi`, `person/negus-of-aksum`); not merged here (owned by another session).

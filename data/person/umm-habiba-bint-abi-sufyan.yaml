@@ -26,6 +26,7 @@ relations:
   - { type: child_of, target: person/abu-sufyan-ibn-harb }
   - { type: spouse_of, target: person/muhammad, start: { edtf: "0628~" }, end: { edtf: "0632" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/abu-sufyan-medina-mission, role: daughter-of-envoy, sources: [source/ibn-hisham-saqqa] }
+  - { type: spouse_of, target: person/ubaydullah-ibn-jahsh, sources: [source/ibn-hisham-saqqa], note: "ابن إسحاق ص6: خرجت معه إلى الحبشة، ثم تنصّر ومات هناك نصرانياً" }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 38–39", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
