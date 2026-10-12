@@ -1,0 +1,30 @@
+id: person/junada-ibn-sufyan
+class: person
+label: { ar: "جنادة بن سفيان" }
+names:
+  - { kind: full, lang: ar, value: "جنادة بن سفيان بن معمر" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "ابن سفيان بن معمر وحسنة، هاجر معهما إلى الحبشة وهلك في خلافة عمر."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+died: { edtf: "0634/0644", calendar: julian, precision: year, status: tradition, derived: true, note: "قال ابن إسحاق: هلك في خلافة عمر بن الخطاب؛ لا يعيّن السنة", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-jumah, sources: [source/ibn-hisham-saqqa] }
+  - { type: child_of, target: person/sufyan-ibn-mamar-jumahi, sources: [source/ibn-hisham-saqqa] }
+  - { type: child_of, target: person/hasana-umm-shurahbil, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/jabir-ibn-sufyan, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/shurahbil-ibn-hasana, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iv" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }
