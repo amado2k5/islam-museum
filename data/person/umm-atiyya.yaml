@@ -1,0 +1,57 @@
+id: person/umm-atiyya
+class: person
+label:
+  ar: أم عطية الأنصارية
+  en: Umm Atiyya al-Ansariyya
+names:
+- kind: full
+  lang: ar
+  value: 'نسيبة بنت الحارث (وقيل: بنت كعب) الأنصارية'
+- kind: kunya
+  lang: ar
+  value: أم عطية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابية أنصارية اسمها نسيبة، غزت مع النبي سبع غزوات تخلف الغزاة في رحالهم، وروت في الصحيحين أحاديث في غسل الميت وخروج النساء إلى العيدين وبيعة النساء ألا ينحن؛ وقدمت البصرة فنزلت قصر بني خلف.
+  en: An Ansari Companion named Nusayba, who joined seven campaigns with the Prophet looking after the fighters' baggage, and narrated in the two collections on washing the dead, on women going out to the Eid prayers, and on the women's pledge
+    not to wail; she came to Basra and stayed at the palace of Banu Khalaf.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12212 (ص 2020).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12212، ص 2020
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2020, entry 12212)

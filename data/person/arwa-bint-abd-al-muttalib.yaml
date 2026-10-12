@@ -1,0 +1,66 @@
+id: person/arwa-bint-abd-al-muttalib
+class: person
+label:
+  ar: أروى بنت عبد المطلب
+  en: Arwa bint Abd al-Muttalib
+names:
+- kind: full
+  lang: ar
+  value: أروى بنت عبد المطلب بن هاشم الهاشمية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: عمة النبي، كانت تحت عمير بن وهب فولدت له طليباً، ثم تزوجها كلدة بن عبد مناف فولدت له أروى؛ يذكر ابن إسحاق أنه لم يسلم من عمات النبي إلا صفية، ويتعقبه ابن حجر بقصة أروى وإسلامها بعد إسلام ابنها طليب.
+  en: An aunt of the Prophet; she was married to Umayr ibn Wahb and bore Tulayb, then to Kalda ibn Abd Manaf and bore Arwa; Ibn Ishaq says none of the Prophet's aunts embraced Islam except Safiyya, and Ibn Hajar answers with Arwa's story, her
+    embracing Islam after her son Tulayb did.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 10834 (ص 1807).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/abd-al-muttalib
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/hamza
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/safiyya-bint-abd-al-muttalib
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/abu-lahab
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 10834، ص 1807
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1807, entry 10834)

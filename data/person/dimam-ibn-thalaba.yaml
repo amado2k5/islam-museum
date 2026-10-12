@@ -1,0 +1,54 @@
+id: person/dimam-ibn-thalaba
+class: person
+label:
+  ar: ضمام بن ثعلبة
+  en: Dimam ibn Tha'laba
+names:
+- kind: full
+  lang: ar
+  value: ضمام بن ثعلبة السعدي من بني سعد بن بكر
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'وافد بني سعد بن بكر على النبي، ورد خبره في الصحيحين من حديث أنس: جاء أعرابي فقال: «أيكم ابن عبد المطلب؟» وسأله وأسلم، وقال النبي لما ولّى: «فقِّه الرجل»؛ واختُلف في سنة قدومه.'
+  en: 'The envoy of Banu Sa''d ibn Bakr to the Prophet, whose story is in the two collections from Anas: a bedouin came and asked ''Which of you is Ibn Abd al-Muttalib?'', questioned him and embraced Islam, and the Prophet said as he left ''The
+    man has gained understanding''; the year of his coming is disputed.'
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 4223 (ص 714).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 4223، ص 714
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 714, entry 4223)

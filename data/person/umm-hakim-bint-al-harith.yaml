@@ -1,0 +1,65 @@
+id: person/umm-hakim-bint-al-harith
+class: person
+label:
+  ar: أم حكيم بنت الحارث
+  en: Umm Hakim bint al-Harith
+names:
+- kind: full
+  lang: ar
+  value: أم حكيم بنت الحارث بن هشام بن المغيرة المخزومية
+- kind: kunya
+  lang: ar
+  value: أم حكيم
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: زوج عكرمة بن أبي جهل؛ حضرت أحداً وهي كافرة ثم أسلمت يوم الفتح واستأمنت لزوجها، ثم تزوجها خالد بن سعيد بعد استشهاد عكرمة، وقاتلت يوم مرج الصفر فقتلت سبعة من الروم بعمود الفسطاط.
+  en: The wife of Ikrima ibn Abi Jahl; she was at Uhud as a non-Muslim, embraced Islam on the day of the conquest and obtained safety for her husband; she then married Khalid ibn Sa'id after Ikrima's martyrdom, and fought at Marj al-Saffar, killing
+    seven Byzantines with a tent pole.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12029 (ص 1992).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/ikrima-ibn-abi-jahl
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/khalid-ibn-said-ibn-al-as
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/conquest-of-mecca
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12029، ص 1992
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1992, entry 12029)

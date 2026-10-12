@@ -1,0 +1,54 @@
+id: person/rayhana-bint-zayd
+class: person
+label:
+  ar: ريحانة بنت زيد
+  en: Rayhana bint Zayd
+names:
+- kind: full
+  lang: ar
+  value: 'ريحانة بنت شمعون بن زيد (وقيل: زيد بن عمرو بن خنافة)'
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: سبية من بني قريظة أو بني النضير؛ اختلفت الروايات هل أعتقها النبي وتزوجها وضرب عليها الحجاب أم بقيت في ملكه، وماتت قبل وفاة النبي وقيل عند رجوعه من حجة الوداع ودُفنت بالبقيع.
+  en: A captive of Banu Qurayza or Banu al-Nadir; the reports differ on whether the Prophet freed and married her and put the veil on her or she remained in his possession; she died before the Prophet, or on his return from the Farewell Pilgrimage,
+    and was buried at al-Baqi'.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11245 (ص 1877).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11245، ص 1877
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1877, entry 11245)
