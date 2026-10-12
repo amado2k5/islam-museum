@@ -1,0 +1,26 @@
+id: person/urwa-ibn-masud
+class: person
+label: { en: "Urwa ibn Mas'ud al-Thaqafi", ar: "عروة بن مسعود الثقفي" }
+names:
+  - { kind: full, lang: ar, value: "عروة بن مسعود بن معتب الثقفي" }
+gender: male
+roles: [companion, notable]
+traditions: [sunni]
+summary:
+  en: "Chieftain of Thaqif in al-Ta'if and respected Meccan diplomat; represented Quraysh during negotiations at al-Hudaybiyya and famously reported to Quraysh the unparalleled devotion of the Companions to Muhammad; he embraced Islam in 9 AH and was martyred by his own people while calling them to prayer from his rooftop."
+  ar: "سيد ثقيف بالطائف وأحد عظيمي القريتين في الجاهلية؛ فاوض النبي بالحديبية نيابة عن قريش فرأى من إجلال الصحابة له ما بهره فقال لقريش: «أي قوم، والله لقد وفدت على كسرى وقيصر والنجاشي فما رأيت ملكاً يعظمه أصحابه ما يعظم أصحاب محمد محمداً»؛ أسلم سنة 9هـ ورجع يدعو ثقيفاً فرموه بالنبل وهو يؤذن فاستشهد."
+wings: [people]
+themes: [converts-and-leavers, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0628" }, end: { edtf: "0628" }, status: historical, note: "مفاوض قريش في صلح الحديبية (الرحيق ص340).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0630" }, status: historical, sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, start: { edtf: "0630" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, note: "صحابي وسيد ثقيف استشهد داعياً للإسلام." }
+relations:
+  - { type: born_in, target: place/taif }
+  - { type: participated_in, target: event/treaty-of-hudaybiyya, role: "مفاوض قريش", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 340, 421" }
