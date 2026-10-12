@@ -1,16 +1,27 @@
 id: place/archers-hill
-kind: site
 class: place
+kind: site
 label:
-  ar: "جبل الرماة"
-  en: "Archers' Hill"
+  ar: جبل الرماة
+  en: Archers' Hill
 summary:
-  ar: "تلة تقع جنوب شرق معسكر المسلمين في أحد، كلف النبي ﷺ خمسين رامياً بحمايتها لمنع التفاف فرسان المشركين."
-  en: "A hill southeast of the Muslim camp at Uhud, where the Prophet ﷺ stationed fifty archers to prevent the Meccan cavalry from flanking them."
+  ar: تلة تقع جنوب شرق معسكر المسلمين في أحد، كلف النبي خمسين رامياً بحمايتها لمنع التفاف فرسان المشركين.
+  en: A hill southeast of the Muslim camp at Uhud, where the Prophet stationed fifty archers to prevent the Meccan cavalry from flanking them.
+wings:
+- place
+- time
+regions:
+- arabia
+relations:
+- type: part_of
+  target: place/uhud
 provenance:
+  layer: own-research
+  source: الرحيق المختوم (source/mubarakpuri-raheeq) p.255
   generated_by: gemma-4
   model: gemma-4
   run: raheeq-batch-11a
-  sources:
-    - { cite: mubarakpuri-raheeq p.255 }
-status: { review: draft }
+sources:
+- source/mubarakpuri-raheeq
+status:
+  review: draft

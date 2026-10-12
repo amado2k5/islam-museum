@@ -1,20 +1,38 @@
 id: event/muslim-intelligence-uhud
-kind: other
 class: event
+kind: other
 label:
-  ar: "استخبارات المدينة عن جيش أحد"
-  en: "Medina Intelligence on the Uhud Army"
+  ar: استخبارات المدينة عن جيش أحد
+  en: Medina Intelligence on the Uhud Army
 summary:
-  ar: "إرسال العباس بن عبد المطلب رسالة تفصيلية للنبي ﷺ حول تحركات جيش قريش."
-  en: "Al-Abbas ibn Abd al-Muttalib sending a detailed message to the Prophet ﷺ regarding Quraysh's army movements."
+  ar: إرسال العباس بن عبد المطلب رسالة تفصيلية للنبي حول تحركات جيش قريش.
+  en: Al-Abbas ibn Abd al-Muttalib sending a detailed message to the Prophet regarding Quraysh's army movements.
+wings:
+- time
+- people
+- place
+periods:
+- period/prophetic-era
+regions:
+- arabia
 date:
-  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+  start:
+    edtf: 0625-03
+    hijri: 0003-10
+    calendar: julian
+    precision: month
+    status: tradition
+    note: شوال سنة 3هـ كما في الرحيق المختوم؛ التحويل إلى الميلادي مشتق.
+relations:
+- type: part_of
+  target: event/battle-of-uhud
 provenance:
+  layer: own-research
+  source: الرحيق المختوم (source/mubarakpuri-raheeq) p.250
   generated_by: gemma-4
   model: gemma-4
   run: raheeq-batch-11a
-  sources:
-    - { cite: mubarakpuri-raheeq p.250 }
-status: { review: draft }
-relations:
-  - { type: related_to, target: event/council-of-uhud }
+sources:
+- source/mubarakpuri-raheeq
+status:
+  review: draft

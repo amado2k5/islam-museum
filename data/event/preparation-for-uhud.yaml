@@ -1,28 +1,55 @@
 id: event/preparation-for-uhud
-kind: campaign
 class: event
+kind: campaign
 label:
-  ar: "استعدادات قريش لغزوة أحد"
-  en: "Quraysh Preparations for the Battle of Uhud"
+  ar: استعدادات قريش لغزوة أحد
+  en: Quraysh Preparations for the Battle of Uhud
 summary:
-  ar: "عملية تحشيد عسكري ومالي واسعة قامت بها قريش للانتقام من المسلمين بعد هزيمتها في بدر."
-  en: "A large-scale military and financial mobilization by Quraysh to avenge their defeat at Badr."
+  ar: عملية تحشيد عسكري ومالي واسعة قامت بها قريش للانتقام من المسلمين بعد هزيمتها في بدر.
+  en: A large-scale military and financial mobilization by Quraysh to avenge their defeat at Badr.
+wings:
+- time
+- people
+- place
+periods:
+- period/prophetic-era
+regions:
+- arabia
 date:
-  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+  start:
+    edtf: 0625-03
+    hijri: 0003-10
+    calendar: julian
+    precision: month
+    status: tradition
+    note: شوال سنة 3هـ كما في الرحيق المختوم؛ التحويل إلى الميلادي مشتق.
 sides:
-  - label: { ar: "قريش", en: "Quraysh" }
-    participants: [group/quraysh]
-    commanders: [person/abu-sufyan]
-  - label: { ar: "المسلمون", en: "Muslims" }
-    participants: [group/early-muslims]
-    commanders: [person/muhammad]
+- label:
+    ar: قريش
+    en: Quraysh
+  participants:
+  - group/quraysh
+  commanders:
+  - person/abu-sufyan
+- label:
+    ar: المسلمون
+    en: Muslims
+  participants:
+  - group/early-muslims
+  commanders:
+  - person/muhammad
+relations:
+- type: has_part
+  target: event/quraysh-military-funding
+- type: caused
+  target: event/battle-of-uhud
 provenance:
+  layer: own-research
+  source: الرحيق المختوم (source/mubarakpuri-raheeq) p.248
   generated_by: gemma-4
   model: gemma-4
   run: raheeq-batch-11a
-  sources:
-    - { cite: mubarakpuri-raheeq p.248 }
-status: { review: draft }
-relations:
-  - { type: has_part, target: event/quraysh-military-funding }
-  - { type: related_to, target: event/battle-of-uhud }
+sources:
+- source/mubarakpuri-raheeq
+status:
+  review: draft

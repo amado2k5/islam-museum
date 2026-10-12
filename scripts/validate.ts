@@ -1,9 +1,9 @@
 // Validates data/ and content/: JSON Schema, EDTF + Hijri sanity, link resolution, predicates
 // (domain/range), licence whitelist, alt text, slug rules, duplicate external IDs, prose links.
 // Run: npm run validate [-- --strict]   (--strict turns warnings into failures)
-import { basename, dirname } from "node:path";
+import { basename, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
@@ -49,6 +49,14 @@ function* walkDates(node: any, path = ""): Generator<[string, any]> {
   if (Array.isArray(node)) { for (let i = 0; i < node.length; i++) yield* walkDates(node[i], `${path}[${i}]`); return; }
   if (typeof node.edtf === "string" || typeof node.hijri === "string") yield [path, node];
   for (const [k, v] of Object.entries(node)) yield* walkDates(v, path ? `${path}.${k}` : k);
+}
+
+// ﷺ and the spelled-out formulas; no \b because it never matches before a non-word glyph such as ﷺ
+const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمه اللّٰه)/i;
+function* textFields(o: any, path = ""): Generator<[string, string]> {
+  if (typeof o === "string") yield [path, o];
+  else if (Array.isArray(o)) for (let i = 0; i < o.length; i++) yield* textFields(o[i], `${path}[${i}]`);
+  else if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!["provenance", "id", "text", "text_search"].includes(k)) yield* textFields(v, path ? `${path}.${k}` : k);
 }
 
 export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
@@ -108,6 +116,9 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (!entity.label?.ar) err(file, "label.ar is required (Arabic is the primary language, docs/language.md)");
       if (!entity.summary?.ar) err(file, "summary.ar is required (Arabic is the primary language, docs/language.md)");
     }
+
+    // honorifics are rendered by the UI: never typed into any label, summary or note (passages hold scripture/hadith text verbatim and are exempt)
+    if (entity.class !== "passage") for (const [path, s] of textFields(entity)) if (HONORIFIC.test(s)) err(file, `${path}: honorifics must not be typed (the UI renders them)`);
 
     // dates
     for (const [path, d] of walkDates(entity)) {
@@ -281,6 +292,10 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
   }
 
   // ---- prose
+  // content/ holds prose only: a data file saved there is silently never rendered (found in the wild: a .yaml under content/ar/event/)
+  for (const d of readdirSync(p("content"), { recursive: true, withFileTypes: true }) as any[]) {
+    if (d.isFile() && !d.name.endsWith(".md") && !d.name.startsWith(".")) err(rel(join(d.parentPath ?? d.path, d.name)), "content/ holds .md prose only (data belongs in data/<class>/<slug>.yaml)");
+  }
   const prose = loadProse();
   const linkRe = /\[\[([a-z]+\/[a-z0-9-]+)(?:\|[^\]]*)?\]\]/g;
   const citeRe = /\{cite:([a-z0-9-]+)(?:\s[^}]*)?\}/g;
@@ -293,7 +308,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     seen.add(`${pr.lang}:${pr.id}`);
     for (const m of pr.body.matchAll(linkRe)) if (!resolves(m[1])) err(pr.file, `unresolved link [[${m[1]}]]`);
     for (const m of pr.body.matchAll(citeRe)) if (!known.has(`source/${m[1]}`)) err(pr.file, `{cite:${m[1]}} does not resolve to a source`);
-    if (/\b(peace be upon him|pbuh|\(saw\)|ﷺ|صلى الله عليه وسلم)/i.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
+    if (HONORIFIC.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
+    if (/[﴿﴾]/.test(pr.body)) err(pr.file, "Qur'an text must never be typed into prose: link the ayah as [[passage/quran-<sura>-<aya>|label]] (docs/plan/09 rule 10)");
 
     // scope rule in prose: a perspectives block must start with a Sunni entry, and non-Sunni doctrine must be labelled before it is stated
     for (const blk of pr.body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {

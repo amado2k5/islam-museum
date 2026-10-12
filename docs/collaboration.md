@@ -8,6 +8,10 @@ _Decided 11 October 2026 (founder instruction). Several sessions and Devin work 
 2. Read `docs/status.md` (current state, who owns what) and the policy documents that govern your work: `CLAUDE.md`, `docs/scope.md`, `docs/language.md`, `docs/plan/` (the section you are implementing), the ADRs in `docs/adr/`.
 3. Think about how the new work and yours fit together. Decide the merge deliberately; do not take "whichever is newer" or "whichever is mine".
 
+## Quality bar
+
+Every batch is held to `docs/content-quality.md` (gold example, hard rules, voice, the 60-second check). Fix defects you find in anyone's merged work in place, with a clear message; do not wait for the author.
+
 ## Never
 
 - Never revert, overwrite, delete, `git checkout -- <file>`, `git reset --hard`, `git clean`, `git stash drop` or force-push anything you did not create. "It looked unrelated to my task" is not a reason.
