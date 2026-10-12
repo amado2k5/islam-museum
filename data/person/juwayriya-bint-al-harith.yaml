@@ -1,45 +1,58 @@
 id: person/juwayriya-bint-al-harith
 class: person
+aliases:
+  - person/juwayriyya-bint-al-harith
 label:
   ar: جويرية بنت الحارث
   en: Juwayriya bint al-Harith
 names:
-- kind: full
-  lang: ar
-  value: جويرية بنت الحارث بن أبي ضرار بن حبيب بن جذيمة (المصطلق) الخزاعية المصطلقية
+  - kind: full
+    lang: ar
+    value: جويرية بنت الحارث بن أبي ضرار بن حبيب بن جذيمة (المصطلق) الخزاعية المصطلقية
 gender: female
 roles:
-- companion
+  - companion
 traditions:
-- sunni
+  - sunni
 summary:
   ar: أم المؤمنين، ابنة سيد بني المصطلق؛ وقعت في السبي يوم المريسيع فكاتبت على نفسها، فأدى النبي كتابتها وتزوجها، فأطلق الناس ما في أيديهم من بني المصطلق، فأعتق الله بها مئة أهل بيت.
-  en: A Mother of the Believers, daughter of the chief of Banu al-Mustaliq; she fell among the captives at al-Muraysi' and arranged her own manumission, the Prophet paid it and married her, and people released the Mustaliq captives they held,
-    so that a hundred households were freed through her.
+  en: "A Mother of the Believers, daughter of the chief of Banu al-Mustaliq; she fell among the captives at al-Muraysi' and arranged her own manumission, the Prophet paid it and married her, and people released the Mustaliq captives they held, so that a hundred households were freed through her."
 wings:
-- people
+  - people
 themes:
-- women
+  - women
+  - family-marriage-kinship
 periods:
-- period/prophetic-era
-- period/rashidun
+  - period/prophetic-era
+  - period/rashidun
 regions:
-- arabia
+  - arabia
 story_roles:
-- role: companion
-  status: tradition
-  note: مذكور في الإصابة ترجمة رقم 11056 (ص 1841).
-  sources:
-  - source/ibn-hajar-isaba
+  - role: companion
+    status: tradition
+    note: مذكور في الإصابة ترجمة رقم 11056 (ص 1841).
+    sources:
+      - source/ibn-hajar-isaba
+      - source/mubarakpuri-raheeq
 faith:
-- value: sunni
-  basis: tradition
-  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+  - value: sunni
+    basis: tradition
+    note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
-- type: spouse_of
-  target: person/muhammad
-  sources:
-  - source/ibn-hajar-isaba
+  - type: born_in
+    target: place/mecca
+  - type: member_of
+    target: group/ahl-al-bayt
+  - type: participated_in
+    target: event/expedition-of-banu-al-mustaliq
+    role: "السبية التي تزوجها النبي فأُعتق قومها"
+    sources:
+      - source/mubarakpuri-raheeq
+  - type: spouse_of
+    target: person/muhammad
+    sources:
+      - source/ibn-hajar-isaba
+      - source/mubarakpuri-raheeq
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 11056، ص 1841
@@ -47,7 +60,11 @@ provenance:
   model: claude-sonnet-5-5
   run: isaba-batch-3
 sources:
-- source/ibn-hajar-isaba
+  - source/ibn-hajar-isaba
+  - source/mubarakpuri-raheeq
+  - source/zad-al-maad
+  - source/ibn-hisham-sira
+  - source/ibn-sad-tabaqat-bewley
 status:
   review: draft
   completeness: 2
