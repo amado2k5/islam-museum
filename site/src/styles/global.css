@@ -201,7 +201,10 @@ html[lang="ar"] .page-banner .crumbs { font-family: var(--ar-body); letter-spaci
 
 /* the reading card: alabaster page, one white panel, a soft gold-neutral rule (spec §1, §3B) */
 .reading { background: var(--card); border: 1px solid var(--rule); border-radius: 16px; box-shadow: 0 1px 2px rgba(10, 37, 51, 0.05); padding: clamp(18px, 4vw, 44px); max-width: 920px; margin-inline: auto; }
-.reading .panel { background: var(--sand); }
+/* the sand panel stays sand in dark mode too, so its text and links take dark colours (the page tokens are light there) */
+.reading .panel { background: var(--sand); color: var(--ink); }
+.reading .panel .muted, .reading .panel .status-note { color: #4a4a4a; }
+.reading .panel a { color: var(--teal); }
 
 /* next and related: a dual footer card at the end of each entity page */
 .dual { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 2.5rem auto 0; max-width: 920px; }
