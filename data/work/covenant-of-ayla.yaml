@@ -1,0 +1,19 @@
+id: work/covenant-of-ayla
+class: work
+kind: charter
+label: { ar: "كتاب الرسول ليحنة بن رؤبة وأهل أيلة", en: "The Prophet's letter of safe-conduct to Yuhanna ibn Ru'ba and the people of Ayla" }
+summary:
+  ar: "كتاب أمان كتبه النبي ليحنة بن رؤبة وأهل أيلة، سفنهم وسيارتهم في البر والبحر، ومن كان معهم من أهل الشام واليمن والبحر؛ يجعل لهم ذمة الله وذمة محمد، وينص على أن من أحدث منهم حدثاً لا يحول ماله دون نفسه، وأنه لا يحل أن يُمنعوا ماء يردونه ولا طريقاً يريدونه من بر أو بحر."
+genre: [charter]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+language: language/arabic
+wings: [words]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/treaty-of-ayla, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: place/ayla, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/yuhanna-ibn-rubah, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 169", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 169" }

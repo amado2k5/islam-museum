@@ -1,0 +1,20 @@
+id: event/khalid-expedition-to-ukaydir
+class: event
+kind: other
+label: { ar: "بعث خالد إلى أكيدر دومة", en: "Khalid's mission to Ukaydir of Dumat al-Jandal" }
+summary:
+  ar: "دعا النبي خالد بن الوليد فبعثه إلى أكيدر بن عبد الملك الكندي النصراني ملك دومة وقال له إنه سيجده يصيد البقر؛ فخرج خالد، وفي ليلة مقمرة خرج أكيدر لما حكّت البقر قرونها بباب قصره، فتلقته خيل النبي فأخذته وقتلوا أخاه حسان، واستلب خالد قباءه الديباج المخوّص بالذهب وبعث به إلى النبي."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/dumat-al-jandal, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: commander, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: sender, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ukaydir-ibn-abd-al-malik, role: target, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/hassan-brother-of-ukaydir, role: killed, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 169-170", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 169-170" }

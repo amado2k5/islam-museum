@@ -1,0 +1,18 @@
+id: event/hypocrites-mock-the-army-and-excuse
+class: event
+kind: other
+label: { ar: "سخرية رهط من المنافقين واعتذارهم", en: "A group of hypocrites mock the army, then excuse themselves" }
+summary:
+  ar: "كان رهط من «المنافقين» منهم وديعة بن ثابت ومخشن بن حمير الأشجعي يسيرون إلى النبي وهو منطلق إلى تبوك فقالوا إن قتال بني الأصفر ليس كقتال العرب وإنهم سيُربطون غداً في الحبال؛ فأرسل النبي عمار بن ياسر ليسألهم، فاعتذروا بأنهم كانوا يخوضون ويلعبون، وأنزل الله فيهم آية من سورة التوبة."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/tabuk, note: "في الطريق إلى تبوك", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ammar-ibn-yasir, role: sent-to-question-them, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 168-169", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 168-169" }

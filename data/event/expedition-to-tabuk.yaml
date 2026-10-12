@@ -4,18 +4,44 @@ kind: other
 label: { en: "The expedition to Tabuk", ar: "غزوة تبوك" }
 summary:
   en: "The Prophet led a large expedition north toward the Byzantine frontier as far as Tabuk; no battle took place."
-  ar: "قاد النبي حملة كبيرة شمالًا نحو الحدود البيزنطية حتى تبوك، ولم يقع قتال."
+  ar: "قاد النبي حملة كبيرة شمالًا نحو الحدود البيزنطية حتى تبوك في رجب سنة تسع، ولم يقع قتال بحسب سيرة ابن إسحاق. فصّل ابن إسحاق في رواية ابن هشام الاستنفار في زمن عسرة، وإنفاق الأغنياء، والبكائين، والمتخلفين من المؤمنين والمنافقين، ومسير الجيش بالحجر، وصلح النبي مع صاحب أيلة وأكيدر دومة، والعودة."
 wings: [time, people]
 themes: [skirmishes-raids-expeditions, desertions-defections-withdrawals]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition }
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, note: "رأس الباب عند ابن إسحاق: غزوة تبوك في رجب سنة تسع (ابن هشام 4/159)", sources: [source/ibn-hisham-saqqa] }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: occurred_at, target: place/tabuk }
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/abu-bakr }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+  - { type: has_part, target: event/tabuk-mobilisation-order, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/al-jadd-ibn-qays-asks-to-stay-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/hypocrites-discourage-marching-in-the-heat, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/uthman-funds-the-army-of-hardship, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/tabuk-departure-and-deputies, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/burning-of-suwaylims-house, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/the-weepers-al-bakkaun, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/bedouin-excuse-makers, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/believers-who-lagged-without-doubt, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/ibn-ubayy-separate-camp-and-withdrawal, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/ali-left-with-the-prophets-family, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/abu-khaythama-joins-the-army, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/camp-at-al-hijr, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/rain-at-al-hijr-after-the-prophets-prayer, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/the-prophets-she-camel-strays, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/abu-dharr-lags-behind-on-the-march, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/death-of-abu-dharr-at-al-rabadha, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/hypocrites-mock-the-army-and-excuse, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/treaty-of-ayla, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/khalid-expedition-to-ukaydir, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/treaty-of-ukaydir, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/tabuk-stay-and-return, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/water-of-wadi-al-mushaqqaq, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/burial-of-dhu-al-bijadayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/abu-ruhm-and-the-stragglers-of-ghifar-and-aslam, sources: [source/ibn-hisham-saqqa] }
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 159-173", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-6c" }
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked; extended from Ibn Hisham juz' 4 pp. 159-173 (batch 6)" }
