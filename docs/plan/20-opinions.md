@@ -80,6 +80,7 @@ The library pipeline (`docs/delegation/local-model-library-prompt.md`) gets one 
 | When | What |
 |---|---|
 | Done (12 Oct 2026) | Schema fields (`issue`, `id`, `stance`, `holders`, `evidence`), validator rules and tests, the entity-page component, English and Arabic strings, one worked example (`concept/iman`: the hadith scholars' and the Hanafi creed's definitions). |
-| Next | Add `issue`, headlines and sources to the 38 data entries and 33 prose entries that already carry `perspectives` (the validator now lists 37 without an issue and 16 opinions without a source); add the Wasitiyya and Lum'at al-I'tiqad positions to the 15 Tahawi concepts. |
+| Done (12 Oct 2026, second step) | `issue` and anchors on the 37 data entries that had two or more perspectives; a source on five opinions that the cited works plainly carry (11 opinions still cite nothing and the validator lists them); Ibn Qudama's Lum'at al-I'tiqad added as a second opinion on 14 of the Tahawi creed concepts and a third on `concept/iman`. |
+| Next | Headlines (`stance`) and holders for the older entries; the 33 prose entries (`:::perspectives`) to move to the data form; al-Wasitiyya and the Ash'ari and Maturidi texts as further opinions on the creed concepts. |
 | Phase 2 | The differences index, positions-held, compare view, search facet. |
 | Phase 3 | Preferred-school ordering among Sunni opinions; the opinion claim kind in the library pipeline at volume. |

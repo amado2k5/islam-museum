@@ -15,6 +15,45 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - global
+issue:
+  ar: هل يُشهد للعشرة بالجنة، وعلى أي أساس يُشهد لغيرهم؟
+  en: Is testimony of Paradise given for the ten, and on what basis for others?
+perspectives:
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: الشهادة للعشرة بالجنة بما شهد لهم به النبي
+    en: Testimony of Paradise for the ten on what the Prophet testified for them
+  summary:
+    ar: يقول الطحاوي إن العشرة الذين سمّاهم رسول الله وبشّرهم بالجنة يُشهد لهم بها على ما شهد لهم، ويسمّيهم ويصف أبا عبيدة بأنه أمين هذه الأمة.
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البند 124، ص 29 و30
+      en: article 124, pp. 29 and 30
+  sources:
+  - source/aqida-tahawiyya
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: الشهادة للعشرة ولكل من شهد له النبي بالجنة، مع عدم الجزم لغيرهم
+    en: Testimony for the ten and for anyone the Prophet testified for, with no certainty for others
+  summary:
+    ar: 'يقول ابن قدامة: «ونشهد للعشرة بالجنة، كما شهد لهم النبي»، ويسمّيهم، ثم يقول: «وكل من شهد له النبي بالجنة، شهدنا له بها»، ويذكر الحسن والحسين وثابت بن قيس، ولا يجزم لأحد من أهل القبلة بجنة ولا نار إلا من جزم له الرسول.'
+    en: Ibn Qudama says we testify to Paradise for the ten as the Prophet testified for them, names them, and says that for everyone the Prophet testified Paradise we testify too, mentioning al-Hasan and al-Husayn and Thabit ibn Qays, while being certain of neither Paradise nor Hell for any other of the people of the qibla.
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad
+    note:
+      ar: ص 38 و39
+      en: pp. 38 and 39
+  sources:
+  - source/lumat-al-itiqad
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -23,7 +62,8 @@ provenance:
   run: tahawiyya-1
 sources:
 - source/aqida-tahawiyya
+- source/lumat-al-itiqad
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 21, 29, 30)
+  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 21, 29, 30); Lum'at al-I'tiqad (Maktab Islami ed., pp. 38 و39) added as a second opinion

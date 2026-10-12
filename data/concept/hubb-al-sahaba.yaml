@@ -15,6 +15,45 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - global
+issue:
+  ar: كيف يُذكر الصحابة، وما الموقف مما جرى بينهم؟
+  en: How are the Companions to be mentioned, and what is the position on what happened between them?
+perspectives:
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: محبتهم وعدم التبرؤ من أحد منهم وألا يُذكروا إلا بخير
+    en: Loving them, disowning none, and mentioning them only well
+  summary:
+    ar: يقول الطحاوي إنه يحب أصحاب رسول الله ولا يتبرأ من أحد منهم ولا يذكرهم إلا بخير، وإن من أحسن القول فيهم وفي أزواج النبي وذريته فقد برئ من النفاق.
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البنود 122 و125 و126، ص 29 و30
+      en: articles 122, 125 and 126, pp. 29 and 30
+  sources:
+  - source/aqida-tahawiyya
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: محبتهم وذكر محاسنهم والكف عن ذكر مساوئهم وما شجر بينهم
+    en: Loving them, mentioning their merits and refraining from their faults and what arose between them
+  summary:
+    ar: 'يقول ابن قدامة إن من السنة «تولي أصحاب رسول الله ومحبتهم، وذكر محاسنهم، والترحم عليهم، والاستغفار لهم، والكف عن ذكر مساوئهم، وما شجر بينهم»، ويذكر الترضي عن أزواج النبي ويقول في عائشة إن من قذفها بما برأها الله منه فقد كفر، ويقول: «ومعاوية خال المؤمنين، وكاتب وحي الله، أحد خلفاء المسلمين».'
+    en: Ibn Qudama says it is of the sunna to take the Companions as friends and love them, mention their merits, ask mercy and forgiveness for them and refrain from mentioning their faults and what arose between them; he adds God's good pleasure on the Prophet's wives, says whoever slanders Aisha with what God declared her free of has disbelieved, and calls Mu'awiya the maternal uncle of the believers, a scribe of God's revelation and one of the caliphs of the Muslims.
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad
+    note:
+      ar: ص 40 إلى 42
+      en: pp. 40 to 42
+  sources:
+  - source/lumat-al-itiqad
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -23,7 +62,8 @@ provenance:
   run: tahawiyya-1
 sources:
 - source/aqida-tahawiyya
+- source/lumat-al-itiqad
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 29, 30)
+  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 29, 30); Lum'at al-I'tiqad (Maktab Islami ed., pp. 40 إلى 42) added as a second opinion

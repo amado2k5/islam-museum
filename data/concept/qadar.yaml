@@ -15,6 +15,45 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - global
+issue:
+  ar: ما علاقة مشيئة الله وقدره بأفعال العباد؟
+  en: How do God's will and decree relate to the acts of His servants?
+perspectives:
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: كل شيء بتقدير الله ومشيئته، مع النهي عن التعمق في سر القدر
+    en: Everything is by God's decree and will, with a warning against probing the secret of the decree
+  summary:
+    ar: يقول الطحاوي إن الله خلق الخلق بعلمه وقدّر لهم أقداراً وآجالاً وإن كل شيء يجري بتقديره ومشيئته، ويرى أن أصل القدر سر الله في خلقه وأن التعمق فيه ذريعة الخذلان.
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البنود 21 إلى 31 و53 إلى 67 و109 إلى 116، ص 10 و11 و16 إلى 19 و26 إلى 28
+      en: articles 21 to 31, 53 to 67 and 109 to 116, pp. 10, 11, 16 to 19 and 26 to 28
+  sources:
+  - source/aqida-tahawiyya
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: القدر مع بقاء الحجة على العبد وأن له فعلاً وكسباً
+    en: Decree with the servant's accountability and his own act and acquisition
+  summary:
+    ar: يقول ابن قدامة إنه «لا يكون شيء إلا بإرادته، ولا يخرج شيء عن مشيئته»، وإن الله «خلق الخلق وأفعالهم، وقدر أرزاقهم وآجالهم»، ثم يقول إنا «لا نجعل قضاء الله وقدره حجة لنا في ترك أوامره»، وإنه لم يجبر أحداً على معصية، وإن «للعبد فعلاً وكسباً» يُجزى عليه.
+    en: Ibn Qudama says nothing happens except by God's will and nothing escapes His decree, that He created the creatures and their acts and decreed their provisions and terms, that God's judgement and decree are no excuse for abandoning His commands, that He compelled no one to disobey, and that the servant has an act and an acquisition for which he is rewarded or punished.
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad
+    note:
+      ar: ص 24 إلى 27
+      en: pp. 24 to 27
+  sources:
+  - source/lumat-al-itiqad
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -23,7 +62,8 @@ provenance:
   run: tahawiyya-1
 sources:
 - source/aqida-tahawiyya
+- source/lumat-al-itiqad
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 10, 11, 16, 17, 18, 27)
+  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 10, 11, 16, 17, 18, 27); Lum'at al-I'tiqad (Maktab Islami ed., pp. 24 إلى 27) added as a second opinion

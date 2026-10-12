@@ -15,6 +15,45 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - global
+issue:
+  ar: كيف يُوصف الله تعالى في صفاته، وما حدود إثباتها وتنزيهها؟
+  en: How is God described in His attributes, and what are the limits of affirming them and declaring Him above likeness?
+perspectives:
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: 'التوحيد مع التنزيه: لا يُشبَّه الله ولا تُنفى صفاته'
+    en: 'Tawhid with transcendence: God is neither likened to creation nor are His attributes denied'
+  summary:
+    ar: يقول الطحاوي إن الله واحد لا شريك له ولا شيء مثله، ويجعل الدين بين التشبيه والتعطيل، وينزّهه عن الحدود والغايات والأركان والأعضاء والأدوات ويقول إنه لا تحويه الجهات الست.
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البنود 1 إلى 19 و46 إلى 48 و134، ص 8 إلى 10 و15 و32
+      en: articles 1 to 19, 46 to 48 and 134, pp. 8 to 10, 15 and 32
+  sources:
+  - source/aqida-tahawiyya
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: إثبات الصفات كما وردت دون تأويل ولا تشبيه ولا كيف
+    en: Affirming the attributes as they came, without interpretation, likening or how
+  summary:
+    ar: 'يقول ابن قدامة إن الله «موصوف بما وصف به نفسه في كتابه العظيم، وعلى لسان نبيه الكريم»، وإن كل ما ورد من الصفات وجب الإيمان به وتلقيه بالتسليم والقبول وترك التعرض له بالرد والتأويل والتشبيه والتمثيل؛ ويقرّ الاستواء ويقول مع مالك: «الاستواء غير مجهول، والكيف غير معقول».'
+    en: 'Ibn Qudama says God is described as He described Himself in His Book and by His Prophet, that every attribute that came must be believed and received with submission and acceptance, leaving aside rejection, interpretation, likening and representation; he affirms the istiwa and quotes Malik: the istiwa is not unknown and the how is not graspable.'
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad
+    note:
+      ar: ص 4 و6 و13 و14 و15
+      en: pp. 4, 6, 13, 14 and 15
+  sources:
+  - source/lumat-al-itiqad
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -23,7 +62,8 @@ provenance:
   run: tahawiyya-1
 sources:
 - source/aqida-tahawiyya
+- source/lumat-al-itiqad
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 8, 9, 10, 15, 31, 32)
+  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 8, 9, 10, 15, 31, 32); Lum'at al-I'tiqad (Maktab Islami ed., pp. 4 و6 و13 و14 و15) added as a second opinion

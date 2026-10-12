@@ -15,6 +15,45 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - global
+issue:
+  ar: 'ما الذي يكون بعد الموت: القبر والبعث والحساب؟'
+  en: 'What follows death: the grave, the resurrection and the reckoning?'
+perspectives:
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: عذاب القبر والبعث والحساب والصراط والميزان وبقاء الجنة والنار
+    en: The punishment of the grave, resurrection, reckoning, the bridge, the scale, and the abiding of Paradise and Hell
+  summary:
+    ar: يؤمن الطحاوي بعذاب القبر وسؤال الملكين والبعث والعرض والحساب والصراط والميزان، ويقول إن الجنة والنار مخلوقتان لا تفنيان.
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البنود 101 إلى 108، ص 25 و26
+      en: articles 101 to 108, pp. 25 and 26
+  sources:
+  - source/aqida-tahawiyya
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: تفصيل أوسع للقبر والبعث والحساب والميزان والحوض والصراط
+    en: A fuller account of the grave, resurrection, reckoning, scale, pool and bridge
+  summary:
+    ar: يذكر ابن قدامة عذاب القبر ونعيمه وفتنة القبر وسؤال منكر ونكير، ثم البعث بعد النفخ في الصور وحشر الناس حفاة عراة، والحساب ونشر الدواوين ونصب الموازين، والميزان له كفتان ولسان، والحوض والصراط، وأن الجنة والنار مخلوقتان لا تفنيان.
+    en: Ibn Qudama mentions the punishment and bliss of the grave, the trial of the grave and the questioning by Munkar and Nakir, then the resurrection after the blowing of the trumpet, the gathering of the people barefoot and naked, the reckoning, the unrolling of the records and the setting up of the scales, the scale having two pans and a tongue, the pool and the bridge, and that Paradise and Hell are created and do not perish.
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad
+    note:
+      ar: ص 31 إلى 35
+      en: pp. 31 to 35
+  sources:
+  - source/lumat-al-itiqad
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -23,7 +62,8 @@ provenance:
   run: tahawiyya-1
 sources:
 - source/aqida-tahawiyya
+- source/lumat-al-itiqad
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 25, 26, 28)
+  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 25, 26, 28); Lum'at al-I'tiqad (Maktab Islami ed., pp. 31 إلى 35) added as a second opinion

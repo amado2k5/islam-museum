@@ -16,6 +16,45 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - global
+issue:
+  ar: هل القرآن كلام الله غير مخلوق، وما صفة كلامه؟
+  en: Is the Qur'an the uncreated speech of God, and what is the nature of His speech?
+perspectives:
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: القرآن كلام الله منه بدا بلا كيفية وليس بمخلوق
+    en: The Qur'an is God's speech, from Him it began without how, and it is not created
+  summary:
+    ar: يقول الطحاوي إن القرآن كلام الله منه بدا بلا كيفية قولاً، أنزله على رسوله وحياً، وليس بمخلوق ككلام البرية، ويحكم بالكفر على من زعم أنه كلام البشر.
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البنود 36 إلى 38 و75 و76، ص 12 و13 و20
+      en: articles 36 to 38, 75 and 76, pp. 12, 13 and 20
+  sources:
+  - source/aqida-tahawiyya
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: الله متكلم بكلام قديم والقرآن منزل غير مخلوق وهو حروف وكلمات
+    en: God speaks with an eternal speech, and the Qur'an is sent down, uncreated, and consists of letters and words
+  summary:
+    ar: يقول ابن قدامة إن الله «متكلم بكلام قديم، يسمعه منه من شاء من خلقه»، سمعه موسى من غير واسطة، وإن القرآن «منزل غير مخلوق، منه بدأ وإليه يعود»، وهو سور وآيات وحروف وكلمات، «متلو بالألسنة، محفوظ في الصدور، مسموع بالآذان، مكتوب في المصاحف»، ويحتج بأن جاحد حرف منه كافر.
+    en: Ibn Qudama says God speaks with an eternal speech that whoever He wills of His creatures hears, that Musa heard it without an intermediary, and that the Qur'an is sent down, uncreated, from Him it began and to Him it returns, made of suras, verses, letters and words, recited by tongues, kept in hearts, heard by ears and written in copies, and he argues that whoever denies one letter of it is an unbeliever.
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad
+    note:
+      ar: ص 15 إلى 22
+      en: pp. 15 to 22
+  sources:
+  - source/lumat-al-itiqad
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -24,7 +63,8 @@ provenance:
   run: tahawiyya-1
 sources:
 - source/aqida-tahawiyya
+- source/lumat-al-itiqad
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 12, 13, 20)
+  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 12, 13, 20); Lum'at al-I'tiqad (Maktab Islami ed., pp. 15 إلى 22) added as a second opinion

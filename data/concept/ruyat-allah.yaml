@@ -15,6 +15,45 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - global
+issue:
+  ar: هل يرى المؤمنون ربهم في الآخرة، وكيف؟
+  en: Will the believers see their Lord in the hereafter, and how?
+perspectives:
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: الرؤية حق لأهل الجنة بغير إحاطة ولا كيفية، مع ترك التأويل
+    en: The vision is true for the people of Paradise without encompassing or how, leaving aside interpretation
+  summary:
+    ar: يقول الطحاوي إن الرؤية حق لأهل الجنة بغير إحاطة ولا كيفية، وإن تفسيرها على ما أراده الله وعلمه، ولا يصح الإيمان بها عنده لمن اعتبرها بوهم أو تأوّلها بفهم.
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البنود 40 إلى 45، ص 13 إلى 15
+      en: articles 40 to 45, pp. 13 to 15
+  sources:
+  - source/aqida-tahawiyya
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: المؤمنون يرون ربهم بأبصارهم في الآخرة
+    en: The believers will see their Lord with their eyes in the hereafter
+  summary:
+    ar: 'يقول ابن قدامة: «والمؤمنون يرون ربهم في الآخرة بأبصارهم، ويزورونه، ويكلمهم ويكلمونه»، ويحتج بآية سورة القيامة وبآية المطففين عن حجب الكفار، وبحديث القمر، ويقول إن الحديث تشبيه للرؤية بالرؤية لا للمرئي بالمرئي.'
+    en: Ibn Qudama says the believers will see their Lord in the hereafter with their eyes, visit Him, and He will speak to them and they to Him; he cites the verse of al-Qiyama, the verse of al-Mutaffifin about the unbelievers being veiled, and the hadith of the moon, which he says likens the seeing to seeing, not the seen to the seen.
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad
+    note:
+      ar: ص 23
+      en: p. 23
+  sources:
+  - source/lumat-al-itiqad
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -23,7 +62,8 @@ provenance:
   run: tahawiyya-1
 sources:
 - source/aqida-tahawiyya
+- source/lumat-al-itiqad
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 13, 14, 15)
+  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 13, 14, 15); Lum'at al-I'tiqad (Maktab Islami ed., pp. 23) added as a second opinion

@@ -15,6 +15,45 @@ periods:
 - period/abbasid-fragmentation
 regions:
 - global
+issue:
+  ar: ما أشراط الساعة التي يُؤمن بها؟
+  en: Which signs of the Hour are believed in?
+perspectives:
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: الدجال ونزول عيسى وطلوع الشمس من مغربها ودابة الأرض
+    en: The Dajjal, the descent of Jesus, the rising of the sun from the west and the beast of the earth
+  summary:
+    ar: 'يؤمن الطحاوي بأشراط الساعة: خروج الدجال ونزول عيسى ابن مريم وطلوع الشمس من مغربها وخروج دابة الأرض.'
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البند 129، ص 31
+      en: article 129, p. 31
+  sources:
+  - source/aqida-tahawiyya
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: الأشراط نفسها مع يأجوج ومأجوج وقتل عيسى للدجال
+    en: The same signs with Gog and Magog and Jesus killing the Dajjal
+  summary:
+    ar: يذكر ابن قدامة من أشراط الساعة خروج الدجال ونزول عيسى ابن مريم فيقتله، وخروج يأجوج ومأجوج، وخروج الدابة، وطلوع الشمس من مغربها، «وأشباه ذلك مما صح به النقل».
+    en: Ibn Qudama lists among the signs of the Hour the coming of the Dajjal and the descent of Jesus who kills him, the coming of Gog and Magog, the emergence of the beast and the rising of the sun from the west, and the like of what is soundly reported.
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad
+    note:
+      ar: ص 30 و31
+      en: pp. 30 and 31
+  sources:
+  - source/lumat-al-itiqad
 provenance:
   layer: own-research
   source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
@@ -23,7 +62,8 @@ provenance:
   run: tahawiyya-1
 sources:
 - source/aqida-tahawiyya
+- source/lumat-al-itiqad
 status:
   review: draft
   completeness: 2
-  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 31)
+  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 31); Lum'at al-I'tiqad (Maktab Islami ed., pp. 30 و31) added as a second opinion
