@@ -1,0 +1,17 @@
+id: person/jadhima-al-abrash
+class: person
+label: { en: "Jadhima al-Abrash", ar: "جذيمة الأبرش" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The Arab warden appointed by Ardashir over al-Hira and the desert Arabs of Iraq and the Jazira — the Persian experiment of ruling the nomads through one of their own, which became the Lakhmid system; he died around 268 CE."
+  ar: "الوالي العربي الذي نصبه أردشير على الحيرة وسائر من ببادية العراق والجزيرة من ربيعة ومضر؛ تجربة حكم البادية برجل منهم له عصبية، وهي التي صارت نظام المناذرة؛ مات نحو سنة 268م."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: ruler_of, target: place/al-hira, end: { edtf: "0268~" }, sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

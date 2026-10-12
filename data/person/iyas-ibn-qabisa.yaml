@@ -1,0 +1,19 @@
+id: person/iyas-ibn-qabisa
+class: person
+label: { en: "Iyas ibn Qabisa al-Taʾi", ar: "إياس بن قبيصة الطائي" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The Tayyi governor Khosrow set over al-Hira after imprisoning al-Nuʾman; ordered to extract the deposit from Hani ibn Masʾud, his expedition with Khosrow’s marzabans was broken by Banu Shayban at Dhu Qar; the Prophet was born in the eighth month of his governorship."
+  ar: "الوالي الطائي الذي ولّاه كسرى الحيرة بعد حبس النعمان؛ أُمر باستخلاص وديعة هانئ بن مسعود فأبى هانئ، فكانت موقعة ذي قار التي هُزمت فيها الفرس؛ وُلد النبي لثمانية أشهر من ولايته على الحيرة."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: ruler_of, target: place/al-hira, start: { edtf: "0602~" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/banu-tayy }
+  - { type: participated_in, target: event/battle-of-dhu-qar, role: "والي الحيرة المهزوم بموكب مرازبة كسرى", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
