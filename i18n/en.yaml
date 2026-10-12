@@ -21,6 +21,7 @@ nav:
   coverage: Coverage
   screen: Screening Room
   themes: Themes
+  learn: Tour / Learn
 a11y:
   skip: Skip to content
   menu_open: Menu
@@ -47,7 +48,10 @@ landing:
   - All traditions, fairly
   - Arabic and English first, more languages to come
   - Written for the curious stranger
-  entrances: Four ways in
+  entrances: Five ways in
+  learn_title: Tour / Learn, in the making
+  learn_text: Guided pathways, step by step, toward a goal you choose, so the museum never feels too big or confusing. About 300 are being planned.
+  learn_cta: Find out more
 wings:
   time:
     title: Time
@@ -189,6 +193,10 @@ exhibits:
   lede: Curated tours, stories and trails through the collection.
   empty: The first exhibits are being prepared. They will appear here.
 coverage:
+  learn_title: Tour / Learn, in the making
+  learn_text: A new section of guided learning pathways. Ready pathways will be counted here when they open, and each one will list the entries it still needs. No pathway is open yet.
+  learn_ready: Pathways ready
+  learn_planned: Pathways planned
   title: Coverage
   lede: What the museum holds today, and what it still wants. Gaps are shown, not hidden.
   entities: Entries
@@ -273,7 +281,11 @@ basis:
   debated: debated
   unknown: unknown
 entrances:
-  title: Four ways in
+  title: Five ways in
+  learn:
+    title: Tour / Learn
+    blurb: Guided pathways, step by step, toward a goal you choose. In the making.
+    badge: In the making
   questions:
     title: Questions
     blurb: Plain answers for newcomers.
@@ -413,3 +425,35 @@ ids:
   archnet: ArchNet
   unesco: UNESCO
   getty-tgn: Getty TGN
+learn:
+  title: Tour / Learn
+  badge: In the making
+  lede: The museum is big and you may not know where to start. Tour / Learn offers short, ordered pathways, each with a clear goal, that take you step by step through the museum's own pages, or show you the whole route at once.
+  status: This section is being built. The pathways are not written yet. We are preparing a list of the 300 best pathways anyone can follow, and will open the first of them one by one. The rest of the museum stays as it is.
+  offer_title: What you will find here
+  offer:
+  - Choose what you want to understand: a phase of history, a group of personalities, a group of events, an idea, a place, a text or a hard question.
+  - Walk it step by step, or see the whole route at once as a list, a timeline and a map.
+  - Every pathway states its goal: what you will know, and be able to place, by the end.
+  - An honest time for each: ten minutes, half an hour, two hours or a week of evenings.
+  - Your progress is kept in your browser only, with no account and no AI answering you: the pathways are written and reviewed.
+  - Every step is a cited page of the museum, with side steps for going deeper or hearing the other view that never block the way.
+  kinds_title: Three hundred pathways in preparation
+  kinds_note: During planning, AI proposes the list of pathways, then people review and order it. None of that runs while you visit.
+  kinds:
+  - { k: Eras and phases, n: 40 }
+  - { k: Personalities and groups, n: 55 }
+  - { k: Events grouped together, n: 40 }
+  - { k: Ideas, beliefs and practices, n: 45 }
+  - { k: Places and cities, n: 30 }
+  - { k: Texts and sciences, n: 30 }
+  - { k: Art, architecture and objects, n: 20 }
+  - { k: Living culture today, n: 15 }
+  - { k: Hard questions with their voices, n: 15 }
+  - { k: Starter paths by visitor and time, n: 10 }
+  meanwhile: In the meantime
+  start: Start with the Hijra
+  questions: Questions for newcomers
+  themes: Themes
+  suggest: Tell us what you want to learn
+  plan: The design document

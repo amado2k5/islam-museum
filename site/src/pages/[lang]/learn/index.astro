@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { href } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const L = T.learn;
+---
+<BaseLayout lang={lang} title={L.title} description={L.lede} path={`/${lang}/learn/`}>
+  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
+    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{L.badge}</p>
+    <h1>{L.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{L.lede}</p>
+    <p class="panel ui" style="max-width:var(--measure);border:1px solid var(--gold)">{L.status}</p>
+
+    <h2>{L.offer_title}</h2>
+    <ul style="max-width:var(--measure);line-height:1.8">{L.offer.map((o: string) => <li>{o}</li>)}</ul>
+
+    <h2>{L.kinds_title}</h2>
+    <p class="muted" style="max-width:var(--measure)">{L.kinds_note}</p>
+    <table class="ui" style="border-collapse:collapse;min-width:min(100%,420px)">
+      <tbody>
+        {L.kinds.map((r: { k: string; n: number }) => <tr><td style="padding:4px 0">{r.k}</td><td style="text-align:end;padding:4px 0 4px 16px">{r.n}</td></tr>)}
+        <tr style="border-top:1px solid var(--gold)"><td style="padding:6px 0"><b>{lang === "ar" ? "المجموع" : "Total"}</b></td><td style="text-align:end;padding:6px 0 6px 16px"><b>{L.kinds.reduce((a: number, r: { n: number }) => a + r.n, 0)}</b></td></tr>
+      </tbody>
+    </table>
+
+    <h2>{L.meanwhile}</h2>
+    <ul class="ui" style="display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;list-style:none">
+      <li><a class="chip" style="border:1px solid var(--gold)" href={href(lang, "event/hijra")}>{L.start} <span class="flip" aria-hidden="true">→</span></a></li>
+      <li><a href={`/${lang}/questions/`}>{L.questions}</a></li>
+      <li><a href={`/${lang}/themes/`}>{L.themes}</a></li>
+      <li><a href="https://github.com/amado2k5/islam-museum/issues" rel="noopener">{L.suggest}</a></li>
+      <li><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/19-tour-learn.md" rel="noopener">{L.plan}</a></li>
+    </ul>
+  </div>
+</BaseLayout>

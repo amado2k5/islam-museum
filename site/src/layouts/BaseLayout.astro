@@ -71,6 +71,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
         <ul style="display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:0;padding:0;font-size:.95rem">
           {WINGS.map((w) => <li><a href={wingHref(lang, w)} style="color:var(--fg);text-decoration:none">{T.nav[w]}</a></li>)}
           <li style="opacity:.5" aria-hidden="true">·</li>
+          <li><a href={`/${lang}/learn/`} style="color:var(--fg);text-decoration:none">{T.nav.learn}</a></li>
           <li><a href={`/${lang}/questions/`} style="color:var(--fg);text-decoration:none">{T.nav.questions}</a></li>
           <li><a href={`/${lang}/exhibits/`} style="color:var(--fg);text-decoration:none">{T.nav.exhibits}</a></li>
           <li><a href={`/${lang}/screen/`} style="color:var(--fg);text-decoration:none">{T.nav.screen}</a></li>

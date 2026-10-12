@@ -20,6 +20,7 @@ const Table = (rec: Record<string, number>, label: (k: string) => string) => Obj
           <table style="width:100%;border-collapse:collapse">{rows.map((r: any) => <tr><td>{r.k}</td><td style="text-align:end">{r.v}</td></tr>)}</table></section>
       ))}
     </div>
+    <section class="panel ui" style="margin:1.5rem 0;border:1px solid var(--gold)"><h2 style="font-size:1.05rem;margin:0 0 6px">{T.coverage.learn_title}</h2><p style="margin:0 0 8px">{T.coverage.learn_text}</p><p style="margin:0"><b>0</b> {T.coverage.learn_ready} · <b>300</b> {T.coverage.learn_planned} · <a href={`/${lang}/learn/`}>{T.nav.learn}</a></p></section>
     <h2>{T.coverage.wanted}</h2>
     <ul class="ui" style="columns:2 260px">{c.wanted.map((w) => <li><a href={href(lang, w)} class="stub-link">{labelOf(byId.get(w)!, lang)}</a></li>)}</ul>
   </div>

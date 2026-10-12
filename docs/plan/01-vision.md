@@ -65,7 +65,7 @@ Everything the founder listed, organised into nine museum **wings** (the visitor
 | **Today** | Modern nations, institutions, demographics, contemporary figures and events, the future | OIC · Al-Azhar · Muslim population data · 21st-century events |
 | **Made** | A directory of what Muslims create and own today: shops, brands, publishers, books, apps, studios, media, charities, schools (see 11-made-directory.md) | A bookshop in Fez · a Qur'an app · a modest-fashion brand · a Muslim-run publisher |
 
-Plus four cross-cutting entrances: **Questions** (plain-language FAQ for newcomers), **Exhibits** (curated narratives and guided tours), the **Screening Room** (an index of every film, series and programme about Islam in any language, `12-screen-index.md`) and **Themes** (about 125 themes that cut across every wing, from women and minorities to war, charity, food and science, `14-themes-atlas.md`).
+Plus five cross-cutting entrances: **Tour / Learn** (guided pathways: goal-directed routes, about 300 proposed during planning, that walk a newcomer through the museum step by step so it never feels overwhelming, `19-tour-learn.md`), **Questions** (plain-language FAQ for newcomers), **Exhibits** (curated narratives and guided tours), the **Screening Room** (an index of every film, series and programme about Islam in any language, `12-screen-index.md`) and **Themes** (about 125 themes that cut across every wing, from women and minorities to war, charity, food and science, `14-themes-atlas.md`).
 
 The People wing covers everyone who mattered to the story in any role, including opponents, critics, protectors and outside observers (`13-figures.md`).
 

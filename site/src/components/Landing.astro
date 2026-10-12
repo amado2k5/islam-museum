@@ -12,6 +12,7 @@ const T = ui(lang);
     <p style="font-size:clamp(1.1rem,2vw,1.35rem);max-width:60ch">{T.landing.lede}</p>
     <p class="ui muted" id="today-line" data-prefix={T.landing.today_is} aria-live="polite" style="margin-bottom:2rem"></p>
     <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{T.landing.soon}</p>
+    <a class="card" href={`/${lang}/learn/`} style="max-width:640px;margin:0 0 1rem;border:1px solid var(--gold)"><h2 class="card-title" style="font-size:1.15rem">{T.landing.learn_title}</h2><span>{T.landing.learn_text}</span> <span class="ui" style="display:block;margin-top:8px;color:var(--link)">{T.landing.learn_cta} <span class="flip" aria-hidden="true">→</span></span></a>
     <p class="ui" style="margin:0 0 1rem"><a href={`/${lang}/coverage/`}>{T.landing.coverage} <span class="flip" aria-hidden="true">→</span></a></p>
     <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={href(lang, "event/hijra")}>{T.landing.start} <span class="flip" aria-hidden="true">→</span></a> <span class="muted">{T.landing.start_hint}</span></p>
 
@@ -24,8 +25,8 @@ const T = ui(lang);
 
     <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.entrances.title}</h2>
     <ul class="grid-cards" style="margin-bottom:3.5rem">
-      {(["questions", "exhibits", "screen", "themes"] as const).map((k) => (
-        <li><a class="card" href={`/${lang}/${k}/`}><h3 class="card-title">{T.entrances[k].title}</h3><span>{T.entrances[k].blurb}</span></a></li>
+      {(["learn", "questions", "exhibits", "screen", "themes"] as const).map((k) => (
+        <li><a class="card" href={`/${lang}/${k}/`}><h3 class="card-title">{T.entrances[k].title}{T.entrances[k].badge && <span class="chip ui" style="margin-inline-start:8px;font-size:.75rem;border:1px solid var(--gold)">{T.entrances[k].badge}</span>}</h3><span>{T.entrances[k].blurb}</span></a></li>
       ))}
     </ul>
 
