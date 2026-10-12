@@ -10,7 +10,7 @@ themes: [sacred-space-and-pilgrimage, battles]
 regions: [arabia]
 relations:
   - { type: located_in, target: place/mecca, note: "بأسفل مكة.", sources: [source/ibn-hisham-saqqa] }
-coordinate_note: "Not fixed on the map: the text only places it 'in lower Mecca' (بأسفل مكة); treated as inside Mecca's lowland until a gazetteer fix is sourced."
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 31–32", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
+coordinate_note: "فُحصت ويكي بيانات (Q136645782 غزوة الوتير بلا إحداثيات) و§6؛ النص يقول «بأسفل مكة» فقط؛ تبقى بلا إحداثيات."
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 31–32", generated_by: "Devin; coordinate note by Claude Code (subagent), claude-sonnet-5-5", run: "ibn-hisham-batch-1a" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 31–32" }
