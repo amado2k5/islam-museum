@@ -6,9 +6,7 @@
 @import "@fontsource/source-serif-4/latin-600.css";
 @import "@fontsource/source-serif-4/latin-400-italic.css";
 @import "@fontsource/noto-naskh-arabic/arabic-400.css";
-@import "@fontsource/noto-naskh-arabic/arabic-600.css";
 @import "@fontsource/amiri/arabic-400.css";
-@import "@fontsource/amiri/arabic-700.css";
 @import "@fontsource/reem-kufi/arabic-500.css";
 @import "@fontsource/amiri-quran/arabic-400.css";
 @import "@fontsource/cairo/arabic-400.css";
@@ -242,9 +240,7 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
    window leaves the fallback in place instead of repainting the page. Sources resolve to the same fontsource
    woff2 files, so nothing extra ships. */
 @font-face { font-family: "Noto Naskh Arabic"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2") format("woff2"); }
-@font-face { font-family: "Noto Naskh Arabic"; font-style: normal; font-display: optional; font-weight: 600; src: url("../../node_modules/@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-600-normal.woff2") format("woff2"); }
 @font-face { font-family: "Amiri"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/amiri/files/amiri-arabic-400-normal.woff2") format("woff2"); }
-@font-face { font-family: "Amiri"; font-style: normal; font-display: optional; font-weight: 700; src: url("../../node_modules/@fontsource/amiri/files/amiri-arabic-700-normal.woff2") format("woff2"); }
 @font-face { font-family: "Reem Kufi"; font-style: normal; font-display: optional; font-weight: 500; src: url("../../node_modules/@fontsource/reem-kufi/files/reem-kufi-arabic-500-normal.woff2") format("woff2"); }
 @font-face { font-family: "Amiri Quran"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/amiri-quran/files/amiri-quran-arabic-400-normal.woff2") format("woff2"); }
 @font-face { font-family: "Cairo"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/cairo/files/cairo-arabic-400-normal.woff2") format("woff2"); }
