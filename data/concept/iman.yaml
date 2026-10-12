@@ -106,6 +106,41 @@ perspectives:
       en: p. 347
   sources:
   - source/maqalat-islamiyyin
+- tradition: sunni-hanafi
+  id: ibn-abi-al-izz
+  stance:
+    ar: الاختلاف بين أبي حنيفة وبقية أئمة أهل السنة في الإيمان اختلاف صوري، ونزاع لفظي لا يترتب عليه فساد اعتقاد
+    en: The difference between Abu Hanifa and the other imams of Ahl al-Sunna on iman is formal, a verbal dispute from which no corruption of belief follows
+  summary:
+    ar: 'يعرض ابن أبي العز الحنفي في شرح الطحاوية أقوال الناس في الإيمان: قول جمهور السلف أنه تصديق بالجنان وإقرار باللسان وعمل بالأركان، وقول كثير من الحنفية كالطحاوي أنه الإقرار باللسان والتصديق بالجنان، ثم يقول إن الاختلاف بين أبي حنيفة والأئمة الباقين من أهل السنة اختلاف صوري، إذ يتفقون على أن مرتكب الكبيرة لا يخرج من الإيمان، فهو «نزاع لفظي لا يترتب عليه فساد اعتقاد».'
+    en: 'Ibn Abi al-Izz al-Hanafi sets out in his commentary on the Tahawi creed the positions on iman: the majority of the early generations that it is assent of the heart, affirmation of the tongue and action of the limbs, and many of the Hanafis, like al-Tahawi, that it is affirmation by the tongue and assent of the heart; he then says the difference between Abu Hanifa and the other imams of Ahl al-Sunna is formal, since they agree that the committer of a grave sin does not leave iman, so it is a verbal dispute from which no corruption of belief follows.'
+  holders:
+  - person/ibn-abi-al-izz-al-hanafi
+  - work/sharh-aqida-tahawiyya
+  evidence:
+  - ref: source/sharh-tahawiyya-ibn-abi-al-izz
+    note:
+      ar: ص 267 و268
+      en: pp. 267 and 268
+  sources:
+  - source/sharh-tahawiyya-ibn-abi-al-izz
+- tradition: sunni-maturidi
+  id: maturidi-via-ibn-abi-al-izz
+  stance:
+    ar: الإيمان التصديق بالقلب، والإقرار باللسان ركن زائد (كما ينقله ابن أبي العز عن الماتريدي)
+    en: Iman is assent of the heart, and affirmation by the tongue is an additional pillar (as Ibn Abi al-Izz reports of al-Maturidi)
+  summary:
+    ar: 'ينقل ابن أبي العز أن من الحنفية «من يقول: إن الإقرار باللسان ركن زائد، ليس بأصلي، وإلى هذا ذهب أبو منصور الماتريدي»، ويذكر في حصره للأقوال أن الإيمان بالقلب وحده هو «التصديق كما قاله أبو منصور الماتريدي». وهذا نقل عن الماتريدي وليس من كتبه هو، ولم تُقرأ كتبه بعد.'
+    en: Ibn Abi al-Izz reports that among the Hanafis there are those who say affirmation by the tongue is an additional pillar and not an essential one, and that this is the view of Abu Mansur al-Maturidi, and in his survey he gives iman in the heart alone as assent, as al-Maturidi said. This is a report about al-Maturidi and not from his own books, which have not yet been read.
+  holders:
+  - person/abu-mansur-al-maturidi
+  evidence:
+  - ref: source/sharh-tahawiyya-ibn-abi-al-izz
+    note:
+      ar: ص 267 و268
+      en: pp. 267 and 268
+  sources:
+  - source/sharh-tahawiyya-ibn-abi-al-izz
 relations:
 - type: basis_for
   target: concept/islam-din
@@ -124,6 +159,7 @@ sources:
 - source/lumat-al-itiqad
 - source/aqida-wasitiyya
 - source/maqalat-islamiyyin
+- source/sharh-tahawiyya-ibn-abi-al-izz
 status:
   review: draft
   completeness: 2

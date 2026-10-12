@@ -1,0 +1,24 @@
+id: person/ibn-abi-al-izz-al-hanafi
+class: person
+label: { ar: "ابن أبي العز الحنفي", en: "Ibn Abi al-Izz al-Hanafi" }
+names:
+  - { kind: full, lang: ar, value: "صدر الدين علي بن محمد ابن أبي العز الحنفي" }
+gender: male
+born: { hijri: "0731", status: tradition, note: "From the title page of the Dar al-Hadith edition (731 to 792); one source, a second is needed.", sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
+died: { hijri: "0792", status: tradition, note: "From the same title page; one source, a second is needed.", sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
+roles: [scholar, jurist, theologian]
+traditions: [sunni]
+summary:
+  ar: "قاضي القضاة صدر الدين الحنفي، شارح العقيدة الطحاوية، وتصفه الطبعة بأنه من قضاة القضاة."
+  en: "The Hanafi chief judge Sadr al-Din, commentator on the Tahawi creed, called a chief judge on the title page of the edition."
+wings: [people]
+themes: [creed]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - { value: sunni-hanafi, basis: documented, note: "Named al-Hanafi on the title page and he speaks of Abu Hanifa's followers as 'our companions' in his commentary.", sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
+relations:
+  - { type: authored, target: work/sharh-aqida-tahawiyya, sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
+provenance: { layer: own-research, source: "شرح الطحاوية، دار الحديث، صفحة العنوان وص 267", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: izz-1 }
+sources: [source/sharh-tahawiyya-ibn-abi-al-izz]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; from the title page, no prose yet" }
