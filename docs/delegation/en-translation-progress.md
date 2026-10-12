@@ -10,10 +10,11 @@
 - Phase C prose, in progress. `content/en/` written so far:
   - exhibit/ ×5 (all five trails)
   - event/ ×201 (ALL events done)
+  - person/ ×119 of ~408, alphabetical by slug (through `al-abbas-ibn-ubada`)
 
 ## Next step
 
-Events are complete: all 201 `content/ar/event/*.md` translated to `content/en/event/`. Next class: `content/en/person/` — 408 files, alphabetical by slug (first: `content/ar/person/…` sorted). Then group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
+People: continue `content/en/person/` alphabetically from `al-abbas-…`. Then group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
 
 ## Conventions
 
