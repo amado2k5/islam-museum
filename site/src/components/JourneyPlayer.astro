@@ -73,6 +73,8 @@ const payload = { n: N, stations: stations.map((s) => ({ title: s.title, narrati
   </div>
   <div class="jp-bar">
     <button type="button" class="jp-play" data-play aria-label={J.play}>▶</button>
+    <button type="button" class="jp-step" data-prev aria-label={J.prev}><span aria-hidden="true">{lang === "ar" ? "›" : "‹"}</span></button>
+    <button type="button" class="jp-step" data-next aria-label={J.next}><span aria-hidden="true">{lang === "ar" ? "‹" : "›"}</span></button>
     <div class="jp-ticks" role="tablist" aria-label={J.stations}>
       {stations.map((s) => <button type="button" role="tab" aria-selected={s.i === 0 ? "true" : "false"} data-tick={s.i} title={`${s.title} · ${s.dayText}`}><span class="sr-only">{s.title}</span></button>)}
     </div>

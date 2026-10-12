@@ -81,7 +81,7 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
         <p class="muted" style="margin:0">{T.landing.widget_lede}</p>
         <form class="row ui" id="hijri-form" data-hijri-widget data-corresponds={T.landing.corresponds} data-none={T.landing.widget_none} data-fail={T.landing.widget_fail}>
           <label class="sr-only" for="bdate">{T.landing.date_label}</label>
-          <input type="date" id="bdate" name="d" required />
+          <input type="date" id="bdate" name="d" lang={lang} required />
           <button class="btn btn-lapis" type="submit">{T.landing.calc}</button>
         </form>
         <p class="hresult ui" id="hresult" role="status" aria-live="polite" hidden></p>

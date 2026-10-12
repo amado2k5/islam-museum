@@ -104,3 +104,27 @@ count rounded to the thousand.
 
 No rebrand, no new wings, no runtime model, no third-party script. Each phase ships only when it passes on `/ar/` and `/en/`,
 in both themes and with `data-font="sans"`, with a usable no-JS fallback and no horizontal scroll at 390px.
+
+## QA pass, 12 Oct 2026 (Part 4 fixes)
+
+Fixed: the revelation toggle now re-sorts the DOM as well as the CSS order (the live CSS was right; DOM-reading tools saw
+the source order); four duplicated people merged with aliases and meta-refresh redirects (Ikrima, Ka'b ibn Zuhayr, al-Mut'im,
+Mu'awiya) and the validator now fails on two `person` entities under one Arabic name unless `data/_homonyms.yaml` lists
+them as namesakes; EDTF intervals («0634/0644») render as «بين 634 و644 م»; a day-precision CE date now outranks a
+month-precision Hijri string in the timeline sort (Sept 622 order); the † legend appears on listing pages that use it;
+screen "approach" values and epithet attributions are localised; the two English pairing notes are Arabic and the revelation
+page shows notes only in its own script; «التقبض» → «القبض»; «أركاحه» is Ibn Hisham's word (plural of رَكْح, a courtyard)
+and now carries a gloss rather than a "correction"; the hub heading «ما لم يُكتب بعد» became «ما تغطيه هذه الصفحة»;
+titles never fall back to the slug (Arabic is the interim for untranslated entries; a title-less card is skipped); the
+second-language title on entity pages is no longer indexed into the other language's search, and connection chips carry
+separators for excerpts; the footer links say what they are (change log, report an error, discussions) and no two labels
+share a destination; the hero shuffle excludes everything on screen; /today/ has its own «يوم آخر عشوائي»; the journey
+player has previous/next; the search page has example queries and hides «امسح» while empty; the time-wing lede has its space;
+the date input carries `lang`.
+
+Investigated, no change: the "footer renders differently across loads" and "old nav on inner pages" reports match the
+Pages cache during a deploy, not two renders; the coverage page's all-draft state is the editorial policy (AI-written entries
+enter as drafts and stay so until a person reviews them); the theme self-flip could not be reproduced and the persistence
+code has one source of truth (`data-theme`, set from storage before paint); the native date picker's labels follow the
+browser locale (known limitation; the control now carries `lang`).
+

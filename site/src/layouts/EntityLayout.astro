@@ -110,7 +110,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
   <div class="reading-progress" aria-hidden="true"><span></span></div>
   <article id="entity-article" data-depth="standard" data-pagefind-body>
     <PageHeader title={title} crumbs={crumbs} crumbsLabel={T.entity.breadcrumb} wing={wingChips[0]} titleAttrs={{ "data-pagefind-meta": "title" }}>
-      {second && <p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.3rem,3vw,1.9rem);margin:0 0 6px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:#e6d5b8`} data-pagefind-meta="alt">{second}</p>}
+      {second && <p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.3rem,3vw,1.9rem);margin:0 0 6px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:#e6d5b8`} data-pagefind-ignore>{second}</p>}
       {dateLine.text && <p class="ui" style="margin:0 0 6px;color:#e6d5b8">{dateLine.text}{dateLine.derived && <span title={T.entity.derived}> †</span>}</p>}
       {dateLine.derived && <p class="ui" style="margin:0 0 6px;font-size:.85rem;color:#c9d3d6">{T.entity.dagger}</p>}
       {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}
@@ -223,7 +223,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
                 <>
                   <dt class="muted">{g.label}</dt>
                   <dd style="margin:0;display:flex;flex-wrap:wrap;gap:6px 8px">
-                    {g.items.map(({ node: t }) => <a class={`chip${t.stub ? " stub-link" : ""}`} href={href(lang, t.id)}>{labelOf(t, lang)}</a>)}
+                    {g.items.map(({ node: t }, k) => <>{k > 0 && <span class="sr-only">· </span>}<a class={`chip${t.stub ? " stub-link" : ""}`} href={href(lang, t.id)}>{labelOf(t, lang)}</a></>)}
                   </dd>
                 </>
               ))}
@@ -234,7 +234,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         {relatedIds.length > 0 && (
           <section data-role="main" class="sec ui no-print" aria-labelledby="rel">
             <h2 id="rel">{T.entity.related}</h2>
-            <p style="display:flex;flex-wrap:wrap;gap:6px 8px">{relatedIds.map((r) => <a class="chip" href={href(lang, r)}>{labelOf(byId.get(r)!, lang)}</a>)}</p>
+            <p style="display:flex;flex-wrap:wrap;gap:6px 8px">{relatedIds.map((r, k) => <>{k > 0 && <span class="sr-only">· </span>}<a class="chip" href={href(lang, r)}>{labelOf(byId.get(r)!, lang)}</a></>)}</p>
           </section>
         )}
 

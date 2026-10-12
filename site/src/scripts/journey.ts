@@ -48,5 +48,7 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-journey]")) {
     else if (e.key === "End") { e.preventDefault(); stop(); show(p.n - 1, true); }
   });
   stops.forEach((g, k) => { g.style.cursor = "pointer"; g.addEventListener("click", () => { stop(); show(k); }); });
+  root.querySelector("[data-prev]")?.addEventListener("click", () => { stop(); show(i - 1); });
+  root.querySelector("[data-next]")?.addEventListener("click", () => { stop(); show(i + 1); });
   show(0);
 }

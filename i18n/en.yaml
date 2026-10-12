@@ -220,6 +220,8 @@ search:
   filter_class: Class
   filter_wing: Wing
   noscript: Search needs JavaScript. You can still browse the wings from the home page.
+  hint: 'Try, for example:'
+  examples: [Hijra, Badr, Mecca, Aisha, Quran]
 wander:
   title: Wander
   lede: Let the museum choose. Each click takes you to an entry you did not ask for.
@@ -250,6 +252,8 @@ journey:
   companions: Companions
   approx_place: approximate position on the map
   schematic: 'Schematic map: the order of the stations is right; their positions on the drawing are illustrative.'
+  prev: Previous station
+  next: Next station
 graph:
   title: Connections explorer
   lede: 'People, events and places drawn as a constellation: one entry at the centre, what connects to it directly around it, then what connects to those. Click a star to make it the centre.'
@@ -302,6 +306,7 @@ today:
   all_h: All events on this Hijri day
   all_g: All events on this Gregorian day
   wing_note: 'Also in this wing: nations, institutions, data and the people of the present.'
+  random_day: Another random day
 questions:
   title: Questions
   lede: Plain answers for newcomers, with the sources behind them.
@@ -346,6 +351,9 @@ footer:
   contact: Contact
   privacy_policy: Privacy policy
   no_tracking: No tracking, no ads
+  changelog: Change log
+  report: Report an error or suggest a correction
+  discuss: Project discussions
 roles:
   prophet-figure: Prophet
   family-of-the-prophet: Family of the Prophet
@@ -528,6 +536,19 @@ screen:
     release: Release
     withdrawal: Withdrawal
     other: Other
+  approach_values:
+    devotional: devotional
+    historical-drama: historical drama
+    documentary: documentary
+    journalism: journalism
+    educational: educational
+    children: for children
+    drama-of-muslim-life: drama of Muslim life
+    comedy: comedy
+    travel: travel
+    recitation-or-lecture: recitation or lecture
+    critical: critical
+    polemical: polemical
 story:
   title: Place in the story
   others: How others named them
@@ -679,3 +700,5 @@ explore:
     wander:
       title: Wander
       menu: A random page of the museum
+by_values:
+  Islamic tradition: Islamic tradition

@@ -33,7 +33,7 @@ const cards = [
       </section>
     ))}
   </div>
-  {!full && <p class="ui" style="margin:1.1rem 0 0"><button type="button" class="pill-btn" data-shuffle>🎲 {T.today.random}</button></p>}
+  <p class="ui" style="margin:1.1rem 0 0"><button type="button" class="pill-btn" data-shuffle>🎲 {full ? T.today.random_day : T.today.random}</button></p>
   {full && <p class="ui muted" style="margin-top:1rem;font-size:.9rem">{T.today.note}</p>}
   <script type="application/json" set:html={JSON.stringify(payload)} />
 </div>

@@ -220,6 +220,8 @@ search:
   noscript: يحتاج البحث إلى جافاسكربت. يمكنك تصفح الأجنحة من الصفحة الرئيسية.
   filter_class: الصنف
   filter_wing: الجناح
+  hint: 'جرّب مثلًا:'
+  examples: [الهجرة, بدر, مكة, عائشة, القرآن]
 wander:
   title: تجوّل
   lede: دع المتحف يختار لك. كل نقرة تأخذك إلى مادة لم تطلبها.
@@ -250,6 +252,8 @@ journey:
   companions: الرفاق
   approx_place: موضع تقريبي على الخريطة
   schematic: 'خريطة تخطيطية: ترتيب المحطات صحيح ومواضعها على الرسم تقريبية.'
+  prev: المحطة السابقة
+  next: المحطة التالية
 graph:
   title: مستكشف الصلات
   lede: 'علاقات الأشخاص والأحداث والأماكن مرسومةً ككوكبة: في الوسط مادة، وحولها ما يتصل بها مباشرة، ثم ما يتصل بذاك. انقر نجمًا لتجعله مركزًا.'
@@ -302,6 +306,7 @@ today:
   all_h: كل أحداث هذا اليوم الهجري
   all_g: كل أحداث هذا اليوم الميلادي
   wing_note: 'وفي هذا الجناح أيضًا: الأمم والمؤسسات والبيانات وأهل الحاضر.'
+  random_day: يوم آخر عشوائي
 questions:
   title: أسئلة
   lede: إجابات واضحة للقادمين الجدد، مع المصادر التي تقف خلفها.
@@ -346,6 +351,9 @@ footer:
   contact: اتصل بنا
   privacy_policy: سياسة الخصوصية
   no_tracking: بلا تتبع، بلا إعلانات
+  changelog: سجل التحديثات
+  report: أبلغ عن خطأ أو اقترح تصحيحًا
+  discuss: نقاشات المشروع
 roles:
   prophet-figure: نبي
   family-of-the-prophet: من آل النبي
@@ -528,6 +536,19 @@ screen:
     release: عرض
     withdrawal: سحب
     other: أخرى
+  approach_values:
+    devotional: تعبّدي
+    historical-drama: دراما تاريخية
+    documentary: وثائقي
+    journalism: صحافي
+    educational: تعليمي
+    children: للأطفال
+    drama-of-muslim-life: دراما من حياة المسلمين
+    comedy: كوميدي
+    travel: رحلات
+    recitation-or-lecture: تلاوة أو محاضرة
+    critical: نقدي
+    polemical: جدلي
 story:
   title: مكانه في القصة
   others: كيف سمّاه الآخرون
@@ -679,3 +700,15 @@ explore:
     wander:
       title: تجوّل
       menu: صفحة عشوائية من المتحف
+by_values:
+  Islamic tradition: التراث الإسلامي
+  Sunni tradition: التراث السني
+  Muslim tradition: التراث الإسلامي
+  later Muslim tradition: التراث الإسلامي المتأخر
+  the Islamic sources: المصادر الإسلامية
+  the Muslim community: جماعة المسلمين
+  a saying attributed to the Prophet in the tradition: قول يُنسب إلى النبي في التراث
+  the Muslim community, polemically reversing his honorific: جماعة المسلمين، قلبًا للقبه على سبيل الذم
+  usage in the sira tradition, possibly from a striking complexion: استعمال كتب السيرة، وربما لِلونٍ لافت
+  "the Prophet's household and the tradition (her kunya, better known than her given name Baraka)": أهل بيت النبي والتراث (كنيتها، وهي أشهر من اسمها بركة)
+  Islamic tradition, for marrying two daughters of the Prophet in succession: التراث الإسلامي، لزواجه ابنتي النبي واحدةً بعد الأخرى

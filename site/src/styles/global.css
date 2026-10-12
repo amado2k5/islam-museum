@@ -519,3 +519,10 @@ html[lang="ar"] .gx-label { font-family: var(--ar-body); font-size: 14px; }
 html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
 .page-banner::before { opacity: .1; }
 .page-banner > .wrap { position: relative; }
+
+.jp-step { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); color: var(--fg); font-size: 1.2rem; line-height: 1; cursor: pointer; flex: none; }
+.jp-step:hover { border-color: var(--gold); }
+/* search: the clear button only when there is something to clear; a hint while the box is empty */
+.search-wrap[data-empty="1"] .pagefind-ui__search-clear { display: none; }
+.search-hint { margin: 10px 0 0; }
+.search-wrap:not([data-empty="1"]) .search-hint { display: none; }

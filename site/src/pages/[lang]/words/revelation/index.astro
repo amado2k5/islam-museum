@@ -58,7 +58,7 @@ const dateOf = (n: any) => { const d = n.data; return formatDate(d.date?.start ?
                 <span class="ui kicker">{T.class[p.node.class]}{p.aya ? ` · ${r.n}:${p.aya}` : ""} · <span class={p.transmitted ? "rv-tag rv-t" : "rv-tag rv-e"}>{p.transmitted ? R.transmitted : R.estimated}</span></span>
                 <strong>{labelOf(p.node, lang)}</strong>
                 {dateOf(p.node) && <span class="ui muted" style="display:block;font-size:.85rem">{dateOf(p.node)}</span>}
-                {p.note && <span class="muted" style="display:block;font-size:.88rem">{p.note}</span>}
+                {p.note && (lang === "ar" ? /[\u0600-\u06ff]/.test(p.note) : !/[\u0600-\u06ff]/.test(p.note)) && <span class="muted" style="display:block;font-size:.88rem">{p.note}</span>}
               </a>
             ))}
           </div>

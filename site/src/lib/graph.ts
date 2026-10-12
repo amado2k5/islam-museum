@@ -17,7 +17,8 @@ export const related = (id: string): string[] => (derived<Record<string, string[
 // The date of this build (shown in citations); the compiled graph is regenerated on every build.
 export const buildDate = new Date().toISOString().slice(0, 10);
 
-export const labelOf = (n: Pick<Node, "label" | "slug">, lang: Lang) => n.label[lang] ?? n.label.en ?? n.slug;
+// A title in the page language, else the other language (an honest interim), never the slug.
+export const labelOf = (n: Pick<Node, "label" | "slug">, lang: Lang) => n.label[lang] ?? n.label.ar ?? n.label.en ?? "";
 export const summaryOf = (n: Pick<Node, "summary">, lang: Lang) => n.summary[lang] ?? n.summary.en ?? "";
 // URL segment per class: questions and exhibits are plural (docs/plan/03 §5)
 export const SEGMENT: Record<string, string> = { question: "questions", exhibit: "exhibits" };

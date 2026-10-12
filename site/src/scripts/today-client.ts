@@ -45,12 +45,27 @@ function render(root: HTMLElement, p: Payload) {
   fill("h", h.m, h.d);
   fill("g", g.m, g.d);
   const btn = root.querySelector<HTMLButtonElement>("[data-shuffle]");
-  if (btn) btn.addEventListener("click", () => {
+  const fullMode = !!root.querySelector("[data-cal][data-full='1']");
+  if (btn && fullMode) btn.addEventListener("click", () => {
+    // the today page: jump to a random day that has events, in each calendar, and list all of them
+    for (const cal of ["h", "g"] as const) {
+      const list = cal === "h" ? p.h : p.g;
+      const days = [...new Set(list.map((x) => `${x.m}-${x.d}`))].filter((k) => !(cur[cal] ?? "").startsWith(k + "|"));
+      if (!days.length) continue;
+      const [m, d] = days[Math.floor(Math.random() * days.length)].split("-").map(Number);
+      fill(cal, m, d);
+      cur[cal] = `${m}-${d}|${cur[cal]}`;
+    }
+  });
+  if (btn && !fullMode) btn.addEventListener("click", () => {
+    // neither card may show an event that is on screen now (in either card)
+    const onScreen = new Set(Object.values(cur));
     const pick = (cal: "h" | "g") => {
       const list = cal === "h" ? p.h : p.g;
-      if (list.length < 2) return list[0];
-      let x = list[Math.floor(Math.random() * list.length)];
-      while (x.id === cur[cal]) x = list[Math.floor(Math.random() * list.length)];
+      const pool = list.filter((x) => !onScreen.has(x.id));
+      if (!pool.length) return list[0];
+      const x = pool[Math.floor(Math.random() * pool.length)];
+      onScreen.add(x.id);
       return x;
     };
     const a = pick("h"), b = pick("g");

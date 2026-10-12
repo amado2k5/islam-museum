@@ -32,7 +32,17 @@ function render(p: Parts, names: string[], lang: Lang, era: string): string {
   return `${p.approx || p.unknown ? c : ""}${core}${p.uncertain ? "?" : ""}${tail} ${era}`.trim();
 }
 
+/** "0634/0644" (an EDTF interval: some time between two years) → "بين 634 و644 م" / "between 634 and 644 CE". */
+function interval(edtf: string, lang: Lang, era: (y: number) => string): string | undefined {
+  const m = edtf.match(/^(-?\d{4})\/(-?\d{4})$/);
+  if (!m) return undefined;
+  const a = Number(m[1]), b = Number(m[2]);
+  return lang === "ar" ? `بين ${num(a, lang)} و${num(b, lang)} ${era(b)}`.trim() : `between ${a} and ${b} ${era(b)}`.trim();
+}
+
 export function formatCE(edtf: string, lang: Lang): string {
+  const iv = interval(edtf, lang, (y) => (y < 0 ? "" : lang === "ar" ? "م" : "CE"));
+  if (iv) return iv;
   const p = parts(edtf);
   return p ? render(p, GREG[lang], lang, p.y < 0 ? "" : lang === "ar" ? "م" : "CE") : edtf;
 }
@@ -43,6 +53,8 @@ function renderAH(p: Parts, lang: Lang): string {
   return render(q, HIJRI[lang], lang, bh ? (lang === "ar" ? "ق.هـ" : "BH") : (lang === "ar" ? "هـ" : "AH"));
 }
 export function formatAH(hijri: string, lang: Lang): string {
+  const iv = interval(hijri, lang, (y) => (y < 1 ? (lang === "ar" ? "ق.هـ" : "BH") : lang === "ar" ? "هـ" : "AH"));
+  if (iv) return iv;
   const p = parts(hijri);
   return p ? renderAH(p, lang) : hijri;
 }
@@ -95,7 +107,9 @@ export function timelineKey(n: { span?: { earliest: number }; class: string; dat
   // Early entries are dated in the Hijri calendar in the sources (a CE year can be a year off, e.g. 629 for 8 AH), so a Hijri date is the key when there is one.
   let key: number | undefined;
   const hj = hijriParts(s?.hijri);
-  if (hj) {
+  // ...unless the Hijri string is coarser than the CE date (a month or a year against a day): then the CE day is the key
+  const hijriCoarser = hj && typeof s?.hijri === "string" && typeof s?.edtf === "string" && s.hijri.length < s.edtf.replace(/[~?%]/g, "").length;
+  if (hj && !hijriCoarser) {
     const c = hijriToCivil({ y: hj[0], m: hj[1], d: hj[2] });
     key = msToYear(Date.UTC(c.date.y, c.date.m - 1, c.date.d));
   } else key = n.span?.earliest;

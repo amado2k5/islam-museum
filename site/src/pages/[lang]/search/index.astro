@@ -9,7 +9,8 @@ const T = ui(lang);
 <BaseLayout lang={lang} title={T.search.title} path={`/${lang}/search/`} noindex>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
     <h1>{T.search.title}</h1>
-    <div id="search" dir={T.dir}></div>
+    <div class="search-wrap" data-empty="1"><div id="search" dir={T.dir}></div>
+    <p class="search-hint ui muted">{T.search.hint} {T.search.examples.map((q: string, i: number) => <><a href={`/${lang}/search/?q=${encodeURIComponent(q)}`}>{q}</a>{i < T.search.examples.length - 1 ? " · " : ""}</>)}</p></div>
     <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
     <noscript><p class="panel ui">{T.search.noscript}</p></noscript>
     <link rel="stylesheet" href={`/pagefind-${lang}/pagefind-ui.css`} />
@@ -28,6 +29,8 @@ const T = ui(lang);
               if (whole && whole.length) return whole[0];
               return term.split(/\s+/).map(function (w) { return syn.words[norm(w)] || w; }).join(" ");
             } });
+          var wrap = document.querySelector(".search-wrap");
+          document.addEventListener("input", function (e) { if (e.target && e.target.matches("#search input") && wrap) wrap.dataset.empty = e.target.value ? "0" : "1"; });
           var p = new URLSearchParams(location.search).get("q");
           if (p) { var i = document.querySelector("#search input"); if (i) { i.value = p; i.dispatchEvent(new Event("input", { bubbles: true })); } }
         };
