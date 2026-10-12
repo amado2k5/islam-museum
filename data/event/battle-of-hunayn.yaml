@@ -16,6 +16,15 @@ relations:
   - { type: occurred_at, target: place/mecca }
   - { type: occurred_at, target: place/taif }
   - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: rally-crier-and-steadfast, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-al-harith, role: held-the-prophets-rein, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-abi-hadrad, role: scout, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/anas-ibn-abi-marthad, role: night-watch-volunteer, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-shayma-bint-al-harith, role: captive-foster-sister, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/usama-ibn-zayd, role: steadfast-companion, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ayman-ibn-ubayd, role: martyr, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/safwan-ibn-umayya, role: lender-of-a-hundred-mail-coats, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/attab-ibn-usayd, role: left-in-charge-of-mecca, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/conquest-of-mecca }
   - { type: basis_for, target: concept/ariya-madmuna, sources: [source/ibn-hisham-saqqa] }
@@ -27,5 +36,5 @@ sides:
   - label: { en: "Hawazin and Thaqif", ar: "هوازن وثقيف" }
     participants: [group/hawazin, group/thaqif]
     commanders: [person/malik-ibn-awf]
-sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-muslim]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
