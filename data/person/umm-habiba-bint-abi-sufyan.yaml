@@ -29,6 +29,7 @@ relations:
   - { type: spouse_of, target: person/ubaydullah-ibn-jahsh, sources: [source/ibn-hisham-saqqa], note: "ابن إسحاق ص6: خرجت معه إلى الحبشة، ثم تنصّر ومات هناك نصرانياً" }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
   - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/mothers-of-the-believers, sources: [source/tanzil-quran, source/mubarakpuri-raheeq] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 38–39", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
-sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley]
+sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 38–39; restored and merged with pp. 6, 10 by Claude Sonnet 5.5 after a thin overwrite in 84108c2" }

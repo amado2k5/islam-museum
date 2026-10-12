@@ -1,0 +1,40 @@
+id: person/ibrahim-ibn-muhammad
+class: person
+label: { en: "Ibrahim ibn Muhammad", ar: "إبراهيم بن محمد" }
+names:
+- kind: full
+  lang: ar
+  value: إبراهيم بن محمد بن عبد الله
+gender: male
+died: { edtf: "0632-01-27~", hijri: "0010-10-28~", calendar: julian, precision: day, status: tradition, note: "في 28 أو 29 شوال سنة 10هـ وفق 27 يناير 632م (الرحيق المختوم ص 475)" }
+roles: [prophetic-family]
+traditions: [sunni]
+summary:
+  ar: "ابن النبي من مارية القبطية؛ توفي بالمدينة صغيراً في شوال سنة 10هـ، وقال فيه النبي: العين تدمع والقلب يحزن ولا نقول إلا ما يرضي ربنا."
+  en: "The Prophet's son by Maria the Copt; he died an infant in Medina in Shawwal 10 AH (January 632 CE)."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+faith:
+- value: sunni
+  basis: tradition
+  note: ابن النبي؛ توفي رضيعاً، ويُسجَّل ضمن الإطار السني للمتحف.
+relations:
+- type: child_of
+  target: person/muhammad
+  sources: [source/mubarakpuri-raheeq]
+- type: child_of
+  target: person/maria-al-qibtiyya
+  sources: [source/mubarakpuri-raheeq]
+- type: died_in
+  target: place/medina
+  sources: [source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الرحيق المختوم، البيت النبوي، ص 475
+  generated_by: Devin
+  model: SWE-2 High
+  run: raheeq-batch-24
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); mined from al-Raheeq al-Makhtum p. 475" }
