@@ -1,0 +1,28 @@
+id: event/demolition-of-al-uzza-and-idols
+class: event
+kind: raid
+label: { en: "The Demolition of al-Uzza and Major Idols", ar: "هدم العزى ومنائر الأصنام الكبرى" }
+summary:
+  en: "In Ramadan 8 AH immediately following the conquest of Mecca, the Prophet dispatched detachments to obliterate the major pagan sanctuaries of Arabia: Khalid ibn al-Walid destroyed al-Uzza at Nakhla, Amr ibn al-As demolished Suwa' of Hudhayl, and Sa'd ibn Zayd al-Ashhali destroyed Manat at al-Mushallal."
+  ar: "في أواخر رمضان 8هـ إثر فتح مكة، بث النبي سراياه لهدم معاقل الوثنية الكبرى في جزيرة العرب: فهدم خالد بن الوليد العزى بنخلة، وهدم عمرو بن العاص سواعاً لهذيل برهاط، وهدم سعد بن زيد الأشهلي مناة بالمشلل."
+wings: [time, people]
+themes: [creed, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-01~", hijri: "0008-09", calendar: julian, precision: month, status: tradition, note: "رمضان سنة 8هـ لخمس بقين منه (الرحيق ص409–410)." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "قائد سرية هدم العزى بنخلة", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "قائد سرية هدم سواع لهذيل", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: person/sad-ibn-zayd-al-ashhali, role: "قائد سرية هدم مناة بالمشلل", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/conquest-of-mecca }
+sides:
+  - label: { en: "Muslim squad", ar: "سرية المسلمين" }
+    participants: [person/khalid-ibn-al-walid]
+    commanders: [person/khalid-ibn-al-walid]
+  - label: { en: "Pagan shrine custodians", ar: "سدنة الأصنام وسحرتها" }
+    participants: [group/quraysh]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 409–410" }
