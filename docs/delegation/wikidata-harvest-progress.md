@@ -15,3 +15,8 @@ Workspace (outside git): `/Volumes/exmicroSD/islam-museum-harvest/layers/cc0/wik
 - **Dump deletion:** the 103 GB `latest-all.json.bz2` can be deleted now that the tables exist (plan 15 §6.1). Waiting for the founder's go-ahead.
 - **Conflicts and treaties are thin:** q06 and q07 return almost nothing with the participant rule. Plan 15 §6.1 asks for all sides of a conflict; a second query (conflict to location or date, or to Companions' campaigns) is needed.
 - Quarterly refresh and the weekly change job are not scheduled.
+
+## Used so far (maintainer session, 12 Oct 2026)
+- 25 polities (`data/polity/`, commit 8e58b51) and 16 buildings (`data/building/`, commit e7d7a95) were written from the local subset: labels, dates, coordinates, capitals and predecessor links, all `source/wikidata`, every date flagged for a second source, no prose yet (completeness 1). Scripts were scratch and are not in the repo.
+- **The subset lacks many obvious items** because only the Islam-tree seeds and their neighbours were kept: the Mughals, Almoravids, Cairo Mamluks, Cordoba (caliphate and Great Mosque), the Umayyad Mosque, Taj Mahal, Alhambra, Süleymaniye, Ibn Tulun, al-Azhar mosque and most scholars after the first century are absent. A rebuild with seeds extended by these classes (polities, mosques with the most sitelinks, scholars and rulers with a death date before 1900) is needed before the next batches; it is the same two-pass job (about 12 hours).
+- Next: cited Arabic prose for these 41 entities from history and architecture books in the library, and a second source for each date.
