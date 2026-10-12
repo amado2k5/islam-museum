@@ -1,0 +1,54 @@
+id: person/busra-bint-safwan
+class: person
+label:
+  ar: بسرة بنت صفوان
+  en: Busra bint Safwan
+names:
+- kind: full
+  lang: ar
+  value: بسرة بنت صفوان بن نوفل بن أسد بن عبد العزى بن قصي القرشية الأسدية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: قرشية أسدية بنت أخي ورقة بن نوفل، قال الشافعي إن لها سابقة قديمة وهجرة؛ روت عن النبي وروى عنها مروان بن الحكم وعروة وسعيد بن المسيب، ومن مروياتها الحديث في الوضوء من مس الذكر.
+  en: A Qurashi woman of Banu Asad, niece of Waraqa ibn Nawfal; al-Shafi'i said she had an early precedence and an emigration; she narrated from the Prophet and Marwan ibn al-Hakam, Urwa and Sa'id ibn al-Musayyib narrated from her; among her
+    hadith is the one on ablution after touching the private part.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 10984 (ص 1829).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 10984، ص 1829
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1829, entry 10984)

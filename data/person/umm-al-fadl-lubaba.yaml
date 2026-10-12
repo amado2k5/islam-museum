@@ -1,0 +1,69 @@
+id: person/umm-al-fadl-lubaba
+class: person
+label:
+  ar: أم الفضل لبابة بنت الحارث
+  en: Umm al-Fadl Lubaba bint al-Harith
+names:
+- kind: full
+  lang: ar
+  value: لبابة الكبرى بنت الحارث الهلالية، زوج العباس بن عبد المطلب
+- kind: kunya
+  lang: ar
+  value: أم الفضل
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'زوج العباس بن عبد المطلب وأم عبد الله بن عباس، أخت ميمونة أم المؤمنين؛ قال ابن سعد إنها أول امرأة آمنت بعد خديجة، وقال النبي في أخواتها: «الأخوات الأربع مؤمنات»؛ وكان النبي يزورها وهي من المنجبات.'
+  en: The wife of al-Abbas ibn Abd al-Muttalib and mother of Abdullah ibn Abbas, sister of the Mother of the Believers Maymuna; Ibn Sa'd says she was the first woman to believe after Khadija, and the Prophet said of her sisters 'The four sisters
+    are believers'; he used to visit her and she was among the women who bore illustrious children.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12246 (ص 2026).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/abbas-ibn-abd-al-muttalib
+  sources:
+  - source/ibn-hajar-isaba
+- type: parent_of
+  target: person/abdullah-ibn-abbas
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/maymuna-bint-al-harith
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/asma-bint-umays
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12246، ص 2026
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2026, entry 12246)

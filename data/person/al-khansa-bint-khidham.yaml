@@ -1,0 +1,54 @@
+id: person/al-khansa-bint-khidham
+class: person
+label:
+  ar: خنساء بنت خذام
+  en: al-Khansa' bint Khidham
+names:
+- kind: full
+  lang: ar
+  value: خنساء بنت خذام بن خالد الأنصارية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'أنصارية من بني عمرو بن عوف، ثبت حديثها في الموطأ: زوّجها أبوها وهي كارهة فأتت النبي فردّ نكاحها، وتزوجت بعد ذلك أبا لبابة بن عبد المنذر فولدت له السائب.'
+  en: 'An Ansari woman of Banu Amr ibn Awf whose hadith is established in the Muwatta'': her father married her off against her wishes, she went to the Prophet and he annulled the marriage; she later married Abu Lubaba ibn Abd al-Mundhir and
+    bore him al-Sa''ib.'
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11152 (ص 1858).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11152، ص 1858
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1858, entry 11152)
