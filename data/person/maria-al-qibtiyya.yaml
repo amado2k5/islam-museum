@@ -55,6 +55,10 @@ relations:
   target: place/medina
   sources:
   - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/death-of-ibrahim
+  role: mother
+  sources: [source/mubarakpuri-raheeq]
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 11781، ص 1958 (تراجم النساء)
@@ -63,6 +67,7 @@ provenance:
   run: isaba-women-1
 sources:
 - source/ibn-hajar-isaba
+- source/mubarakpuri-raheeq
 status:
   review: draft
   completeness: 2

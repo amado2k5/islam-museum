@@ -1,0 +1,42 @@
+id: person/abdullah-ibn-muhammad
+class: person
+label: { en: "Abdullah ibn Muhammad", ar: "عبد الله بن محمد" }
+names:
+- kind: full
+  lang: ar
+  value: عبد الله بن محمد بن عبد الله
+- kind: laqab
+  lang: ar
+  value: الطيب والطاهر
+gender: male
+roles: [prophetic-family]
+traditions: [sunni]
+summary:
+  ar: "ابن النبي من خديجة بنت خويلد، لُقّب بالطيب والطاهر؛ توفي صغيراً في مكة ولم يعش من أبناء النبي الذكور أحد."
+  en: "The Prophet's son by Khadija, called al-Tayyib and al-Tahir; he died young in Mecca."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+faith:
+- value: sunni
+  basis: tradition
+  note: ابن النبي؛ لم يدرك من العمر ما يُبنى عليه تصنيف مستقل، ويُسجَّل ضمن الإطار السني للمتحف.
+relations:
+- type: child_of
+  target: person/muhammad
+  sources: [source/mubarakpuri-raheeq]
+- type: child_of
+  target: person/khadija
+  sources: [source/mubarakpuri-raheeq]
+- type: died_in
+  target: place/mecca
+  sources: [source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الرحيق المختوم، البيت النبوي، ص 473
+  generated_by: Devin
+  model: SWE-2 High
+  run: raheeq-batch-24
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); mined from al-Raheeq al-Makhtum p. 473" }

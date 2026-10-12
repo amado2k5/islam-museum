@@ -1,0 +1,33 @@
+id: person/hind-ibn-abi-hala
+class: person
+label: { en: "Hind ibn Abi Hala", ar: "هند بن أبي هالة" }
+names:
+- kind: full
+  lang: ar
+  value: هند بن أبي هالة التميمي
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "ابن خديجة بنت خويلد من زوجها أبي هالة؛ ربيب النبي، نقل عنه أوصف النعوت المشهورة لشمائل النبي وحليته ومجلسه."
+  en: "Khadija's son by Abu Hala and the Prophet's stepson; he transmitted the most famous description of the Prophet's bearing and assembly, preserved in the Shamail."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة والشمائل؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/khadija
+  sources: [source/zad-al-maad]
+provenance:
+  layer: own-research
+  source: الرحيق المختوم، الصفات والأخلاق، ص 486
+  generated_by: Devin
+  model: SWE-2 High
+  run: raheeq-batch-24
+sources: [source/mubarakpuri-raheeq, source/jami-al-tirmidhi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); mined from al-Raheeq al-Makhtum p. 486" }

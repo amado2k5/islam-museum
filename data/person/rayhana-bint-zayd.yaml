@@ -40,6 +40,10 @@ relations:
   target: place/medina
   sources:
   - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/muhammad
+  note: اختلف أهل السير؛ رجّح ابن القيم أنها كانت سرية لا زوجة (زاد المعاد). يُسجَّل النزاع لا الحسم.
+  sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 11245، ص 1877
@@ -48,6 +52,8 @@ provenance:
   run: isaba-batch-4
 sources:
 - source/ibn-hajar-isaba
+- source/mubarakpuri-raheeq
+- source/zad-al-maad
 status:
   review: draft
   completeness: 2
