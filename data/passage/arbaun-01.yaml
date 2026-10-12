@@ -1,0 +1,16 @@
+id: passage/arbaun-01
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "1"
+label: { ar: "الأربعون 1 — إنما الأعمال بالنيات", en: "Arba'un 1 — Actions are but by intentions" }
+text: "إنما الأعمال بالنيات، وإنما لكل امرئ ما نوى، فمن كانت هجرته إلى الله ورسوله فهجرته إلى الله ورسوله، ومن كانت هجرته لدنيا يصيبها أو امرأة ينكحها فهجرته إلى ما هاجر إليه"
+summary:
+  ar: "حديث عمر بن الخطاب في النية، وهو الحديث الأول في الأربعين النووية وفي شرح ابن رجب؛ رواه البخاري (1، 54، 2529، 3898، 5070، 6689، 6953) ومسلم (1907) من طريق يحيى بن سعيد الأنصاري عن محمد بن إبراهيم التيمي عن علقمة بن وقاص الليثي عن عمر، وهي الطريق الصحيحة الوحيدة له عند أهل الحديث كما حكاه الخطابي، وروى عن يحيى بن سعيد مئتا راوٍ أو أكثر؛ افتتح به البخاري صحيحه، وشرحه ابن رجب في النية والإخلاص وأحكام الهجرة (جامع العلوم والحكم ص 29–69)."
+  en: "Umar ibn al-Khattab's hadith on intention, the first hadith of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by al-Bukhari (1, 54, 2529, 3898, 5070, 6689, 6953) and Muslim (1907) through Yahya ibn Sa'id al-Ansari from Muhammad ibn Ibrahim al-Taymi from Alqama ibn Waqqas al-Laythi from Umar — the only sound chain according to the hadith scholars as al-Khattabi reports — with over two hundred narrators from Yahya ibn Sa'id; al-Bukhari opened his Sahih with it, and Ibn Rajab comments on intention, sincerity and the rulings of emigration (Jami' al-Ulum wal-Hikam pp. 29–69)."
+relations:
+  - { type: basis_for, target: concept/niyya, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 1 pp. 29–69", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-2" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 29, takhrij from the edition's apparatus" }
