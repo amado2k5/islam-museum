@@ -1,0 +1,16 @@
+id: person/hassan-brother-of-ukaydir
+class: person
+label: { ar: "حسان أخو أكيدر" }
+names:
+  - { kind: full, lang: ar, value: "حسان" }
+gender: male
+summary:
+  ar: "أخو أكيدر، خرج معه ليلة أخذه خالد، فقتلته خيل النبي بحسب ابن إسحاق."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/khalid-expedition-to-ukaydir, role: killed, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 170", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 170" }

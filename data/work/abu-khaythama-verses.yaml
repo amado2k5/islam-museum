@@ -1,0 +1,18 @@
+id: work/abu-khaythama-verses
+class: work
+kind: poem
+label: { ar: "أبيات أبي خيثمة في لحاقه بالنبي", en: "Abu Khaythama's verses on joining the Prophet" }
+summary:
+  ar: "أبيات نسبها ابن هشام إلى أبي خيثمة، واسمه مالك بن قيس، في ما فعله من ترك عريشيه ولحاقه بالنبي، يبيّن فيها أنه بايع النبي ولم يكتسب إثماً. لا ينقل المتحف نص الأبيات."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/abu-khaythama]
+language: language/arabic
+wings: [words]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/abu-khaythama-joins-the-army, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 164", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 164" }

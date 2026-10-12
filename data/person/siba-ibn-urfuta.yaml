@@ -1,0 +1,16 @@
+id: person/siba-ibn-urfuta
+class: person
+label: { ar: "سباع بن عرفطة" }
+names:
+  - { kind: full, lang: ar, value: "سباع بن عرفطة" }
+gender: male
+summary:
+  ar: "ذكر ابن هشام عن الدراوردي عن أبيه أن النبي استعمله على المدينة حين خرج إلى تبوك، مقابل قول ابن هشام إن الذي استعمله محمد بن مسلمة."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/tabuk-departure-and-deputies, role: deputy-per-one-report, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 162", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 162" }
