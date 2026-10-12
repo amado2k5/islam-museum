@@ -18,6 +18,6 @@ Non-negotiables
 - Hard questions are written as tension cards with at least two cited voices and no verdict.
 - Never write, complete or correct Qur'an text: it comes only from the frozen Tanzil files and is referenced by sura:ayah.
 - Harvesting runs on the founder's Mac with local models (docs/plan/15); respect the licence layers: only cc0/by facts or our own cited research enter data/.
-- Commit only when asked; conventional commit messages; small PRs per cell batch (≤ 25 entities).
+- Commit only when asked; conventional commit messages; small PRs per cell batch (≤ 25 entities). Every agent commit ends with trailers `AI-Agent:`, `AI-Model:` (with version if known) and `AI-Editor:` (docs/collaboration.md, "attribution trailers"); the same facts go in each entity's provenance block.
 - Collaboration (docs/collaboration.md): several sessions and Devin work in parallel. Never ignore, discard or revert another session's work; fetch and review what is new on main before starting and before every push, then merge it with yours (duplicates become aliases, nothing is deleted blindly); never `git add -A`; use one git worktree per session; commit explicit paths; run validate and tests after merging.
 - Content quality (docs/content-quality.md): read it before writing any entity. No honorifics typed anywhere, no Qur'an text in prose (link `[[passage/quran-S-A|…]]`), prose only in `content/ar/**/*.md`, top-level `sources`, typed relations (not `related_to`), reuse existing IDs, attribute every judgement. The validator enforces the first three.

@@ -43,6 +43,23 @@ Leave them exactly as they are. If they block you (for example `git pull` refuse
 - Long jobs (downloads, extraction) write to the harvest workspace outside the repository and never block other sessions: use a separate database file per job (for example `wikipedia-ar.duckdb`) so locks do not collide.
 - After merging anything, record in `docs/status.md` what changed and what the next session should know.
 
+## Who made this commit: attribution trailers (mandatory)
+
+Every commit made by an AI agent or model says who made it, in git trailers at the end of the commit message. Git stores them with the commit, so the record travels with history and can be queried (`git log --format='%h %(trailers:key=AI-Model,valueonly)'`).
+
+```
+AI-Agent: <agent or tool: Claude Code, Codex, Devin, Kiro, Antigravity, Gemini CLI ...>
+AI-Model: <model name and exact version if known, e.g. claude-sonnet-5-5, gpt-5.1-codex, gemma4:31b:cloud; "unknown" if you cannot tell>
+AI-Editor: <editor or host the agent ran in: Claude desktop app, VS Code, Cursor, Codex CLI, Kiro IDE, terminal ...>
+```
+
+Rules:
+- All three trailers on every agent commit, after the body and after any `Co-Authored-By` line, separated from the body by a blank line. A human-only commit needs none.
+- Be truthful and specific. Read the model and version from your own system prompt or tool; never guess a version. Write `unknown` rather than inventing one. If a sub-agent or another model did part of the work, add one extra `AI-Model:` line for it.
+- The same facts go into the `provenance` block of every entity you create or change (`generated_by`, `model`, `run`), so the file and the commit agree.
+- Never edit or amend another session's commits to add trailers. If a commit lacks them, say so in `docs/status.md` rather than rewriting history.
+- `.githooks/commit-msg` warns when the trailers are missing. Enable it once per clone or worktree with `git config core.hooksPath .githooks`. It warns and does not block, so a missing trailer never loses work.
+
 ## For Devin specifically
 
 All of the above, plus: stay in the lanes in `docs/delegation/`; read main's changes since your last PR before you start each batch and adapt (the validator, the language rule and the scope rule have all changed since the first prompt: Arabic first, Sunni first, perspectives ordered Sunni then academic then others); when a duplicate of your entity appears, merge it as described instead of deleting one; and when the maintainer or another session has edited a file you created, rebase on it and keep their edits.

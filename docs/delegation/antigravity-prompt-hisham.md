@@ -68,3 +68,9 @@ YOUR BATCHES, IN ORDER (start at 4; Tier A = contested, perspectives block manda
 Overlap warning for batches 4, 6, 11, 18 with the Raheeq lane (Mu'ta, Tabuk, Farewell Pilgrimage, umrat al-qada): the Raheeq agent will reach those events later. If an event already exists on main when you start the batch, extend it; if it does not, create it with the ID from docs/plan/18 (event/battle-of-mutah, event/expedition-to-tabuk, event/farewell-pilgrimage, event/umrah-of-qada) so the other lane finds and reuses it. Run `git pull --rebase origin main` and re-check data/event/ before each batch.
 Branch for commits: content/ibn-hisham-continue; commit prefix: content(ibn-hisham). Progress file: docs/delegation/hisham-progress.md. Stubs file: check `ls data/_stubs.d/` and use the file the earlier ibn-hisham batches used; if none, data/_stubs.d/ibn-hisham.yaml.
 Begin with batch 4: if batches/04-*.claims.md does not exist in the harvest workspace, build it first, then write the files.
+
+ATTRIBUTION (mandatory, docs/collaboration.md "attribution trailers"): end EVERY commit message with these trailers, filled in truthfully (use "unknown" if you cannot tell the version; never guess):
+   AI-Agent: <your agent/tool name>
+   AI-Model: <your model name and exact version>
+   AI-Editor: <the editor/host you run in>
+Also put the same agent/model values in each entity's provenance block.

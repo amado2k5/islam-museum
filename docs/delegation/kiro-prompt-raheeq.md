@@ -68,3 +68,9 @@ YOUR BATCHES, IN ORDER (start at 11):
 Overlap warning for batches 18–21: the other lane (Ibn Hisham, juz' 4) is creating events for the conquest of Mecca, Hunayn and Ta'if, Mu'ta, Tabuk and the delegations (event/conquest-of-mecca, battle-of-hunayn, siege-of-taif, battle-of-mutah, expedition-to-tabuk and children). ALWAYS reuse those IDs, add your book's page as an extra source and extra claims to them, and put new detail as has_part children only where the child does not already exist. Run `git pull --rebase origin main` before starting each of these batches and look at data/event/ again.
 Branch for commits: content/raheeq-kiro; commit prefix: content(raheeq). Progress file: docs/delegation/raheeq-progress.md. Stubs file: data/_stubs.d/raheeq.yaml (check the exact filename already in use first: ls data/_stubs.d/).
 Begin with batch 11a (أحد, first half): first check git log origin/main for any batch 11 commit already pushed, then write the files.
+
+ATTRIBUTION (mandatory, docs/collaboration.md "attribution trailers"): end EVERY commit message with these trailers, filled in truthfully (use "unknown" if you cannot tell the version; never guess):
+   AI-Agent: <your agent/tool name>
+   AI-Model: <your model name and exact version>
+   AI-Editor: <the editor/host you run in>
+Also put the same agent/model values in each entity's provenance block.

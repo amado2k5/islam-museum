@@ -52,3 +52,9 @@ After each push update `docs/delegation/library/<book-id>.md` (create it; keep i
 
 ## 6. Batch report (in the commit body or the progress file)
 Entities created/updated, claims count, classical sources named by the book and whether each has a source entity, doubt markers captured, contested points flagged, passages verified on the image.
+
+ATTRIBUTION (mandatory, docs/collaboration.md "attribution trailers"): end EVERY commit message with these trailers, filled in truthfully (use "unknown" if you cannot tell the version; never guess):
+   AI-Agent: <your agent/tool name>
+   AI-Model: <your model name and exact version>
+   AI-Editor: <the editor/host you run in>
+Also put the same agent/model values in each entity's provenance block.
