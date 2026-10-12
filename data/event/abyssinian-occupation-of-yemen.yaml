@@ -1,0 +1,24 @@
+id: event/abyssinian-occupation-of-yemen
+class: event
+kind: conquest
+label: { en: "The Second Abyssinian Occupation of Yemen", ar: "الاحتلال الحبشي الثاني لليمن" }
+summary:
+  en: "In 525, answering the Najran atrocity, the Roman emperors equipped an Abyssinian fleet which landed seventy thousand under Aryat; Aryat governed until his general Abraha killed him and ruled in his place — the Abraha of the elephant campaign against the Kaaba."
+  ar: "سنة 525م، وكنقمة لما فعله ذو نواس، هيأ أباطرة الروم للأحباش الأسطول فنزل سبعون ألف جندي بقيادة أرباط؛ فظل حاكماً حتى اغتاله أبرهة أحد قواد جيشه وحكم بدله — وهو صاحب حملة الفيل على الكعبة."
+wings: [time, people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0525", calendar: julian, precision: year, status: tradition }
+  end: { edtf: "0575", calendar: julian, precision: year, status: tradition, note: "انتهاء النفوذ الحبشي الفعلي بتحرير سيف ذي يزن." }
+relations:
+  - { type: occurred_at, target: place/yemen }
+  - { type: had_participant, target: person/aryat, role: "قائد الجيش المحتل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abraha, role: "القائد الذي اغتال أرباط وخلفه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: polity/aksumite-kingdom, role: "القوة المحتلة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: polity/byzantine-empire, role: "مزوّد الأسطول والمحرّض", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/year-of-the-elephant-and-birth, note: "أبرهة الذي ملك في هذا الاحتلال هو قائد حملة الفيل.", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/pre-islamic-arabia }
+sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
