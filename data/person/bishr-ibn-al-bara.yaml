@@ -1,0 +1,28 @@
+id: person/bishr-ibn-al-bara
+class: person
+label: { en: "Bishr ibn al-Bara'", ar: "بشر بن البراء" }
+names:
+  - { kind: full, lang: ar, value: "بشر بن البراء بن معرور السلمي الأنصاري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A noble Ansari Companion from Banu Salima of the Khazraj, son of al-Bara' ibn Ma'rur; Badri veteran who was present at the conquest of Khaybar; ate from the poisoned sheep offered by Zaynab bint al-Harith and died of its effects."
+  ar: "صحابي بدري شريف من بني سلمة، ابن النقيب البراء بن معرور؛ شهد العقبة الثانية وبدراً وأحداً والخندق وصلح الحديبية؛ أكل مع النبي من الشاة المسمومة بخيبر فأساغ اللقمة فمات منها شهيداً."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: martyr, start: { edtf: "0628" }, status: tradition, note: "مات مسموماً من شاة خيبر (الرحيق ص377).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد خيبر." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/khazraj }
+  - { type: child_of, target: person/al-bara-ibn-marur }
+  - { type: participated_in, target: event/incident-of-the-poisoned-sheep, role: "الشهيد الذي أكل من الشاة المسمومة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 377" }
