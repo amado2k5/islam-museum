@@ -1,0 +1,14 @@
+id: person/hanzala-ibn-abi-amir
+class: person
+label: { ar: "حنظلة بن أبي عامر الأنصاري الأوسي (غسيل الملائكة)", en: "Hanzala ibn Abi Amir al-Ansari (the one washed by the angels)" }
+summary:
+  ar: "صحابي أنصاري أوسي، ابن أبي عامر الراهب الذي سمّاه النبي الفاسق. كان حديث عهد بعرسه يوم أحد فلما سمع نداء الحرب انخلع من أحضان زوجته وخرج إلى الجهاد دون أن يغتسل. بلغ أبا سفيان وكاد يقضي عليه لولا أن شداد بن الأسود ضربه فقتله. لما تُفقّد وُجد يقطر ماء، فأخبر النبي أصحابه بأن الملائكة تغسله فسُمي «غسيل الملائكة» {cite:mubarakpuri-raheeq p.262}."
+wings: [people]
+gender: male
+traditions: [sunni]
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-uhud, role: "استشهد في أحد" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 262-281" }

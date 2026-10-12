@@ -1,0 +1,21 @@
+id: event/uhud-martyrdom-of-hamza
+class: event
+kind: death
+label: { en: "Martyrdom of Hamza ibn Abd al-Muttalib at Uhud", ar: "استشهاد حمزة بن عبد المطلب في أحد" }
+summary:
+  ar: "كان حمزة بن عبد المطلب يقاتل في عرض الناس كالجمل الأورق يهد الصفوف هداً. أرصده وحشي بن حرب، وهو عبد حبشي لجبير بن مطعم، من وراء شجرة أو حجر. وعد جبير وحشي بالعتق إن هو قتل حمزة ثأراً لعمه طعيمة بن عدي الذي أصيب في بدر. «هززتُ حربتي حتى إذا رضيتُ منها دفعتُها إليه فوقعت في ثنته حتى خرجت من بين رجليه» {cite:mubarakpuri-raheeq p.261}. قضى وحشي وعاد إلى مكة فأُعتق. ثم جاءت هند بنت عتبة فبقرت كبد حمزة فلاكتها فلم تستطع إساغتها {cite:mubarakpuri-raheeq p.276}."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03-23", hijri: "0003-10-07", calendar: julian, precision: day, status: tradition, note: "في أثناء الجولة الأولى من القتال يوم السبت السابع شوال 3هـ {cite:mubarakpuri-raheeq p.261}." }
+relations:
+  - { type: occurred_at, target: place/uhud }
+  - { type: part_of, target: event/battle-of-uhud }
+  - { type: had_participant, target: person/hamza, role: "شهيد؛ استشهد طعناً بالحربة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/wahshi-ibn-harb, role: "قتل حمزة بحربته طمعاً في العتق", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hind-bint-utba, role: "بقرت كبد حمزة بعد المعركة", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 261-262" }

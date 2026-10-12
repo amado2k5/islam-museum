@@ -1,0 +1,20 @@
+id: person/amr-ibn-said-ibn-al-as
+class: person
+label:
+  ar: عمرو بن سعيد بن العاص
+summary:
+  ar: صحابي من بني عبد شمس، هاجر إلى الحبشة وقُتل في أجنادين بالشام.
+gender: male
+relations:
+  - type: member_of
+    target: group/banu-abd-shams
+died:
+  hijri: "0013"
+  precision: year
+  note: "قُتل بأجنادين في خلافة أبي بكر"
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

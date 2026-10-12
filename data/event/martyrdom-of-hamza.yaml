@@ -1,0 +1,20 @@
+id: event/martyrdom-of-hamza
+kind: death
+class: event
+label:
+  ar: "استشهاد حمزة بن عبد المطلب"
+  en: "The Martyrdom of Hamza ibn Abd al-Muttalib"
+summary:
+  ar: "اغتيال حمزة بن عبد المطلب بواسطة وحشي بن حرب الذي رماه بحربة اخترقت أحشاءه."
+  en: "The assassination of Hamza ibn Abd al-Muttalib by Wahshi ibn Harb, who speared him in the abdomen."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.261, p.262 }
+status: { review: draft }
+relations:
+  - { type: part_of, target: event/battle-of-uhud }

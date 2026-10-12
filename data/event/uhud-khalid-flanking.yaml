@@ -1,0 +1,21 @@
+id: event/uhud-khalid-flanking
+class: event
+kind: battle
+label: { en: "Khalid's flanking manoeuvre at Uhud", ar: "حركة الالتفاف التي نفّذها خالد بن الوليد في أحد" }
+summary:
+  ar: "لما خلت ظهور المسلمين من الرماة استدار خالد بن الوليد بسرعة خاطفة حتى وصل إلى مؤخرة الجيش الإسلامي، فأباد عبد الله بن جبير وأصحابه التسعة في الجبل. ثم انقض على المسلمين من خلفهم. سمع المشركون صيحة فرسان خالد فانقلبوا على المسلمين. رفعت امرأة اسمها عمرة بنت علقمة الحارثية لواء المشركين المطروح فالتف حوله المشركون. وقع المسلمون محاصرين بين فرسان خالد من الخلف وجيش قريش المنقلب من الأمام {cite:mubarakpuri-raheeq p.264}."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03-23", hijri: "0003-10-07", calendar: julian, precision: day, status: tradition, note: "بعد مغادرة الرماة موقفهم مباشرة {cite:mubarakpuri-raheeq p.264}." }
+relations:
+  - { type: occurred_at, target: place/uhud }
+  - { type: part_of, target: event/battle-of-uhud }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "نفّذ الالتفاف الحاسم على مؤخرة الجيش الإسلامي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abd-allah-ibn-jubayr, role: "قُتل هو وأصحابه التسعة في الجبل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/amra-bint-alqama, role: "رفعت لواء المشركين الساقط فالتف حوله الجيش من جديد", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 264-265" }

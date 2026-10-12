@@ -1,0 +1,24 @@
+id: person/said-ibn-khalid
+class: person
+label:
+  ar: سعيد بن خالد بن سعيد
+summary:
+  ar: ابن خالد بن سعيد بن العاص، ولد في أرض الحبشة.
+gender: male
+relations:
+  - type: member_of
+    target: group/banu-abd-shams
+  - type: child_of
+    target: person/khalid-ibn-said-ibn-al-as
+  - type: child_of
+    target: person/amina-bint-khalf
+born:
+  hijri: "0005"
+  precision: year
+  note: "ولد بأرض الحبشة"
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

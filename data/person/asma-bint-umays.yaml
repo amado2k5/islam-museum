@@ -1,0 +1,21 @@
+id: person/asma-bint-umays
+class: person
+label:
+  ar: أسماء بنت عميس
+summary:
+  ar: صحابية من الخثعميين، هاجرت إلى الحبشة وكانت زوجة لجعفر بن أبي طالب.
+gender: female
+relations:
+  - type: member_of
+    target: group/khathum
+  - type: spouse_of
+    target: person/jafar-ibn-abi-talib
+  - type: participated_in
+    target: event/return-from-abyssinia
+    role: participant
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

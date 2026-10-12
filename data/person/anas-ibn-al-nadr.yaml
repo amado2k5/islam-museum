@@ -1,0 +1,14 @@
+id: person/anas-ibn-al-nadr
+class: person
+label: { ar: "أنس بن النضر الأنصاري الخزرجي", en: "Anas ibn al-Nadr al-Ansari" }
+summary:
+  ar: "صحابي أنصاري خزرجي، عم أنس بن مالك خادم النبي. فاته القتال في بدر فتمنى شهادة المعركة القادمة. في أحد لما تبدّد المسلمون وقال بعضهم قُتل الرسول، حثّ المتخاذلين على القتال قائلاً: «ما تصنعون بالحياة بعده؟» ثم مضى يقاتل حتى لقي سعد بن معاذ فقال: «واها لريح الجنة يا سعد إني أجده دون أحد» ومضى فقاتل حتى قُتل ووُجد به بضع وثمانون جرحاً ما بين طعنة برمح وضربة بسيف ورمية بسهم، ولم تعرفه أخته إلا ببنانه {cite:mubarakpuri-raheeq p.265}."
+wings: [people]
+gender: male
+traditions: [sunni]
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-uhud, role: "استشهد في أحد بثمانين جرحاً" }
+sources: [source/mubarakpuri-raheeq]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 265-266" }
