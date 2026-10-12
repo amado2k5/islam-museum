@@ -1,0 +1,18 @@
+id: person/hulayl-ibn-hubshiyya
+class: person
+label: { en: "Hulayl ibn Hubshiyya", ar: "هليل بن حبشية" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The Khuzaʾi ruler of Mecca who gave his daughter Hubba in marriage to Qusayy ibn Kilab; on his death the contest between Quraysh and Khuzaʾa over the custody of the Kaaba began."
+  ar: "والي مكة من خزاعة، زوّج ابنته حُبّى لقُصيّ بن كلاب؛ وبموته بدأ النزاع بين قريش وخزاعة على ولاية البيت وأمر مكة."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: ruler_of, target: place/mecca , sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/khuzaa }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

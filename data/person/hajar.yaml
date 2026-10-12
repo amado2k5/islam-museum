@@ -1,0 +1,18 @@
+id: person/hajar
+class: person
+label: { en: "Hajar (Hagar)", ar: "هاجر" }
+gender: female
+roles: []
+faith: [{ value: hanif, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "Wife of Ibrahim and mother of Ismail; tradition tells she was settled by Ibrahim with her infant son in the empty valley of Mecca, where the spring of Zamzam broke forth for them, and Jurhum settled nearby with her permission."
+  ar: "زوج إبراهيم وأم إسماعيل؛ أسكنها إبراهيم مع رضيعها بوادٍ غير ذي زرع عند موضع البيت، فتفجرت لها بئر زمزم، وأذنت لجرهم بالنزول بمكة. وحقّق المنصور فوري أنها كانت حرة ابنة فرعون لا أمة مملوكة كما هو المعروف."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: spouse_of, target: person/ibrahim }
+  - { type: lived_in, target: place/mecca }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/rahma-lil-alamin]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }
