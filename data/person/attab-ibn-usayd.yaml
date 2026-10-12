@@ -1,0 +1,27 @@
+id: person/attab-ibn-usayd
+class: person
+label: { en: "Attab ibn Usayd", ar: "عتّاب بن أسيد" }
+names:
+  - { kind: full, lang: ar, value: "عتّاب بن أسيد بن أبي العيص بن أمية بن عبد شمس" }
+gender: male
+born: { edtf: "0610~", calendar: julian, precision: decade, status: tradition, note: "وُصف بأنه حدث لم يبزغ له شارب حين استُعمل على مكة سنة 8هـ، فقُدّر مولده نحو 610م.", sources: [source/mubarakpuri-raheeq] }
+roles: [emir, companion]
+summary:
+  en: "A young Umayyad Qurashi companion whom the Prophet appointed over Mecca when he marched to Hunayn in Shawwal 8 AH and confirmed as its governor on his return through al-Ji'rana; the Prophet teased his youth, and Attab administered the city and led its pilgrimage in the Prophet's lifetime."
+  ar: "صحابي قرشي أموي شاب؛ استخلفه النبي على مكة حين غادرها إلى حنين في شوال سنة 8هـ، ثم ثبّته عاملاً عليها عند عودته من الجعرانة، وقال فيه: «ما لقوم يستعملون مثل هذا الحدث» فقيل: يا رسول الله إنه يقرأ، فأقرّه، وكان يؤم أهل مكة ويحج بهم في حياة النبي."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: official, toward: place/mecca, start: { edtf: "0630" }, status: tradition, note: "استُخلف على مكة في المسير إلى حنين ثم ثُبّت أميراً عليها بعد الجعرانة (الرحيق ص414، ص422).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0630" }, status: tradition, note: "من أهل مكة ممن أسلم حين الفتح.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/quraysh }
+  - { type: ruler_of, target: place/mecca, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/umrah-of-jirana, role: confirmed-governor-of-mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 414, 422" }

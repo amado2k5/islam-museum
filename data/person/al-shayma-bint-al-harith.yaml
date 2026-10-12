@@ -1,0 +1,21 @@
+id: person/al-shayma-bint-al-harith
+class: person
+label: { en: "al-Shayma bint al-Harith al-Sa'diyya", ar: "الشيماء بنت الحارث السعدية" }
+names:
+  - { kind: full, lang: ar, value: "الشيماء بنت الحارث السعدية" }
+gender: female
+roles: []
+summary:
+  en: "A woman of Banu Sa'd ibn Bakr of Hawazin and foster-sister of the Prophet through nursing; taken among the Hunayn captives, she made herself known to him, he recognized her by a mark and honored her, spread his cloak for her to sit upon, then manumitted her and returned her to her people."
+  ar: "امرأة من بني سعد بن بكر من هوازن، أخت النبي من الرضاعة؛ وقعت في سبي حنين فعرّفت النبي بنفسها، فعرفها بعلامة وأكرمها وبسط لها رداءه وأجلسها عليه، ثم منّ عليها وردّها إلى قومها."
+wings: [people]
+themes: [women, family-marriage-kinship, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, note: "أخته من الرضاعة في بني سعد بن بكر دار حليمة السعدية (الرحيق ص417).", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/hawazin }
+  - { type: participated_in, target: event/battle-of-hunayn, role: captive-then-honored-foster-sister, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 417" }
