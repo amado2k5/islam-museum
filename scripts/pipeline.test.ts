@@ -80,9 +80,9 @@ describe("rules from docs 12-15", () => {
   });
   it("warns when a conflict lists fewer than two sides", () => {
     const i = run(base("event", "zz-test-c", { kind: "battle", sides: [{ label: { en: "A" } }] }));
-    expect(msgs(i, "warn")).toMatch(/both sides/);
+    expect(msgs(i.filter((x) => x.file.includes("zz-test-c")), "warn")).toMatch(/both sides/);
     const ok = run(base("event", "zz-test-d", { kind: "battle", sides: [{ label: { en: "A" } }, { label: { en: "B" } }] }));
-    expect(msgs(ok, "warn")).not.toMatch(/both sides/);
+    expect(msgs(ok.filter((x) => x.file.includes("zz-test-d")), "warn")).not.toMatch(/both sides/);   // only this test's own file: real content may have warnings of its own
   });
   it("requires two cited voices on a tension card", () => {
     const card = (voices: number) => ({ id: "tension/x", kind: "textual", statement: { en: "s" },
