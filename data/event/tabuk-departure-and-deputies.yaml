@@ -1,0 +1,19 @@
+id: event/tabuk-departure-and-deputies
+class: event
+kind: other
+label: { ar: "خروج النبي من المدينة والاستخلاف عليها", en: "The Prophet leaves Medina and appoints a deputy" }
+summary:
+  ar: "ضرب النبي عسكره على ثنية الوداع؛ وقال ابن هشام إنه استعمل على المدينة محمد بن مسلمة الأنصاري، وذكر عن الدراوردي عن أبيه أنه استعمل سباع بن عرفطة."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/thaniyyat-al-wada, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad-ibn-maslama, role: deputy, note: "بحسب ابن هشام", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/siba-ibn-urfuta, role: deputy, note: "بحسب رواية الدراوردي التي ذكرها ابن هشام", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 162", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 162" }

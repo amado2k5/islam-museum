@@ -1,0 +1,18 @@
+id: event/uthman-funds-the-army-of-hardship
+class: event
+kind: other
+label: { ar: "إنفاق عثمان على جيش العسرة", en: "Uthman funds the army of hardship" }
+summary:
+  ar: "حضّ النبي أهل الغنى على النفقة والحملان في سبيل الله فحمل رجال منهم، وأنفق عثمان بن عفان نفقة عظيمة لم ينفق أحد مثلها بحسب ابن إسحاق؛ وأضاف ابن هشام عن «من يثق به» أنها ألف دينار وأن النبي قال: اللهم ارض عن عثمان فإني عنه راض."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: donor, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: caller, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 161", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 161" }

@@ -19,6 +19,9 @@
   - 5c-vii: four poem works (verses of Said ibn al-As, Aban, Khalid's reply, al-Nu'man ibn Adi), text not reproduced.
   - Task A is complete for pp. 3-11 (see doubt markers below).
 
+- Batch 6 (تبوك pp. 159-173, ends with the Abu Ruhm report; Dirar mosque 173-174 and the three 175-181 belong to batch 7), branch `content/ibn-hisham-batch-6`, pushed straight to main in sub-batches:
+  - 6a: 12 places (incl. Ayla, Jarba, Adhruh, Dumat al-Jandal, al-Rabadha), groups Ghifar and Aslam, concepts takhalluf / al-bakkaun / jaysh al-usra, journey, 5 events (mobilisation, al-Jadd, 'do not march in the heat', Uthman's funding, departure and deputies). Forward references go through `data/_stubs.d/ibn-hisham.yaml` and are removed as entities are written.
+
 ## Doubt markers captured so far (pp. 3-11)
 
 - p3 «قال ابن هشام» introduces Ja'far's arrival report (Sufyan ibn Uyayna -> al-Ajlah -> al-Sha'bi).
@@ -31,7 +34,7 @@
 
 ## Next step
 
-Batch 6 (تبوك pp. 159-172) on branch `content/ibn-hisham-batch-6`; Batch 7 (مسجد الضرار والثلاثة pp. 173-181) is not started.
+Continue Batch 6 (6b events, 6c treaties/works/dataset/parent event, 6d persons), then (تبوك pp. 159-172) on branch `content/ibn-hisham-batch-6`; Batch 7 (مسجد الضرار والثلاثة pp. 173-181) is not started.
 
 ## Open items
 
