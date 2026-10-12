@@ -1,0 +1,46 @@
+id: building/dome-of-the-rock
+class: building
+kind: shrine
+label:
+  ar: قبة الصخرة
+  en: Dome of the Rock
+built:
+  edtf: "0691"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+summary:
+  ar: مَقام في القدس، يُؤرَّخ بناؤه سنة 691م.
+wings:
+- place
+- objects
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+coordinates:
+- 31.77806
+- 35.23528
+relations:
+- type: located_in
+  target: place/jerusalem
+  sources:
+  - source/wikidata
+  note: أقرب مكان في المتحف إلى إحداثيات ويكيداتا (دون 10 كم).
+external_ids:
+  wikidata: Q172077
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: building-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; label, coordinates and construction date read from the local Wikidata CC0 subset; no prose yet, the history of the building needs a cited narrative
