@@ -9,7 +9,7 @@
 - Phase B (rendered metadata): `label.en` + `summary.en` filled for all entities that lacked them (139 labels, 328 summaries: people 124, events 52, places 50, groups 30, polities 25, buildings 17, works 9, concepts 7, datasets 5, exhibits 5, journeys 2, object 1, source 1); 59 exhibit room titles+bodies; 13 `perspectives[].summary`; 21 stub `label.en`; `map.note` already bilingual.
 - Phase C prose, in progress. `content/en/` written so far:
   - exhibit/ ×5 (all five trails)
-  - event/ ×50 (through `death-of-umm-kulthum-bint-muhammad`, alphabetical)
+  - event/ ×75 (through `expulsion-of-jurhum`, alphabetical)
 
 ## Next step
 
