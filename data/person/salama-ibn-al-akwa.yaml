@@ -1,0 +1,28 @@
+id: person/salama-ibn-al-akwa
+class: person
+label: { en: "Salama ibn al-Akwa'", ar: "سلمة بن الأكوع" }
+names:
+  - { kind: full, lang: ar, value: "سلمة بن عمرو بن الأكوع الأسلمي" }
+  - { kind: kunya, lang: ar, value: "أبو مسلم" }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  en: "A famed Companion celebrated as the swiftest runner and premier foot-archer among the Muslims; hero of the Expedition of Dhu Qarad where he pursued the raiders on foot and recovered the captured camels; fought valiantly at Khaybar, Hunayn, and the Ridwan Pledge."
+  ar: "صحابي جليل من شجعان العرب وفرسان المشاة المشهورين بسرعة العدو؛ بايع تحت الشجرة ثلاثاً، وبطل معركة ذي قرد حين طارد مغيري غطفان بمفرده عدواً على قدميه حتى استنقذ لقاح النبي، وقال فيه النبي: «خير رجالتنا سلمة بن الأكوع»."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0627~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: commander, toward: group/early-muslims, start: { edtf: "0628" }, status: tradition, note: "فارس ورامي المسلمين في ذي قرد وخيبر (الرحيق ص362–364).", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0627~" }, note: "صحابي من أبطال الرضوان وخيبر." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/aslam }
+  - { type: participated_in, target: event/expedition-of-dhu-qarad, role: "بطل الغزوة المستنقذ للقاح", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+  - { type: participated_in, target: event/battle-of-khaybar, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 362–364, 370" }

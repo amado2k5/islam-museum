@@ -1,27 +1,31 @@
 id: event/battle-of-khaybar
 class: event
-kind: conquest
-label: { en: "The expedition to Khaybar", ar: "غزوة خيبر" }
+kind: siege
+label: { en: "The Conquest of Khaybar", ar: "غزوة خيبر" }
 summary:
-  en: "The Muslims advanced on the oasis of Khaybar, north of Medina, and brought it under their authority."
-  ar: "تقدّم المسلمون إلى واحة خيبر شمال المدينة وأخضعوها لسلطانهم."
-wings: [time, people]
-themes: [skirmishes-raids-expeditions]
+  en: "In Muharram 7 AH (May-June 628 CE), the Prophet marched with 1,400 companions of Hudaybiyya against the formidable Jewish oasis of Khaybar; following fierce assaults and the capture of eight major fortresses (including Na'im, al-Sa'b ibn Mu'adh, al-Zubayr, Ubayy, and al-Qamus), the Jewish leaders surrendered and agreed to cultivate the land for half of its produce."
+  ar: "في المحرم سنة 7هـ (مايو 628م)، سار النبي في ألف وأربعمائة من أصحاب بيعة الرضوان لفتح واحة خيبر المنيعة؛ فحوصرت حصونها الثمانية حصناً حصناً حتى فتحها الله على يدي علي بن أبي طالب بقتله مرحباً، ونزل أهل خيبر على الصلح بحقن دمائهم ومزارعة أرضهم على نصف ما يخرج من ثمر وزرع."
+wings: [time, people, place]
+themes: [battles, wars-and-campaigns]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0628~", hijri: "0007", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0628-05~", hijri: "0007-01", calendar: julian, precision: month, status: tradition, note: "المحرم سنة 7هـ (مايو-يونيو 628م) (الرحيق ص364–379)." }
 relations:
   - { type: occurred_at, target: place/khaybar }
-  - { type: had_participant, target: person/muhammad }
-  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "حامل الراية وفاتح الحصن وقاتل مرحب", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/safiyya-bint-huyayy, role: "ابنة حيي بن أخطب، أُعتقت وتزوجها النبي وصارت أماً للمؤمنين", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/salama-ibn-al-akwa, role: "فارس المشاة، شهد فتح الحصون", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/marhab-al-yahudi, role: "فارس يهود خيبر وقائدهم المقتول في المبارزة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/treaty-of-hudaybiyya }
 sides:
-  - label: { en: "Muslims of Medina", ar: "مسلمو المدينة" }
-    participants: [group/early-muslims]
-    commanders: [person/muhammad]
-  - label: { en: "Jewish communities of Khaybar", ar: "الجماعات اليهودية في خيبر" }
+  - label: { en: "Muslim Army", ar: "جيش المسلمين" }
+    participants: [group/early-muslims, group/muhajirun, group/ansar]
+    commanders: [person/muhammad, person/ali-ibn-abi-talib]
+  - label: { en: "Warriors of Khaybar", ar: "مقاتلة يهود خيبر" }
     participants: [group/jews-of-khaybar]
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+    commanders: [person/marhab-al-yahudi]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 364–379" }
