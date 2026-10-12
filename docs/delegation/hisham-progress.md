@@ -16,6 +16,7 @@
   - 5c-iv: Jumah (12) and Sahm (12) persons incl. Hatib's household, Hasana and Shurahbil, al-Saib, Umayr ibn Ri'ab, Abdullah ibn Hudhafa (Khosrow's envoy).
   - 5c-v: Adi (5), Amir (6), Al-Harith (4) persons incl. al-Nu'man ibn Adi and Salit ibn Amr, event prose for Umar's dismissal of al-Nu'man, Sawda edge, stub person/hawdha-ibn-ali-al-hanafi.
   - 5c-vi: prose for 13 clan groups and 6 allied tribes (member lists with cites), 9 thin Codex group files upgraded, roster-by-clan section in the return event prose.
+  - 5c-vii: four poem works (verses of Said ibn al-As, Aban, Khalid's reply, al-Nu'man ibn Adi), text not reproduced.
   - Task A is complete for pp. 3-11 (see doubt markers below).
 
 ## Doubt markers captured so far (pp. 3-11)
