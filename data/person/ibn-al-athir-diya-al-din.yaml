@@ -1,0 +1,32 @@
+id: person/ibn-al-athir-diya-al-din
+class: person
+label: { ar: "ابن الأثير ضياء الدين", en: "Ibn al-Athir Diya' al-Din" }
+names:
+  - { kind: full, lang: ar, value: "نصر الله بن محمد بن عبد الكريم الشيباني" }
+  - { kind: kunya, lang: ar, value: "أبو الفتح" }
+  - { kind: laqab, lang: ar, value: "ضياء الدين" }
+  - { kind: nisba, lang: ar, value: "الجزري" }
+gender: male
+roles: [writer, scholar]
+traditions: [sunni]
+born: { edtf: "1162", hijri: "0558", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1239", hijri: "0637", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "الأديب والكاتب ضياء الدين أبو الفتح نصر الله بن محمد الجزري الشيباني؛ ثالث أخوة ابن الأثير، صاحب «المثل السائر في أدب الكاتب والشاعر» في علم البيان، عمل بدواوين الأتابكة بالموصل."
+  en: "The man of letters Diya' al-Din Abu al-Fath Nasr Allah ibn Muhammad al-Jazari al-Shaybani, third of the Ibn al-Athir brothers; author of 'al-Mathal al-Sa'ir fi Adab al-Katib wa-l-Sha'ir' on the craft of the pen, and served the Atabeg chanceries of Mosul."
+wings: [people, words]
+themes: [literature, education]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+faith:
+  - { value: sunni, basis: tradition, note: "أديب من بيت علم شافعي بالموصل؛ يُسجَّل ضمن الإطار السني للمتحف." }
+relations:
+  - { type: lived_in, target: place/mosul }
+  - { type: authored, target: work/al-mathal-al-sair, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: sibling_of, target: person/ibn-al-athir-al-jazri, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: sibling_of, target: person/ibn-al-athir-izz-al-din, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 281-284, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص281-284", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

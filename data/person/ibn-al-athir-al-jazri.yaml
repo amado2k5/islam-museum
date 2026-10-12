@@ -1,0 +1,33 @@
+id: person/ibn-al-athir-al-jazri
+class: person
+label: { ar: "ابن الأثير الجزري", en: "Ibn al-Athir al-Jazri" }
+names:
+  - { kind: full, lang: ar, value: "المبارك بن محمد بن عبد الكريم الشيباني" }
+  - { kind: kunya, lang: ar, value: "أبو السعادات" }
+  - { kind: laqab, lang: ar, value: "مجد الدين" }
+  - { kind: nisba, lang: ar, value: "الجزري" }
+gender: male
+roles: [scholar, muhaddith]
+traditions: [sunni]
+born: { edtf: "1149", hijri: "0544", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1210", hijri: "0606", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "المحدث والفقيه مجد الدين أبو السعادات المبارك بن محمد الجزري الشيباني؛ أكبر أخوة ابن الأثير الثلاثة، عمل بدواوين الجزيرة والموصل وأصابه النقرس فأقعده فأنجز أكثر مؤلفاته إملاءً على طلابه، ومن آثاره «النهاية في غريب الحديث والأثر» و«جامع الأصول من أحاديث الرسول»."
+  en: "The hadith scholar and jurist Majd al-Din Abu al-Sa'adat al-Mubarak ibn Muhammad al-Jazari al-Shaybani, the eldest of the three Ibn al-Athir brothers; he served the chanceries of the Jazira and Mosul, and after gout crippled him he produced most of his works by dictation, among them 'al-Nihaya fi Gharib al-Hadith' and 'Jami' al-Usul'."
+wings: [people, words]
+themes: [scripture-and-its-sciences, education]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+faith:
+  - { value: sunni, basis: tradition, note: "محدث شافعي المذهب بحسب مصادر تراجمه؛ يُسجَّل ضمن الإطار السني للمتحف." }
+relations:
+  - { type: lived_in, target: place/mosul }
+  - { type: authored, target: work/al-nihaya-fi-gharib-al-hadith, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: authored, target: work/jami-al-usul, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: sibling_of, target: person/ibn-al-athir-izz-al-din, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { type: sibling_of, target: person/ibn-al-athir-diya-al-din, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 266-269, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص267-269", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

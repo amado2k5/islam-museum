@@ -1,0 +1,29 @@
+id: person/ibn-al-athir-imad-al-din
+class: person
+label: { ar: "ابن الأثير عماد الدين", en: "Ibn al-Athir Imad al-Din" }
+names:
+  - { kind: full, lang: ar, value: "إسماعيل بن أحمد بن سعيد بن عبد الكريم الشيباني" }
+  - { kind: laqab, lang: ar, value: "عماد الدين" }
+  - { kind: nisba, lang: ar, value: "الجزري" }
+gender: male
+roles: [historian, poet]
+traditions: [sunni]
+born: { edtf: "1245~", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1299", hijri: "0699", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "المؤرخ عماد الدين إسماعيل بن أحمد بن سعيد الشيباني الجزري؛ من سلالة ابن الأثير الجزري، صاحب «الباهر في تاريخ دولة الأتابكة بالموصل»، جمع بين الرواية التاريخية والنظم."
+  en: "The historian Imad al-Din Isma'il ibn Ahmad ibn Sa'id al-Jazari al-Shaybani, of the Ibn al-Athir scholarly family; author of 'al-Bahir fi Tarikh Dawlat al-Atabika bi-l-Mawsil', combining historical narrative with verse."
+wings: [people, words]
+themes: [history-writing-and-social-thought, literature]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+faith:
+  - { value: sunni, basis: tradition, note: "من بيت ابن الأثير العلمي بالموصل؛ يُسجَّل ضمن الإطار السني للمتحف." }
+relations:
+  - { type: lived_in, target: place/mosul }
+  - { type: authored, target: work/al-bahir-fi-tarikh-al-atabika, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 273-277, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص273-277", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
