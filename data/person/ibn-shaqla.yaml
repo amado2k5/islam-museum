@@ -1,0 +1,40 @@
+id: person/ibn-shaqla
+class: person
+label:
+  ar: ابن شاقلا
+names:
+- kind: full
+  lang: ar
+  value: إبراهيم بن أحمد بن عمر بن حمدان بن شاقلا
+gender: male
+died:
+  hijri: "0369"
+  status: tradition
+  note: Given by the book (p. 412). A second source is needed.
+  sources:
+  - source/madkhal-ibn-badran-turki
+roles:
+- jurist
+traditions:
+- sunni-hanbali
+summary:
+  ar: فقيه أصولي من الحنابلة، توفي سنة 369هـ، وهكذا يذكره كتاب ابن بدران في بيان الأعلام الذين يُختصرون بأسمائهم.
+wings:
+- people
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- development-of-law-theology-institutions
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-1
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from p. 412 of the book

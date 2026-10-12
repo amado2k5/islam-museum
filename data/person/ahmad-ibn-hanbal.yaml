@@ -1,0 +1,49 @@
+id: person/ahmad-ibn-hanbal
+class: person
+label:
+  ar: أحمد بن حنبل
+names:
+- kind: full
+  lang: ar
+  value: أحمد بن محمد بن حنبل الشيباني
+gender: male
+died:
+  hijri: '0241'
+  status: tradition
+  note: The Ibn Badran book does not state his death year; the date comes from the Musnad source entry. A second source is needed.
+  sources:
+  - source/musnad-ahmad
+roles:
+- scholar
+- teacher
+traditions:
+- sunni-hanbali
+faith:
+- value: sunni-hanbali
+  basis: documented
+  note: Founder of the madhhab named in the book's title; the book's first section records the creed attributed to him.
+  sources:
+  - source/madkhal-ibn-badran-turki
+summary:
+  ar: إمام محدّث، جمع المسند، وصاحب المذهب الحنبلي الذي يقدّم النص والأثر، ولم يؤلّف في الفقه إلا رسالة واحدة في الصلاة، وكتب عنه أصحابه أكثر من ثلاثين سفراً من كلامه وفتواه.
+wings:
+- people
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- sects-and-schools
+- scripture-and-its-sciences
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-1
+sources:
+- source/madkhal-ibn-badran-turki
+- source/musnad-ahmad
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Haiku 5.5; claims from pp. 47, 104, 123-124 of the book; death year is from the Musnad entry and needs a second source

@@ -1,0 +1,42 @@
+id: person/abu-bakr-al-khallal
+class: person
+label:
+  ar: أبو بكر الخلال
+names:
+- kind: full
+  lang: ar
+  value: أحمد بن محمد بن هارون، أبو بكر الخلال
+gender: male
+died:
+  hijri: '0311'
+  status: tradition
+  note: Given by the book (pp. 124, 411), citing Ibn al-Jawzi. A second source is needed.
+  sources:
+  - source/madkhal-ibn-badran-turki
+roles:
+- scholar
+- writer
+traditions:
+- sunni-hanbali
+summary:
+  ar: جمع روايات الإمام أحمد وكتبها بالأسانيد في كتاب «الجامع» الذي يُعدّ أصل المذهب، ومهّد بذلك لتدوين فقه الحنابلة.
+wings:
+- people
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- scripture-and-its-sciences
+- development-of-law-theology-institutions
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-1
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from pp. 124, 411 of the book
