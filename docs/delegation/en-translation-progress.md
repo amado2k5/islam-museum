@@ -10,11 +10,11 @@
 - Phase C prose, in progress. `content/en/` written so far:
   - exhibit/ ×5 (all five trails)
   - event/ ×201 (ALL events done)
-  - person/ ×280 of ~455, alphabetical by slug (through `kaab-ibn-zuhayr`)
+  - person/ ×313 of ~472, alphabetical by slug (through `maysara`)
 
 ## Next step
 
-People: continue `content/en/person/` alphabetically from `kabis…`. Then group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
+People: continue `content/en/person/` alphabetically (comm of ar/en file lists). Then group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
 
 ## Conventions
 
