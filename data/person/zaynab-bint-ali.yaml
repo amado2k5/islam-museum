@@ -5,7 +5,7 @@ names:
   - { kind: full, lang: ar, value: زينب بنت علي بن أبي طالب }
   - { kind: laqab, lang: ar-Latn, value: "Zaynab al-Kubra" }
 gender: female
-born: { edtf: "0626~", calendar: julian, precision: year, status: tradition, note: "Traditionally born in Medina shortly after her brother Husayn; the exact year is not certain.", sources: [source/ibn-sad-tabaqat-bewley] }
+born: { edtf: "0626~", calendar: julian, precision: year, status: tradition, note: "Traditionally born in Medina shortly after her brother Husayn; the exact year is not certain. يذكر الكتاب مولدها قبل خمس سنوات من وفاة جدها وأنها سميت تيمناً بخالتها زينب بنت رسول الله (نساء حول الرسول ص441).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 died: { edtf: "0682~", calendar: julian, precision: year, status: tradition, note: "Reports differ on the year and on whether she died in Damascus, Cairo or Medina; Cairo tradition gives about 682 CE.", sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985] }
 roles: [companion]
 traditions: [sunni, shia-twelver]
@@ -30,5 +30,5 @@ relations:
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: member_of, target: group/banu-hashim }
   - { type: participated_in, target: event/karbala, role: survivor-taken-captive, sources: [source/momen-1985] }
-sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985]
+sources: [source/ibn-sad-tabaqat-bewley, source/momen-1985, source/nisa-hawl-alrasul]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

@@ -14,9 +14,10 @@ died:
   calendar: julian
   precision: year
   status: tradition
-  note: توفيت في أول سنة ثمان من الهجرة (عن عبد الله بن أبي بكر بن حزم، كما في الإصابة).
+  note: توفيت في أول سنة ثمان من الهجرة (عن عبد الله بن أبي بكر بن حزم، كما في الإصابة)؛ ويذكر الكتاب وفاتها سنة ثمان متأثرة بمرض النزف الذي لازمها منذ هجرتها (نساء حول الرسول ص399).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 roles:
 - companion
 traditions:
@@ -53,8 +54,10 @@ relations:
   - source/ibn-hajar-isaba
 - type: spouse_of
   target: person/abu-al-as-ibn-al-rabi
+  note: تزوجها أبو العاص بن الربيع قبل الوحي؛ فدتْه يوم بدر بقلادة أدخلتها بها أمها خديجة عليه، وقدّم لها أخوه كنانة بن الربيع بعيراً يوم خروجها مهاجرة (نساء حول الرسول ص444-446).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 - type: sibling_of
   target: person/fatima
   sources:
@@ -71,6 +74,7 @@ provenance:
   run: isaba-women-1
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2
