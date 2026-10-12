@@ -3,7 +3,7 @@ import { repoPath } from "./paths";
 import { parse } from "yaml";
 import { byId, edgesFrom, href, labelOf, summaryOf, SITE } from "./graph";
 import type { Node } from "../../../scripts/build-graph";
-import type { Lang } from "./i18n";
+import { fmt, type Lang, ui } from "./i18n";
 
 const predicates: Record<string, any> = parse(readFileSync(repoPath("schema", "predicates.yaml"), "utf8"));
 const idPatterns: Record<string, { url: string }> = parse(readFileSync(repoPath("schema", "external-id-patterns.yaml"), "utf8"));
@@ -70,7 +70,7 @@ export function jsonLd(n: Node, lang: Lang, path: string) {
     url: `${SITE}${path}`,
     name: labelOf(n, lang),
     alternateName: Object.entries(n.label).filter(([l]) => l !== lang).map(([, v]) => v),
-    description: summaryOf(n, lang),
+    description: summaryOf(n, lang) || (n.stub ? fmt(ui(lang).entity.stub_desc, { label: labelOf(n, lang) }) : ""),
     inLanguage: lang,
     ...(sameAs.length ? { sameAs } : {}),
     license: "https://creativecommons.org/licenses/by-sa/4.0/",

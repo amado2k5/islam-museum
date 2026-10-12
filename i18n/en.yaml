@@ -23,6 +23,8 @@ nav:
   themes: Themes
 a11y:
   skip: Skip to content
+  menu_open: Menu
+  theme_light: 'Switch to light theme'
   theme: Toggle dark mode
   menu: Main navigation
 landing:
@@ -75,11 +77,14 @@ wings:
     title: Made
     blurb: 'What Muslims make and own today: bookshops, publishers, apps, studios, brands and charities.'
 hall:
-  coming: 'This wing is being built. What is here so far:'
+  coming: 'What is in this wing so far:'
+  coming_time: 'What is in this wing so far, in time order. The visual timeline is still being prepared.'
   empty: Nothing here yet. This wing opens as the collection grows.
   phase: 'Roadmap: the full {wing} hall arrives in a later phase.'
   map_note: A schematic map of the places in this wing (an interactive map with a time slider is planned).
 entity:
+  dagger: '† Hijri date derived by computation from the Gregorian/Julian date; it may differ from the transmitted date by a day or two.'
+  stub_desc: '{label}: an entry that is still being written.'
   breadcrumb: Museum
   at_a_glance: At a glance
   roles: Roles
@@ -89,6 +94,8 @@ entity:
   region: Region
   identifiers: Identifiers
   review: Review
+  complete_help: Help complete it
+  map_credit: 'Map: Natural Earth, public domain · places and route from the graph'
   completeness: Completeness
   in_time: In time
   in_space: In space
@@ -158,6 +165,8 @@ search:
   title: Search
   placeholder: Search the museum
   needs_build: Search is built with the site. Run a full build (npm run build) to enable it locally.
+  filter_class: Class
+  filter_wing: Wing
   noscript: Search needs JavaScript. You can still browse the wings from the home page.
 wander:
   title: Wander
@@ -216,6 +225,8 @@ roles:
   ruler: Ruler
   commander: Commander
   official: Official
+  tribal-leader: Tribal leader
+  notable: Notable
   patron: Patron
   legislator: Legislator
   colonial-administrator: Colonial administrator
@@ -253,6 +264,14 @@ roles:
   martyr: Martyr (as regarded)
   victim: Victim
   witness: Witness
+faith:
+  sunni: Sunni
+  arabian-polytheism: Arabian polytheism
+basis:
+  tradition: transmitted
+  documented: documented
+  debated: debated
+  unknown: unknown
 entrances:
   title: Four ways in
   questions:
@@ -385,3 +404,12 @@ map:
     locality: locality
     approximate: approximate
     schematic: positions schematic
+ids:
+  wikidata: Wikidata
+  viaf: VIAF
+  openiti: OpenITI
+  pleiades: Pleiades
+  geonames: GeoNames
+  archnet: ArchNet
+  unesco: UNESCO
+  getty-tgn: Getty TGN

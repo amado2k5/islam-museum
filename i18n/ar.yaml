@@ -24,7 +24,9 @@ nav:
 a11y:
   skip: تخطَّ إلى المحتوى
   theme: تبديل الوضع الداكن
+  theme_light: تبديل الوضع الفاتح
   menu: التنقل الرئيسي
+  menu_open: القائمة
 landing:
   eyebrow: متحفٌ رقمي · مفتوحٌ للجميع
   title_pre: متحفٌ لـ
@@ -32,7 +34,8 @@ landing:
   title_post: كاملةً.
   lede: من العالم الذي وُلد فيه، عبر أربعة عشر قرنًا من الإيمان والعلم والفن والمدن والرحلات والشعوب، إلى يومنا هذا. كل شخصٍ ومكانٍ وحدثٍ وفكرةٍ وأثرٍ وممارسةٍ موصولٌ بكل ما حوله في الزمان والمكان، لكل
     فضوليٍّ من أي خلفية.
-  soon: القاعات الأولى قيد الإعداد. نفتح أبوابنا قريبًا.
+  soon: المتحف مفتوح، ويتسع مع كل دفعة جديدة من المواد.
+  coverage: 'ما اكتمل وما ينتظر، بالأرقام: صفحة التغطية'
   today_is: اليوم
   wings: تسعة أجنحة
   start: ابدأ بهجرة النبي
@@ -43,7 +46,7 @@ landing:
   - بياناتٌ مفتوحة ونصوصٌ مفتوحة
   - كل معلومةٍ موثّقة بمصدرها
   - كل المذاهب والتقاليد، بإنصاف
-  - العربية والإنجليزية أولًا، ثم لغاتٌ أخرى
+  - العربية أولًا، والإنجليزية قادمة، ثم لغاتٌ أخرى
   - مكتوبٌ للغريب الفضولي أولًا
   entrances: أربعة مداخل
 wings:
@@ -75,12 +78,15 @@ wings:
     title: صُنع
     blurb: 'ما يصنعه المسلمون ويملكونه اليوم: المكتبات ودور النشر والتطبيقات والاستوديوهات والعلامات والجمعيات الخيرية.'
 hall:
-  coming: 'هذا الجناح قيد الإنشاء. هذا ما فيه حتى الآن:'
+  coming: 'هذا ما في هذا الجناح حتى الآن:'
+  coming_time: 'هذا ما في هذا الجناح حتى الآن، مرتّبًا زمنيًا. المخطط البصري للخط الزمني ما زال قيد الإعداد.'
   empty: لا شيء هنا بعد. يُفتح هذا الجناح مع نمو المجموعة.
   phase: 'خارطة الطريق: يصل جناح «{wing}» كاملًا في مرحلة لاحقة.'
   map_note: خريطة تخطيطية لأماكن هذا الجناح (وتُخطَّط خريطة تفاعلية بشريط زمني).
 entity:
   breadcrumb: المتحف
+  dagger: '† تاريخ هجري محسوب آليًا من التاريخ الميلادي؛ قد يختلف عن التاريخ المروي بيوم أو يومين.'
+  stub_desc: '{label}: مدخل في المتحف ما زال قيد الكتابة.'
   at_a_glance: نظرة سريعة
   roles: الأدوار
   disciplines: المجالات
@@ -90,6 +96,8 @@ entity:
   identifiers: المعرّفات
   review: المراجعة
   completeness: الاكتمال
+  complete_help: ساهم في إكماله
+  map_credit: 'الخريطة: Natural Earth، مجال عام · المواقع والمسار من السجل'
   in_time: في الزمان
   in_space: في المكان
   contemporaries: المعاصرون
@@ -159,6 +167,8 @@ search:
   placeholder: ابحث في المتحف
   needs_build: يُبنى البحث مع الموقع. شغّل البناء الكامل (npm run build) لتفعيله محليًا.
   noscript: يحتاج البحث إلى جافاسكربت. يمكنك تصفح الأجنحة من الصفحة الرئيسية.
+  filter_class: الصنف
+  filter_wing: الجناح
 wander:
   title: تجوّل
   lede: دع المتحف يختار لك. كل نقرة تأخذك إلى مادة لم تطلبها.
@@ -216,6 +226,21 @@ roles:
   ruler: حاكم
   commander: قائد
   official: موظف
+  tribal-leader: زعيم قبلي
+  notable: وجيه
+  general: قائد عسكري
+  politician: سياسي
+  caliph: خليفة
+  agent: وكيل
+  diplomat: دبلوماسي
+  astronomer: فلكي
+  vizier: وزير
+  prophet: نبي
+  statesman: رجل دولة
+  guide: دليل
+  wet-nurse: مرضعة
+  monk: راهب
+  envoy: مبعوث
   patron: راعٍ
   legislator: مشرّع
   colonial-administrator: إداري استعماري
@@ -253,6 +278,20 @@ roles:
   martyr: شهيد (عند من يعدّه كذلك)
   victim: ضحية
   witness: شاهد
+faith:
+  sunni: أهل السنة
+  arabian-polytheism: الوثنية العربية
+  christian: مسيحي
+  jewish: يهودي
+  zoroastrian: زرادشتي
+  hanif: حنيف
+  other: أخرى
+  unknown: غير معروف
+basis:
+  tradition: مروي
+  documented: موثّق
+  debated: مختلف فيه
+  unknown: غير معروف
 entrances:
   title: أربعة مداخل
   questions:
@@ -385,3 +424,12 @@ map:
     locality: موضع محلي
     approximate: تقريبي
     schematic: المواقع تخطيطية
+ids:
+  wikidata: ويكي بيانات
+  viaf: VIAF
+  openiti: OpenITI
+  pleiades: Pleiades
+  geonames: GeoNames
+  archnet: ArchNet
+  unesco: اليونسكو
+  getty-tgn: Getty TGN

@@ -35,6 +35,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <script is:inline>
+      document.documentElement.classList.add("js");
       try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
     </script>
     {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
@@ -61,11 +62,12 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
         </a>
         <div style="display:flex;align-items:center;gap:10px" class="ui">
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search}</a>
-          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} style="border:0;cursor:pointer">◐</button>
+          <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">{T.a11y.menu_open}</button>
+          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
           {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)">{T.switch_to}</a>}
         </div>
       </div>
-      <nav aria-label={T.a11y.menu} class="ui" style="margin-top:14px">
+      <nav aria-label={T.a11y.menu} class="ui" style="margin-top:14px" id="site-nav">
         <ul style="display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:0;padding:0;font-size:.95rem">
           {WINGS.map((w) => <li><a href={wingHref(lang, w)} style="color:var(--fg);text-decoration:none">{T.nav[w]}</a></li>)}
           <li style="opacity:.5" aria-hidden="true">·</li>
@@ -89,13 +91,33 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
       </div>
     </footer>
     <script is:inline>
-      document.getElementById("theme")?.addEventListener("click", function () {
-        var el = document.documentElement;
-        var dark = el.getAttribute("data-theme") ? el.getAttribute("data-theme") === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
-        var next = dark ? "light" : "dark";
-        el.setAttribute("data-theme", next);
-        try { localStorage.setItem("theme", next); } catch (e) {}
-      });
+      (function () {
+        // Phone menu: a button opens the full list; Escape closes it and returns focus to the button.
+        var mb = document.getElementById("menu-btn"), nav = document.getElementById("site-nav");
+        if (mb && nav) {
+          var setOpen = function (open, back) {
+            nav.classList.toggle("open", open);
+            mb.setAttribute("aria-expanded", String(open));
+            if (open) { var first = nav.querySelector("a"); if (first) first.focus(); } else if (back) mb.focus();
+          };
+          mb.addEventListener("click", function () { setOpen(!nav.classList.contains("open"), false); });
+          document.addEventListener("keydown", function (e) { if (e.key === "Escape" && nav.classList.contains("open")) setOpen(false, true); });
+        }
+      })();
+      (function () {
+        var el = document.documentElement, b = document.getElementById("theme");
+        if (!b) return;
+        // The accessible name names the action: "switch to light" while the dark theme is showing.
+        var isDark = function () { return el.getAttribute("data-theme") ? el.getAttribute("data-theme") === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+        var sync = function () { b.setAttribute("aria-label", isDark() ? b.dataset.toLight : b.dataset.toDark); };
+        sync();
+        b.addEventListener("click", function () {
+          var next = isDark() ? "light" : "dark";
+          el.setAttribute("data-theme", next);
+          try { localStorage.setItem("theme", next); } catch (e) {}
+          sync();
+        });
+      })();
     </script>
   </body>
 </html>

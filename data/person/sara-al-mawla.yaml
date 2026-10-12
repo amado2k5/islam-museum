@@ -18,7 +18,6 @@ story_roles:
   - { role: victim, status: tradition, note: "أمر النبي بقتلها يوم الفتح لأذاها إياه بمكة، فأُمنت ثم قتلتها خيل بالأبطح زمن عمر.", sources: [source/ibn-hisham-saqqa] }
 relations:
   - { type: member_of, target: group/quraysh, note: "مولاة بني عبد المطلب من قريش.", sources: [source/ibn-hisham-saqqa] }
-  - { type: participated_in, target: event/hatib-letter-to-quraysh, role: letter-carrier, confidence: low, note: "إحدى روايتين لهوية الناقلة.", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 40, 52–53", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 40–53" }

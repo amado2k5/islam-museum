@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && rm -rf ../dist/chunks ../dist/*.mjs && pagefind --site ../dist --glob \"**/*.html\"",
+    "build": "astro build && rm -rf ../dist/chunks ../dist/*.mjs && cp ../dist/sitemap-index.xml ../dist/sitemap.xml && pagefind --site ../dist --glob \"**/*.html\"",
     "preview": "astro preview",
     "check": "astro check"
   },

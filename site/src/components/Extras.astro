@@ -78,7 +78,7 @@ const faithText = (d.faith ?? []) as any[];
     <ul style="margin:0;padding-inline-start:1.2rem;font-size:.92rem">
       {(d.story_roles ?? []).map((r: any) => <li><b>{T.roles[r.role] ?? r.role}</b>{r.toward ? <> {T.story.toward} <a href={href(lang, r.toward)}>{lab(r.toward)}</a></> : null}{range(r.start, r.end) ? <span class="muted"> · {range(r.start, r.end)}</span> : null}{r.status ? <span class="chip" style="margin-inline-start:6px">{T.claim[r.status]}</span> : null}{r.perspective ? <span class="muted"> · {traditionLabel(r.perspective, lang)}</span> : null}</li>)}
     </ul>
-    {faithText.length > 0 && <p class="muted" style="margin:8px 0 0;font-size:.88rem">{faithText.map((f) => `${f.value} (${f.basis})`).join(" · ")}</p>}
+    {faithText.length > 0 && <p class="muted" style="margin:8px 0 0;font-size:.88rem">{faithText.map((f) => `${T.faith[f.value] ?? f.value} (${T.basis[f.basis] ?? f.basis})`).join(" · ")}</p>}
     {d.labelled?.length > 0 && <>
       <h3 style="font-size:.95rem;margin:12px 0 6px">{T.story.others}</h3>
       <ul style="margin:0;padding-inline-start:1.2rem;font-size:.92rem">{d.labelled.map((l: any) => <li lang={lang}>“{l.label[lang] ?? l.label.en}” <span class="muted">— {typeof l.by === "string" && l.by.includes("/") ? lab(l.by) : l.by}</span></li>)}</ul></>}

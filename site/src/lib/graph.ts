@@ -14,7 +14,8 @@ export const realNodes = nodes.filter((n) => !n.stub);
 export const edgesFrom = (id: string): Edge[] => graph.edges.filter((e) => e.from === id);
 export const derived = <T = any>(name: string): T => JSON.parse(readFileSync(repoPath(".cache", "derived", `${name}.json`), "utf8"));
 export const related = (id: string): string[] => (derived<Record<string, string[]>>("related")[id] ?? []);
-export const buildDate = graph.generated.slice(0, 10);
+// The date of this build (shown in citations); the compiled graph is regenerated on every build.
+export const buildDate = new Date().toISOString().slice(0, 10);
 
 export const labelOf = (n: Pick<Node, "label" | "slug">, lang: Lang) => n.label[lang] ?? n.label.en ?? n.slug;
 export const summaryOf = (n: Pick<Node, "summary">, lang: Lang) => n.summary[lang] ?? n.summary.en ?? "";

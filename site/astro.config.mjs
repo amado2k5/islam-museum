@@ -8,6 +8,12 @@ export default defineConfig({
   outDir: "../dist",
   trailingSlash: "always",
   build: { format: "directory" },
+  // Removed duplicate entities: the old URL leads to the surviving entity. GitHub Pages cannot send 301s, so these are
+  // generated pages with a meta refresh and a canonical link.
+  redirects: {
+    "/ar/event/hatib-letter-to-quraysh/": "/ar/work/hatib-letter-to-quraysh/",
+    "/ar/work/amr-ibn-salim-istighatha/": "/ar/event/khuzaa-appeal-to-medina/",
+  },
   i18n: {
     locales: ["ar"],
     defaultLocale: "ar",

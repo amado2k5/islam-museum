@@ -31,9 +31,9 @@ const dateOf = (n: any) => formatDate(n.data.born ?? n.data.date?.start ?? n.dat
         <h2>{T.themes.entries}</h2>
         {[...byClass.entries()].map(([cls, ns]) => (
           <section style="margin-block:1.2rem">
-            <h3 class="ui muted" style="font-size:.9rem;text-transform:uppercase;letter-spacing:.08em">{T.class[cls]}</h3>
+            <h3 class="ui muted kicker" style="font-size:.9rem">{T.class[cls]}</h3>
             <ul class="grid-cards">
-              {ns.map((n) => <li><a class="card" href={href(lang, n.id)}><b>{labelOf(n, lang)}</b>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>)}
+              {ns.map((n) => <li><a class="card" href={href(lang, n.id)}><h4 class="card-title">{labelOf(n, lang)}</h3>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>)}
             </ul>
           </section>
         ))}

@@ -12,19 +12,20 @@ const T = ui(lang);
     <p style="font-size:clamp(1.1rem,2vw,1.35rem);max-width:60ch">{T.landing.lede}</p>
     <p class="ui muted" id="today-line" data-prefix={T.landing.today_is} aria-live="polite" style="margin-bottom:2rem"></p>
     <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{T.landing.soon}</p>
+    <p class="ui" style="margin:0 0 1rem"><a href={`/${lang}/coverage/`}>{T.landing.coverage} <span class="flip" aria-hidden="true">→</span></a></p>
     <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={href(lang, "event/hijra")}>{T.landing.start} <span class="flip" aria-hidden="true">→</span></a> <span class="muted">{T.landing.start_hint}</span></p>
 
     <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted);margin-top:3rem">{T.landing.wings}</h2>
     <ul class="grid-cards" style="margin-bottom:3.5rem">
       {WINGS.map((w) => (
-        <li><a class="card" href={wingHref(lang, w)}><b style={`border-inline-start:4px solid var(--wing-${w});padding-inline-start:10px`}>{T.wings[w].title}</b><span>{T.wings[w].blurb}</span></a></li>
+        <li><a class="card" href={wingHref(lang, w)}><h3 class="card-title" style={`border-inline-start:4px solid var(--wing-${w});padding-inline-start:10px`}>{T.wings[w].title}</h3><span>{T.wings[w].blurb}</span></a></li>
       ))}
     </ul>
 
     <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.entrances.title}</h2>
     <ul class="grid-cards" style="margin-bottom:3.5rem">
       {(["questions", "exhibits", "screen", "themes"] as const).map((k) => (
-        <li><a class="card" href={`/${lang}/${k}/`}><b>{T.entrances[k].title}</b><span>{T.entrances[k].blurb}</span></a></li>
+        <li><a class="card" href={`/${lang}/${k}/`}><h3 class="card-title">{T.entrances[k].title}</h3><span>{T.entrances[k].blurb}</span></a></li>
       ))}
     </ul>
 

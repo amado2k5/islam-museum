@@ -18,7 +18,7 @@ const count = (id: string) => realNodes.filter((n) => n.themes.includes(id)).len
         <h2 class="ui" style="font-size:1.1rem;color:var(--muted);font-weight:500">{f.label[lang]}</h2>
         <ul class="grid-cards">
           {themes.filter((t) => t.family === f.id).map((t) => (
-            <li><a class="card" href={`/${lang}/themes/${t.id}/`}><b>{t.label[lang]}</b><span class="ui">{count(t.id)} {T.themes.open_count}</span></a></li>
+            <li><a class="card" href={`/${lang}/themes/${t.id}/`}><h2 class="card-title">{t.label[lang]}</h2><span class="ui">{count(t.id)} {T.themes.open_count}</span></a></li>
           ))}
         </ul>
       </section>

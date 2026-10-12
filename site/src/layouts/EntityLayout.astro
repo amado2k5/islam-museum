@@ -87,7 +87,7 @@ const citeText = fmt(T.entity.cite_text, { title, url: `${SITE}${path}`, date: b
 const relatedIds = related(n.id).filter((r) => byId.has(r));
 const reviewStatus = d.status?.review ?? "draft";
 ---
-<BaseLayout lang={lang} title={title} description={summaryOf(n, lang)} path={path} jsonld={jsonLd(n, lang, path)} alternates={alternates} ogType={n.class === "person" ? "profile" : "article"}>
+<BaseLayout lang={lang} title={title} description={summaryOf(n, lang) || fmt(T.entity.stub_desc, { label: labelOf(n, lang) })} path={path} jsonld={jsonLd(n, lang, path)} alternates={alternates} ogType={n.class === "person" ? "profile" : "article"}>
   <article id="entity-article" class="wrap" data-depth="standard" data-pagefind-body style="padding-block:10px 20px">
     <nav class="ui muted no-print" aria-label={T.entity.breadcrumb} style="font-size:.88rem;margin-bottom:14px">
       <a href={`/${lang}/`} style="color:inherit">{T.entity.breadcrumb}</a>
@@ -100,6 +100,7 @@ const reviewStatus = d.status?.review ?? "draft";
         {second && <p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.6rem,4vw,2.4rem);margin:0 0 4px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:var(--muted)`} data-pagefind-meta="alt">{second}</p>}
         <h1 data-pagefind-meta="title">{title}</h1>
         {dateLine.text && <p class="ui" style="margin:0 0 6px">{dateLine.text}{dateLine.derived && <span class="muted" title={T.entity.derived}> †</span>}</p>}
+        {dateLine.derived && <p class="muted ui" style="margin:0 0 6px;font-size:.85rem">{T.entity.dagger}</p>}
         {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}
         <p style="font-size:1.2rem;max-width:var(--measure)" data-pagefind-meta="summary">{summaryOf(n, lang) || ""}</p>
       </div>
@@ -118,13 +119,13 @@ const reviewStatus = d.status?.review ?? "draft";
           <section class="panel ui" aria-labelledby="glance">
             <h2 id="glance" style="font-size:1rem;margin:0 0 10px">{T.entity.at_a_glance}</h2>
             <dl style="margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.92rem">
-              {d.roles?.length > 0 && <><dt class="muted">{T.entity.roles}</dt><dd style="margin:0">{d.roles.join(" · ")}</dd></>}
+              {d.roles?.length > 0 && <><dt class="muted">{T.entity.roles}</dt><dd style="margin:0">{d.roles.map((r: string) => T.roles[r] ?? r).join(" · ")}</dd></>}
               {d.traditions?.length > 0 && <><dt class="muted">{T.entity.tradition}</dt><dd style="margin:0">{d.traditions.map((x: string) => traditionLabel(x, lang)).join(" · ")}</dd></>}
               {n.periods.length > 0 && <><dt class="muted">{T.entity.era}</dt><dd style="margin:0">{n.periods.map((p) => <a href={href(lang, p)}>{labelOf(byId.get(p)!, lang)}</a>).reduce((a: any[], c, i) => (i ? [...a, " · ", c] : [c]), [])}</dd></>}
               {n.regions.length > 0 && <><dt class="muted">{T.entity.region}</dt><dd style="margin:0">{n.regions.map((r) => regionLabel(r, lang)).join(" · ")}</dd></>}
-              {Object.keys(d.external_ids ?? {}).length > 0 && <><dt class="muted">{T.entity.identifiers}</dt><dd style="margin:0" class="ltr" dir="ltr">{(Object.entries(d.external_ids) as [string, string][]).map(([k, v]) => <a href={externalUrl(k, v)} rel="noopener" style="margin-inline-end:10px">{k}:{v}</a>)}</dd></>}
+              {Object.keys(d.external_ids ?? {}).length > 0 && <><dt class="muted">{T.entity.identifiers}</dt><dd style="margin:0">{(Object.entries(d.external_ids) as [string, string][]).filter(([k, v]) => externalUrl(k, v)).map(([k, v]) => <a href={externalUrl(k, v)} rel="noopener" style="margin-inline-end:10px">{T.ids[k] ?? k}</a>)}</dd></>}
               <dt class="muted">{T.entity.review}</dt>
-              <dd style="margin:0"><span class="chip">{T.status[reviewStatus]}</span> {d.status?.completeness !== undefined && <span class="muted">{T.entity.completeness} {d.status.completeness}/5</span>}</dd>
+              <dd style="margin:0"><span class="chip">{T.status[reviewStatus]}</span> {d.status?.completeness !== undefined && <span class="status-note">{T.entity.completeness} {d.status.completeness}/5 · <a href={`${REPO}/issues/new?template=suggest-entity.yml&title=${encodeURIComponent(`Complete: ${n.id}`)}`}>{T.entity.complete_help}</a></span>}</dd>
             </dl>
             {d.sensitivity === "figurative-prophet" && <p class="muted" style="font-size:.85rem;margin:10px 0 0">{T.entity.figurative}</p>}
           </section>
@@ -138,6 +139,7 @@ const reviewStatus = d.status?.review ?? "draft";
               {places.some((p) => p.coordinates) && <>
                 <h2 style="font-size:1rem;margin:14px 0 8px">{T.entity.in_space}</h2>
                 <MiniMap places={places} lang={lang} />
+                <p class="muted ui" style="font-size:.78rem;margin:6px 0 0">{T.entity.map_credit}</p>
               </>}
             </section>
           )}
@@ -239,8 +241,8 @@ const reviewStatus = d.status?.review ?? "draft";
     </section>
 
     {altNames.length > 0 && <div hidden aria-hidden="true">{altNames.join(" ")}</div>}
-    <span hidden data-pagefind-filter={`class:${n.class}`}></span>
-    {n.wings.map((w) => <span hidden data-pagefind-filter={`wing:${w}`}></span>)}
+    <span hidden data-pagefind-filter={`${T.search.filter_class}:${T.class[n.class] ?? n.class}`}></span>
+    {n.wings.map((w) => <span hidden data-pagefind-filter={`${T.search.filter_wing}:${T.nav[w] ?? w}`}></span>)}
   </article>
 </BaseLayout>
 

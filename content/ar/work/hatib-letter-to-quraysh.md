@@ -1,5 +1,5 @@
 ---
-id: event/hatib-letter-to-quraysh
+id: work/hatib-letter-to-quraysh
 lang: ar
 source_lang: ar
 translators: []

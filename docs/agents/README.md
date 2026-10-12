@@ -10,6 +10,7 @@ These documents apply to every agent, whichever vendor, product or model it is, 
 | [`mining-sources.md`](mining-sources.md) and [`categories/`](categories/) | You turn a book, a dictionary or a text collection into entities. |
 | [`lanes.md`](lanes.md) and [`lanes/`](lanes/) | You are assigned a lane, or you start a new one; the registry of who works on what. |
 | [`../status.md`](../status.md) | You need the live state of the project and the harvest. |
+| [`../site/README.md`](../site/README.md) | You change the site (`site/`), the UI strings, a date or timeline, a map, or a build check. |
 
 Why one set of files: earlier instructions lived in `CLAUDE.md`, `AGENTS.md`, `docs/collaboration.md`, `docs/content-quality.md` and a prompt per vendor (Devin, Kiro, Antigravity, Codex). They drifted apart and agents repeated each other's mistakes. Now the rules live here once; vendor files (`CLAUDE.md`, `GEMINI.md`, `.kiro/steering/`, `.github/copilot-instructions.md`, `.cursor/rules/`) are one-line pointers.
 

@@ -13,7 +13,7 @@ const items = realNodes.filter((n) => n.class === "question");
     <h1>{T.questions.title}</h1>
     <p style="font-size:1.2rem;max-width:var(--measure)">{T.questions.lede}</p>
     {items.length === 0 ? <p class="panel ui">{T.questions.empty}</p> : (
-      <ul class="grid-cards">{items.map((n) => <li><a class="card" href={href(lang, n.id)}><b>{labelOf(n, lang)}</b><span>{summaryOf(n, lang)}</span></a></li>)}</ul>
+      <ul class="grid-cards">{items.map((n) => <li><a class="card" href={href(lang, n.id)}><h2 class="card-title">{labelOf(n, lang)}</h2><span>{summaryOf(n, lang)}</span></a></li>)}</ul>
     )}
   </div>
 </BaseLayout>

@@ -3,7 +3,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import MiniMap from "../../../components/MiniMap.astro";
 import { ui, LANGS, WINGS, WING_PATH, fmt, type Lang, type Wing } from "../../../lib/i18n";
 import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
-import { formatDate } from "../../../lib/dates";
+import { formatDate, timelineKey } from "../../../lib/dates";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => WINGS.map((w) => ({ params: { lang, hall: WING_PATH[w] }, props: { lang, wing: w } })));
@@ -11,7 +11,15 @@ export function getStaticPaths() {
 const { lang, wing } = Astro.props as { lang: Lang; wing: Wing };
 const T = ui(lang);
 const items = realNodes.filter((n) => n.wings.includes(wing));
-if (wing === "time") items.sort((a, b) => (a.span?.earliest ?? 1e9) - (b.span?.earliest ?? 1e9));
+if (wing === "time") {
+  // Chronological by start date (see timelineKey); the build fails if the rendered sequence is not non-decreasing.
+  const keyed = items.map((n) => ({ n, ...timelineKey(n) })).sort((a, b) => (a.key === b.key ? a.ord - b.ord : a.key < b.key ? -1 : 1));
+  for (let i = 1; i < keyed.length; i++) {
+    if (keyed[i].key < keyed[i - 1].key) throw new Error(`time wing out of order: ${keyed[i - 1].n.id} before ${keyed[i].n.id}`);
+  }
+  // Undated entries (datasets, buildings) sort last: Infinity keys are non-decreasing.
+  items.splice(0, items.length, ...keyed.map((k) => k.n));
+}
 const dateOf = (n: any) => {
   const d = n.data;
   return formatDate(d.born ?? d.date?.start ?? d.start, lang).text;
@@ -23,7 +31,8 @@ const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinate
     <p class="eyebrow">{T.entity.breadcrumb}</p>
     <h1 style={`border-inline-start:6px solid var(--wing-${wing});padding-inline-start:16px`}>{T.wings[wing].title}</h1>
     <p style="font-size:1.2rem;max-width:var(--measure)">{T.wings[wing].blurb}</p>
-    <p class="muted ui">{items.length ? T.hall.coming : T.hall.empty} <span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span></p>
+    <p class="muted ui">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty} <span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span></p>
+    {wing === "time" && <p class="muted ui" style="font-size:.9rem">{T.entity.dagger}</p>}
 
     {wing === "place" && placesWithCoords.length > 0 && (
       <figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure>
@@ -31,7 +40,7 @@ const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinate
 
     <ul class="grid-cards" style="margin-top:1.5rem">
       {items.map((n) => (
-        <li><a class="card" href={href(lang, n.id)}><span class="ui" style="font-size:.78rem;text-transform:uppercase;letter-spacing:.08em">{T.class[n.class]}</span><b>{labelOf(n, lang)}</b>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>
+        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>
       ))}
     </ul>
 

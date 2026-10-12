@@ -331,6 +331,38 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     }
   }
 
+  // Content lint (build-time): no replacement characters, no placeholder digits in dates, no garbled era marks.
+  // "062X" (an EDTF decade) is a legitimate unspecified digit; an X after a hyphen (a month or day) is a placeholder.
+  const PLACEHOLDER_DATE = /-\d*X/;
+  for (const { entity, file } of loaded) {
+    for (const [path, s] of textFields(entity)) {
+      if (s.includes("\uFFFD")) err(file, `${path}: contains U+FFFD (replacement character): the text was corrupted`);
+      if (s.includes("ق.م هـ")) err(file, `${path}: "ق.م هـ" is garbled; the BCE Hijri form is "ق.هـ"`);
+    }
+    for (const [path, d] of walkDates(entity)) {
+      for (const v of [d.edtf, d.hijri]) if (typeof v === "string" && PLACEHOLDER_DATE.test(v)) err(file, `${path}: date "${v}" has a placeholder digit; use the intended date or an approximation (~)`);
+    }
+  }
+  for (const pr of prose) {
+    if (pr.body.includes("\uFFFD")) err(pr.file, "prose contains U+FFFD (replacement character)");
+    if (pr.body.includes("ق.م هـ")) err(pr.file, `prose contains "ق.م هـ"; the BCE Hijri form is "ق.هـ"`);
+  }
+
+  // Near-duplicate titles across entity types: the same label under two ids is usually one thing entered twice (docs: merge, keep the other id as an alias).
+  const titleKey = (s: string) => s.normalize("NFKD").replace(/[\u064B-\u065F\u0670\u0640]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي")
+    .toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  const byTitle = new Map<string, { id: string; cls: string; file: string }[]>();
+  for (const { entity, file } of loaded) {
+    const t = entity.label?.ar ? titleKey(entity.label.ar) : "";
+    if (!t) continue;
+    byTitle.set(t, [...(byTitle.get(t) ?? []), { id: entity.id, cls: entity.class, file }]);
+  }
+  for (const [t, group] of byTitle) {
+    const classes = new Set(group.map((g) => g.cls));
+    // A place and an event can share a name (the pool and the proclamation at it), so this is a review warning, not a failure.
+    if (group.length > 1 && classes.size > 1) warn(group[0].file, `title "${t}" is used by ${group.map((g) => g.id).join(", ")}: if it is one thing, merge it (keep one id, list the other under aliases)`);
+  }
+
   return { issues, entityCount: loaded.length, proseCount: prose.length };
 }
 
