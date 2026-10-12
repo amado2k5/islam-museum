@@ -1,0 +1,18 @@
+id: event/abu-dharr-lags-behind-on-the-march
+class: event
+kind: other
+label: { ar: "تخلف أبي ذر ولحاقه ماشياً", en: "Abu Dharr lags behind and follows on foot" }
+summary:
+  ar: "جعل يتخلف عن النبي الرجل بعد الرجل، فيقول دعوه، فإن يكن فيه خير فسيلحقه الله بكم؛ حتى قيل تخلف أبو ذر وأبطأ به بعيره، فأخذ متاعه على ظهره وخرج يتبع أثر النبي ماشياً، فلما رآه ناظر قال النبي: كن أبا ذر. فلما تأملوه كان هو، فدعا له النبي وقال إنه يمشي وحده ويموت وحده ويبعث وحده."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/tabuk, note: "في الطريق إلى تبوك", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-dharr-al-ghifari, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 167", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 167" }

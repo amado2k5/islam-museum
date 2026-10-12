@@ -1,0 +1,28 @@
+id: event/ali-left-with-the-prophets-family
+class: event
+kind: other
+label: { ar: "استخلاف علي على أهل النبي وقول النبي له", en: "Ali is left in charge of the Prophet's family" }
+summary:
+  ar: "خلّف النبي علياً على أهله وأمره بالإقامة فيهم، فأرجف به المنافقون أنه استثقله، فأخذ علي سلاحه ولحق بالنبي بالجرف؛ فقال له النبي إنه خلّفه لما تركه وراءه، وسأله: أفلا ترضى أن تكون مني بمنزلة هارون من موسى إلا أنه لا نبي بعدي؟ فرجع علي إلى المدينة."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-jurf, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/ibn-hisham-saqqa] }
+perspectives:
+  - tradition: sunni
+    summary: { ar: "يرويها ابن إسحاق جواباً على إرجاف المنافقين بأن النبي استثقل علياً، ولذا يقرأ الشرّاح السنة عادةً القول بوصفه استخلافاً لعلي على الأهل مدة الغزوة تشبيهاً باستخلاف هارون لموسى حين غاب، لا إعلان خلافة بعد النبي؛ يحتاج هذا التلخيص إلى شاهد ثانٍ من شروح الحديث (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    summary: { ar: "يلاحظ الباحثون أن الخبر مروي في المصادر السنية والشيعية معاً وأن الخلاف في دلالته لا في وقوعه؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: shia-twelver
+    summary: { ar: "يرى الإمامية في عبارة «بمنزلة هارون من موسى» دليلاً على أن لعلي منزلة هارون من موسى في الخلافة بعد النبي؛ تلخيص يحتاج إلى مصدر شيعي محدد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 163", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 163" }
