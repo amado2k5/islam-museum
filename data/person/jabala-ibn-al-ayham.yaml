@@ -1,0 +1,21 @@
+id: person/jabala-ibn-al-ayham
+class: person
+label: { en: "Jabala ibn al-Ayham", ar: "جبلة بن الأيهم" }
+gender: male
+roles: []
+faith: [{ value: christian, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The last Ghassanid king: after the Yarmuk defeat his dynasty’s role as Rome’s Arab wardens ended, and he entered Islam in the caliphate of Umar, later leaving it for Byzantine territory."
+  ar: "آخر ملوك الغساسنة: بعد وقعة اليرموك انتهى دور بيته وكلاءً للروم على عرب الشام، وأسلم في عهد عمر بن الخطاب ثم خرج عنه لاحقاً إلى بلاد الروم."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: ruler, toward: group/ghassan, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, status: tradition, note: "انقاد للإسلام في عهد عمر ثم ارتد في روايات لاحقة — يُسجَّل هنا ما عند المباركفوري.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/ghassan }
+  - { type: ruler_of, target: polity/ghassanid-kingdom, end: { edtf: "0636" }, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

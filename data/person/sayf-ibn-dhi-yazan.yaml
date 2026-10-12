@@ -1,0 +1,19 @@
+id: person/sayf-ibn-dhi-yazan
+class: person
+label: { en: "Sayf ibn Dhi Yazan (Maʾdikarib)", ar: "سيف بن ذي يزن (معد يكرب)" }
+gender: male
+roles: []
+faith: [{ value: unknown, basis: debated, note: "حميري في بيت ملك تهوّد بعضه؛ لا نص محرر على دينه عند المباركفوري.", sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The Himyarite noble who led Yemen’s liberation from Abyssinian rule with Persian help in 575 CE and was made king; his assassination by his own Abyssinian bodyguard ended the royal house of Dhu Yazan and opened direct Persian rule."
+  ar: "النبيل الحميري الذي قاد تحرير اليمن من الأحباش باستنجاد الفرس سنة 575م واتُّخذ ملكاً؛ اغتاله من استبقاه من الحبشة في ركابه، فانقطع بموته الملك عن بيت ذي يزن وصار اليمن ولاية فارسية."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: ruler_of, target: place/yemen, start: { edtf: "0575" }, end: { edtf: "0578~" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/himyar }
+  - { type: participated_in, target: event/persian-rule-of-yemen, role: "قائد التحرير وملك الاستقلال القصير", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

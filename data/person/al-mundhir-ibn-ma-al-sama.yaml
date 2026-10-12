@@ -1,0 +1,18 @@
+id: person/al-mundhir-ibn-ma-al-sama
+class: person
+label: { en: "al-Mundhir ibn Maʾ al-Samaʾ", ar: "المنذر بن ماء السماء" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The Lakhmid king deposed by Qubadh for refusing the Mazdakite creed, replaced by al-Harith ibn Amr al-Kindi, then restored by Khosrow Anushirwan who destroyed Mazdak and his followers."
+  ar: "ملك الحيرة الذي عزله قباذ لأبيّه اختيار المذهب المزدكي فولّى بدله الحارث بن عمرو الكندي، ثم أعاده كسرى أنوشروان بعد أن قتل مزدك وكثيراً ممن دان بمذهبه."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: ruler_of, target: place/al-hira, sources: [source/mubarakpuri-raheeq, source/al-aalam] }
+  - { type: member_of, target: group/banu-lakhm }
+sources: [source/mubarakpuri-raheeq, source/al-aalam]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

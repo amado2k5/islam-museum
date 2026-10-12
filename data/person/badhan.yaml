@@ -1,0 +1,20 @@
+id: person/badhan
+class: person
+label: { en: "Badhan (last Persian governor of Yemen)", ar: "باذان" }
+gender: male
+roles: []
+faith: [{ value: sunni, basis: tradition, note: "أسلم سنة 638م في الرواية.", sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The last Persian governor (marzban) of Sanaa; his conversion to Islam in 638 CE ended Persian rule over Yemen."
+  ar: "آخر العمال الفرس على صنعاء؛ أسلم سنة 638م فانتهى بإسلامه نفوذ فارس على بلاد اليمن."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "أسلم سنة 638م (17هـ تقريباً).", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: ruler_of, target: place/yemen, end: { edtf: "0638" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/persian-rule-of-yemen, role: "آخر ولاة فارس الذي أنهى العهد بإسلامه", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

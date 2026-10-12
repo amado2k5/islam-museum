@@ -1,0 +1,16 @@
+id: polity/lakhmid-kingdom
+class: polity
+kind: kingdom
+label: { en: "The Lakhmid Kingdom of al-Hira", ar: "مملكة الحيرة (المناذرة)" }
+summary:
+  en: "The Arab client kingdom at al-Hira on Persia’s border: from Amr ibn Adi under Shapur until the last Lakhmid al-Mundhir (al-Maʾrur) in 632, serving the Sasanians as a buffer against Arab raiders and Rome’s own Arab clients."
+  ar: "المملكة العربية التابعة للفرس في الحيرة على تخوم ملكهم: من عمرو بن عدي في عهد سابور حتى آخرهم المنذر الملقب بالمعرور سنة 632م؛ كانت سداً للفرس أمام إغارات البادية وموازناً لعرب الشام أعوان الروم."
+wings: [time, place]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+start: { edtf: "0268~", calendar: julian, precision: year, status: tradition }
+end: { edtf: "0632", calendar: julian, precision: year, status: tradition }
+capitals: [{ place: place/al-hira }]
+regions: [levant-iraq]
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
