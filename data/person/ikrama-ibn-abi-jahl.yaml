@@ -1,0 +1,31 @@
+id: person/ikrama-ibn-abi-jahl
+class: person
+label: { en: "Ikrama ibn Abi Jahl", ar: "عكرمة بن أبي جهل" }
+names:
+  - { kind: full, lang: ar, value: "عكرمة بن أبي جهل عمرو بن هشام المخزومي" }
+  - { kind: kunya, lang: ar, value: "أبو عثمان" }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  en: "Son of Abu Jahl and fierce opponent of early Islam; fought against Muslims until the Conquest of Mecca where he fled to Yemen; brought back by his wife Umm Hakim, he embraced Islam with profound repentance, served as a brave general in the Ridda Wars, and was martyred heroically at the Battle of Yarmuk."
+  ar: "فارس قريش وابن ألد أعداء الإسلام؛ حارب المسلمين في أحد والخندق ويوم الفتح، ثم فر إلى اليمن، فاستأمنت له زوجه أم حكيم فردته وأسلم وحسن إسلامه؛ صار من كبار قواد حروب الردة وفتوح الشام واستشهد بطلاً يوم اليرموك في عهد عمر."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0630" }, status: historical, note: "قائد ميسرة المشركين بأحد ويوم الفتح (الرحيق ص253، 403).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0630" }, status: historical, sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, start: { edtf: "0630" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: commander, toward: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0634" }, status: historical, note: "قائد جيوش الردة بعمان واليرموك.", sources: [source/tabari-donner-1993] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, note: "صحابي جليل وفارس بطل استشهد باليرموك." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: child_of, target: person/abu-jahl }
+  - { type: spouse_of, target: person/umm-hakim-bint-al-harith }
+  - { type: member_of, target: group/banu-makhzum }
+  - { type: participated_in, target: event/conquest-of-mecca, role: "قائد المقاتلة بالخندمة قبل إسلامه", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/tabari-donner-1993]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 403, 407" }
