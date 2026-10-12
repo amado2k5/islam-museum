@@ -10,11 +10,11 @@
 - Phase C prose, in progress. `content/en/` written so far:
   - exhibit/ ×5 (all five trails)
   - event/ ×201 (ALL events done)
-  - person/ ×119 of ~408, alphabetical by slug (through `al-abbas-ibn-ubada`)
+  - person/ ×255 of ~455, alphabetical by slug (through `hubar-ibn-al-aswad`)
 
 ## Next step
 
-People: continue `content/en/person/` alphabetically from `al-abbas-…`. Then group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
+People: continue `content/en/person/` alphabetically from `hubayra…`. Then group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
 
 ## Conventions
 
