@@ -1,0 +1,21 @@
+id: person/malik-ibn-anas
+class: person
+label: { ar: "مالك بن أنس", en: "Malik ibn Anas" }
+names:
+  - { kind: full, lang: ar, value: "مالك بن أنس بن مالك بن أبي عامر الأصبحي المدني" }
+gender: male
+roles: [scholar, jurist, muhaddith]
+traditions: [sunni]
+summary:
+  ar: "إمام دار الهجرة وصاحب الموطأ؛ ولد بالمدينة المنورة وأخذ عن علمائها، واشتهر بالفتيا والتدريس فيها حتى توفي سنة 179هـ. يُنسب إليه المذهب المالكي."
+  en: "Imam of Medina and author of the Muwatta; born in Medina, he studied with its scholars and taught there until his death in 179 AH. The Maliki school of law bears his name."
+wings: [people]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+regions: [arabia]
+born: { hijri: "0093", edtf: "0711~", calendar: julian, precision: year, status: historical, derived: true, note: "ولد بالمدينة سنة ثلاث وتسعين (من مقدمة المحقق؛ التحويل إلى الميلادي مشتق).", sources: [source/muwatta-maruf-1997] }
+died: { hijri: "0179", edtf: "0795~", calendar: julian, precision: year, status: historical, derived: true, note: "توفي سنة 179هـ (من مقدمة المحقق؛ التحويل إلى الميلادي مشتق).", sources: [source/muwatta-maruf-1997] }
+relations:
+  - { type: authored, target: work/muwatta-malik, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, editor's introduction, PDF pp. 5–6", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); dates from the book's own introduction; a second source is still needed for dated facts (CLAUDE.md dual-source rule: needs_source born, died)" }
