@@ -1,0 +1,41 @@
+id: event/expedition-of-al-sawiq
+class: event
+kind: campaign
+label: { en: "Expedition of al-Sawiq", ar: "غزوة السويق" }
+summary:
+  en: "An expedition in Dhu al-Hijjah 2 AH pursuing Abu Sufyan who raided the outskirts of Medina with 200 riders; the Meccans dumped bags of roasted barley flour (sawiq) to lighten their load during flight."
+  ar: "غزوة خرج فيها النبي في مائتي راكب في ذي الحجة 2هـ لمطاردة أبي سفيان بعد إغارته على العريض وقتله رجلين وحرقه النخيل؛ ألقى المشركون أكياس السويق تخففاً في الهرب فغنمها المسلمون."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-05~", hijri: "0002-12", calendar: julian, precision: month, status: tradition, note: "في شهر ذي الحجة سنة 2هـ بعد شهرين من بدر (الرحيق ص240–241)" }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: "قائد جيش المطاردة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-lubaba, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "قائد غارة مكة الملقي للسويق في الهرب", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/ansar, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim pursuit force", ar: "جيش المطاردة الإسلامي" }
+    participants: [group/muhajirun, group/ansar]
+    commanders: [person/muhammad]
+    strength:
+      value: 200
+      status: tradition
+      note: "مائتا راكب من المهاجرين والأنصار"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Abu Sufyan's raiding force", ar: "مفرزة أبي سفيان" }
+    participants: [group/quraysh]
+    commanders: [person/abu-sufyan-ibn-harb]
+    strength:
+      value: 200
+      status: tradition
+      note: "مائتا راكب خرجوا لبر يمين أبي سفيان"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 240–241 citing Ibn Hisham 2/44–45 and Zad al-Maad 2/90" }

@@ -1,0 +1,44 @@
+id: event/siege-of-banu-qaynuqa
+class: event
+kind: siege
+label: { en: "Siege of Banu Qaynuqa", ar: "غزوة بني قينقاع" }
+summary:
+  en: "A fifteen-day siege of the Jewish tribe Banu Qaynuqa in Shawwal 2 AH after their breach of the covenant; ended in their unconditional surrender and expulsion from Medina."
+  ar: "حصار فرضه النبي على بني قينقاع في شوال سنة 2هـ دام خمس عشرة ليلة بعد نقضهم العهد واعتدائهم في سوقهم؛ انتهى بنزولهم على حكمه وإجلائهم إلى أذرعات بالشام."
+wings: [time, people]
+themes: [battles, non-muslim-minorities-under-muslim-rule]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-04-09~", hijri: "0002-10-15", calendar: julian, precision: day, status: tradition, note: "بدأ الحصار يوم السبت 15 شوال 2هـ (الرحيق ص238)" }
+  end: { edtf: "0624-04-24~", hijri: "0002-11-01", calendar: julian, precision: day, status: tradition, note: "نزلوا على الحكم بعد 15 ليلة في مطلع ذي القعدة (الرحيق ص239)" }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: "قائد الحصار", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, role: "حامل اللواء الأبيض", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-lubaba, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-ubayy, role: "المتشفع في بني قينقاع بحكم الحلف القديم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/ubada-ibn-al-samit, role: "المتبرئ من حلف بني قينقاع", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/muhammad-ibn-maslama, role: "المتولي لجمع أموالهم وسلاحهم وخمسها", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: group/banu-qaynuqa, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim army", ar: "جيش المسلمين" }
+    participants: [group/early-muslims, group/ansar, group/muhajirun]
+    commanders: [person/muhammad]
+  - label: { en: "Banu Qaynuqa", ar: "بنو قينقاع" }
+    participants: [group/banu-qaynuqa]
+    strength:
+      value: 700
+      status: tradition
+      note: "سبعمائة مقاتل: ثلاثمائة دارع وأربعمائة حاسر تحصنوا في قلاعهم خمس عشرة ليلة"
+      sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni sources record that Banu Qaynuqa were the first of Medina's Jewish tribes to break the treaty after Badr, mocking the victory and assaulting a Muslim woman in their market, leading to an armed clash.", ar: "تذكر المصادر السنية أن بني قينقاع كانوا أول من نقض عهد صحيفة المدينة بعد معركة بدر؛ فجاهروا بالعداء واعتدوا على امرأة مسلمة في سوقهم وقتلوا مسلماً، وتحصنوا في حصونهم رافضين الاحتكام للعهد." }
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  - tradition: academic
+    summary: { en: "Western historians analyze the siege as part of the consolidation of the Prophet's authority in Medina after Badr, neutralizing a heavily armed faction allied with internal opposition.", ar: "يحلل مؤرخون غربيون مثل مونتغمري واط الحصار بوصفه خطوة لتوطيد السلطة السياسية في المدينة بعد نصر بدر، والقضاء على تحالف عسكري مسلح مرتبط بالمعارضة الداخلية بقيادة ابن أبي." }
+    sources: [source/watt-1956-medina]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 236–239 citing Ibn Hisham 2/47–50 and Zad al-Maad 2/91" }

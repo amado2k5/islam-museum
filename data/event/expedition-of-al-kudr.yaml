@@ -1,0 +1,39 @@
+id: event/expedition-of-al-kudr
+class: event
+kind: campaign
+label: { en: "Expedition of al-Kudr", ar: "غزوة بني سليم بالكدر" }
+summary:
+  en: "An expedition of 200 Muslims led by the Prophet in Shawwal 2 AH to al-Kudr to disperse Banu Sulaym and Ghatafan gathering against Medina; the tribes scattered and Muslims captured 500 camels."
+  ar: "غزوة قادها النبي في مائتي راكب في شوال 2هـ إلى قرقرة الكدر لتفريق حشود بني سليم وغطفان؛ تفرق الأعراب وغنم المسلمون خمسمائة بعير قُسمت وخُمّست."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-04~", hijri: "0002-10", calendar: julian, precision: month, status: tradition, note: "في شوال سنة 2هـ بعد سبعة أيام من رجوعه من بدر (الرحيق ص234–235)" }
+relations:
+  - { type: occurred_at, target: place/al-kudr }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "حامل لواء الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ibn-umm-maktum, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-sulaym, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/ghatafan, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim army", ar: "جيش المسلمين" }
+    participants: [group/muhajirun]
+    commanders: [person/muhammad]
+    strength:
+      value: 200
+      status: tradition
+      note: "مائتا راكب من المسلمين"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Banu Sulaym and Ghatafan", ar: "بنو سليم وغطفان" }
+    participants: [group/banu-sulaym, group/ghatafan]
+    strength:
+      status: tradition
+      note: "حشود من الأعراب تفرقت في بطون الأودية عند قدوم المسلمين"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 234–235 citing Ibn Hisham 2/43–44 and Zad al-Maad 2/90" }
