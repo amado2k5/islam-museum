@@ -1,0 +1,26 @@
+id: person/al-mughira-ibn-shuba
+class: person
+label: { en: "al-Mughira ibn Shu'ba", ar: "المغيرة بن شعبة" }
+names:
+  - { kind: full, lang: ar, value: "المغيرة بن شعبة الثقفي" }
+gender: male
+roles: [companion, politician]
+traditions: [sunni]
+summary:
+  en: "Thaqafi Companion renowned for wit and statecraft; he broke the gate of al-Lat with the pickaxe during its demolition in 9 AH, first feigning a collapse that struck terror into the watching Thaqafis."
+  ar: "صحابي ثقفي عُرف بدهائه ومكره السياسي؛ تقدّم بالكُرزُن فضرب باب اللات يوم هدمها سنة 9هـ بعد أن سقط يمازح أصحابه فأُرعب أهل الطائف ظناً أن «الربة» قتلته."
+wings: [people]
+themes: [sacred-space-and-pilgrimage, humour-and-everyday-life]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: commander, start: { edtf: "0630-12~" }, status: tradition, note: "تولى مع خالد بن الوليد هدم اللات وضرب بابها بالكُرزُن بنفسه.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition }
+relations:
+  - { type: member_of, target: group/thaqif }
+  - { type: born_in, target: place/taif }
+  - { type: participated_in, target: event/demolition-of-al-lat, role: "مهدّم الصنم بالكُرزُن", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

@@ -1,0 +1,26 @@
+id: person/zayd-al-khayl
+class: person
+label: { en: "Zayd al-Khayl", ar: "زيد الخيل" }
+names:
+  - { kind: full, lang: ar, value: "زيد الخيل الطائي" }
+  - { kind: laqab, lang: ar, value: "زيد الخير" }
+gender: male
+roles: [companion, politician]
+traditions: [sunni]
+summary:
+  en: "Chief of Tayy' whose delegation came to Medina in the Year of Delegations; the Prophet renamed him Zayd al-Khayr ('the good') and said no Arab praised to him had ever fallen short of the praise except this man."
+  ar: "سيد طيء الذي قدم في وفد قومه على النبي في عام الوفود فأسلم وحسن إسلامه؛ سمّاه النبي زيد الخير وقال: ما ذُكر لي رجل من العرب بفضل ثم جاءني إلا رأيته دون ما يُقال فيه إلا زيد الخيل."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0631~" }, status: tradition, note: "في وفد طيء إلى المدينة سنة 9هـ.", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" } }
+relations:
+  - { type: member_of, target: group/tayy }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

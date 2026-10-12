@@ -1,0 +1,28 @@
+id: person/uthman-ibn-abi-al-as
+class: person
+label: { en: "Uthman ibn Abi al-As", ar: "عثمان بن أبي العاص" }
+names:
+  - { kind: full, lang: ar, value: "عثمان بن أبي العاص الثقفي" }
+gender: male
+roles: [companion, politician]
+traditions: [sunni]
+summary:
+  en: "The youngest of the six-man Thaqif delegation to Medina in Ramadan 9 AH and its keenest student of the Qur'an; the Prophet appointed him over his people, and he later held them firm against apostasy in the Ridda."
+  ar: "أصغر رجال وفد ثقيف الستة وأحرصهم على تعلم القرآن والتفقه في الدين، فأمّره النبي على قومه؛ وكان من أعظم الناس بركة لثقيف يوم الردة إذ ثبّتهم على الإسلام."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0630-12~" }, end: { edtf: "0631-01~" }, status: tradition, note: "من ستة وفد ثقيف، وكان يختلف إلى النبي والى أبي بكر يسأل عن القرآن والدين.", sources: [source/mubarakpuri-raheeq] }
+  - { role: ruler, toward: group/thaqif, start: { edtf: "0631~" }, status: tradition, note: "أمّره النبي على ثقيف رغم صغر سنه لحرصه على التعلم.", sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630-12~" } }
+relations:
+  - { type: member_of, target: group/thaqif }
+  - { type: born_in, target: place/taif }
+  - { type: ruler_of, target: place/taif, start: { edtf: "0631~" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/delegation-of-thaqif, role: "عضو الوفد وأصغرهم", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

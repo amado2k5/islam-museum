@@ -30,5 +30,6 @@ relations:
   - { type: corresponded_with, target: person/muhammad, start: { edtf: "0630~" }, note: "The sources preserve his letter proposing a partition of prophecy and Muhammad's reply.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
   - { type: fought, target: person/khalid-ibn-al-walid, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
   - { type: participated_in, target: event/battle-of-yamama, role: hanifa-commander, sources: [source/tabari-donner-1993] }
-sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+  - { type: participated_in, target: event/delegation-of-banu-hanifa, role: وفد-member, note: "اختلفت الروايات في شأنه داخل الوفد كما بيّن المباركفوري.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

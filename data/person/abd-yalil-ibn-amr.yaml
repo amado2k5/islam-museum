@@ -1,0 +1,26 @@
+id: person/abd-yalil-ibn-amr
+class: person
+label: { en: "Abd Yalil ibn Amr", ar: "عبد ياليل بن عمرو" }
+names:
+  - { kind: full, lang: ar, value: "عبد ياليل بن عمرو الثقفي" }
+gender: male
+roles: [politician]
+traditions: [sunni]
+summary:
+  en: "Chief of Thaqif who led the six-man delegation to the Prophet in Ramadan 9 AH after initially refusing the mission for fear of meeting Urwa ibn Mas'ud's fate; he negotiated the terms and the demolition of al-Lat."
+  ar: "سيد ثقيف الذي قاد وفدهم الستة إلى النبي في رمضان سنة 9هـ بعد أن أبى أولاً خوفاً أن يُصنع به ما صُنع بعروة بن مسعود؛ فاوض على شروط الصلح وهدم اللات."
+wings: [people]
+themes: [converts-and-leavers, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0630-12~" }, status: tradition, note: "رئيس وفد ثقيف الستة إلى المدينة ومفاوضهم.", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0630-12~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630-12~" } }
+relations:
+  - { type: member_of, target: group/thaqif }
+  - { type: born_in, target: place/taif }
+  - { type: participated_in, target: event/delegation-of-thaqif, role: "رئيس الوفد", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

@@ -1,0 +1,21 @@
+id: event/proclamation-of-surat-baraa
+class: event
+kind: declaration
+label: { en: "The proclamation of Bara'a at Mina", ar: "الأذان ببراءة يوم النحر" }
+summary:
+  en: "On the Day of Sacrifice in 9 AH Ali ibn Abi Talib, sent after Abu Bakr by the Prophet, proclaimed the opening of Surat Bara'a (al-Tawba) at the Jamrah: treaties with the polytheists were dissolved with a four-month respite, and after that year no polytheist would perform the pilgrimage nor would anyone circle the House naked."
+  ar: "أذّن علي بن أبي طالب يوم النحر سنة 9هـ عند الجمرة بأوائل سورة براءة مبعوثاً من النبي خلف أبي بكر: نُبذت مواثيق المشركين وأُجل أربعة أشهر، ولا يحج بعد العام مشرك ولا يطوف بالبيت عريان."
+wings: [time, people]
+themes: [conferences-and-declarations, pilgrimages-and-mass-gatherings]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631-03", hijri: "0009-12", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: event/hajj-led-by-abu-bakr }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
