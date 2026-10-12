@@ -22,13 +22,14 @@ const elements = [F.logo_star, F.logo_arch, F.logo_book];
         <h2 id="logo-h">{F.logo_title}</h2>
         <p>{F.logo_intro}</p>
         <div class="logo-showcase">
-          <Logo size={168} class="logo-big" />
+          <img class="logo-big emblem" src="/brand/emblem-full-512.webp" width="256" height="256" alt={F.emblem_alt} loading="lazy" decoding="async" />
+          <Logo size={168} class="logo-big" alt={F.emblem_alt} />
           <ol class="logo-parts">
             {elements.map((t) => <li>{t}</li>)}
           </ol>
         </div>
         <img class="lockup" src="/brand/logo-lockup.svg" width="480" height="120" alt="islam.museum · متحف الإسلام" />
-        <p class="ui f-links"><a href="/brand/logo-mark.svg" download>{F.logo_download}</a> · <a href="/brand/logo-lockup.svg" download>{F.logo_lockup_download}</a></p>
+        <p class="ui f-links"><a href="/brand/emblem-full.webp" download>{F.emblem_download}</a> · <a href="/brand/mark-512.png" download>{F.logo_download}</a> · <a href="/brand/mark-dark-512.webp" download>{F.logo_dark_download}</a> · <a href="/brand/logo-lockup.svg" download>{F.logo_lockup_download}</a></p>
       </section>
 
       <section aria-labelledby="story-h" class="f-sec">

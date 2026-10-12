@@ -1,14 +1,15 @@
 ---
-// The islam.museum mark (visual identity spec §2): an eight-point star, a mihrab arch and an open book.
-// Decorative by default: the wordmark sits beside it. Geometry matches public/brand/logo-mark.svg.
-interface Props { size?: number; class?: string }
-const { size = 34, class: cls = "" } = Astro.props;
+// The islam.museum emblem: the painted medallion (eight-point star arch and open book on a lapis disc inside a gold ring),
+// cut from docs/design/emblem-source.jpg into public/brand/. Two colour versions switch with the theme: the painted one on
+// light grounds and a brighter, haloed one on dark grounds. `variant="mono"` gives the single-colour marks for watermarks
+// (ink on light, gold on dark). Decorative by default: the wordmark sits beside it.
+interface Props { size?: number; class?: string; variant?: "color" | "mono"; alt?: string }
+const { size = 34, class: cls = "", variant = "color", alt = "" } = Astro.props;
+const big = size > 128;
+const light = variant === "mono" ? "/brand/mark-mono-ink-512.webp" : big ? "/brand/mark-512.webp" : "/brand/mark-128.webp";
+const dark = variant === "mono" ? "/brand/mark-mono-gold-512.webp" : big ? "/brand/mark-dark-512.webp" : "/brand/mark-dark-128.webp";
 ---
-<svg class:list={["brand-mark", cls]} viewBox="0 0 120 120" width={size} height={size} aria-hidden="true" focusable="false">
-  <path d="M60 2 L76.07 21.2 L101.01 18.99 L98.8 43.93 L118 60 L98.8 76.07 L101.01 101.01 L76.07 98.8 L60 118 L43.93 98.8 L18.99 101.01 L21.2 76.07 L2 60 L21.2 43.93 L18.99 18.99 L43.93 21.2 Z" fill="#c5a059" stroke="#9a7b38" stroke-width="1.5" stroke-linejoin="round" />
-  <circle cx="60" cy="60" r="36" fill="#113f4e" stroke="#e6d5b8" stroke-width="1" />
-  <path d="M47 74 V58 Q47 42 60 42 Q73 42 73 58 V74" fill="none" stroke="#e6d5b8" stroke-width="3.5" stroke-linecap="round" />
-  <circle cx="60" cy="36" r="2.2" fill="#c5a059" />
-  <path d="M38 80 Q49 75 60 80 Q71 75 82 80 V92 Q71 87 60 92 Q49 87 38 92 Z" fill="#e6d5b8" />
-  <path d="M60 80 V92" stroke="#113f4e" stroke-width="1.5" />
-</svg>
+<span class:list={["brand-mark", cls]} style={`--logo:${size}px`} aria-hidden={alt ? undefined : "true"}>
+  <img class="logo-light" src={light} width={size} height={size} alt={alt} loading={big ? "lazy" : "eager"} decoding="async" />
+  <img class="logo-dark" src={dark} width={size} height={size} alt="" aria-hidden="true" loading={big ? "lazy" : "eager"} decoding="async" />
+</span>

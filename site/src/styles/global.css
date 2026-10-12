@@ -500,3 +500,22 @@ html[lang="ar"] .gx-label { font-family: var(--ar-body); font-size: 14px; }
 .rv-t { background: #dde7da; color: #1a1a1a; } .rv-e { background: #f2dfe0; color: #1a1a1a; }
 .rv-none { margin: 10px 0 0; font-size: .88rem; }
 @media (max-width: 720px) { .rv-row { grid-template-columns: 1fr; } .rv-connector { display: none; } .rv-events { padding-inline-start: 14px; border-inline-start: 2px dotted var(--gold); } }
+
+/* ---- brand: the emblem, in a light and a dark version that follow the theme ---- */
+.brand-mark { display: inline-block; width: var(--logo, 34px); height: var(--logo, 34px); flex: none; line-height: 0; }
+.brand-mark img { width: 100%; height: 100%; display: block; object-fit: contain; }
+.brand-mark .logo-dark { display: none; }
+:root[data-theme="dark"] .brand-mark .logo-light { display: none; }
+:root[data-theme="dark"] .brand-mark .logo-dark { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .brand-mark .logo-light { display: none; }
+  :root:not([data-theme="light"]) .brand-mark .logo-dark { display: block; }
+}
+.lhero-star { opacity: .12; width: min(70vw, 460px); height: auto; }
+.lhero-star img { height: auto; }
+.logo-showcase .emblem { border-radius: 18px; box-shadow: 0 8px 24px rgba(10,37,51,.18); }
+/* inner-page banners carry the gold monochrome medallion as a faint watermark at the end edge */
+.page-banner { background-image: url("/brand/mark-watermark-gold.webp"), linear-gradient(180deg, #0a2533 0%, color-mix(in srgb, var(--wing, #c5a059) 42%, #113f4e) 100%); background-repeat: no-repeat; background-size: 360px, auto; background-position: calc(100% + 80px) -60px, 0 0; }
+html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
+.page-banner::before { opacity: .1; }
+.page-banner > .wrap { position: relative; }
