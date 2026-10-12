@@ -6,9 +6,7 @@
 @import "@fontsource/source-serif-4/latin-600.css";
 @import "@fontsource/source-serif-4/latin-400-italic.css";
 @import "@fontsource/noto-naskh-arabic/arabic-400.css";
-@import "@fontsource/noto-naskh-arabic/arabic-600.css";
 @import "@fontsource/amiri/arabic-400.css";
-@import "@fontsource/amiri/arabic-700.css";
 @import "@fontsource/reem-kufi/arabic-500.css";
 @import "@fontsource/amiri-quran/arabic-400.css";
 @import "@fontsource/cairo/arabic-400.css";
@@ -149,7 +147,7 @@ html[lang="ar"] .kicker { text-transform: none; letter-spacing: 0; }
 .hero { position: relative; isolation: isolate; overflow: hidden; background: var(--hero-bg); color: #f9f8f6; padding: clamp(40px, 9vh, 96px) 0 clamp(72px, 12vh, 120px); }
 .hero::before { content: ""; position: absolute; inset: 0; z-index: -2; background-image: url("/brand/lattice.svg"); background-size: 120px 120px; opacity: 0.16; }
 .hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(60% 70% at 85% 15%, rgba(197, 160, 89, 0.26), transparent 70%); }
-.hero-watermark { position: absolute; inset-inline-end: -8%; top: 50%; transform: translateY(-50%); width: min(78vw, 560px); height: auto; opacity: 0.1; z-index: -1; pointer-events: none; }
+.hero-watermark { position: absolute; inset-inline-end: -8%; top: 0; width: min(78vw, 560px); height: auto; opacity: 0.1; z-index: -1; pointer-events: none; }
 .hero-wave { position: absolute; inset-inline: 0; bottom: -1px; width: 100%; height: clamp(36px, 6vw, 84px); display: block; }
 .hero .eyebrow { color: var(--gold); margin-bottom: 18px; }
 .hero h1 { color: #f9f8f6; font-weight: 500; max-width: 18ch; font-size: clamp(2.3rem, 6vw, 4.6rem); margin: 0 0 22px; }
@@ -233,3 +231,26 @@ html[dir="rtl"] .reading-progress span { transform-origin: right; }
 }
 /* medallions: lapis numerals on the two light accents (objects, made), ivory on the rest */
 .wing-card[data-wing="objects"] .wing-medal, .wing-card[data-wing="made"] .wing-medal { color: #0a2533; }
+
+/* Below-the-fold work stays out of first paint: the footer and long card grids render only near the viewport.
+   The intrinsic size keeps their skipped footprint close to the rendered one. */
+footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: auto 320px; }
+
+/* ---- Font display: optional, not swap ----
+   The imported fontsource faces use font-display: swap, which makes the largest text re-render when a late font
+   arrives — that re-render is exactly what Lighthouse counts as LCP and layout shift. The same faces are
+   redeclared here (last @font-face wins) with font-display: optional, so a font that misses the short block
+   window leaves the fallback in place instead of repainting the page. Sources resolve to the same fontsource
+   woff2 files, so nothing extra ships. */
+@font-face { font-family: "Noto Naskh Arabic"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Amiri"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/amiri/files/amiri-arabic-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Reem Kufi"; font-style: normal; font-display: optional; font-weight: 500; src: url("../../node_modules/@fontsource/reem-kufi/files/reem-kufi-arabic-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Amiri Quran"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/amiri-quran/files/amiri-quran-arabic-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Cairo"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/cairo/files/cairo-arabic-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Cairo"; font-style: normal; font-display: optional; font-weight: 700; src: url("../../node_modules/@fontsource/cairo/files/cairo-arabic-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-display: optional; font-weight: 500; src: url("../../node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-display: optional; font-weight: 600; src: url("../../node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-display: optional; font-weight: 600; src: url("../../node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: italic; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-400-italic.woff2") format("woff2"); }
