@@ -2,7 +2,7 @@
 """Run each SPARQL file in queries/ against the Wikidata Query Service, in series, with a pause between queries.
 Writes $HARVEST/layers/cc0/wikidata/seeds-<name>.json (QIDs) and appends to $HARVEST/db/seeds.txt (deduplicated).
 Resumable: queries already done (per checkpoint) are skipped unless --force. Usage: run_queries.py [--force] [name ...]"""
-import json, sys
+import json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from common import HARVEST, checkpoint, client, polite_sleep, require_source, save_checkpoint
@@ -32,6 +32,9 @@ with client() as http:
             print(f"{name}: HTTP {r.status_code}: {r.text[:200]}"); ck[name] = {"ok": False, "status": r.status_code}
             save_checkpoint("wikidata-queries", ck); polite_sleep(pause); continue
         qids = sorted({b["item"]["value"].rsplit("/", 1)[1] for b in r.json()["results"]["bindings"]})
+        m = re.search(r"LIMIT\s+(\d+)", f.read_text())
+        if m and len(qids) >= int(m.group(1)):   # a silent cap made q08 an arbitrary slice of the mosques
+            print(f"WARNING {name}: {len(qids)} items equals its LIMIT {m.group(1)}; the result is truncated. Narrow the query (a notability filter, one class at a time) or raise the LIMIT.")
         (out / f"seeds-{name}.json").write_text(json.dumps({"query": name, "licence": "CC0 1.0", "count": len(qids), "qids": qids}, indent=0))
         ck[name] = {"ok": True, "count": len(qids)}
         save_checkpoint("wikidata-queries", ck)

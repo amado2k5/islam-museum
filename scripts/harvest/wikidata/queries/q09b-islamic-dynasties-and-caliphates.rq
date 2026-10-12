@@ -1,0 +1,2 @@
+# Dynasties (Q164950), caliphates (Q8481), empires (Q48349) and kingdoms (Q417175) whose religion (P140) is Islam or a subclass (Q432). Second half of the polity seeds; see q09a.
+SELECT DISTINCT ?item WHERE { VALUES ?cls { wd:Q164950 wd:Q8481 wd:Q48349 wd:Q417175 } ?item wdt:P31 ?cls . ?item wdt:P140/wdt:P279* wd:Q432 . } LIMIT 20000

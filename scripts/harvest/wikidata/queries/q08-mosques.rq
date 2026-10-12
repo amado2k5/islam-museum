@@ -1,2 +1,2 @@
-# Mosques (class Q32815, verified 2026-10-12) whose religion or worldview (P140) is Islam (Q432).
-SELECT DISTINCT ?item WHERE { ?item wdt:P31/wdt:P279* wd:Q32815 . ?item wdt:P140 wd:Q432 . } LIMIT 5000
+# Notable mosques: class Q32815 (verified 2026-10-12) with at least 4 sitelinks (about 3,100 items, 23 s). The first version took every mosque with religion Islam and hit its 5,000 LIMIT, so the list was an arbitrary slice; sitelinks are the notability filter. Mosques below the threshold stay reachable as incoming neighbours of the seed places and people.
+SELECT DISTINCT ?item WHERE { ?item wdt:P31/wdt:P279* wd:Q32815 . ?item wikibase:sitelinks ?sl . FILTER(?sl >= 4) } LIMIT 20000
