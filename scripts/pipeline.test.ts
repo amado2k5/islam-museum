@@ -1,10 +1,14 @@
-import { describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { compile } from "./build-graph";
 import { derive } from "./derive";
 import { edtfRange } from "./lib";
 import { hijriCeMismatch, hijriProblem, validateAll } from "./validate";
 import { p } from "./lib";
 import { scan } from "./check-static";
+
+// Each test validates the repository synchronously (seconds of CPU). Without a yield between tests the vitest worker
+// cannot exchange its task updates with the runner, and on a slow CI machine the calls time out after 60 s.
+beforeEach(() => new Promise<void>((resolve) => setTimeout(resolve, 0)));
 
 describe("validate", () => {
   it("the repository content has no errors", () => {

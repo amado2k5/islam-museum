@@ -48,7 +48,7 @@ Warnings:
 - `scripts/hijri/dates.test.ts`: BH rendering (no year 0), the era sort (an era after the events of its start year), Hijri-first ordering (8 AH after 7 AH), Hijri-only dates getting a position, and undated entries sorting last.
 - `scripts/pipeline.test.ts`: validator rules, the frozen Qur'an text, scope rules, and content guards.
 
-The per-test timeout is 60 seconds (`vitest.config.ts`). The pipeline tests each validate the whole repository, which is slower on the CI runner than on a laptop. A test that times out there is not a failing rule; do not lower the limit back to the default.
+The per-test timeout is 60 seconds (`vitest.config.ts`). The pipeline tests each validate the whole repository, which is slower on the CI runner than on a laptop. A test that times out there is not a failing rule; do not lower the limit back to the default. The pipeline test file also yields to the event loop before each test (`beforeEach` in `scripts/pipeline.test.ts`). Keep that yield: without it the worker blocks long enough for vitest's RPC to time out (`Timeout calling "onTaskUpdate"`), even when every test passes.
 
 ## Adding a check
 
