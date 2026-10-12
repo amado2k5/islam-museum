@@ -1,0 +1,46 @@
+id: person/ibn-badran
+class: person
+label:
+  ar: عبد القادر بن بدران
+names:
+- kind: full
+  lang: ar
+  value: عبد القادر بن مصطفى بن عبد الرحيم بن محمد، المعروف بابن بدران
+gender: male
+died:
+  hijri: '1346'
+  status: historical
+  note: Rabi' II 1346 AH in Damascus, as the book's editorial preface records; no Gregorian date is given here.
+  sources:
+  - source/madkhal-ibn-badran-turki
+roles:
+- writer
+- scholar
+traditions:
+- sunni-hanbali
+summary:
+  ar: عالم دمشقي حنبلي، صاحب كتاب «المدخل إلى مذهب الإمام أحمد بن حنبل»، وتوفي في دمشق سنة 1346هـ.
+wings:
+- people
+periods:
+- period/modern-era
+regions:
+- levant-iraq
+themes:
+- sects-and-schools
+relations:
+- type: died_in
+  target: place/damascus
+  sources:
+  - source/madkhal-ibn-badran-turki
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-1
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from pp. 2, 13 of the book

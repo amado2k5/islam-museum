@@ -1,0 +1,41 @@
+id: person/ibn-al-banna
+class: person
+label:
+  ar: ابن البناء
+names:
+- kind: full
+  lang: ar
+  value: الحسن بن أحمد بن عبد الله بن البناء البغدادي
+gender: male
+died:
+  hijri: '0471'
+  status: tradition
+  note: Given by the book (p. 412). A second source is needed.
+  sources:
+  - source/madkhal-ibn-badran-turki
+roles:
+- jurist
+- writer
+traditions:
+- sunni-hanbali
+summary:
+  ar: فقيه ومقرئ ومحدّث وواعظ من بغداد، ويذكر الكتاب أنه صنّف نحو خمس مئة مصنف، منها «المجرد» في الفقه و«شرح الخرقي».
+wings:
+- people
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- development-of-law-theology-institutions
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-1
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from p. 412 of the book

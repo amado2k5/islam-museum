@@ -1,0 +1,46 @@
+id: person/al-kharaqi
+class: person
+label:
+  ar: الخرقي
+names:
+- kind: full
+  lang: ar
+  value: عمر بن الحسين بن عبد الله بن أحمد، أبو القاسم الخرقي
+gender: male
+died:
+  hijri: '0334'
+  status: tradition
+  note: 'Given by the book (p. 125), with the place: Damascus. A second source is needed.'
+  sources:
+  - source/madkhal-ibn-badran-turki
+roles:
+- jurist
+- writer
+traditions:
+- sunni-hanbali
+summary:
+  ar: صنّف «مختصر الخرقي» المشهور في فقه الإمام أحمد، وتوفي في دمشق سنة 334هـ.
+wings:
+- people
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- development-of-law-theology-institutions
+relations:
+- type: died_in
+  target: place/damascus
+  sources:
+  - source/madkhal-ibn-badran-turki
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-1
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from p. 125 of the book
