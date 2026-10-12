@@ -1,0 +1,16 @@
+id: passage/arbaun-16
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "16"
+label: { ar: "الأربعون 16 — لا تغضب", en: "Arba'un 16 — do not become angry" }
+text: "أن رجلاً قال للنبي: أوصني، قال: لا تغضب، فردد مراراً قال: لا تغضب"
+summary:
+  ar: "حديث أبي هريرة، وهو الحديث السادس عشر في الأربعين النووية وفي شرح ابن رجب؛ رواه البخاري (6116) وحده من رواية أبي حصين الأسدي عن أبي صالح عن أبي هريرة، ولم يخرجه مسلم لاختلاف إسناد الأعمش عن أبي صالح فيه — فقيل عن أبي هريرة، وقيل عن أبي سعيد الخدري وهو الصحيح عند يحيى بن معين، وقيل عنهما، وقيل عن أبي هريرة أو جابر، وقيل عن رجل من الصحابة غير مسمى — وخرجه الترمذي (2020) وقال: حسن صحيح غريب؛ وفي رواية «علمني شيئاً ولا تكثر علي لعلي أعيه» وفي أخرى «دلني على عمل يدخلني الجنة» فكان الجواب «لا تغضب»، ويحتمل أن يكون السائل أبا الدرداء أو جارية بن قدامة؛ ويستنبط ابن رجب أن الرجل طلب وصية وجيزة جامعة لخصال الخير فأجاب النبي بتكرار «لا تغضب»، وهذا يدل على أن الغضب جماع الشر وأن التحرز منه جماع الخير، وهو أحد الأحاديث الأربعة التي يتفرع منها جماع آداب الخير في نقل ابن الصلاح عن ابن أبي زيد (جامع العلوم والحكم ص 343–359)."
+  en: "Abu Hurayra's hadith, the sixteenth of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by al-Bukhari alone (6116) through Abu Husayn al-Asadi from Abu Salih from Abu Hurayra, Muslim omitting it because al-A'mash's chain from Abu Salih is disputed — variously from Abu Hurayra, from Abu Sa'id al-Khudri (correct in Ibn Ma'in's view), from both, from Abu Hurayra or Jabir, or from an unnamed Companion — and transmitted by al-Tirmidhi (2020) as hasan sahih gharib; one route has 'teach me something and do not make it long that I may retain it', another 'point me to a deed that admits me to Paradise', the answer in each 'do not become angry', the asker possibly Abu al-Darda' or Jariya ibn Qudama; Ibn Rajab infers that the man sought a brief comprehensive counsel of good traits and that the repeated answer shows anger is the sum of evil and guarding against it the sum of good, this being one of the four hadiths from which all the conduct of goodness branches in Ibn al-Salah's report from Ibn Abi Zayd (Jami' al-Ulum wal-Hikam pp. 343–359)."
+relations:
+  - { type: basis_for, target: concept/ghadab, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 16 pp. 343–359", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-7" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 343, the isnad dispute and inference from pp. 343–344" }
