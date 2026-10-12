@@ -27,5 +27,17 @@ relations:
   - { type: fought, target: person/khalid-ibn-al-walid, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
   - { type: participated_in, target: event/battle-of-buzakha, role: defeated-commander, sources: [source/tabari-donner-1993] }
   - { type: opposed, target: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
+issue:
+  ar: كيف يُقرأ طليحة بن خويلد في التراث السني وعند المؤرخين؟
+  en: How is Tulayha ibn Khuwaylid read in the Sunni tradition and by historians?
+perspectives:
+- tradition: sunni
+  id: sunni
+  summary:
+    ar: يعدّه التراث السني مرتدًّا مدّعيًا رجع عنه الله إلى الإسلام، فيذكر بقية سيرته في الفتوح.
+- tradition: academic
+  id: academic
+  summary:
+    ar: أما المؤرخون فيقرؤون حركته محاولة قبلية لحفظ الاستقلال عن المركز الجديد، وعودته نموذجًا لإعادة استيعاب الخلافة للقادة المهزومين.
 sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
