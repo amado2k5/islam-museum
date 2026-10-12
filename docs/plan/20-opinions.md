@@ -82,6 +82,7 @@ The library pipeline (`docs/delegation/local-model-library-prompt.md`) gets one 
 |---|---|
 | Done (12 Oct 2026) | Schema fields (`issue`, `id`, `stance`, `holders`, `evidence`), validator rules and tests, the entity-page component, English and Arabic strings, one worked example (`concept/iman`: the hadith scholars' and the Hanafi creed's definitions). |
 | Done (12 Oct 2026, second step) | `issue` and anchors on the 37 data entries that had two or more perspectives; a source on five opinions that the cited works plainly carry (11 opinions still cite nothing and the validator lists them); Ibn Qudama's Lum'at al-I'tiqad added as a second opinion on 14 of the Tahawi creed concepts and a third on `concept/iman`. |
-| Next | Headlines (`stance`) and holders for the older entries; the 33 prose entries (`:::perspectives`) to move to the data form; al-Wasitiyya and the Ash'ari and Maturidi texts as further opinions on the creed concepts. |
+| Done (13 Oct 2026, third step) | 30 prose opinion blocks moved to the data form (18 entries with Arabic text, 12 al-Isaba report variants); the Ash'ari report of the creed (Maqalat al-Islamiyyin) added on 13 concepts with new traditions `sunni-ashari` and `sunni-maturidi`; the Wasitiyya on 14. |
+| Next | Headlines (`stance`) and holders for the older entries; the Maturidi view and the Ash'ari and Maturidi schools' own books; Ibn Abi al-Izz's Sharh al-Tahawiyya as a source that describes other views in its own words. |
 | Phase 2 | The differences index, positions-held, compare view, search facet. |
 | Phase 3 | Preferred-school ordering among Sunni opinions; the opinion claim kind in the library pipeline at volume. |

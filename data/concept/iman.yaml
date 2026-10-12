@@ -88,6 +88,24 @@ perspectives:
       en: pp. 22 and 23
   sources:
   - source/aqida-wasitiyya
+- tradition: sunni-ashari
+  id: maqalat-ashari
+  stance:
+    ar: الإيمان قول وعمل يزيد وينقص، والإسلام عندهم غير الإيمان
+    en: Iman is speech and action, it increases and decreases, and Islam is distinct from iman in their view
+  summary:
+    ar: يذكر الأشعري أن الإيمان عند أهل الحديث والسنة هو الإيمان بالله وملائكته وكتبه ورسله وبالقدر خيره وشره، وأنهم «يقرون بأن الإيمان قول وعمل، يزيد وينقص»، وأن الإسلام عندهم غير الإيمان.
+    en: Al-Ash'ari reports that for the hadith scholars and Ahl al-Sunna iman is belief in God, His angels, books, messengers and the decree, good and evil; they affirm that iman is speech and action, increasing and decreasing, and that Islam is distinct from iman in their view.
+  holders:
+  - person/al-ashari
+  - work/maqalat-islamiyyin
+  evidence:
+  - ref: source/maqalat-islamiyyin
+    note:
+      ar: ص 347
+      en: p. 347
+  sources:
+  - source/maqalat-islamiyyin
 relations:
 - type: basis_for
   target: concept/islam-din
@@ -105,6 +123,7 @@ sources:
 - source/aqida-tahawiyya
 - source/lumat-al-itiqad
 - source/aqida-wasitiyya
+- source/maqalat-islamiyyin
 status:
   review: draft
   completeness: 2
