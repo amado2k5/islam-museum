@@ -17,10 +17,8 @@
 - { id: language/arabic, label: { en: "Arabic" } }
 - { id: language/persian, label: { en: "Persian" } }
 # Stubs for the al-Raheeq mining, batch 1 (Badr pp. 204–233) — remove each line as the entity is written.
-- { id: person/abu-lubaba, label: { ar: "أبو لبابة بن عبد المنذر", en: "Abu Lubaba ibn Abd al-Mundhir" } }
 - { id: person/ibn-umm-maktum, label: { ar: "عبد الله بن أم مكتوم", en: "Abdullah ibn Umm Maktum" } }
 - { id: person/damdam-ibn-amr, label: { ar: "ضمضم بن عمرو الغفاري", en: "Damdum ibn Amr al-Ghifari" } }
-- { id: person/umayr-ibn-wahb, label: { ar: "عمير بن وهب الجمحي", en: "Umayr ibn Wahb al-Jumahi" } }
 - { id: person/amir-ibn-al-hadrami, label: { ar: "عامر بن الحضرمي", en: "Amir ibn al-Hadrami" } }
 - { id: person/saraqa-ibn-malik, label: { ar: "سراقة بن مالك المدلجي", en: "Suraqa ibn Malik al-Mudliji" } }
 - { id: person/shayba-ibn-rabia, label: { ar: "شيبة بن ربيعة", en: "Shayba ibn Rabi'a" } }
@@ -37,7 +35,6 @@
 - { id: person/al-haysuman-al-khuzai, label: { ar: "الحيسمان بن عبد الله الخزاعي", en: "al-Haysuman ibn Abdillah al-Khuza'i" } }
 - { id: person/abu-rafi, label: { ar: "أبو رافع مولى رسول الله", en: "Abu Rafi" } }
 - { id: person/umm-al-fadl, label: { ar: "أم الفضل لبابة الكبرى", en: "Umm al-Fadl Lubaba al-Kubra" } }
-- { id: person/abdullah-ibn-rawaha, label: { ar: "عبد الله بن رواحة", en: "Abdullah ibn Rawaha" } }
 - { id: person/aqil-ibn-abi-talib, label: { ar: "عقيل بن أبي طالب", en: "Aqil ibn Abi Talib" } }
 - { id: person/abu-al-as-ibn-al-rabi, label: { ar: "أبو العاص بن الربيع", en: "Abu al-As ibn al-Rabi" } }
 - { id: person/saad-ibn-al-numan, label: { ar: "سعد بن النعمان", en: "Sa'd ibn al-Nu'man" } }
@@ -111,7 +108,6 @@
 - { id: person/umayya-ibn-abi-al-salt, label: { ar: "أمية بن أبي الصلت", en: "Umayya ibn Abi al-Salt" }, note: "Meccan monotheist poet" }
 - { id: person/quss-ibn-saida, label: { ar: "قس بن ساعدة", en: "Quss ibn Sa'ida" }, note: "Pre-Islamic monotheist preacher" }
 - { id: person/amr-ibn-nufayl, label: { ar: "عمرو بن نفيل", en: "Amr ibn Nufayl" }, note: "Meccan monotheist" }
-- { id: person/al-baraa-ibn-azib, label: { ar: "البراء بن عازب", en: "al-Bara' ibn 'Azib" }, note: "Companion and hadith narrator" }
 - { id: person/muqatil-ibn-sulayman, label: { ar: "مقاتل بن سليمان", en: "Muqatil ibn Sulayman" }, note: "Early Qur'an commentator cited by the book" }
 - { id: person/utba-ibn-abi-lahab, label: { ar: "عتبة بن أبي لهب", en: "Utba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Ruqayya" }
 - { id: person/utayba-ibn-abi-lahab, label: { ar: "عتيبة بن أبي لهب", en: "Utayba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Umm Kulthum" }
@@ -123,7 +119,6 @@
 - { id: person/nuaym-ibn-abdullah, label: { ar: "نعيم بن عبد الله", en: "Nu'aym ibn Abdullah" }, note: "Redirected Umar to his sister's house" }
 - { id: person/urwa-ibn-al-zubayr, label: { ar: "عروة بن الزبير", en: "Urwa ibn al-Zubayr" }, note: "Tabi'i narrator" }
 - { id: person/amar-ibn-al-walid, label: { ar: "عمارة بن الوليد", en: "Amara ibn al-Walid" }, note: "Whom Quraysh offered in exchange" }
-- { id: person/abdullah-ibn-muhammad, label: { ar: "عبد الله بن محمد", en: "Abdullah ibn Muhammad" }, note: "The Prophet's second son; died young" }
 - { id: person/jaria-banu-muammal, label: { ar: "جارية بني مؤمل", en: "Slave girl of Banu Mu'ammal" }, note: "Freed by Abu Bakr" }
 - { id: person/abdullah-ibn-judan-freedwoman, label: { ar: "مولاة عبد الله بن جدعان", en: "Freedwoman of Ibn Jud'an" }, note: "Told Hamza of Abu Jahl's insult" }
 - { id: building/dar-al-arqam, label: { ar: "دار الأرقم", en: "Dar al-Arqam" }, note: "The house where early Muslims met; Umar's conversion" }
@@ -135,7 +130,6 @@
 - { id: person/rafi-ibn-malik, label: { ar: "رافع بن مالك بن العجلان", en: "Rafi ibn Malik" }, note: "أحد النفر الستة من الخزرج في لقاء العقبة الأول ومن النقباء" }
 - { id: group/banu-kilab, label: { ar: "بنو كلاب", en: "Banu Kilab" }, note: "قبيلة من عامر بن صعصعة بتهامة ونجد، بعث إليهم الضحاك بن سفيان" }
 - { id: group/tayy, label: { ar: "طيء", en: "Tayy" }, note: "قبيلة جبلي طيء قوم حاتم الطائي وعدي بن حاتم؛ صنمهم الفلس" }
-- { id: person/siba-ibn-arfata, label: { ar: "سباع بن عرفطة", en: "Siba' ibn Arfata" }, note: "قيل استُخلف على المدينة في غزوة تبوك" }
 - { id: person/ramla-bint-al-harith, label: { ar: "رملة بنت الحارث", en: "Ramla bint al-Harith" }, note: "صاحبة الدار التي أُنزل فيها سبي بني تميم بالمدينة" }
 - { id: person/uqba-ibn-amir-ibn-nabi, label: { ar: "عقبة بن عامر بن نابي", en: "Uqba ibn Amir ibn Nabi" }, note: "أحد النفر الستة من الخزرج في لقاء العقبة الأول ومن بني حرام" }
 - { id: person/jabir-ibn-abdullah-ibn-riab, label: { ar: "جابر بن عبد الله بن رئاب", en: "Jabir ibn Abdullah ibn Riab" }, note: "أحد النفر الستة من الخزرج في لقاء العقبة الأول، شهد بدراً" }
@@ -145,7 +139,6 @@
 - { id: group/ghatafan, label: { ar: "غطفان", en: "Ghatafan" }, note: "قبيلة قيسية نجدية كبيرة كانت إحدى دعائم حلف الأحزاب" }
 - { id: person/al-harith-ibn-abi-dirar, label: { ar: "الحارث بن أبي ضرار", en: "al-Harith ibn Abi Dirar" }, note: "سيد بني المصطلق ووالد جويرية أم المؤمنين، أسلم بعد الغزوة" }
 - { id: person/sinan-ibn-abi-sinan-al-asadi, label: { ar: "سنان بن أبي سنان الأسدي", en: "Sinan ibn Abi Sinan al-Asadi" }, note: "صحابي بدري أول من بايع بيعة الرضوان تحت الشجرة" }
-- { id: person/qays-ibn-sad-ibn-ubada, label: { ar: "قيس بن سعد بن عبادة", en: "Qays ibn Sa'd ibn Ubada" }, note: "سيد الخزرج وصاحب راية الأنصار يوم فتح مكة ومن دهاة العرب" }
 # Added by the raheeq lane (batch 20: hunayn and ta'if, pp. 412-423)
 - { id: person/abu-burqan, label: { ar: "أبو برقان", en: "Abu Burqan" }, note: "عم النبي من الرضاعة ومن وفد هوازن الأربعة عشر إلى الجعرانة" }
 - { id: person/masud-ibn-amr-al-ghifari, label: { ar: "مسعود بن عمرو الغفاري", en: "Mas'ud ibn Amr al-Ghifari" }, note: "أمين الغنائم المحبوسة بالجعرانة بعد حنين" }
@@ -171,7 +164,6 @@
 - { id: person/malik-ibn-al-namt, label: { ar: "مالك بن النمط", en: "Malik ibn al-Namt" }, note: "أمّره النبي على من أسلم من همدان" }
 - { id: person/ziyad-ibn-al-harith-al-sudai, label: { ar: "زياد بن الحارث الصدائي", en: "Ziyad ibn al-Harith al-Suda'i" }, note: "جاء إلى النبي وافداً عن قومه صداء فردّ جيش الأربعمائة عنهم" }
 - { id: person/fayruz-al-daylami, label: { ar: "فيروز الديلمي", en: "Fayruz al-Daylami" }, note: "قاتل الأسود العنسي باليمن قبل وفاة النبي بيوم وليلة" }
-- { id: person/al-aswad-al-ansi, label: { ar: "الأسود العنسي", en: "al-Aswad al-Ansi" }, note: "المتنبئ الثاني باليمن، قتله فيروز الديلمي" }
 - { id: person/bujayr-ibn-zuhayr, label: { ar: "بجير بن زهير", en: "Bujayr ibn Zuhayr" }, note: "أخو كعب بن زهير؛ كتب إليه يحذره ويدله على الاستئمان" }
 - { id: person/zuhayr-ibn-abi-sulma, label: { ar: "زهير بن أبي سلمى", en: "Zuhayr ibn Abi Sulma" }, note: "الشاعر الجاهلي صاحب المعلقة، والد كعب وبجير" }
 - { id: person/abu-al-dubayb, label: { ar: "أبو الضبيب", en: "Abu al-Dubayb" }, note: "رئيس وفد بلي؛ سأل النبي عن أجر الضيافة وضالة الغنم والبعير" }
@@ -181,7 +173,6 @@
 - { id: person/jabbar-ibn-aslam, label: { ar: "جبار بن أسلم", en: "Jabbar ibn Aslam" }, note: "من رؤساء وفد بني عامر" }
 - { id: person/labid-ibn-rabia, label: { ar: "لبيد بن ربيعة", en: "Labid ibn Rabi'a" }, note: "الشاعر العامري صاحب المعلقة، أخو أربد بن قيس لأمه" }
 - { id: place/afra, label: { ar: "عفراء", en: "Afra'" }, note: "ماء بفلسطين صُلب عليه فروة بن عمرو الجذامي" }
-- { id: place/maan, label: { ar: "معان", en: "Ma'an" }, note: "بلدة بجنوب الشام، منزل فروة بن عمرو عامل الروم" }
 # Added by the raheeq lane (batch 23: the Farewell Pilgrimage and the death, pp. 458-472)
 - { id: place/arafat, label: { ar: "عرفة", en: "Arafat" }, note: "موقف الحج الأعظم خارج الحرم، مكان خطبة الوداع" }
 - { id: place/mina, label: { ar: "منى", en: "Mina" }, note: "وادٍ بين مكة ومزدلفة، فيه الجمرات والمنحر وخطبتا النحر والتشريق" }
@@ -195,12 +186,10 @@
 - { id: person/sarra-bint-nabhan, label: { ar: "سرّاء بنت نبهان", en: "Sarra' bint Nabhan" }, note: "راوية خطبة يوم الرؤوس في أيام التشريق" }
 - { id: person/abd-al-rahman-ibn-abi-bakr, label: { ar: "عبد الرحمن بن أبي بكر", en: "Abd al-Rahman ibn Abi Bakr" }, note: "صاحب السواك الذي أخذته عائشة فلينته للنبي في احتضاره" }
 - { id: person/abu-juhayfa, label: { ar: "أبو جحيفة", en: "Abu Juhayfa" }, class: person, note: "صحابي روى أوصاف النبي — شمائل" }
-- { id: person/jabir-ibn-samra, label: { ar: "جابر بن سمرة", en: "Jabir ibn Samra" }, class: person, note: "صحابي روى أوصاف النبي — شمائل" }
 - { id: person/abu-l-as-ibn-al-rabi, label: { ar: "أبو العاص بن الربيع", en: "Abu al-As ibn al-Rabi'" }, class: person, note: "زوج زينب بنت النبي؛ ابن خالة لها" }
 - { id: person/khunays-ibn-hudhafa, label: { ar: "خُنيس بن حذافة", en: "Khunays ibn Hudhafa" }, class: person, note: "زوج حفصة بنت عمر الأول؛ استشهد ببدر أو توفي بعده" }
 - { id: person/kharija-ibn-zayd, label: { ar: "خارجة بن زيد", en: "Kharija ibn Zayd" }, class: person, note: "راوٍ نقل صفة مجلس النبي — شمائل" }
 - { id: person/abu-tufayl-amir-ibn-wathila, label: { ar: "أبو الطفيل عامر بن واثلة", en: "Abu al-Tufayl Amir ibn Wathila" }, class: person, note: "صحابي وصف النبي؛ آخر من رآه موتاً بمكة" }
-- { id: person/al-rabi-bint-muawwidh, label: { ar: "الربيع بنت معوذ", en: "Al-Rabi' bint Mu'awwidh" }, class: person, note: "صحابية؛ وصفت النبي ليلة زفافها" }
 - { id: person/kilab-ibn-murrah, label: { ar: "كلاب بن مرة", en: "Kilab ibn Murrah" } }
 - { id: person/murrah-ibn-kaab, label: { ar: "مرة بن كعب", en: "Murrah ibn Ka'b" } }
 - { id: person/kaab-ibn-luayy, label: { ar: "كعب بن لؤي", en: "Ka'b ibn Lu'ayy" } }
@@ -218,4 +207,3 @@
 - { id: person/amr-ibn-aidh-makhzumi, label: { ar: "عمرو بن عائذ المخزومي", en: "Amr ibn A'idh al-Makhzumi" }, note: "Father of Fatima, the Prophet's paternal grandmother" }
 - { id: place/gaza, label: { ar: "غزة", en: "Gaza" }, note: "Where Hashim died on a trading journey" }
 - { id: group/banu-al-najjar, label: { ar: "بنو النجار", en: "Banu al-Najjar" }, note: "Khazrajite clan; maternal kin of Abd al-Muttalib" }
-- { id: group/banu-makhzum, label: { ar: "بنو مخزوم", en: "Banu Makhzum" }, note: "Qurashi clan of Fatima bint Amr" }
