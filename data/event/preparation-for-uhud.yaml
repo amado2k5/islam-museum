@@ -1,0 +1,28 @@
+id: event/preparation-for-uhud
+kind: campaign
+class: event
+label:
+  ar: "استعدادات قريش لغزوة أحد"
+  en: "Quraysh Preparations for the Battle of Uhud"
+summary:
+  ar: "عملية تحشيد عسكري ومالي واسعة قامت بها قريش للانتقام من المسلمين بعد هزيمتها في بدر."
+  en: "A large-scale military and financial mobilization by Quraysh to avenge their defeat at Badr."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+sides:
+  - label: { ar: "قريش", en: "Quraysh" }
+    participants: [group/quraysh]
+    commanders: [person/abu-sufyan]
+  - label: { ar: "المسلمون", en: "Muslims" }
+    participants: [group/early-muslims]
+    commanders: [person/muhammad]
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.248 }
+status: { review: draft }
+relations:
+  - { type: has_part, target: event/quraysh-military-funding }
+  - { type: related_to, target: event/battle-of-uhud }

@@ -1,0 +1,20 @@
+id: event/betrayal-of-abdullah-ibn-ubayy
+kind: defection
+class: event
+label:
+  ar: "تمرد عبد الله بن أبي بن سلول"
+  en: "The Betrayal of Abdullah ibn Ubayy"
+summary:
+  ar: "انسحاب عبد الله بن أبي بن سلول بنحو ثلث الجيش (300 مقاتل) قبل بدء المعركة لإحداث بلبلة في صفوف المسلمين."
+  en: "The withdrawal of Abdullah ibn Ubayy and about one-third of the army (300 fighters) just before the battle to create chaos among the Muslims."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.253, p.254 }
+status: { review: draft }
+relations:
+  - { type: related_to, target: event/uhud-tactical-deployment }

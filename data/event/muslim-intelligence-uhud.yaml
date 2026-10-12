@@ -1,0 +1,20 @@
+id: event/muslim-intelligence-uhud
+kind: other
+class: event
+label:
+  ar: "استخبارات المدينة عن جيش أحد"
+  en: "Medina Intelligence on the Uhud Army"
+summary:
+  ar: "إرسال العباس بن عبد المطلب رسالة تفصيلية للنبي ﷺ حول تحركات جيش قريش."
+  en: "Al-Abbas ibn Abd al-Muttalib sending a detailed message to the Prophet ﷺ regarding Quraysh's army movements."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.250 }
+status: { review: draft }
+relations:
+  - { type: related_to, target: event/council-of-uhud }

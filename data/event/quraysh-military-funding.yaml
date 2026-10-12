@@ -1,0 +1,20 @@
+id: event/quraysh-military-funding
+kind: other
+class: event
+label:
+  ar: "تمويل جيش أحد"
+  en: "Funding of the Uhud Army"
+summary:
+  ar: "بيع قريش لألف بعير لجمع خمسين ألف دينار لتمويل حربهم ضد المسلمين."
+  en: "The sale of a thousand camels by Quraysh to raise fifty thousand dinars to fund their war against Muslims."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.248 }
+status: { review: draft }
+relations:
+  - { type: part_of, target: event/preparation-for-uhud }

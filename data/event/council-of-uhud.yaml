@@ -1,0 +1,20 @@
+id: event/council-of-uhud
+kind: council
+class: event
+label:
+  ar: "المجلس الاستشاري لغزوة أحد"
+  en: "The Consultative Council for the Battle of Uhud"
+summary:
+  ar: "مجلس عسكري ناقش فيه النبي ﷺ وصحابته خطة الدفاع، بين التحصن في المدينة أو الخروج لملاقاة العدو."
+  en: "A military council where the Prophet ﷺ and his companions discussed the defense plan, debating between fortifying Medina or exiting to face the enemy."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.251 }
+status: { review: draft }
+relations:
+  - { type: related_to, target: event/battle-of-uhud }

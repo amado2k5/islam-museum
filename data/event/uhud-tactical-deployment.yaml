@@ -1,0 +1,21 @@
+id: event/uhud-tactical-deployment
+kind: other
+class: event
+label:
+  ar: "التوزيع التكتيكي لجيش المسلمين في أحد"
+  en: "Tactical Deployment of the Muslim Army at Uhud"
+summary:
+  ar: "توزيع القوات على الميمنة والميسرة، وتعيين خمسين رامياً على جبل الرماة لحماية ظهر الجيش."
+  en: "The distribution of forces on the right and left wings, and the appointment of fifty archers on the Archers' Hill to protect the army's rear."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.255 }
+status: { review: draft }
+relations:
+  - { type: occurred_at, target: place/archers-hill }
+  - { type: related_to, target: event/battle-of-uhud }
