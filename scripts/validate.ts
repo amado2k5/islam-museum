@@ -371,6 +371,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
   // Near-duplicate titles across entity types: the same label under two ids is usually one thing entered twice (docs: merge, keep the other id as an alias).
   const titleKey = (s: string) => s.normalize("NFKD").replace(/[\u064B-\u065F\u0670\u0640]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي")
     .toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  const homonymsFile = p("data", "_homonyms.yaml");
+  const homonyms = new Set<string>(existsSync(homonymsFile) ? ((readYaml(homonymsFile) ?? {}).namesakes ?? []).flat() : []);
   const byTitle = new Map<string, { id: string; cls: string; file: string }[]>();
   for (const { entity, file } of loaded) {
     const t = entity.label?.ar ? titleKey(entity.label.ar) : "";
@@ -381,6 +383,9 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     const classes = new Set(group.map((g) => g.cls));
     // A place and an event can share a name (the pool and the proclamation at it), so this is a review warning, not a failure.
     if (group.length > 1 && classes.size > 1) warn(group[0].file, `title "${t}" is used by ${group.map((g) => g.id).join(", ")}: if it is one thing, merge it (keep one id, list the other under aliases)`);
+    // Two people under one Arabic name are one person entered twice unless data/_homonyms.yaml says they are namesakes.
+    const people = group.filter((g) => g.cls === "person");
+    if (people.length > 1 && !people.every((g) => homonyms.has(g.id))) error(people[1].file, `person "${t}" exists twice: ${people.map((g) => g.id).join(", ")}. Merge them (keep one id, list the other under aliases) or list both ids in data/_homonyms.yaml if they are different people`);
   }
 
   return { issues, entityCount: loaded.length, proseCount: prose.length };
