@@ -11,10 +11,11 @@
   - exhibit/ ×5 (all five trails)
   - event/ ×201 (ALL events done)
   - person/ ×472 of 472 — complete (alphabetical by slug, `abaha` through `zuhayr-ibn-sard`)
+  - group/ ×60 of 60 — complete (`adnan` through `thaqif`)
 
 ## Next step
 
-People: continue `content/en/person/` alphabetically (comm of ar/en file lists). Then group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
+Continue `content/en/` by class: concept ×45, place ×27, source ×9, object ×9, polity ×8, work ×11, building ×5, practice ×4, journey ×3.
 
 ## Conventions
 
