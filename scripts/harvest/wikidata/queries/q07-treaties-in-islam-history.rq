@@ -1,0 +1,2 @@
+# Treaties with a participant in the subclass tree of Islam (Q432). Class verified 2026-10-12: treaty Q131569.
+SELECT DISTINCT ?item WHERE { ?item wdt:P31/wdt:P279* wd:Q131569 . ?item wdt:P710|wdt:P1344 ?p . ?p wdt:P279* wd:Q432 . } LIMIT 5000
