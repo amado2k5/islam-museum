@@ -1,0 +1,49 @@
+id: polity/rashidun-caliphate
+class: polity
+kind: caliphate
+label:
+  ar: الخلافة الراشدة
+  en: Rashidun Caliphate
+summary:
+  ar: خلافة قامت سنة 632م وانتهت سنة 661م، وعاصمتها الكوفة ثم المدينة المنورة.
+wings:
+- time
+- place
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+start:
+  edtf: "0632-06"
+  calendar: julian
+  precision: month
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "0661-07-28"
+  calendar: julian
+  precision: day
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+capitals:
+- place: place/kufa
+- place: place/medina
+external_ids:
+  wikidata: Q12490507
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book
