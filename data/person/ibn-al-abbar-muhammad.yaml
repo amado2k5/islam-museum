@@ -1,0 +1,23 @@
+id: person/ibn-al-abbar-muhammad
+class: person
+label: { ar: "ابن الأبار محمد بن عبد الله", en: "Ibn al-Abbar, Muhammad ibn Abd Allah" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن عبد الله بن أبي بكر القضاعي البلنسي" }
+  - { kind: nisba, lang: ar, value: "البلنسي" }
+gender: male
+roles: [historian, muhaddith, writer]
+traditions: [sunni]
+born: { edtf: "1199", hijri: "0595", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1260", hijri: "0658", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مؤرخ ومحدث ولغوي وأديب وشاعر من بلنسية في شرق الأندلس، صاحب «التكملة لكتاب الصلة»."
+  en: "A historian, hadith scholar, linguist and poet from Valencia (Balansiya) in eastern al-Andalus, author of al-Takmila li-Kitab al-Silla."
+wings: [people, words]
+themes: [history-writing-and-social-thought, literature]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 128-130, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص128-130", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,22 @@
+id: person/abyari-ali-ibn-ismail
+class: person
+label: { ar: "علي بن إسماعيل الأبياري", en: "Ali ibn Isma'il al-Abyari" }
+names:
+  - { kind: full, lang: ar, value: "علي بن إسماعيل بن علي بن حسن بن عطية التلكاني الأبياري" }
+gender: male
+roles: [scholar, muhaddith]
+traditions: [sunni]
+born: { edtf: "1161", hijri: "0557", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1219", hijri: "0616", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أهل أبيار في الغربية بمصر، ولد سنة 557هـ وتوفي سنة 616هـ، وترجمت له كتب الطبقات والمشتبه في الأسماء."
+  en: "From Abyar in the Gharbiya province of Egypt; born in 557 AH and died in 616 AH. The biographical dictionaries record him in works on homonymous names."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 231-234, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص231-234", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
