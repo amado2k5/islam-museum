@@ -14,7 +14,8 @@
   - 5c-ii: Abd Shams / Umayya allies / Asad / Abd al-Dar persons (21), 3 places, Ubaydullah event prose.
   - 5c-iii: Zuhra, Taym, Makhzum persons, Abdullah ibn Jafar, Muhammad ibn Abi Hudhayfa (18), places al-Qadisiyya, al-Yarmuk, al-Yamama, Ayn al-Tamr, Fahl; Ruqayya (Isaba file) gets the Abyssinia edges.
   - 5c-iv: Jumah (12) and Sahm (12) persons incl. Hatib's household, Hasana and Shurahbil, al-Saib, Umayr ibn Ri'ab, Abdullah ibn Hudhafa (Khosrow's envoy).
-  - Remaining plan: 5c-v Adi, Amir, Al-Harith; 5c-vi clan group prose and thin-group upgrade.
+  - 5c-v: Adi (5), Amir (6), Al-Harith (4) persons incl. al-Nu'man ibn Adi and Salit ibn Amr, event prose for Umar's dismissal of al-Nu'man, Sawda edge, stub person/hawdha-ibn-ali-al-hanafi.
+  - Remaining plan: 5c-vi clan group prose and thin-group upgrade.
 
 ## Doubt markers captured so far (pp. 3-11)
 

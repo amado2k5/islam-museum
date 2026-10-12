@@ -27,5 +27,6 @@ relations:
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: participated_in, target: event/marriage-to-sawda }
   - { type: participated_in, target: event/second-migration-to-abyssinia }
-sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari]
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, note: "ذكرها ابن إسحاق ص11 في مهاجرات الحبشة من بني عامر بن لؤي", sources: [source/ibn-hisham-saqqa] }
+sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 117-118" }
