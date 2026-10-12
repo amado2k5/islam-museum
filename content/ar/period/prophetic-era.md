@@ -13,7 +13,7 @@ translators: []
 
 ### الأحداث البارزة
 - [[event/pledges-of-aqaba|بيعتا العقبة]] (نحو 621م إلى نحو 622م)
-- [[event/hijra|الهجرة النبوية]] (نحو 622م إلى 622م)
+- [[event/hijra|الهجرة النبوية]] (نحو 622م)
 - [[event/battle-of-badr|غزوة بدر الكبرى]] (624م)
 - [[event/battle-of-uhud|غزوة أحد]] (625م)
 - [[event/return-of-abyssinian-emigrants|قدوم مهاجري الحبشة مع جعفر بن أبي طالب]] (نحو 628م)
