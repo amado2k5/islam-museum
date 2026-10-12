@@ -1,0 +1,61 @@
+id: person/al-miswar-ibn-makhrama
+class: person
+label:
+  ar: المسور بن مخرمة
+  en: al-Miswar ibn Makhrama
+names:
+- kind: full
+  lang: ar
+  value: المسور بن مخرمة بن نوفل بن أهيب بن زهرة بن كلاب بن مرة بن كعب بن لؤي القرشي الزهري
+- kind: kunya
+  lang: ar
+  value: أبو عبد الرحمن
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي صغير من بني زهرة، وُلد بعد الهجرة بسنتين وقدم المدينة بعد الفتح وهو غلام؛ ابن أخت عبد الرحمن بن عوف، حفظ حديث خطبة علي بنت أبي جهل، وكان مع ابن الزبير ومات بحجر منجنيق في الحصار الأول سنة 64هـ.
+  en: A young Companion of Banu Zuhra, born two years after the Hijra, who came to Medina as a boy after the conquest; a nephew of Abd al-Rahman ibn Awf, he preserved the hadith about Ali's proposal to the daughter of Abu Jahl, and he was with
+    Ibn al-Zubayr, dying from a catapult stone in the first siege in 64 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 8258 (ص 1415).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-zuhra
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/makhrama-ibn-nawfal
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 8258، ص 1415
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1415, entry 8258)

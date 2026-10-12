@@ -1,0 +1,56 @@
+id: person/sulayman-ibn-surad
+class: person
+label:
+  ar: سليمان بن صرد
+  en: Sulayman ibn Surad
+names:
+- kind: full
+  lang: ar
+  value: سليمان بن صرد بن الجون بن أبي الجون الخزاعي
+- kind: kunya
+  lang: ar
+  value: أبو المطرف
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من خزاعة، يقال كان اسمه يسار فغيّره النبي؛ شهد صفين مع علي، وكاتب الحسين ثم تخلف عنه، وقُتل سنة 65هـ في الطلب بدمه وهو ابن ثلاث وتسعين سنة.
+  en: A Companion of Khuza'a, said to have been named Yasar before the Prophet changed it; he fought at Siffin with Ali, wrote to al-Husayn and then held back, and was killed in 65 AH leading the expedition to avenge him, aged ninety-three.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 3611 (ص 611).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/khuzaa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 3611، ص 611
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 611, entry 3611)

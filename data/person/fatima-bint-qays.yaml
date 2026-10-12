@@ -1,0 +1,58 @@
+id: person/fatima-bint-qays
+class: person
+label:
+  ar: فاطمة بنت قيس الفهرية
+  en: Fatima bint Qays al-Fihriyya
+names:
+- kind: full
+  lang: ar
+  value: فاطمة بنت قيس بن خالد القرشية الفهرية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أخت الضحاك بن قيس، من المهاجرات الأول وذات جمال وعقل؛ طلقها أبو بكر بن حفص المخزومي فتزوجت أسامة بن زيد بإشارة النبي، وروت قصة الجساسة، وفي بيتها اجتمع أهل الشورى بعد مقتل عمر.
+  en: A sister of al-Dahhak ibn Qays and one of the first emigrants, known for beauty and intelligence; divorced by Abu Bakr ibn Hafs al-Makhzumi, she married Usama ibn Zayd on the Prophet's advice, narrated the story of the Jassasa, and the
+    council of the Shura met in her house after Umar's killing.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11647 (ص 1938).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: sibling_of
+  target: person/al-dahhak-ibn-qays
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/usama-ibn-zayd
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11647، ص 1938
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1938, entry 11647)

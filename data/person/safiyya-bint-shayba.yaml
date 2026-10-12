@@ -1,0 +1,53 @@
+id: person/safiyya-bint-shayba
+class: person
+label:
+  ar: صفية بنت شيبة
+  en: Safiyya bint Shayba
+names:
+- kind: full
+  lang: ar
+  value: صفية بنت شيبة بن عثمان العبدرية
+gender: female
+roles:
+- companion
+traditions: []
+summary:
+  ar: اختُلف في صحبتها، وأبعد من قال إنه لا رؤية لها لثبوت حديثها في البخاري تعليقاً؛ روت عن عائشة وأم حبيبة وأم سلمة وأسماء، وذكرها ابن حبان في ثقات التابعين.
+  en: Whether she was a Companion is disputed, and the view that she never saw the Prophet is called the most remote because her hadith is established in al-Bukhari in suspended form; she narrated from Aisha, Umm Habiba, Umm Salama and Asma,
+    and Ibn Hibban counts her among the trustworthy Successors.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: debated
+  note: مذكور في الإصابة ترجمة رقم 11449 (ص 1910).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: unknown
+  basis: debated
+  note: اختُلف في صحبتها؛ انظر ما اختُلف فيه في الصفحة.
+relations:
+- type: child_of
+  target: person/shayba-ibn-uthman
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11449، ص 1910
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1910, entry 11449)

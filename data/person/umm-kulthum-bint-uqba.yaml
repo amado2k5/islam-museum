@@ -1,0 +1,81 @@
+id: person/umm-kulthum-bint-uqba
+class: person
+label:
+  ar: أم كلثوم بنت عقبة
+  en: Umm Kulthum bint Uqba
+names:
+- kind: full
+  lang: ar
+  value: أم كلثوم بنت عقبة بن أبي معيط الأموية
+- kind: kunya
+  lang: ar
+  value: أم كلثوم
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابية أموية أسلمت قديماً وبايعت، وخرجت إلى المدينة مهاجرة وحدها في الهدنة عام الحديبية فجاء أخواها يطلبانها فلم يردها النبي؛ تزوجت زيد بن حارثة ثم الزبير ثم عبد الرحمن بن عوف ثم عمرو بن العاص.
+  en: An Umayyad Companion who embraced Islam early and gave her pledge; she emigrated to Medina alone during the truce of al-Hudaybiyya, and when her two brothers came to demand her the Prophet did not return her; she married in turn Zayd ibn
+    Haritha, al-Zubayr, Abd al-Rahman ibn Awf and Amr ibn al-As.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12272 (ص 2033).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/uqba-ibn-abi-muayt
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/al-walid-ibn-uqba
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/zayd-ibn-haritha
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/zubayr-ibn-al-awwam
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/abd-al-rahman-ibn-awf
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/amr-ibn-al-as
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/treaty-of-hudaybiyya
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12272، ص 2033
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2033, entry 12272)

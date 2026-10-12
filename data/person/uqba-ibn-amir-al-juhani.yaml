@@ -1,0 +1,54 @@
+id: person/uqba-ibn-amir-al-juhani
+class: person
+label:
+  ar: عقبة بن عامر الجهني
+  en: Uqba ibn Amir al-Juhani
+names:
+- kind: full
+  lang: ar
+  value: عقبة بن عامر بن عبس بن عمرو بن عدي الجهني
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي مشهور روى عن النبي كثيراً؛ كان قارئاً عالماً بالفرائض والفقه فصيحاً شاعراً كاتباً وأحد من جمع القرآن، وكان بريد عمر بفتح دمشق، وولاه معاوية مصر، ومات في خلافة معاوية.
+  en: A well-known Companion who narrated much from the Prophet; a reciter learned in inheritance law and jurisprudence, an eloquent poet and scribe, one of those who collected the Qur'an; he carried the news of the conquest of Damascus to Umar,
+    Mu'awiya made him governor of Egypt, and he died in Mu'awiya's caliphate.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 6148 (ص 1041).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/damascus
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 6148، ص 1041
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1041, entry 6148)

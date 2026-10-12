@@ -1,0 +1,61 @@
+id: person/umama-bint-abi-al-as
+class: person
+label:
+  ar: أمامة بنت أبي العاص
+  en: Umama bint Abi al-As
+names:
+- kind: full
+  lang: ar
+  value: أمامة بنت أبي العاص بن الربيع بن عبد العزى بن عبد شمس بن عبد مناف العبشمية
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: حفيدة النبي من ابنته زينب، كان النبي يحملها على عاتقه في الصلاة؛ تزوجها علي بن أبي طالب بعد فاطمة، ثم المغيرة بن نوفل.
+  en: A granddaughter of the Prophet through his daughter Zaynab, whom he used to carry on his shoulder in prayer; she married Ali ibn Abi Talib after Fatima, and then al-Mughira ibn Nawfal.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 10879 (ص 1816).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/zaynab-bint-muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/abu-al-as-ibn-al-rabi
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/ali-ibn-abi-talib
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 10879، ص 1816
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1816, entry 10879)

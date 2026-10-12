@@ -1,0 +1,61 @@
+id: person/samura-ibn-jundab
+class: person
+label:
+  ar: سمرة بن جندب
+  en: Samura ibn Jundab
+names:
+- kind: full
+  lang: ar
+  value: سمرة بن جندب بن هلال بن حريج بن مرة الفزاري
+- kind: kunya
+  lang: ar
+  value: أبو سليمان
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من فزارة حليف الأنصار؛ ردّه النبي صغيراً ثم أجازه لما صرع من أجازه، ونزل البصرة وكان زياد يستخلفه عليها، وتوفي قبل سنة 60هـ أو في أولها.
+  en: A Companion of Fazara and ally of the Ansar; the Prophet sent him back as a boy and then allowed him to go out when he wrestled down the boy who had been allowed; he settled in Basra, where Ziyad left him in charge, and died before 60 AH
+    or at its start.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 3633 (ص 614).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/basra
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 3633، ص 614
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 614, entry 3633)

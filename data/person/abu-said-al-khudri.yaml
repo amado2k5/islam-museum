@@ -1,0 +1,61 @@
+id: person/abu-said-al-khudri
+class: person
+label:
+  ar: أبو سعيد الخدري
+  en: Abu Said al-Khudri
+names:
+- kind: full
+  lang: ar
+  value: سعد بن مالك بن سنان بن عبيد بن ثعلبة الأنصاري الخزرجي، أبو سعيد الخدري
+- kind: kunya
+  lang: ar
+  value: أبو سعيد
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي خزرجي مشهور بكنيته، استُصغر بأحد واستُشهد أبوه بها وغزا بعدها؛ أحد المكثرين من الحديث ومن أفقه أحداث الصحابة، وتوفي سنة 74هـ على أرجح الأقوال عند الواقدي.
+  en: A Khazraji Companion known by his kunya, judged too young at Uhud, where his father was killed; he campaigned afterwards and became one of the great transmitters of hadith and among the most learned of the younger Companions; al-Waqidi
+    has him dying in 74 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 3261 (ص 563).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/malik-ibn-sinan
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 3261، ص 563
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 563, entry 3261)
