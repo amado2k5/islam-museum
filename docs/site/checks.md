@@ -48,6 +48,8 @@ Warnings:
 - `scripts/hijri/dates.test.ts`: BH rendering (no year 0), the era sort (an era after the events of its start year), Hijri-first ordering (8 AH after 7 AH), Hijri-only dates getting a position, and undated entries sorting last.
 - `scripts/pipeline.test.ts`: validator rules, the frozen Qur'an text, scope rules, and content guards.
 
+The per-test timeout is 60 seconds (`vitest.config.ts`). The pipeline tests each validate the whole repository, which is slower on the CI runner than on a laptop. A test that times out there is not a failing rule; do not lower the limit back to the default.
+
 ## Adding a check
 
 1. Decide the level: a data problem is a `validate` error; a rendering problem is a `check-site` error; a judgement you cannot make mechanically is a warning.
