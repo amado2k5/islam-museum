@@ -1,0 +1,103 @@
+id: exhibit/path-islam-in-30-minutes
+class: exhibit
+kind: tour
+label:
+  ar: الإسلام في ثلاثين دقيقة
+summary:
+  ar: 'مسارٌ تمهيدي لمن لم يعرف الإسلام من قبل: معنى الإسلام والإيمان والإحسان، والأركان الخمسة وكيف تُؤدّى، ثم من هو النبي وكيف بدأت الرسالة ومن أين يبدأ التقويم الهجري.'
+audience:
+- newcomer
+duration_minutes: 30
+wings:
+- ideas
+- time
+periods:
+- period/prophetic-era
+regions:
+- arabia
+rooms:
+- title:
+    ar: ما الإسلام؟
+  body:
+    ar: 'ابدأ بالكلمة نفسها: كيف عرّفها النبي في الحديث، وما الدعائم التي يقوم عليها.'
+  features:
+  - concept/islam-din
+- title:
+    ar: ما الإيمان؟
+  body:
+    ar: الإسلام أعمال ظاهرة والإيمان تصديق؛ اقرأ كيف فرّق بينهما حديث جبريل، وانتبه إلى موقف أهل الحديث المنقول في الصفحة.
+  features:
+  - concept/iman
+- title:
+    ar: ما الإحسان؟
+  body:
+    ar: المرتبة الثالثة في الحديث نفسه، بها يكتمل ترتيب الدين.
+  features:
+  - concept/ihsan
+- title:
+    ar: الأركان الخمسة
+  body:
+    ar: 'الآن ترى الصورة كلها في سطر واحد: الأعمال الخمسة التي بُني عليها الإسلام.'
+  features:
+  - concept/five-pillars
+- title:
+    ar: الشهادة
+  body:
+    ar: أول الأركان، وبها يبدأ المرء في الإسلام.
+  features:
+  - concept/shahada
+- title:
+    ar: الصلاة
+  body:
+    ar: 'الركن الثاني: كيف تتكرر في اليوم والليلة، وماذا يفرّق الفريضة عن التطوع.'
+  features:
+  - practice/salah
+- title:
+    ar: الزكاة
+  body:
+    ar: اقرأ كيف يميّزها الحديث عن صدقة التطوع، ومن مصارفها.
+  features:
+  - practice/zakat
+- title:
+    ar: صيام رمضان
+  body:
+    ar: 'الركن الرابع: الشهر الذي أُنزل فيه القرآن، ومن تُرخَّص له الفطر.'
+  features:
+  - practice/sawm-ramadan
+- title:
+    ar: الحج
+  body:
+    ar: 'الركن الخامس: قصد البيت الحرام لمن استطاع، وهو يقودك إلى مكة.'
+  features:
+  - practice/hajj
+- title:
+    ar: من هو النبي؟
+  body:
+    ar: بعد الأركان، تعرّف على صاحب الرسالة كما يقدّمه المتحف.
+  features:
+  - person/muhammad
+- title:
+    ar: كيف بدأت الرسالة؟
+  body:
+    ar: 'غار حراء ونزول الوحي: أول لحظة في القصة.'
+  features:
+  - event/first-revelation
+- title:
+    ar: الهجرة وبداية التقويم
+  body:
+    ar: الحدث الذي يبدأ منه التقويم الهجري، ونهاية المسار.
+  features:
+  - event/hijra
+sources:
+- source/sahih-al-bukhari
+- source/mubarakpuri-raheeq
+provenance:
+  layer: own-research
+  source: مسار تعليمي مبني على صفحات المتحف نفسها (docs/plan/19-tour-learn.md)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: learn-pathways-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; pathway assembled from existing museum entries (docs/plan/19-tour-learn.md)

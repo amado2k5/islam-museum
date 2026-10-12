@@ -89,7 +89,7 @@ Validator rules: every step reference resolves; 5 to 15 steps; the stated time m
 
 | When | What |
 |---|---|
-| Now (Phase 1) | The tab, the landing-page card, the menu entry and a coverage-page notice, all saying the feature is being built (live). This plan. |
+| Now (Phase 1) | The tab, the landing-page card, the menu entry and a coverage-page notice, all saying the feature is being built (live), and **five trial pathways** built from existing pages so visitors can see what a pathway is: *Islam in 30 minutes*, *The Meccan period: from the cave to the Hijra*, *The two migrations to Abyssinia*, *The women around the Prophet*, *From opposition to Islam*. They are `exhibit` entities (ids `exhibit/path-…`) shown as numbered pages until the player exists. More are added as the plan reaches each phase. This plan. |
 | Phase 1 | The planning pass of §4: the 300-pathway catalogue and report; schema and validator rules; the first 10 pathways written by hand around what is already in the museum (the Prophetic era is deep enough today for the first ones: the Meccan period, the two migrations to Abyssinia, the road to the conquest of Mecca, the women around the Prophet, the Companions of the second pledge). |
 | Phase 2 | The step-by-step player and "see it all" views, the chooser, local progress, printable handouts, 60 pathways. |
 | Phase 3 | 150 pathways across all kinds; "Part of these pathways" on labels; pathway readiness in the coverage dashboard. |
