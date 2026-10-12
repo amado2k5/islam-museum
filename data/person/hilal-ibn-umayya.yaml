@@ -1,0 +1,18 @@
+id: person/hilal-ibn-umayya
+class: person
+label: { ar: "هلال بن أمية الواقفي", en: "Hilal ibn Umayya al-Waqifi" }
+names:
+  - { kind: full, lang: ar, value: "هلال بن أمية الواقفي" }
+gender: male
+summary:
+  ar: "أحد الثلاثة الذين خُلّفوا بعد تبوك؛ من بني واقف؛ شيخ كبير بحسب زوجته، وأُذن لها أن تخدمه أثناء اعتزال النساء."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/order-to-the-three-to-separate-from-their-wives, role: "أُذن لزوجته بخدمته", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/repentance-of-the-three-accepted, role: "تيب عليه", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 175, 178-179", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 175, 178-179" }

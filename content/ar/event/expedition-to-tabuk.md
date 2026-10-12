@@ -37,7 +37,10 @@ translators: []
 ## مسجد الضرار
 بعد الرجوع: [[event/masjid-al-dirar-builders-ask-the-prophet-to-pray|طلب أصحاب المسجد الصلاة فيه]] قبيل الخروج، ثم [[event/demolition-of-masjid-al-dirar|هدم المسجد]] عند ذي أوان، وأصحابه في [[group/builders-of-masjid-al-dirar|مجموعتهم]]. {cite:ibn-hisham-saqqa 4/173-174}
 
-أما الثلاثة المخلفون فموضوع الدفعة 7ب.
+وبين المدينة وتبوك ذكر ابن إسحاق [[event/prophets-mosques-between-medina-and-tabuk|مساجد النبي]] المعلومة. {cite:ibn-hisham-saqqa 4/174-175}
+
+## الثلاثة المخلفون
+بعد الرجوع: [[event/the-three-left-behind|قصة الثلاثة الذين خُلّفوا]] (كعب ومرارة وهلال) والمقاطعة خمسين ليلة ثم قبول التوبة. {cite:ibn-hisham-saqqa 4/175-181}
 
 ## ملاحظات
 - الحدث بلا قتال بحسب ابن إسحاق؛ ولا يذكر النص مواجهة مع جيش رومي. {cite:ibn-hisham-saqqa 4/159-173}

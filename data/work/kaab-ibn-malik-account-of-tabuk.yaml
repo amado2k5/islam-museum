@@ -1,0 +1,23 @@
+id: work/kaab-ibn-malik-account-of-tabuk
+class: work
+kind: report
+label: { ar: "حديث كعب بن مالك في تخلفه عن تبوك", en: "Ka'b ibn Malik's account of staying behind at Tabuk" }
+summary:
+  ar: "رواية طويلة نقلها ابن إسحاق عن الزهري بإسناده إلى كعب بن مالك في تخلفه عن غزوة تبوك وما تلاه من مقاطعة الثلاثة وقبول توبتهم."
+wings: [words]
+periods: [period/prophetic-era]
+regions: [arabia]
+genre: [narrative]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+language: language/arabic
+relations:
+  - { type: mentions, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/boycott-of-the-three, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/repentance-of-the-three-accepted, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/murara-ibn-al-rabi, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/hilal-ibn-umayya, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/talha-ibn-ubaydullah, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 175-181", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 175-181" }

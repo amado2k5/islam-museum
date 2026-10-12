@@ -1,0 +1,34 @@
+id: event/the-three-left-behind
+class: event
+kind: other
+label: { ar: "الثلاثة الذين خُلّفوا بعد تبوك", en: "The three who were left behind after Tabuk" }
+summary:
+  ar: "بعد عودة النبي إلى المدينة نهى عن كلام ثلاثة من المسلمين تخلفوا عن تبوك «من غير شك ولا نفاق» بحسب ابن إسحاق، وهم كعب بن مالك ومرارة بن الربيع وهلال بن أمية، فاعتزلهم الناس خمسين ليلة حتى أُعلنت توبتهم بعد صلاة الفجر."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها. وتمتد القصة خمسين ليلة بعد الرجوع (ص178-180)، ولا يذكر ابن إسحاق لها يوماً بعينه.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/expedition-to-tabuk, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/prophets-return-and-excuses-of-the-stragglers, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/kaab-ibn-malik-delays-his-preparations, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/kaab-tells-the-prophet-the-truth, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/boycott-of-the-three, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/kaab-and-abu-qatada-at-the-garden-wall, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/ghassan-kings-letter-to-kaab, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/order-to-the-three-to-separate-from-their-wives, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/repentance-of-the-three-accepted, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/kaab-offers-his-wealth-and-vows-truthfulness, sources: [source/ibn-hisham-saqqa] }
+perspectives:
+  - tradition: sunni
+    summary: { ar: "يروي ابن إسحاق القصة عن كعب بن مالك نفسه، ويصف الثلاثة بأنهم تخلفوا «من غير شك ولا نفاق»، وينقل نزول الآيات في توبتهم (9:117-118)؛ ويستخرج الفقهاء من القصة أحكاماً في التوبة والصدق وهجر العاصي، وهذا الاستخراج يحتاج إلى مراجعة شروح بعينها (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    summary: { ar: "يرى الباحثون في القصة مثالاً على الضبط الاجتماعي في مجتمع المدينة عبر المقاطعة بوصفها عقوبة؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 175-181", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 175-181" }
