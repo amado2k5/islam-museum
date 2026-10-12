@@ -1,0 +1,22 @@
+id: person/amer-ibn-al-waqqas
+class: person
+label:
+  ar: عامر بن الوَقاص
+summary:
+  ar: صحابي من بني زهرة، هاجر إلى الحبشة وعاد منها.
+gender: male
+relations:
+  - type: member_of
+    target: group/banu-zuhra
+  - type: participated_in
+    target: event/return-from-abyssinia
+    role: participant
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  layer: own-research
+  source: "ibn-hisham juz' 4 p.9"
+  generated_by: "Codex"
+  model: "gpt-4o"
+  run: "batch-5c"

@@ -1,30 +1,19 @@
 id: person/umm-habiba-bint-abi-sufyan
 class: person
-label: { en: "Umm Habiba Ramlah bint Abi Sufyan", ar: "أم حبيبة رملة بنت أبي سفيان" }
-names:
-  - { kind: full, lang: ar, value: "رملة بنت أبي سفيان بن حرب بن أمية" }
-  - { kind: kunya, lang: ar, value: "أم حبيبة" }
-gender: female
-roles: [companion]
-traditions: [sunni]
+label:
+  ar: أم حبيبة بنت أبي سفيان
 summary:
-  en: "A daughter of Abu Sufyan ibn Harb and a wife of the Prophet — one of the Mothers of the Believers. When her father came to Medina to renew the truce she folded away the Prophet's bedding rather than let him sit on it."
-  ar: "بنت أبي سفيان بن حرب وإحدى أمهات المؤمنين؛ هاجرت إلى الحبشة ثم إلى المدينة. ولما جاء أبوها المدينة يستأنف العقد طوت فراش النبي دونه، فقال: أبالفراش بي رغبت أم بي؟ فقالت: هو فراش رسول الله وأنت رجل مشرك نجس، فلم أحب أن تجلس عليه."
-wings: [people]
-themes: [women, converts-and-leavers]
-periods: [period/prophetic-era, period/rashidun]
-regions: [arabia]
-story_roles:
-  - { role: convert, status: tradition, note: "من السابقات إلى الإسلام؛ هاجرت بزوجها عبيد الله بن جحش إلى الحبشة، فارتد هو وثبتت هي.", sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley] }
-  - { role: family-of-the-prophet, start: { edtf: "0628~" }, end: { edtf: "0632" }, status: tradition, note: "زواجها بالنبي بعقد أنجزه النجاشي في الحبشة بحضور جعفر بن أبي طالب؛ كانت قريش قد بعثت عمرو بن العاص وعبد الله بن أبي ربيعة لطلب ردها.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa] }
-faith:
-  - { value: sunni, basis: tradition, note: "من المهاجرات إلى الحبشة وأمهات المؤمنين." }
+  ar: زوجة النبي، هاجرت إلى الحبشة وعادت منها.
+gender: female
 relations:
-  - { type: member_of, target: group/banu-umayya }
-  - { type: member_of, target: group/ahl-al-bayt, note: "As a wife of the Prophet." }
-  - { type: child_of, target: person/abu-sufyan-ibn-harb }
-  - { type: spouse_of, target: person/muhammad, start: { edtf: "0628~" }, end: { edtf: "0632" }, sources: [source/ibn-sad-tabaqat-bewley] }
-  - { type: participated_in, target: event/abu-sufyan-medina-mission, role: daughter-of-envoy, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 38–39", generated_by: "Devin", run: "ibn-hisham-batch-1a" }
-sources: [source/ibn-hisham-saqqa, source/ibn-sad-tabaqat-bewley]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 38–39" }
+  - type: member_of
+    target: group/banu-umayya
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  layer: own-research
+  source: "ibn-hisham juz' 4 p.14"
+  generated_by: "Codex"
+  model: "gpt-4o"
+  run: "batch-5c"
