@@ -10,7 +10,7 @@
 - Phase C prose, in progress. `content/en/` written so far:
   - exhibit/ ×5 (all five trails)
   - event/ ×201 (ALL events done)
-  - person/ ×387 of ~472, alphabetical by slug (through `suraqa-ibn-malik`)
+  - person/ ×412 of ~472, alphabetical by slug (through `umm-al-ala-al-ansariyya`)
 
 ## Next step
 
