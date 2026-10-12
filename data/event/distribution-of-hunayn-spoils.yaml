@@ -23,6 +23,10 @@ relations:
   - { type: had_participant, target: person/uyayna-ibn-hisn, role: recipient, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/al-aqra-ibn-habis, role: recipient, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/dhu-al-khuwaysira, role: challenger-critic, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/zayd-ibn-thabit, role: scribe-of-the-shares, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hakim-ibn-hizam, role: recipient, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-harith-ibn-al-harith-ibn-kalda, role: recipient, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/masud-ibn-amr-al-ghifari, role: custodian-of-the-gathered-spoils, sources: [source/mubarakpuri-raheeq] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 135–141", generated_by: "Devin", run: "ibn-hisham-batch-3" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 135–141" }
