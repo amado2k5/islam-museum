@@ -32,7 +32,12 @@ translators: []
 ## في طريق العودة
 [[event/water-of-wadi-al-mushaqqaq|ماء وادي المشقق]]، و[[event/burial-of-dhu-al-bijadayn|دفن ذي البجادين]]، و[[event/abu-ruhm-and-the-stragglers-of-ghifar-and-aslam|حديث أبي رهم عن المتخلفين]]. {cite:ibn-hisham-saqqa 4/171-173}
 
-وتجد الخط الجغرافي في [[journey/tabuk-march-out-and-back|مسير النبي إلى تبوك ورجوعه]]. أما مسجد الضرار والثلاثة المخلفون فموضوع دفعة لاحقة.
+وتجد الخط الجغرافي في [[journey/tabuk-march-out-and-back|مسير النبي إلى تبوك ورجوعه]]. 
+
+## مسجد الضرار
+بعد الرجوع: [[event/masjid-al-dirar-builders-ask-the-prophet-to-pray|طلب أصحاب المسجد الصلاة فيه]] قبيل الخروج، ثم [[event/demolition-of-masjid-al-dirar|هدم المسجد]] عند ذي أوان، وأصحابه في [[group/builders-of-masjid-al-dirar|مجموعتهم]]. {cite:ibn-hisham-saqqa 4/173-174}
+
+أما الثلاثة المخلفون فموضوع الدفعة 7ب.
 
 ## ملاحظات
 - الحدث بلا قتال بحسب ابن إسحاق؛ ولا يذكر النص مواجهة مع جيش رومي. {cite:ibn-hisham-saqqa 4/159-173}

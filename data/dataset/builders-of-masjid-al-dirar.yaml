@@ -1,0 +1,16 @@
+id: dataset/builders-of-masjid-al-dirar
+class: dataset
+label: { ar: "بُناة مسجد الضرار", en: "The builders of Masjid al-Dirar" }
+summary:
+  ar: "قائمة الاثني عشر رجلاً الذين سمّاهم ابن إسحاق بُناة مسجد الضرار، مع نسب كلٍّ كما ورد (الجزء الرابع ص174)."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+rows_file: datasets/builders-of-masjid-al-dirar.csv
+license: CC0
+source: source/ibn-hisham-saqqa
+columns: [name, clan_or_tribe, note, printed_page, source_note]
+coverage: { printed_pages: "174", builders: 12 }
+method_note: "القائمة من ألفاظ ابن إسحاق؛ الأنساب كما وردت دون توحيد. الوصف بالنفاق ليس في القائمة نفسها ولا يُنسب هنا إلى أحد بعينه."
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 173-174" }

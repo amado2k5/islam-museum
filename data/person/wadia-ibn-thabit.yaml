@@ -11,6 +11,8 @@ periods: [period/prophetic-era]
 regions: [arabia]
 relations:
   - { type: participated_in, target: event/hypocrites-mock-the-army-and-excuse, role: speaker, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 168-169", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+  - { type: participated_in, target: event/masjid-al-dirar-builders-ask-the-prophet-to-pray, role: "بانٍ للمسجد", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/builders-of-masjid-al-dirar, note: "من الاثني عشر الذين سمّاهم ابن إسحاق (ص174)", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 168-169, 174", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 168-169" }

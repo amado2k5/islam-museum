@@ -1,0 +1,19 @@
+id: event/masjid-al-dirar-builders-ask-the-prophet-to-pray
+class: event
+kind: other
+label: { ar: "أصحاب المسجد يطلبون من النبي الصلاة فيه", en: "The builders of the mosque ask the Prophet to pray in it" }
+summary:
+  ar: "قبيل خروجه إلى تبوك أتى أصحاب المسجد الذي بنوه النبي وقالوا إنهم بنوه لذي العلة والحاجة والليلة المطيرة والشاتية، وسألوه أن يصلي لهم فيه، فأجّلهم إلى عودته."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها. وقع الطلب والنبي يتجهز إلى تبوك (ص173).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/builders-of-masjid-al-dirar, role: "طالبو الصلاة", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/expedition-to-tabuk, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 173", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 173" }

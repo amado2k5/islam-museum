@@ -1,0 +1,14 @@
+id: place/dhu-awan
+class: place
+kind: site
+label: { ar: "ذو أوان", en: "Dhu Awan" }
+summary:
+  ar: "موضع نزله النبي في عودته من تبوك، وهو بلد بينه وبين المدينة ساعة من نهار بحسب ابن إسحاق؛ ومنه أرسل من هدموا مسجد الضرار."
+wings: [place]
+regions: [arabia]
+coordinate_note: "لا إحداثيات في هذه الدفعة: ليس للموضع مدخل في docs/plan/16 §6، ولم يُتحقَّق من ويكي بيانات."
+relations:
+  - { type: located_in, target: place/medina, note: "بينه وبين المدينة ساعة من نهار (ص173)؛ علاقة قرب لا احتواء، تُراجَع", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 173", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 173" }

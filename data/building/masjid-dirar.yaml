@@ -1,0 +1,21 @@
+id: building/masjid-dirar
+class: building
+kind: mosque
+label: { ar: "مسجد الضرار", en: "Masjid al-Dirar" }
+summary:
+  ar: "مسجد بناه اثنا عشر رجلاً سمّاهم ابن إسحاق قرب المدينة، وطلبوا من النبي وهو يتجهز إلى تبوك أن يصلي فيه فأجّلهم إلى عودته؛ فلما نزل بذي أوان قافلاً أمر بهدمه وإحراقه، ونزل فيهم قرآن. ويُعرف أيضاً بمسجد الشقاق."
+wings: [place, time]
+periods: [period/prophetic-era]
+regions: [arabia]
+location: place/medina
+status_now: destroyed
+perspectives:
+  - tradition: sunni
+    summary: { ar: "يروي ابن إسحاق أن أصحاب المسجد أتوا النبي وهو يتجهز إلى تبوك وقالوا إنهم بنوه لذي العلة والحاجة والليلة المطيرة والشاتية، فأجّلهم إلى عودته، ثم لما بلغه خبره أمر بهدمه وإحراقه، ونزل فيهم قرآن (9:107). ويفصّل المفسرون السنة غرض الباني ونيته؛ وهذا التفصيل يحتاج إلى مراجعة تفاسير بعينها (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    summary: { ar: "يربط الباحثون الواقعة بالتوتر السياسي في المدينة قبيل تبوك بين النبي وخصومه من أهلها؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 173-174", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 173-174" }
