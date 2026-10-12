@@ -234,3 +234,24 @@ html[dir="rtl"] .reading-progress span { transform-origin: right; }
 /* Below-the-fold work stays out of first paint: the footer and long card grids render only near the viewport.
    The intrinsic size keeps their skipped footprint close to the rendered one. */
 footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: auto 320px; }
+
+/* ---- Font display: optional, not swap ----
+   The imported fontsource faces use font-display: swap, which makes the largest text re-render when a late font
+   arrives — that re-render is exactly what Lighthouse counts as LCP and layout shift. The same faces are
+   redeclared here (last @font-face wins) with font-display: optional, so a font that misses the short block
+   window leaves the fallback in place instead of repainting the page. Sources resolve to the same fontsource
+   woff2 files, so nothing extra ships. */
+@font-face { font-family: "Noto Naskh Arabic"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Noto Naskh Arabic"; font-style: normal; font-display: optional; font-weight: 600; src: url("../../node_modules/@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Amiri"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/amiri/files/amiri-arabic-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Amiri"; font-style: normal; font-display: optional; font-weight: 700; src: url("../../node_modules/@fontsource/amiri/files/amiri-arabic-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Reem Kufi"; font-style: normal; font-display: optional; font-weight: 500; src: url("../../node_modules/@fontsource/reem-kufi/files/reem-kufi-arabic-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Amiri Quran"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/amiri-quran/files/amiri-quran-arabic-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Cairo"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/cairo/files/cairo-arabic-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Cairo"; font-style: normal; font-display: optional; font-weight: 700; src: url("../../node_modules/@fontsource/cairo/files/cairo-arabic-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-display: optional; font-weight: 500; src: url("../../node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-display: optional; font-weight: 600; src: url("../../node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-display: optional; font-weight: 600; src: url("../../node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-600-normal.woff2") format("woff2"); }
+@font-face { font-family: "Source Serif 4"; font-style: italic; font-display: optional; font-weight: 400; src: url("../../node_modules/@fontsource/source-serif-4/files/source-serif-4-latin-400-italic.woff2") format("woff2"); }

@@ -2,15 +2,38 @@
   "ci": {
     "collect": {
       "staticDistDir": "./dist",
-      "url": ["/ar/index.html", "/ar/person/ibn-sina/index.html"],
-      "numberOfRuns": 1
+      "url": [
+        "/ar/index.html",
+        "/ar/person/ibn-sina/index.html"
+      ],
+      "numberOfRuns": 3
     },
     "assert": {
       "assertions": {
-        "categories:performance": ["error", { "minScore": 0.95 }],
-        "categories:accessibility": ["error", { "minScore": 1 }],
-        "categories:best-practices": ["warn", { "minScore": 0.95 }],
-        "categories:seo": ["warn", { "minScore": 0.95 }]
+        "categories:performance": [
+          "error",
+          {
+            "minScore": 0.95
+          }
+        ],
+        "categories:accessibility": [
+          "error",
+          {
+            "minScore": 1
+          }
+        ],
+        "categories:best-practices": [
+          "warn",
+          {
+            "minScore": 0.95
+          }
+        ],
+        "categories:seo": [
+          "warn",
+          {
+            "minScore": 0.95
+          }
+        ]
       }
     }
   }
