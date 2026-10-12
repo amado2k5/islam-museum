@@ -23,11 +23,14 @@ relations:
   - { type: had_participant, target: person/abu-bakr }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/expedition-of-banu-al-mustaliq }
+issue: { ar: "كيف تُقرأ حادثة الإفك: براءة أم المؤمنين عائشة وأزمة المدينة السياسية؟", en: "How is the slander affair read: the vindication of Aisha and the political crisis in Medina?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni orthodoxy regards Aisha's complete exoneration as a matter of divine revelation in Surat al-Nur (24:11-26), holding that casting doubt on her purity constitutes apostasy and denial of the clear text of the Qur'an.", ar: "عقيدة أهل السنة والجماعة قاطعة في براءة أم المؤمنين عائشة الصديقة بنت الصديق بنص القرآن العظيم في سورة النور، ويجمع علماء السنة على كفر من طعن في عرضها بعد نزول براءتها تكذيباً لصريح الكتاب." }
     sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim]
   - tradition: academic
+    id: academic
     summary: { en: "Historians examine the affair as a major factional crisis in Medina where tribal rivalries between the Aws and Khazraj were deliberately exploited by Abdullah ibn Ubayy to challenge the Prophet's leadership.", ar: "يدرس المؤرخون الحادثة بوصفها أزمة سياسية واجتماعية استغل فيها زعيم المعارضة عبد الله بن أبيّ الحساسيات القبلية بين الأوس والخزرج لإضعاف قيادة النبي وتماسك المجتمع المدني." }
     sources: [source/watt-1956-medina]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]

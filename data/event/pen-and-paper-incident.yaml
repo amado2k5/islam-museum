@@ -17,12 +17,17 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab }
   - { type: had_participant, target: person/abdullah-ibn-abbas }
   - { type: part_of, target: event/death-of-the-prophet }
+issue: { ar: "كيف تفهم المصادر والتقاليد قصة الكتاب يوم الخميس ودلالتها على الخلافة؟", en: "How do the sources and traditions understand the story of the writing on the Thursday and its bearing on the succession?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni readings hold that Umar feared for the Prophet's strength and judged the Qur'an sufficient guidance; Ibn Abbas still called the day a calamity for the lost writing, and the three bequests of that day are preserved separately.", ar: "ترى القراءة السنية أن عمر رقّ بحال النبي واكتفى بحسبهم كتاب الله؛ ومع ذلك سمّى ابن عباس اليوم رزية لفوات الكتاب، وتُروى وصايا ذلك اليوم الثلاث مستقلة." }
+    sources: [source/sahih-al-bukhari]
   - tradition: academic
+    id: academic
     summary: { en: "Academic historians treat the report — preserved chiefly through Bukhari's chapter 'the Prophet's illness' — as a later-stage controversy over succession whose wording cannot be reconstructed.", ar: "يتعامل المؤرخون مع الخبر — المحفوظ أساساً في باب مرض النبي من البخاري — بوصفه خلافاً لاحقاً حول الخلافة لا يمكن إعادة بناء نصّه." }
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition reads the incident as the deliberate blocking of a written designation of Ali, and counts 'the calamity of Thursday' among the proofs of withheld succession.", ar: "تقرأ التقاليد الشيعية الاثني عشرية الواقعة منعاً متعمداً لكتابة نص على علي، وتعد «رزية يوم الخميس» من أدلتها على إقصاء الخلافة." }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

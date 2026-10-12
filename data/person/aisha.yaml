@@ -31,14 +31,18 @@ relations:
   - { type: participated_in, target: event/hijra, role: emigrant, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-uhud, role: brought-water-to-the-fighters, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: mentioned_in, target: passage/quran-24-11, note: "The tafsir tradition associates the 'slander' verses with her vindication.", sources: [source/ibn-sad-tabaqat-bewley] }
+issue: { ar: "كيف تُنظر مكانة عائشة ودورها في التقاليد المختلفة؟", en: "How are Aisha's standing and role viewed in the different traditions?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition honors Aisha as Mother of the Believers, a beloved wife of the Prophet and one of the most important narrators of hadith, whose knowledge shaped early law and practice." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians treat the reports about her age and marriage cautiously as later tradition, while recognizing her as a major early authority for hadith and for the politics of the first civil war." }
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition is critical of Aisha chiefly for leading the forces that fought Ali at the Battle of the Camel, while still acknowledging her place among the Prophet's wives." }
     sources: [source/momen-1985]
 sensitivity: contested

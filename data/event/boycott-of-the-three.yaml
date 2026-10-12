@@ -16,11 +16,14 @@ relations:
   - { type: had_participant, target: person/kaab-ibn-malik, role: "مقاطَع", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/murara-ibn-al-rabi, role: "مقاطَع", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/hilal-ibn-umayya, role: "مقاطَع", sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "كيف تُفهم مقاطعة الثلاثة المخلَّفين، من حيث حكمها ووظيفتها؟", en: "How is the boycott of the three who stayed behind understood, in its ruling and in its function?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { ar: "يعرض ابن إسحاق المقاطعة أمراً نبوياً بعد قبول أعذار المنافقين ظاهراً وتأجيل أمر الثلاثة؛ والفقهاء السنة يتناولون الواقعة أصلاً في هجر العاصي مدة تأديباً وتوبة، وهذا يحتاج إلى مراجعة مصادر فقهية بعينها (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
   - tradition: academic
+    id: academic
     summary: { ar: "يلاحظ الباحثون أن المقاطعة الاجتماعية أداة ضبط في مجتمع صغير تقوم على الروابط الشخصية؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 175, 178-180", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }

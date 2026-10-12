@@ -30,11 +30,14 @@ relations:
   - { type: member_of, target: group/banu-abd-shams }
   - { type: participated_in, target: event/battle-of-uhud, role: inciting-the-meccan-line, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/conquest-of-mecca, role: convert, sources: [source/ibn-sad-tabaqat-bewley] }
+issue: { ar: "كيف تُروى سيرة هند بنت عتبة، وما أثر المصادر في صورتها؟", en: "How is the life of Hind bint Utba told, and how do the sources shape her portrait?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Counted among the women who pledged allegiance and became companions; the tradition records her sharp exchanges with the Prophet at the pledge and her later life in piety." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians note that the Uhud mutilation scene is told in the sira with varying detail and polemical coloring, and treat her as a case study in how the sources shape portraits of enemy women." }
     sources: [source/watt-1956-medina]
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]

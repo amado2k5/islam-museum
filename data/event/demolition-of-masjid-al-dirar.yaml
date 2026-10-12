@@ -15,11 +15,14 @@ relations:
   - { type: had_participant, target: group/builders-of-masjid-al-dirar, role: "أهل المسجد حين هُدم", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: event/expedition-to-tabuk, sources: [source/ibn-hisham-saqqa] }
   - { type: caused_by, target: event/masjid-al-dirar-builders-ask-the-prophet-to-pray, sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "لماذا هُدم مسجد الضرار، وكيف تُفسَّر الآية النازلة فيه؟", en: "Why was the mosque of al-Dirar demolished, and how is the verse revealed about it interpreted?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { ar: "يروي ابن إسحاق أن النبي أمر بهدم المسجد وإحراقه بعد أن بلغه خبره عند ذي أوان، وأن آية من سورة التوبة نزلت فيهم؛ ويتناول المفسرون السنة الآية بالتفصيل، وهذا يحتاج إلى مراجعة تفاسير بعينها (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
   - tradition: academic
+    id: academic
     summary: { ar: "يعدّ الباحثون الحادثة مثالاً على قدرة النبي على فرض سلطته على المؤسسات الدينية المنافسة في المدينة؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source)." }
     sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 173-174", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7a" }

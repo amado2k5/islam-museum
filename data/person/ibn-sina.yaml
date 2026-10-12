@@ -36,11 +36,14 @@ relations:
   - { type: influenced, target: person/al-ghazali, note: "Through critique in Tahafut al-Falasifa." }
   - { type: influenced, target: person/ibn-rushd }
   - { type: influenced, target: person/thomas-aquinas }
+issue: { ar: "ما حكم العلماء على ابن سينا، وما هويته الفكرية والمذهبية؟", en: "What did scholars judge of Ibn Sina, and what was his intellectual and confessional identity?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni scholars judged him differently: al-Ghazali held that three of his teachings (the eternity of the world, God's knowledge of universals only, and the denial of bodily resurrection) amounted to unbelief, while his medical works were widely used.", ar: "تفاوتت أحكام علماء أهل السنة عليه: فقد رأى الغزالي أن ثلاث مسائل من مذهبه (قِدَم العالم، وعلم الله بالكليات دون الجزئيات، وإنكار حشر الأجساد) تفضي إلى الكفر، بينما شاع الانتفاع بكتبه الطبية." }
     sources: [source/gutas-2014]
   - tradition: academic
+    id: academic
     summary: { en: "His father served the Samanids and is reported to have been Ismaili; Ibn Sina's own confessional identity is debated, and his philosophy was attacked by al-Ghazali and defended by later thinkers." }
     sources: [source/gutas-2014]
 external_ids: { wikidata: Q8011, viaf: "31996761" }

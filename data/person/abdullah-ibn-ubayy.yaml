@@ -30,11 +30,14 @@ relations:
   - { type: opposed, target: person/muhammad, start: { edtf: "0623" }, end: { edtf: "0631" }, sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
   - { type: deserted, target: event/battle-of-uhud, start: { edtf: "0625" }, note: "Withdrew a third of the army on the eve of the battle.", sources: [source/ibn-ishaq-guillaume] }
   - { type: revealed_in, target: passage/quran-63-1, note: "Sura al-Munafiqun is read by the tradition as revealed concerning him and his faction.", sources: [source/ibn-sad-tabaqat-bewley] }
+issue: { ar: "كيف يُصنَّف عبد الله بن أبي ودوره في المدينة؟", en: "How is Abdullah ibn Ubayy and his role in Medina classified?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "The chief of the munafiqin: outwardly Muslim, inwardly working against the Prophet — the figure around whom sura al-Munafiqun and the slander affair are read. The tradition also records that the Prophet prayed over him and gave him his own shirt for a shroud." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians describe a Medinese aristocrat whose political base the Prophet steadily absorbed; 'hypocrite' is the tradition's category for what was also a straightforward contest for power inside Medina." }
     sources: [source/watt-1956-medina]
 sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]

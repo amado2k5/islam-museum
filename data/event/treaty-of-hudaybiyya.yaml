@@ -22,11 +22,14 @@ relations:
   - { type: had_participant, target: group/quraysh }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/battle-of-the-trench }
+issue: { ar: "ما قيمة صلح الحديبية ونتيجته في نظر علماء السنة والمؤرخين؟", en: "What is the value and outcome of the Treaty of al-Hudaybiyya in the view of Sunni scholars and historians?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni orthodoxy regards the Treaty of Hudaybiyya as a profound strategic victory that recognized the Muslim state, secured peace, opened Arabia to mass conversion, and directly paved the way for the Conquest of Mecca.", ar: "يعد علماء السنة صلح الحديبية أعظم الفتوح في الإسلام؛ إذ اعترفت قريش بالدولة الإسلامية ووضعت الحرب أوزارها فخالط الناس المسلمين وسمعوا القرآن فدخل في الإسلام في سنتي الهدنة أكثر ممن دخل فيه منذ أول البعثة." }
     sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
   - tradition: academic
+    id: academic
     summary: { en: "Historians view the treaty as Muhammad's masterstroke of diplomacy, transforming a military deadlock into legal recognition and geopolitical supremacy across Western Arabia.", ar: "يحلل المؤرخون الصلح بوصفه إنجازاً دبلوماسياً رفيعاً استطاع به النبي تحييد قريش وفك تحالفاتها مع خيبر وتأمين حدوده الغربية للتفرغ لتوحيد القبائل." }
     sources: [source/watt-1956-medina]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad]

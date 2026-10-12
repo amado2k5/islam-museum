@@ -36,14 +36,18 @@ relations:
   - { type: participated_in, target: event/conquest-of-mecca, role: submission, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/battle-of-hunayn, role: muslim-side, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/ibn-ishaq-guillaume] }
+issue: { ar: "كيف تصف التقاليد سيرة أبي سفيان وإسلامه؟", en: "How do the traditions describe Abu Sufyan's career and his conversion?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "A companion by conversion before the conquest; the tradition counts him among the people of virtue in Islam, notes his service as governor under the Rashidun, and records the Prophet's grant that whoever entered Abu Sufyan's house was safe." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians read his career as the arc of Meccan realpolitik: the able leader of the opposition who converted when resistance had become impossible, and whose Umayyad kin then rose within the new state." }
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition remembers him through his son Mu'awiya's war against Ali and regards the late conversion with deep suspicion." }
     sources: [source/momen-1985]
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]

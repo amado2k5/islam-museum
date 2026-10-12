@@ -17,12 +17,17 @@ relations:
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/aisha }
   - { type: part_of, target: event/death-of-the-prophet }
+issue: { ar: "ماذا تدل إمامة أبي بكر في الصلاة في مرض النبي؟", en: "What does Abu Bakr's leading of the prayers during the Prophet's illness signify?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition counts the appointment — renewed despite Aisha's plea — as an indication of Abu Bakr's precedence.", ar: "تعد السنة تعيين أبي بكر إماماً — رغم مراجعة عائشة — إشارة إلى تقدمه." }
+    sources: [source/sahih-al-bukhari]
   - tradition: academic
+    id: academic
     summary: { en: "Historians note the report's role in later legitimation of Abu Bakr's caliphate and treat its narratology cautiously.", ar: "يلاحظ المؤرخون وظيفة الخبر في تسويغ خلافة أبي بكر لاحقاً ويتعاملون مع سرده بحذر." }
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition accepts the report but denies it constitutes a designation of political succession.", ar: "تقبل التقاليد الشيعية الخبر لكنها تنفي أن يكون توليته للصلاة نصاً في الخلافة." }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

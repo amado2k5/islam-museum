@@ -18,11 +18,14 @@ relations:
   - { type: had_participant, target: person/murara-ibn-al-rabi, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/hilal-ibn-umayya, sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/mount-sal, note: "سمع كعب الصارخ على سلع", sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "كيف تُفهم قصة قبول توبة الثلاثة المخلَّفين ودلالتها؟", en: "How is the acceptance of the repentance of the three who stayed behind understood?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { ar: "يروي ابن إسحاق عن كعب أن توبتهم أُعلنت بعد الفجر ونزل فيها قرآن، ويحكي تفسير كعب لـ«خُلِّفوا» بأنه الإرجاء لا مجرد التخلف عن الغزوة؛ وللمفسرين السنة شروح في هذه الآيات تحتاج إلى مراجعة تفاسير بعينها (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
   - tradition: academic
+    id: academic
     summary: { ar: "يربط الباحثون الواقعة بتثبيت معايير الولاء داخل جماعة المدينة بعد تبوك؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source)." }
     sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 180-181", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }

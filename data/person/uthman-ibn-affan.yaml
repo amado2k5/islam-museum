@@ -39,14 +39,18 @@ relations:
   - { type: successor_of, target: person/umar-ibn-al-khattab, start: { edtf: "0644-11" }, sources: [source/watt-1956-medina] }
   - { type: commissioned, target: work/mushaf-uthmani, note: "The standard recension of the Qur'an produced under his caliphate.", sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/murder-of-uthman, role: victim, sources: [source/watt-1956-medina] }
+issue: { ar: "كيف تُقيَّم خلافة عثمان بن عفان ومقتله؟", en: "How is Uthman ibn Affan's caliphate and his killing assessed?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition venerates Uthman as the third rightly-guided caliph: modest and generous, the preserver who gave the community one recension of the Qur'an, and a martyr killed unjustly." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians record both his standardization of the Qur'an and the grievances — appointments of kinsmen, fiscal policy — that fed the revolt which killed him; the sources are early but partisan." }
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition is critical of Uthman's caliphate, seeing in it the entrenchment of the Umayyads and further sidelining of the Prophet's household." }
     sources: [source/momen-1985]
 sensitivity: contested

@@ -37,14 +37,18 @@ relations:
   - { type: participated_in, target: event/treaty-of-hudaybiyya, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/conquest-of-mecca, sources: [source/ibn-ishaq-guillaume] }
   - { type: successor_of, target: person/abu-bakr, start: { edtf: "0634-08" }, sources: [source/watt-1956-medina] }
+issue: { ar: "كيف تُقيَّم شخصية عمر بن الخطاب وخلافته في التقاليد؟", en: "How are Umar ibn al-Khattab and his caliphate assessed in the traditions?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition venerates Umar as the second rightly-guided caliph, al-Faruq: the conversion that strengthened the community, and the just ruler who founded the institutions of the early Islamic state." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians credit his caliphate with the conquests of Syria, Egypt and Iraq and with organizing the early state, while reading the idealized memory of his justice as partly a later construction." }
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition is critical of Umar, above all for the Saqifa succession that set aside Ali, and for episodes in the relationship with Fatima." }
     sources: [source/momen-1985]
 sensitivity: contested

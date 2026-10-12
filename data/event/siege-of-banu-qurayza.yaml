@@ -21,11 +21,14 @@ relations:
   - { type: had_participant, target: group/banu-qurayza, role: "القبيلة المحاصرة والمحكوم عليها", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/battle-of-the-trench }
+issue: { ar: "كيف يُفهم حكم سعد بن معاذ في بني قريظة، وما مدى ثبوت تواطئهم؟", en: "How is Sa'd ibn Mu'adh's judgment on Banu Qurayza understood, and how far is their collusion established?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni sources record the siege and Sa'd's arbitration as a divine judgment against active treason during wartime that threatened the survival of the entire community, noting it matched Biblical law in Deuteronomy.", ar: "يؤكد التراث السني أن حكم سعد بن معاذ كان حكماً عادلاً موافقاً لحكم الله من فوق سبع سموات ومطابقاً لشريعة التوراة بحق من خان العهد وظاهر العدو في حالة الحرب الشاملة." }
     sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
   - tradition: academic
+    id: academic
     summary: { en: "Modern historians discuss the political, legal, and military context of the execution, assessing the degree of Banu Qurayza's collusion with Quraysh and the customary tribal laws of surrender and arbitration.", ar: "يناقش المؤرخون المعاصرون السياقات العسكرية والقانونية للتحكيم، ومدى ثبوت التواطؤ العسكري لبني قريظة وتأثير الأعراف القبلية السائدة في الجزيرة حينئذ على مصير المحاربين." }
     sources: [source/watt-1956-medina]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]

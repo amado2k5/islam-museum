@@ -32,14 +32,18 @@ relations:
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: member_of, target: group/banu-hashim }
   - { type: participated_in, target: event/karbala, role: killed, sources: [source/madelung-1997] }
+issue: { ar: "كيف يُفهم خروج الحسين بن علي ومقتله بكربلاء؟", en: "How is Husayn ibn Ali's rising and his killing at Karbala understood?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition venerates Husayn as the Prophet's beloved grandson and remembers Karbala as a tragedy and an injustice done to the Prophet's family." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians describe a failed bid for the caliphate, gathering support in Kufa, that was crushed at Karbala by the Umayyad authorities — an event whose religious meaning grew far beyond its military scale." }
     sources: [source/madelung-1997, source/watt-1956-medina]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition venerates Husayn as the third Imam, whose sacrifice at Karbala stands at the centre of Shia devotion and is mourned annually on Ashura." }
     sources: [source/momen-1985]
 sensitivity: contested

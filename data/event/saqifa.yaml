@@ -17,12 +17,17 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/death-of-the-prophet }
+issue: { ar: "كيف تُوصف بيعة أبي بكر في السقيفة: اختياراً من قادة الجماعة، أم عملية سياسية، أم خروجاً على تعيين سابق؟", en: "How is the pledge to Abu Bakr at Saqifa described: a choice by the community's leaders, a political process, or a departure from an earlier designation?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition regards the choice of Abu Bakr at Saqifa as a legitimate selection by the community's leaders." }
   - tradition: academic
+    id: academic
     summary: { en: "Historians treat it as a political process shaped by tribal alliances in Medina, relying on later and partisan reports." }
+    sources: [source/watt-1956-medina]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition holds that Ali had been designated and regards the meeting as having set that designation aside." }
 sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }

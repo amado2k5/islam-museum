@@ -32,14 +32,18 @@ relations:
   - { type: protected, target: person/muhammad, start: { edtf: "0578~" }, end: { edtf: "0619~" }, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/boycott-of-banu-hashim, role: led-the-clan-in-the-boycott }
   - { type: participated_in, target: event/year-of-sorrow }
+issue: { ar: "هل مات أبو طالب على الإسلام، وكيف تُقرأ الروايات في ذلك؟", en: "Did Abu Talib die as a Muslim, and how are the reports on this read?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition holds that Abu Talib died without embracing Islam, citing the hadith report that at his death he would not pronounce the shahada, while honoring his lifelong protection of the Prophet." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians note that the reports about his deathbed were written after the Sunni-Shia split and serve each side's position; his pagan milieu and his steadfast protection are both documented, his inner conviction is not." }
     sources: [source/madelung-1997]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition holds that Abu Talib was a believer who concealed his faith to keep his position among Quraysh and so protect his nephew, and venerates him accordingly." }
     sources: [source/momen-1985]
 sensitivity: contested

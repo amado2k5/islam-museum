@@ -13,14 +13,18 @@ relations:
   - { type: occurred_at, target: place/al-jurf, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "ما معنى قول النبي لعلي «بمنزلة هارون من موسى» حين استخلفه على أهله؟", en: "What did the Prophet mean by telling Ali he was to him as Harun was to Musa when he left him in charge of his family?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { ar: "يرويها ابن إسحاق جواباً على إرجاف المنافقين بأن النبي استثقل علياً، ولذا يقرأ الشرّاح السنة عادةً القول بوصفه استخلافاً لعلي على الأهل مدة الغزوة تشبيهاً باستخلاف هارون لموسى حين غاب، لا إعلان خلافة بعد النبي؛ يحتاج هذا التلخيص إلى شاهد ثانٍ من شروح الحديث (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
   - tradition: academic
+    id: academic
     summary: { ar: "يلاحظ الباحثون أن الخبر مروي في المصادر السنية والشيعية معاً وأن الخلاف في دلالته لا في وقوعه؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { ar: "يرى الإمامية في عبارة «بمنزلة هارون من موسى» دليلاً على أن لعلي منزلة هارون من موسى في الخلافة بعد النبي؛ تلخيص يحتاج إلى مصدر شيعي محدد (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 163", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }

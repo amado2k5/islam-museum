@@ -21,11 +21,14 @@ relations:
   - { type: had_participant, target: person/abu-abs-ibn-jabr, role: "أحد أفراد المفرزة", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/muhammad, role: "المأذون بقتله والمودع للمفرزة إلى بقيع الغرقد", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+issue: { ar: "كيف تصف المصادر والدراسات مقتل كعب بن الأشرف وسببه؟", en: "How do the sources and studies describe the killing of Ka'b ibn al-Ashraf and its cause?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni sources record that Ka'b ibn al-Ashraf openly broke the covenant of Medina by traveling to Mecca to incite Quraysh to wage war on Muslims, writing abusive satire against Muslim women, and planning treachery.", ar: "تعد الرواية السنية كعب بن الأشرف محارباً نقض العهد جهاراً؛ برحيله إلى مكة وتحريضه قريشاً على الثأر، ونظمه قصائد تهجو النبي وتشتم نساء المسلمين، فكان قتله حكماً عسكرياً مشروعاً على خائن ومحارب." }
     sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
   - tradition: academic
+    id: academic
     summary: { en: "Western historians analyze the assassination as a targeted political strike against a prominent opposition leader whose poetry threatened community morale and coalition stability.", ar: "ينظر المؤرخون الأكاديميون إلى مقتل كعب بوصفه اغتيالاً سياسياً استراتيجياً استهدف زعيم معارضة شاعراً كان يهدد تماسك حلف المدينة ويثير قوى خارجية لغزوها." }
     sources: [source/watt-1956-medina]
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad, source/watt-1956-medina]

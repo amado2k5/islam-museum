@@ -30,11 +30,14 @@ relations:
   - { type: died_in, target: place/medina }
   - { type: member_of, target: group/banu-qaynuqa }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0622" }, sources: [source/ibn-sad-tabaqat-bewley] }
+issue: { ar: "كيف تُقدَّم قصة إسلام عبد الله بن سلام ودلالتها؟", en: "How is the story of Abdullah ibn Salam's conversion presented, and what does it signify?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "The model sincere convert: a scholar of the older scripture who recognized the Prophet and bore witness openly, against his community's disapproval." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians note the account serves apologetic ends — a Jewish scholar validating the Prophet — while accepting that individual conversions from Medina's Jewish tribes did occur." }
     sources: [source/watt-1956-medina]
 sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina]

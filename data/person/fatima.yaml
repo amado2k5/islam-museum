@@ -29,14 +29,18 @@ relations:
   - { type: spouse_of, target: person/ali-ibn-abi-talib, start: { edtf: "0624~" }, end: { edtf: "0632~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: member_of, target: group/banu-hashim }
+issue: { ar: "كيف تُوصف مكانة فاطمة وما يتصل بها من أحداث ما بعد وفاة النبي؟", en: "How are Fatima's standing and the events after the Prophet's death that concern her described?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition reveres Fatima as the foremost woman of the Prophet's household, the wife of Ali and mother of Hasan and Husayn, holding her among the most virtuous women." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians note that early sources record few independent details of her life, and that the disputed events after the Prophet's death — the succession and the estate of Fadak — are reported through later, partisan accounts." }
     sources: [source/madelung-1997, source/watt-1956-medina]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition venerates Fatima as the Mistress of the Women of the Worlds, holds that she was wronged over the succession and over Fadak, and remembers her grief after the Prophet's death as part of her sanctity." }
     sources: [source/momen-1985, source/madelung-1997]
 sensitivity: contested

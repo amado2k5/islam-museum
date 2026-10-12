@@ -22,11 +22,14 @@ relations:
   - { type: has_part, target: event/order-to-the-three-to-separate-from-their-wives, sources: [source/ibn-hisham-saqqa] }
   - { type: has_part, target: event/repentance-of-the-three-accepted, sources: [source/ibn-hisham-saqqa] }
   - { type: has_part, target: event/kaab-offers-his-wealth-and-vows-truthfulness, sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "كيف تُفهم قصة الثلاثة الذين خُلِّفوا بعد تبوك؟", en: "How is the story of the three who were left behind after Tabuk understood?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { ar: "يروي ابن إسحاق القصة عن كعب بن مالك نفسه، ويصف الثلاثة بأنهم تخلفوا «من غير شك ولا نفاق»، وينقل نزول الآيات في توبتهم (9:117-118)؛ ويستخرج الفقهاء من القصة أحكاماً في التوبة والصدق وهجر العاصي، وهذا الاستخراج يحتاج إلى مراجعة شروح بعينها (needs_source)." }
     sources: [source/ibn-hisham-saqqa]
   - tradition: academic
+    id: academic
     summary: { ar: "يرى الباحثون في القصة مثالاً على الضبط الاجتماعي في مجتمع المدينة عبر المقاطعة بوصفها عقوبة؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source)." }
     sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 175-181", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
