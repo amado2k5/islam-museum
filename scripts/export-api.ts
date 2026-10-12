@@ -41,6 +41,13 @@ export function exportApi(c: Compiled) {
       write(`${cls}/${n.slug}.json`, JSON.stringify({ ...n, connections, related: related[n.id] ?? [], license: { prose: "CC BY-SA 4.0", data: "CC0 1.0" } }, null, 1));
     }
   }
+  // Stubs get entity pages and a /api/v1/<class>/<slug>.json link (EntityLayout),
+  // so each stub needs a minimal export too or the internal link check 404s.
+  for (const n of c.nodes.filter((n) => n.stub)) {
+    const slug = n.slug ?? n.id.split("/")[1];
+    const connections = c.edges.filter((e) => e.from === n.id).map(({ from, ...e }) => e);
+    write(`${n.class}/${slug}.json`, JSON.stringify({ ...n, slug, connections, related: [], license: { prose: "CC BY-SA 4.0", data: "CC0 1.0" } }, null, 1));
+  }
   write("graph/nodes.ndjson", c.nodes.map((n) => JSON.stringify(compact(n))).join("\n") + "\n");
   write("graph/edges.ndjson", c.edges.filter((e) => !e.inverse).map((e) => JSON.stringify(e)).join("\n") + "\n");
   write("themes/index.json", JSON.stringify(themeIndex(c), null, 1));
