@@ -1,16 +1,14 @@
 id: group/banu-asad
 class: group
-label:
-  ar: بنو أسد
+label: { ar: "بنو أسد بن عبد العزى" }
 summary:
-  ar: بطن من قريش، ينتمي إليهم الأسود بن نوفل ويزيد بن زمعة.
+  ar: "من بطون قريش؛ يقدّمه ابن إسحاق في قوائم مهاجرة الحبشة بنسبه «أسد بن عبد العزى بن قصي»، ويعدّ منه مهاجرين ونساءً وأبناءً ولدوا هناك."
 kind: clan
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
 relations:
-  - type: member_of
-    target: group/quraysh
-status:
-  review: draft
-sources: [source/ibn-hisham-saqqa-1936]
-provenance:
-  generated_by: codex
-  model: gpt-4o
+  - { type: member_of, target: group/quraysh, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 5, 7", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-vi" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

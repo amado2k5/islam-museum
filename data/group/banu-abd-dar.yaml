@@ -1,19 +1,14 @@
 id: group/banu-abd-dar
 class: group
-label:
-  ar: بنو عبد الدار
+label: { ar: "بنو عبد الدار" }
 summary:
-  ar: بطن من قريش، ينتمي إليهم جهم بن قيس.
+  ar: "من بطون قريش؛ يقدّمه ابن إسحاق في قوائم مهاجرة الحبشة بنسبه «عبد الدار بن قصي»، ويعدّ منه مهاجرين ونساءً وأبناءً ولدوا هناك."
 kind: clan
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
 relations:
-  - type: member_of
-    target: group/quraysh
-status:
-  review: draft
-sources: [source/ibn-hisham-saqqa-1936]
-provenance:
-  layer: own-research
-  source: "ibn-hisham juz' 4 p.9"
-  generated_by: "Codex"
-  model: "gpt-4o"
-  run: "batch-5c"
+  - { type: member_of, target: group/quraysh, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 5, 7", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-vi" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

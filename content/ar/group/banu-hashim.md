@@ -15,3 +15,14 @@ translators: []
 
 ## الأثر
 من هذا العشيرة نجمت العباسيّون ثم هاشميّو الأردن والعلويّون بالمغرب؛ فالنسب الهاشمي صار في التراث السني أعزّ أنساب الدولة، وفي التراث الإمامي عنوان الولاية نفسها {cite:ibn-sad-tabaqat-bewley}.
+
+## من هذا البطن في فصل مهاجرة الحبشة**من حُمل في السفينتين:**
+- [[person/jafar-ibn-abi-talib|جعفر بن أبي طالب]] {cite:ibn-hisham-saqqa 4/3}
+
+**مهاجرات الحبشة:**
+- [[person/asma-bint-umays|أسماء بنت عميس]] {cite:ibn-hisham-saqqa 4/11}
+- [[person/ruqayya-bint-muhammad|رقية بنت رسول الله]] {cite:ibn-hisham-saqqa 4/10}
+
+**المولودون بأرض الحبشة:**
+- [[person/abdullah-ibn-jafar|عبد الله بن جعفر]] {cite:ibn-hisham-saqqa 4/3}
+
