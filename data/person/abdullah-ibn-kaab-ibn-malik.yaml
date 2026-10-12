@@ -1,0 +1,16 @@
+id: person/abdullah-ibn-kaab-ibn-malik
+class: person
+label: { ar: "عبد الله بن كعب بن مالك", en: "Abdullah ibn Ka'b ibn Malik" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن كعب بن مالك" }
+gender: male
+summary:
+  ar: "ابن كعب بن مالك وقائده حين أُصيب بصره؛ روى عنه ابنه عبد الرحمن حديث أبيه في تخلفه عن تبوك."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/kaab-ibn-malik, note: "«أن أباه عبد الله... سمعت أبي كعب بن مالك»", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 175", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 175" }

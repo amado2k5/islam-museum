@@ -1,0 +1,21 @@
+id: event/order-to-the-three-to-separate-from-their-wives
+class: event
+kind: other
+label: { ar: "الأمر باعتزال نساء الثلاثة", en: "The order that the three keep apart from their wives" }
+summary:
+  ar: "عند مضي أربعين ليلة أتى رسول النبي كعباً بأمر أن يعتزل امرأته ولا يقربها، وأُرسل إلى صاحبيه بمثل ذلك؛ فألحقها بأهلها، وأُذن لامرأة هلال بن أمية أن تخدمه دون أن يقربها."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها. بعد أربعين ليلة من المقاطعة (ص179).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/kaab-ibn-malik, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/hilal-ibn-umayya, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/murara-ibn-al-rabi, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 179", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 179" }

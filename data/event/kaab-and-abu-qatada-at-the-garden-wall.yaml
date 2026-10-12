@@ -1,0 +1,19 @@
+id: event/kaab-and-abu-qatada-at-the-garden-wall
+class: event
+kind: other
+label: { ar: "كعب وأبو قتادة على جدار الحائط", en: "Ka'b and Abu Qatada at the garden wall" }
+summary:
+  ar: "أثناء المقاطعة تسوّر كعب جدار حائط ابن عمه أبي قتادة وسلّم عليه فلم يرد، وناشده ثلاثاً هل يعلم أنه يحب الله ورسوله، فقال أبو قتادة في الثالثة: الله ورسوله أعلم، ففاضت عينا كعب."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها. في أثناء الخمسين ليلة (ص178).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/kaab-ibn-malik, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-qatada-cousin-of-kaab, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 178", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 178" }

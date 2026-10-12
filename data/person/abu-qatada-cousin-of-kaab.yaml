@@ -1,0 +1,17 @@
+id: person/abu-qatada-cousin-of-kaab
+class: person
+label: { ar: "أبو قتادة (ابن عم كعب بن مالك)", en: "Abu Qatada, cousin of Ka'b ibn Malik" }
+names:
+  - { kind: full, lang: ar, value: "أبو قتادة، ابن عم كعب بن مالك" }
+gender: male
+summary:
+  ar: "ابن عم كعب بن مالك، سلّم عليه كعب في حائطه أثناء المقاطعة فلم يرد، وأجاب في الثالثة: الله ورسوله أعلم."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/kaab-and-abu-qatada-at-the-garden-wall, role: "صاحب الحائط", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/boycott-of-the-three, role: "من الناس الممتنعين عن الكلام", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 178", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 178" }
