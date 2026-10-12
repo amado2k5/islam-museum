@@ -1,0 +1,20 @@
+id: event/mutah-return-to-medina
+class: event
+kind: other
+label: { ar: "عودة جيش مؤتة إلى المدينة وتلقي النبي لهم", en: "Return of the Mu'tah army to Medina and the Prophet's reception" }
+summary:
+  ar: "لما دنا الجيش من المدينة خرج النبي والمسلمون لاستقباله، وجاء الصبيان يشتدون. طلب النبي ابن جعفر فأُتي بعبد الله فحمله بين يديه. وكان بعض الناس يحثون على الجيش التراب ويصيحون «يا فرار»، فردّ النبي: «ليسوا بالفرار ولكنهم الكرار إن شاء الله». وظل سلمة بن هشام محبوسًا في بيته خشية العار."
+  en: "When the army neared Medina, the Prophet and Muslims went out to meet it; boys ran ahead. The Prophet asked for Ja'far's son and carried Abd Allah ibn Ja'far on his mount. Some people threw dust and called the army 'deserters'; the Prophet replied: 'They are not deserters; they are the ones who will charge again, God willing.' Salama ibn Hisham hid at home in shame."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: tradition, note: "بعد رجوعهم من الشام قريبًا من جمادى الأولى سنة 8هـ.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: part_of, target: event/battle-of-mutah }
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: recipient, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: returning-commander, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 24-25", generated_by: "kiro", run: "ibn-hisham-batch-4" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 24-25" }

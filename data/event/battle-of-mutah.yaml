@@ -3,24 +3,37 @@ class: event
 kind: battle
 label: { en: "The Battle of Mu'tah", ar: "غزوة مؤتة" }
 summary:
-  en: "A Muslim force sent north toward the Byzantine frontier met a larger Byzantine-led army at Mu'tah; after its first three commanders fell, Khalid ibn al-Walid led the survivors back."
-  ar: "التقى جيش مسلم أُرسل نحو الحدود البيزنطية بجيش بيزنطي أكبر عند مؤتة؛ وبعد استشهاد قادته الثلاثة الأوائل قاد خالد بن الوليد الناجين عائدين."
+  en: "A Muslim force of three thousand sent north toward the Byzantine frontier met a larger Byzantine-led army at Mu'tah in Jumada I, 8 AH; after its three appointed commanders fell one by one, Khalid ibn al-Walid took command and withdrew the survivors. Ibn Ishaq (via Urwa ibn al-Zubayr) records a tactical withdrawal; Ibn Hisham cites al-Zuhri that God granted them victory."
+  ar: "التقى جيش مسلم من ثلاثة آلاف بجيش أكبر عند مؤتة في جمادى الأولى سنة ثمان؛ استُشهد قادته الثلاثة الواحد تلو الآخر، فأخذ خالد بن الوليد القيادة وانسحب بالجيش. رواية ابن إسحاق عن عروة تذكر المحاجزة، وأضاف ابن هشام رواية الزهري أن الله فتح عليهم."
 wings: [time, people]
 themes: [battles]
 periods: [period/prophetic-era]
 regions: [levant-iraq]
 date:
-  start: { edtf: "0629-09", hijri: "0008-05", calendar: julian, precision: month, status: tradition, note: "The outcome is described differently in the sources: some call it a withdrawal, others a defeat or a draw." }
+  start: { edtf: "0629-09", hijri: "0008-05", calendar: julian, precision: month, status: tradition, sources: [source/ibn-hisham-saqqa], note: "جمادى الأولى سنة ثمان كما صرّح ابن إسحاق." }
+sides:
+  - label: { ar: "قوة المسلمين من المدينة — ثلاثة آلاف", en: "Muslim force from Medina — three thousand" }
+    participants: [group/early-muslims]
+    commanders: [person/zayd-ibn-haritha, person/jafar-ibn-abi-talib, person/abd-allah-ibn-rawaha, person/khalid-ibn-al-walid]
+  - label: { ar: "الروم وحلفاؤهم من العرب", en: "Byzantines and their Arab allies" }
+    commanders: [person/malik-ibn-zaflah]
 relations:
   - { type: occurred_at, target: place/mutah }
   - { type: had_participant, target: person/zayd-ibn-haritha }
   - { type: had_participant, target: person/jafar-ibn-abi-talib }
   - { type: had_participant, target: person/khalid-ibn-al-walid }
+  - { type: had_participant, target: person/abd-allah-ibn-rawaha, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/qutba-ibn-qatada, role: right-wing-commander, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/thabit-ibn-aqram, role: witness, sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
-sides:
-  - label: { en: "Muslim force sent from Medina", ar: "قوة المسلمين الموجَّهة من المدينة" }
-    participants: [group/early-muslims]
-    commanders: [person/zayd-ibn-haritha, person/jafar-ibn-abi-talib, person/khalid-ibn-al-walid]
-  - label: { en: "Byzantine forces and their Arab allies", ar: "القوات البيزنطية وحلفاؤها من العرب" }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+  - { type: has_part, target: event/mutah-dispatch-of-army, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/mutah-halt-at-maan, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/mutah-martyrdom-of-zayd, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/mutah-martyrdom-of-jafar, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/mutah-martyrdom-of-ibn-rawaha, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/mutah-khalid-command-withdrawal, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/mutah-prophets-grief-and-condolence, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/mutah-return-to-medina, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 15-30", generated_by: "kiro", run: "ibn-hisham-batch-4" }
+sources: [source/ibn-hisham-saqqa, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 2, generated_by: "kiro; extended from Ibn Hisham juz' 4 pp. 15-30 (batch 4)" }

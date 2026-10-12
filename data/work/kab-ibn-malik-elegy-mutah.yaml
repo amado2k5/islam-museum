@@ -1,0 +1,23 @@
+id: work/kab-ibn-malik-elegy-mutah
+class: work
+kind: poem
+label: { ar: "مرثية كعب بن مالك في شهداء مؤتة", en: "Ka'b ibn Malik's elegy for the Mu'tah martyrs" }
+summary:
+  ar: "قصيدة لكعب بن مالك الأنصاري يبكي فيها شهداء مؤتة، وصف فيها صبرهم وإقدامهم في سبيل الله. رواها ابن إسحاق في سياق حديثه عن غزوة مؤتة."
+  en: "Elegy by Ka'b ibn Malik al-Ansari praising the endurance and courage of the Mu'tah martyrs. Transmitted by Ibn Ishaq within the Mu'tah narrative."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/kab-ibn-malik]
+language: language/arabic
+composed: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [battles, literature]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/zayd-ibn-haritha, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/abd-allah-ibn-rawaha, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 27-28", generated_by: "kiro", run: "ibn-hisham-batch-4" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 27-28" }

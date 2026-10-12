@@ -1,0 +1,20 @@
+id: event/mutah-prophets-grief-and-condolence
+class: event
+kind: other
+label: { ar: "حزن النبي على جعفر وأمره بإطعام أهله", en: "The Prophet's grief over Ja'far and his instruction to feed his family" }
+summary:
+  ar: "لما أُصيب جعفر جاء النبي إلى بيت أسماء بنت عميس وطلب أبناء جعفر، فلما رآهم تشممهم وذرفت عيناه. وأخبر أسماء باستشهاد جعفر وأصحابه ذلك اليوم. وأمر الناس ألا يُغفلوا آل جعفر من إطعامهم. وأخبرت عائشة أن الحزن ظهر في وجه النبي حين جاء نعي جعفر."
+  en: "When Ja'far was killed the Prophet visited Asma' bint Umays, asked for Ja'far's children, smelled them and wept. He told her they had been struck down that day, and instructed the community not to neglect Ja'far's household and to send them food. Aisha reported that grief was visible on the Prophet's face when the news of Ja'far arrived."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0629~", hijri: "0008-05~", calendar: julian, precision: month, status: tradition, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: part_of, target: event/battle-of-mutah }
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: bearer-of-news, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/asma-bint-umays, role: bereaved-widow, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 22-23", generated_by: "kiro", run: "ibn-hisham-batch-4" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 22-23" }

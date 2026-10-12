@@ -1,0 +1,25 @@
+id: person/al-harith-ibn-al-numan-mutah
+class: person
+label: { ar: "الحارث بن النعمان بن أُساف", en: "al-Harith ibn al-Nu'man ibn Usaf" }
+names:
+  - { kind: full, lang: ar, value: "الحارث بن النعمان بن أُساف بن نضلة بن عبد بن عوف بن غنم — من بني مازن بن النجار — من الأنصار" }
+gender: male
+died: { edtf: "0629-09~", hijri: "0008-05", calendar: julian, precision: month, status: tradition, note: "استُشهد يوم مؤتة.", sources: [source/ibn-hisham-saqqa] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي أنصاري من بني مازن بن النجار من بني الخزرج، استُشهد يوم مؤتة. سجّل ابن إسحاق نسبه كاملًا."
+  en: "Companion from the Ansar, of Banu Mazin al-Najjar (Khazraj); martyred at Mu'tah. Ibn Ishaq records his full genealogy."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: martyr, start: { edtf: "0629-09~" }, status: tradition, sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-mutah, role: martyr, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/mutah }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 30" }

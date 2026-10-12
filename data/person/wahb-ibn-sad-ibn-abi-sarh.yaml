@@ -1,0 +1,24 @@
+id: person/wahb-ibn-sad-ibn-abi-sarh
+class: person
+label: { ar: "وهب بن سعد بن أبي سرح", en: "Wahb ibn Sa'd ibn Abi Sarh" }
+names:
+  - { kind: full, lang: ar, value: "وهب بن سعد بن أبي سرح — من بني مالك بن حِسل — من قريش" }
+gender: male
+died: { edtf: "0629-09~", hijri: "0008-05", calendar: julian, precision: month, status: tradition, note: "استُشهد يوم مؤتة.", sources: [source/ibn-hisham-saqqa] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي قرشي من بني مالك بن حِسل، استُشهد يوم مؤتة."
+  en: "Companion of Quraysh, from Banu Malik ibn Hisl; martyred at Mu'tah."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: martyr, start: { edtf: "0629-09~" }, status: tradition, sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition }
+relations:
+  - { type: participated_in, target: event/battle-of-mutah, role: martyr, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/mutah }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 30" }

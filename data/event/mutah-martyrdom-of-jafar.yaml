@@ -1,0 +1,19 @@
+id: event/mutah-martyrdom-of-jafar
+class: event
+kind: other
+label: { ar: "استشهاد جعفر بن أبي طالب وعقره فرسه", en: "Martyrdom of Ja'far ibn Abi Talib and his hamstringing of his horse" }
+summary:
+  ar: "بعد مقتل زيد أخذ جعفر بن أبي طالب الراية، واقتحم عن فرسه الشقراء فعقرها — وكان أول من عقر في الإسلام — ثم قاتل حتى قُتل. وأضاف ابن هشام (من أثق به) أنه أمسك اللواء بيمينه فقطعت ثم بشماله فقطعت فاحتضنه بعضديه حتى قُتل وهو ابن ثلاث وثلاثين سنة. وروى ابن هشام (ويقال) أن روميًا ضربه فقطعه بنصفين."
+  en: "After Zayd's death Ja'far took the standard, dismounted and hamstrung his chestnut horse — the first such act in Islam — then fought until killed. Ibn Hisham adds (from a trusted source) that he gripped the banner with his right hand (cut off), then his left (cut off), then clasped it between his arms, dying at thirty-three. Ibn Hisham also records (ويقال) that a Roman cut him in two."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0629-09~", hijri: "0008-05", calendar: julian, precision: month, status: tradition, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: part_of, target: event/battle-of-mutah }
+  - { type: occurred_at, target: place/mutah }
+  - { type: had_participant, target: person/jafar-ibn-abi-talib, role: martyr, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 p. 20", generated_by: "kiro", run: "ibn-hisham-batch-4" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 20; two Ibn Hisham variant flags in summary" }

@@ -1,0 +1,22 @@
+id: person/qutba-ibn-qatada
+class: person
+label: { ar: "قطبة بن قتادة العذري", en: "Qutba ibn Qatada al-Udhri" }
+names:
+  - { kind: full, lang: ar, value: "قطبة بن قتادة العذري المُذري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي من بني عذرة، تولى قيادة الميمنة في جيش مؤتة. حمل على مالك بن زافلة قائد الحلفاء البيزنطيين فقتله، وتغنى بذلك في شعره."
+  en: "Companion from Banu Udhra who commanded the right wing at Mu'tah. He charged and killed Malik ibn Zaflah, commander of the Byzantine-allied Arab forces, and celebrated the deed in verse."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: commander, start: { edtf: "0629-09~" }, end: { edtf: "0629-09~" }, status: tradition, note: "قائد الميمنة في معركة مؤتة.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition }
+relations:
+  - { type: participated_in, target: event/battle-of-mutah, role: right-wing-commander, sources: [source/ibn-hisham-saqqa] }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 19, 23" }

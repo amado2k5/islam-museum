@@ -1,0 +1,26 @@
+id: person/thabit-ibn-aqram
+class: person
+label: { ar: "ثابت بن أقرم", en: "Thabit ibn Aqram" }
+names:
+  - { kind: full, lang: ar, value: "ثابت بن أقرم بن ثعلبة بن عدي بن العجلان البلوي الأنصاري" }
+  - { kind: alternate, lang: ar, value: "ثابت بن الأرقم" }
+gender: male
+died: { edtf: "0633~", hijri: "0011~", calendar: julian, precision: year, status: tradition, note: "قُتل في حرب الردة؛ قيل سنة إحدى عشرة وقيل سنة اثنتي عشرة.", sources: [source/ibn-hisham-saqqa] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي من الأنصار، من بني المجلان. لما استُشهد القادة الثلاثة يوم مؤتة رفع الراية ثم عرضها على المسلمين رافضًا القيادة لنفسه، فاجتمع المسلمون على خالد بن الوليد. قُتل في حرب الردة."
+  en: "Companion from the Ansar, of Banu al-Majlan. After the three commanders fell at Mu'tah he picked up the standard and then refused command, proposing Khalid ibn al-Walid. Killed in the Ridda wars."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
+  - { role: witness, start: { edtf: "0629-09~" }, end: { edtf: "0629-09~" }, status: tradition, note: "حمل الراية بعد استشهاد القادة الثلاثة ثم دفعها لمن اختاره الناس.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-mutah, role: witness, sources: [source/ibn-hisham-saqqa] }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 21" }

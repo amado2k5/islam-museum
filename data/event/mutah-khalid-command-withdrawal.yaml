@@ -1,0 +1,20 @@
+id: event/mutah-khalid-command-withdrawal
+class: event
+kind: other
+label: { ar: "قيادة خالد بن الوليد وانسحاب الجيش", en: "Khalid ibn al-Walid's command and the army's withdrawal" }
+summary:
+  ar: "بعد استشهاد القادة الثلاثة رفع ثابت بن أقرم الراية ورفض تولي القيادة، فاجتمع المسلمون على خالد بن الوليد. دافع خالد عن الجيش ثم انسحب بهم سالمين. وروى ابن هشام عن الزهري رواية مغايرة أن الله فتح عليهم."
+  en: "After the three commanders' deaths, Thabit ibn Aqram picked up the standard and declined command; the men chose Khalid ibn al-Walid. Khalid maneuvered defensively and withdrew the army intact. Ibn Hisham cites al-Zuhri with a divergent tradition that God granted victory under Khalid."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0629-09~", hijri: "0008-05", calendar: julian, precision: month, status: tradition, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: part_of, target: event/battle-of-mutah }
+  - { type: occurred_at, target: place/mutah }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: emergency-commander, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/thabit-ibn-aqram, role: witness, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 21, 25", generated_by: "kiro", run: "ibn-hisham-batch-4" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 21, 25; Zuhri variant (victory) vs Ibn Ishaq (withdrawal) noted in battle-of-mutah prose" }

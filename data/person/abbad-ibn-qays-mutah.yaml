@@ -1,0 +1,25 @@
+id: person/abbad-ibn-qays-mutah
+class: person
+label: { ar: "عبّاد بن قيس", en: "Abbad ibn Qays" }
+names:
+  - { kind: full, lang: ar, value: "عبّاد بن قيس — من بني الحارث بن الخزرج — من الأنصار" }
+gender: male
+died: { edtf: "0629-09~", hijri: "0008-05", calendar: julian, precision: month, status: tradition, note: "استُشهد يوم مؤتة.", sources: [source/ibn-hisham-saqqa] }
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي أنصاري من بني الحارث بن الخزرج، استُشهد يوم مؤتة إلى جانب عبد الله بن رواحة."
+  en: "Companion from the Ansar, of Banu al-Harith ibn al-Khazraj; martyred at Mu'tah alongside Abd Allah ibn Rawaha."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: martyr, start: { edtf: "0629-09~" }, status: tradition, sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-mutah, role: martyr, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/mutah }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 30" }

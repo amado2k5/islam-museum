@@ -1,0 +1,24 @@
+id: person/asma-bint-umays
+class: person
+label: { ar: "أسماء بنت عميس", en: "Asma' bint Umays" }
+names:
+  - { kind: full, lang: ar, value: "أسماء بنت عميس الخثعمية" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابية، زوجة جعفر بن أبي طالب؛ لما أُصيب زوجها بمؤتة جاء النبي إلى بيتها وطلب أبناء جعفر، فلما رآهم تشممهم وذرفت عيناه، وأخبرها باستشهاده. رَوَت وصيّته بإطعام آل جعفر."
+  en: "Companion, wife of Ja'far ibn Abi Talib. When Ja'far was killed at Mu'tah the Prophet visited her home, asked for Ja'far's children, smelled them and wept, then told her of his martyrdom. She transmitted the Prophet's instruction to provide food for Ja'far's household."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
+  - { role: witness, status: tradition, note: "زوجة جعفر بن أبي طالب، شهدت يوم استشهاده.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition }
+relations:
+  - { type: spouse_of, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/mutah-prophets-grief-and-condolence, role: bereaved-widow, sources: [source/ibn-hisham-saqqa] }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 22" }
