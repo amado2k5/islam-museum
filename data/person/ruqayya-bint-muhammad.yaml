@@ -63,6 +63,20 @@ relations:
   target: person/zaynab-bint-muhammad
   sources:
   - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/return-of-abyssinian-emigrants
+  role: emigrant
+  sources:
+  - source/ibn-hisham-saqqa
+- type: traveled_to
+  target: place/aksum
+  note: أرض الحبشة
+  sources:
+  - source/ibn-hisham-saqqa
+- type: member_of
+  target: group/banu-hashim
+  sources:
+  - source/ibn-hisham-saqqa
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 11224، ص 1872 (تراجم النساء)
@@ -71,6 +85,7 @@ provenance:
   run: isaba-women-1
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 2

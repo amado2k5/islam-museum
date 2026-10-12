@@ -12,7 +12,8 @@
   - 5a (Hashim, Abd Shams, Asad), 5b (Taym, Jumah, Sahm, Adi, Amir, Al-Harith) and a part of 5c: on main (thin Codex-generated person files).
   - 5c-i (0c678b7): repaired three entities clobbered by earlier thin overwrites (banu-hashim, yazid-ibn-zamaa, umm-habiba-bint-abi-sufyan), merged duplicates (event/return-from-abyssinia -> alias of event/return-of-abyssinian-emigrants; person/umm-salama-bint-abi-umayya -> alias of person/umm-salama), 9 groups, 4 events, 1 journey, 1 concept, 1 place, roster dataset `datasets/abyssinia-muhajirun-roster.csv` (86 rows).
   - 5c-ii: Abd Shams / Umayya allies / Asad / Abd al-Dar persons (21), 3 places, Ubaydullah event prose.
-  - Remaining plan: 5c-iii Zuhra, Taym, Makhzum + places; 5c-iv Jumah and Sahm; 5c-v Adi, Amir, Al-Harith; 5c-vi clan group prose and thin-group upgrade.
+  - 5c-iii: Zuhra, Taym, Makhzum persons, Abdullah ibn Jafar, Muhammad ibn Abi Hudhayfa (18), places al-Qadisiyya, al-Yarmuk, al-Yamama, Ayn al-Tamr, Fahl; Ruqayya (Isaba file) gets the Abyssinia edges.
+  - Remaining plan: 5c-iv Jumah and Sahm; 5c-v Adi, Amir, Al-Harith; 5c-vi clan group prose and thin-group upgrade.
 
 ## Doubt markers captured so far (pp. 3-11)
 
