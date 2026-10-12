@@ -1,0 +1,14 @@
+id: group/banu-umayya
+class: group
+label: { ar: "بنو أمية بن عبد شمس" }
+summary:
+  ar: "من بطون قريش؛ يقدّمه ابن إسحاق بنسبه «أمية بن عبد شمس بن عبد مناف» ويجعله قسماً مستقلاً من مهاجرة الحبشة."
+kind: clan
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 6, 10", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-i" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

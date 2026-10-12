@@ -1,20 +1,29 @@
 id: person/yazid-ibn-zamaa
 class: person
-label:
-  ar: يزيد بن زمعة
-summary:
-  ar: صحابي من بني أسد، هاجر إلى الحبشة وقُتل شهيداً يوم حنين.
+label: { en: "Yazid ibn Zam'a", ar: "يزيد بن زمعة" }
+names:
+  - { kind: full, lang: ar, value: "يزيد بن زمعة بن الأسود بن المطلب بن أسد القرشي" }
 gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A Qurashi Companion from Banu al-Muttalib (nephew of Sawda bint Zam'a); at the Battle of Hunayn, his spirited horse named al-Janah bolted and threw him, leading to his martyrdom."
+  ar: "صحابي قرشي من بني أسد بن عبد العزى (ابن أخي سودة بنت زمعة أم المؤمنين)؛ ذكره ابن إسحاق في مهاجرة الحبشة، واستشهد يوم حنين بعد أن جمح به فرس له يقال له الجناح فصرعه وقتله."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+died: { edtf: "0630-01~", hijri: "0008-10", calendar: julian, precision: month, status: tradition, note: "استشهد يوم حنين حين جمح به فرسه الجناح.", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: martyr, status: tradition, note: "استشهد يوم حنين (ابن هشام 4/101).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي شهيد حنين." }
 relations:
-  - type: member_of
-    target: group/banu-asad
-died:
-  hijri: "0008"
-  precision: year
-  note: "قُتل يوم حنين"
-status:
-  review: draft
-sources: [source/ibn-hisham-saqqa-1936]
-provenance:
-  generated_by: codex
-  model: gpt-4o
+  - { type: member_of, target: group/quraysh }
+  - { type: member_of, target: group/banu-asad, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-hunayn, role: martyr, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 101", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 101; restored and merged with p. 7 by Claude Sonnet 5.5" }

@@ -1,0 +1,17 @@
+id: event/umar-dismisses-al-numan-ibn-adi
+class: event
+kind: other
+label: { ar: "عزل عمر النعمان بن عدي عن ميسان", en: "Umar dismisses al-Nu'man ibn Adi from Maysan" }
+summary:
+  ar: "روى ابن إسحاق أن عمر بن الخطاب استعمل النعمان بن عدي على ميسان من أرض البصرة ثم عزله لما بلغته أبيات منسوبة إليه؛ فاعتذر النعمان بأنه شاعر قال ما تقول الشعراء، فأجابه عمر أنه لن يستعمله على عمل ما بقي."
+wings: [time, people, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0634/0644", calendar: julian, precision: year, status: tradition, derived: true, note: "قال ابن إسحاق: في خلافة عمر بن الخطاب؛ لا يعيّن السنة، فالتاريخ مشتق من مدة الخلافة ويحتاج مصدراً ثانياً (needs_source)", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/maysan, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: appointing-and-dismissing-governor, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 9", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-i" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 9" }

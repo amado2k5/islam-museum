@@ -1,0 +1,18 @@
+id: event/jafar-arrival-at-khaybar
+class: event
+kind: other
+label: { ar: "قدوم جعفر بن أبي طالب على النبي بخيبر", en: "Ja'far ibn Abi Talib comes before the Prophet at Khaybar" }
+summary:
+  ar: "ينقل ابن هشام، لا ابن إسحاق، خبراً عن سفيان بن عيينة عن الأجلح عن الشعبي: قدم جعفر بن أبي طالب على النبي يوم فتح خيبر، فقبّل النبي بين عينيه والتزمه وقال إنه لا يدري بأيهما هو أسر: بفتح خيبر أم بقدوم جعفر."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628~", hijri: "0007~", calendar: julian, precision: year, status: tradition, note: "قال ابن إسحاق: قدموا والنبي بخيبر بعد الحديبية؛ تقدير السنة مشتق (فتح خيبر في المحرم 7 هـ تقريباً) ويحتاج مصدراً ثانياً (needs_source)", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/khaybar, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/jafar-ibn-abi-talib, role: arriving, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: receiving, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 3", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-i" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3" }

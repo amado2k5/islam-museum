@@ -1,0 +1,20 @@
+id: event/emigrants-carried-in-two-ships
+class: event
+kind: migration
+label: { ar: "حمل النجاشي مهاجري الحبشة إلى النبي في سفينتين", en: "The Negus carries the emigrants to the Prophet in two ships" }
+summary:
+  ar: "قال ابن إسحاق: بقي من أصحاب النبي بأرض الحبشة من بقي حتى بعث النبي إلى النجاشي عمرو بن أمية الضمري، فحملهم في سفينتين وقدم بهم عليه وهو بخيبر بعد الحديبية. وبلغ مجموع من قدم في السفينتين ستة عشر رجلاً، وحُمل معهم نساء من نساء من هلك هناك من المسلمين."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+date:
+  start: { edtf: "0628~", hijri: "0007~", calendar: julian, precision: year, status: tradition, note: "قال ابن إسحاق: قدموا والنبي بخيبر بعد الحديبية؛ تقدير السنة مشتق (فتح خيبر في المحرم 7 هـ تقريباً) ويحتاج مصدراً ثانياً (needs_source)", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: place/khaybar, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: sender, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/amr-ibn-umayya-al-damri, role: envoy, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/negus-of-aksum, role: carried-the-emigrants, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 3, 5", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-i" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-5" }

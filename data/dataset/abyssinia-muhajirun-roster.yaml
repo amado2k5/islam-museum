@@ -1,0 +1,16 @@
+id: dataset/abyssinia-muhajirun-roster
+class: dataset
+label: { ar: "قائمة مهاجري الحبشة بحسب ابن إسحاق", en: "Roster of the Abyssinian emigrants according to Ibn Ishaq" }
+summary:
+  ar: "جدول بأسماء المهاجرين إلى الحبشة وعشائرهم ومصائرهم كما عدّها ابن إسحاق في رواية ابن هشام (الجزء الرابع ص3-11): من حُمل في السفينتين (ستة عشر رجلاً)، وسائر المهاجرين (أربعة وثلاثون رجلاً)، والمهاجرات (ست عشرة امرأة)، والمولودون بالحبشة (خمسة رجال وخمس نساء)."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+rows_file: datasets/abyssinia-muhajirun-roster.csv
+license: CC0
+source: source/ibn-hisham-saqqa
+columns: [section, clan, name, full_name_ar, sex, counted_as, fate_per_book, printed_page, source_note]
+coverage: { printed_pages: "3-11", men_on_the_two_ships: 16, other_emigrant_men: 34, emigrant_women: 16, died_in_abyssinia_men: 7, born_in_abyssinia_men: 5, born_in_abyssinia_women: 5 }
+method_note: "الأعداد الكلية من نص ابن إسحاق نفسه؛ والمعدودون يُسجَّلون بحسب ما يقول الكتاب، فمن ذُكر ضمن أهل المهاجر (زوجة أو ابن قدم معه) لم يُعدّ رجلاً مستقلاً. الوفيات بعد العودة موضوعة بصيغة الكتاب (في خلافة أبي بكر أو عمر) دون تعيين سنة."
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }
