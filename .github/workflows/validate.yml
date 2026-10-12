@@ -23,6 +23,8 @@ jobs:
         run: npm test
       - name: Validate content
         run: npm run validate
+      - name: Export static JSON API
+        run: npm run api
       - name: Build
         run: npm run build
       - name: No runtime AI or compute (guard)
