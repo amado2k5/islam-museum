@@ -16,12 +16,13 @@ The museum already had a `perspectives` block (one entry per tradition). This do
 ## 2. Rules (editorial)
 
 1. **Lead opinion.** The first opinion is Sunni (any `sunni*` tradition), per `docs/scope.md`. The choice of which Sunni opinion leads follows the source the entry is built from (for a creed book, that book's own position), then the order `sunni`, `sunni-hanafi`, `sunni-maliki`, `sunni-shafii`, `sunni-hanbali`. A visitor's "preferred school first" setting (planned) reorders only among Sunni opinions and hides none.
-2. **Order beneath.** Further Sunni opinions, then `academic`, then every other view, each labelled before it is stated (validator-enforced).
-3. **No verdict.** Never "the correct view", "the stronger opinion" or "the majority view" in the museum's voice. A source may say so; the museum then attributes it («رجّح ابن حجر…»).
-4. **A view is described in its own words** where its own books are available, not only through its critics. If only a critic's description is at hand, the entry says so and the view is marked as to be added.
-5. **Every opinion cites a source** (warning today; error when the entry is promoted to `reviewed`). Evidence entries point at passages, works or sources; quotation limits apply (at most 40 words).
-6. **An entry that records only one book's position says so** and lists what is still to be added (as the creed entries from al-Tahawi do). Contested entries need Tier A review before promotion.
-7. **Disagreement about facts** (a date, a number, who did what) stays as dated claims with `status: debated` and their own sources (`02-content-model.md`), shown in the same component as opinions when the page has an `issue`.
+2. **Standing tag.** Each opinion shows a chip: *Main reference* (Sunni), *Secondary opinion* (academic, or a Sunni position the entry marks as outside the mainstream), *Other opinion* (any other tradition); see the addendum to `docs/scope.md`. The tag is derived from the tradition unless `standing` is set.
+3. **Order beneath.** Further Sunni opinions, then `academic`, then every other view, each labelled before it is stated (validator-enforced).
+4. **No verdict.** Never "the correct view", "the stronger opinion" or "the majority view" in the museum's voice. A source may say so; the museum then attributes it («رجّح ابن حجر…»).
+5. **A view is described in its own words** where its own books are available, not only through its critics. If only a critic's description is at hand, the entry says so and the view is marked as to be added.
+6. **Every opinion cites a source** (warning today; error when the entry is promoted to `reviewed`). Evidence entries point at passages, works or sources; quotation limits apply (at most 40 words).
+7. **An entry that records only one book's position says so** and lists what is still to be added (as the creed entries from al-Tahawi do). Contested entries need Tier A review before promotion.
+8. **Disagreement about facts** (a date, a number, who did what) stays as dated claims with `status: debated` and their own sources (`02-content-model.md`), shown in the same component as opinions when the page has an `issue`.
 
 ## 3. Data (what an editor writes)
 

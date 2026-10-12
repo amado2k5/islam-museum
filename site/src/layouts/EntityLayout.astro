@@ -70,10 +70,10 @@ const ownSources = [...new Set([...(d.sources ?? []), ...proseSources])].map((id
 const refChip = (id: string) => { const n = byId.get(id); return n ? { id, label: labelOf(n, lang), url: href(lang, id), stub: !!n.stub } : null; };
 // docs/plan/20-opinions.md: each opinion may carry a stance headline, its holders and its basis; prose blocks give only label and text
 const perspectivesRaw = sectionHtml.flatMap((s) => s.persp).length
-  ? sectionHtml.flatMap((s) => s.persp).map((p) => ({ label: p.tradition, id: "", stance: "", html: p.html, sunni: /^(sunni|أهل السنة|سني)/i.test(p.tradition), holders: [] as any[], evidence: [] as any[], sources: [] as any[] }))
+  ? sectionHtml.flatMap((s) => s.persp).map((p) => ({ label: p.tradition, id: "", standing: /^(sunni|أهل السنة|سني)/i.test(p.tradition) ? "main" : /academic|أكاديمي/i.test(p.tradition) ? "secondary" : "other", stance: "", html: p.html, sunni: /^(sunni|أهل السنة|سني)/i.test(p.tradition), holders: [] as any[], evidence: [] as any[], sources: [] as any[] }))
   : (d.perspectives ?? []).map((p: any) => ({
       label: traditionLabel(p.tradition, lang), stance: p.stance?.[lang] ?? p.stance?.en ?? "", html: p.summary[lang] ?? p.summary.en, sunni: String(p.tradition).startsWith("sunni"),
-      id: p.id ?? "", holders: (p.holders ?? []).map(refChip).filter(Boolean),
+      id: p.id ?? "", standing: p.standing ?? (String(p.tradition).startsWith("sunni") ? "main" : p.tradition === "academic" ? "secondary" : "other"), holders: (p.holders ?? []).map(refChip).filter(Boolean),
       evidence: (p.evidence ?? []).map((e: any) => ({ chip: refChip(e.ref), note: e.note?.[lang] ?? e.note?.en ?? "" })).filter((e: any) => e.chip),
       sources: (p.sources ?? []).map(refChip).filter(Boolean),
     }));
@@ -183,7 +183,7 @@ const reviewStatus = d.status?.review ?? "draft";
             {issueText && <p class="ui" style="margin:0 0 12px"><b>{T.entity.issue}:</b> {issueText}</p>}
             {[leadOpinion].map((p) => (
               <div class="panel" id={p.id ? `op-${p.id}` : undefined} style="margin-bottom:14px;border-inline-start:4px solid var(--gold)">
-                <h3 class="ui" style="margin:0 0 6px;font-size:1rem">{p.sunni ? `${T.entity.lead_opinion} · ${T.entity.sunni_frame}` : `${T.entity.lead_opinion} · ${fmt(T.entity.view, { label: p.label })}`}{p.sunni && p.label && !T.entity.sunni_frame.includes(p.label) ? ` · ${p.label}` : ""}</h3>
+                <h3 class="ui" style="margin:0 0 6px;font-size:1rem">{p.sunni ? `${T.entity.lead_opinion} · ${T.entity.sunni_frame}` : `${T.entity.lead_opinion} · ${fmt(T.entity.view, { label: p.label })}`}{p.sunni && p.label && !T.entity.sunni_frame.includes(p.label) ? ` · ${p.label}` : ""}<span class="chip ui" style="margin-inline-start:8px;font-size:.75rem;border:1px solid var(--gold)">{T.entity[`standing_${p.standing}`]}</span></h3>
                 {p.stance && <p style="margin:0 0 6px"><b>{p.stance}</b></p>}
                 <div set:html={p.html} />
                 {p.holders.length > 0 && <p class="ui" style="margin:8px 0 0"><span class="muted">{T.entity.holders}:</span> {p.holders.map((h: any) => <a class={`chip${h.stub ? " stub-link" : ""}`} href={h.url}>{h.label}</a>)}</p>}
@@ -196,7 +196,7 @@ const reviewStatus = d.status?.review ?? "draft";
                 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:10px">
                   {moreOpinions.map((p) => (
                     <div class="panel" id={p.id ? `op-${p.id}` : undefined}>
-                      <h3 class="ui" style="margin:0 0 6px;font-size:1rem">{p.sunni ? `${T.entity.sunni_frame}${p.label && !T.entity.sunni_frame.includes(p.label) ? ` · ${p.label}` : ""}` : fmt(T.entity.view, { label: p.label })}</h3>
+                      <h3 class="ui" style="margin:0 0 6px;font-size:1rem">{p.sunni ? `${T.entity.sunni_frame}${p.label && !T.entity.sunni_frame.includes(p.label) ? ` · ${p.label}` : ""}` : fmt(T.entity.view, { label: p.label })}<span class="chip ui" style="margin-inline-start:8px;font-size:.75rem;border:1px solid var(--gold)">{T.entity[`standing_${p.standing}`]}</span></h3>
                       {p.stance && <p style="margin:0 0 6px"><b>{p.stance}</b></p>}
                       <div set:html={p.html} />
                       {p.holders.length > 0 && <p class="ui" style="margin:8px 0 0"><span class="muted">{T.entity.holders}:</span> {p.holders.map((h: any) => <a class={`chip${h.stub ? " stub-link" : ""}`} href={h.url}>{h.label}</a>)}</p>}

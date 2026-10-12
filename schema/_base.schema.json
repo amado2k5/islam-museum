@@ -191,6 +191,13 @@
         "stance": {
           "$ref": "_base.schema.json#/$defs/localized"
         },
+        "standing": {
+          "enum": [
+            "main",
+            "secondary",
+            "other"
+          ]
+        },
         "holders": {
           "type": "array",
           "items": {

@@ -86,6 +86,8 @@ const base = {
         // docs/plan/20-opinions.md: a named opinion within a disagreement
         id: { type: "string", pattern: "^[a-z0-9][a-z0-9-]*$" },
         stance: ref("localized"),
+        // docs/scope.md addendum: the museum's main reference is Sunni Islam and its wasatiyya; other opinions are tagged secondary or other
+        standing: enm(["main", "secondary", "other"]),
         holders: entityRefs,
         evidence: { type: "array", items: { type: "object", additionalProperties: false, required: ["ref"], properties: { ref: entityRef, note: ref("localized") } } },
       },

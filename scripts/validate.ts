@@ -156,6 +156,10 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
         for (const e of t.evidence ?? []) if (!resolves(e.ref)) err(file, `perspectives[${i}].evidence: ${e.ref} does not exist`);
         if (!(t.sources ?? []).length) warn(file, `perspectives[${i}] (${t.tradition}) cites no source: every opinion is cited`);
       });
+      entity.perspectives.forEach((t: any, i: number) => {
+        if (t.standing === "main" && !String(t.tradition).startsWith("sunni")) err(file, `perspectives[${i}]: standing "main" is for Sunni opinions; "${t.tradition}" is a secondary or other opinion (docs/scope.md)`);
+        if (i === 0 && (t.standing === "secondary" || t.standing === "other")) err(file, `perspectives[0] is the lead opinion and cannot be tagged ${t.standing}`);
+      });
       if (entity.perspectives.length >= 2 && !entity.issue) warn(file, "two or more opinions but no `issue`: state the question the opinions answer");
     }
 

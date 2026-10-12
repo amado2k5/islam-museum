@@ -159,6 +159,13 @@ describe("opinions: issue, holders, evidence and ids (docs/plan/20-opinions.md)"
     const m = msgs(run(e), "error");
     expect(m).toMatch(/duplicate id "same"/); expect(m).toMatch(/holders: person\/zz-nobody does not exist/); expect(m).toMatch(/evidence: source\/zz-none does not exist/);
   });
+  it("refuses a main tag on a non-Sunni opinion and a lead opinion tagged secondary or other", () => {
+    const bad = base("concept", "zz-test-o4", { kind: "doctrine", issue: { en: "q?" }, perspectives: [op({ standing: "secondary" }), op({ tradition: "shia-twelver", standing: "main" })] });
+    const m = msgs(run(bad), "error");
+    expect(m).toMatch(/cannot be tagged secondary/); expect(m).toMatch(/standing "main" is for Sunni opinions/);
+    const ok = base("concept", "zz-test-o5", { kind: "doctrine", issue: { en: "q?" }, perspectives: [op({ standing: "main" }), op({ tradition: "academic", standing: "secondary" }), op({ tradition: "shia-twelver", standing: "other" })] });
+    expect(msgs(run(ok), "error")).toBe("");
+  });
   it("warns when two opinions have no issue, or an opinion cites no source", () => {
     const w = msgs(run(base("concept", "zz-test-o3", { kind: "doctrine", perspectives: [{ tradition: "sunni", summary: { en: "x" } }, op({ tradition: "sunni-hanafi" })] })), "warn");
     expect(w).toMatch(/no `issue`/); expect(w).toMatch(/cites no source/);
