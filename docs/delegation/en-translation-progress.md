@@ -9,11 +9,11 @@
 - Phase B (rendered metadata): `label.en` + `summary.en` filled for all entities that lacked them (139 labels, 328 summaries: people 124, events 52, places 50, groups 30, polities 25, buildings 17, works 9, concepts 7, datasets 5, exhibits 5, journeys 2, object 1, source 1); 59 exhibit room titles+bodies; 13 `perspectives[].summary`; 21 stub `label.en`; `map.note` already bilingual.
 - Phase C prose, in progress. `content/en/` written so far:
   - exhibit/ ×5 (all five trails)
-  - event/ ×127 (through `khirash-incident`, alphabetical)
+  - event/ ×201 (ALL events done)
 
 ## Next step
 
-Continue `content/en/event/` — alphabetical by slug; done so far: `abu-bakr-leads-the-prayers` … `khirash-incident` (127 files). Next file: `content/ar/event/khuzaa-appeal-to-medina.md` (next event slug alphabetically; 74 events remain). 201 event files total; then person ×408, group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
+Events are complete: all 201 `content/ar/event/*.md` translated to `content/en/event/`. Next class: `content/en/person/` — 408 files, alphabetical by slug (first: `content/ar/person/…` sorted). Then group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
 
 ## Conventions
 
