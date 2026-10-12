@@ -61,6 +61,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
           <span class="ltr" dir="ltr">islam.museum</span>
         </a>
         <div style="display:flex;align-items:center;gap:10px" class="ui">
+          <a class="chip" href={`/${lang}/learn/`} style="border:1px solid var(--gold);font-weight:600">{T.nav.learn}</a>
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search}</a>
           <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">{T.a11y.menu_open}</button>
           <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
