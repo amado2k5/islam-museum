@@ -1,0 +1,23 @@
+id: person/abu-khaythama
+class: person
+label: { ar: "أبو خيثمة" }
+names:
+  - { kind: full, lang: ar, value: "أبو خيثمة مالك بن قيس" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من بني سالم بن عوف؛ ذكره ابن إسحاق في الأربعة الذين تخلفوا عن غير شك، ثم لحق بالنبي بتبوك بعد أن امتنع من دخول عريشيه في يوم حار."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص162-164)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: participated_in, target: event/believers-who-lagged-without-doubt, role: lagged-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/abu-khaythama-joins-the-army, role: subject, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 162-164", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 162-164" }

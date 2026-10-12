@@ -1,0 +1,17 @@
+id: person/umayr-ibn-wahb-al-jumahi
+class: person
+label: { ar: "عمير بن وهب الجمحي" }
+names:
+  - { kind: full, lang: ar, value: "عمير بن وهب الجمحي" }
+gender: male
+roles: [companion]
+summary:
+  ar: "لقي أبا خيثمة في الطريق وهو يطلب النبي، فترافقا حتى دنوا من تبوك فتخلف عنه أبو خيثمة بطلبه ليأتي النبي أولاً."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/abu-khaythama-joins-the-army, role: companion-on-the-road, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 164", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 164" }
