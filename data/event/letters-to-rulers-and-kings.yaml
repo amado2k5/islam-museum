@@ -1,0 +1,28 @@
+id: event/letters-to-rulers-and-kings
+class: event
+kind: other
+label: { en: "The Letters to Rulers and Kings", ar: "مكاتبة الملوك والأمراء" }
+summary:
+  en: "In late 6 AH (early 628 CE) following the Hudaybiyya truce, the Prophet initiated an international diplomatic initiative, sending envoys with silver-sealed letters to the major emperors, kings, and regional chiefs of the surrounding world: the Negus of Abyssinia, the Muqawqis of Egypt, Chosroes of Persia, Heraclius of Byzantium, al-Mundhir ibn Sawa of Bahrain, Hawdha ibn Ali of al-Yamama, al-Harith al-Ghassani of Damascus, and the rulers of Oman."
+  ar: "في أواخر السنة السادسة للهجرة إثر هدنة الحديبية، اصطفى النبي عدداً من أصحابه سفراء بكتاب مختوم بخاتم فضي نقشه «محمد رسول الله» إلى أباطرة وملوك وأمراء العالم المعاصر: كسرى ملك فارس، وهرقل قيصر الروم، والنجاشي ملك الحبشة، والمقوقس عظيم القبط بمصر، والمنذر بن ساوى في البحرين، وهوذة بن علي باليمامة، والحارث الغساني بدمشق، وجيفر وعبد ابني الجلندي في عُمان."
+wings: [time, people]
+themes: [peace-making-and-coexistence, conferences-and-declarations]
+periods: [period/prophetic-era]
+regions: [arabia, levant-iraq, egypt-nile, east-africa]
+date:
+  start: { edtf: "0628-05~", hijri: "0006-12", calendar: julian, precision: month, status: tradition, note: "أواخر السنة السادسة ومستهل السابعة للهجرة (الرحيق ص349–361)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: "صاحب الكتب والرسائل", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/dihya-al-kalbi, role: "سفير النبي إلى هرقل قيصر الروم", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abdullah-ibn-hudhafa-al-sahmi, role: "سفير النبي إلى كسرى أبرويز شاهنشاه فارس", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/hatib-ibn-abi-baltaa, role: "سفير النبي إلى المقوقس عظيم القبط بمصر", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: person/amr-ibn-umayya-al-damri, role: "سفير النبي إلى أصحمة النجاشي ملك الحبشة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-ala-ibn-al-hadrami, role: "سفير النبي إلى المنذر بن ساوى عظيم البحرين", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: person/salit-ibn-amr, role: "سفير النبي إلى هوذة بن علي صاحب اليمامة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/shuja-ibn-wahb, role: "سفير النبي إلى الحارث بن أبي شمر الغساني أمير دمشق", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "سفير النبي إلى جيفر وعبد ابني الجلندي في عُمان", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/treaty-of-hudaybiyya }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 349–361" }
