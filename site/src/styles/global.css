@@ -11,13 +11,16 @@
 @import "@fontsource/amiri/arabic-700.css";
 @import "@fontsource/reem-kufi/arabic-500.css";
 @import "@fontsource/amiri-quran/arabic-400.css";
+@import "@fontsource/cairo/arabic-400.css";
+@import "@fontsource/cairo/arabic-700.css";
 
 /* ---- Design tokens (visual identity spec, docs/plan/04 §6): deep lapis-teal, manuscript gold, warm alabaster, parchment panels.
    Gold is decorative only on light grounds (2.3:1); text that is gold uses --gold-text, which passes AA on ivory and sand. ---- */
 :root {
   --ivory: #f9f8f6; --ink: #1a1a1a; --lapis: #0a2533; --teal: #113f4e; --gold: #c5a059; --sand: #e6d5b8;
-  --bg: var(--ivory); --fg: var(--ink); --panel: var(--sand); --muted: #555555; --line: rgba(10, 37, 51, 0.16);
-  --link: var(--teal); --accent: var(--gold); --gold-text: #7d5d1e; --focus: #0a2533;
+  --bg: var(--ivory); --fg: var(--ink); --panel: var(--sand); --muted: #4a4a4a; --line: rgba(10, 37, 51, 0.16);
+  --card: #ffffff; --rule: #e6d5b8;
+  --link: var(--teal); --accent: var(--gold); --gold-text: #654a15; --focus: #0a2533;
   --hero-bg: linear-gradient(160deg, #0a2533 0%, #113f4e 100%);
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -25,16 +28,19 @@
   --ar-display: "Amiri", "Reem Kufi", "Noto Naskh Arabic", serif;
   --ar-quran: "Amiri Quran", "Amiri", "Noto Naskh Arabic", serif;
   --measure: 68ch;
-  --wing-time: #7a5514; --wing-place: #0f5560; --wing-people: #2b4f7e; --wing-ideas: #5a3f7a;
-  --wing-objects: #8a3a3a; --wing-words: #2f6079; --wing-living: #3f6b2a; --wing-today: #5f5a53; --wing-made: #9a4a1a;
+  /* the nine wing accents (inner-pages spec §2): each wing keeps its own tone inside the lapis-and-gold palette */
+  --wing-time: #8c6d3b; --wing-place: #1b4958; --wing-people: #9e4a38; --wing-ideas: #1c4e40; --wing-objects: #b27b42;
+  --wing-words: #2d3748; --wing-living: #2a7b88; --wing-today: #335c67; --wing-made: #c5a059;
 }
 :root[data-theme="dark"] {
   --bg: #0a2533; --fg: #f9f8f6; --panel: #113f4e; --muted: #c9d3d6; --line: rgba(249, 248, 246, 0.16);
+  --card: #113f4e; --rule: rgba(230, 213, 184, 0.3);
   --link: #9fd3d9; --focus: #e6d5b8; --gold-text: #c5a059;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0a2533; --fg: #f9f8f6; --panel: #113f4e; --muted: #c9d3d6; --line: rgba(249, 248, 246, 0.16);
+    --card: #113f4e; --rule: rgba(230, 213, 184, 0.3);
     --link: #9fd3d9; --focus: #e6d5b8; --gold-text: #c5a059;
   }
 }
@@ -45,14 +51,17 @@ body {
   margin: 0; background: var(--bg); color: var(--fg); font-family: var(--serif); font-size: 1.0625rem; line-height: 1.65;
   -webkit-font-smoothing: antialiased; min-height: 100svh; display: flex; flex-direction: column;
 }
-html[lang="ar"] body { font-family: var(--ar-body); line-height: 1.95; font-size: 1.15rem; }
+html[lang="ar"] body { font-family: var(--ar-body); line-height: 1.8; font-size: 1.15rem; }
+/* sans-serif option for Arabic (header toggle; Cairo) — the default stays Amiri / Noto Naskh */
+html[data-font="sans"] { --ar-body: "Cairo", "Tajawal", system-ui, sans-serif; --ar-display: "Cairo", "Noto Naskh Arabic", sans-serif; }
 html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] .display { font-family: var(--ar-display); }
 .latin { font-family: var(--sans); }
 [lang="ar"] .ltr, .ltr { unicode-bidi: isolate; }
 
 a { color: var(--link); text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
 a:hover { text-decoration-thickness: 2px; }
-a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+/* focus: a lapis outline inside a gold halo, so the ring shows on ivory and on the dark banners (inner-pages spec §4B) */
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; box-shadow: 0 0 0 5px var(--gold); border-radius: 4px; }
 a.stub-link { color: var(--muted); text-decoration-style: dotted; }
 
 h1, h2, h3 { line-height: 1.2; font-weight: 600; margin: 1.6em 0 0.5em; }
@@ -172,3 +181,52 @@ html[lang="ar"] .btn { font-family: var(--ar-body); font-size: 1.02rem; }
   .hero-watermark { width: 90vw; opacity: 0.07; inset-inline-end: -30%; }
   .hero h1 { max-width: 100%; }
 }
+
+/* ---- inner pages (inner-pages spec): the wing's own banner, the reading card, a progress rule, a phone toolbar ---- */
+.page-banner { position: relative; isolation: isolate; overflow: hidden; color: #f9f8f6; background: linear-gradient(180deg, #0a2533 0%, color-mix(in srgb, var(--wing, #c5a059) 42%, #113f4e) 100%); padding: clamp(28px, 6vh, 64px) 0 clamp(60px, 10vh, 92px); }
+.page-banner::before { content: ""; position: absolute; inset: 0; z-index: -2; background-image: url("/brand/lattice.svg"); background-size: 120px 120px; opacity: 0.12; }
+.page-banner::after { content: ""; position: absolute; width: 420px; height: 420px; top: -150px; inset-inline-end: -140px; border-radius: 50%; background: radial-gradient(closest-side, rgba(197, 160, 89, 0.24), transparent); z-index: -1; }
+/* the arched bottom edge: a page-coloured dome sits on the banner's floor */
+.page-banner .arch { position: absolute; inset-inline: 0; bottom: -1px; height: 44px; background: var(--bg); clip-path: ellipse(60% 100% at 50% 100%); }
+.page-banner h1 { color: #f9f8f6; margin: 0 0 12px; font-weight: 500; font-size: clamp(2rem, 5vw, 3.2rem); }
+.page-banner .page-lede { color: #e6d5b8; font-size: clamp(1.05rem, 2vw, 1.25rem); max-width: 60ch; margin: 0; }
+.page-banner .crumbs { font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin: 0 0 14px; }
+html[lang="ar"] .page-banner .crumbs { font-family: var(--ar-body); letter-spacing: 0; text-transform: none; font-size: 0.95rem; }
+.page-banner .crumbs a { color: var(--gold); }
+.page-banner a:not(.btn) { color: #e6d5b8; }
+/* chips on a dark banner: light glass, light text (the default chip would take the ink colour) */
+.page-banner .chip { background: rgba(249, 248, 246, 0.12); color: #f9f8f6; }
+.page-banner .chip:hover { outline-color: var(--gold); }
+#font-toggle { white-space: nowrap; }
+
+/* the reading card: alabaster page, one white panel, a soft gold-neutral rule (spec §1, §3B) */
+.reading { background: var(--card); border: 1px solid var(--rule); border-radius: 16px; box-shadow: 0 1px 2px rgba(10, 37, 51, 0.05); padding: clamp(18px, 4vw, 44px); max-width: 920px; margin-inline: auto; }
+.reading .panel { background: var(--sand); }
+
+/* next and related: a dual footer card at the end of each entity page */
+.dual { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 2.5rem auto 0; max-width: 920px; }
+.dual .card { border: 1px solid var(--rule); }
+.dual .eyebrow { margin-bottom: 6px; }
+
+/* reading progress: a thin gold rule at the top, grown by scroll (JS sets --p) */
+.reading-progress { position: fixed; top: 0; inset-inline: 0; height: 3px; z-index: 60; pointer-events: none; background: transparent; }
+.reading-progress span { display: block; height: 100%; width: 100%; background: var(--gold); transform-origin: left; transform: scaleX(var(--p, 0)); }
+html[dir="rtl"] .reading-progress span { transform-origin: right; }
+
+/* phone toolbar: wing directory, share, back to top; always in thumb reach */
+.explore-bar { display: none; }
+@media (max-width: 720px) {
+  .explore-bar { display: flex; position: fixed; inset-inline: 0; bottom: 0; z-index: 50; gap: 8px; justify-content: space-around; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); background: var(--bg); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(10, 37, 51, 0.08); }
+  .explore-bar a, .explore-bar button { flex: 1; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; font-family: var(--sans); font-size: 0.92rem; border-radius: 10px; background: var(--panel); color: var(--fg); border: 0; text-decoration: none; cursor: pointer; }
+  html[lang="ar"] .explore-bar a, html[lang="ar"] .explore-bar button { font-family: var(--ar-body); font-size: 1rem; }
+  main { padding-bottom: 76px; }
+  html[lang="ar"] body { font-size: 18px; line-height: 1.8; }
+  .page-banner { padding-block: 28px 48px; }
+  .reading { border-radius: 12px; }
+  .dual { grid-template-columns: 1fr; }
+}
+@media (max-width: 720px) and (prefers-reduced-motion: no-preference) {
+  .explore-bar button:active { transform: scale(0.98); }
+}
+/* medallions: lapis numerals on the two light accents (objects, made), ivory on the rest */
+.wing-card[data-wing="objects"] .wing-medal, .wing-card[data-wing="made"] .wing-medal { color: #0a2533; }

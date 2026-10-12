@@ -1,0 +1,46 @@
+id: polity/ghaznavid-empire
+class: polity
+kind: empire
+label:
+  ar: الدولة الغزنوية
+  en: Ghaznavid Empire
+summary:
+  ar: إمبراطورية قامت سنة 962م وانتهت سنة 1187م.
+wings:
+- time
+- place
+periods:
+- period/abbasid-fragmentation
+regions:
+- persia-central-asia
+- south-asia
+start:
+  edtf: "0962"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "1187"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+external_ids:
+  wikidata: Q249578
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

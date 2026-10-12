@@ -1,0 +1,2 @@
+# Battles and wars whose participant is in the subclass tree of Islam (Q432) or is a Companion (Q188711). Classes verified 2026-10-12: battle Q178561, war Q198.
+SELECT DISTINCT ?item WHERE { VALUES ?cls { wd:Q178561 wd:Q198 } ?item wdt:P31/wdt:P279* ?cls . ?item wdt:P710|wdt:P1344 ?p . ?p wdt:P279* wd:Q432 . } LIMIT 5000

@@ -1,0 +1,38 @@
+id: building/al-aqsa-mosque
+class: building
+kind: mosque
+label:
+  ar: المسجد الأقصى
+  en: Masjid Al-Aqsa
+summary:
+  ar: مسجد في القدس.
+wings:
+- place
+- objects
+periods:
+- period/umayyad
+regions:
+- levant-iraq
+coordinates:
+- 31.778
+- 35.236
+relations:
+- type: located_in
+  target: place/jerusalem
+  sources:
+  - source/wikidata
+  note: أقرب مكان في المتحف إلى إحداثيات ويكيداتا (دون 10 كم).
+external_ids:
+  wikidata: Q121610806
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: building-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; label, coordinates and construction date read from the local Wikidata CC0 subset; no prose yet, the history of the building needs a cited narrative

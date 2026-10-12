@@ -4,6 +4,7 @@ tagline: A museum for the whole story of Islam
 lang_name: English
 switch_to: العربية
 nav:
+  foundation: Foundation
   home: Home
   time: Time
   place: Place
@@ -464,3 +465,46 @@ learn:
   themes: Themes
   suggest: Tell us what you want to learn
   plan: The design document
+foundation:
+  title: "About the Islam Museum foundation"
+  lede: "A free, open, all-digital museum of Islam: its faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into to today."
+  logo_title: "The logo"
+  logo_intro: "The mark brings three elements of Islamic architecture and the book into one shape."
+  logo_star: "The eight-pointed star, from Islamic geometry: time and space together, neither understood without the other."
+  logo_arch: "The mihrab: the doorway a visitor enters through, and the turn toward the qibla."
+  logo_book: "The open book: knowledge and words, and reading before judging."
+  logo_download: "Download the mark as SVG"
+  logo_lockup_download: "Download the mark with the name"
+  story_title: "The story"
+  story_1: "The project began with a simple question: why is there no single place online that gathers the whole story of Islam, where a stranger can walk in and learn, and a researcher can check a claim and go back to the source? What is known about Islam is scattered across scripture sites, museum archives, encyclopedia articles, academic studies and press coverage, and much of it is written to defend or attack rather than to understand."
+  story_2: "The project chose to be built as a museum, not as one long article: nine wings (Time, Place, People, Ideas, Objects, Words, Living Islam, Today, and Made) look at the same subject from different angles, and every person, place, event, idea or object is a node in a graph that connects it to what surrounds it in time and space."
+  story_3: "The material lives in git as plain files: data without a language in YAML, prose for each language in Markdown, every fact tied to a source, and every date written in its precise form with its Hijri and Gregorian calendars. The site itself is static files published on GitHub Pages behind Cloudflare, with no server, no database, no paid service, and no AI model running when a visitor arrives."
+  story_4: "When the museum chose its visual identity, its colours came from Islamic architecture and manuscript making: deep lapis blue, the muted gold of manuscript pages, warm alabaster, and the sand of tiles. No single ornament was copied from an existing work; the patterns grow from the geometry of the star, the square and the circle."
+  story_5: "Then came shared work: contributors and parallel working sessions add small batches of material, and review turns drafts into reviewed entries before they are marked as such. The museum is still being built, and it says so on every page; the coverage page counts what is complete and what is still waiting."
+  founder_title: "The founder"
+  founder_body: "One person founded the project and wrote its first plan inside the repository itself, then opened the door to anyone who wanted to add or correct. The plan is built so the museum survives even if its founder stops: its text is in git, its data is open, and anyone can copy the whole museum to their own computer. This page describes the project and its purpose, not the life of the person behind it."
+  goal_title: "The goal"
+  goal_intro: "The museum's goal is to show the whole of Islam, from its beginnings to the present moment, fairly and without bias. To that end it commits to the following:"
+  goal_1: "It describes rather than prescribes: facts with dates and sources, and judgements attributed to the people who made them."
+  goal_2: "The Sunni account is the main frame of research, and every other view is stated only after it is clearly labelled."
+  goal_3: "Opponents, critics and allies appear with their roles in their own time, written about without the language of enmity."
+  goal_4: "Contested questions appear as tension cards: two or more voices, each cited, with no verdict from the museum."
+  goal_5: "Every claim is tied to a source; Wikipedia is a pointer, never a source."
+  goal_6: "It begins in Arabic, and it serves the visitor who knows nothing of Islam as well as the specialist."
+  take_title: "Take part in building it"
+  take_body: "The content and the code are open to everyone. You can read the repository, report an error, suggest a new entry, or ask for a translation into another language."
+  take_repo: "The repository on GitHub"
+  take_suggest: "Suggest an entry or a correction"
+  license: "Licence: text CC BY-SA 4.0 · data CC0 · code MIT"
+  breadcrumb: "Museum"
+
+explore:
+  label: "Explore tools"
+  wings: "Wings"
+  share: "Share"
+  copied: "Link copied"
+  top: "Top of page"
+  next: "Keep exploring"
+  wing_card: "Wing"
+  related_card: "Related"
+  font: "Font"
