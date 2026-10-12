@@ -1,0 +1,24 @@
+id: event/farewell-sermon-at-arafat
+class: event
+kind: gathering
+label: { en: "The Farewell Sermon at Arafat", ar: "خطبة عرفة الجامعة" }
+summary:
+  en: "On the Day of Arafa, 9 Dhu al-Hijja 10 AH, the Prophet stood at the foot of the valley before more than a hundred thousand pilgrims and delivered the comprehensive sermon: sanctity of blood and property, abolition of pagan blood-feuds and usury beginning with his own house, counsel on women, the pledge of the Book of God, and the testimony 'have I conveyed?'"
+  ar: "وقف النبي يوم عرفة 9 ذي الحجة سنة 10هـ بطن الوادي في أكثر من مائة ألف وخطب الخطبة الجامعة: تحريم الدماء والأموال، ووضع دماء الجاهلية ورباها بدءاً بأهل بيته، والوصية بالنساء، والعهد بكتاب الله، ثم أخذ شهادة الناس على التبليغ."
+wings: [time, people, words]
+themes: [pilgrimages-and-mass-gatherings, conferences-and-declarations]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-03", hijri: "0010-12-09", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/arafat }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/rabia-ibn-umayya-ibn-khalaf }
+  - { type: had_participant, target: person/bilal-ibn-rabah }
+  - { type: had_participant, target: person/umar-ibn-al-khattab }
+  - { type: had_participant, target: person/usama-ibn-zayd }
+  - { type: part_of, target: event/farewell-pilgrimage }
+  - { type: mentions, target: work/farewell-sermon }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

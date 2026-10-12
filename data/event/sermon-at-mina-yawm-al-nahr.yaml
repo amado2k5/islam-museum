@@ -1,0 +1,21 @@
+id: event/sermon-at-mina-yawm-al-nahr
+class: event
+kind: gathering
+label: { en: "The sermon of the Day of Sacrifice at Mina", ar: "خطبة يوم النحر بمنى" }
+summary:
+  en: "On 10 Dhu al-Hijja the Prophet preached at Mina mounted on a grey mule while Ali relayed his words: time has come full circle as on the day of creation; the sacred months are four; blood, property and honour are inviolable; and let the witness inform the absent."
+  ar: "خطب النبي يوم النحر بمنى وهو على بغلة شهباء وعلي يعبر عنه: إن الزمان قد استدار كهيئته يوم خلق السماوات والأرض، والأشهر الحرم أربعة، ودماءكم وأموالكم وأعراضكم عليكم حرام، وليبلغ الشاهد الغائب."
+wings: [time, people, words]
+themes: [pilgrimages-and-mass-gatherings, conferences-and-declarations]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-03", hijri: "0010-12-10", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/mina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: part_of, target: event/farewell-pilgrimage }
+  - { type: mentions, target: work/farewell-sermon }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }
