@@ -9,6 +9,9 @@ names:
   - kind: full
     lang: ar
     value: جويرية بنت الحارث بن أبي ضرار بن حبيب بن جذيمة (المصطلق) الخزاعية المصطلقية
+  - kind: alternate
+    lang: ar
+    value: برة
 gender: female
 roles:
   - companion
@@ -53,6 +56,11 @@ relations:
     sources:
       - source/ibn-hajar-isaba
       - source/mubarakpuri-raheeq
+  - type: spouse_of
+    target: person/musafi-ibn-safwan
+    note: "زوجها الأول مسافع بن صفوان ابن عمها؛ قُتل يوم المريسيع (نساء حول الرسول ص118-120)."
+    sources:
+      - source/nisa-hawl-alrasul
   - type: member_of
     target: group/mothers-of-the-believers
     sources: [source/tanzil-quran, source/mubarakpuri-raheeq]
@@ -68,6 +76,7 @@ sources:
   - source/zad-al-maad
   - source/ibn-hisham-sira
   - source/ibn-sad-tabaqat-bewley
+  - source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2

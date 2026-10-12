@@ -28,8 +28,9 @@ relations:
   - { type: died_in, target: place/medina }
   - { type: child_of, target: person/huyayy-ibn-akhtab }
   - { type: spouse_of, target: person/muhammad, start: { edtf: "0628~" }, end: { edtf: "0632" }, sources: [source/ibn-ishaq-guillaume] }
+  - { type: spouse_of, target: person/kinana-ibn-al-rabi, end: { edtf: "0628" }, note: "زوجها كنانة بن الربيع بن أبي الحقيق من يهود بني النضير؛ قُتل بخيبر (نساء حول الرسول ص140-142).", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/banu-nadir }
   - { type: member_of, target: group/ahl-al-bayt, note: "As a wife of the Prophet; membership is itself contested and shown under perspectives on the group page." }
   - { type: participated_in, target: event/battle-of-khaybar, role: taken-captive, sources: [source/ibn-ishaq-guillaume] }
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq]
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

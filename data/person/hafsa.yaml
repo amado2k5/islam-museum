@@ -5,7 +5,7 @@ names:
   - { kind: full, lang: ar, value: حفصة بنت عمر بن الخطاب }
 gender: female
 born: { edtf: "0605~", calendar: julian, precision: year, status: tradition, note: "Approximate; tradition places her birth before the mission began.", sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0665", hijri: "0045", calendar: julian, precision: year, status: tradition, note: "Traditionally Sha'ban 45 AH (about October–November 665 CE).", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0665", hijri: "0045", calendar: julian, precision: year, status: tradition, note: "Traditionally Sha'ban 45 AH (about October–November 665 CE). يذكر الكتاب أنها توفيت في شعبان سنة 45هـ ونزل في قبرها عبد الله وعاصم ولدا عمر (نساء حول الرسول ص83).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 roles: [companion, scholar]
 traditions: [sunni]
 summary:
@@ -25,8 +25,10 @@ relations:
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }
   - { type: child_of, target: person/umar-ibn-al-khattab }
+  - { type: child_of, target: person/zaynab-bint-mazun, note: "أمها زينب بنت مظعون أخت عثمان بن مظعون (نساء حول الرسول ص74).", sources: [source/nisa-hawl-alrasul] }
   - { type: spouse_of, target: person/muhammad, start: { edtf: "0625~" }, end: { edtf: "0632" }, note: "Widowed after Badr; married the Prophet about 4 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
+  - { type: spouse_of, target: person/khunays-ibn-hudhafa, end: { edtf: "0624" }, note: "زوجها الأول خنيس بن حذافة؛ توفي بعد بدر متأثراً بجراحه (نساء حول الرسول ص76).", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/ahl-al-bayt, note: "As a wife of the Prophet; membership is itself contested and shown under perspectives on the group page." }
   - { type: participated_in, target: event/hijra, role: emigrant }
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 74-83 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }
