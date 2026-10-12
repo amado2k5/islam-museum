@@ -40,17 +40,31 @@ faith:
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
 - type: spouse_of
+  target: person/al-harith-ibn-sakhbara
+  note: زوجها الأول الحارث، مات بمكة وبقي لها ابنه الطفيل؛ تزوجها أبو بكر بعده إكراماً لصاحبه (نساء حول الرسول ص322-323).
+  sources:
+  - source/nisa-hawl-alrasul
+- type: spouse_of
   target: person/abu-bakr
+  note: ولدت لأبي بكر عبد الرحمن وعائشة؛ أسلمت مبكرة معه (نساء حول الرسول ص323).
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
+- type: parent_of
+  target: person/al-tufayl-ibn-al-harith
+  note: ابنها الطفيل من زوجها الأول الحارث (نساء حول الرسول ص322-323).
+  sources:
+  - source/nisa-hawl-alrasul
 - type: parent_of
   target: person/aisha
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 - type: parent_of
   target: person/abd-al-rahman-ibn-abi-bakr
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 issue:
   ar: في أي سنة توفيت أم رومان؟
   en: In which year did Umm Ruman die?
@@ -91,14 +105,16 @@ perspectives:
       ar: ص 1998
   sources:
   - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
 provenance:
   layer: own-research
-  source: الإصابة في تمييز الصحابة، ترجمة 12068، ص 1997
+  source: الإصابة في تمييز الصحابة، ترجمة 12068، ص 1997؛ نساء حول الرسول ص321-332
   generated_by: Claude (maintainer session)
   model: claude-sonnet-5-5
   run: isaba-batch-4
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2

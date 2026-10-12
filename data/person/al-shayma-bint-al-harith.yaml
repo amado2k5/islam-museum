@@ -16,6 +16,6 @@ story_roles:
   - { role: family-of-the-prophet, status: tradition, note: "أخته من الرضاعة في بني سعد بن بكر دار حليمة السعدية (الرحيق ص417).", sources: [source/mubarakpuri-raheeq] }
 relations:
   - { type: member_of, target: group/hawazin }
-  - { type: participated_in, target: event/battle-of-hunayn, role: captive-then-honored-foster-sister, sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq]
+  - { type: participated_in, target: event/battle-of-hunayn, role: captive-then-honored-foster-sister, note: "في سبي حنين قالت: «يا رسول الله إني لأختك من الرضاعة» ففرش لها رداءه، فأسلمت واختارت الرجوع إلى قومها فأعطاها (نساء حول الرسول ص293-294).", sources: [source/mubarakpuri-raheeq, source/nisa-hawl-alrasul] }
+sources: [source/mubarakpuri-raheeq, source/nisa-hawl-alrasul]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 417" }

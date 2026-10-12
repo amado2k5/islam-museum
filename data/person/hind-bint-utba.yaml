@@ -5,7 +5,7 @@ names:
   - { kind: full, lang: ar, value: "هند بنت عتبة بن ربيعة" }
 gender: female
 born: { edtf: "0575~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0640~", calendar: julian, precision: decade, status: tradition, note: "Date uncertain; reported in the caliphate of Umar.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0640~", calendar: julian, precision: decade, status: tradition, note: "Date uncertain; reported in the caliphate of Umar. يقرر الكتاب وفاتها في خلافة عمر ولا يثبت اليوم بيقين (نساء حول الرسول ص358).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 roles: []
 traditions: []
 summary:
@@ -40,5 +40,5 @@ perspectives:
     id: academic
     summary: { en: "Historians note that the Uhud mutilation scene is told in the sira with varying detail and polemical coloring, and treat her as a case study in how the sources shape portraits of enemy women." }
     sources: [source/watt-1956-medina]
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
