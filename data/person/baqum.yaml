@@ -1,0 +1,94 @@
+id: person/baqum
+class: person
+label:
+  ar: باقوم
+  en: Baqum
+names:
+- kind: full
+  lang: ar
+  value: باقوم، ويقال باقول، النجار مولى بني أمية
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: نجار مولى لبني أمية يُنسب إليه في بعض الروايات صنع منبر النبي من طرفاء الغابة ذي الدرجات الثلاث، وأسانيدها ضعيفة عند ابن حجر؛ ويُسمّى باقوم أيضاً الرومي الذي ذُكر أنه أعان قريشاً في بناء الكعبة.
+  en: A carpenter, client of the Banu Umayya, to whom some reports attribute the Prophet's three-step tamarisk minbar (the chains are weak in Ibn Hajar's assessment). The name Baqum is also given to the Roman said to have helped Quraysh rebuild
+    the Kaaba.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/pre-islamic-arabia
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 588 (ص 129).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: related_to
+  target: event/rebuilding-of-the-kaaba
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: من صنع منبر النبي؟
+  en: Who made the Prophet's minbar?
+perspectives:
+- tradition: sunni
+  id: baqul-mawla-al-as
+  stance:
+    ar: باقول مولى العاص بن أمية
+  summary:
+    ar: رواية عبد الرزاق ومرسل صالح مولى التوأمة، وتابعه ابن السكن من طريق آخر؛ ضعيفة الإسناد.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 129
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: baqum-mawla-said
+  stance:
+    ar: باقوم مولى سعيد بن العاصي
+  summary:
+    ar: رواية أبي نعيم من طريق محمد بن إسماعيل المسمولي أحد الضعفاء؛ ضعيفة أيضاً.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 129
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: sahih-sahl-ansari-woman
+  stance:
+    ar: غلام امرأة من الأنصار
+  summary:
+    ar: هذا في الصحيح من حديث سهل بن سعد، ويجمع ابن حجر بينه وبين القولين الأولين باحتمال أنه خدم المرأة بعد هجرته فعُرف بها.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 129
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 588، ص 129
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-10
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 129, entry 588)

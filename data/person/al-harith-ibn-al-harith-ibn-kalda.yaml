@@ -1,0 +1,52 @@
+id: person/al-harith-ibn-al-harith-ibn-kalda
+class: person
+label:
+  ar: الحارث بن الحارث بن كلدة
+  en: Al-Harith ibn al-Harith ibn Kalada
+names:
+- kind: full
+  lang: ar
+  value: الحارث بن الحارث بن كلدة بن عمرو بن علاج الثقفي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: ثقفي، قال ابن عبد البر إنه كان من المؤلفة قلوبهم، وإن إسلام أبيه لا يصح، وتعقّبه ابن حجر في ترجمة أبيه الحارث بن كلدة.
+  en: Of Thaqif; Ibn Abd al-Barr counts him among those whose hearts were won over (al-mu'allafa qulubuhum) and says his father's conversion is not sound, a point Ibn Hajar answers in the entry on the father, al-Harith ibn Kalada.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 1400 (ص 252).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/thaqif
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 1400، ص 252
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-10
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 252, entry 1400)

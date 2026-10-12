@@ -77,7 +77,6 @@
 - { id: group/banu-al-aswad-b-razn, label: { ar: "بنو الأسود بن رزن", en: "Banu al-Aswad ibn Razn" } }
 - { id: group/banu-kab-ibn-khuzaa, label: { ar: "بنو كعب بن خزاعة", en: "Banu Ka'b ibn Khuza'a" } }
 - { id: person/abu-mabad, label: { ar: "أبو معبد الخزاعي", en: "Abu Ma'bad al-Khuza'i" } }
-- { id: person/al-hakam-ibn-abi-al-as, label: { ar: "الحكم بن أبي العاص", en: "al-Hakam ibn Abi al-As" } }
 - { id: person/zamaa-ibn-al-aswad, label: { ar: "زمعة بن الأسود", en: "Zam'a ibn al-Aswad" } }
 - { id: person/tuayma-ibn-adi, label: { ar: "طعيمة بن عدي", en: "Tu'ayma ibn Adi" } }
 - { id: person/ubayy-ibn-khalaf, label: { ar: "أُبيّ بن خلف", en: "Ubayy ibn Khalaf" } }
@@ -93,7 +92,6 @@
 - { id: person/umayya-ibn-abd-shams, label: { ar: "أمية بن عبد شمس", en: "Umayya ibn Abd Shams" }, note: "Eponym of Banu Umayya" }
 - { id: person/al-zubayr-ibn-abd-al-muttalib, label: { ar: "الزبير بن عبد المطلب", en: "al-Zubayr ibn Abd al-Muttalib" }, note: "Uncle of the Prophet; initiated the Fudul pact" }
 - { id: person/abu-umayya-ibn-al-mughira, label: { ar: "أبو أمية بن المغيرة", en: "Abu Umayya ibn al-Mughira" }, note: "Proposed the arbitration over the Black Stone" }
-- { id: person/baqum, label: { ar: "باقوم", en: "Baqum" }, note: "Roman builder of the Kaaba rebuilding" }
 - { id: group/qays-aylan, label: { ar: "قيس عيلان", en: "Qays 'Aylan" }, note: "Confederation opposing Quraysh in the Fijar war" }
 - { id: group/banu-al-muttalib, label: { ar: "بنو المطلب", en: "Banu al-Muttalib" }, note: "Clan party to Hilf al-Fudul" }
 - { id: group/banu-sad-ibn-bakr, label: { ar: "بنو سعد بن بكر", en: "Banu Sa'd ibn Bakr" }, note: "Hawazin clan among whom the Prophet was fostered" }
@@ -122,7 +120,6 @@
 - { id: group/banu-sulaym, label: { ar: "بنو سليم", en: "Banu Sulaym" } }
 - { id: group/muzayna, label: { ar: "مزينة", en: "Muzayna" } }
 - { id: person/mansur-ibn-ikrima, label: { ar: "منصور بن عكرمة", en: "Mansur ibn Ikrima" }, note: "الذي كَتَبَ صحيفة مقاطعة بني هاشم فدعا عليه النبي فشُلت يده فيما يروى" }
-- { id: person/al-sakran-ibn-amr, label: { ar: "السكران بن عمرو", en: "al-Sakran ibn Amr" }, note: "زوج سودة بنت زمعة الأول، هاجر معها إلى الحبشة ثم توفي بمكة" }
 - { id: group/banu-kilab, label: { ar: "بنو كلاب", en: "Banu Kilab" }, note: "قبيلة من عامر بن صعصعة بتهامة ونجد، بعث إليهم الضحاك بن سفيان" }
 - { id: group/tayy, label: { ar: "طيء", en: "Tayy" }, note: "قبيلة جبلي طيء قوم حاتم الطائي وعدي بن حاتم؛ صنمهم الفلس" }
 - { id: person/ramla-bint-al-harith, label: { ar: "رملة بنت الحارث", en: "Ramla bint al-Harith" }, note: "صاحبة الدار التي أُنزل فيها سبي بني تميم بالمدينة" }
@@ -130,12 +127,9 @@
 - { id: group/aws, label: { ar: "الأوس", en: "Banu Aws" }, note: "إحدى قبيلتي الأنصار بيثرب مع الخزرج" }
 # Added by the ibn-hisham lane (batch: return from Abyssinia); restored the file after a commit replaced all earlier stubs with this fragment
 - { id: group/ghatafan, label: { ar: "غطفان", en: "Ghatafan" }, note: "قبيلة قيسية نجدية كبيرة كانت إحدى دعائم حلف الأحزاب" }
-- { id: person/al-harith-ibn-abi-dirar, label: { ar: "الحارث بن أبي ضرار", en: "al-Harith ibn Abi Dirar" }, note: "سيد بني المصطلق ووالد جويرية أم المؤمنين، أسلم بعد الغزوة" }
 - { id: person/sinan-ibn-abi-sinan-al-asadi, label: { ar: "سنان بن أبي سنان الأسدي", en: "Sinan ibn Abi Sinan al-Asadi" }, note: "صحابي بدري أول من بايع بيعة الرضوان تحت الشجرة" }
 # Added by the raheeq lane (batch 20: hunayn and ta'if, pp. 412-423)
-- { id: person/abu-burqan, label: { ar: "أبو برقان", en: "Abu Burqan" }, note: "عم النبي من الرضاعة ومن وفد هوازن الأربعة عشر إلى الجعرانة" }
 - { id: person/masud-ibn-amr-al-ghifari, label: { ar: "مسعود بن عمرو الغفاري", en: "Mas'ud ibn Amr al-Ghifari" }, note: "أمين الغنائم المحبوسة بالجعرانة بعد حنين" }
-- { id: person/al-harith-ibn-al-harith-ibn-kalda, label: { ar: "الحارث بن الحارث بن كلدة", en: "al-Harith ibn al-Harith ibn Kalda" }, note: "من سادات قريش، أعطاه النبي مائة من الإبل بالجعرانة" }
 # Added by the raheeq lane (batch 22: hajj of Abu Bakr and the delegations, pp. 440-457)
 - { id: group/abd-al-qays, label: { ar: "عبد القيس", en: "Abd al-Qays" }, note: "قبيلة من ربيعة بالبحرين؛ وفدوا مرتين سنة 5هـ وسنة 9هـ" }
 - { id: group/judham, label: { ar: "جذام", en: "Judham" }, note: "قبيلة قضاعية على تخوم الشام، منها فروة بن عمرو" }
@@ -157,14 +151,12 @@
 - { id: person/malik-ibn-al-namt, label: { ar: "مالك بن النمط", en: "Malik ibn al-Namt" }, note: "أمّره النبي على من أسلم من همدان" }
 - { id: person/ziyad-ibn-al-harith-al-sudai, label: { ar: "زياد بن الحارث الصدائي", en: "Ziyad ibn al-Harith al-Suda'i" }, note: "جاء إلى النبي وافداً عن قومه صداء فردّ جيش الأربعمائة عنهم" }
 - { id: person/fayruz-al-daylami, label: { ar: "فيروز الديلمي", en: "Fayruz al-Daylami" }, note: "قاتل الأسود العنسي باليمن قبل وفاة النبي بيوم وليلة" }
-- { id: person/bujayr-ibn-zuhayr, label: { ar: "بجير بن زهير", en: "Bujayr ibn Zuhayr" }, note: "أخو كعب بن زهير؛ كتب إليه يحذره ويدله على الاستئمان" }
 - { id: person/zuhayr-ibn-abi-sulma, label: { ar: "زهير بن أبي سلمى", en: "Zuhayr ibn Abi Sulma" }, note: "الشاعر الجاهلي صاحب المعلقة، والد كعب وبجير" }
 - { id: person/abu-al-dubayb, label: { ar: "أبو الضبيب", en: "Abu al-Dubayb" }, note: "رئيس وفد بلي؛ سأل النبي عن أجر الضيافة وضالة الغنم والبعير" }
 - { id: person/hamza-ibn-al-numan, label: { ar: "حمزة بن النعمان", en: "Hamza ibn al-Nu'man" }, note: "من وفد عذرة الاثني عشر صفر 9هـ" }
 - { id: person/amr-ibn-salama, label: { ar: "عمرو بن سلمة", en: "Amr ibn Salama" }, note: "صاحب حديث «اتركوه وقومه»، أمّ قومه بالصلاة وهو غلام لأكثرهم قرآناً" }
 - { id: person/khalid-ibn-jafar, label: { ar: "خالد بن جعفر", en: "Khalid ibn Ja'far" }, note: "من رؤساء وفد بني عامر" }
 - { id: person/jabbar-ibn-aslam, label: { ar: "جبار بن أسلم", en: "Jabbar ibn Aslam" }, note: "من رؤساء وفد بني عامر" }
-- { id: person/labid-ibn-rabia, label: { ar: "لبيد بن ربيعة", en: "Labid ibn Rabi'a" }, note: "الشاعر العامري صاحب المعلقة، أخو أربد بن قيس لأمه" }
 - { id: place/afra, label: { ar: "عفراء", en: "Afra'" }, note: "ماء بفلسطين صُلب عليه فروة بن عمرو الجذامي" }
 # Added by the raheeq lane (batch 23: the Farewell Pilgrimage and the death, pp. 458-472)
 - { id: place/arafat, label: { ar: "عرفة", en: "Arafat" }, note: "موقف الحج الأعظم خارج الحرم، مكان خطبة الوداع" }

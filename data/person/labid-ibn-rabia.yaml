@@ -1,0 +1,86 @@
+id: person/labid-ibn-rabia
+class: person
+label:
+  ar: لبيد بن ربيعة
+  en: Labid ibn Rabi'a
+names:
+- kind: full
+  lang: ar
+  value: لبيد بن ربيعة بن عامر بن مالك بن جعفر بن كلاب بن ربيعة بن صعصعة الكلابي الجعفري، أبو عقيل الشاعر
+- kind: kunya
+  lang: ar
+  value: أبو عقيل
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: شاعر مخضرم مشهور من بني كلاب، قال الشعر في الجاهلية دهراً ثم أسلم، ونزل الكوفة حتى مات؛ جاء في الحديث أن أصدق كلمة قالها الشاعر كلمة لبيد، واختُلف في سنة وفاته وفي عمره.
+  en: A celebrated poet who lived in both eras, of the Banu Kilab; he composed in the pre-Islamic period for a long time, then embraced Islam and settled in Kufa until his death. A hadith calls his line the truest word a poet ever spoke; his
+    date of death and his age are disputed.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 7586 (ص 1297).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: متى مات لبيد بن ربيعة وكم عاش في الإسلام؟
+  en: When did Labid ibn Rabi'a die, and how long did he live as a Muslim?
+perspectives:
+- tradition: sunni
+  id: year-41
+  stance:
+    ar: مات سنة إحدى وأربعين حين دخل معاوية الكوفة
+  summary:
+    ar: 'قاله المرزباني ونحوه العسكري: مات حين دخل معاوية الكوفة لما صالحه الحسن؛ وعمره مئة وخمس وأربعون سنة، خمس وخمسون منها في الإسلام وتسعون في الجاهلية.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1298
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: ibn-hajar-30
+  stance:
+    ar: مدة إسلامه ثلاثون وزيادة سنة أو سنتين
+  summary:
+    ar: يعدّ ابن حجر مدة الخمس والخمسين وهماً، ويرى الصواب ثلاثين وزيادة، إلا أن يكون المبنى على أن وفاته كانت سنة نيّف وستين، وهو أحد الأقوال.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1298
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 7586، ص 1297
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-10
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1297, entry 7586)

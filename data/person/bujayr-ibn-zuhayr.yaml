@@ -1,0 +1,56 @@
+id: person/bujayr-ibn-zuhayr
+class: person
+label:
+  ar: بجير بن زهير
+  en: Bujayr ibn Zuhayr
+names:
+- kind: full
+  lang: ar
+  value: بجير بن زهير بن أبي سلمى المزني الشاعر، أخو كعب بن زهير
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: شاعر مزني، أخو كعب بن زهير الشاعر المشهور؛ أسلم قبل أخيه، وأنشد له ابن إسحاق شعراً في يوم فتح مكة.
+  en: A poet of the Muzayna tribe and brother of the famous poet Ka'b ibn Zuhayr; he embraced Islam before his brother, and Ibn Ishaq cites verses of his about the day of the conquest of Mecca.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 603 (ص 132).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: sibling_of
+  target: person/kab-ibn-zuhayr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/conquest-of-mecca
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 603، ص 132
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-10
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 132, entry 603)

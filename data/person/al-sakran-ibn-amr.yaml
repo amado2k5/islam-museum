@@ -1,0 +1,100 @@
+id: person/al-sakran-ibn-amr
+class: person
+label:
+  ar: السكران بن عمرو
+  en: Al-Sakran ibn Amr
+names:
+- kind: full
+  lang: ar
+  value: السكران بن عمرو بن عبد شمس بن عبد ودّ بن مالك بن نصر بن حِسل بن عامر بن لؤي القرشي العامري، أخو سهيل بن عمرو
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: قرشي عامري، أخو سهيل بن عمرو؛ ذكره موسى بن عقبة وابن إسحاق في مهاجرة الحبشة، وتزوج النبي زوجته سودة بنت زمعة بعد موته؛ واختُلف هل مات بمكة مسلماً أم تنصّر بالحبشة.
+  en: A Qurashi of Amir ibn Luayy and brother of Suhayl ibn Amr; Musa ibn Uqba and Ibn Ishaq list him among the emigrants to Abyssinia, and the Prophet married his widow Sawda bint Zam'a. Where and in what faith he died is disputed.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 3456 (ص 591).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/sawda-bint-zama
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/suhayl-ibn-amr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/first-migration-to-abyssinia
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: أين مات السكران بن عمرو وعلى أي دين؟
+  en: Where, and in what faith, did al-Sakran ibn Amr die?
+perspectives:
+- tradition: sunni
+  id: ibn-ishaq-mecca
+  stance:
+    ar: رجع إلى مكة فمات بها مسلماً
+  summary:
+    ar: هذا قول ابن إسحاق، وعليه أن النبي تزوج زوجته سودة بعد موته بمكة؛ وقال البلاذري إن هذا القول أصح.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 591
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: baladhuri-abyssinia
+  stance:
+    ar: مات بالحبشة
+  summary:
+    ar: ينقل ابن حجر عن البلاذري أنه يقال إنه مات بالحبشة.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 591
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: abu-ubayda-christian
+  stance:
+    ar: رجع إلى الحبشة فتنصّر بها ومات
+  summary:
+    ar: زعم أبو عبيدة ذلك؛ ورجّح البلاذري القول الأول عليه.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 591
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 3456، ص 591
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-10
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 591, entry 3456)
