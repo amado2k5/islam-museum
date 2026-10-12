@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Watchdog for claims_pipeline.py extract: checks Ollama and progress every minute, restarts a stalled extract.
-  watch_extract.py <cat>/<book-id>/<item> [--model qwen3:32b] [--stall-minutes 20]
+  watch_extract.py <cat>/<book-id>/<item> [--model qwen3:32b] [--stall-minutes 12]
 Logs to ~/islam-museum-harvest/work/<book-id>/watch.log. Talks only to localhost:11434."""
 import argparse, subprocess, sys, time
 from pathlib import Path
@@ -38,7 +38,7 @@ def newest_output_mtime(raw_dir: Path) -> float:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("item"); ap.add_argument("--model", default="qwen3:32b"); ap.add_argument("--stall-minutes", type=float, default=20)
+    ap.add_argument("item"); ap.add_argument("--model", default="qwen3:32b"); ap.add_argument("--stall-minutes", type=float, default=12)
     a = ap.parse_args()
     cat, book, item = a.item.split("/")
     work = H / "work" / book; work.mkdir(parents=True, exist_ok=True)
