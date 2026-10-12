@@ -1,0 +1,52 @@
+id: person/amr-ibn-madikarib
+class: person
+label:
+  ar: عمرو بن معد يكرب
+  en: Amr ibn Ma'dikarib
+names:
+- kind: full
+  lang: ar
+  value: عمرو بن معد يكرب بن عبد الله بن عمرو الزبيدي
+- kind: kunya
+  lang: ar
+  value: أبو ثور
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: الشاعر الفارس المشهور من زبيد؛ قدم على النبي في وفد زبيد فأسلم في رواية ابن إسحاق، وارتد بعد وفاة النبي ثم أُسر وعاد إلى الإسلام، وأبلى في القادسية؛ واختُلف هل لقي النبي.
+  en: The famous poet and horseman of Zubayd; in Ibn Ishaq's account he came to the Prophet with the delegation of Zubayd and embraced Islam, he left Islam after the Prophet's death, was captured and returned to it, and fought well at al-Qadisiyya;
+    whether he met the Prophet is disputed.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 6697 (ص 1130).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 6697، ص 1130
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1130, entry 6697)

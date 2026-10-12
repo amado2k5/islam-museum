@@ -1,0 +1,61 @@
+id: person/zaynab-bint-khuzayma
+class: person
+label:
+  ar: زينب بنت خزيمة
+  en: Zaynab bint Khuzayma
+names:
+- kind: full
+  lang: ar
+  value: زينب بنت خزيمة بن عبد الله بن عمرو بن عبد مناف بن هلال بن عامر بن صعصعة الهلالية
+- kind: kunya
+  lang: ar
+  value: أم المساكين
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'أم المؤمنين، تُلقب أم المساكين لإطعامها إياهم وصدقتها عليهم؛ تزوجها النبي بعد حفصة وأقامت عنده أشهراً ثم ماتت في حياته، وفي زوجها السابق خلاف: عبد الله بن جحش الذي استُشهد بأحد أو الطفيل ثم عبيدة ابنا الحارث.'
+  en: 'A Mother of the Believers called ''Umm al-Masakin'' (mother of the poor) for feeding and giving to them; the Prophet married her after Hafsa, she stayed with him some months and died in his lifetime; her earlier husband is disputed: Abdullah
+    ibn Jahsh, martyred at Uhud, or al-Tufayl and then Ubayda, sons of al-Harith.'
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11280 (ص 1883).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/ubayda-ibn-al-harith
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11280، ص 1883
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1883, entry 11280)

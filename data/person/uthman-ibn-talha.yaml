@@ -1,0 +1,62 @@
+id: person/uthman-ibn-talha
+class: person
+label:
+  ar: عثمان بن طلحة
+  en: Uthman ibn Talha
+names:
+- kind: full
+  lang: ar
+  value: عثمان بن طلحة بن أبي طلحة عبد الله بن عبد العزى بن عثمان بن عبد الدار العبدري
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: حاجب الكعبة؛ قُتل أبوه وعمه بأحد، ثم أسلم في هدنة الحديبية وهاجر مع خالد بن الوليد، وشهد الفتح فأعطاه النبي مفتاح الكعبة، ودخل معه الكعبة؛ وتوفي بالمدينة سنة 42هـ على الراجح.
+  en: The keeper of the Kaaba; his father and uncle were killed at Uhud, then he embraced Islam during the truce of al-Hudaybiyya and emigrated with Khalid ibn al-Walid; he was at the conquest, where the Prophet handed him the key of the Kaaba
+    and entered it with him; he died in Medina in 42 AH on the sounder view.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 5915 (ص 1006).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-abd-dar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/conquest-of-mecca
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/treaty-of-hudaybiyya
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 5915، ص 1006
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1006, entry 5915)

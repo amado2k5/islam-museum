@@ -25,6 +25,11 @@
   - 6c: 8 events (mockers and 9:65, treaty of Ayla, Khalid and Ukaydir, treaty of Ukaydir, stay and return, Wadi al-Mushaqqaq, burial of Dhu al-Bijadayn, Abu Ruhm), work covenant-of-ayla (summary only), object Ukaydir's brocade coat, dataset `datasets/tabuk-participants-and-absentees.csv`, parent event/expedition-to-tabuk extended with has_part children and prose.
   - 6d: 24 persons (Abu Khaythama, the seven Weepers and Ibn Yamin, al-Jadd, Suwaylim, al-Dahhak, Siba ibn Urfuta, Umayr ibn Wahb, Zayd ibn al-Lusayt, Umara ibn Hazm, Wadia, Mukhashin, Yuhanna, Ukaydir and Hassan, Bujayr, Dhu al-Bijadayn, Abu Ruhm) and three verse works (text not reproduced). Batch 6 complete for pp. 159-173; Ka'b ibn Malik, Murara and Hilal are only named (batch 7).
 
+- Batch 7 (مسجد الضرار pp. 173-174, الثلاثة المخلفون pp. 175-181), branch `content/ibn-hisham-batch-7`, pushed to main:
+  - 7a (20c09c5): building/masjid-dirar, builders' request and demolition events, place/dhu-awan, group of the twelve builders + dataset, 11 builder persons, 3 demolition persons (Malik ibn al-Dukhshum, Ma'n and Asim ibn Adi), Wadia edges, passage edges 9:107 (explicit) and 9:108 (via 'إلى آخر القصة', needs_source).
+  - 7b (428606e): parent event the-three-left-behind + 9 sub-events (return and excuses, Ka'b's delay, truthfulness, 50-night boycott, Abu Qatada, Ghassan letter, order on wives, acceptance of repentance, wealth and vow), event and dataset of the 17 prayer places Medina-Tabuk (pp. 174-175), Murara, Hilal, Abu Qatada (cousin of Ka'b), Abdullah ibn Ka'b, place/mount-sal, work of Ka'b's narration (isnad), dataset of stages. Mu'ta elegy author repointed to person/kaab-ibn-malik; duplicate stub dropped.
+  - 7c: nine clan/tribe groups (Amr ibn Awf, Ubayd ibn Zayd, Dubay'a, Umayya ibn Zayd, Salim ibn Awf, al-Ajlan, Salima, Waqif, Ghassan), concepts tawba / hajr / sidq, member_of edges on persons, passage edges 9:95, 9:96, 9:117, 9:118, 9:119. No poems occur in pp. 173-181.
+
 ## Doubt markers captured so far (pp. 3-11)
 
 - p3 «قال ابن هشام» introduces Ja'far's arrival report (Sufyan ibn Uyayna -> al-Ajlah -> al-Sha'bi).
@@ -37,7 +42,14 @@
 
 ## Next step
 
-Batch 7 (مسجد الضرار 173-174 and the three 175-181; the Abu Ruhm report straddles 172-173), then (تبوك pp. 159-172) on branch `content/ibn-hisham-batch-6`; Batch 7 (مسجد الضرار والثلاثة pp. 173-181) is not started.
+Batch 8 (الوفود ١ pp. 200-222). Pages 182-199 (وفد ثقيف، حج أبي بكر، براءة; batch 17) are untouched.
+
+## Doubt markers, batch 7 (pp. 173-181)
+
+- p173 «أو كما قال» (the Prophet's reply to the builders); n.4 vowel of Dhu Awan (Abu Dharr / al-Khushani).
+- p174 «ومعن بن عدي، أو أخاه عاصم بن عدي»; n.1 Bijad/Nijad (Abu Dharr; al-Daraqutni fixes Bijad); n.2 Wadia's «[بن زيد]» from MS A.
+- p175 «ولم يعذرهم الله ولا رسوله» vocalisation unclear; p177 «بضعة وثمانين رجلا»; p178 «هلال بن [أبي] أمية» bracket from MS A, n.2 al-Zurqani adds «قد شهدا بدرا»; p180 n.1 «ما بقيت» for «ما حييت».
+- Page-image verified: builders list (Abu Habiba ibn al-Azar, Ubayd not Unayd), Murara al-Amri, Hilal al-Waqifi, the Ghassan letter, dhat al-khitmi.
 
 ## Open items
 

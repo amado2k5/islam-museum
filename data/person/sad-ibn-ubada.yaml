@@ -1,0 +1,65 @@
+id: person/sad-ibn-ubada
+class: person
+label:
+  ar: سعد بن عبادة
+  en: Sa'd ibn Ubada
+names:
+- kind: full
+  lang: ar
+  value: سعد بن عبادة بن دليم بن حارثة بن حرام بن خزيمة بن ثعلبة بن طريف بن الخزرج بن ساعدة بن كعب بن الخزرج الأنصاري
+- kind: kunya
+  lang: ar
+  value: أبو ثابت
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: سيد الخزرج، شهد العقبة وكان أحد النقباء، واختُلف في شهوده بدراً؛ اشتهر بالجود هو وأبوه وجده وولده، وكانت راية الأنصار معه، وقصة تخلفه عن بيعة أبي بكر مشهورة، ومات بحوران سنة 15هـ أو 16هـ.
+  en: The chief of the Khazraj, present at al-Aqaba and one of the twelve naqibs; whether he was at Badr is disputed; he and his father, grandfather and son were famed for generosity, he carried the banner of the Ansar, his holding back from
+    the pledge to Abu Bakr is well known, and he died at Hawran in 15 or 16 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 3236 (ص 558).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/saqifa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 3236، ص 558
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 558, entry 3236)

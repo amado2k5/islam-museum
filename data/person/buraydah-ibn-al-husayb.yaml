@@ -1,0 +1,54 @@
+id: person/buraydah-ibn-al-husayb
+class: person
+label:
+  ar: بريدة بن الحصيب
+  en: Buraydah ibn al-Husayb
+names:
+- kind: full
+  lang: ar
+  value: بريدة بن الحصيب بن عبد الله بن الحارث بن الأعرج بن سعد بن رزاح بن عدي بن سهم بن مازن بن الحارث بن سلامان بن أفصى الأسلمي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من أسلم؛ قال ابن السكن إنه أسلم حين مرّ به النبي مهاجراً بالغميم وأقام في موضعه حتى مضت بدر وأحد، وغزا مع النبي ست عشرة غزوة، ونزل البصرة ثم غزا خراسان وسكن مرو ومات سنة 63هـ.
+  en: A Companion of Aslam; Ibn al-Sakan says he embraced Islam when the Prophet passed him on the Hijra at al-Ghamim and stayed in his place until Badr and Uhud had passed; he took part in sixteen campaigns with the Prophet, settled in Basra,
+    campaigned in Khurasan and lived in Merv, dying in 63 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 660 (ص 141).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/basra
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 660، ص 141
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 141, entry 660)
