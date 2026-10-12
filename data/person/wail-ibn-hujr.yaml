@@ -1,0 +1,55 @@
+id: person/wail-ibn-hujr
+class: person
+label:
+  ar: وائل بن حجر
+  en: Wa'il ibn Hujr
+names:
+- kind: full
+  lang: ar
+  value: وائل بن حجر بن ربيعة بن وائل بن يعمر الحضرمي (وقيل في نسبه غير ذلك)
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من أبناء أقيال حضرموت؛ وفد على النبي فاستقطعه أرضاً فأقطعه إياها وبعث معه معاوية ليسلّمها له، وقال له فيما يروي أبو نعيم «هذا وائل سيد الأقيال»؛ نزل الكوفة وروى عنه ابناه علقمة وعبد الجبار، ومات في خلافة معاوية.
+  en: From the sons of the kings of Hadramawt; he came to the Prophet as a delegate, asked for a grant of land and received it, and the Prophet sent Mu'awiya with him to hand it over; according to Abu Nu'aym the Prophet called him 'chief of the
+    provincial kings'; he settled in Kufa, his sons Alqama and Abd al-Jabbar narrated from him, and he died in Mu'awiya's caliphate.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 9139 (ص 1559).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 9139، ص 1559
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-7
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1559, entry 9139)

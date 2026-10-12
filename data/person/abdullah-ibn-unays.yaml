@@ -1,0 +1,59 @@
+id: person/abdullah-ibn-unays
+class: person
+label:
+  ar: عبد الله بن أنيس
+  en: Abdullah ibn Unays
+names:
+- kind: full
+  lang: ar
+  value: عبد الله بن أنيس الجهني، حليف بني سلمة من الأنصار
+- kind: kunya
+  lang: ar
+  value: أبو يحيى
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: جهني حليف بني سلمة من الأنصار، شهد العقبة وما بعدها وكان ممن كسر أصنام بني سلمة؛ بعثه النبي إلى خالد بن نبيح العنزي وحده فقتله؛ رحل إليه جابر مسيرة شهر في حديث، ودخل مصر وخرج إلى أفريقية، ومات بالشام سنة 54هـ على المعروف.
+  en: A Juhani and ally of Banu Salima among the Ansar; he was at al-Aqaba and later campaigns and was one of those who broke the idols of Banu Salima; the Prophet sent him alone to Khalid ibn Nubayh al-Anzi, whom he killed; Jabir travelled a
+    month to him for a hadith; he entered Egypt and went out to Ifriqiya, and died in Syria in 54 AH as is known.
+wings:
+- people
+themes:
+- battles
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 4961 (ص 842).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: participated_in
+  target: event/pledges-of-aqaba
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 4961، ص 842
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-7
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 842, entry 4961)

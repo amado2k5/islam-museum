@@ -1,0 +1,55 @@
+id: person/hubar-ibn-al-aswad
+class: person
+label:
+  ar: هبار بن الأسود
+  en: Hubar ibn al-Aswad
+names:
+- kind: full
+  lang: ar
+  value: هبار بن الأسود بن المطلب بن أسد بن عبد العزى بن قصي القرشي الأسدي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: قرشي من بني أسد؛ ينسب إليه ابن إسحاق أنه نخس زينب بنت النبي لما أرسلها زوجها أبو العاص إلى المدينة فأسقطت، ويرد في رواية أن النبي أمر بتحريقه إن ظُفر به ثم نهى عن التعذيب بالنار؛ أسلم بالجعرانة بعد حنين، وقال له النبي لما سُبّ «سُبّ من
+    سبّك».
+  en: A Qurashi of Banu Asad; Ibn Ishaq attributes to him the jostling of the Prophet's daughter Zaynab when her husband Abu al-As sent her to Medina, so that she miscarried, and a report says the Prophet ordered him burned if found and then
+    forbade punishing by fire; he embraced Islam at al-Ji'rana after Hunayn, and when people cursed him the Prophet told him to curse back whoever cursed him.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 8986 (ص 1536).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/quraysh
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 8986، ص 1536
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-7
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1536, entry 8986)

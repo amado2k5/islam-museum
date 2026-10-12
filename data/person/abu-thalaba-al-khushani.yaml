@@ -1,0 +1,58 @@
+id: person/abu-thalaba-al-khushani
+class: person
+label:
+  ar: أبو ثعلبة الخشني
+  en: Abu Tha'laba al-Khushani
+names:
+- kind: full
+  lang: ar
+  value: أبو ثعلبة الخشني (اختُلف في اسمه واسم أبيه)
+- kind: kunya
+  lang: ar
+  value: أبو ثعلبة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي مشهور بكنيته، نسبته إلى بني خشين من قضاعة، واختُلف في اسمه اختلافاً كثيراً (جرهم وجرثوم وغيرهما)؛ قدم على النبي وهو يتجهز إلى خيبر فأسلم وشهدها، وسأل عن الأكل في آنية أهل الكتاب والصيد، وسكن الشام.
+  en: A well-known Companion known by his kunya, of Banu Khushayn of Quda'a; his name is disputed in many forms (Jurhum, Jurthum and others); he came to the Prophet as he was preparing for Khaybar, embraced Islam and took part, asked about eating
+    from the vessels of the People of the Book and about hunting, and settled in Syria.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 9709 (ص 1636).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: participated_in
+  target: event/battle-of-khaybar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 9709، ص 1636
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-7
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1636, entry 9709)
