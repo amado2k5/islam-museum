@@ -1,0 +1,22 @@
+id: person/sidi-ibn-al-mukhtar-al-abyiri
+class: person
+label: { ar: "سيدي بن المختار الأبيري", en: "Sidi ibn al-Mukhtar al-Abyiri" }
+names:
+  - { kind: full, lang: ar, value: "سيدي بن المختار بن الهيبة الانتشائي الأبييري" }
+gender: male
+roles: [scholar, teacher]
+traditions: [sunni]
+born: { edtf: "1760~", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1868", hijri: "1284", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم موريتاني من أسرة علمية، ولد في نواحي بتلميت، وقرأ القرآن والنحو والبلاغة والمنطق والعقائد، ثم رحل في طلب العلم."
+  en: "A Mauritanian scholar from a learned family, born near Btalmit. He studied the Qur'an, grammar, rhetoric, logic and creed, then travelled widely in pursuit of learning."
+wings: [people, words]
+themes: [scripture-and-its-sciences, linguistics]
+periods: [period/colonial-era]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 242-245, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص242-245", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

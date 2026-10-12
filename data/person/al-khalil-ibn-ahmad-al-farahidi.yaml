@@ -1,0 +1,22 @@
+id: person/al-khalil-ibn-ahmad-al-farahidi
+class: person
+label: { ar: "الخليل بن أحمد الفراهيدي", en: "Al-Khalil ibn Ahmad al-Farahidi" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الرحمن الخليل بن أحمد بن عمر بن تميم الفراهيدي" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "0718~", hijri: "0100", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0791", hijri: "0175", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أكبر علماء العربية، من أزد عمان، نشأ في البصرة، ويُرجح أنه مبتكر كثير من المفاهيم العلمية في النحو والتحليل اللغوي."
+  en: "One of the greatest scholars of Arabic, of the Azd of Oman, raised in Basra. He is likely the originator of many of the scientific concepts and methods of Arabic grammar and linguistic analysis."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 116-118, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص116-118", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

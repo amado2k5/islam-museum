@@ -1,0 +1,22 @@
+id: person/ibn-al-ahmar-ismail-ibn-yusuf
+class: person
+label: { ar: "ابن الأحمر إسماعيل بن يوسف", en: "Ibn al-Ahmar, Isma'il ibn Yusuf" }
+names:
+  - { kind: full, lang: ar, value: "إسماعيل بن يوسف بن محمد النصري" }
+gender: male
+roles: [historian, poet, writer]
+traditions: [sunni]
+born: { edtf: "1324~", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1404", hijri: "0807", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أديب ومؤرخ أندلسي من بني نصر في غرناطة، عاش بعد مغادرته لها مع أبيه إلى بجاية ثم فاس."
+  en: "An Andalusian man of letters and historian of the Nasrid family in Granada. After leaving Granada with his father he lived in Bougie and then Fez."
+wings: [people, words]
+themes: [history-writing-and-social-thought, literature]
+periods: [period/gunpowder-empires]
+regions: [andalus-europe]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 335-337, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص335-337", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
