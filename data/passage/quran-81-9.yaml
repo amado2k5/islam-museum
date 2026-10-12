@@ -13,6 +13,7 @@ summary:
 text: "بِأَىِّ ذَنۢبٍ قُتِلَتْ"
 text_search: "بأي ذنب قتلت"
 relations:
+  - { type: revealed_about, target: concept/wad }
   - { type: part_of, target: passage/quran-81 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
