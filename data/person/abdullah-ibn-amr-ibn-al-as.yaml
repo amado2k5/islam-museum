@@ -1,0 +1,65 @@
+id: person/abdullah-ibn-amr-ibn-al-as
+class: person
+label:
+  ar: عبد الله بن عمرو بن العاص
+  en: Abdullah ibn Amr ibn al-As
+names:
+- kind: full
+  lang: ar
+  value: عبد الله بن عمرو بن العاص بن وائل بن هاشم بن سعيد بن سهم بن عمرو بن هصيص بن كعب بن لؤي القرشي السهمي
+- kind: kunya
+  lang: ar
+  value: أبو محمد
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من بني سهم، أحد المكثرين من الحديث وكان يكتب؛ ذكر أبو هريرة أنه لا أكثر منه حديثاً إلا عبد الله بن عمرو لأنه كان يكتب، وأسلم قبل أبيه، وله قصة في الصحيحين في صيام النهار وقيام الليل.
+  en: A Companion of Banu Sahm, a prolific transmitter of hadith who used to write; Abu Hurayra said none had more hadith than he except Abdullah ibn Amr, because he wrote; he embraced Islam before his father, and the two collections tell his
+    story of fasting by day and praying by night.
+wings:
+- people
+themes:
+- scripture-and-its-sciences
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 5364 (ص 922).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/quraysh
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-sahm
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/amr-ibn-al-as
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 5364، ص 922 (تراجم الرجال)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-men-1
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 922, entry 5364)

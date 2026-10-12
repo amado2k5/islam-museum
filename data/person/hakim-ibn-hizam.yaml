@@ -1,0 +1,69 @@
+id: person/hakim-ibn-hizam
+class: person
+label:
+  ar: حكيم بن حزام
+  en: Hakim ibn Hizam
+names:
+- kind: full
+  lang: ar
+  value: حكيم بن حزام بن خويلد بن أسد بن عبد العزى بن قصي الأسدي
+- kind: kunya
+  lang: ar
+  value: أبو خالد
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'ابن أخي خديجة، من سادات قريش؛ شهد بدراً مع المشركين ونجا، وتأخر إسلامه إلى عام الفتح، وقال النبي: «من دخل دار حكيم بن حزام فهو آمن»، وكان من المؤلفة قلوبهم وأعطي من غنائم حنين مئة بعير.'
+  en: A nephew of Khadija and a leader of Quraysh; he fought at Badr with the polytheists and escaped, embraced Islam in the year of the conquest, and the Prophet declared the house of Hakim ibn Hizam a place of safety; he was among those whose
+    hearts were reconciled and received a hundred camels from the spoils of Hunayn.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 1977 (ص 337).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/quraysh
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/conquest-of-mecca
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-hunayn
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 1977، ص 337 (تراجم الرجال)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-men-1
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 337, entry 1977)
