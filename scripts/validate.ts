@@ -147,6 +147,11 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (v && !known.has(v)) err(file, `media.${f}: ${v} does not exist`);
     }
     for (const t of entity.perspectives ?? []) for (const s of t.sources ?? []) if (!known.has(s)) err(file, `perspective source ${s} does not exist`);
+    // traditions[] counts a person as a member of a tradition (docs/agents/content-standards.md 13b): a recorded faith with no Muslim value contradicts a Sunni tag
+    if (entity.class === "person" && (entity.traditions ?? []).some((t: string) => String(t).startsWith("sunni")) && (entity.faith ?? []).length > 0) {
+      const muslim = (v: string) => /^(sunni|shia|ibadi|sufi|ahmadiyya|quranist)/.test(String(v));
+      if (!(entity.faith as any[]).some((f) => muslim(f.value))) warn(file, "traditions lists a Sunni tradition but the recorded faith has no Muslim value: a person who was not Muslim is not counted among a tradition");
+    }
     // opinions (docs/plan/20-opinions.md): ids unique, holders and evidence resolve, a disagreement states its issue, every opinion cites a source
     if (entity.perspectives?.length) {
       const seenIds = new Set<string>();

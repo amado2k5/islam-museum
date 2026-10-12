@@ -172,6 +172,16 @@ describe("opinions: issue, holders, evidence and ids (docs/plan/20-opinions.md)"
   });
 });
 
+describe("traditions[] counts a person among a tradition (content standards 13b)", () => {
+  const person = (slug: string, extra: Record<string, any>) => base("person", slug, { gender: "male", ...extra });
+  it("warns when a Sunni tradition sits on a person whose recorded faith has no Muslim value", () => {
+    const w = run(person("zz-test-t1", { traditions: ["sunni"], faith: [{ value: "arabian-polytheism", basis: "tradition" }] })).filter((x) => x.file.includes("zz-test-t1")).map((x) => x.msg).join();
+    expect(w).toMatch(/not counted among a tradition/);
+    const ok = run(person("zz-test-t2", { traditions: ["sunni"], faith: [{ value: "arabian-polytheism", basis: "tradition" }, { value: "sunni", basis: "tradition" }] })).filter((x) => x.file.includes("zz-test-t2")).map((x) => x.msg).join();
+    expect(ok).not.toMatch(/not counted among a tradition/);
+  });
+});
+
 describe("no AI or compute at runtime (docs/adr/0002)", () => {
   const w = async (name: string, body: string) => { const { mkdtempSync, writeFileSync } = await import("node:fs"); const d = mkdtempSync("/tmp/static-"); const f = `${d}/${name}`; writeFileSync(f, body); return f; };
   it("accepts a same-origin static fetch", async () => {
