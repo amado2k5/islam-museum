@@ -1,0 +1,16 @@
+id: person/abdullah-ibn-abd-al-muttalib
+class: person
+label: { ar: "عبد الله بن عبد المطلب", en: "ʿAbdullāh ibn ʿAbd al-Muṭṭalib" }
+summary: { ar: "والد النبي؛ الذبيح الذي خرجت عليه القرعة ففُدي بمائة من الإبل، وتزوج آمنة بنت وهب وتوفي بالمدينة وله خمس وعشرون سنة قبل مولد ابنه بنحو شهرين.", en: "The Prophet’s father — the ransomed ‘sacrifice’ of the lot, husband of Āmina, who died at Yathrib aged twenty-five before his son’s birth." }
+born: { edtf: "0545~", calendar: julian, precision: year, status: tradition }
+died: { edtf: "0570~", calendar: julian, precision: year, status: tradition }
+faith: [{ value: hanif, basis: tradition }]
+story_roles: [{ role: family-of-the-prophet }]
+themes: [family-marriage-kinship]
+relations:
+  - { type: child_of, target: person/abd-al-muttalib }
+  - { type: child_of, target: person/fatima-bint-amr }
+  - { type: spouse_of, target: person/amina-bint-wahb }
+  - { type: died_in, target: place/medina }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 48–53" }

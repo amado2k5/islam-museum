@@ -1,0 +1,11 @@
+id: person/abu-sad-ibn-adi
+class: person
+label: { ar: "أبو سعد بن عدي النجاري", en: "Abū Saʿd ibn ʿAdī al-Najjārī" }
+summary: { ar: "خال عبد المطلب من بني النجار؛ قدم مكة في ثمانين راكباً وسلّ سيفه بالحجر على نوفل حتى ردّ على ابن أخته أركاحه.", en: "ʿAbd al-Muṭṭalib’s maternal uncle of Banū al-Najjār; rode to Mecca with eighty men and drew his sword at the Ḥujr until Nawfal restored his nephew’s rights." }
+story_roles: [{ role: ally }]
+themes: [family-marriage-kinship]
+relations:
+  - { type: member_of, target: group/banu-al-najjar }
+  - { type: participated_in, target: event/recovery-of-abd-al-muttalib-rights }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 48–53" }

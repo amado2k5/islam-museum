@@ -20,6 +20,8 @@ sensitivity: figurative-prophet
 story_roles:
   - { role: prophet-figure, start: { edtf: "0610~", calendar: julian, precision: year }, status: tradition, sources: [source/ibn-ishaq-guillaume] }
 relations:
+  - { type: child_of, target: person/amina-bint-wahb }
+  - { type: child_of, target: person/abdullah-ibn-abd-al-muttalib }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }
   - { type: buried_in, target: place/medina }
