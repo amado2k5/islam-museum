@@ -12,10 +12,11 @@
   - event/ ×201 (ALL events done)
   - person/ ×472 of 472 — complete (alphabetical by slug, `abaha` through `zuhayr-ibn-sard`)
   - group/ ×60 of 60 — complete (`adnan` through `thaqif`)
+  - concept/ ×45 of 45, place/ ×27 of 27, source/ ×9 of 9, object/ ×9 of 9, polity/ ×8 of 8, work/ ×11 of 11, building/ ×5 of 5, practice/ ×4 of 4, journey/ ×3 of 3 — ALL prose classes complete; `content/en/` mirrors `content/ar/` exactly (per-class file lists identical)
 
 ## Next step
 
-Continue `content/en/` by class: concept ×45, place ×27, source ×9, object ×9, polity ×8, work ×11, building ×5, practice ×4, journey ×3.
+Phase D: full `validate` + `test` + `build`, `check:static`/browser pass on `/en/` routes, English Pagefind index check, no unexpected Arabic fallback where `en` prose exists.
 
 ## Conventions
 
