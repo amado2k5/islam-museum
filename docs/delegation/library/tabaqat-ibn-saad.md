@@ -16,7 +16,8 @@ Branch: `content/lib-tabaqat-ibn-saad`. Stubs: `data/_stubs.d/lib-tabaqat-ibn-sa
 
 ## Status
 - Sections: 7 (6 pages each, 42 non-empty pages). **The gold set of 30 sections cannot be drawn from this item**; the gold run uses all 7 and this is stated in the gold report.
-- Gold set: pending the extractor model.
+- Extraction (`qwen3:32b`, temperature 0, seed 42): section 0000 done (16 candidate claims before the quote check); sections 0001–0006 in progress. Raw answers stay in `~/islam-museum-harvest/work/`, not in git.
+- Gold set: pending extraction, quote check and judge.
 
 ## Doubts flagged
 - OCR of this scan contains misreadings (for example «رصول اللّٰه» for «رسول الله»). The quote check runs on normalised text; claims whose quotes fail because of OCR are dropped and logged, not corrected.
