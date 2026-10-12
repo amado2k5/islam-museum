@@ -1,0 +1,27 @@
+id: person/abdullah-ibn-atik
+class: person
+label: { en: "Abdullah ibn Atik", ar: "عبد الله بن عتيك" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن عتيك بن قيس الأنصاري السلمي" }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  en: "A heroic Companion from Banu Salima of the Khazraj fluent in Jewish dialect; chosen by the Prophet to lead the five-man covert mission to Khaybar to assassinate Sallam ibn Abi al-Huqayq (Abu Rafi'); though his leg was fractured on withdrawal, the Prophet wiped it and it healed instantly."
+  ar: "صحابي فارس من بني سلمة من الخزرج، كان يرطن باليهودية؛ أمره النبي على السرية التي قصدت خيبر لاغتيال أبي رافع سلام بن أبي الحقيق محرض الأحزاب، فتسلل إلى مخدعه وضربه بسيفه حتى قتله، وانكسرت ساقه في عودته فمسحها النبي فبرأت في الحين."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: commander, toward: group/early-muslims, start: { edtf: "0627" }, status: tradition, note: "قائد سرية مقتل أبي رافع بخيبر (الرحيق ص319–321؛ صحيح البخاري).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري من الأنصار." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/khazraj }
+  - { type: participated_in, target: event/assassination-of-sallam-ibn-abi-al-huqayq, role: "قائد السرية وفاتح الحصن", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 319–321" }
