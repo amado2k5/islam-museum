@@ -1,0 +1,114 @@
+id: person/muawiya-ibn-abi-sufyan
+class: person
+label:
+  ar: معاوية بن أبي سفيان
+  en: Mu'awiya ibn Abi Sufyan
+names:
+- kind: full
+  lang: ar
+  value: معاوية بن أبي سفيان صخر بن حرب بن أمية بن عبد شمس بن عبد مناف القرشي الأموي، أمير المؤمنين
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: قرشي أموي، ولد قبل البعثة بخمس سنين في الأشهر؛ صحب النبي وكتب له، وولاه عمر الشام بعد أخيه يزيد بن أبي سفيان وأقره عثمان، ثم لم يبايع علياً وحاربه واستقل بالشام وأضاف إليها مصر، وتسمى بالخلافة بعد الحكمين، واجتمع الناس عليه عام الجماعة
+    لما صالحه الحسن؛ واختُلف في وقت إسلامه.
+  en: A Qurashi of the Umayyad clan, born five years before the mission on the best-known account; he accompanied the Prophet and wrote for him, Umar appointed him over Syria after his brother Yazid ibn Abi Sufyan and Uthman kept him there, then
+    he did not pledge to Ali and fought him, took Syria for himself and added Egypt, took the title of caliph after the two arbitrators, and the people gathered on him in the year of the community when al-Hasan made peace with him; the time of
+    his conversion is disputed.
+wings:
+- people
+themes:
+- converts-and-leavers
+- factions-splits-schisms
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 8366 (ص 1431).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/abu-sufyan-ibn-harb
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/hind-bint-utba
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/umm-habiba-bint-abi-sufyan
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-abd-shams
+  sources:
+  - source/ibn-hajar-isaba
+- type: ruler_of
+  target: polity/umayyad-caliphate
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: متى أسلم معاوية بن أبي سفيان؟
+  en: When did Mu'awiya ibn Abi Sufyan embrace Islam?
+perspectives:
+- tradition: sunni
+  id: waqidi
+  stance:
+    ar: أسلم بعد الحديبية وكتم إسلامه حتى أظهره عام الفتح
+  summary:
+    ar: حكى الواقدي أنه أسلم بعد الحديبية وكتم إسلامه حتى أظهره عام الفتح، فإنه كان في عمرة القضاء مسلماً.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1431
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: ibn-hajar-sad
+  stance:
+    ar: في الصحيح عن سعد أنه كان يومئذ كافراً، ويحتمل أن سعداً أطلق ذلك بحسب ما استصحب من حاله
+  summary:
+    ar: 'يعارض ابن حجر قول الواقدي بما ثبت في الصحيح عن سعد بن أبي وقاص في العمرة في أشهر الحج: «فعلناها وهذا يومئذ كافر»، ويحتمل إن ثبت قول الواقدي أن يكون سعد أطلق ذلك بحسب ما استصحب من حاله ولم يطلع على إسلامه لإخفائه إياه.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1431
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: ibn-sad
+  stance:
+    ar: 'قوله: أسلمت قبل عمرة القضية ولكني كنت أخاف أن أخرج إلى المدينة'
+  summary:
+    ar: 'حكى ابن سعد أنه كان يقول: «لقد أسلمت قبل عمرة القضية، ولكني كنت أخاف أن أخرج إلى المدينة، لأن أمي كانت تقول: إن خرجت قطعنا عنك القوت».'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1432
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 8366، ص 1431
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-8
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1431, entry 8366)

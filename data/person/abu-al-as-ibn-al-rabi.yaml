@@ -1,0 +1,94 @@
+id: person/abu-al-as-ibn-al-rabi
+class: person
+label:
+  ar: أبو العاص بن الربيع
+  en: Abu al-As ibn al-Rabi'
+names:
+- kind: full
+  lang: ar
+  value: 'أبو العاص (واختُلف في اسمه: لقيط أو هشيم أو مهشم أو غير ذلك) بن الربيع بن عبد العزى بن عبد شمس بن عبد مناف العبشمي'
+- kind: kunya
+  lang: ar
+  value: جرو البطحاء
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: ابن هالة بنت خويلد أخت خديجة، لقبه «جرو البطحاء» ويقال له «الأمين»؛ زوج زينب بنت النبي الكبرى، شهد بدراً مع المشركين وأُسر ففادته زينب، ثم أسلم بعد الهجرة وردّ النبي إليه ابنته؛ وتختلف الروايات في كيفية أسره الثاني وإسلامه.
+  en: A son of Hala bint Khuwaylid, Khadija's sister, nicknamed 'the cub of al-Batha' and called 'the trustworthy'; husband of the Prophet's eldest daughter Zaynab, he fought at Badr with the polytheists and was captured, Zaynab ransomed him,
+    then he embraced Islam after the Hijra and the Prophet returned his daughter to him; the reports differ on how he was captured the second time and became Muslim.
+wings:
+- people
+themes:
+- converts-and-leavers
+- family-marriage-kinship
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 10229 (ص 1714).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/zaynab-bint-muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-abd-shams
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: كيف أسلم أبو العاص بن الربيع وكيف عادت إليه زينب؟
+  en: How did Abu al-As ibn al-Rabi' become Muslim and how did Zaynab come back to him?
+perspectives:
+- tradition: sunni
+  id: shabi-hakim
+  stance:
+    ar: 'رواية الشعبي عند الحاكم أبي أحمد: أسلم بمكة بعد أداء الودائع ثم قدم مهاجراً'
+  summary:
+    ar: 'أخرج الحاكم أبو أحمد بسند صحيح عن الشعبي أن زينب هاجرت وأبو العاص على دينه فخرج إلى الشام في تجارة، فلما قرب من المدينة أراد بعض المسلمين أن يأخذوا ما معه فبلغ ذلك زينب فأجارته، فقال له أصحاب رسول الله: هل لك أن تسلم فتغتنم ما معك، قال:
+      «بئسما أمرتموني به أن أنسخ ديني بغدرة»، فمضى حتى قدم مكة فدفع إلى كل ذي حق حقه ثم شهد الشهادتين وقدم المدينة مهاجراً فدفع إليه النبي زوجته بالنكاح الأول.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1715
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: ibn-hajar-ruling
+  stance:
+    ar: 'قول ابن حجر: مرسل شاذ خالفه ما هو أثبت منه ويمكن الجمع'
+  summary:
+    ar: 'يقول ابن حجر عن رواية الشعبي إنها مع صحة سندها إلى الشعبي «مرسل وهو شاذ، خالفه ما هو أثبت منه»، ويذكر رواية ابن إسحاق في المغازي، ثم يقول: «ويمكن الجمع بين الروايتين».'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1715
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 10229، ص 1714
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-8
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1714, entry 10229)
