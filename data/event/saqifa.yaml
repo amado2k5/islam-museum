@@ -21,13 +21,26 @@ issue: { ar: "كيف تُوصف بيعة أبي بكر في السقيفة: اخ
 perspectives:
   - tradition: sunni
     id: sunni
-    summary: { en: "Sunni tradition regards the choice of Abu Bakr at Saqifa as a legitimate selection by the community's leaders." }
+    stance: { ar: "اختيار مشروع من قادة الجماعة" }
+    summary:
+      en: "Sunni tradition regards the choice of Abu Bakr at Saqifa as a legitimate selection by the community's leaders."
+      ar: "يرى أهل السنة أن مبايعة أبي بكر في السقيفة كانت اختياراً مشروعاً من قادة الجماعة، تلته بيعة عامة في اليوم التالي، كما تروي خطبة عمر عند ابن إسحاق."
+    evidence:
+      - { ref: source/ibn-hisham-saqqa, note: { ar: "ص 306-311" } }
+    sources: [source/ibn-hisham-saqqa]
   - tradition: academic
     id: academic
-    summary: { en: "Historians treat it as a political process shaped by tribal alliances in Medina, relying on later and partisan reports." }
+    stance: { ar: "عملية سياسية تأثرت بالتحالفات القبلية" }
+    summary:
+      en: "Historians treat it as a political process shaped by tribal alliances in Medina, relying on later and partisan reports."
+      ar: "يقرؤها المؤرخون المحدثون عملية سياسية تأثرت بالتحالفات القبلية في المدينة، مع التنبيه إلى أن أكثر الأخبار متأخر أو منحاز."
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
     id: shia-twelver
-    summary: { en: "Twelver Shia tradition holds that Ali had been designated and regards the meeting as having set that designation aside." }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+    stance: { ar: "إزاحة لتعيين سابق لعلي" }
+    summary:
+      en: "Twelver Shia tradition holds that Ali had been designated and regards the meeting as having set that designation aside."
+      ar: "يرى الشيعة الإمامية الاثنا عشرية أن علياً كان قد عُيّن للإمامة، وأن اجتماع السقيفة أزاح ذلك التعيين."
+    sources: [source/mubarakpuri-raheeq]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
