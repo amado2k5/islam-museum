@@ -1,0 +1,19 @@
+id: person/said-ibn-abd-qays
+class: person
+label:
+  ar: سعد بن عبد قيس
+summary:
+  ar: صحابي من بني الحارث بن فهر، هاجر إلى الحبشة وعاد منها.
+gender: male
+relations:
+  - type: member_of
+    target: group/banu-al-harith
+  - type: participated_in
+    target: event/return-from-abyssinia
+    role: participant
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

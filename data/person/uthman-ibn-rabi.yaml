@@ -1,0 +1,19 @@
+id: person/uthman-ibn-rabi
+class: person
+label:
+  ar: عثمان بن ربيعة
+summary:
+  ar: صحابي من بني جمح، هاجر إلى الحبشة وعاد منها.
+gender: male
+relations:
+  - type: member_of
+    target: group/banu-jumah
+  - type: participated_in
+    target: event/return-from-abyssinia
+    role: participant
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

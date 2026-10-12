@@ -1,0 +1,19 @@
+id: person/al-harith-ibn-khalid
+class: person
+label:
+  ar: الحارث بن خالد بن صخر
+summary:
+  ar: صحابي من بني تيم، هاجر إلى الحبشة وعاد منها.
+gender: male
+relations:
+  - type: member_of
+    target: group/banu-tahm
+  - type: participated_in
+    target: event/return-from-abyssinia
+    role: participant
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

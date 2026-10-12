@@ -1,0 +1,20 @@
+id: person/rayta-bint-al-harith
+class: person
+label:
+  ar: ريطة بنت الحارث بن جبيلة
+summary:
+  ar: زوجة الحارث بن خالد، هاجرت إلى الحبشة وهلكت بها.
+gender: female
+relations:
+  - type: spouse_of
+    target: person/al-harith-ibn-khalid
+died:
+  hijri: "0007"
+  precision: year
+  note: "هلكت بأرض الحبشة"
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o

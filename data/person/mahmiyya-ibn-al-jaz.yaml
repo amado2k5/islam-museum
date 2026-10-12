@@ -1,0 +1,19 @@
+id: person/mahmiyya-ibn-al-jaz
+class: person
+label:
+  ar: محميّة بن الجزء
+summary:
+  ar: صحابي حليف لبني سهم، جعله النبي على خمس المسلمين.
+gender: male
+relations:
+  - type: member_of
+    target: group/banu-sahm
+  - type: participated_in
+    target: event/return-from-abyssinia
+    role: participant
+status:
+  review: draft
+sources: [source/ibn-hisham-saqqa-1936]
+provenance:
+  generated_by: codex
+  model: gpt-4o
