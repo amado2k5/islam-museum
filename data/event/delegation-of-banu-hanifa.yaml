@@ -1,0 +1,20 @@
+id: event/delegation-of-banu-hanifa
+class: event
+kind: gathering
+label: { en: "The delegation of Banu Hanifa", ar: "وفد بني حنيفة" }
+summary:
+  en: "Seventeen men of Banu Hanifa of al-Yamama, among them Musaylima, lodged with an Ansari household in Medina in 9 AH and declared Islam; the sources differ on Musaylima's own conduct, and on his return home he claimed a share in prophethood."
+  ar: "قدم سبعة عشر رجلاً من بني حنيفة أهل اليمامة فيهم مسيلمة المدينة سنة 9هـ فنزلوا بيت رجل من الأنصار وأسلموا، واختلفت الروايات في شأن مسيلمة، ثم ادعى بعد رجوعه النبوة."
+wings: [people]
+themes: [converts-and-leavers, prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: group/banu-hanifa }
+  - { type: had_participant, target: person/musaylima }
+  - { type: part_of, target: event/year-of-delegations }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

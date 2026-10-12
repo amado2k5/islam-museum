@@ -1,0 +1,23 @@
+id: event/delegation-of-hamdan
+class: event
+kind: gathering
+label: { en: "The delegation and mission to Hamdan", ar: "وفد همدان" }
+summary:
+  en: "A delegation of Hamdan came in 9 AH after Tabuk; the Prophet appointed Malik ibn al-Namt over their Muslims and sent Khalid ibn al-Walid to invite the rest — after six unanswered months Ali ibn Abi Talib was sent instead, the whole tribe embraced Islam, and the Prophet prostrated at the news saying: peace upon Hamdan."
+  ar: "قدم وفد همدان سنة 9هـ بعد تبوك فأمّر النبي عليهم مالك بن النمط وبعث خالد بن الوليد يدعو سائرهم فأقام ستة أشهر لم يجيبوه، فبعث علي بن أبي طالب فأسلموا جميعاً، وخرّ النبي ساجداً حين قرأ كتاب علي وقال: السلام على همدان."
+wings: [people]
+themes: [converts-and-leavers, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: group/hamdan }
+  - { type: had_participant, target: person/khalid-ibn-al-walid }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: had_participant, target: person/malik-ibn-al-namt }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: event/year-of-delegations }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

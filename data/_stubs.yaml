@@ -146,7 +146,6 @@
 - { id: place/nineveh, label: { ar: "نينوى", en: "Nineveh" }, note: "مدينة قديمة في شمال العراق، موطن النبي يونس وعداس النصراني" }
 - { id: group/aws, label: { ar: "الأوس", en: "Banu Aws" }, note: "إحدى قبيلتي الأنصار بيثرب مع الخزرج" }
 # Added by the ibn-hisham lane (batch: return from Abyssinia); restored the file after a commit replaced all earlier stubs with this fragment
-- { id: person/amir-ibn-al-tufayl, label: { ar: "عامر بن الطفيل", en: "Amir ibn al-Tufayl" }, note: "سيد بني عامر بن صعصعة وفارسهم، الذي غدر بوفد بئر معونة" }
 - { id: group/ghatafan, label: { ar: "غطفان", en: "Ghatafan" }, note: "قبيلة قيسية نجدية كبيرة كانت إحدى دعائم حلف الأحزاب" }
 - { id: person/al-harith-ibn-abi-dirar, label: { ar: "الحارث بن أبي ضرار", en: "al-Harith ibn Abi Dirar" }, note: "سيد بني المصطلق ووالد جويرية أم المؤمنين، أسلم بعد الغزوة" }
 - { id: person/sinan-ibn-abi-sinan-al-asadi, label: { ar: "سنان بن أبي سنان الأسدي", en: "Sinan ibn Abi Sinan al-Asadi" }, note: "صحابي بدري أول من بايع بيعة الرضوان تحت الشجرة" }
@@ -155,3 +154,36 @@
 - { id: person/abu-burqan, label: { ar: "أبو برقان", en: "Abu Burqan" }, note: "عم النبي من الرضاعة ومن وفد هوازن الأربعة عشر إلى الجعرانة" }
 - { id: person/masud-ibn-amr-al-ghifari, label: { ar: "مسعود بن عمرو الغفاري", en: "Mas'ud ibn Amr al-Ghifari" }, note: "أمين الغنائم المحبوسة بالجعرانة بعد حنين" }
 - { id: person/al-harith-ibn-al-harith-ibn-kalda, label: { ar: "الحارث بن الحارث بن كلدة", en: "al-Harith ibn al-Harith ibn Kalda" }, note: "من سادات قريش، أعطاه النبي مائة من الإبل بالجعرانة" }
+# Added by the raheeq lane (batch 22: hajj of Abu Bakr and the delegations, pp. 440-457)
+- { id: group/abd-al-qays, label: { ar: "عبد القيس", en: "Abd al-Qays" }, note: "قبيلة من ربيعة بالبحرين؛ وفدوا مرتين سنة 5هـ وسنة 9هـ" }
+- { id: group/judham, label: { ar: "جذام", en: "Judham" }, note: "قبيلة قضاعية على تخوم الشام، منها فروة بن عمرو" }
+- { id: group/daws, label: { ar: "دوس", en: "Daws" }, note: "قبيلة من الأزد، قوم الطفيل بن عمرو، وفدوا نحو ثمانين بيتاً سنة 7هـ" }
+- { id: group/himyar, label: { ar: "حمير", en: "Himyar" }, note: "ملوك اليمن في زمن النبوة، كتبوا بإسلامهم بعد تبوك" }
+- { id: group/hamdan, label: { ar: "همدان", en: "Hamdan" }, note: "قبيلة يمنية كبيرة أسلمت جميعاً على يد علي بن أبي طالب سنة 9هـ" }
+- { id: group/tajib, label: { ar: "تجيب", en: "Tajib" }, note: "قبيلة قدم وفدها بصدقات قومه ثلاثة عشر رجلاً" }
+- { id: group/udhra, label: { ar: "عذرة", en: "Udhra" }, note: "قبيلة قضاعية من أخوة قصي لأمه، وفدوا اثني عشر رجلاً صفر 9هـ" }
+- { id: group/bali, label: { ar: "بلي", en: "Bali" }, note: "قبيلة قضاعية وفدت ربيع الأول 9هـ وسأل رئيسهم عن الضيافة" }
+- { id: group/fazara, label: { ar: "فزارة", en: "Fazara" }, note: "قبيلة غطفانية شكت للنبي جدب بلادها فاستسقى لهم سنة 9هـ" }
+- { id: group/sadaf, label: { ar: "صداء", en: "Sadaf" }, note: "قبيلة من اليمن ورد وفدها بعد الجعرانة سنة 8هـ" }
+- { id: group/nakh, label: { ar: "نخع", en: "Nakh'" }, note: "قبيلة يمنية، آخر الوفود المدونة؛ توافدت منتصف محرم 11هـ في مائتي رجل" }
+- { id: group/kinda, label: { ar: "كندة", en: "Kinda" }, note: "قبيلة من حضرموت وردت ضمن وفود عام الوفود" }
+- { id: group/azd, label: { ar: "الأزد", en: "al-Azd" }, note: "من كبرى قبائل اليمن، وردت ضمن وفود عام الوفود" }
+- { id: person/al-ashajj-al-asri, label: { ar: "الأشج العصري", en: "al-Ashajj al-Asri" }, note: "كبير وفد عبد القيس الأول؛ قال فيه النبي: فيك خصلتان يحبهما الله: الحلم والأناة" }
+- { id: person/jarud-ibn-al-ala, label: { ar: "الجارود بن العلاء", en: "al-Jarud ibn al-Ala" }, note: "العبدي النصراني الذي أسلم وحسن إسلامه في وفد عبد القيس الثاني" }
+- { id: person/abd-al-masih-al-aqib, label: { ar: "عبد المسيح العاقب", en: "Abd al-Masih al-Aqib" }, note: "عاقب وفد نجران وصاحب الإمارة والحكومة؛ أسلم بعد رجوعه فيما رووا" }
+- { id: person/al-sayyid-al-ayham, label: { ar: "السيد الأيهم", en: "al-Sayyid al-Ayham" }, note: "سيد وفد نجران وصاحب أمورها الثقافية والسياسية، ويُقال اسمه شرحبيل" }
+- { id: person/malik-ibn-murra-al-rahawi, label: { ar: "مالك بن مرة الرهاوي", en: "Malik ibn Murra al-Rahawi" }, note: "رسول ملوك حمير إلى النبي بإسلامهم" }
+- { id: person/malik-ibn-al-namt, label: { ar: "مالك بن النمط", en: "Malik ibn al-Namt" }, note: "أمّره النبي على من أسلم من همدان" }
+- { id: person/ziyad-ibn-al-harith-al-sudai, label: { ar: "زياد بن الحارث الصدائي", en: "Ziyad ibn al-Harith al-Suda'i" }, note: "جاء إلى النبي وافداً عن قومه صداء فردّ جيش الأربعمائة عنهم" }
+- { id: person/fayruz-al-daylami, label: { ar: "فيروز الديلمي", en: "Fayruz al-Daylami" }, note: "قاتل الأسود العنسي باليمن قبل وفاة النبي بيوم وليلة" }
+- { id: person/al-aswad-al-ansi, label: { ar: "الأسود العنسي", en: "al-Aswad al-Ansi" }, note: "المتنبئ الثاني باليمن، قتله فيروز الديلمي" }
+- { id: person/bujayr-ibn-zuhayr, label: { ar: "بجير بن زهير", en: "Bujayr ibn Zuhayr" }, note: "أخو كعب بن زهير؛ كتب إليه يحذره ويدله على الاستئمان" }
+- { id: person/zuhayr-ibn-abi-sulma, label: { ar: "زهير بن أبي سلمى", en: "Zuhayr ibn Abi Sulma" }, note: "الشاعر الجاهلي صاحب المعلقة، والد كعب وبجير" }
+- { id: person/abu-al-dubayb, label: { ar: "أبو الضبيب", en: "Abu al-Dubayb" }, note: "رئيس وفد بلي؛ سأل النبي عن أجر الضيافة وضالة الغنم والبعير" }
+- { id: person/hamza-ibn-al-numan, label: { ar: "حمزة بن النعمان", en: "Hamza ibn al-Nu'man" }, note: "من وفد عذرة الاثني عشر صفر 9هـ" }
+- { id: person/amr-ibn-salama, label: { ar: "عمرو بن سلمة", en: "Amr ibn Salama" }, note: "صاحب حديث «اتركوه وقومه»، أمّ قومه بالصلاة وهو غلام لأكثرهم قرآناً" }
+- { id: person/khalid-ibn-jafar, label: { ar: "خالد بن جعفر", en: "Khalid ibn Ja'far" }, note: "من رؤساء وفد بني عامر" }
+- { id: person/jabbar-ibn-aslam, label: { ar: "جبار بن أسلم", en: "Jabbar ibn Aslam" }, note: "من رؤساء وفد بني عامر" }
+- { id: person/labid-ibn-rabia, label: { ar: "لبيد بن ربيعة", en: "Labid ibn Rabi'a" }, note: "الشاعر العامري صاحب المعلقة، أخو أربد بن قيس لأمه" }
+- { id: place/afra, label: { ar: "عفراء", en: "Afra'" }, note: "ماء بفلسطين صُلب عليه فروة بن عمرو الجذامي" }
+- { id: place/maan, label: { ar: "معان", en: "Ma'an" }, note: "بلدة بجنوب الشام، منزل فروة بن عمرو عامل الروم" }

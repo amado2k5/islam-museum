@@ -1,0 +1,25 @@
+id: event/delegation-of-najran
+class: event
+kind: treaty
+label: { en: "The delegation of Najran", ar: "وفد نجران" }
+summary:
+  en: "Sixty riders of Christian Najran came to Medina in 9 AH led by the Aqib, the Sayyid and Bishop Abu Haritha; when they declined Islam the Prophet offered the mutual invocation of God's curse (mubahala) with Fatima, al-Hasan and al-Husayn, they asked instead for terms, and a treaty granted them God's protection in exchange for two thousand garments a year."
+  ar: "قدم ستون راكباً من نصارى نجران المدينة سنة 9هـ يقودهم العاقب والسيد والأسقف أبو حارثة، فلما أبوا الإسلام دعاهم النبي إلى المباهلة وأقبل بفاطمة والحسن والحسين فطلبوا الصلح، فصالحهم على ألفي حلة في السنة وذمة الله ورسوله وحريتهم في دينهم."
+wings: [people, ideas]
+themes: [peace-making-and-coexistence, islam-and-christianity, non-muslim-minorities-under-muslim-rule]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/abu-haritha-ibn-alqama }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/fatima }
+  - { type: had_participant, target: person/hasan-ibn-ali }
+  - { type: had_participant, target: person/husayn-ibn-ali }
+  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah }
+  - { type: part_of, target: event/year-of-delegations }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

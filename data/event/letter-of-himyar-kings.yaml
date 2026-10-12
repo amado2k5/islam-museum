@@ -1,0 +1,22 @@
+id: event/letter-of-himyar-kings
+class: event
+kind: other
+label: { en: "The letter of the kings of Himyar", ar: "كتاب ملوك حمير" }
+summary:
+  en: "After the return from Tabuk the kings of Himyar — al-Harith and Nu'aym sons of Abd Kulal, al-Nu'man ibn Qayl Dhu Ru'ayn and the chiefs of Hamdan and Ma'afir — sent Malik ibn Murra al-Rahawi announcing their Islam; the Prophet answered with a charter of rights and duties and dispatched a mission headed by Mu'adh ibn Jabal."
+  ar: "بعد مرجع النبي من تبوك كتب ملوك حمير — الحارث ونعيم ابنا عبد كلال والنعمان بن قيل ذي رعين وسادة همدان ومعافر — بإسلامهم مع رسولهم مالك بن مرة الرهاوي، فأجابهم النبي بكتاب فيه ما للمؤمنين وما عليهم وذمة للمعاهدين، وبعث إليهم بعثاً أميرهم معاذ بن جبل."
+wings: [people]
+themes: [peace-making-and-coexistence, conferences-and-declarations]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: group/himyar }
+  - { type: had_participant, target: person/malik-ibn-murra-al-rahawi }
+  - { type: had_participant, target: person/muadh-ibn-jabal }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: event/year-of-delegations }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

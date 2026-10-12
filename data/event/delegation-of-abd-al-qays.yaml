@@ -1,0 +1,21 @@
+id: event/delegation-of-abd-al-qays
+class: event
+kind: gathering
+label: { en: "The delegation of Abd al-Qays", ar: "وفد عبد القيس" }
+summary:
+  en: "The second delegation of Abd al-Qays came to Medina in the Year of Delegations, forty men among them al-Jarud ibn al-Ala, who had been a Christian; an earlier delegation of about fourteen had come in 5 AH led by al-Ashajj al-Asri."
+  ar: "قدم الوفد الثاني لعبد القيس المدينة في عام الوفود أربعين رجلاً فيهم الجارود بن العلاء وكان نصرانياً فأسلم، وسبقه وفد أول نحو أربعة عشر رجلاً سنة 5هـ فيهم الأشج العصري."
+wings: [people]
+themes: [converts-and-leavers, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: group/abd-al-qays }
+  - { type: had_participant, target: person/jarud-ibn-al-ala }
+  - { type: had_participant, target: person/al-ashajj-al-asri }
+  - { type: part_of, target: event/year-of-delegations }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

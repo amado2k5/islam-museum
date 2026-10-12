@@ -1,0 +1,23 @@
+id: person/abu-haritha-ibn-alqama
+class: person
+label: { en: "Abu Haritha ibn Alqama", ar: "أبو حارثة بن علقمة" }
+names:
+  - { kind: full, lang: ar, value: "أبو حارثة بن علقمة" }
+gender: male
+roles: [theologian]
+summary:
+  en: "Bishop of Najran and its religious leader, one of the three chiefs who headed the sixty-man Christian delegation to Medina in 9 AH that debated Jesus and received the Prophet's offer of mubahala."
+  ar: "أسقف نجران وصاحب زعامتها الدينية، وأحد الثلاثة الذين قادوا وفدها الستين إلى المدينة سنة 9هـ حين جادلوا في أمر عيسى فدعاهم النبي إلى المباهلة."
+wings: [people]
+themes: [islam-and-christianity]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, start: { edtf: "0631~" }, status: tradition, note: "زعيم وفد نجران الديني مع العاقب والسيد.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: christian, basis: documented, note: "أسقف نجران كما في مصادر السيرة.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+relations:
+  - { type: lived_in, target: place/najran }
+  - { type: participated_in, target: event/delegation-of-najran, role: "الأسقف زعيم الدين", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

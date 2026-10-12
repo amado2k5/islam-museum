@@ -1,0 +1,20 @@
+id: event/kaab-ibn-zuhayr-pardon-and-burda
+class: event
+kind: other
+label: { en: "Ka'b ibn Zuhayr's pardon and recitation of Banat Su'ad", ar: "أمان كعب بن زهير وإنشاد «بانت سعاد»" }
+summary:
+  en: "Warned by his brother Bujayr after the Prophet's return from al-Ta'if, the poet Ka'b ibn Zuhayr came to Medina, announced himself in the mosque, was spared despite an Ansari's request to strike his neck, and recited his apology-ode Banat Su'ad before the Prophet."
+  ar: "جاء الشاعر كعب بن زهير المدينة بعد رجوع النبي من الطائف مُنذِراً بكتاب أخيه بجير، فعرّف بنفسه في المسجد فأمنّه النبي ودفع عنه رجلاً من الأنصار استأذن في ضرب عنقه، فأنشده قصيدته «بانت سعاد» معتذراً ومداحاً."
+wings: [people, ideas]
+themes: [literature, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630~", hijri: "0008", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/kaab-ibn-zuhayr }
+  - { type: had_participant, target: person/muhammad }
+  - { type: mentions, target: work/qasidat-banat-suad }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
