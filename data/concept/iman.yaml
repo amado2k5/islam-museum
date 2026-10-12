@@ -16,6 +16,43 @@ periods:
 - period/prophetic-era
 regions:
 - global
+issue:
+  ar: 'ما حقيقة الإيمان: هل هو تصديق بالقلب وإقرار باللسان، أم يدخل فيه العمل ويزيد وينقص؟'
+  en: 'What is the reality of iman: is it assent of the heart and affirmation by the tongue, or does it include action and increase and decrease?'
+perspectives:
+- tradition: sunni
+  id: ahl-al-hadith
+  stance:
+    ar: الإيمان قول وفعل، يزيد وينقص
+    en: Iman is speech and action, and it increases and decreases
+  summary:
+    ar: افتتح البخاري كتاب الإيمان ببابٍ قال في أوله إن الإيمان «قول وفعل، ويزيد وينقص»، وعقد باباً بعنوان «من قال إن الإيمان هو العمل»؛ وهذا موقف أهل الحديث كما يعرضه صحيح البخاري.
+    en: al-Bukhari opens the Book of Iman with a chapter whose first lines say that iman is "speech and action, and it increases and decreases", and has a chapter titled "whoever said iman is action"; this is the position of the hadith scholars as Sahih al-Bukhari presents it.
+  evidence:
+  - ref: source/sahih-al-bukhari
+    note:
+      ar: كتاب الإيمان، الباب الأول وما بعده
+      en: the Book of Iman, the first chapter and those after it
+  sources:
+  - source/sahih-al-bukhari
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: الإيمان إقرار باللسان وتصديق بالجَنان
+    en: Iman is affirmation by the tongue and assent of the heart
+  summary:
+    ar: يقول أبو جعفر الطحاوي في عقيدته التي نسبها إلى أبي حنيفة وأبي يوسف ومحمد بن الحسن إن الإيمان «هو الإقرار باللسان، والتصديق بالجَنان»، وإنه واحد وأهله في أصله سواء، يتفاضلون بالخشية والتقى.
+    en: Abu Ja'far al-Tahawi, in the creed he attributes to Abu Hanifa, Abu Yusuf and Muhammad ibn al-Hasan, says iman is "affirmation by the tongue and assent of the heart", that it is one and its people are equal in its root, differing in fear of God and piety.
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البنود 83 إلى 88، ص 21 و22
+      en: articles 83 to 88, pp. 21 and 22
+  sources:
+  - source/aqida-tahawiyya
 relations:
 - type: basis_for
   target: concept/islam-din
@@ -30,6 +67,7 @@ provenance:
 sources:
 - source/sahih-al-bukhari
 - source/tanzil-quran
+- source/aqida-tahawiyya
 - source/aqida-tahawiyya
 status:
   review: draft

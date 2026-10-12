@@ -144,6 +144,27 @@ describe("scope rule: Sunni is the default and first view (docs/scope.md)", () =
   });
 });
 
+describe("opinions: issue, holders, evidence and ids (docs/plan/20-opinions.md)", () => {
+  const op = (extra: Record<string, any> = {}) => ({ tradition: "sunni", summary: { en: "x" }, sources: ["source/gutas-2014"], ...extra });
+  it("accepts a stated issue with a lead opinion and a further one, each with stance, holders and evidence", () => {
+    const e = base("concept", "zz-test-o1", { kind: "doctrine", issue: { en: "q?" }, perspectives: [
+      op({ id: "first", stance: { en: "a" }, holders: ["source/gutas-2014"], evidence: [{ ref: "source/gutas-2014", note: { en: "p. 1" } }] }),
+      op({ tradition: "sunni-hanafi", id: "second", stance: { en: "b" } })] });
+    expect(msgs(run(e), "error")).toBe("");
+    expect(run(e).filter((x) => x.level === "warn" && x.file.includes("zz-test-o1")).map((x) => x.msg).join()).not.toMatch(/no `issue`|cites no source/);
+  });
+  it("rejects duplicate ids and unresolved holders or evidence", () => {
+    const e = base("concept", "zz-test-o2", { kind: "doctrine", issue: { en: "q?" }, perspectives: [
+      op({ id: "same", holders: ["person/zz-nobody"] }), op({ tradition: "sunni-hanafi", id: "same", evidence: [{ ref: "source/zz-none" }] })] });
+    const m = msgs(run(e), "error");
+    expect(m).toMatch(/duplicate id "same"/); expect(m).toMatch(/holders: person\/zz-nobody does not exist/); expect(m).toMatch(/evidence: source\/zz-none does not exist/);
+  });
+  it("warns when two opinions have no issue, or an opinion cites no source", () => {
+    const w = msgs(run(base("concept", "zz-test-o3", { kind: "doctrine", perspectives: [{ tradition: "sunni", summary: { en: "x" } }, op({ tradition: "sunni-hanafi" })] })), "warn");
+    expect(w).toMatch(/no `issue`/); expect(w).toMatch(/cites no source/);
+  });
+});
+
 describe("no AI or compute at runtime (docs/adr/0002)", () => {
   const w = async (name: string, body: string) => { const { mkdtempSync, writeFileSync } = await import("node:fs"); const d = mkdtempSync("/tmp/static-"); const f = `${d}/${name}`; writeFileSync(f, body); return f; };
   it("accepts a same-origin static fetch", async () => {

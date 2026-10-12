@@ -81,7 +81,14 @@ const base = {
       type: "object",
       additionalProperties: false,
       required: ["tradition", "summary"],
-      properties: { tradition: enm(traditions), summary: ref("localized"), sources: strs },
+      properties: {
+        tradition: enm(traditions), summary: ref("localized"), sources: strs,
+        // docs/plan/20-opinions.md: a named opinion within a disagreement
+        id: { type: "string", pattern: "^[a-z0-9][a-z0-9-]*$" },
+        stance: ref("localized"),
+        holders: entityRefs,
+        evidence: { type: "array", items: { type: "object", additionalProperties: false, required: ["ref"], properties: { ref: entityRef, note: ref("localized") } } },
+      },
     },
     name: {
       type: "object",
@@ -108,6 +115,7 @@ const base = {
     regions: { type: "array", items: enm(regions), uniqueItems: true },
     external_ids: { type: "object", additionalProperties: { type: "string" } },
     relations: { type: "array", items: ref("relation") },
+    issue: ref("localized"),
     perspectives: { type: "array", items: ref("perspective") },
     sources: entityRefs,
     media: {

@@ -147,6 +147,17 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (v && !known.has(v)) err(file, `media.${f}: ${v} does not exist`);
     }
     for (const t of entity.perspectives ?? []) for (const s of t.sources ?? []) if (!known.has(s)) err(file, `perspective source ${s} does not exist`);
+    // opinions (docs/plan/20-opinions.md): ids unique, holders and evidence resolve, a disagreement states its issue, every opinion cites a source
+    if (entity.perspectives?.length) {
+      const seenIds = new Set<string>();
+      entity.perspectives.forEach((t: any, i: number) => {
+        if (t.id) { if (seenIds.has(t.id)) err(file, `perspectives[${i}]: duplicate id "${t.id}"`); seenIds.add(t.id); }
+        for (const h of t.holders ?? []) if (!resolves(h)) err(file, `perspectives[${i}].holders: ${h} does not exist`);
+        for (const e of t.evidence ?? []) if (!resolves(e.ref)) err(file, `perspectives[${i}].evidence: ${e.ref} does not exist`);
+        if (!(t.sources ?? []).length) warn(file, `perspectives[${i}] (${t.tradition}) cites no source: every opinion is cited`);
+      });
+      if (entity.perspectives.length >= 2 && !entity.issue) warn(file, "two or more opinions but no `issue`: state the question the opinions answer");
+    }
 
     // relations
     entity.relations?.forEach((r: any, i: number) => {

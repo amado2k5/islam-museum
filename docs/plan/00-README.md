@@ -30,6 +30,7 @@ A free, open, all-digital museum of Islam with nine wings and five cross-cutting
 | 17 | [الرحيق المختوم](17-raheeq-makhtum.md) | Mining al-Mubarakpuri's sira into the Prophetic-era spine: rights, OCR, chapter-to-entity map (about 1,000 entities), pipeline, batch order, the drilling prompt for another session |
 | 18 | [سيرة ابن هشام](18-sira-ibn-hisham.md) | Mining the classical sira itself — juz' 4 of the al-Saqqa/al-Abyari/Shalabi edition (7–11 AH: Fath, Hunayn, Tabuk, the delegations, the death and the Saqifa): rights, OCR, chapter-to-entity map (~700 entities), pipeline, batch order, the drilling prompt |
 | 19 | [Tour / Learn](19-tour-learn.md) | The guided-pathways tab: goal-directed routes through the museum so it never feels overwhelming; the planning-phase task of proposing the top 300 pathways; data model (on the `exhibit` class), editorial rules, rollout |
+| 20 | [Differences of opinion](20-opinions.md) | One lead opinion with more opinions beneath on every contested topic: the question, the stance, holders, basis and sources; data fields, validator rules, entity-page component, index and compare pages, rollout |
 
 **Added 12 October 2026:** document 19 (Tour / Learn) plans a guided-pathways tab and a planning-phase pass that proposes the top 300 pathways; the tab, a landing-page card and a coverage-page notice are live and say it is in the making.
 

@@ -254,6 +254,8 @@ Ibn Sina was born near [[place/bukhara]] around 980 CE ... He studied logic unde
 
 ## 8. Perspectives and claim status
 
+_Extended on 12 October 2026 (`20-opinions.md`): an entity may carry an `issue` (the question) and each perspective may carry `id`, `stance` (a headline), `holders` and `evidence`; the page shows the first opinion in full and the rest under "More opinions"._
+
 ```yaml
 perspectives:
   - tradition: sunni

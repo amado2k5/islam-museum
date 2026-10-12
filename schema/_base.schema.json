@@ -183,6 +183,39 @@
           "items": {
             "type": "string"
           }
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "stance": {
+          "$ref": "_base.schema.json#/$defs/localized"
+        },
+        "holders": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "ref"
+            ],
+            "properties": {
+              "ref": {
+                "type": "string",
+                "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
+              },
+              "note": {
+                "$ref": "_base.schema.json#/$defs/localized"
+              }
+            }
+          }
         }
       }
     },
@@ -331,6 +364,9 @@
       "items": {
         "$ref": "_base.schema.json#/$defs/relation"
       }
+    },
+    "issue": {
+      "$ref": "_base.schema.json#/$defs/localized"
     },
     "perspectives": {
       "type": "array",

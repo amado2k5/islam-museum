@@ -67,6 +67,7 @@ Devin's schema needs arrive as `docs/requests/devin-*.md`. Unresolved references
 4. Finish doc 16: basemap download (Natural Earth, ETOPO), more map blocks with sourced features, `brief.py`, `accuracy.yaml`, `verify_coords.py`, ingest maps into `media/` and event pages; illustrations need the local image model (doc 10).
 5. Continue Phase 1 spine content: places (60), people (150 + 100), more events, per `docs/plan/06-roadmap.md`; first screen batch; theme hubs.
 6. Tour / Learn (`docs/plan/19-tour-learn.md`): run the pathway planning pass (propose the top 300 pathways into `docs/pathways/catalogue.yaml`), add the `exhibit` fields and validator rules, write the first 10 pathways; then the player (Phase 2).
+7a. Opinions (`docs/plan/20-opinions.md`): the mechanism is built (schema, validator, entity page); next add `issue` and sources to the entries that already have perspectives (the validator lists them) and build the differences index page.
 7. Wikidata rebuild (deferred by the founder, 12 Oct 2026): two passes over the dump with the refreshed seeds (`scripts/harvest/wikidata/queries/q01` to `q10`), then `--build`; about 12 hours, run when the machine is free. Details and what it unlocks are in `docs/delegation/wikidata-harvest-progress.md`.
 8. Manual items for the founder: second witness for the Qur'an text; verify sura names against Tanzil metadata; verify bibliographic details of the draft sources; add a contact email to the harvest User-Agent if wanted.
 
