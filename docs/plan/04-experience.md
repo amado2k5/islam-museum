@@ -188,7 +188,7 @@ Class-specific panels:
 ## 6. Design language
 
 - **Mood**: a quiet, well-lit museum. Generous margins, large type, few colours. Beauty comes from typography and geometry, not from decoration.
-- **Palette** (tokens): ivory `#F7F3EA` background, ink `#1B1B1F`, lapis `#1F4E8C`, deep teal `#0F5F5C`, muted gold `#B8932F` as the only accent, sand `#E6DCC6` for panels; dark mode with warm charcoal. Each wing gets a subtle hue variant for orientation.
+- **Palette** (tokens, visual identity spec): warm alabaster `#F9F8F6` background, ink `#1A1A1A`, deep midnight lapis `#0A2533` (hero band, dark mode ground), museum teal `#113F4E` (links, panels in dark mode), manuscript gold `#C5A059` as the one accent (decorative on light grounds; gold text uses `#7D5D1E`, which passes AA), parchment `#E6D5B8` for panels and light text on dark. Each wing has its own tone for orientation, and each wing number sits in a star medallion. Every text pair meets WCAG 2.2 AA.
 - **Geometry**: a procedurally generated girih/star-tiling SVG motif as faint texture in headers and share cards; generated from parameters per entity so every page has a unique but coherent pattern (and nothing is copied from a copyrighted source).
 - **Type**: Arabic — Noto Naskh Arabic (body), Amiri Quran (scripture), Reem Kufi (display); Latin — Source Serif 4 (body), Inter (UI). Transliteration follows a simplified ALA-LC without diacritics in body text and full diacritics in the "names" panel.
 - **RTL**: the layout mirrors; timelines run right-to-left in Arabic UI; maps keep geography; iconography avoids direction-bound metaphors.

@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
+import Logo from "../components/Logo.astro";
 
 interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean }
 const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex } = Astro.props;
@@ -32,6 +33,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
     <meta property="og:locale" content={lang === "ar" ? "ar_AR" : "en_US"} />
     <meta name="twitter:card" content="summary" />
     <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#0a2533" />
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <script is:inline>
@@ -57,7 +59,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
     <header class="site wrap" style="padding-block:18px">
       <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px">
         <a class="ui" href={`/${lang}/`} style="display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.02em;text-decoration:none;color:var(--fg)">
-          <svg viewBox="0 0 64 64" width="26" height="26" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#1F4E8C" /><path d="M32 8l6.5 15.5L54 30l-15.5 6.5L32 52l-6.5-15.5L10 30l15.5-6.5z" fill="#F7F3EA" /></svg>
+          <Logo size={36} />
           <span class="ltr" dir="ltr">islam.museum</span>
         </a>
         <div style="display:flex;align-items:center;gap:10px" class="ui">

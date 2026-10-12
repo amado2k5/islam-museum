@@ -1,0 +1,14 @@
+---
+// The islam.museum mark (visual identity spec §2): an eight-point star, a mihrab arch and an open book.
+// Decorative by default: the wordmark sits beside it. Geometry matches public/brand/logo-mark.svg.
+interface Props { size?: number; class?: string }
+const { size = 34, class: cls = "" } = Astro.props;
+---
+<svg class:list={["brand-mark", cls]} viewBox="0 0 120 120" width={size} height={size} aria-hidden="true" focusable="false">
+  <path d="M60 2 L76.07 21.2 L101.01 18.99 L98.8 43.93 L118 60 L98.8 76.07 L101.01 101.01 L76.07 98.8 L60 118 L43.93 98.8 L18.99 101.01 L21.2 76.07 L2 60 L21.2 43.93 L18.99 18.99 L43.93 21.2 Z" fill="#c5a059" stroke="#9a7b38" stroke-width="1.5" stroke-linejoin="round" />
+  <circle cx="60" cy="60" r="36" fill="#113f4e" stroke="#e6d5b8" stroke-width="1" />
+  <path d="M47 74 V58 Q47 42 60 42 Q73 42 73 58 V74" fill="none" stroke="#e6d5b8" stroke-width="3.5" stroke-linecap="round" />
+  <circle cx="60" cy="36" r="2.2" fill="#c5a059" />
+  <path d="M38 80 Q49 75 60 80 Q71 75 82 80 V92 Q71 87 60 92 Q49 87 38 92 Z" fill="#e6d5b8" />
+  <path d="M60 80 V92" stroke="#113f4e" stroke-width="1.5" />
+</svg>

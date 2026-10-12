@@ -1,25 +1,38 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Logo from "./Logo.astro";
 import { ui, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { href } from "../lib/graph";
 const { lang, path } = Astro.props as { lang: Lang; path: string };
 const T = ui(lang);
+// one medallion per wing, numbered in Arabic-Indic numerals: the museum is nine wings around one story
+const NUM = ["١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩"];
 ---
 <BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/" }}>
-  <div class="wrap" style="padding-block:4vh 20px">
-    <p class="eyebrow">{T.landing.eyebrow}</p>
-    <h1 class="display" style="max-width:20ch;font-weight:400;font-size:clamp(2.2rem,6vw,4.4rem)">{T.landing.title_pre} <strong style="font-weight:600;color:var(--link)">{T.landing.title_strong}</strong> {T.landing.title_post}</h1>
-    <p style="font-size:clamp(1.1rem,2vw,1.35rem);max-width:60ch">{T.landing.lede}</p>
-    <p class="ui muted" id="today-line" data-prefix={T.landing.today_is} aria-live="polite" style="margin-bottom:2rem"></p>
-    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{T.landing.soon}</p>
+  <section class="hero" aria-labelledby="hero-title">
+    <Logo size={520} class="hero-watermark" />
+    <div class="wrap" style="position:relative">
+      <p class="eyebrow">{T.landing.eyebrow}</p>
+      <h1 id="hero-title" class="display">{T.landing.title_pre} <strong>{T.landing.title_strong}</strong> {T.landing.title_post}</h1>
+      <p class="hero-lede">{T.landing.lede}</p>
+      <p class="ui pill"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{T.landing.soon}</p>
+      <p class="ui" id="today-line" data-prefix={T.landing.today_is} aria-live="polite" style="margin:0"></p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href={href(lang, "event/hijra")}>{T.landing.start} <span class="flip" aria-hidden="true">→</span></a>
+        <a class="btn btn-line" href={`/${lang}/learn/`}>{T.landing.learn_cta} <span class="flip" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <svg class="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 46 C240 6 480 84 720 44 S1200 6 1440 46 V90 H0 Z" style="fill:var(--bg)" /></svg>
+  </section>
+
+  <div class="wrap" style="padding-block:40px 20px">
     <a class="card" href={`/${lang}/learn/`} style="max-width:640px;margin:0 0 1rem;border:1px solid var(--gold)"><h2 class="card-title" style="font-size:1.15rem">{T.landing.learn_title}</h2><span>{T.landing.learn_text}</span> <span class="ui" style="display:block;margin-top:8px;color:var(--link)">{T.landing.learn_cta} <span class="flip" aria-hidden="true">→</span></span></a>
     <p class="ui" style="margin:0 0 1rem"><a href={`/${lang}/coverage/`}>{T.landing.coverage} <span class="flip" aria-hidden="true">→</span></a></p>
-    <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={href(lang, "event/hijra")}>{T.landing.start} <span class="flip" aria-hidden="true">→</span></a> <span class="muted">{T.landing.start_hint}</span></p>
 
     <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted);margin-top:3rem">{T.landing.wings}</h2>
     <ul class="grid-cards" style="margin-bottom:3.5rem">
-      {WINGS.map((w) => (
-        <li><a class="card" href={wingHref(lang, w)}><h3 class="card-title" style={`border-inline-start:4px solid var(--wing-${w});padding-inline-start:10px`}>{T.wings[w].title}</h3><span>{T.wings[w].blurb}</span></a></li>
+      {WINGS.map((w, i) => (
+        <li><a class="card wing-card" href={wingHref(lang, w)} style={`--wing: var(--wing-${w})`}><span class="wing-medal" aria-hidden="true">{NUM[i]}</span><h3 class="card-title">{T.wings[w].title}</h3><span>{T.wings[w].blurb}</span></a></li>
       ))}
     </ul>
 
@@ -32,7 +45,7 @@ const T = ui(lang);
 
     <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.landing.how}</h2>
     <ul class="ui muted" style="display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;list-style:none">
-      {T.landing.pillars.map((p: string) => <li style="display:flex;gap:8px;align-items:center"><span aria-hidden="true" style="width:6px;height:6px;background:var(--gold);border-radius:50%"></span>{p}</li>)}
+      {T.landing.pillars.map((p: string) => <li style="display:flex;gap:8px;align-items:center"><span aria-hidden="true" style="width:6px;height:6px;background:var(--gold-text);border-radius:50%"></span>{p}</li>)}
     </ul>
   </div>
   <script is:inline>

@@ -12,28 +12,30 @@
 @import "@fontsource/reem-kufi/arabic-500.css";
 @import "@fontsource/amiri-quran/arabic-400.css";
 
-/* ---- Design tokens (docs/plan/04 §6): ivory, ink, lapis, teal, one gold accent, sand panels ---- */
+/* ---- Design tokens (visual identity spec, docs/plan/04 §6): deep lapis-teal, manuscript gold, warm alabaster, parchment panels.
+   Gold is decorative only on light grounds (2.3:1); text that is gold uses --gold-text, which passes AA on ivory and sand. ---- */
 :root {
-  --ivory: #f7f3ea; --ink: #1b1b1f; --lapis: #1f4e8c; --teal: #0f5f5c; --gold: #b8932f; --sand: #e6dcc6;
-  --bg: var(--ivory); --fg: var(--ink); --panel: var(--sand); --muted: #5f5a53; --line: rgba(27, 27, 31, 0.14);
-  --link: var(--lapis); --accent: var(--gold); --gold-text: #6e5414; --focus: #0b3d91;
+  --ivory: #f9f8f6; --ink: #1a1a1a; --lapis: #0a2533; --teal: #113f4e; --gold: #c5a059; --sand: #e6d5b8;
+  --bg: var(--ivory); --fg: var(--ink); --panel: var(--sand); --muted: #555555; --line: rgba(10, 37, 51, 0.16);
+  --link: var(--teal); --accent: var(--gold); --gold-text: #7d5d1e; --focus: #0a2533;
+  --hero-bg: linear-gradient(160deg, #0a2533 0%, #113f4e 100%);
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
   --sans: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
   --ar-body: "Noto Naskh Arabic", "Amiri", "Geeza Pro", "Arabic Typesetting", serif;
   --ar-display: "Amiri", "Reem Kufi", "Noto Naskh Arabic", serif;
   --ar-quran: "Amiri Quran", "Amiri", "Noto Naskh Arabic", serif;
   --measure: 68ch;
-  --wing-time: #8a5a1f; --wing-place: #0f5f5c; --wing-people: #1f4e8c; --wing-ideas: #6b3f8c;
-  --wing-objects: #8c3f3f; --wing-words: #3f6b8c; --wing-living: #4d7a2b; --wing-today: #5f5a53; --wing-made: #a3541f;
+  --wing-time: #7a5514; --wing-place: #0f5560; --wing-people: #2b4f7e; --wing-ideas: #5a3f7a;
+  --wing-objects: #8a3a3a; --wing-words: #2f6079; --wing-living: #3f6b2a; --wing-today: #5f5a53; --wing-made: #9a4a1a;
 }
 :root[data-theme="dark"] {
-  --bg: #17171a; --fg: #ede8dd; --panel: #22232a; --muted: #bdb7ac; --line: rgba(237, 232, 221, 0.16);
-  --link: #8fb3e8; --focus: #b9d2ff; --gold-text: #b8932f;
+  --bg: #0a2533; --fg: #f9f8f6; --panel: #113f4e; --muted: #c9d3d6; --line: rgba(249, 248, 246, 0.16);
+  --link: #9fd3d9; --focus: #e6d5b8; --gold-text: #c5a059;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #17171a; --fg: #ede8dd; --panel: #22232a; --muted: #bdb7ac; --line: rgba(237, 232, 221, 0.16);
-    --link: #8fb3e8; --focus: #b9d2ff; --gold-text: #b8932f;
+    --bg: #0a2533; --fg: #f9f8f6; --panel: #113f4e; --muted: #c9d3d6; --line: rgba(249, 248, 246, 0.16);
+    --link: #9fd3d9; --focus: #e6d5b8; --gold-text: #c5a059;
   }
 }
 
@@ -82,7 +84,7 @@ a.chip:hover { outline: 1px solid var(--gold); }
 html[lang="ar"] .card .card-title { font-family: var(--ar-body); }
 .card span { color: var(--muted); font-size: 0.95rem; }
 
-.pattern { position: fixed; inset: 0; z-index: -1; opacity: 0.06; pointer-events: none; color: var(--fg); }
+.pattern { position: fixed; inset: 0; z-index: -1; opacity: 0.1; pointer-events: none; color: var(--gold); }
 
 /* RTL: logical properties throughout; mirror only what must mirror */
 [dir="rtl"] .flip { transform: scaleX(-1); }
@@ -130,3 +132,43 @@ html[lang="ar"] .menu-btn { font-family: var(--ar-body); font-size: 1rem; }
 /* small uppercase labels: tracking only for Latin script; Arabic joins and must not be spaced */
 .kicker { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; }
 html[lang="ar"] .kicker { text-transform: none; letter-spacing: 0; }
+
+/* ---- brand: header mark ---- */
+.brand-mark { display: block; flex: none; }
+
+/* ---- hero: deep lapis band with a gold lattice, a faded mark, and a wave into the page (spec §3) ---- */
+.hero { position: relative; isolation: isolate; overflow: hidden; background: var(--hero-bg); color: #f9f8f6; padding: clamp(40px, 9vh, 96px) 0 clamp(72px, 12vh, 120px); }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: -2; background-image: url("/brand/lattice.svg"); background-size: 120px 120px; opacity: 0.16; }
+.hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(60% 70% at 85% 15%, rgba(197, 160, 89, 0.26), transparent 70%); }
+.hero-watermark { position: absolute; inset-inline-end: -8%; top: 50%; transform: translateY(-50%); width: min(78vw, 560px); height: auto; opacity: 0.1; z-index: -1; pointer-events: none; }
+.hero-wave { position: absolute; inset-inline: 0; bottom: -1px; width: 100%; height: clamp(36px, 6vw, 84px); display: block; }
+.hero .eyebrow { color: var(--gold); margin-bottom: 18px; }
+.hero h1 { color: #f9f8f6; font-weight: 500; max-width: 18ch; font-size: clamp(2.3rem, 6vw, 4.6rem); margin: 0 0 22px; }
+.hero h1 strong { color: var(--gold); font-weight: 600; }
+.hero-lede { color: #e6d5b8; font-size: clamp(1.1rem, 2vw, 1.35rem); max-width: 60ch; margin: 0 0 22px; }
+.hero .ui { color: #e6d5b8; }
+.hero .ui.muted { color: #c9d3d6; }
+.hero .pill { display: inline-flex; align-items: center; gap: 10px; background: rgba(249, 248, 246, 0.1); border: 1px solid rgba(197, 160, 89, 0.5); border-radius: 999px; padding: 8px 16px; margin: 0 0 22px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 8px; }
+
+/* buttons: gold on teal and teal on gold both pass AA; outlined one is for secondary actions */
+.btn { display: inline-flex; align-items: center; gap: 8px; font-family: var(--sans); font-size: 0.95rem; font-weight: 600; text-decoration: none; border-radius: 10px; padding: 12px 20px; border: 1px solid transparent; transition: background-color 0.2s ease, color 0.2s ease; }
+html[lang="ar"] .btn { font-family: var(--ar-body); font-size: 1.02rem; }
+.btn-gold { background: var(--gold); color: #0a2533; }
+.btn-gold:hover { background: #e6d5b8; text-decoration: none; }
+.btn-line { border-color: rgba(197, 160, 89, 0.7); color: #e6d5b8; }
+.btn-line:hover { background: rgba(249, 248, 246, 0.08); text-decoration: none; }
+.hero a:focus-visible { outline-color: #e6d5b8; }
+
+/* ---- the nine wings: a star medallion in each wing's colour, numbered in Arabic-Indic numerals (spec §4) ---- */
+.wing-card { position: relative; border-top: 3px solid var(--wing); padding-top: 20px; }
+.wing-medal { display: inline-grid; place-items: center; width: 46px; height: 46px; margin-bottom: 12px; background: var(--wing); color: #f9f8f6; font-family: var(--ar-display); font-size: 1.05rem; line-height: 1; clip-path: polygon(50% 0%, 63.78% 16.74%, 85.36% 14.64%, 83.26% 36.22%, 100% 50%, 83.26% 63.78%, 85.36% 85.36%, 63.78% 83.26%, 50% 100%, 36.22% 83.26%, 14.64% 85.36%, 16.74% 63.78%, 0% 50%, 16.74% 36.22%, 14.64% 14.64%, 36.22% 16.74%); }
+.wing-card .wing-medal { color: #f9f8f6; font-size: 1.1rem; }
+.wing-card .card-title { color: var(--fg); }
+.wing-card:hover .card-title { color: var(--gold-text); }
+
+/* ---- reduced-motion and hero on phones ---- */
+@media (max-width: 720px) {
+  .hero-watermark { width: 90vw; opacity: 0.07; inset-inline-end: -30%; }
+  .hero h1 { max-width: 100%; }
+}
