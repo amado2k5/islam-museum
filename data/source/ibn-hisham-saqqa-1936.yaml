@@ -1,16 +1,14 @@
 id: source/ibn-hisham-saqqa-1936
 class: source
-label:
-  ar: سيرة ابن هشام (تحقيق السقا والأبياري وشلبي)
+kind: primary
+type: book
+label: { ar: "سيرة ابن هشام (تحقيق السقا والأبياري وشلبي)" }
 summary:
-  ar: طبعة مصطفى البابي الحلبي، مصر، 1355هـ/1936م.
-kind: book
-type: primary
-title:
-  ar: السيرة النبوية لابن هشام
-status:
-  review: draft
-sources: []
-provenance:
-  generated_by: codex
-  model: gpt-4o
+  ar: "السيرة النبوية لابن هشام عن ابن إسحاق، تحقيق مصطفى السقا وإبراهيم الأبياري وعبد الحفيظ شلبي، مطبعة مصطفى البابي الحلبي، مصر، 1355هـ/1936م (الجزء الرابع من الطبعة المعتمدة في المتحف)."
+title: "السيرة النبوية لابن هشام"
+author: [{ family: "ابن هشام", given: "عبد الملك" }]
+publisher: "مطبعة مصطفى البابي الحلبي وأولاده، مصر"
+language: ar
+reliability_note: "Classical Sunni sira (public domain); the 1936 edition's tahqiq apparatus is copyrighted-reference. Same work as source/ibn-hisham-sira and source/ibn-hisham-saqqa, kept as its own id because plan 18 cites it by this id: prefer the existing ids for new work."
+open_access: false
+status: { review: draft, completeness: 2, generated_by: "Codex (ibn-hisham lane); shape repaired by the maintainer session" }

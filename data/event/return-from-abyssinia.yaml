@@ -10,11 +10,11 @@ date:
     hijri: "0007"
     precision: year
     note: "بعد الحديبية ويوم فتح خيبر"
-wings:
-  - type: people
-    target: person/jafar-ibn-abi-talib
-  - type: place
-    target: place/khaybar
+wings: [people, place, time]
+periods: [period/prophetic-era]
+relations:
+  - { type: had_participant, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa-1936] }
+  - { type: occurred_at, target: place/khaybar, sources: [source/ibn-hisham-saqqa-1936] }
 regions: [arabia]
 status:
   review: draft
