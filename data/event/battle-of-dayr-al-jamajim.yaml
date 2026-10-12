@@ -3,9 +3,9 @@ class: event
 kind: battle
 label: { ar: "وقعة دير الجماجم" }
 summary:
-  ar: "وقعة بين الحجاج وابن الأشعث، أوردها الطبري في فهرس الجزء السادس في سنة اثنتين وثمانين {cite:tabari-tarikh-abu-al-fadl j.6 p.628}."
+  ar: "وقعة دير الجماجم بين الحجاج وعبد الرحمن بن محمد بن الأشعث، أوردها الطبري في سنة اثنتين وثمانين، وذكر أن بعضهم جعلها في سنة ثلاث وثمانين {cite:tabari-tarikh-abu-al-fadl j.6 p.346}. وذكر ترتيب الصفوف يومها {cite:tabari-tarikh-abu-al-fadl j.6 p.349}."
 date:
-  start: { hijri: "0082", precision: year, status: historical, note: "فهرس الجزء السادس ص628", sources: [source/tabari-tarikh-abu-al-fadl] }
+  start: { hijri: "0082", precision: year, status: debated, note: "ج6 ص346 (سنة 82هـ، وقيل 83هـ)؛ فهرس ص628 (سنة 82هـ)", sources: [source/tabari-tarikh-abu-al-fadl] }
 sources: [source/tabari-tarikh-abu-al-fadl]
 provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan (printed page = scan page)" }
+status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
