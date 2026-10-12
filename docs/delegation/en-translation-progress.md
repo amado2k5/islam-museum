@@ -9,10 +9,11 @@
 - Phase B (rendered metadata): `label.en` + `summary.en` filled for all entities that lacked them (139 labels, 328 summaries: people 124, events 52, places 50, groups 30, polities 25, buildings 17, works 9, concepts 7, datasets 5, exhibits 5, journeys 2, object 1, source 1); 59 exhibit room titles+bodies; 13 `perspectives[].summary`; 21 stub `label.en`; `map.note` already bilingual.
 - Phase C prose, in progress. `content/en/` written so far:
   - exhibit/ ×5 (all five trails)
+  - event/ ×26 (through `battle-of-the-trench`, alphabetical)
 
 ## Next step
 
-Continue `content/en/event/` — alphabetical by slug; done so far: `abu-bakr-leads-the-prayers`, `abu-dharr-lags-behind-on-the-march`, `abu-khaythama-joins-the-army`, `abu-quhafa-conversion`, `abu-ruhm-and-the-stragglers-of-ghifar-and-aslam`, `abu-sufyan-conversion`. Next file: `content/ar/event/abu-sufyan-medina-mission.md`. 200 event files total; then person ×408, group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
+Continue `content/en/event/` — alphabetical by slug; done so far: `abu-bakr-leads-the-prayers` … `battle-of-the-trench` (26 files: all `a*`, `b*` slugs done). Next file: `content/ar/event/battle-of-mutah.md` (next event slug alphabetically; 174 events remain). 200 event files total; then person ×408, group ×59, concept ×43, place ×27, source ×9, object ×9, polity ×8, work ×8, building ×5, practice ×4, journey ×3.
 
 ## Conventions
 
