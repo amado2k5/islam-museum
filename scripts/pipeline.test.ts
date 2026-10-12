@@ -191,10 +191,27 @@ describe("Arabic first (docs/language.md)", () => {
     const src = { ...base("source", "zz-test-r", { kind: "secondary", type: "book", title: "T" }).entity, label: { en: "T" }, summary: { en: "t" } };
     expect(msgs(validateAll([{ entity: src, file: p("data", "source", "zz-test-r.yaml") }]).issues, "error")).toBe("");
   });
-  it("requires Arabic alt text on media, not English", () => {
+  it("requires alt text in every published language (ar and en)", () => {
     const m = (alt: any) => ({ ...base("media", "zz-test-s", { kind: "map", license: "CC0", alt }).entity });
     expect(msgs(validateAll([{ entity: m({ en: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "ar"/);
-    expect(msgs(validateAll([{ entity: m({ ar: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
+    expect(msgs(validateAll([{ entity: m({ ar: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "en"/);
+    expect(msgs(validateAll([{ entity: m({ ar: "x", en: "y" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
+  });
+});
+
+describe("published UI languages (docs/language.md)", () => {
+  it("i18n/ar.yaml and i18n/en.yaml carry the same key set (a missing key renders as a raw path in the UI)", async () => {
+    const { readFileSync } = await import("node:fs");
+    const { parse } = await import("yaml");
+    const keys = (o: any, prefix = ""): Set<string> =>
+      new Set(Object.entries(o ?? {}).flatMap(([k, v]) => {
+        const key = prefix ? `${prefix}.${k}` : k;
+        return v && typeof v === "object" && !Array.isArray(v) ? [...keys(v, key)] : [key];
+      }));
+    const ar = keys(parse(readFileSync(p("i18n", "ar.yaml"), "utf8")));
+    const en = keys(parse(readFileSync(p("i18n", "en.yaml"), "utf8")));
+    expect([...en].filter((k) => !ar.has(k))).toEqual([]);
+    expect([...ar].filter((k) => !en.has(k))).toEqual([]);
   });
 });
 

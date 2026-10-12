@@ -13,6 +13,7 @@ Rules for every lane: [`../../AGENTS.md`](../../AGENTS.md), [`workflow.md`](work
 | `lib-<book-id>` | Mine one book of the library of prominent Sunni works (hadith, tafsir, sira, sahaba, sahabiyat, creed, history, fiqh…) | [`lanes/library.md`](lanes/library.md) | `docs/delegation/library/<book-id>.md` | `content/lib-<book-id>` | `data/_stubs.d/lib-<book-id>.yaml` |
 | `people` | Prophetic-era people and groups (complete; historical) | [`lanes/prophetic-people.md`](lanes/prophetic-people.md) | `docs/status.md` | `people-batch-*` | `data/_stubs.d/devin-people.yaml` |
 | `maintainer` | Schema, scripts, validator, site, i18n, periods, maps, Qur'an, local harvest, core concepts and practices | [`lanes/maintainer.md`](lanes/maintainer.md) | `docs/status.md` | any | `data/_stubs.yaml` |
+| `en-translation` | English locale + translation of rendered content (prose, labels, summaries, rooms) | [`lanes/en-translation.md`](lanes/en-translation.md) | `docs/delegation/en-translation-progress.md` | `i18n/en-<agent>` | none |
 
 `<agent>` in a branch name is any short name for the session or tool (so two sessions never collide on a branch). A lane may have several sessions over time, one at a time unless the lane document says otherwise.
 

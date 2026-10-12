@@ -21,8 +21,8 @@ const title = labelOf(n, lang);
 const second = lang === "ar" ? n.label.en : n.label.ar;
 const d = n.data;
 
-// --- prose with fallback chain: requested language -> English -> none
-const proseLang = n.prose[lang] ? lang : n.prose.en ? "en" : null;
+// --- prose with fallback chain: requested language -> the other published language -> none
+const proseLang = n.prose[lang] ? lang : n.prose[other(lang)] ? other(lang) : n.prose.en ? "en" : null;
 const prose = proseLang ? n.prose[proseLang] : null;
 const untranslated = !!prose && proseLang !== lang;
 const brief = prose?.sections.find((s) => sectionRole(s.heading) === "brief");

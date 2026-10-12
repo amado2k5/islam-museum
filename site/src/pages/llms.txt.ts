@@ -5,7 +5,7 @@ export const GET: APIRoute = () => {
   const lines = [
     "# islam.museum",
     "",
-    "> An open, free, all-digital museum of Islam: faith, civilization, peoples, places, ideas, objects and living culture. Arabic first (English and other languages follow as translations). Prose CC BY-SA 4.0; data CC0.",
+    "> An open, free, all-digital museum of Islam: faith, civilization, peoples, places, ideas, objects and living culture. Published in Arabic (/ar/) and English (/en/); Arabic is canonical. Prose CC BY-SA 4.0; data CC0.",
     "",
     "Every entry cites sources and distinguishes scriptural, traditional, historical and debated claims. Contested topics carry parallel perspectives. Cite pages by URL.",
     "",
@@ -16,7 +16,7 @@ export const GET: APIRoute = () => {
     `- [Graph edges](${SITE}/api/v1/graph/edges.ndjson)`,
     "",
     "## Entries",
-    ...realNodes.filter((n) => !["source", "media"].includes(n.class) && !(n.class === "passage" && n.data.unit === "ayah")).map((n) => `- [${labelOf(n, "ar")}${n.label.en ? ` (${n.label.en})` : ""}](${SITE}${href("ar", n.id)}): ${summaryOf(n, "ar")}`),
+    ...realNodes.filter((n) => !["source", "media"].includes(n.class) && !(n.class === "passage" && n.data.unit === "ayah")).map((n) => `- [${labelOf(n, "en")} (${labelOf(n, "ar")})](${SITE}${href("en", n.id)}) — [ar](${SITE}${href("ar", n.id)}): ${summaryOf(n, "en") || summaryOf(n, "ar")}`),
     "",
   ];
   return new Response(lines.join("\n"), { headers: { "Content-Type": "text/plain; charset=utf-8" } });

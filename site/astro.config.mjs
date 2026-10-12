@@ -17,13 +17,13 @@ export default defineConfig({
     "/ar/work/amr-ibn-salim-istighatha/": "/ar/event/khuzaa-appeal-to-medina/",
   },
   i18n: {
-    locales: ["ar"],
+    locales: ["ar", "en"],
     defaultLocale: "ar",
     routing: { prefixDefaultLocale: true, redirectToDefaultLocale: false },
   },
   integrations: [
     svelte(),
-    sitemap({ i18n: { defaultLocale: "ar", locales: { ar: "ar" } } }),
+    sitemap({ i18n: { defaultLocale: "ar", locales: { ar: "ar", en: "en" } } }),
   ],
   vite: { plugins: [tailwindcss()], server: { fs: { allow: [".."] } } },
 });

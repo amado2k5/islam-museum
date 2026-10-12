@@ -12,17 +12,17 @@ const T = ui(lang);
     <div id="search" dir={T.dir}></div>
     <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
     <noscript><p class="panel ui">{T.search.noscript}</p></noscript>
-    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
-    <script is:inline define:vars={{ placeholder: T.search.placeholder }}>
+    <link rel="stylesheet" href={`/pagefind-${lang}/pagefind-ui.css`} />
+    <script is:inline define:vars={{ placeholder: T.search.placeholder, lang }}>
       (function () {
         var s = document.createElement("script");
-        s.src = "/pagefind/pagefind-ui.js";
+        s.src = "/pagefind-" + lang + "/pagefind-ui.js";
         s.onload = function () {
-          // Variant spellings (Koran, Mohammed, Madinah, Ghazali ...) are expanded with a static file built at build time; no server is involved.
+          // Variant spellings (Koran, Mohammed, Madinah, Ghazali ...) are expanded with a static file built per language at build time; no server is involved.
           var syn = { whole: {}, words: {} };
           var norm = function (t) { return t.normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()\/,.]/g, " ").replace(/\s+/g, " ").trim(); };
-          fetch("/search-synonyms.json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (j) { syn = j; }).catch(function () {});
-          new PagefindUI({ element: "#search", showSubResults: true, showImages: false, translations: { placeholder: placeholder },
+          fetch("/search-synonyms." + lang + ".json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (j) { syn = j; }).catch(function () {});
+          new PagefindUI({ element: "#search", bundlePath: "/pagefind-" + lang + "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder },
             processTerm: function (term) {
               var whole = syn.whole[norm(term)];
               if (whole && whole.length) return whole[0];
