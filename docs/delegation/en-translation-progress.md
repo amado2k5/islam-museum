@@ -10,7 +10,7 @@
 - Phase C prose, in progress. `content/en/` written so far:
   - exhibit/ ×5 (all five trails)
   - event/ ×201 (ALL events done)
-  - person/ ×437 of ~472, alphabetical by slug (through `urwa-ibn-masud`)
+  - person/ ×472 of 472 — complete (alphabetical by slug, `abaha` through `zuhayr-ibn-sard`)
 
 ## Next step
 
