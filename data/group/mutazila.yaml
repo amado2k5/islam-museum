@@ -1,0 +1,40 @@
+id: group/mutazila
+class: group
+kind: sect
+label:
+  ar: المعتزلة
+summary:
+  ar: فرقة كلامية تقول بقول القدرية، وتنكر عذاب القبر والشفاعة والحوض، وترى أن أعمال العباد ليست في اللوح المحفوظ؛ ويصف الكتاب مقالاتهم كما نقلها، ولم تُضف بعد أقوالهم بألفاظهم.
+wings:
+- ideas
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- sects-and-schools
+- creed
+perspectives:
+- tradition: sunni-hanbali
+  id: book-account
+  stance:
+    ar: وصف مقالتهم كما ينقله الكتاب
+  summary:
+    ar: ينقل الكتاب أن المعتزلة يقولون قول القدرية، ويكذبون بعذاب القبر والشفاعة والحوض، ولا يرون الصلاة خلف من خالفهم من أهل القبلة.
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 96
+  sources:
+  - source/madkhal-ibn-badran-turki
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-2-creed
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from p. 96 of the book; the group's own words and the academic account are still to be added

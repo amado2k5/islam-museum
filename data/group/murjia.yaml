@@ -1,0 +1,40 @@
+id: group/murjia
+class: group
+kind: sect
+label:
+  ar: المرجئة
+summary:
+  ar: طائفة تقول إن الإيمان قول دون عمل، ولا يزيد ولا ينقص، ولا يتفاضل الناس فيه؛ ويصف الكتاب قولهم كما نقله عن أهل السنة، ويحكم عليه بالبطلان.
+wings:
+- ideas
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- sects-and-schools
+- creed
+perspectives:
+- tradition: sunni-hanbali
+  id: book-account
+  stance:
+    ar: وصف قولهم كما ينقله الكتاب
+  summary:
+    ar: ينقل الكتاب أن المرجئة يزعمون أن الإيمان قول ولا عمل، وأن الإيمان لا يزيد ولا ينقص، وأن من آمن بلسانه ولم يعمل فهو مؤمن حقاً.
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 96
+  sources:
+  - source/madkhal-ibn-badran-turki
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-2-creed
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from p. 96 of the book; the group's own words and the academic account are still to be added

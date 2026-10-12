@@ -21,3 +21,8 @@
 - Ahmad's death year (241 AH, taken from the Musnad entry) and every death year taken from this book need a second source.
 - Concepts `riwayat-al-imam` and `la-yanbaghi` have Hanbali opinions only. The academic view is still to be added.
 - Five quotations in chapter 2 did not match the OCR text exactly; they were not used.
+
+## Batch 2 (creed, pp. 52-54 and 96)
+- 6 entities: Musaddad ibn Musarhad; the concept of the Qur'an's createdness; the Jahmiyya, Murji'a, Qadariyya and Mu'tazila groups. Sects are described as the book reports them, with the book's verdicts attributed to named scholars; none of their own words are quoted yet.
+- Left out on purpose: the book's most polemical sect descriptions and labels, and every verdict not attributed to a source.
+- Chapters 3-8 claims: extracted with the shared pipeline (68 sections, pp. 113-520). Judging and drafting are next.
