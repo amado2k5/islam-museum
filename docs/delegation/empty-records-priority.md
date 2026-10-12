@@ -218,3 +218,11 @@ Each of these stub ids is still linked from other pages but the person exists un
 | 0 | `building/tongxin-great-mosque` مسجد تونغشين الكبير |
 | 0 | `building/eyup-sultan-mosque` جامع أيوب سلطان |
 | 0 | `building/great-mosque-of-al-nuri` الجامع الكبير النوري |
+
+## Progress, 12 Oct 2026 (maintainer session)
+
+**People.** Batches 9 and 10 (14 Companions from al-Isaba) are on main: Abu Abs ibn Jabr, Abu Talha al-Ansari, al-Hakam ibn Kaysan, al-Harith ibn Aws, Abu Fakiha, al-Sakran ibn Amr, Labid, Abu Burqan, Bujayr, Baqum, al-Harith ibn Abi Dirar, al-Harith ibn Abd al-Uzza, al-Harith ibn al-Harith ibn Kalada, al-Hakam ibn Abi al-As. Not done: the Quraysh opponents named in Ibn Hisham (Huyayy, Ubayy ibn Khalaf, Shayba ibn Rabi'a, Abu al-Bakhtari, Zam'a ibn al-Aswad, Umayya ibn Abd Shams…): they sit in volumes 1–3 of Ibn Hisham, and only juz' 4 is in the harvest workspace. Abu Na'ila (Silkan ibn Salama) and Ibn Umm Maktum: their main al-Isaba entries are in the kunya section and under `Amr ibn Umm Maktum`; pages not yet read. Zam'a ibn al-Aswad in al-Isaba (entry 2853) is a different man (a commander under Abu Bakr), so it was not used for the stub.
+
+**Events.** Prose now exists for `event/year-of-delegations` (hub page; individual delegations still to read), `event/death-of-the-prophet`, `event/saqifa` (Arabic stances added to the three perspectives), `event/farewell-pilgrimage`, `event/hajj-led-by-abu-bakr`. Left to the lanes that own them: `event/battle-of-yarmuk` (Tabari lane), the two Mu'ta events (Ibn Hisham lane), the two Uhud events (Raheeq lane).
+
+**Concepts.** Not touched: `adab`, `halal-haram`, `niyya`, `khuluq`, `wara`, `amr-nahy`, `sabr`, `nasiha`, `sadaqa`, `taqwa` all come from the Jami' al-'Ulum wa'l-Hikam lane (`content/lib-jami-ulum-hikam`, batches every few minutes, at hadith 27 of 50), which will write their bodies as it reaches each hadith. Writing them here would collide with that lane.
