@@ -1,0 +1,27 @@
+id: person/khubayb-ibn-adi
+class: person
+label: { en: "Khubayb ibn Adi", ar: "خبيب بن عدي" }
+names:
+  - { kind: full, lang: ar, value: "خبيب بن عدي بن مالك الأنصاري الأوسي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A devout Companion from the Aws who fought at Badr and was captured at al-Raji'; sold to the Meccans who condemned him to crucifixion at al-Tan'im; before his execution he prayed two rak'ahs, establishing the tradition for Muslim prisoners before death, and recited poetry affirming his steadfast faith."
+  ar: "صحابي بدري من الأوس؛ أُسر في سرية الرجيع وبيف بمكة لآل الحارث بن عامر ليقتلوه بأبيهم، فلما أخرجوه إلى التنعيم ليصلبوه طلب أن يصلي ركعتين فكان أول من سنّ الركعتين عند القتل صبراً، ثم أنشد لست أبالي حين أقتل مسلماً على أي جنب كان في الله مصرعي."
+wings: [people]
+themes: [converts-and-leavers, worship-and-the-pillars]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: martyr, start: { edtf: "0625" }, status: tradition, note: "أول من سنّ الركعتين عند القتل صبراً (الرحيق ص292–293).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد التنعيم." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/aws }
+  - { type: participated_in, target: event/incident-of-al-raji, role: "الأسير المصلوب بالتنعيم", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 292–293" }

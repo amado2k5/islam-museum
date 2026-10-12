@@ -1,0 +1,25 @@
+id: person/amr-ibn-umayya-al-damri
+class: person
+label: { en: "Amr ibn Umayya al-Damri", ar: "عمرو بن أمية الضمري" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن أمية بن خويلد الضمري الكناني" }
+gender: male
+roles: [companion, diplomat]
+traditions: [sunni]
+summary:
+  en: "A prominent scout and courier Companion from Banu Damra; captured at Bi'r Ma'una and freed by Amir ibn al-Tufayl, he brought the tragic news to the Prophet in Medina; later dispatched as the Prophet's diplomatic envoy carrying his letter to the Negus of Abyssinia."
+  ar: "صحابي وفارس عيون من بني ضمرة بن بكر من كنانة؛ شهد مأساة بئر معونة وأسره عامر بن الطفيل ثم جز ناصيته وأعتقه عن نذر كان على أمه، فحمل نبأ الفاجعة إلى النبي بالمدينة، وهو الذي بعثه النبي لاحقاً بكتابه إلى النجاشي ملك الحبشة."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, start: { edtf: "0625~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: official, toward: person/muhammad, start: { edtf: "0628~" }, status: historical, note: "سفير النبي إلى النجاشي (الرحيق ص352).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي وسفير النبي." }
+relations:
+  - { type: member_of, target: group/quraysh, note: "حليف قريش من كنانة" }
+  - { type: participated_in, target: event/incident-of-bir-mauna, role: "الناجي الذي حمل الخبر إلى المدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 294, 352" }
