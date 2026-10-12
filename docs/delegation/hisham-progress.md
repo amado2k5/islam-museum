@@ -22,6 +22,7 @@
 - Batch 6 (تبوك pp. 159-173, ends with the Abu Ruhm report; Dirar mosque 173-174 and the three 175-181 belong to batch 7), branch `content/ibn-hisham-batch-6`, pushed straight to main in sub-batches:
   - 6a: 12 places (incl. Ayla, Jarba, Adhruh, Dumat al-Jandal, al-Rabadha), groups Ghifar and Aslam, concepts takhalluf / al-bakkaun / jaysh al-usra, journey, 5 events (mobilisation, al-Jadd, 'do not march in the heat', Uthman's funding, departure and deputies). Forward references go through `data/_stubs.d/ibn-hisham.yaml` and are removed as entities are written.
   - 6b: 12 events (Suwaylim's house, the Weepers, Bedouin excuse-makers, four who lagged, Ibn Ubayy's camp, Ali and the manzila report with perspectives sunni/academic/shia-twelver marked needs_source, Abu Khaythama, al-Hijr and the rain, the strayed she-camel and Ibn al-Lusayt, Abu Dharr lagging and dying at al-Rabadha); passage edges 9:49, 9:81, 9:82 added on the passage files.
+  - 6c: 8 events (mockers and 9:65, treaty of Ayla, Khalid and Ukaydir, treaty of Ukaydir, stay and return, Wadi al-Mushaqqaq, burial of Dhu al-Bijadayn, Abu Ruhm), work covenant-of-ayla (summary only), object Ukaydir's brocade coat, dataset `datasets/tabuk-participants-and-absentees.csv`, parent event/expedition-to-tabuk extended with has_part children and prose.
 
 ## Doubt markers captured so far (pp. 3-11)
 

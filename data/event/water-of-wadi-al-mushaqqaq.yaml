@@ -1,0 +1,17 @@
+id: event/water-of-wadi-al-mushaqqaq
+class: event
+kind: other
+label: { ar: "ماء وادي المشقق", en: "The water of Wadi al-Mushaqqaq" }
+summary:
+  ar: "كان في الطريق ماء يخرج من وشل بوادٍ يقال له وادي المشقق لا يروي إلا الراكب والراكبين، فنهى النبي أن يسبقه أحد إليه، فسبقه نفر من «المنافقين» فاستقوا ما فيه، فلعنهم النبي ودعا عليهم، ثم وضع يده تحت الوشل فانفجر الماء فشرب الناس."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/wadi-al-mushaqqaq, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 171", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 171" }
