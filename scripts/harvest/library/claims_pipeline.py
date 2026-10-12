@@ -5,7 +5,7 @@
   claims_pipeline.py judge    <cat>/<book-id>/<item> [--model gemma4:26b]
   claims_pipeline.py report   <cat>/<book-id>/<item>
 Intermediate files live in ~/islam-museum-harvest/work/<book-id>/ (never in git). Talks only to localhost:11434."""
-import argparse, hashlib, json, os, random, re, sys
+import argparse, hashlib, json, os, random, re, sys, time
 from pathlib import Path
 
 import ollama
@@ -102,12 +102,13 @@ def cmd_extract(args):
     elif args.sample:
         random.Random(args.seed).shuffle(secs); secs = secs[: args.sample]
     raw_dir = work / "raw" / item; raw_dir.mkdir(parents=True, exist_ok=True)
-    client = ollama.Client(host="http://localhost:11434")
+    client = ollama.Client(host="http://localhost:11434", timeout=args.timeout)
     for sec in secs:
         out_path = raw_dir / f"{sec['id']}.json"
         if out_path.exists():
             continue
         text = section_text(src, sec)
+        print(f"{time.strftime('%H:%M:%S')} start section {sec['id']} p{sec['pdf_pages']} ({len(text)} chars)", flush=True)
         prompt = EXTRACT_PROMPT + text
         resp = client.chat(model=args.model, messages=[{"role": "user", "content": prompt}], format=EXTRACT_SCHEMA,
                            options={"temperature": 0, "seed": 42, "num_ctx": 16384})
@@ -117,7 +118,7 @@ def cmd_extract(args):
             claims = None
         out_path.write_text(json.dumps({"section": sec, "model": args.model, "prompt_sha256": hashlib.sha256(prompt.encode()).hexdigest(),
                                         "text": text, "claims": claims, "raw": resp.message.content}, ensure_ascii=False, indent=1))
-        print(f"section {sec['id']} p{sec['pdf_pages']}: {'JSON ERROR' if claims is None else len(claims)} claims")
+        print(f"{time.strftime('%H:%M:%S')} done section {sec['id']} p{sec['pdf_pages']}: {'JSON ERROR' if claims is None else len(claims)} claims", flush=True)
     # quote check (code, not a model)
     kept, dropped = [], []
     for f in sorted(raw_dir.glob("*.json")):
@@ -172,6 +173,7 @@ def main():
     s = sub.add_parser("sections"); s.add_argument("item"); s.add_argument("--pages-per-section", type=int, default=6)
     e = sub.add_parser("extract"); e.add_argument("item"); e.add_argument("--model", default="qwen3:32b")
     e.add_argument("--only"); e.add_argument("--sample", type=int); e.add_argument("--seed", type=int, default=7)
+    e.add_argument("--timeout", type=float, default=900, help="seconds before one model call is abandoned")
     j = sub.add_parser("judge"); j.add_argument("item"); j.add_argument("--model", default="gemma4:26b")
     r = sub.add_parser("report"); r.add_argument("item")
     args = ap.parse_args()
