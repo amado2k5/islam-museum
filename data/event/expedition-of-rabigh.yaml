@@ -1,0 +1,43 @@
+id: event/expedition-of-rabigh
+class: event
+kind: skirmish
+label: { en: "Expedition of Rabigh", ar: "سرية رابغ" }
+summary:
+  en: "An expedition led by Ubayda ibn al-Harith in Shawwal 1 AH with 60 Muhajirun; witnessed the first arrow shot in Islam by Sa'd ibn Abi Waqqas and the defection of al-Miqdad and Utba ibn Ghazwan to the Muslims."
+  ar: "سرية قادها عبيدة بن الحارث بن المطلب في ستين راكباً من المهاجرين في شوال 1هـ ببطن رابغ؛ شهدت رمي أول سهم في الإسلام بسهم سعد بن أبي وقاص وانحياز المقداد بن عمرو وعتبة بن غزوان إلى المسلمين."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0623-04~", hijri: "0001-10", calendar: julian, precision: month, status: tradition, note: "في شوال سنة 1هـ (أبريل 623م) على ما في الرحيق ص198" }
+relations:
+  - { type: occurred_at, target: place/rabigh }
+  - { type: had_participant, target: person/ubayda-ibn-al-harith, role: "أمير السرية", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "رامي أول سهم في الإسلام", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: person/al-miqdad-ibn-amr, role: "انحاز من صف المشركين إلى المسلمين", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/utba-ibn-ghazwan, role: "انحاز من صف المشركين إلى المسلمين", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/mistah-ibn-uthatha, role: "حامل اللواء الأبيض", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "قائد قافلة قريش", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim expedition", ar: "سرية المسلمين" }
+    participants: [group/muhajirun]
+    commanders: [person/ubayda-ibn-al-harith]
+    strength:
+      value: 60
+      status: tradition
+      note: "ستون راكباً من المهاجرين"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Meccan force", ar: "جيش مكة" }
+    participants: [group/quraysh]
+    commanders: [person/abu-sufyan-ibn-harb]
+    strength:
+      value: 200
+      status: tradition
+      note: "مائتا راكب من قريش"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 198" }

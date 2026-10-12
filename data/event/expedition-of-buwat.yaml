@@ -1,0 +1,41 @@
+id: event/expedition-of-buwat
+class: event
+kind: campaign
+label: { en: "Expedition of Buwat", ar: "غزوة بواط" }
+summary:
+  en: "An expedition led by the Prophet in Rabi' al-Awwal 2 AH with 200 companions to intercept a Quraysh caravan led by Umayya ibn Khalaf; reached Mount Buwat without encounter."
+  ar: "غزوة قادها النبي في مائتي رجل من المهاجرين في ربيع الأول 2هـ لاعتراض قافلة لأمية بن خلف في مائة من قريش وألفين وخمسمائة بعير، فبلغ جبل بواط ورجع دون قتال."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0623-09~", hijri: "0002-03", calendar: julian, precision: month, status: tradition, note: "في ربيع الأول سنة 2هـ (سبتمبر 623م) على ما في الرحيق ص199" }
+relations:
+  - { type: occurred_at, target: place/buwat }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-muadh, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "حامل اللواء الأبيض", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umayya-ibn-khalaf, role: "قائد قافلة قريش", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim army", ar: "جيش المسلمين" }
+    participants: [group/muhajirun]
+    commanders: [person/muhammad]
+    strength:
+      value: 200
+      status: tradition
+      note: "مائتا رجل من الصحابة"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Quraysh caravan", ar: "قافلة قريش" }
+    participants: [group/quraysh]
+    commanders: [person/umayya-ibn-khalaf]
+    strength:
+      value: 100
+      status: tradition
+      note: "مائة رجل من قريش ومعهم 2500 بعير"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 199" }

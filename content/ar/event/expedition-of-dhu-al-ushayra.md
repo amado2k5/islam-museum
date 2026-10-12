@@ -1,0 +1,16 @@
+---
+id: event/expedition-of-dhu-al-ushayra
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+خرج النبي في أواخر جمادى الأولى سنة 2هـ (نوفمبر 623م) في مائة وخمسين (وقيل مائتين) من [[group/muhajirun|المهاجرين]] لاعتراض عير لقريش ذاهبة إلى الشام فيها أموال عظيمة لأهل مكة. {cite:mubarakpuri-raheeq p.199}
+
+## المسير واللواء
+استخلف النبي على [[place/medina|المدينة المنورة]] [[person/abu-salama|أبا سلمة بن عبد الأسد المخزومي]]، وكان اللواء أبيض حمله [[person/hamza|حمزة بن عبد المطلب]]. {cite:mubarakpuri-raheeq p.200} {cite:zad-al-maad 2/85}
+
+بلغ النبي موضع [[place/dhu-al-ushayra|ذي العشيرة]] بناحية [[place/yanbu|ينبع]]، فوجد العير قد فاتته بأيام؛ وهي العير ذاتها التي خرج في طلبها عند عودتها من الشام وكانت سبباً مباشراً لغزوة بدر الكبرى. {cite:mubarakpuri-raheeq p.199}
+
+## معاهدة بني مدلج
+عقد النبي في هذه الغزوة معاهدة عدم اعتداء وموادعة مع [[group/banu-mudlij|بني مدلج]] وحلفائهم من [[group/banu-damra|بني ضمرة]]، ورجع إلى المدينة في أوائل جمادى الآخرة دون قتال. {cite:mubarakpuri-raheeq p.199} {cite:ibn-hisham-sira 1/599}

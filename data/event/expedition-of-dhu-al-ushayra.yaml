@@ -1,0 +1,38 @@
+id: event/expedition-of-dhu-al-ushayra
+class: event
+kind: campaign
+label: { en: "Expedition of Dhu al-Ushayra", ar: "غزوة ذي العشيرة" }
+summary:
+  en: "An expedition led by the Prophet in Jumada al-Ula/al-Akhirah 2 AH with 150-200 Muhajirun to intercept a Quraysh caravan to Sham (the caravan pursued later at Badr); concluded a treaty with Banu Mudlij."
+  ar: "غزوة خرج فيها النبي في 150 إلى 200 من المهاجرين في جمادى الأولى والآخرة 2هـ لاعتراض عير قريش المتجهة للشام (وهي العير نفسها التي تسببت في معركة بدر الكبرى عند عودتها)، وعقد موادعة مع بني مدلج."
+wings: [time, people]
+themes: [battles, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0623-11~", hijri: "0002-05", calendar: julian, precision: month, status: tradition, note: "خرج في أواخر جمادى الأولى ورجع في أوائل جمادى الآخرة سنة 2هـ (نوفمبر–ديسمبر 623م) على ما في الرحيق ص199–200" }
+relations:
+  - { type: occurred_at, target: place/dhu-al-ushayra }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-salama, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, role: "حامل اللواء الأبيض", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-mudlij, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim army", ar: "جيش المسلمين" }
+    participants: [group/muhajirun]
+    commanders: [person/muhammad]
+    strength:
+      range: [150, 200]
+      status: tradition
+      note: "150 أو 200 من المهاجرين"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Quraysh caravan", ar: "قافلة قريش" }
+    participants: [group/quraysh]
+    strength:
+      status: tradition
+      note: "عير لقريش متجهة إلى الشام فيها أموال عظيمة؛ فاتت المسلمين بأيام"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 199–200" }

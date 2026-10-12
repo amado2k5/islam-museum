@@ -1,0 +1,41 @@
+id: event/expedition-of-sif-al-bahr
+class: event
+kind: raid
+label: { en: "Expedition of Sayf al-Bahr", ar: "سرية سيف البحر" }
+summary:
+  en: "The first expedition dispatched by the Prophet, led by Hamza ibn Abd al-Muttalib with 30 Muhajirun in Ramadan 1 AH to intercept a Quraysh caravan; mediated by Majdi ibn Amr without clash."
+  ar: "أول بعث أرسله النبي بقيادة عمه حمزة بن عبد المطلب في ثلاثين رجلاً من المهاجرين في رمضان 1هـ لاعتراض عير قريش؛ توسط مجدي بن عمرو الجهني بين الطرفين ولم يقع قتال."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0623-03~", hijri: "0001-09", calendar: julian, precision: month, status: tradition, note: "في شهر رمضان سنة 1هـ (مارس 623م) على ما في الرحيق ص197" }
+relations:
+  - { type: occurred_at, target: place/al-is }
+  - { type: had_participant, target: person/hamza, role: "أمير السرية", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/kannaz-ibn-husayn, role: "حامل اللواء الأبيض", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "قائد قافلة قريش", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/majdi-ibn-amr-al-juhani, role: "المصلح والمتوسط بين الفريقين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim expedition", ar: "سرية المسلمين" }
+    participants: [group/muhajirun]
+    commanders: [person/hamza]
+    strength:
+      value: 30
+      status: tradition
+      note: "ثلاثون رجلاً من المهاجرين"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Quraysh caravan", ar: "قافلة قريش" }
+    participants: [group/quraysh]
+    commanders: [person/abu-jahl]
+    strength:
+      value: 300
+      status: tradition
+      note: "ثلاثمائة راكب من أهل مكة"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 197" }

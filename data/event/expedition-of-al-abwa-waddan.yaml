@@ -1,0 +1,40 @@
+id: event/expedition-of-al-abwa-waddan
+class: event
+kind: campaign
+label: { en: "Expedition of al-Abwa (Waddan)", ar: "غزوة الأبواء (ودان)" }
+summary:
+  en: "The first expedition led personally by the Prophet in Safar 2 AH with 70 Muhajirun; established an alliance treaty with Amr ibn Makhshi of Banu Damra."
+  ar: "أول غزوة خرج فيها النبي بنفسه في سبعين رجلاً من المهاجرين في صفر 2هـ، فبلغ ودان والأبواء وعقد معاهدة حلف وموادعة مع عمرو بن مخشي الضمري سيد بني ضمرة."
+wings: [time, people]
+themes: [battles, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0623-08~", hijri: "0002-02", calendar: julian, precision: month, status: tradition, note: "خرج في صفر سنة 2هـ (أغسطس 623م) واستمرت غيبته خمس عشرة ليلة (الرحيق ص198)" }
+relations:
+  - { type: occurred_at, target: place/al-abwa }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, role: "حامل اللواء الأبيض", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-ubada, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/amr-ibn-makhshi-al-damri, role: "سيد بني ضمرة المعاهد للنبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-damra, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim army", ar: "جيش المسلمين" }
+    participants: [group/muhajirun]
+    commanders: [person/muhammad]
+    strength:
+      value: 70
+      status: tradition
+      note: "سبعون رجلاً خاصة من المهاجرين"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Banu Damra", ar: "بنو ضمرة" }
+    participants: [group/banu-damra]
+    commanders: [person/amr-ibn-makhshi-al-damri]
+    strength:
+      status: tradition
+      note: "سيدهم عمرو بن مخشي الضمري؛ وادعهم النبي وعقد معهم معاهدة حلف"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 198" }

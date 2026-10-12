@@ -1,0 +1,39 @@
+id: event/expedition-of-safwan
+class: event
+kind: campaign
+label: { en: "Expedition of Safwan (First Badr)", ar: "غزوة سفوان (بدر الأولى)" }
+summary:
+  en: "An expedition led by the Prophet in Rabi' al-Awwal 2 AH in pursuit of Kurz ibn Jabir al-Fihri after he raided the pastures of Medina; chased him to the valley of Safwan near Badr."
+  ar: "غزوة خرج فيها النبي في ربيع الأول 2هـ في سبعين رجلاً لمطاردة كرز بن جابر الفهري بعد إغارته على مراعي المدينة وسلبه المواشي، فطارده حتى وادي سفوان بناحية بدر وأفلت كرز."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0623-09~", hijri: "0002-03", calendar: julian, precision: month, status: tradition, note: "في ربيع الأول سنة 2هـ (سبتمبر 623م) وتسمى بدر الأولى (الرحيق ص199)" }
+relations:
+  - { type: occurred_at, target: place/safwan }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "حامل اللواء الأبيض", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/kurz-ibn-jabir-al-fihri, role: "المغير على مراعي المدينة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim pursuit force", ar: "جيش المطاردة الإسلامي" }
+    participants: [group/muhajirun]
+    commanders: [person/muhammad]
+    strength:
+      value: 70
+      status: tradition
+      note: "سبعون رجلاً من الصحابة"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Raiders of Kurz", ar: "جمع كرز بن جابر" }
+    participants: [group/quraysh]
+    commanders: [person/kurz-ibn-jabir-al-fihri]
+    strength:
+      status: tradition
+      note: "أغاروا على سرح المدينة وأفلتوا باتجاه بدر"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 199" }
