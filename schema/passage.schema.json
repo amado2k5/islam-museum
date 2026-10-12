@@ -41,6 +41,15 @@
     "text_search": {
       "type": "string"
     },
+    "revelation_order": {
+      "type": "integer"
+    },
+    "revelation_place": {
+      "enum": [
+        "meccan",
+        "medinan"
+      ]
+    },
     "translations": {
       "type": "object",
       "additionalProperties": {
