@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import Logo from "../../../components/Logo.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { REPO } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const F = T.foundation;
+const story = [F.story_1, F.story_2, F.story_3, F.story_4, F.story_5];
+const goals = [F.goal_1, F.goal_2, F.goal_3, F.goal_4, F.goal_5, F.goal_6];
+const elements = [F.logo_star, F.logo_arch, F.logo_book];
+---
+<BaseLayout lang={lang} title={F.title} description={F.lede} path={`/${lang}/foundation/`}>
+  <PageHeader title={F.title} lede={F.lede} crumbs={[{ label: F.breadcrumb, href: `/${lang}/` }, { label: T.nav.foundation }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      <section aria-labelledby="logo-h" class="f-sec">
+        <h2 id="logo-h">{F.logo_title}</h2>
+        <p>{F.logo_intro}</p>
+        <div class="logo-showcase">
+          <Logo size={168} class="logo-big" />
+          <ol class="logo-parts">
+            {elements.map((t) => <li>{t}</li>)}
+          </ol>
+        </div>
+        <img class="lockup" src="/brand/logo-lockup.svg" width="480" height="120" alt="islam.museum · متحف الإسلام" />
+        <p class="ui f-links"><a href="/brand/logo-mark.svg" download>{F.logo_download}</a> · <a href="/brand/logo-lockup.svg" download>{F.logo_lockup_download}</a></p>
+      </section>
+
+      <section aria-labelledby="story-h" class="f-sec">
+        <h2 id="story-h">{F.story_title}</h2>
+        {story.map((p) => <p>{p}</p>)}
+      </section>
+
+      <section aria-labelledby="founder-h" class="f-sec">
+        <h2 id="founder-h">{F.founder_title}</h2>
+        <p>{F.founder_body}</p>
+      </section>
+
+      <section aria-labelledby="goal-h" class="f-sec">
+        <h2 id="goal-h">{F.goal_title}</h2>
+        <p>{F.goal_intro}</p>
+        <ul class="goal-list">
+          {goals.map((g) => <li>{g}</li>)}
+        </ul>
+      </section>
+
+      <section aria-labelledby="take-h" class="f-sec">
+        <h2 id="take-h">{F.take_title}</h2>
+        <p>{F.take_body}</p>
+        <p class="ui f-links">
+          <a href={REPO} rel="noopener">{F.take_repo}</a> ·
+          <a href={`${REPO}/issues/new?template=suggest-entity.yml`} rel="noopener">{F.take_suggest}</a>
+        </p>
+        <p class="ui muted f-license">{F.license}</p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .f-sec { margin-block: 2rem 0; }
+  .f-sec:first-child, .f-sec:first-child h2 { margin-top: 0; }
+  .logo-showcase { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin-block: 1rem; }
+  .logo-parts { margin: 0; padding-inline-start: 1.2rem; flex: 1 1 320px; line-height: 1.8; }
+  .logo-parts li { margin-block-end: 6px; }
+  .lockup { display: block; width: 100%; max-width: 480px; height: auto; margin-block: 0.5rem 1rem; }
+  .goal-list { padding-inline-start: 1.2rem; }
+  .goal-list li { margin-block-end: 0.5rem; }
+  .f-links { margin-top: 0.75rem; }
+  .f-license { font-size: 0.88rem; margin-top: 1rem; }
+</style>

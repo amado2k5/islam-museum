@@ -1,0 +1,32 @@
+---
+// The banner for inner pages (inner-pages spec §3A): lapis ground, lattice watermark, the wing's own tint, gold breadcrumbs, an arched floor.
+interface Props {
+  title: string;
+  lede?: string;
+  crumbs?: { label: string; href?: string }[];
+  crumbsLabel?: string;
+  wing?: string;
+  titleAttrs?: Record<string, string>;
+}
+const { title, lede, crumbs = [], crumbsLabel, wing, titleAttrs = {} } = Astro.props;
+---
+<header class="page-banner" style={wing ? `--wing: var(--wing-${wing})` : undefined}>
+  <div class="wrap">
+    {crumbs.length > 0 && (
+      <nav aria-label={crumbsLabel}>
+        <p class="crumbs ui">
+          {crumbs.map((c, i) => (
+            <>
+              {i > 0 && <span aria-hidden="true"> › </span>}
+              {c.href ? <a href={c.href}>{c.label}</a> : <span>{c.label}</span>}
+            </>
+          ))}
+        </p>
+      </nav>
+    )}
+    <h1 {...titleAttrs}>{title}</h1>
+    {lede && <p class="page-lede" data-pagefind-meta={titleAttrs["data-pagefind-meta"] ? "summary" : undefined}>{lede}</p>}
+    <slot />
+  </div>
+  <div class="arch" aria-hidden="true"></div>
+</header>

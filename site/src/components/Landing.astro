@@ -29,10 +29,10 @@ const NUM = ["١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩"];
     <a class="card" href={`/${lang}/learn/`} style="max-width:640px;margin:0 0 1rem;border:1px solid var(--gold)"><h2 class="card-title" style="font-size:1.15rem">{T.landing.learn_title}</h2><span>{T.landing.learn_text}</span> <span class="ui" style="display:block;margin-top:8px;color:var(--link)">{T.landing.learn_cta} <span class="flip" aria-hidden="true">→</span></span></a>
     <p class="ui" style="margin:0 0 1rem"><a href={`/${lang}/coverage/`}>{T.landing.coverage} <span class="flip" aria-hidden="true">→</span></a></p>
 
-    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted);margin-top:3rem">{T.landing.wings}</h2>
+    <h2 id="wings" class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted);margin-top:3rem">{T.landing.wings}</h2>
     <ul class="grid-cards" style="margin-bottom:3.5rem">
       {WINGS.map((w, i) => (
-        <li><a class="card wing-card" href={wingHref(lang, w)} style={`--wing: var(--wing-${w})`}><span class="wing-medal" aria-hidden="true">{NUM[i]}</span><h3 class="card-title">{T.wings[w].title}</h3><span>{T.wings[w].blurb}</span></a></li>
+        <li><a class="card wing-card" data-wing={w} href={wingHref(lang, w)} style={`--wing: var(--wing-${w})`}><span class="wing-medal" aria-hidden="true">{NUM[i]}</span><h3 class="card-title">{T.wings[w].title}</h3><span>{T.wings[w].blurb}</span></a></li>
       ))}
     </ul>
 

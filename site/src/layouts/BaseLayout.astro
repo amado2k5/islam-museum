@@ -38,7 +38,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <script is:inline>
       document.documentElement.classList.add("js");
-      try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+      try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); if (localStorage.getItem("font") === "sans") document.documentElement.setAttribute("data-font", "sans"); } catch (e) {}
     </script>
     {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
   </head>
@@ -67,6 +67,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search}</a>
           <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">{T.a11y.menu_open}</button>
           <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
+          <button class="chip" id="font-toggle" type="button" aria-pressed="false" style="border:0;cursor:pointer">{T.explore.font}</button>
           {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)">{T.switch_to}</a>}
         </div>
       </div>
@@ -80,6 +81,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
           <li><a href={`/${lang}/screen/`} style="color:var(--fg);text-decoration:none">{T.nav.screen}</a></li>
           <li><a href={`/${lang}/themes/`} style="color:var(--fg);text-decoration:none">{T.nav.themes}</a></li>
           <li><a href={`/${lang}/wander/`} style="color:var(--fg);text-decoration:none">{T.nav.wander}</a></li>
+          <li><a href={`/${lang}/foundation/`} style="color:var(--fg);text-decoration:none">{T.nav.foundation}</a></li>
         </ul>
       </nav>
     </header>
@@ -90,7 +92,7 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
       <div class="wrap ui" style="padding-block:22px;display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between;font-size:.9rem;color:var(--muted)">
         <span>islam.museum · {T.footer.open}</span>
         <span>{T.footer.licenses}</span>
-        <span><a href="/api/v1/meta/index.json" style="color:inherit">{T.footer.api}</a> · <a href={`/${lang}/coverage/`} style="color:inherit">{T.nav.coverage}</a> · <a href="https://github.com/amado2k5/islam-museum" rel="noopener" style="color:inherit">{T.footer.github}</a></span>
+        <span><a href="/api/v1/meta/index.json" style="color:inherit">{T.footer.api}</a> · <a href={`/${lang}/coverage/`} style="color:inherit">{T.nav.coverage}</a> · <a href={`/${lang}/foundation/`} style="color:inherit">{T.nav.foundation}</a> · <a href="https://github.com/amado2k5/islam-museum" rel="noopener" style="color:inherit">{T.footer.github}</a></span>
         <span style="flex-basis:100%">{T.footer.privacy}</span>
       </div>
     </footer>
@@ -106,6 +108,20 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
           };
           mb.addEventListener("click", function () { setOpen(!nav.classList.contains("open"), false); });
           document.addEventListener("keydown", function (e) { if (e.key === "Escape" && nav.classList.contains("open")) setOpen(false, true); });
+        }
+      })();
+      (function () {
+        // Arabic body font: Amiri / Noto Naskh (default) or Cairo (sans). Remembered per viewer; nothing breaks without storage.
+        var fb = document.getElementById("font-toggle"), root = document.documentElement;
+        if (fb) {
+          var sync = function () { fb.setAttribute("aria-pressed", String(root.getAttribute("data-font") === "sans")); };
+          sync();
+          fb.addEventListener("click", function () {
+            var next = root.getAttribute("data-font") === "sans" ? null : "sans";
+            if (next) root.setAttribute("data-font", next); else root.removeAttribute("data-font");
+            try { if (next) localStorage.setItem("font", next); else localStorage.removeItem("font"); } catch (e) {}
+            sync();
+          });
         }
       })();
       (function () {

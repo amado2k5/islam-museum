@@ -4,6 +4,8 @@ import DepthDial from "../components/DepthDial.svelte";
 import TimeStrip from "../components/TimeStrip.astro";
 import MiniMap from "../components/MiniMap.astro";
 import Extras from "../components/Extras.astro";
+import PageHeader from "../components/PageHeader.astro";
+import ExploreBar from "../components/ExploreBar.astro";
 import { byId, buildDate, href, labelOf, summaryOf, related, REPO, SITE } from "../lib/graph";
 import { ui, other, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse } from "../lib/markdown";
@@ -85,28 +87,27 @@ const wingChips = n.wings.filter((w) => (WINGS as readonly string[]).includes(w)
 const wishUrl = `${REPO}/issues/new?template=request-translation.yml&title=${encodeURIComponent(`Translate ${n.id} to ${lang}`)}`;
 const citeText = fmt(T.entity.cite_text, { title, url: `${SITE}${path}`, date: buildDate });
 const relatedIds = related(n.id).filter((r) => byId.has(r));
+const crumbs = [
+  { label: T.entity.breadcrumb, href: `/${lang}/` },
+  ...(wingChips[0] ? [{ label: T.nav[wingChips[0]], href: wingHref(lang, wingChips[0] as any) }] : []),
+  { label: T.class[n.class] },
+];
 const reviewStatus = d.status?.review ?? "draft";
 ---
 <BaseLayout lang={lang} title={title} description={summaryOf(n, lang) || fmt(T.entity.stub_desc, { label: labelOf(n, lang) })} path={path} jsonld={jsonLd(n, lang, path)} alternates={alternates} ogType={n.class === "person" ? "profile" : "article"}>
-  <article id="entity-article" class="wrap" data-depth="standard" data-pagefind-body style="padding-block:10px 20px">
-    <nav class="ui muted no-print" aria-label={T.entity.breadcrumb} style="font-size:.88rem;margin-bottom:14px">
-      <a href={`/${lang}/`} style="color:inherit">{T.entity.breadcrumb}</a>
-      {wingChips[0] && <> › <a href={wingHref(lang, wingChips[0] as any)} style="color:inherit">{T.nav[wingChips[0]]}</a></>}
-      › <span>{T.class[n.class]}</span>
-    </nav>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <article id="entity-article" data-depth="standard" data-pagefind-body>
+    <PageHeader title={title} crumbs={crumbs} crumbsLabel={T.entity.breadcrumb} wing={wingChips[0]} titleAttrs={{ "data-pagefind-meta": "title" }}>
+      {second && <p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.3rem,3vw,1.9rem);margin:0 0 6px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:#e6d5b8`} data-pagefind-meta="alt">{second}</p>}
+      {dateLine.text && <p class="ui" style="margin:0 0 6px;color:#e6d5b8">{dateLine.text}{dateLine.derived && <span title={T.entity.derived}> †</span>}</p>}
+      {dateLine.derived && <p class="ui" style="margin:0 0 6px;font-size:.85rem;color:#c9d3d6">{T.entity.dagger}</p>}
+      {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}
+      <p class="page-lede" data-pagefind-meta="summary">{summaryOf(n, lang) || ""}</p>
+    </PageHeader>
 
-    <header style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:12px">
-      <div style="flex:1 1 420px;min-width:0">
-        {second && <p class="display" lang={lang === "ar" ? "en" : "ar"} dir={lang === "ar" ? "ltr" : "rtl"} style={`font-size:clamp(1.6rem,4vw,2.4rem);margin:0 0 4px;font-family:${lang === "ar" ? "var(--serif)" : "var(--ar-display)"};color:var(--muted)`} data-pagefind-meta="alt">{second}</p>}
-        <h1 data-pagefind-meta="title">{title}</h1>
-        {dateLine.text && <p class="ui" style="margin:0 0 6px">{dateLine.text}{dateLine.derived && <span class="muted" title={T.entity.derived}> †</span>}</p>}
-        {dateLine.derived && <p class="muted ui" style="margin:0 0 6px;font-size:.85rem">{T.entity.dagger}</p>}
-        {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}
-        <p style="font-size:1.2rem;max-width:var(--measure)" data-pagefind-meta="summary">{summaryOf(n, lang) || ""}</p>
-      </div>
-      <div class="no-print"><DepthDial client:load labels={T.depth} /></div>
-    </header>
-
+    <div class="wrap" style="padding-block:24px 20px">
+      <div class="no-print" style="display:flex;justify-content:flex-end;max-width:920px;margin:0 auto 12px"><DepthDial client:load labels={T.depth} /></div>
+      <div class="reading">
     {n.stub ? (
       <section class="panel" style="margin-top:1.5rem">
         <h2 style="margin-top:0">{T.entity.stub_title}</h2>
@@ -240,10 +241,48 @@ const reviewStatus = d.status?.review ?? "draft";
       </p>
     </section>
 
+      </div>
+
+      {(wingChips[0] || relatedIds.length > 0) && (
+        <section class="dual ui no-print" aria-label={T.explore.next}>
+          {wingChips[0] && (
+            <a class="card" href={wingHref(lang, wingChips[0] as any)}>
+              <span class="eyebrow">{T.explore.wing_card}</span>
+              <h2 class="card-title">{T.nav[wingChips[0]]}</h2>
+              <span>{T.wings[wingChips[0] as keyof typeof T.wings]?.blurb}</span>
+            </a>
+          )}
+          {relatedIds[0] && (
+            <a class="card" href={href(lang, relatedIds[0])}>
+              <span class="eyebrow">{T.explore.related_card}</span>
+              <h2 class="card-title">{labelOf(byId.get(relatedIds[0])!, lang)}</h2>
+              <span>{summaryOf(byId.get(relatedIds[0])!, lang)}</span>
+            </a>
+          )}
+        </section>
+      )}
+    </div>
+    <ExploreBar lang={lang} />
+
     {altNames.length > 0 && <div hidden aria-hidden="true">{altNames.join(" ")}</div>}
     <span hidden data-pagefind-filter={`${T.search.filter_class}:${T.class[n.class] ?? n.class}`}></span>
     {n.wings.map((w) => <span hidden data-pagefind-filter={`${T.search.filter_wing}:${T.nav[w] ?? w}`}></span>)}
   </article>
+  <script is:inline>
+    // Reading progress: a gold rule across the top, grown by scroll (inner-pages spec §4C). Nothing shows without scrolling room.
+    (function () {
+      var bar = document.querySelector(".reading-progress"); if (!bar) return;
+      var fill = bar.firstElementChild, ticking = false;
+      var set = function () {
+        ticking = false;
+        var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+        var p = max > 0 ? Math.min(1, Math.max(0, h.scrollTop / max)) : 0;
+        bar.style.setProperty("--p", p.toFixed(4));
+      };
+      addEventListener("scroll", function () { if (!ticking) { ticking = true; requestAnimationFrame(set); } }, { passive: true });
+      set();
+    })();
+  </script>
 </BaseLayout>
 
 <style is:global>
