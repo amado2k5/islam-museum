@@ -1,22 +1,40 @@
-# islam.museum — project context
+# islam.museum: instructions for every agent
 
-You are working on islam.museum, an open, free, all-digital museum of Islam: the faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into until today. Read docs/plan/ before architectural changes. Key documents: 01-vision (principles), 02-content-model (classes, predicates, dates), 03-architecture (stack, layout, pipeline), 04-experience (halls and pages), 05-editorial (voice, perspectives, licensing), 06-roadmap, 09-ai-content-pipeline, 12-screen-index, 13-figures, 14-themes-atlas, 15-local-harvest.
+This file is the single entry point for every AI agent, model, tool or human collaborator working on this repository, whatever the vendor, product or model. `CLAUDE.md`, `GEMINI.md`, `.kiro/steering/`, `.github/copilot-instructions.md` and `.cursor/rules/` are one-line pointers to this file; edit rules here and nowhere else.
 
-Non-negotiables
-- Static site on GitHub Pages behind Cloudflare; no servers, no databases, no paid services. No AI at runtime: models are used only in the building phase; nothing on the published site calls a model or any server code per visitor request (docs/plan/03-architecture.md §13). Astro + Svelte islands + Tailwind; TypeScript scripts; Pagefind search; MapLibre + PMTiles; Sigma.js graphs.
-- Content is a knowledge graph in git: data/<class>/<slug>.yaml (language-neutral facts) + content/<lang>/<class>/<slug>.md (prose). IDs are "class/slug", immutable; renames via aliases.
-- Dates: EDTF + Hijri string + calendar flag + precision; never invent a date; conversions marked derived.
-- Relations use schema/predicates.yaml only; write the edge once; inverses are computed.
-- Every entity cites sources; every dated fact needs two sources or a flag. Wikipedia is a pointer, not a source.
-- Voice: a warm, precise, neutral docent. Describe, never prescribe. No honorifics typed into prose (the UI renders them). Scope: Sunni Islam is the default and main frame and research starts from Sunni sources (docs/scope.md); any other view may be mentioned and must be labelled before it is stated. Contested topics use the perspectives block with the Sunni position(s) first, then the academic view, then any other view, each cited and labelled.
-- Licenses: prose CC BY-SA 4.0, data CC0, code MIT; third-party content keeps its own license, recorded per version; media only from the whitelist in schema/enums/licenses.yaml; no figurative depictions of prophets; no AI-generated portraits.
-- Arabic is the primary language (docs/language.md): Phase 1 content, UI, alt text, maps and questions are Arabic only; English and other languages are translated later (Phase 4). The site's default locale is ar and RTL is the default layout. Validation requires label.ar and summary.ar.
-- Accessibility: WCAG 2.2 AA; alt text required; no JS needed to read a page; islands lazy-load.
-- Run `npm run validate` before proposing any content change and `npm run build` before any site change. Fix what fails.
-- AI-generated content enters as status.review: draft with a provenance block; never mark reviewed/verified yourself.
-- Significance, not sympathy: opponents, critics and allies are included with time-scoped story_roles; describe the act, attribute the judgement; never write "enemy of Islam" or an equivalent in the museum's voice; a person's faith is recorded only with its basis and never inferred.
-- Hard questions are written as tension cards with at least two cited voices and no verdict.
-- Never write, complete or correct Qur'an text: it comes only from the frozen Tanzil files and is referenced by sura:ayah.
-- Harvesting runs on the founder's Mac with local models (docs/plan/15); respect the licence layers: only cc0/by facts or our own cited research enter data/.
-- Commit only when asked; conventional commit messages; small PRs per cell batch (≤ 25 entities).
-- Collaboration (docs/collaboration.md): several sessions and Devin work in parallel. Never ignore, discard or revert another session's work; fetch and review what is new on main before starting and before every push, then merge it with yours (duplicates become aliases, nothing is deleted blindly); never `git add -A`; use one git worktree per session; commit explicit paths; run validate and tests after merging.
+islam.museum is an open, free, all-digital museum of Islam: the faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into until today. It is a knowledge graph in git (`data/<class>/<slug>.yaml` for language-neutral facts, `content/<lang>/<class>/<slug>.md` for prose) published as a static site.
+
+## Read, in this order
+
+1. This file (the rules that never bend).
+2. `docs/agents/README.md` (index of the agent documents), then the one or two you need:
+   - `docs/agents/workflow.md`: how to set up, commit, push, merge, hand off.
+   - `docs/agents/content-standards.md`: what a good entity looks like and the mistakes to avoid.
+   - `docs/agents/mining-sources.md` (+ `docs/agents/categories/`): how to turn a book into entities.
+   - `docs/agents/lanes.md`: who works on what, the lane for your task, how to open a new lane.
+3. `docs/status.md` (live state, ownership) and `docs/plan/` (the section you implement; key ones: 01-vision, 02-content-model, 05-editorial, 06-roadmap, 09-ai-content-pipeline, 13-figures, 14-themes-atlas, 15-local-harvest).
+4. Two existing entities of the class you will write, from different authors, and copy their shape. `data/event/expedition-of-al-sawiq.yaml` with `content/ar/event/expedition-of-al-sawiq.md` is the gold example for events.
+
+## Rules that never bend
+
+- **Static, no AI at runtime.** Static site on GitHub Pages behind Cloudflare; no servers, no databases, no paid services. Models are used only in the building phase; nothing on the published site calls a model or any server code per visitor (`docs/plan/03-architecture.md` §13, ADR 0002). Astro + Svelte islands + Tailwind; TypeScript scripts; Pagefind; MapLibre + PMTiles; Sigma.js.
+- **Graph in git.** IDs are `class/slug`, immutable; renames go through `aliases`. Relations use `schema/predicates.yaml` only; write each edge once (inverses are computed). Reuse before you create; a duplicate becomes an alias of the richer entity.
+- **Sources.** Every entity cites sources; every dated fact needs two sources or a flag. Wikipedia and Wikidata are pointers, not sources. Never invent a date, quote, page number, ISBN or citation. Dates: EDTF + Hijri string + calendar + precision; conversions marked derived.
+- **Arabic first** (`docs/language.md`). Phase 1 content, UI, alt text, maps and questions are Arabic only; English comes in Phase 4. `label.ar` and `summary.ar` are required; new prose goes in `content/ar/`.
+- **Voice and scope.** A warm, precise, neutral docent: describe, never prescribe, no rulings, no sermon voice. Sunni Islam is the default and main frame, and research starts from Sunni sources (`docs/scope.md`); any other view is welcome and must be labelled before it is stated. Contested topics use the `perspectives` block: Sunni position(s) first, then the academic view, then any other view, each cited and labelled, no verdict. Never write "enemy of Islam" or an equivalent in the museum's voice: describe the act and attribute the judgement. A person's faith is recorded only with its basis, never inferred. Opponents, critics and allies are included with time-scoped `story_roles`. Hard questions are tension cards with at least two cited voices and no verdict.
+- **No honorifics typed anywhere** (not ﷺ, not «صلى الله عليه وسلم», «عليه السلام», «رضي الله عنه», «رحمه الله»): the UI renders them. The validator rejects them.
+- **Qur'an text is never typed, completed or corrected.** It comes only from the frozen Tanzil files and is referenced as `[[passage/quran-<sura>-<aya>|label]]`. The validator rejects ﴿ ﴾ in prose.
+- **Prose only in `content/<lang>/<class>/<slug>.md`; data only in `data/<class>/<slug>.yaml`.** Never a `.yaml` under `content/`.
+- **Licences.** Prose CC BY-SA 4.0, data CC0, code MIT. Third-party content keeps its own licence. Media only from the whitelist in `schema/enums/licenses.yaml`; no figurative depictions of prophets or Companions; no AI-generated portraits. Harvest respects the licence layers (`docs/attribution.md`): only cc0, by, or our own cited research enter `data/`; Wikipedia (by-sa) and OpenITI (nc) are for discovery and facts with citations. Copyrighted books are used for facts, chronology, names, numbers and citations; quotations at most 40 words, verbatim, with page; never republish or paraphrase their text; OCR text and page images never enter git.
+- **AI output is draft.** It enters as `status.review: draft` with a `provenance` block (`generated_by`, `model`, `run`, `source`). Never mark anything `reviewed` or `verified`.
+- **Accessibility.** WCAG 2.2 AA; alt text required; no JS needed to read a page.
+- **Checks before you push.** `npm run validate` (0 errors) and `npm test` (all pass); `npm run build` for any site change. Fix what fails; never lower a rule, skip a test or add a crash guard to hide bad data.
+
+## Working together (details in `docs/agents/workflow.md`)
+
+- Several agents work in parallel. **Never ignore, discard or revert another agent's work.** Fetch and review what is new on `origin/main` before you start and before every push, then merge it with yours; duplicates become aliases; nothing is deleted blindly.
+- One git worktree or clone per session, never a shared folder; commit explicit paths (never `git add -A`); never force-push; never commit `node_modules`, PDFs, OCR text, page images or large files.
+- Push small, validated commits to `main` often (work can be lost if you run out of credit or time), and keep your lane's progress file current.
+- Shared files (`data/_stubs.yaml`, `data/_stubs.d/*`, `docs/status.md`, enums) are append-only: never replace one wholesale. Your own stubs go in your own `data/_stubs.d/<lane>.yaml`.
+- **Every agent commit ends with attribution trailers** `AI-Agent:`, `AI-Model:` and `AI-Editor:` (truthful; `unknown` if you cannot tell), and the same facts go in each entity's provenance. See `docs/agents/workflow.md`.
+- Commit only when your task or lane instructions call for it; conventional commit messages; at most 25 entities per content batch.

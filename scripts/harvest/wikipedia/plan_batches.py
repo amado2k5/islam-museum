@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Turn wikipedia-ar-gaps.tsv into lane batches of at most 25 entities each (docs/collaboration.md: small batches, one lane per session).
+"""Turn wikipedia-ar-gaps.tsv into lane batches of at most 25 entities each (docs/agents/workflow.md: small batches, one lane per session).
 Lanes are assigned from categories and kind; each batch file lists title_ar, title_en, kind, score so a session can look the person/place up in
 OpenITI / its book lane and write the entity from real sources (Wikipedia is a pointer only). Writes $HARVEST/candidates/batches/<lane>-NN.tsv and prints the plan."""
 import csv, os, re

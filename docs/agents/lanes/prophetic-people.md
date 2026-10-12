@@ -1,0 +1,7 @@
+# Lane `people`: Prophetic-era people and groups (complete)
+
+Historical record. A first agent (Devin, working from its own clone and opening one pull request per batch) wrote about 63 person entities and 12 group entities for the people around the Prophet, on every side of the story, as draft content with real sources. Batches A to F (family and household; Companions; the world Islam was born into and the Meccan opposition; opponents who became Muslims, protectors, Medina's allies and rivals; rival claimants and the Ridda; groups) were reviewed and merged on 11 October 2026 (PRs #1 to #6). The original prompt is kept in `docs/delegation/devin-people-lane.md` for reference; it predates the Arabic-first, Sunni-first and trailer rules, which now apply (`AGENTS.md`).
+
+What the lane established and later agents must preserve: significance rule (opponents, critics and allies included, with time-scoped `story_roles`; describe the act, attribute the judgement); `faith` recorded with its basis and never inferred; `perspectives` Sunni-first on contested people (Abu Talib, Umar, Uthman, Aisha, Fatima, Abu Sufyan, Abu Hurayra, Khalid ibn al-Walid, the succession figures, Abdullah ibn Ubayy); at least two real sources per entity; stubs for unresolved targets in `data/_stubs.d/devin-people.yaml`.
+
+Further people come from the mining lanes (`raheeq`, `hisham`, `lib-*`), which reuse and extend these entities.

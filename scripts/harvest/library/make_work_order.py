@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""Compose the ready-to-paste Codex prompt for one book: common rules + category rules + this book's facts, paths and progress.
+"""Compose a ready-to-paste, vendor-neutral order for one book: AGENTS.md + workflow + content standards + mining rules + category rules + this book's facts, paths and progress.
 
   make_work_order.py <book-id> [--out FILE]        e.g. make_work_order.py sahih-bukhari
   make_work_order.py --list                        books with extracted text, and their state
-Paste the output into Codex (or save it with --out and point Codex at it)."""
+Paste the output into any agent (or save it with --out and point the agent at it)."""
 import argparse, json, os, sys
 from pathlib import Path
 import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 from idmap import MAP
 ROOT = Path(__file__).resolve().parents[3]; H = Path(os.environ.get("HARVEST", Path.home() / "islam-museum-harvest"))
-CODEX = ROOT / "docs/delegation/codex"
+AGENTS_DOCS = ROOT / "docs/agents"
 CAT = {"hadith": "hadith", "hadith-sciences": "hadith", "rijal": "hadith", "tafsir": "tafsir", "quran-sciences": "tafsir",
        "seerah": "seerah-tareekh", "shamail": "seerah-tareekh", "tareekh": "seerah-tareekh", "geography": "seerah-tareekh",
        "sahaba": "people", "sahabiyat": "people", "tabaqat": "people",
@@ -39,6 +39,6 @@ facts = f"""# WORK ORDER: {b['t']}  ({b['a'] or 'author not set'}{', d. ' + str(
 - progress so far: {'READ docs/delegation/library/' + b['id'] + '.md on main first and resume at its "next step"' if prog.exists() else 'nothing yet. Start with the introduction/biography of the author, then follow the category plan.'}
 - first action: `git fetch origin && git log origin/main --oneline | grep lib-{b['id']}` to see whether a previous session already pushed batches; resume after them.
 """
-text = "\n\n".join([(CODEX / "common.md").read_text(), (CODEX / f"{CAT[b['cat']]}.md").read_text(), facts])
+text = "\n\n".join([(ROOT / "AGENTS.md").read_text(), (AGENTS_DOCS / "workflow.md").read_text(), (AGENTS_DOCS / "content-standards.md").read_text(), (AGENTS_DOCS / "mining-sources.md").read_text(), (AGENTS_DOCS / "categories" / f"{CAT[b['cat']]}.md").read_text(), facts])
 if a.out: Path(a.out).write_text(text); print("wrote", a.out, len(text), "chars")
 else: print(text)

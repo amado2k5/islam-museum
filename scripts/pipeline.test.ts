@@ -173,7 +173,7 @@ describe("Arabic first (docs/language.md)", () => {
   });
 });
 
-describe("content quality guards (docs/content-quality.md)", () => {
+describe("content quality guards (docs/agents/content-standards.md)", () => {
   it("rejects honorifics typed into a summary or label (ﷺ and the spelled-out formulas)", () => {
     const i = run(base("event", "t-honorific", { summary: { ar: "أمر النبي ﷺ جيشه", en: "t" } }));
     expect(msgs(i, "error")).toMatch(/honorifics must not be typed/);

@@ -1,6 +1,6 @@
 # Gap batches: what the museum still lacks, from Arabic Wikipedia (discovery only)
 
-Generated 11 Oct 2026 by `scripts/harvest/wikipedia/gap_report.py` then `plan_batches.py`. Wikipedia is a pointer: a title here means "an Arabic encyclopaedia thinks this exists and is in scope", never a source. Write each entity from real sources (the books in the library lane, OpenITI, Ibn Sa'd, al-Isaba, Tahdhib al-Kamal…), cite those, and follow `docs/content-quality.md`.
+Generated 11 Oct 2026 by `scripts/harvest/wikipedia/gap_report.py` then `plan_batches.py`. Wikipedia is a pointer: a title here means "an Arabic encyclopaedia thinks this exists and is in scope", never a source. Write each entity from real sources (the books in the library lane, OpenITI, Ibn Sa'd, al-Isaba, Tahdhib al-Kamal…), cite those, and follow `docs/agents/content-standards.md`.
 
 Files (outside git, on the drive): `~/islam-museum-harvest/candidates/entities/wikipedia-ar-gaps.tsv` (top 5,000 of 51,709 gaps) and `~/islam-museum-harvest/candidates/batches/<lane>-NN.tsv` (25 titles each, first 20 batches per lane). Re-run both scripts after each merge to main so finished entities drop out.
 
