@@ -1,0 +1,24 @@
+id: event/bayat-al-ridwan
+class: event
+kind: declaration
+label: { en: "The Pledge of the Tree (Bay'at al-Ridwan)", ar: "بيعة الرضوان" }
+summary:
+  en: "In Dhu al-Qa'da 6 AH at al-Hudaybiyya, following rumors that Uthman ibn Affan had been murdered in Mecca, the Prophet summoned the 1,400 Companions to pledge under an acacia tree not to flee and to fight unto death; God revealed His pleasure with the pledge in Surat al-Fath."
+  ar: "في ذي القعدة سنة 6هـ بالحديبية، إثر شيوع مقتل عثمان بن عفان بمكة حين أرسله النبي مفاوضاً، دعا النبي الصحابة وكانوا ألفاً وأربعمائة فبايعوه تحت الشجرة على الموت وألا يفروا؛ فأنزل الله رضوانه عنهم في سورة الفتح وبشرهم بالنصر والمغانم."
+wings: [time, people]
+themes: [converts-and-leavers, worship-and-the-pillars]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628-03~", hijri: "0006-11", calendar: julian, precision: month, status: tradition, note: "ذي القعدة سنة 6هـ قبيل إبرام الصلح (الرحيق ص341–342)." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad, role: "أخذ البيعة تحت الشجرة ووضع يده الأخرى بيعة لعثمان", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "السفير الذي أشيع مقتله فكانت البيعة بسببه", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "آخذ بيد رسول الله أثناء البيعة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sinan-ibn-abi-sinan-al-asadi, role: "أول من بايع رسول الله على ما في نفسه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun }
+  - { type: had_participant, target: group/ansar }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 341–342" }

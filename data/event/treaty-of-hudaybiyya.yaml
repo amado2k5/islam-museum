@@ -3,20 +3,31 @@ class: event
 kind: treaty
 label: { en: "The Treaty of Hudaybiyya", ar: "صلح الحديبية" }
 summary:
-  en: "A ten-year truce between the Muslims and the Quraysh, agreed when the Prophet came to Mecca for pilgrimage."
-  ar: "هدنة لعشر سنوات بين المسلمين وقريش عُقدت حين جاء النبي إلى مكة معتمرًا."
+  en: "In Dhu al-Qa'da 6 AH (March 628 CE), the Prophet marched towards Mecca with 1,400 companions for Umrah; halted at al-Hudaybiyya by Quraysh, negotiations through Suhayl ibn Amr produced a historic ten-year peace treaty described in the Qur'an as a 'Manifest Victory'."
+  ar: "في ذي القعدة سنة 6هـ (مارس 628م)، خرج النبي في ألف وأربعمائة معتمراً لا يريد حرباً؛ فلما صدته قريش بالحديبية تمت مفاوضات انتهت بصلح تاريخي عقده مع سهيل بن عمرو يقضي بوضع الحرب عشر سنين ورد من يأتي مسلماً بلا إذن وليه، وسماه الله في سورة الفتح «فتحاً مبيناً»."
 wings: [time, people]
 themes: [laws-of-war-and-peace, peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0628-03", hijri: "0006-11", calendar: julian, precision: month, status: tradition }
+  start: { edtf: "0628-03~", hijri: "0006-11", calendar: julian, precision: month, status: tradition, note: "ذي القعدة سنة 6هـ (مارس 628م) (الرحيق ص337–348)." }
 relations:
-  - { type: occurred_at, target: place/hudaybiyya }
   - { type: occurred_at, target: place/mecca }
-  - { type: had_participant, target: person/muhammad }
-  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: had_participant, target: person/muhammad, role: "القائد الذي عقد الصلح ومحا بيده كاتب رسول الله", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "كاتب الصحيفة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/suhayl-ibn-amr, role: "مفاوض قريش وممثلها في توقيع الصلح", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/urwa-ibn-masud, role: "رسول قريش للمفاوضة الذي بهرته طاعة الصحابة لرسول الله", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abu-jandal-ibn-suhayl, role: "جاء يرسف في قيوده فرده النبي وفاءً بالعهد", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/umm-salama, role: "أشارت على النبي بالنحر والحلاق فبادر الصحابة للاقتداء به", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: group/quraysh }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/battle-of-the-trench }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+perspectives:
+  - tradition: sunni
+    summary: { en: "Sunni orthodoxy regards the Treaty of Hudaybiyya as a profound strategic victory that recognized the Muslim state, secured peace, opened Arabia to mass conversion, and directly paved the way for the Conquest of Mecca.", ar: "يعد علماء السنة صلح الحديبية أعظم الفتوح في الإسلام؛ إذ اعترفت قريش بالدولة الإسلامية ووضعت الحرب أوزارها فخالط الناس المسلمين وسمعوا القرآن فدخل في الإسلام في سنتي الهدنة أكثر ممن دخل فيه منذ أول البعثة." }
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+  - tradition: academic
+    summary: { en: "Historians view the treaty as Muhammad's masterstroke of diplomacy, transforming a military deadlock into legal recognition and geopolitical supremacy across Western Arabia.", ar: "يحلل المؤرخون الصلح بوصفه إنجازاً دبلوماسياً رفيعاً استطاع به النبي تحييد قريش وفك تحالفاتها مع خيبر وتأمين حدوده الغربية للتفرغ لتوحيد القبائل." }
+    sources: [source/watt-1956-medina]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 337–348" }
