@@ -20,6 +20,8 @@
 
 **Done:**
 - (12 Oct 2026) Lane opened. `source/mawsuat-a3lam-ulama-adaba`, `work/mawsuat-a3lam-ulama-adaba`, stubs file, this progress file. Vision OCR of all 7 volumes running into the harvest workspace.
+- (12 Oct 2026) Batch 1a (vol. 1, pp. 273–277): Ibn al-Athir al-Jazari, Diya al-Din, Imad al-Din, Izz al-Din, Najm al-Din. Six works declared as stubs. Imad al-Din's birth year is printed inconsistently in the source (652 AH / 1245 CE); recorded as an uncertain CE year only.
+- OCR status (12 Oct 2026): v01 complete (702 pages); v02 at page 506 of 640; v03, v04, v05, v07 and v08 not yet started. Phases 1–3 (index, tiering, batch mining) are blocked on v02 completion and the remaining volumes.
 
 **Flags:**
 - Volume 6 (m-a-3-o-06.pdf) is absent from the founder's folder — its letter range will be missing entirely.
