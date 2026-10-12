@@ -1,0 +1,16 @@
+id: passage/arbaun-07
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "7"
+label: { ar: "الأربعون 7 — الدين النصيحة", en: "Arba'un 7 — the religion is sincerity" }
+text: "الدين النصيحة، قلنا: لمن يا رسول الله؟ قال: لله ولكتابه ولرسوله ولأئمة المسلمين وعامتهم"
+summary:
+  ar: "حديث تميم الداري، وهو الحديث السابع في الأربعين النووية وفي شرح ابن رجب؛ رواه مسلم (55) من رواية سهيل بن أبي صالح عن عطاء بن يزيد الليثي عن تميم الداري، وروي أيضاً من حديث أبي هريرة وابن عمر وثوبان وابن عباس، وقال البخاري إن مدار الحديث كله على تميم؛ ذكر ابن رجب عن أبي داود أنه أحد الأحاديث التي يدور عليها الفقه، وعن محمد بن أسلم الطوسي أنه أحد أرباع الدين، وجمع في شرحه تعريفات الخطابي وابن الصلاح للنصيحة ونصوص النصح للمسلمين ولولاة الأمور (جامع العلوم والحكم ص 193–204)."
+  en: "Tamim al-Dari's hadith, the seventh of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by Muslim (55) through Suhayl ibn Abi Salih from Ata ibn Yazid al-Laythi from Tamim al-Dari, and also reported from Abu Hurayra, Ibn Umar, Thawban and Ibn Abbas, al-Bukhari holding the whole hadith to rest on Tamim; Ibn Rajab cites Abu Dawud that it is one of the hadiths around which jurisprudence revolves, and Muhammad ibn Aslam al-Tusi that it is a quarter of the religion, and gathers al-Khattabi's and Ibn al-Salah's definitions of nasiha and the texts on sincerity to Muslims and to those in authority (Jami' al-Ulum wal-Hikam pp. 193–204)."
+relations:
+  - { type: basis_for, target: concept/nasiha, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/tamim-al-dari, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 7 pp. 193–204", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-4" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 193, takhrij from the edition's apparatus" }

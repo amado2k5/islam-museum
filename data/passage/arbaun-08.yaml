@@ -1,0 +1,18 @@
+id: passage/arbaun-08
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "8"
+label: { ar: "الأربعون 8 — أمرت أن أقاتل الناس", en: "Arba'un 8 — I was ordered to fight the people" }
+text: "أمرت أن أقاتل الناس حتى يشهدوا أن لا إله إلا الله وأن محمدا رسول الله، ويقيموا الصلاة، ويؤتوا الزكاة، فإذا فعلوا ذلك عصموا مني دماءهم وأموالهم إلا بحق الإسلام، وحسابهم على الله"
+summary:
+  ar: "حديث عبد الله بن عمر، وهو الحديث الثامن في الأربعين النووية وفي شرح ابن رجب؛ رواه البخاري (25) ومسلم (22) من رواية واقد بن محمد عن أبيه عن جده ابن عمر، وتفرد البخاري بلفظ «إلا بحق الإسلام»، وروي بمعناه عن أنس ومعاذ بن جبل وأبي هريرة وجابر وأبي مالك الأشجعي عن أبيه؛ يبين ابن رجب أن النبي كان يقبل من كل من جاءه يريد الدخول في الإسلام الشهادتين فقط فيعصم دمه ويجعله مسلماً دون أن يشترط عليه الصلاة والزكاة ابتداءً، وردّ على سفيان بن عيينة قوله إن هذا كان أول الإسلام قبل فرض الصلاة والزكاة بأن رواة الأحاديث إنما صحبوا النبي بالمدينة، وأنه كان مأموراً بالقتال بعد هجرته (جامع العلوم والحكم ص 205–217)."
+  en: "Abdullah ibn Umar's hadith, the eighth of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by al-Bukhari (25) and Muslim (22) through Waqid ibn Muhammad from his father from his grandfather Ibn Umar — the words 'except by the right of Islam' being unique to al-Bukhari's wording — and reported in the same sense from Anas, Mu'adh ibn Jabal, Abu Hurayra, Jabir and Abu Malik al-Ashja'i from his father; Ibn Rajab explains that the Prophet accepted the two testimonies alone from whoever came wishing to enter Islam, thereby protecting his blood and counting him a Muslim without first stipulating prayer and zakat, and answers Sufyan ibn Uyayna's claim that this belonged to the beginning of Islam before the duties were imposed, noting that the transmitters accompanied the Prophet only in Medina and that he had been ordered to fight after the hijra (Jami' al-Ulum wal-Hikam pp. 205–217)."
+relations:
+  - { type: basis_for, target: concept/shahada, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/ahl-al-qibla, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/islam-din, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 8 pp. 205–217", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-4" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 205, takhrij from the edition's apparatus" }
