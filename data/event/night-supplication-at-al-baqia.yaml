@@ -1,0 +1,19 @@
+id: event/night-supplication-at-al-baqia
+class: event
+kind: other
+label: { en: "The night supplication at al-Baqi'", ar: "زيارة البقيع ليلاً والاستغفار لأهلها" }
+summary:
+  en: "One night in the last days the Prophet went out at midnight to al-Baqi' cemetery, greeted its people, prayed forgiveness for them, foretold coming trials 'like the segments of dark night', and promised them 'we are following you'."
+  ar: "خرج النبي ليلة في منتصفها إلى البقيع فسلم على أهل المقابر واستغفر لهم وأنبأهم بالفتن المقبلة كقطع الليل المظلم الآخرة شر من الأولى، وبشّرهم قائلاً: إنا بكم للاحقون."
+wings: [people]
+themes: [afterlife-and-eschatology]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-05~", hijri: "0011-02", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/al-baqia }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: event/death-of-the-prophet }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

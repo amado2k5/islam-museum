@@ -1,0 +1,19 @@
+id: event/farewell-visit-to-uhud-martyrs
+class: event
+kind: other
+label: { en: "The farewell prayer over the martyrs of Uhud", ar: "زيارة شهداء أحد الأخيرة" }
+summary:
+  en: "In early Safar 11 AH the Prophet went out to Uhud and prayed over the martyrs 'as one bidding farewell to the living and the dead', then said from the minbar that he was their forerunner, that he could see his Basin, and that he feared not polytheism for them but rivalry over the world."
+  ar: "خرج النبي في أوائل صفر سنة 11هـ إلى أحد فصلى على الشهداء كالمودّع للأحياء والأموات، ثم قال من المنبر: إني فرطكم وشهيد عليكم وإني لأنظر إلى حوضي الآن، وإني والله ما أخاف أن تشركوا بعدي ولكن أخاف عليكم أن تنافسوا فيها."
+wings: [people, time]
+themes: [battles, afterlife-and-eschatology]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-04~", hijri: "0011-02", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/uhud }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: event/death-of-the-prophet }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

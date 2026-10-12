@@ -1,0 +1,21 @@
+id: event/expedition-of-usama
+class: event
+kind: campaign
+label: { en: "The expedition of Usama ibn Zayd", ar: "بعث أسامة بن زيد" }
+summary:
+  en: "In Safar 11 AH the Prophet equipped a great army under the young Usama ibn Zayd to strike the Byzantine marches of al-Balqa' and al-Darum in Palestine — answering the empire's killing of Muslim converts; the troops camped at al-Jurf until the Prophet's illness delayed them, and the campaign was carried out under Abu Bakr."
+  ar: "جهّز النبي في صفر سنة 11هـ جيشاً كبيراً على أسامة بن زيد ليوطئ الخيل تخوم البلقاء والداروم من أرض فلسطين جواباً لقتل الروم من أسلم من أتباعها؛ تكلم الناس في إمارته لحداثة سنه فثبّتها النبي، ونزل الجيش الجرف حتى أخّره مرض النبي فنُفّذ البعث في خلافة أبي بكر."
+wings: [time, people]
+themes: [wars-and-campaigns, skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-04~", hijri: "0011-02", calendar: julian, precision: month, status: tradition }
+relations:
+  - { type: occurred_at, target: place/al-jurf }
+  - { type: had_participant, target: person/usama-ibn-zayd }
+  - { type: had_participant, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/battle-of-mutah }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }
