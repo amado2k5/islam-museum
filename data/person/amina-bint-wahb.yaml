@@ -4,7 +4,7 @@ label: { en: "Amina bint Wahb", ar: "آمنة بنت وهب" }
 names:
   - { kind: full, lang: ar, value: "آمنة بنت وهب بن عبد مناف بن زهرة القرشية" }
 gender: female
-died: { edtf: "0577~", calendar: julian, precision: year, status: tradition, note: "ماتت بالأبواء في طريق العودة من يثرب وابنها في السادسة (الرحيق ص57).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+died: { edtf: "0577~", calendar: julian, precision: year, status: tradition, note: "ماتت بالأبواء في طريق العودة من يثرب وابنها في السادسة (الرحيق ص57؛ نساء حول الرسول ص19، ويقدمها الكتاب بصيغة الترجيح «ويبدو أن حمى يثرب قد تناولت آمنة»).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/nisa-hawl-alrasul] }
 roles: [family-of-the-prophet]
 traditions: [sunni]
 summary:
@@ -25,5 +25,5 @@ relations:
   - { type: child_of, target: person/wahb-ibn-abd-manaf }
   - { type: member_of, target: group/banu-zuhra }
   - { type: participated_in, target: event/death-of-amina, role: "المتوفاة بالأبواء", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 54-57" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 54-57; Nisa' Hawl al-Rasul pp. 11-19 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }

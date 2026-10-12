@@ -4,7 +4,7 @@ label: { en: "Sawda bint Zam'a", ar: "سودة بنت زمعة" }
 names:
   - { kind: full, lang: ar, value: "سودة بنت زمعة بن قيس بن عبد شمس العامرية" }
 gender: female
-died: { edtf: "0674~", hijri: "0054~", calendar: julian, precision: year, status: tradition, note: "توفيت في آخر خلافة عمر أو سنة 54 هـ في خلافة معاوية على اختلاف الروايات.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "0674~", hijri: "0054~", calendar: julian, precision: year, status: debated, note: "توفيت في آخر خلافة عمر أو سنة 54 هـ في خلافة معاوية على اختلاف الروايات. يسجّل الكتاب الخلاف نفسه: قيل كانت أول نساء النبي لحاقاً به برواية عائشة، وقيل زينب بنت جحش ثم سودة سنة 54هـ في خلافة معاوية (نساء حول الرسول ص58).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 roles: [companion]
 traditions: [sunni]
 summary:
@@ -23,10 +23,11 @@ faith:
 relations:
   - { type: born_in, target: place/mecca }
   - { type: spouse_of, target: person/muhammad, start: { edtf: "0619~" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: spouse_of, target: person/al-sakran-ibn-amr, end: { edtf: "0619~" }, note: "زوجها الأول السكران بن عمرو أخو سهيل بن عمرو؛ هاجرت معه إلى الحبشة وتوفي قبل زواجها من النبي (نساء حول الرسول ص58).", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/quraysh }
   - { type: member_of, target: group/ahl-al-bayt }
   - { type: participated_in, target: event/marriage-to-sawda }
   - { type: participated_in, target: event/second-migration-to-abyssinia }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, note: "ذكرها ابن إسحاق ص11 في مهاجرات الحبشة من بني عامر بن لؤي", sources: [source/ibn-hisham-saqqa] }
-sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 117-118" }
+sources: [source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari, source/ibn-hisham-saqqa, source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 117-118; Nisa' Hawl al-Rasul pp. 49-58 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }

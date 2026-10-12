@@ -22,7 +22,11 @@
 
 **Done:**
 - (12 Oct 2026) Lane opened. `source/nisa-hawl-alrasul`, `work/nisa-hawl-alrasul`, stubs file, this progress file. OCR confirmed already complete in the harvest workspace; redundant re-OCR stopped.
+- (12 Oct 2026) أمهات الرسول pp. 11–34 + خديجة وسودة pp. 35–58 mined: enriched `amina-bint-wahb` (died-at-al-Abwa corroboration), `halima-al-sadiyya` (husband al-Harith ibn Abd al-Uzza, p. 15), `umm-ayman` (spouse_of zayd-ibn-haritha, parent_of usama/ayman, died under Uthman p. 28), `fatima-bint-asad` (died 063X~ Medina per book's راجح p. 29; parent_of umm-hani + 5 stub children p. 30), `khadija` (first husbands abu-hala-ibn-zurara & atiq-ibn-aidh pp. 36–37), `sawda-bint-zama` (al-sakran-ibn-amr p. 58; died → debated, two reports p. 58); `passage/quran-4-128` → `revealed_about` sawda (p. 54). Stubs: al-harith-ibn-abd-al-uzza, aqil/talib/jumana/rayta children of Abu Talib, al-sakran-ibn-amr, abu-hala-ibn-zurara, atiq-ibn-aidh.
 
-**Flags:** none yet.
+**Flags:**
+- Book calls Khadija's father «خويلد بن نوفل» (p. 35) — an error (Khuwaylid ibn **Asad**; Nawfal was his brother, Waraqa's father). Not propagated; noted here only.
+- Book's «28 years» for Khadija's marriage (p. 48) exceeds the standard ~24/25 years — not propagated.
+- Book's claim «أول امرأة تزوجت رجلاً هاشمياً... فاطمة بنت أسد» (p. 30, from al-Zuhri) kept as a note-level claim, not a headline fact.
 
-**Next:** batch 2 — أمهات الرسول + زوجات الرسول (printed pp. 11–178, PDF 12–179): claims table per woman → enrich the 17 existing persons (mothers: amina-bint-wahb, halima-al-sadiyya, umm-ayman, fatima-bint-asad; wives: khadija, sawda-bint-zama, aisha, hafsa, zaynab-bint-khuzayma, umm-salama, zaynab-bint-jahsh, juwayriya-bint-al-harith, umm-habiba-bint-abi-sufyan, safiyya-bint-huyayy, maymuna-bint-al-harith, rayhana-bint-zayd, maria-al-qibtiyya) with this book's page-cited claims; add `source/nisa-hawl-alrasul` to their `sources[]`.
+**Next:** batch 2b — rest of زوجات الرسول (printed pp. 59–178): عائشة (59), حفصة (74), زينب بنت خزيمة (84), أم سلمة (93), زينب بنت جحش (107), جويرية (118), أم حبيبة (129), صفية بنت حيي (139), ميمونة (149), ريحانة (161), مارية (169). Same method: claims per woman → enrich existing persons; watch for verse-revelation edges (Q33 on زينب بنت جحش/الحجاب/الإفك) and new stubs.

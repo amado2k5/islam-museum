@@ -8,6 +8,7 @@ names:
   lang: ar
   value: فاطمة بنت أسد بن هاشم بن عبد مناف الهاشمية
 gender: female
+died: { edtf: "063X", calendar: julian, precision: decade, status: tradition, note: "رجّح مؤلفو الكتاب أنها أسلمت وهاجرت وتوفيت بالمدينة على حياة النبي وقد بلغت من الكبر عتياً (نساء حول الرسول ص29).", sources: [source/nisa-hawl-alrasul] }
 roles:
 - companion
 traditions:
@@ -47,6 +48,31 @@ relations:
   target: person/jafar-ibn-abi-talib
   sources:
   - source/ibn-hajar-isaba
+- type: parent_of
+  target: person/umm-hani-bint-abi-talib
+  note: "يعدد الكتاب أولادها لأبي طالب: طالب وعقيل وجعفر وعلي وأم هانئ وجمانة وريطة (نساء حول الرسول ص30)."
+  sources:
+  - source/nisa-hawl-alrasul
+- type: parent_of
+  target: person/aqil-ibn-abi-talib
+  sources:
+  - source/nisa-hawl-alrasul
+- type: parent_of
+  target: person/talib-ibn-abi-talib
+  sources:
+  - source/nisa-hawl-alrasul
+- type: parent_of
+  target: person/jumana-bint-abi-talib
+  sources:
+  - source/nisa-hawl-alrasul
+- type: parent_of
+  target: person/rayta-bint-abi-talib
+  sources:
+  - source/nisa-hawl-alrasul
+- type: died_in
+  target: place/medina
+  sources:
+  - source/nisa-hawl-alrasul
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 11627، ص 1934 (تراجم النساء)
@@ -55,6 +81,7 @@ provenance:
   run: isaba-women-1
 sources:
 - source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
 status:
   review: draft
   completeness: 2
