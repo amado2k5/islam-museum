@@ -1,0 +1,25 @@
+id: event/sariyya-of-al-dahhak-to-banu-kilab
+class: event
+kind: raid
+label: { en: "al-Dahhak ibn Sufyan's expedition to Banu Kilab", ar: "سرية الضحاك بن سفيان الكلابي إلى بني كلاب" }
+summary:
+  en: "In Rabi' al-Awwal 9 AH the Prophet sent al-Dahhak ibn Sufyan al-Kilabi to his own people Banu Kilab to invite them to Islam; they refused and fought, and the Muslims routed them and killed one man."
+  ar: "بعث النبي الضحاك بن سفيان الكلابي في ربيع الأول سنة 9هـ إلى قومه بني كلاب لدعوتهم إلى الإسلام؛ فأبوا وقاتلوا، فهزمهم المسلمون وقتلوا منهم رجلاً."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631-03", hijri: "0009-03", calendar: julian, precision: month, status: tradition, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: had_participant, target: person/muhammad, role: dispatched-the-detachment, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-dahhak-ibn-sufyan, role: commander-and-envoy-to-his-people, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim detachment", ar: "سرية المسلمين" }
+    participants: [group/early-muslims]
+    commanders: [person/al-dahhak-ibn-sufyan]
+  - label: { en: "Banu Kilab", ar: "بنو كلاب" }
+    participants: [group/banu-kilab]
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 426" }

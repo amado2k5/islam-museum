@@ -1,0 +1,24 @@
+id: event/dispatch-of-sadaqa-collectors
+class: event
+kind: other
+label: { en: "The dispatch of the sadaqa collectors", ar: "بعث المُصَدِّقين إلى القبائل" }
+summary:
+  en: "With the new moon of Muharram 9 AH the Prophet sent the musaddiqun — alms-tax collectors — to the tribes: Uyayna ibn Hisn to Banu Tamim, Yazid ibn al-Husayn to Aslam and Ghifar, Abbad ibn Bishr to Sulaym and Muzayna, Rafi' ibn Makith to Juhayna, Amr ibn al-As to Banu Fazara, al-Dahhak ibn Sufyan to Banu Kilab, Bashir ibn Sufyan to Banu Ka'b, Ibn al-Lutbiyya to Banu Dhubyan, al-Muhajir ibn Abi Umayya to San'a', Ziyad ibn Labid to Hadramawt, Adi ibn Hatim to Tayy' and Banu Asad, Malik ibn Nuwayra to Banu Hanzala, al-Zibriqan ibn Badr and Qays ibn Asim to parts of Banu Sa'd, al-Ala ibn al-Hadrami to Bahrayn, and Ali ibn Abi Talib to Najran for sadaqa and jizya alike."
+  ar: "مع استهلال هلال المحرم سنة 9هـ بعث النبي المصدقين جامعي الصدقات إلى القبائل: عيينة بن حصن إلى بني تميم، ويزيد بن الحصين إلى أسلم وغفار، وعباد بن بشر إلى سليم ومزينة، ورافع بن مكيث إلى جهينة، وعمرو بن العاص إلى بني فزارة، والضحاك بن سفيان إلى بني كلاب، وبشير بن سفيان إلى بني كعب، وابن اللتبية الأزدي إلى بني ذبيان، والمهاجر بن أبي أمية إلى صنعاء، وزياد بن لبيد إلى حضرموت، وعدي بن حاتم إلى طيء وبني أسد، ومالك بن نويرة إلى بني حنظلة، والزبرقان بن بدر وقيس بن عاصم إلى بني سعد، والعلاء بن الحضرمي إلى البحرين، وعلي بن أبي طالب إلى نجران لجمع الصدقة والجزية كليهما؛ ولم يبعثوا كلهم في المحرم بل تأخر بعث بعضهم إلى إسلام قبائلهم."
+wings: [time, people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631-01", hijri: "0009-01", calendar: julian, precision: month, status: tradition, note: "مع استهلال هلال المحرم سنة 9هـ بدأ بعث العمال بهذا الاهتمام البالغ.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: had_participant, target: person/muhammad, role: dispatched-the-collectors, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/adi-ibn-hatim, role: collector-to-tayy-and-banu-asad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-ala-ibn-al-hadrami, role: collector-to-bahrayn, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abbad-ibn-bishr, role: collector-to-sulaym-and-muzayna, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-zibriqan-ibn-badr, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/qays-ibn-asim, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-dahhak-ibn-sufyan, role: collector-to-banu-kilab, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 424-425" }

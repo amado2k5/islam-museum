@@ -1,0 +1,25 @@
+id: person/qays-ibn-asim
+class: person
+label: { en: "Qays ibn Asim", ar: "قيس بن عاصم" }
+names:
+  - { kind: full, lang: ar, value: "قيس بن عاصم المنقري التميمي" }
+gender: male
+roles: [companion]
+summary:
+  en: "A chief of Banu Tamim famed for forbearance; he accepted Islam and was appointed sadaqa collector over part of Banu Sa'd in 9 AH."
+  ar: "سيد من بني تميم اشتُهر بحلمه؛ أسلم وولّاه النبي الصدقة على قسم من بني سعد سنة 9هـ."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "من سادات تميم المسلمين.", sources: [source/mubarakpuri-raheeq] }
+  - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد (الرحيق ص425).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/banu-tamim }
+  - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 425" }

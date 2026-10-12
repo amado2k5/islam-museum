@@ -1,0 +1,21 @@
+id: event/death-of-umm-kulthum-bint-muhammad
+class: event
+kind: death
+label: { en: "The death of Umm Kulthum bint Muhammad", ar: "وفاة أم كلثوم بنت النبي" }
+summary:
+  en: "In 9 AH Umm Kulthum, the Prophet's daughter and wife of Uthman ibn Affan, died; the Prophet grieved her deeply and told Uthman, 'Had I had a third daughter I would have given her to you in marriage' — whence Uthman was called Dhu al-Nurayn, the possessor of the two lights."
+  ar: "في سنة 9هـ توفيت أم كلثوم بنت النبي زوج عثمان بن عفان؛ فحزن عليها النبي حزناً شديداً وقال لعثمان: «لو كانت عندي ثالثة لزوجتكها»، ولذلك لُقب عثمان بذي النورين لزواجه من ابنتين للنبي تباعاً."
+wings: [time, people]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "في سنة 9هـ على عدّ الرحيق في وقائع السنة (ص439).", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/umm-kulthum-bint-muhammad, role: deceased, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: widower-called-dhu-al-nurayn, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, role: father-of-the-deceased, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 439" }
