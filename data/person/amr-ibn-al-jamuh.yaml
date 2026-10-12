@@ -1,0 +1,66 @@
+id: person/amr-ibn-al-jamuh
+class: person
+label:
+  ar: عمرو بن الجموح
+  en: Amr ibn al-Jamuh
+names:
+- kind: full
+  lang: ar
+  value: عمرو بن الجموح بن زيد بن حرام بن كعب بن غنم بن سلمة الأنصاري السلمي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من سادات الأنصار من بني سلمة، كان له صنم من خشب في داره يعظمه حتى أسلم بعد أن ألقاه فتيان قومه مراراً في العذرة، وقال ابن الكلبي إنه آخر الأنصار إسلاماً؛ قال النبي لبني سلمة «بل سيدكم عمرو بن الجموح» وكان يولم له إذا تزوج؛ واستشهد بأحد.
+  en: A chief of the Ansar from Banu Salima, who kept a wooden idol in his house until he embraced Islam, after the young men of his clan threw it repeatedly into the dung pits; Ibn al-Kalbi says he was the last of the Ansar to become Muslim;
+    the Prophet told Banu Salima 'rather, your chief is Amr ibn al-Jamuh', and he gave the wedding feast when the Prophet married; he was killed at Uhud.
+wings:
+- people
+themes:
+- converts-and-leavers
+- battles
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 6442 (ص 1091).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-salima
+  sources:
+  - source/ibn-hajar-isaba
+- type: parent_of
+  target: person/muadh-ibn-amr-ibn-al-jamuh
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 6442، ص 1091
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1091, entry 6442)

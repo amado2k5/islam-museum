@@ -1,0 +1,55 @@
+id: person/salim-mawla-abi-hudhayfa
+class: person
+label:
+  ar: سالم مولى أبي حذيفة
+  en: Salim, freed slave of Abu Hudhayfa
+names:
+- kind: full
+  lang: ar
+  value: سالم (قيل ابن معقل) مولى أبي حذيفة بن عتبة بن ربيعة بن عبد شمس
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من السابقين الأولين؛ أعتقته امرأة من الأنصار فوالى أبا حذيفة الذي تبناه، ثم رُدّ إلى مواليه لما نزلت آية الأحزاب في التبني؛ كان يؤم المهاجرين الأولين في مسجد قباء وفيهم أبو بكر وعمر، وقصة إرضاعه بسبب سهلة بنت سهيل مشهورة.
+  en: One of the earliest Muslims; a woman of the Ansar freed him and he attached himself to Abu Hudhayfa, who adopted him, then he was returned to his own clients when the verse in al-Ahzab about adoption was revealed; he led the first emigrants
+    in prayer at the mosque of Quba, among them Abu Bakr and Umar, and the story of his being nursed because of Sahla bint Suhayl is well known.
+wings:
+- people
+themes:
+- scripture-and-its-sciences
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 3112 (ص 537).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/muhajirun
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 3112، ص 537
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 537, entry 3112)

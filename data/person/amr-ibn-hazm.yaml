@@ -1,0 +1,66 @@
+id: person/amr-ibn-hazm
+class: person
+label:
+  ar: عمرو بن حزم
+  en: Amr ibn Hazm
+names:
+- kind: full
+  lang: ar
+  value: عمرو بن حزم بن زيد بن لوذان الأنصاري
+- kind: kunya
+  lang: ar
+  value: أبو الضحاك
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أنصاري أخو عمارة بن حزم؛ شهد الخندق وما بعدها واستعمله النبي على نجران، وروى عنه ابنه محمد كتاباً كتبه له فيه الفرائض والزكاة والديات أخرجه أبو داود والنسائي وابن حبان والدارمي؛ مات في خلافة عمر عند أبي نعيم، ويرجح ابن حجر أنه عاش بعد الخمسين.
+  en: An Ansari, brother of Umara ibn Hazm; he took part in al-Khandaq and later campaigns, and the Prophet appointed him over Najran; his son Muhammad narrated from him a letter the Prophet wrote for him on the obligations, zakat and blood-money,
+    which Abu Dawud, al-Nasa'i, Ibn Hibban and al-Darimi record; Abu Nu'aym says he died under Umar, while Ibn Hajar judges it likelier that he lived past the fifties AH.
+wings:
+- people
+themes:
+- scripture-and-its-sciences
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 6465 (ص 1095).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/umara-ibn-hazm
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 6465، ص 1095
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1095, entry 6465)

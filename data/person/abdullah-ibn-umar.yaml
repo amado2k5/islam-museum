@@ -1,0 +1,64 @@
+id: person/abdullah-ibn-umar
+class: person
+label:
+  ar: عبد الله بن عمر بن الخطاب
+  en: Abdullah ibn Umar ibn al-Khattab
+names:
+- kind: full
+  lang: ar
+  value: عبد الله بن عمر بن الخطاب بن نفيل القرشي العدوي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: ابن الخليفة عمر بن الخطاب وأمه زينب بنت مظعون؛ أسلم صغيراً مع أبيه وهاجر، وعُرض على النبي ببدر وأحد فاستُصغر وأُجيز في الخندق، وهو من المكثرين من الحديث وعُرف بتتبع آثار النبي؛ توفي سنة 73هـ على قول الجمهور وقيل 74هـ.
+  en: The son of the caliph Umar ibn al-Khattab and Zaynab bint Maz'un; he embraced Islam young with his father and emigrated, was presented to the Prophet at Badr and Uhud and turned back as too young, and was accepted at al-Khandaq; he is one
+    of the great narrators of hadith and was known for following the Prophet's footsteps; he died in 73 AH on the majority view, some say 74 AH.
+wings:
+- people
+themes:
+- scripture-and-its-sciences
+- children-and-youth
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 5350 (ص 917).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/umar-ibn-al-khattab
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/hafsa
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 5350، ص 917
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 917, entry 5350)

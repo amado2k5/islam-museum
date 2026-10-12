@@ -1,0 +1,73 @@
+id: person/ubayy-ibn-kab
+class: person
+label:
+  ar: أبي بن كعب
+  en: Ubayy ibn Ka'b
+names:
+- kind: full
+  lang: ar
+  value: أبي بن كعب بن قيس بن عبيد بن زيد بن معاوية بن عمرو بن مالك بن النجار الأنصاري
+- kind: kunya
+  lang: ar
+  value: أبو المنذر وأبو الطفيل
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: «سيد القراء» من الأنصار، من أصحاب العقبة الثانية وشهد بدراً والمشاهد كلها؛ قال له النبي إن الله أمره أن يقرأ عليه، وكان عمر يسميه سيد المسلمين؛ وفي تاريخ وفاته أقوال بين سنة 19هـ و32هـ يرجح ابن حجر وأبو نعيم أنها في خلافة عثمان.
+  en: The 'master of the reciters' among the Ansar, present at the second pledge of al-Aqaba, at Badr and in all the campaigns; the Prophet told him that God had commanded him to recite to him, and Umar called him the master of the Muslims; the
+    date of his death is given from 19 AH to 32 AH, and Abu Nu'aym favours the caliphate of Uthman.
+wings:
+- people
+themes:
+- scripture-and-its-sciences
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 47 (ص 26).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 47، ص 26
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 26, entry 47)
