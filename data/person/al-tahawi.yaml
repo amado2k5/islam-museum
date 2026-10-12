@@ -1,0 +1,24 @@
+id: person/al-tahawi
+class: person
+label: { ar: "أبو جعفر الطحاوي", en: "Abu Ja'far al-Tahawi" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن محمد بن سلامة أبو جعفر الطحاوي الأزدي الحنفي المصري" }
+gender: male
+born: { hijri: "0239", status: tradition, note: "Date from the short biography in the Dar Ibn Hazm edition; one source, a second is needed before promotion.", sources: [source/aqida-tahawiyya] }
+died: { hijri: "0321", status: tradition, note: "Died in Egypt in 321 AH according to the same biography; one source, a second is needed.", sources: [source/aqida-tahawiyya] }
+roles: [scholar, jurist, theologian]
+traditions: [sunni]
+summary:
+  ar: "إمام محدث فقيه حنفي مصري من الأزد، قيل إنه أخذ العلم عن نحو ثلاثمئة شيخ؛ له «مشكل الآثار» و«معاني الآثار» و«العقيدة الطحاوية»."
+  en: "A Hanafi hadith scholar and jurist of Egypt from the tribe of Azd, said to have taken knowledge from about three hundred teachers; author of Mushkil al-Athar, Ma'ani al-Athar and the Tahawi creed."
+wings: [people]
+themes: [creed]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile]
+faith:
+  - { value: sunni-hanafi, basis: documented, note: "He names himself as following the creed of the jurists of the community Abu Hanifa, Abu Yusuf and Muhammad ibn al-Hasan in the preamble of his creed.", sources: [source/aqida-tahawiyya] }
+relations:
+  - { type: authored, target: work/aqida-tahawiyya, sources: [source/aqida-tahawiyya] }
+provenance: { layer: own-research, source: "العقيدة الطحاوية، طبعة دار ابن حزم 1995، ص 5 و7", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: tahawiyya-1 }
+sources: [source/aqida-tahawiyya]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; from the biographical note and preamble of the Dar Ibn Hazm edition, no prose yet" }
