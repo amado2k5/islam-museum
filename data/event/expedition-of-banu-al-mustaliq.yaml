@@ -14,7 +14,7 @@ date:
 relations:
   - { type: occurred_at, target: place/mecca }
   - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
-  - { type: had_participant, target: person/juwayriyya-bint-al-harith, role: "ابنة زعيمهم، كاتبت على نفسها ثم تزوجها النبي فأُعتق قومها", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: person/juwayriya-bint-al-harith, role: "ابنة زعيمهم، كاتبت على نفسها ثم تزوجها النبي فأُعتق قومها", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: had_participant, target: person/abdullah-ibn-ubayy, role: "خرج في الغزوة مع المنافقين وأثار فتنة العصبية عند بئر المريسيع", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: group/quraysh }
   - { type: part_of, target: period/prophetic-era }
