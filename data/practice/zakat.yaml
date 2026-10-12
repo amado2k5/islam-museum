@@ -1,0 +1,50 @@
+id: practice/zakat
+class: practice
+kind: pillar
+label:
+  ar: الزكاة
+  en: Zakat (obligatory alms)
+summary:
+  ar: الصدقة المفروضة، وهي من أركان الإسلام الخمسة؛ ذكرها القرآن مقرونة بالصلاة وحدّد مصارفها في آية الصدقات، ومنها المؤلفة قلوبهم، ووصفها حديث جبريل بأنها «المفروضة» تمييزاً لها عن صدقة التطوع.
+  en: The obligatory alms, one of the five pillars; the Qur'an pairs it with prayer and names its recipients in the verse on alms, among them those whose hearts are to be reconciled, and the hadith of Jibril calls it the 'obligatory' alms to
+    set it apart from voluntary giving.
+wings:
+- ideas
+themes:
+- worship-and-the-pillars
+periods:
+- period/prophetic-era
+regions:
+- global
+obligation: obligatory
+when:
+  ar: فريضة مالية على من تجب عليه
+  en: a financial obligation on those liable to it
+scriptural_basis:
+- passage/quran-2-43
+- passage/quran-9-60
+basis:
+- tradition: sunni
+  value: scriptural
+relations:
+- type: based_on
+  target: passage/quran-2-43
+  sources:
+  - source/tanzil-quran
+- type: based_on
+  target: passage/quran-9-60
+  sources:
+  - source/tanzil-quran
+provenance:
+  layer: own-research
+  source: صحيح البخاري 8 و46 و50؛ القرآن
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: core-concepts-1
+sources:
+- source/sahih-al-bukhari
+- source/tanzil-quran
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text

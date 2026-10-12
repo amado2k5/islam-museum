@@ -1,0 +1,50 @@
+id: practice/sawm-ramadan
+class: practice
+kind: pillar
+label:
+  ar: صيام رمضان
+  en: Fasting in Ramadan
+summary:
+  ar: صيام شهر رمضان، وهو من أركان الإسلام الخمسة؛ فرضه القرآن ببيان أن الشهر الذي أُنزل فيه القرآن يصومه من شهده، وللمريض والمسافر عدة من أيام أخر.
+  en: Fasting through the month of Ramadan; the Qur'an prescribes it and says that whoever witnesses the month should fast it, with a number of other days for the sick and the traveller.
+wings:
+- ideas
+themes:
+- fasting
+- worship-and-the-pillars
+periods:
+- period/prophetic-era
+regions:
+- global
+obligation: obligatory
+when:
+  ar: شهر رمضان
+  en: the month of Ramadan
+scriptural_basis:
+- passage/quran-2-183
+- passage/quran-2-185
+basis:
+- tradition: sunni
+  value: scriptural
+relations:
+- type: based_on
+  target: passage/quran-2-183
+  sources:
+  - source/tanzil-quran
+- type: based_on
+  target: passage/quran-2-185
+  sources:
+  - source/tanzil-quran
+provenance:
+  layer: own-research
+  source: صحيح البخاري 8 و46 و50؛ القرآن
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: core-concepts-1
+sources:
+- source/sahih-al-bukhari
+- source/tanzil-quran
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text

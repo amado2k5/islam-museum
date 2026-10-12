@@ -1,0 +1,36 @@
+id: concept/iman
+class: concept
+kind: doctrine
+label:
+  ar: الإيمان
+  en: Iman (faith)
+summary:
+  ar: 'التصديق بأركان العقيدة كما بيّنها النبي في حديث جبريل: أن يؤمن الإنسان بالله وملائكته وكتبه ولقائه ورسله وبالبعث؛ وفي ترجمة البخاري لباب أمور الإيمان أنه «قول وفعل، يزيد وينقص»، وهو موقف أهل الحديث الذي افتتح به كتاب الإيمان.'
+  en: 'Belief in the articles of the creed as the Prophet set them out in the hadith of Jibril: belief in God, His angels, His books, meeting Him, His messengers and the resurrection; al-Bukhari''s chapter heading on the branches of iman states
+    that it is speech and action, which increases and decreases.'
+wings:
+- ideas
+themes:
+- creed
+periods:
+- period/prophetic-era
+regions:
+- global
+relations:
+- type: basis_for
+  target: concept/islam-din
+  sources:
+  - source/sahih-al-bukhari
+provenance:
+  layer: own-research
+  source: صحيح البخاري، كتاب الإيمان، الأحاديث 8 و46 و50
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: core-concepts-1
+sources:
+- source/sahih-al-bukhari
+- source/tanzil-quran
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text

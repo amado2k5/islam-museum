@@ -1,0 +1,54 @@
+id: practice/salah
+class: practice
+kind: pillar
+label:
+  ar: الصلاة
+  en: Salah (the prescribed prayer)
+summary:
+  ar: الصلاة المفروضة خمس مرات في اليوم والليلة، وهي من أركان الإسلام الخمسة؛ ورد الأمر بإقامتها في القرآن وبأنها كتاب موقوت على المؤمنين، وفي الحديث أن ما عداها من الصلوات تطوع.
+  en: The prescribed prayer, five times in the day and night, one of the five pillars of Islam; the Qur'an commands establishing it and calls it a timed obligation on the believers, and the hadith adds that other prayers are voluntary.
+wings:
+- ideas
+themes:
+- worship-and-the-pillars
+periods:
+- period/prophetic-era
+regions:
+- global
+obligation: obligatory
+when:
+  ar: خمس صلوات في اليوم والليلة
+  en: five prayers in each day and night
+scriptural_basis:
+- passage/quran-2-43
+- passage/quran-4-103
+- passage/quran-17-78
+basis:
+- tradition: sunni
+  value: scriptural
+relations:
+- type: based_on
+  target: passage/quran-2-43
+  sources:
+  - source/tanzil-quran
+- type: based_on
+  target: passage/quran-4-103
+  sources:
+  - source/tanzil-quran
+- type: based_on
+  target: passage/quran-17-78
+  sources:
+  - source/tanzil-quran
+provenance:
+  layer: own-research
+  source: صحيح البخاري 8 و46 و50؛ القرآن
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: core-concepts-1
+sources:
+- source/sahih-al-bukhari
+- source/tanzil-quran
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text
