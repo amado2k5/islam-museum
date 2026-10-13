@@ -1,0 +1,19 @@
+id: event/asawira-basra-settlement
+class: event
+kind: other
+label: { ar: "نزول الأساورة البصرة", en: "The Asawira's Settlement at Basra" }
+summary:
+  ar: "شهد الأساورة مع أبي موسى حصار تستر فلم يظهر منهم نكاية فقال لسياه يا عون ما أنت وأصحابك كما كنا نظن فقال له إنه ليست بصائرنا كبصائركم ولا لنا فيكم حرم تخاف عليها ونقاتل وإنما دخلنا هذا الدين في بدء أمرنا تعوذاً وإن كان الله رزقاً خيراً كثيراً ثم فرض لهم في شرف العطاء فلما صاروا إلى البصرة سألوا أي الأحياء أقرب نسباً إلى رسول الله فقيل بنو تميم وكانوا على أن يحالفوا الأزد فتركوهم وحالفوا بني تميم وسيدهم يومئذ الأحنف بن قيس ثم خطت لهم خططهم فنزلوا وحفروا نهرهم وهو يعرف بنهر الأساورة وأراد شيرويه أن ينزل في بكر بن وائل فأبى سياه فنزلوا في بني تميم وانضم إليهم السيايجة والزط فتنازعتهم بنو تميم فرغبوا فيهم فصارت الأساورة في بني سعد والزط والسيايجة في بني حنظلة فأقاموا يقاتلون المشركين وخرجوا مع ابن عامر إلى خراسان."
+  en: "At Tustar's siege the asawira showed no treachery; Abu Musa told Siyah 'you are not what we supposed' — Siyah answered 'our insight is not yours, and we hold no sacrality over you to fear for and fight: we entered this religion at its dawn seeking refuge, and it may be God's generous provision'. Granted top-tier stipends, they asked at Basra which clan was nearest the Prophet's kin — 'Banu Tamim' — so they allied them (the Azd having turned them away), took their plots, and dug the canal still called Nahr al-Asawira. Shirawayh had wished Bakr ibn Wa'il; Siyah refused, they settled with Tamim; the Sayabija and Zutt joined and Tamim contested for them — the asawira ending in Banu Sa'd, the Zutt and Sayabija in Banu Hanzala — fighting the polytheists and riding with Ibn Amir to Khurasan."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/siyah-al-uswari, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/asawira, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

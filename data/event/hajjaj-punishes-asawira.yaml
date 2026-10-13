@@ -1,0 +1,19 @@
+id: event/hajjaj-punishes-asawira
+class: event
+kind: other
+label: { ar: "عقوبة الحجاج للأساورة", en: "al-Hajjaj's Punishment of the Asawira" }
+summary:
+  ar: "لم يشهد الأساورة مع المسلمين الجمل وصفين ولا شيئاً من حروبهم حتى كان يوم مسعود ثم شهدوا بعد يوم مسعود الربذة وشهدوا أمر ابن الأشعث مع الحجاج فهدم الحجاج دورهم وحط أعطياتهم وأجلى بعضهم وقال كان في شرطكم أن لا تعينوا بعضنا على بعض."
+  en: "The asawira stood aside at the Camel and Siffin and all the Muslims' civil wars till Yawm Mas'ud, then witnessed al-Rabadha and the Ibn al-Ash'ath affair — for which al-Hajjaj razed their houses, cut their stipends and exiled some, citing their own clause: 'it was in your compact not to aid one of us against another'."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "المعاقب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/asawira, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

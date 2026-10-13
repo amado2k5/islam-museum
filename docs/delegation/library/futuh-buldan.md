@@ -143,4 +143,6 @@
 
 - **Batch 64** (pp. 516–519 — waterworks + Asawira): `event/asawira-defection` (Siyah's five conditions → Umar: grant all); `event/building-of-al-mughitha` + `place/al-mughitha` (Sulayman's million-dirham dam, al-Qandal dam); `event/basra-crowd-abdallah-ibn-ali` ("يا أمير المؤمنين انزل إلينا نبايعك" — batiha picture delegation); `place/al-subaytiyya` + `person/subayt` (the wronged dahqan); `place/al-shuaybiyya` (sharecrop ushr for Ali ibn al-Rashid); `person/naib-ibn-ziyad-al-wasiti`, `qurra-ibn-habban`, `qays-ibn-masud` (Kisra's Taff warden); places qantarat-qurra, al-manjashaniyya, khuzistan.
 
-**Next:** batch 65 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 65** (pp. 520–523 — Asawira/Zutt dossier): `event/asawira-basra-settlement` (Siyah's "تعوذاً" speech, Tamim alliance, Nahr al-Asawira); `event/hajjaj-punishes-asawira` (Rabadha → houses razed, stipends cut, own clause cited); `event/zutt-brigandage` (Kaskar settlement → batiha banditry, Mu'tasim → Ujayf's water-damming capture, dispersed to Khaniqin/Ayn Zarba/thughur); `group/zutt`, `group/sayabija` (treasury guards); `person/ujayf-ibn-anbasa`, `al-rabi-ibn-ziyad-al-harithi`, `suwayd-ibn-abdallah-al-tamimi`, `dawud-ibn-abi-hind`, `said-ibn-abi-aruba`; `place/al-kalbaniyya`; abdallah-ibn-ali-ibn-abdallah merged.
+
+**Next:** batch 66 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

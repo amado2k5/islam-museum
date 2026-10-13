@@ -1,0 +1,20 @@
+id: event/zutt-brigandage
+class: event
+kind: war
+label: { ar: "قطع الزط ومحاربة عجيف لهم", en: "The Zutt Brigandage and Ujayf's War" }
+summary:
+  ar: "أتي الحجاج بخلق من زط السند وأصناف ممن بها من الأمم معهم أهلوهم وأولادهم وجواميسهم فأسكنهم بأسافل كسكر فغلبوا على البطيحة وتناسلوا بها ثم ضم إليهم قوم من أباق العبيد وموالي باهلة وخولة محمد بن سليمان بن علي فشجعوهم على قطع الطريق ومبارزة السلطان بالمعصية وكان الناس في بعض أيام المأمون قد تحاموا الاجتياز بهم وانقطع عن بغداد جميع ما كان يحمل إليها من البصرة في السفن فلما استخلف المعتصم تجرد لهم وولى محاربتهم عجيف بن عنبسة من أهل خراسان وضم إليه من القواد والجند خلقاً ولم يمنعه شيئاً طلبه من الأموال فرتب بين البطائح ومدينة السلام خيلاً مضمرة مهلوبة الأذيال وكانت أخبار الزط تأتيه بمدينة السلام في ساعات من النهار أو أول الليل وأمر عجيفاً فسد عنهم الماء بالمؤن العظام حتى أخذوا فلم ينج منهم أحد وقدم بهم إلى مدينة السلام في الزواريق فجعل بعضهم بخانقين وفرق سائرهم في عين زربة والثغور."
+  en: "Al-Hajjaj settled a mass of Sind's Zutt — families, children and buffaloes — in Kaskar's lowlands; they overran the batiha and bred, joined by runaway slaves and the Bahila and Khawla mawlas of Muhammad ibn Sulayman ibn Ali, who egged them to highway robbery and open defiance. In al-Ma'mun's days travellers avoided them and Baghdad lost all Basra shipping; al-Mu'tasim devoted himself to them, charging the Khurasani Ujayf ibn Anbasa with open funds — he staged lean tailed horses between the bata'ih and Baghdad so word reached him within hours — and Ujayf dammed the water against them with great works till not one escaped, barged them to Baghdad and scattered them: some at Khaniqin, the rest to Ayn Zarba and the frontier."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/ujayf-ibn-anbasa, role: "قائد الحملة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/zutt, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
