@@ -1,0 +1,19 @@
+id: place/manbij
+class: place
+kind: city
+label: { ar: "منبج", en: "Manbij" }
+summary:
+  ar: "منبج من أعمال جند قنسرين على ناحية دلوك ورعبان؛ قدّم إليها إياد بن غنم فصالح أهلها على مثل صلح أنطاكية وأنفذ أبو عبيدة ذلك، وبعث إياد إلى دلوك ورعبان فصالحه أهلها على مثل صلح منبج واشترط عليهم أن يبحثوا عن أخبار الروم ويكاتبوا بها المسلمين؛ وقربها قرية جسر منبج ولم يكن الجسر يومئذ إنما اتخذ في خلافة عثمان بن عفان للصوائف ويقال بل كان له رسم قديم؛ وولّى أبو عبيدة كل كورة فتحها عاملاً وضم إليه جماعة من المسلمين وشحن النواحي المخوفة."
+  en: "Manbij of the Qinnasrin jund in the Duluk–Ra'ban quarter; Iyad ibn Ghanm went before it and its people compounded on Antioch's terms, which Abu Ubayda ratified, and Iyad was sent on to Duluk and Ra'ban whose people compounded on Manbij's terms with the stipulation that they seek out news of the Byzantines and write it to the Muslims; near it stands the village of Jisr Manbij — no bridge existing then, made in Uthman's caliphate for the summer expeditions, or by some report of ancient trace; Abu Ubayda set over every kura he took an administrator joined to a Muslim garrison, provisioning the exposed quarters."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/qinnasrin, note: "من كور جند قنسرين", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 204–205"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-10
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

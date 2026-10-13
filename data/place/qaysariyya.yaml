@@ -1,0 +1,20 @@
+id: place/qaysariyya
+class: place
+kind: city
+label: { ar: "قيسارية", en: "Caesarea" }
+summary:
+  ar: "قيسارية الساحلية من أعمال فلسطين؛ أول من حاصرها عمرو بن العاص سنة 13 وأنفذ فتحها معاوية بن أبي سفيان شوال سنة 19 — وقيل أول سنة 20 — بعد حصار نحو سبع سنين ودلالة يوسف اليهودي على السرب؛ روى الواقدي أنه وجد بها من المرتدة سبعمائة ألف ومن السامرة ثلاثين ألفاً ومن اليهود مائتي ألف وبها ثلاثمائة سوق وكان يحرس سورها كل ليلة مائة ألف؛ وأخرج الروم أيام ابن الزبير على قيسارية فشعثوها وهدموا مسجدها فلما استقام لعبد الملك بن مروان الأمر رمّها وأعاد مسجدها وأشحنها بالرجال وبنى صور وعكا الخارجة وكانتا على مثل سبيلها."
+  en: "Coastal Caesarea of the Filastin district; first besieged by Amr ibn al-As in year 13 and finally taken by Mu'awiya ibn Abi Sufyan in Shawwal year 19 — some say the opening of year 20 — after a siege of near seven years and the guidance of Yusuf the Jew to the water-conduit; al-Waqidi reports it held seven hundred thousand apostates, thirty thousand Samaritans and two hundred thousand Jews, three hundred markets and a hundred thousand guarding its wall each night; in Ibn al-Zubayr's days the Byzantines came upon it and ruined it, demolishing its mosque, and when Abd al-Malik's rule was secure he repaired it, restored its mosque, garrisoned it and rebuilt Tyre and Acre the Outer on its model."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/jerusalem, note: "من أعمال جند فلسطين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/conquest-of-caesarea, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 191–195"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-10
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,24 @@
+id: event/founding-of-ramla
+class: event
+kind: founding
+label: { ar: "تأسيس الرملة", en: "The Founding of al-Ramla" }
+summary:
+  ar: "عند البلاذري: ولّى الوليد بن عبد الملك أخاه سليمان بن عبد الملك جند فلسطين فنزل اللد ثم أحدث مدينة الرملة ومصّرها وكان أول ما بنى منها قصره والدار التي تعرف بدار الصباغين وجعل في الدار صهريجاً متوسطاً لها ثم اختط للمسجد خطته وبناه فولي الخلافة قبل استتامه ثم بنى فيه بعد في خلافته ثم أتمه عمر بن عبد العزيز ونقص من الخطة وقال أهل الرملة يكتفون بهذا المقدار الذي اقتصرت بهم عليه؛ ولما بنى سليمان لنفسه أذن للناس في البناء فبنوا واحتفر لأهل الرملة قناتهم التي تدعى بردة واحتفر آباراً وولي النفقة على بنائه بالرملة ومسجد الجماعة كاتباً له نصرانياً من أهل اللد يقال له البطريق بن النكا؛ ولم تكن مدينة الرملة قبل سليمان وكان موضعها رملة؛ وكان بنو أمية ينفقون على آبارها وقناتها بعد سليمان فلما استخلف بنو العباس أنفقوا عليها وكان الأمر في تلك النفقة يخرج كل سنة من خليفة بعد خليفة فلما استخلف المعتصم أسجل بتلك النفقة سجلاً فصارت جارية يُحتسب بها المتآل."
+  en: "In al-Baladhuri: al-Walid ibn Abd al-Malik gave his brother Sulayman command of the Filastin jund, and he settled at Lydda then founded the city of al-Ramla and made it an amsar — the first thing he built being his palace and the house known as Dar al-Sabbaghin with a central cistern, then he laid out the mosque's plan and built it, taking the caliphate before completing it and finishing it in his reign, Umar ibn Abd al-Aziz completing it while reducing the plan, saying 'the people of al-Ramla are content with this measure'; when Sulayman built for himself he gave people leave to build and they did, digging the canal called Barada and wells for them, a Christian clerk of Lydda named al-Batriq ibn al-Nakka overseeing the expenditure on the works and the congregational mosque; the city of al-Ramla did not exist before Sulayman, its site being a sandy tract; the Umayyads spent on its wells and canal after him, then the Abbasids did likewise, the charge issuing yearly from caliph to caliph until al-Mu'tasim entered it in the register, whence it became a standing annuity reckoned to the claimants."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0715~", hijri: "0096~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية الوليد بن عبد الملك (86–96هـ) (البلاذري ص 195). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ramla }
+  - { type: had_participant, target: person/sulayman-ibn-abd-al-malik, role: "مؤسس المدينة ومصّرها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-walid-ibn-abd-al-malik, role: "ولّاه جند فلسطين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "أتم مسجدها منقوص الخطة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 195–196"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-10
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

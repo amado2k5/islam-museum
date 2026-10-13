@@ -1,0 +1,20 @@
+id: place/qinnasrin
+class: place
+kind: city
+label: { ar: "قنسرين", en: "Qinnasrin" }
+summary:
+  ar: "قنسرين رأس جند قنسرين والعواصم؛ صالح أهلها أبا عبيدة على مثل صلح حمص ثم نقضوا ففتحها السمط بن الأسود الكندي؛ وكان بها حاضر تنوخ منذ أول نزولهم بالشام في خيم الشعر ثم ابتنوا المنازل فأسلم بعضهم وأقام على النصرانية بنو صالح بن حلوان من قضاعة ومنهم من أسلم أيام المهدي؛ وصارت هي وحمص جنداً واحداً، ومن كورها حلب ومنبج وحرّان وما والاها."
+  en: "Qinnasrin, capital of the Qinnasrin-and-Awasim jund; its people compounded with Abu Ubayda on Hims's terms then broke faith, and al-Simt ibn al-Aswad al-Kindi retook it; it held the Tanukh hadir from their first settling in Syria in hair tents before they built houses — some converting while Banu Salih ibn Hulwan of Quda'a stayed Christian, some converting in al-Mahdi's days; it and Hims afterwards formed a single jund, its kuwar including Aleppo, Manbij, Harran and what adjoins them."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/conquest-of-qinnasrin, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: part_of, target: place/damascus, note: "جند من أجناد الشام", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 197–198"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-10
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

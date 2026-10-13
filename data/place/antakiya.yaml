@@ -1,0 +1,20 @@
+id: place/antakiya
+class: place
+kind: city
+label: { ar: "أنطاكية", en: "Antioch" }
+summary:
+  ar: "أنطاكية مدينة الثغر الشامي على الأرنط؛ صالح أهلها أبا عبيدة على الجزية والجلاء فجلا بعضهم وأقام بعضهم على دينار وجريب لكل حالم ثم نقضوا فأعاد فتحها إياد بن غنم وحبيب بن مسلمة على الصلح الأول؛ وأمر عمر بترتيب مرابطة من المسلمين أهل النيات والحسبة بها ولحقت بأمرها الصوائف، وأقطع عثمان بها قطائع ونقل إليها معاوية سنة 42 فرساً وأهالي بعلبك وحمص والمصرين؛ وبها باب مسلم سمي بمسلم بن عبد الله جد عبد الله بن حبيب الأنطاكي قتله علج بحجر على السور، وأقطع الوليد بن عبد الملك جنداً أرض سلوقية وبنى حصنها، وكانت أرض بغراس لمسلمة بن عبد الملك فوقفها في سبيل البر."
+  en: "Antioch, the Syrian frontier city on the Amanus approach; its people compounded with Abu Ubayda for jizya and evacuation — some departing, some staying at a dinar and a jarib per adult — then broke faith, and Iyad ibn Ghanm with Habib ibn Maslama retook it on the first treaty; Umar ordered murabita of right intent settled there and the summer expeditions attached to it, Uthman granted estates in it, and Mu'awiya transferred Persians and people of Ba'labakk, Hims and the two Misrs to it in year 42; it holds Bab Muslim named for Muslim ibn Abdullah, grandfather of Abdullah ibn Habib, whom a Byzantine killed with a stone on the wall; al-Walid granted troops the Saluqiyya lands and built its fortress, and Maslama ibn Abd al-Malik's Baghras lands became his endowment in the way of good."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/conquest-of-antioch, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: part_of, target: place/qinnasrin, note: "من جند قنسرين والعواصم", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 200–202"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-10
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

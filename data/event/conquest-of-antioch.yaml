@@ -1,0 +1,27 @@
+id: event/conquest-of-antioch
+class: event
+kind: conquest
+label: { ar: "فتح أنطاكية", en: "The Conquest of Antioch" }
+summary:
+  ar: "عند البلاذري: سار أبو عبيدة من حلب إلى أنطاكية وقد تحصن بها خلق من أهل جند قنسرين فلما صار بهروبة — وهي على قريب فرسخين من المدينة — لقيه جمع للعدو ففضّهم وألجأهم إلى المدينة وحاصر أهلها من جميع أبوابها وكان معظم الجيش على باب فارس والباب الذي يدعى باب البحر، ثم صالحوه على الجزية والجلاء فجلا بعضهم وأقام بعضهم فأمنهم ووضع على كل حالم منهم ديناراً وجريباً، ثم نقضوا العهد فوجه إليهم إياد بن غنم وحبيب بن مسلمة ففتحاها على الصلح الأول — ويقال بل نقضوا بعد رجوعه إلى فلسطين فوجه عمرو بن العاص من إيلياء ففتحها؛ وكتب عمر إلى أبي عبيدة أن رتب بأنطاكية جماعة من المسلمين أهل نيات وحسبة واجعلهم بها مرابطة ولا تحبس عنهم المطاء، ولما ولّى معاوية كتب إليه بمثل ذلك أما عثمان فكتب يأمره أن يلزمها قوماً وأن يقطع قطائع ففعل؛ ونقل معاوية إلى أنطاكية سنة 42 جماعة من الفرس وأهل بعلبك وحمص ومن المصرين وكان الوليد بن عبد الملك أقطع جنداً بها أرض سلوقية عند الساحل وصيّر الفلثر بدينار ومدي قمح فعمروها وبنى حصن سلوقية؛ وكان مسلم بن عبد الله — جد عبد الله بن حبيب بن النعمان الأنطاكي — من منقوليها وقتله علج بحجر على السور فسمي باب بأنطاكية باب مسلم."
+  en: "In al-Baladhuri: Abu Ubayda went from Aleppo to Antioch, where a body of the people of the Qinnasrin jund had fortified themselves; at Haruba — near two farsakhs from the city — an enemy gathering met him and he scattered them back into the city, besieging it at all its gates, the bulk of the army at Bab Faris and the gate called Bab al-Bahr; they then compounded for jizya and evacuation, some departing and some staying, and he secured them setting on each adult a dinar and a jarib; when they broke the covenant he sent Iyad ibn Ghanm and Habib ibn Maslama, who retook it on the first treaty — others say they broke it after he returned to Filastin and Amr ibn al-As was sent from Iliya' to take it; Umar wrote to Abu Ubayda to station at Antioch a company of Muslims of right intent and scruple as murabita, withholding no mounts from them, and Mu'awiya received the same when in office while Uthman ordered him to settle men there and grant land — which he did; Mu'awiya transferred to Antioch in year 42 companies of Persians and people of Ba'labakk, Hims and the two Misrs, and al-Walid ibn Abd al-Malik granted troops land at Saluqiyya by the coast rating the filthir at a dinar and two mudds of wheat — they cultivated it and he built Hisn Saluqiyya; among the transferees was Muslim ibn Abdullah — grandfather of Abdullah ibn Habib ibn al-Nu'man al-Antaki — whom a Byzantine killed with a stone on the wall, a gate of Antioch being named Bab Muslim after him."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0637~", hijri: "0016~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد قنسرين وحلب (البلاذري ص 200). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-syria }
+  - { type: occurred_at, target: place/antakiya }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "الحاصر وعاقد الصلح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/iyyad-ibn-ghanm, role: "أعاد فتحها مع حبيب بعد النقض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/habib-ibn-maslama, role: "أعاد فتحها مع إياد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "نقل إليها الفرس وأهل بعلبك وحمص سنة 42", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/jizya, note: "دينار وجريب على كل حالم مع خيار الجلاء", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 200–202"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-10
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
