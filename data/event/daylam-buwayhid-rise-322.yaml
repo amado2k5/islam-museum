@@ -1,0 +1,22 @@
+id: event/daylam-buwayhid-rise-322
+class: event
+kind: revolt
+label: { ar: "ظهور الديلم واستيلاء علي بن بويه على فارس" }
+summary:
+  ar: "في سنة اثنتين وعشرين دخل أصحاب مرداويج أصبهان وكان من قواده علي بن بويه فاقتطع مالاً جليلاً فانفرد عن مخدومه ثم التقى هو ومحمد بن ياقوت نائب الخليفة فهزم محمداً واستولى ابن بويه على فارس، وكان بويه فقيراً صعلوكاً يصيد السمك رأى كأنه بال فخرج من ذكره عمود نار فتشعب حتى ملأ الدنيا فعبرت بأن أولاده يملكون الدنيا، وأرسله مرداويج يستخرج له مالاً من الكرخ فاستخرج خمس مئة ألف درهم وأتى همذان ليملكها فغلق أهلها في وجهه الأبواب فقاتلهم وفتحها عنوة وقتل خلقاً ثم صار إلى شيراز، ونام على ظهره فخرجت حية من سقف المجلس فنقضه فخرجت صناديق ملأى ذهباً فأنفقها في جنده، وركب يوماً فساخت قوائم فرسه فحفروه فوجدوا كنزاً، وخرجت خراسان وفارس عن حكم الخلافة {cite:tarikh-khulafa-minhaj-1434 p. 598}."
+  en: "In 322 Mardawij's men entered Isfahan; among his captains Ali ibn Buya drew a great sum then broke from his master, beat the caliph's deputy Muhammad ibn Yaqut, and took Fars. Buya had been a poor fisherman who dreamed fire issued from him and filled the world — read as his sons ruling it. Sent by Mardawij to extract money from Karkh he took five hundred thousand dirhams, stormed Hamadhan, moved to Shiraz, and twice uncovered chests of gold — under a snake-cleared ceiling and beneath his horse's hooves. Khurasan and Fars left the caliphate's rule {cite:tarikh-khulafa-minhaj-1434 p. 598}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0934~", hijri: "0322", calendar: julian, precision: year, status: tradition, derived: true, note: "322؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 598}." }
+relations:
+  - { type: had_participant, target: person/mardawij-ibn-ziyad, role: "مقدم الديلم", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ali-ibn-buya, role: "المستولي على فارس", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 594–604"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-34
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

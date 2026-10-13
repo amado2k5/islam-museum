@@ -1,0 +1,21 @@
+id: event/death-of-ubayd-allah-al-mahdi
+class: event
+kind: death
+label: { ar: "وفاة المهدي عبيد الله صاحب المغرب" }
+summary:
+  ar: "في أيام الراضي مات المهدي صاحب المغرب وكانت أيامه خمساً وعشرين سنة وهو جد خلفاء المصريين الذين يسمونهم الجهلة بالفاطميين، ونقل السيوطي عن من انتقده أن المهدي ادعى أنه علوي وأن القاضي أبا بكر الباقلاني قال إنه علوي ولم يعرفه أحد من علماء النسب وأنه أعدم العلماء والفقهاء ليتمكن من إغواء الخلق، وقام بالأمر بعد موته ابنه القائم بأمر الله أبو القاسم محمد {cite:tarikh-khulafa-minhaj-1434 p. 603}."
+  en: "Under al-Radi died the Maghreb's Mahdi after a reign of twenty-five years — grandfather of the Egyptian caliphs called Fatimids. Suyuti relays hostile reports: that he claimed Alid descent with al-Baqillani quoted as saying no genealogist knew it, and that he executed scholars; his son al-Qa'im bi-Amr Allah succeeded him {cite:tarikh-khulafa-minhaj-1434 p. 603}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0934~", hijri: "0322~", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو 322؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 603}." }
+relations:
+  - { type: had_participant, target: person/ubayd-allah-al-mahdi, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 594–604"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-34
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

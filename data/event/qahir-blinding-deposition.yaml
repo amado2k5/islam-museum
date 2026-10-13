@@ -1,0 +1,23 @@
+id: event/qahir-blinding-deposition
+class: event
+kind: mutiny
+label: { ar: "خلع القاهر وسمل عينيه" }
+summary:
+  ar: "في سنة اثنتين وعشرين تحرك الجند على القاهر لأن ابن مقلة في اختفائه كان يوحشهم منه ويقول لهم إنه بنى لكم المطامير ليحبسكم فاجتمعوا على الفتك به فدخلوا عليه بالسيوف فهرب فأدركوه وقبضوا عليه في سادس جمادى الآخرة وبايعوا محمد بن المقتدر ولقبوه الراضي بالله فأرسلوا إلى القاهر الوزير والقضاة فقال لي في أعناقكم بيعة ولست أبرئكم ولا أحلكم منها فقال الوزير يخلع ولا يفكر فيه فأشار سيما مقدم الحجرية إلى الراضي بسمله فكحله بمسمار محمي حتى سالت عيناه على خديه وكان قبل قد ذبح مؤنس وابن مقلة وطين على ابن المكتفي بين حيطين لاتفاقهم على خلعه {cite:tarikh-khulafa-minhaj-1434 p. 597-599}."
+  en: "In 322 the soldiers moved on al-Qahir — Ibn Muqla in hiding had set them against him — seized him on 6 Jumada II and hailed Muhammad ibn al-Muqtadir as al-Radi. Al-Qahir refused to release them from their bay'a; Sima, commander of the Hujariyya, had him blinded with a red-hot nail, his eyes running down his cheeks. Earlier that year he had slaughtered Mu'nis and his confederates and walled Ibn al-Muktafi alive between two walls for plotting his own deposition {cite:tarikh-khulafa-minhaj-1434 p. 597-599}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0934~", hijri: "0322", calendar: julian, precision: year, status: tradition, derived: true, note: "322؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 599}." }
+relations:
+  - { type: had_participant, target: person/al-qahir-billah, role: "المخلوع المسمول", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/sima-al-hujari, role: "المقدم", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-radi-billah, role: "الخليفة الجديد", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 594–604"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-34
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
