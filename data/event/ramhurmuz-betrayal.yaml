@@ -1,0 +1,18 @@
+id: event/ramhurmuz-betrayal
+class: event
+kind: conquest
+label: { ar: "نقض رامهرمز وفتحها", en: "Ramhurmuz's Breach and Reconquest" }
+summary:
+  ar: "هادن أبو موسى أهل رامهرمز ثم انقضت هدنتهم فوجه إليهم أبا مريم الحنفي فصالحهم على ثمانمائة ألف درهم أو تسعمائة ألف ثم إنهم غدروا ففتحت بعد عنوة فتحها أبو موسى في آخر أيامه."
+  en: "Abu Musa truced Ramhurmuz; they broke it, so Abu Maryam al-Hanafi re-truced them for eight hundred — or nine hundred — thousand dirhams; they betrayed again and it was taken by force in Abu Musa's last days."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abu-maryam-al-hanafi, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/ramhurmuz }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

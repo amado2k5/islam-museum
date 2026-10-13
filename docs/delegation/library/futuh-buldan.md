@@ -147,4 +147,6 @@
 
 - **Batch 66** (pp. 524–525 — Part 4's end): `event/sayabija-treasury-killing` (refused treasury to Talha/Zubayr till Ali came → killed at dawn, Ibn al-Zubayr leading); `person/abu-salama-al-zutti`, `khalid-al-shatir-ibn-marquli` (Bukharan stock); `event/zutt-syria-transfer` (Mu'awiya/Walid to Antioch coasts); `event/bukhara-settlers-basra` (Ubaydallah's captives → Wasit); `group/andaghar`. **Part 5 (كور الأهواز) opens p. 531.**
 
-**Next:** batch 67 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 67** (pp. 531–535 — Part 5: كور الأهواز): `event/siege-of-manadhir` (al-Muhajir's fasting martyrdom, head between merlons); `event/siege-of-al-sus` (marzban's 80-man trick; **Daniel's tomb** dammed-river burial on Umar's order); `event/ramhurmuz-betrayal` (Abu Maryam's 800k compact); `event/conquest-of-surraq` (Haritha repulsed → Ibn Amir by force → Abu al-Aswad's satire «فحظك من مال العراقين سرق»); `event/siege-of-tustar` (full order of battle — Ammar's Kufa aid, Bara' b. Malik martyred at the gate); places manadhir, suq-al-ahwaz, al-sus, ramhurmuz, surraq; persons al-muhajir-ibn-ziyad, asim-ibn-qays, abu-maryam-al-hanafi, khalid-ibn-zayd, majzaa-ibn-thawr, piruz-dahqan-ahwaz; qaraza-ibn-kab merged.
+
+**Next:** batch 68 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

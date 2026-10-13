@@ -1,0 +1,19 @@
+id: event/siege-of-al-sus
+class: event
+kind: conquest
+label: { ar: "فتح السوس", en: "Conquest of al-Sus" }
+summary:
+  ar: "سار أبو موسى إلى السوس فقاتل أهلها ثم حاصرهم حتى نفد ما عندهم من الطعام فضرعوا إلى الأمان وسأل مرزبانهم أن يؤمنوا ثمانين منهم على أن يفتح باب المدينة ويسلمها فسمى الثمانين وأخرج نفسه منهم فأمر به أبو موسى فضربت عنقه ولم يعرض للثمانين وقتل من سواهم من المقاتلة وأخذ الأموال وسبى الذرية ورأى أبو موسى في قلعتهم بيتاً عليه ستر فقيل إن فيه جثة دانيال النبي إنهم كانوا أقحطوا فسألوا أهل بابل دفنه إليهم ليستسقوا به وكان بختنصر سبى دانيال وأتى به بابل فقبض بها فكتب أبو موسى بذلك إلى عمر فكتب إليه عمر أن كفنه وادفنه فسد أبو موسى نهراً حتى إذا انقطع دفنه ثم أجرى الماء عليه وروى خالد بن زيد المزني وكانت عينه أصيبت بالسوس أن دهقانها صالح أبا موسى على أن يفتح المدينة ويؤمن له مائة فعزل المائة وبقي عدو الله فأمر به أن يقتل فنادى رويدك أعطيك مالاً كثيراً فأبى وضرب عنقه."
+  en: "Abu Musa besieged al-Sus till its food failed; its marzban bought aman for eighty named men — excluding himself — to open the gate; Abu Musa beheaded him, spared the eighty, killed the other fighters and took the wealth and children. In the citadel stood a curtained house: the body of the prophet Daniel, whom a drought had moved them to ask Babylon's people to bury among them for rain — Bukhtanasar had carried him captive to Babylon and he died there. Abu Musa wrote Umar, who answered 'shroud and bury him' — he dammed the river, buried him and released the water. Khalid ibn Zayd, who lost an eye there, tells the dahqan's hundred-man aman and the spared 'enemy of God' who cried 'wait, I give great wealth' — refused and beheaded."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khalid-ibn-zayd-al-muzani, role: "الراوي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/al-sus }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
