@@ -1,0 +1,27 @@
+id: event/prophets-yemen-appointments
+class: event
+kind: other
+label: { ar: "عمال النبي على اليمن", en: "The Prophet's Appointments in Yemen" }
+summary:
+  ar: "عند البلاذري: لما أسلم أهل اليمن بعد ما بلغهم ظهور رسول الله وجّه إليهم رسله وعماله لتعريفهم شرائع الإسلام وقبض صدقاتهم وجباية جزية من أقام على النصرانية واليهودية والمجوسية؛ فعن الواقدي أنه ولّى خالد بن سعيد بن العاص صنعاء وأرضها، وقال بعضهم إنما ولّى المهاجر بن أبي أمية المخزومي صنعاء فقبض وهو عليها، وقال آخرون إنما ولّاها أبو بكر، وولّى خالد بن سعيد مخاليف أعلى اليمن، وقال هشام بن الكلبي والهيثم بن عدي إنه ولّى المهاجر كِندة والصَّدِف؛ وأجمعوا أنه ولّى زياد بن لبيد البياضي الأنصاري حضرموت، وأبو موسى الأشعري زبيد ورمع وعدن والساحل، ومعاذ بن جبل الجُند وصيّر إليه القضاء وقبض جميع الصدقات باليمن، وعمرو بن حزم الأنصاري نجران — وقيل إنه ولّى أبا سفيان بن حرب نجران بعد عمرو؛ وكان في كتاب معاذ أن يأخذ الصدقة من الحنطة والشعير والتمر والزبيب والذرة، وأنه لما أُتي بأواقص البقر والعسل قال «لم أُمر في هذا بشيء»."
+  en: "In al-Baladhuri: when the people of Yemen accepted Islam on hearing of the Prophet's ascendancy he sent them his envoys and agents to teach Islam's laws, collect their alms and levy jizya on those remaining Christian, Jewish or Magian; per al-Waqidi he appointed Khalid ibn Sa'id ibn al-As over San'a and its land, while others held that al-Muhajir ibn Abi Umayya al-Makhzumi was appointed over San'a and died in office, others that Abu Bakr appointed him, with Khalid ibn Sa'id over the highland districts of upper Yemen — Hisham ibn al-Kalbi and al-Haytham ibn Adi giving al-Muhajir Kinda and al-Sadif; all agreed he appointed Ziyad ibn Labid al-Bayadi al-Ansari over Hadramawt, Abu Musa al-Ash'ari over Zabid, Rima', Aden and the coast, Mu'adh ibn Jabal over al-Jund with the judiciary and collection of all Yemen's alms, and Amr ibn Hazm al-Ansari over Najran — some saying Abu Sufyan ibn Harb was appointed after him; Mu'adh's letter instructed him to take the alms on wheat, barley, dates, raisins and sorghum, and when offered the awaqis of cattle and honey he said 'I was not commanded concerning this'."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد وفود اليمن وإسلامهم نحو أواخر عهد النبي؛ بلا تأريخ مفرد في الكتاب (البلاذري ص 92–94). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/yemen }
+  - { type: had_participant, target: person/khalid-ibn-said-ibn-al-as, role: "صنعاء عند الواقدي؛ مخاليف أعلى اليمن عند آخرين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muhajir-ibn-abi-umayya, role: "صنعاء عند بعضهم؛ كِندة والصَّدِف عند ابن الكلبي والهيثم بن عدي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ziyad-ibn-labid-al-bayadi, role: "حضرموت", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "زبيد ورمع وعدن والساحل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muadh-ibn-jabal, role: "الجُند والقضاء وقبض صدقات اليمن", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-hazm, role: "نجران", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 92–94 و98"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-4
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
