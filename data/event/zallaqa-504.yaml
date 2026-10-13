@@ -1,0 +1,21 @@
+id: event/zallaqa-504
+class: event
+kind: battle
+label: { ar: "الملحمة الكبيرة بين ابن تاشفين والفرنج" }
+summary:
+  ar: "في سنة أربع وخمس مئة كانت ملحمة كبيرة بين الفرنج وبين ابن تاشفين صاحب الأندلس نصر فيها المسلمون وقتلوا وأسروا وغنموا ما لا يعبر عنه وبادت شجعان الفرنج {cite:tarikh-khulafa-minhaj-1434 p. 660}."
+  en: "In 504 came the great melhama between the Franks and Ibn Tashfin, lord of al-Andalus: the Muslims were victorious, killed, captured and took spoil past telling, and the Franks' bravest perished {cite:tarikh-khulafa-minhaj-1434 p. 660}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1110~", hijri: "0504", calendar: julian, precision: year, status: tradition, derived: true, note: "السنة عند السيوطي ٥٠٤ والمعروف أن ملحمة الزلاقة كانت سنة ٤٧٩؛ أبقيت على نص المصدر {cite:tarikh-khulafa-minhaj-1434 p. 660}." }
+relations:
+  - { type: had_participant, target: person/yusuf-ibn-tashfin, role: "القائد المنتصر", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 657–666"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-40
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
