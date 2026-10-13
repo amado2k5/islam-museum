@@ -1,0 +1,20 @@
+id: person/kharija-ibn-zayd-ibn-thabit
+class: person
+label: { ar: "خارجة بن زيد بن ثابت", en: "Kharija ibn Zayd ibn Thabit" }
+names:
+  - { kind: full, lang: ar, value: "خارجة بن زيد بن ثابت" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "من فقهاء المدينة السبعة في الطبقة الثانية، كان هو وطلحة بن عبد الله بن عوف يُستفتيان في زمانهما، وينتهي الناس إلى قولهما في المواريث والوثائق، بحسب الشيرازي."
+  en: "Among the jurists of Medina in the second generation; with Talha ibn Abd Allah ibn Awf he was consulted in his time for inheritance and documents, as Shirazi reports."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+died: { hijri: "0100", edtf: "0718~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة مائة وهو ابن سبعين سنة (ط. إحسان عباس، ص33).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/tabaqat-fuqaha-abbas-1981] }
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) ص33–34", generated_by: "Claude (Haiku 5.5)", run: "lib-tabaqat-fuqaha-batch-2" }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 2 from Shirazi's list of Medina jurists; the variant dates are given as the book reports them; a second source is needed" }

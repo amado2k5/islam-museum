@@ -10,7 +10,7 @@
 ## Next
 Batch 2: the first jurists of the dictionary after the author's introduction, in the order the book gives them (approximately 25 entities per batch). Each entity gets a claims table in `~/islam-museum-harvest/books/tabaqat/tabaqat-fuqaha/claims/`.
 
-## Batch 2 (not committed)
+## Batch 2
 The dictionary proper starts at PDF p.20 (printed 20): "ذكر فقهاء الصحابة". The Companion jurists it names (pp. 21–34: Abu Bakr, Umar, Ali, Ibn Mas'ud, Abu Musa al-Ash'ari, Ubayy ibn Ka'b, Mu'adh ibn Jabal, Abu Sa'id, Abu al-Darda', Aisha, Ibn Umar, Amr ibn al-As, and the successor jurists Urwa, al-Qasim, Salim, Kharija, Sulayman ibn Yasar, Abu Salama…) already have person records under other slugs (e.g. `abdullah-ibn-masud`, `aisha`, `abdullah-ibn-umar`).
 Adding the `jurist` role and this source to those records needs text-level edits: re-dumping them with the YAML library reformats every date line and adds about 600 lines of diff, so a first attempt was reverted.
 Next: the successor jurists, with records created for the ones that do not exist yet.
