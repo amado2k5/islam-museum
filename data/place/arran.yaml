@@ -1,0 +1,19 @@
+id: place/arran
+class: place
+kind: region
+label: { ar: "أرّان", en: "Arran" }
+summary:
+  ar: "أرّان من بلاد أرمينية الأولى وكانت في أيدي الخزر؛ وطئها قائد قباذ بن فيروز في اثني عشر ألفاً وفتح ما بين نهر الرس إلى شروان وبنى فيها قباذ البيلقان وبرذعة وقبلة وسد اللبن؛ وكان سلمان بن ربيعة الباهلي مأموراً بغزوها من عثمان بعد أمر الغنيمة بقاليقلا."
+  en: "Arran, of the first Armenia's lands and then in Khazar hands; Qubadh ibn Fayruz's general trod it with twelve thousand, taking what lay between the river al-Rass and Shirwan, where Qubadh built al-Baylaqan, Bardha'a, Qabala and the wall of al-Lubn; Salman ibn Rabi'a al-Bahili was ordered by Uthman to raid it after the spoils affair at Qaliqala."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273، 279"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-16
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

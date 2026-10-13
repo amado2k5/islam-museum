@@ -1,0 +1,24 @@
+id: event/killing-of-mansur-ibn-jamwana
+class: event
+kind: death
+label: { ar: "قتل منصور بن جاونة بن الحارث", en: "The Killing of Mansur ibn Jamwana" }
+summary:
+  ar: "عند البلاذري عن أبي عمرو الباهلي وغيره: نُسب حصن منصور إلى منصور بن جاونة بن الحارث العامري من قيس لأنه تولى بناءه ومرمّته وكان مقيماً به أيام مروان ليردّ العدو ومعه جند كثيف من أهل الشام والجزيرة، وكان منصور هذا على أهل الرها حين امتنعوا في أول الدولة فحصرهم المنصور وهو عامل العباس على الجزيرة وأرمينية فلما فتحها هرب منصور ثم أُمن فظهر، فلما خلع عبد الله بن علي أبا جعفر المنصور ولّاه شرطته فلما هرب عبد الله إلى البصرة استخفى فدُلّ عليه في سنة 141 فأُتي المنصور به فقتله بالرقة منصرفه من بيت المقدس — وقوم يقولون إنه أُمن بعد هرب ابن علي فظهر ثم وُجدت له كتب إلى الروم بغشّ الإسلام فلما قدم المنصور الرقة من بيت المقدس سنة 141 وجّه من أتاه به فضرب عنقه بالرقة ثم انصرف إلى الهاشمية بالكوفة؛ وكان الرشيد بنى حصن منصور وشحنه في خلافة المهدي."
+  en: "In al-Baladhuri from Abu Amr al-Bahili and others: Hisn Mansur is named for Mansur ibn Jamwana ibn al-Harith al-Amiri of Qays, who undertook its building and upkeep, being stationed there in Marwan's days with a dense Syrian and Jaziran host to repel the enemy; this Mansur was set over al-Ruha's people when they withheld in the dynasty's first days, whereupon al-Mansur besieged them — as al-Abbas's governor of the Jazira and Armenia — and when he took it Mansur fled, then was given aman and came out; when Abdallah ibn Ali deposed Abu Ja'far al-Mansur he made him chief of his police, and when Abdallah fled to Basra he went into hiding, was betrayed in year 141, brought before al-Mansur and killed at al-Raqqa as the caliph returned from Bayt al-Maqdis — others say he was amaned after Ibn Ali's flight, appeared, and was then found to have letters to the Romans betraying Islam, so when al-Mansur reached al-Raqqa from Bayt al-Maqdis in year 141 he sent for him and struck off his head there before departing for al-Hashimiyya at Kufa; al-Rashid had built and garrisoned Hisn Mansur in al-Mahdi's caliphate."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0758~", hijri: "0141", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 141 (البلاذري ص 271). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/raqqa }
+  - { type: had_participant, target: person/mansur-ibn-jamwana, role: "المقتول وصاحب الحصن المنسوب إليه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mansur, role: "القاتل منصرفاً من بيت المقدس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-ali, role: "موّله شرطته يوم خلعه", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 271"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-16
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

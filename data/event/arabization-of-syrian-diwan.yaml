@@ -1,0 +1,24 @@
+id: event/arabization-of-syrian-diwan
+class: event
+kind: law-enacted
+label: { ar: "نقل ديوان الشام عن الرومية", en: "The Transfer of Syria's Diwan from Greek" }
+summary:
+  ar: "عند البلاذري: لم يزل ديوان الشام بالرومية حتى ولي عبد الملك بن مروان فلما كانت سنة 81 أمر بنقله، وذلك أن رجلاً من كتّاب الروم احتاج أن يكتب شيئاً فلم يجد ماء فبال في الدواة فبلغ ذلك عبد الملك فأُذِم به وأمر سليمان بن سعد بنقل الديوان، فسأله أن يعينه بخراج الأردن سنة ففعل ذلك وولّاه الأردن فلم تنقضِ السنة حتى فرغ من نقله وأتى به عبد الملك فدعا بسرجون كاتبه فعرّض ذلك عليه فعمّه وخرج من عنده كئيباً فلقيه قوم من كتّاب الروم فقال «اطلبوا المعيشة من غير هذه الصناعة فقد قطعها الله عنكم»؛ وكانت وظيفة الأردن التي قُطعت معونةً مائة وثمانين ألف دينار، ووظيفة فلسطين ثلاثمائة وخمسين ألف دينار، ووظيفة دمشق أربعمائة ألف دينار، ووظيفة حمص مع قنسرين والكور التي تدعى اليوم العواصم ثمانمائة ألف دينار — ويقال سبعمائة ألف دينار."
+  en: "In al-Baladhuri: the diwan of Syria remained in Greek until Abd al-Malik ibn Marwan ruled; in year 81 he ordered it transferred, and that because a man of the Roman scribes, needing to write something and finding no water, urinated in the inkwell — word reached Abd al-Malik, who was incensed and ordered Sulayman ibn Sa'd to transfer the diwan; Sulayman asked to be helped by a year's kharaj of al-Urdunn, which was done, and was made its governor — before the year ended he had finished the transfer and brought it to Abd al-Malik, who called his scribe Sarjun and displayed it to him, which grieved him, and he went out dejected; a group of the Roman scribes met him and he said 'seek your livelihood in a craft other than this — God has cut it off from you'; the levy of al-Urdunn granted as aid was a hundred and eighty thousand dinars, that of Filastin three hundred and fifty thousand dinars, of Damascus four hundred thousand dinars, and of Hims with Qinnasrin and the districts called today the Awasim eight hundred thousand dinars — or, it is said, seven hundred thousand."
+wings: [time, ideas]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0700~", hijri: "0081", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 81 (البلاذري ص 271). التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الآمر بالنقل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sulayman-ibn-sad-al-khushani, role: "المتولّي للنقل عامل الأردن سنة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sarjun-ibn-mansur, role: "كاتب عبد الملك المعروض عليه النقل فعمّه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/kuttab-al-rum, role: "أهل الصناعة المقطوعة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 271–272"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-16
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
