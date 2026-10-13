@@ -1,0 +1,21 @@
+id: event/yazid-khurasan-campaigns
+class: event
+kind: campaign
+label: { ar: "مغازي يزيد بن المهلب وخلافة المفضل", en: "Yazid ibn al-Muhallab's Campaigns and al-Mufaddal's Succession" }
+summary:
+  ar: "استخلف المهلب ابنه يزيد بن المهلب فغزا مغازي كثيرة وفتح البتم على يد مخلد بن يزيد بن المهلب وصار عبد الرحمن بن العباس بن ربيعة بن الحارث بن عبد المطلب إلى هراة في فل ابن الأشعث وغيرهم وكان خرج مع ابن الأشعث فقتل الرقاد المتكي وجبى الخراج فسار إليه يزيد فاقتتلوا فهزمهم وأمر بالكف عن اتباعهم ولحق الهاشمي بالسند وغزا يزيد خوارزم وأصاب سبياً فلبس الجند ثياب السبي فماتوا من البرد ثم ولى الحجاج المفضل بن المهلب بن أبي صفرة ففتح بادغيس وقد انتقضت وشومان وآخرين وأصاب غنائم قسمها بين الناس."
+  en: "The Muhallab's son Yazid succeeded, campaigning widely — al-Buttam opened by his own son Mukhallad. Abd al-Rahman ibn al-Abbas ibn Rabi'a of Abd al-Muttalib's house, fleeing with Ibn al-Ash'ath's remnant, reached Herat, killed al-Ruqad al-Mutakki and levied kharaj; Yazid beat him, forbade pursuit, and the Hashimi fled to Sind. On Yazid's Khwarizm raid the troops wore the captives' clothes and perished of cold. Then al-Hajjaj gave Khurasan to al-Mufaddal ibn al-Muhallab, who retook breached Badghis, Shuman and others, dividing the spoils."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/yazid-ibn-al-muhallab, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mukhallad-ibn-yazid, role: "فاتح البتم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-al-abbas, role: "الهاشمي الفار", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-ruqad-al-mutakki, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mufaddal-ibn-al-muhallab, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

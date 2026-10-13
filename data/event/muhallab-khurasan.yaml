@@ -1,0 +1,19 @@
+id: event/muhallab-khurasan
+class: event
+kind: campaign
+label: { ar: "ولاية المهلب بن أبي صفرة خراسان", en: "al-Muhallab ibn Abi Sufra's Khurasan" }
+summary:
+  ar: "ولي الحجاج بن يوسف خراسان مع العراقين فولى خراسان المهلب بن أبي صفرة واسمه ظالم بن سراق بن صبح بن العتيك من الأزد ويكنى أبا سعيد سنة ٩٩ فغزا مغازي كثيرة وفتح الختل وقد انتقضت وفتح خجنده فأدت إليه السغد الأتاوة وغزا كش ونسف ورجع فمات بزاغول من مرو الروذ بالشوسة وكان بدء علته الحزن على ابنه المغيرة بن المهلب."
+  en: "Al-Hajjaj, holding Khurasan with the two Iraqs, gave it in 99h to al-Muhallab ibn Abi Sufra — Zalim ibn Siraq ibn Subh of the Azd, Abu Sa'id — who campaigned widely: retook the breached Khattl and Khujanda, received Sughd's atawa, raided Kish and Nasaf, and died at Zaghul of Marw al-Rudh at al-Shawsa, his illness having begun in grief for his son al-Mughira."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-muhallab-ibn-abi-sufra, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mughira-ibn-al-muhallab, role: "الابن المفقود", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/zaghul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

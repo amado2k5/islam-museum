@@ -173,4 +173,6 @@
 
 - **Batch 79** (pp. 580–583 — Salm and the civil war): `event/qutam-death-samarqand` (Ibn Abbas: "what a distance between his birthplace and his grave"); `event/said-ibn-uthman-assassination` (the Sughd hostage labourers at Medina); `event/salm-ibn-ziyad-khurasan` (Khwarizm 400k, first Arab woman across, Khujanda defeat, Bandun killed); `event/salm-ibn-zubayr-ordeal` (4M fine, prison-tunnel, Abd al-Malik's appointment); `event/ibn-khazim-khurasan-civil-war` (the arbitration, "Ibn al-Zubayr is no caliph", the slogans, nostril counsel, Turks' exploitation); persons +9; place khujanda; `sallam-ibn-ziyad`, `aws-ibn-thalaba` enriched.
 
-**Next:** batch 80 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 80** (pp. 584–587 — Ibn Khazim's death + Muhallabids): `event/ibn-khazim-death` (Herat rising, letter-eating defiance of Abd al-Malik, Waki's Duwayla revenge, head to Damascus); `event/umayya-khurasan-rule` (Qurashi appointment, Bukayr's coup + prison killing); `event/muhallab-khurasan` (99h, Khattl/Khujanda, Zaghul grief-death); `event/yazid-khurasan-campaigns` (al-Buttam, Hashimi to Sind, Khwarizm cold); `event/musa-tirmidh-takeover` ("I know no home like this"); persons +12; places zaghul, al-khattl, al-buttam, shuman; `umayya-ibn-abdallah-ibn-khalid` enriched.
+
+**Next:** batch 81 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
