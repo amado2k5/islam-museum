@@ -1,0 +1,24 @@
+id: event/mughira-adultery-affair
+class: event
+kind: court-ruling
+label: { ar: "قصة المغيرة بن شعبة وأم جميل", en: "The Mughira-Umm Jamil Affair" }
+summary:
+  ar: "كان المغيرة بن شعبة يختلف إلى أم جميل بنت يحجن من بني هلال ولها زوج من ثقيف الحجاج بن عتيك فرصده أبو بكرة بن مسروح وشبل بن معبد البجلي ونافع بن الحارث بن كلدة وزياد بن عبيدة حتى دخل عليها فهجموا عليه فوجدوهما عريانين فشهدوا عند عمر فولى عمر أبا موسى الأشعري البصرة وقال إني أريد أن أبعثك إلى بلد قد عشش فيه الشيطان وبعث معه البراء بن مالك وعمران بن الحصين وعوف بن وهب فأشخص المغيرة فلما وقفوا بين يدي عمر شهد نافع وشبل وأبو بكرة صراحة ثم جاء زياد رابعاً فقال رأيت منظراً قبيحاً وسمعت نفساً عالياً وما أدري أخالطها أم لا فقال عمر إني أرى وجه رجل أرجو أن لا يرجم رجل من أصحاب رسول الله على يده ولا يخزى بشهادته فأمر بالثلاثة فجلدوا فقال شبل أتجلد شهود الحق وتبطل الحد ولما جلد أبو بكرة قال أشهد إن المغيرة لزان فقال عمر حدوه فقال علي إن جعلتها شهادة فارجم صاحبك وحلف أبو بكرة أن لا يكلم زياداً أبداً وكان أخاه لأمه سمية."
+  en: "Al-Mughira ibn Shu'ba kept visiting Umm Jamil bint Yahjan of Hilal — wife of the Thaqafi al-Hajjaj ibn Utayk — till Abu Bakra ibn Masruh, Shibl ibn Ma'bad al-Bajali, Nafi' ibn al-Harith and Ziyad ibn Ubayda watched him enter and burst in on them naked; they testified before Umar, who told Abu Musa al-Ash'ari 'I am sending you to a town where Satan has nested' and made him governor with al-Bara' ibn Malik, Imran ibn al-Husayn and Awf ibn Wahb, recalling al-Mughira. Nafi', Shibl and Abu Bakra swore explicitly; Ziyad, fourth, said 'I saw an ugly sight and heard a high breathing — I know not whether he entered her'. Umar: 'I see the face of a man on whose word I hope no Companion is stoned' — he had the three flogged; Shibl cried 'you flog truth's witnesses?', Abu Bakra swore anew and was warned of the hadd — 'then it is a claim, your man is stoned' — and swore never to speak to Ziyad, his half-brother by Sumayya."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "المتهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-bakra, role: "شاهد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/shibl-ibn-mabad, role: "شاهد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/nafi-ibn-al-harith, role: "شاهد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "الشاهد الرابع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "القاضي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umm-jamil-bint-yahjan, role: "المرأة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/medina }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

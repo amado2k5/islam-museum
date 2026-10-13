@@ -1,0 +1,19 @@
+id: event/conquest-of-maysan
+class: event
+kind: conquest
+label: { ar: "فتح ميسان", en: "Conquest of Maysan" }
+summary:
+  ar: "غزا المغيرة بن شعبة ميسان ففتحها عنوة بعد قتال شديد وغلب على أرضها ثم إن أهل أبر قباذ غدروا ففتحها عنوة وكان المدائني يقول كان الناس يسمون ميسان ودستميسان والفرات وأبر قباذ ميسان وكان من سبي ميسان أبو الحسن البصري وأخوه سعيد بن يسار وكان اسم أبيهما قيروز فصارا لامرأة من الأنصار يقال لها الربيع بنت النضر عمة أنس بن مالك ويقال لامرأة من بني سلمة يقال لها جميلة امرأة أنس بن مالك وقال الحسن كان لي أبواي رجل من بني النجار تزوج امرأة من بني سلمة فساقهما إليها في صداقها فاعتقتهما فولاؤنا لها."
+  en: "Al-Mughira ibn Shu'ba stormed Maysan after hard fighting and mastered its land; when Abar Qubadh's people broke faith he retook it by force — al-Mada'ini notes folk called Maysan, Dastumaysan, al-Furat and Abar Qubadh all 'Maysan'. Among Maysan's captives were Abu al-Hasan al-Basri and his brother Sa'id, sons of Yasar once named Qayruz; they fell to an Ansari woman — al-Rabi' bint al-Nadr, Anas's aunt, or Jamila of Salima, Anas's wife — who freed them, so 'our wala' is hers'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hasan-al-basri, role: "من السبي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/maysan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,18 @@
+id: person/umm-jamil-bint-yahjan
+class: person
+label: { ar: "أم جميل بنت يحجن", en: "Umm Jamil bint Yahjan" }
+summary:
+  ar: "أم جميل بنت يحجن بن الأفقم بن شعيثة بن المزم من بني هلال؛ كان لها زوج من ثقيف الحجاج بن عتيك وكان المغيرة بن شعبة يختلف إليها وهو والي البصرة فرصده الشهود حتى دخل عليها وشهدوا عليه عند عمر."
+  en: "Umm Jamil bint Yahjan ibn al-Afqam of Banu Hilal, wife of the Thaqafi al-Hajjaj ibn Utayk; al-Mughira the Basra governor visited her till the watchers burst in and testified before Umar."
+gender: female
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/mughira-adultery-affair }
+  - { type: spouse_of, target: person/al-hajjaj-ibn-utayk }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
