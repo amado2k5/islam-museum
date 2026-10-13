@@ -1,0 +1,18 @@
+id: person/al-fath-ibn-khaqan
+class: person
+label: { ar: "الفتح بن خاقان" }
+summary:
+  ar: "وزير المتوكل، قتل معه في ليلة مقتله على يد خمسة من الأتراك في خامس شوال سنة سبع وأربعين {cite:tarikh-khulafa-minhaj-1434 p. 544}."
+  en: "Al-Mutawakkil's vizier, slain with him in the night-murder by five Turks on 5 Shawwal 247 {cite:tarikh-khulafa-minhaj-1434 p. 544}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: related_to, target: person/al-mutawakkil, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 538–544"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-28
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
