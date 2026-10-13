@@ -1,0 +1,17 @@
+id: person/khuzayma-ibn-khazim
+class: person
+label: { ar: "خزيمة بن خازم", en: "Khuzayma ibn Khazim" }
+summary:
+  ar: "خزيمة بن خازم؛ من ولاة أرمينية للعباسيين بعد روح بن حاتم المهلابي وقبل يزيد بن مزيد الشيباني، وكان أشدهم ولاية وهو الذي سنّ المساحة بدبيل والنشوى ولم يكن قبل ذلك."
+  en: "Khuzayma ibn Khazim; an Abbasid governor of Armenia after Rawh ibn Hatim al-Muhallabi and before Yazid ibn Mazyad al-Shaybani — the sternest of them in office, and the one who instituted the land-survey at Dabil and Nashwa, which had not existed before."
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/khuzayma-land-survey, role: "سّان المساحة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 296"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

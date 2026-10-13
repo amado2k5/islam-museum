@@ -1,0 +1,23 @@
+id: event/death-of-al-jarrah
+class: event
+kind: battle
+label: { ar: "استشهاد الجرّاح بأردبيل", en: "The Death of al-Jarrah at Ardabil" }
+summary:
+  ar: "عند البلاذري: صالح الجرّاح أهل حمزين على نقلهم إلى خيزان وجعل لهم قريتين منه واوقع بأهل غوميك وسبى منهم ثم قفل فنزل شكّى وشتّى جنده ببرذعة والبيلقان، وجاشت الخزر وعبرت الرسّ فعادبهم في صحراء ورثان ثم انحازوا إلى ناحية أردبيل فواقعهم على أربعة فراسخ مما يلي أرمينية فاقتتلوا ثلاثة أيام فاستشهد ومن معه فسُمّي ذلك النهر نهر الجرّاح ونُسب جسر عليه إلى الجرّاح أيضاً."
+  en: "In al-Baladhuri: al-Jarrah compounded with the people of Hamzin to transfer them to Khizan, giving them two of its villages, fell upon the people of Ghumik taking captives, returned to Shakki and wintered his army at Bardha'a and al-Baylaqan; the Khazars then surged across the Rass, and he gave them battle in the Warthan desert, whence they fell back toward Ardabil — he engaged them four farsakhs from Armenia's edge, they fought three days, and he was martyred with those with him; that river was named Nahr al-Jarrah, and a bridge upon it was likewise ascribed to him."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0730~", hijri: "0112~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية الجرّاح على أرمينية ليزيد بن عبد الملك أو هشام (البلاذري ص 290). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ardabil }
+  - { type: had_participant, target: person/al-jarrah-ibn-abdallah-al-hakami, role: "المستشهد ومن معه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/khazars, role: "الجيش الجائش عابر الرس", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

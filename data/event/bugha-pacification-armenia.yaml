@@ -1,0 +1,27 @@
+id: event/bugha-pacification-armenia
+class: event
+kind: campaign
+label: { ar: "إصلاح بُغا الكبير ثغر أرمينية", en: "Bugha al-Kabir's Pacification of the Armenian March" }
+summary:
+  ar: "عند البلاذري: ولّى المتوكل بُغا الكبير أرمينية فلما صار إلى بذليس أخذ موسى بن زرارة وكان ممن هويَ قتل يوسف وأعان عليه غضباً لبقراط وحارب الخويثية فقتل منهم مقتلة عظيمة وسبى سبياً كثيراً ثم حاصر أشوط بن حمزة بن جاجق بطريق البسفرّجان وهو بالباق فاستنزله من قلعته وحمله إلى سر من رأى وسار إلى جرزان فظفر إسحاق بن إسماعيل فقتله صبراً وفتح جرزان وحمل من بأرّان وظاهر أرمينية من بالسيسجان من أهل الخلاف والمعصية من النصارى وغيرهم حتى صلح ذلك الثغر صلاحاً لم يكن على مثله ثم قدم سرّ من رأى في سنة إحدى وأربعين ومائتين."
+  en: "In al-Baladhuri: al-Mutawakkil gave Armenia to Bugha al-Kabir, who at Badhlis seized Musa ibn Zurara — one who had favoured Yusuf's killing and aided it in anger for Buqrat — warred on the Khwaythiyya, slaying a great slaughter and taking many captives, then besieged Ashut ibn Hamza ibn Jajiq, patrikios of Busfurrajan, at al-Baq, brought him down from his fortress and carried him to Samarra, marched on Jurzan where Ishaq ibn Isma'il was overcome and killed in cold blood, opened Jurzan, and carried off the people of Arran and the Armenian surface-dwellers in Sisajan — the rebellious and disobedient, Christians and others — till that march stood sounder than ever it had been; then he came to Samarra in the year 241."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0852/0855", calendar: julian, precision: year, status: tradition, derived: true, note: "قدم سر من رأى سنة 241 (البلاذري ص 297). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/armenia }
+  - { type: occurred_at, target: place/jurzan }
+  - { type: occurred_at, target: place/arran }
+  - { type: had_participant, target: person/bugha-al-kabir, role: "الوالي ومستصلح الثغر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/isha-ibn-ismail-ibn-shuayb, role: "المقتول صبراً بجرزان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/musa-ibn-zurara, role: "الآخَذ بذليس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mutawakkil, role: "الخليفة المولّي", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 297"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,17 @@
+id: person/mushayil-al-armani
+class: person
+label: { ar: "موشائيل الأرمني", en: "Mushay'il the Armenian" }
+summary:
+  ar: "موشائيل الأرمني؛ رئيس أهل أرمينية حين انتقضوا في ولاية الحسن بن قحطبة الطائي بعد عزل ابن أسيد وبكّار بن مسلم العقيلي، فبعث إليه المنصور الأمداد وعليهم عامر بن إسماعيل فواقعه الحسن فقُتل وفضّت جموعه."
+  en: "Mushay'il the Armenian; chief of Armenia's people when they rose in al-Hasan ibn Qahtaba al-Ta'i's governorship — after the removal of Ibn Asid and Bakkar ibn Muslim al-Uqayli — whereupon al-Mansur sent reinforcements under Amir ibn Isma'il, and al-Hasan met Mushay'il, who was killed, his hosts scattered."
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/mushayil-revolt, role: "رئيس المنتقضين", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 295"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,20 @@
+id: group/khazars
+class: group
+kind: tribe
+label: { ar: "الخزر", en: "The Khazars" }
+summary:
+  ar: "الخزر عند البلاذري أمّة خلف القوقاز ملكُهم الأعظم خاقان؛ قاتلهم سلمان بن ربيعة حتى قُتل ببلنجر وجاشوا في ولاية الجرّاح فعبر الرسّ فواقعهم حتى استشهد قرب أردبيل، ولما بلغ عظيمهم كثرة من وطىء به مروان بن محمد بلاده ملأه ذلك رعباً فأرسل يدعوه إلى الإسلام أو الحرب فقال مروان قد قبلت الإسلام فأظهر الخاقان الإسلام ووادعه على أن أقرّه في مملكته وسار معه بخلق منهم فأنزلهم ما بين السمور والشابران في سهل أرض اللكز، وصاهر يزيد بن أسيد ملكهم بأمر المنصور فولدت له ابنة الخاقان ابناً فمات وماتت في نفاسها."
+  en: "The Khazars in al-Baladhuri are the people beyond the Caucasus whose great king bears the title Khaqan; Salman ibn Rabi'a warred on them until slain at Balanjar, and they surged across the Rass in al-Jarrah's day until he met and fell fighting them near Ardabil; when their great king learned the numbers Marwan ibn Muhammad trod into his lands it filled him with dread, and he sent summoning him to Islam or war — Marwan answering 'I accept Islam', whereupon the Khaqan showed forth Islam, Marwan compounding with him confirming his kingdom, and settled a body of them between al-Samur and al-Shabiran in the Lakz plain; and Yazid ibn Asid married into their king's house at al-Mansur's command, the Khaqan's daughter bearing him a son who died while she died in her lying-in."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: participated_in, target: event/death-of-al-jarrah, role: "الجيش الجائش عابر الرس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/marwan-caucasus-expedition, role: "خاقانهم المُظهر للإسلام الموادَع على مملكته", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/maslama-khazar-campaign, role: "المحاصَرون في قلعة الباب", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 287–295"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
