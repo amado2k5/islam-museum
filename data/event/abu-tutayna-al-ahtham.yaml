@@ -1,0 +1,19 @@
+id: event/abu-tutayna-al-ahtham
+class: event
+kind: other
+label: { ar: "قصة ابن الأهثم أبي طينة", en: "The Abu Tutayna Affair" }
+summary:
+  ar: "كان عبد الله بن عبد الله بن الأهثم أبو حاقان خليفة قتيبة على مرو إذا غزا فكتب إلى الحجاج يسعى بقتيبة ويخبر بما صار إليه من المال وأنذره بشير أحد بني الأهثم فقال إنك قد انبسطت إلى عبد الله وهو ذو غوائل حسود فلا نأمنه أن يعزلك فيستفسدنا فقال أما قلت هذا حسداً لابن عمك فقال فليكن عذري عندك فإن كان ذلك عذرتني فلما كتب ما كتب به إلى الحجاج طوى الحجاج كتابه إلى قتيبة فجاء الرسول حتى نزل السكة بمرو وجاوزها ولم يأت عبد الله فأحس بالشر فهرب فلحق بالشام فمكث زماناً يبيع الخمر والكتانيات في رزمة على عنقه يطوف بها ثم وضع خرقة وقطنة على إحدى عينيه وعصبها واكتنى بأبي طينة وكان يبيع الزيت فلم يزل على هذه الحال حتى هلك الوليد بن عبد الملك وقام سليمان فألقى عنه ذاك الدنس والخرقة وقام بخطبة تهنيئة لسليمان ووقوعاً في الحجاج وقتيبة فتفرق الناس وهم يقولون أبو طينة الزيات أبلغ الناس فلما انتهى إلى قتيبة كتاب ابن الأهثم إلى الحجاج عقر على بني عمه وبنيه وكان أحدهم شيبة أبو شبيب فقتل تسعة أناسي منهم بشير فقال له بشير اذكر عذري عندك فقال قدمت رجلاً وأخرت رجلاً يا عدو الله فقتلهم جميعاً وكان وكيع بن أبي سود قبل ذلك على بني تميم بخراسان فمزله عنهم قتيبة واستعمل رجلاً من بني ضرار الضبي فقال حين قتلهم قتلني الله إن أقتله ويفقدوه فلم يصل الظهر ولا العصر فقالوا له إنك لم تصل فقال وكيف أصلي لرب قتل منا عامتهم صبياناً ولم يغضب لهم."
+  en: "Abdallah ibn al-Ahtham, Abu Haqan, Qutayba's Marw deputy during campaigns, wrote al-Hajjaj denouncing him. Bashir of the Ahtham warned Qutayba — 'you've opened to a treacherous envious man' — dismissed as cousin-envy, though Bashir begged it stand as his excuse. When al-Hajjaj forwarded the letter and the courier rode past the Sakka without stopping, Ibn al-Ahtham sensed the trap and fled to Syria: years peddling wine and flax round his neck, then rag and cotton over one eye, styled Abu Tutayna the oilman — until al-Walid died and Sulayman rose, when he cast off the disguise and preached congratulations to Sulayman with attacks on al-Hajjaj and Qutayba — 'Abu Tutayna the oilman, the most eloquent of men'. Reading the letter, Qutayba struck the Banu Ahtham, killing nine; Bashir said 'remember my excuse' — 'you put one foot forward and held the other back, enemy of God' — and killed them all. Waki' ibn Abi Sud, deposed from Tamim's command for a Dabbi, swore then, missed zhuhr and asr, and when asked answered: 'how should I pray to a Lord who killed our best as boys and was not angered for them?'"
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-abdallah-ibn-al-ahtham, role: "الهارب المتنكر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/qutayba-ibn-muslim, role: "المسعى به", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/waki-ibn-abi-sud, role: "المعزول القائل", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

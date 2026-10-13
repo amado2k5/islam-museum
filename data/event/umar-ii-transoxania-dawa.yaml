@@ -1,0 +1,20 @@
+id: event/umar-ii-transoxania-dawa
+class: event
+kind: other
+label: { ar: "دعوة عمر الثاني ملوك ما وراء النهر وغزو ابن معمر", en: "Umar II's Da'wa beyond the River and Ibn Ma'mar's Raid" }
+summary:
+  ar: "لما استخلف عمر بن عبد العزيز كتب إلى ملوك ما وراء النهر يدعوهم إلى الإسلام فأسلم بعضهم وكان عامل عمر على خراسان الجراح بن عبد الله الحكمي فأخذ مخلد بن يزيد وعمال يزيد فحبسهم ووجه الجراح عبد الله بن معمر اليشكري إلى ما وراء النهر فأوغل في بلاد العدو وهم بدخول الصين فأحاطت به الترك حتى افتدى منهم وتخلص وصار إلى الشاش ورفع عمر الخراج عمن أسلم بخراسان."
+  en: "Umar ibn Abd al-Aziz wrote the kings beyond the river summoning them to Islam — some converted. His Khurasan governor al-Jarrah ibn Abdallah al-Hakami jailed Mukhallad ibn Yazid and Yazid's agents, and sent Abdallah ibn Ma'mar al-Yashkuri deep into enemy lands till he neared China; the Turks surrounded him till he ransomed free and reached al-Shash. Umar lifted kharaj from Khurasan's converts."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-jarrah-ibn-abdallah-al-hakami, role: "عامل خراسان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-mamar, role: "الغازي المفدى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mukhallad-ibn-yazid, role: "المحبوس", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

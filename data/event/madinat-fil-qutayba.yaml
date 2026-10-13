@@ -1,0 +1,19 @@
+id: event/madinat-fil-qutayba
+class: event
+kind: conquest
+label: { ar: "فتح قتيبة مدينة الفيل", en: "Qutayba's Conquest of Madinat al-Fil" }
+summary:
+  ar: "غزا قتيبة مدينة فيل ففتحها وقد كان أمية بن عبد الله بن خالد بن أسيد فتحها ثم نكثوا ورامها يزيد بن المهلب فلم يقدر عليها فقال كعب الأشثري ورامها قبلك الفجفاجة الصلف أعطتك فيل بأيديها وحق لها يعني يزيد بن المهلب."
+  en: "Qutayba took Madinat Fil — opened earlier by Umayya ibn Abdallah, then breached, and Yazid ibn al-Muhallab's assault failed — whence Ka'b al-Ashthari's verse: 'Fil gave itself to you with her own hands, and well she deserved'."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/qutayba-ibn-muslim, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yazid-ibn-al-muhallab, role: "العاجز عنها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/madinat-al-fil }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

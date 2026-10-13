@@ -1,0 +1,23 @@
+id: event/qutayba-death
+class: event
+kind: death
+label: { ar: "مقتل قتيبة بن مسلم", en: "The Killing of Qutayba ibn Muslim" }
+summary:
+  ar: "بخراسان من مقاتلة أهل البصرة أربعون ألفاً ومن أهل الكوفة سبعة آلاف ومن الموالي سبعة آلاف وتمارض وكيع ولزم منزله فكان قتيبة يبعث إليه وقد طلى رجليه وساقه بمغرة فيقول أنا عليل لا يمكنني الحركة وكان إذا أرسل إليه قوماً يأتونه به تسللوا وأتوا وكيعاً فأخبروه فدعا بسلاحه وبرمح وأخذ خمار أم ولده فعقده عليه ولقيه رجل يقال له إدريس فقال له يا أبا مطرف إنك تريد أمراً وتخاف ما قد أمنك الرجل منه فالله الله فقال وكيع هذا إدريس رسول إبليس إن قتيبة أقسم بها والله لا آتيه حتى آتي برأسه ودلف نحو فسطاط قتيبة وتلاحق به وقتيبة في أهل بيته وقوم وفوا له فقال صالح أخوه لغلامه هات قوسي فقال له بعضهم وهو يهز إنه ليس هذا يوم قوس ورماه رجل من بني ضبة فأصاب رهابته فصرع وأدخل الفسطاط فقضى وقتيبة عند رأسه وكان قتيبة يقول لحيان وهو على الأعاجم احمل فيقول لم يأن ذلك بعد وحملت العجم على العرب فقال حيان يا معشر العجم لم تقتلون أنفسكم لقتيبة ألحسن بلائه عندكم فانحاز بهم إلى بني تميم وتهايج الناس وصبر مع قتيبة إخوته وأهل بيته وقوم من أبناء ملوك السغد أنفوا من خذلانه وقطعت أطناب الفسطاط وأطناب الفازة فسقطت على قتيبة وسقط عمود الفازة على هامته فقتله فاحتز رأسه عبد الله بن علوان وقال هشام بن الكلبي بل دخلوا عليه فسطاطه فقتله جهم بن زهر الجمحي وضربه سعد بن مجد واحتز رأسه ابن علوان وقتل معه جماعة من إخوته وأهل بيته وأم ولده الصماء ونجا ضرار بن مسلم أمنه بنو تميم وأخذت الأزد رأس قتيبة وخاتمه وأتي وكيع برأس قتيبة فبعث به إلى سليمان مع سليط بن عطة الحنفي وأقبل الناس يسلبون باهلة فمنع من ذلك وكتب وكيع إلى أبي يجلز لاحق بن حميد بعهده على مرو فقبله ورضي الناس به وكان قتيبة يوم قتل ابن خمس وخمسين سنة."
+  en: "Khurasan held forty thousand Basran fighters, seven thousand Kufans, seven thousand mawali. Waki' feigned sickness, shins painted with ochre, sending 'I cannot stir'; those sent to fetch him slipped to his side. He called for spear and his son's-mother's veil as banner — 'Idris, Iblis' messenger, met him: Qutayba swore by God he would not come till he brought his head — and closed on the fustat. Salih called for his bow — 'not a bow day' — a Dabbi's arrow struck Qutayba's throat, he was dragged in and finished; Hayyan called the Ajam to Tamim's side; the tent-cords were cut and the faza's pole fell on his skull. Abdallah ibn Alwan took the head — Hisham ibn al-Kalbi says Jahm ibn Zahr al-Jumhi killed him and Sa'd ibn Majd struck him — brothers, household, the deaf umm-walad died with him; Dirar ibn Muslim alone Tamim spared. The Azd took head and seal; Waki' sent it to Sulayman by Salit ibn Atta, forbade Bahila's plunder, and confirmed Lahiq ibn Humayd on Marw. Qutayba was fifty-five."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/qutayba-ibn-muslim, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/waki-ibn-hassan, role: "قائد الخارجين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-alwan, role: "حاز الرأس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jahm-ibn-zahr, role: "القاتل في رواية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/dirar-ibn-muslim, role: "الناجي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salit-ibn-atta, role: "حامل الرأس إلى سليمان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/marw }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -179,4 +179,6 @@
 
 - **Batch 82** (pp. 592–595 — Samarqand + the revolt's spark): `event/khwarizm-qutayba-settlement`, `event/qutayba-samarqand` (Ghurak's 200k pact, the two-rak'a mosque, idol-burning conversions, al-Dahhak's colony), `event/umar-ii-samarqand-ruling` (Jumay' b. Hadir), `event/qutayba-sulayman-estrangement` (Habanqa, "mosquitoes' marrow", the curses), `event/waki-ibn-hassan-baya`; persons +9; places ishtikhan, al-shash, tarband, isbijab, ushrusana.
 
-**Next:** batch 83 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 83** (pp. 596–599 — Qutayba's death + aftermath): `event/qutayba-death` (veil-banner, the Dabbi arrow, the faza pole, head to Sulayman, age 55); `event/waki-ibn-hassan-rule` (9 months, "God's treasurer?", Mukhallad's Buttam); `event/abu-tutayna-al-ahtham` (denunciation letter, the oil-seller disguise, Bashir's excuse, Waki' b. Abi Sud's famous impiety); `event/madinat-fil-qutayba`; `event/umar-ii-transoxania-dawa` (Ibn Ma'mar's China penetration, kharaj lifted from converts); persons +7; place madinat-al-fil; `waki-ibn-abi-sud` enriched.
+
+**Next:** batch 84 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
