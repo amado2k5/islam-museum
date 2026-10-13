@@ -1,0 +1,21 @@
+id: event/yahya-zubayri-mubahala
+class: event
+kind: other
+label: { ar: "مباهلة يحيى العلوي وعبد الله بن مصعب" }
+summary:
+  ar: "في سنة خمس وسبعين ومئة افترى عبد الله بن مصعب الزبيري على يحيى بن عبد الله بن حسن العلوي أنه طلب إليه أن يخرج معه على الرشيد فباهله يحيى بحضرة الرشيد وشبك يده في يده وقال قل اللهم إن كنت تعلم أن يحيى لم يدعني إلى الخلاف والخروج على أمير المؤمنين هذا فكلني إلى حولي وقوتي وأسحتني بعذاب من عندك آمين رب العالمين فتلجلج الزبيري وقالها ثم قال يحيى مثل ذلك وقاما فمات الزبيري ليومه {cite:tarikh-khulafa-minhaj-1434 p. 460-461}."
+  en: "In year 175 Abdallah ibn Mus'ab al-Zubayri slandered Yahya ibn Abdallah the Alid before al-Rashid, claiming Yahya had invited him to revolt; Yahya challenged him to mutual imprecation in the caliph's presence, entwining hands: 'Say — O God, if You know Yahya did not call me to rebel against this Commander of the Faithful, abandon me to my own power and scourge me with Your punishment.' The Zubayrid faltered, spoke it, Yahya spoke likewise — and the Zubayrid died that very day {cite:tarikh-khulafa-minhaj-1434 p. 460-461}."
+wings: [time, people]
+periods: [period/abbasid-early]
+date:
+  start: { edtf: "0791~", hijri: "0175", calendar: julian, precision: year, status: tradition, derived: true, note: "175؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 460}." }
+relations:
+  - { type: had_participant, target: person/yahya-ibn-abdallah-al-alawi, role: "المباهل", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/harun-al-rashid, role: "حاضراً", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 460–461"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-20
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

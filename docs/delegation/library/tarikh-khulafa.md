@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-20** (pp. 456–462 — al-Rashid opening): new `event/harun-accession` (the triple night — died/acceded/born), `event/nikephoros-harun-war` ("الجواب ما تراه لا ما تسمعه", Heraclea, winter breach), `event/yahya-zubayri-mubahala` (175), `person/yahya-ibn-abdallah-al-alawi`, `event/great-earthquake-180` (lighthouse top), `event/khazar-armenia-raid` (183, >100k), `event/safsaf-conquest` (181); enriched `person/harun-al-rashid` (daily rak'as/sadaqa, the canal project vetoed) and `person/abd-allah-al-mamun`.
+
 - **Batch TK-19** (pp. 450–455 — al-Hadi): new `event/death-of-al-hadi` (four accounts incl. Khayzuran's matricide); enriched `person/al-hadi-musa` (youngest accession, Aṭbiq, first armed procession, barid ride, seal) and `person/al-khayzuran` (sole mother of two caliphs, ruling circle).
 
 - **Batch TK-18** (pp. 444–449 — Mahdi anecdotes): new `event/ghiyath-fabricated-hadith` ("أو جناح" wager-hadith), `event/execution-of-salih-ibn-abd-al-quddus`, `person/salih-ibn-abd-al-quddus`, `person/ghiyath-ibn-ibrahim`.
