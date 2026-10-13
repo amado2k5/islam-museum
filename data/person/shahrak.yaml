@@ -1,0 +1,16 @@
+id: person/shahrak
+class: person
+label: { ar: "شهرك مرزبان فارس", en: "Shahrak, Marzban of Fars" }
+summary:
+  ar: "شهرك مرزبان فارس وواليها؛ أعظم ما كان من قدوم العرب فارس فجمع جمعاً عظيماً وسار حتى أتى ريشهر فقتله سوار بن همام العبدي طعناً عن فرسه ووكل بواد رجلاً في جماعة أن لا يجتازه هارب إلا قتله."
+  en: "Shahrak, marzban and governor of Fars — the gravest threat of the Arabs' coming; he mustered the great host at Rayshahr where Sawwar ibn Hammam stabbed him off his horse, having posted his wadi-guard to kill all fugitives."
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/battle-of-rayshahr }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

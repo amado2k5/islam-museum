@@ -153,4 +153,6 @@
 
 - **Batch 69** (pp. 540–543 — Abu al-Mukhtar's satire): `event/abu-al-mukhtar-satire` (the famous poem → Umar's half-mulct "أخذ نعلاً وترك نعلاً", Abu Bakra's 10k); `person/abu-al-mukhtar`, `mukram-ibn-al-farz` (alt Askar Mukram etymology, Kharrzad's capture w/ two dirhams), `kharrzad-ibn-bas`, `hamza-ibn-abdallah-ibn-al-zubayr` ("كأنها قعيقعان"), `juzz-ibn-muawiya`, `bishr-ibn-al-muhtafiz`, `nufay-abu-bakra`, `khalid-ibn-al-harith-ibn-ghallab`, `ubaydallah-ibn-al-mahdi` (al-Ma'mun's "المشكوك فيه" practice); `al-hajjaj-ibn-utayk` merged (Mughira-affair husband = Euphrates official).
 
-**Next:** batch 70 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 70** (pp. 544–547 — Part 5: كور فارس وكرمان opens): `event/conquest-of-tawwaj` (Hakam's sea expedition, Abd al-Qays settlement 19h); `event/battle-of-rayshahr` (Shahrak's death, Sawwar's kill, the aswari's stone-splitting arrow, "كيوم القادسية"); `event/fars-joint-conquests` (Arrajan sulh, Shiraz dhimma+exodus, Siniz, Jannaba, Jarra, Kazarun, Nawbandajan, Shabir); `event/treaty-of-darabjird` (Hirbadh's compact, banner-town of Fars's religion); `event/conquest-of-sabur` (dream-aman 23/24h → breach → force 26h); places fars, tawwaj, rayshahr, arrajan, darabjird, sabur, jahram, fasa, kazarun, abr-kawan; persons sawwar-ibn-hammam, shahrak, harim-ibn-hayyan, al-hirbadh, al-jarud-al-abdi, amr-ibn-al-ahtam.
+
+**Next:** batch 71 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

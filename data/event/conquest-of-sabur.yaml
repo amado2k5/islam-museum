@@ -1,0 +1,19 @@
+id: event/conquest-of-sabur
+class: event
+kind: conquest
+label: { ar: "فتح سابور", en: "Conquest of Sabur" }
+summary:
+  ar: "أتى عثمان بن أبي العاص مدينة سابور سنة ٢٣ ويقال سنة ٢٤ فوجد أهلها هائبين للمسلمين وكان أخو شهرك رأى في منامه كأن رجلاً من العرب دخل عليه فسلبه قميصه فنخب ذلك قلبه فامتنع قليلاً ثم طلب الأمان والصلح فصالحه عثمان على أن لا يقتل أحداً ولا يسبيه وأن تكون له ذمة ويعجل مالاً ثم إن أهل سابور نقضوا وغدروا ففتحت سنة ٢٦ عنوة فتحها أبو موسى وعلى مقدمته عثمان بن أبي العاص."
+  en: "Uthman came to Sabur in 23 or 24h — its folk already dreading the Muslims and its marzban, Shahrak's brother, having dreamed an Arab stripped his shirt, which gripped his heart — after brief defiance he sought aman: no killing no captives, dhimma and prompt payment. The people later betrayed, and in 26h Abu Musa took it by force, Uthman ibn Abi al-As on his vanguard."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/uthman-ibn-abi-al-as, role: "المصالح ثم المقدم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sabur }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
