@@ -207,4 +207,6 @@
 
 - **Batch 96** (pp. 651–654 — the coinage dossier): `event/abd-al-malik-coinage` (Jahiliya weights, the 10:7 ratio, the 14/15-qirat dirham, first engraved dinars, Medina's non-objection); persons musab-ibn-al-zubayr, said-ibn-al-musayyab, abu-ayyub-al-muryani.
 
-**Next:** batch 97 — coinage/diwans continuation (pp. 655+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 97** (pp. 655–658 — mints and zuyuf): `event/hajjaj-mint-reform` (the mint-house, makruha/Sumayriyya dirhams, Hubayriyya-Khalidiyya-Yusufiyya best coin); `concept/zuyuf` (the clipping/adulteration jurisprudence); persons aban-ibn-uthman + enrichments of khalid-ibn-abdallah-al-qasri, ubayd-allah-ibn-ziyad.
+
+**Next:** batch 98 — coinage/diwan tail (pp. 659+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

@@ -1,0 +1,22 @@
+id: event/hajjaj-mint-reform
+class: event
+kind: other
+label: { ar: "دار الضرب وسكك الحجاج", en: "al-Hajjaj's Mint and Coinage" }
+summary:
+  ar: "ضرب الحجاج الدراهم آخر سنة ٧٥ ثم أمر بضربها في جميع النواحي سنة ٧٦ وقال عوانة بن الحكم إن الحجاج سأل عما كانت الفرس تعمل به في ضرب الدراهم فاتخذ دار ضرب وجمع فيها الطباعين فكان يضرب المال للسلطان مما يجتمع له من التبر وخلاصة الزيوف والستوقة والبهرجة ثم أذن للتجار وغيرهم في أن تضرب لهم الأوراق واستغلها من فضول الأجرة وختم أيدي الطباعين وضرب دراهم علية كتب عليها بسم الله الحجاج ثم كتب عليها بعد سنة الله أحد الله الصمد فكرهها الفقهاء فسميت مكروهة ويقال إن الأعاجم كرهوا نقصانها وسميت السميرية بأول من ضربها واسمه سمير وكان مصعب قد ضرب الدراهم بأمر عبد الله بن الزبير سنة ٧٠ على ضرب الأكاسرة وعليها بركة وعافية فلما كان الحجاج غيرها وروي عن هشام بن الكلبي أن مصعباً ضرب مع الدراهم دنانير أيضاً وأن الحارث بن عبد الله بن أبي ربيعة المخزومي ضرب وزن سبعة أيام ابن الزبير وقال ابن أبي الزناد عن أبيه إن عبد الملك أول من ضرب الذهب عام الجماعة سنة ٧٤ وقال أبو الزبير الناقد ضرب عبد الملك شيئاً من الدنانير سنة ٧٢ ثم ضربها سنة ٧٥ فلما ولي عمر بن هبيرة العراق خلص الفضة أبلغ من تخليص من قبله وجود الدراهم واشتد في الغيار ثم ولي خالد بن عبد الله القسري فاشتد في النقود أكثر ثم ولي يوسف بن عمر فأفرط في الشدة على الطباعين وأصحاب الغيار وقطع الأيدي وضرب الأبشار فكانت الهبيرية والخالدية واليوسفية أجود نقود بني أمية ولم يكن المنصور يقبل في الخراج من نقود بني أمية غيرها فسمت الدراهم الأولى مكروهة."
+  en: "Al-Hajjaj struck dirhams at the end of 75h and ordered them struck in all regions in 76h. 'Awana ibn al-Hakam: he asked how the Persians struck dirhams, took a mint-house, gathered the minters, struck the sultan's money from bullion and the purifications of zuyuf, sattuqa and bahraja, then licensed merchants' sheets for a fee and sealed the minters' hands. He struck 'ali dirhams marked 'bismillah, al-Hajjaj', then 'God is one, God the eternal' — the jurists disliked them and they were called makruha, or so the Ajam called them for their short weight; the Sumayriyya were named for their first striker. Mus'ab had struck dirhams by Ibn al-Zubayr's order in 70h on the Kisra-type marked 'baraka wa-'afiya' — al-Hajjaj altered them — and, per Ibn al-Kalbi, dinars too; al-Harith ibn Abdallah ibn Abi Rabi'a struck wazn-sab'a in Ibn al-Zubayr's days. Abd al-Malik first struck gold after the Year of Union, 74h (some dinars in 72, then 75). Then Umar ibn Hubayra refined the silver beyond his predecessors and bore hard on the changers; Khalid al-Qasri harder; Yusuf ibn Umar hardest — cut hands and flogged backs — so the Hubayriyya, Khalidiyya and Yusufiyya were the best Umayyad coin, the only Umayyad dirhams al-Mansur accepted for kharaj, whence the first dirhams were called makruha."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "صاحب دار الضرب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-hubayra, role: "أول مزكي النقود", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khalid-ibn-abdallah-al-qasri, role: "الأشد بعده", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yusuf-ibn-umar-al-thaqafi, role: "الأشد في الغيار", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/musab-ibn-al-zubayr, role: "ضارب سنة ٧٠", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
