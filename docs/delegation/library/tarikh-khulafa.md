@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-50** (pp. 763–772 — the caliph-sultan): new `event/mustain-sultanate-815` (caliph hailed as sultan after Faraj's death; Ibn Hajar's ode; Syria's fatwa voiding his deposition); `person/al-mustain-billah` (d. plague at Alexandria 833; India's A'zam Shah sought investiture 814), `al-mutadid-billah-ii-cairo`, `al-muayyad-shaykh`, `barsbay`; enriched `faraj-ibn-barquq`.
+
 - **Batch TK-49** (pp. 753–763 — Mutawakkil's 45yrs, Timur & Barquq): new `event/timur-rise-773`, `ashraf-shaban-hajj-coup-778` (the caliph who REFUSED the sultanate), `muezzin-salat-adhan-786` (first post-adhan salawat — al-Tanbudhi), `barquq-accession-784` (first Circassian), `green-turban-ashraf-773`; `person/al-mutawakkil-ala-llah` (5 caliph sons — unprecedented), `al-mutadid-billah-cairo`, `al-wathiq-umar-cairo`, `al-mustasim-zakariya-cairo` (15-day caliph), `barquq`, `timur-lang`, `al-ashraf-shaban`, `faraj-ibn-barquq`; enriched `al-hakim-bi-amr-illah-ii` (d. plague 753; the 749 pandemic year).
 
 - **Batch TK-48** (pp. 734–744 — al-Mustakfi's exile & the khutba gap): new `event/mustakfi-qus-exile-737` (caliph exiled w/ ~100 household; d. Qus 740), `wathiq-khutba-gap-740` (Ibn Jama'a's refusal → BOTH names dropped from the minbars; sultan's deathbed repentance); `person/al-wathiq-ibrahim-cairo`, `al-hakim-bi-amr-illah-ii` (the 40-witness Qus deed), `baybars-al-jashankir`, `khudabanda`, `abu-said-ilkhan`, `al-mansur-abu-bakr-ibn-al-nasir`; enriched `al-mustakfi-billah`, `al-nasir-muhammad-ibn-qalawun` (Karak bridge & abdication), `ibn-taymiyya` (defeated the dhimmi white-turban/700k proposal, 709).

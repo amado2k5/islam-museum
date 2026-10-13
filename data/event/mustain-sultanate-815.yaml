@@ -1,0 +1,22 @@
+id: event/mustain-sultanate-815
+class: event
+kind: other
+label: { ar: "بيعة الخليفة المستعين بالسلطنة" }
+summary:
+  ar: "لما خرج السلطان الناصر فرج لقتال شيخ فهزم وقتل بويع الخليفة المستعين بالسلطنة مضافة للخلافة وذلك في المحرم سنة خمس عشرة وثمان مئة ولم يفعل ذلك إلا بعد شدة وتصميم وتوثق من الأمراء بالأيمان وعاد إلى مصر والأمراء في خدمته وتصرف بالولاية والعزل وضربت السكة باسمه ولم يغير لقبه وعمل شيخ الإسلام ابن حجر فيه قصيدته المشهورة الملك أصبح ثابت الأساس بالمستعين العادل العباس، ثم سكن شيخ الإصطبل وفوض إليه تدبير المملكة ولقب نظام الملك حتى تقدم إليه بألا يمكن الخليفة من كتابة العلامة إلا بعد عرضها عليه فاستوحش الخليفة وضاق صدره فسأله شيخ أن يفوض إليه السلطنة على العادة فاشترط أن ينزل من القلعة إلى بيته فلم يوافقه وتغلب على السلطنة وتلقب المؤيد وصرح بخلع المستعين وبايع بالخلافة أخاه داود المعتضد، فبلغ ذلك نوروزاً نائب الشام فجمع القضاة والعلماء واستفتاهم فأفتوه بأن ذلك لا يجوز فأجمع على قتال المؤيد {cite:tarikh-khulafa-minhaj-1434 p. 765-768}."
+  en: "When sultan Faraj marched on Shaykh, was routed and killed, the CALIPH al-Musta'in was hailed as sultan too — Muharram 815: coins in his name, officers appointed and dismissed, the amirs in his service, and Ibn Hajar's famous ode 'the kingship stands firm-based in al-Musta'in the just Abbas'. Then Shaykh, styled Nizam al-Mulk, ruled from the stables, barred the caliph's own unseen signature, usurped as al-Mu'ayyad in Sha'ban and deposed him; Syria's regent Nawruz assembled the qadis whose fatwa voided it {cite:tarikh-khulafa-minhaj-1434 p. 765-768}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1412-04~", hijri: "0815-01", calendar: julian, precision: month, status: tradition, derived: true, note: "محرم 815؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 765}." }
+relations:
+  - { type: had_participant, target: person/al-mustain-billah, role: "الخليفة السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-muayyad-shaykh, role: "المغتصب", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 765–768"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-50
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
