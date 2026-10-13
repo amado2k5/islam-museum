@@ -1,0 +1,19 @@
+id: person/abdullah-ibn-abd-al-malik
+class: person
+label: { ar: "عبد الله بن عبد الملك", en: "Abdullah ibn Abd al-Malik" }
+summary:
+  ar: "عبد الله بن عبد الملك بن مروان الأموي؛ عند البلاذري: غزا على الصائفة سنة 84 فدخل من درب أنطاكية وأتى المصيصة فبنى حصنها على أساسه القديم ووضع بها سكاناً من الجند فيهم ثلاثمائة رجل منتخب من ذوي البأس وبنى مسجداً فوق تل الحصن، ثم سار في جيشه حتى غزا حصن سنان ففتحه ووجّه يزيد بن حنين الطائي الأنطاكي فأغار."
+  en: "Abdullah ibn Abd al-Malik ibn Marwan the Umayyad; in al-Baladhuri: he led the summer raid of year 84, entering by the Antioch pass and coming to Masisa where he built the fortress on its ancient foundation, settling garrison troops among them three hundred picked men of known valour and building a mosque on the fortress hill, then marched on to take the fortress of Sinan and sent Yazid ibn Hunayn al-Ta'i al-Antaki raiding before returning."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/abd-al-malik-ibn-marwan, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/building-of-masisa, role: "الباني على الأساس القديم", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 225"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-12
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

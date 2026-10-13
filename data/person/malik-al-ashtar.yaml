@@ -1,0 +1,17 @@
+id: person/malik-al-ashtar
+class: person
+label: { ar: "مالك الأشتر النخعي", en: "Malik al-Ashtar al-Nakha'i" }
+summary:
+  ar: "مالك بن الحارث الأشتر النخعي، من أصحاب علي وقادته؛ عند البلاذري في اختلاف أول قاطع للدرب: لما وجّه أبو عبيدة ميسرة بن مسروق العبسي فأوقع بالروم ومن معهم من مستعربة غسان وتنوخ وإياد، لحق به مالك الأشتر مدداً من قبل أبي عبيدة وهو بأنطاكية."
+  en: "Malik ibn al-Harith al-Ashtar al-Nakha'i, companion and commander of Ali; in al-Baladhuri's disputed account of the first crossing of the Darb: when Abu Ubayda sent Maysara ibn Masruq al-Absi who fell upon the Byzantines and their musta'riba of Ghassan, Tanukh and Iyad, Malik al-Ashtar came up to him as reinforcement from Abu Ubayda at Antioch."
+wings: [people]
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/first-crossing-of-darb-baghras, role: "المدد اللاحق بميسرة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 224"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-12
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

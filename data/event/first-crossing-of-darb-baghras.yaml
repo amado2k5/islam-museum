@@ -1,0 +1,23 @@
+id: event/first-crossing-of-darb-baghras
+class: event
+kind: raid
+label: { ar: "أول قطع الدرب", en: "The First Crossing of the Darb" }
+summary:
+  ar: "عند البلاذري: اختلفوا في أول من قطع الدرب — وهو درب بغراس — فقال بعضهم قطعه ميسرة بن مسروق العبسي وجّهه أبو عبيدة بن الجراح فلقي جمعاً للروم ومعهم مستعربة من غسان وتنوخ وإياد يريدون اللحاق بهرقل فأوقع بهم وقتل منهم مقتلة عظيمة ثم لحق به مالك الأشتر النخعي مدداً من قبل أبي عبيدة وهو بأنطاكية، وقال بعضهم أول من قطع الدرب عمير بن سعد الأنصاري حين توجه في أمر جبلة بن الأيهم، وقال أبو الخطاب الأزدي بلغه أن أبا عبيدة نفسه غزا الصائفة فمر بالمصيصة وطرسوس وقد جلا أهلها وأهل الحصون التي تليها فأدرب فبلغ في غزاته زندة — وقال غيره إنما وجّه ميسرة بن مسروق فبلغ زندة."
+  en: "In al-Baladhuri: they differ on who first cut the Darb — the Baghras pass — some saying it was Maysara ibn Masruq al-Absi, sent by Abu Ubayda ibn al-Jarrah, who met a Byzantine gathering with musta'riba of Ghassan, Tanukh and Iyad making to join Heraclius, fell on them and killed a great slaughter, after which Malik al-Ashtar al-Nakha'i joined him as reinforcement from Abu Ubayda at Antioch; others say the first to cut it was Umayr ibn Sa'd al-Ansari when he went out on the matter of Jabala ibn al-Ayham; and Abu al-Khattab al-Azdi heard that Abu Ubayda himself led the summer raid, passing Masisa and Tarsus — their people having evacuated with the forts beyond — and crossed the pass reaching Zanda, while others say he merely sent Maysara ibn Masruq who reached Zanda."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: event/conquest-of-syria }
+  - { type: had_participant, target: person/maysara-ibn-masruq, role: "القاطع عند طائفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/malik-al-ashtar, role: "المدد اللاحق به", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "الآمر — وقيل الغازي بنفسه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umayr-ibn-sad, role: "القاطع عند طائفة ثانية", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 224–225"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-12
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

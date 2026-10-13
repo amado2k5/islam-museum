@@ -1,0 +1,25 @@
+id: event/treaty-with-jarajima
+class: event
+kind: treaty
+label: { ar: "صلح الجراجمة", en: "The Treaty with the Jarajima" }
+summary:
+  ar: "عند البلاذري عن مشايخ من أهل أنطاكية: الجراجمة من مدينة على جبل اللكام عند معدن الزاج فيما بين بياس وبوقا يقال لها الجرجومة وكان أمرهم في أيام استيلاء الروم على الشام إلى بطريق أنطاكية وواليها، فلما فتحها أبو عبيدة لزموا مدينتهم وهموا باللحاق بالروم خوفاً على أنفسهم فلم ينبه عليهم، ثم لما نقض أهل أنطاكية وجّه حبيب بن مسلمة ففتحها فأتى الجرجومة فبادروا بطلب الأمان فصالحهم على أن يكونوا أعواناً للمسلمين وعيوناً ومسالح في جبل اللكام وأن لا يؤخذوا بالجزية وأن يُنفّلوا أسلاب من يقتلون من عدو المسلمين إذا حضروا معهم حرباً، ودخل في هذا الصلح من كان في مدينتهم من تاجر وأجير وتابع من الأنباط وغيرهم وأهل القرى فسُمّوا الرواديف لأنهم تلوهم وليسوا منهم؛ فكانوا يستقيمون للولاة مرة ويعوجون أخرى يكاتبون الروم ويمالئونهم، حتى إذا كانت أيام ابن الزبير خرجت خيل للروم إلى جبل اللكام ثم صارت إلى لبنان وقد ضوت إليها جماعة كثيرة من الجراجمة وأنباط وعبيد آباق من عبيد المسلمين فاضطر عبد الملك أن صالحهم على ألف دينار في كل جمعة وصالح طاغية الروم على مال يؤديه إليه اقتداءً بمعاوية حين شغل بحرب أهل العراق؛ ثم وجه عبد الملك إلى الرومي سُحيم بن المهاجر فتلطف حتى دخل عليه متنكراً يظهر الممالأة حتى أمِنه فانكفأ عليه فقتله ومن معه ونادى بالأمان فتفرق الجراجمة بقرى حمص ودمشق ورجع أكثرهم إلى مدينتهم ورجع العبيد إلى مواليهم."
+  en: "In al-Baladhuri from shaykhs of Antioch: the Jarajima are of a city on Jabal al-Lukkam by the vitriol mine between Bayyas and Buqa called al-Jurjuma; in the days of Byzantine rule over Syria they answered to the patrician and governor of Antioch, and when Abu Ubayda took it they stayed in their city, meaning to join the Byzantines for fear of their lives but unreported; when Antioch's people broke faith he sent Habib ibn Maslama who retook it, then came to al-Jurjuma whose people hastened to ask for aman, compounding to be auxiliaries, scouts and watchmen for the Muslims in Jabal al-Lukkam, exempted from jizya and granted the spoils of those they killed when attending the Muslims' wars — the treaty taking in the traders, hirelings, Nabataean clients and villagers among them who were called the Rawadif for following after them; they would keep faith with the governors one while and veer another, corresponding with and favouring the Byzantines, until in Ibn al-Zubayr's days a Byzantine cavalry came to Jabal al-Lukkam then moved to Lebanon, drawing to it a great company of Jarajima, Nabataeans and runaway slaves of the Muslims, forcing Abd al-Malik to compound with them for a thousand dinars every Friday and with the Byzantine tyrant for a payment to keep him occupied — after Mu'awiya's example when preoccupied with Iraq; then Abd al-Malik sent Suhaym ibn al-Muhajir to the Byzantine leader, who wormed his way in by feigned favour until trusted, then fell on him and his company and killed them, proclaiming aman so the Jarajima scattered through the villages of Hims and Damascus, most returning to their city and the slaves to their masters."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0637~", hijri: "0016~", calendar: julian, precision: year, status: tradition, derived: true, note: "أيام أبي عبيدة وحبيب بن مسلمة على أنطاكية (البلاذري ص 217–218). التحويل مشتق." }
+relations:
+  - { type: had_participant, target: group/jarajima, role: "المصالَحون على المسالح والأعوان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/habib-ibn-maslama, role: "فاتح أنطاكية الثانية وعاقد الصلح بحسب الرواية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "صالحهم على ألف دينار كل جمعة في أيام ابن الزبير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/suhaym-ibn-al-muhajir, role: "القائد الذي قتل صاحب الروم بالتقية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/dhimma, note: "صلح خدمة لا جزية — نموذج ثالث بين الذمة والفدية", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 217–219"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-12
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
