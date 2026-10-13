@@ -1,0 +1,22 @@
+id: event/mamun-egypt-entry
+class: event
+kind: other
+label: { ar: "دخول المأمون مصر" }
+summary:
+  ar: "سار المأمون سنة خمس عشرة إلى غزو الروم ففتح حصن قرة عنوة وحصن ماجدة ثم سار إلى دمشق، وعاد في سنة ست عشرة إلى الروم فافتتح عدة حصون، ثم توجه إلى مصر ودخلها فهو أول من دخلها من الخلفاء العباسيين ثم عاد في سنة سبع عشرة إلى دمشق والروم {cite:tarikh-khulafa-minhaj-1434 p. 488}."
+  en: "In year 215 al-Ma'mun marched against the Byzantines, taking the fortresses Qurra and Majida, then went to Damascus; in 216 he returned and took several more. He then made for Egypt and entered it — the first Abbasid caliph ever to do so — before returning in 217 to Damascus and the frontier {cite:tarikh-khulafa-minhaj-1434 p. 488}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0831~", hijri: "0216~", calendar: julian, precision: year, status: tradition, derived: true, note: "216–217؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 488}." }
+relations:
+  - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/egypt, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 488"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-23
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
