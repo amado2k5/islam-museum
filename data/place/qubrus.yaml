@@ -1,0 +1,20 @@
+id: place/qubrus
+class: place
+kind: island
+label: { ar: "قبرس", en: "Cyprus" }
+summary:
+  ar: "جزيرة قبرس في بحر الروم يقال ثمانون فرسخاً في مثلها؛ أول ما ركبها المسلمون غزوة معاوية سنة 28 فصالح أهلها على سبعة آلاف ومائتي دينار سنوياً — ويؤدون للروم مثلها — على أن لا يقاتلوا عنهم ويؤذنوا المسلمين بسير عدوهم، فكانوا أهل فدية لا أهل ذمة؛ ولما أعانوا الروم سنة 32 فتحها معاوية عنوة سنة 33 ثم أقرهم على صلحهم وبنى بها مدينة ومساجد حتى أقفلها يزيد؛ وأجلهم الوليد بن يزيد فردّهم يزيد بن الوليد؛ وصار حكم عهدها مثالاً فقهياً استشير فيه الليث ومالك وسفيان بن عيينة وغيرهم في ولاية عبد الملك بن صالح، وبها قبر أم حرام بنت ملحان المعروف بقبر المرأة الصالحة."
+  en: "The island of Cyprus in the Byzantine sea, some eighty farsakhs square by report; first sailed by the Muslims on Mu'awiya's raid of year 28, its people compounding for seven thousand two hundred dinars yearly — paying the like to the Byzantines — on condition of not being made to fight for them and of warning the Muslims of enemy movements, making them a ransom-people rather than dhimmis; when they aided the Byzantines in year 32 Mu'awiya took it by force in year 33 then restored their treaty, building a city and mosques there until Yazid withdrew the garrison; al-Walid ibn Yazid exiled a body of them and Yazid ibn al-Walid returned them; its covenant became a juristic test-case on which al-Layth, Malik, Sufyan ibn Uyayna and others were consulted under Abd al-Malik ibn Salih; and it holds the grave of Umm Haram bint Milhan, called the grave of the righteous woman."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/first-raid-on-cyprus, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/second-raid-on-cyprus, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 208–215"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-11
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

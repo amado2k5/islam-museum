@@ -1,0 +1,19 @@
+id: person/yazid-ibn-muawiya
+class: person
+label: { ar: "يزيد بن معاوية", en: "Yazid ibn Mu'awiya" }
+summary:
+  ar: "يزيد بن معاوية بن أبي سفيان، ثاني خلفاء بني أمية؛ عند البلاذري: لما توفي معاوية وولي بعده ابنه يزيد أقفل جند قبرس الذين رتّبهم أبوه بالجزيرة وأمر بهدم مدينتهم — وروى محمد بن مصفى أنه رُشي مالاً عظيماً حتى أقفلهم فهدم أهل قبرس مدينتهم ومساجدهم —؛ وهو الذي وضع الخراج على أراضي السامرة بالأردن وجعل على رأس كل امرئ منهم خمسة دنانير."
+  en: "Yazid ibn Mu'awiya ibn Abi Sufyan, second Umayyad caliph; in al-Baladhuri: when Mu'awiya died and his son Yazid succeeded, he withdrew the garrison his father had stationed in Cyprus and ordered their city demolished — Muhammad ibn Musaffa's report holds he was bribed with great wealth to withdraw them, whereupon the Cypriots demolished their city and mosques; it was he who laid kharaj on the Samaritans' lands in the Jordan, at five dinars on every man's head."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/muawiya-ibn-abi-sufyan, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/second-raid-on-cyprus, role: "أقفل الجند وهدم المدينة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 209، 216"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-11
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

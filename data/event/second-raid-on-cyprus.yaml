@@ -1,0 +1,27 @@
+id: event/second-raid-on-cyprus
+class: event
+kind: raid
+label: { ar: "غزوة قبرس الثانية", en: "The Second Raid on Cyprus" }
+summary:
+  ar: "عند البلاذري: لما كانت سنة 32 أعان أهل قبرس الروم على الغزاة في البحر بمراكب أعطوهم إياها فغزاهم معاوية سنة 33 في خمس مائة مركب ففتح قبرس عنوة فقتل وسبى ثم أقرّهم على صلحهم، وبعث إليها باثني عشر ألفاً كلهم أهل ديوان فبنوا بها المساجد ونقل إليها جماعة من بعلبك وبنى بها مدينة وأقاموا يُعطون الأعطية إلى أن توفي معاوية وولي بعده ابنه يزيد فأقفل ذلك البعث وأمر بهدم المدينة؛ وبعض الرواة يزعم أن غزوة معاوية الثانية قبرس كانت سنة 35، وبلغ محمد بن مصفى أن يزيد بن معاوية رشي مالاً عظيماً ذا قدر حتى أقفل جند قبرس فلما قفلوا هدم أهل قبرس مدينتهم ومساجدهم؛ وأجل الوليد بن يزيد بن عبد الملك خلقاً منهم إلى الشام لأمر اتهمهم به فأنكر الناس ذلك فردّهم يزيد بن الوليد إلى بلدهم، وكان حيّ بن معيوف الهمداني غزاهم في خلافة الرشيد لحدث أحدثوه فأسر منهم بشراً ثم استقاموا للمسلمين فأمر الرشيد بردّ من أسر منهم فرُدّوا؛ ولم يزل أهل قبرس على صلح معاوية حتى ولي عبد الملك بن مروان فزاد عليهم ألف دينار فجرى ذلك إلى خلافة عمر بن عبد العزيز فحطّها عنهم ثم لما ولي هشام ردّها فجرى إلى خلافة أبي جعفر المنصور فقال «نحن أحق من أنصفهم ولم نتكثر بظلمهم» فردّهم إلى صلح معاوية."
+  en: "In al-Baladhuri: in year 32 the people of Cyprus aided the Byzantines against the sea-raiders, giving them vessels, so Mu'awiya raided them in year 33 with five hundred ships, taking Cyprus by force — killing and making captives — then restored them to their treaty, sending there twelve thousand men all of the diwan who built its mosques, and transferring companies from Ba'labakk; he built a city there and they dwelt drawing stipends until Mu'awiya died and his son Yazid succeeded, who disbanded that force and ordered the city demolished — some transmitters place the second raid in year 35, and Muhammad ibn Musaffa was told Yazid was bribed with great wealth to withdraw the Cyprus garrison, whose people then demolished their city and mosques once they had gone; al-Walid ibn Yazid ibn Abd al-Malik exiled a body of them to Syria on a charge which the people disapproved, and Yazid ibn al-Walid returned them to their land; Hayy ibn Ma'yuf al-Hamdani raided them in al-Rashid's caliphate for an offence and took captives, and when they straightened to the Muslims al-Rashid ordered the captives returned; the people of Cyprus remained on Mu'awiya's treaty until Abd al-Malik added a thousand dinars, which ran until Umar ibn Abd al-Aziz remitted it, Hisham restored it, and Abu Ja'far al-Mansur declared 'we are worthier of being just to them and did not profit by wronging them', returning them to Mu'awiya's treaty."
+wings: [time, place, people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0653~", hijri: "0033", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 33؛ قيل 35 (البلاذري ص 209). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/qubrus }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "أمير الغزوة في خمسمائة مركب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yazid-ibn-muawiya, role: "أقفل الجند وأمر بهدم المدينة — وقيل برشوة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "زاد على أهلها ألف دينار", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "حطّ الزيادة عنهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mansur, role: "ردّهم إلى صلح معاوية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: caused_by, target: event/first-raid-on-cyprus, note: "نقض أهلها بإعانة الروم سنة 32", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 209–211"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-11
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
