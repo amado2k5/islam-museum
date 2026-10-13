@@ -1,0 +1,17 @@
+id: person/hayyan-ibn-shurayh
+class: person
+label: { ar: "حيّان بن شريح", en: "Hayyan ibn Shurayh" }
+summary:
+  ar: "حيّان بن شريح؛ عامل عمر بن عبد العزيز على مصر، قرأ الصلت بن أبي عاصم كاتبه كتاب عمر إليه أن مصر فتحت عنوة بغير عهد ولا عقد."
+  en: "Hayyan ibn Shurayh; Umar ibn Abd al-Aziz's governor over Egypt — his scribe al-Salt ibn Abi Asim read him Umar's letter stating that Egypt was conquered by force with neither covenant nor contract."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: participated_in, target: event/conquest-of-egypt, role: "متلقّي كتاب العنوة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 305"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

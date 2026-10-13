@@ -1,19 +1,18 @@
 id: person/umayr-ibn-wahb-al-jumahi
 class: person
-label: { en: Umayr ibn Wahb al-Jumahi, ar: "عمير بن وهب الجمحي" }
-aliases: [person/umayr-ibn-wahb]
-names:
-  - { kind: full, lang: ar, value: "عمير بن وهب الجمحي" }
-gender: male
-roles: [companion]
+label: { ar: "عمير بن وهب الجمحي (صاحب تبوك)", en: "Umayr ibn Wahb al-Jumahi (of Tabuk)" }
 summary:
-  ar: "لقي أبا خيثمة في الطريق وهو يطلب النبي، فترافقا حتى دنوا من تبوك فتخلف عنه أبو خيثمة بطلبه ليأتي النبي أولاً."
-  en: He met Abu Khaythama on the road seeking the Prophet, and they travelled together until they neared Tabuk, when Abu Khaythama held him back at his request so that Abu Khaythama could reach the Prophet first.
+  ar: "عمير بن وهب من بني جمح؛ ذكره ابن إسحاق في خبر أبي خيثمة بغزوة تبوك: لقيه في الطريق وهو يطلب النبي فترافقا حتى دنوا من تبوك فتخلف عنه أبو خيثمة بطلبه ليأتي النبي أولاً. ولا ينصّ ابن إسحاق هنا على أنه عمير بن وهب المعروف الذي أسلم بعد بدر فلم يُدمجا."
+  en: "Umayr ibn Wahb of Banu Jumah; Ibn Ishaq mentions him in Abu Khaythama's Tabuk report — met on the road seeking the Prophet, they travelled together until nearing Tabuk, where Abu Khaythama asked him to hang back so he might reach the Prophet first. Ibn Ishaq does not state here that he is the famous Umayr ibn Wahb who embraced Islam after Badr, and the two have not been merged."
 wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
-  - { type: participated_in, target: event/abu-khaythama-joins-the-army, role: companion-on-the-road, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 164", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+  - { type: member_of, target: group/banu-jumah, sources: [source/ibn-hisham-saqqa] }
+provenance:
+  layer: own-research
+  source: "سيرة ابن إسحاق (سقا) ج4 ص164؛ مقابلة person/umayr-ibn-wahb المعروف"
+  generated_by: "Devin (SWE-2 High) — data stub for existing prose"
+  run: lib-futuh-buldan-batch-19
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 164" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

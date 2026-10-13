@@ -1,0 +1,29 @@
+id: event/four-lieutenants-egypt
+class: event
+kind: conquest
+label: { ar: "توجيهات عمرو الأربعة لقرى مصر", en: "Amr's Four Lieutenants Carry the Fustat Terms through Egypt" }
+summary:
+  ar: "عند البلاذري عن جماعة ممن شهد فتح مصر: لما فتح عمرو بن العاص الفسطاط وجّه عبد الله بن حذافة السهمي إلى عين شمس فثاب على أرضها وصالح أهل قراها على مثل حكم الفسطاط، ووجّه خارجة بن حذافة العدوي إلى الفيوم والأشمونين وإخميم والبشرودات وقرى الصعيد ففعل مثل ذلك، ووجّه عمير بن وهب الجمحي إلى تنّيس ودمياط وتونة ودميرة وشطا ودقهلة وبنا وبوصير ففعل مثل ذلك، ووجّه عتبة بن عامر الجهني — ويُقال وردان مولاه صاحب سوق وردان بمصر — إلى سائر قرى أسفل الأرض ففعل مثل ذلك، فاستجمع عمرو بن العاص فتح مصر فصارت أرضها أرض خراج."
+  en: "In al-Baladhuri, from a group who witnessed Egypt's conquest: when Amr ibn al-As took al-Fustat he sent Abdallah ibn Hudhafa al-Sahmi to Ayn Shams, who gained its land and compounded its villages on Fustat's terms; sent Kharija ibn Hudhafa al-Adawi to al-Fayyum, al-Ashmunayn, Ikhmim, al-Bashrudat and the Sa'id's villages, who did likewise; sent Umayr ibn Wahb al-Jumahi to Tinnis, Dimyat, Tuna, Damira, Shata, Diqahla, Bana and Busir, who did likewise; and sent Utba ibn Amir al-Juhani — or, some say, his mawla Wardan, lord of Suq Wardan in Egypt — to all lower Egypt's villages, who did likewise; thus was Amr's conquest of Egypt completed and its land made kharaj-land."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { hijri: "0020~", precision: year, status: tradition, derived: true, note: "في أعقاب فتح الفسطاط (البلاذري ص 304–305). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ayn-shams }
+  - { type: occurred_at, target: place/al-fayyum }
+  - { type: occurred_at, target: place/tinnis }
+  - { type: occurred_at, target: place/dimyat }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "الموجّه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-hudhafa-al-sahmi, role: "عين شمس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/kharija-ibn-hudhafa-al-adawi, role: "الفيوم والصعيد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umayr-ibn-wahb, role: "تنيس ودمياط والوجه البحري", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/utba-ibn-amir-al-juhani, role: "قرى أسفل الأرض", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 304–305"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

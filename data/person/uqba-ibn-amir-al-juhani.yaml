@@ -1,54 +1,17 @@
 id: person/uqba-ibn-amir-al-juhani
 class: person
-label:
-  ar: عقبة بن عامر الجهني
-  en: Uqba ibn Amir al-Juhani
-names:
-- kind: full
-  lang: ar
-  value: عقبة بن عامر بن عبس بن عمرو بن عدي الجهني
-gender: male
-roles:
-- companion
-traditions:
-- sunni
+label: { ar: "عقبة بن عامر الجهني", en: "Uqba ibn Amir al-Juhani" }
 summary:
-  ar: صحابي مشهور روى عن النبي كثيراً؛ كان قارئاً عالماً بالفرائض والفقه فصيحاً شاعراً كاتباً وأحد من جمع القرآن، وكان بريد عمر بفتح دمشق، وولاه معاوية مصر، ومات في خلافة معاوية.
-  en: A well-known Companion who narrated much from the Prophet; a reciter learned in inheritance law and jurisprudence, an eloquent poet and scribe, one of those who collected the Qur'an; he carried the news of the conquest of Damascus to Umar,
-    Mu'awiya made him governor of Egypt, and he died in Mu'awiya's caliphate.
-wings:
-- people
-themes:
-- converts-and-leavers
-periods:
-- period/prophetic-era
-- period/rashidun
-regions:
-- arabia
-story_roles:
-- role: companion
-  status: tradition
-  note: مذكور في الإصابة ترجمة رقم 6148 (ص 1041).
-  sources:
-  - source/ibn-hajar-isaba
-faith:
-- value: sunni
-  basis: tradition
-  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+  ar: "عقبة بن عامر الجهني؛ شاهد فتح مصر وشهد أن لأهل مصر عهداً وعقداً كتب لهم عمرو: أنهم آمنون على أموالهم ودمائهم ونسائهم وأولادهم لا يباع منهم أحد وفرض عليهم خراجاً لا يزاد عليهم وأن يُدفع عنهم خوف عدوهم — قال عقبة وأنا شاهد على ذلك."
+  en: "Uqba ibn Amir al-Juhani; a witness of Egypt's conquest who testified that its people hold covenant and contract written by Amr: secure in wealth, blood, women and children, none of them sold, a kharaj fixed never to increase, and protection from their enemy's fear — 'and I bear witness to that', said Uqba."
+wings: [people]
+periods: [period/rashidun]
 relations:
-- type: lived_in
-  target: place/damascus
-  sources:
-  - source/ibn-hajar-isaba
+  - { type: participated_in, target: event/conquest-of-egypt, role: "شاهد العهد", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: الإصابة في تمييز الصحابة، ترجمة 6148، ص 1041
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: isaba-batch-2
-sources:
-- source/ibn-hajar-isaba
-status:
-  review: draft
-  completeness: 2
-  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1041, entry 6148)
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 306"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

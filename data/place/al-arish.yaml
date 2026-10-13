@@ -1,0 +1,19 @@
+id: place/al-arish
+class: place
+kind: town
+label: { ar: "العريش", en: "Al-Arish" }
+summary:
+  ar: "العريش أول منازل عمرو بن العاص في مسيره إلى مصر سنة تسع عشرة نزلها ثم أتى الفرما، وبها ورد عليه كتاب عمر يأمره بالرجوع إلى موضعه إن وافاه دون مصر — وقد جاوزها."
+  en: "Al-Arish, Amr ibn al-As's first halt on the march to Egypt in year 19 — thence to al-Farama; at al-Mirish near it Umar's letter ordering him back reached him, already past it."
+wings: [place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: site_of, target: event/conquest-of-egypt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 298"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,20 @@
+id: place/al-fustat
+class: place
+kind: town
+label: { ar: "الفسطاط", en: "Al-Fustat" }
+summary:
+  ar: "الفسطاط عند البلاذري: كانت المدينة تسمى اليونة فسمّاها المسلمون فسطاطاً لقولهم هذا فسطاط القوم ومجمعهم — وقوم قالوا لأن عمرو ضرب بها فسطاطاً؛ نزلها عمرو بجنان الريحان وقد خندق أهلها وصعد الزبير حصنها بالسلّم مجرداً سيفه ففُتح عنوة، واختطّ بها الزبير وبنى دارها المعروفة التي نزلها عبد الله بن الزبير حين غزا إفريقية، وجعلت جزيتها دينارين على الحالم إلا فقيراً وأرضها أرض خراج."
+  en: "Al-Fustat in al-Baladhuri: the city had been called al-Yuna, renamed al-Fustat by the Muslims as 'the people's encampment and gathering' — or, some say, for the tent Amr pitched there; Amr camped at Jinan al-Rayhan while its folk ditched, and al-Zubayr scaled its fortress by ladder bare-sworded until it fell by force; al-Zubayr laid his khitta there and built his famous house — the one Abdallah ibn al-Zubayr later lodged in when raiding Ifriqiya — its jizya set at two dinars per free man save the poor, its land made kharaj-land."
+wings: [place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: site_of, target: event/conquest-of-egypt, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/kharaj-milking-egypt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 298–301"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

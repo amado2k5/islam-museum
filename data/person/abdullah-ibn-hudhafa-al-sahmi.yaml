@@ -7,22 +7,23 @@ gender: male
 roles: [companion]
 traditions: [sunni]
 summary:
-  ar: "من بني سهم، هاجر إلى الحبشة؛ يصفه ابن إسحاق برسول رسول الله إلى كسرى."
+  ar: "من بني سهم، هاجر إلى الحبشة؛ يصفه ابن إسحاق برسول رسول الله إلى كسرى. وعند البلاذري: وجّهه عمرو بن العاص بعد فتح الفسطاط إلى عين شمس فثاب على أرضها وصالح أهل قراها على مثل حكم الفسطاط."
   en: Of Banu Sahm; he emigrated to Abyssinia. Ibn Ishaq describes him as the Messenger of God's envoy to the Chosroes.
 wings: [people]
 themes: [refugees-migrants-diaspora]
-periods: [period/prophetic-era]
-regions: [arabia, east-africa]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, east-africa, egypt-nile]
 story_roles:
-  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
-  - { role: official, toward: person/muhammad, status: tradition, note: "وصفه ابن إسحاق برسول رسول الله (ص8)", sources: [source/ibn-hisham-saqqa] }
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { role: official, toward: person/muhammad, status: tradition, note: "وصفه ابن إسحاق برسول رسول الله (ص8)", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
-  - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
-  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
-  - { type: corresponded_with, target: person/khosrow-ii, note: "رسول النبي إليه بحسب ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
-  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iv" }
-sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }
+  - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { type: corresponded_with, target: person/khosrow-ii, note: "رسول النبي إليه بحسب ابن إسحاق", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/four-lieutenants-egypt, role: "موجّه عين شمس", sources: [source/futuh-buldan-maarif-1407] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8; فتوح البلدان (معارف 1407) ص 304", generated_by: "Claude Sonnet 5.5; extended by Devin (SWE-2 High)", run: "ibn-hisham-batch-5c-iv + lib-futuh-buldan-batch-19" }
+sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; extended by Devin (SWE-2 High) — Futuh al-Buldan p. 304" }

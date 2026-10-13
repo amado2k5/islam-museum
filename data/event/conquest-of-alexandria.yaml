@@ -1,0 +1,24 @@
+id: event/conquest-of-alexandria
+class: event
+kind: conquest
+label: { ar: "فتح الإسكندرية", en: "The Conquest of Alexandria" }
+summary:
+  ar: "عند البلاذري بإسناد ابن لهيعة عن يزيد بن أبي حبيب: صالح الموقس عمرو بن العاص على أن يسير من الروم من أراد ويُقرّ من أراد الإقامة على أمر سمّاه وأن يُفرض على القبط ديناران، فبلغ ذلك ملك الروم فتسخّطه وبعث الجيوش فأغلقوا باب الإسكندرية وآذنوا عمراً بالحرب، فخرج إليه الموقس فقال أسألك ثلاثاً: أن لا تبذل للروم مثل الذي بذلت لي فإنهم قد استغشّوني، وأن لا تنقض بالقبط فإن النقض لم يأت من قبلهم، وإن متّ فمر بدفني في كنيسة بالإسكندرية ذكرها، فقال عمرو هذه لك. وفتح عمرو الإسكندرية عنوةً وكتب بذلك إلى عمر بن الخطاب: «أما بعد فإن الله قد فتح علينا الإسكندرية عنوة قسراً بغير عهد ولا عقد» — وهي كلها صلح في قول يزيد بن أبي حبيب."
+  en: "In al-Baladhuri on Ibn Lahia's chain from Yazid ibn Abi Habib: the Muqawqis compounded with Amr ibn al-As — that those Romans who wished might depart, those wishing to stay remain on a stated footing, and two dinars be laid on the Copts; when word reached the king of the Romans he grew most wroth, sent hosts who shut Alexandria's gate and declared war on Amr, whereupon the Muqawqis came out to him saying 'I ask three things of you: offer the Romans nothing like what you offered me, for they have deceived me; do not break with the Copts, for the breach came not from them; and if I die, have me buried in a church in Alexandria that he named' — and Amr answered 'it is yours'. Amr then took Alexandria by force, writing to Umar ibn al-Khattab: 'To proceed — God has opened Alexandria to us by force, violently, with neither covenant nor contract' — though in Yazid ibn Abi Habib's reading it was all treaty."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { hijri: "0021~", precision: year, status: tradition, derived: true, note: "ضمن فتح مصر 20هـ تقريباً (البلاذري ص 302–303). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/iskandariyya }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "الفاتح وكاتب البلاغ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muqawqis, role: "صاحب الصلح المرفوض من ملك الروم وصاحب الثلاث", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/heraclius, role: "المتسخّط الباعث للجيوش", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 302–303"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

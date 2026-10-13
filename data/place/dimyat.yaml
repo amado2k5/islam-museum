@@ -1,0 +1,19 @@
+id: place/dimyat
+class: place
+kind: town
+label: { ar: "دمياط", en: "Damietta" }
+summary:
+  ar: "دمياط من مدن الوجه البحري على ثغر النيل؛ وجّه إليها عمرو بن العاص عمير بن وهب الجمحي مع تنّيس وتونة ودميرة وشطا ودقهلة وبنا وبوصير فصالح أهل قراها على مثل حكم الفسطاط."
+  en: "Damietta, a lower-Egypt city on the Nile's mouth; Amr ibn al-As sent Umayr ibn Wahb al-Jumahi to it with Tinnis, Tuna, Damira, Shata, Diqahla, Bana and Busir — their villages compounding on Fustat's terms."
+wings: [place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: site_of, target: event/four-lieutenants-egypt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 304"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
