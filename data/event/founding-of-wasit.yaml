@@ -1,0 +1,22 @@
+id: event/founding-of-wasit
+class: event
+kind: founding
+label: { ar: "تأسيس واسط", en: "The Founding of Wasit" }
+summary:
+  ar: "عند البلاذري: أحدث الحجاج مدينة واسط في سنة 83 أو سنة 84 وبنى مسجدها وقصرها وقبة الخضراء بها وكانت واسط أرض قصب فسميت واسط القصب وبينها وبين الأهواز والبصرة والكوفة مقدار واحد وقال ابن القرية بناه في غير بلده ويتركها لغير ولده وقال شيخ من أهل واسط إن الحجاج لما فرغ من واسط كتب إلى عبد الملك بن مروان إني اتخذت مدينة في كرش من الأرض بين الجبل والمصرين وسميتها واسطاً فلذلك سمي أهل واسط الكرشيين وكان الحجاج قبل اتخاذه واسطاً أراد تزويل الصين من كسكر فحفر نهر الصين ثم بدا له فأحدث واسطاً فنزلها واحتفر النيل والزابي وسماه زابياً لأخذه من الزابي القديم وأحيا ما على هذين النهرين من الأرضين وأحدث المدينة التي تعرف بالنيل ومصرها وعمد إلى ضياع كان عبد الله بن دراج مولى معاوية استخرجها له أيام ولايته خراج الكوفة مع المغيرة بن شعبة من موات مرفوض ونقوض مياه ومغايص وآجام ضرب عليها المسنيات ثم قلع قصبها فحازها لعبد الملك وعمرها ونقل الحجاج إلى قصره والمسجد الجامع بواسط أبواباً من زنتورد والدوقرة ودار أوساط ودير ماسرجسان وشرابيط فضج أهل هذه المدن وقالوا قد آثرنا على مدننا وأموالنا فلم يلتفت إلى قولهم."
+  en: "In al-Baladhuri: al-Hajjaj founded the city of Wasit in year 83 or 84, building its mosque, palace and Green Dome — it was reed-land, whence 'Wasit al-Qasab', equidistant from al-Ahwaz, Basra and Kufa; Ibn al-Qirriyya quipped 'he built it in a land not his own and will leave it to sons not his own.' A Wasit shaykh related that when finished al-Hajjaj wrote Abd al-Malik: 'I have founded a city in a karsh of land between the mountain and the two garrison towns and named it Wasit' — hence the Wasitis are called al-Karshiyyin. Before founding it he had meant to move al-Sin's people from Kaskar and dug Nahr al-Sin, then reconsidered, founded Wasit, dug the Nil and Zabi canals, revived their lands and founded the city called al-Nil. He seized Abdallah ibn Darraj's estates — reclaimed deadland, stagnant waters, springs and reed-beds marked with milestones under his Kufa kharaj office with al-Mughira — cleared their reeds and took them for Abd al-Malik, cultivating them; and he stripped doors from Zantaward, al-Dawqara, Dar Awsat, Dayr Masarjasan and Sharabit for his palace and Wasit's congregational mosque — those cities protested 'you have preferred us over our own cities and wealth,' and he paid them no heed."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: occurred_at, target: place/wasit }
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "المؤسس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الخليفة المخاطَب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-darraj, role: "صاحب الضياع المحازة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 407–408"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-37
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
