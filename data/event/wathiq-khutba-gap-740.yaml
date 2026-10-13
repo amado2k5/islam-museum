@@ -1,0 +1,22 @@
+id: event/wathiq-khutba-gap-740
+class: event
+kind: other
+label: { ar: "خلع الخطبة لخليفتين وخلو المنابر" }
+summary:
+  ar: "لما مات المستكفي بقوص عهد إلى ابنه أحمد فلم يلتفت السلطان إلى ذلك وبايع إبراهيم ابن عمه ولقبه الواثق وكان جده الحاكم قد عهد إليه ثم عدل عنه لما هو فيه من الانهماك في اللعب ومعاشرة الأراذل، وقام قاضي القضاة أبو عمر بن جماعة في صرف رأي السلطان عن إقامة الخطبة باسم الواثق فلم يفعل فاتفق الرأيان على ترك الخطبة للاثنين واكتفي فيها بمجرد اسم السلطان فترجل بموت المستكفي اسم الخلافة عن المنابر كأنه ما علا ذروتها وخلا الدعاء للخلفاء من المحاريب كأنه ما قرع بابها ومروتها فكأنما كان آخر خلفاء بني العباس وشعارها عليه لباس الحداد حتى حضرت السلطان الوفاة فندم وعزل إبراهيم وبايع ولي العهد أحمد ولقب الحاكم في أول المحرم سنة اثنتين وأربعين {cite:tarikh-khulafa-minhaj-1434 p. 739-741}."
+  en: "On al-Mustakfi's death at Qus his will named his son Ahmad; the sultan ignored it and hailed his cousin Ibrahim al-Wathiq — a dissolute man his grandfather had passed over. Chief qadi Ibn Jama'a strove to turn the sultan from the khutba in his name and failed, so they agreed to drop BOTH names and keep the sultan's alone: 'the caliphate's name stepped down from the minbars as if it had never climbed, the prayer for caliphs emptied from the mihrabs as if it had never knocked' — till the sultan's deathbed repentance restored Ahmad as al-Hakim, Muharram 741 {cite:tarikh-khulafa-minhaj-1434 p. 739-741}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1340~", hijri: "0740", calendar: julian, precision: year, status: tradition, derived: true, note: "740–741؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 739}." }
+relations:
+  - { type: had_participant, target: person/al-wathiq-ibrahim-cairo, role: "المدعى", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-hakim-bi-amr-illah-ii, role: "ولي العهد الشرعي", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 734–744"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-48
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
