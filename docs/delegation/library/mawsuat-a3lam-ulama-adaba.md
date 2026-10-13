@@ -24,6 +24,7 @@
 - (12 Oct 2026) Batch 1b (vol. 1, pp. 116–238): 13 Tier 2 entries: al-Amidi, Ibn al-Abbar, Aban al-Lahiqi, Abkarius, al-Abhari (Athir al-Din), al-Abhari (Abu Bakr), al-Abbi, Abd al-Hadi Naja al-Abyari, Ali al-Abyari, Abu al-Abbas al-Abyani, Ibn al-Abrash, al-Abraqawhi, al-Ibshitay. Printed date pairs conflicting in the source (Aban al-Lahiqi, al-Abbi's birth range) are recorded as approximate CE years only.
 - (12 Oct 2026) Batch 1c (vol. 1, pp. 116–504): 12 Tier 2 entries, including Ibn al-Ajdabi, al-Khalil al-Farahidi, Ibn al-Ahmar, al-Idrisi, Zaki al-Arsuzi and Hammad ibn Zayd. Tier 1 enrichment for the existing Ibn al-Athir entries is still pending.
 - (12 Oct 2026) Batch 1d (vol. 1, pp. 531–681): 9 Tier 2 entries: al-Azhari, Ibn Abi Usama, al-Astarabadhi, al-Isfara'ini, Abu Awana, al-Ansari al-Harawi, al-Isma'ili, al-Asmandi, al-Isnawi.
+- (12 Oct 2026) Batch 1e (vol. 1, pp. 350–692): 9 Tier 2 entries: Ibn Abi al-Ahwas, al-Adfawi, al-Ardabili, Erzurumi, Abu al-Aswad al-Du'ali, Yusuf al-Asir, Mehmet Akif, Abu al-Khayr al-Armuni, Abd al-Ghaffar al-Akhras. Entries with conflicting Hijri and CE pairs are recorded with the CE years only.
 - OCR complete (12 Oct 2026): all seven volumes OCR'd; the page counts match the PDFs. Volume 6 is absent from the set.
 - Entry indexes and tiers built (harvest workspace, not committed): v01 251 entries, v02 231, v03 277, v04 324, v05 220, v07 153, v08 241. Indexes are first-pass and still need the undated-opening pass.
 

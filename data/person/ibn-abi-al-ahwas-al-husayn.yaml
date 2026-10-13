@@ -1,0 +1,22 @@
+id: person/ibn-abi-al-ahwas-al-husayn
+class: person
+label: { ar: "ابن أبي الأحوص الحسين بن عبد العزيز", en: "Ibn Abi al-Ahwas, al-Husayn ibn Abd al-Aziz" }
+names:
+  - { kind: full, lang: ar, value: "الحسين بن عبد العزيز بن محمد بن أبي الأحوص القرشي الفهري" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1206", hijri: "0603", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1299", hijri: "0699", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مقرئ ومفسر ومحدث وعالم بالعربية، ولد بجيان ونزل غرناطة، وعُرف بابن الناظر."
+  en: "A reciter, Qur'an commentator, hadith scholar and Arabic grammarian. Born in Jaen and settled in Granada; known as Ibn al-Nazir."
+wings: [people, words]
+themes: [scripture-and-its-sciences, linguistics]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 350, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص350", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
