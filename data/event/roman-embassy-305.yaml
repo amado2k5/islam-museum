@@ -1,0 +1,21 @@
+id: event/roman-embassy-305
+class: event
+kind: treaty
+label: { ar: "سفارة الروم وموكب المقتدر العظيم" }
+summary:
+  ar: "في سنة خمس قدمت رسل ملك الروم بهدايا وطلب عقد هدنة فعمل المقتدر موكباً عظيماً فأقام العساكر وصفهم بالسلاح وهم مئة وستون ألفاً من باب الشماسية إلى دار الخلافة وبعدهم الخدام وهم سبعة آلاف خادم ويليهم الحجاب وهم سبع مئة حاجب وكانت الستور التي نصبت على حيطان دار الخلافة ثمانية وثلاثين ألف ستر من الديباج والبسط اثنان وعشرون ألفاً وفي الحضرة مئة سبع في السلاسل، ووردت هدايا صاحب عمان وفيها طير أسود يتكلم بالفارسية وبالهندية أفصح من الببغاء {cite:tarikh-khulafa-minhaj-1434 p. 589}."
+  en: "In 305 a Byzantine embassy came with gifts seeking a truce; al-Muqtadir staged a great procession — a hundred and sixty thousand soldiers under arms from the Shammasiyya gate to the palace, seven thousand servants, seven hundred chamberlains, thirty-eight thousand brocade hangings on the walls, twenty-two thousand carpets, a hundred beasts in chains. That year Oman's lord sent gifts including a black bird that spoke Persian and Hindi better than a parrot {cite:tarikh-khulafa-minhaj-1434 p. 589}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0917~", hijri: "0305", calendar: julian, precision: year, status: tradition, derived: true, note: "305؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 589}." }
+relations:
+  - { type: had_participant, target: person/al-muqtadir-billah, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 581–594"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-33
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
