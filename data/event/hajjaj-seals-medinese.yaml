@@ -1,0 +1,22 @@
+id: event/hajjaj-seals-medinese
+class: event
+kind: persecution
+label: { ar: "ختم الحجاج أعناق أهل المدينة" }
+summary:
+  ar: "في سنة أربع وسبعين سار الحجاج إلى المدينة فأخذ يتعنت أهلها ويستخف ببقايا من فيها من صحابة رسول الله وختمهم في أعناقهم وأيديهم يذلهم بذلك، كأنس وجابر بن عبد الله وسهل بن سعد الساعدي {cite:tarikh-khulafa-minhaj-1434 p. 354}."
+  en: "In year 74 al-Hajjaj marched to Medina and took to harassing its people, humbling the remaining Companions by stamping their necks and hands with seals — among them Anas, Jabir ibn Abdullah and Sahl ibn Sa'd al-Sa'idi {cite:tarikh-khulafa-minhaj-1434 p. 354}."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [arabia]
+date:
+  start: { edtf: "0693~", hijri: "0074", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 74؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 354}." }
+relations:
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "الفاعل", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/medina, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 354"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-9
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
