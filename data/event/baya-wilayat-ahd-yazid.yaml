@@ -1,0 +1,25 @@
+id: event/baya-wilayat-ahd-yazid
+class: event
+kind: declaration
+label: { ar: "البيعة ليزيد بولاية العهد" }
+summary:
+  ar: "دعا معاوية أهل الشام إلى البيعة بولاية العهد لابنه يزيد فبايعوه في سنة خمسين في رواية وقيل أخرى سنة ست وخمسين، وهو أول من عهد بالخلافة لابنه وأول من عهد بها في صحته، وكتب إلى مروان بالمدينة أن يأخذ البيعة فخطب فقال إن أمير المؤمنين رأى أن يستخلف عليكم ولده يزيد سنة أبي بكر وعمر، فقام عبد الرحمن بن أبي بكر فقال بل سنة كسرى وقيصر إن أبا بكر وعمر لم يجعلاها في أولادهما ولا في أحد من أهل بيتهما {cite:tarikh-khulafa-minhaj-1434 p. 326}. ثم حج معاوية سنة إحدى وخمسين وأخذ البيعة لابنه فوعظ ابن عمر فأجابه بأن الخلفاء قبله كانت لهم أبناء فلم يروا فيهم ما رأى في ابنه وأنه رجل من المسلمين فإذا اجتمعوا على أمر فهو منهم، وقطع على ابن أبي بكر كلامه فوثب قائلاً والله لتردن هذا الأمر شورى في المسلمين أو لنفرقنها عليك جذعة، وقال لابن الزبير إنما أنت ثعلب رواغ كلما خرج من جحر دخل آخر، فأجابه ابن الزبير إن كنت قد مللت الإمارة فاعتزلها وهلم ابنك فلنبايعه أرأيت إذا بايعت ابنك معك لأيكما نسمع ونطيع، ثم صعد معاوية المنبر فأعلن أنهم قد سمعوا وأطاعوا وبايعوا وأهل الشام يطلبونها على رؤوس الأشهاد، والناس يقولون بايعوا وهم يقولون لا والله ما بايعنا {cite:tarikh-khulafa-minhaj-1434 p. 326-327}."
+  en: "Mu'awiya summoned the Syrians to pledge the succession to his son Yazid — the first to bequeath the caliphate to a son and the first to do so in his own lifetime — and wrote to Marwan at Medina to take the pledge. Marwan preached that the caliph wished to appoint Yazid 'after the manner of Abu Bakr and Umar'; Abd al-Rahman ibn Abi Bakr rose: 'rather after the manner of Chosroes and Caesar — neither of them gave it to a son or any of their house'. When Muawiya made the hajj in 51 he took the pledge in person: Ibn Umar answered that earlier caliphs had sons no worse than Yazid yet chose for the Muslims, while disclaiming any wish to break the community's staff; Ibn Abi Bakr leapt up vowing to return the matter to shura; Ibn al-Zubayr retorted 'if you are weary of rule, retire and bring your son — whom would we obey if we pledged you both?'. Muawiya then announced from the minbar that the three had 'heard, obeyed and pledged' — which the crowd affirmed and they denied {cite:tarikh-khulafa-minhaj-1434 p. 326-327}."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [arabia]
+date:
+  start: { edtf: "0670~", hijri: "0050", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 50 وقيل 56؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 326}." }
+relations:
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "العاهد لابنه", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/yazid-ibn-muawiya, role: "ولي العهد", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-abi-bakra, role: "القائل سنة كسرى وقيصر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abdullah-ibn-umar, role: "المستدعى للنصيحة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "الموصوف بالثعلب الرواغ", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 326–327"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-7
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

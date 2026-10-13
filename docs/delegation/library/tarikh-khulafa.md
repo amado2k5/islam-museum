@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-7** (pp. 323–332 — Muawiya): `event/am-al-jamaa` (41H), `event/istilhaq-ziyad` (first ruling contrary to the Prophet's judgment), `event/baya-wilayat-ahd-yazid` (Ibn Abi Bakr's "سنة كسرى وقيصر", Ibn al-Zubayr's ثعلب رواغ, the disputed minbar announcement), `event/death-of-muawiya` (Rajab 60, Bab al-Jabiya burial, the hair relics), `concept/diwan-al-khatim` (the forged 100k warrant).
+
 - **Batch TK-6** (pp. 305–320 — Ali's sayings + Hasan): `event/shurayh-armor-judgment` (the armor trial), `event/death-of-hasan-ibn-ali` (Ja'da's poisoning per the account, refused to name the poisoner, Baqi burial dispute); enriched `treaty-of-hasan-and-muawiya` (six months, three conditions, "العار خير من النار"); persons shurayh-al-qadi, jada-bint-al-ashath.
 
 - **Batch TK-5** (pp. 293–298 — Ali's caliphate): `event/bayat-ali` (Badri approval condition, Talha/Zubayr's reluctant pledge); enriched `death-of-ali-ibn-abi-talib` (the Meccan three-way pact, the dream, dar al-imara burial, Ibn Muljim's execution), `battle-of-the-camel` (Jumada II 36, 13k dead, 15-night Basra stay), `battle-of-nahrawan` (Harura', Ibn Abbas's debate, Dhu'l-Thudayya); persons qatam, al-burak-ibn-abdallah, amr-ibn-bakir; merged ibn-muljim→`abd-al-rahman-ibn-muljam`.
