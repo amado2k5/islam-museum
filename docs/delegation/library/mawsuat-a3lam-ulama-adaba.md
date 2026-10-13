@@ -22,7 +22,9 @@
 - (12 Oct 2026) Lane opened. `source/mawsuat-a3lam-ulama-adaba`, `work/mawsuat-a3lam-ulama-adaba`, stubs file, this progress file. Vision OCR of all 7 volumes running into the harvest workspace.
 - (12 Oct 2026) Batch 1a (vol. 1, pp. 273–277): Ibn al-Athir al-Jazari, Diya al-Din, Imad al-Din, Izz al-Din, Najm al-Din. Six works declared as stubs. Imad al-Din's birth year is printed inconsistently in the source (652 AH / 1245 CE); recorded as an uncertain CE year only.
 - (12 Oct 2026) Batch 1b (vol. 1, pp. 116–238): 13 Tier 2 entries: al-Amidi, Ibn al-Abbar, Aban al-Lahiqi, Abkarius, al-Abhari (Athir al-Din), al-Abhari (Abu Bakr), al-Abbi, Abd al-Hadi Naja al-Abyari, Ali al-Abyari, Abu al-Abbas al-Abyani, Ibn al-Abrash, al-Abraqawhi, al-Ibshitay. Printed date pairs conflicting in the source (Aban al-Lahiqi, al-Abbi's birth range) are recorded as approximate CE years only.
-- OCR status (12 Oct 2026): v01 complete (702 pages); v02 at page 506 of 640; v03, v04, v05, v07 and v08 not yet started. Phases 1–3 (index, tiering, batch mining) are blocked on v02 completion and the remaining volumes.
+- (12 Oct 2026) Batch 1c (vol. 1, pp. 116–504): 12 Tier 2 entries, including Ibn al-Ajdabi, al-Khalil al-Farahidi, Ibn al-Ahmar, al-Idrisi, Zaki al-Arsuzi and Hammad ibn Zayd. Tier 1 enrichment for the existing Ibn al-Athir entries is still pending.
+- OCR complete (12 Oct 2026): all seven volumes OCR'd; the page counts match the PDFs. Volume 6 is absent from the set.
+- Entry indexes and tiers built (harvest workspace, not committed): v01 251 entries, v02 231, v03 277, v04 324, v05 220, v07 153, v08 241. Indexes are first-pass and still need the undated-opening pass.
 
 **Flags:**
 - Volume 6 (m-a-3-o-06.pdf) is absent from the founder's folder — its letter range will be missing entirely.
