@@ -1,0 +1,21 @@
+id: event/death-of-mutasim
+class: event
+kind: death
+label: { ar: "وفاة المعتصم" }
+summary:
+  ar: "مات المعتصم يوم الخميس لإحدى عشرة ليلة بقيت من ربيع الأول سنة سبع وعشرين ومئتين، وقال في مرض موته ذهبت الحيلة فليس حيلة، وقيل جعل يقول أؤخذ من بين هذا الخلق، وكان قد عزم على المسير إلى أقصى الغرب ليملك البلاد التي لم تدخل في ملك بني العباس لاستيلاء الأموي عليها فقال لأحمد بن الخصيب بنو أمية ملكوا وما لأحد منا ملك وملكنا نحن ولهم بالأندلس هذا الأموي فقدر ما يحتاج إليه لمحاربته فاشتدت علته ومات {cite:tarikh-khulafa-minhaj-1434 p. 523-524}."
+  en: "Al-Mu'tasim died Thursday, 11 Rabi' I 227; in his illness he kept saying 'the ruse is gone — there is no ruse'. He had resolved to march to the far west against the Umayyad of al-Andalus — 'the Umayyads ruled when none of us had rule; we rule and this Umayyad holds al-Andalus? Reckon what is needed to fight him' — when his illness grew heavy and he died {cite:tarikh-khulafa-minhaj-1434 p. 523-524}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0842-02-05~", hijri: "0227-03-11", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس 11 ربيع الأول 227؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 523}." }
+relations:
+  - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 523–524"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-26
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
