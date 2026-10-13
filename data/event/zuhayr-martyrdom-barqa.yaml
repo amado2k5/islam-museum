@@ -1,0 +1,23 @@
+id: event/zuhayr-martyrdom-barqa
+class: event
+kind: battle
+label: { ar: "استشهاد زهير بن قيس ببرقة", en: "The Martyrdom of Zuhayr ibn Qays at Barqa" }
+summary:
+  ar: "عند البلاذري: ولّى عبد العزيز بن مروان إفريقية زهير بن قيس البلوي ففتح توتس ثم انصرف إلى برقة فبلغه أن جماعة من الروم خرجوا من مراكب لهم فعاثوا فتوجه إليهم في جريدة خيل فلقيهم فاستشهد ومن معه فقُبر هناك وقبورهم تدعى قبور الشهداء."
+  en: "In al-Baladhuri: Abd al-Aziz ibn Marwan gave Zuhayr ibn Qays al-Balawi Ifriqiya — he opened Tutus, then returned to Barqa, where word reached him that a body of Romans had come out of ships of theirs and were ravaging; he rode against them with a light cavalry band, met them, and was martyred with those with him — he was buried there, and their graves are called Qubur al-Shuhada."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "0685/0705", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية عبد العزيز بن مروان لمصر (البلاذري ص 321). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/barqa }
+  - { type: had_participant, target: person/zuhayr-ibn-qays-al-balawi, role: "الوالي المستشهد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-aziz-ibn-marwan, role: "المولّي إياه إفريقية", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

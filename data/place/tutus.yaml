@@ -1,0 +1,19 @@
+id: place/tutus
+class: place
+kind: town
+label: { ar: "توتس", en: "Tutus" }
+summary:
+  ar: "توتس من مدن إفريقية؛ فتحها زهير بن قيس البلوي في ولايته لإفريقية من قبل عبد العزيز بن مروان ثم انصرف إلى برقة فاستُشهد في لقائه روماً نزلوا من مراكبهم وقبورهم تدعى قبور الشهداء."
+  en: "Tutus, a town of Ifriqiya; Zuhayr ibn Qays al-Balawi opened it in his governorship for Abd al-Aziz ibn Marwan, then turned back to Barqa where he was martyred meeting Romans landed from their ships — their graves being called Qubur al-Shuhada."
+wings: [place]
+periods: [period/umayyad]
+regions: [maghreb]
+relations:
+  - { type: site_of, target: event/zuhayr-martyrdom-barqa, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

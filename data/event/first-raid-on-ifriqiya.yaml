@@ -1,0 +1,27 @@
+id: event/first-raid-on-ifriqiya
+class: event
+kind: campaign
+label: { ar: "غزوة إفريقية الأولى وقتل بطريقها", en: "The First Raid on Ifriqiya and the Killing of Its Patrikios" }
+summary:
+  ar: "عند البلاذري: لما ولّى عثمان عبد الله بن سعد بن أبي سرح مصر والمغرب بعث المسلمين في جرائد خيل فأصابوا من أطراف إفريقية وغنموا وكان عثمان متوقفاً عن غزوها ثم عزم عليه بعد أن استشار فيه وكتب إلى عبد الله في سنة سبع وعشرين — ويُقال ثمانٍ وعشرين ويُقال تسعٍ وعشرين — يأمره بغزوها وأمدّه بجيش عظيم فيه معبد بن العباس بن عبد المطلب ومروان بن الحكم بن أبي العاص بن أمية والحارث بن الحكم أخوه وعبد الله بن الزبير بن العوام والمسور بن مخرمة بن نوفل بن أهيب بن عبد مناف بن زهرة بن كلاب وعبد الرحمن بن زيد بن الخطاب وعبد الله بن عمر بن الخطاب وعاصم بن عمرو وعبيد الله بن عمر وعبد الرحمن بن أبي بكر وعبد الله بن عمرو بن العاص وبسر بن أبي أرطاة بن عويمر العامري وأبو ذؤيب خويلد بن خالد الهذلي الشاعر وبها توفي فقام بأمره ابن الزبير حتى واراه في لحده، وخرج في هذه الغزاة ممن حول المدينة من العرب خلق كثير. وقال عبد الله بن الزبير: أغزانا عثمان بن عفان إفريقية وكان بها بطريق سلطانه من أطرابلس إلى طنجة فسار عبد الله بن سعد بن أبي سرح حتى حلّ بمقوبة — وفي نسخة: يعقوبة — فقاتله أياماً فقتله الله وكنت أنا الذي قتلته وهرب جيشه فتمزقوا وبثّ ابن أبي سرح السرايا ففرقها في البلاد فأصابوا غنائم كثيرة واستاقوا من المواشي ما قدروا عليه فلما رأى ذلك عظماء إفريقية اجتمعوا فطلبوا إلى عبد الله بن سعد أن يأخذ منهم ثلاثمائة قنطار من ذهب على أن يكف عنهم ويخرج من بلادهم فقبل ذلك؛ وعن ابن كعب أن عبد الله بن سعد صالح بطريق إفريقية على ألفي ألف دينار وخمسمائة ألف دينار — وقال قدامة: قال الواقدي إن هذا الصلح بلغ ألفي ألف وخمسمائة ألف وعشرين ألفاً فدلّ على أن القنطار ثمانية آلاف وأربع مائة دينار. ولمّا صالح رجع إلى مصر ولم يولّ على إفريقية أحداً ولم يكن لها يومئذ قيروان ولا مصر جامع؛ وبإفريقية استشهد معبد بن العباس في هذه الغزاة — ويُقال مات في أيام القتال واستشهاده أثبت."
+  en: "In al-Baladhuri: when Uthman gave Abdallah ibn Sa'd ibn Abi Sarh Egypt and the Maghreb he sent out light cavalry squadrons that struck Ifriqiya's outskirts and took spoil, Uthman hesitating over its conquest until he resolved upon consultation and wrote to Abdallah in year 27 — or 28 or 29 by other reports — ordering the raid, reinforcing him with a great army in which were Mu'bad ibn al-Abbas ibn Abd al-Muttalib, Marwan ibn al-Hakam ibn Abi al-As ibn Umayya and his brother al-Harith, Abdallah ibn al-Zubayr ibn al-Awwam, al-Musawwar ibn Makhrama ibn Nawfal ibn Uhayb ibn Abd Manaf ibn Zuhra ibn Kilab, Abd al-Rahman ibn Zayd ibn al-Khattab, Abdallah ibn Umar ibn al-Khattab, Asim ibn Umar, Ubaydallah ibn Umar, Abd al-Rahman ibn Abi Bakr, Abdallah ibn Amr ibn al-As, Busr ibn Abi Artat ibn Uwaymir al-Amiri, and Abu Dhu'ayb Khuwaylid ibn Khalid al-Hudhali the poet — who died there, Ibn al-Zubayr attending him till he laid him in his grave; and many Arabs from around Medina rode out in this raid. Abdallah ibn al-Zubayr said: Uthman ibn Affan sent us raiding to Ifriqiya, where a patrikios held sultanate from Tripoli to Tangier; Abdallah ibn Sa'd marched till he halted at Sbejtla — Yaquba in one copy — fighting him some days till God killed him — and it was I who killed him — his army fleeing in rout; Ibn Abi Sarh scattered sariyyas through the land taking great spoil and driving off what herds they could, whereupon Ifriqiya's grandees gathered and begged Abdallah ibn Sa'd to take three hundred qintar of gold for staying his hand and quitting their land, which he accepted; on Ibn Ka'b's report he compounded with Ifriqiya's patrikios for two million five hundred thousand dinars — Qudama noting al-Waqidi put the treaty at two million five hundred and twenty thousand, which shows the qintar at eight thousand four hundred dinars. The treaty done, he returned to Egypt appointing no governor over Ifriqiya — it had then no Qayrawan nor garrison city; and at Ifriqiya Mu'bad ibn al-Abbas was martyred in this raid — some say he died in the days of fighting, the martyrdom being firmer."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [maghreb]
+date:
+  start: { hijri: "0027?", precision: year, status: debated, note: "سنة 27 أو 28 أو 29 (البلاذري ص 317)" }
+relations:
+  - { type: occurred_at, target: place/ifriqiya }
+  - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: "الوالي وقائد الغزوة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "قاتل البطريق وراوي الخبر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "الآمر بالغزوة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/busr-ibn-abi-artat, role: "في الجيش", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-dhuayb-al-hudhali, role: "المتوفى بها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-abi-bakr, role: "في الجيش", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 317–318"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

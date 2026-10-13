@@ -1,0 +1,19 @@
+id: person/al-kahina
+class: person
+label: { ar: "الكاهنة ملكة البربر", en: "Al-Kahina, Queen of the Berbers" }
+summary:
+  ar: "الكاهنة ملكة البربر؛ غزاها حسان بن النعمان الغساني والي إفريقية فهزمته فلحق بقصور في حيز برقة سُمّيت قصور حسان ثم غزاها ثانية فقتلها وسبى سبياً من البربر."
+  en: "Al-Kahina, queen of the Berbers; Hassan ibn al-Nu'man al-Ghassani, Ifriqiya's governor, raided her and she routed him — he falling back to the Barqa-bound castles named Qusur Hassan — then raiding again he killed her and took a captivity of Berbers."
+wings: [people]
+periods: [period/umayyad]
+regions: [maghreb]
+relations:
+  - { type: participated_in, target: event/hassan-vs-kahina, role: "الملكة المهزِمة ثم المقتولة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/berbers, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

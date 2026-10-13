@@ -1,0 +1,17 @@
+id: person/kulthum-ibn-iyad-al-qushayri
+class: person
+label: { ar: "كلثوم بن عياض القشيري", en: "Kulthum ibn Iyad al-Qushayri" }
+summary:
+  ar: "كلثوم بن عياض بن وحوح القشيري؛ ولّاه هشام بن عبد الملك إفريقية فانتقض أهلها عليه فقُتل بها."
+  en: "Kulthum ibn Iyad ibn Wahwah al-Qushayri; Hisham ibn Abd al-Malik gave him Ifriqiya, whose people rose against him so that he was killed there."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: participated_in, target: event/killing-of-kulthum-ibn-iyad, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

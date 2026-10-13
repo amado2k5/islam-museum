@@ -1,0 +1,25 @@
+id: event/founding-of-qayrawan
+class: event
+kind: founding
+label: { ar: "اختطاط القيروان", en: "The Founding of Qayrawan" }
+summary:
+  ar: "عند البلاذري: بعث معاوية بن حديج — ويُقال ولّاه معاوية بن أبي سفيان المغرب — عقبة بن نافع الفهري فغزا إفريقية في عشرة آلاف من المسلمين فافتتحها واختطّ قيروانها وكان موضعها غيضة ذات طرقاء وشجر لا تُرام من السباع والحيات والمقارب القتالة وكان ابن نافع رجلاً صالحاً مستجاب الدعوة فدعا ربه فأذهب ذلك كله حتى إن كانت السباع لتحمل أولادها هاربة بها؛ وقال موسى بن علي: أول من بناها عقبة بن نافع اختطّها ثم بنى وبنى الناس معه الدور والمساكن وبنى المسجد الجامع بها؛ وحدّث جماعة من أهل إفريقية عن أشياخهم أن عقبة لما أراد تمصير القيروان فكّر في موضع المسجد منه فأُري في منامه كأن رجلاً أذّن في الموضع الذي جمل فيه مئذنته فلما أصبح بنى المنائر في موقف الرجل ثم بنى المسجد. وقال الواقدي: ولم يزل عبد الله بن سعد والياً حتى غلب محمد بن أبي حذيفة على مصر؛ ثم ولّى معاوية مسلمة بن مخلد الأنصاري مصر والمغرب فولّى المغرب أبا المهاجر مولاه فلما ولّى يزيد بن معاوية ردّ عقبة على عمله فغزا السوس الأدنى — وهو خلف طنجة — وجوّل فيما هناك لا يعرض له أحد ولا يقاتله فانصرف؛ وولّى أبو العباس محمد بن الأشعث الخزاعي إفريقية فرمّ مدينة القيروان ومسجدها ثم عزله المنصور وولّى عمر بن حفص هزارمرد مكانه."
+  en: "In al-Baladhuri: Mu'awiya ibn Khudayj sent — or, some say, Mu'awiya ibn Abi Sufyan gave him the Maghreb — Uqba ibn Nafi' al-Fihri, who raided Ifriqiya with ten thousand Muslims, conquered it, and laid out its Qayrawan, whose site was a thicket of trees and thickets unapproachable for beasts, snakes and deadly vermin; Uqba being a righteous man whose prayer was answered, he prayed to his Lord and all that was removed — till the very beasts carried away their young in flight; and Musa ibn Ali said the first to build it was Uqba ibn Nafi', who laid it out then built — the people building houses and dwellings with him — and built its congregational mosque; and a body of Ifriqiya's people told from their shaykhs that when Uqba wished to make Qayrawan a misr he pondered where its mosque should be, and saw in a dream as though a man gave the call to prayer in the place where its minaret stood — so when morning came he built the minarets in the man's station, then built the mosque. Al-Waqidi said Abdallah ibn Sa'd stayed governor until Muhammad ibn Abi Hudhayfa seized Egypt; then Mu'awiya gave Maslama ibn Mukhallad al-Ansari Egypt and the Maghreb, and he gave the Maghreb to his mawla Abu al-Muhajir; when Yazid ibn Mu'awiya ruled he restored Uqba to his office — who raided Sus al-Adna beyond Tangier, roaming unchallenged till he returned; Abu al-Abbas gave Muhammad ibn al-Ash'ath al-Khuza'i Ifriqiya — he repaired Qayrawan's city and mosque — then al-Mansur dismissed him and gave his place to Umar ibn Hafs Hazarmard."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "0670~", hijri: "0050~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية معاوية بن حديج لمصر (البلاذري ص 319–320). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/qayrawan }
+  - { type: occurred_at, target: place/ifriqiya }
+  - { type: had_participant, target: person/uqba-ibn-nafi, role: "الفاتح والمختطّ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-khudayj, role: "الباعث — وقيل معاوية بن أبي سفيان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/maslama-ibn-mukhallad-al-ansari, role: "والي مصر والمغرب لمعاوية", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 319–320، 322"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

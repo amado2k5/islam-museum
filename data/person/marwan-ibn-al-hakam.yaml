@@ -1,0 +1,18 @@
+id: person/marwan-ibn-al-hakam
+class: person
+label: { ar: "مروان بن الحكم", en: "Marwan ibn al-Hakam" }
+summary:
+  ar: "مروان بن الحكم بن أبي العاص بن أمية؛ كان في جيش عبد الله بن سعد بن أبي سرح الممدود إلى إفريقية في غزوة عثمان مع أخيه الحارث بن الحكم، ثم كانت ولايته بعد موت معاوية بن يزيد وفتنة ابن الزبير."
+  en: "Marwan ibn al-Hakam ibn Abi al-As ibn Umayya; he rode in Abdallah ibn Sa'd ibn Abi Sarh's reinforced army to Ifriqiya in Uthman's raid with his brother al-Harith ibn al-Hakam; his rule came later, after Mu'awiya ibn Yazid's death amid Ibn al-Zubayr's fitna."
+wings: [people]
+periods: [period/rashidun, period/umayyad]
+relations:
+  - { type: participated_in, target: event/first-raid-on-ifriqiya, role: "في الجيش الممدود", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 317، 321"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
