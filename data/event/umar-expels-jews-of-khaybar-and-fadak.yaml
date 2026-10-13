@@ -1,0 +1,25 @@
+id: event/umar-expels-jews-of-khaybar-and-fadak
+class: event
+kind: expulsion
+label: { ar: "إجلاء يهود خيبر وفدك", en: "Umar's Expulsion of the Jews of Khaybar and Fadak" }
+summary:
+  ar: "عند البلاذري: بقي يهود خيبر على أراضيهم بالشطر حياة النبي وأبي بكر وصدراً من خلافة عمر، ثم أتاهم عبد الله بن عمر في حاجة فبيّتوه فأخرجهم عمر منها وقسمها بين من حضرها من المسلمين وجعل لأزواج النبي فيها نصيباً وخيّرهن بين الثمرة والضيعة؛ وقال فيها إن النبي قال «لا يجتمع دينان في جزيرة العرب» فأجلى يهود خيبر؛ وأما فدك فلما أجلى عمر يهود الحجاز وجّه أبا الحيثم مالك بن التيّهان وسهل بن أبي حيشمة وزيد بن ثابت الأنصاريين فقوّموا نصف تربتها بقيمة عدل فدفعها إلى يهود وأجلاهم إلى الشام."
+  en: "In al-Baladhuri: the Jews of Khaybar stayed on their lands under the half-share arrangement through the Prophet's life and Abu Bakr's and into the early part of Umar's caliphate, until Abdullah ibn Umar came to them on an errand and they set upon him by night — whereupon Umar removed them, dividing Khaybar among the Muslims present and allotting a share to the Prophet's wives with the choice between the produce and the estate; Umar cited the Prophet's saying 'two religions shall not coexist in the Arabian peninsula' in expelling Khaybar's Jews; as for Fadak, when Umar exiled the Jews of the Hijaz he sent Abu al-Haytham Malik ibn al-Tayyihan, Sahl ibn Abi Haythama and Zayd ibn Thabit, who valued half its soil at a fair price paid out to the Jews, and exiled them to Syria."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [arabia, levant-iraq]
+date:
+  start: { edtf: "0640~", hijri: "0020~", calendar: julian, precision: year, status: debated, derived: true, note: "في خلافة عمر بعد صدر منها؛ الكتاب لا يؤرخها بسنة، والمشهور نحو 20هـ — التاريخ تقريبي ومشتق. (البلاذري ص 40–41)." }
+relations:
+  - { type: occurred_at, target: place/khaybar }
+  - { type: occurred_at, target: place/fadak }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أجلى يهود الحجاز في خلافته", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-umar, role: "بُيّت عند أهل خيبر فكان سبب الإجلاء", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/zayd-ibn-thabit, role: "من المقوّمين الثلاثة لنصف تربة فدك", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 40–41"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-2
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -5,6 +5,8 @@
 
 **Edition and item used:** `raw/library/tareekh/futuh-buldan/20230703_20230703_1444.pdf` — **مؤسسة المعارف، بيروت، غرة ذي الحجة 1407هـ الموافق 26 تموز (يوليو) 1987م، تحقيق محققَين** (the al-Tabba' edition; the editors' names do not appear on the scanned pages — signature reads «المحققان» only, editor colophon on p. 7 of the scan). 768 PDF pages. No text layer; Apple Vision OCR via `ocr_apple_vision.py` (started 12 Oct 2026) into `books/tareekh/futuh-buldan/20230703_20230703_1444/`. **Printed page ≠ PDF page** — offset must be derived per section (the printed number appears at the top/foot of each page, e.g. index shows فتح الأندلس near printed p. 467). Three other scans exist in `raw/library/tareekh/futuh-buldan/` (AAlexandrina-011858, AAlexandrina-129953, FutuhAlBoldan) — first scan chosen for cleanest OCR.
 
+**Printed page = PDF page** — verified on pp. 8, 12 (printed folio numbers match PDF page). Citations are direct.
+
 **Book structure (from the printed index at the end):** the work opens with the Prophet's siyar condensed (Quba' onward), then ridda and the early conquests by region: الشام، فتوح مصر والمغرب (الإسكندرية، برقة، أطرابلس، إفريقية، طنجة، الأندلس، الجزائر)، فتوح السواد (جلولاء، تأسيس الكوفة، واسط، البطائح، مدينة السلام)، الجبال وحلوان، الدينور وماسبذان ومهرة، همذان، قم وقاشان وأصبهان، مقتل يزدجرد، الري وقومس، قزوين وزنجان، أذربيجان، الموصل، شهرزور، جرجان وطبرستان، كور دجلة، تأسيس البصرة، الأساورة والزط، كور الأهواز، فارس وكرمان، سجستان وكابل، خراسان، فتوح السند، أحكام أراضي الراج، العطاء في خلافة عمر — closing with كتاب الخراج-style material (zakat/jizya on produce, e.g. the saffron discussion on PDF p. 101).
 
 **Plan (per `categories/tareekh`):**
@@ -14,6 +16,8 @@
 ## Done
 
 - (12 Oct 2026) Lane opened: edition identified (Mu'assasat al-Ma'arif 1407/1987, two editors unnamed on scan); OCR of all 768 pages started; source/work/person stubs reserved.
+- **Batch 1** (pp. 1–8 + index): `source/futuh-buldan-maarif-1407`, `work/futuh-buldan`, `person/al-baladhuri`. Commit `739d0e7` → main.
+- **Batch 2** (pp. 39–42 — Khaybar/Fadak fiscal material): `concept/fay`, `concept/fath-anwa`, `concept/fath-sulh`, `place/fadak`, `event/sulh-of-fadak`, `event/umar-expels-jews-of-khaybar-and-fadak`, `person/muhayyisa-ibn-masud`. The book's opening siyar (pp. 8–42) largely duplicates existing seerah coverage (Quba', dirar, Khaybar battle, Banu Nadir, Qurayza all exist) — extracted only what Futuh adds: the sulh/anwa/fay' distinctions, Khaybar's 1580 shares, Fadak's half-land treaty, Umar's expulsion of Khaybar+Fadak Jews. Early pages OCR'd to `early.txt` in the harvest dir (side-channel, not the book's pipeline output).
 
 **Flags:** conquest narratives carry isnads — attribute every report to its chain/author, never the museum's voice; peace-treaty texts (e.g. صلح نجران، صلح التوبة) are primary documents — summarize, don't republish; Ridda and conquest events may already exist from the seerah lanes — reuse before creating.
 
