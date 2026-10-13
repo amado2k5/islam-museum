@@ -175,4 +175,6 @@
 
 - **Batch 80** (pp. 584–587 — Ibn Khazim's death + Muhallabids): `event/ibn-khazim-death` (Herat rising, letter-eating defiance of Abd al-Malik, Waki's Duwayla revenge, head to Damascus); `event/umayya-khurasan-rule` (Qurashi appointment, Bukayr's coup + prison killing); `event/muhallab-khurasan` (99h, Khattl/Khujanda, Zaghul grief-death); `event/yazid-khurasan-campaigns` (al-Buttam, Hashimi to Sind, Khwarizm cold); `event/musa-tirmidh-takeover` ("I know no home like this"); persons +12; places zaghul, al-khattl, al-buttam, shuman; `umayya-ibn-abdallah-ibn-khalid` enriched.
 
-**Next:** batch 81 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 81** (pp. 588–591 — Musa's end + Qutayba's opening): `event/musa-tirmidh-wars` (the Turks' taunt, jusaqayn, Thabit's 80k, night-raids, "never his like"); `event/musa-death-tirmidh` (Jazirat Uthman, "Musa's leap by the Ka'ba's Lord", 85h); `event/qutayba-khurasan-opening` (golden key of Saghaniyan, Salih's Farghana, Nasr b. Sayyar); `event/qutayba-baykand-bukhara` (Baykand stormed, the two-rak'a ruse, Nizak crucified); `event/khwarizm-king-appeal`; persons +11; places farghana, kasan, urusht, akhsikath, tumushkat, karminiya, akharun.
+
+**Next:** batch 82 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

@@ -1,0 +1,21 @@
+id: event/musa-tirmidh-wars
+class: event
+kind: war
+label: { ar: "حروب موسى من الترمذ", en: "Musa's Wars from Tirmidh" }
+summary:
+  ar: "غلب موسى على الترمذ فخرج دهقانها وأهلها إلى الترك يستنصروهم فلم ينصروهم وقالوا لعنكم الله أتاكم رجل في مائة وأخرجكم عن مدينتكم وغلبكم عليها ثم تتأم أصحاب موسى إليه ممن كان مع أبيه وغيرهم ولم يزل صاحب الترمذ وأهلها بالترك حتى أعانوهم وأطافوا جميعاً بموسى ومن معه فبيتهم وحوى عسكرهم وأصيب من المسلمين ستة عشر رجلاً وكان ثابت وحريث ابنا قطبة الخزاعيان مع موسى فاستجاشا طرخون فأنجده فعظمت دالتهما عليه وكانا الآمرين والناهيين في عسكره فقيل له إنما لك الاسم وهذان صاحبا العسكر والأمر وخرج إليه خلق من الهياطلة والترك فغلبهم المسلمون فبلغ ذلك الحجاج فقال الحمد لله الذي نصر المنافقين على المشركين وجعل موسى من رؤوس من قاتله جوسقين عظيمين وقتل حريث بن قطبة بنشابة أصابته فقال أصحاب موسى لموسى قد أراحنا الله من حريث فارحنا من ثابت فلما استثبته لحق بحشورا واستنجد طرخون فغلب على ربض المدينة وكثرت أمداد السغد فرجع موسى إلى الترمذ فتحصن بها وأعانه أهل كش ونسف وبخارا فحصره ثابت وهو في ثمانين ألفاً ووجه موسى يزيد بن هزيل كل العزي لزياد القصير الخزاعي فأصيب فطلب الغرة فضرب على رأسه فعاش سبعة أيام ثم مات وألقى يزيد نفسه في نهر الصغانيان فنجا وبيت موسى عسكر ثابت فرجعت الأعاجم إلى بلادها وكان أهل خراسان يقولون ما رأينا مثل موسى قاتل مع أبيه سنتين لم يفل ثم أتى الترمذ فغلب عليها وهو في عدة يسيرة وأخرج ملكها ثم قاتل الترك والعجم فهزمهم."
+  en: "Tirmidh's dahqan and folk went to the Turks for help — refused: 'curse you, a man in a hundred comes, expels you, takes your city'. His father's old companions joined Musa; when the Turks finally aided, surrounding him, he night-attacked and took their camp — sixteen Muslims wounded. Thabit and Hurayth ibn Qutba, backed by Tarkhun's levies, became his army's real commanders — 'yours is the name, theirs the command'. Hayatila and Turks sallied and were beaten — al-Hajjaj: 'praise God who gave the hypocrites victory over the polytheists' — and Musa built two great mounds of his foes' heads. Hurayth fell to a stray arrow; the men pressed Musa against Thabit, who fled, won Tarkhun's aid, took the rabad, and besieged him in eighty thousand as Kish, Nasaf and Bukhara reinforced Musa. Yazid ibn Huzayl, sent against Ziyad al-Qasir, took a head-blow and died in seven days — Yazid himself escaped across the Saghaniyan river — and Musa's night-raid on Thabit's camp scattered the Ajam home. Khurasan's people said: never his like — two years unbeaten with his father, Tirmidh taken with a handful, its king expelled, Turks and Ajam routed."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/musa-ibn-abdallah-ibn-khazim, role: "صاحب الترمذ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/thabit-ibn-qutba, role: "المنافس المحاصر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hurayth-ibn-qutba, role: "المقتول بالنشابة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/tarkhun, role: "المدد ثم المستنجد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tirmidh }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

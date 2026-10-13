@@ -1,0 +1,20 @@
+id: event/qutayba-baykand-bukhara
+class: event
+kind: campaign
+label: { ar: "فتوح قتيبة بيكند وبخارا وقتل نيزك", en: "Qutayba's Baykand, Bukhara and Nizak's Killing" }
+summary:
+  ar: "غزا قتيبة بيكند سنة ٨٧ ومعه نيزك فقطع النهر من زم إلى بيكند وهي أدنى مدائن بخارا إلى النهر فغدروا واستنصروا السغد فقاتلهم وأغار عليهم وحصرهم فطلبوا الصلح ففتحها عنوة وغزا قتيبة تومشكت وكرمينية سنة ٨٨ واستخلف على مرو بشار بن مسلم أخاه فصالحهم وافتتح حصوناً صغاراً وغزا قتيبة بخارا ففتحها على صلح وقال أبو عبيدة معمر بن المثنى أتى قتيبة بخارا فاحترسوا منه فقال دعوني أدخلها فأصلي بها ركعتين فأذنوا له في ذلك فأكمن لهم قوماً فلما دخلوا كاثروا أهل الباب ودخلوا فأصاب فيها مالاً عظيماً وغدر بأهلها وأوقع قتيبة بالسغد وقتل نيزك بطخارستان وصلبه وافتتح كش ونسف وهي نخشب صلحاً."
+  en: "In 87h Qutayba marched on Baykand with Nizak, crossing from Zamm — nearest of Bukhara's towns to the river — and when they betrayed and summoned Sughd he fought, raided and besieged till they sued: he took it by force. In 88h he campaigned Tumushkat and Karminiya, leaving brother Bashshar over Marw, then Bukhara, opened on sulh — Abu Ubayda's telling: they warded him till he begged 'let me enter and pray two rak'as', admitted, his hidden men overwhelmed the gate, he took great wealth and betrayed its folk. He struck the Sughd, killed Nizak in Tukharistan and crucified him, and opened Kish and Nasaf — Nakhshab — by sulh."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/qutayba-ibn-muslim, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/nizak, role: "الحليف المقتول المصلوب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/bashshar-ibn-muslim, role: "الخليفة على مرو", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/baykand }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
