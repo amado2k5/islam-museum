@@ -1,0 +1,19 @@
+id: event/utba-khabis-letter
+class: event
+kind: other
+label: { ar: "خبيص عتبة بن فرقد", en: "Utba ibn Farqad's Khabis Baskets" }
+summary:
+  ar: "بعث عمر إلى عتبة بن فرقد والي أذربيجان بأخبصة أدرجها في كرابيس فلما وردت عليه قال أورق قالوا لا قال فما هي قال لطف بعث به فلما نظر إليه قال ردوها عليه وصنع عتبة سفطين من خبيص وألبسهما الجلود واللبود ثم بعث إلى عمر مع سحيم مولاه فذاق عمر الخبيص فقال إن هذا لطيب أكل المهاجرين أكلاً منه شبعة فكتب إليه من عبد الله عمر أمير المؤمنين إلى عتبة بن فرقد أما بعد فليس من كدك ولا كد أمك ولا كد أبيك فلا تأكل إلا ما يشبع منه المسلمون في رحالهم."
+  en: "Umar sent his Azerbaijan governor Utba ibn Farqad a hamper of khabis-sweets among the felt-rolls; Utba asked if it was money, then had it sent back. Utba later made two baskets of khabis wrapped in hides and felt, sent by his mawla Suhaym — Umar tasted, 'fine indeed; did the Emigrants eat their fill of it? It is yours alone' — and wrote back: 'it is not your toil nor your mother's nor your father's; eat nothing but what fills the Muslims in their camps'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/utba-ibn-farqad, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/azerbaijan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
