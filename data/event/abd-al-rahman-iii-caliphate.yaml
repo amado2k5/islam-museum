@@ -1,0 +1,21 @@
+id: event/abd-al-rahman-iii-caliphate
+class: event
+kind: declaration
+label: { ar: "تلقب عبد الرحمن الناصر بأمير المؤمنين" }
+summary:
+  ar: "لما ضعف أمر الأمة ووهت أركان الدولة العباسية وتغلبت القرامطة والمبتدعة على الأقاليم قويت همة صاحب الأندلس الأمير عبد الرحمن بن محمد الأموي المرواني وقال أنا أولى الناس بالخلافة وتسمى بأمير المؤمنين الناصر لدين الله واستولى على أكثر الأندلس وكانت له الهيبة الزائدة والجهاد والغزو والسيرة المحمودة استأصل المتغلبين وفتح سبعين حصناً فصار المسمون بأمير المؤمنين في الدنيا ثلاثة العباسي ببغداد وهذا بالأندلس والمهدي بالقيروان {cite:tarikh-khulafa-minhaj-1434 p. 605}."
+  en: "When the umma's affairs weakened, the Abbasid pillars tottered and the Qarmatians and innovators overran the provinces, the Andalusian amir Abd al-Rahman ibn Muhammad the Umayyad grew resolute: 'I am the worthiest of the caliphate' — he styled himself amir al-mu'minin al-Nasir li-Din Allah, mastered most of al-Andalus, rooted out the usurpers and took seventy fortresses. Now there were three men in the world called amir al-mu'minin: the Abbasid in Baghdad, this one in al-Andalus, and the Mahdi at Qayrawan {cite:tarikh-khulafa-minhaj-1434 p. 605}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0929~", hijri: "0316~", calendar: julian, precision: year, status: tradition, derived: true, note: "رتبها السيوطي تحت سنة 325 دون تعيين لسنة التلقب {cite:tarikh-khulafa-minhaj-1434 p. 605}." }
+relations:
+  - { type: had_participant, target: person/abd-al-rahman-iii-al-nasir, role: "أمير المؤمنين", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 604–615"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-35
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/ibn-raiq-amir-al-umara-324
+class: event
+kind: other
+label: { ar: "تغلب ابن رائق ونشوء إمرة الأمراء" }
+summary:
+  ar: "في سنة أربع وعشرين تغلب محمد بن رائق أمير واسط ونواحيها وحكم على البلاد وبطل أمر الوزارة والدواوين وتولى هو الجميع وكتابه وصارت الأموال تحمل إليه وبطلت بيوت المال وبقي الراضي معه صورة وليس له من الخلافة إلا الاسم، وفي سنة خمس وعشرين صارت البلاد بين خارجي قد نغلب عليها أو عامل لا يحمل مالاً وصاروا مثل ملوك الطوائف ولم يبق بيد الراضي غير بغداد والسواد مع كون يد ابن رائق عليه {cite:tarikh-khulafa-minhaj-1434 p. 605}."
+  en: "In 324 Muhammad ibn Ra'iq, amir of Wasit, prevailed: the vizierate and the diwans lapsed, he and his secretaries held all, the treasuries emptied into his hands, and al-Radi remained a figure — 'nothing of the caliphate but the name'. By 325 the provinces were held by rebels or revenue-less governors 'like the party-kings', and nothing was left to the caliph but Baghdad and the Sawad {cite:tarikh-khulafa-minhaj-1434 p. 605}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0936~", hijri: "0324", calendar: julian, precision: year, status: tradition, derived: true, note: "324؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 605}." }
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-raiq, role: "أمير الأمراء", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-radi-billah, role: "الخليفة الاسمي", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 604–615"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-35
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/ibn-shanabudh-trial-323
+class: event
+kind: court-ruling
+label: { ar: "واقعة ابن شنبوذ" }
+summary:
+  ar: "في سنة ثلاث وعشرين كانت واقعة ابن شنبوذ المشهورة واستتابته عن القراءة بالشاذ والمحضر الذي كتب عليه بحضرة الوزير أبي علي بن مقلة، وقد استجيب دعاؤه وكان قد دعا على الوزير بأن يقطع الله يده فقطعت يد الوزير وذاق الذل {cite:tarikh-khulafa-minhaj-1434 p. 604}."
+  en: "In 323 came the famous affair of Ibn Shanabudh: made to repent of reading the shadh variants, the record written against him before the vizier Ibn Muqla. His prayer was answered — he had called down the severing of the vizier's hand, and Ibn Muqla's hand was indeed cut off {cite:tarikh-khulafa-minhaj-1434 p. 604}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0935~", hijri: "0323", calendar: julian, precision: year, status: tradition, derived: true, note: "323؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 604}." }
+relations:
+  - { type: had_participant, target: person/ibn-shanabudh, role: "المستتاب", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ibn-muqla, role: "الوزير", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 604–615"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-35
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
