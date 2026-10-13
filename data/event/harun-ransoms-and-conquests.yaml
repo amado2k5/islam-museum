@@ -1,0 +1,22 @@
+id: event/harun-ransoms-and-conquests
+class: event
+kind: campaign
+label: { ar: "الفداء العام وفتوحات سنة 190" }
+summary:
+  ar: "في سنة تسع وثمانين ومئة فادى الروم حتى لم يبق بممالكهم في الأسر مسلم، وفي سنة تسعين فتح هرقلة وبث جيوشه بأرض الروم فافتتح شراحيل بن معن بن زائدة حصن الصقالبة وافتتح يزيد بن مخلد ملقونية وسار حميد بن معيوف إلى قبرس فهدم وحرق وسبى من أهلها ستة عشر ألفاً {cite:tarikh-khulafa-minhaj-1434 p. 463}."
+  en: "In year 189 the Romans ransomed captives until no Muslim remained prisoner in their lands; in 190 Heraclea was conquered and al-Rashid spread his armies through Roman lands — Sharahil ibn Ma'n ibn Za'ida took the Saqaliba fortress, Yazid ibn Makhled took Malquniya, and Humayd ibn Ma'yuf sailed to Cyprus, demolishing and burning and carrying off sixteen thousand of its people {cite:tarikh-khulafa-minhaj-1434 p. 463}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "0805~", hijri: "0189", calendar: julian, precision: year, status: tradition, derived: true, note: "189–190؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 463}." }
+relations:
+  - { type: had_participant, target: person/harun-al-rashid, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/humayd-ibn-mayuq, role: "غازي قبرس", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 463"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-21
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
