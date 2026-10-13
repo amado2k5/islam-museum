@@ -1,0 +1,19 @@
+id: event/ibn-al-ashath-tabaristan-campaign
+class: event
+kind: campaign
+label: { ar: "غزوة ابن الأشعث طبرستان", en: "Ibn al-Ash'ath's Tabaristan Campaign" }
+summary:
+  ar: "ولّى عبيد الله بن زياد محمد بن الأشعث بن قيس الكندي طبرستان فصالحهم وعقد لهم عقداً ثم أمهلوا له حتى دخل فأخذوا عليه المضايق وقتلوا ابنه أبا بكر وفضخوه ثم نجا فكان المسلمون يغزون ذلك الثغر وهم حذرون من التوغل في أرض العدو."
+  en: "Ubaydallah ibn Ziyad made Muhammad ibn al-Ash'ath ibn Qays al-Kindi governor of Tabaristan; he treated with them and bound a compact, they let him in, then seized the narrows, killed his son Abu Bakr and crushed his skull — Muhammad escaped, and the raiders of that frontier stayed wary of driving deep into enemy land."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-ashath-al-kindi, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ubayd-allah-ibn-ziyad, role: "المولي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tabaristan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
