@@ -1,0 +1,20 @@
+id: event/umar-ii-returns-fadak
+class: event
+kind: law-enacted
+label: { ar: "رد فدك إلى حالها النبوية" }
+summary:
+  ar: "جمع عمر بن عبد العزيز بني مروان حين استخلف وقال إن رسول الله كانت له فدك ينفق منها ويعول منها على صغير بني هاشم ويزوج منها أيمهم وإن فاطمة سألته أن يجعلها لها فأبى فكانت كذلك حياة أبي بكر ثم عمر ثم أقطعها مروان ثم صارت لعمر فقال رأيت أمراً منعه رسول الله فاطمة ليس لي بحق وأشهدكم أني قد رددتها على ما كانت على عهد رسول الله، وبدأ بلحمته وأهل بيته فأخذ ما بأيديهم وسماها مظالم {cite:tarikh-khulafa-minhaj-1434 p. 378}."
+  en: "On his accession Umar ibn Abd al-Aziz gathered the Banu Marwan and declared: the Prophet held Fadak, spending from it, providing for the young Banu Hashim and marrying off their widows; Fatima asked him for it and he refused, and it remained so through Abu Bakr and Umar, then Marwan granted it as iqta' until it reached Umar himself — 'I saw a thing the Prophet withheld from Fatima and it is not lawful for me; I bear you witness that I have returned it to what it was in the Prophet's time.' He began with his own kin, confiscating their holdings and naming them mazalim {cite:tarikh-khulafa-minhaj-1434 p. 378}."
+wings: [time, ideas]
+periods: [period/umayyad]
+date:
+  start: { edtf: "0717~", hijri: "0099", calendar: julian, precision: year, status: tradition, derived: true, note: "حين استخلف {cite:tarikh-khulafa-minhaj-1434 p. 378}." }
+relations:
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "الراد", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 378"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-11
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
