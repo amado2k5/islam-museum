@@ -1,0 +1,22 @@
+id: event/habib-sind-muhallabids
+class: event
+kind: other
+label: { ar: "حبيب بن المهلب بالسند وإسلام ملوكها ومقتل بني المهلب", en: "Habib's Sind, the Kings' Conversion, and the Muhallabids' End" }
+summary:
+  ar: "استعمل سليمان بن عبد الملك حبيب بن المهلب على حرب السند فقدمها وقد رجع ملوك الهند إلى ممالكهم فرجع حبشة بن داهر إلى برهمباذ ونزل حبيب على شاطئ مهران فأعطاه أهلها الطاعة وحارب قوماً فظفر بهم ثم مات سليمان وكانت خلافة عمر بن عبد العزيز بعده فكتب إلى الملوك يدعوهم إلى الإسلام والطاعة على أن يملكهم ولهم ما للمسلمين وعليهم ما عليهم وقد كانت بلغتهم سيرته ومذهبه فأسلم حبشة والملوك وتسموا بأسماء العرب وكان عمرو بن مسلم الباهلي عامل عمر على ذلك الثغر فغزا بعض الهند فظفر وهرب بنو المهلب إلى السند في أيام يزيد بن عبد الملك فوجه إليهم هلال بن أحوز التميمي فلقيهم فقتل مدرك بن المهلب بتندابيل وقتل المفضل وعبد الملك وزياد ومروان ومعاوية بني المهلب وقتل معاوية بن يزيد في آخرين."
+  en: "Sulayman sent Habib ibn al-Muhallab to the Sind war as India's kings regained their thrones — Dahir's son Habsha back at Brahmanabadh — and Habib took obedience on Mihran's shore. When Umar ibn Abd al-Aziz followed, he wrote the kings inviting them to Islam with kingship kept and Muslims' rights and duties — his reputation had reached them — and Habsha and the kings converted, taking Arab names; Amr ibn Muslim al-Bahili raided Hind and won. Under Yazid ibn Abd al-Malik the Banu al-Muhallab fled to Sind; Hilal ibn Ahwaz al-Tamimi cut them down at Tandabil — Mudrik, al-Mufaddal, Abd al-Malik, Ziyad, Marwan and Mu'awiya, with Mu'awiya ibn Yazid among others."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/habib-ibn-al-muhallab, role: "أمير السند", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/habsha-ibn-dahir, role: "المسلم من ملوك الهند", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "الخليفة الداعي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hilal-ibn-ahwaz, role: "قاتل بني المهلب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-muslim, role: "عامل الثغر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/mihran }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

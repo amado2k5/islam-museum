@@ -1,0 +1,19 @@
+id: event/junayd-sind-wars
+class: event
+kind: campaign
+label: { ar: "حروب الجنيد بالسند", en: "al-Junayd's Sind Wars" }
+summary:
+  ar: "ولى الجنيد بن عبد الرحمن ثغر السند من قبل عمر بن هبيرة ثم ولاه إياه هشام فأتى الجنيد لديبل ثم نزل شط مهران فمنعه جيشه العبور وأرسل إليه إني قد أسلمت وولاني الرجل الصالح بلادي ولست آمنك فأعطاه رهناً وأخذ منه رهناً بما على بلاده من الخراج ثم إنهما ترادا الرهن وكفر جيشه وحارب وقيل إنه لم يحارب ولكن الجنيد يجني عليه فأتى الهند فجمع جموعاً وأخذ السفن واستعد للحرب فسار إليه الجنيد في السفن فالتقوا في بطيحة الشرقي فأخذ جيشه أسيراً وقد جنحت سفينته فقتله وهرب صصه بن داهر وهو يريد أن يمضي إلى العراق فيشكو غدر الجنيد فلم يزل الجنيد يؤنسه حتى وضع يده في يده فقتله وغزا الجنيد الكيرج وكانوا قد نقضوا فاتخذ كباشاً نطاحة فصك بها حائط المدينة حتى ثلمها ودخلها عنوة فقتل وسبى وغنم ووجه العمال إلى مرمد والمندل ودهنج وبروص وكان الجنيد يقول القتل في الجزع أكبر منه في الصبر ووجه الجنيد جيشاً إلى أزين ووجه حبيب بن مرة في جيش إلى أرض المالبة فأغاروا على أزين وغزوا بهرمد فحرقوا ربضها وفتح الجنيد البيلمان والجرز وحصل في منزله سوى ما أعطى زواره أربعين ألف ألف وحمل مثلها قال جرير أصبح زوار الجنيد وصحبه يحيون صلت الوجه جماً مواهبه."
+  en: "Al-Junayd came to Daybul and the eastern bank; Jaysha, refusing him, sent 'I have converted, the righteous man gave me my lands — I trust you not'. Hostages were exchanged for his country's kharaj, then returned as his people apostatized and fought — some say he never fought but al-Junayd wronged him. Gathering hosts and ships from Hind, he met al-Junayd's fleet at Batiha al-Sharqi, was taken captive, ship fleeing, and killed; Sasa ibn Dahir, fleeing to Iraq to charge al-Junayd's treachery, was cozened into a handclasp and slain. Breached al-Kiraj fell to his battering rams, walls cracked, stormed; agents went to Marmad, al-Mandal, Dahnaj and Barus. 'Killing in panic outweighs patience' he said; his armies raided Uzayn and burned Baharmad's rabad — and al-Baylaman and al-Jarz yielded forty million at home besides his zuwwar's share, as Jarir sang his open-handedness."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-junayd-ibn-abd-al-rahman, role: "والي الثغر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sasa-ibn-dahir, role: "المقتول غدراً", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/daybul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

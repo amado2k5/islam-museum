@@ -191,4 +191,6 @@
 
 - **Batch 88** (pp. 616–619 — post-Dahir Sind + Muhammad's fall): `event/rawar-brahmanabadh` (the wife's self-immolation, 8k/26k dead); `event/al-rur-sulh` (the budd-as-churches clause); `event/multan-siege` (the water-cut, Bayt al-Dhahab, the Ayyub-idol); `event/sind-hajjaj-ledger` ("we sated our wrath"); `event/muhammad-qasim-death` (Wasit, the famous verses, the 17-year-old praise); persons +5; places rawar, brahmanabadh, al-rur, sawandra, al-kiraj, al-baylaman.
 
-**Next:** batch 89 — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 89** (pp. 620–623 — late-Umayyad Sind): `event/habib-sind-muhallabids` (Umar II's convert-kings, Hilal's Muhallabid massacre); `event/junayd-sind-wars` (Jaysha's hostages, Sasa's murder, Uzayn raid, the 40 million); `event/tamim-ibn-zayd-sind` (the Tatahari millions, Farazdaq's manumission poem, the withdrawal); `event/mahfuza-mansura-founding` ("God destroy you — it's al-Mahfuza", Amr's al-Mansura); persons +7; places al-mahfuza, al-mansura, qassa, uzayn.
+
+**Next:** batch 90 — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
