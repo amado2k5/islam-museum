@@ -1,0 +1,17 @@
+id: event/said-ibn-uthman-assassination
+class: event
+kind: death
+label: { ar: "قتل رهن السغد سعيد بن عثمان", en: "The Sughd Hostages' Killing of Sa'id ibn Uthman" }
+summary:
+  ar: "مضى سعيد بن عثمان بالرهن الذين أخذهم من السغد حتى ورد بهم المدينة فدفع ثيابهم ومناطقهم إلى مواليه وألبسهم جباب الصوف وألزمهم السقي والسواني والعمل فدخلوا عليه مجلسه ففتكوا به ثم قتلوا أنفسهم وفي سعيد قال مالك بن الريب وخالد بن عقبة بن أبي معيط قصيدتان."
+  en: "Sa'id carried his Sughd hostages to Medina, gave their clothes and belts to his mawali, dressed them in wool, and set them to water-carrying, wells and labour — they entered his majlis, butchered him, then killed themselves. Malik ibn al-Rayb and Khalid ibn Uqba ibn Abi Mu'ayt each have verses on him."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/said-ibn-uthman, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

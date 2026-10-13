@@ -1,0 +1,20 @@
+id: event/salm-ibn-ziyad-khurasan
+class: event
+kind: campaign
+label: { ar: "ولاية سلم بن زياد خراسان", en: "Salm ibn Ziyad's Khurasan" }
+summary:
+  ar: "ولى يزيد بن معاوية سلم بن زياد خراسان فصالحه أهل خوارزم على أربعمائة ألف وحملوها إليه وقطع النهر ومعه امرأته أم محمد بنت عبد الله بن عثمان بن أبي العاص الثقفي وكانت أول عربية عبر بها النهر وأتى سمرقند فأعطاه أهلها ألف دية وولد له ابن سماه السغدي واستعارت امرأته من امرأة صاحب السغد حليها فكرته عليها وذهبت به ووجه سلم وهو بالسغد جيشاً إلى خجنده وفيهم أعشى همدان فهزموا وقال الأعشى في ذلك أبياته ثم رجع سلم إلى مرو ثم غزا منها فقطع النهر وقتل بندون السغدي وقد كان السغد جمعت له فقاتلها."
+  en: "Yazid ibn Mu'awiya gave Salm ibn Ziyad Khurasan; the Khwarizmians truced at four hundred thousand borne to him. He crossed the river with his wife Umm Muhammad bint Abdallah ibn Uthman ibn Abi al-As al-Thaqafi — the first Arab woman across — came to Samarqand whose folk gave him a thousand-fold bloodwit; a son born to him was named al-Sughdi; his wife borrowed the Sughd lord's wife's jewels, wore and returned them. From Sughd he sent an army to Khujanda — with A'sha Hamdan among them — defeated; then back at Marw he campaigned again across the river and killed Bandun the Sughdi, whose people had mustered for him."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/sallam-ibn-ziyad, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umm-muhammad-bint-abdallah, role: "أول عربية عبر بها النهر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/asha-hamdan, role: "في جيش خجنده", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/bandun, role: "الملك المقتول", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

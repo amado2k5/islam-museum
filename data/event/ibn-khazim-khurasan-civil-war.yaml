@@ -1,0 +1,21 @@
+id: event/ibn-khazim-khurasan-civil-war
+class: event
+kind: civil-war
+label: { ar: "حرب ابن خازم على ولاية خراسان", en: "Ibn Khazim's War for Khurasan" }
+summary:
+  ar: "تلقى عبد الله بن خازم السلمي سلم بن زياد منصرفه من خراسان بنيسابور فكتب له سلم عهداً على خراسان وأعانه بمائة ألف درهم فاجتمع جمع كثير من بكر بن وائل وغيرهم فقالوا على ما يأكل هؤلاء خراسان دوننا فأغاروا على ثقل ابن خازم فقاتلوهم عنه فكفوا وأرسل سليمان بن مرثد إلى ابن خازم إن العهد الذي معك لو استطاع صاحبه أن يقيم بخراسان لم يخرج عنها ويوجهك وأقبل سليمان فنزل بمشرعة سليمان ونزل ابن خازم بمرو واتفقا أن يكتبا إلى ابن الزبير فأيهما أمره فهو الأمير فولى ابن الزبير عبد الله بن خازم خراسان فقدم إليه بعهده عروة بن قطبة بعد ستة أشهر فأبى سليمان أن يقبل ذلك وقال إن ابن الزبير بخليفة وإنما هو رجل عائذ بالبيت فحاربه ابن خازم وهو في ستة آلاف وسليمان في خمسة عشر ألفاً فقتل سليمان قتله قيس بن عاصم السلمي واحتز رأسه وكان شعار ابن خازم حمر لا ينصرون وشعار سليمان يا نصر اقترب واجتمع فل سليمان إلى عمر بن مرثد بالطالقان فسار إليه ابن خازم فقاتله فقتله واجتمعت ربيعة إلى أوس بن ثعلبة بهراة فاستخلف ابن خازم موسى ابنه وسار إليه وكانت بين أصحابهما وقائع واغتنمت الترك ذلك فكانت تغير حتى بلغت قرب نيسابور ودس ابن خازم إلى أوس من سمه فمرض واجتمعوا للقتال فحض ابن خازم أصحابه فقال اجعلوه يومكم واطعنوا الخيل من مناخرها فإنه لم يطمن فرس قط في منخره فأدبر فاقتتلوا قتالاً شديداً وأصابت أوساً جراحة وهو عليل فمات منها بعد أيام."
+  en: "Ibn Khazim met the departing Salm at Naysabur and carried his covenant over Khurasan with a hundred thousand dirhams; Bakr ibn Wa'il's masses resented 'these men eating Khurasan over us' and raided his baggage before being fought off. Sulayman ibn Marthad told him the covenant was worthless — its issuer could not stay himself — and they agreed to let Ibn al-Zubayr arbitrate; six months on, Urwa ibn Qatiba brought Ibn Khazim the governorship — and Sulayman refused it: 'Ibn al-Zubayr is no caliph, only a man sheltering at the House'. Six thousand against fifteen thousand, cries 'humr la yunsarun' against 'ya nasr iqtarib' — Sulayman fell to Qays ibn Asim al-Sulami, who took his head; his remnant under Umar ibn Marthad at Talaqan was destroyed next. When Rabi'a gathered to Aws ibn Tha'laba at Herat, Ibn Khazim left Musa over Marw and marched — the Turks exploiting their strife to raid near Naysabur — had Aws poisoned, and before battle urged his men to stab the horses' nostrils, 'no horse ever endured that and stayed'; Aws, already ailing, took a wound and died days later."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "الظافر بالولاية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sulayman-ibn-marthad, role: "المنافس المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-marthad, role: "الخليفة على فل سليمان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/aws-ibn-thalaba, role: "أمير ربيعة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/qays-ibn-asim-al-sulami, role: "قاتل سليمان", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
