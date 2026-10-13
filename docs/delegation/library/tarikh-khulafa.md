@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-22** (pp. 472–477 — the civil war): new `event/battle-of-rayy-195` (silver shackle, Kawthar's fish), `event/siege-of-baghdad-198` (15 months, mangonels, Harafish), `person/ali-ibn-isa-ibn-mahan`, `person/fadl-ibn-al-rabi`; enriched `killing-of-amin` (final night omens, "رأس المخلوع", Ma'mun's grudge against Tahir), `deposition-of-amin-and-bayat-al-mamun` (Ka'ba tearing, infant al-Natiq bil-Haqq), `person/muhammad-al-amin`.
+
 - **Batch TK-21** (pp. 463–471 — al-Rashid II): new `event/death-of-harun-al-rashid` (Tus 193, the grave-dream, Bakhtishu' error, the treasure), `event/harun-succession-scheme` (al-Amin 175 / al-Ma'mun 182 / al-Mu'tamin 186, Ka'ba copy, Dhahabi's "first weakness"), `event/harun-ransoms-and-conquests` (189 captive ransom, 190 Cyprus raid), `event/zindiq-hadith-sifters` ("الفزاري وابن المبارك ينخلانها"), `person/ibn-al-sammak`; enriched `person/harun-al-rashid` (firsts: polo, chess, singer ranks).
 
 - **Batch TK-20** (pp. 456–462 — al-Rashid opening): new `event/harun-accession` (the triple night — died/acceded/born), `event/nikephoros-harun-war` ("الجواب ما تراه لا ما تسمعه", Heraclea, winter breach), `event/yahya-zubayri-mubahala` (175), `person/yahya-ibn-abdallah-al-alawi`, `event/great-earthquake-180` (lighthouse top), `event/khazar-armenia-raid` (183, >100k), `event/safsaf-conquest` (181); enriched `person/harun-al-rashid` (daily rak'as/sadaqa, the canal project vetoed) and `person/abd-allah-al-mamun`.

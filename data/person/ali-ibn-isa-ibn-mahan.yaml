@@ -1,0 +1,24 @@
+id: person/ali-ibn-isa-ibn-mahan
+class: person
+label: { ar: "علي بن عيسى بن ماهان" }
+summary:
+  ar: "أمير الأمين، ولاه بلاد الجبال سنة خمس وتسعين فخرج بأربعين ألفاً لقتال المأمون وأخذ معه قيد فضة ليقيد به المأمون بزعمه فهزمه طاهر بن الحسين في أقل من أربعة آلاف وذبح وحملت رأسه إلى المأمون فطيف بها في خراسان {cite:tarikh-khulafa-minhaj-1434 p. 475}."
+  en: "Al-Amin's commander, given the mountain lands in 195; he marched with forty thousand to fight al-Ma'mun carrying a silver shackle for him, and was routed by Tahir ibn al-Husayn with under four thousand — slaughtered, his head paraded through Khurasan {cite:tarikh-khulafa-minhaj-1434 p. 475}."
+gender: male
+died:
+  hijri: "0195"
+  precision: year
+  status: tradition
+  note: "قتله طاهر {cite:tarikh-khulafa-minhaj-1434 p. 475}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: participated_in, target: event/battle-of-rayy-195, role: "المهزوم", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 475"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-22
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
