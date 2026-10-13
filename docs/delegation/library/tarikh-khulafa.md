@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-12** (pp. 399–403 — Yazid II + Hisham): new `person/yazid-ibn-abd-al-malik`, `event/death-of-yazid-ibn-abd-al-malik` (late Sha'ban 105), `event/yazid-ii-forty-days` (the forty-day sira reversal), `person/abdallah-al-battal`, `event/hisham-conquests` (Caesarea y7, Khanjara y8 by al-Battal, Kharshana y12); enriched `killing-of-yazid-ibn-al-muhallab` (al-Aqr, Kalbi's "كربلاء الدين والعقّر الكرم") and `death-of-hisham-ibn-abd-al-malik` (Rabi' II 125, the forty-qasama avarice, Rusafa).
+
 - **Batch TK-11** (pp. 370–398 — Sulayman + Umar II): enriched `caliphate-of-umar-ibn-abd-al-aziz` (sealed-letter succession, mount refusal, "لست بقاض") and `death-of-sulayman-ibn-abd-al-malik` (Dabiq, 10 Safar 99, mirror anecdote, Ibn Sirin's verdict); new `event/death-of-umar-ibn-abd-al-aziz` (poison, Dayr Sim'an, Rajab 101), `event/umar-ii-ends-sabb-ali` (khutba reform, quran-16-90 link), `event/umar-ii-returns-fadak`, `event/jarrah-khurasan-justice-letter` ("العدل والحق لا السيف والسوط"); new `person/raja-ibn-haywa`, `person/ghaylan-al-dimashqi` (Qadari crucifixion under Hisham).
 
 - **Batch TK-10** (pp. 360–369 — Abd al-Malik's character + al-Walid): `building/umayyad-mosque`, `event/building-umayyad-mosque` (87H), `event/walid-welfare-decrees` (orphans' tutors, guides for the blind, anti-begging stipends); enriched `walid-rebuilds-the-prophets-mosque` and `death-of-walid-ibn-abd-al-malik` (mid Jumada II 96, age 51, Dhahabi's jihad-era verdict).
