@@ -1,0 +1,19 @@
+id: group/lawata
+class: group
+kind: tribe
+label: { ar: "لواتة", en: "Lawata" }
+summary:
+  ar: "لواتة قرية من البربر أهل عهد بأرض برقة؛ كتب عمرو بن العاص في شرطه عليهم أن عليكم أن تبيعوا أبناءكم ونساءكم فيما عليكم من الجزية فقال الليث بن سعد لو كانوا عبيداً ما حلّ ذلك منهم، وكتب عمر بن عبد العزيز في اللواتيات أن من كانت عنده لواتية فليخطبها إلى أبيها أو فليردها إلى أهلها."
+  en: "Lawata, a covenant-holding Berber village in the land of Barqa; Amr ibn al-As wrote in their treaty 'upon you is to sell your sons and your women toward the jizya upon you' — whereupon al-Layth ibn Sa'd said 'were they slaves, that would not be lawful of them'; and Umar ibn Abd al-Aziz wrote concerning the Lawatiyyat that whoever holds a Lawatiyya must offer her in marriage to her father or return her to her people."
+wings: [people]
+periods: [period/rashidun]
+regions: [maghreb]
+relations:
+  - { type: participated_in, target: event/sulh-barqa, role: "أهل العهد ببرقة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 315–316"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

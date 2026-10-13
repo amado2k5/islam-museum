@@ -1,0 +1,19 @@
+id: group/habasha-of-al-bayma
+class: group
+kind: tribe
+label: { ar: "حبش البيما", en: "The Abyssinians of al-Bayma" }
+summary:
+  ar: "الحبش من البيما؛ أقاموا بعد فتح مصر يقاتلون سبع سنين ما يقدر عليهم لا يفجرون من المياه في الغياض."
+  en: "The Abyssinians of al-Bayma; they kept fighting for seven years after Egypt's conquest, uncatchable, never stirring from the waters amid the thickets."
+wings: [people]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: participated_in, target: event/amr-dismissal-egypt, role: "المقاتلون سبع سنين", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 314"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
