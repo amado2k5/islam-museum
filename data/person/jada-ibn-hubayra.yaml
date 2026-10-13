@@ -1,0 +1,16 @@
+id: person/jada-ibn-hubayra
+class: person
+label: { ar: "جعدة بن هبيرة المخزومي", en: "Ja'da ibn Hubayra al-Makhzumi" }
+summary:
+  ar: "جعدة بن هبيرة بن أبي وهب المخزومي وأمه أم هانيء بنت أبي طالب؛ بعثه علي إلى خراسان لما انتقضت فلم يفتحها ولم تر ملتاثة حتى قتل علي."
+  en: "Ja'da ibn Hubayra ibn Abi Wahb al-Makhzumi, son of Umm Hani' bint Abi Talib; sent by Ali to breached Khurasan, he could not recover it — it stayed uncovered till Ali's death."
+periods: [period/rashidun]
+relations:
+  - { type: child_of, target: person/umm-hani-bint-abi-talib }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

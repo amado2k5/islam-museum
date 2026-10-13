@@ -1,0 +1,19 @@
+id: event/ahnaf-balkh-khwarizm
+class: event
+kind: conquest
+label: { ar: "صلح بلخ ومسير الأحنف إلى خوارزم", en: "Balkh's Sulh and al-Ahnaf's Khwarizm March" }
+summary:
+  ar: "فتح الأحنف الطالقان صلحاً وفتح الفارياب ويقال بل فتحها أمير بن أحمر ثم سار إلى بلخ وهي مدينة طخارا فصالحه أهلها على أربعمائة ألف ويقال سبعمائة ألف وذلك أثبت فاستعمل على بلخ أسيد بن المتشمس ويقال ابن أخي الأحنف ثم سار إلى خوارزم وهي من سقي النهر جميعاً ومدينتها شرقية فلم يقدر عليها فانصرف إلى بلخ وقد جبى أسيد صلحها."
+  en: "Al-Ahnaf took Talaqan by sulh and Faryab — or Umair ibn al-Ahmar did — then marched on Balkh, the city of the Tukhara, whose people truced at four hundred thousand, or seven hundred on the sounder report; he left Asid ibn al-Mutashammis — some say his nephew — over it, then went against Khwarizm, all beyond the river with an eastern city, could not take it, and came back to a Balkh whose sulh Asid had already levied."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/asid-ibn-al-mutashammis, role: "والي بلخ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/balkh }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
