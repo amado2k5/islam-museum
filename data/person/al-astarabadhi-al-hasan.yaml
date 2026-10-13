@@ -1,0 +1,22 @@
+id: person/al-astarabadhi-al-hasan
+class: person
+label: { ar: "الأسترابادي الحسن بن محمد", en: "Al-Astarabadhi, al-Hasan ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "الحسن بن رضي الدين محمد بن شرفشاه الأسترابادي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1247", hijri: "0645", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1315", hijri: "0715", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أهل إستراباد في مازندران، ولد سنة 645هـ وتوفي سنة 715هـ، ونشأ في بيئة علمية بمازندران."
+  en: "From Astarabad in Mazandaran; born in 645 AH and died in 715 AH."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 544, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص544", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

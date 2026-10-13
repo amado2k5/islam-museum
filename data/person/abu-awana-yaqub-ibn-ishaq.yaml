@@ -1,0 +1,22 @@
+id: person/abu-awana-yaqub-ibn-ishaq
+class: person
+label: { ar: "أبو عوانة يعقوب بن إسحاق", en: "Abu Awana, Ya'qub ibn Ishaq" }
+names:
+  - { kind: full, lang: ar, value: "يعقوب بن إسحاق بن إبراهيم بن يزيد الإسفراييني" }
+gender: male
+roles: [muhaddith, jurist]
+traditions: [sunni]
+born: { edtf: "0845", hijri: "0230", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0928", hijri: "0316", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدث حافظ وفقيه من إسفرايين، اشتهر بمستخرجه على صحيح مسلم، وهو أول من نشر المذهب الشافعي في إسفرايين."
+  en: "A hadith scholar, memorizer and jurist from Isfara'in, known for his extract on Sahih Muslim. He was the first to spread the Shafi'i school in Isfara'in."
+wings: [people, words]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 625, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص625", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

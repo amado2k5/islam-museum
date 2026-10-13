@@ -1,0 +1,21 @@
+id: person/abu-al-khayr-al-armuni
+class: person
+label: { ar: "أبو الخير الأرميوني", en: "Abu al-Khayr al-Armuni" }
+names:
+  - { kind: full, lang: ar, value: "أبو الخير شمس الدين محمد بن محمد الأرميوني" }
+gender: male
+roles: [scientist]
+traditions: [sunni]
+died: { edtf: "1610", hijri: "1019", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أحد علماء الرياضيات والفلك في مصر، ولد في أرمنت بغرب مصر، وترجح نسبة «الأزهري» إلى تعلّمه في الأزهر."
+  en: "One of the mathematicians and astronomers of Egypt. Born in Armant in western Egypt; the nisba al-Azhari suggests he studied or taught at al-Azhar."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 485, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص485", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
