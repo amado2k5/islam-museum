@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-10** (pp. 360–369 — Abd al-Malik's character + al-Walid): `building/umayyad-mosque`, `event/building-umayyad-mosque` (87H), `event/walid-welfare-decrees` (orphans' tutors, guides for the blind, anti-begging stipends); enriched `walid-rebuilds-the-prophets-mosque` and `death-of-walid-ibn-abd-al-malik` (mid Jumada II 96, age 51, Dhahabi's jihad-era verdict).
+
 - **Batch TK-9** (pp. 348–359 — Ibn al-Zubayr + Abd al-Malik): `event/ibn-al-zubayr-rebuilds-kaba` (two doors on Ibrahim's foundations), `event/death-of-ibn-al-zubayr` (Hajjaj's siege, crucifixion 73, Abu Qubays lightning), `event/killing-of-amr-al-ashdaq` (Ibn al-Kalbi's "first ghadr"), `event/hajjaj-seals-medinese`, `event/marwan-caliphate` (Dhahabi's legitimacy verdict); enriched `abd-al-malik-coinage` (tawamir threat, Khalid ibn Yazid's counsel, dinar inscriptions) and `death-of-abd-al-malik` (Shawwal 86, 17 sons, plague of girls).
 
 - **Batch TK-8** (pp. 339–347 — Yazid + Muawiya II): `event/waqat-al-harra` (Ibn Hanzala's charge, 306 nobles, the pillage), `event/siege-of-ibn-al-zubayr-64` (mangonels, the Ka'ba fire incl. Ishmael's ram horns, "إن طاغيتكم قد هلك"), `event/death-of-yazid-ibn-muawiya`, `event/caliphate-of-muawiya-ii` ("ما أصبت من حلاوتها"); enriched `battle-of-karbala` (4,000 under Umar ibn Sa'd, surrender refusal, the killers' variants, head on the shield, the heads sequence); persons umar-ibn-sad, khawli-ibn-yazid-al-asbahi, muawiya-ibn-yazid, abdullah-ibn-hanzala.
