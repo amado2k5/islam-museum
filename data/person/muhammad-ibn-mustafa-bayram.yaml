@@ -1,0 +1,22 @@
+id: person/muhammad-ibn-mustafa-bayram
+class: person
+label: { ar: "محمد بن مصطفى بيرم", en: "Muhammad ibn Mustafa Bayram" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن مصطفى بن محمد الثالث بن محمد الثاني بيرم" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1840", hijri: "1256", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1889", hijri: "1307", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم تونسي من أسرة بيرم، وشهد عصر الحماية الفرنسية المبكرة."
+  en: "A Tunisian scholar of the Bayram family who lived through the early French period."
+wings: [people, words]
+themes: [development-of-law-theology-institutions]
+periods: [period/colonial-era]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 266, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص266", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
