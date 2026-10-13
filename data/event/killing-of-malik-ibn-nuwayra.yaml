@@ -1,0 +1,26 @@
+id: event/killing-of-malik-ibn-nuwayra
+class: event
+kind: death
+label: { ar: "قتل مالك بن نويرة", en: "The Killing of Malik ibn Nuwayra" }
+summary:
+  ar: "عند البلاذري: سار خالد بن الوليد بعد بزاخة إلى من بالبطاح والبعوضة من بني تميم فقاتلوه ففضّ جمعهم وقتل مالك بن نويرة أخا متمم بن نويرة — وكان مالك عاملاً للنبي على صدقات بني حنظلة فلما قُبض خلّى ما كان في يده من الفرائض وقال «شأنكم بأموالكم يا بني حنظلة»؛ وقيل إن خالداً لم يلق بالبطاح والبعوضة أحداً ولكنه بث السرايا في بني تميم فكانت منها سرية عليها ضرار بن الأزور الأسدي فلقي ضرار مالكاً فاقتتلوا فأسره وجماعة معه فأتى بهم خالداً فأمر بهم فضربت أعناقهم وتولى ضرار ضرب عنق مالك، ويقال إن مالكاً قال لخالد «إني والله ما ارتددت»، وشهد أبو قتادة الأنصاري أن بني حنظلة وضعوا السلاح وأذّنوا؛ فقال عمر لأبي بكر «بعثت رجلاً يقتل المسلمين ويعذب بالنار»؛ وروي أن متمم بن نويرة دخل على عمر فسأله عن وجده على أخيه فقال «بكيته حولاً حتى أسعدت عيني الذاهبة عيني الصحيحة، وما رأيت ناراً إلا كدت أنقطع لها أسفاً عليه لأنه كان يوقد ناره إلى الصبح مخافة أن يأتيه ضيف فلا يعرف مكانه» ثم وصفه راكباً الفرس الجرور قائداً الجمل الثفال بين المزادتين النضوحين في الليلة القرة وعليه شملة قلوت معنقلاً رمحاً خطياً، ووجهه فلقة قمر؛ فأنشده مرثيته التي مطلعها «وكنا كندماني جذيمة حقبة من الدهر حتى قيل لن يتصدعا» فقال عمر «لو كنت أحسن قول الشعر لرثيت أخي زيداً» فقال متمم «ولا سواء يا أمير المؤمنين، لو كان أخي صُرع مصرع أخيك ما بكيته» فقال عمر «ما عزاني أحد بأحسن مما عزيتني»."
+  en: "In al-Baladhuri: after Buzakha Khalid ibn al-Walid marched on those of Banu Tamim at al-Butah and al-Ba'udha, fought them, scattered their gathering and killed Malik ibn Nuwayra, Mutammim ibn Nuwayra's brother — Malik having been the Prophet's agent over the alms of Banu Hanzala, who on the Prophet's death released what dues were in his hands saying 'see to your own wealth, Banu Hanzala'; some report Khalid met no one at al-Butah and al-Ba'udha but sent squadrons among Banu Tamim, one under Dirar ibn al-Azwar al-Asadi, who fought and captured Malik with a group, brought them to Khalid, who ordered their necks struck, Dirar himself taking Malik's; Malik is said to have told Khalid 'by God I did not apostatize', and Abu Qatada al-Ansari testified Banu Hanzala had laid down their arms and called the adhan — whereupon Umar told Abu Bakr 'you sent a man who kills Muslims and tortures with fire'; Mutammim ibn Nuwayra is reported coming to Umar, who asked of his grief for his brother — 'I wept for him a year until my failing eye aided my sound one, and I saw no fire but I nearly perished with sorrow for him, for he used to keep his fire lit till morning lest a guest come and not know its place' — then described him riding the strong horse leading the thirsty camel between two brimming water-skins on the cold night, a cloak on him, bearing a pliant spear, his face a moon's cleft; he recited his elegy beginning 'we were like Jadhima's two drinking-companions for an age until it was said they would never be split', and Umar said 'had I been good at verse I would have elegized my brother Zayd', to which Mutammim answered 'not equal, commander of the faithful — had my brother fallen where yours fell I would not have wept him', and Umar said 'no one has consoled me better than you consoled me'."
+wings: [time, people]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد بزاخة في خلافة أبي بكر (البلاذري ص 136–138). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/ridda-wars }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "أمر بضرب أعناق الأسرى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/malik-ibn-nuwayra, role: "القتيل؛ قال «والله ما ارتددت»", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/dirar-ibn-al-azwar, role: "أسره بسريته وتولى ضرب عنقه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mutammim-ibn-nuwayra, role: "أخوه؛ رثاه عند عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "عاتب أبا بكر: «بعثت رجلاً يقتل المسلمين ويعذب بالنار»", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 136–138"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-7
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
