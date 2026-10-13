@@ -1,0 +1,21 @@
+id: event/great-earthquake-180
+class: event
+kind: disaster-relief
+label: { ar: "الزلزلة العظمى سنة 180" }
+summary:
+  ar: "في سنة ثمانين ومئة كانت الزلزلة العظمى سقط منها رأس منارة الإسكندرية {cite:tarikh-khulafa-minhaj-1434 p. 461}."
+  en: "In year 180 came the great earthquake, from which the head of Alexandria's lighthouse fell {cite:tarikh-khulafa-minhaj-1434 p. 461}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0796~", hijri: "0180", calendar: julian, precision: year, status: tradition, derived: true, note: "180؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 461}." }
+relations:
+  - { type: occurred_at, target: place/alexandria, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 461"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-20
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
