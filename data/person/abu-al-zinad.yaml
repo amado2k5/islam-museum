@@ -1,0 +1,20 @@
+id: person/abu-al-zinad
+class: person
+label: { ar: "عبد الله بن ذكوان أبو الزناد", en: "Abd Allah ibn Dhakwan Abu al-Zinad" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن ذكوان أبو الزناد" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "من فقهاء المدينة في الطبقة الثالثة، وأبوه ذكوان أخو أبي لؤلؤة؛ ذكر الشيرازي أنه وفد على هشام بن عبد الملك بحساب ديوان المدينة، وأن ربيعة قال إنه لم يرَ عالماً إلا ابن هرمز الأصم، وأن مالكاً أخذ عنه الفقه."
+  en: "A Medinan jurist of the third generation; Shirazi reports his mission to Hisham ibn Abd al-Malik about the Medina accounts, and that Malik took fiqh from him."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+died: { hijri: "0130", edtf: "0747~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي (ط. إحسان عباس، ص36): مات أبو الزناد سنة ثلاثين ومائة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/tabaqat-fuqaha-abbas-1981] }
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) ص35–36", generated_by: "Claude (Haiku 5.5)", run: "lib-tabaqat-fuqaha-batch-3" }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from Shirazi's list of Medina jurists; the death year as the book reports it; a second source is needed" }
