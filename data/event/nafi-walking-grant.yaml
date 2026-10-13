@@ -1,0 +1,19 @@
+id: event/nafi-walking-grant
+class: event
+kind: other
+label: { ar: "قطيعة نافع ما مشى", en: "Nafi' ibn al-Harith's Walking Grant" }
+summary:
+  ar: "أمر زياد عبد الرحمن بن تبع الحميري وكان على قطائعه أن يقطع نافع بن الحارث الثقفي ما مشى فمشى فانقطع شسعه فجلس فقال حسبك فقال لو علمت لمشيت إلى الأبلة فقال دعني حتى أرمي بنعلي فرمى بها حتى بلغت الإجانة."
+  en: "Ziyad told Abd al-Rahman ibn Tubba' al-Himyari, master of his land-grants, to grant Nafi' ibn al-Harith 'what he walks'; Nafi' walked till his sandal-strap broke and sat — 'enough' — 'had I known, I would have walked to Ubulla' — 'let me throw my sandal' — and he threw it as far as al-Ijana."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/nafi-ibn-al-harith, role: "المقطَع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "الآمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,18 @@
+id: event/muawiya-marsh-grant
+class: event
+kind: other
+label: { ar: "قطيعة معاوية السبخة", en: "Mu'awiya's Marsh Grant" }
+summary:
+  ar: "كانت الجزيرة بين النهرين سبخة فأقطعها معاوية بعض بني أخوته فلما قدم الفتى لينظر إليها أمر زياد بالماء فأرسل فيها فقال الفتى إنما أقطعني أمير المؤمنين بطيحة لا حاجة لي فيها فابتاعها زياد منه بمائتي ألف درهم وحفر أنهارها وأقطع منها."
+  en: "The marsh between the rivers was a salt-flat Mu'awiya granted one of his nephews; when the lad came to inspect it Ziyad had water released into it — 'the Commander of the Faithful granted me a waterfowl-marsh I have no use for' — so Ziyad bought it for two hundred thousand dirhams, dug its canals and parceled grants from it."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "المشتري", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
