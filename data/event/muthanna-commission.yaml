@@ -1,0 +1,24 @@
+id: event/muthanna-commission
+class: event
+kind: other
+label: { ar: "عهد أبي بكر للمثنى بن حارثة", en: "Abu Bakr's Commission to al-Muthanna ibn Haritha" }
+summary:
+  ar: "عند البلاذري: كان المثنى بن حارثة بن سلامة بن ضمضم الشيباني يغير على السواد في رجال من قومه فبلغ أبا بكر خبره فسأل عنه فقال له قيس بن عاصم بن سنان المنقري: هذا رجل غير خامل الذكر ولا مجهول النسب ولا ذليل العماد هذا المثنى بن حارثة الشيباني ثم إن المثنى قدم على أبي بكر فقال له يا خليفة رسول الله استعملني على من أسلم من قومي أقاتل هذه الأعاجم من أهل فارس فكتب له أبو بكر في ذلك عهداً فسار حتى نزل خفان ودعا قومه إلى الإسلام فأسلموا ثم إن أبا بكر كتب إلى خالد بن الوليد المخزومي يأمره بالمسير إلى العراق — ويقال بل وجّهه من المدينة — وكتب إلى المثنى يأمره بالسمع والطاعة له وتلقّيه."
+  en: "In al-Baladhuri: al-Muthanna ibn Haritha ibn Salama ibn Damdam al-Shaybani raided the Sawad with men of his people; news reached Abu Bakr who asked about him, and Qays ibn Asim ibn Sinan al-Minqari said 'a man neither of hidden fame nor unknown lineage nor weak support — this is al-Muthanna ibn Haritha al-Shaybani.' Then al-Muthanna came to Abu Bakr saying 'O caliph of God's messenger, employ me over those of my people who have Islamized to fight these Persians'; Abu Bakr wrote him a patent for it, and he went to Khaffan, called his people to Islam and they Islamized. Then Abu Bakr wrote Khalid ibn al-Walid al-Makhzumi ordering him to march to Iraq — it is said he dispatched him from Medina — and wrote al-Muthanna ordering his hearing, obeying and supporting him."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq, arabia]
+date:
+  start: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "قبل مسير خالد إلى العراق سنة 12 (البلاذري ص 337). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/abu-bakr, role: "العاهد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المعاهَد الغازي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/qays-ibn-asim, role: "المخبر عنه", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 337"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-26
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

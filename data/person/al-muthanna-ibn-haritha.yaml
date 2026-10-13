@@ -2,8 +2,12 @@ id: person/al-muthanna-ibn-haritha
 class: person
 label: { ar: "المثنى بن حارثة" }
 summary:
-  ar: "ورد ذكره في فهرس الجزء الثالث مع أبي عبيد بن مسعود في أخبار سنة ثلاث عشرة «ذكر خبر المثنى بن حارثة وأبي عبيد بن مسعود» {cite:tabari-tarikh-abu-al-fadl j.3 p.630}."
+  ar: "ورد ذكره في فهرس الجزء الثالث مع أبي عبيد بن مسعود في أخبار سنة ثلاث عشرة «ذكر خبر المثنى بن حارثة وأبي عبيد بن مسعود» {cite:tabari-tarikh-abu-al-fadl j.3 p.630}. وعند البلاذري: المثنى بن حارثة بن سلامة بن ضمضم الشيباني كان يغير على السواد في رجال من قومه فكتب له أبو بكر عهداً على من أسلم منهم لقتال الفرس فنزل خفان ودعا قومه فأسلموا وكتب أبو بكر يأمره بالسمع والطاعة لخالد بن الوليد فلقيه بالنباج ولقي جابان بنهر الدم وهو أول فاتحي السواد."
 gender: male
-sources: [source/tabari-tarikh-abu-al-fadl]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 1", sources: [source/tabari-tarikh-abu-al-fadl] }
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); cites juz'/page of the scan" }
+relations:
+  - { type: participated_in, target: event/muthanna-commission, role: "المعاهَد الغازي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/conquest-of-al-hira, role: "ملاقي جابان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/banu-shayban, sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407]
+provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 1; extended by Devin (SWE-2 High) from Futuh al-Buldan (Maarif 1407), batch 26", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
+status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); extended by Devin (SWE-2 High) — Futuh pp. 337–339" }

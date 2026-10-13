@@ -4,9 +4,11 @@ kind: city
 label: { en: "al-Hira", ar: "الحيرة" }
 summary:
   en: "The Arab capital on the edge of Iraq’s Sawad, seat of the Lakhmid kings who guarded Persia’s frontier from Ardashir’s day until 632."
-  ar: "عاصمة ملوك العرب على تخوم سواد العراق؛ مقر المناذرة ولاة فارس على البادية من عهد أردشير حتى سنة 632م."
+  ar: "عاصمة ملوك العرب على تخوم سواد العراق؛ مقر المناذرة ولاة فارس على البادية من عهد أردشير حتى سنة 632م. وعند البلاذري: صالحها خالد بن الوليد سنة اثنتي عشرة على مائة ألف درهم — ويُقال ثمانين ألفاً — وعلى أن يكونوا عيوناً للمسلمين على الفرس وأن لا يهدم لهم بيعة ولا قصر وهو أول مال حمل إلى المدينة من العراق؛ وتحصّن أهلها في القصر الأبيض وقصر ابن بقيلة وقصر المديسيين."
 wings: [place]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
-sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+relations:
+  - { type: site_of, target: event/conquest-of-al-hira, sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
