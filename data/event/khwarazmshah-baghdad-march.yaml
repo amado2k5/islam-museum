@@ -1,0 +1,22 @@
+id: event/khwarazmshah-baghdad-march
+class: event
+kind: other
+label: { ar: "قصد خوارزمشاه بغداد ورده الثلج" }
+summary:
+  ar: "لما ظهر خوارزم شاه بخراسان وما وراء النهر وتجبر وطغى واستعبد الملوك الكبار وأباد أمماً كثيرة وقطع خطبة بني العباس من بلاده وقصد بغداد فوصل إلى همدان فوقع عليهم ثلج عظيم عشرين يوماً فغطاهم في غير أوانه فقال له بعض خواصه إن ذلك غضب من الله حيث قصدت بيت النبوة وبلغه أن أمم الترك قد تألبت عليه وطمعوا في البلاد فكان ذلك سبب رجوعه وكفي الناصر شره بلا قتال، وفي سنة اثنتين وتسعين عسكر وعدا جيحون في خمسين ألفاً وبعث إلى الخليفة يطلب السلطنة وإعادة دار السلطنة وأن يجيء إلى بغداد ويكون الخليفة من تحت يده كما كانت الملوك السلجوقية فهدم الخليفة دار السلطنة ورد رسوله بلا جواب {cite:tarikh-khulafa-minhaj-1434 p. 687,694}."
+  en: "Khwarazmshah, grown mighty over Khurasan and Transoxiana, cut the Abbasid khutba from his lands and marched on Baghdad; at Hamadan twenty days of out-of-season snow buried his host — 'God's wrath that you aim at the house of prophecy', a courtier said — and news that the Turkic peoples had rallied behind him turned him back; the Nasir was spared without battle. In 592 he crossed the Jayhun with fifty thousand demanding the sultanate and the caliph's tutelage as in Seljuk days; the caliph razed the dar al-saltana and returned his envoy unanswered {cite:tarikh-khulafa-minhaj-1434 p. 687,694}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1196~", hijri: "0592", calendar: julian, precision: year, status: tradition, derived: true, note: "592؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 694}." }
+relations:
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-nasir-billah, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 685–694"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-43
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

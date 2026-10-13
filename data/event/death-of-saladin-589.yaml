@@ -1,0 +1,21 @@
+id: event/death-of-saladin-589
+class: event
+kind: other
+label: { ar: "وفاة صلاح الدين وتركته" }
+summary:
+  ar: "وفي سنة تسع وثمانين مات السلطان صلاح الدين فوصل إلى بغداد الرسول وفي صحبته لأمة الحرب التي لصلاح الدين وفرسه ودينار واحد وستة وثلاثون درهماً لم يخلف من المال سواها واستقرت مصر لابنه عماد الدين عثمان الملك العزيز ودمشق لابنه الملك الأفضل نور الدين علي وحلب لابنه الملك الظاهر غياث الدين غازي {cite:tarikh-khulafa-minhaj-1434 p. 693}."
+  en: "In 589 sultan Salah al-Din died; the envoy reached Baghdad with his war-standard, his horse, and one dinar with thirty-six dirhams — all the wealth he left. Egypt settled for his son al-Aziz Imad al-Din Uthman, Damascus for al-Afdal Nur al-Din Ali, Aleppo for al-Zahir Ghiyath al-Din Ghazi {cite:tarikh-khulafa-minhaj-1434 p. 693}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1193~", hijri: "0589", calendar: julian, precision: year, status: tradition, derived: true, note: "589؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 693}." }
+relations:
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 685–694"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-43
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
