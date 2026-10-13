@@ -1,0 +1,22 @@
+id: person/muhammad-ibn-umar-al-tunisi
+class: person
+label: { ar: "محمد بن عمر التونسي", en: "Muhammad ibn Umar al-Tunisi" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن عمر بن سليمان التونسي" }
+gender: male
+roles: [traveler, scholar]
+traditions: [sunni]
+born: { edtf: "1790", hijri: "1204", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1857", hijri: "1274", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "رحالة وعالم تونسي، استمد نسبه من عائلته التي توزعت بين مصر وبلاد المغرب."
+  en: "A Tunisian traveller and scholar whose family was spread between Egypt and the Maghrib."
+wings: [people, words]
+themes: [travel, history-writing-and-social-thought]
+periods: [period/colonial-era]
+regions: [maghreb]
+story_roles:
+  - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 730, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص730", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

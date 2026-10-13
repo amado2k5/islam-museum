@@ -1,0 +1,22 @@
+id: person/sulayman-ibn-tarkhan-al-taymi
+class: person
+label: { ar: "سليمان بن طرخان التيمي", en: "Sulayman ibn Tarkhan al-Taymi" }
+names:
+  - { kind: full, lang: ar, value: "أبو المعتمر سليمان بن طرخان التيمي" }
+gender: male
+roles: [muhaddith]
+traditions: [sunni]
+born: { edtf: "0666", hijri: "0046", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0760", hijri: "0143", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث بصري روى عن الصحابي أنس بن مالك وعدد من التابعين."
+  en: "A hadith scholar of Basra who narrated from the Companion Anas ibn Malik and a number of Successors."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 780, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص780", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
