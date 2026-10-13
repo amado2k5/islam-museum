@@ -1,0 +1,20 @@
+id: place/al-ruha
+class: place
+kind: city
+label: { ar: "الرها", en: "al-Ruha (Edessa)" }
+summary:
+  ar: "الرها (أديسا) أعظم مدن الجزيرة الفراتية؛ أول ما فتحه إياد بن غنم من الجزيرة، وقف على بابها على فرس كميت فصالحه أهلها على أن لهم هيكلهم وما حوله ولا يحدثون كنيسة إلا ما كان لهم ويعاونون المسلمين على عدوهم فإن تركوا شيئاً فلا ذمة لهم — ودخل أهل الجزيرة في صلحهم."
+  en: "al-Ruha (Edessa), greatest city of the Euphratean Jazira; the first of the Jazira towns Iyad ibn Ghanm took — standing at its gate on a chestnut horse, its people compounded with him for their great church and its surroundings, no new church beyond what they had, and aid to the Muslims against their enemy, failing which they had no dhimma — the people of the Jazira entering into their treaty."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/conquest-of-ruha, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 236–237"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-13
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

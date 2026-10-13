@@ -1,0 +1,19 @@
+id: place/tarsus
+class: place
+kind: city
+label: { ar: "طرسوس", en: "Tarsus" }
+summary:
+  ar: "طرسوس أعظم مدن الثغور الشامية؛ كانت خراباً بعد جلاء أهلها أيام الفتح حتى وصفها الحسن بن قحطبة للمهدي سنة 162 فأوصى ببنائها، ولما بلغ الرشيد سنة 171 أن الروم ائتمروا لتحصينها سبقهم هرثمة بن أعين فعمّرها على يد فرج بن سليم وسكنتها ندبتا خراسان والشام سنة 172 ومسح خططها أربعة آلاف خطة عشرين ذراعاً في مثلها؛ وصارت منطلق الصوائف وباب الجهاد وأعظم عواصم المسلمين."
+  en: "Tarsus, greatest city of the Syrian marches; it lay in ruins after its people's evacuation in the conquest until al-Hasan ibn Qahtaba described it to al-Mahdi in year 162, who bequeathed its building, and when word reached al-Rashid in year 171 that the Byzantines had conspired to fortify it, Harthama ibn A'yan forestalled them, rebuilding it under Faraj ibn Sulaym's hand; the Khurasani and Syrian levies settled it in year 172 across four thousand surveyed lots of twenty cubits each; it became the launching-point of the summer raids, the Jihad gate and the greatest of the Muslims' border strongholds."
+wings: [place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/founding-of-tarsus, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 231–233"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-13
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

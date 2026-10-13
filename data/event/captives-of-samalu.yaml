@@ -1,0 +1,23 @@
+id: event/captives-of-samalu
+class: event
+kind: treaty
+label: { ar: "أمان أهل ضمالو ونقلهم إلى بغداد", en: "The Aman of Samalu and its People's Transfer to Baghdad" }
+summary:
+  ar: "عند البلاذري: أغزى المهدي ابنه هارون الرشيد سنة 163 فحاصر أهل ضمالو — وهي التي تدعوها العامة سمالو — فسألوه الأمان عشرة أهل بيوت فيهم القومس فأجابهم إلى ذلك وكان في شرطهم أن لا يفرق بينهم فأنزلوا ببغداد على باب الشماسية فسموا موضعهم سمالو فهو معروف، ويقال بل نزلوا على حكم المهدي فاستحياهم وجمعهم بذلك الموضع وأمر أن يسمى سمالوا؛ وأمر الرشيد فنودي على من بقي في الحصن فبيعوا وأخذ حبشي كان يشتم الرشيد والمسلمين فصلب على برج من أبراجه."
+  en: "In al-Baladhuri: al-Mahdi sent his son Harun al-Rashid raiding in year 163 and he besieged the people of Damalu — which common speech calls Samalu — and they asked his aman, ten householders among them the qummis, which he granted on the condition that they not be separated, so they were settled in Baghdad at the Shammasiyya gate and named their quarter Samalu, which it is still known as; others say they came down on al-Mahdi's ruling — he spared them, gathered them at that spot and ordered it named Samalu; al-Rashid had those remaining in the fortress cried and sold, and an Abyssinian who used to curse al-Rashid and the Muslims was taken and crucified on one of its towers."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0780~", hijri: "0163", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 163 (البلاذري ص 234). التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/harun-al-rashid, role: "أمير الصائفة وعاقد الأمان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mahdi, role: "المغزي — وقيل صاحب الحكم في إنزالهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/baghdad, note: "أنزلوا على باب الشماسية فسمي الموضع سمالو", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 234"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-13
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
