@@ -1,0 +1,22 @@
+id: event/marwan-exhumes-yazid
+class: event
+kind: other
+label: { ar: "نبش يزيد الناقص وصلبه" }
+summary:
+  ar: "أول ما فعل مروان بن محمد حين استوثق له الأمر في نصف صفر سنة سبع وعشرين أن أمر بنبش يزيد الناقص فأخرجه من قبره وصلبه لكونه قتل الوليد بن يزيد {cite:tarikh-khulafa-minhaj-1434 p. 412}."
+  en: "Marwan ibn Muhammad's first act once power was secured in mid-Safar 127 was to order al-Naqis's exhumation: he had him taken from his grave and crucified for having killed al-Walid ibn Yazid {cite:tarikh-khulafa-minhaj-1434 p. 412}."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0745~", hijri: "0127", calendar: julian, precision: year, status: tradition, derived: true, note: "نصف صفر 127؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 412}." }
+relations:
+  - { type: had_participant, target: person/marwan-ibn-muhammad, role: "الآمر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/yazid-ibn-al-walid, role: "المنبوش", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 412"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-13
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

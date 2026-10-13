@@ -1,0 +1,20 @@
+id: event/death-of-yazid-iii
+class: event
+kind: death
+label: { ar: "وفاة يزيد الناقص" }
+summary:
+  ar: "لم يمتع يزيد الناقص بالخلافة بل مات من عامه في سابع ذي الحجة سنة ست وعشرين ومئة فكانت خلافته ستة أشهر ناقصة وكان عمره خمساً وثلاثين سنة وقيل ستاً وأربعين، ويقال إنه مات بالطاعون، وقد لقب بالناقص لكونه نقص الجند من أعطياتهم {cite:tarikh-khulafa-minhaj-1434 p. 408-409}."
+  en: "Yazid al-Naqis did not long enjoy the caliphate — he died the same year, on 7 Dhu'l-Hijja 126, his caliphate having lasted six months less a fraction, aged thirty-five or forty-six; some say he died of the plague. He was dubbed al-Naqis for cutting the troops' stipends {cite:tarikh-khulafa-minhaj-1434 p. 408-409}."
+wings: [time, people]
+periods: [period/umayyad]
+date:
+  start: { edtf: "0744-10~", hijri: "0126-12-07", calendar: julian, precision: day, status: tradition, derived: true, note: "7 ذو الحجة 126؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 409}." }
+relations:
+  - { type: had_participant, target: person/yazid-ibn-al-walid, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 408–409"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-13
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
