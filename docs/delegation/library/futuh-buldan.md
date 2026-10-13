@@ -113,4 +113,6 @@
 
 - **Batch 49** (pp. 456–459 — Azerbaijan governors): enriched `conquest-of-azerbaijan` (Shiz zaffn clause, Muqan/Jilan tribute, Utba's tenure + border breaches, Waqidi-22 vs Mikhnaf-20 vs Zuhri-100k variants, Umar's dhabiha-fur letter, Walid's 25 AH restoration, al-Ash'ath's "han-han" pursuit + stipendiary settlement + dawa order, Sa'id's Muqan raid, Jarir's crucifixion at Bajirwan); `event/utba-khabis-letter` (the two-basket anecdote + Umar's famous reply); persons amr-ibn-utba, abdallah-ibn-shibl (Walid's van), said-ibn-saria (Ali's appointee), suhaym-mawla-utba; places sabalan, satrudan.
 
-**Next:** batch 50 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 50** (pp. 460–463 — Azerbaijan towns): `event/muhammad-ibn-al-baith-revolt` (Marand's Ba'ithid palaces, Buna al-Saghir's capture to Samarra; merged into existing `person/muhammad-ibn-al-buayth`); places maragha (Afrahruudh→Maragha etymology, Marwan II estate, Zubayda/Rashid-daughter, Khuzayma's wall, Babak refuge), marand, urmiya (Zarathustra claim, Sadaqa b. Ali), warthan (Marwan's bridge-town→Zubayda→Afshin camp), barza (Awad's 239 minbar), tarir (Bajirwan Market); persons al-rawwad-al-azdi, sadaqa-ibn-ali, bukayr-ibn-shaddad (Atlal's knight), al-shammakh-ibn-dirar, muawiya-ibn-amr-al-mawsili, buna-al-saghir.
+
+**Next:** batch 51 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
