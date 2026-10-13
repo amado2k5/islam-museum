@@ -1,0 +1,20 @@
+id: event/al-junayd-turk-war
+class: event
+kind: campaign
+label: { ar: "ولاية الجنيد بن عبد الرحمن خراسان وحربه الترك", en: "al-Junayd's Khurasan and the Turkish War" }
+summary:
+  ar: "استعمل هشام في سنة ١١٢ الجنيد بن عبد الرحمن المري على خراسان فلقي الترك فحاربهم ووجه طلائع له فظفروا بابن خاقان وهو سكران يتصيد فأخذوه فأتوا به الجنيد فبعث به إلى هشام ولم يزل يقاتل الترك حتى دفعهم فكتب إلى هشام يستمده فأمده بعمرو بن مسلم في عشرة آلاف رجل من أهل البصرة وبعبد الرحمن بن نعيم في عشرة آلاف من أهل الكوفة وحمل إليه ثلاثين ألف قناة وثلاثين ألف ترس وأطلق يده في الفريضة ففرض لخمسة عشر ألف رجل وكانت للجنيد مغاز وانتشرت دعاة بني هاشم في ولايته وقوي أمرهم وكانت وفاة الجنيد بمرو وولى هشام خراسان عاصم بن عبد الله بن يزيد الهلالي وقال أبو عبيدة التأمت نواح من طخارستان نقضها الجنيد بن عبد الرحمن وردها إلى صلحها ومقاطعتها."
+  en: "In 112h Hisham gave Khurasan to al-Junayd ibn Abd al-Rahman al-Murri; his vanguard caught the Khaqan's son drunk hunting — sent to Hisham — and he fought on till the Turks were driven off. Reinforced by Amr ibn Muslim with ten thousand Basrans, Abd al-Rahman ibn Nu'aym with ten thousand Kufans, thirty thousand spears, thirty thousand shields, and an open stipend for fifteen thousand men, his raids prospered — while the Hashimi da'is spread and grew strong in his rule. He died at Marw; Hisham then gave Khurasan to Asim ibn Abdallah al-Hilali. Abu Ubayda notes the Tukharistan districts al-Junayd had breached were returned to their sulh."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-junayd-ibn-abd-al-rahman, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hisham-ibn-abd-al-malik, role: "الخليفة الممد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/asim-ibn-abdallah-al-hilali, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/marw }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

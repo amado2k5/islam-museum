@@ -1,0 +1,21 @@
+id: event/muslim-ibn-said-farghana
+class: event
+kind: campaign
+label: { ar: "غزو مسلم بن سعيد فرغانة والهزيمة", en: "Muslim ibn Sa'id's Farghana Disaster" }
+summary:
+  ar: "عزل عمر بن هبيرة الجرشي واستعمل على خراسان مسلم بن سعيد فغزا أفشين فصالحه على ستة آلاف رأس ودفع إليه قلعته ثم انصرف إلى مرو وولى طخارستان نصر بن سيار فخالفه خلق من العرب فأوقع بهم ثم سفرت بينهم السفراء فاصطلحوا واستعمل هشام خالد بن عبد الله القسري على العراق فولى أسد بن عبد الله أخاه خراسان وبلغ ذلك مسلم بن سعيد فسار حتى أتى فرغانة فأناخ على مدينتها فقطع الشجر وأخرب العمارة وانحدر عليه خاقان الترك في عسكره فارتحل عن فرغانة وسار في يوم واحد ثلاث مراحل حتى قامت دوابه وتطرفت الترك عسكره وقد قال بعض الشعراء غزوت بنا من خشية العزل عاصياً فلم تنج من دنيا معن غرورها."
+  en: "Umar ibn Hubayra gave Khurasan to Muslim ibn Sa'id, who took al-Afshin's sulh on six thousand heads plus his fortress. When word came that Asad ibn Abdallah had been given Khurasan, Muslim campaigned Farghana — cut the trees and ruined the buildings — till the Khaqan descended and he fled three marches in a day, beasts collapsing under Turkish raids: 'you marched us out to disobey for fear of dismissal — this flattering world did not save you'."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muslim-ibn-said, role: "الوالي الغازي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-afshin, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/nasr-ibn-sayyar, role: "عامل طخارستان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/asad-ibn-abdallah-al-qasri, role: "الوالي الجديد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/farghana }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

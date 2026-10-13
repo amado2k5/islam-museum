@@ -1,0 +1,21 @@
+id: event/said-hudhayfa-khurasan
+class: event
+kind: other
+label: { ar: "ولاية سعيد حذيفة خراسان وهزيمة سورة", en: "Sa'id 'Hudhayfa' over Khurasan and Sawra's Defeat" }
+summary:
+  ar: "ولي يزيد بن عبد الملك فولى مسلمة بن عبد الملك العراق وخراسان فولى مسلمة سعيد بن عبد العزيز بن الحارث بن الحكم بن أبي العاصي بن أمية خراسان وسعيد هذا يلقب حذيفة وذلك أن بعض دهاقين ما وراء النهر دخل عليه وعليه معصفر وقد رجل شعره فقال هذا حذيفة يعني دهقانة وكان سعيد صهر مسلمة على ابنته فقدم سعيد سورة بن الحر الحنظلي ثم ابنه فتوجه إلى ما وراء النهر فنزل إشتيخن وقد صارت الترك إليها فحاربهم وهزمهم ومنع الناس من طلبهم حيناً ثم لقي الترك ثانية فهزموه وأكثروا القتل في أصحابه وولى سعيد نصر بن سيار وفي سعيد يقول الشاعر فأيرك مشهود وسيفك مشمد سرت إلى الأعداء تلهو يلعبة وشخص قوم من وجوه أهل خراسان إلى مسلمة يشكون سعيداً فعزله وكان الجراح بن عبد الله يتخذ نقراً من فضة وذهب ويصيرها تحت بساط في مجلسه على أوزان مختلفة فإذا دخل عليه الداخل من إخوته والمعتزين به رمى إلى كل امرئ منهم مقدار ما يؤهل له."
+  en: "Under Yazid ibn Abd al-Malik, Maslama gave Khurasan to his son-in-law Sa'id ibn Abd al-Aziz — nicknamed 'Hudhayfa' when a dahqan saw him saffron-dyed with combed hair and called him effeminate. His man Sawra ibn al-Hurr retook Ishtikhan from the Turks and routed them, then lost the second battle with heavy loss; the obscene lampoon on Sa'id survives. Khurasan's notables complained to Maslama and he was deposed — al-Jarrah meanwhile had kept weighed silver and gold pieces under his carpet, tossing each visitor his due."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/said-ibn-abd-al-aziz, role: "الوالي الملقب حذيفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sawra-ibn-al-hurr, role: "القائد المهزوم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/nasr-ibn-sayyar, role: "المستعمل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/maslama-ibn-abd-al-malik, role: "الوالي الأعلى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/ishtikhan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -181,4 +181,6 @@
 
 - **Batch 83** (pp. 596–599 — Qutayba's death + aftermath): `event/qutayba-death` (veil-banner, the Dabbi arrow, the faza pole, head to Sulayman, age 55); `event/waki-ibn-hassan-rule` (9 months, "God's treasurer?", Mukhallad's Buttam); `event/abu-tutayna-al-ahtham` (denunciation letter, the oil-seller disguise, Bashir's excuse, Waki' b. Abi Sud's famous impiety); `event/madinat-fil-qutayba`; `event/umar-ii-transoxania-dawa` (Ibn Ma'mar's China penetration, kharaj lifted from converts); persons +7; place madinat-al-fil; `waki-ibn-abi-sud` enriched.
 
-**Next:** batch 84 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 84** (pp. 600–603 — the governor chain): `event/said-hudhayfa-khurasan` (the dahqan's quip, Sawra's Ishtikhan loss); `event/al-jarashi-sughd` (the lahan 'ahd, 12k defection); `event/muslim-ibn-said-farghana` (Afshin's 6,000 heads, the 3-march flight); `event/asad-khurasan-rule` (the curse-riposte, Balkh diwans, Nasr beaten); `event/ashras-jizya-episode` (converts' jizya, Thabit Qutna); `event/al-junayd-turk-war` (112h, the Khaqan's drunken son, Hashimi da'is); persons +10.
+
+**Next:** batch 85 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
