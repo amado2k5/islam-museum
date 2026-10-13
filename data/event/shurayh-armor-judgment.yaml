@@ -1,0 +1,22 @@
+id: event/shurayh-armor-judgment
+class: event
+kind: court-ruling
+label: { ar: "قضاء شريح في درع علي" }
+summary:
+  ar: "افتقد علي درعاً له بعد رجوعه من صفين فوجدها مع يهودي بالكوفة فقال الدرع درعي لم أبع ولم أهب، فترافعا إلى شريح القاضي فجلس علي إلى جنبه وقال لولا أن خصمي يهودي لاستويت معه في المجلس، فسأله شريح عن البينة فقال قنبر والحسن يشهدان، فقال شريح شهادة الابن لا تجوز للأب وقضى لليهودي، فقال اليهودي أمير المؤمنين قدمني إلى قاضيه وقاضيه قضى عليه، فشهد شهادة الحق وأقر أن الدرع درعه وأسلم {cite:tarikh-khulafa-minhaj-1434 p. 306-307}."
+  en: "After Siffin Ali missed a coat of mail and found it with a Jew in Kufa — 'the armor is mine; I neither sold nor gave it'. They pleaded before the judge Shurayh, where Ali sat beside him saying 'were my opponent not a Jew I would have sat equal with him'. Shurayh asked for proof; Ali offered Qanbar and al-Hasan, but Shurayh ruled a son's testimony inadmissible for his father and found for the Jew — who exclaimed that the Commander of the Faithful had brought him before his own judge and been judged against, bore witness that this was the truth, acknowledged the armor, and embraced Islam {cite:tarikh-khulafa-minhaj-1434 p. 306-307}."
+wings: [time, people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0657~", hijri: "0037", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد رجوعه من صفين؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 306}." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المدعي", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/shurayh-al-qadi, role: "القاضي", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 306–307"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-6
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
