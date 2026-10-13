@@ -1,0 +1,25 @@
+id: event/rebuilding-of-malatya
+class: event
+kind: founding
+label: { ar: "بناء المنصور لملطية", en: "Al-Mansur's Rebuilding of Malatya" }
+summary:
+  ar: "عند البلاذري: لما كانت سنة 139 كتب المنصور إلى صالح بن علي يأمره ببناء ملطية وتحصينها ثم رأى أن يوجّه عبد الوهاب بن إبراهيم الإمام والياً على الجزيرة وثغورها فتوجه في سنة 140 ومعه الحسن بن قحطبة في جنود أهل خراسان فقطع البعوث على أهل الشام والجزيرة فتوافى معه سبعون ألفاً فعسكر على ملطية وقد جمع الفعلة من كل بلد فأخذ في بنائها، وكان الحسن بن قحطبة ربما حمل الحجر حتى يناوله البناء وجمل يغدي الناس ويمشيهم من ماله مبرزاً مطابخه فماظّ ذلك عبد الوهاب فكتب إلى أبي جعفر يعاظمه أنه يطعم الناس وأن الحسن يطعم أضعاف ذلك التماساً لأن يطوّله ويفسد ما يصنع ويهجّنه بالإسراف والرياء وأن له منادين ينادون الناس إلى طعامه فكتب إليه أبو جعفر «يا صبيّ! يطعم الحسن من ماله وتطعم من مالي — ما أتيت إلا من صغر خطرك وقلة همّتك وسفه رأيك» وكتب إلى الحسن أن أطعم ولا تتخذ منادياً فكان الحسن يقول «من سبق إلى شرفتي فله كذا» فجدّ الناس في العمل حتى فرغوا من بناء ملطية ومسجدها في ستة أشهر، وبُني للجند الذين أُسكنوها لكل عرافة بيتان سفليان وعليتان فوقهما واصطبل — والعرافة عشرة أنفس إلى خمسة عشر رجلاً — وبنى لها مسلحة على ثلاثين ميلاً منها ومسلحة على نهر يدعى قباقب يدفع في الفرات، وأسكن المنصور ملطية أربعة آلاف مقاتل من أهل الجزيرة لأنها من ثغورهم على زيادة عشرة دنانير في عطاء كل رجل ومعونة مائة دينار سوى الجمل الذي يتجاعله القبائل بينها، ووضع فيها شحنتها من السلاح وأقطع الجند المزارع وبنى حصن قلوذية؛ وأقبل قسطنطين الطاغية في أكثر من مائة ألف فنزل جيحان فبلغه كثرة العرب فأحجم عنها."
+  en: "In al-Baladhuri: in year 139 al-Mansur wrote to Salih ibn Ali ordering Malatya rebuilt and fortified, then resolved to send Abd al-Wahhab ibn Ibrahim al-Imam as governor of the Jazira and its frontier — he set out in year 140 with al-Hasan ibn Qahtaba among the Khurasani armies, proclaiming a levy on the people of Syria and the Jazira until seventy thousand converged, and camped on Malatya having gathered labourers from every land; al-Hasan ibn Qahtaba would carry stone to hand the builder, and a camel of his went round feeding the people from his own purse with field-kitchens deployed — Abd al-Wahhab envied this and wrote to Abu Ja'far accusing him of out-feeding the state in a bid to prolong and corrupt the work by extravagance and vainglory, and of having callers summon people to his food; Abu Ja'far wrote back: 'O boy! Al-Hasan feeds from his own money, and you feed from mine — nothing comes of you but smallness of worth, littleness of ambition and foolishness of opinion,' and wrote to al-Hasan: feed, but keep no caller — so al-Hasan would say 'whoever reaches my awning first gets such-and-such'; the men worked hard and finished Malatya and its mosque in six months; for the garrison each 'arafa — ten to fifteen men — received two lower houses, two upper chambers and a stable; he built a muslaha thirty miles out and another on the river called Qubaqib that feeds the Euphrates; al-Mansur settled four thousand Jaziran fighters in Malatya, it being of their frontier, with ten dinars added to every man's pay and a hundred-dinar allowance besides the camel the tribes engaged between them; he deposited its armoury, granted the soldiers farms and built the fortress of Qaludhiya — and Constantine the tyrant came on with over a hundred thousand as far as Jayhan, heard of the Arabs' numbers and held back."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0757~", hijri: "0140~", calendar: julian, precision: year, status: tradition, derived: true, note: "الأمر سنة 139 والتوجه سنة 140 والفراغ في ستة أشهر (البلاذري ص 263–265). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/malatya }
+  - { type: had_participant, target: person/al-mansur, role: "الآمر بالبناء والمقطِع للجند", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-wahhab-ibn-ibrahim, role: "والي الجزيرة وثغورها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hasan-ibn-qahtaba, role: "المطعِم وحامل الحجر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salih-ibn-ali, role: "مأمور البناء الأول", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 263–265"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

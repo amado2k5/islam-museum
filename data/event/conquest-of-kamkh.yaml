@@ -1,0 +1,27 @@
+id: event/conquest-of-kamkh
+class: event
+kind: conquest
+label: { ar: "فتح حصن كَمْخ", en: "The Taking of Hisn Kamkh" }
+summary:
+  ar: "عند البلاذري: غزا حبيب بن مسلمة حصن كمخ بعد فتح شمشاط فلم يقدر عليه وغزاه صفوان فلم يمكنه فتحه، ثم غزاه صفوان في سنة 59 — وهي السنة التي مات فيها — ومعه عمير بن الحباب السلمي فعلا عمير سوره ولم يزل يجالد عليه وحده حتى كشف الروم وصعد المسلمون ففُتح لعمير بن الحباب وبذلك كان يفخر ويفاخر له؛ ثم إن الروم غلبوا عليه ففتحه مسلمة بن عبد الملك ولم يزل يفتح وتغلب عليه الروم حتى كانت سنة 149 شخص المنصور عن بغداد حتى نزل حديثة الموصل ثم أغزى منها الحسن بن قحطبة وبعده محمد بن الأشعث وجعل عليها العباس بن محمد وأمره أن يغزو بهم كمخ — فبات محمد بن الأشعث بآمد وسار العباس والحسن حتى صارا إلى ملطية فحملا منها الميرة ثم أناخا على كمخ وأمر العباس بنصب المجانيق عليه فجعلوا على حصنهم خشب العرعر لئلا يضر به حجارة المنجنيق ورموا المسلمين فقتلوا منهم بالحجارة مائتي رجل فاتخذ المسلمون الدبابات وقاتلوا قتالاً شديداً حتى فتحوه، وكان مع العباس مطر الوراق؛ ثم إن الروم أغلقوا كمخ فلما كانت سنة 177 غزا محمد بن عبد الله بن عبد الرحمن بن أبي عمرو الأنصاري — وهو عامل عبد الملك بن صالح على شمشاط — ففتحه ودخله لأربع عشرة ليلة خلت من ربيع الآخر، فلم يزل مفتوحاً حتى كان زمن محمد بن الرشيد فهرب أهله وغلبت عليه الروم — ويقال إن عبيد الله بن الأقطع دفعه إليهم — ثم إن عبد الله بن طاهر فتحه في خلافة المأمون فكان في أيدي المسلمين حتى لطف قوم من نصارى شمشاط ليقلّا وبقراط بن أشوط بطريق خلاط في دفعه إلى الروم والتقرب إليهم بذلك بسبب ضياع لهم في عمل شمشاط."
+  en: "In al-Baladhuri: Habib ibn Maslama raided the fortress of Kamkh after taking Shimshat without success, as did Safwan; then in year 59 — the year he died — Safwan raided it with Umayr ibn al-Habab al-Sulami, who scaled the wall and fought alone until the Byzantines gave way and the Muslims climbed — it fell to Umayr ibn al-Habab, his lasting glory; the Byzantines retook it, Maslama ibn Abd al-Malik took it again, and it kept changing hands until year 149, when al-Mansur marched from Baghdad to Hadithat al-Mawsil, sent al-Hasan ibn Qahtaba then Muhammad ibn al-Ash'ath, and set al-Abbas ibn Muhammad over the expedition against Kamkh — Muhammad ibn al-Ash'ath remaining at Amid — al-Abbas and al-Hasan reached Malatya, took provisions, camped on Kamkh, and al-Abbas ordered mangonels set; the defenders hung juniper wood over their fort so the stones would not bite, and stoned the Muslims killing two hundred men, whereupon the Muslims employed armoured shelters and fought bitterly until they took it — Matar al-Warraq was with al-Abbas; the Byzantines re-seized it, and in year 177 Muhammad ibn Abdallah ibn Abd al-Rahman ibn Abi Amr al-Ansari — Abd al-Malik ibn Salih's governor of Shimshat — took it, entering on the fourteenth of Rabi' II; it stayed Muslim until Muhammad ibn al-Rashid's time when its people fled — or, it is said, Ubaydallah ibn al-Aqta' handed it over — then Abdallah ibn Tahir took it in al-Ma'mun's caliphate, and it remained in Muslim hands until a group of Shimshat's Christians conspired with Yiqala and Baqrat ibn Ashut by way of Khilat to deliver it to the Byzantines over estates in the Shimshat district."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0678~", hijri: "0059", calendar: julian, precision: year, status: tradition, derived: true, note: "الفتح الكامل سنة 59 لعمير بن الحباب؛ ثم تعددت الفتوح 149 و177 وخلافة المأمون (البلاذري ص 260–261). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/hisn-kamkh }
+  - { type: had_participant, target: person/umayr-ibn-al-habab, role: "صعد السور وحده ففُتح له", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/safwan-ibn-al-muattal, role: "أمير الغزو سنة 59", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/maslama-ibn-abd-al-malik, role: "فتحه بعد غلبة الروم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-abbas-ibn-muhammad-ibn-ali, role: "أمير حصار سنة 149", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hasan-ibn-qahtaba, role: "في مقدمة غزاة سنة 149", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-allah-ibn-tahir, role: "فتحه في خلافة المأمون", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 259–261"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

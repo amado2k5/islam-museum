@@ -1,0 +1,24 @@
+id: event/michael-incursion-161
+class: event
+kind: raid
+label: { ar: "غارة ميخائيل على عمق مرعش سنة 161", en: "Michael's Incursion on the Mar'ash Depths, 161" }
+summary:
+  ar: "عند البلاذري حدثني محمد بن سعد عن الواقدي: خرج ميخائيل من درب الحدث في ثمانين ألفاً فأتى عمق مرعش فقتل وأحرق وسبى من المسلمين خلقاً وصار إلى باب مدينة مرعش وبها عيسى بن علي — وكان قد غزا في تلك السنة — فخرج إليه موالي عيسى وأهل المدينة ومقاتلتهم فرشقوه بالنبل والسهام فاستطرد لهم حتى إذا نحاهم عن المدينة كوّى عليهم فقتل من موالي عيسى ثمانية أنفس واعتصم الباقون بالمدينة فأغلقوها فحاصرهم بها ثم انصرف حتى نزل جيحان، وبلغ الخبر ثمامة بن الوليد العبسي وهو بدايق — وكان قد ولي الصائفة سنة 161 — فوجّه إليه خيلاً كثيفة فأُصيبوا إلا من نجا منهم، فأحفظ ذلك المهدي واحتفل لإغزاء الحسن بن قحطبة في العام المقبل وهو سنة 162."
+  en: "In al-Baladhuri — Muhammad ibn Sa'd told me from al-Waqidi: Michael came out of the Darb al-Hadath with eighty thousand, reached Amq Mar'ash killing, burning and taking captives of the Muslims, and came to the gate of Mar'ash, where Isa ibn Ali was — he having raided that year — so Isa's mawalis, the city folk and their fighters went out and shot him with arrows and darts; he feigned flight until he had drawn them from the city, then turned on them and killed eight of Isa's mawalis, the rest holding fast in the city which they shut, whereupon he besieged them then withdrew to Jayhan; word reached Thumama ibn al-Walid al-Absi at Dayq — he having been placed over that year's summer expedition, year 161 — who sent dense cavalry against him that were destroyed save those who escaped, which so grieved al-Mahdi that he made ready to send al-Hasan ibn Qahtaba raiding the next year, year 162."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0777~", hijri: "0161", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 161 (البلاذري ص 267). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/marash }
+  - { type: had_participant, target: person/isa-ibn-ali, role: "أمير مرعش يوم الغارة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mahdi, role: "المحتفِل للرد سنة 162", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hasan-ibn-qahtaba, role: "أمير الغزو المقبل", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 267"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

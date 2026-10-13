@@ -1,0 +1,26 @@
+id: event/conquest-of-shimshat
+class: event
+kind: conquest
+label: { ar: "فتح شمشاط", en: "The Conquest of Shimshat" }
+summary:
+  ar: "عند البلاذري: لما استخلف عثمان بن عفان كتب إلى معاوية بولاية الشام وولى عمير بن سعد الأنصاري الجزيرة ثم عزله وجمع لمعاوية الشام والجزيرة وثغورهما وأمره أن يغزو شمشاط — وهي أرمينية الرابعة — فوجّه إليها حبيب بن مسلمة الفهري وصفوان بن المعطل السلمي ففتحاها بعد أيام من نزولهما عليها على مثل صلح الرها، وأقام صفوان بها وبها توفي في آخر خلافة معاوية — ويقال بل غزاها معاوية نفسه وهذان معه فولّاها صفوان فأوطنها؛ وقد كان قسطنطين الطاغية أناخ عليها بعد نزوله في ملطية في سنة 133 فلم يمكنه فيها شيء فأغار على ما حولها ثم انصرف؛ ولم تزل شمشاط خراجية حتى صيّرها المتوكل على الله عشرية أسوة غيرها من الثغور."
+  en: "In al-Baladhuri: when Uthman ibn Affan acceded he wrote to Mu'awiya with Syria's governorship and gave Umayr ibn Sa'd al-Ansari the Jazira, then removed him and joined Syria, the Jazira and their frontier to Mu'awiya, ordering him to raid Shimshat — the fourth Armenia — so he sent Habib ibn Maslama al-Fihri and Safwan ibn al-Mu'attal al-Sulami, who took it days after arriving on the like of al-Ruha's treaty; Safwan settled it and died there late in Mu'awiya's caliphate — some say Mu'awiya himself raided it with the two and appointed Safwan, who made it home; Constantine the tyrant later camped on it after alighting at Malatya in year 133, gained nothing there, raided its environs and withdrew; Shimshat stayed kharaj-land until al-Mutawakkil made it tithe-land like the rest of the frontier."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0647~", hijri: "0027~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة عثمان بعد جمع الشام والجزيرة لمعاوية (البلاذري ص 259). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/shimshat }
+  - { type: part_of, target: event/conquest-of-jazira }
+  - { type: had_participant, target: person/habib-ibn-maslama, role: "أحد الفاتحَين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/safwan-ibn-al-muattal, role: "أحد الفاتحَين ثم أوطنها وتوفي بها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "الأمِر بالغزو والي الجزيرة والثغور", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "جامع الولاية لمعاوية", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 259"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

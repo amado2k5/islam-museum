@@ -1,0 +1,21 @@
+id: place/malatya
+class: place
+kind: city
+label: { ar: "ملطية", en: "Malatya (Melitene)" }
+summary:
+  ar: "ملطية من ثغور الجزيرة وطريق الصوائف؛ فتحها حبيب بن مسلمة عنوة أيام معاوية ورتّب فيها رابطة وشحنها معاوية بجماعة من أهل الشام والجزيرة، ثم هجّرها عمر بن عبد العزيز أهل طرندة إليها وولاّها جموّنة بن الحارث؛ صمدت لحصار عشرين ألفاً سنة 123 وفيه قاتلت نساؤها على السور، وسقطت لقسطنطين سنة 133 بهدنة الجلاء بين صفّي السيوف فهُدمت، ثم بناها المنصور سنة 140 في ستة أشهر على يدي عبد الوهاب بن إبراهيم والحسن بن قحطبة وأسكنها أربعة آلاف مقاتل جُزَري بزيادة عطاء وبنى لها مسلحتين وحصن قلوذية، وردّ إليها باقي أهلها سنة 141 برابطة محمد بن إبراهيم."
+  en: "Malatya (Melitene) of the Jaziran frontier, the summer-expedition road; Habib ibn Maslama took it by force in Mu'awiya's days, who garrisoned it with Syrians and Jazirans — later Umar ibn Abd al-Aziz moved Taranda's people into it under Jamwana ibn al-Harith; it held against a twenty-thousand-man siege in year 123 when its women fought atop the wall, fell to Constantine in year 133 by the evacuation truce between the sword-ranks and was demolished, then al-Mansur rebuilt it in six months in year 140 under Abd al-Wahhab ibn Ibrahim and al-Hasan ibn Qahtaba, settling four thousand Jaziran fighters on increased pay with two muslaha posts and the fortress of Qaludhiya; its remaining people returned in year 141 behind Muhammad ibn Ibrahim's garrison."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/fall-of-malatya, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/rebuilding-of-malatya, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 261–265"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

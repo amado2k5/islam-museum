@@ -1,0 +1,17 @@
+id: person/isa-ibn-ali
+class: person
+label: { ar: "عيسى بن علي بن عبد الله بن العباس", en: "Isa ibn Ali ibn Abdallah ibn al-Abbas" }
+summary:
+  ar: "عيسى بن علي بن عبد الله بن العباس؛ عند البلاذري عن الواقدي: كان بمرعش وقد غزا في تلك السنة حين خرج ميخائيل من درب الحدث في ثمانين ألفاً سنة 161 فصار إلى باب المدينة فخرج إليه موالي عيسى وأهل المدينة ومقاتلتهم فرشقوه بالنبل والسهام فاستطرد لهم ثم كوّى عليهم فقتل من مواليه ثمانية أنفس واعتصم الباقون بالمدينة فحاصرهم بها ثم انصرف إلى جيحان."
+  en: "Isa ibn Ali ibn Abdallah ibn al-Abbas; in al-Baladhuri from al-Waqidi: he was at Mar'ash — having led that year's raid — when Michael came out of the Darb al-Hadath with eighty thousand in year 161 and reached the city gate; Isa's mawalis, the townsfolk and their fighters went out, shot him with arrows, pursued when he feigned flight, then he turned on them and killed eight of Isa's mawalis before besieging the shut city and withdrawing to Jayhan."
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/michael-incursion-161, role: "أمير مرعش يوم الغارة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 267"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
