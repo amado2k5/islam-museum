@@ -1,0 +1,22 @@
+id: person/ahmad-ibn-mustafa-ibn-al-khawja
+class: person
+label: { ar: "أحمد بن مصطفى بن الخوجة", en: "Ahmad ibn Mustafa ibn al-Khawja" }
+names:
+  - { kind: full, lang: ar, value: "الحاج أحمد بن مصطفى بن الحاج المعقون" }
+gender: male
+roles: [historian, writer]
+traditions: [sunni]
+born: { edtf: "1664", hijri: "1074", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1726", hijri: "1138", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "صاحب تآليف متعددة، عاش في تونس، وكان من أصحاب المذهب الحنفي في تونس."
+  en: "The author of several works, who lived in Tunis; a Hanafi in Tunisian religious life."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 364, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص364", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
