@@ -16,3 +16,6 @@ Same as lib-tarikh-khulafa: read OCR page ranges, reuse existing entities (the F
 - Batch 1 (pushed): Mu'tazila five usul + naming (pp. 208-210), wasil-ibn-ata, amr-ibn-ubayd, works al-Maqalat/al-Ibana/al-Tanbih, wasf portraits enrichments (pp. 51-52, 204).
 - Batch 2 (pushed): al-Qahir's informant interrogation — caliph portraits & "firsts" (pp. 668-677), Zubayda/ayn-al-mushash/ghulamiyyat, Nawbakht/Ibrahim al-Fazari/Ali ibn Isa astrologers, Ibn Durayd.
 - [in progress] Vol 1 (011911): pre-Islamic universal history, nations, seas/geography, Jahiliyya religion, calendars, temples; caliphal half mostly overlaps earlier lanes — cherry-pick distinctive anecdotes only.
+- Batches 3–123 (pushed): vol 1 ethnography/religion/geography chapters + vol 2 caliph-by-caliph adab dossiers, Mu'awiya → al-Muti'.
+- Batch 124 (pushed): vol 2 colophon — author's warning and traveller's apology, pp. 750-751.
+- COMPLETE: both Dar al-Afriqiyya vols mined end to end (011911 to p721, 000944 to p751 colophon). Qumayha vol 1 and Mar'i scans are duplicate coverage of the same text — not mined separately. Lane finished at 13,536 validated entities, 0 errors.
