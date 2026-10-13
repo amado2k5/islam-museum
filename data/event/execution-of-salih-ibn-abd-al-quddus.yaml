@@ -1,0 +1,22 @@
+id: event/execution-of-salih-ibn-abd-al-quddus
+class: event
+kind: death
+label: { ar: "قتل صالح بن عبد القدوس" }
+summary:
+  ar: "رفع صالح بن عبد القدوس البصري إلى المهدي في الزندقة فأراد قتله فقال أتوب إلى الله وأنشده ما يبلغ الأعداء من جاهل ما يبلغ الجاهل من نفسه والشيخ لا يترك أخلاقه حتى يوارى في ثرى رمسه فصرفه فلما قرب من الخروج رده فقال ألم تقل والشيخ لا يترك أخلاقه قال بلى قال فكذلك أنت لا تدع أخلاقك حتى تموت ثم أمر بقتله {cite:tarikh-khulafa-minhaj-1434 p. 444}."
+  en: "Salih ibn Abd al-Quddus of Basra was denounced to al-Mahdi for zandaqa and the caliph meant to kill him; 'I repent to God,' he said, and recited: 'what foes inflict on a fool is less than the fool inflicts on himself — and the old man never leaves his ways until buried in the dust of his grave.' Released and nearly gone, he was called back: 'Did you not say the old man never leaves his ways?' 'Yes.' 'So you will not leave yours until you die' — and ordered his execution {cite:tarikh-khulafa-minhaj-1434 p. 444}."
+wings: [time, people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0775~", hijri: "0158~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافته؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 444}." }
+relations:
+  - { type: had_participant, target: person/al-mahdi, role: "الآمر بالقتل", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: event/mahdi-zindiq-inquisition, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 444"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-18
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
