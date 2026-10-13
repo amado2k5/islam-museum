@@ -1,0 +1,23 @@
+id: event/conquest-of-tabaristan
+class: event
+kind: conquest
+label: { ar: "فتح طبرستان", en: "Conquest of Tabaristan" }
+summary:
+  ar: "ولّى عثمان سعيد بن العاص الكوفة سنة تسع وعشرين فكتب مرزبان طوس إليه وإلى عبد الله بن عامر وهو على البصرة يدعوهما إلى خراسان على أن يملكه عليها أيهما غلب وظفر فخرج ابن عامر يريدها وخرج سعيد فسبقه ابن عامر فغزا سعيد طبرستان ومعه في غزاته فيما يقال الحسن والحسين ابنا علي وقيل غزاها بغير كتاب أتاه من أحد ففتح طميسة ونامنة وهي قرية وصالح ملك جرجان على مائتي ألف درهم."
+  en: "When Uthman made Sa'id ibn al-As governor of Kufa in 29 AH, the marzban of Tus wrote both him and Abdallah ibn Amir of Basra inviting them to Khurasan — whichever prevailed would hold it; Ibn Amir outstripped him, so Sa'id raided Tabaristan — with him, it is said, al-Hasan and al-Husayn the sons of Ali, though others say he raided on no writ at all — taking Tamisa and the village Namna and treating Jurjan's king for two hundred thousand dirhams."
+date:
+  start: { hijri: "0029", precision: year, status: tradition, note: "«في سنة 29»", sources: [source/futuh-buldan-maarif-1407] }
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/said-ibn-al-as, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hasan-ibn-ali, role: "فيما يقال من الغزاة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/husayn-ibn-ali, role: "فيما يقال من الغزاة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "السابق إلى خراسان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tabaristan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

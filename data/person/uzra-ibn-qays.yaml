@@ -1,0 +1,16 @@
+id: person/uzra-ibn-qays
+class: person
+label: { ar: "عزرة بن قيس", en: "Uzra ibn Qays" }
+summary:
+  ar: "عزرة بن قيس البحلي ويقال عرزة؛ كان والياً على حلوان في خلافة عمر فحاول فتح شهرزور فلم يقدر عليها ففتحها عتبة بن فرقد بعده."
+  en: "Uzra ibn Qays al-Bahili — some read Uraza; Umar's governor of Hulwan who tried Shahrazur and failed, before Utba ibn Farqad took it."
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/conquest-of-shahrazur }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

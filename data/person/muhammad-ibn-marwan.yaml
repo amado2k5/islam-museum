@@ -1,0 +1,16 @@
+id: person/muhammad-ibn-marwan
+class: person
+label: { ar: "محمد بن مروان", en: "Muhammad ibn Marwan" }
+summary:
+  ar: "محمد بن مروان بن الحكم؛ ولي الموصل والجزيرة وأرمينية وأذربيجان لأبيه مروان وكان صاحب شرطته ابن تليد الذي فرش الموصل بالحجارة وقال الواقدي ولاه عبد الملك الجزيرة وأرمينية وأخاه سعيداً الموصل."
+  en: "Muhammad ibn Marwan ibn al-Hakam; he governed Mosul, the Jazira, Armenia and Azerbaijan for his father Marwan, his police-chief Ibn Tulayd paving Mosul with stone — Waqidi has Abd al-Malik giving him the Jazira and Armenia and his brother Sa'id Mosul."
+periods: [period/umayyad]
+relations:
+  - { type: ruled_over, target: place/mosul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
