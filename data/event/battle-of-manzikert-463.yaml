@@ -1,0 +1,21 @@
+id: event/battle-of-manzikert-463
+class: event
+kind: battle
+label: { ar: "وقعة ملاذكرد وأسر ملك الروم" }
+summary:
+  ar: "في سنة ثلاث وستين كانت وقعة عظيمة بين الإسلام والروم ونصر المسلمون ولله الحمد ومقدمهم السلطان ألب أرسلان وأسر ملك الروم ثم أطلقه بمال جزيل وهادنه خمسين سنة ولما أطلق قال للسلطان أين جهة الخليفة فأشار له فكشف رأسه وأومأ إلى الجهة بالخدمة {cite:tarikh-khulafa-minhaj-1434 p. 647}."
+  en: "In 463 came the great battle between Islam and Byzantium — the Muslims victorious under sultan Alp Arslan; the Roman king was captured, then released for a vast ransom and a fifty-year truce. Freed, he asked 'where is the caliph's quarter?' — it was pointed out, and he uncovered his head and gestured service in its direction {cite:tarikh-khulafa-minhaj-1434 p. 647}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1071~", hijri: "0463", calendar: julian, precision: year, status: tradition, derived: true, note: "463؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 647}." }
+relations:
+  - { type: had_participant, target: person/alp-arslan, role: "السلطان المنتصر", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 646–657"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-39
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
