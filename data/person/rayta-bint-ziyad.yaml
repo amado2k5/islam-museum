@@ -1,0 +1,17 @@
+id: person/rayta-bint-ziyad
+class: person
+label: { ar: "ريطة بنت زياد", en: "Rayta bint Ziyad" }
+summary:
+  ar: "ريطة بنت زياد بن أبي سفيان؛ استأذنت في بناء حمام بالبصرة فأذن لها في جملة الإذن بعد فشو غلة حمام مسلم بن أبي بكرة."
+  en: "Rayta bint Ziyad ibn Abi Sufyan; she took leave to build a Basra bathhouse in the permission-wave after Muslim ibn Abi Bakra's yield broke."
+gender: female
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/ziyad-ibn-abi-sufyan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

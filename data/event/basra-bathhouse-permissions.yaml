@@ -1,0 +1,19 @@
+id: event/basra-bathhouse-permissions
+class: event
+kind: other
+label: { ar: "إذن الحمامات بالبصرة", en: "The Basra Bathhouse Permissions" }
+summary:
+  ar: "كان مسلم بن أبي بكرة يغتال من حمامه في كل يوم ألف درهم وطعاماً كثيراً فلما مرض أوصى إلى أخيه عبد الرحمن وأخبره بغلة حمامه فأفشى ذلك واستأذن السلطان في بناء حمام فأذن له وكانت الحمامات لا تبنى بالبصرة إلا بإذن الولاة فاستأذن عبيد الله بن أبي بكرة والحكم بن أبي العاص وسياه الأسواري والحصين بن أبي الحر العنبري وريطة بنت زياد ولبابة بنت أوفى الجرشي في حمامين والمنجاب بن راشد الضبي فأذن لهم وأفاق مسلم من مرضه وقد فسدت عليه غلة حمامه فجعل يلوم عبد الرحمن ويقول ما له قطع الله رحمه."
+  en: "Muslim ibn Abi Bakra drew a thousand dirhams and much food daily from his bathhouse; sick, he willed it to his brother Abd al-Rahman and told him the yield — who disclosed it and asked the Sultan's leave to build his own, baths being built at Basra only by the governors' permission. Leave followed for Ubaydallah ibn Abi Bakra, al-Hakam ibn Abi al-As, Siyah al-Uswari, al-Husayn ibn Abi al-Hurr al-Anbari, Rayta bint Ziyad, Lababa bint Awfa al-Jarashi for two, and al-Munjab ibn Rashid; Muslim recovered to find his yield ruined and kept saying 'may God cut his mercy'."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muslim-ibn-abi-bakra, role: "صاحب الحمام", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-abi-bakra, role: "المفشي للغلة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

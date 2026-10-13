@@ -1,0 +1,17 @@
+id: person/muslim-ibn-abi-bakra
+class: person
+label: { ar: "مسلم بن أبي بكرة", en: "Muslim ibn Abi Bakra" }
+summary:
+  ar: "مسلم بن أبي بكرة؛ صاحب ثالث حمام بالبصرة في بلالاباذ كان يغتال منه كل يوم ألف درهم وطعاماً كثيراً وقال له أبوه يا بني والله ما تلي عملاً وما أراك تقصر عن إخوتك في النفعة فأوصى به لأخيه عبد الرحمن فأفشى غلته وأذن للناس في الحمامات فقال ما له قطع الله رحمه."
+  en: "Muslim ibn Abi Bakra; owner of Basra's third bathhouse at Bilalabadh yielding a thousand dirhams and much food daily — his father telling him 'you do no deed yet lack no profit' — whose deathbed trust his brother Abd al-Rahman broke by opening the bathhouse permissions."
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/abu-bakra }
+  - { type: participated_in, target: event/basra-bathhouse-permissions }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
