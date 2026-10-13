@@ -1,0 +1,23 @@
+id: event/muqtadir-deposition-restoration-317
+class: event
+kind: mutiny
+label: { ar: "خلع المقتدر لمؤنس ورد الجند إياه" }
+summary:
+  ar: "في سنة سبع عشرة خرج مؤنس الخادم الملقب بالمظفر على المقتدر لكونه بلغه أنه يريد أن يولي إمرة الأمراء هارون بن غريب مكانه وركب معه سائر الجيش وجاؤوا إلى دار الخلافة وأخرج المقتدر ليلة أربع عشر المحرم ونهب لأمه ست مئة ألف دينار وأشهد على نفسه بالخلع وأحضر محمد بن المعتضد فبايعه مؤنس والأمراء ولقبوه القاهر بالله وفوضت الوزارة إلى ابن مقلة، وجلس القاهر يوم الأحد وعمل الموكب يوم الاثنين فجاء العسكر يطلبون رزق البيعة ورزق سنة فقتلوا الحاجب ومالوا إلى دار مؤنس يطلبون المقتدر ليردوه فحملوه على أعناقهم إلى قصر الخلافة وأخذ القاهر فجيء به وهو يبكي يقول الله الله في نفسي فقبَّله المقتدر وقال أنت والله لا ذنب لك فطب نفساً {cite:tarikh-khulafa-minhaj-1434 p. 591-592}."
+  en: "In 317 Mu'nis al-Muzaffar rose on al-Muqtadir — the caliph meant to give the amirate to Harun ibn Gharib — marched the whole army to the palace, dragged the caliph out on the night of 14 Muharram, looted six hundred thousand dinars from his mother, made him witness his own deposition, and hailed Muhammad ibn al-Mu'tadid as al-Qahir with Ibn Muqla as vizier. Two days later the soldiers came demanding the accession bounty, killed the chamberlain, carried al-Muqtadir back on their necks, and brought al-Qahir weeping 'God, God, for my life' — al-Muqtadir kissed him: 'you have no sin' {cite:tarikh-khulafa-minhaj-1434 p. 591-592}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0929~", hijri: "0317", calendar: julian, precision: year, status: tradition, derived: true, note: "317؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 591}." }
+relations:
+  - { type: had_participant, target: person/muanis-al-muzaffar, role: "الخارج على الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-qahir-billah, role: "الخليفة اليومان", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-muqtadir-billah, role: "المخلوع المردود", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 581–594"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-33
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/ibn-al-mutazz-caliphate-296
+class: event
+kind: civil-war
+label: { ar: "خلع المقتدر الأول وبيعة ابن المعتز" }
+summary:
+  ar: "في العشرين من ربيع الأول سنة ست ركب الخلعاء والمقتدر يلعب الأكرة فهرب وأغلقت الأبواب وقتل الوزير العباس بن الحسن وجماعة وأرسل إلى ابن المعتز فحضر القواد والقضاة والأعيان فبايعوه بالخلافة ولقبوه الغالب بالله واستوزر محمد بن داوود بن الجراح واستقضى أبا المثنى أحمد بن يعقوب ونفذت الكتب بخلافته، ثم ألقى الله في قلوبهم الرعب فانصرفوا بلا قتال وهرب ابن المعتز ووقع النهب والقتل في بغداد وقبض على الفقهاء والأمراء الذين خلعوه فقتلوا إلا أربعة وحبس ابن المعتز ثم أخرج ميتاً {cite:tarikh-khulafa-minhaj-1434 p. 585-586}."
+  en: "On 20 Rabi' I 296, while al-Muqtadir played polo, the conspirators struck: the vizier al-Abbas ibn al-Hasan was killed and Ibn al-Mu'tazz was brought in, hailed caliph as 'al-Ghalib bi'llah', with Muhammad ibn Dawud ibn al-Jarrah as vizier and Abu al-Muthanna as qadi. The next day terror fell on them — they scattered without a fight; Ibn al-Mu'tazz fled, was imprisoned, then brought out dead {cite:tarikh-khulafa-minhaj-1434 p. 585-586}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0909~", hijri: "0296", calendar: julian, precision: year, status: tradition, derived: true, note: "296؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 585}." }
+relations:
+  - { type: had_participant, target: person/ibn-al-mutazz, role: "الخليفة اليوم الواحد", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-muqtadir-billah, role: "المخلوع", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 581–594"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-33
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
