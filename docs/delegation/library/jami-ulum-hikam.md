@@ -40,4 +40,8 @@
 
 **Flags:** none yet. Creed/fiqh differences inside the commentary (e.g. hadith 1 on intention and madhhab rulings, hadith 3 on arkan al-islam, bid'a in hadith 28) will need `perspectives` where schools differ; attribute every grading to its grader, never the museum's voice.
 
-**Next:** batch 12 — hadiths 31–33 (pp. 639–697): verify headings against OCR (h31 p. 639, h32 p. 667, h33 p. 684).
+- (12 Oct 2026) Batch 12: hadiths 31–33 (pp. 639–697): `passage/arbaun-31` (Sahl b. Sa'd — ازهد في الدنيا; Ibn Majah 4102; Nawawi's hasan challenged — Khalid b. Amr al-Qurashi denounced by Ahmad/Ibn Ma'in/Bukhari/Abu Zur'a/Abu Hatim, Ibn Hibban's contradiction, Uqayli's no-basis ruling + followers Muhammad b. Kathir/Abu Qatada/Mihran), `passage/arbaun-32` (Abu Sa'id — لا ضرر ولا ضرار; mursal in Muwatta' per all transmitters (Ibn Abd al-Barr), Uthman al-Darawardi musnad route with critics' verdicts), `passage/arbaun-33` (Ibn Abbas — bayyina/yamin rule; Bayhaqi hasan wording via Ibn al-Salah; Sahihayn + Isma'ili routes); new `person/sahl-ibn-sad-al-saidi` (stub removed), `concept/zuhd` (Abu Muslim al-Khawlani's preferred mawquf definition + salaf definitions + Ibrahim b. Adham threefold, pp. 643–649), `concept/la-darar`, `concept/bayyina`.
+
+**Flags:** none yet. Creed/fiqh differences inside the commentary (e.g. hadith 1 on intention and madhhab rulings, hadith 3 on arkan al-islam, bid'a in hadith 28) will need `perspectives` where schools differ; attribute every grading to its grader, never the museum's voice.
+
+**Next:** batch 13 — hadiths 34–36 (pp. 698–730): verify headings (h34 p. 698, h35 p. 710, h36 p. 731).
