@@ -1,0 +1,25 @@
+id: event/abbasid-khutba-egypt-567
+class: event
+kind: other
+label: { ar: "قطع الخطبة العبيدية وإقامة الخطبة العباسية بمصر" }
+summary:
+  ar: "قال العماد الكاتب استفتح السلطان صلاح الدين بن أيوب سنة سبع بجامع مصر كل طاعة وسمع وهو إقامة الخطبة في الجمعة الأولى منها بمصر لبني العباس وعفت البدعة وصفت الشرعة وأقيمت الخطبة العباسية في الجمعة الثانية بالقاهرة وأعقب ذلك موت العاضد في يوم عاشوراء وتسلم صلاح الدين القصر بما فيه من الذخائر والنفائس بحيث استمر البيع فيه عشر سنين غير ما اصطفاه صلاح الدين لنفسه وسير السلطان نور الدين بهذه البشارة شهاب الدين المطهر ابن أبي عصرون إلى بغداد وأمرني بإنشاء بشارة عامة تقرأ في سائر بلاد الإسلام، وقال ابن الأثير السبب في إقامة الخطبة العباسية بمصر أن صلاح الدين لما ثبت قدمه وضعف أمر العاضد كتب إليه نور الدين يأمره بذلك فاعتذر بالخوف من وثوب المصريين فلم يصغ إلى قوله وكان قد دخل مصر أعجمي يعرف بالأمير العالم فلما رأى ما هم فيه من الإحجام قال أنا أبتدىء بها فلما كان أول جمعة من المحرم صعد المنبر قبل الخطيب ودعا للمستضيء فلم ينكر ذلك أحد فلما كان الجمعة الثانية أمر صلاح الدين الخطباء بقطع خطبة العاضد ففعل ذلك ولم ينتطح فيها عنزان والعاضد شديد المرض فتوفي في يوم عاشوراء، وفي أيامه ضعف الرفض ببغداد وخطب له باليمن وبرقة وتوزر ومصر إلى أسوان، وصنف ابن الجوزي كتاباً سماه النصر على مصر {cite:tarikh-khulafa-minhaj-1434 p. 681-683}."
+  en: "Al-Imad al-Katib: Salah al-Din opened the year 567 with Egypt's greatest obedience — the Abbasid khutba, first Jumu'a at Fustat's mosque, the second at Cairo; al-Adid died that Ashura, and the palace's treasures sold for ten years. Shihab al-Din ibn Abi Asrun bore the news to Baghdad, and al-Imad wrote a general proclamation read across the lands of Islam — 'no minbar remains in those lands but the khutba for our lord al-Mustadi' is upon it'. Ibn al-Athir adds: Nur al-Din ordered it, Salah al-Din feared an Egyptian rising, and the Ajami called al-Amir al-Alim mounted the minbar before the khatib and prayed for al-Mustadi' — 'not two goats butted over it'. The khutba spread to Yemen, Barqa, Tawzar and Egypt to Aswan; Ibn al-Jawzi wrote his book al-Nasr ala Misr {cite:tarikh-khulafa-minhaj-1434 p. 681-683}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1171-09~", hijri: "0567-01", calendar: julian, precision: month, status: tradition, derived: true, note: "محرم 567؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 682-683}." }
+relations:
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "القائم بها", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-mustadi-billah, role: "الخليفة المخطوب له", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-adid-fatimid, role: "آخر الخلفاء العبيديين", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, role: "الآمر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/al-fustat, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 675–685"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-42
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/saladin-cairo-wall-citadel-572
+class: event
+kind: other
+label: { ar: "بناء سور مصر وقلعة الجبل" }
+summary:
+  ar: "في سنة اثنتين وسبعين أمر صلاح الدين ببناء السور الأعظم المحيط بمصر والقاهرة وجعل على بنائه الأمير بهاء الدين قراقوش وقال ابن الأثير دوره تسعة وعشرون ألف ذراع وثلاث مئة ذراع بالهاشمي، وفيها أمر بإنشاء قلعة بجبل المقطم وهي التي صارت دار السلطنة ولم تتم إلا في أيام السلطان الملك الكامل ابن أخي صلاح الدين وهو أول من سكنها، وبنى صلاح الدين تربة الإمام الشافعي {cite:tarikh-khulafa-minhaj-1434 p. 684-685}."
+  en: "In 572 Salah al-Din ordered the great wall girding Fustat and Cairo — Baha' al-Din Qaraqush over its building, 29,300 Hashimi cubits round — and the citadel on the Muqattam mount, seat of sultans finished only under al-Malik al-Kamil, its first dweller. He also built Imam al-Shafi'i's turba {cite:tarikh-khulafa-minhaj-1434 p. 684-685}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1176~", hijri: "0572", calendar: julian, precision: year, status: tradition, derived: true, note: "572؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 684}." }
+relations:
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "الآمر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/bahaa-al-din-qaraqush, role: "المهندس", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 675–685"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-42
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
