@@ -44,4 +44,8 @@
 
 **Flags:** none yet. Creed/fiqh differences inside the commentary (e.g. hadith 1 on intention and madhhab rulings, hadith 3 on arkan al-islam, bid'a in hadith 28) will need `perspectives` where schools differ; attribute every grading to its grader, never the museum's voice.
 
-**Next:** batch 13 — hadiths 34–36 (pp. 698–730): verify headings (h34 p. 698, h35 p. 710, h36 p. 731).
+- (12 Oct 2026) Batch 13: hadiths 34–36 (pp. 698–753): `passage/arbaun-34` (Abu Sa'id — change evil by hand/tongue/heart; Muslim 49; Marwan's Eid-sermon occasion; Ibn Masud's mustard-seed parallel), `passage/arbaun-35` (Abu Hurayra — لا تحاسدوا + brotherhood; Muslim 2564; the unnamed mawla Abu Sa'id — Ibn Hibban vs Ibn al-Madini; al-Thawri's Sa'id b. Yasar slip corrected by Ahmad/Yahya/Daraqutni), `passage/arbaun-36` (Abu Hurayra — relieving distress + path of knowledge; Muslim 2699; al-A'mash/Asbat ilal discussion — Tirmidhi prefers Asbat; the aqala addition); new `concept/ukhuwwa`, `concept/hasad`, `concept/ilm`, `concept/satr`; `concept/amr-nahy` extended with the three grades.
+
+**Flags:** none yet. Creed/fiqh differences inside the commentary (e.g. hadith 1 on intention and madhhab rulings, hadith 3 on arkan al-islam, bid'a in hadith 28) will need `perspectives` where schools differ; attribute every grading to its grader, never the museum's voice.
+
+**Next:** batch 14 — hadiths 37–39 (pp. 754–809): verify headings (h37 p. 754, h38 p. 770, h39 p. 796).
