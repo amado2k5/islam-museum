@@ -1,0 +1,25 @@
+id: event/battle-of-nihawand
+class: event
+kind: battle
+label: { ar: "يوم نهاوند فتح الفتوح", en: "The Battle of Nihawand (Fath al-Futuh)" }
+summary:
+  ar: "عند البلاذري: لما هرب يزدجرد من حلوان في سنة 19 تكاتبت الفرس وأهل الري وقومس وأصبهان وهمذان والماهين وتجمعوا إلى يزدجرد وذلك في سنة 20 فأمر عليهم مردانشاه ذا الحاجب وأخرجوا رايتهم الدرفشكابيان وكانت عدة المشركين يومئذ ستين ألفاً ويقال مائة ألف وقد كان عمار بن ياسر كتب إلى عمر بخبرهم فهم أن يغزوهم بنفسه ثم خاف أن ينتشر أمر العرب بنجد وغيرها وأشير عليه بأن يغزي أهل الشام من شامهم وأهل اليمن من يمنهم فخاف إن فعل ذلك أن تعود الروم إلى أوطانها فكتب إلى أهل الكوفة يأمرهم أن يسير ثلثاهم ويبقى ثلثهم لحفظ بلدهم وديارهم وبعث من أهل البصرة بعثاً وقال لأستعمطن رجلاً يكون لأول ما يلقاه من الأسنة فكتب إلى النعمان بن عمرو بن مقرن المزني وكان مع السائب بن الأقرع الثقفي بتوليته الجيش وقال إن أصبت فالأمير حذيفة بن اليمان فإن أصيب فجرير بن عبد الله البجلي فإن أصيب فالمغيرة بن شعبة فإن أصيب فالأشعث بن قيس وكان النعمان عاملاً على كسكر وناحيتها ويقال بل كان بالمدينة فولاه عمر أمر هذا الجيش فشخص منها وعن معقل بن يسار أن عمر شاور الهرمزان فسأله ما ترى أنبدأ بأصبهان أو بأذربيجان فقال الهرمزان أصبهان الرأس وأذربيجان الجناحان فإن قطعت الرأس سقط الجناحان والرأس فدخل عمر المسجد فبصر النعمان بن مقرن فقام إلى جنبه فلما قضى صلاته قال أما إني سأستعملك فقال النعمان أما جابياً فلا ولكن غازياً قال فأنت غاز فأرسله وكتب إلى أهل الكوفة أن يمدوه فأمدوه وفيهم المغيرة بن شعبة."
+  en: "In al-Baladhuri: when Yazdgard fled Hulwan in year 19, the Persians and the people of Rayy, Qumis, Isbahan, Hamadhan and the Mahayn corresponded and gathered to him in year 20 — he set over them Mardanshah Dhu al-Hajib and they brought out their banner, the Dirafsh-i Kabiyan; the host numbered sixty thousand, some say a hundred thousand. Ammar ibn Yasir had written Umar their news; Umar meant to march himself, then feared the Arabs' affairs scattering through Najd and beyond, and when advised to send each province's people to their own frontier feared the Romans would return to their homes — so he wrote Kufa ordering two-thirds to march and a third to stay guarding their town and homes, sent a Basra detachment, and said 'I shall surely squeeze forth a man to be the first met by the spearheads,' writing to al-Nu'man ibn Amr ibn Muqarrin al-Muzani — then with al-Sa'ib ibn al-Aqra' al-Thaqafi — charging him with the army: 'if you are struck, the commander is Hudhayfa ibn al-Yaman; if he falls, Jarir ibn Abdallah; if he falls, al-Mughira ibn Shu'ba; if he falls, al-Ash'ath ibn Qays.' Al-Nu'man was governor over Kaskar and its district — or, it is said, was at Medina when Umar gave him the army. Ma'qil ibn Yasar relates that Umar consulted al-Hurmuzan: 'do we begin with Isbahan or Adharbayjan?' — 'Isbahan is the head and Adharbayjan the two wings; cut the head and the wings fall.' Umar entered the mosque, sighted al-Nu'man ibn Muqarrin, stood beside him, and after the prayer said 'I am employing you' — 'not as a tax-gatherer, but as a ghazi' — 'you are a ghazi, then'; he sent him and wrote Kufa to reinforce him, al-Mughira among them."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [persia-central-asia, levant-iraq]
+relations:
+  - { type: occurred_at, target: place/nihawand }
+  - { type: had_participant, target: person/al-numan-ibn-muqarrin, role: "أمير الجيش", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/dhu-al-hajib-mardanshah, role: "أمير الفرس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الموجه بالحملة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hudhayfa-ibn-al-yaman, role: "الخليفة الثاني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hormuzan, role: "صاحب مشورة الرأس والجناحين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "من قواد الكوفة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 424–425"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-41
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
