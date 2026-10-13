@@ -1,0 +1,22 @@
+id: person/ibn-al-arabi-ahmad
+class: person
+label: { ar: "ابن الأعرابي أحمد بن محمد", en: "Ibn al-A'rabi, Ahmad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن محمد بن زياد بن بشر بن درهم أبو سعيد الأعرابي" }
+gender: male
+roles: [muhaddith, historian, mystic]
+traditions: [sunni]
+born: { edtf: "0861", hijri: "0246", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0952", hijri: "0340", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "إمام محدّث حافظ ومؤرخ وزاهد وصوفي من أهل البصرة، من العلماء بالحديث والطبقات."
+  en: "A hadith scholar, memorizer, historian and ascetic Sufi from Basra, learned in hadith and biographical classes."
+wings: [people, words]
+themes: [scripture-and-its-sciences, spirituality-and-sufism]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 153, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص153", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

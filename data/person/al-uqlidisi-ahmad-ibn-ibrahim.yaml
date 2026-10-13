@@ -1,0 +1,21 @@
+id: person/al-uqlidisi-ahmad-ibn-ibrahim
+class: person
+label: { ar: "الإقليدسي أحمد بن إبراهيم", en: "Al-Uqlidisi, Ahmad ibn Ibrahim" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن أحمد بن إبراهيم الملقب بالإقليدسي" }
+gender: male
+roles: [mathematician]
+traditions: [sunni]
+died: { edtf: "0980", hijri: "0370", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "رياضي، يرجح أنه عاش بدمشق، ولقبه الإقليدسي يرتبط بالكتاب الذي يُنسب إلى إقليدس."
+  en: "A mathematician who probably lived in Damascus. His laqab al-Uqlidisi is linked to the Euclid text he copied and studied."
+wings: [people, words]
+themes: [mathematics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 255, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص255", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

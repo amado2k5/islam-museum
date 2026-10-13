@@ -1,0 +1,22 @@
+id: person/al-anbari-abd-al-rahman
+class: person
+label: { ar: "الأنباري عبد الرحمن بن محمد", en: "Al-Anbari, Abd al-Rahman ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بن أبي الوفاء محمد بن عبيد الله الأنباري" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1119", hijri: "0513", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1181", hijri: "0577", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم من أهل الأنبار على نهر الفرات، ولُقب كمال الدين، وتوفي سنة 577هـ."
+  en: "A scholar from al-Anbar on the Euphrates, known as Kamal al-Din. He died in 577 AH."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. scholar, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 صscholar", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,21 @@
+id: person/ibn-abi-usaybia-ahmad
+class: person
+label: { ar: "ابن أبي أصيبعة أحمد بن القاسم", en: "Ibn Abi Usaybi'a, Ahmad ibn al-Qasim" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن القاسم بن خليفة بن يونس السعدي الخزرجي" }
+gender: male
+roles: [physician, historian]
+traditions: [sunni]
+died: { edtf: "1270~", hijri: "0668", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب ومؤرخ للطب من أسرة دمشقية، وصنّف «عيون الأنباء في طبقات الأطباء»."
+  en: "A physician and historian of medicine from a Damascene family, author of ʿUyun al-Anba' fi Tabaqat al-Atibba'."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 131, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص131", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

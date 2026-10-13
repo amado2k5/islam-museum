@@ -1,0 +1,22 @@
+id: person/al-awzai-abd-al-rahman
+class: person
+label: { ar: "الأوزاعي عبد الرحمن بن عمرو", en: "Al-Awza'i, Abd al-Rahman ibn Amr" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بن عمرو بن يُحمد الأوزاعي أبو عمرو" }
+gender: male
+roles: [jurist, muhaddith]
+traditions: [sunni]
+born: { edtf: "0706", hijri: "0088", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0773", hijri: "0157", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "إمام الشام وفقيهها الأول في زمانه، واختلف المؤرخون في أصل نسبته إلى الأوزاع."
+  en: "The imam and foremost jurist of Syria in his time. Historians differ on the origin of his nisba al-Awza'i."
+wings: [people, words]
+themes: [development-of-law-theology-institutions, scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. jurist, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 صjurist", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
