@@ -1,0 +1,23 @@
+id: event/tai-deposition-381
+class: event
+kind: other
+label: { ar: "خلع الطائع وتولية القادر" }
+summary:
+  ar: "في سنة إحدى وثمانين قبض على الطائع وسببه أنه حبس رجلاً من خواص بهاء الدولة فجاء بهاء الدولة وقد جلس الطائع في الرواق متقلداً سيفاً فلما قرب بهاء الدولة قبل الأرض وجلس على الكرسي وتقدم أصحاب بهاء الدولة فجذبوا الطائع من سريره وتكاثر عليه الديلم فلفوه في كساء وأصعدوه إلى دار السلطان وارتج البلد ورجع بهاء الدولة إلى داره وكتب على الطائع كتاباً بخلع نفسه وأنه سلم الأمر إلى القادر بالله وشهد عليه الأكابر والأشراف وذلك في تاسع عشر شعبان ونفذ إلى القادر بالله ليحضر وهو بالبطيحة واستمر الطائع في دار القادر مكرماً محترماً في أحسن حال حتى أنه حمل إليه ليلة شمعة قد أوقد نصفها فأنكر ذلك فحملوا إليه غيرها إلى أن مات ليلة عيد الفطر سنة ثلاث وتسعين وصلى عليه القادر وشيعه الأكابر والخدم ورثاه الشريف الرضي وكان شديد الانحراف على آل أبي طالب وسقطت الهيبة في أيامه جداً حتى هجاه الشعراء {cite:tarikh-khulafa-minhaj-1434 p. 631-632}."
+  en: "In 381 al-Ta'i' was seized — for jailing one of Baha' al-Dawla's intimates: the Daylamites dragged him from his throne, wrapped him in a cloak and bore him off while the city shook; they wrote on him his self-deposition for al-Qadir, witnessed by the grandees on 19 Sha'ban. He lived honoured in al-Qadir's house — once complaining when brought a half-burnt candle — till he died on Fitr night 393, al-Qadir praying over him and al-Sharif al-Radi elegising him; he was fiercely set against the Alids, and awe fell so low in his days the poets satirised him {cite:tarikh-khulafa-minhaj-1434 p. 631-632}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0991~", hijri: "0381", calendar: julian, precision: year, status: tradition, derived: true, note: "381؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 632}." }
+relations:
+  - { type: had_participant, target: person/baha-al-dawla, role: "الخالع", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-tai-billah, role: "المخلوع", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "الخليفة الجديد", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-37
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
