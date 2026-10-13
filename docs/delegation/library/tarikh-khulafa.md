@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-27** (pp. 528–537 — al-Wathiq): new `event/ashinas-sultanate-228` (first sultan), `killing-of-ahmad-ibn-nasr` (the martyr, head on the cross 6 yrs), `wathiq-captive-ransom-231` (Ibn Abi Du'ad's creed test), `death-of-wathiq` (the rat), `person/ahmad-ibn-nasr-al-khuzai`, `abd-allah-ibn-muhammad-al-azdi` (the syllogism that ended the mihna), `abu-muhallim`; enriched `al-wathiq` (al-Ma'mun al-Asghar, golden khwan), `ashinas-al-turki`, `ahmad-ibn-abi-duad`.
+
 - **Batch TK-26** (pp. 520–527 — al-Mu'tasim): new `event/death-of-mutasim` (11 Rabi' I 227, the Andalus plan), `person/dib-l-al-khuzai` (the lampoon), `abu-tammam`, `ahmad-ibn-abi-duad`, `ahmad-ibn-al-khasib`, `muhammad-ibn-abd-al-malik-al-zayyat`; enriched `conquest-of-amorium` (30k/30k, astrologers, Abu Tammam's ode), `founding-of-samarra` ("سهام الأسحار", first Turks in the diwan), `mihna-of-the-quran` (Ibn Hanbal flogged 220), `al-mutasim-abi-ishaq` (al-Muthamman, "الجواب ما ترى لا ما تسمع"), `ahmad-ibn-hanbal`. Also repaired 31 files where an enrich helper had appended into `label.ar`/`label.en` instead of `summary.ar` (commit 0836adfd + ahmad-ibn-hanbal here).
 
 - **Batch TK-25** (pp. 498–519 — al-Ma'mun anecdotes): new `event/abbasid-census-200` (33,000 Abbasids), `person/nadr-ibn-shumayl` (sadad/sidad, 80k), `yahya-ibn-aktham`, `abu-al-salt-abd-al-salam-ibn-salih`, `muhammad-ibn-ziyad-al-arabi` (Banat Tariq); enriched `abd-allah-al-mamun` (Khariji ijma' debate, minbar hadith).
