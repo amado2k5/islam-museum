@@ -10,7 +10,7 @@ roles: [companion, general, politician]
 traditions: [sunni]
 summary:
   en: "A Meccan diplomat who opposed the Muslims until 629–630, then converted and became the commander who conquered Egypt — and later Mu'awiya's chief ally in the first civil war."
-  ar: "دبلوماسي مكي عارض المسلمين حتى 629–630م ثم أسلم وصار القائد الذي فتح مصر، وبعدها حليف معاوية الأول في الفتنة الأولى."
+  ar: "دبلوماسي مكي عارض المسلمين حتى 629–630م ثم أسلم وصار القائد الذي فتح مصر، وبعدها حليف معاوية الأول في الفتنة الأولى.، وحكي عنه حين كان بمصر أنه رام حفر طريق بين بحر القلزم وبحر الروم فمنعه منه عمر بن الخطاب مخافة أن تنتهي مراكب الروم إلى بحر الحجاز فتطرح سراياها مما يلي جدة {cite:muruj-al-dhahab p. 558}"
 wings: [people]
 themes: [wars-and-campaigns, converts-and-leavers, civil-wars-and-revolts]
 periods: [period/prophetic-era, period/rashidun, period/umayyad]
@@ -32,5 +32,5 @@ relations:
   - { type: converted_under, target: person/muhammad, start: { edtf: "0629" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/conquest-of-egypt, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: allied_with, target: person/muawiya-ibn-abi-sufyan, start: { edtf: "0657~" }, sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume]
+sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/muruj-al-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
