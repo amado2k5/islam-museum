@@ -1,0 +1,17 @@
+id: event/rutbil-umayyad-defiance
+class: event
+kind: other
+label: { ar: "امتناع رتبيل عن أتاوة العمال", en: "Rutbil's Refusal of the Governors' Tribute" }
+summary:
+  ar: "لم يعط رتبيل عمال يزيد بن عبد الملك شيئاً وقيل له ما فعل قوم كانوا يأتونا خماص البطون سود الوجوه من الصلاة نعالهم خوص قالوا انقرضوا قال أولئك أوفى منكم عهداً وأشد بأساً وإن كنتم أحسن منهم وجوهاً وقيل له ما بالك كنت تعطي الحجاج الأتاوة ولا تعطيناها فقال كان الحجاج رجلاً لا ينظر فيما أنفق إذا ظفر ببغيته ولو لم يرجع إليه درهم وأنتم لا تنفقون درهماً إلا إذا طمعتم في أن يرجع إليكم مكانه عشرة ثم لم يعط أحداً من عمال بني أمية ولا عمال ابن الزبير على سجستان من تلك الأتاوة شيئاً."
+  en: "To Yazid ibn Abd al-Malik's men Rutbil paid nothing. Asked what had become of the folk who used to come 'hollow-bellied, faces blackened by prayer, sandals of palm-fibre' — 'they are gone' — 'those were your betters in covenant and might, though you have fairer faces'. And why he paid al-Hajjaj but not them: 'al-Hajjaj never looked at what he spent once he won his purpose, though not a dirham returned; you never spend a dirham unless you hope ten come back for it'. Neither Umayyad nor Zubayrid governors of Sijistan took that atawa from him."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/rutbil, role: "القائل", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
