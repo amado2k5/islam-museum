@@ -1,0 +1,22 @@
+id: event/franks-damietta-616
+class: event
+kind: siege
+label: { ar: "أخذ الفرنج دمياط وبناء المنصورة" }
+summary:
+  ar: "في سنة خمس عشرة وست مئة أخذت الفرنج من دمياط برج السلسلة وقال أبو شامة وهذا البرج كان قفل الديار المصرية وهو برج عال في وسط النيل وفي ناحيته سلسلتان تمتد إحداهما على النيل إلى دمياط والأخرى إلى الجيزة يمنعان عبور المراكب من البحر المالح، وفي سنة ست عشرة أخذت الفرنج دمياط بعد حروب ومحاصرات وضعف الملك الكامل عن مقاومتهم فبدعوا فيها وجعلوا الجامع كنيسة فابتنى الملك الكامل مدينة عند مفرق البحرين وسماها المنصورة وبنى عليها سوراً ونزلها بجيشه {cite:tarikh-khulafa-minhaj-1434 p. 696}."
+  en: "In 615 the Franks took Damietta's chain-tower — 'the lock of Egypt's lands', says Abu Shama, a tall tower mid-Nile with two chains barring the salt sea to ships. The next year they took Damietta itself after sieges — al-Kamil too weak to resist — made its mosque a church, while he founded al-Mansura at the seas' fork and camped his army there {cite:tarikh-khulafa-minhaj-1434 p. 696}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1219~", hijri: "0616", calendar: julian, precision: year, status: tradition, derived: true, note: "615–616؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 696}." }
+relations:
+  - { type: had_participant, target: person/al-malik-al-kamil, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/dimyat, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 694–704"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-44
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

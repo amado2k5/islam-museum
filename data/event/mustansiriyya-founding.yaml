@@ -1,0 +1,21 @@
+id: event/mustansiriyya-founding
+class: event
+kind: other
+label: { ar: "بناء المدرسة المستنصرية ببغداد" }
+summary:
+  ar: "أنشأ المستنصر بالله المدرسة المستنصرية على دجلة من الجانب الشرقي وقال ابن واصل ما بني على وجه الأرض أحسن منها ولا أكثر وقوفاً وهي بأربعة مدرسين على المذاهب الأربعة وعمل فيها بيمارستاناً ورتب فيها مطبخاً للفقهاء ومزملة للماء البارد ورتب لبيوت الفقهاء الحصر والبسط والزيت والورق والحبر وللفقيه بعد ذلك في الشهر دينار ورتب لهم حماماً وهو أمر لم يسبق إلى مثله، وقال الذهبي بلغ ارتفاع وقوفها في العام نيفاً وسبعين ألف مثقال وكان ابتداء عمارتها في سنة خمس وعشرين وتمت في سنة إحدى وثلاثين ونقل إليها الكتب وهي مئة وستون حملاً من الكتب النفيسة وعدة فقهائها مئتان وثمانية وأربعون فقيهاً من المذاهب الأربعة وأربعة مدرسون وشيخ حديث وشيخ نحو وشيخ طب وشيخ فرائض وجعل فيها ثلاثون يتيماً وفتحت يوم الخميس في رجب وحضر القضاة والمدرسون والأعيان {cite:tarikh-khulafa-minhaj-1434 p. 702-704}."
+  en: "Al-Mustansir's madrasa on Tigris's east bank — 'none finer on earth', says Ibn Wasil — four chairs for the four madhhabs, a bimaristan, a fuqaha' kitchen, a cold-water chamber, stipends of mats, oil, paper, ink and a dinar a month, and a bath 'never done before'. Al-Dhahabi: its waqf yielded seventy thousand mithqals a year; built 625–631, stocked with a hundred and sixty camel-loads of choice books, two hundred and forty-eight jurists with masters of hadith, grammar, medicine and inheritance-law, thirty orphans; opened on a Thursday in Rajab before the judges and notables {cite:tarikh-khulafa-minhaj-1434 p. 702-704}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1234~", hijri: "0631", calendar: julian, precision: year, status: tradition, derived: true, note: "بنيت 625–631؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 703}." }
+relations:
+  - { type: had_participant, target: person/al-mustansir-billah, role: "البانى", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 694–704"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-44
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
