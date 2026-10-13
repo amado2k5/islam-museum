@@ -1,0 +1,22 @@
+id: event/death-of-wathiq
+class: event
+kind: death
+label: { ar: "وفاة الواثق" }
+summary:
+  ar: "مات الواثق بسر من رأى يوم الأربعاء لست بقين من ذي الحجة سنة اثنتين وثلاثين ومئتين، وحكي أنه لما مات ترك وحده واشتغل الناس بالبيعة للمتوكل فجاء جرذون فاستل عينه فأكلها {cite:tarikh-khulafa-minhaj-1434 p. 534}."
+  en: "Al-Wathiq died at Sur man Ra'a on Wednesday, 6 Dhu'l-Hijja 232; when he died he was left alone while the people busied themselves with the bay'a to al-Mutawakkil, and a rat came and plucked out his eye and ate it {cite:tarikh-khulafa-minhaj-1434 p. 534}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0847-08-22~", hijri: "0232-12-06", calendar: julian, precision: day, status: tradition, derived: true, note: "الأربعاء 6 ذو الحجة 232؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 534}." }
+relations:
+  - { type: had_participant, target: person/al-wathiq, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/samarra, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 534"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-27
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
