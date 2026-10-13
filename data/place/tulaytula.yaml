@@ -1,0 +1,18 @@
+id: place/tulaytula
+class: place
+kind: city
+label: { ar: "طليطلة" }
+summary:
+  ar: "عند البلاذري: مدينة مملكة الأندلس وهي مما يلي فرنجة افتتحها طارق بن زياد وأصاب بها مائدة عظيمة أهداها موسى بن نصير إلى الوليد بن عبد الملك بدمشق حين قفل سنة ست وتسعين."
+  en: "In al-Baladhuri: the kingdom-city of al-Andalus on the Franks' side; Tariq ibn Ziyad opened it and seized there a great table which Musa ibn Nusayr presented to al-Walid ibn Abd al-Malik at Damascus on his return in year 96."
+wings: [place]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 323"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-22
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

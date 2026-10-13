@@ -3,9 +3,14 @@ class: event
 kind: conquest
 label: { ar: "فتح الأندلس" }
 summary:
-  ar: "ذكر الطبري في أخبار سنة إحدى وتسعين أن موسى بن نصير غزا الأندلس ففُتح على يديه مدائن وحصون {cite:tabari-tarikh-abu-al-fadl j.6 p.454}. وعنوان «فتح الأندلس» في الفهرس في سنة اثنتين وتسعين {cite:tabari-tarikh-abu-al-fadl j.6 p.632}."
+  ar: "ذكر الطبري في أخبار سنة إحدى وتسعين أن موسى بن نصير غزا الأندلس ففُتح على يديه مدائن وحصون {cite:tabari-tarikh-abu-al-fadl j.6 p.454}. وعنوان «فتح الأندلس» في الفهرس في سنة اثنتين وتسعين {cite:tabari-tarikh-abu-al-fadl j.6 p.632}. وعند البلاذري عن الواقدي: غزا طارق بن زياد عامل موسى بن نصير الأندلس وهو أول من غزاها وذلك في سنة اثنتين وتسعين فلقيه أليان وهو والٍ على مجاز الأندلس فآمنه طارق على أن حمله وأصحابه إلى الأندلس في السفن فلما صار إليها حاربه أهلها ففتحها وذلك في سنة اثنتين وتسعين وكان ملكها فيما يزعمون من الأشبان وأصلهم من أصبهان."
 date:
-  start: { hijri: "0091", precision: year, status: debated, note: "ج6 ص454 (سنة 91هـ)؛ فهرس ص632 (سنة 92هـ)", sources: [source/tabari-tarikh-abu-al-fadl] }
-sources: [source/tabari-tarikh-abu-al-fadl]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 3", sources: [source/tabari-tarikh-abu-al-fadl] }
-status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5)" }
+  start: { hijri: "0091?", precision: year, status: debated, note: "الطبري ج6 ص454 (سنة 91هـ)؛ فهرس ص632 والبلاذري (سنة 92هـ)", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
+relations:
+  - { type: occurred_at, target: place/al-andalus, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/tariq-ibn-ziyad, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/alyan, role: "والي المجاز المعبّر لهم في السفن", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/musa-ibn-nusayr, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407]
+provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, batch 3; extended by Devin (SWE-2 High) from Futuh al-Buldan (Maarif 1407), batch 22", sources: [source/tabari-tarikh-abu-al-fadl, source/futuh-buldan-maarif-1407] }
+status: { review: draft, completeness: 2, generated_by: "body pages read; Claude (Haiku 5.5); extended by Devin (SWE-2 High) — Futuh p. 323" }

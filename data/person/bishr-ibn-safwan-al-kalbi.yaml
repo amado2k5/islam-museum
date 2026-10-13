@@ -1,0 +1,17 @@
+id: person/bishr-ibn-safwan-al-kalbi
+class: person
+label: { ar: "بشر بن صفوان الكلبي" }
+summary:
+  ar: "عند البلاذري: ولّاه يزيد بن عبد الملك إفريقية بعد مقتل يزيد بن أبي مسلم فضرب عنق عبد الله بن موسى بن نصير المتّهم بقتله وتأليب الناس عليه ثم ولّاه هشام بن عبد الملك أيضاً فتوفي بالقيروان سنة تسع ومائة — وفي نسخة «بسر»."
+  en: "In al-Baladhuri: Yazid ibn Abd al-Malik gave him Ifriqiya after Yazid ibn Abi Muslim's killing — he struck off the neck of Abdallah ibn Musa ibn Nusayr, accused of that killing and of stirring the people; Hisham ibn Abd al-Malik kept him on and he died at Qayrawan in year 109 — one copy reads 'Busr'."
+gender: male
+died: { hijri: "0109", precision: year, status: tradition, note: "توفي بالقيروان سنة 109 (البلاذري ص 324)" }
+relations:
+  - { type: participated_in, target: event/killing-of-yazid-ibn-abi-muslim, role: "الوالي الخلف وقاتل ابن موسى", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-22
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

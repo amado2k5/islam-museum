@@ -1,0 +1,24 @@
+id: event/ismail-berber-dawah
+class: event
+kind: other
+label: { ar: "دعوة إسماعيل بن عبد الله وعمر للبربر", en: "Isma'il ibn Abdallah and Umar II's Mission to the Berbers" }
+summary:
+  ar: "عند البلاذري: لما كانت خلافة عمر بن عبد العزيز ولّى المغرب إسماعيل بن عبد الله بن أبي المهاجر مولى بني مخزوم فسار أحسن سيرة ودعا البربر إلى الإسلام وكتب إليهم عمر بن عبد العزيز كتباً يدعوهم بعدُ إلى ذلك فقرأها إسماعيل عليهم في النواحي فغلب الإسلام على المغرب."
+  en: "In al-Baladhuri: in Umar ibn Abd al-Aziz's caliphate he gave the Maghreb to Isma'il ibn Abdallah ibn Abi al-Muhajir, mawla of Banu Makhzum, who walked the best of paths and called the Berbers to Islam — and Umar ibn Abd al-Aziz wrote them letters summoning them to it besides, which Isma'il read out to them through the districts, until Islam mastered the Maghreb."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "0717/0720", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة عمر بن عبد العزيز (البلاذري ص 323–324). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ifriqiya }
+  - { type: had_participant, target: person/ismail-ibn-abdallah-ibn-abi-al-muhajir, role: "الوالي والداعي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "كاتب الدعوة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/berbers, role: "المدعوّون", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 323–324"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-22
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

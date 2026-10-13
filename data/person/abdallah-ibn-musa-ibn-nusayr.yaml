@@ -1,0 +1,17 @@
+id: person/abdallah-ibn-musa-ibn-nusayr
+class: person
+label: { ar: "عبد الله بن موسى بن نصير" }
+summary:
+  ar: "عند البلاذري: ابن موسى بن نصير فاتح المغرب اتّهم بقتل يزيد بن أبي مسلم وتأليب الناس عليه فضرب بشر بن صفوان الكلبي عنقه."
+  en: "In al-Baladhuri: son of Musa ibn Nusayr the Maghreb's conqueror; accused of killing Yazid ibn Abi Muslim and stirring the people against him — Bishr ibn Safwan al-Kalbi struck off his neck."
+gender: male
+relations:
+  - { type: child_of, target: person/musa-ibn-nusayr, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/killing-of-yazid-ibn-abi-muslim, role: "المتّهم المضروبة عنقه", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-22
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

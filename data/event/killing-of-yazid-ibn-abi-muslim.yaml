@@ -1,0 +1,25 @@
+id: event/killing-of-yazid-ibn-abi-muslim
+class: event
+kind: death
+label: { ar: "قتل يزيد بن أبي مسلم بمصلاه", en: "The Killing of Yazid ibn Abi Muslim in His Prayer-Place" }
+summary:
+  ar: "عند البلاذري: لما ولّى يزيد بن عبد الملك ولّى يزيد بن أبي مسلم مولى الحجاج بن يوسف إفريقية والمغرب فقدم إفريقية في سنة اثنتين ومائة وكان حرسه البربر فوسم كل امرئ منهم على يده «حرسي» فسوّد سيرته فدبّ بعضهم إلى بعض وتضافروا على قتله فخرج ذات عشية لصلاة المغرب فقتلوه في مصلاه؛ فولّى يزيد بشر بن صفوان الكلبي فضرب عنق عبد الله بن موسى بن نصير وذلك أنه اتّهم بقتله وتأليب الناس عليه."
+  en: "In al-Baladhuri: when Yazid ibn Abd al-Malik ruled he gave Yazid ibn Abi Muslim — al-Hajjaj ibn Yusuf's mawla — Ifriqiya and the Maghreb; he came to Ifriqiya in year 102, his guard being Berbers, and he branded on each man's hand 'my guard' — so they blackened his path, whispered one to another, and conspired to kill him: he went out one evening for maghrib prayer and they killed him in his prayer-place. Yazid then gave it to Bishr ibn Safwan al-Kalbi, who struck off the neck of Abdallah ibn Musa ibn Nusayr — he being accused of the killing and of stirring the people against him."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { hijri: "0102~", precision: year, status: tradition, note: "قدومه سنة 102 (البلاذري ص 324)" }
+relations:
+  - { type: occurred_at, target: place/ifriqiya }
+  - { type: had_participant, target: person/yazid-ibn-abi-muslim, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/berbers, role: "الحرس القاتلون", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/bishr-ibn-safwan-al-kalbi, role: "الوالي الخلف وقاتل ابن موسى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-musa-ibn-nusayr, role: "المتّهم المضروبة عنقه", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-22
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,24 @@
+id: event/conquest-of-tulaytula
+class: event
+kind: conquest
+label: { ar: "فتح طليطلة", en: "The Conquest of Toledo" }
+summary:
+  ar: "عند البلاذري: كتب موسى بن نصير إلى طارق بن زياد كتاباً غليظاً لتغريره بالمسلمين وافتتانه عليه بالرأي في غزوه وأمر أن لا يجاوز قرطبة وسار موسى إلى قرطبة من الأندلس فترضّاه طارق فرضي عنه فافتتح طارق مدينة طليطلة وهي مدينة مملكة الأندلس وهي مما يلي فرنجة وأصاب بها مائدة عظيمة أهداها موسى بن نصير إلى الوليد بن عبد الملك بدمشق حين قفل سنة ست وتسعين والوليد مريض."
+  en: "In al-Baladhuri: Musa ibn Nusayr wrote Tariq ibn Ziyad a harsh letter — for his hazarding the Muslims and presuming on his own judgment in the raid — ordering him not to pass Cordoba; Musa marched to Cordoba of al-Andalus, Tariq appeased him and he was pleased, and Tariq opened the city of Toledo — the kingdom-city of al-Andalus on the Franks' side — seizing there a great table which Musa ibn Nusayr presented to al-Walid ibn Abd al-Malik at Damascus when he returned in year 96, al-Walid being ill."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { hijri: "0093~", precision: year, status: tradition, derived: true, note: "بعد فتح الأندلس 92 (البلاذري ص 323). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/tulaytula }
+  - { type: had_participant, target: person/tariq-ibn-ziyad, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/musa-ibn-nusayr, role: "الكاسر الغليظ ثم الراضي ومهدي المائدة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-walid-ibn-abd-al-malik, role: "المُهدى إليه المائدة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 323"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-22
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
