@@ -1,0 +1,17 @@
+id: person/sirin-father-of-ibn-sirin
+class: person
+label: { ar: "سيرين أبو ابن سيرين" }
+summary:
+  ar: "عند البلاذري: أبو محمد بن سيرين وإخوته يحيى وأنس ومعبد وهو أكبرهم وهم موالي أنس بن مالك الأنصاري من سبي كنيسة عين التمر زمن خالد بن الوليد — وقيل إن سيرين من أهل جرجرايا كان زائراً لقرابة له فأخذ في الكنيسة معهم."
+  en: "In al-Baladhuri: father of Muhammad ibn Sirin, with his brothers Yahya, Anas and Ma'bad — the eldest — mawali of Anas ibn Malik al-Ansari, taken in Ayn al-Tamr's church captives under Khalid ibn al-Walid; it is said Sirin was of Jarjaraya's people visiting kin when taken in the church."
+gender: male
+relations:
+  - { type: child_of, target: person/muhammad-ibn-sirin, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/siege-of-ayn-al-tamr, role: "من سبي الكنيسة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 345–347"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-28
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

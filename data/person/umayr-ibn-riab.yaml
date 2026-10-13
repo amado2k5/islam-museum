@@ -1,27 +1,17 @@
 id: person/umayr-ibn-riab
 class: person
-label: { en: Umayr ibn Ri'ab, ar: "عمير بن رئاب" }
-names:
-  - { kind: full, lang: ar, value: "عمير بن رئاب بن حذيفة بن مهشم بن سعد بن سهم" }
-gender: male
-roles: [companion]
-traditions: [sunni]
+label: { ar: "عمير بن رئاب السهمي" }
 summary:
-  ar: "من بني سهم، هاجر إلى الحبشة وقُتل بعين التمر مع خالد بن الوليد في خلافة أبي بكر."
-  en: Of Banu Sahm; he emigrated to Abyssinia and was killed at Ayn al-Tamr with Khalid ibn al-Walid in Abu Bakr's caliphate.
-wings: [people]
-themes: [refugees-migrants-diaspora]
-periods: [period/prophetic-era]
-regions: [arabia, east-africa]
-died: { edtf: "0632/0634", calendar: julian, precision: year, status: tradition, derived: true, note: "قال ابن إسحاق: قُتل بعين التمر مع خالد بن الوليد منصرفه من اليمامة في خلافة أبي بكر؛ التاريخ مشتق من مدة الخلافة", sources: [source/ibn-hisham-saqqa] }
-story_roles:
-  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
-faith:
-  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+  ar: "عند البلاذري: عمير بن رئاب بن مهشم بن سعيد بن سهم بن عمرو أصابه سهم بعين التمر فاستشهد ودفن إلى جنب بشير بن سعد الأنصاري بها."
+  en: "In al-Baladhuri: Umayr ibn Ri'ab ibn Muhashshim ibn Sa'id ibn Sahm ibn Amr, struck by an arrow at Ayn al-Tamr and martyred — buried beside Bashir ibn Sa'd al-Ansari there."
+gender: male
+died: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "استشهد بعين التمر سنة 12 (البلاذري ص 347). التحويل مشتق." }
 relations:
-  - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
-  - { type: died_in, target: place/ayn-al-tamr, sources: [source/ibn-hisham-saqqa] }
-  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iv" }
-sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }
+  - { type: participated_in, target: event/siege-of-ayn-al-tamr, role: "الشهيد بالسهم", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 347"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-28
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

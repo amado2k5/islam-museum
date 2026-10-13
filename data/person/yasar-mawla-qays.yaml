@@ -1,0 +1,16 @@
+id: person/yasar-mawla-qays
+class: person
+label: { ar: "يسار جد ابن إسحاق" }
+summary:
+  ar: "عند البلاذري: يسار جد محمد بن إسحاق صاحب السيرة وهو مولى قيس بن مخرمة بن المطلب بن عبد مناف كان من سبي كنيسة عين التمر."
+  en: "In al-Baladhuri: Yasar, grandfather of the sira author Muhammad ibn Ishaq, mawla of Qays ibn Makhrama ibn al-Muttalib ibn Abd Manaf — taken in Ayn al-Tamr's church captives."
+gender: male
+relations:
+  - { type: participated_in, target: event/siege-of-ayn-al-tamr, role: "من سبي الكنيسة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 345"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-28
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

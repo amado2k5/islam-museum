@@ -1,0 +1,16 @@
+id: person/ibn-ishaq
+class: person
+label: { ar: "محمد بن إسحاق بن يسار" }
+summary:
+  ar: "عند البلاذري: محمد بن إسحاق صاحب السيرة ابن يسار الذي كان من سبي كنيسة عين التمر زمن خالد بن الوليد وهو مولى قيس بن مخرمة بن المطلب بن عبد مناف."
+  en: "In al-Baladhuri: Muhammad ibn Ishaq author of the sira, son of the Yasar taken in Ayn al-Tamr's church captives under Khalid ibn al-Walid — a mawla of Qays ibn Makhrama ibn al-Muttalib ibn Abd Manaf."
+gender: male
+relations:
+  - { type: child_of, target: person/yasar-mawla-qays, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 345"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-28
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: person/muhammad-ibn-sirin
+class: person
+label: { ar: "محمد بن سيرين" }
+summary:
+  ar: "عند البلاذري: محمد بن سيرين ابن سيرين الذي سبي في كنيسة عين التمر مع إخوته يحيى وأنس ومعبد — وهو أكبر أخوته — وهم موالي أنس بن مالك الأنصاري."
+  en: "In al-Baladhuri: Muhammad ibn Sirin, son of the Sirin taken captive in Ayn al-Tamr's church with his brothers Yahya, Anas and Ma'bad — Ma'bad the eldest — mawali of Anas ibn Malik al-Ansari."
+gender: male
+relations:
+  - { type: child_of, target: person/sirin-father-of-ibn-sirin, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 345"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-28
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
