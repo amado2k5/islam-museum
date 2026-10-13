@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-45** (pp. 704–714 — Musta'sim's opening & the Tatar rise): new `event/turanshah-murder-shajar-durr-648` (Shajar al-Durr's sultanate), `medina-fire-654` (the Harra fire, the Busra camels hadith), `khwarazmshah-trader-betrayal`, `death-of-khwarazmshah-617`, `aybak-murder-655`; `person/al-mustasim-billah` (last caliph; the Alqami betrayal), `al-alqami`, `shajar-al-durr`, `izz-al-din-aybak`, `turanshah`, `al-malik-al-salih-ayyub`, `genghis-khan`; enriched `al-mustansir-billah`, `muhammad-khwarazmshah`.
+
 - **Batch TK-44** (pp. 694–704 — al-Zahir & al-Mustansir): new `event/egypt-famine-596` (the cannibal famine), `franks-constantinople-601` (Fourth Crusade), `franks-damietta-616` (chain-tower; Mansura founded), `mustansiriyya-founding` (4 madhhab chairs; 70k mithqal waqf; 160 camel-loads of books); `person/al-zahir-billah` (the 'second Umar II' dossier — 9-month just reign), `al-mustansir-billah`, `al-malik-al-kamil`, `al-malik-al-adil-ayyub`, `al-malik-al-ashraf`, `al-khafaji`; enriched `al-malik-al-aziz` (d. 595).
 
 - **Batch TK-43** (pp. 685–694 — al-Nasir's long reign): new `event/saladin-jerusalem-583` (91 years ended; Ibn Barrajan's tafsir coincidence), `death-of-saladin-589` (1 dinar + 36 dirhams), `khwarazmshah-baghdad-march` (the 20-day snow; dar al-saltana razed), `seljuk-end-590` (22 kings, 160 years); `person/al-nasir-billah` (47yr reign; the spymaster dossier; Ibn al-Jawzi's diplomatic answer), `muhammad-khwarazmshah`, `tughril-shah-iii`, the three Ayyubid heirs; enriched `al-mustadi-billah`, `salah-al-din`.
