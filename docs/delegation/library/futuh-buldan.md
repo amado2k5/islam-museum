@@ -199,4 +199,6 @@
 
 - **Batch 92** (pp. 635–638 — ata' variants/anecdotes): `event/umar-fay-justice` (Hudhayfa's letter — "not Umar's nor Al Umar's", Abu Hurayra's 500k, the newborn register, the shepherd hadith); `event/zaynab-ata-refusal` (Zaynab's cloth and prayer, the register variants).
 
-**Next:** batch 93 — ata' section continuation (pp. 639+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 93** (pp. 639–642 — special stipends): `event/umar-ata-special` (Amr/Umayr/Busr at 200 dinars, Hudaybiya men, Ammar 6000, Salman 4000, the dahqan stipends, the mawali-equity letter, Abu Sufyan's Banu al-Asfar jab, Meccans excluded); `person/kharija-ibn-hudhafa`.
+
+**Next:** batch 94 — ata'/diwan section tail (pp. 643+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
