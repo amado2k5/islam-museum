@@ -139,4 +139,6 @@
 
 - **Batch 62** (pp. 508–511 — registry's end): `concept/qatia` (Ziyad's two-year improvement rule, Mansur's survey seizure); `event/umar-ibn-hubayra-survey` (Yazid II's confiscation order → «ورثناها عن آباء صدق»); `event/masruqanan-survey` (100→1000 jarib); `place/ard-al-asbahaniyyin` + `person/abdallah-ibn-al-asbahani` (400 men vs al-Mukhtar under Mus'ab); `place/butq-shirin` (Kisra's wife); `person/muawiya-ibn-sasaa`, `suwayd-ibn-manjuf`, `umar-ibn-hubayra`, `zadanfarrukh`.
 
-**Next:** batch 63 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 63** (pp. 512–515 — ushr dossier + Abbadan + water canals): `event/ushr-kharaj-oscillation` (Hajjaj→Umar II→Ibn Hubayra→Hisham→Mahdi); `place/abbadan` (Humran's qati'a → Hajjaj threat → Abbas's gift → Rabi' ibn Sabih's fortification, died India-bound 160h); `event/digging-of-nahr-adi` (Wak'i's "no canal no home", Hasan al-Basri on the dam); `event/digging-of-nahr-ibn-umar` (the two flasks, "were it Iraq's whole kharaj"); persons abbas-ibn-al-husayn-al-hibati, al-rabi-ibn-sabih, abdallah-ibn-amr-al-kawsaj (arbiter self-award), waki-ibn-abi-sud, qasim-ibn-sulayman-al-mawla (forged grant), abdallah-ibn-umar-ibn-abd-al-aziz; places al-qasiyya, nahr-adi, nahr-ibn-umar.
+
+**Next:** batch 64 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

@@ -1,0 +1,18 @@
+id: event/digging-of-nahr-adi
+class: event
+kind: other
+label: { ar: "حفر نهر عدي", en: "Digging of Nahr Adi" }
+summary:
+  ar: "كتب عدي بن أرطاة عامل عمر بن عبد العزيز على البصرة إليه وأمر أهل البصرة أن يكتبوا في حفر نهر لهم فكتب إليه وكيع بن أبي سود إنك إن لم تحفر لنا نهراً فلا البصرة لنا بدار ويقال إن عدياً التمس في ذلك الإضرار ببهز بن يزيد بن المهلب فنفعه فكتب عمر يأذن له في حفر نهر فحفر نهر عدي من بثق شيرين وخرج الناس ينظرون إليه فحمل عدي الحسن البصري على سد كان عليه وجعل يشير."
+  en: "Adi ibn Arta'a, Umar ibn Abd al-Aziz's governor, consulted the Basrans on digging a canal — Wak'i ibn Abi Sud wrote 'no canal, no home'; some say Adi's aim was to spite Bahz ibn Yazid ibn al-Muhallab. Umar's permission came, the canal was dug from Butq Shirin, the people came out to watch, and Adi bore al-Hasan al-Basri on the dam as he pointed."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-hasan-al-basri, role: "المحمول على السد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
