@@ -1,0 +1,16 @@
+id: person/abu-hafs-al-iqritishi
+class: person
+label: { ar: "أبو حفص الإقريطشي" }
+summary:
+  ar: "عند البلاذري: عمر بن عيسى الأندلسي المعروف بالإقريطشي غزا إقريطش في خلافة المأمون فافتتح منها حصناً واحداً ونزله ثم لم يزل يفتح شيئاً بعد شيء حتى لم يبق فيها من الروم أحد وأخرب حصونهم."
+  en: "In al-Baladhuri: Umar ibn Isa al-Andalusi, known as al-Iqritishi; he raided Crete in al-Ma'mun's caliphate, opened a single fortress and settled it, then kept opening bit by bit until no Romans remained in it and he ruined their fortresses."
+gender: male
+relations:
+  - { type: participated_in, target: event/conquest-of-iqritish, role: "المتتم للفتح", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 330"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-24
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

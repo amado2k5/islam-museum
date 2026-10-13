@@ -1,0 +1,16 @@
+id: person/humayd-ibn-mayuq
+class: person
+label: { ar: "حميد بن معيوف الهمداني" }
+summary:
+  ar: "عند البلاذري: غزا إقريطش في خلافة الرشيد ففتح بعضها."
+  en: "In al-Baladhuri: raided Crete in al-Rashid's caliphate and opened part of it."
+gender: male
+relations:
+  - { type: participated_in, target: event/conquest-of-iqritish, role: "غازي عهد الرشيد", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 330"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-24
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

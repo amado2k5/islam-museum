@@ -1,0 +1,24 @@
+id: event/first-raid-on-sicily
+class: event
+kind: raid
+label: { ar: "أول غزوة لصقلية وسبي عبد الله بن قيس لها", en: "The First Raid on Sicily and Abdallah ibn Qays's Plunder" }
+summary:
+  ar: "عند البلاذري: غزا معاوية بن حديج الكندي أيام معاوية بن أبي سفيان صقلية وكان أول من غزاها ولم تزل تُغزى بعد ذلك. وقال الواقدي: سبى عبد الله بن قيس بن مخلد الدزقي صقلية فأصاب أصنام ذهب وفضة مكللة بالجوهر فبعث بها إلى معاوية فوجّه بها معاوية إلى البصرة لتحمل إلى الهند فتباع هناك ليثمن بها."
+  en: "In al-Baladhuri: Mu'awiya ibn Khudayj al-Kindi raided Sicily in Mu'awiya ibn Abi Sufyan's days — the first to raid it — and it kept being raided thereafter. Al-Waqidi said: Abdallah ibn Qays ibn Mukhallad al-Dazzaqi plundered Sicily, taking gold and silver idols crowned with jewels which he sent to Mu'awiya, who forwarded them to Basra to be carried to India and sold there for their price."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0660/0680", calendar: julian, precision: year, status: tradition, derived: true, note: "أيام معاوية بن أبي سفيان (البلاذري ص 329). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/siqilliya }
+  - { type: had_participant, target: person/muawiya-ibn-khudayj, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-qays-al-dazzaqi, role: "السابي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "الخليفة الموجّه للغنائم إلى الهند", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 329"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-24
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

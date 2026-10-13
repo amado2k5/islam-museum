@@ -1,0 +1,16 @@
+id: person/ahmad-ibn-muhammad-al-aghab
+class: person
+label: { ar: "أحمد بن محمد بن الأغلب" }
+summary:
+  ar: "عند البلاذري: أحمد بن محمد بن الأغلب فتح من صقلية في خلافة المتوكل قصر يانة وحصن غليانة."
+  en: "In al-Baladhuri: Ahmad ibn Muhammad ibn al-Aghlab opened of Sicily in al-Mutawakkil's caliphate Qasr Yana and Hisn Ghalyana."
+gender: male
+relations:
+  - { type: participated_in, target: event/aghabid-conquests-sicily, role: "فاتح قصر يانة وحصن غليانة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 329"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-24
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

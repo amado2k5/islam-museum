@@ -1,0 +1,25 @@
+id: event/conquest-of-arwad
+class: event
+kind: conquest
+label: { ar: "فتح أرواد", en: "The Conquest of Arwad" }
+summary:
+  ar: "عند البلاذري: فتح جنادة بن أبي أمية في سنة أربع وخمسين أرواد وأسكنها معاوية المسلمين وكان ممن فتحها مجاهد وتُبَيْع بن امرأة كعب الأحبار وبها أقرأ مجاهد تبيعاً القرآن ويُقال إنه أقرأه القرآن برودس — وأرواد جزيرة بالقرب من القسطنطينية."
+  en: "In al-Baladhuri: Janada ibn Abi Umayya opened Arwad in year 54 and Mu'awiya settled the Muslims in it; among its openers were Mujahid and Tubay' ibn imra'at Ka'b al-Ahbar — there Mujahid taught Tubay' the Qur'an, though it is said he taught it to him at Rhodes — and Arwad is an island near Constantinople."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { hijri: "0054", precision: year, status: tradition, note: "سنة 54هـ (البلاذري ص 330)" }
+relations:
+  - { type: occurred_at, target: place/arwad }
+  - { type: had_participant, target: person/janada-ibn-abi-umayya, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mujahid-ibn-jabr, role: "الفاتح المقرئ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/tubay-ibn-amirat, role: "الفاتح المتعلم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "المسكّن", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 330"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-24
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
