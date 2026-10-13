@@ -1,0 +1,15 @@
+id: dataset/fiqh-al-sunnah-vol2-summaries
+class: dataset
+label: { ar: "ملخصات فقه السنة، الجزء الثاني", en: "Summaries of Fiqh al-Sunnah, volume 2" }
+summary:
+  ar: "ملخصات بكلمات مستقلة لأبواب الجزء الثاني من فقه السنة، من النكاح إلى الجنايات، مع نطاق الصفحات المطبوعة لكل باب."
+wings: [ideas]
+periods: []
+regions: []
+rows_file: datasets/fiqh-al-sunnah-vol2-summaries.csv
+license: CC0
+source: source/sabiq-fiqh-al-sunnah
+method_note: "Sub-chapter headings and printed page ranges from volume 2 (pp. 5-500), read from Apple Vision OCR of the scanned book. Each summary was written by an AI agent in its own Arabic words, from the OCR text, and has not been checked by a person; schools_mentioned is the agents' reading. The book is not quoted; no Qur'an or hadith text appears. Printed page 288 is blank in the OCR. Pages 501-505 are the volume index and are not summarized. The ranges 421-461 and 462-492 may overlap at the start of the injury chapter."
+provenance: { layer: own-research, source: "sabiq-fiqh-al-sunnah vol. 2, printed pp. 5-500", generated_by: "Claude Haiku 5.5 subagents", run: "fiqh-al-sunnah-summaries-vol2" }
+sources: [source/sabiq-fiqh-al-sunnah]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 subagents; OCR-based, needs a human check" }
