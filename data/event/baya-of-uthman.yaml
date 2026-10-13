@@ -1,0 +1,24 @@
+id: event/baya-of-uthman
+class: event
+kind: council
+label: { ar: "بيعة عثمان بن عفان" }
+summary:
+  ar: "بويع عثمان بالخلافة بعد دفن عمر بثلاث ليال؛ وكان عمر قبل أن يموت أرسل إلى أبي طلحة الأنصاري فقال كن في خمسين من الأنصار مع أصحاب الشورى فإنهم سيجتمعون في بيت فقم على الباب بأصحابك ولا تترك أحداً يدخل عليهم ولا تتركهم يمضي اليوم الثالث حتى يؤمروا أحدهم {cite:tarikh-khulafa-minhaj-1434 p. 266}. واجتمع الناس تلك الأيام إلى عبد الرحمن بن عوف يشاورونه وكان قد عزل نفسه عن الترشح، فسأل عثمان خلوة إن لم أبايعك فمن تشير عليّ قال عليّ، وسأل علياً فقال عثمان، وسأل الزبير فقال علي أو عثمان، وسأل سعداً فقال عثمان، ثم استشار الأعيان فرأى هوى أكثرهم في عثمان؛ وكان قد بدأ بعلي فقال أبايعك على كتاب الله وسنة رسوله وسيرة أبي بكر وعمر فقال فيما استطعت، ثم عرضه على عثمان فقال نعم، فأخذ بيده وبايعه وبايعه المهاجرون والأنصار {cite:tarikh-khulafa-minhaj-1434 p. 266-267}. وقال ابن مسعود لما بويع عثمان: أمّرنا خير من بقي ولم نألُ {cite:tarikh-khulafa-minhaj-1434 p. 267}."
+  en: "Uthman was given the bay'a three nights after Umar's burial. Before dying, Umar had sent Abu Talha al-Ansari to stand with fifty Ansar at the door of the house where the six-man shura met, letting none enter and giving them three days to name one of themselves. Abd al-Rahman ibn Awf, who had withdrawn his own candidacy, sounded each candidate in private — Uthman named Ali, Ali named Uthman, al-Zubayr named 'Ali or Uthman', Sa'd named Uthman — then consulted the notables and found most inclined to Uthman. He first offered Ali the bay'a on the Book, the Sunna and the conduct of Abu Bakr and Umar; Ali answered 'to the best of my ability', while Uthman answered 'yes'; so Abd al-Rahman took Uthman's hand and pledged, and the Muhajirun and Ansar pledged. Ibn Mas'ud said when Uthman was pledged: 'we have invested the best of those remaining, and we did not fall short' {cite:tarikh-khulafa-minhaj-1434 p. 266-267}."
+wings: [time, people]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0644-11~", hijri: "0023-12", calendar: julian, precision: month, status: tradition, derived: true, note: "بعد دفن عمر بثلاث ليال، أواخر ذي الحجة 23هـ؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 266}." }
+relations:
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "المبايع بالخلافة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "المستشير صاحب البيعة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "منافس الشورى أجاب فيما استطعت", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abu-talha-al-ansari, role: "الحارس على باب الشورى بأمر عمر", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 266–267"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-4
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
