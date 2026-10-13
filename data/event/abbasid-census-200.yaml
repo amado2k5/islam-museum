@@ -1,0 +1,21 @@
+id: event/abbasid-census-200
+class: event
+kind: census
+label: { ar: "إحصاء أولاد العباس سنة مئتين" }
+summary:
+  ar: "في أيام المأمون أحصيت أولاد العباس فبلغوا ثلاثة وثلاثين ألفاً ما بين ذكر وأنثى وذلك في سنة مئتين {cite:tarikh-khulafa-minhaj-1434 p. 518}."
+  en: "In al-Ma'mun's days the Abbasids were counted — thirty-three thousand souls, male and female, in year 200 {cite:tarikh-khulafa-minhaj-1434 p. 518}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0815~", hijri: "0200", calendar: julian, precision: year, status: tradition, derived: true, note: "200؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 518}." }
+relations:
+  - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 518"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-25
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
