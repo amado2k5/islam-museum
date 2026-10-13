@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-29** (pp. 545–551 — al-Mutawakkil anecdotes): new `person/al-shafii` (Mutawakkil's dream — first caliph to take a madhhab), `al-buhturi`, `ahmad-ibn-al-muadhdhal` ("نزهتك من عذاب الله"); enriched `mihna-of-the-quran` (lifted under Mutawakkil), `al-mutawakkil` (the contented man), `mahbuba` (dream reconciliation).
+
 - **Batch TK-28** (pp. 537–544 — al-Mutawakkil): new `event/demolition-of-husayn-tomb` (236), `ghiyar-decree-235`, `sack-of-damietta-238`, `mutawakkil-damascus-residence`; `person/yaqub-ibn-al-sukayt` (Qanbar's answer), `dhu-al-nun-al-misri`, `al-fath-ibn-khaqan`, `al-harith-ibn-miskin`, `muhammad-ibn-abi-al-layth`, `ali-ibn-al-jahm` (the two pearls), `mahbuba`, `yazid-ibn-muhammad-al-muhallabi`, `marwan-ibn-abi-al-janub`; enriched `death-of-mutawakkil` (five Turks, 5 Shawwal 247), `al-mutawakkil`, `al-muntasir`, `al-mutazz`, `ahmad-ibn-abi-duad` (falij), `mihna-of-the-quran`.
 
 - **Batch TK-27** (pp. 528–537 — al-Wathiq): new `event/ashinas-sultanate-228` (first sultan), `killing-of-ahmad-ibn-nasr` (the martyr, head on the cross 6 yrs), `wathiq-captive-ransom-231` (Ibn Abi Du'ad's creed test), `death-of-wathiq` (the rat), `person/ahmad-ibn-nasr-al-khuzai`, `abd-allah-ibn-muhammad-al-azdi` (the syllogism that ended the mihna), `abu-muhallim`; enriched `al-wathiq` (al-Ma'mun al-Asghar, golden khwan), `ashinas-al-turki`, `ahmad-ibn-abi-duad`.
