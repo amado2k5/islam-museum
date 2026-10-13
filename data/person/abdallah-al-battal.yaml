@@ -1,0 +1,19 @@
+id: person/abdallah-al-battal
+class: person
+label: { ar: "عبد الله البطال" }
+summary:
+  ar: "البطال الشجاع المشهور، فتحت على يده خنجرة في سنة ثمان من خلافة هشام بن عبد الملك {cite:tarikh-khulafa-minhaj-1434 p. 402}."
+  en: "Al-Battal the renowned champion; under his hand Khanjara was conquered in year eight of Hisham ibn Abd al-Malik's caliphate {cite:tarikh-khulafa-minhaj-1434 p. 402}."
+gender: male
+wings: [people]
+periods: [period/umayyad]
+regions: [anatolia-balkans]
+relations:
+  - { type: participated_in, target: event/hisham-conquests, role: "فاتح خنجرة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 402"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-12
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
