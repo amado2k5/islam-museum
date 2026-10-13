@@ -1,0 +1,22 @@
+id: event/mahdi-haram-enlargement
+class: event
+kind: founding
+label: { ar: "الزيادة الكبرى في المسجد الحرام" }
+summary:
+  ar: "في سنة سبع وستين ومئة أمر المهدي بالزيادة الكبرى في المسجد الحرام وأدخل في ذلك دوراً كثيرة {cite:tarikh-khulafa-minhaj-1434 p. 443}."
+  en: "In year 167 al-Mahdi ordered the great enlargement of the Sacred Mosque, absorbing many houses into it {cite:tarikh-khulafa-minhaj-1434 p. 443}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0783~", hijri: "0167", calendar: julian, precision: year, status: tradition, derived: true, note: "167؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 443}." }
+relations:
+  - { type: had_participant, target: person/al-mahdi, role: "الآمر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/mecca, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 443"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-17
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
