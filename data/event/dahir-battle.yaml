@@ -1,0 +1,19 @@
+id: event/dahir-battle
+class: event
+kind: battle
+label: { ar: "وقعة داهر ومقتله", en: "The Battle and Death of Dahir" }
+summary:
+  ar: "احتال محمد لعبور مهوان حتى عبره مما يلي بلاد راسل ملك قشة من الهند على جسر عقده وداهر مستخف به لاه عنه ولقيه محمد والمسلمون وهو على فيل وحوله الفيلة ومعه الكاكرة فاقتتلوا قتالاً شديداً لم يسمع بمثله وترجل داهر وقاتل فقتل عند المساء وانهزم المشركون فقتلهم المسلمون كيف شاءوا وكان الذي قتله في رواية المدائني رجل من بني كلاب وقال الغيل تشهد يوم داهر والقنا يحمد القاسم بن محمد."
+  en: "Muhammad stole across the Mihwan by a contrived bridge near Rasal's land of Qissa while Dahir scorned the threat; they met — Dahir on his elephant ringed by elephants and the Kakira — in a battle like none heard of, till dismounted he fought and fell at evening, the mushrikun routed and cut down at will. Al-Mada'ini names his killer a man of Banu Kilab: 'the spears bore witness on Dahir's day, and praised al-Qasim ibn Muhammad'."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الأمير الفائز", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/dahir, role: "الملك المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/mihran }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

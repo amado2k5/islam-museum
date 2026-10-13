@@ -187,4 +187,6 @@
 
 - **Batch 86** (pp. 608–611 — Sind frontier commanders): `event/al-harith-qiqan-42`, `event/muhallab-sind-44` (the first horse-trimming), `event/abdallah-ibn-sawar-qiqan` (Qiqani horses, the khabis fire), `event/sinan-makran` (divorce-oaths, Makran stormed), `event/abbad-qandahar` (the 'Abbadiyya caps), `event/mundhir-qusdar`, `event/allafi-revolt-makran` (the Allafi coup, Mujja'a's Qandabil); persons +10; places qiqan, makran, qandahar, qusdar, buqan, banna.
 
-**Next:** batch 87 — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 87** (pp. 612–615 — Muhammad b. al-Qasim): `event/daybul-pirates-hajjaj` ("ya labbayk", Ibn Nabhan + Budayl slain); `event/muhammad-qasim-appointment` (the vinegar-cotton, Shiraz muster); `event/daybul-siege` (al-'Arus, the broken mast, Muradi first-up); `event/birun-sadusan-sulh` (4,000 Zutt); `event/dahir-battle` (the bridge trick, evening death); persons +6 (dahir, budayl, ubaydallah-b-nabhan, muhammad-b-musab + anbasa merged into existing); places armabil, birun, sadusan, mihran, qandabil.
+
+**Next:** batch 88 — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
