@@ -1,0 +1,17 @@
+id: event/caesar-palm-letter
+class: event
+kind: other
+label: { ar: "مكاتبة قيصر لعمر في شجرة النخل", en: "Caesar's Palm-Tree Letter to Umar" }
+summary:
+  ar: "كتب قيصر إلى عمر بن الخطاب إن رسلي أتتني من قبلك فزعمت أن قبلكم شجرة ليست بخليقة بشيء من الخير تخرج مثل آذان الحمير ثم تشقق مثل اللؤلؤ ثم تخضر فتكون مثل الزمرد الأخضر ثم تحمر فتكون كالياقوت الأحمر ثم تينع فتنضج فتكون كأطيب فالوذج أكلاً ثم تيبس فتكون عصمة للمقيم وزاداً للمسافر فإن تكن رسلي صدقتني فلا أدري هذه الشجرة إلا من شجر الجنة فكتب إليه عمر من عبد الله عمر أمير المؤمنين إلى قيصر ملك الروم إن رسلك قد صدقوك هذه الشجرة عندنا هي الشجرة التي أنبتها الله على مريم حين ولدت عيسى ابنها فاتق الله ولا تتخذ عيسى إلهاً من دون الله."
+  en: "Caesar wrote to Umar ibn al-Khattab: my envoys came from your quarter claiming your land has a tree no creation equals — it puts out like donkey-ears, splits like pearls, greens like emerald, reddens like ruby, ripens to the sweetest faludhaj to eat, then dries to provision for the settler and wayfarer — 'if my envoys spoke true, I know this tree only as a tree of paradise'. Umar wrote back, from Abdallah Umar Commander of the Faithful to Caesar king of the Romans: your envoys spoke true — this tree with us is the tree God grew for Maryam when she bore Isa her son; fear God and take not Isa as a god beside Him."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "المكاتب", sources: [source/tarikh-khulafa-minhaj-1434] }
+wings: [people, place, time]
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
