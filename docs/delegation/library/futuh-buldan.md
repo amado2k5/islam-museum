@@ -177,4 +177,6 @@
 
 - **Batch 81** (pp. 588–591 — Musa's end + Qutayba's opening): `event/musa-tirmidh-wars` (the Turks' taunt, jusaqayn, Thabit's 80k, night-raids, "never his like"); `event/musa-death-tirmidh` (Jazirat Uthman, "Musa's leap by the Ka'ba's Lord", 85h); `event/qutayba-khurasan-opening` (golden key of Saghaniyan, Salih's Farghana, Nasr b. Sayyar); `event/qutayba-baykand-bukhara` (Baykand stormed, the two-rak'a ruse, Nizak crucified); `event/khwarizm-king-appeal`; persons +11; places farghana, kasan, urusht, akhsikath, tumushkat, karminiya, akharun.
 
-**Next:** batch 82 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 82** (pp. 592–595 — Samarqand + the revolt's spark): `event/khwarizm-qutayba-settlement`, `event/qutayba-samarqand` (Ghurak's 200k pact, the two-rak'a mosque, idol-burning conversions, al-Dahhak's colony), `event/umar-ii-samarqand-ruling` (Jumay' b. Hadir), `event/qutayba-sulayman-estrangement` (Habanqa, "mosquitoes' marrow", the curses), `event/waki-ibn-hassan-baya`; persons +9; places ishtikhan, al-shash, tarband, isbijab, ushrusana.
+
+**Next:** batch 83 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

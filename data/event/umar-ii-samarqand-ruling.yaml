@@ -1,0 +1,19 @@
+id: event/umar-ii-samarqand-ruling
+class: event
+kind: court-ruling
+label: { ar: "حكم جميع بن حاضر في وفود سمرقند", en: "Jumay' ibn Hadir's Ruling on Samarqand's Delegation" }
+summary:
+  ar: "لما استخلف عمر بن عبد العزيز وفد عليه قوم من أهل سمرقند فرفعوا إليه أن قتيبة دخل مدينتهم وأسكنها المسلمين على غدر فكتب عمر إلى عامله يأمره أن ينصب لهم قاضياً ينظر فيما ذكروا فإن قضى بإخراج المسلمين أخرجوا فنصب لهم جميع بن حاضر الباجي فحكم بإخراج المسلمين على أن ينابذوهم على سواء فكره أهل مدينة سمرقند الحرب وأقروا المسلمين فأقاموا بين أظهرهم."
+  en: "Under Umar ibn Abd al-Aziz a Samarqand delegation charged that Qutayba had entered their city and settled Muslims on treachery; Umar ordered his governor to set a qadi over the claim — Jumay' ibn Hadir al-Baji ruled the Muslims must leave unless the city fight them on even terms — and the Samarqandis, loath to fight, confirmed the Muslims, who stayed among them."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "الخليفة الآمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jumay-ibn-hadir, role: "القاضي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/samarqand }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
