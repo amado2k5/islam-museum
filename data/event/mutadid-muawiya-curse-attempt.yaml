@@ -1,0 +1,21 @@
+id: event/mutadid-muawiya-curse-attempt
+class: event
+kind: other
+label: { ar: "عزم المعتضد على لعن معاوية على المنابر" }
+summary:
+  ar: "قال ابن جرير في سنة أربع وثمانين عزم المعتضد على لعنة معاوية على المنابر فخوفه عبيد الله الوزير اضطراب العامة فلم يلتفت وكتب كتاباً ذكر فيه كثيراً من مناقب علي وثكب معاوية فقال له القاضي يوسف يا أمير المؤمنين أخاف الفتنة عند سماعه فقال إن تحركت العامة وضعت السيف فيها قال فما تصنع بالعلويين الذين هم في كل ناحية قد خرجوا عليك وإذا سمع الناس هذا من فضائل أهل البيت كانوا إليهم أميل فأمسك المعتضد عن ذلك {cite:tarikh-khulafa-minhaj-1434 p. 574-575}."
+  en: "In 284, per Ibn Jarir, al-Mu'tadid resolved to curse Mu'awiya on the minbars; the vizier Ubayd Allah's warning of popular unrest failed to move him, and he had a document written full of Ali's virtues and Mu'awiya's censures. Qadi Yusuf asked: 'what of the Alawids risen against you in every quarter — if people hear the house's merits they will incline to them' — and al-Mu'tadid desisted {cite:tarikh-khulafa-minhaj-1434 p. 574-575}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0897~", hijri: "0284", calendar: julian, precision: year, status: tradition, derived: true, note: "284؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 574}." }
+relations:
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 569–576"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-32
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

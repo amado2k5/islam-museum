@@ -1,0 +1,22 @@
+id: event/abu-abd-allah-shii-maghreb-288
+class: event
+kind: revolt
+label: { ar: "ظهور أبي عبد الله الشيعي بالمغرب" }
+summary:
+  ar: "في سنة ثمان وثمانين ظهر أبو عبد الله الشيعي بالمغرب فدعا قبيلة كتامة إلى الإمام المهدي فاستجابوا فهذا أول ظهور العبيدية الذين صاروا ملوك ديار مصر {cite:tarikh-khulafa-minhaj-1434 p. 576}."
+  en: "In 288 Abu Abd Allah al-Shi'i appeared in the Maghreb calling the tribe of Kutama to the Imam al-Mahdi — they answered: the first emergence of the Ubaydids who became kings of Egypt {cite:tarikh-khulafa-minhaj-1434 p. 576}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0901~", hijri: "0288", calendar: julian, precision: year, status: tradition, derived: true, note: "288؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 576}." }
+relations:
+  - { type: had_participant, target: person/abu-abd-allah-al-shii, role: "الداعي", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ubayd-allah-al-mahdi, role: "المهدي", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 569–576"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-32
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
