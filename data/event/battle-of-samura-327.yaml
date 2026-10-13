@@ -1,0 +1,24 @@
+id: event/battle-of-samura-327
+class: event
+kind: battle
+label: { ar: "وقعة سمورة (٣٢٧هـ)", en: "The battle of Samura (327 AH)" }
+summary:
+  ar: "الواقعة بين عبد الرحمن الناصر صاحب الأندلس في مائة ألف أو يزيدون وبين رذمير ملك الجلالقة عند سمورة في شوال سنة سبع وعشرين وثلاثمائة بعد الكسوف الذي كان في الشهر بثلاثة أيام، وكانت للمسلمين عليهم ثم أنابوا بعد أن حوصروا وأولجوا إلى المدينة فقتل منهم بعد عبورهم الخندق نحو خمسين ألفاً، وقيل إن أمية بن إسحاق منع رذمير من طلب من نجا منهم وخوفه الكمين ورغبه فيما في المعسكر من الأموال، ثم جهز عبد الرحمن عساكره إلى الجلالقة فهلك فيها منهم ضعف ما قتل من المسلمين {cite:muruj-al-dhahab p. 359-360}."
+  en: "al-Nasir's hundred-thousand-strong expedition against king Rudhmir of the Jalaliqa at Samura in Shawwal 327, three days after the month's eclipse — initially a Muslim victory, it turned when the besieged sortied and killed some fifty thousand after they had crossed the ditch; Umayya ibn Ishaq supposedly dissuaded Rudhmir from pursuing the survivors {cite:muruj-al-dhahab p. 359-360}."
+wings: [time]
+themes: [wars-and-campaigns, battles]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { hijri: "0327-10", precision: month, status: tradition, note: "Shawwal 327 AH, three days after the month's eclipse", sources: [source/muruj-al-dhahab] }
+relations:
+  - { type: had_participant, target: person/abd-al-rahman-iii-al-nasir, role: "صاحب الأندلس الغازي" }
+  - { type: had_participant, target: person/rudhmir-malik-al-jalaliqa, role: "ملك الجلالقة" }
+  - { type: occurred_at, target: place/samura }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 359–360"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muruj-dhahab-batch-3
+sources: [source/muruj-al-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
