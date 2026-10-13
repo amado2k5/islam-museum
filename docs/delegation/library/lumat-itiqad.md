@@ -14,5 +14,10 @@
 
 5. The author's text, PDF pp. 57–100 (printed 56–99): the editor's study on tafwid (57–63), the typeset text on the names, speech, Qur'an, vision, decree and iman (68–100). Claims in `batch3-attributes.md` (outside git), batches 4–7. Entities: the Lum'a's position was attached as evidence on `concept/tawhid`, `concept/iman`, `concept/kalam-allah`, `concept/kasb`, `concept/qadar`, and as a new perspective on `concept/khalq-al-quran`.
 
+6. The author's text, PDF pp. 101–120 (printed 100–119): last-day matters, the Companions and the caliphate, rulers, sects, the four schools, colophons. Claims in `batch3-attributes.md` (batches 8–9, outside git). Entities: the sect listing added as a perspective on `group/jahmiyya`, `group/qadariyya`, `group/murjia`, `group/mutazila`.
+
+## Status
+The text of the treatise is read through its colophons (PDF 1–120). Not yet done: records for the sects named but without group records (Rafida, Khawarij, Karramiyya, Kullabiyya, Salimiyya); the people named in the study (Ibn Abi Du'ad, Ibn 'Asakir, Ibn Rajab, Ibn Uthaymin, Ibn al-Mann) as person records; an academic overview for the tafwid question; the second-source check for Ibn Qudama's dates.
+
 ## Next (superseded)
 Batch 4: the author's text from PDF p.57 (printed 56) onward: remaining attribute statements, decree, faith, and the Companions.
