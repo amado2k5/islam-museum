@@ -1,0 +1,23 @@
+id: event/jarir-quarter-stipulation
+class: event
+kind: other
+label: { ar: "اشتراط جرير ربع ما غلب عليه", en: "Jarir's Stipulation of a Quarter of What He Conquered" }
+summary:
+  ar: "عند البلاذري: مكث عمر سنة لا يذكر العراق لمصاب أبي عبيد وسليط وكان المثنى مقيماً بناحية أليس يدعو العرب إلى الجهاد ثم ندب عمر الناس إلى العراق فجعلوا يتحامونه ويتشاقون عنه حتى هم أن يغزو بنفسه وقدم عليه خلق من الأزد يريدون غزو الشام فدعاهم إلى العراق ورغبهم في غنائم آل كسرى فردّوا الاختيار إليه فأمرهم بالشخوص وقدم جرير بن عبد الله من السراة في بجيلة فسأل أن يأتي العراق على أن يعطى وقومه ربع ما غلبوا عليه فأجابه عمر إلى ذلك فسار نحو العراق وقوم يزعمون أنه مر على طريق البصرة وواقع مرزبان المذار فهزمه وآخرون يزعمون أنه واقع المرزبان وهو مع خالد بن الوليد وقوم يقولون إنه سلك الطريق على فيد والتعلبية إلى المذيب."
+  en: "In al-Baladhuri: Umar went a year not mentioning Iraq for the disaster of Abu Ubayd and Salit, al-Muthanna stationed near Ulays calling the Arabs to jihad; then Umar summoned the people to Iraq and they kept dodging and declining until he meant to raid himself — when a party of Azd came wanting to raid Syria, he called them to Iraq and made Khosrow's house's spoils desirable, so they left the choice to him and he ordered their departure. Jarir ibn Abdallah came from al-Sarat among Bajila asking to go to Iraq on condition he and his people be given a quarter of what they conquered — Umar agreed, and he marched toward Iraq; some allege he passed by Basra's road and fought the Madhar marzban, defeating him, others that he fought the marzban while with Khalid ibn al-Walid, and some say he took the road over Fayd and al-Ta'labiyya to al-Mudhayyib."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq, arabia]
+date:
+  start: { edtf: "0635~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد نحو سنة من يوم الجسر (البلاذري ص 353). التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/jarir-ibn-abd-allah-al-bajali, role: "المشترط", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "المجيب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "الداعي من أليس", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 353"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-29
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

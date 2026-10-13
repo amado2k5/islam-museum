@@ -1,0 +1,25 @@
+id: event/abu-ubayd-iraq-campaign
+class: event
+kind: campaign
+label: { ar: "بعثة أبي عبيد إلى العراق", en: "Abu Ubayd's Dispatch to Iraq" }
+summary:
+  ar: "عند البلاذري: لما استُخلف عمر وجّه أبا عبيد بن مسعود بن عمرو بن عمير بن عوف بن عقدة بن غيرة بن عوف بن ثقيف — وهو أبو المختار بن أبي عبيد — إلى العراق في ألف وكتب إلى المثنى يأمره بتلقيه والسمع والطاعة له وبعث معه سليط بن قيس بن عمرو الأنصاري وقال له لولا عجلة فيك لوليتك ولكن الحرب زبون لا يصلح لها إلا الرجل المكيث فأقبل أبو عبيد لا يمر بقوم من العرب إلا رغّبهم في الجهاد والغنيمة فصحبه خلق فلما صار بالمذيب بلغه أن جابان الأعجمي بتستر في جمع كثير فلقيه فهزم جمعه وأسر منهم ثم أتى درنى وبها جمع للعجم فهزمهم إلى كسكر وسار إلى الجالينوس وهو بباروسما فصالحه ابن الأندرزغز عن كل رأس على أربعة دراهم على أن ينصرف ووجّه المثنى إلى زندورد فوجدهم قد نقضوا فحاربهم فظفر وسبى ووجّه عروة بن زيد الخيل الطائي إلى الزوابي فصالح دهقانها على مثل صلح باروسما."
+  en: "In al-Baladhuri: when Umar succeeded he sent Abu Ubayd ibn Mas'ud ibn Amr ibn Umayr ibn Awf ibn Uqda ibn Ghiyara ibn Awf ibn Thaqif — being Abu al-Mukhtar ibn Abi Ubayd — to Iraq in a thousand, writing al-Muthanna to receive, hear and obey him, and sent with him Salit ibn Qays ibn Amr al-Ansari, telling him 'but for the haste in you I'd have appointed you — war is cunning, only the patient man suits it.' Abu Ubayd came on urging every Arab tribe to jihad and booty till a host joined him; at al-Mudhayyib he heard Jaban the Persian was at Tustar in a great host — met him, routed his host and took captives; then to Durna whose Persian host he routed to Kaskar; then to the Jalinus at Barusma where Ibn al-Andarzghar made peace at four dirhams a head on withdrawing; he sent al-Muthanna to Zandaward — found repudiated, fought, prevailed and captured — and Urwa ibn Zayd al-Khayl al-Ta'i to al-Zawabi whose dihqan he pacified on Barusma's terms."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0634~", calendar: julian, precision: year, status: tradition, derived: true, note: "أول خلافة عمر سنة 13 (البلاذري ص 350–351). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/al-hira }
+  - { type: had_participant, target: person/abu-ubayd-ibn-masud, role: "القائد المبعوث", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الباعث", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salit-ibn-qays, role: "المبعوث معه صاحب النصيحة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المعاون", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 350–351"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-29
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

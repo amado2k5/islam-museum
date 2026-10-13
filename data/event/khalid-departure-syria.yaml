@@ -1,0 +1,23 @@
+id: event/khalid-departure-syria
+class: event
+kind: migration
+label: { ar: "شخوص خالد إلى الشام", en: "Khalid's Departure for Syria" }
+summary:
+  ar: "عند البلاذري: سار خالد من عين التمر إلى الشام وقال للمثنى بن حارثة ارجع رحمك الله إلى سلطانك فغير مقصّر ولا وانٍ وكان شخوص خالد إلى الشام في شهر ربيع الآخر ويقال في شهر ربيع الأول سنة ثلاث عشرة وقال قوم إن خالداً أتى دومة من عين التمر ففتحها ثم أقبل إلى الحيرة فمنها مضى إلى الشام وأصح ذلك مضيه من عين التمر."
+  en: "In al-Baladhuri: Khalid marched from Ayn al-Tamr to Syria, telling al-Muthanna ibn Haritha 'return, may God have mercy on you, to your command — unsparing, unwasting'; his departure was in Rabi' al-Akhir — or, it is said, Rabi' al-Awwal — of year 13; some say he came to Duma from Ayn al-Tamr, opened it, then returned to al-Hira and thence to Syria — the sounder being his march direct from Ayn al-Tamr."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { hijri: "0013-03~", precision: month, status: debated, note: "شهر ربيع الآخر ويُقال ربيع الأول سنة 13 (البلاذري ص 349–350)" }
+relations:
+  - { type: occurred_at, target: place/ayn-al-tamr }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "المودّع المسافر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المخلف على الأمر", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 349–350"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-29
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
