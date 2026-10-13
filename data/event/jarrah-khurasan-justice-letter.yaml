@@ -1,0 +1,22 @@
+id: event/jarrah-khurasan-justice-letter
+class: event
+kind: other
+label: { ar: "كتاب الجراح ورد عمر بن عبد العزيز" }
+summary:
+  ar: "كتب الجراح بن عبد الله إلى عمر بن عبد العزيز أن أهل خراسان قوم ساءت رعيتهم وإنه لا يصلحهم إلا السيف والسوط فإن رأى أمير المؤمنين أن يأذن له في ذلك، فكتب إليه عمر أما بعد فقد بلغني كتابك تذكر أن أهل خراسان قد ساءت رعيتهم وأنه لا يصلحهم إلا السيف والسوط فقد كذبت بل يصلحهم العدل والحق فابسط ذلك فيهم والسلام {cite:tarikh-khulafa-minhaj-1434 p. 393}."
+  en: "Al-Jarrah ibn Abdallah wrote to Umar ibn Abd al-Aziz that the people of Khurasan were unruly subjects whom only the sword and the whip would set right, asking permission to apply them; Umar wrote back: 'Your letter reached me saying Khurasan's people are unruly and only sword and whip will mend them — you lie; justice and truth will mend them. Spread those among them, and peace' {cite:tarikh-khulafa-minhaj-1434 p. 393}."
+wings: [time, ideas]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0717/0720", hijri: "0099~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة عمر بن عبد العزيز؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 393}." }
+relations:
+  - { type: had_participant, target: person/al-jarrah-ibn-abdallah-al-hakami, role: "الكاتب", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "الراد", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 393"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-11
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
