@@ -1,24 +1,21 @@
 id: event/founding-of-mutawakkiliyya
 class: event
 kind: founding
-label: { ar: "عمارة بُغا لشمكور وتسميتها المتوكلية", en: "Bugha's Rebuilding of Shamkur as al-Mutawakkiliyya" }
+label: { ar: "تأسيس المتوكلية", en: "The Founding of al-Mutawakkiliyya" }
 summary:
-  ar: "عند البلاذري عن جماعة من أهل برذعة: كانت شمكور مدينة قديمة فوجّه سلمان بن ربيعة الباهلي من فتحها فلم تزل مسكونة معمورة حتى أخربها الساوردية — وهم قوم تجمعوا في أيام انصراف يزيد بن أسيد عن أرمينية فغلظ أمرهم وكثرت نوائبهم — ثم إن بُغا مولى المعتصم بالله عمّرها في سنة 240 وهو والي أرمينية وأذربيجان وشمشاط وأسكنها قوماً خرجوا إليه من الخزر مستأمنين لرغبتهم في الإسلام ونقل إليها التجار من برذعة وسمّاها المتوكلية."
-  en: "In al-Baladhuri from a company of Bardha'a's people: Shamkur was an ancient city which Salman ibn Rabi'a al-Bahili's man took, and it stayed peopled and prosperous until the Sawardiyya ruined it — a people who gathered in the days of Yazid ibn Asid's departure from Armenia, whose power hardened and whose raids multiplied; then Bugha, mawla of al-Mu'tasim, rebuilt it in year 240 while governor of Armenia, Adharbayjan and Shimshat, settling in it a people who had come out to him from the Khazars under safe-conduct desiring Islam, transferring to it the merchants of Bardha'a, and naming it al-Mutawakkiliyya."
+  ar: "عند البلاذري: استخلف المتوكل في ذي الحجة سنة 232 فأقام بالهاروني وبنى بناء كثيراً واقطع الناس في ظهر سر من رأى بالحائر الذي كان المعتصم احتجره قطائع فاتسعوا بها وبنى مسجداً جامعاً وأعظم النفقة عليه وأمر برفع منارته لتعلوا أصوات المؤذنين حتى نظر إليها من فراسخ فجمع الناس فيه وتركوا المسجد الأول ثم أحدث مدينة سماها المتوكلية وعمرها وأقام بها واقطع الناس فيها القطائع وجعلها فيما بين الكرخ المعروف بفيروز وبين القاطول المعروف بكسرى فدخلت الدور والقرية المعروفة بالماحوزة فيها وبنى بها مسجداً جامعاً وكان من ابتدائه إياها إلى أن نزلها أشهر ونزلها في أول سنة 246 ثم توفي بها في شوال سنة 247 واستخلف المنتصر فانتقل عنها إلى سر من رأى يوم الثلاثاء لعشر خلون من شوال."
+  en: "In al-Baladhuri: al-Mutawakkil succeeded in Dhu al-Hijja 232, dwelt at al-Haruni and built much; he granted the people qati'as behind Sur man Ra'a in the preserve al-Mu'tasim had walled, and they spread through it; he built a congregational mosque at vast cost and had its minaret raised so the muezzins' voices would carry — visible from parasangs away — gathering the people who left the first mosque. Then he founded a city he named al-Mutawakkiliyya, between Karkh Fayruz and Qatul Kisra, absorbing the hamlet called al-Ma'huza, built its mosque, granted its qati'as and dwelt there in the first of 246 — a few months after founding it — dying there in Shawwal 247; al-Muntasir succeeded that night and moved back to Sur man Ra'a on Tuesday the tenth of Shawwal."
 wings: [time, place]
 periods: [period/abbasid-early]
 regions: [levant-iraq]
-date:
-  start: { edtf: "0854~", hijri: "0240", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 240 (البلاذري ص 286). التحويل مشتق." }
 relations:
-  - { type: occurred_at, target: place/shamkur }
-  - { type: had_participant, target: person/bugha-al-kabir, role: "العمّار والي أرمينية وأذربيجان وشمشاط", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: group/khazars, role: "مستأمنون راغبون في الإسلام سُكنوا المدينة", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: had_participant, target: group/sawardiyya, role: "سابقون: مخربو المدينة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/samarra }
+  - { type: had_participant, target: person/al-mutawakkil, role: "المؤسس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muntasir, role: "المتخلي عنها", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 286"
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 418"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-17
+  run: lib-futuh-buldan-batch-40
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

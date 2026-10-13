@@ -1,0 +1,22 @@
+id: event/arabization-of-iraq-diwan
+class: event
+kind: other
+label: { ar: "نقل ديوان خراج العراق إلى العربية", en: "The Arabization of Iraq's Kharaj Diwan" }
+summary:
+  ar: "عند البلاذري عن المدائني عن علي بن محمد بن أبي سيف عن أشياخه: لم يزل ديوان خراج السواد وسائر العراق بالفارسية فلما ولي الحجاج العراق استكتب زادان فروخ بن بيري وكان معه صالح بن عبد الرحمن مولى بني تميم يخط بين يديه بالعربية والفارسية وكان أبو صالح من سبي سجستان فوصل زادان فروخ صالحاً بالحجاج وخف على قلبه فقال له ذات يوم إنك قريب إلى الأمير وأراه قد استخفني ولا آمن أن يقدمني عليك وإن تسقط."
+  en: "In al-Baladhuri via al-Mada'ini from Ali ibn Muhammad ibn Abi Sayf's shaykhs: the diwan of the Sawad's kharaj and all Iraq remained in Persian until al-Hajjaj governed Iraq and took as scribe Zadhanfarrukh ibn Biri, who had with him Salih ibn Abd al-Rahman — mawla of Banu Tamim whose father was among Sijistan's captives — writing before him in Arabic and Persian; Zadhanfarrukh presented Salih to al-Hajjaj, who took a liking to him, and one day told him 'you have grown close to the amir and I see he thinks lightly of me; I fear he will advance you over me and drop you.'"
+wings: [time, place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: occurred_at, target: place/kufa }
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salih-ibn-abd-al-rahman, role: "الكاتب الناقل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/zadhanfarrukh-ibn-biri, role: "الكاتب الأول", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 421"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-40
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
