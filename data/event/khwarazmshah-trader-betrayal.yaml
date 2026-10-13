@@ -1,0 +1,22 @@
+id: event/khwarazmshah-trader-betrayal
+class: event
+kind: other
+label: { ar: "غدر خوارزمشاه بتجار التتار وقتل الرسل" }
+summary:
+  ar: "أرسل جنكزخان إلى السلطان خوارزم شاه رسلاً وهدايا وقال الرسول إن القان الأعظم يسلم عليك ويقول لك ليس يخفى علي عظم شأنك وأنا أرى مسالمتك من جملة الواجبات وأنت عندي مثل أعز أولادي فإن رأيت أن تعقد بيننا المودة وتأمر التجار بالسفر لتعم المصلحتين فعلت فأجابه إلى ملتمسه، وكان خال خوارزم شاه ينوب على بلاد ما وراء النهر فشرهت نفسه إلى أموال التجار وكاتب السلطان يقول إن هؤلاء القوم قد جاءوا بزي التجار وما قصدهم إلا التجسس فأذن له بالاحتياط عليهم فقبض عليهم وأخذ أموالهم فوردت رسل جنكزخان تقول إنك أعطيت أمانك للتجار فغدرت والغدر قبيح وهو من سلطان الإسلام أقبح فإن زعمت أن الذي فعله خالك بغير أمرك فسلمه إلينا وإلا سوف تشاهد مني ما تعرفني به فحصل عند خوارزم شاه من الرعب ما خامر عقله فتجلد وأمر بقتل الرسل فقتلوا، قال السيوطي فيا لها من حركة لما هدرت من دماء الإسلام أجرت بكل نقطة سيلاً من الدم {cite:tarikh-khulafa-minhaj-1434 p. 713-714}."
+  en: "Genghis Khan sent envoys and gifts — 'I hold your peace a duty and you as a dearest son; let traders pass for both our goods'. Khwarazmshah's uncle at Transoxiana coveted the Muslim traders' wealth, claimed them spies, seized them; the envoys came — 'you gave your aman then broke faith, foulest in a sultan of Islam; hand us your uncle or see what you shall know me by'. The terror clouded his reason — he had the envoys killed. 'O what a move', writes al-Suyuti: 'for every drop of Muslim blood it spilled, it ran a river of blood' {cite:tarikh-khulafa-minhaj-1434 p. 713-714}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1218~", hijri: "0615~", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو 615؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 713}." }
+relations:
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "الغادر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/genghis-khan, role: "القان", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 704–714"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-45
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
