@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-5** (pp. 293–298 — Ali's caliphate): `event/bayat-ali` (Badri approval condition, Talha/Zubayr's reluctant pledge); enriched `death-of-ali-ibn-abi-talib` (the Meccan three-way pact, the dream, dar al-imara burial, Ibn Muljim's execution), `battle-of-the-camel` (Jumada II 36, 13k dead, 15-night Basra stay), `battle-of-nahrawan` (Harura', Ibn Abbas's debate, Dhu'l-Thudayya); persons qatam, al-burak-ibn-abdallah, amr-ibn-bakir; merged ibn-muljim→`abd-al-rahman-ibn-muljam`.
+
 - **Batch TK-4** (pp. 259–278 — Uthman): `event/baya-of-uthman` (Abd al-Rahman's private soundings, Ali's "فيما استطعت", Abu Talha's door guard), `event/uthman-expands-two-mosques` (Haram 26H, Prophet's mosque 29H — 160×150 cubits, teak roof); enriched `event/murder-of-uthman` (forged letter in the water-skin, Marwan's hand, siege, al-Mughira's three options, Hash Kawkab burial) and `event/first-raid-on-cyprus` (Amr's sea description); `person/muhammad-ibn-abi-bakr`.
 
 - **Batch TK-3** (pp. 240–258 — Umar's late caliphate): `event/caesar-palm-letter` (the Caesarea palm letter), `event/umar-justice-anecdotes` (Ka'b ibn Suwar's verdict, Ali's meal-advice); enriched `event/death-of-umar` (Abu Lu'lu'a's windmill threat, Umar's premonition, the six-member shura); persons kab-al-ahbar, kab-ibn-suwar, amr-ibn-maymun; merged abu-lulua→`abu-lulu-firuz`, suhayb-al-rumi→`suhayb-ibn-sinan` (both pre-existing, same men).
