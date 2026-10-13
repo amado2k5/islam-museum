@@ -1,0 +1,21 @@
+id: event/zindiq-hadith-sifters
+class: event
+kind: other
+label: { ar: "محاورة الرشيد مع الزنديق في الحديث" }
+summary:
+  ar: "أخذ هارون الرشيد زنديقاً فأمر بضرب عنقه فقال له الزنديق لم تضرب عنقي قال أريح العباد منك قال فأين أنت من ألف حديث وضعتها على رسول الله كلها ما فيها حرف نطق به قال فأين أنت يا عدو الله من أبي إسحاق الفزاري وعبد الله بن المبارك ينخلانها فيخرجانها حرفاً حرفاً {cite:tarikh-khulafa-minhaj-1434 p. 467}."
+  en: "Al-Rashid seized a zindiq and ordered his neck struck; 'Why kill me?' he asked — 'to give people rest from you.' 'And what of the thousand hadith I have foisted on the Prophet, not one letter of which he spoke?' 'And what of you, enemy of God, against Abu Ishaq al-Fazari and Abdallah ibn al-Mubarak, who sift them and cast them out letter by letter?' {cite:tarikh-khulafa-minhaj-1434 p. 467}."
+wings: [time, ideas]
+periods: [period/abbasid-early]
+date:
+  start: { edtf: "0786~", hijri: "0170~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافته؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 467}." }
+relations:
+  - { type: had_participant, target: person/harun-al-rashid, role: "السائل", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: concept/ittisal-al-isnad, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 467"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-21
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
