@@ -48,4 +48,6 @@
 
 **Flags:** none yet. Creed/fiqh differences inside the commentary (e.g. hadith 1 on intention and madhhab rulings, hadith 3 on arkan al-islam, bid'a in hadith 28) will need `perspectives` where schools differ; attribute every grading to its grader, never the museum's voice.
 
-**Next:** batch 14 — hadiths 37–39 (pp. 754–809): verify headings (h37 p. 754, h38 p. 770, h39 p. 796).
+- (12 Oct 2026) Batch 14: hadiths 37–39 (pp. 754–809): `passage/arbaun-37` (Ibn Abbas — God wrote the good and evil deeds; Bukhari 6491 + Muslim 131 via al-Ja'd Abu Uthman ← Abu Raja' al-Utaridi; Muslim's «أو محاها الله ولا يهلك على الله إلا هالك» addition; Abu Hurayra's Sahihayn parallel), `passage/arbaun-38` (the great qudsi awliya' hadith; **Bukhari only** 6502; gharaba via Ibn Karama; Khalid b. Mukhallad's manakir per Ahmad; Ata' = Ibn Abi Rabah vs Ibn Yasar; A'isha's «من آذى لي ولياً» route), `passage/arbaun-39` (Ibn Abbas — pardoning error, forgetfulness, compulsion; al-Nawawi: hasan; the two al-Awza'i routes; al-Hakim's sahih vs **Ahmad's vehement repudiation** — mursal via al-Hasan only); new `concept/hamm`, `concept/wilaya`, `concept/nawafil`, `concept/khata-nisyan`, `concept/ikrah`.
+
+**Next:** batch 15 — hadiths 40–42 (pp. 810–863): verify headings (h40 p. 810, h41 p. 824, h42 p. 831).

@@ -1,0 +1,17 @@
+id: passage/arbaun-39
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "39"
+label: { ar: "الأربعون 39 — تجاوز الله عن أمتي الخطأ والنسيان", en: "Arba'un 39 — God pardoned my community error and forgetfulness" }
+text: "إن الله تجاوز لي عن أمتي الخطأ والنسيان وما استكرهوا عليه"
+summary:
+  ar: "حديث ابن عباس أن رسول الله قال: «إن الله تجاوز لي عن أمتي الخطأ والنسيان وما استكرهوا عليه» — وهو الحديث التاسع والثلاثون في الأربعين النووية وفي شرح ابن رجب، وقال النووي حديث حسن رواه ابن ماجه والبيهقي وغيرهما؛ خرجه ابن ماجه (2045) والعقيلي والطبراني والبيهقي من طريق الأوزاعي عن عطاء عن ابن عباس، وخرجه ابن حبان والدارقطني وغيرهما وعندهم عن الأوزاعي عن عطاء عن عبيد بن عمير عن ابن عباس — وهذا إسناد صحيح في ظاهر الأمر ورواته كلهم محتج بهم في الصحيحين وقال الحاكم صحيح على شرطهما؛ لكن له علة — فقد أنكره الإمام أحمد جداً وقال ليس يروى فيه إلا عن الحسن عن النبي مرسلاً، وقيل لأحمد إن الوليد بن مسلم روى عن مالك عن نافع عن ابن عمر مثله فأنكره أيضاً، وذكر لأبي حاتم الرازي حديث الأوزاعي وحديث مالك ورواية الوليد عن ابن لهيعة عن موسى بن وردان عن عقبة بن عامر (جامع العلوم والحكم ص 796–809)."
+  en: "The hadith of Ibn Abbas that the Messenger of God said: 'God has pardoned for my sake on behalf of my community error, forgetfulness, and what they were coerced into' — the thirty-ninth of al-Nawawi's Forty and of Ibn Rajab's commentary, graded hasan by al-Nawawi, narrated by Ibn Majah and al-Bayhaqi among others; Ibn Majah (2045), al-Uqayli, al-Tabarani and al-Bayhaqi transmit it through al-Awza'i from Ata' from Ibn Abbas, while Ibn Hibban, al-Daraqutni and others carry al-Awza'i from Ata' from Ubayd ibn Umayr from Ibn Abbas — an isnad sound in appearance whose narrators are all relied upon in the two Sahihs, and al-Hakim declared it sound on their condition; yet it has a hidden defect, for Imam Ahmad repudiated it vehemently, saying it is only transmitted from al-Hasan from the Prophet as a mursal, and when told that al-Walid ibn Muslim narrated its like from Malik from Nafi' from Ibn Umar he repudiated that too; and Abu Hatim al-Razi was presented with al-Awza'i's hadith, Malik's hadith, and al-Walid's route from Ibn Lahi'a from Musa ibn Wardan from Uqba ibn Amir (Jami' al-Ulum wal-Hikam pp. 796–809)."
+relations:
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/khata-nisyan, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/ikrah, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 39 pp. 796–809", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-14" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 796 (~14 words); the two al-Awza'i routes, al-Hakim's grading and Ahmad's repudiation from pp. 796–797" }
