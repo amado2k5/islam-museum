@@ -159,4 +159,6 @@
 
 - **Batch 72** (pp. 552–555 — Sijistan): `event/sijistan-campaign-rabi` (the 'anaza ransom at Zaliq, Zusht, Nashrudh, the corpse-truce, 40k captives, al-Hasan al-Basri as katib); `event/ibn-samura-zur-idol` (Zaranj feast-day siege, Dawar, the Zur idol's rubies, "neither harms nor benefits"); `concept/jaiza` (Qatn's 1000-dirham river prize — first ja'iza); places zaranj, zaliq, jabal-al-zur, bust, zabil, rukhkhaj, fahraj, kish; persons qatn-ibn-qabisa, shurayk-ibn-al-awar, al-hakam-ibn-nuhayk, yazid-ibn-ziyad-al-himyari, aparwiz, abd-al-rahman-ibn-samura.
 
-**Next:** batch 73 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 73** (pp. 556–559 — Sijistan → Kabul): `event/sijistan-habata-unrest` (Umair expelled, Hasaka & Imran's samalik, Ibn Jaza' killed, Rubay'i's 4000); `event/march-on-kabul` (breach, Abbad's night vigil — merged into `abbas-ibn-al-husayn-al-hibati`, the elephant at the gate); `event/rutbil-rabi-war`; `event/sulh-ubaydallah-rutbil` (the million-dirham peace at Barzan); persons incl. rutbil, kabul-shah, ubaydallah-ibn-abi-bakra, qatari-ibn-al-fujaa; places kabul, zabulistan, khawash, wazan, khushak, al-akjh, barzan. `abdallah-ibn-khazim` merged into `abdallah-ibn-khazim-al-sulami`.
+
+**Next:** batch 74 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

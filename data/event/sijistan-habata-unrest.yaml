@@ -1,0 +1,21 @@
+id: event/sijistan-habata-unrest
+class: event
+kind: revolt
+label: { ar: "فتنة الحبطات بسجستان", en: "The Habata Unrest in Sijistan" }
+summary:
+  ar: "أقام عبد الرحمن بن سمرة بزرنج حتى اضطرب أمر عثمان فاستخلف أميراً بن الأحمر اليشكري وانصرف فأخرجه أهل زرنج وأغلقوها ولزياد الأعجم فيه لو لا أمير هلكت يشكر ويشكر هلكى على كل حال. فلما فرغ علي بن أبي طالب من أمر الجمل خرج حسكة بن عتاب الحبطي وعمران بن الفصيل البرجمي في صماليك من العرب حتى نزلوا زالق وقد نكث أهلها فأصابوا منها مالاً وأخذوا جد البختري الأصم بن مجاهد مولى شيبان ثم أتوا زرنج وقد خافهم مرزبانها فصالحهم ودخلوها وبعث علي عبد الرحمن بن جزء الطائي إلى سجستان فقتله حسكة فقال علي لأقتلن من الحبطات أربعة آلاف فقيل له إن الحبطات لا تكون خمسمائة وقال أبو مخنف بعث علي عون بن جمدة بن هبيرة المخزومي إلى سجستان فقتله بهدالي اللص الطائي في طريق العراق فكتب علي إلى عبد الله بن العباس يأمره أن يولي سجستان رجلاً في أربعة آلاف فوجه ربعي بن الكاس العنبري في أربعة آلاف ومعه الحصين بن أبي الحر ونايل بن ذي الحرة الحميري وكان على مقدمته فلما وردوا سجستان قاتلهم حسكة فقتلوه وضبط ربعي البلاد وقال راجزهم تمن الذين اقتحموا سجستان أن لا نوالي شيعة ابن عفان إنا وجدنا في منير الفرقان."
+  en: "Ibn Samura left Umair ibn al-Ahmar al-Yashkuri over Zaranj when Uthman's affair unravelled — its people expelled him and shut the gates. After the Camel, Hasaka ibn Utab al-Habati and Imran ibn al-Fasil al-Burjumi rode out with Arab desperadoes: plundered Zaliq whose folk had broken, captured al-Bakhtari's grandfather al-Asamm ibn Mujahid, and entered Zaranj whose marzban truced. Ali's envoy Abd al-Rahman ibn Jaza' al-Ta'i was killed by Hasaka — 'I will kill four thousand of the Habata', and it was said 'the Habata are not even five hundred'; Abu Mikhnaf adds that Awn ibn Jamda al-Makhzumi, sent likewise, was killed by the bandit Buhadali al-Ta'i. Ali then had Ibn Abbas send Rubay'i ibn al-Kas al-Anbari with four thousand — with al-Husayn ibn Abi al-Hurr and Na'il ibn Dhi al-Hurra on the vanguard — who killed Hasaka and secured the country, their rajaz vow: 'we will not befriend the party of Ibn Affan — we found it in the Book of the Furqan'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/hasaka-ibn-utab, role: "قائد الصماليك", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/imran-ibn-al-fasil, role: "قائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rubayi-ibn-al-kas, role: "المعيد بأمر علي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-jaza, role: "رسول علي المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sijistan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
