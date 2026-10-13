@@ -10,5 +10,7 @@
 2. Manuscripts, method and title (PDF pp. 13–23; printed 12–22) — claims in the same file, batch 2.
 3. Biography and works from the editor's study (PDF pp. 38–47; printed 37–46) — claims in the same file, batch 2b. Entities: person/ibn-qudama-al-maqdisi extended (works, death detail, Ibn Taymiyya's praise).
 
+4. The author's text on names and attributes (PDF pp. 50–54; printed 49–53) — claims in `batch3-attributes.md` (outside git). Entity: `concept/tafwid` with two perspectives (the book's Hanbali position; Ibn Taymiyya's reading as quoted by the editor). The academic view is not yet sourced.
+
 ## Next
-Batch 3: the author's own text, starting near PDF p.50 (printed 49). The editor's study before it (PDF 48–49, on tafwid) is the editor's writing and is not attributed to the author.
+Batch 4: the author's text from PDF p.57 (printed 56) onward: remaining attribute statements, decree, faith, and the Companions.
