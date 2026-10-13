@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-8** (pp. 339–347 — Yazid + Muawiya II): `event/waqat-al-harra` (Ibn Hanzala's charge, 306 nobles, the pillage), `event/siege-of-ibn-al-zubayr-64` (mangonels, the Ka'ba fire incl. Ishmael's ram horns, "إن طاغيتكم قد هلك"), `event/death-of-yazid-ibn-muawiya`, `event/caliphate-of-muawiya-ii` ("ما أصبت من حلاوتها"); enriched `battle-of-karbala` (4,000 under Umar ibn Sa'd, surrender refusal, the killers' variants, head on the shield, the heads sequence); persons umar-ibn-sad, khawli-ibn-yazid-al-asbahi, muawiya-ibn-yazid, abdullah-ibn-hanzala.
+
 - **Batch TK-7** (pp. 323–332 — Muawiya): `event/am-al-jamaa` (41H), `event/istilhaq-ziyad` (first ruling contrary to the Prophet's judgment), `event/baya-wilayat-ahd-yazid` (Ibn Abi Bakr's "سنة كسرى وقيصر", Ibn al-Zubayr's ثعلب رواغ, the disputed minbar announcement), `event/death-of-muawiya` (Rajab 60, Bab al-Jabiya burial, the hair relics), `concept/diwan-al-khatim` (the forged 100k warrant).
 
 - **Batch TK-6** (pp. 305–320 — Ali's sayings + Hasan): `event/shurayh-armor-judgment` (the armor trial), `event/death-of-hasan-ibn-ali` (Ja'da's poisoning per the account, refused to name the poisoner, Baqi burial dispute); enriched `treaty-of-hasan-and-muawiya` (six months, three conditions, "العار خير من النار"); persons shurayh-al-qadi, jada-bint-al-ashath.
