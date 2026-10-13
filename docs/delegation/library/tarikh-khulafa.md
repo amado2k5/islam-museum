@@ -13,4 +13,6 @@
 
 ## Done
 
+- **Batch TK-1** (pp. 93–105 — miscellany + Abu Bakr opening): 5 `work` entities (caliph histories: Naftawayh, al-Suli's Awraq, Ibn al-Jawzi, Ibn Abi Tahir, Abu Musa Harun); 4 persons; `concept/quraysh-clan-offices` (siqaya/rifada, hijaba/liwa'/nadwa, Abu Bakr's diya).
+
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
