@@ -1,0 +1,22 @@
+id: event/sanjar-ghuzz-capture-548
+class: event
+kind: battle
+label: { ar: "أسر الغز السلطان سنجر" }
+summary:
+  ar: "في سنة ثمان وأربعين خرجت الغز على السلطان سنجر فأسروه وأذاقوه الذل وملكوا بلاده وبقوا الخطبة باسمه وبقي معهم صورة بلا معنى وصار يبكي على نفسه وله اسم السلطنة وراتبه في قدر راتب سائس من سياسه {cite:tarikh-khulafa-minhaj-1434 p. 674}."
+  en: "In 548 the Ghuzz rose on sultan Sanjar, captured and humbled him, took his lands yet kept the khutba in his name — a form without meaning, weeping at his own state, a sultan in name with a groom's stipend {cite:tarikh-khulafa-minhaj-1434 p. 674}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1153~", hijri: "0548", calendar: julian, precision: year, status: tradition, derived: true, note: "548؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 674}." }
+relations:
+  - { type: had_participant, target: person/sanjar, role: "الأسير", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: group/ghuzz, role: "الآسرون", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 666–675"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-41
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

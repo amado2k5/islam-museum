@@ -1,0 +1,22 @@
+id: event/muqtafi-masud-estates-dispute
+class: event
+kind: other
+label: { ar: "مصادرة مسعود أموال الخلافة وجواب المقتفي" }
+summary:
+  ar: "أخذ السلطان مسعود جميع ما في دار الخلافة من دواب وأثاث وذهب وستور وسرادق ولم يترك في اصطبل الخلافة سوى أربعة أفراس وثمانية أبغال برسم الماء فيقال إنهم بايعوا المقتفي على ألا يكون عنده خيل ولا آلة سفر، ثم في سنة إحدى وثلاثين أخذ جميع تعلق الخليفة وأرسل وزيره يطلب مئة ألف دينار فقال المقتفي ما رأينا أعجب من أمرك أنت تعلم أن المسترشد سار إليك بأمواله فجرى ما جرى وأن الراشد فعل ما فعل ورحل وأخذ ما تبقى ولم يبق إلا الأثاث فأخذته كله وتصرفت في دار الضرب وأخذت التركات والجوالي فمن أي وجه نقيم لك هذا المال وما بقي إلا أن نخرج من الدار ونسلمها فإني عاهدت الله ألا آخذ من المسلمين حبة ظلماً فترك السلطان الأخذ من الخليفة ثم في جمادى الأولى أعيدت بلاد الخليفة ومعاملاته والتركات إليه {cite:tarikh-khulafa-minhaj-1434 p. 671-672}."
+  en: "Mas'ud stripped the caliphal palace — four mares and eight mules left in the stable — then in 531 seized all the caliph's estates and demanded a hundred thousand dinars. Al-Muqtafi's answer: 'What wonder — you know what befell al-Mustarshid's wealth at your hands, what al-Rashid took, and that you seized the furniture, the mint, the estates and the tolls. From what shall we raise it? Nothing remains but to hand you the palace itself — I have sworn to God not to take a grain wrongfully from the Muslims'. The sultan desisted, and in Jumada I the caliph's lands were restored {cite:tarikh-khulafa-minhaj-1434 p. 671-672}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1136~", hijri: "0530~", calendar: julian, precision: year, status: tradition, derived: true, note: "مصادرة دار الخلافة سنة ٥٣٠ ثم تعلقها وطلب المال سنة ٥٣١؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 671}." }
+relations:
+  - { type: had_participant, target: person/al-muqtafi-billah, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/masud-ibn-muhammad-saljuqi, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 666–675"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-41
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
