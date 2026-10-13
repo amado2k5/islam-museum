@@ -157,4 +157,6 @@
 
 - **Batch 71** (pp. 548–551 — Istakhr + Kirman): `event/fall-of-istakhr` (Mahak's sulh → breach → storm, 40k/100k, Ibn Ma'tar's Bramjard death); `event/conquest-of-jur` (29h, hidden entrance variant); `event/shahrij-slave-aman` (the arrow-aman + Umar's ruling "عبد المسلمين من المسلمين"); `event/kirman-conquest` (marzban killed at Abr Kawan, Mujashi's campaign, Shirjan storm); places uqbat-al-jarud, bramjard, shirjan, bimand, jirraft, bamm, siraf, karyan; persons mahak, ubaydallah-ibn-matar, khalid-ibn-al-muammar, abu-barza-al-aslami, kharisha-ibn-masud.
 
-**Next:** batch 72 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 72** (pp. 552–555 — Sijistan): `event/sijistan-campaign-rabi` (the 'anaza ransom at Zaliq, Zusht, Nashrudh, the corpse-truce, 40k captives, al-Hasan al-Basri as katib); `event/ibn-samura-zur-idol` (Zaranj feast-day siege, Dawar, the Zur idol's rubies, "neither harms nor benefits"); `concept/jaiza` (Qatn's 1000-dirham river prize — first ja'iza); places zaranj, zaliq, jabal-al-zur, bust, zabil, rukhkhaj, fahraj, kish; persons qatn-ibn-qabisa, shurayk-ibn-al-awar, al-hakam-ibn-nuhayk, yazid-ibn-ziyad-al-himyari, aparwiz, abd-al-rahman-ibn-samura.
+
+**Next:** batch 73 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

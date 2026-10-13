@@ -1,0 +1,20 @@
+id: event/sijistan-campaign-rabi
+class: event
+kind: campaign
+label: { ar: "حملة الربيع بن زياد إلى سجستان", en: "al-Rabi' ibn Ziyad's Sijistan Campaign" }
+summary:
+  ar: "توجه عبد الله بن عامر يريد خراسان سنة ٣٠ فنزل بعسكر شق الشيرجان من كرمان ووجه الربيع بن زياد بن أنس بن الديان الحارثي إلى سجستان فنزل الفهرج ثم قطع المفازة وهي خمسة وسبعون فرسخاً فأتى رستاق زالق فأغار على أهله يوم مهرجان فأخذ دهقانه فافتدى نفسه بأن ركز عنزة ثم غمرها ذهباً وفضة وصالحه على حقن دمه ثم أتى قرية كركوية فصالحوه ولم يقاتلوه ونزل هيسون فأقاموا له النزل وصالحوه ثم أخذ الأدلاء من زالق إلى زرنج وعبر وادي نوق وأتى زوشت فقاتله أهلها قتالاً شديداً فأصيب رجال من المسلمين ثم هزمهم حتى اضطروهم إلى المدينة ثم أتى ناشروذ فظفر بها وأصاب بها عبد الرحمن أبا صالح الذي كتب للحجاج مكان زدانفروخ وولي خراج العراق لسليمان بن عبد الملك فاشترته امرأة من بني مرة يقال لها عبلة ومن ناشروذ إلى شرواذ فغلب عليها وأصاب بها جد إبراهيم بن بسام فصار لابن عمير الليثي ثم حاصر مدينة زرنج فبعث إليه أبرويز مرزبانها يستأمنه فأمر بجسد من أجساد القتلى فوضع له فجلس عليه واتكأ على آخر وأجلس أصحابه على أجساد القتلى وكان الربيع آدم أفوه طويلاً فلما رآه المرزبان هاله فصالحه على ألف وضيف مع كل وصيف جام من ذهب ودخل الربيع المدينة وكانت ولايته سنتين ونصفاً وسبى فيها أربعين ألف رأس وكان كاتبه الحسن البصري."
+  en: "Ibn Amir, bound for Khurasan in 30h, camped at Shaq al-Shirjan and sent al-Rabi' ibn Ziyad into Sijistan: al-Fahraj, then the seventy-five-farsakh mafaza, then Rustaq Zaliq raided on Mihrjan day — its dahqan ransomed himself by planting his spear and piling gold and silver over it — then Karkuya and Haysun surrendered unresisted. Guided to Zaranj across Wadi Nuq, he fought Zusht hard — Muslim dead — till they were forced inside the walls; Nashrudh fell with the father of Abu Salih, later al-Hajjaj's secretary — a Marra woman, Abla, bought him — and Shirwadh with Ibrahim ibn Bassam's grandfather. At Zaranj the marzban Aparwiz sought aman: al-Rabi' sat him on a corpse, leaned on another, seated his companions on corpses — dark, long-limbed, loud-voiced — and the awed marzban truced for a thousand slave-youths each bearing a gold cup. His governorship ran two and a half years, forty thousand captives, and al-Hasan al-Basri was his secretary."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/aparwiz, role: "المرزبان المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hasan-al-basri, role: "الكاتب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sijistan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
