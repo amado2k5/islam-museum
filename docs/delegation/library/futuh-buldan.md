@@ -137,4 +137,6 @@
 
 - **Batch 61** (pp. 504–507 — canal registry II): `event/muawiya-marsh-grant` (Ziyad's 200k-dirham flooded-grant trick); `event/nafi-walking-grant` ("ما مشى" → the sandal-throw to al-Ijana); `event/marghab-dispute` (Bashir's taghallub dig vs Humayri, Khalid al-Qasri's letter); places shatt-uthman (Uthman ibn Abi al-As's purchase → mosque annexation), al-marghab, nahr-al-amir (Mansur→Ja'far→Rashid), nahr-sayhan (Barmakid name), nahr-al-numan-al-hiri, nahr-al-banat; persons bashir-ibn-ubaydallah-ibn-abi-bakra, hilal-ibn-ahwaz, humayri-ibn-hilal, malik-ibn-al-mundhir, bilal-ibn-abi-burda (Nahr Bilal's shops + market move); abu-al-khasib-marzuq merged.
 
-**Next:** batch 62 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 62** (pp. 508–511 — registry's end): `concept/qatia` (Ziyad's two-year improvement rule, Mansur's survey seizure); `event/umar-ibn-hubayra-survey` (Yazid II's confiscation order → «ورثناها عن آباء صدق»); `event/masruqanan-survey` (100→1000 jarib); `place/ard-al-asbahaniyyin` + `person/abdallah-ibn-al-asbahani` (400 men vs al-Mukhtar under Mus'ab); `place/butq-shirin` (Kisra's wife); `person/muawiya-ibn-sasaa`, `suwayd-ibn-manjuf`, `umar-ibn-hubayra`, `zadanfarrukh`.
+
+**Next:** batch 63 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

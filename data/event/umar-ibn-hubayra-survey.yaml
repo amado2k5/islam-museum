@@ -1,0 +1,18 @@
+id: event/umar-ibn-hubayra-survey
+class: event
+kind: other
+label: { ar: "مساحة عمر بن هبيرة للقطائع", en: "Umar ibn Hubayra's Survey of the Grants" }
+summary:
+  ar: "كتب يزيد بن عبد الملك إلى عمر بن هبيرة أنه ليست لأمير المؤمنين بأرض العرب خرصة فسر على القطائع فخذ فضولها لأمير المؤمنين فجعل عمر يأتي القطيعة فيسأل عنها ثم يمسحها حتى وقف على أرض فقال لمن هذه فقال صاحبها لي فقال ومن أين هي لك فقال ورثناها عن آباء صدق ويورثها إذا متنا بنينا ثم إن الناس ضجوا من ذلك فأمسك."
+  en: "Yazid ibn Abd al-Malik wrote Umar ibn Hubayra: 'the Commander of the Faithful holds no share in Arab land — go through the grants and take their surplus for me'; Umar walked each qati'a asking its owner how he held it, till one answered 'we inherited them from truthful fathers, and when we die our sons inherit' — the people cried out, and he stopped."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/umar-ibn-hubayra, role: "المساح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
