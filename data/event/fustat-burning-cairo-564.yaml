@@ -1,0 +1,24 @@
+id: event/fustat-burning-cairo-564
+class: event
+kind: other
+label: { ar: "حريق الفسطاط ووزارة شيركوه ثم صلاح الدين" }
+summary:
+  ar: "في سنة أربع وستين قصدت الفرنج الديار المصرية في جيش عظيم فملكوا بلبيس وحاصروا القاهرة فأحرقها صاحبها خوفاً منهم ثم كاتب السلطان نور الدين يستنجد به فجاء أسد الدين بجيوشه فرحل الفرنج عن القاهرة لما سمعوا بوصوله ودخل أسد الدين فولاه العاضد صاحب مصر الوزارة وخلع عليه فلم يلبث أسد الدين أن مات بعد خمسة وستين يوماً فولى العاضد مكانه ابن أخيه صلاح الدين يوسف بن أيوب وقلده الأمور ولقبه الملك الناصر فقام بالسلطنة أتم قيام {cite:tarikh-khulafa-minhaj-1434 p. 680}."
+  en: "In 564 the Franks came on Egypt in a great host, took Bilbays and besieged Cairo — its lord burnt al-Fustat for fear of them — then wrote Nur al-Din for aid. Shirkuh came, the Franks withdrew, al-Adid made him vizier — and he died sixty-five days later. His nephew Salah al-Din took his place, titled al-Malik al-Nasir, and served the sultanate as none could {cite:tarikh-khulafa-minhaj-1434 p. 680}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1169~", hijri: "0564", calendar: julian, precision: year, status: tradition, derived: true, note: "564؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 680}." }
+relations:
+  - { type: had_participant, target: person/asad-al-din-shirkuh, role: "الوزير", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "الوزير بعده", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-adid-fatimid, role: "الخليفة العبيدي", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/al-fustat, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 675–685"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-42
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
