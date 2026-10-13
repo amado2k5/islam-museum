@@ -1,0 +1,24 @@
+id: event/founding-of-sisar
+class: event
+kind: founding
+label: { ar: "بناء مدينة سيسر", en: "The Building of Sisar" }
+summary:
+  ar: "عند البلاذري: سميت سيسر لأنها في الخفاض من الأرض بين رؤوس أكام ثلاثين فقيل ثلاثون رأساً وكانت تدعى سيسر صدخانية أي ثلاثون رأساً ومائة عين وبها عيون كثيرة تكون مائة عين ولم تزل سيسر وما والاها مراعي لمواشي الأكراد وغيرهم وكانت بها مروج لدواب الهدي أمير المؤمنين وأغنامه وعليها مولى له يقال له سليمان بن قيراط صاحب صحراء قيراط بمدينة السلام وشريك معه يقال له سلام الطيفوري وكان طيفور مولى أبي جعفر المنصور وهبه للمهدي فلما كثر الصعاليك والذعار وانتشروا بالجبل في خلافة الهدي جعلوا هذه الناحية ملجأ لهم وحوزاً فكانوا يقطعون ويأوون إليها ولا يطلبون لأنها حد همذان والدينور وأذربيجان فكتب سليمان بن قيراط وشريكه إلى المهدي بخبرهم وشكيا عرضهم لما في أيديهم من الدواب والأغنام فوجه إليهم جيشاً عظيماً وكتب إليهما يأمرهما ببناء مدينة يأويان إليها وأعوانهما ورعاتهما ويحصنان فيها الدواب والأغنام فبنيا مدينة سيسر وحصناها وأسكناها الناس وضم إليها رستاق مانهارج من الدينور ورستاق الجوذمة من أذربيجان من كورة برزة ورستاف وخابنجر فكورت بهذه الرساتيق ووليها عامل مفرد وكان خراجها يؤدى إليه ثم إن الصعاليك كثروا في خلافة الرشيد وشقفوا سيسر فأمر بمرمتها وتحصينها ورتب فيها ألف رجل من أصحاب خاقان الخادم السفدي ففيها قوم من أولادهم ثم لما كان آخر أيام الرشيد وجه مرة بن علي الرديني العجلي على سيسر فحاول عثمان الأودي مغالبته عليها فلم يقدر وغلبه على ما كان في يده من أذربيجان أو أكثره ولم يزل مرة يؤدي الخراج عن سيسر في أيام محمد بن الرشيد على مقاطعة إلى أن وقعت الفتنة ثم أخذت من عاصم بن مرة فأخرجت من يده في خلافة المأمون فرجعت إلى ضياع الخلافة."
+  en: "In al-Baladhuri: Sisar was named for lying in the lows between thirty hilltops — 'thirty heads' — called Sisar Sadkhaniye, 'thirty heads and a hundred springs,' its springs forming a hundred. It and its environs were ever pastures for the Kurds' cattle, holding meadows for the caliph al-Mahdi's herd-beasts and flocks under his mawla Sulayman ibn Qayrat — owner of Sahrat Qayrat at Madinat al-Salam — and his partner Salam al-Tayfuri, Tayfur having been Abu Ja'far al-Mansur's mawla gifted to al-Mahdi. When brigands and robbers multiplied in al-Hadi's caliphate they made the tract their refuge — being the border of Hamadhan, al-Dinawar and Adharbayjan — cutting the roads and sheltering there unmolested; Sulayman and Salam wrote al-Mahdi complaining of the exposure of the beasts and flocks in their charge, and he sent a great army and ordered them to build a city to shelter themselves, their helpers and herdsmen, and to fortify the beasts and flocks within — so they built Sisar, fortified and peopled it, annexing the rustaqs of Manharaj from al-Dinawar, al-Jawdhama from Adharbayjan's Barza kura, Rustaf and Khabanjir, making it a kura under its own amil who received its kharaj. When brigands again multiplied under al-Rashid and wrecked Sisar he ordered its repair and fortification, stationing a thousand men of al-Khaqan's followers under the mawla al-Sufdi — descendants remain. In al-Rashid's last days Murra ibn Ali al-Rudhayni al-Ijli was set over it; Uthman al-Awdi failed to wrest it from him while Murra took most of Adharbayjan from him; Murra kept paying Sisar's kharaj under Muhammad ibn al-Rashid on a muqata'a until the fitna, and it was taken from Asim ibn Murra under al-Ma'mun, returning to the caliphal estates."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+relations:
+  - { type: occurred_at, target: place/sisar }
+  - { type: had_participant, target: person/al-mahdi, role: "الآمر بالبناء", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sulayman-ibn-qayrat, role: "الباني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salam-al-tayfuri, role: "شريكه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/harun-al-rashid, role: "المحصن المرسل الألف", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/murra-ibn-ali-al-rudhayni, role: "عاملها المقاطع", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 434–435"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-44
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
