@@ -1,0 +1,26 @@
+id: event/sulh-al-nuba
+class: event
+kind: treaty
+label: { ar: "صلح النوبة" , en: "The Nubian Peace" }
+summary:
+  ar: "عند البلاذري عن الوليد بن كثير عن يزيد بن أبي حبيب عن أبي الخير: لما فتح المسلمون مصر بعث عمرو بن العاص إلى القرى التي حولها الخيل ليطأهم فبعث عقبة بن نافع الفهري — وكان نافع أخا العاص لأمه — فدخلت خيولهم أرض النوبة كما تدخل صوائف الروم فلقي المسلمون بالنوبة قتالاً شديداً فرشقوهم بالنبل حتى جرح عامتهم فانصرفوا بجراحات كثيرة وحدق مفقوءة فسُمّوا دماة الحدق فلم يزالوا على ذلك حتى ولّى مصر عبد الله بن سعد بن أبي سرح فسألوه الصلح والموادعة فأجابهم على غير جزية لكن على هدنة ثلاثمائة رأس في كل سنة وعلى أن يهدي المسلمون إليهم طعاماً بقدر ذلك. وعن شيخ من حمير شهد النوبة مرتين في ولاية عمر: لم يرَ قوماً أحدّ في حرب منهم وأحدهم يقول للمسلم أين تحب أن أضع سهمي منك فلا يخطئه فصافوهم يوماً فرموهم حتى ذهبت الأعين فعُدّت مائة وخمسين عيناً مفقوءة فقالوا ما لهؤلاء خير من الصلح إن سلبهم لقليل وإن نكايتهم لشديدة فلم يصالحهم عمر ولم يزل يكالبهم حتى نُزع وولّى عبد الله بن سعد فصالحهم. وبالنوبة ذهبت عين معاوية بن حديج الكندي وكان أعور."
+  en: "In al-Baladhuri via al-Walid ibn Kathir via Yazid ibn Abi Habib via Abu al-Khayr: when the Muslims opened Egypt Amr ibn al-As sent the cavalry to the villages around it to trample them, sending Uqba ibn Nafi' al-Fihri — Nafi' being al-As's maternal brother; their horses entered Nubia like the Romans' summer raids, the Muslims met fierce fighting and were showered with arrows till most were wounded, returning with many wounds and gouged eyes — called 'eye-bleeders' — until Abdallah ibn Sa'd ibn Abi Sarh governed Egypt; they asked him for peace and truce which he granted not on jizya but on a truce of three hundred heads yearly, the Muslims gifting them equal food. A Himyari shaykh who twice witnessed Nubia under Umar: no people sharper in war — one would ask a Muslim 'where would you like me to place my arrow?' and not miss; they lined up one day and shot till eyes were gone — a hundred and fifty gouged eyes counted — so they said nothing better than peace with them, their spoil little and their vexation severe; Umar never made peace with them and kept harassing them until he died, and Abdallah ibn Sa'd made peace with them. At Nubia Mu'awiya ibn Khudayj al-Kindi's eye was lost — he was one-eyed."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [egypt-nile, east-africa]
+date:
+  start: { edtf: "0645~", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية عبد الله بن سعد على مصر (البلاذري ص 331–332). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/nuba }
+  - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uqba-ibn-nafi, role: "قائد التوغل الأول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-khudayj, role: "مفقوء العين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/nuba, role: "المحاربون الرماة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/baqt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 331–333"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-25
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

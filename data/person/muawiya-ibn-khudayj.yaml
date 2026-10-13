@@ -2,13 +2,14 @@ id: person/muawiya-ibn-khudayj
 class: person
 label: { ar: "معاوية بن حديج الكندي", en: "Mu'awiya ibn Khudayj al-Kindi" }
 summary:
-  ar: "معاوية بن حديج الكندي ثم السكوني؛ بعثه عمرو بن العاص إلى عمر بن الخطاب بكتاب فتح الإسكندرية وبعث معه بالخمس. وعند البلاذري: غزا صقلية أيام معاوية بن أبي سفيان وكان أول من غزاها."
+  ar: "معاوية بن حديج الكندي ثم السكوني؛ بعثه عمرو بن العاص إلى عمر بن الخطاب بكتاب فتح الإسكندرية وبعث معه بالخمس. وعند البلاذري: غزا صقلية أيام معاوية بن أبي سفيان وكان أول من غزاها؛ وبالنوبة ذهبت عينه وكان أعور."
   en: "Mu'awiya ibn Khudayj al-Kindi, then al-Sukuni; Amr ibn al-As sent him to Umar ibn al-Khattab bearing the letter of Alexandria's conquest, the khums sent with him."
 wings: [people]
 periods: [period/rashidun]
 relations:
   - { type: participated_in, target: event/conquest-of-alexandria, role: "حامل كتاب الفتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/first-raid-on-sicily, role: "أول الغازين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/sulh-al-nuba, role: "مفقوء العين", sources: [source/futuh-buldan-maarif-1407] }
   - { type: member_of, target: group/banu-kinda, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research

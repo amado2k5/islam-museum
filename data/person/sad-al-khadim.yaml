@@ -1,0 +1,16 @@
+id: person/sad-al-khadim
+class: person
+label: { ar: "سعد الخادم" }
+summary:
+  ar: "عند البلاذري في رواية المقريزي: ولّاه المتوكل البجة وطريق ما بينها ومكة فولّى محمد القمي ذلك فعاد إليها ومعه علي بابا."
+  en: "In al-Baladhuri via al-Maqrizi's version: al-Mutawakkil gave him the Buja and the road between it and Mecca; he gave Muhammad al-Qummi that, who returned there with Ali Baba."
+gender: male
+relations:
+  - { type: participated_in, target: event/al-qummi-buja-war, role: "الوالي على البجة وطريق مكة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 335 هامش"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-25
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
