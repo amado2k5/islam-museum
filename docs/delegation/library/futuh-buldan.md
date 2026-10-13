@@ -141,4 +141,6 @@
 
 - **Batch 63** (pp. 512–515 — ushr dossier + Abbadan + water canals): `event/ushr-kharaj-oscillation` (Hajjaj→Umar II→Ibn Hubayra→Hisham→Mahdi); `place/abbadan` (Humran's qati'a → Hajjaj threat → Abbas's gift → Rabi' ibn Sabih's fortification, died India-bound 160h); `event/digging-of-nahr-adi` (Wak'i's "no canal no home", Hasan al-Basri on the dam); `event/digging-of-nahr-ibn-umar` (the two flasks, "were it Iraq's whole kharaj"); persons abbas-ibn-al-husayn-al-hibati, al-rabi-ibn-sabih, abdallah-ibn-amr-al-kawsaj (arbiter self-award), waki-ibn-abi-sud, qasim-ibn-sulayman-al-mawla (forged grant), abdallah-ibn-umar-ibn-abd-al-aziz; places al-qasiyya, nahr-adi, nahr-ibn-umar.
 
-**Next:** batch 64 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 64** (pp. 516–519 — waterworks + Asawira): `event/asawira-defection` (Siyah's five conditions → Umar: grant all); `event/building-of-al-mughitha` + `place/al-mughitha` (Sulayman's million-dirham dam, al-Qandal dam); `event/basra-crowd-abdallah-ibn-ali` ("يا أمير المؤمنين انزل إلينا نبايعك" — batiha picture delegation); `place/al-subaytiyya` + `person/subayt` (the wronged dahqan); `place/al-shuaybiyya` (sharecrop ushr for Ali ibn al-Rashid); `person/naib-ibn-ziyad-al-wasiti`, `qurra-ibn-habban`, `qays-ibn-masud` (Kisra's Taff warden); places qantarat-qurra, al-manjashaniyya, khuzistan.
+
+**Next:** batch 65 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

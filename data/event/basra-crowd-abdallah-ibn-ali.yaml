@@ -1,0 +1,19 @@
+id: event/basra-crowd-abdallah-ibn-ali
+class: event
+kind: other
+label: { ar: "صياح أهل البصرة بعبد الله بن علي", en: "The Basrans' Cry to Abdallah ibn Ali" }
+summary:
+  ar: "لما اتخذ سليمان بن علي المغيثة أحب المنصور أن يستخرج ضيعة من البطيحة فأمر باتخاذ السبيطية فكره سليمان بن علي وأهل البصرة ذلك واجتمع أهل البصرة إلى باب عبد الله بن علي وهو يومئذ عند أخيه سليمان هارباً من المنصور فصاحوا يا أمير المؤمنين انزل إلينا نبايعك فكفهم سليمان وفرقهم وأوفد إلى المنصور سويداً بن عبد الله التميمي ثم العنزي وداود بن أبي هند وعلي بن بشير وسعيد بن أبي عروبة واسم أبي عروبة مهران فقدموا عليه ومعهم صورة البطيحة فأخبروه أنهم يتخوفون أن يملح ماؤهم فقال ما أراه كما ظننتم وأمر بالإمساك ثم إنه قدم البصرة فأمر باستخراج السبيطية فاستخرجت له."
+  en: "After al-Mughitha, al-Mansur meant to carve an estate from the batiha and ordered al-Subaytiyya — hateful to Sulayman and the Basrans, who massed at the door of Abdallah ibn Ali, then a fugitive from al-Mansur at his brother Sulayman's, crying 'Commander of the Faithful, come down, we give you bay'a'. Sulayman dispersed them and sent al-Mansur a delegation — Suwayd ibn Abdallah al-Tamimi, al-Anazi, Dawud ibn Abi Hind, Ali ibn Bashir, Sa'id ibn Abi Aruba — with a picture of the batiha, warning the water would turn brackish; al-Mansur held 'I see it otherwise' — then came to Basra and had al-Subaytiyya extracted."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-ali, role: "المصاح به", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sulayman-ibn-ali, role: "المفرق للجمع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

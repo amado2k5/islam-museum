@@ -1,0 +1,20 @@
+id: event/asawira-defection
+class: event
+kind: treaty
+label: { ar: "إسلام الأساورة وشروطهم", en: "The Asawira's Conversion Compact" }
+summary:
+  ar: "كان سياه الأسواري على مقدمة يزدجرد ثم بعث إلى الأهواز فنزل الكلبانية وأبو موسى الأشعري محاصر السوس فلما رأى ظهور الإسلام وعز أهله أرسل إلى أبي موسى أنا قد أحببنا الدخول معكم في دينكم على أن نقاتل عدوكم من العجم معكم وعلى أنه إن وقع بينكم اختلاف لم نقاتل بعضكم مع بعض وعلى أنه إن قاتلنا العرب منعتمونا منهم وأعنتمونا عليهم وعلى أن ننزل بحيث شئنا من البلدان ونكون فيمن شئنا منكم وعلى أن نلحق بشرف العطاء ويعقد لنا بذلك الأمير الذي بعثكم فقال أبو موسى بل لكم ما لنا وعليكم ما علينا فأبوا فكتب أبو موسى بذلك إلى عمر فكتب إليه عمر أن أعطهم جميع ما سألوا."
+  en: "Siyah al-Uswari led Yazdgard's vanguard; sent to Ahwaz he camped at al-Kalbaniyya while Abu Musa besieged al-Sus — then seeing Islam's ascendancy he offered: we enter your religion, fight your enemies among the Persians, fight none of you in your internal disputes, you defend us if Arabs attack, we settle where we wish among you and rank in the highest stipend — compact sealed with the amir. Abu Musa countered 'you have what we have and owe what we owe'; they refused, so he wrote Umar, who wrote back: grant them all they asked."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/siyah-al-uswari, role: "قائد المقدمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/asawira, role: "الداخلون في الإسلام", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/khuzistan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
