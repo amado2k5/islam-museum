@@ -1,0 +1,20 @@
+id: event/destruction-of-jadis
+class: event
+kind: war
+label: { ar: "إفناء جديس", en: "The destruction of Jadis" }
+summary:
+  ar: "سار حسان ملك حمير في حمير حتى إذا صاروا من اليمامة على ثلاث أمرهم رباح بن مرة أن يقتلع كل واحد شجرة فيجعلها أمامه ثم يسير لئلا تنذر أخته اليمامة القوم بهم، فأشرفت فقالت يا جديس لقد سارت إليكم الشجر فكذبوها فغفلوا عن أهبة الحرب فصبحهم حسان من جو على مسيرة ليلة فاستباح أهلها قتلاً وسبى النساء والصبيان وهرب الأسود بن غفار ملكها إلى طيء فأجاروه، ونزعت عينا اليمامة وصلبت على باب جو فسميت اليمامة بها {cite:muruj-al-dhahab p. 455-456}."
+  en: "Hassan's march on Jadis: the carried-tree ruse foiling Zarqa' al-Yamama's sight, the dawn massacre at Jaww, king al-Aswad ibn Ghaffar's flight to Tayy', and the seeress crucified on the town's gate — renaming it al-Yamama {cite:muruj-al-dhahab p. 455-456}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+relations:
+  - { type: had_participant, target: person/zarqa-al-yamama }
+  - { type: had_participant, target: person/al-aswad-ibn-ghaffar }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 455–456"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muruj-dhahab-batch-14
+sources: [source/muruj-al-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
