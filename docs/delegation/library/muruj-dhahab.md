@@ -12,3 +12,7 @@ Same as lib-tarikh-khulafa: read OCR page ranges, reuse existing entities (the F
 ## Progress
 - Setup: workspace + run_all.sh launched; `person/al-masudi` + `work/muruj-al-dhahab` created.
 - [in progress] OCR vol 1 (804 pp) then vol 2 (768 pp).
+- OCR complete on all four scans: 000944 (804pp = vol 2: Mu'awiya→al-Muti'), 011911 (768pp = vol 1: creation→'Ali + 132-bab TOC + hajj-leaders to 335), Qumayha vol1 (360pp), Mar'i (352pp). Mining from the two big scans.
+- Batch 1 (pushed): Mu'tazila five usul + naming (pp. 208-210), wasil-ibn-ata, amr-ibn-ubayd, works al-Maqalat/al-Ibana/al-Tanbih, wasf portraits enrichments (pp. 51-52, 204).
+- Batch 2 (pushed): al-Qahir's informant interrogation — caliph portraits & "firsts" (pp. 668-677), Zubayda/ayn-al-mushash/ghulamiyyat, Nawbakht/Ibrahim al-Fazari/Ali ibn Isa astrologers, Ibn Durayd.
+- [in progress] Vol 1 (011911): pre-Islamic universal history, nations, seas/geography, Jahiliyya religion, calendars, temples; caliphal half mostly overlaps earlier lanes — cherry-pick distinctive anecdotes only.
