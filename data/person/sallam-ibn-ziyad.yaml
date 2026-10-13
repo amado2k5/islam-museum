@@ -2,9 +2,11 @@ id: person/sallam-ibn-ziyad
 class: person
 label: { ar: "سلم بن زياد", en: "Sallam ibn Ziyad" }
 summary:
-  ar: "سلم بن زياد بن أبي سفيان؛ اشترى دار خالد بن طليق الخزاعي القاضي لأبي الجراح القاضي صاحب سجن ابن الزبير لأنه هرب من سجنه."
-  en: "Sallam ibn Ziyad ibn Abi Sufyan; he bought Khalid ibn Tulayq the qadi's house for Abu al-Jarrah, Ibn al-Zubayr's jailer-qadi, for his flight from that prison."
+  ar: "سلم بن زياد بن أبي سفيان؛ والي خراسان لمعاوية ويزيد وصاحب نهر سلم بالبصرة؛ واشترى دار خالد بن طليق الخزاعي القاضي لأبي الجراح القاضي صاحب سجن ابن الزبير لأنه هرب من سجنه."
+  en: "Salm ibn Ziyad ibn Abi Sufyan; Mu'awiya's and Yazid's governor of Khurasan and namesake of Basra's Nahr Salm — he bought Khalid ibn Tulayq the qadi's house for Abu al-Jarrah, Ibn al-Zubayr's jailer-qadi, for his flight from that prison."
 periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/ziyad-ibn-abi-sufyan }
 wings: [people, place, time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
