@@ -1,22 +1,75 @@
 id: person/ibn-qudama-al-maqdisi
 class: person
-label: { ar: "ابن قدامة المقدسي", en: "Ibn Qudama al-Maqdisi" }
+label:
+  ar: ابن قدامة المقدسي
+  en: Ibn Qudama al-Maqdisi
 names:
-  - { kind: full, lang: ar, value: "موفق الدين أبو محمد عبد الله بن أحمد بن محمد بن قدامة المقدسي الحنبلي" }
+- kind: full
+  lang: ar
+  value: موفق الدين أبو محمد عبد الله بن أحمد بن محمد بن قدامة المقدسي الحنبلي
 gender: male
-roles: [scholar, jurist, theologian]
-traditions: [sunni]
+roles:
+- scholar
+- jurist
+- theologian
+traditions:
+- sunni
 summary:
-  ar: "فقيه حنبلي من بيت المقدس، لقبه موفق الدين، صاحب «لمعة الاعتقاد» في عقيدة أهل السنة على مذهب السلف."
-  en: "A Hanbali jurist of the Maqdisi family, titled Muwaffaq al-Din, author of Lum'at al-I'tiqad on the creed of Ahl al-Sunna on the way of the early generations."
-wings: [people]
-themes: [creed]
-periods: [period/crusades-ayyubid-mamluk]
-regions: [levant-iraq]
+  ar: فقيه حنبلي من بيت المقدس، لقبه موفق الدين، صاحب «لمعة الاعتقاد» في عقيدة أهل السنة على مذهب السلف.
+  en: A Hanbali jurist of the Maqdisi family, titled Muwaffaq al-Din, author of Lum'at al-I'tiqad on the creed of Ahl al-Sunna on the way of the early generations.
+wings:
+- people
+themes:
+- creed
+periods:
+- period/crusades-ayyubid-mamluk
+regions:
+- levant-iraq
 faith:
-  - { value: sunni-hanbali, basis: documented, note: "Named a Hanbali in the edition's title page and presents the creed as that of the early generations.", sources: [source/lumat-al-itiqad] }
+- value: sunni-hanbali
+  basis: documented
+  note: Named a Hanbali in the edition's title page and presents the creed as that of the early generations.
+  sources:
+  - source/lumat-al-itiqad
 relations:
-  - { type: authored, target: work/lumat-al-itiqad, sources: [source/lumat-al-itiqad] }
-provenance: { layer: own-research, source: "لمعة الاعتقاد، طبعة المكتب الإسلامي، صفحة العنوان", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: lumat-1 }
-sources: [source/lumat-al-itiqad]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; from the title pages of the edition, no dates yet (a second source is needed), no prose" }
+- type: authored
+  target: work/lumat-al-itiqad
+  sources:
+  - source/lumat-al-itiqad
+- type: died_in
+  target: place/damascus
+  sources:
+  - source/lumat-al-itiqad-ibn-uraiyir-2022
+provenance:
+  layer: own-research
+  source: لمعة الاعتقاد، طبعة المكتب الإسلامي، صفحة العنوان
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: lumat-1
+sources:
+- source/lumat-al-itiqad
+- source/lumat-al-itiqad-ibn-uraiyir-2022
+status:
+  review: draft
+  completeness: 2
+  generated_by: 'Claude Sonnet 5.5 (initial); Claude Haiku 5.5 batch 1: dates added from the 2022 edition''s introduction, need a second source'
+born:
+  hijri: '0541'
+  edtf: 1146~
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: وُلد بجمّاعيل سنة 541هـ، بحسب مقدمة محقق لمعة الاعتقاد (ط2، 1443هـ)؛ التحويل الميلادي مشتق.
+  sources:
+  - source/lumat-al-itiqad-ibn-uraiyir-2022
+died:
+  hijri: '0620'
+  edtf: 1223~
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: توفي بدمشق سنة 620هـ، بحسب مقدمة محقق لمعة الاعتقاد (ط2، 1443هـ)؛ التحويل الميلادي مشتق.
+  sources:
+  - source/lumat-al-itiqad-ibn-uraiyir-2022
