@@ -1,0 +1,19 @@
+id: event/ubaydallah-ibn-ziyad-baykand
+class: event
+kind: campaign
+label: { ar: "حملة عبيد الله بن زياد على بيكند", en: "Ubaydallah ibn Ziyad's Baykand Campaign" }
+summary:
+  ar: "مات زياد فاستعمل معاوية عبيد الله بن زياد على خراسان وهو ابن خمس وعشرين سنة فقطع النهر في أربعة وعشرين ألفاً فأتى بيكند وكانت خاتون بمدينة بخارا فأرسلت إلى الترك تستمدهم فجاءها منهم دهم فلقيهم المسلمون فهزموهم وحاووا عسكرهم وأقبل المسلمون يخربون فبعثت إليهم خاتون تطلب الصلح والأمان فصالحها على ألف ألف ودخل المدينة وفتح رامدين وبيكند وبينهما فرسخان ورامدين تنسب إلى بيكند ويقال إنه فتح الصغانيان وقدم معه البصرة بخلق من أهل بخارا ففرض لهم."
+  en: "On Ziyad's death Mu'awiya gave Khurasan to his son Ubaydallah, twenty-five years old; he crossed the river with twenty-four thousand and came on Baykand while the Khatun held Bukhara's city — her summons brought a Turkish swarm the Muslims routed, and as they laid waste she sued for peace and aman: a million dirhams, and he entered the city, taking Ramadin and Baykand, two farsakhs apart and Ramadin her dependency. It is said he also took the Saghaniyan, and brought Bukhara folk to Basra on stipends."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/ubayd-allah-ibn-ziyad, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khatun-of-bukhara, role: "المصالحة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/baykand }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

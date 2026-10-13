@@ -1,0 +1,20 @@
+id: event/siege-of-samarqand-said
+class: event
+kind: siege
+label: { ar: "حصار سمرقند في أيام سعيد بن عثمان", en: "Sa'id ibn Uthman's Siege of Samarqand" }
+summary:
+  ar: "غزا سعيد بن عثمان سمرقند فأعانته خاتون بأهل بخارا فنزل على باب سمرقند وحلف أن لا يبرح أو يفتحها ويرمي قهندزها فقاتل أهلها ثلاثة أيام وكان أشد قتالهم في اليوم الثالث ففقئت عينه وعين المهلب بن أبي صفرة ويقال إن عين المهلب فقئت بالطالقان ثم لان العدو وقد فشت فيهم الجراح وأتاه رجل فدله على قصر فيه أبناء ملوكهم وعظمائهم فسار إليهم وحصرهم فلما خاف أهل المدينة أن يفتح القصر عنوة ويقتل من فيه طلبوا الصلح فصالحهم على سبعمائة ألف درهم وعلى أن يعطوه وهناً من أبناء عظمائهم وعلى أن يدخل المدينة ومن شاء ويخرج من الباب الآخر فأعطوه خمسة عشر من أبناء ملوكهم ويقال أربعين ويقال ثمانين ورمى القهندز فثبت الحجر في كوته ثم انصرف."
+  en: "Sa'id ibn Uthman marched on Samarqand with the Khatun's Bukhara levies, camped at its gate, and swore not to stir until it opened and he had thrown down its qahandaz. Three days' fighting — fiercest on the third — cost him an eye and cost al-Muhallab ibn Abi Sufra his (or the Muhallab's eye went at Talaqan); the foe slackened, wounds telling, when a man guided Sa'id to a castle holding their kings' sons and nobles — besieged, the city feared its storm and sued: seven hundred thousand dirhams, hostages of their nobles' sons — fifteen, or forty, or eighty — and his right to enter the city and leave by the other gate. He loosed a stone at the qahandaz and it lodged in its loophole; then he withdrew, and at Tirmidh the Khatun's suit won another sulh."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/said-ibn-uthman, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muhallab-ibn-abi-sufra, role: "مفقوء العين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khatun-of-bukhara, role: "المعينة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/samarqand }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

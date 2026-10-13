@@ -1,0 +1,18 @@
+id: event/tirmidh-musa-ibn-khazim
+class: event
+kind: other
+label: { ar: "الترمذ بين موسى بن عبد الله بن خازم وقتيبة", en: "Tirmidh between Musa ibn Khazim and Qutayba" }
+summary:
+  ar: "لما قتل عبد الله بن خازم السلمي أتى موسى ابنه ملك الترمذ فأجاره وألجأه وقوماً كانوا معه فأخرجه عنها وغلب عليها وهو مخالف فلما قتل صارت في أيدي الولاة ثم انتقض أهلها ففتحها قتيبة بن مسلم."
+  en: "When Abdallah ibn Khazim al-Sulami was killed his son Musa came to Tirmidh's king, who sheltered him and his men — till Musa cast him out and held it in rebellion; at his death it passed to the governors, its people broke, and Qutayba ibn Muslim retook it."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/musa-ibn-abdallah-ibn-khazim, role: "المستولي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tirmidh }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

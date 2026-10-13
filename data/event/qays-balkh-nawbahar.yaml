@@ -1,0 +1,19 @@
+id: event/qays-balkh-nawbahar
+class: event
+kind: campaign
+label: { ar: "حملة قيس على بلخ وخراب النوبهار", en: "Qays's Balkh Campaign and Nawbahar's Ruin" }
+summary:
+  ar: "ولى ابن عامر قيس بن الهيثم السلمي خراسان وكان أهل بادغيس وهراة وبوشنج وبلخ على نكثهم فسار إلى بلخ فخرب نوبهارها وكان الذي تولى ذلك عطاء بن السائب مولى بني الليث وهو الخشل وإنما سمي عطاء الخشل واتخذ قناطر على ثلاثة أنهار من بلخ على فرسخ فقيل قناطر عطاء ثم إن أهل بلخ سألوا الصلح ومراجعة الطاعة فصالحهم قيس ثم قدم على ابن عامر فضربه مائة وحبسه واستعمل عبد الله بن خازم فأرسل إليه أهل هراة وبوشنج وبادغيس فطلبوا الأمان والصلح فصالحهم وحمل إلى ابن عامر مالاً."
+  en: "With Badghis, Herat, Bushanj and Balkh still on their breach, Ibn Amir sent Qays ibn al-Haytham against Balkh — its Nawbahar was ruined by Ata ibn al-Sa'ib, Banu al-Layth's mawla called al-Khashl, who also built the 'Qanatir Ata' over three rivers a farsakh out. Balkh sued for peace and return to obedience; Qays granted it — and Ibn Amir, when he presented himself, struck him a hundred lashes and imprisoned him. Ibn Khazim, appointed next, received Herat, Bushanj and Badghis's suit for aman, truced them, and bore their money to Ibn Amir."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/qays-ibn-al-haytham, role: "القائد المضروب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ata-ibn-al-saib, role: "مخرب النوبهار", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/balkh }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
