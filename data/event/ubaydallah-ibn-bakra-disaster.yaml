@@ -1,0 +1,20 @@
+id: event/ubaydallah-ibn-bakra-disaster
+class: event
+kind: campaign
+label: { ar: "كارثة عبيد الله بن أبي بكرة الثانية", en: "Ubaydallah ibn Abi Bakra's Second Disaster" }
+summary:
+  ar: "لما ولي الحجاج بن يوسف العراق وجه عبيد الله بن أبي بكرة إلى سجستان فحار ووهن وأتى الرخج وكانت البلاد مجدبة فسار حتى نزل بالقرب من كابل وانتهى إلى شعب فأخذه عليه العدو ولحقهم رتبيل فصالحهم عبيد الله على أن يعطوه خمسمائة ألف درهم ويبعث إليه بثلاثة من ولده نهار والحجاج وأبي بكرة هناء ويكتب لهم كتاباً أن لا يغزوهم ما كان والياً فقال له شريح بن هانيء الحارثي اتق الله وقاتل هؤلاء القوم فإنك إن فعلت ما تريد أن تفعله وهنت الإسلام بهذا الثغر وكنت قد فررت من الموت الذي إليه مصيرك فاقتتلوا وحمل شريح فقتل وقاتل الناس فأفلتوا وهم مجهودون وسلكوا مفازة بست فهلك كثير من الناس عطشاً وجوعاً ومات عبيد الله بن أبي بكرة كمداً لما نال الناس وأصابهم ويقال إنه اشتكى أذنه فمات واستخلف على الناس ابنه أبا بردعة."
+  en: "Under al-Hajjaj, Ubaydallah ibn Abi Bakra returned to Sijistan — bewildered, weakened, the land barren — marched near Kabul, where the enemy seized a defile on him and Rutbil closed in. He truced for five hundred thousand dirhams, three sons as hostages — Nahar, al-Hajjaj, and Abu Bakra — and a writ not to raid while he governed. Shurayh ibn Hani' al-Harithi counselled: 'fear God and fight, else you weaken Islam on this frontier and flee the death that is your lot' — they fought; Shurayh charged and fell; the army escaped spent through Bust's mafaza where many died of thirst and hunger; Ubaydallah died of grief for what befell the people — some say an ear illness — leaving his son Abu Bardha'a in command."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/ubaydallah-ibn-abi-bakra, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/shurayh-ibn-hani, role: "الناصح المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rutbil, role: "المحاصر للجيش", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sijistan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

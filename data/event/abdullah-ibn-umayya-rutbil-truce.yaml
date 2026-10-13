@@ -1,0 +1,18 @@
+id: event/abdullah-ibn-umayya-rutbil-truce
+class: event
+kind: treaty
+label: { ar: "صلح عبد الله بن أمية ورتبيل الثاني", en: "Abdullah ibn Umayya's Truce with the Second Rutbil" }
+summary:
+  ar: "استعمل عبد الملك بن مروان أمية بن عبد الله بن خالد بن أسيد بن أبي العاص على خراسان فوجه ابنه عبد الله بن أمية على سجستان وعقد له عليها وهو بكرمان فلما غزا رتبيل الملك بعد رتبيل الأول المقتول وقد كان هاب المسلمين فصالح عبد الله حين نزل بست على ألف ألف ففعل وبعث إليه بهدايا ورقيق فأبى قبول ذلك وقال إن ملأ لي هذا الرواق ذهباً وإلا فلا صلح بيني وبينه وكان غروراً فخلى له رتبيل البلاد حتى إذا أوغل فيها أخذ عليه الشعاب والمضايق وطلب إليهم أن يخلوا عنه ولا يأخذ منهم شيئاً فأبى ذلك وقال بل تأخذ ثلاثمائة ألف درهم صلحاً وتكتب لنا بها كتاباً ولا تغزو بلادنا ما كنت والياً ولا تحرق ولا تخرب ففعل وبلغ عبد الملك بن مروان ذلك فعزله."
+  en: "Abd al-Malik gave Khurasan to Umayya ibn Abdallah ibn Khalid ibn Asid, who sent his son Abdullah to Sijistan with covenant while at Kirman. The second Rutbil — king after the slain first — still feared the Muslims and truced Abdullah at Bust for a million; but when gifts and slaves were refused with 'fill this portico with gold or there is no peace', it proved a ruse: Rutbil emptied the land before him, then seized the defiles behind him and pressed him to withdraw taking nothing. Abdullah answered: 'rather take three hundred thousand as sulh, write us a deed, and never raid our land while I govern, nor burn nor ruin' — done; and Abd al-Malik, hearing, dismissed him."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/abdullah-ibn-umayya, role: "المصالح المعزول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rutbil, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

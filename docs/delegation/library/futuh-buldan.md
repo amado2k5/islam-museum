@@ -161,4 +161,6 @@
 
 - **Batch 73** (pp. 556–559 — Sijistan → Kabul): `event/sijistan-habata-unrest` (Umair expelled, Hasaka & Imran's samalik, Ibn Jaza' killed, Rubay'i's 4000); `event/march-on-kabul` (breach, Abbad's night vigil — merged into `abbas-ibn-al-husayn-al-hibati`, the elephant at the gate); `event/rutbil-rabi-war`; `event/sulh-ubaydallah-rutbil` (the million-dirham peace at Barzan); persons incl. rutbil, kabul-shah, ubaydallah-ibn-abi-bakra, qatari-ibn-al-fujaa; places kabul, zabulistan, khawash, wazan, khushak, al-akjh, barzan. `abdallah-ibn-khazim` merged into `abdallah-ibn-khazim-al-sulami`.
 
-**Next:** batch 74 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 74** (pp. 560–563 — the Rutbil saga): `event/kabul-revolt-yazid-death` (Abu Ubayda's capture, Yazid b. Ziyad + Sila b. Ashyam martyred at Junza, 500k ransom); `event/abd-al-aziz-sijistan` (Zubayrid era, first Rutbil killed, Ibn Nashira's coup); `event/abdullah-ibn-umayya-rutbil-truce` (the riwaq-gold ruse → 300k covenant); `event/ubaydallah-ibn-bakra-disaster` (hostage sons, Shurayh's counsel, mafaza catastrophe); `event/ibn-al-ashath-end-sijistan` (suicide, head to al-Hajjaj, 7/9-year truce at 900k/yr); `event/qutayba-sijistan-visit` (accept the 'urud — "an accursed frontier", the sown-crop ruse); + 17 persons incl. muadha-al-adawiyya, talhat-al-talhat, mudrik; place junza.
+
+**Next:** batch 75 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
