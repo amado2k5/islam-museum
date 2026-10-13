@@ -1,0 +1,19 @@
+id: event/fall-of-naysabur
+class: event
+kind: conquest
+label: { ar: "فتح نيسابور", en: "The Conquest of Naysabur" }
+summary:
+  ar: "أتى ابن عامر أبرشهر وهي مدينة نيسابور فحصر أهلها أشهراً وكان على كل ربع منها رجل موكل به فطلب صاحب ربع من تلك الأرباع الأمان على أن يدخل المسلمين المدينة فأعطيه وأدخلهم إياها ليلاً ففتحوا الباب وتحصن مرزبانها في القهندز ومعه جماعة فطلب الأمان على أن يصالحه من جميع نيسابور على وظيفة يؤديها فصالحه على ألف ألف درهم ويقال سبعمائة ألف درهم وولى نيسابور حين فتحها قيس بن الهيثم السلمي."
+  en: "Ibn Amir besieged Abarshahr — Naysabur's city — for months, each quarter under its own warden; one quarter-warden took aman to admit the Muslims by night, they opened the gate, and the marzban fortified in the qahandaz, then sought aman to compound for all Naysabur on a fixed wazifa — concluded at a million dirhams, some say seven hundred thousand. Qays ibn al-Haytham al-Sulami was made its governor at the conquest."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/qays-ibn-al-haytham, role: "أول وال", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/naysabur }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

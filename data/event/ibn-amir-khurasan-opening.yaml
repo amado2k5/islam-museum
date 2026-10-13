@@ -1,0 +1,20 @@
+id: event/ibn-amir-khurasan-opening
+class: event
+kind: campaign
+label: { ar: "افتتاح ابن عامر خراسان", en: "Ibn Amir's Opening of Khurasan" }
+summary:
+  ar: "غزا عبد الله بن عامر خراسان سنة ٣٠ واستخلف على البصرة زياد بن أبي سفيان وبعث على مقدمته الأحنف بن قيس ويقال عبد الله بن خازم السلمي فأقر صلح الطبسين وقدم الأحنف إلى قوهستان أقرب مدينة إلى الطبسين فلقيه الهياطلة فهزمهم وفتح قوهستان عنوة ويقال ألجأهم إلى حصنهم ثم قدم عليه ابن عامر فصالحهم على ستمائة ألف درهم وقال معمر بن المثنى كان المتوجه إلى قوهستان أمير بن الأحمر اليشكري وهي بلاد سكر بن وائل إلى اليوم وبعث ابن عامر يزيد الجرشي أبا سالم إلى رستاق زام من نيسابور ففتحه عنوة وفتح باخرز وجوين وسبى ووجه الأسود بن كلثوم العدوي عدي الرباب وكان ناسكاً إلى بيهق فدخل بعض حيطان أهله من ثلمة فيه ودخلت معه طائفة فأخذ المدو عليهم تلك الثلمة فقاتل حتى قتل ومن معه وقام بأمر الناس أدهم بن كاثوم فظفر وفتح بيهق وكان الأسود يدعو ربه أن يحشره من بطون السباع والطير فلم يوره أخوه ودفن من استشهد من أصحابه وفتح ابن عامر بشت وأشبند ورخ وزاوة وخواف وأسبرائن وأرغيان من نيسابور."
+  en: "Ibn Amir invaded Khurasan in 30h — Ziyad over Basra, al-Ahnaf ibn Qays (or Ibn Khazim) on the van — confirmed the Tabasayn sulh, routed the Hayatila at Quhistan and took it by force, or reduced them to their fort and truced at six hundred thousand; Mu'ammar says the marcher was Umair ibn al-Ahmar, and it is Sukar ibn Wa'il's land. Yazid al-Jarrashi took Zam, Bakharz and Juwayn with captives; the ascetic al-Aswad ibn Kulthum — Adi al-Ribab — broke into Bayhaq through a wall-breach and fell with his band when the foe held it, Adham ibn Kathum then winning the town; al-Aswad, who had prayed to rise from the bellies of beasts and birds, was left unburied by his brother while his companions were buried. Ibn Amir took Basht, Ashband, Rukh, Zawa, Khuwaf, Asbara'in and Arghiyan."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "قائد المقدمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-aswad-ibn-kulthum, role: "الناسك الشهيد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/quhistan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
