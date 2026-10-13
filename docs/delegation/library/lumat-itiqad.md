@@ -7,5 +7,8 @@
 ## Batches
 1. Author and introduction (PDF pp. 1–12; printed 5–11): author, dates, typology of creed works, editions, manuscript base. Claims table: `~/islam-museum-harvest/books/aqeedah/lumat-itiqad/claims/batch1-intro.md` (outside git).
 
+2. Manuscripts, method and title (PDF pp. 13–23; printed 12–22) — claims in the same file, batch 2.
+3. Biography and works from the editor's study (PDF pp. 38–47; printed 37–46) — claims in the same file, batch 2b. Entities: person/ibn-qudama-al-maqdisi extended (works, death detail, Ibn Taymiyya's praise).
+
 ## Next
-Batch 2: the risala's own opening and its first creed sections, from PDF p.13 (printed 12) onward.
+Batch 3: the author's own text, starting near PDF p.50 (printed 49). The editor's study before it (PDF 48–49, on tafwid) is the editor's writing and is not attributed to the author.
