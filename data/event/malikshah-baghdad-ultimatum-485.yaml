@@ -1,0 +1,22 @@
+id: event/malikshah-baghdad-ultimatum-485
+class: event
+kind: other
+label: { ar: "عزم ملكشاه على إخراج الخليفة من بغداد فمات" }
+summary:
+  ar: "في سنة خمس وثمانين عاد ملكشاه إلى بغداد عازماً على الشر وأرسل إلى الخليفة يقول لا بد أن تترك لي بغداد وتذهب إلى أي بلد شئت فانزعج الخليفة وقال أمهلني ولو شهراً قال ولا ساعة واحدة فأرسل الخليفة إلى وزير السلطان يطلب المهلة عشرة أيام فاتفق مرض السلطان وموته وعد ذلك كرامة للخليفة وقيل إن الخليفة جعل يصوم فإذا أفطر جلس على الرماد ودعا على ملكشاه فاستجاب الله دعاءه وذهب إلى حيث ألقت وكتمت زوجته تركان موته واستحلفت الأمراء لولده محمود وهو ابن خمس سنين فلقبه الخليفة ناصر الدنيا والدين ثم خرج عليه أخوه بركياروق فقلده الخليفة ولقبه ركن الدين {cite:tarikh-khulafa-minhaj-1434 p. 653}."
+  en: "In 485 Malikshah returned to Baghdad bent on harm, sending the caliph word: 'you must leave me Baghdad and go where you will'. 'Grant me a month' — 'not an hour'. The caliph asked the sultan's vizier for ten days — whereupon the sultan fell ill and died, counted a karama for the caliph; it is said he had sat fasting on ashes cursing Malikshah till answered. The sultan's wife Turkan hid the death, had the amirs swear to her five-year-old Mahmud — titled Nasir al-Dunya wa'l-Din — then his brother Barkyaruq rose and was invested as Rukn al-Din {cite:tarikh-khulafa-minhaj-1434 p. 653}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1092~", hijri: "0485", calendar: julian, precision: year, status: tradition, derived: true, note: "485؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 653}." }
+relations:
+  - { type: had_participant, target: person/malikshah, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-muqtadi-billah, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 646–657"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-39
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

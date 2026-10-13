@@ -1,0 +1,22 @@
+id: event/yusuf-tashfin-investiture-479
+class: event
+kind: other
+label: { ar: "تلقيب يوسف بن تاشفين بأمير المسلمين" }
+summary:
+  ar: "في سنة تسع وسبعين أرسل يوسف بن تاشفين صاحب سبتة ومراكش إلى المقتدي يطلب أن يسلطنه وأن يقلده ما بيده من البلاد فبعث إليه الخلع والأعلام والتقليد ولقبه بأمير المسلمين ففرح بذلك وسر به فقهاء المغرب وهو الذي أنشأ مدينة مراكش {cite:tarikh-khulafa-minhaj-1434 p. 652}."
+  en: "In 479 Yusuf ibn Tashfin, lord of Sabta and Marrakesh, asked al-Muqtadi to make him sultan and invest him with the lands he held; the robes, banners and deed were sent with the title amir al-muslimin — the Maghreb's jurists rejoiced. He is the founder of Marrakesh {cite:tarikh-khulafa-minhaj-1434 p. 652}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [maghreb]
+date:
+  start: { edtf: "1086~", hijri: "0479", calendar: julian, precision: year, status: tradition, derived: true, note: "479؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 652}." }
+relations:
+  - { type: had_participant, target: person/yusuf-ibn-tashfin, role: "أمير المسلمين", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-muqtadi-billah, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 646–657"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-39
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
