@@ -1,0 +1,22 @@
+id: event/deposition-of-isa-ibn-musa
+class: event
+kind: declaration
+label: { ar: "خلع عيسى بن موسى من ولاية العهد" }
+summary:
+  ar: "في سنة سبع وأربعين ومئة خلع المنصور عمه عيسى بن موسى من ولاية العهد وكان السفاح قد عهد إليه من بعد المنصور وكان عيسى هو الذي حارب له الأخوين محمداً وإبراهيم وظفر بهما فكافأه المنصور بأن خلعه مكرهاً وعهد إلى ولده المهدي {cite:tarikh-khulafa-minhaj-1434 p. 425}."
+  en: "In year 147 al-Mansur deposed his uncle Isa ibn Musa from the succession — al-Saffah had settled it on him after al-Mansur, and Isa was the very man who had fought the brothers Muhammad and Ibrahim for him and overcome them; al-Mansur requited him by deposing him under duress and settling the succession on his son al-Mahdi {cite:tarikh-khulafa-minhaj-1434 p. 425}."
+wings: [time, people]
+periods: [period/abbasid-early]
+date:
+  start: { edtf: "0764~", hijri: "0147", calendar: julian, precision: year, status: tradition, derived: true, note: "147؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 425}." }
+relations:
+  - { type: had_participant, target: person/isa-ibn-musa, role: "المخلوع", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-mansur, role: "الخالع", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-mahdi, role: "المعيَّن بدلاً", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 425"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-15
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

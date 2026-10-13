@@ -1,0 +1,26 @@
+id: person/muhammad-al-nafs-al-zakiyya
+class: person
+label: { ar: "محمد النفس الزكية" }
+summary:
+  ar: "محمد بن عبد الله بن الحسن بن الحسن بن علي بن أبي طالب، خرج هو وأخوه إبراهيم في سنة خمس وأربعين ومئة فظفر بهما المنصور فقتلهما وجماعة كثيرة من آل البيت، وكان المنصور أول من أوقع الفتنة بين العباسيين والعلويين وكانوا قبل شيئاً واحداً، وآذى خلقاً من العلماء ممن خرج معهما أو أفتى بالخروج منهم أبو حنيفة وعبد الحميد بن جعفر وابن عجلان، وأفتى مالك بجواز الخروج معه وقال إنما بايعتم مكرهين وليس على مكره يمين {cite:tarikh-khulafa-minhaj-1434 p. 424-425}."
+  en: "Muhammad ibn Abdallah ibn al-Hasan ibn al-Hasan ibn Ali, al-Nafs al-Zakiyya; he and his brother Ibrahim rose in year 145 and al-Mansur overcame them, killing them with a great company of the Prophet's house — al-Mansur being the first to sow strife between Abbasids and Alids, hitherto one party, and he harmed scholars who had joined them or sanctioned the rising: Abu Hanifa, Abd al-Hamid ibn Ja'far and Ibn Ajlan among them. Malik sanctioned the rising, saying 'your bay'a was coerced, and there is no oath upon the coerced' {cite:tarikh-khulafa-minhaj-1434 p. 424-425}."
+gender: male
+died:
+  hijri: "0145"
+  precision: year
+  status: tradition
+  note: "قتله المنصور {cite:tarikh-khulafa-minhaj-1434 p. 424}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/abdallah-ibn-al-hasan, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: sibling_of, target: person/ibrahim-ibn-abdallah-al-hasani, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: participated_in, target: event/nafs-al-zakiyya-revolt, role: "صاحب الخروج", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 424–425"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-15
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
