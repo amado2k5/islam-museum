@@ -1,0 +1,20 @@
+id: event/walid-welfare-decrees
+class: event
+kind: law-enacted
+label: { ar: "فرائض الوليد للضعفاء" }
+summary:
+  ar: "مع أن الوليد كان جباراً ظالماً فقد أقام الجهاد في أيامه وفتحت في خلافته فتوحات عظيمة، وكان يختن الأيتام ويرتب لهم المؤدبين ويرتب للزمنى من يخدمهم وللأضراء من يقودهم، ورزق الفقهاء والفقراء والضعفاء وحرم عليهم سؤال الناس وفرض لهم ما يكفيهم {cite:tarikh-khulafa-minhaj-1434 p. 367}."
+  en: "Though al-Walid was a tyrant, his reign sustained jihad and great conquests — and he had orphans circumcised with tutors appointed for them, attendants assigned to the chronically infirm, guides assigned to the blind; he granted stipends to the jurists, the poor and the weak sufficient for them, forbidding them to beg from people {cite:tarikh-khulafa-minhaj-1434 p. 367}."
+wings: [time, ideas]
+periods: [period/umayyad]
+date:
+  start: { edtf: "0705~", hijri: "0086", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافته 86–96؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 367}." }
+relations:
+  - { type: had_participant, target: person/al-walid-ibn-abd-al-malik, role: "الفارض", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 367"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-10
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

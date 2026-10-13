@@ -1,0 +1,27 @@
+id: building/umayyad-mosque
+class: building
+kind: mosque
+label:
+  ar: الجامع الأموي بدمشق
+  en: The Umayyad Mosque of Damascus
+built:
+  edtf: "0706~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "شرع الوليد بن عبد الملك في بنائه سنة 87هـ؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 367}."
+  sources: [source/tarikh-khulafa-minhaj-1434]
+summary:
+  ar: "شرع الوليد بن عبد الملك في بنائه سنة سبع وثمانين، وهو من أعظم ما بني في عهده؛ يذكر ابن أبي عبلة افتتح الوليد الهند والأندلس وبنى مسجد دمشق {cite:tarikh-khulafa-minhaj-1434 p. 367}."
+  en: "Begun by al-Walid ibn Abd al-Malik in year 87 — among the greatest works of his reign; Ibn Abi Abla names it beside the conquests of India and al-Andalus {cite:tarikh-khulafa-minhaj-1434 p. 367}."
+wings: [place, objects]
+relations:
+  - { type: located_in, target: place/damascus }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 367"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-10
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
