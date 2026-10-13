@@ -1,0 +1,21 @@
+id: person/al-badi-al-astarlabi
+class: person
+label: { ar: "البديع الأسطرلابي", en: "Al-Badi' al-Astarlabi" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم هبة الله بن الحسين بن يوسف البغدادي" }
+gender: male
+roles: [scientist, mathematician]
+traditions: [sunni]
+died: { edtf: "1139", hijri: "0534", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أهل بغداد، ومن كبار علماء الفلك والأسطرلاب في عصره."
+  en: "A native of Baghdad and one of the leading astronomers and astrolabists of his time."
+wings: [people, words]
+themes: [astronomy-and-timekeeping, mathematics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 269, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص269", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
