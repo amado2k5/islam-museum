@@ -12,5 +12,7 @@
 
 4. The author's text on names and attributes (PDF pp. 50–54; printed 49–53) — claims in `batch3-attributes.md` (outside git). Entity: `concept/tafwid` with two perspectives (the book's Hanbali position; Ibn Taymiyya's reading as quoted by the editor). The academic view is not yet sourced.
 
-## Next
+5. The author's text, PDF pp. 57–100 (printed 56–99): the editor's study on tafwid (57–63), the typeset text on the names, speech, Qur'an, vision, decree and iman (68–100). Claims in `batch3-attributes.md` (outside git), batches 4–7. Entities: the Lum'a's position was attached as evidence on `concept/tawhid`, `concept/iman`, `concept/kalam-allah`, `concept/kasb`, `concept/qadar`, and as a new perspective on `concept/khalq-al-quran`.
+
+## Next (superseded)
 Batch 4: the author's text from PDF p.57 (printed 56) onward: remaining attribute statements, decree, faith, and the Companions.
