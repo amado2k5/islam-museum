@@ -1,0 +1,19 @@
+id: event/abu-dulaf-daylam-campaign
+class: event
+kind: campaign
+label: { ar: "غزو أبي دلف للديلم", en: "Abu Dulaf's Daylam Campaign" }
+summary:
+  ar: "كان أبو دلف القاسم بن عيسى غزا الديلم في خلافة المأمون وهو والٍ في خلافة المعتصم أيام ولاية الأفشين الجبال ففتح حصوناً منها إقلسم صالح أهله على أتاوة ومنها بومج فتحه عنوة ثم صالح أهله على أتاوة ومنها الإبلام ومنها أنداق في حصون أخر وأغزى الأفشين غير أبي دلف ففتح أيضاً من الديلم حصوناً."
+  en: "Abu Dulaf al-Qasim ibn Isa raided Daylam in al-Ma'mun's reign and was governor under al-Mu'tasim in al-Afshin's Jibal command, taking fortresses — Iqlism whose people treated for tribute, Bumaj taken by force then brought to tribute-terms, al-Iblam and Andaq among others — while al-Afshin sent other raiders who took Daylami forts as well."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/abu-dulaf-al-qasim, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/afshin, role: "والي الجبال", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/daylam }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

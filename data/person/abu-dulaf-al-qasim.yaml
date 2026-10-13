@@ -1,0 +1,17 @@
+id: person/abu-dulaf-al-qasim
+class: person
+label: { ar: "أبو دلف القاسم بن عيسى", en: "Abu Dulaf al-Qasim ibn Isa" }
+summary:
+  ar: "أبو دلف القاسم بن عيسى العجلي أمير الكرج وقائد المعتصم؛ غزا الديلم في خلافة المأمون وكان والياً في خلافة المعتصم أيام ولاية الأفشين الجبال ففتح حصون الديلم إقلسم وبومج والإبلام وأنداق."
+  en: "Abu Dulaf al-Qasim ibn Isa al-Ijli, lord of al-Karaj and al-Mu'tasim's commander; he raided Daylam under al-Ma'mun and governed in al-Mu'tasim's reign during al-Afshin's Jibal command, taking the Daylam forts of Iqlism, Bumaj, al-Iblam and Andaq."
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/abu-dulaf-daylam-campaign }
+  - { type: lived_in, target: place/al-karaj }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

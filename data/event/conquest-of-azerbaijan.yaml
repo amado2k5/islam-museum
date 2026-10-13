@@ -1,11 +1,18 @@
 id: event/conquest-of-azerbaijan
 class: event
 kind: conquest
-label: { ar: "فتح أذربيجان" }
+label: { ar: "فتح أذربيجان", en: "Conquest of Azerbaijan" }
 summary:
-  ar: "ذكر أبو معشر والواقدي أن أذربيجان فُتحت سنة اثنتين وعشرين وأميرها المغيرة بن شعبة، وذكر سيف أن فتحها كان سنة ثماني عشرة بعد همذان والري وجرجان {cite:tabari-tarikh-abu-al-fadl j.4 p.146}."
-date:
-  start: { hijri: "0022", precision: year, status: debated, note: "ج4 ص146: أبو معشر والواقدي 22هـ؛ سيف 18هـ", sources: [source/tabari-tarikh-abu-al-fadl] }
-sources: [source/tabari-tarikh-abu-al-fadl]
-provenance: { layer: own-research, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR of Tabari, Tarikh al-Rusul wa'l-Muluk (Dar al-Ma'arif), batch 10", sources: [source/tabari-tarikh-abu-al-fadl] }
-status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5); body pages read; cites juz'/page of the scan" }
+  ar: "قدم المغيرة بن شعبة الكوفة والياً من قبل عمر ومعه كتاب إلى حذيفة بن اليمان بولاية أذربيجان فسار حتى أتى أردبيل وهي مدينة أذربيجان وبها مرزبانها وإليها جباية خراجها وكان المرزبان قد جمع إليه المقاتلة من أهل باجروان وميمذ والنرير وسراط والشيز والميانج وغيرهم فقاتلوا المسلمين قتالاً شديداً أياماً ثم صالح المرزبان حذيفة عن جميع أهل أذربيجان على ثمانمائة ألف درهم وزن ثمانية على أن لا يقتل منهم أحد ولا يسبى ولا يهدم بيت نار ولا يعرض لأكراد البلاسجان وسبلان وساترودان."
+  en: "Al-Mughira came to Kufa as Umar's governor carrying a letter appointing Hudhayfa ibn al-Yaman to Azerbaijan; he marched to Ardabil — the province's city, seat of its marzban and its kharaj — where the marzban had gathered fighters from Bajirwan, Maymadh, al-Narir, Sarat, al-Shiz, al-Miyanij and beyond; they fought the Muslims hard for days, then the marzban treated for all Azerbaijan at eight hundred thousand dirhams weight-eight — no one killed, none captive, no fire-temple razed, and no exposure to the Kurds of Balasajan, Sabalan and Satrudan."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/hudhayfa-ibn-al-yaman, role: "الفاتح الموالى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/azerbaijan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

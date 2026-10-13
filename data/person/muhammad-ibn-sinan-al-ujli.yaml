@@ -1,0 +1,17 @@
+id: person/muhammad-ibn-sinan-al-ujli
+class: person
+label: { ar: "محمد بن سنان العجلي", en: "Muhammad ibn Sinan al-Ujli" }
+summary:
+  ar: "محمد بن سنان العجلي من موالي بني عجل أهل الكوفة؛ كان في الثمانين الذين وجههم الحجاج لمرابطة الديلم ثم نزل قرية من قرى دستبى ثم صار إلى قزوين فبنى داراً في ربضها فعذله أهل الثغر أن عرضت نفسك للتلف وعرضتنا للوهن فلم يلتفت وبنوا معه خارج المدينة حتى تم ربضها."
+  en: "Muhammad ibn Sinan al-Ujli of Banu Ujul's Kufan clients; one of the eighty al-Hajjaj posted to the Daylam ribat, then settled a Dastaba village and built a house in Qazwin's suburb — the frontier folk rebuked him, he built on with his household outside the walls, others followed, and the rabad was completed."
+periods: [period/umayyad]
+relations:
+  - { type: participated_in, target: event/hajjaj-daylam-expedition }
+  - { type: lived_in, target: place/qazwin }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
