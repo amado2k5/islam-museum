@@ -54,4 +54,6 @@
 
 - (12 Oct 2026) Batch 16: hadiths 43–46 (pp. 846–890) — Ibn Rajab's additions 1–4 (note: h43 actually opens p. 846, not 864; h44 p. 864, h45 p. 871, h46 p. 881): `passage/arbaun-43` (Ibn Abbas — fara'id/residue; the sister-daughter dispute: Ibn Abbas + Zahiris vs jumhur; mursal preferred by Nasa'i), `passage/arbaun-44` (A'isha — suckling prohibits what birth does; ijma' per Ibn Rajab; full mahram enumeration), `passage/arbaun-45` (Jabir — sale of wine/carrion/swine/idols; the «حرم» singular-verb philology via Ibn Hajar/Qurtubi), `passage/arbaun-46` (Abu Burda ← Abu Musa — every intoxicant forbidden; Bit'/Mizr glosses; staged tahrim); new `concept/ilm-al-faraid`, `concept/rada`, `concept/bay-al-muharramat`, `concept/muskir`, `person/abu-burda-ibn-abi-musa`.
 
-**Next:** batch 17 — hadiths 47–48 (pp. 891–913): verify headings (h47 p. 891, h48 p. 901); then batch 18 — hadiths 49–50 (pp. 914–956).
+- (12 Oct 2026) Batch 17: hadiths 47–48 (pp. 891–913) — Ibn Rajab's additions 5–6: `passage/arbaun-47` (al-Miqdam — thirds of the belly; the Khaybar-fruit fever occasion via Abd al-Rahman b. al-Muraqqa'), `passage/arbaun-48` (Abdullah b. Amr b. al-As — the four traits of nifaq; Abu Hurayra's triple-sign parallel; al-Muharram's fabricated irja' ta'wil rejected); new `concept/qillat-al-taam`, `concept/nifaq`.
+
+**Next:** batch 18 — hadiths 49–50 (pp. 914–956): verify headings (h49 p. 914, h50 p. 927). Final batch of the book.
