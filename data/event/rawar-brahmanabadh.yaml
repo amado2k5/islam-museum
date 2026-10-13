@@ -1,0 +1,19 @@
+id: event/rawar-brahmanabadh
+class: event
+kind: conquest
+label: { ar: "فتح راور وبرهمباذ", en: "The Storming of Rawar and Brahmanabadh" }
+summary:
+  ar: "فتح محمد بن القاسم راور عنوة وكانت بها امرأة لداهر فخافت أن تؤخذ فأحرقت نفسها وجواريها وجميع مالها ثم أتى برهمباذ العتيقة وهي على رأس فرسخين من المنصورة ولم تكن المنصورة يومئذ إنما كان موضعها غيضة وكان فل داهر ببرهمباذ هذه فقاتلوه ففتحها محمد عنوة وقتل بها ثمانية آلاف وقيل ستة وعشرون ألفاً وخلف فيها عامله وهي اليوم خراب وسار محمد يريد الرور وبغرور فتلقاه أهل ساوندرا فسألوه الأمان فأعطاهم إياه واشترط عليهم ضيافة المسلمين ودلالتهم وأهل ساوندرا اليوم مسلمون ثم تقدم إلى بسمد فصالح أهلها على مثل صلح ساوندرا وقال ابن الكلبي الذي قتل داهر القاسم بن ثعلبة بن عبد الله بن حصن الطائي."
+  en: "Muhammad stormed Rawar, where a wife of Dahir, fearing capture, burned herself, her maids and her wealth; then Brahmanabadh al-Atiqa — two farsakhs from the later al-Mansura, then mere thicket — where Dahir's remnant fought and fell, eight thousand dead or twenty-six thousand by the larger count, and today ruins. Sawandra's folk won aman on hosting and guiding the Muslims — Muslims today — and Basmad truced the same. Ibn al-Kalbi names Dahir's killer al-Qasim ibn Tha'laba al-Ta'i."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-qasim-ibn-thalaba, role: "قاتل داهر في رواية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/rawar }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

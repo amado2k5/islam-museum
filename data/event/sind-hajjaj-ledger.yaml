@@ -1,0 +1,19 @@
+id: event/sind-hajjaj-ledger
+class: event
+kind: other
+label: { ar: "حساب الحجاج في غزو السند وما بعد داهر", en: "al-Hajjaj's Sind Ledger and the Conquests after Dahir" }
+summary:
+  ar: "نظر الحجاج فإذا هو قد أنفق على محمد بن القاسم ستين ألف ألف ووجد ما حمل إليه عشرين ومائة ألف ألف فقال شفينا غيظنا وأدركنا ثأرنا وازددنا ستين ألف ألف درهم ورأس داهر ومات الحجاج فأتى محمداً وفاته فرجع عن الملتان إلى الرور وبغرور وكان قد فتحها فأعطى الناس ووجه إلى البيلمان جيشاً فلم يقاتلوا وأعطوا الطاعة وسالمه أهل سرسنت وهي مغزى أهل البصرة اليوم وأهلها الميد الذي يقطعون في الحر ثم أتى محمد الكيرج فخرج إليه دوهر فقاتله فانهزم العدو وهرب دوهر ويقال قتل ونزل أهل المدينة على حكم محمد فقتل وسبى وقال الشاعر نحن قتلنا داهراً ودوهراً والخيل تردي منسراً فمنسراً."
+  en: "al-Hajjaj totted it up: sixty million spent on Muhammad ibn al-Qasim against a hundred and twenty million gained — 'we have sated our wrath, taken our revenge, gained sixty million dirhams — and Dahir's head'. Al-Hajjaj died while Muhammad fought on; back at al-Rur he gave stipends, took al-Baylaman's unresisted submission and Sursant's peace — today's Basran resort — then al-Kiraj, where Dahir's son Duhar sallied, fled or fell, and the city came down on terms amid killing and captives: 'we killed Dahir and Duhar, and horse fells knight after knight'."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/duhar, role: "المهزوم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/al-kiraj }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
