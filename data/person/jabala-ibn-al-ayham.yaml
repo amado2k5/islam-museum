@@ -6,7 +6,7 @@ roles: []
 faith: [{ value: christian, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
 summary:
   en: "The last Ghassanid king: after the Yarmuk defeat his dynasty’s role as Rome’s Arab wardens ended, and he entered Islam in the caliphate of Umar, later leaving it for Byzantine territory."
-  ar: "آخر ملوك الغساسنة: بعد وقعة اليرموك انتهى دور بيته وكلاءً للروم على عرب الشام، وأسلم في عهد عمر بن الخطاب ثم خرج عنه لاحقاً إلى بلاد الروم."
+  ar: "آخر ملوك الغساسنة: بعد وقعة اليرموك انتهى دور بيته وكلاءً للروم على عرب الشام، وأسلم في عهد عمر بن الخطاب ثم خرج عنه لاحقاً إلى بلاد الروم. وعند البلاذري: بعثه هرقل على مقدمة جموعه يوم اليرموك في مستعربة الشام من لخم وجذام، فانحاز إلى الأنصار وقال «أنتم إخوتنا وبنو أبينا» وأظهر الإسلام، فلما طلب عمر الاقتصاص منه قال «أوعينه مثل عيني؟ والله لا أقيم في بلد عليّ فيه سلطان» فدخل بلاد الروم مرتداً — وكان ملك غسان بعد الحارث بن أبي شمر؛ وروي أيضاً أن جبلة أتى عمر على نصرانيته فعرض عليه الإسلام أو أداء الجزية فأبى أنفاً من الجزية فقال له عمر ما عندنا لك إلا واحدة من ثلاث: الإسلام أو الجزية أو الذهاب حيث شئت، فدخل بلاد الروم في ثلاثين ألفاً فندم عمر وعاتبه عبادة بن الصامت «لو قبلت منه الصدقة ثم تألفته لأسلم»، فوجّه عمر سنة 21 عمير بن سعد الأنصاري في جيش عظيم — وهي أول صائفة — يدعوه إلى الرجوع على أن يؤدي ما بذل من الصدقة ويقيم على دينه فأبى إلا المقام في بلاد الروم {cite:futuh-buldan-maarif-1407 p.184–186}."
 wings: [people]
 themes: [wars-and-campaigns]
 periods: [period/pre-islamic-arabia]
@@ -17,5 +17,6 @@ story_roles:
 relations:
   - { type: member_of, target: group/ghassan }
   - { type: ruler_of, target: polity/ghassanid-kingdom, end: { edtf: "0636" }, sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+  - { type: participated_in, target: event/battle-of-yarmuk, sources: [source/futuh-buldan-maarif-1407] }
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b) + Futuh al-Buldan batch 9" }

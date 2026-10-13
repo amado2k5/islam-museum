@@ -1,0 +1,32 @@
+id: person/hashim-ibn-utba
+class: person
+label:
+  ar: هاشم بن عتبة المرقال
+  en: Hashim ibn Utba al-Mirqal
+names:
+  - { kind: full, lang: ar, value: هاشم بن عتبة بن أبي وقاص الزهري }
+  - { kind: laqab, lang: ar, value: المرقال }
+gender: male
+roles: [companion, warrior]
+traditions: [sunni]
+summary:
+  ar: "زهري يعرف بالمرقال، من بني أبي وقاص؛ ذهبت عينه يوم اليرموك فيما ذهبت فيه أعين الأشعث بن قيس وقيس بن مكشوح."
+  en: "A Zuhri known as al-Mirqal, of Banu Abi Waqqas; he lost an eye on the day of the Yarmuk, among those whose eyes were lost that day with al-Ash'ath ibn Qays and Qays ibn Makshuh."
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+relations:
+  - { type: participated_in, target: event/battle-of-yarmuk, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 185"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-9
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"
