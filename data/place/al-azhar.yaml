@@ -1,0 +1,19 @@
+id: place/al-azhar
+class: place
+kind: site
+label: { ar: "الجامع الأزهر" }
+summary:
+  ar: "الجامع الأزهر بالقاهرة، شرع العبيديون في بنائه في ربيع الآخر سنة تسع وخمسين وفرغ في رمضان سنة إحدى وستين {cite:tarikh-khulafa-minhaj-1434 p. 621}."
+  en: "Cairo's al-Azhar mosque, begun by the Ubaydids in Rabi' II 359 and finished in Ramadan 361 {cite:tarikh-khulafa-minhaj-1434 p. 621}."
+wings: [place]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+relations:
+  - { type: located_in, target: place/cairo, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 621"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-36
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/muti-abdication-tai-363
+class: event
+kind: other
+label: { ar: "خلع المطيع وبيعة الطائع" }
+summary:
+  ar: "في سنة ثلاث وستين حصل للمطيع فالج وثقل لسانه فدعاه حاجب عز الدولة سبكتكين إلى خلع نفسه وتسليم الأمر إلى ولده الطائع لله ففعل وعقد له الأمر في يوم الأربعاء ثالث عشر ذي القعدة فكانت مدة خلافته تسعاً وعشرين سنة وأشهراً وأثبت خلعه على القاضي ابن أم شيبان وصار بعد خلعه يسمى الشيخ الفاضل وقال ابن شاهين خلع نفسه غير مكره فيما صح عندي وخرج إلى واسط مع ولده فمات في محرم سنة أربع وستين، وقال الذهبي كان المطيع وابنه مستضعفين مع بني بويه ولم يزل أمر الخلفاء في ضعف إلى أن استخلف المقتفي لله {cite:tarikh-khulafa-minhaj-1434 p. 624}."
+  en: "In 363 al-Muti' was struck by paralysis and his tongue grew heavy; Izz al-Dawla's chamberlain Subuktakin proposed he depose himself for his son al-Ta'i' — done on Wednesday 13 Dhu'l-Qa'da after twenty-nine years and months, recorded with qadi Ibn Umm Shayban, and he was called 'al-Shaykh al-Fadil' thereafter. Ibn Shahin says he abdicated unforced; he went to Wasit and died Muharram 364. Al-Dhahabi: al-Muti' and his son were helpless among the Buyids, the caliphs' weakness lasting till al-Muqtafi {cite:tarikh-khulafa-minhaj-1434 p. 624}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0974~", hijri: "0363", calendar: julian, precision: year, status: tradition, derived: true, note: "363؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 624}." }
+relations:
+  - { type: had_participant, target: person/al-muti-billah, role: "المخلوع", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-tai-billah, role: "الخليفة الجديد", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/subuktakin, role: "الحاجب", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 615–625"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-36
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

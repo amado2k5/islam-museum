@@ -1,0 +1,22 @@
+id: event/first-shii-observances-baghdad-352
+class: event
+kind: other
+label: { ar: "أول مأتم عاشوراء وعيد غدير ببغداد" }
+summary:
+  ar: "في سنة إحدى وخمسين كتبت الشيعة ببغداد على أبواب المساجد لعنة معاوية ولعنة من غصب فاطمة حقها من فدك ومن منع الحسن أن يدفن مع جده ولعنة من نفى أبا ذر فمحي في الليل فأراد معز الدولة أن يعيده فأشار عليه الوزير المهلبي أن يكتب مكان ما محي لعن الله الظالمين لآل رسول الله وصرحوا بلعنة معاوية فقط، وفي سنة اثنتين وخمسين يوم عاشوراء ألزم معز الدولة الناس بغلق الأسواق ومنع الطباخين من الطبخ ونصبوا القباب في الأسواق وعلقوا عليها المسوح وأخرجوا نساء منشرات الشعور يلطمن في الشوارع ويقمن المأتم على الحسين وهذا أول يوم نيح عليه ببغداد واستمرت هذه البدعة سنين وفي ثامن عشر ذي الحجة منها عمل عيد غدير خم وضربت الدبادب {cite:tarikh-khulafa-minhaj-1434 p. 619}."
+  en: "In 351 the Shi'a of Baghdad wrote on the mosque doors curses on Mu'awiya, on those who seized Fatima's Fadak, who kept al-Hasan from burial beside his grandfather, who exiled Abu Dharr; it was erased by night, and vizier al-Muhallabi advised Mu'izz al-Dawla to substitute 'God curse the wrongdoers of the Prophet's house' — only Mu'awiya's cursing stayed explicit. On Ashura 352 Mu'izz compelled the markets shut, forbade cooking, set up mourning domes hung with sackcloth, and brought out dishevelled women beating their cheeks — the first Husayn lamentation at Baghdad, a practice that lasted years, and on 18 Dhu'l-Hijja the Ghadir Khumm festival was made with drums {cite:tarikh-khulafa-minhaj-1434 p. 619}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0963~", hijri: "0352", calendar: julian, precision: year, status: tradition, derived: true, note: "351–352؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 619}." }
+relations:
+  - { type: had_participant, target: person/muizz-al-dawla, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-muhallabi-al-wazir, role: "الوزير", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 615–625"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-36
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
