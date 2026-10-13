@@ -1,0 +1,22 @@
+id: person/munzir-al-balluti
+class: person
+label: { ar: "المنذر البلوطي", en: "Al-Mundhir al-Balluti" }
+names:
+  - { kind: full, lang: ar, value: "منذر بن سعيد بن عبد الله بن عبد الرحمن بن قاسم النفزي القرطبي البلوطي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "0886", hijri: "0273", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0966", hijri: "0355", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "قاضٍ قرطبي من أهل العلم بالفقه والحديث، ونُسب إلى البلوط."
+  en: "A Cordoban judge learned in jurisprudence and hadith, named after the oak grove."
+wings: [people, words]
+themes: [development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 77, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص77", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,22 @@
+id: person/muhammad-ibn-abd-allah-bulayhid
+class: person
+label: { ar: "محمد بن عبد الله بليهد", en: "Muhammad ibn Abd Allah Bulayhid" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن عبد الله بن عثمان بن سعود بن محمد بن بليهد" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1892", hijri: "1310", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1957", hijri: "1377", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم سعودي ولد سنة 1310هـ، من أسرة بليهد في نجد، وذُكر في كتب الأخبار المعاصرة."
+  en: "A Saudi scholar born in 1310 AH from the Bulayhid family of Najd, recorded in modern biographical sources."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/modern-era]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 111, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص111", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
