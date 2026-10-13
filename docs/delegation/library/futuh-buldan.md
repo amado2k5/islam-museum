@@ -145,4 +145,6 @@
 
 - **Batch 65** (pp. 520–523 — Asawira/Zutt dossier): `event/asawira-basra-settlement` (Siyah's "تعوذاً" speech, Tamim alliance, Nahr al-Asawira); `event/hajjaj-punishes-asawira` (Rabadha → houses razed, stipends cut, own clause cited); `event/zutt-brigandage` (Kaskar settlement → batiha banditry, Mu'tasim → Ujayf's water-damming capture, dispersed to Khaniqin/Ayn Zarba/thughur); `group/zutt`, `group/sayabija` (treasury guards); `person/ujayf-ibn-anbasa`, `al-rabi-ibn-ziyad-al-harithi`, `suwayd-ibn-abdallah-al-tamimi`, `dawud-ibn-abi-hind`, `said-ibn-abi-aruba`; `place/al-kalbaniyya`; abdallah-ibn-ali-ibn-abdallah merged.
 
-**Next:** batch 66 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 66** (pp. 524–525 — Part 4's end): `event/sayabija-treasury-killing` (refused treasury to Talha/Zubayr till Ali came → killed at dawn, Ibn al-Zubayr leading); `person/abu-salama-al-zutti`, `khalid-al-shatir-ibn-marquli` (Bukharan stock); `event/zutt-syria-transfer` (Mu'awiya/Walid to Antioch coasts); `event/bukhara-settlers-basra` (Ubaydallah's captives → Wasit); `group/andaghar`. **Part 5 (كور الأهواز) opens p. 531.**
+
+**Next:** batch 67 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
