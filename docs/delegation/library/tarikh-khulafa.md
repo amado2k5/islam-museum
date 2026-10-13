@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-31** (pp. 561–569 — al-Muhtadi & al-Mu'tamid I): new `event/zanj-sack-of-basra-257`, `killing-of-sahib-al-zanj` (270), `kundaj-interception-269` (first sequestered caliph), `mutamid-succession-deed-261` (Ka'ba deed, two banners); `person/ishaq-ibn-kundaj`, `said-ibn-makhlad`, `bakkar-ibn-qutayba`, `khumarawayh`, `bayakbak`, `al-khujistani`, `ubayd-allah-al-mahdi` (Fatimid germ, Kutama), `musawwar`; enriched `killing-of-muhtadi` (4,000 Turks, the riqa' notes), `al-muhtadi` (Umar II piety), `al-mutamid`, `zanj-revolt-begins`, `abu-ahmad-al-muwaffaq`, `al-mutadid`.
+
 - **Batch TK-30** (pp. 553–559 — al-Muntasir & al-Musta'in & al-Mu'tazz I): new `person/ibn-tayfur-al-tabib` (poisoned feather), `baghir-al-turki`, `said-al-hajib`, `ahmad-ibn-tulun` ("لا أقتل أولاد الخلفاء"), `muhammad-ibn-abd-allah-ibn-tahir`, `al-muayyad`, `qabiha` (2M-dinar hoard), `sari-al-saqati`, `al-darimi`, `abu-bakr-al-utbi`, `ibn-abi-al-shawarib`; enriched `caliphate-of-muntasir`, `al-muntasir`, `al-mustain` (خليفة في قفص), `killing-of-mustain`, `attempt-to-depose-mustain`, `al-mutazz`, `bayat-al-mutazz`, `abu-ahmad-al-muwaffaq` (exile to Wasit — merged dup).
 
 - **Batch TK-29** (pp. 545–551 — al-Mutawakkil anecdotes): new `person/al-shafii` (Mutawakkil's dream — first caliph to take a madhhab), `al-buhturi`, `ahmad-ibn-al-muadhdhal` ("نزهتك من عذاب الله"); enriched `mihna-of-the-quran` (lifted under Mutawakkil), `al-mutawakkil` (the contented man), `mahbuba` (dream reconciliation).

@@ -1,0 +1,22 @@
+id: event/killing-of-sahib-al-zanj
+class: event
+kind: death
+label: { ar: "قتل صاحب الزنج" }
+summary:
+  ar: "استمر القتال مع الزنج من حين تولى المعتمد سنة ست وخمسين إلى سنة سبعين فقتل فيها رأس الزنج وكان قد ادعى أنه أرسل إلى الخلق فرد الرسالة وأنه يطلع على المغيبات، فدخل برأسه بغداد على رمح وعملت قباب الزينة وضج الناس بالدعاء للموفق ومدحه الشعراء وكان يوماً مشهوداً وأمن الناس وتراجعوا إلى المدن التي أخذها ومنها واسط ورامهرمز {cite:tarikh-khulafa-minhaj-1434 p. 564-565}."
+  en: "The fighting ran from al-Mu'tamid's accession in 256 to 270, when the Zanj chief — who claimed he had sent creation letters to creation and knew the unseen — was killed; his head entered Baghdad on a lance, domes of celebration were raised, the crowd roared prayers for al-Muwaffaq, poets praised him, and people safely re-entered the cities the Zanj had taken, Wasit and Ramhurmuz among them {cite:tarikh-khulafa-minhaj-1434 p. 564-565}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0883~", hijri: "0270", calendar: julian, precision: year, status: tradition, derived: true, note: "270؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 564}." }
+relations:
+  - { type: had_participant, target: person/sahib-al-zanj, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "الظافر", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 564–567"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-31
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
