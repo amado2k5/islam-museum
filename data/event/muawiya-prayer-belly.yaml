@@ -1,0 +1,18 @@
+id: event/muawiya-prayer-belly
+class: event
+kind: other
+label: { ar: "دعوة لا شبع الله بطنه على معاوية", en: "The Prayer that Answered on Mu'awiya" }
+summary:
+  ar: "كتب معاوية لرسول الله عام الفتح ودعاه يوماً وهو يأكل فأبطأ فقال لا شبع الله بطنه فكان معاوية يقول لحقتني دعوة رسول الله وكان يأكل في اليوم سبع أكلات وأكثر وأقل."
+  en: "Mu'awiya wrote for the Prophet in the Year of the Conquest; called to him one day while eating he delayed, and he said 'may God not fill his belly' — 'the Prophet's prayer caught me', Mu'awiya said, who ate seven meals a day, more and less."
+periods: [period/prophetic-era]
+relations:
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "المدعو عليه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad, role: "الداعي", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

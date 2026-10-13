@@ -1,0 +1,19 @@
+id: event/jufayna-killing
+class: event
+kind: other
+label: { ar: "قتل جفينة العبادي وابنيه", en: "The Killing of Jufayna al-'Ibadi and his Sons" }
+summary:
+  ar: "كان جفينة العبادي من أهل الحيرة نصرانياً ظئراً لسعد بن أبي وقاص فاتهمه عبيد الله بن عمر بمشايعة أبي لؤلؤة على قتل أبيه فقتله وقتل ابنيه."
+  en: "Jufayna al-'Ibadi, a Christian of al-Hira and Sa'd ibn Abi Waqqas's freedman — Ubaydallah ibn Umar accused him of abetting Abu Lu'lu'a in his father's killing, and killed him and his two sons."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/ubaydallah-ibn-umar, role: "القاتل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jufayna-al-ibadi, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "مولى جفينة", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

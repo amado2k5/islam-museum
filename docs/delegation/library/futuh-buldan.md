@@ -211,4 +211,8 @@
 
 - **Batch 98** (pp. 659–662 — the script dossier): `event/arabic-script-origin` (the Tayyi' three at Baqqa, the Hira-Anbar-Mecca chain); `event/quraysh-scribes` (the seventeen literate Qurashis, the women writers, the first revelation scribes); persons +6.
 
-**Next:** batch 99 — scribal/caliphal sections (pp. 663+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 99** (pp. 663–665 — FINAL; book ends at p665, rest is the index): `event/ansar-scribes-kamil` (the literate Ansar, the kamil triad, Zayd's Hebrew); `event/jufayna-killing`; `event/muawiya-prayer-belly`; persons +5; ibn-abi-sarh enriched.
+
+**Futuh al-Buldan COMPLETE — 768-page scan OCR'd, text mined through p665 (end), ~99 batches, ~1100 entities.**
+
+**Next:** next tareekh book — check raw/library/tareekh for the next unprocessed volume, OCR if needed, mine — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
