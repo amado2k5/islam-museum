@@ -1,0 +1,23 @@
+id: person/masud-ibn-haritha
+class: person
+label: { ar: "مسعود بن حارثة", en: "Mas'ud ibn Haritha" }
+summary:
+  ar: "أخو المثنى بن حارثة الشيباني؛ قتل يوم مهران فقال المثنى يا معشر المسلمين لا يرعكم مصرع أخي فإن مصارع خياركم هكذا فحملوا حملة رجل واحد."
+  en: "Brother of al-Muthanna ibn Haritha al-Shaybani; killed at the Day of Mihran, prompting al-Muthanna's saying 'let not my brother's fall dismay you — the falls of your best are such', after which they charged as one."
+wings: [people, time]
+periods: [period/rashidun]
+regions: [levant-iraq]
+died:
+  hijri: "0014~"
+  precision: year
+  status: tradition
+  note: "يوم مهران سنة 14 (البلاذري ص 355)"
+relations:
+  - { type: sibling_of, target: person/al-muthanna-ibn-haritha, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 355"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-30
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
