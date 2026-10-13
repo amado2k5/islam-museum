@@ -183,4 +183,6 @@
 
 - **Batch 84** (pp. 600–603 — the governor chain): `event/said-hudhayfa-khurasan` (the dahqan's quip, Sawra's Ishtikhan loss); `event/al-jarashi-sughd` (the lahan 'ahd, 12k defection); `event/muslim-ibn-said-farghana` (Afshin's 6,000 heads, the 3-march flight); `event/asad-khurasan-rule` (the curse-riposte, Balkh diwans, Nasr beaten); `event/ashras-jizya-episode` (converts' jizya, Thabit Qutna); `event/al-junayd-turk-war` (112h, the Khaqan's drunken son, Hashimi da'is); persons +10.
 
-**Next:** batch 85 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 85** (pp. 604–607 — Ushrusana dossier + Sind opens): `event/kabul-shah-submission` (the halilaj post); `event/kawus-ushrusana-affair` (qahrman's killing, Haydar's flight); `event/ahmad-ushrusana-conquest` (the short road, Turks' thirst-death); `event/mamun-transoxania-army` (the diwan wooing, Tahir's Fuziyya); `event/uthman-tana-raid` ("worms upon wood"); `event/hakim-sind-report` ("khayr am saji'?"); persons +8 (Kawus, Haydar/al-Afshin, Ahmad b. Abi Khalid, Hakim, the Abi al-As brothers, Tahir); places sind, daybul, tana, barus.
+
+**Next:** batch 86 — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

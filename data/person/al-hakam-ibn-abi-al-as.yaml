@@ -1,102 +1,14 @@
 id: person/al-hakam-ibn-abi-al-as
 class: person
-label:
-  ar: الحكم بن أبي العاص
-  en: Al-Hakam ibn Abi al-As
-names:
-- kind: full
-  lang: ar
-  value: الحكم بن أبي العاص بن أمية بن عبد شمس القرشي الأموي، عم عثمان بن عفان ووالد مروان
-gender: male
-roles:
-- companion
-traditions:
-- sunni
+label: { ar: "الحكم بن أبي العاص الثقفي", en: "al-Hakam ibn Abi al-As al-Thaqafi" }
 summary:
-  ar: قرشي أموي، عم عثمان بن عفان ووالد مروان؛ أسلم يوم الفتح وسكن المدينة ثم نفاه النبي إلى الطائف، وأُعيد إلى المدينة في خلافة عثمان ومات بها؛ واختلفت الروايات في سبب نفيه، وفي كثير منها كلام لابن حجر في الإسناد.
-  en: A Qurashi of the Umayyad clan, uncle of Uthman ibn Affan and father of Marwan. He accepted Islam on the day of the conquest, settled in Medina, was exiled by the Prophet to al-Ta'if, was brought back under Uthman and died in Medina. Reports
-    on the reason for his exile differ, and Ibn Hajar comments on the chains of several of them.
-wings:
-- people
-themes:
-- converts-and-leavers
-periods:
-- period/prophetic-era
-- period/rashidun
-regions:
-- arabia
-story_roles:
-- role: companion
-  status: tradition
-  note: مذكور في الإصابة ترجمة رقم 1952 (ص 333).
-  sources:
-  - source/ibn-hajar-isaba
-faith:
-- value: sunni
-  basis: tradition
-  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
-relations:
-- type: member_of
-  target: group/banu-umayya
-  sources:
-  - source/ibn-hajar-isaba
-- type: lived_in
-  target: place/taif
-  sources:
-  - source/ibn-hajar-isaba
-- type: lived_in
-  target: place/medina
-  sources:
-  - source/ibn-hajar-isaba
-issue:
-  ar: لماذا نُفي الحكم بن أبي العاص؟
-  en: Why was al-Hakam ibn Abi al-As exiled?
-perspectives:
-- tradition: sunni
-  id: fakihi-peeking
-  stance:
-    ar: اطّلع من شق الجدار وعبس في وجه النبي
-  summary:
-    ar: روى الفاكهي عن الزهري وعطاء الخراساني أن النبي لعنه لأنه دخل عليه شق الجدار وهو مع زوجته فكلح في وجهه، ثم ذكر أنه ينظر إلى بنيه يصعدون منبره؛ ونفاه.
-  evidence:
-  - ref: source/ibn-hajar-isaba
-    note:
-      ar: ص 333
-  sources:
-  - source/ibn-hajar-isaba
-- tradition: sunni
-  id: abu-umar-secret
-  stance:
-    ar: كان يشيع سر النبي أو يحكيه في مشيته
-  summary:
-    ar: 'ذكر أبو عمر في سبب طرده قولاً آخر: إنه كان يشيع سر رسول الله، وقيل كان يحكيه في مشيته.'
-  evidence:
-  - ref: source/ibn-hajar-isaba
-    note:
-      ar: ص 334
-  sources:
-  - source/ibn-hajar-isaba
-- tradition: sunni
-  id: ibn-al-sakan-dua
-  stance:
-    ar: دعاء النبي عليه
-  summary:
-    ar: 'قال ابن السكن: يقال إن النبي دعا عليه، ولم يثبت ذلك عنده.'
-  evidence:
-  - ref: source/ibn-hajar-isaba
-    note:
-      ar: ص 333
-  sources:
-  - source/ibn-hajar-isaba
+  ar: "الحكم بن أبي العاص الثقفي أخو عثمان بن أبي العاص؛ وجهه أخوه إلى البحرين وإلى بروص سنة ١٥."
+  en: "al-Hakam ibn Abi al-As al-Thaqafi, Uthman's brother; sent to Bahrayn and on to Barus in 15h."
+periods: [period/rashidun]
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
-  source: الإصابة في تمييز الصحابة، ترجمة 1952، ص 333
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: isaba-batch-10
-sources:
-- source/ibn-hajar-isaba
-status:
-  review: draft
-  completeness: 2
-  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 333, entry 1952)
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

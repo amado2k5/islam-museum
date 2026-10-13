@@ -1,0 +1,20 @@
+id: event/kawus-ushrusana-affair
+class: event
+kind: other
+label: { ar: "شأن كاوس ملك أشروسنة ووقعة القهرمان", en: "King Kawus's Affair and the Qahrman's Killing" }
+summary:
+  ar: "كتب كاوس ملك أشروسنة إلى الفضل بن سهل ذي الرياستين وزير المأمون يسأله الصلح على مال يؤديه على أن لا يغزو المسلمون بلده فأجيب إلى ذلك فلما قدم المأمون إلى مدينة السلام امتنع كاوس من الوفاء بالصلح وكان له قهرمان أثير عنده قد زوج ابنته من الفضل بن كاوس فكان يفرط الفضل عنده ويقربه من قلبه ويدم حيدر بن كاوس المعروف بالأفشين ويشنعه فوثب حيدر على القهرمان فقتله على باب مدينتهم وهرب إلى هاشم بن محود الختلي وكان هاشم ببلده مملكاً عليه فسأله أن يكتب إلى أبيه في الرضى عليه فلما بلغ حيدر ما فعل كاوس أظهر الإسلام وشخص إلى مدينة السلام فوصف للمأمون سهولة الأمر في أشروسنة وهون عليه ما يهوله الناس من خبرها ووصف له طريقاً مختصرة إليها."
+  en: "Kawus of Ushrusana bought peace from al-Fadl ibn Sahl, then broke it once al-Ma'mun reached Baghdad. His favored qahrman — married into al-Fadl ibn Kawus's line — exalted al-Fadl while demeaning Haydar ibn Kawus, al-Afshin-to-be, who leapt on him and killed him at the city gate, then fled to Hashim ibn Mahwayh al-Khuttali for intercession. Hearing worse from home, Haydar showed Islam, came to Baghdad, made Ushrusana's conquest sound easy to al-Ma'mun, and showed him a short road."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/kawus, role: "الملك الناقض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/haydar-ibn-kawus, role: "القاتل المستظهر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-fadl-ibn-sahl, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/ushrusana }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

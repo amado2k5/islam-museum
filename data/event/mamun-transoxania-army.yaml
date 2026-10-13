@@ -1,0 +1,20 @@
+id: event/mamun-transoxania-army
+class: event
+kind: other
+label: { ar: "استمالة المأمون وجند المعتصم لأهل ما وراء النهر", en: "The Court's Wooing of Transoxania" }
+summary:
+  ar: "كان المأمون يكتب إلى عماله على خراسان في غزو من لم يكن على الطاعة والإسلام من أهل ما وراء النهر ويوجه رسله فيفرضون لمن رغب في الديوان ويريد الفريضة من أهل تلك النواحي وأبناء ملوكهم ويستميلهم بالرغبة فإذا وردوا بابه شرفهم وأسنى صلاتهم وأرزاقهم ثم استخلف المعتصم بالله فكان على مثل ذلك حتى صار جل شهود عسكره من جند أهل ما وراء النهر من السغد والفراغنة والأشروسنة وأهل الشاش وغيرهم وحضر ملوكهم بابه وغلب الإسلام على من هناك وصار أهل تلك البلاد يغزون من وراءهم من الترك وأغزى عبد الله بن طاهر ابنه طاهر بن عبد الله بلاد الفوزية ففتح مواضع لم يصل إليها أحد قبله وحدثني العمري عن الهيثم بن عدي عن ابن عياش أن قتيبة أسكن العرب ما وراء النهر حتى أسكنهم أرض فرغانة والشاش."
+  en: "Al-Ma'mun's Khurasan agents campaigned the unsubmitted while his envoys enrolled willing Transoxanians — their kings' sons included — in the diwan, honored and raised in stipend at court. Al-Mu'tasim kept the same till most of his army's standing troops were Sughdians, Faraghanis, Ushrusanis and Shashis, their kings attending his gate; Islam prevailed there and they raided the Turks beyond them. Abdallah ibn Tahir's son Tahir opened lands of al-Fuziyya none had reached before; and Ibn Ayyash holds Qutayba settled Arabs beyond the river as far as Farghana and al-Shash."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-allah-ibn-tahir, role: "والي خراسان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/tahir-ibn-abdallah, role: "الغازي", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
