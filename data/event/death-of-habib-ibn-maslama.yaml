@@ -1,0 +1,24 @@
+id: event/death-of-habib-ibn-maslama
+class: event
+kind: death
+label: { ar: "وفاة حبيب بن مسلمة بدمشق", en: "The Death of Habib ibn Maslama at Damascus" }
+summary:
+  ar: "عند البلاذري: لما فتح حبيب ما فتح من أرض أرمينية كتب به إلى عثمان بن عفان فوافاه كتابه وقد نُعي إليه سلمان فهمّ أن يوليه جميع أرمينية ثم رأى أن يجعله غازياً بثغور الشام والجزيرة لغنائه فيما كان ينهض له من ذلك فولّى ثغر أرمينية حذيفة بن اليمن العبسي فشخّص إلى برذعة ووجّه عمّاله على ما بينها وبين قاليقلا وإلى خيزان فورد عليه كتاب عثمان يأمره بالانصراف وتخليف صلة بن زفر العبسي وكان معه فخلّفه، وسار حبيب راجعاً إلى الشام وكان يغزو الروم ونزل حمص فنقله معاوية إلى دمشق فتوفى بها سنة 42 وهو ابن خمس وثلاثين سنة، وكان معاوية وجّه حبيباً في جيش لنصرة عثمان حين حوصر فلما انتهى إلى وادي القرى بلغه مقتل عثمان فرجع."
+  en: "In al-Baladhuri: when Habib had taken what he took of Armenia's land he wrote of it to Uthman ibn Affan, whose answer reached him with Salman's death reported — Uthman near giving him all Armenia, then judging it better to make him a raider of the Syrian and Jaziran frontier for his worth in such service, and gave Armenia's march to Hudhayfa ibn al-Yaman al-Absi, who repaired to Bardha'a posting his agents over what lay between it and Qaliqala and to Khizan, until Uthman's writ came ordering his return and the leaving behind of Sila ibn Zufar al-Absi who was with him — and he left him; Habib marched back to Syria raiding the Romans, camped at Hims, and Mu'awiya moved him to Damascus where he died in year 42, being thirty-five years old; Mu'awiya had earlier sent Habib at the head of an army to Uthman's aid when he was besieged, but at Wadi al-Qura word of Uthman's killing reached him and he turned back."
+wings: [time, people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0662", hijri: "0042", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 42 بدمشق وله 35 سنة (البلاذري ص 288). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/damascus }
+  - { type: had_participant, target: person/habib-ibn-maslama, role: "المتوفى ابن 35 سنة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "ناقله إلى دمشق وموجّهه لنصرة عثمان سابقاً", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hudhayfa-ibn-al-yaman-al-absi, role: "خلفه على ثغر أرمينية", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 287–288"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-17
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

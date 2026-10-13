@@ -1,0 +1,24 @@
+id: event/founding-of-mutawakkiliyya
+class: event
+kind: founding
+label: { ar: "عمارة بُغا لشمكور وتسميتها المتوكلية", en: "Bugha's Rebuilding of Shamkur as al-Mutawakkiliyya" }
+summary:
+  ar: "عند البلاذري عن جماعة من أهل برذعة: كانت شمكور مدينة قديمة فوجّه سلمان بن ربيعة الباهلي من فتحها فلم تزل مسكونة معمورة حتى أخربها الساوردية — وهم قوم تجمعوا في أيام انصراف يزيد بن أسيد عن أرمينية فغلظ أمرهم وكثرت نوائبهم — ثم إن بُغا مولى المعتصم بالله عمّرها في سنة 240 وهو والي أرمينية وأذربيجان وشمشاط وأسكنها قوماً خرجوا إليه من الخزر مستأمنين لرغبتهم في الإسلام ونقل إليها التجار من برذعة وسمّاها المتوكلية."
+  en: "In al-Baladhuri from a company of Bardha'a's people: Shamkur was an ancient city which Salman ibn Rabi'a al-Bahili's man took, and it stayed peopled and prosperous until the Sawardiyya ruined it — a people who gathered in the days of Yazid ibn Asid's departure from Armenia, whose power hardened and whose raids multiplied; then Bugha, mawla of al-Mu'tasim, rebuilt it in year 240 while governor of Armenia, Adharbayjan and Shimshat, settling in it a people who had come out to him from the Khazars under safe-conduct desiring Islam, transferring to it the merchants of Bardha'a, and naming it al-Mutawakkiliyya."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0854~", hijri: "0240", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 240 (البلاذري ص 286). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/shamkur }
+  - { type: had_participant, target: person/bugha-al-kabir, role: "العمّار والي أرمينية وأذربيجان وشمشاط", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/khazars, role: "مستأمنون راغبون في الإسلام سُكنوا المدينة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/sawardiyya, role: "سابقون: مخربو المدينة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 286"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-17
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

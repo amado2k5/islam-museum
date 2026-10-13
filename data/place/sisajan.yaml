@@ -1,0 +1,19 @@
+id: place/sisajan
+class: place
+kind: town
+label: { ar: "السيسجان", en: "the Sisajan" }
+summary:
+  ar: "من بلاد أرمينية الأولى؛ عاور أهلها حبيب بن مسلمة فهزمهم وغلب على ويص وصالح أهل قلاعها على خراج يؤدونه، ومنها سُبيت أم يزيد بنت أسيد بنت بطريقها في غزاة محمد بن مروان."
+  en: "of the first Armenia's lands; its people fought Habib ibn Maslama, who routed them, took Ways and compounded with its castle-folk for kharaj; from it Umm Yazid bint Usid, daughter of its patrikios, was taken captive in Muhammad ibn Marwan's campaign."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 281–287"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-17
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

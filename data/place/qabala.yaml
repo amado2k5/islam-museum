@@ -1,0 +1,19 @@
+id: place/qabala
+class: place
+kind: town
+label: { ar: "قبلة", en: "Qabala" }
+summary:
+  ar: "مدينة بناها قباذ بن فيروز بأران وهي الخزر؛ فتحها سلمان بن ربيعة بعد عبوره الكُرّ نحو مجمع الرس والكُرّ."
+  en: "a city Qubadh ibn Fayruz built in Arran — also called al-Khazar — which Salman ibn Rabi'a took after crossing the Kurr toward the Rass-Kurr confluence."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 281–287"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-17
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
