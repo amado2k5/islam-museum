@@ -1,0 +1,24 @@
+id: event/sulh-ahl-maqna
+class: event
+kind: treaty
+label: { ar: "صلح أهل مقنى", en: "The Treaty with the People of Maqna" }
+summary:
+  ar: "عند البلاذري: صالح رسول الله أهل مقنى — وكانوا يهوداً من بني حبيبة — في غزوة تبوك على ربع صيد العروك (وهو خشب يصطاد عليه)، وربع غزل النساء، وربع الثمار؛ وكتب لهم كتاباً روي أن رجلاً رآه بأيدي يهود مصر في جلد أحمر دارس الخط فنسخه — نصه أمان وذمة الله وذمة رسوله وعفو عن كل دم، وأن لرسول الله البزة والرقيق والكراع والحلقة إلا ما عفا عنه، وأنه رفع عنهم كل جزية وسخرة، وأن ليس عليهم أمير إلا من أنفسهم أو من أهل بيت رسول الله، وكتبه علي في سنة 9 على ما في النسخة — وقد أنكر محققا الطبعة نسبة الكتاب إلى علي إذ لم يكن مع النبي في غزوة تبوك فرجحا افتعاله."
+  en: "In al-Baladhuri: the Prophet made peace with the people of Maqna — Jews of Banu Habiba — during the Tabuk campaign for a quarter of the 'uruk catch (a wood used in fishing), a quarter of the women's spinning and a quarter of the fruits; he wrote them a letter a man reported seeing in the hands of the Jews of Egypt on red leather with a faded script — its text granting security, God's protection and His messenger's, pardon for every blood, reserving for the Prophet the buzza, the captives, the kira' and the armour except what he excused, lifting from them every jizya and corvée, with no commander over them but one of themselves or of the Prophet's household, written by Ali in year 9 per the copy — though the edition's editors reject its attribution to Ali, who was not with the Prophet at Tabuk, judging the document fabricated."
+wings: [time, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630~", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "غزوة تبوك سنة 9هـ وكتاب مقنى مؤرخ فيها (البلاذري ص 80–81). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/maqna }
+  - { type: had_participant, target: person/muhammad, role: "صالحهم وكتب لهم الأمان والذمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: part_of, target: event/expedition-to-tabuk, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/dhimma, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 80–81"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-3
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

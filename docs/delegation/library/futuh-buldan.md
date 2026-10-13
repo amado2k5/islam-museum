@@ -21,4 +21,6 @@
 
 **Flags:** conquest narratives carry isnads — attribute every report to its chain/author, never the museum's voice; peace-treaty texts (e.g. صلح نجران، صلح التوبة) are primary documents — summarize, don't republish; Ridda and conquest events may already exist from the seerah lanes — reuse before creating.
 
-**Next:** batch 1 — source/work/person entities while OCR runs; then map printed-page offset and open with the siyar section + باب الجزية على أهل البلدان.
+- **Batch 3** (pp. 78–92 — the treaty dossier): `concept/jizya`, `concept/dhimma`, `concept/kharaj` (the book's fiscal triad), `event/expulsion-of-najran` (Umar's ijla' + the hulla history under Uthman/Hajjaj/Umar II/Saffah/Rashid), `place/al-najraniyya`, `place/maqna`, `event/sulh-ahl-maqna` (Jews' quarter-treaty; letter attribution to Ali questioned by the edition's editors — recorded), `event/sulh-ayla` (Yuhanna ibn Ru'ba, 300 dinars + qira), `event/khalid-kills-ukaydir` (Abu Bakr-era conquest of Dawma); `event/delegation-of-najran` enriched with Baladhuri's treaty terms. Skipped as already covered: Tabuk treaty (existing), Ukaydir's first treaty (`treaty-of-ukaydir`), Dawma expedition (`expedition-of-dumat-al-jandal`).
+
+**Next:** batch 4 — Yemen section (pp. 92+) then the Ridda chapters and first conquests; OCR continues in background.

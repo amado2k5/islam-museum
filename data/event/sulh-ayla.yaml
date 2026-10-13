@@ -1,0 +1,25 @@
+id: event/sulh-ayla
+class: event
+kind: treaty
+label: { ar: "صلح أيلة", en: "The Treaty of Ayla" }
+summary:
+  ar: "عند البلاذري: أتى يُحنّة بن رؤبة صاحب أيلة النبي وهو بتبوك فصالحه على أن جعل له على كل حالم من أهل أرضه ديناراً في السنة فبلغ ذلك ثلاثمائة دينار، واشترط عليهم قِرَى من مرّ بهم من المسلمين، وكتب لهم كتاباً بأن يُحفظوا ويُمنعوا؛ وروي عن طلحة الأيلي أن عمر بن عبد العزيز كان لا يزيد على أهل أيلة ثلاثمائة دينار شيئاً."
+  en: "In al-Baladhuri: Yuhanna ibn Ru'ba, lord of Ayla, came to the Prophet while he was at Tabuk and made peace on a dinar yearly upon every hālim of his land's people, totalling three hundred dinars, stipulating hospitality for Muslims passing by them, and the Prophet wrote them a letter of safeguard and protection; Talha al-Ayli reported that Umar ibn Abd al-Aziz never took from the people of Ayla a thing beyond the three hundred dinars."
+wings: [time, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630~", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "في غزوة تبوك سنة 9هـ (البلاذري ص 79–80). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ayla }
+  - { type: had_participant, target: person/yuhanna-ibn-rubah, role: "صاحب أيلة الذي صالح على الجزية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad, role: "قبل الصلح وكتب لهم الحفظ والمنع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: part_of, target: event/expedition-to-tabuk, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/jizya, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 79–80"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-3
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

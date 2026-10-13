@@ -1,0 +1,18 @@
+id: place/al-najraniyya
+class: place
+kind: town
+label: { ar: "النجرانية", en: "al-Najraniyya" }
+summary:
+  ar: "قرية بناحية الكوفة نزلها نصارى نجران ومن تبعهم من يهودها لما أجلاهم عمر بن الخطاب من اليمن في خلافته، فسُمّيت بهم؛ وكان صاحب النجرانية يبعث رسله إلى متفرقيهم بالشام والنواحي يجبونهم مالاً يقسمه عليهم لإقامة الحُلَل المفروضة عليهم، وشكوا تفرقهم وموت من مات وإسلام من أسلم حتى وجدهم عمر بن عبد العزيز على العشر من عدّتهم الأولى."
+  en: "A village in the Kufa district settled by the Christians of Najran and their Jewish dependents when Umar ibn al-Khattab exiled them from Yemen in his caliphate, and named after them; the head of al-Najraniyya used to send agents to their scattered communities in Syria and the districts collecting a fund divided among them to sustain the stipulated hullas, and they complained of dispersion, deaths and conversions until Umar ibn Abd al-Aziz found them at a tithe of their original number."
+wings: [place]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/kufa, sources: [source/futuh-buldan-maarif-1407], note: "بناحية الكوفة" }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 89–90"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-3
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
