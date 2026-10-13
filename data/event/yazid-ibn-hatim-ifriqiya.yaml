@@ -1,0 +1,26 @@
+id: event/yazid-ibn-hatim-ifriqiya
+class: event
+kind: campaign
+label: { ar: "مسير يزيد بن حاتم إلى إفريقية وقتله أبا خاتم", en: "Yazid ibn Hatim's March to Ifriqiya and His Killing of Abu Khatim" }
+summary:
+  ar: "عند البلاذري: ولّي بعد هزارمرد يزيد بن حاتم بن قبيصة بن المهلب فخرج في خمسين ألفاً وشيّعه أبو جعفر المنصور إلى بيت المقدس وأنفق عليه مالاً عظيماً فسار يزيد حتى لقي أبا حاتم باطر إبليس فقتله ودخل إفريقية فاستقامت له ثم ولّي بعده روح بن حاتم ثم الفضل بن روح فوثب الجند عليه فذبحوه."
+  en: "In al-Baladhuri: after Hazarmard, Yazid ibn Hatim ibn Qubaysa ibn al-Muhallab governed — he went out in fifty thousand, Abu Ja'far al-Mansur escorting him to Bayt al-Maqdis and spending great wealth on him; Yazid marched until he met Abu Khatim at Batr Iblis, killed him, and entered Ifriqiya which settled for him; then Rawh ibn Hatim ruled, then al-Fadl ibn Rawh — the army rose on him and slaughtered him."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0767/0787", calendar: julian, precision: year, status: tradition, derived: true, note: "ولايات يزيد وروح والفضل متتابعة (البلاذري ص 326). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ifriqiya }
+  - { type: had_participant, target: person/yazid-ibn-hatim, role: "الوالي قاتل أبي خاتم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-khatim-al-saddrati, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mansur, role: "المشيّع المنفق", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rawh-ibn-hatim, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-fadl-ibn-rawh, role: "المذبوح", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 326"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-23
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,18 @@
+id: place/suq-al-ahad
+class: place
+kind: site
+label: { ar: "سوق الأحد" }
+summary:
+  ar: "عند البلاذري: موضع بإفريقية قُتل فيه حريش وأصحابه بعد انهزامهم من قيروان إفريقية إثر مصرع الأغلب بن سالم."
+  en: "In al-Baladhuri: a site in Ifriqiya where Harish and his companions were killed after their rout from Qayrawan following al-Aghlab ibn Salim's death."
+wings: [place]
+regions: [maghreb]
+relations:
+  - { type: located_in, target: place/ifriqiya, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 327"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-23
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

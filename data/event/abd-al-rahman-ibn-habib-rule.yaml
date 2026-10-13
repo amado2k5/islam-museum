@@ -1,0 +1,23 @@
+id: event/abd-al-rahman-ibn-habib-rule
+class: event
+kind: other
+label: { ar: "استقلال عبد الرحمن بن حبيب بثغر المغرب", en: "Abd al-Rahman ibn Habib's Independent Rule of the Maghreb Frontier" }
+summary:
+  ar: "عند البلاذري: لما قام الوليد بن يزيد بن عبد الملك خالف عليه عبد الرحمن بن حبيب الفهري وكان محبّاً في ذلك الثغر لما كان من آثار جده عقبة بن نافع فيه فغلب عليه وانصرف عنه حنظلة فبقي عبد الرحمن عليه؛ ولّي يزيد بن الوليد فلم يبعث إلى المغرب عاملاً وقام مروان بن محمد فكاتبه عبد الرحمن وأظهر له الطاعة وبعث إليه بالهدايا — وكان كاتبه خالد بن ربيعة الإفريقي وبينه وبين عبد الحميد بن يحيى مودة ومكاتبة — فأقرّه مروان على الثغر ثم ولّى بعده إلياس بن حبيب ثم حبيب بن عبد الرحمن ثم غلب البربر والإباضية من الخوارج."
+  en: "In al-Baladhuri: when al-Walid ibn Yazid ibn Abd al-Malik rose, Abd al-Rahman ibn Habib al-Fihri opposed him — beloved in that frontier for his grandfather Uqba ibn Nafi's traces there — and prevailed over it, Hanzala withdrawing; Yazid ibn al-Walid sent no governor to the Maghreb, and when Marwan ibn Muhammad rose, Abd al-Rahman corresponded with him, showed obedience and sent gifts — his scribe being Khalid ibn Rabi'a al-Ifriqi, between whom and Abd al-Hamid ibn Yahya ran friendship and letters — so Marwan confirmed him over the frontier; then Ilyas ibn Habib ruled after him, then Habib ibn Abd al-Rahman, then the Berbers and the Ibadis of the Khawarij prevailed."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "0743/0752", calendar: julian, precision: year, status: tradition, derived: true, note: "من قيام الوليد بن يزيد إلى غلبة البربر والإباضية (البلاذري ص 325). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ifriqiya }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-habib-al-fihri, role: "الغالب على الثغر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hanzala-ibn-safwan-al-kalbi, role: "الوالي المنصرف عنه", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 325"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-23
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

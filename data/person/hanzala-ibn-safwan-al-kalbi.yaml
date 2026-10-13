@@ -1,0 +1,17 @@
+id: person/hanzala-ibn-safwan-al-kalbi
+class: person
+label: { ar: "حنظلة بن صفوان الكلبي" }
+summary:
+  ar: "عند البلاذري: أخو بشر بن صفوان — وفي نسخة «أبو بشر» — ولّي إفريقية بعد كلثوم بن عياض فقاتل الخوارج وتوفي هناك وهو والٍ وانصرف عنه عبد الرحمن بن حبيب الفهري حين خالف على الوليد بن يزيد."
+  en: "In al-Baladhuri: brother of Bishr ibn Safwan — one copy has 'father of Bishr' — appointed over Ifriqiya after Kulthum ibn Iyad; he fought the Khawarij and died there in office, Abd al-Rahman ibn Habib al-Fihri withdrawing from him when he opposed al-Walid ibn Yazid."
+gender: male
+relations:
+  - { type: sibling_of, target: person/bishr-ibn-safwan-al-kalbi, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/abd-al-rahman-ibn-habib-rule, role: "الوالي المنصرف عنه", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 325"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-23
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
