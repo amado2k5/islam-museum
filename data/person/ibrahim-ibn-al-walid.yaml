@@ -1,0 +1,26 @@
+id: person/ibrahim-ibn-al-walid
+class: person
+label: { ar: "إبراهيم بن الوليد بن عبد الملك" }
+summary:
+  ar: "أبو إسحاق، بويع بالخلافة بعد موت أخيه يزيد الناقص فقيل إنه عهد إليه وقيل لا، وعن برد بن سنان أن قطناً افتعل كتاباً بالعهد على لسان يزيد واستشهد عليه ناساً وما عهد يزيد شيئاً، مكث في الخلافة سبعين ليلة ثم خلع يوم الاثنين لأربع عشرة خلت من صفر سنة سبع وعشرين حين خرج عليه مروان بن محمد، قال المدائني لم يتم لإبراهيم أمر فكان قوم يسلمون عليه بالخلافة وقوم بالإمرة وأبى قوم أن يبايعوا له، وكان نقش خاتمه إبراهيم يثق بالله، وعاش إلى سنة اثنتين وثلاثين فقتل فيمن قتل من بني أمية في وقعة السفاح {cite:tarikh-khulafa-minhaj-1434 p. 410-411}."
+  en: "Abu Ishaq, sworn in after his brother Yazid al-Naqis died — some say designated, others not; per Burd ibn Sinan, Qatan forged a deed of succession on Yazid's lips and had men witness it though Yazid had designated nothing. He held the caliphate seventy nights, then was deposed Monday 14 Safar 127 when Marwan ibn Muhammad marched on him; al-Mada'ini says his authority never settled — some greeted him as caliph, some as amir, some refused the bay'a. His seal read 'Ibrahim trusts in God'. He lived until 132, then was killed among the Banu Umayya in al-Saffah's massacre {cite:tarikh-khulafa-minhaj-1434 p. 410-411}."
+gender: male
+died:
+  hijri: "0132"
+  precision: year
+  status: tradition
+  note: "قتل في وقعة السفاح {cite:tarikh-khulafa-minhaj-1434 p. 410}."
+wings: [people]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: child_of, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: sibling_of, target: person/yazid-ibn-al-walid, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/yazid-ibn-al-walid, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 410–411"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-13
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

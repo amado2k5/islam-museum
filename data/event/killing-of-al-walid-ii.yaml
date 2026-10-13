@@ -1,0 +1,22 @@
+id: event/killing-of-al-walid-ii
+class: event
+kind: death
+label: { ar: "مقتل الوليد بن يزيد" }
+summary:
+  ar: "ثب يزيد بن الوليد الناقص على الخلافة وقتل ابن عمه الوليد بن يزيد وتملك، وقام خطيباً فقال ما خرجت أشراً ولا بطراً ولا حرصاً على الدنيا ولا رغبة في الملك ولكن خرجت غضباً لله ولدينه وداعياً إلى كتابه وسنة نبيه حين درست معالم الهدى وطفئ نور أهل التقوى وظهر الجبار المستحل للحرمة {cite:tarikh-khulafa-minhaj-1434 p. 408}."
+  en: "Yazid ibn al-Walid 'al-Naqis' rose for the caliphate, killed his cousin al-Walid ibn Yazid and took power, then mounted the pulpit: 'I did not rise in arrogance or pride or greed for the world or desire for kingship, but in anger for God and His religion, calling to His Book and His Prophet's sunna, when the landmarks of guidance were effaced, the light of the godfearing extinguished, and the tyrant who profanes sanctity appeared' {cite:tarikh-khulafa-minhaj-1434 p. 408}."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0744~", hijri: "0126", calendar: julian, precision: year, status: tradition, derived: true, note: "126؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 408}." }
+relations:
+  - { type: had_participant, target: person/al-walid-ibn-yazid, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/yazid-ibn-al-walid, role: "الثائر", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 408"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-13
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
