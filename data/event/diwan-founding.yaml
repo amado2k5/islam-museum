@@ -1,0 +1,24 @@
+id: event/diwan-founding
+class: event
+kind: other
+label: { ar: "تدوين الديوان وفرض العطاء", en: "The Writing of the Diwan and the Stipend" }
+summary:
+  ar: "استشار عمر بن الخطاب المسلمين في تدوين الديوان فقال علي بن أبي طالب تقسم كل سنة ما اجتمع إليك من مال ولا تمسك منه شيئاً وقال عثمان أرى مالاً كثيراً يسع الناس وإن لم يحصوا حتى يعرف من أخذ ممن لم يأخذ حسبت أن ينتشر الأمر فقال له الوليد بن هشام بن المغيرة قد جئت الشام فرأيت ملوكها قد دونوا ديواناً وجندوا جنداً فدون ديواناً وجند جنداً فأخذ بقوله فدعا عقيل بن أبي طالب ومخرمة بن نوفل وجبير بن مطعم وكانوا من ألسن قريش فقال اكتبوا الناس على منازلهم فبدؤوا ببني هاشم ثم أتبعوهم أبا بكر وقومه ثم عمر وقومه على الخلافة فلما نظر إليه عمر قال وددت والله أنه هكذا ولكن ابدؤوا بقرابة النبي الأقرب فالأقرب حتى تضعوا عمر حيث وضعه الله وجاءت بنو عدي فقالوا أنت خليفة رسول الله وخليفة أبي بكر وأبو بكر خليفة رسول الله فلو جعلت نفسك حيث جعلك هؤلاء القوم الذين كتبوا قال بخ بخ بني عدي أردتم الأكل على ظهري وأن أهب حسناتي لكم لا والله حتى تأتيكم الدعوة وأن يطبق عليكم الدفتر إن لي صاحبين سلكا طريقاً فإن خالفتهما خولف لي والله ما أدركنا الفضل في الدنيا وما زكو الثواب على عملنا إلا بمحمد فهو شرفنا وقومه أشرف العرب ثم الأقرب فالأقرب والله لئن جاءت الأعاجم بعمل وجئنا بغير عمل لهم أولى بمحمد منا يوم القيامة فإن من قصر به عمله لم يسرع به نسبه."
+  en: "Umar consulted the Muslims on writing a diwan — Ali: 'divide each year all you gather, keep nothing'; Uthman: 'much wealth — uncounted, who took and who did not will go unmarked'; al-Walid ibn Hisham ibn al-Mughira: 'I saw Syria's kings with a diwan and an army — write a diwan, raise an army'. He took the last, and called Quraysh's genealogists — Aqil ibn Abi Talib, Makhrama ibn Nawfal, Jubayr ibn Mut'im — 'write the people by their ranks'. They began with Banu Hashim, then Abu Bakr's folk, then Umar's by the caliphate — 'I would it were so,' said Umar, 'but begin with the Prophet's kin, nearest then nearest, till you set Umar where God set him'. Banu Adi came arguing for his primacy — 'bakh, bakh, Banu Adi: you would eat off my back and take my hasanat — my two companions walked a road and I will not differ; we won favour and reward only through Muhammad, our honour and the noblest Arabs, then nearest then nearest; by God, if the Ajam come with works and we without, they are worthier of him on the Last Day — the slow of deed is not sped by lineage'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "مشير بالقسمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "مشير بالإحصاء", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-walid-ibn-hisham, role: "مشير بالديوان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/aqil-ibn-abi-talib, role: "من كتبة الأنساب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/makhrama-ibn-nawfal, role: "من كتبة الأنساب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jubayr-ibn-mutim, role: "من كتبة الأنساب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/medina }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
