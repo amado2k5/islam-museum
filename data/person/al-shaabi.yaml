@@ -1,0 +1,15 @@
+id: person/al-shaabi
+class: person
+label: { ar: "الشعبي", en: "al-Sha'bi" }
+summary:
+  ar: "عامر بن شراحيل الشعبي فقيه الكوفة؛ دخل الري مع قتيبة بن مسلم فسأله ما أحب الشراب إليك فقال أهونه وجوداً وأعزه فقداً."
+  en: "Amir ibn Sharahil al-Sha'bi, Kufa's jurist; entered Rayy with Qutayba ibn Muslim, who asked him what drink he loved most — 'the easiest found and the dearest lost', he said."
+relations:
+  - { type: traveled_to, target: place/rayy }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

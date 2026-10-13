@@ -1,0 +1,17 @@
+id: person/qaraza-ibn-kab
+class: person
+label: { ar: "قرظة بن كعب الأنصاري", en: "Qaraza ibn Ka'b al-Ansari" }
+summary:
+  ar: "قرظة بن كعب الأنصاري أبو مسلم؛ آخر من فتح الري بعد نقضها المتكرر وذلك في ولاية أبي موسى الأشعري الكوفة لعثمان فاستقامت بعده وكان عمّال الري ينزلون حصن الزنبدي ويجتمعون في مسجد اتخذ بحضرته ودخل ذلك في فصيل المحدثة ثم ولي الكوفة لعلي ومات بها فصلى عليه علي."
+  en: "Qaraza ibn Ka'b al-Ansari, Abu Muslim; the last conqueror of Rayy after its repeated breaches, under Abu Musa's Kufa governorship for Uthman, after whom it stayed quiet — Rayy's governors lodged at Hisn al-Zaynabi gathering at the mosque built in his presence, counted in the muhdatha district; he later governed Kufa for Ali, died there, and Ali prayed over him."
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/conquest-of-rayy-qumis }
+  - { type: ruled_over, target: place/kufa }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
