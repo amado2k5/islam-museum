@@ -151,4 +151,6 @@
 
 - **Batch 68** (pp. 536–539 — Tustar's fall + aftermath): `event/fall-of-tustar` (defector-guided night entry, 900+600 killed, Hurmuzan's treasury-citadel); `event/hurmuzan-umar-dialogue` ("كلام حي أم كلام ميت", the dog-trick counsel, Zubayr's witness → conversion → Ubaydallah's assassination); `event/jundishapur-aman` (panic-struck sulh); `event/mutarrif-mukram-vendetta` (Askar Mukram etymology, Mus'ab's head); places jundishapur, askar-mukram, dawraq, ayadhaj, qalat-dhi-al-rifaq; persons ashras-ibn-awf, ubaydallah-ibn-umar, mutarrif-ibn-saydan, mukram-ibn-mutarrif, ubaydallah-ibn-ziyad-ibn-zubyan, manjuf-ibn-thawr, thabit-ibn-dhi-al-hirra.
 
-**Next:** batch 69 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 69** (pp. 540–543 — Abu al-Mukhtar's satire): `event/abu-al-mukhtar-satire` (the famous poem → Umar's half-mulct "أخذ نعلاً وترك نعلاً", Abu Bakra's 10k); `person/abu-al-mukhtar`, `mukram-ibn-al-farz` (alt Askar Mukram etymology, Kharrzad's capture w/ two dirhams), `kharrzad-ibn-bas`, `hamza-ibn-abdallah-ibn-al-zubayr` ("كأنها قعيقعان"), `juzz-ibn-muawiya`, `bishr-ibn-al-muhtafiz`, `nufay-abu-bakra`, `khalid-ibn-al-harith-ibn-ghallab`, `ubaydallah-ibn-al-mahdi` (al-Ma'mun's "المشكوك فيه" practice); `al-hajjaj-ibn-utayk` merged (Mughira-affair husband = Euphrates official).
+
+**Next:** batch 70 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

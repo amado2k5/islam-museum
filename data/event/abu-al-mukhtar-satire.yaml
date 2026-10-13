@@ -1,0 +1,19 @@
+id: event/abu-al-mukhtar-satire
+class: event
+kind: other
+label: { ar: "قصيدة أبي المختار في عمال الأهواز", en: "Abu al-Mukhtar's Satire on the Ahwaz Officials" }
+summary:
+  ar: "قال أبو المختار يزيد بن قبس بن يزيد الصعيق كلمة رفع فيها على عمال الأهواز إلى عمر بن الخطاب أبلغ أمير المؤمنين رسالة فأنت أمين الله في النهي والأمر فلا تدعن أهل الرساتيق والقرى يسفون مال الله في الأدم الوفر فأرسل إلى الحجاج فاعرف حسابه وأرسل إلى جزء وأرسل إلى بشر ولا تنسين النافعين كليهما ولا ابن غلاب من سراة بني نصر وأرسل إلى النعمان واعرف حسابه وصهر بني غزوان إني لذو خبر وشبلاً فسله المال وابن محرش فقاسم عمر هؤلاء الذين ذكرهم أبو المختار شطر أموالهم حتى أخذ نعلاً وترك نعلاً وكان فيهم أبو بكرة فقال إني لم أل لك شيئاً فقال له أخوك على بيت المال وعشور الأبلة وهو يعطيك المال تتجر به فأخذ منه عشرة آلاف ويقال قاسمه شطر ماله."
+  en: "Abu al-Mukhtar Yazid ibn Qabs al-Sa'iq raised his poem against the Ahwaz officials to Umar: 'Tell the Commander of the Faithful, God's trustee in command and ban — leave not the rustaq-folk and villagers who gulp God's wealth; send to al-Hajjaj and learn his account, to Juzz and to Bishr, forget neither Nafi', nor Ibn Ghallab of Nasr's lords, nor al-Nu'man, nor the Banu-Ghazwan son-in-law, ask Shibl for the money and Ibn Muharrish.' Umar mulcted every named man of half his wealth — till he took a sandal and left a sandal — and when Abu Bakra objected 'I left you nothing' came 'your brother holds the treasury and Ubulla's tithes and lends you capital': ten thousand was taken, or half his estate."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abu-al-mukhtar, role: "الشاعر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "القاسم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/khuzistan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
