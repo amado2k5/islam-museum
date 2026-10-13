@@ -1,0 +1,19 @@
+id: place/sumaysat
+class: place
+kind: city
+label: { ar: "سميساط", en: "Sumaysat (Samosata)" }
+summary:
+  ar: "سميساط على الفرات من أعمال الجزيرة؛ وجّه إليها إياد صفوان بن المعطل وحبيب بن مسلمة فغلبا على قرى وحصون من قراها ثم صالحه أهلها على مثل صلح أهل الرها، ثم كفرت فرجع إليها إياد فحاصرها حتى فتحها."
+  en: "Sumaysat (Samosata) on the Euphrates in the Jazira; Iyad sent Safwan ibn al-Mu'attal and Habib ibn Maslama who mastered villages and forts of its district before its people compounded on the like of al-Ruha's terms, then it apostatised and Iyad returned and besieged it until he took it."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 240–241"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

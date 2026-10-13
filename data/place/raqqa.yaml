@@ -1,0 +1,20 @@
+id: place/raqqa
+class: place
+kind: city
+label: { ar: "الرقة", en: "al-Raqqa" }
+summary:
+  ar: "الرقة على الفرات من أعمال الجزيرة؛ فتحها إياد بن غنم صلحاً بعد خمسة أيام من الحصار على أنفسهم وأموالهم ومدينتهم وأقرّ الأرض في أيديهم على الخراج وكتب لهم كتاب الأمان بشروط عدم إحداث كنيسة ولا إظهار ناقوس ولا باعوث ولا صليب؛ وصار بجوارها الرافقة التي بنيت سنة 155 على بناء مدينة السلام فسكنها جند خراسان وبنى الرشيد قصورها ونقل إليها علي بن سليمان أسواق الرقة."
+  en: "al-Raqqa on the Euphrates in the Jazira; Iyad ibn Ghanm took it by treaty after five days of siege — lives, wealth and city secured, the land left in their hands on kharaj — writing them an aman forbidding new churches and the display of clapper, paschal or cross; beside it rose al-Rafiqa, built in year 155 on Madinat al-Salam's model for the Khurasani army, al-Rashid building its palaces while Ali ibn Sulayman moved al-Raqqa's markets into the space between."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/conquest-of-raqqa, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 238–239، 247"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

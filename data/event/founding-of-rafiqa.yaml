@@ -1,0 +1,25 @@
+id: event/founding-of-rafiqa
+class: event
+kind: founding
+label: { ar: "بناء الرافقة", en: "The Building of al-Rafiqa" }
+summary:
+  ar: "عند البلاذري: لم يكن للرافقة أثر قديم إنما بناها أمير المؤمنين المنصور سنة 155 على بناء مدينته ببغداد ورتّب فيها جنداً من أهل خراسان وجرت على يدي المهدي وهو ولي عهد ثم إن الرشيد بنى قصورها فكان بين الرقة والرافقة فضاء مزارع فلما قدم علي بن سليمان بن علي والياً على الجزيرة نقل أسواق الرقة إلى تلك الأرض — وكان سوق الرقة الأعظم فيما مضى يعرف بسوق هشام العتيق — ثم لما قدم الرشيد الرقة استزاد في تلك الأسواق فلم تزل تجتبى مع الصوافي؛ وأما رصافة هشام بن عبد الملك فكان ينزل قبلها الزيتونة وحفر الهني والمري وأحدث فيها واسط الرقة ثم قبضت تلك الضيعة في أول الدولة فصارت لأم جعفر زبيدة بنت جعفر بن المنصور فابتنت فيها القطيعة التي تنسب إليها وزادت في عمارتها."
+  en: "In al-Baladhuri: al-Rafiqa had no ancient trace — the commander of the faithful al-Mansur built it in year 155 on the model of his city at Baghdad and stationed a Khurasani army in it; works continued under al-Mahdi while heir apparent, then al-Rashid built its palaces, and between al-Raqqa and al-Rafiqa lay an open space of sown fields; when Ali ibn Sulayman ibn Ali came as governor of the Jazira he moved al-Raqqa's markets into that space — the city's great old market having been called Suq Hisham al-Atiq — and when al-Rashid later came to al-Raqqa he increased those markets, which have since been assessed with the crown lands; as for Rusafat Hisham, Hisham ibn Abd al-Malik founded it, having previously dwelt at al-Zaytuna, dug the al-Hani and al-Mari canals and laid out Wasit al-Raqqa in it; that estate was seized at the dynasty's opening and passed to Umm Ja'far Zubayda bint Ja'far ibn al-Mansur, who built in it the estate named for her and added to its splendour."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0772~", hijri: "0155", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 155 (البلاذري ص 247). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/raqqa }
+  - { type: had_participant, target: person/al-mansur, role: "الباني على بناء مدينة السلام", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mahdi, role: "أجرى العمارة وهو ولي عهد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/harun-al-rashid, role: "بنى قصورها وزاد في أسواقها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hisham-ibn-abd-al-malik, role: "مؤسس رصافة هشام المجاورة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 247"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

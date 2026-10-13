@@ -1,0 +1,20 @@
+id: place/rafiqa
+class: place
+kind: city
+label: { ar: "الرافقة", en: "al-Rafiqa" }
+summary:
+  ar: "الرافقة مدينة العباس بجانب الرقة؛ لم يكن لها أثر قديم إنما بناها المنصور سنة 155 على بناء مدينته ببغداد ورتّب فيها جنداً من أهل خراسان وجرت على يدي المهدي وهو ولي عهد ثم بنى الرشيد قصورها ونقل إليها أسواق الرقة."
+  en: "al-Rafiqa, the Abbasid companion-city beside al-Raqqa; it had no ancient trace — al-Mansur built it in year 155 on the model of his city at Baghdad, stationing a Khurasani army in it, works continuing under al-Mahdi as heir apparent, al-Rashid building its palaces and al-Raqqa's markets being moved into the space between."
+wings: [place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/founding-of-rafiqa, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: part_of, target: place/raqqa, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 247"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

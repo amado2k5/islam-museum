@@ -1,0 +1,26 @@
+id: event/conquest-of-hit
+class: event
+kind: conquest
+label: { ar: "فتح هيت وحصون الفرات", en: "The Conquest of Hit and the Euphrates Forts" }
+summary:
+  ar: "عند البلاذري عن أبي أيوب المؤدب الرقي عن علي بن عبد الله القرقساني عن أشياخه: عمير بن سعد لما فتح رأس العين سلك الخابور وما يليه حتى أتى قرقيسيا وقد نقض أهلها فصالحهم على مثل صلحهم الأول ثم أتى حصون الفرات حصناً حصناً ففتحها على ما فتحت عليه قرقيسيا ولم يلق في شيء منها كثير قتال وكان بعض أهلها ربما رموا بالحجارة، فلما فرغ من تلبس وعانات أتى النأوسة واللوسة وهيت فوجد عمار بن ياسر — وهو يومئذ عامل عمر على الكوفة — قد بعث جيشاً يستغزي ما فوق الأنبار عليه سعد بن عمرو بن حرام الأنصاري وقد أتاه أهل هذه الحصون فطلبوا الأمان فأمنهم واستثنى على أهل هيت نصف كنيستهم فانصرف عمير إلى الرقة؛ وقال بعض أهل العلم كان الذي توجه إلى هيت والحصون التي بعدها من الكوفة مذلاج بن عمرو السلمي حليف بني عبد شمس وله صحبة فتولى فتحها وهو بنا الحديثة التي على الفرات وولده بهيت وكان منهم رجل يكنى أبا هارون باقي الذكر هناك — ويقال إن مذلاجاً كان من قبل سعد بن عمرو بن حرام والله أعلم."
+  en: "In al-Baladhuri through Abu Ayyub the Raqqa tutor from Ali ibn Abdullah al-Qarqisani from his shaykhs: Umayr ibn Sa'd, after taking Ra's al-Ayn, worked the Khabur and its reaches until he came to Qarqisiya — whose people had broken faith — re-compounding with them on their first treaty, then took the Euphrates forts one by one on Qarqisiya's terms with little fighting, some throwing stones; finishing with Talbus and Anat he reached al-Na'usa, al-Lusa and Hit, where he found that Ammar ibn Yasir — then Umar's governor of Kufa — had sent an army raiding above al-Anbar under Sa'd ibn Amr ibn Haram al-Ansari, and the people of these forts had come to him seeking aman, which he granted, reserving half of Hit's church — whereupon Umayr returned to al-Raqqa; some scholars say the one who went against Hit and the forts beyond from Kufa was Midlaj ibn Amr al-Sulami, a confederate of Banu Abd Shams and a man of companionship, who took it and built al-Haditha on the Euphrates, his descendants at Hit including a man known as Abu Harun still remembered there — or, it is said, Midlaj acted under Sa'd ibn Amr ibn Haram; God knows best."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0640~", hijri: "0020~", calendar: julian, precision: year, status: tradition, derived: true, note: "إثر فتح رأس العين (البلاذري ص 246). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-jazira }
+  - { type: occurred_at, target: place/hit }
+  - { type: had_participant, target: person/umayr-ibn-sad, role: "جامع حصون الفرات العليا", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ammar-ibn-yasir, role: "عامل عمر على الكوفة وباعث الجيش", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sad-ibn-amr-ibn-haram, role: "أمير جيش الكوفة وعاقد الأمان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/midlaj-ibn-amr, role: "الفاتح عند طائفة وباني الحديثة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 246"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

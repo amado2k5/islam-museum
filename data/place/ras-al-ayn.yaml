@@ -1,0 +1,20 @@
+id: place/ras-al-ayn
+class: place
+kind: city
+label: { ar: "رأس العين", en: "Ra's al-Ayn" }
+summary:
+  ar: "رأس العين — وهي عين الوردة — من مدن الجزيرة على الخابور؛ امتنعت على إياد بن غنم ففتحها عمير بن سعد عنوة بعد قتال شديد بالعرادات ثم صالح أهلها على الأرض لهم والجزية على الرؤوس أربعة دنانير ولم تسب نساؤهم ولا أولادهم وصاح بهم «لا بأس إليّ إليّ» أماناً؛ وجلا خلق من أهلها فاعتمل المسلمون أواضيهم وازدروها بإقطاع."
+  en: "Ra's al-Ayn — that is Ayn al-Warda — of the Jazira cities on the Khabur; it resisted Iyad ibn Ghanm, and Umayr ibn Sa'd took it by force after bitter fighting under mangonels, then compounded with its people — the land theirs, four dinars' jizya on each head, no women or children taken — crying 'no harm, to me, to me' as their aman; a body of them departed and the Muslims worked and sowed their fields by land-grant."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: site_of, target: event/conquest-of-ras-al-ayn, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 242–243"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

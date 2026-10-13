@@ -1,0 +1,18 @@
+id: person/said-ibn-abd-al-malik
+class: person
+label: { ar: "سعيد بن عبد الملك (سعيد الخير)", en: "Sa'id ibn Abd al-Malik (al-Khayr)" }
+summary:
+  ar: "سعيد بن عبد الملك بن مروان الملقب بسعيد الخير وكان يظهر نسكاً؛ عند البلاذري: كان موضع نهره غيضة ذات سباع فأقطعه إياها الوليد — وقيل الذي أقطعه عمر بن عبد العزيز — فحفر النهر المعروف به وعمّر ما هناك."
+  en: "Sa'id ibn Abd al-Malik ibn Marwan, called Sa'id al-Khayr, who displayed piety; in al-Baladhuri: the site of his river was a beast-haunted thicket which al-Walid granted him — some say the grantor was Umar ibn Abd al-Aziz — and he dug the river named for him and settled the land."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/abd-al-malik-ibn-marwan, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: member_of, target: group/banu-umayya, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 247"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
