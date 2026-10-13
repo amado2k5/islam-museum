@@ -1,0 +1,24 @@
+id: event/al-falalij-and-tustar-jaban
+class: event
+kind: skirmish
+label: { ar: "مسير الفلاليج وطلب جابان بمستر", en: "The March of al-Falalij and the Pursuit of Jaban at Tustar" }
+summary:
+  ar: "عند البلاذري: أتى خالد الفلاليج منصرفه من بانقيا وبها جمع للعجم فتفرقوا ولم يلق كيداً فرجع إلى الحيرة فبلغه أن جابان في جمع عظيم بمستر فوجّه إليه المثنى بن حارثة الشيباني وحنظلة بن الربيع بن رباح الأسدي من بني تميم وهو الذي يقال له حنظلة الكاتب فلما انتهيا إليه هرب."
+  en: "In al-Baladhuri: Khalid came to al-Falalij on his return from Baniqya — a Persian host there dispersed and he met no harm — then returned to al-Hira; hearing Jaban was at Tustar in a great host he sent against him al-Muthanna ibn Haritha al-Shaybani and Hanzala ibn al-Rabi' ibn Rabah al-Asadi of Banu Tamim — called Hanzala the Scribe — and when they reached him he fled."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "في مسير خالد سنة 12 (البلاذري ص 343–344). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/tustar }
+  - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المبعوث الأول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hanzala-al-katib, role: "المبعوث الثاني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jaban, role: "الهارب", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 343–344"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-27
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

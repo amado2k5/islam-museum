@@ -1,0 +1,25 @@
+id: event/conquest-of-al-anbar
+class: event
+kind: conquest
+label: { ar: "فتح الأنبار وغارة سوق بغداذ", en: "The Conquest of al-Anbar and the Raid on Baghdad's Market" }
+summary:
+  ar: "عند البلاذري: سار خالد إلى الأنبار فتحصن أهلها ثم أتاه من دلّه على سوق بغداذ وهو السوق العتيق الذي كان عند قرن الصراط فبعث خالد المثنى بن حارثة فأغار عليه فملأ المسلمون أيديهم من الصفراء والبيضاء وما خف محمله من المتاع ثم باتوا بالسيلحين وأتوا الأنبار وخالد بها فحصروا أهلها وحرقوا في نواحيها وأنما سميت الأنبار لأن أهراء العجم كانت بها وكان أصحاب النعمان وصنائعه يعطون أرزاقهم منها فلما رأى أهل الأنبار ما نزل بهم صالحوا خالداً على شيء رضي بهم فأقرهم. ويقال إن خالداً قدم المثنى إلى بغداذ ثم سار بعده فتولى الغارة عليها وليس ذلك بثبت. وعن الشعبي: لأهل الأنبار عهد وعقد. وحدث البلاذري مشايخ من أهل الأنبار أنهم صولحوا في خلافة عمر على طسوجهم على أربع مائة ألف درهم وألف عباءة قطوانية في كل سنة وتولى الصلح جرير بن عبد الله البجلي ويقال صالحهم على ثمانين ألفاً والله أعلم."
+  en: "In al-Baladhuri: Khalid marched to al-Anbar whose people fortified; a guide told him of Baghdad's market — the old market at Qarn al-Sarat — so he sent al-Muthanna ibn Haritha raiding on it and the Muslims filled their hands with gold, silver and light goods, then overnighted at al-Saylahin and came to al-Anbar where Khalid was; they besieged its people and burned through its outskirts — al-Anbar being named for the Persians' granaries there, from which al-Nu'man's retainers and clients drew their rations — so when they saw what befell them they made peace with Khalid on terms he accepted from them. It is also said Khalid sent al-Muthanna ahead to Baghdad then marched after and himself led the raid — not established. Via al-Sha'bi: Anbar's people have a covenant and contract. Shaykhs of Anbar told al-Baladhuri they were pacified in Umar's caliphate on their canals: four hundred thousand dirhams and a thousand Qatawani cloaks yearly, Jarir ibn Abdallah al-Bajali conducting the peace — or, it is said, on eighty thousand; God knows best."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "فتح خالد سنة 12؛ وصلح عمر المنقول عن مشايخها (البلاذري ص 344). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/al-anbar }
+  - { type: occurred_at, target: place/baghdad, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "الحاصر المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muthanna-ibn-haritha, role: "المغير على سوق بغداذ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jarir-ibn-abd-allah-al-bajali, role: "المصالح في خلافة عمر", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 344"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-27
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }
