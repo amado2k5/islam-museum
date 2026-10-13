@@ -1,0 +1,23 @@
+id: event/al-rida-succession
+class: event
+kind: gathering
+label: { ar: "عهد المأمون إلى علي الرضا" }
+summary:
+  ar: "في سنة إحدى ومئتين خلع المأمون أخاه المؤتمن من العهد وجعل ولي العهد علي الرضا بن موسى الكاظم، حمله على ذلك إفراطه في التشيع حتى قيل إنه هم أن يخلع نفسه ويفوض الأمر إليه وهو الذي لقبه الرضا وضرب الدراهم باسمه وزوجه ابنته وكتب إلى الآفاق بذلك وأمر بترك السواد ولبس الخضرة فاشتد ذلك على بني العباس جداً فخرجوا وبايعوا إبراهيم بن المهدي الملقب المبارك {cite:tarikh-khulafa-minhaj-1434 p. 486-487}."
+  en: "In year 201 al-Ma'mun deposed his brother al-Mu'tamin from the succession and made Ali al-Rida ibn Musa al-Kazim heir — moved by his Shi'ite devotion, it was said, to the point of considering abdication outright. He it was who dubbed him 'al-Rida', struck dirhams in his name, married him to his daughter, wrote it to all the provinces and ordered the black dropped for green. The Abbasids took it extremely ill — they rose and swore to Ibrahim ibn al-Mahdi 'al-Mubarak' {cite:tarikh-khulafa-minhaj-1434 p. 486-487}."
+wings: [time, people]
+periods: [period/abbasid-early]
+regions: [levant-iraq, persia-central-asia]
+date:
+  start: { edtf: "0817~", hijri: "0201", calendar: julian, precision: year, status: tradition, derived: true, note: "201؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 487}." }
+relations:
+  - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ali-al-ridha, role: "ولي العهد", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ibrahim-ibn-al-mahdi, role: "الخارج عليه", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 486–487"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-23
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
