@@ -1,0 +1,22 @@
+id: person/al-khatib-al-baghdadi-ahmad
+class: person
+label: { ar: "الخطيب البغدادي أحمد بن علي", en: "Al-Khatib al-Baghdadi, Ahmad ibn Ali" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر أحمد بن علي بن ثابت المعروف بالخطيب البغدادي" }
+gender: male
+roles: [muhaddith, historian]
+traditions: [sunni]
+born: { edtf: "1002", hijri: "0392", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1072", hijri: "0463", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث مؤرّخ حافظ من أهل قرية من أعمال نهر الملك، صنّف «تاريخ بغداد»."
+  en: "A hadith scholar, historian and memorizer from a village near the Nahr al-Malik, author of the History of Baghdad."
+wings: [people, words]
+themes: [scripture-and-its-sciences, history-writing-and-social-thought]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 618, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص618", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
