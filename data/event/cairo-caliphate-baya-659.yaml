@@ -1,0 +1,23 @@
+id: event/cairo-caliphate-baya-659
+class: event
+kind: other
+label: { ar: "قيام الخلافة العباسية بالقاهرة" }
+summary:
+  ar: "وفد أحمد بن الظاهر على الملك الظاهر بيبرس في رجب سنة تسع وخمسين ومعه عشرة من بني مهارش وكان محبوساً ببغداد فأطلق لما أخذتها التتار فهرب وصار إلى عرب العراق فركب السلطان للقائه ومعه القضاة والدولة فشق القاهرة ثم أثبت نسبه على قاضي القضاة تاج الدين ابن بنت الأعز ثم بويع له بالخلافة فأول من بايعه السلطان ثم قاضي القضاة تاج الدين ثم الشيخ عز الدين بن عبد السلام ثم الكبار على مراتبهم وذلك في ثالث عشر رجب ونقش اسمه على السكة وخطب له ولقب بلقب أخيه المستنصر وركب يوم الجمعة وعليه السواد إلى جامع القلعة فصعد المنبر وخطب خطبة ذكر فيها شرف بني العباس ثم نصبت خيمة بظاهر القاهرة فألبس الخليفة السلطان الخلعة بيده وطوقه وقرئ التقليد ورتب السلطان للخليفة أتابكاً واستاداراً وشرابياً وخازنداراً وحاجباً وكاتباً ومئة فرس وثلاثين بغلاً وعشرة قطارات جمال وكان مدة انقطاع الخلافة ثلاث سنين ونصف وقال الذهبي ولم يل الخلافة أحد بعد ابن أخيه إلا هذا والمقتفي {cite:tarikh-khulafa-minhaj-1434 p. 723-724}."
+  en: "Ahmad ibn al-Zahir — freed from Baghdad's prison when the Tatars took it — came to Baybars in Rajab 659 with ten of Banu Maharish; the sultan rode out to meet him, his line was proven before chief qadi Taj al-Din ibn Bint al-A'azz, and the bay'a ran: the sultan first, then the qadi, then Shaykh Izz al-Din ibn Abd al-Salam, then the great by rank, on 13 Rajab. His name went on the coinage, he preached in black at the citadel mosque, robed the sultan with his own hands before the Cairo tent, and was granted an atabeg, ustadar, sharabi, khazindar, hajib and katib with a hundred horses. The caliphate's gap had lasted three and a half years; al-Dhahabi notes none after his uncle's son took it save him and al-Muqtafi {cite:tarikh-khulafa-minhaj-1434 p. 723-724}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1261-06~", hijri: "0659-07-13", calendar: julian, precision: day, status: tradition, derived: true, note: "13 رجب 659؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 723}." }
+relations:
+  - { type: had_participant, target: person/al-mustansir-billah-egypt, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/baybars, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/izz-al-din-ibn-abd-al-salam, role: "ثالث البايعين", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-47
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

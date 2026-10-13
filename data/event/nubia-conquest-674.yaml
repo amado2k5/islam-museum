@@ -1,0 +1,21 @@
+id: event/nubia-conquest-674
+class: event
+kind: conquest
+label: { ar: "فتح النوبة وأسر ملك دنقلة" }
+summary:
+  ar: "وفي سنة أربع وسبعين وجه السلطان جيشاً إلى النوبة ودنقلة فانتصروا وأسر ملك النوبة وأرسل به إلى الملك الظاهر ووضعت الجزية على أهل دنقلة والله الحمد قال الذهبي وأول ما غزيت النوبة في سنة إحدى وثلاثين من الهجرة غزاها عبد الله بن أبي سرح في خمسة آلاف فارس ولم يفتحها فهادنهم ورجع ثم غزيت في زمن هشام ولم تفتح ثم في زمن المنصور ثم غزاها تكين التركي ثم كافور الإخشيدي ثم ناصر الدولة ابن حمدان ثم توران شاه أخو السلطان صلاح الدين في سنة ثمان وستين وخمس مئة ولم تفتح إلى هذا العام وقال في ذلك ابن عبد الظاهر هذا هو الفتح لا شيء سمعت به في شاهد العين لا ما في الأسانيد {cite:tarikh-khulafa-minhaj-1434 p. 728}."
+  en: "In 674 Baybars sent an army to Nubia and Dunqula: victorious, they captured Nubia's king and laid the jizya on Dunqula's people — the first true conquest. Al-Dhahabi lists the failed attempts: Abd Allah ibn Abi Sarh's five thousand in 31 — a truce, no conquest — then under Hisham, al-Mansur, Takin the Turk, Kafur the Ikhshid, Nasir al-Dawla ibn Hamdan, and Saladin's brother Turanshah in 568. Ibn Abd al-Zahir: 'This is the conquest — nothing you've heard of; seen by the eye, not found in isnads' {cite:tarikh-khulafa-minhaj-1434 p. 728}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1275~", hijri: "0674", calendar: julian, precision: year, status: tradition, derived: true, note: "674؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 728}." }
+relations:
+  - { type: had_participant, target: person/baybars, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-47
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
