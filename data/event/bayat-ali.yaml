@@ -1,0 +1,21 @@
+id: event/bayat-ali
+class: event
+kind: declaration
+label: { ar: "بيعة علي بن أبي طالب" }
+summary:
+  ar: "بويع علي بالخلافة الغد من قتل عثمان بالمدينة، فبايعه جميع من كان بها من الصحابة، ويقال إن طلحة والزبير بايعا كارهين غير طائعين، ثم خرجا إلى مكة وعائشة بها فأخذاها وخرجوا إلى البصرة يطلبون بدم عثمان {cite:tarikh-khulafa-minhaj-1434 p. 293-294}. وقد كان علي امتنع أولاً وقال ليس ذلك إليكم إنما ذلك إلى أهل بدر فمن رضي به أهل بدر فهو خليفة، فلم يبق أحد من أهل بدر إلا أتاه فبايعوه {cite:tarikh-khulafa-minhaj-1434 p. 275}."
+  en: "Ali was given the bay'a the day after Uthman was killed, at Medina; all the Companions present pledged — though it is said Talha and al-Zubayr pledged unwillingly before leaving for Mecca, where they took Aisha and set out for Basra seeking vengeance for Uthman's blood. Ali had at first refused: 'that is not yours to give; it belongs to the men of Badr — whoever they approve is caliph'; every remaining Badri then came to him and pledged {cite:tarikh-khulafa-minhaj-1434 p. 275, 293-294}."
+wings: [time, people]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0656~", hijri: "0035", calendar: julian, precision: year, status: tradition, derived: true, note: "الغد من قتل عثمان 35هـ؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 293}." }
+relations:
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المبايع بالخلافة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 275، 293–294"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-5
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
