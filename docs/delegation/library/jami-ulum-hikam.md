@@ -56,4 +56,6 @@
 
 - (12 Oct 2026) Batch 17: hadiths 47–48 (pp. 891–913) — Ibn Rajab's additions 5–6: `passage/arbaun-47` (al-Miqdam — thirds of the belly; the Khaybar-fruit fever occasion via Abd al-Rahman b. al-Muraqqa'), `passage/arbaun-48` (Abdullah b. Amr b. al-As — the four traits of nifaq; Abu Hurayra's triple-sign parallel; al-Muharram's fabricated irja' ta'wil rejected); new `concept/qillat-al-taam`, `concept/nifaq`.
 
-**Next:** batch 18 — hadiths 49–50 (pp. 914–956): verify headings (h49 p. 914, h50 p. 927). Final batch of the book.
+- (12 Oct 2026) Batch 18: hadiths 49–50 (pp. 914–956) — Ibn Rajab's additions 7–8, completing the book: `passage/arbaun-49` (Umar — tawakkul and the birds; all collectors via Abdullah b. Hubayra ← Abu Tamim al-Jayshani; the unknown Sa'id b. Ishaq b. al-Himmar in the Asbahan route per Abu Hatim), `passage/arbaun-50` (Abdullah b. Busr — the comprehensive gate: tongue moist with dhikr; Tirmidhi hasan gharib; Mu'adh's farewell parallel); new `concept/tawakkul`, `concept/dhikr`, `person/abdullah-ibn-busr`.
+
+**STATUS: COMPLETE** — all 50 hadiths mined (batches 1–18): 50 `passage/arbaun-*` entities (1–42 `work/arbaun-nawawi`, 43–50 `work/jami-ulum-hikam`), ~45 new/extended concepts, ~20 person/work entities, all draft with `source/ibn-rajab-jami-ulum-hikam` provenance. Validation clean throughout; honorific scan clean; no OCR/page text committed.
