@@ -1,0 +1,19 @@
+id: event/ata-inheritance-cases
+class: event
+kind: other
+label: { ar: "قضايا عطاء الورثة والموتى", en: "Stipends of Heirs and the Dead" }
+summary:
+  ar: "قال الزبير بن العوام لعثمان بعد موت عبد الله بن مسعود أعطني عطاء عبد الله فعياله أحق به من بيت المال فأعطاه خمسة عشر ألفاً وكان الزبير وصي ابن مسعود وكان عمر بن عبد العزيز إذا استوجب الرجل عطاءه ثم مات أعطاه ورثته ومات رجل في الحي بعد ثمانية أشهر مضت من السنة فأعطاه عمر ثلثي عطائه وشهد ثلاثة مملوكين لبني عفان بدراً فكان عمر يعطي كل إنسان منهم كل سنة ثلاثة آلاف درهم وأتي علي بمنبوذ فأثبته في مائة وأثبت عمر بن عبد العزيز مروان بن شجاع وهو فطيم في عشرة دنانير وسئل الحسين بن علي أو الحسن متى يجب سهم المولود قال إذا استهل."
+  en: "Al-Zubayr ibn al-Awwam asked Uthman, after Abdallah ibn Mas'ud's death, for Abdallah's stipend — 'his dependents deserve it more than the bayt al-mal' — and took fifteen thousand, being Ibn Mas'ud's executor. Umar II gave an earned stipend to a dead man's heirs; Umar gave two-thirds of a year's stipend to a man who died eight months in. Three mamluks of Banu Affan who witnessed Badr drew three thousand each yearly; Ali enrolled an exposed infant at a hundred; Umar II enrolled Marwan ibn Shuja', still weaning, at ten dinars; and asked when a newborn's share falls due, al-Husayn (or al-Hasan) said 'when he cries out'."
+periods: [period/rashidun, period/umayyad]
+relations:
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "وصي ابن مسعود", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-masud, role: "المتوفى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "المعطي", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

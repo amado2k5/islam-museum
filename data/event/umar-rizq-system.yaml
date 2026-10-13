@@ -1,0 +1,21 @@
+id: event/umar-rizq-system
+class: event
+kind: other
+label: { ar: "نظام الأرزاق الشهرية لعمر", en: "Umar's Monthly Rations" }
+summary:
+  ar: "أمر عمر بجريب من طعام فعجن ثم خبز ثم رد زيتاً فأكل منه ثلاثون رجلاً غداءهم ثم فعل بالعشي مثل ذلك فقال يكفي الرجل جريبان كل شهر فكان يرزق الناس الرجل والمرأة والمملوك جريبين كل شهر وكان الرجل يدعو على صاحبه فيقول رفع الله جريبيك أي قطعهما عنك بالموت فبقي ذلك في ألسن الناس وقال أبو الدرداء رب سنة راشدة مهدية قد منحها عمر في أمة محمد منها المديان والقسطان وصعد عمر المنبر والمود والقسط في يديه فقال إنا أجرينا عليكم أعطياتكم وأرزاقكم في كل شهر وقال سفيان بن وهب إني قد فرضت لكل نفس مسلمة في كل شهر مداً وقسط زيت وقسط خلاً فقال رجل والعبد قال نعم والعبد وفي العيال فرض عمر لعياله المقاتلة وذريتهم العشرات فأمضى عثمان ومن بعده ذلك وجعلوها موروثة يرثها ورثة الميت ممن ليس في العطاء حتى كان عمر بن عبد العزيز فسأل سليمان بن حبيب عن ذلك فأخبره فأنكر الوراثة وقال اقطعها وأعم بالفريضة فقال سليمان فإني أتخوف أن يستن بك من بعدك في قطع الوراثة ولا يستن بك عموم الفريضة قال صدقت وتركهم وكان عمر يفرض للمولود إذا ولد في عشرة فلما كان معاوية فرض ذلك للفطيم فلما كان عبد الملك قطع ذلك إلا عمن شاء وقال ابن عمر لم يكن عمر يفرض للمولود حتى يفطم فنادى مناديه لا تعجلوا أولادكم عن الفطام فإنا نفرض لكل مولود في الإسلام."
+  en: "Umar had a jarib of food kneaded and baked and oiled — thirty men ate lunch from it, and the same at supper — 'two jaribs a month suffice a man', and so each man, woman and mamluk drew two jaribs monthly; a man would curse his fellow 'may God lift your two jaribs' — death cut them — 'and that is on tongues to this day'. Abu al-Darda' counted 'rightly-guided sunnas Umar granted the umma — among them the two mudds and the two qists'; on the minbar, mudd and qist in hand: 'we run your stipends and your rizq every month — for every Muslim soul each month a mudd, a qist of oil, a qist of vinegar' — 'and the slave?' — 'yes, and the slave'. For dependents he set the fighters' households and their descendants at tens; Uthman and his governors kept it and made it heritable to non-stipended heirs till Umar II, who heard Sulayman ibn Habib's account, disliked the inheritance — 'cut it and generalize the stipend' — 'I fear they will imitate your cutting and not your generalizing' — 'truly said', and he left them. The newborn drew ten; Mu'awiya deferred it to the weanling; Abd al-Malik cut it save whom he willed — and 'do not hasten weaning your children: we stipend every newborn in Islam'."
+periods: [period/rashidun, period/umayyad]
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الفارض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-al-darda, role: "الشاهد للسنن", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "سائل عن الوراثة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "فرض للفطيم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "قاطع فريضة المولود", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

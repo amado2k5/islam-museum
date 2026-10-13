@@ -201,4 +201,6 @@
 
 - **Batch 93** (pp. 639–642 — special stipends): `event/umar-ata-special` (Amr/Umayr/Busr at 200 dinars, Hudaybiya men, Ammar 6000, Salman 4000, the dahqan stipends, the mawali-equity letter, Abu Sufyan's Banu al-Asfar jab, Meccans excluded); `person/kharija-ibn-hudhafa`.
 
-**Next:** batch 94 — ata'/diwan section tail (pp. 643+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 94** (pp. 643–646 — rations, heirs, the seal): `event/umar-rizq-system` (the two-jarib trial, mudd/qist on the minbar, the heritable stipend debate under Umar II); `event/ata-inheritance-cases` (Ibn Mas'ud's 15k to al-Zubayr, pro-rata death stipend, the crying newborn); `event/prophets-seal`.
+
+**Next:** batch 95 — the seal/caliphal-insignia section (pp. 647+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
