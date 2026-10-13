@@ -1,0 +1,22 @@
+id: person/ibn-abi-usama-al-harith
+class: person
+label: { ar: "ابن أبي أسامة الحارث بن محمد", en: "Ibn Abi Usama, al-Harith ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "الحارث بن محمد بن أبي أسامة التميمي البغدادي" }
+gender: male
+roles: [muhaddith, historian]
+traditions: [sunni]
+born: { edtf: "0802", hijri: "0186", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0895", hijri: "0282", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدث حافظ وراوية للأخبار من بغداد، عارف بالقراءات القرآنية، وُصف بالثقة."
+  en: "A hadith scholar and transmitter of reports from Baghdad, well versed in the Qur'anic readings and described as reliable."
+wings: [people, words]
+themes: [scripture-and-its-sciences, history-writing-and-social-thought]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 534, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص534", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
