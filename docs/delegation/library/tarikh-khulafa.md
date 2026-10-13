@@ -18,3 +18,5 @@
 - **Batch TK-2** (pp. 148–168 — Abu Bakr's caliphate/death): `event/compilation-of-quran` (Zayd's account), `event/death-of-abu-bakr` (khazira poison, the returned liqha/jafna/qatifa), `event/abu-bakr-naq-sortie` (Ali's halter, Khalid's five-pillar commission); persons al-harith-ibn-kalada, khuzayma-ibn-thabit.
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
+
+- **Batch TK-3** (pp. 240–258 — Umar's late caliphate): `event/caesar-palm-letter` (the Caesarea palm letter), `event/umar-justice-anecdotes` (Ka'b ibn Suwar's verdict, Ali's meal-advice); enriched `event/death-of-umar` (Abu Lu'lu'a's windmill threat, Umar's premonition, the six-member shura); persons kab-al-ahbar, kab-ibn-suwar, amr-ibn-maymun; merged abu-lulua→`abu-lulu-firuz`, suhayb-al-rumi→`suhayb-ibn-sinan` (both pre-existing, same men).
