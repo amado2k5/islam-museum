@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-19** (pp. 450–455 — al-Hadi): new `event/death-of-al-hadi` (four accounts incl. Khayzuran's matricide); enriched `person/al-hadi-musa` (youngest accession, Aṭbiq, first armed procession, barid ride, seal) and `person/al-khayzuran` (sole mother of two caliphs, ruling circle).
+
 - **Batch TK-18** (pp. 444–449 — Mahdi anecdotes): new `event/ghiyath-fabricated-hadith` ("أو جناح" wager-hadith), `event/execution-of-salih-ibn-abd-al-quddus`, `person/salih-ibn-abd-al-quddus`, `person/ghiyath-ibn-ibrahim`.
 
 - **Batch TK-17** (pp. 438–443 — al-Mahdi): new `event/mahdi-zindiq-inquisition` (first commissioned polemics), `event/mahdi-barid-hijaz` (first Hijaz–Iraq barid 166), `event/mahdi-haram-enlargement` (167), `event/mahdi-hajj-works` (hajj road, minbar measure, Ka'ba hangings, snow at Mecca), `event/death-of-al-mahdi` (169 hunting accident or poison); enriched `person/al-mahdi`.
