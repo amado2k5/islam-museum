@@ -1,0 +1,23 @@
+id: event/ridda-wars
+class: event
+kind: war
+label: { ar: "حروب الردة", en: "The Ridda Wars" }
+summary:
+  ar: "عند البلاذري: لما استخلف أبو بكر ارتدت طوائف من العرب ومنعت الصدقة وقال قوم «نقيم الصلاة ولا نؤدي الزكاة»، فقال أبو بكر «لو منعوني عقالاً لقاتلتهم» ويقال «عناقاً» — والعقال صدقة السنة؛ وقال عبد الله بن مسعود إن المسلمين قاموا بعد النبي مقاماً كادوا يهلكون فيه لولا منّة الله بأبي بكر: اجتمع رأيهم على أن لا يقاتلوا على بنت مخاض وابن لبون «وأن نأكل قرى عربية ونعبد الله حتى يأتينا اليقين» فعزم الله له على قتالهم، ولم يرضَ منهم إلا بالخطة المخزية أو الحرب المجلية — الخطة المخزية أن يقرّوا بأن قتلاهم في النار وأن ما أخذوا من الأموال مردود، والحرب المجلية أن يخرجوا من ديارهم؛ وفي رواية طارق بن شهاب خيّرهم بين الحرب المجلية والسلم المخزية: نزع الحلقة والكراع، وردّ ما أصيب من المسلمين، وأداء ديات القتلى، وقتلاهم في النار؛ وقالت عائشة «توفي رسول الله فنزل بأبي ما لو نزل بالجبال الراسيات لهاضها: أشرأب النفاق بالمدينة وارتدت العرب»؛ وخرج أبو بكر إلى القَصّة يوجّه الزحوف إلى أهل الردة فصدهم خارجة بن حصن ومنظور بن زبان الفزاريان فانهزموا وتبعهم طلحة بن عبيد الله إلى أسفل ثنايا عوسجة، ثم عقد لخالد بن الوليد على الناس ولثابت بن قيس على الأنصار وبدأ بطليحة بن خويلد ببزاخة ثم تبعتها وقائع اليمامة والبحرين وعمان واليمن وحضرموت ومكة وتهامة والعراق."
+  en: "In al-Baladhuri: when Abu Bakr succeeded, groups of the Arabs apostatized and withheld the alms, some saying 'we keep the prayer but will not pay the zakat', whereupon Abu Bakr said 'if they withheld from me a hobbling-cord — some say a she-goat kid — I would fight them', the 'iqal being a year's alms; Abdullah ibn Masud said the Muslims had stood after the Prophet at a station where they nearly perished had God not graced them with Abu Bakr: they had all agreed not to fight over a young she-camel or a weaned camel 'and to eat the Arab villages' yield and worship God until certainty came to us', but God resolved him to fight, and he accepted from them only the humiliating condition or the annihilating war — the first that they confess their slain are in the Fire and return what they took of Muslim property, the second that they leave their homes; in Tariq ibn Shihab's report he offered the Buzakha delegation the choice of the annihilating war or the humiliating peace: surrender of armour and mounts, return of what was taken, blood-money for the slain Muslims, their own slain in the Fire; Aisha said 'when the Prophet died there befell my father what would have crushed the firm mountains — hypocrisy reared its head in Medina and the Arabs apostatized'; Abu Bakr went out to al-Qassa directing the columns against the apostates, was attacked by Kharija ibn Hisn and Manzur ibn Zabban the Fazaris who were routed with Talha ibn Ubaydillah pursuing them to lower Thaniyyat Awsaja, then appointed Khalid ibn al-Walid over the army and Thabit ibn Qays over the Ansar, beginning with Tulayha ibn Khuwaylid at Buzakha, followed by the affairs of Yamama, Bahrain, Oman, Yemen, Hadramawt, Mecca, Tihama and Iraq."
+wings: [time, people]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0632~", hijri: "0011~", calendar: julian, precision: year, status: tradition, derived: true, note: "من استخلاف أبي بكر سنة 11هـ إلى استتباب الأمر؛ فتح اليمامة في الكتاب سنة 12هـ (ص 123، 131–134). التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/abu-bakr, role: "الخليفة الذي عزم على قتال المرتدين ومانعي الزكاة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "عقده أبو بكر على الناس في حروب الردة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/thabit-ibn-qays, role: "على الأنصار في جيش الردة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 131–133"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-5
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

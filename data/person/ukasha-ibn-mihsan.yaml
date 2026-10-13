@@ -1,0 +1,31 @@
+id: person/ukasha-ibn-mihsan
+class: person
+label:
+  ar: عكاشة بن محصن الأسدي
+  en: Ukasha ibn Mihsan al-Asadi
+names:
+  - { kind: full, lang: ar, value: عكاشة بن محصن الأسدي حليف بني عبد شمس }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "أسدي حليف بني عبد شمس؛ قدّمه خالد بن الوليد أمامه إلى بزاخة مع ثابت بن أقرم البلوي حليف الأنصار فلقيهما هبال بن خويلد فقتلهما، وخرج طليحة بن خويلد وسلمة أخوه فلقيا عكاشة وثابتاً فقتلاهما — وقد قال طليحة فيهما بيته المشهور في ابن أقرم وعكاشة الغنمي."
+  en: "An Asadi, ally of Banu Abd Shams; Khalid ibn al-Walid sent him forward to Buzakha with Thabit ibn Aqram al-Balawi, the Ansar's ally, where Hibal ibn Khuwaylid met and killed them — and Tulayha ibn Khuwaylid and his brother Salama then went out, met Ukasha and Thabit and killed them, Tulayha uttering his famous verse on Ibn Aqram and 'Ukasha al-Ghanmi'."
+died: { hijri: "0011~", edtf: "0632~", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل ببزاخة في خلافة أبي بكر (البلاذري ص 133). التحويل مشتق.", sources: [source/futuh-buldan-maarif-1407] }
+periods:
+- period/rashidun
+regions:
+- arabia
+relations:
+  - { type: participated_in, target: event/battle-of-buzakha, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 133"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-5
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"
