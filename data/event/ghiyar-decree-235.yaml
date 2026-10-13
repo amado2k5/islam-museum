@@ -1,0 +1,21 @@
+id: event/ghiyar-decree-235
+class: event
+kind: law-enacted
+label: { ar: "الزام النصارى بالعسلي" }
+summary:
+  ar: "في سنة خمس وثلاثين ومئتين ألزم المتوكل النصارى بلبس العسلي {cite:tarikh-khulafa-minhaj-1434 p. 538}."
+  en: "In 235 al-Mutawakkil bound the Christians to wear the honey-coloured distinguishing dress {cite:tarikh-khulafa-minhaj-1434 p. 538}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0850~", hijri: "0235", calendar: julian, precision: year, status: tradition, derived: true, note: "235؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 538}." }
+relations:
+  - { type: had_participant, target: person/al-mutawakkil, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 538–541"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-28
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

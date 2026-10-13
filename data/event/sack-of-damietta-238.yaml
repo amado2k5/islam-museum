@@ -1,0 +1,21 @@
+id: event/sack-of-damietta-238
+class: event
+kind: raid
+label: { ar: "كبسة الروم دمياط" }
+summary:
+  ar: "في سنة ثمان وثلاثين كبست الروم دمياط ونهبوا وأحرقوا وسبوا منها ست مئة امرأة وولوا مسرعين في البحر {cite:tarikh-khulafa-minhaj-1434 p. 540}."
+  en: "In 238 the Byzantines raided Damietta, plundering and burning, carried off six hundred women and sped out to sea {cite:tarikh-khulafa-minhaj-1434 p. 540}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0853~", hijri: "0238", calendar: julian, precision: year, status: tradition, derived: true, note: "238؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 540}." }
+relations:
+  - { type: had_participant, target: person/al-mutawakkil, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 538–541"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-28
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
