@@ -1,0 +1,22 @@
+id: event/allafi-revolt-makran
+class: event
+kind: revolt
+label: { ar: "غلب العلافيين على ثغر مكران ووقعة سعيد بن أسلم", en: "The Allafis' Coup on the Makran Frontier" }
+summary:
+  ar: "لما ولى الحجاج بن يوسف العراق ولى سعيد بن أسلم بن زرعة الكلابي مكران وذلك الثغر فخرج عليه معاوية ومحمد ابنا الحارث العلافيان فقتل وغلب العلافيان على الثغر واسم علاف هو ربان بن حلوان بن عمران بن الحاف بن قضاعة وهو أبو جرم فولى الحجاج مجاعة بن سعر التميمي ذلك الثغر فغزا فغنم وفتح طوائف من قندابيل ثم أتم فتحها محمد بن القاسم ومات مجاعة بعد سنة بمكران ثم استعمل الحجاج بعد مجاعة محمد بن هارون بن ذرع النمري فأهدى إلى الحجاج في ولايته ملك جزيرة الياقوت نسوة ولدن في بلاده مسلمات ومات آباؤهن وكانوا تجاراً فأراد التقرب بهن."
+  en: "Under al-Hajjaj, Sa'id ibn Aslam al-Kilabi held Makran's frontier till the Allafi brothers Mu'awiya and Muhammad, sons of al-Harith, rose and killed him — Allaf being Rabban ibn Hulwan of Quda'a, Abu Jurm. Al-Hajjaj then gave the thaghr to Mujja'a ibn Si'r al-Tamimi, who raided, took plunder, and opened parts of Qandabil — finished later by Muhammad ibn al-Qasim — dying in Makran within the year. His successor Muhammad ibn Harun al-Namari received, for al-Hajjaj, the king of Jazirat al-Yaqut's gift of Muslim-born women orphaned of merchant fathers."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/said-ibn-aslam, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mujjaa-ibn-sir, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad-ibn-harun, role: "الوالي الثالث", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "متمم فتح قندابيل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/imran-ibn-musa-al-barmaki, role: "باني البيضاء", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/makran }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

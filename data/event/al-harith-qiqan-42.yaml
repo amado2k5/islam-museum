@@ -1,0 +1,18 @@
+id: event/al-harith-qiqan-42
+class: event
+kind: raid
+label: { ar: "غزو الحارث بن مرة القيقان ومقتله", en: "al-Harith ibn Murra's Qiqan Raid and Death" }
+summary:
+  ar: "توجه إلى ثغر الهند الحارث بن مرة العبدي متطوعاً بإذن علي فظفر وأصاب مغنماً وسبياً وقسم في يوم واحد ألف رأس ثم إنه قتل ومن معه بأرض القيقان إلا قليلاً وكان مقتله في سنة ٤٢ والقيقان من بلاد السند مما يلي خراسان."
+  en: "Al-Harith ibn Murra al-Abdi went as a volunteer to the Indian frontier with Ali's leave — took booty and captives, divided a thousand heads in one day — then was killed with nearly all his men in al-Qiqan in 42h, that land of Sind adjoining Khurasan."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-harith-ibn-murra, role: "المتطوع المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/qiqan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

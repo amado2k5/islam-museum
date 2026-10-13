@@ -1,0 +1,18 @@
+id: event/muhallab-sind-44
+class: event
+kind: raid
+label: { ar: "غزو المهلب ثغر الهند وتحذيف الخيل", en: "al-Muhallab's Frontier Raid and the First Horse-Trimming" }
+summary:
+  ar: "غزا ثغر الهند المهلب بن أبي صفرة في أيام معاوية سنة ٤٤ فأتى بنه والأهوار وهما بين الملتان وكابل فلقيه العدو فقاتله ومن معه ولقي المهلب ببلاد القيقان ثمانية عشر فارساً من الترك على خيل محذوفة فقاتلوه فقتلوا جميعاً فقال المهلب ما جعل هؤلاء الأعاجم أولى بالتشمير منا فحذف الخيل فكان أول من حذفها من المسلمين."
+  en: "In 44h al-Muhallab ibn Abi Sufra raided the Indian frontier to Banna and the marshes between Multan and Kabul; at al-Qiqan eighteen Turkish riders on docked horses fought him and died — 'why are these Ajam readier to cut short than us?' — and he trimmed his own mounts, the first Muslim to do so."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-muhallab-ibn-abi-sufra, role: "الأمير الغازي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/qiqan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

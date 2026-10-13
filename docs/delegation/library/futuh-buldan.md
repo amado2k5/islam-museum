@@ -185,4 +185,6 @@
 
 - **Batch 85** (pp. 604–607 — Ushrusana dossier + Sind opens): `event/kabul-shah-submission` (the halilaj post); `event/kawus-ushrusana-affair` (qahrman's killing, Haydar's flight); `event/ahmad-ushrusana-conquest` (the short road, Turks' thirst-death); `event/mamun-transoxania-army` (the diwan wooing, Tahir's Fuziyya); `event/uthman-tana-raid` ("worms upon wood"); `event/hakim-sind-report` ("khayr am saji'?"); persons +8 (Kawus, Haydar/al-Afshin, Ahmad b. Abi Khalid, Hakim, the Abi al-As brothers, Tahir); places sind, daybul, tana, barus.
 
-**Next:** batch 86 — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 86** (pp. 608–611 — Sind frontier commanders): `event/al-harith-qiqan-42`, `event/muhallab-sind-44` (the first horse-trimming), `event/abdallah-ibn-sawar-qiqan` (Qiqani horses, the khabis fire), `event/sinan-makran` (divorce-oaths, Makran stormed), `event/abbad-qandahar` (the 'Abbadiyya caps), `event/mundhir-qusdar`, `event/allafi-revolt-makran` (the Allafi coup, Mujja'a's Qandabil); persons +10; places qiqan, makran, qandahar, qusdar, buqan, banna.
+
+**Next:** batch 87 — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
