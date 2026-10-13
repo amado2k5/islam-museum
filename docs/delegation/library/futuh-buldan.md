@@ -209,4 +209,6 @@
 
 - **Batch 97** (pp. 655–658 — mints and zuyuf): `event/hajjaj-mint-reform` (the mint-house, makruha/Sumayriyya dirhams, Hubayriyya-Khalidiyya-Yusufiyya best coin); `concept/zuyuf` (the clipping/adulteration jurisprudence); persons aban-ibn-uthman + enrichments of khalid-ibn-abdallah-al-qasri, ubayd-allah-ibn-ziyad.
 
-**Next:** batch 98 — coinage/diwan tail (pp. 659+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 98** (pp. 659–662 — the script dossier): `event/arabic-script-origin` (the Tayyi' three at Baqqa, the Hira-Anbar-Mecca chain); `event/quraysh-scribes` (the seventeen literate Qurashis, the women writers, the first revelation scribes); persons +6.
+
+**Next:** batch 99 — scribal/caliphal sections (pp. 663+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

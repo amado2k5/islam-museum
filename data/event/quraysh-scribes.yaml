@@ -1,0 +1,23 @@
+id: event/quraysh-scribes
+class: event
+kind: other
+label: { ar: "كتبة قريش وأهل بيت النبي", en: "The Scribes of Quraysh and the Prophet's House" }
+summary:
+  ar: "قال أبو بكر بن عبد الله بن أبي جهم العدوي دخل الإسلام وفي قريش سبعة عشر رجلاً كلهم يكتب عمر بن الخطاب وعلي بن أبي طالب وعثمان بن عفان وأبو عبيدة بن الجراح وطلحة ويزيد بن أبي سفيان وأبو حذيفة بن عتبة بن ربيعة وحاطب بن عمرو وأبو سلمة بن عبد الأسد المخزومي وأبان بن سعيد بن العاص وأخوه خالد بن سعيد وعبد الله بن سعد بن أبي سرح العامري وحويطب بن عبد العزى العامري وأبو سفيان بن حرب ومعاوية بن أبي سفيان وجهم بن الصلت ومن حلفاء قريش العلاء بن الحضرمي وقال للشفاء بنت عبد الله العدوية وكانت كاتبة في الجاهلية ألا تعلمين حفصة رقية النملة كما علمتها الكتابة وكانت حفصة تكتب وأم كلثوم بنت عقبة تكتب وقالت عائشة بنت سعد علمني أبي الكتاب وكانت كريمة بنت المقداد تكتب وكانت عائشة تقرأ المصحف ولا تكتب وأم سلمة تقرأ ولا تكتب وكان أول من كتب لرسول الله مقدمه المدينة أبي بن كعب الأنصاري فإذا لم يحضر كتب زيد بن ثابت وكانا يكتبان الوحي بين يديه وكتبه إلى من يكاتب من الناس وأول من كتب له من قريش عبد الله بن سعد بن أبي سرح ثم ارتد ورجع إلى مكة وكان يغير ما يملى عليه فنزلت فيه آية الأنعام في شأن من ادعى أنه يأتي بمثل ما يوحى."
+  en: "Abu Bakr ibn Abdallah ibn Abi Jahm al-'Adawi counted the literate of Quraysh when Islam came — seventeen men: Umar, Ali, Uthman, Abu Ubayda, Talha, Yazid ibn Abi Sufyan, Abu Hudhayfa ibn 'Utba, Hatib ibn 'Amr, Abu Salama ibn Abd al-Asad, Aban ibn Sa'id and his brother Khalid ibn Sa'id, Abdallah ibn Sa'd ibn Abi Sarh, Huwaytib ibn Abd al-'Uzza, Abu Sufyan ibn Harb, Mu'awiya, Juhm ibn al-Salt — and of Quraysh's allies al-A'la' ibn al-Hadrami. Al-Shifa' bint Abdallah, a Jahiliya scribe, was told 'teach Hafsa the ant-charm as you taught her writing'; Hafsa wrote, Umm Kulthum bint 'Uqba wrote, A'isha bint Sa'd said 'my father taught me', Karima bint al-Miqdad wrote — while A'isha and Umm Salama read the mushaf but did not write. First to write for the Prophet at Medina was Ubayy ibn Ka'b, and when absent Zayd ibn Thabit — both wrote revelation and correspondence before him; first Qurashi scribe was Abdallah ibn Sa'd ibn Abi Sarh, who then apostatized to Mecca having altered the dictation, and in his case al-An'am's verse came down on the one who claims to bring the like of the revelation."
+periods: [period/prophetic-era]
+relations:
+  - { type: had_participant, target: person/ubayy-ibn-kab, role: "أول كاتب بالمدينة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/zayd-ibn-thabit, role: "كاتب الوحي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: "أول كاتب من قريش", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-shifa-bint-abdullah, role: "كاتبة الجاهلية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hafsa, role: "كاتبة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/karima-bint-al-miqdad, role: "كاتبة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umm-kulthum-bint-uqba, role: "كاتبة", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

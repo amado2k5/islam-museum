@@ -1,0 +1,22 @@
+id: event/arabic-script-origin
+class: event
+kind: other
+label: { ar: "وضع الخط العربي وانتشاره", en: "The Devising and Spread of Arabic Script" }
+summary:
+  ar: "قال الشرقي بن القطامي اجتمع ثلاثة نفر من طيئ ببقة وهم مرامر بن مرة وأسلم بن سدرة وعامر بن جدرة فوضعوا الخط وقاسوا هجاء العربية على هجاء السريانية فتعلمه منهم قوم من أهل الأنبار ثم تعلمه أهل الحيرة من أهل الأنبار وكان بشر بن عبد الملك أخو أكيدر بن عبد الملك بن عبد الجن الكندي ثم السكوني صاحب دومة الجندل يأتي الحيرة فيقيم بها الحين وكان نصرانياً فتعلم بشر الخط العربي من أهل الحيرة ثم أتى مكة في بعض شأنه فرآه سفيان بن أمية بن عبد شمس وأبو قيس بن عبد مناف بن زهرة بن كلاب يكتب فسألاه أن يعلمهما الخط فعلمهما الهجاء ثم أراهما الخط فكتبا ثم إن بشراً وسفياناً وأبا قيس أتوا الطائف في تجارة فصحبهم غيلان بن سلمة الثقفي فتعلم الخط منهم وفارقهم بشر ومضى إلى ديار مضر فتعلم الخط منه عمرو بن زرارة بن عدس فيسمى عمرو الكاتب ثم أتى بشر الشام فتعلم الخط منه ناس هناك وتعلم الخط من الثلاثة الطائيين أيضاً رجل من طابخة فعلمه رجلاً من أهل وادي القرى فأقام بها وعلم الخط قوماً من أهلها."
+  en: "Al-Sharqi ibn al-Quttami: three Tayyi' men met at Baqqa — Muramir ibn Murra, Aslam ibn Sidra and Amir ibn Jadara — and devised the script, measuring Arabic's spelling against the Syriac. Men of al-Anbar learned it from them, al-Hira from al-Anbar; and Bishr ibn Abd al-Malik — brother of Ukaydir, the Christian lord of Dumat al-Jandal who sojourned at al-Hira — learned it there, came to Mecca, and taught its letters then its script to Sufyan ibn Umayya ibn Abd Shams and Abu Qays ibn Abd Manaf ibn Zuhra ibn Kilab. The three went trading to al-Ta'if; Ghaylan ibn Salama al-Thaqafi learned with them. Bishr went on to Mudar's lands where Amr ibn Zurara ibn Udas learned — he is called Amr the Scribe — then to al-Sham where men learned it; and a man of Tabukha learned from the Tayyi' three and taught a man of Wadi al-Qura, who settled there and taught its people."
+periods: [period/pre-islamic-arabia]
+relations:
+  - { type: had_participant, target: person/bishr-ibn-abd-al-malik-al-kindi, role: "ناقل الخط من الحيرة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sufyan-ibn-umayya, role: "متعلم بمكة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-qays-ibn-abd-manaf, role: "متعلم بمكة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ghaylan-ibn-salama, role: "متعلم بالطائف", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-zurara, role: "عمرو الكاتب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/al-hira }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
