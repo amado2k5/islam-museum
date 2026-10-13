@@ -1,0 +1,20 @@
+id: event/mansur-jawhur-musa-kab
+class: event
+kind: war
+label: { ar: "مقتل مغلس وغلب موسى بن كعب السند", en: "Mughallis Slain and Musa ibn Ka'b's Sind" }
+summary:
+  ar: "صار مغلس العبدي إلى منصور بن جمهور الكلبي وهو بالسند فلقيه منصور فقتله وهزم جنده فلما بلغ أبا مسلم ذلك عقد لموسى بن كعب التميمي ثم وجهه إلى السند فلما قدمها كان بينه وبين منصور بن جمهور مهران ثم التقيا فهزم منصوراً وجيشه وقتل منظوراً أخاه وخرج منصور مفلولاً هارباً حتى ورد الرمل فمات عطشاً وولى موسى السند فرم المنصورة وزاد في مسجدها وغزا وافتتح."
+  en: "Mughallis al-Abdi reached Mansur ibn Jawhur al-Kalbi and was killed with his army; Abu Muslim then sent Musa ibn Ka'b al-Tamimi, who met Mansur across the Mihran, routed him and slew his brother Mundhir — Mansur fled broken to die of thirst in the sands. Musa governed Sind, repaired al-Mansura, enlarged its mosque, and raided on."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/mansur-ibn-jawhur, role: "قاتل مغلس المهزوم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mughallis-al-abdi, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/musa-ibn-kab-al-tamimi, role: "الوالي الفائز", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/al-mansura }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

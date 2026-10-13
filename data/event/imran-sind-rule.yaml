@@ -1,0 +1,19 @@
+id: event/imran-sind-rule
+class: event
+kind: campaign
+label: { ar: "ولاية عمران بن موسى السند وحربه الزط والميد", en: "Imran ibn Musa's Sind and the Zutt-Mayd Wars" }
+summary:
+  ar: "كتب المعتصم لعمران بن موسى بولاية الثغر فخرج إلى القيقان وهم زط فقاتلهم فقلبهم وبنى مدينة سماها البيضاء وأسكنها الجند ثم أتى المنصورة وصار منها إلى قندابيل وهي مدينة على جبل وفيها متغلب يقال له محمد بن الخليل فقاتله وفتحها وحمل رؤساءها إلى قصدار ثم غزا الميد فقتل منهم ثلاثة آلاف وسكر سكراً يعرف بسكر الميد وعسكر عمران على نهر الرور ثم نادى بالزط الذين بحضرته فأتوه فختم أيديهم وأخذ الجزية منهم وأمرهم بأن يكون مع كل رجل منهم إذا اعترض عليه كلب فبلغ الكلب خمسين درهماً ثم غزا الميد ومعه وجوه الزط فحفر من البحر نهراً أجراه في بطيحتهم حتى ملح ماؤهم وشن الغارات عليهم ثم وقعت العصبية بين النزارية واليمانية فمال عمران إلى اليمانية فسار إليه عمر بن عبد العزيز الهباري فقتله وهو غار وكان جد عمر هذا ممن قدم السند مع الحكم بن عوانة الكلبي."
+  en: "Al-Mu'tasim gave Imran ibn Musa the thaghr: he drove the Zutt of Qiqan, built al-Bayda and garrisoned it; took hill-top Qandabil from the mutaghallib Muhammad ibn al-Khalil and carried its chiefs to Qusdar; slew three thousand Mayd at Sikkar al-Mayd. On the Rur river he hand-stamped the Zutt, took their jizya, and bound each to keep a dog — till a dog fetched fifty dirhams — then raided the Mayd with Zutt chiefs, cutting a sea-channel that made their marsh water brackish. When Nizari-Yamani strife rose he leaned to the Yemenis, and Umar ibn Abd al-Aziz al-Habbari — whose grandfather came with al-Hakam — killed him unawares."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/imran-ibn-musa-al-barmaki, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/qiqan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

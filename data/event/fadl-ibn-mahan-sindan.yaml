@@ -1,0 +1,18 @@
+id: event/fadl-ibn-mahan-sindan
+class: event
+kind: conquest
+label: { ar: "آل الفضل بن ماهان بسندان", en: "The House of al-Fadl ibn Mahan at Sindan" }
+summary:
+  ar: "كان الفضل بن ماهان مولى بني سامة فتح سندان وغلب عليها وبعث إلى المأمون بفيل وكاتبه ودعا له في مسجد جامع اتخذه بها فلما مات قام محمد بن الفضل بن ماهان مقامه فسار في سبعين بارجة إلى ميد الهند فقتل منهم خلقاً وافتتح غالاً ورجع إلى سندان وقد غلب عليها أخ يقال له ماهان بن الفضل وكاتب أمير المؤمنين المعتصم بالله وأهدى إليه ساجاً لم ير مثله عظماً وطولاً وكانت الهند في أمر أخيه فمالوا عليه فقتلوه وصلبوه ثم إن الهند بعد غلبوا على سندان فتبروكوا مسجدها للمسلمين يجمعون فيه ويدعون للخليفة."
+  en: "Al-Fadl ibn Mahan, mawla of Banu Sama, took Sindan and held it — sent al-Ma'mun an elephant, wrote him, and prayed for him in a jami' mosque he built there. His son Muhammad sailed seventy bawarij to Mayd al-Hind, slew many and returned — to find his brother Mahan had seized Sindan; Mahan wrote al-Mu'tasim and gifted a teak plank unmatched for size. The Hind faction in his brother's affair turned, killed and crucified him, then took Sindan and broke its mosque where Muslims had prayed for the caliph."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/al-fadl-ibn-mahan, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sindan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
