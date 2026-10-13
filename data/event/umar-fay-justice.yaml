@@ -1,0 +1,19 @@
+id: event/umar-fay-justice
+class: event
+kind: other
+label: { ar: "أمانة عمر في الفيء", en: "Umar's Trust in the Fay'" }
+summary:
+  ar: "كتب عمر إلى حذيفة أن أعط الناس أرزاقهم فكتب إليه أنا قد فعلنا وبقي شيء كثير فكتب إليه إنه فيهم الذي أفاءه الله عليهم ليس هو لعمر ولا لآل عمر فاقسمه بينهم وقدم أبو هريرة من البحرين بخمس مائة ألف فلما ثبت عنده الرقم قال للناس إنه قدم علينا مال كثير فإن شئتم أن نعده لكم عدداً وإن شئتم أن نكيله لكم كيلاً فقال له رجل يا أمير المؤمنين إني قد رأيت هؤلاء الأعاجم يدونون ديواناً يعطون الناس عليه فدون الديوان وفرض للمهاجرين الأولين في خمسة آلاف وللأنصار في أربعة آلاف ولأزواج النبي في اثني عشر ألفاً وكان يقول إنما هو حقهم وأنا أسعد بأدائه إليهم لو كان من مال الخطاب ما أعطيتهموه ولكن قد علمت أن فيه فضلاً فلو أنه إذا خرج عطاء أحد هؤلاء ابتاع منه غنماً فجعلها بسوادهم فإذا خرج عطاؤه ثانية ابتاع الرأس والرأسين فجعلها فيها فإن بقي أحد من ولده كان لهم شيء قد اعتقدوه فإني لا أدري ما يكون بمدي وإني لأعم بنصيحتي من طوقني الله أمره فإن رسول الله قال من مات غاشاً لرعيته لم يرح ريح الجنة وألحق كل مولود ذكر أو أنثى في مائة وجريبين في كل شهر."
+  en: "Umar wrote Hudhayfa to pay the people their rizq; 'done — and much remains' came the answer, and his: 'it is theirs — the fay' God gave them — not Umar's nor Al Umar's — divide it among them'. Abu Hurayra brought five hundred thousand from Bahrayn — 'much money has come: shall we count it or weigh it?' — and a man said 'I have seen these Ajam keep a diwan they pay the people by'; so Umar wrote the diwan: first Muhajirun five thousand, Ansar four thousand, the Prophet's wives twelve thousand. 'It is their right — had it been Khattab-money I'd not have given it, but I know there is surplus: let each stipend buy sheep for his sawad, then rams, till his children hold a substance' — and 'I counsel whom God charges: the Prophet said who dies cheating his flock will not smell paradise'. Every newborn, boy or girl, was registered for a hundred and two jaribs a month."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hudhayfa-ibn-al-yaman, role: "المكاتب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-hurayra, role: "حامل مال البحرين", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
