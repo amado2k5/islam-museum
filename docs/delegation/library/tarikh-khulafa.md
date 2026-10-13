@@ -19,6 +19,10 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-17** (pp. 438–443 — al-Mahdi): new `event/mahdi-zindiq-inquisition` (first commissioned polemics), `event/mahdi-barid-hijaz` (first Hijaz–Iraq barid 166), `event/mahdi-haram-enlargement` (167), `event/mahdi-hajj-works` (hajj road, minbar measure, Ka'ba hangings, snow at Mecca), `event/death-of-al-mahdi` (169 hunting accident or poison); enriched `person/al-mahdi`.
+
+- **Batch TK-16** (pp. 428–437 — Mansur addenda): `event/qadi-rules-against-mansur` (al-Talhi's ruling + Sawwar's refusal); enriched `person/al-mansur` (astrologers, Kalila wa-Dimna/Euclid translations, mawali-first).
+
 - **Batch TK-15** (pp. 422–427 — al-Mansur): new `person/muhammad-al-nafs-al-zakiyya`, `event/nafs-al-zakiyya-revolt` (145, Malik's coerced-bay'a fatwa), `event/deposition-of-isa-ibn-musa` (147), `event/death-of-al-mansur` (158, Hujun–Bi'r Maymun), `event/beginning-of-tadwin` (143, Dhahabi's codification list), `event/ustadhsis-revolt` (150), `event/mansur-qalansuwa-edict` (153, Abu Dulama), `event/abd-al-rahman-enters-andalus` (138), `person/sufyan-al-thawri`, `person/abd-al-rahman-al-dakhil`; enriched `murder-of-abu-muslim`, `rawandiyya-uprising` (tanassukh, 141), `founding-of-baghdad` (140–149), `person/al-mansur` (Abu al-Dawaniq, Abu Hanifa's flogging, Rusafa 151).
 
 - **Batch TK-14** (pp. 415–421 — al-Saffah): new `person/abu-hashim-ibn-muhammad` (the wasiyya transfer root), `event/saffah-anbar-capital` (134); enriched `bayat-abu-al-abbas-al-saffah` ("فأنا السفاح المبيح" khutba, +100/100 stipends), `death-of-abu-al-abbas-al-saffah` (smallpox Dhu'l-Hijja 136), `person/abu-al-abbas-al-saffah` (Humayma birth, seal, Dhahabi's fragmentation verdict), `killing-of-ibrahim-ibn-muhammad-al-imam`, `abd-al-hamid-ibn-yahya` (killed at Busir).
