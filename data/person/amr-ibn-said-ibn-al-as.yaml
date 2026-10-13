@@ -7,7 +7,7 @@ gender: male
 roles: [companion]
 traditions: [sunni]
 summary:
-  ar: "صحابي من بني عبد شمس، هاجر إلى الحبشة مع امرأته فاطمة بنت صفوان وقدم في السفينتين، وقُتل بأجنادين في خلافة أبي بكر."
+  ar: "صحابي من بني عبد شمس، هاجر إلى الحبشة مع امرأته فاطمة بنت صفوان وقدم في السفينتين، وقُتل بأجنادين في خلافة أبي بكر.، وعند المسعودي دعا الناس إلى بيعته بدمشق وعبد الملك غائب بقرقيسيا فكر راجعاً فصالحه على العهد ثم أغلق عليه الحاجب الباب دون أصحابه وأمر أبا الزعيزعة فقتله وألقى رأسه إلى الناس فتفرقوا {cite:muruj-al-dhahab p. 95-97}"
   en: A Companion of Banu Abd Shams; he emigrated to Abyssinia with his wife Fatima bint Safwan, arrived in the two ships, and was killed at Ajnadayn in Abu Bakr's caliphate.
 wings: [people]
 themes: [refugees-migrants-diaspora]
@@ -26,5 +26,5 @@ relations:
   - { type: died_in, target: place/ajnadayn, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 4", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }
