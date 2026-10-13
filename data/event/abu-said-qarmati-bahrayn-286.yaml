@@ -1,0 +1,21 @@
+id: event/abu-said-qarmati-bahrayn-286
+class: event
+kind: revolt
+label: { ar: "ظهور أبي سعيد القرمطي بالبحرين" }
+summary:
+  ar: "في سنة ست وثمانين ظهر بالبحرين أبو سعيد القرمطي وقويت شوكته وهو أبو أبي طاهر سليمان الذي يأتي أنه قلع الحجر الأسود ووقع القتال بينه وبين عسكر الخليفة وأغار على البصرة ونواحيها وهزم جيش الخليفة مرات {cite:tarikh-khulafa-minhaj-1434 p. 575}."
+  en: "In 286 Abu Sa'id al-Qarmati rose in Bahrayn — father of Abu Tahir Sulayman who would wrench out the Black Stone — fought the caliph's armies, raided Basra and its neighbourhood, and routed the caliph's forces repeatedly {cite:tarikh-khulafa-minhaj-1434 p. 575}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0899~", hijri: "0286", calendar: julian, precision: year, status: tradition, derived: true, note: "286؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 575}." }
+relations:
+  - { type: had_participant, target: person/abu-said-al-qarmati, role: "الخارج", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 569–576"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-32
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
