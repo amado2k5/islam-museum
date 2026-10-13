@@ -1,0 +1,28 @@
+id: event/battle-of-ajnadayn
+class: event
+kind: battle
+label: { ar: "وقعة أجنادين", en: "The Battle of Ajnadayn" }
+summary:
+  ar: "عند البلاذري: ثم كانت وقعة أجنادين — ويقال أجتادين — وشهدها من الروم زهاء مائة ألف، سرّب هرقل أكثرهم وتجمع باقوهم من النواحي وهرقل يومئذ مقيم بحمص، فقاتلهم المسلمون قتالاً شديداً وأبلى خالد بن الوليد يومئذ بلاءً حسناً ثم هزم الله أعداءه ومزقهم كل ممزق وقتل منهم خلق كثير؛ واستشهد يومئذ عبد الله بن الزبير بن عبد المطلب بن هاشم، وعمرو بن سعيد بن العاص بن أمية وأخوه أبان (وقيل توفي أبان سنة 29)، وطُليب بن عمير بن وهب بن قصي بارزه علج فضربه فأبان يده اليمنى فسقط سيفه مع كفّه ثم غشيه فقتله وأمه أروى بنت المطلب عمة النبي ويكنى أبا عدي، وسلمة بن هشام بن المغيرة (وقيل قتل بمرج الصفر)، وعكرمة بن أبي جهل بن هشام المخزومي (وقيل قتل يوم مؤتة)، ونعيم بن عبد الله النحام العدوي (وقيل قتل يوم اليرموك)، وهشام بن العاص بن وائل السهمي (وقيل قتل يوم اليرموك)، وعمرو بن الطقيل بن عمرو الدوسي (وقيل قتل يوم اليرموك)، وجندب بن عمرو الدوسي، وسعيد والحارث والحجاج بنو الحارث بن قيس بن عدي السهمي، وقال هشام بن محمد الكلبي قتل النعام يوم مؤتة وسعيد الحارث يوم اليرموك وتميم بن الحارث يوم أجنادين وأخوه عبيد الله بن عبد الأسد يوم اليرموك، وقتل الحارث بن هشام بن المغيرة يوم أجنادين؛ ولما انتهى خبر الوقعة إلى هرقل نُحب قلبه وسقط في يده ومُلي رعباً فهرب من حمص إلى أنطاكية — وقيل كان هربه عند قدوم المسلمين الشام؛ وكانت يوم الاثنين لاثنتي عشرة ليلة بقيت من جمادى الأولى سنة 13 ويقال لليلتين خلتا من جمادى الآخرة ويقال لليلتين بقيتا منه؛ ثم جمعت الروم جمعاً بالياقوصة — وهي وادٍ فمه الفوّارة — فلقيهم المسلمون فكشفوهم وهزموهم وقتلوا كثيراً ولحق فلّهم بمدن الشام، وتوفي أبو بكر في جمادى الآخرة سنة 13 فأتت المسلمين نعيته وهم بالياقوصة."
+  en: "In al-Baladhuri: then came the battle of Ajnadayn — also Ajtadayn — attended by near a hundred thousand Romans, Heraclius chaining most of them and their bravest gathering from the districts, Heraclius then residing at Hims; the Muslims fought them fiercely, Khalid ibn al-Walid showing fine valour that day, then God defeated His enemies and scattered them utterly, killing many; martyred that day were Abdullah ibn al-Zubayr ibn Abd al-Muttalib ibn Hashim, Amr ibn Sa'id ibn al-As ibn Umayya and his brother Aban (some say Aban died in year 29), Tulayb ibn Umayr ibn Wahb ibn Qusayy — a Byzantine champion challenged him and severed his right hand so his sword fell with his palm, then covered and killed him, his mother Arwa bint al-Muttalib the Prophet's aunt, his kunya Abu Adi — Salama ibn Hisham ibn al-Mughira (some say he fell at Marj al-Suffar), Ikrama ibn Abi Jahl ibn Hisham al-Makhzumi (some say at Mu'ta), Nu'aym ibn Abdullah al-Nahham al-Adawi (some say at the Yarmuk), Hisham ibn al-As ibn Wa'il al-Sahmi (some say at the Yarmuk), Amr ibn al-Tuqayl ibn Amr al-Dawsi (some say at the Yarmuk), Jundub ibn Amr al-Dawsi, and Sa'id, al-Harith and al-Hajjaj sons of al-Harith ibn Qays ibn Adi al-Sahmi — Hisham ibn Muhammad al-Kalbi placing al-Na'am at Mu'ta, Sa'id at the Yarmuk, Tamim at Ajnadayn and his brother Ubaydullah ibn Abd al-Asad at the Yarmuk — and al-Harith ibn Hisham ibn al-Mughira fell at Ajnadayn; when the report reached Heraclius his heart sank, his hand failed and he was filled with terror, fleeing from Hims to Antioch — some say his flight came at the Muslims' very arrival in Syria; the battle fell on Monday twelve nights remaining of Jumada I year 13 — some say two nights into Jumada II, some say two remaining of it; the Romans then massed at al-Yaqusa — a valley whose mouth is al-Fawwara — where the Muslims met, exposed and routed them killing many, their remnant reaching Syria's towns; Abu Bakr died in Jumada II year 13, his obituary reaching the Muslims at al-Yaqusa."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0634-07-16~", hijri: "0013-04-12", calendar: julian, precision: day, status: tradition, derived: true, note: "الاثنين لاثنتي عشرة ليلة بقيت من جمادى الأولى 13هـ عند الأكثر؛ روايتان أخريان بجمادى الآخرة (البلاذري ص 157). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-syria }
+  - { type: occurred_at, target: place/ajnadayn }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "أبلى بلاءً حسناً فيها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "استشهد فيها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/tulayb-ibn-umayr, role: "استشهد بعد قطع يده اليمنى في المبارزة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salama-ibn-hisham, role: "استشهد فيها عند بعضهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ikrima-ibn-abi-jahl, role: "استشهد فيها عند بعضهم وقيل بمؤتة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/heraclius, role: "أقام بحمص يسرب الجموع ثم هرب إلى أنطاكية", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 156–157"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

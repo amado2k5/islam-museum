@@ -1,0 +1,31 @@
+id: person/hurqus-ibn-al-numan
+class: person
+label:
+  ar: حرقوص بن النعمان البهراني
+  en: Hurqus ibn al-Nu'man al-Bahrani
+names:
+  - { kind: full, lang: ar, value: حرقوص بن النعمان البهراني، من قضاعة }
+gender: male
+roles: [warrior]
+traditions: []
+summary:
+  ar: "من بهراء بن هلال من قضاعة؛ كان بسوى — ماء لكلب — في جماعة يشربون ويتغنون حين أغار عليهم خالد بن الوليد في طريقه إلى الشام فقتله، وكان يقول قبل قتله «ألا عللاني قبل جيش أبي بكر لعل منايانا قريب ولا ندري»، فلما قتل جعل دمه يسيل في الجفنة التي كان فيها شرابه ويقال إن رأسه سقط فيها أيضاً."
+  en: "Of Bahra' ibn Hilal of Quda'a; he was at Suwa — a Kalbi watering-place — among a company drinking and singing when Khalid ibn al-Walid raided them on his way to Syria and killed him; he had been singing 'slake me before Abu Bakr's army — perhaps our fates are near and we know not', and when killed his blood ran into the basin holding his drink, some say his head fell into it too."
+died: { edtf: "0634~", hijri: "0013~", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل بسوى في مسير خالد ربيع الآخر 13هـ (البلاذري ص 153). التحويل مشتق.", sources: [source/futuh-buldan-maarif-1407] }
+periods:
+- period/rashidun
+regions:
+- arabia
+relations:
+  - { type: participated_in, target: event/khalid-march-to-syria, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 153"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

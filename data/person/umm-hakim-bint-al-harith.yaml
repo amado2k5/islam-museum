@@ -1,65 +1,33 @@
 id: person/umm-hakim-bint-al-harith
 class: person
 label:
-  ar: أم حكيم بنت الحارث
-  en: Umm Hakim bint al-Harith
+  ar: أم حكيم بنت الحارث بن هشام المخزومية
+  en: Umm Hakim bint al-Harith al-Makhzumiyya
 names:
-- kind: full
-  lang: ar
-  value: أم حكيم بنت الحارث بن هشام بن المغيرة المخزومية
-- kind: kunya
-  lang: ar
-  value: أم حكيم
+  - { kind: full, lang: ar, value: أم حكيم بنت الحارث بن هشام المخزومية }
 gender: female
-roles:
-- companion
-traditions:
-- sunni
+roles: [warrior]
+traditions: [sunni]
 summary:
-  ar: زوج عكرمة بن أبي جهل؛ حضرت أحداً وهي كافرة ثم أسلمت يوم الفتح واستأمنت لزوجها، ثم تزوجها خالد بن سعيد بعد استشهاد عكرمة، وقاتلت يوم مرج الصفر فقتلت سبعة من الروم بعمود الفسطاط.
-  en: The wife of Ikrima ibn Abi Jahl; she was at Uhud as a non-Muslim, embraced Islam on the day of the conquest and obtained safety for her husband; she then married Khalid ibn Sa'id after Ikrima's martyrdom, and fought at Marj al-Saffar, killing
-    seven Byzantines with a tent pole.
-wings:
-- people
-themes:
-- women
+  ar: "مخزومية؛ كانت امرأة عكرمة بن أبي جهل فأعرس بها خالد بن سعيد بن العاص في الليلة التي كانت وقعة مرج الصفر في صبيحتها، فلما بلغها مصابه انتزعت عمود الفسطاط فقاتلت به فيقال إنها قتلت يومئذ سبعة نفر وإن بها لرذع الخلوق."
+  en: "A Makhzumi woman; she had been the wife of Ikrama ibn Abi Jahl, and Khalid ibn Sa'id ibn al-As celebrated his wedding with her on the night before the battle of Marj al-Suffar — when she heard of his fall she tore out the tent-pole and fought with it, said to have killed seven men that day with ragged clothes on her."
 periods:
-- period/prophetic-era
 - period/rashidun
 regions:
 - arabia
-story_roles:
-- role: companion
-  status: tradition
-  note: مذكور في الإصابة ترجمة رقم 12029 (ص 1992).
-  sources:
-  - source/ibn-hajar-isaba
-faith:
-- value: sunni
-  basis: tradition
-  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+- levant-iraq
 relations:
-- type: spouse_of
-  target: person/ikrima-ibn-abi-jahl
-  sources:
-  - source/ibn-hajar-isaba
-- type: spouse_of
-  target: person/khalid-ibn-said-ibn-al-as
-  sources:
-  - source/ibn-hajar-isaba
-- type: participated_in
-  target: event/conquest-of-mecca
-  sources:
-  - source/ibn-hajar-isaba
+  - { type: participated_in, target: event/battle-of-marj-al-suffar, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: spouse_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: spouse_of, target: person/ikrima-ibn-abi-jahl, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
-  source: الإصابة في تمييز الصحابة، ترجمة 12029، ص 1992
-  generated_by: Claude (maintainer session)
-  model: claude-sonnet-5-5
-  run: isaba-batch-4
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 162"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
 sources:
-- source/ibn-hajar-isaba
+- source/futuh-buldan-maarif-1407
 status:
   review: draft
-  completeness: 2
-  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1992, entry 12029)
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

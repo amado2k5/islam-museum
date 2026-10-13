@@ -1,0 +1,26 @@
+id: event/conquest-of-busra
+class: event
+kind: conquest
+label: { ar: "فتح بصرى", en: "The Conquest of Busra" }
+summary:
+  ar: "عند البلاذري: لما قدم خالد بن الوليد على المسلمين ببصرى — مدينة حوران — اجتمعوا عليها وأمروا خالداً في حربها ثم ألصقوا بها وحاربوا بطريقها حتى ألجأوها (ويقال بل كان يزيد بن أبي سفيان المتقلد لأمر الحرب لأن ولايتها وإمرتها كانت إليه لأنها من دمشق)، ثم إن أهلها صالحوا على أن يؤمنوا على دمائهم وأموالهم وأولادهم على أن يؤدوا الجزية، وذكر بعض الرواة أنهم صالحوا على أن يؤدوا عن كل حالم ديناراً وجريب حنطة؛ وافتتح المسلمون جميع أرض كورة حوران وغلبوا عليها، وتوجه أبو عبيدة بن الجراح في جماعة كثيفة من أصحاب الأمراء ضُمّوا إليه فأتى مآب من أرض البلقاء وبها جمع العدو فافتتحها صلحاً على مثل صلح بصرى — وقال بعضهم إن فتح مآب قبل فتح بصرى، وقال بعضهم إن أبا عبيدة فتحها وهو أمير على جميع الشام أيام عمر."
+  en: "In al-Baladhuri: when Khalid ibn al-Walid reached the Muslims at Busra — the city of Hawran — they joined upon it and commissioned Khalid for its war, then pressed against it and fought its patrician until they forced it (some say Yazid ibn Abi Sufyan was the one undertaking the war, its governorship being his as it belonged to Dimashq); its people then made terms to be secured for their lives, wealth and children upon paying the jizya — some transmitters say they compounded for a dinar and a jarib of wheat per adult; the Muslims conquered all the land of the Hawran district and mastered it; Abu Ubayda ibn al-Jarrah then went with a dense company of the commanders' men joined to him and came to Ma'ab in the land of al-Balqa' holding a gathering of the enemy, and conquered it by treaty on the like of Busra's terms — some say Ma'ab's conquest preceded Busra's, others that Abu Ubayda took it as commander of all Syria in Umar's days."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0634~", hijri: "0013~", calendar: julian, precision: year, status: tradition, derived: true, note: "قبل أجنادين جمادى الأولى 13هـ (البلاذري ص 155). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-syria }
+  - { type: occurred_at, target: place/busra }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "أمير الحرب فيها عند الجمهور", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yazid-ibn-abi-sufyan, role: "المتقلد لأمرها عند من قال إنها من ولايته", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "فاتح مآب على مثل صلحها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/jizya, note: "الجزية عن كل حالم: دينار وجريب حنطة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 155–156"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
