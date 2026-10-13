@@ -19,6 +19,8 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-51** (pp. 773–781 — the last caliphs & Suyuti's own milieu): new `event/medina-mosque-fire-886` (lightning, 13 Ramadan), `yashbak-ruha-defeat-885`; `person/al-mustakfi-ii-cairo` (Suyuti's father wrote his deed, served as his imam), `al-qaim-bi-amr-illah`, `al-mustanjid-billah-egypt` (the author's reigning caliph), `al-mutawakkil-ala-llah-ii`, `qaytbay`, `ibn-hajar-al-asqalani`, `al-maqrizi`, `al-kamal-al-suyuti` (the author's father), `al-ashraf-inal`, `khushqadam`; enriched `al-suyuti` (his father's caliph-service + his source list from p. 781).
+
 - **Batch TK-50** (pp. 763–772 — the caliph-sultan): new `event/mustain-sultanate-815` (caliph hailed as sultan after Faraj's death; Ibn Hajar's ode; Syria's fatwa voiding his deposition); `person/al-mustain-billah` (d. plague at Alexandria 833; India's A'zam Shah sought investiture 814), `al-mutadid-billah-ii-cairo`, `al-muayyad-shaykh`, `barsbay`; enriched `faraj-ibn-barquq`.
 
 - **Batch TK-49** (pp. 753–763 — Mutawakkil's 45yrs, Timur & Barquq): new `event/timur-rise-773`, `ashraf-shaban-hajj-coup-778` (the caliph who REFUSED the sultanate), `muezzin-salat-adhan-786` (first post-adhan salawat — al-Tanbudhi), `barquq-accession-784` (first Circassian), `green-turban-ashraf-773`; `person/al-mutawakkil-ala-llah` (5 caliph sons — unprecedented), `al-mutadid-billah-cairo`, `al-wathiq-umar-cairo`, `al-mustasim-zakariya-cairo` (15-day caliph), `barquq`, `timur-lang`, `al-ashraf-shaban`, `faraj-ibn-barquq`; enriched `al-hakim-bi-amr-illah-ii` (d. plague 753; the 749 pandemic year).
