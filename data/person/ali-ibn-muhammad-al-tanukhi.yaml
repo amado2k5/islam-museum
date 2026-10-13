@@ -1,0 +1,22 @@
+id: person/ali-ibn-muhammad-al-tanukhi
+class: person
+label: { ar: "علي بن محمد التنوخي", en: "Ali ibn Muhammad al-Tanukhi" }
+names:
+  - { kind: full, lang: ar, value: "علي بن محمد بن أبي الفهم أبو القاسم التنوخي" }
+gender: male
+roles: [jurist, writer]
+traditions: [sunni]
+born: { edtf: "0891", hijri: "0278", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0953", hijri: "0342", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من تنوخ، وهو والد أبي علي المحسن بن علي التنوخي، واسم أبيه داود بن إبراهيم بن تميم."
+  en: "From the Tanukh tribe and father of Abu Ali al-Muhassin al-Tanukhi. His father's name was Dawud ibn Ibrahim ibn Tamim."
+wings: [people, words]
+themes: [development-of-law-theology-institutions, literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 661, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص661", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

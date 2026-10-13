@@ -1,0 +1,22 @@
+id: person/abu-ali-al-muhassin-al-tanukhi
+class: person
+label: { ar: "أبو علي المحسن التنوخي", en: "Abu Ali al-Muhassin al-Tanukhi" }
+names:
+  - { kind: full, lang: ar, value: "القاضي أبو علي المحسن بن أبي القاسم علي بن محمد بن أبي الفهم التنوخي" }
+gender: male
+roles: [jurist, writer]
+traditions: [sunni]
+born: { edtf: "0938", hijri: "0327", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0994", hijri: "0384", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "قاضٍ وأديب من تنوخ، وكتب أخبار القضاة والمحسنين."
+  en: "A judge and man of letters from the Tanukh tribe, who compiled reports on judges and on those who did good."
+wings: [people, words]
+themes: [development-of-law-theology-institutions, literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 658, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص658", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
