@@ -1,0 +1,24 @@
+id: event/al-sibayn-reclamation
+class: event
+kind: other
+label: { ar: "استخراج السيبين وضياع مسلمة", en: "The Sibayn Reclamation and Maslama's Estates" }
+summary:
+  ar: "عند البلاذري: انبثقت البثوق أيام الحجاج فكتب الحجاج إلى الوليد بن عبد الملك يعلمه أنه قدر للنفقة على سدها ثلاثة آلاف ألف درهم فاستكثرها الوليد فقال له مسلمة بن عبد الملك أنا أنفق عليها إن تقطعني الأرضين المنخفضة التي يبقى فيها الماء بعد أن ينفق ثلاثة آلاف ألف درهم يتولى إنفاقها ثقتك ونصيحك الحجاج فأجابه إلى ذلك فحصلت له أرضون من طساسيج متصلة فحفر السيبين وتألف الأكرة والمزارعين وعمر تلك الأرضين وألحق بها ضياعاً كثيرة للتعزز بها فلما جاءت الدولة المباركة وقبضت أموال بني أمية أقطع جميع السيبين داود بن علي بن عبد الله بن العباس ثم ابتيع ذلك من ورثته بحقوقه وحدوده فصار من ضياع الخلافة."
+  en: "In al-Baladhuri: when breaches burst in al-Hajjaj's days he wrote al-Walid ibn Abd al-Malik that he had costed their damming at three million dirhams; al-Walid found it excessive. Maslama ibn Abd al-Malik said 'I will pay, if you grant me the lowlands that still hold water after the three million is spent by your trusted adviser al-Hajjaj.' Granted, Maslama acquired adjoining tasasij lands, dug al-Sibayn, drew peasants and cultivators, brought the lands under tillage and annexed many estates to fortify himself. When the blessed dawla came and Umayyad wealth was seized, all al-Sibayn was granted to Dawud ibn Ali ibn Abdallah ibn al-Abbas, then bought from his heirs with its rights and bounds — becoming caliphal estates."
+wings: [time, place]
+periods: [period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: occurred_at, target: place/al-sibayn }
+  - { type: had_participant, target: person/maslama-ibn-abd-al-malik, role: "المستثمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-walid-ibn-abd-al-malik, role: "المقطع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "مقدر النفقة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/dawud-ibn-ali, role: "المقطَع له عباسياً", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/iqta }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 413"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-38
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
