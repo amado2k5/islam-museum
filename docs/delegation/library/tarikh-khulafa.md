@@ -15,4 +15,6 @@
 
 - **Batch TK-1** (pp. 93–105 — miscellany + Abu Bakr opening): 5 `work` entities (caliph histories: Naftawayh, al-Suli's Awraq, Ibn al-Jawzi, Ibn Abi Tahir, Abu Musa Harun); 4 persons; `concept/quraysh-clan-offices` (siqaya/rifada, hijaba/liwa'/nadwa, Abu Bakr's diya).
 
+- **Batch TK-2** (pp. 148–168 — Abu Bakr's caliphate/death): `event/compilation-of-quran` (Zayd's account), `event/death-of-abu-bakr` (khazira poison, the returned liqha/jafna/qatifa), `event/abu-bakr-naq-sortie` (Ali's halter, Khalid's five-pillar commission); persons al-harith-ibn-kalada, khuzayma-ibn-thabit.
+
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.

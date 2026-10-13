@@ -1,0 +1,19 @@
+id: event/abu-bakr-naq-sortie
+class: event
+kind: campaign
+label: { ar: "خروج أبي بكر إلى نقع وإمرار خالد", en: "Abu Bakr's Sortie to Naq' and Khalid's Command" }
+summary:
+  ar: "خرج أبو بكر في المهاجرين والأنصار حتى بلغ نقعاً حذاء نجد وهربت الأعراب بذراريهم فكلم الناس أبا بكر وقالوا ارجع إلى المدينة وإلى الذرية والنساء وأمر رجلاً على الجيش ولم يزالوا به حتى رجع وأمر خالد بن الوليد وقال له إذا أسلموا وأعطوا الصدقة فمن شاء منكم فليرجع ورجع أبو بكر إلى المدينة وعن ابن عمر لما برز أبو بكر واستوى على راحلته أخذ علي بن أبي طالب بزمامها وقال إلى أين يا خليفة رسول الله أقول لك ما قال لك رسول الله يوم أحد شم سيفك ولا تفجعنا بنفسك وارجع إلى المدينة فوالله لئن فجعنا بك لا يكون للإسلام نظام أبداً وعن حنظلة الليثي أن أبا بكر بعث خالداً وأمره أن يقاتل الناس على خمس من ترك واحدة منهن قاتله كما يقاتل من ترك الخمس جميعاً على شهادة أن لا إله إلا الله وأن محمداً عبده ورسوله وإقام الصلاة وإيتاء الزكاة وصوم رمضان وسار خالد ومن معه في جمادى الآخرة."
+  en: "Abu Bakr rode out with the Muhajirun and Ansar to Naq' facing Najd as the a'rab fled with their children; the people pressed him — 'return to Medina, to children and women, and set a man over the army' — till he returned and made Khalid ibn al-Walid commander, 'when they submit and give the sadaqa, whoever will may return'. Ibn Umar: as he sat his mount, Ali took its halter — 'where to, caliph of God's messenger? I tell you what he told you at Uhud: sheathe your sword, do not bereave us of yourself — by God, bereft of you, Islam has no order ever'. And his commission to Khalid: fight the people on the five — the testimony, the prayer, the zakah, the fast — one left out like all five; Khalid marched in Jumada II."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abu-bakr, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الآخذ بالزمام", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "المؤمر", sources: [source/tarikh-khulafa-minhaj-1434] }
+wings: [people, place, time]
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
