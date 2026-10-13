@@ -1,0 +1,19 @@
+id: event/seal-of-caliphate-loss
+class: event
+kind: other
+label: { ar: "ضياع خاتم الخلافة في بئر أريس", en: "The Caliphal Seal Lost in the Well" }
+summary:
+  ar: "اتخذ رسول الله خاتماً من فضة ونقش عليه محمد رسول الله فكان أبو بكر يختم به ثم عمر ثم عثمان وكان في يده فسقط من يده في البئر فنزحت فلم يقدر عليه وذلك في النصف من خلافته فاتخذ خاتماً ونقش عليه محمد رسول الله في ثلاثة أسطر وقال الحسن كان خاتم رسول الله من ورق وكان فصه حبشياً وقال أنس قال النبي قد صنعت خاتماً فلا ينقشن أحد على نقشه."
+  en: "The Prophet's silver seal, engraved 'Muhammad, Messenger of God', passed to Abu Bakr's sealing, then Umar's, then Uthman's — and slipped from his hand into the well mid-caliphate; it was emptied and the seal not recovered, so he had a seal made engraved 'Muhammad, Messenger of God' in three lines. Variants: all silver, fass and ring, or a silver ring with an Abyssinian stone; and his word, 'I have made a seal — let no one engrave upon its engraving'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abu-bakr, role: "خاتم به", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "خاتم به", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "ضاع من يده", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

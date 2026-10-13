@@ -203,4 +203,6 @@
 
 - **Batch 94** (pp. 643–646 — rations, heirs, the seal): `event/umar-rizq-system` (the two-jarib trial, mudd/qist on the minbar, the heritable stipend debate under Umar II); `event/ata-inheritance-cases` (Ibn Mas'ud's 15k to al-Zubayr, pro-rata death stipend, the crying newborn); `event/prophets-seal`.
 
-**Next:** batch 95 — the seal/caliphal-insignia section (pp. 647+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 95** (pp. 647–650 — the seal + Persian chancery): `event/seal-of-caliphate-loss` (Uthman's well); `event/man-ibn-zaida-forgery` (the jami'a parade, escape, Ali's "punishment in his skin"); `concept/diwan-zamam` (Ibn al-Muqaffa's chancery account, the four royal seals, saffroned sheets, Ziyad's adoption); `person/ibn-al-muqaffa`.
+
+**Next:** batch 96 — chancery/Salih continuation (pp. 651+) — ahkam aradi al-kharaj (pp. 627+) — Sind's tail + next section (pp. 624+) — Sind under Sulayman/late Umayyad (pp. 620+) — post-Dahir Sind (pp. 616+) — Muhammad b. al-Qasim's Sind conquest (pp. 612+) — Sind campaigns (pp. 608+) — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
