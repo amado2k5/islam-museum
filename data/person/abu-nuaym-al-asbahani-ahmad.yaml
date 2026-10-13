@@ -1,0 +1,22 @@
+id: person/abu-nuaym-al-asbahani-ahmad
+class: person
+label: { ar: "أبو نعيم الأصبهاني أحمد بن عبد الله", en: "Abu Nu'aym al-Asbahani, Ahmad ibn Abd Allah" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن عبد الله بن أحمد بن إسحاق بن موسى بن مهران الأصبهاني" }
+gender: male
+roles: [muhaddith, historian]
+traditions: [sunni]
+born: { edtf: "0948", hijri: "0336", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1038", hijri: "0430", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث حافظ من أصبهان، ومسند كبير، تفرد بعلو الرواية في آخر عمره."
+  en: "A memorizing hadith scholar from Isfahan and a major compiler of hadith; he was distinguished by high-grade narration in the last years of his life."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 96, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص96", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

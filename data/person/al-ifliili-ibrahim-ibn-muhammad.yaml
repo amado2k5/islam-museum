@@ -1,0 +1,22 @@
+id: person/al-ifliili-ibrahim-ibn-muhammad
+class: person
+label: { ar: "الإفليلي إبراهيم بن محمد", en: "Al-Ifliili, Ibrahim ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم إبراهيم بن محمد بن زكريا الزهري القرطبي" }
+gender: male
+roles: [vizier, poet, writer]
+traditions: [sunni]
+born: { edtf: "0963", hijri: "0352", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1049", hijri: "0441", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "وزير من أئمة اللغة والأدب في الأندلس، من أهل قرطبة، وينسب إلى قرية من قرى الشام يذكر أن أسلافه كانوا يقيمون بها."
+  en: "A vizier and an authority on language and literature in al-Andalus, from Cordoba. His nisba refers to a village in Syria where his ancestors are said to have lived."
+wings: [people, words]
+themes: [literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: official, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 215, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص215", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
