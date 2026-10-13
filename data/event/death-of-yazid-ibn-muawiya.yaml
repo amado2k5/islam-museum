@@ -1,0 +1,20 @@
+id: event/death-of-yazid-ibn-muawiya
+class: event
+kind: death
+label: { ar: "وفاة يزيد بن معاوية" }
+summary:
+  ar: "أهلك الله يزيد بن معاوية في نصف ربيع الأول سنة أربع وستين وجيشه يحاصر ابن الزبير بمكة، فجاء خبره والقتال مستمر فنادى ابن الزبير يا أهل الشام إن طاغيتكم قد هلك فانفلوا وذلوا، وقال الذهبي لما فعل بأهل المدينة ما فعل مع شربه الخمر وإتيانه المنكرات اشتد عليه الناس وخرج عليه غير واحد ولم يبارك الله في عمره {cite:tarikh-khulafa-minhaj-1434 p. 345}."
+  en: "Yazid ibn Mu'awiya perished in mid-Rabi' I of year 64 while his army besieged Ibn al-Zubayr at Mecca; the news reached them mid-battle — 'people of Syria, your tyrant has perished' — and they broke away humiliated. Al-Dhahabi remarks that after what he did to the people of Medina, with his wine and outrages, men rose against him on every side and his years were not blessed {cite:tarikh-khulafa-minhaj-1434 p. 345}."
+wings: [time, people]
+periods: [period/umayyad]
+date:
+  start: { edtf: "0683-11~", hijri: "0064-03", calendar: julian, precision: month, status: tradition, derived: true, note: "نصف ربيع الأول 64؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 345}." }
+relations:
+  - { type: had_participant, target: person/yazid-ibn-muawiya, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 345"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-8
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
