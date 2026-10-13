@@ -1,0 +1,20 @@
+id: event/conquest-of-qazwin
+class: event
+kind: conquest
+label: { ar: "فتح قزوين", en: "Conquest of Qazwin" }
+summary:
+  ar: "لما ولي المغيرة بن شعبة الكوفة ولّى البراء بن عازب قزوين وأمره أن يسير إليها فإن فتحها الله على يده غزا الديلم منها فسار ومعه حنظلة بن زيد الخيل حتى أتى أبهر فقام على حصنها فقاتلوه ثم طلبوا الأمان فأمّنهم على مثل ما أمّن عليه حذيفة أهل نهاوند وصالحهم وغلب على أراضي أبهر ثم غزا أهل حصن قزوين فلما بلغهم قصدهم وجهوا إلى الديلم يستنصرونهم فوعدوهم فلما حلّ البراء والمسلمون خرجوا للقتال والديلم وقوف على الجبل لا يمدون إليهم يداً فطلبوا الصلح فأنفوا من الجزية وأظهروا الإسلام فقيل نزلوا على ما نزل عليه أساورة البصرة من الإسلام على أن يكونوا مع من شاؤوا فنزلوا الكوفة وحالفوا زهرة بن حوية فسمّوا حراء الديلم وقيل أسلموا وأقاموا بمكانهم وصارت أرضوهم عشرية ورتب البراء معهم خمسمائة رجل من المسلمين معهم طليحة بن خويلد الأسدي وأقطعهم أرضين لا حق فيها لأحد ثم غزا الديلم حتى أدوا إليه الأتاوة وغزا جيلان والببر والطيلسان وفتح زنجان عنوة وكان حصن قزوين يسمى بالفارسية كشوين معناه الحد المنظور إليه وبينه وبين الديلم جبل وكان فيه مقاتلة من الأساورة يرابطون فيدفعون الديلم."
+  en: "When al-Mughira governed Kufa he made al-Bara' ibn Azib governor of Qazwin, ordering him to take it then raid Daylam from it; he marched with Hanzala ibn Zayd, reduced Abhar on Nihawand's terms, then moved on Qazwin's fortress — its people had begged Daylam's aid but the Daylamis stood on the mountain withholding a hand, so they sought terms, scorned the jizya and professed Islam — said to have come down on the asawira-of-Basra terms, settling in Kufa allied to Zuhra ibn Hawiyya as 'Hura' al-Daylam', though others say they Islamized in place on ushr land; al-Bara' posted five hundred Muslims with them under Tulayha ibn Khuwaylid and granted them unclaimed lands, then raided Daylam to tribute, Jilan, al-Babar and al-Taylasan, and took Zanjan by force; the fortress, 'Kashwin' in Persian — the watched bound — had been ribat-manned by Persian asawira who fended Daylam."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-bara-ibn-azib, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hanzala-ibn-zayd, role: "مع البراء", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/tulayha-ibn-khuwaylid, role: "على الخمسمائة المرتبين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/qazwin }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
