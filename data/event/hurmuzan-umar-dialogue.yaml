@@ -1,0 +1,21 @@
+id: event/hurmuzan-umar-dialogue
+class: event
+kind: other
+label: { ar: "هرمزان بين يدي عمر", en: "Hurmuzan before Umar" }
+summary:
+  ar: "حمل هرمزان إلى عمر فاستحياه وفرض له وكان أنس بن مالك الذي أتى به فقال له عمر تكلم فقال أكلام حي أم كلام ميت فقال لا بأس فقال هرمزان كنا معشر العجم ما خلى الله بيننا وبينكم نقضيكم ونقتلكم فلما كان الله معكم لم يكن لنا بكم يدان ثم قال ما تقول يا أنس قال تركت خلفي شوكة شديدة وعد كلباً فإن قتلته يئس القوم من الحياة فكان أشد لشوكتهم وإن استحييته طمع القوم في الحياة فقال عمر سبحان الله وكان البراء بن مالك ومجزأة بن ثور قالا ليس لك إلى قتله سبيل فلما تشكك عمر في الإذن له بالكلام خرج أنس فشهد له الزبير بن العوام فخلى سبيل هرمزان فأسلم وفرض له عمر ثم اتهم بمجالسة أبي لؤلؤة عبد المغيرة بن شعبة على قتل عمر فقال له عبيد الله بن عمر امض بنا ننظر إلى فرس لي فمضى وعبيد الله خلفه فضربه بالسيف وهو غافل فقتله."
+  en: "Carried to Umar, Hurmuzan was spared and stipended; Anas ibn Malik, his escort, narrates: 'Speak' — 'a living man's speech or a dead man's?' — 'no harm'. 'We Persians, so long as God left us between you, raided and killed you; when God was with you we had no hands against you.' Then 'what say you, Anas?' — 'I left a fierce force behind; count him a dog: kill it and the folk despair of life and grow fiercer, spare it and they hope.' Umar marvelled — Bara' and Majza'a had warned Anas not to kill him; doubting whether 'no harm' licensed the speech, Anas went out and al-Zubayr bore witness for him. Freed, Hurmuzan converted — then, accused of counselling Abu Lu'lu'a over Umar's murder, Ubaydallah ibn Umar drew him to see a horse and struck him dead unawares."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/hormuzan, role: "الأسير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/anas-ibn-malik, role: "الناقل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ubaydallah-ibn-umar, role: "القاتل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/medina }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

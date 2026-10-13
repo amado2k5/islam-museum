@@ -1,0 +1,19 @@
+id: event/jundishapur-aman
+class: event
+kind: treaty
+label: { ar: "أمان جنديسابور", en: "The Aman of Jundishapur" }
+summary:
+  ar: "سار أبو موسى إلى جنديسابور وأهلها منخوبون فطلبوا الأمان فصالحهم على أن لا يقتل منهم أحداً ولا يسبيه ولا يعرض لأموالهم سوى السلاح ثم إن طائفة من أهلها توجهوا إلى الكلبانية فأوجه إليهم الربيع بن زياد فقتلهم وفتح الكلبانية واستأمنت الأساورة فأمنهم أبو موسى فأسلموا."
+  en: "Abu Musa marched on panic-struck Jundishapur; they asked aman and he truced: no killing, no captives, no hands on wealth but weapons. A band of its folk went off to al-Kalbaniyya — al-Rabi' ibn Ziyad killed them and took it; and the asawira sought aman, were granted it, and converted."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "قاتل الطائفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/jundishapur }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
