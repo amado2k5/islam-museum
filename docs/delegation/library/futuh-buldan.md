@@ -155,4 +155,6 @@
 
 - **Batch 70** (pp. 544–547 — Part 5: كور فارس وكرمان opens): `event/conquest-of-tawwaj` (Hakam's sea expedition, Abd al-Qays settlement 19h); `event/battle-of-rayshahr` (Shahrak's death, Sawwar's kill, the aswari's stone-splitting arrow, "كيوم القادسية"); `event/fars-joint-conquests` (Arrajan sulh, Shiraz dhimma+exodus, Siniz, Jannaba, Jarra, Kazarun, Nawbandajan, Shabir); `event/treaty-of-darabjird` (Hirbadh's compact, banner-town of Fars's religion); `event/conquest-of-sabur` (dream-aman 23/24h → breach → force 26h); places fars, tawwaj, rayshahr, arrajan, darabjird, sabur, jahram, fasa, kazarun, abr-kawan; persons sawwar-ibn-hammam, shahrak, harim-ibn-hayyan, al-hirbadh, al-jarud-al-abdi, amr-ibn-al-ahtam.
 
-**Next:** batch 71 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.
+- **Batch 71** (pp. 548–551 — Istakhr + Kirman): `event/fall-of-istakhr` (Mahak's sulh → breach → storm, 40k/100k, Ibn Ma'tar's Bramjard death); `event/conquest-of-jur` (29h, hidden entrance variant); `event/shahrij-slave-aman` (the arrow-aman + Umar's ruling "عبد المسلمين من المسلمين"); `event/kirman-conquest` (marzban killed at Abr Kawan, Mujashi's campaign, Shirjan storm); places uqbat-al-jarud, bramjard, shirjan, bimand, jirraft, bamm, siraf, karyan; persons mahak, ubaydallah-ibn-matar, khalid-ibn-al-muammar, abu-barza-al-aslami, kharisha-ibn-masud.
+
+**Next:** batch 72 — pp. 322+ (end of Maghreb → the Sawad/Iraq conquests: Qadisiyya, Mada'in, Jalula). mid2 ~340; main ~735/768.

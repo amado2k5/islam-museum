@@ -1,0 +1,20 @@
+id: event/kirman-conquest
+class: event
+kind: conquest
+label: { ar: "فتح كرمان", en: "Conquest of Kirman" }
+summary:
+  ar: "لقي عثمان بن أبي العاص مرزبان كرمان في جزيرة أبر كاوان وهو في خف فقتله فوهن أمر أهل كرمان ونخبت قلوبهم فلما صار ابن عامر إلى فارس وجه مجاشع بن مسعود السلمي إلى كرمان في طلب يزدجرد فأتى بيمنذ فهلك جيشه بها ثم لما توجه ابن عامر يريد خراسان ولى مجاشعاً كرمان ففتح بيمنذ عنوة واستبقى أهلها وأعطاهم أماناً وبها قصر يعرف بقصر مجاشع وفتح بروخروة وأتى الشيرجان مدينة كرمان فأقام عليها أياماً يسيرة وأهلها متحصنون فخرجت لهم خيل فقاتلهم ففتحها عنوة وخلف بها رجلاً ثم إن كثيراً من أهلها جلوا عنها وقد كان أبو موسى وجه الربيع بن زياد ففتح ما حول الشيرجان وصالح أهل بم والأندغار فكفر أهلها ونكثوا فافتتحها مجاشع وفتح جيرفت عنوة وسار في كرمان فدوخها."
+  en: "Uthman ibn Abi al-As met Kirman's marzban at Abr Kawan by night and killed him — Kirman weakened and hearts dismayed. Ibn Amir sent Mujashi' ibn Mas'ud after Yazdgard to Bimand, where his army perished; left in charge when Ibn Amir marched for Khurasan, Mujashi' took Bimand by force — sparing its folk on aman; his Qasr Mujashi' stands there — took Burukharwa, then al-Shirjan, Kirman's chief city: days of siege, a horse-sally, taken by storm, a man left behind and many of its people exiled. Abu Musa had earlier sent al-Rabi' ibn Ziyad round al-Shirjan, trucing Bamm and the Andaghar — betrayed, Mujashi' retook them, took Jirraft by force, and rode Kirman till it was tamed."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/mujashi-ibn-masud-al-sulami, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "فاتح النواحي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/kirman }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

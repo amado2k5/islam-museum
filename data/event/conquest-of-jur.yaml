@@ -1,0 +1,19 @@
+id: event/conquest-of-jur
+class: event
+kind: conquest
+label: { ar: "فتح جور", en: "Conquest of Jur" }
+summary:
+  ar: "جور مدينة أردشير خرة وكان هرم بن حيان مقيماً عليها وكان المسلمون يعانونها ثم ينصرفون عنها فيعانون أصطخر ويغزون نواحي كأنها تنتقض عليهم فلما نزل ابن عامر بها قاتلوه ثم تحصنوا ففتحها بالسيف عنوة سنة ٢٩ وروى أن جور غزيت عدة سنين فلم يقدر عليها حتى دخل المدينة من مدخل لها خفي فألزم المسلمون بذلك المدخل حتى دخلوا منه وفتحوها وفتح ابن عامر الكاريان وفشجان وهي الفيشجان من دارابجرد ولم تكونا دخلتا في صلح الهربذ وانتقضتا."
+  en: "Jur, Ardashir-Khurra's city, where Harim ibn Hayyan stood — the Muslims besieged it and came away to besiege Istakhr, raiding the countryside as if broken. When Ibn Amir sat before it they fought then fortified, and he took it by the sword in 29h; another telling: raided for years until they entered by a hidden way they held to till the city fell. Ibn Amir also took al-Karyan and Fashjan of Darabjird — neither had joined the Hirbadh's sulh, and both had breached."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/harim-ibn-hayyan, role: "المقيم عليها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/jur }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"
