@@ -19,6 +19,10 @@
 
 - (12 Oct 2026) Lane opened; edition identified; OCR complete (864 pp, 412s); `source/tarikh-khulafa-minhaj-1434`, `work/tarikh-al-khulafa`, `person/al-suyuti` created.
 
+- **Batch TK-52** (pp. 789–801 — the appendix dynasties & century-fitna — FINAL): new `concept/fitan-al-mia` (Suyuti's century-calamity list; Jaramard's naming of Selim as the 9th), `event/marj-dabiq-922`; `person/al-hadi-yahya-ibn-al-husayn` (Yemen's Zaydi imamate founder), `al-hasan-ibn-zayd-al-dai` (Tabaristan), `selim-i-ottoman`; enriched `abd-al-rahman-al-dakhil`. Appendix also covered: Cordoba Umayyads, Hammudids, Fatimid list w/ Dhahabi's "14 متخلفاً لا مستخلفاً".
+
+**BOOK COMPLETE** — 864 pp OCR'd; text mined pp. 93–801 (body ends p. 793, fadnaka appendices & colophons to p. 801); ~52 batches.
+
 - **Batch TK-51** (pp. 773–781 — the last caliphs & Suyuti's own milieu): new `event/medina-mosque-fire-886` (lightning, 13 Ramadan), `yashbak-ruha-defeat-885`; `person/al-mustakfi-ii-cairo` (Suyuti's father wrote his deed, served as his imam), `al-qaim-bi-amr-illah`, `al-mustanjid-billah-egypt` (the author's reigning caliph), `al-mutawakkil-ala-llah-ii`, `qaytbay`, `ibn-hajar-al-asqalani`, `al-maqrizi`, `al-kamal-al-suyuti` (the author's father), `al-ashraf-inal`, `khushqadam`; enriched `al-suyuti` (his father's caliph-service + his source list from p. 781).
 
 - **Batch TK-50** (pp. 763–772 — the caliph-sultan): new `event/mustain-sultanate-815` (caliph hailed as sultan after Faraj's death; Ibn Hajar's ode; Syria's fatwa voiding his deposition); `person/al-mustain-billah` (d. plague at Alexandria 833; India's A'zam Shah sought investiture 814), `al-mutadid-billah-ii-cairo`, `al-muayyad-shaykh`, `barsbay`; enriched `faraj-ibn-barquq`.

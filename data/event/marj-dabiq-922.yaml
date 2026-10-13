@@ -1,0 +1,21 @@
+id: event/marj-dabiq-922
+class: event
+kind: battle
+label: { ar: "وقعة مرج دابق ودخول سليم مصر" }
+summary:
+  ar: "قال جرامرد الناصري الحنفي تلميذ السيوطي في خاتمة الكتاب لا شك ولا ارتياب أن فتنة المئة التاسعة هي فتنة ابن عثمان سليم شاه وحروبه مع إخوته وقتله إياهم وأولادهم شر قتلة ولم يبق منهم أحداً لا كبيراً ولا صغيراً ثم حروبه صاحب الشرق وكسره إياه شر كسرة ثم قتله علي دولات وأخذه بلاده ثم اجتماعه بعسكر مصر وسلطانهم على مرج دابق وقتله سلطانها وأكابر أمرائها ونوابها ثم توجهه إلى مصر ودخوله إليها في أسرع حال وأقصر زمان من غير توان ولا مهلة وفعله فيها مع أهلها ما فعل، وأظن أني لو حلفت بالله لم أحنث أن فتنة التتار وتمرلنك استصغرتا بالنسبة إليها فإن التتار وتمرلنك ما دخلاها وانكسرا من الشام وردا خائبين {cite:tarikh-khulafa-minhaj-1434 p. 798}."
+  en: "In his colophon Suyuti's student Jaramard al-Nasiri names the ninth century's calamity: Selim Shah ibn Uthman — his wars on his brothers and their killing 'the worst of killings, leaving none great or small', his breaking of the lord of the East and killing of Ali Dawlat, then meeting Egypt's host and sultan at Marj Dabiq, killing the sultan and his great amirs, then entering Egypt 'in the swiftest state and shortest time' — a blow, he says, beside which the Tatars' and Timur's calamities seem small, for they never entered Egypt {cite:tarikh-khulafa-minhaj-1434 p. 798}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "1516-08-24~", hijri: "0922-07~", calendar: julian, precision: month, status: tradition, derived: true, note: "922؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 798}." }
+relations:
+  - { type: had_participant, target: person/selim-i-ottoman, role: "الغالب", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 798"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-52
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
