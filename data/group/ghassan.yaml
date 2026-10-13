@@ -3,7 +3,7 @@ class: group
 kind: tribe
 label: { ar: "غسان", en: "Ghassan" }
 summary:
-  ar: "ذكر كعب بن مالك أن «ملك غسان» كتب إليه كتاباً في سرقة من حرير أثناء مقاطعة الثلاثة يدعوه إلى اللحاق به."
+  ar: "ذكر كعب بن مالك أن «ملك غسان» كتب إليه كتاباً في سرقة من حرير أثناء مقاطعة الثلاثة يدعوه إلى اللحاق به.، وعند المسعودي إنما غسان ماء شربوا منه فسموا به وهو ما بين زبيد ورمع وادي الأشعريين بأرض اليمن، وغلبت غسان على من بالشام من العرب فملكها الروم عليهم، وأول ملوكها الحارث بن عمرو بن عامر، وكانت ديار ملوكها باليرموك والجولان وغوطة دمشق وأعمالها، وجميع من ملك من ملوكها بالشام أحد عشر ملكاً آخرهم جبلة بن الأيهم الذي أسلم ثم ارتد خوف القود من اللطمة {cite:muruj-al-dhahab p. 425-428}"
   en: Ka'b ibn Malik relates that the 'king of Ghassan' wrote him a letter wrapped in a scrap of silk during the boycott of the three, inviting him to join him.
 wings: [people]
 periods: [period/prophetic-era]
@@ -11,5 +11,5 @@ regions: [arabia]
 relations:
   - { type: participated_in, target: event/ghassan-kings-letter-to-kaab, role: "صاحب الكتاب", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 179", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7c" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 179" }
