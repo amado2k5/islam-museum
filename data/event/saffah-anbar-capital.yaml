@@ -1,0 +1,22 @@
+id: event/saffah-anbar-capital
+class: event
+kind: founding
+label: { ar: "اتخاذ الأنبار دار الخلافة" }
+summary:
+  ar: "في سنة أربع وثلاثين ومئة انتقل أبو العباس السفاح إلى الأنبار وصيرها دار الخلافة {cite:tarikh-khulafa-minhaj-1434 p. 419}."
+  en: "In year 134 Abu al-Abbas al-Saffah moved to al-Anbar and made it the seat of the caliphate {cite:tarikh-khulafa-minhaj-1434 p. 419}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0751~", hijri: "0134", calendar: julian, precision: year, status: tradition, derived: true, note: "134؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 419}." }
+relations:
+  - { type: had_participant, target: person/abu-al-abbas-al-saffah, role: "المنتقل", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/al-anbar, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 419"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-14
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
