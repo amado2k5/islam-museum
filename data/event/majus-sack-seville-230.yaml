@@ -1,0 +1,23 @@
+id: event/majus-sack-seville-230
+class: event
+kind: raid
+label: { ar: "نزول المجوس بإشبيلية (230هـ)" }
+summary:
+  ar: "في أيام عبد الرحمن بن الحكم ظهر المجوس ودخلوا إشبيلية، فأرسل إليهم العساكر مع القواد من قرطبة فنزل المجوس من مراكبهم وقاتلوا المسلمين فهُزموا بعد مقام صعب، ثم جاءت العساكر مدداً فهزمهم المسلمون وغنموا بعض مراكبهم وأحرقوها؛ ورحل المجوس إلى شدونة فأقاموا عليها يومين، ثم إلى لتيلة فأغاروا وسبوا، ثم باجة فأشبونة، وانقطع خبرهم حين أقلعوا من أشبونة وسكنت البلاد، وتقدم عبد الرحمن بإصلاح ما خربوه واكتفى حاميتها {cite:nafh-tib-maqqari pp. 381–382}."
+  en: "The great Majus raid of AH 230: the northern sea-raiders entered Seville itself; Córdoba's army fought them 'after a hard stand,' burnt some of their ships, and the raiders withdrew down the coast through Sidonia, Niebla, Beja and Lisbon before vanishing — Abd al-Rahman II then repaired what they had wrecked and reinforced the garrisons {cite:nafh-tib-maqqari pp. 381–382}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0844~", hijri: "0230", calendar: julian, precision: year, status: historical, derived: true, note: "سنة 230هـ؛ التحويل مشتق {cite:nafh-tib-maqqari p. 382}." }
+relations:
+  - { type: occurred_at, target: place/seville, role: "دخلوها ثم هزمهم المسلمون", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/abd-al-rahman-ii-andalusi, role: "أرسل العساكر وأصلح ما خربوه", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 381–382"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-63
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
