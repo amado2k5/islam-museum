@@ -1,0 +1,20 @@
+id: event/conquest-constantinople-857
+class: event
+kind: conquest
+label: { ar: "فتح القسطنطينية سنة 857هـ" }
+summary:
+  ar: "فتح السلطان محمد الفاتح بن مراد خان القسطنطينية الكبرى وساق بها السفن تجري براً وبحراً وهجم عليها بجنوده وأبطاله وأقدم عليها بخيوله ورجاله وحاصرها خمسين يوماً أشد الحصار وضيق على من فيها ودق باب النصر والتأييد وثبت على متن الصبر إلى أن أتاه الله بالفرج ففتح أصطنبول في اليوم الحادي والخمسين من أيام محاصرته وهو يوم الأربعاء العشرون من جمادى الآخرة سنة سبع وخمسين وثمان مئة وصلى في أكبر كنائس النصارى صلاة الجمعة وهي أياصوفيا قبة تسامي قبة السماء وتحاكي في الاستحكام قبب الأهرام {cite:shadharat-dhahab p. 344-345}."
+  en: "Mehmed Fatih took Constantinople the Great after the severest fifty-day siege — his ships running over land — opening Istanbul on Wednesday 20 Jumada II 857 and praying the Friday prayer in Hagia Sophia, the dome that 'rivals the sky's dome and emulates the pyramids in strength' {cite:shadharat-dhahab p. 344-345}."
+wings: [place, time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date: { start: { edtf: "1453-05-29~", hijri: "0857", calendar: julian, precision: day, status: tradition, derived: true, note: "العشرون من جمادى الآخرة 857 على ما في شذرات الذهب (اليوم الخمسون من الحصار)؛ التحويل الميلادي مشتق {cite:shadharat-dhahab p. 345}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/constantinople, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج6، سنة 886)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-70
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
