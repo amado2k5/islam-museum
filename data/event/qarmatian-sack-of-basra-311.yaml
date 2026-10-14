@@ -1,0 +1,22 @@
+id: event/qarmatian-sack-of-basra-311
+class: event
+kind: massacre
+label: { ar: "دخول أبي طاهر الجنابي البصرة سنة 311" }
+summary:
+  ar: "ورد الخبر في ربيع الآخر سنة 311هـ بدخول أبي طاهر سليمان بن الحسن الجنابي القرمطي البصرة سحراً يوم الاثنين لخمس بقين من ربيع الآخر في ألف وسبعمائة رجل فنصب سلالم بالليل على سورها وصعد على أعلى السور ثم نزل إلى البلد وقتل البوابين الذين على الأبواب وفتح الأبواب وطرح بين كل مصراعين حصباء ورملاً كان معه على الجمال لئلا يمكن غلق الأبواب عليه ووضع السيف في أهل البصرة وأحرق المربد ونقض الجامع ومسجد قبر طلحة وهرب الناس فطرحوا أنفسهم في الماء فغرق أكثرهم وأقام أبو طاهر بالبصرة سبعة عشر يوماً يحمل على جماله كل ما يقدر عليه من الأمتعة والنساء والصبيان {cite:muntazam-ibn-al-jawzi p. 466}."
+  en: "In Rabi II 311 Abu Tahir al-Jannabi entered Basra before dawn with seventeen hundred men, raised ladders on the wall by night, opened the gates and wedged gravel between their leaves, put the city to the sword, burned the Mirbad and demolished the congregational mosque and Talha's tomb-mosque, staying seventeen days while his camels carried off goods, women and children {cite:muntazam-ibn-al-jawzi p. 466}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0923-08~", hijri: "0311-04-26", calendar: julian, precision: day, status: tradition, derived: true, note: "سحر الاثنين لخمس بقين من ربيع الآخر 311؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 466}." }
+relations:
+  - { type: had_participant, target: person/abu-tahir-al-qarmati, role: "المهاجم", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/basra, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-10
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
