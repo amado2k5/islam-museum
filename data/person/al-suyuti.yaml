@@ -8,7 +8,9 @@ born: { hijri: "0849", edtf: "1445~", calendar: julian, precision: year, status:
 died: { hijri: "0911", edtf: "1505~", calendar: julian, precision: year, status: historical, derived: true, note: "توفي 911هـ؛ التحويل مشتق.", sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab] }
 gender: male
 periods: [period/crusades-ayyubid-mamluk]
-wings: [people, time]
+wings: [people, words]
+relations:
+  - { type: authored, target: work/al-itqan-fi-ulum-al-quran, sources: [source/kashf-zunun-furqan] }
 sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -1,0 +1,20 @@
+id: person/al-jassas
+class: person
+label: { ar: "أبو بكر الجصاص الرازي" }
+summary:
+  ar: "الشيخ الإمام أبو بكر أحمد بن علي المعروف بالجصاص الرازي الحنفي المتوفى سنة ٣٧٠هـ؛ صاحب أحكام القرآن {cite:kashf-zunun-furqan p. 212}."
+  en: "Abu Bakr Ahmad ibn Ali al-Razi, known as al-Jassas — the Hanafi jurist, author of Ahkam al-Quran, d. AH 370 {cite:kashf-zunun-furqan p. 212}."
+gender: male
+wings: [people, words]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+died: { edtf: "0980~", hijri: "0370", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 370هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 212}." }
+relations:
+  - { type: authored, target: work/ahkam-al-quran-jassas, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 212"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-1
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
