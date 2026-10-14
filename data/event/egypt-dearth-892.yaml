@@ -1,0 +1,19 @@
+id: event/egypt-dearth-892
+class: event
+kind: other
+label: { ar: "الغلاء المفرط 892هـ", en: "The Excessive Dearth of 892" }
+summary:
+  ar: "في شذرات الذهب سنة اثنتين وتسعين وثمان مئة كان الغلاء المفرط {cite:shadharat-dhahab p. 361}."
+  en: "Shadharat registers 'the excessive dearth' for 892 {cite:shadharat-dhahab p. 361}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1486/1487", hijri: "0892", calendar: julian, precision: year, status: tradition, derived: true, note: "892؛ التحويل مشتق {cite:shadharat-dhahab p. 361}." }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 361, 368"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-76
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
