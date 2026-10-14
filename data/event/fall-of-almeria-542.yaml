@@ -1,0 +1,24 @@
+id: event/fall-of-almeria-542
+class: event
+kind: conquest
+label: { ar: "سقوط المرية بيد النصارى سنة ٥٤٢" }
+summary:
+  ar: "دخل العدو مدينة المرية يوم الجمعة السابع عشر من جمادى الأولى سنة اثنتين وأربعين وخمسمائة عنوة، وأحصي عدد من سبي من أبكارها فكان أربعة عشر ألفاً {cite:nafh-tib-maqqari p. 466-467}. وقال ابن حبيش آخر الحفاظ بالأندلس: كنت في قلعة المرية لما وقع الاستيلاء عليها فتقدمت إلى زعيم الروم السليطين وهو ابن بنت الأذفونش وقلت له إني أحفظ نسبك منك إلى هرقل فقال لي قل فذكرته له فقال لي اخرج أنت وأهلك ومن معك طلقاء بلا شيء {cite:nafh-tib-maqqari p. 467}. واستشهد فيها الرشاطي الإمام صاحب كتاب اقتباس الأنوار {cite:nafh-tib-maqqari p. 466}. ثم استنقذها الله على يد الموحدين؛ أقبل إليها أبو حفص وأبو سعيد ابنا أمير المؤمنين فحصرا النصارى بها وزحف إليهما ابن مردنيش ملك شرق الأندلس محارباً لهما فكانا يقاتلان النصارى والمسلمين داخلاً وخارجاً حتى رأى ابن مردنيش العار على نفسه في قتالهم وهم يقاتلون النصارى فارتحل فدخل الموحدون المدينة {cite:nafh-tib-maqqari p. 467}."
+  en: "The sack of Almeria (Friday 17 Jumada I 542): the Castilian-Genoese force under Alfonso VII — 'the emperor, son of Alfonso's daughter' — stormed the harbour city and carried off fourteen thousand maidens alone; the hafiz Ibn Hubaysh won his household's freedom by reciting the emperor's pedigree back to Heraclius, and the traditionist al-Rushati was martyred in its fall. The Almohads Abd al-Mu'min's sons recovered it — fighting Christians within and Ibn Mardanish without until he withdrew in shame at fighting men who fought the Christians {cite:nafh-tib-maqqari p. 466-467}."
+wings: [time]
+themes: [battles]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1147-10-17~", hijri: "0542-05-17~", calendar: julian, precision: day, status: tradition, derived: true, note: "الجمعة 17 جمادى الأولى 542؛ التحويل مشتق {cite:nafh-tib-maqqari p. 466}." }
+relations:
+  - { type: had_participant, target: person/al-rushati, role: "استشهد فيها", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/ibn-hubaysh-hafiz, role: "في القلعة يوم الاستيلاء", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/ibn-mardanish, role: "حارب الموحدين خارجها ثم ارتحل مستعيراً", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 466–467"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-58
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
