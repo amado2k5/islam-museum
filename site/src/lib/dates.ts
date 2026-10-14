@@ -98,8 +98,8 @@ export function hijriParts(h: unknown): [number, number, number] | undefined {
 }
 
 /**
- * Timeline sort key: decimal CE start (from the Hijri date when given, else the CE date), then the Hijri date as tie-break. Year-precision periods (eras) sort after the
- * events of their start year. Dates given only in the Hijri calendar are converted, so they are not left at the end of the list.
+ * Timeline sort key: decimal CE start (from the Hijri date when given, else the CE date), then the Hijri date as tie-break. Year-precision dates (eras and year-only events) sort after the
+ * dated events of their start year. Dates given only in the Hijri calendar are converted, so they are not left at the end of the list.
  * Returns Infinity for undated entities.
  */
 export function timelineKey(n: { span?: { earliest: number }; class: string; data: any }): { key: number; ord: number } {
@@ -114,6 +114,7 @@ export function timelineKey(n: { span?: { earliest: number }; class: string; dat
     key = msToYear(Date.UTC(c.date.y, c.date.m - 1, c.date.d));
   } else key = n.span?.earliest;
   if (key === undefined) return { key: Infinity, ord: 0 };
-  if (n.class === "period" && s?.precision === "year") key = Math.round(key) + 1 - 1e-6;
+  // Year-only dates sort after the dated events of their year (§1.5): "نحو 622" follows "12 سبتمبر 622".
+  if (s?.precision === "year") key = Math.round(key) + 1 - 1e-6;
   return { key, ord: hj ? hj[0] * 10000 + hj[1] * 100 + hj[2] : 0 };
 }

@@ -22,13 +22,16 @@ const short = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+
 
 export function timelineEvents(lang: Lang): TlEvent[] {
   const out: TlEvent[] = [];
+  const order = new Map<string, number>();
   for (const n of realNodes) {
     if (n.class !== "event") continue;
     const y = hijriYearOf(n);
     if (y === undefined) continue;
     out.push({ id: n.id, href: href(lang, n.id), label: labelOf(n, lang), date: formatDate(n.data.date?.start, lang).text, y, s: short(summaryOf(n, lang)) });
+    // Year-only dates list after the month- and day-dated events of their year ("نحو 622" after "12 سبتمبر 622"); the plotted position is unchanged.
+    order.set(n.id, startOf(n.data)?.precision === "year" ? Math.floor(y) + 0.9999 : y);
   }
-  return out.sort((a, b) => a.y - b.y);
+  return out.sort((a, b) => order.get(a.id)! - order.get(b.id)!);
 }
 
 /** Periods with Hijri bounds; an open-ended period runs to `max`. */
