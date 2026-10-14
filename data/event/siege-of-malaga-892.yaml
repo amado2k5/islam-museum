@@ -1,0 +1,22 @@
+id: event/siege-of-malaga-892
+class: event
+kind: siege
+label: { ar: "حصار مالقة وأسر أهلها" }
+summary:
+  ar: "في سنة اثنتين وتسعين وثمانمائة نازل النصارى مالقة براً وبحراً فقاتلهم أهلها قتالاً عظيماً بالمدافع والعدة والخيل والرجل، وطال الحصار حتى أداروا عليها من البر الحنادق والسور والأجفان من البحر ومنعوا الداخل إليها، ولم يدخلها غير جماعة من المرابطين حال الحصار، وضاقوا بالحصار حتى فني ما عندهم من الطعام فأكلوا المواشي والخيل والحمير، وبعثوا الكتب للعدوتين طامعين في الإغاثة فلم يأت إليهم أحد وأثر فيهم الجوع وفشا في أهل نجدتهم القتل ولم يظهروا مع ذلك ملعاً ولا ضعفاً، حتى إذا يئسوا من ناصر أو مغيث من البر والبحر تكلموا مع النصارى في الأمان فقيل لهم لا تحقق العدو التجاءهم، ووُعدوا تأمينهم من الموت إن أعطوا مفتاح القلعة والحصن فلما فعلوا وتمكن العدو منهم أخذهم أسرى، وذلك أواخر شعبان سنة اثنتين وتسعين وثمانمائة، ولم يبق في تلك النواحي موضع إلا وملكه النصارى {cite:nafh-tib-maqqari p. 520-521}."
+  en: "In 892 the Christians besieged Malaga by land and sea; its people fought with cannon, horse and foot until the food ran out and they ate beasts, horses and donkeys, wrote to both shores for relief and got none — promised safety, they surrendered the citadel keys in late Sha'ban and were taken captive, a deception the chronicler calls the infidels' trickery {cite:nafh-tib-maqqari p. 520-521}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1487", hijri: "0892", calendar: julian, precision: year, status: tradition, derived: true, note: "892؛ التحويل مشتق {cite:nafh-tib-maqqari p. 521}." }
+relations:
+  - { type: occurred_at, target: place/malaga, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 520–521"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-54
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
