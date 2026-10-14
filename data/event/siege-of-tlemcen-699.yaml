@@ -1,0 +1,23 @@
+id: event/siege-of-tlemcen-699
+class: event
+kind: siege
+label: { ar: "حصار أبي يعقوب المريني لتلمسان" }
+summary:
+  ar: "حاصر أبو يعقوب يوسف المريني تلمسان على بني عبد الواد مائة شهر وبنى قبالتها مدينة المنصورة كاملة العمران فأشرف بنو عبد الواد على الهلاك وأذنوا بالانقراض، ثم هلك السلطان بالمنصورة سنة 707هـ فخربها آل يغمراسن عند ارتحال كتائبه {cite:tarikh-ibn-khaldun-ibar p. 1938}."
+  en: "The Marinid Abu Ya'qub besieged Tlemcen a hundred months behind the walls of his counter-city al-Mansura, and the Abd al-Wadids were near extinction when he died in 707 and his siege-city was razed {cite:tarikh-ibn-khaldun-ibar p. 1938}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1299~", hijri: "0699~", calendar: julian, precision: year, status: tradition, derived: true, note: "مائة شهر انتهاءً بهلاكه ٧٠٧؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1938}." }
+  end: { edtf: "1307~", hijri: "0707", calendar: julian, precision: year, status: tradition, derived: true, note: "هلاك أبي يعقوب بالمنصورة؛ مشتق {cite:tarikh-ibn-khaldun-ibar p. 1938}." }
+relations:
+  - { type: had_participant, target: person/abu-yaqub-yusuf-marinid, role: "الحاصر", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: occurred_at, target: place/tlemcen, sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ibar-batch-9
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
