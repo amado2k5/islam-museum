@@ -1,0 +1,23 @@
+id: event/buyid-entry-baghdad-334
+class: event
+kind: conquest
+label: { ar: "دخول بني بويه بغداد وتلقيبهم سنة 334" }
+summary:
+  ar: "في سنة 334هـ وجه المستكفي بالأطاف والنفائس والطعام إلى أبي الحسين أحمد بن بويه فدخل فلقي المستكفي ووقف بين يديه طويلاً وأخذت عليه البيعة واستحلف له بأغلظ الإيمان وحلف المستكفي لأبي الحسين بن بويه وأخويه وكتب بذلك كتاب ووقعت فيه الشهادة عليه ولبس أبو الحسين الخلع وطوق وسود وعقد إهواء وجعل أمير الأمراء وهو أول ملوك بني بويه ولقب أخواه الأكبر علي عماد الدولة والأوسط أبا علي الحسن ركن الدولة وأمر أن تضرب ألقابهم وكناهم على الدنانير والدراهم ونزل الديلم والأتراك دور الناس ولم يكن يعرف بغداد قبل هذا التنزل فصار من هذا اليوم رسماً {cite:muntazam-ibn-al-jawzi p. 632-633}."
+  en: "In 334 al-Mustakfi received Abu'l-Husayn Ahmad ibn Buwayh with oaths and robes, made him amir al-umara — the first Buyid sovereign — titled his brothers Imad al-Dawla and Rukn al-Dawla and had the three titles struck on the coinage; Daylamites and Turks were quartered in Baghdad's houses, a custom new to the city {cite:muntazam-ibn-al-jawzi p. 632-633}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0946", hijri: "0334", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 334؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 632-633}." }
+relations:
+  - { type: had_participant, target: person/muizz-al-dawla, role: "أمير الأمراء", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-mustakfi-billah, role: "الخليفة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-13
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
