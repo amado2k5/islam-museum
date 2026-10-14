@@ -1,0 +1,22 @@
+id: event/jalaluddin-takes-tiflis-623
+class: event
+kind: conquest
+label: { ar: "فتح جلال الدين مدينة تفليس من الكرج" }
+summary:
+  ar: "في ثامن ربيع الأول سنة ثلاث وعشرين وستمائة فتح جلال الدين بن خوارزم شاه مدينة تفليس من الكرج، فقد قصدهم وقد حشدوا من الأمم المجاورة اللان واللكز وقبجاق جمعاً لا يحصى فكمن لهم في مواضع والتقوا فولى الكرج منهزمين وأمر جلال الدين عسكره ألا يبقوا على أحد فتبعوهم حتى كادوا يفنونهم، وأشاروا عليه بقصد تفليس دار ملكهم فقال لا حاجة لنا أن نقتل رجالنا تحت الأسوار إنما إذا أفنيت الكرج أخذت البلاد صفواً، ثم قصدها في ثلاثة آلاف فارس فكمن أكثر عسكره فلما خرج إليه الكرج طمعاً في قلته تأخر عنهم حتى توسطوا الكمائن فانهزموا إلى المدينة وتبعهم المسلمون ونادى مسلموها بشعار الإسلام واسم جلال الدين فألقى الكرج بأيديهم فملك المسلمون البلد عنوة؛ ويذكر ابن الأثير أنها من أحصن البلاد على جانبي نهر الكر وأن الكرج ملكوها سنة خمس عشرة وخمسمائة والسلطان محمود بن محمد بن ملكشاه فلم يقدر عليها مع سعة مملكته ولا أخوه مسعود ولا الدكز والبهلوان بعدهما حتى جاء جلال الدين والبلاد قد أضعفها الكرج أولاً ثم استأصلتها التتر ففعل بهم هذه الأفاعيل {cite:kamil-ibn-al-athir p. 460-462}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, anatolia-balkans]
+date:
+  start: { edtf: "1226-03-11~", hijri: "0623-03-08", calendar: julian, precision: day, status: tradition, derived: true, note: "8 ربيع الأول 623؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 460}." }
+relations:
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "الفاتح", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/tiflis, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 623، ص 460–462"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-11
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
