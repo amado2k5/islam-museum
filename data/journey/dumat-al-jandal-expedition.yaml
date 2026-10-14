@@ -1,0 +1,44 @@
+id: journey/dumat-al-jandal-expedition
+class: journey
+label: { ar: "بعث خالد إلى دومة الجندل" }
+summary:
+  ar: "بعث النبي خالد بن الوليد من تبوك إلى أكيدر بن عبد الملك صاحب دومة الجندل؛ فأُخذ أكيدر وهو يخرج لصيد البقر في ليلة مقمرة، ثم صالحه النبي على الجزية. النص لا يذكر طريق الذهاب ولا مدته."
+kind: military_campaign
+travelers: [person/khalid-ibn-al-walid]
+periods: [period/prophetic-era]
+regions: [arabia]
+legs:
+  - from: place/tabuk
+    to: place/dumat-al-jandal
+    events: [event/khalid-expedition-to-ukaydir]
+    note: "بعث النبي خالداً في أربعمائة وعشرين فارساً، وأخبره أنه سيجد أكيدر يصيد البقر؛ والجيش نازل بتبوك في النص. لا يذكر النص طريقه ولا مدته (الرحيق ص435)."
+  - from: place/dumat-al-jandal
+    to: place/tabuk
+    events: [event/treaty-of-ukaydir]
+    note: "أُخذ أكيدر وحُقن دمه، وجيء به إلى النبي؛ فصالحه على ألفي بعير وثمانمائة رأس وأربعمائة درع وأربعمائة رمح والجزية، وقاضاه مع يحنة على قضية دومة وتبوك وأيلة وتيماء (الرحيق ص435)."
+waypoints:
+  - place: place/dumat-al-jandal
+    day: 1
+    day_status: debated
+    day_note: "النص يذكر ترتيب الوقائع دون عدد أيام؛ الرقم ترتيبي فقط."
+    title: { ar: "صيد البقر وأخذ أكيدر" }
+    narrative:
+      ar: "بلغ خالد حصن أكيدر، فلما كان بمنظر العين خرجت البقر تحك قرونها بباب القصر، فخرج أكيدر لصيدها في ليلة مقمرة، فتلقّاه خالد من خيله فأخذه (الرحيق ص435). الموضع «منظر العين» لم يُنشأ له ملف مكان، ويُذكر هنا بالاسم فقط."
+    events: [event/khalid-expedition-to-ukaydir]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/tabuk
+    day: 2
+    day_status: debated
+    day_note: "ترتيب الوقائع فقط؛ النص لا يذكر عدد الأيام بين الأخذ والعودة."
+    title: { ar: "الصلح مع أكيدر في تبوك" }
+    narrative:
+      ar: "جاء خالد بأكيدر إلى رسول الله وكان الجيش نازلاً بتبوك؛ فحقن النبي دمه وصالحه على ما ذُكر، وأقر بإعطاء الجزية، وكان الصلح مع يحنة بن روبة على قضية تشمل دومة وتبوك وأيلة وتيماء (الرحيق ص435)."
+    events: [event/treaty-of-ukaydir]
+    sources: [source/mubarakpuri-raheeq]
+relations:
+  - { type: part_of, target: event/expedition-to-tabuk }
+  - { type: had_participant, target: person/muhammad, role: "المُرسِل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "القائد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ukaydir-ibn-abd-al-malik, role: "المأخوذ", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; al-Raheeq al-Makhtum p. 435" }

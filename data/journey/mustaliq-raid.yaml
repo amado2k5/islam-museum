@@ -1,0 +1,51 @@
+id: journey/mustaliq-raid
+class: journey
+kind: military_campaign
+label: { en: "The raid on Banu al-Mustaliq", ar: "درب غزوة بني المصطلق" }
+summary:
+  en: "The march of the Prophet from Medina in Sha'ban 6 AH to the watering-place of al-Muraysi' near Qudayd, where the raid took place, and the return to Medina; the book names only these two stops and does not give the halts between them."
+  ar: "مسير النبي من المدينة في شعبان سنة 6هـ إلى ماء المريسيع في ناحية قديد حيث وقعت الغزوة، ثم العودة إلى المدينة؛ لا يذكر الرحيق من المنازل بينهما إلا الموضعين، فلا تُسرد هنا غيرهما."
+wings: [time, place, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - { from: place/medina, to: place/qudayd, mode: "مسير ليلاً ونهاراً؛ الرحيق لا يذكر الطريق", note: "خرج في ليلتين خلتا من شعبان واستعمل على المدينة زيد بن حارثة (الرحيق ص325-326). المسير من المدينة مفهوم من الاستخلاف على المدينة، والنص لا يسمّي المنازل بينهما." }
+  - { from: place/qudayd, to: place/medina, mode: "مسير بالناس يومهم وليلتهم", note: "بعد الغزوة أقام النبي على المريسيع، ثم أذن بالرحيل في ساعة لم يكن يرتحل فيها؛ مشى بالناس يومهم وليلتهم وصدر يومهم حتى نزل بهم للاستراحة، ثم وصلوا المدينة (الرحيق ص327-331). ينزل الجيش في بعض المنازل في الطريق دون تسمية (الرحيق ص331)." }
+waypoints:
+  - place: place/medina
+    day: 1
+    day_note: "ترتيب المحطة لا عدد الأيام؛ الرحيق يذكر أن الخروج كان في ليلتين خلتا من شعبان دون أن يحدد عدد أيام المسير."
+    title: { ar: "الخروج من المدينة", en: "Leaving Medina" }
+    narrative:
+      ar: "علم النبي أن الحارث بن أبي ضرار يجمع قومه بني المصطلق ومن معه من العرب للحرب، فبعث بريدة الأسلمي يتحقق الخبر ثم ندب الصحابة وأسرع في الخروج في ليلتين خلتا من شعبان، ومعه جماعة من المنافقين لم يخرجوا في غزوة قبلها؛ واستُخلف على المدينة زيد بن حارثة (الرحيق ص325-326)."
+      en: "On word that al-Harith ibn Abi Dirar was gathering Banu al-Mustaliq and other Arabs against him, the Prophet sent Burayda al-Aslami to verify it, then called the companions and set out two nights into Sha'ban, with some hypocrites who had not joined an earlier expedition. Zayd ibn Haritha was left in charge of Medina (al-Raheeq pp. 325-326)."
+    events: [event/expedition-of-banu-al-mustaliq]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/qudayd
+    day: 2
+    day_note: "ترتيب المحطة لا عدد الأيام؛ المحطة هي ماء المريسيع في ناحية قديد، وقد أُدرج الموضع هنا لأن ملف المريسيع غير موجود بعد."
+    coordinates_note: "المريسيع (الاسم العربي للموضع) ماء في ناحية قديد إلى الساحل؛ لا يوجد ملف مكاني للمريسيع بعد، فأُسند الموقع إلى قديد."
+    title: { ar: "ماء المريسيع", en: "The watering-place of al-Muraysi'" }
+    narrative:
+      ar: "انتهى النبي إلى المريسيع، وهو ماء لهم في ناحية قديد إلى الساحل، فتهيأ الفريقان للقتال وصف النبي أصحابه؛ ترامَوا بالنبل ساعة ثم حملوا حملة واحدة فانهزم المشركون وسُبيت الذراري والنعم، ولم يُقتل من المسلمين إلا رجل قتله أنصاري خطأً. وفيه وقعت بين جهجاه الغفاري وسنان بن وبر الجهني مشاجرة على الماء، فكانت سبباً لكلام عبد الله بن أبي ثم لأمر الرحيل (الرحيق ص326-330)."
+      en: "The Prophet reached al-Muraysi', a water-place of theirs in the Qudayd region towards the coast. Both sides readied for battle; after a while of arrows the Muslims charged as one, the enemy fled, and the women, children and herds were taken. One Muslim was killed by mistake by an Ansari. At the water a quarrel broke out between a hired man of Umar and a man of Juhayna, which led to Abdullah ibn Ubayy's remark and the order to move (al-Raheeq pp. 326-330)."
+    events: [event/expedition-of-banu-al-mustaliq]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/medina
+    day: 3
+    day_note: "ترتيب المحطة لا عدد الأيام؛ الرحيق لا يحدد أيام المسير الراجع."
+    title: { ar: "العودة إلى المدينة وحديث الإفك", en: "The return to Medina and the slander" }
+    narrative:
+      ar: "أذن النبي بالرحيل في ساعة غير معتادة، فسار بالناس يومهم وليلتهم حتى نزل بهم، ثم وصلوا المدينة. وفي الطريق، عند نزول الجيش في بعض المنازل، تأخرت عائشة فعادت تلتمس عقداً لها فلحقها صفوان بن المعطل، ثم قدمت معه والجيش ينزل في نحر الظهيرة، فأفاض أهل الإفك في الحديث عند قدومهم المدينة (الرحيق ص330-331)."
+      en: "The Prophet gave the order to move at an unusual hour and the party marched through the day and night, halted, and then reached Medina. On the way, while the army rested at one of its stops, Aisha went back looking for a lost necklace; Safwan ibn al-Mu'attal found her and brought her back as the army halted at midday. On arrival in Medina the slander spread (al-Raheeq pp. 330-331)."
+    events: [event/incident-of-the-slander]
+    sources: [source/mubarakpuri-raheeq]
+relations:
+  - { type: part_of, target: event/expedition-of-banu-al-mustaliq }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-ubayy, role: "خرج مع المنافقين وأثار الكلام عند الماء؛ لم يُقم عليه حدّ الإفك", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zayd-ibn-arqam, role: "نقل كلام ابن أبي إلى النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/juwayriya-bint-al-harith, role: "من السبي؛ تزوجها النبي فأُعتق قومها", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Code; al-Raheeq al-Makhtum pp. 325-336" }
