@@ -1,0 +1,19 @@
+id: place/silves
+class: place
+kind: city
+label: { ar: "شلب" }
+summary:
+  ar: "شلب من مدن غرب الأندلس، وتسمى أعمالها كورة أكشونبة المتصلة بكورة أشبونة، وهي قاعدة جليلة لها مدن ومعاقل ودار ملكها قاعدة شلب {cite:nafh-tib-maqqari p. 200}."
+  en: "Silves (Shalb) — capital of the Kura of Ossonoba in western al-Andalus, 'a fine seat with towns and strongholds' beside Lisbon's district {cite:nafh-tib-maqqari p. 200}."
+wings: [place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 200"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,19 @@
+id: place/alhama-granada
+class: place
+kind: city
+label: { ar: "الحامة" }
+summary:
+  ar: "الحامة من حصون نواحي غرناطة؛ أخذها صاحب قادس غدراً آخر أيام الصلح سنة سبع وثمانين وثمانمائة، وحاصرها أهل غرناطة محاولين ردها فقطعوا عليها الماء حتى أغاثها جمع النصارى ودخلتها فحصنت، وخابت محاولة أهل بسطة ووادي آش لاستردادها فانقطع أمل الناس منها {cite:nafh-tib-maqqari p. 516-517}."
+  en: "Alhama — the fortress whose stealthy capture by the Marquis of Cadiz in the truce's last days (887) opened Granada's final war; Granada besieged it vainly until relief came, and its Baza-Guadix rescuers were hurled from the heights {cite:nafh-tib-maqqari p. 516-517}."
+wings: [place]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 516–517"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

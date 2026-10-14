@@ -1,0 +1,19 @@
+id: place/ronda
+class: place
+kind: city
+label: { ar: "رندة" }
+summary:
+  ar: "رندة من مدن غرب مالقة الحصينة؛ في جمادى الأولى سنة تسعين وثمانمائة نازلها صاحب قشتالة وقد خرج أهلها إلى نصرة ذكوان فهدم أسوارها وخرجوا على الأمان وطاعت له جميع تلك البلاد ولم يبق بغربي مالقة إلا من دخل في طاعته وتحت ذمته {cite:nafh-tib-maqqari p. 520}."
+  en: "Ronda, the strong city west of Malaga; besieged in Jumada I 890 while its men were away relieving Cartama, it surrendered on aman and the whole west-Malaga country followed {cite:nafh-tib-maqqari p. 520}."
+wings: [place]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 520"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
