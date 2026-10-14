@@ -1,0 +1,95 @@
+id: question/who-led-muslims-after-prophet
+class: question
+label:
+  ar: من تولى قيادة المسلمين بعد وفاة النبي؟
+summary:
+  ar: بعد وفاة النبي اختار المسلمون أبا بكر في السقيفة ثم عمر ثم عثمان ثم علي، وهذا هو الترتيب الذي تعده السنة. أما الشيعة فيرون أن النبي نص على علي، وتتعدد قراءات المؤرخين لهذه الوقائع.
+question:
+  ar: من تولى قيادة المسلمين بعد وفاة النبي؟
+issue:
+  ar: من تولى قيادة الأمة بعد وفاة النبي، وبأي طريق تثبت الإمامة؟
+short_answer:
+  ar: بعد وفاة النبي اختار المسلمون أبا بكر في السقيفة ثم عمر ثم عثمان ثم علي، وهذا هو الترتيب الذي تعده السنة. أما الشيعة فيرون أن النبي نص على علي، وتتعدد قراءات المؤرخين لهذه الوقائع.
+long_answer:
+  ar: 'بعد وفاة النبي اجتمع المسلمون في [[event/saqifa|السقيفة]] واختاروا أبا بكر خليفة. ثم تولى عمر، ثم عثمان، ثم علي، وهم الخلفاء الراشدون عند أهل السنة، كما يعرض مدخل [[concept/khilafa-rashida|الخلافة الراشدة]].
+
+
+    ويرى الشيعة أن النبي نص على علي في [[event/ghadir-khumm|غدير خم]]، وأن الإمامة بعده حق لعلي وذريته، وهذا موضع خلاف جوهري بين المذهبين.
+
+
+    والمؤرخون يعرضون الوقائع ويختلفون في قراءتها: هل كان الاختيار اختياراً بالشورى، أم صراعاً على السلطة، أم تنازعاً على النص. وفصل هذه المواقف في المدخل نفسه دون ترجيح.
+
+
+    وترتبط هذه المسألة بأحداث لاحقة مثل [[event/battle-of-the-camel|وقعة الجمل]] و[[event/battle-of-siffin|وقعة صفين]]، ومن أراد المزيد يبدأ بمدخل [[group/shia|الشيعة]].
+
+    '
+perspectives:
+- tradition: sunni
+  id: sunni
+  stance:
+    ar: الخلافة بالاختيار والبيعة، والترتيب أبو بكر ثم عمر ثم عثمان ثم علي
+  summary:
+    ar: يقرر أهل السنة أن أبا بكر تولى الخلافة بالبيعة في السقيفة، ثم استخلف عمر، ثم جعل عمر الشورى في ستة فاختاروا عثمان، ثم تولى علي، كما يقرر الطحاوي في عقيدته.
+  standing: main
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: نص العقيدة الطحاوية في الخلافة، وكتب التاريخ الإسلامي المعتمدة.
+  sources:
+  - source/aqida-tahawiyya
+  - source/sahih-al-bukhari
+- tradition: academic
+  id: academic
+  stance:
+    ar: المؤرخون يختلفون في تقدير الاختيار والنص، ولا يتفقون على ترجيح واحد
+  summary:
+    ar: 'يلاحظ المؤرخون أن المصادر المبكرة ترويها بروايات متعارضة، ويقرؤون وقائع السقيفة والشورى بوصفها نزاعاً سياسياً، وينقسمون في الحكم على نصية الإمامة: فبعضهم يرجح قراءة الاختيار، وبعضهم يقرأ أدلة النص بجدية، كما يعرض ماديلونغ.'
+  standing: other
+  evidence:
+  - ref: source/madelung-1997
+    note:
+      ar: دراسات تاريخية عن الخلافة المبكرة، تقرأ المصادر نقدياً.
+  sources:
+  - source/madelung-1997
+  - source/watt-1956-medina
+  - source/hodgson-1974
+- tradition: shia-twelver
+  id: shia-twelver
+  stance:
+    ar: النبي نص على علي، والخلفاء الثلاثة قبله تولوا بغير نص
+  summary:
+    ar: ترى الشيعة الاثنا عشرية أن النبي نص على علي إماماً بعده، وأن السقيفة كانت مخالفة لذلك النص، كما يعرض مؤلفو الشيعة الحديثون مذهبهم.
+  standing: secondary
+  evidence:
+  - ref: source/momen-1985
+    note:
+      ar: حديث غدير خم وغيره من النصوص التي تستدل بها الشيعة، كما تنقلها كتبهم.
+  sources:
+  - source/momen-1985
+  - source/fihrist-ibn-al-nadim
+related:
+- event/saqifa
+- event/ghadir-khumm
+- concept/khilafa-rashida
+- group/shia
+audience:
+- newcomer
+sensitivity: contested
+sources:
+- source/aqida-tahawiyya
+- source/fihrist-ibn-al-nadim
+- source/hodgson-1974
+- source/madelung-1997
+- source/momen-1985
+- source/sahih-al-bukhari
+- source/watt-1956-medina
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (maintainer session)
+provenance:
+  layer: own-research
+  source: مداخل الموسوعة المرتبطة؛ المصادر المذكورة في المنظورات (لم تُتحقق الصفحات بعد)
+  generated_by: Claude (maintainer session)
+  model: claude-haiku-5-5
+  run: questions-persp-1
