@@ -1,0 +1,20 @@
+id: person/ibn-qayyim-al-jawziyya
+class: person
+label: { ar: "ابن قيم الجوزية" }
+summary:
+  ar: "الشيخ شمس الدين محمد بن أبي بكر بن قيم الجوزية الحنبلي الدمشقي المتوفى سنة ٧٥١هـ؛ صاحب إعلام الموقعين عن رب العالمين {cite:kashf-zunun-furqan p. 518}."
+  en: "Shams al-Din Muhammad ibn Abi Bakr, Ibn Qayyim al-Jawziyya al-Hanbali al-Dimashqi, d. AH 751 — author of I'lam al-Muwaqqi'in {cite:kashf-zunun-furqan p. 518}."
+gender: male
+wings: [people, words]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+died: { edtf: "1350~", hijri: "0751", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 751هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 518}." }
+relations:
+  - { type: authored, target: work/ilam-al-muwaqqiin, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 518 مدخل 1334"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-6
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

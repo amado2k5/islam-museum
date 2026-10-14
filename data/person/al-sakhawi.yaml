@@ -11,10 +11,11 @@ born: { hijri: "0831-03", edtf: "1427/1428", calendar: julian, precision: month,
 died: { hijri: "0902", edtf: "1497~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بالمدينة 902؛ التحويل مشتق {cite:shadharat-dhahab p. 431-432}." }
 relations:
   - { type: student_of, target: person/ibn-hajar-al-asqalani, note: "أشد الملازمة، 'أمثل جماعتي'", sources: [source/shadharat-dhahab] }
+  - { type: authored, target: work/al-ilan-bil-tawbikh, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
   source: "شذرات الذهب لابن العماد ص 431-432"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-74
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

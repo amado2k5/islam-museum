@@ -1,0 +1,20 @@
+id: person/badr-al-din-al-zarkashi
+class: person
+label: { ar: "بدر الدين الزركشي" }
+summary:
+  ar: "الشيخ بدر الدين محمد بن عبد الله الزركشي الشافعي المتوفى سنة ٧٩٤هـ؛ صاحب إعلام الساجد بأحكام المساجد {cite:kashf-zunun-furqan p. 518}."
+  en: "Badr al-Din Muhammad ibn Abdallah al-Zarkashi al-Shafi'i, d. AH 794 — author of I'lam al-Sajid bi-Ahkam al-Masajid {cite:kashf-zunun-furqan p. 518}."
+gender: male
+wings: [people, words]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+died: { edtf: "1392~", hijri: "0794", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 794هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 518}." }
+relations:
+  - { type: authored, target: work/ilam-al-sajid, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 518 مدخل 1332"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-6
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
