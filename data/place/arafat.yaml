@@ -1,0 +1,13 @@
+id: place/arafat
+class: place
+kind: site
+label: { ar: "عرفات", en: "Arafat" }
+summary:
+  ar: "سهل فسيح خارج مكة، يقف فيه الحجاج يوم عرفة، وسُمّي بذلك لأن جبريل قال لإبراهيم: أعرفت مناسكك؟ وفيه جبل المشاش في وسطه، وجبل كبكب خلفه (الأزرقي، ص 119 و284 و321 من الماسح)."
+regions: [arabia]
+wings: [place]
+coordinate_precision: approx
+coordinate_note: "خارج مكة، جنوب شرقها؛ لم يُحدَّد موقعه بإحداثيات بعد."
+provenance: { layer: own-research, source: "al-Azraqi, Akhbar Makka, scan pp. 119, 284 n.2, 321 n.2 (OCR, Apple Vision)", generated_by: "Claude Code", run: "journeys-places-azraqi" }
+sources: [source/azraqi-akhbar-makka]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Azraqi's Akhbar Makka (OCR); the scan pages need checking against the image" }
