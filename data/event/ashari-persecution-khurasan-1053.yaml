@@ -1,0 +1,23 @@
+id: event/ashari-persecution-khurasan-1053
+class: event
+kind: persecution
+label: { ar: "إلزام لعن الرافضة والأشعرية على منابر خراسان" }
+summary:
+  ar: "خاطب الوزير عميد الملك الكندري السلطان ألب أرسلان في لعن الرافضة على منابر خراسان فأذن له فأمر بلعنهم وأضاف إليهم الأشعرية، فأنف من ذلك أئمة خراسان منهم أبو القاسم القشيري وإمام الحرمين الجويني وغيرهما ففارقوا خراسان وأقام الجويني بمكة أربع سنين فقيل له إمام الحرمين، فلما جاءت الدولة النظامية أحضر نظام الملك من انتزح منهم وأكرمهم {cite:shadharat-dhahab p. 310}."
+  en: "Al-Kunduri's minbar licence from Alp Arslan to curse the Rafida — extended to the Ash'aris — exiled Khurasan's imams; al-Juwayni's four Meccan years earned him 'Imam al-Haramayn', and Nizam al-Mulk's accession restored the exiles in honour {cite:shadharat-dhahab p. 310}."
+date:
+  start: { edtf: "1053~", hijri: "0445", calendar: julian, precision: year, status: tradition, derived: true, note: "عهد ألب أرسلان؛ السنة تقريبية", sources: [source/shadharat-dhahab] }
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: had_participant, target: person/al-kunduri-amid-al-mulk, role: "الآمر" }
+  - { type: had_participant, target: person/imam-al-haramayn-al-juwayni, role: "المنفيّ" }
+  - { type: had_participant, target: person/al-qushayri-abu-l-qasim, role: "المنفيّ" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-11
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
