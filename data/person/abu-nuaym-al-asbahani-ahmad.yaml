@@ -15,6 +15,8 @@ wings: [people, words]
 themes: [scripture-and-its-sciences]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
+relations:
+  - { type: authored, target: work/marifat-al-sahaba-abi-nuaym, sources: [source/kashf-zunun-furqan] }
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 sources: [source/mawsuat-a3lam-ulama-adaba]

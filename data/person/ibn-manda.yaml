@@ -1,0 +1,19 @@
+id: person/ibn-manda
+class: person
+label: { ar: "أبو بكر ابن منده" }
+summary:
+  ar: "الحافظ الأصبهاني صاحب كتاب معرفة الصحابة — أقدم الكتب الأربعة المصنفة في معرفة الصحابة التي استقصاها ابن الأثير في أُسد الغابة وجعل له علامة (د)، وذيل عليه أبو موسى المديني {cite:kashf-zunun-furqan p. 398}."
+  en: "The Isfahani hafiz Abu Bakr ibn Manda — author of the first of the four books of Companion names, exhausted by Ibn al-Athir under siglum (د) and continued by Abu Musa al-Madini {cite:kashf-zunun-furqan p. 398}."
+gender: male
+wings: [people, words]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+relations:
+  - { type: authored, target: work/marifat-al-sahaba-ibn-manda, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 398"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-1
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

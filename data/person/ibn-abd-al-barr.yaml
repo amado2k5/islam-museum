@@ -11,6 +11,8 @@ roles: [scholar]
 wings: [people, words]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
+relations:
+  - { type: authored, target: work/al-istiab, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
