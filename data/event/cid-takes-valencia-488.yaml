@@ -1,0 +1,23 @@
+id: event/cid-takes-valencia-488
+class: event
+kind: conquest
+label: { ar: "استيلاء القنبيطور على بلنسية" }
+summary:
+  ar: "لما صار أمر بلنسية إلى الفقيه القاضي أبي أحمد ابن جحاف صيرها لأمير المسلمين يوسف بن تاشفين، وأنهض يوسف بن أحمد بن هود صاحب سرقسطة ردريق الطاغية للاستيلاء عليها فدخلها وعاهده القاضي واشترط عليه إحضار ذخيرة كانت للقادر بن ذي النون فأقسم أنها ليست عنده فاشترط عليه أنه إن وجدها عنده قتله فاتفق أنها وجدت عنده فأحرقه بالنار وعاث في بلنسية، وكان استيلاء القنبيطور عليها سنة ثمان وثمانين وأربعمائة وقيل في التي قبلها وبه جزم ابن الأبار قائلاً فتم حصار القنبيطور إياها عشرين شهراً، وذكر أنه دخلها صلحاً وقال غيره إنه دخلها عنوة وأحرقها وعاث فيها وممن أحرق فيها الأديب أبو جعفر ابن البني الشاعر، فبعث أمير المؤمنين يوسف بن تاشفين الأمير أبا محمد مزدلي ففتحها الله على يديه سنة خمس وتسعين وأربعمائة {cite:nafh-tib-maqqari p. 455-456}."
+  en: "Valencia's fall to Rodrigo el Campeador in 488 (some say 487): raised by Ibn Hud of Zaragoza, he took the city after a twenty-month siege, burned the qadi Ibn Jahhaf over the concealed treasury, and destroyed it — the poet Ibn al-Banna among the burned — until the Almoravid amir Mazdali retook it for Yusuf ibn Tashfin in 495 {cite:nafh-tib-maqqari p. 455-456}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1094~", hijri: "0488~", calendar: julian, precision: year, status: tradition, derived: true, note: "488 وقيل 487؛ التحويل مشتق {cite:nafh-tib-maqqari p. 455}." }
+relations:
+  - { type: had_participant, target: person/el-cid-rodrigo, role: "القائد المستولي على المدينة", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/valencia, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 455–456"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-54
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
