@@ -1,0 +1,22 @@
+id: event/killing-of-amir-al-hajj-618
+class: event
+kind: other
+label: { ar: "قتل أمير الحاج أقباش ووقعة الحسن بن قتادة بمكة" }
+summary:
+  ar: "في سنة ثمان عشرة وستمائة سار حاج العراق وعليهم أمير يقال له أقباش مملوك الخليفة الناصر حسن السيرة مع الحاج كثير الحماية، فقصده راجح بن قتادة وبذل له وللخليفة مالاً ليساعده على ملك مكة من أخيه الحسن، فوصلوا مكة ونزلوا بالزاهر فخرج إليهم الحسن في جموع من العرب، وتقدم أمير الحاج من بين يدي عسكره منفرداً وصعد الجبل إذلالاً بنفسه إذ لا يقدم أحد عليه فأحاط به أصحاب الحسن وقتلوه وعلّقوا رأسه فانهزم عسكر أمير المؤمنين، وأحاطوا بالحاج لينهبوهم فأرسل إليهم الحسن عمامته أماناً للحجاج فعاد أصحابه ولم ينهبوا منهم شيئاً وأذن لهم في دخول مكة فأقاموا عشرة أيام يفعلون الحج والبيع وعادوا إلى العراق سالمين، وعظم الأمر على الخليفة فوصلت رسل الحسن يعتذرون ويطلبون العفو فأجيب إليه {cite:kamil-ibn-al-athir p. 426}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+date:
+  start: { edtf: "1221~", hijri: "0618", calendar: julian, precision: year, status: tradition, derived: true, note: "618؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 426}." }
+relations:
+  - { type: had_participant, target: person/hasan-ibn-qatada, role: "قاتل أمير الحاج ومانع الحجاج بالعمامة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/qatada-ibn-idris-al-alawi, role: "أبوه المتوفى تلك السنة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-nasir-billah, role: "الخليفة مالك أمير الحاج", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 618، ص 426"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-13
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
