@@ -1,0 +1,14 @@
+id: journey/syria-trade-for-khadija
+class: journey
+kind: trade_route
+label: { ar: "رحلة تجارة خديجة إلى الشام مع ميسرة" }
+summary:
+  ar: "رحلة تجارية في مال خديجة بنت خويلد إلى الشام، خرج فيها النبي ومعه غلامها ميسرة، فرجع إلى مكة فرأت خديجة من أمانته وبركة ماله ما لم تر قبل (الرحيق ص60)."
+periods: [period/pre-islamic-arabia]
+regions: [arabia, levant-iraq]
+travelers: [person/muhammad, person/maysara]
+legs:
+  - { from: place/mecca, to: place/al-sham, mode: "تجارة في مال خديجة", note: "عرضت خديجة أن يخرج في مالها إلى الشام تاجراً بأفضل ما تعطي غيره من التجار، فخرج ومعه غلامها ميسرة حتى قدم الشام (الرحيق ص60). لم يذكر النص موضعاً بعينه في الشام." }
+  - { from: place/al-sham, to: place/mecca, note: "ولما رجع إلى مكة رأت خديجة في مالها من الأمانة والبركة ما لم تر قبل، وأخبرها ميسرة بما رأى فيه (الرحيق ص60-61)." }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; al-Raheeq al-Makhtum pp. 60-61" }
