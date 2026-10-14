@@ -1,0 +1,22 @@
+id: event/ibn-khaldun-audience-timur-803
+class: event
+kind: other
+label: { ar: "لقاء ابن خلدون بالأمير تيمور تحت أسوار دمشق", en: "Ibn Khaldun's Audience with Timur beneath Damascus" }
+summary:
+  ar: "يروي ابن خلدون في العبر بضمير المتكلم أنه لما وصل الخبر إلى مصر بأن الأمير تمر ملك بلاد الروم وخرب سيواس ورجع إلى الشام جمع السلطان الناصر فرج عساكره ونادى بالرحيل وكان ابن خلدون يومئذ معزولاً عن الوظيفة فأراده دواداره يشبك على السفر في ركاب السلطان فتجافى ثم أصاخ فسافر معهم منتصف شهر ربيع الأول سنة ثلاث وثمان مئة فوصلوا غزة ثم سبقوا الططر إلى دمشق وركب الناس ليلاً يعتقدون أن السلطان سار على الطريق الأعظم إلى مصر فساروا إلى شقحب وبقي ابن خلدون بالمدرسة العادلية مع القضاة والفقهاء وأخبره القاضي برهان الدين أن تيمور سأل عنه فلما بلغه خبر تشاجر في الجامع خشي البادرة على نفسه فبكر سحراً إلى جماعة القضاة عند الباب وطلب الخروج أو التدلي من السور فأبوا عليه أولاً ثم أصخوا له ودلوه من السور فوجد بطانة تيمور عند الباب ونائبه شاه ملك من بني جقطاي فحيّوه وقدموا له مركوباً وأوصلوه إلى تيمور فأدخل على خيمة جلوسه وهو متكئ على مرفقه وصحاف الطعام تمر بين يديه يشير بها إلى عصب المغل جلوساً أمام خيمته حلقاً حلقاً فسلم عليه وأومأ إيماءة الخضوع فرفع تيمور رأسه ومد يده إليه فقبلها وأشار بالجلوس ثم استدعى الفقيه عبد الجبار بن النعمان من فقهاء الحنفية بخوارزم فأقعده يترجم ما بينهما وسأله من أين جاء من المغرب ولم جاء فقال جئت من بلادي لقضاء الفرض ركبت إليها البحر ووافيت مرسى الإسكندرية يوم الفطر سنة أربع وثمانين من هذه المائة الثامنة {cite:tarikh-ibn-khaldun-ibar p. 2118-2122}."
+  en: "Ibn Khaldun's own account: summoned into Faraj's retinue mid-Rabi' I 803, racing the Tatars to Damascus, then — fearing a rumor and hearing Timur had asked after him — lowered from the city wall at dawn to Timur's deputy Shah Malik, and brought to the conqueror reclining among his dishes and seated Mughul circles, with the Khwarazmian faqih Abd al-Jabbar translating; Timur raised his head, extended his hand to be kissed, and asked how and why he had come from the Maghreb {cite:tarikh-ibn-khaldun-ibar p. 2118-2122}."
+wings: [time, people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1401-01~", hijri: "0803", calendar: julian, precision: year, status: historical, derived: true, note: "803 حصار دمشق؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 2121}." }
+relations:
+  - { type: had_participant, target: person/ibn-khaldun, role: "الراوي والمحاور", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/timur-lang, role: "المحاوَر", sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "العبر لابن خلدون ص 2118-2122"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ibar-batch-1
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
