@@ -1,0 +1,93 @@
+id: question/what-is-difference-sunni-shia
+class: question
+label:
+  ar: ما الفرق بين السنة والشيعة؟
+summary:
+  ar: 'الاختلاف الأساسي بين السنة والشيعة في مسألة الإمامة بعد النبي: هل تُعلم بالنص أم بالاختيار والشورى، وفي من يُقدَّم. وتتفرع عنه اختلافات في الفقه والتاريخ والعقيدة.'
+question:
+  ar: ما الفرق بين السنة والشيعة؟
+issue:
+  ar: على من تقوم الإمامة بعد النبي، وكيف يُفهم أصل الشرعية في الأمة؟
+short_answer:
+  ar: 'الاختلاف الأساسي بين السنة والشيعة في مسألة الإمامة بعد النبي: هل تُعلم بالنص أم بالاختيار والشورى، وفي من يُقدَّم. وتتفرع عنه اختلافات في الفقه والتاريخ والعقيدة.'
+long_answer:
+  ar: 'الاختلاف بين السنة والشيعة في الأصل يتعلق بالإمامة، أي من يقود الأمة بعد النبي ومن أي طريق تثبت له الشرعية. وهذه المسألة تفصيلها في مدخل [[group/shia|الشيعة]] ومدخل [[concept/khilafa-rashida|الخلافة الراشدة]].
+
+
+    ويعرض المدخل المنظورات الثلاثة كما يذكرها أصحابها: منظور أهل السنة، ومنظور الشيعة الاثني عشرية، ثم منظور المؤرخين. ويرتبط بالحدث الأشهر عند الشيعة في [[event/ghadir-khumm|غدير خم]]، وبالحدث الأشهر عند السنة في [[event/saqifa|السقيفة]].
+
+
+    المنظورات مذكورة للتعريف بها لا للترجيح بينها، والتفاصيل الفقهية والكلامية تُعرض في مداخلها.
+
+    '
+perspectives:
+- tradition: sunni
+  id: sunni
+  stance:
+    ar: الإمامة تثبت بالاختيار والبيعة، والخلفاء الراشدون أبو بكر ثم عمر ثم عثمان ثم علي
+  summary:
+    ar: يقرر أهل السنة ثبوت الخلافة بعد النبي بالاختيار والبيعة لأبي بكر ثم عمر ثم عثمان ثم علي، ويسمون الأربعة الخلفاء الراشدين، كما يقرر الطحاوي في عقيدته.
+  standing: main
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: نص العقيدة الطحاوية في بيان الخلافة، وحديث الخلفاء في الصحيح مما تعتمده السنة.
+  sources:
+  - source/aqida-tahawiyya
+  - source/sahih-al-bukhari
+- tradition: academic
+  id: academic
+  stance:
+    ar: المؤرخون يدرسون الخلاف بوصفه صراعاً سياسياً وفكرياً، ويختلفون في تقدير أدلة النص والاختيار
+  summary:
+    ar: يدرس المؤرخون الخلاف على الإمامة بوصفه صراعاً على القيادة بعد النبي، ويلاحظون أن الروايات عن الاختيار والنص كُتبت أو جُمعت لاحقاً، ويختلفون في الترجيح بين قراءة الاختيار وقراءة النص.
+  standing: other
+  evidence:
+  - ref: source/watt-1956-medina
+    note:
+      ar: دراسات تاريخية عن الخلافة المبكرة، تقرأ المصادر الإسلامية نقدياً.
+  sources:
+  - source/watt-1956-medina
+  - source/hodgson-1974
+  - source/madelung-1997
+- tradition: shia-twelver
+  id: shia-twelver
+  stance:
+    ar: الإمامة نص من النبي على علي ثم على الأئمة من ولده، وهي من أصول الدين عندهم
+  summary:
+    ar: ترى الشيعة الاثنا عشرية أن النبي نص على علي إماماً بعده، ومن بعده على أئمة من أهل البيت، وأن الإمامة أصل من أصول الدين لا فرع، كما يعرض مؤلفو الشيعة الحديثون في تقديمهم لمذهبهم.
+  standing: secondary
+  evidence:
+  - ref: source/momen-1985
+    note:
+      ar: ترى الشيعة أن حديث غدير خم وغيره من النصوص دليل على النص، وتنقل ذلك عن أعلامها.
+  sources:
+  - source/momen-1985
+  - source/fihrist-ibn-al-nadim
+related:
+- group/shia
+- concept/khilafa-rashida
+- event/ghadir-khumm
+- event/saqifa
+- place/medina
+audience:
+- newcomer
+sensitivity: contested
+sources:
+- source/aqida-tahawiyya
+- source/fihrist-ibn-al-nadim
+- source/hodgson-1974
+- source/madelung-1997
+- source/momen-1985
+- source/sahih-al-bukhari
+- source/watt-1956-medina
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (maintainer session)
+provenance:
+  layer: own-research
+  source: مداخل الموسوعة المرتبطة؛ المصادر المذكورة في المنظورات (لم تُتحقق الصفحات بعد)
+  generated_by: Claude (maintainer session)
+  model: claude-haiku-5-5
+  run: questions-persp-1
