@@ -1,0 +1,24 @@
+id: person/ali-mubarak-pasha
+class: person
+label: { ar: "علي مبارك" }
+names:
+  - { kind: full, lang: ar, value: "علي بن مبارك الروجي" }
+gender: male
+roles: [scholar, statesman]
+born: { edtf: "1823", calendar: gregorian, precision: year, status: tradition, sources: [source/al-aalam] }
+died: { edtf: "1893", calendar: gregorian, precision: year, status: tradition, sources: [source/al-aalam] }
+summary:
+  ar: "علي باشا مبارك (١٨٢٣–١٨٩٣م)؛ وزير مصري من المؤرخين العلماء العصاميين. ولد في قرية برنبال من دقهلية مصر وتلقى العربية وحذق بعض الفنون، وسافر سنة ١٢٦٠هـ مع البعثة المصرية إلى باريس فتعلم فن الاستحكام والمفرقعات والحركات الحربية، وعاد إلى مصر فتقلب في الوظائف العسكرية وبلغ رتبة أمير ألاي وحضر الحرب التركية الروسية سنة ١٢٧٠هـ، ثم نُصب ناظراً للأوقاف المصرية وأُضيفت إليه المعارف فأنشأ مدارس كثيرة وأبقى آثاراً منها دار الكتب المصرية في القاهرة، وتولى نظارة الأشغال العامة سنة ١٢٩٢هـ فحدثت حادثة عرابي باشا فاستقال مع زملائه في الوزارة، وآخر أعماله ولايته نظارة المعارف المصرية سنة ١٣٠٥هـ. له «الخطط التوفيقية» في عشرين جزءاً حذا فيه حذو المقريزي في خططه، وله رواية سماها «علم الدين» في عدة مجلدات ضمنها أبحاثاً دينية واجتماعية {cite:al-aalam tarjama}."
+  en: "Ali Mubarak Pasha (1823–1893 CE) — the self-made engineer-minister who founded Egypt's Dar al-Kutub and wrote the twenty-volume al-Khitat al-Tawfiqiyya on Maqrizi's model {cite:al-aalam tarjama}."
+wings: [people, words]
+periods: [period/modern-era]
+regions: [egypt-nile]
+relations:
+  - { type: authored, target: work/al-khitat-al-tawfiqiyya, sources: [source/al-aalam] }
+sources: [source/al-aalam]
+provenance:
+  layer: own-research
+  source: "الأعلام للزركلي (ط2 القاهرة) ترجمة علي باشا مبارك"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-alam-batch-2
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
