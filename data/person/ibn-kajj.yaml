@@ -1,0 +1,21 @@
+id: person/ibn-kajj
+class: person
+label: { ar: "ابن كج" }
+names:
+  - { value: "أبو القاسم يوسف بن أحمد بن يوسف بن كج الدينوري", kind: full }
+gender: male
+summary:
+  ar: "من أئمة الشافعية بالدينور، صحب ابن القطان وحضر مجلس الداركي وجمع بين رياسة العلم والدنيا وارتحل الناس إليه من الآفاق؛ قال له أبو علي السنجي لما رأى علمه يا أستاذ الاسم لأبي حامد والعلم لك فقال ذاك رفعته بغداد وحطتني الدينور، وقتله العيارون بالدينور ليلة السابع والعشرين من رمضان سنة خمس وأربع مئة {cite:wafayat-ayan p. 64-65}."
+  en: "Ibn Kajj the Shafi'i of Dinawar, combining scholarly and worldly eminence; when Sanji told him 'the name is Abu Hamid's but the knowledge yours' he answered 'Baghdad lifted him and Dinawar dropped me' — killed by the 'ayyarun at Dinawar on 27 Ramadan 405 {cite:wafayat-ayan p. 64-65}."
+roles: [jurist, scholar, qadi]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died: { edtf: "1015~", hijri: "0405~", calendar: julian, precision: year, status: tradition, derived: true, note: "ليلة 27 رمضان 405هـ قتله العيارون بالدينور {cite:wafayat-ayan p. 65}", sources: [source/wafayat-ayan] }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-4
+sources: [source/wafayat-ayan]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
