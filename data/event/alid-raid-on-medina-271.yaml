@@ -1,0 +1,21 @@
+id: event/alid-raid-on-medina-271
+class: event
+kind: massacre
+label: { ar: "دخول ابني الحسن بن جعفر العلوي المدينة" }
+summary:
+  ar: "في غرة صفر سنة 271هـ دخل محمد وعلي ابنا الحسن بن جعفر بن موسى بن جعفر بن علي بن الحسين المدينة فقتلا جماعة من أهلها وطالبوا أهلها بالمال فلم يصل أهل المدينة في مسجد رسول الله أربع جمع لا جمعة ولا جماعة {cite:muntazam-ibn-al-jawzi p. 101}."
+  en: "In Safar 271 the Talibid brothers Muhammad and Ali b. al-Hasan b. Ja'far entered Medina by force, killed townspeople and mulcted them, silencing the Prophet's mosque for four Fridays {cite:muntazam-ibn-al-jawzi p. 101}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0884-08~", hijri: "0271-02-01", calendar: julian, precision: day, status: tradition, derived: true, note: "غرة صفر 271؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 101}." }
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-hasan-al-alawi, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-5
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
