@@ -9,4 +9,6 @@
 Same as lib-muruj-dhahab/lib-muqaddima: read page ranges, reuse entities, create work/person/concept records (the distinctive yield is bibliographic — book titles, authors, translators, sects, firsts), cite `{cite:fihrist-ibn-al-nadim p. N}`. Validate, commit, push each batch. OCR/scans never enter git.
 
 ## Progress
-- Setup: workspace + source/work/person records created; OCR of Furqan ed. running (981 pp).
+- Setup: workspace + source/work/person records created; OCR complete (981 pp Furqan + 536 pp Alexandrina).
+- Mined: all ten maqalat — scripts/revealed books/readers (m1), grammarians Basra+Kufa (m2), akhbaris/kuttab/musicians (m3), kalam sects Mu'tazila-Shi'a-Ismailiyya incl. Ibn Rizam's expose (m5), jurists incl. Tabari school/Zahiris/Kharijites (m6), philosophers-translators-physicians-geometers-astrologers (m7), asmar/khurafat/Kalila wa-Dimna/lovers' books (m8), Harranians-dualists-Mani-Khurramiyya-Sumaniyya-India-China (m9), alchemists incl. Ibn Wahshiyya's cipher alphabets (m10), plus the Takmila appendix fragments (Baghdad theologians, Dhu'l-Nun).
+- Famous set-pieces extracted: Ma'mun's Aristotle dream, Hazar Afsan/Alf Layla attestation, Mani's dossier, Banu Musa/Euclid transmission, Abu Ma'shar-Kindi feud, Hallaj's capture at al-Sus, Seven Balagh graded initiations.
