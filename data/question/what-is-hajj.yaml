@@ -1,0 +1,40 @@
+id: question/what-is-hajj
+class: question
+label:
+  ar: ما الحج؟
+summary:
+  ar: الحج قصد البيت الحرام بمكة لأداء مناسك مخصوصة، وهو فريضة على من استطاع إليه سبيلاً؛ وهذا جواب مختصر عن معناه وأصله.
+question:
+  ar: ما الحج؟
+short_answer:
+  ar: الحج قصد البيت الحرام بمكة في أيام محددة من السنة لأداء مناسك مخصوصة، وهو فريضة على المسلم القادر عليه مرة في العمر، وهو من أركان الإسلام الخمسة.
+long_answer:
+  ar: |
+    الحج هو قصد البيت الحرام بمكة المكرمة في أشهر الحج لأداء مناسك مخصوصة، وهو من [[concept/five-pillars|أركان الإسلام الخمسة]] {cite:sahih-al-bukhari 8}.
+
+    أصل الفريضة في القرآن. تذكر [[passage/quran-3-97|آل عمران 97]] أن الحج حق لله على الناس، لمن استطاع إليه سبيلاً. وتأمر [[passage/quran-22-27|الحج 27]] بالأذان بالحج في الناس.
+
+    وتُؤدى المناسك في أيام محددة، ويُفرق بينه وبين العمرة، وهي زيارة للبيت تُؤدى في أي وقت من السنة. وهذا التفريق من التفاصيل الفقهية التي تُعرض في مدخل [[practice/hajj|الحج]].
+
+    ومن أهم ما يُسأل عنه أن الحج فريضة على القادر مرة واحدة في العمر، وأن الاستطاعة تشمل القدرة الجسدية والمالية، وهذا متفق عليه بين المذاهب في أصله وإن اختلفت في تفاصيله.
+related:
+- practice/hajj
+- concept/five-pillars
+- passage/quran-3-97
+- passage/quran-22-27
+audience:
+- newcomer
+sensitivity: none
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude (maintainer session)
+sources:
+- source/sahih-al-bukhari
+- source/tanzil-quran
+provenance:
+  layer: own-research
+  source: القرآن (آل عمران 97، الحج 27)؛ صحيح البخاري 8
+  generated_by: Claude (maintainer session)
+  model: claude-haiku-5-5
+  run: questions-seed-1
