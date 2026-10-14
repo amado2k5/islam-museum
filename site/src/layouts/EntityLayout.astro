@@ -9,7 +9,7 @@ import PageHeader from "../components/PageHeader.astro";
 import ExploreBar from "../components/ExploreBar.astro";
 import { byId, buildDate, href, labelOf, summaryOf, related, REPO, SITE } from "../lib/graph";
 import { ui, other, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
-import { renderProse } from "../lib/markdown";
+import { renderProse, newHonState } from "../lib/markdown";
 import { formatDate } from "../lib/dates";
 import { connectionsOf, externalUrl, jsonLd, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
 import type { Node } from "../../../scripts/build-graph";
@@ -49,7 +49,8 @@ const places = placesOf(n.id);
 const groups = connectionsOf(n.id, lang);
 
 // --- sources: the entity's own + any cited in prose
-const sections = (prose?.sections ?? []).map((s) => ({ ...s, role: sectionRole(s.heading), r: renderProse(s.markdown, lang) }));
+const hon = newHonState(); // one honorific state per article, so the first mention is marked once across all sections
+const sections = (prose?.sections ?? []).map((s) => ({ ...s, role: sectionRole(s.heading), r: renderProse(s.markdown, lang, hon) }));
 // citation numbers are per-section in renderProse; re-number globally for the footnote list
 const citeList: { source: string; locator?: string }[] = [];
 const citeIndex = (c: { source: string; locator?: string }) => {

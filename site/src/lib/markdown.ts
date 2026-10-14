@@ -18,21 +18,23 @@ const COMPANIONS = realNodes
   .filter((c) => c.name)
   .sort((a, b) => b.name.length - a.name.length);
 
-export function honorify(html: string, lang: Lang): string {
+/** Per-article state: the first mention of each name gets its honorific once across all sections of the article. */
+export interface HonState { prophet: boolean; companions: Set<string> }
+export const newHonState = (): HonState => ({ prophet: false, companions: new Set() });
+
+export function honorify(html: string, lang: Lang, state: HonState = newHonState()): string {
   if (lang !== "ar") return html;
-  let prophetDone = false;
-  const doneCompanions = new Set<string>();
   const body = (text: string) => {
     let t = text.replace(PROPHET, (x) => {
-      if (prophetDone) return x;
-      prophetDone = true;
+      if (state.prophet) return x;
+      state.prophet = true;
       return `${x} ﷺ`;
     });
     for (const c of COMPANIONS) {
-      if (doneCompanions.has(c.name)) continue;
+      if (state.companions.has(c.name)) continue;
       const i = t.indexOf(c.name);
       if (i < 0) continue;
-      doneCompanions.add(c.name);
+      state.companions.add(c.name);
       t = t.slice(0, i + c.name.length) + ` ${c.suffix}` + t.slice(i + c.name.length);
     }
     return t;
@@ -43,7 +45,7 @@ export function honorify(html: string, lang: Lang): string {
     .join("");
 }
 
-export function renderProse(md: string, lang: Lang): Rendered {
+export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
   const cites: Cite[] = [];
 
   // Applied to text nodes of already-rendered HTML (marked has escaped everything else).
@@ -72,6 +74,6 @@ export function renderProse(md: string, lang: Lang): Rendered {
     return "";
   });
 
-  const html = honorify(transform(marked.parse(md.replace(/<!--[\s\S]*?-->/g, ""), { async: false }) as string), lang);
+  const html = honorify(transform(marked.parse(md.replace(/<!--[\s\S]*?-->/g, ""), { async: false }) as string), lang, hon);
   return { html, cites, perspectives };
 }
