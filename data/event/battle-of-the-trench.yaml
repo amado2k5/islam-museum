@@ -13,7 +13,7 @@ date:
   start: { edtf: "0627-02~", hijri: "0005-10", calendar: julian, precision: month, status: tradition, note: "شوال سنة 5هـ (فبراير 627م) واستمر الحصار نحو شهر حتى أوائل ذي القعدة (الرحيق ص301–314)." }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/muhammad, role: "القائد العام للمسلمين والمشارك في حفر الخندق وضرب الصخور", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/muhammad, role: "القائد العام للمسلمين والمشارك في حفر الخندق وضرب الصخور", sources: [source/mubarakpuri-raheeq, source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/salman-al-farisi, role: "صاحب مشورة حفر الخندق", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "بارز عمرو بن عبد ود العامري فقتله عند ثغرة الخندق", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: had_participant, target: person/sad-ibn-muadh, role: "أصيب في أكحله بسهم حبان بن العرقة فدعا ألا يموت حتى تقر عينه من قريظة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
@@ -40,5 +40,18 @@ perspectives:
     id: academic
     summary: { en: "Historians analyze the siege as an economic and diplomatic crisis for the confederates, where prolonged stalemate, bad weather, tribal fragmentation, and intelligence operations neutralized their numerical advantage.", ar: "يحلل المؤرخون المعركة بوصفها فشلاً استراتيجياً ودبلوماسياً لتحالف الأحزاب، إذ عجزت التفوق العددي أمام دفاع الخندق وعوامل الطقس وانعدام الثقة وتفكك الحلفاء." }
     sources: [source/watt-1956-medina]
+map:
+  kind: battle
+  precision: schematic
+  center: [24.49, 39.60]
+  extent_km: 4
+  basemap: terrain
+  date_for_borders: "0627"
+  features:
+    - { type: line, role: wall, side: 0, from: [24.490, 39.578], to: [24.495, 39.615], label: { ar: "الخندق على الجانب الشمالي للمدينة", en: "The ditch on Medina's northern side" }, precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "جبل سلع — ظهور المسلمين إليه", en: "Mount Sal'a, with the Muslims' backs to it" }, at: [24.494, 39.600], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: camp, side: 0, label: { ar: "معسكر المسلمين خلف الخندق", en: "Muslim position behind the ditch" }, at: [24.492, 39.600], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: camp, side: 1, label: { ar: "معسكر الأحزاب شمال الخندق", en: "The confederates' camp north of the ditch" }, at: [24.503, 39.602], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "الثغرة التي اقتحمها عمرو بن عبد ود وخيله", en: "The gap where Amr ibn Abd Wadd and his horsemen crossed" }, at: [24.496, 39.596], precision: schematic, source: source/mubarakpuri-raheeq }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 301–314" }
