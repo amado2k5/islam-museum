@@ -1,0 +1,23 @@
+id: person/najm-al-din-ayyub
+class: person
+label: { ar: "نجم الدين أيوب" }
+names:
+  - { value: "نجم الدين أيوب بن شاذي", kind: full }
+gender: male
+summary:
+  ar: "والد صلاح الدين يوسف بن أيوب؛ اتفق أهل التاريخ على أن أباه وأهله من دوين بلدة في آخر عمل أذربيجان من جهة أران وبلاد الكرج وأنهم أكراد روادية بطن من الهذبانية، ومولد أيوب بها؛ وخرج أبوه شاذي بولديه أسد الدين شيركوه ونجم الدين أيوب إلى بغداد ثم نزلوا تكريت ومات شاذي بها {cite:wafayat-ayan p. 139-140}."
+  en: "Saladin's father; the historians agree his family were Rawadiyya Kurds of Hadhbani from Dvin on Azerbaijan's edge, whence his father Shadhi took him and his brother Shirkuh to Baghdad and then Tikrit, where Shadhi died {cite:wafayat-ayan p. 139-140}."
+roles: [military, ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, persia-central-asia]
+relations:
+  - { type: child_of, target: person/shadhi-ibn-marwan }
+  - { type: sibling_of, target: person/asad-al-din-shirkuh }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-2
+sources: [source/wafayat-ayan]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
