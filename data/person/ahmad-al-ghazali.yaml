@@ -1,0 +1,21 @@
+id: person/ahmad-al-ghazali
+class: person
+label: { ar: "أحمد الغزالي" }
+names:
+  - { value: "أحمد بن محمد الغزالي", kind: full }
+gender: male
+summary:
+  ar: "أخو أبي حامد الغزالي صاحب الإحياء، اختصر كتابه وسماه لباب الإحياء، وتوفي سنة عشرين وخمس مئة {cite:kashf-zunun-furqan p. 198}."
+  en: "Abu Hamid al-Ghazali's brother, who abridged the Ihya' as Lubab al-ihya'; he died in 520 {cite:kashf-zunun-furqan p. 198}."
+roles: [scholar]
+wings: [people, words]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died: { edtf: "1126~", hijri: "0520~", calendar: julian, precision: year, status: tradition, derived: true, note: "520هـ {cite:kashf-zunun-furqan p. 198}", sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون عن أسامي الكتب والفنون (ط. الفرقان 2004) ج1"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-zunun-batch-9
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

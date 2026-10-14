@@ -13,3 +13,18 @@ Mine the muqaddima's science taxonomy as concept records and notable entries as 
 ## Progress
 - Setup: source record + lane doc.
 - Muqaddima: authorial preface (method statement p. 51-52). Science definitions ~pp. 55-110 pending.
+
+
+## Vol 1 set-piece pass (done)
+
+Scans on shelf are all vol. 1 (alif + tāʾ, entries 1–2000). Mined:
+- Muqaddima: science taxonomy, seven kinds of authorship, eight ru'us.
+- al-Aghani entry (Ahmad the 50-year gathering, Sahib Ibn Abbad's verdict,
+  4,000-dirham draft at Baghdad's suq) — p. 527-528.
+- al-Athar al-Baqiya (Biruni, for Shams al-Ma'ali) + Athar al-Bilad
+  (Qazwini, composed 674) — p. 179-180.
+- al-Isaba (Ibn Hajar; 5 vols combining Isti'ab + Usd al-ghaba) — p. 462.
+- Ibn al-Shatir's al-rub' al-tamm (p. 570-571), al-Fanari's Unmudhaj
+  al-ulum hundred-science riddle (p. 665-666).
+- Ihya' chain enriched: Lubab al-ihya' (Ahmad al-Ghazali), anti-Ihya'
+  critique, Irshad entry already covered.
