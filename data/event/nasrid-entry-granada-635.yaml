@@ -1,0 +1,22 @@
+id: event/nasrid-entry-granada-635
+class: event
+kind: founding
+label: { ar: "تغلب ابن الأحمر على غرناطة" }
+summary:
+  ar: "تغلب محمد بن يوسف بن نصر بن الأحمر على غرناطة سنة 635هـ بمداخلة أهلها واستقر بها بعد مهلك ابن هود فكانت مقر دولة بني الأحمر آخر دول الإسلام بالأندلس {cite:tarikh-ibn-khaldun-ibar p. 1009}."
+  en: "Muhammad b. Yusuf Ibn al-Ahmar took Granada in 635 by its people's collusion after Ibn Hud's death — the seat of the last Muslim dynasty in al-Andalus {cite:tarikh-ibn-khaldun-ibar p. 1009}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1237~", hijri: "0635", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة خمس وثلاثين وستمائة؛ مشتق {cite:tarikh-ibn-khaldun-ibar p. 1009}." }
+relations:
+  - { type: had_participant, target: person/muhammad-i-ibn-al-ahmar, role: "الفاتح", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: occurred_at, target: place/granada, sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ibar-batch-12
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
