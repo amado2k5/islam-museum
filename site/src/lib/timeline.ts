@@ -23,13 +23,26 @@ const short = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+
 export function timelineEvents(lang: Lang): TlEvent[] {
   const out: TlEvent[] = [];
   const order = new Map<string, number>();
+  const yearOnly = new Map<string, number>(); // event id -> CE year, for year-precision dates
+  const lastDatedInCeYear = new Map<number, number>(); // CE year -> latest order key of its day/month-dated events
   for (const n of realNodes) {
     if (n.class !== "event") continue;
     const y = hijriYearOf(n);
     if (y === undefined) continue;
     out.push({ id: n.id, href: href(lang, n.id), label: labelOf(n, lang), date: formatDate(n.data.date?.start, lang).text, y, s: short(summaryOf(n, lang)) });
-    // Year-only dates list after the month- and day-dated events of their year ("نحو 622" after "12 سبتمبر 622"); the plotted position is unchanged.
-    order.set(n.id, startOf(n.data)?.precision === "year" ? Math.floor(y) + 0.9999 : y);
+    const ceYear = parseInt(String(startOf(n.data)?.edtf ?? "").slice(0, 4), 10); // CE year from the EDTF start, present even when the date is given in Hijri
+    if (startOf(n.data)?.precision === "year") {
+      yearOnly.set(n.id, ceYear);
+      order.set(n.id, y);
+    } else {
+      order.set(n.id, y);
+      if (!Number.isNaN(ceYear)) lastDatedInCeYear.set(ceYear, Math.max(lastDatedInCeYear.get(ceYear) ?? -Infinity, y));
+    }
+  }
+  // A year-only date ("نحو 622") lists right after the last dated event of its CE year; its plotted position is unchanged.
+  for (const [id, ceYear] of yearOnly) {
+    const last = lastDatedInCeYear.get(ceYear);
+    if (last !== undefined) order.set(id, last + 1e-6);
   }
   return out.sort((a, b) => order.get(a.id)! - order.get(b.id)!);
 }
