@@ -1,0 +1,21 @@
+id: event/dar-al-ilm-cairo-400
+class: event
+kind: founding
+label: { ar: "دار العلم بالقاهرة" }
+summary:
+  ar: "أقبل الحاكم بأمر الله على التأله والدين فأمر بإنشاء دار العلم بمصر وأحضر فيها الفقهاء والمحدثين وعمر الجامع الحاكمي بالقاهرة وكثر الدعاء له فبقى كذلك ثلاث سنين ثم أخذ يقتل أهل العلم وأغلق تلك الدار ومنع من فعل كثير من الخير {cite:shadharat-dhahab p. 165-166}."
+  en: "Al-Hakim's early piety built Cairo's Dar al-Ilm, gathered jurists and hadith-men and raised the Jami' al-Hakimi — for three years; then he turned to killing men of learning, closed the house and barred much good {cite:shadharat-dhahab p. 165-166}."
+date:
+  start: { edtf: "1009~", hijri: "0400", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 400هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 165}", sources: [source/shadharat-dhahab] }
+wings: [time, words]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+relations:
+  - { type: had_participant, target: person/al-hakim-bi-amr-allah, role: "الآمر" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-8
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
