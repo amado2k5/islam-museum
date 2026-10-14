@@ -1,0 +1,20 @@
+id: person/abd-al-malik-ibn-musa-ibn-nusayr
+class: person
+label: { ar: "عبد الملك بن موسى بن نصير" }
+gender: male
+summary:
+  ar: "ابن موسى بن نصير؛ قال ابن سعيد كان في عقب موسى نباهة في السلطنة فولي عبد العزيز سلطنة الأندلس وعبد الملك سلطنة المغرب الأقصى وعبد الله سلطنة إفريقية {cite:nafh-tib-maqqari p. 322}."
+  en: "A son of Musa b. Nusayr who, in Ibn Sa'id's account, held the government of the far Maghreb while his brothers Abd al-Aziz and Abdallah ruled al-Andalus and Ifriqiya {cite:nafh-tib-maqqari p. 322}."
+roles: [ruler]
+wings: [people]
+periods: [period/umayyad]
+regions: [maghreb]
+relations:
+  - { type: child_of, target: person/musa-ibn-nusayr, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-23
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
