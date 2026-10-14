@@ -126,9 +126,15 @@ function init(root: HTMLElement) {
     readout.setAttribute("aria-valuetext", dual(year));
     readout.setAttribute("aria-valuemin", String(Math.floor(min)));
     readout.setAttribute("aria-valuemax", String(Math.floor(max)));
-    const pct = (x / W) * 100;
-    readout.style.insetInlineStart = "auto";
-    readout.style.left = `${pct}%`;
+    // Keep the pill inside the track: clamp its centre so it never runs past either edge on narrow screens.
+    const host = readout.offsetParent as HTMLElement | null;
+    if (host) {
+      const half = readout.offsetWidth / 2;
+      const px = svg.offsetLeft + (x / W) * svg.getBoundingClientRect().width;
+      const clamped = Math.min(Math.max(px, half), host.clientWidth - half);
+      readout.style.insetInlineStart = "auto";
+      readout.style.left = `${clamped}px`;
+    }
   }
   const yearAt = (clientX: number) => {
     const r = svg.getBoundingClientRect();
