@@ -1,0 +1,24 @@
+id: event/qarin-revolt-khurasan-32
+class: event
+kind: revolt
+label: { ar: "خروج قارن بخراسان (32هـ)" }
+summary:
+  ar: "جمع قارن جمعاً كثيراً من ناحية الطبسين وأهل باذغيس وهراة وقوهستان وأقبل في أربعين ألفاً؛ فتنازع قيس بن الهيثم وعبد الله بن خازم الأمر — وأخرج ابن خازم كتاباً كان قد افتعله بأنه أمير خراسان إذا كانت حرب — وسار ابن خازم إلى قارن في أربعة آلاف وأمر الناس فحملوا الودك وأدرجوا على زج الرماح خرقاً وقطناً ودهاناً ثم أشعلوا فيها النيران، فناوشتهم مقدمته نصف الليل ورأى المشركون النيران يمنة ويسرة تتقدم وتتأخر فهالهم، ثم غشيهم ابن خازم فقتل قارن وانهزم المشركون وأصابوا سبياً كثيراً، وكتب بالفتح إلى ابن عامر فأقره على خراسان {cite:kamil-ibn-al-athir p. 507 v.2}. وهذا الخبر في أوله لا يوجد إلا في تاريخ خليفة {cite:kamil-ibn-al-athir p. 507 n.3}."
+  en: "Qarin's rising in Khurasan (AH 32): forty thousand from Tabasayn, Badghis, Herat and Quhistan — against them Abdallah ibn Khazim marched with four thousand, wrapping spearheads in oiled cotton and firing them in a midnight feint until the host broke; the ruse won him Ibn Amir's confirmation over all Khurasan {cite:kamil-ibn-al-athir v.2 p. 507}."
+wings: [time]
+themes: [civil-wars-and-revolts, wars-and-campaigns]
+periods: [period/rashidun]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0653~", hijri: "0032", calendar: julian, precision: year, status: tradition, derived: true, note: "في حوادث سنة 32هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir v.2 p. 507}." }
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "ظفر به بحيلة الرماح المشتعلة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/qays-ibn-al-haytham, role: "ترك له البلاد بالعهد المفتعل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "أقره على خراسان بالفتح", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط دار الكتب) ج٢ ص 507"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-v2-batch-1
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
