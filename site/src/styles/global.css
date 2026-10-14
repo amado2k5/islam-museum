@@ -533,6 +533,8 @@ html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
   .xcard { grid-template-columns: 96px 1fr; }
   button, .chip { min-height: 44px; min-width: 44px; }
   svg, canvas { max-width: 100%; height: auto; }
+  /* Timeline markers: a 44px hit area in screen pixels (non-scaling stroke), the drawn dot stays small. */
+  .tl-marker circle { stroke: transparent; stroke-width: 44px; vector-effect: non-scaling-stroke; }
 }
 @media (min-width: 721px) and (max-width: 1024px) {
   .wings, .paths { grid-template-columns: repeat(3, 1fr); }
