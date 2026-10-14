@@ -3,7 +3,7 @@ class: event
 kind: battle
 label: { ar: "نور الدين يفك حصار الفرنج عن دمشق" }
 summary:
-  ar: "في سنة ثلاث وأربعين حاصرت الفرنج دمشق فوصل إليها نور الدين محمود بن زنكي وهو صاحب حلب يومئذ وأخوه غازي صاحب الموصل فنصر المسلمون ولله الحمد وهزم الفرنج واستمر نور الدين في قتال الفرنج وأخذ ما استولوا عليه من بلاد المسلمين {cite:tarikh-khulafa-minhaj-1434 p. 673}."
+  ar: "في سنة ثلاث وأربعين حاصرت الفرنج دمشق فوصل إليها نور الدين محمود بن زنكي وهو صاحب حلب يومئذ وأخوه غازي صاحب الموصل فنصر المسلمون ولله الحمد وهزم الفرنج واستمر نور الدين في قتال الفرنج وأخذ ما استولوا عليه من بلاد المسلمين {cite:tarikh-khulafa-minhaj-1434 p. 673}. وفي شذرات الذهب في ربيع الأول نازلت الفرنج دمشق في عشرة آلاف فارس وستين ألف راجل فخرج المسلمون من دمشق للمصاف واستشهد منهم نحو المائتين ثم بريزوا في اليوم الثاني فاستشهد جماعة وقتل من الفرنج عدد كثير فلما كان في اليوم الخامس وصل غازي الأتابك وأخوه نور الدين في عشرين ألفاً إلى حماة وكان أهل دمشق في الاستغاثة والتضرع إلى الله وأخرجوا المصحف العثماني إلى صحن الجامع وضج الناس والنساء والأطفال فأغاثهم، وركب قسيس الفرنج وفي عنقه صليب وفي يديه صليبان وقال أنا قد وعدني المسيح بأخذ دمشق فاجتمعوا حوله وحمل على الذي حمل عليه المسلمون فقتلوه وقتلوا جماعة وأحرقوا الصلبان ووصلت النجدة فانهزمت الفرنج وأصيب منهم خلق {cite:shadharat-dhahab p. 614}."
   en: "In 543 the Franks besieged Damascus; Nur al-Din Mahmud ibn Zangi, then lord of Aleppo, reached it with his brother Ghazi, lord of Mosul — the Muslims were victorious and the Franks routed. Nur al-Din pressed on against them, taking what they had seized of Muslim lands {cite:tarikh-khulafa-minhaj-1434 p. 673}."
 wings: [time]
 periods: [period/abbasid-fragmentation]
@@ -11,7 +11,7 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1148~", hijri: "0543", calendar: julian, precision: year, status: tradition, derived: true, note: "543؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 673}." }
 relations:
-  - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, role: "الفاك", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, role: "الفاك", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
   - { type: occurred_at, target: place/damascus, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
