@@ -1,0 +1,21 @@
+id: event/tasm-jadis-destruction
+class: event
+kind: massacre
+label: { ar: "فناء طسم وجديس باليمامة" }
+summary:
+  ar: "نزلت طسم بين اليمن واليمامة ونزلت جديس بموضع اليمامة وكانت تعرف بجوّ، وكانت بينهما حروب أفنت جديسٌ فيها أكثر طسم حتى قيل «يا طسم ما لاقيت من جديس»، ثم انضمت بقية طسم إلى جديس باليمامة، فتوجه تبّع من اليمن وقدم عبد كلال بن مثوب فقتل طسماً وجديساً باليمامة وصلب امرأة من جديس يقال لها اليمامة بنت مرّ على باب جوّ فسمت جوّ اليمامة باسمها؛ وقيل منعت جديس خراجاً كان عليها فأُخذت طسم بذنبهم {cite:ansab-al-ashraf p. 8}."
+  en: "Tasm settled between Yemen and Yamama and Jadis at Yamama itself, then called Jaww; their wars destroyed most of Tasm — 'O Tasm, what Jadis did to you!' — till the remnant merged into Jadis; then the Tubba' Abd Kulal ibn Muthawwib came up from Yemen and killed both peoples, crucifying Yamama bint Murr on the gate of Jaww, which bears her name {cite:ansab-al-ashraf p. 8}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "-0200~", calendar: julian, precision: century, status: tradition, derived: true, note: "زمن التبابعة؛ لا تاريخ محقق {cite:ansab-al-ashraf p. 8}." }
+relations:
+  - { type: occurred_at, target: place/al-yamama, sources: [source/ansab-al-ashraf] }
+provenance:
+  layer: own-research
+  source: "أنساب الأشراف للبلاذري (ط مؤسسة الأعلمي/دار المعارف)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ansab-batch-4
+sources: [source/ansab-al-ashraf]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
