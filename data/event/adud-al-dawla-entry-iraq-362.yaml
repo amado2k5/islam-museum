@@ -1,0 +1,22 @@
+id: event/adud-al-dawla-entry-iraq-362
+class: event
+kind: other
+label: { ar: "قدوم عضد الدولة إلى العراق" }
+summary:
+  ar: "في سنة 362هـ استنجد بختيار بعضد الدولة ليستعين به على سبكتكين فسار إليه في عساكر فارس واجتمع به أبو الفتح بن العميد وزير أبيه ركن الدولة في عساكر الري بالأهواز وساروا إلى واسط، فلما سمع سبكتكين بخبرهم وجه إلى بغداد وعزم أن يجعلها وراء ظهره ويعتصم على ديالى فحصل محصوراً من جميع جهاته بعد أن كتب بختيار إلى ضبة بن محمد الأسدي وهو من أهل عين التمر يخامر بالأثارة على أطراف بغداد وقطع الميرة عنها وكتب بمثل ذلك إلى بني شيبان وكان أبو تغلب بن حمدان من ناحية الموصل يمنع الميرة فغلا السعر وثار العيارون فنهبوا الناس ببغداد وامتنع الناس من المعاش لخوف الفتنة وعدم القوت، فسار عضد الدولة فلقيه سبكتكين والأتراك بين ديالى والمدائن فاقتتلوا قتالاً شديداً وانهزم الأتراك وقتل منهم خلق كثير وكانوا عبروا على جسور عملوها على ديالى فغرق منهم أكثر من السباحة وكذلك بختيار غرى من العيارين الذين أعانوه من بغداد واستباحوا عسكرهم وكانت الوقعة رابع عشر جمادى الأولى، وسار عضد الدولة فنزل بظاهر بغداد حتى علم وصول الأتراك إلى تكريت فدخل بغداد لثلاث خلون من رجب وأخرج الخليفة فلقيه في الماء وأمتلأت دجلة بالسميريات والزبازب حتى لم يبق ببغداد أحد ولو أراد إنسان أن يعبر دجلة على السماريات من واحدة إلى أخرى لأمكنه ذلك لكثرتها فأنزل الخليفة بدار الخلافة {cite:kamil-ibn-al-athir p. 475-477}."
+  en: "In 362 Bakhtiyar called in Adud al-Dawla against Sabuktagin's Turks; by embargo and bribery Baghdad was starved till the mob looted, then Adud routed the Turks between Diyala and Mada'in on 14 Jumada I — more drowned than slew — and entered Baghdad on 3 Rajab over a Tigris so covered with craft a man could cross from boat to boat {cite:kamil-ibn-al-athir p. 475-477}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0973-03~", hijri: "0362-05", calendar: julian, precision: month, status: tradition, derived: true, note: "الوقعة رابع عشر جمادى الأولى 362 والدخول ثالث رجب؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 476-477}." }
+relations:
+  - { type: had_participant, target: person/adud-al-dawla, role: "القادم بالإمداد", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/bakhtiyar-izz-al-dawla, role: "المستنجد", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-14
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
