@@ -1,0 +1,21 @@
+id: event/battle-of-anija-634
+class: event
+kind: battle
+label: { ar: "وقعة أنيجة ومقتل ابن الكلاعي" }
+summary:
+  ar: "وقعة أنيجة يوم الخميس لعشر بقين من ذي الحجة سنة 634هـ قتل بها الحافظ أبو الربيع الكلاعي ولم يزل متقدماً أمام الصفوف زحفاً إلى الكفار مقبلاً على العدو ينادي بالمنهزمين «أعن الجنة تفرون» حتى قتل صابراً محتسباً، وكان دائماً يقول إن منتهى عمره سبعون سنة لرؤيا رآها في صغره فكان كذلك، ورثاه تلميذه ابن الأبار بقصيدته الميمية الشهيرة {cite:nafh-tib-maqqari p. 477}."
+  en: "The battle of Anija, Thursday end of Dhu'l-Hijja 634, where the hafiz Abu'l-Rabi al-Kila'i was killed still urging the routed 'are you fleeing Paradise?' — mourned by his pupil Ibn al-Abbar in the famous mimiya {cite:nafh-tib-maqqari p. 477}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1237-08~", hijri: "0634-12", calendar: julian, precision: month, status: tradition, derived: true, note: "لعشر بقين من ذي الحجة 634؛ مشتق {cite:nafh-tib-maqqari p. 477}." }
+relations:
+  - { type: had_participant, target: person/abu-al-rabi-al-kilai, role: "الشهيد", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-14
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

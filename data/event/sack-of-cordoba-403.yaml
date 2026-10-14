@@ -1,0 +1,22 @@
+id: event/sack-of-cordoba-403
+class: event
+kind: siege
+label: { ar: "دخول البرابرة قرطبة عنوة" }
+summary:
+  ar: "سنة 403هـ دخل سليمان المستعين قرطبة عنوة ومن معه من البرابرة بعد حصار هلكت فيه القرى والبسائط بقرطبة وعدمت المرافق، فقتل هشام المؤيد سراً ولحق بيوتات قرطبة معرة في نسائهم وأبنائهم، وتوثبت البرابرة والعبيد على الأعمال فولوا المدن العظيمة مثل باديس بن حبوس {cite:nafh-tib-maqqari p. 464-465}."
+  en: "In 403 Sulayman al-Musta'in and the Berbers stormed Cordoba after a siege that starved its villages; Hisham al-Mu'ayyad was secretly killed, the city's households violated, and the Berbers and Saqaliba scattered to found taifa states {cite:nafh-tib-maqqari p. 464-465}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1013~", hijri: "0403", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ثلاث وأربعمائة عند المقري؛ مشتق {cite:nafh-tib-maqqari p. 465}." }
+relations:
+  - { type: had_participant, target: person/sulayman-al-mustain-andalusi, role: "قائد الداخلين", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-5
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

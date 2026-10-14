@@ -1,17 +1,18 @@
 id: person/kulthum-ibn-iyad-al-qushayri
 class: person
-label: { ar: "كلثوم بن عياض القشيري", en: "Kulthum ibn Iyad al-Qushayri" }
+label: { ar: "كلثوم بن عياض القشيري" }
+gender: male
 summary:
-  ar: "كلثوم بن عياض بن وحوح القشيري؛ ولّاه هشام بن عبد الملك إفريقية فانتقض أهلها عليه فقُتل بها."
-  en: "Kulthum ibn Iyad ibn Wahwah al-Qushayri; Hisham ibn Abd al-Malik gave him Ifriqiya, whose people rose against him so that he was killed there."
+  ar: "قائد عربي هزمته البربر بملوية؛ نجا من وقعة جنده منهم بلج بن بشر القشيري الذي دخل بهم الأندلس سنة أربع وعشرين ومائة {cite:nafh-tib-maqqari p. 273}."
+  en: "Arab commander defeated by the Berbers at the Malwiya; the Syrian survivors under Balj b. Bishr crossed into al-Andalus in 124 {cite:nafh-tib-maqqari p. 273}."
+roles: [commander]
 wings: [people]
 periods: [period/umayyad]
-relations:
-  - { type: participated_in, target: event/killing-of-kulthum-ibn-iyad, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
+regions: [maghreb]
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-21
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  run: lib-nafh-tib-batch-20
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
