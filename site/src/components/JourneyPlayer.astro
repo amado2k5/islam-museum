@@ -30,7 +30,7 @@ const path = xy.map((p, i) => {
 }).join(" ");
 const companions = edgesFrom(n.id).filter((e) => e.type === "had_participant" && !e.inverse && byId.get(e.to)).map((e) => ({ node: byId.get(e.to)!, role: e.role }));
 const N = wps.length;
-const dayText = (w: any) => `${J.day} ${w.day}${w.day_status === "estimated" || w.day_status === "debated" ? " ≈" : ""}`;
+const dayText = (w: any) => (w.day_status ? `${J.day} ${w.day}${w.day_status === "estimated" || w.day_status === "debated" ? " ≈" : ""}` : "");
 const stations = wps.map((w, i) => ({ i, title: loc(w.title), narrative: loc(w.narrative), day: w.day, dayText: dayText(w), dayNote: w.day_note, date: w.date ? formatDate(w.date, lang).text : "", place: pts[i], events: (w.events ?? []).map((id: string) => byId.get(id)).filter(Boolean).map((e: Node) => ({ href: href(lang, e.id), label: labelOf(e, lang) })), x: xy[i][0], y: xy[i][1], approx: pts[i].approx }));
 const payload = { n: N, stations: stations.map((s) => ({ title: s.title, narrative: s.narrative, dayText: s.dayText, dayNote: s.dayNote ?? "", date: s.date, place: { label: s.place.label, href: s.place.href ?? "", approx: s.approx }, events: s.events })), t: { of: J.of, station: J.station, play: J.play, pause: J.pause, approx: J.approx_place } };
 ---
