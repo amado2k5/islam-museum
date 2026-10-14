@@ -1,0 +1,23 @@
+id: person/bayazid-i-yildirim
+class: person
+label: { ar: "بايزيد الأول الصاعقة" }
+names:
+  - { kind: full, lang: ar, value: "بايزيد بن مراد الأول" }
+gender: male
+roles: [ruler, military]
+died: { edtf: "1402", hijri: "0805", calendar: julian, precision: year, status: tradition, derived: true, note: "انتهت خلافته بأسره في أنقرة ٨٠٥هـ؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi}." }
+summary:
+  ar: "السلطان بايزيد الأول (حكم ٧٩١–٨٠٥هـ/١٣٨٩–١٤٠٢م)؛ تولى الحكم بعد استشهاد أبيه مراد، وكان شجاعاً شهماً متحمساً للفتوحات الإسلامية، فاستهدف الإمارات المسيحية في الأناضول فصارت في عام تابعة للدولة العثمانية، وكان كمثل البرق في تحركاته بين الجبهتين البلقانية والأناضولية فأُطلق عليه لقب «الصاعقة». أقام علاقات ودية مع الصرب ليتخذهم حاجزاً بينه وبين المجر، ووافق على أن يحكم صربيا ابنا الملك لازار الذي قُتل في معركة قوصوه حسب قوانينها وأعرافها، على أن يدينا له بالولاء والجزية وعدد معين من الجنود {cite:dawlat-uthmaniyya-salabi p. 60}."
+  en: "Bayezid I 'Yildirim' (r. 1389–1402 CE) — 'the Thunderbolt' who shuttled between the Balkan and Anatolian fronts until Timur broke his army at Ankara {cite:dawlat-uthmaniyya-salabi p. 60}."
+wings: [people, time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/murad-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 60"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

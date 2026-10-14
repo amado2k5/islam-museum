@@ -1,0 +1,23 @@
+id: person/urkhan-ibn-uthman
+class: person
+label: { ar: "أورخان بن عثمان" }
+names:
+  - { kind: full, lang: ar, value: "أورخان بن عثمان بن أرطغرل" }
+gender: male
+roles: [ruler, military]
+died: { edtf: "1360", hijri: "0761", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "السلطان أورخان بن عثمان (حكم ٧٢٦–٧٦١هـ/١٣٢٧–١٣٦٠م)؛ ثاني سلاطين آل عثمان، سار على سياسة والده في الحكم والفتوحات. سقطت في يده نيقوميديا سنة ٧٢٧هـ فأنشأ بها أول جامعة عثمانية وعهد بإدارتها إلى داود القيصري أحد العلماء العثمانيين الذين درسوا في مصر، واهتم ببناء الجيش على أسس عصرية فجعله جيشاً نظامياً. ووضع خطة استراتيجية لمحاصرة القسطنطينية من الغرب والشرق فأرسل ابنه وولي عهده سليمان لعبور مضيق الدردنيل والاستيلاء على مواقع في الجانب الغربي {cite:dawlat-uthmaniyya-salabi p. 52}."
+  en: "Sultan Orhan (r. 726–761 AH/1327–1360 CE) — took Nicomedia 727, founded the first Ottoman madrasa there under Dawud al-Qaysari, made the army a regular force, and sent his son Sulayman across the Dardanelles to open the European front {cite:dawlat-uthmaniyya-salabi p. 52}."
+wings: [people, time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/uthman-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 52"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: person/uthman-i-uthmani
+class: person
+label: { ar: "عثمان بن أرطغرل" }
+names:
+  - { kind: full, lang: ar, value: "عثمان بن أرطغرل" }
+gender: male
+roles: [ruler, military]
+born: { edtf: "1258", hijri: "0656", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+died: { edtf: "1326~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي نحو ٧٢٦هـ وخلفه ابنه أورخان؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi p. 52}." }
+summary:
+  ar: "عثمان بن أرطغرل (٦٥٦هـ/١٢٥٨م – نحو ٧٢٦هـ/١٣٢٦م)؛ مؤسس الدولة العثمانية، ولد عام سقوط بغداد بيد المغول. لما تنادى أمراء النصارى في بورصة ومادانوس وأدره نوس لمحاربته سنة ٧٠٠هـ/١٣٠١م تقدم بجنوده وشتت الجيوش المتحالفة حتى صارت بسالته مضرب المثل عند العثمانيين. نال رتبة الإمارة من سلطان سلاجقة الروم علاء الدين فسُكت له العملة باسمه ودُعي له في خطبة الجمعة. فتح في سنة ٧٠٧هـ حصون كته ولفكه وآق حصار وقوج حصار، وتوج فتوحاته بفتح مدينة بروسة سنة ٧١٧هـ/١٣١٧م بعد حصار شديد دام سنين، واعتنق قائد حاميتها إقرينوس الإسلام فأعطاه لقب «بك» وصار من قادة الدولة. وانخرطت تحت لوائه جماعات المرابطة على الثغور: غزاة الروم والإخوان وحجاج أرض الروم {cite:dawlat-uthmaniyya-salabi p. 45-52}."
+  en: "Osman I (1258–c. 1326 CE) — born the year Baghdad fell, raised to the emirate by the Rum Seljuk Ala al-Din, victor over the Byzantine coalition of 1301, and conqueror of Bursa in 1317 after years of siege {cite:dawlat-uthmaniyya-salabi p. 45-52}."
+wings: [people, time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 45-52"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

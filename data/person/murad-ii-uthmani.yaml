@@ -1,0 +1,23 @@
+id: person/murad-ii-uthmani
+class: person
+label: { ar: "مراد الثاني" }
+names:
+  - { kind: full, lang: ar, value: "مراد بن محمد الأول" }
+gender: male
+roles: [ruler, military]
+died: { edtf: "1451", hijri: "0855", calendar: julian, precision: year, status: tradition, derived: true, note: "خلفه ابنه محمد الفاتح في ١٦ محرم ٨٥٥هـ؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi p. 87}." }
+summary:
+  ar: "السلطان مراد الثاني (تولى ٨٢٤هـ/١٤٢١م)؛ تولى أمر الدولة بعد وفاة أبيه محمد جلبي وعمره لا يزيد على ثمانية عشر سنة، وكان محباً للجهاد والدعوة إلى الإسلام في ربوع أوروبا، معروفاً لدى رعيته بالتقوى والعدالة والشفقة. قضى على تمرد عمه مصطفى الذي دعمه الإمبراطور البيزنطي مانويل الثاني فحاصر غاليبولي، فقبض عليه مراد وقدمه للمشنقة، ثم احتل سالونيك ودخلها عنوة في مارس ٨٣٣هـ/١٤٣١م فصارت جزءاً لا يتجزأ من الدولة العثمانية، وأخضع إقليم ولاشيا بجزية سنوية وجدّد ملك الصب ولاءه للسلطان {cite:dawlat-uthmaniyya-salabi p. 77-79}."
+  en: "Murad II (r. from 824 AH/1421 CE) — crushed his uncle Mustafa's Byzantine-backed revolt, stormed Thessaloniki in 1431, and fathered Mehmed the Conqueror {cite:dawlat-uthmaniyya-salabi p. 77-79}."
+wings: [people, time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/muhammad-i-jalabi, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 77-79"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

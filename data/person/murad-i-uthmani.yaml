@@ -1,0 +1,23 @@
+id: person/murad-i-uthmani
+class: person
+label: { ar: "مراد الأول" }
+names:
+  - { kind: full, lang: ar, value: "مراد بن أورخان بن عثمان" }
+gender: male
+roles: [ruler, military]
+died: { edtf: "1389", hijri: "0791", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "السلطان مراد الأول (حكم ٧٦١–٧٩١هـ/١٣٦٠–١٣٨٩م)؛ كان شجاعاً مجاهداً كريماً متديناً محباً للنظام متمسكاً به، عادلاً مع رعاياه وجنوده، شغوفاً بالغزوات وبناء المساجد والمدارس والملاجئ، وشكل من خيرة القادة والخبراء مجلساً لشوراه، وتوسع في آسيا الصغرى وأوروبا في وقت واحد. استولى على مدينة أدرنة سنة ٧٦٢هـ/١٣٦٠م وكانت ثاني مدينة في الإمبراطورية البيزنطية بعد القسطنطينية، واتخذها عاصمة للدولة العثمانية منذ سنة ٧٦٨هـ/١٣٦٦م فانتقلت العاصمة إلى أوروبا وأصبحت أدرنة عاصمة إسلامية تتجمع فيها فئات الموظفين وفرق الجيش وعلماء الدين ودور المحاكم. استشهد في معركة قوصوه {cite:dawlat-uthmaniyya-salabi p. 53}."
+  en: "Sultan Murad I (r. 1360–1389 CE) — took Adrianople in 1360, moved the Ottoman capital across into Europe in 1366, and was killed at the Battle of Kosovo {cite:dawlat-uthmaniyya-salabi p. 53}."
+wings: [people, time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/urkhan-ibn-uthman, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 53"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

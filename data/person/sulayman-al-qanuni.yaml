@@ -1,0 +1,23 @@
+id: person/sulayman-al-qanuni
+class: person
+label: { ar: "سليمان القانوني" }
+names:
+  - { kind: full, lang: ar, value: "سليمان بن سليم الأول" }
+gender: male
+roles: [ruler, military]
+died: { edtf: "1566", hijri: "0974", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "السلطان سليمان القانوني (حكم ٩٢٦–٩٧٤هـ/١٥٢٠–١٥٦٦م)؛ ولد في طرابزون وكان والده والياً عليها، اهتم به والده فنشأ محباً للعلم والأدب والعلماء والفقهاء، وارتقى العرش في السادسة والعشرين من عمره، وكان متأنياً في شؤونه إذا اتخذ قراراً لا يرجع عنه. ابتلي في سنواته الأولى بأربع فتن: تمرد جان بردي الغزالي والي الشام، وتمرد أحمد شاه في مصر سنة ٩٣٠هـ حين أعلن نفسه سلطاناً فقتله جنود الدولة، وتمرد بابا ذو النون الشيعي سنة ٩٢٦هـ، وتمرد قلندر جلبي في قونية ومرعش بنحو ثلاثين ألفاً فهُزم بعد أن استمال الصدر الأعظم إبراهيم باشا بعض رجاله. ثم فتح جزيرة رودس سنة ١٥٢٢م بعد حرب كبيرة وأعطى فرسان القديس يوحنا حق الانتقال إلى مالطة، وشن غزوة كبيرة ضد المجر فأحرز الانتصار الكبير في موقعة موهاكس سنة ١٥٢٦م ودخل بودا في ١١ سبتمبر، وتابع ضغطه حتى حصار فيينا {cite:dawlat-uthmaniyya-salabi p. 200-202}."
+  en: "Süleyman the Magnificent (r. 1520–1566 CE) — the longest-reigning sultan: four early revolts suppressed, Rhodes taken in 1522, Hungary shattered at Mohács 1526, Vienna besieged {cite:dawlat-uthmaniyya-salabi p. 200-202}."
+wings: [people, time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/salim-i-yawuz, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 200-202"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

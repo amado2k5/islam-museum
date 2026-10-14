@@ -1,0 +1,23 @@
+id: person/bayazid-ii
+class: person
+label: { ar: "بايزيد الثاني" }
+names:
+  - { kind: full, lang: ar, value: "بايزيد بن محمد الفاتح" }
+gender: male
+roles: [ruler]
+died: { edtf: "1512", hijri: "0918", calendar: julian, precision: year, status: tradition, derived: true, note: "انتهت خلافته ٩١٨هـ؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi p. 163}." }
+summary:
+  ar: "السلطان بايزيد الثاني (حكم ٨٨٦–٩١٨هـ)؛ تولى السلطة بعد وفاة أبيه محمد الفاتح، وكان سلطاناً وديعاً نشأ محباً للأدب متفقهاً في علم الشريعة الإسلامية شغوفاً بعلم الفلك، واستعان بالخبراء الفنيين اليونانيين والبلغاريين في تحسين شبكة الطرق والجسور لربط أقاليم الدولة. وفي صدر حكمه خالفه أخوه الأمير جم الذي اعترف به أهل بروسة سلطاناً واقترح تقسيم الدولة قسمين أوروبياً وآسيوياً، فرفض بايزيد مبدأ التقسيم لأنه يفتت الدولة التي سهر أسلافه على توحيدها، وأعد جيشاً سار به إلى بروسة ففرّ جم إلى سلطان المماليك قايتباي في مصر فأكرمه وأمده بما احتاجه للسفر إلى الحجاز، وكتب إليه بايزيد: بما أنك قمت بواجباتك الدينية في الحج فلماذا تسعى إلى الأمور الدنيوية وقد كان الملك نصيبي بأمر الله؟ {cite:dawlat-uthmaniyya-salabi p. 163}."
+  en: "Bayezid II (r. 886–918 AH) — the mild, fiqh-loving son of the Conqueror who refused his brother Cem's proposal to split the empire and drove him into Mamluk then Hospitaller exile {cite:dawlat-uthmaniyya-salabi p. 163}."
+wings: [people, time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/muhammad-al-fatih, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 163"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
