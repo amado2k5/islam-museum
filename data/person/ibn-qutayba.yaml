@@ -7,10 +7,12 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: authored, target: work/adab-al-katib, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 519"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-21
-sources: [source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi]
+sources: [source/muruj-al-dhahab, source/muntazam-ibn-al-jawzi, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
