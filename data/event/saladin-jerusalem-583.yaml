@@ -3,7 +3,7 @@ class: event
 kind: conquest
 label: { ar: "استرداد صلاح الدين بيت المقدس" }
 summary:
-  ar: "وفي سنة ثلاث وثمانين وخمس مئة كانت الفتوحات الكثيرة أخذ السلطان صلاح الدين كثيراً من البلاد الشامية التي كانت بيد الفرنج وأعظم ذلك بيت المقدس وكان بقاؤه في يد الفرنج إحدى وتسعين سنة وأزال السلطان ما أحدثه الفرنج من الآثار وهدم ما أحدثوه من الكنائس وبنى موضع كنيسة منها مدرسة للشافعية ولم يهدم القمامة اقتداء بعمر حيث لم يهدمها لما فتح بيت المقدس، ومن الغريب أن ابن برجان ذكر في تفسير الم غلبت الروم أن بيت المقدس يبقى في يد الروم إلى سنة ثلاث وثمانين وخمس مئة ثم يغلبون ويفتح ويصير دار إسلام أخذاً من حساب الآية فكان كذلك وقال أبو شامة هذا من عجائب ما اتفق وقد مات ابن برجان قبل ذلك بدهر {cite:tarikh-khulafa-minhaj-1434 p. 692-693}."
+  ar: "وفي سنة ثلاث وثمانين وخمس مئة كانت الفتوحات الكثيرة أخذ السلطان صلاح الدين كثيراً من البلاد الشامية التي كانت بيد الفرنج وأعظم ذلك بيت المقدس وكان بقاؤه في يد الفرنج إحدى وتسعين سنة وأزال السلطان ما أحدثه الفرنج من الآثار وهدم ما أحدثوه من الكنائس وبنى موضع كنيسة منها مدرسة للشافعية ولم يهدم القمامة اقتداء بعمر حيث لم يهدمها لما فتح بيت المقدس، ومن الغريب أن ابن برجان ذكر في تفسير الم غلبت الروم أن بيت المقدس يبقى في يد الروم إلى سنة ثلاث وثمانين وخمس مئة ثم يغلبون ويفتح ويصير دار إسلام أخذاً من حساب الآية فكان كذلك وقال أبو شامة هذا من عجائب ما اتفق وقد مات ابن برجان قبل ذلك بدهر {cite:tarikh-khulafa-minhaj-1434 p. 692-693}. وفي شذرات الذهب هزم الفرنج وأسر ملوكهم ونازل القدس وأخذه وكان المنجمون قد قالوا له تفتح القدس وتذهب عينك الواحدة فقال رضيت أن أفتحه وأعمى فافتتحها بعد أن كانت بأيدي الفرنج أكثر من تسعين سنة ثم أخذ عكا ثم جال فافتتح عدة حصون ودخل على المسلمين سرور لا يعلمه إلا الله {cite:shadharat-dhahab p. 755}."
   en: "In 583 Salah al-Din took many Frankish-held towns of Syria — Jerusalem greatest of them, ninety-one years in their hands. He cleared their traces, razed their new churches, built a Shafi'i school on one site, yet spared the Holy Sepulchre as Umar had before him. Ibn Barrajan had read in 'Alif Lam Mim — the Romans were defeated' that Jerusalem would stay Roman till 583, then be a house of Islam for ever — 'one of the strangest coincidences', says Abu Shama, 'and Ibn Barrajan died long before' {cite:tarikh-khulafa-minhaj-1434 p. 692-693}."
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
@@ -11,7 +11,7 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1187~", hijri: "0583", calendar: julian, precision: year, status: tradition, derived: true, note: "583؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 692}." }
 relations:
-  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "الفاتح", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "الفاتح", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
   - { type: occurred_at, target: place/jerusalem, sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
