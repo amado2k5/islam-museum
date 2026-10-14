@@ -17,5 +17,7 @@ provenance:
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-2
-sources: [source/wafayat-ayan]
+relations:
+  - { type: authored, target: work/al-alaq-al-khatira, sources: [source/kashf-zunun-furqan] }
+sources: [source/wafayat-ayan, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,19 @@
+id: person/ibn-battal
+class: person
+label: { ar: "ابن بطال" }
+summary:
+  ar: "الإمام الحافظ أبو الحسن علي بن خلف بن بطال المالكي، صاحب الاعتصام في الحديث {cite:kashf-zunun-furqan p. 469}."
+  en: "Abu al-Hasan Ali ibn Khalaf ibn Battal al-Maliki — the hafiz author of al-I'tisam fi'l-Hadith {cite:kashf-zunun-furqan p. 469}."
+gender: male
+wings: [people, words]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+relations:
+  - { type: authored, target: work/al-itisam-ibn-battal, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 469 مدخل 1254"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-17
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
