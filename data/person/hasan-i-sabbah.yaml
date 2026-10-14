@@ -1,0 +1,23 @@
+id: person/hasan-i-sabbah
+class: person
+label: { ar: "الحسن بن الصباح" }
+names:
+  - { value: "الحسن بن الصباح الحميري", kind: full }
+gender: male
+summary:
+  ar: "صاحب قلعة ألموت وزعيم الإسماعيلية الباطنية، وصفه ابن العماد بقوله وكان داهية ماكراً زنديقاً من شياطين الأنس، توفي سنة ثمان عشرة وخمس مئة وكان ولده أبو الفتح نصر الله {cite:shadharat-dhahab p. 538}."
+  en: "Lord of Alamut and leader of the Isma'ili Batiniyya — Ibn al-'Imad calls him 'a scheming arch-trickster among the devils of mankind'; he died in 518 {cite:shadharat-dhahab p. 538}."
+roles: [ruler, theologian]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died: { edtf: "1124~", hijri: "0518~", calendar: julian, precision: year, status: tradition, derived: true, note: "518هـ {cite:shadharat-dhahab p. 538}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: lived_in, target: place/alamut }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-21
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
