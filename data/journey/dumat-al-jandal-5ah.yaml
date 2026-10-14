@@ -1,0 +1,56 @@
+id: journey/dumat-al-jandal-5ah
+class: journey
+kind: military_campaign
+label: { ar: "مسير النبي إلى دومة الجندل سنة 5هـ" }
+summary:
+  ar: "خرج النبي في ألف من أصحابه من المدينة لخمس ليال بقين من ربيع الأول سنة 5هـ، بدليل من بني عذرة يُقال له مذكور، يسير الليل ويكمن النهار؛ فأصاب من ماشية أهل دومة ورعائها، ففرّ أهلها ولم يجد المسلمون بها أحداً، ثم رجع إلى المدينة بعد أن وادع عيينة بن حصن. والمحطات ترتيب الدرب لا عدد أيامه (الرحيق ص299-300)."
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - from: place/medina
+    to: place/dumat-al-jandal
+    start: { hijri: "0005-03", edtf: "0626-08~", calendar: julian, precision: month, status: tradition, note: "لخمس ليال بقين من ربيع الأول سنة 5هـ (الرحيق ص300)؛ الميلادي تقريبي من حساب الحدث." }
+    mode: "سيراً ليلاً مع كمون نهاراً"
+    events: [event/expedition-of-dumat-al-jandal]
+    note: "خرج في ألف من المسلمين واستعمل سباع بن عرفطة على المدينة، وأخذ دليلاً من بني عذرة يُقال له مذكور؛ فلما دنا من دومة أصاب من ماشيتهم ورعائهم (الرحيق ص300). يذكر النص أن دومة تبعد عن المدينة خمس عشرة ليلة، وهذه مسافة لا تحدد يوم الوصول (الرحيق ص300)."
+  - from: place/dumat-al-jandal
+    to: place/medina
+    mode: "رجوع"
+    events: [event/expedition-of-dumat-al-jandal]
+    note: "ففرّ أهل دومة في كل وجه، فلم يجد المسلمون أحداً عند نزولهم ساحتهم؛ أقام النبي أياماً، وبث السرايا وفرّق الجيوش فلم يصيبوا أحداً، ثم رجع إلى المدينة ووادع في تلك الغزوة عيينة بن حصن (الرحيق ص300)."
+waypoints:
+  - place: place/medina
+    day: 1
+    day_status: debated
+    day_note: "رقم المحطة ترتيب في الدرب، لا يوم؛ النص لا يذكر عدد أيام الخروج من المدينة (الرحيق ص300)."
+    date: { hijri: "0005-03", edtf: "0626-08~", calendar: julian, precision: month, status: tradition, note: "لخمس ليال بقين من ربيع الأول سنة 5هـ (الرحيق ص300)." }
+    title: { ar: "الخروج من المدينة بألف رجل" }
+    narrative:
+      ar: "خرج النبي في ألف من المسلمين لخمس ليال بقين من ربيع الأول سنة 5هـ، واستعمل على المدينة سباع بن عرفطة الغفاري، وأخذ دليلاً من بني عذرة يُقال له مذكور (الرحيق ص300)."
+    events: [event/expedition-of-dumat-al-jandal]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/dumat-al-jandal
+    day: 2
+    day_status: debated
+    day_note: "رقم المحطة ترتيب في الدرب؛ النص لا يذكر يوم الوصول."
+    title: { ar: "دومة الجندل: الماشية ثم الفرار" }
+    narrative:
+      ar: "سار النبي الليل وكمن النهار حتى فاجأ أعداءه، فأصاب من ماشيتهم ورعائهم، وفرّ أهل دومة في كل وجه. فلما نزل المسلمون بساحتهم لم يجدوا أحداً، فأقام النبي أياماً وبث السرايا، فلم يصيبوا منهم أحداً (الرحيق ص300)."
+    events: [event/expedition-of-dumat-al-jandal]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/medina
+    day: 3
+    day_status: debated
+    day_note: "رقم المحطة ترتيب في الدرب؛ النص لا يذكر يوم الرجوع."
+    title: { ar: "الرجوع إلى المدينة والموادعة" }
+    narrative:
+      ar: "بعد إقامته بدومة الجندل وبعث السرايا رجع النبي إلى المدينة، ووادع في تلك الغزوة عيينة بن حصن (الرحيق ص300)."
+    events: [event/expedition-of-dumat-al-jandal]
+    sources: [source/mubarakpuri-raheeq]
+relations:
+  - { type: part_of, target: event/expedition-of-dumat-al-jandal }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uyayna-ibn-hisn, role: "عقد النبي معه موادعة في تلك الغزوة", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; al-Raheeq al-Makhtum pp. 299-300" }
