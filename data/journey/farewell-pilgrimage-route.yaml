@@ -1,0 +1,69 @@
+id: journey/farewell-pilgrimage-route
+class: journey
+label: { en: "The Farewell Pilgrimage route", ar: "درب حجة الوداع" }
+summary:
+  en: "The Prophet's journey from Medina to Dhu al-Hulayfa, Dhu Tuwa and Mecca in 10 AH, the rites around Mecca that the book describes, and the return to Medina; the book names the halts it describes and does not name the return road."
+  ar: "رحلة النبي من المدينة إلى ذي الحليفة فذي طوى فمكة سنة 10هـ، والمشاعر التي يصفها الكتاب حول مكة، ثم العودة إلى المدينة؛ والكتاب يسمي المحطات التي يصفها ولا يسمي محطات طريق العودة."
+kind: pilgrimage_route
+travelers: [person/muhammad]
+periods: [period/prophetic-era]
+regions: [arabia]
+legs:
+  - { from: place/medina, to: place/dhu-al-hulayfa, mode: "الرحيل بعد الظهر", note: "خرج يوم السبت بعد الظهر، والكتاب لا يذكر نقطة الانطلاق بلفظ صريح وإنما يجعلها المدينة من سياق الخبر؛ بلغ ذا الحليفة قبل العصر (الرحيق ص458)." }
+  - { from: place/dhu-al-hulayfa, to: place/dhu-tuwa, mode: "ركوب", note: "ركب القصواء بعد أن أحرم بالحج والعمرة معاً، ثم واصل السير حتى قرب من مكة فبات بذي طوى (الرحيق ص458-459)." }
+  - { from: place/dhu-tuwa, to: place/mecca, mode: "ركوب", note: "بعد صلاة الفجر والاغتسال دخل مكة صباح الأحد لأربع ليال خلون من ذي الحجة سنة 10هـ (الرحيق ص459)." }
+  - { from: place/mecca, to: place/medina, mode: "ركوب", note: "بعد طواف الوداع في الثالث عشر من ذي الحجة حثّ الركاب إلى المدينة، والكتاب لا يسمّي محطات هذا الطريق (الرحيق ص462-463). بين الدخول والعودة وقعت المشاعر: منى ونمرة وعرفات والمزدلفة ومحسّر وجمرة العقبة ومنى ثانية، ولا ملفات مكان لهذه المواضع بعد: منى (place/mina)، ونمرة (place/namira)، وعرفات (place/arafat)، والمزدلفة (place/muzdalifa)، وبطن محسّر (place/batn-muhassir)، وخيف بني كنانة (place/khayf-bani-kinana)." }
+waypoints:
+  - place: place/medina
+    day: 1
+    day_status: tradition
+    day_note: "يوم الرحيل: السبت بعد الظهر، لأربع بقين من ذي القعدة بحسب الكتاب، ورواية الحاشية بخمس بقين (الرحيق ص458)."
+    title: { ar: "الرحيل من المدينة", en: "Leaving Medina" }
+    narrative:
+      ar: "تهيأ النبي للرحيل يوم السبت، فاغتسل وادّهن ولبس إزاره ورداءه وقلّد هديه، ثم انطلق بعد الظهر حتى بلغ ذا الحليفة (الرحيق ص458)."
+      en: "On the Saturday the Prophet made ready to leave, bathed, anointed himself, put on his waist-wrap and cloak, garlanded his offering animals, and set out after noon (al-Raheeq p. 458)."
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/dhu-al-hulayfa
+    day: 1
+    day_status: tradition
+    day_note: "الليلة الأولى من الرحلة (الرحيق ص458)."
+    title: { ar: "ذو الحليفة والإحرام بالقران", en: "Dhu al-Hulayfa and the joint ihram" }
+    narrative:
+      ar: "بلغ ذا الحليفة قبل صلاة العصر فصلاها ركعتين، وبات هناك حتى أصبح. ثم أحرم بالحج والعمرة معاً، وساق الهدي معه، فكان قارناً (الرحيق ص458-459)."
+      en: "He reached Dhu al-Hulayfa before the afternoon prayer, prayed two units there and spent the night. In the morning he entered ihram for the Hajj and the Umrah together, with the offering animals, as a qarin (al-Raheeq pp. 458-459)."
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/dhu-tuwa
+    day: 8
+    day_status: debated
+    day_note: "الكتاب يقول إنه قضى في الطريق ثماني ليال؛ عدّ الأيام من يوم الرحيل تقديري (الرحيق ص459)."
+    title: { ar: "ذي طوى: المبيت قبل الدخول", en: "Dhu Tuwa: the night before entering" }
+    narrative:
+      ar: "واصل السير حتى قرب من مكة فبات بذي طوى، ثم اغتسل وصلى الفجر ودخل مكة (الرحيق ص459)."
+      en: "He continued until he was near Mecca, spent the night at Dhu Tuwa, and after the dawn prayer and a bath entered Mecca (al-Raheeq p. 459)."
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/mecca
+    day: 9
+    day_status: tradition
+    date: { hijri: "0010-12-04", precision: day, status: tradition, note: "يوم الأحد لأربع ليال خلون من ذي الحجة سنة 10هـ (الرحيق ص459)." }
+    title: { ar: "دخول مكة والطواف والسعي", en: "Entering Mecca: tawaf and sa'y" }
+    narrative:
+      ar: "دخل المسجد الحرام فطاف بالبيت وسعى بين الصفا والمروة، ولم يحل لأنه كان قارناً ساق الهدي، ونزل بأعلى مكة عند الحجون. وأمر من لم يكن معه هدي أن يجعلوا إحرامهم عمرة ثم يحلّوا (الرحيق ص459؛ مسلم)."
+      en: "He entered the Sacred Mosque, made tawaf of the House and sa'y between al-Safa and al-Marwa, and did not leave ihram because he had brought the offering animals. He lodged at the upper part of Mecca near al-Hajun, and told those without an offering to make their ihram an Umrah and then exit ihram (al-Raheeq p. 459; Muslim)."
+    events: [event/farewell-pilgrimage]
+    sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+  - place: place/mecca
+    day: 13
+    day_status: debated
+    date: { hijri: "0010-12-08", precision: day, status: tradition, note: "اليوم الثامن من ذي الحجة، يوم التروية (الرحيق ص459)." }
+    day_note: "التاريخ مذكور لليوم الثامن؛ ترقيم الأيام التالية (التاسع إلى الثالث عشر) تقديري من اليوم التاسع للدخول (الرحيق ص459-463)."
+    title: { ar: "المشاعر: منى وعرفات والمزدلفة ومنى", en: "The rites: Mina, Arafat, Muzdalifa and Mina" }
+    narrative:
+      ar: "في يوم التروية توجه إلى منى فصلى بها الصلوات الخمس، ثم أجاز إلى عرفة فوجد القبة قد ضُربت له بنمرة فنزل بها. ولما زالت الشمس ركب إلى بطن الوادي فخطب وجمع، ثم وقف بعرفة حتى غربت الشمس. ودفع إلى المزدلفة فصلى بها المغرب والعشاء بأذان واحد وإقامتين، ثم وقف بالمشعر الحرام حتى أسفر. ثم مضى إلى منى قبل طلوع الشمس، فمرّ ببطن محسّر، ورمى جمرة العقبة بسبع حصيات، ونحر بيده ثلاثاً وستين بدنة وأتم علي المائة. ثم أفاض إلى البيت فصلى الظهر بمكة. وأقام أيام التشريق بمنى، وفي اليوم الثالث عشر نفر إلى خيف بني كنانة من الأبطح، ثم طاف طواف الوداع (الرحيق ص459-463)."
+      en: "On the day of Tarwiyya he went to Mina and prayed the five prayers there, then moved to Arafat, where a tent had been pitched for him at Namira, and stayed there. After noon he rode into the valley, gave the address, and stood at Arafat until sunset. He went on to Muzdalifa, prayed maghrib and isha there, and stood at al-Mash'ar al-Haram until the light spread. Before sunrise he went to Mina, passed Batn Muhassir, threw seven pebbles at the Jamra of al-Aqaba, sacrificed sixty-three camels with his own hand and had Ali complete the hundred, then went back to the House and prayed zuhr in Mecca. He stayed in Mina for the days of tashriq; on the thirteenth he moved to Khayf Bani Kinana in al-Abtah and made the farewell tawaf (al-Raheeq pp. 459-463)."
+    events: [event/farewell-pilgrimage]
+    sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+relations:
+  - { type: part_of, target: event/farewell-pilgrimage }
+  - { type: had_participant, target: person/muhammad, role: "الحاج", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; drafted from the OCR of al-Raheeq al-Makhtum pp. 458-463" }

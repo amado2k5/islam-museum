@@ -1,0 +1,47 @@
+id: journey/hamra-al-asad-pursuit
+class: journey
+kind: military_campaign
+label: { ar: "مطاردة قريش إلى حمراء الأسد" }
+summary:
+  ar: "من الرجوع عن أحد إلى المدينة، ثم خروج النبي في صباح الأحد الثامن من شوال سنة 3هـ إلى حمراء الأسد على بعد ثمانية أميال جنوب المدينة، وإقامته فيها ثلاثة أيام، ثم رجوعه؛ والمحطات وفق ما ترويه كتب المغازي في الرحيق ص284-287."
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad, person/jabir-ibn-abdullah]
+legs:
+  - { from: place/uhud, to: place/medina, mode: "رجوع", note: "الرجوع من معركة أحد؛ بات المسلمون في المدينة وهم في حالة الطوارئ يحرسون أنقابها ومداخلها (الرحيق ص284)." }
+  - { from: place/medina, to: place/hamra-al-asad, start: { hijri: "0003-10-08", calendar: julian, precision: day, status: tradition, note: "صباح الأحد الثامن من شوال سنة 3هـ (الرحيق ص284)" }, mode: "مسير", note: "ندب النبي الناس إلى المسير لقاء العدو، ولا يخرج معه إلا من شهد القتال؛ استأذن جابر بن عبد الله فأذن له؛ بلغوا حمراء الأسد على ثمانية أميال من المدينة فعسكروا (الرحيق ص284-285)." }
+  - { from: place/hamra-al-asad, to: place/medina, mode: "رجوع", note: "أقام بحمراء الأسد الإثنين والثلاثاء والأربعاء (9-11 شوال)، ثم رجع إلى المدينة بعد أن أخذ أبا عزة الجمحي فأعدمه؛ ولم يحدد النص يوم الرجوع (الرحيق ص286)." }
+waypoints:
+  - place: place/medina
+    day: 1
+    day_status: tradition
+    date: { hijri: "0003-10-08", calendar: julian, precision: day, status: tradition, note: "يوم الأحد الثامن من شوال سنة 3هـ (الرحيق ص284)." }
+    title: { ar: "الندب إلى المطاردة" }
+    narrative:
+      ar: "بات المسلمون في المدينة بعد الرجوع عن أحد، وقد أنهكهم التعب وأصابهم الجراح، ويحرسون النبي خاصة. صباح الأحد الثامن من شوال نادى النبي في الناس للمسير إلى لقاء العدو، وقال: لا يخرج معنا إلا من شهد القتال؛ فاستجاب المسلمون على ما بهم من جراح (الرحيق ص284)."
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/hamra-al-asad
+    day: 1
+    day_status: tradition
+    day_note: "بلغوا حمراء الأسد يوم الأحد، ثم أقاموا الإثنين والثلاثاء والأربعاء (الرحيق ص285-286)."
+    date: { hijri: "0003-10-08", calendar: julian, precision: day, status: tradition, note: "وصول الأحد؛ أول أيام الإقامة." }
+    title: { ar: "حمراء الأسد: الإقامة والرسالة إلى أبي سفيان" }
+    narrative:
+      ar: "عسكر المسلمون بحمراء الأسد. هناك أسلم معبد بن أبي معبد الخزاعي، ويقال إنه بقي على شركه لكنه كان ناصحاً للنبي؛ فأمره النبي أن يلحق بأبي سفيان ويخذله. فلقيه معبد وهو بالروحاء، فشن عليه حرب أعصاب دعائية بأن محمداً خرج في جمع لم ير مثله، فانهارت عزائم الجيش المكي وأجمعوا على الانسحاب. ثم أرسل أبو سفيان ركباً من عبد القيس يبلغ المسلمين تهديداً، فزادهم إيماناً وقالوا: حسبنا الله ونعم الوكيل (الرحيق ص285-286)."
+    events: [event/hamra-al-asad]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/medina
+    day: 5
+    day_status: debated
+    day_note: "بعد الإقامة الثلاثية؛ النص لا يحدد يوم الرجوع، والرقم تقديري."
+    title: { ar: "الرجوع إلى المدينة" }
+    narrative:
+      ar: "قبل الرجوع أخذ النبي أبا عزة الجمحي، وكان قد نكث عهده بعد أن أُطلق من أسرى بدر، فأمر الزبير أو عاصم بن ثابت بقتله. وحكم كذلك بقتل معاوية بن المغيرة الذي تجسس على المدينة بعد خروج الجيش، فتعقبه زيد بن حارثة وعمار بن ياسر حتى قتلاه. ثم رجع النبي إلى المدينة (الرحيق ص286-287)."
+    sources: [source/mubarakpuri-raheeq]
+relations:
+  - { type: part_of, target: event/hamra-al-asad }
+  - { type: had_participant, target: person/muhammad, role: "القائد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/jabir-ibn-abdullah, role: "استأذن فأذن له بالخروج", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "قائد جيش قريش المنصرف", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; al-Raheeq al-Makhtum pp. 284-287" }
