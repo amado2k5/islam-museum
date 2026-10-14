@@ -3,7 +3,7 @@ class: event
 kind: other
 label: { ar: "هلاك خوارزمشاه بجزيرة بحر قزوين" }
 summary:
-  ar: "سار جنكزخان إلى خوارزم شاه فانجفل عن جيحون إلى نيسابور ثم ساق إلى مرج همدان رعباً من التتار فأحدق به العدو فقتلوا كل من معه ونجا هو بنفسه فخاض الماء إلى جزيرة ولحقته علة ذات الجنب فمات بها وحيداً فريداً وكفن في شاش فراش كان معه وذلك في سنة سبع عشرة وست مئة وملكوا جميع مملكة خوارزم شاه، وقال سبط الجوزي كان أول ظهور التتار بما وراء النهر سنة خمس عشرة فأخذوا بخارى وسمرقند وقتلوا أهلها، وقال ابن الأثير حادثة التتار من الحوادث العظمى والمصائب الكبرى التي عقمت الدهور عن مثلها عمت الخلائق وخصت المسلمين فلو قال قائل إن العالم منذ خلقه الله إلى الآن لم يبتلوا بمثلها لكان صادقاً {cite:tarikh-khulafa-minhaj-1434 p. 714}."
+  ar: "سار جنكزخان إلى خوارزم شاه فانجفل عن جيحون إلى نيسابور ثم ساق إلى مرج همدان رعباً من التتار فأحدق به العدو فقتلوا كل من معه ونجا هو بنفسه فخاض الماء إلى جزيرة ولحقته علة ذات الجنب فمات بها وحيداً فريداً وكفن في شاش فراش كان معه وذلك في سنة سبع عشرة وست مئة وملكوا جميع مملكة خوارزم شاه، وقال سبط الجوزي كان أول ظهور التتار بما وراء النهر سنة خمس عشرة فأخذوا بخارى وسمرقند وقتلوا أهلها، وقال ابن الأثير حادثة التتار من الحوادث العظمى والمصائب الكبرى التي عقمت الدهور عن مثلها عمت الخلائق وخصت المسلمين فلو قال قائل إن العالم منذ خلقه الله إلى الآن لم يبتلوا بمثلها لكان صادقاً {cite:tarikh-khulafa-minhaj-1434 p. 714}. وعند ابن الأثير أن جنكزخان لما ملك سمرقند سير عشرين ألف فارس وقال لهم اطلبوا خوارزم شاه أين كان ولو تعلق بالسماء حتى تدركوه، وهي الطائفة التي يسميها التتر المغربة، فعبروا جيحون في أحواض كبار من الخشب ألبسوها جلود البقر وضعوا فيها سلاحهم وألقوا الخيل في الماء وأمسكوا أذنابها فجذب كل فرس حوضه، فرحل خوارزم شاه في نفر من خاصته إلى نيسابور فمازندران، والتتر في أثره كلما رحل عن منزلة نزلوها لا يعرجون على نهب ولا قتل، حتى وصل إلى قلعة له في بحر طبرستان تعرف بآب سكون فركب في السفن فوقف التتر على ساحل البحر أيِّسين من لحاقه فرجعوا، ومات خوارزم شاه في تلك القلعة {cite:kamil-ibn-al-athir p. 406-407}."
   en: "Genghis marched; Khwarazmshah fled the Jayhun to Nishapur, then Hamadan's field, where the enemy ringed him, killed his company, and he alone swam to an island — pleurisy took him, alone, shrouded in a farrash's cloth, in 617; his whole realm fell. Ibn al-Athir: 'the Tatar calamity — had one said the world since creation was never tried its like, he would speak true' {cite:tarikh-khulafa-minhaj-1434 p. 714}."
 wings: [time]
 periods: [period/mongol-post-mongol]
@@ -13,10 +13,11 @@ date:
 relations:
   - { type: had_participant, target: person/muhammad-khwarazmshah, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/genghis-khan, role: "الغازي", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "المطارد حتى قلعة آب سكون", sources: [source/kamil-ibn-al-athir] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 704–714"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-45
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/kamil-ibn-al-athir]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
