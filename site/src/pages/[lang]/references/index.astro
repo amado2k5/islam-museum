@@ -1,0 +1,146 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { repoPath } from "../../../lib/paths";
+import { readFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+import { parse } from "yaml";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang).references;
+
+// Every source record in data/source, read at build time.
+const sourceDir = repoPath("data", "source");
+const records: any[] = readdirSync(sourceDir)
+  .filter((f) => f.endsWith(".yaml"))
+  .map((f) => parse(readFileSync(join(sourceDir, f), "utf8")))
+  .sort((a, b) => a.id.localeCompare(b.id));
+const ofType = (t: string) => records.filter((r) => r.type === t);
+const authors = (r: any) => (r.author ?? []).map((a: any) => [a.given, a.family].filter(Boolean).join(" ")).join("، ");
+const year = (r: any) => r.issued?.["date-parts"]?.[0]?.[0] ?? "";
+const title = (r: any) => r.title ?? r.label?.en ?? r.id;
+
+// Every source id named anywhere under data/, to catch ids that have no record yet.
+const referenced = new Set<string>();
+const walk = (dir: string) => {
+  for (const e of readdirSync(dir, { withFileTypes: true })) {
+    const p = join(dir, e.name);
+    if (e.isDirectory()) walk(p);
+    else if (e.name.endsWith(".yaml")) for (const m of readFileSync(p, "utf8").matchAll(/source\/([a-z0-9-]+)/g)) referenced.add(m[1]);
+  }
+};
+walk(repoPath("data"));
+const known = new Set(records.map((r) => r.id.replace("source/", "")));
+const unrecorded = [...referenced].filter((id) => !known.has(id)).sort();
+
+// Licensed texts and reference data, as recorded in docs/attribution.md.
+const resources = [
+  { name: "Tanzil Project (Qur'an text v1.1)", url: "https://tanzil.net", licence: "Tanzil terms of use", use: { ar: "نص القرآن في كل سجل آية، بلا تعديل", en: "The Qur'an text of every passage record, unaltered" } },
+  { name: "GeoNames", url: "https://www.geonames.org", licence: "CC BY 4.0", use: { ar: "معرّفات الأماكن والإحداثيات والأسماء البديلة", en: "Place identifiers, coordinates and alternate names" } },
+  { name: "Pleiades gazetteer", url: "https://pleiades.stoa.org", licence: "CC BY 3.0", use: { ar: "معرّفات الأماكن القديمة وأسماؤها", en: "Identifiers and ancient names of places" } },
+  { name: "Wikidata", url: "https://www.wikidata.org", licence: "CC0 1.0", use: { ar: "معرّفات وأسماء وتواريخ وعلاقات للمواد الأولى", en: "Identifiers, labels, dates and relations for seed entities" } },
+  { name: "The Metropolitan Museum of Art Open Access", url: "https://github.com/metmuseum/openaccess", licence: "CC0 1.0", use: { ar: "بيانات المقتنيات الفنية الإسلامية", en: "Object metadata from the Islamic Art department" } },
+  { name: "OpenITI Makhzan 2026.1.2", url: "https://zenodo.org/records/19861912", licence: "CC BY-NC-SA 4.0", use: { ar: "استخراج الوقائع والإحالات مع اقتباسات قصيرة، ولا يُعاد نشر النص", en: "Facts and bibliographic leads with short quotations; the text is never republished" } },
+  { name: "Wikipedia (all languages)", url: "https://www.wikipedia.org", licence: "CC BY-SA 4.0", use: { ar: "للبحث والسياق فقط، ولا تُعدّ مصدرًا", en: "Discovery and context only; never cited as a source" } },
+];
+
+// Software and libraries, with licences read from the installed packages.
+const deps = (file: string) => Object.keys(JSON.parse(readFileSync(repoPath(file), "utf8")).dependencies ?? {});
+const software = [...new Set([...deps("package.json"), ...deps("site/package.json")])].sort().map((name) => {
+  for (const base of [repoPath("site", "node_modules"), repoPath("node_modules")]) {
+    try {
+      const pkg = JSON.parse(readFileSync(join(base, name, "package.json"), "utf8"));
+      return { name, version: pkg.version, licence: typeof pkg.license === "string" ? pkg.license : pkg.license?.type ?? "" };
+    } catch {}
+  }
+  return { name, version: "", licence: "" };
+});
+
+const dash = (v: any) => (v === undefined || v === null || v === "" ? "—" : String(v));
+---
+<BaseLayout lang={lang} title={T.title} description={T.lede} path={`/${lang}/references/`}>
+  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
+    <h1>{T.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{T.lede}</p>
+
+    <h2>{T.books}</h2>
+    <ol class="ui refs">
+      {ofType("book").map((r) => (
+        <li id={r.id.replace("/", "-")}>
+          <b>{title(r)}</b>
+          <div class="ui muted">
+            {authors(r) && <span>{T.author}: {authors(r)} · </span>}
+            {r.publisher && <span>{T.publisher}: {r.publisher} · </span>}
+            {r.edition && <span>{T.edition}: {r.edition} · </span>}
+            {year(r) && <span>{T.year}: {year(r)} · </span>}
+            {r.ISBN && <span>{T.isbn}: {r.ISBN} · </span>}
+            <span>{T.language}: {r.language}</span>
+            <span> · <code>{r.id.replace("source/", "")}</code></span>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <h2>{T.web}</h2>
+    <ul class="ui refs">
+      {ofType("webpage").map((r) => (
+        <li>
+          <b>{title(r)}</b>
+          <div class="ui muted">
+            {r.publisher && <span>{T.publisher}: {r.publisher} · </span>}
+            {r.URL && <span>{T.url}: <a href={r.URL}>{r.URL}</a> · </span>}
+            <span>{T.licence}: {dash(r.open_access ? "open" : "")}</span>
+            <span> · <code>{r.id.replace("source/", "")}</code></span>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{T.datasets}</h2>
+    <ul class="ui refs">
+      {ofType("dataset").map((r) => (
+        <li>
+          <b>{title(r)}</b>
+          <div class="ui muted">
+            {r.publisher && <span>{T.publisher}: {r.publisher} · </span>}
+            {r.URL && <span>{T.url}: <a href={r.URL}>{r.URL}</a> · </span>}
+            <span><code>{r.id.replace("source/", "")}</code></span>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{T.resources}</h2>
+    <ul class="ui refs">
+      {resources.map((x) => (
+        <li>
+          <b>{x.name}</b>
+          <div class="ui muted">
+            <span>{T.licence}: {x.licence} · </span>
+            <span>{x.use[lang]} · </span>
+            <a href={x.url}>{x.url}</a>
+          </div>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{T.unrecorded}</h2>
+    <p class="ui muted">{T.unrecorded_note}</p>
+    <ul class="ui refs">
+      {unrecorded.map((id) => <li><code>source/{id}</code></li>)}
+    </ul>
+
+    <h2>{T.software}</h2>
+    <ul class="ui refs">
+      {software.map((s) => (
+        <li><b>{s.name}</b> <span class="ui muted">{s.version} · {T.licence}: {dash(s.licence)}</span></li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
+
+<style>
+  .refs li { margin-block: 0 14px; }
+  .refs .muted { font-size: .9rem; }
+</style>
