@@ -14,7 +14,7 @@ const T = ui(lang);
     <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
     <noscript><p class="panel ui">{T.search.noscript}</p></noscript>
     <link rel="stylesheet" href={`/pagefind-${lang}/pagefind-ui.css`} />
-    <script is:inline define:vars={{ placeholder: T.search.placeholder, lang }}>
+    <script is:inline define:vars={{ placeholder: T.search.placeholder, zeroResults: T.search.zero_results, lang }}>
       (function () {
         var s = document.createElement("script");
         s.src = "/pagefind-" + lang + "/pagefind-ui.js";
@@ -23,7 +23,7 @@ const T = ui(lang);
           var syn = { whole: {}, words: {} };
           var norm = function (t) { return t.normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()\/,.]/g, " ").replace(/\s+/g, " ").trim(); };
           (lang === "en" ? fetch("/search-synonyms.en.json") : fetch("/search-synonyms.ar.json")).then(function (r) { return r.ok ? r.json() : {}; }).then(function (j) { syn = j; }).catch(function () {});
-          new PagefindUI({ element: "#search", bundlePath: "/pagefind-" + lang + "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder },
+          new PagefindUI({ element: "#search", bundlePath: "/pagefind-" + lang + "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder, zero_results: zeroResults },
             processTerm: function (term) {
               var whole = syn.whole[norm(term)];
               if (whole && whole.length) return whole[0];
