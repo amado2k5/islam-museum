@@ -1,0 +1,21 @@
+id: event/al-sila-canal
+class: event
+kind: other
+label: { ar: "حفر نهر الصلة", en: "The Digging of Nahr al-Sila" }
+summary:
+  ar: "عند البلاذري: أمر المهدي أمير المؤمنين بحفر نهر الصلة فحفروا وأحيى ما عليه من الأرضين وجعلت غلته لصلات أهل الحرمين والنفقة هناك وكان شرط لمن تألف إليه من المزارعين الشرط الذي هم عليه اليوم خمسين سنة على أن يقاسموا بعد انقضاء الخمسين مقاسمة النصف."
+  en: "In al-Baladhuri: al-Mahdi ordered Nahr al-Sila dug; they dug it and revived the lands along it, assigning its revenue to the sila of the people of the two sanctuaries and their expenses there — the compact offered cultivators who joined it, which they remain on today, fifty years, after which they would sharecrop at half."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: occurred_at, target: place/nahr-al-sila }
+  - { type: had_participant, target: person/al-mahdi, role: "الآمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/kharaj }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 409"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-37
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

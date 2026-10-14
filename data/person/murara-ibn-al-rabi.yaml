@@ -1,0 +1,20 @@
+id: person/murara-ibn-al-rabi
+class: person
+label: { ar: "مرارة بن الربيع العمري", en: "Murara ibn al-Rabi al-Amri" }
+names:
+  - { kind: full, lang: ar, value: "مرارة بن الربيع العمري، من بني عمرو بن عوف" }
+gender: male
+summary:
+  ar: "أحد الثلاثة الذين خُلّفوا بعد تبوك؛ من بني عمرو بن عوف؛ لزم بيته أثناء المقاطعة، وذكر كعب أنه قال مثل مقالته."
+  en: One of the three who were left behind after Tabuk; of Banu Amr ibn Awf. He kept to his house during the boycott, and Ka'b relates that he spoke as Ka'b had spoken.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/boycott-of-the-three, role: "مقاطَع", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/repentance-of-the-three-accepted, role: "تيب عليه", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-amr-ibn-awf, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 175, 178", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 175, 178" }

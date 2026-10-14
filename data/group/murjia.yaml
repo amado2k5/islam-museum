@@ -1,0 +1,59 @@
+id: group/murjia
+class: group
+kind: sect
+label:
+  ar: المرجئة
+summary:
+  ar: طائفة تقول إن الإيمان قول دون عمل، ولا يزيد ولا ينقص، ولا يتفاضل الناس فيه؛ ويصف الكتاب قولهم كما نقله عن أهل السنة، ويحكم عليه بالبطلان.
+wings:
+- ideas
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- sects-and-schools
+- creed
+perspectives:
+- tradition: sunni-hanbali
+  id: book-account
+  stance:
+    ar: وصف قولهم كما ينقله الكتاب
+  summary:
+    ar: ينقل الكتاب أن المرجئة يزعمون أن الإيمان قول ولا عمل، وأن الإيمان لا يزيد ولا ينقص، وأن من آمن بلسانه ولم يعمل فهو مؤمن حقاً.
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 96
+  sources:
+  - source/madkhal-ibn-badran-turki
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: تُعدّ فرقة من فرق الضلال في لمعة الاعتقاد، ويُنقل وصفها كما في الكتاب
+    en: Listed among the sects of misguidance in Lum'at al-i'tiqad; described as the book describes them
+  summary:
+    ar: يعدّ ابن قدامة المرجئة في فرق الضلال، ويوضح المحقق معنى الإرجاء ووجوه تسميتهم بالمرجئة (ص 113–115 ط2).
+    en: Ibn Qudama lists this sect among the sects of misguidance; the editor's footnote gives its origin (2nd ed., pp. 113–115).
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad-ibn-uraiyir-2022
+    note:
+      ar: ص 113–115 (ط2)، هامش المحقق عن النشأة
+      en: pp. 113–115 (2nd ed.), editor's footnote on origins
+  sources:
+  - source/lumat-al-itiqad-ibn-uraiyir-2022
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-2-creed
+sources:
+- source/madkhal-ibn-badran-turki
+- source/lumat-al-itiqad-ibn-uraiyir-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from p. 96 of the book; the group's own words and the academic account are still to be added

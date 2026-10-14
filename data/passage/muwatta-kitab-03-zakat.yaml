@@ -1,0 +1,14 @@
+id: passage/muwatta-kitab-03-zakat
+class: passage
+unit: chapter
+work: work/muwatta-malik
+ref: "kitab-3"
+label: { ar: "الموطأ، كتاب الزكاة", en: "Muwatta, Book of Zakat" }
+summary:
+  ar: "كتاب الزكاة في الموطأ، المجلد الأول، يبدأ في صفحة 333 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
+  en: "The Book of Zakat in the Muwatta, volume 1, starting at PDF page 333 (PDF numbering, not the printed page)."
+relations:
+  - { type: part_of, target: work/muwatta-malik }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 333", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }

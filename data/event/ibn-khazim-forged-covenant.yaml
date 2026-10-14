@@ -1,0 +1,17 @@
+id: event/ibn-khazim-forged-covenant
+class: event
+kind: other
+label: { ar: "عهد ابن خازم المفتعل على خراسان", en: "Ibn Khazim's Forged Covenant over Khurasan" }
+summary:
+  ar: "افتعل ابن خازم عهداً على لسان ابن عامر وتولى خراسان فاجتمعت بها جموع الترك ففضهم ثم قدم البصرة قبل قتل عثمان."
+  en: "Ibn Khazim contrived a covenant on Ibn Amir's tongue and took Khurasan; the Turkish masses gathered against him and he scattered them, then came to Basra before Uthman's killing."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "المتولي", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

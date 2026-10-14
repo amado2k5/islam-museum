@@ -1,0 +1,217 @@
+# Canon of prominent Sunni books to locate as reference copies (docs/plan/15 layer: copyrighted-reference / pd).
+# t = title, a = author, d = death year AH (null = modern), k = tokens that must ALL appear in the item's title+creator
+# (normalised Arabic; "x|y" = either). cat: hadith, hadith-sciences, rijal, sunnah-aqeedah, aqeedah, tafsir, quran-sciences,
+# seerah, shamail, sahaba, sahabiyat, tareekh, tabaqat, geography, fiqh, usul, adab-zuhd, lugha.
+# Add entries freely; ids are slugs. Keep to well-known works; the fetcher decides what exists openly on archive.org.
+books:
+# ---- hadith: the six + other core collections
+- {id: sahih-bukhari, cat: hadith, t: صحيح البخاري, a: محمد بن إسماعيل البخاري, d: 256, k: [صحيح, البخاري]}
+- {id: sahih-muslim, cat: hadith, t: صحيح مسلم, a: مسلم بن الحجاج, d: 261, k: [صحيح, مسلم]}
+- {id: sunan-abi-dawud, cat: hadith, t: سنن أبي داود, a: أبو داود السجستاني, d: 275, k: [سنن, "ابي داود|ابو داود"]}
+- {id: jami-tirmidhi, cat: hadith, t: سنن الترمذي, a: الترمذي, d: 279, k: ["سنن|جامع", الترمذي]}
+- {id: sunan-nasai, cat: hadith, t: سنن النسائي, a: النسائي, d: 303, k: [سنن, النسايي|النسائي]}
+- {id: sunan-ibn-majah, cat: hadith, t: سنن ابن ماجه, a: ابن ماجه, d: 273, k: [سنن, "ابن ماجه|ابن ماجة"]}
+- {id: muwatta-malik, cat: hadith, t: الموطأ, a: مالك بن أنس, d: 179, k: [الموطا, مالك]}
+- {id: musnad-ahmad, cat: hadith, t: مسند الإمام أحمد بن حنبل, a: أحمد بن حنبل, d: 241, k: [مسند, احمد]}
+- {id: sunan-darimi, cat: hadith, t: سنن الدارمي, a: الدارمي, d: 255, k: [الدارمي, "سنن|مسند"]}
+- {id: sahih-ibn-khuzayma, cat: hadith, t: صحيح ابن خزيمة, a: ابن خزيمة, d: 311, k: [صحيح, خزيمه]}
+- {id: sahih-ibn-hibban, cat: hadith, t: صحيح ابن حبان, a: ابن حبان, d: 354, k: [صحيح, حبان]}
+- {id: mustadrak-hakim, cat: hadith, t: المستدرك على الصحيحين, a: الحاكم النيسابوري, d: 405, k: [المستدرك, الصحيحين]}
+- {id: musannaf-abd-al-razzaq, cat: hadith, t: المصنف, a: عبد الرزاق الصنعاني, d: 211, k: [المصنف, "عبد الرزاق"]}
+- {id: musannaf-ibn-abi-shayba, cat: hadith, t: المصنف, a: ابن أبي شيبة, d: 235, k: [المصنف, "شيبه"]}
+- {id: sunan-bayhaqi-kubra, cat: hadith, t: السنن الكبرى, a: البيهقي, d: 458, k: [السنن, الكبري, البيهقي]}
+- {id: sunan-daraqutni, cat: hadith, t: سنن الدارقطني, a: الدارقطني, d: 385, k: [سنن, الدارقطني]}
+- {id: muallam-kabir-tabarani, cat: hadith, t: المعجم الكبير, a: الطبراني, d: 360, k: [المعجم, الكبير, الطبراني]}
+- {id: muallam-awsat-tabarani, cat: hadith, t: المعجم الأوسط, a: الطبراني, d: 360, k: [المعجم, الاوسط, الطبراني]}
+- {id: musnad-abu-yala, cat: hadith, t: مسند أبي يعلى, a: أبو يعلى الموصلي, d: 307, k: [مسند, "يعلي|يعلى"]}
+- {id: musnad-bazzar, cat: hadith, t: مسند البزار, a: البزار, d: 292, k: [مسند, البزار]}
+- {id: adab-mufrad, cat: hadith, t: الأدب المفرد, a: البخاري, d: 256, k: [الادب, المفرد, البخاري]}
+- {id: riyad-salihin, cat: hadith, t: رياض الصالحين, a: النووي, d: 676, k: [رياض, الصالحين]}
+- {id: arbaun-nawawi, cat: hadith, t: الأربعون النووية, a: النووي, d: 676, k: [الاربعين|الاربعون, النووي|النوويه]}
+- {id: bulugh-maram, cat: hadith, t: بلوغ المرام, a: ابن حجر العسقلاني, d: 852, k: [بلوغ, المرام]}
+- {id: mishkat-masabih, cat: hadith, t: مشكاة المصابيح, a: التبريزي, d: 741, k: [مشكاه, المصابيح]}
+- {id: umdat-ahkam, cat: hadith, t: عمدة الأحكام, a: عبد الغني المقدسي, d: 600, k: [عمده, الاحكام]}
+- {id: jami-ul-usul, cat: hadith, t: جامع الأصول في أحاديث الرسول, a: ابن الأثير الجزري, d: 606, k: [جامع, الاصول]}
+- {id: jami-sagheer, cat: hadith, t: الجامع الصغير, a: السيوطي, d: 911, k: [الجامع, الصغير, السيوطي]}
+- {id: targhib-tarhib, cat: hadith, t: الترغيب والترهيب, a: المنذري, d: 656, k: [الترغيب, الترهيب]}
+- {id: silsila-sahiha, cat: hadith, t: سلسلة الأحاديث الصحيحة, a: الألباني, d: 1420, k: [سلسله, الاحاديث, الصحيحه]}
+- {id: sahih-wa-daif-jami, cat: hadith, t: صحيح الجامع الصغير وزيادته, a: الألباني, d: 1420, k: [صحيح, الجامع, الصغير, الالباني]}
+# ---- hadith commentaries and sciences
+- {id: fath-bari, cat: hadith, t: فتح الباري شرح صحيح البخاري, a: ابن حجر العسقلاني, d: 852, k: [فتح, الباري]}
+- {id: umdat-qari, cat: hadith, t: عمدة القاري شرح صحيح البخاري, a: بدر الدين العيني, d: 855, k: [عمده, القاري]}
+- {id: irshad-sari, cat: hadith, t: إرشاد الساري لشرح صحيح البخاري, a: القسطلاني, d: 923, k: [ارشاد, الساري]}
+- {id: sharh-nawawi-muslim, cat: hadith, t: المنهاج شرح صحيح مسلم بن الحجاج, a: النووي, d: 676, k: [شرح, مسلم, النووي]}
+- {id: jami-ulum-hikam, cat: hadith, t: جامع العلوم والحكم في شرح خمسين حديثا من جوامع الكلم, a: ابن رجب الحنبلي, d: 795, k: [جامع, العلوم|العلوم, الحكم|الحكم, ابن رجب|رجب]}
+- {id: tamhid-ibn-abd-al-barr, cat: hadith, t: التمهيد لما في الموطأ من المعاني والأسانيد, a: ابن عبد البر, d: 463, k: [التمهيد, الموطا]}
+- {id: istidhkar, cat: hadith, t: الاستذكار, a: ابن عبد البر, d: 463, k: [الاستذكار, "عبد البر"]}
+- {id: awn-mabud, cat: hadith, t: عون المعبود شرح سنن أبي داود, a: شمس الحق العظيم آبادي, d: 1329, k: [عون, المعبود]}
+- {id: tuhfat-ahwadhi, cat: hadith, t: تحفة الأحوذي, a: المباركفوري, d: 1353, k: [تحفه, الاحوذي]}
+- {id: nayl-awtar, cat: hadith, t: نيل الأوطار, a: الشوكاني, d: 1250, k: [نيل, الاوطار]}
+- {id: subul-salam, cat: hadith, t: سبل السلام, a: الصنعاني, d: 1182, k: [سبل, السلام, الصنعاني]}
+- {id: muqaddima-ibn-salah, cat: hadith-sciences, t: مقدمة ابن الصلاح, a: ابن الصلاح, d: 643, k: [مقدمه, "الصلاح"]}
+- {id: nukhbat-fikar, cat: hadith-sciences, t: نخبة الفكر ونزهة النظر, a: ابن حجر العسقلاني, d: 852, k: [نخبه, الفكر]}
+- {id: tadrib-rawi, cat: hadith-sciences, t: تدريب الراوي, a: السيوطي, d: 911, k: [تدريب, الراوي]}
+- {id: kifaya-khatib, cat: hadith-sciences, t: الكفاية في علم الرواية, a: الخطيب البغدادي, d: 463, k: [الكفايه, الروايه]}
+- {id: ilal-ibn-abi-hatim, cat: hadith-sciences, t: علل الحديث, a: ابن أبي حاتم, d: 327, k: [علل, الحديث, حاتم]}
+- {id: mawduat-ibn-jawzi, cat: hadith-sciences, t: الموضوعات, a: ابن الجوزي, d: 597, k: [الموضوعات, الجوزي]}
+# ---- rijal
+- {id: tahdhib-kamal, cat: rijal, t: تهذيب الكمال في أسماء الرجال, a: المزي, d: 742, k: [تهذيب, الكمال, المزي]}
+- {id: tahdhib-tahdhib, cat: rijal, t: تهذيب التهذيب, a: ابن حجر العسقلاني, d: 852, k: [تهذيب, التهذيب]}
+- {id: taqrib-tahdhib, cat: rijal, t: تقريب التهذيب, a: ابن حجر العسقلاني, d: 852, k: [تقريب, التهذيب]}
+- {id: mizan-itidal, cat: rijal, t: ميزان الاعتدال في نقد الرجال, a: الذهبي, d: 748, k: [ميزان, الاعتدال]}
+- {id: jarh-tadil, cat: rijal, t: الجرح والتعديل, a: ابن أبي حاتم الرازي, d: 327, k: [الجرح, التعديل]}
+- {id: thiqat-ibn-hibban, cat: rijal, t: الثقات, a: ابن حبان, d: 354, k: [الثقات, حبان]}
+- {id: tarikh-kabir-bukhari, cat: rijal, t: التاريخ الكبير, a: البخاري, d: 256, k: [التاريخ, الكبير, البخاري]}
+# ---- sunnah / aqeedah (creed)
+- {id: sharh-usul-itiqad, cat: sunnah-aqeedah, t: شرح أصول اعتقاد أهل السنة والجماعة, a: اللالكائي, d: 418, k: [اصول, اعتقاد, السنه]}
+- {id: kitab-sunnah-ibn-abi-asim, cat: sunnah-aqeedah, t: كتاب السنة, a: ابن أبي عاصم, d: 287, k: [السنه, عاصم]}
+- {id: kitab-sunnah-khallal, cat: sunnah-aqeedah, t: السنة, a: الخلال, d: 311, k: [السنه, الخلال]}
+- {id: kitab-sunnah-abdullah-ahmad, cat: sunnah-aqeedah, t: السنة, a: عبد الله بن أحمد بن حنبل, d: 290, k: [السنه, "عبد الله بن احمد"]}
+- {id: sharh-sunnah-barbahari, cat: sunnah-aqeedah, t: شرح السنة, a: البربهاري, d: 329, k: [شرح, السنه, البربهاري]}
+- {id: ibana-ibn-batta, cat: sunnah-aqeedah, t: الإبانة الكبرى, a: ابن بطة العكبري, d: 387, k: [الابانه, بطه]}
+- {id: aqidat-tahawiyya, cat: aqeedah, t: العقيدة الطحاوية, a: الطحاوي, d: 321, k: [الطحاويه|الطحاوي, "العقيده|شرح"]}
+- {id: sharh-tahawiyya, cat: aqeedah, t: شرح العقيدة الطحاوية, a: ابن أبي العز الحنفي, d: 792, k: [شرح, الطحاويه]}
+- {id: kitab-tawhid, cat: aqeedah, t: كتاب التوحيد, a: محمد بن عبد الوهاب, d: 1206, k: [كتاب, التوحيد, "عبد الوهاب"]}
+- {id: kitab-tawhid-ibn-khuzayma, cat: aqeedah, t: كتاب التوحيد, a: ابن خزيمة, d: 311, k: [التوحيد, خزيمه]}
+- {id: aqida-wasitiyya, cat: aqeedah, t: العقيدة الواسطية, a: ابن تيمية, d: 728, k: [الواسطيه, "العقيده|شرح"]}
+- {id: majmu-fatawa, cat: aqeedah, t: مجموع الفتاوى, a: ابن تيمية, d: 728, k: [مجموع, الفتاوي, تيميه]}
+- {id: minhaj-sunna, cat: aqeedah, t: منهاج السنة النبوية, a: ابن تيمية, d: 728, k: [منهاج, السنه, النبويه]}
+- {id: daraa-taarud, cat: aqeedah, t: درء تعارض العقل والنقل, a: ابن تيمية, d: 728, k: [درء, تعارض, العقل]}
+- {id: kitab-iman-ibn-taymiyya, cat: aqeedah, t: كتاب الإيمان, a: ابن تيمية, d: 728, k: [الايمان, تيميه]}
+- {id: lumat-itiqad, cat: aqeedah, t: لمعة الاعتقاد, a: ابن قدامة المقدسي, d: 620, k: [لمعه, الاعتقاد]}
+- {id: al-ibana-ashari, cat: aqeedah, t: الإبانة عن أصول الديانة, a: أبو الحسن الأشعري, d: 324, k: [الابانه, الاصول, الديانه]}
+- {id: maqalat-islamiyyin, cat: aqeedah, t: مقالات الإسلاميين, a: أبو الحسن الأشعري, d: 324, k: [مقالات, الاسلاميين]}
+- {id: milal-nihal, cat: aqeedah, t: الملل والنحل, a: الشهرستاني, d: 548, k: [الملل, النحل]}
+- {id: fisal-ibn-hazm, cat: aqeedah, t: الفصل في الملل والأهواء والنحل, a: ابن حزم, d: 456, k: [الفصل, الملل, الاهواء]}
+- {id: ilam-muwaqqiin, cat: aqeedah, t: إعلام الموقعين عن رب العالمين, a: ابن القيم, d: 751, k: [اعلام, الموقعين]}
+- {id: madarij-salikin, cat: aqeedah, t: مدارج السالكين, a: ابن القيم, d: 751, k: [مدارج, السالكين]}
+- {id: ighathat-lahfan, cat: aqeedah, t: إغاثة اللهفان, a: ابن القيم, d: 751, k: [اغاثه, اللهفان]}
+- {id: sawaiq-mursala, cat: aqeedah, t: الصواعق المرسلة, a: ابن القيم, d: 751, k: [الصواعق, المرسله]}
+- {id: ihya-ulum-din, cat: adab-zuhd, t: إحياء علوم الدين, a: أبو حامد الغزالي, d: 505, k: [احياء, علوم, الدين]}
+# ---- tafsir
+- {id: tafsir-tabari, cat: tafsir, t: جامع البيان في تأويل القرآن, a: الطبري, d: 310, k: [جامع, البيان, الطبري]}
+- {id: tafsir-ibn-kathir, cat: tafsir, t: تفسير القرآن العظيم, a: ابن كثير, d: 774, k: [تفسير, العظيم, كثير]}
+- {id: tafsir-qurtubi, cat: tafsir, t: الجامع لأحكام القرآن, a: القرطبي, d: 671, k: [الجامع, لاحكام, القرطبي]}
+- {id: tafsir-baghawi, cat: tafsir, t: معالم التنزيل, a: البغوي, d: 516, k: [معالم, التنزيل, البغوي]}
+- {id: tafsir-ibn-atiyya, cat: tafsir, t: المحرر الوجيز في تفسير الكتاب العزيز, a: ابن عطية, d: 542, k: [المحرر, الوجيز]}
+- {id: tafsir-razi, cat: tafsir, t: مفاتيح الغيب التفسير الكبير, a: فخر الدين الرازي, d: 606, k: [مفاتيح, الغيب]}
+- {id: tafsir-jalalayn, cat: tafsir, t: تفسير الجلالين, a: المحلي والسيوطي, d: 911, k: [تفسير, الجلالين]}
+- {id: tafsir-baydawi, cat: tafsir, t: أنوار التنزيل وأسرار التأويل, a: البيضاوي, d: 685, k: [انوار, التنزيل, البيضاوي]}
+- {id: tafsir-shawkani, cat: tafsir, t: فتح القدير, a: الشوكاني, d: 1250, k: [فتح, القدير, الشوكاني]}
+- {id: tafsir-alusi, cat: tafsir, t: روح المعاني, a: الألوسي, d: 1270, k: [روح, المعاني, الالوسي]}
+- {id: tafsir-saadi, cat: tafsir, t: تيسير الكريم الرحمن في تفسير كلام المنان, a: عبد الرحمن السعدي, d: 1376, k: [تيسير, الكريم, الرحمن]}
+- {id: tafsir-ibn-ashur, cat: tafsir, t: التحرير والتنوير, a: محمد الطاهر ابن عاشور, d: 1393, k: [التحرير, التنوير]}
+- {id: adwa-bayan, cat: tafsir, t: أضواء البيان في إيضاح القرآن بالقرآن, a: محمد الأمين الشنقيطي, d: 1393, k: [اضواء, البيان]}
+- {id: zad-masir, cat: tafsir, t: زاد المسير في علم التفسير, a: ابن الجوزي, d: 597, k: [زاد, المسير]}
+- {id: tafsir-zamakhshari, cat: tafsir, t: الكشاف, a: الزمخشري, d: 538, k: [الكشاف, الزمخشري]}
+- {id: tafsir-nasafi, cat: tafsir, t: مدارك التنزيل وحقائق التأويل, a: النسفي, d: 710, k: [مدارك, التنزيل]}
+- {id: tafsir-tantawi-wasit, cat: tafsir, t: التفسير الوسيط للقرآن الكريم, a: محمد سيد طنطاوي, d: 1431, k: [التفسير, الوسيط, طنطاوي]}
+- {id: fi-zilal, cat: tafsir, t: في ظلال القرآن, a: سيد قطب, d: 1386, k: [ظلال, القران]}
+- {id: asbab-nuzul-wahidi, cat: quran-sciences, t: أسباب النزول, a: الواحدي, d: 468, k: [اسباب, النزول, الواحدي]}
+- {id: itqan, cat: quran-sciences, t: الإتقان في علوم القرآن, a: السيوطي, d: 911, k: [الاتقان, علوم, القران]}
+- {id: burhan-zarkashi, cat: quran-sciences, t: البرهان في علوم القرآن, a: الزركشي, d: 794, k: [البرهان, علوم, القران]}
+- {id: manahil-irfan, cat: quran-sciences, t: مناهل العرفان في علوم القرآن, a: الزرقاني, d: 1367, k: [مناهل, العرفان]}
+- {id: nasikh-mansukh, cat: quran-sciences, t: الناسخ والمنسوخ, a: أبو جعفر النحاس, d: 338, k: [الناسخ, المنسوخ]}
+# ---- seerah and shamail
+- {id: sira-ibn-hisham, cat: seerah, t: السيرة النبوية, a: ابن هشام, d: 218, k: [السيره, "هشام"]}
+- {id: sira-ibn-ishaq, cat: seerah, t: السير والمغازي, a: ابن إسحاق, d: 151, k: [السير, المغازي, اسحاق]}
+- {id: maghazi-waqidi, cat: seerah, t: المغازي, a: الواقدي, d: 207, k: [المغازي, الواقدي]}
+- {id: tabaqat-ibn-saad, cat: tabaqat, t: الطبقات الكبرى, a: ابن سعد, d: 230, k: [الطبقات, الكبري, "سعد"]}
+- {id: dalail-nubuwwa-bayhaqi, cat: seerah, t: دلائل النبوة, a: البيهقي, d: 458, k: [دلايل|دلائل, النبوه, البيهقي]}
+- {id: dalail-nubuwwa-abu-nuaym, cat: seerah, t: دلائل النبوة, a: أبو نعيم الأصبهاني, d: 430, k: [دلايل|دلائل, النبوه, نعيم]}
+- {id: rawd-unuf, cat: seerah, t: الروض الأنف, a: السهيلي, d: 581, k: [الروض, الانف]}
+- {id: zad-maad, cat: seerah, t: زاد المعاد في هدي خير العباد, a: ابن القيم, d: 751, k: [زاد, المعاد]}
+- {id: bidaya-nihaya, cat: tareekh, t: البداية والنهاية, a: ابن كثير, d: 774, k: [البدايه, النهايه, كثير]}
+- {id: sira-nabawiyya-ibn-kathir, cat: seerah, t: السيرة النبوية, a: ابن كثير, d: 774, k: [السيره, النبويه, كثير]}
+- {id: uyun-athar, cat: seerah, t: عيون الأثر في فنون المغازي والشمائل والسير, a: ابن سيد الناس, d: 734, k: [عيون, الاثر]}
+- {id: subul-huda, cat: seerah, t: سبل الهدى والرشاد في سيرة خير العباد, a: الصالحي الشامي, d: 942, k: [سبل, الهدي, الرشاد]}
+- {id: shifa-qadi-iyad, cat: shamail, t: الشفا بتعريف حقوق المصطفى, a: القاضي عياض, d: 544, k: [الشفا, حقوق, المصطفي]}
+- {id: shamail-tirmidhi, cat: shamail, t: الشمائل المحمدية, a: الترمذي, d: 279, k: [الشمايل|الشمائل, المحمديه]}
+- {id: mawahib-laduniyya, cat: seerah, t: المواهب اللدنية, a: القسطلاني, d: 923, k: [المواهب, اللدنيه]}
+- {id: raheeq-makhtum, cat: seerah, t: الرحيق المختوم, a: صفي الرحمن المباركفوري, d: 1427, k: [الرحيق, المختوم]}
+- {id: fiqh-sira-ghazali, cat: seerah, t: فقه السيرة, a: محمد الغزالي, d: 1416, k: [فقه, السيره]}
+- {id: fiqh-sira-buti, cat: seerah, t: فقه السيرة النبوية, a: محمد سعيد رمضان البوطي, d: 1434, k: [فقه, السيره, البوطي]}
+- {id: sira-nabawiyya-salabi, cat: seerah, t: السيرة النبوية عرض وقائع وتحليل أحداث, a: علي محمد الصلابي, d: null, k: [السيره, النبويه, الصلابي]}
+- {id: sahih-sira-umari, cat: seerah, t: السيرة النبوية الصحيحة, a: أكرم ضياء العمري, d: null, k: [السيره, النبويه, الصحيحه, العمري]}
+- {id: sira-nabawiyya-nadwi, cat: seerah, t: السيرة النبوية, a: أبو الحسن الندوي, d: 1420, k: [السيره, النبويه, الندوي]}
+- {id: nur-yaqin, cat: seerah, t: نور اليقين في سيرة سيد المرسلين, a: محمد الخضري بك, d: 1345, k: [نور, اليقين, سيره]}
+- {id: muhammad-haykal, cat: seerah, t: حياة محمد, a: محمد حسين هيكل, d: 1376, k: [حياه, محمد, هيكل]}
+- {id: asma-ul-husna-ibn-qayyim-jala, cat: seerah, t: جلاء الأفهام في فضل الصلاة على محمد خير الأنام, a: ابن القيم, d: 751, k: [جلاء, الافهام]}
+# ---- sahaba
+- {id: isti-ab, cat: sahaba, t: الاستيعاب في معرفة الأصحاب, a: ابن عبد البر, d: 463, k: [الاستيعاب, الاصحاب]}
+- {id: usd-ghaba, cat: sahaba, t: أسد الغابة في معرفة الصحابة, a: ابن الأثير, d: 630, k: [اسد, الغابه]}
+- {id: isaba, cat: sahaba, t: الإصابة في تمييز الصحابة, a: ابن حجر العسقلاني, d: 852, k: [الاصابه, الصحابه]}
+- {id: marifat-sahaba-abu-nuaym, cat: sahaba, t: معرفة الصحابة, a: أبو نعيم الأصبهاني, d: 430, k: [معرفه, الصحابه, نعيم]}
+- {id: siyar-alam-nubala, cat: sahaba, t: سير أعلام النبلاء, a: الذهبي, d: 748, k: [سير, اعلام, النبلاء]}
+- {id: tajrid-asma-sahaba, cat: sahaba, t: تجريد أسماء الصحابة, a: الذهبي, d: 748, k: [تجريد, اسماء, الصحابه]}
+- {id: hilyat-awliya, cat: sahaba, t: حلية الأولياء وطبقات الأصفياء, a: أبو نعيم الأصبهاني, d: 430, k: [حليه, الاولياء]}
+- {id: safwat-safwa, cat: sahaba, t: صفة الصفوة, a: ابن الجوزي, d: 597, k: [صفه, الصفوه]}
+- {id: hayat-sahaba, cat: sahaba, t: حياة الصحابة, a: محمد يوسف الكاندهلوي, d: 1384, k: [حياه, الصحابه]}
+- {id: suwar-hayat-sahaba, cat: sahaba, t: صور من حياة الصحابة, a: عبد الرحمن رأفت الباشا, d: 1417, k: [صور, حياه, الصحابه]}
+- {id: rijal-hawl-rasul, cat: sahaba, t: رجال حول الرسول, a: خالد محمد خالد, d: 1416, k: [رجال, حول, الرسول]}
+- {id: khulafa-rashidun-salabi, cat: sahaba, t: تاريخ الخلفاء الراشدين, a: علي محمد الصلابي, d: null, k: [الخلفاء, الراشدين]}
+- {id: tarikh-khulafa, cat: tareekh, t: تاريخ الخلفاء, a: السيوطي, d: 911, k: [تاريخ, الخلفاء, السيوطي]}
+- {id: fadail-sahaba-ahmad, cat: sahaba, t: فضائل الصحابة, a: أحمد بن حنبل, d: 241, k: [فضايل|فضائل, الصحابه]}
+- {id: riyad-nadira, cat: sahaba, t: الرياض النضرة في مناقب العشرة, a: محب الدين الطبري, d: 694, k: [الرياض, النضره, العشره]}
+# ---- sahabiyat and women
+- {id: nisa-hawl-rasul, cat: sahabiyat, t: نساء حول الرسول, a: محمود المصري, d: null, k: [نساء, حول, الرسول]}
+- {id: sahabiyyat-mawsua, cat: sahabiyat, t: الصحابيات الجليلات, a: "", d: null, k: [الصحابيات]}
+- {id: nisa-sahabiyat-tabaqat, cat: sahabiyat, t: الطبقات الكبرى القسم المتمم لتابعي أهل المدينة ومن بعدهم (النساء), a: ابن سعد, d: 230, k: [الطبقات, النساء]}
+- {id: siyar-nisa, cat: sahabiyat, t: أعلام النساء في عالمي العرب والإسلام, a: عمر رضا كحالة, d: 1408, k: [اعلام, النساء]}
+- {id: azwaj-nabi, cat: sahabiyat, t: أزواج النبي, a: ابن سعد, d: 230, k: [ازواج, النبي]}
+- {id: mawsuat-sahabiyat-ahmad, cat: sahabiyat, t: نساء من عصر النبوة, a: "", d: null, k: [نساء, النبوه]}
+# ---- tareekh
+- {id: tarikh-tabari, cat: tareekh, t: تاريخ الرسل والملوك, a: الطبري, d: 310, k: [تاريخ, الرسل, الملوك]}
+- {id: kamil-tarikh, cat: tareekh, t: الكامل في التاريخ, a: ابن الأثير, d: 630, k: [الكامل, التاريخ, الاثير]}
+- {id: tarikh-islam-dhahabi, cat: tareekh, t: تاريخ الإسلام ووفيات المشاهير والأعلام, a: الذهبي, d: 748, k: [تاريخ, الاسلام, الذهبي]}
+- {id: muqaddima-ibn-khaldun, cat: tareekh, t: مقدمة ابن خلدون, a: ابن خلدون, d: 808, k: [مقدمه, خلدون]}
+- {id: tarikh-ibn-khaldun, cat: tareekh, t: كتاب العبر وديوان المبتدأ والخبر, a: ابن خلدون, d: 808, k: [العبر, ديوان, المبتدا]}
+- {id: muruj-dhahab, cat: tareekh, t: مروج الذهب ومعادن الجوهر, a: المسعودي, d: 346, k: [مروج, الذهب]}
+- {id: futuh-buldan, cat: tareekh, t: فتوح البلدان, a: البلاذري, d: 279, k: [فتوح, البلدان]}
+- {id: ansab-ashraf, cat: tareekh, t: أنساب الأشراف, a: البلاذري, d: 279, k: [انساب, الاشراف]}
+- {id: tarikh-baghdad, cat: tareekh, t: تاريخ بغداد, a: الخطيب البغدادي, d: 463, k: [تاريخ, بغداد, الخطيب]}
+- {id: tarikh-dimashq, cat: tareekh, t: تاريخ دمشق, a: ابن عساكر, d: 571, k: [تاريخ, دمشق, عساكر]}
+- {id: muntazam, cat: tareekh, t: المنتظم في تاريخ الملوك والأمم, a: ابن الجوزي, d: 597, k: [المنتظم, التاريخ|تاريخ]}
+- {id: wafayat-ayan, cat: tareekh, t: وفيات الأعيان وأنباء أبناء الزمان, a: ابن خلكان, d: 681, k: [وفيات, الاعيان]}
+- {id: shadharat-dhahab, cat: tareekh, t: شذرات الذهب في أخبار من ذهب, a: ابن العماد الحنبلي, d: 1089, k: [شذرات, الذهب]}
+- {id: tabaqat-shafiiyya-subki, cat: tabaqat, t: طبقات الشافعية الكبرى, a: تاج الدين السبكي, d: 771, k: [طبقات, الشافعيه, السبكي]}
+- {id: dhayl-tabaqat-hanabila, cat: tabaqat, t: ذيل طبقات الحنابلة, a: ابن رجب, d: 795, k: [ذيل, طبقات, الحنابله]}
+- {id: tabaqat-fuqaha, cat: tabaqat, t: طبقات الفقهاء, a: الشيرازي, d: 476, k: [طبقات, الفقهاء]}
+- {id: tabaqat-huffaz, cat: tabaqat, t: تذكرة الحفاظ, a: الذهبي, d: 748, k: [تذكره, الحفاظ]}
+- {id: fihrist-ibn-nadim, cat: tareekh, t: الفهرست, a: ابن النديم, d: 385, k: [الفهرست, النديم]}
+- {id: kashf-zunun, cat: tareekh, t: كشف الظنون عن أسامي الكتب والفنون, a: حاجي خليفة, d: 1067, k: [كشف, الظنون]}
+- {id: alam-zirikli, cat: tareekh, t: الأعلام قاموس تراجم, a: خير الدين الزركلي, d: 1396, k: [الاعلام, الزركلي]}
+- {id: tarikh-islam-hasan-ibrahim, cat: tareekh, t: تاريخ الإسلام السياسي والديني والثقافي والاجتماعي, a: حسن إبراهيم حسن, d: 1405, k: [تاريخ, الاسلام, حسن ابراهيم]}
+- {id: fajr-islam, cat: tareekh, t: فجر الإسلام, a: أحمد أمين, d: 1373, k: [فجر, الاسلام, احمد امين]}
+- {id: duha-islam, cat: tareekh, t: ضحى الإسلام, a: أحمد أمين, d: 1373, k: [ضحي, الاسلام, احمد امين]}
+- {id: dawlat-uthmaniyya-salabi, cat: tareekh, t: الدولة العثمانية عوامل النهوض وأسباب السقوط, a: علي محمد الصلابي, d: null, k: [الدوله, العثمانيه]}
+- {id: tarikh-umayyad-salabi, cat: tareekh, t: الدولة الأموية, a: علي محمد الصلابي, d: null, k: [الدوله, الامويه]}
+- {id: tarikh-abbasid-salabi, cat: tareekh, t: الدولة العباسية, a: علي محمد الصلابي, d: null, k: [الدوله, العباسيه]}
+- {id: nafh-tib, cat: tareekh, t: نفح الطيب من غصن الأندلس الرطيب, a: المقري, d: 1041, k: [نفح, الطيب]}
+- {id: rihla-ibn-battuta, cat: geography, t: رحلة ابن بطوطة, a: ابن بطوطة, d: 779, k: [رحله, بطوطه]}
+- {id: muajam-buldan, cat: geography, t: معجم البلدان, a: ياقوت الحموي, d: 626, k: [معجم, البلدان]}
+- {id: ahsan-taqasim, cat: geography, t: أحسن التقاسيم في معرفة الأقاليم, a: المقدسي, d: 380, k: [احسن, التقاسيم]}
+# ---- fiqh and usul (prominent)
+- {id: risala-shafii, cat: usul, t: الرسالة, a: الإمام الشافعي, d: 204, k: [الرساله, الشافعي]}
+- {id: umm-shafii, cat: fiqh, t: الأم, a: الإمام الشافعي, d: 204, k: [الام, الشافعي]}
+- {id: mudawwana, cat: fiqh, t: المدونة, a: مالك بن أنس, d: 179, k: [المدونه, مالك]}
+- {id: mughni-ibn-qudama, cat: fiqh, t: المغني, a: ابن قدامة, d: 620, k: [المغني, قدامه]}
+- {id: majmu-nawawi, cat: fiqh, t: المجموع شرح المهذب, a: النووي, d: 676, k: [المجموع, المهذب]}
+- {id: bidayat-mujtahid, cat: fiqh, t: بداية المجتهد ونهاية المقتصد, a: ابن رشد الحفيد, d: 595, k: [بدايه, المجتهد]}
+- {id: muhalla, cat: fiqh, t: المحلى بالآثار, a: ابن حزم, d: 456, k: [المحلي, ابن حزم]}
+- {id: badai-sanai, cat: fiqh, t: بدائع الصنائع في ترتيب الشرائع, a: الكاساني, d: 587, k: [بدايع|بدائع, الصنايع|الصنائع]}
+- {id: hidaya-marghinani, cat: fiqh, t: الهداية شرح بداية المبتدي, a: المرغيناني, d: 593, k: [الهدايه, المبتدي]}
+- {id: radd-muhtar, cat: fiqh, t: رد المحتار على الدر المختار, a: ابن عابدين, d: 1252, k: [رد, المحتار]}
+- {id: fiqh-sunna, cat: fiqh, t: فقه السنة, a: سيد سابق, d: 1420, k: [فقه, السنه, سابق]}
+- {id: mawsua-fiqhiyya-kuwaitiyya, cat: fiqh, t: الموسوعة الفقهية الكويتية, a: وزارة الأوقاف الكويتية, d: null, k: [الموسوعه, الفقهيه]}
+- {id: muwafaqat, cat: usul, t: الموافقات, a: الشاطبي, d: 790, k: [الموافقات, الشاطبي]}
+- {id: mustasfa, cat: usul, t: المستصفى من علم الأصول, a: الغزالي, d: 505, k: [المستصفي, الاصول]}
+- {id: irshad-fuhul, cat: usul, t: إرشاد الفحول إلى تحقيق الحق من علم الأصول, a: الشوكاني, d: 1250, k: [ارشاد, الفحول]}
+- {id: ahkam-sultaniyya, cat: fiqh, t: الأحكام السلطانية, a: الماوردي, d: 450, k: [الاحكام, السلطانيه, الماوردي]}
+- {id: kitab-kharaj, cat: fiqh, t: كتاب الخراج, a: أبو يوسف, d: 182, k: [الخراج, "يوسف"]}
+# ---- adab, zuhd, lugha
+- {id: zuhd-ahmad, cat: adab-zuhd, t: الزهد, a: أحمد بن حنبل, d: 241, k: [الزهد, احمد]}
+- {id: zuhd-ibn-mubarak, cat: adab-zuhd, t: الزهد والرقائق, a: عبد الله بن المبارك, d: 181, k: [الزهد, الرقايق|الرقائق, المبارك]}
+- {id: lisan-arab, cat: lugha, t: لسان العرب, a: ابن منظور, d: 711, k: [لسان, العرب]}
+- {id: qamus-muhit, cat: lugha, t: القاموس المحيط, a: الفيروزآبادي, d: 817, k: [القاموس, المحيط]}
+- {id: sahah-jawhari, cat: lugha, t: الصحاح تاج اللغة, a: الجوهري, d: 393, k: [الصحاح, اللغه]}

@@ -1,0 +1,21 @@
+id: person/al-murtada-umar-almohad
+class: person
+label: { ar: "المرتضى عمر الموحدي" }
+names:
+  - { value: "أبو حفص عمر بن أبي إبراهيم بن يوسف الملقب بالمرتضى", kind: full }
+gender: male
+summary:
+  ar: "خليفة موحدي ولي في ربيع الآخر قبل دخول الواثق أبي دبوس مراكش سنة خمس وستين وست مئة، فهرب إلى آزمور فقبض عليه عاملها وأمره الواثق بقتله فقتل في العشر الأخير من ربيع الآخر من تلك السنة بموضع يقال له كتامة على ثلاثة أيام من مراكش {cite:wafayat-ayan p. 15-16}."
+  en: "The Almohad caliph al-Murtada, who fled Marrakesh for Azemmour when Abu Dabus entered in 665, was seized by his own governor and killed at Kutama in the last ten days of Rabi' II {cite:wafayat-ayan p. 15-16}."
+roles: [caliph]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+died: { edtf: "1266~", hijri: "0665~", calendar: julian, precision: year, status: tradition, derived: true, note: "ربيع الآخر 665هـ قتلاً بكتامة {cite:wafayat-ayan p. 15-16}", sources: [source/wafayat-ayan] }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-3
+sources: [source/wafayat-ayan]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

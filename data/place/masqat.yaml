@@ -1,0 +1,19 @@
+id: place/masqat
+class: place
+kind: town
+label: { ar: "مسقط (ماسكت)", en: "Masqat" }
+summary:
+  ar: "مدينة بناها أنوشروان؛ وصالح أهلها سلمان بن ربيعة ضمن ملوك الجبال بعد عبوره الكُرّ — وأيضاً لقب ملك مسقط من ملوك أنوشروان المعروفين وقد بطلت مملكته يوم البلاذري."
+  en: "a city Anushirwan built; its people compounded with Salman ibn Rabi'a among the mountain kings after his crossing of the Kurr — its kingship, among the kings Anushirwan once confirmed, had lapsed by al-Baladhuri's day."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 281–287"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-17
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

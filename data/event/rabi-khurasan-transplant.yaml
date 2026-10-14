@@ -1,0 +1,20 @@
+id: event/rabi-khurasan-transplant
+class: event
+kind: other
+label: { ar: "نقل الربيع بن زياد خمسين ألفاً إلى خراسان", en: "al-Rabi' ibn Ziyad's Fifty-Thousand Transplant" }
+summary:
+  ar: "ولى زياد بن أبي سفيان الربيع بن زياد الحارثي سنة ٥١ خراسان وحول معه من أهل المصرين زهاء خمسين ألفاً بعيالاتهم وكان فيهم بريدة بن الحصيب الأسلمي أبو عبد الله وبمرو توفي في أيام يزيد بن معاوية وكان فيهم أيضاً أبو برزة الأسلمي عبد الله بن نضلة وبها مات وأسكنهم دون النهر والربيع أول من أمر الجند بالتناهد ولما بلغه مقتل حجر بن عدي الكندي غمه ذلك فدعا بالموت فسقط من يومه فمات وذلك سنة ٥٣ واستخلف عبد الله ابنه فقاتل أهل آمل وهي آموية وزم ثم صالحهم ورجع إلى مرو فمكث بها شهرين ثم مات."
+  en: "In 51h Ziyad gave Khurasan to al-Rabi' ibn Ziyad al-Harithi, who moved near fifty thousand folk of the two misrs with their families — among them Burayda ibn al-Husayb al-Aslami, who died at Marw under Yazid ibn Mu'awiya, and Abu Barza al-Aslami, who died there too — settling them short of the river; he was the first to order the troops' garrison-settling. News of Hujr ibn Adi's killing grieved him; he prayed for death, fell that day, and died in 53h. His son Abdallah succeeded, fought Amul and Zamm into sulh, and died at Marw two months on."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/burayda-ibn-al-husayb, role: "ممن نقل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-barza-al-aslami, role: "ممن نقل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-al-rabi, role: "خليفة أبيه", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

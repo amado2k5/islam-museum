@@ -1,0 +1,19 @@
+id: group/berbers
+class: group
+kind: tribe
+label: { ar: "البربر", en: "The Berbers" }
+summary:
+  ar: "البربر عند البلاذري عن عبد الله بن صالح: يزعمون أنهم ولد برّ بن قيس وما جعل الله لقيس ولداً يقال له برّ وإنما هم من الجبارين الذين قاتلهم داود وكان منازلهم على أيدي الدهر فلسطين وهم أهل عمود فأتوا المغرب فتناسلوا به؛ ومنهم لواتة أهل العهد ببرقة والمستثنون في خطبة عمرو بن العاص بأنطابلس.، وعند البلاذري أن البرابرة من العماليق في قول، وأن تبّعاً يقال له أفريقيس بن قيس بن صيفي الحميري غزا إفريقية فافتتحها فسميت به، وسمع كلام هؤلاء العماليق فقال «ما أكثر بربرتهم» فسموا البرابرة، وأقام معهم بنو صنهاجة وكتامة من حمير فهم فيهم إلى اليوم {cite:ansab-al-ashraf p. 8}"
+  en: "The Berbers in al-Baladhuri on Abdallah ibn Salih's report: they claim descent from Barr ibn Qays — but God gave Qays no son called Barr; rather they are of the Jabbarin whom Dawud fought, whose seats in ancient days were Palestine, the people of Amud — who came to the Maghreb and multiplied there; of them are Lawata, the covenant-holders of Barqa, and the Antabulus folk excepted in Amr ibn al-As's sermon."
+wings: [people]
+periods: [period/rashidun]
+regions: [maghreb]
+relations:
+  - { type: located_in, target: place/barqa, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 315"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/ansab-al-ashraf, source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

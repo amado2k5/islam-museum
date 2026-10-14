@@ -2,11 +2,12 @@
 
 ## 1. The mental model
 
-A visitor enters an **Atrium**, chooses a **Wing** (a lens on the whole graph), walks through **Halls** (browse views inside a wing), and reads **Labels** (entity pages). Along the way **Exhibits** (curated narratives) and **Tours** (guided paths) offer a story instead of a catalogue, and **Questions** offer a plain-language shortcut. A **Wander** door opens a random label. Every label connects onward through its **Connections** panel, so the visit never dead-ends.
+A visitor enters an **Atrium**, chooses a **Wing** (a lens on the whole graph), walks through **Halls** (browse views inside a wing), and reads **Labels** (entity pages). Along the way **Exhibits** (curated narratives) and **Tour / Learn** (guided pathways with a stated goal, `19-tour-learn.md`) offer a story instead of a catalogue, and **Questions** offer a plain-language shortcut. A **Wander** door opens a random label. Every label connects onward through its **Connections** panel, so the visit never dead-ends.
 
 ```
 Atrium ─┬─ Questions (plain-language door)
-        ├─ Exhibits & Tours (curated door)
+        ├─ Tour / Learn (guided pathways with a goal; about 300 planned, `19-tour-learn.md`)
+        ├─ Exhibits (curated door)
         ├─ Screening Room (every film, series and programme about Islam, by subject, language, country, era)
         ├─ Themes (about 125 themes in 16 families, each a hub across all wings)
         ├─ Wings ─┬─ Time    ─ Timeline hall · Eras · Snapshot year · Today/On this day
@@ -28,7 +29,7 @@ Calm, mostly typographic, one strong image. In order:
 
 1. **Welcome line** in the visitor's language with the Hijri and Gregorian date: *"Today is 19 Rabi' al-Thani 1448 · 11 October 2026."*
 2. **Start anywhere**: a search field with live suggestions grouped by class (People · Places · Events · Ideas …), placeholder cycling through example queries ("Why do Muslims fast?", "Córdoba", "Who was al-Khwarizmi?").
-3. **Four doors**, as large cards: *I'm new to Islam* (Questions + the 30-minute tour) · *Travel through time* (Timeline) · *Explore the map* (Map) · *Meet the people* (People gallery).
+3. **Four doors**, as large cards: *I'm new to Islam* (Questions + the Tour / Learn start-here pathway, the 30-minute tour) · *Travel through time* (Timeline) · *Explore the map* (Map) · *Meet the people* (People gallery).
 4. **On this day**: 3 events that happened on this Hijri or Gregorian day.
 5. **Featured exhibit** (rotates weekly) and **Recently added / updated** (RSS too).
 6. **The nine wings** as a quiet row of doors with one-line descriptions.
@@ -154,6 +155,9 @@ Class-specific panels:
 - **The 21st century timeline** with the same event schema; sober framing (see editorial policy).
 - **Futures**: eschatology as *tradition* (clearly labelled), demographic projections as *data* (clearly sourced), and the museum's own roadmap.
 
+### Tour / Learn (cross-cutting entrance)
+- A top-level tab of guided pathways. The visitor says what they want to understand (a phase of history, a group of personalities, a group of events, an idea, a place, a text, a hard question) and gets a short ordered route with a stated outcome, walked **step by step** or seen **all at once** as list, timeline and map. Progress is local to the browser. The rest of the museum is unchanged. About 300 pathways are proposed in the planning phase and built in order of readiness. Full design, data model and rollout: `19-tour-learn.md`. Until the first pathways are ready the tab, the landing page and the coverage page say it is being built.
+
 ### Screening Room (cross-cutting entrance)
 - Browse by what a work is about, then by language, country, decade made, era depicted, format and approach; two timelines (when made, what time it depicts); a map of where made and where set; Ramadan seasons by Hijri year; a children's shelf. Title pages carry reception and official watch links, and no ratings. See `12-screen-index.md`.
 
@@ -184,7 +188,8 @@ Class-specific panels:
 ## 6. Design language
 
 - **Mood**: a quiet, well-lit museum. Generous margins, large type, few colours. Beauty comes from typography and geometry, not from decoration.
-- **Palette** (tokens): ivory `#F7F3EA` background, ink `#1B1B1F`, lapis `#1F4E8C`, deep teal `#0F5F5C`, muted gold `#B8932F` as the only accent, sand `#E6DCC6` for panels; dark mode with warm charcoal. Each wing gets a subtle hue variant for orientation.
+- **Emblem** (12 Oct 2026): the founder's painted medallion — a copper mihrab arch over an open book on a lapis disc, inside a gold ring and an eight-point star — is the logo everywhere. Source artwork in `docs/design/emblem-source.jpg`; cut assets in `site/public/brand/`: `emblem-full*.webp` (the full square, foundation page and social card), `mark-{128,512}.webp` and `mark-dark-*.webp` (the medallion for light and dark grounds, switched by the theme in `Logo.astro`), `mark-mono-{ink,gold}-512.webp` and the pre-faded `mark-watermark-*.webp` (hero and banner watermarks), favicons and `apple-touch-icon.png`, `og-image.jpg`. The older vector `logo-mark.svg` stays only as the lockup's fallback. The lettering on the medallion reads «متحف الإسلام», the site's name. Regenerate the assets with `python3 scripts/brand/emblem.py` after replacing the source.
+- **Palette** (tokens, visual identity spec): warm alabaster `#F9F8F6` background, ink `#1A1A1A`, deep midnight lapis `#0A2533` (hero band, dark mode ground), museum teal `#113F4E` (links, panels in dark mode), manuscript gold `#C5A059` as the one accent (decorative on light grounds; gold text uses `#7D5D1E`, which passes AA), parchment `#E6D5B8` for panels and light text on dark. Each wing has its own tone for orientation, and each wing number sits in a star medallion. Every text pair meets WCAG 2.2 AA.
 - **Geometry**: a procedurally generated girih/star-tiling SVG motif as faint texture in headers and share cards; generated from parameters per entity so every page has a unique but coherent pattern (and nothing is copied from a copyrighted source).
 - **Type**: Arabic — Noto Naskh Arabic (body), Amiri Quran (scripture), Reem Kufi (display); Latin — Source Serif 4 (body), Inter (UI). Transliteration follows a simplified ALA-LC without diacritics in body text and full diacritics in the "names" panel.
 - **RTL**: the layout mirrors; timelines run right-to-left in Arabic UI; maps keep geography; iconography avoids direction-bound metaphors.
@@ -198,4 +203,5 @@ Class-specific panels:
 3. **Prof. Lindqvist** opens `/api/v1/person/index.json`, filters `died.earliest < 1100`, finds the EDTF strings and Wikidata IDs, downloads `edges.ndjson`, cites the DOI of release 2027.1.
 4. **Nadia** opens the Map at 1200 CE around Iberia, sees Córdoba, Seville, Granada, taps the Great Mosque of Córdoba, reads "What was here", bookmarks four places, exports her tour.
 5. **Fatima** uses the Snapshot year 1324 CE: Mansa Musa's Hajj, Ibn Battuta setting out, the Ilkhanate, the early Ottomans, Ibn Taymiyya's final years, the Alhambra under construction; she follows the journey of Mansa Musa.
-6. **An AI assistant** asked "When did Ibn Sina die?" fetches the page, reads JSON-LD with EDTF `1037-06`, Hijri `0428-09`, and cites `https://islam.museum/en/person/ibn-sina`.
+6. **Layla** opens Tour / Learn, picks *a phase of history* and *30 minutes*, and is walked through the Meccan period in nine steps, each with its why and its recap, without opening a single other tab.
+7. **An AI assistant** asked "When did Ibn Sina die?" fetches the page, reads JSON-LD with EDTF `1037-06`, Hijri `0428-09`, and cites `https://islam.museum/en/person/ibn-sina`.

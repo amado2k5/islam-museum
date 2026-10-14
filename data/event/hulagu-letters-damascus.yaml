@@ -1,0 +1,22 @@
+id: event/hulagu-letters-damascus
+class: event
+kind: other
+label: { ar: "كتب هولاكو المهددة إلى الناصر صاحب دمشق" }
+summary:
+  ar: "أرسل هولاكو إلى الناصر صاحب دمشق كتاباً فيه يعلم السلطان الملك ناصر أنه لما توجهنا إلى العراق وخرج إلينا جنودهم فقتلناهم بسيف الله وأما صاحب البلدة فإنه خرج إلى خدمتنا ودخل تحت عبوديتنا فسألناه عن أشياء كذبنا فيها فاستحق الإعدام أجب ملك البسيطة ولا تقولن قلاعي المانعات ورجالي المقاتلات فساعة وقوفك على كتابنا تجعل قلاع الشام سماءها أرضاً وطولها عرضاً، ثم كتاب ثان فيه فإنا فتحنا بغداد واستأصلنا ملكها وملكها ونحن في طلب الازدياد على ممر الآباد أجب دعوة ملك البسيطة تأمن شره وتنال بره، وثالث فيه نحن قد أهلكنا البلاد وأبدنا العباد وقتلنا النسوان والأولاد فيا أيها الباقون أنتم بمن مضى لاحقون ونحن جيوش الهلكة لا جيوش الملكة ذلت لهيبتنا الأسود وأصبحت في قبضتي الأمراء والخلفاء ونحن إليكم صائرون ولكم الهرب وعلينا الطلب وقد أعذر من أنذر {cite:tarikh-khulafa-minhaj-1434 p. 718-719}."
+  en: "Hulagu's letters to al-Nasir of Damascus: 'We killed their soldiers with God's sword; the city's lord came into our service, lied under questioning, and earned death. Answer the king of the earth — the hour you stand on our letter, Syria's fortresses turn heaven to earth and length to breadth'. And: 'we have wasted lands and slain women and children; you who remain will follow those gone — we are armies of ruin, not of dominion; lions cower at our awe; amirs and caliphs are in my fist; we are coming to you — yours to flee, ours to pursue' {cite:tarikh-khulafa-minhaj-1434 p. 718-719}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1258~", hijri: "0656", calendar: julian, precision: year, status: tradition, derived: true, note: "656؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 718}." }
+relations:
+  - { type: had_participant, target: person/hulagu, role: "الكاتب", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-nasir-yusuf, role: "المخاطب", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 714–723"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-46
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

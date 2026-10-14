@@ -1,0 +1,19 @@
+id: event/umar-justice-anecdotes
+class: event
+kind: other
+label: { ar: "من سياسة عمر وأحكامه", en: "Umar's Governance and Judgments" }
+summary:
+  ar: "كان عمر إذا استعمل عاملاً كتب ماله وشاطر عماله المتعدين أموالهم فأخذ نصفاً وأعطاهم نصفاً ومكث زماناً لا يأكل من المال شيئاً حتى دخلت عليه في ذلك خصاصة فأرسل إلى أصحاب النبي يستشيرهم فقال علي غداء وعشاء فأخذ بذلك وكتب ألا لا يجلدن أمير جيش ولا سرية أحداً الحد حتى يطلع الدرب لئلا تحمله حمية الشيطان أن يلحق بالكفار وقال إن هذا الأمر لا يصلح إلا بالشدة التي لا جبرية فيها وباللين الذي لا وهن فيه وجاءته امرأة فقالت زوجي يقوم الليل ويصوم النهار فقال لقد أحسنت الثناء على زوجك فقال كعب بن سور لقد شكت تزعم أنه ليس لها من زوجها نصيب فقال فإذ قد فهمت ذلك فاقض بينهما فقال أحل الله له من النساء أربعاً فلها من كل أربعة أيام يوم ومن كل أربع ليال ليلة وأنفق في حجته ستة عشر ديناراً فقال يا عبد الله أسرفنا في هذا المال."
+  en: "When Umar appointed an official he registered his wealth, and halved the fortunes of wronging governors — a half to the treasury, a half to them. Long he ate nothing of the fisc till want touched him; he asked the Companions and Ali said 'lunch and supper' — he took that. His letter: no army or raiding amir shall flog a hadd far from the route, lest Satan's zeal carry him to the unbelievers. 'This matter stands only on a firmness without despotism and a gentleness without weakness'. A woman came: 'my husband prays all night and fasts all day' — 'well praised' — Ka'b ibn Suwar: 'she complains — she says he gives her no share' — 'then judge between them: God allowed him four women — she has a day of every four days and a night of every four nights'. And sixteen dinars spent on his hajj — 'Abdallah, we have been extravagant with this money'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخليفة الحاكم", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المشير بالغداء والعشاء", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/kab-ibn-suwar, role: "القاضي", sources: [source/tarikh-khulafa-minhaj-1434] }
+wings: [people, place, time]
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

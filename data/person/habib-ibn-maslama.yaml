@@ -1,0 +1,31 @@
+id: person/habib-ibn-maslama
+class: person
+label:
+  ar: حبيب بن مسلمة الفهري
+  en: Habib ibn Maslama al-Fihri
+names:
+  - { kind: full, lang: ar, value: حبيب بن مسلمة الفهري }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  ar: "فهري من قريش؛ وجّهه خالد بن الوليد مع بشر بن أبي أرطاة العامري إلى غوطة دمشق في مسيره من العراق إلى الشام فأغارا على قرى من قراها."
+  en: "A Fihri of Quraysh; Khalid ibn al-Walid sent him with Busr ibn Abi Artat al-Amiri to the Ghouta of Damascus on his march from Iraq to Syria, and they raided villages of its countryside."
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+relations:
+  - { type: participated_in, target: event/khalid-march-to-syria, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 154"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

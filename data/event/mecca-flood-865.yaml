@@ -1,0 +1,21 @@
+id: event/mecca-flood-865
+class: event
+kind: other
+label: { ar: "سيل مكة 865هـ", en: "The Mecca Flood of 865" }
+summary:
+  ar: "في شذرات الذهب سنة خمس وستين وثمان مئة في صفرها كان بمكة سيل عظيم {cite:shadharat-dhahab p. 313}."
+  en: "Safar 865: a great flood at Mecca {cite:shadharat-dhahab p. 313}."
+wings: [time, place]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+date:
+  start: { edtf: "1460-11~", hijri: "0865-02~", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 865؛ التحويل مشتق {cite:shadharat-dhahab p. 313}." }
+relations:
+  - { type: located_in, target: place/mecca, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 186, 313-314"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-82
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

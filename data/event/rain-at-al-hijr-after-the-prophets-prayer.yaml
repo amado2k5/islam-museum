@@ -1,0 +1,18 @@
+id: event/rain-at-al-hijr-after-the-prophets-prayer
+class: event
+kind: other
+label: { ar: "المطر بعد دعاء النبي بالحجر", en: "Rain falls after the Prophet's prayer at al-Hijr" }
+summary:
+  ar: "أصبح الناس ولا ماء معهم فشكوا ذلك إلى النبي، فدعا فأرسل الله سحابة فأمطرت حتى ارتوى الناس واحتملوا حاجتهم من الماء. وفي رواية محمود بن لبيد أن رجلاً معروف النفاق قال حين رأى ذلك: سحابة مارّة."
+  en: "The people woke with no water and complained to the Prophet; he prayed, and God sent a cloud that rained until they were quenched and carried away what they needed. In Mahmud ibn Labid's account, a man known for hypocrisy said on seeing it: a passing cloud."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-hijr, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 165-166", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 165-166" }

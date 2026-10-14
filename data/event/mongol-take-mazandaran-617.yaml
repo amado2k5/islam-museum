@@ -1,0 +1,21 @@
+id: event/mongol-take-mazandaran-617
+class: event
+kind: campaign
+label: { ar: "استيلاء التتر على مازندران وأخذ ذخائر أم خوارزم شاه" }
+summary:
+  ar: "لما أيست طائفة التتر المغربة من إدراك خوارزم شاه في قلعته بالبحر عادوا فقصدوا بلاد مازندران فملكوها في أسرع وقت مع حصانتها وصعوبة الدخول إليها؛ ويذكر ابن الأثير أنها لم تزل ممتنعة قديم الزمان وحديثه حتى إن المسلمين لما ملكوا بلاد الأكاسرة جميعها من العراق إلى أقاصي خراسان بقيت أعمال مازندران يؤخذ منهم الخراج ولا يقدرون على دخولها إلى أن ملكت أيام سليمان بن عبد الملك سنة تسعين، فملكها هؤلاء صفواً وقتلوا وسبوا ونهبوا وأحرقوا، وسلكوا نحو الري فرأوا في الطريق والدة خوارزم شاه ونساءه وأموالهم وذخائرهم التي لم يسمع بمثلها من الأعلاق النفيسة إذ كانت قد فارقت خوارزم قاصدة الري فأصفهان لتستحصن فصادفوها قبل وصولها، فسيروا الجميع إلى جنكزخان بسمرقند {cite:kamil-ibn-al-athir p. 408}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1220~", hijri: "0617", calendar: julian, precision: year, status: tradition, derived: true, note: "617؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 408}." }
+relations:
+  - { type: had_participant, target: person/genghis-khan, role: "صاحب الأمر ومرسل الطائفة", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 617، ص 408"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-08
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

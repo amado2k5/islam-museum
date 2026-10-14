@@ -1,0 +1,15 @@
+id: group/banu-tahm
+class: group
+label: { en: Banu Taym ibn Murra, ar: "بنو تيم بن مرة" }
+summary:
+  ar: "من بطون قريش؛ يقدّمه ابن إسحاق في قوائم مهاجرة الحبشة بنسبه «تيم بن مرة بن كعب»، ويعدّ منه مهاجرين ونساءً وأبناءً ولدوا هناك."
+  en: A clan of Quraysh; Ibn Ishaq lists it in the Abyssinia rolls as 'Taym ibn Murra ibn Ka'b', counting emigrants, women and children born there.
+kind: clan
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/quraysh, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 5, 7", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-vi" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

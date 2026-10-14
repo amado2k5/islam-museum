@@ -1,0 +1,37 @@
+id: event/incident-of-the-slander
+class: event
+kind: other
+label: { en: "The Incident of the Slander (Hadith al-Ifk)", ar: "حادثة الإفك" }
+summary:
+  en: "On the return from the Expedition of al-Muraysi', Aisha was accidentally left behind when searching for a lost necklace and was escorted back to Medina by Safwan ibn al-Mu'attal; Abdullah ibn Ubayy orchestrated a malicious slander campaign that troubled the community for a month until verses of Surat al-Nur established her innocence."
+  ar: "في قفول المسلمين من غزوة بني المصطلق، تأخرت عائشة تبحث عن عقد أضاعته فحمل هودجها ظناً أنها فيه، حتى مر بها صفوان بن المعطل فحملها على راحلته؛ فأشاع عبد الله بن أبيّ فرية الإفك، وبقي المجتمع في قلق واضطراب شهراً حتى أنزل الله براءتها في عشر آيات من سورة النور وحدّ المفترين."
+wings: [time, people]
+themes: [women, creed, scripture-and-its-sciences]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0627-12~", hijri: "0006-08", calendar: julian, precision: month, status: tradition, note: "في طريق العودة من غزوة بني المصطلق في شعبان 6هـ (الرحيق ص331–334)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/aisha, role: "أم المؤمنين المبرأة من فوق سبع سماوات", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/safwan-ibn-al-muattal, role: "الصحابي البدري المساق في الإفك وهو بريء", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abdullah-ibn-ubayy, role: "الذي تولى كبر الإفك وأشاعه", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/hassan-ibn-thabit, role: "ممن خاض في الإفك وجُلد الحد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/mistah-ibn-uthatha, role: "ممن خاض في الإفك وجُلد الحد وعفا عنه أبو بكر", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/hamna-bint-jahsh, role: "ممن خاضت في الإفك وحُمّلت الحد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/abu-bakr }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/expedition-of-banu-al-mustaliq }
+issue: { ar: "كيف تُقرأ حادثة الإفك: براءة أم المؤمنين عائشة وأزمة المدينة السياسية؟", en: "How is the slander affair read: the vindication of Aisha and the political crisis in Medina?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Sunni orthodoxy regards Aisha's complete exoneration as a matter of divine revelation in Surat al-Nur (24:11-26), holding that casting doubt on her purity constitutes apostasy and denial of the clear text of the Qur'an.", ar: "عقيدة أهل السنة والجماعة قاطعة في براءة أم المؤمنين عائشة الصديقة بنت الصديق بنص القرآن العظيم في سورة النور، ويجمع علماء السنة على كفر من طعن في عرضها بعد نزول براءتها تكذيباً لصريح الكتاب." }
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim]
+  - tradition: academic
+    id: academic
+    summary: { en: "Historians examine the affair as a major factional crisis in Medina where tribal rivalries between the Aws and Khazraj were deliberately exploited by Abdullah ibn Ubayy to challenge the Prophet's leadership.", ar: "يدرس المؤرخون الحادثة بوصفها أزمة سياسية واجتماعية استغل فيها زعيم المعارضة عبد الله بن أبيّ الحساسيات القبلية بين الأوس والخزرج لإضعاف قيادة النبي وتماسك المجتمع المدني." }
+    sources: [source/watt-1956-medina]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }

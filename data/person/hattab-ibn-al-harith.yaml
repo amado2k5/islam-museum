@@ -1,0 +1,28 @@
+id: person/hattab-ibn-al-harith
+class: person
+label: { en: Hattab ibn al-Harith, ar: "حطاب بن الحارث" }
+names:
+  - { kind: full, lang: ar, value: "حطاب بن الحارث" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من بني جمح، أخو حاطب بن الحارث، هاجر إلى الحبشة مع امرأته فكيهة بنت يسار وهلك هناك مسلماً."
+  en: Of Banu Jumah, brother of Hatib ibn al-Harith; he emigrated to Abyssinia with his wife Fukayha bint Yasar and died there a Muslim.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-jumah, sources: [source/ibn-hisham-saqqa] }
+  - { type: spouse_of, target: person/fukayha-bint-yasar, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/hatib-ibn-al-harith-jumahi, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iv" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

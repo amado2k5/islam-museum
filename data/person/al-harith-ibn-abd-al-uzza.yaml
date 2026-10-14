@@ -1,0 +1,101 @@
+id: person/al-harith-ibn-abd-al-uzza
+class: person
+label:
+  ar: الحارث بن عبد العزى
+  en: Al-Harith ibn Abd al-Uzza
+names:
+- kind: full
+  lang: ar
+  value: الحارث بن عبد العزى بن رفاعة بن ملّان بن ناصرة بن قصية بن نصر بن سعد بن بكر بن هوازن السعدي، زوج حليمة مرضعة النبي
+- kind: kunya
+  lang: ar
+  value: أبو ذؤيب
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: السعدي من هوازن، زوج حليمة السعدية مرضعة النبي ويُكنى أبا ذؤيب؛ روى ابن إسحاق أنه أسلم بعدما أنكر قول ابنه من الرضاعة في البعث، وفي وقت إسلامه وفي نسبة الخبر إليه أو إلى ولده خلاف.
+  en: Of the Banu Sa'd of Hawazin, husband of Halima, the Prophet's wet-nurse, with the kunya Abu Dhu'ayb. Ibn Ishaq reports that he accepted Islam after hearing of his foster-son's teaching on resurrection; the time of his conversion and whether
+    the story belongs to him or to his child are disputed.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/pre-islamic-arabia
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 1474 (ص 261).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/halima-al-sadiyya
+  sources:
+  - source/ibn-hajar-isaba
+- type: parent_of
+  target: person/al-shayma-bint-al-harith
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: هل أسلم الحارث بن عبد العزى في حياة النبي؟ ولمن يُنسب الخبر؟
+  en: Did al-Harith ibn Abd al-Uzza accept Islam in the Prophet's lifetime, and does the story belong to him?
+perspectives:
+- tradition: sunni
+  id: ibn-ishaq-lifetime
+  stance:
+    ar: أسلم وحسن إسلامه، والخبر له
+  summary:
+    ar: هذا ظاهر رواية ابن إسحاق عن رجال من بني سعد بن بكر.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 261
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: ibn-saad-son
+  stance:
+    ar: القصة وقعت لولده
+  summary:
+    ar: عند ابن سعد حديث مرسل من طريق يحيى بن أبي كثير أن القصة وقعت لأخ للنبي من الرضاعة، ويحتمل ابن حجر أن تكون وقعت للأب والابن معاً، وقد سمّاه بعضهم عبد الله.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 261
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: after-death
+  stance:
+    ar: أسلم بعد وفاة النبي
+  summary:
+    ar: 'ذكر ابن إسحاق أنه بلغه أن الحارث إنما أسلم بعد وفاة النبي، ثم قال ابن حجر: فالله أعلم.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 261
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 1474، ص 261
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-10
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 261, entry 1474)

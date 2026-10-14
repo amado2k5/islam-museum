@@ -1,0 +1,71 @@
+---
+// Revelation-order reading (Part 3, C.6): every sura as a row in the order of revelation (toggle to mushaf order), with the
+// museum events the data links to it through revealed_about edges, each pairing labelled transmitted or estimated.
+// Verse text comes only from the frozen Tanzil passages already in the graph (the opening verse of each sura).
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../components/PageHeader.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { byId, graph, href, labelOf, realNodes } from "../../../../lib/graph";
+import { formatDate } from "../../../../lib/dates";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const R = T.revelation;
+const suras = realNodes.filter((n) => n.class === "passage" && n.data.unit === "sura").sort((a, b) => a.data.sura - b.data.sura);
+// Build assertion (spec C.6): every sura carries its sequence number.
+for (const s of suras) if (!Number.isInteger(s.data.revelation_order) || !s.data.revelation_place) throw new Error(`revelation page: ${s.id} has no revelation_order / revelation_place`);
+if (suras.length !== 114) throw new Error(`revelation page: expected 114 suras, found ${suras.length}`);
+// pairings: revealed_about edges from any verse (or the sura) to events, people and concepts, grouped by sura
+const pairs = new Map<number, { node: any; aya?: number; note?: string; transmitted: boolean }[]>();
+for (const e of graph.edges) {
+  if (e.type !== "revealed_about" || e.inverse) continue;
+  const m = e.from.match(/^passage\/quran-(\d+)(?:-(\d+))?$/);
+  const target = byId.get(e.to);
+  if (!m || !target || target.stub) continue;
+  const s = Number(m[1]);
+  const list = pairs.get(s) ?? pairs.set(s, []).get(s)!;
+  if (list.some((x) => x.node.id === target.id)) continue;
+  list.push({ node: target, aya: m[2] ? Number(m[2]) : undefined, note: e.note, transmitted: !!(e.sources?.length) });
+}
+const verseCount = (s: number) => realNodes.filter((n) => n.class === "passage" && n.data.unit === "ayah" && n.data.sura === s).length;
+const opening = (s: number) => byId.get(`passage/quran-${s}-1`)?.data.text as string | undefined;
+const rows = suras.map((s) => ({ node: s, n: s.data.sura as number, order: s.data.revelation_order as number, place: s.data.revelation_place as string, verses: verseCount(s.data.sura), open: opening(s.data.sura), pairs: (pairs.get(s.data.sura) ?? []).sort((a, b) => (a.aya ?? 0) - (b.aya ?? 0)) }));
+const dateOf = (n: any) => { const d = n.data; return formatDate(d.date?.start ?? d.born ?? d.start, lang).text; };
+---
+<BaseLayout lang={lang} title={R.title} description={R.lede} path={`/${lang}/words/revelation/`}>
+  <PageHeader title={R.title} lede={R.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.wings.words.title, href: `/${lang}/words/` }, { label: R.title }]} crumbsLabel={T.entity.breadcrumb} wing="words" />
+  <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
+    <div class="rv-tools ui" role="group" aria-label={R.order_label} data-rv-tools>
+      <button type="button" data-order="revelation" aria-pressed="true">{R.order_revelation}</button>
+      <button type="button" data-order="mushaf" aria-pressed="false">{R.order_mushaf}</button>
+      <span class="muted" style="font-size:.85rem;margin-inline-start:8px">{R.legend}</span>
+    </div>
+    <ol class="rv" data-rv data-order="revelation" role="list">
+      {rows.map((r) => (
+        <li class="rv-row" style={`--rev:${r.order};--mus:${r.n}`} data-rev={r.order} data-mus={r.n}>
+          <article class="rv-sura" aria-labelledby={`s-${r.n}`}>
+            <p class="ui rv-kicker"><span class="rv-num">{fmt(R.order_n, { n: String(r.order) })}</span> · <span>{fmt(R.mushaf_n, { n: String(r.n) })}</span> · <span class={`chip rv-${r.place}`}>{R[r.place]}</span></p>
+            <h2 id={`s-${r.n}`} class="rv-title"><a href={href(lang, r.node.id)}>{labelOf(r.node, lang)}</a></h2>
+            <p class="ui muted" style="margin:0 0 6px;font-size:.85rem">{fmt(R.verses, { n: String(r.verses) })}</p>
+            {r.open && <p class="rv-open" lang="ar" dir="rtl"><span class="sr-only">{R.opening}: </span>{r.open}</p>}
+          </article>
+          <div class="rv-connector" aria-hidden="true"></div>
+          <div class="rv-events">
+            {r.pairs.length === 0 && <p class="ui muted rv-none">{R.none}</p>}
+            {r.pairs.map((p) => (
+              <a class="rv-event" href={href(lang, p.node.id)}>
+                <span class="ui kicker">{T.class[p.node.class]}{p.aya ? ` · ${r.n}:${p.aya}` : ""} · <span class={p.transmitted ? "rv-tag rv-t" : "rv-tag rv-e"}>{p.transmitted ? R.transmitted : R.estimated}</span></span>
+                <strong>{labelOf(p.node, lang)}</strong>
+                {dateOf(p.node) && <span class="ui muted" style="display:block;font-size:.85rem">{dateOf(p.node)}</span>}
+                {p.note && (lang === "ar" ? /[\u0600-\u06ff]/.test(p.note) : !/[\u0600-\u06ff]/.test(p.note)) && <span class="muted" style="display:block;font-size:.88rem">{p.note}</span>}
+              </a>
+            ))}
+          </div>
+        </li>
+      ))}
+    </ol>
+    <p class="muted ui" style="font-size:.85rem;max-width:var(--measure)">{R.source_note}</p>
+  </div>
+  <script src="../../../../scripts/revelation.ts"></script>
+</BaseLayout>

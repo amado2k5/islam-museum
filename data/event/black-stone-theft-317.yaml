@@ -1,0 +1,22 @@
+id: event/black-stone-theft-317
+class: event
+kind: raid
+label: { ar: "أخذ القرامطة الحجر الأسود" }
+summary:
+  ar: "سير المقتدر ركب الحاج مع منصور الديلمي فوصلوا مكة سالمين فوافاهم يوم التروية سنة سبع عشرة أبو طاهر القرمطي فقتل الحجيج في المسجد الحرام قتلاً ذريعاً وطرح القتلى في بئر زمزم وضرب الحجر الأسود بدبوس فكسره ثم اقتلعه وأقام بها أحد عشر يوماً ثم رحل وبقي الحجر الأسود عندهم أكثر من عشرين سنة ودفع لهم فيه خمسون ألف دينار فأبوا حتى أعيد في خلافة المطيع، وصعد القرمطي على باب الكعبة وهو يقول أنا بالله وبالله أنا يخلق الخلق وأفنيهم أنا ولم يفلح بعدها وتقطع جسده بالجدري {cite:tarikh-khulafa-minhaj-1434 p. 592-593}، وأعيد الحجر سنة تسع وثلاثين في خلافة المطيع وجعل له طوق فضة وزنه ثلاثة آلاف وسبع مئة وتسعون درهماً ونصف {cite:tarikh-khulafa-minhaj-1434 p. 616}.، وعند ابن الجوزي وفي سنة 317هـ لقى أبو طاهر الجنابي الحاج في مكة يوم التروية فقتل الحجاج في المسجد الحرام والفجاج والناس في الطواف يقتلون وكان في الجماعة علي بن بلبورية وانتزع الحجر الأسود وقلع قبة بئر زمزم وعرى الكعبة وقلع باب البيت واصعد رجلاً من أصحابه ليقلع الميزاب فتردى الرجل على رأسه ومات وطرح القتلى في بئر زمزم ودفن باقيهم في مصلوبهم وفي المسجد الحرام من غير أن يصلى عليهم وانصرف إلى بلده وحمل معه الحجر الأسود فبقي عندهم أكثر من عشرين سنة إلى أن ردوه {cite:muntazam-ibn-al-jawzi p. 514-515}"
+  en: "In 317, on yawm al-tarwiya, Abu Tahir al-Qarmati fell on the pilgrims inside the Haram, slaughtered them, cast the dead into Zamzam, struck the Black Stone with a club till it broke, then wrenched it out. The Qarmatians kept it over twenty years, refusing fifty thousand dinars, until it was returned under al-Muti'. Abu Tahir climbed the Ka'ba's door crying 'I create mankind and destroy them' — he prospered no more, his body torn by smallpox {cite:tarikh-khulafa-minhaj-1434 p. 592-593}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0930~", hijri: "0317", calendar: julian, precision: year, status: tradition, derived: true, note: "317؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 592}." }
+relations:
+  - { type: had_participant, target: person/abu-tahir-al-qarmati, role: "الغازي", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-muqtadir-billah, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 581–594"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-33
+sources: [source/muntazam-ibn-al-jawzi, source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

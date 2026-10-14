@@ -1,0 +1,19 @@
+id: place/al-fayyum
+class: place
+kind: region
+label: { ar: "الفيوم", en: "Al-Fayyum" }
+summary:
+  ar: "الفيوم من أعمال مصر العليا؛ وجّه إليها عمرو بن العاص خارجة بن حذافة العدوي مع الأشمونين وإخميم والبشرودات وقرى الصعيد فصالح أهل قراها على مثل حكم الفسطاط."
+  en: "Al-Fayyum, among Upper Egypt's districts; Amr ibn al-As sent Kharija ibn Hudhafa al-Adawi to it together with al-Ashmunayn, Ikhmim, al-Bashrudat and the Sa'id's villages — their people compounding on Fustat's terms."
+wings: [place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: site_of, target: event/four-lieutenants-egypt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 304"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

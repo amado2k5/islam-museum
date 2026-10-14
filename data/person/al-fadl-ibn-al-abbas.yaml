@@ -1,0 +1,26 @@
+id: person/al-fadl-ibn-al-abbas
+class: person
+label: { en: "al-Fadl ibn al-Abbas", ar: "الفضل بن العباس" }
+names:
+  - { kind: full, lang: ar, value: "الفضل بن العباس بن عبد المطلب" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "Son of al-Abbas ibn Abd al-Muttalib; rode behind the Prophet from Arafat to Muzdalifa in the Farewell Pilgrimage, walked beside him in the last illness, and helped turn and wash his body before burial."
+  ar: "ابن العباس بن عبد المطلب؛ أردفه النبي خلفه من عرفة إلى المزدلفة في حجة الوداع، ومشى يعينه في مرضه الأخير، وكان ممن قلّبه عند غسله قبل الدفن."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: historical, note: "ابن عم النبي وابن عمه العباس.", sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition }
+relations:
+  - { type: child_of, target: person/abbas-ibn-abd-al-muttalib }
+  - { type: participated_in, target: event/farewell-pilgrimage, role: "الرديف إلى المزدلفة", sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/burial-of-the-prophet, role: "ممن قلّب الجسد عند الغسل", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

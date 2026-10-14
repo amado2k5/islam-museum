@@ -1,0 +1,16 @@
+id: passage/arbaun-05
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "5"
+label: { ar: "الأربعون 5 — من أحدث في أمرنا", en: "Arba'un 5 — whoever introduces into this matter of ours" }
+text: "من أحدث في أمرنا هذا ما ليس منه فهو رد"
+summary:
+  ar: "حديث عائشة بنت أبي بكر، وهو الحديث الخامس في الأربعين النووية وفي شرح ابن رجب، وفي رواية لمسلم «من عمل عملاً ليس عليه أمرنا فهو رد»؛ رواه البخاري (2697) ومسلم (1718) من طريق القاسم بن محمد عن عمته عائشة، وأخرجه أيضاً أحمد وأبو داود (4606) وابن ماجه (14) وابن أبي عاصم في «السنة» وغيرهم؛ يجعله ابن رجب أصلاً عظيماً وميزاناً للأعمال في ظاهرها كما أن حديث النيات ميزان لها في باطنها، وأجّل الكلام على المحدثات إلى شرح حديث العرباض بن سارية (الحديث الثامن والعشرين) (جامع العلوم والحكم ص 155–171)."
+  en: "Aisha bint Abi Bakr's hadith, the fifth of al-Nawawi's Forty and of Ibn Rajab's commentary; in Muslim's wording, 'whoever does an act that is not upon our command has it rejected'. Transmitted by al-Bukhari (2697) and Muslim (1718) through al-Qasim ibn Muhammad from his aunt Aisha, and also by Ahmad, Abu Dawud (4606), Ibn Majah (14), Ibn Abi Asim in al-Sunna and others; Ibn Rajab makes it a great foundation — the scale of deeds in their outward form as the hadith of intentions is their scale inwardly — and defers the discussion of innovations to his commentary on the hadith of al-Irbad ibn Sariya (hadith 28) (Jami' al-Ulum wal-Hikam pp. 155–171)."
+relations:
+  - { type: basis_for, target: concept/bida, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/aisha, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 5 pp. 155–171", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-3" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 155, takhrij from the edition's apparatus" }

@@ -1,0 +1,106 @@
+id: person/rayhana-bint-zayd
+class: person
+label:
+  ar: ريحانة بنت زيد
+  en: Rayhana bint Zayd
+names:
+- kind: full
+  lang: ar
+  value: 'ريحانة بنت شمعون بن زيد (وقيل: زيد بن عمرو بن خنافة)'
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: سبية من بني قريظة أو بني النضير؛ اختلفت الروايات هل أعتقها النبي وتزوجها وضرب عليها الحجاب أم بقيت في ملكه، وماتت قبل وفاة النبي وقيل عند رجوعه من حجة الوداع ودُفنت بالبقيع.
+  en: A captive of Banu Qurayza or Banu al-Nadir; the reports differ on whether the Prophet freed and married her and put the veil on her or she remained in his possession; she died before the Prophet, or on his return from the Farewell Pilgrimage,
+    and was buried at al-Baqi'.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11245 (ص 1877).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/muhammad
+  note: اختلف أهل السير؛ رجّح ابن القيم أنها كانت سرية لا زوجة (زاد المعاد). يُسجَّل النزاع لا الحسم.
+  sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+- type: spouse_of
+  target: person/al-hakam-al-qurazi
+  note: "كانت زوجة الحكم أحد أشراف بني قريظة؛ قُتل يوم بني قريظة فحلفت ألا تتزوج بعده (نساء حول الرسول ص166-167)."
+  sources:
+  - source/nisa-hawl-alrasul
+issue:
+  ar: كيف تُروى قصة ريحانة بنت زيد وما صفة صلتها بالنبي؟
+  en: How is the story of Rayhana bint Zayd told, and what was her bond with the Prophet?
+perspectives:
+- tradition: sunni
+  id: report-1
+  stance:
+    ar: ابن إسحاق في «الكبرى»
+  summary:
+    ar: 'سباها رسول الله فأبت إلا اليهودية، فوجد في نفسه، فبينما هو مع أصحابه إذ سمع وقع نعلين خلفه فقال: «هذا ثعلبة بن سعية يبشرني بإسلام ريحانة»، فبشره. وعرض عليها أن يعتقها ويتزوجها ويضرب عليها الحجاب فقالت: «يا رسول الله، بل تتركني في ملكك، فهو أخف علي وعليك»، فتركها.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1877
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-2
+  stance:
+    ar: ابن سعد عن الواقدي
+  summary:
+    ar: لما سُبيت بنو قريظة عرضت السبي على النبي فعزلها، ثم أرسلها إلى بيت أم المنذر بنت قيس حتى قُتل الأسرى وفُرّق السبي، فدخل إليها فاختبأت حياء، فدعاها وخيّرها فاختارت الله ورسوله فأعتقها وتزوج بها، ولم تزل عنده حتى ماتت.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1878
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-3
+  stance:
+    ar: محمد بن كعب (عن ابن سعد)
+  summary:
+    ar: 'كانت مما أفاء الله على رسوله، فلما قُتل زوجها وقعت في السبي فخيّرها رسول الله فاختارت الإسلام فأعتقها وتزوجها وضرب عليها الحجاب، فغارت عليه غيرة شديدة فطلقها فشق عليها وأكثرت البكاء فراجعها، فكانت عنده حتى ماتت قبل وفاته. ويردّ الواقدي رواية الزهري أنه لما طلقها كانت في أهلها وقالت: «لا يراني أحد بعده»، بأنها وهم، فإنها توفيت عنده.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1878
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11245، ص 1877
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+- source/mubarakpuri-raheeq
+- source/zad-al-maad
+- source/nisa-hawl-alrasul
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1877, entry 11245)

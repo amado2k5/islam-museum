@@ -1,0 +1,16 @@
+id: person/sul-al-turki
+class: person
+label: { ar: "صول التركي", en: "Sul al-Turki" }
+summary:
+  ar: "صول التركي ملك سمّته الترك على ملكه بعد أن غلبت على حائط جرجان؛ عرض ليزيد بن المهلب في طريق خراسان فحصره بدهستان ثم بالبحيرة ستة أشهر حتى صالحه على أمان نفسه وماله وثلاثمائة من أهل بيته وتسليم البحيرة وقال أبو عبيدة معمر بن المثنى إن صولاً قتل."
+  en: "Sul al-Turki, the king the Turks named after seizing Jurjan's wall; he met Yazid ibn al-Muhallab on the Khurasan road, was besieged at Dihistan then six months at al-Buhayra till he treated for his life, property and three hundred household against surrendering the town — Abu Ubayda reports him killed."
+periods: [period/umayyad]
+relations:
+  - { type: participated_in, target: event/yazid-jurjan-campaign }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

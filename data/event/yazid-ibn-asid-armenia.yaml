@@ -1,0 +1,25 @@
+id: event/yazid-ibn-asid-armenia
+class: event
+kind: other
+label: { ar: "ولاية يزيد بن أسيد السلمي لأرمينية", en: "Yazid ibn Asid al-Sulami's Governorship of Armenia" }
+summary:
+  ar: "عند البلاذري: ولّى المنصور يزيد بن أسيد السلمي أرمينية ففتح باب اللان ورتّب فيه رابطة من أهل الديوان ودوّخ الصنارية حتى أذعنوا بإعطاء الخراج فكتب إليه المنصور يأمره بمصاهرة ملك الخزر ففعل وولدت له ابنته ابناً فمات وماتت في نفاسها، وبعث يزيد إلى نقّاطة أرض شروان وملّاحاتها فجباها ووكّل به، وبنى يزيد مدينة أرجيل الصغرى ومدينة أرجيل الكبرى وأنزلهما أهل فلسطين؛ ويُروى عن جماعة من مشايخ أهل برذعة أن الشماخية التي في عمل شروان نُسبت إلى الشماخ بن شجاع وكان ملك شروان في ولاية سعيد بن سام الباهلي أرمينية."
+  en: "In al-Baladhuri: al-Mansur gave Armenia to Yazid ibn Asid al-Sulami, who opened Bab al-Lan, stationed there a ribat of diwan men, and tamed the Sanariyya till they submitted to kharaj; al-Mansur wrote ordering him to marry into the Khazar king's family — he did so, the Khaqan's daughter bearing him a son who died while she died in her lying-in; Yazid sent to Shirwan's salt-source and salt-pans, taxed them and set a deputy over it; he built the city of Arjil the Lesser and Arjil the Greater, settling Palestine's people in them; and it is told from a body of Bardha'a's shaykhs that al-Shamakhiyya in Shirwan's district was named for al-Shamakh ibn Shuja', who was king of Shirwan in Sa'id ibn Sam al-Bahili's governorship of Armenia."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0754/0775", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة المنصور (البلاذري ص 295). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/armenia }
+  - { type: occurred_at, target: place/bab-al-lan }
+  - { type: occurred_at, target: place/shirwan }
+  - { type: had_participant, target: person/al-mansur, role: "الخليفة المولّي وآمر المصاهرة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yazid-ibn-asid, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 295"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

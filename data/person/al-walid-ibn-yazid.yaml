@@ -1,0 +1,25 @@
+id: person/al-walid-ibn-yazid
+class: person
+label: { ar: "الوليد بن يزيد بن عبد الملك" }
+summary:
+  ar: "الخليفة الأموي الحادي عشر، ولي سنة ست وعشرين ومئة بعد هشام بعهد منه، ورد في مسند أحمد حديث ليكنن في هذه الأمة رجل يقال له الوليد لهو أشد على هذه الأمة من فرعون لقومه، ووصفه ابن فضل الله في المسالك بالجبار العنيد وذكر أنه رشق المصحف بالسهام وفسق، وثب عليه ابن عمه يزيد بن الوليد فقتله وتملك فكانت خلافته ستة أشهر ناقصة وكان عمره خمساً وثلاثين وقيل ستاً وأربعين {cite:tarikh-khulafa-minhaj-1434 p. 407-408,637}.، وعند المسعودي بويع يوم توفي هشام لست خلون من ربيع الآخر سنة خمس وعشرين ومائة وقتل بالبخراء من قرى دمشق يوم الخميس لليلتين بقيتا من جمادى الآخرة سنة ست وعشرين ومائة فكانت ولايته سنة وشهرين واثنين وعشرين يوماً وهو ابن أربعين سنة، وكان أول من حمل المغنين من البلدان إليه وجالس الملهين وأظهر الشراب والملاهي واتخذ القيان ويدعى خليع بني مروان، وأمه أم الحجاج بنت محمد بن يوسف الثقفية، وقيل إنه نصب المصحف غرضاً للنشاب وهو يقول أتوعد كل جبار عنيد فهأنذا جبار عنيد، وذكر المبرد أنه ألحد في شعر ذكر فيه النبي كذب أخزاه الله {cite:muruj-al-dhahab p. 200-204}"
+  en: "The eleventh Umayyad caliph, who succeeded Hisham in 126 by his designation; Ahmad's Musnad carries the hadith that a man called al-Walid would be harder on this umma than Pharaoh on his people, and Ibn Fadlallah in al-Masalik calls him the obstinate tyrant who shot the Mushaf with arrows. His cousin Yazid ibn al-Walid rose against him, killed him and took power, his caliphate lasting six months less a fraction at age thirty-five, or forty-six {cite:tarikh-khulafa-minhaj-1434 p. 407-408,637}."
+gender: male
+died:
+  hijri: "0126"
+  precision: year
+  status: tradition
+  note: "قتله يزيد الناقص {cite:tarikh-khulafa-minhaj-1434 p. 408}."
+wings: [people]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: child_of, target: person/yazid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/hisham-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 407–408"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-13
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

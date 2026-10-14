@@ -1,0 +1,22 @@
+id: event/portuguese-reach-indian-ocean-920
+class: event
+kind: other
+label: { ar: "ظهور البرتقال في المحيط الهندي وبناء سور جدة", en: "The Portuguese reach the Indian Ocean; Jeddah walled" }
+summary:
+  ar: "في شذرات الذهب في حدود العشرين وتسع مئة ظهرت الفرنج البرتقال فاستطرقوا إلى بلاد الملة من بحر الظلمات من وراء جبال القمر فعاثوا في أرض الهند ووصل أذاهم وفسادهم إلى جزيرة العرب وبنادر اليمن وجدة فلما بلغ السلطان قانصوه الغوري ذلك جهز إليهم خمسين غراباً مع الأمير حسين الكردي وأرسل معه عسكراً عظيماً من الترك والمغاربة واللوند وجعل له جدة إقطاعاً وأمره بتحصينها فشرع في بناء سورها وإحكام أبراجها وهدم كثيراً من بيوت الناس مع عسف وشدة ظلم بحيث بنى السور جميعه في دون عام ثم توجه بعساكره إلى الهند فاجتمع بسلطان كجرات فأكرمه وهرب الفرنج عن البنادر لما سمعوا بوصوله {cite:shadharat-dhahab p. 531}."
+  en: "Shadharat's register of the Portuguese irruption: appearing beyond the Sea of Darkness past the Mountains of the Moon, they ravaged India and reached the Arabian peninsula, the Yemeni ports and Jeddah; al-Ghawri sent fifty ghurab ships under Husayn al-Kurdi who walled Jeddah within a year and relieved Gujarat {cite:shadharat-dhahab p. 531}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [arabia, south-asia]
+date:
+  start: { edtf: "1514~", hijri: "0920", calendar: julian, precision: year, status: tradition, derived: true, note: "حدود 920؛ التحويل مشتق {cite:shadharat-dhahab p. 531}." }
+relations:
+  - { type: had_participant, target: person/husayn-al-kurdi, role: "آمر الأسطول وباني سور جدة", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/qansuh-al-ghawri, role: "المرسل", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 531"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-73
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

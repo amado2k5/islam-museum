@@ -1,0 +1,20 @@
+id: work/al-numan-ibn-adi-verses-to-his-wife
+class: work
+kind: poem
+label: { ar: "أبيات النعمان بن عدي من ميسان", en: "Verses attributed to al-Numan ibn Adi at Maysan" }
+summary:
+  ar: "أبيات منسوبة إلى النعمان بن عدي وهو على ميسان بلغت عمر بن الخطاب فعزله بسببها؛ وفي حاشية المحققين أنها كُتبت إلى امرأته. تختلف رواية آخرها بين الكتاب ومعجم البلدان. لا ينقل المتحف نص الأبيات."
+  en: Verses attributed to al-Nu'man ibn Adi while he governed Maysan that reached Umar ibn al-Khattab and caused his dismissal; the editors' marginal note says they were written to his wife. The transmission of their ending differs between the book and the Mu'jam al-Buldan. The museum does not reproduce the verses.
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/al-numan-ibn-adi]
+language: language/arabic
+wings: [words]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/umar-dismisses-al-numan-ibn-adi, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: place/maysan, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 9", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-vii" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 p. 9" }

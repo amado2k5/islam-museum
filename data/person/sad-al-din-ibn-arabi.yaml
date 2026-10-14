@@ -1,0 +1,24 @@
+id: person/sad-al-din-ibn-arabi
+class: person
+label: { ar: "سعد الدين ابن الشيخ محيي الدين" }
+names:
+  - { value: "محمد بن محيي الدين ابن العربي", kind: full }
+gender: male
+summary:
+  ar: "محمد المدعو سعد الدين ابن الشيخ محيي الدين ابن العربي؛ ولد بملطية في رمضان سنة 618هـ وسمع الحديث ودرس وقال الشعر الجيد وله ديوان شعر مشهور، وقدم القاهرة وسكن حلباً وتوفي بدمشق سنة 656هـ سنة دخل هولاكو بغداد وقتل الخليفة المستعصم ودفن عند والده بسفح قاسيون {cite:nafh-tib-maqqari p. 172}."
+  en: "Ibn Arabi's son Sa'd al-Din Muhammad — born at Malatya in Ramadan 618, a hadith-hearer and poet with a famous diwan, who died at Damascus in 656, the year Hülegü took Baghdad, and was buried beside his father on Qasiyun {cite:nafh-tib-maqqari p. 172}."
+roles: [poet, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, anatolia-balkans]
+born: { edtf: "1221-09~", hijri: "0618-09~", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان سنة 618هـ بملطية {cite:nafh-tib-maqqari p. 172}", sources: [source/nafh-tib-maqqari] }
+died: { edtf: "1258~", hijri: "0656~", calendar: julian, precision: year, status: tradition, note: "سنة 656هـ بدمشق سنة سقوط بغداد {cite:nafh-tib-maqqari p. 172}", sources: [source/nafh-tib-maqqari] }
+relations:
+  - { type: child_of, target: person/ibn-arabi-muhyi-al-din, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-38
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

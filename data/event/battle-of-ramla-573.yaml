@@ -1,0 +1,22 @@
+id: event/battle-of-ramla-573
+class: event
+kind: battle
+label: { ar: "هزيمة صلاح الدين بالرملة" }
+summary:
+  ar: "في جمادى الأولى سنة ثلاث وسبعين وخمسمائة سار صلاح الدين يوسف بن أيوب من مصر إلى ساحل الشام لغزو بلاد الفرنج، فبلغ عسقلان في الرابع والعشرين منه فنهب العسكر وأسر وأحرق، ولما لم يظهر لهم عسكر فرنجي طمعوا وتفرقوا في الغارة آمنين، فوصل صلاح الدين الرملة قاصداً حصار بعض حصونهم، فازدحم الناس على عبور نهر فأشرف عليهم الفرنج بأطلابهم وأبطالهم ومعه بعض العسكر لأن أكثرهم تفرقوا في طلب الغنيمة، فتقدم محمد ابن أخي صلاح الدين فباشر القتال بين يدي عمه فقتل من أصحابه جماعة، وحمل أحمد بن تقي الدين وهو أول ما تكاملت لحيته فقتل شهيداً، وكان أشد الناس قتالاً ذلك اليوم الفقيه عيسى الهكاري، وتمت الهزيمة على المسلمين وحمل بعض الفرنج على صلاح الدين حتى كاد يصل إليه فمضى منهزماً يقف ليلحقه العسكر حتى دخل الليل فسلك البرية بنفر يسير إلى مصر وهلك كثير من دواب العسكر جوعاً وعطشاً، وذهب أكثر المغيرين بين قتيل وأسير، فمن الأسارى الفقيه عيسى الهكاري من أعيان الأسدية وأخوه الظهير فافتداهما صلاح الدين بعد سنين بستين ألف دينار مع جماعة من الأسرى، ووصل صلاح الدين القاهرة في نصف جمادى الآخرة، ورأى ابن الأثير كتاباً كتبه بخط يده إلى أخيه تورانشاه بدمشق يذكر الوقعة وأوله بيتا شعر {cite:kamil-ibn-al-athir p. 85-86}."
+wings: [time, place]
+themes: [battles]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1177-11~", hijri: "0573-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى 573؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 85}." }
+relations:
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "القائد المنهزم", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/ramla, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 573، ص 85–86"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-01
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

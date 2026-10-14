@@ -1,0 +1,21 @@
+id: event/muhammad-qasim-death
+class: event
+kind: death
+label: { ar: "حمل محمد بن القاسم مقيداً ومقتله بواسط", en: "Muhammad ibn al-Qasim Carried Bound to Death at Wasit" }
+summary:
+  ar: "مات الوليد بن عبد الملك وولي سليمان بن عبد الملك فاستعمل صالح بن عبد الرحمن على خراج العراق وولى يزيد بن أبي كبشة السكسكي السند فحمل محمد بن القاسم مقيداً مع معاوية بن المهلب فقال محمد متمثلاً أضاعوني وأي فتى أضاعوا ليوم كريهة وسداد ثفر فبكى أهل الهند على محمد وصوروه بالكيرج فحبسه صالح بواسط فقال فليت تويت بواسط وأرضها رهن الحديد مكبلاً مغلولاً وقال لو كنت أجمت القرار لوطئت إناث أعدت للوغى وذكور وما دخلت خيل السكاسك أرضنا ولا كان من عك علي أمير ولا كنت للعبد المزوني تابعاً فيا لك دهر بالكرام عنور فعذبه صالح في رجال من آل أبي عقيل حتى قتلهم وكان الحجاج قتل آدم أخا صالح وكان يرى رأي الخوارج وقال حزة بن بيض الحنفي إن المروة والسماحة والندى لمحمد بن القاسم بن محمد ساس الجيوش لسبع عشرة حجة يا قرب ذلك سودداً من مولد ومات يزيد بن أبي كبشة بعد قدومه أرض السند بثمانية عشرة يوماً."
+  en: "Al-Walid dead, Sulayman put Salih ibn Abd al-Rahman over Iraq's kharaj and Yazid ibn Abi Kabsha al-Saksaki over Sind; Muhammad was carried bound with Mu'awiya ibn al-Muhallab, reciting 'they wasted me — and what a youth they wasted, for the day of hardship and filling the gap'. Sind wept and painted him at al-Kiraj. Salih jailed him at Wasit — 'would that I were buried in Wasit's soil, pledged to iron, bound and shackled... had I not taken rest, mares and stallions bred for war would have been ridden; the Saksakis' horse had not entered our land, no amir of Akk over me, nor I follower of the Muzuni slave' — and tortured him among the Banu Abi Aqil till he died, avenging his brother Adam the Khariji killed by al-Hajjaj. Hazza ibn Bayd al-Hanafi praised him: 'he led armies at seventeen — how near a mastery to his birth'. Yazid ibn Abi Kabsha died eighteen days after reaching Sind."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salih-ibn-abd-al-rahman, role: "المعذب القاتل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yazid-ibn-abi-kabsha, role: "والي السند", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-al-muhallab, role: "المحمول معه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/wasit }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

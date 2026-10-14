@@ -1,0 +1,95 @@
+id: person/ruqayya-bint-muhammad
+class: person
+label:
+  ar: رقية بنت محمد
+  en: Ruqayya bint Muhammad
+names:
+- kind: full
+  lang: ar
+  value: رقية بنت محمد بن عبد الله بن عبد المطلب الهاشمية
+gender: female
+died:
+  edtf: "0624-03"
+  hijri: "0002-09"
+  calendar: julian
+  precision: month
+  status: tradition
+  note: 'ماتت يوم وصول زيد بن حارثة مبشراً بوقعة بدر؛ وقيل: وصل لما دُفنت.'
+  sources:
+  - source/ibn-hajar-isaba
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: ابنة النبي وزوج عثمان بن عفان، هاجرت معه إلى الحبشة ثم إلى المدينة؛ مرضت عند خروج النبي إلى بدر فتخلف عثمان عليها، وتوفيت يوم وصل زيد بن حارثة بخبر النصر.
+  en: A daughter of the Prophet and wife of Uthman ibn Affan; she emigrated with him to Abyssinia and then to Medina, fell ill as the Prophet set out for Badr, and died the day Zayd ibn Haritha arrived with the news of the victory.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 11224 (ص 1872).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/khadija
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/uthman-ibn-affan
+  note: تزوجها عثمان بن عفان بعد ردّ أبي لهب خِطبة ابنه لها؛ هاجرت معه إلى الحبشة فكانت ذات الهجرتين (نساء حول الرسول ص404-408).
+  sources:
+  - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
+- type: sibling_of
+  target: person/fatima
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/zaynab-bint-muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/return-of-abyssinian-emigrants
+  role: emigrant
+  sources:
+  - source/ibn-hisham-saqqa
+- type: traveled_to
+  target: place/aksum
+  note: أرض الحبشة
+  sources:
+  - source/ibn-hisham-saqqa
+- type: member_of
+  target: group/banu-hashim
+  sources:
+  - source/ibn-hisham-saqqa
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11224، ص 1872 (تراجم النساء)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-women-1
+sources:
+- source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
+- source/nisa-hawl-alrasul
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1872, entry 11224)

@@ -1,0 +1,22 @@
+id: event/wathiq-captive-ransom-231
+class: event
+kind: other
+label: { ar: "استفكاك الأسرى المسلمين من الروم سنة إحدى وثلاثين" }
+summary:
+  ar: "في سنة إحدى وثلاثين استفك الواثق من الروم ألف وست مئة أسير مسلم، فقال ابن أبي دؤاد من قال من الأسرى القرآن مخلوق خلصوه وأعطوه دينارين ومن امتنع دعوه في الأسر {cite:tarikh-khulafa-minhaj-1434 p. 530}."
+  en: "In 231 al-Wathiq ransomed 1,600 Muslim captives from the Byzantines; Ibn Abi Du'ad ruled that any captive who affirmed the Quran created be freed and given two dinars, and whoever refused be left in captivity {cite:tarikh-khulafa-minhaj-1434 p. 530}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans, levant-iraq]
+date:
+  start: { edtf: "0846~", hijri: "0231", calendar: julian, precision: year, status: tradition, derived: true, note: "231؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 530}." }
+relations:
+  - { type: had_participant, target: person/al-wathiq, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ahmad-ibn-abi-duad, role: "المستفتى", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 530"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-27
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

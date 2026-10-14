@@ -1,0 +1,54 @@
+id: polity/fatimid-caliphate
+class: polity
+kind: caliphate
+label:
+  ar: الدولة الفاطمية
+  en: Fatimid Caliphate
+summary:
+  ar: خلافة قامت سنة 909م وانتهت سنة 1171م، وعاصمتها القاهرة.
+  en: A caliphate established in 909 CE and ended in 1171 CE; its capital was Cairo.
+wings:
+- time
+- place
+periods:
+- period/buyid-seljuk-fatimid-era
+regions:
+- egypt-nile
+- maghreb
+start:
+  edtf: "0909"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "1171"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+capitals:
+- place: place/cairo
+relations:
+- type: successor_of
+  target: polity/abbasid-caliphate
+  sources:
+  - source/wikidata
+external_ids:
+  wikidata: Q160307
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

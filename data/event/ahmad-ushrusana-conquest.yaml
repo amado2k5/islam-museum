@@ -1,0 +1,20 @@
+id: event/ahmad-ushrusana-conquest
+class: event
+kind: conquest
+label: { ar: "فتح أشروسنة على يد أحمد بن أبي خالد", en: "Ahmad ibn Abi Khalid's Conquest of Ushrusana" }
+summary:
+  ar: "وجه المأمون أحمد بن أبي خالد الأحول الكاتب لغزو أشروسنة في جيش عظيم فلما بلغ كاوس إقباله نحوه بعث الفضل بن كاوس إلى الترك يستنجدهم فأنجده منهم الدهم وقدم أحمد بن أبي خالد بلد أشروسنة فأناخ على مدينتها قبل موافاة الفضل بالتراك فكان تقدير كاوس فيه أن يسلك الطريق البعيدة وأنه لا يعرف هذه الطريق المختصرة فسقط في يده ونخب قلبه فاستسلم وخرج في الطاعة وبلغ الفضل خبره فانحاز بالتراك إلى مفازة هناك ثم فارقهم وسار جاداً حتى أتى أباه فدخل في أمانه وهلك الترك عطشاً وورد كاوس مدينة السلام فأظهر الإسلام وملكه المأمون على بلاده ثم ملك حيدر ابنه وهو الأفشين بعده."
+  en: "Al-Ma'mun sent the katib Ahmad ibn Abi Khalid al-Ahwal in a great host; Kawus summoned the Turks through al-Fadl ibn Kawus — but Ahmad camped on the city by Haydar's short road before the Turks came, and Kawus, who had reckoned him bound to the long route, despaired and yielded. Al-Fadl drew the Turks into a waterless waste, slipped away to his father's aman, and the Turks perished of thirst. Kawus showed Islam at Baghdad and was re-kingdomed, then his son Haydar — al-Afshin — after him."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/ahmad-ibn-abi-khalid, role: "الأمير الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/kawus, role: "الملك المستسلم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/haydar-ibn-kawus, role: "الدليل على الطريق", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/ushrusana }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

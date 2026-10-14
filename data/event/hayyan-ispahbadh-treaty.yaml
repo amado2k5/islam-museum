@@ -1,0 +1,20 @@
+id: event/hayyan-ispahbadh-treaty
+class: event
+kind: treaty
+label: { ar: "صلح حيان مع الأصبهبذ", en: "Hayyan's Treaty with the Ispahbadh" }
+summary:
+  ar: "استعمل يزيد على دهستان والبياسان عبد الله بن معمر اليشكري في أربعة آلاف ووجه ابنه خالداً وأخاه أبا عيينة بن المهلب إلى الأصبهبذ فهزمهما حتى ألحقهما بعسكر يزيد وكتب الأصبهبذ إلى المرزبان إنا قد قتلنا أصحاب يزيد فاقتل من قبلك من العرب فقتل عبد الله بن معمر ومن معه وهم غارون فوجه يزيد حيان مولى مصقلة وهو من سبي الديلم فقال للأصبهبذ إني رجل منك وإليك وإن فرّق الدين بيننا ولا قوام لك مع جيوش خراسان وقد رأيت لك يزيد فوجدته سريعاً إلى الصلح فصالحه ولم يزل يخدعه حتى صالح يزيد على سبعمائة ألف درهم وأربعمائة قرن زعفراناً فقال الأصبهبذ العشرة وزن ستة فقال لا ولكن وزن سبعة فأبى فقال حيان أنا أتحمل فضل ما بين الوزنين فتحمله وكان حيان من نبل الموالي وسرواتهم ويكنى أبا معمر."
+  en: "Yazid posted Abdallah ibn Ma'mar al-Yashkari over Dihistan and al-Biyasan with four thousand and sent his son Khalid and brother Abu Uyayna against the Ispahbadh, who routed them back to Yazid's camp and wrote the marzban to kill his Arabs — Abdallah and his men were slaughtered in their beds. Yazid sent Hayyan, Masmala's mawla of Daylami captivity, who told the Ispahbadh 'I am a man of yours to you, though religion parts us; you cannot stand Khurasan's armies, and I found Yazid quick to terms' — he worked him till Yazid treated for seven hundred thousand dirhams and four hundred qirats of saffron; the Ispahbadh demanded weight-six, Hayyan bore the difference — a noble and leading mawla, called Abu Ma'mar."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/hayyan-mawla-masmala, role: "المفاوض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yazid-ibn-al-muhallab, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-mamar, role: "المقتول غيلة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tabaristan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

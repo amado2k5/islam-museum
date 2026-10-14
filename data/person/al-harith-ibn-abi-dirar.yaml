@@ -1,0 +1,60 @@
+id: person/al-harith-ibn-abi-dirar
+class: person
+label:
+  ar: الحارث بن أبي ضرار
+  en: Al-Harith ibn Abi Dirar
+names:
+- kind: full
+  lang: ar
+  value: الحارث بن أبي ضرار بن حبيب بن الحارث بن عائذ بن مالك بن المصطلق أبو مالك الخزاعي ثم المصطلقي، والد جويرية أم المؤمنين
+- kind: kunya
+  lang: ar
+  value: أبو مالك
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: سيد بني المصطلق من خزاعة، والد جويرية أم المؤمنين؛ جاء المدينة بفداء ابنته بعدما أُسرت، وروى ابن إسحاق أنه أسلم لما ذكّره النبي بالبعيرين اللذين أخفاهما بالعقيق، وأسلم معه ابنان له وناس من قومه.
+  en: Chief of the Banu al-Mustaliq of Khuza'a and father of Juwayriya, mother of the believers. He came to Medina with ransom for his captive daughter; Ibn Ishaq reports that he accepted Islam when the Prophet named the two camels he had hidden
+    at al-Aqiq, and two of his sons and some of his people followed.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 1455 (ص 259).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: parent_of
+  target: person/juwayriya-bint-al-harith
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/expedition-of-banu-al-mustaliq
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 1455، ص 259
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-10
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 259, entry 1455)

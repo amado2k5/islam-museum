@@ -1,0 +1,23 @@
+id: place/qayrawan
+class: place
+kind: city
+aliases: [place/kairouan]
+label: { ar: "القيروان", en: "Qayrawan" }
+summary:
+  ar: "القيروان مصر إفريقية؛ اختطّها عقبة بن نافع الفهري وكان موضعها غيضة ذات طرقاء وشجر لا تُرام من السباع والحيات والمقارب القتالة فدعا ربه فأذهب ذلك كله ثم بنى وبنى الناس معه الدور والمساكن وبنى مسجدها الجامع وكان قد أُري في منامه كأن رجلاً أذّن في موضع مئذنته فبنى المنائر في موقف الرجل؛ ورمّها ورمّ مسجدها محمد بن الأشعث الخزاعي في ولايته لأبي العباس."
+  en: "Qayrawan, the garrison-city of Ifriqiya; Uqba ibn Nafi' al-Fihri laid it out on a thicket-site of trees unapproachable for beasts, snakes and deadly vermin — praying to his Lord until all that was removed, the very beasts fleeing with their young — then built, the people building houses and dwellings with him, and built its congregational mosque, having seen in a dream a man giving the call to prayer where its minaret stood, so he built the minarets on the man's station; and Muhammad ibn al-Ash'ath al-Khuza'i repaired the city and its mosque in his governorship for Abu al-Abbas."
+wings: [place]
+periods: [period/umayyad]
+regions: [maghreb]
+coordinates: [35.6781, 10.0963]
+coordinate_precision: site
+external_ids: { geonames: "2473449" }
+relations:
+  - { type: site_of, target: event/founding-of-qayrawan, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 320، 322"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

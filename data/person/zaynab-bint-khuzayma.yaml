@@ -1,0 +1,107 @@
+id: person/zaynab-bint-khuzayma
+class: person
+label:
+  ar: زينب بنت خزيمة
+  en: Zaynab bint Khuzayma
+names:
+- kind: full
+  lang: ar
+  value: زينب بنت خزيمة بن عبد الله بن عمرو بن عبد مناف بن هلال بن عامر بن صعصعة الهلالية
+- kind: kunya
+  lang: ar
+  value: أم المساكين
+gender: female
+died: { edtf: "0627~", calendar: julian, precision: year, status: tradition, note: "ماتت في حياة النبي وقد أتمت الثلاثين ودُفنت بالبقيع ونزل إلى حفرتها اثنان من أقاربها (نساء حول الرسول ص92).", sources: [source/nisa-hawl-alrasul] }
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'أم المؤمنين، تُلقب أم المساكين لإطعامها إياهم وصدقتها عليهم؛ تزوجها النبي بعد حفصة وأقامت عنده أشهراً ثم ماتت في حياته، وفي زوجها السابق خلاف: عبد الله بن جحش الذي استُشهد بأحد أو الطفيل ثم عبيدة ابنا الحارث.'
+  en: 'A Mother of the Believers called ''Umm al-Masakin'' (mother of the poor) for feeding and giving to them; the Prophet married her after Hafsa, she stayed with him some months and died in his lifetime; her earlier husband is disputed: Abdullah
+    ibn Jahsh, martyred at Uhud, or al-Tufayl and then Ubayda, sons of al-Harith.'
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11280 (ص 1883).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/ubayda-ibn-al-harith
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/mothers-of-the-believers
+  sources: [source/tanzil-quran, source/mubarakpuri-raheeq]
+issue:
+  ar: من كان زوجها قبل النبي ومتى تزوجها؟
+  en: Who was Zaynab bint Khuzayma's husband before the Prophet and when did he marry her?
+perspectives:
+- tradition: sunni
+  id: report-1
+  stance:
+    ar: رواية الإصابة الأولى
+  summary:
+    ar: كانت تحت عبد الله بن جحش فاستُشهد بأحد فتزوجها النبي.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1883
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-2
+  stance:
+    ar: رواية أخرى في الإصابة
+  summary:
+    ar: كانت تحت الطفيل بن الحارث بن المطلب ثم خلف عليها أخوه عبيدة.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1883
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-3
+  stance:
+    ar: ابن الكلبي
+  summary:
+    ar: كانت عند الطفيل بن الحارث فطلقها فخلف عليها أخوه، فقُتل عنها ببدر، فخطبها رسول الله إلى نفسها، فجعلت أمرها إليه، فتزوجها في رمضان سنة 3هـ.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1884
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11280، ص 1883
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+- source/mubarakpuri-raheeq
+- source/nisa-hawl-alrasul
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1883, entry 11280)

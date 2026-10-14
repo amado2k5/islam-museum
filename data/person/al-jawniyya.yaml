@@ -1,0 +1,33 @@
+id: person/al-jawniyya
+class: person
+label: { en: "al-Jawniyya", ar: "الجونية" }
+names:
+- kind: laqab
+  lang: ar
+  value: الجونية
+gender: female
+roles: [other]
+summary:
+  ar: "امرأة من كندة عُقد للنبي عليها ولم يبن بها؛ اختلف أهل السير في اسمها وتفاصيل قصتها، واكتفى الرحيق المختوم بذكر لقبها المعروف."
+  en: "A woman of Kinda contracted to the Prophet but the marriage was not consummated; the sira literature disagrees on her name and the details, and al-Raheeq records only her well-known byname."
+wings: [people]
+themes: [women, family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+faith:
+- value: unknown
+  basis: unknown
+  note: اختلفت الروايات فيها؛ لا يُبنى تصنيف على مادة غير مستقرة.
+relations:
+- type: spouse_of
+  target: person/muhammad
+  note: عُقد عليها ولم يبن بها؛ قيل إنها طُلقت قبل الدخول.
+  sources: [source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الرحيق المختوم، البيت النبوي، ص 475
+  generated_by: Devin
+  model: SWE-2 High
+  run: raheeq-batch-24
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); mined from al-Raheeq al-Makhtum p. 475" }

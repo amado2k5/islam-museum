@@ -1,0 +1,42 @@
+id: work/al-mughni
+class: work
+kind: book
+label:
+  ar: المغني
+  en: "al-Mughni"
+summary:
+  ar: شرح ابن قدامة المقدسي على مختصر الخرقي، وهو أشهر شروح المختصر؛ يكتب المسألة من المتن ثم يبيّن أقوال الأئمة وأدلتها ويرجّح، وكان في تسع مجلدات بخط مؤلفه، وأغلب نسخه اليوم في ثلاثة عشر مجلداً.
+  en: "Ibn Qudama al-Maqdisi's commentary on the Mukhtasar of al-Kharaqi, the most famous of its commentaries; he writes out each question from the base text, then lays out the imams' positions and their evidence and gives his preference. It ran to nine volumes in the author's own hand, and most copies today are in thirteen volumes."
+genre:
+- fiqh
+authors:
+- person/ibn-qudama-al-maqdisi
+made:
+  by_muslims: true
+  basis: documented
+  sources:
+  - source/madkhal-ibn-badran-turki
+wings:
+- words
+periods:
+- period/crusades-ayyubid-mamluk
+regions:
+- levant-iraq
+themes:
+- development-of-law-theology-institutions
+relations:
+- type: commentary_on
+  target: work/mukhtasar-al-kharaqi
+  sources:
+  - source/madkhal-ibn-badran-turki
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-1
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from pp. 424-426 of the book

@@ -1,0 +1,21 @@
+id: event/mamun-muawiya-proclamation
+class: event
+kind: other
+label: { ar: "نداء المأمون بالبراءة ممن ذكر معاوية بخير" }
+summary:
+  ar: "في سنة إحدى عشرة ومئتين أمر المأمون بأن ينادى برئت الذمة ممن ذكر معاوية بخير وأن أفضل الخلق بعد رسول الله علي بن أبي طالب {cite:tarikh-khulafa-minhaj-1434 p. 488}."
+  en: "In year 211 al-Ma'mun ordered it proclaimed: the dhimma is quit of whoever spoke well of Mu'awiya — and that the best of creation after the Messenger of God is Ali ibn Abi Talib {cite:tarikh-khulafa-minhaj-1434 p. 488}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0826~", hijri: "0211", calendar: julian, precision: year, status: tradition, derived: true, note: "211؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 488}." }
+relations:
+  - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 488"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-23
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

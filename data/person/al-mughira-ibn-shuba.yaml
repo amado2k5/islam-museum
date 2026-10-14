@@ -1,0 +1,26 @@
+id: person/al-mughira-ibn-shuba
+class: person
+label: { en: "al-Mughira ibn Shu'ba", ar: "المغيرة بن شعبة" }
+names:
+  - { kind: full, lang: ar, value: "المغيرة بن شعبة الثقفي" }
+gender: male
+roles: [companion, politician]
+traditions: [sunni]
+summary:
+  en: "Thaqafi Companion renowned for wit and statecraft; he broke the gate of al-Lat with the pickaxe during its demolition in 9 AH, first feigning a collapse that struck terror into the watching Thaqafis."
+  ar: "صحابي ثقفي عُرف بدهائه ومكره السياسي؛ تقدّم بالكُرزُن فضرب باب اللات يوم هدمها سنة 9هـ بعد أن سقط يمازح أصحابه فأُرعب أهل الطائف ظناً أن «الربة» قتلته.، وسفارته إلى ذي الجناحين قبل نهاوند: جعل يطعن برمحه في بسطهم ليغضبهم ثم وثب فقعد مع الملك على سريره فلما لكزوه قال إنا لا نفعل برسلكم هكذا فإن كنت فجرت واستخففت فلا تؤاخذوني، وقال للملك بل نقطع إليكم {cite:muruj-al-dhahab p. 618}، وجاء علياً فأشار عليه بإقرار معاوية وعمال عثمان على أعمالهم حتى تأتي طاعتهم، فلما خرج من الغد قال إنما الرأي أن تعاجلهم بالنزع فتعرف السامع من غيره، فقال له ابن عباس أما أمس فقد نصحك وأما اليوم فقد غشك، وذكر عنه أنه قال نصحته فلم يقبل فغششته، وقال علي لا والله لا أستعمل معاوية يومين أبداً {cite:muruj-al-dhahab p. 647-649}، ونصح علياً بعد بيعته أن يستعمل طلحة على الكوفة والزبير على البصرة ويبعث إلى معاوية بعهده على الشام حتى تلزمه طاعته فأبى وقال لا والله لا يراني الله استعين به ما دام على حاله، فانصرف مغضباً وأنشد نصحت علياً في ابن هند مقالة فردت، وكاتبه معاوية بعد الجمل أن قد ظهر من رأي ابن أبي طالب ما تقدم من وعده لك في طلحة والزبير {cite:muruj-al-dhahab p. 665-666}"
+wings: [people]
+themes: [sacred-space-and-pilgrimage, humour-and-everyday-life]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: commander, start: { edtf: "0630-12~" }, status: tradition, note: "تولى مع خالد بن الوليد هدم اللات وضرب بابها بالكُرزُن بنفسه.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition }
+relations:
+  - { type: member_of, target: group/thaqif }
+  - { type: born_in, target: place/taif }
+  - { type: participated_in, target: event/demolition-of-al-lat, role: "مهدّم الصنم بالكُرزُن", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

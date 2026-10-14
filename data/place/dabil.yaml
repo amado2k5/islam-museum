@@ -1,0 +1,19 @@
+id: place/dabil
+class: place
+kind: city
+label: { ar: "دبيل", en: "Dabil (Dvin)" }
+summary:
+  ar: "دبيل من مدن أرمينية الثالثة؛ عمّرها أنوشروان وحصّنها؛ وحاصر حبيب بن مسلمة أهلها فأقام عليها فلقيه الموريان الرومي فبيّته وقتله وغنم ما كان في عسكره في رواية الواقدي — والثبت عندهم أن سلمان لقي الموريان بقاليقلا."
+  en: "Dabil (Dvin) of the third Armenia's cities; Anushirwan settled and fortified it; Habib ibn Maslama besieged its people and sat upon it until the Roman Maurian met him, night-attacked and killed him and spoiled his camp — in al-Waqidi's report — while the sounder version with them has Salman meeting the Maurian at Qaliqala."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273–274، 279"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-16
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

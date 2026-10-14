@@ -1,0 +1,19 @@
+id: place/homs
+class: place
+kind: city
+label: { ar: "حمص", en: "Hims (Emesa)" }
+summary:
+  ar: "مدينة الشام على نهر العاصي؛ صالح أهلها أبا عبيدة بن الجراح بعد فتح دمشق على الأمان على أنفسهم وأموالهم وسور مدينتهم وكنائسهم وأرحائهم واستُثنى ربع كنيسة يوحنا للمسجد على مائة ألف وسبعين ألف دينار؛ ولما جمع هرقل لليرموك رد المسلمون على أهلها ما أخذوا من خراجهم فآثروا ولايتهم على الظلم والغشم وأغلقوا أبوابها دون جند هرقل هو ويهودها؛ ثم صارت هي وقنسرين جنداً واحداً، وهدم مروان بن محمد سورها لخلافهم عليه، وكانت مفروشة بالصخر فأمر المعتصم بقلع الفرش أيام الفضل بن قارن ثم أظهر أهلها المعصية وقتلوه وصلبوه فافتتحها موسى بن بغا الكبير عنوة سنة 250."
+  en: "A city of Syria on the Orontes; its people compounded with Abu Ubayda ibn al-Jarrah after Damascus's fall for safety of lives, wealth, wall, churches and mills — a quarter of St John's church excepted for the mosque — at a hundred and seventy thousand dinars; when Heraclius massed for the Yarmuk the Muslims returned to its people the kharaj taken, and they preferred Muslim rule to the injustice they had known, shutting the gates against Heraclius's army as did its Jews; afterwards Hims and Qinnasrin became a single jund; Marwan ibn Muhammad demolished its wall for their defection, and its stone pavement was lifted at al-Mu'tasim's order in the days of al-Fadl ibn Qarin, then the people rebelled, killed and crucified him, and Musa ibn Bugha the Elder took the city by force in year 250."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/damascus, note: "من أعمال الشام", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 177–183"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-9
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

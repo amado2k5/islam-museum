@@ -1,0 +1,22 @@
+id: event/battle-of-anisha-634
+class: event
+kind: battle
+label: { ar: "وقعة أنيشة" }
+summary:
+  ar: "وقعة أنيشة التي قتل بها الحافظ أبو الربيع الكلاعي يوم الخميس لعشر بقين من ذي الحجة سنة أربع وثلاثين وستمائة؛ لم يزل متقدماً أمام الصفوف زحفاً إلى الكفار مقبلاً على العدو ينادي بالمنهزمين: أعن الجنة تفرون! حتى قتل صابراً محتسباً، وكان دائماً يقول إن منتهى عمره سبعون سنة لرؤيا رآها في صغره فكان كذلك، ورثاه تلميذه الحافظ ابن الأبار بقصيدته الميمية الشهيرة {cite:nafh-tib-maqqari p. 477}."
+  en: "The battle of Anisha (Thursday, 10 Dhu al-Hijja 634) in which the hafiz Abu'l-Rabi al-Kila'i was killed — advancing ahead of the ranks, calling to the fleeing 'do you flee Paradise?' until he fell; his pupil Ibn al-Abbar mourned him in the famous mimiyya elegy {cite:nafh-tib-maqqari p. 477}."
+wings: [time]
+themes: [battles]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1237-08-11~", hijri: "0634-12-10~", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس 10 ذي الحجة 634؛ التحويل مشتق {cite:nafh-tib-maqqari p. 477}." }
+relations:
+  - { type: had_participant, target: person/abu-al-rabi-al-kilai, role: "قتل صابراً محتسباً ينادي بالمنهزمين", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 477"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-59
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

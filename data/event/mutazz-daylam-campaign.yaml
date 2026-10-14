@@ -1,0 +1,22 @@
+id: event/mutazz-daylam-campaign
+class: event
+kind: campaign
+label: { ar: "بعث موسى بن بغا إلى الديلم", en: "Musa ibn Bugha's Daylam Campaign" }
+summary:
+  ar: "في سنة ثلاث وخمسين ومائتين وجّه المعتز بالله موسى بن بغا الكبير مولاه إلى الطالبيين الذين ظهروا بالديلم وناحية طبرستان وكانت الديالمة قد اشتملت على رجل منهم يعرف بالكوكي فغزا الديلم وأوغل في بلادهم وحاربوه فأوقع بهم وثقلت وطأته عليهم واشتدت نكايته."
+  en: "In 253 AH al-Mu'tazz sent his mawla Musa ibn Bugha al-Kabir against the Talibis risen in Daylam and the Tabaristan side, where the Daylamis had rallied to a man called al-Kawki; he raided Daylam deep into their land, fought them, struck them hard, and his burden and damage weighed heavy on them."
+date:
+  start: { hijri: "0253", precision: year, status: tradition, note: "«وكانت سنة 253»", sources: [source/futuh-buldan-maarif-1407] }
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: had_participant, target: person/al-mutazz, role: "الآمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/musa-ibn-bugha, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-kawki, role: "زعيم الديلم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/daylam }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

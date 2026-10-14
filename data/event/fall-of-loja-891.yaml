@@ -1,0 +1,23 @@
+id: event/fall-of-loja-891
+class: event
+kind: conquest
+label: { ar: "ثورة البيازين وسقوط لوشة" }
+summary:
+  ar: "أطلق صاحب قشتالة السلطان أبا عبد الله الذي كان تحت أسره وكساه ووعده بكل ما يتمناه وأعطاه المال والرجال على أن من دخل تحت حكمه من المسلمين فهو في الهدنة، فخرج لبلش فأطاعه أهلها ونودي بالصلح في الأسواق؛ وقام ربض البيازين بدعوة السلطان المأسور فوقعت فتنة عظيمة في غرناطة نفسها بين المسلمين من ثالث ربيع الأول سنة إحدى وتسعين وثمانمائة إلى منتصف جمادى الأولى، ورجموا البيازين بالحجارة من القلعة {cite:nafh-tib-maqqari p. 520-521}. وقدم السلطان على لوشة ودخلها راجياً الصلح بينه وبين عمه الزغل بأن يكون للعم الملك وابن أخيه تحت إيالته، فنازلها صاحب قشتالة وضيق بها الحصار ولم يأت لنصرتها غير البيازين، فطلب أهلها الأمان وأخذ البلد في السادس والعشرين من جمادى الأولى سنة إحدى وتسعين وثمانمائة — وهي بلد سلف الوزير لسان الدين ابن الخطيب — وهاجر أهلها إلى غرناطة وصرح أهلها بأنه ما جاء للوشة إلا ليدخل إليها العدو ويجعلها فداء له {cite:nafh-tib-maqqari p. 521}."
+  en: "Castile released the captive Boabdil, clothed him and armed him to split the Muslims — Vélez submitted and 'peace' was cried in the markets; Granada's Bayazin quarter rose for him (Rabi I–Jumada I 891) while the Alcazaba stoned them. He then entered Loja seeking reconciliation with his uncle al-Zaghal, but the Castilian siege starved it into surrender on 26 Jumada I 891 — Ibn al-Khatib's ancestral town — and Granada openly said he had come only to hand Loja over as his ransom {cite:nafh-tib-maqqari p. 520-521}."
+wings: [time]
+themes: [battles, civil-wars-and-revolts]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1486-05-28~", hijri: "0891-05-26~", calendar: julian, precision: day, status: tradition, derived: true, note: "السادس والعشرون من جمادى الأولى سنة 891؛ التحويل مشتق {cite:nafh-tib-maqqari p. 521}." }
+relations:
+  - { type: had_participant, target: person/boabdil-muhammad-xii, role: "السلطان المأسور المُطلَق الذي دخل لوشة وسلمها للقشتاليين", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/al-zaghal, role: "العم صاحب قلعة غرناطة الذي سعى أبو عبد الله للصلح معه", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 520–521"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-56
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

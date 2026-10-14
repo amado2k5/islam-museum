@@ -1,0 +1,27 @@
+id: person/safwan-ibn-al-muattal
+class: person
+label: { en: "Safwan ibn al-Mu'attal", ar: "صفوان بن المعطل" }
+names:
+  - { kind: full, lang: ar, value: "صفوان بن المعطل بن ربيعة السلمي الذكواني" }
+  - { kind: kunya, lang: ar, value: "أبو عمرو" }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  en: "A righteous Companion and veteran warrior from Banu Sulaym assigned to travel behind the army to collect dropped luggage; when he found Aisha left behind at al-Muraysi', he recognized her, lowered his camel without uttering a word beyond 'Inna lillahi wa-inna ilayhi raji'un', and safely escorted her to Medina; he was martyred during the Armenian conquests."
+  ar: "صحابي جليل وفارس بدري من بني سليم؛ كان النبي يجعله على ساقة الجيش يتبع الساقط من متاعهم، فوجد أم المؤمنين عائشة في حادثة الإفك فأناخ راحلته وقادها مكرماً لها ولم يكلمها كلمة واحدة إلا استرجاعه، فشهد الله ببراءتهما في سورة النور؛ واستشهد في فتوح أرمينية."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: companion, start: { edtf: "0624~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: martyr, start: { edtf: "0638~" }, status: tradition, note: "استشهد في فتوح أرمينية في خلافة عمر.", sources: [source/ibn-sad-tabaqat-bewley] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0624~" }, note: "صحابي بدري برأه الله في القرآن." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/incident-of-the-slander, role: "الصحابي الساقة الذي وجد عائشة وحملها", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }

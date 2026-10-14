@@ -1,0 +1,28 @@
+id: person/umm-harmala-bint-abd-al-aswad
+class: person
+label: { en: Umm Harmala bint Abd al-Aswad, ar: "أم حرملة بنت عبد الأسود" }
+names:
+  - { kind: full, lang: ar, value: "أم حرملة بنت عبد الأسود" }
+  - { kind: kunya, lang: ar, value: "أم حرملة" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "زوجة جهم بن قيس، هاجرت معه إلى الحبشة وهلكت بها."
+  en: Wife of Jahm ibn Qays; she emigrated with him to Abyssinia and died there.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص5)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-abd-dar, sources: [source/ibn-hisham-saqqa] }
+  - { type: spouse_of, target: person/jahm-ibn-qays, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 5", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

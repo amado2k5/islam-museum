@@ -1,0 +1,22 @@
+id: person/aban-al-lahiqi
+class: person
+label: { ar: "أبان اللاحقي", en: "Aban al-Lahiqi" }
+names:
+  - { kind: full, lang: ar, value: "أبان بن عبد الحميد بن لاحق" }
+gender: male
+roles: [poet, writer]
+traditions: [sunni]
+died: { edtf: "815~", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شاعر أديب بصري اتصل بالبرامكة وكان شاعرهم، ونظم كتاب «كليلة ودمنة» شعرا.، وهو الذي نقل كتاب كليلة ودمنة إلى الشعر ونقله أيضا علي بن داود وبشر بن المعتمد {cite:fihrist-ibn-al-nadim p. 424}"
+  en: "A poet and man of letters from Basra who attached himself to the Barmakids and served as their poet; he versified the Kalila wa-Dimna in verse."
+wings: [people, words]
+themes: [literature]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/fihrist-ibn-al-nadim]
+status: { review: draft, completeness: 2, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 141-144, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص141-144", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+  # Printed death date conflicts: "335 ه / 815 م"; the CE year is recorded as uncertain only.

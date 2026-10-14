@@ -1,0 +1,19 @@
+id: place/velez-malaga
+class: place
+kind: city
+label: { ar: "بلش مالقة" }
+summary:
+  ar: "بلش (بلش مالقة) من مدن شرق مالقة؛ دخلت في دعوة السلطان المأسور أبي عبد الله فنودي فيها بالصلح {cite:nafh-tib-maqqari p. 520}، ثم حاصرها صاحب قشتالة براً وبحراً في ربيع الثاني سنة 892 فانهزم جيش إغاثتها قبل الالتحام لخبر ثورة غرناطة، وخرج أهلها على الأمان يوم الجمعة عاشر جمادى الأولى وأطاعت البلاد التي بشرقي مالقة وحصن قمارش {cite:nafh-tib-maqqari p. 523-524}."
+  en: "Velez-Malaga — first of the east-Malaga cities to fall in the final war; it went over to the captive sultan's peace-party, then surrendered on Friday 10 Jumada I 892 when the relief army broke before contact on the rumour Granada had risen {cite:nafh-tib-maqqari p. 523-524}."
+wings: [place]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 523–524"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

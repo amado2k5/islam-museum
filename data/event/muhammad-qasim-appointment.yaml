@@ -1,0 +1,21 @@
+id: event/muhammad-qasim-appointment
+class: event
+kind: campaign
+label: { ar: "تجهيز محمد بن القاسم إلى السند", en: "The Fitting-out of Muhammad ibn al-Qasim" }
+summary:
+  ar: "ولى الحجاج محمد بن القاسم بن محمد بن الحكم بن أبي عقيل في أيام الوليد بن عبد الملك فغزا السند وكان بفارس وقد أمره أن يسير إلى الري وعلى مقدمته أبو الأسود جهم بن زهر الجمحي فرده إليه وعقد له على ثغر السند وضم إليه ستة آلاف من جند أهل الشام وخلقاً من غيرهم وجهزه بكل ما احتاج إليه حتى الخيوط والمسال وأمره أن يقيم بشيراز حتى يتتم إليه أصحابه ويوافيه ما عد له وعمد الحجاج إلى القطن المحلوج فنقع في الخل الخمر الحاذق ثم جفف في الظل فقال إذا صرتم إلى السند فإن الخل بها ضيق فانقعوا هذا القطن في الماء ثم اطبخوا به واصطبغوا ويقال إن محمداً لما صار إلى الثغر كتب يشكو ضيق الخل عليهم فبعث إليه بالقطن المنقوع في الخل فسار محمد بن القاسم إلى مكران فأقام بها أياماً ثم أتى قنربور ففتحها ثم أتى أرمائيل ففتحها وكان محمد بن هارون بن ذرع قد لقيه فانضم إليه وسار معه فتوفي بالقرب منها فدفن بقنبل."
+  en: "Al-Hajjaj gave Muhammad ibn al-Qasim the Sind frontier — recalled from a Rayy posting — with six thousand Syrian troops and outfitting down to threads and needles, ordered to muster at Shiraz; he even steeped carded cotton in wine-vinegar, dried in the shade, against Sind's vinegar-scarcity — 'soak it, cook with it, dye with it'. Muhammad marched through Makran, took Qanirbur and Arma'il — Muhammad ibn Harun joining him and dying near it, buried at Qanbal."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jahm-ibn-zahr, role: "على المقدمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-walid-ibn-abd-al-malik, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad-ibn-harun, role: "الملتحق المتوفى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/makran }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

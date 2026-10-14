@@ -1,0 +1,19 @@
+id: place/lakz
+class: place
+kind: region
+label: { ar: "اللّكز", en: "Al-Lakz" }
+summary:
+  ar: "اللّكز أرض وقلعة بأعالي القوقاز؛ في سهلها أنزل مروان بن محمد خلقاً من الخزر ما بين السمور والشابران، وامتنع صاحب قلعتها من أداء الوظيفة وخرج يريد صاحب الخزر فقتله راعٍ بسهم وهو لا يعرفه فصالح أهل اللكز على عشرين ألف مدي تحمل إلى إهراء الباب وولّى عليهم خشرماً السلمي."
+  en: "Al-Lakz, a land and fortress of the upper Caucasus; in its plain Marwan ibn Muhammad settled a body of Khazars between al-Samur and al-Shabiran; its fortress-lord withheld the levy and went out seeking the Khazar king, whereupon a herdsman killed him with an arrow unawares — so the Lakz people compounded for twenty thousand mudd borne to Bab's granaries, and Khashrama al-Sulami was set over them."
+wings: [place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/marwan-caucasus-expedition, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 292–293"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

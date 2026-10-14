@@ -1,0 +1,18 @@
+id: event/the-prophets-she-camel-strays
+class: event
+kind: other
+label: { ar: "ضلال ناقة النبي وقول زيد بن اللصيت", en: "The Prophet's she-camel strays and Zayd ibn al-Lusayt's remark" }
+summary:
+  ar: "ضلت ناقة النبي في بعض الطريق فخرج أصحابه في طلبها؛ وكان عنده عمارة بن حزم، وفي رحله زيد بن اللصيت القينقاعي، وكان منافقاً بحسب ابن إسحاق، فقال متهكماً كيف يخبر محمد عن السماء وهو لا يدري أين ناقته؟ فأخبر النبي بقوله وبمكان الناقة فوجدوها حيث وصف، فطرد عمارة زيداً من رحله."
+  en: "The Prophet's she-camel strayed on the road and his Companions went out searching for her. With him was Umara ibn Hazm, and in his litter rode Zayd ibn al-Lusayt al-Qaynuqa'i, a hypocrite in Ibn Ishaq's account, who said mockingly: does Muhammad bring news of the heavens yet not know where his camel is? The Prophet announced what he had said and where the camel was; it was found where he described, and Umara drove Zayd from his litter."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/tabuk, note: "في بعض الطريق إلى تبوك", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 166-167", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 166-167" }

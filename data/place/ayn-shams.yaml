@@ -1,0 +1,19 @@
+id: place/ayn-shams
+class: place
+kind: town
+label: { ar: "عين شمس", en: "Ayn Shams" }
+summary:
+  ar: "عين شمس من قرى مصر؛ وجّه إليها عمرو بن العاص عبد الله بن حذافة السهمي بعد فتح الفسطاط فثاب على أرضها وصالح أهل قراها على مثل حكم الفسطاط."
+  en: "Ayn Shams, among Egypt's towns; Amr ibn al-As sent Abdallah ibn Hudhafa al-Sahmi to it after al-Fustat's fall — he gained its land and compounded its villages on Fustat's terms."
+wings: [place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: site_of, target: event/four-lieutenants-egypt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 304"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

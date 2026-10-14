@@ -1,0 +1,21 @@
+id: event/conquest-of-ubulla
+class: event
+kind: conquest
+label: { ar: "فتح الأبلة والفرات", en: "Conquest of al-Ubulla and al-Furat" }
+summary:
+  ar: "غزا عتبة بن غزوان الأبلة ففتحها عنوة وكتب إلى عمر أن الأبلة فرضة البحرين وعمان والهند والصين وأنقذ الكتاب مع نافع بن الحارث الثقفي ثم عبروا الفرات فخرج إليهم أهلها بمساحيهم فظفروا بهم وفتحوا الفرات ووجه مجاشع بن مسعود السلمي على الفرات ففتحه عنوة وأتى المذار فخرج إليه مرزبانها فهزمه الله وغرق عامة من معه وأخذ سلماً فضرب عتبة عنقه وسار إلى دستميسان وقد جمع أهلها فرأى أن يعاجلهم بالغزو ليكون ذلك أفتاً من أعضادهم وأملاً لقلوبهم فهزمهم الله وقتل دهاقينهم وانصرف إلى أبر قباذ ففتحها الله عليه وكان ما بين الفهرج إلى الفرات صلحاً وسائر الأبلة عنوة وقال في الوقعة أردة بنت الحارث امرأة عتبة تحرض: إن يهزموكم تولجوا فينا الغلف وقسم الغنائم زياد وهو غلام ذو ذؤابة على درهمين في اليوم."
+  en: "Utba ibn Ghazwan stormed al-Ubulla and wrote Umar — borne by Nafi' ibn al-Harith — that it was the port of Bahrain, Uman, India and China; crossing to al-Furat its folk came out with their spades and were beaten, Mujashi' ibn Mas'ud taking the town by force; at al-Madhar its marzban came out, was routed with most of his men drowned, taken alive and beheaded; at Dastumaysan Utba struck pre-emptively 'to weaken their sides and embolden hearts', killing their dehqans; then Abar Qubadh fell — the tract from al-Fahraj to al-Furat being treaty-land, the rest of Ubulla by force. Utba's wife Arda bint al-Harith goaded the men 'if they rout you, you'll enter us uncircumcised', and the forelocked boy Ziyad divided the spoils at two dirhams a day."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/utba-ibn-ghazwan, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mujashi-ibn-masud-al-sulami, role: "فاتح الفرات", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/arda-bint-al-harith, role: "المحرضة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "قاسم الغنائم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/ubulla }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

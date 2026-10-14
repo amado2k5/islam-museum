@@ -1,0 +1,20 @@
+id: event/sulh-marw
+class: event
+kind: treaty
+label: { ar: "صلح مرو", en: "The Marw Sulh" }
+summary:
+  ar: "أتى كنازبك مرزبان طوس ابن عامر فصالحه عن طوس على ستمائة ألف درهم وأرسل مرزبان مرو الشاهجان يسأل الصلح فوجه ابن عامر إلى مرو حاتم بن النعمان الباهلي فصالحه على ألفي ألف ومائتي ألف درهم وقال بعضهم ألف ألف درهم ومائتا ألف جريب من بر وشعير وقال بعضهم ألف ألف ومائة ألف أوقية وكان في صلحهم أن يوسعوا للمسلمين في منازلهم وأن عليهم قسمة المال وليس على المسلمين إلا قبض ذلك وكانت مرو صلحاً كلها إلا قرية منها يقال لها السنج فإنها أخذت عنوة وقال أبو عبيدة صالحه على وصائف ووصفاء ودواب ومتاع ولم يكن عند القوم يومئذ عين وكان الخراج كله على ذلك حتى ولي يزيد بن معاوية فصيره مالاً."
+  en: "Kanazbak, marzban of Tus, compounded Tus at six hundred thousand; Marw's marzban sent al-Shahijan suing for peace, and Hatim ibn al-Nu'man al-Bahili truced Marw at a million two hundred thousand — others say a million dirhams and two hundred thousand jarib of wheat and barley, or a million one hundred thousand uqiyya — on terms that they widen the Muslims' housing while the tax-division rested on them, the Muslims only collecting. All Marw was sulh save the village called al-Sanj, taken by force. Abu Ubayda has it in wada'if, beasts and goods — no cash then — the whole kharaj on that basis till Yazid ibn Mu'awiya made it money."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/kanazbak, role: "مرزبان طوس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-shahijan, role: "رسول مرزبان مرو", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hatim-ibn-al-numan, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/marw }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

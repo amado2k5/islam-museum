@@ -1,0 +1,24 @@
+id: event/khalid-kills-ukaydir
+class: event
+kind: conquest
+label: { ar: "قتل أكيدر وفتح دومة الجندل", en: "Khalid Kills Ukaydir and Takes Dumat al-Jandal" }
+summary:
+  ar: "عند البلاذري: لما قُبض النبي منع أكيدر الصدقة ونقض العهد وخرج من دومة الجندل فلحق بالحيرة وابتنى بها بناء سماه دومة على اسم دومة الجندل، وأسلم أخوه حريث بن عبد الملك على ما في يده فسُلّم له؛ فبعث أبو بكر خالد بن الوليد وهو بمين التمر يأمره أن يسير إلى أكيدر فسار إليه فقتله وفتح دومة ثم مضى إلى الشام، وعند الواقدي أن خالداً لما تشخص من العراق يريد الشام مرّ بدومة الجندل ففتحها وأصاب سباياً كان منهن ليلى بنت الجودي الغساني التي تزوجها بعدئذ عبد الرحمن بن أبي بكر."
+  en: "In al-Baladhuri: when the Prophet died Ukaydir withheld the sadaqa, broke the covenant and left Dumat al-Jandal for al-Hira, where he built a residence he called Dawma after Dumat al-Jandal, while his brother Hurayth ibn Abd al-Malik remained Muslim over what was in his hands; Abu Bakr then sent Khalid ibn al-Walid — who was at Mayn al-Tamr — ordering him to march on Ukaydir, so he went, killed him and conquered Dawma before proceeding to Syria; in al-Waqidi's report Khalid passed Dumat al-Jandal on his way from Iraq to Syria, took it and captured prisoners, among them Layla bint al-Judi al-Ghassani whom Abd al-Rahman ibn Abi Bakr later married."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0633~", hijri: "0012~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة أبي بكر بعد وفاة النبي وقبل مسير خالد إلى الشام (البلاذري ص 83–84). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/dumat-al-jandal }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "قتله وفتح دومة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ukaydir-ibn-abd-al-malik, role: "نقض العهد ومنع الصدقة فقُتل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-bakr, role: "أمر خالداً بالمسير إلى أكيدر", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 83–84"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-3
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -17,3 +17,13 @@
 - A prose lint flags sentences that state a non-Sunni doctrine without a preceding label in the same sentence or the one before.
 
 **Where visitors see it.** The About page and *How to read this museum* carry one sentence: "This museum describes Islam from the standpoint of the Sunni tradition. Other views are included and are always labelled as such."
+
+## Addendum, 12 October 2026: the main reference and how other opinions are tagged
+
+**Decision (founder).** The museum's main reference is **Sunni Islam and its wasatiyya**, the middle way (الوسطية): the balanced mainstream between excess and neglect, as the Sunni creeds, schools and moderate scholars present it. Anything else is a **secondary or other opinion** and is listed and tagged as such.
+
+**What this means in practice.**
+- Every opinion on a topic carries a *standing* tag, shown as a small chip on its card: **Main reference** (المرجع الأساسي) for Sunni opinions, **Secondary opinion** (رأي ثانوي) for academic or scholarly views and for any Sunni position the entry marks as outside the mainstream, **Other opinion** (رأي آخر) for every other tradition or view (Shia, Ibadi, Quranist, Ahmadiyya and the rest).
+- The lead opinion is always a main-reference one; secondary and other opinions are listed beneath it under "More opinions", labelled before they are stated, never in the museum's own voice.
+- Tagging is descriptive, not a verdict: the museum does not say any opinion is false. It says where the opinion stands relative to its own frame.
+- Data: `perspectives[].standing` (`main`, `secondary`, `other`) is optional. When absent it is derived from the tradition (`sunni*` is main, `academic` is secondary, anything else is other). The validator refuses `main` on a non-Sunni opinion and refuses a lead opinion tagged secondary or other.

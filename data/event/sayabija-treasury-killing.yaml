@@ -1,0 +1,18 @@
+id: event/sayabija-treasury-killing
+class: event
+kind: other
+label: { ar: "قتل السيايجة حراس بيت المال", en: "Killing of the Sayabija Treasury Guards" }
+summary:
+  ar: "كانت جماعة من السيايجة موكلين ببيت مال البصرة يقال أربعون ويقال أربعمائة فلما قدم طلحة بن عبيد الله والزبير بن العوام البصرة وعليها من قبل علي بن أبي طالب عثمان بن حنيف الأنصاري أبوا أن يسلموا بيت المال إلى قدوم علي فأتوهم في السحر فقتلوهم وكان عبد الله بن الزبير المتولي لأمرهم في جماعة تسرعوا إليهم معه وكان على السيايجة يومئذ أبو سلمة الزطي وكان رجلاً صالحاً."
+  en: "A body of Sayabija — forty or four hundred — stood watch over Basra's treasury; when Talha and al-Zubayr came to Basra, held for Ali by Uthman ibn Hunayf, they refused to surrender the treasury till Ali's arrival — so they were fallen upon at dawn and killed, Abdallah ibn al-Zubayr leading that party; over the Sayabija then was Abu Salama al-Zutti, a righteous man."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: group/sayabija, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

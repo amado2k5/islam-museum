@@ -1,0 +1,39 @@
+id: journey/isra-and-miraj-route
+class: journey
+kind: travel
+label: { ar: "درب الإسراء", en: "The Isra route" }
+summary:
+  ar: "المسار الأرضي للإسراء بالنبي ليلاً على البراق من المسجد الحرام بمكة إلى المسجد الأقصى في بيت المقدس، كما يرويه الرحيق؛ ولا يذكر النص محطات بينهما. أما العروج إلى السماوات فليس مساراً جغرافياً ولم يُدرج هنا."
+  en: "The earthly leg of the Isra: the Prophet's night journey on the Buraq from al-Masjid al-Haram in Mecca to al-Masjid al-Aqsa in Jerusalem, as al-Raheeq narrates it. The text gives no halting places between them. The ascent through the heavens is not a geographic route and is not listed here."
+wings: [time, place]
+periods: [period/prophetic-era]
+regions: [arabia, levant-iraq]
+travelers: [person/muhammad]
+legs:
+  - { from: place/mecca, to: place/jerusalem, mode: "على البراق صحبة جبريل", note: "الإسراء من المسجد الحرام إلى المسجد الأقصى، والنزول هناك وربط البراق بحلقة باب المسجد والصلاة بالأنبياء إماماً (الرحيق ص138، بنقل ابن القيم عن زاد المعاد). لم يذكر النص مسافة ولا محطات بين المدينتين. العروج إلى السماوات العلا بعد ذلك ليس مساراً أرضياً ولم يُدرج هنا (الرحيق ص138-140).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+waypoints:
+  - place: place/mecca
+    day: 1
+    day_status: debated
+    day_note: "ليلة واحدة لم يحدد الرحيق يومها؛ الزمن نفسه مختلف فيه على ستة أقوال (الرحيق ص137)."
+    title: { ar: "الإسراء من المسجد الحرام", en: "Setting out from al-Masjid al-Haram" }
+    narrative:
+      ar: "أُسري بالنبي ليلاً من المسجد الحرام، بجسده على الصحيح، راكباً على البراق بصحبة جبريل (الرحيق ص138)."
+      en: "The Prophet was taken by night from al-Masjid al-Haram, in body according to the sounder view, riding the Buraq with Jibril (al-Raheeq p. 138)."
+    events: [event/isra-and-miraj]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/jerusalem
+    day: 1
+    day_status: debated
+    day_note: "الليلة نفسها على رواية النص؛ لا يحدد الرحيق تاريخاً."
+    title: { ar: "المسجد الأقصى والصلاة بالأنبياء", en: "Al-Aqsa and the prayer with the prophets" }
+    narrative:
+      ar: "نزل النبي في بيت المقدس وصلى بالأنبياء إماماً، وربط البراق بحلقة باب المسجد، ثم عُرج به تلك الليلة من بيت المقدس إلى السماء الدنيا (الرحيق ص138)."
+      en: "He landed in Jerusalem, led the prophets in prayer, tied the Buraq to the ring of a door of the mosque, and was then ascended that night from Jerusalem to the lowest heaven (al-Raheeq p. 138)."
+    events: [event/isra-and-miraj]
+    sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+relations:
+  - { type: part_of, target: event/isra-and-miraj }
+  - { type: had_participant, target: person/muhammad, role: "المُسرى به", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum pp. 137-142" }

@@ -1,0 +1,23 @@
+id: work/hassan-elegy-mutah-commanders
+class: work
+kind: poem
+label: { ar: "مراثي حسان بن ثابت في شهداء مؤتة", en: "Hassan ibn Thabit's elegies for the Mu'tah martyrs" }
+summary:
+  ar: "ثلاث مقطوعات شعرية لحسان بن ثابت يبكي فيها قادة جيش مؤتة: الأولى في الثلاثة مجتمعين، والثانية خاصة في جعفر بن أبي طالب، والثالثة في زيد وعبد الله بن رواحة. نقلها ابن إسحاق في سياق غزوة مؤتة."
+  en: "Three elegies by Hassan ibn Thabit mourning the Mu'tah commanders: the first for all three together, the second for Ja'far ibn Abi Talib, and the third for Zayd and Ibn Rawaha. Transmitted by Ibn Ishaq within his Mu'tah account."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/hassan-ibn-thabit]
+language: language/arabic
+composed: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: tradition, sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [battles, literature]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+relations:
+  - { type: mentions, target: person/jafar-ibn-abi-talib, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/zayd-ibn-haritha, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/abd-allah-ibn-rawaha, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 26-30", generated_by: "kiro", run: "ibn-hisham-batch-4" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 26-30" }

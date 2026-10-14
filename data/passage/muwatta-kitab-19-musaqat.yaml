@@ -1,0 +1,14 @@
+id: passage/muwatta-kitab-19-musaqat
+class: passage
+unit: chapter
+work: work/muwatta-malik
+ref: "kitab-19"
+label: { ar: "الموطأ، كتاب المساقاة", en: "Muwatta, Book of Irrigation partnership (musaqat)" }
+summary:
+  ar: "كتاب المساقاة في الموطأ، المجلد الثاني، يبدأ في صفحة 239 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
+  en: "The Book of Irrigation partnership (musaqat) in the Muwatta, volume 2, starting at PDF page 239 (PDF numbering, not the printed page)."
+relations:
+  - { type: part_of, target: work/muwatta-malik }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 239", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }

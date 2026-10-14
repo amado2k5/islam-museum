@@ -1,0 +1,52 @@
+id: person/thumama-ibn-uthal
+class: person
+label:
+  ar: ثمامة بن أثال
+  en: Thumama ibn Uthal
+names:
+- kind: full
+  lang: ar
+  value: ثمامة بن أثال بن النعمان بن مسلمة بن عتبة بن ثعلبة بن يربوع بن ثعلبة بن الدؤل بن حنيفة الحنفي
+- kind: kunya
+  lang: ar
+  value: أبو أمامة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: سيد من بني حنيفة باليمامة؛ أُسر وربط في سارية المسجد فأُطلق فأسلم، وقدم مكة معتمراً وقال إنه لن تأتيهم حبة من اليمامة إلا بإذن النبي، وثبت على إسلامه في الردة وقاتل مع العلاء الحضرمي، وقُتل خطأً من بني قيس بن ثعلبة.
+  en: A leader of Banu Hanifa in al-Yamama; he was captured and tied to a pillar of the mosque, then released and embraced Islam, came to Mecca for 'umra and said that no grain would reach them from al-Yamama without the Prophet's leave; he held
+    to Islam during the apostasy and fought with al-'Ala' al-Hadrami, and was killed by mistake by men of Banu Qays ibn Tha'laba.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 991 (ص 189).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 991، ص 189
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 189, entry 991)

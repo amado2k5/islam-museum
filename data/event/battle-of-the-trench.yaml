@@ -1,28 +1,57 @@
 id: event/battle-of-the-trench
 class: event
 kind: siege
-label: { en: "The Battle of the Trench", ar: "غزوة الخندق" }
+label: { en: "The Battle of the Trench (al-Ahzab)", ar: "غزوة الأحزاب (الخندق)" }
 summary:
-  en: "A siege of Medina by a coalition of Quraysh and allied tribes, which the defenders resisted behind a trench."
-  ar: "حصار لقريش وقبائل متحالفة معها للمدينة، صمد المدافعون فيه خلف خندق."
-wings: [time, people]
-themes: [battles]
+  en: "In Shawwal 5 AH (February-March 627 CE), a confederate army of 10,000 Meccans and Bedouin allies besieged Medina; upon Salman al-Farisi's advice the Muslims dug a protective trench on their northern boundary; the siege endured for nearly a month amidst cold, hunger, and the treachery of Banu Qurayza, until broken by Nu'aym ibn Mas'ud's stratagem and a violent night windstorm."
+  ar: "في شوال سنة 5هـ (فبراير-مارس 627م)، زحف تحالف الأحزاب بعشرة آلاف مقاتل من قريش وغطفان بإيعاز من سادات يهود بني النضير؛ فأشار سلمان الفارسي بحفر الخندق شمال المدينة؛ صمد ثلاثة آلاف مسلم نحو شهر في برد وجوع ونقض بني قريظة لعهدهم، حتى خذل الله الأحزاب بحيلة نعيم بن مسعود وريح شاتية هوجاء زلزلت معسكرهم."
+wings: [time, people, place]
+themes: [battles, wars-and-campaigns]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0627-03", hijri: "0005-10", calendar: julian, precision: month, status: tradition, note: "The month is approximate in the sources." }
+  start: { edtf: "0627-02~", hijri: "0005-10", calendar: julian, precision: month, status: tradition, note: "شوال سنة 5هـ (فبراير 627م) واستمر الحصار نحو شهر حتى أوائل ذي القعدة (الرحيق ص301–314)." }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/muhammad }
-  - { type: had_participant, target: person/ali-ibn-abi-talib }
+  - { type: had_participant, target: person/muhammad, role: "القائد العام للمسلمين والمشارك في حفر الخندق وضرب الصخور", sources: [source/mubarakpuri-raheeq, source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/salman-al-farisi, role: "صاحب مشورة حفر الخندق", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "بارز عمرو بن عبد ود العامري فقتله عند ثغرة الخندق", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/sad-ibn-muadh, role: "أصيب في أكحله بسهم حبان بن العرقة فدعا ألا يموت حتى تقر عينه من قريظة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/nuaym-ibn-masud, role: "أسلم سراً وخذل بين الأحزاب وبني قريظة بحيلته الذكية", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/hudhayfa-ibn-al-yaman, role: "بعثه النبي في ليلة الريح والظلمة عين استخبارات في معسكر قريش", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "القائد العام لجيش الأحزاب", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/huyayy-ibn-akhtab, role: "المحرض الأول للأحزاب والذي حمل كعب بن أسد على نقض عهد قريظة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-qurayza, role: "نقضوا عهدهم ومالؤوا الأحزاب على المسلمين من الخلف", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
-  - { type: caused_by, target: event/battle-of-uhud }
 sides:
-  - label: { en: "Defenders of Medina", ar: "المدافعون عن المدينة" }
-    participants: [group/early-muslims]
+  - label: { en: "Muslim Defenders of Medina", ar: "المسلمون المدافعون عن المدينة" }
+    participants: [group/early-muslims, group/muhajirun, group/ansar]
     commanders: [person/muhammad]
-  - label: { en: "Quraysh and allied tribes", ar: "قريش والقبائل المتحالفة معها" }
+  - label: { en: "Confederate Army (al-Ahzab)", ar: "جيش الأحزاب والقبائل المتحالفة" }
     participants: [group/quraysh]
-    commanders: [person/abu-sufyan-ibn-harb]
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+    commanders: [person/abu-sufyan-ibn-harb, person/uyayna-ibn-hisn]
+issue: { ar: "كيف تُقرأ غزوة الخندق ونتيجتها في التراث السني وعند المؤرخين؟", en: "How are the Battle of the Trench and its outcome read in the Sunni tradition and by historians?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Sunni sira tradition records the battle as a pivotal turning point where the united polytheist and tribal coalition failed to extinguish Islam, fulfilling the divine promise in Surat al-Ahzab.", ar: "يعد التراث السني غزوة الأحزاب منعطفاً حاسماً في السيرة النبوية حيث تحطمت آخر محاولات الشرك لاستئصال شأفة الإسلام، مصداقاً لقول النبي: الآن نغزوهم ولا يغزوننا." }
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+  - tradition: academic
+    id: academic
+    summary: { en: "Historians analyze the siege as an economic and diplomatic crisis for the confederates, where prolonged stalemate, bad weather, tribal fragmentation, and intelligence operations neutralized their numerical advantage.", ar: "يحلل المؤرخون المعركة بوصفها فشلاً استراتيجياً ودبلوماسياً لتحالف الأحزاب، إذ عجزت التفوق العددي أمام دفاع الخندق وعوامل الطقس وانعدام الثقة وتفكك الحلفاء." }
+    sources: [source/watt-1956-medina]
+map:
+  kind: battle
+  precision: schematic
+  center: [24.49, 39.60]
+  extent_km: 4
+  basemap: terrain
+  date_for_borders: "0627"
+  features:
+    - { type: line, role: wall, side: 0, from: [24.490, 39.578], to: [24.495, 39.615], label: { ar: "الخندق على الجانب الشمالي للمدينة", en: "The ditch on Medina's northern side" }, precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "جبل سلع — ظهور المسلمين إليه", en: "Mount Sal'a, with the Muslims' backs to it" }, at: [24.494, 39.600], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: camp, side: 0, label: { ar: "معسكر المسلمين خلف الخندق", en: "Muslim position behind the ditch" }, at: [24.492, 39.600], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: camp, side: 1, label: { ar: "معسكر الأحزاب شمال الخندق", en: "The confederates' camp north of the ditch" }, at: [24.503, 39.602], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "الثغرة التي اقتحمها عمرو بن عبد ود وخيله", en: "The gap where Amr ibn Abd Wadd and his horsemen crossed" }, at: [24.496, 39.596], precision: schematic, source: source/mubarakpuri-raheeq }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 301–314" }

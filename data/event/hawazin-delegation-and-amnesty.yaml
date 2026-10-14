@@ -16,6 +16,11 @@ relations:
   - { type: part_of, target: event/battle-of-hunayn }
   - { type: had_participant, target: person/muhammad, role: granted-amnesty-and-freed-captives, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/malik-ibn-awf, role: reconciled-tribal-leader, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/zuhayr-ibn-sard, role: head-of-the-fourteen-man-delegation, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-burqan, role: delegation-member-and-foster-uncle, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abbas-ibn-mirdas, role: initially-refused-then-overridden-by-banu-sulaym, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-aqra-ibn-habis, role: initially-refused-for-banu-tamim, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uyayna-ibn-hisn, role: initially-refused-for-banu-fazara-and-withheld-a-captive, sources: [source/mubarakpuri-raheeq] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 131–134", generated_by: "Devin", run: "ibn-hisham-batch-3" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 131–134" }

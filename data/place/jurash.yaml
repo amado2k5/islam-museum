@@ -1,0 +1,18 @@
+id: place/jurash
+class: place
+kind: town
+label: { ar: "جُرَش", en: "Jurash" }
+summary:
+  ar: "بلدة في اليمن؛ أسلم أهلها وأهل تبالة عن غير قتال فأقرهم النبي على ما أسلموا عليه وجعل على كل حالم ممن بهما من أهل الكتاب ديناراً واشترط عليهم ضيافة المسلمين، وولّى أبا سفيان بن حرب جُرَش."
+  en: "A town in Yemen; its people and those of Tabala accepted Islam without fighting, so the Prophet confirmed them on what they had embraced, set a dinar on every hālim of the People of the Book there, stipulated hospitality for the Muslims, and appointed Abu Sufyan ibn Harb over Jurash."
+wings: [place]
+regions: [arabia]
+relations:
+  - { type: part_of, target: place/yemen, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 79"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-4
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/ustadhsis-revolt
+class: event
+kind: revolt
+label: { ar: "خروج أستاذسيس" }
+summary:
+  ar: "في سنة خمسين ومئة خرجت الجيوش الخراسانية عن الطاعة مع الأمير أستاذسيس واستولى على أكثر خراسان وعظم الخطب وبلغ ضريبة الجيش الخراساني ثلاث مئة ألف مقاتل ما بين فارس وراجل فعمل معهم أجثم المروزي مصافاً فقتل أجثم واستبيح عسكره فتجهز لحربهم خازم بن خزيمة في جيش عرمرم يسد الفضاء فالتقى الجمعان وكانت موقعة مشهورة يقال قتل فيها سبعون ألفاً وانهزم أستاذسيس فالتجأ إلى جبل وأمر خازم في العام الآتي بالأسرى فضربت أعناقهم وكانوا أربعة عشر ألفاً ثم حاصروه مدة فسلم نفسه فقيدوه وأطلقوا أجناده وكانوا ثلاثين ألفاً {cite:tarikh-khulafa-minhaj-1434 p. 425-426}."
+  en: "In year 150 the Khurasani troops renounced obedience under the amir Ustadhsis and he seized most of Khurasan; the Khurasani army's levy reached three hundred thousand horse and foot. Ajtham al-Marwazi fought them and was killed and his army plundered; Khazim ibn Khuzayma then took the field in a vast host, and the famous battle they fought is said to have killed seventy thousand. Ustadhsis fled to a mountain; the next year Khazim had the fourteen thousand captives beheaded, besieged him until he surrendered, bound him and released his thirty thousand followers {cite:tarikh-khulafa-minhaj-1434 p. 425-426}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0767~", hijri: "0150", calendar: julian, precision: year, status: tradition, derived: true, note: "150؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 425}." }
+relations:
+  - { type: had_participant, target: person/al-mansur, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/khazim-ibn-khuzayma, role: "قائد جيش المنصور", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 425–426"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-15
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

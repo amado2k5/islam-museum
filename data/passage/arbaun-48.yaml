@@ -1,0 +1,17 @@
+id: passage/arbaun-48
+class: passage
+unit: hadith
+work: work/jami-ulum-hikam
+ref: "48"
+label: { ar: "الأربعون 48 — أربع من كن فيه كان منافقاً", en: "Arba'un 48 — four traits make a hypocrite" }
+text: "أربع من كن فيه كان منافقاً وإن كانت خصلة منهن فيه كانت فيه خصلة من النفاق حتى يدعها من إذا حدث كذب وإذا وعد أخلف وإذا خاصم فجر وإذا عاهد غدر"
+summary:
+  ar: "حديث عبد الله بن عمرو بن العاص عن النبي قال: «أربع من كن فيه كان منافقاً وإن كانت خصلة منهن فيه كانت فيه خصلة من النفاق حتى يدعها: من إذا حدث كذب وإذا وعد أخلف وإذا خاصم فجر وإذا عاهد غدر» — سادس الأحاديث التي زادها ابن رجب؛ أخرجاه البخاري (34، 2459، 3178) ومسلم (58) من رواية الأعمش عن عبد الله بن مرة عن مسروق عن عبد الله بن عمرو بن العاص، وخرجا أيضاً من حديث أبي هريرة «آية المنافق ثلاث: إذا حدث كذب وإذا وعد أخلف وإذا ائتمن خان» وفي رواية لمسلم «وإن صام وصلى وزعم أنه مسلم» وفي رواية أخرى «من علامات المنافق ثلاثة»؛ قال ابن رجب: حمل طائفة ممن يميل إلى الإرجاء هذا الحديث على المنافقين الذين كانوا على عهد النبي — إذ حدثوه فكذبوه وائتمنهم على سره فخانوه ووعدوه الخروج معه في الغزو فأخلفوه — وروى محمد المحرم هذا التأويل عن عطاء أنه قال حدثني به جابر عن النبي وذكر أن الحسن رجع إلى قول عطاء لما بلغه، قال ابن رجب: وهذا كذب والمحرم شيخ كذاب معروف بالكذب — قال عنه البخاري منكر الحديث وقال عنه يحيى بن معين ليس بشيء (جامع العلوم والحكم ص 901–913)."
+  en: "The hadith of Abdullah ibn Amr ibn al-As from the Prophet: 'four traits — whoever has them all is a hypocrite, and whoever has one of them has a trait of hypocrisy until he gives it up: one who when he speaks lies, when he promises breaks his word, when he disputes behaves wickedly, and when he pledges betrays' — the sixth of Ibn Rajab's added hadiths, transmitted by al-Bukhari (34, 2459, 3178) and Muslim (58) through al-A'mash from Abdullah ibn Murra from Masruq from Abdullah ibn Amr ibn al-As, both also carrying Abu Hurayra's report 'the hypocrite's sign is three: when he speaks he lies, when he promises he breaks his word, and when entrusted he betrays', Muslim's routes adding 'though he fast and pray and claim to be a Muslim' and 'among the hypocrite's marks are three'; Ibn Rajab records that a group leaning to irja' carried the hadith onto the hypocrites of the Prophet's own time — who lied to him when he spoke to them, betrayed him when entrusted with his secret, and broke their promise to march with him — Muhammad al-Muharram narrating this interpretation from Ata' as told him by Jabir from the Prophet, with al-Hasan said to have retracted to Ata's view when it reached him; Ibn Rajab calls this a lie, al-Muharram being a known lying shaykh — al-Bukhari declared his hadith repudiated and Yahya ibn Ma'in called him nothing (Jami' al-Ulum wal-Hikam pp. 901–913)."
+relations:
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/nifaq, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 48 pp. 901–913", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-17" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 901 (~36 words); the Abu Hurayra triple-sign parallel and the al-Muharram fabrication from p. 901" }

@@ -1,0 +1,22 @@
+id: person/abd-al-rahman-sanjul
+class: person
+label: { ar: "عبد الرحمن شنجول بن المنصور" }
+names:
+  - { value: "شنجول", kind: laqab }
+gender: male
+summary:
+  ar: "ابن المنصور بن أبي عامر، وشنجول أي شانجة الصغير وكان سانشو اسم خاله؛ قام بالأمر بعد أخيه المظفر وتلقب الناصر لدين الله وقيل المأمون، وجرى على سنن أبيه وأخيه في الحجر على الخليفة هشام والاستبداد عليه، ثم ثاب له رأي في الاستئثار بما بقي من رسوم الخلافة فطلب من هشام المؤيد أن يوليه عهده فأجابه وأحضر الملأ وكتب له عهده في شهر ربيع الأول سنة ثمان وتسعين وثلاثمائة من إنشاء أبي حفص بن بورد، فكان ذلك مثار الفتنة التي أسلمت الجيوش له فأخذ وأسر وقتل {cite:nafh-tib-maqqari p. 460-461}."
+  en: "Al-Mansur's son 'Sanjul' — little Sancho, for his Christian grandfather — who forced the captive caliph Hisham to name him heir in a formal deed of Rabi I 398, the provocation that sparked the Berber fitna and ended with the armies surrendering him to death {cite:nafh-tib-maqqari p. 460-461}."
+roles: [vizier, ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+relations:
+  - { type: child_of, target: person/al-mansur-ibn-abi-amir, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-30
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

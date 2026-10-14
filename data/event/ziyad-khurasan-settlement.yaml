@@ -1,0 +1,19 @@
+id: event/ziyad-khurasan-settlement
+class: event
+kind: other
+label: { ar: "تقسيم زياد أعمال خراسان سنة ٤٥", en: "Ziyad's Partition of Khurasan, 45h" }
+summary:
+  ar: "ولى زياد بن أبي سفيان البصرة سنة ٤٥ فولى أمير بن أحمر مرو وخليد بن عبد الله الحنفي أبرشهر وقيس بن الهيثم مرو الروذ والطالقان والفارياب ونافع بن خالد الطاحي من الأزد هراة وبادغيس وبوشنج وقاديس من الأنوران فكان أمير أول من أسكن العرب مرو."
+  en: "Governor of Basra in 45h, Ziyad divided Khurasan's commands: Umair ibn al-Ahmar over Marw — the first to settle the Arabs there — Khulayd ibn Abdallah al-Hanafi over Abarshahr, Qays ibn al-Haytham over Marw al-Rudh, Talaqan and Faryab, Nafi' ibn Khalid al-Tahi of the Azd over Herat, Badghis and Bushanj, and Qadis of the Anwaran."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/umair-ibn-al-ahmar, role: "عامل مرو", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/qays-ibn-al-haytham, role: "عامل مرو الروذ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khulayd-ibn-abdallah-al-hanafi, role: "عامل أبرشهر", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

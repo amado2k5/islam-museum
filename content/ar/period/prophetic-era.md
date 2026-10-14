@@ -1,0 +1,85 @@
+---
+id: period/prophetic-era
+lang: ar
+source_lang: ar
+translators: []
+---
+
+## نبذة
+سنوات دعوة النبي محمد في مكة والمدينة، من بدء الوحي إلى وفاته سنة 632م. يحدّه المتحف تقريبًا من نحو 610م إلى 632م. وهذه الحدود وضعها المتحف للتنظيم وليست قطعية.
+
+## نظرة عامة
+تضم مواد هذا العصر في المتحف اليوم: الأحداث البارزة: 214، الجماعات: 48، الشخصيات الأكثر ورودًا: 456، الأعمال: 20، المفاهيم: 40، المباني: 6، الرحلات: 5، المسارات والمعارض: 5.
+
+### الأحداث البارزة
+- [[event/pledges-of-aqaba|بيعتا العقبة]] (نحو 621م إلى نحو 622م)
+- [[event/hijra|الهجرة النبوية]] (نحو 622م)
+- [[event/battle-of-badr|غزوة بدر الكبرى]] (624م)
+- [[event/battle-of-uhud|غزوة أحد]] (625م)
+- [[event/return-of-abyssinian-emigrants|قدوم مهاجري الحبشة مع جعفر بن أبي طالب]] (نحو 628م)
+- [[event/battle-of-mutah|غزوة مؤتة]] (629م)
+- [[event/battle-of-hunayn|غزوة حنين]] (نحو 630م)
+- [[event/conquest-of-mecca|فتح مكة (الفتح الأعظم)]] (نحو 630م)
+
+### الجماعات
+- [[group/quraysh|قريش]]
+- [[group/ansar|الأنصار]] (622م)
+- [[group/early-muslims|الجماعة المسلمة الأولى]] (نحو 610م)
+- [[group/muhajirun|المهاجرون]] (622م)
+- [[group/banu-hashim|بنو هاشم]]
+- [[group/banu-sahm|بنو سهم]]
+
+### الشخصيات الأكثر ورودًا
+- [[person/muhammad|محمد]]
+- [[person/ali-ibn-abi-talib|علي بن أبي طالب]]
+- [[person/abu-bakr|أبو بكر الصديق]]
+- [[person/umar-ibn-al-khattab|عمر بن الخطاب]]
+- [[person/abu-sufyan-ibn-harb|أبو سفيان بن حرب]]
+- [[person/hamza|حمزة بن عبد المطلب]]
+- [[person/khalid-ibn-al-walid|خالد بن الوليد]]
+- [[person/abu-talib|أبو طالب بن عبد المطلب]]
+- [[person/khadija|خديجة بنت خويلد]]
+- [[person/abu-jahl|أبو جهل]]
+
+### الأعمال
+- [[work/hatib-letter-to-quraysh|كتاب حاطب إلى قريش]]
+- [[work/qasidat-banat-suad|قصيدة بانت سعاد (بردة كعب بن زهير)]]
+- [[work/farewell-sermon|خطبة الوداع]]
+- [[work/covenant-of-ayla|كتاب الرسول ليحنة بن رؤبة وأهل أيلة]]
+- [[work/kaab-ibn-malik-account-of-tabuk|حديث كعب بن مالك في تخلفه عن تبوك]]
+- [[work/abbas-ibn-mirdas-hunayn|قصيدة العباس بن مرداس في يوم حنين]]
+
+### المفاهيم
+- [[concept/islam-din|الإسلام (الدين)]]
+- [[concept/al-muallafa-qulubuhum|المؤلفة قلوبهم]]
+- [[concept/five-pillars|أركان الإسلام الخمسة]]
+- [[concept/iman|الإيمان]]
+- [[concept/ihsan|الإحسان]]
+- [[concept/shahada|الشهادتان]]
+
+### المباني
+- [[building/kaaba|الكعبة]]
+- [[building/dar-al-nadwa|دار الندوة]]
+- [[building/masjid-dirar|مسجد الضرار]]
+- [[building/masjid-al-haram|المسجد الحرام]]
+- [[building/masjid-quba|مسجد قباء]]
+
+### الرحلات
+- [[journey/hijra-route|درب الهجرة]]
+- [[journey/return-from-abyssinia-by-sea|عودة مهاجري الحبشة إلى خيبر]]
+- [[journey/tabuk-march-out-and-back|مسير النبي إلى تبوك ورجوعه]]
+- [[journey/badr-march|مسير جيش المدينة إلى بدر]]
+- [[journey/fath-mecca-march|مسيرة فتح مكة]]
+
+### المسارات والمعارض
+- [[exhibit/path-meccan-period|العهد المكي: من الغار إلى الهجرة]]
+- [[exhibit/path-from-opposition-to-islam|من الخصومة إلى الإسلام: من غيّروا موقفهم]]
+- [[exhibit/path-islam-in-30-minutes|الإسلام في ثلاثين دقيقة]]
+- [[exhibit/path-women-around-the-prophet|النساء حول النبي: اثنتا عشرة سيرة]]
+- [[exhibit/path-abyssinia-migrations|الهجرتان إلى الحبشة]]
+
+## ما تغطيه هذه الصفحة
+القوائم أعلاه أشهر المواد وأكثرها ورودًا في المتحف لا كل ما فيه، وتُضاف مواد العصر تباعًا من المصادر الأصلية مع كل دفعة جديدة.
+
+## ملاحظات للباحثين
+حدود العصر تنظيمية وضعها المتحف وهي تقريبية، وللاطلاع على التأريخ الأوسع لهذا العصر انظر {cite:ibn-ishaq-guillaume} {cite:watt-1956-medina}.

@@ -1,0 +1,24 @@
+id: event/almoravid-takes-seville-484
+class: event
+kind: conquest
+label: { ar: "استيلاء المرابطين على إشبيلية" }
+summary:
+  ar: "في سنة أربع وثمانين وأربعمائة دخلت المرابطون إشبيلية فخرج المعتمد بن عباد والموت يتسعر في ألحاظه فلقيهم برحبة القصر فحمل فيهم حملة صيرتهم فرقاً وملأتهم فرقاً وما زال يوالي عليهم الكر المعاد حتى أوردهم النهر وما بهم جواد وأودعهم حشاه كأنهم له فؤاد، ثم انصرف وقد أيقن بانتهاء حاله وذهاب ملكه وقال «بيدي لا بيد عمرو» فنزل من القصر بالقسر إلى قبضة الأسر فقُيد وحُمل إلى أغمات بالمغرب، وانقضت بذلك دولة بني عباد بإشبيلية التي دامت نحو ستين سنة من أيام المعتضد عباد بن إسماعيل، وكان المعتمد أشهر ملوك الطوائف شعراً وحضارة وملكاً {cite:nafh-tib-maqqari p. 216-218}."
+  en: "In 484 the Almoravids entered Seville; al-Mu'tamid ibn Abbad charged them at the palace square, then yielded 'by my hand, not Amr's' — dragged to captivity and exiled to Aghmat, ending the sixty-year Abbadid kingdom, Andalus's most celebrated taifa {cite:nafh-tib-maqqari p. 216-218}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1091", hijri: "0484", calendar: julian, precision: year, status: tradition, derived: true, note: "484؛ التحويل مشتق {cite:nafh-tib-maqqari p. 217}." }
+relations:
+  - { type: had_participant, target: person/al-mutamid-ibn-abbad, role: "الملك المخلوع المأسور", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/yusuf-ibn-tashfin, role: "أمير المرابطين", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/seville, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 216–218"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-53
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

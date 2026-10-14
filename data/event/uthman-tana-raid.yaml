@@ -1,0 +1,21 @@
+id: event/uthman-tana-raid
+class: event
+kind: raid
+label: { ar: "غارة عثمان بن أبي العاص على تانه والهند", en: "Uthman ibn Abi al-As's Raids on Tana and the Indian Coast" }
+summary:
+  ar: "ولى عمر بن الخطاب عثمان بن أبي العاص الثقفي البحرين وعمان سنة ١٥ فوجه أخاه الحكم إلى البحرين ومضى إلى عمان فأقطع جيشاً إلى تانه فلما رجع الجيش كتب إلى عمر يعلمه ذلك فكتب إليه عمر يا أخا ثقيف حملت دوداً على عود وإني أحلف بالله لو أصيبوا لأخذت من قومك مثلهم ووجه الحكم أيضاً إلى بروص ووجه أخاه المغيرة بن أبي العاص إلى خور الديبل فلقي العدو فظفر."
+  en: "In 15h Umar gave Uthman ibn Abi al-As al-Thaqafi Bahrayn and Uman; he sent brother al-Hakam to Bahrayn and from Uman detached troops to Tana — Umar's answer was the famous 'ya akha Thaqif, you set worms upon wood; had they been struck I'd have taken their like from your people'. Al-Hakam sent to Barus, and brother al-Mughira to the Daybul creek, where he met the enemy and prevailed."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/uthman-ibn-abi-al-as, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخليفة الكاتب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hakam-ibn-abi-al-as, role: "أخوه بعث إلى بروص", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mughira-ibn-abi-al-as, role: "أخوه إلى خور الديبل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tana }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,16 @@
+id: person/al-kawki
+class: person
+label: { ar: "الكوكي", en: "al-Kawki" }
+summary:
+  ar: "رجل من الديالمة يعرف بالكوكي اشتملت عليه الديالمة في أيام ظهور الطالبيين بالديلم وناحية طبرستان سنة ثلاث وخمسين ومائتين فبعث إليه المعتز موسى بن بغا الكبير."
+  en: "A Daylami known as al-Kawki around whom the Daylamis rallied when the Talibis rose in Daylam and the Tabaristan side in 253 AH; al-Mu'tazz sent Musa ibn Bugha against them."
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: participated_in, target: event/mutazz-daylam-campaign }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

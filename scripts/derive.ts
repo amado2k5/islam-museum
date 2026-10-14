@@ -15,17 +15,17 @@ const norm = (s: string) =>
   s.normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي")
     .toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()/,.]/g, " ").replace(/\s+/g, " ").trim();
 
-/** Variant spellings -> canonical labels, from labels, names[], aliases and the rules in scripts/search-variants.yaml. */
-export function buildSynonyms(c: Compiled) {
+/** Variant spellings -> canonical labels, from labels, names[], aliases and the rules in scripts/search-variants.yaml. Built per language: an English query expands toward English labels. */
+export function buildSynonyms(c: Compiled, lang: "ar" | "en" = "ar") {
   const rules = readYaml<{ swap: [string, string][]; drop_prefix: string[] }>(p("scripts", "search-variants.yaml"));
   const out = new Map<string, Set<string>>();
   const add = (variant: string, canonical: string) => {
     const v = norm(variant);
-    if (v.length < 3 || v === canonical) return;     // identical to the label: nothing to expand (Arabic spelling variants differ after normalising)
+    if (v.length < 3 || v === canonical) return;     // identical to the label: nothing to expand (spelling variants differ after normalising)
     (out.get(v) ?? out.set(v, new Set()).get(v)!).add(canonical);
   };
   for (const n of c.nodes.filter((x) => !x.stub && !(x.class === "passage" && x.data.unit === "ayah") && x.class !== "source")) {
-    const canonical = n.label.ar ?? n.label.en;   // Arabic first: the canonical label is the Arabic one
+    const canonical = n.label[lang] ?? n.label.en ?? n.label.ar;   // the search page expands toward the visitor's language
     if (!canonical) continue;
     const forms = new Set<string>([canonical, ...Object.values(n.label), ...(n.data.names ?? []).map((x: any) => x.value), ...n.aliases.map((a) => a.split("/")[1].replace(/-/g, " "))]);
     for (const form of forms) {
@@ -45,7 +45,7 @@ export function buildSynonyms(c: Compiled) {
   // Per-word spellings: each Arabic word that appears in a label is keyed by its normalised form, so "مكه" finds "مكة" and "الاسلام" finds "الإسلام".
   const words = new Map<string, Map<string, number>>();
   for (const n of c.nodes.filter((x) => !x.stub && !(x.class === "passage" && x.data.unit === "ayah"))) {
-    for (const w of (n.label.ar ?? "").split(/[\s،()]+/)) {
+    for (const w of (n.label[lang] ?? "").split(/[\s،()]+/)) {
       const k = norm(w);
       if (k.length < 2 || k === w) continue;
       const m = words.get(k) ?? words.set(k, new Map()).get(k)!;
@@ -130,7 +130,7 @@ export function derive(c: Compiled) {
     visit(n, "start", n.data.date?.start); visit(n, "end", n.data.date?.end);
   }
 
-  return { timeline, map, ego, snapshots, onThisDay: { gregorian: onThisDay, hijri: hijriDay }, related: buildRelated(c), synonyms: buildSynonyms(c) };
+  return { timeline, map, ego, snapshots, onThisDay: { gregorian: onThisDay, hijri: hijriDay }, related: buildRelated(c), synonyms: { ar: buildSynonyms(c, "ar"), en: buildSynonyms(c, "en") } };
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
@@ -139,6 +139,6 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   mkdirSync(p(".cache", "derived"), { recursive: true });
   for (const [k, v] of Object.entries(d)) writeFileSync(p(".cache", "derived", `${k}.json`), JSON.stringify(v));
   mkdirSync(p("site", "public"), { recursive: true });
-  writeFileSync(p("site", "public", "search-synonyms.json"), JSON.stringify(d.synonyms));   // loaded by the client-side search page
-  console.log(`derived: ${d.timeline.length} timeline rows, ${d.map.features.length} map features, ${Object.keys(d.ego).length} ego graphs, ${Object.keys(d.related).length} related lists, ${Object.keys(d.synonyms.whole).length} whole-label variants, ${Object.keys(d.synonyms.words).length} word spellings`);
+  for (const lang of ["ar", "en"] as const) writeFileSync(p("site", "public", `search-synonyms.${lang}.json`), JSON.stringify(d.synonyms[lang]));   // loaded by the client-side search page
+  console.log(`derived: ${d.timeline.length} timeline rows, ${d.map.features.length} map features, ${Object.keys(d.ego).length} ego graphs, ${Object.keys(d.related).length} related lists, ${Object.keys(d.synonyms.ar.whole).length} ar + ${Object.keys(d.synonyms.en.whole).length} en whole-label variants`);
 }

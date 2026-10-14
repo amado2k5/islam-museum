@@ -1,0 +1,24 @@
+id: event/roman-recapture-of-alexandria
+class: event
+kind: battle
+label: { ar: "نقض الإسكندرية واستردادها من منويل", en: "The Roman Recapture of Alexandria and Its Recovery from Manuel" }
+summary:
+  ar: "عند البلاذري: كتب الروم إلى قسطنطين بن هرقل — وهو كان الملك يومئذ — يخبرونه بقلة من عندهم من المسلمين وبما هم فيه من الذلة وأداء الجزية فبعث رجلاً من أصحابه يقال له منويل في ثلاثمائة مركب مشحونة بالمقاتلة فدخل الإسكندرية وقتل من بها من روابط المسلمين إلا من لطف للهرب فنجا وذلك في سنة خمس وعشرين، فبلغ عمرو بن العاص الخبر فسار إليهم في خمسة عشر ألفاً فوجد مقاتلتهم قد خرجوا يعيثون فيما يلي الإسكندرية من قرى مصر فلقيهم المسلمون فرشقوهم بالنشّاب ساعة والمسلمون متترّسون ثم صدقوهم الحملة فالتحمت بينهم الحرب فاقتتلوا قتالاً شديداً ثم إن أولئك الكفرة ولّوا منهزمين فلم يكن لهم ناهياً ولا عرجة دون الإسكندرية فتحصّنوا بها ونصبوا العرّادات فقاتلهم عمرو عليها أشد قتال ونصب المجانيق فأخذت جدرها وألحّ بالحرب حتى دخلها بالسيف عنوة فقتل المقاتلة وسبى الذرية وهرب بعض رومها إلى الروم وقُتل منويل، وهدم عمرو والمسلمون جدار الإسكندرية وكان عمرو نذر لئن فتحها ليفعلنّ ذلك؛ وقال بعض الرواة إن هذه الغزاة كانت في سنة ثلاث وعشرين وروى بعضهم أنهم نقضوا في سنة ثلاث وعشرين وسنة خمس وعشرين والله أعلم. ووضع عمرو على أرض الإسكندرية الخراج وعلى أهلها الجزية؛ وروي أن الموقس اعتزل أهل الإسكندرية حين نقضوا فأقرّه عمرو ومن معه على أمرهم الأول وروي أنه قد كان مات قبل هذه الغزاة. وكان عمر بن عبد العزيز يقول: لم نفتح قرية من المغرب على صلح إلا ثلاثاً: الإسكندرية وكفرتيس وسلطيس فكان يقول من أسلم من أهل هذه المواضع خلّى سبيله وسبيل ماله؛ وكانت جزية الإسكندرية ثمانية عشر ألف دينار فلما كانت ولاية هشام بن عبد الملك بلغت ستة وثلاثين ألف دينار."
+  en: "In al-Baladhuri: the Romans wrote to Constantine son of Heraclius — then king — telling how few the Muslims among them were and of their humiliation in paying jizya, whereupon he sent one of his men called Manuel with three hundred ships laden with fighters; he entered Alexandria and slew the Muslim ribat there save those God shielded in flight — in year 25. Amr ibn al-As heard and marched on them with fifteen thousand, finding their fighters out ravaging the villages below Alexandria; the Muslims met them, loosed arrows an hour behind their shields, then charged home, battle joining bitterly, till the unbelievers broke and fled — no halting nor turning short of Alexandria — where they fortified and set up the arrada-engines; Amr fought them hardest, planted mangonels that took the walls, pressed the war till he entered by the sword by force, slew the fighters, captured the offspring — some Romans fleeing to Rome — and Manuel was killed; Amr and the Muslims demolished Alexandria's wall, which Amr had vowed to do should he take it. Some narrators put this raid in year 23, others the breach in 23 or 25 — God knows best. Amr laid kharaj on Alexandria's land and jizya on its people; it is also told that the Muqawqis had withdrawn from Alexandria's folk when they broke, so Amr confirmed him and those with him on their first terms — and also that he had died before this raid. Umar ibn Abd al-Aziz used to say: we opened no village of the Maghreb on treaty save three — Alexandria, Kafr Tis and Sultays — saying whoever of these places' people embraced Islam, his person and property were left free; and Alexandria's jizya was eighteen thousand dinars until in Hisham ibn Abd al-Malik's governorship it reached thirty-six thousand dinars."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { hijri: "0023?", precision: year, status: debated, note: "سنة 23 أو 25 — روايتان (البلاذري ص 310–311)" }
+relations:
+  - { type: occurred_at, target: place/iskandariyya }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "المسترد وقاصم الجدار", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/manuil-al-rumi, role: "قائد الروم المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-hudhafa-al-sahmi, role: "صاحب الرابطة المذبوحة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 310–312"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

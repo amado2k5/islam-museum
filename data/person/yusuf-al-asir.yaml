@@ -1,0 +1,22 @@
+id: person/yusuf-al-asir
+class: person
+label: { ar: "يوسف الأسير", en: "Yusuf al-Asir" }
+names:
+  - { kind: full, lang: ar, value: "يوسف بن عبد القادر بن محمد الحسيني الأسير" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1817", hijri: "1232", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1889", hijri: "1307", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أسرة صيداوية عُرفت بلقب «الأسير»، نشأ في صيدا وحفظ القرآن ثم قصد دمشق عام 1832م لطلب العلم."
+  en: "From a family of Sidon known by the nickname al-Asir. He grew up in Sidon, memorized the Qur'an and went to Damascus in 1832 to study."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/modern-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 692, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص692", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

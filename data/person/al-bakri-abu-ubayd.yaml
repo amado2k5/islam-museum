@@ -1,0 +1,22 @@
+id: person/al-bakri-abu-ubayd
+class: person
+label: { ar: "البكري أبو عبيد عبد الله بن عبد العزيز", en: "Al-Bakri, Abu Ubayd Abd Allah ibn Abd al-Aziz" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن عبد العزيز بن محمد بن أيوب البكري الأندلسي" }
+gender: male
+roles: [geographer, historian]
+traditions: [sunni]
+born: { edtf: "1041", hijri: "0432", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1094", hijri: "0487", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "موسوعي من أهل الأندلس، صاحب كتاب «المسالك والممالك» في الجغرافيا والتاريخ."
+  en: "An encyclopaedic scholar of al-Andalus, author of al-Masalik wa-l-Mamalik on geography and history."
+wings: [people, words]
+themes: [geography-and-cartography, history-writing-and-social-thought]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 725, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص725", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

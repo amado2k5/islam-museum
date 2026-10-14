@@ -1,0 +1,47 @@
+id: polity/almohad-caliphate
+class: polity
+kind: caliphate
+label:
+  ar: الدولة الموحدية
+  en: Almohad Caliphate
+summary:
+  ar: خلافة قامت سنة 1121م وانتهت سنة 1269م.
+  en: A caliphate established in 1121 CE and ended in 1269 CE.
+wings:
+- time
+- place
+periods:
+- period/crusades-ayyubid-mamluk
+regions:
+- maghreb
+- andalus-europe
+start:
+  edtf: "1121"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "1269"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+external_ids:
+  wikidata: Q199688
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

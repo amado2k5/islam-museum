@@ -1,0 +1,28 @@
+---
+// Phone toolbar for inner pages (inner-pages spec §4A, §5 mobile): wing directory, share, back to top. Hidden from 721px up.
+import { ui, type Lang } from "../lib/i18n";
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+---
+<nav class="explore-bar ui" aria-label={T.explore.label}>
+  <a href={`/${lang}/#wings`}>{T.explore.wings}</a>
+  <button type="button" data-share data-copied={T.explore.copied} data-label={T.explore.share}>{T.explore.share}</button>
+  <button type="button" data-top>{T.explore.top}</button>
+</nav>
+<script is:inline>
+  (function () {
+    var share = document.querySelector("[data-share]"), top = document.querySelector("[data-top]");
+    if (top) top.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: "smooth" }); });
+    if (!share) return;
+    share.addEventListener("click", function () {
+      var url = location.href, title = document.title;
+      if (navigator.share) { navigator.share({ title: title, url: url }).catch(function () {}); return; }
+      try {
+        navigator.clipboard.writeText(url).then(function () {
+          share.textContent = share.dataset.copied;
+          setTimeout(function () { share.textContent = share.dataset.label; }, 2000);
+        }, function () {});
+      } catch (e) {}
+    });
+  })();
+</script>

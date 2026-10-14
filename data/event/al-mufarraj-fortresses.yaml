@@ -1,0 +1,24 @@
+id: event/al-mufarraj-fortresses
+class: event
+kind: campaign
+label: { ar: "فتح المفرج بن سلام أربعة وعشرين حصناً", en: "al-Mufarraj ibn Sallam's Conquest of Twenty-Four Fortresses" }
+summary:
+  ar: "عند البلاذري: قام بعد خلفون رجل يقال له المفرج — وفي نسخة المفرخ — بن سلام ففتح أربعة وعشرين حصناً واستولى عليها وكتب إلى صاحب البريد بمصر يعلمه خبره وأنه لا يرى لنفسه ومن معه من المسلمين صلاة الأبان ويقد له الإمام على ناحيته ويوليه إياها ليخرج من حد المتغلبين وبنى مسجداً جامعاً ثم إن أصحابه شغبوا عليه فقتلوه وقام بعده سوران — وجاءت سودان — فوجه رسوله إلى أمير المؤمنين المتوكل يسأله عقداً وكتاب ولاية فتوفي قبل أن ينصرف رسوله إليه وتوفي المنتصر بالله وكانت خلافته ستة أشهر وقام المستعين بالله أحمد بن محمد بن المعتصم فأمر عامله على المغرب وهو أوتامش مولى أمير المؤمنين بأن يعقد له على ناحيته فلم يشخص رسوله من سر من رأى حتى قتل أوتامش وولّى الناحية وصيف مولى أمير المؤمنين فعقد له وأنفذه."
+  en: "In al-Baladhuri: after Khalafun rose a man called al-Mufarraj — one copy: al-Mufarrikh — ibn Sallam who opened twenty-four fortresses and seized them; he wrote the postmaster in Egypt his news and that he deemed the absentee prayer unlawful for himself and the Muslims with him, asking the imam to contract him over his district and appoint him, to leave the state of usurpers — and he built a congregational mosque. Then his companions mutinied and killed him; Sawran — also read Sudan — succeeded and sent his envoy to al-Mutawakkil asking patent and letter of appointment, but al-Mutawakkil died before the envoy reached him, and al-Muntasir died whose caliphate was six months; al-Musta'in Ahmad ibn Muhammad ibn al-Mu'tasim ordered his Maghreb agent Utamish — the caliph's mawla — to contract it for him, but before his envoy could leave Samarra Utamish was killed and Wasif the caliph's mawla took the district and contracted and dispatched it."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0847/0870", calendar: julian, precision: year, status: tradition, derived: true, note: "من أول المتوكل إلى ولاية وصيف (البلاذري ص 328–329). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/barah }
+  - { type: had_participant, target: person/al-mufarraj-ibn-sallam, role: "الفاتح المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sawran, role: "القائم بعده طالب العقد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mutawakkil, role: "المتوفى قبل الجواب", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 328–329"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-24
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,29 @@
+id: event/battle-of-dhu-qar
+class: event
+kind: battle
+label: { en: "The Battle of Dhu Qar", ar: "يوم ذي قار" }
+summary:
+  en: "Khosrow’s marzabans and the governor Iyas ibn Qabisa marched to wrest al-Nuʾman’s deposited family and wealth from Hani ibn Masʾud; Banu Shayban met them at Dhu Qar and routed the Persians utterly — the first day the Arabs defeated the Persians, shortly after the Prophet’s birth."
+  ar: "خرجت مرازبة كسرى وكتائبه في موكب إياس بن قبيصة ليأخذوا ما أودعه النعمان عند هانئ بن مسعود، فأبى هانئ تسليمه حمية؛ فكانت بين الفريقين موقعة هائلة عند ذي قار انتصر فيها بنو شيبان وانهزمت الفرس هزيمة منكرة — أول يوم انتصرت فيه العرب على العجم، بعد مولد النبي بقليل."
+wings: [time, people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0604~", calendar: julian, precision: year, status: debated, note: "قال المباركفوري إنه بعد مولد النبي بقليل؛ النبي وُلد لثمانية أشهر من ولاية إياس. المؤرخون يجعلونه بين 604 و611م تقريباً." }
+relations:
+  - { type: occurred_at, target: place/dhu-qar }
+  - { type: had_participant, target: person/hani-ibn-masud, role: "سيد آل شيبان حامي الوديعة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/iyas-ibn-qabisa, role: "والي الحيرة في موكب كسرى", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-shayban, role: "الحي المنتصر", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+  - { type: had_participant, target: polity/sasanian-empire, role: "القوة المهزومة", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/pre-islamic-arabia }
+sides:
+  - label: { en: "Banu Shayban", ar: "بنو شيبان" }
+    participants: [group/banu-shayban, person/hani-ibn-masud]
+    commanders: [person/hani-ibn-masud]
+  - label: { en: "Sasanian host and al-Hira", ar: "جند كسرى وعمال الحيرة" }
+    participants: [person/iyas-ibn-qabisa, polity/sasanian-empire]
+    commanders: [person/iyas-ibn-qabisa]
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

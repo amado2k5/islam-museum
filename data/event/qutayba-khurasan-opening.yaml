@@ -1,0 +1,20 @@
+id: event/qutayba-khurasan-opening
+class: event
+kind: campaign
+label: { ar: "افتتاح قتيبة ما وراء النهر", en: "Qutayba's Opening beyond the River" }
+summary:
+  ar: "ولى الحجاج قتيبة بن مسلم الباهلي خراسان فخرج يريد آخرون فلما كان بالطالقان تلقاه دهاقين بلخ فمبوا النهر فأتاه حين عبر النهر ملك الصغانيان بهدايا ومفتاح من ذهب وأعطاه الطاعة ودعاه إلى نزول بلاده وكان ملك آخرون وشومان قد ضيق على ملك الصغانيان وغزاه فلذلك أعطى قتيبة ما أعطاه وأتى قتيبة ملك كفيان بنحو ما أتاه به ملك الصغانيان وسلما إليه بلديهما فانصرف قتيبة إلى مرو وخلف أخاه صالحاً على ما وراء النهر ففتح صالح كاسان وأورشت وهي من فرغانة وكان نصر بن سيار معه في جيشه وفتح سخر وفتح أخسكت من فرغانة وهي مدينتها القديمة وكان آخر من فتح كاسان وأورشت وقد انتقض أهلها نوح بن أسد في خلافة المنصور وأرسل ملك الجوزجان إلى قتيبة فصالحه على أن يأتيه فصار إليه ثم رجع فمات بالطالقان."
+  en: "Al-Hajjaj gave Qutayba ibn Muslim al-Bahili Khurasan; marching on Akharun he was met at Talaqan by Balkh's dahqans bridging the river, and at the crossing by the Saghaniyan king bearing gifts and a golden key, yielding obedience and inviting him into his land — pressed by Akharun and Shuman's king — and Kafiyan's king came likewise, both surrendering their lands. Qutayba left his brother Salih beyond the river, who took Kasan and Urusht of Farghana — Nasr ibn Sayyar in his army — and Sakhr and Akhsikath, Farghana's old city; Kasan and Urusht, breached later, were last reopened by Nuh ibn Asad under al-Mansur. Juzjan's king truced on coming in person, came, returned, and died at Talaqan."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/qutayba-ibn-muslim, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salih-ibn-muslim, role: "الخليفة على ما وراء النهر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/nasr-ibn-sayyar, role: "في جيش صالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/nuh-ibn-asad, role: "آخر فاتحي كاسان وأورشت", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

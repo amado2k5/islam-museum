@@ -1,0 +1,21 @@
+id: event/ashraf-takes-damascus-626
+class: event
+kind: other
+label: { ar: "ملك الملك الأشرف دمشق من ابن أخيه داود" }
+summary:
+  ar: "يوم الاثنين ثاني شعبان سنة ست وعشرين وستمائة ملك الملك الأشرف بن الملك العادل دمشق من ابن أخيه صلاح الدين داود بن المعظم؛ وكان داود قد استنجد عمه الأشرف على عمه الكامل فدخل الأشرف دمشق وحلف له على المساعدة ثم اصطلح الأشرف والكامل، وبينما داود والأشرف جالسان في خيمة دخل عز الدين أيبك مملوك المعظم وهو أكبر أمير مع ولده وقال لداود قم اخرج فالقبضة الساعة إذ قيل له إن الأشرف يريد القبض على صاحبه فأخرجه ولم يمكن الأشرف منعه لأن أيبك كان أركب عسكره كلهم فساروا إلى دمشق، فسار الأشرف فنازلها وحصرها حتى وصل الكامل فاشتد الحصار وكان من أشد الأمور على داود قلة المال لأن أمواله بالكرك ولوثوقه بعمه لم يحضر منها شيئاً فاحتاج إلى أن باع حلي نسائه وملبوسهم، فخرج إلى عمه الكامل وبذل له تسليم دمشق على أن يبقى عليه الكرك وقلعة الشوبك والغور ونابلس وتلك الأعمال ويبقى لأيبك قلعة صرخد وأعمالها، وسلم الكامل دمشق وجعل نائبه بالقلعة حتى سلم إليه أخوه الأشرف حران والرها والرقة وسروج ورأس العين من الجزيرة فلما تسلمها سلم قلعة دمشق إلى الأشرف {cite:kamil-ibn-al-athir p. 482}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1229-06-26~", hijri: "0626-08-02", calendar: julian, precision: day, status: tradition, derived: true, note: "الاثنين 2 شعبان 626؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 482}." }
+relations:
+  - { type: had_participant, target: person/al-malik-al-ashraf, role: "المالك لدمشق", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-kamil, role: "عمّه وشريك الاتفاق", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 626، ص 482"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-12
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

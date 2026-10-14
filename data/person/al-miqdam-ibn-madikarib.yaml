@@ -1,0 +1,53 @@
+id: person/al-miqdam-ibn-madikarib
+class: person
+label:
+  ar: المقدام بن معدي كرب
+  en: al-Miqdam ibn Ma'dikarib
+names:
+- kind: full
+  lang: ar
+  value: المقدام بن معدي كرب بن عمرو بن يزيد بن معدي كرب
+- kind: kunya
+  lang: ar
+  value: أبو كريمة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي شامي يكنى أبا كريمة (وقيل أبا يحيى)، نزل حمص وروى عن النبي وعن خالد بن الوليد ومعاذ وأبي أيوب؛ ولما قيل له إن الناس يزعمون أنه لم ير النبي قال إنه رآه وأخذ بشحمة أذنه؛ ذكره ابن سعد في أهل الشام وقال مات سنة 87هـ وهو ابن إحدى وتسعين.
+  en: A Companion who lived in Syria, called Abu Karima (or Abu Yahya); he settled at Homs and narrated from the Prophet, Khalid ibn al-Walid, Mu'adh and Abu Ayyub; when told that people claimed he never saw the Prophet he swore he had, and that
+    the Prophet had taken him by the lobe of his ear; Ibn Sa'd lists him among the Syrians and says he died in 87 AH aged ninety-one.
+wings:
+- people
+themes:
+- scripture-and-its-sciences
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 8533 (ص 1458).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 8533، ص 1458
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-7
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1458, entry 8533)

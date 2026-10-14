@@ -1,0 +1,17 @@
+id: person/quhyar-ibn-qarin
+class: person
+label: { ar: "قوهيار بن قارن", en: "Quhyar ibn Qarin" }
+summary:
+  ar: "قوهيار بن قارن أخو مازيار؛ كان يكاتب الحسن بن الحسين ومحمد بن إبراهيم يعلمهما أنه معهما على أخيه لحقد كان يحمله من الاستخفاف فدل على حيلة الكمين وأخذ بمنطقة أخيه حتى أخذ سلماً ووثب به بعض خاصة أخيه فقتل بطبرستان."
+  en: "Quhyar ibn Qarin, Mazyar's brother; nursing his slights he secretly served al-Hasan ibn al-Husayn and Muhammad ibn Ibrahim against him, devised the ambush, seized his brother's belt as the hidden men closed — and was killed in Tabaristan by his brother's own retainers."
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/mazyar-revolt }
+  - { type: sibling_of, target: person/mazyar-ibn-qarin }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

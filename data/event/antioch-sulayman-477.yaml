@@ -1,0 +1,21 @@
+id: event/antioch-sulayman-477
+class: event
+kind: conquest
+label: { ar: "أخذ سليمان بن قتلمش أنطاكية من الروم" }
+summary:
+  ar: "في سنة سبع وسبعين سار سليمان بن قتلمش السلجوقي صاحب قونية وأقصرا بجيوشه إلى الشام فأخذ أنطاكية وكانت بيد الروم من سنة ثمان وخمسين وثلاث مئة وأرسل إلى السلطان ملكشاه يبشره وقال الذهبي وآل سلجوق هم ملوك بلاد الروم وقد امتدت أيامهم وبقي منهم بقية إلى زمن الملك الظاهر بيبرس {cite:tarikh-khulafa-minhaj-1434 p. 651-652}."
+  en: "In 477 Sulayman ibn Qutlumush, the Seljuk lord of Qonya and Aqsaray, marched on Syria and took Antioch — in Roman hands since 358 — sending the glad tidings to sultan Malikshah. Al-Dhahabi: Al Saljuq are the kings of the lands of Rum, their line lasting to the days of al-Malik al-Zahir Baybars {cite:tarikh-khulafa-minhaj-1434 p. 651-652}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1084~", hijri: "0477", calendar: julian, precision: year, status: tradition, derived: true, note: "477؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 651}." }
+relations:
+  - { type: had_participant, target: person/sulayman-ibn-qutlumush, role: "الفاتح", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 646–657"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-39
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

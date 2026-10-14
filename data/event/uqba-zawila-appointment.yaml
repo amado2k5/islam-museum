@@ -1,0 +1,24 @@
+id: event/uqba-zawila-appointment
+class: event
+kind: conquest
+label: { ar: "ولاية عقبة بن نافع على زويلة وما بينها وبرقة", en: "Uqba ibn Nafi's Charge over Zawila and the Marches to Barqa" }
+summary:
+  ar: "عند البلاذري عن معاوية بن صالح: كتب عمرو بن العاص إلى عمر بن الخطاب يعلمه أنه قد ولّى عقبة بن نافع الفهري المغرب فبلغ زويلة وأن ما بين زويلة وبرقة سلّم كلهم حسنة طاعتهم قد أدّى مسلمهم الصدقة وأقرّ معاهدهم بالجزية وأنه قد وضع على أهل زويلة ومن بينها وبينها ما رأى أنهم يطيقونه، وأمر عماله جميعاً أن يأخذوا الصدقة من الأغنياء فيردّوها في الفقراء ويأخذوا الجزية من الذمة فتُحمل إليه بمصر وأن يؤخذ من أرض المسلمين العشر ونصف العشر ومن أهل الصلح صلحهم."
+  en: "In al-Baladhuri on Mu'awiya ibn Salih's report: Amr ibn al-As wrote to Umar ibn al-Khattab that he had given Uqba ibn Nafi' al-Fihri the Maghreb — he had reached Zawila, and all between Zawila and Barqa had submitted in good obedience, their Muslims paying sadaqa and their covenant-holders confirmed in jizya — and that he had laid on Zawila's people and those between it and Barqa what he judged they could bear; and he charged all his agents to take sadaqa from the rich and return it to the poor, to take the jizya of the dhimma borne to him in Egypt, to take tithe and half-tithe from Muslim lands, and the treaty-terms from treaty folk."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [maghreb]
+date:
+  start: { hijri: "0022~", precision: year, status: tradition, derived: true, note: "بعد صلح برقة وقبل أطرابلس (البلاذري ص 315). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/zawila }
+  - { type: occurred_at, target: place/barqa }
+  - { type: had_participant, target: person/uqba-ibn-nafi, role: "المولّى المغرب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "الموجّه والكاتب لعمر", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 315"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,19 @@
+id: event/waki-ibn-hassan-baya
+class: event
+kind: revolt
+label: { ar: "بيعة وكيع بن حسان على قتيبة", en: "The Bay'a to Waki' ibn Hassan against Qutayba" }
+summary:
+  ar: "خطب قتيبة الناس فعدد إحسانه إليهم وذم قلة وفائهم له وخلافهم عليه وخوفهم بالأعاجم الذين استظهر بهم عليهم فأجمعوا على حربه ولم يجيبوه بشيء وطلبوا إلى الحضين بن المنذر أن يوليهم أمرهم فأبى وأشار عليهم بوكيع بن حسان بن قيس بن أبي سود بن كلب بن عوف بن مالك بن غدانة بن يربوع بن حنظلة التميمي وقال لا يقوى على هذا الأمر غيره لأنه أعرابي جاف تطيعه عشيرته وهو من بني تميم وقد قتل قتيبة بني الأهثم فهم يطلبونه بدمائهم فسعوا إلى وكيع فأعطاهم يده فبايعوه وكان السفير بينه وبينهم قبل ذلك حيان مولى مصطل."
+  en: "Qutayba preached his ihsan, their scant loyalty, and warned of the Ajam he had raised over them — they resolved on war and gave no answer. Al-Hudayn ibn al-Mundhir refused their leadership and pointed them to Waki' ibn Hassan ibn Qays ibn Abi Sud of Tamim — 'none else can bear it: a rough Arab whose tribe obeys him, a Tamimi; and Qutayba slew the Banu al-Ahtham, who seek their blood'. They sought him out, he gave his hand, and they swore him bay'a — Hayyan, Maslama's mawla, having gone between them."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/waki-ibn-hassan, role: "المبايع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hudayn-ibn-al-mundhir, role: "المشار إليه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/qutayba-ibn-muslim, role: "المخلع عليه", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

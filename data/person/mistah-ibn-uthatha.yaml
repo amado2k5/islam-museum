@@ -1,0 +1,26 @@
+id: person/mistah-ibn-uthatha
+class: person
+label: { en: "Mistah ibn Uthatha", ar: "مسطح بن أثاثة" }
+names:
+  - { kind: full, lang: ar, value: "مسطح (عوف) بن أثاثة بن عباد بن المطلب القرشي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An early Muhajir Companion and Badri veteran from Banu al-Muttalib, maternal cousin of Abu Bakr who provided for him; drawn into repeating the slander against Aisha, he received the prescribed punishment; when Abu Bakr swore to cut his financial aid, God revealed Surat al-Nur 24:22 urging forgiveness, after which Abu Bakr restored and increased his stipend."
+  ar: "صحابي بدري ومهاجري من بني المطلب بن عبد مناف؛ كان فقيراً قريباً لأبي بكر ينفق عليه لقرابته وفقره، فوقع في خوض الإفك وجُلد الحد، فحلف أبو بكر ألا ينفق عليه فنزل قوله تعالى: «ولا يأتل أولو الفضل منكم والسعة أن يؤتوا أولي القربى... ألا تحبون أن يغفر الله لكم»، فقال أبو بكر: بلى والله إني لأحب أن يغفر الله لي، فرد عليه نفقته."
+wings: [people]
+themes: [converts-and-leavers, the-poor-and-the-worker]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0612~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, start: { edtf: "0612~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0612~" }, note: "صحابي بدري من السابقين الأولين." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: member_of, target: group/muhajirun }
+  - { type: participated_in, target: event/incident-of-the-slander, role: "خاض في الإفك وجُلد ونزل فيه العفو", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }

@@ -1,0 +1,30 @@
+id: event/expulsion-of-najran
+class: event
+kind: expulsion
+label: { ar: "إجلاء نصارى نجران", en: "Umar's Expulsion of the Christians of Najran" }
+summary:
+  ar: "عند البلاذري: لما استخلف عمر أصاب أهل نجران الربا وكثروا فخافهم على الإسلام فأجلاهم إلى النجرانية بناحية الكوفة — وبها سُمّيت — واشترى عقاراتهم وأموالهم وكتب لهم أن ما وقعوا به من الشام والعراق فليُوسَعهم من حرث الأرض مكان أرضهم باليمن، ودخل يهود نجران مع النصارى في الصلح فكانوا كالأتباع لهم؛ وفي رواية سالم بن أبي الجعد أن أهل نجران بلغوا أربعين ألفاً فتحاسدوا فأتوا عمر فقالوا «أجلنا» فأجلاهم ثم ندموا وطلبوا الإقالة فأبى، فلما قام علي بن أبي طالب أتوه فقال «إن عمر كان رشيد الأمر وأنا أكره خلافه»؛ ثم توالت عليهم الأحكام: حطّ عنهم عثمان مائتي حلة بكتاب إلى عامله على الكوفة الوليد بن عقبة لما أنبأه عثمان بن حنيف أن إجلاءهم كان ضاراً بالدهاقين، وأكملهم معاوية أو يزيد أربعمائة حلة، وردّهم الحجاج بعد خروج ابن الأشعث إلى ألف وثمانمائة حلة متّهماً إياهم بموالاته، وألزمهم عمر بن عبد العزيز مائتي حلة قيمتها ثمانية آلاف درهم لما وجدهم على العشر من عدّتهم الأولى وقال «أرى هذا الصلح جزية على رؤوسهم وليس بصلح على أراضيهم وجزية الميت والمسلم ساقطة»، وردّهم يوسف بن عمر في أيام الوليد بن يزيد إلى أمرهم الأول عصبية للحجاج، وأقرّهم أبو العباس السفاح على مائتي حلة لما نثروا على موكبه الريحان بالكوفة وتوسط لهم عبد الله بن الربيع الحارثي وأيّدهم الحجاج بن أرطاة في نسبهم في بني الحارث بن كعب أخواله، وأكّدها هارون الرشيد بكتاب رآه الرواة وأمر أن يُعفوا من معاملة العمال ويؤدوا إلى بيت المال بالحضرة."
+  en: "In al-Baladhuri: under Umar the people of Najran took usury and multiplied, so he feared them for Islam and exiled them to al-Najraniyya by Kufa — the settlement named after them — buying up their estates and writing for them that wherever they settled in Syria or Iraq they were to be granted arable land in place of their land in Yemen; the Jews of Najran had entered the treaty with the Christians as their followers; in Salim ibn Abi al-Ja'd's report the people of Najran reached forty thousand, quarrelled among themselves, asked Umar 'exile us' — which he did, already fearing them for the Muslims — then regretted it and sought reversal which he refused, and when Ali ibn Abi Talib took office they came to him and he said 'Umar was of sound judgement and I dislike opposing him'; the rulings then ran on: Uthman remitted two hundred hullas by letter to his Kufa governor al-Walid ibn Uqba after Uthman ibn Hunayf told him their exile had harmed the dihqans by driving them off their land; Mu'awiya or Yazid completed them to four hundred hullas; al-Hajjaj restored eighteen hundred after Ibn al-Ash'ath's revolt, accusing them of backing it; Umar ibn Abd al-Aziz set them at two hundred hullas worth eight thousand dirhams on finding them at a tithe of their former number — 'I see this treaty is a jizya on their heads, not a treaty on their lands, and the jizya of the dead and the Muslim lapses'; Yusuf ibn Umar restored them under al-Walid ibn Yazid out of solidarity with al-Hajjaj; Abu al-Abbas al-Saffah confirmed two hundred hullas after they scattered basil on his procession at Kufa and Abdullah ibn al-Rabi' al-Harithi interceded for their kinship claim through Banu al-Harith ibn Ka'b his maternal uncles, seconded by al-Hajjaj ibn Arta; and Harun al-Rashid confirmed it by a letter the transmitters saw, ordering them freed from dealing with the tax agents to pay directly to the treasury at the capital."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [arabia, levant-iraq]
+date:
+  start: { edtf: "0640", hijri: "0020", calendar: julian, precision: year, status: debated, derived: true, note: "في خلافة عمر بلا تأريخ في الكتاب؛ المشهور نحو 20هـ — تقريبي ومشتق. (البلاذري ص 88–90)." }
+relations:
+  - { type: occurred_at, target: place/najran }
+  - { type: occurred_at, target: place/al-najraniyya }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أجلاهم إلى النجرانية خشية على الإسلام بعد أكلهم الربا", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "حطّ عنهم مائتي حلة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-walid-ibn-uqba, role: "عامل عثمان على الكوفة الذي كُتب إليه في أمرهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "ردّهم إلى 1800 حلة بعد خروج ابن الأشعث", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "ألزمهم مائتي حلة قيمتها ثمانية آلاف درهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أبى إقالتهم كراهية خلاف عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-al-abbas-al-saffah, role: "أقرّهم على مائتي حلة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/harun-al-rashid, role: "أكّد المائتين وأعفاهم من معاملة العمال", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 88–92"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-3
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

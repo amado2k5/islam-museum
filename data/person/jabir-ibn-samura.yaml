@@ -1,0 +1,62 @@
+id: person/jabir-ibn-samura
+class: person
+label:
+  ar: جابر بن سمرة
+  en: Jabir ibn Samura
+aliases: [person/jabir-ibn-samra]
+names:
+- kind: full
+  lang: ar
+  value: جابر بن سمرة بن جنادة بن جندب العامري السوائي، حليف بني زهرة
+- kind: kunya
+  lang: ar
+  value: أبو عبد الله
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من بني سواءة حليف بني زهرة، أمه خالدة بنت أبي وقاص أخت سعد؛ له ولأبيه صحبة، وأخرج له أصحاب الصحيح، ونزل الكوفة وتوفي بها سنة 74هـ.
+  en: A Companion of Banu Sawa'a, ally of Banu Zuhra, whose mother Khalida was the sister of Sa'd ibn Abi Waqqas; he and his father were Companions, the authors of the sound collections narrate from him, and he settled in Kufa and died there
+    in 74 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 1022 (ص 194).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-zuhra
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 1022، ص 194
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 194, entry 1022)

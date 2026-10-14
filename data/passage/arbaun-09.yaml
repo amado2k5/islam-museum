@@ -1,0 +1,16 @@
+id: passage/arbaun-09
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "9"
+label: { ar: "الأربعون 9 — ما نهيتكم عنه فاجتنبوه", en: "Arba'un 9 — what I forbid you, avoid" }
+text: "ما نهيتكم عنه فاجتنبوه، وما أمرتكم به فائتوا منه ما استطعتم، فإنما أهلك الذين من قبلكم كثرة مسائلهم واختلافهم على أنبيائهم"
+summary:
+  ar: "حديث أبي هريرة، وهو الحديث التاسع في الأربعين النووية وفي شرح ابن رجب؛ رواه البخاري (7288) ومسلم (1337)، وخرجه مسلم بهذا اللفظ من رواية الزهري عن سعيد بن المسيب وأبي سلمة عن أبي هريرة، وفي رواية ذكر سببه أن رجلاً سأل حين فرض الحج «أكل عام؟» حتى قالها ثلاثاً فقال «لو قلت نعم لوجبت ولما استطعتم»؛ يستنبط ابن رجب منه النهي عن السؤال عما لا يحتاج إليه وعن السؤال تعنتاً وعبثاً واستهزاءً، وعن السؤال عما أخفاه الله عن عباده، وعن كثير من الحلال والحرام مما يخشى أن يكون السؤال سبباً لنزول التشديد فيه، ويذكر حديث سعد «إن أعظم المسلمين في المسلمين جرماً من سأل عن شيء لم يحرم فحرم من أجل مسألته» وأن الرخصة في المسائل كانت للأعراب والوفود دون المهاجرين والأنصار (جامع العلوم والحكم ص 218–238)."
+  en: "Abu Hurayra's hadith, the ninth of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by al-Bukhari (7288) and Muslim (1337) — Muslim having this wording through al-Zuhri from Sa'id ibn al-Musayyab and Abu Salama from Abu Hurayra — and a narration gives its occasion: a man asking, when hajj was imposed, 'every year?' until the Prophet answered 'had I said yes it would have been obligatory and you could not have managed'; Ibn Rajab derives from it the prohibition of asking about what is not needed, of asking out of obstinacy, frivolity or mockery, of asking about what God has hidden from His servants, and of questions about the lawful and unlawful that might bring down stricter rulings, citing Sa'd's hadith 'the most sinful of Muslims is one who asked about what had not been forbidden and it was forbidden because of his question', and that licence to ask was granted to bedouins and delegations rather than the Muhajirun and Ansar (Jami' al-Ulum wal-Hikam pp. 218–238)."
+relations:
+  - { type: basis_for, target: concept/amr-nahy, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 9 pp. 218–238", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-4" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 218, takhrij from the edition's apparatus" }

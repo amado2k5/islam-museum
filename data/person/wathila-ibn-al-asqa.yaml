@@ -1,0 +1,62 @@
+id: person/wathila-ibn-al-asqa
+class: person
+label:
+  ar: واثلة بن الأسقع
+  en: Wathila ibn al-Asqa'
+names:
+- kind: full
+  lang: ar
+  value: واثلة بن الأسقع بن كعب بن عامر الليثي (وقيل واثلة بن عبد الله بن الأسقع)
+- kind: kunya
+  lang: ar
+  value: أبو قرصافة (وقيل غير ذلك)
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من بني ليث بن عبد مناة، أسلم قبل تبوك وشهدها، وكان من أهل الصفة كما يذكر ابن سعد ثم نزل الشام؛ شهد فتح دمشق وحمص كما يذكر أبو حاتم، ومات في خلافة عبد الملك سنة 83هـ أو 85هـ، وهو آخر من مات بدمشق من الصحابة في قول الواقدي.
+  en: From Banu Layth ibn Abd Manat, he embraced Islam before Tabuk and took part in it; Ibn Sa'd lists him among the people of the Suffa, after which he settled in Syria; Abu Hatim says he was at the conquests of Damascus and Homs; he died in
+    the caliphate of Abd al-Malik in 83 or 85 AH, and in al-Waqidi's account was the last Companion to die at Damascus.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 9144 (ص 1561).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: participated_in
+  target: event/expedition-to-tabuk
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/damascus
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 9144، ص 1561
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-7
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1561, entry 9144)

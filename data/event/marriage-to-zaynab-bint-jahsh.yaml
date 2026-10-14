@@ -1,0 +1,25 @@
+id: event/marriage-to-zaynab-bint-jahsh
+class: event
+kind: other
+label: { en: "Marriage to Zaynab bint Jahsh", ar: "زواج النبي بزينب بنت جحش" }
+date:
+  start: { hijri: "0005-11~", calendar: julian, precision: month, status: tradition, note: "في ذي القعدة سنة 5هـ في أيام حصار بني قريظة (الرحيق المختوم ص 474، 477)", sources: [source/mubarakpuri-raheeq] }
+summary:
+  ar: "تزوج النبي بزينب بنت جحش بعد طلاق زيد بن حارثة لها في ذي القعدة سنة 5هـ، إبطالاً لقاعدة التبني الجاهلية التي كانت تحرم زوجة الابن بالتبني؛ ونزل فيها آيات سورة الأحزاب وأثار المنافقون حولها دعايات."
+  en: "The Prophet married Zaynab bint Jahsh after Zayd ibn Haritha divorced her, in Dhu al-Qa'da 5 AH, abolishing by act the jahili adoption rule that had treated an adopted son's wife as a real son's wife; verses of sura al-Ahzab were revealed about it and the hypocrites spread propaganda around it."
+wings: [time, people]
+themes: [family-marriage-kinship, women]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+- type: occurred_at
+  target: place/medina
+  sources: [source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الرحيق المختوم، البيت النبوي، ص 474، 476-478
+  generated_by: Devin
+  model: SWE-2 High
+  run: raheeq-batch-24
+sources: [source/mubarakpuri-raheeq, source/tanzil-quran]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); mined from al-Raheeq al-Makhtum pp. 474-478" }

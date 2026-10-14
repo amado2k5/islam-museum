@@ -1,0 +1,21 @@
+id: event/harun-accession
+class: event
+kind: declaration
+label: { ar: "بيعة هارون الرشيد" }
+summary:
+  ar: "استخلف هارون الرشيد بعهد من أبيه عند موت أخيه الهادي ليلة السبت لأربع عشرة بقيت من ربيع الأول سنة سبعين ومئة، وفي هذه الليلة ولد له عبد الله المأمون، قال الصولي ولم يكن في سائر الزمان ليلة مات فيها خليفة وقام خليفة وولد خليفة إلا هذه الليلة {cite:tarikh-khulafa-minhaj-1434 p. 456}."
+  en: "Harun al-Rashid acceded by his father's designation on his brother al-Hadi's death — Saturday night, 14 Rabi' I 170; that same night his son Abdallah al-Ma'mun was born. Per al-Suli, in all of time there was never a night in which a caliph died, a caliph rose and a caliph was born but this one {cite:tarikh-khulafa-minhaj-1434 p. 456}."
+wings: [time, people]
+periods: [period/abbasid-early]
+date:
+  start: { edtf: "0786-09-14~", hijri: "0170-03-14", calendar: julian, precision: day, status: tradition, derived: true, note: "14 ربيع الأول 170؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 456}." }
+relations:
+  - { type: had_participant, target: person/harun-al-rashid, role: "المتولي", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abd-allah-al-mamun, role: "المولود ليلتها", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 456"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-20
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

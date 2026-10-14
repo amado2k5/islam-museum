@@ -1,0 +1,23 @@
+id: event/death-of-tughril-iii-590
+class: event
+kind: battle
+label: { ar: "قتل السلطان طغرل الثالث آخر سلاطين السلاجقة بالعراق" }
+summary:
+  ar: "في سنة تسعين وخمسمائة قصد السلطان طغرل بن أرسلان بن طغرل السلجوقي بلد الري فأغار على من بها من أصحاب خوارزم شاه علاء الدين تكش، فسار خوارزم شاه من نيسابور إلى الري فتلقاه قتلغ اينانج بن البهلوان بالطاعة، فلما سمع طغرل بوصوله وعساكره متفرقة لم يقف ليجمعها فقيل له إن الذي تفعله ليس برأي والمصلحة أن تجمع العساكر فلم يقبل وكان فيه شجاعة، فالتقى العسكران قريباً من الري فحمل طغرل بنفسه في وسط عسكر خوارزم شاه فأحاطوا به وألقوه عن فرسه وقتلوه في الرابع والعشرين من ربيع الأول، وحمل رأسه إلى خوارزم شاه فسيره إلى بغداد فنصب بها بباب النوبي عدة أيام، وسار خوارزم شاه إلى همذان فملك تلك البلاد جميعها، وسير الخليفة الناصر لدين الله عسكراً لنجدته ومعه الخلع السلطانية مع وزيره مؤيد الدين بن القصاب فدس رسولاً يستدعيه إلى خيمته ليقبض عليه فاحترس خوارزم شاه ودخل إليه قصداً لأخذه فاندفع الوزير هارباً إلى بضع الجبال {cite:kamil-ibn-al-athir p. 232-233}."
+wings: [time, place]
+themes: [battles]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq]
+date:
+  start: { edtf: "1194-03~", hijri: "0590-03-24", calendar: julian, precision: day, status: tradition, derived: true, note: "24 ربيع الأول 590؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 233}." }
+relations:
+  - { type: had_participant, target: person/tughril-iii, role: "السلطان المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ala-al-din-tekish, role: "خوارزم شاه الغالب", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-nasir-billah, role: "الخليفة الذي سير الخلع السلطانية", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 590، ص 232–233"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-05
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

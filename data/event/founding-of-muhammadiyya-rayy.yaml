@@ -1,0 +1,21 @@
+id: event/founding-of-muhammadiyya-rayy
+class: event
+kind: founding
+label: { ar: "بناء المحمدية بالري", en: "Founding of al-Muhammadiyya at Rayy" }
+summary:
+  ar: "قدم المهدي الري في خلافة أبيه المنصور فبنى مدينة الري التي الناس بها اليوم وجعل حولها خندقاً وبنى فيها مسجداً جامعاً جرى على يدي عمّار بن أبي الخصيب وكتب اسمه على حائطه وأرّخ بناءها سنة ثمان وخمسين ومائة وجمل لها فصيلاً بطيف به فارقين أجر وسمّاها المحمدية فكان أهل الري يدعون المدينة الداخلة والفصيل المدينة الخارجة وكان حصن الزنبدي في داخل المحمدية فأمر المهدي بمرمّته ونزله وهو مطل على المسجد الجامع ودار الإمارة وكان المهدي أول مقدمه نزل قرية يقال لها السيروان."
+  en: "Al-Mahdi came to Rayy in the caliphate of his father al-Mansur and built the city the people inhabit today, dug a moat around it, built a congregational mosque carried out by Ammar ibn Abi al-Khasib whose name was written on its wall, dated its building 158 AH, girded it with a suburb-wall of fired brick and named it al-Muhammadiyya — Rayy's people call the inner town al-Madina al-Dakhila and the walled suburb al-Madina al-Kharija; Hisn al-Zaynabi lay inside al-Muhammadiyya, al-Mahdi ordered its repair and lodged there overlooking mosque and governor's palace, and on his first arrival he had lodged at a village called al-Sirwan."
+date:
+  start: { edtf: "0774", hijri: "0158", calendar: julian, precision: year, status: tradition, note: "أرّخ البلاذري بناءها سنة 158هـ", sources: [source/futuh-buldan-maarif-1407] }
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/al-mahdi, role: "الباني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/rayy }
+  - { type: had_participant, target: person/ammar-ibn-abi-al-khasib, role: "القائم على بناء الجامع", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,20 @@
+id: event/uhud-archers-mistake
+kind: other
+class: event
+label:
+  ar: "غلطة الرماة في أحد"
+  en: "The Archers' Mistake at Uhud"
+summary:
+  ar: "نزول أغلبية الرماة من جبل الرماة لجمع الغنائم، مما فتح ثغرة سمحت لفرسان خالد بن الوليد بالالتفاف خلف الجيش."
+  en: "The descent of most archers from the hill to collect spoils, creating a gap that allowed Khalid ibn al-Walid's cavalry to flank the army."
+date:
+  start: { edtf: "0625-06", hijri: "0003-10", precision: month }
+provenance:
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+  sources:
+    - { cite: mubarakpuri-raheeq p.263, p.264 }
+status: { review: draft }
+relations:
+  - { type: part_of, target: event/battle-of-uhud }

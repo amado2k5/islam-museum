@@ -1,0 +1,27 @@
+id: journey/banu-qurayza-march
+class: journey
+kind: military_campaign
+label: { ar: "مسير الجيش إلى بني قريظة" }
+summary:
+  ar: "من المدينة بعد رجوع المسلمين من الخندق في ذي القعدة سنة 5هـ، إلى بئر أنا من آبار بني قريظة ثم إلى حصونهم؛ وفق ما ترويه كتب السيرة في الرحيق ص314-315."
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad, person/ali-ibn-abi-talib]
+legs:
+  - { from: place/medina, to: place/bir-ana, start: { hijri: "0005-11", calendar: julian, precision: month, status: tradition, note: "ذي القعدة سنة 5هـ، في اليوم الذي رجع فيه النبي من الأحزاب (الرحيق ص314، ص318)" }, mode: "مسير", events: [event/siege-of-banu-qurayza], note: "أمر جبريل بالمسير إلى بني قريظة عند الظهر؛ أذّن النبي في الناس ألا يصلي العصر أحد إلا في بني قريظة، واستعمل ابن أم مكتوم على المدينة، ودفع الراية إلى علي؛ فنزل النبي على بئر من آبار قريظة يقال لها بئر أنا (الرحيق ص314)." }
+  - { from: place/bir-ana, to: place/banu-qurayza-fortresses, mode: "مسير", events: [event/siege-of-banu-qurayza], note: "تحرك المسلمون نحو قريظة أرسالاً حتى تلاحقوا بالنبي، وهم ثلاثة آلاف والخيل ثلاثون فرساً؛ أدركتهم صلاة العصر في الطريق فصلوها هناك، فاختلف فهمهم للأمر ولم يعنّف النبي أحداً من الطائفتين؛ ثم نازلوا حصون بني قريظة وفرضوا الحصار (الرحيق ص314)." }
+waypoints:
+  - place: place/medina
+    day: 1
+    day_status: tradition
+    day_note: "اليوم الذي رجع فيه النبي من الأحزاب، والنص لا يعيّن يوماً بالرقم؛ الترتيب هنا ترتيب المحطة (الرحيق ص314)."
+    title: { ar: "الندب إلى بني قريظة" }
+    narrative:
+      ar: "بعد رجوع المسلمين من الخندق ووضعهم السلاح، جاء جبريل عند الظهر في بيت أم سلمة فأمر النبي بالمسير إلى بني قريظة. نادى النبي في الناس، واستعمل ابن أم مكتوم على المدينة، وأعطى الراية علي بن أبي طالب وقدّمه (الرحيق ص314)."
+    sources: [source/mubarakpuri-raheeq]
+relations:
+  - { type: part_of, target: event/siege-of-banu-qurayza }
+  - { type: had_participant, target: person/muhammad, role: "القائد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "حامل راية النبي إلى حصون بني قريظة", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; al-Raheeq al-Makhtum pp. 314-318" }

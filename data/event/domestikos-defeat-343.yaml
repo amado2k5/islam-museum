@@ -1,0 +1,21 @@
+id: event/domestikos-defeat-343
+class: event
+kind: battle
+label: { ar: "وقعة سيف الدولة مع الدمستق سنة 343" }
+summary:
+  ar: "ورد الخبر سنة 343هـ بوقعة عظيمة كانت بين الدمستق بطريق الروم وسيف الدولة فقتل خلق من أصحاب الدمستق ورؤساء بطارقته {cite:muntazam-ibn-al-jawzi p. 668}."
+  en: "In 343 word came of a great battle between the Byzantine Domesticus and Sayf al-Dawla in which many of the Domesticus's men and the chiefs of his patrikioi were killed {cite:muntazam-ibn-al-jawzi p. 668}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0954", hijri: "0343", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 343؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 668}." }
+relations:
+  - { type: had_participant, target: person/sayf-al-dawla, role: "المنتصر", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-15
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

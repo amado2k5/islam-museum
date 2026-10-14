@@ -1,0 +1,24 @@
+id: journey/mutah-march
+class: journey
+kind: military_campaign
+label: { ar: "مسير جيش مؤتة" }
+summary:
+  ar: "مسير الجيش الإسلامي الثلاثة آلاف من المدينة إلى مؤتة في جمادى الأولى سنة 8هـ، بحسب ما يذكره الرحيق: توديع النبي له عند ثنية الوداع، ثم الشمال حتى معان، فليلتان فيها، ثم أرض البلقاء حيث لقي جموع هرقل عند مشارف ثم عسكر في مؤتة؛ المواضع كما يذكرها المؤلف دون ترتيب إضافي."
+travelers: [person/zayd-ibn-haritha, person/jafar-ibn-abi-talib, person/abd-allah-ibn-rawaha]
+periods: [period/prophetic-era]
+regions: [arabia, levant-iraq]
+legs:
+  - { from: place/medina, to: place/maan, events: [event/mutah-dispatch-of-army], note: "خرج النبي مشيّعاً الجيش حتى بلغ ثنية الوداع فوقف وودّعهم، ثم تحرك الجيش نحو الشمال حتى نزل معان من أرض الشام (الرحيق ص388). لم يذكر النص يوماً للخروج." }
+  - { from: place/maan, to: place/mutah, events: [event/mutah-halt-at-maan, event/battle-of-mutah], note: "أقام الجيش بمعان ليلتين، ثم تحرك إلى أرض العدو فلقيته جموع هرقل بقرية مشارف من قرى البلقاء (المحطة المسماة بالمشارف لا إحداثيات لها في الملف فلم تُدرج هنا)، ثم دنا العدو فانحاز المسلمون إلى مؤتة فعسكروا وتعبأوا للقتال (الرحيق ص389)." }
+relations:
+  - { type: part_of, target: event/battle-of-mutah }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "أمير البعث", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/jafar-ibn-abi-talib, role: "الأمير الثاني", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abd-allah-ibn-rawaha, role: "الأمير الثالث", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; al-Raheeq al-Makhtum pp. 387-389" }
+
+waypoints:
+  - {"place": "place/medina", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "المدينة المنورة"}, "narrative": {"ar": "نقطة الانطلاق: المدينة المنورة. خرج النبي مشيّعاً الجيش حتى بلغ ثنية الوداع فوقف وودّعهم، ثم تحرك الجيش نحو الشمال حتى نزل معان من أرض الشام (الرحيق ص388). لم يذكر النص يوماً للخروج."}}
+  - {"place": "place/maan", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "مَعَان"}, "narrative": {"ar": "خرج النبي مشيّعاً الجيش حتى بلغ ثنية الوداع فوقف وودّعهم، ثم تحرك الجيش نحو الشمال حتى نزل معان من أرض الشام (الرحيق ص388). لم يذكر النص يوماً للخروج."}}
+  - {"place": "place/mutah", "day": 3, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "مؤتة"}, "narrative": {"ar": "أقام الجيش بمعان ليلتين، ثم تحرك إلى أرض العدو فلقيته جموع هرقل بقرية مشارف من قرى البلقاء (المحطة المسماة بالمشارف لا إحداثيات لها في الملف فلم تُدرج هنا)، ثم دنا العدو فانحاز المسلمون إلى مؤتة فعسكروا وتعبأوا للقتال (الرحيق ص389)."}}

@@ -1,0 +1,21 @@
+id: event/abd-al-aziz-sijistan
+class: event
+kind: other
+label: { ar: "ولاية عبد العزيز بن عبد الله بن عامر سجستان", en: "Abd al-Aziz ibn Abdallah ibn Amir's Sijistan" }
+summary:
+  ar: "قدم عبد العزيز بن عبد الله بن عامر والياً على سجستان من قبل القباع وهو الحارث بن عبد الله بن أبي ربيعة المخزومي في أيام ابن الزبير فأدخلوه زرنج وحاربوا رتبيل فقتله أبو عفراء عمير المازني وانهزم المشركون وأرسل عبد الله بن ناشرة التميمي إلى عبد العزيز أن خذ جميع ما في بيت المال وانصرف ففعل وأقبل ابن ناشرة حتى دخل زرنج ومضى وكيع بن أبي سود التميمي فرداً عند عبد العزيز وأدخله المدينة حين فتحت للخطابين وأخرج ابن ناشرة فجمع جمعاً فقاتله عبد العزيز ومعه وكيع فعثرت بابن ناشرة فرسه فقتل وقال أبو حزابة ويقال حنظلة بن عرادة ألا لا فتى بعد ابن ناشرة الفتى ولا شيء إلا قد تولى وأدبرا."
+  en: "Abd al-Aziz ibn Abdallah ibn Amir came governing Sijistan for al-Quba' — al-Harith ibn Abdallah ibn Abi Rabi'a al-Makhzumi — in Ibn al-Zubayr's days; they brought him into Zaranj and warred on Rutbil, whom Abu Afra'a Umayr al-Mazini killed as the unbelievers routed. Abdullah ibn Nashira al-Tamimi counselled Abd al-Aziz to take all the treasury and leave — then came himself and entered Zaranj; Waki' ibn Abi Sud alone stood by Abd al-Aziz, got him back in when the gates opened to the Khatiban, and expelled Ibn Nashira, who gathered a host and fought — his horse stumbled and he was killed, mourned in Abu Huzaba's (or Hanzala ibn Arada's) elegy 'no youth after Ibn Nashira the youth'."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/abd-al-aziz-ibn-abdallah-ibn-amir, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-afraa-umayr, role: "قاتل رتبيل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-nashira, role: "المنافس المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rutbil, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sijistan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

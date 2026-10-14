@@ -1,0 +1,28 @@
+id: person/ama-bint-khalid
+class: person
+label: { en: Ama bint Khalid ibn Sa'id, ar: "أمة بنت خالد بن سعيد" }
+names:
+  - { kind: full, lang: ar, value: "أمة بنت خالد بن سعيد" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "ابنة خالد بن سعيد بن العاص وأمينة بنت خلف، وُلدت بأرض الحبشة."
+  en: Daughter of Khalid ibn Sa'id ibn al-As and Amina bint Khalf, born in the land of Abyssinia.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص4)؛ يلقّبها الكتاب «بنت الهجرة» لمولدها بأرض الحبشة، وروت حديث إهداء النبي لها الثوب وقوله «أمهها يا أم خالد» (نساء حول الرسول ص340).", sources: [source/ibn-hisham-saqqa, source/nisa-hawl-alrasul] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
+  - { type: child_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }
+  - { type: child_of, target: person/amina-bint-khalf, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/said-ibn-khalid, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: born-in-abyssinia, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 4; nisa hawl al-rasul pp. 333-342", generated_by: "Claude Sonnet 5.5; Devin (nisa lane)", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa, source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

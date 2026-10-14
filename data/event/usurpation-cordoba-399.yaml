@@ -1,0 +1,26 @@
+id: event/usurpation-cordoba-399
+class: event
+kind: civil-war
+label: { ar: "فتنة قرطبة وخروج ابن عبد الجبار" }
+summary:
+  ar: "في ربيع الأول سنة ثمان وتسعين وثلاثمائة أخرج المؤيد هشام من تدبير الأمور في حياته إلى الحاجب عبد الرحمن بن المنصور بن أبي عامر وفوّض إليه الخلافة بعد وفاته بعهد الله وميثاقه وذمة نبيه وذمم الخلفاء الراشدين من آبائه، وكان لقبه في الناس سانجيل، فنقم أهل الدولة ذلك وأسيفوا تحويل الأمر من المضرية إلى اليمنية فاجتمع الأمويون والقرشيون لشأنهم ووثبوا بصاحب الشرطة فقتلوه سنة تسع وتسعين وخلعوا هشاماً المؤيد {cite:nafh-tib-maqqari p. 425-426}؛ وفي جمادى الآخرة سنة تسع وتسعين وثلاثمائة ظهر بقرطبة محمد بن هشام بن عبد الجبار بن عبد الرحمن الناصر في اثني عشر رجلاً فبايعه الناس وتلقّب بالمهدي بالله وملك قرطبة، وأخذ الخليفة المؤيد هشاماً فحبسه في القصر ثم أخرج جثة نصراني يشبهه وذكر أنه المؤيد فصلّى الناس عليه ودفنوه في مقابر المسلمين؛ ونقم الناس على ابن عبد الجبار أشياء منها أنه كان يعمل النبيذ في قصره فيسميه نبّاذاً، فخرج عليه عمه هشام بن سليمان فتلقّب بالرشيد فهزمه وقتله أسيراً، ثم خرج سليمان بن الحكم المستعين يستنجد بالنصارى فالتقوا بالوقعة المشهورة قُتل فيها خمسة وثلاثون ألفاً فانهزم ابن عبد الجبار وتحصّن بقصر قرطبة، ودخل سليمان البلد وقصره فاحتال ابن عبد الجبار في الهرب واختفى، وبويع سليمان بالخلافة في شوال سنة أربعمائة وأغار البربر والروم على قرطبة فنهبوها وسبوا وأسروا عدداً عظيماً، ثم عاد ابن عبد الجبار من طليطلة بعسكر من النصارى فهزم سليمان ودخل قرطبة وجدد البيعة لنفسه {cite:kamil-ibn-al-athir p. 499-502}."
+  en: "The Cordoba fitna of 399–400: the Umayyad Muhammad ibn Hisham rose as 'al-Mahdi', hid the caliph Hisham al-Mu'ayyad and buried a Christian lookalike in his name; his uncle Hisham's counter-revolt failed, then Sulayman al-Musta'in marched in with Christian allies, won the great battle (35,000 dead), and took the bay'a while Berbers and Christians sacked the city {cite:kamil-ibn-al-athir p. 499-502}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1009", hijri: "0399", calendar: julian, precision: year, status: tradition, derived: true, note: "399–400؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 499}." }
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-hisham-al-mahdi-cordoba, role: "المتغلب المتخلق بالمهدي", sources: [source/kamil-ibn-al-athir, source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/hisham-ii-al-muayyad, role: "الخليفة المحبوس المخفى", sources: [source/kamil-ibn-al-athir, source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/sulayman-al-mustain-cordoba, role: "الخصم المستنجد بالنصارى", sources: [source/kamil-ibn-al-athir, source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/abd-al-rahman-sanjul, role: "الحاجب المفوّض إليه الخلافة المقتول", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/cordoba, sources: [source/kamil-ibn-al-athir, source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط دار الكتاب العربي، بيروت) ج 6 ص 499–502"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-296-batch-1
+sources: [source/kamil-ibn-al-athir, source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

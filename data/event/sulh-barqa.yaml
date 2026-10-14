@@ -1,0 +1,23 @@
+id: event/sulh-barqa
+class: event
+kind: treaty
+label: { ar: "صلح برقة وأنطابلس", en: "The Treaty of Barqa (Antabulus)" }
+summary:
+  ar: "عند البلاذري: لما فتح عمرو بن العاص الإسكندرية سار في جنده يريد المغرب حتى قدم برقة وهي مدينة أنطابلس فصالح أهلها على الجزية وهي ثلاثة عشر ألف دينار يبيعون فيها من أبنائهم من أحبّوا بيعه — وفي رواية عبد الله بن هبيرة: بعد أن حاصرهم وقاتلهم على الجزية على أن يبيعوا من أبنائهم من أرادوا في جزيتهم وكتب لهم بذلك كتاباً؛ وكان أهل برقة يبعثون بخراجهم إلى والي مصر من غير أن يأتيهم حاثّ ولا مستحثّ فكانوا أخصب قوم بالمغرب ولم تدخلها فتنة، وكان عبد الله بن عمرو بن العاص يقول لولا مالي بالحجاز لنزلت برقة فما أعلم منزلاً أسلم ولا أعزل منها."
+  en: "In al-Baladhuri: when Amr ibn al-As had taken Alexandria he marched with his army seeking the Maghreb until he came to Barqa — that is, the city of Antabulus — whose people compounded for a jizya of thirteen thousand dinars, in which they might sell whom of their children they wished; in Abdallah ibn Hubayra's account, after he had besieged and fought them, on the jizya and that they might sell whom they wished of their children toward their jizya — and he wrote them a book of it. Barqa's people would send their kharaj to Egypt's governor with none to press or hasten them — the most prosperous folk of the Maghreb, no fitna entering it — and Abdallah ibn Amr ibn al-As used to say 'but for my property in the Hijaz I would have settled in Barqa; I know no abode safer nor more wholesome'."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [maghreb]
+date:
+  start: { hijri: "0021~", precision: year, status: tradition, derived: true, note: "بعد فتح الإسكندرية (البلاذري ص 314). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/barqa }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "المصالِح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-amr-ibn-al-as, role: "قائل المدح لبرقة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 314–315"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

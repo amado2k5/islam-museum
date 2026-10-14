@@ -1,0 +1,18 @@
+id: event/ashras-jizya-episode
+class: event
+kind: other
+label: { ar: "أشرس والجزية عن أهل ما وراء النهر", en: "al-Ashras and the Converts' Jizya" }
+summary:
+  ar: "استعمل هشام أشرس بن عبد الله السلمي على خراسان وكان معه كاتب نبطي يسمى عميرة يكنى أبا أمية فزين له الشر فزاد أشرس في وظائف خراسان واستخف بالدهاقين ودعا أهل ما وراء النهر إلى الإسلام وأمر بطرح الجزية عمن أسلم فسارعوا إلى الإسلام وانكسر الخراج فلما رأى أشرس ذلك أخذ المسالمة فأنكروا ذلك وألحوا منه وغضب لهم ثابت قطنة الأزدي وإنما قيل له قطنة لأن عينه فقئت فكان يضع عليها قطنة فبعث إليهم أشرس من فرق جمعهم وأخذ ثابتاً فحبسه ثم خلاه بكفالة ووجهه في وجه فخرجت عليه الترك فقتلته."
+  en: "Al-Ashras ibn Abdallah al-Sulami, swayed by his Nabati katib Umayra, raised Khurasan's levies, scorned the dahqans, summoned Transoxanians to Islam and dropped jizya from converts — they rushed to Islam and the kharaj collapsed — so he took musalama anyway, to their protest. Thabit 'Qutna' al-Azdi — cotton-plugged for his gouged eye — raged for them; al-Ashras scattered the gathering, jailed and bailed him, then sent him on a posting where the Turks killed him."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-ashras-ibn-abdallah, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/thabit-qutna, role: "الغاضب المقتول", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

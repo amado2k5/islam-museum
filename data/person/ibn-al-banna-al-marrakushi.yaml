@@ -1,0 +1,22 @@
+id: person/ibn-al-banna-al-marrakushi
+class: person
+label: { ar: "ابن البناء المراكشي أحمد بن محمد", en: "Ibn al-Banna al-Marrakushi, Ahmad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو العباس أحمد بن محمد بن عثمان الأزدي المعروف بابن البنّاء المراكشي" }
+gender: male
+roles: [scholar, mathematician]
+traditions: [sunni]
+born: { edtf: "1256", hijri: "0654", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1321", hijri: "0721", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم مراكشي في الرياضيات والحساب والفلك، صنّف في علوم الحساب."
+  en: "A scholar of Marrakesh in mathematics, arithmetic and astronomy, who wrote on the arithmetical sciences."
+wings: [people, words]
+themes: [mathematics, astronomy-and-timekeeping]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 115, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص115", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

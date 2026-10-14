@@ -1,0 +1,22 @@
+id: event/defeat-of-yusuf-ibn-abi-l-saj-315
+class: event
+kind: battle
+label: { ar: "هزيمة يوسف بن أبي الساج وأخذ الأنبار" }
+summary:
+  ar: "في سنة 315هـ سار يوسف بن أبي الساج من واسط إلى الكوفة فوصلها يوم الجمعة ثامن شوال بعد وصول أبي طاهر القرمطي بيوم، فاحتقر قلتهم وتقدم بكتابة كتاب الفتح والبشارة بالظهر قبل اللقاء، فاقتتلوا يوم السبت من محو النهار إلى الغروب ثم باشر أبو طاهر الحرب بنفسه فهزمهم وأسر يوسف وقت المغرب، فخاف أهل بغداد وهموا بالهرب إلى حلوان وهمدان، وأنفذ المقتدر خمسمائة سامرية فيها المقاتلة لتمنعهم من عبور الفرات، فقصدوا الأنبار فقطع أهلها الجسر فنقل أبو طاهر أصحابه إلى الحديثة وأتوه بسفن وعبروا فيها ثلاثمائة رجل فهزموا عسكر الخليفة واستولوا على الأنبار وعقدوا جسرها {cite:kamil-ibn-al-athir p. 125-126}."
+  en: "In Shawwal 315 Yusuf ibn Abi'l-Saj reached Kufa a day behind Abu Tahir, despised their fewness, drafted the victory despatch beforehand, and was defeated and taken at sunset; Baghdad panicked toward flight while the Qarmatians crossed from al-Haditha and took al-Anbar, rebuilding its bridge {cite:kamil-ibn-al-athir p. 125-126}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0927~", hijri: "0315", calendar: julian, precision: year, status: tradition, derived: true, note: "0315هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 125}." }
+relations:
+  - { type: had_participant, target: person/yusuf-ibn-abi-al-saj, role: "قائد جيش الخليفة الأسير", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abu-tahir-al-qarmati, role: "الغازي الظافر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-4
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

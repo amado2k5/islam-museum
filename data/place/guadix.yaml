@@ -1,0 +1,19 @@
+id: place/guadix
+class: place
+kind: city
+label: { ar: "وادي آش" }
+summary:
+  ar: "مدينة جليلة من أعمال غرناطة يقال لها وادي الأشات، قد أحدقت بها البساتين والأنهار وقد خص الله أهلها بالأدب وحب الشعر، ومن أعمالها حصن جليانة وهو كبير يضاهي المدن وبه التفاح الجلياني الذي خص الله به ذلك الموضع يجمع عظم الحجم وكرم الجوهر وحلاوة الطعم وذكاء الرائحة والنقاء، وبين الحصن ووادي آش اثنا عشر ميلاً {cite:nafh-tib-maqqari p. 185}. واستقرت بها دعوة ابني أبي عبد الله محمد وأبي الحجاج يوسف ابني السلطان أبي الحسن حين هربا من أبيهما وبايعتهما المرية وبسطة وغرناطة {cite:nafh-tib-maqqari p. 518}."
+  en: "Guadix (Wadi Ash) — a fine city of Granada's district ringed by gardens and rivers, its people specially gifted with letters and love of verse; its fortress Juliana grew the apple proverbial in all al-Andalus. In the last civil war Boabdil and his brother fled there and it rose for their cause {cite:nafh-tib-maqqari p. 185,518}."
+wings: [place]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 185"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

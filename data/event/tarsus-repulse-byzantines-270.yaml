@@ -1,0 +1,22 @@
+id: event/tarsus-repulse-byzantines-270
+class: event
+kind: battle
+label: { ar: "هزيمة الروم عند طرسوس" }
+summary:
+  ar: "في ربيع الأول سنة سبعين ومائتين ورد الخبر إلى بغداد أن الروم نزلوا ناحية باب التمّة على ستة أميال من طرسوس في زهاء مائة ألف يقودهم بطريق البطارقة أندرياس، فخرج إليهم زمّان الخادم ليلاً فبيتهم وقتل رئيسهم وخلقاً كثيراً من أصحابه يقال بلغوا سبعين ألفاً، وأخذ لهم سبعة صلبان من ذهب وفضة فيها صليبهم الأعظم من ذهب مكلل بالجوهر، وخمسة عشر ألف دابة وبغل ومثل ذلك من السروج وسيوفاً محلاة بالذهب والفضة ومناطق وأربعة كراسي من ذهب ومائتي طوق من ذهب وآنية كثيرة نحو عشرة آلاف علم، وكان النفير إلى أندرياس يوم الثلاثاء لسبع خلون من ربيع الأول {cite:muntazam-ibn-al-jawzi j.5 p. 74-75}."
+  en: "In Rabi I 270 some hundred thousand Byzantines under the patrician Andrias camped near Tarsus; Zamman al-Khadim struck by night, killed their chief and — it was said — seventy thousand men, and took seven crosses of gold and silver, the great jewelled cross, fifteen thousand mounts, gold-hilted swords, four gold chairs and two hundred gold collars {cite:muntazam-ibn-al-jawzi j.5 p. 74-75}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0883", hijri: "0270", calendar: julian, precision: year, status: tradition, derived: true, note: "270؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.5 p. 75}." }
+relations:
+  - { type: occurred_at, target: place/tarsus, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دار الكتب العلمية) ج 5 ص 74–75"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-258-batch-1
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

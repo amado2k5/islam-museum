@@ -1,35 +1,69 @@
 id: person/safwan-ibn-umayya
 class: person
-label: { en: "Safwan ibn Umayya", ar: "صفوان بن أمية" }
+label:
+  ar: صفوان بن أمية
+  en: Safwan ibn Umayya
 names:
-  - { kind: full, lang: ar, value: "صفوان بن أمية بن خلف الجمحي" }
+- kind: full
+  lang: ar
+  value: صفوان بن أمية بن خلف بن وهب بن حذافة بن جمح
+- kind: kunya
+  lang: ar
+  value: أبو وهب
 gender: male
-born: { edtf: "0590~", calendar: julian, precision: decade, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "0661~", calendar: julian, precision: year, status: tradition, note: "Reported at Mecca, ~41-42 AH.", sources: [source/ibn-sad-tabaqat-bewley] }
-roles: [politician]
-traditions: []
+roles:
+- companion
+traditions:
+- sunni
 summary:
-  en: "Son of Umayya ibn Khalaf and a chief of Banu Jumah: among the last of the Meccan leadership to submit — pardoned at the Prophet's order on the road to Jeddah — who then fought for Islam at Hunayn and died an elder of Quraysh."
-  ar: "ابن أمية بن خلف وسيد من بني جُمح: من آخر قادة مكة إسلامًا — أُمن بأمر النبي على طريق جدة — ثم قاتل مع المسلمين بحُنين ومات شيخًا في قريش."
-wings: [people]
-themes: [converts-and-leavers, battles]
-periods: [period/prophetic-era, period/rashidun]
-regions: [arabia]
+  ar: من سادات قريش من بني جمح؛ قُتل أبوه يوم بدر كافراً، وهرب يوم فتح مكة ثم جاءه ابن عمه عمير بن وهب بأمان من النبي، وحضر حنيناً قبل أن يسلم وأعاره النبي سلاحه، وأعطاه من الغنائم حتى أسلم.
+  en: A leader of Quraysh from Banu Jumah; his father was killed at Badr as a disbeliever; he fled on the day Mecca was taken until his cousin Umayr ibn Wahb brought him a promise of safety from the Prophet; he was at Hunayn before he embraced
+    Islam, lent the Prophet his weapons, and was given so much of the spoils that he embraced Islam.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
 story_roles:
-  - { role: opponent, toward: group/early-muslims, start: { edtf: "0624" }, end: { edtf: "0630" }, status: historical, note: "Continued his father's line of opposition; the sources record him financing the confederates and sending an agent to assassinate the Prophet.", sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina] }
-  - { role: convert, start: { edtf: "0630" }, status: tradition, note: "Fled toward Jeddah at the conquest; the Prophet granted him safety and two months' grace, after which he returned and converted.", sources: [source/ibn-sad-tabaqat-bewley] }
-  - { role: companion, start: { edtf: "0630" }, status: tradition, note: "Fought at Hunayn on the Muslim side within weeks of his pardon — the famous case of a man the Prophet 'made Islam dear to' with a gift of livestock.", sources: [source/ibn-sad-tabaqat-bewley] }
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 4129 (ص 695).
+  sources:
+  - source/ibn-hajar-isaba
 faith:
-  - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, sources: [source/watt-1956-medina] }
-  - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
-  - { type: born_in, target: place/mecca }
-  - { type: died_in, target: place/mecca }
-  - { type: child_of, target: person/umayya-ibn-khalaf }
-  - { type: member_of, target: group/banu-jumah }
-  - { type: member_of, target: group/quraysh }
-  - { type: participated_in, target: event/conquest-of-mecca, role: fled-then-pardoned, sources: [source/ibn-sad-tabaqat-bewley] }
-  - { type: participated_in, target: event/battle-of-hunayn, role: muslim-side, sources: [source/ibn-sad-tabaqat-bewley] }
-  - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+- type: member_of
+  target: group/quraysh
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-jumah
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-hunayn
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/distribution-of-hunayn-spoils
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 4129، ص 695 (تراجم الرجال)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-men-1
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 695, entry 4129)

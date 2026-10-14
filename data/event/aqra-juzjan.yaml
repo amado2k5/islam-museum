@@ -1,0 +1,19 @@
+id: event/aqra-juzjan
+class: event
+kind: conquest
+label: { ar: "فتح الجوزجان على يدي الأقرع بن حابس", en: "al-Aqra' ibn Habis Takes Juzjan" }
+summary:
+  ar: "لحق بعض العدو بالجوزجان فوجه إليهم الأحنف الأقرع بن حابس التميمي في خيل وقال يا بني تميم تحابوا وتباذلوا تعتدل أموركم وابدوا بجهاد بطونكم وفروجكم يصلح لكم دينكم ولا تغلوا يسلم لكم جهادكم فسار الأقرع فلقي العدو بالجوزجان فكانت في المسلمين جولة ثم كروا فهزموا الكفرة وفتحوا الجوزجان عنوة وقال ابن الغريزة النهشلي سقى صوب السحاب إذا استهلت مصارع فتية بالجوزجان إلى القصرين من رستاق حوف أفادهم مناك الأقرعان."
+  en: "Fugitives reached Juzjan; al-Ahnaf sent al-Aqra' ibn Habis al-Tamimi with horse and the charge: 'sons of Tamim — love one another, give freely, set your affairs right, and open with the jihad of your bellies and loins; let your faith be sound and do not defraud, that your jihad prosper'. A first turn went against the Muslims; they wheeled back, routed the foe and stormed Juzjan — Ibn al-Ghariza's verses mourning the youths fallen between its two castles."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-aqra-ibn-habis, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "الموجه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/juzjan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

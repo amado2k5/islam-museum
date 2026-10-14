@@ -7,7 +7,7 @@ gender: male
 born: { edtf: "0603~", calendar: julian, precision: decade, status: tradition, note: "Born among the tribe of Daws in the Yemeni highlands; date approximate.", sources: [source/ibn-sad-tabaqat-bewley] }
 died: { edtf: "0681~", calendar: julian, precision: year, status: debated, note: "Reports give 57–59 AH (about 678–681 CE).", sources: [source/ibn-sad-tabaqat-bewley] }
 roles: [companion, scholar]
-traditions: [sunni, shia-twelver]
+traditions: [sunni]
 summary:
   en: "A convert of the Khaybar years who became, by far, the most prolific narrator of hadith in the Sunni collections — a fact celebrated by the tradition and debated by scholars."
   ar: "ممن أسلم زمن خيبر وصار، بفارق كبير، أكثر رواة الحديث في دواوين السنة — وهي حقيقة يحتفي بها التراث ويناقشها الباحثون."
@@ -27,15 +27,19 @@ relations:
   - { type: member_of, target: group/early-muslims }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0629~" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-khaybar, sources: [source/ibn-sad-tabaqat-bewley] }
+issue: { ar: "كيف يُقدَّر أبو هريرة ورواياته للحديث؟", en: "How is Abu Hurayra and his transmission of hadith assessed?" }
 perspectives:
   - tradition: sunni
-    summary: { en: "Sunni tradition venerates Abu Hurayra as the foremost narrator of hadith: a man who devoted himself to memorizing the Prophet's words, with thousands of reports transmitted through him." }
+    id: sunni
+    summary: { en: "Sunni tradition venerates Abu Hurayra as the foremost narrator of hadith: a man who devoted himself to memorizing the Prophet's words, with thousands of reports transmitted through him.", ar: "تُجِلّه السنة أعلى الرواة — رجلًا وهب نفسه لحفظ كلام النبي." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
-    summary: { en: "Historians and hadith critics note that many reports in his name are later attributions; the sheer volume, produced in about three years of companionship, is treated as a phenomenon of the tradition's growth." }
+    id: academic
+    summary: { en: "Historians and hadith critics note that many reports in his name are later attributions; the sheer volume, produced in about three years of companionship, is treated as a phenomenon of the tradition's growth.", ar: "يشير المؤرخون ونقاد الحديث إلى أن كثيرًا من رواياته إسناد متأخر؛ وحجمه الهائل في ثلاث سنين ظاهرة من نمو التراث." }
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
-    summary: { en: "Twelver Shia tradition is cautious about Abu Hurayra, accepting his narrations selectively and regarding some as serving later Umayyad interests." }
+    id: shia-twelver
+    summary: { en: "Twelver Shia tradition is cautious about Abu Hurayra, accepting his narrations selectively and regarding some as serving later Umayyad interests.", ar: "يتحفظ التراث الإمامي عن أبي هريرة، فيقبل رواياته انتقاءً ويرى بعضها في خدمة مصالح أموية لاحقة." }
     sources: [source/momen-1985]
 sensitivity: contested
 sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina]

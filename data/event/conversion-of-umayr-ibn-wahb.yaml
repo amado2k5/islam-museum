@@ -1,0 +1,23 @@
+id: event/conversion-of-umayr-ibn-wahb
+class: event
+kind: other
+label: { en: "Conversion of Umayr ibn Wahb", ar: "إسلام عمير بن وهب" }
+summary:
+  en: "Umayr ibn Wahb and Safwan ibn Umayya plotted at the Kaaba to assassinate the Prophet in Medina; when Umayr arrived, the Prophet disclosed their secret pact, leading Umayr to embrace Islam."
+  ar: "تآمر عمير بن وهب وصفوان بن أمية في الحجر على اغتيال النبي بالمدينة بعد بدر؛ فلما قدم على النبي أخبره بسرهما الذي لم يعلمه أحد، فأسلم عمير ورجع إلى مكة داعياً إلى الإسلام."
+wings: [time, people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-04~", hijri: "0002-10", calendar: julian, precision: month, status: tradition, note: "في شوال سنة 2هـ إثر هزيمة قريش ببدر (الرحيق ص233–234)" }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/umayr-ibn-wahb, role: "الوافد لاغتيال النبي والمعلن إسلامه", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/safwan-ibn-umayya, role: "المتآمر والمتحمل لدين عمير وعياله بمكة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/muhammad, role: "المكاشف بالسر والمتقبل لإسلامه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الممسك بعمير عند دخوله المسجد", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/battle-of-badr }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 233–234 citing Ibn Hisham 1/661–663 and Zad al-Maad 2/90" }

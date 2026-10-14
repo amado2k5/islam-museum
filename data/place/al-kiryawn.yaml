@@ -1,0 +1,19 @@
+id: place/al-kiryawn
+class: place
+kind: site
+label: { ar: "الكريون", en: "Al-Kiryawn" }
+summary:
+  ar: "الكريون موضع دون الإسكندرية لقيه عنده عمرو بن العاص جموع الروم والقبط الذين تجمّعوا ليغزوه بالفسطاط فهزمهم وقتل منهم مقتلة عظيمة؛ وعنده قال للمسلمين سيروا على بركة الله فمن ركز منكم رمحاً في دار فهي له ولبني أبيه فكانت الدار بين النفسين والثلاثة سكنى أيام رباطهم لا تباع ولا تورث."
+  en: "Al-Kiryawn, a place below Alexandria where Amr ibn al-As met the Roman and Copt hosts mustered to strike him at al-Fustat — routing them in a great slaughter; and there he told the Muslims 'go forth with God's blessing — whoever plants his spear in a house, it is his and his sons'', so a house stood shared between two and three souls as ribat-day lodgings, neither sold nor inherited."
+wings: [place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: site_of, target: event/conquest-of-alexandria, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 309، 312"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

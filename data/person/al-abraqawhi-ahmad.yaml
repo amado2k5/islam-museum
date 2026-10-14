@@ -1,0 +1,22 @@
+id: person/al-abraqawhi-ahmad
+class: person
+label: { ar: "الأبرقوهي أحمد بن إسحاق", en: "Al-Abraqawhi, Ahmad ibn Ishaq" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن إسحاق بن محمد المؤيد الأبرقوهي" }
+gender: male
+roles: [judge, muhaddith, mystic]
+traditions: [sunni]
+born: { edtf: "1218", hijri: "0615", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1301", hijri: "0701", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "قاضي أبرقوه الشافعي، محدث وصوفي، ولد في أبرقوه بفارس وتوفي في مصر."
+  en: "Judge of Abarquh and a Shafi'i scholar, hadith transmitter and Sufi; born in Abarquh in Fars and died in Egypt."
+wings: [people, words]
+themes: [scripture-and-its-sciences, spirituality-and-sufism]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 175-178, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص175-178", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

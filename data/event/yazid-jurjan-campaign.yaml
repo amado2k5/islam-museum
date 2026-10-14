@@ -1,0 +1,20 @@
+id: event/yazid-jurjan-campaign
+class: event
+kind: campaign
+label: { ar: "غزو يزيد بن المهلب جرجان", en: "Yazid ibn al-Muhallab's Jurjan Campaign" }
+summary:
+  ar: "ولّى سليمان بن عبد الملك يزيد بن المهلب العراق فخرج إلى خراسان فعرض له صول التركي في طريقه فاستأذن سليمان في غزوه فأذن له فغزا جيلان وسارية ثم أتى دهستان وبها صول فحصرها وألح وقطع المواد عنهم فسأله صول الصلح على أن يؤمنه على نفسه وماله وأهل بيته ويدفع المدينة فقبل ووفى له وقتل يزيد أربعة عشر ألفاً من الترك وقال أبو عبيدة إن صولاً قتل ثم أتى جرجان فتلقاه أهلها بأتاوة سعيد فنقضوا فوجه جهم بن زحر الجعفي ففتحها وروي أنه غزاها في مائة وعشرين ألفاً وكان عليها حائط من آجر تحصنوا به من الترك طرفه في البحر غلبت عليه الترك وسموا ملكهم صولاً فوجده نازلاً في البحيرة فحصره ستة أشهر فصالحه على ثلاثمائة من أهل بيته ودفع البحيرة ثم نقض أهل جرجان ثانية فتحصن مرزبانهم بوجاه في غياض وأشب فنزل عليها سبعة أشهر ونصب المنجنيق حتى دلهم رجل على طريق بسلالم جلود فعقد لجهم وقال إن غلبت على الحياة فلا تغلبن على الموت فانتهى إلى القلعة ولم يشعر العدو بعيد العصر إلا بالتكبير من ورائهم ففتحت وقادهم إلى وادي جرجان يقتلهم حتى سالت الدماء وهو بنى مدينة جرجان."
+  en: "Sulayman gave Yazid ibn al-Muhallab Iraq; bound for Khurasan he met Sul al-Turki on the road, took the caliph's leave to raid him — Jilan and Sariya — then besieged him in Dihistan, cut his supplies, and accepted his treaty: safe self, property and household for the city — and kept faith, while killing fourteen thousand Turks, though Abu Ubayda reports Sul slain. Jurjan paid him Sa'id's tribute, breached, and Jahm ibn Zahr retook it — one account has a hundred and twenty thousand in his host against the fired-brick wall the Turks had seized, one end in the sea; he found Sul at al-Buhayra, besieged him six months and treated him out with three hundred of his household. When Jurjan breached again its marzban fortified at Wajah among thickets — seven months, mangonels, then an informer's path and hide-ladders; Jahm swore 'if I am spared life, let me not be spared death', the gate-keepers fell, and the enemy knew only the takbir behind them — the captives driven to Wadi Jurjan were slaughtered till the blood ran, and Yazid built Madinat Jurjan."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/yazid-ibn-al-muhallab, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sul-al-turki, role: "ملك الترك", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jahm-ibn-zahr, role: "فاتح وجاه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/jurjan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,21 @@
+id: event/kairouan-shii-massacre-407
+class: event
+kind: massacre
+label: { ar: "واقعة القيروان ضد الرافضة أيام المعز بن باديس" }
+summary:
+  ar: "كان المعز بن باديس منحرفاً عن مذاهب الرافضة منتحلاً للسنة فأعلن بمذهبه لأول ولايته ولعن الرافضة ثم صار إلى قتل من وجد منهم، وكبا به فرسه ذات يوم فنادى مستغيثاً باسم أبي بكر وعمر فسمعته العامة فثاروا لحينهم بالشيعة وقتلوهم أبرح قتل وقتل دعاة الرافضة يومئذ وامتعض لذلك خلفاء الشيعة بالقاهرة حتى انقطع الدعاء لهم سنة 440هـ على عهد المستنصر {cite:tarikh-ibn-khaldun-ibar p. 1634}."
+  en: "Al-Mu'izz b. Badis broke with the Rafida and proclaimed Sunnism; when his horse stumbled and he called on Abu Bakr and Umar, the commons rose against the Shia and slew them wholesale — the rift deepened until the khutba for the Cairo caliphs was cut in 440 {cite:tarikh-ibn-khaldun-ibar p. 1634}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [maghreb]
+date:
+  start: { edtf: "1016~", hijri: "0407~", calendar: julian, precision: year, status: tradition, derived: true, note: "أول ولاية المعز ٤٠٦؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1634}." }
+relations:
+  - { type: had_participant, target: person/al-muizz-ibn-badis, role: "السلطان", sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ibar-batch-7
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

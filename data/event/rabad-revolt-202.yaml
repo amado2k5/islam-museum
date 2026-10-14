@@ -1,0 +1,22 @@
+id: event/rabad-revolt-202
+class: event
+kind: revolt
+label: { ar: "وقعة الربض" }
+summary:
+  ar: "في صدر ولاية الحكم بن هشام كان قد أنهمك في لذاته فاجتمع أهل العلم والورع بقرطبة مثل يحيى بن يحيى الليثي صاحب مالك وطالوت الفقيه فثاروا به وخلعوه وبايعوا بعض قرابته وكانوا بالربض الغربي من قرطبة محلة متصلة بقصره، فقاتلهم الحكم فغلبهم وافترقوا وهدم دورهم ومساجدهم ولحقوا بفاس من أرض العدوة وبالإسكندرية من أرض المشرق، ثم ثاروا بها فزحف إليهم عبد الله بن طاهر صاحب مصر للمأمون فغلبهم وأجازهم إلى جزيرة أقريطيش فلم يزالوا بها إلى أن ملكها الإفرنج من أيديهم {cite:nafh-tib-maqqari p. 375-376}."
+  en: "The Rabad revolt: Cordoba's learned and pious rose against al-Hakam I in his dissolute early years; he crushed the western suburb, razed its houses and mosques and scattered its people to Fez and Alexandria — whence Abdallah b. Tahir expelled them to Crete, where they held the island until the Franks took it {cite:nafh-tib-maqqari p. 375-376}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0818~", hijri: "0202~", calendar: julian, precision: year, status: tradition, derived: true, note: "وقعة الربض الثانية ٢٠٢هـ عند ابن عذاري كما نقل المقري؛ مشتق {cite:nafh-tib-maqqari p. 375}." }
+relations:
+  - { type: had_participant, target: person/yahya-ibn-yahya-al-laythi, role: "من أهل العلم الثائرين", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-10
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

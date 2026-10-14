@@ -1,0 +1,61 @@
+id: person/awf-ibn-al-harith
+class: person
+label:
+  ar: عوف بن الحارث (ابن عفراء)
+  en: Awf ibn al-Harith (Ibn Afra')
+names:
+- kind: full
+  lang: ar
+  value: عوف بن الحارث بن رفاعة بن الحارث بن سواد النجاري الأنصاري
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'هو عوف بن عفراء، أخو معاذ ومعوذ، من بني النجار؛ شهد بدراً وسأل النبي يومها: ما يضحك الرب من عبده؟ فقال: «أن يراه قد غمس يده في القتال حاسراً»، فنزع درعه وتقدم فقاتل حتى قُتل شهيداً.'
+  en: He is Awf ibn Afra', brother of Mu'adh and Mu'awwidh, of Banu al-Najjar; he was at Badr and asked the Prophet that day what makes the Lord laugh at His servant, and he answered that it is to see him plunge his hand into the fight without
+    armour, so he took off his armour, went forward and fought until he was killed as a martyr.
+wings:
+- people
+themes:
+- battles
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 6861 (ص 1156).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: sibling_of
+  target: person/muawwidh-ibn-afra
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 6861، ص 1156
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-8
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1156, entry 6861)

@@ -1,0 +1,20 @@
+id: event/hakim-sind-report
+class: event
+kind: other
+label: { ar: "تقرير حكيم بن جبلة عن ثغر الهند", en: "Hakim ibn Jabala's Report on the Indian Frontier" }
+summary:
+  ar: "لما ولي عثمان بن عفان وولى عبد الله بن عامر بن كريز العراق كتب إليه يأمره أن يوجه إلى ثغر الهند من يعلم علمه وينصرف إليه بخبره فوجه حكيم بن جبلة العبدي فلما رجع أوعده إلى عثمان فسأله عن حال البلاد فقال يا أمير المؤمنين قد عرفتها وتنحرتها قال فصفها لي قال ماؤها وشل وثمرها دقل ولصها بطل إن قل الجيش فيها ضاعوا وإن كثروا جاعوا فقال له عثمان أخائر أم ساجع فلم يغزها أحداً."
+  en: "Uthman had Abdallah ibn Amir send Hakim ibn Jabala al-Abdi to scout the Indian frontier; his report — 'its water is scant, its fruit worthless, its thief a nobody; few troops would perish, many would starve' — drew the caliph's 'are you a poet or a rhymester?', and no campaign followed."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/hakim-ibn-jabala, role: "المستكشف", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "الخليفة السائل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "الوالي الموجه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sind }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

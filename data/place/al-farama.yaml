@@ -1,0 +1,19 @@
+id: place/al-farama
+class: place
+kind: town
+label: { ar: "الفرما", en: "Al-Farama (Pelusium)" }
+summary:
+  ar: "الفرما ثغر مصر الشرقي؛ أتاها عمرو بن العاص بعد العريش وبها قوم مستمدّون للقتال فحاربهم فهزمهم وحوى عسكرهم ومضى قدماً إلى الفسطاط."
+  en: "Al-Farama (Pelusium), Egypt's eastern gateway; Amr ibn al-As reached it after al-Arish, found a body of men emboldened for battle, fought and routed them, seized their camp, and pushed on to al-Fustat."
+wings: [place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: site_of, target: event/conquest-of-egypt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 298"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

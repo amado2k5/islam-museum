@@ -1,0 +1,19 @@
+id: place/zibatra
+class: place
+kind: site
+label: { ar: "زبطرة", en: "Zibatra" }
+summary:
+  ar: "زبطرة حصن رومي قديم من الثغور؛ فتحه حبيب بن مسلمة مع حصن الحدث القديم أيام عمر، وأخربته الروم أيام الوليد بن يزيد ثم في فتنة مروان بن محمد، فبناه المنصور فشعّثته الروم فأعاده الرشيد على يدي محمد بن إبراهيم وشحنه، ورمّمه المأمون وتحصّن بعد غارة على سرح أهله؛ وفي خلافة المعتصم خرجت الروم إليه فقتلوا الرجال وسبوا النساء وأخربوه فكان ذلك سبب غزوة المعتصم إلى عمورية، ثم أُعيد بناؤه وتحصينه وشحنه فرامه الروم فلم يقدروا عليه."
+  en: "Zibatra, an old Roman fortress of the frontier; Habib ibn Maslama took it with the old fortress of al-Hadath in Umar's days; the Romans wrecked it in al-Walid ibn Yazid's days and again in Marwan ibn Muhammad's civil war — al-Mansur rebuilt it, the Romans damaged it, al-Rashid rebuilt and garrisoned it through Muhammad ibn Ibrahim, and al-Ma'mun repaired and fortified it after a raid on its people's herds; in al-Mu'tasim's caliphate the Romans came to it, killed the men, captured the women and wrecked it — the proximate cause of his expedition to Amorium — after which it was rebuilt, fortified and garrisoned, the Romans later attempting it in vain."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/sack-of-zibatra, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 270"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

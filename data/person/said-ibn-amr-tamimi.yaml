@@ -1,0 +1,28 @@
+id: person/said-ibn-amr-tamimi
+class: person
+label: { en: Sa'id ibn Amr al-Tamimi, ar: "سعيد بن عمرو التميمي" }
+names:
+  - { kind: full, lang: ar, value: "سعيد بن عمرو" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من بني تميم، أخو بشر بن الحارث السهمي لأمه، هاجر إلى الحبشة وقُتل بأجنادين في خلافة أبي بكر."
+  en: Of Banu Tamim, maternal half-brother of Bishr ibn al-Harith al-Sahmi; he emigrated to Abyssinia and was killed at Ajnadayn in Abu Bakr's caliphate.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+died: { edtf: "0632/0634", calendar: julian, precision: year, status: tradition, derived: true, note: "قال ابن إسحاق: قُتل بأجنادين في خلافة أبي بكر؛ التاريخ مشتق من مدة الخلافة", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: sibling_of, target: person/bishr-ibn-al-harith-sahmi, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/ajnadayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iv" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

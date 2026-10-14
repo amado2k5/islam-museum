@@ -1,0 +1,18 @@
+id: event/tabasayn-sulh
+class: event
+kind: treaty
+label: { ar: "صلح الطبسين وفتح باب خراسان", en: "The Tabasayn Treaty — Khurasan's Gate" }
+summary:
+  ar: "وجه أبو موسى الأشعري عبد الله بن بديل بن ورقاء الخزاعي غازياً فأتى كرمان ومضى حتى بلغ الطبسين وهما حصنان يقال لأحدهما طبس وللآخر قرين وهما جرم فيهما نخل وهما باب خراسان فأصاب مغنماً وأتى قوم من أهل الطبسين عمر بن الخطاب فصالحوه على ستين ألفاً ويقال خمسة وسبعين ألفاً وكتب لهم كتاباً ويقال بل توجه عبد الله بن بديل من أصبهان من تلقاء نفسه."
+  en: "Abu Musa al-Ash'ari sent Abdallah ibn Budayl ibn Warqa' al-Khuza'i raiding through Kirman to the Tabasayn — two fortresses, Tabas and Qurayn, a palm-bearing jurm that is the gate of Khurasan — where he took booty; men of the Tabasayn came to Umar ibn al-Khattab and truced for sixty thousand, some say seventy-five, and were given a writ. Another telling has Ibn Budayl going of his own accord from Isbahan."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-budayl, role: "الغازي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/al-tabasayn }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

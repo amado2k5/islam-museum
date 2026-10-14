@@ -1,0 +1,46 @@
+id: group/mothers-of-the-believers
+class: group
+kind: family
+label: { en: "Mothers of the Believers", ar: "أمهات المؤمنين" }
+summary:
+  ar: "لقب قرآني لأزواج النبي من قوله تعالى: وأزواجه أمهاتهم؛ عقد النبي على ثلاث عشرة امرأة، بنى بإحدى عشرة منهن وتوفي عن تسع، وكان لهن فضل كبير في نقل أحواله المنزلية وأحكام الشريعة إلى نساء الأمة."
+  en: "The Qur'anic title of the Prophet's wives ('his wives are their mothers', al-Ahzab 6): he contracted thirteen women, consummated marriage with eleven and died leaving nine; they played a great role in transmitting his domestic life and the rulings of the sharia to the women of the umma."
+wings: [people]
+themes: [women, family-marriage-kinship]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  sources: [source/mubarakpuri-raheeq, source/tanzil-quran]
+relations:
+- type: has_member
+  target: person/khadija
+- type: has_member
+  target: person/sawda-bint-zama
+- type: has_member
+  target: person/aisha
+- type: has_member
+  target: person/hafsa
+- type: has_member
+  target: person/zaynab-bint-khuzayma
+- type: has_member
+  target: person/umm-salama
+- type: has_member
+  target: person/zaynab-bint-jahsh
+- type: has_member
+  target: person/juwayriya-bint-al-harith
+- type: has_member
+  target: person/umm-habiba-bint-abi-sufyan
+- type: has_member
+  target: person/safiyya-bint-huyayy
+- type: has_member
+  target: person/maymuna-bint-al-harith
+provenance:
+  layer: own-research
+  source: الرحيق المختوم، البيت النبوي، ص 473-478
+  generated_by: Devin
+  model: SWE-2 High
+  run: raheeq-batch-24
+sources: [source/mubarakpuri-raheeq, source/tanzil-quran]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); mined from al-Raheeq al-Makhtum pp. 473-478" }

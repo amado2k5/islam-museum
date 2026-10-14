@@ -1,0 +1,19 @@
+id: place/lisbon
+class: place
+kind: city
+label: { ar: "أشبونة" }
+summary:
+  ar: "أشبونة من مدن غرب الأندلس على البحر، وهي التي تسمى اليوم لشبونة عاصمة البرتغال؛ وبكورتها المتصلة بشنترين معدن التبر {cite:nafh-tib-maqqari p. 186-187}."
+  en: "Lisbon (Ushbuna) — the Atlantic city of western al-Andalus, today's capital of Portugal; its district near Santarem held a gold mine {cite:nafh-tib-maqqari p. 186-187}."
+wings: [place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 186–187"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

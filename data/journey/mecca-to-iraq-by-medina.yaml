@@ -1,0 +1,23 @@
+id: journey/mecca-to-iraq-by-medina
+class: journey
+kind: pilgrimage_route
+label: { ar: "من مكة إلى العراق مروراً بالمدينة مع ركب العراق", en: "Mecca to Iraq by way of Medina with the Iraqi caravan" }
+summary:
+  ar: "طريق ابن بطوطة من مكة إلى العراق بعد الحج، مع ركب العراق: خرج من مكة بعد طواف الوداع إلى بطن مر، ثم عسفان وخليص وبدر والصفراء إلى المدينة، ومكث بها ستة أيام، ثم سار إلى وادي المروس ونجد، فحصن فيد وزرود والثعلبية، حتى القادسية ثم النجف. يذكر الكتاب المنازل ومواردها ومصانع زبيدة على الطريق."
+wings: [time, place, people]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [arabia, levant-iraq]
+travelers: [person/ibn-battuta-muhammad]
+legs:
+  - { from: place/mecca, to: place/badr, mode: "على ظهر الدواب مع ركب العراق", note: "خرج من مكة في العشرين من ذي الحجة بعد طواف الوداع إلى بطن مر، ثم عسفان وخليص ووادي السمك، فنزل بدر (ص106–107).", sources: [source/rihla-ibn-battuta-1958] }
+  - { from: place/badr, to: place/medina, mode: "على ظهر الدواب مع ركب العراق", note: "من بدر إلى الصفراء، ثم مسيرة ثلاثة أيام إلى المدينة، فأقام بها ستة أيام (ص107).", sources: [source/rihla-ibn-battuta-1958] }
+  - { from: place/medina, to: place/al-qadisiyya, mode: "على ظهر الدواب مع ركب العراق", note: "من المدينة إلى وادي المروس ثم أرض نجد: العسيلة والثقرة والقارورة والحاجر، ثم سميرة والجبل المخروق ووادي الكروش وحصن فيد، ثم الأجفر وزرود والثعلبية وبركة المرجوم، ثم المشقوق والتنانير وزمالة والهيشمين وعقبة الشيطان وواقصة ولورة والمساجد ومنارة القرون والعذيب، فالقادسية (ص107–109). بعد القادسية نزل مشهد علي بالنجف، وذكر أن الكوفة وبغداد أمامه في الطريق، ولم يذكر أنه دخلهما في هذا الموضع (ص109).", sources: [source/rihla-ibn-battuta-1958] }
+sources: [source/rihla-ibn-battuta-1958]
+provenance: { layer: own-research, source: "Rihla of Ibn Battuta, Arabic edition 1958, pp. 106–109 (printed numbering)", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-battuta" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Battuta pp. 106–109 (printed numbering)" }
+
+waypoints:
+  - {"place": "place/mecca", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "مكة المكرمة"}, "narrative": {"ar": "نقطة الانطلاق: مكة المكرمة. خرج من مكة في العشرين من ذي الحجة بعد طواف الوداع إلى بطن مر، ثم عسفان وخليص ووادي السمك، فنزل بدر (ص106–107)."}, "sources": ["source/rihla-ibn-battuta-1958"]}
+  - {"place": "place/badr", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "بدر"}, "narrative": {"ar": "خرج من مكة في العشرين من ذي الحجة بعد طواف الوداع إلى بطن مر، ثم عسفان وخليص ووادي السمك، فنزل بدر (ص106–107)."}, "sources": ["source/rihla-ibn-battuta-1958"]}
+  - {"place": "place/medina", "day": 3, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "المدينة المنورة"}, "narrative": {"ar": "من بدر إلى الصفراء، ثم مسيرة ثلاثة أيام إلى المدينة، فأقام بها ستة أيام (ص107)."}, "sources": ["source/rihla-ibn-battuta-1958"]}
+  - {"place": "place/al-qadisiyya", "day": 4, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "القادسية"}, "narrative": {"ar": "من المدينة إلى وادي المروس ثم أرض نجد: العسيلة والثقرة والقارورة والحاجر، ثم سميرة والجبل المخروق ووادي الكروش وحصن فيد، ثم الأجفر وزرود والثعلبية وبركة المرجوم، ثم المشقوق والتنانير وزمالة والهيشمين وعقبة الشيطان وواقصة ولورة والمساجد ومنارة القرون والعذيب، فالقادسية (ص107–109). بعد القادسية نزل مشهد علي بالنجف، وذكر أن الكوفة وبغداد أمامه في الطريق، ولم يذكر أنه دخلهما في هذا الموضع (ص109)."}, "sources": ["source/rihla-ibn-battuta-1958"]}

@@ -1,0 +1,23 @@
+id: event/mongol-sweep-jibal-617
+class: event
+kind: campaign
+label: { ar: "اجتياح التتر بلاد الجبل وأذربيجان والكرج" }
+summary:
+  ar: "في سنة سبع عشرة وستمائة وصل التتر إلى الري في طلب خوارزم شاه على حين غفلة من أهلها فملكوها ونهبوها وسبوا الحريم واسترقوا الأطفال ومضوا مسرعين، فنهبوا في طريقهم كل مدينة وقرية وفعلوا في الجميع أضعاف ما فعلوا في الري حتى تمَّوا على همذان، فخرج رئيسها بالحمل من الأموال والثياب والدواب يطلب الأمان فأمنوهم ثم فارقوها وساروا إلى زنجان ففعلوا أضعاف ذلك، ثم قزوين فاعتصم أهلها بالمدينة وقاتلوهم فدخلوها عنوة واقتتلوا في باطنها حتى صاروا يقتتلون بالسكاكين فعُدّ من أهل قزوين أكثر من أربعين ألف قتيل؛ فلما هجم عليهم الشتاء ساروا إلى أذربيجان فوصلوا تبريز وبها صاحبها أوزبك بن البهلوان فلم يحدث نفسه بقتالهم لاشتغاله بإدمان الشرب ليلاً ونهاراً وإنما صالحهم على مال وثياب ودواب، فساروا إلى ساحل البحر يشتون عليه وتطرفوا إلى بلاد الكرج فقاتلهم من الكرج نحو عشرة آلاف فانهزموا وقتل أكثرهم، وانضاف إلى التتر مملوك تركي من مماليك أوزبك يقال له أقوش جمع التركمان والأكراد وراسل التتر فمالوا إليه للجنسية فسار في مقدمتهم إلى الكرج، حتى اجتمعت الكرج قريب تفليس فلقيهم أقوش أولاً فاقتتلوا قتالاً شديداً وأدركهم التتر وقد تعبوا فانهزموا أقبح هزيمة في ذي القعدة؛ ويقول ابن الأثير تالله لا أشك أن من يجيء بعدنا إذا بَعُد العهد ورأى هذه الحادثة مسطورة ينكرها ويستبعدها والحق بيده {cite:kamil-ibn-al-athir p. 409-410}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1220~", hijri: "0617", calendar: julian, precision: year, status: tradition, derived: true, note: "617؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 409}." }
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/hamadan, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/tiflis, role: "موقعة الكرج قربها", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 617، ص 409–411"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-09
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

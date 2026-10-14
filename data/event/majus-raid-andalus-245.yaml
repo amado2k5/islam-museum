@@ -1,0 +1,22 @@
+id: event/majus-raid-andalus-245
+class: event
+kind: raid
+label: { ar: "ظهور مراكب المجوس في الأندلس" }
+summary:
+  ar: "في سنة خمس وأربعين ومائتين ظهرت مراكب المجوس وعاثوا في الأندلس فلقيهم مراكب الأمير محمد بن عبد الرحمن فقاتلوهم وغنموا منهم مركبين واستُشهد جماعة من المسلمين، وهو أول نزول معروف لسفن المجوس — وهم قوم من بحريي الشمال — بسواحل الأندلس في خلافة بني أمية {cite:nafh-tib-maqqari p. 350-351}."
+  en: "In 245 the Majus ships — the northern sea-raiders — appeared and ravaged in al-Andalus; the amir Muhammad's fleet met them, fought them, took two ships as prize, and a number of Muslims were martyred: the first recorded descent of the Vikings' ships on the Umayyad coast {cite:nafh-tib-maqqari p. 350-351}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0859~", hijri: "0245", calendar: julian, precision: year, status: tradition, derived: true, note: "245؛ التحويل مشتق {cite:nafh-tib-maqqari p. 350}." }
+relations:
+  - { type: occurred_at, target: place/seville, role: "سواحل الأندلس", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 350–351"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-54
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

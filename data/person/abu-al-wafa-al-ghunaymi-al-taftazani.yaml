@@ -1,0 +1,22 @@
+id: person/abu-al-wafa-al-ghunaymi-al-taftazani
+class: person
+label: { ar: "أبو الوفا الغنيمي التفتازاني", en: "Abu al-Wafa al-Ghunaymi al-Taftazani" }
+names:
+  - { kind: full, lang: ar, value: "محمد أبو الوفا الغنيمي التفتازاني" }
+gender: male
+roles: [philosopher, scholar]
+traditions: [sunni]
+born: { edtf: "1930", hijri: "1348", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1994", hijri: "1415", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "ولد بكفر الغنيمي بمحافظة الشرقية في مصر، ودرس الفلسفة الإسلامية والتصوف."
+  en: "Born in Kafr al-Ghunaymi in the Sharqiyya governorate of Egypt. He studied Islamic philosophy and Sufism."
+wings: [people, words]
+themes: [philosophy-and-logic, spirituality-and-sufism]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 523, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص523", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

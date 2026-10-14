@@ -1,0 +1,22 @@
+id: event/ashinas-sultanate-228
+class: event
+kind: other
+label: { ar: "استخلاف الواثق أشناس التركي على السلطنة" }
+summary:
+  ar: "في سنة ثمان وعشرين ومئتين استخلف الواثق على السلطنة أشناس التركي وألبسه وشاحين مجوهرين وتاجاً مجوهراً، وقال السيوطي أظن أنه أول خليفة استخلف سلطاناً فإن الترك إنما كثروا في أيام أبيه {cite:tarikh-khulafa-minhaj-1434 p. 529}."
+  en: "In year 228 al-Wathiq installed Ashinas al-Turki over the sultanate, clothing him in two jewelled sashes and a jewelled crown; al-Suyuti thinks him the first caliph to appoint a sultan — for the Turks had only multiplied in his father's days {cite:tarikh-khulafa-minhaj-1434 p. 529}."
+wings: [time, people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0843~", hijri: "0228", calendar: julian, precision: year, status: tradition, derived: true, note: "228؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 529}." }
+relations:
+  - { type: had_participant, target: person/al-wathiq, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ashinas-al-turki, role: "المستخلف على السلطنة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 529"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-27
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

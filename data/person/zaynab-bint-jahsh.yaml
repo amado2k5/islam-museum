@@ -1,0 +1,76 @@
+id: person/zaynab-bint-jahsh
+class: person
+label:
+  ar: زينب بنت جحش
+  en: Zaynab bint Jahsh
+names:
+- kind: full
+  lang: ar
+  value: زينب بنت جحش الأسدية
+gender: female
+died: { edtf: "0641~", hijri: "0020", calendar: julian, precision: year, status: tradition, note: "توفيت عام 20هـ وكانت أول أزواج النبي لحاقاً به (نساء حول الرسول ص116).", sources: [source/nisa-hawl-alrasul] }
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أم المؤمنين، أمها أميمة بنت عبد المطلب عمة النبي؛ كانت عند زيد بن حارثة ثم تزوجها النبي وفيها نزلت آية في سورة الأحزاب، وتوفيت سنة 20هـ وهي أول نساء النبي موتاً بعده.
+  en: A Mother of the Believers, whose mother Umayma was the Prophet's aunt; she was married to Zayd ibn Haritha and then to the Prophet, and a verse in sura al-Ahzab was revealed about her; she died in 20 AH, the first of his wives to die after
+    him.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 11269 (ص 1881).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/umayma-bint-abd-al-muttalib
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/hamna-bint-jahsh
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/zayd-ibn-haritha
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/marriage-to-zaynab-bint-jahsh
+  role: subject
+  sources: [source/mubarakpuri-raheeq]
+- type: member_of
+  target: group/mothers-of-the-believers
+  sources: [source/tanzil-quran, source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11269، ص 1881
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+- source/mubarakpuri-raheeq
+- source/nisa-hawl-alrasul
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1881, entry 11269)

@@ -1,0 +1,61 @@
+id: person/thabit-ibn-qays
+class: person
+label:
+  ar: ثابت بن قيس بن شماس
+  en: Thabit ibn Qays ibn Shammas
+names:
+- kind: full
+  lang: ar
+  value: ثابت بن قيس بن شماس بن زهير بن مالك بن امرئ القيس الأنصاري الخزرجي
+- kind: kunya
+  lang: ar
+  value: أبو أحمد
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'خطيب الأنصار؛ خطب لما قدم النبي المدينة فقال: «نمنعك مما نمنع منه أنفسنا وأولادنا، فما لنا؟» قال: «الجنة»، وأول مشاهده أحد، وبشره النبي بالجنة، واستُشهد يوم اليمامة.'
+  en: The orator of the Ansar; when the Prophet arrived in Medina he spoke, saying 'We will protect you as we protect ourselves and our children; what do we get?', and the Prophet answered 'Paradise'; his first campaign was Uhud, the Prophet
+    gave him the good news of Paradise, and he was killed at al-Yamama.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 914 (ص 180).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 914، ص 180
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 180, entry 914)

@@ -1,0 +1,26 @@
+id: event/uhud-withdrawal-to-shib
+class: event
+kind: battle
+label: { en: "Muslim withdrawal to the mountain pass at Uhud", ar: "الانسحاب المنظم إلى شعب الجبل في أحد" }
+summary:
+  ar: "لما تجمع حول النبي نحو ثلاثون صحابياً أخذ في الانسحاب المنظم إلى شعب الجبل يشق الطريق بين المشركين المهاجمين. في أثناء الانسحاب قتل أبي بن خلف بيده. قام المشركون بآخر هجوم حاولوا فيه الصعود إلى الجبل بقيادة أبي سفيان وخالد، فقاتل عمر ورهط من المهاجرين حتى أهبطوهم. استقر رسول الله في الشعب فغسلت فاطمة جرحه وكوته بحصيرة محروقة لوقف الدم. جاء محمد بن مسلمة بماء عذب فشرب منه النبي ودعا له. صلى النبي الظهر قاعداً من أثر الجراح {cite:mubarakpuri-raheeq p.278}."
+  en: "When about thirty Companions had gathered around the Prophet he began an orderly withdrawal into the mountain gorge, cutting a path through the attacking polytheists. During the retreat he killed Ubayy ibn Khalaf with his own hand. The polytheists made a last attempt to climb the mountain under Abu Sufyan and Khalid, and Umar and a party of the Muhajirun fought until they drove them down. The Messenger of God settled in the gorge, where Fatima washed his wound and cauterised it with a burnt mat to stop the bleeding. Muhammad ibn Maslama brought fresh water from which the Prophet drank and prayed for him; he prayed the noon prayer sitting, from the effect of his wounds {cite:mubarakpuri-raheeq p.278}."
+wings: [time, people, place]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03-23", hijri: "0003-10-07", calendar: julian, precision: day, status: tradition, note: "في عصر يوم أحد السبت السابع شوال 3هـ {cite:mubarakpuri-raheeq p.278}." }
+relations:
+  - { type: occurred_at, target: place/uhud }
+  - { type: part_of, target: event/battle-of-uhud }
+  - { type: had_participant, target: person/muhammad, role: "أحكم الانسحاب وقتل أبي بن خلف بيده", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "أنهض النبي على صخرة لم يستطع الصعود إليها", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "دفع المشركين الذين حاولوا الصعود على الجبل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ubayy-ibn-khalaf, role: "أدرك النبي في الشعب قائلاً لا نجوت إن نجا فطعنه النبي في ترقوته فمات بسرف", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/fatima-bint-muhammad, role: "غسلت جرح النبي وأوقفت الدم بقطعة حصير محروقة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "صبّ الماء بالمجن على جرح النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/kaab-ibn-malik, role: "أول من عرف النبي ونادى به من بعيد", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 273-283" }

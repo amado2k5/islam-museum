@@ -1,0 +1,28 @@
+id: event/uthman-iqta-grants
+class: event
+kind: other
+label: { ar: "قطائع عثمان بالعراق", en: "Uthman's Land-Grants in Iraq" }
+summary:
+  ar: "عند البلاذري عن موسى بن طلحة: أول من أقطع العراق عثمان بن عفان أقطع قطائع من صوافي كسرى وما كان من أرض الجالية فأقطع طلحة النشاستج وأقطع واثل بن حجر الحضرمي ما والى أرارة وأقطع خباب بن الأرت اسبينا وأقطع عدي بن حاتم الطائي الروحاء وأقطع خالد بن عرفطة أرضاً عند حمام أعين وأقطع الأشعث بن قيس الكندي طيزناباذ وأقطع جرير بن عبد الله البجلي أرضه على شاطئ الفرات وأقطع عبد الله بن مسعود أرضاً بالنهرين وأقطع عمار بن ياسر اسبينا وأقطع خباب بن الأرت صعنبا وأقطع سعداً قرية هرمز وأقطع طلحة بن عبيد الله النشاستج وأقطع أسامة بن زيد أرضاً باعها وكان ابن مسعود وسعد يعطيان أرضيهما بالثلث والربع."
+  en: "In al-Baladhuri via Musa ibn Talha: the first to make land-grants in Iraq was Uthman ibn Affan, granting qata'i' from Khusraw's safaya and the Jalandima land — Talha's al-Nashastaj, Wathil ibn Hujr al-Hadrami's land adjoining Urara, Khabbab ibn al-Aratt's Istiniya, Adi ibn Hatim al-Ta'i's al-Rawha', Khalid ibn Urfuta's land by Hammam A'yan, al-Ash'ath ibn Qays al-Kindi's Tizanabadh, Jarir ibn Abdallah al-Bajali's land on the Euphrates bank, Abdallah ibn Mas'ud's land at al-Nahrayn, Ammar ibn Yasir's Istiniya, Khabbab's Sa'naba, Sa'd's village of Hurmuz, Talha ibn Ubayd Allah's al-Nashastaj, and Usama ibn Zayd's land which he sold; Ibn Mas'ud and Sa'd let their lands at a third and a quarter crop-share."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0646~", calendar: julian, precision: year, status: tradition, derived: true, note: "خلافة عثمان 24–35هـ (البلاذري ص 381–382). التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "المقطع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "صاحب النشاستج", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-masud, role: "صاحب أرض النهرين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ammar-ibn-yasir, role: "صاحب اسبينا", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khabbab-ibn-al-aratt, role: "صاحب اسبينا وصعنبا", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jarir-ibn-abd-allah-al-bajali, role: "صاحب أرض شاطئ الفرات", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/usama-ibn-zayd, role: "صاحب الأرض المبيعة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khalid-ibn-urfuta, role: "صاحب أرض حمام أعين", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 381–382"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-33
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

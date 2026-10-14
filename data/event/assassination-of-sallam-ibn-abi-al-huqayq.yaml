@@ -1,0 +1,26 @@
+id: event/assassination-of-sallam-ibn-abi-al-huqayq
+class: event
+kind: raid
+label: { en: "The Mission of Abu Rafi' (Sallam ibn Abi al-Huqayq)", ar: "مقتل أبي رافع سلام بن أبي الحقيق" }
+summary:
+  en: "In Dhu al-Hijja 5 AH, five Khazrajite Companions led by Abdullah ibn Atik infiltrated Khaybar by night and eliminated Sallam ibn Abi al-Huqayq (Abu Rafi'), a primary financier and organizer of the confederate army at the Trench."
+  ar: "في ذي الحجة سنة 5هـ بعد غزوة قريظة، تسلل خمسة من أبطال الخزرج بقيادة عبد الله بن عتيك إلى حصن خيبر ليلاً، فقتلوا سلام بن أبي الحقيق (أبا رافع) تاجر أهل الحجاز وأحد أكابر المحرضين والممولين لجيش الأحزاب."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0627-05~", hijri: "0005-12", calendar: julian, precision: month, status: tradition, note: "ذي الحجة سنة 5هـ إثر الفراغ من بني قريظة (الرحيق ص319–321؛ صحيح البخاري)." }
+relations:
+  - { type: occurred_at, target: place/khaybar }
+  - { type: had_participant, target: person/abdullah-ibn-atik, role: "قائد السرية، دخل الحصن برطانة يهودية وقتل أبا رافع وجبر النبي ساقه", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/sallam-ibn-abi-al-huqayq, role: "زعيم خيبر المحرض المقتول في مخدعه", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim squad", ar: "سرية المسلمين" }
+    participants: [person/abdullah-ibn-atik]
+    commanders: [person/abdullah-ibn-atik]
+  - label: { en: "Sallam ibn Abi al-Huqayq and guards", ar: "سلام بن أبي الحقيق وحرسه" }
+    participants: [person/sallam-ibn-abi-al-huqayq]
+    commanders: [person/sallam-ibn-abi-al-huqayq]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 319–321" }

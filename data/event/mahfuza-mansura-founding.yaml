@@ -1,0 +1,20 @@
+id: event/mahfuza-mansura-founding
+class: event
+kind: other
+label: { ar: "بناء المحفوظة والمنصورة", en: "The Founding of al-Mahfuza and al-Mansura" }
+summary:
+  ar: "ولي الحكم بن عوانة الكلبي وقد كفر أهل الهند إلا أهل قصة فلم ير للمسلمين ملجأ يلجأون إليه فبنى من وراء البحيرة مما يلي الهند مدينة سماها المحفوظة وجعلها مأوى لهم ومعاذاً ومصرها وقال لمشايخ كلب من أهل الشام ما ترون أن نسميها فقال بعضهم دمشق وقال بعضهم حمص وقال رجل منهم سمها تدمر فقال دمر الله عليك يا أحمق ولكني أسميها المحفوظة ونزلها وكان عمرو بن محمد بن القاسم مع الحكم وكان يفوض إليه ويقلده جسيم أموره وأعماله فأغزاه من المحفوظة فلما قدم عليه وقد ظفر أمره فبنى دون البحيرة مدينة وسماها المنصورة فهي التي ينزلها العمال اليوم وتخلص الحكم ما كان في أيدي العدو مما غلبوا عليه ورضي الناس بولايته وكان خالد يقول واعجبا وليت فتى العرب فرفض يعني تميماً ووليت أبخل الناس فرضي به ثم قتل الحكم بها ثم كان العمال بعد يقاتلون العدو فيأخذون ما استطف لهم ويفتحون الناحية قد نكث أهلها فلما كان أول الدولة المباركة ولى أبو مسلم عبد الرحمن بن مسلم مغلساً العبدي ثغر السند وأخذ على طخارستان."
+  en: "With Hind apostatized save Qassa's folk and no refuge left, al-Hakam ibn Awana al-Kalbi built al-Mahfuza beyond the lake — Syrian Kalbi shaykhs naming it Dimashq or Hims till one said Tadmur and drew 'God destroy you, fool — it is al-Mahfuza'. Amr ibn Muhammad ibn al-Qasim, his trusted deputy, raided from it and built al-Mansura below the lake — the governors' seat today — while al-Hakam won back enemy holdings to general approval. Khalid marvelled: 'I gave them the Arabs' most generous youth and they rejected him — the most miserly, accepted' — and al-Hakam was killed there. At the da'wa's dawn Abu Muslim gave the frontier to Mughallis al-Abdi, who set out via Tukharistan."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-hakam-ibn-awana, role: "باني المحفوظة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-muhammad-ibn-al-qasim, role: "باني المنصورة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mughallis-al-abdi, role: "والي الثغر للدعوة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/al-mansura }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

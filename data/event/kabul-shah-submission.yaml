@@ -1,0 +1,18 @@
+id: event/kabul-shah-submission
+class: event
+kind: other
+label: { ar: "إذعان كابل شاه للمأمون", en: "Kabul Shah's Submission to al-Ma'mun" }
+summary:
+  ar: "لما استخلف المأمون أغزى السغد وأشروسنة ومن انتقض عليه من أهل فرغانة الجند وألح عليهم بالحروب وبالغارات أيام مقامه بخراسان وبعد ذلك وكان مع تسريته الخيول إليهم يكاتبهم بالدعاء إلى الإسلام والطاعة والترغيب فيها ووجه إلى كابل شاه جيشاً فأدى الإتاوة وأذعن بالطاعة واتصل إليها البريد حتى حمل إليه منها هليلج وصل رطباً."
+  en: "Al-Ma'mun loosed the troops on Sughd, Ushrusana and Farghana's breachers with incessant raids and daw'a letters; a force sent to Kabul Shah drew his tribute and submission — and the post-road ran till green myrobalan reached the caliph as fresh fruit."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/abd-allah-al-mamun, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/kabul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

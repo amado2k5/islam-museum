@@ -1,0 +1,22 @@
+id: event/assassination-attempt-of-amir-and-arbad
+class: event
+kind: other
+label: { en: "The plot of Amir ibn al-Tufayl and Arbad ibn Qays", ar: "مؤامرة عامر بن الطفيل وأربد بن قيس" }
+summary:
+  en: "Within the Banu Amir delegation of 9 AH, Amir ibn al-Tufayl engaged the Prophet in talk while Arbad ibn Qays circled behind him and half-drew his sword; the tradition reports that God restrained his hand, and on their return Arbad was struck by lightning and Amir died of a throat swelling."
+  ar: "تآمر عامر بن الطفيل وأربد بن قيس داخل وفد بني عامر سنة 9هـ، فشغل عامر النبي بالكلام ودار أربد خلفه واخترط سيفه شبراً فحبس الله يده فيما ترويه السيرة، وفي رجوعهما أصابت أربداً صاعقة فأحرقته ومات عامر بغدة في عنقه."
+wings: [people]
+themes: [battles, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/amir-ibn-al-tufayl }
+  - { type: had_participant, target: person/arbad-ibn-qays }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: group/banu-amir }
+  - { type: part_of, target: event/year-of-delegations }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

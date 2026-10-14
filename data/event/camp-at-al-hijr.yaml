@@ -1,0 +1,18 @@
+id: event/camp-at-al-hijr
+class: event
+kind: other
+label: { ar: "نزول المسلمين بالحجر ونهي النبي عن الماء", en: "The army camps at al-Hijr and the Prophet bans its water" }
+summary:
+  ar: "نزل النبي بالحجر في طريقه إلى تبوك، واستقى الناس من بئرها، فلما راحوا نهاهم أن يشربوا من مائها أو يتوضؤوا منه أو يأكلوا ما عجنوا به، وأمرهم ألا يخرج أحد ليلاً إلا ومعه صاحب؛ فخالف رجلان من بني ساعدة فأُصيب أحدهما بالخنق وحملت الريح الآخر إلى جبلي طيئ."
+  en: "On the road to Tabuk the Prophet stopped at al-Hijr, and the people drew water from its well. After they had rested he forbade them to drink its water, perform ablutions from it or eat dough kneaded with it, and ordered that no one go out at night without a companion; two men of Banu Sa'ida disobeyed — one was strangled and the wind carried the other to the mountains of Tayy."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-hijr, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 164-165", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 164-165" }

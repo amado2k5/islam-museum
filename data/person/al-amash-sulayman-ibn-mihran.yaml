@@ -1,0 +1,22 @@
+id: person/al-amash-sulayman-ibn-mihran
+class: person
+label: { ar: "الأعمش سليمان بن مهران", en: "Al-A'mash, Sulayman ibn Mihran" }
+names:
+  - { kind: full, lang: ar, value: "أبو محمد سليمان بن مهران الأعمش" }
+gender: male
+roles: [muhaddith, scholar]
+traditions: [sunni]
+born: { edtf: "0680", hijri: "0061", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0765", hijri: "0148", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث ومقرئ وفرضي، لُقّب بالأعمش لضعف في بصره؛ تباينت الروايات في مكان ولادته."
+  en: "A hadith scholar, reciter and expert in inheritance law, nicknamed al-A'mash for weakness of sight. Accounts of his birthplace differ."
+wings: [people, words]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+periods: [period/umayyad]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 190, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص190", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

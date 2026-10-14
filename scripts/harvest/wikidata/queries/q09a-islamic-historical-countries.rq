@@ -1,0 +1,2 @@
+# Historical countries (Q3024240) whose religion (P140) is Islam or a subclass (Q432). Added 2026-10-12: the first rebuild had no polity seeds, so the Mughals, Almoravids, Mamluks and others were missing. The single query over five classes timed out (HTTP 504), so it is split by class.
+SELECT DISTINCT ?item WHERE { ?item wdt:P31 wd:Q3024240 . ?item wdt:P140/wdt:P279* wd:Q432 . } LIMIT 20000

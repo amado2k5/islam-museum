@@ -1,0 +1,24 @@
+id: event/norman-capture-mahdiyya-543
+class: event
+kind: conquest
+label: { ar: "استيلاء رجار صاحب صقلية على المهدية" }
+summary:
+  ar: "سنة 543هـ نزلت أساطيل رجار صاحب صقلية إلى المهدية في ثلاثمائة مركب وعليها جرجي بن ميخائيل الأنطاكي فيهم ألف فارس فاستولى على بلاد الساحل كلها ووضع على أهلها الجري وولى عليهم إلى أن استنقذهم عبد المؤمن شيخ الموحدين سنة 555هـ، وكان ذلك مذهب رجار فيما ملك من سواحل إفريقية يبقيهم تحت إيالته ويرد الفارين إلى أماكنهم {cite:tarikh-ibn-khaldun-ibar p. 1636}. وفي شذرات الذهب في سنة ثلاث وأربعين كانت شدة القحط بإفريقية فانتهز رجال صاحب صقلية الفرصة فأقبل في مائتين وخمسين مركباً فهرب منه صاحب المهدية فأخذها بلا ضربة ولا طعنة وصار للفرنج من طرابلس المغرب إلى قريب تونس {cite:shadharat-dhahab p. 614-615}."
+  en: "In 543 Roger of Sicily's fleet under George of Antioch took Mahdiyya and the whole littoral, imposing the jarī levy and his governors over the towns until the Almohad Abd al-Mu'min recovered them in 555 {cite:tarikh-ibn-khaldun-ibar p. 1636}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [maghreb]
+date:
+  start: { edtf: "1148~", hijri: "0543", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ثلاث وأربعين وخمسمائة عند ابن خلدون؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1636}." }
+relations:
+  - { type: had_participant, target: person/roger-of-sicily, role: "الغازي", sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/george-of-antioch, role: "قائد الأسطول", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/al-hasan-ibn-ali-zirid, role: "المهزوم", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: occurred_at, target: place/mahdiyya, sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ibar-batch-8
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

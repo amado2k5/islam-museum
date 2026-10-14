@@ -1,0 +1,19 @@
+id: place/baza
+class: place
+kind: city
+label: { ar: "بسطة" }
+summary:
+  ar: "بسطة من مدن شرق الأندلس العتيدة؛ يعمل بمرسية البسط التي يغالى في ثمنها بالمشرق ويصنع في غرناطة وبسطة {cite:nafh-tib-maqqari p. ~198}. وصمدت لحصار صاحب قشتالة من رجب إلى ذي الحجة سنة 894 بجموع وادي آش والمرية والمنكب والبشرات حتى قل الطعام، فاحتال أهلها بإظهار الطعام في الأسواق وهم في غاية الضعف، ودخل النصارى قلعتها يوم الجمعة عاشر محرم سنة 895 {cite:nafh-tib-maqqari p. 525-526}."
+  en: "Baza, the stout city of eastern al-Andalus known for its prized rugs; it endured the Castilian siege of 894 for six months until the staged-market deception failed, surrendering on Friday 10 Muharram 895 {cite:nafh-tib-maqqari p. 525-526}."
+wings: [place]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 525–526"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

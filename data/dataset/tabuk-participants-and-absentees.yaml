@@ -1,0 +1,17 @@
+id: dataset/tabuk-participants-and-absentees
+class: dataset
+label: { ar: "المشاركون والمتخلفون في غزوة تبوك", en: "Participants and absentees of the Tabuk expedition" }
+summary:
+  ar: "جدول بمن سمّاهم ابن إسحاق في غزوة تبوك بحسب أصنافهم: البكاؤون، والمتخلفون عن غير شك، والمعذّرون، والمنافقون المتخلفون، والمستخلفون على المدينة، والمنفقون، والملاحقون، ومن مات أو صالح (الجزء الرابع ص159-173)."
+  en: "A table of those Ibn Ishaq names in the Tabuk expedition, by category: the weepers, those who stayed behind without doubt, the excused, the hypocrites who stayed behind, those appointed over Medina, the spenders, those who caught up, and those who died or made peace (part 4, pp. 159–173)."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+rows_file: datasets/tabuk-participants-and-absentees.csv
+license: CC0
+source: source/ibn-hisham-saqqa
+columns: [category, name, clan_or_tribe, role_or_status, printed_page, source_note]
+coverage: { printed_pages: "159-173", weepers: 7 }
+method_note: "الأصناف من ألفاظ ابن إسحاق نفسه؛ المتخلفون الثلاثة (كعب ومرارة وهلال) يُكمَل التفصيل فيهم في الدفعة 7 (ص175-181). المنافقون: وصف الراوي لا حكم المتحف."
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 159-173" }

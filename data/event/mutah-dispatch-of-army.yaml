@@ -1,0 +1,22 @@
+id: event/mutah-dispatch-of-army
+class: event
+kind: other
+label: { ar: "تجهيز جيش مؤتة وتوديعه", en: "Dispatch of the Mu'tah army" }
+summary:
+  ar: "في جمادى الأولى سنة ثمان من الهجرة، أرسل النبي جيشًا من ثلاثة آلاف مقاتل إلى الشام، وعيَّن عليهم ثلاثة قادة بالترتيب: زيد بن حارثة، فجعفر بن أبي طالب، فعبد الله بن رواحة، وودّع الناس قادتهم عند خروجهم من المدينة."
+  en: "In Jumada I of year 8 AH, the Prophet dispatched an army of three thousand to Syria, appointing three commanders in succession — Zayd ibn Haritha, then Jafar ibn Abi Talib, then Abd Allah ibn Rawaha — and the people bade farewell to the commanders at their departure."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0629-09~", hijri: "0008-05", calendar: julian, precision: month, status: tradition, note: "جمادى الأولى سنة ثمان كما نص عليه ابن إسحاق.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: part_of, target: event/battle-of-mutah }
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: first-commander, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/jafar-ibn-abi-talib, role: second-commander, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abd-allah-ibn-rawaha, role: third-commander, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: commander-in-chief, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "ibn-hisham-saqqa juz' 4 pp. 15", generated_by: "kiro", run: "ibn-hisham-batch-4" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "kiro; mined from Ibn Hisham juz' 4 p. 15" }

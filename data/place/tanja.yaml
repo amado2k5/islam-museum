@@ -1,0 +1,19 @@
+id: place/tanja
+class: place
+kind: town
+label: { ar: "طنجة", en: "Tangier" }
+summary:
+  ar: "طنجة مدينة المغرب الأقصى على البحر؛ فتحها موسى بن نصير في ولايته لإفريقية ونزلها وهو أول من نزلها واختطّ فيها للمسلمين، وكان سلطان بطريق إفريقية يمتد من أطرابلس إليها."
+  en: "Tangier, the far-Maghreb city on the sea; Musa ibn Nusayr opened it in his governorship of Ifriqiya and settled it — the first to lodge there — laying out khittas for the Muslims; and the patrikios's sultanate of Ifriqiya had run from Tripoli to it."
+wings: [place]
+periods: [period/umayyad]
+regions: [maghreb]
+relations:
+  - { type: site_of, target: event/conquest-of-tanja, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 318، 322"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

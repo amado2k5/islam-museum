@@ -1,0 +1,22 @@
+id: person/najib-baladi
+class: person
+label: { ar: "نجيب بلدي", en: "Najib Baladi" }
+names:
+  - { kind: full, lang: ar, value: "نجيب بلدي" }
+gender: male
+roles: [philosopher, writer]
+traditions: [sunni]
+born: { edtf: "1907", hijri: "1324", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1978", hijri: "1397", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أعضاء الدفعة الأولى بالجامعة المصرية، ومن رواد الفكر الفلسفي العربي المعاصر."
+  en: "One of the first cohort at the Egyptian University and a pioneer of contemporary Arab philosophical thought."
+wings: [people, words]
+themes: [philosophy-and-logic]
+periods: [period/modern-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 38, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص38", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,17 @@
+id: person/mujahid-ibn-jabr
+class: person
+label: { ar: "مجاهد بن جبر" }
+summary:
+  ar: "عند البلاذري: كان مقيماً برودس يقرئ الناس القرآن وكان معاوية يعاقب بين الناس فيها وكان ممن فتح أرواد وبها أقرأ تبيع بن امرأة كعب الأحبار القرآن ويُقال إنه أقرأه برودس.، وعند المسعودي مولى قيس بن السائب المخزومي ويكنى أبا الحجاج توفي سنة ثلاث ومائة وهو ابن أربع وثمانين سنة {cite:muruj-al-dhahab p. 191}"
+  en: "In al-Baladhuri: resided at Rhodes teaching the people Qur'an — Mu'awiya rotating the settlers there — and was among Arwad's openers, where he taught Tubay' ibn imra'at Ka'b al-Ahbar the Qur'an, though it is said he taught it to him at Rhodes."
+gender: male
+relations:
+  - { type: participated_in, target: event/conquest-of-rhodes, role: "المقيم المقرئ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/conquest-of-arwad, role: "الفاتح المقرئ", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 330"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-24
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

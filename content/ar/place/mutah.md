@@ -1,0 +1,35 @@
+---
+id: place/mutah
+lang: ar
+source_lang: ar
+translators: []
+---
+
+## نبذة
+قرية في جنوب الأردن، قرب موضعها قاتل المسلمون جيشًا بيزنطيًا سنة 629م.
+
+## الموقع
+إحداثياته التقريبية 31.0925 شمالًا و35.6944 شرقًا {cite:geonames-gazetteer}.
+
+## في المتحف
+تضم مواد المتحف عن هذا المكان: الأحداث التي جرت فيه: 5، من توفوا فيه: 8.
+
+### الأحداث التي جرت فيه
+- [[event/battle-of-mutah|غزوة مؤتة]] (629م)
+- [[event/mutah-khalid-command-withdrawal|قيادة خالد بن الوليد وانسحاب الجيش]] (629م)
+- [[event/mutah-martyrdom-of-ibn-rawaha|استشهاد عبد الله بن رواحة بعد تردده]] (629م)
+- [[event/mutah-martyrdom-of-jafar|استشهاد جعفر بن أبي طالب وعقره فرسه]] (629م)
+- [[event/mutah-martyrdom-of-zayd|استشهاد زيد بن حارثة قائدًا أول]] (629م)
+
+### من توفوا فيه
+- [[person/jafar-ibn-abi-talib|جعفر بن أبي طالب]]
+- [[person/zayd-ibn-haritha|زيد بن حارثة]]
+- [[person/abd-allah-ibn-rawaha|عبد الله بن رواحة]]
+- [[person/abbad-ibn-qays-mutah|عبّاد بن قيس]]
+- [[person/al-harith-ibn-al-numan-mutah|الحارث بن النعمان بن أُساف]]
+- [[person/masud-ibn-al-aswad-mutah|مسعود بن الأسود بن حارثة]]
+- [[person/suraqa-ibn-amr-mutah|سُراقة بن عمرو بن عطية]]
+- [[person/wahb-ibn-sad-ibn-abi-sarh|وهب بن سعد بن أبي سرح]]
+
+## ما تغطيه هذه الصفحة
+هذه الصفحة جامعة لما يربطه المتحف بالمكان من أحداث وأشخاص ومبانٍ، وليست وصفًا تاريخيًّا كاملًا له؛ ويُضاف وصف المكان وتاريخه من المصادر الأصلية مع الدفعات القادمة.

@@ -1,0 +1,22 @@
+id: event/expedition-of-banu-al-nadir
+class: event
+kind: siege
+label: { en: "The Siege and Expulsion of Banu al-Nadir", ar: "غزوة بني النضير" }
+summary:
+  en: "In Rabi' I 4 AH (August 625 CE), following Banu al-Nadir's attempt to assassinate the Prophet by dropping a millstone and their conspiracy with the hypocrites, the Muslims besieged their fortresses for six nights until they surrendered and were exiled to Khaybar and Syria, leaving behind weapons and heavy armour."
+  ar: "في ربيع الأول 4هـ (أغسطس 625م)، تآمر بنو النضير على إلقاء رحى على النبي وهو جالس إلى جدارهم لطلب دية العامريين، فحاصرهم المسلمون ست ليالٍ بعد تحصنهم بوعود عبد الله بن أبيّ، حتى قذف الله في قلوبهم الرعب فنزلوا على الجلاء وحملوا ما أقلت الإبل إلا السلاح."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-08~", hijri: "0004-03", calendar: julian, precision: month, status: tradition, note: "ربيع الأول سنة 4هـ (أغسطس 625م) (الرحيق ص295–298)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: "قائد الحصار", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/huyayy-ibn-akhtab, role: "زعيم بني النضير الذي قاد التحصن ثم رحل إلى خيبر", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-ubayy, role: "وعدهم بالنصرة والقتال معهم ثم خذلهم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-nadir, role: "القبيلة المحاصرة والمجلوة عن ديارها", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, role: "قُسمت عليهم أموال بني النضير وديارهم", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 295–298" }

@@ -1,0 +1,48 @@
+id: person/thawban-mawla-al-nabi
+class: person
+label:
+  ar: ثوبان مولى النبي
+  en: Thawban, freedman of the Prophet
+names:
+- kind: full
+  lang: ar
+  value: ثوبان مولى رسول الله
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي مشهور يقال إنه من حكم بن سعد حمير وقيل من السراة؛ اشتراه النبي ثم أعتقه فخدمه إلى أن مات، ثم سكن الرملة ثم حمص وتوفي بها سنة 54هـ.
+  en: A well-known Companion said to be of the Hakam ibn Sa'd of Himyar, or from the Sarat; the Prophet bought and freed him, and he served him until his death, then lived in al-Ramla and Homs, where he died in 54 AH.
+wings:
+- people
+themes:
+- slavery-and-freedom
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 1004 (ص 191).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 1004، ص 191
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 191, entry 1004)

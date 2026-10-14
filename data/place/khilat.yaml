@@ -1,0 +1,19 @@
+id: place/khilat
+class: place
+kind: city
+label: { ar: "خلاط", en: "Khilat (Akhlat)" }
+summary:
+  ar: "خلاط على بحيرة وان من مدن أرمينية؛ أناخ بطريقها على حبيب بن مسلمة بمريالا بكتاب إياد بن غنم وكان إياد قد أمّنه على نفسه وماله وبلاده وقاطعه على أتاوة فأنفذه حبيب له."
+  en: "Khilat (Akhlat) on Lake Van, of the Armenian cities; its patrikios came down to Habib ibn Maslama at Mariyala bearing Iyad ibn Ghanm's writ — Iyad having granted him aman on himself, his wealth and his lands for a tribute — and Habib conveyed it to him."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273، 280"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-16
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

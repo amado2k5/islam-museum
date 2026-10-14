@@ -1,0 +1,17 @@
+id: person/khayra-bint-damra
+class: person
+label: { ar: "خيرة بنت ضمرة القشيرية", en: "Khayra bint Damra al-Qushayriyya" }
+summary:
+  ar: "خيرة بنت ضمرة القشيرية امرأة المهلب وأم أبي عيينة ابنه؛ كان لها خيركان ومهلبان الذي وهبه لها المهلب ويقال كان لها فنسب إلى المهلب."
+  en: "Khayra bint Damra al-Qushayriyya, al-Muhallab's wife and Abu Uyayna's mother — hers were Khayrakān and Mahallabān, which al-Muhallab gave her, or which was hers and took his name."
+gender: female
+periods: [period/umayyad]
+relations:
+  - { type: spouse_of, target: person/al-muhallab-ibn-abi-sufra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

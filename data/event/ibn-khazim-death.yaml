@@ -1,0 +1,20 @@
+id: event/ibn-khazim-death
+class: event
+kind: death
+label: { ar: "مقتل عبد الله بن خازم", en: "The Killing of Abdallah ibn Khazim" }
+summary:
+  ar: "ولى ابن خازم ابنه محمداً هراة فهاجت بنو تميم وقتلوه فظفر أبوه بعثمان بن بشير بن المحتفز فقتله صبراً وقتل رجلاً من بني تميم فدبرت تميم خلعه فتحول جماعة منهم مع بجير بن ورقاء الصرعي إلى أبرشهر وخلعوه وأرسل ثقله مع ابنه موسى إلى الترمذ وورد كتاب عبد الملك بن مروان عليه بولاية خراسان فأطعم رسوله الكتاب وقال ما كنت لألقى الله وقد نكثت بيعة ابن حواري رسول الله وبايعت ابن طريده فكتب عبد الملك إلى بكير بن وشاح بولايتها وقد كان بكير خلعه وأخذ السلاح وبيت المال ودعا أهل مرو إلى بيعة عبد الملك فبايعوه فمضى ابن خازم يريد ابنه موسى بالترمذ فأتبعه بجير فقاتله بقرب مرو وخرج وكيع بن الدورقية القريعي بدرعه وسلاحه فحمل عليه مع بجير فطعناه وقعد وكيع على صدره وقال يا لثارات دويلة ودويلة أخوه لأمه قتله ابن خازم فتنخم ابن خازم في وجهه وقال لعنك الله أتقتل كبش مضر بأخيك علج لا يساوي كفاً من نوى فقال وكيع ذق يا ابن عجلى مثل ما قد أذقتني ولا تحسبني كنت عن ذاك غافلاً وقتل معه ابناه عنبسة ويحيى وطعن طهمان مولاه جد يعقوب بن داود كاتب المهدي وأتى بكير برأسه فبعث به إلى عبد الملك فنصب بدمشق وقطعوا يده اليمنى وبعثوا بها إلى ولد عثمان بن بشير."
+  en: "Tamim rose at Herat and killed Ibn Khazim's son Muhammad; the father took Uthman ibn Bashir ibn al-Muhtafiz and slew him in cold blood, with a Tamimi. Tamim conspired his deposition — Bujayr ibn Waraqa's party shifted to Abarshahr and renounced him as he sent his baggage with Musa to Tirmidh. Abd al-Malik's writ appointing him arrived; he fed the messenger the letter: 'I could not meet God having broken my bay'a to the son of the Prophet's hawari and given bay'a to the son of his exile'. Abd al-Malik gave it to Bukayr ibn Wishah — who had already deposed him, seized arms and treasury, and won Marw's bay'a. Marching for Tirmidh, Ibn Khazim was overtaken by Bujayr near Marw; Waki' ibn al-Dawraqiyya came out in arms and with Bujayr stabbed him, sat on his chest crying 'for Duwayla's vengeance' — his slain half-brother — as Ibn Khazim spat 'curse you: you kill Mudar's ram for a brother not worth a palm of date-stones', and Waki' answered in verse. His sons Anbasa and Yahya fell with him, his mawla Tahman — grandfather of the Mahdi's secretary Ya'qub ibn Dawud — was wounded; Bukayr sent his head to be displayed at Damascus and his severed right hand to Uthman ibn Bashir's sons."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/waki-ibn-al-dawraqiyya, role: "الطاعن المنتقم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/bujayr-ibn-waraqa, role: "الطاعن", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/bukayr-ibn-wishah, role: "الخالع المرسل بالرأس", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

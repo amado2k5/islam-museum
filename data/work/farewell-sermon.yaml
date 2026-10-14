@@ -1,0 +1,21 @@
+id: work/farewell-sermon
+class: work
+kind: sermon
+label: { en: "The Farewell Sermon", ar: "خطبة الوداع" }
+summary:
+  en: "The sermon delivered at Arafat on 9 Dhu al-Hijja 10 AH and repeated in substance at Mina on the Day of Sacrifice: sanctity of life, property and honour; the abolition of pagan vengeance and usury; counsel on women; the sufficiency of the Book of God; no prophet after him; and the witnessed testimony 'O God, bear witness'."
+  ar: "الخطبة التي ألقاها النبي بعرفة في 9 ذي الحجة سنة 10هـ وأعاد جملها يوم النحر بمنى: حرمة الدماء والأموال والأعراض، ووضع دماء الجاهلية ورباها، والوصية بالنساء، والعهد بكتاب الله، وألا نبي بعده، وشهادة اللهم اشهد."
+wings: [words]
+themes: [pilgrimages-and-mass-gatherings, creed]
+periods: [period/prophetic-era]
+regions: [arabia]
+genre: [narrative]
+made: { by_muslims: true, basis: unverified, sources: [source/sahih-muslim, source/ibn-hisham-sira] }
+language: language/arabic
+relations:
+  - { type: mentions, target: person/muhammad }
+  - { type: mentions, target: person/abbas-ibn-abd-al-muttalib, note: "أول ربا وُضع: ربا العباس بن عبد المطلب", sources: [source/sahih-muslim] }
+  - { type: mentions, target: event/farewell-sermon-at-arafat }
+provenance: { layer: own-research, source: "al-Raheeq al-Makhtum pp. 459-462; Sahih Muslim bab hajjat al-nabi", generated_by: "Devin", model: "SWE-2 High", run: "raheeq-batch-23" }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira, source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

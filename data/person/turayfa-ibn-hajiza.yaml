@@ -1,0 +1,30 @@
+id: person/turayfa-ibn-hajiza
+class: person
+label:
+  ar: طريفة بن حاجزة
+  en: Turayfa ibn Hajiza
+names:
+  - { kind: full, lang: ar, value: طريفة بن حاجزة، أخو ممن بن حاجزة }
+gender: male
+roles: [warrior]
+traditions: [sunni]
+summary:
+  ar: "أخو ممن بن حاجزة؛ كتب إليه أبو بكر يأمره بقتال الفجاءة بجير بن إياس السلمي — وقد كان يقتل المسلمين والمرتدين — فقاتله فأسره وبعث به إليه؛ ويقال إن أبا بكر كتب إلى معن في أمر الفجاءة فوجّه إليه طريفة أخاه فأسره."
+  en: "Brother of Mam'un ibn Hajiza; Abu Bakr wrote to him ordering him to fight al-Fuja'a Bujayr ibn Iyas al-Sulami — who was killing Muslims and apostates alike — so he fought, captured and sent him to him; others report Abu Bakr wrote to Ma'n concerning al-Fuja'a and Ma'n sent his brother Turayfa to capture him."
+periods:
+- period/rashidun
+regions:
+- arabia
+relations:
+  - { type: participated_in, target: event/ridda-wars, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 136"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-7
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

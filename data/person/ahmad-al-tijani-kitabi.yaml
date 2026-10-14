@@ -1,0 +1,22 @@
+id: person/ahmad-al-tijani-kitabi
+class: person
+label: { ar: "أحمد التجاني الكتياني", en: "Ahmad al-Tijani al-Kitabi" }
+names:
+  - { kind: full, lang: ar, value: "أحمد التجاني بن يوسف بن بشير الكتياني" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1912", hijri: "1331", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1937", hijri: "1356", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم من بيت الكتياني المعروف في قبائل المغرب."
+  en: "A scholar of the Kitabi family, well known among the tribes of the Maghrib."
+wings: [people, words]
+themes: [spirituality-and-sufism]
+periods: [period/contemporary-era]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 406, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص406", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

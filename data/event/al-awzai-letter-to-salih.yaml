@@ -1,0 +1,21 @@
+id: event/al-awzai-letter-to-salih
+class: event
+kind: declaration
+label: { ar: "رسالة الأوزاعي إلى صالح بن علي", en: "al-Awza'i's Letter to Salih ibn Ali" }
+summary:
+  ar: "عند البلاذري عن أبي عبيد القاسم بن سلام عن أحمد بن كثير: خرج بجبل لبنان قوم شكوا عامل خراج بعلبك فأخرجهم ونزل بهم ما عضّهم فاشتكوا به وبلغ صالح بن علي بن عبد الله بن العباس الخبر عنهم وأن الروم مالؤهم فأمدّهم بمن قتل مقاتلهم وأقرّ من بقي منهم على دينهم وردّهم إلى قراهم وأجلى قوماً من أهل لبنان، فكتب إليه الأوزاعي رسالة طويلة — حفظ القاسم بن سلام منها — قال فيها: «قد كان من إجلاء أهل الذمة من جبل لبنان ممن لم يكن مالأ من خرج على خروجه ممن قتلت بعضهم ورددت باقيهم إلى قراهم ما قد علمت، فكيف تؤخذ عامّة بذنوب خاصّة حتى يُخرجوا من ديارهم وأموالهم، وحكم الله تعالى «لا تزر وازرة وزر أخرى» وهو أحق ما وُقف عنده واقتُدي به، وأحق الوصايا أن تُحفظ وترعى وصية رسول الله فإنه قال: من ظلم معاهداً وكلّفه فوق طاقته فأنا حجيجه»، ثم ذكر كلاماً."
+  en: "In al-Baladhuri through Abu Ubayd al-Qasim ibn Sallam from Ahmad ibn Kathir: a body rose in Mount Lebanon complaining of the kharaj administrator of Ba'labakk, and when word reached Salih ibn Ali ibn Abdullah ibn al-Abbas that the Byzantines had abetted them he sent troops who killed their fighters, kept the rest on their religion, returned them to their villages and exiled a company of Lebanon's people; al-Awza'i wrote him a long letter — al-Qasim ibn Sallam memorised from it — saying: 'among those you exiled of the dhimmis of Mount Lebanon were men who had not abetted the rising of those you killed, while you returned the rest to their villages, as you know — so how are the many taken for the sins of the few, expelled from their homes and wealth, when God's ruling is «no bearer of burdens bears another's burden», the worthiest thing to be held to and followed, and the worthiest testament kept is the Messenger's, who said: whoever wrongs a covenant-holder and lays on him beyond his capacity, I am his adversary', and more."
+wings: [ideas, people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: had_participant, target: person/al-awzai-abd-al-rahman, role: "كاتب الاحتجاج", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salih-ibn-ali, role: "الوالي المخاطَب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/dhimma, note: "لا عقاب جماعي على ذنب خاص؛ وصية المعاهد", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 222"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-12
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,17 @@
+id: person/thabit-ibn-nuaym-al-judhami
+class: person
+label: { ar: "ثابت بن نعيم الجذامي", en: "Thabit ibn Nu'aym al-Judhami" }
+summary:
+  ar: "ثابت بن نعيم الجذامي؛ خالف على مروان بن محمد لما جاءه قتل الوليد بن يزيد، وكان مسافر القصّاب ممن وافقه على رأيه فولّاه الضحّاك الخارجي أرمينية وأذربيجان."
+  en: "Thabit ibn Nu'aym al-Judhami; he rose against Marwan ibn Muhammad when word of al-Walid ibn Yazid's killing came, and Musafir al-Qassab was among those who agreed with his view — al-Dahhak al-Khariji giving him Armenia and Adharbayjan."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: participated_in, target: event/musafir-revolt-armenia, role: "المخالف على مروان بن محمد", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 294"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

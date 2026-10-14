@@ -1,0 +1,26 @@
+id: person/nuaym-ibn-masud
+class: person
+label: { en: "Nu'aym ibn Mas'ud", ar: "نعيم بن مسعود" }
+names:
+  - { kind: full, lang: ar, value: "نعيم بن مسعود بن عامر الأشجعي الغطفاني" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A shrewd chieftain of Banu Ashja' of Ghatafan who converted to Islam secretly during the siege of the Trench; instructed by the Prophet that 'war is deceit', he successfully sowed mutual distrust between the confederate leaders (Quraysh and Ghatafan) and Banu Qurayza, precipitating the collapse of the siege."
+  ar: "سيد بني أشجع من غطفان؛ أسلم سراً في ذروة غزوة الخندق وقدم على النبي، فقال له: «إنما أنت فينا رجل واحد، فخذل عنا إن استطعت فإن الحرب خدعة»، فبث الشك والفرقة بدهائه بين قريش وغطفان من جهة وبني قريظة من جهة أخرى، فكان سبباً رئيساً في انهيار الحلف وتفرقه."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0627" }, status: tradition, note: "أسلم سراً أثناء حصار الخندق (الرحيق ص312–313).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { role: companion, start: { edtf: "0627" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0627" }, note: "صحابي من سادات غطفان." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ghatafan }
+  - { type: participated_in, target: event/battle-of-the-trench, role: "الذي خذل بين الأحزاب وبني قريظة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 312–313" }

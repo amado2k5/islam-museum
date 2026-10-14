@@ -1,0 +1,22 @@
+id: journey/baghdad-to-medina-jubayr
+class: journey
+kind: pilgrimage_route
+label: { ar: "من بغداد إلى المدينة على طريق الحاج العراقي", en: "From Baghdad to Medina on the Iraqi pilgrim road" }
+summary:
+  ar: "مقطع من رحلة ابن جبير: من بغداد إلى الحلة ثم الكوفة، ثم مع الحاج العراقي على طريق البادية عبر المنازل والمصانع إلى الحاجر فالمدينة. النص لا يذكر سنة هذا المقطع في موضعه، ولا يُدرج هنا إلا المحطات التي يسميها بالترتيب."
+wings: [time, place, people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, arabia]
+travelers: [person/ibn-jubayr-muhammad]
+legs:
+  - { from: place/baghdad, to: place/kufa, mode: "طريق الحاج البري من بغداد", note: "من بغداد إلى الحلة مروراً بالقرية وبالقنطرة والقراش وزريران على شط الفرات، ثم عبور الجسر إلى الحلة، ثم سير الحاج إلى الكوفة. النص يذكر أيام الأسبوع دون تحديد سنة، فلا يُثبت هنا تاريخ هجري (الصفحات 205–212).", sources: [source/rihla-ibn-jubayr-1907] }
+  - { from: place/kufa, to: place/medina, mode: "طريق الحاج البري عبر البادية", note: "من الكوفة إلى العقبة ثم واقصة والغرعاء والشقرق وزبالة والهيثمين، ثم بركة المرجوم والبيداء وزرود وستميرة، ثم النقرناة، ثم الحاجر، ثم المدينة حيث أقاموا خمسة أيام (الصفحات 213–219).", sources: [source/rihla-ibn-jubayr-1907] }
+relations: []
+sources: [source/rihla-ibn-jubayr-1907]
+provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 205–219", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr-baghdad-medina" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Jubayr scan pp. 205–219 (scan numbering); the text reads Baghdad to Medina in this stretch, not Medina to Baghdad; intermediate stations lack place ids" }
+
+waypoints:
+  - {"place": "place/baghdad", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "بغداد"}, "narrative": {"ar": "نقطة الانطلاق: بغداد. من بغداد إلى الحلة مروراً بالقرية وبالقنطرة والقراش وزريران على شط الفرات، ثم عبور الجسر إلى الحلة، ثم سير الحاج إلى الكوفة. النص يذكر أيام الأسبوع دون تحديد سنة، فلا يُثبت هنا تاريخ هجري (الصفحات 205–212)."}, "sources": ["source/rihla-ibn-jubayr-1907"]}
+  - {"place": "place/kufa", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "الكوفة"}, "narrative": {"ar": "من بغداد إلى الحلة مروراً بالقرية وبالقنطرة والقراش وزريران على شط الفرات، ثم عبور الجسر إلى الحلة، ثم سير الحاج إلى الكوفة. النص يذكر أيام الأسبوع دون تحديد سنة، فلا يُثبت هنا تاريخ هجري (الصفحات 205–212)."}, "sources": ["source/rihla-ibn-jubayr-1907"]}
+  - {"place": "place/medina", "day": 3, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "المدينة المنورة"}, "narrative": {"ar": "من الكوفة إلى العقبة ثم واقصة والغرعاء والشقرق وزبالة والهيثمين، ثم بركة المرجوم والبيداء وزرود وستميرة، ثم النقرناة، ثم الحاجر، ثم المدينة حيث أقاموا خمسة أيام (الصفحات 213–219)."}, "sources": ["source/rihla-ibn-jubayr-1907"]}

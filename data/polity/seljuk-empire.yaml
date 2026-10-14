@@ -1,0 +1,49 @@
+id: polity/seljuk-empire
+class: polity
+kind: empire
+label:
+  ar: الدولة السلجوقية
+  en: Seljuk Empire
+summary:
+  ar: إمبراطورية قامت سنة 1037م وانتهت سنة 1194م، وعاصمتها نيسابور.
+  en: An empire established in 1037 CE and ended in 1194 CE; its capital was Nishapur.
+wings:
+- time
+- place
+periods:
+- period/buyid-seljuk-fatimid-era
+regions:
+- persia-central-asia
+- anatolia-balkans
+start:
+  edtf: "1037"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "1194-03-19"
+  calendar: julian
+  precision: day
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+capitals:
+- place: place/nishapur
+external_ids:
+  wikidata: Q3708094
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

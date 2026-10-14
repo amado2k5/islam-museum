@@ -1,0 +1,20 @@
+id: event/zaynab-ata-refusal
+class: event
+kind: other
+label: { ar: "عطاء زينب بنت جحش ودعاؤها", en: "Zaynab bint Jahsh's Stipend and her Prayer" }
+summary:
+  ar: "لما خرج العطاء أرسل عمر إلى زينب بنت جحش بالذي لها فلما أدخل إليها قالت غفر الله لعمر غيري من أخواتي كانت أقوى على قسم هذا مني قالوا هذا كله لك قالت سبحان الله واستترت منه بثوب ثم قالت صبوه واطرحوا عليه ثوباً ثم قالت لبرزة بنت رافع أدخلي يديك واقبضي منه قبضة فاذهبي بها إلى بني فلان وبني فلان من ذوي رحمها وأيتامها فقسمته حتى بقيت بقية تحت الثوب فقالت برزة غفر الله لك يا أم المؤمنين والله لقد كان لنا في هذا المال حق قل كم ما تحت الثوب فوجدوا تحته خمس مائة وثمانين درهماً ثم رفعت يدها إلى السماء فقالت اللهم لا يدركني عطاء لعمر بعد عامي هذا فماتت وفي رواية ابن شهاب فرض عمر لأزواج النبي اللاتي نكح نكاحاً اثني عشر ألف درهم وفرض لجويرية وصفية بنت حيي ستة آلاف ستة آلاف لأنهما كانتا مما أفاء الله على رسوله وفرض للمهاجرين الذين شهدوا بدراً خمسة آلاف وللأنصار الذين شهدوا بدراً أربعة آلاف وعم بفريضته كل صريح وحليف ومولى شهد بدراً وفي رواية مصعب بن سعد فرض لأهل بدر في ستة آلاف ولامهات المؤمنين في عشرة آلاف وفضل عائشة بألفين لحب رسول الله إياها وفرض لصفية وجويرية في ستة آلاف ولنساء من المهاجرات في ألف ألف منهن أم عبد وقال قيس بن أبي حازم فرض لأهل بدر عربهم ومواليهم في خمسة آلاف وقال لا فضلهم على من سواهم وكان فيهم خمسة من العجم منهم تميم الداري وبلال وسمع الشيخ عمر يقول لئن بقيت إلى قابل لألحقن سفلة المهاجرين في ألفين."
+  en: "When the stipends issued Umar sent Zaynab bint Jahsh hers; 'God forgive Umar — my sisters were worthier of sharing this than I' — 'it is all yours' — she veiled it with cloth, had Barza bint Rafi' take fistfuls to her kinsfolk and orphans till five hundred and eighty remained beneath, and prayed: 'God, let no stipend of Umar's reach me past this year' — and she died. Ibn Shihab's register: twelve thousand to the consummated wives, six each to Juwayriya and Safiyya as fay'-born, five thousand to Muhajir Badris, four to Ansari Badris, sarih and halif and mawla equal; Mus'ab ibn Sa'd's: six thousand Badris, ten thousand the mothers, Aisha plus two thousand for the Prophet's love; and of their five Ajam, Tamim al-Dari and Bilal. 'If I live to next year I will set the humblest Muhajirun at two thousand'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/zaynab-bint-jahsh, role: "المتصدقة الداعية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الفارض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/tamim-al-dari, role: "من عجم أهل بدر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/bilal-ibn-rabah, role: "من عجم أهل بدر", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

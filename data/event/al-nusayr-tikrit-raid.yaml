@@ -1,0 +1,26 @@
+id: event/al-nusayr-tikrit-raid
+class: event
+kind: raid
+label: { ar: "غارة النسير وحذيفة إلى تكريت", en: "al-Nusayr and Hudhayfa's Raid toward Tikrit" }
+summary:
+  ar: "عند البلاذري: وجّه التسير بن ديسم بن ثور من عين التمر إلى ماء لبني تغلب فطرقهم ليلاً فقتل وأسر ودلّه أسير أطلقه على حيّ من ربيعة فبيّتهم فغنم وسبى ومضى إلى ناحية تكريت في البر فغنم المسلمون. وعن أبي مسعود الكوفي: أتى عكبراء فأمّن أهلها وأخرجوا لمن معه طعاماً وعلفاً ثم مرّ بالبردان فأقبل أهلها يعدون من بين أيدي المسلمين فقال لهم لا بأس فكان ذلك أماناً ثم أتى المخرّم — ولم يكن يدعى يومئذ مخرّماً إنما نزله بعض ولد مخرّم بن حزن بن زياد بن أنس الديان الحارثي فسمّي به فيما ذكر الكلبي — ثم عبروا جسراً كان معقوداً عند قصر سابور الذي يعرف اليوم بقصر عيسى بن علي فخرج إليه خرزاد بن ماهبنذاذ وكان موكلاً به فقاتلوه وهزموه ثم لجئوا فأتوا عين التمر. وقال الواقدي: وجّه المثنى بن حارثة النسير وحذيفة بن محصن بعد يوم الجسر وبعد انحيازه بالمسلمين إلى خفان في خلافة عمر في خيل فأوقعا بقوم من بني تغلب وعبرا إلى تكريت فأصابا نعماً وشاء وقال عتاب بن إبراهيم عن أبي مسعود إن التسير وحذيفة آمنوا أهل تكريت وكتبا لهم كتاباً أنفذه لهم عتبة بن فرقد السلمي حين فتح الطيرهان والموصل وذكر أيضاً أن النسير توجّه من قبل خالد بن الوليد فأغار على قرى بمسكن وقطربل فغنم منها غنيمة حسنة."
+  en: "In al-Baladhuri: al-Tusayr ibn Daysam ibn Thawr was sent from Ayn al-Tamr against a water of Banu Taghlib — he surprised them by night, killed and captured; a captive freed for guiding him to a Rabi'a clan led him to night-strike them for booty and captives, then he went to Tikrit's landward side and the Muslims took booty. Via Abu Mas'ud al-Kufi: he came to Ukbara' — its people safe-conducted, bringing food and fodder for his men — then passed al-Baradan whose people ran before the Muslims; he told them 'no harm' and that was their safe-conduct; then to al-Mukharrim — not yet called Mukharrim, only named after some descendant of Mukarram ibn Hazn ibn Ziyad ibn Anas al-Dayyan al-Harithi settled it, per al-Kalbi — then they crossed a bridge bound at Qasr Sabur, known today as Qasr Isa ibn Ali; Khurzad ibn Mahibandadh its garrisoned warden fought them and was routed, and they withdrew to Ayn al-Tamr. Al-Waqidi said: al-Muthanna ibn Haritha sent al-Nusayr and Hudhayfa ibn Mihsan after the Day of the Bridge and his withdrawal with the Muslims to Khaffan, in Umar's caliphate, with horse — they fell on some of Banu Taghlib, crossed to Tikrit and took cattle and sheep. Attab ibn Ibrahim via Abu Mas'ud: al-Tusayr and Hudhayfa safe-conducted Tikrit's people and wrote them a document which Utba ibn Farqad al-Sulami enforced for them when opening al-Tirhan and Mosul; it is also said al-Nusayr was sent by Khalid ibn al-Walid raiding villages at Maskin and Qatarrabul for a fine booty."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0634~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد يوم الجسر في خلافة عمر (البلاذري ص 348–349). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/tikrit }
+  - { type: occurred_at, target: place/ukbara, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-nusayr, role: "الغازي المسمى في نسخة التسير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hudhayfa-ibn-mihsan, role: "شريك الغارة والأمان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khurzad-ibn-mahibandadh, role: "الموكل المهزوم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/utba-ibn-farqad, role: "منفذ أمان تكريت", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 348–349"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-29
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/abd-al-rahman-enters-andalus
+class: event
+kind: founding
+label: { ar: "دخول عبد الرحمن الداخل الأندلس" }
+summary:
+  ar: "في سنة ثمان وثلاثين ومئة دخل عبد الرحمن بن معاوية بن هشام بن عبد الملك المرواني الأموي إلى الأندلس واستولى عليها وامتدت أيامه وبقيت الأندلس في يد أولاده إلى بعد الأربع مئة، وكان من أهل العلم والعدل وأمه بربرية فكانوا يقولون ملك الدنيا ابنا بربريتين المنصور وعبد الرحمن بن معاوية، وفي سنة ثمان وأربعين لم يبق خارجاً عن المنصور سوى جزيرة الأندلس فإنها غلب عليها عبد الرحمن لكنه لم يتلقب بأمير المؤمنين بل بالأمير فقط وكذلك بنوه {cite:tarikh-khulafa-minhaj-1434 p. 423-425}."
+  en: "In year 138 Abd al-Rahman ibn Muawiya ibn Hisham the Umayyad entered al-Andalus and seized it; his days extended and al-Andalus remained in his descendants' hands past the year 400. A man of learning and justice whose mother was Berber, they said: 'The world is ruled by two sons of Berber women — al-Mansur and Abd al-Rahman ibn Muawiya.' By year 148 nothing lay outside al-Mansur's sway but al-Andalus, held by Abd al-Rahman, who did not take the title Commander of the Faithful but only amir — as did his sons {cite:tarikh-khulafa-minhaj-1434 p. 423-425}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0756~", hijri: "0138", calendar: julian, precision: year, status: tradition, derived: true, note: "138؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 423}." }
+relations:
+  - { type: had_participant, target: person/al-mansur, role: "الخليفة المعاصر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/al-andalus, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 423–425"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-15
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

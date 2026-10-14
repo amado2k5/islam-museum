@@ -1,0 +1,27 @@
+id: person/abu-al-rum-ibn-umayr
+class: person
+label: { en: Abu al-Rum ibn Umayr, ar: "أبو الروم بن عمير" }
+names:
+  - { kind: full, lang: ar, value: "أبو الروم بن عمير بن هاشم بن عبد مناف بن عبد الدار" }
+  - { kind: kunya, lang: ar, value: "أبو الروم" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من بني عبد الدار، ذكره ابن إسحاق في سائر مهاجرة الحبشة."
+  en: Of Banu Abd al-Dar; Ibn Ishaq names him among the rest of the emigrants to Abyssinia.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص7)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-abd-dar, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 7", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

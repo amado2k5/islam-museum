@@ -1,0 +1,24 @@
+id: event/umar-ata-special
+class: event
+kind: other
+label: { ar: "خواص فرائض عمر وعدله في العطاء", en: "Umar's Special Stipends and Equity" }
+summary:
+  ar: "روى يزيد بن أبي حبيب أن عمر جعل عمرو بن العاص في مائتين لأنه أمير وعمير بن وهب الجمحي في مائتين لصبره على الضيق وبسر بن أبي أرطاة في مائتين لأنه صاحب فتح وقال رب فتح قد فتحه الله على يده وكتب إلى عمرو أن افرض لمن بايع تحت الشجرة في مائتين من العطاء وأبلغ ذلك لنفسك بأمرتك وافرض لخارجة بن حذافة في شرف العطاء لشجاعته وأعطى عامل له العرب وترك الموالي فكتب إليه عمر أما بعد فيحسب المرء من الشر أن يحقر أخاه المسلم وجعل عطاء عمار بن ياسر ستة آلاف درهم وعطاء سلمان أربعة آلاف وفرض للهرمزان في ألفين فلما وضع عمر الديوان قال أبو سفيان بن حرب أديوان مثل ديوان بني الأصفر إنك إن فرضت للناس اتكلوا على الديوان وتركوا التجارة فقال عمر لا بد من هذا فقد كثر في المسلمين وفرض عمر لدهقان نهر الملك ولابن النخيرتان ولخالد وجميل ابني بسبهر ولسطام بن تريسي دهقان بابل وخطيرنية وللرفيل دهقان العال وللهرمزان ولجيفينة العبادي في ألف ألف ويقال إنه فضل الهرمزان ففرض له ألفين وكتب إلى أمراء الأجناد ومن أعتقتم من الحمراء فأسلموا فألحقوهم بمواليهم لهم ما لهم وعليهم ما عليهم وإن أحبوا أن يكونوا قبيلة وحدهم فاجعلهم أسوة في العطاء وعن أبي عبيدة أن رجالاً من أهل البادية سألوه أن يرزقهم فقال والله لا أرزقكم حتى أرزق أهل الحاضرة وكتب عمر بن عبد العزيز إلى يزيد بن حصين أن مر للجند بالفريضة وعليك بأهل الحاضرة وكان عمر لا يعطي أهل مكة عطاء ولا يبعث بهم بعثاً وقال سعداً فرض لمن قرأ القرآن في ألفين فكتب إليه عمر لا تمط على القرآن أحداً."
+  en: "Yazid ibn Abi Habib: Umar set Amr ibn al-As at two hundred as amir, Umayr ibn Wahb al-Jumahi at two hundred for his patience in want, Busr ibn Abi Artat at two hundred as a man of conquest — 'many a conquest God wrought by his hand' — and wrote Amr to set the Tree-pledgers at two hundred, take that himself as amir, and put Kharija ibn Hudhafa in sharaf al-ata' for his courage. A governor who paid Arabs and left mawali got his letter: 'it suffices a man for evil to scorn his Muslim brother'; Ammar ibn Yasir's stipend was six thousand, Salman's four, Hurmuzan's two. When the diwan was laid down Abu Sufyan ibn Harb said 'a diwan like Banu al-Asfar's — pay them and they will lean on it and leave trade'; Umar: 'it must be — the Muslims have grown'. Stipends went to the dahqans too — Nahr al-Malik's, Ibn al-Nukhayrajan, Khalid and Jamil sons of Busubuhri, Sistam ibn Tarisi of Babil and Khutarniya, al-Rufayl of al-Al, and Ju'ayfina al-Abadi at a thousand each — and his letter to the jund-commanders attached every freed Hamra' convert to his mawali 'theirs what is theirs, on them what is on them', or formed them into a tribe equal in stipend. Abu Ubayda refused the badia till the hadara were provided, Umar II wrote the same to Yazid ibn Husayn, and Umar gave Mecca's people no stipend and sent them on no expedition."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الفارض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "في مائتين أميراً", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/busr-ibn-abi-artat, role: "في مائتين صاحب فتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ammar-ibn-yasir, role: "في ستة آلاف", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salman-al-farisi, role: "في أربعة آلاف", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "المعترض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/kharija-ibn-hudhafa, role: "في شرف العطاء", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "الشاكر على الترتيب", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

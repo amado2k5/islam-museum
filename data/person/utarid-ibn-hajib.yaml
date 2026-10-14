@@ -1,0 +1,25 @@
+id: person/utarid-ibn-hajib
+class: person
+label: { en: "Utarid ibn Hajib", ar: "عُطَارِد بن حاجب" }
+names:
+  - { kind: full, lang: ar, value: "عطارد بن حاجب التميمي" }
+gender: male
+roles: []
+summary:
+  en: "The orator whom the chiefs of Banu Tamim put forward in the boasting contest at the Prophet's mosque in 9 AH; Thabit ibn Qays ibn Shammas answered him, and al-Aqra' ibn Habis judged the Muslims' orator superior — whereupon the delegation accepted Islam."
+  ar: "خطيب وفد بني تميم العشرة الذين قدموا المدينة إثر سرية عيينة سنة 9هـ؛ قدّموه للمفاخرة فأجابه ثابت بن قيس بن شماس خطيب الإسلام، فقال الأقرع بن حابس: خطيبه أخطب من خطيبنا، فأسلموا."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631" }, status: tradition, note: "خطيب وفد بني تميم (الرحيق ص425-426).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "أسلم مع وفد رؤساء بني تميم.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/banu-tamim }
+  - { type: participated_in, target: event/sariyya-of-uyayna-to-banu-tamim, role: orator-of-the-tamim-delegation, sources: [source/mubarakpuri-raheeq] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 425-426" }

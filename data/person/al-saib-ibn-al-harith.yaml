@@ -1,0 +1,28 @@
+id: person/al-saib-ibn-al-harith
+class: person
+label: { en: Al-Sa'ib ibn al-Harith, ar: "السائب بن الحارث" }
+names:
+  - { kind: full, lang: ar, value: "السائب بن الحارث بن قيس" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من بني سهم، هاجر إلى الحبشة وجُرح بالطائف مع النبي وقُتل يوم فحل في خلافة عمر؛ ويقال قُتل يوم خيبر ويُشك فيه."
+  en: Of Banu Sahm; he emigrated to Abyssinia, was wounded with the Prophet at al-Ta'if and was killed on the day of Fahl in Umar's caliphate; it is also said he was killed on the day of Khaybar, which is doubted.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+died: { edtf: "0634/0644", calendar: julian, precision: year, status: debated, derived: true, note: "قال ابن إسحاق: جُرح بالطائف وقُتل يوم فِحْل في خلافة عمر، «ويقال: قُتل يوم خيبر، يُشك فيه»؛ التاريخ مشتق من مدة الخلافة", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/siege-of-taif, role: wounded, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/fahl, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iv" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

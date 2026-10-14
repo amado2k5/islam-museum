@@ -1,0 +1,31 @@
+id: person/farwa-ibn-musayk
+class: person
+label:
+  ar: فروة بن مسيك المرادي
+  en: Farwa ibn Musayk al-Muradi
+names:
+  - { kind: full, lang: ar, value: فروة بن مسيك المرادي }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "مرادي؛ بعثه النبي مع قيس بن هبيرة المكشوح إلى اليمن لقتال الأسود العنسي واستمالة الأبناء، فبلغهما باليمن وفاة النبي."
+  en: "A Muradi; the Prophet sent him with Qays ibn Hubayra al-Makshuh to Yemen to fight al-Aswad al-Ansi and win over the Abna', news of the Prophet's death reaching them on arrival."
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+relations:
+  - { type: participated_in, target: event/killing-of-al-aswad-al-ansi, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 147"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-6
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

@@ -1,0 +1,17 @@
+id: person/al-dahhak-ibn-khalifa
+class: person
+label: { en: Al-Dahhak ibn Khalifa, ar: "الضحاك بن خليفة" }
+names:
+  - { kind: full, lang: ar, value: "الضحاك بن خليفة" }
+gender: male
+summary:
+  ar: "ذكره ابن هشام فيمن كانوا في بيت سويلم حين أحرقه طلحة، فاقتحم من ظهر البيت فانكسرت رجله، وقال أبياتاً في ذلك."
+  en: Ibn Hisham names him among those in Suwaylim's house when Talha burned it; he broke out of the back of the house and his leg was broken, and he spoke verses about it.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/burning-of-suwaylims-house, role: present-in-the-house, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 160", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 160" }

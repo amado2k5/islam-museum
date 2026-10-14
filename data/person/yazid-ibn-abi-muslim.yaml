@@ -1,0 +1,17 @@
+id: person/yazid-ibn-abi-muslim
+class: person
+label: { ar: "يزيد بن أبي مسلم" }
+summary:
+  ar: "عند البلاذري: مولى الحجاج بن يوسف ولّاه يزيد بن عبد الملك إفريقية والمغرب فقدمها سنة اثنتين ومائة فوسم حرسه من البربر على أيديهم بكلمة «حرسي» فتضافروا على قتله في مصلاه لصلاة المغرب.، وأدخل على سليمان بن عبد الملك مكبلاً بالحديد فقال له سليمان عزمت عليك لتخبرني عن الحجاج أتراه يهوي بعد في جهنم أم قد استقر فيها فقال يا أمير المؤمنين قد بذل لكم نصحه وأحقن دونكم دمه وأمن وليكم وأخاف عدوكم وإنه يوم القيامة لعن يمين أبيك عبد الملك ويسار أخيك الوليد فاجعله حيث شئت، فأطلقه سليمان وقال قبحه الله ما كان أحسن ترتيبه لنفسه ولصاحبه {cite:muruj-al-dhahab p. 167}"
+  en: "In al-Baladhuri: al-Hajjaj ibn Yusuf's mawla; Yazid ibn Abd al-Malik gave him Ifriqiya and the Maghreb, and he came in year 102 — he branded his Berber guard 'my guard' on their hands, so they conspired and killed him in his prayer-place at maghrib."
+gender: male
+died: { hijri: "0102~", precision: year, status: tradition, note: "قدومه سنة 102 وقُتل بعدها (البلاذري ص 324)" }
+relations:
+  - { type: participated_in, target: event/killing-of-yazid-ibn-abi-muslim, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 324"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-22
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: person/ibn-iyas-muhammad-ibn-ahmad
+class: person
+label: { ar: "ابن إياس محمد بن أحمد", en: "Ibn Iyas, Muhammad ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "أبو البركات محمد بن أحمد بن إياس الناصري الجركسي الحنفي" }
+gender: male
+roles: [historian]
+traditions: [sunni]
+born: { edtf: "1448", hijri: "0852", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1524", hijri: "0930", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عمدة المؤرخين في آخر عهد المماليك بمصر والشام، وفي أول الحكم العثماني، ومن الحنفية."
+  en: "The leading historian of the last Mamluk period in Egypt and Syria and the early Ottoman period. A Hanafi."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. historian, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 صhistorian", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

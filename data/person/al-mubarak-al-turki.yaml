@@ -1,0 +1,16 @@
+id: person/al-mubarak-al-turki
+class: person
+label: { ar: "المبارك التركي", en: "al-Mubarak al-Turki" }
+summary:
+  ar: "المبارك التركي مولى موسى الهادي؛ بنى بقزوين حصناً يسمى مدينة المبارك وبها قوم من مواليه."
+  en: "Al-Mubarak al-Turki, mawla of Musa al-Hadi; built at Qazwin the fortress called Madinat al-Mubarak, peopled by his own clients."
+periods: [period/abbasid-early]
+relations:
+  - { type: lived_in, target: place/qazwin }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

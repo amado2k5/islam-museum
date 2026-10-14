@@ -8,7 +8,7 @@ roles: [companion]
 traditions: [sunni]
 summary:
   en: "A Qurashi Companion from Banu al-Muttalib (nephew of Sawda bint Zam'a); at the Battle of Hunayn, his spirited horse named al-Janah bolted and threw him, leading to his martyrdom."
-  ar: "صحابي قرشي من بني المطلب بن أسد (ابن أخي سودة بنت زمعة أم المؤمنين)؛ استشهد يوم حنين بعد أن جمح به فرس له يقال له الجناح فصرعه وقتله."
+  ar: "صحابي قرشي من بني أسد بن عبد العزى (ابن أخي سودة بنت زمعة أم المؤمنين)؛ ذكره ابن إسحاق في مهاجرة الحبشة، واستشهد يوم حنين بعد أن جمح به فرس له يقال له الجناح فصرعه وقتله."
 wings: [people]
 themes: [battles]
 periods: [period/prophetic-era]
@@ -20,7 +20,10 @@ faith:
   - { value: sunni, basis: tradition, note: "صحابي شهيد حنين." }
 relations:
   - { type: member_of, target: group/quraysh }
+  - { type: member_of, target: group/banu-asad, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/battle-of-hunayn, role: martyr, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 101", generated_by: "Devin", run: "ibn-hisham-batch-2a" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 101" }
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 101; restored and merged with p. 7 by Claude Sonnet 5.5" }

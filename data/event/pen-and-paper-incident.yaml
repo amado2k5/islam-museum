@@ -1,0 +1,33 @@
+id: event/pen-and-paper-incident
+class: event
+kind: other
+label: { en: "The pen-and-paper incident", ar: "قصة الكتاب يوم الخميس" }
+summary:
+  en: "On the Thursday four days before his death the Prophet said 'bring me [something] to write for you a document after which you will never go astray'; Umar said pain had overcome him and the Qur'an sufficed, the people of the house disputed, and the Prophet sent them away — an episode the traditions read differently."
+  ar: "يوم الخميس قبل الوفاة بأربعة أيام قال النبي: هلمّوا أكتب لكم كتاباً لن تضلوا بعده، فقال عمر: قد غلب عليه الوجع وعندكم القرآن حسبكم كتاب الله، فاختلف أهل البيت واختصموا فلما أكثروا اللغط قال: قوموا عني — وتقرأه التقاليد قراءات مختلفة."
+wings: [people]
+themes: [sects-and-schools, creed]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-05-26~", hijri: "0011-03-08", calendar: julian, precision: day, status: tradition }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/umar-ibn-al-khattab }
+  - { type: had_participant, target: person/abdullah-ibn-abbas }
+  - { type: part_of, target: event/death-of-the-prophet }
+issue: { ar: "كيف تفهم المصادر والتقاليد قصة الكتاب يوم الخميس ودلالتها على الخلافة؟", en: "How do the sources and traditions understand the story of the writing on the Thursday and its bearing on the succession?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Sunni readings hold that Umar feared for the Prophet's strength and judged the Qur'an sufficient guidance; Ibn Abbas still called the day a calamity for the lost writing, and the three bequests of that day are preserved separately.", ar: "ترى القراءة السنية أن عمر رقّ بحال النبي واكتفى بحسبهم كتاب الله؛ ومع ذلك سمّى ابن عباس اليوم رزية لفوات الكتاب، وتُروى وصايا ذلك اليوم الثلاث مستقلة." }
+    sources: [source/sahih-al-bukhari]
+  - tradition: academic
+    id: academic
+    summary: { en: "Academic historians treat the report — preserved chiefly through Bukhari's chapter 'the Prophet's illness' — as a later-stage controversy over succession whose wording cannot be reconstructed.", ar: "يتعامل المؤرخون مع الخبر — المحفوظ أساساً في باب مرض النبي من البخاري — بوصفه خلافاً لاحقاً حول الخلافة لا يمكن إعادة بناء نصّه." }
+  - tradition: shia-twelver
+    id: shia-twelver
+    summary: { en: "Twelver Shia tradition reads the incident as the deliberate blocking of a written designation of Ali, and counts 'the calamity of Thursday' among the proofs of withheld succession.", ar: "تقرأ التقاليد الشيعية الاثني عشرية الواقعة منعاً متعمداً لكتابة نص على علي، وتعد «رزية يوم الخميس» من أدلتها على إقصاء الخلافة." }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

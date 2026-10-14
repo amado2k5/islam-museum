@@ -1,0 +1,81 @@
+id: person/zaynab-bint-muhammad
+class: person
+label:
+  ar: زينب بنت محمد
+  en: Zaynab bint Muhammad
+names:
+- kind: full
+  lang: ar
+  value: زينب بنت محمد بن عبد الله بن عبد المطلب القرشية الهاشمية
+gender: female
+died:
+  edtf: "0629~"
+  hijri: "0008"
+  calendar: julian
+  precision: year
+  status: tradition
+  note: توفيت في أول سنة ثمان من الهجرة (عن عبد الله بن أبي بكر بن حزم، كما في الإصابة)؛ ويذكر الكتاب وفاتها سنة ثمان متأثرة بمرض النزف الذي لازمها منذ هجرتها (نساء حول الرسول ص399).
+  sources:
+  - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أكبر بنات النبي وأول من تزوج منهن؛ زوجها أبو العاص بن الربيع، وأجارته في المدينة، وأعادها النبي إليه بعد إسلامه، وتوفيت في أول سنة 8هـ.
+  en: The Prophet's eldest daughter, married to Abu al-As ibn al-Rabi; she gave him protection in Medina, the Prophet returned her to him after he embraced Islam, and she died at the start of 8 AH.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 11302 (ص 1887).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/khadija
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/abu-al-as-ibn-al-rabi
+  note: تزوجها أبو العاص بن الربيع قبل الوحي؛ فدتْه يوم بدر بقلادة أدخلتها بها أمها خديجة عليه، وقدّم لها أخوه كنانة بن الربيع بعيراً يوم خروجها مهاجرة (نساء حول الرسول ص444-446).
+  sources:
+  - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
+- type: sibling_of
+  target: person/fatima
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11302، ص 1887 (تراجم النساء)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-women-1
+sources:
+- source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1887, entry 11302)

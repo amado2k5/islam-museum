@@ -22,13 +22,16 @@ relations:
   - { type: had_participant, target: person/fartana, role: proscribed-singer, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/sara-al-mawla, role: proscribed-then-pardoned, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: executor-of-order, sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "لماذا أُهدرت دماء من أُهدرت يوم فتح مكة، ومن شملهم العفو؟", en: "Why were certain people proscribed on the day Mecca was taken, and who was pardoned?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary:
       ar: "يرى التراث السني أن الإهدار لم يكن لأجل الشرك بل لجرائم جنائية محددة ارتكبها أصحابها (كالقتل العمد بعد الغدر وأخذ الصدقة، ونخس بنات النبي، والتحريض الحربي)، وأن العفو النبوي شمل كل من جاء تائبًا ومستأمنًا كابن أبي سرح وعكرمة."
       en: "Sunni scholarship maintains that the death decrees targeted specific capital crimes (murder coupled with treason, severe physical assault of non-combatants, and war incitement), not polytheism itself, and highlights that anyone who genuinely sought protection and repented was pardoned."
     sources: [source/ibn-hisham-saqqa]
   - tradition: academic
+    id: academic
     summary:
       ar: "يدرس المؤرخون قائمة المهدرة دماؤهم بوصفها تدبيرًا استثنائيًا ومحدودًا للغاية استهدف كسر شوكة أشد المعارضين والمنشقين سياسيًا عن الجماعة المسلمة، ويشيرون إلى تفاوت الروايات المبكرة في أسماء وأعداد المستثنين وفي مصائر بعضهم."
       en: "Modern historians analyze the proscription as a selective, highly contained political-judicial measure targeting key ideological opponents, apostate officials, and perpetrators of specific outrages, noting that early sources display small variations in the exact roster of names and ultimate fates."

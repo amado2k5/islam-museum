@@ -1,0 +1,16 @@
+id: work/tarikh-al-rusul-wa-al-muluk
+class: work
+kind: book
+genre: [history, annals]
+label: { ar: "تاريخ الرسل والملوك", en: "Tarikh al-Rusul wa'l-Muluk (The History of Prophets and Kings)" }
+summary:
+  ar: "تاريخ عام مرتب على السنين الهجرية، من بدء الخلق إلى سنة 302هـ، ألفه محمد بن جرير الطبري (ت 310هـ). يبدأ بأخبار الأنبياء والأمم القديمة وملوك الفرس، ثم يتتبع الخلافة والفتوح والفتن سنة بسنة."
+  en: "A universal chronicle arranged by Hijri year, from the creation to 302 AH, by Muhammad ibn Jarir al-Tabari (d. 310 AH). It opens with the prophets and earlier peoples and Persian kings, then follows the caliphate, the conquests and the civil strife year by year."
+wings: [time, words]
+themes: [history-writing-and-social-thought, prophets]
+made: { by_muslims: true, basis: documented, sources: [source/tabari-tarikh-abu-al-fadl] }
+language: language/arabic
+structure: "Eleven juz' in the Dar al-Ma'arif edition (scans trm01 to trm11). Year ranges below are the Hijri years of the year markers ('دخلت سنة') found in each juz' by OCR, first and last marker only. juz' 1 and 2: pre-Islamic narratives, no year markers. juz' 3: AH 7 to 15. juz' 4: AH 16 to 36. juz' 5: AH 37 to 65. juz' 6: AH 81 to 103 (no marker found for 66 to 80; to be checked against the printed text). juz' 7: AH 104 to 146. juz' 8: AH 147 to 218. juz' 9: AH 219 to 270. juz' 10: AH 271 to 302. juz' 11: marker years 291 to 320 (overlaps juz' 10 for 291 to 302; boundary to be checked), with indexes (fihrist) at the end of the volume."
+sources: [source/tabari-tarikh-abu-al-fadl]
+provenance: { layer: own-research, source: "Apple Vision OCR of the Dar al-Ma'arif scans, year markers and headings read from the OCR text" }
+status: { review: draft, completeness: 2, generated_by: "Claude (Haiku 5.5) from Apple Vision OCR; year ranges are marker-derived and need a human check against the printed juz' boundaries" }

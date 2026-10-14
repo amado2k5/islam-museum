@@ -1,0 +1,31 @@
+id: event/sariyya-of-uyayna-to-banu-tamim
+class: event
+kind: raid
+label: { en: "Uyayna ibn Hisn's raid on Banu Tamim", ar: "سرية عيينة بن حصن الفزاري إلى بني تميم" }
+summary:
+  en: "In Muharram 9 AH the Prophet sent Uyayna ibn Hisn al-Fazari with fifty horsemen — none Muhajirun or Ansar — against Banu Tamim, who had been inciting tribes and withholding jizya; he surprised them in the desert and took eleven men, twenty-one women and thirty children to Medina, where ten of their chiefs came for the famous oratory and poetry contest; al-Aqra' ibn Habis declared the Muslims' orator and poet superior, they accepted Islam, and their families were returned."
+  ar: "بعث النبي عيينة بن حصن الفزاري في المحرم سنة 9هـ في خمسين فارساً ليس فيهم مهاجري ولا أنصاري إلى بني تميم وقد أغروا القبائل ومنعوهم أداء الجزية؛ فهجم عليهم في الصحراء فأخذ أحد عشر رجلاً وإحدى وعشرين امرأة وثلاثين صبياً وأنزلهم دار رملة بنت الحارث؛ وقدم عشرة من رؤسائهم فتفاخر خطيبهم عطارد بن حاجب مع ثابت بن قيس خطيب الإسلام، وأنشد شاعرهم الزبرقان بن بدر فأجابه حسان بن ثابت على البديهة، فقال الأقرع بن حابس: خطيبه أخطب من خطيبنا وشاعره أشعر من شاعرنا، فأسلموا فأجازهم النبي ورد عليهم نساءهم وأبناءهم."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions, converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631-01", hijri: "0009-01", calendar: julian, precision: month, status: tradition, note: "في المحرم سنة 9هـ؛ وأهل المغازي ذكرواها في المحرم وفيه نظر لأن الأقرع بن حابس كان مسلماً قبلها (الرحيق ص426 هامش).", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: dispatched-and-received-the-chiefs, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uyayna-ibn-hisn, role: raid-commander, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/utarid-ibn-hajib, role: orator-of-banu-tamim, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/thabit-ibn-qays, role: orator-of-islam, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-zibriqan-ibn-badr, role: poet-of-banu-tamim, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hassan-ibn-thabit, role: poet-of-islam, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-aqra-ibn-habis, role: witnessed-and-conceded-oratorical-superiority, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim detachment", ar: "سرية المسلمين" }
+    participants: [group/early-muslims]
+    commanders: [person/uyayna-ibn-hisn]
+  - label: { en: "Banu Tamim", ar: "بنو تميم" }
+    participants: [group/banu-tamim]
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 425-426" }

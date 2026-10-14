@@ -1,0 +1,19 @@
+id: event/birun-sadusan-sulh
+class: event
+kind: treaty
+label: { ar: "صلح البيرون وسدوسان", en: "The Sulh of al-Birun and Sadusan" }
+summary:
+  ar: "أتى محمد بن القاسم البيرون وكان أهلها بعثوا سنتيين منهم إلى الحجاج فصالحوه فأقاموا لمحمد العلوفة وأدخلوه مدينتهم ووفوا بالصلح وجعل محمد لا يمر بمدينة إلا فتحها حتى عبر نهراً دون مهران فأتاه سمنية سربنديس فصالحوه عمن خلفهم ووظف عليهم الخراج وسار إلى سهبان ففتحها ثم سار إلى مهران فنزل في وسطه فبلغ ذلك داهر واستعد لحربه وبعث محمد بن القاسم محمد بن مصعب بن عبد الرحمن الثقفي إلى سدوسان في خيل وحمرات فطلب أهلها الأمان والصلح وسفر بينه وبينهم السمنية فأمنهم ووظف عليهم خراجاً وأخذ منهم رهناً وانصرف إلى محمد ومعه من الزط أربعة آلاف فصاروا مع محمد وولى سدوسان رجلاً."
+  en: "Al-Birun's folk, having already sent envoys who truced with al-Hajjaj, brought fodder and opened their city — and Muhammad let no town pass unconquered. Beyond the river before Mihran, the samaniyya of Sarbindis truced for those behind them at a set kharaj; Sahban fell; at Mihran Dahir prepared. Muhammad ibn Mus'ab al-Thaqafi rode on Sadusan with horse and donkey-men; the samaniyya brokered its aman — kharaj, hostages, and four thousand Zutt who joined the army."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad-ibn-musab, role: "أمير السرية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/birun }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

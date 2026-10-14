@@ -1,0 +1,40 @@
+id: event/uhud-tactical-deployment
+class: event
+kind: other
+label:
+  ar: التوزيع التكتيكي لجيش المسلمين في أحد
+  en: Tactical Deployment of the Muslim Army at Uhud
+summary:
+  ar: توزيع القوات على الميمنة والميسرة، وتعيين خمسين رامياً على جبل الرماة لحماية ظهر الجيش.
+  en: The distribution of forces on the right and left wings, and the appointment of fifty archers on the Archers' Hill to protect the army's rear.
+wings:
+- time
+- people
+- place
+periods:
+- period/prophetic-era
+regions:
+- arabia
+date:
+  start:
+    edtf: 0625-03
+    hijri: 0003-10
+    calendar: julian
+    precision: month
+    status: tradition
+    note: شوال سنة 3هـ كما في الرحيق المختوم؛ التحويل إلى الميلادي مشتق.
+relations:
+- type: occurred_at
+  target: place/archers-hill
+- type: part_of
+  target: event/battle-of-uhud
+provenance:
+  layer: own-research
+  source: الرحيق المختوم (source/mubarakpuri-raheeq) p.255
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+sources:
+- source/mubarakpuri-raheeq
+status:
+  review: draft

@@ -1,0 +1,22 @@
+id: event/qutuz-murder-baybars-accession
+class: event
+kind: other
+label: { ar: "قتل المظفر قطز وسلطنة بيبرس" }
+summary:
+  ar: "كان المظفر عزم على التوجه إلى حلب لينظف آثار البلاد من التتار فبلغه أن بيبرس تنكر له وعمل عليه فرجع إلى مصر وقد أضمر الشر لبيبرس وأسر ذلك إلى بعض خواصه فأطلع على ذلك بيبرس فاتفق بيبرس وجماعة من الأمراء على قتل المظفر فقتلوه في الطريق في سادس عشر ذي القعدة سنة ثمان وخمسين وتسلطن بيبرس ولقب بالملك القاهر ودخل مصر وأزال عن أهلها ما كان المظفر قد أحدثه عليهم من المظالم وأشار عليه الوزير زين الدين بن الزبير بأن يغير هذا اللقب وقال ما لقب به أحد فأفلح لقب به القاهر بن المعتضد فخلع بعد قليل وسمل ولقب به القاهر ابن صاحب الموصل فسم فأبطل السلطان هذا اللقب وتلقب بالملك الظاهر {cite:tarikh-khulafa-minhaj-1434 p. 721}. وفي شذرات الذهب طمع البندقداري في أخذ حلب وكان وعده بها المظفر ثم رجع فتأثر وأضمر الشر فلما رجع المظفر بعد شهر إلى مصر مضمراً للبندقداري الشر فوافق ركن الدين على مراده عدة أمراء وكان الذي ضربه بالسيف فحل كتفه بكتفت الجوكندار المغربي ثم رماه بهادر المغربي بسهم قضى عليه وذلك يوم سادس عشر ذي القعدة بقرب قطية وتسلطن في آخر السنة ركن الدين البندقداري الملك الظاهر بيبرس {cite:shadharat-dhahab p. 299}."
+  en: "Al-Muzaffar turned home nursing ill for Baybars; forewarned, Baybars and amirs killed him on the road, 16 Dhu'l-Qa'da 658. Baybars took the sultanate as al-Malik al-Qahir, lifted the wrongs al-Muzaffar had laid on Egypt — then vizier Ibn al-Zubayr warned no bearer of that laqab had thrived: al-Qahir ibn al-Mu'tadid deposed and blinded, Mosul's lord's son poisoned — so he took al-Malik al-Zahir {cite:tarikh-khulafa-minhaj-1434 p. 721}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1260-10-24~", hijri: "0658-10-16", calendar: julian, precision: day, status: tradition, derived: true, note: "16 ذي القعدة 658؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 721}." }
+relations:
+  - { type: had_participant, target: person/baybars, role: "السلطان الجديد", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/qutuz, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 714–723"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-46
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

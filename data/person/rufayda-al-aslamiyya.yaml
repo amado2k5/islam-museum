@@ -1,0 +1,27 @@
+id: person/rufayda-al-aslamiyya
+class: person
+label: { en: "Rufayda al-Aslamiyya", ar: "رفيدة الأسلمية" }
+names:
+  - { kind: full, lang: ar, value: "رفيدة الأسلمية الأنصارية" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "An Ansari Companion of Banu Aslam remembered for her medical tent pitched in the Prophet's mosque; the wounded Sa'd ibn Mu'adh was placed under her care after he was struck by an arrow at the Battle of the Trench, and she nursed the sick and injured from her own means."
+  ar: "صحابية أنصارية من بني أسلم اشتهرت بخيمتها الطبية المضروبة في المسجد النبوي؛ وضع فيها النبي سعد بن معاذ حين أصابه سهم يوم الخندق لتعوده من قريب، وكانت تمرّض المرضى والجرحى على نفقتها الخاصة."
+wings: [people]
+themes: [women, medicine]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: lived_in, target: place/medina }
+  - { type: member_of, target: group/aslam }
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-the-trench, role: "تمرّض الجرحى في خيمتها بالمسجد؛ وُضع عندها سعد بن معاذ حين أصابه السهم (نساء حول الرسول ص232-233)", sources: [source/nisa-hawl-alrasul] }
+sources: [source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 1, generated_by: "Devin; Nisa' Hawl al-Rasul pp. 232-233, lib-nisa-hawl-rasul" }
+provenance: { layer: own-research, source: "نساء حول الرسول (المكتبة العصرية 2015) ص232-233؛ ينقل عن الإصابة 8/81 ترجمة 422", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }

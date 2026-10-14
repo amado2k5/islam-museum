@@ -1,0 +1,22 @@
+id: person/abd-al-ghaffar-al-akhras
+class: person
+label: { ar: "عبد الغفار الأخرس", en: "Abd al-Ghaffar al-Akhras" }
+names:
+  - { kind: full, lang: ar, value: "عبد الغفار بن عبد الوهاب بن وهب الأخرس" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+born: { edtf: "1805~", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1873~", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شاعر من الموصل ارتحل إلى بغداد ونشأ فيها، ولقب بالأخرس لحبسة في لسانه."
+  en: "A poet from Mosul who moved to Baghdad and grew up there. He was called al-Akhras because of a speech impediment."
+wings: [people, words]
+themes: [literature]
+periods: [period/modern-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 360, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص360", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

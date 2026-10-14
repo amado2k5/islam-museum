@@ -1,0 +1,22 @@
+id: event/mutawakkil-badajoz-killing-489
+class: event
+kind: death
+label: { ar: "قتل يوسف بن تاشفين للمتوكل صاحب بطليوس" }
+summary:
+  ar: "كان المتوكل أبو حفص عمر بن محمد المعروف بساجة سلطان بطليوس إلى أن قتله يوسف بن تاشفين أمير المرابطين سنة 489هـ وقتل معه أولاده، أغراه به ابن عباد فلما تمكنت الاسترابة وشعر به كاتب يوسف واستحثه لمعاجلته قبل أن يتصل بالطاغية {cite:tarikh-ibn-khaldun-ibar p. 1001}."
+  en: "In 489 Yusuf b. Tashfin killed al-Mutawakkil Sahib Badajoz, known as Saja, together with his sons — instigated by Ibn Abbad, who had secretly urged Yusuf to strike before the taifa king joined the Castilian {cite:tarikh-ibn-khaldun-ibar p. 1001}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1095~", hijri: "0489", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة تسع وثمانين وأربعمائة عند ابن خلدون؛ مشتق {cite:tarikh-ibn-khaldun-ibar p. 1001}." }
+relations:
+  - { type: had_participant, target: person/yusuf-ibn-tashfin, role: "القاتل", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/al-mutamid, role: "المغرِي بالقتل", sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ibar-batch-10
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

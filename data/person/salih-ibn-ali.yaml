@@ -1,0 +1,17 @@
+id: person/salih-ibn-ali
+class: person
+label: { ar: "صالح بن علي", en: "Salih ibn Ali" }
+summary:
+  ar: "صالح بن علي بن عبد الله بن العباس، من أمراء الدعوة العباسية وأول ولاتها على الشام؛ عند البلاذري: بلغه أن قوماً بجبل لبنان شكوا عامل خراج بعلبك وأن الروم مالؤهم فأمدّهم بمن قتل مقاتلهم وأقرّ من بقي على دينهم وردّهم إلى قراهم وأجلى قوماً من أهل لبنان، فكتب إليه الأوزاعي رسالته المشهورة في إنكار أخذ العامة بذنوب الخاصة؛ وصارت دار الصباغين بالرملة لورثته إذ قبضت مع أموال بني أمية.، ورحل في طلب مروان بن محمد ومعه أبو عون عبد الملك بن يزيد وعامر بن إسماعيل المذحجي فلحقوه بمصر نازلاً ببوصير فهجموا على عسكره ليلاً ونادوا يا لثارات إبراهيم {cite:muruj-al-dhahab p. 233}"
+  en: "Salih ibn Ali ibn Abdullah ibn al-Abbas, prince of the Abbasid da'wa and its first governor over Syria; in al-Baladhuri: when word reached him that a company in Mount Lebanon had complained of Ba'labakk's kharaj administrator and that the Byzantines had abetted them, he sent troops who killed their fighters, kept the rest on their religion, returned them to their villages and exiled a company of Lebanon's people — whereupon al-Awza'i wrote him his famous letter decrying punishment of the many for the sins of the few; the House of the Dyers at al-Ramla passed to his heirs, seized with Umayyad wealth."
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/al-awzai-letter-to-salih, role: "الوالي المخاطَب", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 222، 195"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-12
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

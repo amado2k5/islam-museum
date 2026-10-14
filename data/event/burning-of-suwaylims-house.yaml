@@ -1,0 +1,19 @@
+id: event/burning-of-suwaylims-house
+class: event
+kind: other
+label: { ar: "تحريق بيت سويلم", en: "Burning of Suwaylim's house" }
+summary:
+  ar: "ينقل ابن هشام عن «الثقة» أن النبي بلغه أن ناساً من «المنافقين» يجتمعون في بيت سويلم اليهودي عند جاسوم يثبطون الناس عنه في غزوة تبوك، فبعث إليهم طلحة بن عبيد الله في نفر وأمره أن يحرق عليهم البيت؛ ففعل، واقتحم الضحاك بن خليفة من ظهر البيت فانكسرت رجله وأفلت أصحابه."
+  en: Ibn Hisham reports from 'a trusted source' that the Prophet was told that some of the 'hypocrites' were gathering in the house of Suwaylim the Jew at Jasum, discouraging people from him on the Tabuk campaign, so he sent Talha ibn Ubaydullah with a party and ordered him to burn the house down on them; he did so, and al-Dahhak ibn Khalifa rushed out of the back of the house and broke his leg while his companions escaped.
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/jasum, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: executor, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: sender, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 160", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 160" }

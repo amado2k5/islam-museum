@@ -1,0 +1,74 @@
+id: group/jahmiyya
+class: group
+kind: sect
+label:
+  ar: الجهمية
+issue:
+  ar: ما قول الجهمية في القرآن والكلام الإلهي، وكيف يحكم أهل العلم على من قال به؟
+summary:
+  ar: فرقة كلامية تُنسب إلى جهم، تقول في القرآن والصفات أقوالاً؛ ويصف الكتاب مقالاتهم كما نقلها أهل العلم الذين أدركهم المؤلف، ولم تُضف بعد أقوالهم بألفاظهم.
+wings:
+- ideas
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- sects-and-schools
+- dissent-heresy-freethought
+perspectives:
+- tradition: sunni-hanbali
+  id: book-account
+  stance:
+    ar: وصف مقالتهم كما ينقله الكتاب
+  summary:
+    ar: ينقل الكتاب أن الجهمية يزعمون أن القرآن مخلوق، وأن الله لم يكلم موسى، وأن الله ليس بمتكلم.
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 96
+  sources:
+  - source/madkhal-ibn-badran-turki
+- tradition: sunni-hanbali
+  id: ruling-as-reported
+  stance:
+    ar: حكم أهل العلم كما ينقله الكتاب
+  summary:
+    ar: ينقل الكتاب عن أهل العلم أن من بقي على قوله بعد الاستتابة يُعاقب، ولا يُناكح ولا يُقبل قضاؤه؛ وهذا حكم ينقله الكتاب ولا يتبناه المتحف.
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 54
+  sources:
+  - source/madkhal-ibn-badran-turki
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: تُعدّ فرقة من فرق الضلال في لمعة الاعتقاد، ويُنقل وصفها كما في الكتاب
+    en: Listed among the sects of misguidance in Lum'at al-i'tiqad; described as the book describes them
+  summary:
+    ar: يذكر ابن قدامة الجهمية في عداد فرق الضلال والبدع التي يهجرها أهل السنة، ويوردها المحقق في هامشه بأن أولها كان أواخر عصر التابعين بعد عمر بن عبد العزيز، وأن جهمًا أخذ عن الجعد بن درهم (ص 113–115
+      ط2).
+    en: Ibn Qudama lists this sect among the sects of misguidance; the editor's footnote gives its origin (2nd ed., pp. 113–115).
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad-ibn-uraiyir-2022
+    note:
+      ar: ص 113–115 (ط2)، هامش المحقق عن النشأة
+      en: pp. 113–115 (2nd ed.), editor's footnote on origins
+  sources:
+  - source/lumat-al-itiqad-ibn-uraiyir-2022
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-2-creed
+sources:
+- source/madkhal-ibn-badran-turki
+- source/lumat-al-itiqad-ibn-uraiyir-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from pp. 54, 96 of the book; the group's own words and the academic account are still to be added

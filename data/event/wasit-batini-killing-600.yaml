@@ -1,0 +1,20 @@
+id: event/wasit-batini-killing-600
+class: event
+kind: massacre
+label: { ar: "قتل الباطنية بواسط" }
+summary:
+  ar: "في رمضان من هذه السنة قتل الباطنية بواسط، وسببه أنه وردها رجل يعرف بالركم محمد بن طالب بن عصية أصله من القاروب من قرى واسط وكان باطنياً فنزل مجاوراً لدور بني الهروي فغشيه الناس وكثر أتباعه وكان ممن يغشاه رجل يعرف بحسن الصابوني، فاتفق أنه اجتاز بالسويقة فكلمه رجل نجار في مذهبهم فرد عليه الصابوني رداً غليظاً فقام إليه النجار وقتله، فتسامع الناس ووثبوا وقتلوا من وجدوا ممن ينتسب إلى المذهب وقصدوا دار ابن عصية وقد اجتمع إليه أصحابه وأغلقوا الباب وصعدوا السطح فصعد الناس إليهم من الدور المجاورة وكسروا الممارق فقتلوا من وجدوا في الدار وأحرقوها وقتل ابن عصية، فبلغ الخبر بغداد فانحدر فخر الدين أبو البدر بن أمسينا الواسطي لإصلاح الحال وتسكين الفتنة {cite:kamil-ibn-al-athir p. 293}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1204~", hijri: "0600~", calendar: julian, precision: year, status: tradition, derived: true, note: "في رمضان؛ وضعت السنة تقريبية إذ تالف عنوان صفحة المسح (ص 293) ويأتي الخبر في أعقاب حوادث سنة 600–601 {cite:kamil-ibn-al-athir p. 293}." }
+relations:
+  - { type: occurred_at, target: place/wasit, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 293"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-14
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

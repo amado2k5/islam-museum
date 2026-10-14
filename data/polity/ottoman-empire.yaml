@@ -1,0 +1,49 @@
+id: polity/ottoman-empire
+class: polity
+kind: empire
+label:
+  ar: الدولة العثمانية
+  en: Ottoman Empire
+summary:
+  ar: إمبراطورية قامت سنة 1299م وانتهت سنة 1922م، وعاصمتها القسطنطينية.
+  en: An empire established in 1299 CE and ended in 1922 CE; its capital was Constantinople.
+wings:
+- time
+- place
+periods:
+- period/gunpowder-empires
+regions:
+- anatolia-balkans
+- levant-iraq
+start:
+  edtf: "1299-07-29"
+  calendar: julian
+  precision: day
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "1922-11-17"
+  calendar: gregorian
+  precision: day
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+capitals:
+- place: place/constantinople
+external_ids:
+  wikidata: Q12560
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

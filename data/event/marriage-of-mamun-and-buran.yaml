@@ -1,0 +1,23 @@
+id: event/marriage-of-mamun-and-buran
+class: event
+kind: other
+label: { ar: "زواج المأمون ببوران" }
+summary:
+  ar: "في سنة عشر ومئتين تزوج المأمون بوران بنت الحسن بن سهل وبلغ جهازها أربعين تكة مجوهرة وعشرة من صناديق جوهر من اللآلئ واليواقيت وقام أبوها بخلع القواد وكلفتهم مدة سبعة عشر يوماً وكتب رقاعاً فيها أسماء ضياع له ونثرها على القواد والعباسيين فمن وقعت في يده رقعة باسم ضيعة سلمت له ونثر صينية ملأى جوهراً بين يدي المأمون عندما زفت إليه {cite:tarikh-khulafa-minhaj-1434 p. 487-488}.، وأمر المأمون بحمل خراج فارس وكور الأهواز إلى الحسن بن سهل سنة زفافه وقال محمد بن حازم الباهلي بارك الله للحسن ولبوران في الختن يا ابن هارون قد ظفرت ولكن ببنست من فلم يدر المأمون خيراً أراد أم شراً {cite:muruj-al-dhahab p. 424}"
+  en: "In year 210 al-Ma'mun married Buran bint al-Hasan ibn Sahl; her trousseau ran to forty jewelled girdles and ten chests of pearls and rubies. Her father gave the commanders their khil'a robes, feasted them seventeen days, scattered slips bearing names of his estates among the generals and Abbasids — whoever drew one took the property — and strewn a trayful of gems before al-Ma'mun as she was presented to him {cite:tarikh-khulafa-minhaj-1434 p. 487-488}."
+wings: [time, people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0825~", hijri: "0210", calendar: julian, precision: year, status: tradition, derived: true, note: "210؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 487-488}." }
+relations:
+  - { type: had_participant, target: person/abd-allah-al-mamun, role: "العريس", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/buran-bint-al-hasan-ibn-sahl, role: "العروس", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-hasan-ibn-sahl, role: "والد العروس", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 487–488"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-23
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

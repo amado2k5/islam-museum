@@ -1,0 +1,37 @@
+id: event/expedition-of-buhran
+class: event
+kind: campaign
+label: { en: "Expedition of Buhran", ar: "غزوة بحران" }
+summary:
+  en: "An expedition led by the Prophet with 300 men in Rabi' al-Thani 3 AH to Buhran in the direction of al-Furu'; stayed through Jumada al-Ula without encounter."
+  ar: "دورية قتال في ثلاثمائة مقاتل قادها النبي في ربيع الآخر سنة 3هـ إلى بحران بناحية الفرع في الحجاز لترصد تحركات المشركين؛ أقام بها شهرين ورجع دون قتال."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-10~", hijri: "0003-04", calendar: julian, precision: month, status: tradition, note: "في ربيع الآخر وجمادى الأولى سنة 3هـ (الرحيق ص245)" }
+relations:
+  - { type: occurred_at, target: place/buhran }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ibn-umm-maktum, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/ansar, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim army", ar: "جيش المسلمين" }
+    participants: [group/muhajirun, group/ansar]
+    commanders: [person/muhammad]
+    strength:
+      value: 300
+      status: tradition
+      note: "ثلاثمائة مقاتل من الصحابة"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Opponents (Quraysh / Banu Sulaym)", ar: "المشركون (قريش وبنو سليم)" }
+    participants: [group/quraysh, group/banu-sulaym]
+    strength:
+      status: tradition
+      note: "حشود ترصدها المسلمون بناحية الفرع ولم يقع قتال"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 245 citing Ibn Hisham 2/50–51 and Zad al-Maad 2/91" }

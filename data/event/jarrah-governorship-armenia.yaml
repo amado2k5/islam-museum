@@ -1,0 +1,26 @@
+id: event/jarrah-governorship-armenia
+class: event
+kind: campaign
+label: { ar: "ولاية الجرّاح بن عبد الله على أرمينية", en: "Al-Jarrah ibn Abdallah's Governorship of Armenia" }
+summary:
+  ar: "عند البلاذري: ولّى سليمان بن عبد الملك أرمينية عديّ بن عديّ بن عميرة الكندي — وكان عديّ بن عميرة ممن نزل الرقة مفارقاً لعلي بن أبي طالب — ثم ولّاه إياها عمر بن عبد العزيز وهو صاحب نهر عدي بالبيلقان، وروى بعضهم أن عامل عمر كان حاتم بن النعمان وليس ذلك بثبت؛ ثم ولّى يزيد بن عبد الملك معلق بن صفار البهراني ثم عزله وولّى الحارث بن عمرو الطائي فغزا أهل اللكز ففتح رستاق حسمدان، وولّى الجرّاح بن عبد الله الحكمي من مذحج أرمينية فنزل برذعة فرفع إليه اختلاف مكاييلها وموازينها فأقامها على العدل والوفاء واتخذ مكيالاً يدعى الجرّاحي فأهلها يتعاملون به إلى اليوم، ثم إنه عبر الكُرّ وسار حتى قطع النهر المعروف بالسمور وصار إلى الخزر فقتل منهم مقتلة عظيمة وقاتل أهل بلاد حمزين ثم صالحهم على أن نقلهم إلى رستاق."
+  en: "In al-Baladhuri: Sulayman ibn Abd al-Malik gave Armenia to Adi ibn Adi ibn Amira al-Kindi — Adi ibn Amira being one of those who settled al-Raqqa having parted with Ali ibn Abi Talib — then Umar ibn Abd al-Aziz appointed him, he being the owner of the Nahr Adi at al-Baylaqan, though some say Umar's governor was Hatim ibn al-Nu'man, which is unsound; then Yazid ibn Abd al-Malik appointed Mi'laq ibn Saffar al-Bahrani, removed him for al-Harith ibn Amr al-Ta'i, who raided the Lakz and took Rustaq Hamsadan; and al-Jarrah ibn Abdallah al-Hakami of Mudhhij governed Armenia, settling at Bardha'a, where its conflicting measures and weights were laid before him and he set them on justice and fulness, making a measure called al-Jarrahi which its people deal by to this day; then he crossed the Kurr and marched until he passed the river called al-Samur, reaching the Khazars and killing them in a great slaughter, and fought the people of Bilad Hamzin, then compounded with them to transfer them to a rustaq."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0717/0730", hijri: "0099~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة يزيد بن عبد الملك وما بعدها؛ مكياله الجراحي باقٍ زمن البلاذري (ص 289). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/bardhaa }
+  - { type: occurred_at, target: place/armenia }
+  - { type: had_participant, target: person/al-jarrah-ibn-abdallah-al-hakami, role: "الوالي ومقيم المكيال الجرّاحي وغازي الخزر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/adi-ibn-adi-al-kindi, role: "الوالي السابق وصاحب نهر عدي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sulayman-ibn-abd-al-malik, role: "مولّي عدي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "مولّي عدي أيضاً في الرواية الثبت", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 289"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-17
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

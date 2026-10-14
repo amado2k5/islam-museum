@@ -1,0 +1,22 @@
+id: event/hajjaj-anbar-canal
+class: event
+kind: other
+label: { ar: "حفر نهر الأنبار", en: "The Digging of the Anbar Canal" }
+summary:
+  ar: "عند البلاذري: سأل دهاقين الأنبار سعد بن أبي وقاص أن يحفر لهم نهراً كانوا سألوا عظيم الفرس حفره لهم فكتب إلى سعد بن عمرو بن حرام يأمره بحفره لهم فجمع الرجال لذلك فحفروه حتى انتهوا إلى جبل لم يمكن شقه فتركوه فلما ولي الحجاج العراق جمع الفعلة من كل ناحية وقال لقوامه انظروا إلى قيمة ما يأكل رجل من الحفارين في اليوم فإن كان وزنه مثل وزن ما يقلع فلا تمتنعوا من الحفر فأنفقوا عليه حتى استتموه فنسب ذلك الجبل إلى الحجاج ونسب النهر إلى سعد بن عمرو بن حرام وأمرت الخيزران أم الخلفاء أن يحفر النهر المعروف بمحدود فسمته الريان وكان وكيلها جعله أقساماً وحدّ كل قسم ووكل بحفره قوماً فسمي محدوداً وأما النهر المعروف بشيلى فإن بني شيلى بن فروخزادان المروزي يدعون أن سابور حفره لجدهم حين رتبه بنغيا من طسوج الأنبار والذي يقول غيرهم إنه نسب إلى رجل يقال له شيلى كان متقبلاً لحفره وكانت له عليه مبقلة في أيام المنصور وأن هذا النهر كان قديماً مندفناً."
+  en: "In al-Baladhuri: Anbar's dihqans asked Sa'd ibn Abi Waqqas to dig them a canal they had already asked Persia's lord to dig; he wrote to Sa'd ibn Amr ibn Haram ordering it dug — the men dug until reaching a mountain that could not be cut, and left it. When al-Hajjaj governed Iraq he gathered labourers from every quarter and told his overseers 'see what a digger eats in a day — if it weighs what he hews out, do not hold back from digging,' and they spent on it till finished; that mountain was named for al-Hajjaj and the river for Sa'd ibn Amr ibn Haram. Al-Khayzuran, mother of the caliphs, ordered the canal called Mahdud dug — she named it al-Rayyan — her agent dividing it into sections, each section bounded and a crew assigned to dig it, whence 'Mahdud'; as for the river called Shayla, the sons of Shayla ibn Farrukhzadhan al-Marwazi claim Sapur dug it for their grandfather when he installed him as nighya of Anbar's tassuj — while others say it was named for a man called Shayla who contracted its digging and held a mabqala over it in al-Mansur's days, the canal having been long buried."
+wings: [time, place]
+periods: [period/rashidun, period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "المتمم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sad-ibn-amr-ibn-haram, role: "الحافر الأول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "الآمر الأول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-khayzuran, role: "صاحبة نهر الريان", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 383"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-33
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

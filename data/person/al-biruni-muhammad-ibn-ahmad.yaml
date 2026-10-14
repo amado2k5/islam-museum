@@ -1,0 +1,22 @@
+id: person/al-biruni-muhammad-ibn-ahmad
+class: person
+label: { ar: "البيروني محمد بن أحمد", en: "Al-Biruni, Muhammad ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "أبو الريحان محمد بن أحمد البيروني" }
+gender: male
+roles: [scientist, scholar]
+traditions: [sunni]
+born: { edtf: "0973", hijri: "0362", calendar: julian, precision: year, status: tradition, sources: [source/kashf-zunun-furqan, source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1051", hijri: "0442", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "ولد بضراحي مدينة خوارزم، من كبار علماء الفلك والرياضيات والجغرافيا والتاريخ في عصره."
+  en: "Born in Kath, the old city of Khwarazm. One of the leading astronomers, mathematicians, geographers and historians of his age."
+wings: [people, words]
+themes: [astronomy-and-timekeeping, geography-and-cartography]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 274, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص274", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

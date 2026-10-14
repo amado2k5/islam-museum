@@ -1,0 +1,28 @@
+id: event/treaty-with-taghlib
+class: event
+kind: treaty
+label: { ar: "صلح نصارى بني تغلب", en: "The Treaty with the Christian Taghlib" }
+summary:
+  ar: "عند البلاذري بأسانيد متعددة: أراد عمر بن الخطاب أن يأخذ الجزية من نصارى بني تغلب فانطلقوا هاربين ولحقت طائفة منهم ببعد من الأرض وقطعوا الفرات يريدون أرض الروم فقال النعمان بن زرعة — أو زرعة بن النعمان — «أنشدك الله في بني تغلب فإنهم قوم من العرب نائفون من الجزية وهم قوم شديدة فكايتهم فلا يُغن عدوك عليك بهم» فأرسل عمر في طلبهم فردّهم وصالحهم على أن ضاعف عليهم الصدقة التي تؤخذ من المسلمين في كل سائمة وأرض؛ وبسند آخر كتب إليه عمر يأمره أن يضعف عليهم الصدقة وإن أبوا حاربهم حتى يبيدهم أو يسلموا فقبلوا أن يؤخذ منهم ضعف الصدقة وقالوا «أما إذ لم تكن جزية كجزية الأعلاج فإنا نرضى ونحفظ ديننا»؛ وصالحهم على أن لا يصبغوا صبياً ولا يكرهوه على دينهم — وكان داود بن كردوس يقول ليست لهم ذمة لأنهم قد صبغوا في دينهم يعني المعمودية — وكان علي يقول «لئن تفرغت لبني تغلب ليكونن لي فيهم رأي: لأقتلن مقاتلتهم ولأسبين ذريتهم، فقد نقضوا العهد وبرئت منهم الذمة حين نصّروا أولادهم»؛ وبعث عمر زياد بن حدير الأسدي يأخذ منهم نصف عشر أموالهم ناهياً إياه أن يعشر مسلماً أو ذمياً يؤدي الخراج؛ وأمر عثمان أن لا يقبل من بني تغلب في الجزية إلا الذهب والفضة فجاءه الخبر أن عمر أخذ منهم ضعف الصدقة فرجع عن ذلك؛ وعن الزهري ليس في مواشي أهل الكتاب صدقة إلا نصارى بني تغلب؛ وقال سفيان الثوري والأوزاعي ومالك بن أنس وابن أبي ذئب وأبو حنيفة وأبو يوسف: يؤخذ من التغلبي ضعف ما يؤخذ من المسلم في أرضه وماشيته وماله — فأما الصبي والمعتوه فأهل العراق يرون ضعف الصدقة من أرضه ولا يأخذون من ماشيته شيئاً وقال أهل الحجاز يؤخذ من ماشيته وأرضه — وقالوا جميعاً إن سبيل ما يؤخذ من أموال بني تغلب سبيل مال الخراج لأنه بدل من الجزية."
+  en: "In al-Baladhuri through multiple chains: Umar ibn al-Khattab meant to take jizya from the Christian Taghlib, who fled — a body crossing the Euphrates for Byzantine lands — until al-Nu'man ibn Zur'a — or Zur'a ibn al-Nu'man — adjured him: 'Banu Taghlib are Arabs who would scorn the jizya and are a people of stout valour; let not your enemy gain strength against you by them'; Umar sent after them, brought them back and compounded with them for a doubling of the sadaqa taken from the Muslims on every grazing herd and acre — another chain has Umar ordering they be fought till destroyed or converted if they refused — and they accepted, saying 'since it is no jizya like the jizya of foreigners, we accept and keep our religion'; the treaty bound them not to baptize a child nor coerce one into their faith — Dawud ibn Kurdus holding they therefore had no dhimma, meaning they baptized in their faith — and Ali would say 'were I free to deal with Banu Taghlib I should have my way: kill their fighters and take their children captive, for they broke the covenant, their dhimma lapsing when they Christianized their children'; Umar sent Ziyad ibn Hudayr al-Asadi to take of them a half-tithe of their wealth, forbidding him to tithe a Muslim or a kharaj-paying dhimmi; Uthman ordered only gold and silver accepted of them until word came that Umar had taken double-sadaqa, whereupon he retracted; al-Zuhri held there is no sadaqa on the People of the Book's herds save the Christian Taghlib; and Sufyan al-Thawri, al-Awza'i, Malik ibn Anas, Ibn Abi Dhi'b, Abu Hanifa and Abu Yusuf all hold that the Taghlibi pays double what a Muslim pays on his land, livestock and wealth — the Iraqis taking double-sadaqa from the minor and the incompetent's land but nothing of their livestock, the Hijazis from both — all agreeing that what is taken of Taghlib's wealth is disposed as kharaj-money, being a substitute for jizya."
+wings: [time, ideas, people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0640~", hijri: "0020~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة عمر بعد فتوح الجزيرة (البلاذري ص 249–252). التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "عاقد الصلح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/banu-taghlib, role: "المصالَحون على ضعف الصدقة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/zura-ibn-al-numan, role: "الشافع فيهم عند عمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أنكر عليهم تنصير الأولاد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ziyad-ibn-hudayr, role: "عامل نصف العشر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-hanifa, role: "من فقهاء ضعف الصدقة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/jizya, note: "البدل العربي: ضعف الصدقة سبيلها سبيل الخراج", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/dhimma, note: "اشتراط عدم تنصير الأولاد وإشكال الذمة فيه", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 249–252"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

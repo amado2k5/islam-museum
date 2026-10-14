@@ -1,0 +1,23 @@
+id: event/aleppo-succession-577
+class: event
+kind: other
+label: { ar: "مناقلة حلب من الموصل إلى سنجار" }
+summary:
+  ar: "في رجب سنة سبع وسبعين وخمسمائة توفي الملك الصالح إسماعيل بن نور الدين بحلب وقد أوصى بتسليمها إلى ابن عمه عز الدين مسعود صاحب الموصل دون زوج أخته عماد الدين صاحب سنجار، فدخلها عز الدين في العشرين من شعبان وهرب تقي الدين عمر ابن أخي صلاح الدين من منبج إلى حماة وثار أهلها بشعار عز الدين، وأشار عسكر حلب عليه بقصد دمشق فأبى وقال بيننا يمين فلا نغدر به؛ ثم لجّ عماد الدين يطلب حلب بدل سنجار ويهدد بتسليم سنجار إلى صلاح الدين، فأشار الأمراء بتسليمها وكان أشدهم في ذلك مجاهد الدين قايماز خوفاً من عظمة عز الدين في نفسه، فتسلم عماد الدين حلب وسلم سنجار لأخيه وعاد عز الدين إلى الموصل، وكان صلاح الدين بمصر قد عظم عليه ملك عز الدين حلب فلما بلغه ملك عماد الدين لها خرج من يومه إلى الشام {cite:kamil-ibn-al-athir p. 106-108}."
+wings: [time, place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1181~", hijri: "0577", calendar: julian, precision: year, status: tradition, derived: true, note: "رجب–شعبان 577؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 106-108}." }
+relations:
+  - { type: had_participant, target: person/al-malik-al-salih-ismail, role: "المتوفى الموصي", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/imad-al-din-zangi-ii, role: "من نالت حلب بمبادلة سنجار", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/izz-al-din-masud, role: "صاحب الموصل الذي دخلها بالوصية ثم نازل عنها", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 577، ص 106–108"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-03
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

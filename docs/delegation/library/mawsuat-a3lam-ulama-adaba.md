@@ -1,0 +1,50 @@
+# Library lane: موسوعة أعلام العلماء والأدباء العرب والمسلمين (ALECSO/Dar al-Jil 2004–2005)
+
+**Book:** موسوعة أعلام العلماء والأدباء العرب والمسلمين — المنظمة العربية للتربية والثقافة والعلوم (أليكسو)، بترخيص لدار الجيل للطباعة والنشر والتوزيع، بيروت، الطبعة الأولى 1425–1426هـ / 2004–2005م. ثمانية مجلدات على ترتيب حروف المعجم.
+**Book id:** `mawsuat-a3lam-ulama-adaba` · category `rijal` · branch `content/lib-mawsuat-a3lam` · stubs `data/_stubs.d/lib-mawsuat-a3lam.yaml`.
+
+**Edition and items used:** founder's local PDFs `~/Downloads/m-a-3-o-04/m-a-3-o-{01,02,03,04,05,07,08}.pdf` (kitabweb-2013.forumaroc.net scans). **Volume 6 is missing from the set.** OCR'd with Apple Vision into `books/rijal/mawsuat-a3lam-ulama-adaba/v01..v08/` (pages.json + meta.json per volume; page numbers are PDF page indices, printed-page offset to be established per volume).
+
+**Volume letter ranges (from running heads):**
+| File | PDF pages | Letter range |
+|---|---|---|
+| m-a-3-o-01 | 702 | الأبري – الأسير |
+| m-a-3-o-02 | 640 | (to be recorded) |
+| m-a-3-o-03 | 760 | (to be recorded) |
+| m-a-3-o-04 | 864 | (to be recorded) |
+| m-a-3-o-05 | 631 | (to be recorded) |
+| m-a-3-o-07 | 438 | (to be recorded) |
+| m-a-3-o-08 | 687 | (to be recorded) |
+
+**Plan:** the encyclopedia lists thousands of scholars and writers. Per `mining-sources.md`, existing museum persons (especially authors of registered works and prophetic-era/early figures) get corroborating `source/mawsuat-a3lam-ulama-adaba` citations with volume+page; missing notable scholars (e.g. authors of works already in the library, madhhab imams, famous historians/muhaddithin) get new draft entities. Priorities: (1) authors of existing `work/*` entities, (2) persons the museum already covers, (3) high-notability scholars absent from the graph. Claims `status: tradition`; the encyclopedia's uncertainty markers preserved. Entries are never republished as prose.
+
+**Done:**
+- (12 Oct 2026) Lane opened. `source/mawsuat-a3lam-ulama-adaba`, `work/mawsuat-a3lam-ulama-adaba`, stubs file, this progress file. Vision OCR of all 7 volumes running into the harvest workspace.
+- (12 Oct 2026) Batch 1a (vol. 1, pp. 273–277): Ibn al-Athir al-Jazari, Diya al-Din, Imad al-Din, Izz al-Din, Najm al-Din. Six works declared as stubs. Imad al-Din's birth year is printed inconsistently in the source (652 AH / 1245 CE); recorded as an uncertain CE year only.
+- (12 Oct 2026) Batch 1b (vol. 1, pp. 116–238): 13 Tier 2 entries: al-Amidi, Ibn al-Abbar, Aban al-Lahiqi, Abkarius, al-Abhari (Athir al-Din), al-Abhari (Abu Bakr), al-Abbi, Abd al-Hadi Naja al-Abyari, Ali al-Abyari, Abu al-Abbas al-Abyani, Ibn al-Abrash, al-Abraqawhi, al-Ibshitay. Printed date pairs conflicting in the source (Aban al-Lahiqi, al-Abbi's birth range) are recorded as approximate CE years only.
+- (12 Oct 2026) Batch 1c (vol. 1, pp. 116–504): 12 Tier 2 entries, including Ibn al-Ajdabi, al-Khalil al-Farahidi, Ibn al-Ahmar, al-Idrisi, Zaki al-Arsuzi and Hammad ibn Zayd. Tier 1 enrichment for the existing Ibn al-Athir entries is still pending.
+- (12 Oct 2026) Batch 1d (vol. 1, pp. 531–681): 9 Tier 2 entries: al-Azhari, Ibn Abi Usama, al-Astarabadhi, al-Isfara'ini, Abu Awana, al-Ansari al-Harawi, al-Isma'ili, al-Asmandi, al-Isnawi.
+- (12 Oct 2026) Batch 1e (vol. 1, pp. 350–692): 9 Tier 2 entries: Ibn Abi al-Ahwas, al-Adfawi, al-Ardabili, Erzurumi, Abu al-Aswad al-Du'ali, Yusuf al-Asir, Mehmet Akif, Abu al-Khayr al-Armuni, Abd al-Ghaffar al-Akhras. Entries with conflicting Hijri and CE pairs are recorded with the CE years only.
+- (12 Oct 2026) Batch 2a (vol. 2, pp. 40–310): 12 Tier 2 entries: al-Ash'ari, Abu Nu'aym, Qawwam al-Sunna, al-Istakhri (Abu Sa'id and Ibrahim), Ibn Abi Usaybi'a, Ibn al-A'rabi (Ahmad and Muhammad), al-A'mash, al-Ifliili, al-Uqlidisi, Ilkiya al-Harrasi. Skipped for now: Iqit and al-Azami (region not in our list), and entries whose opening pages are bibliography or fragments.
+- (12 Oct 2026) Batch 2b (vol. 2, pp. 185–300): 6 Tier 2 entries: al-A'lam al-Shantamari, al-A'ma al-Tutili, Afuqay, al-Afyuni, Muhammad Ali al-Akwa', al-Albani. Skipped: al-Behbahani (Twelver Shi'i; the template's default tradition does not fit and needs a per-entry decision), Iqbal and Iqit (regions outside our list).
+- (12 Oct 2026) Batch 2c (vol. 2, pp. 401–596): 5 new entries: al-Anbari, al-Ansari al-Sarqusti, al-Awza'i, Dawud al-Antaki, Ibn Iyas. Malik ibn Anas and al-Nu'man ibn Bashir already exist in the graph from another session's work and were not overwritten. Skipped: Anwar Shah (region outside our list) and entries with conflicting or missing dates.
+- (12 Oct 2026) Batch 3a (vol. 3, pp. 29–130): 9 Tier 2 entries: al-Bajuri, al-Baji (Abu al-Walid and al-Saghir), Ibn Badis, al-Barudi, Ibn Baz, Basalama, Salim Ba'afdal, Taha Baqir. Skipped: Shi'i entries (Ibn Babawayh, al-Baqir), Malak Hifni Nasif (tradition not sourced in the entry), al-Baqillani (garbled dates), and entries whose opening pages are bibliography.
+- (12 Oct 2026) Batch 3b (vol. 3, pp. 160–227): 6 entries: Sudayy ibn Ajlan al-Bahili, al-Husayn al-Khali', Bakhraq, al-Bukhari (Iftikhar al-Din), Bukhtishu ibn Jibril, Jibril ibn Bukhtishu. Where the printed Hijri and CE dates conflict, only the CE year is recorded, marked approximate.
+- (12 Oct 2026) Batch 3c (vol. 3, pp. 233–326): 10 entries: Ubayd Allah ibn Jibril, Abd al-Rahman Badawi, al-Shinqiti, al-Badi' al-Astarlabi, Ibn al-Baddhukh, Ibn al-Barraj, al-Barbahari, Ibn Barrajan, al-Barjandi, al-Barzali. Skipped: Ayyub Barsoum (Syriac Christian patriarch, outside this museum's scope), and entries with unclear dates.
+- (12 Oct 2026) Batch 3d (vol. 3, pp. 337–463): 5 entries: al-Barqani, Khalaf ibn Hisham, Mulla Hasan al-Bazzaz, Bayazid al-Bistami, Ahmad ibn Mustafa ibn al-Khawja. Skipped: Christian Lebanese figures in the al-Bustani family (outside the template's default tradition), Indian figures (region not in our list), and entries with unclear dates.
+- (12 Oct 2026) Batch 3e (vol. 3, pp. 501–654): 12 entries: Ibn Bashkuwal, Uthman ibn Sanad al-Basri, Abd al-Wahid ibn Zayd, Ibn Batta al-Ukbari, Ibn Battuta, Munir al-Baalbaki, Ibn Ruzgan, al-Khatib al-Baghdadi, Abd al-Wahhab al-Baghdadi, al-Baghawi, Abd al-Qadir al-Baghdadi, Khidas ibn Bishr. Skipped: Shi'i (Fakhr al-Din al-Hilli) and entries with garbled or missing dates.
+- (12 Oct 2026) Batch 3f (vol. 3, pp. 677–741): 8 entries: al-Biqa'i, Ruzbihan al-Baqli, Ibn Baqi, Ibn Bakr, al-Bakri (Abu Ubayd), Muhammad Tawfiq al-Bakri, Mustafa al-Bakri, Muhammad ibn Ibrahim al-Mutatabbib. Skipped: Baghi' (Mali region outside our list), Yunus ibn Bakalarsh (Jewish physician, outside this museum's scope), and entries without clear names or dates.
+- (12 Oct 2026) Volume 3 Tier 2 list exhausted: all clean candidates mined through page 741; skipped entries are Shi'i, Christian, Indian or Jewish figures and entries with missing dates. Volume 3 Tier 3 entries are not mined.
+- (12 Oct 2026) Batch 4a (vol. 4, pp. 19–129): 10 entries: al-Baladhuri, al-Dahhak ibn Muzahim, Najib Baladi, al-Mundhir al-Balluti, Ahmad ibn Ali al-Balawi, Abu Amir al-Balawi, Bulayhid, Ibn al-Banna al-Marrakushi, al-Banani, Safa' al-Din al-Bandanijy. Skipped: Indian and Syriac-Christian and Jewish figures, and entries with unclear dates.
+- (12 Oct 2026) Batch 4b (vol. 4, pp. 200–312): 11 entries: Abu al-Wafa al-Buzjani, al-Bayadi, Bayram al-Thani, Bayram (Muhammad ibn Muhammad), Muhammad ibn Mustafa Bayram, al-Biruni, Piri Reis, al-Baydawi, Abd al-Razzaq al-Bitar, Ramadan al-Buti, al-Bayakandi. Skipped: Christian and Syriac figures, and entries whose opening pages are bibliography.
+- (12 Oct 2026) Batch 4c (vol. 4, pp. 366–506): 14 entries: al-Tafilalti, al-Tardi ibn Sawda, al-Tattai, Ahmad al-Tijani, Ahmad al-Tijani al-Kitabi, Khalid ibn Abi Imran, al-Tadmiri, al-Tirmidhi, al-Tasuli, Ahmad al-Saghir ibn Hamallah, Muhammad al-Tatwani, Ibn Hudhayl, Ibn Taghribirdi, Faraj ibn Lubb. Skipped: West African figure (Umar al-Futi, region outside our list), Christian (Niqula al-Turk), Shi'i-linked (Ni'mat Allah), and Abu Bakr ibn Abd al-Mu'min (tradition not clear).
+- (12 Oct 2026) Batch 4d (vol. 4, pp. 523–701): 7 entries: Abu al-Arab al-Tamimi, al-Tanasi, Abu Ali al-Muhassin al-Tanukhi, Ali ibn Muhammad al-Tanukhi, Lutfullah al-Tawqani, Razaq Allah al-Tamimi, Abu al-Wafa al-Ghunaymi al-Taftazani. Skipped: Lebanese, Sudanese and Indian figures (regions outside our list), and entries whose identity or dates are unclear.
+- (12 Oct 2026) Batch 4e (vol. 4, pp. 722–823): 11 entries: Khayr al-Din al-Tunisi, Muhammad ibn Umar al-Tunisi, Tamam ibn Ghalib, Ahmad ibn Hamallah al-Tishiti, Ahmad ibn Yusuf al-Tifashi, Umar ibn al-Ash'ath al-Taymi, Abd Allah ibn Ayyub al-Taymi, Sulayman ibn Tarkhan al-Taymi, Ibn al-Tayn, Abd al-Rahman al-Tha'alibi, Tha'lab. Skipped: Sabian (Sinan ibn Thabit) and Ibadi (al-Mus'abi) figures outside the Sunni frame, and an entry with unclear identity.
+- (14 Oct 2026) Volume 4 Tier 2 list exhausted: all clean candidates mined through page 823. The two remaining candidates (p. 832 bibliography; p. 846 Ibadi scholar, outside the Sunni frame) are skipped. Volume 4 Tier 3 entries are not mined.
+- OCR complete (12 Oct 2026): all seven volumes OCR'd; the page counts match the PDFs. Volume 6 is absent from the set.
+- Entry indexes and tiers built (harvest workspace, not committed): v01 251 entries, v02 231, v03 277, v04 324, v05 220, v07 153, v08 241. Indexes are first-pass and still need the undated-opening pass.
+
+**Flags:**
+- Volume 6 (m-a-3-o-06.pdf) is absent from the founder's folder — its letter range will be missing entirely.
+
+**Next:** when OCR finishes, map each volume's letter range, then batch-mine starting with authors of existing `work/*` entities.

@@ -1,0 +1,21 @@
+id: event/safsaf-conquest
+class: event
+kind: conquest
+label: { ar: "فتح حصن الصفصاف" }
+summary:
+  ar: "في سنة إحدى وثمانين ومئة فتح حصن الصفصاف عنوة وهو الفاتح له يعني الرشيد، وفي سنة ست وسبعين فتحت مدينة دبسة على يد الأمير عبد الرحمن بن عبد الملك بن صالح العباسي {cite:tarikh-khulafa-minhaj-1434 p. 461}."
+  en: "In year 181 the fortress of al-Safsaf was taken by storm — al-Rashid himself its conqueror; in year 176 the city of Dabasa was conquered under the amir Abd al-Rahman ibn Abd al-Malik ibn Salih al-Abbasi {cite:tarikh-khulafa-minhaj-1434 p. 461}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "0797~", hijri: "0181", calendar: julian, precision: year, status: tradition, derived: true, note: "181؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 461}." }
+relations:
+  - { type: had_participant, target: person/harun-al-rashid, role: "الفاتح", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 461"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-20
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

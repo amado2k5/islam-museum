@@ -1,0 +1,23 @@
+id: event/conquest-of-rayy-qumis
+class: event
+kind: conquest
+label: { ar: "فتح الري وقومس", en: "The Conquest of Rayy and Qumis" }
+summary:
+  ar: "عند البلاذري عن العباس بن هشام الكلبي عن أبيه عن أبي مخنف: كتب عمر بن الخطاب إلى عمار بن ياسر وهو عامله على الكوفة بمد شهرين من وقعة نهاوند يأمره أن يبعث عروة بن زيد الخيل الطائي إلى الري ودستبا في ثمانية آلاف ففعل وسار عروة إلى ما هناك فجمعت له الديلم وأمدهم أهل الري فقاتلوه فأظهره الله عليهم فقتلهم واجتاحهم ثم خلف حنظلة بن زيد أخاه وقدم على عمار فسأله أن يوجهه إلى عمر وذلك أنه كان القادم عليه بخبر الجسر فأحب أن يأتيه بما يسره فلما رآه عمر قال إنا لله وإنا إليه راجعون فقال عروة بل احمد الله فقد نصرنا وأظهرنا وحدثه بحديثه فقال هلا أقمت وأرسلت قال قد استخلفت أخي وأحببت أن آتيك بنفسي فسماه البشير وقال عروة برزت لأهل القادسية معلماً وما كل من يفشي الكريهة يعلم."
+  en: "In al-Baladhuri via al-Kalbi from Abu Mikhnaf: two months after Nihawand's battle Umar wrote Ammar ibn Yasir, his Kufa agent, to send Urwa ibn Zayd al-Khayl al-Ta'i to Rayy and Dastaba with eight thousand; the Daylam gathered against him with Rayy's reinforcement, and God gave him victory — he killed and swept through them, left his brother Hanzala ibn Zayd, and came to Ammar asking to be sent to Umar — he having once borne the Bridge's ill news and wishing now to bring joy. Umar saw him and said 'we are God's and to Him we return'; Urwa answered 'rather praise God — we are victorious,' told his tale, and when asked why he did not send word answered 'I left my brother and wished to come myself' — so Umar named him al-Bashir. Urwa's verse: 'I stood forth a teacher to Qadisiyya's people — not every bearer of sorrow teaches.'"
+wings: [time, place]
+periods: [period/rashidun]
+regions: [persia-central-asia]
+relations:
+  - { type: occurred_at, target: place/rayy }
+  - { type: had_participant, target: person/urwa-ibn-zayd-al-khayl, role: "الفاتح المسمى البشير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hanzala-ibn-zayd, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ammar-ibn-yasir, role: "عامل الكوفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الموجه", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 443"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-45
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

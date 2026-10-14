@@ -1,0 +1,18 @@
+id: passage/arbaun-41
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "41"
+label: { ar: "الأربعون 41 — لا يؤمن أحدكم حتى يكون هواه تبعاً لما جئت به", en: "Arba'un 41 — none believes until his desire follows what I brought" }
+text: "لا يؤمن أحدكم حتى يكون هواه تبعاً لما جئت به"
+summary:
+  ar: "حديث عبد الله بن عمرو بن العاص قال: قال رسول الله: «لا يؤمن أحدكم حتى يكون هواه تبعاً لما جئت به» — وهو الحديث الحادي والأربعون في الأربعين النووية وفي شرح ابن رجب؛ قال النووي حديث حسن صحيح رويناه في كتاب الحجة بإسناد صحيح — يعني كتاب «الحجة على تارك المحجة» للشيخ أبي الفتح نصر بن إبراهيم المقدسي الشافعي نزيل دمشق، المتضمن أصول الدين على قواعد أهل الحديث والسنة؛ وخرجه أبو نعيم في «الأربعين» مشترطاً أن تكون من صحاح الأخبار وجياد الآثار مما أجمع الناقلون على عدالة ناقليه عن الطبراني عن أبي زيد عبد الرحمن بن حاتم المرادي عن نعيم بن حماد عن عبد الوهاب الثقفي عن هشام بن حسان عن محمد بن سيرين عن عقبة بن أوس عن عبد الله بن عمرو وزيادة «لا يزيغ عنه»؛ ورواه ابن أبي عاصم في «السنة» عن ابن واره عن نعيم بن حماد عن عبد الوهاب الثقفي عن بعض مشيختهم هشام أو غيره عن ابن سيرين وليس عنده «لا يزيغ عنه»؛ قال أبو موسى المديني هذا الحديث مختلف فيه على نعيم؛ وقال ابن رجب: تصحيح هذا الحديث بعيد جداً من وجوه منها أنه يتفرد به نعيم بن حماد (جامع العلوم والحكم ص 824–830)."
+  en: "The hadith of Abdullah ibn Amr ibn al-As that the Messenger of God said 'none of you believes until his desire is brought to follow what I have brought' — the forty-first of al-Nawawi's Forty and of Ibn Rajab's commentary, which al-Nawawi graded hasan sahih, saying 'we narrated it in the Book of al-Hujja with a sound isnad' — meaning Abu al-Fath Nasr ibn Ibrahim al-Maqdisi al-Shafi'i's *al-Hujja ala tarik al-mahajja*, a work on the principles of religion by the rules of the hadith folk; Abu Nu'aym included it in his *Arba'in*, conditioned on transmitters agreed trustworthy, through al-Tabarani from Abu Zayd Abd al-Rahman ibn Hatim al-Maradi from Nu'aym ibn Hammad from Abd al-Wahhab al-Thaqafi from Hisham ibn Hassan from Muhammad ibn Sirin from Uqba ibn Aws from Abdullah ibn Amr, with the addition 'it does not deviate from it'; Ibn Abi Asim's *al-Sunna* carries it through Ibn Wara' from Nu'aym ibn Hammad from Abd al-Wahhab al-Thaqafi from 'one of our shaykhs, Hisham or another' from Ibn Sirin without the addition; Abu Musa al-Madini noted the hadith is disputed over Nu'aym; and Ibn Rajab held grading it sound very remote for several reasons, among them that Nu'aym ibn Hammad alone narrates it (Jami' al-Ulum wal-Hikam pp. 824–830)."
+relations:
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/nuaym-ibn-hammad, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/hawa, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/iman, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 41 pp. 824–830", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-15" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 824 (~13 words); the Kitab al-Hujja attribution, Abu Nu'aym's condition and Ibn Rajab's 'very remote' verdict from pp. 824–825" }

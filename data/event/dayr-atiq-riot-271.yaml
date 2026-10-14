@@ -1,0 +1,21 @@
+id: event/dayr-atiq-riot-271
+class: event
+kind: other
+label: { ar: "وثبة العامة على الدير العتيق" }
+summary:
+  ar: "في سنة 271هـ وثبت العامة على النصارى وخربوا الدير العتيق الذي وراء نهر عيسى وانتهبوا كل ما كان فيه من متاع وقلعوا الأبواب والخشب وهدموا بعض حيطانه وسقوفه ونبشوا الموتى، فصار إليهم الحسين بن إسماعيل صاحب شرط بغداد فمنعهم من هدم ما بقي منه وكان يتردد إليه أياماً والعامة تجتمع في تلك الأيام حتى يكون بينهم قتال، ثم بُني ما كانت العامة هدمته وكانت إعادة بنائه بقوة عبدون بن مخلد النصراني {cite:muntazam-ibn-al-jawzi p. 81-82}."
+  en: "In 271 the Baghdad mob stormed the Christians' Old Monastery across the Isa canal — looted its furnishings, tore out doors and beams, breached walls and dug up the dead; the chief of police Husayn ibn Isma'il held them off for days until the ruins were rebuilt by the Christian Abdun ibn Makhlad {cite:muntazam-ibn-al-jawzi p. 81-82}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0884~", hijri: "0271", calendar: julian, precision: year, status: tradition, derived: true, note: "271؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 81}." }
+relations:
+  - { type: occurred_at, target: place/dayr-al-atiq, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

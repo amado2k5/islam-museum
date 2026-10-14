@@ -1,0 +1,19 @@
+id: work/nur-al-iqtibas
+class: work
+kind: book
+label:
+  ar: نور الاقتباس في مشكاة وصية النبي لابن عباس
+  en: Nur al-Iqtibas fi Mishkat Wasiyyat al-Nabi li-Ibn Abbas
+summary:
+  ar: "رسالة مستقلة لابن رجب الحنبلي أفردها لشرح حديث ابن عباس «يا غلام إني أعلمك كلمات: احفظ الله يحفظك...» وهو الحديث التاسع عشر من الأربعين النووية؛ يذكر ابن رجب في جامع العلوم والحكم أن الحديث يتضمن وصايا عظيمة وقواعد كلية من أهم أمور الدين «وقد أفردت لشرحه جزءاً كبيراً»، والكتاب مطبوع بهذا الاسم."
+  en: "A standalone treatise by Ibn Rajab al-Hanbali devoted to the commentary of Ibn Abbas's hadith 'O boy, I shall teach you words: guard God and He will guard you...', the nineteenth of al-Nawawi's Forty; in the Jami' al-Ulum wal-Hikam Ibn Rajab says the hadith comprises great counsels and universal maxims among the religion's most important matters and that he 'devoted a large separate portion to its commentary' — the printed book bearing this title."
+genre: [hadith]
+authors: [person/ibn-rajab]
+language: language/arabic
+wings: [words, ideas]
+themes: [scripture-and-its-sciences, spirituality-and-sufism]
+relations:
+  - { type: about, target: passage/arbaun-19, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 19 commentary p. 434 n. 4", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-8" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); existence and title from the author's own note and the edition's footnote on p. 434" }

@@ -1,0 +1,24 @@
+id: event/khuzayma-land-survey
+class: event
+kind: law-enacted
+label: { ar: "سنّ خزيمة بن خازم المساحة بدبيل والنشوى", en: "Khuzayma ibn Khazim Institutes the Land Survey at Dabil and Nashwa" }
+summary:
+  ar: "عند البلاذري: من ولاة أرمينية للعباسيين بالتتابع عثمان بن عمادة بن خرثم ثم روح بن حاتم المهلابي ثم خزيمة بن خازم ثم يزيد بن مزيد الشيباني ثم عبيد الله بن المهدي ثم الفضل بن يحيى ثم سعيد بن سالم ثم محمد بن يزيد بن مزيد؛ وكان خزيمة أشدهم ولاية وهو الذي سنّ المساحة بدبيل والنشوى ولم يكن قبل ذلك. ولم يزل بطارقة أرمينية مقيمين في بلادهم يحمي كل واحد منهم ناحيته فإذا قدم الثغر عامل من عماله داروه فإن رأوا منه عفّة وصرامة وكان في قوة وعدة أدّوا إليه الخراج وأذعنوا له بالطاعة وإلا اغتمزوا فيه واستخفّوا بأمره؛ وولّيهم خالد بن يزيد بن مزيد في خلافة المأمون فقبل هداياهم وخلطهم بنفسه فأفسدهم ذلك من فعله وجرّأهم على من بعده من عمال المأمون."
+  en: "In al-Baladhuri: Armenia's Abbasid governors ran in succession — Uthman ibn Umada ibn Khurathim, then Rawh ibn Hatim al-Muhallabi, then Khuzayma ibn Khazim, then Yazid ibn Mazyad al-Shaybani, then Ubaydallah ibn al-Mahdi, then al-Fadl ibn Yahya, then Sa'id ibn Salm, then Muhammad ibn Yazid ibn Mazyad; Khuzayma was the sternest of them in office, and it was he who instituted the land-survey at Dabil and Nashwa, which had not existed before. The Armenian patrikioses ever stayed in their lands, each guarding his district: when a march-governor arrived they surrounded him — if they saw continence and sternness in him while he had force and equipment, they paid him the kharaj and yielded obedience, but otherwise despised him and made light of his command; and Khalid ibn Yazid ibn Mazyad governed them in al-Ma'mun's caliphate, accepting their gifts and mixing them with his own person — that deed corrupted them and emboldened them against al-Ma'mun's governors who came after."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0775/0833", calendar: julian, precision: year, status: tradition, derived: true, note: "في سلسلة ولاة أرمينية قبل المأمون (البلاذري ص 296). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/armenia }
+  - { type: occurred_at, target: place/dabil }
+  - { type: had_participant, target: person/khuzayma-ibn-khazim, role: "سّان المساحة وأشد الولاة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khalid-ibn-yazid-ibn-mazyad, role: "ولي المأمون القابل للهدايا", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 296"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

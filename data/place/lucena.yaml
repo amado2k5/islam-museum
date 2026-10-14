@@ -1,0 +1,19 @@
+id: place/lucena
+class: place
+kind: city
+label: { ar: "لشانة" }
+summary:
+  ar: "لشانة (لوشة الصغرى/لوسنة) من مدن كورة قرطبة؛ بقربها أسر السلطان أبو عبد الله محمد بن أبي الحسن صاحب غرناطة في ربيع الأول سنة ثمان وثمانين وثمانمائة حين انكسر جنده في جبال نواحيها وعلم به صاحب لشانة فهرب به ليلاً وبلغه إلى صاحب قشتالة {cite:nafh-tib-maqqari p. 519}."
+  en: "Lucena, in Cordoba's district — beside it Sultan Boabdil's army broke in Rabi I 888 and the sultan himself was taken and spirited to the Castilian king {cite:nafh-tib-maqqari p. 519}."
+wings: [place]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 519"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

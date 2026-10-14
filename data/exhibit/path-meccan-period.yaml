@@ -1,0 +1,132 @@
+id: exhibit/path-meccan-period
+class: exhibit
+kind: trail
+label:
+  ar: 'العهد المكي: من الغار إلى الهجرة'
+  en: "The Meccan Period: From the Cave to the Hijra"
+summary:
+  ar: مسارٌ زمني عبر سنوات الدعوة بمكة، من نزول الوحي في غار حراء إلى الهجرة، في اثني عشر حدثًا مرتّبة كما تسلسلت.
+  en: "A chronological trail through the years of the call in Mecca, from the descent of the revelation in the cave of Hira to the Hijra, in twelve events ordered as they unfolded."
+audience:
+- student
+- newcomer
+duration_minutes: 45
+wings:
+- time
+- people
+periods:
+- period/prophetic-era
+regions:
+- arabia
+rooms:
+- title:
+    ar: نزول الوحي
+    en: "The Descent of the Revelation"
+  body:
+    ar: 'نقطة البداية: غار حراء.'
+    en: "The starting point: the cave of Hira."
+  features:
+  - event/first-revelation
+- title:
+    ar: دعوة العشيرة
+    en: "The Call to the Kinsfolk"
+  body:
+    ar: الانتقال إلى الدعوة وفق ما تبيّنه الصفحة، ومن حماها.
+    en: "The move to open preaching as the page explains, and who protected it."
+  features:
+  - event/dawat-al-ashira
+- title:
+    ar: الأذى والتعذيب
+    en: "Harm and Torture"
+  body:
+    ar: ما أصاب الضعفاء من المؤمنين، وأسماء من ثبتوا.
+    en: "What befell the weak among the believers, and the names of those who held firm."
+  features:
+  - event/persecution-of-mustadafin
+- title:
+    ar: الهجرة الأولى إلى الحبشة
+    en: "The First Emigration to Abyssinia"
+  body:
+    ar: أول خروج من مكة طلبًا للأمان.
+    en: "The first departure from Mecca in search of safety."
+  features:
+  - event/first-migration-to-abyssinia
+- title:
+    ar: إسلام حمزة
+    en: "Hamza's Conversion"
+  body:
+    ar: كيف دخل حمزة في الإسلام، وما أثر ذلك.
+    en: "How Hamza entered Islam, and what that changed."
+  features:
+  - event/islam-of-hamza
+- title:
+    ar: إسلام عمر
+    en: "Umar's Conversion"
+  body:
+    ar: بعد أيام من إسلام حمزة، وماذا تغيّر في ظهور المسلمين.
+    en: "Days after Hamza's conversion, and how the Muslims' standing changed."
+  features:
+  - event/islam-of-umar
+- title:
+    ar: مقاطعة بني هاشم
+    en: "The Boycott of Banu Hashim"
+  body:
+    ar: الصحيفة والحصار في الشعب.
+    en: "The document and the siege in the ravine."
+  features:
+  - event/boycott-of-banu-hashim
+- title:
+    ar: عام الحزن
+    en: "The Year of Sorrow"
+  body:
+    ar: فقد النبي حاميه وزوجه في سنة واحدة.
+    en: "The Prophet lost his protector and his wife in a single year."
+  features:
+  - event/year-of-sorrow
+- title:
+    ar: الرحلة إلى الطائف
+    en: "The Journey to al-Ta'if"
+  body:
+    ar: طلب النصرة خارج مكة.
+    en: "Seeking support outside Mecca."
+  features:
+  - event/journey-to-taif
+- title:
+    ar: بيعتا العقبة
+    en: "The Two Pledges of al-Aqaba"
+  body:
+    ar: اللتان مهّدتا لدار الهجرة في المدينة.
+    en: "The two that paved the way to the house of emigration in Medina."
+  features:
+  - event/pledges-of-aqaba
+- title:
+    ar: دار الندوة
+    en: "Dar al-Nadwa"
+  body:
+    ar: ما دبّرته قريش في آخر أيامه بمكة.
+    en: "What Quraysh plotted in the Prophet's last days in Mecca."
+  features:
+  - event/plot-of-dar-al-nadwa
+- title:
+    ar: الهجرة
+    en: "The Hijra"
+  body:
+    ar: نهاية العهد المكي وبداية المرحلة المدنية.
+    en: "The end of the Meccan period and the beginning of the Medinan phase."
+  features:
+  - event/hijra
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/mubarakpuri-raheeq
+- source/ibn-hisham-sira
+provenance:
+  layer: own-research
+  source: مسار تعليمي مبني على صفحات المتحف نفسها (docs/plan/19-tour-learn.md)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: learn-pathways-1
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; pathway assembled from existing museum entries (docs/plan/19-tour-learn.md)

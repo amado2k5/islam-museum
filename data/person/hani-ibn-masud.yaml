@@ -1,0 +1,19 @@
+id: person/hani-ibn-masud
+class: person
+label: { en: "Hani ibn Masʾud al-Shaybani", ar: "هانئ بن مسعود الشيباني" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The chief of Banu Shayban who kept al-Nuʾman’s family and deposit out of honor, refused to surrender them to Iyas ibn Qabisa and Khosrow, and led his tribe to victory over the Persians at Dhu Qar — the first day the Arabs routed the Persians."
+  ar: "سيد آل شيبان الذي حمى أهل النعمان ووديعته حمية وأنفة، وأبى تسليمها لإياس بن قبيصة وكسرى، وقاد قبيلته فانتصرت على الفرس يوم ذي قار — أول يوم انتصرت فيه العرب على العجم."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-shayban }
+  - { type: protected, target: person/al-numan-ibn-al-mundhir, note: "أودعه أهله وماله فحماهم.", sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/battle-of-dhu-qar, role: "قائد بني شيبان المنتصرين", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

@@ -1,0 +1,57 @@
+id: person/al-ashath-ibn-qays
+class: person
+label:
+  ar: الأشعث بن قيس
+  en: al-Ash'ath ibn Qays
+names:
+- kind: full
+  lang: ar
+  value: الأشعث بن قيس بن معديكرب بن معاوية بن جبلة بن عدي بن ربيعة بن معاوية الأكرمين بن ثور الكندي
+- kind: kunya
+  lang: ar
+  value: أبو محمد
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من ملوك كندة وصاحب مرباع حضرموت؛ وفد على النبي سنة 10هـ في سبعين راكباً من كندة، وارتد فيمن ارتد من الكنديين وأُسر وأُحضر إلى أبي بكر فأسلم فأطلقه وزوجه أخته، ثم شهد اليرموك والقادسية وصفين مع علي، ومات بعد مقتل علي بأربعين ليلة.، وعند المسعودي كان بدء أمر التحكيم وأصر على أبي موسى حكماً عن أهل العراق ورفض ابن عباس والأشتر، ومر بالصحيفة يقرؤها على الناس فرحاً حتى ضربه عروة بن أذينة قائلاً لا حكم إلا لله فوقعت الضربة في عجز فرسه {cite:muruj-al-dhahab p. 682-684}، ومر به ابن ملجم ليلة الواقعة وهو في المسجد فقال له فضحك الصبح {cite:muruj-al-dhahab p. 702}
+  en: One of the kings of Kinda and holder of the quarter-share of Hadramawt; he came to the Prophet in 10 AH with seventy riders of Kinda, left Islam with those of Kinda who did, was captured and brought to Abu Bakr, embraced Islam again and
+    was freed and married to Abu Bakr's sister; he was at al-Yarmuk, al-Qadisiyya and with Ali at Siffin, and died forty nights after Ali's killing.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 315 (ص 70).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 315، ص 70
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 70, entry 315)

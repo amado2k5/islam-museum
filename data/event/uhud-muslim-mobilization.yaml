@@ -1,0 +1,24 @@
+id: event/uhud-muslim-mobilization
+class: event
+kind: council
+label: { en: "Uhud war council and Muslim mobilization", ar: "المجلس الاستشاري وتجهيز الجيش لأحد" }
+summary:
+  ar: "لما بلغ النبي خبر جيش قريش المتجه نحو المدينة عقد مجلساً استشارياً عسكرياً أعلى تبادل فيه الرأي في الدفاع. رأى النبي المكوث في المدينة وقتال المشركين من خلال الأزقة، ووافقه عبد الله بن أبي، لكن شباب الصحابة ممن فاتهم بدر ألحّوا بالخروج حتى وافقهم. لبس النبي درعيه وتقلّد سيفه، ثم قسّم جيشه ثلاث كتائب: كتيبة المهاجرين براية مصعب بن عمير، وكتيبة الأوس برايةِ أسيد بن حضير، وكتيبة الخزرج برايةِ الحباب بن المنذر {cite:mubarakpuri-raheeq p.252}."
+  en: "When news of the Quraysh army heading for Medina reached the Prophet he held a senior war council. His view was to stay in Medina and fight the polytheists through the alleys, and Abdullah ibn Ubayy agreed; but the young Companions who had missed Badr pressed to march out until he yielded. The Prophet put on his armour and girt his sword, then divided his army into three battalions: the Muhajirun under the banner of Mus'ab ibn Umayr, the Aws under Usayd ibn Hudayr, and the Khazraj under al-Hubab ibn al-Mundhir {cite:mubarakpuri-raheeq p.252}."
+wings: [time, people, place]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03-22", hijri: "0003-10-06", calendar: julian, precision: day, status: tradition, note: "يوم الجمعة السادس من شوال {cite:mubarakpuri-raheeq p.251}." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: part_of, target: event/battle-of-uhud }
+  - { type: had_participant, target: person/muhammad, role: "عقد المجلس وأصدر قرار الخروج", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, role: "ألحّ على الخروج وأقسم لا يطعم حتى يجالد خارج المدينة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/musab-ibn-umayr, role: "حامل لواء المهاجرين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-muadh, role: "قال للناس استكرهتم رسول الله على الخروج فردوا الأمر إليه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hubab-ibn-al-mundhir, role: "حامل لواء الخزرج", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 251-252" }

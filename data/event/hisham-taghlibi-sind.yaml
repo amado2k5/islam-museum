@@ -1,0 +1,21 @@
+id: event/hisham-taghlibi-sind
+class: event
+kind: campaign
+label: { ar: "ولاية هشام بن عمرو التغلبي السند", en: "Hisham ibn Amr al-Taghlibi's Sind" }
+summary:
+  ar: "ولى أمير المؤمنين المنصور هشام بن عمرو التغلبي السند ففتح ما استغلق ووجه عمرو بن جمل في بوارج إلى نارند ووجه إلى ناحية الهند فافتتح قشيراً وأصاب سبايا ورقيقاً كثيراً وفتح الملتان وكان بقندابيل متغلبة من العرب فأجلاهم عنها وأتى القندهار في السفن ففتحها وهدم البد وبنى موضعه مسجداً فأخصبت البلاد في ولايته فتبروكوا به ودوخ الثغر وأحكم أموده ثم ولي ثغر السند عمر بن حفص بن عثمان هزار مرد ثم داود بن يزيد بن حاتم وكان معه أبو الصمة المتغلب اليوم وهو مولى لكندة."
+  en: "Al-Mansur gave Sind to Hisham ibn Amr al-Taghlibi: he opened what resisted, sent Amr ibn Jamal's bawarij to Narand, took Qashayr with its crowds of captives, reopened Multan, expelled the Arab mutaghalliba from Qandabil, and came on Qandahar by ship — razed the budd and built a mosque on its site. The land flowered under him; then the thaghr passed to Umar ibn Hafs Hazarmard, then Dawud ibn Yazid ibn Hatim, whose mawla of Kinda Abu al-Summa is today's mutaghallib."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/hisham-ibn-amr-al-taghlibi, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mansur, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-hafs-hazarmard, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/dawud-ibn-yazid-ibn-hatim, role: "الوالي الثالث", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/qandahar }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,19 @@
+id: event/sarakhs-ibn-khazim
+class: event
+kind: treaty
+label: { ar: "صلح سرخس", en: "The Sarakhs Treaty" }
+summary:
+  ar: "وجه ابن عامر عبد الله بن خازم إلى سرخس فقاتلهم ثم طلب زاذويه مرزبانها الصلح على إيمان مائة رجل وأن يدفع إليه النساء فصارت ابنته في سهم ابن خازم واتخذها وسماها ميشاء وغلب ابن خازم على أرض سرخس ويقال إنه صالحه على أن يؤمن مائة نفس فسمى له المائة ولم يسم نفسه فقتله ودخل سرخس عنوة ووجه ابن خازم من سرخس يزيد بن سالم مولى شريك بن الأعور إلى كيف ويينة ففتحها."
+  en: "Ibn Khazim fought Sarakhs; its marzban Zadhuya sought peace on aman for a hundred men and the surrender of its women — his own daughter fell to Ibn Khazim's lot, who took her and named her Maysha' — and he ruled Sarakhs's land. Another telling: he truced on aman for a hundred souls, named the hundred, omitted himself — and was killed, and the town entered by force. From Sarakhs Ibn Khazim sent his mawla Yazid ibn Salim to take Kif and Yabina."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/zadhuya, role: "المرزبان المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sarakhs }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

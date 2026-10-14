@@ -1,10 +1,14 @@
-import { describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { compile } from "./build-graph";
 import { derive } from "./derive";
 import { edtfRange } from "./lib";
 import { hijriCeMismatch, hijriProblem, validateAll } from "./validate";
 import { p } from "./lib";
 import { scan } from "./check-static";
+
+// Each test validates the repository synchronously (seconds of CPU). Without a yield between tests the vitest worker
+// cannot exchange its task updates with the runner, and on a slow CI machine the calls time out after 60 s.
+beforeEach(() => new Promise<void>((resolve) => setTimeout(resolve, 0)));
 
 describe("validate", () => {
   it("the repository content has no errors", () => {
@@ -80,9 +84,9 @@ describe("rules from docs 12-15", () => {
   });
   it("warns when a conflict lists fewer than two sides", () => {
     const i = run(base("event", "zz-test-c", { kind: "battle", sides: [{ label: { en: "A" } }] }));
-    expect(msgs(i, "warn")).toMatch(/both sides/);
+    expect(msgs(i.filter((x) => x.file.includes("zz-test-c")), "warn")).toMatch(/both sides/);
     const ok = run(base("event", "zz-test-d", { kind: "battle", sides: [{ label: { en: "A" } }, { label: { en: "B" } }] }));
-    expect(msgs(ok, "warn")).not.toMatch(/both sides/);
+    expect(msgs(ok.filter((x) => x.file.includes("zz-test-d")), "warn")).not.toMatch(/both sides/);   // only this test's own file: real content may have warnings of its own
   });
   it("requires two cited voices on a tension card", () => {
     const card = (voices: number) => ({ id: "tension/x", kind: "textual", statement: { en: "s" },
@@ -140,6 +144,44 @@ describe("scope rule: Sunni is the default and first view (docs/scope.md)", () =
   });
 });
 
+describe("opinions: issue, holders, evidence and ids (docs/plan/20-opinions.md)", () => {
+  const op = (extra: Record<string, any> = {}) => ({ tradition: "sunni", summary: { en: "x" }, sources: ["source/gutas-2014"], ...extra });
+  it("accepts a stated issue with a lead opinion and a further one, each with stance, holders and evidence", () => {
+    const e = base("concept", "zz-test-o1", { kind: "doctrine", issue: { en: "q?" }, perspectives: [
+      op({ id: "first", stance: { en: "a" }, holders: ["source/gutas-2014"], evidence: [{ ref: "source/gutas-2014", note: { en: "p. 1" } }] }),
+      op({ tradition: "sunni-hanafi", id: "second", stance: { en: "b" } })] });
+    expect(msgs(run(e), "error")).toBe("");
+    expect(run(e).filter((x) => x.level === "warn" && x.file.includes("zz-test-o1")).map((x) => x.msg).join()).not.toMatch(/no `issue`|cites no source/);
+  });
+  it("rejects duplicate ids and unresolved holders or evidence", () => {
+    const e = base("concept", "zz-test-o2", { kind: "doctrine", issue: { en: "q?" }, perspectives: [
+      op({ id: "same", holders: ["person/zz-nobody"] }), op({ tradition: "sunni-hanafi", id: "same", evidence: [{ ref: "source/zz-none" }] })] });
+    const m = msgs(run(e), "error");
+    expect(m).toMatch(/duplicate id "same"/); expect(m).toMatch(/holders: person\/zz-nobody does not exist/); expect(m).toMatch(/evidence: source\/zz-none does not exist/);
+  });
+  it("refuses a main tag on a non-Sunni opinion and a lead opinion tagged secondary or other", () => {
+    const bad = base("concept", "zz-test-o4", { kind: "doctrine", issue: { en: "q?" }, perspectives: [op({ standing: "secondary" }), op({ tradition: "shia-twelver", standing: "main" })] });
+    const m = msgs(run(bad), "error");
+    expect(m).toMatch(/cannot be tagged secondary/); expect(m).toMatch(/standing "main" is for Sunni opinions/);
+    const ok = base("concept", "zz-test-o5", { kind: "doctrine", issue: { en: "q?" }, perspectives: [op({ standing: "main" }), op({ tradition: "academic", standing: "secondary" }), op({ tradition: "shia-twelver", standing: "other" })] });
+    expect(msgs(run(ok), "error")).toBe("");
+  });
+  it("warns when two opinions have no issue, or an opinion cites no source", () => {
+    const w = msgs(run(base("concept", "zz-test-o3", { kind: "doctrine", perspectives: [{ tradition: "sunni", summary: { en: "x" } }, op({ tradition: "sunni-hanafi" })] })), "warn");
+    expect(w).toMatch(/no `issue`/); expect(w).toMatch(/cites no source/);
+  });
+});
+
+describe("traditions[] counts a person among a tradition (content standards 13b)", () => {
+  const person = (slug: string, extra: Record<string, any>) => base("person", slug, { gender: "male", ...extra });
+  it("warns when a Sunni tradition sits on a person whose recorded faith has no Muslim value", () => {
+    const w = run(person("zz-test-t1", { traditions: ["sunni"], faith: [{ value: "arabian-polytheism", basis: "tradition" }] })).filter((x) => x.file.includes("zz-test-t1")).map((x) => x.msg).join();
+    expect(w).toMatch(/not counted among a tradition/);
+    const ok = run(person("zz-test-t2", { traditions: ["sunni"], faith: [{ value: "arabian-polytheism", basis: "tradition" }, { value: "sunni", basis: "tradition" }] })).filter((x) => x.file.includes("zz-test-t2")).map((x) => x.msg).join();
+    expect(ok).not.toMatch(/not counted among a tradition/);
+  });
+});
+
 describe("no AI or compute at runtime (docs/adr/0002)", () => {
   const w = async (name: string, body: string) => { const { mkdtempSync, writeFileSync } = await import("node:fs"); const d = mkdtempSync("/tmp/static-"); const f = `${d}/${name}`; writeFileSync(f, body); return f; };
   it("accepts a same-origin static fetch", async () => {
@@ -166,9 +208,38 @@ describe("Arabic first (docs/language.md)", () => {
     const src = { ...base("source", "zz-test-r", { kind: "secondary", type: "book", title: "T" }).entity, label: { en: "T" }, summary: { en: "t" } };
     expect(msgs(validateAll([{ entity: src, file: p("data", "source", "zz-test-r.yaml") }]).issues, "error")).toBe("");
   });
-  it("requires Arabic alt text on media, not English", () => {
+  it("requires alt text in every published language (ar and en)", () => {
     const m = (alt: any) => ({ ...base("media", "zz-test-s", { kind: "map", license: "CC0", alt }).entity });
     expect(msgs(validateAll([{ entity: m({ en: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "ar"/);
-    expect(msgs(validateAll([{ entity: m({ ar: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
+    expect(msgs(validateAll([{ entity: m({ ar: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "en"/);
+    expect(msgs(validateAll([{ entity: m({ ar: "x", en: "y" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
+  });
+});
+
+describe("published UI languages (docs/language.md)", () => {
+  it("i18n/ar.yaml and i18n/en.yaml carry the same key set (a missing key renders as a raw path in the UI)", async () => {
+    const { readFileSync } = await import("node:fs");
+    const { parse } = await import("yaml");
+    const keys = (o: any, prefix = ""): Set<string> =>
+      new Set(Object.entries(o ?? {}).flatMap(([k, v]) => {
+        const key = prefix ? `${prefix}.${k}` : k;
+        return v && typeof v === "object" && !Array.isArray(v) ? [...keys(v, key)] : [key];
+      }));
+    const ar = keys(parse(readFileSync(p("i18n", "ar.yaml"), "utf8")));
+    const en = keys(parse(readFileSync(p("i18n", "en.yaml"), "utf8")));
+    expect([...en].filter((k) => !ar.has(k))).toEqual([]);
+    expect([...ar].filter((k) => !en.has(k))).toEqual([]);
+  });
+});
+
+describe("content quality guards (docs/agents/content-standards.md)", () => {
+  it("rejects honorifics typed into a summary or label (ﷺ and the spelled-out formulas)", () => {
+    const i = run(base("event", "t-honorific", { summary: { ar: "أمر النبي ﷺ جيشه", en: "t" } }));
+    expect(msgs(i, "error")).toMatch(/honorifics must not be typed/);
+    const j = run(base("event", "t-honorific2", { summary: { ar: "قبلة إبراهيم عليه السلام", en: "t" } }));
+    expect(msgs(j, "error")).toMatch(/honorifics must not be typed/);
+  });
+  it("accepts a plain summary", () => {
+    expect(msgs(run(base("event", "t-plain", { summary: { ar: "خرج النبي إلى أحد", en: "t" } })), "error")).not.toMatch(/honorifics/);
   });
 });

@@ -1,0 +1,29 @@
+id: event/uhud-defense-of-the-prophet
+class: event
+kind: battle
+label: { en: "Defense of the Prophet at Uhud", ar: "الدفاع عن رسول الله في أحد" }
+summary:
+  ar: "بعد حركة الالتفاف لم يكن مع النبي في المؤخرة إلا تسعة نفر. رماه عتبة بن أبي وقاص بالحجارة فوقع لشقه وأُصيبت رباعيته اليمنى السفلى وجُرحت شفته. ضربه عبد الله بن قمئة على وجنته بالسيف فدخلت حلقتان من حلق المغفر في وجنته. وبقي مع النبي في أحرج لحظة طلحة بن عبيد الله وسعد بن أبي وقاص فحَموه. تناضل سعد حتى نُثلت كنانته. قاتل طلحة قتال الأحد عشر حتى قُطعت أصابعه وجُرح خمساً وثلاثين أو تسعاً وثلاثين جرحاً. أزال أبو عبيدة بن الجراح حلقتي المغفر من وجنته بثنيّتيه. سترهُ أبو دجانة بظهره من النبل. دافعت أم عمارة نسيبة بنت كعب حتى أصابها اثنا عشر جرحاً {cite:mubarakpuri-raheeq p.267}."
+  en: "After the wheeling manoeuvre only nine men remained with the Prophet at the rear. Utba ibn Abi Waqqas threw stones at him; his lower right incisor was broken and his lip wounded. Abdullah ibn Qami'a struck his cheek with a sword so that two rings of the helmet sank into it. In the hardest moment Talha ibn Ubaydullah and Sa'd ibn Abi Waqqas stood with him and shielded him. Sa'd shot until his quiver was emptied; Talha fought like eleven men until his fingers were cut and he bore thirty-five or thirty-nine wounds. Abu Ubayda ibn al-Jarrah pulled the two helmet rings from his cheek with his front teeth. Abu Dujana shielded him with his back from the arrows. Umm Umara Nusayba bint Ka'b defended him until she took twelve wounds {cite:mubarakpuri-raheeq p.267}."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03-23", hijri: "0003-10-07", calendar: julian, precision: day, status: tradition, note: "في أثناء الانتكاسة عقب الالتفاف {cite:mubarakpuri-raheeq p.267}." }
+relations:
+  - { type: occurred_at, target: place/uhud }
+  - { type: part_of, target: event/battle-of-uhud }
+  - { type: had_participant, target: person/muhammad, role: "جُرح في وجهه وشفته ورباعيته", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "درع النبي بنفسه وجُرح خمساً وثلاثين أو تسعاً وثلاثين جرحاً وشلّت إصبعه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-abi-waqqas, role: "نُثلت كنانته في الرمي عن النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-dujana, role: "ترّس على النبي بظهره والنبل يقع عليه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/nusayba-bint-kab, role: "قاتلت وجُرحت اثني عشر جرحاً", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-ubaydah-ibn-al-jarrah, role: "نزع حلقتي المغفر من وجنة النبي بثنيتيه حتى سقطتا", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umara-ibn-yazid-ibn-sakan, role: "قاتل حتى أثبتته الجراحة وفاضت روحه وخده على قدم النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "جُرح في فمه فهتم وأصابه عشرون جرحاً", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/malik-ibn-sinan, role: "والد أبي سعيد الخدري؛ امتص الدم من وجنة النبي فقال له فداك نفسي ثم قُتل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/musab-ibn-umayr, role: "قاتل حتى قُطعت يداه ثم برك على اللواء بصدره وعنقه حتى قُتل", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/sahih-muslim]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 267-273" }

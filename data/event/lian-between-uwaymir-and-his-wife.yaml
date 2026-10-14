@@ -1,0 +1,20 @@
+id: event/lian-between-uwaymir-and-his-wife
+class: event
+kind: court-ruling
+label: { en: "The li'an between Uwaymir al-Ajlani and his wife", ar: "اللعان بين عويمر العجلاني وامرأته" }
+summary:
+  en: "After the return from Tabuk in 9 AH, Uwaymir al-Ajlani accused his wife before the Prophet; the Prophet administered between them the mutual oath of condemnation (li'an) prescribed in Surat al-Nur, then separated them — an early application of the li'an ruling."
+  ar: "وقع اللعان بين عويمر العجلاني وامرأته بعد قدوم النبي من تبوك سنة 9هـ؛ رمى امرأته فتلاعنا عند النبي بالأيمان التي شرّعها القرآن في سورة النور، ثم فرّق النبي بينهما؛ وكانت من أوائل وقائع تطبيق حكم اللعان."
+wings: [time, people]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "بعد قدوم النبي من تبوك سنة 9هـ.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: administered-the-lian-and-separated-them, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uwaymir-al-ajlani, role: accuser, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 439" }

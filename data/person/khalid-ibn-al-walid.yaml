@@ -42,15 +42,19 @@ relations:
   - { type: participated_in, target: event/battle-of-yamama, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: participated_in, target: event/battle-of-yarmuk, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: persecuted, target: person/malik-ibn-nuwayra, note: "The affair of Malik ibn Nuwayra — killed by Khalid's troops in the Ridda wars — is contested in the sources.", sources: [source/tabari-donner-1993] }
+issue: { ar: "كيف يُقدَّر خالد بن الوليد، وكيف تُروى واقعة مالك بن نويرة؟", en: "How is Khalid ibn al-Walid assessed, and how is the Malik ibn Nuwayra episode told?" }
 perspectives:
   - tradition: sunni
-    summary: { en: "Sunni tradition remembers Khalid as Sayf Allah, the undefeated commander whose genius served the early community — while also recording that the Prophet and Umar rebuked him over the affair of Malik ibn Nuwayra." }
+    id: sunni
+    summary: { en: "Sunni tradition remembers Khalid as Sayf Allah, the undefeated commander whose genius served the early community — while also recording that the Prophet and Umar rebuked him over the affair of Malik ibn Nuwayra.", ar: "تذكره السنة سيفَ الله، القائد الذي لم يُهزم وخدمت عبقريته الجماعة — مع حفظ عتب النبي وعمر عليه في قضية مالك بن نويرة." }
     sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
   - tradition: academic
-    summary: { en: "Historians regard him as one of the most capable commanders of the early conquests, and treat the Malik ibn Nuwayra episode — a tribal leader killed and his wife taken — as a documented controversy." }
+    id: academic
+    summary: { en: "Historians regard him as one of the most capable commanders of the early conquests, and treat the Malik ibn Nuwayra episode — a tribal leader killed and his wife taken — as a documented controversy.", ar: "يعدّه المؤرخون من أقدر قادة الفتوح الأولى، ويعاملون قضية مالك بن نويرة خلافًا موثقًا." }
     sources: [source/tabari-donner-1993]
   - tradition: shia-twelver
-    summary: { en: "Twelver Shia tradition is broadly critical of Khalid, emphasizing the Malik ibn Nuwayra affair and his earlier role against the Muslims." }
+    id: shia-twelver
+    summary: { en: "Twelver Shia tradition is broadly critical of Khalid, emphasizing the Malik ibn Nuwayra affair and his earlier role against the Muslims.", ar: "ينتقده التراث الإمامي إجمالًا مبرزًا قضية مالك بن نويرة ودوره السابق ضد المسلمين." }
     sources: [source/momen-1985]
 sensitivity: contested
 sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/watt-1956-medina]

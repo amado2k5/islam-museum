@@ -1,0 +1,18 @@
+id: event/masmala-tabaristan-disaster
+class: event
+kind: campaign
+label: { ar: "هلاك مصقلة بطبرستان", en: "Masmala's Destruction in Tabaristan" }
+summary:
+  ar: "ولّى معاوية مصقلة بن هبيرة بن شبل أحد بني ثعلبة بن شيبان طبرستان وجميع أهلها حرب وضم إليه عشرة آلاف ويقال عشرون ألفاً فكاده العدو وأراه الهيبة حتى توغل بمن معه في البلاد فلما جاوزوا المضايق أخذها العدو عليهم ودهدهوا الصخور من الجبال على رؤوسهم فهلك ذلك الجيش أجمع وهلك مصقلة فضرب الناس به المثل فقالوا حتى يرجع مصقلة من طبرستان."
+  en: "Mu'awiya made Masmala ibn Hubayra ibn Shabal of Tha'laba ibn Shayban governor of Tabaristan — all its people war — reinforced with ten, some say twenty, thousand; the enemy tricked him, showing dread till he drove deep into the land, then seized the narrows and rolled the mountains' rocks onto their heads — the whole army perished and Masmala with it, and the people made him a proverb: 'till Masmala returns from Tabaristan'."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/masmala-ibn-hubayra, role: "الأمير الهالك", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tabaristan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

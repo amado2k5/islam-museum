@@ -1,0 +1,26 @@
+id: event/ansar-scribes-kamil
+class: event
+kind: other
+label: { ar: "كتبة الأوس والخزرج وأهل الكمال", en: "The Scribes of Aws and Khazraj and the Complete" }
+summary:
+  ar: "قال الواقدي كان الكتاب بالعربية في الأوس والخزرج قليلاً وكان بعض اليهود قد علم كتاب العربية وكان تعلمه الصبيان في المدينة في الزمن الأول فجاء الإسلام وفي الأوس والخزرج عدة يكتبون وهم سعد بن عبادة بن دليم والمنذر بن عمرو وأبي بن كعب وزيد بن ثابت فكان يكتب العربية والعبرانية ورافع بن مالك وأسيد بن حضير ومعن بن عدي البلوي حليف الأنصار وبشير بن سعد وسعد بن الربيع وأوس بن خولي وعبد الله بن أبي وكان الكامل منهم والكامل من يجمع إلى الكتاب الرمي والعوم رافع بن مالك وسعد بن عبادة وأسيد بن حضير وعبد الله بن أبي وأوس بن خولي وكان من جمع هذه الأشياء في الجاهلية من أهل يثرب سويد بن الصامت وخدير الكتائب وقال زيد بن ثابت أمرني رسول الله أن أتعلم له كتاب يهود وقال لي إني لا آمن يهوداً على كتابي فلم ير بي نصف شهر حتى تعلمته فكنت أكتب له إلى يهود وإذا كتبوا إليه قرأت كتابهم."
+  en: "Al-Waqidi: writing in Arabic was rare among Aws and Khazraj; some Jews had taught Arabic writing, and the boys learned it in early Medina. When Islam came, those who wrote were Sa'd ibn 'Ubada ibn Dulaym, al-Mundhir ibn 'Amr, Ubayy ibn Ka'b, Zayd ibn Thabit — who wrote Arabic and Hebrew — Rafi' ibn Malik, Usayd ibn Hudayr, Ma'n ibn 'Adi al-Balawi the Ansars' ally, Bashir ibn Sa'd, Sa'd ibn al-Rabi', Aws ibn Khawli and Abdallah ibn Ubayy. The kamil — who joined writing, archery and swimming — were Rafi' ibn Malik, Sa'd ibn 'Ubada, Usayd ibn Hudayr, Abdallah ibn Ubayy and Aws ibn Khawli; and of Jahiliya Yathrib, Suwayd ibn al-Samit and Hudayr al-Kata'ib. Zayd ibn Thabit: 'the Prophet ordered me to learn the Jews' script — I do not trust the Jews with my correspondence — and before half a month passed I had learned it: I wrote his letters to the Jews, and when they wrote to him I read their letters'."
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+relations:
+  - { type: had_participant, target: person/sad-ibn-ubada, role: "من الكتبة الكملة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ubayy-ibn-kab, role: "من الكتبة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/zayd-ibn-thabit, role: "كاتب العبرانية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/usayd-ibn-hudayr, role: "من الكملة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-ubayy, role: "من الكملة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mundhir-ibn-amr, role: "من الكتبة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/bashir-ibn-sad, role: "من الكتبة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/aws-ibn-khawli, role: "من الكملة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rafi-ibn-malik, role: "من الكملة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/suwayd-ibn-al-samit, role: "كامل الجاهلية", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

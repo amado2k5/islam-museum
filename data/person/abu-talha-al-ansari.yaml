@@ -1,0 +1,110 @@
+id: person/abu-talha-al-ansari
+class: person
+label:
+  ar: أبو طلحة الأنصاري
+  en: Abu Talha al-Ansari
+names:
+- kind: full
+  lang: ar
+  value: زيد بن سهل بن الأسود بن حرام بن عمرو بن زيد مناة بن عمرو بن مالك بن عدي بن عمرو بن مالك بن النجار الأنصاري الخزرجي
+- kind: kunya
+  lang: ar
+  value: أبو طلحة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: زيد بن سهل الأنصاري الخزرجي النجاري، زوج أم سليم؛ مشهور بكنيته، وعدّه ابن حجر من فضلاء الصحابة، وذكره عروة وموسى بن عقبة فيمن شهد العقبة، وذكروه كلهم فيمن شهد بدراً، وكان يرمي بين يدي النبي يوم أحد؛ واختُلف في وفاته بين سنة اثنتين وثلاثين
+    وأربع وثلاثين وخمسين.
+  en: Zayd ibn Sahl al-Ansari of the Khazraj, from the Najjar, husband of Umm Sulaym. Known by his kunya, Ibn Hajar counts him among the best of the Companions; Urwa and Musa ibn Uqba place him at al-Aqaba, all list him at Badr, and he shot arrows
+    before the Prophet at Uhud. His death is dated variously between 32, 34 and about 50 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 2979 (ص 516).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/umm-sulaym
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: متى توفي أبو طلحة الأنصاري؟
+  en: When did Abu Talha al-Ansari die?
+perspectives:
+- tradition: sunni
+  id: waqidi-34
+  stance:
+    ar: سنة أربع وثلاثين
+  summary:
+    ar: 'قال الواقدي، وتبعه ابن نمير ويحيى بن بكير وغير واحد: مات سنة أربع وثلاثين وصلى عليه عثمان.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 517
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: ibn-hajar-50
+  stance:
+    ar: نحو سنة خمسين أو إحدى وخمسين
+  summary:
+    ar: يستنتج ابن حجر من رواية شعبة عن ثابت عن أنس أنه صام بعد النبي أربعين سنة، فيكون موته سنة خمسين أو إحدى وخمسين، وبه جزم المدائني.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 517
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: two-years-earlier
+  stance:
+    ar: قبل ذلك بسنتين
+  summary:
+    ar: وقيل مات قبل سنة أربع وثلاثين بسنتين.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 517
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 2979، ص 516
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-9
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 516, entry 2979)

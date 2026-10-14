@@ -1,0 +1,18 @@
+id: event/qutam-death-samarqand
+class: event
+kind: death
+label: { ar: "وفاة قثم بن العباس بسمرقند", en: "Qutham ibn al-Abbas's Death at Samarqand" }
+summary:
+  ar: "كان قثم بن العباس بن عبد المطلب مع سعيد بن عثمان فتوفى بسمرقند ويقال استشهد بها فقال عبد الله بن العباس حين بلغته وفاته شتان ما بين مولده ومقبره فأقبل يصلي فقيل له ما هذا فقرأ الآية في الاستعانة بالصبر والصلاة وقد قدم قثم على سعيد بن عثمان بخراسان فعرض عليه سعيد من المغنم خمسة أسهم فقال لا ولكن أعطني سهماً لي وسهماً لفرسي."
+  en: "Qutham ibn al-Abbas ibn Abd al-Muttalib died with Sa'id's army at Samarqand — some say martyred; hearing it, Ibn Abbas said 'what a distance between his birthplace and his grave' and turned to prayer, citing the verse on seeking help in patience and prayer. Earlier, offered five booty-shares by Sa'id at Khurasan, Qutham had asked only for one share for himself and one for his horse."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/qutam-ibn-al-abbas, role: "المتوفى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/samarqand }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

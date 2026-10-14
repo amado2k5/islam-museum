@@ -1,0 +1,19 @@
+id: event/prophets-mosques-between-medina-and-tabuk
+class: event
+kind: other
+label: { ar: "مساجد النبي بين المدينة وتبوك", en: "The Prophet's prayer places between Medina and Tabuk" }
+summary:
+  ar: "ذكر ابن إسحاق سبعة عشر موضعاً كانت للنبي فيها مساجد معلومة مسماة فيما بين المدينة وتبوك، أولها مسجد بتبوك وآخرها مسجد بذي خشب."
+  en: "Ibn Ishaq names seventeen places where the Prophet had known, named mosques between Medina and Tabuk — the first a mosque at Tabuk and the last a mosque at Dhi Khushub."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها. أثناء المسير إلى تبوك والعودة (ص174).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: part_of, target: event/expedition-to-tabuk, sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: place/tabuk, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 174-175", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 174-175" }

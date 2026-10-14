@@ -1,0 +1,22 @@
+id: event/ayn-jalut-658
+class: event
+kind: battle
+label: { ar: "وقعة عين جالوت وهزيمة التتار" }
+summary:
+  ar: "وفي سنة ثمان وخمسين قطع التتار الفرات ووصلوا إلى حلب وبذلوا السيف فيها ثم وصلوا إلى دمشق وخرج المصريون في شعبان متوجهين إلى الشام لقتال التتار فأقبل المظفر بالجيوش وشاليشه ركن الدين بيبرس البندقداري فالتقوا هم والتتار عند عين جالوت ووقع المصاف وذلك يوم الجمعة خامس عشري رمضان فهزم التتار شر هزيمة وانتصر المسلمون ولله الحمد وقتل من التتار مقتلة عظيمة وولوا الأدبار وطمع الناس فيهم يتخطفونهم وجاء كتاب المظفر إلى دمشق بالنصر فطار الناس فرحاً ثم دخل المظفر إلى دمشق مؤيداً منصوراً وأحبه الخلق غاية المحبة وساق بيبرس وراء التتار إلى بلاد حلب وطردهم عن البلاد ووعده السلطان بحلب ثم رجع عن ذلك فتأثر بيبرس من ذلك وكان ذلك مبدأ الوحشة {cite:tarikh-khulafa-minhaj-1434 p. 720}. وفي شذرات الذهب وثارت النصارى بدمشق ورفعوا رؤوسهم ورفعوا الصليب ومروا به وألزموا الناس بالقيام له من حوانيتهم في الثاني والعشرين من رمضان ووصل جيش الإسلام وعليهم الملك المظفر وعلى مقدمته ركن الدين البندقداري فالتقى الجمعان على عين جالوت غربي بيسان ونصر الله دينه وقتل في المصاف مقدم التتار كتبغا وطائفة من أمراء المغول ووقع بدمشق النهب والقتل في النصارى وأحرقت كنيسة مريم {cite:shadharat-dhahab p. 299}."
+  en: "In 658 the Tatars crossed the Euphrates, put Aleppo to the sword and reached Damascus; the Egyptians marched that Sha'ban, al-Muzaffar leading with Rukn al-Din Baybars al-Bunduqdari his shalish — they met the Tatars at Ayn Jalut on Friday 15 Ramadan and routed them utterly, the first great breaking of their tide. The rejoicing flew to Damascus; Baybars drove them beyond Aleppo — promised the city, then refused it — the germ of their falling-out {cite:tarikh-khulafa-minhaj-1434 p. 720}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1260-09-03~", hijri: "0658-09-15", calendar: julian, precision: day, status: tradition, derived: true, note: "الجمعة 15 رمضان 658؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 720}." }
+relations:
+  - { type: had_participant, target: person/qutuz, role: "السلطان المنتصر", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/baybars, role: "الشاليش", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 714–723"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-46
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

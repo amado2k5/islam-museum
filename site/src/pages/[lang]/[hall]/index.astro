@@ -1,9 +1,13 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import MiniMap from "../../../components/MiniMap.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import ExploreBar from "../../../components/ExploreBar.astro";
+import TodayCards from "../../../components/TodayCards.astro";
+import HijriTimeline from "../../../components/HijriTimeline.astro";
 import { ui, LANGS, WINGS, WING_PATH, fmt, type Lang, type Wing } from "../../../lib/i18n";
 import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
-import { formatDate } from "../../../lib/dates";
+import { formatDate, timelineKey } from "../../../lib/dates";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => WINGS.map((w) => ({ params: { lang, hall: WING_PATH[w] }, props: { lang, wing: w } })));
@@ -11,7 +15,15 @@ export function getStaticPaths() {
 const { lang, wing } = Astro.props as { lang: Lang; wing: Wing };
 const T = ui(lang);
 const items = realNodes.filter((n) => n.wings.includes(wing));
-if (wing === "time") items.sort((a, b) => (a.span?.earliest ?? 1e9) - (b.span?.earliest ?? 1e9));
+if (wing === "time") {
+  // Chronological by start date (see timelineKey); the build fails if the rendered sequence is not non-decreasing.
+  const keyed = items.map((n) => ({ n, ...timelineKey(n) })).sort((a, b) => (a.key === b.key ? a.ord - b.ord : a.key < b.key ? -1 : 1));
+  for (let i = 1; i < keyed.length; i++) {
+    if (keyed[i].key < keyed[i - 1].key) throw new Error(`time wing out of order: ${keyed[i - 1].n.id} before ${keyed[i].n.id}`);
+  }
+  // Undated entries (datasets, buildings) sort last: Infinity keys are non-decreasing.
+  items.splice(0, items.length, ...keyed.map((k) => k.n));
+}
 const dateOf = (n: any) => {
   const d = n.data;
   return formatDate(d.born ?? d.date?.start ?? d.start, lang).text;
@@ -19,39 +31,36 @@ const dateOf = (n: any) => {
 const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinates) : [];
 ---
 <BaseLayout lang={lang} title={T.wings[wing].title} description={T.wings[wing].blurb} path={`/${lang}/${WING_PATH[wing]}/`}>
-  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
-    <p class="eyebrow">{T.entity.breadcrumb}</p>
-    <h1 style={`border-inline-start:6px solid var(--wing-${wing});padding-inline-start:16px`}>{T.wings[wing].title}</h1>
-    <p style="font-size:1.2rem;max-width:var(--measure)">{T.wings[wing].blurb}</p>
-    <p class="muted ui">{items.length ? T.hall.coming : T.hall.empty} <span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span></p>
+  <PageHeader
+    title={T.wings[wing].title}
+    lede={T.wings[wing].blurb}
+    crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.wings[wing].title }]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing={wing}
+  >
+    <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}{" "}<span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span></p>
+    {wing === "time" && <p class="ui" style="color:#c9d3d6;font-size:.9rem;margin:6px 0 0">{T.entity.dagger}</p>}
+  </PageHeader>
+  <div class="wrap" style="padding-block:24px 20px" data-pagefind-ignore>
+    {wing === "time" && <HijriTimeline lang={lang} />}
+    {wing === "today" && (
+      <section class="today-page" aria-labelledby="today-h">
+        <TodayCards lang={lang} full={true} />
+        <p class="muted ui" style="margin-top:1.5rem">{T.today.wing_note}</p>
+      </section>
+    )}
 
     {wing === "place" && placesWithCoords.length > 0 && (
       <figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure>
     )}
 
+    {items.some((n) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start, lang).derived) && <p class="ui muted" style="font-size:.85rem;margin:1.2rem 0 0">{T.entity.dagger}</p>}
     <ul class="grid-cards" style="margin-top:1.5rem">
-      {items.map((n) => (
-        <li><a class="card" href={href(lang, n.id)}><span class="ui" style="font-size:.78rem;text-transform:uppercase;letter-spacing:.08em">{T.class[n.class]}</span><b>{labelOf(n, lang)}</b>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>
+      {items.filter((n) => labelOf(n, lang)).map((n) => (
+        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>
       ))}
     </ul>
 
-    {wing === "today" && (
-      <section style="margin-top:2.5rem">
-        <h2>{T.today.title}</h2>
-        <p class="muted">{T.today.lede}</p>
-        <div class="panel ui" id="today-panel" data-g={T.today.gregorian} data-h={T.today.hijri} aria-live="polite"></div>
-        <script is:inline>
-          (function () {
-            var el = document.getElementById("today-panel"); if (!el) return;
-            var l = document.documentElement.lang, loc = l === "ar" ? "ar" : "en-GB", now = new Date();
-            try {
-              var h = new Intl.DateTimeFormat(loc + "-u-ca-islamic-umalqura-nu-latn", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(now);
-              var g = new Intl.DateTimeFormat(loc + "-u-nu-latn", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(now);
-              el.innerHTML = "<p style='margin:0'><b>" + el.dataset.h + ":</b> " + h + "</p><p style='margin:6px 0 0'><b>" + el.dataset.g + ":</b> " + g + "</p>";
-            } catch (e) {}
-          })();
-        </script>
-      </section>
-    )}
   </div>
+  <ExploreBar lang={lang} />
 </BaseLayout>

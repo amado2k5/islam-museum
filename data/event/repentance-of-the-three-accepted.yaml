@@ -1,0 +1,34 @@
+id: event/repentance-of-the-three-accepted
+class: event
+kind: other
+label: { ar: "قبول توبة الثلاثة", en: "The acceptance of the repentance of the three" }
+summary:
+  ar: "في فجر الليلة الخمسين سمع كعب صارخاً على سلع يبشره، فخرّ ساجداً؛ وأعلن النبي بعد صلاة الفجر توبة الله عليهم، فبشرهم الناس، وقام إلى كعب طلحة بن عبيد الله فهنأه، وقال له النبي إن هذا خير يوم مرّ عليه منذ ولدته أمه."
+  en: At dawn on the fiftieth night Ka'b heard a caller on Mount Sal' bringing him good news and fell prostrate. After the dawn prayer the Prophet announced God's acceptance of their repentance and people congratulated them; Talha ibn Ubaydullah rose to Ka'b and congratulated him, and the Prophet told him this was the best day that had come upon him since his mother bore him.
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها. في فجر الليلة الخمسين من المقاطعة (ص180).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/kaab-ibn-malik, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "قام إلى كعب فهنأه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/murara-ibn-al-rabi, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/hilal-ibn-umayya, sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: place/mount-sal, note: "سمع كعب الصارخ على سلع", sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "كيف تُفهم قصة قبول توبة الثلاثة المخلَّفين ودلالتها؟", en: "How is the acceptance of the repentance of the three who stayed behind understood?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { ar: "يروي ابن إسحاق عن كعب أن توبتهم أُعلنت بعد الفجر ونزل فيها قرآن، ويحكي تفسير كعب لـ«خُلِّفوا» بأنه الإرجاء لا مجرد التخلف عن الغزوة؛ وللمفسرين السنة شروح في هذه الآيات تحتاج إلى مراجعة تفاسير بعينها (needs_source).", en: "Ibn Ishaq relates from Ka'b that their repentance was announced after the dawn prayer and that Qur'an was revealed on it, and he recounts Ka'b's interpretation of 'khullifu' as deferral rather than mere absence from the campaign; Sunni exegetes have commentaries on these verses that need review of specific tafsir works (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    id: academic
+    summary: { ar: "يربط الباحثون الواقعة بتثبيت معايير الولاء داخل جماعة المدينة بعد تبوك؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source).", en: "Researchers link the incident to the consolidation of loyalty norms within the Medinan community after Tabuk; the summary needs a specific academic reference (needs_source)." }
+    sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 180-181", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 180-181" }

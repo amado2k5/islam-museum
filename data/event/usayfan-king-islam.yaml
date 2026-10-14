@@ -1,0 +1,18 @@
+id: event/usayfan-king-islam
+class: event
+kind: other
+label: { ar: "إسلام ملك العسيفان", en: "The Conversion of al-Usayfan's King" }
+summary:
+  ar: "بلد يدعى العسيفان بين قشمير والملتان وكابل كان له ملك عاقل وكان أهل ذلك البلد يعبدون صنماً قد بني عليه بيت وأبدوه فمرض ابن الملك فدعا سدنة ذلك البيت فقال لهم ادعوا الصنم أن يبرئ ابني فغابوا عنه ساعة ثم أتوه فقالوا قد دعوناه وقد أجابنا إلى ما سألناه فلم يلبث الغلام أن مات فوثب الملك على البيت فهدمه وعلى الصنم فكسره وعلى السدنة فقتلهم ثم دعا قوماً من تجار المسلمين فعرضوا عليه التوحيد فوحد وأسلم وكان ذلك في خلافة المعتصم."
+  en: "At al-Usayfan between Kashmir, Multan and Kabul, a king begged his idol's sadins to pray for his sick son — they claimed its answer, the boy died, and he demolished the shrine, broke the idol, slew the sadins — then summoned Muslim merchants who taught him tawhid, and he converted under al-Mu'tasim."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/al-mutasim-abi-ishaq, role: "الخليفة في أيامه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/al-usayfan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

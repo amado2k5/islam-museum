@@ -1,0 +1,18 @@
+id: event/ibn-samura-zur-idol
+class: event
+kind: conquest
+label: { ar: "فتح ابن سمرة وصنم الزور", en: "Ibn Samura's Campaign and the Zur Idol" }
+summary:
+  ar: "ولى ابن عامر عبد الرحمن بن سمرة بن حبيب بن عبد شمس سجستان فأتى زرنج فحصر مرزبانها في قصره في يوم عيد لهم فصالحه على ألفي ألف درهم وألفي وصيف وغلب ابن سمرة على ما بين زرنج وكش من ناحية الهند وغلب من طريق الرخج على ما بينه وبين بلاد الداور فلما انتهى إلى بلاد الداور حصرهم في جبل الزور ثم صالحهم فكانت عدة من معه من المسلمين ثمانية آلاف فأصاب كل رجل منهم أربعة آلاف ودخل على الزور وهو صنم من ذهب عيناه ياقوتتان فقطع يده وأخذ الياقوتتين ثم قال للمرزبان دونك الذهب والجوهر إنما أردت أن أعلمك أنه لا يضر ولا ينفع وفتح بست وزابل بعهد."
+  en: "Ibn Amir made Abd al-Rahman ibn Samura governor of Sijistan; he besieged Zaranj's marzban in his palace on their feast-day — truced for two million dirhams and two thousand wadif — then conquered between Zaranj and Kish on the India side, and by the Rukhkhaj road to the Dawar country, bottling them in Jabal al-Zur before truce. Eight thousand Muslims took four thousand each; he entered upon the Zur idol — gold, with ruby eyes — cut off its hand and took the rubies: 'yours, the gold and jewels — I meant only to show you it can neither harm nor benefit'. Bust and Zabil he took by compact."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abd-al-rahman-ibn-samura, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/jabal-al-zur }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

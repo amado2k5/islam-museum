@@ -1,0 +1,28 @@
+id: event/conquest-of-jazira
+class: event
+kind: campaign
+label: { ar: "فتح الجزيرة", en: "The Conquest of the Jazira" }
+summary:
+  ar: "عند البلاذري عن داود بن عبد الحميد قاضي الرقة عن أبيه عن جده عن ميمون بن مهران: «الجزيرة كلها فتوح إياد بن غنم بعد وفاة أبي عبيدة، ولاه إياها عمر بن الخطاب — وكان أبو عبيدة استخلفه على الشام فولى عمر يزيد بن أبي سفيان ثم معاوية من بعده الشام وأمر إياداً بغزو الجزيرة»؛ وقال سليمان بن عطاء: بعث أبو عبيدة إياداً إلى الجزيرة فمات أبو عبيدة وهو بها فولاه عمر إياها بعد؛ وعند الواقدي — وهو أثبت ما سمعوه في أمره — أن أبا عبيدة مات في طاعون عمواس سنة 18 واستخلف إياداً فورد عليه كتاب عمر بتوليته حمص وقنسرين والجزيرة فسار إلى الجزيرة يوم الخميس للنصف من شعبان سنة 18 في خمسة آلاف وعلى مقدمته ميسرة بن مسروق العبسي وعلى ميمنته سعيد بن عامر بن حذيم الجمحي وعلى ميسرته صفوان بن المعطل السلمي — وقيل كان خالد بن الوليد على ميسرته وقيل إن خالداً لم يسر تحت لواء أحد بعد أبي عبيدة ولزم حمص حتى توفي بها سنة 21 وقيل مات بالمدينة."
+  en: "In al-Baladhuri through the Raqqa judge Dawud ibn Abd al-Hamid's family from Maymun ibn Mihran: 'the whole Jazira is Iyad ibn Ghanm's conquest, after Abu Ubayda's death — Umar appointed him to it, Abu Ubayda having left him over Syria; Umar gave Syria to Yazid ibn Abi Sufyan then Mu'awiya after him and ordered Iyad to raid the Jazira'; Sulayman ibn Ata says Abu Ubayda dispatched him to the Jazira and died while he was there, Umar then confirming him; al-Waqidi's report — the soundest they had on him — is that Abu Ubayda died in the Amwas plague of year 18 having appointed Iyad, and Umar's letter reached him giving him Hims, Qinnasrin and the Jazira, so he marched for the Jazira on Thursday the middle of Sha'ban year 18 in five thousand, Maysara ibn Masruq al-Absi on the vanguard, Sa'id ibn Amir ibn Hudhaym al-Jumahi on the right wing and Safwan ibn al-Mu'attal al-Sulami on the left — some say Khalid ibn al-Walid held his left wing, some that Khalid marched under no banner after Abu Ubayda, staying at Hims till his death in year 21, or dying at Medina."
+wings: [time, place, people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0639-07~", hijri: "0018-07", calendar: julian, precision: month, status: tradition, derived: true, note: "الخميس النصف من شعبان سنة 18 (البلاذري ص 237). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-syria }
+  - { type: occurred_at, target: place/jazira }
+  - { type: had_participant, target: person/iyyad-ibn-ghanm, role: "الأمير العام — فتوح الجزيرة كلها عند ميمون", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/maysara-ibn-masruq, role: "على المقدمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/said-ibn-amir-al-jumahi, role: "على الميمنة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/safwan-ibn-al-muattal, role: "على الميسرة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "على ميسرته في رواية — ونقل عنه ألا يسير تحت لواء بعد أبي عبيدة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "ولّاه حمص وقنسرين والجزيرة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 236–237"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-13
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

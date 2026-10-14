@@ -1,0 +1,22 @@
+id: person/al-abshitay-ahmad
+class: person
+label: { ar: "الإبشيطي أحمد بن إسماعيل", en: "Al-Ibshitay, Ahmad ibn Isma'il" }
+names:
+  - { kind: full, lang: ar, value: "شهاب الدين أحمد بن إسماعيل بن أبي بكر الإبشيطي القاهري" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1399", hijri: "0802", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1478", hijri: "0883", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه شافعي ثم حنبلي من القاهرة، ولد بإبشيط في الغربية بمصر."
+  en: "A Cairene jurist, first Shafi'i and then Hanbali; born in Ibshit in the Gharbiya province of Egypt."
+wings: [people, words]
+themes: [development-of-law-theology-institutions]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 179-182, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص179-182", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

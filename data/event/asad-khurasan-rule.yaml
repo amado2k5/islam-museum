@@ -1,0 +1,20 @@
+id: event/asad-khurasan-rule
+class: event
+kind: other
+label: { ar: "ولاية أسد بن عبد الله خراسان", en: "Asad ibn Abdallah's Khurasan" }
+summary:
+  ar: "قدم أسد سمرقند فاستعمل عليها الحسن بن أبي الممرطة فكانت الترك تطرف سمرقند وتغير وكان الحسن ينفر كلما أغاروا فلا يلحقهم فخطب ذات يوم فدعا على الترك في خطبته فقال اللهم اقطع آثارهم وعجل أقدارهم وأزل عليهم الصبر فشتمه أهل سمرقند وقالوا لا بل أنزل الله علينا الصبر وزلزل أقدامهم وغزا أسد جبال نمرود فصالحه غرود وأسلم وغزا الختل فلما قدم بلخاً أمر ببناء مدينتها ونقل الدواوين إليها وصار إلى ألختل فلم يقدر منها على شيء وأصاب الناس ضر وجوع وبلغه عن نصر بن سيار كلام فضربه وبعث به إلى خالد مع ثلاثة نفر اتهموا بالشعب ثم شخص أسد عن خراسان وخلف عليها الحكم بن عوانة الكلبي."
+  en: "Asad made al-Hasan ibn Abi al-Mammarta over Samarqand, where Turkish raids he could never catch drove him to pray in khutba 'cut their tracks, hasten their fates, take patience from them' — the Samarqandis cursed him back: 'rather send patience on us and shake their feet'. Asad took Ghurud's sulh and conversion in the Nimrud mountains; at Balkh he ordered the city rebuilt and the diwans moved there, gained nothing at al-Khattl amid famine, beat Nasr ibn Sayyar for reported talk and sent him to Khalid with three charged with shu'ubiyya — then left al-Hakam ibn Awana al-Kalbi in his place."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/asad-ibn-abdallah-al-qasri, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/nasr-ibn-sayyar, role: "المضروب المتهم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hakam-ibn-awana, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/balkh }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

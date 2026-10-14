@@ -1,5 +1,8 @@
 # Delegation: Prophetic-era people (for Devin)
 
+> **Historical record of a completed lane.** The current, vendor-neutral instructions are `AGENTS.md` and `docs/agents/` (lane summary: `docs/agents/lanes/prophetic-people.md`). This prompt predates the Arabic-first, Sunni-first and attribution-trailer rules; where it disagrees with them, they win.
+
+
 _Created 11 October 2026. Paste the prompt below into Devin, working from its own clone of the repository. Tracking: see "Parallel work" in `docs/status.md`. Work arrives as pull requests from branches named `devin/people-batch-*`; nothing is pushed to main directly._
 
 **Ownership split (so no work is repeated):** Devin owns `data/person/**` (new files only), the Prophetic-era `data/group/**`, its own `data/source/**` additions, `content/*/person/**` for its people, and `data/_stubs.d/devin-people.yaml`. The maintainer's session owns schema, scripts, site, i18n, events, places, periods, maps, the Qur'an records and the local harvest.

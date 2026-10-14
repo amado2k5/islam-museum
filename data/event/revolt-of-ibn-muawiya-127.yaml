@@ -1,0 +1,22 @@
+id: event/revolt-of-ibn-muawiya-127
+class: event
+kind: revolt
+label: { ar: "خروج عبد الله بن معاوية بن عبد الله بن جعفر بالكوفة" }
+summary:
+  ar: "في سنة سبع وعشرين ومائة دعا عبد الله بن معاوية بن عبد الله بن جعفر بن أبي طالب الناس إلى نفسه بالكوفة وحارب بها عاملها عبد الله بن عمر بن عبد العزيز، وكان قد قدمها زائراً يلتمس صلته لا يريد خروجاً فتزوج ابنة حاتم بن الشرقي فلما وقعت العصبية قال له أهل الكوفة ادع إلى نفسك فبنو هاشم أولى بالأمر من بني مروان، وكان سببها أن ابن عمر أعطى مضر وربيعة عطايا عظاماً ولم يعط جعفر بن نافع وعثمان بن الخيبر من أهل اليمن مثلها فغاضباه فأمر بهما فدفعاه وخرجا فنادوا يا لربيعة فثارت إليهم ربيعة، فلما رأت الشيعة ضعف ابن عمر اغتمزوا فيه ودعوا إلى ابن معاوية وثاروا في غوغاء الناس حتى أتوا المسجد فاجتمعوا فيه وبايع الناس لعبد الله بن معاوية وأخرجوه من دار الوليد بن سعيد حتى أدخلوه القصر، فأقام بالكوفة أياماً يبايعه الناس وأتته البيعة من المدائن وقم النيل، وخرج إلى المدائن فبايعوه ثم غلب على حلوان والجبال والماهين وهمذان وقومس وأصبهان والري {cite:tabari-khayyat-part2 p. 607-611}."
+wings: [time]
+themes: [civil-wars-and-revolts]
+periods: [period/umayyad]
+regions: [levant-iraq, persia-central-asia]
+date:
+  start: { edtf: "744~", hijri: "0127", calendar: julian, precision: year, status: tradition, derived: true, note: "127؛ التحويل مشتق {cite:tabari-khayyat-part2 p. 608}." }
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-muawiya-ibn-abdallah-ibn-jafar, role: "المدعو له", sources: [source/tabari-khayyat-part2] }
+  - { type: had_participant, target: person/abdallah-ibn-umar-ibn-abd-al-aziz, role: "عامل الكوفة", sources: [source/tabari-khayyat-part2] }
+provenance:
+  layer: own-research
+  source: "تاريخ الطبري (مسح AAlexandrina-224135، دي غوية) — سنة 127، ص 607–611"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tabari-96-130-03
+sources: [source/tabari-khayyat-part2]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

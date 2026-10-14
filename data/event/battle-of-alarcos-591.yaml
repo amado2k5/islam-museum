@@ -1,0 +1,23 @@
+id: event/battle-of-alarcos-591
+class: event
+kind: battle
+label: { ar: "وقعة الأرك" }
+summary:
+  ar: "وقعة الأرك الشهيرة: لما انقضت مدة الهدنة خرجت طائفة من الإفرنج إلى بلاد المسلمين فنهبوا وعاثوا، فجاز السلطان الموحدي يعقوب المنصور إلى الأندلس سنة إحدى وتسعين وخمسمائة وقيل إنه لما أراد الحواز من مدينة سلا مرض مرضاً شديداً يئس منه أطباؤه فعاث الأذفونش وانتهز الفرصة، فكان المصاف شمالي قرطبة على قرب قلعة رباح يوم الخميس تاسع شعبان سنة ٥٩١، وجعل يعقوب مكانه تحت الأعلام السلطانية الشيخ أبا يحيى بن أبي حفص فقصد الإفرنج الأعلام ظناً أن السلطان تحتها فأثروا في المسلمين أثراً قبيحاً واستُشهد جمع كبير، حتى أشرف عليهم يعقوب بعد كسر شوكتهم فهزمهم شر هزيمة وهرب الأذفونش في طائفة يسيرة، وحكي أن ما حصل لبيت المال من دروع الإفرنج ستون ألفاً وأما الدواب على اختلاف أنواعها فلم يُحصر لها عدد، ولم يُسمع بعد وقعة الزلاقة بمثلها وربما صرح بعض المؤرخين بأنها أعظم من الزلاقة، ثم لحق الفلُّ بقلعة رباح فحاصرها يعقوب حتى أخذها وحاصر طليطلة وقطع أشجارها وخرب نواحيها وهدم أسوارها ورجع إلى إشبيلية، ثم عاد سنة ٥٩٣ ففعل في بلاد الفرنج الأفاعيل حتى طلبوا الصلح {cite:nafh-tib-maqqari p. 381-382}. ونجا الأذفونش ملك النصارى إلى طليطلة في أسول حال فحلق رأسه ولحيته ونكس صليبه وآلى أن لا ينام على فراش ولا يقرب النساء ولا يركب فرساً ولا دابة حتى يأخذ بالثأر، وساق يعقوب خلفه إلى طليطلة وحاصرها ورمى عليها بالمجانيق وضيق عليها حتى لم يبق إلا فتحها فخرجت إليه والدة الأذفونش وبناته ونساؤه يبكين بين يديه وسألنه إبقاء البلد عليهن فرق لهن ومن عليهن بها ووهب لهن من الأموال والجواهر ما جل وردهن مكرمات وعفا بعد القدرة {cite:nafh-tib-maqqari p. 479-480}."
+  en: "The famous Battle of al-Arak (Alarcos): after the truce lapsed and the Franks raided, the Almohad sultan Ya'qub al-Mansur crossed to al-Andalus in 591; the armies met north of Cordoba near Qal'at Rabah on Thursday 9 Sha'ban, the Franks charged the sultan's flags held by Abu Yahya ibn Abi Hafs — a decoy — then al-Mansur broke them utterly; sixty thousand Frankish mail-coats entered the treasury and chroniclers ranked it with or above Zallaqa {cite:nafh-tib-maqqari p. 381-382}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1195", hijri: "0591-08-09", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس ٩ شعبان ٥٩١؛ التحويل مشتق {cite:nafh-tib-maqqari p. 381}." }
+relations:
+  - { type: had_participant, target: person/yaqub-al-mansur-al-muwahhidi, role: "السلطان الموحدي المنتصر", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 381–382"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-54
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,5 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import ExploreBar from "../../../components/ExploreBar.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { href, labelOf, realNodes, summaryOf } from "../../../lib/graph";
 
@@ -9,11 +11,11 @@ const T = ui(lang);
 const items = realNodes.filter((n) => n.class === "question");
 ---
 <BaseLayout lang={lang} title={T.questions.title} description={T.questions.lede} path={`/${lang}/questions/`}>
-  <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
-    <h1>{T.questions.title}</h1>
-    <p style="font-size:1.2rem;max-width:var(--measure)">{T.questions.lede}</p>
+  <PageHeader title={T.questions.title} lede={T.questions.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.questions.title }]} crumbsLabel={T.entity.breadcrumb} />
+  <div class="wrap" style="padding-block:24px 20px" data-pagefind-ignore>
     {items.length === 0 ? <p class="panel ui">{T.questions.empty}</p> : (
-      <ul class="grid-cards">{items.map((n) => <li><a class="card" href={href(lang, n.id)}><b>{labelOf(n, lang)}</b><span>{summaryOf(n, lang)}</span></a></li>)}</ul>
+      <ul class="grid-cards">{items.map((n) => <li><a class="card" href={href(lang, n.id)}><h2 class="card-title">{labelOf(n, lang)}</h2><span>{summaryOf(n, lang)}</span></a></li>)}</ul>
     )}
   </div>
+  <ExploreBar lang={lang} />
 </BaseLayout>

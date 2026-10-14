@@ -1,0 +1,20 @@
+id: person/ibn-al-salah
+class: person
+label: { ar: "ابن الصلاح", en: "Ibn al-Salah" }
+names:
+  - { kind: kunya, lang: ar, value: "أبو عمرو" }
+  - { kind: alternate, lang: ar, value: "ابن الصلاح" }
+gender: male
+roles: [scholar, muhaddith]
+traditions: [sunni]
+summary:
+  ar: "الإمام الحافظ أبو عمرو بن الصلاح؛ أملى مجلساً سماه «الأحاديث الكلية» جمع فيه الأحاديث الجوامع التي يُقال إن مدار الدين عليها، فاشتمل على ستة وعشرين حديثاً أخذها النووي وبنى عليها «الأربعين»."
+  en: "The hadith master Abu Amr ibn al-Salah; author of the dictation 'al-Ahadith al-Kulliyya', twenty-six comprehensive hadiths on which al-Nawawi built his 'Arba'un'."
+wings: [people, ideas, words]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+relations:
+  - { type: authored, target: work/ahadith-kulliyya-ibn-al-salah, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), author's introduction p. 26", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-1" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); only what this book prints — dates and nisba details await a rijal source (needs_source born, died)" }

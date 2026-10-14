@@ -1,0 +1,25 @@
+id: event/abu-yazid-siege-mahdiyya-333
+class: event
+kind: siege
+label: { ar: "حصار أبي يزيد للمهدية" }
+summary:
+  ar: "في سنة ثلاث وثلاثين وثلاثمائة حاصر أبو يزيد مخلد بن كيداد صاحب الحمار القائمَ العبيدي في المهدية؛ فلما تهيّأت صنهاجة وكتامة لنصرة القائم خاف ورحل نحو المهدية فنزل على خمسة عشر ميلاً منها وبثّ سراياه، واتفقت كتامة وأصحاب القائم على الخروج إليه فباغتهم وقد وصله ولده بعسكر من القيروان فهزمهم وتبعهم إلى باب الفتح، ثم تقّدم في جمادى الآخرة فجاوز السور وأشرف على المدينة حتى بلغ بابها عند مصلّى العيد وأهل زويلة يطلبون الأمان، وخاف المقامَ لما وصل زيري بن مناد في صنهاجة فتحيّر وردّه أهل الناحية فعاد إلى منزله ثم رحل إلى ترفوضة فحفر على معسكره خندقاً، واجتمع إليه خلق عظيم من إفريقية والبربر ونفوسة والزاب وأقصى المغرب فحصر المهدية حصاراً شديداً ومنع الناس الدخول والخروج، وزحف إليها أربع زحوف من جمادى الآخرة إلى شوال وفي إحداها قبض عبيدي على لجام فرسه فكاد يؤخذ لولا أن قطع رجل من أصحابه يد القابض، وعظم البلاء على أهل المهدية حتى أكلوا الدواب والميتة وفتح القائم أهراء المهدي وفرّق ما فيها على رجاله، وكان البربر يأخذون من خرج فيقتلونه ويشقون بطنه طلباً للذهب حتى لم يبق في إفريقية معمور ولا سقف مرفوع {cite:kamil-ibn-al-athir p. 318-321}."
+  en: "In 333, Abu Yazid Makhlad ibn Kaydad — 'the man of the donkey' — besieged the Ubaydid caliph al-Qa'im in al-Mahdiyya. Four assaults followed through the year; famine inside the walls grew so severe that the people ate beasts and carrion, and al-Qa'im opened the Mahdi's granaries to his men {cite:kamil-ibn-al-athir p. 318-321}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+date:
+  start: { edtf: "945", hijri: "0333", calendar: julian, precision: year, status: tradition, derived: true, note: "333؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 318}." }
+relations:
+  - { type: had_participant, target: person/abu-yazid-makhlad, role: "المحاصِر المتمرد", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-qaim-fatimid, role: "المحصور في المهدية", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ziri-ibn-manad, role: "قائد صنهاجة المنجد", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/mahdiyya, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط دار الكتاب العربي، بيروت) ج 6 ص 318–321"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-296-batch-1
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

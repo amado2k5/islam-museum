@@ -1,0 +1,18 @@
+id: person/zayd-ibn-al-lusayt
+class: person
+label: { en: Zayd ibn al-Lusayt al-Qaynuqa'i, ar: "زيد بن اللصيت القينقاعي" }
+names:
+  - { kind: full, lang: ar, value: "زيد بن اللصيت القينقاعي" }
+gender: male
+summary:
+  ar: "كان في رحل عمارة بن حزم، ويصفه ابن إسحاق بالمنافق؛ نُسب إليه قول عن ضلال ناقة النبي أخبر النبي بمكان الناقة، ويختلف الناس في توبته."
+  en: He was in the litter of Umara ibn Hazm, and Ibn Ishaq calls him a hypocrite; a saying about the Prophet's strayed she-camel was attributed to him, to which the Prophet answered by announcing where the camel was. People differ on his repentance.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-qaynuqa, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/the-prophets-she-camel-strays, role: subject, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 166-167", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 166-167" }

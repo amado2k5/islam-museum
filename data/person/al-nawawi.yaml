@@ -1,0 +1,22 @@
+id: person/al-nawawi
+class: person
+label: { ar: "الإمام النووي", en: "Imam al-Nawawi" }
+names:
+  - { kind: given, lang: ar, value: "يحيى" }
+  - { kind: nisba, lang: ar, value: "النووي" }
+  - { kind: kunya, lang: ar, value: "أبو زكريا" }
+gender: male
+roles: [scholar, muhaddith, jurist]
+traditions: [sunni]
+summary:
+  ar: "الفقيه الإمام الزاهد القدوة أبو زكريا يحيى النووي؛ جمع «الأربعين» في الأحاديث الجامعة فأخذ أحاديث مجلس «الأحاديث الكلية» لابن الصلاح الستة والعشرين وزاد عليها حتى تمت اثنين وأربعين حديثاً، فاشتهرت وكثر حفظها وعني بها الشارحون."
+  en: "The jurist and ascetic Imam Abu Zakariyya Yahya al-Nawawi; compiler of the 'Arba'un', forty-two concise hadiths built on Ibn al-Salah's twenty-six, which became one of the most memorised and commented collections in Islam."
+wings: [people, ideas, words]
+themes: [scripture-and-its-sciences, development-of-law-theology-institutions]
+regions: [levant-iraq]
+relations:
+  - { type: authored, target: work/arbaun-nawawi, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: authored, target: work/sharh-sahih-muslim-al-nawawi, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), author's introduction p. 26 and editor's takhrij notes citing his Sharh Sahih Muslim", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-1" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); only facts this book prints (name, kunya, his Forty, his Sharh Sahih Muslim) — birth/death dates and nisba details await a rijal source (needs_source born, died)" }

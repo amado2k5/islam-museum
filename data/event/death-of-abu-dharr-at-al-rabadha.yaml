@@ -1,0 +1,20 @@
+id: event/death-of-abu-dharr-at-al-rabadha
+class: event
+kind: other
+label: { ar: "وفاة أبي ذر بالربذة", en: "The death of Abu Dharr at al-Rabadha" }
+summary:
+  ar: "روى ابن إسحاق عن بريدة بن سفيان الأسلمي عن محمد بن كعب القرظي عن عبد الله بن مسعود أنه لما نفى عثمان أبا ذر إلى الربذة وأصابه بها قدره لم يكن معه إلا امرأته وغلامه، فأوصاهما بغسله وتكفينه ووضعه على قارعة الطريق، فمرّ بهم ابن مسعود في رهط من أهل العراق فأعانوهم على دفنه، وتذكّر ابن مسعود قول النبي له في مسيره إلى تبوك."
+  en: Ibn Ishaq relates, through Burayda ibn Sufyan al-Aslami from Muhammad ibn Ka'b al-Qurazi from Abdullah ibn Mas'ud, that when Uthman exiled Abu Dharr to al-Rabadha and his death came there, he had with him only his wife and his servant. He charged them to wash and shroud him and lay him on the road; Ibn Mas'ud passed in a party of Iraqis and helped bury him, and recalled what the Prophet had said to Abu Dharr on the march to Tabuk.
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-rabadha, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-dharr-al-ghifari, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-masud, role: witness, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/uthman-ibn-affan, note: "ذُكر في الرواية بوصف نفيه إياه إلى الربذة", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 168", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 168" }

@@ -1,0 +1,21 @@
+id: event/bab-al-taq-fitna-348
+class: event
+kind: civil-war
+label: { ar: "فتنة الشيعة والسنة بباب الطاق سنة 348" }
+summary:
+  ar: "في جمادى الأولى سنة 348هـ انتصفت الفتن بين الشيعة والسنة ببغداد فقتل بينهم خلق ووقع حريق كثير في باب الطاق {cite:muntazam-ibn-al-jawzi p. 682}."
+  en: "In Jumada I 348 Sunni-Shii fighting broke out in Baghdad with many killed and a great fire at Bab al-Taq {cite:muntazam-ibn-al-jawzi p. 682}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0959-07~", hijri: "0348-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى 348؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 682}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-14
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

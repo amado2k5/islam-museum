@@ -18,11 +18,14 @@ relations:
   - { type: had_participant, target: person/abu-bakr, role: "صدّق بالنبل فسمي الصديق", sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/abu-jahl, role: "استهزأ بالخبر ونادى قريشاً للتكذيب", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+issue: { ar: "هل كان الإسراء والمعراج بالجسد والروح يقظةً، وكيف يُؤرَّخ ويُفهم؟", en: "Was the Isra and Miraj in body and soul while awake, and how is it dated and understood?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni scholars hold that the journey occurred in both body and soul while awake, citing explicit hadith reports in Bukhari and Muslim and the opening of Surat al-Isra." }
     sources: [source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim]
   - tradition: academic
+    id: academic
     summary: { en: "Historians analyse the varied early reports and traditions regarding the dating and nature of the night journey, contrasting the concise Qur'anic text with the developed details in classical hadith literature." }
 sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 137-142" }

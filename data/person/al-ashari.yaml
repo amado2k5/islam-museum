@@ -1,0 +1,22 @@
+id: person/al-ashari
+class: person
+label: { ar: "أبو الحسن الأشعري", en: "Abu al-Hasan al-Ash'ari" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن علي بن إسماعيل الأشعري" }
+gender: male
+roles: [scholar, theologian]
+traditions: [sunni]
+summary:
+  ar: "متكلم من أهل السنة، تُنسب إليه الأشعرية، صاحب «مقالات الإسلاميين» الذي عرض فيه قول أهل الحديث والسنة وقال إنه يذهب إليه، وتصفه طبعة الكتاب بأنه شيخ أهل السنة والجماعة.، وعند ابن النديم باسمه أبو الحسن علي بن إسماعيل بن أبي بشر الأشعري من أهل البصرة وكان أولا معتزليا ثم تاب من القول بالعدل وخلق القرآن في المسجد الجامع ببصرة يوم الجمعة رقى كرسيا ونادى بأعلى صوته من عرفني فقد عرفني ومن لم يعرفني فأنا أعرفه نفسي أنا فلان بن فلان كنت أقول بخلق القرآن وأن الله لا يرى بالأبصار وأن أفعال الشر أنا أفعلها وأنا تائب مقلع معتقد للرد على المعتزلة فخرج بفضائحهم ومعايبهم وكان فيه دعابة ومزح كبير، وله كتاب اللمع وكتاب الموجز وكتاب إيضاح البرهان وكتاب التبيين عن أصول الدين وكتاب الشرح والتفصيل في الرد على أهل الإفك والتضليل {cite:fihrist-ibn-al-nadim p. 257}"
+  en: "A Sunni theologian to whom the Ash'ari school is attributed, author of Maqalat al-Islamiyyin in which he sets out the position of the hadith scholars and Ahl al-Sunna and says he holds it; the edition of the book calls him the shaykh of Ahl al-Sunna wa'l-Jama'a."
+wings: [people]
+themes: [creed]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+faith:
+  - { value: sunni, basis: documented, note: "The title page of the edition calls him the shaykh of Ahl al-Sunna wa'l-Jama'a and he ends the creed report by saying he holds it.", sources: [source/maqalat-islamiyyin] }
+relations:
+  - { type: authored, target: work/maqalat-islamiyyin, sources: [source/maqalat-islamiyyin] }
+provenance: { layer: own-research, source: "مقالات الإسلاميين، ج1 صفحة العنوان وص 350", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: ashari-1 }
+sources: [source/fihrist-ibn-al-nadim, source/maqalat-islamiyyin]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; from the title page and the closing statement, undated (a second source is needed), no prose" }

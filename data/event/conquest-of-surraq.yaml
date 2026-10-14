@@ -1,0 +1,20 @@
+id: event/conquest-of-surraq
+class: event
+kind: conquest
+label: { ar: "فتح سرق", en: "Conquest of Surraq" }
+summary:
+  ar: "فتح أبو موسى سرق على مثل صلح رامهرمز ثم إنهم غدروا فوجه إليها حارثة بن بدر الغداني في جيش كثيف فلم يفتحها فلما قدم عبد الله بن عامر فتحها عنوة وقد كان حارثة ولي سرق بعد ذلك وفيه يقول أبو الأسود الدؤلي أحار بن بدر قد وليت إمارة فكن جرداً فيها تخون وتسرق فحظك من مال العراقين سرق فقال حارثة جزاك إله الناس خير جزائه فقد قلت معروفاً وأوصيت كافياً أمرت بجزم لو أمرت بغيره لألفيتني فيه لأمرك عاصياً."
+  en: "Abu Musa took Surraq on Ramhurmuz's terms; they betrayed and Haritha ibn Badr's thick army failed to retake it — Abdallah ibn Amir took it by force, and Haritha governed it after. Abu al-Aswad satirized: 'Harith b. Badr, they gave you a charge — be a locust in it, betray and steal; your lot of the two Iraqs' wealth is Surraq' — and Haritha answered 'the God of folk repay you best — you spoke kindness and enjoined sufficiency; bid me decide and you would find me obedient — bid anything else, disobedient'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/haritha-ibn-badr, role: "القائد الفاشل ثم الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-al-aswad-al-duali, role: "الشاعر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/surraq }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

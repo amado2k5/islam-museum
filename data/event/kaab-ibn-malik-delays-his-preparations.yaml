@@ -1,0 +1,20 @@
+id: event/kaab-ibn-malik-delays-his-preparations
+class: event
+kind: other
+label: { ar: "تأخر كعب بن مالك عن التجهز لتبوك", en: "Ka'b ibn Malik puts off his preparations for Tabuk" }
+summary:
+  ar: "روى كعب أنه لم يتخلف عن غزوة قط غير بدر، وأنه لم يكن أقوى ولا أيسر منه حين تخلف عن تبوك، وجعل يؤجل التجهز يوماً بعد يوم حتى فاته الجيش، ثم سأل عنه النبي في تبوك فدافع عنه معاذ بن جبل."
+  en: "Ka'b related that he had never stayed behind from any campaign except Badr, and that he was never stronger or better provided than when he stayed behind from Tabuk: he kept putting off his preparations day after day until the army left without him. When the Prophet asked about him at Tabuk, Mu'adh ibn Jabal spoke in his defence."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها. وقع التأخر في أيام التجهز لتبوك (ص176).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/kaab-ibn-malik, role: "الراوي المتخلف", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muadh-ibn-jabal, role: "ردّ على من ذمّ كعباً", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 175-177", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 175-177" }

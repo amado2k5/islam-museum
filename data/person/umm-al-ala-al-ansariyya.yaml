@@ -1,0 +1,57 @@
+id: person/umm-al-ala-al-ansariyya
+class: person
+label:
+  ar: أم العلاء الأنصارية
+  en: Umm al-Ala' al-Ansariyya
+names:
+- kind: full
+  lang: ar
+  value: أم العلاء بنت الحارث بن ثابت بن حارثة الأنصارية الخزرجية
+- kind: kunya
+  lang: ar
+  value: أم العلاء
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'صحابية أنصارية من المبايعات؛ روت حديثاً في الصحيحين عن نزول عثمان بن مظعون في بيتها عند توزيع الأنصار للمهاجرين وموته عندها، ورؤيتها له عيناً جارية وقول النبي: «ذلك عمله»؛ ويرجح ابن حجر أنها والدة خارجة بن زيد بن ثابت.'
+  en: An Ansari Companion among those who pledged; she narrated in the two collections the story of Uthman ibn Maz'un's lodging in her house when the Ansar divided the Muhajirun among them and his death there, her seeing a flowing spring for
+    him and the Prophet's words 'That is his deed'; Ibn Hajar judges her the mother of Kharija ibn Zayd ibn Thabit.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12219 (ص 2021).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12219، ص 2021
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2021, entry 12219)

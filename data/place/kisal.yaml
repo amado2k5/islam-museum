@@ -1,0 +1,19 @@
+id: place/kisal
+class: place
+kind: town
+label: { ar: "كسال", en: "Kisal" }
+summary:
+  ar: "كسال مدينة بناها مروان بن محمد حين ولّي الثغر فنزلها — وهي من برذعة على أربعين فرسخاً ومن تفليس على عشرين فرسخاً — وانطلق منها فدخل أرض الخزر مما يلي باب اللان."
+  en: "Kisal, the city Marwan ibn Muhammad built and made his seat when given the march — forty farsakhs from Bardha'a and twenty from Tiflis — and from it he set out to enter the Khazar land by way of Bab al-Lan."
+wings: [place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/marwan-caucasus-expedition, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 292"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

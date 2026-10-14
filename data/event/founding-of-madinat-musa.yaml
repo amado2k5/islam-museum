@@ -1,0 +1,18 @@
+id: event/founding-of-madinat-musa
+class: event
+kind: founding
+label: { ar: "بناء مدينة موسى بقزوين", en: "Founding of Madinat Musa at Qazwin" }
+summary:
+  ar: "كان موسى الهادي لما صار إلى الري أتى قزوين فأسر ببناء مدينة بأرضها تعرف مدينة موسى وابتاع أرضاً تدعى رستمباذ فوقفها على مصالح المدينة وكان عمرو الرومي مولاه يتولاها ثم تولاها بعده محمد بن عمرو وكان المبارك التركي بنى حصناً يسمى مدينة المبارك وبها قوم من مواليه."
+  en: "When Musa al-Hadi reached Rayy he came to Qazwin and ordered a city built in its ground known as Madinat Musa; he bought a tract called Rustamabadh and endowed it for the town's benefit, his mawla Amr al-Rumi administering it, then Muhammad ibn Amr; and al-Mubarak al-Turki built a fortress called Madinat al-Mubarak peopled by his own mawali."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/musa-al-hadi, role: "الباني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/qazwin }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

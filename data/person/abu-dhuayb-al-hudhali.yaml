@@ -1,0 +1,17 @@
+id: person/abu-dhuayb-al-hudhali
+class: person
+label: { ar: "أبو ذؤيب الهذلي", en: "Abu Dhu'ayb al-Hudhali" }
+summary:
+  ar: "أبو ذؤيب خويلد بن خالد الهذلي الشاعر؛ خرج في جيش عبد الله بن سعد بن أبي سرح إلى إفريقية في غزوة عثمان فتوفي بها فقام بأمره عبد الله بن الزبير حتى واراه في لحده."
+  en: "Abu Dhu'ayb Khuwaylid ibn Khalid al-Hudhali the poet; he rode out in Abdallah ibn Sa'd ibn Abi Sarh's army to Ifriqiya in Uthman's raid and died there — Abdallah ibn al-Zubayr attending him until he laid him in his grave."
+wings: [people]
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/first-raid-on-ifriqiya, role: "الشاعر المتوفى بها", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 317"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

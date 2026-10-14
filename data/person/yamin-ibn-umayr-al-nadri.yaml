@@ -1,0 +1,18 @@
+id: person/yamin-ibn-umayr-al-nadri
+class: person
+label: { en: Yamin ibn Umayr al-Nadri, ar: "يامين بن عمير النضري" }
+names:
+  - { kind: full, lang: ar, value: "يامين بن عمير بن كعب النضري" }
+gender: male
+roles: [companion]
+summary:
+  ar: "ذكره ابن إسحاق في خبر بلغه أنه لقي أبا ليلى وعبد الله بن مغفل يبكيان فأعطاهما ناضحاً وزوّدهما تمراً."
+  en: "Ibn Ishaq names him in a report that reached him: he met Abu Layla and Abdullah ibn al-Mughaffal weeping and gave them a camel and provisioned them with dates."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/the-weepers-al-bakkaun, role: gave-a-camel, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 161-162", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 161-162" }

@@ -1,0 +1,23 @@
+id: event/fall-of-toledo-478
+class: event
+kind: conquest
+label: { ar: "أخذ الفرنج طليطلة" }
+summary:
+  ar: "من أول ما استرد الإفرنج من مدن الأندلس العظيمة مدينة طليطلة من يد القادر بالله ابن ذي النون؛ حاصرها الأذفونش حصاراً شديداً حتى قيل سبع سنين، وكان أخذه لها في سنة ثمان وسبعين وأربعمائة، فعند ابن خلكان يوم الثلاثاء مستهل صفر وعند ابن علقمة يوم الأربعاء لعشر خلون من المحرم، وذكر ابن بسام أن الحنطة كانت تقيم عند أهلها مخزونة خمسين سنة لا تتغير فلما كانت سنة الاستيلاء لم تُرفع الغلة من الأندر حتى أسرع فيها الفساد فعلم الناس أن ذلك بمشيئة الله لأمر أراده، وأنزل العدو من بها على حكمه وخرج ابن ذي النون على أقبح صورة وبيده إصطرلاب يأخذ به وقتاً يرحل فيه، وبسط الكافر العدل على أهل المدينة وحبب التنصر إلى عامة طغامها وشرع في تغيير الجامع كنيسة في ربيع الأول سنة ٤٩٦، وقيل لملك النصارى ينبغي أن تلبس التاج فقال حتى نأخذ قرطبتهم وأعد لذلك ناقوساً رصعه بالجواهر فأكذبه الله وأزعجه، وفي أخذها قال ابن العسال: يا أهل أندلس حثوا مطيكم فما المقام بها إلا من الغلط، وكانت وقعة الزلاقة في السنة بعدها {cite:nafh-tib-maqqari p. 352-354, 447-448}."
+  en: "The first of al-Andalus's great cities retaken by the Franks: Toledo, from al-Qadir ibn Dhi-l-Nun in 478 — Tuesday 1 Safar in Ibn Khallikan, Wednesday 10 Muharram in Ibn Alqama — after a siege some stretched to seven years. Ibn Bassam records the fifty-year stored wheat spoiling that very year; Ibn Dhi-l-Nun left astrolabe in hand; the mosque became a church in Rabi I 496; Alfonso refused the crown 'until we take their Cordoba' — a vow unfulfilled; Ibn al-Asal's lament 'hasten your mounts, people of al-Andalus' — and Zallaqa followed the next year {cite:nafh-tib-maqqari p. 352-354, 447-448}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1085", hijri: "0478", calendar: julian, precision: month, status: tradition, derived: true, note: "478: مستهل صفر عند ابن خلكان، 10 محرم عند ابن علقمة؛ التحويل مشتق {cite:nafh-tib-maqqari p. 353-354}." }
+relations:
+  - { type: had_participant, target: person/al-mamun-ibn-dhi-al-nun, role: "آخر ملوكها؛ خرج منها على حكم العدو", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/tulaytula, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 352–354، 447–448"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-54
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

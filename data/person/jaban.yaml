@@ -1,0 +1,16 @@
+id: person/jaban
+class: person
+label: { ar: "جابان" }
+summary:
+  ar: "عند البلاذري: قائد فارسي خرج في جمع عظيم إلى أليس فلقيه المثنى بن حارثة بنهر الدم ثم تجمع بمستر فبعث إليه خالد المثنى وحنظلة الكاتب فهرب لما انتهيا إليه."
+  en: "In al-Baladhuri: a Persian commander who came out in a great host to Ulays — al-Muthanna ibn Haritha met him at Nahr al-Damm — then massed at Tustar where Khalid sent al-Muthanna and Hanzala the Scribe against him, and he fled at their approach."
+gender: male
+relations:
+  - { type: participated_in, target: event/al-falalij-and-tustar-jaban, role: "الهارب", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 339، 343–344"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-27
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

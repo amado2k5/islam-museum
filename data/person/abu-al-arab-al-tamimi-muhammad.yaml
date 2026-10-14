@@ -1,0 +1,22 @@
+id: person/abu-al-arab-al-tamimi-muhammad
+class: person
+label: { ar: "أبو العرب التميمي محمد بن أحمد", en: "Abu al-Arab al-Tamimi, Muhammad ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "أبو العرب محمد بن أحمد بن تميم الدارمي التميمي" }
+gender: male
+roles: [jurist, muhaddith, historian]
+traditions: [sunni]
+born: { edtf: "0865", hijri: "0251", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0945", hijri: "0333", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مالكي ومحدّث ومؤرخ، من أهل القيروان."
+  en: "A Maliki jurist, hadith scholar and historian from Kairouan."
+wings: [people, words]
+themes: [development-of-law-theology-institutions, history-writing-and-social-thought]
+periods: [period/abbasid-fragmentation]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 634, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص634", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

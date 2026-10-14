@@ -1,0 +1,20 @@
+id: event/hajjaj-daylam-expedition
+class: event
+kind: campaign
+label: { ar: "بعث الحجاج إلى الديلم", en: "al-Hajjaj's Daylam Expedition" }
+summary:
+  ar: "عاث الأكراد وأفسدوا أيام خروج عبد الرحمن بن محمد بن الأشعث فبعث الحجاج عمرو بن هانئ العبسي في أهل دمشق إليهم فأوقع بهم وقتل منهم خلقاً ثم أمره بغزو الديلم فغزاهم في اثني عشر ألفاً فيهم من بني عجل ومواليهم من أهل الكوفة ثمانون منهم محمد بن سنان العجلي الذي نزل قرية من قرى دستبى ثم صار إلى قزوين فبنى داراً في ربضها فعذله أهل الثغر فلم يلتفت وبنى معه أهل بيته خارج المدينة ثم انتقل الناس وبنوا حتى تم ربض المدينة."
+  en: "When the Kurds ravaged during Ibn al-Ash'ath's revolt, al-Hajjaj sent Amr ibn Hani' al-Absi with Damascenes who routed and slaughtered them, then ordered him against Daylam with twelve thousand — among them eighty of Banu Ujul and their Kufan clients, including Muhammad ibn Sinan al-Ujli, who settled a Dastaba village then built a house in Qazwin's suburb; the frontier folk rebuked him for exposing himself and them, he ignored them, his household built with him outside the town, others followed, and so the suburb grew."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "الآمر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-hani-al-absi, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad-ibn-sinan-al-ujli, role: "من الموالي الثمانين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/daylam }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

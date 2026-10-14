@@ -1,0 +1,22 @@
+id: person/al-akhfash-al-asghar-ali
+class: person
+label: { ar: "الأخفش الأصغر علي بن سليمان", en: "Al-Akhfash al-Asghar, Ali ibn Sulayman" }
+names:
+  - { kind: full, lang: ar, value: "علي بن سليمان بن الفضل البغدادي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0849", hijri: "0235", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0927", hijri: "0315", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "نحوي بغدادي، يُعرف بالأخفش الصغير تمييزا له عن غيره من النحاة الذين حملوا هذا اللقب."
+  en: "A Baghdadi grammarian known as al-Akhfash al-Asghar, to distinguish him from other grammarians who bore the name."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 378-380, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص378-380", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

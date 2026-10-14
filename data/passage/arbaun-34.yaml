@@ -1,0 +1,17 @@
+id: passage/arbaun-34
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "34"
+label: { ar: "الأربعون 34 — من رأى منكم منكراً فليغيره", en: "Arba'un 34 — whoever sees an evil let him change it" }
+text: "من رأى منكم منكراً فليغيره بيده، فإن لم يستطع فبلسانه، فإن لم يستطع فبقلبه، وذلك أضعف الإيمان"
+summary:
+  ar: "حديث أبي سعيد الخدري قال: سمعت رسول الله يقول: «من رأى منكم منكراً فليغيره بيده فإن لم يستطع فبلسانه فإن لم يستطع فبقلبه وذلك أضعف الإيمان» — وهو الحديث الرابع والثلاثون في الأربعين النووية وفي شرح ابن رجب؛ أخرجه مسلم (49) من رواية قيس بن مسلم عن طارق بن شهاب عن أبي سعيد ومن رواية إسماعيل بن رجاء عن أبيه عن أبي سعيد، وفي حديث طارق أن سببه ما روي عن أبي سعيد أن مروان بدأ بالخطبة يوم العيد قبل الصلاة فقام إليه رجل فقال الصلاة قبل الخطبة فقال قد ترك ما هنالك فقال أبو سعيد أما هذا فقد قضى ما عليه ثم روى هذا الحديث؛ وروي معناه من حديث ابن مسعود عند مسلم «ما من نبي بعثه الله في أمة قبلي إلا كان له من أمته حواريون وأصحاب يأخذون بسنته ويقتدون بأمره ثم إنه يخلف من بعدهم خلوف يقولون ما لا يفعلون ويفعلون ما لا يؤمرون فمن جاهدهم بيده فهو مؤمن ومن جاهدهم بلسانه فهو مؤمن ومن جاهدهم بقلبه فهو مؤمن وليس وراء ذلك من الإيمان حبة خردل» — فجعل اليد واللسان والقلب مراتب لتغيير المنكر بحسب الاستطاعة ونهايتها عند القلب أضعف الإيمان (جامع العلوم والحكم ص 698–709)."
+  en: "The hadith of Abu Sa'id al-Khudri that he heard the Messenger of God say 'whoever of you sees an evil let him change it with his hand; if he cannot, then with his tongue; if he cannot, then with his heart — and that is the weakest of faith' — the thirty-fourth of al-Nawawi's Forty and of Ibn Rajab's commentary, transmitted by Muslim (49) through Qays ibn Muslim from Tariq ibn Shihab from Abu Sa'id and through Isma'il ibn Raja' from his father from Abu Sa'id; Tariq's route reports its occasion — Marwan began the Eid sermon before the prayer, a man stood to him saying 'the prayer before the sermon', and when he answered 'what is there has been left', Abu Sa'id said 'as for him, he has fulfilled what was upon him' and narrated this hadith; the meaning also comes in Ibn Masud's report in Muslim: 'there was no prophet God sent in a community before me without his having disciples and companions who took to his sunna and followed his command, then after them successors come who say what they do not do and do what they are not commanded — whoever struggles against them with his hand is a believer, whoever with his tongue is a believer, whoever with his heart is a believer, and beyond that there is not a mustard-seed of faith' — so hand, tongue and heart are the grades of changing evil by ability, ending at the heart, which is the weakest of faith (Jami' al-Ulum wal-Hikam pp. 698–709)."
+relations:
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/amr-nahy, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/iman, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 34 pp. 698–709", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-13" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 698 (~24 words); the Marwan occasion and Ibn Masud's mustard-seed parallel from p. 698" }

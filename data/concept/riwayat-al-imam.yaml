@@ -1,0 +1,68 @@
+id: concept/riwayat-al-imam
+class: concept
+kind: term
+label:
+  ar: الروايات عن الإمام أحمد
+  en: "The reports from Imam Ahmad"
+issue:
+  ar: إذا تعارضت أقوال الإمام في المسألة الواحدة، فأيّها يُنسب إليه مذهباً؟
+  en: "When the Imam's statements on a single question conflict, which of them is attributed to him as the school's position?"
+summary:
+  ar: ما نُقل عن الإمام أحمد من أقوال في المسألة الواحدة، وطريقة الأصحاب في الجمع بينها وترجيح إحداها، وهي أساس المذهب في الفقه.
+  en: "The statements transmitted from Imam Ahmad on a single question, and how his companions reconciled them and preferred one over another; they are the school's foundation in jurisprudence."
+wings:
+- ideas
+themes:
+- development-of-law-theology-institutions
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+perspectives:
+- tradition: sunni-hanbali
+  id: later-report
+  stance:
+    ar: إذا تعذّر الجمع بين القولين وعُلم التاريخ، فالقول المتأخر هو مذهبه
+  summary:
+    ar: قال قوم إن القول الثاني هو مذهبه إذا عُلم أنه متأخر.
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 126
+  sources:
+  - source/madkhal-ibn-badran-turki
+- tradition: sunni-hanbali
+  id: both-reports
+  stance:
+    ar: القولان معاً مذهبه
+  summary:
+    ar: قال آخرون إن القولين معاً مذهبه.
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 126
+  sources:
+  - source/madkhal-ibn-badran-turki
+- tradition: sunni-hanbali
+  id: earlier-even-if-retracted
+  stance:
+    ar: القول الأول مذهبه ولو رجع عنه
+  summary:
+    ar: قالت طائفة إن القول الأول هو مذهبه ولو رجع عنه، وصحّحه علاء الدين المرداوي في «تصحيح الفروع».
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 126
+  sources:
+  - source/madkhal-ibn-badran-turki
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-1
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from pp. 126-127 of the book; the academic view is still to be added

@@ -1,0 +1,23 @@
+id: person/ismail
+class: person
+label: { en: "Ismail (Ishmael)", ar: "إسماعيل" }
+gender: male
+roles: []
+faith: [{ value: hanif, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "Son of Ibrahim and Hajar, settled as an infant with his mother at Mecca where Zamzam sprang; he married into Jurhum, fathered twelve sons whose tribes spread from Mecca, and built the Kaaba with his father; the Adnani Arabs trace their lineages to him."
+  ar: "ابن إبراهيم من هاجر؛ أسكنه أبوه مع أمه بمكة رضيعاً ففاضت لهما زمزم، وتزوج من جرهم ورُزق اثني عشر ولداً تشعبت منهم القبائل، وبنى مع أبيه البيت وولي زعامة مكة وولايته طول حياته."
+wings: [people]
+themes: [prophets, family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran] }
+relations:
+  - { type: child_of, target: person/ibrahim }
+  - { type: child_of, target: person/hajar }
+  - { type: built, target: building/kaaba, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: lived_in, target: place/mecca }
+  - { type: spouse_of, target: person/bint-mudad-al-jurhumi, note: "ابنة مضاض بن عمرو الجرهمي، أم أولاده الاثني عشر.", sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

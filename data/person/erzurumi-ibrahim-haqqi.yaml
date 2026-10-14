@@ -1,0 +1,22 @@
+id: person/erzurumi-ibrahim-haqqi
+class: person
+label: { ar: "إبراهيم حقي الأرضروملي", en: "Ibrahim Haqqi al-Erzurumi" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم حقي بن أرضروم" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1703", hijri: "1115", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1780", hijri: "1194", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم عثماني من أرضروم، عاد إليها بعد وفاة والده وتلقى فيها تعليمه، ثم خدم أحد شيوخه في نيللو."
+  en: "An Ottoman scholar from Erzurum. He returned there after his father's death to complete his education, then served one of his teachers at Nilüfer."
+wings: [people, words]
+themes: [spirituality-and-sufism, scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 467, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص467", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,19 @@
+id: event/ahnaf-basra-petition
+class: event
+kind: other
+label: { ar: "خطبة الأحنف لعمر في أهل البصرة", en: "al-Ahnaf's Petition to Umar for Basra" }
+summary:
+  ar: "قدم الأحنف بن قيس على عمر في أهل البصرة فجعل يسألهم رجلاً رجلاً والأحنف في ناحية البيت في بيت لا يتكلم فقال له عمر أما لك حاجة فقال إن إخواننا من أهل الأمصار نزلوا منازل الأمم الخالية بين المياه العذبة والجنان الملتفة وإنا نزلنا سبخة بشاشة لا يجف نداها ولا ينبت مرعاها ناحيتها من قبل المشرق البحر الأجاج ومن قبل المغرب الفلاة فليس لنا زرع ولا ضرع يأتينا منافعنا وميرتنا في مثل مريء النعامة يخرج الرجل الضعيف فيستعذب الماء من فرسخين وتخرج المرأة لذلك فتربق ولدها فإن لا ترفع خسيستنا وتجبر فاقتنا نكن كقوم هلكوا فألحق عمر ذراري أهل البصرة في العطاء وكتب إلى أبي موسى يأمره أن يحتفر لهم نهراً."
+  en: "Al-Ahnaf ibn Qays came to Umar with the Basrans; Umar heard them one by one while al-Ahnaf sat silent in a corner till asked — then: 'our brothers of the garrison towns dwell between sweet waters and tangled gardens, and we in a reeking marsh whose dew never dries nor pasture grows, the briny sea eastward, the waste westward, no tillage no milk, our due reaching us like an ostrich's gullet; the weak man walks two farsakhs for sweet water and the woman miscarries her child going — lift our misery and mend our poverty or we are a people lost'. Umar joined Basra's children to the stipend and wrote Abu Musa to dig them a canal."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "الخطيب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/medina }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

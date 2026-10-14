@@ -1,0 +1,70 @@
+id: person/umm-haram-bint-milhan
+class: person
+label:
+  ar: أم حرام بنت ملحان
+  en: Umm Haram bint Milhan
+names:
+- kind: full
+  lang: ar
+  value: أم حرام بنت ملحان الأنصارية
+- kind: kunya
+  lang: ar
+  value: أم حرام
+gender: female
+died:
+  edtf: "0648~"
+  hijri: "0027"
+  calendar: julian
+  precision: year
+  status: tradition
+  note: في غزوة قبرس أيام عثمان سنة سبع وعشرين (ابن الأثير، كما في الإصابة).
+  sources:
+  - source/ibn-hajar-isaba
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: خالة أنس بن مالك، كان النبي يزورها في قباء، وفي حديثها أنه رأى أناساً من أمته يركبون البحر؛ وتزوجها عبادة بن الصامت، وماتت في غزوة قبرس حين صُرعت عن دابتها.
+  en: Maternal aunt of Anas ibn Malik, whom the Prophet used to visit at Quba; in her hadith he saw people of his community sailing the sea. She married Ubada ibn al-Samit and died on the Cyprus expedition when she fell from her mount.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 12014 (ص 1990).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/ubada-ibn-al-samit
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/quba
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12014، ص 1990 (تراجم النساء)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-women-1
+sources:
+- source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1990, entry 12014)

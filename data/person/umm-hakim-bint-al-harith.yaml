@@ -1,0 +1,33 @@
+id: person/umm-hakim-bint-al-harith
+class: person
+label:
+  ar: أم حكيم بنت الحارث بن هشام المخزومية
+  en: Umm Hakim bint al-Harith al-Makhzumiyya
+names:
+  - { kind: full, lang: ar, value: أم حكيم بنت الحارث بن هشام المخزومية }
+gender: female
+roles: [warrior]
+traditions: [sunni]
+summary:
+  ar: "مخزومية؛ كانت امرأة عكرمة بن أبي جهل فأعرس بها خالد بن سعيد بن العاص في الليلة التي كانت وقعة مرج الصفر في صبيحتها، فلما بلغها مصابه انتزعت عمود الفسطاط فقاتلت به فيقال إنها قتلت يومئذ سبعة نفر وإن بها لرذع الخلوق."
+  en: "A Makhzumi woman; she had been the wife of Ikrama ibn Abi Jahl, and Khalid ibn Sa'id ibn al-As celebrated his wedding with her on the night before the battle of Marj al-Suffar — when she heard of his fall she tore out the tent-pole and fought with it, said to have killed seven men that day with ragged clothes on her."
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+relations:
+  - { type: participated_in, target: event/battle-of-marj-al-suffar, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: spouse_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: spouse_of, target: person/ikrima-ibn-abi-jahl, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 162"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

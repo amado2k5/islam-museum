@@ -1,0 +1,58 @@
+id: person/nuaym-ibn-abdullah
+class: person
+label:
+  ar: نعيم بن عبد الله (النحّام)
+  en: Nu'aym ibn Abdullah (al-Nahham)
+names:
+- kind: full
+  lang: ar
+  value: نعيم بن عبد الله بن أسيد بن عبد بن عوف بن عويج بن عدي بن كعب القرشي العدوي، المعروف بالنحّام
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: قرشي عدوي لقبه النحّام لقول النبي «دخلت الجنة فسمعت نحمة من نعيم»؛ قال البخاري إن له صحبة، وقال مصعب الزبيري إن إسلامه كان قبل عمر ولكنه لم يهاجر إلا قبيل فتح مكة لأنه كان ينفق على أرامل بني عدي وأيتامهم.
+  en: A Qurashi of Banu Adi nicknamed al-Nahham because the Prophet said he entered Paradise and heard a nahma (cough) from Nu'aym; al-Bukhari says he had companionship, and Mus'ab al-Zubayri says his conversion was before Umar's but he did not
+    emigrate until shortly before the conquest of Mecca because he supported the widows and orphans of Banu Adi.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 8888 (ص 1519).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-adi
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/quraysh
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 8888، ص 1519
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-8
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1519, entry 8888)

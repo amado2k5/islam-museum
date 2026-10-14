@@ -1,0 +1,26 @@
+id: event/massacre-of-najran
+class: event
+kind: massacre
+label: { en: "The Massacre of Najran (Ashab al-Ukhdud)", ar: "مذبحة نجران (أصحاب الأخدود)" }
+summary:
+  en: "In October 523 the Himyarite king Dhu Nuwas, a convert to Judaism, marched on the Christians of Najran demanding they renounce their faith; on their refusal he dug the great trench and burned them — men, women, children and elders, twenty to forty thousand by report — the Ashab al-Ukhdud of Surat al-Buruj, whose blood summoned the Abyssinian occupation."
+  ar: "في أكتوبر سنة 523م قاد ذو نواس — وقد تهوّد — حملة على نصارى نجران ليصرفهم عن دينهم قسراً؛ فلما أبوا خدّ لهم الأخدود وأحرقهم بالنار رجالاً ونساءً وصغاراً وشيوخاً، وقيل ما بين عشرين ألفاً وأربعين ألفاً — وهم أصحاب الأخدود في سورة البروج، وكان من جراء ذلك الاحتلال الحبشي الثاني لليمن."
+wings: [time, people]
+themes: [wars-and-campaigns, islam-and-christianity]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0523-10", calendar: julian, precision: month, status: tradition, note: "أكتوبر 523م عند المباركفوري." }
+relations:
+  - { type: occurred_at, target: place/najran }
+  - { type: had_participant, target: person/dhu-nuwas, role: "الملك الذي خدّ الأخدود وأحرق", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: group/christians-of-najran, role: "الجماعة المحروقة", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/pre-islamic-arabia }
+sides:
+  - label: { en: "Himyarite host", ar: "جند ذي نواس" }
+    participants: [person/dhu-nuwas]
+    commanders: [person/dhu-nuwas]
+  - label: { en: "Christians of Najran", ar: "نصارى نجران" }
+    participants: [group/christians-of-najran]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tafhim-al-quran]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

@@ -1,0 +1,19 @@
+id: place/almunecar
+class: place
+kind: city
+label: { ar: "المنكب" }
+summary:
+  ar: "المنكب من حصون ساحل شرق مالقة؛ إليه نزل السلطان أبو الحسن صاحب غرناطة بعد أن خلع نفسه لأخيه الزغل فأقام بها إلى أن مات {cite:nafh-tib-maqqari p. 519}."
+  en: "Almunecar (al-Munkab) — the coastal fortress east of Malaga where the blinded ex-sultan Abu al-Hasan retired after abdicating to his brother al-Zaghal, and died {cite:nafh-tib-maqqari p. 519}."
+wings: [place]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 519"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/iyad-incursion-into-armenia
+class: event
+kind: campaign
+label: { ar: "دخول إياد الدرب إلى خلاط", en: "Iyad's Incursion toward Khilat" }
+summary:
+  ar: "عند البلاذري: فتح إياد آمد بغير قتال على مثل صلح الرها وفتح ميافارقين على مثل ذلك وفتح حصن كفرتونا وفتح نصيبين بعد قتال على مثل صلح الرها وفتح طور عبدين وحصن ماردين ودارا على مثل ذلك وفتح قردى وباذبدى على مثل صلح نصيبين، وأتاه بطريق الزوزان فصالحه عن أرضه على أتاوة، وكل ذلك في سنة 19 وأيام من المحرم سنة 20؛ ثم سار إلى أرزن ففتحها على مثل صلح نصيبين ودخل الدرب فبلغ بدليس وجازها إلى خلاط وصالح بطريقها وانتهى إلى العين الحامضة من أرمينية فلم يمدها ثم عاد فضمن صاحب بدليس خراج خلاط وجماجها وما على بطريقها ثم انصرف إلى الرقة ومضى إلى حمص وقد كان عمر ولاه إياها فمات سنة 20."
+  en: "In al-Baladhuri: Iyad took Amid without fighting on the like of al-Ruha's treaty, Mayyafariqin likewise, the fortress of Kafr Tuta, Nasibin after fighting on the like of al-Ruha's terms, Tur Abdin and the fortress of Mardin with Dara likewise, and Qarda and Bazabda on the like of Nasibin's terms — and the patrician of al-Zawzan came to him compounding for his land at a tribute, all in year 19 and days of Muharram year 20; then he marched to Arzan, taking it on Nasibin's terms, entered the pass to Badlis, crossed to Khilat and compounded with its patrician, reached al-Ayn al-Hamida of Armenia which he did not cross, and returning held Badlis's lord guarantor for the kharaj of Khilat, its dependencies and its patrician's lands, then withdrew to al-Raqqa and went to Hims — Umar having given it to him — where he died in year 20."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0640-01~", hijri: "0020-01", calendar: julian, precision: month, status: tradition, derived: true, note: "سنة 19 وأيام من محرم 20 (البلاذري ص 242). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-jazira }
+  - { type: had_participant, target: person/iyyad-ibn-ghanm, role: "الأمير الغازي", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 241–242"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

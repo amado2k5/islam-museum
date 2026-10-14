@@ -1,0 +1,20 @@
+id: event/sinan-makran
+class: event
+kind: conquest
+label: { ar: "فتح مكران على يد سنان بن سلمة", en: "Sinan ibn Salama's Conquest of Makran" }
+summary:
+  ar: "ولى زياد بن أبي سفيان في أيام معاوية سنان بن سلمة بن المحبق الهذلي وكان فاضلاً متألهاً وهو أول من أحاف الجند بالطلاق فأتى الثغر ففتح مكران عنوة ومصرها وأقام بها وضبط البلاد وفيه يقول الشاعر طلاق نساء ما يسوق لها مهرا رأيت هذيلاً أحدثت في يمينها وقال ابن الكلبي كان الذي فتح مكران حكيم بن جبلة العبدي ثم استعمل زياد على الثغر راشد بن عمرو الجديدي من الأزد فأتى مكران ثم غزا القيقان فظفر ثم غزا الميد فقتل وقام بأمر الناس سنان بن سلمة فولاه زياد الثغر فأقام به سنتين."
+  en: "Ziyad appointed the pious Sinan ibn Salama ibn al-Muhabbiq al-Hudhali — first to bind his troops with divorce-oaths — who took Makran by storm, garrisoned it, and held it firm; the poets mocked his swearing ('a divorce whose wife gets no dower'). Ibn al-Kalbi names Hakim ibn Jabala the conqueror. Ziyad's next man Rashid ibn Amr al-Judaydi won at Qiqan, fell at al-Mayd, and Sinan, left in command, held the thaghr two years."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/sinan-ibn-salama, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rashid-ibn-amr, role: "المقتول بالميد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hakim-ibn-jabala, role: "الفاتح في رواية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/makran }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

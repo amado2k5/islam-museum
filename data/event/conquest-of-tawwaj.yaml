@@ -1,0 +1,19 @@
+id: event/conquest-of-tawwaj
+class: event
+kind: conquest
+label: { ar: "فتح توج", en: "Conquest of Tawwaj" }
+summary:
+  ar: "لما ولى عمر عثمان بن أبي العاص البحرين وعمان فدوخهما وجه أخاه الحكم بن أبي العاص في البحر إلى فارس في جيش عظيم من عبد القيس والأزد وتميم وبني ناجية ففتح جزيرة أبر كاوان ثم صار إلى توج من أرض أردشير خرة وفي رواية أبي مخنف أن عثمان بن أبي العاص نفسه قطع البحر إلى فارس فنزل توج ففتحها وبنى بها المساجد وجعلها داراً للمسلمين وأسكنها عبد القيس وغيرهم فكان يغير منها على أرجان ثم شخص إلى عمان والبحرين واستخلف أخاه الحكم وقال غير أبي مخنف إن الحكم فتح توج وأنزلها المسلمين سنة ١٩."
+  en: "When Umar gave Uthman ibn Abi al-As Bahrain and Uman, pacified and obedient, he sent his brother al-Hakam by sea to Fars with a great host of Abd al-Qays, Azd, Tamim and Najiya — taking the island Abr Kawan, then Tawwaj of Ardashir-Khurra's land. In Abu Mikhnaf's telling Uthman himself crossed, took Tawwaj, built its mosques, made it a Muslim settlement-house for Abd al-Qays and raided Arrajan from it till Umar's letter recalled him — others say al-Hakam opened it and settled the Muslims in 19h."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-hakam-ibn-abi-al-as, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-abi-al-as, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tawwaj }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

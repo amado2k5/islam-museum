@@ -1,0 +1,62 @@
+id: person/waqid-ibn-abdillah
+class: person
+label:
+  ar: واقد بن عبد الله اليربوعي
+  en: Waqid ibn Abdullah al-Yarbu'i
+names:
+- kind: full
+  lang: ar
+  value: واقد بن عبد الله بن عبد مناف بن عرين بن ثعلبة بن يربوع بن حنظلة بن مالك بن زيد مناة بن تميم التميمي الحنظلي اليربوعي، حليف بني عدي بن كعب
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: تميمي يربوعي حليف بني عدي؛ شهد بدراً، وهو الذي رمى عمرو بن الحضرمي بسهم فقتله في سرية نخلة، فنزلت آية الشهر الحرام، وكانت بنو يربوع تفخر بأن منهم أول من قتل قتيلاً من المشركين في الإسلام؛ ومات في أول خلافة عمر.
+  en: A Tamimi of Banu Yarbu', ally of Banu Adi; he was at Badr, and he is the one who shot Amr ibn al-Hadrami dead with an arrow in the Nakhla raid, after which the verse about the sacred month was revealed; Banu Yarbu' used to boast that one
+    of them was the first to kill a polytheist in Islam; he died at the start of Umar's caliphate.
+wings:
+- people
+themes:
+- battles
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 9157 (ص 1562).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-adi
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/expedition-of-nakhla
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 9157، ص 1562
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-8
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1562, entry 9157)

@@ -1,0 +1,31 @@
+id: journey/hudaybiyya-march
+class: journey
+kind: pilgrimage_route
+label: { ar: "مسير النبي إلى الحديبية", en: "The march to al-Hudaybiyya" }
+summary:
+  ar: "مسير النبي من المدينة إلى الحديبية في ذي القعدة سنة 6هـ معتمراً بمن معه، عبر ذي الحليفة ثم قرب عسفان، ثم بطريق وعر بين الشعاب على ثنية المرار حتى أقصى الحديبية. بلغ الحديبية والمشركون يجمعون الخيل عند كراع الغميم على الطريق الرئيسي، فتنكّب النبي الطريق."
+  en: "The Prophet's march from Medina to al-Hudaybiyya in Dhu al-Qa'da of year 6 AH, on pilgrimage with those who followed him: past Dhu al-Hulayfa, near Usfan, then by a rough track between the hills over Thaniyyat al-Mirar to the far end of al-Hudaybiyya."
+wings: [time, place, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - from: place/medina
+    to: place/asfan
+    mode: "مسير"
+    note: "خرج من المدينة يوم الإثنين غرة ذي القعدة سنة 6هـ، ومعه نحو ألف وأربعمائة (ويقال ألف وخمسمائة)، ولم يخرجوا بسلاح إلا سلاح المسافر (الرحيق ص337). تحرك نحو مكة حتى كان بذي الحليفة فقلّد الهدي وأشعره وأحرم بالعمرة (ص337). ثم بعث عيناً من خزاعة فأتاه قريباً من عسفان بخبر جموع قريش (ص337-338)."
+    sources: [source/mubarakpuri-raheeq]
+  - from: place/asfan
+    to: place/hudaybiyya
+    mode: "مسير على طريق وعر"
+    note: "ترك الطريق الرئيسي المار بالتنعيم إلى الحرم، وأخذ بين الشعاب ذات اليمين بين ظهري الحمش، على ثنية المرار مهبط الحديبية من أسفل مكة (ص338). كان خالد بن الوليد بمائتي فارس في كراع الغميم على الطريق الرئيسي فلم يلقهم (ص338). بركت القصواء بثنية المرار، فقال إنها حبسها حابس الفيل، ثم نزل بأقصى الحديبية على ثمد قليل الماء (ص338-339)."
+    sources: [source/mubarakpuri-raheeq]
+relations:
+  - { type: part_of, target: event/treaty-of-hudaybiyya }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Drafted from al-Raheeq al-Makhtum pp. 337-339 (travel legs only)" }
+
+waypoints:
+  - {"place": "place/medina", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "المدينة المنورة"}, "narrative": {"ar": "نقطة الانطلاق: المدينة المنورة. خرج من المدينة يوم الإثنين غرة ذي القعدة سنة 6هـ، ومعه نحو ألف وأربعمائة (ويقال ألف وخمسمائة)، ولم يخرجوا بسلاح إلا سلاح المسافر (الرحيق ص337). تحرك نحو مكة حتى كان بذي الحليفة فقلّد الهدي وأشعره وأحرم بالعمرة (ص337). ثم بعث عيناً من خزاعة فأتاه قريباً من عسفان بخبر جموع قريش (ص337-338)."}, "sources": ["source/mubarakpuri-raheeq"]}
+  - {"place": "place/asfan", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "عسفان"}, "narrative": {"ar": "خرج من المدينة يوم الإثنين غرة ذي القعدة سنة 6هـ، ومعه نحو ألف وأربعمائة (ويقال ألف وخمسمائة)، ولم يخرجوا بسلاح إلا سلاح المسافر (الرحيق ص337). تحرك نحو مكة حتى كان بذي الحليفة فقلّد الهدي وأشعره وأحرم بالعمرة (ص337). ثم بعث عيناً من خزاعة فأتاه قريباً من عسفان بخبر جموع قريش (ص337-338)."}, "sources": ["source/mubarakpuri-raheeq"]}
+  - {"place": "place/hudaybiyya", "day": 3, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "الحديبية"}, "narrative": {"ar": "ترك الطريق الرئيسي المار بالتنعيم إلى الحرم، وأخذ بين الشعاب ذات اليمين بين ظهري الحمش، على ثنية المرار مهبط الحديبية من أسفل مكة (ص338). كان خالد بن الوليد بمائتي فارس في كراع الغميم على الطريق الرئيسي فلم يلقهم (ص338). بركت القصواء بثنية المرار، فقال إنها حبسها حابس الفيل، ثم نزل بأقصى الحديبية على ثمد قليل الماء (ص338-339)."}, "sources": ["source/mubarakpuri-raheeq"]}

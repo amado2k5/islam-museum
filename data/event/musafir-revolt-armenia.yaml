@@ -1,0 +1,26 @@
+id: event/musafir-revolt-armenia
+class: event
+kind: civil-war
+label: { ar: "خروج مسافر القصّاب بأرمينية", en: "The Rising of Musafir al-Qassab in Armenia" }
+summary:
+  ar: "عند البلاذري: خالف على مروان بن محمد ثابت بن نعيم الجذامي وأتى مسافر القصّاب — وهو ممن مكّنه بالباب الضحّاك الخارجي — فوافقه على رأيه وولّاه أرمينية وأذربيجان وأتى أردبيل مستخفياً فخرج معه قوم من الشراة منها باجرُوان فوجدوا بها قوماً يرون رأيهم فانضموا إليهم وأتوا ورتان فصحبهم أهلها بشر كثير كانوا على مثل رأيهم وعبروا إلى البيلقان فصحبتهم منهم جماعة كثيرة كانوا على مثل رأيهم ثم نزلوا يونان، وولّى مروان بن محمد إسحاق بن مسلم أرمينية فلم يزل يقاتل مسافراً وكان في قلعة الكلاب بالسيسجان؛ ثم لما جاءت الدولة المباركة وولّى أبو جعفر المنصور الجزيرة وأرمينية في خلافة السفّاح وجّه إلى مسافر وأصحابه قائداً من أهل خراسان فقاتلهم حتى ظفر بهم وقتل مسافراً، وكان أهل البيلقان متحصّنين في قلعة الكلاب ورئيسهم ودد بن أصفر البيلقاني فاستنزلوا بأمان."
+  en: "In al-Baladhuri: Thabit ibn Nu'aym al-Judhami rose against Marwan ibn Muhammad, and Musafir al-Qassab — one whom al-Dahhak al-Khariji had empowered at al-Bab — came agreeing with his view; al-Dahhak gave him Armenia and Adharbayjan, and he came to Ardabil in disguise, whence a body of Sharat (Kharijites) went out with him — among them Bajirwan — finding at ... like-minded men who joined them, then Wartan whose folk accompanied them in numbers sharing their view, crossing to al-Baylaqan where a great crowd of like view attached itself, till they camped at Yunan; Marwan ibn Muhammad gave Armenia to Ishaq ibn Muslim, who fought Musafir ceaselessly, Musafir holding the fortress of al-Kilab in Sisajan; then when the blessed Dawla came and Abu Ja'far al-Mansur governed Jazira and Armenia under al-Saffah, he sent against Musafir and his fellows a commander of Khurasan's people who fought them till he overcame them and killed Musafir — the people of al-Baylaqan had fortified themselves in Qal'at al-Kilab under their chief Wadad ibn Asfar al-Baylaqani, and were brought down under aman."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0744/0754", hijri: "0126~", calendar: julian, precision: year, status: tradition, derived: true, note: "من خروجه لقتل الوليد إلى مقتله على يد بعث المنصور في خلافة السفّاح (البلاذري ص 294). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/armenia }
+  - { type: occurred_at, target: place/ardabil }
+  - { type: had_participant, target: person/musafir-al-qassab, role: "القائد المولّى أرمينية وأذربيجان من الضحّاك الخارجي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/thabit-ibn-nuaym-al-judhami, role: "المخالف على مروان بن محمد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/isha-ibn-muslim-al-uqayli, role: "والي أرمينية لدى مروان المقاتل له", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mansur, role: "والي الجزيرة وأرمينية في خلافة السفّاح وباعث القائد الخراساني", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 294"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

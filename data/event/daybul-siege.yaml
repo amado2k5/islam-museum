@@ -1,0 +1,20 @@
+id: event/daybul-siege
+class: event
+kind: siege
+label: { ar: "فتح الديبل وكسر منارة البد", en: "The Storming of Daybul" }
+summary:
+  ar: "قدم محمد بن القاسم الديبل يوم جمعة ووافته سفن حمل فيها الرجال والسلاح والأداة فخندق حين نزل الديبل وركزت الرماح على الخندق ونشرت الأعلام وأنزل الناس على راياتهم ونصب منجنيقاً تعرف بالعروس يمد فيها خمس مائة رجل وكان بالديبل بد عظيم عليه دقل طويل وعلى الدقل راية حمراء إذا هبت الريح أطافت بالمدينة وكانت تدور وكانت كتب الحجاج ترد على محمد وكتب محمد ترد عليه بصفة ما قبله واستطلاع رأيه في كل ثلاثة أيام فورد عليه كتاب ان نصب العروس وأقصر منها قائمة ولتكن مما يلي المشرق ثم ادع صاحبها فمره أن يقصد برميته للدقل الذي وصفت لي فرمى الدقل فكسر فاشتد طرة الكفر من ذلك ثم إن محمداً ناهضهم وقد خرجوا إليه فهزمهم حتى ردهم وأمر بالسلالم فوضعت وصعد عليها الرجال وكان أولهم صعوداً رجل من مراد من أهل الكوفة ففتحت عنوة ومكث محمد يقتل من فيها ثلاثة أيام وهرب عامل داهر عنها وقتل سادن بيت آلهتهم واختط محمد للمسلمين بها وبنى مسجداً وأنزلها أربعة آلاف وقال منصور بن حاتم النحوي إنه رأى الدقل مكسوراً وإن عنبسة بن إسحاق الضبي العامل على السند في خلافة المعتصم هدم أعلى تلك المنارة وجعل فيها سجناً وابتدأ في مرمة المدينة بما نقض من حجارتها فعزل قبل استتمام ذلك وولي بعده هرون بن أبي خالد المروروذي فقتل بها."
+  en: "Muhammad reached Daybul on a Friday with the fleet behind him — trench, spears, banners, and the mangonel 'al-Arus' worked by five hundred men against the great budd whose tall mast bore a revolving red banner. Al-Hajjaj's letters, exchanged every three days, ordered the eastern arm shortened and the crew told to break the mast he described; broken, the kafirs' defiance sank, the sally was driven back, and ladders went up — a Muradi of Kufa first over — the city stormed, three days of killing, the temple's sadin slain, Dahir's agent fled; Muhammad marked out a Muslim quarter, built the mosque, and settled four thousand. Mansur ibn Hatim saw the broken mast, and al-Mu'tasim's governor Anbasa ibn Ishaq al-Dabbi razed the minaret's top for a prison before his removal; his successor Harun ibn Abi Khalid was killed there."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/dahir, role: "ملك البلاد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/anbasa-ibn-ishaq-al-dabbi, role: "العامل الهادم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/daybul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

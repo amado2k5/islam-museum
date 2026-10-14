@@ -1,0 +1,18 @@
+id: event/ahnaf-tukharistan-battle
+class: event
+kind: battle
+label: { ar: "وقعة الأحنف بطخارستان", en: "al-Ahnaf's Battle in Tukharistan" }
+summary:
+  ar: "جمع أهل طخارستان للمسلمين واجتمع أهل الجوزجان والطالقان والفارياب ومن حولهم فبلغوا ثلاثين ألفاً وجاءهم أهل الصغانيان وهم في الجانب الشرقي من النهر فرجع الأحنف إلى قصره وخرج ليلاً فسمع رجلاً يوقد تحت خزيره أو يعجن يقول الرأي أن ينزل بين المرغاب والجبل فيكون المرغاب عن يمينه والجبل عن يساره فلا يلقى من عدوه وإن كثروا إلا بمثل عدة أصحابه فرأى ذلك صواباً ففعله وهو في خمسة آلاف من المسلمين أربعة آلاف من العرب وألف من مسلمي العجم فهز رايته وحمل فحلوا فقصد ملك الصغانيان للأحنف فأهوى له بالرمح فانتزع الأحنف الرمح من يده وقاتل قتالاً شديداً وقتل ثلاثة من أصحاب الطبول كان يقصد صاحب الطبل فيقتله ثم ضرب الله وجوه الكفار فقتلهم المسلمون قتلاً ذريعاً ووضعوا السلاح حيث شاؤوا آمنين."
+  en: "Tukharistan massed against the Muslims — Juzjan, Talaqan, Faryab and their neighbors to thirty thousand, with the Saghaniyan from the river's east bank. Back at his castle al-Ahnaf overheard by night a man tending his fire or kneading dough: 'the move is to camp between the Marghab and the mountain — river right, mountain left — and you face no more than your own number'. He took it, five thousand Muslims — four thousand Arabs, a thousand Ajam converts — waved his banner and charged; the Saghaniyan king drove his spear at al-Ahnaf, who wrenched it from his hand and fought on, killing three drum-bearers one after another; then the rout — slaughter wherever they found them, and the foe laid down arms in safety."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "الأمير الظافر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/marw-al-rudh }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

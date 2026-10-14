@@ -1,0 +1,18 @@
+id: event/abdallah-ibn-sawar-qiqan
+class: event
+kind: raid
+label: { ar: "شأن عبد الله بن سوار بالقيقان", en: "Abdallah ibn Sawar at Qiqan" }
+summary:
+  ar: "ولى عبد الله بن عامر في زمن معاوية عبد الله بن سوار العبدي ثغر الهند ويقال ولاه معاوية من قبله فغزا القيقان فأصاب مغنماً ثم وفد إلى معاوية وأهدى إليه خيلاً قيقانية وأقام عنده ثم رجع إلى القيقان فاستجاشوا الترك فقتلوه وكان سخياً لم يوقد أحد ناراً غير ناره في عسكره فرأى ذات ليلة ناراً فقال ما هذه فقالوا امرأة نفساء يعمل لها خبيص فأمر أن يطعم الناس الخبيص ثلاثاً."
+  en: "Abdallah ibn Sawar al-Abdi held the frontier, raided Qiqan, and gifted Mu'awiya Qiqani horses; back there the people summoned the Turks who killed him. So open-handed that none lit a fire but his — once, told a strange fire was a lying-in woman's khabis, he fed the whole camp khabis three days."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/abdallah-ibn-sawar, role: "صاحب الثغر المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/qiqan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

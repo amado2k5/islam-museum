@@ -1,0 +1,21 @@
+id: event/new-bridge-fitna-349
+class: event
+kind: civil-war
+label: { ar: "فتنة القنطرة الجديدة بين السنة والشيعة سنة 349" }
+summary:
+  ar: "في يوم الخميس لثلاث خلون من شعبان سنة 349هـ وقعت فتنة بين السنة والشيعة في القنطرة الجديدة ببغداد وتعطلت الجمعة من الغد في جميع المساجد الجامعة في الجانبين سوى مسجد براثا فإن الصلاة تمت فيه وقبض على جماعة من بني هاشم واعتقلوا في دار الوزير لأنهم كانوا سبب الفتنة وأطلقوا من الغد {cite:muntazam-ibn-al-jawzi p. 687}."
+  en: "On Thursday 3 Sha'ban 349 Sunni-Shii strife at the New Bridge shut down Friday prayer in every congregational mosque on both banks except Baratha; a group of the Banu Hashim were arrested as its cause and released next day {cite:muntazam-ibn-al-jawzi p. 687}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0960-10-09~", hijri: "0349-08-03", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس 3 شعبان 349؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 687}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-17
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

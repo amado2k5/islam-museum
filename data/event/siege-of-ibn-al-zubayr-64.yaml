@@ -1,0 +1,22 @@
+id: event/siege-of-ibn-al-zubayr-64
+class: event
+kind: siege
+label: { ar: "حصار ابن الزبير بمكة" }
+summary:
+  ar: "سار جيش الحرة إلى مكة لقتال ابن الزبير فمات أمير الجيش بالطريق فاستخلف عليهم أميراً، وأتوا مكة فحاصروا ابن الزبير وقاتلوه ورموه بالمنجنيق في صفر سنة أربع وستين، فاحترقت من شرارة نيرانهم أستار الكعبة وسقفها وقرنا الكبش الذي فدي به إسماعيل وكانا في السقف، وأهلك الله يزيد في نصف ربيع الأول من هذا العام فجاء الخبر بوفاته والقتال مستمر، فنادى ابن الزبير يا أهل الشام إن طاغيتكم قد هلك فانفلوا وذلوا وتخطفهم الناس، ودعا ابن الزبير إلى بيعة نفسه وتسمى بالخلافة وأهل الشام بايعوا معاوية بن يزيد {cite:tarikh-khulafa-minhaj-1434 p. 345}."
+  en: "The Harra army marched on Mecca to fight Ibn al-Zubayr — its commander dying on the road — and besieged him, fighting and casting mangonels in Safar 64; sparks from their fires burned the Ka'ba's curtains and roof and the horns of the ram ransomed for Ishmael which had been kept in the ceiling. Yazid perished in mid-Rabi' I of that year and the news came while the fighting ran on — 'people of Syria, your tyrant has perished', called Ibn al-Zubayr, and they broke away humbled and were plucked off one by one. Ibn al-Zubayr then summoned to his own bay'a and was titled caliph, while the Syrians pledged Mu'awiya ibn Yazid {cite:tarikh-khulafa-minhaj-1434 p. 345}."
+wings: [time, place, people]
+periods: [period/umayyad]
+regions: [arabia]
+date:
+  start: { edtf: "0683-10~", hijri: "0064-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 64؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 345}." }
+relations:
+  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "المحاصَر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/mecca, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 345"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-8
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

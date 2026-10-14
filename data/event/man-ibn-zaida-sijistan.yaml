@@ -1,0 +1,21 @@
+id: event/man-ibn-zaida-sijistan
+class: event
+kind: campaign
+label: { ar: "حملة معن بن زائدة على رتبيل", en: "Ma'n ibn Za'ida's Campaign on Rutbil" }
+summary:
+  ar: "ولى المنصور معن بن زائدة الشيباني سجستان فكتب إلى رتبيل يأمره بحمل الأتاوة التي كان الحجاج صالح عليها فبعث بإبل وقباب تركية ورقيق وزاد في قيمة ذلك للواحد ضعفه فغضب معن وقصد الرخج وعلى مقدمته يزيد بن مزيد فوجد رتبيل قد خرج عنها ومضى إلى زابلستان ليصيف بها ففتحها وأصاب سبايا كثيرة وكان فيهم فرج الرخجي وهو صبي وأبوه زياد وكان فرج يحدث أن معناً رأى غباراً ساطعاً أثارته حوافر حمير وحشية فظن أن جيشاً قد أقبل نحوه ليحار به ويتخاص السبي والأسرى من يده فوضع السيف فيهم فقتل منهم عدة كثيرة ثم تبين أمر الغبار ورأى الحمير فأمسك وقال فرج لقد رأيت أبي حين أمر معن بوضع السيف فينا وقد حنى علي وهو يقول اقتلوني ولا تقتلوا ابني وكانت عدة من سبي معن وأسر زهاء ثلاثين ألفاً وطلب ماوند خليفة رتبيل الأمان على أن يحمله إلى أمير المؤمنين فآمنه وبعث به إلى بغداد مع خمسة آلاف من مقاتلتهم فأكرمه المنصور وفرض له وقوده."
+  en: "Al-Mansur gave Sijistan to Ma'n ibn Za'ida al-Shaybani, who demanded of Rutbil the atawa al-Hajjaj had settled; Rutbil sent camels, Turkish tents and slaves, doubled in value — which enraged Ma'n. With Yazid ibn Mazyad on the van he marched on Rukhkhaj; Rutbil had left to summer in Zabulistan, which Ma'n took with mass captives, among them the boy Faraj al-Rukhkhaji — who told how a cloud of dust raised by wild asses' hooves looked to Ma'n like an army coming to wrest the captives, so he put them to the sword until he saw the donkeys and stopped; 'I saw my father bent over me saying: kill me, not my son'. The captives ran near thirty thousand. Mawand, Rutbil's deputy, sought aman to be borne to the Commander of the Faithful — sent to Baghdad with five thousand of their fighters, honored by al-Mansur, granted stipend and command."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/man-ibn-zaida, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yazid-ibn-mazyad, role: "قائد المقدمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rutbil, role: "الملك", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mawand, role: "خليفة رتبيل الموفد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/zabulistan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,21 @@
+id: event/mahdi-hajj-works
+class: event
+kind: founding
+label: { ar: "عمارة طريق مكة وإصلاح المنابر" }
+summary:
+  ar: "في سنة إحدى وستين ومئة أمر المهدي بعمارة طريق مكة وبنى بها قصوراً وعمل البرك، وأمر بترك المقاصير التي في جوامع الإسلام وقصر المنابر وصيرها على مقدار منبر رسول الله، وفي سنة ستين حج فأنهى إليه حجبة الكعبة أنهم يخافون هدمها لكثرة ما عليها من الأستار فأمر بها فجردت واقتصر على كسوته وحمل إليه الثلج إلى مكة وقال الذهبي لم يتهيأ ذلك لملك قط {cite:tarikh-khulafa-minhaj-1434 p. 442}."
+  en: "In year 161 al-Mahdi ordered the hajj road to Mecca made good, building palaces and constructing pools along it; he ordered the maqasir in the mosques of Islam removed and the minbars shortened to the measure of the Prophet's minbar. In year 160 he performed hajj: the Ka'ba's custodians warned that the weight of hangings threatened to bring it down, so he had them stripped and limited it to his own kiswa — and snow was carried to him at Mecca, a thing, al-Dhahabi says, granted to no king before {cite:tarikh-khulafa-minhaj-1434 p. 442}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0778~", hijri: "0161", calendar: julian, precision: year, status: tradition, derived: true, note: "161؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 442}." }
+relations:
+  - { type: had_participant, target: person/al-mahdi, role: "الآمر", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 442"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-17
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

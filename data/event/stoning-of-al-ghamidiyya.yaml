@@ -1,0 +1,20 @@
+id: event/stoning-of-al-ghamidiyya
+class: event
+kind: court-ruling
+label: { en: "The stoning of the Ghamidi woman", ar: "رجم المرأة الغامدية" }
+summary:
+  en: "In 9 AH a woman of Ghamid came to the Prophet and confessed to fornication; he repeatedly turned her away hoping she would recant, then deferred her until she bore and weaned her child, whereupon she was stoned — an application of the prescribed penalty which the Prophet described as a repentance that would suffice seventy of Medina's people were it apportioned."
+  ar: "رُجمت المرأة الغامدية سنة 9هـ بعد أن جاءت فاعترفت على نفسها بالفاحشة؛ ردّها النبي مرة بعد مرة حتى اعترفت تماماً ثم أخرّها حتى ولدت وفطمت ابنها فرُجمت، وقال في توبتها إنها توبة لو قُسمت بين سبعين من أهل المدينة لوسعتهم."
+wings: [time, people]
+themes: [laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "في سنة 9هـ على عدّ الرحيق في وقائع السنة (ص439)؛ رُجمت بعد فطام ابنها.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: ordered-the-penalty-after-weaning, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-ghamidiyya, role: confessed-and-was-stoned, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 439" }

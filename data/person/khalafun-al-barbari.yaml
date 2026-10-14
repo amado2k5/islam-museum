@@ -1,0 +1,16 @@
+id: person/khalafun-al-barbari
+class: person
+label: { ar: "خلفون البربري" }
+summary:
+  ar: "عند البلاذري: بربري يُقال إنه مولى لربيعة غزا بارة في الأرض الكبيرة ففتحها في أول خلافة المتوكل بعد أن عجز عنها جبلة مولى الأغلب."
+  en: "In al-Baladhuri: a Berber said to be Rabi'a's mawla; he raided Barah in the Great Land and opened it at the start of al-Mutawakkil's caliphate after Jabala, al-Aghlab's mawla, had failed against it."
+gender: male
+relations:
+  - { type: participated_in, target: event/conquest-of-barah, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 328"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-24
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

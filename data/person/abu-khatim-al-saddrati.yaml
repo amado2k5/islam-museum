@@ -1,0 +1,17 @@
+id: person/abu-khatim-al-saddrati
+class: person
+label: { ar: "أبو خاتم السدراتي" }
+summary:
+  ar: "عند البلاذري: أبو حاتم السدراتي — وفي الأصل السدراني نسبة إلى سدرانه — الإباضي من أهل سدراتة وهو مولى لكندة قاتل عمر بن حفص العتكي فاستشهد وهدمت مدينته العباسية ثم قتله يزيد بن حاتم باطر إبليس."
+  en: "In al-Baladhuri: Abu Khatim al-Saddrati — the original reads al-Sudrani, of Sudrana — the Ibadi of Sadrata's people, a mawla of Kinda; he fought Umar ibn Hafs al-Ataki who was martyred and his city al-Abbasiyya demolished, then Yazid ibn Hatim killed him at Batr Iblis."
+gender: male
+relations:
+  - { type: participated_in, target: event/martyrdom-of-umar-ibn-hafs, role: "الإباضي القاتل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/yazid-ibn-hatim-ifriqiya, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 326"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-23
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

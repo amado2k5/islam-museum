@@ -1,0 +1,20 @@
+id: event/marghab-dispute
+class: event
+kind: other
+label: { ar: "نزاع المرغاب", en: "The Marghab Canal Dispute" }
+summary:
+  ar: "كانت القطيعة التي فيها المرغاب لهلال بن أحوز المازني أقطعه إياها يزيد بن عبد الملك وهي ثمانية آلاف جريب فحفر بشير بن عبيد الله بن أبي بكرة المرغاب والسواقي والمعترضات بالتغلب وسماه مرغاب مرو وقال هذه قطيعة لي فخاصمه حميري بن هلال فكتب خالد بن عبد الله القسري إلى مالك بن المنذر بن الجارود وهو على أحداث البصرة أن خلّ بين بشير وبين المرغاب وأرضه وذلك أن بشيراً أشخص إلى خالد فتظلم فقبل قوله وكان عمرو بن يزيد الأسيدي يمنى بحميري ويعينه."
+  en: "The Marghab tract — eight thousand jarib — was Hilal ibn Ahwaz al-Mazini's grant from Yazid ibn Abd al-Malik; Bashir ibn Ubaydallah ibn Abi Bakra dug its canals by force, named it Marghab Marw and claimed 'this qati'a is mine'. Humayri ibn Hilal sued; Bashir had already complained to Khalid ibn Abdallah al-Qasri and won, so Khalid wrote Malik ibn al-Mundhir ibn al-Jarud on Basra's police: 'leave Bashir alone with the Marghab and its land' — while Amr ibn Yazid al-Usaydi sided with Humayri."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/bashir-ibn-ubaydallah-ibn-abi-bakra, role: "الحافر المتغلب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/humayri-ibn-hilal, role: "الخاصم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khalid-ibn-abdallah-al-qasri, role: "الوالي الحاكم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

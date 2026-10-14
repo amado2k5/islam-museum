@@ -1,0 +1,40 @@
+id: event/expedition-of-al-qarada
+class: event
+kind: raid
+label: { en: "Expedition of al-Qarada", ar: "سرية زيد بن حارثة إلى القردة" }
+summary:
+  en: "A successful raid in Jumada al-Akhirah 3 AH led by Zayd ibn Haritha with 100 riders to al-Qarada in Najd, intercepting a rich Quraysh caravan led by Safwan ibn Umayya valued at 100,000 dirhams."
+  ar: "سرية ناجحة قادها زيد بن حارثة في مائة راكب في جمادى الآخرة 3هـ إلى ماء القردة بنجد؛ فاجأت قافلة صفوان بن أمية السالكة طريق العراق فغنم المسلمون فضة وبضائع بمائة ألف درهم وأسروا فرات بن حيان."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-11~", hijri: "0003-06", calendar: julian, precision: month, status: tradition, note: "في جمادى الآخرة سنة 3هـ (نوفمبر 624م) على ما في الرحيق ص245–246" }
+relations:
+  - { type: occurred_at, target: place/al-qarada }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "قائد السرية", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/safwan-ibn-umayya, role: "قائد قافلة قريش الهارب عند مباغتة المسلمين", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/furat-ibn-hayyan, role: "دليل القافلة الأسير الذي أسلم بالمدينة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/salit-ibn-al-numan, role: "ناقل خبر خطة سير القافلة إلى النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim raiding force", ar: "سرية المسلمين" }
+    participants: [group/muhajirun]
+    commanders: [person/zayd-ibn-haritha]
+    strength:
+      value: 100
+      status: tradition
+      note: "مائة راكب من المسلمين"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Quraysh caravan guards", ar: "حرس قافلة قريش" }
+    participants: [group/quraysh]
+    commanders: [person/safwan-ibn-umayya]
+    strength:
+      status: tradition
+      note: "قافلة تجارية كبرى تحمل الفضة والأواني قدرت بمائة ألف درهم"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 245–247 citing Ibn Hisham 2/50–51" }

@@ -1,0 +1,20 @@
+id: event/said-bukhara-host
+class: event
+kind: battle
+label: { ar: "سعيد بن عثمان وموقف بخارا", en: "Sa'id ibn Uthman and the Bukhara Host" }
+summary:
+  ar: "ولى معاوية سعيد بن عثمان بن عفان خراسان فقطع النهر وكان أول من قطعه بجنده فكان معه رفيع أبو العالية الرياحي وهو مولى لامرأة من بني رياح فقال رفيع أبو العالية رفعة وعلو فلما بلغ خاتون عبوره النهر حملت إليه الصلح وأقبل أهل السغد والترك وأهل كش ونسف وهي نخشب إلى سعيد في مائة ألف وعشرين ألفاً فالتقوا ببخارا وقد ندمت خاتون على إدائها الأتاوة ونكثت العهد فحضر عبد لسعيد بعض أهل تلك الجموع فانصرف بمن معه فانكسر الباقون فلما رأت خاتون ذلك أعطته الرهن وأعادت الصلح ودخل سعيد مدينة بخارا."
+  en: "Mu'awiya gave Khurasan to Sa'id ibn Uthman ibn Affan — the first to cross the river with his whole army, and with him Rufay' Abu al-Aliya al-Riyahi ('Rufay' Abu al-Aliya: elevation and height'). The Khatun, hearing of his crossing, sued for peace; yet the Sughd, Turks, Kish and Nasaf — that is Nakhshab — came against him at a hundred and twenty thousand, meeting at Bukhara as the Khatun regretted her tribute and broke covenant. A slave of Sa'id's detached part of the host, the rest broke, and the Khatun gave hostages and renewed the peace — and Sa'id entered Bukhara's city."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/said-ibn-uthman, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khatun-of-bukhara, role: "الملكة الناكثة ثم المصالحة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rufay-abu-al-aliya, role: "ممن عبر معه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/bukhara }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

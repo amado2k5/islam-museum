@@ -1,0 +1,23 @@
+id: person/sayf-al-din-ghazi-i
+class: person
+label: { ar: "سيف الدين غازي بن زنكي" }
+names:
+  - { value: "سيف الدين غازي بن عماد الدين زنكي بن آق سنقر", kind: full }
+gender: male
+summary:
+  ar: "صاحب الموصل وابن صاحبها عماد الدين زنكي، كان فيه دين وخير وشجاعة وإقدام، توفي في جمادى الآخرة سنة أربع وأربعين وخمس مئة وقد نيف على الأربعين وتملك بعده أخوه قطب الدين مودود {cite:shadharat-dhahab p. 619}."
+  en: "Sayf al-Din Ghazi I b. Zangi, lord of Mosul — a man of religion, courage and enterprise; he died in Jumada al-Akhira 544 past forty, succeeded by his brother Qutb al-Din Mawdud {cite:shadharat-dhahab p. 619}."
+roles: [ruler, military]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died: { edtf: "1149~", hijri: "0544-06~", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الآخرة 544هـ {cite:shadharat-dhahab p. 619}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/imad-al-din-zangi }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-22
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

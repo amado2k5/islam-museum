@@ -1,0 +1,19 @@
+id: event/salm-ibn-zubayr-ordeal
+class: event
+kind: other
+label: { ar: "محنة سلم بن زياد مع ابن الزبير", en: "Salm ibn Ziyad's Ordeal under Ibn al-Zubayr" }
+summary:
+  ar: "لما مات يزيد بن معاوية التاث الناس على سلم وقالوا بئس ما ظن ابن سمية إن ظن أنه يتأمر علينا في الجماعة والفتنة كما قيل لأخيه عبيد الله بالبصرة فشخص عن خراسان وأتى عبد الله بن الزبير فأغرمه أربعة آلاف ألف درهم وحبسه وكان سلم يقول ليتني أتيت الشام ولم أنفذ من خدمة أخي عبيد الله بن زياد فكنت أغسل رجله ولم آت ابن الزبير فلم يزل بمكة حتى حصر ابن الزبير الحجاج بن يوسف فنقب السجن وصار إلى الحجاج ثم إلى عبد الملك فقال له عبد الملك أما والله لو أقمت بمكة ما كان لها وال غيرك ولا كان بها عليك أمير وولاه خراسان فلما قدم البصرة مات بها."
+  en: "At Yazid's death the people turned on Salm — 'ill did Ibn Sumayya think to command us in community and strife', as had been said to his brother Ubaydallah at Basra — and he left Khurasan to Ibn al-Zubayr, who fined him four million dirhams and imprisoned him. Salm would say 'would I had gone to Syria and stayed in my brother Ubaydallah's service — washing his foot — rather than come to Ibn al-Zubayr'. At Mecca until al-Hajjaj's siege, he tunneled from prison to al-Hajjaj, then Abd al-Malik — 'by God, had you stayed at Mecca she would have no governor but you' — who gave him Khurasan; reaching Basra, he died there."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/sallam-ibn-ziyad, role: "المغروم المحبوس", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "الخلف", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "الحاصر لابن الزبير", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

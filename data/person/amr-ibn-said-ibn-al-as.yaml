@@ -1,0 +1,30 @@
+id: person/amr-ibn-said-ibn-al-as
+class: person
+label: { en: Amr ibn Sa'id ibn al-As, ar: "عمرو بن سعيد بن العاص" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن سعيد بن العاص بن أمية بن عبد شمس" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي من بني عبد شمس، هاجر إلى الحبشة مع امرأته فاطمة بنت صفوان وقدم في السفينتين، وقُتل بأجنادين في خلافة أبي بكر.، وعند المسعودي دعا الناس إلى بيعته بدمشق وعبد الملك غائب بقرقيسيا فكر راجعاً فصالحه على العهد ثم أغلق عليه الحاجب الباب دون أصحابه وأمر أبا الزعيزعة فقتله وألقى رأسه إلى الناس فتفرقوا {cite:muruj-al-dhahab p. 95-97}"
+  en: A Companion of Banu Abd Shams; he emigrated to Abyssinia with his wife Fatima bint Safwan, arrived in the two ships, and was killed at Ajnadayn in Abu Bakr's caliphate.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+died: { edtf: "0632/0634", calendar: julian, precision: year, status: tradition, derived: true, note: "قال ابن إسحاق: قُتل بأجنادين من أرض الشام في خلافة أبي بكر؛ لا يعيّن الكتاب السنة، فالتاريخ مشتق من مدة الخلافة ويحتاج مصدراً ثانياً", sources: [source/ibn-hisham-saqqa] }
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص4)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
+  - { type: spouse_of, target: person/fatima-bint-safwan, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }
+  - { type: child_of, target: person/said-ibn-al-as-abu-uhayha, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/ajnadayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 4", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

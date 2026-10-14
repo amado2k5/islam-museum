@@ -7,10 +7,10 @@ gender: male
 born: { edtf: "0584~", calendar: julian, precision: year, status: tradition, note: "Traditional reports place his birth around 584 CE.", sources: [source/ibn-sad-tabaqat-bewley] }
 died: { edtf: "0644-11", hijri: "0023-11", calendar: julian, precision: month, status: tradition, note: "Assassinated in Dhu al-Hijja 23 AH (November 644 CE) by the Persian slave Abu Lu'lu'a.", sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina] }
 roles: [companion, caliph]
-traditions: [sunni, shia-twelver]
+traditions: [sunni]
 summary:
   en: "Second caliph (634–644); under his rule the early community conquered Syria, Egypt and much of the Sasanian Empire. Remembered in Sunni tradition as al-Faruq, the model of just rule."
-  ar: "ثاني الخلفاء الراشدين (634–644م)؛ في عهده فتحت الجماعة الأولى الشام ومصر وجزءًا كبيرًا من الإمبراطورية الساسانية. يذكره التراث السني بالفاروق، مثال العدل في الحكم."
+  ar: "ثاني الخلفاء الراشدين (634–644م)؛ في عهده فتحت الجماعة الأولى الشام ومصر وجزءًا كبيرًا من الإمبراطورية الساسانية. يذكره التراث السني بالفاروق، مثال العدل في الحكم.، وأمه حنتمة بنت هشام بن المغيرة المخزومية وكانت سوداء، وأول من سماه أمير المؤمنين عدي بن حاتم على رواية وأول من سلم عليه بها المغيرة بن شعبة وأول من دعاه بها على المنبر وكتبها إليه أبو موسى الأشعري فقال عمر إني لعبد الله وإني لعمر وإني لأمير المؤمنين، وكان يلبس الجبة الصوف المرقعة بالأديم ويحمل القربة على كتفه ورحله مشدودة بالليف واتبعه عماله في شيمه {cite:muruj-al-dhahab p. 601-602}"
 wings: [people]
 themes: [development-of-law-theology-institutions, wars-and-campaigns, factions-splits-schisms]
 periods: [period/prophetic-era, period/rashidun]
@@ -37,16 +37,20 @@ relations:
   - { type: participated_in, target: event/treaty-of-hudaybiyya, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/conquest-of-mecca, sources: [source/ibn-ishaq-guillaume] }
   - { type: successor_of, target: person/abu-bakr, start: { edtf: "0634-08" }, sources: [source/watt-1956-medina] }
+issue: { ar: "كيف تُقيَّم شخصية عمر بن الخطاب وخلافته في التقاليد؟", en: "How are Umar ibn al-Khattab and his caliphate assessed in the traditions?" }
 perspectives:
   - tradition: sunni
-    summary: { en: "Sunni tradition venerates Umar as the second rightly-guided caliph, al-Faruq: the conversion that strengthened the community, and the just ruler who founded the institutions of the early Islamic state." }
+    id: sunni
+    summary: { en: "Sunni tradition venerates Umar as the second rightly-guided caliph, al-Faruq: the conversion that strengthened the community, and the just ruler who founded the institutions of the early Islamic state.", ar: "تُجِلّ السنة عمرَ فاروقَها: الخليفة الراشد الثاني ومثال الحاكم العادل، وواضع مؤسسات الدولة الأولى." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
-    summary: { en: "Historians credit his caliphate with the conquests of Syria, Egypt and Iraq and with organizing the early state, while reading the idealized memory of his justice as partly a later construction." }
+    id: academic
+    summary: { en: "Historians credit his caliphate with the conquests of Syria, Egypt and Iraq and with organizing the early state, while reading the idealized memory of his justice as partly a later construction.", ar: "يَرجع المؤرخون إليه في الفتوح والمؤسسات الأولى، ويقرؤون مثاليته المروية في العدل بوصفها جزءًا من بناء متأخر." }
     sources: [source/watt-1956-medina]
   - tradition: shia-twelver
-    summary: { en: "Twelver Shia tradition is critical of Umar, above all for the Saqifa succession that set aside Ali, and for episodes in the relationship with Fatima." }
+    id: shia-twelver
+    summary: { en: "Twelver Shia tradition is critical of Umar, above all for the Saqifa succession that set aside Ali, and for episodes in the relationship with Fatima.", ar: "ينتقد التراث الإمامي عمر خصوصًا في خلافة السقيفة التي أقصت عليًّا، وفي أخبار ما وقع مع فاطمة." }
     sources: [source/momen-1985]
 sensitivity: contested
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume]
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab]
 status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }

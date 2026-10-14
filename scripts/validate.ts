@@ -1,9 +1,9 @@
 // Validates data/ and content/: JSON Schema, EDTF + Hijri sanity, link resolution, predicates
 // (domain/range), licence whitelist, alt text, slug rules, duplicate external IDs, prose links.
 // Run: npm run validate [-- --strict]   (--strict turns warnings into failures)
-import { basename, dirname } from "node:path";
+import { basename, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { createHash } from "node:crypto";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
@@ -19,7 +19,8 @@ const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const REF = /^[a-z]+\/[a-z0-9]+(-[a-z0-9]+)*$/;
 
 /** Hijri strings: [-]YYYY[-MM[-DD]] with optional ~ ? markers; month 1-12, day 1-30. */
-export function hijriProblem(h: string): string | null {
+export function hijriProblem(h: any): string | null {
+  if (typeof h !== "string") return `Hijri date must be a quoted string (YAML reads an unquoted 0008 as a number): ${JSON.stringify(h)}`;
   const m = h.match(/^(-?\d{4})(?:-(\d{2})(?:-(\d{2}))?)?[~?%]?$/);
   if (!m) return `malformed Hijri date "${h}" (expected YYYY[-MM[-DD]] with optional ~ or ?)`;
   const mo = m[2] ? Number(m[2]) : 1;
@@ -49,6 +50,14 @@ function* walkDates(node: any, path = ""): Generator<[string, any]> {
   if (Array.isArray(node)) { for (let i = 0; i < node.length; i++) yield* walkDates(node[i], `${path}[${i}]`); return; }
   if (typeof node.edtf === "string" || typeof node.hijri === "string") yield [path, node];
   for (const [k, v] of Object.entries(node)) yield* walkDates(v, path ? `${path}.${k}` : k);
+}
+
+// ﷺ and the spelled-out formulas; no \b because it never matches before a non-word glyph such as ﷺ
+const HONORIFIC = /(peace be upon him|\bpbuh\b|\(saw\)|ﷺ|صلى الله عليه|صلى اللّٰه عليه|عليه السلام|عليها السلام|رضي الله ع|رضي اللّٰه ع|رحمه الله|رحمه اللّٰه)/i;
+function* textFields(o: any, path = ""): Generator<[string, string]> {
+  if (typeof o === "string") yield [path, o];
+  else if (Array.isArray(o)) for (let i = 0; i < o.length; i++) yield* textFields(o[i], `${path}[${i}]`);
+  else if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!["provenance", "id", "text", "text_search"].includes(k)) yield* textFields(v, path ? `${path}.${k}` : k);
 }
 
 export function validateAll(extra: { entity: any; file: string }[] = []): { issues: Issue[]; entityCount: number; proseCount: number } {
@@ -109,6 +118,9 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (!entity.summary?.ar) err(file, "summary.ar is required (Arabic is the primary language, docs/language.md)");
     }
 
+    // honorifics are rendered by the UI: never typed into any label, summary or note (passages hold scripture/hadith text verbatim and are exempt)
+    if (entity.class !== "passage") for (const [path, s] of textFields(entity)) if (HONORIFIC.test(s)) err(file, `${path}: honorifics must not be typed (the UI renders them)`);
+
     // dates
     for (const [path, d] of walkDates(entity)) {
       if (d.edtf) { try { edtf(d.edtf); } catch { err(file, `${path}: invalid EDTF "${d.edtf}"`); } }
@@ -135,6 +147,26 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
       if (v && !known.has(v)) err(file, `media.${f}: ${v} does not exist`);
     }
     for (const t of entity.perspectives ?? []) for (const s of t.sources ?? []) if (!known.has(s)) err(file, `perspective source ${s} does not exist`);
+    // traditions[] counts a person as a member of a tradition (docs/agents/content-standards.md 13b): a recorded faith with no Muslim value contradicts a Sunni tag
+    if (entity.class === "person" && (entity.traditions ?? []).some((t: string) => String(t).startsWith("sunni")) && (entity.faith ?? []).length > 0) {
+      const muslim = (v: string) => /^(sunni|shia|ibadi|sufi|ahmadiyya|quranist)/.test(String(v));
+      if (!(entity.faith as any[]).some((f) => muslim(f.value))) warn(file, "traditions lists a Sunni tradition but the recorded faith has no Muslim value: a person who was not Muslim is not counted among a tradition");
+    }
+    // opinions (docs/plan/20-opinions.md): ids unique, holders and evidence resolve, a disagreement states its issue, every opinion cites a source
+    if (entity.perspectives?.length) {
+      const seenIds = new Set<string>();
+      entity.perspectives.forEach((t: any, i: number) => {
+        if (t.id) { if (seenIds.has(t.id)) err(file, `perspectives[${i}]: duplicate id "${t.id}"`); seenIds.add(t.id); }
+        for (const h of t.holders ?? []) if (!resolves(h)) err(file, `perspectives[${i}].holders: ${h} does not exist`);
+        for (const e of t.evidence ?? []) if (!resolves(e.ref)) err(file, `perspectives[${i}].evidence: ${e.ref} does not exist`);
+        if (!(t.sources ?? []).length) warn(file, `perspectives[${i}] (${t.tradition}) cites no source: every opinion is cited`);
+      });
+      entity.perspectives.forEach((t: any, i: number) => {
+        if (t.standing === "main" && !String(t.tradition).startsWith("sunni")) err(file, `perspectives[${i}]: standing "main" is for Sunni opinions; "${t.tradition}" is a secondary or other opinion (docs/scope.md)`);
+        if (i === 0 && (t.standing === "secondary" || t.standing === "other")) err(file, `perspectives[0] is the lead opinion and cannot be tagged ${t.standing}`);
+      });
+      if (entity.perspectives.length >= 2 && !entity.issue) warn(file, "two or more opinions but no `issue`: state the question the opinions answer");
+    }
 
     // relations
     entity.relations?.forEach((r: any, i: number) => {
@@ -281,6 +313,10 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
   }
 
   // ---- prose
+  // content/ holds prose only: a data file saved there is silently never rendered (found in the wild: a .yaml under content/ar/event/)
+  for (const d of readdirSync(p("content"), { recursive: true, withFileTypes: true }) as any[]) {
+    if (d.isFile() && !d.name.endsWith(".md") && !d.name.startsWith(".")) err(rel(join(d.parentPath ?? d.path, d.name)), "content/ holds .md prose only (data belongs in data/<class>/<slug>.yaml)");
+  }
   const prose = loadProse();
   const linkRe = /\[\[([a-z]+\/[a-z0-9-]+)(?:\|[^\]]*)?\]\]/g;
   const citeRe = /\{cite:([a-z0-9-]+)(?:\s[^}]*)?\}/g;
@@ -293,7 +329,8 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     seen.add(`${pr.lang}:${pr.id}`);
     for (const m of pr.body.matchAll(linkRe)) if (!resolves(m[1])) err(pr.file, `unresolved link [[${m[1]}]]`);
     for (const m of pr.body.matchAll(citeRe)) if (!known.has(`source/${m[1]}`)) err(pr.file, `{cite:${m[1]}} does not resolve to a source`);
-    if (/\b(peace be upon him|pbuh|\(saw\)|ﷺ|صلى الله عليه وسلم)/i.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
+    if (HONORIFIC.test(pr.body)) err(pr.file, "honorifics must not be typed into prose (the UI renders them)");
+    if (/[﴿﴾]/.test(pr.body)) err(pr.file, "Qur'an text must never be typed into prose: link the ayah as [[passage/quran-<sura>-<aya>|label]] (docs/plan/09 rule 10)");
 
     // scope rule in prose: a perspectives block must start with a Sunni entry, and non-Sunni doctrine must be labelled before it is stated
     for (const blk of pr.body.matchAll(/^:::perspectives\n([\s\S]*?)\n:::/gm)) {
@@ -312,6 +349,43 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     if (["person", "event"].includes(entity.class) && !seen.has(`ar:${entity.id}`) && entity.status?.completeness >= 2) {
       warn(file, "completeness >= 2 but no Arabic prose in content/ar/");
     }
+  }
+
+  // Content lint (build-time): no replacement characters, no placeholder digits in dates, no garbled era marks.
+  // "062X" (an EDTF decade) is a legitimate unspecified digit; an X after a hyphen (a month or day) is a placeholder.
+  const PLACEHOLDER_DATE = /-\d*X/;
+  for (const { entity, file } of loaded) {
+    for (const [path, s] of textFields(entity)) {
+      if (s.includes("\uFFFD")) err(file, `${path}: contains U+FFFD (replacement character): the text was corrupted`);
+      if (s.includes("ق.م هـ")) err(file, `${path}: "ق.م هـ" is garbled; the BCE Hijri form is "ق.هـ"`);
+    }
+    for (const [path, d] of walkDates(entity)) {
+      for (const v of [d.edtf, d.hijri]) if (typeof v === "string" && PLACEHOLDER_DATE.test(v)) err(file, `${path}: date "${v}" has a placeholder digit; use the intended date or an approximation (~)`);
+    }
+  }
+  for (const pr of prose) {
+    if (pr.body.includes("\uFFFD")) err(pr.file, "prose contains U+FFFD (replacement character)");
+    if (pr.body.includes("ق.م هـ")) err(pr.file, `prose contains "ق.م هـ"; the BCE Hijri form is "ق.هـ"`);
+  }
+
+  // Near-duplicate titles across entity types: the same label under two ids is usually one thing entered twice (docs: merge, keep the other id as an alias).
+  const titleKey = (s: string) => s.normalize("NFKD").replace(/[\u064B-\u065F\u0670\u0640]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي")
+    .toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  const homonymsFile = p("data", "_homonyms.yaml");
+  const homonyms = new Set<string>(existsSync(homonymsFile) ? ((readYaml(homonymsFile) ?? {}).namesakes ?? []).flat() : []);
+  const byTitle = new Map<string, { id: string; cls: string; file: string }[]>();
+  for (const { entity, file } of loaded) {
+    const t = entity.label?.ar ? titleKey(entity.label.ar) : "";
+    if (!t) continue;
+    byTitle.set(t, [...(byTitle.get(t) ?? []), { id: entity.id, cls: entity.class, file }]);
+  }
+  for (const [t, group] of byTitle) {
+    const classes = new Set(group.map((g) => g.cls));
+    // A place and an event can share a name (the pool and the proclamation at it), so this is a review warning, not a failure.
+    if (group.length > 1 && classes.size > 1) warn(group[0].file, `title "${t}" is used by ${group.map((g) => g.id).join(", ")}: if it is one thing, merge it (keep one id, list the other under aliases)`);
+    // Two people under one Arabic name are one person entered twice unless data/_homonyms.yaml says they are namesakes.
+    const people = group.filter((g) => g.cls === "person");
+    if (people.length > 1 && !people.every((g) => homonyms.has(g.id))) error(people[1].file, `person "${t}" exists twice: ${people.map((g) => g.id).join(", ")}. Merge them (keep one id, list the other under aliases) or list both ids in data/_homonyms.yaml if they are different people`);
   }
 
   return { issues, entityCount: loaded.length, proseCount: prose.length };

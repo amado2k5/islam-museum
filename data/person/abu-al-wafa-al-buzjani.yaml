@@ -1,0 +1,22 @@
+id: person/abu-al-wafa-al-buzjani
+class: person
+label: { ar: "أبو الوفاء البوزجاني محمد بن محمد", en: "Abu al-Wafa' al-Buzjani, Muhammad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو الوفاء محمد بن محمد بن يحيى إسماعيل البوزجاني" }
+gender: male
+roles: [mathematician, astronomer]
+traditions: [sunni]
+born: { edtf: "0940", hijri: "0328", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0998", hijri: "0388", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من طليعة علماء المسلمين في علمي الرياضيات والفلك، ولد في بوزجان بخراسان."
+  en: "One of the leading Muslim scholars of mathematics and astronomy, born in Buzjan in Khurasan."
+wings: [people, words]
+themes: [mathematics, astronomy-and-timekeeping]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 200, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص200", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

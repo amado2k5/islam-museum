@@ -1,0 +1,23 @@
+id: event/killing-of-mardawij-323
+class: event
+kind: death
+label: { ar: "قتل مرداويج بن زياد" }
+summary:
+  ar: "في سنة ثلاث وعشرين وثلاثمائة قُتل مرداويج الديلمي صاحب بلاد الجبل، وكان سبب قتله أنه كثّر الأذى لأتراكه غلمانه وقال إن ريح سليمان بن داود قد حلّت فيه وإن الأتراك هم الشياطين والمردة فان فيّرهم وإلا أفسدوا، فثقلت وحطائه عليهم وتمنّوا هلاكه؛ وليلة الميلاد من هذه السنة أمر أن يجمع الحطب من الجبال والنواحي ويجعل على جانبي الوادي المعروف بزندرود كالمنابر والقباب العظيمة ومثل ذلك على جبل كارم كوه المشرف على أصبهان من أسفله إلى أعلاه حتى إذا اشتعلت صار الجبل كله ناراً، وجمع له المطربون وعمل من الشموع ما لا يُحصى وصيد له من الغربان والحداء زيادة على ألفي طائر ليجعل في أرجلها النفط فتطير بالنار في الهواء، وعمل سماطاً عظيماً فيه مائة فرس ومائتا بقر مشوية صِحاحاً وثلاثة آلاف رأس من الغنم وزيادة على عشرة آلاف من الدجاج وأنواع الطير، فلما ركب يطوف بالسماط استحقر الجميع لسعة الصحراء وغضب ولعن من صنعه، ثم نام في خركاه وكادت الفتنة تثور بين العسكر، وفي اليوم الرابع أسرجت الدواب عند بابه فاجتمع خلق كثير وكثر عليل الدواب ولعب الغلمان بها والصياح فاستيقظ فرأى ذلك فازداد غضباً وأمر أن تُنزع السروج عن الدواب وتجعل على ظهور أصحابها الأتراك ويُضرب بالمقارع من امتنع؛ فانتهز كبار الغلمان الأتراك الذين كانوا قد هربوا وحقدوا عليه الفرصة وقتلوه {cite:kamil-ibn-al-athir p. 223-226}."
+  en: "In 323 the Daylamite ruler Mardawij ibn Ziyad was killed at Isfahan by his own Turkish ghilman. He had staged a Zoroastrian-style festival for the winter night — mountains ringed with bonfires, two thousand birds released with oil-soaked legs, a banquet of a hundred whole roasted horses — then humiliated his Turks, who seized the moment and killed him {cite:kamil-ibn-al-athir p. 223-226}."
+wings: [time]
+themes: [wars-and-campaigns]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "935", hijri: "0323", calendar: julian, precision: year, status: tradition, derived: true, note: "323؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 223}." }
+relations:
+  - { type: had_participant, target: person/mardawij-ibn-ziyad, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/isfahan, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط دار الكتاب العربي، بيروت) ج 6 ص 223–226"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-296-batch-1
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

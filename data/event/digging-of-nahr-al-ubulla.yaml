@@ -1,0 +1,21 @@
+id: event/digging-of-nahr-al-ubulla
+class: event
+kind: other
+label: { ar: "حفر نهر الأبلة", en: "Digging of the Ubulla Canal" }
+summary:
+  ar: "كان لدجلة العوراء خور يجري فيه ماء الأمطار ويتراجع ماؤها عند المد وينضب في الجزر طوله فرسخ وكان لحدّه مما يلي البصرة غورة تسمى الإجانة فأمر عمر أبا موسى أن يحتفر لأهل البصرة نهراً فابتدأ الحفر من الإجانة وقاده ثلاثة فراسخ حتى بلغ به البصرة فصار طول نهر الأبلة أربعة فراسخ ثم انطمّ منه ما بين البصرة وبين الحيري على قدر فرسخ وكان زياد على الديوان ويعم المال من قبل عبد الله بن عامر فأشار أن ينفذ الحفر فكان يدافع فلما شخص ابن عامر إلى خراسان أقرّ حفر أبي موسى على حاله وحفر النهر من حيث انطمّ حتى بلغ به البصرة وولى ذلك عبد الرحمن بن أبي بكرة فلما فتح الماء جعل يركض فرسه والماء يكاد يسبقه وقدم ابن عامر فغضب على زياد وقال إنما أردت أن تذهب بذكر النهر دوني فتباعد ما بينهما حتى ماتا وتباعد بسببه ما بين أولادهما وكان شرب الناس قبل ذلك من دير قاووس في دجلة وكانت الأرواح تدفنه."
+  en: "Dijlat al-Awra's tidal rain-channel ran a farsakh, its Basra-side basin called al-Ijana; Umar ordered Abu Musa to dig the Basrans a canal — he began at al-Ijana, led it three farsakhs to Basra, making the Ubulla canal four — then the reach toward al-Hayri silted up. Ziyad, on the diwan under Abdallah ibn Amir, urged completing the dig and was stalled till Ibn Amir left for Khurasan; he resumed Abu Musa's channel to Basra with Abd al-Rahman ibn Abi Bakra in charge, who opened the water racing his horse as it nearly outran him. Ibn Amir returned angry — 'you meant to carry off the canal's fame' — and the estrangement held between their houses for life; before the canal, folk drank from Dayr Qawus on the Tigris, a spot the spirits haunted."
+periods: [period/rashidun, period/umayyad]
+relations:
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "البادئ بالحفر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "المتمم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-abi-bakra, role: "فاتح الماء", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "الساخط", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

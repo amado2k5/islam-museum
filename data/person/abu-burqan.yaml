@@ -1,0 +1,59 @@
+id: person/abu-burqan
+class: person
+label:
+  ar: أبو برقان
+  en: Abu Burqan
+names:
+- kind: full
+  lang: ar
+  value: أبو برقان السعدي، عم النبي من الرضاعة
+- kind: kunya
+  lang: ar
+  value: أبو برقان
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من بني سعد بن بكر، عدّه أبو موسى وغيره عماً للنبي من الرضاعة؛ وخبره عن الحيرة ضعيف عند ابن حجر لأن في سنده عيسى بن يزيد المعروف بابن دأب وقد كذّبوه.
+  en: Of the Banu Sa'd ibn Bakr and reckoned a foster-uncle of the Prophet. The only report about him, on al-Hira, is weak in Ibn Hajar's assessment because its transmitter Isa ibn Yazid (Ibn Da'b) was accused of lying.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 9657 (ص 1629).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: related_to
+  target: person/halima-al-sadiyya
+  sources:
+  - source/ibn-hajar-isaba
+- type: related_to
+  target: place/al-hira
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 9657، ص 1629
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-10
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1629, entry 9657)

@@ -1,0 +1,21 @@
+id: event/haramayn-fatimid-khutba-363
+class: event
+kind: other
+label: { ar: "الخطبة بالحرمين للمعز العبيدي" }
+summary:
+  ar: "في ذي الحجة من سنة خلافة الطائع أقيمت الخطبة والدعوة بالحرمين للمعز العبيدي {cite:tarikh-khulafa-minhaj-1434 p. 626}."
+  en: "In Dhu'l-Hijja of al-Ta'i's accession year (363) the khutba and da'wa were established in the two Harams for the Ubaydid al-Mu'izz {cite:tarikh-khulafa-minhaj-1434 p. 626}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0974~", hijri: "0363", calendar: julian, precision: year, status: tradition, derived: true, note: "363؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 626}." }
+relations:
+  - { type: had_participant, target: person/al-muizz-li-din-allah, role: "المخطب له", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-37
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

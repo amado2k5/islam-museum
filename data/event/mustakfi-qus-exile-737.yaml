@@ -1,0 +1,22 @@
+id: event/mustakfi-qus-exile-737
+class: event
+kind: other
+label: { ar: "اعتقال المستكفي ونفيه إلى قوص" }
+summary:
+  ar: "في سنة ست وثلاثين وسبع مئة وقع بين الخليفة المستكفي والسلطان فقبض على الخليفة واعتقله بالبرج ومنعه من الاجتماع بالناس ثم نفاه في ذي الحجة سنة سبع وثلاثين إلى قوص هو وأولاده وأهله ورتب لهم ما يكفيهم وهم قريب من مئة نفس واستمر المستكفي بقوص إلى أن مات بها في شعبان سنة أربعين وسبع مئة ودفن بها وله بضع وخمسون سنة، وكان سبب الوقيعة بينه وبين السلطان ابن أخيه إبراهيم الذي كان يحمله إليه من النميمة به حتى جرى ما جرى {cite:tarikh-khulafa-minhaj-1434 p. 736,739}."
+  en: "In 736 fell the breach between al-Mustakfi and the sultan — his nephew Ibrahim's slanders the cause — arrested in the citadel tower, barred from company, then exiled in Dhu'l-Hijja 737 to Qus with his children and household, near a hundred souls provided for; there he stayed till his death in Sha'ban 740, buried at Qus aged about fifty-five {cite:tarikh-khulafa-minhaj-1434 p. 736,739}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1337~", hijri: "0737", calendar: julian, precision: year, status: tradition, derived: true, note: "ذو الحجة 737؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 736}." }
+relations:
+  - { type: had_participant, target: person/al-mustakfi-billah, role: "المنفي", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-nasir-muhammad-ibn-qalawun, role: "السلطان", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 734–744"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-48
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,21 @@
+id: event/qarmatian-hajj-attack-302
+class: event
+kind: raid
+label: { ar: "هجوم القرامطة على قافلة الحاج بالعقبة" }
+summary:
+  ar: "في سنة 302هـ اعترضت القرامطة قافلة الحاج في طريق مكة بالعقبة فقتلوهم وسبوا من النساء ما أرادوا واحتووا على ما في القافلة فأخذوا ما قيمته الأموال {cite:muntazam-ibn-al-jawzi p. 351-352}."
+  en: "In 302 the Qarmatians ambushed the Hajj caravan at al-Aqba on the Mecca road, killed the pilgrims, took captive women and seized the caravan's goods {cite:muntazam-ibn-al-jawzi p. 351-352}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0914", hijri: "0302", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 302؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 351-352}." }
+relations:
+  - { type: had_participant, target: group/qaramita, role: "المهاجم", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-8
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

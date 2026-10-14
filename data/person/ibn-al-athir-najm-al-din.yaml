@@ -1,0 +1,27 @@
+id: person/ibn-al-athir-najm-al-din
+class: person
+label: { ar: "ابن الأثير نجم الدين", en: "Ibn al-Athir Najm al-Din" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن إسماعيل بن سعيد بن عبد الكريم الشيباني" }
+  - { kind: laqab, lang: ar, value: "نجم الدين" }
+  - { kind: nisba, lang: ar, value: "الجزري" }
+gender: male
+roles: [writer, scholar]
+traditions: [sunni]
+died: { edtf: "1336", hijri: "0737", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "الكاتب نجم الدين أحمد بن إسماعيل بن سعيد الشيباني الجزري؛ من سلالة ابن الأثير الجزري، اشتهر بأدب الإنشاء والترسل وعمل بدواوين عصره بالموصل."
+  en: "The chancery writer Najm al-Din Ahmad ibn Isma'il ibn Sa'id al-Jazari al-Shaybani, of the Ibn al-Athir family; known for the art of insha' (official letter-writing) and served the chanceries of his day at Mosul."
+wings: [people, words]
+themes: [literature]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+faith:
+  - { value: sunni, basis: tradition, note: "من بيت ابن الأثير العلمي بالموصل؛ يُسجَّل ضمن الإطار السني للمتحف." }
+relations:
+  - { type: lived_in, target: place/mosul }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 269-272, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص270-272", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

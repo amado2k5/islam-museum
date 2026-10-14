@@ -96,6 +96,12 @@ sources: [source/tanzil-quran]
 status: {{ review: draft, completeness: 2, generated_by: {GEN} }}
 """, encoding="utf-8")
 
+# Sura chronology (docs/plan/21 §C.6): the Cairo (1924) edition's order of revelation and Meccan/Medinan classification,
+# as carried in Tanzil's quran-data.xml. A well-known ordering, not a unanimous one; the site labels it as such.
+REVELATION_ORDER = [96,68,73,74,1,111,81,87,92,89,93,94,103,100,108,102,107,109,105,113,114,112,53,80,97,91,85,95,106,101,75,104,77,50,90,86,54,38,7,72,36,25,35,19,20,56,26,27,28,17,10,11,12,15,6,37,31,34,39,40,41,42,43,44,45,46,51,88,18,16,71,14,21,23,32,52,67,69,70,78,79,82,84,30,29,83,2,8,3,33,60,4,99,57,47,13,55,76,65,98,59,24,22,63,58,49,66,64,61,62,48,5,9,110]
+MEDINAN = {2,3,4,5,8,9,13,22,24,33,47,48,49,55,57,58,59,60,61,62,63,64,65,66,76,98,99,110}
+ORDER_OF = {s: i + 1 for i, s in enumerate(REVELATION_ORDER)}
+
 pdir = REPO / "data/passage"
 shutil.rmtree(pdir, ignore_errors=True); pdir.mkdir(parents=True)
 for i, ((ar, en), n) in enumerate(zip(NAMES, AYAT), 1):
@@ -105,6 +111,8 @@ unit: sura
 work: work/quran
 ref: "{i}"
 sura: {i}
+revelation_order: {ORDER_OF[i]}
+revelation_place: {"medinan" if i in MEDINAN else "meccan"}
 label: {{ en: "Sura {i}: {en}", ar: {scalar(f'سورة {ar}')} }}
 summary:
   en: "Sura {i} of the Qur'an, {en}, has {n} verses."

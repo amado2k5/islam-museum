@@ -1,0 +1,26 @@
+id: person/abu-basir
+class: person
+label: { en: "Abu Basir (Utba ibn Usayd)", ar: "أبو بصير (عتبة بن أسيد)" }
+names:
+  - { kind: full, lang: ar, value: "عتبة بن أسيد بن جارية الثقفي" }
+  - { kind: kunya, lang: ar, value: "أبو بصير" }
+gender: male
+roles: [companion, commander]
+traditions: [sunni]
+summary:
+  en: "A determined Meccan convert who escaped to Medina following the Hudaybiyya Treaty; surrendered to Quraysh envoys in adherence to treaty terms, he overpowered his guard on the journey back and established a coastal guerrilla base at al-Is, intercepting Quraysh caravans until Quraysh begged the Prophet to accept them in Medina."
+  ar: "صحابي ثقفي حليف لقريش أسلم بمكة وفر إلى المدينة بعد صلح الحديبية؛ ردّه النبي إلى قريش وفاءً بالصلح، ففتك بأحد حارسيه في طريق الرجوع وتمركز بسيف البحر عند العيص، وانضم إليه أبو جندل ومستضعفو مكة، فقطعوا قوافل قريش حتى ناشدت قريش النبي أن يؤويهم وألغت البند."
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0628" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: commander, toward: group/early-muslims, start: { edtf: "0628" }, end: { edtf: "0628" }, status: tradition, note: "قائد معسكر سيف البحر للمستضعفين (الرحيق ص347–348).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0628" }, note: "صحابي جليل بطل سيف البحر." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: participated_in, target: event/treaty-of-hudaybiyya, role: "المستضعف المردود الذي أسس معسكر سيف البحر", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 347–348" }

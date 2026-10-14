@@ -1,0 +1,18 @@
+id: person/yamar-ibn-awf
+class: person
+label: { en: "Yaʾmar ibn Awf (al-Shaddakh)", ar: "يعمر بن عوف (الشدّاخ)" }
+gender: male
+roles: []
+faith: [{ value: arabian-polytheism, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The Bakr ibn Abd Manaf arbiter who judged between Qusayy and Khuzaʾa that Qusayy was worthier of the Kaaba and Mecca, laying the blood Qusayy had spilled beneath his feet, i.e. waived, while awarding blood-money for Khuzaʾa’s dead; from that ruling he was called al-Shaddakh."
+  ar: "الحكم من بني بكر بن عبد مناف الذي قضى أن قصياً أولى بالكعبة وأمر مكة من خزاعة، وجعل كل دم أصابه قصي موضوعاً مشدّخاً تحت قدميه وما أصابت خزاعة وبنو بكر فيه الدية؛ فسُمي يومئذ الشدّاخ."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/qusayy-takes-mecca, role: "الحَكَم المُقضي بأولوية قصي", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: member_of, target: group/banu-bakr-ibn-abd-manaf }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

@@ -1,0 +1,16 @@
+id: person/amr-ibn-utba
+class: person
+label: { ar: "عمرو بن عتبة الزاهد", en: "Amr ibn Utba the Ascetic" }
+summary:
+  ar: "عمرو بن عتبة الزاهد؛ كان مع عتبة بن فرقد السلمي في غزواته بأذربيجان بعد انتقاض نواحيها."
+  en: "Amr ibn Utba the Ascetic; he campaigned with Utba ibn Farqad al-Sulami in Azerbaijan when its borderlands breached."
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/conquest-of-azerbaijan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

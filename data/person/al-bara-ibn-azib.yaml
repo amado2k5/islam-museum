@@ -1,0 +1,66 @@
+id: person/al-bara-ibn-azib
+class: person
+label:
+  ar: البراء بن عازب
+  en: al-Bara' ibn Azib
+aliases: [person/al-baraa-ibn-azib]
+names:
+- kind: full
+  lang: ar
+  value: البراء بن عازب بن الحارث بن عدي بن جشم بن مجدعة بن حارثة بن الحارث بن عمرو بن مالك بن الأوس الأنصاري الأوسي
+- kind: kunya
+  lang: ar
+  value: أبو عمارة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من الأوس له ولأبيه صحبة؛ استُصغر يوم بدر هو وابن عمر فرُدّا وشهد أحداً، وغزا أربع عشرة أو خمس عشرة غزوة مع النبي، وافتتح الري، وشهد الجمل وصفين مع علي، ونزل الكوفة ومات في إمارة مصعب بن الزبير.
+  en: A Companion of the Aws, as was his father; he was judged too young at Badr along with Ibn Umar and sent back, then took part at Uhud; he joined fourteen or fifteen expeditions with the Prophet, took al-Rayy, was with Ali at the Camel and
+    Siffin, settled in Kufa and died in the governorship of Mus'ab ibn al-Zubayr.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 641 (ص 137).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 641، ص 137
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 137, entry 641)

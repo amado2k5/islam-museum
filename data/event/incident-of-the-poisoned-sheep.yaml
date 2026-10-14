@@ -1,0 +1,21 @@
+id: event/incident-of-the-poisoned-sheep
+class: event
+kind: other
+label: { en: "The Incident of the Poisoned Sheep at Khaybar", ar: "حادثة الشاة المسمومة بخيبر" }
+summary:
+  en: "Following the conquest of Khaybar, Zaynab bint al-Harith (wife of Sallam ibn Mishkam) sent the Prophet a roasted sheep heavily laced with poison; upon chewing a morsel, the Prophet spat it out stating that the bone informed him it was poisoned, while Bishr ibn al-Bara' swallowed a bite and died."
+  ar: "إثر تمام فتح خيبر، عمدت زينب بنت الحارث امرأة سلام بن مشكم إلى إهداء شاة مشوية محشوة بالسم للنبي وأكثرت في الذراع؛ فمضغ النبي منها مضغة ثم لفظها وأخبر أن الذراع تنبئه أنها مسمومة، وأكل منها بشر بن البراء فمات."
+wings: [time, people]
+themes: [prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628-06~", hijri: "0007-02", calendar: julian, precision: month, status: tradition, note: "صفر سنة 7هـ إثر الفراغ من فتح خيبر (الرحيق ص376–377)." }
+relations:
+  - { type: occurred_at, target: place/khaybar }
+  - { type: had_participant, target: person/muhammad, role: "الذي عصمه الله ونطق له العظم بالسم", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/bishr-ibn-al-bara, role: "الصحابي الذي أساغ اللقمة فمات شهيداً", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/battle-of-khaybar }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 376–377" }

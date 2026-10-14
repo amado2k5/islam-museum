@@ -1,0 +1,61 @@
+id: person/mukhayriq
+class: person
+label:
+  ar: مخيريق
+  en: Mukhayriq
+names:
+- kind: full
+  lang: ar
+  value: مخيريق النضري الإسرائيلي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: عالم يهودي قيل إنه من بني النضير وقيل من بني قينقاع، أسلم في رواية الواقدي واستُشهد بأحد؛ أوصى بأمواله، وهي سبع حوائط بالمدينة، للنبي فجعلها صدقة؛ وروى عمر بن شبة عن ابن شهاب أنه قال للنبي في شأنه «مخيريق سابق يهود».
+  en: A Jewish scholar said to be from Banu al-Nadir, or Banu Qaynuqa according to others; in al-Waqidi's account he embraced Islam and was killed at Uhud; he left his wealth, seven orchards in Medina, to the Prophet, who made them a charitable
+    endowment; Umar ibn Shabba reports from Ibn Shihab that the Prophet called him the foremost of the Jews.
+wings:
+- people
+themes:
+- converts-and-leavers
+- battles
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 8036 (ص 1382).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: jewish
+  basis: tradition
+  note: عالم يهودي من المدينة قبل إسلامه كما يذكر ابن حجر عن الواقدي (الإصابة ص1382).
+- value: sunni
+  basis: tradition
+  note: أسلم واستشهد بأحد في رواية الواقدي؛ ويُسجَّل ضمن الإطار السني للمتحف (docs/scope.md) ولا يُحكم بأكثر من نقل الراوي.
+relations:
+- type: member_of
+  target: group/banu-nadir
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 8036، ص 1382
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-7
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1382, entry 8036)

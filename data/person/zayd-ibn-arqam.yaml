@@ -1,0 +1,62 @@
+id: person/zayd-ibn-arqam
+class: person
+label:
+  ar: زيد بن أرقم
+  en: Zayd ibn Arqam
+names:
+- kind: full
+  lang: ar
+  value: زيد بن أرقم بن زيد بن قيس بن النعمان بن مالك بن الأغر بن ثعلبة بن كعب بن الخزرج
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابي من الخزرج، استُصغر يوم أحد وغزا مع النبي سبع عشرة غزوة؛ هو الذي أبلغ النبي بقول عبد الله بن أبي فنزلت سورة المنافقين تصديقاً له، وشهد صفين مع علي ومات بالكوفة.
+  en: A Khazraji Companion, judged too young at Uhud, who campaigned with the Prophet in seventeen expeditions; he reported the words of Abdullah ibn Ubayy and the sura al-Munafiqun was revealed confirming him; he was at Siffin with Ali and died
+    in Kufa.
+wings:
+- people
+themes:
+- children-and-youth
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 2940 (ص 509).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-mutah
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 2940، ص 509 (تراجم الرجال)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-men-1
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 509, entry 2940)

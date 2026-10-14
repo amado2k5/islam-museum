@@ -1,0 +1,86 @@
+id: person/umm-kulthum-bint-muhammad
+class: person
+label:
+  ar: أم كلثوم بنت محمد
+  en: Umm Kulthum bint Muhammad
+names:
+- kind: full
+  lang: ar
+  value: أم كلثوم بنت محمد بن عبد الله بن عبد المطلب الهاشمية
+- kind: kunya
+  lang: ar
+  value: أم كلثوم
+gender: female
+died:
+  edtf: "0630-11"
+  hijri: "0009-08"
+  calendar: julian
+  precision: month
+  status: tradition
+  note: توفيت عند عثمان في شعبان سنة تسع (ابن سعد، كما في الإصابة)؛ ويذكر الكتاب وفاتها في شهر شعبان سنة تسع للهجرة فجمعها واختها رقية قبر واحد (نساء حول الرسول ص417).
+  sources:
+  - source/ibn-hajar-isaba
+  - source/nisa-hawl-alrasul
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: ابنة النبي، تزوجها عثمان بن عفان بعد وفاة أختها رقية في ربيع الأول سنة 3هـ، وتوفيت عنده في شعبان سنة 9هـ ولم تلد له.
+  en: A daughter of the Prophet, married to Uthman ibn Affan after her sister Ruqayya's death in Rabi' al-Awwal 3 AH; she died in his house in Sha'ban 9 AH without bearing him children.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 12269 (ص 2031).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: child_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/khadija
+  sources:
+  - source/ibn-hajar-isaba
+- type: spouse_of
+  target: person/uthman-ibn-affan
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/fatima
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/zaynab-bint-muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/ruqayya-bint-muhammad
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12269، ص 2031 (تراجم النساء)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-women-1
+sources:
+- source/ibn-hajar-isaba
+- source/nisa-hawl-alrasul
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2031, entry 12269)

@@ -1,0 +1,20 @@
+id: event/daybul-pirates-hajjaj
+class: event
+kind: other
+label: { ar: "قراصنة الديبل وصرخة يا حجاج", en: "The Daybul Pirates and the Cry 'ya Hajjaj'" }
+summary:
+  ar: "عرض للسفينة التي فيها النسوة اللاتي أهداهن ملك جزيرة الياقوت قوم من ميد الديبل في بوارج فأخذوا السفينة بما فيها فنادت امرأة منهن وكانت من بني يربوع يا حجاج وبلغ الحجاج ذلك فقال يا لبيك فأرسل إلى داهر يسأله تخلية النسوة فقال إنما أخذهن لصوص لا أقدر عليهم فأغزى الحجاج عبيد الله بن نبهان الديبل فقتل فكتب إلى بديل بن طهفة البجلي وهو بعمان يأمره أن يسير إلى الديبل فلما لقيهم نفر به فرسه فأطاف به العدو فقتلوه وقال بعضهم قتله زط البذة وإنما سميت هذه الجزيرة جزيرة الياقوت لحسن وجوه نسائها."
+  en: "Pirates of Daybul seized the ship bearing the gifted women; one, of Banu Yarbu', cried 'ya Hajjaj' — 'ya labbayk' he answered, and wrote Dahir demanding their release: 'pirates beyond my power' came the reply. Al-Hajjaj's man Ubaydallah ibn Nabhan fell to Daybul, and Budayl ibn Tahfa al-Bajali, sent from Uman, was ringed and killed when his horse shied — some say the Zutt of al-Budha killed him. The island is called Jazirat al-Yaqut for its women's beauty."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/budayl-ibn-tahfa, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ubaydallah-ibn-nabhan, role: "المقتول قبله", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/dahir, role: "ملك السند", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/daybul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

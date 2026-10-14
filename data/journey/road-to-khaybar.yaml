@@ -1,0 +1,26 @@
+id: journey/road-to-khaybar
+class: journey
+label: { en: "The road to Khaybar", ar: "درب خيبر" }
+summary:
+  en: "The march of the Prophet's army from Medina to Khaybar in the rest of Muharram, year 7 AH, by the stages al-Raheeq gives from Ibn Ishaq: Jabal 'Asr, al-Sahba, the valley of al-Raji', then the guided approach from the north, and the halt at al-Sahba near Khaybar."
+  ar: "مسير جيش النبي من المدينة إلى خيبر في بقية المحرم سنة 7هـ، بالمواضع التي يرويها الرحيق عن ابن إسحاق: جبل عصر، فالصهباء، فوادي الرجيع، ثم الاقتراب بالدليل من جهة الشمال، ونزول الصهباء القريبة من خيبر."
+kind: military_campaign
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - from: place/medina
+    to: place/khaybar
+    start: { hijri: "0007-01", status: historical, note: "في بقية المحرم سنة 7هـ بعد العودة من الحديبية (الرحيق ص365)" }
+    mode: "مسير الجيش"
+    events: [event/battle-of-khaybar]
+    note: "على جبل عصر ثم الصهباء ثم نزل واديَ الرجيع، وكان بينه وبين غطفان يوم وليلة؛ ثم سلك بالدليلين طريقاً من جهة الشمال يقطع طريق فرار اليهود إلى الشام، فوقفا عند مفرق الطرق حتى اختار النبي طريق مرحب (الرحيق ص366). وفي الطريق أحاديث الرجز والتكبير والمسير ليلاً (البخاري 2/603). وبالصهباء من أدنى خيبر صلى العصر، ثم بات الجيش قريباً من خيبر ولم تشعر به اليهود (الرحيق ص366-367). المواضع المذكورة لم تُطابق اليوم على الأرض؛ والمسافة إلى خيبر تُذكر في الرحيق ستين إلى ثمانين ميلاً شمال المدينة (ص364)."
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+relations:
+  - { type: part_of, target: event/battle-of-khaybar, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Claude; drafted from al-Raheeq al-Makhtum pp. 362-368" }
+
+waypoints:
+  - {"place": "place/medina", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "المدينة المنورة"}, "narrative": {"ar": "نقطة الانطلاق: المدينة المنورة. على جبل عصر ثم الصهباء ثم نزل واديَ الرجيع، وكان بينه وبين غطفان يوم وليلة؛ ثم سلك بالدليلين طريقاً من جهة الشمال يقطع طريق فرار اليهود إلى الشام، فوقفا عند مفرق الطرق حتى اختار النبي طريق مرحب (الرحيق ص366). وفي الطريق أحاديث الرجز والتكبير والمسير ليلاً (البخاري 2/603). وبالصهباء من أدنى خيبر صلى العصر، ثم بات الجيش قريباً من خيبر ولم تشعر به اليهود (الرحيق ص366-367). المواضع المذكورة لم تُطابق اليوم على الأرض؛ والمسافة إلى خيبر تُذكر في الرحيق ستين إلى ثمانين ميلاً شمال المدينة (ص364)."}, "sources": ["source/mubarakpuri-raheeq", "source/sahih-al-bukhari"]}
+  - {"place": "place/khaybar", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "خيبر"}, "narrative": {"ar": "على جبل عصر ثم الصهباء ثم نزل واديَ الرجيع، وكان بينه وبين غطفان يوم وليلة؛ ثم سلك بالدليلين طريقاً من جهة الشمال يقطع طريق فرار اليهود إلى الشام، فوقفا عند مفرق الطرق حتى اختار النبي طريق مرحب (الرحيق ص366). وفي الطريق أحاديث الرجز والتكبير والمسير ليلاً (البخاري 2/603). وبالصهباء من أدنى خيبر صلى العصر، ثم بات الجيش قريباً من خيبر ولم تشعر به اليهود (الرحيق ص366-367). المواضع المذكورة لم تُطابق اليوم على الأرض؛ والمسافة إلى خيبر تُذكر في الرحيق ستين إلى ثمانين ميلاً شمال المدينة (ص364)."}, "sources": ["source/mubarakpuri-raheeq", "source/sahih-al-bukhari"]}

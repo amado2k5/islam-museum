@@ -1,0 +1,20 @@
+id: person/fatima-bint-sad-al-azdiyya
+class: person
+label: { ar: "فاطمة بنت سعد الأزدية" }
+summary:
+  ar: "أم قصي بن كلاب؛ فاطمة بنت سعد بن سيل من الحذرة من أزد شنوءة، وأمها حُبيّ بنت حُليل بن حُبشية الخزاعية، فهي من اليمانيات في جدات النبي؛ روي عنه أنه قال «أنا ابن الفواطم والعواتك»، وهي واحدة من الفواطم {cite:ansab-al-ashraf p. 533}."
+  en: "Mother of Qusayy ibn Kilab: Fatima bint Sa'd b. Sayl of the Azd Shanu'a, her mother a Khuza'i — one of the Yamani Fawatim in the Prophet's reported words 'I am the son of the Fatimas and the Atikas' {cite:ansab-al-ashraf p. 533}."
+gender: female
+wings: [people]
+story_roles: [{ role: family-of-the-prophet }]
+themes: [family-marriage-kinship, women]
+relations:
+  - { type: child_of, target: person/qusayy-ibn-kilab, sources: [source/ansab-al-ashraf] }
+periods: [period/pre-islamic-arabia]
+provenance:
+  layer: own-research
+  source: "أنساب الأشراف للبلاذري (ط مؤسسة الأعلمي/دار المعارف)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ansab-batch-1
+sources: [source/ansab-al-ashraf]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

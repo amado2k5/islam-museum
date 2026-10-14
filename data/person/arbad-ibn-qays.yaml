@@ -1,0 +1,23 @@
+id: person/arbad-ibn-qays
+class: person
+label: { en: "Arbad ibn Qays", ar: "أربد بن قيس" }
+names:
+  - { kind: full, lang: ar, value: "أربد بن قيس العامري" }
+gender: male
+died: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "أصابته صاعقة في طريق رجوعه فأحرقته فيما ترويه السيرة.", sources: [source/mubarakpuri-raheeq] }
+roles: [politician]
+summary:
+  en: "A leader of Banu Amir, maternal half-brother of the poet Labid, who circled behind the Prophet and half-drew his sword during the 9 AH delegation; the tradition says his hand was stayed, and lightning struck him dead on the way home."
+  ar: "من رؤساء بني عامر وأخو الشاعر لبيد لأمه؛ دار خلف النبي واخترط سيفه شبراً في وفد سنة 9هـ فحبس الله يده كما تروي السيرة، وأصابته صاعقة في رجوعه فأحرقته."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/banu-amir }
+  - { type: sibling_of, target: person/labid-ibn-rabia }
+  - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "الذي اخترط السيف", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

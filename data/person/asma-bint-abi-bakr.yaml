@@ -5,12 +5,13 @@ names:
   - { kind: full, lang: ar, value: "أسماء بنت أبي بكر الصديق" }
   - { kind: laqab, lang: ar, value: "ذات النطاقين" }
 gender: female
-died: { edtf: "0692~", hijri: "0073", calendar: julian, precision: year, status: tradition, note: "ماتت جمادى الأولى سنة 73هـ وقد جاوزت المائة على المشهور؛ خارج نطاق هذا القسم.", sources: [source/tabaqat-ibn-sad] }
+born: { edtf: "0595~", calendar: julian, precision: year, status: tradition, note: "يذكر الكتاب أنها ولدت قبل البعثة بسبعة عشر عاماً، ونقل عن أبي نعيم أنها ولدت قبل الهجرة بسبع وعشرين سنة (نساء حول الرسول ص188 و191).", sources: [source/nisa-hawl-alrasul] }
+died: { edtf: "0692~", hijri: "0073", calendar: julian, precision: year, status: tradition, note: "ماتت جمادى الأولى سنة 73هـ وقد جاوزت المائة على المشهور؛ خارج نطاق هذا القسم. ويذكر الكتاب أنها توفيت بعد مقتل ابنها عبد الله بن الزبير بليال أو بنحو عشرين يوماً على اختلاف الروايات (نساء حول الرسول ص191).", sources: [source/tabaqat-ibn-sad, source/nisa-hawl-alrasul] }
 roles: [companion]
 traditions: [sunni]
 summary:
   en: "Abu Bakr's elder daughter, who carried provisions to the two fugitives in the cave of Thawr and split her girdle in two to tie the food bag — hence her byname Dhat al-Nitaqayn, 'she of the two girdles'."
-  ar: "ابنة أبي بكر الكبرى وأخت عائشة؛ حملت سفرة النبي وأبيها إلى الغار، وإذ لم تجد للسفرة عصاماً شقّت نطاقها اثنين فربطت بأحدهما وانتطقت بالآخر، فسُميت ذات النطاقين."
+  ar: "ابنة أبي بكر الكبرى وأخت عائشة؛ حملت سفرة النبي وأبيها إلى الغار، وإذ لم تجد للسفرة عصاماً شقّت نطاقها اثنين فربطت بأحدهما وانتطقت بالآخر، فسُميت ذات النطاقين.، وعند المسعودي لما سئلها ابن الزبير عما رد به ابن عباس في المتعة قالت صدق، وروت هي عن حجة الوداع أنها لما أحلت لبست ثيابها وتطيبت وجثت حتى جلست إلى جنب الزبير فقال لها قومي عني أخاف أن أثب عليك {cite:muruj-al-dhahab p. 77-78}، وعند المسعودي قالت لابنها عبد الله لا تقبل خطة تخاف على نفسك منها مخافة القتل مت كريماً وإياك أن تؤسر أو تعطي بيديك، وقال أخاف أن يمثل بي بعد القتل فقالت وهل تتألم الشاة من ألم السلخ بعد الذبح {cite:muruj-al-dhahab p. 105}"
 wings: [people]
 themes: [refugees-migrants-diaspora]
 periods: [period/prophetic-era]
@@ -21,7 +22,8 @@ faith:
   - { value: sunni, basis: tradition, note: "مسلمة مبكرة؛ تسجَّل في الإطار السني للمتحف." }
 relations:
   - { type: child_of, target: person/abu-bakr }
+  - { type: child_of, target: person/qutayla-bint-abd-al-uzza, note: "أمها قتيلة بنت عبد العزى بن عبد أسعد بن نصر (نساء حول الرسول ص188).", sources: [source/nisa-hawl-alrasul] }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/hijra, role: "حملت السفرة إلى الغار — صاحبة قصة ذات النطاقين", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/nisa-hawl-alrasul, source/muruj-al-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 165-166, 170" }

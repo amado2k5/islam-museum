@@ -1,0 +1,27 @@
+id: person/abdullah-ibn-al-harith-sahmi
+class: person
+label: { en: Abdullah ibn al-Harith the Poet, ar: "عبد الله بن الحارث الشاعر" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن الحارث بن قيس بن عدي بن سعد بن سهم" }
+gender: male
+roles: [companion, poet]
+traditions: [sunni]
+summary:
+  ar: "من بني سهم ووصفه ابن إسحاق بـ«الشاعر»؛ هاجر إلى الحبشة وهلك بها."
+  en: Of Banu Sahm, whom Ibn Ishaq calls 'the poet'; he emigrated to Abyssinia and died there.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
+  - { role: poet, status: tradition, note: "نُسب إليه أو وُصف بالشعر في هذا الفصل (ص8)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iv" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

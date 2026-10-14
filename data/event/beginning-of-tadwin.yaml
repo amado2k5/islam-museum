@@ -1,0 +1,20 @@
+id: event/beginning-of-tadwin
+class: event
+kind: other
+label: { ar: "بدء تدوين العلم" }
+summary:
+  ar: "قال الذهبي في سنة ثلاث وأربعين ومئة شرع علماء الإسلام في هذا العصر في تدوين الحديث والفقه والتفسير فصنف ابن جريج بمكة ومالك الموطأ بالمدينة والأوزاعي بالشام وابن أبي عروبة وحماد بن سلمة وغيرهما بالبصرة ومعمر باليمن وسفيان الثوري بالكوفة وصنف ابن إسحاق المغازي وصنف أبو حنيفة الفقه والرأي ثم بعد يسير صنف هشيم والليث وابن لهيعة ثم ابن المبارك وأبو يوسف وابن وهب وكثر تدوين العلم وتبويبه ودونت كتب العربية واللغة والتاريخ وأيام الناس وقبل هذا العصر كان الأئمة يتكلمون من حفظهم أو يروون العلم من صحف صحيحة غير مرتبة {cite:tarikh-khulafa-minhaj-1434 p. 424}."
+  en: "Per al-Dhahabi, in year 143 the scholars of Islam began in this age the codification of hadith, fiqh and tafsir: Ibn Jurayj compiled at Mecca, Malik the Muwatta at Medina, al-Awza'i in Syria, Ibn Abi Uruba, Hammad ibn Salama and others at Basra, Ma'mar in Yemen, Sufyan al-Thawri at Kufa; Ibn Ishaq compiled the Maghazi and Abu Hanifa the fiqh and ra'y, then shortly Hashim, al-Layth and Ibn Lahi'a, then Ibn al-Mubarak, Abu Yusuf and Ibn Wahb. Codification and chapter-ordering spread, and the books of Arabic, language, history and the days of men were written down; before this age the imams spoke from memory or transmitted from sound but unordered sheets {cite:tarikh-khulafa-minhaj-1434 p. 424}."
+wings: [time, ideas]
+periods: [period/abbasid-early]
+date:
+  start: { edtf: "0760~", hijri: "0143", calendar: julian, precision: year, status: tradition, derived: true, note: "143؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 424}." }
+relations:
+  - { type: had_participant, target: person/al-mansur, role: "في خلافته", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 424"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-15
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

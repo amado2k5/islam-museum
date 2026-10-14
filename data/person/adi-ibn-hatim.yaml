@@ -1,0 +1,57 @@
+id: person/adi-ibn-hatim
+class: person
+label:
+  ar: عدي بن حاتم
+  en: Adi ibn Hatim
+names:
+- kind: full
+  lang: ar
+  value: عدي بن حاتم بن عبد الله بن سعد بن الحشرج بن امرئ القيس بن عدي الطائي
+- kind: kunya
+  lang: ar
+  value: أبو طريف
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: ابن حاتم الطائي الجواد المشهور؛ أسلم سنة 9هـ أو 10هـ وكان نصرانياً، وثبت على إسلامه في الردة وأحضر صدقة قومه إلى أبي بكر، وشهد فتح العراق وصفين مع علي، وسكن الكوفة ومات بعد الستين.، وعند المسعودي في حديث أبي البختري أن عدي بن حاتم جاءه في النوم فأمره أن يحمل أبا البختري على بعير مكان راحلته التي عقرها حاتم من قبره حين ناداه أقرنا، ففعل عدي ذلك وأنشده شعره {cite:muruj-al-dhahab p. 475-476}
+  en: The son of the famously generous Hatim al-Ta'i; he embraced Islam in 9 AH or 10 AH, having been a Christian, stood firm during the apostasy and brought his tribe's alms to Abu Bakr; he took part in the conquest of Iraq and was with Ali
+    at Siffin, settled in Kufa and died after 60 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 5961 (ص 1014).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 5961، ص 1014
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1014, entry 5961)

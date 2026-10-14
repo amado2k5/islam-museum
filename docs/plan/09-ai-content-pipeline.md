@@ -143,6 +143,10 @@ Compiled entity example (abridged):
 - Islands fetch only what they need: the timeline loads `derived/timeline/<period>.json` for the visible range; the map loads one GeoJSON layer at a time; the network island loads `derived/ego/<id>.json` and expands on click; search loads Pagefind chunks; "Wander" and "On this day" read small indexes; Compare loads two entity JSONs.
 - Because every island reads the same JSON the API publishes, **anything a visitor can see, a researcher can download**, and the build-time question pipeline (07 Prompt P) reads the same files. No model runs at request time.
 
+### 7a. The pathway pass (planning phase)
+
+Alongside entity drafting the pipeline runs a **pathway pass** (`19-tour-learn.md` §4): from the Questions list, the Arabic gap lists and the themes atlas it proposes the **top 300 guided pathways** (goal stated as an outcome, audience, level, minutes, ordered step references, prerequisites, onward paths), scores each for demand and for readiness (how many steps already exist and are reviewed), and lists the missing entities, which go into the harvest and writing queues. It runs on the Mac with local models and a second family as judge; the output is a reviewed catalogue (`docs/pathways/catalogue.yaml`, `status: proposed`). It never runs at request time: the Tour / Learn tab only serves the precomputed, reviewed pathways.
+
 ## 8. Running it: cadence, cost, models
 
 - **Local harvest (default for everything up to and including drafts):** all stages from PLAN to DRAFT can run on the Mac with open-weight models through Ollama, a second model family as judge, and gold sets that gate each pass (`15-local-harvest.md` §7). No tokens, no uploads.

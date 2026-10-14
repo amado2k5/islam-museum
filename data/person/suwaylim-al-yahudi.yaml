@@ -1,0 +1,19 @@
+id: person/suwaylim-al-yahudi
+class: person
+label: { en: Suwaylim the Jew, ar: "سويلم اليهودي" }
+names:
+  - { kind: full, lang: ar, value: "سويلم" }
+gender: male
+summary:
+  ar: "صاحب البيت الذي يجتمع فيه، بحسب خبر ينقله ابن هشام، ناس يثبطون عن غزوة تبوك؛ وكان بيته عند جاسوم، وأُحرق بأمر النبي."
+  en: Owner of the house where, in a report Ibn Hisham transmits, men gathered to discourage people from the Tabuk campaign; his house was at Jasum and was burned by the Prophet's order.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+faith:
+  - { value: jewish, basis: tradition, sources: [source/ibn-hisham-saqqa], note: "وصفه ابن هشام بأنه يهودي (ص160)" }
+relations:
+  - { type: participated_in, target: event/burning-of-suwaylims-house, role: house-owner, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 160", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 160" }

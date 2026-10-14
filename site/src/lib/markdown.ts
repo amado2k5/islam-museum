@@ -1,6 +1,6 @@
 // Prose renderer: marked + wiki-links [[class/slug|text]], {cite:source p.N}, :::perspectives blocks.
 import { marked } from "marked";
-import { byId, href, labelOf } from "./graph";
+import { byId, href, labelOf, realNodes } from "./graph";
 import type { Lang } from "./i18n";
 
 export interface Cite { n: number; source: string; locator?: string }
@@ -8,7 +8,44 @@ export interface Rendered { html: string; cites: Cite[]; perspectives: { traditi
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-export function renderProse(md: string, lang: Lang): Rendered {
+// Honorifics (ﷺ after the first mention of the Prophet, رضي الله عنه/عنها after the first mention of each Companion),
+// applied once per article body in Arabic only. English body text stays plain for readability (owner decision, see docs).
+// Headings and tables are left alone. One place, so the policy stays uniform and reversible.
+const PROPHET = /(?<![\u0621-\u064A])(رسول الله|النبي)(?![\u0621-\u064A])/g;
+const COMPANIONS = realNodes
+  .filter((n) => n.class === "person" && (n.data.roles ?? []).includes("companion"))
+  .map((n) => ({ name: labelOf(n, "ar"), suffix: n.data.gender === "female" ? "رضي الله عنها" : "رضي الله عنه" }))
+  .filter((c) => c.name)
+  .sort((a, b) => b.name.length - a.name.length);
+
+/** Per-article state: the first mention of each name gets its honorific once across all sections of the article. */
+export interface HonState { prophet: boolean; companions: Set<string> }
+export const newHonState = (): HonState => ({ prophet: false, companions: new Set() });
+
+export function honorify(html: string, lang: Lang, state: HonState = newHonState()): string {
+  if (lang !== "ar") return html;
+  const body = (text: string) => {
+    let t = text.replace(PROPHET, (x) => {
+      if (state.prophet) return x;
+      state.prophet = true;
+      return `${x} ﷺ`;
+    });
+    for (const c of COMPANIONS) {
+      if (state.companions.has(c.name)) continue;
+      const i = t.indexOf(c.name);
+      if (i < 0) continue;
+      state.companions.add(c.name);
+      t = t.slice(0, i + c.name.length) + ` ${c.suffix}` + t.slice(i + c.name.length);
+    }
+    return t;
+  };
+  return html
+    .split(/(<h[1-6][\s\S]*?<\/h[1-6]>|<table[\s\S]*?<\/table>)/)
+    .map((part, idx) => (idx % 2 === 1 ? part : part.replace(/(^|>)([^<]+)(?=<|$)/g, (_m, lead: string, text: string) => lead + body(text))))
+    .join("");
+}
+
+export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
   const cites: Cite[] = [];
 
   // Applied to text nodes of already-rendered HTML (marked has escaped everything else).
@@ -37,6 +74,6 @@ export function renderProse(md: string, lang: Lang): Rendered {
     return "";
   });
 
-  const html = transform(marked.parse(md.replace(/<!--[\s\S]*?-->/g, ""), { async: false }) as string);
+  const html = honorify(transform(marked.parse(md.replace(/<!--[\s\S]*?-->/g, ""), { async: false }) as string), lang, hon);
   return { html, cites, perspectives };
 }

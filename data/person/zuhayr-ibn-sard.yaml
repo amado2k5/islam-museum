@@ -1,0 +1,25 @@
+id: person/zuhayr-ibn-sard
+class: person
+label: { en: "Zuhayr ibn Sard", ar: "زهير بن صُرَد" }
+names:
+  - { kind: full, lang: ar, value: "زهير بن صُرَد" }
+gender: male
+roles: [emir]
+summary:
+  en: "A chieftain of Hawazin who headed the fourteen-man delegation that came to the Prophet at al-Ji'rana as Muslims, pleading foster-kinship for the return of their captured women and children; the Prophet and the Muslims released six thousand captives in response."
+  ar: "سيد من هوازن رأس وفدهم الأربعة عشر رجلاً الذين قدموا على النبي بالجعرانة مسلمين، فناشدوه قرابة الرضاع في بني سعد بن بكر وسألوه ردّ نسائهم وأبنائهم؛ فوهب لهم النبي نصيبه وتنازل المسلمون عن أنصبائهم فرُدّ ستة آلاف أسير."
+wings: [people]
+themes: [converts-and-leavers, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0630" }, status: tradition, note: "رأس وفد هوازن الأربعة عشر إلى الجعرانة (الرحيق ص421).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0630" }, status: tradition, note: "جاء الوفد مسلماً كما نص الرحيق.", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/hawazin }
+  - { type: participated_in, target: event/hawazin-delegation-and-amnesty, role: head-of-delegation, sources: [source/mubarakpuri-raheeq] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 421" }

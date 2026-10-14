@@ -1,0 +1,74 @@
+id: concept/khalq-al-quran
+class: concept
+kind: doctrine
+label:
+  ar: خلق القرآن
+issue:
+  ar: هل كلام الله المتلو في القرآن مخلوق أم غير مخلوق؟
+summary:
+  ar: مسألة في الاعتقاد جرت فيها المحنة في أيام الإمام أحمد؛ يذكر كتاب ابن بدران موقف الإمام وموقف الفرق التي خالفته، وكيف تفرقت الجهمية في المسألة.
+wings:
+- ideas
+themes:
+- creed
+- dissent-heresy-freethought
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+perspectives:
+- tradition: sunni-hanbali
+  id: ahmad-uncreated
+  stance:
+    ar: القرآن كلام الله غير مخلوق
+  summary:
+    ar: قال الإمام أحمد في رسالته إلى مسدد إن القرآن كلام الله، وإن ما في المصحف وتلاوة الناس كلام الله غير مخلوق.
+  holders:
+  - person/ahmad-ibn-hanbal
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 53
+  sources:
+  - source/madkhal-ibn-badran-turki
+- tradition: sunni-hanbali
+  id: jahmiyya-as-reported
+  stance:
+    ar: أقوال الجهمية كما ينقلها الكتاب
+  summary:
+    ar: ينقل الكتاب عن أهل العلم الذين أدركهم المؤلف أن الجهمية افترقت ثلاث فرق؛ قالت الأولى إن القرآن مخلوق، وقالت الثانية إنه كلام الله وسكتت، وقالت الثالثة إن الألفاظ بالقرآن مخلوقة.
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 54
+  sources:
+  - source/madkhal-ibn-badran-turki
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: موقف لمعة الاعتقاد في هذه المسألة كما يرد في الطبعة المحققة
+    en: The Lum'at al-i'tiqad position on this question as it appears in the edited text
+  summary:
+    ar: 'ص 88–89 و91 (ط2): القرآن كلام الله المنزل غير مخلوق، منه بدأ وإليه يعود، وفيه المحكم والمتشابه'
+    en: Lum'at al-i'tiqad (2nd ed.), pages as printed
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad-ibn-uraiyir-2022
+    note:
+      ar: 'ص 88–89 و91 (ط2): القرآن كلام الله المنزل غير مخلوق، منه بدأ وإليه يعود، وفيه المحكم والمتشابه'
+      en: 2nd edition
+  sources:
+  - source/lumat-al-itiqad-ibn-uraiyir-2022
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-2-creed
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from pp. 52-54 of the book; the academic account of the mihna is still to be added

@@ -1,0 +1,19 @@
+id: place/nasibin
+class: place
+kind: city
+label: { ar: "نصيبين", en: "Nasibin (Nisibis)" }
+summary:
+  ar: "نصيبين من مدن الجزيرة؛ فتحها إياد بن غنم بعد قتال على مثل صلح الرها، وفتح بعدها طور عبدين وحصن ماردين ودارا وقردى وباذبدى على مثل صلحها؛ وشكا عاملها إلى معاوية أيام عثمان إصابة جماعة من المسلمين بالعقارب فأمره أن يوظف على أهل كل حيز من المدينة عدة من العقارب مسمّاة في كل ليلة فيأتونه بها فيأمر بقتلها."
+  en: "Nasibin (Nisibis) of the Jazira cities; Iyad ibn Ghanm took it after fighting on the like of al-Ruha's treaty, and after it Tur Abdin and the fortress of Mardin with Dara, Qarda and Bazabda on the like of its terms; its administrator complained to Mu'awiya in Uthman's days that a company of Muslims had been stung by scorpions, and he ordered him to charge each quarter of the city with a named quota of scorpions every night to be brought and killed."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/jazira, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 242، 245–246"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

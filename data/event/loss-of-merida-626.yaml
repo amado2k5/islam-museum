@@ -1,0 +1,22 @@
+id: event/loss-of-merida-626
+class: event
+kind: conquest
+label: { ar: "ضياع ماردة عن ابن هود" }
+summary:
+  ar: "دخل العدو كورة ماردة من محمد بن هود سنة ست وعشرين وستمائة، وكانت مفتتح المصائب على يده، وهي قاعدة بلاد الجوف في مدة العرب والعجم، وبين ماردة وقرطبة خمسة أيام {cite:nafh-tib-maqqari p. 469-470}."
+  en: "The Christians took the district of Merida from Muhammad ibn Hud in 626 — 'the opener of calamities at his hand,' for Merida had been the capital of the al-Jawf country in Arab and Ajam days {cite:nafh-tib-maqqari p. 469-470}."
+wings: [time]
+themes: [battles]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1229~", hijri: "0626~", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 626؛ التحويل مشتق {cite:nafh-tib-maqqari p. 470}." }
+relations:
+  - { type: had_participant, target: person/ibn-hud-al-judhami, role: "المُنْتَزَعة منه الكورة", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 469–470"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-57
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

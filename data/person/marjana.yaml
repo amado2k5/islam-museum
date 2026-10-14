@@ -1,0 +1,17 @@
+id: person/marjana
+class: person
+label: { ar: "مرجانة أم عبيد الله بن زياد", en: "Marjana, Mother of Ubaydallah ibn Ziyad" }
+summary:
+  ar: "مرجانة أم عبيد الله بن زياد؛ تزوجها شيرويه الأسواري وبنى لها قصر هزاردر ذا الأبواب الكثيرة."
+  en: "Marjana, Ubaydallah ibn Ziyad's mother, whom Shirawayh the Aswari married and for whom he built the thousand-doored Hazārdir."
+gender: female
+periods: [period/umayyad]
+relations:
+  - { type: child_of, target: person/ziyad-ibn-abi-sufyan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

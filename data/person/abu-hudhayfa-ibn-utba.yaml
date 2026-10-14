@@ -1,0 +1,61 @@
+id: person/abu-hudhayfa-ibn-utba
+class: person
+label:
+  ar: أبو حذيفة بن عتبة
+  en: Abu Hudhayfa ibn Utba
+names:
+- kind: full
+  lang: ar
+  value: أبو حذيفة بن عتبة بن ربيعة بن عبد شمس بن عبد مناف القرشي العبشمي
+- kind: kunya
+  lang: ar
+  value: أبو حذيفة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من السابقين إلى الإسلام، هاجر الهجرتين وصلى إلى القبلتين وشهد بدراً؛ أسلم بعد ثلاثة وأربعين إنساناً، وتبنى سالماً مولاه، واستشهد يوم اليمامة وهو ابن ست وخمسين سنة؛ اختُلف في اسمه (مهشم أو هشيم أو هاشم أو قيس).
+  en: One of the earliest to embrace Islam, he made both emigrations, prayed towards both qiblas and fought at Badr; he became Muslim after forty-three others, adopted his freed slave Salim, and was killed at al-Yamama aged fifty-six; his name
+    is disputed (Muhshim, Hushaym, Hashim or Qays).
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 9799 (ص 1649).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-abd-shams
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 9799، ص 1649
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1649, entry 9799)

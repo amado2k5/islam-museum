@@ -1,0 +1,30 @@
+id: person/yazid-ibn-abd-al-malik
+class: person
+label: { ar: "يزيد بن عبد الملك" }
+summary:
+  ar: "الخليفة الأموي التاسع، أبو خالد، ولد سنة إحدى وسبعين وولي الخلافة بعد عمر بن عبد العزيز بعهد من أخيه سليمان، فلما ولي قال سيروا بسيرة عمر بن عبد العزيز فأتي بأربعين شيخاً فشهدوا ما على الخلفاء حساب ولا عذاب، وقال ابن الماجشون أقام أربعين يوماً يسير بسيرة عمر ثم عدل، وفي سنة اثنتين خرج عليه يزيد بن المهلب فهزمه مسلمة بن عبد الملك بالعقر، مات أواخر شعبان سنة خمس ومئة {cite:tarikh-khulafa-minhaj-1434 p. 399-400}.، وعند المسعودي ملك يوم توفي عمر لخمس بقين من رجب سنة إحدى ومائة ويكنى أبا خالد وأمه عاتكة بنت يزيد بن معاوية وتوفي بأربد من أرض البلقاء لخمس بقين من شعبان سنة خمس ومائة وهو ابن سبع وثلاثين سنة فكانت ولايته أربع سنين وشهراً ويومين، وغلبت عليه جارية يقال لها سلامة القس اشتراها من سهيل بن عبد الرحمن بن عوف بثلاثة آلاف دينار ثم غلبت عليه حبابة بعد عذل أخيه مسلمة له {cite:muruj-al-dhahab p. 185}، وعند المسعودي أمر رجلاً أن يأتيه بجاريته تغنيه ثلاثة أصوات فغناها الفتى ثم شرب رطل خمر وصعد قبة فرمى بنفسه على دماغه فمات، فلما حملوها إلى أهله جذبت نفسها وأنشأت من مات عشقاً فليمت هكذا لا خير في عشق بلا موت ورمت بنفسها فماتت، وقيل إنه كان سليمان بن عبد الملك {cite:muruj-al-dhahab p. 487-488}"
+  en: "The ninth Umayyad caliph, Abu Khalid, born in year 71; he took the caliphate after Umar ibn Abd al-Aziz by his brother Sulayman's designation. On accession he declared 'follow the sira of Umar ibn Abd al-Aziz' — forty elders testified there is no reckoning or torment upon caliphs — yet per Ibn al-Majishun he kept Umar's ways forty days then turned aside. In year two Yazid ibn al-Muhallab rose and was routed by Maslama ibn Abd al-Malik at al-Aqr. He died in late Sha'ban 105 {cite:tarikh-khulafa-minhaj-1434 p. 399-400}."
+gender: male
+born:
+  hijri: "0071"
+  precision: year
+  status: tradition
+  note: "{cite:tarikh-khulafa-minhaj-1434 p. 399}."
+died:
+  hijri: "0105-08"
+  precision: month
+  status: tradition
+  note: "أواخر شعبان {cite:tarikh-khulafa-minhaj-1434 p. 400}."
+wings: [people]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: child_of, target: person/abd-al-malik-ibn-marwan, sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: successor_of, target: person/umar-ibn-abd-al-aziz, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 399–400"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-12
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/fall-of-velez-892
+class: event
+kind: conquest
+label: { ar: "سقوط بلش مالقة والانهزام قبل الالتحام" }
+summary:
+  ar: "خرج صاحب قشتالة قاصداً بلش مالقة ونزل عليها في ربيع الثاني سنة اثنتين وتسعين وثمانمائة وحاصرها؛ واجتمع صاحب غرناطة الزغل بالناس فأشاروا بالمسير لإغاثتها لعهد عقدوه، وأتى أهل وادي آش وغيرها وحشود البشرات وخرج صاحب غرناطة في الرابع والعشرين لربيع الثاني ووصل بلش فوجد العدو نازلاً عليها براً وبحراً فنزل بجبل هنالك وكثر لغط الناس وحملوا على النصارى من غير تعبية، وحين حركتهم للحملة بلغ السلطان الزغل أن غرناطة بايعت صاحب البيازين فالتقوا مع النصارى فاشلين وقبل الالتحام انهزموا وتبددت جموعهم مع كون النصارى خائفين وجلين منهم {cite:nafh-tib-maqqari p. 523-524}. ولما رأى أهل بلش تكالب العدو عليهم وإدبار جيوش المسلمين عنهم طلبوا الأمان فخرجوا يوم الجمعة عاشر جمادى الأولى من السنة، وأطاعت النصارى البلاد التي بشرقي مالقة وحصن قمارش {cite:nafh-tib-maqqari p. 524}."
+  en: "The fall of Velez-Malaga (Jumada I 892): al-Zaghal's relief army — Granadans, Guadix men and Alpujarras levies — reached the besieged town only to break before contact when word came that Granada had risen for Boabdil; Velez surrendered on Friday 10 Jumada I and the whole east-Malaga coast submitted, opening the road to the great siege of Malaga itself {cite:nafh-tib-maqqari p. 523-524}."
+wings: [time]
+themes: [battles]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1487-04-29~", hijri: "0892-05-10~", calendar: julian, precision: day, status: tradition, derived: true, note: "عاشر جمادى الأولى سنة 892؛ التحويل مشتق {cite:nafh-tib-maqqari p. 524}." }
+relations:
+  - { type: had_participant, target: person/al-zaghal, role: "صاحب غرناطة قائد جيش الإغاثة", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 523–524"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-56
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

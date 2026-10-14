@@ -1,0 +1,26 @@
+id: person/kaab-ibn-asad
+class: person
+label: { en: "Ka'b ibn Asad", ar: "كعب بن أسد القرظي" }
+names:
+  - { kind: full, lang: ar, value: "كعب بن أسد القرظي" }
+gender: male
+roles: [notable]
+traditions: []
+summary:
+  en: "The paramount leader of the Jewish tribe of Banu Qurayza in Medina; bound by treaty to the Prophet, he resisted Huyayy ibn Akhtab's persuasion before finally consenting to tear up the pact during the Battle of the Trench; he was judged and executed following the tribe's surrender."
+  ar: "سيد بني قريظة وصاحب عهدهم وميثاقهم مع النبي؛ أغراه حيي بن أخطب بنقض العهد وممالأة الأحزاب حتى مزق الصحيفة في ذروة حصار الخندق؛ فلما حوصروا ونزلوا على حكم سعد بن معاذ قُتل مع مقاتلة قريظة."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0627" }, end: { edtf: "0627" }, status: historical, note: "نقض عهده مع المسلمين وظاهر الأحزاب (الرحيق ص308–310، 315–317).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+faith:
+  - { value: jewish, basis: documented, note: "سيد يهود بني قريظة بيثرب." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/banu-qurayza }
+  - { type: participated_in, target: event/battle-of-the-trench, role: "ناقض العهد مع الأحزاب", sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/siege-of-banu-qurayza, role: "الزعيم المحاصر المقتول بحكم سعد", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 308–310, 315–317" }

@@ -4,17 +4,19 @@ kind: founding
 label: { en: "The building of the Prophet's Mosque", ar: "بناء المسجد النبوي" }
 summary:
   en: "Soon after arriving in Medina, the Prophet and his companions built a mosque and living quarters on a plot of land, a model for later mosques."
-  ar: "بنى النبي وأصحابه بعد وصولهم إلى المدينة مسجدًا ومساكن على قطعة أرض، وصار أنموذجًا للمساجد اللاحقة."
+  ar: "بنى النبي وأصحابه بعد وصولهم إلى المدينة مسجداً ومساكن على أرض ابتاعها من غلامين يتيمين في بني النجار، فكان مركز العبادة والتعليم وإدارة شؤون المجتمع."
 wings: [time, people]
 themes: [mosques]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0622~", hijri: "0001", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0622-09-27~", hijri: "0001-03", calendar: julian, precision: month, status: tradition, note: "وصل المدينة 12 ربيع الأول 1هـ (27 سبتمبر 622م) وشرع في بناء المسجد إثر نزوله في دار أبي أيوب الأنصاري (الرحيق ص184)" }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/muhammad, role: "المؤسس والمشارك في نقل اللبن والحجارة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abu-ayyub-al-ansari, note: "نزل النبي في داره حتى تم بناء المسجد ومساكنه (الرحيق ص184)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/asad-ibn-zurara, note: "كان يصلي بالمسلمين في المربد قبل بناء المسجد", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 184 citing Bukhari 1/71, 555, 560 and Zad al-Maad 2/56" }

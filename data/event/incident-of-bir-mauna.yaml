@@ -1,0 +1,21 @@
+id: event/incident-of-bir-mauna
+class: event
+kind: skirmish
+label: { en: "The Tragedy of Bi'r Ma'una", ar: "مأساة بئر معونة" }
+summary:
+  en: "In Safar 4 AH, seventy senior Muslim reciters (qurra') led by al-Mundhir ibn Amr were sent to Najd at the request of Abu Bara' Amir ibn Malik; they were ambushed and massacred at Bi'r Ma'una by Amir ibn al-Tufayl and allied Sulaym clans."
+  ar: "بعث النبي سبعين رجلاً من خيار الصحابة وقرائهم بقيادة المنذر بن عمرو في صفر 4هـ في جوار أبي براء عامر بن مالك ليدعوا أهل نجد، فغدر بهم عامر بن الطفيل واستجاش عصية ورعلاً وذكوان فأحاطوا بهم وقتلوهم عند بئر معونة، ولم ينج إلا كعب بن زيد وعمرو بن أمية الضمري."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-07~", hijri: "0004-02", calendar: julian, precision: month, status: tradition, note: "صفر سنة 4هـ بالتزامن مع وقعة الرجيع (الرحيق ص293–294)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/haram-ibn-milhan, role: "حامل رسالة النبي، طُعن من خلفه فقال: فزت ورب الكعبة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/amr-ibn-umayya-al-damri, role: "أُسر فأعتقه عامر عن رقبة كانت على أمه وحمل الخبر إلى النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/amir-ibn-al-tufayl, role: "المحرّض على قتل القراء والغادر بعهد عمه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, role: "قنت شهراً يدعو على رعل وذكوان وعصية", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 293–295" }

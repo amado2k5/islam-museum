@@ -1,0 +1,20 @@
+id: event/bishr-ghassan-musa-barmaki
+class: event
+kind: other
+label: { ar: "عصيان بشر بن داود وولاية موسى بن يحيى البرمكي", en: "Bishr ibn Dawud's Revolt and Musa ibn Yahya al-Barmaki's Rule" }
+summary:
+  ar: "لم يزل أمر ثغر السند مستقيماً حتى وليه بشر بن داود في خلافة المأمون فعصى وخالف فوجه إليه غسان بن عباد وهو رجل من أهل سواد الكوفة فخرج بشر إليه في الأمان وورد به مدينة السلام وخلف غسان على الثغر موسى بن يحيى بن خالد بن برمك فقتل بالة ملك الشرقي وقد بذل له خمس مائة ألف درهم على أن يستبقيه وكان بالة هذا التوى على غسان وكتب إليه في حضرة عسكره فيمن حضره من الملوك فأبى ذلك وأثر موسى أثراً حسناً ومات سنة ٢١٥ واستخلف ابنه عمران بن موسى."
+  en: "Sind ran smooth till Bishr ibn Dawud rebelled under al-Ma'mun; Ghassan ibn Abbad of Kufa's sawad drew him out in aman and carried him to Baghdad, then left Musa ibn Yahya al-Barmaki over the thaghr — who slew Bala king of al-Sharqi despite his offered five hundred thousand for life, Bala having once courted Ghassan before the assembled kings. Musa ruled well and died in 215h; his son Imran succeeded."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/bishr-ibn-dawud, role: "العاصي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ghassan-ibn-abbad, role: "الموجه إليه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/musa-ibn-yahya, role: "والي الثغر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/imran-ibn-musa-al-barmaki, role: "الخلف", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

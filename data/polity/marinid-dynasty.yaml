@@ -1,0 +1,51 @@
+id: polity/marinid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: الدولة المرينية
+  en: Marinid dynasty
+summary:
+  ar: سلالة حاكمة قامت سنة 1215م وانتهت سنة 1465م.
+  en: A ruling dynasty established in 1215 CE and ended in 1465 CE.
+wings:
+- time
+- place
+periods:
+- period/mongol-post-mongol
+regions:
+- maghreb
+start:
+  edtf: "1215"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "1465"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+relations:
+- type: successor_of
+  target: polity/almohad-caliphate
+  sources:
+  - source/wikidata
+external_ids:
+  wikidata: Q582861
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

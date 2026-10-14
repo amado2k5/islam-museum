@@ -1,0 +1,26 @@
+id: person/al-aswad-ibn-nawfal
+class: person
+label: { en: Al-Aswad ibn Nawfal, ar: "الأسود بن نوفل" }
+names:
+  - { kind: full, lang: ar, value: "الأسود بن نوفل بن خويلد" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابي من بني أسد بن عبد العزى، هاجر إلى الحبشة وقدم في السفينتين."
+  en: A Companion of Banu Asad ibn Abd al-Uzza; he emigrated to Abyssinia and arrived in the two ships.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص5)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-asad, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 5", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

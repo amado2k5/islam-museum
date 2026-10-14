@@ -1,0 +1,24 @@
+id: event/killing-of-muhammad-ibn-abi-bakr
+class: event
+kind: death
+label: { ar: "قتل محمد بن أبي بكر بمصر", en: "The Killing of Muhammad ibn Abi Bakr in Egypt" }
+summary:
+  ar: "عند البلاذري: لما قُتل عثمان وغلب محمد بن أبي حذيفة على مصر — وهو كان أنغلها على عثمان — ولّى عليٌّ قيس بن سعد بن عبادة الأنصاري مصر ثم عزله واستعمل عليها محمد بن أبي بكر الصديق ثم عزله وولّى مالكاً الأشتر فاعتلّ بالقلزم ثم ولّى محمد بن أبي بكر ثانية وردّه عليها فقتله معاوية بن حديج وأحرقه في جوف حمار."
+  en: "In al-Baladhuri: when Uthman was killed and Muhammad ibn Abi Hudhayfa seized Egypt — he had made it hostile to Uthman — Ali gave Qays ibn Sa'd ibn Ubada al-Ansari Egypt, dismissed him, employed Muhammad ibn Abi Bakr al-Siddiq over it, dismissed him, gave it to Malik al-Ashtar who sickened at al-Qulzum, then gave Muhammad ibn Abi Bakr it a second time and sent him back to it — whereupon Mu'awiya ibn Khudayj killed him and burned him inside a donkey's belly."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0658~", hijri: "0038~", calendar: julian, precision: year, status: tradition, derived: true, note: "في أخبار مصر بعد قتل عثمان (البلاذري ص 319). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/al-fustat }
+  - { type: had_participant, target: person/muhammad-ibn-abi-bakr, role: "المقتول المُحرق في جوف حمار", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-khudayj, role: "القاتل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad-ibn-abi-hudhayfa, role: "الغالب على مصر قبله", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 319"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

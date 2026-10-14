@@ -1,0 +1,20 @@
+id: person/said-ibn-al-as-abu-uhayha
+class: person
+label: { en: Sa'id ibn al-As Abu Uhayha, ar: "سعيد بن العاص أبو أحيحة" }
+names:
+  - { kind: full, lang: ar, value: "سعيد بن العاص بن أمية بن عبد شمس" }
+  - { kind: kunya, lang: ar, value: "أبو أحيحة" }
+gender: male
+summary:
+  ar: "أبو خالد وعمرو وأبان؛ هلك بالظريبة من ناحية الطائف في مال له، ويروي ابن إسحاق أبياتاً قالها لابنه عمرو."
+  en: Father of Khalid, Amr and Aban; he died at al-Zurayba in the direction of al-Ta'if over property of his, and Ibn Ishaq transmits verses he addressed to his son Amr.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/al-zurayba, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 4", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

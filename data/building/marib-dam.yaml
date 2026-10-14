@@ -1,0 +1,15 @@
+id: building/marib-dam
+class: building
+kind: other
+label: { en: "The Maʾrib Dam", ar: "سد مأرب" }
+summary:
+  en: "The great dam of the Sabaean kingdom whose construction began in the Mukarrib era; its repeated breaches, and final burst around 450 CE, are the Sayl al-Arim of Surat Saba in the sira’s account."
+  ar: "السد العظيم لمملكة سبأ الذي بدأ بناؤه في عهد المكاربة؛ تتابعت ثلماته حتى انفجر انفجاراً كبرى نحو سنة 450م وهو سيل العرم في سورة سبأ."
+wings: [place, objects]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+themes: [engineering-and-technology]
+relations:
+  - { type: located_in, target: place/marib }
+sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

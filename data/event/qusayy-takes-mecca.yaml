@@ -1,0 +1,30 @@
+id: event/qusayy-takes-mecca
+class: event
+kind: conquest
+label: { en: "Qusayy ibn Kilab Takes Mecca", ar: "استيلاء قصي بن كلاب على مكة" }
+summary:
+  en: "Around 440 CE Qusayy wrests the custody of the Kaaba and the rule of Mecca from Khuzaʾa — by alliance and, in one account, purchase from Abu Ghubshan — the two sides fight, then accept the arbitration of Yaʾmar ibn Awf who rules for Qusayy; Qusayy then gathers Quraysh into Mecca’s quarters, founds Dar al-Nadwa, and assumes the five offices of Meccan leadership."
+  ar: "نحو سنة 440م أخذ قصي بن كلاب ولاية البيت وأمر مكة من خزاعة — بالحلف والقتال، وبشرائها في رواية من أبي غبشان بزقّ خمر — ثم اقتتلوا فتحاكموا إلى يعمر بن عوف فقضى لقصي؛ فجمع قريشاً إلى مكة، وأسس دار الندوة، وتوالت عليه مناصب الرياسة واللواء والحجابة والسقاية والرفادة."
+wings: [time, people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0440", calendar: julian, precision: year, status: tradition, note: "سنة 440م في تقدير الرحيق عن قلب جزيرة العرب." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: occurred_at, target: building/kaaba }
+  - { type: had_participant, target: person/qusayy-ibn-kilab, role: "المستولي على ولاية البيت", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: group/khuzaa, role: "الطرف المخلوع", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/yamar-ibn-awf, role: "الحَكم المُلقّب بالشدّاخ", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/abu-ghubshan, role: "بائع الولاية في الرواية الثالثة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, role: "الجماعة التي صارت لها السيادة", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/pre-islamic-arabia }
+sides:
+  - label: { en: "Qusayy with Quraysh and Kinana", ar: "قصي مع قريش وكنانة" }
+    participants: [person/qusayy-ibn-kilab, group/quraysh, group/kinana]
+    commanders: [person/qusayy-ibn-kilab]
+  - label: { en: "Khuza'a and Banu Bakr", ar: "خزاعة وبنو بكر" }
+    participants: [group/khuzaa, group/banu-bakr-ibn-abd-manaf]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/qalb-jazirat-al-arab, source/ikhbar-al-kiram]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

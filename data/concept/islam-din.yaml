@@ -1,0 +1,42 @@
+id: concept/islam-din
+class: concept
+kind: doctrine
+label:
+  ar: الإسلام (الدين)
+  en: Islam (the religion and the term)
+summary:
+  ar: 'اسم الدين الذي جاء به النبي محمد، ومعناه في الحديث النبوي الأشهر: أن يعبد الإنسان الله ولا يشرك به شيئاً، ويقيم الصلاة، ويؤدي الزكاة المفروضة، ويصوم رمضان؛ ويُعرَّف أيضاً بأنه بناء قائم على خمس دعائم.'
+  en: The name of the religion the Prophet Muhammad taught; in the best-known hadith its meaning is to worship God without associating anything with Him, to establish prayer, pay the obligatory alms and fast Ramadan; it is also described as a
+    structure built on five pillars.
+wings:
+- ideas
+themes:
+- worship-and-the-pillars
+- creed
+periods:
+- period/prophetic-era
+regions:
+- global
+relations:
+- type: basis_for
+  target: concept/five-pillars
+  sources:
+  - source/sahih-al-bukhari
+- type: basis_for
+  target: concept/shahada
+  sources:
+  - source/sahih-al-bukhari
+provenance:
+  layer: own-research
+  source: صحيح البخاري، كتاب الإيمان، الأحاديث 8 و46 و50
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: core-concepts-1
+sources:
+- source/sahih-al-bukhari
+- source/tanzil-quran
+- source/ibn-rajab-jami-ulum-hikam
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; hadith nos. 8, 46, 50 of Sahih al-Bukhari checked against the extracted text of the al-Bugha edition; ayat checked against the frozen Tanzil text

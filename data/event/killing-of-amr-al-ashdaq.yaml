@@ -1,0 +1,22 @@
+id: event/killing-of-amr-al-ashdaq
+class: event
+kind: massacre
+label: { ar: "قتل عمرو بن سعيد الأشدق" }
+summary:
+  ar: "كان مروان بن الحكم جعل ولي العهد عمرو بن سعيد بن العاص بعد ابنه فقتله عبد الملك، وكان قتله أول غدر في الإسلام عند ابن الكلبي، وفي ذلك قيل يا قوم لا تغلبوا عن رأيكم فلقد جربتم الغدر من أبناء مروان أمسوا وقد قتلوا عمراً وما رشدوا {cite:tarikh-khulafa-minhaj-1434 p. 359}."
+  en: "Marwan ibn al-Hakam had made Amr ibn Sa'id ibn al-As heir after his son; Abd al-Malik killed him — in Ibn al-Kalbi's reckoning the first treachery (ghadr) in Islam — mourned in the verse 'they have slain Amr and not done right' {cite:tarikh-khulafa-minhaj-1434 p. 359}."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0690~", hijri: "0070", calendar: julian, precision: year, status: tradition, derived: true, note: "في عهد عبد الملك قبل 73؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 359}." }
+relations:
+  - { type: had_participant, target: person/amr-ibn-said-ibn-al-as, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "القاتل", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 359"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-9
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

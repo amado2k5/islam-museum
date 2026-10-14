@@ -1,0 +1,21 @@
+id: person/al-abhari-athir-al-din
+class: person
+label: { ar: "الأبهري أثير الدين المفضل بن عمر", en: "Al-Abhari, Athir al-Din al-Mufaddal ibn Umar" }
+names:
+  - { kind: full, lang: ar, value: "المفضل بن عمر بن المفضل السمرقندي الأبهري" }
+gender: male
+roles: [philosopher, astronomer, mathematician]
+traditions: [sunni]
+died: { edtf: "1265", hijri: "0663", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أشهر رجال العلم في الفكر الإسلامي في المنطق والفلك والرياضيات، ونسبته «الأبهري» تُنسب إلى بلدة أبهر، وقد اختُلف في موضع ولادته."
+  en: "One of the best-known scholars of Islamic thought in logic, astronomy and mathematics. The nisba al-Abhari refers to the town of Abhar; his birthplace is not firmly established."
+wings: [people, words]
+themes: [philosophy-and-logic, astronomy-and-timekeeping]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+story_roles:
+  - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 187-201, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص187-201", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

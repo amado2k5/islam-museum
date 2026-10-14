@@ -1,0 +1,21 @@
+id: event/hypocrites-ambush-at-the-pass
+class: event
+kind: other
+label: { en: "The hypocrites' ambush at the pass on the return from Tabuk", ar: "مكر المنافقين بالعقبة في رجوع تبوك" }
+summary:
+  en: "On the return from Tabuk, twelve hypocrites — faces veiled — attempted to frighten the Prophet's camel at a steep pass; Ammar was holding its halter and Hudhayfa driving it, and Hudhayfa struck the ambushers' mounts with his staff until God terrified them into flight; the Prophet told Hudhayfa their names and their plot, whence Hudhayfa was called 'keeper of the Prophet's secret'."
+  ar: "حاول اثنا عشر رجلاً من المنافقين الفتك بالنبي عند عقبة في طريق الرجوع من تبوك؛ كان عمار يقود ناقته بزمامها وحذيفة يسوقها، فسمعوا وكزة القوم من ورائهم وقد غشّوهم وهم ملتثمون، فضرب حذيفة وجوه رواحلهم بمحجن فأرعبهم الله فلحقوا بالقوم، وأخبره النبي بأسمائهم وبما همّوا به، ومن ذلك سُمي حذيفة صاحب سرّ رسول الله، وفي ذلك قوله تعالى: «وهَمُّوا بما لم ينالوا»."
+wings: [time, people]
+themes: [wars-and-campaigns]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631-01~", hijri: "0009-09", calendar: julian, precision: month, status: tradition, note: "في رمضان سنة 9هـ في طريق الرجوع من تبوك إلى المدينة.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: had_participant, target: person/muhammad, role: target-of-the-ambush, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hudhayfa-ibn-al-yaman, role: drove-off-the-ambushers-and-kept-the-secret, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ammar-ibn-yasir, role: led-the-prophets-camel, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: event/expedition-to-tabuk }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 436" }

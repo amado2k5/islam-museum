@@ -1,0 +1,22 @@
+id: event/hisham-conquests
+class: event
+kind: campaign
+label: { ar: "فتوحات عهد هشام" }
+summary:
+  ar: "في سنة سبع من أيام هشام فتحت قيصرية الروم بالسيف، وفي سنة ثمان فتحت خنجرة على يد البطال الشجاع المشهور، وفي سنة اثنتي عشرة فتحت خرشنة في ناحية ملطية {cite:tarikh-khulafa-minhaj-1434 p. 402}."
+  en: "In year seven of Hisham's reign Caesarea of the Romans was taken by the sword; in year eight Khanjara was conquered by the renowned champion al-Battal; in year twelve Kharshana in the district of Malatya was conquered {cite:tarikh-khulafa-minhaj-1434 p. 402}."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "0726~", hijri: "0107", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 7 من هشام ~112؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 402}." }
+relations:
+  - { type: had_participant, target: person/hisham-ibn-abd-al-malik, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abdallah-al-battal, role: "فاتح خنجرة سنة 8", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 402"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-12
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

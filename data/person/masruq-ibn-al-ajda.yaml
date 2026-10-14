@@ -1,0 +1,21 @@
+id: person/masruq-ibn-al-ajda
+class: person
+label: { ar: "مسروق بن الأجدع", en: "Masruq ibn al-Ajda'" }
+names:
+  - { kind: full, lang: ar, value: "مسروق بن الأجدع بن مالك بن أمية الهمداني" }
+gender: male
+roles: [scholar, muhaddith]
+traditions: [sunni]
+died: { edtf: "0683", hijri: "0063", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من كبار التابعين، روى الحديث وعُني بالقراءة، وتعددت في نسبه الكنى والأقوال."
+  en: "One of the senior Successors (tabi'un), who transmitted hadith and was known for the Qur'anic readings. Several kunyas are given for him in the sources."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 290-296, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص290-296", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

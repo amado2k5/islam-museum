@@ -1,0 +1,25 @@
+id: event/the-choice-of-the-prophets-wives
+class: event
+kind: revelation
+label: { en: "The Choice Offered to the Prophet's Wives", ar: "تخيير أمهات المؤمنين" }
+date:
+  start: { hijri: "0009~", calendar: julian, precision: year, status: tradition, note: "تاريخ تقريبي غير مؤكد؛ بعد استقرار البيت النبوي بالمدينة؛ لم يثبت تاريخ محدد، والسنة تقريبية (الرحيق المختوم ص 478)", sources: [source/mubarakpuri-raheeq] }
+summary:
+  ar: "لمّا طلبت أزواج النبي تحسين العيش مع شظف البيت النبوي، نزلت آية التخيير في سورة الأحزاب: إن كنتن تردن الحياة الدنيا وزينتها فتعالين أمتعكن، وإن كنتن تردن الله ورسوله والدار الآخرة فإن الله أعد للمحسنات منكن أجراً عظيماً؛ فاخترن الله ورسوله جميعاً."
+  en: "When the Prophet's wives asked for a better standard of living amid the austerity of his household, the verse of choice was revealed (al-Ahzab 28-29): if you desire the life of this world and its adornment, come, I will provide for you and release you graciously; but if you desire Allah and His Messenger and the abode of the Hereafter, Allah has prepared a great reward for the doers of good among you. All of them chose Allah and His Messenger."
+wings: [time, people]
+themes: [women, family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+- type: occurred_at
+  target: place/medina
+  sources: [source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الرحيق المختوم، البيت النبوي، ص 478
+  generated_by: Devin
+  model: SWE-2 High
+  run: raheeq-batch-24
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/tanzil-quran]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); mined from al-Raheeq al-Makhtum p. 478" }

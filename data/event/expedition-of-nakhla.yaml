@@ -1,0 +1,49 @@
+id: event/expedition-of-nakhla
+class: event
+kind: raid
+label: { en: "Expedition of Nakhla", ar: "سرية نخلة" }
+summary:
+  en: "A secretive expedition dispatched by the Prophet under Abdullah ibn Jahsh in Rajab 2 AH with 12 Muhajirun; intercepted a Quraysh caravan at Nakhla, resulting in the death of Amr ibn al-Hadrami and captives; resolved by Qur'an 2:217."
+  ar: "سرية بعثها النبي بكتاب مختوم تحت إمرة عبد الله بن جحش في 12 من المهاجرين في رجب 2هـ إلى نخلة؛ اعترضت قافلة لقريش فقُتل عمرو بن الحضرمي وأُسر اثنان، وكانت أول غنيمة وخمس في الإسلام ونزلت فيها الآية 217 من سورة البقرة."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-01~", hijri: "0002-07", calendar: julian, precision: month, status: tradition, note: "في رجب سنة 2هـ (يناير 624م) في آخر أيام الشهر الحرام (الرحيق ص200–201)" }
+casualties:
+  value: 1
+  status: tradition
+  note: "مقتل عمرو بن الحضرمي برمي واقد بن عبد الله، وأسر عثمان والحكم، وفرار نوفل (الرحيق ص200)"
+  sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+relations:
+  - { type: occurred_at, target: place/nakhla }
+  - { type: had_participant, target: person/abdullah-ibn-jahsh, role: "أمير السرية", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, note: "أضل بعيره مع عتبة بن غزوان فتخلف في طلبه (الرحيق ص200)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/utba-ibn-ghazwan, note: "أضل بعيره مع سعد فتخلف في طلبه (الرحيق ص200)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/waqid-ibn-abdillah, role: "رامي عمرو بن الحضرمي وقتيله", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/ibn-amir-al-hadrami, role: "قتيل السرية من قريش", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uthman-ibn-abdillah-ibn-al-mughira, role: "أسير من مشركي قريش", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-hakam-ibn-kaysan, role: "أسير من قريش (أسلم لاحقاً بالمدينة)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/nawfal-ibn-abdillah, note: "أفلت من المسلمين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim squad", ar: "سرية المسلمين" }
+    participants: [group/muhajirun]
+    commanders: [person/abdullah-ibn-jahsh]
+    strength:
+      value: 12
+      status: tradition
+      note: "اثنا عشر رجلاً من المهاجرين، كل اثنين يعتقبان على بعير"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Quraysh caravan", ar: "قافلة قريش" }
+    participants: [group/quraysh]
+    strength:
+      value: 4
+      status: tradition
+      note: "أربعة رجال يحرسون عيراً محملة بالزبيب والأدم والتجارة"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 200–201 citing Ibn Hisham 1/601–605 and Zad al-Maad 2/85" }

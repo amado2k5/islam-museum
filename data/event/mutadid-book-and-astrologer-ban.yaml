@@ -1,0 +1,21 @@
+id: event/mutadid-book-and-astrologer-ban
+class: event
+kind: law-enacted
+label: { ar: "منع المعتضد دكاكين الفلاسفة وقعود القصاص والمنجمين" }
+summary:
+  ar: "في أول سنة استخلف فيها منع الوراقين من بيع كتب الفلاسفة وما شاكلها ومنع القصاص والمنجمين من القعود في الطريق، وقال الصولي أمر ألا يقعد في الطريق منجم ولا قصاص واستحلف الوراقين لا يبيعوا كتب الفلاسفة والجدل {cite:tarikh-khulafa-minhaj-1434 p. 569,573}."
+  en: "In his first year al-Mu'tadid barred the booksellers from selling philosophers' books and the like, banned storytellers and astrologers from sitting in the street, and swore the warraqin off books of philosophy and dialectic {cite:tarikh-khulafa-minhaj-1434 p. 569,573}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0892~", hijri: "0279", calendar: julian, precision: year, status: tradition, derived: true, note: "279؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 573}." }
+relations:
+  - { type: had_participant, target: person/al-mutadid, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 569–576"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-32
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

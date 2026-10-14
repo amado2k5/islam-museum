@@ -4,7 +4,7 @@ kind: migration
 label: { en: The Hijra, ar: الهجرة النبوية }
 summary:
   en: The migration of the Prophet Muhammad and his followers from Mecca to Medina in 622 CE, the event from which the Islamic calendar is counted.
-  ar: هجرة النبي محمد وأصحابه من مكة إلى المدينة سنة 622م، وهي الحدث الذي يبدأ منه التقويم الهجري.
+  ar: هجرة النبي محمد وأصحابه من مكة إلى المدينة سنة 622م، وهي الحدث الذي يبدأ منه التقويم الهجري.، وضبط المسعودي تواريخها فكانت سنة اثنتين وثلاثين من ملك كسرى أبرويز وسنة تسع من ملك هرقل وسنة تسعمائة وثلاث وثلاثين من ملك الإسكندر المقدوني، ودخل المدينة يوم الاثنين لاثنتي عشرة ليلة مضت من ربيع الأول {cite:muruj-al-dhahab p. 577}
 wings: [time, place, people]
 themes: [refugees-migrants-diaspora, sacred-time]
 periods: [period/prophetic-era]
@@ -14,6 +14,8 @@ date:
   end: { edtf: "0622-09-24", hijri: "0001-03-12", calendar: julian, precision: day, status: tradition, note: "دخول المدينة يوم الجمعة؛ نزل قباء يوم الإثنين 8 ربيع الأول الموافق 23 سبتمبر 622م (الرحيق ص170، 172). The calendar epoch (1 Muharram 1 AH = 16 July 622) was fixed later under Umar." }
 relations:
   - { type: occurred_at, target: place/mecca, note: departure }
+  - { type: occurred_at, target: place/ghar-thawr, note: "المبيت في الغار ثلاث ليال" }
+  - { type: occurred_at, target: place/quba, note: "نزول قباء" }
   - { type: occurred_at, target: place/medina, note: arrival }
   - { type: had_participant, target: person/muhammad, role: protagonist }
   - { type: had_participant, target: person/abu-bakr, role: companion }
@@ -39,5 +41,5 @@ relations:
   - { type: mentioned_in, target: passage/quran-66-4, note: "نزوله أثناء التكبير عند استقبال بني عمرو بن عوف على رواية ابن القيم (الرحيق ص171؛ زاد المعاد 2/54)", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
   - { type: has_part, target: journey/hijra-route }
 external_ids: { wikidata: Q180226 }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab]
 status: { review: draft, completeness: 3, generated_by: "Claude Sonnet 5.5 (scaffold); QID to be verified; upgraded by Devin from al-Raheeq al-Makhtum pp. 161-174" }

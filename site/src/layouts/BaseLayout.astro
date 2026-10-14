@@ -1,10 +1,15 @@
 ---
 import "../styles/global.css";
-// Preload the Arabic faces used above the fold so the late font swap does not shift the first paint (CLS).
-import naskhWoff2 from "@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2?url";
-import amiriWoff2 from "@fontsource/amiri/files/amiri-arabic-400-normal.woff2?url";
 import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
+import { wingCountLabel, explorePages } from "../lib/nav";
+import Logo from "../components/Logo.astro";
+// Webfonts sit one hop behind the stylesheet, which delays first paint under throttled networks; the two faces above the fold
+// are preloaded so they fetch in parallel with the CSS instead.
+import naskh400 from "@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2?url";
+import amiri400 from "@fontsource/amiri/files/amiri-arabic-400-normal.woff2?url";
+import serif400 from "@fontsource/source-serif-4/files/source-serif-4-latin-400-normal.woff2?url";
+import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2?url";
 
 interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean }
 const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex } = Astro.props;
@@ -16,6 +21,9 @@ const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`
 const multilingual = LANGS.length > 1;
 const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
+const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
+const wingCount = (w: string) => wingCountLabel(lang, w);
+const EXPLORE = explorePages(lang);
 ---
 <!doctype html>
 <html lang={lang} dir={T.dir}>
@@ -33,14 +41,22 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="islam.museum" />
     <meta property="og:locale" content={lang === "ar" ? "ar_AR" : "en_US"} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content={`${SITE}/brand/og-image.jpg`} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={`${SITE}/brand/og-image.jpg`} />
     <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#0a2533" />
     {noindex && <meta name="robots" content="noindex" />}
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/favicon-64.png" sizes="64x64" type="image/png" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href={naskhWoff2} as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preload" href={amiriWoff2} as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {fonts.map((f) => <link rel="preload" href={f} as="font" type="font/woff2" crossorigin />)}
     <script is:inline>
-      try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+      document.documentElement.classList.add("js");
+      try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); if (localStorage.getItem("font") === "sans") document.documentElement.setAttribute("data-font", "sans"); } catch (e) {}
     </script>
     {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
   </head>
@@ -58,49 +74,102 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
       <rect width="100%" height="100%" fill="url(#girih)" />
     </svg>
     <a class="skip" href="#main">{T.a11y.skip}</a>
-    <header class="site wrap" style="padding-block:18px">
-      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 20px">
-        <a class="ui" href={`/${lang}/`} style="display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.02em;text-decoration:none;color:var(--fg)">
-          <svg viewBox="0 0 64 64" width="26" height="26" aria-hidden="true"><rect width="64" height="64" rx="12" fill="#1F4E8C" /><path d="M32 8l6.5 15.5L54 30l-15.5 6.5L32 52l-6.5-15.5L10 30l15.5-6.5z" fill="#F7F3EA" /></svg>
+    <header class="site topbar">
+      <div class="wrap nav-row">
+        <a class="ui brand" href={`/${lang}/`}>
+          <Logo size={34} />
           <span class="ltr" dir="ltr">islam.museum</span>
         </a>
-        <div style="display:flex;align-items:center;gap:10px" class="ui">
-          <a class="chip" href={`/${lang}/search/`}>{T.nav.search}</a>
-          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} style="border:0;cursor:pointer">◐</button>
-          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)">{T.switch_to}</a>}
+        <button class="menu-btn ui" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">☰ {T.a11y.menu_open}</button>
+        <nav aria-label={T.a11y.menu} class="ui nav-links" id="site-nav">
+          <details class="dd" data-dd>
+            <summary>{T.nav.wings_menu}</summary>
+            <ul class="dd-menu" role="list">
+              {WINGS.map((w) => <li><a href={wingHref(lang, w)}><span class="t">{T.wings[w].title}</span><span class="d">{wingCount(w)} — {T.wings[w].blurb}</span></a></li>)}
+            </ul>
+          </details>
+          <a class="top-link" href={`/${lang}/learn/`}>{T.nav.learn}</a>
+          <details class="dd" data-dd>
+            <summary>{T.nav.explore_menu}</summary>
+            <ul class="dd-menu" role="list">
+              {EXPLORE.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
+              <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
+            </ul>
+          </details>
+          <a class="top-link" href={`/${lang}/today/`}>{T.nav.today}</a>
+        </nav>
+        <div class="nav-tools ui">
+          <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
+          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)"><span class="ltr" dir="ltr">AR | EN</span></a>}
+          <button class="chip" id="font-toggle" type="button" aria-pressed="false" style="border:0;cursor:pointer">{T.explore.font}</button>
+          <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
         </div>
       </div>
-      <nav aria-label={T.a11y.menu} class="ui" style="margin-top:14px">
-        <ul style="display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:0;padding:0;font-size:.95rem">
-          {WINGS.map((w) => <li><a href={wingHref(lang, w)} style="color:var(--fg);text-decoration:none">{T.nav[w]}</a></li>)}
-          <li style="opacity:.5" aria-hidden="true">·</li>
-          <li><a href={`/${lang}/questions/`} style="color:var(--fg);text-decoration:none">{T.nav.questions}</a></li>
-          <li><a href={`/${lang}/exhibits/`} style="color:var(--fg);text-decoration:none">{T.nav.exhibits}</a></li>
-          <li><a href={`/${lang}/screen/`} style="color:var(--fg);text-decoration:none">{T.nav.screen}</a></li>
-          <li><a href={`/${lang}/themes/`} style="color:var(--fg);text-decoration:none">{T.nav.themes}</a></li>
-          <li><a href={`/${lang}/wander/`} style="color:var(--fg);text-decoration:none">{T.nav.wander}</a></li>
-        </ul>
-      </nav>
     </header>
     <main id="main" style="flex:1">
       <slot />
     </main>
-    <footer class="site" style="border-top:1px solid var(--line);margin-top:3rem">
-      <div class="wrap ui" style="padding-block:22px;display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between;font-size:.9rem;color:var(--muted)">
-        <span>islam.museum · {T.footer.open}</span>
-        <span>{T.footer.licenses}</span>
-        <span><a href="/api/v1/meta/index.json" style="color:inherit">{T.footer.api}</a> · <a href={`/${lang}/coverage/`} style="color:inherit">{T.nav.coverage}</a> · <a href="https://github.com/amado2k5/islam-museum" rel="noopener" style="color:inherit">{T.footer.github}</a></span>
-        <span style="flex-basis:100%">{T.footer.privacy}</span>
+    <footer class="site foot">
+      <div class="wrap ui">
+        <div class="fcols">
+          <div><h2>{T.footer.about}</h2><a href={`/${lang}/foundation/`}>{T.nav.foundation}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/05-editorial.md" rel="noopener">{T.footer.editorial}</a><a href={`/${lang}/questions/`}>{T.footer.faq}</a><a href={`/${lang}/learn/`}>{T.nav.learn}</a></div>
+          <div><h2>{T.footer.resources}</h2><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
+          <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.changelog}</a><a href="https://github.com/amado2k5/islam-museum/issues/new/choose" rel="noopener">{T.footer.report}</a><a href="https://github.com/amado2k5/islam-museum/discussions" rel="noopener">{T.footer.discuss}</a><span>{T.footer.privacy}</span></div>
+        </div>
+        <p class="fine">islam.museum · {T.footer.open} · {T.footer.licenses} · {T.footer.privacy}</p>
       </div>
     </footer>
     <script is:inline>
-      document.getElementById("theme")?.addEventListener("click", function () {
-        var el = document.documentElement;
-        var dark = el.getAttribute("data-theme") ? el.getAttribute("data-theme") === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
-        var next = dark ? "light" : "dark";
-        el.setAttribute("data-theme", next);
-        try { localStorage.setItem("theme", next); } catch (e) {}
-      });
+      (function () {
+        // Phone menu: a button opens the full list; Escape closes it and returns focus to the button.
+        var mb = document.getElementById("menu-btn"), nav = document.getElementById("site-nav");
+        if (mb && nav) {
+          var setOpen = function (open, back) {
+            nav.classList.toggle("open", open);
+            mb.setAttribute("aria-expanded", String(open));
+            if (open) { var first = nav.querySelector("a"); if (first) first.focus(); } else if (back) mb.focus();
+          };
+          mb.addEventListener("click", function () { setOpen(!nav.classList.contains("open"), false); });
+          document.addEventListener("keydown", function (e) {
+            if (e.key !== "Escape") return;
+            if (nav.classList.contains("open")) setOpen(false, true);
+            nav.querySelectorAll("details[open]").forEach(function (d) { d.removeAttribute("open"); var s = d.querySelector("summary"); if (s && d.contains(document.activeElement)) s.focus(); });
+          });
+          // one dropdown open at a time; a click elsewhere closes it
+          nav.querySelectorAll("details[data-dd]").forEach(function (d) {
+            d.addEventListener("toggle", function () { if (d.open) nav.querySelectorAll("details[data-dd]").forEach(function (o) { if (o !== d) o.removeAttribute("open"); }); });
+          });
+          document.addEventListener("click", function (e) { if (!nav.contains(e.target)) nav.querySelectorAll("details[data-dd][open]").forEach(function (d) { d.removeAttribute("open"); }); });
+        }
+      })();
+      (function () {
+        // Arabic body font: Amiri / Noto Naskh (default) or Cairo (sans). Remembered per viewer; nothing breaks without storage.
+        var fb = document.getElementById("font-toggle"), root = document.documentElement;
+        if (fb) {
+          var sync = function () { fb.setAttribute("aria-pressed", String(root.getAttribute("data-font") === "sans")); };
+          sync();
+          fb.addEventListener("click", function () {
+            var next = root.getAttribute("data-font") === "sans" ? null : "sans";
+            if (next) root.setAttribute("data-font", next); else root.removeAttribute("data-font");
+            try { if (next) localStorage.setItem("font", next); else localStorage.removeItem("font"); } catch (e) {}
+            sync();
+          });
+        }
+      })();
+      (function () {
+        var el = document.documentElement, b = document.getElementById("theme");
+        if (!b) return;
+        // The accessible name names the action: "switch to light" while the dark theme is showing.
+        var isDark = function () { return el.getAttribute("data-theme") ? el.getAttribute("data-theme") === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+        var sync = function () { b.setAttribute("aria-label", isDark() ? b.dataset.toLight : b.dataset.toDark); };
+        sync();
+        b.addEventListener("click", function () {
+          var next = isDark() ? "light" : "dark";
+          el.setAttribute("data-theme", next);
+          try { localStorage.setItem("theme", next); } catch (e) {}
+          sync();
+        });
+      })();
     </script>
   </body>
 </html>

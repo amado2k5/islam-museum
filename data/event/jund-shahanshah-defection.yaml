@@ -1,0 +1,24 @@
+id: event/jund-shahanshah-defection
+class: event
+kind: other
+label: { ar: "إسلام جند شاهنشاه وهم حمراء ديلم", en: "The Jund Shahanshah's Conversion — the Hamra' Daylam" }
+summary:
+  ar: "عند البلاذري عن مسمر بن كدام: كان مع رستم يوم القادسية أربعة آلاف يسمون جند شاهنشاه فاستأمنوا على أن ينزلوا حيث أحبوا ويحالفوا من أحبوا ويفرض لهم في العطاء فأعطوا الذي سألوه وحالفوا زهرة بن حوية السعدي من بني تميم وأنزلهم سعد بحيث اختاروا وفرض لهم في الألف ألف وكان لهم نقيب منهم يقال له ديل فقيل حمراء ديلم ثم إن زياداً سيّر بعضهم إلى بلاد الشام بأمر معاوية فهم يدعون الفرس وسيّر منهم قوماً إلى البصرة فدخلوا في الأساورة الذين بها والعرب تسمّي العجم حمراء ويقولون جُنت من حمراء ديلم كقولهم جُنت من جهينة وسمع أبو مسعود من يذكر أن هؤلاء الأساورة كانوا مقيمين بإزاء الديلم فلما غشيهم المسلمون بقزوين أسلموا على مثل ما أسلم عليه أساورة البصرة وأتوا الكوفة فأقاموا بها وقال المدائني كان أبرويز وجّه إلى الديلم فأتى بأربعة آلاف وكانوا خدمه وخاصته ثم كانوا على تلك المنزلة بعده وشهدوا القادسية مع دوستم فلما قتل وانهزم المجوس اعتزلوا وقالوا ما نحن كهؤلاء ولا لنا ملجأ وأثرنا عندهم غير جميل والرأي لنا أن ندخل معهم في دينهم فنعزّ بهم فقال سعد ما لهؤلاء فأتاهم المغيرة بن شعبة فسألهم عن أمرهم فأخبروه بخبرهم وقالوا ندخل في دينكم فرجع إلى سعد فأخبره فأمنهم فأسلموا وشهدوا فتح المدائن مع سعد."
+  en: "In al-Baladhuri via Musammar ibn Kiddam: with Rustam at al-Qadisiyya were four thousand called the Shahanshah's troops; they were granted safe-conduct to settle where they wished, ally with whom they wished, and be allotted stipends — they allied with Zuhra ibn Hawiyya al-Sa'di of Banu Tamim, Sa'd settled them where they chose and fixed a thousand-thousand for them, their naqib being called Dayl — whence 'Hamra' Daylam'. Ziyad later moved some to Syria at Mu'awiya's order — called al-Furs — and some to Basra joining its asawira; the Arabs call the 'ajam hamra', saying 'clan of Hamra' Daylam' as 'clan of Juhayna'. Abu Mas'ud heard these asawira had lived opposite Daylam and converted when the Muslims came to Qazwin, on the same terms as Basra's asawira, then came and settled at Kufa. Al-Mada'ini: Khusraw had sent to Daylam and brought four thousand — his servants and elite, remaining so after him — who witnessed al-Qadisiyya with Dustam; when he fell and the Magians routed they withdrew, saying 'we are not like these, we have no refuge, our standing with them is ugly — our view is to enter their religion and be mighty through them'; Sa'd asked what ailed them, al-Mughira went to them, they told him 'we will enter your religion' — he informed Sa'd, who safe-conducted them; they converted and witnessed al-Mada'in's conquest with Sa'd."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { hijri: "0016~", precision: year, status: tradition, note: "بعد القادسية (البلاذري ص 393–394)" }
+relations:
+  - { type: occurred_at, target: place/kufa }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "المؤمن المنزل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/zuhra-ibn-hawiyya, role: "الحليف", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "المفاوض", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 393–394"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-34
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

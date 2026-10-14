@@ -1,0 +1,31 @@
+id: person/rabi-a-ibn-bujayr
+class: person
+label:
+  ar: ربيعة بن بجير التغلبي
+  en: Rabi'a ibn Bujayr al-Taghlibi
+names:
+  - { kind: full, lang: ar, value: ربيعة بن بجير التغلبي }
+gender: male
+roles: [warrior]
+traditions: []
+summary:
+  ar: "تغلبي؛ كان على جمع لبني تغلب بالمضيح والمصيد مرتدين حين أتاهم خالد بن الوليد في طريقه من العراق إلى الشام فقاتلوه فهزمهم وسبى وغنم وبعث بالسبي إلى أبي بكر وكانت منهم أم حبيب الصهباء."
+  en: "A Taghlibi; he led a gathering of Banu Taghlib in apostasy at al-Mudayyih and al-Musayyid when Khalid ibn al-Walid came upon them on his way from Iraq to Syria — they fought him and he defeated them, taking captives and spoil which he sent to Abu Bakr, among them Umm Habib al-Sahba'."
+periods:
+- period/rashidun
+regions:
+- arabia
+relations:
+  - { type: participated_in, target: event/khalid-march-to-syria, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/ridda-wars, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 152"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

@@ -1,0 +1,18 @@
+id: event/al-rur-sulh
+class: event
+kind: treaty
+label: { ar: "صلح الرور", en: "The Sulh of al-Rur" }
+summary:
+  ar: "انتهى محمد إلى الرور وهي من مدائن السند وهي على جبل فحصرهم أشهراً ففتحها صلحاً على أن لا يقتلهم ولا يعرض لبدهم وقال ما البد إلا ككنائس النصارى واليهود وبيوت نيران المجوس ووضع عليهم الخراج بالرور وبنى مسجداً وسار محمد إلى السكة وهي مدينة دون بياس ففتحها والسكة اليوم خراب."
+  en: "Months besieged on its hill, al-Rur yielded by sulh — no killing, no laying hands on their budd, 'for the budd is as the churches of Christians and Jews and the fire-houses of Magians' — kharaj laid and a mosque built; then al-Sikka before Bayas fell, a ruin today."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/al-rur }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

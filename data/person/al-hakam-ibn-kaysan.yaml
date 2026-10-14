@@ -1,0 +1,62 @@
+id: person/al-hakam-ibn-kaysan
+class: person
+label:
+  ar: الحكم بن كيسان
+  en: Al-Hakam ibn Kaysan
+names:
+- kind: full
+  lang: ar
+  value: الحكم بن كيسان مولى هشام بن المغيرة المخزومي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: مولى لبني مخزوم أُسر في سرية عبد الله بن جحش (نخلة)، فأسلم عند النبي وقُتل شهيداً ببئر معونة؛ وكان حجّاماً في ما رواه الهيثم بن عدي.
+  en: A client (mawla) of the Banu Makhzum, taken captive on the expedition of Abd Allah ibn Jahsh (Nakhla); he accepted Islam in the Prophet's presence and was killed at Bi'r Ma'una. Al-Haytham ibn Adi reports that he was a cupper by trade.
+wings:
+- people
+themes:
+- converts-and-leavers
+- skirmishes-raids-expeditions
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 1962 (ص 335).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: participated_in
+  target: event/expedition-of-nakhla
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/incident-of-bir-mauna
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-makhzum
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 1962، ص 335
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-9
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 335, entry 1962)

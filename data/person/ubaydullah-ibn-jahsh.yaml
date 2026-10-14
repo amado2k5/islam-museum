@@ -1,0 +1,27 @@
+id: person/ubaydullah-ibn-jahsh
+class: person
+label: { en: Ubaydullah ibn Jahsh, ar: "عبيد الله بن جحش" }
+names:
+  - { kind: full, lang: ar, value: "عبيد الله بن جحش بن رئاب الأسدي" }
+gender: male
+summary:
+  ar: "من بني أسد بن خزيمة، حليف بني أمية، هاجر إلى الحبشة مع امرأته أم حبيبة؛ يذكر ابن إسحاق أنه تنصّر بها وفارق الإسلام ومات نصرانياً، فتزوج النبي أم حبيبة بعده."
+  en: Of Banu Asad ibn Khuzayma, ally of Banu Umayya; he emigrated to Abyssinia with his wife Umm Habiba. Ibn Ishaq records that he became Christian there, left Islam and died a Christian, and the Prophet married Umm Habiba after him.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: left-islam, status: tradition, note: "قال ابن إسحاق: تنصّر بأرض الحبشة وفارق الإسلام ومات نصرانياً (ص6)؛ وفي رواية عروة أنه خرج مسلماً", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: christian, basis: tradition, sources: [source/ibn-hisham-saqqa], note: "بحسب ابن إسحاق تنصّر بالحبشة (ص6)؛ سُجّل نقلاً عنه دون استنتاج" }
+relations:
+  - { type: spouse_of, target: person/umm-habiba-bint-abi-sufyan, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-asad-ibn-khuzayma, sources: [source/ibn-hisham-saqqa] }
+  - { type: allied_with, target: group/banu-umayya, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/ubaydullah-ibn-jahsh-leaves-islam-in-abyssinia, role: subject, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 6", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

@@ -1,0 +1,20 @@
+id: person/abu-al-walid-ibn-jahwar
+class: person
+label: { ar: "أبو الوليد بن جهور" }
+gender: male
+summary:
+  ar: "ابن الوزير جهور بن محمد؛ انتقل إليه أمر قرطبة بعد وفاة أبيه سنة خمس وثلاثين وأربعمائة {cite:nafh-tib-maqqari p. 339}."
+  en: "Son and successor of the Jahwarid vizier at Cordoba from 435 {cite:nafh-tib-maqqari p. 339}."
+roles: [ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+relations:
+  - { type: child_of, target: person/jahwar-ibn-muhammad-abu-al-hazm, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-25
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

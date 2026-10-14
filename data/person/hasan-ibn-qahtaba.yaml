@@ -1,0 +1,19 @@
+id: person/hasan-ibn-qahtaba
+class: person
+label: { ar: "الحسن بن قحطبة", en: "al-Hasan ibn Qahtaba" }
+summary:
+  ar: "الحسن بن قحطبة من أمراء جنود أهل خراسان؛ عند البلاذري: أغزاه المنصور من حديثة الموصل سنة 149 ثم سار مع العباس بن محمد إلى ملطية فحصار كمخ، وكان في جيش عبد الوهاب بن إبراهيم ببناء ملطية سنة 140 ربما حمل الحجر حتى يناوله البناء وأغدى الناس من ماله بمطابخه حتى كتب فيه عبد الوهاب إلى أبي جعفر فردّ عليه «يا صبيّ يطعم الحسن من ماله وتطعم من مالي» وأذن له في الإطعام دون المنادي، وأغزاه المهدي سنة 162 ساح في بلاد الروم فارتاد موضع مدينة الحدث فكلّم المهدي في بنائها وبناء طرسوس."
+  en: "al-Hasan ibn Qahtaba, a commander of the Khurasani armies; in al-Baladhuri: al-Mansur sent him raiding from Hadithat al-Mawsil in year 149, and he went with al-Abbas ibn Muhammad to Malatya and the siege of Kamkh; in Abd al-Wahhab ibn Ibrahim's army at Malatya's building in year 140 he would carry stone to hand the builder and fed the people from his own purse with field-kitchens — Abd al-Wahhab denounced him to Abu Ja'far, who answered 'O boy! al-Hasan feeds from his own money, and you feed from mine' and let him feed without a caller — and al-Mahdi sent him raiding in year 162, when he ranged Byzantine lands, chose the site of Madinat al-Hadath and spoke to al-Mahdi of building it and Tarsus."
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/conquest-of-kamkh, role: "في مقدمة غزاة سنة 149", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/rebuilding-of-malatya, role: "المطعِم وحامل الحجر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/founding-of-al-hadath, role: "رادّ الموضع", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 260، 263–264، 267–268"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

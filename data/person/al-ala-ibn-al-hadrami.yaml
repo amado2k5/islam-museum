@@ -1,0 +1,24 @@
+id: person/al-ala-ibn-al-hadrami
+class: person
+label: { en: "al-Ala ibn al-Hadrami", ar: "العلاء بن الحضرمي" }
+names:
+  - { kind: full, lang: ar, value: "العلاء بن عبد الله بن عماد الحضرمي" }
+gender: male
+roles: [companion, commander, diplomat]
+traditions: [sunni]
+summary:
+  en: "An early Muslim Companion and skilled diplomat from Hadramawt; appointed by the Prophet as his envoy to al-Mundhir ibn Sawa, ruler of Bahrain, who accepted Islam alongside his people; served as governor of Bahrain under the Prophet, Abu Bakr, and Umar."
+  ar: "صحابي جليل وفقيه من قادة المسلمين، من حضرموت؛ بعثه النبي بكتابه إلى المنذر بن ساوى عظيم البحرين فأسلم المنذر وقومه، وولاه النبي إمرة البحرين وجمع صدقاتها، واستمر والياً عليها في خلافتي أبي بكر وعمر."
+wings: [people]
+themes: [converts-and-leavers, peace-making-and-coexistence]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: companion, start: { edtf: "0620~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: official, toward: person/muhammad, start: { edtf: "0628" }, status: historical, note: "سفير النبي إلى ملك البحرين ثم والياً عليها (الرحيق ص358–359).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0620~" }, note: "صحابي وقائد ووالي البحرين." }
+relations:
+  - { type: participated_in, target: event/letters-to-rulers-and-kings, role: "سفير النبي إلى البحرين", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 358–359" }

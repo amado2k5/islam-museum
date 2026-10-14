@@ -1,0 +1,38 @@
+id: event/betrayal-of-abdullah-ibn-ubayy
+class: event
+kind: defection
+label:
+  ar: انسحاب عبد الله بن أبي بن سلول بثلث الجيش
+  en: The Withdrawal of Abdullah ibn Ubayy with a Third of the Army
+summary:
+  ar: انسحاب عبد الله بن أبي بن سلول بنحو ثلث الجيش (ثلاثمائة مقاتل) في طريق المسلمين إلى أحد؛ ويرى صاحب الرحيق المختوم أنه أراد به إحداث بلبلة في صفوفهم.
+  en: The withdrawal of Abdullah ibn Ubayy with about a third of the army (some 300 men) on the march to Uhud; al-Raheeq al-Makhtum's author reads it as an attempt to sow confusion in the Muslim ranks.
+wings:
+- time
+- people
+- place
+periods:
+- period/prophetic-era
+regions:
+- arabia
+date:
+  start:
+    edtf: 0625-03
+    hijri: 0003-10
+    calendar: julian
+    precision: month
+    status: tradition
+    note: شوال سنة 3هـ كما في الرحيق المختوم؛ التحويل إلى الميلادي مشتق.
+relations:
+- type: part_of
+  target: event/battle-of-uhud
+provenance:
+  layer: own-research
+  source: الرحيق المختوم (source/mubarakpuri-raheeq) p.253
+  generated_by: gemma-4
+  model: gemma-4
+  run: raheeq-batch-11a
+sources:
+- source/mubarakpuri-raheeq
+status:
+  review: draft

@@ -1,0 +1,28 @@
+id: event/expedition-of-dhu-qarad
+class: event
+kind: skirmish
+label: { en: "The Expedition of Dhu Qarad (Ghazwat al-Ghaba)", ar: "غزوة ذي قرد (غزوة الغابة)" }
+summary:
+  en: "Shortly before Khaybar in 7 AH, Uyayna ibn Hisn raided the Prophet's milch camels at al-Ghaba; Salama ibn al-Akwa' pursued them alone on foot with stones and arrows, holding off the raiders until the cavalry arrived, recovering the camels."
+  ar: "قبيل خيبر في المحرم 7هـ، أغار عيينة بن حصن في فوارس من غطفان على لقاح النبي بالغابة؛ فطاردهم سلمة بن الأكوع وحده ماشياً على قدميه يرميهم بالنبل والحجارة حتى استنقذ اللقاح كلها، وقال النبي: «خير فرساننا أبو قتادة وخير رجالتنا سلمة»."
+wings: [time, people]
+themes: [battles, skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628-05~", hijri: "0007-01", calendar: julian, precision: month, status: tradition, note: "المحرم سنة 7هـ قبل خيبر بثلاث ليالٍ على الصحيح في صحيح مسلم (الرحيق ص362–364)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: "ندب الخيل وألحق الفرسان", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+  - { type: had_participant, target: person/salama-ibn-al-akwa, role: "بطل المعركة الذي طاردهم رجلاً بمفرده واستنقذ اللقاح", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+  - { type: had_participant, target: person/uyayna-ibn-hisn, role: "قائد المغيرين من فزارة وغطفان", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslims of Medina", ar: "المسلمون" }
+    participants: [person/salama-ibn-al-akwa]
+    commanders: [person/muhammad]
+  - label: { en: "Raiders of Ghatafan", ar: "مغيرو غطفان وفزارة" }
+    participants: [person/uyayna-ibn-hisn]
+    commanders: [person/uyayna-ibn-hisn]
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 362–364" }

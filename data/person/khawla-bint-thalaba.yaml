@@ -1,0 +1,27 @@
+id: person/khawla-bint-thalaba
+class: person
+label: { en: "Khawla bint Tha'laba", ar: "خولة بنت ثعلبة" }
+names:
+  - { kind: full, lang: ar, value: "خولة بنت ثعلبة بن أصرم بن فهر بن ثعلبة بن غنم بن أوف بن غنم بن مالك بن النجار" }
+  - { kind: alternate, lang: ar, value: "صاحبة المجادلة" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "صحابية أنصارية نجدية اشتكت للنبي ظهار زوجها أوس بن الصامت منها وأبانت حالها وحال أولادها، فنزلت في شأنها مطالع سورة المجادلة حتى ورد التشريع بكفارة الظهار؛ ومن حديثها قصة كفارة أم المنذر بنت قيس، وسلّم عليها عمر بن الخطاب يوماً وعَرّف الناس بها قائلاً إنها التي سمع الله شكواها من فوق سبع سماوات."
+  en: "An Ansari Companion who complained to the Prophet of her husband Aws ibn al-Samit's zihar and laid out her case and her children's, so the opening verses of Surat al-Mujadila were revealed concerning her, carrying the expiation ruling; Umar ibn al-Khattab once greeted her and told the people she was the woman whose plea God heard from above seven heavens."
+wings: [people]
+themes: [women, scripture-and-its-sciences]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/nisa-hawl-alrasul] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابية مسلمة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: lived_in, target: place/medina }
+  - { type: member_of, target: group/ansar, note: "من بني مالك بن النجار من الخزرج (نساء حول الرسول ص304)." }
+  - { type: spouse_of, target: person/aws-ibn-al-samit, note: "زوجها أوس بن الصامت؛ ظاهر منها فشكت أمرها للنبي فنزلت فيها آيات الظهار من سورة المجادلة (نساء حول الرسول ص305-308).", sources: [source/nisa-hawl-alrasul] }
+sources: [source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 1, generated_by: "Devin; Nisa' Hawl al-Rasul pp. 304-312, lib-nisa-hawl-rasul" }
+provenance: { layer: own-research, source: "نساء حول الرسول (المكتبة العصرية 2015) ص304-312؛ ينقل عن الإصابة 8/68-69 وأسد الغابة 5/269 والاستيعاب 4/390", generated_by: "Devin", model: "SWE-2 High", run: "lib-nisa-hawl-rasul" }

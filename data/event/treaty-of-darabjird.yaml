@@ -1,0 +1,19 @@
+id: event/treaty-of-darabjird
+class: event
+kind: treaty
+label: { ar: "صلح دارابجرد", en: "Treaty of Darabjird" }
+summary:
+  ar: "أتى عثمان بن أبي العاص دارابجرد وكانت شادروان علمهم ودينهم وعليها الهربذ فصالحه الهربذ على مال أعطاه إياه وعلى أن أهل دارابجرد كلهم أسوة من فتحت بلاده من أهل فارس واجتمع له جمع بناحية جهرم ففضهم وفتح أرض جهرم وأتى فسا فصالحه عظيمها على مثل صلح دارابجرد ويقال إن الهربذ صالح عليها أيضاً."
+  en: "Uthman came to Darabjird — their banner-town and seat of religion, its master the Hirbadh — who truced on money paid and on its folk standing equal with the surrendered towns of Fars; a gathering near Jahram he scattered and took its land, then Fasa's great-man truced on Darabjird's terms — or, it is said, the Hirbadh truced it too."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/uthman-ibn-abi-al-as, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hirbadh, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/darabjird }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

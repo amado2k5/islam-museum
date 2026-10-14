@@ -1,0 +1,27 @@
+id: person/al-zibriqan-ibn-badr
+class: person
+label: { en: "al-Zibriqan ibn Badr", ar: "الزبرقان بن بدر" }
+names:
+  - { kind: full, lang: ar, value: "الزبرقان بن بدر التميمي" }
+gender: male
+roles: [poet, companion]
+summary:
+  en: "A Tamimi notable and poet who came among his people's ten chiefs to Medina after Uyayna's raid, declaimed boastfully against Hassan ibn Thabit and was answered; he accepted Islam and was later appointed sadaqa collector over part of Banu Sa'd."
+  ar: "سيد وشاعر من بني تميم؛ جاء في العشرة من رؤساء قومه إلى المدينة إثر سرية عيينة، فأنشد مفاخراً فأجابه حسان بن ثابت على البديهة، فأسلم وولّاه النبي الصدقة على قسم من بني سعد."
+wings: [people]
+themes: [converts-and-leavers, skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, note: "شاعر وفد بني تميم العشرة؛ فاخر فأجابه حسان (الرحيق ص426).", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "أسلم مع وفد بني تميم بعد مبارزة الخطابة والشعر.", sources: [source/mubarakpuri-raheeq] }
+  - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد (الرحيق ص425).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/banu-tamim }
+  - { type: participated_in, target: event/sariyya-of-uyayna-to-banu-tamim, role: poet-of-the-tamim-delegation, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 425-426" }

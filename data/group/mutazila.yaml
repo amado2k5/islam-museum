@@ -1,0 +1,59 @@
+id: group/mutazila
+class: group
+kind: sect
+label:
+  ar: "المعتزلة، وعند أبي بكر بن الإخشيد كما في الفهرست أن اسم الاعتزال حدث بعد الحسن البصري إذ اعتزل عمرو بن عبيد مجلس قتادة فسماها قتادة المعتزلة فأظهر عمرو تقبله وقال إن الاعتزال وصف مدحه الله في كتابه {cite:fihrist-ibn-al-nadim p. 557}"
+summary:
+  ar: "فرقة كلامية تقول بقول القدرية، وتنكر عذاب القبر والشفاعة والحوض، وترى أن أعمال العباد ليست في اللوح المحفوظ؛ ويصف الكتاب مقالاتهم كما نقلها، ولم تُضف بعد أقوالهم بألفاظهم.، وعند المسعودي اجتمعت المعتزلة من البصريين والبغداديين على خمسة أصول: التوحيد بأن الله لا كالأشياء ليس بجسم ولا عرض ولا عنصر ولا جزء ولا جوهر وأنه لا تدركه الحواس في الدنيا ولا في الآخرة، والعدل بأن الله لا يحب الفساد ولا يخلق أفعال العباد بل يفعلون بالقدرة التي جعلها لهم، والوعيد بأنه لا يغفر لمرتكب الكبائر إلا بالتوبة، والمنزلة بين المنزلتين بأن الفاسق ليس بمؤمن ولا كافر بل يسمى فاسقاً وبهذا الباب سميت المعتزلة، والأمر بالمعروف والنهي عن المنكر بالسيف فما دونه ولا فرق عندهم بين مجاهدة الكافر والفاسق، فمن اعتقد هذه الأصول الخمسة كان معتزلياً، وذهبت المعتزلة إلى أن الإمامة اختيار من الأمة لم ينص الله على رجل بعينه وتجوز في قريش وغيرهم من أهل العدالة، واستدلوا بقول عمر لو أن سالماً حياً ما دخلتني فيه الظنون لما فوض الأمر إلى أهل الشورى وسالم مولى أبي حذيفة {cite:muruj-al-dhahab p. 208-210}، وعند المسعودي اجتمعت المعتزلة على خمسة أصول من اعتقدها كان معتزلياً فإن اعتقد الأكثر أو الأقل لم يستحق الاسم: التوحيد، والعدل، والوعد والوعيد، والمنزلة بين المنزلتين، والأمر بالمعروف والنهي عن المنكر؛ وبهذا الباب الأخير سمي الاعتزال {cite:muruj-al-dhahab p. 209}"
+wings:
+- ideas
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- sects-and-schools
+- creed
+perspectives:
+- tradition: sunni-hanbali
+  id: book-account
+  stance:
+    ar: وصف مقالتهم كما ينقله الكتاب
+  summary:
+    ar: ينقل الكتاب أن المعتزلة يقولون قول القدرية، ويكذبون بعذاب القبر والشفاعة والحوض، ولا يرون الصلاة خلف من خالفهم من أهل القبلة.
+  evidence:
+  - ref: source/madkhal-ibn-badran-turki
+    note:
+      ar: ص 96
+  sources:
+  - source/madkhal-ibn-badran-turki
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: تُعدّ فرقة من فرق الضلال في لمعة الاعتقاد، ويُنقل وصفها كما في الكتاب
+    en: Listed among the sects of misguidance in Lum'at al-i'tiqad; described as the book describes them
+  summary:
+    ar: يذكر ابن قدامة المعتزلة في فرق الضلال والبدع. ويذكر المحقق في هامشه أن واصل بن عطاء اعتزل حلقة الحسن البصري في حكم أهل الكبائر (ص 113–115 ط2).
+    en: Ibn Qudama lists this sect among the sects of misguidance; the editor's footnote gives its origin (2nd ed., pp. 113–115).
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad-ibn-uraiyir-2022
+    note:
+      ar: ص 113–115 (ط2)، هامش المحقق عن النشأة
+      en: pp. 113–115 (2nd ed.), editor's footnote on origins
+  sources:
+  - source/lumat-al-itiqad-ibn-uraiyir-2022
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-2-creed
+sources:
+- source/madkhal-ibn-badran-turki
+- source/lumat-al-itiqad-ibn-uraiyir-2022
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from p. 96 of the book; the group's own words and the academic account are still to be added

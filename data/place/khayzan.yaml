@@ -1,0 +1,19 @@
+id: place/khayzan
+class: place
+kind: town
+label: { ar: "خيزان", en: "Khayzan" }
+summary:
+  ar: "خيزان بلدة بعمل أرمينية؛ صالح الجرّاح بن عبد الله الحكمي أهل حمزين على نقلهم إليها وجعل لهم قريتين منها، وصالحها مسلمة بن عبد الملك وأمر بحصنها فهُدم واتخذ لنفسه بها ضياعاً هي اليوم المعروفة بحوز خيزان."
+  en: "Khayzan, a town of Armenia's district; al-Jarrah ibn Abdallah al-Hakami compounded with Hamzin's people to transfer them to it, giving them two of its villages, and Maslama ibn Abd al-Malik made peace with it, ordered its fortress demolished, and took estates there known today as Hawz Khayzan."
+wings: [place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: site_of, target: event/maslama-khazar-campaign, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290–291"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

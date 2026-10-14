@@ -1,0 +1,23 @@
+id: event/building-of-al-hashimiyya
+class: event
+kind: founding
+label: { ar: "بناء المدينة الهاشمية بالكوفة", en: "The Building of the Hashimite City at Kufa" }
+summary:
+  ar: "عند البلاذري: كان يزيد بن عمر بن هبيرة بنى مدينة بالكوفة على الفرات ونزلها ومنها شيء يسير لم يستتم فأتاه كتاب مروان يأمره باجتناب مجاورة أهل الكوفة فتركها وبنى القصر الذي يعرف بقصر ابن هبيرة بالقرب من جسر سورا فلما ظهر أمير المؤمنين أبو العباس نزل تلك المدينة واستتم مقاصيرها وأحدث فيها بناء وسماها الهاشمية فكان الناس ينسبونها إلى ابن هبيرة على العادة فقال ما أرى ذكر ابن هبيرة يسقط عنها فرذها وبنى بحيالها المدينة الهاشمية ونزلها ثم اختار نزول الأنبار فبنى بها مدينته المعروفة فلما توفي دفن بها واستخلف أبو جعفر المنصور فنزل المدينة الهاشمية بالكوفة واستتم شيئاً كان بقي منها وزاد فيها بناء وهيأها على ما أراد ثم تحول منها إلى بغداد فبنى مدينته ومصر بغداد وسماها مدينة السلام وأصلح سورها القديم الذي يبتدئ من دجلة وينتهي إلى الصراة وبالهاشمية حبس المنصور عبد الله بن حسن بن حسن بن علي بن أبي طالب بسبب ابنيه محمد وإبراهيم وبها قبره وبنى المنصور بالكوفة الرصافة وأمر أبا الخصيب مرزوقاً مولاه فبنى له القصر المعروف بأبي الخصيب على أساس قديم ويقال إن أبا الخصيب بناه لنفسه فكان المنصور يزوره فيه."
+  en: "In al-Baladhuri: Yazid ibn Umar ibn Hubayra built a city at Kufa on the Euphrates and dwelt in it — save a little unfinished — when Marwan's letter came ordering him to shun the Kufans' neighborhood, so he left it and built the palace called Qasr Ibn Hubayra near Sura's bridge. When the Commander of the Faithful Abu al-Abbas rose he occupied that city, finished its pavilions, built in it and named it al-Hashimiyya; the people kept calling it Ibn Hubayra's out of habit, and he said 'I see Ibn Hubayra's name will not drop from it,' abandoned it, built the Hashimite City beside it and dwelt there, then chose al-Anbar where he built his famous city and was buried. Abu Ja'far al-Mansur, succeeding, dwelt in Kufa's Hashimiyya, finished what remained, added building and prepared it as he wished, then moved to Baghdad — founded it as Madinat al-Salam and repaired its old wall from the Tigris to al-Sarat. At al-Hashimiyya al-Mansur imprisoned Abdallah ibn al-Hasan ibn al-Hasan ibn Ali ibn Abi Talib over his sons Muhammad and Ibrahim — his grave is there — and built al-Rusafa at Kufa, ordering his mawla Abu al-Khasib Marzuq to build the palace called Abu al-Khasib's on an old foundation — it is also said Abu al-Khasib built it for himself and al-Mansur would visit him there."
+wings: [time, place]
+periods: [period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: occurred_at, target: place/kufa }
+  - { type: had_participant, target: person/yazid-ibn-umar-ibn-hubayra, role: "الباني الأول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-al-abbas-al-saffah, role: "المسمي الهاشمية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mansur, role: "المتمم الموسع", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-al-hasan, role: "المحبوس المدفون", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 403"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-36
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

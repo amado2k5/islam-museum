@@ -85,6 +85,7 @@ export function compile(): Compiled {
     nodes.set(id, node);
   }
   for (const s of stubs) {
+    if (!s.id) continue;
     if (nodes.has(s.id)) continue;
     const [cls, slug] = s.id.split("/");
     nodes.set(s.id, {

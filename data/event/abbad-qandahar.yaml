@@ -1,0 +1,18 @@
+id: event/abbad-qandahar
+class: event
+kind: conquest
+label: { ar: "فتح عباد بن زياد قندهار والقلانس العبادية", en: "Abbad ibn Ziyad's Qandahar and the 'Abbadiyya Caps" }
+summary:
+  ar: "غزا عباد بن زياد ثغر الهند من سجستان فأتى سناروذ ثم أخذ على حوى كهر إلى الروذبار من أرض سجستان إلى المندمند فنزل كش وقطع المفازة حتى أتى القندهار فقاتل أهلها فهزمهم وفلهم وفتحها بعد أن أصيب رجال من المسلمين ورأى قلانس أهلها طوالاً فعمل على مثالها فسميت العبادية وقال ابن مفرغ كم بالروم وأرض الهند من قدم ومن سراينك قتلى لاهم قبروا بقدهار ومن تكتب منيته بقندهار يرجم دونه الخبر."
+  en: "Abbad ibn Ziyad raided from Sijistan — Sanarudh, Kish, across the mafaza — and took Qandahar after hard fighting and Muslim dead; seeing the folk's tall caps he had them copied, whence the 'Abbadiyya — and Ibn Mufarrigh's line: 'how many a corpse of your troops by Qandahar unburied'."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/abbad-ibn-ziyad, role: "الأمير الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/qandahar }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

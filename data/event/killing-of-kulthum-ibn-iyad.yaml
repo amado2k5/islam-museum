@@ -1,0 +1,23 @@
+id: event/killing-of-kulthum-ibn-iyad
+class: event
+kind: death
+label: { ar: "قتل كلثوم بن عياض بإفريقية", en: "The Killing of Kulthum ibn Iyad in Ifriqiya" }
+summary:
+  ar: "عند البلاذري عن ابن الكلبي: ولّى هشام بن عبد الملك كلثوم بن عياض بن وحوح القشيري إفريقية فانتقض أهلها عليه فقُتل بها."
+  en: "In al-Baladhuri on Ibn al-Kalbi's report: Hisham ibn Abd al-Malik gave Kulthum ibn Iyad ibn Wahwah al-Qushayri Ifriqiya, whose people rose against him so that he was killed there."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "0724/0743", calendar: julian, precision: year, status: tradition, derived: true, note: "في ولاية هشام (البلاذري ص 321). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ifriqiya }
+  - { type: had_participant, target: person/kulthum-ibn-iyad-al-qushayri, role: "الوالي المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hisham-ibn-abd-al-malik, role: "المولّي", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

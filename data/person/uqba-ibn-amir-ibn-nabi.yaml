@@ -1,0 +1,70 @@
+id: person/uqba-ibn-amir-ibn-nabi
+class: person
+label:
+  ar: عقبة بن عامر بن نابي
+  en: Uqba ibn Amir ibn Nabi
+names:
+- kind: full
+  lang: ar
+  value: عقبة بن عامر بن نابي بن زيد بن حرام بن كعب بن غنم بن كعب بن سلمة الأنصاري السلمي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أنصاري من بني سلمة، شهد العقبة الأولى وبدراً وأحداً وأُعلم بعصابة خضراء في مغفره، وشهد الخندق وسائر المشاهد، واستُشهد باليمامة؛ ويرى ابن حجر أنه غير عقبة بن عامر السلمي الذي جاء بابنه إلى النبي، وإن جمعهما ابن الأثير.
+  en: An Ansari of Banu Salima, he was at the first al-Aqaba, Badr and Uhud, where he was marked by a green band on his helmet, and at the Trench and the other campaigns, and was killed at al-Yamama; Ibn Hajar thinks he is a different man from
+    Uqba ibn Amir al-Sulami who brought his son to the Prophet, though Ibn al-Athir joined them.
+wings:
+- people
+themes:
+- battles
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 6149 (ص 1042).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-salima
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-the-trench
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 6149، ص 1042
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-8
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1042, entry 6149)

@@ -1,0 +1,116 @@
+id: person/al-walid-ibn-uqba
+class: person
+label:
+  ar: الوليد بن عقبة بن أبي معيط
+  en: al-Walid ibn Uqba ibn Abi Mu'ayt
+names:
+- kind: full
+  lang: ar
+  value: الوليد بن عقبة بن أبي معيط أبان بن أبي عمرو ذكوان بن أمية بن عبد شمس بن عبد مناف الأموي
+- kind: kunya
+  lang: ar
+  value: أبو وهب
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أخو عثمان بن عفان لأمه، أسلم يوم الفتح؛ يذكر ابن عبد البر أن أهل التأويل لا يختلفون في نزول آية الحجرات 6 فيه حين بعثه النبي مصدّقاً إلى بني المصطلق، ويبين ابن حجر ضعف أسانيد القصة؛ ولاه عثمان الكوفة سنة 25هـ ثم عزله بعد جلده في شرب الخمر، وفي رواية المسعودي كان يشرب مع ندمائه إلى الصباح فلما آذن المؤذنون بالصلاة صلى بالناس الصبح أربعاً وقال أتريدون أن أزيدكم وقيل قال في سجوده اشرب واسقني، وشهدوا عليه عند عثمان فدفع الشهود فقال له علي دفعت الشهود وأبطلت الحدود، فلما أقيمت الشهادة ألقى عثمان السوط إلى علي فامتنع الناس توقياً لغضب عثمان فأخذه علي وضرب به الأرض وعلاه بالسوط وقد سبه الوليد يا صاحب مكس وقال عقيل إنك لتتكلم يا ابن أبي معيط كأنك لا تدري من أنت وأنت علج من أهل صفورية، وفي ذلك قالت الحطيئة أبياته {cite:muruj-al-dhahab p. 630-631}
+    وفق ما يرويه الصحيحان، واعتزل الفتنة وأقام بالرقة إلى أن مات في خلافة معاوية.
+  en: A maternal half-brother of Uthman ibn Affan, he embraced Islam on the day of the conquest; Ibn Abd al-Barr says the commentators do not disagree that verse 6 of al-Hujurat was revealed about him when the Prophet sent him to collect alms
+    from Banu al-Mustaliq, and Ibn Hajar points to the weakness of the chains of that story; Uthman made him governor of Kufa in 25 AH and removed him after he was flogged for drinking wine, as the two collections report; he withdrew from the
+    civil strife and stayed at al-Raqqa until he died in Mu'awiya's caliphate.
+wings:
+- people
+themes:
+- converts-and-leavers
+- laws-of-war-and-peace
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 9214 (ص 1570).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: sibling_of
+  target: person/uthman-ibn-affan
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/umm-kulthum-bint-uqba
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-umayya
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: ما قيمة الروايات في نزول آية الحجرات 6 في الوليد بن عقبة، وهل كان صبياً يوم الفتح؟
+  en: How sound are the reports that Hujurat 6 was revealed about al-Walid ibn Uqba, and was he a boy on the day of the conquest?
+perspectives:
+- tradition: sunni
+  id: report-1
+  stance:
+    ar: ابن عبد البر
+  summary:
+    ar: لا خلاف بين أهل العلم بتأويل القرآن في أنها نزلت فيه، حين بعثه النبي مصدّقاً إلى بني المصطلق فعاد فأخبر أنهم ارتدوا ومنعوا الصدقة، وكانوا خرجوا يتلقونه وعليهم السلاح فظن أنهم يقاتلونه، فبعث إليهم النبي خالد بن الوليد فأخبره بأنهم على الإسلام فنزلت الآية.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1570
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-2
+  stance:
+    ar: ابن حجر
+  summary:
+    ar: يخرّج القصة من تفسير عبد الرزاق عن معمر عن قتادة، وعن عكرمة ومجاهد، ومن الطبراني موصولة عن الحارث بن أبي ضرار المصطلقي، ثم يقول إن في السند من لا يعرف.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1570
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1571
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-3
+  stance:
+    ar: أبو داود (رواية الوليد)
+  summary:
+    ar: روى أبو داود عن الوليد قوله إنه أُتي به إلى النبي يوم الفتح صبياً وهو مخلّق فلم يمسّه من أجل الخلوق، ويرد ابن عبد البر بأن راويه أبا موسى مجهول، ويحتج ابن حجر بأن الزبير وأهل السير ذكروا أن أخويه الوليد وعمارة خرجا ليردّا أختهما أم كلثوم في هدنة سنة سبع، فلا يكون صبياً يوم الفتح، وبأنه قدم لفداء الحارث بن أبي وجزة وكان أُسر ببدر.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 1571
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 9214، ص 1570
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-7
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1570, entry 9214)

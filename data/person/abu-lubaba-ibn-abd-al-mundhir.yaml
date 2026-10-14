@@ -1,0 +1,70 @@
+id: person/abu-lubaba-ibn-abd-al-mundhir
+class: person
+label:
+  ar: أبو لبابة بن عبد المنذر
+  en: Abu Lubaba ibn Abd al-Mundhir
+aliases: [person/abu-lubaba]
+names:
+- kind: full
+  lang: ar
+  value: أبو لبابة بن عبد المنذر بن زنبر بن زيد بن أمية بن زيد بن مالك بن عوف بن عمرو بن عوف بن الأوس الأنصاري
+- kind: kunya
+  lang: ar
+  value: أبو لبابة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أنصاري من الأوس من بني عمرو بن عوف؛ اختُلف في اسمه (بشير، رفاعة، مروان)، وردّه النبي من الطريق إلى بدر واستخلفه على المدينة وضرب له بسهمه وأجره مع أهل بدر؛ ويقال كان من النقباء ليلة العقبة وكانت راية بني عمرو بن عوف معه يوم الفتح.
+  en: An Ansari of the Aws, of Banu Amr ibn Awf; his name is disputed (Bashir, Rifa'a or Marwan); the Prophet sent him back on the road to Badr, left him in charge of Medina and gave him a share and the reward of the Badr fighters; it is said
+    he was one of the naqibs on the night of al-Aqaba and he carried the banner of Banu Amr ibn Awf at the conquest.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 10513 (ص 1755).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-amr-ibn-awf
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/conquest-of-mecca
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 10513، ص 1755
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1755, entry 10513)

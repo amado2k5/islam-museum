@@ -1,0 +1,19 @@
+id: work/ahadith-kulliyya-ibn-al-salah
+class: work
+kind: treatise
+label: { ar: "الأحاديث الكلية", en: "al-Ahadith al-Kulliyya" }
+summary:
+  ar: "مجلس أملاه الحافظ أبو عمرو بن الصلاح، جمع فيه الأحاديث الجوامع التي يُقال إن مدار الدين عليها وما كان في معناها من الكلمات الجامعة الوجيزة، فاشتمل على ستة وعشرين حديثاً؛ أخذها النووي وزاد عليها فتمت «الأربعين»."
+  en: "A dictation session by the hadith master Abu Amr ibn al-Salah gathering the comprehensive hadiths on which the religion is said to turn — twenty-six in all — which al-Nawawi took and expanded into his 'Arba'un'."
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/ibn-rajab-jami-ulum-hikam] }
+authors: [person/ibn-al-salah]
+language: language/arabic
+structure: "ستة وعشرون حديثاً أملاها ابن الصلاح مجلساً (جامع العلوم والحكم، مقدمة المؤلف ص 26)."
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: part_of, target: work/arbaun-nawawi, note: "أخذ النووي أحاديثها الستة والعشرين وزاد عليها تمام اثنين وأربعين حديثاً (مقدمة جامع العلوم والحكم ص 26)", sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), author's introduction p. 26", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-1" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

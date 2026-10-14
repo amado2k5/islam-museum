@@ -1,0 +1,35 @@
+id: event/siege-of-banu-qurayza
+class: event
+kind: siege
+label: { en: "The Siege and Judgment of Banu Qurayza", ar: "غزوة بني قريظة" }
+summary:
+  en: "In Dhu al-Qa'da 5 AH (March 627 CE), immediately after the confederates withdrew, the Prophet marched on Banu Qurayza for breaking their treaty during the siege of Medina; after twenty-five nights of siege they surrendered unconditionally and accepted the arbitration of Sa'd ibn Mu'adh, who decreed the execution of the combatants and captivity of women and children."
+  ar: "في ذي القعدة سنة 5هـ (مارس 627م)، إثر انصراف الأحزاب نزل جبريل يأمر النبي بالسير إلى بني قريظة لغدرهم ونقضهم ميثاق المدينة في أحلك ساعات الحصار؛ فحاصرهم المسلمون خمساً وعشرين ليلة حتى نزلوا على حكم سعد بن معاذ، فقضى بقتل مقاتلتهم وسبي ذراريهم وقسمة أموالهم."
+wings: [time, people]
+themes: [battles, wars-and-campaigns]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0627-03~", hijri: "0005-11", calendar: julian, precision: month, status: tradition, note: "ذي القعدة سنة 5هـ إثر الفراغ من الأحزاب مباشرة (الرحيق ص314–318)." }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/muhammad, role: "قائد الحصار", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-muadh, role: "الحكم الذي ارتضاه بنو قريظة فقضى بحكم الله فيهم", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "حامل لواء النبي ومطوق حصونهم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/kaab-ibn-asad, role: "زعيم بني قريظة الذي نقض العهد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/huyayy-ibn-akhtab, role: "دخل معهم حصنهم وفاءً بعهده لكعب وقُتل معهم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-qurayza, role: "القبيلة المحاصرة والمحكوم عليها", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+  - { type: caused_by, target: event/battle-of-the-trench }
+issue: { ar: "كيف يُفهم حكم سعد بن معاذ في بني قريظة، وما مدى ثبوت تواطئهم؟", en: "How is Sa'd ibn Mu'adh's judgment on Banu Qurayza understood, and how far is their collusion established?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Sunni sources record the siege and Sa'd's arbitration as a divine judgment against active treason during wartime that threatened the survival of the entire community, noting it matched Biblical law in Deuteronomy.", ar: "يؤكد التراث السني أن حكم سعد بن معاذ كان حكماً عادلاً موافقاً لحكم الله من فوق سبع سموات ومطابقاً لشريعة التوراة بحق من خان العهد وظاهر العدو في حالة الحرب الشاملة." }
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
+  - tradition: academic
+    id: academic
+    summary: { en: "Modern historians discuss the political, legal, and military context of the execution, assessing the degree of Banu Qurayza's collusion with Quraysh and the customary tribal laws of surrender and arbitration.", ar: "يناقش المؤرخون المعاصرون السياقات العسكرية والقانونية للتحكيم، ومدى ثبوت التواطؤ العسكري لبني قريظة وتأثير الأعراف القبلية السائدة في الجزيرة حينئذ على مصير المحاربين." }
+    sources: [source/watt-1956-medina]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 314–318" }

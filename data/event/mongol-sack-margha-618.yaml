@@ -1,0 +1,21 @@
+id: event/mongol-sack-margha-618
+class: event
+kind: siege
+label: { ar: "ملك التتر مراغة وقتل أهلها" }
+summary:
+  ar: "في صفر سنة ثمان عشرة وستمائة سار التتر من ناحية الكرج إلى أذربيجان فصانعهم صاحب تبريز بمال وثياب ودواب فعدلوا عنها إلى مراغة فحصروها وليس بها صاحب يمنعها إذ كانت صاحبتها امرأة مقيمة بقلعة رويندز، فنصبوا عليها المجانيق وزحفوا وكان من عادتهم إذا قاتلوا مدينة قدّموا من معهم من أسارى المسلمين بين أيديهم يزحفون ويقاتلون فإن عادوا قتلوهم فيكون القتل في الأسارى وهم بنجوة منه، فأقاموا عليها أياماً ثم ملكوها عنوة رابع صفر ووضعوا السيف في أهلها فقتل منهم ما يخرج عن الحصر ونهبوا ما صلح لهم وأحرقوا ما لا، وكانوا يأخذون الأسارى فيأمرونهم ينادون في الدروب أن التتر قد رحلوا فإذا خرج من اختفى أُخذ وقُتل؛ ويحكي ابن الأثير عن أهلها أن رجلاً من التتر دخل درباً فيه مائة رجل فما زال يقتلهم واحداً واحداً حتى أفناهم ولم يمد أحد يده إليه لوضعت الذلة على الناس، وأن امرأة من التتر دخلت داراً وقتلت جماعة من أهلها وهم يظنونها رجلاً، ثم رحلوا عنها نحو إربل حتى بلغ خبرهم الموصل وهمّ بعض أهلها بالجلاء {cite:kamil-ibn-al-athir p. 411-412}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1221-03-13~", hijri: "0618-02-04", calendar: julian, precision: day, status: tradition, derived: true, note: "رابع صفر 618؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 411}." }
+relations:
+  - { type: had_participant, target: person/badr-al-din-lulu, role: "صاحب الموصل الذي خافته البلاد وسير نجدة", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 618، ص 411–412"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-09
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

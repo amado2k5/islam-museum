@@ -1,0 +1,17 @@
+id: passage/arbaun-13
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "13"
+label: { ar: "الأربعون 13 — لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه", en: "Arba'un 13 — loving for one's brother" }
+text: "لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه"
+summary:
+  ar: "حديث أنس بن مالك، وهو الحديث الثالث عشر في الأربعين النووية وفي شرح ابن رجب؛ رواه البخاري (13) ومسلم (45) من رواية قتادة عن أنس، ولفظ مسلم «حتى يحب لجاره أو لأخيه» بالشك، وله طرق كثيرة عند أحمد وابن ماجه والترمذي والنسائي وابن حبان وغيرهم؛ وعند ابن حبان «لا يبلغ عبد حقيقة الإيمان حتى يحب للناس ما يحب لنفسه من الخير»، وهي تبين عند ابن رجب أن المراد بنفي الإيمان نفي بلوغ حقيقته ونهايته، فإن الإيمان يُنفى كثيراً لانتفاء بعض أركانه وواجباته كقوله «لا يزني الزاني حين يزني وهو مؤمن»؛ ويذكر ابن رجب أن العلماء اختلفوا في مرتكب الكبائر هل يسمى مؤمناً ناقص الإيمان أم مسلماً لا مؤمناً على قولين وهما روايتان عن أحمد، وأن مرتكب الصغائر لا يزول عنه اسم الإيمان بالكلية، وأن قول «مؤمن ناقص الإيمان» مروي عن جابر بن عبد الله وهو قول ابن المبارك وإسحاق وأبي عبيد، والقول الآخر مروي عن محمد بن علي وذكر بعضهم أنه المختار عند أهل السنة (جامع العلوم والحكم ص 282–290)."
+  en: "Anas ibn Malik's hadith, the thirteenth of al-Nawawi's Forty and of Ibn Rajab's commentary; transmitted by al-Bukhari (13) and Muslim (45) through Qatada from Anas, Muslim's wording running 'until he loves for his neighbour or his brother' with a narrator's doubt, with many further routes in Ahmad, Ibn Majah, al-Tirmidhi, al-Nasa'i, Ibn Hibban and others; Ibn Hibban's version 'no servant reaches the reality of iman until he loves for people what he loves for himself of good' shows, in Ibn Rajab's reading, that the negation of iman here means negation of attaining its reality and perfection — iman being often negated for the absence of some of its pillars and duties, as in 'the adulterer is not a believer while he commits adultery'; Ibn Rajab records the scholars' dispute over the grave-sinner — 'believer of deficient faith' or 'Muslim but not believer', both reported from Ahmad — while the name iman is never fully stripped for lesser sins, noting that 'believer of deficient faith' is reported from Jabir ibn Abdullah and is the position of Ibn al-Mubarak, Ishaq and Abu Ubayd, the alternative being reported from Muhammad ibn Ali and described by some as the choice of ahl al-sunna (Jami' al-Ulum wal-Hikam pp. 282–290)."
+relations:
+  - { type: basis_for, target: concept/hubb, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/iman, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 13 pp. 282–290", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-6" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 282, takhrij and the iman-dispute excursus from the edition's apparatus pp. 282–283" }

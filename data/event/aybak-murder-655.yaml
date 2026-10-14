@@ -1,0 +1,22 @@
+id: event/aybak-murder-655
+class: event
+kind: other
+label: { ar: "قتل شجر الدر زوجها عز الدين أيبك" }
+summary:
+  ar: "وفي سنة خمس وخمسين وست مئة مات المعز أيبك سلطان مصر قتلته زوجته شجر الدر وسلطنوا بعده ولده الملك المنصور علياً {cite:tarikh-khulafa-minhaj-1434 p. 710}. وفي شذرات الذهب شاع الخبر أن الملك المعز يتزوج بابنة صاحب الموصل فعظم ذلك على زوجته شجرة الدر وعزمت على الفتك به واتفقت مع جماعة من الخدم ووعدتهم بأموال عظيمة فركب المعز للعب الكرة وجارى تعبان فدخل الحمام يغتسل فلما صار عرياناً رمته الخدام إلى الأرض وخنقوه ليلاً ولم يدر به أحد فأصبح الناس من الأمراء والكبراء على عادتهم للخدمة فإذا هو ميت فاختبطت المدينة ثم سلطنوا بعده ابنه الملك المنصور علياً وفيها وصلت التتار إلى الموصل وخربوا بلادها {cite:shadharat-dhahab p. 275}."
+  en: "In 655 al-Mu'izz Aybak, sultan of Egypt, died — killed by his wife Shajar al-Durr; they raised his son al-Malik al-Mansur Ali after him {cite:tarikh-khulafa-minhaj-1434 p. 710}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1257~", hijri: "0655", calendar: julian, precision: year, status: tradition, derived: true, note: "655؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 710}." }
+relations:
+  - { type: had_participant, target: person/izz-al-din-aybak, role: "المقتول", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/shajar-al-durr, role: "القاتلة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 704–714"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-45
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

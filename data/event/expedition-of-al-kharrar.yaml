@@ -1,0 +1,36 @@
+id: event/expedition-of-al-kharrar
+class: event
+kind: raid
+label: { en: "Expedition of al-Kharrar", ar: "سرية الخرار" }
+summary:
+  en: "An expedition led by Sa'd ibn Abi Waqqas with 20 Muhajirun in Dhu al-Qada 1 AH marching on foot by night towards al-Kharrar; found the caravan had passed the day before."
+  ar: "سرية بعثها النبي بقيادة سعد بن أبي وقاص في عشرين رجلاً من المهاجرين في ذي القعدة 1هـ إلى الخرار قرب الجحفة، يكمنون نهاراً ويسيرون ليلاً، فوجدوا العير قد سبقتهم بالأمس."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0623-05~", hijri: "0001-11", calendar: julian, precision: month, status: tradition, note: "في ذي القعدة سنة 1هـ (مايو 623م) على ما في الرحيق ص198" }
+relations:
+  - { type: occurred_at, target: place/al-kharrar }
+  - { type: had_participant, target: person/saad-ibn-abi-waqqas, role: "أمير السرية", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-miqdad-ibn-amr, role: "حامل اللواء الأبيض", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim expedition", ar: "سرية المسلمين" }
+    participants: [group/muhajirun]
+    commanders: [person/saad-ibn-abi-waqqas]
+    strength:
+      value: 20
+      status: tradition
+      note: "عشرون رجلاً من المهاجرين مشاة"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Quraysh caravan", ar: "قافلة قريش" }
+    participants: [group/quraysh]
+    strength:
+      status: tradition
+      note: "عير لقريش مرت بالخرار قبل وصول المسلمين بيوم واحد"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 198" }

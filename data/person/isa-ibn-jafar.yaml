@@ -1,0 +1,16 @@
+id: person/isa-ibn-jafar
+class: person
+label: { ar: "عيسى بن جعفر العباسي", en: "Isa ibn Ja'far al-Abbasi" }
+summary:
+  ar: "عيسى بن جعفر بن المنصور؛ ولي البصرة أيام الرشيد فأمره هارون أن يدخل دار الإمارة في المسجد ففعل."
+  en: "Isa ibn Ja'far ibn al-Mansur; Harun al-Rashid's Basra governor, ordered to fold the dar al-imara into the mosque — and did."
+periods: [period/abbasid-early]
+relations:
+  - { type: ruled_over, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

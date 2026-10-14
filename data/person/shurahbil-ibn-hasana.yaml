@@ -1,0 +1,28 @@
+id: person/shurahbil-ibn-hasana
+class: person
+label: { en: Shurahbil ibn Hasana, ar: "شرحبيل ابن حسنة" }
+names:
+  - { kind: full, lang: ar, value: "شرحبيل ابن حسنة" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "أخو جنادة وجابر لأمهما حسنة، ذكره ابن إسحاق مع أسرة سفيان بن معمر الجمحي في مهاجرة الحبشة."
+  en: Brother of Junada and Jabir through their mother Hasana; Ibn Ishaq names him with the family of Sufyan ibn Ma'mar al-Jumahi among the emigrants to Abyssinia.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص8)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: child_of, target: person/hasana-umm-shurahbil, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/junada-ibn-sufyan, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/jabir-ibn-sufyan, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 8", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-iv" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

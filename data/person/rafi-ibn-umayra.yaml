@@ -1,0 +1,31 @@
+id: person/rafi-ibn-umayra
+class: person
+label:
+  ar: رافع بن عميرة الطائي
+  en: Rafi' ibn Umayra al-Ta'i
+names:
+  - { kind: full, lang: ar, value: رافع بن عميرة الطائي }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "طائي؛ كان دليل خالد بن الوليد في مفازته من قراقر إلى سوى حين مسيره من العراق إلى الشام سنة 13هـ، وفيه قال الشاعر: «لله در رافع أنّى اهتدى فوز من قراقر إلى سوى، ماء إذا ما رامه الجيش أنشا ما جازها قبلك من أنسٍ يُرى»."
+  en: "A Ta'i; Khalid ibn al-Walid's guide across the waterless stretch from Qaraqir to Suwa on his march from Iraq to Syria in year 13, of whom the poet said: 'God bless Rafi' — how he guided, traversing from Qaraqir to Suwa, a water the army sought and found where no man was seen passing before you'."
+periods:
+- period/rashidun
+regions:
+- arabia
+- levant-iraq
+relations:
+  - { type: participated_in, target: event/khalid-march-to-syria, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 153"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

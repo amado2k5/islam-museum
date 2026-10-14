@@ -1,0 +1,19 @@
+id: event/treaty-of-ayla
+class: event
+kind: other
+label: { ar: "صلح النبي مع يحنة بن رؤبة صاحب أيلة", en: "The treaty with Yuhanna ibn Ru'ba, lord of Ayla" }
+summary:
+  ar: "لما انتهى النبي إلى تبوك أتاه يحنة بن رؤبة صاحب أيلة فصالحه وأعطاه الجزية، وأتاه أهل جرباء وأذرح فأعطوه الجزية، وكتب لهم كتاباً هو عندهم؛ وكتب ليحنة وأهل أيلة كتاب أمان نصّه عند ابن إسحاق."
+  en: When the Prophet reached Tabuk, Yuhanna ibn Ru'ba, the master of Ayla, came to him, made peace and paid the jizya; the people of Jarba and Adhruh also came and paid it, and he wrote them a document they still hold. For Yuhanna and the people of Ayla he wrote a letter of safe-conduct whose text Ibn Ishaq preserves.
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/tabuk, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/yuhanna-ibn-rubah, role: counterparty, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 169", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6c" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 169" }

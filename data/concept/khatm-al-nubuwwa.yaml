@@ -1,0 +1,69 @@
+id: concept/khatm-al-nubuwwa
+class: concept
+kind: doctrine
+label:
+  ar: ختم النبوة
+  en: Finality of prophethood
+summary:
+  ar: عقيدة أن محمداً خاتم الأنبياء وأن كل دعوى للنبوة بعده ضلال، كما يصوغها الطحاوي في العقيدة الطحاوية.
+  en: The doctrine that Muhammad is the last of the prophets and that any claim to prophethood after him is error, as al-Tahawi states it.
+wings:
+- ideas
+themes:
+- creed
+periods:
+- period/abbasid-fragmentation
+regions:
+- global
+issue:
+  ar: ما منزلة محمد بين الأنبياء، وما حكم الإيمان برسالته؟
+  en: What is Muhammad's standing among the prophets, and what of believing in his message?
+perspectives:
+- tradition: sunni-hanafi
+  id: aqida-tahawiyya
+  stance:
+    ar: خاتم الأنبياء وكل دعوى نبوة بعده ضلال
+    en: The last of the prophets, and every claim to prophethood after him is error
+  summary:
+    ar: يقول الطحاوي إن محمداً خاتم الأنبياء وسيد المرسلين وإن كل دعوى للنبوة بعده غي وهوى.
+  holders:
+  - person/al-tahawi
+  - work/aqida-tahawiyya
+  evidence:
+  - ref: source/aqida-tahawiyya
+    note:
+      ar: البنود 32 إلى 35، ص 12
+      en: articles 32 to 35, p. 12
+  sources:
+  - source/aqida-tahawiyya
+- tradition: sunni-hanbali
+  id: lumat-al-itiqad
+  stance:
+    ar: خاتم النبيين وسيد المرسلين، ولا يصح إيمان عبد حتى يؤمن برسالته
+    en: The seal of the prophets and master of the messengers; no servant's belief is sound until he believes in his message
+  summary:
+    ar: 'يقول ابن قدامة: «ومحمد رسول الله خاتم النبيين وسيد المرسلين، لا يصح إيمان عبد حتى يؤمن برسالته، ويشهد بنبوته»، وإن أمته خير الأمم وأصحابه خير أصحاب الأنبياء.'
+    en: Ibn Qudama says Muhammad is the Messenger of God, seal of the prophets and master of the messengers, no servant's belief is sound until he believes in his message and testifies to his prophethood, and that his community is the best of communities and his companions the best of the prophets' companions.
+  holders:
+  - person/ibn-qudama-al-maqdisi
+  - work/lumat-al-itiqad
+  evidence:
+  - ref: source/lumat-al-itiqad
+    note:
+      ar: ص 35 و36
+      en: pp. 35 and 36
+  sources:
+  - source/lumat-al-itiqad
+provenance:
+  layer: own-research
+  source: العقيدة الطحاوية، طبعة دار ابن حزم 1995 (نص كامل؛ 134 بنداً، الصفحات 7-32)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: tahawiyya-1
+sources:
+- source/aqida-tahawiyya
+- source/lumat-al-itiqad
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from the full text of al-Tahawiyya (Dar Ibn Hazm 1995, pp. 12, 20, 22, 30, 31); Lum'at al-I'tiqad (Maktab Islami ed., pp. 35 و36) added as a second opinion

@@ -1,0 +1,23 @@
+id: person/dhu-al-bijadayn
+class: person
+label: { en: Dhu al-Bijadayn, ar: "ذو البجادين" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله ذو البجادين المزني" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "عبد الله ذو البجادين المزني؛ توفي في غزوة تبوك فدفنه النبي بنفسه في حفرته ليلاً بحضور أبي بكر وعمر، بحسب رواية ابن مسعود."
+  en: Abdullah Dhu al-Bijadayn al-Muzani; he died on the Tabuk campaign and the Prophet himself buried him in his grave at night in the presence of Abu Bakr and Umar, in Ibn Mas'ud's account.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في غزوة تبوك (ص171-172)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي في غزوة تبوك؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: participated_in, target: event/burial-of-dhu-al-bijadayn, role: deceased, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 171-172", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 171-172" }

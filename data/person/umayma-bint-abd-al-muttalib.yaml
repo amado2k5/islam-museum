@@ -1,0 +1,58 @@
+id: person/umayma-bint-abd-al-muttalib
+class: person
+label:
+  ar: أميمة بنت عبد المطلب
+  en: Umayma bint Abd al-Muttalib
+names:
+- kind: full
+  lang: ar
+  value: أميمة بنت عبد المطلب بن هاشم الهاشمية
+gender: female
+roles: []
+traditions: []
+summary:
+  ar: عمة النبي؛ تزوجت في الجاهلية «حجير بن رئاب الأسدي» (كما في الطبعة) فولدت له عبد الله وعبيد الله وأبا أحمد وزينب وحمنة، واختُلف في إسلامها.
+  en: An aunt of the Prophet, married before Islam to Hujayr ibn Ri'ab al-Asadi (as printed in this edition), mother of Abdullah, Ubaydullah, Abu Ahmad, Zaynab and Hamna; her Islam is disputed.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 10922 (ص 1822).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: unknown
+  basis: debated
+  note: اختلف في إسلامها؛ انظر ما اختُلف فيه في الصفحة.
+relations:
+- type: child_of
+  target: person/abd-al-muttalib
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/abu-talib
+  sources:
+  - source/ibn-hajar-isaba
+- type: parent_of
+  target: person/hamna-bint-jahsh
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 10922، ص 1822 (تراجم النساء)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-women-1
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1822, entry 10922)

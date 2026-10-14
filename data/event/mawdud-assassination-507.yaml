@@ -1,0 +1,22 @@
+id: event/mawdud-assassination-507
+class: event
+kind: other
+label: { ar: "قتل مودود صاحب الموصل بجامع دمشق" }
+summary:
+  ar: "في سنة سبع وخمس مئة جاء مودود صاحب الموصل بعسكر ليقاتل ملك الفرنج الذي بالقدس فوقع بينهم معركة هائلة ثم رجع مودود إلى دمشق فصلى الجمعة يوماً في الجامع وإذا بباطني وثب عليه فجرحه فمات من يومه فكتب ملك الفرنج إلى صاحب دمشق كتاباً فيه وإن أمة قتلت عميدها في يوم عيدها في بيت معبودها لحقيق على الله أن يبيدها {cite:tarikh-khulafa-minhaj-1434 p. 661}."
+  en: "In 507 Mawdud, lord of Mosul, marched against the Frankish king of Jerusalem; after a great battle he returned to Damascus and was praying Jumu'a in the mosque when a Batini leapt on him — he died the same day. The Frankish king wrote Damascus's lord: 'a nation that kills its chief, on its feast-day, in its house of worship, deserves that God blot it out' {cite:tarikh-khulafa-minhaj-1434 p. 661}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1113~", hijri: "0507", calendar: julian, precision: year, status: tradition, derived: true, note: "507؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 661}." }
+relations:
+  - { type: had_participant, target: person/mawdud, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 657–666"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-40
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

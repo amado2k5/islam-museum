@@ -1,0 +1,20 @@
+id: person/yahya-ibn-said-al-ansari
+class: person
+label: { ar: "يحيى بن سعيد بن قيس الأنصاري", en: "Yahya ibn Sa'id al-Ansari" }
+names:
+  - { kind: full, lang: ar, value: "يحيى بن سعيد بن قيس الأنصاري" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "من فقهاء المدينة في الطبقة الثالثة، وكان قاضياً لأبي جعفر المنصور؛ قال حماد بن زيد إن أيوب قال له لم يترك أفقه من يحيى بن سعيد."
+  en: "A Medinan jurist of the third generation who served as qadi for al-Mansur; Hammad ibn Zayd reports Ayyub saying he left no jurist more learned than Yahya ibn Sa'id."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+died: { hijri: "0143", edtf: "0760~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي (ط. إحسان عباس، ص36): مات سنة ثلاث وأربعين ومائة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/tabaqat-fuqaha-abbas-1981] }
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) ص35–36", generated_by: "Claude (Haiku 5.5)", run: "lib-tabaqat-fuqaha-batch-3" }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from Shirazi's list of Medina jurists; the death year as the book reports it; a second source is needed" }

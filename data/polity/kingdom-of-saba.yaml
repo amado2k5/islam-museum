@@ -1,0 +1,16 @@
+id: polity/kingdom-of-saba
+class: polity
+kind: kingdom
+label: { en: "The Kingdom of Saba (Sheba)", ar: "مملكة سبأ" }
+summary:
+  en: "The oldest named power of Yemen in the sira’s prologue: its traces reach twenty-five centuries before the Common Era in the excavations of Ur, its flourish begins in the eleventh century BCE, and it passed through the Mukarrib era at Sirwah and the kingdom era at Maʾrib before Himyar absorbed it around 115 BCE."
+  ar: "أقدم قوة مسماة في اليمن في مقدمة السيرة: عُثر على ذكر قومها في حفريات أور بخمسة وعشرين قرناً قبل الميلاد، وازدهرت حضارتهم منذ أحد عشر قرناً قبله؛ مرّت بعهد المكاربة بصرواح ثم ملوك سبأ بمأرب، حتى غلبتها حمير نحو سنة 115ق.م."
+wings: [time, place]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+start: { edtf: "-1100~", calendar: julian, precision: year, status: tradition }
+end: { edtf: "-0115~", calendar: julian, precision: year, status: tradition }
+capitals: [{ place: place/marib }]
+regions: [arabia]
+sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

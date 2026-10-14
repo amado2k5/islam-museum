@@ -1,0 +1,19 @@
+id: event/plague-826
+class: event
+kind: epidemic
+label: { ar: "طاعون الشام ودمياط 826هـ", en: "The Plague of Syria and Damietta, 826" }
+summary:
+  ar: "في شذرات الذهب سنة ست وعشرين وثمان مئة كان طاعون مفوط بالشام حتى قيل إن جملة من مات في أيام يسيرة زيادة على خمسين ألفاً ووقع أيضاً بدمياط طاعون عظيم {cite:shadharat-dhahab p. 186}."
+  en: "826: a wasting plague through Syria — over 50,000 dead, it was said, within a few days — and a great plague at Damietta {cite:shadharat-dhahab p. 186}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+date:
+  start: { edtf: "1423~", hijri: "0826", calendar: julian, precision: year, status: tradition, derived: true, note: "826؛ التحويل مشتق {cite:shadharat-dhahab p. 186}." }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 186, 313-314"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-82
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

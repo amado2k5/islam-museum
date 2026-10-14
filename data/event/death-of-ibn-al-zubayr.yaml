@@ -1,0 +1,24 @@
+id: event/death-of-ibn-al-zubayr
+class: event
+kind: death
+label: { ar: "مقتل عبد الله بن الزبير" }
+summary:
+  ar: "جهز عبد الملك بن مروان لقتال ابن الزبير الحجاج في أربعين ألفاً فحصره بمكة أشهراً ورمى عليه بالمنجنيق، وخذله أصحابه وتسللوا إلى الحجاج فظفر به فقتله وصلبه يوم الثلاثاء لسبع عشرة خلت من جمادى الأولى وقيل الآخرة سنة ثلاث وسبعين {cite:tarikh-khulafa-minhaj-1434 p. 349}. وروي عن محمد بن زيد بن عبد الله بن عمر أنه كان فوق أبي قبيس حين وضع المنجنيق على ابن الزبير فنزلت صاعقة كأنها خمار أحمر فحرقت أصحاب المنجنيق نحواً من خمسين رجلاً {cite:tarikh-khulafa-minhaj-1434 p. 350}. وكان ابن الزبير يصلي في الحجر والمنجنيق يصيب طرف ثوبه فما يلتفت إليه {cite:tarikh-khulafa-minhaj-1434 p. 350}. وخرج إليه عروة بن الزبير يعرض عليه أمان عبد الملك على ما أحدث وأن ينزل أي البلاد شاء بعهد الله وميثاقه فأبى قبوله، فقالت أمه أسماء بنت أبي بكر لا تقبل خطة تخاف منها على نفسك مت كريماً وإياك أن تؤسر، وقال إني أخاف أن يمثل بي بعد القتل فقالت وهل تتألم الشاة من ألم السلخ بعد الذبح، ودخلوا عليه في المسجد وهم ينادون يا ابن ذات النطاقين فتمثل وعيرها الواشون أني أحبها وتلك شكاة ظاهر عنك عارها {cite:muruj-al-dhahab p. 105}"
+  en: "Abd al-Malik sent al-Hajjaj with forty thousand against Ibn al-Zubayr; he besieged him in Mecca for months and cast mangonels at him until his men deserted to al-Hajjaj, who took and killed him and crucified the body — Tuesday, 17 Jumada I or II of year 73. Muhammad ibn Zayd ibn Abdullah ibn Umar was atop Abu Qubays when the mangonel was planted and saw a lightning bolt like a red veil burn some fifty of its crew. Ibn al-Zubayr had been praying within the Hijr while mangonel stones clipped the edge of his garment and he never turned {cite:tarikh-khulafa-minhaj-1434 p. 349-350}."
+wings: [time, place, people]
+periods: [period/umayyad]
+regions: [arabia]
+date:
+  start: { edtf: "0692-11~", hijri: "0073-05", calendar: julian, precision: month, status: tradition, derived: true, note: "17 جمادى الأولى أو الآخرة 73؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 349}." }
+relations:
+  - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "قائد الحصار", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الآمر بالقتال", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/mecca, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 349–350"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-9
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

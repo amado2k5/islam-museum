@@ -1,0 +1,18 @@
+id: group/buja
+class: group
+kind: people
+label: { ar: "البجة" }
+summary:
+  ar: "عند البلاذري: قوم أهل بادية أصحاب إبل وماشية أرضهم مفاوز بينها وبين بلاد الإسلام مسيرة شهر في قفر وجبال وعرة بها معادن الذهب غاروا على أرض مصر وامتنعوا من أداء ما عليهم عن المعادن فحاربهم محمد القمي زمن المتوكل فكانت إبلهم زعرة تنفر عن كل شيء فقلد القمي خيله الأجراس فنفرت إبلهم وصالحوا سنة ٢٤١ على الأتاوة والبقط."
+  en: "In al-Baladhuri: a desert people with camels and herds whose land — a month's barren march of rugged mountains from Islam's lands — holds the gold mines; they raided Egypt's land and withheld the mines' dues, so Muhammad al-Qummi warred on them in al-Mutawakkil's time — their camels skittish at everything, he hung bells on his horses and the camels bolted — and they made peace in 241 on tribute and baqt."
+wings: [people]
+regions: [east-africa, egypt-nile]
+relations:
+  - { type: located_in, target: place/bilad-al-buja, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 333–335"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-25
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

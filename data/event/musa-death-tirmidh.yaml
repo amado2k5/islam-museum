@@ -1,0 +1,21 @@
+id: event/musa-death-tirmidh
+class: event
+kind: death
+label: { ar: "مقتل موسى بن عبد الله بن خازم", en: "The Killing of Musa ibn Abdallah ibn Khazim" }
+summary:
+  ar: "عزل يزيد بن المهلب وتولى المفضل بن المهلب خراسان فوجه عثمان بن مسعود فسار حتى نزل جزيرة بالترمذ تدعى اليوم جزيرة عثمان وهو في خمسة عشر ألفاً فضيق على موسى وكتب إلى طرخون فقدم عليه فلما رأى موسى الذي ورد عليه خرج من المدينة وقال لأصحابه الذين خلفهم فيها إن قتلت فادفعوا المدينة إلى مدرك بن المهلب ولا تدفعوها إلى ابن مسعود وحال الترك والسغد بين موسى والحصن وعثر به فرسه فسقط فارتدف خلف مولى له وجعل يقول الموت كريه فنظر إليه عثمان فقال وثبة موسى ورب الكعبة وقصد له حتى سقط ومولاه فانطووا عليه فقتلوه وقتل أصحابه فلم ينج منهم غير أرقية بن الحرفانة دفعه إلى خالد بن أبي برزة الأسلمي وكان الذي أجهز على موسى واصل بن طيسلة العنبري ودفعت المدينة إلى مدرك بن المهلب وكان قتله في آخر سنة ٨٥ وضرب رجل ساق موسى وهو قتيل فلما ولى قتيبة قتله."
+  en: "Al-Mufaddal sent Uthman ibn Mas'ud with fifteen thousand, who camped on the island still called Jazirat Uthman, pressed Musa, and summoned Tarkhun. Seeing the forces arrive, Musa left the city charging his men: 'if I am killed, yield it to Mudrik ibn al-Muhallab, never to Ibn Mas'ud'. Turks and Sughd cut him off, his horse stumbled, he mounted behind a mawla crying 'death is bitter'; Uthman marked him — 'Musa's leap, by the Lord of the Ka'ba!' — drove him down, and they surrounded and slew him and his company save Irqiya ibn al-Harfana, spared to Khalid ibn Abi Barza. Wasil ibn Taysala al-Anbari struck the final blow; the city went to Mudrik — it was the end of 85h — and the man who struck dead Musa's leg was himself killed by Qutayba."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/musa-ibn-abdallah-ibn-khazim, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-masud, role: "قائد الحصار", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/wasil-ibn-taysala, role: "المجهز عليه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mudrik-ibn-al-muhallab, role: "المسلمة إليه المدينة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tirmidh }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

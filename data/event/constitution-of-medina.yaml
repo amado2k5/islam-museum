@@ -4,23 +4,32 @@ kind: treaty
 label: { en: "The Constitution of Medina", ar: "صحيفة المدينة" }
 summary:
   en: "A document, preserved in early sources, regulating relations among the Muslims and the other communities of Medina."
-  ar: "وثيقة حفظتها المصادر المبكرة تنظّم العلاقات بين المسلمين والجماعات الأخرى في المدينة."
+  ar: "وثيقة كتبها النبي لتنظيم مجتمع المدينة، أعلنت المسلمين أمة واحدة من دون الناس، وعقدت موادعة وحلفاً مع يهود يثرب كفلت حرية الدين والمال والدفاع المشترك."
 wings: [time, people]
 themes: [non-muslim-minorities-under-muslim-rule, peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0622~", calendar: julian, precision: year, status: debated, note: "Scholars debate whether it is one text or several, and when it was written." }
+  start: { edtf: "0622~", hijri: "0001", calendar: julian, precision: year, status: debated, note: "كتبت الصحيفة في صدر الهجرة بعد بناء المسجد والمؤاخاة لتنظيم العلاقات الداخلية والخارجية (الرحيق ص186–193)" }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/muhammad, role: "الكاتب للصحيفة وحكم النزاعات", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/ansar, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-qaynuqa, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-nadir, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-qurayza, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
+issue: { ar: "ما طبيعة صحيفة المدينة ودلالتها، وهل هي وثيقة واحدة أم عدة اتفاقات؟", en: "What is the nature and meaning of the Constitution of Medina, and is it one document or several agreements?" }
 perspectives:
   - tradition: sunni
-    summary: { en: "The early sira tradition preserves the text in Ibn Ishaq's biography, as transmitted by Ibn Hisham, and Sunni scholarship has treated it as a covenant the Prophet made to organise the community of Medina.", ar: "تحفظ السيرة المبكرة نص الصحيفة في سيرة ابن إسحاق برواية ابن هشام، وعدّها علماء أهل السنة عهدًا عقده النبي لتنظيم جماعة المدينة." }
-    sources: [source/ibn-ishaq-guillaume]
+    id: sunni
+    summary: { en: "The early sira tradition preserves the text in Ibn Ishaq's biography, as transmitted by Ibn Hisham, and Sunni scholarship has treated it as a covenant the Prophet made to organise the community of Medina.", ar: "تحفظ السيرة المبكرة نص الصحيفة في سيرة ابن إسحاق برواية ابن هشام، وعدّها علماء أهل السنة عهداً وميثاقاً عقده النبي لتنظيم أمة المدينة ودرء الفتن وضمان حرية الاعتقاد والتحالف الدفاعي." }
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-ishaq-guillaume]
   - tradition: academic
-    summary: { en: "Historians generally accept that it reflects the early Medinan period, and debate whether it was a single agreement or several combined." }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina]
-status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
+    id: academic
+    summary: { en: "Historians generally accept that it reflects the early Medinan period, and debate whether it was a single agreement or several combined.", ar: "يتفق المؤرخون الأكاديميون على أصالة الوثيقة وصدورها في العهد المدني المبكر، ويناقشون ما إذا كانت وثيقة واحدة كُتبت دفعة واحدة أم دمجت عدة معاهدات أبرمت في فترات متتابعة." }
+    sources: [source/watt-1956-medina]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-ishaq-guillaume, source/watt-1956-medina]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 186–193 citing Ibn Hisham 1/501–504" }

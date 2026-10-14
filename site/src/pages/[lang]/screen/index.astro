@@ -25,8 +25,8 @@ const relevances = ["primary", "substantial", "setting"].filter((r) => items.som
           {items.map((n) => (
             <li data-format={n.data.format} data-relevance={n.data.relevance}>
               <a class="card" href={href(lang, n.id)}>
-                <span class="ui" style="font-size:.78rem;text-transform:uppercase;letter-spacing:.08em">{T.screen.format_values[n.data.format] ?? n.data.format}</span>
-                <b>{labelOf(n, lang)}</b>
+                <span class="ui kicker">{T.screen.format_values[n.data.format] ?? n.data.format}</span>
+                <h2 class="card-title">{labelOf(n, lang)}</h2>
                 <span class="ui" style="display:block;font-size:.85rem">{formatDate(n.data.released, lang).text} · {(n.data.countries ?? []).map((c: string) => c.toUpperCase()).join(" ")}</span>
                 <span>{summaryOf(n, lang)}</span>
               </a>

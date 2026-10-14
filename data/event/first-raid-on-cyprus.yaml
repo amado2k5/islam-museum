@@ -1,0 +1,28 @@
+id: event/first-raid-on-cyprus
+class: event
+kind: raid
+label: { ar: "غزوة قبرس الأولى", en: "The First Raid on Cyprus" }
+summary:
+  ar: "عند البلاذري عن الواقدي وغيره: غزا معاوية بن أبي سفيان في البحر غزوة قبرس الأولى ولم يركب المسلمون بحر الروم قبلها، وكان معاوية استأذن عمر في غزو البحر فلم يأذن له فلما ولّى عثمان كتب إليه يستأذنه في غزو قبرس ويعلمه قربها وسهولة الأمر فيها فكتب إليه أن قد شهدت ما ردّ عليك عمر حين استأمرته في غزو البحر، فلما دخلت سنة 27 كتب إليه يهوّن عليه ركوب البحر إلى قبرس فكتب إليه عثمان «فإن ركبت البحر ومعك امرأتك فاركبه مأذوناً لك وإلا فلا»، فركب البحر من عكّا ومعه مراكب كثيرة وحمل امرأته فاختة بنت قرظة القرشية وحمل عبادة بن الصامت امرأته أم حرام بنت ملحان الأنصارية وذلك في سنة 28؛ فلما نزلوا ساحلها — وهي جزيرة يقال ثمانون فرسخاً في مثلها — بعث إليهم أركونها يطلب الصلح وقد أذعن أهلها فصالحهم على سبعة آلاف ومائتي دينار يؤدونها كل عام، وصالحهم الروم على مثل ذلك فهم يؤدون خرجين، واشترطوا أن لا يمنعهم المسلمون أداء الصلح إلى الروم، واشترط عليهم المسلمون أن لا يقاتلوا عنهم من أرادهم من ورائهم وأن يؤذنوا المسلمين بسير عدوهم من الروم، فكان المسلمون إذا ركبوا البحر لم يعرضوا لهم ولم ينصرهم أهل قبرس ولم ينصروا عليهم؛ وغزا فيها مع معاوية أبو أيوب الأنصاري وأبو الدرداء وأبو ذر الغفاري وعبادة بن الصامت وفضالة بن عبيد الأنصاري وعمير بن سعد الأنصاري وواثلة بن الأسقع وعبد الله بن بشر المازني وشداد بن أوس بن ثابت — وهو ابن أخي حسان بن ثابت — والمقداد وكعب الأحبار وجبير بن نفير الحضرمي؛ وخرجت أم حرام من المركب فقدّمت إليها دابة فعثرت بها فقتلتها فقبرها بقبرس تدعى قبر المرأة الصالحة؛ وصالحهم معاوية بعد صلحاً دائماً على سبعة آلاف دينار وعلى النصيحة للمسلمين وإنذارهم عدوهم من الروم. وعند السيوطي أن عمر كتب إلى عمرو بن العاص أن صف لي البحر وراكبه فكتب إني رأيت خلقاً كبيراً يركبه خلق صغير إن ركد حرق القلوب وإن تحرك أراع العقول فكتب عمر إلى معاوية والله لا أحمل فيه مسلماً أبداً {cite:tarikh-khulafa-minhaj-1434 p. 269}."
+  en: "In al-Baladhuri from al-Waqidi and others: Mu'awiya ibn Abi Sufyan led the first sea raid on Cyprus — the Muslims had never before sailed the Byzantine sea; he had asked Umar's leave to raid by sea and was refused, and when Uthman took office he wrote asking leave for Cyprus, noting its nearness and ease; Uthman wrote back 'you witnessed what Umar replied when you consulted him about the sea', and when year 27 opened Mu'awiya again made light of the crossing, so Uthman wrote 'if you sail, take your wife with you — else do not'; he sailed from Acre with many vessels, carrying his wife Fakhita bint Qaraza the Qurashite, and Ubada ibn al-Samit carried his wife Umm Haram bint Milhan the Ansari — in year 28; when they reached its shore — an island some eighty farsakhs square, it is said — its archon sent seeking terms, its people consenting, and he compounded with them for seven thousand two hundred dinars paid yearly, while the Byzantines compounded with them for the like — so they pay two tributes — stipulating that the Muslims not bar them paying the Byzantines, and the Muslims stipulating that they not be made to fight those who came from beyond them and that they warn the Muslims of Byzantine movements; so when the Muslims sailed they did not trouble them, and Cyprus's people neither aided them nor fought them; on this raid went Abu Ayyub al-Ansari, Abu al-Darda', Abu Dharr al-Ghifari, Ubada ibn al-Samit, Fadala ibn Ubayd al-Ansari, Umayr ibn Sa'd al-Ansari, Wathila ibn al-Asqa', Abdullah ibn Bishr al-Mazini, Shaddad ibn Aws ibn Thabit — nephew of Hassan ibn Thabit — al-Miqdad, Ka'b al-Ahbar and Jubayr ibn Nufayr al-Hadrami; Umm Haram left the ship and was brought a mount which stumbled and killed her — her grave in Cyprus is called the grave of the righteous woman; Mu'awiya afterwards compounded with them a lasting peace at seven thousand dinars, upon good counsel to the Muslims and warning them of their Byzantine enemy."
+wings: [time, place, people]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0648~", hijri: "0028", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 28 عند الواقدي (البلاذري ص 208–209). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/qubrus }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "أمير الغزوة وعاقد الصلح", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "أذن له بشرط اصطحاب امرأته", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ubada-ibn-al-samit, role: "من أهلها مع امرأته أم حرام", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/umm-haram-bint-milhan, role: "ماتت بها عثرة دابتها وقبرها قبر المرأة الصالحة", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abu-ayyub-al-ansari, role: "من ركبها", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/abu-dharr-al-ghifari, role: "من ركبها", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/fakhita-bint-qaraza, role: "امرأة معاوية حملها بشرط عثمان", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 208–210"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-11
+sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

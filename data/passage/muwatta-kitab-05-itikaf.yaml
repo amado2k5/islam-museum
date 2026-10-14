@@ -1,0 +1,14 @@
+id: passage/muwatta-kitab-05-itikaf
+class: passage
+unit: chapter
+work: work/muwatta-malik
+ref: "kitab-5"
+label: { ar: "الموطأ، كتاب الاعتكاف", en: "Muwatta, Book of Seclusion (i'tikaf)" }
+summary:
+  ar: "كتاب الاعتكاف في الموطأ، المجلد الأول، يبدأ في صفحة 419 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
+  en: "The Book of Seclusion (i'tikaf) in the Muwatta, volume 1, starting at PDF page 419 (PDF numbering, not the printed page)."
+relations:
+  - { type: part_of, target: work/muwatta-malik }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 419", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }

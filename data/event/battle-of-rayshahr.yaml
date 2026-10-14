@@ -1,0 +1,21 @@
+id: event/battle-of-rayshahr
+class: event
+kind: battle
+label: { ar: "وقعة ريشهر ومقتل شهرك", en: "Battle of Rayshahr and Shahrak's Death" }
+summary:
+  ar: "كان شهرك مرزبان فارس أعظم ما كان من قدوم العرب فارس فجمع جمعاً عظيماً وسار حتى أتى ريشهر من أرض سابور قرب توج فخرج إليه الحكم بن أبي العاص وعلى مقدمته سوار بن همام العبدي فاقتتلوا قتالاً شديداً وكان هناك واد قد وكل به شهرك رجلاً في جماعة أمره أن لا يجتازه هارب من أصحابه إلا قتله فأقبل رجل من شجعاء الأساورة مولياً من المعركة فأراد الرجل قتله فقال لا تقتلني فما نقاتل قوماً منصورين الله معهم ووضع حجراً فرماه ففلقه ثم قال أترى هذا السهم الذي فلق الحجر والله ما كان ليخدش بعضهم لو رمي به فبينا هو في ذلك إذ أتاه الخبر بقتل شهرك وكان الذي قتله سوار بن همام حمل عليه فطعنه فأذراه عن فرسه وضربه بسيفه حتى فاضت نفسه وحمل ابن شهرك على سوار فقتله وهزم الله المشركين وفتحت ريشهر عنوة وكان يومها في صعوبته وعظيم النعمة على المسلمين كيوم القادسية وتوجه بالفتح إلى عمر عمرو بن الأهتم التميمي."
+  en: "Shahrak, marzban of Fars, mustered a great host at Rayshahr near Tawwaj; al-Hakam ibn Abi al-As met him with Sawwar ibn Hammam al-Abdi on the vanguard — a fierce fight, with a warden posted at the wadi to kill any fugitive. An aswari champion fleeing begged him 'we fight a God-aided people — see this arrow split a stone, yet it could not have scratched them' — then word came of Shahrak's death: Sawwar had stabbed him off his horse and finished him, and Shahrak's son charged and killed Sawwar. The polytheists routed, Rayshahr fell by force — a day like al-Qadisiyya in its hardship and blessing; Amr ibn al-Ahtam bore the victory-verse to Umar."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/sawwar-ibn-hammam, role: "قاتل شهرك", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/shahrak, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-hakam-ibn-abi-al-as, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-al-ahtam, role: "حامل البشرى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/rayshahr }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

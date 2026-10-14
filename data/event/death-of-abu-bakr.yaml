@@ -1,0 +1,21 @@
+id: event/death-of-abu-bakr
+class: event
+kind: death
+label: { ar: "وفاة أبي بكر الصديق", en: "The Death of Abu Bakr al-Siddiq" }
+summary:
+  ar: "قال ابن عمر كان سبب موت أبي بكر وفاة رسول الله كمد فما زال جسمه يخري حتى مات وأن أبا بكر والحارث بن كلدة كانا يأكلان خزيرة أهديت لأبي بكر فقال الحارث لأبي بكر ارفع يدك يا خليفة رسول الله والله إن فيها لسم سنة وأنا وأنت نموت في يوم واحد فرفع يده فلم يزالا عليلين حتى ماتا في يوم واحد عند انقضاء السنة وقال الشعبي ماذا نتوقع من هذه الدنيا الدنية وقد سم رسول الله وسم أبو بكر وقالت عائشة كان أول بدء مرض أبي بكر أنه اغتسل يوم الاثنين لسبع خلون من جمادى الآخرة وكان يوماً بارداً فحم خمسة عشر يوماً لا يخرج إلى صلاة وتوفي ليلة الثلاثاء لثمان بقين من جمادى الآخرة سنة ثلاث عشرة وله ثلاث وستون سنة وكان قد قال لعائشة عند احتضاره انظري اللقحة التي كنا نشرب من لبنها والجفنة التي كنا نصطبح فيها والقطيفة التي كنا نلبسها فإنا كنا ننتفع بذلك حين كنا نلي أمر المسلمين فإذا مت فاردديه إلى عمر فلما مات أرسلت به إلى عمر فقال رحمك الله يا أبا بكر لقد أتعبت من جاء بعدك."
+  en: "Ibn Umar: the cause of Abu Bakr's death was the Prophet's death — grief wasted him till he died. And he had eaten with al-Harith ibn Kalada a gifted khazira — 'lift your hand: by God, a year's poison is in it, and you and I die in one day' — both sickened and died in one day at the year's end; al-Sha'bi: 'what do we expect of this low world — the Prophet was poisoned and Abu Bakr was poisoned'. Aisha: his illness began with a bath on a cold Monday, seven nights past of Jumada II; he fevered fifteen days without coming to prayer and died Tuesday night, eight nights remaining of Jumada II, year thirteen, aged sixty-three. At his death he told Aisha: 'look at the she-camel whose milk we drank, the bowl we breakfasted from, the wrap we wore — we used them while we held the Muslims' charge: when I die, return them to Umar' — 'may God mercy you, Abu Bakr: you have wearied who comes after you'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abu-bakr, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/aisha, role: "الراوية وابنته", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "المستخلف", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-harith-ibn-kalada, role: "الطبيب المسموم معه", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/medina }
+wings: [people, place, time]
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

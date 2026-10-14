@@ -1,0 +1,85 @@
+id: person/rafi-ibn-malik
+class: person
+label:
+  ar: رافع بن مالك بن العجلان
+  en: Rafi' ibn Malik ibn al-Ajlan
+names:
+- kind: full
+  lang: ar
+  value: رافع بن مالك بن العجلان بن عمرو بن عامر بن زريق الأنصاري الزرقي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أنصاري من بني زريق، شهد العقبة وكان أحد النقباء، وقال سعد بن عبد الحميد إنه أول من أسلم من الخزرج؛ ويُروى أنه أول من قدم المدينة بسورة يوسف وأن مسجد بني زريق أول مسجد قُرئ فيه القرآن؛ واختُلف هل شهد بدراً.
+  en: An Ansari of Banu Zurayq, he was at al-Aqaba and one of the naqibs, and Sa'd ibn Abd al-Hamid said he was the first of the Khazraj to embrace Islam; it is reported he was the first to bring the sura of Yusuf to Medina and that the mosque
+    of Banu Zurayq was the first in which the Qur'an was recited; whether he was at Badr is disputed.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 2568 (ص 449).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: هل شهد رافع بن مالك بدراً؟
+  en: Was Rafi' ibn Malik at Badr?
+perspectives:
+- tradition: sunni
+  id: bukhari-abu-nuaym
+  stance:
+    ar: كان من أهل العقبة ولم يشهد بدراً
+  summary:
+    ar: روى البخاري عن معاذ بن رفاعة أن رافعاً كان من أهل العقبة وكان يقول لابنه إنه لا يسره أن يكون شهد بدراً بدل العقبة، وكذلك رواه أبو نعيم.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 449
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: musa-ibn-uqba
+  stance:
+    ar: سمّاه موسى بن عقبة في البدريين
+  summary:
+    ar: وصل موسى بن عقبة الحديث فسماه في البدريين، وكذلك جاء عن ابن إسحاق من رواية يونس بن بكير لا من رواية يزيد البكائي.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 449
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 2568، ص 449
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-8
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 449, entry 2568)

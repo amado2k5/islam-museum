@@ -1,0 +1,17 @@
+id: person/bashir-ibn-sad-al-ansari
+class: person
+label: { ar: "بشير بن سعد الأنصاري" }
+summary:
+  ar: "عند البلاذري: بعثه خالد بن الوليد إلى بانقيا فلقيته خيل الأعاجم عليها فرخبنذاذ فهزمهم وقتل فرخبنذاذ وانصرف وبه جراحة انتقضت به وهو بعين التمر فمات منها — ويقال إن خالداً لقي فرخبنذاذ بنفسه وبشير معه — وكان قد شهد لخريم بن أوس بابنة بقيلة مع محمد بن مسلمة."
+  en: "In al-Baladhuri: Khalid ibn al-Walid sent him to Baniqya; Persian cavalry under Farrukhbandadh met him — he routed them and killed Farrukhbandadh, returning wounded, the wound relapsing at Ayn al-Tamr where he died — though it is said Khalid himself met Farrukhbandadh with Bashir beside him; he had also testified for Khuraym ibn Aws on Buqayla's daughter with Muhammad ibn Maslama."
+gender: male
+died: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بعين التمر من جراحته سنة 12 (البلاذري ص 342). التحويل مشتق." }
+relations:
+  - { type: participated_in, target: event/baniqya-sulh, role: "المبعوث الأول المقتول جراحته", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 342"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-27
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

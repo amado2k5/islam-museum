@@ -1,0 +1,20 @@
+id: event/qutayba-samarqand
+class: event
+kind: conquest
+label: { ar: "فتح قتيبة سمرقند", en: "Qutayba's Conquest of Samarqand" }
+summary:
+  ar: "غزا قتيبة سمرقند وكانت ملوك السغد تنزلها قديماً ثم نزلت إشتيغن فحصر أهلها والتقوا مراراً فاقتتلوا وكتب ملك السغد إلى ملك الشاش وهو مقيم بالطاربند فأتاه في خلق من مقاتلته فلقيهم المسلمون فاقتتلوا أشد قتال ثم إن قتيبة أوقع بهم وكسرهم فصالحه غورك على ألفين ومائتي ألف درهم في كل عام وعلى أن يصلي في المدينة فدخلها وقد اتخذ له غورك طعاماً فأكل وصلى واتخذ مسجداً وخلف بها جماعة من المسلمين فيهم الضحاك بن مزاحم صاحب التفسير ويقال إنه صالحه على سبعمائة ألف درهم وضيافة المسلمين ثلاثة أيام وكان في صلحه بيوت الأصنام والنيران فأخرجت الأصنام فسلبت حليتها وأحرقت وكانت الأعاجم تقول إن فيها أصناماً من استخف بها هلك فلما حرقها قتيبة بيده أسلم منهم خلق وقال المختار بن كعب الجمحي دوخ السغد بالمبائل حتى ترك السغد بالعراء قعوداً وقال أبو عبيدة فتح قتيبة خوارزم وفتح سمرقند عنوة وقد كان سعيد بن عثمان صالح أهلها ففتحها قتيبة بعده ولم يكونوا نقضوا ولكنه استقل صلحهم وفتح بيكند وكش ونسف والشاش وغزا فرغانة ففتح بمها وغزا السغد وأشروسنة."
+  en: "Qutayba besieged Samarqand — the old seat of Sughd's kings before Ishtikhan — through repeated battles, while the Shash king came from Tarband with his fighters for the fiercest fighting, broken and routed. Ghurak truced at two hundred and two thousand dirhams yearly with leave to pray in the city — entered, ate the food Ghurak prepared, built a mosque, and left a Muslim colony including the exegete al-Dahhak ibn Muzahim — or, some say, seven hundred thousand and three days' hospitality. The pact covered the idol- and fire-houses: the idols were taken out, stripped, and burned — the Ajam swore whoever touched them perished — and when Qutayba burned them with his own hand many embraced Islam. Abu Ubayda counts the conquest by force, Sa'id's unbroken sulh deemed too small; and he opened Baykand, Kish, Nasaf, al-Shash, Bum of Farghana, Sughd and Ushrusana."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/qutayba-ibn-muslim, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ghurak, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-dahhak-ibn-muzahim, role: "ممن خلف بها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/samarqand }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

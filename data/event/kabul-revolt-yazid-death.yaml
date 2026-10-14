@@ -1,0 +1,20 @@
+id: event/kabul-revolt-yazid-death
+class: event
+kind: battle
+label: { ar: "نكث أهل كابل ومقتل يزيد بن زياد", en: "Kabul's Breach and Yazid ibn Ziyad's Death" }
+summary:
+  ar: "نكث أهل كابل وأسروا أبا عبيدة بن زياد فسار إليهم يزيد بن زياد فقاتلهم وهم بجنزة فقتل يزيد بن زياد وكثير ممن كان معه وانهزم سائر الناس وكان فيمن استشهد زيد بن عبد الله بن أبي مليكة بن عبد الله بن جدعان القرشي وصلة بن أشيم أبو الصهباء العدوي زوج معاذة العدوية فبعث سلم بن زياد طلحة بن عبد الله بن خلف الخزاعي الذي يعرف بطلحة الطلحات ففدى أبا عبيدة بخمسمائة ألف درهم وسار طلحة من كابل إلى سجستان والياً عليها من قبل سلم فجبى وأعطى زواره ومات بسجستان واستخلف رجلاً من بني يشكر فأخرجته المضرية ووقعت العصبية وغلب كل قوم على مدينتهم فطمع فيهم رتبيل."
+  en: "Kabul's folk broke and captured Abu Ubayda ibn Ziyad; Yazid ibn Ziyad marched on them at Junza and fell with many of his men — among the slain Zayd ibn Abdallah ibn Abi Mulayka al-Qurashi and Sila ibn Ashyam Abu al-Sahba' al-Adawi, husband of Mu'adha al-Adawiyya. Salm ibn Ziyad sent Talha ibn Abdallah ibn Khalaf al-Khuza'i — Talhat al-Talhat — who ransomed Abu Ubayda for five hundred thousand dirhams, then governed Sijistan for Salm, levying and rewarding his followers until he died there; a Yashkuri deputy was expelled by the Mudaris, factionalism broke out, each tribe seized its own town — and Rutbil took hope."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/yazid-ibn-ziyad-ibn-abihi, role: "الأمير المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-ziyad, role: "الأسير المفدى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/talha-ibn-abdallah-al-khuzai, role: "الفادي ثم الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/kabul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

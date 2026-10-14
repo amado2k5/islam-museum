@@ -1,0 +1,19 @@
+id: place/jabal-al-rumma
+class: place
+kind: site
+label: { ar: "جبل الرماة (جبل عينين)", en: "Jabal al-Rumma (Archers' Hill / Jabal Aynayn)" }
+summary:
+  ar: "جبل صغير يقع على الضفة الجنوبية من وادي قناة جنوب شرق معسكر المسلمين في أحد، على بعد حوالي مائة وخمسين متراً من مقر الجيش الإسلامي. عيّن النبي عبد الله بن جبير قائداً لخمسين رامياً فوقه لحماية جناح المسلمين الأيسر من فرسان المشركين. عُرف في عصر النبي بجبل عينين، ثم سُمي جبل الرماة لاحقاً {cite:mubarakpuri-raheeq p.255}."
+  en: "A small hill on the southern bank of Wadi Qanat, southeast of the Muslim camp at Uhud, about a hundred and fifty metres from the Muslim army's position. The Prophet appointed Abdullah ibn Jubayr commander of fifty archers on it to protect the Muslims' left flank from the polytheist cavalry. In the Prophet's time it was known as Jabal Aynayn, and was later called the Archers' Hill {cite:mubarakpuri-raheeq p.255}."
+wings: [place]
+regions: [arabia]
+coordinates: [24.502, 39.609]
+coordinate_precision: approx
+coordinate_note: "تقريبي: الجبل الصغير جنوب شرق ساحة المعركة؛ لم يُحدَّد بدقة من docs/plan/16 §6 أو Wikidata. confidence: low، needs_source."
+relations:
+  - { type: part_of, target: place/uhud }
+  - { type: site_of, target: event/uhud-deployment }
+  - { type: site_of, target: event/uhud-archers-mistake }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 1, generated_by: "kiro; raheeq p. 255" }

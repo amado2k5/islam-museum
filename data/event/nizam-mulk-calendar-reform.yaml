@@ -1,0 +1,21 @@
+id: event/nizam-mulk-calendar-reform
+class: event
+kind: other
+label: { ar: "إصلاح نظام الملك التقويم" }
+summary:
+  ar: "في أيام المقتدي جمع نظام الملك المنجمين فجعلوا النيروز أول نقطة من الحمل وكان قبل ذلك عند حلول الشمس نصف الحوت وصار ما فعله النظام مبدأ التقاويم {cite:tarikh-khulafa-minhaj-1434 p. 650}."
+  en: "Under al-Muqtadi, Nizam al-Mulk gathered the astronomers and made Nawruz the first point of Aries — it had been at the sun's entry into mid-Pisces — and what Nizam did became the origin of the calendars {cite:tarikh-khulafa-minhaj-1434 p. 650}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1079~", hijri: "0471~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة المقتدي؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 650}." }
+relations:
+  - { type: had_participant, target: person/nizam-al-mulk, role: "الآمر", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 646–657"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-39
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

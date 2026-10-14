@@ -1,0 +1,22 @@
+id: person/al-akhdari-abd-al-rahman
+class: person
+label: { ar: "الأخضري عبد الرحمن بن محمد", en: "Al-Akhdari, Abd al-Rahman ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بن محمد الصغير بن محمد بن عامر الأخضري" }
+gender: male
+roles: [jurist, poet]
+traditions: [sunni]
+born: { edtf: "1514", hijri: "0920", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1546", hijri: "0953", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مالكي وناظم، من أهل المغرب، اشتهر بمنظومات في الفقه والعبادات تُدرّس في المحاظر."
+  en: "A Maliki jurist and versifier from the Maghrib, known for verse treatises on law and worship that were taught in the Quranic schools."
+wings: [people, words]
+themes: [development-of-law-theology-institutions, literature]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 369-372, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص369-372", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,19 @@
+id: event/conquest-of-mosul
+class: event
+kind: conquest
+label: { ar: "فتح الموصل", en: "Conquest of Mosul" }
+summary:
+  ar: "ولّى عمر عتبة بن فرقد السلمي الموصل سنة عشرين فقاتله أهل نينوى فأخذ حصنها الشرقي عنوة وعبر دجلة فصالحه أهل الحصن الآخر على الجزية والإذن لمن أراد الجلاء ووجد بالموصل ديارات فصالحه أهلها على الجزية ثم فتح المرج وقراها وأرض باهذرى وباعذرى وحبتون والحيانة والمعلة ودامير وجميع معاقل الأكراد وأتى بني عتا من حزة ففتحها وتل الشهارجة والسلق وكان صالح بن عبادة الهمذاني صاحب رابطة الموصل وكانت أرمية والحور وخوي وسلماس من فتوحه خراجها إلى الموصل حيناً وعزله عمر فولى هرثمة بن عرفجة البارقي فمصّرها وأنزل العرب منازلهم واختط لهم وبنى المسجد الجامع وفرشها ابن تليد صاحب شرطة محمد بن مروان بالحجارة وبنى سعيد بن عبد الملك سورها وهو الذي هدمه الرشيد."
+  en: "Umar made Utba ibn Farqad al-Sulami governor of Mosul in year 20; Nineveh's people fought, he took its eastern fort by force, crossed the Tigris, and the other fortress treated for jizya with leave to quit; Mosul's monasteries treated likewise, then al-Marj, Bahadhra, Hibtun, al-Hiyana, al-Ma'alla, Damir and every Kurdish stronghold, Banu Ata of Hizza, Tall al-Shaharija and al-Salaq — Salih ibn Ubada holding Mosul's ribat — with Urmiya, al-Hawr, Khuway and Salamas paying Mosul a while. Umar dismissed him for Harthama ibn Arfaja al-Bariqi, who made it a misr, settled the Arabs in their plots and built the congregational mosque; Ibn Tulayd paved it with stone and Sa'id ibn Abd al-Malik built the wall al-Rashid later razed."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/utba-ibn-farqad, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/harthama-ibn-arfaja, role: "مؤسس المصر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/mosul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

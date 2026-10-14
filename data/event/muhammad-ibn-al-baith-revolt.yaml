@@ -1,0 +1,19 @@
+id: event/muhammad-ibn-al-baith-revolt
+class: event
+kind: revolt
+label: { ar: "خروج محمد بن البعيث", en: "Muhammad ibn al-Ba'ith's Revolt" }
+summary:
+  ar: "مرند قرية صغيرة نزلها حلبس أبو البعيث ثم حصنها البعيث ثم ابنه محمد بن البعيث وبنى بها قصوراً وكان محمد قد خالف في خلافة المتوكل فحاربه بنا الصغير مولى أمير المؤمنين حتى ظفر به وحمله إلى سر من رأى وهدم حائط مرند وذلك القصر والبعيث من ولد عتيب بن عمرو بن وهب بن أفصى بن دعمي بن جديلة بن أسد بن ربيعة ويقال عتيب بن عوف بن سنان."
+  en: "Marand was a small village settled by Halbas Abu al-Ba'ith, fortified by al-Ba'ith then his son Muhammad ibn al-Ba'ith who built palaces there; Muhammad broke away in al-Mutawakkil's caliphate, and Buna al-Saghir the caliph's mawla fought him till he took him, carried him to Samarra, and razed Marand's wall and that palace — the Ba'ithids descending from Utayb ibn Amr of Asad ibn Rabi'a, or Utayb ibn Awf ibn Sinan as the Utaybis tell it."
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-al-buayth, role: "الخارج", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/buna-al-saghir, role: "محاربه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/marand }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -56,7 +56,7 @@ const faithText = (d.faith ?? []) as any[];
       {d.released && <><dt class="muted">{T.screen.released}</dt><dd style="margin:0">{formatDate(d.released, lang).text}</dd></>}
       {d.countries?.length > 0 && <><dt class="muted">{T.screen.countries}</dt><dd style="margin:0" class="ltr" dir="ltr">{d.countries.map((c: string) => c.toUpperCase()).join(" · ")}</dd></>}
       {d.languages && <><dt class="muted">{T.screen.languages}</dt><dd style="margin:0" class="ltr" dir="ltr">{[...(d.languages.original ?? []).map((l: string) => `${l} (${T.screen.original})`), ...(d.languages.dubbed ?? []).map((l: string) => `${l} (${T.screen.dubbed})`)].join(" · ")}</dd></>}
-      {d.approach && <><dt class="muted">{T.screen.approach}</dt><dd style="margin:0">{d.approach}</dd></>}
+      {d.approach && <><dt class="muted">{T.screen.approach}</dt><dd style="margin:0">{T.screen.approach_values?.[d.approach] ?? d.approach}</dd></>}
       {d.depiction && <><dt class="muted">{T.screen.depiction}</dt><dd style="margin:0">
         {T.screen.prophet}: {T.screen.depiction_values[d.depiction.prophet]} · {T.screen.companions}: {T.screen.depiction_values[d.depiction.companions]} · {T.screen.imams}: {T.screen.depiction_values[d.depiction.imams]}
         {d.depiction.note && <span class="muted"> ({d.depiction.note})</span>}</dd></>}
@@ -78,10 +78,10 @@ const faithText = (d.faith ?? []) as any[];
     <ul style="margin:0;padding-inline-start:1.2rem;font-size:.92rem">
       {(d.story_roles ?? []).map((r: any) => <li><b>{T.roles[r.role] ?? r.role}</b>{r.toward ? <> {T.story.toward} <a href={href(lang, r.toward)}>{lab(r.toward)}</a></> : null}{range(r.start, r.end) ? <span class="muted"> · {range(r.start, r.end)}</span> : null}{r.status ? <span class="chip" style="margin-inline-start:6px">{T.claim[r.status]}</span> : null}{r.perspective ? <span class="muted"> · {traditionLabel(r.perspective, lang)}</span> : null}</li>)}
     </ul>
-    {faithText.length > 0 && <p class="muted" style="margin:8px 0 0;font-size:.88rem">{faithText.map((f) => `${f.value} (${f.basis})`).join(" · ")}</p>}
+    {faithText.length > 0 && <p class="muted" style="margin:8px 0 0;font-size:.88rem">{faithText.map((f) => `${T.faith[f.value] ?? f.value} (${T.basis[f.basis] ?? f.basis})`).join(" · ")}</p>}
     {d.labelled?.length > 0 && <>
       <h3 style="font-size:.95rem;margin:12px 0 6px">{T.story.others}</h3>
-      <ul style="margin:0;padding-inline-start:1.2rem;font-size:.92rem">{d.labelled.map((l: any) => <li lang={lang}>“{l.label[lang] ?? l.label.en}” <span class="muted">— {typeof l.by === "string" && l.by.includes("/") ? lab(l.by) : l.by}</span></li>)}</ul></>}
+      <ul style="margin:0;padding-inline-start:1.2rem;font-size:.92rem">{d.labelled.map((l: any) => <li lang={lang}>“{l.label[lang] ?? l.label.en}” <span class="muted">— {typeof l.by === "string" && l.by.includes("/") ? lab(l.by) : (T.by_values?.[l.by] ?? l.by)}</span></li>)}</ul></>}
     <p class="muted" style="margin:8px 0 0;font-size:.82rem">{T.story.stance_note}</p>
   </section>
 )}
@@ -117,7 +117,7 @@ const faithText = (d.faith ?? []) as any[];
   <section class="panel ui" style="margin-bottom:1.2rem" aria-labelledby="onscreen">
     <h2 id="onscreen" style="font-size:1rem;margin:0 0 8px">{T.screen.on_screen}</h2>
     <ul style="margin:0;padding-inline-start:1.2rem;font-size:.92rem">
-      {screens.map(({ node: s, how }) => <li><a href={href(lang, s.id)}>{labelOf(s, lang)}</a> <span class="muted">· {T.screen.format_values[s.data.format] ?? s.data.format}{s.data.released?.edtf ? `, ${s.data.released.edtf.slice(0, 4)}` : ""} · {T.screen[how]}{s.data.approach ? ` · ${s.data.approach}` : ""}</span></li>)}
+      {screens.map(({ node: s, how }) => <li><a href={href(lang, s.id)}>{labelOf(s, lang)}</a> <span class="muted">· {T.screen.format_values[s.data.format] ?? s.data.format}{s.data.released?.edtf ? `, ${s.data.released.edtf.slice(0, 4)}` : ""} · {T.screen[how]}{s.data.approach ? ` · ${T.screen.approach_values?.[s.data.approach] ?? s.data.approach}` : ""}</span></li>)}
     </ul>
   </section>
 )}

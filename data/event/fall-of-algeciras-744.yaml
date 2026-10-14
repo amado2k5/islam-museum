@@ -1,0 +1,22 @@
+id: event/fall-of-algeciras-744
+class: event
+kind: conquest
+label: { ar: "سقوط الجزيرة الخضراء وكسرة الأسطول" }
+summary:
+  ar: "لما أفضى الملك إلى السلطان أبي الحسن المريني وخلص له المغرب وبعض بلاد الأندلس أمر بإنشاء الأساطيل الكثيرة برسم الجهاد بالأندلس واهتم بذلك غاية الاهتمام، فقضى الله أن استولى الإفرنج على كثير من تلك المراكب بعد أخذهم الجزيرة الخضراء؛ وكان الإفرنج جمعوا جموعاً كثيرة برسم الاستيلاء على ما بقي للمسلمين بالأندلس فاستنفر أهل الأندلس السلطان أبا الحسن فجاء بنفسه إلى سبتة فرضة المجاز ومحل أساطيل المسلمين فإذا بالإفرنج جاءوا بالسفن التي لا تحصى ومنعوه العبور وإغاثة أهل الأندلس حتى استولوا على الجزيرة الخضراء وأنكوه في مراكبه أعظم نكاية؛ وقد أفصح عن ذلك كتاب صدر منه إلى سلطان مصر والشام والحجاز الملك الصالح بن الملك الناصر محمد بن قلاوون {cite:nafh-tib-maqqari p. 389-390}."
+  en: "The fall of Algeciras and the straits disaster: Abu al-Hasan al-Marini built great fleets for the jihad and answered Andalus's summons in person at Ceuta, but countless Christian ships barred the crossing until they took the Green Island and broke his fleet utterly — the loss he himself reported in his letter to Sultan al-Salih of Egypt and the Hijaz {cite:nafh-tib-maqqari p. 389-390}."
+wings: [time]
+themes: [battles]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1344-03~", hijri: "0744~", calendar: julian, precision: year, status: tradition, derived: true, note: "وقع ضمن أخبار أبي الحسن وكتابه وصل مصر شعبان 745؛ التحويل مشتق {cite:nafh-tib-maqqari p. 390}." }
+relations:
+  - { type: had_participant, target: person/abu-al-hasan-al-marini, role: "أجاب الاستنفار فمُنع العبور واستنكرت مراكبه", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 389–390"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-61
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

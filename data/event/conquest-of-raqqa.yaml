@@ -1,0 +1,25 @@
+id: event/conquest-of-raqqa
+class: event
+kind: conquest
+label: { ar: "فتح الرقة", en: "The Conquest of al-Raqqa" }
+summary:
+  ar: "عند البلاذري: نزل إياد بن غنم بالرقة فقاتله أهلها حتى جرح بعض المسلمين فتأخر عنهم لئلا تبلغه حجارتهم وسهامهم وركب فطاف حول المدينة ووضع على أبوابها روابط وبث السرايا فجعلوا يأتون بالأسرى من القرى والأطعمة الكثيرة وكانت الزروع مستحصدة، فلما مضت خمسة أيام أو ستة وهم على ذلك أرسل بطريق المدينة إلى إياد يطلب الأمان فصالحه على أن آمن جميع أهلها على أنفسهم وذراريهم وأموالهم ومدينتهم وقال «الأرض لنا قد وطئناها وأحرزناها» فأقرّها في أيديهم على الخراج ودفع منها ما لم يرده أهل الذمة فرفضوه إلى المسلمين على العشر ووضع الجزية على رقابهم فألزم كل رجل منهم ديناراً في كل سنة وأخرج النساء والصبيان ووظف عليهم مع الدينار أقفزة من قمح وشيئاً من زيت وخل وعسل — فلما ولي معاوية جعل ذلك جزية عليهم — وأقاموا للمسلمين سوقاً على باب الرها، وكتب لهم: «بسم الله الرحمن الرحيم، هذا ما أعطى إياد بن غنم أهل الرقة يوم دخلها: أعطاهم أماناً لأنفسهم وأموالهم وكنائسهم لا تخرب ولا تسكن إذا أعطوا الجزية التي عليهم ولم يحدثوا مغيلة، وعلى أن لا يحدثوا كنيسة ولا بيعة ولا يظهروا ناقوساً ولا باعوثاً ولا صليباً، شهد الله وكفى بالله شهيداً» وختم إياد بخاتمه؛ ويقال ألزم كل حالم أربعة دنانير والأثبت أن عمر كتب إلى عمير بن سعد وهو واليه أن ألزم كل امرئ منهم أربعة دنانير كما ألزم أهل الذهب."
+  en: "In al-Baladhuri: Iyad ibn Ghanm camped on al-Raqqa and its people fought until some Muslims were wounded, so he drew back out of their stones and arrows, rode a circuit of the city posting guards on its gates and loosed raiding parties bringing captives and abundant provisions from the villages, the crops standing ripe; after five or six days of this the city's patrician sent to Iyad seeking aman, and he compounded on safety for all its people's lives, children, wealth and city — saying 'the land is ours, we have trodden and seized it' — leaving it in their hands on kharaj, what of it the dhimmis declined reverting to the Muslims at the tithe, laying jizya on their necks at a dinar a man yearly — women and boys exempt — with measures of wheat and portions of oil, vinegar and honey charged with it, which Mu'awiya later made their jizya; they opened the gates and kept a Muslims' market at the Ruha gate, and Iyad wrote them: 'In God's name — this is what Iyad ibn Ghanm gave the people of al-Raqqa the day he entered it: safety for their lives, wealth and churches, which shall not be ruined nor left uninhabited, provided they pay the jizya upon them and contrive no treachery, and that they raise no church or synagogue, display no clapper, paschal or cross; God witnesses and suffices as witness' — and he sealed it; some say he bound each adult at four dinars, the sounder report being that Umar later wrote to Umayr ibn Sa'd, his governor, to bind each man at four dinars like the gold-tier."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0639~", hijri: "0018~", calendar: julian, precision: year, status: tradition, derived: true, note: "أول فتوح إياد في الجزيرة بعد الرها (البلاذري ص 238–239). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-jazira }
+  - { type: occurred_at, target: place/raqqa }
+  - { type: had_participant, target: person/iyyad-ibn-ghanm, role: "الفاتح وعاقد الصلح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/dhimma, note: "نص الصلح: الكنائس لا تخرب ولا محدثة ولا ناقوس ولا صليب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/jizya, note: "دينار للرجل مع الميرة — ثم أربعة دنانير بكتاب عمر", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 238–239"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/conquest-of-dinawar-masabadhan
+class: event
+kind: conquest
+label: { ar: "فتح الدينور وماسبذان ومهرجانقذف", en: "The Conquest of al-Dinawar, Masabadhan and Mihrajanqadhaf" }
+summary:
+  ar: "عند البلاذري: انصرف أبو موسى الأشعري من نهاوند وقد كان سار بنفسه إليها على بعث أهل البصرة ممداً للنعمان بن مقرن فسار إلى الدينور فأقام عليها خمسة أيام قوتل منها يوماً واحداً ثم إن أهلها أقروا بالجزية والخراج وسألوا الأمان على أنفسهم وأموالهم وأولادهم فأجابهم إلى ذلك وخلف بها عامله في خيل ثم مضى إلى ماسبذان فلم يقاتله أهلها وصالحه أهل السيروان على مثل صلح الدينور وعلى أن يؤدوا الجزية والخراج وبث السرايا فيهم فغلب على أرضها وقوم يقولون إن أبا موسى فتح ماسبذان قبل وقعة نهاوند وبعث أبو موسى عبد الله بن قيس الأشعري السائب بن الأقرع الثقفي وهو صهره على ابنته وهي أم محمد بن السائب إلى الصيمرة مدينة مهرجانقذف ففتحها صلحاً على حقن الدماء وترك السباء والصفح عن الصفراء والبيضاء وعلى أداء الجزية وخراج الأرض وفتح جميع كور مهرجانقذف وأثبت الخبر أنه وجه السائب من الأهواز ففتحها."
+  en: "In al-Baladhuri: Abu Musa al-Ash'ari returned from Nihawand — where he had marched personally on the Basra levy to reinforce al-Nu'man ibn Muqarrin — to al-Dinawar, staying upon it five days and fighting one; its people accepted jizya and kharaj and asked quarter for themselves, their wealth and children, and he granted it, leaving his agent with horse. Then to Masabadhan — its people did not fight him; the people of al-Sirwan made peace on al-Dinawar's terms, paying jizya and kharaj, and he loosed squadrons through them and mastered its land — some say Abu Musa took Masabadhan before Nihawand's battle. Abu Musa sent Abdallah ibn Qays al-Ash'ari — al-Sa'ib ibn al-Aqra' al-Thaqafi, his son-in-law through his daughter, mother of Muhammad ibn al-Sa'ib — to al-Saymara, city of Mihrajanqadhaf, which he took by treaty on sparing of blood, abandoning of captives and the pardoning of the safra' and bayda' treasures, on jizya and the land's kharaj; he conquered the whole kura of Mihrajanqadhaf, the stronger report being that al-Sa'ib was sent from al-Ahwaz."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [persia-central-asia]
+relations:
+  - { type: occurred_at, target: place/dinawar }
+  - { type: occurred_at, target: place/masabadhan }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-saib-ibn-al-aqra, role: "المبعوث إلى الصيمرة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 430–431"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-43
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

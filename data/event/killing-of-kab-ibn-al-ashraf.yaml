@@ -1,0 +1,36 @@
+id: event/killing-of-kab-ibn-al-ashraf
+class: event
+kind: other
+label: { en: "The killing of Ka'b ibn al-Ashraf", ar: "مقتل كعب بن الأشرف" }
+summary:
+  en: "The assassination of the Jewish poet Ka'b ibn al-Ashraf in Rabi' al-Awwal 3 AH by a band led by Muhammad ibn Maslama, after he incited Quraysh to war and satirized Muslim women."
+  ar: "مقتل الشاعر كعب بن الأشرف في حصنه بنواحي المدينة في ربيع الأول 3هـ على يد مفرزة من الأوس بقيادة محمد بن مسلمة، بعد تحريضه قريشاً على قتال المسلمين وتشبيبه بنسائهم."
+wings: [time, people]
+themes: [literature, factions-splits-schisms, polemic-and-apologetic]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-09~", hijri: "0003-03-14", calendar: julian, precision: day, status: tradition, note: "ليلة 14 ربيع الأول سنة 3هـ في حصنه بشرقي المدينة (الرحيق ص242–245)" }
+relations:
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/kab-ibn-al-ashraf, role: "الشاعر القتيل في حصنه", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/muhammad-ibn-maslama, role: "قائد المفرزة وقاتل كعب", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/silkan-ibn-salama, role: "أبو نائلة رضيع كعب بن الأشرف والمستدرج له", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abbad-ibn-bishr, role: "أحد أفراد المفرزة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-harith-ibn-aws, role: "أحد أفراد المفرزة (أصيب بجرح في ساقه)", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-abs-ibn-jabr, role: "أحد أفراد المفرزة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, role: "المأذون بقتله والمودع للمفرزة إلى بقيع الغرقد", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+issue: { ar: "كيف تصف المصادر والدراسات مقتل كعب بن الأشرف وسببه؟", en: "How do the sources and studies describe the killing of Ka'b ibn al-Ashraf and its cause?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { en: "Sunni sources record that Ka'b ibn al-Ashraf openly broke the covenant of Medina by traveling to Mecca to incite Quraysh to wage war on Muslims, writing abusive satire against Muslim women, and planning treachery.", ar: "تعد الرواية السنية كعب بن الأشرف محارباً نقض العهد جهاراً؛ برحيله إلى مكة وتحريضه قريشاً على الثأر، ونظمه قصائد تهجو النبي وتشتم نساء المسلمين، فكان قتله حكماً عسكرياً مشروعاً على خائن ومحارب." }
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+  - tradition: academic
+    id: academic
+    summary: { en: "Western historians analyze the assassination as a targeted political strike against a prominent opposition leader whose poetry threatened community morale and coalition stability.", ar: "ينظر المؤرخون الأكاديميون إلى مقتل كعب بوصفه اغتيالاً سياسياً استراتيجياً استهدف زعيم معارضة شاعراً كان يهدد تماسك حلف المدينة ويثير قوى خارجية لغزوها." }
+    sources: [source/watt-1956-medina]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad, source/watt-1956-medina]
+sensitivity: contested
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 242–245 citing Bukhari 2/576, Ibn Hisham 2/51–57, Zad al-Maad 2/91" }

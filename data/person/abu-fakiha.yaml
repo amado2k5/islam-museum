@@ -1,0 +1,65 @@
+id: person/abu-fakiha
+class: person
+label:
+  ar: أبو فكيهة
+  en: Abu Fakiha
+names:
+- kind: full
+  lang: ar
+  value: يسار الجهمي مولى صفوان بن أمية، ويقال أفلح بن يسار
+- kind: kunya
+  lang: ar
+  value: أبو فكيهة
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من المستضعفين الأولين، مولى صفوان بن أمية وقيل مولى بني عبد الدار، ويقال أصله من الأزد؛ عذّبه أمية بن خلف وربط في رجله حبلاً وجرّه حتى ألقاه في الرمضاء، فاشتراه أبو بكر وأعتقه؛ واسمه يسار وقيل أفلح بن يسار.
+  en: One of the earliest weak converts, a client of Safwan ibn Umayya (or of the Banu Abd al-Dar), said to be of Azd origin. Umayya ibn Khalaf tied a rope to his foot and dragged him onto the scorching sand until he was thought dead; Abu Bakr
+    bought and freed him. His name is given as Yasar, or Aflah ibn Yasar.
+wings:
+- people
+themes:
+- converts-and-leavers
+- slavery-and-freedom
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 10444 (ص 1745).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: persecuted_by
+  target: person/umayya-ibn-khalaf
+  sources:
+  - source/ibn-hajar-isaba
+- type: related_to
+  target: person/abu-bakr
+  sources:
+  - source/ibn-hajar-isaba
+- type: related_to
+  target: person/safwan-ibn-umayya
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 10444، ص 1745
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-9
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1745, entry 10444)

@@ -1,0 +1,24 @@
+id: journey/sicily-to-granada-jubayr
+class: journey
+kind: travel
+label: { ar: "من صقلية إلى غرناطة في رحلة ابن جبير عائداً", en: "From Sicily to Granada on Ibn Jubayr's return road" }
+summary:
+  ar: "مرحلة من رحلة ابن جبير عائداً من الحج: من مسينة في صقلية بالزورق إلى شغلودي، ثم برّاً إلى حضرة صقلية (بالرمو) ومنها إلى طرابنش. انتظر في طرابنش شهوراً لأن ملك صقلية منع خروج المراكب، ثم ركب البحر من جهة جزيرة الراهب، فبلغ جزيرة بابسة (إيبيزا) ثم قرطاجنّة، ومن هناك سار برّاً حتى بلغ منزله بغرناطة."
+wings: [time, place, people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+travelers: [person/ibn-jubayr-muhammad]
+legs:
+  - { from: place/messina, to: place/cefalu, mode: "زورق على طول الساحل", note: "أقام ابن جبير بمسينة تسعة أيام في أحد الفنادق، ثم ركب زورقاً ليلة الثلاثاء الثامن عشر من الشهر المبارك المذكور (ص97)، فوصلوا مرسى شغلودي عشي يوم الأربعاء (ص96). بين شغلودي ومسينة نحو يوم ونصف سيراً بالزورق (ص96).", sources: [source/rihla-ibn-jubayr-1907] }
+  - { from: place/cefalu, to: place/palermo, mode: "برّاً", note: "توجّهوا صباحاً إلى المدينة، فمُنعوا من الدخول في أول الأمر، ثم بقوا قريباً منها (ص94). وصف النص حضرة صقلية وقصورها (ص93–95).", sources: [source/rihla-ibn-jubayr-1907] }
+  - { from: place/palermo, to: place/trapani, mode: "على ظهور الدواب", note: "نزلوا في أحد الفنادق بحضرة صقلية يوم السبت السادس عشر من الشهر (ص92)، ثم سلكوا الطريق إلى بلدة فيها حمّامات حارة فاستحموا فيها، ووصلوا إلى طرابنش عصر ذلك اليوم (ص90).", sources: [source/rihla-ibn-jubayr-1907] }
+  - { from: place/trapani, to: place/ibiza, mode: "مركب في البحر", note: "انتظروا في طرابنش مركباً يتجه إلى الأندلس، وأمر ملك صقلية بمنع خروج المراكب من سواحل جزيرته (ص88). خرجوا من مرسى جزيرة الراهب قرب طرابنش، وتعرضوا لرياح عادتهم إلى المرسى، ثم بلغوا قرب سردانية ثم دفعتهم الريح إلى بر إفريقية عند جزيرة خالطة (ص79)، فعادوا إلى جزيرة الراهب ووجدوا فيها مركباً جنوياً فيه رفقة من المغاربة (ص80). ثم أبصروا بر جزيرة بابسة ليلة السبت العاشر من الشهر ودخلوا مرساها (ص78).", sources: [source/rihla-ibn-jubayr-1907] }
+  - { from: place/ibiza, to: place/cartagena, mode: "مركب في البحر", note: "مرّوا بجزيرة قرمنتيرة وأبصروا جبال دانية (ص77)، ثم نزلوا بقرطاجنّة عشي يوم الخميس الخامس عشر من الشهر (ص77).", sources: [source/rihla-ibn-jubayr-1907] }
+  - { from: place/cartagena, to: place/granada, mode: "برّاً", note: "من قرطاجنّة سار برّاً في مراحل متتابعة ذكرها النص: مسية، ولبرالة، ولورقة، والمنصورة، وقنالش/بسطة، ثم وادي آش، ثم بلغ المنزل بغرناطة يوم الخامس والعشرين من أبريل (ص77–76). السنة لم تُذكر في هذه الفقرة، والمذكور في ص78 هو محرم سنة إحدى وثمانين.", sources: [source/rihla-ibn-jubayr-1907] }
+sources: [source/rihla-ibn-jubayr-1907]
+provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 76–97", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr-sicily-granada" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Jubayr scan pp. 76–97 (scan numbering); OCR checked against page image p.78" }
+
+waypoints:
+  - {"place": "place/palermo", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "باليرمو"}, "narrative": {"ar": "توجّهوا صباحاً إلى المدينة، فمُنعوا من الدخول في أول الأمر، ثم بقوا قريباً منها (ص94). وصف النص حضرة صقلية وقصورها (ص93–95)."}, "sources": ["source/rihla-ibn-jubayr-1907"]}
+  - {"place": "place/granada", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "غرناطة"}, "narrative": {"ar": "من قرطاجنّة سار برّاً في مراحل متتابعة ذكرها النص: مسية، ولبرالة، ولورقة، والمنصورة، وقنالش/بسطة، ثم وادي آش، ثم بلغ المنزل بغرناطة يوم الخامس والعشرين من أبريل (ص77–76). السنة لم تُذكر في هذه الفقرة، والمذكور في ص78 هو محرم سنة إحدى وثمانين."}, "sources": ["source/rihla-ibn-jubayr-1907"]}

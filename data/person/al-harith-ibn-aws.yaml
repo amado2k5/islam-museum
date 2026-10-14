@@ -1,0 +1,89 @@
+id: person/al-harith-ibn-aws
+class: person
+label:
+  ar: الحارث بن أوس بن معاذ
+  en: Al-Harith ibn Aws ibn Mu'adh
+names:
+- kind: full
+  lang: ar
+  value: الحارث بن أوس بن معاذ بن النعمان الأنصاري الأوسي، ابن أخي سعد بن معاذ
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أنصاري أوسي، ابن أخي سعد بن معاذ سيد الأوس؛ ثبت ذكره في حديث صحيح يوم الخندق يحمل مجنّ عمه، وشهد قتل كعب بن الأشرف؛ واختُلف هل استُشهد بأحد.
+  en: An Ansari of the Aws, nephew of Sa'd ibn Mu'adh, chief of the Aws. A sound report places him at the Trench carrying his uncle's shield, and he took part in the killing of Ka'b ibn al-Ashraf; whether he was martyred at Uhud is disputed.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 1381 (ص 250).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: related_to
+  target: person/sad-ibn-muadh
+  sources:
+  - source/ibn-hajar-isaba
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/killing-of-kab-ibn-al-ashraf
+  sources:
+  - source/ibn-hajar-isaba
+issue:
+  ar: هل استُشهد الحارث بن أوس بن معاذ بأحد؟
+  en: Was al-Harith ibn Aws ibn Mu'adh martyred at Uhud?
+perspectives:
+- tradition: sunni
+  id: abu-umar-uhud
+  stance:
+    ar: شهد بدراً واستُشهد بأحد
+  summary:
+    ar: 'قال أبو عمر: شهد بدراً واستُشهد يوم أحد وهو ابن ثمان وعشرين سنة، وتبع في ذلك ابن الكلبي.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 250
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: ibn-hajar-not-uhud
+  stance:
+    ar: الذي استُشهد بأحد غيره
+  summary:
+    ar: 'يردّ ابن حجر ذلك: لم يجد بعض أهل النسب اسمه في قتلى أحد، وأحد قبل الخندق بمدة والحارث شهد الخندق ثم قتل كعب؛ وذكر ابن إسحاق في شهداء أحد حارث بن أوس بن معاذ لكن لم يقل إنه ابن أخي سعد، فهو غيره.'
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 250
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 1381، ص 250
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-9
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 250, entry 1381)

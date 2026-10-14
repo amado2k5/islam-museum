@@ -1,0 +1,18 @@
+id: event/ahnaf-marw-al-rudh
+class: event
+kind: treaty
+label: { ar: "صلح الأحنف قصر الأحنف ومرو الروذ", en: "al-Ahnaf's Sulh at Qasr al-Ahnaf and Marw al-Rudh" }
+summary:
+  ar: "وجه ابن عامر الأحنف بن قيس نحو طغارستان فأتى الموضع الذي يقال له قصر الأحنف وهو حصن من مرو الروذ وله رستاق عظيم يعرف برستاق الأحنف ويدعى بشق الجرذ فحصر أهله فصالحوه على ثلاثمائة ألف فقال الأحنف أصالحكم على أن يدخل رجل منا القصر فيؤذن فيه ويقيم فيكم حتى أنصرف فرضوا وكان الصلح على جميع الرستاق ومضى الأحنف إلى مرو الروذ فحصر أهلها وقاتلوه قتالاً شديداً فهزمهم المسلمون فاضطروهم إلى حصنهم وكان المرزبان من ولد باذان صاحب اليمن أو ذا قرابة له فكتب إلى الأحنف إنه دعاني إلى الصلح إسلام باذان فصالحه على ستين ألفاً وقال المدائني قال قوم ستمائة ألف وقد كانت للأحنف خيل سارت فأخذت رستاقاً يقال له بغ واستاقت منه مواشي فكان الصلح بعد ذلك."
+  en: "Al-Ahnaf went toward Tugharistan to the place called Qasr al-Ahnaf — a fortress of Marw al-Rudh whose great rustaq bears his name, 'Shaqq al-Jarradh' — besieged it, and its folk truced at three hundred thousand; his condition: 'a man of ours enters the castle, gives the adhan in it, and stays among you till I return' — accepted, and the sulh covered the whole rustaq. At Marw al-Rudh they fought hard before being forced into the fort; its marzban, of Badhan of Yemen's line or kin, wrote that Badhan's Islam summoned him to peace — truced at sixty thousand, al-Mada'ini's sources say six hundred — after al-Ahnaf's horse had already taken Rustaq Bagh with its herds."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/marw-al-rudh }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

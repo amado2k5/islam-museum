@@ -1,0 +1,25 @@
+id: event/ibrahim-ibn-al-aghab-maghreb
+class: event
+kind: other
+label: { ar: "تولية هارون إبراهيم بن الأغلب بلاد المغرب", en: "Harun's Appointment of Ibrahim ibn al-Aghlab over the Maghreb" }
+summary:
+  ar: "عند البلاذري: كان إبراهيم بن الأغلب من وجوه جند مصر فوثب واثنا عشر رجلاً معه فأخذوا من بيت المال مقدار أرزاقهم لم يزدادوا على ذلك شيئاً وهربوا فلحقوا بموضع يقال له الزاب وهو من القيروان على مسيرة أكثر من عشرة أيام وعامل الثغر يومئذ من قبل الرشيد هرثمة بن أعين واعتقد إبراهيم بن الأغلب على من كان من تلك الناحية من الجند وغيرهم الرياسة وأقبل يهدي إلى هرثمة ويلاطفه ويكتب إليه يعلمه أنه لم يخرج يداً من طاعة ولا اشتمل على معصية وأنه إنما دعاه إلى ما كان منه الحوجة والضرورة فولّاه هرثمة ناحيته واستكفاه أمرها فلما صرف هرثمة من الثغر ولّى بعده ابن العكي فساء أثره فيه حتى انتقض عليه فاستشار الرشيد هرثمة في رجل يوليه إياه فأشار عليه باستصلاح إبراهيم واصطناعه وتوليته الثغر فكتب إليه الرشيد يعلمه أنه قد صفح له عن جرمه وأقاله هفوته ورأى توليته بلاد المغرب اصطناعاً له ليستقبل به الإحسان ويستقبل به النصيحة فولّي إبراهيم ذلك الثغر وقام به وضبطه."
+  en: "In al-Baladhuri: Ibrahim ibn al-Aghlab was of Egypt's army notables; he rose with twelve men who took from the treasury only the measure of their rations and fled, reaching a place called al-Zab over ten days' march from Qayrawan, the frontier's agent then being Harun's Harthama ibn A'yan; Ibrahim claimed the leadership over that district's troops, sending gifts to Harthama, courting him and writing that he had not left obedience nor embraced sin — only need and necessity had driven him — so Harthama gave him his district and sufficed him for it; when Harthama left the frontier Ibn al-Akki ruled after him and his conduct soured until the province rose on him, so al-Rashid consulted Harthama on a man to appoint and he counselled reconciling Ibrahim, cultivating him and giving him the frontier; al-Rashid wrote that he had pardoned his offence and seen fit to give him the Maghreb as a benefaction — Ibrahim ruled that frontier, stood over it and held it firm."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0795/0800", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة هارون الرشيد بعد هرثمة وابن العكي (البلاذري ص 327). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ifriqiya }
+  - { type: occurred_at, target: place/al-zab, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ibrahim-ibn-al-aghab, role: "المولّى المضبوط للثغر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/harthama-ibn-ayan, role: "المولّي له الناحية والمشير به على الرشيد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/harun-al-rashid, role: "الصافح المولّي", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 327"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-23
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

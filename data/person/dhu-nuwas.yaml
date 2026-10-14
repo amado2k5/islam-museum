@@ -1,0 +1,21 @@
+id: person/dhu-nuwas
+class: person
+label: { en: "Dhu Nuwas (Yusuf Asʾar Yathʾar)", ar: "ذو نواس" }
+gender: male
+roles: []
+faith: [{ value: jewish, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The last Himyarite king before the second Abyssinian occupation: a convert to Judaism who in October 523 tried to force the Christians of Najran to apostatize and, on their refusal, dug the trench of fire — the event the Quran recalls in Surat al-Buruj."
+  ar: "آخر ملوك حمير قبل الاحتلال الحبشي الثاني: تهوّد وقاد سنة 523م حملة على نصارى نجران ليصرفهم عن دينهم قسراً، فلما أبوا خدّ لهم الأخدود وألقاهم في النيران — ما يذكره القرآن في سورة البروج."
+wings: [people]
+themes: [wars-and-campaigns, islam-and-christianity]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: persecutor, toward: group/christians-of-najran, status: scriptural, note: "أصحاب الأخدود في سورة البروج.", sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran] }
+relations:
+  - { type: ruler_of, target: place/yemen, end: { edtf: "0525" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/himyar }
+  - { type: participated_in, target: event/massacre-of-najran, role: "القائد الذي خدّ الأخدود وأحرقهم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

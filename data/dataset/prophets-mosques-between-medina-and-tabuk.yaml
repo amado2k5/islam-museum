@@ -1,0 +1,17 @@
+id: dataset/prophets-mosques-between-medina-and-tabuk
+class: dataset
+label: { ar: "مساجد النبي بين المدينة وتبوك", en: "The Prophet's prayer places between Medina and Tabuk" }
+summary:
+  ar: "قائمة المواضع السبعة عشر التي ذكر ابن إسحاق أن للنبي فيها مساجد معلومة مسماة بين المدينة وتبوك (الجزء الرابع ص174-175)."
+  en: "The seventeen places where, according to Ibn Ishaq, the Prophet had known named mosques between Medina and Tabuk (part 4, pp. 174–175)."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+rows_file: datasets/prophets-mosques-between-medina-and-tabuk.csv
+license: CC0
+source: source/ibn-hisham-saqqa
+columns: [order, station, printed_page, source_note]
+coverage: { printed_pages: "174-175", stations: 17 }
+method_note: "الأسماء كما وردت في المتن؛ لا يحدد الكتاب مواضعها ولا يرتبها بالضرورة على الطريق؛ والترتيب هنا ترتيب الذكر."
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 174-175" }

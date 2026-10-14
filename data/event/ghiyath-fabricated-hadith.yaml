@@ -1,0 +1,21 @@
+id: event/ghiyath-fabricated-hadith
+class: event
+kind: other
+label: { ar: "حديث غياث المكذوب وأشهد أن قفاك قفا كذاب" }
+summary:
+  ar: "قدم على المهدي بعشرة محدثين منهم فرج بن فضالة وغياث بن إبراهيم، وكان المهدي يحب الحمام، فلما دخل غياث حدثه عن أبي هريرة مرفوعاً لا سبق إلا في حافر أو نصل وزاد فيه أو جناح، فأمر له المهدي بعشرة آلاف درهم فلما قام قال أشهد أن قفاك قفا كذاب وإنما استجلبت ذلك، ثم أمر بالحمام فذبحت {cite:tarikh-khulafa-minhaj-1434 p. 445}."
+  en: "Among ten hadith-men brought before al-Mahdi was Ghiyath ibn Ibrahim; the caliph loved pigeons, so Ghiyath transmitted from Abu Hurayra 'there is no wagered race save on hoof or arrowhead' — and added 'or wing'. Al-Mahdi granted him ten thousand dirhams, but as he rose said, 'I bear witness that the back of your head is the back of a liar; you only fished for this' — then ordered the pigeons slaughtered {cite:tarikh-khulafa-minhaj-1434 p. 445}."
+wings: [time, ideas]
+periods: [period/abbasid-early]
+date:
+  start: { edtf: "0775~", hijri: "0158~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافته؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 445}." }
+relations:
+  - { type: had_participant, target: person/al-mahdi, role: "المكاشف", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: related_to, target: concept/ittisal-al-isnad, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 445"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-18
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,25 @@
+id: event/death-of-ibrahim
+class: event
+kind: death
+label: { en: "Death of Ibrahim", ar: "وفاة إبراهيم" }
+date:
+  start: { edtf: "0632-01-27~", hijri: "0010-10-28~", calendar: julian, precision: day, status: tradition, sources: [source/mubarakpuri-raheeq] }
+summary:
+  ar: "توفي إبراهيم بن النبي من مارية القبطية بالمدينة في 28 أو 29 شوال سنة 10هـ وهو صغير، فدمعت عينا النبي وقال: العين تدمع والقلب يحزن ولا نقول إلا ما يرضي ربنا."
+  en: "Ibrahim, the Prophet's son by Maria the Copt, died an infant in Medina on 28 or 29 Shawwal 10 AH (January 632 CE); the Prophet wept and said: the eye weeps and the heart grieves, and we say only what pleases our Lord."
+wings: [time, people]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+- type: occurred_at
+  target: place/medina
+  sources: [source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الرحيق المختوم، البيت النبوي، ص 475
+  generated_by: Devin
+  model: SWE-2 High
+  run: raheeq-batch-24
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); mined from al-Raheeq al-Makhtum p. 475" }

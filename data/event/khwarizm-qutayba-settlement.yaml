@@ -1,0 +1,20 @@
+id: event/khwarizm-qutayba-settlement
+class: event
+kind: other
+label: { ar: "تدبير قتيبة أمر خوارزم", en: "Qutayba's Settlement of Khwarizm" }
+summary:
+  ar: "وجه قتيبة أخاه عبد الرحمن بن مسلم إلى خرزاد فقاتله فقتله وظفر بأربعة آلاف أسير فقتلهم وملك ملك خوارزم الأول على ما شرط له فقال له أهل مملكته إنه ضعيف ووثبوا عليه فقتلوه فولى قتيبة أخاه عبيد الله بن مسلم خوارزم."
+  en: "Qutayba sent his brother Abd al-Rahman ibn Muslim against Khurrazad — killed, with four thousand prisoners slain — and restored the first king on the agreed terms; his own people, calling him weak, killed him, whereupon Qutayba gave Khwarizm to his brother Ubaydallah ibn Muslim."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/qutayba-ibn-muslim, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-muslim, role: "قاتل خرزاد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ubaydallah-ibn-muslim, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/khwarizm }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

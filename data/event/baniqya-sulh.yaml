@@ -1,0 +1,26 @@
+id: event/baniqya-sulh
+class: event
+kind: treaty
+label: { ar: "صلح بانقيا والطيلسان", en: "The Peace of Baniqya and the Taylasan" }
+summary:
+  ar: "عند البلاذري: بعث خالد بن الوليد بشير بن سعد الأنصاري إلى بانقيا فلقيته خيل الأعاجم عليها فرخبنذاذ فرشقوا من معه بالسهام وحمل عليهم فهزمهم وقتل فرخبنذاذ ثم انصرف وبه جراحة انتقضت به وهو بعين التمر فمات منها ويقال إن خالداً لقي فرخبنذاذ بنفسه وبشير معه ثم بعث خالد جرير بن عبد الله البجلي إلى أهل بانقيا فخرج إليه بصبهرى بن صلوبا فاعتذر من القتال وعرض الصلح فصالحه جرير على ألف درهم وطيلسان ويقال إن ابن صلوبا أتى خالداً فاعتذر وصالحه هذا الصلح فلما قتل مهران ومضى يوم التخيلة أنّاهم جرير فقبض منهم ومن أهل الحيرة صلحهم وكتب لهم كتاباً بقبض ذلك وقوم ينكرون أن يكون جرير قدم العراق إلا في خلافة عمر وكان أبو مخنف والواقدي يقولان قدمها مرتين وكتب خالد بصبهرى بن صلوبا كتاباً ووجّه إلى أبي بكر بالطيلسان مع مال الحيرة وبالألف درهم فوهب الطيلسان للحسين بن علي. وحدثه أبو نصر التمار عن شريك النخعي عن الحجاج بن أرطاة عن الحكم عن عبد الله بن مغفل المزني: ليس لأهل السواد عهد إلا الحيرة وألّيس وبانقيا."
+  en: "In al-Baladhuri: Khalid ibn al-Walid sent Bashir ibn Sa'd al-Ansari to Baniqya; Persian cavalry under Farrukhbandadh met him, shot his men, he charged, routed them and killed Farrukhbandadh, returning wounded — the wound relapsed at Ayn al-Tamr and he died of it, though it is said Khalid himself met Farrukhbandadh with Bashir beside him. Then Khalid sent Jarir ibn Abdallah al-Bajali to Baniqya's people; Busbuhra ibn Saluba came out, excused himself from fighting and offered peace — Jarir made peace on a thousand dirhams and a taylasan, though it is said Ibn Saluba came to Khalid himself for this peace. When Mihran was killed and the day of al-Tukhayla passed, Jarir called them to account and collected their and al-Hira's peace-money, writing them a receipt — though some deny Jarir came to Iraq before Umar's caliphate, Abu Mikhnaf and al-Waqidi holding he came twice. Khalid wrote Busbuhra a document and sent the taylasan with Hira's money and the thousand dirhams to Abu Bakr — who gifted the taylasan to al-Husayn ibn Ali. And via Abu Nasr al-Tammar via Sharik al-Nakha'i via al-Hajjaj ibn Arta' via al-Hakam via Abdallah ibn Mughaffal al-Muzani: 'the Sawad's people have no covenant save al-Hira, Ulays and Baniqya.'"
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "في مسير خالد سنة 12 (البلاذري ص 342). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/baniqya }
+  - { type: had_participant, target: person/bashir-ibn-sad-al-ansari, role: "المبعوث الأول المقتول جراحته", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/farrukhbandadh, role: "أمير الخيل المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jarir-ibn-abd-allah-al-bajali, role: "المصالح القابض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/busbuhra-ibn-saluba, role: "المنصالح صاحب الطيلسان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/husayn-ibn-ali, role: "الموهوب له الطيلسان", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 342–343"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-27
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

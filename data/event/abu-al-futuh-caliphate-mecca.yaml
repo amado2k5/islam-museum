@@ -1,0 +1,21 @@
+id: event/abu-al-futuh-caliphate-mecca
+class: event
+kind: declaration
+label: { ar: "دعوة أبي الفتوح العلوي بالخلافة بمكة" }
+summary:
+  ar: "في سنة إحدى وثمانين دعا صاحب مكة أبو الفتوح الحسن بن جعفر العلوي إلى نفسه وتلقب بالراشد بالله وسلم عليه بالخلافة فانزعج صاحب مصر ثم ضعف أمر أبي الفتوح وعاد إلى طاعة العزيز العبيدي {cite:tarikh-khulafa-minhaj-1434 p. 635}."
+  en: "In 381 Mecca's sharif Abu'l-Futuh al-Hasan ibn Ja'far the Alid made claim for himself, titled al-Rashid bi'llah and was saluted as caliph — Egypt's lord was shaken; then Abu'l-Futuh's cause flagged and he returned to the Ubaydid al-Aziz's obedience {cite:tarikh-khulafa-minhaj-1434 p. 635}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0991~", hijri: "0381", calendar: julian, precision: year, status: tradition, derived: true, note: "381؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 635}." }
+relations:
+  - { type: had_participant, target: person/abu-al-futuh-al-alawi, role: "المدعي", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-37
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: person/anas-ibn-abi-marthad
+class: person
+label: { en: "Anas ibn Abi Marthad al-Ghanawi", ar: "أنس بن أبي مرثد الغنوي" }
+names:
+  - { kind: full, lang: ar, value: "أنس بن أبي مرثد الغنوي" }
+gender: male
+roles: [companion]
+summary:
+  en: "A companion of Ghaniy who volunteered to stand night watch over the Muslim camp on the eve of the battle of Hunayn."
+  ar: "صحابي من بني غني تطوّع لحراسة معسكر المسلمين في الليلة التي سبقت غزوة حنين."
+wings: [people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, toward: person/muhammad, status: tradition, note: "تطوّع ليلة حنين للحراسة (الرحيق ص415، عن سنن أبي داود).", sources: [source/mubarakpuri-raheeq, source/sunan-abi-dawud] }
+faith:
+  - { value: sunni, basis: tradition, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: participated_in, target: event/battle-of-hunayn, role: volunteered-night-watch, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sunan-abi-dawud]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 415" }

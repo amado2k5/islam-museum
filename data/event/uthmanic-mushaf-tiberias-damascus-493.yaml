@@ -1,0 +1,21 @@
+id: event/uthmanic-mushaf-tiberias-damascus-493
+class: event
+kind: other
+label: { ar: "نقل المصحف العثماني من طبرية إلى دمشق" }
+summary:
+  ar: "في سنة ثلاث وتسعين نقل المصحف العثماني من طبرية إلى دمشق خوفاً عليه وخرج الناس لتلقيه فآووه في خزانة بمقصورة الجامع {cite:tarikh-khulafa-minhaj-1434 p. 658}."
+  en: "In 493 the Uthmanic mushaf was carried from Tiberias to Damascus for fear — the people went out to receive it and it was housed in a chest in the mosque's maqsura {cite:tarikh-khulafa-minhaj-1434 p. 658}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1099~", hijri: "0493", calendar: julian, precision: year, status: tradition, derived: true, note: "493؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 658}." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 657–666"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-40
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

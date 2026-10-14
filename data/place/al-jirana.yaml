@@ -12,7 +12,10 @@ historical_names:
   - { name: "الجعرانة", note: "بكسر الجيم وإسكان العين وتخفيف الراء أو تشديدها؛ ميقات لأهل مكة" }
 relations:
   - { type: located_in, target: place/mecca, confidence: high, note: "بين مكة والطائف؛ من مواقيت الحرم." }
-coordinate_note: "Coordinates withheld pending gazetteer check; situated north-east of Mecca on the road to Ta'if."
+coordinates: [21.5667, 39.95]
+coordinate_precision: locality
+coordinate_note: "ويكي بيانات Q4704166 (الجعرانة، موضع في منطقة مكة المكرمة)؛ على مستوى الناحية."
+external_ids: { wikidata: "Q4704166" }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 131–143", generated_by: "Devin", run: "ibn-hisham-batch-3" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 131–143" }
+status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 131–143; coordinates added by Claude Code (subagent), claude-sonnet-5-5" }

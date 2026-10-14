@@ -1,0 +1,25 @@
+id: event/battle-of-marj-al-suffar
+class: event
+kind: battle
+label: { ar: "يوم مرج الصفر", en: "The Battle of Marj al-Suffar" }
+summary:
+  ar: "عند البلاذري: اجتمعت الروم جماً عظيماً وأمدّهم هرقل بمدد فلقيهم المسلمون بمرج الصفر وهم متوجهون إلى دمشق وذلك لهلال المحرم سنة 14، فاقتتلوا قتالاً شديداً حتى جرت الدماء في الماء وطحنت بها الطاحونة وجُرح من المسلمين زهاء أربعة آلاف، ثم ولّى الكفرة منهزمين مفاولين لا يلوون على شيء حتى أتوا دمشق وبيت المقدس؛ واستشهد يومئذ خالد بن سعيد بن العاص بن أمية يكنى أبا سعيد وكان قد أعرس في الليلة التي كانت الوقعة في صبيحتها بأم حكيم بنت الحارث بن هشام المخزومية امرأة عكرمة بن أبي جهل، فلما بلغها مصابه انتزعت عمود الفسطاط فقاتلت به فيقال إنها قتلت يومئذ سبعة نفر وإن بها لرذع الخلوق، وفي رواية أبي مخنف أن وقعة المرج بعد أجنادين بعشرين ليلة وأن فتح دمشق بعدها ثم بعده وقعة فحل، ورواية الواقدي أثبت؛ وفي يوم المرج يقول خالد بن سعيد «من فارس كره الطعان يعيرني رنحاً إذا تزلوا بمرج الصفر»، وقال هشام بن محمد الكلبي استشهد خالد بن سعيد يوم المرج وفي عنقه الصمصامة سيفه الذي وهبه له عمرو بن معدي كرب الزبيدي يوم كان عامل النبي على اليمن، فأخذ معاوية السيف من عنقه حين استشهد فكان عنده حتى نازعه فيه سعيد بن العاص فقضى له به عثمان ثم توارثته بنو أمية حتى باعه أيوب بن أبي أيوب من المهدي بنيف وثمانين ألفاً فرد المهدي حليته عليه وأعجب به موسى الهادي فنعته الشاعر أبو الهول ثم دعا الواثق له بصيقل فأسمنه فتغير."
+  en: "In al-Baladhuri: the Romans massed a great gathering, Heraclius reinforcing them, and the Muslims met them at Marj al-Suffar as they made for Damascus at the new moon of al-Muharram year 14; they fought fiercely until blood ran in the water and drove the mill, some four thousand Muslims being wounded, then the unbelievers turned broken and scattered making for Damascus and Bayt al-Maqdis; martyred that day was Khalid ibn Sa'id ibn al-As ibn Umayya, kunya Abu Sa'id, who had celebrated his wedding the night before the battle with Umm Hakim bint al-Harith ibn Hisham al-Makhzumiyya, the wife of Ikrama ibn Abi Jahl — when she heard of his fall she tore out the tent-pole and fought with it, said to have killed seven men that day with ragged clothes on her; in Abu Mikhnaf's report the battle of the Marj came twenty nights after Ajnadayn with Damascus's conquest after it and Fihl thereafter — al-Waqidi's ordering being sounder; on that day Khalid ibn Sa'id says 'who is the knight who hates the thrust, lending me a spear when they slip at Marj al-Suffar', and Hisham ibn Muhammad al-Kalbi records his martyrdom with the Samsama sword at his neck — the sword Amr ibn Ma'di Karib al-Zubaydi had given him when he was the Prophet's agent over Yemen — which Mu'awiya took from his neck when he fell, then Sa'id ibn al-As disputed it with him and Uthman judged it to him, the Umayyads inheriting it until Ayyub ibn Abi Ayyub sold it to al-Mahdi for eighty-odd thousand, al-Mahdi returning its ornament to him, Musa al-Hadi delighting in it and having the poet Abu al-Hawl describe it, then al-Wathiq calling for a sword-polisher who fattened it and changed it."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0635-02~", hijri: "0014-01", calendar: julian, precision: month, status: tradition, derived: true, note: "لهلال المحرم سنة 14هـ (البلاذري ص 162)؛ عند أبي مخنف بعد أجنادين بعشرين ليلة والأصح رواية الواقدي. التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-syria }
+  - { type: occurred_at, target: place/marj-al-suffar }
+  - { type: had_participant, target: person/khalid-ibn-said-ibn-al-as, role: "استشهد فيها وفي عنقه الصمصامة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umm-hakim-bint-al-harith, role: "عروسه؛ قاتلت بعمود الفسطاط فقتلت سبعة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/heraclius, role: "أمدّ الروم بمدد", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 162–165"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

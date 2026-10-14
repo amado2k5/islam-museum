@@ -1,0 +1,19 @@
+id: place/bardhaa
+class: place
+kind: city
+label: { ar: "برذعة", en: "Bardha'a (Partaw)" }
+summary:
+  ar: "برذعة بأران مدينة الثغر كله؛ بناها قباذ بن فيروز حين تبع قائده الذي فتح ما بين نهر الرس إلى شروان."
+  en: "Bardha'a (Partaw) in Arran, 'the frontier's city entire'; Qubadh ibn Fayruz built it when he followed his general who had taken what lay between the river al-Rass and Shirwan."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/arran, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 273"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-16
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

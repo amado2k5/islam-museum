@@ -1,0 +1,20 @@
+id: person/al-ghamidiyya
+class: person
+label: { en: "The Ghamidi woman", ar: "المرأة الغامدية" }
+names:
+  - { kind: full, lang: ar, value: "المرأة الغامدية" }
+gender: female
+roles: []
+summary:
+  en: "A woman of the Ghamid tribe who came to the Prophet in 9 AH and confessed to fornication; he turned her away repeatedly, deferred the penalty until she bore and weaned her child, and she was stoned — he said of her repentance that, apportioned, it would suffice seventy people of Medina."
+  ar: "امرأة من قبيلة غامد جاءت النبي سنة 9هـ فاعترفت على نفسها بالفاحشة؛ فردّها مراراً لعلها ترجع، وأخرّها حتى ولدت وفطمت ابنها فرُجمت، وقال فيها إنها قد تابت توبة لو قُسمت بين سبعين من أهل المدينة لوسعتهم."
+wings: [people]
+themes: [women]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: victim, status: tradition, note: "اعترفت بالفاحشة فرُجمت بعد فطام ولدها (الرحيق ص439، ومسلم).", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+relations:
+  - { type: participated_in, target: event/stoning-of-al-ghamidiyya, role: confessed-and-was-stoned, sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 439" }

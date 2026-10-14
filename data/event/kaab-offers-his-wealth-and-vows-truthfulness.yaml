@@ -1,0 +1,20 @@
+id: event/kaab-offers-his-wealth-and-vows-truthfulness
+class: event
+kind: other
+label: { ar: "كعب يعرض ماله وينذر الصدق", en: "Ka'b offers his wealth and vows to speak only the truth" }
+summary:
+  ar: "قال كعب للنبي إن من توبته أن ينخلع من ماله صدقة، فقال له أمسك عليك بعض مالك فهو خير لك، فأمسك سهمه من خيبر ونذر ألا يحدث إلا صدقاً ما حيي، وعدّ صدقه مع النبي أعظم نعمة بعد الإسلام."
+  en: "Ka'b told the Prophet that part of his repentance was to give up his wealth in charity; the Prophet said: keep some of your wealth, it is better for you, so Ka'b kept his share of Khaybar and vowed to speak nothing but the truth as long as he lived, counting his truthfulness to the Prophet the greatest blessing after Islam."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها. بعد قبول التوبة في المسجد (ص180-181).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/kaab-ibn-malik, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 180-181", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 180-181" }

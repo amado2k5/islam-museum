@@ -1,0 +1,24 @@
+id: event/conquest-of-tanja
+class: event
+kind: conquest
+label: { ar: "فتح طنجة", en: "The Conquest of Tangier" }
+summary:
+  ar: "عند البلاذري عن الواقدي: وجّه عبد العزيز بن مروان موسى بن نصير مولى بني أمية — وأصله من عين التمر ويُقال بل هو من عراشة من بليّ ويُقال هو من لخم — والياً على إفريقية ويُقال بل ولّاها في زمن الوليد بن عبد الملك سنة تسع وثمانين ففتح طنجة ونزلها وهو أول من نزلها واختطّ فيها للمسلمين وانتهت خيله إلى السوس الأدنى وبينه وبين السوس الأقصى نيف وعشرون يوماً فوطنهم وسبى منهم وأثّوا إليه."
+  en: "In al-Baladhuri on al-Waqidi's report: Abd al-Aziz ibn Marwan sent Musa ibn Nusayr — a mawla of Banu Umayya whose origin was Ayn al-Tamr, or, some say, of Arasha of Bali, or of Lakhm — as governor over Ifriqiya; others say he held it in al-Walid ibn Abd al-Malik's day in year 89. He opened Tangier and settled it — the first to lodge there — laying out khittas for the Muslims, and his cavalry reached Sus al-Adna — between which and Sus al-Aqsa lie some twenty-odd days — where he settled them, took captives, and they submitted to him."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { hijri: "0089?", precision: year, status: debated, note: "في ولاية عبد العزيز — وقيل الوليد سنة 89 (البلاذري ص 322)" }
+relations:
+  - { type: occurred_at, target: place/tanja }
+  - { type: occurred_at, target: place/sus-al-adna }
+  - { type: had_participant, target: person/musa-ibn-nusayr, role: "الوالي والفاتح والمختطّ", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-aziz-ibn-marwan, role: "الموجّه — على رواية", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 322"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

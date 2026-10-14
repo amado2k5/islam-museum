@@ -1,0 +1,22 @@
+id: event/address-to-the-ansar-at-jirana
+class: event
+kind: gathering
+label: { en: "The Prophet's address to the Ansar at al-Ji'rana", ar: "خطبة النبي في الأنصار بالجعرانة" }
+summary:
+  en: "When the Ansar received nothing of the lavish Hunayn grants and grumbled that 'the Prophet has rejoined his own people', Sa'd ibn Ubada conveyed their hurt and gathered them in an enclosure; the Prophet reminded them they had been astray and God guided them, destitute and God enriched them, enemies and God reconciled their hearts — then asked whether they were not content that people return with sheep and camels while they return to their homes with the Messenger of God; the Ansar wept until their beards were wet and declared themselves content with the Messenger of God as their share."
+  ar: "لما أعطى النبي سادات قريش ورؤساء قبائل نجد العطايا الجزلة ولم يصب الأنصار منها شيء، كثرت فيهم القالة حتى قال قائلهم: لقي رسول الله قومه، فدخل عليه سعد بن عبادة وأخبره بما يقولون ثم جمعهم له في حظيرة؛ فذكّرهم النبي بما أتاهم به من الهدى والغنى والألفة، ثم قال: «ألا ترضون أن يذهب الناس بالشاة والبعير وترجعوا برسول الله إلى رحالكم؟» فبكوا حتى أخضلوا لحاهم وقالوا: رضينا برسول الله قسماً وحظاً."
+wings: [time, people]
+themes: [reconciliation-and-unity, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-02", hijri: "0008-11", calendar: julian, precision: month, status: tradition, derived: true, note: "عقب قسمة غنائم حنين بالجعرانة في ذي القعدة سنة 8هـ.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/al-jirana }
+  - { type: had_participant, target: person/muhammad, role: addressed-the-ansar, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-ubada, role: conveyed-grievance-and-convened-gathering, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-said-al-khudri, role: narrator, sources: [source/mubarakpuri-raheeq] }
+  - { type: caused_by, target: event/distribution-of-hunayn-spoils }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa, source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 420-421" }

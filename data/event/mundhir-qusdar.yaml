@@ -1,0 +1,19 @@
+id: event/mundhir-qusdar
+class: event
+kind: conquest
+label: { ar: "فتح قصدار على يد المنذر بن الجارود", en: "al-Mundhir ibn al-Jarud's Conquest of Qusdar" }
+summary:
+  ar: "ولى زياد المنذر بن الجارود العبدي ويكنى أبا الأشعث ثغر الهند فغزا البوقان والقيقان فظفر المسلمون وغنموا وبث السرايا في بلادهم وفتح قصدار وسبى بها وكان سنان قد فتحها إلا أن أهلها انتقضوا وبها مات وقال قوم إن عبيد الله بن زياد ولى سنان بن سلمة وكان حري على سراياه وأهل البوقان اليوم مسلمون وقد بنى عمران بن موسى بن يحيى بن خالد البرمكي بها مدينة سماها البيضاء وذلك في خلافة المعتصم."
+  en: "Ziyad gave Abu al-Ash'ath al-Mundhir ibn al-Jarud the frontier; he campaigned Buqan and Qiqan, spread his squadrons, took Qusdar and made captives — Sinan had first opened it before its breach and died there. Some say Ubaydallah ibn Ziyad appointed Sinan with Ibn Harri over his saraya. Buqan's folk are Muslims today, and Imran ibn Musa al-Barmaki built its city al-Bayda under al-Mu'tasim."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/mundhir-ibn-al-jarud, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sinan-ibn-salama, role: "الفاتح الأول المتوفى بها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/qusdar }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

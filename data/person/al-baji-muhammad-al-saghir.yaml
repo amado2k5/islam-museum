@@ -1,0 +1,22 @@
+id: person/al-baji-muhammad-al-saghir
+class: person
+label: { ar: "الباجي محمد بن محمد الصغير", en: "Al-Baji, Muhammad ibn Muhammad al-Saghir" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن محمد الصغير بن يوسف الباجي" }
+gender: male
+roles: [historian]
+traditions: [sunni]
+born: { edtf: "1698", hijri: "1109", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1772", hijri: "1185", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مؤرخ تونسي كثيرا ما يُخطأ في إيراد اسمه الكامل لاشتهاره بكنية «الصغير الباجي»."
+  en: "A Tunisian historian whose full name is often misreported, since he is widely known by the kunya al-Saghir al-Baji."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 34, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص34", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

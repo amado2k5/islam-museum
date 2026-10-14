@@ -1,0 +1,25 @@
+id: event/amr-dismissal-egypt
+class: event
+kind: other
+label: { ar: "عزل عمرو بن العاص وتولية ابن أبي سرح", en: "Amr's Dismissal and Ibn Abi Sarh's Sole Charge of Egypt" }
+summary:
+  ar: "عند البلاذري: لما ولّى عمرو وردان مولاه الإسكندرية ورجع إلى الفسطاط لم يلبث إلا قليلاً حتى أتاه عزله فولّى عثمان بعده عبد الله بن سعد — وكان أخا عثمان من الرضاعة — وكانت ولايته في سنة خمس وعشرين؛ ويُقال كان عبد الله على خراج مصر من قبل فجرى بينه وبين عمرو كلام فكتب يشكوه فعزله عثمان وجمع العملين له وكتب يعلمه أن الإسكندرية فتحت مرة عنوة وانتقضت مرتين ويأمره أن يلزمها رابطة لا تفارقها وأن يدرّ عليهم الأرزاق ويعقب بينهم في كل ستة أشهر؛ وفي رواية ثالثة سأل أهل مصر عثمان حين نزلت الروم الإسكندرية أن يقرّ عمراً حتى يفرغ من قتالهم لأن له معرفة بالحرب وهيبة في أنفس العدو ففعل حتى هزمهم ثم أراد عثمان أن يجعل عمراً على الحرب وعبد الله على الخراج فأبى ذلك عمرو وقال أنا كماسك قرني البقرة والأمير يحلبها فولّى عثمان ابن سعد مصر. وأقامت الحبش من البيما بعد فتح مصر يقاتلون سبع سنين ما يقدر عليهم لا يفجرون من المياه في الغياض."
+  en: "In al-Baladhuri: when Amr set his mawla Wardan over Alexandria and returned to al-Fustat, his dismissal came shortly after — Uthman appointing Abdallah ibn Sa'd, his milk-brother, in year 25; or, some say, Abdallah already held Egypt's kharaj and a quarrel ran between him and Amr, so on his complaint Uthman dismissed Amr, joined both offices to Abdallah, and wrote telling him Alexandria had been opened once by force and had twice revolted — ordering a ribat that never leaves it, provisions dealt out to them, and rotation every six months; in a third account, when the Romans descended on Alexandria Egypt's people begged Uthman to keep Amr until the fighting ended, for his war-knowledge and dread in the enemy's souls — he did till they were routed — then Uthman wished to put Amr over the war and Abdallah over the kharaj, which Amr refused saying 'I am like one holding the cow's horns while the amir milks her', so Uthman gave Ibn Sa'd Egypt. And the Abyssinians of al-Bayma kept fighting seven years after Egypt's conquest, uncatchable, never stirring from the waters amid the thickets."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+date:
+  start: { hijri: "0025", precision: year, status: tradition, note: "البلاذري ص 313" }
+relations:
+  - { type: occurred_at, target: place/al-fustat }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "المعزول صاحب المثل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdullah-ibn-sad-ibn-abi-sarh, role: "المولّى وجامع العملين", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "العازل المولّي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/habasha-of-al-bayma, role: "المقاتلون سبع سنين", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 312–314"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-20
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

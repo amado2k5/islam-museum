@@ -1,0 +1,21 @@
+id: event/waki-ibn-hassan-rule
+class: event
+kind: other
+label: { ar: "حكم وكيع بن حسان خراسان تسعة أشهر", en: "Waki' ibn Hassan's Nine Months over Khurasan" }
+summary:
+  ar: "تصارم وكيع بخراسان وضبطها فأراد سليمان توليته إياها فقيل له إن وكيعاً ترفعه الفتنة وتضعه الجماعة وفيه جفاء وأعرابية وكان وكيع يدعو بطست فيبول والناس ينظرون إليه فمكث تسعة أشهر حتى قدم عليه يزيد بن المهلب وكان بالعراق فكتب إليه سليمان أن يأتي خراسان وبعث إليه بعهده فقدم يزيد مخلداً ابنه فحاسب وكيعاً وحبسه وقال له أد مال الله فقال أو خازناً لله كنت وغزا مخلد البتم ففتحها ثم نقضوا بعده فتركهم ومال عنهم فطمعوا في انصرافه ثم كر عليهم حتى دخلها ودخلها جهم بن زهر وأصاب بها مالاً وأصناماً من ذهب فأهل بتم ينسبون إلى ولائه."
+  en: "Waki' held Khurasan sole; Sulayman meant to confirm him but was told fitna raises him and the jama'a lowers him — too rough, too bedouin, a man who called for a basin and urinated in public. Nine months till Yazid ibn al-Muhallab came appointed; Mukhallad his son called Waki' to account — 'yield God's wealth' — 'was I God's treasurer?' — and jailed him. Mukhallad took al-Buttam, left when they breached, then wheeled back and entered it with Jahm ibn Zahr, who took wealth and golden idols — Buttam's folk trace their mawla-status to him."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/waki-ibn-hassan, role: "الحاكم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yazid-ibn-al-muhallab, role: "الوالي البديل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mukhallad-ibn-yazid, role: "المحاسب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jahm-ibn-zahr, role: "فاتح البتم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/al-buttam }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

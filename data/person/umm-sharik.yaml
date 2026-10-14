@@ -1,0 +1,92 @@
+id: person/umm-sharik
+class: person
+label:
+  ar: أم شريك
+  en: Umm Sharik
+names:
+- kind: full
+  lang: ar
+  value: أم شريك القرشية العامرية (واسمها غزية أو غزيلة)
+- kind: kunya
+  lang: ar
+  value: أم شريك
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابية من بني عامر بن لؤي، اختُلف في اسمها ونسبها؛ تروي بعض الأخبار أنها أسلمت بمكة ودعت نساء قريش سراً فعُذبت، وأنها وهبت نفسها للنبي فلم يقبلها ولم تتزوج حتى ماتت؛ وقد نبّه ابن حجر على ضعف بعض أسانيد ذلك.
+  en: A Companion of Banu Amir ibn Lu'ayy whose name and lineage are disputed; some reports say she embraced Islam at Mecca, called the women of Quraysh in secret and was tortured, and that she offered herself to the Prophet, who did not accept,
+    and she never married; Ibn Hajar points out the weakness of some chains.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 12146 (ص 2011).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+issue:
+  ar: هل تزوج النبي أم شريك، وما خبر هبتها نفسها له؟
+  en: Did the Prophet marry Umm Sharik, and what is the report of her offering herself to him?
+perspectives:
+- tradition: sunni
+  id: report-1
+  stance:
+    ar: الواقدي (عن موسى بن محمد التيمي)
+  summary:
+    ar: وهبت نفسها للنبي فلم يقبلها فلم تتزوج حتى ماتت.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 2010
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-2
+  stance:
+    ar: أبو عمر بن عبد البر
+  summary:
+    ar: من زعم أن النبي نكحها قال إن ذلك كان بمكة.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 2011
+  sources:
+  - source/ibn-hajar-isaba
+- tradition: sunni
+  id: report-3
+  stance:
+    ar: ابن حجر (تعقب)
+  summary:
+    ar: يرد قول أبي عمر بأن قصة الواهبة نفسها كانت بالمدينة، ويقول إنه جاء من طرق كثيرة أنها وهبت نفسها.
+  evidence:
+  - ref: source/ibn-hajar-isaba
+    note:
+      ar: ص 2011
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 12146، ص 2011
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-5
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 2011, entry 12146)

@@ -1,0 +1,22 @@
+id: event/balat-al-shuhada
+class: event
+kind: battle
+label: { ar: "وقعة بلاط الشهداء" }
+summary:
+  ar: "غزا عبد الرحمن بن عبد الله الغافقي أمير الأندلس أرض الإفرنجة وكانت له فيهم وقائع، وأصيب عسكره في رمضان سنة أربع عشرة ومائة في موضع يعرف ببلاط الشهداء وبه عرفت الغزوة {cite:nafh-tib-maqqari p. 272}."
+  en: "Abd al-Rahman al-Ghafiqi's great raid into Francia ended in Ramadan 114 at Balat al-Shuhada — 'the Martyrs' Causeway', the Poitiers of Frankish memory — where his army was destroyed {cite:nafh-tib-maqqari p. 272}."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0732-10~", hijri: "0114-09~", calendar: julian, precision: month, derived: true, note: "رمضان سنة أربع عشرة ومائة {cite:nafh-tib-maqqari p. 272}" }
+relations:
+  - { type: occurred_at, target: place/balat-al-shuhada, sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/abd-al-rahman-al-ghafiqi, role: "أمير الأندلس", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-20
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

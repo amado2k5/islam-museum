@@ -1,0 +1,19 @@
+id: event/digging-of-nahr-maqil
+class: event
+kind: other
+label: { ar: "حفر نهر معقل", en: "Digging of the Ma'qil Canal" }
+summary:
+  ar: "أمر عمر أبا موسى بحفر النهر الآخر وأن يجريه على يد معقل بن يسار المزني فنسب إليه وقيل كلم المنذر بن الجارود العبدي معاوية في حفر نهر ثار فكتب إلى زياد فحفر نهر معقل وأجراه زياد على يد عبد الرحمن بن أبي بكرة أو غيره فلما فرغ منه وأرادوا فتحه بعث زياد معقل بن يسار ففتحه تبركاً به لأنه من أصحاب رسول الله فقال الناس نهر معقل وذكر أن زياداً أعطى رجلاً ألف درهم وقال له أبلغ دجلة وسل عن صاحب هذا النهر من هو فإن قال لك رجل إنه نهر زياد فأعطه الألف فبلغ دجلة ثم رجع فقال ما سألته أحداً إلا قال نهر معقل."
+  en: "Umar ordered Abu Musa to dig the second canal run by Ma'qil ibn Yasar al-Muzani — so it bore his name; others say al-Mundhir ibn al-Jarud asked Mu'awiya for the Tharr canal, he wrote Ziyad, who dug and ran it through Abd al-Rahman ibn Abi Bakra or another — and when it was done he sent Ma'qil to open it for baraka as a Companion, so the people called it Ma'qil's canal. Ziyad gave a man a thousand dirhams: 'go down the Tigris and ask who owns this canal — if anyone says Ziyad's, the thousand is yours'; he returned — 'not one I asked said anything but Ma'qil's canal'."
+periods: [period/rashidun, period/umayyad]
+relations:
+  - { type: had_participant, target: person/maqil-ibn-yasar, role: "المسمى به وفاتحه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "الحافر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

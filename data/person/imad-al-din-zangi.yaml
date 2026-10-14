@@ -1,0 +1,23 @@
+id: person/imad-al-din-zangi
+class: person
+label: { ar: "عماد الدين زنكي" }
+names:
+  - { value: "عماد الدين زنكي بن آق سنقر", kind: full }
+gender: male
+summary:
+  ar: "الأتابك صاحب الموصل وحلب؛ ولي شحنكية بغداد في آخر دولة المستظهر بالله ثم نقل إلى الموصل وسلم إليه السلطان محمود ولده فرخشاه ليربيه ولهذا قيل له أتابك، كان فارساً شجاعاً ميمون النقيبة شديد البأس قوي المراس عظيم الهيبة فيه ظلم وزعارة، سلك الموصل وحلب وحماة وحمص وحلبك والرها والمعرة، قتله بعض غلمانه وهو نائم في ربيع الآخر سنة إحدى وأربعين وخمس مئة وهربوا إلى قلعة جعبر ففتح لهم صاحبها علي بن مالك العقيلي، فتملك الموصل بعده ابنه غازي وتملك حلب وغيرها ابنه الآخر نور الدين محمود {cite:shadharat-dhahab p. 608-609}."
+  en: "Zangi the atabak of Mosul and Aleppo — named for fostering the sultan Mahmud's son Farrukhshah — a brave hard-riding awe-inspiring lord with cruelty in him; his ghilman killed him in his sleep and were received into Ja'bar castle by 'Ali b. Malik the 'Uqaylid; Ghazi took Mosul and Nur al-Din Aleppo {cite:shadharat-dhahab p. 608-609}."
+roles: [military, ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died: { edtf: "1146-09~", hijri: "0541-04~", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الآخر 541هـ قتلاً نائماً {cite:shadharat-dhahab p. 608}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: parent_of, target: person/nur-al-din-mahmud-ibn-zangi }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-13
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

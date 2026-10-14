@@ -1,0 +1,22 @@
+id: journey/badr-to-medina-jubayr
+class: journey
+kind: pilgrimage_route
+label: { ar: "من بدر إلى المدينة في رحلة ابن جبير", en: "From Badr to Medina on Ibn Jubayr's road" }
+summary:
+  ar: "مقطع من رحلة ابن جبير: من بدر إلى الصفراء ثم الروحاء، فالمدينة يوم الاثنين الثالث من محرم سنة 580 بعد مسير نحو ثلاثة أيام. تذكر الرحلة محطات الطريق بالترتيب الذي يعرضه النص، وتفصل الأيام بين محطاته."
+wings: [time, place, people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+travelers: [person/ibn-jubayr-muhammad]
+legs:
+  - { from: place/badr, to: place/al-rawha, mode: "مسير بري", note: "من بدر إلى الصفراء ثم إلى ليدة، ثم إلى بئر ذات العلم المعروفة أيضاً بالروحاء (الصفحة 234). قضوا ليلة الاستهلال بالصفراء، ثم أقاموا بها يوماً ليتزودوا الماء. لا تذكر الصفحة تاريخاً ميلادياً ولا تحسب الأيام هنا.", sources: [source/rihla-ibn-jubayr-1907] }
+  - { from: place/al-rawha, to: place/medina, end: { hijri: "0580-01-03", precision: day, status: historical, note: "يوم الاثنين الثالث لمحرم سنة ثمانين وخمسمائة، الصفحة 233 مع رأس صفحة 234" }, mode: "مسير بري", note: "يذكر النص بعد الروحاء: شعب علي (ليلة الأحد)، ثم ثربان، ثم البيداء، ثم وادي العقيق (ضحى الاثنين) ومنه يرى المسافر منارة قباء، ثم المدينة بعد الظهر. لا يتضح من النص ترتيب هذه المحطات بالنسبة للروحاء على وجه قطعي، فلا تُعد سلسلة متصلة.", sources: [source/rihla-ibn-jubayr-1907] }
+relations: []
+sources: [source/rihla-ibn-jubayr-1907]
+provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 233–234", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr-mecca-medina" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Jubayr scan pp. 233–234 (scan numbering); Mecca to Badr not chained by the text" }
+
+waypoints:
+  - {"place": "place/badr", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "بدر"}, "narrative": {"ar": "نقطة الانطلاق: بدر. من بدر إلى الصفراء ثم إلى ليدة، ثم إلى بئر ذات العلم المعروفة أيضاً بالروحاء (الصفحة 234). قضوا ليلة الاستهلال بالصفراء، ثم أقاموا بها يوماً ليتزودوا الماء. لا تذكر الصفحة تاريخاً ميلادياً ولا تحسب الأيام هنا."}, "sources": ["source/rihla-ibn-jubayr-1907"]}
+  - {"place": "place/al-rawha", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "الروحاء"}, "narrative": {"ar": "من بدر إلى الصفراء ثم إلى ليدة، ثم إلى بئر ذات العلم المعروفة أيضاً بالروحاء (الصفحة 234). قضوا ليلة الاستهلال بالصفراء، ثم أقاموا بها يوماً ليتزودوا الماء. لا تذكر الصفحة تاريخاً ميلادياً ولا تحسب الأيام هنا."}, "sources": ["source/rihla-ibn-jubayr-1907"]}
+  - {"place": "place/medina", "day": 3, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "المدينة المنورة"}, "narrative": {"ar": "يذكر النص بعد الروحاء: شعب علي (ليلة الأحد)، ثم ثربان، ثم البيداء، ثم وادي العقيق (ضحى الاثنين) ومنه يرى المسافر منارة قباء، ثم المدينة بعد الظهر. لا يتضح من النص ترتيب هذه المحطات بالنسبة للروحاء على وجه قطعي، فلا تُعد سلسلة متصلة."}, "sources": ["source/rihla-ibn-jubayr-1907"]}

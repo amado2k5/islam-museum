@@ -8,7 +8,7 @@ names:
   - { kind: laqab, lang: ar-Latn, value: al-Shaykh al-Ra'is }
   - { kind: latinized, lang: la, value: Avicenna }
 gender: male
-born: { edtf: "0980~", hijri: "0370~", calendar: julian, precision: year, status: historical, note: "Traditional date; his biography implies 980, some give 973.", sources: [source/gutas-2014] }
+born: { edtf: "0980~", hijri: "0370~", calendar: julian, precision: year, status: historical, note: "Traditional date; his biography implies 980, some give 973.", sources: [source/shadharat-dhahab, source/gutas-2014] }
 died: { edtf: "1037-06", hijri: "0428-09", calendar: julian, precision: month, status: historical, sources: [source/gutas-2014] }
 roles: [physician, philosopher, astronomer, vizier, poet]
 disciplines: [concept/medicine, concept/falsafa, concept/logic]
@@ -36,12 +36,15 @@ relations:
   - { type: influenced, target: person/al-ghazali, note: "Through critique in Tahafut al-Falasifa." }
   - { type: influenced, target: person/ibn-rushd }
   - { type: influenced, target: person/thomas-aquinas }
+issue: { ar: "ما حكم العلماء على ابن سينا، وما هويته الفكرية والمذهبية؟", en: "What did scholars judge of Ibn Sina, and what was his intellectual and confessional identity?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni scholars judged him differently: al-Ghazali held that three of his teachings (the eternity of the world, God's knowledge of universals only, and the denial of bodily resurrection) amounted to unbelief, while his medical works were widely used.", ar: "تفاوتت أحكام علماء أهل السنة عليه: فقد رأى الغزالي أن ثلاث مسائل من مذهبه (قِدَم العالم، وعلم الله بالكليات دون الجزئيات، وإنكار حشر الأجساد) تفضي إلى الكفر، بينما شاع الانتفاع بكتبه الطبية." }
     sources: [source/gutas-2014]
   - tradition: academic
-    summary: { en: "His father served the Samanids and is reported to have been Ismaili; Ibn Sina's own confessional identity is debated, and his philosophy was attacked by al-Ghazali and defended by later thinkers." }
+    id: academic
+    summary: { en: "His father served the Samanids and is reported to have been Ismaili; Ibn Sina's own confessional identity is debated, and his philosophy was attacked by al-Ghazali and defended by later thinkers.", ar: "يشير المؤرخون إلى أن والده يُروى أنه كان إسماعيليًّا، وأن انتماء ابن سينا المذهبي نفسه محل خلاف." }
     sources: [source/gutas-2014]
 external_ids: { wikidata: Q8011, viaf: "31996761" }
 sources: [source/gohlman-1974, source/gutas-2014]

@@ -1,0 +1,25 @@
+id: person/marhab-al-yahudi
+class: person
+label: { en: "Marhab of Khaybar", ar: "مرحب اليهودي" }
+names:
+  - { kind: full, lang: ar, value: "مرحب بن الحارث الحميري اليهودي" }
+gender: male
+roles: [commander]
+traditions: []
+summary:
+  en: "The formidable warrior-chieftain of the Jewish community of Khaybar; renowned for his strength and poetry; advanced in double armor challenging the Muslim army before the fortress of Na'im, where he was slain in single combat by Ali ibn Abi Talib."
+  ar: "فارس خيبر وصنديدها الشجاع صاحب حصن النطاة؛ خرج في درعين متقلداً سيفين يرتجز مفاخراً بشجاعته يوم خيبر، فبارزه علي بن أبي طالب فضربه ضربة فلق بها هامته وكانت مفتاح فتح الحصن."
+wings: [people]
+themes: [battles, wars-and-campaigns]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0628" }, end: { edtf: "0628" }, status: historical, note: "قائد مقاتلة خيبر المقتول في المبارزة (الرحيق ص370).", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+faith:
+  - { value: jewish, basis: documented, note: "فارس وقائد يهود خيبر." }
+relations:
+  - { type: born_in, target: place/khaybar }
+  - { type: member_of, target: group/jews-of-khaybar }
+  - { type: participated_in, target: event/battle-of-khaybar, role: "فارس خيبر المقتول في المبارزة أمام علي", sources: [source/mubarakpuri-raheeq, source/sahih-muslim] }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 370" }

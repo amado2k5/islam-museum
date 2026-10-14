@@ -1,0 +1,59 @@
+id: person/uthman-ibn-hunayf
+class: person
+label:
+  ar: عثمان بن حنيف
+  en: Uthman ibn Hunayf
+names:
+- kind: full
+  lang: ar
+  value: عثمان بن حنيف الأنصاري
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أنصاري أخو سهل بن حنيف؛ قال الترمذي وحده إنه شهد بدراً وقال الجمهور إن أول مشاهده أحد، بعثه عمر على مساحة الأرض بعد فتح الكوفة، وولاه علي على البصرة فغلبه عليها طلحة والزبير فكانت قصتها المشهورة في وقعة الجمل؛ مات في خلافة معاوية.
+  en: An Ansari, brother of Sahl ibn Hunayf; al-Tirmidhi alone said he fought at Badr, while the majority say his first campaign was Uhud; Umar sent him to survey the land after Kufa was conquered, and Ali appointed him over Basra but Talha and
+    al-Zubayr took it from him, the well-known episode behind the battle of the Camel; he died in Mu'awiya's caliphate.
+wings:
+- people
+themes:
+- battles
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 5908 (ص 1005).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 5908، ص 1005
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1005, entry 5908)

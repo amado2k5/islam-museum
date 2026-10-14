@@ -1,0 +1,23 @@
+id: event/dahhak-takes-kufa-127
+class: event
+kind: civil-war
+label: { ar: "ملك الضحاك بن قيس الكوفة وصالح ابن عمر على القسمة" }
+summary:
+  ar: "في سنة سبع وعشرين ومائة لما استقام لمروان بن محمد الشام ووجه يزيد بن عمر بن هبيرة عاملاً على العراق ضاماً إليه أجناد الجزيرة، صالح عبد الله بن عمر بن عبد العزيز عامل الكوفة الضحاكَ بن قيس الشيباني أمير الخوارج على أن يكون بيد الضحاك ما غلب عليه من الكوفة وسوادها وبيد ابن عمر ما كان بيده من واسط وميسان وتستر وكور الجدة والأهواز وفارس، فارتج الضحاك حتى نحى مروان بكفر توثا من أرض الجزيرة، وكان قد أخذ الموصل في ذي القعدة، واستعمل على الكوفة ملحان الشيباني فقتله النصر بن سعيد عامل ابن هبيرة، فاستعمل الضحاك المثنى بن عمران العائذي فالتقى ابنَ هبيرة بغزة فاقتتلوا قتالاً شديداً أياماً متوالية فقتل المثنى وعزير وعمرو من رؤساء أصحاب الضحاك وانهزمت الخوارج وقرب منصور بن جمهور، ثم جمع منصور أهل الكوفة من اليمانية والمضرية ممن تخلف عن الضحاك وسار بهم حتى نزل الروحاء فأقبل ابن هبيرة في أجناده فلقيهم فقاتلهم أياماً ثم هزمهم وقتل البردون بن مرزوق الشيباني وهرب منصور، وأقبل ابن هبيرة حتى نزل الكوفة ونفى عنها الخوارج {cite:tabari-khayyat-part2 p. 641-643}."
+wings: [time]
+themes: [civil-wars-and-revolts]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "745~", hijri: "0127", calendar: julian, precision: year, status: tradition, derived: true, note: "127–128؛ التحويل مشتق {cite:tabari-khayyat-part2 p. 641-643}." }
+relations:
+  - { type: had_participant, target: person/al-dahhak-ibn-qays-al-shaybani, role: "أمير الخوارج", sources: [source/tabari-khayyat-part2] }
+  - { type: had_participant, target: person/abdallah-ibn-umar-ibn-abd-al-aziz, role: "عامل الكوفة المصالح", sources: [source/tabari-khayyat-part2] }
+  - { type: had_participant, target: person/marwan-ibn-muhammad, role: "الخليفة الذي وجه ابن هبيرة", sources: [source/tabari-khayyat-part2] }
+provenance:
+  layer: own-research
+  source: "تاريخ الطبري (مسح AAlexandrina-224135، دي غوية) — سنة 127–128، ص 641–643"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tabari-96-130-04
+sources: [source/tabari-khayyat-part2]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

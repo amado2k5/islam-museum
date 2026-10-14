@@ -1,0 +1,22 @@
+id: event/yassichimen-627
+class: event
+kind: battle
+label: { ar: "وقعة باسي جمن (ياسي جمن)" }
+summary:
+  ar: "يوم السبت الثامن والعشرين من رمضان سنة سبع وعشرين وستمائة انهزم جلال الدين بن خوارزم شاه بمكان يعرف بباسي حمار من أعمال أرزنجان من علاء الدين كيقباذ بن كيخسرو صاحب بلاد الروم والملك الأشرف صاحب دمشق وديار الجزيرة وخلاط؛ وسببه أن صاحب أرزن الروم أطاع جلال الدين وأعانه على حصر خلاط فخافه علاء الدين فتابع الرسل إلى الملك الكامل وإلى أخيه الأشرف حتى قيل إنه وصلهما منه في يوم واحد خمسة رسل يحث الأشرف على الاجتماع به ولو وحده، فجمع الأشرف عساكر الجزيرة والشام فاجتمعا بسيواس وسارا نحو خلاط فسار إليهما جلال الدين مجداً فالتقوا، وكان مع علاء الدين نحو عشرين ألف فارس ومع الأشرف نحو خمسة آلاف من العساكر الجيدة الشجعان المقدم عليهم عز الدين عمر بن علي من الأكراد الهكارية، فلما التقوا بهت جلال الدين لكثرة العساكر لا سيما عسكر الشام إذ شاهد من تجملهم وسلاحهم ودوابهم ما ملأ صدره رعباً، فأنشب عز الدين بن علي القتال بعسكر حلب فلم يصمد له جلال الدين ومضى منهزماً هو وعسكره فتمزقوا كل ممزق وعاد إلى خلاط ثم إلى خوى بأذربيجان، وأُخذ صاحب أرزن الروم أسيراً فقالوا خرجت النعامة تطلب قرنين فعادت بلا أذنين {cite:kamil-ibn-al-athir p. 486-487}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1230-08-16~", hijri: "0627-09-28", calendar: julian, precision: day, status: tradition, derived: true, note: "السبت 28 رمضان 627؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 486}." }
+relations:
+  - { type: had_participant, target: person/jalal-al-din-khwarazmshah, role: "المنهزم", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-ashraf, role: "صاحب دمشق والجزيرة وخلاط في عسكر التحالف", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 627، ص 486–487"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-12
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

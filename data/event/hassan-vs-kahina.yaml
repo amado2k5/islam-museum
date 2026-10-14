@@ -1,0 +1,25 @@
+id: event/hassan-vs-kahina
+class: event
+kind: campaign
+label: { ar: "غزوة حسان بن النعمان للكاهنة", en: "Hassan ibn al-Nu'man's Campaigns against al-Kahina" }
+summary:
+  ar: "عند البلاذري: ولّى حسّان بن النعمان الغساني فغزا ملكة البربر الكاهنة فهزمته فأتى قصوراً في حيز برقة فنزلها وهي قصور يضمّها قصر سقوفه زجاج فسمّيت قصور حسان ثم إن حساناً غزاها ثانية فقتلها وسبى سبياً من البربر وبعث به إلى عبد العزيز فكان أبو محجن نصيب الشاعر يقول لقد حضرت عند عبد العزيز سبياً من البربر ما رأيت قط وجوهاً أحسن من وجوهم.، وعند ابن خلدون وفي رواية ابن خلدون زحف حسان إليها سنة 79هـ فدخل القيروان وغزا قرطاجنة فافتتحها عنوة وذهب من كان بقي بها من الإفرنج إلى صقلية والأندلس ثم نزل وادي مسكيانة فانهزم المسلمون وأسر خالد بن يزيد القيسي وأقامت في سلطان إفريقية خمس سنين حتى عاد حسان سنة 74هـ فخربت المدن والضياع من طرابلس إلى طنجة فشق ذلك على البربر فاستأمنوا لحسان فقتلت بمكان البئر بجبل أوراس واستأمن البربر على أن يكون منهم اثنا عشر ألفاً مجاهدين معه {cite:tarikh-ibn-khaldun-ibar p. 1607-1608}"
+  en: "In al-Baladhuri: Hassan ibn al-Nu'man al-Ghassani was appointed and raided the Berbers' queen al-Kahina, who routed him; he came to castles within Barqa's bounds and lodged them — a keep among them roofed in glass, whence they were named Qusur Hassan; then Hassan raided her a second time, killed her, and sent a captivity of Berbers to Abd al-Aziz — whereupon Abu Muhjan Nusayb the poet would say 'I was present at Abd al-Aziz's when a captivity of Berbers came: I never saw faces fairer than theirs'."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [maghreb]
+date:
+  start: { edtf: "0698/0703", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد استشهاد زهير بن قيس (البلاذري ص 321). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/ifriqiya }
+  - { type: occurred_at, target: place/barqa }
+  - { type: had_participant, target: person/hassan-ibn-al-numan-al-ghassani, role: "الوالي والقاتل لها في الثانية", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-kahina, role: "ملكة البربر المهزِمة ثم المقتولة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-aziz-ibn-marwan, role: "المُهدى إليه السبي", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 321"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-21
+sources: [source/tarikh-ibn-khaldun-ibar, source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

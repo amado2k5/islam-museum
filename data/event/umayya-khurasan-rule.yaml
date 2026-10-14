@@ -1,0 +1,19 @@
+id: event/umayya-khurasan-rule
+class: event
+kind: other
+label: { ar: "ولاية أمية بن عبد الله خراسان وقتل بكير", en: "Umayya's Khurasan and Bukayr's Killing" }
+summary:
+  ar: "صارت طائفة مع بكير بن وشاح وطائفة مع بجير فكتب وجوه أهل خراسان وخيارهم إلى عبد الملك يعلمونه أنه لا تصلح خراسان بعد الفتنة إلا برجل من قريش فولى أمية بن عبد الله بن خالد بن أسيد بن أبي العيص خراسان فولى بكير بن وشاح طخارستان ثم ولاه غزو ما وراء النهر ثم عزم أمية على غزو بخارا ثم إتيان موسى بن عبد الله بن خازم بالترمذ فانصرف بكير إلى مرو وأخذ ابن أمية فحبسه ودعا الناس إلى خلع أمية فأجابوه وبلغ ذلك أمية فصالح أهل بخارا على فدية قليلة واتخذ السفن وقد كان بكير أحرقها ورجع وترك موسى بن عبد الله فقدم فقاتله بكير ثم صالحه على أن يوليه أي ناحية شاء ثم بلغ أمية أنه يسعى في خلعه فأمر إذا دخل داره أن يؤخذ فدخلها فأخذ وأمر بحبسه فوثب به بجير بن ورقاء فقتله وغزا أمية الختل وقد نقضوا بعد أن صالحهم سعيد بن عثمان فافتتحها."
+  en: "Khurasan split between Bukayr's party and Bujayr's until its notables wrote Abd al-Malik that only a Qurashi could mend it — Umayya ibn Abdallah ibn Khalid was sent, gave Bukayr Tukharistan then the trans-river campaigns, and planned Bukhara then Musa at Tirmidh. Bukayr raced to Marw, seized Umayya's son, called the people to depose him; forewarned, Umayya truced Bukhara cheaply, took ships Bukayr had burned, returned and fought him, then truced him any district he chose — but hearing he still plotted, had him seized at his house and imprisoned, where Bujayr ibn Waraqa leapt on him and killed him. Umayya campaigned al-Khattl, broken since Sa'id ibn Uthman's sulh, and took it."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/umayya-ibn-abdallah-ibn-khalid, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/bukayr-ibn-wishah, role: "الخالع المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/bujayr-ibn-waraqa, role: "قاتله", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

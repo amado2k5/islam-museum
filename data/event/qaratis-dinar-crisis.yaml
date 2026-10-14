@@ -1,0 +1,24 @@
+id: event/qaratis-dinar-crisis
+class: event
+kind: other
+label: { ar: "أمر القراطيس وضرب الدنانير", en: "The Papyrus Affair and the Striking of the Dinars" }
+summary:
+  ar: "عند البلاذري: كانت القراطيس تدخل بلاد الروم من أرض مصر ويأتي العرب من قبل الروم الدنانير وكان عبد الملك بن مروان من أول من أحدث الكتاب الذي يكتب في رؤوس الطوامير — «قل هو الله أحد» وغيرها من ذكر الله — فكتب إليه ملك الروم إنكم أحدثتم في قراطيسكم كتاباً نكرهه فإن تركتموه والّا أناكم في الدنانير من ذكرنيّكم ما تكرهونه فكبُر ذلك في صدر عبد الملك فكره أن يدع سنة حسنة سنّها فأرسل إلى خالد بن يزيد بن معاوية — يا أبا هاشم إحدى بنات طبق — فقال: افرخ روعك يا أمير المؤمنين حرّم دنانيرهم فلا يتعامل بها واضرب للناس سككاً ولا تعفّ هؤلاء الكفرة مما كرهوا في الطوامير فقال عبد الملك فرجتها عني فرج الله عنك وضرب الدنانير. وقال عوانة بن الحكم: كانت الأقباط تذكر المسيح في رؤوس الطوامير وتنسبه إلى الربوبية وتجعل الصليب مكان بسم الله الرحمن الرحيم فلذلك قوّه ملك الروم ما كره واشتد عليه تغيير عبد الملك ما غيّره. وقال المدائني عن مسلمة بن محارب: أشار خالد بن يزيد على عبد الملك بتحريم دنانيرهم والمنع من التعامل بها وأن يدخل بلاد الروم شيء من القراطيس فمكث حيناً لا يحمل إليهم."
+  en: "In al-Baladhuri: papyrus rolls entered Roman lands from Egypt and dinars came to the Arabs from the Romans; Abd al-Malik ibn Marwan was among the first to inscribe what was written at scroll-heads — 'Say He is God, One' and other mentions of God — so Rome's king wrote him: 'you have introduced an inscription on your papyri that we hate; if you leave it, we will put on the dinars of mention of you what you hate.' That weighed on Abd al-Malik — loath to abandon a good practice he had established — so he sent to Khalid ibn Yazid ibn Mu'awiya, who said: 'set your heart at ease, Commander of the Faithful: forbid their dinars that they not be traded, strike coinage for the people, and do not relieve these unbelievers of what they hated in the scrolls.' Abd al-Malik said 'you have relieved me, may God relieve you' and struck the dinars. Awana ibn al-Hakam said: the Copts used to mention Christ at scroll-heads attributing divinity to him, placing the cross where the basmala was — hence Rome's king was galled and Abd al-Malik's change weighed on him. Al-Mada'ini via Maslama ibn Muharib: Khalid ibn Yazid counselled Abd al-Malik to forbid their dinars, prevent trading in them, and stop papyrus entering Roman lands — so for a time none was carried to them."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [egypt-nile, levant-iraq, anatolia-balkans]
+date:
+  start: { edtf: "0692~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافة عبد الملك (البلاذري ص 335–336). التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الخليفة المحدث الضارب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khalid-ibn-yazid-ibn-muawiya, role: "المشير بالتحريم والضرب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/awana-ibn-al-hakam, role: "راوي تعليل الأقباط", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-madaini, role: "راوي رواية المنع", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 335–336"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-26
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

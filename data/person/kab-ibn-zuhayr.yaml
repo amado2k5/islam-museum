@@ -1,0 +1,92 @@
+id: person/kab-ibn-zuhayr
+class: person
+aliases:
+- person/kaab-ibn-zuhayr
+label:
+  ar: كعب بن زهير
+  en: Ka'b ibn Zuhayr
+names:
+- kind: full
+  lang: ar
+  value: كعب بن زهير بن أبي سلمى (ربيعة بن رياح) بن قرط بن الحارث بن مازن المزني
+- kind: full
+  lang: ar
+  value: كعب بن زهير بن أبي سلمى المزني
+gender: male
+roles:
+- companion
+- poet
+traditions:
+- sunni
+summary:
+  ar: الشاعر المشهور ابن الشاعر زهير بن أبي سلمى، صحابي معروف؛ هجا النبي فأهدر دمه، ثم أسلم وأنشده قصيدته «بانت سعاد» فعفا عنه، وتروي المصادر قصة إسلامه بروايتين.
+  en: The famous poet, son of the poet Zuhayr ibn Abi Sulma, a known Companion; he satirised the Prophet, who declared his blood forfeit, then he embraced Islam and recited his poem 'Banat Su'ad' and was forgiven; the sources tell the story of
+    his Islam in two versions.
+wings:
+- people
+themes:
+- converts-and-leavers
+- literature
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 7478 (ص 1276).
+  sources:
+  - source/ibn-hajar-isaba
+- role: poet
+  status: historical
+  note: من بيت الشعر؛ قصيدة بانت سعاد من أشهر قصائد الاعتذار والمدح.
+  sources:
+  - source/mubarakpuri-raheeq
+  - source/ibn-hisham-sira
+- role: convert
+  toward: person/muhammad
+  start:
+    edtf: "0630~"
+  status: tradition
+  sources:
+  - source/mubarakpuri-raheeq
+- role: companion
+  start:
+    edtf: "0630~"
+  status: tradition
+  sources:
+  - source/mubarakpuri-raheeq
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 7478، ص 1276
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+- source/mubarakpuri-raheeq
+- source/ibn-hisham-sira
+- source/zad-al-maad
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1276, entry 7478)
+relations:
+- type: member_of
+  target: group/muzayna
+- type: authored
+  target: work/qasidat-banat-suad
+- type: sibling_of
+  target: person/bujayr-ibn-zuhayr
+- type: child_of
+  target: person/zuhayr-ibn-abi-sulma
+- type: participated_in
+  target: event/kaab-ibn-zuhayr-pardon-and-burda
+  role: الشاعر التائب
+  sources:
+  - source/mubarakpuri-raheeq

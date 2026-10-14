@@ -1,0 +1,22 @@
+id: event/murcia-surrender-643
+class: event
+kind: conquest
+label: { ar: "تمليك مرسية للعدو صلحاً" }
+summary:
+  ar: "تملك العدو مرسية صلحاً ظهر يوم الخميس العاشر من شوال؛ قدم أحمد بن محمد بن هود ولد والي مرسية بجماعة من وجوه النصارى فملكهم إياها صلحاً {cite:nafh-tib-maqqari p. 476}."
+  en: "Murcia was handed to the Christians by treaty on Thursday 10 Shawwal — Ahmad ibn Muhammad ibn Hud, son of its own governor, came with a company of Christian notables and surrendered it by compact {cite:nafh-tib-maqqari p. 476}."
+wings: [time]
+themes: [battles]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1243~", hijri: "0641~", calendar: julian, precision: year, status: debated, derived: true, note: "ورد الخبر في تتابع ضياع المدن بعد كورة مرسية عن ابن هود 626 وقبل فتح إشبيلية 646، ولم يصرح النص المنقول بالسنة؛ اليوم 'الخميس العاشر من شوال' {cite:nafh-tib-maqqari p. 476}." }
+relations:
+  - { type: had_participant, target: person/ibn-hud-al-judhami, role: "سلمها ابن واليها أحمد بن محمد بن هود", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 476"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-59
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: person/sawwar-ibn-hammam
+class: person
+label: { ar: "سوار بن همام العبدي", en: "Sawwar ibn Hammam al-Abdi" }
+summary:
+  ar: "سوار بن همام العبدي؛ كان على مقدمة الحكم بن أبي العاص يوم ريشهر فحمل على شهرك مرزبان فارس فطعنه فأذراه عن فرسه وضربه بسيفه حتى فاضت نفسه وحمل ابن شهرك على سوار فقتله."
+  en: "Sawwar ibn Hammam al-Abdi; al-Hakam's vanguard-leader at Rayshahr — he charged Shahrak, stabbed him from his horse and finished him, and Shahrak's son charged and killed Sawwar."
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/battle-of-rayshahr }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

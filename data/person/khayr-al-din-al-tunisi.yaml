@@ -1,0 +1,22 @@
+id: person/khayr-al-din-al-tunisi
+class: person
+label: { ar: "خير الدين التونسي", en: "Khayr al-Din al-Tunisi" }
+names:
+  - { kind: full, lang: ar, value: "خير الدين التونسي" }
+gender: male
+roles: [politician, writer]
+traditions: [sunni]
+born: { edtf: "1822", hijri: "1238", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1890", hijri: "1308", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "رجل دولة تونسي وعثماني، ولد ببلاد الشركس، وترأس الحكومة التونسية، وكتب في الإصلاح السياسي."
+  en: "A Tunisian and Ottoman statesman, born in the Circassian lands. He led the Tunisian government and wrote on political reform."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/colonial-era]
+regions: [maghreb]
+story_roles:
+  - { role: official, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 722, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص722", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,23 @@
+id: event/death-of-al-mansur
+class: event
+kind: death
+label: { ar: "وفاة المنصور" }
+summary:
+  ar: "في سنة ثمان وخمسين ومئة أمر المنصور نائب مكة بحبس سفيان الثوري وعباد بن كثير فحبسا وتخوف الناس أن يقتلهما إذا ورد الحج فلم يوصله الله مكة سالماً بل قدم مريضاً ومات بالبطن في ذي الحجة ودفن بين الحجون وبئر ميمون {cite:tarikh-khulafa-minhaj-1434 p. 426}."
+  en: "In year 158 al-Mansur ordered his deputy at Mecca to imprison Sufyan al-Thawri and Abbad ibn Kathir, and fear spread that he would kill them on arrival for hajj; God did not bring him to Mecca in health — he arrived ill and died of his ailment in Dhu'l-Hijja and was buried between al-Hujun and Bi'r Maymun {cite:tarikh-khulafa-minhaj-1434 p. 426}."
+wings: [time, people]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0775-10~", hijri: "0158-12", calendar: julian, precision: month, status: tradition, derived: true, note: "ذو الحجة 158؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 426}." }
+relations:
+  - { type: had_participant, target: person/al-mansur, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/sufyan-al-thawri, role: "المحبوس", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/mecca, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 426"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-15
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

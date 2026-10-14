@@ -1,0 +1,22 @@
+id: event/al-mubarak-canal
+class: event
+kind: other
+label: { ar: "حفر نهر المبارك وقنطرة دجلة", en: "al-Mubarak Canal and the Tigris Pontoon" }
+summary:
+  ar: "عند البلاذري: حفر خالد بن عبد الله القسري المبارك فقال الفرزدق «وكأنك بالمبارك بعد شهر تخوض غموره بقع الكلاب» وقال في شعر له طويل «إن المبارك كاسمه يسقى به نهراً يفيض له على الأنهاد حرث السواد وناعم الجبار أعطى خليفته يقود خالد وكأن دجلة حين أقبل مدها ناب يمد له بحبل قطار». وكتب خالد إلى هشام بن عبد الملك يستأذنه في عمل قنطرة على دجلة فكتب إليه هشام لو كان هذا ممكناً لسبق إليه الفرس فراجعه فكتب إليه إن كنت متيقناً أنها تتم فاعملها فعملها وأعظم النفقة عليها فلم يلبث أن قطعها الماء فأغرمه هشام ما كان أنفق عليها."
+  en: "In al-Baladhuri: Khalid ibn Abdallah al-Qasri dug al-Mubarak canal — al-Farazdaq praised it ('al-Mubarak, like its name, waters Sawad's ploughland and the tyrant's lush domain; Tigris at its flood seems a fang stretched out on a caravan rope'). Khalid wrote Hisham ibn Abd al-Malik asking leave to build a pontoon on the Tigris; Hisham answered 'if this were possible the Persians would have preceded us,' and when pressed, 'if you are certain it will hold, do it.' He built it at enormous cost; the water soon cut it, and Hisham made him repay all he had spent."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+relations:
+  - { type: occurred_at, target: place/nahr-al-mubarak }
+  - { type: had_participant, target: person/khalid-ibn-abdallah-al-qasri, role: "الحافر", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hisham-ibn-abd-al-malik, role: "الخليفة المستأذَن", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/farazdaq, role: "المادح", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 408–409"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-37
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

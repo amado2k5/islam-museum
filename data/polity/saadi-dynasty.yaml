@@ -1,0 +1,46 @@
+id: polity/saadi-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: الدولة السعدية
+  en: Saadi dynasty
+summary:
+  ar: سلالة حاكمة قامت سنة 1549م وانتهت سنة 1659م.
+  en: A ruling dynasty established in 1549 CE and ended in 1659 CE.
+wings:
+- time
+- place
+periods:
+- period/gunpowder-empires
+regions:
+- maghreb
+start:
+  edtf: "1549"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+end:
+  edtf: "1659"
+  calendar: gregorian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+external_ids:
+  wikidata: Q1136188
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: polity-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; facts (label, dates, capitals, predecessors) read from the local Wikidata CC0 subset; no prose yet, needs a cited narrative from a history book

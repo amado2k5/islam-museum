@@ -1,0 +1,17 @@
+id: person/ziyad-ibn-hudayr
+class: person
+label: { ar: "زياد بن حدير الأسدي", en: "Ziyad ibn Hudayr al-Asadi" }
+summary:
+  ar: "زياد بن حدير الأسدي؛ عند البلاذري عن إبراهيم بن مهاجر عنه: بعثه عمر إلى نصارى بني تغلب يأخذ منهم نصف عشر أموالهم ونهاه أن يعشر مسلماً أو ذمياً يؤدي الخراج."
+  en: "Ziyad ibn Hudayr al-Asadi; in al-Baladhuri through Ibrahim ibn Muhajir from him: Umar sent him to the Christian Taghlib to take a half-tithe of their wealth, forbidding him to tithe a Muslim or a kharaj-paying dhimmi."
+wings: [people]
+periods: [period/rashidun]
+relations:
+  - { type: participated_in, target: event/treaty-with-taghlib, role: "عامل نصف العشر", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 252"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

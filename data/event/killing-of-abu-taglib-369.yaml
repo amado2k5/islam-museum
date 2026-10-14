@@ -1,0 +1,22 @@
+id: event/killing-of-abu-taglib-369
+class: event
+kind: death
+label: { ar: "قتل أبي تغلب بن حمدان" }
+summary:
+  ar: "في سنة 369هـ قتل أبو تغلب فضل الله بن ناصر الدولة بن حمدان؛ فقد سار إلى الشام فحال قسّام بينه وبين دمشق ورحل إلى ناوى وجاءه كتاب العزيز من مصر يدعوه إلى الحضور عنده فامتنع وترددت الرسل، واجتمع بقائد العزيز عند طبريّة فأمده بكل ما أحب وأراد أخذ دمشق سلماً فلم يتح له ذلك، وكان بالرملة دغفل بن المقرج الجراحي قد استولى على تلك الناحية وأظهر طاعة العزيز وسار إلى أحياء عقيل ليخرجها من الشام فاجتمعت عقيل إلى أبي تغلب تسأل نصرتها فتوسط الحال، ثم سار أبو تغلب إلى الرملة فلم يشك ابن الجراح والفضل أنه يريد حربهما فجمعا العساكر وتصافّ الناس فلما رأت عقيل كثرة الجمع انهزمت ولم يبق مع أبي تغلب إلا نحو سبعمائة من غلمانه فانهزم ولحقه الطلب فوقف يحمي نفسه فضُرب على رأسه فسقط وأُخذ أسيراً وحُمل إلى دغفل فأسره وكتفه وأراد الفضل أخذه وحمله إلى العزيز فخاف دغفل أن يصطنعه العزيز كما فعل بسبكتكين فقتله على غفلة من الفضل وأرسل رأسه إلى مصر {cite:kamil-ibn-al-athir p. 512-514}."
+  en: "In 369 Abu Taghlib, the last Hamdanid, was cornered near Ramla — shut out of Damascus by Qassam, courted then abandoned over Egypt's summons, deserted by Uqayl when Daghful's host massed; captured, he was killed by Daghful the Jarrahid lest al-Aziz adopt him, and his head went to Egypt {cite:kamil-ibn-al-athir p. 512-514}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0979~", hijri: "0369", calendar: julian, precision: year, status: tradition, derived: true, note: "369؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 513}." }
+relations:
+  - { type: had_participant, target: person/abu-taglib-fadlallah, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/daghful-ibn-al-muqarrij, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-15
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

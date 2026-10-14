@@ -1,0 +1,18 @@
+id: person/arda-bint-al-harith
+class: person
+label: { ar: "أردة بنت الحارث", en: "Arda bint al-Harith" }
+summary:
+  ar: "أردة بنت الحارث بن كلدة امرأة عتبة بن غزوان؛ كانت تحرض الناس على القتال يوم مدينة الفرات وهي تقول إن يهزموكم تولجوا فينا الغلف."
+  en: "Arda bint al-Harith ibn Kallada, Utba ibn Ghazwan's wife; she goaded the men at the al-Furat city fight with her verse 'if they rout you, you'll enter us uncircumcised'."
+gender: female
+periods: [period/rashidun]
+relations:
+  - { type: spouse_of, target: person/utba-ibn-ghazwan }
+  - { type: participated_in, target: event/conquest-of-ubulla }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

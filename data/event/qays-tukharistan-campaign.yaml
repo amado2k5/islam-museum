@@ -1,0 +1,18 @@
+id: event/qays-tukharistan-campaign
+class: event
+kind: campaign
+label: { ar: "سيرة قيس بن الهيثم بطخارستان", en: "Qays ibn al-Haytham's Tukharistan March" }
+summary:
+  ar: "استخلف ابن عامر قيس بن الهيثم فسار بعد شخوصه في أرض طخارستان فلم يأت بلداً منها إلا صالحه أهله فأذعنوا له حتى أتى سمنجان فامتنعوا عليه فحصرهم حتى فتحها عنوة وقد قيل إن ابن عامر جعل خراسان بين ثلاثة الأحنف بن قيس وحاتم بن النعمان الباهلي وقيس بن الهيثم والأول أثبت."
+  en: "Left in charge, Qays ibn al-Haytham marched through Tukharistan; every land truced and yielded till Siminjan resisted — he besieged and stormed it. It is said Ibn Amir divided Khurasan among three: al-Ahnaf ibn Qays, Hatim ibn al-Nu'man al-Bahili and Qays ibn al-Haytham, the first the most established."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/qays-ibn-al-haytham, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/siminjan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

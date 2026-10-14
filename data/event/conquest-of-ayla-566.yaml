@@ -1,0 +1,21 @@
+id: event/conquest-of-ayla-566
+class: event
+kind: conquest
+label: { ar: "فتح صلاح الدين أيلة" }
+summary:
+  ar: "في سنة ست وستين وخمسمائة سار صلاح الدين من مصر إلى بلاد الفرنج فأغار على أعمال عسقلان والرملة وهجم على ربض غزة فنهبها، وأتاه ملك الفرنج في قلة من العسكر فقاتلهم وهزمهم وأفلت الملك بعد أن شرف على الأسر، وعاد صلاح الدين إلى مصر فعمل مراكب مفصلة وحملها قطعاً على الجمال في البر حتى قصد أيلة، فجمع قطع المراكب وألقاها في البحر وحصر أيلة براً وبحراً، وفتحها في العشر الأول من ربيع الآخر واستباح أهلها وما فيها {cite:kamil-ibn-al-athir p. 31-32}."
+wings: [time, place]
+themes: [battles]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia, levant-iraq]
+date:
+  start: { edtf: "1170-12~", hijri: "0566-04", calendar: julian, precision: month, status: tradition, derived: true, note: "العشر الأول من ربيع الآخر 566؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 31}." }
+relations:
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "القائد", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 566، ص 31–32"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,27 @@
+id: event/expulsion-of-jurhum
+class: event
+kind: expulsion
+label: { en: "The Expulsion of Jurhum from Mecca", ar: "إجلاء جرهم عن مكة" }
+summary:
+  en: "After some twenty centuries of Jurhumite rule over Mecca, their tyranny over pilgrims and appropriation of the Kaaba’s wealth turns the Adnani clans against them; Khuzaʾa, with Banu Bakr ibn Abd Manaf, expels them in the mid-second century CE — and the departing Jurhumites bury Zamzam and carry off the two golden gazelles and the Black Stone."
+  ar: "بعد نحو عشرين قرناً من ولاية جرهم على مكة، أساءوا إلى الوافدين واستحلوا مال الكعبة؛ فاستثارت خزاعة نفرة العدنانيين وقاتلتهم بمعونة بني بكر بن عبد مناف حتى أجلتهم في أواسط القرن الثاني الميلادي، فسدّ الراحلون زمزم ودفنوا فيها غزالي الكعبة الذهبيين وحجر الركن."
+wings: [time, people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0150~", calendar: julian, precision: year, status: tradition, note: "أواسط القرن الثاني الميلادي في تقدير الرحيق." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: group/jurhum, role: "الطائفة المُجلية", sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+  - { type: had_participant, target: group/khuzaa, role: "القبيلة الغالبة المتحالفة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-bakr-ibn-abd-manaf, role: "الحليف العدناني", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/amr-ibn-al-harith-al-jurhumi, role: "الذي دفن غزالي الكعبة وحجر الركن في زمزم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: part_of, target: period/pre-islamic-arabia }
+sides:
+  - label: { en: "Khuza'a and Banu Bakr", ar: "خزاعة وبنو بكر" }
+    participants: [group/khuzaa, group/banu-bakr-ibn-abd-manaf]
+  - label: { en: "Jurhum", ar: "جرهم" }
+    participants: [group/jurhum]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/qalb-jazirat-al-arab]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 15–34 (batch 25a)" }

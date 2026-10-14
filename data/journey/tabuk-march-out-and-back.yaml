@@ -1,0 +1,30 @@
+id: journey/tabuk-march-out-and-back
+class: journey
+kind: military_campaign
+label: { ar: "مسير النبي إلى تبوك ورجوعه", en: "The march to Tabuk and back" }
+summary:
+  ar: "مسير النبي من المدينة إلى تبوك في رجب سنة تسع ورجوعه، بحسب المواضع التي ذكرها ابن إسحاق: ثنية الوداع حيث ضرب عسكره، والجرف حيث لحق به علي، والحجر، وتبوك حيث أقام بضع عشرة ليلة، ووادي المشقق في طريق العودة. لا يرتّب ابن إسحاق كل المنازل، وسيُكمل مقطع العودة (ذو أوان) في الدفعة 7."
+  en: "The Prophet's march from Medina to Tabuk in Rajab of year nine and his return, by the halting-places Ibn Ishaq names: Thaniyyat al-Wada' where he camped, al-Jurf where Ali caught up, al-Hijr, and Tabuk where he stayed some ten nights, and Wadi al-Mushaqqaq on the way back. Ibn Ishaq does not order every stop; the return section (Dhi Awan) was completed in a later batch."
+wings: [time, place, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad, person/abu-bakr]
+legs:
+  - { from: place/medina, to: place/thaniyyat-al-wada, mode: "عسكر", note: "ضرب النبي عسكره على ثنية الوداع لما خرج (ص162)", sources: [source/ibn-hisham-saqqa] }
+  - { from: place/thaniyyat-al-wada, to: place/al-jurf, mode: "مسير", note: "نزل النبي بالجرف فلحق به علي بن أبي طالب (ص163)؛ ترتيب الجرف بعد ثنية الوداع استنتاج من ترتيب السرد", sources: [source/ibn-hisham-saqqa] }
+  - { from: place/al-jurf, to: place/al-hijr, mode: "مسير", note: "نزل المسلمون بالحجر واستقوا من بئرها ثم نُهوا عن الشرب منها (ص164-165)؛ لا يصرّح النص بالمسافة بين الجرف والحجر", sources: [source/ibn-hisham-saqqa] }
+  - { from: place/al-hijr, to: place/tabuk, mode: "مسير", note: "في الطريق ضلت ناقة النبي (ص166)، وتخلف أبو ذر ولحق ماشياً (ص167)، وسار أبو رهم بالأخضر ليلاً (ص172)؛ لا ترتيب مصرّحاً بين هذه المنازل", sources: [source/ibn-hisham-saqqa] }
+  - { from: place/tabuk, to: place/wadi-al-mushaqqaq, mode: "قفول", note: "أقام النبي بتبوك بضع عشرة ليلة ثم انصرف قافلاً (ص170)، ومرّ بوادي المشقق في طريقه (ص171)", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: part_of, target: event/expedition-to-tabuk, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 162-172", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 162-172" }
+
+waypoints:
+  - {"place": "place/medina", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "المدينة المنورة"}, "narrative": {"ar": "نقطة الانطلاق: المدينة المنورة. ضرب النبي عسكره على ثنية الوداع لما خرج (ص162)"}, "sources": ["source/ibn-hisham-saqqa"]}
+  - {"place": "place/thaniyyat-al-wada", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "ثنية الوداع"}, "narrative": {"ar": "ضرب النبي عسكره على ثنية الوداع لما خرج (ص162)"}, "sources": ["source/ibn-hisham-saqqa"]}
+  - {"place": "place/al-jurf", "day": 3, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "الجُرف"}, "narrative": {"ar": "نزل النبي بالجرف فلحق به علي بن أبي طالب (ص163)؛ ترتيب الجرف بعد ثنية الوداع استنتاج من ترتيب السرد"}, "sources": ["source/ibn-hisham-saqqa"]}
+  - {"place": "place/al-hijr", "day": 4, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "الحِجر"}, "narrative": {"ar": "نزل المسلمون بالحجر واستقوا من بئرها ثم نُهوا عن الشرب منها (ص164-165)؛ لا يصرّح النص بالمسافة بين الجرف والحجر"}, "sources": ["source/ibn-hisham-saqqa"]}
+  - {"place": "place/tabuk", "day": 5, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "تبوك"}, "narrative": {"ar": "في الطريق ضلت ناقة النبي (ص166)، وتخلف أبو ذر ولحق ماشياً (ص167)، وسار أبو رهم بالأخضر ليلاً (ص172)؛ لا ترتيب مصرّحاً بين هذه المنازل"}, "sources": ["source/ibn-hisham-saqqa"]}
+  - {"place": "place/wadi-al-mushaqqaq", "day": 6, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "وادي المُشَقَّق"}, "narrative": {"ar": "أقام النبي بتبوك بضع عشرة ليلة ثم انصرف قافلاً (ص170)، ومرّ بوادي المشقق في طريقه (ص171)"}, "sources": ["source/ibn-hisham-saqqa"]}

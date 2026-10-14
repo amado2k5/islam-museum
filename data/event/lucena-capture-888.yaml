@@ -1,0 +1,22 @@
+id: event/lucena-capture-888
+class: event
+kind: battle
+label: { ar: "وقعة لشانة وأسر أبي عبد الله" }
+summary:
+  ar: "لما سمع أبو عبد الله ابن السلطان أبي الحسن صاحب غرناطة أن عمه بمالقة غنم من النصارى أعمل السفر للغزو بأهل بلاده من غرناطة والشرقية، وذلك في ربيع الأول سنة ثمان وثمانين وثمانمائة، إلى أن بلغ نواحي لشانة فقتل وأسر وغنم، فتجمعت عليه النصارى من جميع تلك النواحي ومعهم كبير قبرة وحالوا بين المسلمين وبلادهم في جبال وأوعار فانكسر الجند وأسر من الناس كثير وقتل آخرون، وكان في جملة من أسر السلطان أبو عبد الله ولم يعرف ثم علم به صاحب لشانة، وأراد صاحب قبرة أن يأخذه منه فهرب به ليلاً وبلغه إلى صاحب قشتالة فنال بذلك عنده رفعة على جميع القواد {cite:nafh-tib-maqqari p. 519}."
+  en: "The battle of Lucena: Boabdil, hearing of his uncle's spoils at Malaga, led Granada's army raiding in Rabi I 888 until the Castilians cut him off in the mountains near Lucena; the army broke and the sultan himself was taken, handed secretly to the Castilian king's captain — the capture that let Castile play him against his father until Granada fell {cite:nafh-tib-maqqari p. 519}."
+wings: [time]
+themes: [battles]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1483-04~", hijri: "0888-03~", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول سنة 888؛ التحويل مشتق {cite:nafh-tib-maqqari p. 519}." }
+relations:
+  - { type: had_participant, target: person/boabdil-muhammad-xii, role: "أسير", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 519"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-55
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

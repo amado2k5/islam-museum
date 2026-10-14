@@ -1,0 +1,18 @@
+id: event/tamim-ibn-zayd-sind
+class: event
+kind: other
+label: { ar: "ولاية تميم بن زيد السند والانسحاب من الهند", en: "Tamim ibn Zayd and the Withdrawal from Hind" }
+summary:
+  ar: "ولي بعد الجنيد تميم بن زيد الأتبي فضعف ووهن ومات قريباً من الديبل بماء يقال له الجواميس وإنما سمي ماء الجواميس لأنه يهرب إليه من ذباب زرق تكون بشاطئ مهران وكان تميم من أسخياء العرب وجد في بيت المال بالسند ثمانية عشر ألف ألف درهم طاطرية فأسرع فيها وكان قد شخص معه في الجند فتى من بني يربوع يقال له خنيس وأمه من طيء إلى الهند فأتى الفرزدق فسأله أن يكتب إلى تميم في إقفاله وعاذت بقبر غالب أبيه فكتب الفرزدق إلى تميم أتنى فعادت يا تميم بغالب وبالحفرة السافي عليها ترابها نهد لي ختيساً واتخذ فيه منة لحوبة أم ما يسوع شرابها فلم يدر ما اسم الفتى أهو حبيش أم خنيس فأمر أن يقفل كل من كان اسمه على مثل هذه الحروف وفي أيام تميم خرج المسلمون عن بلاد الهند ورفضوا مراكزهم فلم يعودوا إليها إلى هذه الغاية."
+  en: "Tamim ibn Zayd al-Utbi — feeble successor — died near Daybul at the Buffalo-Water, named for herds fleeing the shore's blue flies. Of the Arabs' most open-handed, he spent eighteen million Tatari dirhams found in Sind's bayt al-mal. A Yarbu'i lad Khanis reached Hind, begged al-Farazdaq a letter for his manumission, swearing by Ghalib's grave; Farazdaq's verses asked 'Khaytis freed as my bounty' — and Tamim, unsure if the name was Habish or Khanis, freed every slave so lettered. In his days the Muslims quit the lands of Hind and abandoned their stations, not returning to this day."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/tamim-ibn-zayd, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/daybul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

@@ -1,0 +1,18 @@
+id: group/nuba
+class: group
+kind: people
+label: { ar: "النوبة" }
+summary:
+  ar: "عند البلاذري: قوم رشقوا المسلمين بالنبل حتى فقئوا الحدق فسمّوا دماة الحدق وشهدهم شيخ من حمير فقال لم يرَ قوماً أحدّ في حرب منهم أحدهم يقول للمسلم أين تحب أن أضع سهمي منك فلا يخطئه وعُدّت مائة وخمسون عيناً مفقوءة في صف واحد فصالحهم عبد الله بن سعد على هدنة لا جزية فيها."
+  en: "In al-Baladhuri: a people who showered the Muslims with arrows gouging eyes — 'the eye-bleeders'; a Himyari shaykh who witnessed them said none sharper in war, one asking a Muslim where he'd like his arrow placed and never missing, a hundred and fifty gouged eyes counted in one line-up; Abdallah ibn Sa'd made peace with them on a truce without jizya."
+wings: [people]
+regions: [egypt-nile, east-africa]
+relations:
+  - { type: located_in, target: place/nuba, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 331–332"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-25
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

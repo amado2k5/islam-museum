@@ -18,5 +18,5 @@ relations:
   - { type: lived_in, target: place/mecca }
   - { type: protected, target: person/muhammad, start: { edtf: "0617~" }, end: { edtf: "0619~" }, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/boycott-of-banu-hashim, role: boycotted-party, sources: [source/ibn-ishaq-guillaume] }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley]
-status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; restored by Claude Sonnet 5.5 after a thin overwrite in 25fae5f (ibn-hisham batch 5a); Ibn Hisham juz' 4 pp. 3, 10 added as a source" }

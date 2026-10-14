@@ -1,49 +1,103 @@
 ---
+// The landing page (Part 3, B): hero with "this day", the pathways, the nine wings, the four explorers, the Hijri-date widget, the stats.
+// Layout, section order and copy follow docs/design/landing-mockup (islam-museum-landing-mockup.html); colours are the site tokens.
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { ui, WINGS, wingHref, type Lang } from "../lib/i18n";
-import { href } from "../lib/graph";
+import Logo from "./Logo.astro";
+import TodayCards from "./TodayCards.astro";
+import { ui, fmt, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { href, graph, labelOf, summaryOf, realNodes } from "../lib/graph";
+import { wingCountLabel, explorePages, num } from "../lib/nav";
 const { lang, path } = Astro.props as { lang: Lang; path: string };
 const T = ui(lang);
+const L = T.learn;
+const ORDER = ["path-islam-in-30-minutes", "path-meccan-period", "path-abyssinia-migrations", "path-women-around-the-prophet", "path-from-opposition-to-islam"];
+const rank = (id: string) => { const k = ORDER.indexOf(id.replace("exhibit/", "")); return k === -1 ? 99 : k; };
+const paths = realNodes.filter((n: any) => n.class === "exhibit" && String(n.id).startsWith("exhibit/path-")).sort((a: any, b: any) => rank(a.id) - rank(b.id) || String(a.id).localeCompare(String(b.id))).slice(0, 5);
+const PATH_ACC = ["var(--gold)", "var(--wing-ideas)", "var(--wing-place)", "#8e5aa8", "var(--wing-people)"];
+const EXPLORE = explorePages(lang);
+const pages = 2 * realNodes.length;
+const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: num(Math.round(pages / 1000) * 1000, lang) });
 ---
 <BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/" }}>
-  <div class="wrap" style="padding-block:4vh 20px">
-    <p class="eyebrow">{T.landing.eyebrow}</p>
-    <h1 class="display" style="max-width:20ch;font-weight:400;font-size:clamp(2.2rem,6vw,4.4rem)">{T.landing.title_pre} <strong style="font-weight:600;color:var(--link)">{T.landing.title_strong}</strong> {T.landing.title_post}</h1>
-    <p style="font-size:clamp(1.1rem,2vw,1.35rem);max-width:60ch">{T.landing.lede}</p>
-    <p class="ui muted" id="today-line" data-prefix={T.landing.today_is} aria-live="polite" style="margin-bottom:2rem;min-height:2em"></p>
-    <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{T.landing.soon}</p>
-    <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={href(lang, "event/hijra")}>{T.landing.start} <span class="flip" aria-hidden="true">→</span></a> <span class="muted">{T.landing.start_hint}</span></p>
+  <section class="lhero" aria-labelledby="hero-title">
+    <Logo size={460} class="lhero-star" variant="mono" />
+    <div class="wrap" style="position:relative">
+      <p class="eyebrow">{T.landing.eyebrow}</p>
+      <h1 id="hero-title" class="display">{T.landing.title_pre} <span class="hl">{T.landing.title_strong}</span> {T.landing.title_post}</h1>
+      <TodayCards lang={lang} />
+    </div>
+  </section>
 
-    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted);margin-top:3rem">{T.landing.wings}</h2>
-    <ul class="grid-cards" style="margin-bottom:3.5rem">
-      {WINGS.map((w) => (
-        <li><a class="card" href={wingHref(lang, w)}><b style={`border-inline-start:4px solid var(--wing-${w});padding-inline-start:10px`}>{T.wings[w].title}</b><span>{T.wings[w].blurb}</span></a></li>
-      ))}
-    </ul>
+  <section class="block" id="tour" aria-labelledby="tour-title">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="tour-title">{T.landing.tour_title}</h2><p class="muted">{T.landing.tour_lede}</p></div>
+      <ul class="paths" role="list">
+        {paths.map((n: any, i: number) => (
+          <li><a class="path" href={href(lang, n.id)} style={`--acc:${PATH_ACC[i]}`}><h3>{labelOf(n, lang)}</h3><p>{summaryOf(n, lang)}</p><span class="meta ui">{(n.data.rooms ?? []).length} {L.steps} · {n.data.duration_minutes} {L.minutes}</span></a></li>
+        ))}
+      </ul>
+      <p class="plan-note ui">{T.landing.plan_note} · <a href={`/${lang}/learn/`}>{T.landing.all_paths} <span class="flip" aria-hidden="true">→</span></a></p>
+    </div>
+  </section>
 
-    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.entrances.title}</h2>
-    <ul class="grid-cards" style="margin-bottom:3.5rem">
-      {(["questions", "exhibits", "screen", "themes"] as const).map((k) => (
-        <li><a class="card" href={`/${lang}/${k}/`}><b>{T.entrances[k].title}</b><span>{T.entrances[k].blurb}</span></a></li>
-      ))}
-    </ul>
+  <section class="block" id="wings" aria-labelledby="wings-title" style="padding-top:1rem">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="wings-title">{T.landing.wings_title}</h2><p class="muted">{T.landing.wings_lede}</p></div>
+      <ul class="wings" role="list">
+        {WINGS.map((w) => (
+          <li><a class="wing" data-wing={w} href={wingHref(lang, w)} style={`--acc:var(--wing-${w})`}><h3>{T.wings[w].title}</h3><span class="count ui">{wingCountLabel(lang, w)}</span><p>{T.wings[w].blurb}</p></a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
 
-    <h2 class="ui" style="font-size:1.1rem;font-weight:500;color:var(--muted)">{T.landing.how}</h2>
-    <ul class="ui muted" style="display:flex;flex-wrap:wrap;gap:10px 26px;padding:0;list-style:none">
-      {T.landing.pillars.map((p: string) => <li style="display:flex;gap:8px;align-items:center"><span aria-hidden="true" style="width:6px;height:6px;background:var(--gold);border-radius:50%"></span>{p}</li>)}
-    </ul>
-  </div>
-  <script is:inline>
-    (function () {
-      var el = document.getElementById("today-line");
-      if (!el) return;
-      var l = document.documentElement.lang;
-      try {
-        var now = new Date(), loc = (l === "ar" ? "ar" : "en-GB");
-        var h = new Intl.DateTimeFormat(loc + "-u-ca-islamic-umalqura-nu-latn", { day: "numeric", month: "long", year: "numeric" }).format(now);
-        var g = new Intl.DateTimeFormat(loc + "-u-nu-latn", { day: "numeric", month: "long", year: "numeric" }).format(now);
-        el.textContent = el.dataset.prefix + " " + h + " · " + g;
-      } catch (e) {}
-    })();
-  </script>
+  <section class="block" id="explore" aria-labelledby="explore-title" style="padding-top:1rem">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="explore-title">{T.landing.explore_title}</h2><p class="muted">{T.landing.explore_lede}</p></div>
+      <ul class="xgrid" role="list">
+        {EXPLORE.map((x) => (
+          <li class="xcard">
+            <div class="thumb" aria-hidden="true" data-thumb={x.key}>
+              {x.key === "timeline" && <div class="axis"><div class="line"></div><span class="tick" style="inset-inline-start:8%">1هـ</span><span class="tick" style="inset-inline-start:38%">500هـ</span><span class="tick" style="inset-inline-start:66%">1000هـ</span><span class="tick" style="inset-inline-end:6%">1448هـ</span><div class="play"></div></div>}
+              {x.key === "journeys" && <svg class="dunes" viewBox="0 0 150 150" preserveAspectRatio="xMidYMid slice"><rect width="150" height="150" fill="#e8d9b8"/><path d="M0 110 Q40 80 75 105 T150 95 V150 H0 Z" fill="#dfc99c"/><path class="route" d="M118 118 Q95 100 78 108 T40 92 T18 98"/><circle cx="118" cy="118" r="5" fill="var(--gold)"/><circle cx="40" cy="92" r="4" fill="var(--gold)"/><circle cx="18" cy="98" r="4" fill="var(--lapis)"/></svg>}
+              {x.key === "graph" && <div class="stars"><i style="top:30%;right:25%"></i><i style="top:55%;right:45%"></i><i style="top:25%;right:60%"></i><i style="top:65%;right:70%"></i><i style="top:40%;right:80%"></i><svg style="position:absolute;inset:0" viewBox="0 0 150 150"><path d="M112 45 L82 82 L60 37 M82 82 L45 97 M82 82 L30 60" stroke="#e8c85a" stroke-width="1" opacity=".6" fill="none"/></svg></div>}
+              {x.key === "revelation" && <div class="split"><div></div><div></div></div>}
+            </div>
+            <div class="body" style={`--acc:${x.key === "timeline" ? "var(--gold)" : x.key === "journeys" ? "var(--wing-living)" : x.key === "graph" ? "#8e5aa8" : "var(--lapis)"}`}>
+              <h3>{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon ui">{T.landing.in_progress}</span>}</h3>
+              <p>{T.explore.pages[x.key].desc}</p>
+              <a class="go ui" href={x.href}>{T.landing.try} <span class="flip" aria-hidden="true">→</span></a>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="widget-title">
+    <div class="wrap band-grid">
+      <div>
+        <h2 id="widget-title">{T.landing.widget_title}</h2>
+        <p class="muted" style="margin:0">{T.landing.widget_lede}</p>
+        <form class="row ui" id="hijri-form" data-hijri-widget data-corresponds={T.landing.corresponds} data-none={T.landing.widget_none} data-fail={T.landing.widget_fail}>
+          <label class="sr-only" for="bdate">{T.landing.date_label}</label>
+          <input type="date" id="bdate" name="d" lang={lang} required />
+          <button class="btn btn-lapis" type="submit">{T.landing.calc}</button>
+        </form>
+        <p class="hresult ui" id="hresult" role="status" aria-live="polite" hidden></p>
+      </div>
+      <div style="text-align:center">
+        <p style="font-size:1.15rem">{T.landing.widget_or}</p>
+        <a class="btn btn-outline" href={href(lang, "event/hijra")} style="font-size:1.05rem;padding:.8rem 2rem">{T.landing.start} <span class="flip" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats ui" aria-label={T.landing.coverage}>
+    <div class="wrap">
+      <p class="nums">{stats}</p>
+      <p class="honest muted">{T.landing.honest} — <a href={`/${lang}/coverage/`}>{T.landing.honest_link}</a></p>
+    </div>
+  </section>
+  <script src="../scripts/hijri-widget.ts"></script>
 </BaseLayout>

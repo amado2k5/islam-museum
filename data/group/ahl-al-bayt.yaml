@@ -19,16 +19,20 @@ relations:
   - { type: has_member, target: person/fatima }
   - { type: has_member, target: person/hasan-ibn-ali }
   - { type: has_member, target: person/husayn-ibn-ali }
+issue: { ar: "من هم أهل البيت، ومن يدخل فيهم؟", en: "Who are the Ahl al-Bayt, and who is included?" }
 perspectives:
   - tradition: sunni
+    id: sunni
     summary: { en: "Sunni tradition includes in Ahl al-Bayt the Prophet's wives together with Ali, Fatima, Hasan and Husayn and their kin — honored by the verse of purification and the hadith of the cloak, without conferring religious authority on descent alone." }
     sources: [source/ibn-sad-tabaqat-bewley]
   - tradition: academic
+    id: academic
     summary: { en: "Historians treat 'the house' as a sacred category that expanded with the community's later debates about leadership, its boundaries drawn differently at different moments." }
     sources: [source/madelung-1997]
   - tradition: shia-twelver
+    id: shia-twelver
     summary: { en: "Twelver Shia tradition defines Ahl al-Bayt as the people of the cloak — Muhammad, Ali, Fatima, Hasan and Husayn — and the line of Imams descended through them, bearers of the Prophet's religious authority." }
     sources: [source/momen-1985]
 sensitivity: contested
-sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/momen-1985]
+sources: [source/ibn-sad-tabaqat-bewley, source/madelung-1997, source/momen-1985, source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

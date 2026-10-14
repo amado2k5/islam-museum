@@ -1,0 +1,57 @@
+id: person/asma-bint-yazid
+class: person
+label:
+  ar: أسماء بنت يزيد بن السكن
+  en: Asma' bint Yazid ibn al-Sakan
+names:
+- kind: full
+  lang: ar
+  value: أسماء بنت يزيد بن السكن بن رافع بن امرئ القيس بن زيد بن عبد الأشهل الأنصارية الأوسية الأشهلية
+- kind: kunya
+  lang: ar
+  value: أم سلمة
+gender: female
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: صحابية من بني عبد الأشهل ابنة عم معاذ بن جبل، تكنى أم سلمة ويقال لها «خطيبة النساء»؛ بايعت النبي في نسوة، وشهدت اليرموك، وقتلت يومئذ تسعة من الروم بعمود فسطاطها وعاشت بعد ذلك دهراً.
+  en: A Companion of Banu Abd al-Ashhal, cousin of Mu'adh ibn Jabal, known by the kunya Umm Salama and called 'the orator of the women'; she gave her pledge to the Prophet among a group of women, was at al-Yarmuk, and killed nine Byzantines with
+    a tent pole there and lived on for a long time.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 10861 (ص 1814).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 10861، ص 1814
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1814, entry 10861)

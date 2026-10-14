@@ -1,0 +1,59 @@
+id: person/kab-ibn-ujra
+class: person
+label:
+  ar: كعب بن عجرة
+  en: Ka'b ibn Ujra
+names:
+- kind: full
+  lang: ar
+  value: كعب بن عجرة بن أمية بن عدي بن عبيد بن خالد بن عمرو بن عوف بن غنم بن سواد بن مري بن أراشة البلوي، حليف الأنصار
+- kind: kunya
+  lang: ar
+  value: أبو محمد
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: حليف الأنصار من بلي من قضاعة (وزعم الواقدي أنه أنصاري فردّه ابن سعد)؛ شهد عمرة الحديبية ونزلت فيه قصة الفدية لما مرّ به النبي وهو محرم والقمل يتساقط على وجهه فأمره بحلق رأسه وإطعام فرق بين ستة مساكين؛ سكن الكوفة ومات بالمدينة في سنة إحدى
+    أو اثنتين أو ثلاث وخمسين.
+  en: An ally of the Ansar from Bali of Quda'a (al-Waqidi claimed he was an Ansari and Ibn Sa'd rejected it); he was on the umra of al-Hudaybiyya, and the ruling on redemption was revealed over him when the Prophet passed him in ihram with lice
+    falling on his face and told him to shave his head and feed six poor people; he settled in Kufa and died in Medina in 51, 52 or 53 AH by different accounts.
+wings:
+- people
+themes:
+- scripture-and-its-sciences
+periods:
+- period/prophetic-era
+- period/rashidun
+- period/umayyad
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 7489 (ص 1279).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 7489، ص 1279
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-7
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1279, entry 7489)

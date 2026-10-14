@@ -1,0 +1,22 @@
+id: person/al-adfawi-jafar-ibn-thaalaba
+class: person
+label: { ar: "الأدفوي جعفر بن ثعلبة", en: "Al-Adfawi, Ja'far ibn Tha'laba" }
+names:
+  - { kind: full, lang: ar, value: "أبو الفضل كمال الدين جعفر بن ثعلبة الأدفوي" }
+gender: male
+roles: [jurist, writer]
+traditions: [sunni]
+born: { edtf: "1286", hijri: "0685", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1347", hijri: "0748", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "جمع بين الفقه والأدب، من أهل أدفو بصعيد مصر، وتوفي سنة 748هـ."
+  en: "Combined jurisprudence with literature. From Adfu in Upper Egypt; died in 748 AH."
+wings: [people, words]
+themes: [development-of-law-theology-institutions, literature]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 414, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص414", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

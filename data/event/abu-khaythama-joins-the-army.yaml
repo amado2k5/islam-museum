@@ -1,0 +1,18 @@
+id: event/abu-khaythama-joins-the-army
+class: event
+kind: other
+label: { ar: "لحاق أبي خيثمة بالنبي", en: "Abu Khaythama catches up with the Prophet" }
+summary:
+  ar: "رجع أبو خيثمة بعد أن سار النبي أياماً إلى أهله في يوم حار، فوجد امرأتين له في عريشين هيأتاهما له بالماء البارد والطعام، فامتنع من دخولهما وقال إنه لا يرضى أن يكون في ظل بارد والنبي في الضح والريح والحر، وأخذ زاده وناضحه وخرج في طلب النبي حتى أدركه بتبوك."
+  en: Days after the Prophet had marched, Abu Khaythama returned to his family on a hot day and found his two wives in two bowers they had prepared for him with cold water and food. He refused to enter, saying he would not sit in cool shade while the Prophet was out in the midday wind and heat; he took his provisions and his camel and went after the Prophet until he caught up with him at Tabuk.
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/tabuk, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 163-164", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 163-164" }

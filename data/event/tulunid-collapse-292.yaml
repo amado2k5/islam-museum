@@ -1,0 +1,22 @@
+id: event/tulunid-collapse-292
+class: event
+kind: conquest
+label: { ar: "سقوط دولة آل طولون وعودة مصر للعباسيين" }
+summary:
+  ar: "خرج محمد بن سليمان إلى مصر فزحف هارون بن خمارويه لقتاله فدخل محمد الفسطاط وأخذ آل طولون وكانوا بضعة عشر رجلاً فقتلهم وحبسهم واحتوى على دورهم وجبى الخراج، فكان ذلك آخر أمرهم وعادت مصر إلى السلطان العباسي {cite:muntazam-ibn-al-jawzi p. 342}."
+  en: "Muhammad ibn Sulayman marched on Egypt; Harun ibn Khumarawayh drew up against him, then Muhammad entered Fustat, seized the score of remaining Tulunids, took their houses and levied the kharaj — the dynasty's end {cite:muntazam-ibn-al-jawzi p. 342}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0905", hijri: "0292", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 292؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 342}." }
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-sulayman-al-abbasi, role: "القائد الفاتح", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/harun-ibn-khumarawayh, role: "آخر الأمراء", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-8
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

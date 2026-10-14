@@ -1,0 +1,63 @@
+id: person/utba-ibn-ghazwan
+class: person
+label:
+  ar: عتبة بن غزوان
+  en: Utba ibn Ghazwan
+aliases: [person/utbah-ibn-ghazwan]
+names:
+- kind: full
+  lang: ar
+  value: عتبة بن غزوان بن جابر بن وهب المازني، حليف بني عبد شمس أو بني نوفل
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من السابقين الأولين، هاجر إلى الحبشة ثم إلى المدينة وشهد بدراً وما بعدها؛ ولاه عمر في الفتوح فاختط البصرة، واستعفى من الإمرة فأبى عمر، ومات في الطريق سنة 17هـ وقيل 20هـ.
+  en: One of the earliest Muslims, he emigrated to Abyssinia and then to Medina and fought at Badr and after; Umar sent him in the conquests and he laid out the city of Basra; he asked Umar to relieve him of command and Umar refused, and he died
+    on the road in 17 AH, or by another report 20 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 5870 (ص 999).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: participated_in
+  target: event/first-migration-to-abyssinia
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/basra
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 5870، ص 999
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-2
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 999, entry 5870)

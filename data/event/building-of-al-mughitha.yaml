@@ -1,0 +1,18 @@
+id: event/building-of-al-mughitha
+class: event
+kind: other
+label: { ar: "اتخاذ المغيثة", en: "Building of al-Mughitha" }
+summary:
+  ar: "كان الماء الذي يأتي أهل البصرة نزراً قليلاً وكان عظم ماء البطيحة يذهب في نهر الدير فكان الناس يستعذبون من الأبلة حتى قدم سليمان بن علي البصرة واتخذ المغيثة وعمل مسنانياتها على البطيحة فحجز الماء عن نهر الدير وصرفه إلى نهر ابن عمر وأنفق على المغيثة ألف ألف درهم وشكا أهل البصرة إلى سليمان ملوحة الماء وكثرة ما يأتيهم من ماء البحر فسد القندل فعذب ماؤهم."
+  en: "Basra's water came in a thin trickle, the batiha's mass draining to Nahr al-Dayr while folk drank from Ubulla — till Sulayman ibn Ali came, built al-Mughitha with its masnaniyyat on the batiha, dammed the water from Nahr al-Dayr into Nahr Ibn Umar and spent a million dirhams; and when the sea's intrusion brackened their water he dammed al-Qandal and it ran sweet."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/sulayman-ibn-ali, role: "الباني", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/basra }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

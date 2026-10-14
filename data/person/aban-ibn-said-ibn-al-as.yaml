@@ -1,0 +1,24 @@
+id: person/aban-ibn-said-ibn-al-as
+class: person
+label: { en: Aban ibn Sa'id ibn al-As, ar: "أبان بن سعيد بن العاص" }
+names:
+  - { kind: full, lang: ar, value: "أبان بن سعيد بن العاص بن أمية" }
+gender: male
+roles: [poet]
+summary:
+  ar: "من بني عبد شمس، أخو خالد وعمرو ابني سعيد؛ ينسب إليه ابن إسحاق أبياتاً قالها لأخويه حين أسلما، وردّ عليه خالد."
+  en: Of Banu Abd Shams, brother of Khalid and Amr the sons of Sa'id; Ibn Ishaq attributes to him verses addressed to his brothers when they became Muslim, and Khalid answered him.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, note: "نُسب إليه أو وُصف بالشعر في هذا الفصل (ص4)", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/khalid-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/amr-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }
+  - { type: child_of, target: person/said-ibn-al-as-abu-uhayha, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 4", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

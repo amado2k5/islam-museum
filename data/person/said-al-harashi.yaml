@@ -1,0 +1,18 @@
+id: person/said-al-harashi
+class: person
+label: { ar: "سعيد بن عمرو بن أسود الحرشي", en: "Sa'id ibn Amr ibn Aswad al-Harashi" }
+summary:
+  ar: "سعيد بن عمرو بن أسود الحرشي من أمراء الثغور؛ وجّهه هشام بن عبد الملك على مقدمة مسلمة بن عبد الملك إلى أرمينية فواقع الخزر وقد حاصروا ورتان فكشفهم عنها وهزمهم فأتاه كتاب مسلمة يلومه على قتالهم قبل قدومه فأُخذ وقيّد وحُبس ببرذعة حتى كتب هشام بإخراجه، وولّاه هشام الثغر بعد مسلمة سنتين."
+  en: "Sa'id ibn Amr ibn Aswad al-Harashi, an amir of the marches; Hisham ibn Abd al-Malik sent him at the head of Maslama ibn Abd al-Malik's vanguard to Armenia, where he met the Khazars besieging Wartan, drove them off and routed them — whereupon Maslama's letter came blaming him for fighting before his arrival, so he was seized, bound and jailed at Bardha'a until Hisham wrote for his release; after Maslama, Hisham gave him the march for two years."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: participated_in, target: event/maslama-khazar-campaign, role: "أمير المقدمة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: participated_in, target: event/marwan-caucasus-expedition, role: "والي الثغر سنتين بين مسلمة ومروان", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290–292"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

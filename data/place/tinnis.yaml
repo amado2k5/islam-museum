@@ -1,0 +1,19 @@
+id: place/tinnis
+class: place
+kind: town
+label: { ar: "تنّيس", en: "Tinnis" }
+summary:
+  ar: "تنّيس من مدن الوجه البحري؛ وجّه إليها عمرو بن العاص عمير بن وهب الجمحي مع دمياط وتونة ودميرة وشطا ودقهلة وبنا وبوصير فصالح أهل قراها على مثل حكم الفسطاط."
+  en: "Tinnis, a lower-Egypt city; Amr ibn al-As sent Umayr ibn Wahb al-Jumahi to it with Dimyat, Tuna, Damira, Shata, Diqahla, Bana and Busir — their villages compounding on Fustat's terms."
+wings: [place]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: site_of, target: event/four-lieutenants-egypt, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 304"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

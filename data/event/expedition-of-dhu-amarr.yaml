@@ -1,0 +1,40 @@
+id: event/expedition-of-dhu-amarr
+class: event
+kind: campaign
+label: { en: "Expedition of Dhu Amarr", ar: "غزوة ذي أمر (غطفان)" }
+summary:
+  en: "An expedition led by the Prophet with 450 men in Muharram 3 AH to disperse Banu Thalaba and Muharib at Dhu Amarr; the Bedouins fled to mountain tops without fighting."
+  ar: "أكبر تعبئة للمسلمين قبل أحد، قادها النبي في 450 مقاتلاً في المحرم 3هـ إلى ذي أمر بنجد لتفريق جموع بني ثعلبة ومحارب من غطفان؛ هرب الأعراب إلى رؤوس الجبال دون قتال."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-07~", hijri: "0003-01", calendar: julian, precision: month, status: tradition, note: "في شهر المحرم سنة 3هـ (يوليو 624م) على ما في الرحيق ص241–242" }
+relations:
+  - { type: occurred_at, target: place/dhu-amarr }
+  - { type: had_participant, target: person/muhammad, role: "قائد الغزوة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "نائب النبي على المدينة المنورة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/dathur-ibn-al-harith, role: "سيد بني محارب وغطفان (أسلم إثر واقعة السيف)", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+  - { type: had_participant, target: group/muhajirun, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/ansar, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/ghatafan, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim army", ar: "جيش المسلمين" }
+    participants: [group/muhajirun, group/ansar]
+    commanders: [person/muhammad]
+    strength:
+      value: 450
+      status: tradition
+      note: "أربعمائة وخمسون مقاتلاً ما بين راكب وراجل"
+      sources: [source/mubarakpuri-raheeq]
+  - label: { en: "Ghatafan bedouins", ar: "جموع غطفان" }
+    participants: [group/ghatafan]
+    commanders: [person/dathur-ibn-al-harith]
+    strength:
+      status: tradition
+      note: "جموع بني ثعلبة ومحارب تفرقوا في رؤوس الجبال"
+      sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum pp. 241–242 citing Ibn Hisham 2/46 and Zad al-Maad 2/90" }

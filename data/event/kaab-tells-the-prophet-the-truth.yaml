@@ -1,0 +1,20 @@
+id: event/kaab-tells-the-prophet-the-truth
+class: event
+kind: other
+label: { ar: "كعب يصدق النبي القول", en: "Ka'b tells the Prophet the truth" }
+summary:
+  ar: "لما بلغ كعباً قفول النبي من تبوك عزم على الصدق، فلما سلّم على النبي في المسجد وسأله عن سبب تخلفه أقر بأنه لا عذر له، فقال له النبي: قد صدقت، فقم حتى يقضي الله فيك؛ فتبعه رجال من بني سلمة يلومونه."
+  en: "When news of the Prophet's return from Tabuk reached Ka'b he resolved on honesty. When he greeted the Prophet in the mosque and was asked why he had stayed behind, he admitted he had no excuse; the Prophet said: you have told the truth — rise until God decides your case. Men of Banu Salima followed him out, blaming him."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها. وقع بعد قدوم النبي المدينة وجلوسه للناس (ص177).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/the-three-left-behind, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/kaab-ibn-malik, role: "المتحدث", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 177-178", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 177-178" }

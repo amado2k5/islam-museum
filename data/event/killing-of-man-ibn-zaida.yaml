@@ -1,0 +1,19 @@
+id: event/killing-of-man-ibn-zaida
+class: event
+kind: death
+label: { ar: "مقتل معن بن زائدة", en: "The Killing of Ma'n ibn Za'ida" }
+summary:
+  ar: "خاف معن بن زائدة الشتاء وهجومه فانصرف إلى بست وأنكر قوم من الخوارج سيرته فاندسوا مع فعلة كانوا يبنون في منزله بناء فلما بلغوا التسقيف احتالوا لسيوفهم فجعلوها في حزم القصب ثم دخلوا عليه قبته وهو يحتجم ففتكوا به وشق بعضهم بطنه بخنجر كان معه وقال أحدهم وضربه على رأسه أبو الغلام الطاقي والطاق رستاق بقرب زرنج فقتلهم يزيد بن مزيد فلم ينج منهم أحد ثم إن يزيد قام بأمر سجستان واشتدت على العرب والعجم من أهلها وطأته فاحتال بعض العرب فكتب على لسانه إلى المنصور كتاباً يخبره فيه أن كتب المهدي إليه قد حيرته وأدهشته ويسأله أن يعفيه من معاملته فأغضب ذلك المنصور وشتمه وأقرأ المهدي كتابه فعزله وأمر بحبسه وبيع كل شيء له ثم كلم فيه فأشخص إلى مدينة السلام فلم يزل بها مخبوءاً حتى لقيه الخوارج على الجسر فقاتلهم فتحرك أمره قليلاً ثم توجه إلى يوسف البرم بخراسان فلم يزل في ارتفاع."
+  en: "Fearing winter's onset Ma'n withdrew to Bust; Kharijites who resented his rule slipped among the builders at his house, hid their swords in reed bundles at roofing-time, and entered his dome while he was being cupped — they butchered him, one splitting his belly with a dagger, Abu al-Ghulam al-Taqi striking his head. Yazid ibn Mazyad killed every one of them, then held Sijistan, bearing hard on its Arabs and Ajam until forged letters to al-Mansur — that the Mahdi's letters confused him — brought his dismissal, imprisonment and confiscation. Later released, he lay hidden in Madinat al-Salam until Kharijites met him on the bridge and he fought them; then he rose to Yusuf al-Barm in Khurasan."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/man-ibn-zaida, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/yazid-ibn-mazyad, role: "المنتقم ثم الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/bust }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

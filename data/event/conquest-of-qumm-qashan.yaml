@@ -1,0 +1,22 @@
+id: event/conquest-of-qumm-qashan
+class: event
+kind: conquest
+label: { ar: "فتح قم وقاشان", en: "The Conquest of Qumm and Qashan" }
+summary:
+  ar: "عند البلاذري: لما انصرف أبو موسى وعبد الله بن قيس الأشعري من نهاوند سارا إلى الأهواز فاستقراها ثم أتيا قم فأقاما عليها أياماً ثم افتتحاها ووجه الأحنف بن قيس واسمه الضحاك بن قيس التميمي إلى قاشان ففتحها عنوة ثم لحق به وروي أن الأشعري نزل بأصبهان فعرض عليهم الإسلام فأبوا فعرض عليهم الجزية فصالحوه عليها فباتوا على صلح ثم أصبحوا على غدر فقاتلهم فأظهره الله عليهم قال محمد بن سعد أحسبه عن أهل قم."
+  en: "In al-Baladhuri: when Abu Musa and Abdallah ibn Qays al-Ash'ari returned from Nihawand they went to al-Ahwaz and settled it, then came to Qumm and stayed upon it days before taking it; al-Ahnaf ibn Qays — his name al-Dahhak ibn Qays al-Tamimi — was sent to Qashan, took it by force, and joined them. It is also related that al-Ash'ari camped at Isbahan — or, Ibn Sa'd thinks, Qumm — offered them Islam which they refused, then jizya which they accepted by night, broke faith at morning, and he fought them until God gave him the mastery."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [persia-central-asia]
+relations:
+  - { type: occurred_at, target: place/qumm }
+  - { type: occurred_at, target: place/qashan }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-ahnaf-ibn-qays, role: "فاتح قاشان", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 436–437"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-44
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/tayyi-hajj-raid-289
+class: event
+kind: raid
+label: { ar: "وثبة طيء على الركب العراقي" }
+summary:
+  ar: "في سنة سبع خرجت طيء على الركب العراقي ليأخذوه فقاتلهم أمير الركب أبو الأغر خليفة بن المبارك يوماً وليلة فنصره الله وقتل صالح أمير العرب وأسر من قومه خلق كثير ودخل الحجاج بالأسرى وبالرؤوس على الرماح، وفي سنة تسع وثبت طيء وأميرهم صالح بن مدرك فانتهبوا الركب العراقي فذهب للحجاج فيه ما قيمته ألف ألف مثقال {cite:tarikh-khulafa-minhaj-1434 p. 575-576}."
+  en: "In 287 Tayyi' fell on the Iraqi pilgrim caravan; its commander Abu al-Agharr Khalifa ibn al-Mubarak fought a day and a night, God gave him victory, Salih the Arabs' amir was slain and many captured — the pilgrims entered with captives and heads on lances. In 289 Tayyi' under Salih ibn Madrak rose again and looted the caravan — a million mithqals lost to the pilgrims {cite:tarikh-khulafa-minhaj-1434 p. 575-576}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0902~", hijri: "0287~", calendar: julian, precision: year, status: tradition, derived: true, note: "287 و289؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 575-576}." }
+relations:
+  - { type: had_participant, target: person/abu-al-agharr, role: "أمير الركب", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/salih-ibn-madrak, role: "أمير طيء", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 569–576"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-32
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

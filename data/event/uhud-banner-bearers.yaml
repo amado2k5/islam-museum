@@ -1,0 +1,29 @@
+id: event/uhud-banner-bearers
+class: event
+kind: skirmish
+label: { en: "Battle over the Quraysh standard at Uhud", ar: "القتال على لواء المشركين في أحد وإبادة حمَلَتِه" }
+summary:
+  ar: "دار ثقل المعركة حول لواء المشركين الذي كان بيد بني عبد الدار. قُتل أول حامل لاء لواء طلحة بن أبي طلحة على يد الزبير بن العوام. وتعاقب بنو عبد الدار على حمل اللواء فأُبيدوا عن آخرهم: عثمان وأبو سعد وأرطاة وشريح وأبو زيد بن عبد مناف وابن شرحبيل وغيرهم. حمله أخيراً غلام حبشي اسمه صواب فقاتل حتى قُطعت يداه فبرك عليه بصدره حتى قُتل. سقط اللواء على الأرض ولم يبق أحد يحمله {cite:mubarakpuri-raheeq p.259}."
+  en: "The weight of the battle circled the polytheists' standard, which was carried by the Banu Abd al-Dar. The first to bear it, Talha ibn Abi Talha, was killed by al-Zubayr ibn al-Awwam. The Banu Abd al-Dar carried it in turn until they were wiped out: Uthman, Abu Sa'd, Artat, Shurayh, Abu Zayd ibn Abd Manaf, Ibn Sharhabil and others. Last to carry it was an Abyssinian slave named Sawab, who fought until his hands were cut off and fell upon it with his chest until he was killed. The standard fell to the ground with none left to bear it {cite:mubarakpuri-raheeq p.259}."
+wings: [time, people]
+themes: [battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-03-23", hijri: "0003-10-07", calendar: julian, precision: day, status: tradition, note: "في أثناء الجولة الأولى من القتال {cite:mubarakpuri-raheeq p.258}." }
+casualties:
+  value: 10
+  status: tradition
+  note: "عشرة من بني عبد الدار حمَلَة اللواء أُبيدوا جميعاً {cite:mubarakpuri-raheeq p.260}."
+  sources: [source/mubarakpuri-raheeq]
+relations:
+  - { type: occurred_at, target: place/uhud }
+  - { type: part_of, target: event/battle-of-uhud }
+  - { type: had_participant, target: person/zubayr-ibn-al-awwam, role: "قتل أول حاملي اللواء طلحة بن أبي طلحة وثّب عليه وثبة الليث", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, role: "قطع يد أبي شيبة عثمان بن أبي طلحة الثاني مع كتفه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "قتل أرطاة بن شرحبيل حامل اللواء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/talha-ibn-ubaydullah, role: "قتل الجلاس بن طلحة بطعنة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/talha-ibn-abi-talha, role: "أول حاملي لواء المشركين؛ قُتل على يد الزبير", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 258-260" }

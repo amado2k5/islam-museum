@@ -1,0 +1,41 @@
+id: building/ferhat-pasha-mosque
+class: building
+kind: mosque
+label:
+  ar: مسجد فرحات باشا
+  en: Ferhat Pasha Mosque
+built:
+  edtf: "1579"
+  calendar: julian
+  precision: year
+  status: historical
+  note: التاريخ من ويكيداتا (CC0) ومصدره واحد؛ يحتاج مصدراً ثانياً قبل الترقية.
+  sources:
+  - source/wikidata
+summary:
+  ar: مسجد في البوسنة والهرسك، يُؤرَّخ بناؤه سنة 1579م.
+  en: A mosque in Bosnia and Herzegovina, dated to 1579 CE.
+wings:
+- place
+- objects
+periods:
+- period/gunpowder-empires
+regions:
+- anatolia-balkans
+coordinates:
+- 44.76741
+- 17.18734
+external_ids:
+  wikidata: Q1267134
+sources:
+- source/wikidata
+provenance:
+  layer: cc0
+  source: Wikidata (CC0), local subset built 12 Oct 2026 from the 96 GiB dump
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: building-wikidata-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Sonnet 5.5; label, coordinates and construction date read from the local Wikidata CC0 subset; no prose yet, the history of the building needs a cited narrative

@@ -1,0 +1,22 @@
+id: event/death-of-muawiya
+class: event
+kind: death
+label: { ar: "وفاة معاوية بن أبي سفيان" }
+summary:
+  ar: "مات معاوية في رجب سنة ستين ودفن بين باب الجابية وباب الصغير بدمشق وقيل إنه عاش سبعاً وسبعين سنة، وكان عنده شيء من شعر رسول الله وقلامة أظفاره فأوصى أن تجعل في فمه وعينيه وقال افعلوا ذلك وخلوا بيني وبين أرحم الراحمين {cite:tarikh-khulafa-minhaj-1434 p. 329}. وكان أميراً على الشام عشرين سنة وخليفة عشرين سنة {cite:tarikh-khulafa-minhaj-1434 p. 325}."
+  en: "Mu'awiya died in Rajab of year 60 and was buried between Bab al-Jabiya and Bab al-Saghir at Damascus; he is said to have lived seventy-seven years. Keeping hairs and nail-parings of the Prophet, he willed they be placed in his mouth and eyes — 'do that, and leave me with the Most Merciful of the merciful'. He had been governor of Syria twenty years and caliph twenty more {cite:tarikh-khulafa-minhaj-1434 p. 325, 329}."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0680-04~", hijri: "0060-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب سنة 60؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 329}." }
+relations:
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "المتوفى", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/damascus, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 325، 329"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-7
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

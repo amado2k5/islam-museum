@@ -1,0 +1,18 @@
+id: passage/arbaun-46
+class: passage
+unit: hadith
+work: work/jami-ulum-hikam
+ref: "46"
+label: { ar: "الأربعون 46 — كل مسكر حرام", en: "Arba'un 46 — every intoxicant is forbidden" }
+text: "كل مسكر حرام"
+summary:
+  ar: "حديث أبي بردة عن أبيه أبي موسى الأشعري أن النبي بعثه إلى اليمن فسأله عن أشربة تصنع بها فقال «وما هي» قال البتع والمزر فقيل لأبي بردة وما البتع قال نبيذ العسل والمزر نبيذ الشعير فقال «كل مسكر حرام» — رابع الأحاديث التي زادها ابن رجب؛ أخرجه البخاري (4343) ومسلم (1733) ولفظ مسلم «بعثني رسول الله أنا ومعاذ إلى اليمن فقلت يا رسول الله إن شراباً يصنع بأرضنا يقال له المزر من الشعير وشراب يقال له البتع من العسل فقال كل مسكر حرام» وفي رواية لمسلم «كل ما أسكر عن الصلاة فهو حرام» وفي رواية «وكان رسول الله قد أعطي جوامع الكلم بخواتمه فقال أنهى عن كل مسكر أسكر عن الصلاة»؛ قال ابن رجب: هذا الحديث أصل في تحريم تناول جميع المسكرات المغطية للعقل، وذكر أن أول ما حرمت الخمر عند حضور وقت الصلاة لما صلى بعض المهاجرين وخلط في قراءته فنزل «يا أيها الذين آمنوا لا تقربوا الصلاة وأنتم سكارى حتى تعلموا ما تقولون» فكان منادي رسول الله ينادي لا يقرب الصلاة سكران ثم حرمها الله على الإطلاق (جامع العلوم والحكم ص 881–890)."
+  en: "The hadith of Abu Burda from his father Abu Musa al-Ash'ari that the Prophet sent him to Yemen, where he asked him about drinks made there — 'and what are they?' 'al-Bit' and al-Mizr'; asked what al-Bit' was, Abu Burda said honey-wine, and al-Mizr barley-wine — to which he said 'every intoxicant is forbidden' — the fourth of Ibn Rajab's added hadiths, transmitted by al-Bukhari (4343) and Muslim (1733), Muslim's wording running 'the Messenger of God sent me and Mu'adh to Yemen and I said: Messenger of God, a drink made in our land is called al-Mizr from barley, and one called al-Bit' from honey — he said: every intoxicant is forbidden', another of Muslim's routes reading 'everything that intoxicates away from the prayer is forbidden' and another 'the Messenger of God had been given comprehensive words with seals, and he said: I forbid every intoxicant that intoxicates away from the prayer'; Ibn Rajab calls this hadith the foundation of the prohibition of consuming all intoxicants that veil the intellect, noting that wine was first forbidden at the approach of prayer-time when one of the Emigrants prayed and fumbled his recitation, whereupon 'you who believe, do not approach the prayer while intoxicated until you know what you say' came down, and the Prophet's announcer would call 'let no drunken man approach the prayer', before God forbade it absolutely (Jami' al-Ulum wal-Hikam pp. 881–890)."
+relations:
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abu-burda-ibn-abi-musa, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/muskir, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/halal-haram, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 46 pp. 881–890", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-16" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); matn verified against OCR of printed p. 881 (4 words); the Bit'/Mizr glosses, Muslim's three variants and the staged prohibition history from p. 881" }

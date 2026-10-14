@@ -1,0 +1,22 @@
+id: event/abu-muslim-enters-marw-130
+class: event
+kind: other
+label: { ar: "دخول أبي مسلم مرو وانقضاض شيعته على مضر" }
+summary:
+  ar: "في سنة ثلاثين ومائة دخل أبو مسلم حائط مرو ونزل دار الإمارة يوم الخميس لتسع خلون من جمادى الأولى، وسببه أن سليمان بن كثير أنكر على علي بن الكرماني مصالحته نصر بن سيار، وقال له أما تأنف من مصالحة نصر وقد قتل بالأمس لك وأصحابك، فأدرك علي بن الكرماني الغيظ فرجع عن رأيه وانتقض صلح العرب، فبعث نصر بن سيار إلى أبي مسلم يلتمس أن يدخل مع مضر وبعثت ربيعة وقحطان بمثل ذلك، فأمر أبو مسلم أن يقدم عليه وفد الفريقين حتى يختار أحدها، وأمر الشيعة أن يختاروا ربيعة وقحطان إذ السلطان في مضر وهم عمال مروان وهم قتلة يحيى بن زيد، فلما قرئ كتاب أبو مسلم على السبعين المجتمعين قام مزيد بن شقيق السلمي فقال مضر قتلة آل البيت وأعوان بني أمية وشيعة مروان الجعدي ودماؤنا في أعناقهم وأموالنا في أيديهم ونصر بن سيار عامل مروان على خراسان يخطب له على منبره ويسميه أمير المؤمنين ونحن من ذلك إلى الله براء، فقال السبعون بقوله فنهض وحل مضرة عليهم الذلة والكآبة ورجع علي بن الكرماني وأصحابه مسرورين منصورين، وكان مقام أبي مسلم بآلين تسعة وعشرين يوماً ثم رحل إلى الماخوان فأقام بخنده ثلاثة أشهر ثم دخل حائط مرو {cite:tabari-khayyat-part2 p. 713-714}."
+wings: [time]
+themes: [civil-wars-and-revolts]
+periods: [period/umayyad]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "748~", hijri: "0130-05-09", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس 9 جمادى الأولى 130؛ التحويل مشتق {cite:tabari-khayyat-part2 p. 714}." }
+relations:
+  - { type: had_participant, target: person/abu-muslim-al-khurasani, role: "الداخل مرو", sources: [source/tabari-khayyat-part2] }
+  - { type: had_participant, target: person/nasr-ibn-sayyar, role: "عامل خراسان المضري", sources: [source/tabari-khayyat-part2] }
+provenance:
+  layer: own-research
+  source: "تاريخ الطبري (مسح AAlexandrina-224135، دي غوية) — سنة 130، ص 713–714"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tabari-96-130-02
+sources: [source/tabari-khayyat-part2]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

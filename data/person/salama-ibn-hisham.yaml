@@ -1,0 +1,31 @@
+id: person/salama-ibn-hisham
+class: person
+label:
+  ar: سلمة بن هشام بن المغيرة
+  en: Salama ibn Hisham ibn al-Mughira
+names:
+  - { kind: full, lang: ar, value: سلمة بن هشام بن العاص بن المغيرة المخزومي }
+gender: male
+roles: [companion, warrior]
+traditions: [sunni]
+summary:
+  ar: "مخزومي أخو أبي جهل؛ نجا من مؤتة وذُكر أنه اعتزل الصلاة خجلاً مما قيل في جيشها؛ وذكره البلاذري في شهداء وقعة أجنادين، ويقال إنه قتل بمرج الصفر."
+  en: "A Makhzumi; al-Baladhuri names him among the martyrs of Ajnadayn, though some say he was killed at Marj al-Suffar."
+died: { edtf: "0634~", hijri: "0013~", calendar: julian, precision: year, status: debated, derived: true, note: "قيل بأجنادين جمادى الأولى 13هـ وقيل بمرج الصفر المحرم 14هـ (البلاذري ص 156). التحويل مشتق.", sources: [source/futuh-buldan-maarif-1407] }
+periods:
+- period/rashidun
+regions:
+- levant-iraq
+relations:
+  - { type: participated_in, target: event/battle-of-ajnadayn, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 156"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-8
+sources:
+- source/futuh-buldan-maarif-1407
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High)"

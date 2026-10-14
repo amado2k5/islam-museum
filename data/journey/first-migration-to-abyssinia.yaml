@@ -1,0 +1,23 @@
+id: journey/first-migration-to-abyssinia
+class: journey
+label: { ar: "درب الهجرة الأولى إلى الحبشة", en: "The first migration to Abyssinia" }
+summary:
+  ar: "خرج أول فوج من المسلمين في رجب سنة خمس من النبوة، اثنا عشر رجلاً وأربع نسوة، تسللاً إلى ميناء شعيبة فأقلتهم سفينتان تجاريتان إلى الحبشة، ثم رجع بعضهم إلى مكة في شوال على خبر باطل فعاد بعضهم إلى الحبشة، وأرسلت قريش وفداً بالهدايا إلى النجاشي."
+  en: "The first group of Muslims left Mecca in Rajab of the fifth year of prophethood, twelve men and four women, slipping to the port of Shu'ayba, where two trading ships carried them to Abyssinia. Some returned to Mecca on false news and went back; Quraysh then sent a delegation with gifts to the Negus."
+kind: migration
+wings: [time, place, people]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+travelers: [person/uthman-ibn-affan, person/ruqayya-bint-muhammad]
+legs:
+  - { from: place/mecca, to: place/abyssinia, mode: "سفينتان تجاريتان من ميناء شعيبة", note: "في رجب سنة خمس من النبوة، اثنا عشر رجلاً وأربع نسوة، رحلوا ليلاً تسللاً من مكة إلى البحر ويمموا ميناء شعيبة؛ قيّضت لهم الأقدار سفينتين تجاريتين أبحرتا بهم إلى الحبشة. فطنت قريش فلحقت بهم عند الشاطئ فوجدتهم قد انطلقوا (الرحيق ص92-93؛ رحمة للعالمين 61/1؛ زاد المعاد 24/1).", sources: [source/mubarakpuri-raheeq, source/rahma-lil-alamin, source/zad-al-maad] }
+  - { from: place/abyssinia, to: place/mecca, mode: "غير مذكورة", note: "في شوال من السنة نفسها بلغهم خبر كاذب بإسلام قريش فرجعوا إلى مكة؛ فلما كانوا دون مكة بساعة من نهار عرفوا حقيقة الأمر (الرحيق ص94؛ زاد المعاد 24/1؛ ابن هشام 1/364).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira] }
+  - { from: place/mecca, to: place/abyssinia, mode: "غير مذكورة", note: "رجع من رجع منهم إلى الحبشة بعد أن علموا بطلان الخبر، ولم يدخل مكة منهم أحد إلا مستخفياً أو في جوار رجل من قريش (الرحيق ص94).", sources: [source/mubarakpuri-raheeq] }
+  - { from: place/mecca, to: place/abyssinia, mode: "غير مذكورة", note: "أرسلت قريش عمرو بن العاص وعبد الله بن أبي ربيعة بالهدايا إلى بطارقة النجاشي ثم إلى النجاشي نفسه، يطلبان رد المهاجرين (الرحيق ص94-96؛ ابن هشام 1/336-338).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/zad-al-maad]
+provenance: { layer: own-research, source: "al-Raheeq al-Makhtum pp. 92-96", generated_by: "Claude Haiku 5.5", run: "journeys-phase1-first-migration" }
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; drafted from al-Raheeq al-Makhtum pp. 92-96" }
+
+waypoints:
+  - {"place": "place/mecca", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "مكة المكرمة"}, "narrative": {"ar": "نقطة الانطلاق: مكة المكرمة. في رجب سنة خمس من النبوة، اثنا عشر رجلاً وأربع نسوة، رحلوا ليلاً تسللاً من مكة إلى البحر ويمموا ميناء شعيبة؛ قيّضت لهم الأقدار سفينتين تجاريتين أبحرتا بهم إلى الحبشة. فطنت قريش فلحقت بهم عند الشاطئ فوجدتهم قد انطلقوا (الرحيق ص92-93؛ رحمة للعالمين 61/1؛ زاد المعاد 24/1)."}, "sources": ["source/mubarakpuri-raheeq", "source/rahma-lil-alamin", "source/zad-al-maad"]}
+  - {"place": "place/abyssinia", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "الحبشة"}, "narrative": {"ar": "في رجب سنة خمس من النبوة، اثنا عشر رجلاً وأربع نسوة، رحلوا ليلاً تسللاً من مكة إلى البحر ويمموا ميناء شعيبة؛ قيّضت لهم الأقدار سفينتين تجاريتين أبحرتا بهم إلى الحبشة. فطنت قريش فلحقت بهم عند الشاطئ فوجدتهم قد انطلقوا (الرحيق ص92-93؛ رحمة للعالمين 61/1؛ زاد المعاد 24/1)."}, "sources": ["source/mubarakpuri-raheeq", "source/rahma-lil-alamin", "source/zad-al-maad"]}

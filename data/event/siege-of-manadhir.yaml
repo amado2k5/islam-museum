@@ -1,0 +1,20 @@
+id: event/siege-of-manadhir
+class: event
+kind: conquest
+label: { ar: "فتح مناذر", en: "Conquest of Manadhir" }
+summary:
+  ar: "سار أبو موسى إلى مناذر فحاصر أهلها فاشتد قتالهم وكان المهاجر بن زياد الحارثي أخو الربيع بن زياد في الجيش فأراد أن يشري نفسه وهو صائم فقال أبو موسى عزمت على كل صائم أن يفطر أو لا يخرج إلى القتال فشرب شربة ماء وقال قد أبررت عزمة أميري والله ما شربتها من عطش ثم راح في السلاح فقاتل حتى استشهد وأخذ أهل مناذر رأسه ونصبوه على قصرهم بين شرفتين واستخلف أبو موسى الربيع بن زياد على مناذر وسار إلى السوس ففتح الربيع مناذر عنوة فقتل المقاتلة وسبى الذرية وصارت مناذر الكبرى والصغرى في أيدي المسلمين وولاها أبو موسى عاصم بن قيس بن الصلت السلمي وكتب عمر في رواية أن مناذر كقرية من قرى السواد فردوا عليهم ما أصبتم."
+  en: "Abu Musa besieged Manadhir against fierce fighting; al-Muhajir ibn Ziyad, al-Rabi' ibn Ziyad's brother, meant to sell his life fasting — Abu Musa had sworn every faster break his fast or not fight, so he drank 'not from thirst' and fell martyred, his head raised on the citadel between two merlons — the poem 'راح المهاجر في حل بإجمال' mourns him. Al-Rabi' ibn Ziyad, left in charge, took Manadhir by force — killing the fighters, capturing the children — so both Manadhirs passed to the Muslims under Asim ibn Qays al-Sulami; in another telling Umar ruled it 'a Sawad village — return what you took'."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/al-muhajir-ibn-ziyad, role: "الشهيد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-musa-al-ashari, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/manadhir }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

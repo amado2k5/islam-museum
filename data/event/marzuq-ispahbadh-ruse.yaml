@@ -1,0 +1,20 @@
+id: event/marzuq-ispahbadh-ruse
+class: event
+kind: campaign
+label: { ar: "حيلة مرزوق على الأصبهبذ", en: "Marzuq's Ruse upon the Ispahbadh" }
+summary:
+  ar: "لما نقض أهل طبرستان في خلافة المنصور وقتلوا المسلمين وجه إليهم خازم بن خزيمة التميمي وروح بن حاتم المهلبي ومعهما مرزوق أبو الخصيب مولاه الذي نسب إليه قصر الخصيب بالكوفة فلما طال الأمر وصعب سألهما أن يضرباه ويحلقا رأسه ولحيته ففعلا فخلص إلى الأصبهبذ فقال إن هذين الرجلين استغشاني وفعلا بي ما ترى وقد هربت إليك فإن قبلت انقطاعي دللتك على عورات العرب فكساه وأعطاه وأظهر الثقة به فلما اطلع على عوراته كتب إلى خازم وروح بما احتاجا إليه واحتال للباب حتى فتحه فدخل المسلمون المدينة وفتحوها وساروا في البلاد فدوخوها."
+  en: "When Tabaristan's people breached under al-Mansur and killed Muslims he sent Khazim ibn Khuzayma al-Tamimi and Rawh ibn Hatim al-Muhallabi — with them Marzuq Abu al-Khasib, Khazim's mawla, namesake of Kufa's Qasr al-Khasib. As the siege dragged he begged them to beat him and shave his head and beard; done, he escaped to the Ispahbadh claiming 'these two betrayed me — see what they did — I have fled to you; accept my desertion and I will show you the Arabs' weaknesses'. The Ispahbadh clothed him, rewarded him and showed trust; Marzuq wrote the generals all they needed, contrived the gate till it opened, the Muslims took the city and subdued the land."
+periods: [period/abbasid-early]
+relations:
+  - { type: had_participant, target: person/khazim-ibn-khuzayma, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rawh-ibn-hatim, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/marzuq-abu-al-khasib, role: "صاحب الحيلة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tabaristan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

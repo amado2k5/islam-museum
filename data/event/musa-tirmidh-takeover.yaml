@@ -1,0 +1,19 @@
+id: event/musa-tirmidh-takeover
+class: event
+kind: other
+label: { ar: "استيلاء موسى بن عبد الله بن خازم على الترمذ", en: "Musa ibn Khazim's Seizure of Tirmidh" }
+summary:
+  ar: "كان موسى بن عبد الله بن خازم السلمي بالترمذ فأتى سمرقند فأكرمه ملكها طرخون فوثب رجل من أصحابه على رجل من السغد فقتله فأخرجه ومن معه وأتى صاحب كش ثم أتى الترمذ وهو حصن فنزل على دهقان الترمذ وهيأ له طعاماً فلما أكل اضطجع فقال له الدهقان اخرج فقال لست أعرف منزلاً مثل هذا وقاتل أهلها."
+  en: "Musa ibn Abdallah ibn Khazim was at Tirmidh; he came to Samarqand where king Tarkhon honored him — until one of his men killed a Sughdian and he was expelled — then to Kish's lord, then back to Tirmidh the fortress. Its dahqan lodged and fed him; when Musa lay down to stay, the dahqan said 'leave', and he answered 'I know no home like this' — and fought its people."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/musa-ibn-abdallah-ibn-khazim, role: "المستولي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/tarkhun, role: "المكرم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/tirmidh }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

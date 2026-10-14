@@ -1,0 +1,21 @@
+id: event/man-ibn-zaida-forgery
+class: event
+kind: other
+label: { ar: "نقش معن بن زائدة على خاتم الخلافة", en: "Ma'n ibn Za'ida's Engraving on the Caliphal Seal" }
+summary:
+  ar: "انتقش معن بن زائدة على خاتم الخلافة فأصاب به مالاً من خراج الكوفة على عهد عمر فكتب عمر إلى المغيرة بن شعبة أنفذ فيه أمري وأطع رسولي فخرج المغيرة بعد العصر حتى وقف على معن وقال للرسول إن أمير المؤمنين أمرني أن أطيع أمرك فيه فمرني بما شئت فقال ائتوني بجامعة فأتى بها فجعلت في عنقه وجذبها جذباً شديداً ثم حبسه وكان السجن يومئذ من قصب فاحتال معن للخروج فبعث إلى أهله أن ابعثوا لي بناقتي وجاريتي وعباتي القطوانية فخرج من الليل وأردف جاريته حتى إذا خشي أن يفضحه الصبح أناخ ناقته وعقلها وكمن حتى كف عنه الطلب ثم سار حتى قدم على عمر وهو يوقظ المتهجدين لصلاة الصبح فسلم فقال من أنت قال معن بن زائدة جئتك تائباً قال أنت فلا حياك الله فلما صلى قال هذا معن بن زائدة انتقش على خاتم الخلافة فأصاب به مالاً من خراج الكوفة فما تقولون فيه فقال قائل اقطع يده وقال قائل اصلبه وقال علي يا أمير المؤمنين رجل كذب كذبة عقوبته في بشره فضربه عمر ضرباً مبرحاً وحبسه فبعث معن إلى صديق له من قريش أن كلمه في تخلية سبيلي فكلمه فقال عمر ذكرتني الطعن وكنت ناسياً علي بمعن فضربه وأمر به إلى السجن فبعث معن إلى كل صديق له لا تذكروني لأمير المؤمنين وأبث محبوساً ما شاء الله ثم إن عمر انتبه له فقاسمه وخلى سبيله."
+  en: "Ma'n ibn Za'ida engraved on the caliphal seal and took money from Kufa's kharaj. Umar's order to al-Mughira ibn Shu'ba: 'obey my messenger in him' — and before the seated assembly the messenger had a jami'a put on his neck and dragged hard, then jailed him in the reed-prison. Ma'n sent home for his she-camel, his jariya and his Qutwani abaya, rode out by night, lay hid till the search died, and came to Umar waking the tahajjud-men for dawn prayer — 'I come repentant' — 'You?!' After the prayer Umar put it to the assembly: 'cut his hand', said one; 'crucify him', said another; Ali said 'a man lied a lie — his punishment is in his skin', so Umar flogged him hard and jailed him. A Qurashi friend begged his release — 'you reminded me of the stabbing: bring Ma'n' — beaten again and returned to jail, till he told every friend 'do not mention me to the Commander'. Later Umar remembered, shared with him, and let him go."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/man-ibn-zaida, role: "الناقش", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخليفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "عامل الكوفة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "صاحب الرأي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/kufa }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

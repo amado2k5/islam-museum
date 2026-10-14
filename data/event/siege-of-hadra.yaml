@@ -1,0 +1,22 @@
+id: event/siege-of-hadra
+class: event
+kind: siege
+label: { ar: "نزول سابور الجنود على الحضر", en: "Shapur's siege of al-Hadra" }
+summary:
+  ar: "نزل سابور الجنود على حصن الحضر ملك الضيزن التنوخي فأقام عليه شهراً لا يجد سبيلاً إلى فتحه، حتى أرسلت إليه النضيرة بنت الضيزن وقد هويته أن ينثر تبناً في نهر الثرثار الذي في أعلى الحصن فيتبعه فانظر أين يدخل فأدخل الرجال منه، ففعل فلم يشعر أهل الحصن إلا وأصحاب سابور معهم فيه، فقتل الضيزن ومن معه وأمر بهدم الحصن، وقد كان الضيزن كثير الجنود مهادناً للروم يغير رجاله على العراق والسواد {cite:muruj-al-dhahab p. 552-554}."
+  en: "Shapur I's month-long investment of al-Dayzan's Hatra — broken only when the lovesick al-Nadira told him to track thrown straw up the Tharthar's hidden channel into the fortress; its king slain, Hadra razed, the tale became poetry {cite:muruj-al-dhahab p. 552-554}."
+wings: [time]
+themes: [wars-and-campaigns, battles]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: had_participant, target: person/sabur-ibn-ardashir, role: "الغازي الفاتح" }
+  - { type: had_participant, target: person/al-dayzan-ibn-muawiya, role: "ملك الحضر المقتول" }
+  - { type: occurred_at, target: place/hadra }
+provenance:
+  layer: own-research
+  source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 552–554"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muruj-dhahab-batch-7
+sources: [source/muruj-al-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

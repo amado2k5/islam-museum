@@ -1,0 +1,21 @@
+id: person/malik-ibn-zaflah
+class: person
+label: { ar: "مالك بن زافلة", en: "Malik ibn Zaflah" }
+names:
+  - { kind: full, lang: ar, value: "مالك بن زافلة — من بلي، أحد إراش" }
+  - { kind: alternate, lang: ar, value: "مالك بن رافلة" }
+gender: male
+roles: [commander]
+traditions: []
+summary:
+  ar: "قائد الحلفاء العرب في صفوف هرقل يوم مؤتة، من قبيلة بلي (أحد إراش). قُتل على يد قطبة بن قتادة العذري قائد الميمنة المسلمة. روى ابن هشام اسمه أيضًا 'مالك بن رافلة'."
+  en: "Commander of the Arab allies of Heraclius at Mu'tah, from Bali of Irash. Killed by Qutba ibn Qatada al-Udhri. Ibn Hisham records an alternate name, Ibn Raflah."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: military-opponent, toward: group/early-muslims, start: { edtf: "0629-09~" }, end: { edtf: "0629-09~" }, status: tradition, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: participated_in, target: event/battle-of-mutah, role: allied-arab-commander, sources: [source/ibn-hisham-saqqa] }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 17, 23" }

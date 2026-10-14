@@ -1,0 +1,21 @@
+id: event/march-on-kabul
+class: event
+kind: conquest
+label: { ar: "سيرة ابن سمرة إلى كابل", en: "Ibn Samura's March to Kabul" }
+summary:
+  ar: "لما استعمل معاوية ابن عامر على البصرة ولّى عبد الرحمن بن سمرة سجستان وعلى شرطته عباد بن الحصين الحبطي ومعه من الأشراف عمر بن عبيد الله بن معمر التيمي وعبد الله بن خازم السلمي وقطري بن الفجاءة والمهلب بن أبي صفرة فكان يغزو البلد قد كفر أهلها فيفتحه عنوة أو يصالح أهله حتى بلغ كابل فنزل بها فحاصر أهلها أشهراً يقاتلهم ويرميهم بالمنجنيق حتى ثلم ثلمة عظيمة فبات عليها عباد بن الحصين ليلة يطاعن المشركين حتى أصبح فلم يقدروا على سدها وكان الحسن البصري يقول ما ظننت أن رجلاً يقوم مقام ألف حتى رأيت عباد بن الحصين ولما أصبح الكفرة خرجوا يقاتلون المسلمين فضرب ابن خازم فيلاً كان معهم فسقط على الباب الذي خرجوا منه فلم يقدروا على غلقه فدخلها المسلمون عنوة وقال أبو مخنف الذي عقر الفيل المهلب ووجه ابن سمرة بشارة الفتح عمر بن عبيد الله بن معمر والمهلب بن أبي صفرة ثم قطع وادي نسل فأتى خواش وقوزان بست ففتحها عنوة وسار إلى وزان فهرب أهلها وغلب عليها ثم خشك فصالحه أهلها ثم الأخج فقاتلوه فظفر بهم وفتحها ثم زابلستان وقد نكث أهلها ففتحها وأصاب سبياً وأتى كابل وقد نكث أهلها ففتحها."
+  en: "Mu'awiya's appointment of Ibn Amir over Basra sent Ibn Samura back to Sijistan — Abbad ibn al-Husayn al-Habati over his shurta, and with him the ashraf Umar ibn Ubaydallah ibn Ma'mar, Abdullah ibn Khazim, Qatari ibn al-Fuja'a and al-Muhallab ibn Abi Sufra — reconquering town after town whose folk had apostatized, by force or sulh, until Kabul. Months of siege and mangonels opened a great breach; Abbad spent the night spearing the polytheists so they could not close it — al-Hasan: 'I never thought one man could stand for a thousand until I saw Abbad ibn al-Husayn'. At dawn the foe sallied; Ibn Khazim hamstrung their elephant which fell blocking the gate so they could not shut it — Abu Mikhnaf says it was al-Muhallab — and the Muslims entered by force. Victory-dispatch went with Umar ibn Ubaydallah and al-Muhallab; then Ibn Samura crossed Wadi Nasl, took Khawash and Quzan by force, Wazan whose folk fled, Khushak by sulh, al-Akhj by fighting, Zabulistan broken with captives, and Kabul again."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/abd-al-rahman-ibn-samura, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abbas-ibn-al-husayn-al-hibati, role: "صاحب الشرطة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "عاقر الفيل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-muhallab-ibn-abi-sufra, role: "من الأشراف وحامل البشارة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/kabul }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

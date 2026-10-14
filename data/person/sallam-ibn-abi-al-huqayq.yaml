@@ -1,0 +1,27 @@
+id: person/sallam-ibn-abi-al-huqayq
+class: person
+label: { en: "Sallam ibn Abi al-Huqayq (Abu Rafi')", ar: "سلام بن أبي الحقيق (أبو رافع)" }
+names:
+  - { kind: full, lang: ar, value: "سلام بن أبي الحقيق النضري" }
+  - { kind: kunya, lang: ar, value: "أبو رافع" }
+gender: male
+roles: [merchant, notable]
+traditions: []
+summary:
+  en: "A wealthy Jewish merchant of Banu al-Nadir settled in Khaybar; one of the primary instigators and financiers who traveled to Mecca and Ghatafan to forge the confederate alliance (al-Ahzab) against Medina; assassinated in his fortified residence by a Muslim covert squad led by Abdullah ibn Atik."
+  ar: "تاجر أهل الحجاز ووجيه بني النضير المستقر بخيبر؛ كان رأس المحرضين والممولين الذين خرجوا إلى قريش وغطفان فجمعوا الأحزاب على غزو المدينة؛ قتله خمسة من أبطال الخزرج بقيادة عبد الله بن عتيك في مخدعه بحصن خيبر."
+wings: [people]
+themes: [wars-and-campaigns, trade-and-finance]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, start: { edtf: "0626" }, end: { edtf: "0627" }, status: historical, note: "أحد الذين حزبوا الأحزاب وألبوا القبائل على المدينة (الرحيق ص301، 319–321).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+faith:
+  - { value: jewish, basis: documented, note: "سيد يهود النضير بخيبر." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/banu-nadir }
+  - { type: participated_in, target: event/battle-of-the-trench, role: "المحرض والممول للأحزاب", sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/assassination-of-sallam-ibn-abi-al-huqayq, role: "الهدف المقتول بالحصن", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 301, 319–321" }

@@ -1,0 +1,13 @@
+id: place/tunis
+class: place
+kind: city
+label: { ar: "تونس", en: "Tunis" }
+summary:
+  ar: "عاصمة تونس، مر بها ابن بطوطة في طريقه من المغرب إلى المشرق."
+regions: [maghreb]
+wings: [place]
+coordinates: [36.81897, 10.16579]
+coordinate_precision: locality
+external_ids: { geonames: "2464470" }
+sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical place to be checked" }

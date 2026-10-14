@@ -1,0 +1,94 @@
+---
+// Journey player (Part 3, C.4): a stylised map with the dashed route and its stations, a player bar (play, station ticks,
+// «المحطة X من N»), a narrative panel per station and a facts row. Rendered at build time with the first station open; the
+// script adds play, stepping and keyboard control. Without JavaScript the full station list below is the reading.
+import { byId, edgesFrom, href, labelOf } from "../lib/graph";
+import { formatDate } from "../lib/dates";
+import { ui, type Lang } from "../lib/i18n";
+import type { Node } from "../../../scripts/build-graph";
+const { node: n, lang } = Astro.props as { node: Node; lang: Lang };
+const T = ui(lang);
+const J = T.journey;
+const d = n.data;
+const wps: any[] = d.waypoints ?? [];
+const loc = (o: any) => o?.[lang] ?? o?.en ?? o?.ar ?? "";
+// --- geometry: a schematic route, not a map projection. Stations sit in order along a drawn curve (the journey's own places
+// are mostly unlocated wadis), so the sequence is right and the positions are illustrative; the caption says so.
+const pts = wps.map((w) => { const p = byId.get(w.place); return { id: w.place, label: p ? labelOf(p, lang) : w.place, href: p ? href(lang, w.place) : undefined, approx: !p?.coordinates }; });
+const W = 100, H = 62;
+const N0 = Math.max(pts.length - 1, 1);
+// cubic Bezier from the lower right (start) to the upper left (end), mirrored for LTR pages
+const P0 = [84, 50], P1 = [60, 58], P2 = [40, 6], P3 = [16, 14];
+const bez = (t: number) => { const u = 1 - t; return [u * u * u * P0[0] + 3 * u * u * t * P1[0] + 3 * u * t * t * P2[0] + t * t * t * P3[0], u * u * u * P0[1] + 3 * u * u * t * P1[1] + 3 * u * t * t * P2[1] + t * t * t * P3[1]]; };
+const xy = pts.map((_, i) => { const [x, y] = bez(i / N0); return [lang === "ar" ? x : W - x, y]; });
+// a gentle Catmull-Rom curve through the stations
+const path = xy.map((p, i) => {
+  if (i === 0) return `M${p[0].toFixed(1)} ${p[1].toFixed(1)}`;
+  const p0 = xy[i - 2] ?? xy[i - 1], p1 = xy[i - 1], p2 = p, p3 = xy[i + 1] ?? p;
+  const c1 = [p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6], c2 = [p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6];
+  return `C${c1[0].toFixed(1)} ${c1[1].toFixed(1)} ${c2[0].toFixed(1)} ${c2[1].toFixed(1)} ${p2[0].toFixed(1)} ${p2[1].toFixed(1)}`;
+}).join(" ");
+const companions = edgesFrom(n.id).filter((e) => e.type === "had_participant" && !e.inverse && byId.get(e.to)).map((e) => ({ node: byId.get(e.to)!, role: e.role }));
+const N = wps.length;
+const dayText = (w: any) => (w.day_status ? `${J.day} ${w.day}${w.day_status === "estimated" || w.day_status === "debated" ? " ≈" : ""}` : "");
+const stations = wps.map((w, i) => ({ i, title: loc(w.title), narrative: loc(w.narrative), day: w.day, dayText: dayText(w), dayNote: w.day_note, date: w.date ? formatDate(w.date, lang).text : "", place: pts[i], events: (w.events ?? []).map((id: string) => byId.get(id)).filter(Boolean).map((e: Node) => ({ href: href(lang, e.id), label: labelOf(e, lang) })), x: xy[i][0], y: xy[i][1], approx: pts[i].approx }));
+const payload = { n: N, stations: stations.map((s) => ({ title: s.title, narrative: s.narrative, dayText: s.dayText, dayNote: s.dayNote ?? "", date: s.date, place: { label: s.place.label, href: s.place.href ?? "", approx: s.approx }, events: s.events })), t: { of: J.of, station: J.station, play: J.play, pause: J.pause, approx: J.approx_place } };
+---
+{N > 0 && (
+<section class="jp ui no-print" data-journey aria-labelledby="jp-title">
+  <div class="jp-grid">
+    <div class="jp-map" aria-hidden="true">
+      <svg viewBox={`0 0 ${W} ${H}`} style="width:100%;height:auto;display:block;direction:ltr">
+        <defs>
+          <linearGradient id="jp-sky" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#efe6d2" /><stop offset="1" stop-color="#e3d2a8" /></linearGradient>
+        </defs>
+        <rect width={W} height={H} fill="url(#jp-sky)" />
+        <path d={`M0 ${H * 0.62} Q${W * 0.2} ${H * 0.48} ${W * 0.42} ${H * 0.6} T${W * 0.8} ${H * 0.55} T${W} ${H * 0.62} V${H} H0 Z`} fill="#dcc89a" opacity=".8" />
+        <path d={`M0 ${H * 0.8} Q${W * 0.3} ${H * 0.66} ${W * 0.55} ${H * 0.78} T${W} ${H * 0.74} V${H} H0 Z`} fill="#d2bb88" opacity=".7" />
+        <path d={path} class="jp-route" />
+        {stations.map((s) => (
+          <g class="jp-stop" data-stop={s.i}>
+            <circle cx={s.x} cy={s.y} r={s.i === 0 || s.i === N - 1 ? 2.4 : 1.8} class={s.approx ? "jp-dot jp-approx" : "jp-dot"} />
+            <text x={s.x} y={s.i % 2 ? s.y + 6.2 : s.y - 3.4} text-anchor="middle" class="jp-label">{s.place.label}</text>
+          </g>
+        ))}
+        <circle class="jp-marker" data-marker cx={stations[0].x} cy={stations[0].y} r="3.2" />
+      </svg>
+      <p class="jp-caption muted">{J.schematic}</p>
+    </div>
+    <div class="jp-panel">
+      <h2 id="jp-title" style="margin:0 0 4px;font-size:1.3rem">{J.title}</h2>
+      <p class="muted jp-count" data-count style="margin:0 0 10px;font-weight:600">{J.station} 1 {J.of} {N} · {stations[0].dayText}</p>
+      <div data-narrative>
+        <h3 class="jp-h" style="margin:0 0 6px;font-size:1.1rem">{stations[0].title}</h3>
+        <p class="jp-place muted" style="margin:0 0 8px;font-size:.9rem">{stations[0].place.href ? <a href={stations[0].place.href}>{stations[0].place.label}</a> : stations[0].place.label}{stations[0].date && ` · ${stations[0].date}`}{stations[0].approx && <> · <span>{J.approx_place}</span></>}</p>
+        <p class="jp-text" style="margin:0">{stations[0].narrative}</p>
+        {stations[0].dayNote && <p class="muted" style="font-size:.85rem;margin:8px 0 0">{stations[0].dayNote}</p>}
+      </div>
+      <dl class="jp-facts">
+        {d.distance_km && <><dt>{J.distance}</dt><dd>{J.about} {d.distance_km} {J.km}</dd></>}
+        {companions.length > 0 && <><dt>{J.companions}</dt><dd>{companions.slice(0, 6).map((c, i) => <><a href={href(lang, c.node.id)}>{labelOf(c.node, lang)}</a>{c.role ? ` (${c.role})` : ""}{i < Math.min(companions.length, 6) - 1 ? "، " : ""}</>)}</dd></>}
+      </dl>
+    </div>
+  </div>
+  <div class="jp-bar">
+    <button type="button" class="jp-play" data-play aria-label={J.play}>▶</button>
+    <button type="button" class="jp-step" data-prev aria-label={J.prev}><span aria-hidden="true">{lang === "ar" ? "›" : "‹"}</span></button>
+    <button type="button" class="jp-step" data-next aria-label={J.next}><span aria-hidden="true">{lang === "ar" ? "‹" : "›"}</span></button>
+    <div class="jp-ticks" role="tablist" aria-label={J.stations}>
+      {stations.map((s) => <button type="button" role="tab" aria-selected={s.i === 0 ? "true" : "false"} data-tick={s.i} title={`${s.title} · ${s.dayText}`}><span class="sr-only">{s.title}</span></button>)}
+    </div>
+    <a class="jp-list-link" href="#jp-stations">{J.all_stations}</a>
+  </div>
+  <script type="application/json" set:html={JSON.stringify(payload)} />
+</section>
+)}
+{N > 0 && (
+<section id="jp-stations" class="panel" style="margin-bottom:1.2rem" aria-labelledby="jp-stations-h">
+  <h2 id="jp-stations-h" style="font-size:1rem;margin:0 0 8px">{J.stations}</h2>
+  <ol class="jp-ol">
+    {stations.map((s) => <li><strong>{s.title}</strong> <span class="ui muted">— {s.dayText}{s.date ? ` · ${s.date}` : ""} · {s.place.href ? <a href={s.place.href}>{s.place.label}</a> : s.place.label}</span><br />{s.narrative}{s.events.length > 0 && <span class="ui" style="display:block;margin-top:2px">{s.events.map((e: any, k: number) => <><a href={e.href}>{e.label}</a>{k < s.events.length - 1 ? " · " : ""}</>)}</span>}</li>)}
+  </ol>
+</section>
+)}
+<script src="../scripts/journey.ts"></script>

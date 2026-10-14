@@ -1,0 +1,21 @@
+id: event/incident-of-al-raji
+class: event
+kind: skirmish
+label: { en: "The Incident of al-Raji'", ar: "سرية الرجيع" }
+summary:
+  en: "In Safar 4 AH (July 625 CE), a party of ten Companions led by Asim ibn Thabit was sent as teachers following a deceptive request by the Adal and al-Qarah tribes; they were betrayed to Banu Lihyan at al-Raji', where seven were killed in combat and three taken captive."
+  ar: "بعث النبي عشرة من الصحابة بقيادة عاصم بن ثابت في صفر 4هـ مع عضل والقارة ليفقهوهم، فغدروا بهم واستصرخوا بني لحيان عند ماء الرجيع؛ فقاتل عاصم وستة معه حتى استشهدوا وحمت الدبر جثمان عاصم، وأُسر خبيب بن عدي وزيد بن الدثنة فبيعوا بمكة لقريش وقُتلا بها."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0625-07~", hijri: "0004-02", calendar: julian, precision: month, status: tradition, note: "صفر سنة 4هـ (يوليو 625م) (الرحيق ص291–293)." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/asim-ibn-thabit, role: "أمير السرية، قاتل حتى قُتل وحمت الدبر جسده", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/khubayb-ibn-adi, role: "أُسر وبِيع بمكة وصلى ركعتين قبل إعدامه فسنّهما لكل مأسور", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/safwan-ibn-umayya, role: "اشترى زيد بن الدثنة وقتله بأبيه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/quraysh, role: "المشترون للأسرى للانتقام لقتلى بدر", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 291–293" }

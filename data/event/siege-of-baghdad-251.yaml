@@ -1,0 +1,25 @@
+id: event/siege-of-baghdad-251
+class: event
+kind: siege
+label: { ar: "حصار بغداد في فتنة المستعين والمعتز" }
+summary:
+  ar: "في سنة إحدى وخمسين ومائتين قُتل بغا الصغير ووصيف على يد باغر التركي فاضطرب أمر الموالي بسامراء، ولحق المستعين ببغداد إلى محمد بن عبد الله بن طاهر، فقطع ابن طاهر الميرة عن أهل سامراء ومنع أن يصعد شيء منها من بغداد ولا ينحدر إليها، وأمره المستعين بتحصين بغداد فأقام عليها السور من باب الشماسية إلى سوق الثلاثاء ومن باب قطيعة أم جعفر إلى قصر حميد، وحفر الخنادق حول السورين في الجانبين وعمل مظلات يأوي إليها الفرسان في الحر والمطر، وبلغت النفقة ثلاثمائة ألف دينار وثلاثين ألف دينار، وجعل على باب الشماسية خمس شداخات بعرض الطريق ألبست بصفائح الحديد وشدت بالحبال، وباباً معلقاً يُرسل على من وافى الباب فيقتل من تحته، وعلى الباب الداخر عرادة وعلى الخارج خمس مجانيق كبار أكبرها المسمى الغضبان، وست عرادات ترمى ناحية رقة الشماسية، وعلى باب البردان ثماني عرادات أربعاً في كل ناحية وأربع شداخات، وكذلك على كل باب من أبواب بغداد في الجانبين الشرقي والغربي {cite:tabari-khayyat-part3 p. 279-280}، فلما صار الأتراك والمغاربة إلى أبواب مدينة السلام من الجانب الشرقي أُغلقت الأبواب في وجوههم ورُموا بالسهام والمنجنيقات والعرادات فقتل من الفريقين مقتل وجرح جماعة كثيرة ولم يزالوا كذلك إلى العصر {cite:tabari-khayyat-part3 p. 311}، ودامت الحرب بين أهل بغداد وعسكر سامراء حتى خلع المستعين نفسه وبويع المعتز يوم الجمعة لأربع خلون من المحرم سنة اثنتين وخمسين، ونُقل المستعين إلى قصر الحسن بن سهل بالمخرم وأُخذت منه القضيب والخاتم {cite:tabari-khayyat-part3 p. 374}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0865~", hijri: "0251", calendar: julian, precision: year, status: tradition, derived: true, note: "251–252؛ انتهت بخلع المستعين 4 محرم 252؛ التحويل مشتق {cite:tabari-khayyat-part3 p. 374}." }
+  end: { edtf: "0866-02", hijri: "0252", calendar: julian, precision: month, status: tradition, derived: true, note: "محرم 252؛ التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/al-mustain, role: "الخليفة المحصور", sources: [source/tabari-khayyat-part3] }
+  - { type: had_participant, target: person/muhammad-ibn-abd-allah-ibn-tahir, role: "المحصن لبغداد والمدافع عنها", sources: [source/tabari-khayyat-part3] }
+  - { type: had_participant, target: person/al-mutazz, role: "المُنازع الذي بُويع بعد الخلع", sources: [source/tabari-khayyat-part3] }
+  - { type: had_participant, target: person/abu-ahmad-al-muwaffaq, role: "قائد عسكر سامراء", sources: [source/tabari-khayyat-part3] }
+  - { type: occurred_at, target: place/baghdad, sources: [source/tabari-khayyat-part3] }
+provenance:
+  layer: own-research
+  source: "تاريخ الرسل والملوك — الطبري، القسم الثالث (مكتبة خياط)، مسح AAlexandrina-223581 صفحات 279–374"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tabari-samarra-01
+sources: [source/tabari-khayyat-part3]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

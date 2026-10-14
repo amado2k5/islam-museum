@@ -1,0 +1,19 @@
+id: place/jerez
+class: place
+kind: city
+label: { ar: "شريش" }
+summary:
+  ar: "مدينة جليلة ضخمة الأسواق من كورة شريش في غرب الأندلس؛ قال الحجاري إنها بنت إشبيلية وواديها ابن واديها، ولأهلها همم وظرف في اللباس وإظهار الرفاهية وتخلق بالآداب، ولا تكاد ترى بها إلا عاشقاً ومعشوقاً، ولها من الفواكه ما يعم ويفضل، ومما اختصت به إحسان الصنعة في المجبنات وطيب جبنها، ويقول أهل الأندلس: من دخل شريش ولم يأكل بها المجبنات فهو محروم {cite:nafh-tib-maqqari p. 199}."
+  en: "Jerez (Sharish) — 'daughter of Seville,' a city of broad markets whose people showed ambition, elegance in dress and polished manners; famous for its fruits, its cheese and above all its mujabbanat pastries — 'whoever enters Jerez without eating them is deprived' {cite:nafh-tib-maqqari p. 199}."
+wings: [place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 199"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,61 @@
+id: person/abu-al-darda
+class: person
+label:
+  ar: أبو الدرداء عويمر
+  en: Abu al-Darda' (Uwaymir)
+names:
+- kind: full
+  lang: ar
+  value: عويمر بن قيس (واختُلف في اسمه واسم أبيه) الأنصاري الخزرجي
+- kind: kunya
+  lang: ar
+  value: أبو الدرداء
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: عويمر الأنصاري الخزرجي، مشهور بكنيته؛ قيل أسلم يوم بدر وشهد أحداً وأبلى فيها، وقال له النبي يوم أحد «نعم الفارس عويمر» ووصفه بـ«حكيم أمتي»، وكان تاجراً قبل البعث؛ توفي سنة 32هـ في قول الواقدي وجماعة، والأصح عند أهل الحديث أنه في خلافة عثمان.
+  en: Uwaymir al-Ansari al-Khazraji, known by his kunya; it is said he embraced Islam the day of Badr, he fought well at Uhud, where the Prophet said 'what a fine horseman Uwaymir is' and called him the wise man of his community; he had been
+    a merchant before the mission; he died in 32 AH on the account of al-Waqidi and others, and hadith scholars hold it was in Uthman's caliphate.
+wings:
+- people
+themes:
+- scripture-and-its-sciences
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 6901 (ص 1161).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 6901، ص 1161
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1161, entry 6901)

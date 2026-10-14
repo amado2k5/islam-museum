@@ -1,0 +1,22 @@
+id: event/adud-conquest-of-mosul-367
+class: event
+kind: conquest
+label: { ar: "استيلاء عضد الدولة على ملك بني حمدان" }
+summary:
+  ar: "في سنة 367هـ لما انهزم أبو تغلب وبختيار سار عضد الدولة نحو الموصل فملكها ثاني عشر ذي القعدة وما يتصل بها، وظن أبو تغلب أنه يفعل كما كان غيره يفعل يقيم يسيراً ثم يصطر إلى المصالحة ويعود، وكان عضد الدولة أحزم من ذلك فإنه لما قصد الموصل حمل معه الميرة والعلوقات ومن يعرف ولاية الموصل وأقام بها مطمئناً وبث السرايا في طلب أبي تغلب فأرسل يطلب أن يضمن البلاد فلم يجبه عضد الدولة إلى ذلك وقال هذه البلاد أحب إلي من العراق {cite:kamil-ibn-al-athir p. 507-508}."
+  en: "In Dhu'l-Qa'da 367 Adud al-Dawla took Mosul and the Hamdanid Jazira; Abu Taghlib expected the usual raid-and-settle, but Adud came stocked with provisions and local know-how, settled in and hunted him — 'these lands are dearer to me than Iraq' {cite:kamil-ibn-al-athir p. 507-508}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0978-07~", hijri: "0367-11-12", calendar: julian, precision: day, status: tradition, derived: true, note: "ثاني عشر ذي القعدة 367؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 507}." }
+relations:
+  - { type: had_participant, target: person/adud-al-dawla, role: "الفاتح", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abu-taglib-fadlallah, role: "الأمير المخلوع", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-15
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

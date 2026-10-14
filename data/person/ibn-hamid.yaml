@@ -1,0 +1,43 @@
+id: person/ibn-hamid
+class: person
+label:
+  ar: ابن حامد
+  en: "Ibn Hamid"
+names:
+- kind: full
+  lang: ar
+  value: الحسن بن حامد بن علي بن مروان البغدادي
+gender: male
+died:
+  hijri: '0403'
+  status: tradition
+  note: Given by the book (p. 412). A second source is needed.
+  sources:
+  - source/madkhal-ibn-badran-turki
+roles:
+- jurist
+- teacher
+traditions:
+- sunni-hanbali
+summary:
+  ar: إمام الحنابلة في زمنه ومعلمهم، وأستاذ القاضي أبي يعلى، وله «الجامع في المذهب» و«شرح الخرقي».
+  en: "The leading Hanbali scholar and teacher of his time, the master of the judge Abu Ya'la; he wrote al-Jami' fi al-Madhhab and a commentary on al-Kharaqi."
+wings:
+- people
+periods:
+- period/abbasid-early
+regions:
+- levant-iraq
+themes:
+- development-of-law-theology-institutions
+provenance:
+  layer: own-research
+  source: المدخل إلى مذهب الإمام أحمد بن حنبل لابن بدران، تحقيق عبد الله التركي، مؤسسة الرسالة 1981 (الطبعة الثانية)
+  generated_by: Claude Haiku 5.5 (claims table and entity data); qwen3:32b via Ollama (Arabic prose draft, reviewed by hand)
+  run: madkhal-batch-1
+sources:
+- source/madkhal-ibn-badran-turki
+status:
+  review: draft
+  completeness: 1
+  generated_by: Claude Haiku 5.5; from p. 412 of the book

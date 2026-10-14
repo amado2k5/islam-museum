@@ -1,0 +1,21 @@
+id: event/qahir-musicians-ban
+class: event
+kind: law-enacted
+label: { ar: "تحريم القاهر القيان والخمر" }
+summary:
+  ar: "في سنة إحدى وعشرين أمر القاهر بتحريم القيان والخمر وقبض على المغنين ونفى المخانيث وكسر آلات اللهو وأمر ببيع المغنيات من الجواري على أنهن سواذج وكان مع ذلك لا يصحو من السكر ولا يفتر عن سماع الغناء {cite:tarikh-khulafa-minhaj-1434 p. 597-598}."
+  en: "In 321 al-Qahir banned singing-girls and wine, arrested the singers, exiled the mukhannathun, smashed the instruments and ordered the singing slave-girls sold as ordinary maids — while he himself was never sober nor ever off the song {cite:tarikh-khulafa-minhaj-1434 p. 597-598}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0933~", hijri: "0321", calendar: julian, precision: year, status: tradition, derived: true, note: "321؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 597}." }
+relations:
+  - { type: had_participant, target: person/al-qahir-billah, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 594–604"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-34
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

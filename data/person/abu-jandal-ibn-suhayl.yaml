@@ -1,0 +1,27 @@
+id: person/abu-jandal-ibn-suhayl
+class: person
+label: { en: "Abu Jandal ibn Suhayl", ar: "أبو جندل بن سهيل" }
+names:
+  - { kind: full, lang: ar, value: "العاص (أبو جندل) بن سهيل بن عمرو العامري القرشي" }
+  - { kind: kunya, lang: ar, value: "أبو جندل" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "Son of Suhayl ibn Amr who embraced Islam early in Mecca and was imprisoned by his father; at the conclusion of the Hudaybiyya Treaty he escaped in chains to the Muslim camp; honoring the newly signed pact, the Prophet returned him while counseling patience, whereupon Abu Jandal escaped to the coastal enclave at al-Is with Abu Basir."
+  ar: "ابن سهيل بن عمرو القرشي؛ أسلم قديماً بمكة فحبسه أبوه، فلما فُرغ من كتابة صلح الحديبية خرج يرسف في قيوده حتى ألقى نفسه بين المسلمين، فاسترده أبوه بموجب بند الصلح، فصبره النبي، ثم أفلت ولحق بأبي بصير بسيف البحر."
+wings: [people]
+themes: [converts-and-leavers, the-poor-and-the-worker]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0615~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, start: { edtf: "0628" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0615~" }, note: "صحابي ومهاجر صابر." }
+relations:
+  - { type: born_in, target: place/mecca }
+  - { type: child_of, target: person/suhayl-ibn-amr }
+  - { type: participated_in, target: event/treaty-of-hudaybiyya, role: "الأسير المقيد المردود وفاءً للعهد", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 343–344, 347" }

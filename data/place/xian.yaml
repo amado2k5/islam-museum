@@ -3,11 +3,12 @@ class: place
 kind: city
 label: { ar: "شيآن", en: "Xi'an" }
 summary:
-  ar: "مدينة صينية كانت عاصمة الصين القديمة ونهاية طريق الحرير، وفيها الجامع الكبير الذي يعود تأسيسه إلى القرن الثامن الميلادي."
+  ar: "مدينة صينية كانت عاصمة الصين القديمة ونهاية طريق الحرير، وفيها الجامع الكبير الذي يعود تأسيسه إلى القرن الثامن الميلادي.، وعند أبي دلف الينبوعي في الفهرست اسم مدينة ملك الصين الأعظم حمدان {cite:fihrist-ibn-al-nadim p. 492}"
+  en: A Chinese city that was the ancient capital of China and the end of the Silk Road; its Great Mosque dates its founding to the eighth century CE.
 wings: [place]
 regions: [china-east-asia]
 coordinates: [34.2583, 108.9286]
 coordinate_precision: site
 external_ids: { geonames: "1790630" }
-sources: [source/geonames-gazetteer]
+sources: [source/fihrist-ibn-al-nadim, source/geonames-gazetteer]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; coordinates from GeoNames; Arabic summary to be checked against reference works" }

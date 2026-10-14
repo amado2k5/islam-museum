@@ -1,0 +1,16 @@
+id: person/abd-allah-ibn-jubayr
+class: person
+label: { ar: "عبد الله بن جبير بن النعمان الأنصاري الأوسي", en: "Abd Allah ibn Jubayr ibn al-Numan al-Ansari" }
+summary:
+  ar: "صحابي أنصاري أوسي بدري. عيّنه النبي قائداً لفصيلة الرماة الخمسين في غزوة أحد وأوصاهم بألا يبرحوا موقفهم على الجبل نصراً كان أم هزيمة. لما تركه أغلب أصحابه طمعاً في الغنيمة ثبت هو وتسعة معه في الجبل. قُتل على يد خالد بن الوليد وفرسانه لما نفّذوا الالتفاف. كان بدرياً وهو شرف رفيع {cite:mubarakpuri-raheeq p.255}."
+  en: "An Ansari Companion of the Aws who fought at Badr. The Prophet appointed him commander of the fifty-archer detachment at Uhud and charged them not to leave their position on the hill in victory or defeat. When most of his men left seeking spoils, he held firm with nine others on the hill. He was killed by Khalid ibn al-Walid and his cavalry when they executed the flanking manoeuvre. He was a Badri, which is a high honour {cite:mubarakpuri-raheeq p.255}."
+wings: [people]
+gender: male
+traditions: [sunni]
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-uhud, role: "قائد الرماة؛ ثبت في موقفه وقُتل" }
+  - { type: participated_in, target: event/battle-of-badr, role: "شهد بدراً" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 255-264" }

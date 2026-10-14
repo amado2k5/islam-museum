@@ -1,0 +1,22 @@
+id: person/razaq-allah-ibn-abd-al-wahhab
+class: person
+label: { ar: "رزق الله بن عبد الوهاب التميمي", en: "Razaq Allah ibn Abd al-Wahhab al-Tamimi" }
+names:
+  - { kind: full, lang: ar, value: "رزق الله بن عبد الوهاب بن عبد العزيز التميمي" }
+gender: male
+roles: [jurist, historian]
+traditions: [sunni]
+born: { edtf: "1010", hijri: "0401", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1095", hijri: "0488", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه حنبلي ومؤرخ من بغداد، ترجم له ابن الجوزي وغيره."
+  en: "A Hanbali jurist and historian of Baghdad, whose biography is recorded in works including those of Ibn al-Jawzi."
+wings: [people, words]
+themes: [development-of-law-theology-institutions, history-writing-and-social-thought]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 620, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص620", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

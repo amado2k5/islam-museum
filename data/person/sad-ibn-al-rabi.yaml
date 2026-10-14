@@ -1,0 +1,15 @@
+id: person/sad-ibn-al-rabi
+class: person
+label: { ar: "سعد بن الربيع الأنصاري الخزرجي", en: "Sad ibn al-Rabi al-Ansari" }
+summary:
+  ar: "صحابي أنصاري خزرجي. بعث النبي زيد بن ثابت يوم أحد يبحث عنه بين القتلى فوجده بآخر رمق وفيه سبعون ضربة ما بين طعنة برمح وضربة بسيف ورمية بسهم. فأبلغه سلام النبي فقال: «وعلى رسول الله السلام، قل له: يا رسول الله أجد ريح الجنة. وقل لقومك الأنصار: لا عذر لكم عند الله إن خُلص إلى رسول الله وفيكم عين تطرف». فاضت روحه من وقته {cite:mubarakpuri-raheeq p.280}."
+  en: "An Ansari Companion of the Khazraj. On the day of Uhud the Prophet sent Zayd ibn Thabit to search for him among the slain; he found him at his last breath with seventy blows on him — spear-thrusts, sword-blows and arrow-shots. He gave him the Prophet's greeting, and he said: 'and on the Messenger of God be peace. Tell him: Messenger of God, I catch the breeze of Paradise. And tell your people the Ansar: you have no excuse with God if the Messenger of God is reached while among you there is an eye that still blinks.' His soul flowed out on the spot {cite:mubarakpuri-raheeq p.280}."
+wings: [people]
+gender: male
+traditions: [sunni]
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: participated_in, target: event/battle-of-uhud, role: "استشهد في أحد بسبعين ضربة" }
+sources: [source/mubarakpuri-raheeq]
+provenance: { layer: own-research, generated_by: "kiro", model: "claude-opus-4-5", run: "raheeq-batch-11a", sources: [source/mubarakpuri-raheeq] }
+status: { review: draft, completeness: 2, generated_by: "kiro; raheeq pp. 280" }

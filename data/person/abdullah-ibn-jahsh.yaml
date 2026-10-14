@@ -1,0 +1,70 @@
+id: person/abdullah-ibn-jahsh
+class: person
+label:
+  ar: عبد الله بن جحش
+  en: Abdullah ibn Jahsh
+names:
+- kind: full
+  lang: ar
+  value: عبد الله بن جحش بن رئاب (رياب) بن يعمر الأسدي، حليف بني عبد شمس
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: من السابقين، حليف بني عبد شمس؛ هاجر إلى الحبشة وشهد بدراً، وبعثه النبي إلى نخلة، ويروى أنه كان أول أمير في الإسلام وأن أول راية عُقدت له؛ استشهد بأحد ودُفن مع حمزة في قبر واحد، ولقبه الزبير بن بكار «المجدع في الله».
+  en: One of the earliest Muslims and an ally of Banu Abd Shams; he emigrated to Abyssinia and fought at Badr; the Prophet sent him to Nakhla, and reports say he was the first commander in Islam and the first to be given a banner; he was killed
+    at Uhud and buried in one grave with Hamza, and al-Zubayr ibn Bakkar says he was nicknamed 'the one mutilated for God'.
+wings:
+- people
+themes:
+- battles
+- converts-and-leavers
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 5008 (ص 850).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-abd-shams
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/first-migration-to-abyssinia
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/expedition-of-nakhla
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 5008، ص 850
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-6
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 850, entry 5008)

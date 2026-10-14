@@ -1,0 +1,16 @@
+---
+id: event/expedition-of-rabigh
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+بعث النبي في شوال سنة 1هـ (أبريل 623م) سرية ثانية بقيادة ابن عمه [[person/ubayda-ibn-al-harith|عبيدة بن الحارث بن المطلب]] في ستين راكباً من [[group/muhajirun|المهاجرين]]، فلقوا جمعاً لقريش ببطن [[place/rabigh|رابغ]]. {cite:mubarakpuri-raheeq p.198}
+
+## اللقاء والرمي
+كان لواء السرية أبيض حمله [[person/mistah-ibn-uthatha|مسطح بن أثاثة]]، وكان على قريش [[person/abu-sufyan-ibn-harb|أبو سفيان صخر بن حرب]] (وقيل عكرمة بن أبي جهل) في مائتي راكب. {cite:mubarakpuri-raheeq p.198} {cite:zad-al-maad 2/84}
+
+ترامى الفريقان بالنبل ولم يسلوا السيوف، ورمى [[person/saad-ibn-abi-waqqas|سعد بن أبي وقاص]] المشركين بسهم فكان أول سهم رُمي به في سبيل الله في الإسلام. {cite:mubarakpuri-raheeq p.198}
+
+## انحياز الصحابيين
+شهدت السرية انضمام صحابيين كانا قد خرجا مع جيش مكة توصلاً للهرب: [[person/al-miqdad-ibn-amr|المقداد بن عمرو البهراني]] و[[person/utba-ibn-ghazwan|عتبة بن غزوان المازني]]، فانحازا إلى المسلمين وعادا معهم إلى المدينة. {cite:mubarakpuri-raheeq p.198} {cite:ibn-hisham-sira 1/597}

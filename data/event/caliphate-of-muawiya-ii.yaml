@@ -1,0 +1,21 @@
+id: event/caliphate-of-muawiya-ii
+class: event
+kind: other
+label: { ar: "خلافة معاوية بن يزيد" }
+summary:
+  ar: "استخلف معاوية بن يزيد بن معاوية بعهد من أبيه في ربيع الأول سنة أربع وستين وكان شاباً صالحاً، فلما استخلف كان مريضاً فاستمر مريضاً إلى أن مات ولم يخرج إلى الناس ولا فعل شيئاً من الأمور ولا صلى بالناس، وكانت مدة خلافته أربعين يوماً وقيل شهرين وقيل ثلاثة أشهر، ومات وله إحدى وعشرون سنة وقيل عشرون، ولما احتضر قيل له ألا تستخلف قال ما أصبت من حلاوتها فلم أتحمل مرارتها {cite:tarikh-khulafa-minhaj-1434 p. 347}."
+  en: "Mu'awiya II ibn Yazid succeeded by his father's testament in Rabi' I 64, a righteous youth; he remained ill throughout, never appearing before the people nor leading them in prayer. His caliphate lasted forty days — some say two or three months — and he died aged twenty or twenty-one. When urged at his deathbed to name a successor he answered: 'I have tasted none of its sweetness — why should I shoulder its bitterness?' {cite:tarikh-khulafa-minhaj-1434 p. 347}."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0684~", hijri: "0064", calendar: julian, precision: year, status: tradition, derived: true, note: "ربيع الأول 64؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 347}." }
+relations:
+  - { type: had_participant, target: person/muawiya-ibn-yazid, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 347"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-8
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

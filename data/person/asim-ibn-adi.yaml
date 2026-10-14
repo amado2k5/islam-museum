@@ -1,0 +1,17 @@
+id: person/asim-ibn-adi
+class: person
+label: { ar: "عاصم بن عدي", en: "Asim ibn Adi" }
+names:
+  - { kind: full, lang: ar, value: "عاصم بن عدي، أخو معن بن عدي" }
+gender: male
+summary:
+  ar: "أخو معن بن عدي من بني العجلان؛ ذكره ابن إسحاق احتمالاً بدل معن في خبر هدم مسجد الضرار."
+  en: Brother of Ma'n ibn Adi, of Banu al-Ajlan; Ibn Ishaq mentions him as a possible alternative to Ma'n in the report of the demolition of Masjid al-Dirar.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/demolition-of-masjid-al-dirar, role: "مذكور احتمالاً: «أو أخاه عاصم بن عدي»", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 174", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 174" }

@@ -1,0 +1,26 @@
+id: person/baraka-bint-yasar
+class: person
+label: { en: Baraka bint Yasar, ar: "بركة بنت يسار" }
+names:
+  - { kind: full, lang: ar, value: "بركة بنت يسار" }
+gender: female
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "مولاة أبي سفيان بن حرب، امرأة قيس بن عبد الله الأسدي؛ كانت ظِئراً لعبيد الله بن جحش وأم حبيبة، وهاجرت معهما إلى الحبشة."
+  en: Freedwoman of Abu Sufyan ibn Harb, wife of Qays ibn Abdullah al-Asadi; she was a foster-nurse to Ubaydullah ibn Jahsh and Umm Habiba and emigrated with them to Abyssinia.
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكرها ابن إسحاق في فصل مهاجرة الحبشة (ص6)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: spouse_of, target: person/qays-ibn-abdullah-asadi, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 6", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

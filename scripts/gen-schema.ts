@@ -81,7 +81,16 @@ const base = {
       type: "object",
       additionalProperties: false,
       required: ["tradition", "summary"],
-      properties: { tradition: enm(traditions), summary: ref("localized"), sources: strs },
+      properties: {
+        tradition: enm(traditions), summary: ref("localized"), sources: strs,
+        // docs/plan/20-opinions.md: a named opinion within a disagreement
+        id: { type: "string", pattern: "^[a-z0-9][a-z0-9-]*$" },
+        stance: ref("localized"),
+        // docs/scope.md addendum: the museum's main reference is Sunni Islam and its wasatiyya; other opinions are tagged secondary or other
+        standing: enm(["main", "secondary", "other"]),
+        holders: entityRefs,
+        evidence: { type: "array", items: { type: "object", additionalProperties: false, required: ["ref"], properties: { ref: entityRef, note: ref("localized") } } },
+      },
     },
     name: {
       type: "object",
@@ -108,6 +117,7 @@ const base = {
     regions: { type: "array", items: enm(regions), uniqueItems: true },
     external_ids: { type: "object", additionalProperties: { type: "string" } },
     relations: { type: "array", items: ref("relation") },
+    issue: ref("localized"),
     perspectives: { type: "array", items: ref("perspective") },
     sources: entityRefs,
     media: {
@@ -220,7 +230,11 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   journey: {
     properties: { ...kind("journey"), travelers: entityRefs, distance_km: { type: "number" }, geometry: str,
       legs: { type: "array", items: { type: "object", required: ["from", "to"],
-        properties: { from: entityRef, to: entityRef, start: D, end: D, mode: str, events: entityRefs, note: str } } } },
+        properties: { from: entityRef, to: entityRef, start: D, end: D, mode: str, events: entityRefs, note: str } } },
+      // day-by-day stations for the journey player (docs/plan/21 §C.4): ordered, each at a place, with a day number and a narrative
+      waypoints: { type: "array", items: { type: "object", additionalProperties: false, required: ["place", "day", "title", "narrative"],
+        properties: { place: entityRef, day: intStr, day_status: enm(claimStatus), day_note: str, date: D, title: ref("localized"), narrative: ref("localized"),
+          events: entityRefs, sources: strs, coordinates_note: str } } } },
     required: ["kind"],
   },
   place: {
@@ -261,6 +275,8 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   },
   passage: {
     properties: { work: entityRef, ref: str, unit: enm(["sura", "ayah", "hadith", "poem-line", "chapter", "other"]), sura: intStr, aya: intStr, text: str, text_search: str,
+      // sura chronology (docs/plan/21 §C.6): the Cairo-edition order of revelation and its Meccan/Medinan classification
+      revelation_order: intStr, revelation_place: enm(["meccan", "medinan"]),
       translations: { type: "object", additionalProperties: { type: "object", required: ["text"],
         properties: { text: str, translator: str, license: enm(licenses) } } },
       audio: entityRefs, context: L },

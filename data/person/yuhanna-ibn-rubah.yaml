@@ -1,0 +1,17 @@
+id: person/yuhanna-ibn-rubah
+class: person
+label: { en: Yuhanna ibn Ru'ba, ar: "يحنة بن رؤبة" }
+names:
+  - { kind: full, lang: ar, value: "يحنة بن رؤبة" }
+gender: male
+summary:
+  ar: "صاحب أيلة؛ أتى النبي بتبوك فصالحه وأعطاه الجزية، وكتب له كتاب أمان."
+  en: The master of Ayla; he came to the Prophet at Tabuk, made peace with him and paid the jizya, and the Prophet wrote him a letter of safe-conduct.
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/treaty-of-ayla, role: counterparty, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 169", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 169" }

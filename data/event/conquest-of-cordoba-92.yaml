@@ -1,0 +1,21 @@
+id: event/conquest-of-cordoba-92
+class: event
+kind: conquest
+label: { ar: "فتح قرطبة" }
+summary:
+  ar: "بعث طارق بن زياد مغيثاً الرومي إلى قرطبة في سبعمائة فارس، فدله راعي غنم على ثغرة في السور تعلقوا بها من شجرة تين بعد أن أرسل الله رذاذاً أخفى دقدقة حوافر الخيل، فكسروا أقفال الباب وملكوا المدينة عنوة، وتحصن ملكها في كنيسة بغربيها حتى قطع المسلمون عنها قناة الماء ففر فأدركه مغيث قرب تطليرة {cite:nafh-tib-maqqari p. 297-299}."
+  en: "Tariq's lieutenant Mughith al-Rumi took Cordoba in 92 by a wall-breach a shepherd showed him — a fig tree for scaling and a heaven-sent drizzle masking the hooves — and captured its fleeing lord near Tatlira {cite:nafh-tib-maqqari p. 297-299}."
+wings: [time, people]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0711~", hijri: "0092~", calendar: julian, precision: year, derived: true }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-26
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,16 @@
+id: person/buna-al-saghir
+class: person
+label: { ar: "بنا الصغير", en: "Buna al-Saghir" }
+summary:
+  ar: "بنا الصغير مولى أمير المؤمنين المتوكل؛ حارب محمد بن البعيث الخارج بأذربيجان حتى ظفر به وحمله إلى سر من رأى وهدم حائط مرند وقصره."
+  en: "Buna al-Saghir, al-Mutawakkil's mawla; he fought the rebel Muhammad ibn al-Ba'ith, took him to Samarra, and razed Marand's wall and palace."
+periods: [period/abbasid-fragmentation]
+relations:
+  - { type: participated_in, target: event/muhammad-ibn-al-baith-revolt }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

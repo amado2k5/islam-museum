@@ -1,0 +1,20 @@
+id: event/fall-of-istakhr
+class: event
+kind: conquest
+label: { ar: "فتح أصطخر عنوة", en: "The Forced Taking of Istakhr" }
+summary:
+  ar: "سار عبد الله بن عامر إلى أصطخر سنة ٢٨ فصالحه ماهك عن أهلها ثم خرج يريد جور فلما فارقها نكثوا وقتلوا عامله عليهم فلما فتح جور كر عليهم ففتحها عنوة بعد قتال شديد ورمى بالمجانيق وقتل بها من الأعاجم أربعين ألفاً وأفنى أكثر أهل البيوتات ووجوه الأساورة وكانوا قد لجأوا إليها وقيل بلغ من قتل فيها نحو مائة ألف وكان على مقدمة ابن عامر عبيد الله بن معتر التيمي فاستقبله أهل أصطخر ببرامجرد فقاتلهم فقتلوه فدفن في بستان برامجرد فأقبل ابن عامر مسرعاً وعلى ميمنته أبو برزة نضلة بن عبيد الله الأسلمي وعلى ميسرته معقل بن يسار المزني وعلى الخيل عمران بن الحصين الخزاعي وعلى الرجال خالد بن المعمر الذهلي فهزمهم حتى أدخلهم أصطخر وروى أن أهل أصطخر غدروا في ولاية عبد الله بن عباس العراق لعلي ففتحها."
+  en: "Ibn Amir marched on Istakhr in 28h — Mahak truced for its folk, he left for Jur, and they broke and killed his agent; Jur fallen, he returned and took Istakhr by storm after heavy fighting and mangonels — forty thousand Ajam killed, most house-holders and asawira chiefs who had sheltered there destroyed, some say near a hundred thousand. On his vanguard Ubaydallah ibn Ma'tar al-Taymi had met them at Bramjard and fallen, buried in Bramjard's garden; Ibn Amir hurried — Abu Barza al-Aslami right, Ma'qil ibn Yasar left, Imran ibn al-Husayn horse, Khalid ibn al-Mu'ammar foot — and drove them inside. In another telling they betrayed under Ibn Abbas's Iraq governorship for Ali and were reconquered."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/abd-allah-ibn-amir, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/mahak, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ubaydallah-ibn-matar, role: "قائد المقدمة المقتول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/istakhr }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

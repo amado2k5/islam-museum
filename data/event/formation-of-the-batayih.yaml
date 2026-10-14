@@ -1,0 +1,22 @@
+id: event/formation-of-the-batayih
+class: event
+kind: other
+label: { ar: "حدوث البطائح", en: "The Formation of the Bata'ih (Great Swamp)" }
+summary:
+  ar: "عند البلاذري: كانت الفرس تتحدث بزوال ملكها وتروي في آية ذلك زلازل وطوفاناً تحدث وكانت دجلة تصب إلى دجلة البصرة التي تدعى الموراء في أنهار متشعبة فلما كان زمان قباذ بن فيروز انبثق في أسافل كسكر بئق عظيم فأغفل حتى غلب ماؤه وغرق كثيراً من أرضين عامرة وكان قباذ واهناً قليل التفقد لأمره فلما ولي أنوشروان ابنه أمر بذلك الماء فردم بالمسنايات حتى عاد بعض تلك الأرضين إلى عمارة ثم لما كانت السنة التي بعث فيها النبي عبد الله بن حذافة السهمي إلى كسرى أبرويز وهي سنة 7 ويقال سنة 6 زاد الفرات ودجلة زيادة عظيمة لم ير مثلها قبلها ولا بعدها وانبثقت بثوق عظام فجهد أبرويز أن يسدها فغلبه الماء ومال إلى موضع البطائح فطفا على العمارات والزروع فغرق عدة طساسيج كانت هناك وركب كسرى بنفسه لسد تلك البثوق ونثر الأموال على الانطاع وقتل الفعلة بالكفاية وصلب على بعض البثوق فيما يقال أربعين جساراً في يوم فلم يقدر للماء على حيلة ثم دخلت العرب أرض العراق وشغلت الأعاجم بالحروب فكانت البثوق تنفجر فلا يلتفت إليها وأعجز الدهاقين عن سد عظمها فاتسعت البطيحة وعرضت."
+  en: "In al-Baladhuri: the Persians used to foretell their kingdom's end, relating earthquakes and floods among its signs; the Tigris had flowed into Basra's Tigris called al-Mawra' in branching channels. Under Qubad ibn Fayruz a great breach opened in lower Kaskar and was neglected until its waters drowned many cultivated lands — Qubad being weak and little attentive — until his son Anushirwan had it dammed with embankments and some lands returned to cultivation. Then in the year the Prophet sent Abdallah ibn Hudhayfa al-Sahmi to Khosrow Aparviz — year 7, some say 6 — the Euphrates and Tigris rose in a flood unseen before or after; great breaches burst. Aparviz strained to dam them but the water defeated him, spread to the Bata'ih's site, covered buildings and crops and drowned several tasasij. Khosrow rode out himself to plug the breaches, scattered money over the execution-hides, worked the laborers to death and crucified — it is said — forty diggers on one breach in a day; yet he found no device against the water. Then the Arabs entered Iraq, the Persians were consumed by war, the breaches burst unattended and the dihqans proved too weak to dam the greatest — so the Batayih widened and grew."
+wings: [time, place]
+periods: [period/pre-islamic-arabia, period/prophetic-era, period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: occurred_at, target: place/bataih }
+  - { type: had_participant, target: person/khosrow-ii, role: "العاجز عن السد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/qubad-ibn-firuz, role: "المغفل للبئق الأول", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/khosrow-i-anushirvan, role: "الرادم بالمسنايات", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 410–412"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-38
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

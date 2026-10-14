@@ -1,0 +1,25 @@
+id: event/sariyya-of-qutba-to-khatham
+class: event
+kind: raid
+label: { en: "Qutba ibn Amir's raid on Khath'am", ar: "سرية قطبة بن عامر إلى خثعم" }
+summary:
+  en: "In Safar 9 AH the Prophet sent Qutba ibn Amir ibn Hadida with twenty men on ten camels they shared in turns against a clan of Khath'am near Tabala in the Turba region; the raid met hard fighting with many wounded on both sides, and the Muslims drove cattle, captives and sheep back to Medina."
+  ar: "بعث النبي قطبة بن عامر بن حديدة في صفر سنة 9هـ في عشرين رجلاً على عشرة أبعرة يعتقبونها إلى حي من خثعم بناحية تبالة بالقرب من تربة؛ فشنّ الغارة فاقتتلوا قتالاً شديداً حتى كثر الجرحى في الفريقين جميعاً، وقتل قطبة من قتل، وساق المسلمون النعم والنساء والشاء إلى المدينة."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631-02", hijri: "0009-02", calendar: julian, precision: month, status: tradition, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: had_participant, target: person/muhammad, role: dispatched-the-detachment, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/qutba-ibn-amir, role: raid-commander, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sides:
+  - label: { en: "Muslim detachment", ar: "سرية المسلمين" }
+    participants: [group/early-muslims]
+    commanders: [person/qutba-ibn-amir]
+  - label: { en: "Khath'am clansmen", ar: "حي من خثعم" }
+    participants: [group/khathum]
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 426" }

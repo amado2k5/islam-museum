@@ -1,0 +1,21 @@
+id: person/yahya-ibn-yahya-al-laythi
+class: person
+label: { ar: "يحيى بن يحيى الليثي", en: "Yahya ibn Yahya al-Laythi" }
+names:
+  - { kind: full, lang: ar, value: "يحيى بن يحيى بن كثير الليثي الأندلسي" }
+gender: male
+roles: [scholar, muhaddith]
+traditions: [sunni]
+summary:
+  ar: "من أهل الأندلس؛ قدم على الإمام مالك بن أنس بالمدينة فأخذ عنه الموطأ، فصارت روايته أشهر رواياته وأوسعها انتشاراً في المغرب والأندلس.، وعند المقري قال ابن حزم: كان يحيى بن يحيى متكيناً عند السلطان مقبول القول في القضاة فكان لا يُولى قاضٍ في أقطار بلاد الأندلس إلا بمشورته واختياره ولا يشير إلا بأصحابه ومن كان على مذهبه ومع ذلك لم يتقلد قضاء قط ولا أجاب إليه؛ وأفتى الأمير عبد الرحمن بن الحكم في جارية وقع عليها في رمضان بالصوم شهرين متتابعين وقال لمن عترض عليه بمذهب مالك في التخيير: لو فتحنا له هذا الباب سهل عليه أن يطأ كل يوم ويعتق رقبة لكن حملته على أصعب الأمور لئلا يعود، وكان ممن انهم بالهيج في وقعة الربض المشهورة ففر إلى طليطلة ثم استأمن فكتب له الحكم أماناً، وقال ابن الفرضي: لم يُعطَ أحد من أهل الأندلس منذ دخلها الإسلام ما أعطي يحيى من الحظوة وعظم القدر {cite:nafh-tib-maqqari p. 13}، وعند المقري وحكي أنه لما ارتحل إلى مالك لازمه فبينما هو عنده في مجلسه إذ قال قائل حضر الفيل فخرج أصحاب مالك كأنهم ولم يخرج يحيى فقال له مالك ما لك لم تخرج وليس الفيل في بلادك فقال إنما جئت من الأندلس لأنظر إليك وأتعلم من هديك وعلمك ولم أكن لأنظر إلى الفيل فأعجب به مالك وقال هذا عاقل الأندلس، وتوفي سنة 234هـ برجب وقبره يستسقى به بقرطبة {cite:nafh-tib-maqqari p. 11}"
+  en: "From al-Andalus; he came to Imam Malik in Medina and studied the Muwatta with him. His recension became the most widely read transmission of the book in the Maghrib and al-Andalus."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [andalus-europe, maghreb]
+born: { hijri: "0152", calendar: julian, precision: year, status: historical, note: "عنوان الطبعة: (١٥٢ - ٢٣٤هـ). يحتاج إلى مصدر ثانٍ.", sources: [source/muwatta-maruf-1997] }
+died: { hijri: "0234", calendar: julian, precision: year, status: historical, note: "عنوان الطبعة يُقرأ بالتعرف الضوئي (OCR) ٢٤٤؛ الأرجح ٢٣٤هـ. يُتحقَّق من الرقم المطبوع قبل الاعتماد عليه.", sources: [source/muwatta-maruf-1997] }
+relations:
+  - { type: student_of, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, title page (PDF p. 1) and editor's introduction (PDF pp. 5–6)", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+sources: [source/nafh-tib-maqqari, source/muwatta-maruf-1997]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); death year must be checked against the printed page (OCR reads ٢٤٤); needs_source born, died (CLAUDE.md dual-source rule)" }

@@ -1,0 +1,66 @@
+id: person/al-bara-ibn-malik
+class: person
+label:
+  ar: البراء بن مالك
+  en: al-Bara' ibn Malik
+names:
+- kind: full
+  lang: ar
+  value: البراء بن مالك بن النضر الأنصاري
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أخو أنس بن مالك وابن أم سليم، كان حادي النبي في أسفاره، وشهد المشاهد إلا بدراً، ولاقى بلاءً يوم اليمامة، واستُشهد في حصن تستر في خلافة عمر نحو سنة 20هـ.
+  en: The brother of Anas ibn Malik and son of Umm Sulaym, he was the Prophet's camel-driver chanting on his journeys, took part in the campaigns except Badr, distinguished himself at al-Yamama, and was killed at the fortress of Tustar in Umar's
+    caliphate, around 20 AH.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 644 (ص 138).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: child_of
+  target: person/umm-sulaym
+  sources:
+  - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/anas-ibn-malik
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-uhud
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 644، ص 138
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-4
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 138, entry 644)

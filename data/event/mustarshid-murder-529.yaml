@@ -1,0 +1,24 @@
+id: event/mustarshid-murder-529
+class: event
+kind: other
+label: { ar: "أسر المسترشد وقتله بمراغة" }
+summary:
+  ar: "وقعت بين الخليفة المسترشد والسلطان مسعود بن محمد وحشة فخرج لقتاله فالتقى الجمعان وغدر بالخليفة أكثر عسكره فظفر به مسعود وأسر الخليفة وخواصه فحبسهم بقلعة بقرب همدان فبلغ أهل بغداد ذلك فحثوا في الأسواق على رؤوسهم التراب وبكوا وضجوا وخرج النساء حاسرات يندبن الخليفة ومنعوا الصلوات والخطبة، وأرسل السلطان سنجر إلى ابن أخيه مسعود يأمره بإعادة الخليفة ذاكراً ما ظهر من الآيات السماوية والأرضية فقبل مسعود الأرض بين يدي الخليفة، ثم جاء في عسكر سنجر سبعة عشر من الباطنية فذكر أن مسعوداً ما علم بهم وقيل بل هو الذي دسهم فهجموا على الخليفة في مخيمه ففتكوا به وقتلوا معه جماعة من أصحابه فأخذوهم وقتلوهم، وكان قتل المسترشد بمراغة يوم الخميس سادس عشر ذي القعدة سنة تسع وعشرين وخمس مئة وخرج أهل بغداد حفاة مخرقين الثياب والنساء ناشرات الشعور يلطمن ويقلن المراثي لأن المسترشد كان محبباً فيهم لما فيه من الشجاعة والعدل والرفق {cite:tarikh-khulafa-minhaj-1434 p. 664-665}."
+  en: "Al-Mustarshid marched on sultan Mas'ud; most of his army betrayed him and he was taken to a fortress near Hamadan. Baghdad put dust on its heads, the women went out unveiled keening, prayers and the khutba were suspended — and Sanjar wrote his nephew Mas'ud of the heavenly and earthly signs, ordering the caliph restored; Mas'ud kissed the ground before him. Then seventeen Batiniyya in Sanjar's escort — sent, it was said, without Mas'ud's knowledge, though some say he planted them — fell on the caliph in his camp and slaughtered him with his companions at Maragha, Thursday 16 Dhu'l-Qa'da 529; Baghdad came out barefoot with torn clothes {cite:tarikh-khulafa-minhaj-1434 p. 664-665}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1135-08-26~", hijri: "0529-11-16", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس 16 ذي القعدة 529؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 665}." }
+relations:
+  - { type: had_participant, target: person/al-mustarshid-billah, role: "المقتول", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/masud-ibn-muhammad-saljuqi, role: "الآسر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/sanjar, role: "السلطان الأكبر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/maragha, sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 657–666"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-40
+sources: [source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

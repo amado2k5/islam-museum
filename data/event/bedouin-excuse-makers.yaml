@@ -1,0 +1,17 @@
+id: event/bedouin-excuse-makers
+class: event
+kind: other
+label: { ar: "المعذّرون من الأعراب", en: "The Bedouin excuse-makers" }
+summary:
+  ar: "جاء المعذّرون من الأعراب فاعتذروا إلى النبي فلم يعذرهم الله بحسب ابن إسحاق، وقد ذُكر له أنهم نفر من بني غفار."
+  en: Bedouin came making excuses to the Prophet, and God did not excuse them, according to Ibn Ishaq; they were reported to him as a group of Banu Ghifar.
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0630-10", hijri: "0009-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رأس الباب عند ابن إسحاق: «غزوة تبوك في رجب سنة تسع»؛ والتوقيت الدقيق للواقعة داخل الغزوة غير مذكور، فنُسب إليها تاريخ الغزوة كلها.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 162", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 162" }

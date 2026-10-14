@@ -1,0 +1,25 @@
+id: event/conquest-of-harran
+class: event
+kind: conquest
+label: { ar: "فتح حران", en: "The Conquest of Harran" }
+summary:
+  ar: "عند البلاذري: سار إياد إلى حران فنزل بأجدى وبعث مقدمته فأغلق أهل حران أبوابها دونهم ثم اتبعهم فلما نزل بها بعث إليه الحرنانيون من أهلها يعلمونه أن في أيديهم طائفة من المدينة ويسألونه أن يصير إلى الرها فهما صالحوه عليه من شيء قنعوا به وخلوا بينه وبين النصارى حتى يصيروا إليه، فبلغ النصارى ذلك فأرسلوا إليه بالرضى بما عرض الحرنانيون وبذلوا، فأتى الرها وقد جمع له أهلها فرموا المسلمين ساعة ثم خرجت مقاتلتهم فهزمهم المسلمون حتى ألجأوهم إلى المدينة فلم ينشبوا أن طلبوا الصلح والأمان؛ وروي أن إياداً لما أتى حران من الرقة وجدها خالية قد انتقل أهلها إلى الرها فلما فتحت الرها صالحوا عن مدينتهم وهم بها وكان صلحهم مثل صلح الرها؛ فصالح إياد أهل حران على مثل صلح الرها وفتحوا له أبوابها وولاها رجلاً ثم سار إلى سميساط فوجد صفوان بن المعطل وحبيب بن مسلمة مقيمين قد غلبا على قرى وحصون من قراها فصالحه أهلها على مثل صلح أهل الرها، ثم إن سميساط كفروا فلما بلغه ذلك رجع إليهم فحاصرها حتى فتحها، وأتى سروج ورأس كيفا والأرض البيضاء فغلب على أرضها وصالح أهل حصونها على مثل صلح الرها."
+  en: "In al-Baladhuri: Iyad marched on Harran, halting at Ajda and sending his vanguard ahead — its people shut the gates against them, and when he invested it the Harranian faction among them sent word that they held part of the city and asked him to make for al-Ruha so they could compound with him secretly and leave him and the Christians apart; the Christians heard, consented to what the Harranians offered and outbid it, so he went to al-Ruha whose people had gathered, shot at the Muslims a while, sent out their fighters whom the Muslims routed back into the city, and soon sued for peace and aman; another report has Iyad finding Harran empty — its people removed to al-Ruha — so when al-Ruha fell they compounded for their city from within it on the like of its treaty; he compounded with Harran on the like of al-Ruha's terms, they opened its gates, he set a man over it and went on to Sumaysat where Safwan ibn al-Mu'attal and Habib ibn Maslama held villages and forts, its people compounding likewise — Sumaysat later apostatised and he returned and besieged it till he took it — and he came to Saruj, Ra's Kayfa and the White Land, mastering its land and compounding with its fort-dwellers on al-Ruha's terms."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0639~", hijri: "0018~", calendar: julian, precision: year, status: tradition, derived: true, note: "إثر فتح الرها والرقة (البلاذري ص 239–241). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-jazira }
+  - { type: occurred_at, target: place/harran }
+  - { type: had_participant, target: person/iyyad-ibn-ghanm, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/safwan-ibn-al-muattal, role: "أمير السرية إلى سميساط مع حبيب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/habib-ibn-maslama, role: "أمير السرية إلى سميساط مع صفوان", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 239–241"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-14
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

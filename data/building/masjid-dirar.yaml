@@ -1,0 +1,25 @@
+id: building/masjid-dirar
+class: building
+kind: mosque
+label: { ar: "مسجد الضرار", en: "Masjid al-Dirar" }
+summary:
+  ar: "مسجد بناه اثنا عشر رجلاً سمّاهم ابن إسحاق قرب المدينة، وطلبوا من النبي وهو يتجهز إلى تبوك أن يصلي فيه فأجّلهم إلى عودته؛ فلما نزل بذي أوان قافلاً أمر بهدمه وإحراقه، ونزل فيهم قرآن. ويُعرف أيضاً بمسجد الشقاق."
+  en: A mosque near Medina built by twelve men named by Ibn Ishaq; they asked the Prophet, then preparing for Tabuk, to pray in it, and he put them off until his return. On his way back he stopped at Dhi Awan and ordered it demolished and burned, and Qur'an was revealed about them. It is also called Masjid al-Shiqaq.
+wings: [place, time]
+periods: [period/prophetic-era]
+regions: [arabia]
+location: place/medina
+status_now: destroyed
+issue: { ar: "لماذا بُني مسجد الضرار ولماذا أمر النبي بهدمه، وكيف تقرؤه المصادر والدراسات؟", en: "Why was the mosque of al-Dirar built and why did the Prophet order it demolished, and how do the sources and studies read the episode?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    summary: { ar: "يروي ابن إسحاق أن أصحاب المسجد أتوا النبي وهو يتجهز إلى تبوك وقالوا إنهم بنوه لذي العلة والحاجة والليلة المطيرة والشاتية، فأجّلهم إلى عودته، ثم لما بلغه خبره أمر بهدمه وإحراقه، ونزل فيهم قرآن (9:107). ويفصّل المفسرون السنة غرض الباني ونيته؛ وهذا التفصيل يحتاج إلى مراجعة تفاسير بعينها (needs_source).", en: "Ibn Ishaq relates that the mosque's people came to the Prophet while he was preparing for Tabuk saying they had built it for the sick and needy and for rainy and wintry nights, and he put them off until his return; then when news of it reached him he ordered it demolished and burned, and Qur'an was revealed about them (9:107). Sunni exegetes detail the builder's purpose and intention — this detailing needs review of specific tafsir works (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    id: academic
+    summary: { ar: "يربط الباحثون الواقعة بالتوتر السياسي في المدينة قبيل تبوك بين النبي وخصومه من أهلها؛ تلخيص يحتاج إلى مرجع أكاديمي محدد (needs_source).", en: "Researchers link the incident to the political tension in Medina before Tabuk between the Prophet and his opponents among its people; the summary needs a specific academic reference (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 173-174", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-7a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 173-174" }

@@ -1,0 +1,18 @@
+id: event/prophets-seal
+class: event
+kind: other
+label: { ar: "خاتم النبي للمراسلة", en: "The Prophet's Seal for Correspondence" }
+summary:
+  ar: "قال أنس بن مالك لما أراد رسول الله أن يكتب إلى ملك الروم قيل له إنهم لا يقرءون الكتاب إلا أن يكون مختوماً فاتخذ خاتماً من فضة فكأني أنظر إلى بياضه في يده ونقش عليه محمد رسول الله."
+  en: "Anas ibn Malik: when the Prophet meant to write to the Byzantine king he was told 'they do not read a letter unsealed', so he took a silver seal — 'as if I see its whiteness on his hand' — engraved 'Muhammad, Messenger of God'."
+periods: [period/prophetic-era]
+relations:
+  - { type: had_participant, target: person/muhammad, role: "صاحب الخاتم", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/anas-ibn-malik, role: "الراوي", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

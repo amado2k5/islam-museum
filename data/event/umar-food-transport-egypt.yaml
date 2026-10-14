@@ -1,0 +1,23 @@
+id: event/umar-food-transport-egypt
+class: event
+kind: law-enacted
+label: { ar: "حمل طعام خراج مصر إلى المدينة", en: "The Sea Transport of Egypt's Kharaj Grain to Medina" }
+summary:
+  ar: "عند البلاذري: كتب عمر بن الخطاب سنة إحدى وعشرين إلى عمرو بن العاص يعلّمه ما بأهل المدينة من الجهد ويأمره أن يحمل ما يقبض من الطعام في الخراج إلى المدينة في البحر فكان ذلك يُحمل ويُحمل معه الزيت فإذا ورد الجار تولّى قبضه سعد الجار ثم جُعل في دار بالمدينة وقُسّم بين الناس بمكيال فانقطع ذلك في الفتنة الأولى ثم حُمل في أيام معاوية ويزيد ثم انقطع إلى زمن عبد الملك بن مروان ثم لم يزل يُحمل إلى خلافة أبي جعفر وقبيلها. وفي خلافة عمر صولح أهل الجزية بمصر بعد الصلح الأول مكان الحنطة والزيت والعسل والخل على دينارين دينارين فألزم كل رجل أربعة دنانير فرضوا بذلك وأحبّوه."
+  en: "In al-Baladhuri: in year 21 Umar ibn al-Khattab wrote to Amr ibn al-As informing him of Medina's hardship and ordering him to ship the kharaj grain he gathered to Medina by sea — so it was borne, and oil with it, till reaching al-Jar, where Sa'd al-Jar took charge, and it was lodged in a house at Medina and dealt out to the people by measure; the transport ceased at the first fitna, resumed in Mu'awiya's and Yazid's days, ceased again till Abd al-Malik's, then ran uninterrupted till Abu Ja'far's caliphate and just before it. And in Umar's caliphate Egypt's jizya-payers were recompounded — two dinars plus two in place of the wheat, oil, honey and vinegar — every man bound to four dinars, which they accepted and loved."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [egypt-nile, arabia]
+date:
+  start: { hijri: "0021", precision: year, status: tradition, note: "البلاذري ص 303." }
+relations:
+  - { type: occurred_at, target: place/al-jar }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الآمر بالحمل", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "والي مصر المنفّذ", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 303–304"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-19
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

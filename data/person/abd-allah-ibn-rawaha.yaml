@@ -1,0 +1,31 @@
+id: person/abd-allah-ibn-rawaha
+class: person
+label: { ar: "عبد الله بن رواحة", en: "Abd Allah ibn Rawaha" }
+aliases: [person/abdullah-ibn-rawaha]
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن رواحة بن ثعلبة بن امرئ القيس الخزرجي الأنصاري" }
+gender: male
+died: { edtf: "0629-09~", hijri: "0008-05", calendar: julian, precision: month, status: tradition, note: "قُتل في جمادى الأولى سنة ثمان بمؤتة من أرض الشام.", sources: [source/ibn-hisham-saqqa] }
+roles: [companion, poet]
+traditions: [sunni]
+summary:
+  ar: "صحابي من الأنصار، شاعر الجهاد في الإسلام المبكر، عُيِّن ثالث قادة جيش مؤتة. حين قُتل صاحباه زيد وجعفر تردد لحظة ثم أقدم قاتلًا حتى استُشهد. أبلغ النبي بشهادته غيبًا ورأى في رؤياه سريره مائلًا قليلًا عن سريري رفيقيه بسبب تردده ثم مضيه."
+  en: "Companion from the Ansar and poet of early Islam; appointed third commander of the Mu'tah expedition. After both of his comrades Zayd and Ja'far were killed he hesitated briefly then charged and was martyred. The Prophet announced his death while still in Medina, reporting in a vision that his throne was slightly tilted beside his companions' because of his hesitation before pressing on."
+wings: [people]
+themes: [battles, literature]
+periods: [period/prophetic-era]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: companion, start: { edtf: "0622~" }, end: { edtf: "0629-09~" }, status: tradition, sources: [source/ibn-hisham-saqqa] }
+  - { role: commander, start: { edtf: "0629-09~" }, end: { edtf: "0629-09~" }, status: tradition, note: "عُيِّن ثالث قادة جيش مؤتة، فأخذ القيادة بعد مقتل زيد وجعفر.", sources: [source/ibn-hisham-saqqa] }
+  - { role: martyr, start: { edtf: "0629-09~" }, status: tradition, sources: [source/ibn-hisham-saqqa] }
+  - { role: poet, status: tradition, note: "روى ابن إسحاق عدة أبيات في رجزه وقصائده قبيل المعركة، من أشهرها: 'أقسمت يا نفس لتنزلنه'.", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "صحابي أنصاري مذكور في المصادر الإسلامية الكلاسيكية." }
+relations:
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/early-muslims }
+  - { type: participated_in, target: event/battle-of-mutah, role: third-commander, sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/mutah }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "kiro; mined from Ibn Hisham juz' 4 pp. 15-22" }

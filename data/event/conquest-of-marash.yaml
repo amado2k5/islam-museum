@@ -1,0 +1,30 @@
+id: event/conquest-of-marash
+class: event
+kind: conquest
+label: { ar: "فتح مرعش وعمارتها", en: "The Taking and Settling of Mar'ash" }
+summary:
+  ar: "عند البلاذري: وجّه أبو عبيدة بن الجراح — وهو بمنبج — خالد بن الوليد إلى ناحية مرعش ففتح حصنها على أن جلا أهله ثم أخربه؛ وكان سفيان بن عوف الغامدي لما غزا الروم في سنة 30 رحل من قبل مرعش فساح في بلاد الروم، وكان معاوية بنى مدينة مرعش وأسكنها جنداً فلما كان موت يزيد بن معاوية كثرت غارات الروم عليهم فانتقلوا عنها وصالح عبد الملك الروم بعد موت أبيه مروان بن الحكم وطلبه للخلافة على شيء كان يؤديه إليهم، فلما كانت سنة 74 غزا محمد بن مروان الروم وانتقض الصلح، ولما كانت سنة 75 غزا الصائفة أيضاً محمد بن مروان وخرجت الروم في جمادى الأولى من قبل مرعش إلى الأعماق فزحف إليهم المسلمون وعليهم أبان بن الوليد بن عقبة بن أبي معيط ومعه دينار بن دينار مولى عبد الملك بن مروان وكان على قنسرين وكورها فالتقوا بعمق مرعش فاقتتلوا قتالاً شديداً فهُزمت الروم وأتبعهم المسلمون يقتلون ويأسرون — وكان دينار لقي في هذا العام جماعة من الروم بجسر يغرا وهو من شمشاط على نحو عشرة أميال فظفر بهم؛ ثم إن العباس بن الوليد بن عبد الملك صار إلى مرعش فعمّرها وحصّنها ونقل الناس إليها وبنى لها مسجداً جامعاً وكان يقطع في كل عام على أهل قنسرين بعثاً إليها، فلما كانت أيام مروان بن محمد وشُغل بمحاربة أهل حمص خرجت الروم وحصرت مدينة مرعش حتى صالحهم أهلها على الجلاء فخرجوا نحو الجزيرة وجند قنسرين بعيالاتهم ثم أخربوها — وكان عامل مروان عليها يومئذ الكوثر بن زفر بن الحرث الكلابي والطاغية يومئذ قسطنطين بن ليون — ثم لما فرغ مروان من أمر حمص وهدم سورها بعث جيشاً لبناء مرعش فبُنيت ومُدّنت فخرجت الروم في فتنته فأخربتها فبناها صالح بن علي في خلافة أبي جعفر المنصور وحصّنها وندب الناس إليها على زيادة العطاء واستخلف المهدي فزاد في شحنتها وقوّى أهلها."
+  en: "In al-Baladhuri: Abu Ubayda ibn al-Jarrah — he being at Manbij — sent Khalid ibn al-Walid to the Mar'ash region, and he took its fortress on condition its people evacuate, then demolished it; when Sufyan ibn Awf al-Ghamidi raided the Byzantines in year 30 he set out from before Mar'ash and ranged their lands; Mu'awiya built the city of Mar'ash and garrisoned it, but at Yazid ibn Mu'awiya's death Byzantine raids multiplied and its people left, and Abd al-Malik — after his father Marwan ibn al-Hakam's death — compounded with the Byzantines for tribute while seeking the caliphate; in year 74 Muhammad ibn Marwan raided and the truce broke, and in year 75 he again led the summer expedition, the Romans coming out in Jumada I by way of Mar'ash into the depths, where the Muslims under Aban ibn al-Walid ibn Uqba ibn Abi Mu'ayt — with him Dinar ibn Dinar, mawla of Abd al-Malik and governor of Qinnasrin and its districts — met them at Amq Mar'ash in a hard battle, routed them and pursued killing and capturing — Dinar having that same year met a Roman body at Jisr Yaghra, some ten miles from Shimshat, and overcome them; then al-Abbas ibn al-Walid ibn Abd al-Malik went to Mar'ash, rebuilt and fortified it, transferred people to it, built its congregational mosque and levied an annual contingent on Qinnasrin; in Marwan ibn Muhammad's days — he busy fighting Hims — the Romans besieged Mar'ash until its people compounded to evacuate toward the Jazira with the Qinnasrin troops and their families, then demolished it — Marwan's governor being al-Kawthar ibn Zufar ibn al-Harith al-Kilabi, the tyrant being Constantine son of Leo; when Marwan had finished with Hims and razed its wall he sent an army to rebuild Mar'ash, and built it was and made a city — but in his civil war the Romans wrecked it again; Salih ibn Ali rebuilt and fortified it in al-Mansur's caliphate, calling people to it with increased pay, and al-Mahdi enlarged its garrison and strengthened its people."
+wings: [time, place]
+periods: [period/rashidun, period/umayyad, period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0637~", hijri: "0018~", calendar: julian, precision: year, status: tradition, derived: true, note: "الفتح الأول أيام أبي عبيدة؛ ثم عمارات وخُرِّبات متتابعة إلى خلافة المهدي (البلاذري ص 265–266). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/marash }
+  - { type: part_of, target: event/conquest-of-jazira }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "فاتح الحصن الأول بشرط الجلاء", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "الموجِّه من منبج", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "باني المدينة أولاً", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad-ibn-marwan, role: "أمير الصائفة 74–75", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-abbas-ibn-al-walid, role: "معمِّرها وحاصلها وباني جامعها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/salih-ibn-ali, role: "بانيها في خلافة المنصور", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mahdi, role: "مكثِّر شحنتها", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/sufyan-ibn-awf-al-ghamidi, role: "غازي سنة 30 راحلاً من قبلها", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 265–266"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-15
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

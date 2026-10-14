@@ -1,0 +1,22 @@
+id: event/fall-of-raqqada-296
+class: event
+kind: conquest
+label: { ar: "دخول أبي عبد الله الشيعي رقادة وانهيار دولة الأغالبة" }
+summary:
+  ar: "سنة 296هـ هزم أبو عبد الله الشيعي عسكر إبراهيم بن أبي الأغلب وهرب زيادة الله إلى مصر ودخل الشيعي رقادة في رجب سنة ست وتسعين ونزل قصورها وفرق دورها على كتامة ونادى بالأمان وجمع أموال زيادة الله وسلاحه وأمر بحفظها، وكان قد حاصر قسنطينة فافتتحها على الأمان وملك البلاد قصراً قصراً: بلزمة عنوة وطبنة على الأمان وباغاية ومرماجنة وتيفاش والقصرين {cite:tarikh-ibn-khaldun-ibar p. 803-804}."
+  en: "In Rajab 296 Abu Abdallah al-Shi'i broke Ibrahim b. Abi'l-Aghlab's army, sent Ziyadat Allah fleeing to Egypt and entered Raqqada, quartering Kutama in its palaces and calling the aman — the Aghlabid state's end {cite:tarikh-ibn-khaldun-ibar p. 803-804}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0909-04~", hijri: "0296-07", calendar: julian, precision: month, status: tradition, derived: true, note: "رجب 296؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 803}." }
+relations:
+  - { type: had_participant, target: person/abu-abd-allah-al-shii, role: "القائد", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/ziyadat-allah-iii, role: "المهزوم الهارب", sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ibar-batch-5
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

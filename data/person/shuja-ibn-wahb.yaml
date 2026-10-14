@@ -1,0 +1,26 @@
+id: person/shuja-ibn-wahb
+class: person
+label: { en: "Shuja ibn Wahb al-Asadi", ar: "شجاع بن وهب الأسدي" }
+names:
+  - { kind: full, lang: ar, value: "شجاع بن وهب بن ربيعة الأسدي" }
+gender: male
+roles: [companion, diplomat]
+traditions: [sunni]
+summary:
+  en: "An early Muhajir Companion from Banu Asad ibn Khuzayma who migrated to Abyssinia and fought at Badr and Uhud; chosen as the Prophet's envoy to al-Harith ibn Abi Shimr al-Ghassani, ruler of Damascus; later martyred at the battle of al-Yamama."
+  ar: "صحابي بدري ومهاجري من السابقين الأولين من بني أسد بن خزيمة؛ هاجر إلى الحبشة وشهد بدراً وأحداً والمشاهد كلها، واختاره النبي سفيراً بكتابه إلى الحارث بن أبي شمر الغساني صاحب دمشق؛ واستشهد يوم اليمامة في خلافة أبي بكر.، وعند البلاذري بعثه النبي إلى الحارث بن أبي شمر الغساني في سنة سبع {cite:ansab-al-ashraf p. 531}"
+wings: [people]
+themes: [converts-and-leavers, battles]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia, levant-iraq]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0612~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: companion, start: { edtf: "0612~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+  - { role: official, toward: person/muhammad, start: { edtf: "0628" }, status: historical, note: "سفير النبي إلى ملك الغساسنة بدمشق (الرحيق ص360).", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0612~" }, note: "صحابي بدري ومهاجري وسفير النبي." }
+relations:
+  - { type: member_of, target: group/muhajirun }
+  - { type: participated_in, target: event/letters-to-rulers-and-kings, role: "سفير النبي إلى الغساسنة", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
+sources: [source/ansab-al-ashraf, source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 360" }

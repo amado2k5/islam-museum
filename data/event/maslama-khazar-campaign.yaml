@@ -1,0 +1,28 @@
+id: event/maslama-khazar-campaign
+class: event
+kind: campaign
+label: { ar: "غزوة مسلمة بن عبد الملك للخزر وفتح الباب", en: "Maslama ibn Abd al-Malik's Khazar Campaign and the Taking of al-Bab" }
+summary:
+  ar: "عند البلاذري: ولّى هشام بن عبد الملك مسلمة بن عبد الملك أرمينية ووجّه على مقدمته سعيد بن عمرو بن أسود الحرشي ومعه إسحاق بن مسلم العقيلي وإخوته وجمونة بن الحارث بن خالد أحد بني عامر بن ربيعة بن صعصعة وذفافة وخالد ابنا عمير بن الحباب السلمي والفرات بن سلمان الباهلي والوليد بن القعقاع العبسي فواقع الخزر وقد حاصروا ورتان فكشفهم عنها وهزمهم فأتوا ميمذ من عمل أذربيجان فلما تهيأ لقتالهم أتاه كتاب مسلمة يلومه على قتاله الخزر قبل قدومه ويعلمه أن قد ولّى أمر عسكره عبد الملك بن مسلم العقيلي فلما سلّم العسكر أخذه رسول مسلمة فقيّده وحمله إلى برذعة فحُبس في سجنها وانصرف الخزر فاتبعهم مسلمة وكتب بذلك إلى هشام فكتب إليه «أتركهم يمذ قد تراهم واطلبهم ينقطع التراب» وأمر بإخراج الحرشي من السجن؛ وصالح مسلمة أهل خيزان وأمر بحصنها فهُدم واتخذ لنفسه به ضياعاً وهي اليوم تعرف بحوز خيزان وسالمه ملوك الجبال فصار إليه شروانشاه وليرانشاه وطبرسرانشاه وفيلانشاه وجرشانشاه وصار إليه صاحب مسمط، وصمد لمدينة الباب ففتحها وكان في قلعتها ألف أهل بيت من الخزر فحاصرهم ورماهم بالحجارة ثم تحصّن اتخذه على هيئة الحجارة فلم ينتفع بذلك فعمد إلى العين التي كان أنوشروان أجرى منها الماء إلى صهريجهم فذبح البقر والغنم وألقى فيه الفرث والجلالة فلم يمكث ماؤهم الليلة حتى دوّد وانتن وفسد فلما جنّ عليهم الليل هربوا وأخلوا القلعة، وأسكن مسلمة مدينة الباب والأبواب أربعة وعشرين ألفاً من أهل الشام على المطاء — فأهل الباب اليوم لا يدعون عاملاً يدخل مدينتهم إلا ومعه مال يفرّقه بينهم — وبنى هرياً للطعام وهرياً للشعير وخزانة للسلاح وأمر بكبس الصهريج ورمّ المدينة وشرّفها، وكان مروان بن محمد مع مسلمة فواقع معه الخزر فأبلى وقاتل قتالاً شديداً."
+  en: "In al-Baladhuri: Hisham ibn Abd al-Malik gave Armenia to Maslama ibn Abd al-Malik and sent ahead as his vanguard Sa'id ibn Amr ibn Aswad al-Harashi — with him Ishaq ibn Muslim al-Uqayli and his brothers, Jamwana ibn al-Harith ibn Khalid of Banu Amir ibn Rabi'a ibn Sa'sa'a, Dhufafa and Khalid the sons of Umayr ibn al-Habab al-Sulami, al-Furat ibn Salman al-Bahili and al-Walid ibn al-Qa'qa' al-Absi — who met the Khazars besieging Wartan, drove them off and routed them, coming to Maymadh of Adharbayjan; as he readied for battle, Maslama's letter reached him blaming him for fighting before his arrival and telling him Abd al-Malik ibn Muslim al-Uqayli had been given his army's command — when he handed the army over, Maslama's messenger seized him, bound him, carried him to Bardha'a and jailed him; the Khazars withdrew, Maslama pursued, and wrote of it to Hisham, who wrote back the verse 'leave them to waste — you see them — and chase them till the dust is cut off', ordering al-Harashi released from prison; Maslama compounded with the people of Khayzan, ordered its fortress demolished and took estates there known today as Hawz Khayzan; the mountain kings made peace with him, and to him came the Shirwanshah, the Liranshah, the Tabarsaranshah, the Filanshah, the Jarshanshah and the lord of Masmumat; he advanced on Madinat al-Bab and took it — in its citadel were a thousand Khazar households whom he besieged and stoned, then had a mantlet built in stone-shape which availed nothing, whereupon he went to the spring Anushirwan had led into their cistern, slaughtered cattle and sheep and threw in the offal and dung, so that by nightfall their water wormed, stank and fouled — and when night covered them they fled, abandoning the citadel; Maslama settled in the city of Bab wa-l-Abwab twenty-four thousand Syrians on mount-allowances — whence Bab's folk today admit no governor unless he brings money to share among them — built a granary for food, one for barley and an arms-storehouse, ordered the cistern sealed, and repaired and honoured the city; Marwan ibn Muhammad was with Maslama, engaging the Khazars at his side and fighting bitterly."
+wings: [time, place]
+periods: [period/umayyad]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0731~", hijri: "0113~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد استشهاد الجرّاح (البلاذري ص 290–292). التحويل مشتق." }
+relations:
+  - { type: occurred_at, target: place/bab-al-abwab }
+  - { type: occurred_at, target: place/armenia }
+  - { type: had_participant, target: person/maslama-ibn-abd-al-malik, role: "الوالي وقائد الحملة وفاتح الباب", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/hisham-ibn-abd-al-malik, role: "الخليفة المولّي وصاحب البيت", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/said-al-harashi, role: "أمير المقدمة المسجون ببرذعة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/marwan-ibn-muhammad, role: "المقاتل معه", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/khazars, role: "المحاصَرون في القلعة والمنصرفون", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/isha-ibn-muslim-al-uqayli, role: "في المقدمة", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 290–292"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-18
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

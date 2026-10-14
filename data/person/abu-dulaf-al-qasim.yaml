@@ -1,0 +1,17 @@
+id: person/abu-dulaf-al-qasim
+class: person
+label: { ar: "أبو دلف القاسم بن عيسى", en: "Abu Dulaf al-Qasim ibn Isa" }
+summary:
+  ar: "أبو دلف القاسم بن عيسى العجلي أمير الكرج وقائد المعتصم؛ غزا الديلم في خلافة المأمون وكان والياً في خلافة المعتصم أيام ولاية الأفشين الجبال ففتح حصون الديلم إقلسم وبومج والإبلام وأنداق.، ودخل على المأمون فامتحنه بأبياته في صفة الحرب لسل السيوف وشق الصفوف فقال هذه لذتي مع أعدائك وقوتي مع أوليائك، وسأله عن غزله أيها الراقد المؤرق عيني فقال سهوة بعد سهرة غلبت {cite:muruj-al-dhahab p. 400-401}، ومات سنة ست وعشرين ومائتين وكان سيد أهله ورئيس عشيرته من عجل وربيعة شاعراً مجيداً شجاعاً بطلاً مغنياً مصيباً، وذكر أنه طعن فارساً فنفذت الطعنة إلى فارس خلفه فقتلهما {cite:muruj-al-dhahab p. 451-452}"
+  en: "Abu Dulaf al-Qasim ibn Isa al-Ijli, lord of al-Karaj and al-Mu'tasim's commander; he raided Daylam under al-Ma'mun and governed in al-Mu'tasim's reign during al-Afshin's Jibal command, taking the Daylam forts of Iqlism, Bumaj, al-Iblam and Andaq."
+periods: [period/abbasid-early]
+relations:
+  - { type: participated_in, target: event/abu-dulaf-daylam-campaign }
+  - { type: lived_in, target: place/al-karaj }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

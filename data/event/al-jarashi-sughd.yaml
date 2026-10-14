@@ -1,0 +1,18 @@
+id: event/al-jarashi-sughd
+class: event
+kind: campaign
+label: { ar: "ولاية الجرشي وفتح حصون السغد", en: "al-Jarashi and the Sughd Fortresses" }
+summary:
+  ar: "ولي سعيد بن عمرو الجرشي خراسان فلما قدمها أمر كاتبه بقراءة عهده وكان لحاناً فقال سعيد أيها الناس إن الأمير بريء مما تسمعون من هذا اللحن ووجه إلى السغد يدعوهم إلى الطاعة والمراجعة وكف عن مبايجتهم حتى أتته رسله بإقامتهم على خلافه فزحف إليهم فانقطع عن عظيمهم زهاء اثني عشر ألف رجل وفارقوهم مائلين إلى الطاعة وافتتح الجرشي عامة حصون السغد ونال من المال نيلاً شافياً."
+  en: "Sa'id ibn Amr al-Jarashi came to Khurasan; his lettered 'ahd read with solecisms, he told the people 'the amir is innocent of this lahn'. He invited Sughd back to obedience, held off battle till his envoys reported defiance, then marched — some twelve thousand broke from their leader to submission — and he opened most of Sughd's fortresses with satisfying gain."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/said-ibn-amr-al-jarashi, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sughd }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

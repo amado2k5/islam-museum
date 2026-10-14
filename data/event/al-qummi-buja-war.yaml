@@ -1,0 +1,26 @@
+id: event/al-qummi-buja-war
+class: event
+kind: campaign
+label: { ar: "حرب القمي لبلاد البجة", en: "al-Qummi's War on the Buja Lands" }
+summary:
+  ar: "عند البلاذري: أمر المتوكل بتوجيه رجل يقال له محمد بن عبد الله يعرف بالقمي إلى المعدن بمصر والياً عليه وولاه القلزم وطريق الحجاز وبذلك حاج مصر فلما وافى المعدن حمل الميرة في المراكب من القلزم إلى بلاد البجة ووافى ساحلاً يعرف بعيذاب فوافته المراكب هناك فاستمد بتلك الميرة وتقوّى بها ومن معه حتى وصل إلى قلعة ملك البجة فناهضه وكان في عدة يسيرة فخرج إليه البجوي في الدهم على إبل محزمة فعمد القمي إلى الأجراس فقلدها الخيل فلما سمعت الإبل أصواتها تشمّت بالبجيين في الأودية والجبال وقتل صاحب البجة ثم قام من بعده ابن أخته — وفي الأصل أخيه — وكان أبوه أحد ملوك البجيين وطلب الهدنة فأبى المتوكل إلا أن يطأ بساطه فقدم سر من رأى فصولح في سنة إحدى وأربعين ومائتين على أداء الأتاوة والبقط ورُد مع القمي فأُهلّ البجة على الهدنة يؤدون ولا يمنعون المسلمين من العمل في معدن الذهب. وفي رواية للمقريزي أوردها محققا الكتاب: ولّاه المتوكل حرب البجة سنة ١٤١ وكتب إلى عنبسة بن إسحاق الضبي أمير مصر بإعانته وأرضهم مفاوز مسيرة شهر في قفر وجبال وعرة وكان ملكهم علي بابا فلما أقبلت مراكب الأقوات صدقهم القتال فنفرت إبلهم من الأجراس وتبعهم المسلمون يقتلون ويأسرون فطلب علي بابا الأمان فأمنه على أن يؤدي ما عليه فحمل إليه الخراج لأربع سنين منعها وسار عنهم وعاد إلى بغداد ومعه علي بابا فخلع المتوكل عليه الديباج وولّى سعد الخادم البجة وطريق ما بينها ومكة فولّى سعد محمد القمي ذلك فعاد إليها ومعه علي بابا وهو على دينه ومعه صنم من حجارة كهيئة الصبي يسجد له فنزل القمي أسوان وأقام بها مدة ومات."
+  en: "In al-Baladhuri: al-Mutawakkil ordered sending a man called Muhammad ibn Abdallah — known as al-Qummi — to the mine of Egypt as its governor, giving him the Qulzum, the Hijaz road and with it Egypt's hajj command; reaching the mine he carried provisions by ships from the Qulzum to the Buja lands, met a coast called Aydhab where the ships joined him — strengthened by that supply he reached the Buja king's fortress and fought him in small number; the Buja king came out in the masses on armored camels, so al-Qummi took the bells and hung them on the horses — the camels heard their sounds and scattered the Buja through valleys and mountains, and the Buja master was killed. His sister's son succeeded — the original reads 'his brother' — his father one of the Buja kings, and sought truce; al-Mutawakkil refused unless he tread his carpet, so he came to Samarra and peace was made in year 241 on paying the tribute and baqt; he was returned with al-Qummi, the Buja entering truce, paying and not barring Muslims from working the gold mine — that being the condition on their master. In al-Maqrizi's version cited by the editors: al-Mutawakkil gave him the Buja war in 241 and wrote Anbasa ibn Ishaq al-Dabbi, Egypt's amir, to aid him; their land was a month's barren march of rugged mountains; their king was Ali Baba — when the provision ships arrived he fought in earnest, the camels panicked at the bells, the Muslims pursued killing and capturing; Ali Baba asked aman, granted on paying dues, he carried him four years' withheld kharaj; al-Qummi returned to Baghdad with Ali Baba — al-Mutawakkil robed him in brocade and gave Sa'd al-Khadim the Buja and the road to Mecca; Sa'd gave Muhammad al-Qummi that and he returned with Ali Baba still on his religion, carrying a stone idol like a boy he prostrated to; al-Qummi settled at Aswan and died there."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [egypt-nile, east-africa]
+date:
+  start: { hijri: "0241", precision: year, status: tradition, note: "سنة 241هـ (البلاذري ص 335؛ رواية المقريزي في الحاشية)" }
+relations:
+  - { type: occurred_at, target: place/bilad-al-buja }
+  - { type: occurred_at, target: place/aydhab, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/muhammad-ibn-abdallah-al-qummi, role: "الوالي القائد", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/ali-baba-king-of-buja, role: "ملك البجة", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/al-mutawakkil, role: "الآمر الصالح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: group/buja, role: "الخصم المصالح", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 333–335"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-25
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 3, generated_by: "Devin (SWE-2 High)" }

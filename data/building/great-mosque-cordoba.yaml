@@ -1,0 +1,19 @@
+id: building/great-mosque-cordoba
+class: building
+kind: mosque
+label: { ar: "جامع قرطبة" }
+summary:
+  ar: "الجامع المشهور بقرطبة؛ ذكر المقري عن صاحب نشق الأزهار أن فيه تتّوراً من نحاس أصفر يحمل ألف مصباح وفيه أشياء غريبة من الصنائع الوجيبة وقيل أحكم عمله في سبع سنين وفيه ثلاثة أعمدة من رخام أحمر مكتوب على الواحد اسم محمد وعلى الآخر صورة عصا موسى وأهل الكهف وعلى الثالث صورة غراب نوح، وعلق المقري بأنه لم يجد ذلك عند محققي مؤرخي الأندلس وهو عنده بعيد {cite:nafh-tib-maqqari p. 556}."
+  en: "The Great Mosque of Cordoba; al-Maqqari transmits the report of a brass candelabrum of a thousand lamps and three red-marble columns bearing the name of Muhammad, Moses' staff and Noah's raven — noting himself that the sound Andalusian historians did not mention it {cite:nafh-tib-maqqari p. 556}."
+wings: [place]
+periods: [period/umayyad]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-7
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

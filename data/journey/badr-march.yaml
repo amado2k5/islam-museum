@@ -20,4 +20,13 @@ distance_km: 150
 relations:
   - { type: part_of, target: event/battle-of-badr }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
-status: { review: draft, completeness: 2, generated_by: "Devin; mined from al-Raheeq al-Makhtum pp. 204–211" }
+status: { review: draft, completeness: 3, generated_by: "Devin; mined from al-Raheeq al-Makhtum pp. 204–211" }
+
+waypoints:
+  - {"place": "place/medina", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "المدينة المنورة"}, "narrative": {"ar": "نقطة الانطلاق: المدينة المنورة. خرج من نقب المدينة على الطريق الرئيسي المؤدي إلى مكة حتى بئر الروحاء، وردّ منها أبا لبابة بن عبد المنذر واستعمله على المدينة (الرحيق ص205)"}, "sources": ["source/mubarakpuri-raheeq"]}
+  - {"place": "place/bir-al-rawha", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "بئر الروحاء"}, "narrative": {"ar": "خرج من نقب المدينة على الطريق الرئيسي المؤدي إلى مكة حتى بئر الروحاء، وردّ منها أبا لبابة بن عبد المنذر واستعمله على المدينة (الرحيق ص205)"}, "sources": ["source/mubarakpuri-raheeq"]}
+  - {"place": "place/rahqan", "day": 3, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "رحقان"}, "narrative": {"ar": "ترك طريق مكة بيساره وانحرف ذات اليمين على النازية، ثم جزع وادي رحقان بين النازية ومضيق الصفراء (الرحيق ص205)"}, "sources": ["source/mubarakpuri-raheeq"]}
+  - {"place": "place/al-safra", "day": 4, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "الصفراء"}, "narrative": {"ar": "مر على مضيق الصفراء وانصب حتى قرب من الصفراء، وبعث منها بسباس بن عمرو وعدي بن أبي الزغباء الجهنيين يتجسسان أخبار العير ببدر (الرحيق ص205)"}, "sources": ["source/mubarakpuri-raheeq"]}
+  - {"place": "place/dhi-afran", "day": 5, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "ذو أفران"}, "narrative": {"ar": "بوادي ذي أفران بلغته أخبار العير والنفير معاً، وفيه عقد المجلس الاستشاري (الرحيق ص208–210)"}, "sources": ["source/mubarakpuri-raheeq"]}
+  - {"place": "place/al-dabba", "day": 6, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "الدبّة"}, "narrative": {"ar": "سلك على ثنايا يقال لها الأصافير ثم انحط إلى بلد يقال له الدّبّة، وترك الحنان بيمينه (الرحيق ص210)"}, "sources": ["source/mubarakpuri-raheeq"]}
+  - {"place": "place/badr", "day": 7, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "بدر"}, "narrative": {"ar": "نزل قريباً من بدر، ثم سبق إلى مائها بمشورة الحباب بن المنذر فنزل على أدنى ماء من العدو وصنع الحِياض وغوَّر ما عداها من القلب (الرحيق ص210–211)"}, "sources": ["source/mubarakpuri-raheeq", "source/ibn-hisham-sira"]}

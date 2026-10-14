@@ -1,0 +1,24 @@
+id: event/cordoba-embassies-336
+class: event
+kind: gathering
+label: { ar: "سفارات أوروبا إلى الناصر بالزهراء" }
+summary:
+  ar: "في سنة ست وثلاثين وثلاثمائة وفدت على الناصر عبد الرحمن رسل صاحب قسطنطينية قسطنطين بن ليون بهديته فاحتفل لقدومهم في يوم مشهود بالزهراء؛ ركبت العساكر بالسلاح في أكمل شكة وزُيّن القصر الخلافي بأنواع الزينة وأصناف الستور وجُمل السرير الحلواني بمقاعد الأبناء والإخوة والأعمام والقرابة، ودخل الرسل فهالهم ما رأوه ودفعوا كتاب ملكهم وهو في رقّ مصبوغ لوناً سماوياً مكتوب بالذهب بالخط الإغريقي وعليه طابع ذهب وزنه أربعة مثاقيل على الوجه الواحد منه صورة المسيح وعلى الآخر صورة قسطنطين وولده، وأمر الأعلام أن يخطبوا فوجموا فقام منذر بن سعيد البلوطي من غير استعداد ولا روية فخطب وأنشد شعراً ارتجله ففاز بفخر المجلس وولاه الناصر القضاء بعدها، وبعث الناصر مع الرسل مشحم بن هذيل بهدية حافلة فأحكم ما شاء وجاءت معه رسل قسطنطين، ثم جاء رسول من ملك الصقالبة هوتو ورسول آخر من ملك الألمان ورسول من ملك الإفرنجة وراء البرت أوه ورسول من ملك الإفرنجة بقاصية المشرق كلدة، فاحتفل الناصر لقدومهم وبعث مع رسول الصقالبة ربيعاً الأسقف إلى ملكهم هوتو {cite:nafh-tib-maqqari p. 400-402}."
+  en: "In 336 al-Nasir Abd al-Rahman staged a reception at Madinat al-Zahra for the envoys of Constantine VII — a sky-blue charter in gold Greek script sealed with four-mithqal gold — where Mundhir ibn Sa'id's impromptu sermon won him the qadiship; then followed embassies from Otto king of the Saqaliba, the German king, and the Frankish kings Hugh and Childebert, to whom al-Nasir sent back Rabi' the bishop {cite:nafh-tib-maqqari p. 400-402}."
+wings: [time]
+themes: [peace-making-and-coexistence]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0948~", hijri: "0336", calendar: julian, precision: year, status: tradition, derived: true, note: "336؛ التحويل مشتق {cite:nafh-tib-maqqari p. 400}." }
+relations:
+  - { type: had_participant, target: person/abd-al-rahman-iii-al-nasir, role: "المحتفل بالسفراء", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/mundhir-ibn-said-al-balluti, role: "الخطيب الفائز بفخر المجلس", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/madinat-al-zahra, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 400–402"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-53
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

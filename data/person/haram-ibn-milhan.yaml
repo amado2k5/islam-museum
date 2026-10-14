@@ -1,0 +1,27 @@
+id: person/haram-ibn-milhan
+class: person
+label: { en: "Haram ibn Milhan", ar: "حرام بن ملحان" }
+names:
+  - { kind: full, lang: ar, value: "حرام بن ملحان بن خالد الأنصاري النجاري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  en: "A senior Companion from Banu al-Najjar of the Khazraj, maternal uncle of Anas ibn Malik; entrusted with the Prophet's letter to Amir ibn al-Tufayl at Bi'r Ma'una; when stabbed treacherously through his neck from behind, he wiped the blood on his face and uttered his famous words: 'Allahu Akbar, I have triumphed, by the Lord of the Ka'ba!'"
+  ar: "صحابي بدري من بني النجار وخال أنس بن مالك؛ حمله النبي كتابه إلى عامر بن الطفيل عند بئر معونة، فلم ينظر في الكتاب وأشار إلى رجل فطعنه بالحربة من خلفه حتى أنفذها، فأخذ حرام الدم ونضحه على وجهه وقال: الله أكبر، فزت ورب الكعبة."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: martyr, start: { edtf: "0625" }, status: tradition, note: "شهيد بئر معونة صاحب الكلمة المشهورة: فزت ورب الكعبة (الرحيق ص293–294).", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { role: companion, start: { edtf: "0622~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي بدري وشهيد بئر معونة." }
+relations:
+  - { type: born_in, target: place/medina }
+  - { type: member_of, target: group/ansar }
+  - { type: member_of, target: group/khazraj }
+  - { type: participated_in, target: event/incident-of-bir-mauna, role: "رسول النبي المطعون غدراً", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 293–294" }

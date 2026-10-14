@@ -9,25 +9,28 @@ const T = ui(lang);
 <BaseLayout lang={lang} title={T.search.title} path={`/${lang}/search/`} noindex>
   <div class="wrap" style="padding-block:10px 20px" data-pagefind-ignore>
     <h1>{T.search.title}</h1>
-    <div id="search" dir={T.dir}></div>
+    <div class="search-wrap" data-empty="1"><div id="search" dir={T.dir}></div>
+    <p class="search-hint ui muted">{T.search.hint} {T.search.examples.map((q: string, i: number) => <><a href={`/${lang}/search/?q=${encodeURIComponent(q)}`}>{q}</a>{i < T.search.examples.length - 1 ? " · " : ""}</>)}</p></div>
     <p id="search-fallback" class="panel ui" hidden>{T.search.needs_build}</p>
     <noscript><p class="panel ui">{T.search.noscript}</p></noscript>
-    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
-    <script is:inline define:vars={{ placeholder: T.search.placeholder }}>
+    <link rel="stylesheet" href={`/pagefind-${lang}/pagefind-ui.css`} />
+    <script is:inline define:vars={{ placeholder: T.search.placeholder, zeroResults: T.search.zero_results, lang }}>
       (function () {
         var s = document.createElement("script");
-        s.src = "/pagefind/pagefind-ui.js";
+        s.src = "/pagefind-" + lang + "/pagefind-ui.js";
         s.onload = function () {
-          // Variant spellings (Koran, Mohammed, Madinah, Ghazali ...) are expanded with a static file built at build time; no server is involved.
+          // Variant spellings (Koran, Mohammed, Madinah, Ghazali ...) are expanded with a static file built per language at build time; no server is involved.
           var syn = { whole: {}, words: {} };
           var norm = function (t) { return t.normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "").replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/ؤ/g, "و").replace(/ئ/g, "ي").toLowerCase().replace(/['’‘`ʿʾ]/g, "").replace(/[-_()\/,.]/g, " ").replace(/\s+/g, " ").trim(); };
-          fetch("/search-synonyms.json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (j) { syn = j; }).catch(function () {});
-          new PagefindUI({ element: "#search", showSubResults: true, showImages: false, translations: { placeholder: placeholder },
+          (lang === "en" ? fetch("/search-synonyms.en.json") : fetch("/search-synonyms.ar.json")).then(function (r) { return r.ok ? r.json() : {}; }).then(function (j) { syn = j; }).catch(function () {});
+          new PagefindUI({ element: "#search", bundlePath: "/pagefind-" + lang + "/", showSubResults: true, showImages: false, translations: { placeholder: placeholder, zero_results: zeroResults },
             processTerm: function (term) {
               var whole = syn.whole[norm(term)];
               if (whole && whole.length) return whole[0];
               return term.split(/\s+/).map(function (w) { return syn.words[norm(w)] || w; }).join(" ");
             } });
+          var wrap = document.querySelector(".search-wrap");
+          document.addEventListener("input", function (e) { if (e.target && e.target.matches("#search input") && wrap) wrap.dataset.empty = e.target.value ? "0" : "1"; });
           var p = new URLSearchParams(location.search).get("q");
           if (p) { var i = document.querySelector("#search input"); if (i) { i.value = p; i.dispatchEvent(new Event("input", { bubbles: true })); } }
         };

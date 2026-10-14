@@ -1,0 +1,19 @@
+id: work/sharh-aqida-tahawiyya
+class: work
+kind: book
+genre: [creed, commentary]
+label: { ar: "شرح الطحاوية في العقيدة السلفية", en: "Sharh al-Tahawiyya fi al-Aqida al-Salafiyya" }
+summary:
+  ar: "شرح مطوّل ألّفه ابن أبي العز الحنفي للعقيدة الطحاوية، يورد عند كل بند أقوال الفرق والمدارس ويناقشها."
+  en: "A long commentary on the Tahawi creed by Ibn Abi al-Izz al-Hanafi that, at each article, reports the positions of the sects and schools and discusses them."
+wings: [words, ideas]
+themes: [creed]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+made: { by_muslims: true, basis: documented, sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
+authors: [person/ibn-abi-al-izz-al-hanafi]
+relations:
+  - { type: commentary_on, target: work/aqida-tahawiyya, sources: [source/sharh-tahawiyya-ibn-abi-al-izz] }
+provenance: { layer: own-research, source: "شرح الطحاوية، دار الحديث 1421هـ، صفحة العنوان وص 267 و268", generated_by: "Claude (maintainer session)", model: claude-sonnet-5-5, run: izz-1 }
+sources: [source/sharh-tahawiyya-ibn-abi-al-izz]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; only the iman passage read so far" }

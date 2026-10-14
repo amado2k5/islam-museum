@@ -1,0 +1,26 @@
+id: person/uthman-ibn-abd-ghanm
+class: person
+label: { en: Uthman ibn Abd Ghanm, ar: "عثمان بن عبد غنم" }
+names:
+  - { kind: full, lang: ar, value: "عثمان بن عبد غنم بن زهير بن أبي شداد" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من بني الحارث بن فهر، هاجر إلى الحبشة؛ يذكر ابن إسحاق ثلاثة نفر منهم."
+  en: "Of Banu al-Harith ibn Fihr; he emigrated to Abyssinia — one of three men Ibn Ishaq names from that clan."
+wings: [people]
+themes: [refugees-migrants-diaspora]
+periods: [period/prophetic-era]
+regions: [arabia, east-africa]
+story_roles:
+  - { role: companion, status: tradition, note: "يذكره ابن إسحاق في فصل مهاجرة الحبشة (ص9)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
+relations:
+  - { type: member_of, target: group/banu-al-harith, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa] }
+  - { type: traveled_to, target: place/aksum, note: "أرض الحبشة", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 9", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-v" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

@@ -1,0 +1,57 @@
+id: person/jabir-ibn-abdullah-ibn-riab
+class: person
+label:
+  ar: جابر بن عبد الله بن رئاب
+  en: Jabir ibn Abdullah ibn Ri'ab
+names:
+- kind: full
+  lang: ar
+  value: جابر بن عبد الله بن رئاب بن النعمان بن سنان بن عبيد بن عدي بن غنم بن كعب بن سلمة الأنصاري السلمي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: أحد الستة الذين شهدوا العقبة الأولى، وذكره موسى بن عقبة وأبو الأسود عن عروة فيمن شهد بدراً؛ غير جابر بن عبد الله بن عمرو بن حرام الراوي المعروف؛ ويرى ابن حجر أن له أحاديث من طرق ضعيفة.
+  en: One of the six who were at the first al-Aqaba and, according to Musa ibn Uqba and Abu al-Aswad from Urwa, among those at Badr; he is not Jabir ibn Abdullah ibn Amr ibn Haram, the well-known narrator; Ibn Hajar says hadith are reported from
+    him by weak chains.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 1031 (ص 195).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-salima
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/pledges-of-aqaba
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 1031، ص 195
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-8
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 195, entry 1031)

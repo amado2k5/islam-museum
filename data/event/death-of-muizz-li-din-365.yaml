@@ -1,0 +1,22 @@
+id: event/death-of-muizz-li-din-365
+class: event
+kind: death
+label: { ar: "وفاة المعز لدين الله وولاية العزيز" }
+summary:
+  ar: "في سنة 365هـ توفي المعز لدين الله أبو تميم معد بن المنصور بمصر سابع عشر ربيع الآخر وعمره خمس وأربعون سنة وستة أشهر تقريباً؛ وكان سبب موته أن ملك الروم بالقسطنطينية أرسل إليه رسولاً فقال له المعز اتذكر إذ أتيتني رسولاً وأنا بالمهدية فقلت لك لتدخلنّ عليّ وأنا بمصر مالكاً لها فقال نعم وقلت لك لتدخلنّ عليّ ببغداد وأنا خليفة، فقال الرسول إنك أمنتني على نفسي فقل لي ما عندك فقال بعثني إليك الملك ذلك العام فرأيت من عظمتك في ميني وكثرة أصحابك ما كدت أموت منه ورأيت على قصرك نوراً عظيماً غطى بحراً فظننتك خالقاً فلو قلت لي إنك تعرج إلى السماء لصدقتك، ثم جئت إليك الآن فما رأيت من ذلك شيئاً وظننت أن ذلك كان أمراً مقبلاً وأنه الآن بضد ما كان عليه، فاغتم المعز وأخذته الحمى لشدة ما وجد واتصل مرضه حتى مات، واستتر ابنه العزيز بموته حتى عيد النصر فصلى بالناس وخطهم ودعا لنفسه وعزى بأبيه، وكان المعز عليلاً فاضلاً جواداً شجاعاً جارياً على منهاج أبيه من حسن السيرة وإنصاف الرعية ويغري بالنجوم ويعمل بأقوال المنجمين وقد عمل سرداباً يحتمي فيه إلى أن يجوز وقت الموت فنزل فيه سنة ثم ظهر وفيّ مديداً ومرض وتوفي، وولي بعده ابنه نزار العزيز بالله وكان يدبر الأمور منذ مرض أبيه {cite:kamil-ibn-al-athir p. 487-488}."
+  en: "In Rabi II 365 al-Mu'izz li-Din Allah died in Egypt aged about forty-five. Ibn al-Athir tells the famous cause: a Byzantine envoy recalled al-Mu'izz's prophecy that he would die ruling Egypt and be caliph in Baghdad, then said the majesty he had seen at Mahdiyya had now faded — grief took him, fever followed, and he died. His son Nizar concealed the death till the feast, led prayer as al-Aziz and mourned him publicly {cite:kamil-ibn-al-athir p. 487-488}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+date:
+  start: { edtf: "0975-12-18~", hijri: "0365-04-17", calendar: julian, precision: day, status: tradition, derived: true, note: "سابع عشر ربيع الآخر 365؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 487}." }
+relations:
+  - { type: had_participant, target: person/al-muizz-li-din-allah, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-aziz-fatimid, role: "الخليفة من بعده", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-14
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

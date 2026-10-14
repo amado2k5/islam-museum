@@ -1,0 +1,14 @@
+id: passage/muwatta-kitab-30-qasama
+class: passage
+unit: chapter
+work: work/muwatta-malik
+ref: "kitab-30"
+label: { ar: "الموطأ، كتاب القسامة", en: "Muwatta, Book of Oath of collective accusation (qasama)" }
+summary:
+  ar: "كتاب القسامة في الموطأ، المجلد الثاني، يبدأ في صفحة 451 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
+  en: "The Book of Oath of collective accusation (qasama) in the Muwatta, volume 2, starting at PDF page 451 (PDF numbering, not the printed page)."
+relations:
+  - { type: part_of, target: work/muwatta-malik }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 451", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }

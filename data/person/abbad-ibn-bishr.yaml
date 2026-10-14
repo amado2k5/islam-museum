@@ -1,0 +1,62 @@
+id: person/abbad-ibn-bishr
+class: person
+label:
+  ar: عباد بن بشر
+  en: Abbad ibn Bishr
+names:
+- kind: full
+  lang: ar
+  value: عباد بن بشر بن وقش بن زغبة بن زعوراء بن عبد الأشهل
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: 'صحابي من بني عبد الأشهل؛ ذكره موسى بن عقبة فيمن شهد بدراً، وقال إنه ممن شارك في قتل كعب بن الأشرف، وقالت عائشة إن ثلاثة من الأنصار لم يكن أحد يعتد عليهم فضلاً: أسيد بن حضير وسعد بن معاذ وعباد بن بشر.'
+  en: 'A Companion of Banu Abd al-Ashhal; Musa ibn Uqba lists him among those at Badr and says he took part in the killing of Ka''b ibn al-Ashraf; Aisha said three of the Ansar had no one to rival them in merit: Usayd ibn Hudayr, Sa''d ibn Mu''adh
+    and Abbad ibn Bishr.'
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 4520 (ص 764).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/ansar
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/battle-of-badr
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/killing-of-kab-ibn-al-ashraf
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 4520، ص 764
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-3
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 764, entry 4520)

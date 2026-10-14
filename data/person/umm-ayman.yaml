@@ -6,7 +6,7 @@ names:
   - { kind: kunya, lang: ar, value: أم أيمن }
 gender: female
 born: { edtf: "056X", calendar: julian, precision: decade, status: tradition, note: "Year unknown; she was an Abyssinian woman of the Prophet's parents' household.", sources: [source/ibn-sad-tabaqat-bewley] }
-died: { edtf: "065X", calendar: julian, precision: decade, status: tradition, note: "Reports place her death in the early caliphate; the year is not firmly recorded.", sources: [source/ibn-sad-tabaqat-bewley] }
+died: { edtf: "065X", calendar: julian, precision: decade, status: tradition, note: "Reports place her death in the early caliphate; the year is not firmly recorded. يقول الكتاب إنها مرضت مرضاً شديداً في خلافة عثمان ثم توفيت (نساء حول الرسول ص28).", sources: [source/ibn-sad-tabaqat-bewley, source/nisa-hawl-alrasul] }
 roles: [companion]
 traditions: [sunni]
 summary:
@@ -27,5 +27,8 @@ relations:
   - { type: lived_in, target: place/medina, start: { edtf: "0622" } }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-uhud, role: tended-the-wounded, sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-sad-tabaqat-bewley, source/lings-1983]
-status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11" }
+  - { type: spouse_of, target: person/zayd-ibn-haritha, note: "زوجة زيد بن حارثة الذي استشهد بمؤتة (نساء حول الرسول ص26-27).", sources: [source/nisa-hawl-alrasul] }
+  - { type: parent_of, target: person/usama-ibn-zayd, note: "أم أسامة بن زيد (نساء حول الرسول ص26-28).", sources: [source/nisa-hawl-alrasul] }
+  - { type: parent_of, target: person/ayman-ibn-ubayd, note: "أم الشهيد أيمن الذي استشهد بحُنين (نساء حول الرسول ص27-28).", sources: [source/nisa-hawl-alrasul] }
+sources: [source/ibn-sad-tabaqat-bewley, source/lings-1983, source/nisa-hawl-alrasul]
+status: { review: draft, completeness: 1, generated_by: "Devin; 2026-10-11; Nisa' Hawl al-Rasul pp. 18-28 added by Devin (SWE-2 High), lib-nisa-hawl-rasul" }

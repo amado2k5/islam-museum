@@ -1,0 +1,19 @@
+id: event/khurasan-ali-era
+class: event
+kind: other
+label: { ar: "خراسان في خلافة علي", en: "Khurasan under Ali's Caliphate" }
+summary:
+  ar: "قدم ماهويه مرزبان مرو على علي بن أبي طالب في خلافته وهو بالكوفة فكتب له إلى الدهاقين والأساورة والدهشلارين أن يؤدوا إليه الجزية فانتقضت عليهم خراسان فبعث جعدة بن هبيرة المخزومي وأمه أم هانيء بنت أبي طالب فلم يفتحها ولم تر خراسان ملتاثة حتى قتل علي وقال أبو عبيدة أول عمال علي على خراسان عبد الرحمن بن أبرى مولى خزاعة ثم جعدة بن هبيرة بن أبي وهب بن عمرو بن عائذ بن عمران بن مخزوم."
+  en: "Mahwiya, marzban of Marw, came to Ali in his caliphate at Kufa; Ali wrote the dahqans, asawira and dahshalarin to render him the jizya — whereupon Khurasan broke away. Ali sent Ja'da ibn Hubayra al-Makhzumi, his mother Umm Hani' bint Abi Talib, who could not recover it; Khurasan never wore cloth again till Ali's death. Abu Ubayda: Ali's first agent was Abd al-Rahman ibn Abra, Khuza'a's mawla, then Ja'da."
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/mahwiya, role: "مرزبان مرو", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/jada-ibn-hubayra, role: "المبعوث", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-abra, role: "أول العمال", sources: [source/futuh-buldan-maarif-1407] }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

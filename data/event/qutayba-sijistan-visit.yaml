@@ -1,0 +1,20 @@
+id: event/qutayba-sijistan-visit
+class: event
+kind: other
+label: { ar: "قدوم قتيبة سجستان", en: "Qutayba's Coming to Sijistan" }
+summary:
+  ar: "لما ولي قتيبة بن مسلم الباهلي خراسان وسجستان في أيام الوليد بن عبد الملك ولّى أخاه عمرو بن مسلم سجستان فطالبه رتبيل بدراهم مدرةمة فذكر أنه لا يمكنه إلا ما كان فارق عليه الحجاج من العرض فكتب عمرو بذلك إلى قتيبة فأقبل قتيبة إلى سجستان فلما بلغ رتبيل قدومه أرسل إليه أنا لم نخلع يداً من طاعة وإنما فارقناكم على عروض فلا تظلمونا فقال قتيبة للجند اقبلوا منه العروض فإنه ثغر مشؤوم فرضوا بها ثم انصرف قتيبة إلى خراسان بعد أن زرع زرعاً في أرض زرنج لييأس العدو من انصرافه فيذعن فلما أخذ ذلك الزرع منعه منه الأفاعي فأمر به فحرق واستخلف قتيبة على سجستان ابن عبد الله بن عمير الليثي أخي عبد الله بن عامر لأمه."
+  en: "Qutayba ibn Muslim, holding Khurasan and Sijistan under al-Walid, gave Sijistan to his brother Amr; when Amr pressed Rutbil for arrears, Rutbil answered he owed only the 'urud agreed with al-Hajjaj. Amr wrote to Qutayba, who came in person; Rutbil sent: 'we have not left obedience — we only agreed on 'urud, so do not wrong us'. Qutayba told the army 'accept his 'urud — it is an accursed frontier', and they did. Before returning he sowed a crop at Zaranj so the enemy would despair of his leaving and submit; when locusts ate it he had it burned, leaving Ibn Abdallah ibn Umayr al-Laythi — Ibn Amir's maternal half-brother — over Sijistan."
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/qutayba-ibn-muslim, role: "الوالي الأعلى", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/amr-ibn-muslim, role: "والي سجستان", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: had_participant, target: person/rutbil, role: "المفاوض", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: occurred_at, target: place/sijistan }
+wings: [people, place, time]
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Devin (SWE-2 High)"
+  extraction_flow: "Apple Vision OCR -> manual extraction"

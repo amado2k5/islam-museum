@@ -1,0 +1,24 @@
+id: event/conquest-of-ruha
+class: event
+kind: conquest
+label: { ar: "فتح الرها", en: "The Conquest of Edessa (al-Ruha)" }
+summary:
+  ar: "عند البلاذري عن النفيلي عن سليمان بن عطاء: لما فتح إياد بن غنم الرها — وكان أبو عبيدة وجّهه — وقف على بابها على فرس له كميت فصالحوه على أن لهم هيكلهم وما حوله وعلى أن لا يحدثوا كنيسة إلا ما كان لهم وعلى معونة المسلمين على عدوهم، فإن تركوا شيئاً مما شرط عليهم فلا ذمة لهم؛ ودخل أهل الجزيرة فيما دخل فيه أهل الرها."
+  en: "In al-Baladhuri through al-Nufayli from Sulayman ibn Ata: when Iyad ibn Ghanm took al-Ruha — Abu Ubayda had sent him — he stood at its gate on a chestnut horse and they compounded with him on the terms that their great church and its surroundings were theirs, that they raise no new church beyond what they had, and that they aid the Muslims against their enemy — any of these left unkept and they had no dhimma; and the people of the Jazira entered into what Edessa's people entered into."
+wings: [time, place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0639~", hijri: "0018~", calendar: julian, precision: year, status: tradition, derived: true, note: "أول فتوح إياد في الجزيرة (البلاذري ص 236–237). التحويل مشتق." }
+relations:
+  - { type: part_of, target: event/conquest-of-jazira }
+  - { type: occurred_at, target: place/al-ruha }
+  - { type: had_participant, target: person/iyyad-ibn-ghanm, role: "الفاتح وعاقد الصلح", sources: [source/futuh-buldan-maarif-1407] }
+  - { type: basis_for, target: concept/dhimma, note: "الهيكل لهم ولا كنيسة محدثة ومعونة على العدو", sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 236–237"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-13
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

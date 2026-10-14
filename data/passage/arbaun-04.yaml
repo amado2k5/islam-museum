@@ -1,0 +1,16 @@
+id: passage/arbaun-04
+class: passage
+unit: hadith
+work: work/arbaun-nawawi
+ref: "4"
+label: { ar: "الأربعون 4 — يجمع خلقه في بطن أمه", en: "Arba'un 4 — the creation gathered in the womb" }
+summary:
+  ar: "حديث عبد الله بن مسعود، وهو الحديث الرابع في الأربعين النووية وفي شرح ابن رجب، وفيه أن خلق الإنسان يجمع في بطن أمه أربعين يوماً نطفة ثم علقة مثل ذلك ثم مضغة مثل ذلك، ثم يبعث الله الملك فينفخ فيه الروح ويؤمر بأربع كلمات: بكتب رزقه وعمله وأجله وشقي أو سعيد، وفيه أن الرجل ليعمل بعمل أهل الجنة حتى ما يكون بينه وبينها إلا ذراع فيسبق عليه الكتاب؛ متفق على صحته، رواه البخاري (3208، 3332، 6594، 7454) ومسلم (2643) من طريق الأعمش عن زيد بن وهب عن ابن مسعود، وأخرجه أيضاً أحمد (1/382 و414 و430) وأبو داود (4708) وابن ماجه (76) والترمذي (2137) وغيرهم؛ شرحه ابن رجب في أطوار الجنين وكتابة المقادير والخواتيم (جامع العلوم والحكم ص 131–154)."
+  en: "Abdullah ibn Masud's hadith, the fourth of al-Nawawi's Forty and of Ibn Rajab's commentary: a person's creation is gathered in his mother's womb — forty days as a drop, then a clinging clot for the like, then a morsel of flesh for the like — then God sends the angel who breathes the spirit into him and is ordered to write four things: his provision, his work, his term and whether he is wretched or happy; and that a man may do the deeds of the people of Paradise until only a cubit remains between him and it, then what is written overtakes him. Agreed upon as sound; transmitted by al-Bukhari (3208, 3332, 6594, 7454) and Muslim (2643) through al-A'mash from Zayd ibn Wahb from Ibn Masud, and also by Ahmad (1/382, 414, 430), Abu Dawud (4708), Ibn Majah (76), al-Tirmidhi (2137) and others; Ibn Rajab comments on the stages of the embryo, the writing of destinies and deeds-by-endings (Jami' al-Ulum wal-Hikam pp. 131–154)."
+relations:
+  - { type: basis_for, target: concept/qadar, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: basis_for, target: concept/khawatim, sources: [source/ibn-rajab-jami-ulum-hikam] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/ibn-rajab-jami-ulum-hikam] }
+provenance: { layer: own-research, source: "Jami' al-Ulum wal-Hikam (Dar Ibn Kathir 1429/2008), hadith 4 pp. 131–154", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "lib-jami-ulum-hikam-batch-3" }
+sources: [source/ibn-rajab-jami-ulum-hikam]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); no matn stored (exceeds excerpt limit); takhrij from the edition's apparatus p. 131" }

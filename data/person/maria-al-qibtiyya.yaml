@@ -1,0 +1,75 @@
+id: person/maria-al-qibtiyya
+class: person
+label:
+  ar: مارية القبطية
+  en: Maria al-Qibtiyya
+names:
+- kind: full
+  lang: ar
+  value: مارية القبطية
+- kind: laqab
+  lang: ar
+  value: القبطية
+gender: female
+died:
+  edtf: "0637-02"
+  hijri: "0016-01"
+  calendar: julian
+  precision: month
+  status: tradition
+  note: 'ماتت في المحرم سنة ست عشرة (الواقدي، كما في الإصابة)؛ وقال ابن منده: بعد النبي بخمس سنين.'
+  sources:
+  - source/ibn-hajar-isaba
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: جارية أهداها المقوقس صاحب الإسكندرية إلى النبي سنة 7هـ مع أختها سيرين، فأسلمت ووُلد لها إبراهيم، وتوفيت في المحرم سنة 16هـ في خلافة عمر.
+  en: A woman sent to the Prophet in 7 AH by al-Muqawqis, the ruler of Alexandria, together with her sister Sirin; she embraced Islam, bore him Ibrahim, and died in Muharram 16 AH in Umar's caliphate.
+wings:
+- people
+themes:
+- women
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: family-of-the-prophet
+  status: tradition
+  note: مذكورة في الإصابة ترجمة رقم 11781 (ص 1958).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكرت في كتب الصحابة؛ تُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: spouse_of
+  target: person/muhammad
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/medina
+  sources:
+  - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/death-of-ibrahim
+  role: mother
+  sources: [source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 11781، ص 1958 (تراجم النساء)
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-women-1
+sources:
+- source/ibn-hajar-isaba
+- source/mubarakpuri-raheeq
+- source/nisa-hawl-alrasul
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1958, entry 11781)

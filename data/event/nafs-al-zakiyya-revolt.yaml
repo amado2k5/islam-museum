@@ -1,0 +1,24 @@
+id: event/nafs-al-zakiyya-revolt
+class: event
+kind: revolt
+label: { ar: "خروج محمد النفس الزكية وأخيه إبراهيم" }
+summary:
+  ar: "في سنة خمس وأربعين ومئة خرج محمد وإبراهيم ابنا عبد الله بن حسن بن الحسن بن علي بن أبي طالب فظفر بهما المنصور فقتلهما وجماعة كثيرة من آل البيت، وكان المنصور أول من أوقع الفتنة بين العباسيين والعلويين وكانوا قبل شيئاً واحداً، وآذى خلقاً من العلماء ممن خرج معهما أو أمر بالخروج قتلاً وضرباً منهم أبو حنيفة وعبد الحميد بن جعفر وابن عجلان، وممن أفتى بجواز الخروج مالك بن أنس وقال إنما بايعتم مكرهين وليس على مكره يمين {cite:tarikh-khulafa-minhaj-1434 p. 424-425}.، وعند المسعودي استشار المنصور شيخاً عقيلياً فأشار بشحن البصرة بالرجال فظهر إبراهيم بها كما قال، وأخرج إليه عيسى بن موسى من الكوفة في أربعة آلاف فارس وألفي رجل وأتبعه محمد بن قحطبة فقتل بالمدينة وهو ابن خمس وأربعين سنة، ولما اتصل بإبراهيم قتل أخيه وهو بالبصرة صعد المنبر فنعاه وتمثل بأبالمنازل يا خير الفوارس {cite:muruj-al-dhahab p. 284-285}"
+  en: "In year 145 Muhammad and Ibrahim, sons of Abdallah ibn al-Hasan the Hasanid, rose; al-Mansur overcame and killed them with a great company of the Prophet's house. He was the first to sow strife between Abbasids and Alids — hitherto one party — and harmed scholars who joined or sanctioned the rising, killing and flogging: Abu Hanifa, Abd al-Hamid ibn Ja'far and Ibn Ajlan among them. Malik ibn Anas ruled the rising lawful: 'your bay'a was coerced, and there is no oath upon the coerced' {cite:tarikh-khulafa-minhaj-1434 p. 424-425}."
+wings: [time, people]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0762~", hijri: "0145", calendar: julian, precision: year, status: tradition, derived: true, note: "145؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 424}." }
+relations:
+  - { type: had_participant, target: person/muhammad-al-nafs-al-zakiyya, role: "صاحب الخروج", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/ibrahim-ibn-abdallah-al-hasani, role: "صاحب الخروج", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-mansur, role: "الظافر بهما", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/isa-ibn-musa, role: "المحارب", sources: [source/tarikh-khulafa-minhaj-1434] }
+provenance:
+  layer: own-research
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 424–425"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-tarikh-khulafa-batch-15
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

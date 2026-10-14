@@ -1,0 +1,59 @@
+id: person/furat-ibn-hayyan
+class: person
+label:
+  ar: فرات بن حيان
+  en: Furat ibn Hayyan
+names:
+- kind: full
+  lang: ar
+  value: فرات بن حيان بن ثعلبة بن عبد العزى بن حبيب بن حية بن ربيعة بن صعب بن عجل بن لجيم العجلي
+gender: male
+roles:
+- companion
+traditions:
+- sunni
+summary:
+  ar: عجلي حليف بني سهم، هاجر إلى النبي ونزل الكوفة وابتنى بها داراً؛ قال ابن السكن إن له صحبة وذكره ابن سعد في طبقة أهل الخندق، وقال النبي «إن منكم رجالاً نكلهم إلى إيمانهم، منهم فرات بن حيان»؛ وتذكر المصادر أنه كان عيناً لأبي سفيان ثم أسلم،
+    وأنه هجا النبي ثم مدحه.
+  en: An Ijli ally of Banu Sahm who emigrated to the Prophet, settled in Kufa and built a house there; Ibn al-Sakan says he had companionship and Ibn Sa'd lists him in the tier of the people of the Trench; the Prophet said some men of you we
+    leave to their iman, among them Furat ibn Hayyan; sources say he was a spy for Abu Sufyan then became Muslim, and that he lampooned the Prophet and later praised him.
+wings:
+- people
+themes:
+- converts-and-leavers
+periods:
+- period/prophetic-era
+- period/rashidun
+regions:
+- arabia
+story_roles:
+- role: companion
+  status: tradition
+  note: مذكور في الإصابة ترجمة رقم 7010 (ص 1187).
+  sources:
+  - source/ibn-hajar-isaba
+faith:
+- value: sunni
+  basis: tradition
+  note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
+relations:
+- type: member_of
+  target: group/banu-sahm
+  sources:
+  - source/ibn-hajar-isaba
+- type: lived_in
+  target: place/kufa
+  sources:
+  - source/ibn-hajar-isaba
+provenance:
+  layer: own-research
+  source: الإصابة في تمييز الصحابة، ترجمة 7010، ص 1187
+  generated_by: Claude (maintainer session)
+  model: claude-sonnet-5-5
+  run: isaba-batch-8
+sources:
+- source/ibn-hajar-isaba
+status:
+  review: draft
+  completeness: 2
+  generated_by: Claude Sonnet 5.5; read from al-Isaba (column-aware OCR, page 1187, entry 7010)

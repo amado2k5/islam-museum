@@ -1,0 +1,21 @@
+id: event/al-uqab-609
+class: event
+kind: battle
+label: { ar: "وقعة العقاب" }
+summary:
+  ar: "خرج محمد الناصر بن المنصور الموحدي من مراكش سنة 609هـ إلى أشبيلية واستعد للغزو فلقيه أهل العدوة من الجلالقة فانكشف المسلمون في يوم بلاء وتمحيص أواخر صفر من السنة، وانكفأ الناصر راجعاً إلى مراكش فهلك في شعبان سنة 610هـ {cite:tarikh-ibn-khaldun-ibar p. 1682}. وفي شذرات الذهب كانت الملحمة العظمى بالأندلس بين الناصر محمد بن يعقوب بن يوسف وبين الفرنج واستشهد بها عدد كثير وتعرف بوقعة العقاب ومن عديميها أبو عمر بن عات النقري الشاطبي الحافظ وكان عجباً في سرد المتون ومعرفة الرجال والأدب وكان زاهداً سلفياً متعففاً {cite:shadharat-dhahab p. 36-37}. وفي نفح الطيب أنه جمع جموعاً اشتملت على ستمائة ألف مقاتل فيما حكاه صاحب الذخيرة السنية ودخله الإعجاب بكثرة من معه، وأنها الطامة على الأندلس بل والمغرب جميعاً وما ذاك إلا لسوء التدبير فإن رجال الأندلس العارفين بقتال الإفرنج استخف بهم الناصر ووزيره فشنق بعضهم ففسدت النيات فكان ذلك من بخت الإفرنج {cite:nafh-tib-maqqari p. 383}."
+  en: "The battle of al-Uqab (Las Navas de Tolosa): the Almohad caliph al-Nasir marched to Seville in 609 and the Muslims were broken late Safar in the rout the sources call a day of ordeal and sifting; he died months later at Marrakesh {cite:tarikh-ibn-khaldun-ibar p. 1682}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1212-07~", hijri: "0609-02~", calendar: julian, precision: month, status: tradition, derived: true, note: "أواخر صفر 609؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1682}." }
+relations:
+  - { type: had_participant, target: person/muhammad-al-nasir-almohad, role: "الخليفة الغازي", sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ibar-batch-11
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

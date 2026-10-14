@@ -1,0 +1,18 @@
+id: person/aryat
+class: person
+label: { en: "Aryat (Abraha’s predecessor in Yemen)", ar: "أرباط" }
+gender: male
+roles: []
+faith: [{ value: christian, basis: tradition, sources: [source/mubarakpuri-raheeq] }]
+summary:
+  en: "The commander of the seventy-thousand Abyssinian force which, armed with a Roman fleet, occupied Yemen in 525 CE; he governed for the Negus until Abraha, one of his own generals, assassinated him and ruled in his place."
+  ar: "قائد الجيش الحبشي السبعين ألفاً الذي احتل اليمن سنة 525م بأسطول هيأه الرومان؛ ظل حاكماً من قبل ملك الحبشة حتى اغتاله أبرهة أحد قواده وحكم مكانه."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: ruler_of, target: place/yemen, start: { edtf: "0525" }, end: { edtf: "0530~" }, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/abyssinian-occupation-of-yemen, role: "قائد الجيش المحتل", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }

@@ -1,0 +1,19 @@
+id: place/tiflis
+class: place
+kind: town
+label: { ar: "تفليس", en: "Tiflis" }
+summary:
+  ar: "على الكُرّ من كورة جرزان القرمز؛ كتب حبيب بن مسلمة لأهلها صلحاً بالأمان على الأنفس والبيع والصوامع والدين على دينار عن كل بيت جزية مع شرائط القرى والنصح والإيصال ثم صادق الجرّاح بن عبد الله أمانهم على أرحائهم وكرومهم بمائة درهم في السنة."
+  en: "on the Kura in the district of Jurzan al-Qirmiz; Habib ibn Maslama wrote its people a peace securing selves, worship-houses, monasteries and religion for a dinar's jizya per house with terms of quartering, counsel and conveyance, and al-Jarrah ibn Abdallah later ratified their aman over their mills and vineyards at a hundred dirhams a year."
+wings: [place]
+periods: [period/rashidun]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: place/armenia, sources: [source/futuh-buldan-maarif-1407] }
+provenance:
+  layer: own-research
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 281–287"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-futuh-buldan-batch-17
+sources: [source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
