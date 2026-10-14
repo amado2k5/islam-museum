@@ -1,0 +1,23 @@
+id: event/wadi-salit-massacre-240
+class: event
+kind: battle
+label: { ar: "وقعة وادي سليطة (نحو 240هـ)" }
+summary:
+  ar: "لما استمدّ أهل طليطلة المخالفون من أهل بلاد الأمير محمد بن عبد الرحمن بملكي جليقية والبشكنس لقيهم الأمير محمد على وادي سليطة وقد أكمن لهم فأوقع بهم وبلغت عدة القتلى من أهل طليطلة والمشركين عشرين ألفاً {cite:nafh-tib-maqqari p. 386}. وكان أهل طليطلة قد ثاروا أول ما تولى الإمارة سنة ٢٣٨هـ واستمانوا بصاحب جليقية سنة ٢٤٠هـ {cite:nafh-tib-maqqari p. 386 n.3}."
+  en: "The Wadi Salit (Guazalete) massacre: when rebel Toledo sought the kings of Galicia and the Basques against the emir Muhammad I, he ambushed their host on the river south of Toledo and left twenty thousand dead {cite:nafh-tib-maqqari p. 386}."
+wings: [time]
+themes: [civil-wars-and-revolts]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0854~", hijri: "0240~", calendar: julian, precision: year, status: tradition, derived: true, note: "استماتة أهل طليطلة بصاحب جليقية سنة 240هـ؛ التحويل مشتق {cite:nafh-tib-maqqari p. 386 n.3}." }
+relations:
+  - { type: occurred_at, target: place/tulaytula, role: "على وادي سليطة بالقرب منها", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/muhammad-i-andalusi, role: "أكمن لهم فأوقع بهم", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 386"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-63
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

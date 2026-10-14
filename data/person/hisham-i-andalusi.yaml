@@ -1,0 +1,21 @@
+id: person/hisham-i-andalusi
+class: person
+label: { ar: "هشام الأول بن عبد الرحمن الداخل" }
+summary:
+  ar: "ثاني أمراء بني أمية بقرطبة (سنة ١٧٢–١٨٠هـ)؛ كان إذا حضر مجلساً امتلأ أدباً وتاريخاً وذكراً لأمور الحرب، ولما ولي أشخص المنجم الضبي من الجزيرة الخضراء فقال له إن مدته ثمانية أعوام أو نحوها فقال: لو أن هذه المدة كانت في سجدة لله تعالى لقلت طاعة له، وزهد في الدنيا والتزم أفعال البر {cite:nafh-tib-maqqari pp. 372–373}. ومن محاسنه إكمال بناء جامع قرطبة الذي شرع فيه أبوه، وتجديد قنطرة قرطبة التي يضرب بها المثل — فلما قيل له إن الناس يقولون ما بناها إلا ليمضي عليها إلى صيده آلى على نفسه أن لا يسلك عليها فلم يمر عليها بعد — وإخراج المصدق لأخذ الزكاة على الكتاب والسنة؛ وكان من أهل الخير والصلاح كثير الغزو والجهاد، توفي سنة ١٨٠هـ وعمره أربعون سنة {cite:nafh-tib-maqqari p. 374}."
+  en: "Second Umayyad emir of Córdoba (AH 172–180): when the astrologer al-Dabbi foretold an eight-year reign he answered 'were those years one prostration to God I would call it obedience' and turned to piety; he finished his father's Great Mosque, rebuilt Córdoba's proverbial bridge — then swore never to cross it when told the people said it was for his hunting — and set zakāt collection on the Book and the Sunna {cite:nafh-tib-maqqari pp. 372–374}."
+gender: male
+wings: [people]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+born: { edtf: "0757~", hijri: "0139-10", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في شوال سنة 139هـ {cite:nafh-tib-maqqari p. 374}." }
+died: { edtf: "0796~", hijri: "0180~", calendar: julian, precision: year, status: historical, derived: true, note: "سنة 180هـ لسبع سنين وتسعة أشهر من إمارته {cite:nafh-tib-maqqari p. 374}." }
+relations:
+  - { type: ruled_over, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 372–374"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-63
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
