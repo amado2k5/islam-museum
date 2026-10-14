@@ -1,0 +1,18 @@
+id: event/fez-calamity-813
+class: event
+kind: civil-war
+label: { ar: "حادثة فاس الكبرى سنة 813هـ" }
+summary:
+  ar: "في سنة ثلاث عشرة وثمان مئة كانت الحادثة العظيمة بفاس من بلاد المغرب حتى خربت {cite:shadharat-dhahab p. 100}."
+  en: "In 813 came the great calamity of Fez in the Maghreb, until the city was ruined {cite:shadharat-dhahab p. 100}."
+wings: [place, time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date: { start: { edtf: "1410~", hijri: "0813", calendar: julian, precision: year, status: tradition, derived: true, note: "813هـ {cite:shadharat-dhahab p. 100}", sources: [source/shadharat-dhahab] } }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج6، سنة 813)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-64
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
