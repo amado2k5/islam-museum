@@ -1,0 +1,22 @@
+id: event/day-of-rahrahan
+class: event
+kind: battle
+label: { ar: "يوم رحرحان" }
+summary:
+  ar: "يوم من أيام العرب بين بني عامر بن صعصعة وبني دارم بن مالك من تميم؛ سببه أن خالد بن جعفر الكلابي حارب بني عبس وقتل مع أصحابه سيدهم زهير بن جذيمة ثم استجار بالنعمان، فضمن الحارث بن ظالم لغطفان أن يفتك بخالد فقتله غيلة عند النعمان وآواه معبد بن زرارة، فخرج الأحوص بن جعفر ببني عامر يريد بني دارم فالتقوا برحرحان فاقتتلوا وطُعن معبد بن زرارة في كدرة الخيل فأسره عضروط لعامر والطفيل ابنا مالك من غني وأثاباه عشرين بعيراً {cite:ansab-al-ashraf p. 40-41}."
+  en: "The day of Rahrahan between Banu Amir and the Darim of Tamim: after al-Harith ibn Zalim's treacherous murder of Khalid ibn Ja'far — sheltered by Ma'bad ibn Zurara — al-Ahwas led Banu Amir to the reckoning, and Ma'bad himself was dragged wounded from the horse-dust by two Ghanni clients {cite:ansab-al-ashraf p. 40-41}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0590~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام العرب قبل الإسلام بجيل؛ لا تاريخ محقق {cite:ansab-al-ashraf p. 40}." }
+relations:
+  - { type: had_participant, target: person/al-ahwas-ibn-jafar, role: "قائد بني عامر", sources: [source/ansab-al-ashraf] }
+  - { type: had_participant, target: person/mabad-ibn-zurara, role: "الأسير", sources: [source/ansab-al-ashraf] }
+provenance:
+  layer: own-research
+  source: "أنساب الأشراف للبلاذري (ج١٢، ت. سهيل زكار/رياض عبد الحميد مراد)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ansab-batch-7
+sources: [source/ansab-al-ashraf]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

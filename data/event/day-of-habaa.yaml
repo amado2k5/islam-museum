@@ -1,0 +1,21 @@
+id: event/day-of-habaa
+class: event
+kind: battle
+label: { ar: "يوم الهباءة" }
+summary:
+  ar: "يوم من أيام العرب؛ فيه قتلت بنو عبس بن بغيض حذيفة بن بدر الفزاري سيد غطفان ودست لسانه في استه، وكان بنو ذبيان وبنو عبس حلفاء، فكان قتله من سبب حرب داحس والغبراء الطويلة بين فزارة وعبد الله بن غطفان من جهة وبين عبس وذبيان من جهة {cite:ansab-al-ashraf p. 15-16}."
+  en: "The day of al-Haba'a, when Banu Abs killed Hudhayfa ibn Badr the chief of Fazara — the outrage that broke the Abs–Dhubyan alliance and opened the forty-year war of Dahis and al-Ghabra' {cite:ansab-al-ashraf p. 15-16}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0600~", calendar: julian, precision: century, status: tradition, derived: true, note: "قبيل الإسلام؛ بدء حرب داحس والغبراء {cite:ansab-al-ashraf p. 15}." }
+relations:
+  - { type: had_participant, target: person/hudhayfa-ibn-badr, role: "المقتول", sources: [source/ansab-al-ashraf] }
+provenance:
+  layer: own-research
+  source: "أنساب الأشراف للبلاذري (ج١٢، ت. سهيل زكار/رياض عبد الحميد مراد)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ansab-batch-7
+sources: [source/ansab-al-ashraf]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
