@@ -1,0 +1,19 @@
+id: event/egypt-census-837
+class: event
+kind: other
+label: { ar: "إحصاء النول والقرى 837هـ", en: "The Loom and Village Census of 837" }
+summary:
+  ar: "في شذرات الذهب سنة سبع وثلاثين وثمان مئة أحصى من بالإسكندرية من الحاكة فكان فيها ثمان مئة نول وكان ذلك آخر القرن الثامن أربعة عشر ألف نول ومن ذلك أن كتاب الجيش أحصوا قرى مصر قبليها وبحريها فكانت ألفين ومئة وسبعين قرية بعد أن كانت في أوائل دولة الفاطميين عشرة آلاف قرية {cite:shadharat-dhahab p. 226}."
+  en: "A stark demographic register for 837: Alexandria's weavers' looms counted 800 against 14,000 at the eighth century's close, and the army clerks' census found Egypt's villages, Upper and Lower, at 2,170 against 10,000 under the early Fatimids {cite:shadharat-dhahab p. 226}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1433/1434", hijri: "0837", calendar: julian, precision: year, status: tradition, derived: true, note: "837؛ التحويل مشتق {cite:shadharat-dhahab p. 226}." }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 224-226"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-79
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
