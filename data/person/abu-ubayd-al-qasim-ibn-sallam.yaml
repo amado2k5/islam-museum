@@ -10,5 +10,7 @@ provenance:
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 332"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-25
-sources: [source/futuh-buldan-maarif-1407]
+relations:
+  - { type: authored, target: work/al-amthal-al-saira, sources: [source/kashf-zunun-furqan] }
+sources: [source/futuh-buldan-maarif-1407, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

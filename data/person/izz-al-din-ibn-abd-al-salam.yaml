@@ -12,5 +12,7 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 714–723"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-46
-sources: [source/tarikh-khulafa-minhaj-1434]
+relations:
+  - { type: authored, target: work/al-imam-fi-adilat-al-ahkam, sources: [source/kashf-zunun-furqan] }
+sources: [source/tarikh-khulafa-minhaj-1434, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
