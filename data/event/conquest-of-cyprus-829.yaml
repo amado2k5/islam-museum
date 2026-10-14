@@ -1,0 +1,21 @@
+id: event/conquest-of-cyprus-829
+class: event
+kind: battle
+label: { ar: "فتح قبرص وأسر ملكها جينوس", en: "The Conquest of Cyprus and Capture of King Janus" }
+summary:
+  ar: "في شذرات الذهب في رمضان سنة تسع وعشرين وثمان مئة كان فتح قبرص في أيام السلطان الأشرف برسباي وعمل زين الدين عبد الرحمن بن محمد بن الخراط موقع الدست بالقلعة قصيدة فائية أولها بشراك يا ملك الملوك الأشرف بفتح قبرص بالحسام المشرفى وفي ترجمة برسباي أنه فتحت في أيامه عدة فتوحات منها ماغوصة قبرص ثم بقية جزيرة قبرص وأسر ملكها جينوس ولم يقتل من المسلمين إلا القليل ثم عرض عليه جينوس ومن معه من الأسرى وهو يرفل في قيوده فذرفت عينا برسباي وأعلن بالحمد والشكر ورتب له ما يكفيه ثم أطلقه وأعاده بعد أن ضرب عليه الجزية فاستمرت ووعى السبايا والغنائم وحمل الثمن إلى الخزانة السلطانية وفرق في المجاهدين منه بعضه {cite:shadharat-dhahab p. 195, 247}."
+  en: "Ramadan 829: the Mamluk conquest of Cyprus under Barsbay — Famagusta, then the rest of the island, King Janus taken captive with few Muslim dead; paraded in chains before the sultan, whose eyes welled as he released him under tribute {cite:shadharat-dhahab p. 195, 247}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, anatolia-balkans]
+date:
+  start: { edtf: "1426-07~", hijri: "0829-09~", calendar: julian, precision: month, status: tradition, derived: true, note: "رمضان 829؛ التحويل مشتق {cite:shadharat-dhahab p. 195}." }
+relations:
+  - { type: had_participant, target: person/barsbay, role: "السلطان الفاتح", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 195-196, 247"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-75
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
