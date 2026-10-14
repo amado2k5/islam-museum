@@ -1,5 +1,8 @@
 ---
 import "../styles/global.css";
+// Preload the Arabic faces used above the fold so the late font swap does not shift the first paint (CLS).
+import naskhWoff2 from "@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2?url";
+import amiriWoff2 from "@fontsource/amiri/files/amiri-arabic-400-normal.woff2?url";
 import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 
@@ -34,6 +37,8 @@ const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
     <meta name="color-scheme" content="light dark" />
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href={naskhWoff2} as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href={amiriWoff2} as="font" type="font/woff2" crossorigin="anonymous" />
     <script is:inline>
       try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
     </script>

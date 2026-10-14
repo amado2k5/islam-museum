@@ -10,7 +10,7 @@ const T = ui(lang);
     <p class="eyebrow">{T.landing.eyebrow}</p>
     <h1 class="display" style="max-width:20ch;font-weight:400;font-size:clamp(2.2rem,6vw,4.4rem)">{T.landing.title_pre} <strong style="font-weight:600;color:var(--link)">{T.landing.title_strong}</strong> {T.landing.title_post}</h1>
     <p style="font-size:clamp(1.1rem,2vw,1.35rem);max-width:60ch">{T.landing.lede}</p>
-    <p class="ui muted" id="today-line" data-prefix={T.landing.today_is} aria-live="polite" style="margin-bottom:2rem"></p>
+    <p class="ui muted" id="today-line" data-prefix={T.landing.today_is} aria-live="polite" style="margin-bottom:2rem;min-height:2em"></p>
     <p class="ui" style="display:inline-flex;align-items:center;gap:10px;background:var(--panel);border-radius:999px;padding:8px 16px;margin:0 0 1rem"><span aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:var(--gold)"></span>{T.landing.soon}</p>
     <p class="ui"><a class="chip" style="border:1px solid var(--gold)" href={href(lang, "event/hijra")}>{T.landing.start} <span class="flip" aria-hidden="true">→</span></a> <span class="muted">{T.landing.start_hint}</span></p>
 
