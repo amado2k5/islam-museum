@@ -1,0 +1,23 @@
+id: event/battle-of-cutanda-514
+class: event
+kind: battle
+label: { ar: "وقعة كتندة" }
+summary:
+  ar: "وقعة كتندة على المسلمين سنة أربع عشرة وخمسمائة، وكتندة من حيز دورقة من عمل سرقسطة من الثغر الأعلى؛ كانت الهزيمة على المسلمين قتل فيها من المطوعة نحو من عشرين ألفاً ولم يقتل فيها من العسكر أحد، وكان على المسلمين الأمير إبراهيم بن يوسف بن تاشفين، وممن حضرها الشيخ أبو علي الصدفي وقرينه في الفضل أبو عبد الله ابن الفراء خرجا غازيين فكانا ممن فقد فيها {cite:nafh-tib-maqqari p. 465}. وقال غير واحد إن العسكر انصرف مفلولاً إلى بلنسية وإن القاضي أبا بكر ابن العربي كان ممن حضرها وسئل مخلصه منها عن حاله فقال: حال من ترك الحباء والعباء — وهذا مثل عند المغاربة معروف يقال لمن ذهبت ثيابه وخيامه بمعنى أنه ذهب جميع ما لديه {cite:nafh-tib-maqqari p. 465}."
+  en: "The rout of Cutanda (514) in the Upper March of Saragossa: some twenty thousand volunteer mutatawwi'a were cut down while the regular army escaped unhurt; the amir was Ibrahim ibn Yusuf ibn Tashfin, and the scholars Abu Ali al-Sadafi and Ibn al-Farra went out as ghazis and were lost. The qadi Abu Bakr ibn al-Arabi was present — asked how he had fared, he gave the Maghrebi proverb 'the state of one who left his tent and cloak': everything gone {cite:nafh-tib-maqqari p. 465}."
+wings: [time]
+themes: [battles]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1120~", hijri: "0514~", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 514؛ التحويل مشتق {cite:nafh-tib-maqqari p. 465}." }
+relations:
+  - { type: had_participant, target: person/abu-bakr-ibn-al-arabi-qadi, role: "حاضراً وسئل عن حاله فأجاب بالمثل", sources: [source/nafh-tib-maqqari] }
+  - { type: had_participant, target: person/al-sadafi, role: "خرج غازياً فكان ممن فقد فيها", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 465"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-58
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
