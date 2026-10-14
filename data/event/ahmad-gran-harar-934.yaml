@@ -1,0 +1,21 @@
+id: event/ahmad-gran-harar-934
+class: event
+kind: conquest
+label: { ar: "أخذ الإمام أحمد جران هرر وفتوحاته بالحبشة", en: "Imam Ahmad Gran's Seizure of Harar and Abyssinian Conquests" }
+summary:
+  ar: "في شذرات الذهب سنة أربع وثلاثين وتسع مئة أخذ الإمام الجراد أحمد مدينة هرر من بلاد الحبشة وضعف عن مقاومته سلطانها ولم يزل أمره يعظم واستفتح كثيراً من بلاد الحبشة وواظب على الجهاد والغزو حتى قيل ما تشبه فتوحاته إلا فتوحات الصحابة {cite:shadharat-dhahab p. 617}."
+  en: "934: Imam Ahmad took Harar, its sultan powerless to resist; his conquests across the Abyssinian lands grew till 'his conquests were said to resemble only the Companions' conquests' {cite:shadharat-dhahab p. 617}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [east-africa]
+date:
+  start: { edtf: "1527/1528", hijri: "0934", calendar: julian, precision: year, status: tradition, derived: true, note: "934؛ التحويل مشتق {cite:shadharat-dhahab p. 617}." }
+relations:
+  - { type: had_participant, target: person/imam-ahmad-gran, role: "الفاتح", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 617"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-85
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
