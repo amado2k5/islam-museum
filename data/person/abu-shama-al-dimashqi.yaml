@@ -1,0 +1,20 @@
+id: person/abu-shama-al-dimashqi
+class: person
+label: { ar: "أبو شامة الدمشقي" }
+summary:
+  ar: "الشيخ الإمام شهاب الدين عبد الرحمن بن إسماعيل المعروف بأبي شامة الدمشقي المتوفى سنة ٦٦٥هـ؛ صاحب أزهار الروضتين في أخبار الدولتين دولة نور الدين وصلاح الدين من الأكراد {cite:kashf-zunun-furqan p. 372-373}."
+  en: "Shihab al-Din Abd al-Rahman ibn Isma'il, known as Abu Shama al-Dimashqi, d. AH 665 — author of Azhar al-Rawdatayn, the chronicle of Nur al-Din's and Salah al-Din's states {cite:kashf-zunun-furqan p. 372-373}."
+gender: male
+wings: [people, words]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died: { edtf: "1267~", hijri: "0665", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 665هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 373}." }
+relations:
+  - { type: authored, target: work/azhar-al-rawdatayn, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 372-373 مدخل 770"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-4
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -13,10 +13,12 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
 born: { edtf: "1075-03~", hijri: "0467-07-17", calendar: julian, precision: day, status: tradition, derived: true, note: "الأربعاء 17 رجب 467هـ {cite:shadharat-dhahab p. 600}", sources: [source/shadharat-dhahab] }
 died: { edtf: "1144~", hijri: "0538~", calendar: julian, precision: year, status: tradition, derived: true, note: "538هـ {cite:shadharat-dhahab p. 598}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: authored, target: work/asas-al-balagha, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-12
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
