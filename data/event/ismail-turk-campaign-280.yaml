@@ -1,0 +1,21 @@
+id: event/ismail-turk-campaign-280
+class: event
+kind: campaign
+label: { ar: "غزو إسماعيل بن أحمد بلاد الترك" }
+summary:
+  ar: "في سنة 280هـ ورد الخبر بغزو إسماعيل بن أحمد بلاد الترك وقتله خلقاً كثيراً من الترك وافتتاحه مدينة ملكهم وأسرها إياه وأمره خاتون ونحو عشرة آلاف وغنم دواب كثيرة وأصاب الفارس من المسلمين من الغنيمة ألف درهم {cite:muntazam-ibn-al-jawzi p. 146}."
+  en: "In 280 Ismail ibn Ahmad raided the lands of the Turks, killed many, captured their king's city with the king, the Khatun and some ten thousand, and each Muslim horseman's share was a thousand dirhams {cite:muntazam-ibn-al-jawzi p. 146}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [khurasan]
+date:
+  start: { edtf: "0893", hijri: "0280", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 280؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi p. 146}." }
+relations:
+  - { type: had_participant, target: person/ismail-ibn-ahmad, role: "القائد", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط دائرة المعارف، حيدر آباد) ج٥/٢"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-6
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
