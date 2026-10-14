@@ -1,0 +1,22 @@
+id: person/al-shawkani
+class: person
+label: { ar: "الشوكاني" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن علي بن محمد بن عبد الله الشوكاني" }
+gender: male
+roles: [scholar]
+born: { edtf: "1759", calendar: gregorian, precision: year, status: tradition, sources: [source/al-aalam] }
+died: { edtf: "1834", calendar: gregorian, precision: year, status: tradition, sources: [source/al-aalam] }
+summary:
+  ar: "محمد بن علي الشوكاني (١٧٥٩–١٨٣٤م)؛ فقيه مجتهد من علماء اليمن، من أهل صنعاء. من مؤلفاته «نيل الأوطار من أسرار منتقى الأخبار» في ثماني مجلدات و«الفوائد المجموعة في الأحاديث الموضوعة» {cite:al-aalam tarjama}."
+  en: "Muhammad ibn Ali al-Shawkani (1759–1834 CE) — the Yemeni mujtahid jurist of Sana'a, author of the eight-volume Nayl al-Awtar {cite:al-aalam tarjama}."
+wings: [people, words]
+periods: [period/modern-era]
+regions: [arabia]
+sources: [source/al-aalam]
+provenance:
+  layer: own-research
+  source: "الأعلام للزركلي (ط2 القاهرة) ترجمة الشوكاني"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-alam-batch-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

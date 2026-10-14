@@ -1,0 +1,24 @@
+id: person/muhammad-al-mahdi-al-sanusi
+class: person
+label: { ar: "محمد المهدي السنوسي" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن محمد بن علي السنوسي المهدي" }
+gender: male
+roles: [scholar, sufi]
+born: { edtf: "1843", calendar: gregorian, precision: year, status: tradition, sources: [source/al-aalam] }
+died: { edtf: "1902", calendar: gregorian, precision: year, status: tradition, derived: true, note: "ت نحو ١٣٢١هـ بوداي؛ التحويل مشتق {cite:al-aalam tarjama}." }
+summary:
+  ar: "محمد بن محمد بن علي السنوسي، المهدي (١٨٤٣–نحو ١٩٠٢م)؛ زعيم السنوسية الثاني، خلف أباه بعد موته واشتهر بالصلاح، وقويت الطريقة في أيامه حتى انتشرت زواياها من المغرب الأقصى إلى الهند ومن وداي إلى الآستانة وأكثرها في الصحراء الكبرى وشمال أفريقية، وكان في كل زاوية خليفة يدير شؤونها ويعلم أولاد الناس ويقتني الماشية ويشتغل بالزراعة، يساعده المريدون وينفق على الزاوية وما يفيض عنه يرسله إلى الشيخ، فأصبح صاحب الطريقة أشبه بملك يُجبى إليه الخراج. وخاف السلطان عبد الحميد مغبة أمره فشعر الشيخ بذلك فرحل سنة ١٣١٢هـ إلى واحة الكفرة وانتقل منها إلى وداي فتوفي فيها {cite:al-aalam tarjama}."
+  en: "Muhammad al-Mahdi al-Sanusi (1843–c. 1902 CE) — second leader of the Sanusiyya, under whom its zawiyas stretched from Morocco to India, each a self-supporting khalifa-run community {cite:al-aalam tarjama}."
+wings: [people, ideas]
+periods: [period/modern-era]
+regions: [maghreb]
+relations:
+  - { type: child_of, target: person/muhammad-ibn-ali-al-sanusi, sources: [source/al-aalam] }
+sources: [source/al-aalam]
+provenance:
+  layer: own-research
+  source: "الأعلام للزركلي (ط2 القاهرة) ترجمة المهدي السنوسي"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-alam-batch-1
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
