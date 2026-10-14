@@ -1,0 +1,20 @@
+id: person/ibn-daqiq-al-id
+class: person
+label: { ar: "ابن دقيق العيد" }
+summary:
+  ar: "الشيخ تقي الدين محمد بن علي المعروف بابن دقيق العيد الشافعي المتوفى سنة ٧٠٢هـ؛ جمع في الإلمام متون الأحاديث المتعلقة بالأحكام مجردة عن الأسانيد ثم شرحه وبرع فيه وسماه الإمام، قيل إنه لم يؤلف في هذا النوع أعظم منه لكنه لم يكمله، وذكر البقاعي أنه أكمله ثم لم يوجد بعد موته منه إلا القليل فيقال إن بعض الحسدة أعدمه {cite:kashf-zunun-furqan p. 585}."
+  en: "Taqi al-Din Muhammad ibn Ali Ibn Daqiq al-Id, d. AH 702 — his Ilmam collected the legal hadiths' texts, and his own sharh 'al-Imam' was called the greatest of its kind, yet only a little survived his death {cite:kashf-zunun-furqan p. 585}."
+gender: male
+wings: [people, words]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+died: { edtf: "1302~", hijri: "0702", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 702هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 585}." }
+relations:
+  - { type: authored, target: work/al-ilmam-fi-ahadith-al-ahkam, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 585 مدخل 1677"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-20
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -13,5 +13,7 @@ provenance:
   source: "مروج الذهب للمسعودي (ط الشركة العالمية للكتاب) ج2 ص 673–674"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-2
-sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim]
+relations:
+  - { type: authored, target: work/amali-ibn-durayd, sources: [source/kashf-zunun-furqan] }
+sources: [source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
