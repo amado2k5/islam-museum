@@ -1,0 +1,18 @@
+id: person/shahr-ibn-hawshab
+class: person
+label: { ar: "شهر بن حوشب الأشعري", en: "Shahr ibn Hawshab al-Ash'ari" }
+names:
+  - { kind: full, lang: ar, value: "شهر بن حوشب الأشعري" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "من فقهاء الشام في الطبقة الثالثة في تصنيف الشيرازي، ذكره مع مجاهد وعبد الله بن أبي مليكة وغيرهم؛ يقول الشيرازي إنه مات سنة 112هـ، وينقل عن ابن سعد قولاً مخالفاً."
+  en: "A Syrian jurist listed by Shirazi among the third generation; Shirazi gives his death as 112 AH and notes Ibn Sa'd's variant."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+died: { hijri: "0112", edtf: "0730~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات سنة 112هـ وقيل سنة 98هـ (الشيرازي، ط. إحسان عباس، ص40 والحاشية عن ابن سعد). التحويل الميلادي مشتق.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) ص40", generated_by: "Claude (Haiku 5.5)", run: "lib-tabaqat-fuqaha-batch-4" }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 4; the death year as the book reports it; a second source is needed" }
