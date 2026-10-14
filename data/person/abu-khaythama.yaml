@@ -21,5 +21,5 @@ relations:
   - { type: participated_in, target: event/abu-khaythama-joins-the-army, role: subject, sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-salim-ibn-awf, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 162-164", generated_by: "Claude Code", model: "claude-sonnet-5-5", run: "ibn-hisham-batch-6d" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/fihrist-ibn-al-nadim, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 162-164" }
