@@ -1,0 +1,16 @@
+id: journey/granada-to-cairo
+class: journey
+kind: pilgrimage_route
+label: { ar: "من غرناطة إلى القاهرة في رحلة ابن جبير إلى الحج", en: "From Granada to Cairo on Ibn Jubayr's pilgrimage road" }
+summary:
+  ar: "مرحلة من رحلة ابن جبير إلى الحج: خرج من غرناطة في شوال سنة 578 على طريق البر إلى جزيرة طريف، ثم ركب البحر وبلغ الإسكندرية بعد عاصفة ورجوع إلى البر في أواخر ذي القعدة. ومن الإسكندرية سار في الدلتا على ضفاف النيل حتى دخل القاهرة في ذي الحجة. يواصل النص بعد ذلك الصعود إلى قوص، وهذا الجزء غير مدرج هنا لأن قوص لا ملف مكان لها بعد."
+wings: [time, place, people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, egypt-nile]
+travelers: [person/ibn-jubayr-muhammad]
+legs:
+  - { from: place/granada, to: place/alexandria, start: { hijri: "0578-10-08", precision: day, status: historical, note: "أول ساعة من يوم الخميس الثامن لشوال سنة ثمان وسبعين وخمسمائة (ص400)" }, end: { hijri: "0578-11-29", precision: day, status: historical, note: "يوم السبت التاسع والعشرين من ذي القعدة (ص395)" }, mode: "على ظهر الدواب ثم في البحر", note: "من غرناطة إلى جيان، ثم خرج منها يوم الاثنين التاسع عشر من شوال (ص400)؛ فمرّ بحصن الغيداق وقبرة وإستنجة وأشونة وشلبرة وأركش، ثم قرية النشمة، ثم جزيرة طريف يوم الاثنين السادس والعشرين من شوال (ص400). ثم ركب البحر، ويذكر في مساره سبتة وجزيرتي ميورقة وسردانية (ص399–398)، وأصابتهم عاصفة أعادتهم إلى البر، ثم عادوا إلى البحر حتى نزلوا الإسكندرية (ص398–395). الوقت الذي استغرقه البحر مبيّن في النص بالأيام، والتاريخ الميلادي مذكور في النص وليس محسوباً هنا.", sources: [source/rihla-ibn-jubayr-1907] }
+  - { from: place/alexandria, to: place/cairo, start: { hijri: "0578-12-08", precision: day, status: historical, note: "صبيحة يوم الأحد الثامن لذي الحجة (ص390)" }, end: { hijri: "0578-12-11", precision: day, status: historical, note: "يوم الأربعاء الحادي عشر من ذي الحجة، دخلوا مصر أثر صلاة العصر (ص390)" }, mode: "على ظهر الدواب وفي مركب تعدية", note: "من الإسكندرية إلى دمنهور (ص390)، ثم عبر النيل بموضع يعرف بصا في مركب تعدية، فبات ببيرمة (ص390)، ثم طندتة يوم عيد النحر (ص390)، ثم سبك ومليج، ثم قليوب على نحو ستة أميال من القاهرة، ثم المنية، ثم القاهرة، ثم مصر (ص390). ذكر في ذلك الوصف الطويل لمدينة القاهرة ومرافقها (ص391–392).", sources: [source/rihla-ibn-jubayr-1907] }
+sources: [source/rihla-ibn-jubayr-1907]
+provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 390–400", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr-granada" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Jubayr scan pp. 390–400 (scan numbering)" }
