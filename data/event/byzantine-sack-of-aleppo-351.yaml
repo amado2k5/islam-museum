@@ -1,0 +1,22 @@
+id: event/byzantine-sack-of-aleppo-351
+class: event
+kind: massacre
+label: { ar: "ملك الروم مدينة حلب" }
+summary:
+  ar: "في سنة 351هـ استولى الروم على مدينة حلب دون قلعتها؛ سار الدمستق إليها ولم يشعر به المسلمون إذ كان قد خلف عسكره بقيصرية فكبس مدينة حلب ولم يعلم بها سيف الدولة حتى بلغها العدو فخرج إليه وقاتله قتالاً عظيماً فقُتل أكثر أصحابه ولم يبق من أولاد داود بن حمدان أحد قتلوا جميعهم وانتزم سيف الدولة في نفر يسير وظفر الدمستق بداره خارج حلب المعروفة بالدارين فوجد فيها ثلاثمائة بدرة من الدراهم وأخذ له ألفاً وأربعمائة بغل وما لا يحصى من السلاح فأجلى الجامع وخرب الدار وملك الحضر ونقب في السور ثلمة، ودخل الروم البلد بالسيف يقتلون من وجدوا ولا يرفعونه حتى تعبوا، وكان في حلب ألف وأربعمائة من الأسرى فتخلصوا وأخذوا السلاح وقتلوا الناس وسبي من البلد بضعة عشر ألف صبي وصبية وأُحرقت المساجد، وأقام الدمستق تسعة أيام ثم انصرف بعد قتل ابن أخت الملك قرب باب القلعة فقتل من معه من أسرى المسلمين وكانوا ألفاً ومائتي رجل وعاد إلى بلاده وأمر أهل حلب بالزراعة والعمارة ليعودوا إليها بزمة {cite:kamil-ibn-al-athir p. 400-401}."
+  en: "In 351 the Domesticos stormed Aleppo while Sayf al-Dawla lay unprepared — the sortie destroyed, the Darayin palace plundered of three hundred purses of dirhams, a breach opened, the city put to the sword till the killers wearied; fifteen hundred Muslim prisoners freed themselves and fought back, fifteen thousand youths were taken captive, mosques burned. Nine days on, the emperor's nephew dead at the citadel gate, the Byzantines withdrew slaughtering their Muslim prisoners {cite:kamil-ibn-al-athir p. 400-401}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0962-12~", hijri: "0351", calendar: julian, precision: month, status: tradition, derived: true, note: "351؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 400}." }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/sayf-al-dawla, role: "صاحب حلب المهزوم", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-16
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
