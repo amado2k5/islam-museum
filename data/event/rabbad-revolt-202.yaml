@@ -1,0 +1,23 @@
+id: event/rabbad-revolt-202
+class: event
+kind: revolt
+label: { ar: "فتنة الربض بقرطبة" }
+summary:
+  ar: "الواقعة الشهيرة بين الأمير الحكم بن هشام وأهل الربض من قرطبة؛ كان في صدر ولايته قد أنهمك في لذاته فاجتمع أهل العلم والورع بقرطبة مثل يحيى بن يحيى الليثي صاحب مالك وأحد رواة الموطأ عنه وطالوت الفقيه وغيرهما فثاروا به وخلعوه وبايعوا بعض قرابته، وكانوا بالربض الغربي من قرطبة وهي محلة متصلة بقصره، فقاتلهم الحكم فغلبهم وافترقوا وهدم دورهم ومساجدهم، ولحقوا بفاس من أرض العدوة وبالإسكندرية من أرض المشرق ونزل بها جمع منهم ثم ثاروا بها فزحف إليهم عبد الله بن طاهر صاحب مصر للمأمون وغلبهم وأجازهم إلى جزيرة إقريطش فلم يزالوا بها إلى أن ملكها الإفرنج من أيديهم بعد مدة {cite:nafh-tib-maqqari p. 375}."
+  en: "The famous revolt of the Rabbaḍ of Cordoba under al-Hakam ibn Hisham: the scholars of learning and piety — Yahya ibn Yahya al-Laythi, Malik's companion and Muwatta transmitter, the faqih Talut and others — rose against him, deposed him and gave bay'a to a kinsman; al-Hakam crushed them, demolished their houses and mosques, and the exiles went to Fez and Alexandria — where they revolted again until Abdallah ibn Tahir expelled them to Crete, which they held until the Franks took it {cite:nafh-tib-maqqari p. 375}."
+wings: [time]
+themes: [civil-wars-and-revolts]
+periods: [period/abbasid-early]
+regions: [andalus-europe, maghreb, egypt-nile]
+date:
+  start: { edtf: "0818~", hijri: "0202~", calendar: julian, precision: year, status: tradition, derived: true, note: "الفتنة الثانية سنة 202 عند ابن عذاري؛ التحويل مشتق {cite:nafh-tib-maqqari p. 375}." }
+relations:
+  - { type: had_participant, target: person/yahya-ibn-yahya-al-laythi, role: "من ثوار أهل العلم والورع", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 375"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-54
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
