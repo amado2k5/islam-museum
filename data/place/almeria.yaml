@@ -1,0 +1,19 @@
+id: place/almeria
+class: place
+kind: city
+label: { ar: "المرية" }
+summary:
+  ar: "من مشهور مدن الأندلس، على ساحل البحر، ولها القلعة المنيعة المعروفة بقلعة خيران بناها عبد الرحمن الناصر وعظمت في دولة المنصور بن أبي عامر وولى عليها مولاه خيران فنسبت إليه؛ وبها من صنعة الديباج ما تفوق به على سائر البلاد وفيها دار الصناعة وتشتمل كورتها على معدن الحديد والرخام ومن أبوابها باب العقاب عليه صورة عقاب من حجر قديم {cite:nafh-tib-maqqari p. 198}. وكان بالمرية لنسج طرز الحرير ثمانمائة نول وللحلل النفيسة والديباج الفاخر ألف نول وللإسقلاطون والجرجانية والأصفهانية مثل ذلك، ويصنع بها من صنوف آلات الحديد والنحاس والزجاج ما لا يوصف، وساحلها أفضل السواحل وبها قصور الملوك القديمة، ولم يكن في بلاد الأندلس أكثر مالاً من أهلها ولا أعظم متاجر وذخائر، وكان بها من الحمامات والفنادق نحو الألف {cite:nafh-tib-maqqari p. 199}. وسقطت عنوة يوم الجمعة 17 جمادى الأولى سنة 542 {cite:nafh-tib-maqqari p. 466}."
+  en: "Almeria — the harbour city of al-Andalus with its impregnable citadel of Khayran built by al-Nasir; its silk looms outwove every land (800 for tiraz, a thousand each for brocade, esclaton and the rest), its district mined iron and marble, its baths and fondacos neared a thousand, and no Andalusi city held greater wealth or warehouses — until it fell by storm on Friday 17 Jumada I 542 {cite:nafh-tib-maqqari p. 198-199,466}."
+wings: [place]
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+relations:
+  - { type: located_in, target: place/al-andalus, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 198–199"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
