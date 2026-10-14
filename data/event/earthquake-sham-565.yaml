@@ -1,0 +1,18 @@
+id: event/earthquake-sham-565
+class: event
+kind: disaster-relief
+label: { ar: "الزلزلة العظمى بالشام سنة 565هـ" }
+summary:
+  ar: "في شوال سنة خمس وستين وخمس مئة كانت الزلزلة العظمى بالشام فوقع معظم دمشق وشرفات جامع بني أمية ووقع نصف قلعة حلب والباب وهلك من أهالي حماة ثمانون ألفاً ووقعت قلعة حصن الأكراد ولم يبق لسورها أثر {cite:shadharat-dhahab p. 696}."
+  en: "In Shawwal 565 the great earthquake struck Syria — most of Damascus and the Umayyad Mosque's porticoes fell, half Aleppo's citadel and its gate, eighty thousand of Hamah's people perished, and Hisn al-Akrad's castle collapsed leaving no trace of its wall {cite:shadharat-dhahab p. 696}."
+wings: [place, time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date: { start: { edtf: "1170-08~", hijri: "0565-10~", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال 565هـ {cite:shadharat-dhahab p. 696}", sources: [source/shadharat-dhahab] } }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-28
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
