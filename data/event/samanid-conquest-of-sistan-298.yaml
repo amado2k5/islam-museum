@@ -1,0 +1,23 @@
+id: event/samanid-conquest-of-sistan-298
+class: event
+kind: conquest
+label: { ar: "استيلاء السامانيين على سجستان" }
+summary:
+  ar: "في سنة 298هـ سار جيش الأمير أحمد بن إسماعيل الساماني إلى سجستان بقيادة الحسين بن علي المروروذي ومعه أحمد بن سهل ومحمد بن المظفر وسيمجور الدواتي، فحاصروا المعدل بن علي بن الليث آخر أمراء الصفاريين فصالحهم واستأمن لهم، وكان أحمد قد سار إلى أبي علي محمد بن علي بن الليث ببست فأخذه أسيراً، فاستولى السامانيون على سجستان واستعمل عليها أبا صالح منصور بن إسحاق، وحُمل المعدل وسبكري إلى بغداد مشهورين على فيلين {cite:kamil-ibn-al-athir p. 46-47}."
+  en: "In 298 the Samanid army under al-Husayn ibn Ali al-Marwazi besieged al-Mu'addal ibn al-Layth, last Saffarid amir of Sistan, into surrender; the province passed to Abu Salih Mansur ibn Ishaq and the captives were paraded into Baghdad on elephants {cite:kamil-ibn-al-athir p. 46-47}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0910~", hijri: "0298", calendar: julian, precision: year, status: tradition, derived: true, note: "رجب 298؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 46}." }
+relations:
+  - { type: had_participant, target: person/husayn-ibn-ali-al-marwazi, role: "قائد الجيش", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-muaddal-ibn-ali-ibn-al-layth, role: "آخر أمراء الصفاريين بسجستان", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/sijistan, sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-2
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
