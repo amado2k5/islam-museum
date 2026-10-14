@@ -1,22 +1,22 @@
 id: person/abd-al-razzaq-al-bitar
 class: person
-label: { ar: "عبد الرزاق البيطار", en: "Abd al-Razzaq al-Bitar" }
+label: { ar: "عبد الرزاق البيطار" }
 names:
-  - { kind: full, lang: ar, value: "عبد الرزاق بن حسن بن إبراهيم البيطار" }
+  - { kind: full, lang: ar, value: "عبد الرزاق بن حسن البيطار الميداني الدمشقي" }
 gender: male
-roles: [scholar, historian]
-traditions: [sunni]
-born: { edtf: "1837", hijri: "1253", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1916", hijri: "1335", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+roles: [scholar]
+born: { edtf: "1837", calendar: gregorian, precision: year, status: tradition, derived: true, note: "في المطبوع تاريخ مولده مشوش؛ الشائع ١٨٣٧م {cite:al-aalam tarjama}." }
+died: { edtf: "1917", calendar: gregorian, precision: year, status: tradition, derived: true, note: "ت ١٣٣٥هـ؛ التحويل مشتق {cite:al-aalam tarjama}." }
 summary:
-  ar: "العلامة المؤرخ المصلح الأديب، من أسرة البيطار المعروفة في دمشق."
-  en: "A scholar, historian, reformer and man of letters from the well-known Bitar family of Damascus."
+  ar: "عبد الرزاق بن حسن البيطار الميداني الدمشقي (ت ١٣٣٥هـ/١٩١٧م)؛ عالم بالدين ضليع في الأدب والتاريخ والموسيقى. مولده ووفاته في دمشق. حفظ القرآن في صباه ومهر في علومه وكان حسن الصوت وله نظم، واشتغل في الأدب مدة واقتصر في آخر أمره على علمي الكتاب والسنة، وكان من دعاة الإصلاح في الإسلام، وقوراً حسن المفاكهة طيب النفس. من كتبه «حلية البشر في تاريخ القرن الثالث عشر» ترجم فيه معاصريه {cite:al-aalam tarjama}."
+  en: "Abd al-Razzaq al-Bitar (d. 1335 AH/1917 CE) — Damascene reformist scholar and author of Hilyat al-Bashar, the biographical dictionary of the thirteenth century AH {cite:al-aalam tarjama}."
 wings: [people, words]
-themes: [history-writing-and-social-thought]
-periods: [period/colonial-era]
+periods: [period/modern-era]
 regions: [levant-iraq]
-story_roles:
-  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
-status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 300, lib-mawsuat-a3lam" }
-provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص300", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+sources: [source/al-aalam]
+provenance:
+  layer: own-research
+  source: "الأعلام للزركلي (ط2 القاهرة) ترجمة عبد الرزاق البيطار"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-alam-batch-2
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
