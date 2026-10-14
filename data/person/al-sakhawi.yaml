@@ -1,0 +1,20 @@
+id: person/al-sakhawi
+class: person
+label: { ar: "الحافظ شمس الدين السخاوي", en: "Shams al-Din al-Sakhawi" }
+summary:
+  ar: "الحافظ شمس الدين أبو الخير محمد بن عبد الرحمن السخاوي الأصل القاهري المولد الشراعي المذهب نزيل الحرمين، في شذرات الذهب ولد في ربيع الأول سنة إحدى وثلاثين وثمان مئة وحفظ القرآن وهو صغير وحفظ عمدة الأحكام والتنبيه والمنهاج وألفية ابن مالك وألفية العراقي والشاطبية والنخبة لابن حجر وكلما حفظ كتاباً عرضه على مشايخه وبرع في الفقه والعربية والقراءات والحديث والتاريخ وشارك في الفرائض والحساب والتفسير وأصول الفقه والميقات وأخذ عن جماعة يزيدون على أربع مئة نفس وأذن له غير واحد بالإفتاء والتدريس والإملاء وسمع الكثير على شيخه الحافظ ابن حجر العسقلاني ولازمه أشد الملازمة وحمل عنه ما لم يشاركه فيه غيره وقال عنه هو أمثل جماعتي وأذن له وكان يروي صحيح البخاري عن أزيد من مئة وعشرين نفساً ورحل إلى الآفاق وجاب البلاد ودخل حلب ودمشق وبيت المقدس واجتمع له من المرويات ما يفوق الوصف وكان بينه وبين النبي عشرة أنفس في الإسناد وحج وجاور مراراً وآخرها جاور المدينة إلى أن مات سنة اثنتين وتسع مئة وعمل الناس من أهل الحرمين والقادمين عليهما عنه شيئاً كثيراً ومن تصانيفه الجواهر والدرر في ترجمة شيخه ابن حجر وفتح المغيث بشرح ألفية الحديث والضوء اللامع لأهل القرن التاسع في عدة مجلدات ذكر فيه لنفسه ترجمة على عادة المحدثين والمقاصد الحسنة في الأحاديث الجارية على الألسنة وهو أجمع وأتقن من كتاب السيوطي المسمى بالجواهر المنتثرة وفي كل واحد منهما ما ليس في الآخر والقول البديع في الصلاة على الحبيب الشفيع وعمدة المحتج في حكم الشطرنج والإعلان بالتوبيخ على من ذم علم التاريخ وهو نفيس جداً والأصل الأصيل في تحريم النقل من التوراة والإنجيل وتحرير الميزان وعمدة القارئ والسامع في ختم الصحيح الجامع وغنية المحتاج في ختم صحيح مسلم وانتهى إليه علم الجرح والتعديل {cite:shadharat-dhahab p. 431-432}."
+  en: "Cairo's last great hadith master (831-902): Ibn Hajar's closest student — 'the best of my company' — a transmission chain of ten souls to the Prophet, over four hundred teachers, then a Medinan recluse composing al-Daw' al-Lami' for the ninth century and Fath al-Mughith, ending the era of jarh wa-ta'dil {cite:shadharat-dhahab p. 431-432}."
+gender: male
+wings: [people]
+periods: [period/mongol-post-mongol]
+born: { hijri: "0831-03", edtf: "1427/1428", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول 831؛ التحويل مشتق {cite:shadharat-dhahab p. 431}." }
+died: { hijri: "0902", edtf: "1497~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بالمدينة 902؛ التحويل مشتق {cite:shadharat-dhahab p. 431-432}." }
+relations:
+  - { type: student_of, target: person/ibn-hajar-al-asqalani, note: "أشد الملازمة، 'أمثل جماعتي'", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 431-432"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-74
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
