@@ -1,0 +1,21 @@
+id: event/killing-of-abu-firas-361
+class: event
+kind: death
+label: { ar: "قتل أبو فراس الحمداني" }
+summary:
+  ar: "في ربيع الآخر سنة 361هـ قتل أبو فراس الحمداني بصدد — قرية في طرف البادية عند حمص — بعد وحشة وقعت بينه وبين ابن أخته أبي المعالي بن سيف الدولة، فجمع هذا الأعراب من بني كلاب وأدركه قرغويه فاستأمن أصحاب أبي فراس واختلط بهم فأمر قرغويه غلاماً له بقتله فأخذ رأسه وتركت جثته حتى دفنها أعراب {cite:kamil-ibn-al-athir p. 433}."
+  en: "In Rabi II 361 the poet Abu Firas al-Hamdani was run down at Sadda by his nephew Abu'l-Ma'ali's Bedouins; his men bought safety, he stayed among them disguised, and a ghulam of Qarghuya took his head on the prince's order {cite:kamil-ibn-al-athir p. 433}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0972~", hijri: "0361-04", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الآخر 361 {cite:kamil-ibn-al-athir p. 433}." }
+relations:
+  - { type: had_participant, target: person/abu-firas-al-hamdani, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-13
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

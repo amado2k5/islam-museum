@@ -1,0 +1,22 @@
+id: event/death-of-muizz-al-dawla-356
+class: event
+kind: death
+label: { ar: "وفاة معز الدولة بن بويه" }
+summary:
+  ar: "في حادي عشر ربيع الآخر سنة 356هـ توفي معز الدولة بعلة الذرب وكان بواسط قد جهز الجيوش لمحاربة عمران بن شاهين فألمّ به الإسهال فسار نحو بغداد وخلف أصحابه على وعد بالعودة ثم اشتد مرضه فصار لا يثبت في معدته شيء فلما أحس بالموت عهد إلى ابنه عز الدولة بختيار وأظهر التوبة وتصدق بأكثر ماله وأعتق مماليكه، ودفن بباب التبن في مقابر قريش وكانت إمارته إحدى وعشرين سنة وأحد عشر شهراً ويومين، وكانت إحدى يديه مقطوعة واختُلف في سبب قطعها، وهو الذي أحدث أمر السُعاة ومنهم ساعي السنة وساعي الشيعة يسيران في اليوم أربعين فرسخاً تعصب الناس لهما وراهنوا عليهما {cite:kamil-ibn-al-athir p. 424-425}."
+  en: "On 11 Rabi II 356 Mu'izz al-Dawla died of dysentery contracted at Wasit marshalling the host against Umran ibn Shahin; on his deathbed he willed the amirate to his son Bakhtiyar, gave away most of his fortune, freed his mamluks and was buried at Bab al-Tibn in the Quraysh cemetery after twenty-one years' rule — the founder of the famous racing couriers, one sponsored by Sunnis and one by Shi'as {cite:kamil-ibn-al-athir p. 424-425}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0967-04-21~", hijri: "0356-04-11", calendar: julian, precision: day, status: tradition, derived: true, note: "حادي عشر ربيع الآخر 356؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 424}." }
+relations:
+  - { type: had_participant, target: person/muizz-al-dawla, role: "المتوفى", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/bakhtiyar-izz-al-dawla, role: "الوارث بالوصية", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-13
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
