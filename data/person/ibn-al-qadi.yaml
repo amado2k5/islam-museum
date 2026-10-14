@@ -1,0 +1,19 @@
+id: person/ibn-al-qadi
+class: person
+label: { ar: "ابن القاضي" }
+summary:
+  ar: "الشيخ الأديب شهاب الدين أحمد بن محمد المغربي المقري نزيل مصر، صاحب أزهار الرياض في أخبار عياض {cite:kashf-zunun-furqan p. 380}."
+  en: "Shihab al-Din Ahmad ibn Muhammad al-Maghribi al-Muqri — Ibn al-Qadi, resident in Egypt, author of Azhar al-Riyad fi Akhbar Iyad {cite:kashf-zunun-furqan p. 380}."
+gender: male
+wings: [people, words]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+relations:
+  - { type: authored, target: work/azhar-al-riyad, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 380 مدخل 771"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-15
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

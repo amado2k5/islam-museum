@@ -1,0 +1,20 @@
+id: person/al-wahidi
+class: person
+label: { ar: "الواحدي" }
+summary:
+  ar: "الشيخ الإمام أبو الحسن علي بن أحمد الواحدي المفسر المتوفى سنة ٤٦٨هـ؛ كتابه أسباب النزول أشهر ما صنف فيه، واختصره برهان الدين إبراهيم بن عمر الجعبري {cite:kashf-zunun-furqan p. 381}."
+  en: "Abu al-Hasan Ali ibn Ahmad al-Wahidi, d. AH 468 — the mufassir whose Asbab al-Nuzul is 'the most famous composed in the genre' {cite:kashf-zunun-furqan p. 381}."
+gender: male
+wings: [people, words]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died: { edtf: "1075~", hijri: "0468", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 468هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 381}." }
+relations:
+  - { type: authored, target: work/asbab-al-nuzul-wahidi, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 381 مدخل 807"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-15
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
