@@ -1,0 +1,13 @@
+id: place/sfax
+class: place
+kind: city
+label: { ar: "صفاقس", en: "Sfax" }
+summary:
+  ar: "مدينة على ساحل تونس، ذكرها ابن بطوطة في طريقه إلى طرابلس."
+regions: [maghreb]
+wings: [place]
+coordinates: [34.74056, 10.76028]
+coordinate_precision: locality
+external_ids: { geonames: "280566" }
+sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical place to be checked" }

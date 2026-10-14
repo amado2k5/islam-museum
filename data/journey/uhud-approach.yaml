@@ -1,0 +1,32 @@
+id: journey/uhud-approach
+class: journey
+label: { en: "The march from Medina to Uhud", ar: "درب الخروج إلى أحد" }
+summary:
+  en: "The Prophet's army leaves Medina by Thaniyyat al-Wada, reviews its men at al-Shaykhan, and marches before dawn to the foot of Uhud, where Ibn Ubayy turns back with a third of the force. Al-Raheeq gives the stopping points by name; the halting place at al-Shawt has no entity yet."
+  ar: "خرج جيش النبي من المدينة عبر ثنية الوداع، فاستعرض رجاله عند الشيخان، ثم سار قبيل الفجر حتى سفح أحد، وفي الطريق انسحب عبد الله بن أبي بثلث الجيش. يذكر الرحيق المواضع بأسمائها؛ وموضع الشوط لا يزال بلا مدخل في المتحف."
+kind: military_campaign
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/abdullah-ibn-ubayy]
+legs:
+  - from: place/medina
+    to: place/thaniyyat-al-wada
+    start: { edtf: "0625-03", hijri: "0003-10-06", calendar: julian, precision: month, status: tradition, note: "يوم الجمعة 6 شوال سنة 3هـ (الرحيق ص251-252)." }
+    mode: "مسير الجيش"
+    note: "بعد صلاة الجمعة والعصر وتكتيب الجيش وخروجه، تحرك الجيش نحو الشمال، وخرج السعدان أمام النبي؛ ثم جاوز ثنية الوداع (الرحيق ص252)."
+    sources: [source/mubarakpuri-raheeq]
+  - from: place/thaniyyat-al-wada
+    to: place/al-shaykhan
+    mode: "مسير الجيش"
+    note: "عند ثنية الوداع رأى كتيبة من يهود حلفاء الخزرج فأبى أن يستعين بغير المسلمين؛ ثم بلغ مقاماً يقال له الشيخان فاستعرض الجيش وردّ من استصغره، ثم بات هناك وأُقيم حرس المعسكر (الرحيق ص253). عن كتيبة اليهود يروي ابن سعد (2/34) بحسب الهامش."
+    sources: [source/mubarakpuri-raheeq, source/tabaqat-ibn-sad]
+  - from: place/al-shaykhan
+    to: place/uhud
+    mode: "مسير الجيش"
+    note: "أدلج قبيل الفجر حتى بلغ الشوط فصلى الفجر هناك، وانسحب عبد الله بن أبي بنحو ثلث الجيش (ثلاثمائة) فرجعوا؛ وبقي سبعمائة فسلك بهم طريقاً قصيراً يمرّ بحرة بني حارثة ومزارعهم، ومرّ بحائط مربع بن قيظي، ثم نزل شعب جبل أحد في عدوة الوادي مستقبلاً المدينة (الرحيق ص253-255). موضع الشوط وحرة بني حارثة لا مدخل لهما في data/place بعد."
+    sources: [source/mubarakpuri-raheeq]
+relations:
+  - { type: part_of, target: event/battle-of-uhud }
+  - { type: had_participant, target: person/abdullah-ibn-ubayy, role: "انسحب بثلث الجيش", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/tabaqat-ibn-sad]
+status: { review: draft, completeness: 2, generated_by: "Claude; drafted from al-Raheeq al-Makhtum pp. 248-256" }

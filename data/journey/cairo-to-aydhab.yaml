@@ -1,0 +1,15 @@
+id: journey/cairo-to-aydhab
+class: journey
+kind: pilgrimage_route
+label: { ar: "من القاهرة إلى عيذاب على درب الصعيد", en: "Cairo to Aydhab by the Upper Egypt road" }
+summary:
+  ar: "طريق ابن بطوطة من القاهرة إلى عيذاب على البحر الأحمر في سفره إلى الحجاز، عبر الصعيد: بوش ومنية القائد ومنلوى ومنفلوط وأخميم والأقصر وأرمنت وأسنا وأدفو، ثم المطوانى وحميثرا، ثم خمسة عشر يوماً من حميثرا إلى عيذاب. يذكر الكتاب المحطات بأسمائها مع ما يلقاه فيها."
+wings: [time, place, people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, arabia]
+travelers: [person/ibn-battuta-muhammad]
+legs:
+  - { from: place/cairo, to: place/aydhab, mode: "على ظهر الدواب والجمال", note: "خرج من القاهرة على طريق الصعيد برسم الحجاز، وبات ليلة الخروج بالرباط الذي بناه الصاحب تاج الدين بن حنا بدير الطين، ثم مرّ بمنية القائد وبوش (ص26–27). من الصعيد: منلوى ومنفلوط وأخميم (ص28–29)، ثم الأقصر وأرمنت وأسنا وأدفو، فالمطوانى حيث اكترى الجمال وسافر مع طائفة من العرب (ص30). في حميثرا زار قبر أبي الحسن الشاذلي (ص30)، ومن حميثرا خمسة عشر يوماً حتى عيذاب (ص30–31)؛ ولا يذكر الكتاب التواريخ اليومية لكل منزل.", sources: [source/rihla-ibn-battuta-1958] }
+sources: [source/rihla-ibn-battuta-1958]
+provenance: { layer: own-research, source: "Rihla of Ibn Battuta, Arabic edition 1958, pp. 26–31 (printed numbering)", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-battuta" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Battuta pp. 26–31 (printed numbering)" }

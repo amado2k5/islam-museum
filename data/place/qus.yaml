@@ -1,0 +1,13 @@
+id: place/qus
+class: place
+kind: city
+label: { ar: "قوص", en: "Qus" }
+summary:
+  ar: "مدينة في صعيد مصر على ضفة النيل، على طريق القوافل إلى عيذاب، ذكرها ابن بطوطة وابن جبير في طريقهما إلى الحجاز."
+regions: [egypt-nile]
+wings: [place]
+coordinates: [25.91544, 32.76287]
+coordinate_precision: locality
+external_ids: { geonames: "350422" }
+sources: [source/geonames-gazetteer, source/rihla-ibn-battuta-1958]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical place to be checked" }

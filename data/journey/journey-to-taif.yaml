@@ -1,0 +1,73 @@
+id: journey/journey-to-taif
+class: journey
+kind: travel
+label: { ar: "درب الطائف" }
+summary:
+  ar: "مسير النبي ماشياً من مكة إلى الطائف في شوال سنة 10 من النبوة، ومعه زيد بن حارثة؛ ثم إقامته بالطائف عشرة أيام، وعودته عن طريق وادي نخلة إلى مكة في جوار المطعم بن عدي. لا تُذكر هنا إلا المواضع التي سمّاها الرحيق ولها مدخل في المعجم، ولا يذكر الرحيق أيام السير."
+regions: [arabia]
+periods: [period/prophetic-era]
+wings: [time, place, people]
+travelers: [person/muhammad, person/zayd-ibn-haritha]
+legs:
+  - from: place/mecca
+    to: place/taif
+    start: { edtf: "0619-05~", calendar: julian, precision: month, status: tradition, note: "شوال سنة 10 من النبوة؛ الموافقة الميلادية تقدير الرحيق (ص125)." }
+    mode: "سيراً على الأقدام"
+    events: [event/journey-to-taif]
+    note: "نحو ستين ميلاً ماشياً، ومعه زيد بن حارثة، يدعو كل قبيلة يمر بها فلا تجيبه واحدة (الرحيق ص125)."
+  - from: place/taif
+    to: place/taif
+    mode: "إقامة"
+    note: "أقام عشرة أيام يلقى أشراف ثقيف، فردّوه جميعاً؛ ثم لما خرج أغروا به سفهاءهم وعبيدهم فرجموه حتى اختضبت نعلاه بالدم، ويقيه زيد بنفسه حتى شُجّ رأسه (الرحيق ص125)."
+  - from: place/taif
+    to: place/wadi-nakhla
+    mode: "لم يذكر النص وسيلة السفر"
+    note: "انتهى الرجم به إلى حائط لعتبة وشيبة ابني ربيعة على ثلاثة أميال من الطائف؛ فدعا تحت ظل حبلة عنب، فأرسل ابنا ربيعة إليه بعنب مع غلامهما عداس الذي أسلم. ثم رجع في طريق مكة، فبلغ قرن المنازل فعرض عليه ملك الجبال أن يطبق الأخشبين فأبى، ثم وصل وادي نخلة (الرحيق ص125-127؛ البخاري بدء الخلق)."
+    sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+  - from: place/wadi-nakhla
+    to: place/mecca
+    mode: "لم يذكر النص وسيلة السفر"
+    note: "أقام بوادي نخلة أياماً، فاستمع إليه نفر من الجن وآمنوا (الأحقاف 29-31، الجن 1؛ الرحيق ص127-128). ثم دنا من مكة، فأجاره المطعم بن عدي، فدخل المسجد الحرام وصلى ركعتين (الرحيق ص128-129؛ ابن هشام)."
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+waypoints:
+  - place: place/mecca
+    day: 1
+    day_status: debated
+    day_note: "لا يحدد الرحيق يوم الخروج من شوال؛ الأرقام هنا ترتيب نسبي للمحطات."
+    date: { edtf: "0619-05~", calendar: julian, precision: month, status: tradition, note: "شوال سنة 10 من النبوة (الرحيق ص125)." }
+    title: { ar: "الخروج من مكة بعد عام الحزن" }
+    narrative:
+      ar: "بعد وفاة أبي طالب ثم خديجة في السنة العاشرة اشتدّ أذى قريش على النبي، فخرج إلى الطائف يرجو أن يجيبوه أو يؤوه وينصروه على قومه، فلم يجد من يؤويه ولا من ينصره (الرحيق ص117). وخرج ماشياً ومعه مولاه زيد بن حارثة (ص125)."
+    events: [event/year-of-sorrow]
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/taif
+    day: 2
+    day_status: debated
+    day_note: "لا يحدد الرحيق يوم الوصول؛ الرقم ترتيب نسبي، والإقامة عشرة أيام."
+    title: { ar: "الطائف: الإخوة الثلاثة وعشرة أيام من الرد" }
+    narrative:
+      ar: "قصد النبي ثلاثة إخوة من رؤساء ثقيف: عبد ياليل ومسعود وحبيب أبناء عمرو بن عمير؛ فعرض عليهم الإسلام والنصرة، فردّ كل واحد منهم ردّاً يقطع الطريق على الحجة، وقال أحدهم إنه لو كان رسولاً فهو أعظم خطراً من أن يُرَدّ عليه الكلام. ثم أقام عشرة أيام يلقى أشرافهم، فردّوه جميعاً وأغروا به السفهاء (الرحيق ص125)."
+    events: [event/journey-to-taif]
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  - place: place/wadi-nakhla
+    day: 12
+    day_status: debated
+    day_note: "بعد عشرة أيام الإقامة بالطائف؛ لا يحدد الرحيق مدة السير والإقامة في الطريق."
+    title: { ar: "وادي نخلة: نفر من الجن يستمعون القرآن" }
+    narrative:
+      ar: "أقام النبي بوادي نخلة أياماً، فصرف الله إليه نفراً من الجن استمعوا القرآن ثم رجعوا إلى قومهم منذرين، ولم يكن النبي يعلم بحضورهم حتى أخبره الله بذلك بالآيات (الأحقاف 29-31، الجن 1؛ الرحيق ص127-128)."
+    sources: [source/mubarakpuri-raheeq]
+  - place: place/mecca
+    day: 14
+    day_status: debated
+    day_note: "لا يحدد الرحيق عدد الأيام بين نخلة ومكة."
+    title: { ar: "العودة إلى مكة في جوار المطعم بن عدي" }
+    narrative:
+      ar: "لما دنا من مكة أرسل إلى المطعم بن عدي يطلب جواره، فأجاره، فأعلن المطعم أمام قريش أنه قد أجار محمداً فلا يهجه أحد؛ فدخل المسجد الحرام واستلم الركن وصلى ركعتين، ثم انصرف إلى بيته وأبناء المطعم وقومه بالسلاح حوله حتى دخل (الرحيق ص128-129)."
+    sources: [source/mubarakpuri-raheeq]
+relations:
+  - { type: part_of, target: event/journey-to-taif }
+  - { type: had_participant, target: person/muhammad, role: "المسافر", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "رفيقه، وقاه بنفسه في الرجم", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5; al-Raheeq al-Makhtum pp. 109-129 (OCR)" }

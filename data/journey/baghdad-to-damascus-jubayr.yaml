@@ -1,0 +1,67 @@
+id: journey/baghdad-to-damascus-jubayr
+class: journey
+kind: travel
+label: { ar: "من بغداد إلى دمشق شمالاً ثم غرباً على طريق ابن جبير" }
+summary:
+  ar: "مرحلة من رحلة ابن جبير سنة 580: خرج من بغداد إلى الموصل في صفر، ثم سار إلى نصيبين فدنيسر ورأس العين، ومنها غرباً عبر الفرات إلى منبج وحلب وحماة وحمص، ووصل دمشق في ربيع الأول. المسار مكتوب في النص بالأيام والتواريخ الهجرية، وبعض المواضع وردت فيه بأسماء قد لا تطابق أسماء المدن اليوم. لا يتضمن هذا الملف الطريق من دمشق إلى عكا لأن المقطع الذي قُرئ لم يصف مساراً مرتباً بينهما."
+wings: [time, place, people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+travelers: [person/ibn-jubayr-muhammad]
+legs:
+  - from: place/baghdad
+    to: place/mosul
+    start: { hijri: "0580-02-15", precision: day, status: historical, note: "يوم الاثنين الخامس عشر من صفر سنة ثمانين وخمسمائة، بعد صلاة العصر (ص192)" }
+    end: { hijri: "0580-02-23", precision: day, status: historical, note: "عند ارتفاع النهار من يوم الثلاثاء الثالث والعشرين من صفر (ص188)" }
+    mode: "على الدواب في قافلة"
+    note: "أقام ابن جبير في بغداد ثلاثة عشر يوماً قبل الرحيل (ص192)، وسار مع قافلة فيها الخاتونان، على الجانب الغربي من بغداد (ص192). مرّ بسامراء ثم تكريت وقيّارة على دجلة (ص190، ص189)، ثم وصل الموصل (ص188). النص يذكر أيام المراحل بالترتيب، وهو يكتب الصفحات في هذا الجزء بترتيب معكوس."
+    sources: [source/rihla-ibn-jubayr-1907]
+  - from: place/mosul
+    to: place/nasibin
+    start: { hijri: "0580-02-26", precision: day, status: historical, note: "يوم الجمعة السادس والعشرين من صفر (ص184)" }
+    end: { hijri: "0580-03-01", precision: day, status: historical, note: "ليلة الثلاثاء أول ربيع الأول سنة ثمانين وخمسمائة (ص184)" }
+    mode: "على دواب اشتُريت بالموصل، في قافلة من الجمّالة"
+    note: "أقام في الموصل أربعة أيام قبل الرحيل (ص184، ص185)، وبات ليلة الجمعة عند رباط يونس قرب تلّ التوبة (ص186). ثم مرّ بقرية الكلاسي ونزل بها قرب نصيبين (ص184). يذكر النص عند هذه المرحلة أن قطّاع الطريق يعرضون القوافل بين الموصل ونصيبين ودنيسر، فجاءت المرحلة بحذر (ص182). ويعارض ص182–183 تاريخ نصيبين فيه بالأيام (الثلاثاء والأربعاء من ربيع الأول)، فالتاريخ هنا مأخوذ من ص184 وحده."
+    sources: [source/rihla-ibn-jubayr-1907]
+  - from: place/nasibin
+    to: place/ras-al-ayn
+    end: { hijri: "0580-03-05", precision: day, status: historical, note: "قبيل الظهر من يوم السبت الخامس من ربيع الأول (ص180)" }
+    mode: "على الدواب في قافلة"
+    note: "من نصيبين وصل إلى دنيسر (تأتي في النص بصورة مشوّهة قريبة من «تنيصر»)، وأقام بها إلى صلاة الجمعة من اليوم الرابع من ربيع الأول (ص181)، ثم رحل بعد الصلاة فمرّ بتلّ العقاب والجسر، ووصل رأس العين (ص180). تاريخ الرحيل من نصيبين غير مذكور، والمحطة الوسطى «دنيسر» لا ملف مكان لها بعد."
+    sources: [source/rihla-ibn-jubayr-1907]
+  - from: place/ras-al-ayn
+    to: place/manbij
+    end: { hijri: "0580-03-11", precision: day, status: historical, note: "مع الصباح من يوم الجمعة الحادي عشر من ربيع الأول (ص176)" }
+    mode: "على الدواب، وعبر الفرات بزوارق"
+    note: "من رأس العين وصف المدينة (ص178–179)، ثم سار نحو حرّان فالفرات، فوصل شاطئ الفرات حيث بقي القافلة تعبر بالزوارق، وأقام بموضع من الشط يوم الخميس العاشر من ربيع الأول (ص176). مرّ بالرقة عن يساره ورحبة مالك عن يمينه، ثم وصل منبج صباح الجمعة (ص176). التواريخ هنا متقاربة جداً مع المسافة، فالأيام تحتاج إلى مراجعة."
+    sources: [source/rihla-ibn-jubayr-1907]
+  - from: place/manbij
+    to: place/aleppo
+    start: { hijri: "0580-03-11", precision: day, status: historical, note: "الجمعة الحادي عشر من ربيع الأول (ص176)" }
+    end: { hijri: "0580-03-13", precision: day, status: historical, note: "ضحوة يوم الأحد الثالث عشر من ربيع الأول (ص174)" }
+    mode: "على الدواب في قافلة"
+    note: "من منبج وصل بُزاعة ضحوة يوم السبت الثاني عشر من ربيع الأول، وأقام بها يوماً (ص175، ص174). ثم مرّ بقرية كبيرة تُعرف بالباب بين بُزاعة وحلب (ص175)، ووصل حلب ضحوة يوم الأحد الثالث عشر (ص174)."
+    sources: [source/rihla-ibn-jubayr-1907]
+  - from: place/aleppo
+    to: place/hama
+    end: { hijri: "0580-03-19", precision: day, status: historical, note: "الضحى الأعلى من يوم السبت التاسع عشر من ربيع الأول (ص169، ص170)" }
+    mode: "على الدواب في قافلة"
+    note: "بعد إقامة في حلب، رحل ضحوة يوم الخميس السابع عشر من ربيع الأول فوصل قنسرين قبيل العصر (ص170). ثم نزل بباقدين في خان كبير، ورحل منها فجر السبت التاسع عشر، ووصل حماة في الضحى الأعلى (ص170، ص169). ترتيب الأيام بين حلب ومنبج وحلب وحماة ليس موضحاً بالكامل في الصفحات التي قُرئت، فيُراجع قبل الاعتماد."
+    sources: [source/rihla-ibn-jubayr-1907]
+  - from: place/hama
+    to: place/homs
+    start: { hijri: "0580-03-19", precision: day, status: historical, note: "عشي يوم السبت التاسع عشر من ربيع الأول (ص167)" }
+    end: { hijri: "0580-03-20", precision: day, status: historical, note: "مع شروق الشمس من يوم الأحد العشرين من ربيع الأول (ص167)" }
+    mode: "على الدواب، وعبر العاصي على جسر حجري"
+    note: "أقام في حماة إلى عشي يوم السبت، ثم سار ليلاً وعبر العاصي على جسر كبير معقود من الحجارة قرب رستن، ووصل حمص عند شروق الشمس من الأحد (ص167)."
+    sources: [source/rihla-ibn-jubayr-1907]
+  - from: place/homs
+    to: place/damascus
+    start: { hijri: "0580-03-21", precision: day, status: historical, note: "إلى أول الظهر من يوم الاثنين الحادي والعشرين من ربيع الأول (ص165)" }
+    end: { hijri: "0580-03-24", precision: day, status: historical, note: "في الضحى الأعلى من يوم الخميس الرابع والعشرين من ربيع الأول (ص164)" }
+    mode: "على الدواب في قافلة"
+    note: "رحل من حمص أول الظهر من الاثنين، فمرّ بقرية خربة تعرف بالمشعر، ثم بالقارة وفيها خان كبير وصهريج، ثم بالنبك، ووصل خان السلطان الذي بناه صلاح الدين (ص165)، ثم جاز ثنية العقاب فأشرف على بسيط دمشق وغوطتها، ونزل بالقصير (ص164)، ووصل دمشق يوم الخميس الرابع والعشرين من ربيع الأول (ص164). ذكر أن من ثنية العقاب طريقاً آخر يأخذ شرقاً على السماوة إلى العراق لا يُسلك إلا في الشتاء (ص164)."
+    sources: [source/rihla-ibn-jubayr-1907]
+sources: [source/rihla-ibn-jubayr-1907]
+provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 164–192 (Iraq, Jazira, Syria; scan numbering)", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr-baghdad-damascus" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Jubayr scan pp. 164–192 (scan numbering); the Damascus-to-Acre road is not drafted; the day sequence between Ras al-Ayn, Manbij and Aleppo and the Nisibin dates in pp. 182–184 need review" }
