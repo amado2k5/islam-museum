@@ -526,3 +526,18 @@ html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
 .search-wrap[data-empty="1"] .pagefind-ui__search-clear { display: none; }
 .search-hint { margin: 10px 0 0; }
 .search-wrap:not([data-empty="1"]) .search-hint { display: none; }
+
+/* Breakpoint scale: 480 (small phones), 720 (large phones), 1024 (tablet landscape, small laptop), 1440 (large desktop). */
+@media (max-width: 480px) {
+  .xgrid, .duo, .band-grid, .paths, .wings, .fcols, .jp-grid, .gx, .rv-row, .dual { grid-template-columns: 1fr; }
+  .xcard { grid-template-columns: 96px 1fr; }
+  button, .chip { min-height: 44px; min-width: 44px; }
+  svg, canvas { max-width: 100%; height: auto; }
+}
+@media (min-width: 721px) and (max-width: 1024px) {
+  .wings, .paths { grid-template-columns: repeat(3, 1fr); }
+  .wrap { padding-inline: 24px; }
+}
+@media (min-width: 1440px) {
+  .wrap { max-width: 1240px; }
+}
