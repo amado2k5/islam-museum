@@ -1,0 +1,20 @@
+id: person/al-ajurri
+class: person
+label: { ar: "الآجري" }
+summary:
+  ar: "أبو بكر محمد بن الحسين الآجري المتوفى سنة ٣٦٠هـ؛ صاحب أخبار عمر بن عبد العزيز {cite:kashf-zunun-furqan p. 251}."
+  en: "Abu Bakr Muhammad ibn al-Husayn al-Ajurri, d. AH 360 — author of Akhbar 'Umar ibn 'Abd al-'Aziz {cite:kashf-zunun-furqan p. 251}."
+gender: male
+wings: [people, words]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+died: { edtf: "0970~", hijri: "0360", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 360هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 251}." }
+relations:
+  - { type: authored, target: work/akhbar-umar-ibn-abd-al-aziz, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 251 مدخل 243"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-12
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
