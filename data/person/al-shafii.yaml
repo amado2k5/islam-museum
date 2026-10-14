@@ -12,5 +12,7 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 518–549"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-29
-sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab]
+relations:
+  - { type: authored, target: work/ikhtilaf-al-hadith-shafii, sources: [source/kashf-zunun-furqan] }
+sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
