@@ -11,3 +11,5 @@ Cite `{cite:tarikh-ibn-khaldun-ibar p. N}`. Priority: Kitab III Maghreb/Berber s
 
 ## Progress
 - Setup: source record + lane doc.
+- Batches 1–14 pushed (Kitab III set-pieces): Idrisid/Awraba, Kutama, Zirids & Algiers, Almoravid ribat, Ibn Tumart, Aghlabid collapse & Raqqada 296, al-Mahdi's Sijilmasa rescue, Abu Yazid revolt, al-Mu'izz b. Badis & the Kairouan Shii massacre 407, Roger's Norman capture of Mahdiyya 543, Marinid 100-month siege of Tlemcen & Mansura, Almanzor's 52 campaigns, Badajoz/Ibn al-Aftas, al-Uqab 609, Nasrid founding 635, Baghdad 656, Ibn al-Khatib's murder (Ibn Khaldun eyewitness).
+- Remaining yield: Hafsid/Marinid mid-era registers (pp. 1700-2050), early conquest annals (overlap with Futuḥ/Kamil lanes — deprioritised), index-region fragments. Lane parked; set-pieces exhausted for this pass.
