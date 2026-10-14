@@ -1,0 +1,21 @@
+id: event/abbasid-investiture-ibn-hud
+class: event
+kind: other
+label: { ar: "الخلع العباسية على ابن هود" }
+summary:
+  ar: "لما ثار ابن هود على الموحدين واستولى على الأندلس دعا إلى الخليفة العباسي الذي كان أكثر الملوك في ذلك الزمان يدينون بطاعته، فوصله الكتاب العباسي الكريم من بغداد بولاية الأندلس، فهنأه أبو المطرف قاضي شاطبة بكتاب فيه أن الخلع العباسية ثارت فيه في أعلى الصور وبرز منها للعيون ما يعثر البليغ عند وصفه، وأن يوم ذلك بالأندلس أشبه يوم خرجت الرايات السود من خراسان، وأن البردة التي باشرها باشرت البدن الذي طاب حياً وميتاً فهو علو في الإسناد لا نظير له في العوالي، وانتهى إلى أن الدولة العباسية خُطب لها ببلاد الأندلس {cite:nafh-tib-maqqari p. 319-321}."
+  en: "Ibn Hud, having risen against the Almohads and taken al-Andalus, proclaimed the Abbasid caliph; the investiture document and black robes arrived from Baghdad, and the qadi Abu l-Mutarrif congratulated him that its day resembled the day the black banners came out of Khurasan — the Abbasid da'wa preached once more in al-Andalus {cite:nafh-tib-maqqari p. 319-321}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, levant-iraq]
+date:
+  start: { edtf: "1228~", hijri: "0626~", calendar: julian, precision: year, status: tradition, derived: true, note: "في سياق ثورة ابن هود على الموحدين (نحو 626)؛ التحويل مشتق {cite:nafh-tib-maqqari p. 319-321}." }
+relations:
+  - { type: had_participant, target: person/ibn-hud-al-judhami, role: "المستولي على الأندلس المتلقب بالخلع", sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 319–321"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-54
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
