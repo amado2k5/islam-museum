@@ -1,0 +1,22 @@
+id: person/al-jahiz-amr-ibn-bahr
+class: person
+label: { ar: "الجاحظ عمرو بن بحر", en: "Al-Jahiz, Amr ibn Bahr" }
+names:
+  - { kind: full, lang: ar, value: "أبو عثمان عمرو بن بحر بن محبوب الكناني الليثي الجاحظ" }
+gender: male
+roles: [writer, scholar]
+traditions: [sunni]
+born: { edtf: "0767~", hijri: "0150", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0869", hijri: "0255", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أديب وعالم موسوعي من البصرة، ساهم في إشاعة المعارف العامة، وصنّف كتاب «الحيوان» و«البيان والتبيين»."
+  en: "A man of letters and encyclopaedic scholar from Basra, who helped spread general knowledge. His works include al-Hayawan and al-Bayan wa-l-Tabyin."
+wings: [people, words]
+themes: [literature, history-writing-and-social-thought]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 24, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص24", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

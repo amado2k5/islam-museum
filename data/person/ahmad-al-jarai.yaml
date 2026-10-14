@@ -1,0 +1,21 @@
+id: person/ahmad-al-jarai
+class: person
+label: { ar: "الجراوي أحمد بن عبد السلام", en: "Al-Jara'i, Ahmad ibn Abd al-Salam" }
+names:
+  - { kind: full, lang: ar, value: "أبو العباس أحمد بن عبد السلام الجراوي" }
+gender: male
+roles: [poet, scholar]
+traditions: [sunni]
+died: { edtf: "1212", hijri: "0609", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أهل جراوة بالمغرب، اشتهر بالشعر والعلم."
+  en: "From Jarawa in the Maghrib, known for poetry and learning."
+wings: [people, words]
+themes: [literature]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 172, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص172", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

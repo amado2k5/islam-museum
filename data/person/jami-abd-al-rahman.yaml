@@ -1,0 +1,22 @@
+id: person/jami-abd-al-rahman
+class: person
+label: { ar: "الجامي عبد الرحمن بن أحمد", en: "Jami, Abd al-Rahman ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن بن أحمد بن محمد الجامي، أبو البركات نور الدين" }
+gender: male
+roles: [poet, mystic]
+traditions: [sunni]
+born: { edtf: "1414", hijri: "0817", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1492", hijri: "0898", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شاعر فارسي وصوفي من جام، نُسب إليها، وصنّف في الشعر والتصوف."
+  en: "A Persian poet and Sufi from Jam, named after the town. He wrote on poetry and Sufism."
+wings: [people, words]
+themes: [literature, spirituality-and-sufism]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 56, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص56", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

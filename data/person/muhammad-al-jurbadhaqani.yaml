@@ -1,0 +1,22 @@
+id: person/muhammad-al-jurbadhaqani
+class: person
+label: { ar: "محمد بن الحسن الجربذقاني", en: "Muhammad ibn al-Hasan al-Jurbadhaqani" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن الحسن بن محمد الجربذقاني أبو عبد الله" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+born: { edtf: "0933", hijri: "0321", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0990", hijri: "0382", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "لغوي وأديب وفقيه شافعي، ولد في جربذقان."
+  en: "A philologist, man of letters and Shafi'i jurist, born in Jurbadhaqan."
+wings: [people, words]
+themes: [linguistics, development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 175, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص175", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
