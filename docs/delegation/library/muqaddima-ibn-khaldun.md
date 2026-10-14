@@ -10,3 +10,4 @@ Same as lib-muruj-dhahab: read page ranges, reuse entities, create concepts (thi
 
 ## Progress
 - Setup: text layer dumped to workspace (653 pp, ~2074 chars/page avg, 5 empty pages).
+- DONE (17 batches, 13562-entity graph, 0 errors): methodology & history-epistemology (pp. 22-48); ijtima/umran; plenty-vs-hunger; faculty psychology & three soul classes; unseen-perception taxonomy (kahana ranking); badawa/hadara & asabiyya (pp. 114-150 incl. Arab-kingship-needs-religion, conqueror-imitation); five stages of the state; three-generation lifespan (~120 yr + genealogy rule); Circle of Power (p. 44-45); zulm-mukharrib-al-umran; hadara as umran's end (naranj oracle); refutation of philosophy (pp. 548-549); malakat al-lugha + Ibn al-Nahwi anecdote; poetry-as-diwan history; colophon (5-month draft ending mid-779 AH, later revised into Kitab al-Ibar). Pages ~620-651 = verse anthology (low yield, skimmed). Khatima recorded.
