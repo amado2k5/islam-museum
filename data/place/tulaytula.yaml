@@ -1,18 +1,22 @@
 id: place/tulaytula
 class: place
 kind: city
-label: { ar: "طليطلة" }
+aliases: [place/toledo]
+label: { ar: "طليطلة", en: "Toledo" }
 summary:
-  ar: "عند البلاذري: مدينة مملكة الأندلس وهي مما يلي فرنجة افتتحها طارق بن زياد وأصاب بها مائدة عظيمة أهداها موسى بن نصير إلى الوليد بن عبد الملك بدمشق حين قفل سنة ست وتسعين."
-  en: "In al-Baladhuri: the kingdom-city of al-Andalus on the Franks' side; Tariq ibn Ziyad opened it and seized there a great table which Musa ibn Nusayr presented to al-Walid ibn Abd al-Malik at Damascus on his return in year 96."
+  ar: "مدينة مملكة القوط بالأندلس على نهر تاجة؛ عند البلاذري افتتحها طارق بن زياد وأصاب بها مائدة عظيمة أهداها موسى بن نصير إلى الوليد بن عبد الملك بدمشق سنة 96هـ، وبقيت بيد المسلمين حتى سقطت سنة 478هـ وصارت لاحقاً مركزاً للترجمة عن العربية. وروى المقري عن ابن خلكان أن ملوك اليونان اتفقوا فجعلوا طلسمات في تابوت من الرخام وتركوه في بيت بطليطلة وركبوا على بابه قفلاً يزيد عليه كل ملك قفلاً حتى بلغت ستة وعشرين قفلاً، فلما ملك لذريق وهو السابع والعشرون فتح البيت فلم يجد فيه سوى رق وصور فرسان على أشكال العرب معتممين متقلدين السيوف، وفي الرق أن من فتح هذا البيت دخل القوم المصورون إلى جزيرة الأندلس وذهب ملك من فيها من أيديهم، فلم يلبث إلا قليلاً حتى سمع أن جيشاً وصل من المشرق ليفتح الأندلس {cite:nafh-tib-maqqari p. 283-284}."
+  en: "Toledo, the Gothic capital of al-Andalus on the Tagus; Tariq ibn Ziyad took it and seized there the great table Musa ibn Nusayr presented to al-Walid at Damascus in 96. Ibn Khallikan's famous tale: each Gothic king added a lock to a sealed house until Roderic, the twenty-seventh, opened it and found only a scroll and painted Arab horsemen, prophesying that whoever opened it would see those pictured men enter al-Andalus {cite:nafh-tib-maqqari p. 283-284}."
 wings: [place]
 regions: [andalus-europe]
+coordinates: [39.8581, -4.0226]
+coordinate_precision: site
+external_ids: { geonames: "2510409", pleiades: "266066" }
 relations:
-  - { type: located_in, target: place/al-andalus, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: located_in, target: place/al-andalus, sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer, source/nafh-tib-maqqari] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 323"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-22
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/geonames-gazetteer, source/nafh-tib-maqqari]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
