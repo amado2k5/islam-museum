@@ -13,3 +13,9 @@ As lib-kamil/lib-fihrist: cite `{cite:ansab-al-ashraf p. N}`; create `source/ans
 
 ## Progress
 - Setup: lane doc created; vol. 1 chapters mapped (mustad'afin ~line 4713, Mi'raj 7655, mawali 14165, spoils 15581, Fawatim/Mawatik 16106, wells 16189).
+
+## Progress (cont.)
+- Vol. 1 mined: Fawatim/Awatik grandmothers, the Prophet's wells (Ruma, Ghars, Bir Anas, Yasira), envoys-to-kings year 7, Hashim–Umayya munafara, Irashi vs Abu Jahl, Tasm–Jadis destruction, Berber etymology, Jurhum plague.
+- Vol. 12 mined: ayyam set-pieces — al-Haba'a (Dahis/Ghabra' spark), Rahrahan, Sha'b Jabala (Laqit + Dukhtanus elegy); Hudhayfa b. Badr, Zuhayr b. Judhayma, al-Harith b. Zalim, al-Ahwas, Ma'bad, Laqit, Shurayh, Dukhtanus created.
+- 0132796_202003 and 1_20211128 are identical scans of Jummal vol — same coverage as vol-1 chapters; vol-12 remainder is dense tribal nasab (thin event yield).
+- Lane paused — moving to al-Muntazam (258–349 AH overlap with Kamil coverage).
