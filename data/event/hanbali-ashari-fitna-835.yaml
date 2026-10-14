@@ -1,0 +1,21 @@
+id: event/hanbali-ashari-fitna-835
+class: event
+kind: schism
+label: { ar: "فتنة الحنابلة والأشاعرة بدمشق 835هـ", en: "The Hanbali-Ash'ari Fitna at Damascus, 835" }
+summary:
+  ar: "في شذرات الذهب عن ابن حجر سنة خمس وثلاثين وثمان مئة ثارت فتنة عظيمة بين الحنابلة والأشاعرة بدمشق وتعصب الشيخ علاء الدين البخاري نزيل دمشق على الحنابلة وبالغ في الحط على ابن تيمية وصرح بتكفيره فتعصب جماعة من الدماشقة لابن تيمية وصنف الحافظ شمس الدين بن ناصر الدين جزءاً في فضل ابن تيمية وسرد أسماء من أثنى عليه وعظمه من أهل عصره فمن بعدهم على حروف المعجم مبيناً لكلامهم وأرسله إلى القاهرة فكتب عليه غالب المصريين التصويب وخالفوا علاء الدين البخاري في إطلاق القول بتكفيره وتكفير من أطلق عليه أنه شيخ الإسلام وخرج مرسوم السلطان بأن كل أحد لا يعترض على مذهب غيره ومن أظهر شيئاً مجمعاً عليه سُمع منه وسكن الأمر {cite:shadharat-dhahab p. 222-223}."
+  en: "835: a great fitna flared at Damascus between Hanbalis and Ash'aris — Ala' al-Din al-Bukhari openly declared takfir of Ibn Taymiyya; Damascenes rallied to him; Ibn Nasir al-Din composed a fascicle of his praisers which Cairo's scholars endorsed; and a sultanic decree forbade impugning another's madhhab until the matter subsided {cite:shadharat-dhahab p. 222-223}."
+wings: [time, ideas]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1431/1432", hijri: "0835", calendar: julian, precision: year, status: tradition, derived: true, note: "835؛ التحويل مشتق {cite:shadharat-dhahab p. 222}." }
+relations:
+  - { type: had_participant, target: person/ibn-taymiyya, role: "موضوع النزاع", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد ص 222-223"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-81
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
