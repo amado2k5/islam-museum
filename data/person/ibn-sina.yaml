@@ -30,6 +30,7 @@ relations:
   - { type: student_of, target: person/abu-abdallah-al-natili, sources: [source/gohlman-1974] }
   - { type: authored, target: work/al-qanun-fi-al-tibb }
   - { type: authored, target: work/kitab-al-shifa }
+  - { type: authored, target: work/al-isharat-wal-tanbihat, sources: [source/kashf-zunun-furqan] }
   - { type: patronized_by, target: person/ala-al-dawla-muhammad, start: { edtf: "1024~" } }
   - { type: influenced_by, target: person/al-farabi }
   - { type: influenced_by, target: person/aristotle }
