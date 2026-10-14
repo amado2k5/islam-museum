@@ -1,0 +1,22 @@
+id: work/maqamat-badi-al-zaman
+class: work
+kind: book
+label: { ar: "مقامات بديع الزمان" }
+summary:
+  ar: "مقامات بديع الزمان الهمذاني المشهورة التي افتتح بها هذا الفن واقتدى به الحريري في مقاماته {cite:shadharat-dhahab p. 159}."
+  en: "Badi' al-Zaman's famous maqamat, the form's origin, which al-Hariri followed {cite:shadharat-dhahab p. 159}."
+language: language/arabic
+authors: [person/badi-al-zaman-al-hamadhani]
+genre: [adab]
+wings: [words]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: influenced, target: work/maqamat-al-hariri }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-31
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
