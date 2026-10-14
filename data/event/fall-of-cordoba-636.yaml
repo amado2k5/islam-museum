@@ -1,0 +1,21 @@
+id: event/fall-of-cordoba-636
+class: event
+kind: conquest
+label: { ar: "استيلاء العدو على قرطبة" }
+summary:
+  ar: "كان استيلاء العدو على مدينة قرطبة يوم الأحد الثالث والعشرين لشوال سنة 636هـ، وفي تلك الحقبة أخذ سرقسطة يوم الأربعاء لأربع خلون من رمضان سنة 512هـ وجزيرة شقر صلحاً سنة 639هـ ومرسية صلحاً سنة 643هـ وحصر إشبيلية سنة 645هـ {cite:nafh-tib-maqqari p. 476}."
+  en: "The Castilian capture of Cordoba on Sunday 23 Shawwal 636, within the reconquest register that took Zaragoza in 512, Murcia by treaty 643 and Seville 646 {cite:nafh-tib-maqqari p. 476}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1236-06-29~", hijri: "0636-10-23", calendar: julian, precision: day, status: tradition, derived: true, note: "الأحد 23 شوال 636؛ مشتق {cite:nafh-tib-maqqari p. 476}." }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-14
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
