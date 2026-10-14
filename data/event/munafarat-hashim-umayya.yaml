@@ -1,0 +1,23 @@
+id: event/munafarat-hashim-umayya
+class: event
+kind: other
+label: { ar: "منافرة هاشم وأمية" }
+summary:
+  ar: "تكلف أمية بن عبد شمس أن يفعل كما فعل هاشم بن عبد مناف في إطعام قريش الرفادة فعجز فشمت به ناس من قريش وعابوه فغضب ونافر هاشماً على خمسين ناقة سود الحدق تُنحر بمكة وعلى الجلاء عشر سنين وجعلا بينهما الكاهن الخزاعي جد عمرو بن الحمق ومنزله عسفان فقضى لهاشم بقوله المشهور «والقمر الباهر والكوكب الزاهر... لقد سبق هاشمٌ أمية إلى المآثر أولها وآخرها» فأخذ هاشم الإبل فنحرها وأطعم لحمها من حضر وخرج أمية إلى الشام فأقام عشر سنين، فتلك أول عداوة وقعت بين هاشم وأمية {cite:ansab-al-ashraf p. 61-62}."
+  en: "The famous munafara: unable to match Hashim's rifada, a mocked Umayya staked fifty black-eyed camels and ten years' exile; the soothsayer of Usfan judged Hashim had 'outstripped Umayya in every glory', and Umayya went to Syria for a decade — the seed of the Hashimite–Umayyad rivalry {cite:ansab-al-ashraf p. 61-62}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0470~", calendar: julian, precision: century, status: tradition, derived: true, note: "جيل جدّي النبي ومعاوية تقريباً؛ لا تاريخ محقق {cite:ansab-al-ashraf p. 61}." }
+relations:
+  - { type: had_participant, target: person/hashim-ibn-abd-manaf, role: "الغالب في المنافرة", sources: [source/ansab-al-ashraf] }
+  - { type: had_participant, target: person/umayya-ibn-abd-shams, role: "المخذول", sources: [source/ansab-al-ashraf] }
+  - { type: had_participant, target: person/kahin-asfan-al-khuzai, role: "الحَكَم", sources: [source/ansab-al-ashraf] }
+provenance:
+  layer: own-research
+  source: "أنساب الأشراف للبلاذري (ط مؤسسة الأعلمي/دار المعارف)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ansab-batch-5
+sources: [source/ansab-al-ashraf]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
