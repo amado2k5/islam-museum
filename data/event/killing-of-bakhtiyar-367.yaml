@@ -1,0 +1,23 @@
+id: event/killing-of-bakhtiyar-367
+class: event
+kind: death
+label: { ar: "قتل بختيار بن معز الدولة" }
+summary:
+  ar: "في سنة 367هـ سار بختيار من بغداد عازماً على قصد الشام مع حمدان بن ناصر الدولة فأشار حمدان بقصد الموصل لكثرة أموالها، وكان عضد الدولة حلّفه أن لا يقصد ولاية أبي تغلب فنكث وقصدها فلما صار إلى تكريت أتته رسل أبي تغلب تسأله أن يقبض على أخيه حمدان ويسلمه إليه فقبض بختيار على حمدان وسلّمه إلى نواب أبي تغلب ليحبسه في قلعة، وسار بختيار إلى الحديثة واجتمع مع أبي تغلب ومعه نحو عشرين ألف مقاتل فالتقوا مع عضد الدولة بقصر الحصى بنواحي تكريت ثامن عشر شوال فهزمهما وأسر بختيار وأحضر عند عضد الدولة فلم يأذن بإدخاله إليه وأمر بقتله بمشورة أبي النجا طاهر بن إبراهيم وكان عمر بختيار إحدى وثلاثين سنة وملك إحدى عشرة سنة وشهوراً {cite:kamil-ibn-al-athir p. 506-507}."
+  en: "In 367 Bakhtiyar broke his oath not to march on Abu Taghlib's lands, handed his own cousin Hamdan over for prison, and joined the Hamdanid at Qasr al-Hissa by Takrit with twenty thousand men; on 18 Shawwal Adud al-Dawla routed them, refused him audience and had him killed — aged thirty-one after eleven years' rule {cite:kamil-ibn-al-athir p. 506-507}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0978-05~", hijri: "0367-10-18", calendar: julian, precision: day, status: tradition, derived: true, note: "ثامن عشر شوال 367؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 507}." }
+relations:
+  - { type: had_participant, target: person/bakhtiyar-izz-al-dawla, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/adud-al-dawla, role: "الغالب", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abu-taglib-fadlallah, role: "حليف بختيار المهزوم", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير (ط تورنبرغ، ليدن)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-batch-15
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
