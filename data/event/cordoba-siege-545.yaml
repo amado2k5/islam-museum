@@ -1,0 +1,22 @@
+id: event/cordoba-siege-545
+class: event
+kind: siege
+label: { ar: "حصار الأذفونش قرطبة ودخولها في طاعة الموحدين" }
+summary:
+  ar: "في سنة خمس وأربعين وخمسمائة سار الأذفونش صاحب طليطلة وبلاد الجلالقة إلى قرطبة ومعه أربعون ألف فارس فحاصرها وكان أهلها في غلاء شديد، فبلغ الخبر عبد المؤمن فجهز إليهم جيشاً يحتوي على اثني عشر ألف فارس؛ فلما أشرفوا على الأذفونش رحل عنها، وكان فيها القائد أبو الغمر السائب فسلمها إلى صاحب جيش عبد المؤمن يحيى بن ميمون فبات فيها، فلما أصبح رأى الفرنج عادوا إلى مكانهم ونزلوا في المكان الذي كانوا فيه فرتب هنالك ناساً وعاد إلى عبد المؤمن ثم رحل الفرنج إلى ديارهم {cite:nafh-tib-maqqari p. 382}. وفي السنة بعدها دخل جيش عبد المؤمن إلى الأندلس في عشرين ألفاً عليهم المنتاتي فصار إليه صاحب غرناطة ميمون وابن همشك وغيرهما فدخلوا تحت طاعة الموحدين {cite:nafh-tib-maqqari p. 382}."
+  en: "Alfonso VII's siege of Cordoba (545) with forty thousand horse while the city starved; Abd al-Mu'min sent twelve thousand under whom the Frank withdrew, and the commander Abu al-Ghamr al-Sa'ib surrendered it to Yahya ibn Maymun — then the Almohad army entered al-Andalus twenty thousand strong under al-Muntati, and Granada's Maymun and Ibn Hamushk submitted {cite:nafh-tib-maqqari p. 382}."
+wings: [time]
+themes: [battles]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1150~", hijri: "0545~", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 545؛ التحويل مشتق {cite:nafh-tib-maqqari p. 382}." }
+relations:
+  - { type: occurred_at, target: place/cordoba, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 382"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
