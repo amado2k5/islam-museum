@@ -1,8 +1,9 @@
 id: person/bishr-al-hafi
 class: person
 label: { ar: "بشر الحافي", en: "Bishr al-Hafi" }
+aliases: [person/bishr-ibn-al-harith]
 summary:
-  ar: "أبو نصر بشر بن الحارث الحافي، من بلاد مرو، مات ببغداد سنة سبع وعشرين ومائتين {cite:muruj-al-dhahab p. 453}."
+  ar: "أبو نصر بشر بن الحارث الحافي، من بلاد مرو، مات ببغداد سنة سبع وعشرين ومائتين {cite:muruj-al-dhahab p. 453}. وعند ابن النديم العابد الزاهد وتوفي سنة سبع وعشرين ومائتين وله كتاب الزهد {cite:fihrist-ibn-al-nadim p. 261}."
   en: "The celebrated barefoot ascetic of Merv — dead at Baghdad in 227 {cite:muruj-al-dhahab p. 453}."
 gender: male
 wings: [people]
@@ -11,5 +12,5 @@ provenance:
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 453"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-90
-sources: [source/muruj-al-dhahab]
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
