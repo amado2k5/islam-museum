@@ -32,5 +32,17 @@ perspectives:
     id: academic
     summary: { en: "Historians view the treaty as Muhammad's masterstroke of diplomacy, transforming a military deadlock into legal recognition and geopolitical supremacy across Western Arabia.", ar: "يحلل المؤرخون الصلح بوصفه إنجازاً دبلوماسياً رفيعاً استطاع به النبي تحييد قريش وفك تحالفاتها مع خيبر وتأمين حدوده الغربية للتفرغ لتوحيد القبائل." }
     sources: [source/watt-1956-medina]
+map:
+  kind: locator
+  precision: schematic
+  center: [21.45, 39.70]
+  extent_km: 6
+  basemap: terrain
+  date_for_borders: "0628"
+  features:
+    - { type: point, role: landmark, label: { ar: "الحديبية (ويقال الشميسي)", en: "Hudaybiyya (also called al-Shumaysi)" }, at: [21.45, 39.70], precision: approximate, source: source/mubarakpuri-raheeq }
+    - { type: point, role: landmark, label: { ar: "ثنية المرار — مهبط الحديبية من أسفل مكة", en: "Thaniyat al-Marar, the descent into Hudaybiyya from below Mecca" }, at: [21.44, 39.73], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: point, role: camp, label: { ar: "معسكر المسلمين بأقصى الحديبية، عند ثمد قليل الماء", en: "Muslim camp at the far end of Hudaybiyya, by a small shallow well" }, at: [21.452, 39.705], precision: schematic, source: source/mubarakpuri-raheeq }
+    - { type: line, role: march, from: [21.44, 39.73], to: [21.452, 39.705], label: { ar: "مسير النبي من ثنية المرار إلى الحديبية", en: "The Prophet's approach from Thaniyat al-Marar to Hudaybiyya" }, precision: schematic, source: source/mubarakpuri-raheeq }
 sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/zad-al-maad]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 337–348" }
