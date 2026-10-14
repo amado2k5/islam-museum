@@ -1,0 +1,20 @@
+id: person/ibn-hawtallah
+class: person
+label: { ar: "ابن حوط الله الأنصاري" }
+summary:
+  ar: "أبو محمد عبد الله بن سليمان بن داود بن عمر بن حوط الله الأنصاري الحارثي؛ فقيه جليل أصولي كاتب أديب شاعر متفنن في العلوم ورع دين حافظ ثبت فاضل، درس كتاب سيبويه ومستصفى أبي حامد الغزالي، وكان مشهوراً بالعقل والفضل معظماً عند الملوك، يخطب في مجالس الأمراء والمحافل، ولى قضاء إشبيلية وقرطبة ومرسية وسبتة وسلا وميورقة، فتظاهر بالعدل وعرف بما أبطن من الدين والفضل وكان من العلماء العاملين مجانباً لأهل البدع والأهواء بارع الخط حسن التقييد، وسمع الحديث فحصل له سماع لم يشاركه فيه أحد من أهل الغرب وسمع على الجهابذة كابن بشكوال وقرأ أكثر من ستين تأليفاً بين كبار وصغار وأكثر عن ابن حبيش وابن الفخار والسهيلي، ومولده في محرم سنة ٥٤١ ومات بغرناطة سحر يوم الخميس ثاني ربيع الأول سنة ٦١٢ ونقل في تابوته إلى مالقة فدفن بها {cite:nafh-tib-maqqari p. 338}."
+  en: "Ibn Hawtallah al-Ansari al-Harithi — jurist, usuli, secretary, poet and preacher, qadi in turn of Seville, Cordoba, Murcia, Ceuta, Sale and Majorca, 'one of the scholars who worked'; he heard hadith with a sama' none in the West shared and read some sixty works, most under Ibn Hubaysh, Ibn al-Fakhkhar and al-Suhayli; born Muharram 541, died at Granada Thursday 2 Rabi I 612 and was carried in his coffin to burial in Malaga {cite:nafh-tib-maqqari p. 338}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+died: { edtf: "1215-07-10~", hijri: "0612-03-02~", calendar: julian, precision: day, status: tradition, derived: true, note: "الخميس 2 ربيع الأول 612؛ التحويل مشتق {cite:nafh-tib-maqqari p. 338}." }
+relations:
+  - { type: student_of, target: person/ibn-hubaysh-hafiz, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 338"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-59
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
