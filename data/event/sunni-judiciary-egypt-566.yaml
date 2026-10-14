@@ -1,0 +1,21 @@
+id: event/sunni-judiciary-egypt-566
+class: event
+kind: law-enacted
+label: { ar: "استحداث صلاح الدين القضاء الشافعي بمصر" }
+summary:
+  ar: "في سنة ست وستين وخمسمائة هدم صلاح الدين بمصر داراً للشحنة تسمى دار المعونة كان يُحبس فيها من يريد حبسه وبناها مدرسة للشافعية وأزال ما كان فيها من الظلم، وبنى دار العدل مدرسة للشافعية أيضاً، وعزل قضاة المصريين وكانوا شيعة وأقام قاضياً شافعياً في مصر استناب القضاة الشافعية في جميع البلاد في العشرين من جمادى الآخرة، واشترى تقي الدين عمر ابن أخي صلاح الدين منازل العز بمصر وبناها مدرسة للشافعية {cite:kamil-ibn-al-athir p. 32}."
+wings: [time]
+themes: [education]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1171~", hijri: "0566", calendar: julian, precision: year, status: tradition, derived: true, note: "566؛ استنابة القضاة 20 جمادى الآخرة؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 32}." }
+relations:
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "الآمر", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 566، ص 32"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

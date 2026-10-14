@@ -1,0 +1,23 @@
+id: event/red-sea-raid-578
+class: event
+kind: raid
+label: { ar: "غارة الفرنج على بحر عيذاب وساحل الحجاز" }
+summary:
+  ar: "في سنة ثمان وسبعين وخمسمائة عمل البرنس أرناط صاحب الكرك أسطولاً فُرّغ منه بالكرك قطعاً فحُمل إلى بحر أيلة وجُمع في أسرع وقت وشُحن بالمقاتلة، فساروا في البحر فرقتين: فرقة قامت على حصن أيلة تحصرونه وتمنع أهله من ردود الماء فنالهم ضيق شديد، والثانية سارت نحو عيذاب فأفسدت في السواحل ونهبت وأخذت ما وجدت من المراكب الإسلامية ومن فيها من التجار، وبغتوا الناس على حين غفلة إذ لم يعهدوا بهذا البحر فرنجياً لا تاجراً ولا محارباً، وكانوا عازمين على الدخول إلى الحجاز ومكة والمدينة وأخذ الحاج ومنعهم عن البيت الحرام ثم الدخول إلى اليمن، فعمّر الملك العادل أبو بكر بن أيوب، نائب أخيه صلاح الدين بمصر، أسطولاً فيه جمع كثير مقدمهم حسام الدين لؤلؤ الحاجب متولي الأسطول، فانقض على أهل أيلة انقضاض العقاب فقتل بعضهم وأسر الباقين، ثم سار يقص أثر من قصدوا عيذاب حتى بلغ رابغ فأدركهم بساحل الجوزاء، فلما رأوا الهلاك خرجوا إلى البر واعتصموا بالشعاب فنزل إليهم لؤلؤ وقاتلهم وأخذ خيلاً من الأعراب فقاتلهم فرسانه ورجاله فظفر بهم وقتل أكثرهم وأسر الباقين، وأُرسل بعضهم إلى منى فنحروا بها عقوبة لمن رام إخافة حرم الله، وعاد بالباقين إلى مصر فقُتلوا جميعاً {cite:kamil-ibn-al-athir p. 117-118}."
+wings: [time, place]
+themes: [battles]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia, egypt-nile]
+date:
+  start: { edtf: "1182~", hijri: "0578", calendar: julian, precision: year, status: tradition, derived: true, note: "578؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 117}." }
+relations:
+  - { type: had_participant, target: person/raynald-de-chatillon, role: "صاحب الكرك الذي عمل الأسطول وأرسله", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/husam-al-din-lulu, role: "متولي أسطول مصر الذي أباد الغزاة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-adil-ayyub, role: "نائب مصر الذي عمّر الأسطول وأرسله", sources: [source/kamil-ibn-al-athir] }
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، سنة 578، ص 117–118"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-02
+sources: [source/kamil-ibn-al-athir]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
