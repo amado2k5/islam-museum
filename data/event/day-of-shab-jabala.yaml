@@ -1,0 +1,22 @@
+id: event/day-of-shab-jabala
+class: event
+kind: battle
+label: { ar: "يوم شعب جبلة" }
+summary:
+  ar: "يوم من أيام العرب بين بني تميم وبني كلاب وأهله؛ شهده لقيط بن زرارة على تميم والرباب فأقبل على برذون مجفف بديباج عليه سرج مذهب من سروج كسرى وكان أول عربي تجفف، وحجي بينه وبين شريح بن الأحوص فأقحم فرسه الجرف فطعنه شريح فسقط مرتثاً ومات يترثى امرأته دختنوس بنت النعمان صاحبة الحيرة، وضربته بنو عبس وهو ميت {cite:ansab-al-ashraf p. 30-31}."
+  en: "The day of Sha'b Jabala — Tamim and the Rabab against Kilab and its allies; Laqit ibn Zurara fell in the ravine duel with Shurayh ibn al-Ahwas, dying with his Lakhmid wife Dukhtanus on his lips while Banu Abs beat his corpse {cite:ansab-al-ashraf p. 30-31}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0580~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام العرب قبيل الإسلام {cite:ansab-al-ashraf p. 30}." }
+relations:
+  - { type: had_participant, target: person/laqit-ibn-zurara, role: "المقتول", sources: [source/ansab-al-ashraf] }
+  - { type: had_participant, target: person/shurayh-ibn-al-ahwas, role: "الطاعن", sources: [source/ansab-al-ashraf] }
+provenance:
+  layer: own-research
+  source: "أنساب الأشراف للبلاذري (ج١٢، ت. سهيل زكار/رياض عبد الحميد مراد)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ansab-batch-8
+sources: [source/ansab-al-ashraf]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
