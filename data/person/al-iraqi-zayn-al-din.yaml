@@ -12,6 +12,8 @@ wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq, egypt-nile]
 died: { edtf: "1404~", hijri: "0806~", calendar: julian, precision: year, status: tradition, derived: true, note: "806هـ {cite:kashf-zunun-furqan p. 222}", sources: [source/kashf-zunun-furqan] }
+relations:
+  - { type: authored, target: work/alfiyya-al-iraqi, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
   source: "كشف الظنون عن أسامي الكتب والفنون (ط. الفرقان 2004) ج1"

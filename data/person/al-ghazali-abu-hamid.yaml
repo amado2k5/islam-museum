@@ -12,6 +12,8 @@ wings: [people, words]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia, levant-iraq]
 died: { edtf: "1111~", hijri: "0505~", calendar: julian, precision: year, status: tradition, derived: true, note: "بطوس 505هـ {cite:kashf-zunun-furqan p. 221}", sources: [source/shadharat-dhahab, source/kashf-zunun-furqan] }
+relations:
+  - { type: authored, target: work/iljam-al-awam, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
   source: "كشف الظنون عن أسامي الكتب والفنون (ط. الفرقان 2004) ج1"

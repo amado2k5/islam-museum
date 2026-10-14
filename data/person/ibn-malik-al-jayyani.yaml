@@ -1,0 +1,20 @@
+id: person/ibn-malik-al-jayyani
+class: person
+label: { ar: "ابن مالك النحوي" }
+summary:
+  ar: "الشيخ العلامة جمال الدين أبو عبد الله محمد بن عبد الله الطائي الجياني المعروف بابن مالك النحوي المتوفى سنة ٦٧٢هـ؛ صاحب الألفية في النحو {cite:kashf-zunun-furqan p. 578}."
+  en: "Jamal al-Din Muhammad ibn Abdallah al-Ta'i al-Jayyani, known as Ibn Malik the grammarian, d. AH 672 — author of the Alfiyya {cite:kashf-zunun-furqan p. 578}."
+gender: male
+wings: [people, words]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, levant-iraq]
+died: { edtf: "1274~", hijri: "0672", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 672هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 578}." }
+relations:
+  - { type: authored, target: work/alfiyya-ibn-malik, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 578 مدخل 1564"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-7
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
