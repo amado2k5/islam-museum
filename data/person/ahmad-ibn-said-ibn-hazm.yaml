@@ -1,0 +1,23 @@
+id: person/ahmad-ibn-said-ibn-hazm
+class: person
+label: { ar: "أحمد بن سعيد بن حزم" }
+names:
+  - { value: "أبو عمرو أحمد بن سعيد بن حزم الأندلسي", kind: full }
+gender: male
+summary:
+  ar: "الوزير أبو عمرو والد العلامة أبي محمد ابن حزم، كان كاتباً مفتياً لغوياً متبحراً في علم اللسان، توفي سنة ثلاث وتسعين وثلاث مئة {cite:shadharat-dhahab p. 171}."
+  en: "The vizier Abu 'Amr Ahmad b. Sa'id b. Hazm, father of the polymath Ibn Hazm — a secretary, mufti and philologist 'deep-sailing in the science of the tongue'; he died in 393 {cite:shadharat-dhahab p. 171}."
+roles: [minister, scholar]
+wings: [people, words]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+died: { edtf: "1002~", hijri: "0393~", calendar: julian, precision: year, status: tradition, derived: true, note: "393هـ {cite:shadharat-dhahab p. 171}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: parent_of, target: person/ibn-hazm }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج3، سنين 350–600)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-33
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
