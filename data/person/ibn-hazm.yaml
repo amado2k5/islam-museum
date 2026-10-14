@@ -9,10 +9,11 @@ periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
 relations:
   - { type: authored, target: work/tawq-al-hamama, sources: [source/nafh-tib-maqqari] }
+  - { type: authored, target: work/al-ihkam-fi-usul-al-ahkam, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-4
-sources: [source/nafh-tib-maqqari]
+sources: [source/nafh-tib-maqqari, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
