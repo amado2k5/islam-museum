@@ -1,0 +1,23 @@
+id: event/silves-recovery-586
+class: event
+kind: conquest
+label: { ar: "استرجاع شلب من الإفرنج" }
+summary:
+  ar: "في سنة 586 بلغ يعقوب المنصور الموحدي أن الإفرنج ملكوا مدينة شلب وهي من غرب الأندلس فتوجه إليها بنفسه وحاصرها وأخذها، وأنفذ في الوقت جيشاً من الموحدين والعرب ففتح أربع مدن مما بأيدي الإفرنج من البلاد التي كانوا أخذوها من المسلمين قبل ذلك بأربعين سنة، وخافه صاحب طليطلة وسأله الهدنة والصلح فهادنه خمس سنين {cite:nafh-tib-maqqari p. 384}."
+  en: "Al-Mansur's recovery of Silves (586): told the Franks had taken the western city, he marched himself, besieged and took it, and sent an army that won back four towns the Franks had held for forty years — whereupon the lord of Toledo sued for a five-year truce {cite:nafh-tib-maqqari p. 384}."
+wings: [time]
+themes: [battles]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1190~", hijri: "0586~", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 586؛ التحويل مشتق {cite:nafh-tib-maqqari p. 384}." }
+relations:
+  - { type: had_participant, target: person/yaqub-al-mansur-al-muwahhidi, role: "قاد الحملة وحاصرها بنفسه", sources: [source/nafh-tib-maqqari] }
+  - { type: occurred_at, target: place/silves, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 384"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-60
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
