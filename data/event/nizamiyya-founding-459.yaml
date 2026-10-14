@@ -3,7 +3,7 @@ class: event
 kind: founding
 label: { ar: "تشييد المدرسة النظامية ببغداد" }
 summary:
-  ar: "في سنة تسع وخمسين فرغت المدرسة النظامية ببغداد وقرر لتدريسها الشيخ أبو إسحاق الشيرازي فاجتمع الناس فلم يحضر واختفى فدرس ابن الصباغ صاحب الشامل ثم تلطفوا بالشيخ أبي إسحاق حتى أجاب ودرس، وقال الذهبي عن نظام الملك أنه بنى النظامية وقيل وهي أول مدرسة بنيت للفقهاء {cite:tarikh-khulafa-minhaj-1434 p. 645-646}."
+  ar: "في سنة تسع وخمسين فرغت المدرسة النظامية ببغداد وقرر لتدريسها الشيخ أبو إسحاق الشيرازي فاجتمع الناس فلم يحضر واختفى فدرس ابن الصباغ صاحب الشامل ثم تلطفوا بالشيخ أبي إسحاق حتى أجاب ودرس، وقال الذهبي عن نظام الملك أنه بنى النظامية وقيل وهي أول مدرسة بنيت للفقهاء {cite:tarikh-khulafa-minhaj-1434 p. 645-646}، وقرر لتدريسها أبو إسحاق الشيرازي فلما اجتمع الناس لم يحضر لأنه لقيه صبي فقال كيف تدرس في مكان مغصوب فاختفى فدرس ابن الصباغ مصنف الشامل، فلما وصل الخبر إلى الوزير أقام القيامة حتى درس الشيرازي بها لكنه كان يصلي في غيرها لعلمه أن أكثر آلاتها غصب {cite:shadharat-dhahab p. 315}"
   en: "In 459 Baghdad's Nizamiyya school was finished; Abu Ishaq al-Shirazi was named its teacher, but when the people gathered he had hidden — Ibn al-Sabbagh taught till they coaxed al-Shirazi to accept. Al-Dhahabi reports Nizam al-Mulk built it — 'said to be the first school built for the jurists' {cite:tarikh-khulafa-minhaj-1434 p. 645-646}."
 wings: [time]
 periods: [period/abbasid-early]
@@ -11,7 +11,7 @@ regions: [levant-iraq]
 date:
   start: { edtf: "1067~", hijri: "0459", calendar: julian, precision: year, status: tradition, derived: true, note: "459؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 645}." }
 relations:
-  - { type: had_participant, target: person/nizam-al-mulk, role: "الباني", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/nizam-al-mulk, role: "الباني", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "المدرس", sources: [source/tarikh-khulafa-minhaj-1434] }
 provenance:
   layer: own-research
