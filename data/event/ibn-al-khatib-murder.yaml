@@ -1,0 +1,21 @@
+id: event/ibn-al-khatib-murder
+class: event
+kind: death
+label: { ar: "مقتل ابن الخطيب في محبسه" }
+summary:
+  ar: "قتل لسان الدين ابن الخطيب وزير ابن الأحمر بمحبسه بغرناطة؛ ويروي ابن خلدون عن نفسه أن ابن الخطيب بعث إليه من محبسه مستصرخاً ومتوسلاً فخاطب في شأنه أهل الدولة وعول على ابن ماساي فلم تنجح تلك السعاية وقتل بمحبسه، ثم أغري بابن خلدون لشفاعته فيه فأوعز له بمقامه بهنين ثم استقر بتلمسان وفيها أخذ في بث العلم سنة 776هـ {cite:tarikh-ibn-khaldun-ibar p. 2016}."
+  en: "Lisan al-Din Ibn al-Khatib was killed in his Granada prison cell; Ibn Khaldun records at first hand the vizier's plea to him from prison and his failed intercession, which then drove his own withdrawal to Tlemcen in 776 {cite:tarikh-ibn-khaldun-ibar p. 2016}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+date:
+  start: { edtf: "1374~", hijri: "0775~", calendar: julian, precision: year, status: tradition, derived: true, note: "قبيل انتقال ابن خلدون إلى تلمسان 776؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 2016}." }
+relations:
+  - { type: had_participant, target: person/ibn-al-khatib, role: "المقتول", sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-ibar-batch-14
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
