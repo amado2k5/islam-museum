@@ -11,5 +11,7 @@ provenance:
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 658"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-39
-sources: [source/muruj-al-dhahab]
+relations:
+  - { type: authored, target: work/nasab-quraysh-zubayr, sources: [source/kashf-zunun-furqan] }
+sources: [source/muruj-al-dhahab, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,20 @@
+id: person/ibn-hisham
+class: person
+label: { ar: "عبد الملك بن هشام" }
+summary:
+  ar: "الإمام عبد الملك بن هشام صاحب السيرة؛ وله أنساب حمير وملوكها {cite:kashf-zunun-furqan p. 653}."
+  en: "Abd al-Malik ibn Hisham — the redactor of Ibn Ishaq's Sira and author of Ansab Himyar {cite:kashf-zunun-furqan p. 653}."
+gender: male
+wings: [people, words]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+relations:
+  - { type: authored, target: work/ansab-himyar, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/sira-ibn-ishaq-ibn-hisham, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 653 مدخل 1879"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-22
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
