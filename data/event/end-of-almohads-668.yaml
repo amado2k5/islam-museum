@@ -1,0 +1,21 @@
+id: event/end-of-almohads-668
+class: event
+kind: war
+label: { ar: "انقراض دولة بني عبد المؤمن" }
+summary:
+  ar: "قتل الواثق أبو دبوس آخر خلفاء بني عبد المؤمن الموحدين في الحرب بينه وبين بني مرين ملوك تلمسان في المحرم سنة ثمان وستين وست مئة بموضع بينه وبين مراكش مسيرة ثلاثة أيام، فانقرضت دولة بني عبد المؤمن واستولى بنو مرين على ملكهم {cite:wafayat-ayan p. 16}."
+  en: "Al-Wathiq Abu Dabus, last caliph of 'Abd al-Mu'min's house, fell fighting the Marinids of Tlemcen in Muharram 668 three days from Marrakesh — ending the Almohad dynasty as the Marinids took their kingdom {cite:wafayat-ayan p. 16}."
+date:
+  start: { edtf: "1269-09~", hijri: "0668-01~", calendar: julian, precision: month, status: tradition, derived: true, note: "المحرم 668هـ {cite:wafayat-ayan p. 16}", sources: [source/wafayat-ayan] }
+wings: [people, time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+relations:
+  - { type: had_participant, target: person/al-wathiq-abu-dabus }
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-3
+sources: [source/wafayat-ayan]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
