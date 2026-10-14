@@ -1,0 +1,22 @@
+id: event/morisco-expulsion-1017
+class: event
+kind: expulsion
+label: { ar: "إخراج الموريسكيين من الأندلس" }
+summary:
+  ar: "عند المقري أن النصارى أخرجوا من بقي من مسلمي الأندلس بهذا العصر القريب أعوام سبعة عشر وألف، بعد أن كانوا يعبدون الله في خفية ويصلّون فشدد عليهم النصارى في البحث حتى أحرقوا منهم كثيراً ومنعوهم من حمل السكين الصغيرة فضلاً عن غيرها من الحديد، وقاموا في بعض الجبال على النصارى مراراً ولم يُقيض الله لهم ناصراً؛ فخرجت ألوف بفاس وألوف أخر بتلمسان من وهران وجمهورهم خرج بتونس، فتسلط عليهم الأعراب ومن لا يخشى الله في الطرقات ونهبوا أموالهم ونجا القليل من هذه المعرة في بلاد تلمسان وفاس، وأما الذين خرجوا بنواحي تونس فسلم أكثرهم وعمروا قراها وبلادها وكذلك بتطاوين وسلا ومتيجة الجزائر، ولما استخدم سلطان المغرب الأقصى منهم عسكراً جراراً وسكنوا سلا كان منهم من الجهاد في البحر ما هو مشهور وحصنوا قلعة سلا وبنوا بها القصور والدور والحمامات، ووصل جماعة إلى القسطنطينية العظمى وإلى مصر والشام وغيرها من بلاد الإسلام {cite:nafh-tib-maqqari p. 528}."
+  en: "Al-Maqqari records the near-contemporary expulsion of the Moriscos 'in this recent era, in the year 1017': thousands landed at Fez, Tlemcen and Tunis, robbed on the roads by Arabs — the Tunis-bound mostly prospered; those settled at Sale by the Maghreb sultan fortified its castle, built palaces and became famed for jihad at sea — the corsairs of Sale {cite:nafh-tib-maqqari p. 528}."
+wings: [time]
+themes: [refugees-migrants-diaspora]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1609~", hijri: "1017~", calendar: julian, precision: year, status: tradition, derived: true, note: "نص المقري «أعوام سبعة عشر وألف»؛ التحويل مشتق {cite:nafh-tib-maqqari p. 528}." }
+relations:
+  - { type: occurred_at, target: place/granada, sources: [source/nafh-tib-maqqari] }
+provenance:
+  layer: own-research
+  source: "نفح الطيب من غصن الأندلس الرطيب للمقري (ط إحسان عباس) ص 528"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-nafh-tib-batch-54
+sources: [source/nafh-tib-maqqari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
