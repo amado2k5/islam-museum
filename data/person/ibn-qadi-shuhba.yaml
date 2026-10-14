@@ -1,0 +1,20 @@
+id: person/ibn-qadi-shuhba
+class: person
+label: { ar: "ابن قاضي شهبة" }
+summary:
+  ar: "القاضي تقي الدين أبو بكر بن أحمد المعروف بابن قاضي شهبة الدمشقي المتوفى سنة ٨٥١هـ؛ صاحب الإعلام بتاريخ أهل الإسلام {cite:kashf-zunun-furqan p. 479}."
+  en: "Qadi Taqi al-Din Abu Bakr ibn Ahmad, known as Ibn Qadi Shuhba al-Dimashqi, d. AH 851 — author of al-I'lam bi-Tarikh Ahl al-Islam {cite:kashf-zunun-furqan p. 479}."
+gender: male
+wings: [people, words]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died: { edtf: "1448~", hijri: "0851", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 851هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 479}." }
+relations:
+  - { type: authored, target: work/al-ilam-tarikh-ahl-al-islam, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 479 مدخل 1344"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-3
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
