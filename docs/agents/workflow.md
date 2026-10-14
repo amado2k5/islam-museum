@@ -44,6 +44,8 @@ git push origin HEAD:<your-branch>       # keep your branch in sync too
 
 If the push is rejected because main moved, repeat. If pushing to `main` is blocked by a policy of your tool, push your branch, say so in your progress file, and carry on: the maintainer will merge. Small commits, at most 25 content entities per batch; one logical change per commit.
 
+**Totals on every check-in.** `docs/coverage.md` holds the public totals (entities, stubs, edges, by class, wing, period, region, theme). Every commit that adds, removes or changes entities, stubs or edges must regenerate it in the same commit: run `npm run coverage` after your data changes, then `git add docs/coverage.md` with your other explicit paths. Do not hand-edit the file, and do not commit a check-in that leaves it stale. If another session has just merged data, regenerate after the rebase, before the validate. The homepage counts (`الناس`, `المكان`, `الزمان`, `الكلمة`, `الآثار`, `الأفكار`) are not rendered from this file: a deployed site that shows them must be rebuilt from `origin/main` to update.
+
 ## 5. Integrate, do not override
 
 - Rebase or merge onto the latest `origin/main` before you push; resolve every conflict by combining both sides' intent; run validate and tests afterwards, because other people's content can break your rule and your rule can break their content.

@@ -38,4 +38,5 @@ islam.museum is an open, free, all-digital museum of Islam: the faith, civilizat
 - Push small, validated commits to `main` often (work can be lost if you run out of credit or time), and keep your lane's progress file current.
 - Shared files (`data/_stubs.yaml`, `data/_stubs.d/*`, `docs/status.md`, enums) are append-only: never replace one wholesale. Your own stubs go in your own `data/_stubs.d/<lane>.yaml`.
 - **Every agent commit ends with attribution trailers** `AI-Agent:`, `AI-Model:` and `AI-Editor:` (truthful; `unknown` if you cannot tell), and the same facts go in each entity's provenance. See `docs/agents/workflow.md`.
+- **Totals stay current.** Every check-in that changes entities, stubs or edges regenerates `docs/coverage.md` with `npm run coverage` in the same commit (never hand-edit it). See `docs/agents/workflow.md` section 4.
 - Commit only when your task or lane instructions call for it; conventional commit messages; at most 25 entities per content batch.
