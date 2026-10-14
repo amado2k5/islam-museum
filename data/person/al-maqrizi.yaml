@@ -7,10 +7,14 @@ summary:
 gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+died: { edtf: "1442~", hijri: "0845", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 845هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 625}." }
+relations:
+  - { type: authored, target: work/imta-al-asma-maqrizi, sources: [source/kashf-zunun-furqan] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 773–781"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-51
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

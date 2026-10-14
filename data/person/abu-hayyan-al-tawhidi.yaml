@@ -1,0 +1,20 @@
+id: person/abu-hayyan-al-tawhidi
+class: person
+label: { ar: "أبو حيان التوحيدي" }
+summary:
+  ar: "الشيخ أبو حيان علي بن محمد التوحيدي المتوفى سنة ٣٨٠هـ؛ صاحب الإمتاع والمؤانسة {cite:kashf-zunun-furqan p. 625}."
+  en: "Abu Hayyan Ali ibn Muhammad al-Tawhidi, d. AH 380 — author of al-Imta' wal-Mu'anasa, the record of the Sahib ibn Abbad's literary nights {cite:kashf-zunun-furqan p. 625}."
+gender: male
+wings: [people, words]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+died: { edtf: "0990~", hijri: "0380", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 380هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 625}." }
+relations:
+  - { type: authored, target: work/al-imta-wal-muanasa, sources: [source/kashf-zunun-furqan] }
+provenance:
+  layer: own-research
+  source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 625 مدخل 1770"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kashf-batch-8
+sources: [source/kashf-zunun-furqan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
