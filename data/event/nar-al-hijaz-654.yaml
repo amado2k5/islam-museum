@@ -1,0 +1,21 @@
+id: event/nar-al-hijaz-654
+class: event
+kind: other
+label: { ar: "نار الحجاز سنة 654هـ", en: "The Hijaz Fire of 654 AH" }
+summary:
+  ar: "زلزلة عظيمة ثم نار خرجت بأرض المدينة في جمادى الآخرة سنة 654هـ تحقيقاً لإخبار النبي بنار تخرج من أرض الحجاز تضيء لها أعناق الإبل ببصرى؛ بدأت زلزلة في مستهل جمادى الآخرة واشتدت ليلة الأربعاء ثالث الشهر حتى وقع في يوم واحد ثمانية عشر حركة على حكاية القسطلاني، ثم ظهرت النار بقَرَيْظة بطرف الحرة تجري مثل النهر أحمرَ وأزرق له دوي كدوي الرعد تدكّ الجبال، وشوهد غليانها وقيل إنها رُئيت من مكة ومن جبال بصرى، ومع قربها من المدينة كان يأتيها نسيم بارد حتى صُرفت عنها ذات الشمال عند بلوغها حرمها؛ والسد الذي أحدثته يعرفه أهل المدينة بالحَبْس {cite:samhudi-wafa-al-wafa p. 154-156}."
+  en: "A great earthquake followed by an eruption of fire in the land of Medina in Jumada II 654 AH, in fulfilment of the Prophet's report of a fire issuing from the Hijaz by whose light camels' necks would be lit at Busra; tremors began at the start of the month, intensified on the night of Wednesday the 3rd until eighteen shocks struck in a single day per al-Qastallani, then the fire appeared at Qarayza at the edge of the harra, flowing like a river red and blue with a thunderous roar that levelled hills, its boiling seen for days and reportedly sighted from Mecca and the mountains of Busra; yet a cool breeze still reached Medina until it was turned aside to the north on reaching the sanctuary boundary, and the dam it left is still called al-Habs by the people of Medina {cite:samhudi-wafa-al-wafa p. 154-156}."
+wings: [time, place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+date:
+  start: { edtf: "1256-06~", hijri: "0654-06", calendar: julian, precision: month, status: tradition, derived: true, note: "ليلة الأربعاء ثالث جمادى الآخرة 654هـ؛ التحويل مشتق {cite:samhudi-wafa-al-wafa p. 155}." }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 154–156"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

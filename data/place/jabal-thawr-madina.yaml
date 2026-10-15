@@ -1,0 +1,18 @@
+id: place/jabal-thawr-madina
+class: place
+kind: mountain
+label: { ar: "جبل ثور بالمدينة", en: "Jabal Thawr of Medina" }
+summary:
+  ar: "جبل صغير بأرض المدينة خلاف أحد، ذُكر في روايات تحريم المدينة «ما بين عير إلى ثور حرام» حداً شمالياً للحرم؛ خفي على بعض المحدثين حتى قال مصعب الزبيري «لا يُعرف بالمدينة عير ولا ثور» وذهب أبو عبيد القاسم بن سلام والحازمي إلى أن الأصل «من عير إلى أحد»، بينما رأى آخرون أن الغموض في الاسم لا يوهّم الرواة {cite:samhudi-wafa-al-wafa p. 105-106}. يغاير جبل ثور بمكة."
+  en: "A small mountain in Medina near Uhud, named in the haram hadith 'between 'Ayr and Thawr is inviolable' as the northern limit; it was obscure enough that Mus'ab al-Zubayri declared 'Medina knows no 'Ayr and no Thawr', and Abu 'Ubayd al-Qasim ibn Sallam and al-Hazimi held the original reading to be 'from 'Ayr to Uhud', while others argued an unknown name does not impugn the transmitters {cite:samhudi-wafa-al-wafa p. 105-106}. Distinct from Mecca's Jabal Thawr."
+wings: [place]
+regions: [arabia]
+relations:
+  - { type: related_to, target: concept/haram-al-madina, note: "الحد الشمالي للحرم في رواية «إلى ثور» وإن نازع فيها بعضهم", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 105–106"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

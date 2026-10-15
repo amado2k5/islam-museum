@@ -1,0 +1,28 @@
+id: person/al-samhudi
+class: person
+label: { ar: "السمهودي", en: "al-Samhudi" }
+names:
+  - { kind: full, lang: ar, value: "نور الدين علي بن أحمد بن عبد الله الحسني السمهودي الشافعي" }
+gender: male
+roles: [historian, jurist]
+traditions: [sunni]
+born: { edtf: "1440", hijri: "0844-02", calendar: julian, precision: month, status: tradition, note: "ولد في صفر سنة 844هـ ببلدة سمهود من أعمال مصر {cite:samhudi-wafa-al-wafa p. 4}", sources: [source/samhudi-wafa-al-wafa] }
+died: { edtf: "1506", hijri: "0911", calendar: julian, precision: year, status: tradition, sources: [source/samhudi-wafa-al-wafa] }
+summary:
+  ar: "مؤرخ المدينة ومفتيها ومدرّسها، نزيلها من سنة 873هـ؛ وضع لأخبار دار الهجرة ثلاثة مؤلفات: الكبير «اقتفاء الوفا» الذي احترق في حريق المسجد النبوي ولم يُتمّ، والأوسط «وفاء الوفا» والمختصر «خلاصة الوفا»، وقد خدم بنفسه في إعادة بنيان الحجرة الشريفة فوقع في كتابه أخبارُ معاينة لا يلحقها مؤرخ غيره {cite:samhudi-wafa-al-wafa p. 4-8}."
+  en: "Historian, mufti and teacher of Medina, resident there from 873 AH; he wrote three histories of the Prophet's city — the large Iqtisaf al-Wafa which burned unfinished in the mosque fire, the middling Wafa al-Wafa, and the brief Khulasat al-Wafa — and himself served in the rebuilding of the Noble Chamber, so his book carries eyewitness knowledge no other historian of the city matched {cite:samhudi-wafa-al-wafa p. 4-8}."
+wings: [people, words]
+themes: [geography-and-cartography]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/samhudi-wafa-al-wafa] }
+relations:
+  - { type: lived_in, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي، مقدمة المحقق محيي الدين عبد الحميد ص 4–8"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

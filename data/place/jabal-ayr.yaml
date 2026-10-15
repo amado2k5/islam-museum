@@ -1,0 +1,19 @@
+id: place/jabal-ayr
+class: place
+kind: mountain
+label: { ar: "جبل عَيْر", en: "Jabal 'Ayr" }
+summary:
+  ar: "جبل كبير مشهور في جهة قبلة المدينة قرب ذي الحليفة ميقات أهلها؛ في حديث تحريم المدينة «ما بين عير إلى ثور حرام» يكون عير الحد الجنوبي للحرم {cite:samhudi-wafa-al-wafa p. 105}."
+  en: "A large, well-known mountain on the qibla side of Medina near Dhu'l-Hulayfa, the town's miqat; in the haram hadith 'between 'Ayr and Thawr is inviolable' it marks the southern limit of the sanctuary {cite:samhudi-wafa-al-wafa p. 105}."
+wings: [place]
+regions: [arabia]
+relations:
+  - { type: related_to, target: concept/haram-al-madina, note: "الحد الجنوبي للحرم في أكثر الروايات", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: located_in, target: place/medina, note: "في جهة قبلتها قرب ذي الحليفة", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 105"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
