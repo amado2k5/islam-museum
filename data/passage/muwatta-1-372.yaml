@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.372"
-label: { ar: "الموطأ 1.372", en: "Muwatta 1.372" }
+label: { ar: "الموطأ 372 — أو لكلكم ثوبان؟", en: "Muwatta 372" }
+text: "أو لكلكم ثوبان؟"
 summary:
-  ar: "سعيد بن المسيب عن أبي هريرة: سأل سائل النبي ﷺ؛ الحديث في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن ابن شهاب عن سعيد بن المسيب عن أبي هريرة، في باب الرخصة في الصلاة في الثوب الواحد: سأل سائل النبي عن الصلاة في ثوب واحد، فأجابه مستفهماً: أو لكلكم ثوبان؟ ويخرّجه المحقق عند البخاري (358) ومسلم (2/61) وأبي داود (625) والنسائي (2/69) والطحاوي والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (6/363). {cite:muwatta-maruf-1997 p.202} {cite:muwatta-maruf-1997 p.203}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 372 of kitab al-salat at PDF p. 202", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-18" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 372 at PDF p. 202; باب الرخصة في الصلاة في الثوب الواحد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 202; matn excerpt at most 40 words" }

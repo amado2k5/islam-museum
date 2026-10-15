@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.363"
-label: { ar: "الموطأ 1.363", en: "Muwatta 1.363" }
+label: { ar: "الموطأ 363 — حفصة: ما رأيته صلى في سبحته قاعداً حتى كان قبل وفاته بعام", en: "Muwatta 363" }
+text: "ما رأيت رسول الله صلى في سبحته قاعداً قط، حتى كان قبل وفاته بعام، فكان يصلي في سبحته قاعداً"
 summary:
-  ar: "ابن شهاب عن السائب بن يزيد عن المطلب بن أبي وداعة عن حفصة: حديث في الصلاة وإمامة المرأة أو الصلاة في البيت؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب ما جاء في صلاة القاعد في النافلة. يرويه يحيى عن مالك عن ابن شهاب عن السائب بن يزيد عن المطلب بن أبي وداعة السهمي عن حفصة زوج النبي: ما رأت النبي صلى في نافلته قاعداً قط حتى كان قبل وفاته بعام، فكان يصلي في نافلته قاعداً ويقرأ بالسورة فيرتلها حتى تكون أطول من أطول منها. ويخرّجه المحقق عند مسلم (2/164) والترمذي (373) وفي الشمائل والنسائي (3/223) وابن حبان وابن خزيمة وأحمد من طرق أصحاب مالك، وينقل عن ابن عبد البر أن جماعة رواة الموطأ رووه بهذا الإسناد وأن أبا حمة محمد بن يوسف أخطأ فيه عن موسى بن طارق عن مالك (التمهيد 6/220–221). {cite:muwatta-maruf-1997 p.199}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 363 of kitab al-salat at PDF p. 199", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-17" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hafsa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-muttalib-ibn-abi-wadaa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-saib-ibn-yazid, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 363 at PDF p. 199; باب ما جاء في صلاة القاعد في النافلة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 199; matn excerpt at most 40 words" }

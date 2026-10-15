@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.355"
-label: { ar: "الموطأ 1.355", en: "Muwatta 1.355" }
+label: { ar: "الموطأ 355 — إذا صلى أحدكم بالناس فليخفف", en: "Muwatta 355" }
+text: "إذا صلى أحدكم بالناس فليخفف، فإن فيهم الضعيف والسقيم والكبير، وإذا صلى أحدكم لنفسه فليطول ما شاء"
 summary:
-  ar: "أبو الزناد عن الأعرج عن أبي هريرة عن النبي ﷺ: إذا صلى أحدكم في المسجد فليجعل لبيته نصيبًا من صلاته؛ الحديث في الصلاة في البيت."
+  ar: "أول حديث في باب العمل في صلاة الجماعة. يرويه يحيى عن مالك عن أبي الزناد عن الأعرج عن أبي هريرة: أمر النبي من صلى بالناس أن يخفف لأن فيهم الضعيف والسقيم والكبير، ومن صلى لنفسه فليطول ما شاء. ويخرّجه المحقق عند البخاري (703) وأبي داود (794) والنسائي (2/94) وابن حبان وأحمد والشافعي من طرق أصحاب مالك، وينقل عن ابن عبد البر أن أكثر الرواة عن مالك لا يقولون فيه «والكبير» وقاله يحيى وقتيبة، وأن زيادة «وذا الحاجة» محفوظة من حديث أبي هريرة وأبي مسعود وعثمان بن أبي العاص (التمهيد 19/4). {cite:muwatta-maruf-1997 p.195}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 355 of kitab al-salat at PDF p. 195", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-17" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 355 at PDF p. 195; باب العمل في صلاة الجماعة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 195; matn excerpt at most 40 words" }

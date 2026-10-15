@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.365"
-label: { ar: "الموطأ 1.365", en: "Muwatta 1.365" }
+label: { ar: "الموطأ 365 — عائشة: كان يصلي جالساً فإذا بقي ثلاثون أو أربعون آية قام", en: "Muwatta 365" }
 summary:
-  ar: "عبد الله بن يزيد المدني وأبو النضر عن أبي سلمة عن عائشة: حديث في صلاة النافلة أو الوقت؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن عبد الله بن يزيد المدني وعن أبي النضر، كلاهما عن أبي سلمة بن عبد الرحمن عن عائشة، في باب ما جاء في صلاة القاعد في النافلة: كان النبي يصلي جالساً فيقرأ وهو جالس، فإذا بقي من قراءته قدر ثلاثين أو أربعين آية قام فقرأ وهو قائم ثم ركع وسجد، ثم صنع في الركعة الثانية مثل ذلك. ويخرّجه المحقق عند البخاري (1119) ومسلم (2/163) وأبي داود (954) والنسائي (3/220) وأحمد والطحاوي من طرق أصحاب مالك، ويحيل على التمهيد (19/169، 21/165). {cite:muwatta-maruf-1997 p.200}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 365 of kitab al-salat at PDF p. 200", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-18" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-yazid-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-nadr-salim-ibn-abi-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 365 at PDF p. 200; باب ما جاء في صلاة القاعد في النافلة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 200; matn excerpt at most 40 words" }

@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.367"
-label: { ar: "الموطأ 1.367", en: "Muwatta 1.367" }
+label: { ar: "الموطأ 367 — عائشة تملي في مصحفها: والصلاة الوسطى وصلاة العصر", en: "Muwatta 367" }
 summary:
-  ar: "القعقاع بن حكيم عن أبي يونس مولى عائشة: حديث عن عائشة في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب الصلاة الوسطى. يرويه يحيى عن مالك عن زيد بن أسلم عن القعقاع بن حكيم عن أبي يونس مولى عائشة: أمرته عائشة أن يكتب لها مصحفاً وأن يؤذنها إذا بلغ آية البقرة في المحافظة على الصلوات والصلاة الوسطى، فلما بلغها أملت عليه الآية بزيادة ذكر صلاة العصر بعد الصلاة الوسطى، وقالت إنها سمعتها من رسول الله؛ وهي قراءة تفسيرية تبين أن الوسطى عندها العصر. ويخرّجه المحقق عند مسلم (2/112) وأبي داود (410) والترمذي (2982) والنسائي (1/236) وأحمد والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (4/273). {cite:muwatta-maruf-1997 p.200} {cite:muwatta-maruf-1997 p.201}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 367 of kitab al-salat at PDF p. 200", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-18" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-yunus-mawla-aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qaqa-ibn-hakim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 367 at PDF p. 200; باب الصلاة الوسطى", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 200; matn excerpt at most 40 words" }

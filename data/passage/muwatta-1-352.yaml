@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.352"
-label: { ar: "الموطأ 1.352", en: "Muwatta 1.352" }
+label: { ar: "الموطأ 352 — أبو أيوب: من أعاد مع الإمام فله سهم جمع", en: "Muwatta 352" }
+text: "نعم فصل معه، فإن من صنع ذلك فإن له سهم جمع أو مثل سهم جمع"
 summary:
-  ar: "عفيف بن عمرو السهمي عن رجل من بني أسد: سأل أبا أيوب الأنصاري عن صلاة الرجل بعد أن صلى في بيته؛ الجواب فيه حكم الجماعة بعد الصلاة في البيت."
+  ar: "أثر يرويه مالك عن عفيف بن عمرو السهمي عن رجل من بني أسد، في باب إعادة الصلاة مع الإمام: سأل أبا أيوب الأنصاري أنه يصلي في بيته ثم يأتي المسجد فيجد الإمام يصلي أفيصلي معه، فقال: نعم فصل معه، فإن من صنع ذلك فله سهم جمع أو مثل سهم جمع، أي نصيب من أجر الجماعة. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومحمد بن الحسن ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.194}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 352 of kitab al-salat at PDF p. 194", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-17" }
+  - { type: mentions, target: person/abu-ayyub-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/afif-ibn-amr-al-sahmi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 352 at PDF p. 194; باب إعادة الصلاة مع الإمام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 194; matn excerpt at most 40 words" }
