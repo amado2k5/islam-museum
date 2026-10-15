@@ -1,0 +1,20 @@
+id: group/hashid
+class: group
+kind: tribe
+label: { ar: "هاشد", en: "Hashid" }
+summary:
+  ar: "أحد ساقي همدان الكبرى وشقيق بكيل، رحم الله أبا حكم حاشد بن جشم بن هبران بن نوف بن همدان؛ ديارها — كما يصفها ابنُها الهمداني — من أول بلادها لاعة جنوبي صنعاء إلى خيوان وحدود صعدة، وهي «أمنع ديار اليمن وأعزها» تُقطع في ستة أيام في ستة، ولها أسواق قديمة من الجاهلية أولها سوق قِبل وقُمّل وسوق صافر وسوق قُطابة {cite:sifat-jazirat-al-arab pp. 93-96}."
+  en: "One of the two great shafts of Hamdan, brother of Bakil — Hashid ibn Jusham of the Hamdan line. Its homelands, mapped by its own son al-Hamdani, run from La'a south of Sana'a to Khaywan and the borders of Sa'da — 'the strongest and proudest country of Yemen', a six-days' march — with Jahiliyya markets headed by Qibil-Qummal, Safir and Qutaba {cite:sifat-jazirat-al-arab pp. 93-96}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: related_to, target: group/bakil, note: "شقيقها في همدان: حاشد وبكيل ابنا جشم بن هبران بن نوف بن همدان.", sources: [source/sifat-jazirat-al-arab] }
+  - { type: member_of, target: group/banu-hamdan, sources: [source/sifat-jazirat-al-arab] }
+provenance:
+  layer: own-research
+  source: "الهمداني، صفة جزيرة العرب (ط مولر) ص 93–96"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-sifat-2
+sources: [source/sifat-jazirat-al-arab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

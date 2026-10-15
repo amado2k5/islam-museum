@@ -1,0 +1,20 @@
+id: group/bakil
+class: group
+kind: tribe
+label: { ar: "بكيل", en: "Bakil" }
+summary:
+  ar: "أحد ساقي همدان الكبرى وشقيق هاشد، وهو بكيل بن جشم بن هبران بن نوف بن همدان؛ ديارها — عند الهمداني — من نصف رحبة صنعاء إلى نجران والجوف وشاكر وصرواح، ومنها سفيان بن أرحب الذي انحدرت منه الحدنية في خيوان، ولا سوق لها إلا ورور وغُرق وريدة في بلد هاشد {cite:sifat-jazirat-al-arab pp. 93-95}."
+  en: "The other shaft of Hamdan, brother of Hashid — Bakil ibn Jusham of the Hamdan line. Its homelands in al-Hamdani's mapping stretch from half of Sana'a's Rahba plain to Najran, al-Jawf, Shakir and Sirwah, counting Sufyan ibn Arhab (whence the Hudayniyya of Khaywan) among its houses; it held no market of its own but shared Warur, Ghuraq and Rayda in Hashid country {cite:sifat-jazirat-al-arab pp. 93-95}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: related_to, target: group/hashid, note: "شقيقها في همدان: حاشد وبكيل ابنا جشم بن هبران بن نوف بن همدان.", sources: [source/sifat-jazirat-al-arab] }
+  - { type: member_of, target: group/banu-hamdan, sources: [source/sifat-jazirat-al-arab] }
+provenance:
+  layer: own-research
+  source: "الهمداني، صفة جزيرة العرب (ط مولر) ص 93–95"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-sifat-2
+sources: [source/sifat-jazirat-al-arab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
