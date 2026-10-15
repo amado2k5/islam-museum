@@ -12,7 +12,7 @@ Rules in short (full text: [`docs/editorial-policy.md`](docs/editorial-policy.md
 
 - Describe, never prescribe; attribute beliefs to their holders; use the `perspectives` block for contested topics.
 - Never invent a date; every dated fact needs sources.
-- Wikipedia is a pointer, not a source.
+- Wikipedia is a pointer, not a source. Any other source may be read and rewritten in the museum's own words with a citation; quotations stay under 40 words and the source files stay out of git (`docs/sources-policy.md`).
 - AI-assisted drafts enter as `status.review: draft` with a `generated_by` note. Only a human reviewer sets `reviewed`.
 - No figurative depictions of prophets; no AI-generated portraits; media only from the licence whitelist.
 

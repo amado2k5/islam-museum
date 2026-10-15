@@ -82,5 +82,5 @@ AI-Editor: <editor or host the agent ran in, e.g. Claude desktop app, VS Code, C
 
 - `docs/agents/lanes.md` says who owns what. Stay in your lane; for a change in someone else's lane make the minimal, additive change described above, or write a request file and use the closest existing option meanwhile.
 - Keep your lane's progress file (`docs/delegation/<lane>-progress.md`) current after every push: edition and item used, sections done with pages, section in progress, flagged doubts, the exact next step. Update your lane's row in `docs/status.md` when a book or a stream finishes.
-- If you cannot decide something, flag it in the progress file and continue with the next item; do not stop to ask unless the lane document says to.
+- If you cannot decide something, flag it in the progress file and continue with the next item; do not stop to ask unless the lane document says to. Never wait for the founder's sign-off on using a source, writing an entity, or committing and pushing validated work: that permission is standing (`docs/sources-policy.md` §5).
 - Long jobs (downloads, extraction) run in the harvest workspace outside the repository, use a separate database file per job so locks do not collide, and never block other sessions. After merging anything, record in `docs/status.md` what changed and what the next session should know.

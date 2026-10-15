@@ -87,7 +87,7 @@ Each stage is a small TypeScript script in `scripts/ai/` that can run locally th
 | Wrong dates | Dual-source rule; calendar flags; plausibility rules; Hijri stored as in source; conversions marked derived; anchor tests for the converter |
 | Sectarian bias or polemic | Scope rule (`docs/scope.md`): Sunni frame first and main, every other view labelled before it is stated; contested-topic list triggers mandatory perspectives; validator requires a Sunni first entry and a label on every entry; prose lint for unlabelled non-Sunni statements; neutral-language lint; two reviewers from different backgrounds for Tier A |
 | Over-claiming ("Muslims invented X") | Sources must be T1/T2; superlative lint; phrasing "is credited by…" with cite |
-| Copyright | License whitelist at fetch time; non-commercial content isolated; quotes limited in length; media attribution mandatory |
+| Copyright | Every source is rewritten in the museum's own words with a citation (`docs/sources-policy.md`); quotes limited to 40 words; raw files stay out of git; media from the licence whitelist with attribution |
 | Fabricated sources | `source` entities must resolve (DOI/ISBN/URL check); the citation checker fails the build if a `{cite:}` has no source file |
 | Duplicates and identity confusion (many "Ibn Muhammad") | Reconciliation by external IDs, dates and places; name-forms table; judge asked to confirm identity across sources |
 | Stale content | Wikidata diff job; link-health job; `last_reviewed` ages shown; translations flagged stale by hash |

@@ -13,7 +13,7 @@ You are an agent working on **islam.museum**, a free, static, Arabic-first digit
 In the repository (`~/Documents/GitHub/islam-museum`, or your own clone or worktree of it):
 1. `AGENTS.md` (the rules that never bend), then `docs/agents/README.md`.
 2. `docs/agents/workflow.md` (own worktree, explicit-path commits, fetch and merge before every push, trailers, never revert others' work).
-3. `docs/agents/content-standards.md` and `docs/agents/mining-sources.md` (what an entity looks like, rights: facts and short quotations only, quotes of at most 40 words, no page images or OCR text in git).
+3. `docs/agents/content-standards.md` and `docs/agents/mining-sources.md` (what an entity looks like, rights per `docs/sources-policy.md`: read everything, rewrite in the museum's own words with the page cited, quotes of at most 40 words, no page images or OCR text in git).
 4. `docs/agents/categories/*.md` for the category of the book you take (hadith, tafsir, seerah-tareekh, people, aqeedah-fiqh).
 5. `docs/agents/lanes/library.md`, `docs/plan/15-local-harvest.md` §7 and §6.3, `docs/status.md`.
 
@@ -83,7 +83,7 @@ Before the first batch, take 30 sections at random, run steps 2 to 4, and write 
 
 - Never send book text to any cloud service, and do not use a cloud model to read the books (reading is the local models' job; you orchestrate, check, and write).
 - Never put PDFs, page images, OCR text, claims tables or model outputs in git. Never commit anything under `~/islam-museum-harvest`.
-- Never quote more than 40 words from a book, never republish a page, never paraphrase a chapter into museum prose.
+- Never quote more than 40 words from a book and never republish a page; everything else the book says may be rewritten in the museum's own words on the entity pages with the page cited (`docs/sources-policy.md`), but never as a page-by-page retelling.
 - Never write, complete or "correct" Qur'an text. Never invent a date, a name, a number or a source. Never infer a person's faith.
 - Never overwrite, delete or revert anything you did not create; never `git add -A`; never edit `schema/`, `scripts/validate.ts`, `site/`, or the validator tests (write `docs/requests/lib-<topic>.md` if you need a change). Never kill other tmux sessions.
 - Never mark content `reviewed` or `verified`; contested topics are flagged in the progress file for a Tier A reviewer.

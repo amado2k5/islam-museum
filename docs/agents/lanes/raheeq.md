@@ -1,7 +1,7 @@
 # Lane `raheeq`: al-Raheeq al-Makhtum
 
 **Book:** «الرحيق المختوم: بحث في السيرة النبوية» by صفي الرحمن المباركفوري (1943–2006), 512 pages; PDF page = printed page.
-**Plan (read fully before starting):** `docs/plan/17-raheeq-makhtum.md`: §1 rights (facts, chronology, names, places, numbers with a citation to the book page and the classical source its footnote names; quotes at most 40 words; never republish or paraphrase chapter by chapter), the claims-table procedure and the batch order.
+**Plan (read fully before starting):** `docs/plan/17-raheeq-makhtum.md`: §1 rights (read the whole book and rewrite what it says in the museum's own words, citing the book page and the classical source its footnote names; quotes at most 40 words; `docs/sources-policy.md`), the claims-table procedure and the batch order.
 **Text (outside git):** `~/islam-museum-harvest/raw/books/raheeq-makhtum/`: `book.txt` (markers `===== [pN] =====`), `pages.json`, `pages-png/`, `toc.txt` (pp. 495–512), `bib.txt` (pp. 489–494), `README.md`.
 **Progress and next step:** `docs/delegation/raheeq-progress.md` (read it first, resume at its "next step"; also `git log origin/main --oneline | grep raheeq`).
 **Branch / stubs:** `content/raheeq-<agent>`; `data/_stubs.d/raheeq.yaml`. Commit prefix `content(raheeq)`.
