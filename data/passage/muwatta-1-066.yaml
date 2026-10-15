@@ -3,11 +3,22 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.66"
-label: { ar: "الموطأ 1.66", en: "Muwatta 1.66" }
+label: { ar: "الموطأ 66 — خروج الخطايا مع الوضوء: حديث الصنابحي", en: "Muwatta 66" }
+text: "إذا توضأ العبد المؤمن فتمضمض خرجت الخطايا من فيه، وإذا استنثر خرجت الخطايا من أنفه"
 summary:
-  ar: "إذا توضأ العبد المؤمن فتمضمض خرجت الخطايا من فمه، وتكرر المعنى في الاستنشاق والوجه."
+  ar: "يرويه مالك عن زيد بن أسلم عن عطاء بن يسار عن عبد الله الصنابحي، في باب جامع الوضوء: إذا توضأ المؤمن خرجت خطاياه مع كل عضو يغسله: من فيه بالمضمضة، ومن أنفه بالاستنثار، ومن وجهه حتى من تحت أشفار عينيه، ومن يديه حتى من تحت أظفارهما، ومن رأسه حتى من أذنيه، ومن رجليه حتى من تحت أظفارهما، ثم يكون مشيه إلى المسجد وصلاته نافلة له. ويخرّجه المحقق عند النسائي (1/74) والحاكم (1/129) والبيهقي وأحمد (4/349)، وينقل خلافاً في الراوي: فالبخاري، فيما سأله عنه الترمذي، يرى أن مالكاً وهم في قوله «عبد الله الصنابحي» وأنه أبو عبد الله عبد الرحمن بن عسيلة الذي لم يسمع من النبي فالحديث مرسل، ويرجح ابن عبد البر قول ابن معين إن أحاديثه مرسلة لا صحبة له؛ ويرى المحقق أن ترجيح ابن عبد البر فيه نظر، وأن قول ابن معين الأول «يشبه أن تكون له صحبة» أصح، وينقل عن يعقوب بن شيبة وابن المديني أنهما رجلان أحدهما أدرك النبي والآخر لم يدركه، وعن أبي حاتم أنهم ثلاثة، ويستدل بتصريح عبد الله الصنابحي بالسماع في حديث آخر عند أحمد على صحة صحبته، وبأن ابن حجر ذكره في القسم الأول من الإصابة. {cite:muwatta-maruf-1997 p.67} {cite:muwatta-maruf-1997 p.68} {cite:muwatta-maruf-1997 p.69}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 66 of kitab al-salat at PDF p. 67", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-5" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-usayla-al-sunabihi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-main, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-hajar-al-asqalani, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/maghfira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 66 at PDF p. 67; باب جامع الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 67; matn excerpt at most 40 words; doubt: the narrator printed as عبد الله الصنابحي is linked to person/abd-al-rahman-ibn-usayla-al-sunabihi because the edition's apparatus debates whether they are the same man; the edition itself leans to two different men" }

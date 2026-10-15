@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.57"
-label: { ar: "الموطأ 1.57", en: "Muwatta 1.57" }
+label: { ar: "الموطأ 57 — عثمان يأكل خبزاً ولحماً ثم يصلي ولا يتوضأ", en: "Muwatta 57" }
 summary:
-  ar: "عثمان بن عفان أكل خبزًا ولحمًا ثم تمضمض وغسل يديه ثم صلى دون وضوء جديد."
+  ar: "أثر يرويه مالك عن ضمرة بن سعيد المازني عن أبان بن عثمان، في باب ترك الوضوء مما مست النار: أكل عثمان بن عفان خبزاً ولحماً ثم مضمض وغسل يديه ومسح بهما وجهه ثم صلى ولم يتوضأ. ويذكر المحقق أنه روي بمعناه مرفوعاً من حديث سعيد بن المسيب عن عثمان بإسناد حسن عند عبد الرزاق وأحمد (1/70) والبزار. {cite:muwatta-maruf-1997 p.62}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 57 of kitab al-salat at PDF p. 62", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-5" }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aban-ibn-uthman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/damra-ibn-said-al-mazini, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 57 at PDF p. 62; باب ترك الوضوء مما مست النار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 62; matn excerpt at most 40 words" }
