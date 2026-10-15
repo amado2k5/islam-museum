@@ -1,0 +1,46 @@
+id: person/washmakir-ibn-ziyar
+class: person
+label:
+  ar: وشمكير بن زيار
+  en: Washmakir ibn Ziyar
+summary:
+  ar: "وشمكير بن زيار، أخو مرداويج بن زيار من الجيل إخوة الديلم؛ بعث عنه مرداويج من بلاد كيلان سنة 320هـ فاستظهر به على أمره وولاه الأعمال الجليلة، فلما قتل مرداويج ملك وشمكير طبرستان وجرجان، وتنازع الري وأصفهان مع ركن الدولة بن بويه: طرده من أصفهان سنة 327هـ ثم استردها، وانهزم عن الري لأبي علي بن محتاج صاحب خراسان فلحق بطبرستان، واستنجد بنوح بن سامان حتى ملك جرجان من الحسن بن الفيرزان، وظل ينازع ابن بويه الجبال وجرجان."
+  en: "Washmakir ibn Ziyar, brother of Mardawij ibn Ziyar of the Gilanite brothers of the Daylam; summoned from Gilan in 320 AH to back his brother and given the great commands, he took Tabaristan and Jurjan after Mardawij's killing and contested Rayy and Isfahan with Rukn al-Dawla ibn Buya — expelled from Isfahan in 327 then recovered it, lost Rayy to Abu Ali ibn Muhtaj of Khurasan and fell back on Tabaristan, and won Jurjan from al-Hasan ibn al-Fayruzan with Nuh ibn Saman's aid, staying locked in rivalry with the Buyids over the Jibal and Jurjan."
+gender: male
+roles: [ruler]
+died:
+  edtf: "0967~"
+  hijri: "0356~"
+  calendar: julian
+  precision: decade
+  status: debated
+  derived: true
+  note: سنة وفاته تحتاج توثيقاً دقيقاً من هذا المصدر؛ القرن العاشر الميلادي.
+relations:
+- type: ruler_of
+  target: polity/ziyarid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/mardavij-ibn-ziyar
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: fought
+  target: person/rukn-al-dawla
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة وشمكير وبنيه، ص1222-1223 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
