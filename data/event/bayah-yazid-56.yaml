@@ -1,0 +1,17 @@
+id: event/bayah-yazid-56
+class: event
+kind: other
+label: { ar: "البيعة ليزيد بولاية العهد" }
+summary:
+  ar: "في سنة ست وخمسين دعا معاوية بن أبي سفيان إلى البيعة لابنه يزيد بولاية العهد، بإشارة من المغيرة بن شعبة؛ وكان زياد بن أبيه قد كره ذلك لما يعرفه من لعب يزيد وإقباله على الصيد، فأرسل إلى معاوية يثنيه عنه، ثم فُرغ منه بعد وفاة زياد {cite:bakr-umayyad-state-1134715 p. 146}. ثم استدعى معاوية في طريقه من مكة إلى الشام الخمسة الذين امتنعوا: عبد الرحمن بن أبي بكر وعبد الله بن عمر وعبد الله بن الزبير والحسين بن علي وابن عباس، فكان عبد الرحمن أشدهم ردا، وخطب بالمدينة وهم تحت منبره، فبايع الناس ليزيد دون أن يظهروا خلافا {cite:bakr-umayyad-state-1134715 p. 147}."
+date:
+  start: { hijri: "0056", precision: year, status: historical, note: "سنة 56هـ كما يذكر الكتاب (ص 146)؛ لم يُحوَّل إلى الميلادي." }
+wings: [time, people]
+regions: [arabia]
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "الداعي إلى البيعة", sources: [source/bakr-umayyad-state-1134715] }
+  - { type: had_participant, target: person/yazid-ibn-muawiya, role: "المبايَع بولاية العهد", sources: [source/bakr-umayyad-state-1134715] }
+sources: [source/bakr-umayyad-state-1134715]
+provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 pp. 146-147", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 146-147" }
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 146-147" }

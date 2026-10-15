@@ -1,0 +1,19 @@
+id: event/battle-of-khazir
+aliases: [event/battle-of-nahr-al-khazir]   # same battle; entered from the Khudari pass, merged here
+class: event
+kind: battle
+label: { ar: "وقعة الخازر" }
+summary:
+  ar: "في سنة ست وستين سار عبيد الله بن زياد بعساكر الشام نحو العراق، فلما انتهى إلى الموصل التقى بإبراهيم بن الأشتر النخعي، وكان على خيل العراق من قبل المختار، بالخازر، فكانت وقعة عظيمة قُتل فيها عبيد الله بن زياد والحصين بن نمير وشرحبيل بن ذي الكلاع وأشراف من أهل الشام {cite:bakr-umayyad-state-1134715 p. 209}. وذكر الكتاب أن المختار بن أبي عبيد بعث جنداً على رأسهم إبراهيم بن الأشتر لقتال عبيد الله بن زياد، وأن الغلبة كانت لابن الأشتر، وأصاب جند الشام قتلاً وغرقاً {cite:khudari-umayyad-state p.300}، وأن انهزام جند الشام كان في الوقت الذي نبض فيه عرق العصبية بين قيس واليمن {cite:khudari-umayyad-state p.365}."
+date:
+  start: { hijri: "0066", precision: year, status: historical, note: "سنة 66هـ كما يذكر الكتاب (ص 209)؛ لم يُحوَّل إلى الميلادي." }
+wings: [time, people, place]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/bakr-umayyad-state-1134715] }
+  - { type: had_participant, target: person/ubayd-allah-ibn-ziyad, role: "قائد جيش الشام", sources: [source/bakr-umayyad-state-1134715] }
+  - { type: had_participant, target: person/ibrahim-ibn-al-ashtar, role: "قائد خيل العراق", sources: [source/bakr-umayyad-state-1134715] }
+sources: [source/bakr-umayyad-state-1134715, source/khudari-umayyad-state]
+provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 p. 209; khudari-umayyad-state pp. 300, 365", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 p. 209" }
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 p. 209" }

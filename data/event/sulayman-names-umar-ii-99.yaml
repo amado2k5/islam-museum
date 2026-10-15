@@ -1,0 +1,18 @@
+id: event/sulayman-names-umar-ii-99
+class: event
+kind: other
+label: { ar: "عهد سليمان بن عبد الملك بالخلافة إلى عمر بن عبد العزيز" }
+summary:
+  ar: "لما حضرت سليمان بن عبد الملك الوفاة بمرج دابق دعا رجاء بن حيوة ومحمد بن شهاب الزهري ومكحولاً وغيرهم من العلماء ممن كان في عسكره، فكتب وصيته وأشهدهم عليها، وأمرهم إذا مات أن ينادوا بالصلاة جامعة ثم يقرأوا الكتاب على الناس {cite:bakr-umayyad-state-1134715 p. 261-262}. فلما فرغ من دفنه نودي بذلك، فقام الزهري فسأل الناس أرضوا بمن سماه أمير المؤمنين في وصيته؟ فقرأ الكتاب فإذا فيه اسم عمر بن عبد العزيز ومن بعده يزيد بن عبد الملك {cite:bakr-umayyad-state-1134715 p. 262}. وكان عمر في أواخر الناس، فلما دُعي باسمه استرجع، فأُخذ بيده حتى صعد المنبر، وكان أول من بايعه يزيد بن عبد الملك، وبايع الناس، ثم بايع سعيد وهشام بعد يومين {cite:bakr-umayyad-state-1134715 p. 262}. وذكر الكتاب أن ذلك كان لعشر بقين من صفر سنة تسع وتسعين، وهو يوم وفاة سليمان {cite:bakr-umayyad-state-1134715 p. 261}."
+date:
+  start: { hijri: "0099-02", precision: month, status: historical, note: "لعشر بقين من صفر سنة تسع وتسعين {cite:bakr-umayyad-state-1134715 p. 261}" }
+relations:
+  - { type: had_participant, target: person/sulayman-ibn-abd-al-malik, role: "صاحب الوصية", sources: [source/bakr-umayyad-state-1134715] }
+  - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "المعهود إليه بالخلافة", sources: [source/bakr-umayyad-state-1134715] }
+  - { type: occurred_at, target: place/marj-dabiq, sources: [source/bakr-umayyad-state-1134715] }
+sources: [source/bakr-umayyad-state-1134715]
+provenance:
+  layer: own-research
+  source: "bakr-umayyad-state-1134715 pp. 261-262"
+  generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 261-262"
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 261-262" }

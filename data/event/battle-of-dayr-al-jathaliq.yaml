@@ -1,0 +1,17 @@
+id: event/battle-of-dayr-al-jathaliq
+class: event
+kind: battle
+label: { ar: "وقعة دير الجاثليق" }
+summary:
+  ar: "في سنة اثنتين وسبعين خرج مصعب بن الزبير بأهل العراق يريد عبد الملك بن مروان بالشام، فنزل عبد الملك بدير الجاثليق من أرض السواد، ولحقت به رايات من ربيعة، وأُفرد مصعب في سبعة نفر بعد أن تخلى عنه من كان معه من مصر واليمن، فقاتل حتى قُتل، وجيء برأسه إلى عبد الملك {cite:bakr-umayyad-state-1134715 p. 216}{cite:bakr-umayyad-state-1134715 p. 218}{cite:bakr-umayyad-state-1134715 p. 220}."
+date:
+  start: { hijri: "0072", precision: year, status: historical, note: "سنة 72هـ كما يذكر الكتاب (ص 216)؛ لم يُحوَّل إلى الميلادي." }
+wings: [time, people, place]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/musab-ibn-al-zubayr, role: "قائد أهل العراق لابن الزبير", sources: [source/bakr-umayyad-state-1134715] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "الأمير المنتصر", sources: [source/bakr-umayyad-state-1134715] }
+sources: [source/bakr-umayyad-state-1134715]
+provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 pp. 216-220", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 216-220" }
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 216-220" }

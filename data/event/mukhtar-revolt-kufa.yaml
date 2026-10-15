@@ -1,0 +1,18 @@
+id: event/mukhtar-revolt-kufa
+class: event
+kind: revolt
+label: { ar: "ثورة المختار بن أبي عبيد بالكوفة" }
+summary:
+  ar: "في سنة خمس وستين تحركت الشيعة بالكوفة {cite:bakr-umayyad-state-1134715 p. 206}. كان المختار بن أبي عبيد الثقفي قد بعثه ابن الزبير إلى الكوفة، فنزل ناحية منها يظهر البكاء على الطالبيين ويحث على الثأر لهم، فمالت إليه الشيعة، وأخرج عبد الله بن مطيع من قصر الإمارة وغلب على الكوفة {cite:bakr-umayyad-state-1134715 p. 194}. وفي سنة ست وستين كان إبراهيم بن الأشتر على خيل العراق من قبل المختار، فالتقى بعبيد الله بن زياد بالخازر وقتله {cite:bakr-umayyad-state-1134715 p. 209}. وجيء برأس المختار بين يدي مصعب بن الزبير بحسب رواية يذكرها الكتاب {cite:bakr-umayyad-state-1134715 p. 220}."
+date:
+  start: { hijri: "0065", precision: year, status: historical, note: "سنة 65هـ كما يذكر الكتاب (ص 206)؛ لم يُحوَّل إلى الميلادي." }
+wings: [time, people, place]
+regions: [levant-iraq]
+periods: [period/umayyad]
+relations:
+  - { type: occurred_at, target: place/kufa, sources: [source/bakr-umayyad-state-1134715] }
+  - { type: had_participant, target: person/al-mukhtar-ibn-abi-ubayd, role: "قائد الثورة", sources: [source/bakr-umayyad-state-1134715] }
+  - { type: had_participant, target: person/ibrahim-ibn-al-ashtar, role: "قائد خيل المختار", sources: [source/bakr-umayyad-state-1134715] }
+sources: [source/bakr-umayyad-state-1134715]
+provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 pp. 194, 206, 209, 220", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 194-220" }
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 194-220" }
