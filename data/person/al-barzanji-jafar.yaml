@@ -1,0 +1,23 @@
+id: person/al-barzanji-jafar
+class: person
+label: { ar: "البرزنجي", en: "al-Barzanji" }
+names:
+  - { kind: full, lang: ar, value: "جعفر بن حسن بن عبد الكريم" }
+  - { kind: nisba, lang: ar, value: "البرزنجي" }
+gender: male
+roles: [scholar, mystic]
+traditions: [sunni]
+born: { edtf: "1716", hijri: "1128", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1763", hijri: "1177", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم من عائلة البرزنجي السادات بالمدينة المنورة، وهي أسرة معروفة بالعلم والصلاح، وتوفي سنة 1177هـ."
+  en: "Scholar from the Barzanji family of sayyids in Medina, a family known for learning and piety; died 1177 AH."
+wings: [people, ideas]
+themes: [spirituality-and-sufism]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 p. 331, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص331", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
