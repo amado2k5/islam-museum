@@ -10,7 +10,7 @@ themes: [sacred-space-and-pilgrimage]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0632-06", hijri: "0011-03", calendar: julian, precision: month, status: tradition }
+  start: { edtf: "0632-06-10", hijri: "0011-03-14", calendar: julian, precision: day, status: tradition, derived: true, note: "دُفن من وسط الليل ليلة الأربعاء بعد أن قضى الصحابة يوم الثلاثاء في تجهيزه (ابن هشام، تحقيق السقا 4/314؛ الرحيق المختوم ص 472). الليلة تُنسب في التقويم الهجري إلى يومها التالي، فليلة الأربعاء التالية ليوم الثلاثاء 13 ربيع الأول هي 14 ربيع الأول. التاريخ اليولياني مشتق من يوم الوفاة الاثنين 8 يونيو 632: الدفن حول منتصف ليلة 9–10 يونيو، ويُسجَّل بيوم الأربعاء 10 يونيو.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad }
@@ -18,5 +18,5 @@ relations:
   - { type: had_participant, target: person/ali-ibn-abi-talib }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/death-of-the-prophet }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim]
+sources: [source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa, source/watt-1956-medina, source/lings-1983, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked" }
