@@ -1,0 +1,20 @@
+id: journey/sanaa-to-aden-battuta
+class: journey
+kind: travel
+label: { ar: "من صنعاء إلى عدن في رحلة ابن بطوطة" }
+summary:
+  ar: "مرحلة من رحلة ابن بطوطة في اليمن: بعد أن أقام في صنعاء وزار جامعها، سافر منها إلى عدن، وهي مرسى على ساحل البحر تحفها الجبال ولا زرع فيها ولا شجر، وتعتمد على الصهاريج لمياه المطر."
+wings: [time, place, people]
+periods: [period/mongol-post-mongol]
+regions: [arabia]
+travelers: [person/ibn-battuta-muhammad]
+legs:
+  - { from: place/sanaa, to: place/aden, mode: "سفر بري", note: "النص يذكر أنه سافر من صنعاء إلى عدن دون أن يذكر مدة الطريق أو تفاصيله؛ وذكر أن بين زبيد وصنعاء أربعين فرسخاً، وأن بين ظفار وعدن في البر مسيرة شهر (الصفحة 159 من الطبعة، ترقيم المطبوع؛ الصفحة 160 من الماسح الضوئي).", sources: [source/rihla-ibn-battuta-1958] }
+relations: []
+sources: [source/rihla-ibn-battuta-1958]
+provenance: { layer: own-research, source: "Rihla of Ibn Battuta, Arabic edition 1958, printed pages 159 (scan p. 160)", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-battuta-yemen" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Battuta printed p. 159; the Sanaa to Aden leg is stated in order, the journey on the road itself is not described" }
+
+waypoints:
+  - {"place": "place/sanaa", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "صنعاء"}, "narrative": {"ar": "نقطة الانطلاق: صنعاء. يصفها ابن بطوطة بأن أمطارها وابلة متدفقة، وأن جامعها من أحسن الجوامع وفيه أثر نبي من الأنبياء عليهم السلام؛ ثم سافر منها إلى عدن (الصفحة 159 من الطبعة)."}, "sources": ["source/rihla-ibn-battuta-1958"]}
+  - {"place": "place/aden", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "عدن"}, "narrative": {"ar": "عدن مرسى بلاد اليمن على ساحل البحر الأعظم، تحف بها الجبال ولا مدخل إليها إلا من جانب واحد، وهي مدينة كبيرة لا زرع فيها ولا شجر ولا ماء، وبها صهاريج يجتمع فيها الماء أيام المطر (الصفحة 159 من الطبعة)."}, "sources": ["source/rihla-ibn-battuta-1958"]}
