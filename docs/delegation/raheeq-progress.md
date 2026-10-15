@@ -16,7 +16,7 @@
 | 1 موقع العرب وأقوامها | 15–22 | **done**: 1a `bcebba1f` (17 new entities), 1b `9b15fd0e` (21 tribal groups), 1c `6f4975da` (lineage persons, Ibrahim-cycle events, Nabataean polity, 9 appended sections) |
 | 2 الحكم والإمارة في العرب | 23–34 | **done**: 2a `d5147463` (polities, events, political condition), 2b `1cc845ca` (kings and chiefs), 2c (Mecca: Qusayy, Hulayl, Abu Ghubshan, Ya'mar, Hashim, al-Muttalib, Abd Manaf, Dar al-Nadwa, the expulsion of Jurhum, Qusayy's takeover; new concept/manasib-quraysh, polity/emirate-of-hijaz, event/partition-of-meccan-offices, groups sufa/adwan, persons amr-ibn-al-harith-al-jurhumi/bukhtanasar, a question; sections on Kaaba, Abd al-Muttalib, al-Abbas) |
 | 3 ديانات العرب / الحالة الدينية | 35–42 | **done**: 3a (religions overview, idol-worship rites, Judaism, Christianity, Najran Christians, Jewish tribes, 8 belief concepts, a question), 3b (9 idols, Amr ibn Luhayy, Faymiyun rewritten; sections on Qudayd, Wadi Nakhla, Ta'if, Najran, Khaybar, Tayma, the cleansing of the Kaaba, Sa'id ibn al-Musayyab, Nadir/Qurayza/Qaynuqa/Khaybar Jews; revealed_about edges from 6:136, 6:138, 39:3, 10:18) |
-| 4 صور من المجتمع الجاهلي | 43–47 | pending |
+| 4 صور من المجتمع الجاهلي | 43–47 | done 5cc11777 (4a: 13 entities) |
 | 5 نسب النبي وأسرته | 48–53 | pending |
 | 6 المولد وأربعون عاماً | 54–64 | pending |
 | 7 في ظلال النبوة / الدعوة السرية | 65–77 | pending |

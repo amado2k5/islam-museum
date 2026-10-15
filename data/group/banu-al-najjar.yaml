@@ -1,0 +1,23 @@
+id: group/banu-al-najjar
+class: group
+kind: clan
+label: { ar: "بنو النجار", en: "Banu al-Najjar" }
+summary:
+  ar: "بطن من الخزرج بيثرب، أخوال عبد المطلب: منهم سلمى بنت عمرو من بني عدي بن النجار زوج هاشم، وفي بيت أبيها نشأ عبد المطلب؛ ولما غصبه نوفل أركاحه استنجد بهم فجاء خاله أبو سعد بن عدي في ثمانين راكباً حتى رُدّ حقه، فقالت خزاعة: نحن ولدناه كما ولدتموه."
+  en: "A clan of the Khazraj at Yathrib, the maternal kin of Abd al-Muttalib: Salma bint Amr of Banu Adi ibn al-Najjar was Hashim's wife and Abd al-Muttalib grew up in her father's house; when Nawfal seized his property he appealed to them and his uncle Abu Sa'd ibn Adi came with eighty riders until his right was restored, prompting Khuza'a to claim an equal kinship."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: group/al-khazraj, sources: [source/mubarakpuri-raheeq] }
+  - { type: lived_in, target: place/medina, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: participated_in, target: event/recovery-of-abd-al-muttalib-rights, role: "أخوال عبد المطلب الذين نصروه", sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص49–53 نقلاً عن ابن هشام 1/137–158 ومختصر سيرة الرسول للنجدي ص41–42 وتفهيم القرآن 6/462–469"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-5a"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/mukhtasar-sirat-al-rasul-al-najdi]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 49–50" }

@@ -1,0 +1,32 @@
+id: concept/nasab-al-nabi
+class: concept
+kind: term
+label: { ar: "النسب النبوي وأجزاؤه الثلاثة", en: "The Prophet's lineage and its three parts" }
+summary:
+  ar: "يقسّم الرحيق المختوم نسب النبي ثلاثة أجزاء: جزء اتفق على صحته أهل السير والأنساب وهو إلى عدنان (محمد بن عبد الله بن عبد المطلب واسمه شيبة بن هاشم واسمه عمرو بن عبد مناف واسمه المغيرة بن قصي واسمه زيد بن كلاب بن مرة بن كعب بن لؤي بن غالب بن فهر بن مالك بن النضر بن كنانة بن خزيمة بن مدركة بن إلياس بن مضر بن نزار بن معد بن عدنان)، وجزء اختلفوا فيه بين متوقف وقائل به وهو ما فوق عدنان إلى إبراهيم، وجزء لا شك أن فيه أموراً غير صحيحة وهو ما فوق إبراهيم إلى آدم."
+  en: "al-Raheeq al-Makhtum divides the Prophet's lineage into three parts: one agreed on by the sira and genealogy scholars, up to Adnan; one disputed, between those who suspend judgement and those who affirm it, from Adnan up to Ibrahim; and one that certainly contains unsound matter, from Ibrahim up to Adam."
+wings: [ideas, people]
+themes: [family-marriage-kinship, names-and-honorifics]
+periods: [period/prophetic-era, period/pre-islamic-arabia]
+regions: [arabia]
+issue:
+  ar: "هل يُرفع النسب النبوي فوق عدنان، وما حكم ما فوق إبراهيم؟"
+perspectives:
+  - tradition: sunni
+    id: mubarakpuri-three-parts
+    stance:
+      ar: "صحيح إلى عدنان، مختلف فيه فوقه، غير موثوق فوق إبراهيم"
+    summary:
+      ar: "يرى المباركفوري أن الجزء إلى عدنان متفق على صحته، وما فوقه إلى إبراهيم مختلف فيه بين متوقف وقائل، وما فوق إبراهيم فيه أمور غير صحيحة قطعاً؛ وينقل أن المنصور فوري جمع الجزء الثاني برواية الكلبي وابن سعد مع اختلاف كبير بين المصادر."
+    holders: [source/mubarakpuri-raheeq]
+    evidence:
+      - { ref: source/mubarakpuri-raheeq, note: { ar: "ص48–49" } }
+    sources: [source/mubarakpuri-raheeq, source/rahma-lil-alamin]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص48–53 نقلاً عن ابن هشام 1/1–4 و107 و137–158 وتلقيح فهوم أهل الأثر ص4–9 ورحمة للعالمين 2/11–91 ومختصر سيرة الرسول للنجدي ص12 و41–42 وتفهيم القرآن 6/462–469 وطبقات ابن سعد 1/62"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-5a"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/talqih-fuhum-ahl-al-athr]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 48–49" }
