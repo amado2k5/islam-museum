@@ -1,0 +1,21 @@
+id: event/capitulations-941
+class: event
+kind: treaty
+label: { ar: "معاهدة الامتيازات العثمانية الفرنسية" }
+summary:
+  ar: "بدأت مفاوضات فرنسا مع الدولة العثمانية بعد معركة بافيا التي أُسر فيها ملك فرنسا فرانسوا الأول عام ١٥٢٥م، فأرسلت والدته والوصية على العرش مبعوثها جون فرانجيباني ومعه خطاب منها وخطاب من الملك الأسير يطلبان فيهما مهاجمة قوات عائلة الهابسبورج وإطلاق سراح الأسير. وبعد إطلاق سراحه أرسل فرانسوا في عام ٩٤١هـ/١٥٣٥م سكرتيره جان دي لافوريه إلى السلطان سليمان بهدف عقد تحالف في شكل معاهدة سُميت بمعاهدة الامتيازات العثمانية الفرنسية، ومن أهم نصوصها: حرية التنقل والملاحة في سفن مسلحة وغير مسلحة، وحق التجارة في كل أجزاء الدولة العثمانية، ودفع الرسوم مرة واحدة، وأن الضرائب التي يدفعها الفرنسيون هي نفسها التي يدفعها الرعايا الأتراك، وحق التمثيل القنصلي مع حصانة، وأن ينظر القنصل الفرنسي في قضايا رعايا ملكه المدنية والجنائية، وحرية العبادة لرعايا الملك، ومنع استعباد رعيته. وكان من نتائجها زيادة التعاون بين الأسطولين الفرنسي والعثماني وشن الأسطول العثماني هجمات قوية على شواطئ مملكة نابولي {cite:dawlat-uthmaniyya-salabi p. 203}."
+  en: "The Franco-Ottoman Capitulations of 1535 — born of Francis I's captivity at Pavia and his mother's letter to Sulayman: free navigation, consular jurisdiction, freedom of worship and protection from enslavement, sealed with joint fleets against Naples {cite:dawlat-uthmaniyya-salabi p. 203}."
+wings: [time, ideas]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1535", hijri: "0941", calendar: julian, precision: year, status: tradition, derived: true, note: "٩٤١هـ/١٥٣٥م {cite:dawlat-uthmaniyya-salabi p. 203}." }
+relations:
+  - { type: had_participant, target: person/sulayman-al-qanuni, role: "الطرف العثماني", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 203"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-2
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

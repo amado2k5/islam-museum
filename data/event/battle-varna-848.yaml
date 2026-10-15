@@ -1,0 +1,21 @@
+id: event/battle-varna-848
+class: event
+kind: battle
+label: { ar: "وقعة وارنه ونقض المعاهدة" }
+summary:
+  ar: "حرض أحد الملوك النصارى ملوكهم على نقض المعاهدة مع المسلمين وأقنع كل من اعترض عليه أنه باسم البابا يبرئ ذمتهم من نكثها ويبارك جنودهم وأسلحتهم، فنقض النصارى عهودهم وحشدوا الجيوش وحاصروا مدينة وارنه البلغارية الواقعة على ساحل البحر الأسود والتي كانت قد تحررت على أيدي المسلمين. ولما سمع المسلمون في أدرنة بزحف الصليبيين انتابهم الفزع وبعث رجال الدولة إلى السلطان مراد الثاني يستعجلون قدومه، فخرج من خلوته ليقود الجيوش، واتفق مع الأسطول الجنوي فنقل أربعين ألفاً من الجيش العثماني من آسيا إلى أوروبا تحت سمع الأسطول الصليبي وبصره في مقابل دينار لكل جندي. وأسرع مراد في السير فوصل وارنه في اليوم نفسه الذي وصل فيه الصليبيون، ووضع المعاهدة التي نقضها أعداؤها على رأس رمح ليشهدهم ويشهد السماء والأرض على الغدر، ودارت معركة رهيبة كاد فيها النصر للنصارى حتى التقى الملك لاديسلاس مع السلطان مراد وجهاً لوجه فعاجله بضربة من رمحه أسقطته عن جواده فجز المجاهدون رأسه ورفعوه على رمح مهللين مكبرين، فاستحوذ الفزع على جموع النصارى وبددت شملهم وولّوا مدبرين {cite:dawlat-uthmaniyya-salabi p. 81-82}."
+  en: "Varna 1444 — Murad II came out of his retreat, ferried 40,000 men past the crusader fleet on Genoese hulls, raised the broken treaty on a spear-point, and unhorsed King Ladislas with his own lance {cite:dawlat-uthmaniyya-salabi p. 81-82}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1444-11-10~", hijri: "0848", calendar: julian, precision: year, status: tradition, derived: true, note: "٨٤٨هـ {cite:dawlat-uthmaniyya-salabi p. 81-82}." }
+relations:
+  - { type: had_participant, target: person/murad-ii-uthmani, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 81-82"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-2
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

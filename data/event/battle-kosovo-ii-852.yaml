@@ -1,0 +1,21 @@
+id: event/battle-kosovo-ii-852
+class: event
+kind: battle
+label: { ar: "وقعة قوصوه الثانية" }
+summary:
+  ar: "كانت هذه المعركة في سهول قوصوه في ١٧ أكتوبر سنة ٨٥٢هـ/١٤٤٨م، واستمرت ثلاثة أيام وانتهت بفوز ساحق للعثمانيين. وقد أخرجت هذه المعركة بلاد المجر لعشر سنوات على الأقل من عداد الدول التي تستطيع النهوض بعمليات حربية هجومية ضد العثمانيين {cite:dawlat-uthmaniyya-salabi p. 82}."
+  en: "The Second Battle of Kosovo, 17 October 1448 — three days ending in a crushing Ottoman victory that took Hungary out of offensive war for a decade {cite:dawlat-uthmaniyya-salabi p. 82}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1448-10-17", hijri: "0852", calendar: julian, precision: day, status: tradition, derived: true, note: "١٧ أكتوبر ٨٥٢هـ/١٤٤٨م {cite:dawlat-uthmaniyya-salabi p. 82}." }
+relations:
+  - { type: had_participant, target: person/murad-ii-uthmani, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 82"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-2
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

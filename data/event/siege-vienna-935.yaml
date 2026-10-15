@@ -1,0 +1,21 @@
+id: event/siege-vienna-935
+class: event
+kind: siege
+label: { ar: "حصار فيينا الأول" }
+summary:
+  ar: "تابع السلطان سليمان القانوني ضغطه بعد موهاكس حتى بلغت جيوشه أسوار فيينا عاصمة الإمبراطورية الرومانية المقدسة عام ١٥٢٩م، إلا أن طول خطوط المواصلات وتحول شارل كان من قتال فرانسوا إلى التصالح معه للتفرغ لحرب العثمانيين ولإنقاذ عاصمة الهابسبورج جعل من المستحيل على سليمان فتح هذه العاصمة، فتراجع عنها بينما استمر الصراع بين سليمان والقوى الأوروبية المؤيدة لملك المجر من أجل السيطرة على هذه المملكة حتى وفاة سليمان {cite:dawlat-uthmaniyya-salabi p. 202}."
+  en: "The first siege of Vienna, 1529 — Sulayman's army reached the Habsburg capital's walls but long supply lines and Charles V's new peace with France forced the withdrawal {cite:dawlat-uthmaniyya-salabi p. 202}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1529", hijri: "0935", calendar: julian, precision: year, status: tradition, derived: true, note: "١٥٢٩م {cite:dawlat-uthmaniyya-salabi p. 202}." }
+relations:
+  - { type: had_participant, target: person/sulayman-al-qanuni, role: "القائد المحاصر", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 202"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-2
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

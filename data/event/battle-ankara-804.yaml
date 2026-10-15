@@ -1,0 +1,21 @@
+id: event/battle-ankara-804
+class: event
+kind: battle
+label: { ar: "وقعة أنقرة وأسر بايزيد الصاعقة" }
+summary:
+  ar: "التقى جيشا بايزيد الأول وتيمورلنك قرب أنقرة في عام ٨٠٤هـ/١٤٠٢م، وكانت قوات بايزيد تبلغ نحو مئة وعشرين ألف مجاهد لملاقاة خصمه، وزحف تيمورلنك على رأس قوات جرارة في ٢٠ يوليو ١٤٠٢م، وكان الوقت صيفاً شديد القيظ ومات كثير من جنود بايزيد عطشاً لقلة الماء، ولم يكد يلتقي الجيشان حتى فرّ الجنود التتار الذين كانوا في جيش بايزيد وجنود الإمارات الآسيوية التي فتحها منذ عهد قريب وانضموا إلى جيش تيمورلنك، فانتصر المغول ووقع بايزيد في الأسر وظل يرسف في أغلاله حتى وافاه الأجل في السنة التالية. وفرحت الدول النصرانية في الغرب بنصر تيمورلنك وبعث ملوك إنكلترا وفرنسا وقشتالة وإمبراطور القسطنطينية إلى تيمورلنك يهنئونه، واعتقدت أوروبا أنها تخلصت إلى الأبد من الخطر العثماني. واستولى تيمورلنك بعد الهزيمة على أزنيق وبروسة ودك أسوار أزمير وخلصها من قبضة فرسان رودس محاولاً تبرير موقفه أمام الرأي العام الإسلامي {cite:dawlat-uthmaniyya-salabi p. 69-70}."
+  en: "Ankara 1402 — Timur's host broke Bayezid's 120,000 in the July heat as his Tatar and Anatolian levies defected; the Thunderbolt died in chains the next year while Europe's kings congratulated Timur {cite:dawlat-uthmaniyya-salabi p. 69-70}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1402-07-20", hijri: "0804", calendar: julian, precision: day, status: tradition, derived: true, note: "٢٠ يوليو ٨٠٤هـ/١٤٠٢م {cite:dawlat-uthmaniyya-salabi p. 69}." }
+relations:
+  - { type: had_participant, target: person/bayazid-i-yildirim, role: "المهزوم الأسير", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 69-70"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-2
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

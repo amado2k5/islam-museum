@@ -1,0 +1,21 @@
+id: event/battle-ridaniyya-923
+class: event
+kind: battle
+label: { ar: "وقعة الريدانية وسقوط دولة المماليك" }
+summary:
+  ar: "أرسل السلطان سليم إلى زعيم المماليك في مصر طومان باي أن يلتزم بالطاعة للدولة العثمانية، فكان رد المماليك السخرية برسول السلطان ثم قتله، فقرر سليم الحرب وتحرك نحو مصر وقطع صحراء فلسطين ونزلت الأمطار على أماكن سير الحملة مما يسّر على الجيش قطع الصحراء. وحقق العثمانيون انتصاراً ساحقاً على المماليك في معركة غزة ثم معركة الريدانية، ودخل سليم مصر فقال جرامرد الناصري لم نر في التواريخ ولا سمعنا أن مصر من حين صارت دار الإسلام أصيبت بمثل هذه المصيبة. وكان مما قاله سليم لطومان باي بعد هزيمته: أنا ما جئت عليكم إلا بفتوى علماء الأمصار، وأنا كنت متوجهاً إلى جهاد الرافضة (يعني الصفويين) والفجار (يعني بهم البرتغاليين وفرسان القديس يوحنا)، فلما بغى أميركم الغوري وجاء بالعساكر إلى حلب واتفق مع الرافضة واختار أن يمشي إلى مملكتي التي هي موروث آبائي وأجدادي، فلما تحققت ذلك تركت الرافضة ومشيت إليه {cite:dawlat-uthmaniyya-salabi p. 186-187}."
+  en: "Ridaniyya, 1517 — the Mamluks' execution of Selim's envoy brought the Ottoman army across Sinai; Gaza then Ridaniyya broke Tuman Bay and ended the Circassian sultanate. Selim's defence: 'I came only with the ulema's fatwa — I was bound for jihad against the Rafida and the fujjar until your Ghawri marched into my inherited kingdom' {cite:dawlat-uthmaniyya-salabi p. 186-187}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1517-01-22~", hijri: "0923", calendar: julian, precision: month, status: tradition, derived: true, note: "٩٢٣هـ/١٥١٧م {cite:dawlat-uthmaniyya-salabi p. 186-187}." }
+relations:
+  - { type: had_participant, target: person/selim-i-ottoman, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 186-187"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-2
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

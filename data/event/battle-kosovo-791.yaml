@@ -1,0 +1,21 @@
+id: event/battle-kosovo-791
+class: event
+kind: battle
+label: { ar: "وقعة قوصوه الأولى واستشهاد مراد الأول" }
+summary:
+  ar: "وصل السلطان مراد الأول بجيوشه إلى منطقة كوسوفو في البلقان، ونشب القتال بين الجمعين وحمي وطيسه وانجلت الحرب عن انتصار المسلمين انتصاراً باهراً حاسماً. وبعد الانتصار قام السلطان يتفقد ساحة المعركة يدور بنفسه بين صفوف القتلى من المسلمين يدعو لهم ويتفقد الجرحى، وفي أثناء ذلك قام جندي من الصرب كان قد تظاهر بالموت فأسرع نحو السلطان فتمكن الحرس من القبض عليه، لكنه تظاهر بأنه جاء يريد محادثة السلطان وأن يعلن إسلامه على يديه، فأشار السلطان للحرس بأن يطلقوه فتظاهر بأنه يريد تقبيل يد السلطان وأخرج في حركة سريعة خنجراً مسموماً طعن به السلطان فاستشهد في ١٥ شعبان سنة ٧٩١هـ بعد أن بلغ من العمر خمساً وستين عاماً. ومن كلماته الأخيرة: أطيعوا ابني يزيد ولا تعذبوا الأسرى ولا تؤذوهم ولا تسلبوهم، وأودعكم منذ هذه اللحظة وأودع جيشنا الظافر العظيم إلى رحمة الله {cite:dawlat-uthmaniyya-salabi p. 60-61}."
+  en: "Kosovo 1389 — the Ottomans' decisive Balkan victory, after which a Serbian soldier feigning death then conversion stabbed Sultan Murad I with a poisoned dagger as he walked the battlefield among the Muslim dead (15 Sha'ban 791) {cite:dawlat-uthmaniyya-salabi p. 60-61}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1389-08-27~", hijri: "0791-08-15", calendar: julian, precision: day, status: tradition, derived: true, note: "١٥ شعبان ٧٩١هـ؛ التحويل مشتق {cite:dawlat-uthmaniyya-salabi p. 60}." }
+relations:
+  - { type: had_participant, target: person/murad-i-uthmani, role: "القائد المستشهد", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 60-61"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-2
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

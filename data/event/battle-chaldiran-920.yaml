@@ -1,0 +1,21 @@
+id: event/battle-chaldiran-920
+class: event
+kind: battle
+label: { ar: "موقعة جالديران ودخول تبريز" }
+summary:
+  ar: "أدرك السلطان سليم الأول أن خطة الشاه إسماعيل الصفوي تتلخص في المهادنة والتباطؤ لتأجيل اللقاء حتى يحين فصل الشتاء فيهلك العثمانيون برداً وجوعاً، فأسرع في تحريك الصراع وأرسل إليه خرقة ومسبحة وكشكولاً وعصاً مرمزة فوق الدراويش يذكره بأصله وبأهل الأسرة الصفوية، وردّ الشاه بطلب المهادنة فلم يقبل سليم وأهان رسوله وأمر بقتله. وسار سليم نحو صحراء جالديران فوصلها في أغسطس سنة ١٥١٤م واحتل المواقع الهامة واعتلى الأماكن الهضبية مما مكنه من إيقاع هزيمة ساحقة بالجيش الصفوي على أرضه، واضطر إسماعيل إلى الفرار في الوقت الذي كان سليم يستعد فيه للدخول إلى تبريز عاصمة الصفويين، فدخلها وحصر أموال الشاه ورجال القزلباش واتخذها مركزاً لعملياته الحربية، وعاد بعد أن استولى على كردستان وديار بكر ومرعش وإيلبسن، فصارت الأناضول مأمونة من الاعتداء من الشرق وصارت الطرق إلى أذربيجان والقوقاز مفتوحة للعثمانيين {cite:dawlat-uthmaniyya-salabi p. 181}."
+  en: "Chaldiran, August 1514 — Selim forced the issue before winter, sent the shah a dervish's cloak, beads, bowl and staff to mock his Sufi lineage, killed his envoy, then crushed the Safavid army and entered Tabriz; Kurdistan and Diyarbakir became Ottoman {cite:dawlat-uthmaniyya-salabi p. 181}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [persia-central-asia, anatolia-balkans]
+date:
+  start: { edtf: "1514-08-23~", hijri: "0920", calendar: julian, precision: month, status: tradition, derived: true, note: "أغسطس ١٥١٤م/٩٢٠هـ {cite:dawlat-uthmaniyya-salabi p. 181}." }
+relations:
+  - { type: had_participant, target: person/selim-i-ottoman, role: "القائد الغالب", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 181"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-2
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
