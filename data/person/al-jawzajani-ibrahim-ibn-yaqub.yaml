@@ -1,0 +1,22 @@
+id: person/al-jawzajani-ibrahim-ibn-yaqub
+class: person
+label: { ar: "الجوزجاني إبراهيم بن يعقوب", en: "Al-Jawzajani, Ibrahim ibn Ya'qub" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم بن يعقوب بن إسحاق السعدي الجوزجاني البوشنجي" }
+gender: male
+roles: [muhaddith, scholar]
+traditions: [sunni]
+born: { edtf: "0781", hijri: "0165", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0873", hijri: "0259", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث من جوزجان، ونُسب إلى بوشنج، وترجم له أصحاب الطبقات بتفصيل."
+  en: "A hadith scholar from Jawzjan, named after Bushanj. The biographical dictionaries give him a full entry."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 543, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص543", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

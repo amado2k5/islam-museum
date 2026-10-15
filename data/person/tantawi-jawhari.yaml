@@ -1,0 +1,22 @@
+id: person/tantawi-jawhari
+class: person
+label: { ar: "طنطاوي جوهري", en: "Tantawi Jawhari" }
+names:
+  - { kind: full, lang: ar, value: "الشيخ طنطاوي جوهري" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1870", hijri: "1287", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1940", hijri: "1358", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "حكيم إسلامي مصري، له إسهامات متعددة في التفسير والعلوم الكونية."
+  en: "An Egyptian Islamic scholar with contributions to Qur'anic commentary and the natural sciences."
+wings: [people, words]
+themes: [scripture-and-its-sciences, astronomy-and-timekeeping]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 574, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص574", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
