@@ -11,11 +11,13 @@ roles: [jurist, scholar, qadi]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [persia-central-asia]
-died: { edtf: "1015~", hijri: "0405~", calendar: julian, precision: year, status: tradition, derived: true, note: "ليلة 27 رمضان 405هـ قتله العيارون بالدينور {cite:wafayat-ayan p. 65}", sources: [source/wafayat-ayan] }
+died: { edtf: "1015~", hijri: "0405~", calendar: julian, precision: year, status: tradition, derived: true, note: "ليلة 27 رمضان 405هـ قتله العيارون بالدينور {cite:wafayat-ayan p. 65}؛ الشيرازي يوافق: ليلة السابع والعشرين من رمضان سنة خمس وأربعمائة (PDF ص62)", sources: [source/wafayat-ayan, source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/abu-al-husayn-ibn-al-qattan, role: "صاحب أبي الحسين ابن القطان (PDF ص62)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-4
-sources: [source/wafayat-ayan]
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+sources: [source/wafayat-ayan, source/tabaqat-fuqaha-abbas-1981]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); batch 8 (PDF ص62) added by Claude (Haiku 5.5)" }

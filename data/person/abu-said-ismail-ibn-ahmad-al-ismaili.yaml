@@ -1,0 +1,19 @@
+id: person/abu-said-ismail-ibn-ahmad-al-ismaili
+class: person
+label: { ar: "أبو سعد الإسماعيلي" }
+names:
+  - { kind: full, lang: ar, value: "أبو سعد إسماعيل بن أحمد بن إبراهيم بن إسماعيل بن العباس الإسماعيلي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { hijri: "0396", edtf: "1005~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ست وتسعين وثلاثمائة بجرجان (PDF ص63)؛ مصدر ثانٍ مطلوب. ط: أبو سعيد (حاشية 1: الصواب أبو سعد).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو سعد إسماعيل بن أحمد الإسماعيلي، فقيه أديب جواد، جمع بين رياسة الدين والدنيا بجرجان، وأخذ العلم عن أبيه أبي بكر الإسماعيلي، ومات سنة ست وتسعين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 63}. ذكر الصاحب بن عباد في رسالة مدحه ومدح أخيه أبي نصر وأبيهما {cite:tabaqat-fuqaha-abbas-1981 p. 63}."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: student_of, target: person/al-ismaili-abu-bakr-ahmad, role: "أخذ العلم عن أبيه أبي بكر الإسماعيلي (PDF ص63)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-8" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 8 (PDF ص62–64)" }
