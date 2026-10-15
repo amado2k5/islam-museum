@@ -1,0 +1,173 @@
+{
+ "id": "journey/cairo-to-qus-jubayr",
+ "class": "journey",
+ "kind": "travel",
+ "label": {
+  "ar": "من القاهرة إلى قوص في النيل، طريق ابن جبير",
+  "en": "Cairo to Qus up the Nile, on Ibn Jubayr's road"
+ },
+ "summary": {
+  "ar": "مرحلة من رحلة ابن جبير إلى الحج: صعد في النيل من القاهرة إلى قوص، مارّاً بجبل المقلة ومنفلوط وأسيوط وإخميم وقنا، ثم وصل قوص ونزل بها قبل السفر إلى عيذاب في الصحراء. يذكر الكتاب مواضع أخرى على الطريق بأسمائها دون أن تُعرف مواقعها الحديثة هنا."
+ },
+ "wings": [
+  "time",
+  "place"
+ ],
+ "periods": [
+  "period/crusades-ayyubid-mamluk"
+ ],
+ "regions": [
+  "egypt-nile"
+ ],
+ "travelers": [
+  "person/ibn-jubayr-muhammad"
+ ],
+ "legs": [
+  {
+   "from": "place/cairo",
+   "to": "place/manfalut",
+   "mode": "في مراكب النيل صاعدين",
+   "note": "من القاهرة صاعدين في النيل، ووصلوا إلى جبل المقلة الذي يذكره ابن جبير بأنه نصف الطريق من مصر إلى قوص، ثم منفلوط بمقربة من الشط الغربي (الصفحة 374 من الماسح الضوئي للنسخة، والصفحة 376 للجبل).",
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "from": "place/manfalut",
+   "to": "place/asyut",
+   "mode": "في مراكب النيل صاعدين",
+   "note": "بعد منفلوط ذكر ابن جبير أسيوط على الشط الغربي على نحو ثلاثة أميال منه (الصفحة 374 من الماسح الضوئي للنسخة).",
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "from": "place/asyut",
+   "to": "place/akhmim",
+   "mode": "في مراكب النيل صاعدين",
+   "note": "بعد أسيوط ذكر ابن جبير موضع تيجعه ثم إخميم، وكان قد ذكر أن الطريق مر بتيجعه ولم يحدد مسافته (الصفحة 374 من الماسح الضوئي للنسخة).",
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "from": "place/akhmim",
+   "to": "place/qina",
+   "mode": "في مراكب النيل صاعدين",
+   "note": "بعد إخميم ذكر ابن جبير منشأة السودان والبلينة وتشنة وتندرة ثم قنا وقفط، وهي مواضع لم تُربط هنا بأماكن في الجغرافيا الحديثة (الصفحة 370 من الماسح الضوئي للنسخة).",
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "from": "place/qina",
+   "to": "place/qus",
+   "mode": "في مراكب النيل صاعدين",
+   "note": "من قنا ثم قفط إلى قوص؛ وصل قوص في يوم الخميس الرابع والعشرين من المحرم، ونزل بفندق ابن العجمي بالمنية (الصفحة 369–370 من الماسح الضوئي للنسخة).",
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  }
+ ],
+ "waypoints": [
+  {
+   "place": "place/cairo",
+   "day": 1,
+   "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.",
+   "title": {
+    "ar": "القاهرة"
+   },
+   "narrative": {
+    "ar": "نقطة الانطلاق: القاهرة. صعد منها في النيل نحو قوص (الصفحة 376 من الماسح الضوئي للنسخة)."
+   },
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "place": "place/manfalut",
+   "day": 2,
+   "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.",
+   "title": {
+    "ar": "منفلوط"
+   },
+   "narrative": {
+    "ar": "موضع بمقربة من الشط الغربي من النيل فيه الأسواق، وقمحه يجلب إلى مصر لطيبه (الصفحة 374 من الماسح الضوئي للنسخة)."
+   },
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "place": "place/asyut",
+   "day": 3,
+   "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.",
+   "title": {
+    "ar": "أسيوط"
+   },
+   "narrative": {
+    "ar": "مدينة على الشط الغربي من النيل على نحو ثلاثة أميال منه، حولها بساتين النخل (الصفحة 374 من الماسح الضوئي للنسخة)."
+   },
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "place": "place/akhmim",
+   "day": 4,
+   "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.",
+   "title": {
+    "ar": "إخميم"
+   },
+   "narrative": {
+    "ar": "مدينة على الشط الشرقي من النيل، فيها مسجدان وآثار من بنيان القبط (الصفحة 374 من الماسح الضوئي للنسخة)."
+   },
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "place": "place/qina",
+   "day": 5,
+   "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.",
+   "title": {
+    "ar": "قنا"
+   },
+   "narrative": {
+    "ar": "مدينة من مدن الصعيد على الشرق من النيل، بيضاء أنيقة المنظر (الصفحة 370 من الماسح الضوئي للنسخة)."
+   },
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "place": "place/qus",
+   "day": 6,
+   "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.",
+   "title": {
+    "ar": "قوص"
+   },
+   "narrative": {
+    "ar": "وصل قوص يوم الخميس الرابع والعشرين من المحرم، ونزل بفندق ابن العجمي بالمنية، وهي ربض خارج المدينة (الصفحة 369–370 من الماسح الضوئي للنسخة)."
+   },
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  }
+ ],
+ "sources": [
+  "source/rihla-ibn-jubayr-1907"
+ ],
+ "provenance": {
+  "layer": "own-research",
+  "source": "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 369-376 (OCR; the scan has not yet been checked for every reading)",
+  "generated_by": "Claude Code",
+  "model": "claude-haiku-5-5",
+  "run": "journeys-phase1-jubayr-nile"
+ },
+ "status": {
+  "review": "draft",
+  "completeness": 1,
+  "generated_by": "Claude Code; drafted from Rihla of Ibn Jubayr scan pp. 369-376. Readings of unfamiliar stop names (Tajia, Munsha, Bulayna, Tishna, Tandura, Qift) are left unplaced; OCR of the Akhmim mosque name needs checking on the scan."
+ }
+}

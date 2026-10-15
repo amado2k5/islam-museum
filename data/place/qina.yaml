@@ -1,0 +1,14 @@
+id: place/qina
+class: place
+kind: city
+label: { ar: "قنا" }
+summary:
+  ar: "مدينة من مدن الصعيد على الشرق من النيل، بيضاء أنيقة المنظر ذات مبان حفيلة، ويذكر ابن جبير أن نساءها يلزمن البيوت (الصفحة 370 من الماسح الضوئي للنسخة)."
+regions: [egypt-nile]
+wings: [place]
+coordinates: [26.16418, 32.72671]
+coordinate_precision: locality
+external_ids: { geonames: "350550" }
+sources: [source/rihla-ibn-jubayr-1907, source/geonames-gazetteer]
+provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 370-376 (description); coordinates from GeoNames", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr-nile" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; description from Ibn Jubayr scan pages (OCR, to verify on scan); coordinates from GeoNames" }

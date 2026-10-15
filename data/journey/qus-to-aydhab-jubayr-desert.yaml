@@ -1,0 +1,83 @@
+{
+ "id": "journey/qus-to-aydhab-jubayr-desert",
+ "class": "journey",
+ "kind": "pilgrimage_route",
+ "label": {
+  "ar": "من قوص إلى عيذاب في الصحراء، طريق ابن جبير",
+  "en": "Qus to Aydhab across the desert, on Ibn Jubayr's road"
+ },
+ "summary": {
+  "ar": "مرحلة من رحلة ابن جبير إلى الحج: خرج من قوص على الإبل مع الجمّالين من المبرز بقبلي البلد، ومرّ بمواضع الماء في الصحراء كالحاجر وأمتان ومجلج والعشراء والخبيب وشاغب وأستان والعبدين وأنقاش، ثم وصل عيذاب. يذكر الكتاب أن هذا الطريق كان مهلكاً للحجاج عطشاً."
+ },
+ "wings": [
+  "time",
+  "place",
+  "people"
+ ],
+ "periods": [
+  "period/crusades-ayyubid-mamluk"
+ ],
+ "regions": [
+  "egypt-nile",
+  "arabia"
+ ],
+ "travelers": [
+  "person/ibn-jubayr-muhammad"
+ ],
+ "legs": [
+  {
+   "from": "place/qus",
+   "to": "place/aydhab",
+   "mode": "على ظهر الإبل مع الأدلاء والجمّالين",
+   "note": "خرجوا من قوص من المبرز بقبلي البلد يوم الاثنين الثالث عشر من صفر ونزلوا أول الليل على ماء يعرف بالحاجر. يذكر الكتاب بعدها مواضع الماء: أمتان وهو ماء معين، ومجلج، والعشراء على مرحلتين من عيذاب، والخبيب، وشاغب، وأستان، والعبدين، وأنقاش، ومحط اللقيطة، ولم تُرتّب هذه المواضع هنا لتداخل ذكرها بين طريقين في النص المستخرج، فتبقى أسماؤها كما وردت. وصل عيذاب يوم السبت (الصفحات 366–368 من الماسح الضوئي للنسخة).",
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  }
+ ],
+ "waypoints": [
+  {
+   "place": "place/qus",
+   "day": 1,
+   "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.",
+   "title": {
+    "ar": "قوص"
+   },
+   "narrative": {
+    "ar": "نقطة الانطلاق: قوص. خرجوا منها على الإبل نحو عيذاب في صحراء لا عمارة فيها (الصفحة 368 من الماسح الضوئي للنسخة)."
+   },
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  },
+  {
+   "place": "place/aydhab",
+   "day": 2,
+   "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.",
+   "title": {
+    "ar": "عيذاب"
+   },
+   "narrative": {
+    "ar": "وصلوا عيذاب يوم السبت، وهي مدينة على ساحل بحر جدة غير مسورة، ومنها تقلع الجلاب إلى جدة (الصفحة 365 من الماسح الضوئي للنسخة)."
+   },
+   "sources": [
+    "source/rihla-ibn-jubayr-1907"
+   ]
+  }
+ ],
+ "sources": [
+  "source/rihla-ibn-jubayr-1907"
+ ],
+ "provenance": {
+  "layer": "own-research",
+  "source": "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 365-368 (OCR)",
+  "generated_by": "Claude Code",
+  "model": "claude-haiku-5-5",
+  "run": "journeys-phase1-jubayr-desert"
+ },
+ "status": {
+  "review": "draft",
+  "completeness": 1,
+  "generated_by": "Claude Code; drafted from Rihla of Ibn Jubayr scan pp. 365-368. The order of wells in the OCR is interleaved between two roads (Abdayn road and the other road); the stop order is not resolved and no coordinates are given for the wells. Verify on the scan before use."
+ }
+}

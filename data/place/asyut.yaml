@@ -1,0 +1,14 @@
+id: place/asyut
+class: place
+kind: city
+label: { ar: "أسيوط" }
+summary:
+  ar: "مدينة في صعيد مصر على الشط الغربي من النيل، على نحو ثلاثة أميال منه، حولها بساتين النخل وسورها سور عتيق؛ ذكرها ابن جبير في طريقه صاعداً إلى قوص (الصفحة 374 من الماسح الضوئي للنسخة)."
+regions: [egypt-nile]
+wings: [place]
+coordinates: [27.18096, 31.18368]
+coordinate_precision: locality
+external_ids: { geonames: "359783" }
+sources: [source/rihla-ibn-jubayr-1907, source/geonames-gazetteer]
+provenance: { layer: own-research, source: "Rihla of Ibn Jubayr, Gibb Memorial 1907, scan pp. 370-376 (description); coordinates from GeoNames", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-jubayr-nile" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; description from Ibn Jubayr scan pages (OCR, to verify on scan); coordinates from GeoNames" }
