@@ -8,7 +8,7 @@ Plan: `docs/plan/22-illustration-run.md` (execution), built on `docs/plan/10-ima
 
 | | |
 |---|---|
-| Goal | One approved, reviewed-by-a-human illustration per page, derived only from that page's data and prose, labelled as an AI-assisted artist's impression, reproducible from a committed prompt and seed, released CC0 |
+| Goal | One illustration per page, approved by the pipeline's automated gates (section 3), derived only from that page's data and prose, labelled as an AI-assisted artist's impression, reproducible from a committed prompt and seed, released CC0 |
 | Owns | `scripts/media/illustrate/**` (new), `media/prompts/**`, `data/media/illus-*.yaml`, `site/public/media/illustrations/**`, the `media.hero` line on entities it illustrates, `docs/delegation/illustrations-progress.md` |
 | Uses, never edits | `scripts/media/brief.py`, `scripts/media/accuracy.yaml` (write a request if an entry is missing: `docs/requests/illustrations-accuracy-<period>-<region>.md`, and leave `accuracy_status: missing` in the prompt file), `schema/**`, `scripts/validate.ts`, `site/src/**` (the hero figure is maintainer work: `docs/plan/22` §6; write `docs/requests/illustrations-site-hero.md` if it is not there yet) |
 | Branch | `media/illustrations-<agent>` |
@@ -79,7 +79,7 @@ Batch 0 comes first: regenerate `illus-event-battle-of-badr`, `illus-event-battl
 - Every script prints what it skipped and why; nothing fails silently; no `try/except: pass`.
 - Tests: `scripts/media/illustrate/test_illustrate.py` covers seed derivation, lint rules (a prompt with "a man" under `none` fails; a person label with "portrait" fails; an anachronism from the accuracy table fails), cue filtering (a cue whose source sentence is not in the prose is dropped), and the record writer (a record validates against `schema/media.schema.json`). `npm test` must keep passing; add a Python test runner line to the progress file if the repo's `npm test` does not run Python tests.
 
-## Reviewer checklist (shown in `review.html`, applied by the human)
+## Reviewer checklist (applied by `approve.py` as gates; the founder reads `auto-approved.json` at any time)
 
 Any text or pseudo-letters · any face, figure or silhouette where the policy is `none` · any face at all · a figure that could be read as a specific person · anachronism for the period and region (minarets or domes in the Prophetic era, paper before its time, plate armour, firearms before the 14th century, modern objects) · wrong architecture for the region · inaccurate religious practice · sensational violence, bodies, blood, fire in progress · orientalist clichés · glossy or oversaturated finish that breaks the house style · a scene that contradicts the page's prose or its map (season, terrain, time of day).
 

@@ -1,0 +1,26 @@
+id: building/bayt-al-hikma
+class: building
+kind: library
+label:
+  ar: بيت الحكمة (خزانة الحكمة)
+  en: Bayt al-Hikma — the House of Wisdom
+summary:
+  ar: "خزانة الحكمة أو بيت الحكمة ببغداد، أكبر مكتبة نُقل خبرها من العصر العباسي الأول؛ وضع الرشيد نواتها ونمّاها المأمون وقوّاها، وقد ولى الرشيد يوحنا بن ماسويه ترجمة الكتب الطبية القديمة التي وُجدت في بلاد الروم ورتب له كتاباً حذاقاً يكتبون بين يديه، وكان في خزانته أبو سهل الفضل بن نوبخت ينقل من الفارسية إلى العربية كتب الحكمة، وعلان الشعوبي ينسخ للرشيد والمأمون والبرامكة، ثم وسّعها المأمون فبعث إلى ملك الروم يستأذنه في إنفاذ ما يختار من العلوم القديمة فأخرج في طلبها الحجاج بن مطر وابن البطريق وسلماً صاحب بيت الحكمة، وجعل سهل بن هارون خازناً لخزائنها، وقد بقي نظامها وموضعها على وجه التعيين محفوفين بالغموض."
+  en: "The House of Wisdom at Baghdad, the greatest library whose report survives from the first Abbasid age: al-Rashid laid its nucleus and al-Ma'mun enlarged and strengthened it. Al-Rashid put Yuhanna ibn Masawayh over the translation of the ancient medical books found in Byzantine lands with skilled scribes writing before him; Abu Sahl al-Fadl ibn Nawbakht rendered Persian wisdom-books into Arabic in its khizana, and Allan al-Shu'ubi copied for al-Rashid, al-Ma'mun and the Barmakids. Al-Ma'mun widened it, sending to the Byzantine emperor for the ancient sciences an embassy of al-Hajjaj ibn Matar, Ibn al-Bitriq and Salm the master of the House, and making Sahl ibn Harun keeper of its treasuries — though its precise organisation and site remain wrapped in obscurity."
+wings: [people, place]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+relations:
+- { type: located_in, target: place/baghdad, sources: [source/duha-islam] }
+- { type: "related_to", target: person/harun-al-rashid, note: "وضع نواتها", sources: [source/duha-islam] }
+- { type: "related_to", target: person/abd-allah-al-mamun, note: "نماها وقواها وبعث في طلب كتب اليونان", sources: [source/duha-islam] }
+- { type: "related_to", target: person/yuhanna-ibn-masawayh, note: "ولي ترجمة الكتب الطبية", sources: [source/duha-islam] }
+- { type: "related_to", target: person/sahl-ibn-harun, note: "خازن خزائنها في عهد المأمون", sources: [source/duha-islam] }
+provenance:
+  layer: own-research
+  source: "أحمد أمين، ضحى الإسلام ج3 — بيت الحكمة، ص79-81، ناقلاً عن الفهرست ص141، 243، 284، 105"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-duha-islam-3
+sources: [source/duha-islam]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

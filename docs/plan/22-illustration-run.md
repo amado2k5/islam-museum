@@ -62,7 +62,7 @@ Measured on this Mac with Z-Image-Turbo through `mflux-generate-z-image-turbo`, 
 ```
 ~/islam-museum-media/                      outside git (the future media.islam.museum repo or R2 bucket)
   raw/illustrations/<media-id>__<seed>.png  full-resolution masters with mflux metadata (prompt, seed, steps in EXIF)
-  review/<batch>/contact-*.jpg, review.html, decisions.json
+  review/<batch>/screen.json, auto-approved.json
   generation.log.jsonl                      one line per attempt (resumable)
 islam-museum/                              the repository
   media/prompts/<class>/<slug>.json         committed: the exact prompt, seeds, size, policy, cue sources (reproducible)
@@ -123,7 +123,7 @@ license: CC0
 attribution: "islam.museum, CC0. تصوير فني بمساعدة الذكاء الاصطناعي، مولَّد محلياً؛ الموجِّه والبذرة في media/prompts/event/battle-of-uhud.json."
 files: { webp: media/illustrations/event/battle-of-uhud.webp }
 sources: [source/mubarakpuri-raheeq, source/ibn-hisham-dar-ibn-hazm]
-status: { review: draft, completeness: 2, generated_by: "illustrations lane; <agent>, <model>; approved seed by <reviewer> on <date>" }
+status: { review: draft, completeness: 2, generated_by: "illustrations lane; <agent>, <model>; approved by pipeline (gate report hash <hash>) on <date>" }
 provenance: { generated_by: "<agent>", model: "<llm used for cues>", run: "<batch id>", source: "media/prompts/event/battle-of-uhud.json" }
 ```
 
