@@ -12,6 +12,7 @@ regions: [arabia]
 date:
   start: { edtf: "0628~", hijri: "0006~", calendar: julian, precision: year, status: tradition, note: "«في هدنة الحديبية قبل خيبر» (ص243)؛ الحديبية ذو القعدة 6هـ وخيبر 7هـ؛ السنة مشتقة.", derived: true, sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: caused, target: event/raid-of-zayd-on-judham, note: "كتابه إلى قومه هو الذي جعل غارة زيد مشكلة واستدعى الردّ", sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/rifaa-ibn-zayd-al-judhami, role: "الوافد وحامل الكتاب", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: "كتب له الكتاب إلى قومه", sources: [source/ibn-hisham-saqqa] }

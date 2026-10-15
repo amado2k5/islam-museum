@@ -1,0 +1,18 @@
+id: person/jundab-ibn-makith
+class: person
+label: { ar: "جندب بن مكيث الجهني", en: "Jundab ibn Makith al-Juhani" }
+names:
+  - { kind: full, lang: ar, value: "جندب بن مكيث الجهني" }
+gender: male
+roles: [companion]
+summary:
+  ar: "صحابي من جهينة كان في سرية غالب بن عبد الله إلى بني الملوح وراوي خبرها؛ بعثه أصحابه ربيئة لهم فرماه رجل من القوم بسهمين فنزعهما وثبت مكانه حتى ظنه الرجل غير ربيئة."
+  en: "A Companion of Juhayna who was in Ghalib ibn Abdullah's detachment against Banu al-Mulawwah and narrates it; posted as lookout, he was shot with two arrows by a man of the camp, pulled them out and kept still until the man concluded he was no scout."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/raid-of-ghalib-on-banu-al-mulawwah, role: "ربيئة القوم وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 257-259", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 257-259" }

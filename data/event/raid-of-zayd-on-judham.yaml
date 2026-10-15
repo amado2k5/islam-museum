@@ -1,0 +1,37 @@
+id: event/raid-of-zayd-on-judham
+class: event
+kind: raid
+label: { ar: "غزوة زيد بن حارثة إلى جذام وردّ النبي ما أُخذ منهم", en: "Zayd ibn Haritha's raid on Judham and the Prophet's restitution" }
+summary:
+  ar: "لما رجع دحية بن خليفة الكلبي من عند قيصر أغار عليه الهنيد بن عوص وابنه من الضليع من جذام بوادي شنار فأخذا ما معه، فاستنقذه له قوم من الضبيب رهط رفاعة بن زيد الذين كانوا قد أسلموا؛ فلما شكا دحية إلى النبي واستسقاه دم الهنيد بعث زيد بن حارثة في جيش فأغار من ناحية الأولاج بالماقص فأخذ المال والناس وقتل الهنيد وابنه ورجلين من بني الأحنف ورجلاً من بني الخصيب، وفي الأسرى من أسلم. فركب نفر من الضبيب فيهم حسان بن ملة إلى زيد فقرأ عليه أم الكتاب فنادى بتحريم ثغرتهم، ثم ركبوا إلى رفاعة بن زيد وساروا معه ثلاث ليال إلى المدينة، فقرأ النبي كتابه لرفاعة وقال: كيف أصنع بالقتلى؟ وبعث علياً بسيفه إلى زيد فردّ على القوم كل ما أُخذ حتى ليبد المرأة. يرويه ابن إسحاق عمن لا يتهم عن رجال من جذام كانوا علماء بها."
+  en: "When Dihya ibn Khalifa al-Kalbi returned from Caesar, al-Hunayd ibn Us and his son of the Dula' of Judham robbed him in the valley of Shinar; men of the Dubayb, Rifa'a ibn Zayd's clan who had converted, recovered his goods. When Dihya complained to the Prophet and asked for al-Hunayd's blood, the Prophet sent Zayd ibn Haritha with an army, which raided from al-Awlaj at al-Maqis, took property and people, killed al-Hunayd and his son and three others, and captured converts among them. A party of the Dubayb with Hassan ibn Milla rode to Zayd, who had Umm al-Kitab recited and proclaimed their quarter inviolable; they then rode to Rifa'a and three nights on to Medina, where the Prophet read his own letter to Rifa'a, asked three times what he should do about the dead, and sent Ali with his sword to Zayd, who restored everything down to a woman's cushion. Ibn Ishaq has it from men of Judham learned in it."
+wings: [time, people, place]
+themes: [skirmishes-raids-expeditions, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628~", hijri: "0006~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن إسحاق؛ وقعت بعد قدوم رفاعة في هدنة الحديبية قبل خيبر وبعد رجوع دحية من قيصر (ص243، 260)، وأصحاب المغازي يضعونها في جمادى الآخرة 6هـ (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/harrat-al-rajla, note: "نزول جذام بالحرة؛ والغارة بالماقص من قبل الحرة", sources: [source/ibn-hisham-saqqa] }
+  - { type: caused_by, target: event/islam-of-rifaa-ibn-zayd-al-judhami, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "بعث زيداً ثم ردّ ما أُخذ", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "أمير الجيش", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/dihya-al-kalbi, role: "المُغار عليه بوادي شنار؛ استسقى دم الهنيد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-hunayd-ibn-us, role: "أغار على دحية؛ قُتل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/rifaa-ibn-zayd-al-judhami, role: "حمل كتابه إلى النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/hassan-ibn-milla, role: "متكلم الضبيب؛ قرأ أم الكتاب على زيد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/unayf-ibn-milla, role: "من ركب الضبيب", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-zayd-ibn-amr-al-dubaybi, role: "قال: أطلق لنا من كان حياً", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-numan-ibn-abi-jial, role: "رُمي في ركبته في استنقاذ متاع دحية", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "بعثه النبي بسيفه ليردّ ما أُخذ", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/judham, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-dubayb, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-dula, sources: [source/ibn-hisham-saqqa] }
+sides:
+  - label: { ar: "جيش زيد بن حارثة", en: "Zayd ibn Haritha's army" }
+    commanders: [person/zayd-ibn-haritha]
+  - label: { ar: "جذام بحرة الرجلاء ووادي مدان", en: "Judham at Harrat al-Rajla' and Wadi Madan" }
+    participants: [group/judham, group/banu-dubayb, group/banu-dula]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 260-265", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 260-265; date single-source" }

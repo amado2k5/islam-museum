@@ -1,0 +1,25 @@
+id: event/killing-of-al-yasir-ibn-rizam
+class: event
+kind: raid
+label: { ar: "غزوة عبد الله بن رواحة إلى خيبر ومقتل اليسير بن رزام", en: "Abdullah ibn Rawaha's expedition to Khaybar and the killing of al-Yasir ibn Rizam" }
+summary:
+  ar: "كان اليسير بن رزام، ويقال ابن رازم، بخيبر يجمع غطفان لغزو النبي، فبعث إليه النبي عبد الله بن رواحة في نفر منهم عبد الله بن أنيس، فكلّموه ورغّبوه في القدوم على النبي ليستعمله ويكرمه، حتى خرج معهم في نفر من يهود؛ فلما كان بالقرقرة على ستة أميال من خيبر ندم، ففطن له عبد الله بن أنيس وهو يريد السيف فضربه فقطع رجله، وضربه اليسير بمخرش من شوحط فشجّه، ومال كل رجل من المسلمين على صاحبه من يهود فقتله إلا رجلاً أفلت؛ وتفل النبي على شجة ابن أنيس فلم تقح."
+  en: "Al-Yasir ibn Rizam, also given as Ibn Razim, was at Khaybar gathering Ghatafan to attack the Prophet, who sent Abdullah ibn Rawaha with a party including Abdullah ibn Unays; they persuaded him that the Prophet would appoint and honour him, and he set out with them with a group of Jews. At al-Qarqara, six miles from Khaybar, he repented; Ibn Unays saw him reaching for the sword, struck him and cut off his leg, al-Yasir hit him on the head with a staff of shawhat wood, and each Muslim killed his Jewish companion except one who fled; the Prophet spat on Ibn Unays's wound and it did not fester."
+wings: [time, people, place]
+themes: [skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: violence
+date:
+  start: { edtf: "0628~", hijri: "0006~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن إسحاق؛ وهي قبل فتح خيبر سنة 7هـ لأن اليسير بخيبر يجمع غطفان (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/khaybar, note: "بالقرقرة على ستة أميال من خيبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "بعث ابن رواحة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abd-allah-ibn-rawaha, role: "أمير النفر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-unays, role: "قتل اليسير وشُجّ", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-yasir-ibn-rizam, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/ghatafan, role: "كان اليسير يجمعهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/jews-of-khaybar, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 266-267", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 266-267; date single-source" }

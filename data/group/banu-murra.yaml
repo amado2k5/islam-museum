@@ -1,0 +1,16 @@
+id: group/banu-murra
+class: group
+label: { ar: "بنو مرة", en: "Banu Murra" }
+summary:
+  ar: "قبيلة من غطفان بفدك؛ غزاهم بشير بن سعد، وغزا أرضهم غالب بن عبد الله الليثي فأصاب فيها مرداس بن نهيك حليفاً لهم من الحرقة من جهينة، قتله أسامة بن زيد ورجل من الأنصار بعد أن قال لا إله إلا الله."
+  en: "A tribe of Ghatafan at Fadak; Bashir ibn Sa'd raided them, and Ghalib ibn Abdullah al-Laythi raided their land and struck Mirdas ibn Nahik, an ally of theirs from al-Hurqa of Juhayna, whom Usama ibn Zayd and an Ansari killed after he had said there is no god but God."
+kind: tribe
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/raid-of-ghalib-on-banu-murra, role: "المُغار عليهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: group/ghatafan, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 260, 271", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 260, 271" }

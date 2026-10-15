@@ -12,6 +12,10 @@ regions: [arabia]
 date:
   start: { edtf: "0631-01", hijri: "0009-01", calendar: julian, precision: month, status: tradition, note: "في المحرم سنة 9هـ؛ وأهل المغازي ذكرواها في المحرم وفيه نظر لأن الأقرع بن حابس كان مسلماً قبلها (الرحيق ص426 هامش).", sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: had_participant, target: person/salma-bint-attab, role: "قالت بيتين في ذلك اليوم", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/qays-ibn-asim, role: "من وفد تميم الثمانية الذين كلّموا النبي في السبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/aisha, role: "طلبت رقبة من ولد إسماعيل فأُعطيت من السبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-al-anbar, role: "المُغار عليهم عند ابن إسحاق (بنو العنبر من بني تميم)", sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad, role: dispatched-and-received-the-chiefs, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/uyayna-ibn-hisn, role: raid-commander, sources: [source/mubarakpuri-raheeq] }
@@ -21,11 +25,12 @@ relations:
   - { type: had_participant, target: person/hassan-ibn-thabit, role: poet-of-islam, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/al-aqra-ibn-habis, role: witnessed-and-conceded-oratorical-superiority, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
+  - { type: had_participant, target: person/al-aqra-ibn-habis, role: "من الوفد الثمانية؛ مدحه الفرزدق بإطلاق الأسرى", sources: [source/ibn-hisham-saqqa] }
 sides:
   - label: { en: "Muslim detachment", ar: "سرية المسلمين" }
     participants: [group/early-muslims]
     commanders: [person/uyayna-ibn-hisn]
   - label: { en: "Banu Tamim", ar: "بنو تميم" }
     participants: [group/banu-tamim]
-sources: [source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 425-426" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 425-426; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 269-270 (Ibn Ishaq's shorter account of the Banu al-Anbar raid)" }

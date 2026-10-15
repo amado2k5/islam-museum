@@ -23,6 +23,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md). She predates the Sunni-Shia division." }
 relations:
+  - { type: participated_in, target: event/sariyya-of-uyayna-to-banu-tamim, role: "طلبت رقبة من ولد إسماعيل فأعطاها النبي من سبي بني العنبر", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }
   - { type: child_of, target: person/abu-bakr }
@@ -46,5 +47,5 @@ perspectives:
     summary: { en: "Twelver Shia tradition is critical of Aisha chiefly for leading the forces that fought Ali at the Battle of the Camel, while still acknowledging her place among the Prophet's wives.", ar: "ينتقدها التراث الإمامي خصوصًا لقيادتها الجيش الذي حارب عليًّا يوم الجمل، مع إقراره بمقامها بين أزواج النبي." }
     sources: [source/momen-1985]
 sensitivity: contested
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul]
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/mubarakpuri-raheeq, source/nisa-hawl-alrasul, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

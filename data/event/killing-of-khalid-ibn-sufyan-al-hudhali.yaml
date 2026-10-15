@@ -1,0 +1,23 @@
+id: event/killing-of-khalid-ibn-sufyan-al-hudhali
+class: event
+kind: raid
+label: { ar: "غزوة عبد الله بن أنيس لقتل خالد بن سفيان بن نبيح الهذلي", en: "Abdullah ibn Unays's mission to kill Khalid ibn Sufyan ibn Nubayh al-Hudhali" }
+summary:
+  ar: "بلغ النبي أن ابن سفيان بن نبيح الهذلي يجمع الناس بنخلة أو بعرنة ليغزوه، فدعا عبد الله بن أنيس وأمره أن يأتيه فيقتله، وجعل آية ما بينهما أنه إذا رآه وجد له قشعريرة؛ فخرج متوشحاً سيفه فوجده في ظعن يرتاد لهن منزلاً وقت العصر، فصلى يومئ برأسه وهو يمشي نحوه، وقال له إنه رجل من العرب سمع بجمعه فجاء لذلك، فمشى معه حتى أمكنه فحمل عليه بالسيف فقتله وترك ظعائنه عليه؛ فلما قدم قال النبي: أفلح الوجه، وأعطاه عصا قال إنها آية بينه وبينه يوم القيامة. يرويه ابن إسحاق عن محمد بن جعفر بن الزبير عن ابن أنيس."
+  en: "News reached the Prophet that Ibn Sufyan ibn Nubayh al-Hudhali was gathering men at Nakhla or Urana to attack him; he summoned Abdullah ibn Unays and ordered him to go and kill him, giving as the sign that he would shiver on seeing him. Ibn Unays went girded with his sword, found him with women in litters seeking a camping place at the afternoon hour, prayed by nodding his head as he walked toward him, told him he was an Arab who had heard of his gathering and come for it, walked with him until he could and struck him dead with the sword, leaving the women bent over him. On his return the Prophet said 'the face has prospered' and gave him a staff as a sign between them on the Day of Resurrection. Ibn Ishaq has it from Muhammad ibn Ja'far ibn al-Zubayr from Ibn Unays."
+wings: [time, people, place]
+themes: [skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: violence
+date:
+  start: { edtf: "0625~", hijri: "0004~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن إسحاق؛ أصحاب المغازي المتأخرون يضعونها في المحرم سنة 4هـ (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/nakhla-al-yamaniya, note: "بنخلة أو بعرنة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "بعثه وأعطاه العصا", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-unays, role: "القاتل والراوي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khalid-ibn-sufyan-al-hudhali, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/hudhayl, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 267-269", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 267-269; date single-source" }

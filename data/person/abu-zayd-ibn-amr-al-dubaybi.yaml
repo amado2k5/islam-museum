@@ -1,0 +1,19 @@
+id: person/abu-zayd-ibn-amr-al-dubaybi
+class: person
+label: { ar: "أبو زيد بن عمرو الضبيبي", en: "Abu Zayd ibn Amr al-Dubaybi" }
+names:
+  - { kind: full, lang: ar, value: "أبو زيد بن عمرو الضبيبي" }
+gender: male
+roles: [companion]
+summary:
+  ar: "من الضبيب من جذام؛ ركب على فرسه شمر إلى جيش زيد بن حارثة مع حسان وأنيف ابني ملة، ثم إلى رفاعة بن زيد وإلى النبي بالمدينة، وهو الذي قال للنبي: أطلق لنا من كان حياً ومن قُتل فهو تحت قدمي هذه، فقال النبي: صدق أبو زيد."
+  en: "Of the Dubayb of Judham; he rode on his horse Shamir to Zayd ibn Haritha's army with Hassan and Unayf the sons of Milla, then to Rifa'a ibn Zayd and on to the Prophet at Medina, where he said: release for us those still alive, and the dead are beneath this foot of mine; the Prophet said: Abu Zayd has spoken truly."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-dubayb, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "قال: أطلق لنا من كان حياً", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 261-264", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 261-264" }

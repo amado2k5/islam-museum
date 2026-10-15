@@ -25,10 +25,12 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
+  - { type: participated_in, target: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa, role: "أمير الجيش؛ جُرح ثم عاود فأمر بقتل أم قرفة", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "أمير الجيش", sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/mutah }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/battle-of-mutah, role: commander-killed, sources: [source/ibn-ishaq-guillaume] }
   - { type: revealed_in, target: passage/quran-33-37, note: "الصحابي الوحيد المسمّى في القرآن؛ والآية تخاطب شأنه مباشرة.", sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/lings-1983, source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

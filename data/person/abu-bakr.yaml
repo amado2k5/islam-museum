@@ -17,6 +17,7 @@ story_roles:
   - { role: companion, start: { edtf: "0610~", calendar: julian, precision: year }, status: tradition, sources: [source/ibn-ishaq-guillaume] }
   - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0632", calendar: julian, precision: year }, end: { edtf: "0634", calendar: julian, precision: year }, status: historical, sources: [source/watt-1956-medina] }
 relations:
+  - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "من المهاجرين الأولين في المدد؛ صحبه رافع الطائي وأوصاه", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }
   - { type: child_of, target: person/abu-quhafa }

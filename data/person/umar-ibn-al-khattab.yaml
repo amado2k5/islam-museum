@@ -25,6 +25,7 @@ faith:
 labelled:
   - { label: { en: "al-Faruq (the one who distinguishes truth from falsehood)", ar: "الفاروق" }, by: "Islamic tradition", status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "من المهاجرين الأولين في مدد أبي عبيدة", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/medina }
   - { type: child_of, target: person/al-khattab-ibn-nufayl }
@@ -52,5 +53,5 @@ perspectives:
     summary: { en: "Twelver Shia tradition is critical of Umar, above all for the Saqifa succession that set aside Ali, and for episodes in the relationship with Fatima.", ar: "ينتقد التراث الإمامي عمر خصوصًا في خلافة السقيفة التي أقصت عليًّا، وفي أخبار ما وقع مع فاطمة." }
     sources: [source/momen-1985]
 sensitivity: contested
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab]
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 3, generated_by: "Devin; 2026-10-11" }

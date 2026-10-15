@@ -15,3 +15,6 @@ translators: []
 
 ## في مقدمة الرحيق المختوم
 تميم بن مرة من بطون [[person/ilyas-ibn-mudar|إلياس بن مضر]] {cite:mubarakpuri-raheeq p.21} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/14-15}. هاجرت بطون من تميم مع عبد القيس وبكر إلى البحرين، وسكنت بنو تميم ببادية البصرة {cite:mubarakpuri-raheeq p.21} {cite:mubarakpuri-raheeq p.22}. ولما انقرضت [[group/sufa|صوفة]] ورثهم بنو سعد بن زيد مناة من تميم في الإجازة بالناس من منى {cite:mubarakpuri-raheeq p.29} {cite:ibn-hisham-sira 1/119-122}. ويعدّ المؤلف قصة حاجب بن زرارة التميمي في أمثلة الوفاء بالعهد عند أهل الجاهلية {cite:mubarakpuri-raheeq p.47}.
+
+## بنو العنبر في سيرة ابن هشام
+يذكر ابن إسحاق في جملة السرايا غزوة عيينة بن حصن [[group/banu-al-anbar|بني العنبر]] من بني تميم، وقدوم وفد من تميم فيهم الأقرع بن حابس وقيس بن عاصم يكلّمون النبي في السبي؛ انظر [[event/sariyya-of-uyayna-to-banu-tamim|غزوة بني العنبر]]. {cite:ibn-hisham-saqqa 4/270}

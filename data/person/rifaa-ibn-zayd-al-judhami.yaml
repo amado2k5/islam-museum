@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0628~" }, sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "ركب إلى النبي بكتابه فردّ على قومه ما أُخذ", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/judham, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/islam-of-rifaa-ibn-zayd-al-judhami, role: "الوافد", sources: [source/ibn-hisham-saqqa] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0628~" }, sources: [source/ibn-hisham-saqqa] }

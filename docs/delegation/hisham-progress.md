@@ -51,6 +51,8 @@
   - 9c (pp. 239-247, on main f9c0117d): group/banu-al-harith-ibn-kab and event/mission-of-khalid-to-banu-al-harith (the delegation of six named men, «لألقيت رؤوسكم تحت أقدامكم» attributed), event/mission-of-amr-ibn-hazm-to-najran with work/charge-to-amr-ibn-hazm, Rifa'a ibn Zayd's islam and place/harrat-al-rajla, the Hamdan letter and Malik ibn al-Namt's poem, the dream of the two gold bracelets (al-Aswad / Musaylima), Musaylima's letter and the reply as event + work; the sadaqa collectors list patched onto dispatch-of-sadaqa-collectors.
 - Batches 11-12 (حجة الوداع من ص248: شكوى جند علي، الخطبة، قائمتا الغزوات والسرايا pp. 248-257): event/complaint-against-ali-after-yemen (perspectives sunni / shia-twelver), farewell-sermon-at-arafat and work/farewell-sermon extended with Ibn Ishaq's full account (Rabi'a ibn Umayya repeating, the calendar passage, the women passage, the «قد بلّغت» close), question on the calendar in the sermon, person/amr-ibn-kharija, expedition-of-usama (Ibn Hisham's placement), letters-to-rulers-and-kings (Ibn Hisham's recap of the apostles pp. 254-255), concept/khilaf-adad-al-maghazi with prose, datasets ibn-ishaq-ghazawat-list (27 rows) and ibn-ishaq-saraya-list (rows grow with the sariya batches).
 
+- Batch 13 (السرايا ١ pp. 257-274): events raid-of-ghalib-on-banu-al-mulawwah (Jundab ibn Makith's account, the flood of Qudayd), raid-of-zayd-on-judham (al-Hunayd and Dihya, the Dubayb riders, Rifa'a's ride, Ali sent to return the booty, Abu Ji'al's poem), raid-of-zayd-on-banu-fazara-and-umm-qirfa [Tier A, perspectives], killing-of-al-yasir-ibn-rizam, killing-of-khalid-ibn-sufyan-al-hudhali (staff object, Ibn Unays's verses), raid-of-ghalib-on-banu-murra (Mirdas and Usama's «من لك بلا إله إلا الله»); sariyya-of-uyayna-to-banu-tamim extended with Ibn Ishaq's Banu al-Anbar account (Aisha's slave, the delegation of eight, the named dead and captives, Salma bint Attab's and al-Farazdaq's verses as works); expedition-of-dhat-al-salasil extended (the «لا تختلفا» exchange, Rafi' al-Ta'i merged into person/rafi-ibn-umayra with Abu Bakr's counsel, Awf ibn Malik's camel, place al-Salsal, group Banu Udhra); groups Banu al-Mulawwah, Dubayb, Dula', Fazara, al-Anbar, Murra, Juhayna; 16 persons; saraya dataset rows 24-30. Repair: dhat-al-salasil had occurred_at place/mecca (Devin), replaced by place/al-salsal with a note.
+
 ## Doubt markers, batches 8-9a (pp. 199-231)
 
 - p199 «قال ابن هشام: وتروى لابنه عبد الرحمن بن حسان» (the maghazi poem); p200, p201, p216, p219 «عن غير ابن إسحاق» lines; p204 Abu Zayd al-Ansari's readings; p204 n.8 end of the sira's juz' 18.
@@ -81,9 +83,23 @@
 - event/musaylimas-letter-and-the-prophets-reply: the reply's wording and Ibn Hisham's transmission.
 - event/complaint-against-ali-after-yemen: perspectives (Sunni reading of the soldiers' complaint vs the Twelver reading as prelude to Ghadir), both marked needs_source for the second voice.
 
+## Doubt markers, batch 13 (pp. 257-274)
+
+- p257 saraya list: «في نسختين ثنية ذي المروة» (editors: corruption), «وبعض الناس يقدم غزوة حمزة»; p260 «قال ابن هشام والشافعي: من أرض حسمى» for Judham's land; p260-261 vowelling of al-Dula' and the archer's name (editors' notes); p261 «قال ابن هشام: ويقال حيان بن ملة».
+- p263-264 the Dubayb riders' speech and Abu Zayd's «تحت قدمي هذه» without isnad; p265 Zayd's vow not to wash «من جنابة» (one MS reading); p266 Umm Qirfa's killing described without comment; al-Yasir's thirty companions in one MS; p267 «بنخلة أو بعرنة» (narrator's doubt); p268 the staff «آية بيني وبينك يوم القيامة» via Ibn Unays alone.
+- p269 «تمت الغزاة وعدنا إلى خبر البعوث» missing in one MS; p270 «الخالفين» (Abu Dharr) vs «الخائفين» (three MSS); the eight delegates' names; al-Farazdaq's verses are Ibn Hisham's addition.
+- p271 Ibn Hisham on al-Huraqa via Abu Ubayda, sentence disordered in two MSS; p272 Rafi' «فيما بلغني», identified by Ibn Ishaq as Rafi' ibn Umayra; p274 Awf via Yazid ibn Abi Habib «أنه حُدّث عن عوف»; one MS adds «ولم يزدني على السلام».
+- None of the batch-13 raids is dated by Ibn Ishaq; every date is marked debated with needs_source.
+
+## Tier A for review (batch 13)
+
+- event/raid-of-zayd-on-banu-fazara-and-umm-qirfa and person/umm-qirfa: the manner of killing, perspectives Sunni-first, sensitivity violence.
+- event/raid-of-ghalib-on-banu-murra: Usama's killing of a man who had pronounced the shahada; the Prophet's rebuke.
+- event/killing-of-al-yasir-ibn-rizam and event/killing-of-khalid-ibn-sufyan-al-hudhali: targeted killings reported as the Prophet's dispatch; the opponents' intent is what «بلغ» the Prophet.
+
 ## Next step
 
-Batch 13 (pp. 257-274: Ghalib / Banu al-Mulawwah, Zayd / Judham, Zayd / Fazara and Umm Qirfa [Tier A], al-Yasir ibn Rizam, Khalid al-Hudhali, Uyayna / Banu al-Anbar, Ghalib / Banu Murra and Mirdas, Dhat al-Salasil), then 14 (pp. 275-291), 17 (pp. 182-199), 19-22 (pp. 291-322), 23 (indexes).
+Batch 14 (pp. 275-291: Batn Idam, Rifa'a ibn Qays, Dumat al-Jandal, Sayf al-Bahr, Amr al-Damri, Madyan, Abu Afak and Asma' bint Marwan [Tier A], Thumama, Alqama, Kurz, Ali, Usama), 17 (pp. 182-199), 19-22 (pp. 291-322), 23 (indexes).
 
 ## Doubt markers, batch 7 (pp. 173-181)
 

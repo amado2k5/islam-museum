@@ -12,7 +12,11 @@ regions: [arabia, levant-iraq]
 date:
   start: { edtf: "0629-10~", hijri: "0008-06", calendar: julian, precision: month, status: tradition, note: "جمادى الآخرة سنة 8هـ (أكتوبر 629م) (الرحيق ص392–393)." }
 relations:
-  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: group/judham, role: "ماء السلسل بأرضهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-udhra, role: "الغزوة من أرضهم عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/awf-ibn-malik-al-ashjai, role: "راوي خبر الجزور", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/rafi-ibn-umayra, role: "صحب أبا بكر في الغزوة وروى وصيته له", sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: place/al-salsal, note: "ماء بأرض جذام سُمّيت به الغزوة عند ابن إسحاق؛ كان في الملف قبل ذلك occurred_at place/mecca وهو خطأ ظاهر فأُبدل", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/amr-ibn-al-as, role: "أمير السرية", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "قائد المدد المبعوث لنصرة عمرو", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: had_participant, target: person/abu-bakr, role: "ممن شارك في المدد تحت إمرة عمرو", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
@@ -25,5 +29,5 @@ sides:
     commanders: [person/amr-ibn-al-as]
   - label: { en: "Quda'a and allied clans", ar: "قبائل قضاعة وبلي وعذرة" }
     participants: [group/kinana]
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 392–393" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 392–393; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 272-274" }

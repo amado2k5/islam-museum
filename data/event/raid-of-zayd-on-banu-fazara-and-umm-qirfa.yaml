@@ -1,0 +1,47 @@
+id: event/raid-of-zayd-on-banu-fazara-and-umm-qirfa
+class: event
+kind: raid
+label: { ar: "غزوة زيد بن حارثة بني فزارة ومقتل أم قرفة", en: "Zayd ibn Haritha's raid on Banu Fazara and the killing of Umm Qirfa" }
+summary:
+  ar: "غزا زيد بن حارثة وادي القرى فلقي بني فزارة فأصيب ناس من أصحابه وحُمل زيد جريحاً من بين القتلى، وقُتل ورد بن عمرو بن مداش، فآلى زيد ألا يمس رأسه غسل من جنابة حتى يغزو فزارة؛ فلما برئ بعثه النبي إليهم في جيش فقتلهم بوادي القرى، وقتل قيس بن المسحّر اليعمري مسعدة بن حكمة بن مالك بن حذيفة بن بدر، وأُسرت أم قرفة فاطمة بنت ربيعة بن بدر، عجوز كبيرة عند مالك بن حذيفة، وبنت لها وعبد الله بن مسعدة، فأمر زيد قيساً أن يقتل أم قرفة «فقتلها قتلاً عنيفاً»، وقدموا بابنتها وابن مسعدة على النبي؛ وكانت بنت أم قرفة لسلمة بن الأكوع فسألها النبي فوهبها له فأهداها لخاله حزن بن أبي وهب. الواقعة من المواضع المتنازع فيها وتحمل وجهات نظر."
+  en: "Zayd ibn Haritha raided Wadi al-Qura and met Banu Fazara; some of his men were hit, he was carried off wounded from among the dead, and Ward ibn Amr ibn Madash was killed, so Zayd swore no water would touch his head from major impurity until he raided Fazara. When he recovered the Prophet sent him with an army; he slaughtered them at Wadi al-Qura, Qays ibn al-Musahhar al-Ya'muri killed Mas'ada ibn Hakama ibn Malik ibn Hudhayfa ibn Badr, and Umm Qirfa, Fatima bint Rabi'a ibn Badr, an old woman married to Malik ibn Hudhayfa, was captured with a daughter and Abdullah ibn Mas'ada. Zayd ordered Qays to kill Umm Qirfa, 'and he killed her violently', and they brought her daughter and Ibn Mas'ada to the Prophet; the daughter fell to Salama ibn al-Akwa', the Prophet asked for her and gave her to his maternal uncle Hazn ibn Abi Wahb. The episode is contested and carries perspectives."
+wings: [time, people, place]
+themes: [skirmishes-raids-expeditions, laws-of-war-and-peace, women]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: violence
+date:
+  start: { edtf: "0628~", hijri: "0006~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن إسحاق؛ أصحاب المغازي المتأخرون يضعونها في رمضان سنة 6هـ (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/wadi-al-qura, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "بعث زيداً", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "أمير الجيش؛ جُرح في الأولى وأمر بقتل أم قرفة في الثانية", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/qays-ibn-al-musakhkhar, role: "قتل مسعدة بن حكمة ثم أم قرفة بأمر زيد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/umm-qirfa, role: "أُسرت وقُتلت", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/masada-ibn-hakama, role: "قُتل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/salama-ibn-al-akwa, role: "أصاب بنت أم قرفة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-fazara, role: "المُغار عليهم", sources: [source/ibn-hisham-saqqa] }
+sides:
+  - label: { ar: "جيش زيد بن حارثة", en: "Zayd ibn Haritha's army" }
+    commanders: [person/zayd-ibn-haritha]
+  - label: { ar: "بنو فزارة بوادي القرى", en: "Banu Fazara at Wadi al-Qura" }
+    participants: [group/banu-fazara]
+issue: { ar: "كيف يُقرأ قتل أم قرفة في سرية زيد بن حارثة؟", en: "How is the killing of Umm Qirfa in Zayd ibn Haritha's raid to be read?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-ibn-ishaq
+    stance: { ar: "خبر مغازٍ يُروى بلا تعليق" }
+    summary: { ar: "يرويه ابن إسحاق في قائمة السرايا بلا إسناد مسمّى وبلا تعليق: أمر زيد قيساً فقتلها قتلاً عنيفاً، وكانت في بيت شرف من قومها؛ ولا يذكر ابن إسحاق هنا سبباً لقتلها. وتفصيل السبب عند أصحاب المغازي المتأخرين (الواقدي وابن سعد) لم يُقابل بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: sunni-later
+    stance: { ar: "تضعيف وتفسير عند المتأخرين" }
+    summary: { ar: "يناقش علماء السنة المتأخرون صفة القتل الواردة في بعض الروايات ويضعّفون زياداتها أو يفسّرونها بتحريض أم قرفة على حرب النبي؛ مراجع محددة لهذه المناقشة لم تُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    id: academic
+    summary: { ar: "تناقش الدراسات الحديثة صحة تفاصيل الخبر ومصادره وسياقه في صراع المدينة مع فزارة وغطفان؛ مرجع أكاديمي محدد لم يُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 265-266", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 265-266; Tier A review" }

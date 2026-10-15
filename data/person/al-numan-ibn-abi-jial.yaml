@@ -1,0 +1,19 @@
+id: person/al-numan-ibn-abi-jial
+class: person
+label: { ar: "النعمان بن أبي جعال الضبيبي", en: "Al-Nu'man ibn Abi Ji'al al-Dubaybi" }
+names:
+  - { kind: full, lang: ar, value: "النعمان بن أبي جعال الضبيبي" }
+gender: male
+roles: [companion]
+summary:
+  ar: "من الضبيب من جذام ممن أسلم على كتاب رفاعة؛ نفر مع قومه إلى الهنيد بن عوص لاستنقاذ متاع دحية الكلبي فرماه قرة بن أشقر الضليعي بسهم أصاب ركبته. وأبو جعال قائل الشعر بعد ردّ النبي ما أُخذ من جذام."
+  en: "Of the Dubayb of Judham, among those who converted on Rifa'a's letter; he went out with his people against al-Hunayd ibn Us to recover Dihya al-Kalbi's goods and was shot in the knee by Qurra ibn Ashqar al-Dula'i. Abu Ji'al is the poet of the verses after the Prophet restored what had been taken from Judham."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-dubayb, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "رُمي في ركبته", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 260-264", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 260-264" }

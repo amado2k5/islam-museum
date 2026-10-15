@@ -23,6 +23,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابي أنصاري مذكور في المصادر الإسلامية الكلاسيكية." }
 relations:
+  - { type: participated_in, target: event/killing-of-al-yasir-ibn-rizam, role: "أمير النفر المبعوثين إلى اليسير بخيبر", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/early-muslims }
   - { type: participated_in, target: event/battle-of-mutah, role: third-commander, sources: [source/ibn-hisham-saqqa] }

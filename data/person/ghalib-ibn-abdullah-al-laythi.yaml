@@ -1,0 +1,20 @@
+id: person/ghalib-ibn-abdullah-al-laythi
+class: person
+label: { ar: "غالب بن عبد الله الليثي الكلبي", en: "Ghalib ibn Abdullah al-Laythi" }
+names:
+  - { kind: full, lang: ar, value: "غالب بن عبد الله الليثي الكلبي" }
+gender: male
+roles: [companion, commander]
+summary:
+  ar: "صحابي من كلب بن عوف بن ليث؛ أمّره النبي على سرية إلى بني الملوح بالكديد فأغار عليهم واستاق نعمهم، وعلى سرية إلى أرض بني مرة أصاب فيها مرداس بن نهيك."
+  en: "A Companion of Kalb ibn Awf ibn Layth; the Prophet set him over a detachment against Banu al-Mulawwah at al-Kudayd, which raided them and drove off their herds, and over another to the land of Banu Murra in which Mirdas ibn Nahik was killed."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/raid-of-ghalib-on-banu-al-mulawwah, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-ghalib-on-banu-murra, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/kinana, note: "من كلب بن عوف بن ليث", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 257-259, 271", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 257-259, 271" }

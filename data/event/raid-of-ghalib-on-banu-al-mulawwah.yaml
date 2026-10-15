@@ -1,0 +1,29 @@
+id: event/raid-of-ghalib-on-banu-al-mulawwah
+class: event
+kind: raid
+label: { ar: "غزوة غالب بن عبد الله الليثي بني الملوح بالكديد", en: "Ghalib ibn Abdullah al-Laythi's raid on Banu al-Mulawwah at al-Kudayd" }
+summary:
+  ar: "بعث النبي غالب بن عبد الله الليثي في سرية ليشنّ الغارة على بني الملوح بالكديد؛ يرويها جندب بن مكيث الجهني الذي كان فيها: أخذوا بقديد الحارث بن مالك ابن البرصاء الليثي الذي زعم أنه يريد الإسلام فأوثقوه، وكان جندب ربيئة القوم على تل فرماه رجل منهم بسهمين فثبت مكانه، ثم شنّوا الغارة في وجه السحر فقتلوا واستاقوا النعم، ولحقهم القوم فأرسل الله وادي قديد بالسيل من غير سحابة فحال بينهم؛ وكان شعار المسلمين تلك الليلة: أمت أمت."
+  en: "The Prophet sent Ghalib ibn Abdullah al-Laythi with a detachment to raid Banu al-Mulawwah at al-Kudayd; Jundab ibn Makith al-Juhani, who was in it, tells it: at Qudayd they seized al-Harith ibn Malik ibn al-Barsa' al-Laythi, who claimed he was going to embrace Islam, and bound him; Jundab served as lookout on a hill and a man of the camp shot him with two arrows, but he kept still; before dawn they raided, killed and drove off the herds, and when the pursuers reached Wadi Qudayd God sent a flood without a cloud that cut them off. The Muslims' watchword that night was 'amit, amit'."
+wings: [time, people, place]
+themes: [skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن إسحاق؛ أصحاب المغازي المتأخرون يضعونها في صفر سنة 8هـ (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-kudayd, sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: place/qudayd, note: "أخذ ابن البرصاء وسيل الوادي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "باعث السرية", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ghalib-ibn-abdullah-al-laythi, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/jundab-ibn-makith, role: "ربيئة القوم وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-harith-ibn-malik-ibn-al-barsa, role: "أُخذ بقديد وأُوثق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-al-mulawwah, role: "المُغار عليهم", sources: [source/ibn-hisham-saqqa] }
+sides:
+  - label: { ar: "سرية غالب بن عبد الله", en: "Ghalib's detachment" }
+    commanders: [person/ghalib-ibn-abdullah-al-laythi]
+  - label: { ar: "بنو الملوح بالكديد", en: "Banu al-Mulawwah at al-Kudayd" }
+    participants: [group/banu-al-mulawwah]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 257-259", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 257-259; date single-source" }

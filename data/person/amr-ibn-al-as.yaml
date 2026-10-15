@@ -24,6 +24,7 @@ story_roles:
 faith:
   - { value: sunni, basis: documented, note: "Embraced Islam about 629–630 CE after opposing the early community; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
+  - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "أمير الغزوة؛ صلى بالناس بعد تنازل أبي عبيدة", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: born_in, target: place/mecca }
   - { type: died_in, target: place/egypt }
   - { type: member_of, target: group/quraysh }
@@ -32,5 +33,5 @@ relations:
   - { type: converted_under, target: person/muhammad, start: { edtf: "0629" }, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: participated_in, target: event/conquest-of-egypt, role: muslim-commander, sources: [source/tabari-donner-1993] }
   - { type: allied_with, target: person/muawiya-ibn-abi-sufyan, start: { edtf: "0657~" }, sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/muruj-al-dhahab]
+sources: [source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

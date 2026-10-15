@@ -10,6 +10,7 @@ themes: [family-marriage-kinship, refugees-migrants-diaspora]
 periods: [period/pre-islamic-arabia, period/prophetic-era]
 regions: [arabia, levant-iraq]
 relations:
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "المُغار عليهم ثم رُدّ عليهم ما أُخذ", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: group/kahlan, sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
 provenance:
   layer: own-research
@@ -17,5 +18,5 @@ provenance:
   generated_by: "Claude Code"
   model: "claude-fable-5-1"
   run: "raheeq-prose-batch-1a"
-sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 16–17" }

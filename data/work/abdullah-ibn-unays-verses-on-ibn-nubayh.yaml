@@ -1,0 +1,21 @@
+id: work/abdullah-ibn-unays-verses-on-ibn-nubayh
+class: work
+kind: poem
+label: { ar: "أبيات عبد الله بن أنيس في قتل ابن نبيح الهذلي", en: "Abdullah ibn Unays's verses on killing Ibn Nubayh al-Hudhali" }
+summary:
+  ar: "سبعة أبيات على روي الدال يرويها ابن هشام لعبد الله بن أنيس: ترك ابن ثور كالحوار وحوله نوائح يشققن الجيوب، تناوله بسيف مهند والظعن خلفه، وقال له والسيف يعجم رأسه: أنا ابن أنيس فارساً غير قعدد، خذها بضربة ماجد حنيف على دين النبي محمد، وكان إذا همّ النبي بكافر سبق إليه باللسان واليد."
+  en: "Seven dal-rhymed verses Ibn Hisham reports as Abdullah ibn Unays's: he left Ibn Thawr like a camel calf with wailing women rending their collars around him, struck him with an Indian sword while the litters were behind, and told him as the sword bit his head: I am Ibn Unays, a horseman of no base stock; take that from a noble hanif upon the religion of the Prophet Muhammad; whenever the Prophet set his mind on an unbeliever he was first to him with tongue and hand."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/abdullah-ibn-unays]
+language: language/arabic
+wings: [words]
+themes: [literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/killing-of-khalid-ibn-sufyan-al-hudhali, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/khalid-ibn-sufyan-al-hudhali, note: "«ابن ثور» في البيت الأول", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 268-269", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 268-269" }

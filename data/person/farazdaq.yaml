@@ -7,10 +7,12 @@ summary:
 wings: [people, time]
 periods: [period/umayyad]
 regions: [levant-iraq]
+relations:
+  - { type: authored, target: work/farazdaq-verses-on-al-aqra-ibn-habis, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 408"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-37
-sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715]
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/bakr-umayyad-state-1134715, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

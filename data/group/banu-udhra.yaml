@@ -1,0 +1,15 @@
+id: group/banu-udhra
+class: group
+label: { ar: "بنو عُذرة", en: "Banu Udhra" }
+kind: tribe
+summary:
+  ar: "قبيلة من قضاعة في شمال الحجاز نحو وادي القرى والشام؛ يذكر ابن إسحاق أن غزوة ذات السلاسل كانت من أرض بني عذرة، وأن قطبة بن قتادة العذري كان على ميمنة المسلمين يوم مؤتة."
+  en: "A tribe of Quda'a in the northern Hijaz towards Wadi al-Qura and Syria; Ibn Ishaq places the Dhat al-Salasil campaign in the land of Banu Udhra and names Qutba ibn Qatada al-Udhri as commander of the Muslim right wing at Mu'ta."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: group/qudaa, note: "نسبها في قضاعة مشهور في كتب الأنساب ولم يُقرأ هنا (needs_source)", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 18, 272", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 18, 272" }

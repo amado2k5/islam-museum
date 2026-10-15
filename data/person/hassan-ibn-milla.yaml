@@ -1,0 +1,20 @@
+id: person/hassan-ibn-milla
+class: person
+label: { ar: "حسان بن ملة الضبيبي", en: "Hassan ibn Milla al-Dubaybi" }
+names:
+  - { kind: full, lang: ar, value: "حسان بن ملة الضبيبي" }
+gender: male
+roles: [companion]
+summary:
+  ar: "من الضبيب رهط رفاعة بن زيد من جذام؛ صحب دحية الكلبي قبل الإغارة عليه فعلّمه أم الكتاب، وكان متكلم ركب الضبيب حين لقوا جيش زيد بن حارثة فقال: إنا قوم مسلمون، وقرأ أم الكتاب على زيد، وهو الذي قال لرفاعة: إنك لجالس تحلب المعزى ونساء جذام أسارى؛ قال ابن هشام: ويقال حيان بن ملة."
+  en: "Of the Dubayb, Rifa'a ibn Zayd's clan of Judham; he had accompanied Dihya al-Kalbi before the robbery and taught him Umm al-Kitab, spoke for the Dubayb riders who met Zayd ibn Haritha's army, saying we are Muslims, recited Umm al-Kitab to Zayd, and told Rifa'a he sat milking goats while Judham's women were captives; Ibn Hisham: also said to be Hayyan ibn Milla."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-dubayb, sources: [source/ibn-hisham-saqqa] }
+  - { type: sibling_of, target: person/unayf-ibn-milla, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "متكلم الضبيب", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 261-263", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 261-263" }

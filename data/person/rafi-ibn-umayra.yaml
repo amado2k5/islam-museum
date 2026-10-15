@@ -1,10 +1,13 @@
 id: person/rafi-ibn-umayra
 class: person
+aliases: [person/rafi-ibn-abi-rafi-al-tai]
 label:
   ar: رافع بن عميرة الطائي
   en: Rafi' ibn Umayra al-Ta'i
 names:
   - { kind: full, lang: ar, value: رافع بن عميرة الطائي }
+  - { kind: alternate, lang: ar, value: "رافع بن أبي رافع الطائي" }
+  - { kind: alternate, lang: ar, value: "سَرْجِس" }
 gender: male
 roles: [companion]
 traditions: [sunni]
@@ -12,11 +15,18 @@ summary:
   ar: "طائي؛ كان دليل خالد بن الوليد في مفازته من قراقر إلى سوى حين مسيره من العراق إلى الشام سنة 13هـ، وفيه قال الشاعر: «لله در رافع أنّى اهتدى فوز من قراقر إلى سوى، ماء إذا ما رامه الجيش أنشا ما جازها قبلك من أنسٍ يُرى»."
   en: "A Ta'i; Khalid ibn al-Walid's guide across the waterless stretch from Qaraqir to Suwa on his march from Iraq to Syria in year 13, of whom the poet said: 'God bless Rafi' — how he guided, traversing from Qaraqir to Suwa, a water the army sought and found where no man was seen passing before you'."
 periods:
+- period/prophetic-era
 - period/rashidun
 regions:
 - arabia
 - levant-iraq
+story_roles:
+  - { role: convert, status: tradition, note: "كان نصرانياً يُسمى سرجس ثم أسلم قبل ذات السلاسل (ابن هشام 4/272)", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: christian, basis: tradition, end: { edtf: "0629~" }, note: "بحسب حديثه عن نفسه عند ابن إسحاق: كنت امرأً نصرانياً وسميت سرجس", sources: [source/ibn-hisham-saqqa] }
+  - { value: sunni, basis: tradition, start: { edtf: "0629~" }, note: "أسلم قبل غزوة ذات السلاسل؛ يُسجَّل ضمن الإطار السني للمتحف", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: participated_in, target: event/expedition-of-dhat-al-salasil, role: "صحب أبا بكر وروى وصيته", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/khalid-march-to-syria, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
@@ -25,6 +35,7 @@ provenance:
   run: lib-futuh-buldan-batch-8
 sources:
 - source/futuh-buldan-maarif-1407
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 1

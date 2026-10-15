@@ -1,0 +1,15 @@
+id: group/juhayna
+class: group
+label: { ar: "جهينة", en: "Juhayna" }
+kind: tribe
+summary:
+  ar: "قبيلة عربية من قضاعة كانت منازلها بين المدينة وساحل البحر الأحمر؛ يذكرها ابن إسحاق في سرايا النبي: منها جندب بن مكيث الجهني راوي سرية غالب إلى بني الملوح، ومنها الحُرَقة الذين كان منهم مرداس بن نهيك المقتول في غزوة غالب أرض بني مرة."
+  en: "An Arab tribe of Quda'a whose lands lay between Medina and the Red Sea coast; Ibn Ishaq mentions it in the Prophet's detachments: Jundab ibn Makith al-Juhani, narrator of Ghalib's raid on Banu al-Mulawwah, was of it, as was the clan al-Huraqa to which Mirdas ibn Nahik, killed in Ghalib's raid on Banu Murra, belonged."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: group/qudaa, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 257, 271", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-13" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 257, 271; genealogy of Juhayna within Quda'a is the standard one and needs a second source (needs_source)" }

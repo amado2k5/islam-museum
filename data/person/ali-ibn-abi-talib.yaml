@@ -18,8 +18,9 @@ story_roles:
   - { role: companion, status: tradition, sources: [source/ibn-ishaq-guillaume] }
   - { role: ruler, toward: polity/rashidun-caliphate, start: { edtf: "0656", calendar: julian, precision: year }, end: { edtf: "0661", calendar: julian, precision: year }, status: historical, sources: [source/watt-1956-medina] }
 relations:
+  - { type: participated_in, target: event/raid-of-zayd-on-judham, role: "بعثه النبي بسيفه ليردّ ما أُخذ من جذام", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: participated_in, target: event/hijra, role: stayed-behind-then-followed, sources: [source/ibn-ishaq-guillaume] }
 external_ids: { wikidata: Q7020 }
-sources: [source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim]
+sources: [source/ibn-ishaq-guillaume, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5 (scaffold)" }

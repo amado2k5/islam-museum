@@ -39,6 +39,7 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: participated_in, target: event/raid-of-ghalib-on-banu-murra, role: "قتل مرداس بن نهيك بعد نطقه بالشهادة؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }
 - type: child_of
   target: person/zayd-ibn-haritha
   sources:
@@ -61,6 +62,7 @@ provenance:
   run: isaba-batch-4
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 2

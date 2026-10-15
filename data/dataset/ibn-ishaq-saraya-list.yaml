@@ -11,7 +11,7 @@ rows_file: datasets/ibn-ishaq-saraya-list.csv
 license: CC0
 source: source/ibn-hisham-saqqa
 columns: [order, commander_ar, target_ar, note_ar, narrated, event_id, printed_page]
-coverage: { printed_pages: "257-291", total_per_ibn_ishaq: 38, rows_so_far: 23 }
+coverage: { printed_pages: "257-291", total_per_ibn_ishaq: 38, rows_so_far: 30 }
 method_note: "تُضاف الصفوف تباعاً مع قراءة صفحات السرايا (257-291)؛ عمود narrated يبيّن هل أورد ابن إسحاق خبر السرية مفصلاً أم اكتفى بذكرها في القائمة. الترتيب ترتيب الكتاب لا الترتيب الزمني."
 sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 257-266; rows grow with the sariya batches" }
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 257-274; rows grow with the sariya batches" }

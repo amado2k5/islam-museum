@@ -41,6 +41,9 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- { type: authored, target: work/abdullah-ibn-unays-verses-on-ibn-nubayh, sources: [source/ibn-hisham-saqqa] }
+- { type: participated_in, target: event/killing-of-khalid-ibn-sufyan-al-hudhali, role: "القاتل والراوي", sources: [source/ibn-hisham-saqqa] }
+- { type: participated_in, target: event/killing-of-al-yasir-ibn-rizam, role: "قتل اليسير وشُجّ", sources: [source/ibn-hisham-saqqa] }
 - type: participated_in
   target: event/pledges-of-aqaba
   sources:
@@ -53,6 +56,7 @@ provenance:
   run: isaba-batch-7
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 2
