@@ -8,29 +8,46 @@ export interface Rendered { html: string; cites: Cite[]; perspectives: { traditi
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-// Honorifics (ﷺ after the first mention of the Prophet, رضي الله عنه/عنها after the first mention of each Companion),
-// applied once per article body in Arabic only. English body text stays plain for readability (owner decision, see docs).
-// Headings and tables are left alone. One place, so the policy stays uniform and reversible.
-const PROPHET = /(?<![\u0621-\u064A])(رسول الله|النبي)(?![\u0621-\u064A])/g;
-const COMPANIONS = realNodes
-  .filter((n) => n.class === "person" && (n.data.roles ?? []).includes("companion"))
-  .map((n) => ({ name: labelOf(n, "ar"), suffix: n.data.gender === "female" ? "رضي الله عنها" : "رضي الله عنه" }))
-  .filter((c) => c.name)
-  .sort((a, b) => b.name.length - a.name.length);
+// Honorifics, one place so the policy stays uniform and reversible. The Prophet gets ﷺ after the first mention, and each
+// Companion gets the Sunni formula after the first mention, per article (see newHonState). Headings and tables are left alone.
+// Arabic uses رضي الله عنه/عنها; English uses the gloss "(may God be pleased with him/her)" so the prose reads naturally.
+const HON_PATTERNS: Record<Lang, RegExp> = {
+  ar: /(?<![\u0621-\u064A])(رسول الله|النبي)(?![\u0621-\u064A])/g,
+  en: /(?<![A-Za-z])(the Messenger of God|Prophet Muhammad|the Prophet)(?![A-Za-z])/g,
+};
+const companionCache = new Map<Lang, { name: string; suffix: string }[]>();
+function companionsFor(lang: Lang) {
+  let list = companionCache.get(lang);
+  if (!list) {
+    list = realNodes
+      .filter((n) => n.class === "person" && (n.data.roles ?? []).includes("companion"))
+      .map((n) => {
+        const female = n.data.gender === "female";
+        const name = lang === "ar" ? labelOf(n, "ar") : n.label?.en;
+        const suffix = lang === "ar" ? (female ? "رضي الله عنها" : "رضي الله عنه") : female ? "(may God be pleased with her)" : "(may God be pleased with him)";
+        return { name: name ?? "", suffix };
+      })
+      .filter((c) => c.name)
+      .sort((a, b) => b.name.length - a.name.length);
+    companionCache.set(lang, list);
+  }
+  return list;
+}
 
 /** Per-article state: the first mention of each name gets its honorific once across all sections of the article. */
 export interface HonState { prophet: boolean; companions: Set<string> }
 export const newHonState = (): HonState => ({ prophet: false, companions: new Set() });
 
 export function honorify(html: string, lang: Lang, state: HonState = newHonState()): string {
-  if (lang !== "ar") return html;
+  const prophet = HON_PATTERNS[lang];
+  const companions = companionsFor(lang);
   const body = (text: string) => {
-    let t = text.replace(PROPHET, (x) => {
+    let t = text.replace(prophet, (x) => {
       if (state.prophet) return x;
       state.prophet = true;
       return `${x} ﷺ`;
     });
-    for (const c of COMPANIONS) {
+    for (const c of companions) {
       if (state.companions.has(c.name)) continue;
       const i = t.indexOf(c.name);
       if (i < 0) continue;
