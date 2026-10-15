@@ -1,0 +1,24 @@
+id: building/al-azhar
+class: building
+kind: mosque
+label:
+  ar: الجامع الأزهر
+  en: Al-Azhar Mosque
+summary:
+  ar: "الجامع الأزهر بالقاهرة، أرساه الفاطميون جامعاً لدعوتهم ثم حوّله الوزير يعقوب بن كلس في سنة 378هـ إلى جامعة تدرس فيها العلوم والآداب بعد أن كان مقصوراً على إقامة الدعوة الفاطمية، فصار من أهم مراكز الثقافة في مصر مع مسجدي عمرو وابن طولون والحاكم."
+  en: "Al-Azhar at Cairo: founded by the Fatimids as the mosque of their da'wa, then turned by the vizier Ya'qub ibn Killis in 378 into a university teaching the sciences and letters — from a pulpit reserved for the Fatimid call into one of Egypt's foremost centres of learning beside the mosques of Amr, Ibn Tulun and al-Hakim."
+wings: [people, place]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+relations:
+- { type: located_in, target: place/cairo, sources: [source/tarikh-islam-hasan-ibrahim] }
+- { type: "related_to", target: "polity/fatimid-caliphate", note: "أرساه الفاطميون لدعوتهم", sources: [source/tarikh-islam-hasan-ibrahim] }
+- { type: "related_to", target: person/yaqub-ibn-killis, note: "حوله إلى جامعة 378هـ", sources: [source/tarikh-islam-hasan-ibrahim] }
+provenance:
+  layer: own-research
+  source: حسن إبراهيم حسن، تاريخ الإسلام ج4 — مراكز الثقافة، ص403
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-hasanibrahim-14
+sources: [source/tarikh-islam-hasan-ibrahim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
