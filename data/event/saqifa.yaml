@@ -10,7 +10,7 @@ themes: [factions-splits-schisms, sects-and-schools]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0632-06", hijri: "0011-03", calendar: julian, precision: month, status: tradition }
+  start: { edtf: "0632-06-08", hijri: "0011-03-12", calendar: julian, precision: day, status: tradition, derived: true, note: "اجتمع الأنصار في السقيفة في يوم الوفاة نفسه: عند ابن هشام «ولما قُبض رسول الله انحاز هذا الحي من الأنصار إلى سعد بن عبادة في سقيفة بني ساعدة» ورسول الله «في بيته لم يُفرغ من أمره» (ابن هشام، تحقيق السقا 4/306–307)، وبيعة العامة في المسجد كانت «الغد» (4/311)؛ وفي الرحيق المختوم: «مضى في ذلك بقية يوم الإثنين حتى دخل الليل» (ص 471). يوم الوفاة هو الاثنين 12 ربيع الأول 11 هـ (ابن هشام 4/303؛ الرحيق ص 469)، فيُسجَّل الاجتماع بهذا اليوم. التاريخ اليولياني مشتق من يوم الوفاة الاثنين 8 يونيو 632 (التحويل الجدولي يعطي 7 يونيو).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/abu-bakr }
