@@ -1,0 +1,21 @@
+id: person/muhammad-ibn-al-harith-al-khushani
+class: person
+label: { ar: "محمد بن الحارث الخشني", en: "Muhammad ibn al-Harith al-Khushani" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن حارث بن أسد الخشني" }
+gender: male
+roles: [historian, scholar]
+traditions: [sunni]
+died: { edtf: "0981", hijri: "0371", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مؤرخ أندلسي من أهل القيروان، ينسب إلى الخشني."
+  en: "An Andalusian historian of Kairouan, named al-Khushani."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 295, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص295", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

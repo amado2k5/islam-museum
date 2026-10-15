@@ -1,0 +1,22 @@
+id: person/ibn-khafaja-ibrahim
+class: person
+label: { ar: "ابن خفاجة إبراهيم بن أبي الفتح", en: "Ibn Khafaja, Ibrahim ibn Abi al-Fath" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم بن أبي الفتح بن عبيد الله ابن خفاجة" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+born: { edtf: "1058", hijri: "0450", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1139", hijri: "0533", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شاعر أندلسي من أهل جزيرة شقر، صاحب الوصف الطبيعي."
+  en: "An Andalusian poet from Jazirat Shuqr, known for his nature description."
+wings: [people, words]
+themes: [literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 378, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص378", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

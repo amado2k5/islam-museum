@@ -1,0 +1,21 @@
+id: person/ziyad-ibn-khalfun
+class: person
+label: { ar: "زياد بن خلفون", en: "Ziyad ibn Khalfun" }
+names:
+  - { kind: full, lang: ar, value: "زياد بن خلفون" }
+gender: male
+roles: [physician]
+traditions: [sunni]
+died: { edtf: "0920", hijri: "0308", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب قيرواني من موالي الأغالبة، ولا يُعرف الكثير عن أصله."
+  en: "A physician of Kairouan, a client of the Aghlabids, about whose origins little is known."
+wings: [people, words]
+themes: [medicine]
+periods: [period/abbasid-fragmentation]
+regions: [maghreb]
+story_roles:
+  - { role: physician, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 446, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص446", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
