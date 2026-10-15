@@ -1,0 +1,41 @@
+id: person/jochi-ibn-genghis
+class: person
+label:
+  ar: طوشي بن جنكزخان
+  en: Jochi (Tushi) ibn Genghis Khan
+summary:
+  ar: "طوشي ويقال دوشي بن جنكزخان، أكبر أولاده؛ عين له أبوه من الممالك بلاد فيلاق إلى بلغار وهي دست القفجاق، وأضاف إليه أران وهمذان وتبريز ومراغة وعيرلان، ومات في حياة أبيه وخلف من الولد ناخوا وبركة فاستقر الملك في أعقابه بدشت القفجاق."
+  en: "Jochi ibn Genghis Khan, his eldest son; his father assigned him the realms from Filak to Bulgar — the Dasht-i Qipchaq — and added Arran, Hamadan, Tabriz, Maragha and Iran, but he died in his father's lifetime leaving his sons Naju (Batu) and Berke, in whose line the Dasht kingship settled."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1227~"
+  hijri: "0624~"
+  calendar: julian
+  precision: decade
+  status: tradition
+  note: مات في حياة أبيه؛ السنة تقريبية.
+relations:
+- type: child_of
+  target: person/genghis-khan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: parent_of
+  target: person/berke-khan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، قسمة الأعمال بين ولد جنكزخان، ص1535-1536 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-12
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
