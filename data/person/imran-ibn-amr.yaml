@@ -1,0 +1,28 @@
+id: person/imran-ibn-amr
+class: person
+label: { ar: "عمران بن عمرو مزيقياء", en: "Imran ibn Amr Muzayqiya" }
+names:
+  - { kind: full, lang: ar, value: "عمران بن عمرو مزيقياء الأزدي" }
+gender: male
+roles: [tribal-chief]
+summary:
+  ar: "سيد الأزد وكبيرهم الذي كانت هجرتهم من اليمن على رأيه في سياق الرحيق المختوم؛ تنقلوا في اليمن وأرسلوا الروّاد ثم ساروا نحو الشمال، ونزل هو وبنوه عُمان فهم أزد عُمان."
+  en: "Chief and elder of al-Azd on whose counsel the tribe left Yemen in al-Raheeq al-Makhtum's account; they wandered in Yemen sending scouts, then moved north, and he and his sons settled Oman as the Azd of Oman."
+wings: [people]
+themes: [family-marriage-kinship, refugees-migrants-diaspora]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/amr-ibn-amir-muzayqiya, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/al-azd, note: "سيد الأزد وكبيرهم.", sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+  - { type: lived_in, target: place/oman, note: "نزل عُمان واستوطنها هو وبنوه.", sources: [source/mubarakpuri-raheeq] }
+  - { type: sibling_of, target: person/thalaba-ibn-amr, sources: [source/mubarakpuri-raheeq] }
+  - { type: sibling_of, target: person/jafna-ibn-amr, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص17–20 نقلاً عن قلب جزيرة العرب ص230–235 وتفهيم القرآن 1/553–556 وصحيح البخاري 1/474–476"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 17" }

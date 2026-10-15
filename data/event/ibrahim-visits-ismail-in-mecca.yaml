@@ -1,0 +1,29 @@
+id: event/ibrahim-visits-ismail-in-mecca
+class: event
+kind: other
+label: { ar: "رحلات إبراهيم إلى مكة", en: "Ibrahim's journeys to Mecca" }
+summary:
+  ar: "كان إبراهيم يرحل إلى مكة بين آونة وأخرى ليطالع تركته، ولا يُعلم عدد رحلاته، إلا أن المصادر حفظت أربعاً: رحلة الرؤيا وفداء إسماعيل، وثلاثاً يرويها البخاري عن ابن عباس: وجد في الأولى امرأة إسماعيل تشكو فأوصى بتغيير العتبة، وفي الثانية امرأته الثانية تثني فأوصى بتثبيتها، وفي الثالثة لقي إسماعيل فبنيا الكعبة وأذّن في الناس بالحج."
+  en: "Ibrahim travelled to Mecca from time to time to see what he had left there; the number is unknown but the sources preserve four journeys: the dream and the ransom of Ismail, and three narrated by al-Bukhari from Ibn Abbas: finding Ismail's first wife complaining (change the threshold), his second wife grateful (keep the threshold), and finally meeting Ismail, when together they raised the Kaaba and Ibrahim proclaimed the pilgrimage."
+wings: [time, people, place]
+themes: [prophets, sacred-space-and-pilgrimage]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "-2000~", calendar: julian, precision: century, status: tradition, note: "يقدّر المؤلف زمن إسماعيل بعشرين قرناً قبل الميلاد (الرحيق ص28)؛ لا تاريخ محدد للرحلات.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/ibrahim, role: "الزائر", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/ismail, role: "الابن المقيم بمكة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/bint-mudad-al-jurhumi, role: "زوج إسماعيل الثانية التي أثنت على الله", sources: [source/mubarakpuri-raheeq] }
+  - { type: has_part, target: event/sacrifice-of-ismail, sources: [source/mubarakpuri-raheeq] }
+  - { type: has_part, target: event/building-of-the-kaaba, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/pre-islamic-arabia }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص17–20 نقلاً عن قلب جزيرة العرب ص230–235 وتفهيم القرآن 1/553–556 وصحيح البخاري 1/474–476"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/qalb-jazirat-al-arab]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 19–20" }

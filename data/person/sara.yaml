@@ -1,0 +1,25 @@
+id: person/sara
+class: person
+label: { ar: "سارة", en: "Sarah" }
+names:
+  - { kind: full, lang: ar, value: "سارة زوج إبراهيم" }
+gender: female
+roles: [prophet-household]
+summary:
+  ar: "زوج إبراهيم؛ حاول فرعون مصر كيداً بها فردّ الله كيده، وعرف ما لها من الصلة القوية بالله فأخدمها هاجر اعترافاً بفضلها، فزوّجتها سارة إبراهيم، ثم غارت من هاجر بعد ولادة إسماعيل حتى ألجأت إبراهيم إلى الخروج بهاجر وولدها إلى الحجاز، في رواية الرحيق المختوم عن البخاري ورحمة للعالمين."
+  en: "Ibrahim's wife; Pharaoh plotted against her and God turned his plot back, and recognising her closeness to God he gave her Hajar as a servant, whom Sarah gave to Ibrahim in marriage; after Ismail's birth her jealousy led Ibrahim to take Hajar and the child to the Hijaz, in al-Raheeq al-Makhtum's account after al-Bukhari and Rahma lil-Alamin."
+wings: [people]
+themes: [women, family-marriage-kinship, prophets]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq, egypt-nile]
+relations:
+  - { type: spouse_of, target: person/ibrahim, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: traveled_to, target: place/misr, note: "قدمت مع إبراهيم إلى مصر حيث كاد لها فرعون.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص17–20 نقلاً عن قلب جزيرة العرب ص230–235 وتفهيم القرآن 1/553–556 وصحيح البخاري 1/474–476"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/rahma-lil-alamin]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 18" }

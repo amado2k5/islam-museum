@@ -1,0 +1,24 @@
+id: group/bakr-ibn-wail
+class: group
+kind: tribe
+label: { ar: "بكر بن وائل", en: "Bakr ibn Wa'il" }
+summary:
+  ar: "قبيلة ربعية عدنانية، أحد ابني وائل مع تغلب؛ أقامت بطون منها بالبحرين، وسائرها في طول الأرض من اليمامة إلى البحرين إلى كاظمة فأطراف سواد العراق فالأبلة فهيت؛ منها بنو شيبان أصحاب يوم ذي قار، وبنو حنيفة باليمامة، وكانت حروبها مع تغلب مثلاً على تنافس الأقارب."
+  en: "A Rabi'a tribe of Adnan, one of Wa'il's two sons with Taghlib; branches settled Bahrayn and the rest stretched from al-Yamama to Bahrayn, Kazima, the edge of the Iraqi sawad, al-Ubulla and Hit; Banu Shayban of Dhu Qar and Banu Hanifa of al-Yamama belong to it, and its wars with Taghlib are the textbook case of kin rivalry."
+wings: [people]
+themes: [family-marriage-kinship, wars-and-campaigns]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: part_of, target: group/rabia-ibn-nizar, note: "ابنا وائل بكر وتغلب من ربيعة.", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+  - { type: lived_in, target: place/bahrayn, note: "هاجرت بطون من بكر بن وائل إلى البحرين.", sources: [source/mubarakpuri-raheeq] }
+  - { type: lived_in, target: place/al-yamama, sources: [source/mubarakpuri-raheeq] }
+  - { type: fought, target: group/banu-taghlib, note: "حروب بكر وتغلب مثال التنافس بين القبائل التي يجمعها أب واحد.", sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص15–22 نقلاً عن محاضرات تاريخ الأمم الإسلامية للخضري 1/11–16 وقلب جزيرة العرب ص230–235"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 20–22, 45" }

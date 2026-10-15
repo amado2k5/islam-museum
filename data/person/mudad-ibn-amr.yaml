@@ -1,0 +1,26 @@
+id: person/mudad-ibn-amr
+class: person
+label: { ar: "مضاض بن عمرو الجرهمي", en: "Mudad ibn Amr al-Jurhumi" }
+names:
+  - { kind: full, lang: ar, value: "مضاض بن عمرو الجرهمي" }
+gender: male
+roles: [tribal-chief, ruler]
+summary:
+  ar: "كبير جرهم وسيدهم في قصة إسماعيل؛ زوّج إسماعيل ابنته بعد طلاقه امرأته الأولى، فولدت له اثني عشر ولداً، ثم انتقلت إليه زعامة مكة بعد نابت وقيدار فصارت الولاية في جرهم زهاء عشرين قرناً؛ وهو غير عمرو بن الحارث بن مضاض الذي دفن غزالي الكعبة عند جلاء جرهم."
+  en: "Chief of Jurhum in the story of Ismail; he gave Ismail his daughter after Ismail divorced his first wife, and she bore twelve sons; after Nabit and Qaydar the leadership of Mecca passed to him and stayed with Jurhum for about twenty centuries. Not to be confused with Amr ibn al-Harith ibn Mudad who buried the Kaaba's gazelles when Jurhum left."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/jurhum, note: "كبير جرهم وسيدهم.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: parent_of, target: person/bint-mudad-al-jurhumi, sources: [source/mubarakpuri-raheeq] }
+  - { type: ruler_of, target: place/mecca, note: "ولي أمر مكة بعد نابت وقيدار فانتقلت الزعامة إلى جرهم.", sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص17–20 و27 نقلاً عن قلب جزيرة العرب ص230–235 وتاريخ أرض القرآن 2/78–86 وصحيح البخاري 1/474–476"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-1a"
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/qalb-jazirat-al-arab]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 19, 27–28" }
