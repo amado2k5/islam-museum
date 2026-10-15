@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.234"
-label: { ar: "الموطأ 1.234", en: "Muwatta 1.234" }
+label: { ar: "الموطأ 234 — إذا قال الإمام سمع الله لمن حمده فقولوا اللهم ربنا لك الحمد", en: "Muwatta 234" }
+text: "إذا قال الإمام: سمع الله لمن حمده، فقولوا: اللهم ربنا لك الحمد، فإنه من وافق قوله قول الملائكة غفر له ما تقدم من ذنبه"
 summary:
-  ar: "سمي عن أبي صالح عن أبي هريرة: إذا قال الإمام: سمع الله لمن حمده، فقولوا: ربنا ولك الحمد."
+  ar: "يرويه مالك عن سمي مولى أبي بكر عن أبي صالح السمان عن أبي هريرة، في باب ما جاء في التأمين خلف الإمام: أمر النبي المأمومين أن يقولوا «اللهم ربنا لك الحمد» إذا قال الإمام «سمع الله لمن حمده»، فمن وافق قوله قول الملائكة غُفر له ما تقدم من ذنبه. ويخرّجه المحقق عند البخاري (796، 3228) ومسلم (2/17) وأبي داود (848) والترمذي (267) والنسائي (2/196) وابن حبان وأحمد من طرق أصحاب مالك، ويحيل على التمهيد (22/31). {cite:muwatta-maruf-1997 p.141} {cite:muwatta-maruf-1997 p.142}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 234 of kitab al-salat at PDF p. 141", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-12" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sumayy-mawla-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salih-al-samman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/maghfira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 234 at PDF p. 141; باب ما جاء في التأمين خلف الإمام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b10" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 141; matn excerpt at most 40 words" }

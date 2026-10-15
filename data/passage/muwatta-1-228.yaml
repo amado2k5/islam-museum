@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.228"
-label: { ar: "الموطأ 1.228", en: "Muwatta 1.228" }
+label: { ar: "الموطأ 228 — ابن عمر: من صلى خلف الإمام كفته قراءة الإمام", en: "Muwatta 228" }
+text: "إذا صلى أحدكم خلف الإمام فحسبه قراءة الإمام، وإذا صلى وحده فليقرأ"
 summary:
-  ar: "نافع: سُئل ابن عمر هل يقرأ أحد خلف الإمام، فقال: إذا صلى أحدكم خلف الإمام فحسبه قراءة الإمام."
+  ar: "أول أثر في باب ترك القراءة خلف الإمام فيما جهر فيه. يرويه يحيى عن مالك عن نافع: كان عبد الله بن عمر إذا سُئل هل يقرأ أحد خلف الإمام قال إن من صلى خلف الإمام كفته قراءة الإمام، ومن صلى وحده فليقرأ، وكان هو لا يقرأ خلف الإمام. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وابن وهب عند الطحاوي ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.138}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 228 of kitab al-salat at PDF p. 138", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-12" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 228 at PDF p. 138; باب ترك القراءة خلف الإمام فيما جهر فيه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b10" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 138; matn excerpt at most 40 words" }
