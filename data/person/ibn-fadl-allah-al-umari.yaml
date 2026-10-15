@@ -1,0 +1,21 @@
+id: person/ibn-fadl-allah-al-umari
+class: person
+label: { ar: "ابن فضل الله العمري", en: "Ibn Fadl Allah al-Umari" }
+summary:
+  ar: "شهاب الدين أحمد بن فضل الله العمري (٧٠٠-٧٤٩هـ)؛ كاتب السر في ديوان الإنشاء بدولة المماليك ومؤلف «مسالك الأبصار في ممالك الأمصار» و«التعريف بالمصطلح الشريف». اعتذر في مقدمة مسالكه بأنه لم يُتِهم في تهامة ولا أعرق في عراق — فكتابه جمعٌ من الكتب والأفواه لا من المشاهدة {cite:umari-masalik-1924 p. 14}."
+  en: "Shihab al-Din Ahmad ibn Fadl Allah al-Umari (700–749 AH), head of the Mamluk chancery's correspondence bureau and author of Masalik al-Absar and al-Ta'rif bi'l-Mustalah al-Sharif — who begged the reader's pardon that he 'had not braved Tihama nor plunged into Iraq': a compiler from books and informants, not a traveller {cite:umari-masalik-1924 p. 14}."
+gender: male
+wings: [people, words]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born: { edtf: "1301", hijri: "0700", calendar: julian, precision: year, status: tradition, derived: true, note: "نحو 700هـ؛ التحويل مشتق." }
+died: { edtf: "1349", hijri: "0749", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 749هـ؛ التحويل مشتق." }
+relations:
+  - { type: authored, target: work/masalik-al-absar, sources: [source/umari-masalik-1924] }
+provenance:
+  layer: own-research
+  source: "مسالك الأبصار (ط 1924) مقدمة المؤلف ص 14"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-umari-1
+sources: [source/umari-masalik-1924]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
