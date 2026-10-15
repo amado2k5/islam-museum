@@ -1,0 +1,29 @@
+id: event/al-adil-takes-jaffa-593
+class: event
+kind: conquest
+label: { ar: "ملك العادل يافا وملك الفرنج بيروت", en: "Al-Adil takes Jaffa and the Franks take Beirut (593 AH)" }
+summary:
+  ar: "في شوال سنة ثلاث وتسعين وخمسمائة ملك الملك العادل مدينة يافا من الفرنج؛ وكان ببيروت أمير مقطعها يعرف بأسامة يرسل الشواني يقطعون الطريق على الفرنج فاشتكوا إلى العادل والعزيز فلم يمنعاه، فأمدهم الفرنج بعساكر كثيرة أكثرهم من عسكر ملك الألمان مقدمهم قس يعرف بالخنصلير، فجمع العادل العساكر على عين جالوت ورحلوا إلى يافا فملكوا المدينة وخربوها وحصروا قلعتها فملكوها عنوة في يومها، وأخذ كل ما بها غنيمة وأسراً؛ ووصل الفرنج من عكا إلى قيسارية ليمنعوهم فتأخروا لسقوط ملكهم الكندهري من موضع عالٍ بعكا فمات واختلاف أحوالهم، فلما بلغهم ملك يافا عادوا؛ ثم سار العادل إلى بيروت وهدموا سورها وشرعوا في تخريب دورها وقلعتها فمنعهم أسامة وتكفل بحفظها، فرحل الفرنج إلى صيدا فملكوا بيروت من المسلمين لما كانت قد خربت وحصروا تبنين ثم رحلوا عنها {cite:kamil-ibn-al-athir p. 245-246}."
+  en: "Shawwal 593: al-Adil massed the Ayyubid armies at Ayn Jalut, stormed Jaffa's citadel in a day and took all in it as booty and captives. The German-led Frankish relief reached Caesarea too late — their king Henry of Champagne had fallen from a high place at Acre and died, throwing them into confusion. The Ayyubids then razed Beirut's walls; the Franks slipped in, reoccupied it and besieged Tibnin before withdrawing {cite:kamil-ibn-al-athir p. 245-246}."
+date:
+  start: { hijri: "0593-10", edtf: "1197-09", calendar: julian, precision: month, status: tradition, note: "شوال ٥٩٣هـ {cite:kamil-ibn-al-athir p. 245-246}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/al-malik-al-adil-ayyub
+  role: "ملك يافا وقاد تخريب بيروت"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/henry-of-champagne
+  role: "ملك الفرنج بعكا الذي سقط فمات وتأخر الإمداد بسببه"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+themes: [crusades]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 245-246"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-12
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

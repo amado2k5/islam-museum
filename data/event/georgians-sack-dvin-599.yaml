@@ -1,0 +1,24 @@
+id: event/georgians-sack-dvin-599
+class: event
+kind: conquest
+label: { ar: "ملك الكرج مدينة دوين", en: "The Georgian sack of Dvin (599 AH)" }
+summary:
+  ar: "في سنة تسع وتسعين وخمسمائة استولى الكرج على مدينة دوين من أذربيجان ونهبوها واستباحوها وأكثروا في أهلها، وكانت هي وجميع بلاد أذربيجان للأمير أبي بكر بن البهلوان، وكان على عادته مشغولاً بالشرب ليلاً ونهاراً لا يفيق ولا ينظر في أمر مملكته ورعيته، وكان أهل تلك البلاد أكثروا الاستغاثة إليه بقصد الكرج بلادهم مرة بعد أخرى فكأنهم ينادون صخرة صماء، فلما طال الحصار ضعف أهلها فأخذهم الكرج عنوة بالسيف؛ يقول ابن الأثير: فقد بلغنا من فعل الكرج بأهل دوين من القتل والسبي ما تقشعر منه الجلود {cite:kamil-ibn-al-athir p. 283-284}."
+  en: "599: the Georgians stormed Dvin in Azerbaijan, sacked it and massacred its people — while its Atabeg Abu Bakr ibn al-Pahlawan, the last Eldiguzid ruler of Azerbaijan, 'occupied with drink night and day', ignored years of pleas from the border towns. Ibn al-Athir writes that reports of the killing and enslavement made skins shudder {cite:kamil-ibn-al-athir p. 283-284}."
+date:
+  start: { hijri: "0599", edtf: "1203", calendar: julian, precision: year, status: tradition, note: "سنة ٥٩٩هـ {cite:kamil-ibn-al-athir p. 283-284}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/abu-bakr-ibn-al-pahlawan
+  role: "صاحب أذربيجان المقصر في الدفاع عنها"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 283-284"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-12
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
