@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.212"
-label: { ar: "الموطأ 1.212", en: "Muwatta 1.212" }
+label: { ar: "الموطأ 212 — علي: نهى عن لبس القسي وتختم الذهب وقراءة القرآن في الركوع", en: "Muwatta 212" }
+text: "نهى عن لبس القسي، وعن تختم الذهب، وعن قراءة القرآن في الركوع"
 summary:
-  ar: "إبراهيم بن عبد الله بن حنين عن أبيه عن علي بن أبي طالب: نهى النبي ﷺ عن شيء في الصلاة؛ نص النهي في OCR غير واضح."
+  ar: "أول حديث في باب العمل في القراءة. يرويه يحيى عن مالك عن نافع عن إبراهيم بن عبد الله بن حنين عن أبيه عن علي بن أبي طالب: نهى النبي عن لبس القسي، وهي ثياب من مصر فيها حرير، وعن التختم بالذهب، وعن قراءة القرآن في الركوع. ويخرّجه المحقق عند مسلم (2/49) وأبي داود (4044) والترمذي (264، 1725) والنسائي (2/189) وابن حبان وأحمد (1/126) من طرق أصحاب مالك، وينقل عن ابن عبد البر أنه اختُلف في إسناده ولفظه على نافع وعلى إبراهيم بن عبد الله بن حنين اختلافاً كثيراً، وأن الدارقطني تناوله في العلل، وأن ذلك لا يقدح في صحة النص الذي ساقه مالك، إذ قال ابن عبد البر: والحديث صحيح كما رواه مالك ومن تابعه (التمهيد 16/112). {cite:muwatta-maruf-1997 p.130} {cite:muwatta-maruf-1997 p.131}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 212 of kitab al-salat at PDF p. 130", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-11" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibrahim-ibn-abdallah-ibn-hunayn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 212 at PDF p. 130; باب العمل في القراءة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b09" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نص النهي غير واضح في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 130; matn excerpt at most 40 words" }

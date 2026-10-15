@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.222"
-label: { ar: "الموطأ 1.222", en: "Muwatta 1.222" }
+label: { ar: "الموطأ 222 — أبي بن كعب وسورة لم ينزل مثلها: الفاتحة السبع المثاني", en: "Muwatta 222" }
+text: "هي هذه السورة، وهي السبع المثاني والقرآن العظيم الذي أعطيت"
 summary:
-  ar: "أبو سعيد مولى عامر بن كريز أخبره أن النبي ﷺ قال في الصلاة؛ تفاصيل المتن غير واضحة في OCR."
+  ar: "أول حديث في باب ما جاء في أم القرآن. يرويه يحيى عن مالك عن العلاء بن عبد الرحمن بن يعقوب أن أبا سعيد مولى عامر بن كريز أخبره مرسلاً: نادى النبي أبي بن كعب وهو يصلي، فلما فرغ لحقه فوضع يده على يده وهو يريد الخروج من باب المسجد وقال إنه يرجو ألا يخرج من المسجد حتى يعلم سورة ما أنزل الله في التوراة ولا الإنجيل ولا الفرقان مثلها، فجعل أبي يبطئ في المشي رجاء ذلك ثم ذكّره بالسورة التي وعده، فسأله كيف يقرأ إذا افتتح الصلاة، فقرأ عليه فاتحة الكتاب إلى آخرها، فقال النبي: هي هذه السورة، وهي السبع المثاني والقرآن العظيم الذي أُعطيت. ويذكر المحقق أنه رواه عن مالك أبو مصعب وزيد بن الحباب عند الطبري وسويد والقعنبي، وينقل عن ابن عبد البر أن الرواة عن مالك لم يختلفوا في إسناده، وأن جماعة خالفوه عن العلاء فرووه عن أبيه عن أبي هريرة مسنداً، وأن عبد الحميد بن جعفر رواه عن العلاء عن أبيه عن أبي هريرة عن أبي بن كعب وهو الأشبه عنده (التمهيد 20/218)؛ ويرى المحقق أن تفضيل ابن عبد البر لرواية عبد الحميد فيه نظر لتفرده وموافقة الجماعة على رواية أبي هريرة وتصحيح الترمذي لها، ويذكر أن الحديث مشهور من حديث أبي سعيد بن المعلى عند البخاري (4474، 4647، 4703). {cite:muwatta-maruf-1997 p.134} {cite:muwatta-maruf-1997 p.135}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 222 of kitab al-salat at PDF p. 134", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-12" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubayy-ibn-kab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-mawla-amir-ibn-kurayz, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-ala-ibn-abd-al-rahman-al-huraqi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 222 at PDF p. 134; باب ما جاء في أم القرآن", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b09" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 134; matn excerpt at most 40 words" }
