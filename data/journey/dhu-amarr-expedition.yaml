@@ -1,0 +1,20 @@
+id: journey/dhu-amarr-expedition
+class: journey
+kind: military_campaign
+label: { ar: "غزوة ذي أمر" }
+summary:
+  ar: "خرج النبي في المحرم سنة 3هـ في نحو أربعمائة وخمسين مقاتلاً، فوصل إلى الماء المسمى ذي أمر، حيث تجمع بنو ثعلبة ومحارب فتفرقوا، ثم رجع إلى المدينة."
+wings: [time, place, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - { from: place/medina, to: place/dhu-amarr, mode: "مسير الجيش", note: "وصل إلى ذي أمر حيث تجمعت القبائل فتفرقت، فأقام هناك نحو صفر ثم رجع إلى المدينة (الصفحة 241 من المطبوع).", sources: [source/mubarakpuri-raheeq] }
+relations: []
+sources: [source/mubarakpuri-raheeq]
+provenance: { layer: own-research, source: "al-Raheeq al-Makhtum (Mubarakpuri), printed pages", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-raheeq-sariyas" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum printed pages; the scan images were not opened for this draft" }
+
+waypoints:
+  - {"place": "place/medina", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "المدينة المنورة"}, "narrative": {"ar": "نقطة الانطلاق: خرج النبي من المدينة بعد أن استخلف على إدارتها."}, "sources": ["source/mubarakpuri-raheeq"]}
+  - {"place": "place/dhu-amarr", "day": 2, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "ذو أمر"}, "narrative": {"ar": "وصل إلى ذي أمر حيث تجمعت القبائل فتفرقت، فأقام هناك نحو صفر ثم رجع إلى المدينة (الصفحة 241 من المطبوع)."}, "sources": ["source/mubarakpuri-raheeq"]}
