@@ -14,6 +14,7 @@ sides:
   - label: { ar: "القوات اليونانية" }
   - label: { ar: "المقاومة التركية بقيادة مصطفى كمال" }
 relations:
+  - { type: occurred_at, target: place/izmir, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: had_participant, target: person/mustafa-kamal, role: "قائد المقاومة", sources: [source/dawlat-uthmaniyya-salabi] }
 provenance:
   layer: own-research
