@@ -1,0 +1,25 @@
+id: person/mehmed-iii-uthmani
+class: person
+label: { ar: "محمد الثالث" }
+names:
+  - { kind: full, lang: ar, value: "محمد خان الثالث بن مراد الثالث" }
+gender: male
+roles: [ruler]
+born: { edtf: "1566~", hijri: "0974", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+died: { edtf: "1603-12-21~", hijri: "1012-07-18", calendar: julian, precision: day, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "نهار الأحد ١٨ رجب ١٠١٢هـ؛ مدة حكمه تسع سنين وشهران ويومان." }
+summary:
+  ar: "السلطان محمد الثالث؛ ولد عام ٩٧٤هـ وجلس على سرير السلطنة عام ١٠٠٣هـ بعد وفاة والده باثني عشر يوماً إذ كان مقيماً في مغنيسا، وكانت أمه إيطالية الأصل تسمى صفية. ومع أن الضعف بدأ يعتري الدولة فإنه لما تحقق له أن سبب ضعفها في حروبها عدم خروج السلاطين وقيادة الجيوش بأنفسهم برز بنفسه وتقلد قيادة عموم الجيوش التي تركها سليم الثاني ومراد الثالث، فسار إلى بلغراد ومنها إلى ميادين الوغى، ودبّت في الجيوش الحمية بمجرد خروجه. وفي إحدى المعارك كاد يُؤسر وفرّ من حوله الجنود فقال له الشيخ سعد الدين أفندي: اثبت أيها الملك فإنك منصور بعون مولاك، فركب جواده وحمل سيفه وتضرع إلى القوي العزيز فما مضت ساعة حتى نزل النصر — وكانت تلك المعركة بعد فتح حصن إغري. وكان على نصيب عالٍ من التعليم والثقافة والأدب شديد التدين مائلاً إلى التصوف، وكان إذا سمع اسم النبي قام إجلالاً واحتراماً. توفي نهار الأحد ١٨ رجب سنة ١٠١٢هـ بعد تسع سنين وشهرين ويومين عن ثمان وثلاثين سنة {cite:dawlat-uthmaniyya-salabi p. 295-296}."
+  en: "Mehmed III (r. 1003–1012/1595–1603) — the last Ottoman sultan to take the field in person, reviving the custom his father and grandfather had let lapse; at Eger he held firm when his troops scattered and the victory came within the hour. A poet-sultan inclined to tasawwuf; died 18 Rajab 1012 aged 38 {cite:dawlat-uthmaniyya-salabi p. 295-296}."
+wings: [people, time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/murad-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 295-296"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-4
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
