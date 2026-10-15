@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.114"
-label: { ar: "الموطأ 1.114", en: "Muwatta 1.114" }
+label: { ar: "الموطأ 114 — عائشة لأبي سلمة: مثلك مثل الفروج يصرخ مع الديكة", en: "Muwatta 114" }
+text: "هل تدري ما مثلك يا أبا سلمة؟ مثل الفروج يسمع الديكة تصرخ فيصرخ معها"
 summary:
-  ar: "أبو سلمة بن عبد الرحمن سأل عائشة عن الغسل من الجنابة؛ جوابها يُبيّن ما كان يفعله النبي ﷺ."
+  ar: "أثر يرويه مالك عن أبي النضر مولى عمر بن عبيد الله عن أبي سلمة بن عبد الرحمن بن عوف، في باب واجب الغسل إذا التقى الختانان: سأل أبو سلمة عائشة عما يوجب الغسل، فشبهته بالفروج الذي يسمع الديكة تصرخ فيصرخ معها، ثم أجابته بأن الغسل يجب إذا جاوز الختان الختان. ويذكر المحقق أنه رواه عن مالك أبو مصعب وابن وهب عند الطحاوي مختصراً وعبد الرزاق ومحمد بن الحسن ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.90} {cite:muwatta-maruf-1997 p.91}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 114 of kitab al-salat at PDF p. 90", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-nadr-salim-ibn-abi-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 114 at PDF p. 90; باب واجب الغسل إذا التقى الختانان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 90; matn excerpt at most 40 words" }

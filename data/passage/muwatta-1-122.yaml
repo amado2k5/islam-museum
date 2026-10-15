@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.122"
-label: { ar: "الموطأ 1.122", en: "Muwatta 1.122" }
+label: { ar: "الموطأ 122 — عمر يجد أنه احتلم وصلى فيغتسل ويعيد بالجرف", en: "Muwatta 122" }
 summary:
-  ar: "زُيد بن الصلت مع عمر بن الخطاب إلى الجرف، فنظر عمر فإذا (واقعة في أرض الجرف)؛ تفاصيل النص غير واضحة."
+  ar: "أثر يرويه مالك عن هشام بن عروة عن زييد بن الصلت، في باب إعادة الجنب الصلاة: خرج زييد مع عمر بن الخطاب إلى الجرف، فنظر عمر فوجد أنه قد احتلم وصلى ولم يغتسل، فأقسم أنه لا يرى إلا أنه احتلم وما شعر وصلى وما اغتسل، فاغتسل وغسل ما رأى في ثوبه ونضح ما لم ير، وأذّن أو أقام، ثم صلى بعد ارتفاع الضحى متمكناً. ويعرّف المحقق الجرف بأنه موضع على ثلاثة أميال من المدينة من جهة الشام، ويذكر أنه رواه عن مالك أبو مصعب وابن وهب عند الطحاوي وسويد وعبد الرزاق. {cite:muwatta-maruf-1997 p.94}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 122 of kitab al-salat at PDF p. 94", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zuyayd-ibn-al-salt, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-jurf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 122 at PDF p. 94; باب إعادة الجنب الصلاة وغسله إذا صلى ولم يذكر وغسله ثوبه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل النص غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 94; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.111"
-label: { ar: "الموطأ 1.111", en: "Muwatta 1.111" }
+label: { ar: "الموطأ 111 — صفة غسل ابن عمر من الجنابة", en: "Muwatta 111" }
 summary:
-  ar: "نافع عن ابن عمر: إذا اغتسل من الجنابة بدأ فصب الماء على يده اليمنى فغسلها، ثم غسل ما على جسده."
+  ar: "أثر يرويه مالك عن نافع، في باب العمل في غسل الجنابة: كان عبد الله بن عمر إذا اغتسل من الجنابة بدأ فأفرغ على يده اليمنى فغسلها، ثم غسل فرجه، ثم مضمض واستنثر، ثم غسل وجهه ونضح في عينيه، ثم غسل يده اليمنى ثم اليسرى، ثم غسل رأسه، ثم اغتسل وأفاض عليه الماء. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والشافعي ومحمد بن الحسن، وأن عبد الرزاق أخرجه عن ابن جريج عن نافع. {cite:muwatta-maruf-1997 p.89}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 111 of kitab al-salat at PDF p. 89", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 111 at PDF p. 89; باب العمل في غسل الجنابة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 89; matn excerpt at most 40 words" }

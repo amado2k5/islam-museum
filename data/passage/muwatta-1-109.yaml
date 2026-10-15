@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.109"
-label: { ar: "الموطأ 1.109", en: "Muwatta 1.109" }
+label: { ar: "الموطأ 109 — عائشة تصف غسل النبي من الجنابة", en: "Muwatta 109" }
+text: "ثم يدخل أصابعه في الماء فيخلل بها أصول شعره، ثم يصب على رأسه ثلاث غرفات بيديه، ثم يفيض الماء على جلده كله"
 summary:
-  ar: "هشام بن عروة عن أبيه عن عائشة: كان النبي ﷺ إذا اغتسل من الجنابة بدأ بغسل يديه قبل إدخالهما الإناء."
+  ar: "أول حديث في باب العمل في غسل الجنابة. يرويه يحيى عن مالك عن هشام بن عروة عن أبيه عن عائشة أم المؤمنين: كان النبي إذا اغتسل من الجنابة بدأ فغسل يديه، ثم توضأ كما يتوضأ للصلاة، ثم أدخل أصابعه في الماء فخلل بها أصول شعره، ثم صب على رأسه ثلاث غرفات بيديه، ثم أفاض الماء على جلده كله. ويخرّجه المحقق عند البخاري (248) والنسائي (1/134) وابن حبان (1196) والشافعي والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (22/92). {cite:muwatta-maruf-1997 p.88} {cite:muwatta-maruf-1997 p.89}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 109 of kitab al-salat at PDF p. 88", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 109 at PDF p. 88; باب العمل في غسل الجنابة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 88; matn excerpt at most 40 words" }

@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.115"
-label: { ar: "الموطأ 1.115", en: "Muwatta 1.115" }
+label: { ar: "الموطأ 115 — أبو موسى يسأل عائشة عن اختلاف الصحابة في الغسل", en: "Muwatta 115" }
+text: "ما كنت سائلاً عنه أمك فسلني عنه"
 summary:
-  ar: "أبو موسى الأشعري أتى عائشة يسألها عن مسألة الغسل بعد الجماع؛ مضمون الجواب يحتاج مراجعة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن سعيد بن المسيب، في باب واجب الغسل إذا التقى الختانان: أتى أبو موسى الأشعري عائشة وقال إن اختلاف أصحاب النبي في أمر شقّ عليه وإنه يستعظم أن يسألها عنه، فقالت له: ما كنت سائلاً عنه أمك فسلني عنه. فسأل عن الرجل يصيب أهله ثم يكسل ولا ينزل، فأجابت بأن الغسل يجب إذا جاوز الختان الختان. فقال أبو موسى: لا أسأل عن هذا أحداً بعدك أبداً. ويذكر المحقق أن الحديث روي مرفوعاً من طريق أبي بردة عن أبي موسى عند مسلم (1/186) وابن خزيمة (227) وأبي عوانة والبيهقي، ومن طريق سعيد بن المسيب عن أبي موسى عند عبد الرزاق والطحاوي. {cite:muwatta-maruf-1997 p.91}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 115 of kitab al-salat at PDF p. 91", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 115 at PDF p. 91; باب واجب الغسل إذا التقى الختانان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: مضمون الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 91; matn excerpt at most 40 words" }

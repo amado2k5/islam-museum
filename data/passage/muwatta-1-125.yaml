@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.125"
-label: { ar: "الموطأ 1.125", en: "Muwatta 1.125" }
+label: { ar: "الموطأ 125 — عمر يغسل ثوبه في عمرته ويأبى أن يسن للناس ما لا يجدون", en: "Muwatta 125" }
+text: "لئن كنت تجد ثياباً أفكل الناس يجد ثياباً؟ والله لو فعلتها لكانت سنة"
 summary:
-  ar: "يحيى بن عبد الرحمن بن حاطب: اعتمر مع عمر بن الخطاب في ركب؛ تفاصيل الواقعة تحتاج مراجعة."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه عن يحيى بن عبد الرحمن بن حاطب، في باب إعادة الجنب الصلاة: اعتمر يحيى مع عمر بن الخطاب في ركب فيهم عمرو بن العاص، فنزل عمر آخر الليل للراحة قريباً من ماء فاحتلم وقد كاد يصبح، ولم يجد مع الركب ماءً، فركب حتى بلغ الماء وجعل يغسل ما رأى من أثر الاحتلام حتى أسفر. فقال له عمرو: قد أصبحت ومعنا ثياب، فدع ثوبك يُغسل. فأجابه عمر متعجباً: إن كنت تجد ثياباً أفكل الناس يجد؟ وأقسم أنه لو فعلها لصارت سنة يتبعها الناس، بل يغسل ما رأى وينضح ما لم ير. ويفسر المحقق التعريس بالنزول آخر الليل للاستراحة، ويذكر أنه رواه عن مالك أبو مصعب وابن وهب عند الطحاوي، ويحيل على مصنف عبد الرزاق. {cite:muwatta-maruf-1997 p.95}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 125 of kitab al-salat at PDF p. 95", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-8" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amr-ibn-al-as, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-abd-al-rahman-ibn-hatib, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 125 at PDF p. 95; باب إعادة الجنب الصلاة وغسله إذا صلى ولم يذكر وغسله ثوبه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 95; matn excerpt at most 40 words" }
