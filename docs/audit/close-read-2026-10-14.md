@@ -33,39 +33,42 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 | `event/expulsion-of-jurhum.md` | فلما أساءت إلى الحجاج حاربتها خزاعة | فلما أساءت، كما تذكر الروايات، إلى الحجاج حاربتها خزاعة | moral judgement in the children's section; attributed |
 | `event/isra-and-miraj.md` | أسري برسول الله بجسده على الصحيح بصحبة جبريل | أسري برسول الله بجسده، وهو الصحيح عند أهل السنة، بصحبة جبريل | doctrinal verdict stated without attribution; attributed to Sunni tradition |
 | `concept/anwa.md` | عدّها الإسلام كفراً بالنعمة | عدّها حديث النبي كفراً بالنعمة | doctrinal verdict in the lede without attribution; attributed to the hadith |
+| `concept/hums.md` | وابتدعوا به بدعاً في مناسك الحج | وأحدثوا به أموراً في مناسك الحج | bid'a label applied in the lede without attribution |
+| `concept/jahili-marriage-forms.md` | فيها ظلم للمرأة والولد | تراها الشريعة ظلماً للمرأة والولد | moral judgement in the children's section; attributed to the Shari'a |
+| `concept/maysar.md` | حرّمه الله لأن فيه عداوة وخسارة للناس | حرّمه الله، وذكر القرآن أن إثمه أكبر من نفعه | unattributed causal moral claim in the children's section; attributed to the Qur'an (2:219) |
 
 ## Pages needing citations (not added here)
 
 
-## Batch 15 of 19
+## Batch 16 of 19
 
-Pages journey/hijra-route.md to concept/ariya-madmuna.md (25 pages).
+Pages concept/ashara-mubashshara.md to concept/nasi.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `journey/hijra-route.md` | ok |
-| `journey/hudaybiyya-march.md` | ok |
-| `journey/hunayn-and-taif.md` | ok |
-| `journey/isra-and-miraj-route.md` | ok |
-| `journey/journey-to-taif.md` | ok |
-| `journey/mecca-to-iraq-by-medina.md` | ok |
-| `journey/medina-to-mecca.md` | ok |
-| `journey/mustaliq-raid.md` | ok |
-| `journey/mutah-march.md` | ok |
-| `journey/road-to-khaybar.md` | ok |
-| `journey/sicily-to-granada-jubayr.md` | ok |
-| `journey/syria-trade-for-khadija.md` | ok |
-| `journey/syria-trade-with-abu-talib.md` | ok |
-| `journey/tabriz-to-mosul-battuta.md` | ok |
-| `journey/tabuk-march-out-and-back.md` | ok |
-| `journey/tangier-to-cairo.md` | ok |
-| `journey/uhud-approach.md` | ok |
-| `concept/ahl-al-qibla.md` | ok |
-| `concept/akhira.md` | ok |
-| `concept/al-bakkaun.md` | ok |
-| `concept/al-hajr-social-boycott.md` | ok |
-| `concept/al-muallafa-qulubuhum.md` | ok |
-| `concept/al-sidq-truthfulness.md` | ok |
-| `concept/anwa.md` | fixed (1) |
-| `concept/ariya-madmuna.md` | ok |
+| `concept/ashara-mubashshara.md` | ok |
+| `concept/ashrat-al-saa.md` | ok |
+| `concept/azlam.md` | ok |
+| `concept/emancipation-of-enemy-slaves.md` | ok |
+| `concept/five-pillars.md` | ok |
+| `concept/ghulul.md` | ok |
+| `concept/hama.md` | ok |
+| `concept/hubb-al-sahaba.md` | ok |
+| `concept/hums.md` | fixed (1) |
+| `concept/ihsan.md` | ok |
+| `concept/iman.md` | ok |
+| `concept/islam-din.md` | ok |
+| `concept/jahili-marriage-forms.md` | fixed (1) |
+| `concept/jaysh-al-usra.md` | ok |
+| `concept/kahana.md` | ok |
+| `concept/kalam-allah.md` | ok |
+| `concept/karamat-al-awliya.md` | ok |
+| `concept/kasb.md` | ok |
+| `concept/khalq-al-quran.md` | ok |
+| `concept/khatm-al-nubuwwa.md` | ok |
+| `concept/khilafa-rashida.md` | ok |
+| `concept/la-yanbaghi.md` | ok |
+| `concept/maysar.md` | fixed (1) |
+| `concept/muhajirun-of-abyssinia.md` | ok |
+| `concept/nasi.md` | ok |
 
