@@ -1,0 +1,17 @@
+id: person/abd-allah-ibn-al-mubarak
+class: person
+label: { ar: "عبد الله بن المبارك" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الرحمن عبد الله بن المبارك المروزي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0181", edtf: "0798~", calendar: julian, precision: year, status: debated, derived: true, note: "الشيرازي: نيف وثمانين ومائة؛ حاشية المحقق عن ابن قتيبة: سنة 181 (PDF ص50).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو عبد الرحمن عبد الله بن المبارك المروزي، مولى بني حنظلة، تفقه بسفيان ومالك، ومات بهيت، وهي بلدة على الفرات قرب الأنبار، في سنة «نيف وثمانين ومائة» {cite:tabaqat-fuqaha-abbas-1981 p. 50}. وقال عبد الرحمن بن مهدي: «الأئمة أربعة: سفيان الثوري ومالك وحماد بن زيد وابن المبارك» {cite:tabaqat-fuqaha-abbas-1981 p. 50}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/malik-ibn-anas, role: "تفقه بمالك (الشيرازي: «تفقه بسفيان ومالك»، والسفيان غير مُعيَّن في النص) (PDF ص50)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-5" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 5 (PDF ص48–53); death from editor footnote and book approx" }

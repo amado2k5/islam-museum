@@ -1,17 +1,20 @@
 id: person/husayn-al-kurdi
 class: person
-label: { ar: "الأمير حسين الكردي", en: "Amir Husayn al-Kurdi" }
-summary:
-  ar: "أمير جركسي وآمر الأسطول المملوكي، في شذرات الذهب أنه لما ظهرت الفرنج البرتقال في حدود العشرين وتسع مئة فعاثوا في أرض الهند ووصل أذاهم إلى جزيرة العرب وبنادر اليمن وجدة جهز إليهم السلطان قانصوه الغوري خمسين غراباً مع الأمير حسين الكردي وأرسل معه عسكراً عظيماً من الترك والمغاربة واللوند وجعل له جدة إقطاعاً وأمره بتحصينها فشرع في بناء سورها وإحكام أبراجها فبني السور جميعه في دون عام ثم توجه بعساكره إلى الهند في حدود سنة إحدى وعشرين فاجتمع بسلطان كجرات فأكرمه وهرب الفرنج عن البنادر لما سمعوا بوصوله ثم عاد على اليمن فافتتحها من بني طاهر ملوكها وقتل سلاطينها وترك بها نائباً بزبيد اسمه برسباي الجركسي وقدم مكة فبلغه زوال دولة الغوري وورد أمر السلطان سليم بقتله فأخذه شريف مكة بغتة وشمت به وأرسله لبحر جدة فغرقه فيه {cite:shadharat-dhahab p. 531}."
-  en: "Mamluk admiral and governor of Jeddah — sent with fifty ghurab ships and Turkish, Maghrebi and Frankish troops to fortify Jeddah against the Portuguese, raised its wall within a year, relieved Gujarat, conquered Yemen from the Tahirids, then was seized by the sharif of Mecca and drowned off Jeddah on Selim's order {cite:shadharat-dhahab p. 531}."
+label: { ar: "حسين الكردي" }
+names:
+  - { kind: full, lang: ar, value: "حسين الكردي" }
 gender: male
-wings: [people]
-periods: [period/mongol-post-mongol]
-died: { hijri: "0923", edtf: "1517~", calendar: julian, precision: year, status: tradition, derived: true, note: "أغرق في بحر جدة بأمر سليم 923؛ التحويل مشتق {cite:shadharat-dhahab p. 531}." }
+roles: [military]
+summary:
+  ar: "حسين الكردي، قائد الأسطول المملوكي الذي أرسله السلطان قانصوه الغوري لرد العدوان البرتغالي على بحر العرب والمحيط الهندي؛ قاد ثلاث عشرة سفينة عليها ألف وخمسمائة رجل فوصل إلى جزيرة ديو ثم شاول، والتقى بالأسطول البرتغالي بقيادة ألونزو دي ألميدا عام ٩١٤هـ/١٥٠٨م فكان النصر حليفه، لكن البرتغاليين عززوا قواتهم وأعادوا الكرة فهُزم الأسطول المملوكي في معركة ديو الشهيرة سنة ٩١٥هـ/١٥٠٩م {cite:dawlat-uthmaniyya-salabi p. 195}."
+  en: "Husayn al-Kurdi — commander of the Mamluk fleet sent by Qansuh al-Ghawri against the Portuguese: victor at Chaul in 1508, defeated at the famous battle of Diu in 1509 {cite:dawlat-uthmaniyya-salabi p. 195}."
+wings: [people, time]
+periods: [period/gunpowder-empires]
+regions: [south-asia, egypt-nile]
+sources: [source/dawlat-uthmaniyya-salabi]
 provenance:
   layer: own-research
-  source: "شذرات الذهب لابن العماد ص 518-531"
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 195"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-shadharat-batch-73
-sources: [source/shadharat-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+  run: lib-salabi-uthmani-batch-8
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

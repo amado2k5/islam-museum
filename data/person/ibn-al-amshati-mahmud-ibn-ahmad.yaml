@@ -1,0 +1,25 @@
+id: person/ibn-al-amshati-mahmud-ibn-ahmad
+class: person
+label: { ar: "محمود بن أحمد ابن الأمشاطي", en: "Mahmud ibn Ahmad Ibn al-Amshati" }
+names:
+  - { kind: full, lang: ar, value: "محمود بن أحمد بن الحسن بن إسماعيل بن يعقوب" }
+  - { kind: kunya, lang: ar, value: "أبو الثناء" }
+  - { kind: laqab, lang: ar, value: "مظفر الدين" }
+  - { kind: nisba, lang: ar, value: "العينتابي القاهري الحنفي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1412", hijri: "0815", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1496", hijri: "0902", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "العالم الحنفي القاهري مظفر الدين أبو الثناء محمود بن أحمد المعروف بابن الأمشاطي، نشأ في القاهرة وانتسب أصله إلى عينتاب."
+  en: "The Cairene Hanafi scholar Muzaffar al-Din Abu al-Thana Mahmud ibn Ahmad, known as Ibn al-Amshati, of Egyptian residence and Ayntab origin."
+wings: [people, words]
+themes: [development-of-law-theology-institutions]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 343, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص343", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,23 @@
+id: event/submission-hijaz-salim
+class: event
+kind: declaration
+label: { ar: "خضوع الحجاز للعثمانيين" }
+summary:
+  ar: "كانت الحجاز تابعة للدولة المملوكية، فلما علم شريف مكة بركات بن محمد بمقتل السلطان قانصوه الغوري ونائبه طومان باي بادر إلى تقديم السمع والطاعة إلى السلطان سليم الأول وسلّمه مفاتيح الكعبة وبعض الآثار، فأقره سليم أميراً على مكة والحجاز ومنحه صلاحيات واسعة. وبذلك صار السلطان العثماني خادماً للحرمين الشريفين وأوقفت الدولة أوقافاً كثيرة على الأماكن المقدسة كانت إيراداتها تصب في خزانة مستقلة بالقصر السلطاني، وأدى ضم الحجاز إلى بسط السيادة العثمانية على البحر الأحمر فدُفع الخطر البرتغالي عن الحجاز وسواحله حتى نهاية القرن الثامن عشر {cite:dawlat-uthmaniyya-salabi p. 191}."
+  en: "After the Mamluk collapse the Sharif of Mecca, Barakat ibn Muhammad, submitted to Selim I and handed him the keys of the Kaaba; Selim confirmed him as emir of Mecca and the Hijaz, became guardian of the two sanctuaries and extended Ottoman sovereignty over the Red Sea, repelling the Portuguese threat until the late eighteenth century {cite:dawlat-uthmaniyya-salabi p. 191}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+date:
+  start: { edtf: "1517", hijri: "0923", calendar: julian, precision: year, status: tradition, derived: true, note: "عقب معركة الريدانية سنة ٩٢٣هـ/١٥١٧م {cite:dawlat-uthmaniyya-salabi p. 191}." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/sharif-barakat, role: "شريف مكة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/selim-i-ottoman, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 191"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-7
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,24 @@
+id: event/muhammad-ali-sham-campaign
+class: event
+kind: campaign
+label: { ar: "حملة محمد علي على الشام" }
+summary:
+  ar: "تذرع محمد علي باشا بإيواء عبد الله باشا والي عكا ستة آلاف من المصريين الفارين من التجنيد خلال سنة ١٨٣١م ورفضه إعادتهم، فدفع جيوشه بقيادة ابنه إبراهيم باشا إلى الشام رغم جواب الصدر الأعظم بأن نزاع الباشوات المتجاورين لا يسوَّى بإشهار السيف بل بتدخل الباب العالي. ويذكر الصلابي أن الموارنة دعموا جيش محمد علي ووقفوا معه وأن الفرنسيين أمَدّوهم بالسلاح، وأن إبراهيم باشا ألغى القيود المفروضة على النصارى واليهود في البلاد التي سيطر عليها وفتح الباب للبعثات التبشيرية، فعاد اليسوعيون ونُقلت مطبعة الإرسالية الأمريكية من مالطة إلى بيروت عام ١٨٣٤م. هزم إبراهيم الجيش العثماني واستكمل السيطرة على الشام، وعقب هزيمة العثمانيين في الأناضول اضطرت الدولة للاستنجاد بروسيا فعقدت معاهدة أنكيار إسكله سي سنة ١٨٣٣م في أعقاب هدنة كوتاهية، وهو ما دفع بريطانيا وفرنسا للتصدي لمحمد علي ففُرضت عليه اتفاقية لندن سنة ١٨٤٠م التي حددت الوجود المصري في الشام بحياة محمد علي {cite:dawlat-uthmaniyya-salabi p. 367-370}."
+  en: "Muhammad Ali's Syrian war (1831–1840): Ibrahim Pasha conquered Syria on the pretext of Acre harbouring Egyptian draft-dodgers, beat the Ottoman army deep into Anatolia, forced the Porte into the Russian alliance of Hünkâr İskelesi (1833) — until the 1840 London convention confined Egyptian rule to Muhammad Ali's lifetime {cite:dawlat-uthmaniyya-salabi p. 367-370}."
+wings: [time]
+periods: [period/modern-era]
+regions: [levant-iraq, egypt-nile, anatolia-balkans]
+date:
+  start: { edtf: "1831", calendar: julian, precision: year, status: tradition, note: "خلال سنة ١٨٣١م {cite:dawlat-uthmaniyya-salabi p. 367}." }
+  end: { edtf: "1840", calendar: julian, precision: year, status: tradition, note: "اتفاقية لندن سنة ١٨٤٠م {cite:dawlat-uthmaniyya-salabi p. 368}." }
+relations:
+  - { type: had_participant, target: person/muhammad-ali-pasha, role: "والي مصر", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/ibrahim-pasha-misri, role: "قائد الجيش", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/mahmud-ii-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 367-370"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-9
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

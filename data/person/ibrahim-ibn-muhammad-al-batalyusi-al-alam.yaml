@@ -1,0 +1,24 @@
+id: person/ibrahim-ibn-muhammad-al-batalyusi-al-alam
+class: person
+label: { ar: "إبراهيم بن محمد الأعلم البطليوسي", en: "Ibrahim ibn Muhammad al-A'lam al-Batalyusi" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم بن محمد بن إبراهيم" }
+  - { kind: kunya, lang: ar, value: "أبو إسحاق" }
+  - { kind: laqab, lang: ar, value: "الأعلم" }
+  - { kind: nisba, lang: ar, value: "البطليوسي" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+died: { edtf: "1239", hijri: "0637", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba], note: "المراجع تتردد في سنة الوفاة بين 637 و642 و646 هـ" }
+summary:
+  ar: "الأديب اللغوي المقرئ أبو إسحاق إبراهيم بن محمد الأعلم البطليوسي، وُلد ببطليوس وسكن إشبيلية، واشتهر بعلم اللغة والنحو وشروح الشعر."
+  en: "The Andalusi littérateur, philologist and Qur'an reciter Abu Ishaq Ibrahim ibn Muhammad al-A'lam al-Batalyusi, born at Badajoz and settled at Seville, known for philology, grammar and commentaries on poetry."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 183-184, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص183-184", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

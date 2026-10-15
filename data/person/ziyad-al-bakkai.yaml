@@ -1,0 +1,23 @@
+id: person/ziyad-al-bakkai
+class: person
+label: { ar: "زياد البكائي" }
+names:
+  - { kind: full, lang: ar, value: "زياد بن عبد الله البكائي" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "زياد البكائي، كوفي من الطبقة الثالثة من كتّاب السيرة، مات سنة ١٨٣هـ {cite:duha-islam p. 639}؛ وهو راوية سيرة ابن إسحاق التي بها اشتهرت."
+  en: "Ziyad al-Bakka'i — Kufan third-tier sira scholar (d. 183), the transmitter through whom Ibn Ishaq's sira is chiefly known {cite:duha-islam p. 639}."
+died: { edtf: "0799", hijri: "0183", calendar: julian, precision: year, status: tradition, derived: true, note: "مات سنة ١٨٣هـ في جدول أحمد أمين {cite:duha-islam p. 639}." }
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: student_of, target: person/ibn-ishaq, sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 639"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

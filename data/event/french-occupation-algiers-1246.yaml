@@ -1,0 +1,21 @@
+id: event/french-occupation-algiers-1246
+class: event
+kind: conquest
+label: { ar: "احتلال فرنسا الجزائر" }
+summary:
+  ar: "بينما كانت جيوش محمد علي تمكن النصارى في بلاد الشام، اغتصبت جيوش فرنسا الجزائر عام ١٨٣٠م بعد ما ضعفت الخلافة العثمانية؛ دخلت القوات الفرنسية بما يعادل ثمانية وعشرين ألف مقاتل وأسطولاً يضم مائة سفينة، وكانت الدول الأوروبية مؤيدة لهذا الاغتصاب إذ حان - بزعمهم - توزيع تركة الرجل المريض وحل المسألة الشرقية بالطريقة الأوروبية. ويسائل الصلابي موقف محمد علي باشا الذي سكت عن احتلال الجزائر رغم قربه وقدرته، ويعتبره شاهداً على ارتباط مشروعه بالتسويات الأوروبية {cite:dawlat-uthmaniyya-salabi p. 369}."
+  en: "France seized Algiers in 1830 with some 28,000 troops and a hundred-ship fleet while the caliphate was weakened — European powers endorsing it as the first share-out of the 'sick man's' estate {cite:dawlat-uthmaniyya-salabi p. 369}."
+wings: [time]
+periods: [period/modern-era]
+regions: [maghreb]
+date:
+  start: { edtf: "1830", calendar: julian, precision: year, status: tradition, note: "عام ١٨٣٠م {cite:dawlat-uthmaniyya-salabi p. 369}." }
+relations:
+  - { type: occurred_at, target: place/algiers }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 369"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-9
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

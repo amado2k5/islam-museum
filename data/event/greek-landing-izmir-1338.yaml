@@ -1,0 +1,24 @@
+id: event/greek-landing-izmir-1338
+class: event
+kind: conquest
+label: { ar: "احتلال اليونانيين أزمير" }
+summary:
+  ar: "احتل اليونانيون أزمير (إزمير) سنة ١٣٣٨هـ/١٩١٩م بتمكين من بريطانيا وتوغلوا في الأناضول، فقام مصطفى كمال باستثارة روح الجهاد في الأتراك ورد اليونانيين على أعقابهم وتراجعت أمامه قوات الحلفاء، فابتهج العالم الإسلامي وأطلق عليه لقب الغازي ومدحه أحمد شوقي مقرناً إياه بخالد بن الوليد وشاهباً انتصاره بيوم بدر {cite:dawlat-uthmaniyya-salabi p. 468}."
+  en: "The Greek landing at Izmir (1919), enabled by Britain, and Mustafa Kemal's counter-campaign that drove them out and won him the title Ghazi across the Muslim world {cite:dawlat-uthmaniyya-salabi p. 468}."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1919", hijri: "1338", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ١٣٣٨هـ {cite:dawlat-uthmaniyya-salabi p. 468}." }
+sides:
+  - label: { ar: "القوات اليونانية" }
+  - label: { ar: "المقاومة التركية بقيادة مصطفى كمال" }
+relations:
+  - { type: had_participant, target: person/mustafa-kamal, role: "قائد المقاومة", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 468"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-10
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
