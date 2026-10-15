@@ -28,41 +28,43 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 | `event/battle-of-uhud.md` | ## قبل المعركة: انسحاب المنافقين | ## قبل المعركة: انسحاب عبد الله بن أبي | heading labelled a named person with a faith category |
 | `event/death-of-abdullah-ibn-ubayy.md` | مات رجل كان يقول أنه مسلم لكنه كان يضرّ بالمسلمين سراً | مات رجل كانت الرواية تصفه بأنه يقول إنه مسلم ويضرّ بالمسلمين سراً | faith and hidden harm inferred in the children's section (no citation there) |
 | `event/fath-mecca-proscribed-persons.md` | الذين ارتكبوا جرائم قتل وغدر واضحة | الذين تذكر الروايات أنهم ارتكبوا جرائم قتل وغدر | judgement in the children's section (no citation there) |
+| `event/hypocrites-ambush-at-the-pass.md` | اختبأ بعض الرجال المنافقين في ممر جبلي ضيق | اختبأ بعض الرجال الذين تصفهم الروايات بالنفاق في ممر جبلي ضيق | faith category asserted in the children's section (no citation there) |
 | `event/funeral-prayer-for-the-negus.md` | مات ملك الحبشة العادل الذي حمى المسلمين الأوائل في بلده | مات ملك الحبشة الذي تصفه الروايات بالعدل، والذي حمى المسلمين الأوائل في بلده | moral label in the children's section; attributed to the tradition |
 | `event/expulsion-of-jurhum.md` | فلما أساءت إلى الحجاج حاربتها خزاعة | فلما أساءت، كما تذكر الروايات، إلى الحجاج حاربتها خزاعة | moral judgement in the children's section; attributed |
+| `event/isra-and-miraj.md` | أسري برسول الله بجسده على الصحيح بصحبة جبريل | أسري برسول الله بجسده، وهو الصحيح عند أهل السنة، بصحبة جبريل | doctrinal verdict stated without attribution; attributed to Sunni tradition |
 
 ## Pages needing citations (not added here)
 
 
-## Batch 9 of 19
+## Batch 10 of 19
 
-Pages event/expedition-of-dhu-amarr.md to event/funeral-prayer-for-the-negus.md (25 pages).
+Pages event/ghar-thawr.md to event/journey-to-taif.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `event/expedition-of-dhu-amarr.md` | ok |
-| `event/expedition-of-dhu-qarad.md` | ok |
-| `event/expedition-of-dumat-al-jandal.md` | ok |
-| `event/expedition-of-nakhla.md` | ok |
-| `event/expedition-of-rabigh.md` | ok |
-| `event/expedition-of-safwan.md` | ok |
-| `event/expedition-of-sif-al-bahr.md` | ok |
-| `event/expedition-of-usama.md` | ok |
-| `event/expedition-to-awtas.md` | ok |
-| `event/expedition-to-tabuk.md` | ok |
-| `event/expulsion-of-jurhum.md` | fixed (1) |
-| `event/farewell-pilgrimage.md` | ok |
-| `event/farewell-sermon-at-arafat.md` | ok |
-| `event/farewell-visit-to-uhud-martyrs.md` | ok |
-| `event/fasting-of-ramadan-prescribed.md` | ok |
-| `event/fath-mecca-cleansing-kaaba.md` | ok |
-| `event/fath-mecca-proscribed-persons.md` | fixed (1) |
-| `event/fath-mecca-sermon.md` | ok |
-| `event/fatrat-al-wahy.md` | ok |
-| `event/first-encounter-with-the-ansar.md` | ok |
-| `event/first-jumma.md` | ok |
-| `event/first-migration-to-abyssinia.md` | ok |
-| `event/first-revelation.md` | ok |
-| `event/flood-of-al-aram.md` | ok |
-| `event/funeral-prayer-for-the-negus.md` | fixed (1) |
+| `event/ghar-thawr.md` | ok |
+| `event/ghassan-kings-letter-to-kaab.md` | ok |
+| `event/greek-landing-izmir-1338.md` | ok |
+| `event/hajj-led-by-abu-bakr.md` | ok |
+| `event/harb-al-fijar.md` | ok |
+| `event/hawazin-delegation-and-amnesty.md` | ok |
+| `event/herzl-audience-1901.md` | ok |
+| `event/hijra-departure.md` | ok |
+| `event/hijra.md` | ok |
+| `event/hilf-al-fudul.md` | ok |
+| `event/hypocrites-ambush-at-the-pass.md` | fixed (1) |
+| `event/hypocrites-discourage-marching-in-the-heat.md` | ok |
+| `event/hypocrites-mock-the-army-and-excuse.md` | ok |
+| `event/ibn-ubayy-separate-camp-and-withdrawal.md` | ok |
+| `event/incident-of-al-raji.md` | ok |
+| `event/incident-of-bir-mauna.md` | ok |
+| `event/incident-of-dhat-anwat.md` | ok |
+| `event/incident-of-the-poisoned-sheep.md` | ok |
+| `event/incident-of-the-slander.md` | ok |
+| `event/introduction-of-idolatry-to-mecca.md` | ok |
+| `event/islam-of-hamza.md` | ok |
+| `event/islam-of-umar.md` | ok |
+| `event/isra-and-miraj.md` | fixed (1) |
+| `event/jafar-arrival-at-khaybar.md` | ok |
+| `event/journey-to-taif.md` | ok |
 
