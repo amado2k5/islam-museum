@@ -14,5 +14,6 @@ provenance:
   run: lib-tarikh-khulafa-batch-29
 relations:
   - { type: authored, target: work/ikhtilaf-al-hadith-shafii, sources: [source/kashf-zunun-furqan] }
+  - { type: founder_of, target: group/shafii-madhhab, sources: [source/duha-islam] }
 sources: [source/tarikh-khulafa-minhaj-1434, source/muruj-al-dhahab, source/kashf-zunun-furqan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
