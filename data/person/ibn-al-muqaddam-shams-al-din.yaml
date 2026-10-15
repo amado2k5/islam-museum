@@ -1,0 +1,23 @@
+id: person/ibn-al-muqaddam-shams-al-din
+class: person
+label: { ar: "شمس الدين ابن المقدم", en: "Shams al-Din Ibn al-Muqaddam" }
+summary:
+  ar: "شمس الدين محمد بن عبد الملك المعروف بابن المقدم، أكبر الأمراء الصلاحية؛ استأذن صلاح الدين بعد فتح بيت المقدس سنة ثلاث وثمانين وخمسمائة أن يحرم من القدس فيجمع في سنته بين الجهاد والحج وزيارة الخليل ومشاهد أنبياء الشام وزيارة رسول الله، فأُمّر على حاج الشام — وكان تلك السنة خلقاً عظيماً من البلاد والعراق وديار الجزيرة وخلاط وبلاد الروم ومصر — فلما كان عشية عرفة أمر بضرب كؤساته فاعترضه أمير الحاج العراقي مجير الدين طاشتكين فلم يقف له، فهجم العراقيون على حاج الشام وقتلوا ونهبوا وجُرح ابن المقدم جروحاً وهو يكف أصحابه عن القتال مراقبة لحرمة المكان واليوم، فمات من يومه بمنى ودفن بمقبرة المعلى {cite:kamil-ibn-al-athir p. 162-163}."
+  en: "Greatest of the Salahiyya amirs — given Saladin's leave after Jerusalem's fall to make Hajj from the Holy City itself, he led the great Syrian caravan of 583; refusing the Iraqi amir al-hajj's claim of precedence at Arafat, he was mortally wounded in the ensuing attack while holding his men from fighting for the sanctity of place and day, and died at Mina {cite:kamil-ibn-al-athir p. 162-163}."
+gender: male
+died: { edtf: "1187-08-25~", hijri: "0583-12-10", calendar: julian, precision: day, status: tradition, derived: true, note: "مات بمنى غداة عرفة 583هـ ودفن بالمعلى؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 163}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: participated_in
+  target: event/arafat-hajj-clash-583
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+roles: [military]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 162-163"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-10
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

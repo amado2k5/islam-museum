@@ -1,0 +1,32 @@
+id: event/arafat-hajj-clash-583
+class: event
+kind: other
+label: { ar: "فتنة عرفات وقتل ابن المقدم", en: "The Arafat clash and Ibn al-Muqaddam's killing (583 AH)" }
+summary:
+  ar: "في سنة ثلاث وثمانين وخمسمائة — وهي سنة فتح بيت المقدس — حجّ من الشام خلق عظيم ليجمعوا بين زيارة بيت المقدس ومكة، وجُعل شمس الدين محمد بن عبد الملك ابن المقدم، أكبر الأمراء الصلاحية، أميراً على حاج الشام؛ فلما كان عشية عرفة وأمر بضرب كؤساته — وهي إمارة الرحيل — أرسل إليه مجير الدين طاشتكين أمير الحاج العراقي ينهاه عن الإفاضة قبله، فأجابه: إني ليس لي معك تعلق، أنت أمير الحاج العراقي وأنا أمير الحاج الشامي وكل منا يفعل ما يراه، وسار ولم يقف؛ فركب طاشتكين في أصحابه وتبعه من غوغاء الحاج العراقي وطماعتهم الجم الغفير فهجموا على حاج الشام فقتلوا جماعة ونهبوا الأموال وسبوا جماعة من النساء ثم رددن، وجُرح ابن المقدم جروحاً وهو يكف أصحابه عن القتال مراقبة لحرمة المكان واليوم، فأخذه طاشتكين إلى خيمته ليمرضه ويستدرك الفارط، فمات من يومه بمنى ودفن بمقبرة المعلى — وقال ابن الأثير: رُزق الشهادة بعد الجهاد وشهود فتح بيت المقدس {cite:kamil-ibn-al-athir p. 162-163}."
+  en: "On Arafat's eve in the conquest year 583, the Syrian pilgrimage's kettle-drums signalled departure before the Iraqi caravan's — amir al-hajj Mujir al-Din Tashtakin forbade it, Ibn al-Muqaddam answered 'you command the Iraqi Hajj, I the Syrian', and moved; the Iraqi troops and rabble stormed the Syrian pilgrims, killing, plundering and briefly taking women, while Ibn al-Muqaddam — out of reverence for the place and day — held his men from fighting; mortally wounded, he died at Mina and was buried at al-Ma'la, 'granted martyrdom after jihad and witnessing Jerusalem's conquest' {cite:kamil-ibn-al-athir p. 162-163}."
+date:
+  start: { hijri: "0583-12-09", edtf: "1187-08-24~", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم عرفة 583هـ ومات بمنى في الغد؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 162-163}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/ibn-al-muqaddam-shams-al-din
+  role: "أمير حاج الشام؛ أثخن بالجراحات ومات بمنى"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/mujir-al-din-tashtakin
+  role: "أمير الحاج العراقي الذي هجم أصحابه على حاج الشام"
+  sources: [source/kamil-ibn-al-athir]
+- type: occurred_at
+  target: place/mecca
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+themes: [pilgrimages-and-mass-gatherings]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 162-163"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-10
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

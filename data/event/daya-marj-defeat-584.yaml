@@ -1,0 +1,28 @@
+id: event/daya-marj-defeat-584
+class: event
+kind: battle
+label: { ar: "انهزام عسكر الخليفة بدية مرج", en: "The caliphal army's rout at Daya Marj (584 AH)" }
+summary:
+  ar: "جهّز الخليفة الناصر لدين الله عسكراً كثيراً وجعل المقدم عليهم وزيره جلال الدين عبيد الله بن يونس وسيّرهم إلى مساعدة قزل ليكفّ الناس السلطان طغرل عن البلاد؛ فسار العسكر ثالث صفر سنة أربع وثمانين وخمسمائة إلى أن قارب همذان ولم يصل قزل إليهم، فأقبل طغرل إليهم فالتقوا ثامن ربيع الأول بدية مرج عند همذان فاقتتلوا فلم يثبت عسكر بغداد وانهزموا وتفرقوا، وثبت الوزير قائماً ومعه مصحف وسيف حتى أسره رجل من عسكر طغرل وأخذ ما معه من خزانة وسلاح ودواب؛ وكان ابن الأثير حينئذ بالشام في عسكر صلاح الدين فقال لما جاء الخبر بمسيرهم: كأنكم وقد وصل الخبر بانهزامهم — فأصحابي وأهلي أعرف بالحرب من الوزير وأطوع في العسكر منه ومع ذلك أخاف على من أرسله في سرية، وهذا الوزير غير عارف بالحرب قريب العهد بالولاية ولا يراه الأمراء أهلاً أن يطاع وفي مقابله سلطان شجاع قد باشر الحرب بنفسه — فكان الأمر كذلك، وقال بعض الشعراء في انهزامهم أبياتاً يهجو بها الوزير {cite:kamil-ibn-al-athir p. 178-179}."
+  en: "Al-Nasir sent a great army under his vizier Jalal al-Din Ubaydallah ibn Yunus to prop up Qizil against Sultan Tughril III; at Daya Marj near Hamadan, 8 Rabi' I 584, the Baghdadis broke and scattered while the vizier stood with mushaf and sword until captured — Ibn al-Athir was in Saladin's camp when the march was announced and heard him predict the rout: a minister new to office and war, whom no amir thinks worth obeying, facing a battle-hardened sultan; satirists had their day {cite:kamil-ibn-al-athir p. 178-179}."
+date:
+  start: { hijri: "0584-03-08", edtf: "1188-05-12~", calendar: julian, precision: day, status: tradition, derived: true, note: "ثامن ربيع الأول 584هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 178}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/jalal-al-din-ubaydallah-ibn-yunus
+  role: "وزير الناصر المقدم على العسكر؛ ثبت حتى أُسر"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/tughril-iii
+  role: "السلطان المنتصر"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 178-179"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-10
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
