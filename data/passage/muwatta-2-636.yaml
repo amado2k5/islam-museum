@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "636"
-label: { ar: "الموطأ 636", en: "Muwatta 636" }
+label: { ar: "الموطأ 636 — محمد بن كعب القرظي يعزي القاسم بن محمد بقصة العالم من بني إسرائيل والحلي المستعار", en: "Muwatta 636" }
+text: "أفتأسف على ما أعارك الله، ثم أخذه منك وهو أحق به منك؟"
 summary:
-  ar: "القاسم بن محمد: هلكت امرأة لي، فأتاني محمد... ؛ قصة في موت امرأة وتجهيزها؛ تفاصيل الواقعة غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن القاسم بن محمد، قال: هلكت امرأة لي، فأتاني محمد بن كعب القرظي يعزيني، فقص عليّ أن رجلاً من بني إسرائيل فقيهاً عالماً عابداً مجتهداً كانت له امرأة يحبها ويُعجب بها، فماتت فوجد عليها وجداً شديداً حتى اعتزل في بيت وغلق على نفسه واحتجب عن الناس. فجاءته امرأة تقول إن لها حاجة تستفتيه فيها لا يجزيها فيها إلا مشافهته، ولزمت بابه حتى أُذن لها، فقالت: إني استعرت من جارة لي حلياً فكنت ألبسه وأعيره زماناً، ثم أرسلوا إليّ فيه، أفأؤديه إليهم؟ فقال: نعم والله. قالت: إنه قد مكث عندي زماناً. فقال: ذلك أحق لردك إياه إليهم. فقالت: أفتأسف على ما أعارك الله ثم أخذه منك وهو أحق به منك؟ فأبصر ما كان فيه ونفعه الله بقولها. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.324} {cite:muwatta-maruf-1997 p.325}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 636 of kitab 02-janaza at PDF p. 324", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-kab-al-qurazi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/banu-israil, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ihtisab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sabr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 636 at PDF p. 324; باب جامع الحسبة في المصيبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 324; matn excerpt at most 40 words" }

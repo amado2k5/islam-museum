@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "624"
-label: { ar: "الموطأ 624", en: "Muwatta 624" }
+label: { ar: "الموطأ 624 — سعد بن أبي وقاص وسعيد بن زيد توفيا بالعقيق وحُملا إلى المدينة ودُفنا بها", en: "Muwatta 624" }
 summary:
-  ar: "غير واحد عمن يُوثق به: أن سعد بن أبي وقاص وسعيد بن زيد... ؛ وصية في الدفن؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن غير واحد ممن يثق به، أن سعد بن أبي وقاص وسعيد بن زيد بن عمرو بن نفيل توفيا بالعقيق، وحُملا إلى المدينة ودُفنا بها. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومعن بن عيسى عند ابن سعد في الطبقات (3/147 و384). {cite:muwatta-maruf-1997 p.318}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 624 of kitab 02-janaza at PDF p. 318", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-zayd, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-aqiq-medina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dafn, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 624 at PDF p. 318; باب ما جاء في دفن الميت", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 318; matn excerpt at most 40 words" }

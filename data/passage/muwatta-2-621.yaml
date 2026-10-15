@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "621"
-label: { ar: "الموطأ 621", en: "Muwatta 621" }
+label: { ar: "الموطأ 621 — عروة مرسلاً: رجلان بالمدينة أحدهما يلحد والآخر لا يلحد، فجاء الذي يلحد فلحد للنبي", en: "Muwatta 621" }
 summary:
-  ar: "هشام بن عروة عن أبيه: كان بالمدينة رجلان، أحدهما يلحد... ؛ حكم اللحد والشق في القبر؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه مرسلاً، قال: كان بالمدينة رجلان، أحدهما يلحد والآخر لا يلحد، فقالوا: أيهما جاء أولاً عمل عمله، فجاء الذي يلحد فلحد للنبي. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وينقل عن ابن عبد البر (التمهيد 22/296–297) أنه لم يُختلف عن مالك في إرساله، وأن حماد بن سلمة رواه عن هشام عن أبيه عن عائشة بإسناد صحيح، ويضيف أن ابن ماجة (1558) رواه من طريق ابن أبي مليكة عن عائشة بإسناد ضعيف. {cite:muwatta-maruf-1997 p.317}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 621 of kitab 02-janaza at PDF p. 317", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/burial-of-the-prophet, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dafn, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 621 at PDF p. 317; باب ما جاء في دفن الميت", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 317; matn excerpt at most 40 words" }

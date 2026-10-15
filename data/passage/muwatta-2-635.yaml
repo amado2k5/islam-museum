@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "635"
-label: { ar: "الموطأ 635", en: "Muwatta 635" }
+label: { ar: "الموطأ 635 — أم سلمة: من أصابته مصيبة فاسترجع وقال اللهم أجرني في مصيبتي وأعقبني خيراً منها؛ فأعقبها الله رسوله", en: "Muwatta 635" }
+text: "اللهم أجرني في مصيبتي، وأعقبني خيراً منها"
 summary:
-  ar: "ربيعة بن أبي عبد الرحمن عن أم سلمة: أن رسول الله ﷺ... ؛ حديث في الميت أو الدعاء له؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن ربيعة بن أبي عبد الرحمن عن أم سلمة زوج النبي، أن النبي قال: من أصابته مصيبة فقال كلمة الاسترجاع التي أمر الله بها [[passage/quran-2-156|البقرة 156]] ثم قال: اللهم أجرني في مصيبتي وأعقبني خيراً منها، إلا فعل الله ذلك به. قالت أم سلمة: فلما توفي أبو سلمة قلت ذلك، ثم قلت: ومن خير من أبي سلمة؟ فأعقبها الله رسوله فتزوجها. ويذكر المحقق نقلاً عن ابن عبد البر (التمهيد 3/180–181) أن يحيى رواه هكذا وتابعه جماعة منهم معن، وأن ابن وهب وأبا مصعب وسويداً رووه عن مالك عن ربيعة أن أبا سلمة قال لأم سلمة: لقد سمعت من النبي، وأن الحديث يتصل من وجوه شتى، واختلافهم في جعله لأم سلمة عن النبي أو عن أبي سلمة لا يقدح فيه لأن رواية الصحابة بعضهم عن بعض سواء، ويحيل على الترمذي (3511). {cite:muwatta-maruf-1997 p.323} {cite:muwatta-maruf-1997 p.324}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 635 of kitab 02-janaza at PDF p. 323", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabia-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-2-156, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ihtisab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dua, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 635 at PDF p. 323; باب جامع الحسبة في المصيبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 323; matn excerpt at most 40 words" }

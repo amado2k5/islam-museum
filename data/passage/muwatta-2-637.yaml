@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "637"
-label: { ar: "الموطأ 637", en: "Muwatta 637" }
+label: { ar: "الموطأ 637 — عمرة مرسلاً: لعن النبي المختفي والمختفية، يعني نباشي القبور", en: "Muwatta 637" }
 summary:
-  ar: "محمد بن عبد الرحمن عن أمه عمرة بنت عبد الرحمن: أن... ؛ حديث في الجنازة؛ تفاصيل المتن غير واضحة."
+  ar: "الحديث الأول في باب ما جاء في المختفي وهو النباش. يرويه مالك عن أبي الرجال محمد بن عبد الرحمن عن أمه عمرة بنت عبد الرحمن، أنها قالت: لعن النبي المختفي والمختفية، يعني نباشي القبور. ويذكر المحقق أن عنوان الباب في نسخة م «باب ما جاء في الاختفاء»، وأن الحديث رواه عن مالك أبو مصعب وسويد والقعنبي عند العقيلي والشافعي في مسنده، وينقل عن ابن عبد البر (التمهيد 13/139) أنه روي مسنداً عن مالك عن أبي الرجال عن عمرة عن عائشة من رواية يحيى بن صالح الوحاظي وعبد الله بن عبد الوهاب، وأن العقيلي ساق المرسل من طريق القعنبي وقال: المرسل أولى، ويدافع المحقق عن ثقة الوحاظي وأنه من رجال الشيخين ولم ينفرد. {cite:muwatta-maruf-1997 p.325} {cite:muwatta-maruf-1997 p.326}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 637 of kitab 02-janaza at PDF p. 325", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-rijal-muhammad-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dafn, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 637 at PDF p. 325; باب ما جاء في المختفي وهو النباش", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 325; matn excerpt at most 40 words" }

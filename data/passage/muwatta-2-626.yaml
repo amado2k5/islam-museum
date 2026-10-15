@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "626"
-label: { ar: "الموطأ 626", en: "Muwatta 626" }
+label: { ar: "الموطأ 626 — علي: كان النبي يقوم في الجنائز ثم جلس بعد", en: "Muwatta 626" }
+text: "كان يقوم في الجنائز، ثم جلس بعد"
 summary:
-  ar: "يحيى بن سعيد عن واقد بن... ؛ حديث في الدفن أو القبور؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب الوقوف للجنائز والجلوس على المقابر. يرويه مالك عن يحيى بن سعيد عن واقد بن سعد بن معاذ عن نافع بن جبير بن مطعم عن مسعود بن الحكم عن علي بن أبي طالب، أن النبي كان يقوم في الجنائز ثم جلس بعد. ويذكر المحقق أن رواية يحيى «واقد بن سعد بن معاذ» وتابعه أبو مصعب، وأن سائر الرواة يقولون «واقد بن عمرو بن سعد بن معاذ» وهو الصواب كما قال ابن عبد البر (التمهيد 23/260)، وهو الأشهلي الأنصاري المتوفى سنة 120، وأن الحديث رواه عن مالك أبو مصعب ومن طريقه ابن حبان (3054) والبغوي، والقعنبي عند أبي داود (3175)، وابن وهب عند الطحاوي، والشافعي في المسند ومن طريقه الحازمي في الناسخ والمنسوخ والبيهقي (4/27)، ومحمد بن الحسن الشيباني (310). {cite:muwatta-maruf-1997 p.318} {cite:muwatta-maruf-1997 p.319}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 626 of kitab 02-janaza at PDF p. 318", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/masud-ibn-al-hakam-al-zuraqi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-ibn-jubayr-ibn-mutim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/waqid-ibn-amr-ibn-sad-ibn-muadh, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dafn, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 626 at PDF p. 318; باب الوقوف للجنائز والجلوس على المقابر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 318; matn excerpt at most 40 words; doubt: رواية يحيى تسمي الراوي «واقد بن سعد بن معاذ»، والصواب عند ابن عبد البر «واقد بن عمرو بن سعد بن معاذ»." }

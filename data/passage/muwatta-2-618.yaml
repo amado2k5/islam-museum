@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "618"
-label: { ar: "الموطأ 618", en: "Muwatta 618" }
+label: { ar: "الموطأ 618 — ابن عمر: لا يصلي الرجل على الجنازة إلا وهو طاهر", en: "Muwatta 618" }
+text: "لا يصلي الرجل على الجنازة إلا وهو طاهر"
 summary:
-  ar: "نافع عن ابن عمر: لا يصلي الرجل على الجنازة إلا... ؛ حكم من يصلي على الجنازة؛ تفاصيل القول غير واضحة."
+  ar: "يرويه مالك عن نافع، أن عبد الله بن عمر كان يقول: لا يصلي الرجل على الجنازة إلا وهو طاهر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن الشيباني (316). {cite:muwatta-maruf-1997 p.316}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 618 of kitab 02-janaza at PDF p. 316", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-janaza, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 618 at PDF p. 316; باب جامع الصلاة على الجنائز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القول غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 316; matn excerpt at most 40 words" }

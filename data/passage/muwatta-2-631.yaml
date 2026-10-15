@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "631"
-label: { ar: "الموطأ 631", en: "Muwatta 631" }
+label: { ar: "الموطأ 631 — لا يموت لأحد من المسلمين ثلاثة من الولد فتمسه النار إلا تحلة القسم", en: "Muwatta 631" }
+text: "لا يموت لأحد من المسلمين ثلاثة من الولد، فتمسه النار، إلا تحلة القسم"
 summary:
-  ar: "ابن شهاب عن سعيد بن المسيب عن أبي هريرة: أن رسول الله ﷺ... ؛ حديث في الجنازة أو الدفن؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب الحسبة في المصيبة. يرويه مالك عن ابن شهاب عن سعيد بن المسيب عن أبي هريرة، أن النبي أخبر أنه لا يموت لأحد من المسلمين ثلاثة من الولد فتمسه النار إلا تحلة القسم. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان والبغوي، وإسماعيل بن أبي أويس عند البخاري في الأدب المفرد (143)، وسويد، والقعنبي، وابن وهب، وابن القاسم، ومعن عند الترمذي (1060)، ويحيى بن سعيد القطان عند أحمد، ويحيى بن يحيى النيسابوري عند مسلم (8/39). {cite:muwatta-maruf-1997 p.322}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 631 of kitab 02-janaza at PDF p. 322", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muslim-ibn-al-hajjaj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ihtisab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sabr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 631 at PDF p. 322; باب الحسبة في المصيبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 322; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "634"
-label: { ar: "الموطأ 634", en: "Muwatta 634" }
+label: { ar: "الموطأ 634 — عبد الرحمن بن القاسم مرسلاً: ليعز المسلمين في مصائبهم المصيبة بي", en: "Muwatta 634" }
+text: "ليعز المسلمين في مصائبهم، المصيبة بي"
 summary:
-  ar: "عبد الرحمن بن القاسم عن النبي ﷺ: حديث في الجنازة؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب جامع الحسبة في المصيبة. يرويه مالك عن عبد الرحمن بن القاسم بن محمد بن أبي بكر الصديق مرسلاً، أن النبي قال: ليعزّ المسلمين في مصائبهم المصيبة بي. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، ويحيل على التمهيد (19/322). {cite:muwatta-maruf-1997 p.323}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 634 of kitab 02-janaza at PDF p. 323", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/death-of-the-prophet, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ihtisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 634 at PDF p. 323; باب جامع الحسبة في المصيبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 323; matn excerpt at most 40 words" }

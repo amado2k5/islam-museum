@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "632"
-label: { ar: "الموطأ 632", en: "Muwatta 632" }
+label: { ar: "الموطأ 632 — أبو النضر السلمي: ثلاثة من الولد يحتسبهم كانوا له جنة من النار؛ أو اثنان؟ قال: أو اثنان", en: "Muwatta 632" }
+text: "لا يموت لأحد من المسلمين ثلاثة من الولد فيحتسبهم، إلا كانوا له جنة من النار"
 summary:
-  ar: "محمد بن أبي بكر بن محمد بن عمرو بن حزم عن أبيه عن أبي النضر السلمي: حديث في الجنازة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن محمد بن أبي بكر بن محمد بن عمرو بن حزم عن أبيه عن أبي النضر السلمي، أن النبي أخبر أنه لا يموت لأحد من المسلمين ثلاثة من الولد فيحتسبهم إلا كانوا له جُنة من النار، فقالت امرأة عنده: أو اثنان؟ قال: أو اثنان. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والقعنبي، وأن إسناده ضعيف لأن أبا النضر السلمي مجهول في الصحابة والتابعين لا يُعرف إلا بهذا الخبر، على أن متن الحديث صحيح من غير هذا الوجه، ويحيل على الترمذي (1059). {cite:muwatta-maruf-1997 p.322} {cite:muwatta-maruf-1997 p.323}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 632 of kitab 02-janaza at PDF p. 322", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-nadr-al-sulami, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-abi-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ihtisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 632 at PDF p. 322; باب الحسبة في المصيبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 322; matn excerpt at most 40 words" }
