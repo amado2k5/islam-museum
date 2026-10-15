@@ -1,0 +1,29 @@
+id: event/first-abyssinian-occupation-of-yemen
+class: event
+kind: conquest
+label: { en: "The First Abyssinian Occupation of Yemen", ar: "الاحتلال الحبشي الأول لليمن" }
+summary:
+  en: "In the age of disorder after 300 CE the Romans entered Aden and with their help the Abyssinians occupied Yemen for the first time in 340 CE, exploiting the rivalry of Hamdan and Himyar; the occupation lasted until 378 CE and brought Christian missions into Yemen, in al-Raheeq al-Makhtum's account."
+  ar: "في عهد الاضطرابات بعد سنة 300م دخل الرومان في عدن، وبمعونتهم احتلت الأحباش اليمن لأول مرة سنة 340م مستغلين التنافس بين همدان وحمير، واستمر احتلالهم إلى سنة 378م، وفي زمانه دخل التبشير المسيحي ربوع اليمن، في رواية الرحيق المختوم."
+wings: [time, people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0340", calendar: julian, precision: year, status: tradition, note: "سنة 340م في تقدير المؤلف عن تفهيم القرآن 4/195–198، مع تنبيهه إلى اختلاف المصادر في السنين (ص25).", sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran] }
+  end: { edtf: "0378", calendar: julian, precision: year, status: tradition, sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran] }
+relations:
+  - { type: occurred_at, target: place/yemen }
+  - { type: had_participant, target: polity/aksumite-kingdom, role: "القوة المحتلة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: polity/byzantine-empire, role: "الداخل في عدن والمعين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-hamdan, role: "أحد طرفي التنافس الذي استُغل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/himyar, role: "أحد طرفي التنافس الذي استُغل", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/pre-islamic-arabia }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص24 و40–41 نقلاً عن تفهيم القرآن 4/195–198"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2a"
+sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 24, 40–41" }
