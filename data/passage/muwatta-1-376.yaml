@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.376"
-label: { ar: "الموطأ 1.376", en: "Muwatta 1.376" }
+label: { ar: "الموطأ 376 — بلاغ عن جابر: من لم يجد ثوبين فليصل في ثوب واحد ملتحفاً به", en: "Muwatta 376" }
+text: "من لم يجد ثوبين فليصل في ثوب واحد ملتحفاً به، فإن كان الثوب قصيراً فليتزر به"
 summary:
-  ar: "بلغ مالكًا عن جابر بن عبد الله عن النبي ﷺ: من لم يجد ثوبين فليصل في ثوب واحد؛ الحديث في الصلاة في الثوب الواحد."
+  ar: "بلاغ في باب الرخصة في الصلاة في الثوب الواحد: يروي مالك أنه بلغه عن جابر بن عبد الله أن النبي قال إن من لم يجد ثوبين فليصل في ثوب واحد ملتحفاً به، فإن كان الثوب قصيراً فليتزر به. ويذكر المحقق أن أبا مصعب رواه عن مالك، وأن جابراً كان يصلي في ثوب واحد لأنه رأى النبي يفعله كما في حديثه عند مسلم (2/62) وأحمد وابن خزيمة. {cite:muwatta-maruf-1997 p.203} {cite:muwatta-maruf-1997 p.204}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 376 of kitab al-salat at PDF p. 203", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-18" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 376 at PDF p. 203; باب الرخصة في الصلاة في الثوب الواحد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b16" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 203; matn excerpt at most 40 words" }

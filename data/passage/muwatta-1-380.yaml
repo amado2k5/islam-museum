@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.380"
-label: { ar: "الموطأ 1.380", en: "Muwatta 1.380" }
+label: { ar: "الموطأ 380 — ميمونة تصلي في الدرع والخمار ليس عليها إزار", en: "Muwatta 380" }
 summary:
-  ar: "بكير بن عبد الله بن الأشج عن بسر بن سعيد عن عبيد الله: حديث في الصلاة وأحكامها؛ تفاصيل المتن غير واضحة."
+  ar: "أثر يرويه مالك عن الثقة عنده عن بكير بن عبد الله بن الأشج عن بسر بن سعيد عن عبيد الله بن الأسود الخولاني، وكان في حجر ميمونة زوج النبي، أن ميمونة كانت تصلي في الدرع والخمار ليس عليها إزار؛ وهو في باب الرخصة في صلاة المرأة في الدرع والخمار. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومحمد بن الحسن ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.204} {cite:muwatta-maruf-1997 p.205}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 380 of kitab al-salat at PDF p. 204", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-18" }
+  - { type: mentions, target: person/maymuna-bint-al-harith, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubaydallah-ibn-al-aswad-al-khawlani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/busr-ibn-said, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/bukayr-ibn-abdallah-ibn-al-ashajj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 380 at PDF p. 204; باب الرخصة في صلاة المرأة في الدرع والخمار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b16" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 204; matn excerpt at most 40 words" }
