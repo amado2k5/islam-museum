@@ -1,0 +1,37 @@
+id: person/al-dai-ibn-zuray
+class: person
+label:
+  ar: الداعي بن أبي السعود بن الزريع
+  en: al-Da'i ibn Abi al-Su'ud ibn al-Zuray'
+summary:
+  ar: "الداعي بن أبي السعود بن الزريع بن العباس بن المكرم الهمداني؛ أول مذكور من بني الزريع وأول من اجتمع له الملك بعد بني الصليحي، استولى على عدن من يد صاحب الزعازع بعد مقاساة ونفقات في الأعراب، ومات بعد فتحها بسبعة أشهر سنة ثلاث وثلاثين وخمسمائة، فولي ابنه الأغر."
+  en: "Al-Da'i ibn Abi al-Su'ud ibn al-Zuray' ibn al-Abbas ibn al-Mukarram al-Hamdani; the first named of Banu al-Zuray' and the first to gather the kingship after Banu al-Sulayhi — he took Aden from the lord of al-Za'azi' after hard campaigning and Arab subsidies, then died seven months after the conquest in 533, succeeded by his son al-Agharr."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1138"
+  hijri: "0533"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: مات بعد فتح عدن بسبعة أشهر سنة 533هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia]
+relations:
+- { type: "founder_of", target: "polity/zurayid-dynasty", note: "أول من اجتمع له الملك من بني الزريع", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني الزريع بعدن، ص1040 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-33
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
