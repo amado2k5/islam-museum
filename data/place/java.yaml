@@ -1,0 +1,15 @@
+id: place/java
+class: place
+kind: island
+label: { ar: "جاوى", en: "Java" }
+summary:
+  ar: "أكبر جزر الأرخبيل الهندي الشرقي المعروف اليوم بإندونيسيا، ويصفها شكيب أرسلان في الفصل المعنون «الإسلام في جاوى وما جاورها» نقلاً عن محاضرة وكتب هولندية. يذكر أنها كانت تدين قبل الإسلام بالبراهمية والبوذية، وأن الإسلام انتشر فيها بالتجارة والملاحة، وأن ضريح مالك إبراهيم في غريسيك يُعدّ من أقدم القبور الإسلامية المعروفة هناك. ويعرض أرقام السكان والمسلمين كما وردت في الإحصاءات التي نقلها، ويرى أن الحكومة الهولندية كانت تحد من نشر الإسلام وتنظم شؤون المسلمين بقدر ما يخدم سلطتها."
+  en: "The largest island of what is now Indonesia. Arslan's chapter on Islam in Java and its neighbours draws on Dutch scholarship and a lecture by Sayyid Isma'il al-Attas. It notes that Brahmanism and Buddhism were the dominant religions before Islam, that Islam spread through trade and seafaring, and that the tomb of Malik Ibrahim at Gresik is among the earliest Muslim graves there. The population figures he gives come from Dutch censuses reported second-hand and need checking."
+wings: [place, people]
+sources: [source/stoddard-arslan-hadir-1923]
+# Verification: one source (Arslan's commentary, scan pages 355-374, book pp. 338-357, including a 1929 lecture reprinted in the book). Population and trade figures are reported from Dutch sources of the 1920s and must be checked against census publications before any figure is stated. The date of Malik Ibrahim's death (822 AH) is Arslan's and must be verified against a Javanese or Dutch source. Coordinates and the Gresik site must be confirmed.
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Claude Haiku 5.5"
+  extraction_flow: "Apple Vision OCR (text layer) -> manual reading of scan pages 355-374 -> summary in own words"
