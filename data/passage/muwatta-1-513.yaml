@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.513"
-label: { ar: "الموطأ 1.513", en: "Muwatta 1.513" }
+label: { ar: "الموطأ 513 — دعاء الاستسقاء: اللهم اسق عبادك وبهيمتك", en: "Muwatta 513" }
+text: "اللهم اسق عبادك وبهيمتك، وانشر رحمتك، وأحي بلدك الميت"
 summary:
-  ar: "عمرو بن شعيب عن النبي ﷺ: كان إذا استسقى قال: اللهم اسقنا غيثًا مغيثًا؛ دعاء الاستسقاء."
+  ar: "أول حديث في باب ما جاء في الاستسقاء. يرويه يحيى عن مالك عن يحيى بن سعيد عن عمرو بن شعيب مرسلاً: كان النبي إذا استسقى قال: اللهم اسق عبادك وبهيمتك، وانشر رحمتك، وأحي بلدك الميت. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وينقل عن ابن عبد البر أن مالكاً رواه مرسلاً وتابعه المعتمر بن سليمان وعبد العزيز بن مسلم القسملي، ورواه جماعة عن يحيى بن سعيد عن عمرو بن شعيب عن أبيه عن جده مسنداً منهم حفص بن غياث والثوري وعبد الرحيم بن سليمان وسلام أبو المنذر (التمهيد 23/432)؛ ويذكر أن أبا داود (1176) أخرج رواية الثوري الموصولة والبيهقي رواية عبد الرحيم، وأن أبا حاتم الرازي رجح الرواية المرسلة، ويرى المحقق أنه كما قال. {cite:muwatta-maruf-1997 p.265}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 513 of kitab al-salat at PDF p. 265", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-24" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amr-ibn-shuayb, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-istisqa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dua, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 513 at PDF p. 265; باب ما جاء في الاستسقاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 265; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.504"
-label: { ar: "الموطأ 1.504", en: "Muwatta 1.504" }
+label: { ar: "الموطأ 504 — سهل بن أبي حثمة يصف صلاة الخوف: الإمام يسلم ثم تقضي الطائفة الثانية", en: "Muwatta 504" }
 summary:
-  ar: "يحيى بن سعيد عن القاسم بن محمد عن صالح بن خوات الأنصاري: أن سهل بن أبي حثمة... ؛ الحديث في صلاة الخوف؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن القاسم بن محمد عن صالح بن خوات الأنصاري أن سهل بن أبي حثمة الأنصاري حدثه، في باب صلاة الخوف: أن صلاة الخوف أن يقوم الإمام ومعه طائفة من أصحابه وطائفة مواجهة العدو، فيركع الإمام ركعة ويسجد بالذين معه ثم يقوم، فإذا استوى قائماً ثبت وأتموا لأنفسهم الركعة الباقية ثم يسلمون وينصرفون والإمام قائم فيكونون وجاه العدو، ثم يقبل الآخرون الذين لم يصلوا فيكبرون وراء الإمام فيركع بهم ويسجد ثم يسلم، فيقومون فيركعون لأنفسهم الركعة الثانية ثم يسلمون. وينقل المحقق عن ابن عبد البر أنه موقوف على سهل في الموطأ عند جماعة الرواة ومثله لا يقال من جهة الرأي، وأنه روي مرفوعاً بهذا الإسناد من رواية عبد الرحمن بن القاسم عن أبيه (التمهيد 23/166)؛ ويذكر أن الموقوف عند البخاري (5/145–146) والمرفوع في الصحيحين، وأن الترمذي ساق الروايتين (565، 566) وصحح المرفوع. {cite:muwatta-maruf-1997 p.257} {cite:muwatta-maruf-1997 p.258}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 504 of kitab al-salat at PDF p. 257", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-23" }
+  - { type: mentions, target: person/sahl-ibn-abi-hathma, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/salih-ibn-khawwat, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-khawf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 504 at PDF p. 257; باب صلاة الخوف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 257; matn excerpt at most 40 words" }

@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.512"
-label: { ar: "الموطأ 1.512", en: "Muwatta 1.512" }
+label: { ar: "الموطأ 512 — مالك: صلاة الاستسقاء ركعتان ثم خطبة قائماً وتحويل الرداء", en: "Muwatta 512" }
 summary:
-  ar: "مالك سُئل عن صلاة الاستسقاء كم هي؟ قال: ركعتان، ويبدأ الإمام بالصلاة قبل الخطبة؛ صفة صلاة الاستسقاء."
+  ar: "سؤال في باب العمل في الاستسقاء: سُئل مالك عن صلاة الاستسقاء كم هي، فقال ركعتان، ولكن يبدأ الإمام بالصلاة قبل الخطبة فيصلي ركعتين ثم يخطب قائماً ويدعو ويستقبل القبلة ويحول رداءه حين يستقبل القبلة، ويجهر في الركعتين بالقراءة، وإذا حول رداءه جعل الذي على يمينه على شماله والذي على شماله على يمينه، ويحول الناس أرديتهم إذا حول الإمام رداءه ويستقبلون القبلة وهم قعود. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.265}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 512 of kitab al-salat at PDF p. 265", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-24" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-istisqa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 512 at PDF p. 265; باب العمل في الاستسقاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 265; matn excerpt at most 40 words" }

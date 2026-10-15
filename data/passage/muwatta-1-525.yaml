@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.525"
-label: { ar: "الموطأ 1.525", en: "Muwatta 1.525" }
+label: { ar: "الموطأ 525 — سعيد بن المسيب: صلى النبي نحو بيت المقدس ستة عشر شهراً ثم حولت القبلة قبل بدر بشهرين", en: "Muwatta 525" }
+text: "صلى رسول الله بعد أن قدم المدينة ستة عشر شهراً نحو بيت المقدس، ثم حولت القبلة قبل بدر بشهرين"
 summary:
-  ar: "سعيد بن المسيب: صلى رسول الله ﷺ... حتى أمر أن تتحول القبلة؛ الحديث في تحويل القبلة إلى الكعبة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن سعيد بن المسيب مرسلاً، في باب ما جاء في القبلة: صلى النبي بعد أن قدم المدينة ستة عشر شهراً نحو بيت المقدس، ثم حُولت القبلة قبل بدر بشهرين. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وأن معناه في الصحيحين من حديث البراء بن عازب، ويحيل على التمهيد (23/134). {cite:muwatta-maruf-1997 p.271}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 525 of kitab al-salat at PDF p. 271", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-24" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bara-ibn-azib, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/jerusalem, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/change-of-qibla, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/battle-of-badr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 525 at PDF p. 271; باب ما جاء في القبلة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 271; matn excerpt at most 40 words" }

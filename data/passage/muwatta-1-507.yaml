@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.507"
-label: { ar: "الموطأ 1.507", en: "Muwatta 1.507" }
+label: { ar: "الموطأ 507 — عائشة تصف صلاة الكسوف: الشمس والقمر آيتان من آيات الله", en: "Muwatta 507" }
+text: "إن الشمس والقمر آيتان من آيات الله، لا يخسفان لموت أحد ولا لحياته، فإذا رأيتم ذلك فادعوا الله وكبروا وتصدقوا"
 summary:
-  ar: "هشام بن عروة عن أبيه عن عائشة: خسفت الشمس في عهد رسول الله ﷺ فصلى بالناس صلاة الكسوف؛ الحديث في صلاة الكسوف."
+  ar: "أول حديث في باب العمل في صلاة كسوف الشمس؛ ويبين المحقق أن عنوان «كتاب صلاة الكسوف» في المطبوع لا أصل له في النسخ المعتمدة. يرويه يحيى عن مالك عن هشام بن عروة عن أبيه عن عائشة: خسفت الشمس في عهد النبي فصلى بالناس، فأطال القيام ثم أطال الركوع ثم قام فأطال القيام دون الأول ثم ركع دون الأول ثم سجد، وفعل في الركعة الآخرة مثل ذلك، ثم انصرف وقد تجلت الشمس فخطب فحمد الله وأثنى عليه ثم قال إن الشمس والقمر آيتان من آيات الله لا يخسفان لموت أحد ولا لحياته، وأمر عند رؤية ذلك بالدعاء والتكبير والصدقة، ثم قال: يا أمة محمد، ما من أحد أغير من الله أن يزني عبده أو تزني أمته، ولو تعلمون ما أعلم لضحكتم قليلاً ولبكيتم كثيراً. ويخرّجه المحقق عند البخاري (1044، 5221) ومسلم (3/27) وأبي داود (1191) والنسائي (3/132) وابن حبان وأبي عوانة والطحاوي والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (22/115). {cite:muwatta-maruf-1997 p.260}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 507 of kitab al-salat at PDF p. 260", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-23" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-kusuf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 507 at PDF p. 260; باب العمل في صلاة كسوف الشمس", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 260; matn excerpt at most 40 words" }

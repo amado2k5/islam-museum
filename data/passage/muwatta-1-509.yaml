@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.509"
-label: { ar: "الموطأ 1.509", en: "Muwatta 1.509" }
+label: { ar: "الموطأ 509 — اليهودية تذكر عذاب القبر لعائشة، والنبي يأمر بالتعوذ منه بعد صلاة الكسوف", en: "Muwatta 509" }
 summary:
-  ar: "عمرة بنت عبد الرحمن عن عائشة: أن يهود... ذكرت عند النبي ﷺ في عذاب القبر؛ الحديث في الاستعاذة من عذاب القبر في الصلاة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن عمرة بنت عبد الرحمن عن عائشة، في باب العمل في صلاة كسوف الشمس: جاءت يهودية تسألها فقالت: أعاذك الله من عذاب القبر، فسألت عائشة النبي أيُعذب الناس في قبورهم، فقال عائذاً بالله من ذلك. ثم ركب النبي ذات غداة مركباً فخسفت الشمس، فرجع ضحى فمر بين ظهراني الحجر ثم قام يصلي وقام الناس وراءه، فأطال القيام والركوع ثم قام وركع دون الأول ثم سجد، ثم فعل في الركعة الثانية مثل ذلك، ثم انصرف فقال ما شاء الله أن يقول ثم أمرهم أن يتعوذوا من عذاب القبر. ويخرّجه المحقق عند البخاري (1049، 1055) وأبي عوانة والطحاوي والشافعي والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (23/391). {cite:muwatta-maruf-1997 p.262}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 509 of kitab al-salat at PDF p. 262", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-24" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-kusuf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/adhab-al-qabr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 509 at PDF p. 262; باب العمل في صلاة كسوف الشمس", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 262; matn excerpt at most 40 words" }

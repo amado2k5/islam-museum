@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.503"
-label: { ar: "الموطأ 1.503", en: "Muwatta 1.503" }
+label: { ar: "الموطأ 503 — صلاة الخوف يوم ذات الرقاع: طائفة تصف مع النبي وطائفة وجاه العدو", en: "Muwatta 503" }
 summary:
-  ar: "يزيد بن رومان عن صالح بن خوات عمن صلى مع رسول الله ﷺ يوم ذات الرقاع صلاة الخوف؛ الحديث في صلاة الخوف."
+  ar: "أول حديث في باب صلاة الخوف؛ ويبين المحقق أن عنوان «كتاب صلاة الخوف» في المطبوع لا أصل له في النسخ أو الشروح. يرويه يحيى عن مالك عن يزيد بن رومان عن صالح بن خوات عمن صلى مع النبي يوم ذات الرقاع صلاة الخوف: صفّت طائفة معه وصفّت طائفة وجاه العدو، فصلى بالتي معه ركعة ثم ثبت قائماً وأتموا لأنفسهم ثم انصرفوا فصفوا وجاه العدو، وجاءت الطائفة الأخرى فصلى بهم الركعة التي بقيت من صلاته ثم ثبت جالساً وأتموا لأنفسهم ثم سلم بهم. ويخرّجه المحقق عند البخاري (4129) ومسلم (2/214) وأبي داود (1238) والنسائي (3/171) والشافعي والطبري والطحاوي والدارقطني والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (23/31). {cite:muwatta-maruf-1997 p.256} {cite:muwatta-maruf-1997 p.257}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 503 of kitab al-salat at PDF p. 256", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-23" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/salih-ibn-khawwat, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yazid-ibn-ruman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/expedition-of-dhat-al-riqa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-khawf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 503 at PDF p. 256; باب صلاة الخوف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 256; matn excerpt at most 40 words" }

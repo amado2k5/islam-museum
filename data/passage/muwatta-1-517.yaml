@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.517"
-label: { ar: "الموطأ 1.517", en: "Muwatta 1.517" }
+label: { ar: "الموطأ 517 — بلاغ: إذا أنشأت بحرية ثم تشاءمت فتلك عين غديقة", en: "Muwatta 517" }
+text: "إذا أنشأت بحرية ثم تشاءمت فتلك عين غديقة"
 summary:
-  ar: "بلغ مالكًا أن النبي ﷺ كان يقول... ؛ حديث في الدعاء عند المطر؛ تفاصيل المتن غير واضحة."
+  ar: "بلاغ في باب الاستمطار بالنجوم: يروي مالك أنه بلغه أن النبي كان يقول: إذا أنشأت بحرية ثم تشاءمت فتلك عين غديقة. ويفسر المحقق «أنشأت بحرية» بأن تظهر سحابة من ناحية البحر وترتفع، و«تشاءمت» بأن تأخذ نحو الشام، والشام من المدينة في ناحية الشمال؛ ويذكر أنه رواه عن مالك أبو مصعب وسويد، وينقل عن ابن عبد البر أنه لا يعرفه بوجه من الوجوه في غير الموطأ إلا ما ذكره الشافعي في كتاب الاستسقاء عن إبراهيم بن محمد بن أبي يحيى عن إسحاق بن عبد الله بنحوه، وابن أبي يحيى مطعون عليه متروك، وبلاغ مالك خير من حديثه (التمهيد 24/377). {cite:muwatta-maruf-1997 p.267}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 517 of kitab al-salat at PDF p. 267", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-24" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-sham, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/anwa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 517 at PDF p. 267; باب الاستمطار بالنجوم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 267; matn excerpt at most 40 words" }

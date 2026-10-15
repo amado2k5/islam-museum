@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.518"
-label: { ar: "الموطأ 1.518", en: "Muwatta 1.518" }
+label: { ar: "الموطأ 518 — بلاغ: أبو هريرة إذا أصبح وقد مُطر الناس قال: مطرنا بنوء الفتح", en: "Muwatta 518" }
 summary:
-  ar: "بلغ مالكًا أن أبا هريرة كان إذا أصبح والناس قد مُطروا يقول: مُطرنا بنوء كذا؛ الأثر في الإنكار على القول بالنوء."
+  ar: "بلاغ في باب الاستمطار بالنجوم: يروي مالك أنه بلغه أن أبا هريرة كان يقول إذا أصبح وقد مُطر الناس: مُطرنا بنوء الفتح، ثم يتلو الآية الثانية من سورة فاطر في أن ما يفتح الله للناس من رحمة فلا ممسك لها [[passage/quran-35-2|فاطر 2]]. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.267} {cite:muwatta-maruf-1997 p.268}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 518 of kitab al-salat at PDF p. 267", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-24" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/anwa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 518 at PDF p. 267; باب الاستمطار بالنجوم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 267; matn excerpt at most 40 words" }
