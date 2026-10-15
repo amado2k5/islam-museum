@@ -1,0 +1,17 @@
+id: event/death-of-hajjaj-95
+class: event
+kind: death
+label: { ar: "وفاة الحجاج بن يوسف" }
+summary:
+  ar: "مات الحجاج بن يوسف سنة خمس وتسعين وهو ابن أربع وخمسين سنة بواسط العراق، وكانت إمارته على الناس عشرين سنة {cite:bakr-umayyad-state-1134715 p. 245}. وأحصى الكتاب من قتلهم صبراً مائة وعشرين ألفاً سوى من قتل في عساكره وحروبه، ومات وفي حبسه خمسون ألف رجل وثلاثون ألف امرأة {cite:bakr-umayyad-state-1134715 p. 245-246}. ويذكر الكتاب أنه لم يعش بعد قتل سعيد بن جبير إلا خمس عشرة ليلة {cite:bakr-umayyad-state-1134715 p. 243}. ويذكر الكتاب أن خبر وفاة الحجاج في شوال من سنة 95هـ بلغ قتيبة بعد أن أتم فتح الشاش وفرغانة، فاغتم لموته لما كان يلقاه منه من التأييد. {cite:salabi-umayyad-state-2020 p.94}"
+date:
+  start: { hijri: "0095", precision: year, status: historical, note: "ومات الحجاج في سنة خمس وتسعين {cite:bakr-umayyad-state-1134715 p. 245}" }
+relations:
+  - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "المتوفى", sources: [source/bakr-umayyad-state-1134715] }
+  - { type: occurred_at, target: place/wasit, sources: [source/bakr-umayyad-state-1134715] }
+sources: [source/bakr-umayyad-state-1134715, source/salabi-umayyad-state-2020]
+provenance:
+  layer: own-research
+  source: "bakr-umayyad-state-1134715 pp. 243-246"
+  generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 243-246"
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 243-246" }
