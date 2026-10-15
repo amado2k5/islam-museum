@@ -1,0 +1,22 @@
+id: event/sallam-sadd-expedition
+class: event
+kind: discovery
+label: { ar: "بعثة سلام الترجمان إلى سد يأجوج ومأجوج" }
+summary:
+  ar: "رأى الواثق مناماً كأن سدّ ذي القرنين قد انفتل، فلم يجد في دولته من يصلح لمعاينته إلا سلام الترجمان الذي يتكلم بثلاثين لساناً؛ فجهّزه بخمسين رجلاً وخمسة آلاف دينار ووصله بعشرة آلاف درهم ومائتي بغل للزاد والماء واللبابيد والكستباذات بالفراء، وسار بسلسلة كتب من صاحب أرمينية إلى صاحب السرير إلى ملك اللان إلى فيلان شاه إلى طرخان ملك الخزر، ثم سار من عند ملك الخزر نحو سبعة وعشرين يوماً فاجتاز أرضاً سوداء منتنة ومدناً خربتها يأجوج ومأجوج حتى بلغ حصوناً ينزلها أهل الجبال الناطقون بالعربية والفارسية قرب شعبة الجبل التي فيها السد، فرأى الباب الحديد مصراعاه خمسون ذراعاً في خمس وسبعين ذراعاً وعليه قفل سبعة أذرع لا يحتضنه رجلان ومفتاح ذو اثنتي عشرة دندانة، وكان رئيس الحصون يقرع القفل كل اثنين وخميس فيسمع من وراء الباب أن هناك حفظة، وأملى سلام الخبر جملة على ابن خرداذبه {cite:masalik-mamalik-ibn-khurdadhbih pp. 162-168}."
+  en: "Al-Wathiq dreamt that Dhu'l-Qarnayn's barrier had loosened, and found none fit to inspect it save Sallam the Interpreter of thirty tongues: equipped with fifty men, five thousand dinars, two hundred mules and cold-weather gear, he passed by letters of introduction from the governor of Armenia to the lord of Sarir, the Alan king, Filan Shah and the Khazar Tarkhan, then crossed the black stinking land and the cities ruined by Gog and Magog to the forts near the mountain cleft — seeing the iron gate with leaves fifty by seventy-five cubits, a lock two men cannot embrace, a twelve-toothed key, and the ritual of knocking on it each Monday and Thursday so those beyond know guards remain; he dictated the whole report to Ibn Khurdadhbih {cite:masalik-mamalik-ibn-khurdadhbih pp. 162-168}."
+wings: [time, place]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0842~", calendar: julian, precision: decade, status: tradition, derived: true, note: "في خلافة الواثق (227-232هـ) ولم يؤرخه ابن خرداذبه." }
+relations:
+  - { type: had_participant, target: person/sallam-al-tarjuman, role: "المبعوث والمخبر", sources: [source/masalik-mamalik-ibn-khurdadhbih] }
+  - { type: had_participant, target: person/al-wathiq, role: "الخليفة الآمر بالبعثة بعد المنام", sources: [source/masalik-mamalik-ibn-khurdadhbih] }
+sources: [source/masalik-mamalik-ibn-khurdadhbih]
+provenance:
+  layer: own-research
+  source: "ابن خرداذبه، المسالك والممالك (BGA 6، دي غويه) ص 162-168"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-bga6-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
