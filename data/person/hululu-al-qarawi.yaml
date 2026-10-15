@@ -1,0 +1,22 @@
+id: person/hululu-al-qarawi
+class: person
+label: { ar: "حلولو القروي", en: "Hululu al-Qarawi, Ahmad ibn Abd al-Rahman" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن عبد الرحمن بن موسى بن عبد الحق اليزليطني" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1412", hijri: "0815", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1492", hijri: "0898", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مالكي من أهل القيروان، عُرف بحلولو القروي، ويرجع أصله إلى يزليطن."
+  en: "A Maliki jurist of Kairouan, known as Hululu al-Qarawi, of a family from Yazlitan."
+wings: [people, words]
+themes: [development-of-law-theology-institutions]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 7 pp. 153, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص153", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

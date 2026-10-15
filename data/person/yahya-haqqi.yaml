@@ -1,0 +1,22 @@
+id: person/yahya-haqqi
+class: person
+label: { ar: "يحيى حقي", en: "Yahya Haqqi" }
+names:
+  - { kind: full, lang: ar, value: "يحيى حقي" }
+gender: male
+roles: [writer]
+traditions: [sunni]
+born: { edtf: "1905", hijri: "1323", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1992", hijri: "1413", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "كاتب مصري ولد في حي السيدة زينب بالقاهرة في يناير 1905، ونال شهادة الحقوق."
+  en: "An Egyptian writer born in the Sayyida Zaynab district of Cairo in January 1905, who held a law degree."
+wings: [people, words]
+themes: [literature]
+periods: [period/contemporary-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 7 pp. 88, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص88", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
