@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.175"
-label: { ar: "الموطأ 1.175", en: "Muwatta 1.175" }
+label: { ar: "الموطأ 175 — إذا أقيمت الصلاة فأتوها وعليكم السكينة", en: "Muwatta 175" }
+text: "إذا ثوب بالصلاة فلا تأتوها وأنتم تسعون، وأتوها وعليكم السكينة، فما أدركتم فصلوا وما فاتكم فأتموا"
 summary:
-  ar: "العلاء بن عبد الرحمن وإسحاق بن عبد الله سمعا أبا هريرة يحدث؛ الحديث في الأذان ولزوم المسجد."
+  ar: "يرويه مالك عن العلاء بن عبد الرحمن بن يعقوب عن أبيه وعن إسحاق بن عبد الله، كلاهما عن أبي هريرة، في باب ما جاء في النداء للصلاة: نهى النبي أن يأتي المصلون الصلاة ساعين إذا أقيمت، وأمرهم أن يأتوها بسكينة، فيصلوا ما أدركوا ويتموا ما فاتهم، لأن أحدهم في صلاة ما دام قاصداً إليها. ويفسر المحقق «ثُوّب» بأقيمت، ويخرّج الحديث عند ابن حبان (2148) وأحمد (2/460) والشافعي والبخاري في القراءة خلف الإمام والبيهقي من طرق أصحاب مالك، ويبين أن القعنبي وابن مهدي وعثمان بن عمر رووه عن مالك عن العلاء عن أبيه عن أبي هريرة دون ذكر إسحاق، فقول ابن عبد البر إنه لم يُختلف على مالك فيه نظر. {cite:muwatta-maruf-1997 p.115} {cite:muwatta-maruf-1997 p.116}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 175 of kitab al-salat at PDF p. 115", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-10" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-ala-ibn-abd-al-rahman-al-huraqi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ishaq-ibn-abdallah-ibn-abi-talha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 175 at PDF p. 115; باب ما جاء في النداء للصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 115; matn excerpt at most 40 words" }

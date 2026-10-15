@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.173"
-label: { ar: "الموطأ 1.173", en: "Muwatta 1.173" }
+label: { ar: "الموطأ 173 — إذا سمعتم النداء فقولوا مثل ما يقول المؤذن", en: "Muwatta 173" }
+text: "إذا سمعتم النداء فقولوا مثل ما يقول المؤذن"
 summary:
-  ar: "أبو سعيد الخدري عن النبي ﷺ: إذا سمعتم النداء فقولوا مثل ما يقول المؤذن؛ الحديث في إجابة المؤذن."
+  ar: "يرويه مالك عن ابن شهاب عن عطاء بن يزيد الليثي عن أبي سعيد الخدري، في باب ما جاء في النداء للصلاة: أمر النبي من سمع الأذان أن يقول مثل ما يقول المؤذن. ويخرّجه المحقق عند البخاري (611) ومسلم (2/4) وأبي داود (522) والترمذي (208) والنسائي (2/23) وابن ماجه (720) وابن حبان وابن خزيمة من طرق أصحاب مالك، وينقل عن ابن عبد البر أن المغيرة بن سقلاب انفرد بزيادة سعيد بن المسيب في إسناده، ويعلق المحقق بأن المغيرة منكر الحديث وهذا من منكراته، وأن رواية من جعله عن الزهري عن السائب بن يزيد خطأ، والصحيح رواية الزهري عن عطاء بن يزيد عن أبي سعيد. {cite:muwatta-maruf-1997 p.113} {cite:muwatta-maruf-1997 p.114}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 173 of kitab al-salat at PDF p. 113", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-10" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-yazid-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 173 at PDF p. 113; باب ما جاء في النداء للصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 113; matn excerpt at most 40 words" }

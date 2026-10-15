@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.172"
-label: { ar: "الموطأ 1.172", en: "Muwatta 1.172" }
+label: { ar: "الموطأ 172 — رؤيا عبد الله بن زيد وبدء الأذان", en: "Muwatta 172" }
+text: "إن هاتين لنحو مما يريد رسول الله. فقيل: ألا تؤذنون للصلاة؟"
 summary:
-  ar: "يحيى بن سعيد: أراد النبي ﷺ أن يتخذ خشبتين يُضرب بهما ليجتمع الناس للصلاة؛ الحديث في طرق الدعوة إلى الصلاة."
+  ar: "أول حديث في باب ما جاء في النداء للصلاة. يرويه يحيى عن مالك عن يحيى بن سعيد الأنصاري مرسلاً: أراد النبي أن يتخذ خشبتين يُضرب بهما ليجتمع الناس للصلاة، فرأى عبد الله بن زيد الأنصاري من بني الحارث بن الخزرج في منامه خشبتين فقال إنهما نحو مما يريد رسول الله، فقيل له: ألا تؤذنون للصلاة؟ فأتى النبي حين استيقظ وذكر له ذلك، فأمر بالأذان. ويذكر المحقق أن المشهور من الروايات الحديث المرفوع المسند من طريق محمد بن عبد الله بن زيد عن أبيه، ويحيل على الترمذي (189) وتعليقه عليه. {cite:muwatta-maruf-1997 p.113}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 172 of kitab al-salat at PDF p. 113", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-10" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-zayd-ibn-abd-rabbih, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/ansar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 172 at PDF p. 113; باب ما جاء في النداء للصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 113; matn excerpt at most 40 words" }

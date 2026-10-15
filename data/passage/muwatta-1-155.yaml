@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.155"
-label: { ar: "الموطأ 1.155", en: "Muwatta 1.155" }
+label: { ar: "الموطأ 155 — عائشة: كنت أرجل رأس رسول الله وأنا حائض", en: "Muwatta 155" }
+text: "كنت أرجل رأس رسول الله وأنا حائض"
 summary:
-  ar: "عائشة: كنت أرجّل رأس رسول الله ﷺ وأنا حائض؛ الحديث في مباشرة الحائض وخدمتها."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه عن عائشة، في باب جامع الحيضة: كانت تمشط رأس النبي وتسرّحه وهي حائض. ويخرّجه المحقق عند البخاري (295، 5925) والنسائي (1/148) والدارمي وأبي عوانة والترمذي في الشمائل (32) من طرق أصحاب مالك، ويحيل على التمهيد (22/136). {cite:muwatta-maruf-1997 p.105}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 155 of kitab al-salat at PDF p. 105", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-9" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hayd, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 155 at PDF p. 105; باب جامع الحيضة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 105; matn excerpt at most 40 words" }

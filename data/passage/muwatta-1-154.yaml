@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.154"
-label: { ar: "الموطأ 1.154", en: "Muwatta 1.154" }
+label: { ar: "الموطأ 154 — ابن شهاب: الحامل ترى الدم تكف عن الصلاة", en: "Muwatta 154" }
 summary:
-  ar: "ابن شهاب سُئل عن الحامل ترى الدم، فقال: تكف عن الصلاة؛ ومضمون ما بعده في الفقه يحتاج مراجعة."
+  ar: "يروي مالك أنه سأل ابن شهاب الزهري عن المرأة الحامل ترى الدم فقال: تكف عن الصلاة؛ ويروي يحيى عن مالك أن ذلك الأمر عند أهل المدينة. وهو في باب جامع الحيضة. ويذكر المحقق أن عبد الرزاق أخرجه عن معمر عن الزهري وقتادة. {cite:muwatta-maruf-1997 p.105}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 154 of kitab al-salat at PDF p. 105", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-9" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hayd, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 154 at PDF p. 105; باب جامع الحيضة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: ما بعد الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 105; matn excerpt at most 40 words" }
