@@ -1,0 +1,23 @@
+id: person/abu-bakr-ibn-abi-al-qasim-al-ahdal
+class: person
+label: { ar: "أبو بكر بن أبي القاسم الأهدل", en: "Abu Bakr ibn Abi al-Qasim al-Ahdal" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر بن أبي القاسم بن أحمد بن محمد الحسيني" }
+  - { kind: nisba, lang: ar, value: "الأهدل التهامي" }
+gender: male
+roles: [mystic, writer]
+traditions: [sunni]
+born: { edtf: "1576", hijri: "0983", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1626", hijri: "1035", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "الصوفي التهامي أبو بكر بن أبي القاسم بن أحمد الأهدل الحسيني، ولد سنة 983 هـ وتوفي سنة 1035 هـ، وصنّف كتباً في الحديث والتاريخ والتراجم."
+  en: "The Tihami Sufi Abu Bakr ibn Abi al-Qasim ibn Ahmad al-Ahdal al-Husayni, born in 983 AH and died in 1035 AH; he wrote works on hadith, history and biography."
+wings: [people, words]
+themes: [spirituality-and-sufism, history-writing-and-social-thought]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 520, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص520", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
