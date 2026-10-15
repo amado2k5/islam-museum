@@ -1,0 +1,18 @@
+id: event/soothsayer-episode-banu-sad
+class: event
+kind: other
+label: { en: "The soothsayer episode in Banu Sa'd", ar: "حادثة الكاهن في بني سعد" }
+summary:
+  en: "As Halima's account is transmitted by Bayhaqi, she brought the boy to a soothsayer in Banu Sa'd after the chest-opening; the soothsayer urged his killing, Halima refused, and she returned him to Mecca, where he was briefly lost at the great gate."
+  ar: "تروي حليمة كما نقلها البيهقي أنها عرضت الغلام على كاهن في بني سعد بعد حادثة شق الصدر، فدعا إلى قتله فرفضت، وعادت به إلى مكة، فاختفى عنها لحظة عند الباب الأعظم ثم عاد إليها."
+wings: [time, people]
+themes: [prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: had_participant, target: person/muhammad, sources: [source/dalail-al-nubuwwa-bayhaqi] }
+  - { type: had_participant, target: person/halima-al-sadiyya, role: "راوية الحادثة وصاحبة الغلام", sources: [source/dalail-al-nubuwwa-bayhaqi] }
+  - { type: part_of, target: period/prophetic-era }
+# Verification: this is a narrative transmitted through Halima, reported by Bayhaqi (pp. 312–314). It needs a second source before any dated claim is made.
+sources: [source/dalail-al-nubuwwa-bayhaqi]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; Dalail al-Nubuwwa pp. 309–314 (OCR)" }
