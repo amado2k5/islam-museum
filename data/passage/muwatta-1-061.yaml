@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.61"
-label: { ar: "الموطأ 1.61", en: "Muwatta 1.61" }
+label: { ar: "الموطأ 61 — أكل من فضل الطعام ثم صلى ولم يتوضأ", en: "Muwatta 61" }
+text: "ثم أتي بفضل ذلك الطعام فأكل منه ثم صلى ولم يتوضأ"
 summary:
-  ar: "النبي ﷺ أُتي بطعام من خبز ولحم فأكل منه، ثم توضأ وصلى."
+  ar: "يرويه مالك عن محمد بن المنكدر مرسلاً، في باب ترك الوضوء مما مست النار: دُعي النبي إلى طعام فقُرّب إليه خبز ولحم فأكل ثم توضأ ثم صلى، ثم أُتي بما بقي من ذلك الطعام فأكل ثم صلى ولم يتوضأ. وينقل المحقق عن ابن عبد البر أنه مرسل في الموطأ عند جميع الرواة، وأن من أسنده عن مالك عن ابن المنكدر عن جابر ضعفاء لا يُحتج بهم، والصواب عن مالك إرساله، لكن الثقات رووه عن ابن المنكدر عن جابر مسنداً (التمهيد 12/273)؛ ويعدّ المحقق منهم معمراً وابن عيينة وابن جريج وغيرهم، ويخرّج الموصول عند الترمذي (80) وفي الشمائل وأبي يعلى وابن حبان والبيهقي. {cite:muwatta-maruf-1997 p.63}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 61 of kitab al-salat at PDF p. 63", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-5" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-al-munkadir, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 61 at PDF p. 63; باب ترك الوضوء مما مست النار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 63; matn excerpt at most 40 words" }

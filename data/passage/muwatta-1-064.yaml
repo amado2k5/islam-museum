@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.64"
-label: { ar: "الموطأ 1.64", en: "Muwatta 1.64" }
+label: { ar: "الموطأ 64 — زيارة المقبرة: إخواننا الذين لم يأتوا بعد، والغر المحجلون على الحوض", en: "Muwatta 64" }
+text: "السلام عليكم دار قوم مؤمنين، وإنا إن شاء الله بكم لاحقون، وددت أني قد رأيت إخواننا"
 summary:
-  ar: "العلاء بن عبد الرحمن عن أبيه عن أبي هريرة: النبي ﷺ خرج إلى المقبرة فسلّم على أهلها من المؤمنين."
+  ar: "يرويه مالك عن العلاء بن عبد الرحمن عن أبيه عن أبي هريرة، في باب جامع الوضوء: خرج النبي إلى المقبرة فسلّم على أهلها وأخبر أنه لاحق بهم، ثم تمنى أن يرى إخوانه، فسأله أصحابه: ألسنا بإخوانك؟ فقال: بل أنتم أصحابي، وإخواننا الذين لم يأتوا بعد، وأنا فرطهم على الحوض. فسألوه كيف يعرف من يأتي بعده من أمته، فضرب لهم مثل رجل له خيل غر محجلة بين خيل سود لا يخالطها لون، أفلا يعرف خيله؟ وأخبر أن أمته تأتي يوم القيامة غراً محجلين من أثر الوضوء، وأنه يتقدمهم على الحوض، وأن رجالاً يُطردون عن حوضه كما يُطرد البعير الضال فيناديهم، فيقال له إنهم بدلوا بعده، فيقول: فسحقاً فسحقاً. ويفسر المحقق الغرة والتحجيل بالنور في وجوه أمته وأطرافهم، والفَرَط بمن يتقدم القوم إلى الماء، ويبين أن رواية يحيى «فلا يذادن رجل» على النهي، ورواية أبي مصعب وأكثر الرواة «فليذادن» بلام التأكيد على الإخبار، وأن يحيى تفرد بلفظ «رجل» دون «رجال». ويخرّجه عند مسلم (1/151) وأبي داود (3237) والنسائي (1/93) وابن خزيمة (6) وابن حبان وأحمد (2/375) من طرق أصحاب مالك. {cite:muwatta-maruf-1997 p.65} {cite:muwatta-maruf-1997 p.66}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 64 of kitab al-salat at PDF p. 65", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-5" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-ala-ibn-abd-al-rahman-al-huraqi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/akhira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 64 at PDF p. 65; باب جامع الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 65; matn excerpt at most 40 words" }

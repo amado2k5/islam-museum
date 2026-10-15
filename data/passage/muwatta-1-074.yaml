@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.74"
-label: { ar: "الموطأ 1.74", en: "Muwatta 1.74" }
+label: { ar: "الموطأ 74 — بلاغ عن جابر: لا مسح على العمامة حتى يُمسح الشعر", en: "Muwatta 74" }
 summary:
-  ar: "جابر بن عبد الله سُئل عن المسح على العمامة فقال: لا، حتى يُمسح الشعر."
+  ar: "بلاغ يرويه يحيى عن مالك في باب ما جاء في المسح بالرأس والأذنين: سُئل جابر بن عبد الله الأنصاري عن المسح على العمامة فقال: لا، حتى يُمسح الشعر بالماء. ويذكر المحقق رواية الترمذي (102) من حديث أبي عبيدة بن محمد بن عمار بن ياسر أنه سأل جابراً عن المسح على الخفين فقال: السنة يا ابن أخي، وعن المسح على العمامة فقال: أمسّ الشعر بالماء. {cite:muwatta-maruf-1997 p.74}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 74 of kitab al-salat at PDF p. 74", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-6" }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 74 at PDF p. 74; باب ما جاء في المسح بالرأس والأذنين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 74; matn excerpt at most 40 words" }

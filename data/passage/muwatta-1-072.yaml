@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.72"
-label: { ar: "الموطأ 1.72", en: "Muwatta 1.72" }
+label: { ar: "الموطأ 72 — استقيموا ولن تحصوا، ولا يحافظ على الوضوء إلا مؤمن", en: "Muwatta 72" }
+text: "استقيموا ولن تحصوا، واعملوا وخير أعمالكم الصلاة، ولا يحافظ على الوضوء إلا مؤمن"
 summary:
-  ar: "النبي ﷺ: استقيموا ولن تحصوا، وخير أعمالكم الصلاة، ولا يحافظ على الوضوء إلا مؤمن."
+  ar: "بلاغ في باب جامع الوضوء: يروي مالك أنه بلغه أن النبي أمر بالاستقامة مع التنبيه إلى أن الإحاطة بالأعمال لا تُطاق، وجعل الصلاة خير الأعمال، وأخبر أن المحافظة على الوضوء من علامة الإيمان. ويشرح المحقق «استقيموا ولن تحصوا» بأن لا يميلوا عما سُن لهم مع أنهم لن يطيقوا الإحاطة في الأعمال، ويذكر أن أبا مصعب رواه عن مالك كذلك، وأن البلاغ يتصل مسنداً من حديث ثوبان عند الطيالسي وأحمد (5/276) والدارمي وابن ماجه (277) وابن حبان (1037) والحاكم، ومن حديث عبد الله بن عمرو بن العاص عند ابن ماجه (278)، وأن متن الحديث صحيح. {cite:muwatta-maruf-1997 p.73}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 72 of kitab al-salat at PDF p. 73", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-5" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/thawban-mawla-al-nabi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/istiqama, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 72 at PDF p. 73; باب جامع الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 73; matn excerpt at most 40 words" }

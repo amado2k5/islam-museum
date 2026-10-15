@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.67"
-label: { ar: "الموطأ 1.67", en: "Muwatta 1.67" }
+label: { ar: "الموطأ 67 — أبو هريرة: تخرج الخطايا مع الماء حتى يخرج نقياً من الذنوب", en: "Muwatta 67" }
+text: "إذا توضأ العبد المسلم أو المؤمن فغسل وجهه خرجت من وجهه كل خطيئة نظر إليها بعينيه مع الماء أو مع آخر قطر الماء"
 summary:
-  ar: "سهيل بن أبي صالح عن أبيه عن أبي هريرة: إذا توضأ العبد المسلم فغسل وجهه خرجت خطاياه من وجهه."
+  ar: "يرويه مالك عن سهيل بن أبي صالح عن أبيه عن أبي هريرة، في باب جامع الوضوء: إذا توضأ المسلم فغسل وجهه خرجت منه كل خطيئة نظر إليها بعينيه مع الماء أو مع آخر قطره، وإذا غسل يديه خرجت منهما كل خطيئة بطشتها يداه، حتى يخرج نقياً من الذنوب. وينقل المحقق عن الباجي أن قوله «أو المؤمن» شك من الراوي، ويبين أن زيادة ذكر الرجلين الواردة في بعض النسخ وشرحي السيوطي والزرقاني ليست من رواية يحيى وإنما هي زيادة ابن وهب عن مالك كما ذكر ابن عبد البر (التمهيد 21/261)، ويخرّج الحديث عند مسلم (1/148) والترمذي (2) والدارمي وابن خزيمة وابن حبان من طرق أصحاب مالك. {cite:muwatta-maruf-1997 p.70} {cite:muwatta-maruf-1997 p.71}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 67 of kitab al-salat at PDF p. 70", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-5" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/suhayl-ibn-abi-salih, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salih-al-samman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/maghfira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 67 at PDF p. 70; باب جامع الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 70; matn excerpt at most 40 words" }

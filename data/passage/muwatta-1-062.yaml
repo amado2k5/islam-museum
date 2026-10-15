@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.62"
-label: { ar: "الموطأ 1.62", en: "Muwatta 1.62" }
+label: { ar: "الموطأ 62 — أنس يتوضأ مما مست النار فيُنكر عليه: أعراقية؟", en: "Muwatta 62" }
+text: "ما هذا يا أنس؟ أعراقية؟ فقال أنس: ليتني لم أفعل"
 summary:
-  ar: "موسى بن عقبة: أنس بن مالك لما قدم من العراق أكرمه أبو طلحة وأبي بن كعب بطعام، ثم صلوا دون وضوء جديد."
+  ar: "يرويه مالك عن موسى بن عقبة عن عبد الرحمن بن زيد الأنصاري، في باب ترك الوضوء مما مست النار: قدم أنس بن مالك من العراق فدخل عليه أبو طلحة وأبي بن كعب فقرّب لهما طعاماً مسته النار فأكلوا، فقام أنس يتوضأ، فأنكرا عليه وسألاه أهي عادة عراقية، فقال: ليتني لم أفعل، وقاما فصليا ولم يتوضآ. ويبين المحقق أن اسم الراوي في بعض النسخ «عبد الرحمن بن يزيد» وأن الصواب «زيد» كما في روايات الموطأ الأخرى وتعجيل المنفعة، وأن أحمد أخرجه مرفوعاً بإسناد صحيح من طريق ابن المبارك عن موسى بن عقبة وفيه زيادة قولهما: أتتوضأ من الطيبات؟ لم يتوضأ منه من هو خير منك. {cite:muwatta-maruf-1997 p.64}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 62 of kitab al-salat at PDF p. 64", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-5" }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-talha-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubayy-ibn-kab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/musa-ibn-uqba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-zayd-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/iraq, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 62 at PDF p. 64; باب ترك الوضوء مما مست النار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 64; matn excerpt at most 40 words" }

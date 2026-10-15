@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.68"
-label: { ar: "الموطأ 1.68", en: "Muwatta 1.68" }
+label: { ar: "الموطأ 68 — نبع الماء من بين أصابع النبي حتى توضأ الناس كلهم", en: "Muwatta 68" }
+text: "فرأيت الماء ينبع من تحت أصابعه، فتوضأ الناس حتى توضؤوا من عند آخرهم"
 summary:
-  ar: "أنس بن مالك رأى النبي ﷺ عند العصر فطلب الناس الماء فلم يجدوا، فوضع يده في إناء فتفجر الماء فتوضأ القوم."
+  ar: "يرويه مالك عن إسحاق بن عبد الله بن أبي طلحة عن أنس بن مالك، في باب جامع الوضوء: حانت صلاة العصر فالتمس الناس ماءً للوضوء فلم يجدوه، فأُتي النبي بقليل من الماء في إناء فوضع فيه يده وأمر الناس أن يتوضؤوا منه، فرأى أنس الماء ينبع من بين أصابعه حتى توضأ الناس عن آخرهم. ويخرّجه المحقق من طرق أصحاب مالك عند البخاري (169) في الوضوء وفي علامات النبوة، ومسلم (7/59)، والترمذي (3631)، والنسائي، والبيهقي في السنن وفي دلائل النبوة، ويحيل على التمهيد (1/217). {cite:muwatta-maruf-1997 p.71}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 68 of kitab al-salat at PDF p. 71", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-5" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ishaq-ibn-abdallah-ibn-abi-talha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mujiza, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 68 at PDF p. 71; باب جامع الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 71; matn excerpt at most 40 words" }
