@@ -15,7 +15,7 @@ interface Props { lang: Lang; title: string; description?: string; path: string;
 const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex } = Astro.props;
 const T = ui(lang);
 const fullTitle = path === `/${lang}/` ? `${T.name} · ${T.tagline}` : `${title} · ${T.name}`;
-const desc = description ?? T.landing.lede;
+const desc = description ?? T.landing.meta_description ?? T.landing.lede;
 const canonical = `${SITE}${path}`;
 const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
 const multilingual = LANGS.length > 1;
@@ -77,7 +77,7 @@ const EXPLORE = explorePages(lang);
     <header class="site topbar">
       <div class="wrap nav-row">
         <a class="ui brand" href={`/${lang}/`}>
-          <Logo size={34} />
+          <Logo size={34} alt={T.name} />
           <span class="ltr" dir="ltr">islam.museum</span>
         </a>
         <button class="menu-btn ui" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">☰ {T.a11y.menu_open}</button>

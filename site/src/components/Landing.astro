@@ -20,7 +20,7 @@ const stats = fmt(T.landing.stats, { items: num(realNodes.length, lang), pages: 
 ---
 <BaseLayout lang={lang} title={T.tagline} path={path} jsonld={{ "@context": "https://schema.org", "@type": "WebSite", name: "islam.museum", url: "https://islam.museum/", inLanguage: ["en", "ar"], license: "https://creativecommons.org/licenses/by-sa/4.0/" }}>
   <section class="lhero" aria-labelledby="hero-title">
-    <Logo size={300} class="lhero-star" variant="mono" />
+    <Logo size={300} class="lhero-star" variant="mono" alt={T.name} />
     <div class="wrap" style="position:relative">
       <p class="eyebrow">{T.landing.eyebrow}</p>
       <h1 id="hero-title" class="display">{T.landing.title_pre} <span class="hl">{T.landing.title_strong}</span> {T.landing.title_post}</h1>
