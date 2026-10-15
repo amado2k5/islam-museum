@@ -1,0 +1,19 @@
+id: building/dar-al-anmat
+class: building
+kind: bazaar
+label: { ar: "دار الأنماط", en: "Dar al-Anmat" }
+summary:
+  ar: "دار بفسطاط مصر كانت تُباع فيها قماش النساء وفاخر اللباس والأمتعة يُجلب إليها من كل أرض، ويجلس على حوانيتها أهل الفراغ واللهو؛ عدّها ابن فضل الله العمري من عجائب المباني وغرائب الآثار {cite:umari-masalik-1924 p. 234}."
+  en: "A Fustat emporium where women's fabrics and luxury dress were sold, drawn from every land, its benches sat by the leisured and the pleasure-seekers — counted by al-Umari among the marvels of building {cite:umari-masalik-1924 p. 234}."
+wings: [place, objects]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+relations:
+  - { type: located_in, target: place/al-fustat, sources: [source/umari-masalik-1924] }
+provenance:
+  layer: own-research
+  source: "مسالك الأبصار (ط 1924) ص 234"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-umari-1
+sources: [source/umari-masalik-1924]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
