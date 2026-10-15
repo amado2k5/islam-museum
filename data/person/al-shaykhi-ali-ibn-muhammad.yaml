@@ -1,0 +1,22 @@
+id: person/al-shaykhi-ali-ibn-muhammad
+class: person
+label: { ar: "الشيحي علي بن محمد", en: "Al-Shayhi, Ali ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "علاء الدين أبو المحاسن علي بن محمد بن إبراهيم بن عمر بن خليل الشيحي البغدادي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1279", hijri: "0678", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1339", hijri: "0741", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم بغدادي من أهل الفقه والحديث في القرن الثامن الهجري."
+  en: "A Baghdadi scholar of jurisprudence and hadith in the eighth century AH."
+wings: [people, words]
+themes: [development-of-law-theology-institutions]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 37, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص37", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
