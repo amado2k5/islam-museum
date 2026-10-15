@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "641"
-label: { ar: "الموطأ 641", en: "Muwatta 641" }
+label: { ar: "الموطأ 641 — إن أحدكم إذا مات عرض عليه مقعده بالغداة والعشي", en: "Muwatta 641" }
+text: "إن أحدكم إذا مات، عرض عليه مقعده بالغداة والعشي. إن كان من أهل الجنة، فمن أهل الجنة. وإن كان من أهل النار، فمن أهل النار"
 summary:
-  ar: "نافع عن ابن عمر: قال النبي ﷺ: إن أحدكم إذا مات عُرض عليه مقعده... ؛ الحديث في عرض المقعد على الميت."
+  ar: "يرويه مالك عن نافع عن عبد الله بن عمر، أن النبي أخبر أن أحدهم إذا مات عُرض عليه مقعده بالغداة والعشي: إن كان من أهل الجنة فمن أهل الجنة، وإن كان من أهل النار فمن أهل النار، ويقال له: هذا مقعدك حتى يبعثك الله إلى يوم القيامة. ويذكر المحقق أن في نسختي ص ون «إليه» وهي رواية ابن القاسم ويحيى بن يحيى النيسابوري كما نص عليه ابن عبد البر في التمهيد (14/103)، وأنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان والبغوي، وإسحاق الطباع عند أحمد، وإسماعيل بن أبي أويس عند البخاري (1379)، وسويد، والقعنبي، وابن القاسم عند النسائي (4/107)، ويحيى بن يحيى النيسابوري عند مسلم (8/160). {cite:muwatta-maruf-1997 p.327}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 641 of kitab 02-janaza at PDF p. 327", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/adhab-al-qabr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/akhira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 641 at PDF p. 327; باب جامع الجنائز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 327; matn excerpt at most 40 words" }

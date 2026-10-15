@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "648"
-label: { ar: "الموطأ 648", en: "Muwatta 648" }
+label: { ar: "الموطأ 648 — أبو قتادة: مستريح ومستراح منه؛ المؤمن يستريح من نصب الدنيا، والفاجر يستريح منه العباد والبلاد", en: "Muwatta 648" }
+text: "العبد المؤمن يستريح من نصب الدنيا وأذاها، إلى رحمة الله. والعبد الفاجر يستريح منه العباد والبلاد والشجر والدواب"
 summary:
-  ar: "محمد بن عمرو بن حلحلة عن معبد بن كعب بن مالك عن أبي قتادة: حديث في الميت؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن محمد بن عمرو بن حلحلة الديلي عن معبد بن كعب بن مالك عن أبي قتادة بن ربعي، أنه كان يحدث أن النبي مُر عليه بجنازة فقال: مستريح ومستراح منه. فسألوه عن المستريح والمستراح منه، فقال: العبد المؤمن يستريح من نصب الدنيا وأذاها إلى رحمة الله، والعبد الفاجر يستريح منه العباد والبلاد والشجر والدواب. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه البغوي، وإسحاق الطباع عند الدارقطني في اختلاف الموطآت والبيهقي، وإسماعيل بن أبي أويس عند البخاري (6534)، وسويد، والقعنبي، وابن القاسم، وابن مهدي عند أحمد، وقتيبة عند مسلم (3/54) والنسائي (4/48). {cite:muwatta-maruf-1997 p.330}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 648 of kitab 02-janaza at PDF p. 330", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-qatada-cousin-of-kaab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/mabad-ibn-kab-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-amr-ibn-halhala, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/akhira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 648 at PDF p. 330; باب جامع الجنائز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 330; matn excerpt at most 40 words; doubt: أبو قتادة بن ربعي الأنصاري مربوط بسجل person/abu-qatada-cousin-of-kaab، وهو سجل المتحف لأبي قتادة الأنصاري (هوية مفتوحة، انظر البند 30 من المحتوى المؤجل)." }

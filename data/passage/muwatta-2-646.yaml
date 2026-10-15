@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "646"
-label: { ar: "الموطأ 646", en: "Muwatta 646" }
+label: { ar: "الموطأ 646 — كل مولود يولد على الفطرة فأبواه يهودانه أو ينصرانه؛ والذي يموت صغيراً: الله أعلم بما كانوا عاملين", en: "Muwatta 646" }
+text: "كل مولود يولد على الفطرة. فأبواه يهودانه أو ينصرانه. كما تناتج الإبل من بهيمة جمعاء، هل تحس فيها من جدعاء؟"
 summary:
-  ar: "أبو الزناد عن الأعرج عن أبي هريرة عن النبي ﷺ: ... ؛ حديث في الميت؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن أبي الزناد عن الأعرج عن أبي هريرة، أن النبي أخبر أن كل مولود يولد على الفطرة فأبواه يهودانه أو ينصرانه، كما تُنتج الإبل بهيمة سليمة الأعضاء لا تُحس فيها مقطوعة الأذن. فقالوا: يا رسول الله، أرأيت الذي يموت وهو صغير؟ قال: الله أعلم بما كانوا عاملين. ويذكر المحقق أنه رواه عن مالك أبو مصعب والقعنبي عند أبي داود (4714)، ويحيل على التمهيد (18/57). {cite:muwatta-maruf-1997 p.329} {cite:muwatta-maruf-1997 p.330}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 646 of kitab 02-janaza at PDF p. 329", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/fitra, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qadar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 646 at PDF p. 329; باب جامع الجنائز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 329; matn excerpt at most 40 words" }

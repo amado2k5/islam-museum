@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "649"
-label: { ar: "الموطأ 649", en: "Muwatta 649" }
+label: { ar: "الموطأ 649 — أبو النضر مرسلاً: لما مات عثمان بن مظعون ومر بجنازته: ذهبت ولم تلبس منها بشيء", en: "Muwatta 649" }
+text: "ذهبت ولم تلبس منها بشيء"
 summary:
-  ar: "أبو النضر مولى عمر بن عبيد الله: قال رسول الله ﷺ: ... ؛ حديث في الجنازة أو الميت؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن أبي النضر مولى عمر بن عبيد الله مرسلاً، أن النبي قال لما مات عثمان بن مظعون ومُر بجنازته: ذهبت ولم تلبّس منها بشيء، أي من الدنيا. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وينقل عن ابن عبد البر (التمهيد 21/223–224) أنه مرسل عند جماعة الرواة، وأنه رواه متصلاً من وجه حسن من طريق يحيى بن سعيد عن القاسم عن عائشة، ويضيف أن الثوري روى عن عاصم بن عبيد الله عن القاسم عن عائشة أن النبي قبّل عثمان بن مظعون وهو ميت وهو يبكي، عند أبي داود (3163) والترمذي (989) وابن ماجة (1456) والحاكم، وقال الترمذي: حسن صحيح، مع أن في إسناده عاصم بن عبيد الله الذي قال فيه البخاري: منكر الحديث. {cite:muwatta-maruf-1997 p.331}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 649 of kitab 02-janaza at PDF p. 331", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-mazun, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-nadr-salim-ibn-abi-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-tirmidhi-muhammad-ibn-isa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 649 at PDF p. 331; باب جامع الجنائز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 331; matn excerpt at most 40 words" }
