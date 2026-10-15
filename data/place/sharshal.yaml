@@ -1,12 +1,16 @@
 id: place/sharshal
 class: place
-kind: town
-label: { ar: "شرشال", en: "Sharshal" }
+kind: city
+label: { ar: "شرشال", en: "Sharshal (Cherchel)" }
 summary:
-  ar: "مدينة صغيرة لها عيون جارية وآبار عذبة وفواكه حسنة، وتبعد عن الجزائر نحو سبعين ميلاً. {cite:nuzhat-al-mushtaq-2002 p. 258}"
-  en: "A small town with running springs, sweet wells and good fruit, about seventy miles from Algiers. {cite:nuzhat-al-mushtaq-2002 p. 258}"
+  ar: "مدينة قديمة تقابل مليانة بالغرب الأوسط على ساحل البحر؛ يُقال إنها كانت مدينة الملك الغاصب للسفن، وهي عند العمري تزيد على الوصف في اتساع الأفنية وارتفاع الأبنية وعظم القناطر والأقبية المعقودة والجدر السميكة {cite:umari-masalik-1924 p. 244-245}."
+  en: "The ancient city facing Milyana on the mid-western coast, said to be the ship-seizing king's own; al-Umari says it surpasses description for the span of its courts, the height of its buildings, its great arches, vaulted cellars and thick walls {cite:umari-masalik-1924 p. 244-245}."
 wings: [place]
 regions: [maghreb]
-provenance: { layer: own-research, source: "al-Idrisi, Nuzhat al-Mushtaq, ed. Cairo 2002, p. 258 (scan page)", generated_by: "Claude (Haiku 5.5)" }
-sources: [source/nuzhat-al-mushtaq-2002]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); page refs are scan indices" }
+provenance:
+  layer: own-research
+  source: "مسالك الأبصار (ط 1924) ص 244-245"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-umari-4
+sources: [source/umari-masalik-1924]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

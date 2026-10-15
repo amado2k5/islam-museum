@@ -1,0 +1,20 @@
+id: place/malab-iskandariyya
+class: place
+kind: site
+label: { ar: "الملعب بالإسكندرية", en: "the Hippodrome of Alexandria" }
+summary:
+  ar: "ملعب قديم بالإسكندرية كان له عيد يجتمعون إليه كل سنة وتُرمى به كرة فمن وقعت في كمه آل إليه الملك؛ وحضره عمرو بن العاص في الجاهلية فوقعت الكرة في كمه فقالوا أُحرمت العادة إن مثل هذا لا يُملّك — واقعة مشهورة؛ وفي مكان هذا الملعب عمّر بنو خليف قصرهم المنسوب إليهم {cite:umari-masalik-1924 p. 241-242}."
+  en: "Alexandria's ancient hippodrome, where a yearly festival threw a ball whose lucky catcher took the kingship; Amr ibn al-As attended it in the jahiliyya and the ball fell into his sleeve — 'the custom is annulled, such a man cannot be made king' — and on its site the Banu Khulayf raised their famous palace {cite:umari-masalik-1924 p. 241-242}."
+wings: [place, time]
+periods: [period/pre-islamic-arabia]
+regions: [egypt-nile]
+relations:
+  - { type: located_in, target: place/iskandariyya, sources: [source/umari-masalik-1924] }
+  - { type: related_to, target: person/amr-ibn-al-as, note: "وقعت الكرة في كمه في الجاهلية فأُبطلت العادة.", sources: [source/umari-masalik-1924] }
+provenance:
+  layer: own-research
+  source: "مسالك الأبصار (ط 1924) ص 241-242"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-umari-4
+sources: [source/umari-masalik-1924]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
