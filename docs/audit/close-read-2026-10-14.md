@@ -19,39 +19,44 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 | `group/banu-al-dil.md` | فكان خطؤهم بداية نهاية الحرب كلها | فكان فعلهم بداية نهاية الحرب كلها | moral label in the children's section; describes the act |
 | `group/banu-hashim.md` | صار لاحقًا اسم الحقّ الذي قامت عليه دول هاشمية وعلوية وفاطمية | صار لاحقًا اسمًا ترفع به دول هاشمية وعلوية وفاطمية دعوى الشرعية | museum voice presented a claim as the truth; reframed as the dynasties' claim |
 | `group/banu-shayban.md` | لأن سيدها حفظ الأمانة | وتذكر الرواية أن سيدها حفظ أمانة النعمان | causal moral explanation in museum voice; attributed to the narrative |
+| `group/jahmiyya.md` | يزعم أصحاب هذا القول أن القرآن مخلوق | بحسب وصف الكتاب، يقول أصحاب هذا القول إن القرآن مخلوق | dismissive verb in museum voice; attributed to the cited book |
+| `group/hawazin.md` | حارب الإسلام في حنين | حارب المسلمين في حنين | framed a religion as a party; factual wording |
+| `group/hawazin.md` | ردّة حنين سنة 630م على بيعة الفتح | حرب حنين سنة 630م بعد بيعة الفتح | 'ردّة' (apostasy) asserted in museum voice |
+| `group/thaqif.md` | فسلّموا على شروط التصنّع | فسلّموا بشروط خاصّة | imputed insincerity in museum voice; no source states it |
+| `group/himyar.md` | ومنهم الملك الظالم الذي أحرق أهل نجران | ومنهم الملك الذي تذكر الرواية أنه أحرق أهل نجران | moral label in the children's section; attributed to the tradition |
 
 ## Pages needing citations (not added here)
 
 
-## Batch 4 of 19
+## Batch 5 of 19
 
-Pages group/banu-ghifar.md to group/early-muslims.md (25 pages).
+Pages group/ghassan.md to event/abu-khaythama-joins-the-army.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `group/banu-ghifar.md` | ok |
-| `group/banu-hamdan.md` | ok |
-| `group/banu-hashim.md` | fixed (1) |
-| `group/banu-jumah.md` | ok |
-| `group/banu-jusham.md` | ok |
-| `group/banu-lakhm.md` | ok |
-| `group/banu-makhzum.md` | ok |
-| `group/banu-nadir.md` | ok |
-| `group/banu-nasr.md` | ok |
-| `group/banu-qaynuqa.md` | ok |
-| `group/banu-qurayza.md` | ok |
-| `group/banu-sahm.md` | ok |
-| `group/banu-salim-ibn-awf.md` | ok |
-| `group/banu-salima.md` | ok |
-| `group/banu-shayban.md` | fixed (1) |
-| `group/banu-tahm.md` | ok |
-| `group/banu-tamim.md` | ok |
-| `group/banu-ubayd-ibn-zayd.md` | ok |
-| `group/banu-umayya-ibn-zayd.md` | ok |
-| `group/banu-umayya.md` | ok |
-| `group/banu-waqif.md` | ok |
-| `group/banu-zubayd.md` | ok |
-| `group/banu-zuhra.md` | ok |
-| `group/builders-of-masjid-al-dirar.md` | ok |
-| `group/early-muslims.md` | ok |
+| `group/ghassan.md` | ok |
+| `group/hanbali-madhhab.md` | ok |
+| `group/hawazin.md` | fixed (2) |
+| `group/himyar.md` | fixed (1) |
+| `group/hudhayl.md` | ok |
+| `group/jahmiyya.md` | fixed (1) |
+| `group/jews-of-khaybar.md` | ok |
+| `group/jurhum.md` | ok |
+| `group/kahlan.md` | ok |
+| `group/khathum.md` | ok |
+| `group/khuzaa.md` | ok |
+| `group/kinana.md` | ok |
+| `group/mothers-of-the-believers.md` | ok |
+| `group/muhajirun.md` | ok |
+| `group/murjia.md` | ok |
+| `group/mutazila.md` | ok |
+| `group/qadariyya.md` | ok |
+| `group/qahtan.md` | ok |
+| `group/qudaa.md` | ok |
+| `group/quraysh.md` | ok |
+| `group/thaqif.md` | fixed (1) |
+| `event/abolition-caliphate-1342.md` | ok |
+| `event/abu-bakr-leads-the-prayers.md` | ok |
+| `event/abu-dharr-lags-behind-on-the-march.md` | ok |
+| `event/abu-khaythama-joins-the-army.md` | ok |
 
