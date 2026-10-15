@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.588"
-label: { ar: "الموطأ 1.588", en: "Muwatta 1.588" }
+label: { ar: "الموطأ 588 — أبو هريرة: نهى النبي عن الصلاة بعد العصر حتى تغرب الشمس وبعد الصبح حتى تطلع", en: "Muwatta 588" }
 summary:
-  ar: "محمد بن يحيى بن حبان عن الأعرج عن أبي هريرة: حديث في الصلاة أو الوقت؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن محمد بن يحيى بن حبان عن الأعرج عن أبي هريرة، أن النبي نهى عن الصلاة بعد العصر حتى تغرب الشمس، وعن الصلاة بعد الصبح حتى تطلع الشمس. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه البغوي، وإسحاق الطباع وابن مهدي وعثمان بن عمر عند أحمد، وسويد، والقعنبي عند الجوهري، وابن القاسم (96)، وقتيبة عند النسائي (1/276)، والشافعي في الرسالة (872)، ويحيى بن يحيى النيسابوري عند مسلم (2/206). {cite:muwatta-maruf-1997 p.303}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 588 of kitab al-salat at PDF p. 303", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-27" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-yahya-ibn-habban, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muslim-ibn-al-hajjaj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 588 at PDF p. 303; باب النهي عن الصلاة بعد الصبح وبعد العصر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 303; matn excerpt at most 40 words" }

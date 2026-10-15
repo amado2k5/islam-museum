@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.587"
-label: { ar: "الموطأ 1.587", en: "Muwatta 1.587" }
+label: { ar: "الموطأ 587 — لا يتحر أحدكم فيصلي عند طلوع الشمس ولا عند غروبها", en: "Muwatta 587" }
+text: "لا يتحر أحدكم فيصلي عند طلوع الشمس، ولا عند غروبها"
 summary:
-  ar: "نافع عن ابن عمر عن النبي ﷺ: لا يتحرَّ أحدكم طلوع الشمس أو غروبها فيصلي؛ النهي عن الصلاة عند طلوع الشمس وغروبها."
+  ar: "يرويه مالك عن نافع عن عبد الله بن عمر، أن النبي نهى أن يتحرى أحد الصلاة عند طلوع الشمس أو عند غروبها. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان (1548) والبغوي، وسويد، والقعنبي ومن طريقه أبو عوانة والجوهري، وابن وهب، والتنيسي عند البخاري (585)، وابن مهدي عند أحمد، وعبد الرزاق (3951)، وقتيبة عند النسائي (1/277)، والشافعي في الرسالة (873)، ومحمد بن الحسن الشيباني (19)، ويحيى بن يحيى النيسابوري عند مسلم (2/207). {cite:muwatta-maruf-1997 p.302} {cite:muwatta-maruf-1997 p.303}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 587 of kitab al-salat at PDF p. 302", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-27" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-shafii, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 587 at PDF p. 302; باب النهي عن الصلاة بعد الصبح وبعد العصر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 302; matn excerpt at most 40 words" }

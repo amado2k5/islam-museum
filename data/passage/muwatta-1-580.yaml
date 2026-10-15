@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.580"
-label: { ar: "الموطأ 1.580", en: "Muwatta 1.580" }
+label: { ar: "الموطأ 580 — بلاغ: اللهم إني أسألك فعل الخيرات وترك المنكرات وحب المساكين", en: "Muwatta 580" }
+text: "اللهم إني أسألك فعل الخيرات، وترك المنكرات، وحب المساكين. وإذا أردت في الناس فتنة، فاقبضني إليك غير مفتون"
 summary:
-  ar: "بلغ مالكًا أن رسول الله ﷺ كان يدعو فيقول: اللهم إني أسألك فعل الخيرات... ؛ دعاء النبي ﷺ."
+  ar: "بلاغ يرويه مالك أنه بلغه أن النبي كان يدعو فيسأل الله فعل الخيرات وترك المنكرات وحب المساكين، وأن يقبضه إليه غير مفتون إذا أراد في الناس فتنة. ويذكر المحقق أن في نسخة «أدرت»، وأن أبا مصعب وسويداً روياه عن مالك عن يحيى بن سعيد أن النبي، وينقل عن ابن عبد البر (التمهيد 24/321–325) أنه لا يعرفه بهذه الألفاظ إلا في حديث عبد الرحمن بن عائش الحضرمي وهو حديث حسن رواه الثقات، وأنه روي من حديث ابن عباس ومعاذ بن جبل وثوبان وأبي أمامة. ويضيف المحقق أن عبد الرحمن بن عائش لم يسمع من النبي كما نص عليه البخاري والترمذي وأحمد وأبو حاتم، لكنه روي عنه عن مالك بن يخامر عن معاذ بن جبل عند أحمد (5/243) والترمذي (3235) وقال: حسن صحيح، وأن حديث ابن عباس عند عبد الرزاق وأحمد والترمذي (3233 و3234) حديث معلول. {cite:muwatta-maruf-1997 p.299} {cite:muwatta-maruf-1997 p.300}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 580 of kitab al-salat at PDF p. 299", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-26" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/thawban-mawla-al-nabi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-tirmidhi-muhammad-ibn-isa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dua, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 580 at PDF p. 299; باب العمل في الدعاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 299; matn excerpt at most 40 words" }

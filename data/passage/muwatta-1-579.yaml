@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.579"
-label: { ar: "الموطأ 1.579", en: "Muwatta 1.579" }
+label: { ar: "الموطأ 579 — عروة: إنما أنزلت آية الإسراء في عدم الجهر بالصلاة ولا المخافتة بها في الدعاء؛ ومالك: لا بأس بالدعاء في المكتوبة", en: "Muwatta 579" }
 summary:
-  ar: "هشام بن عروة عن أبيه: إنما أُنزلت هذه الآية ولا تجهر بصلاتك... ؛ سبب نزول الآية في الجهر بالدعاء."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه، أنه قال: إنما أنزلت آية سورة الإسراء التي تنهى عن الجهر بالصلاة وعن المخافتة بها وتأمر بابتغاء سبيل بين ذلك [[passage/quran-17-110|الإسراء 110]] في الدعاء. ويضيف يحيى: وسئل مالك عن الدعاء في الصلاة المكتوبة، فقال: لا بأس بالدعاء فيها. ويذكر المحقق أن قول عروة رواه عن مالك أبو مصعب وسويد، وأنه حديث صحيح من حديث هشام بن عروة عن أبيه عن عائشة أخرجه البخاري (6327) من طريق مالك بن سعير عن هشام، والطبري في التفسير من طريق ابن المبارك وسفيان عن هشام، وأن قول مالك رواه عنه أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.298} {cite:muwatta-maruf-1997 p.299}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 579 of kitab al-salat at PDF p. 298", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-26" }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-17-110, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dua, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 579 at PDF p. 298; باب العمل في الدعاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 298; matn excerpt at most 40 words" }

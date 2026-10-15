@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.578"
-label: { ar: "الموطأ 1.578", en: "Muwatta 1.578" }
+label: { ar: "الموطأ 578 — سعيد بن المسيب: إن الرجل ليرفع بدعاء ولده من بعده", en: "Muwatta 578" }
+text: "إن الرجل ليرفع بدعاء ولده من بعده"
 summary:
-  ar: "يحيى بن سعيد: كان سعيد بن المسيب يقول: إن الرجل ليرفع بصره... ؛ أثر في رفع البصر في الدعاء."
+  ar: "يرويه مالك عن يحيى بن سعيد، أن سعيد بن المسيب كان يقول: إن الرجل ليُرفع بدعاء ولده من بعده، وأشار بيديه نحو السماء فرفعهما. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وينقل عن ابن عبد البر (التمهيد 23/142) أن رواة الموطأ لم يختلفوا عن مالك في أنه من قول سعيد بن المسيب، وأن ابن وهب رواه عن عمرو بن الحارث ومالك عن يحيى بن سعيد كذلك، وأن هذا لا يدرك بالرأي. {cite:muwatta-maruf-1997 p.298}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 578 of kitab al-salat at PDF p. 298", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-26" }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dua, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 578 at PDF p. 298; باب العمل في الدعاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 298; matn excerpt at most 40 words" }

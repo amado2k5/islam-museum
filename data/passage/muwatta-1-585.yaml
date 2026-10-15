@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.585"
-label: { ar: "الموطأ 1.585", en: "Muwatta 1.585" }
+label: { ar: "الموطأ 585 — مرسل عروة: إذا بدا حاجب الشمس فأخروا الصلاة حتى تبرز، وإذا غاب حاجب الشمس فأخروا الصلاة حتى تغيب", en: "Muwatta 585" }
+text: "إذا بدا حاجب الشمس، فأخروا الصلاة حتى تبرز، وإذا غاب حاجب الشمس، فأخروا الصلاة حتى تغيب"
 summary:
-  ar: "هشام بن عروة عن أبيه: كان رسول الله ﷺ يقول إذا بدا... ؛ حديث في الصلاة أو الدعاء؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه مرسلاً، أن النبي كان يأمر بتأخير الصلاة إذا بدا حاجب الشمس حتى تبرز، وإذا غاب حاجب الشمس حتى تغيب. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والقعنبي، وأن مالكاً أرسله هكذا ولا يصح عنه إلا مرسلاً، وأنه في الصحيحين (البخاري 1/152 و4/149، ومسلم 2/207) من طرق عن هشام بن عروة عن أبيه عن ابن عمر باختلاف لفظي يسير، ويحيل على التمهيد (22/327). {cite:muwatta-maruf-1997 p.301} {cite:muwatta-maruf-1997 p.302}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 585 of kitab al-salat at PDF p. 301", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-27" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 585 at PDF p. 301; باب النهي عن الصلاة بعد الصبح وبعد العصر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 301; matn excerpt at most 40 words" }
