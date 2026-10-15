@@ -1,0 +1,33 @@
+id: event/complaint-against-ali-after-yemen
+class: event
+kind: other
+label: { ar: "شكوى جند علي بعد اليمن وخطبة النبي: لا تشكوا علياً", en: "The complaint of Ali's troops after Yemen and the Prophet's words: do not complain of Ali" }
+summary:
+  ar: "لما أقبل علي من اليمن ليلقى النبي بمكة في حجة الوداع تعجّل إليه واستخلف على جنده رجلاً من أصحابه، فكسا ذلك الرجل كل رجل حلة من البز الذي كان مع علي، فلما دنا الجيش خرج علي فرآهم في الحلل فأمره بنزعها قبل الوصول إلى النبي، فأظهر الجيش شكواه. فقام النبي خطيباً: أيها الناس لا تشكوا علياً، فوالله إنه لأخشن في ذات الله أو في سبيل الله من أن يُشكى. روايتان عند ابن إسحاق: عن يزيد بن طلحة بن ركانة، وعن أبي سعيد الخدري."
+  en: "When Ali came up from Yemen to meet the Prophet at Mecca for the Farewell Pilgrimage he hurried ahead, leaving a companion over his troops who clothed every man in a robe from the Yemeni cloth Ali carried; when Ali met the army and saw the robes he ordered them stripped before reaching the Prophet, and the troops voiced their grievance. The Prophet stood and said: people, do not complain of Ali, for by God he is too rough in God's cause to be complained of. Ibn Ishaq gives two reports, from Yazid ibn Talha ibn Rukana and from Abu Sa'id al-Khudri."
+wings: [time, people]
+themes: [laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-03", hijri: "0010-12", calendar: julian, precision: month, status: tradition, derived: true, note: "ضمن حجة الوداع، ذو الحجة سنة 10هـ (ص249-250).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/farewell-pilgrimage, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أمير جند اليمن", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "خطب في الناس", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-said-al-khudri, role: "راوي الخطبة", sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "كيف يُقرأ خبر شكوى جند علي وقول النبي فيه؟", en: "How is the complaint of Ali's troops and the Prophet's words read?" }
+perspectives:
+  - tradition: sunni
+    id: sunni
+    stance: { ar: "ثناء على صلابة علي في الحق" }
+    summary: { ar: "يرويه ابن إسحاق بإسنادين على أنه ثناء من النبي على علي: إنه لأخشن في ذات الله من أن يُشكى؛ وتذكره الكتب السنية في مناقبه." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: shia-twelver
+    id: shia-twelver
+    summary: { ar: "يربط الإمامية بين هذه الشكوى وما جاء بعدها في غدير خم؛ تلخيص يحتاج إلى مصدر شيعي محدد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 250", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-11" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 250" }

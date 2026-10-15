@@ -44,8 +44,12 @@
   - 8a: event/delegation-of-banu-tamim with full prose (the shouting from behind the apartments, Utarid's speech and Thabit's reply, the Zibriqan/Hassan exchange, al-Aqra's verdict, Amr ibn al-Ahtam and Qays ibn Asim); 8 poem works with own-words accounts (Hassan's three poems closing Bara'a pp. 199-204, Zibriqan's two boasts, Hassan's two replies, Amr's satire); persons al-Hutat ibn Yazid (the brother-pact list of Muhajirun pairs, Farazdaq's verses), Nu'aym ibn Yazid, Qays ibn al-Harith; groups Banu Darim, Banu Minqar; Banu Tamim prose; passage edge 49:4.
   - 8b: Amir/Arbad (event extended with Ibn Ishaq's version, new death events for each, Jabbar ibn Salma, groups Banu Amir ibn Sa'sa'a and Banu Salul, Labid's six elegies as one work, passage edges 13:8, 13:11, 13:13 via Ibn Hisham <- Zayd ibn Aslam <- Ata' <- Ibn Abbas); Dimam (event with Ibn Ishaq's isnad to Ibn Abbas, group Banu Sa'd ibn Bakr); Abd al-Qays (event extended, al-Jarud enriched with his three names and the ridda stand, al-Gharur ibn al-Mundhir, al-Mundhir ibn Sawa and the event of al-Ala's mission); Banu Hanifa (event extended with both of Ibn Ishaq's accounts, event/musaylima-claims-prophethood with perspectives); question/why-is-9-ah-the-year-of-delegations.
   - Repairs: group/banu-amir (Quraysh clan) was wrongly used for Banu Amir ibn Sa'sa'a in three files; person/jarud-ibn-al-ala aliased into person/al-jarud-al-abdi; Musaylima's perspectives now cite sources; three stubs removed.
-- Batch 9 (الوفود ٢ pp. 224-247), in progress on `content/ibn-hisham-182-358`:
+- Batch 9 (الوفود ٢ pp. 224-247), on main:
   - 9a (pp. 224-231): event/delegation-of-tayy, places Fayd and Farda, Zayd al-Khayl extended (death at Farda, the burned writs); event/islam-of-adi-ibn-hatim with the whole dialogue and the three prophecies, event/capture-and-release-of-hatims-daughter, person/safana-bint-hatim (name from al-Suhayli via the editors), Adi extended (faith christian then sunni, the Rakusiyya note); event/battle-of-al-radm (leader of Hamdan debated: al-Ajda' ibn Malik vs Malik ibn Harim), event/delegation-of-farwa-ibn-musayk, work/farwa-ibn-musayk-poems, group/murad, Madhhij and Banu Zubayd prose, Khalid ibn Sa'id's posting; event/delegation-of-zubayd (Amr ibn Ma'dikarib; perspectives on whether he met the Prophet), work/amr-ibn-madikarib-poem-to-qays-ibn-makshuh, event/apostasy-of-amr-ibn-madikarib, Qays ibn Makshuh prose. Duplicate person/amr-ibn-madi-karib (Futuh/Muruj) merged into person/amr-ibn-madikarib as an alias. group/tayy arrived from the raheeq lane during the rebase: kept theirs, appended the Ibn Hisham section.
+
+  - 9b (pp. 232-238, on main 487cef8c): event/delegation-of-kinda (al-Ash'ath, the silk, the Akil al-Murar claim), person/akil-al-murar (identity debated), Surad ibn Abdullah and his campaign against Jurash (place Shakar, concept hima), work/letter-to-the-kings-of-himyar with the five Himyari addressees as persons, event/mission-of-muadh-to-yemen (the charge «يسّر ولا تعسّر»), Farwa al-Judhami's prison verses and place/afra; al-Abbas, Mu'adh, al-Ash'ath, Kinda, Khath'am, Jurash extended.
+  - 9c (pp. 239-247, on main f9c0117d): group/banu-al-harith-ibn-kab and event/mission-of-khalid-to-banu-al-harith (the delegation of six named men, «لألقيت رؤوسكم تحت أقدامكم» attributed), event/mission-of-amr-ibn-hazm-to-najran with work/charge-to-amr-ibn-hazm, Rifa'a ibn Zayd's islam and place/harrat-al-rajla, the Hamdan letter and Malik ibn al-Namt's poem, the dream of the two gold bracelets (al-Aswad / Musaylima), Musaylima's letter and the reply as event + work; the sadaqa collectors list patched onto dispatch-of-sadaqa-collectors.
+- Batches 11-12 (حجة الوداع من ص248: شكوى جند علي، الخطبة، قائمتا الغزوات والسرايا pp. 248-257): event/complaint-against-ali-after-yemen (perspectives sunni / shia-twelver), farewell-sermon-at-arafat and work/farewell-sermon extended with Ibn Ishaq's full account (Rabi'a ibn Umayya repeating, the calendar passage, the women passage, the «قد بلّغت» close), question on the calendar in the sermon, person/amr-ibn-kharija, expedition-of-usama (Ibn Hisham's placement), letters-to-rulers-and-kings (Ibn Hisham's recap of the apostles pp. 254-255), concept/khilaf-adad-al-maghazi with prose, datasets ibn-ishaq-ghazawat-list (27 rows) and ibn-ishaq-saraya-list (rows grow with the sariya batches).
 
 ## Doubt markers, batches 8-9a (pp. 199-231)
 
@@ -64,9 +68,22 @@
 - event/assassination-attempt-of-amir-and-arbad: Ibn Ishaq's «عدو الله» and «شياطينهم» attributed, not in the museum's voice; the death events keep «بعث الله عليه الطاعون/الصاعقة» as the tradition's narrative.
 - event/capture-and-release-of-hatims-daughter: captives of Tayy held in an enclosure by the mosque; sensitivity slavery-and-freedom.
 
+## Doubt markers, batches 9b-12 (pp. 232-257)
+
+- p232 «قال ابن هشام: الأشعث من ولد آكل المرار من قبل النساء»; p233 Akil al-Murar «معاوية بن كندي، ويقال كندة» (Ibn Hisham); p234 Surad's campaign «فيما بلغني»; p235 n. on Shakar's vowelling; p236 the Himyar letter's date «بعد تبوك» and the addressees' names in the MSS (al-Harith / Nu'aym ibn Abd Kulal, al-Nu'man qayl Dhi Ru'ayn).
+- p237 Mu'adh's charge via Abdullah ibn Abi Bakr (no isnad beyond him); p238 Farwa's verses: two MS readings noted by the editors; Afra «من أرض فلسطين» placed under al-Sham for want of a place entity.
+- p239 Khalid's letter «فيما بلغني»; p240-241 the six delegates' names vary in the MSS (Yazid ibn Abd al-Madan / ibn al-Muhajjal); p242 Amr ibn Hazm's charge «فيما بلغني» and the date «بعد ذلك» undated; p244 Malik ibn al-Namt's poem «ويروى ... » for one line; p245 the dream: «ويقال: الكذابان» two readings of the bracelets' interpretation; p246 the collectors' list order differs between MSS; p247 Musaylima's letter read in Ibn Hisham's own transmission (not Ibn Ishaq).
+- p248-249 the complaint against Ali: Ibn Ishaq via Yahya ibn Abdullah ibn Abd al-Rahman from his father (anonymous soldier); p250 n. on «لا ترجعن بعدي كفاراً» MS variants; p251 «قال ابن هشام: ويقال ...» on the Nasi' passage; p252 Rabi'a's repetition «فيما بلغني»; p254-255 Ibn Hisham's own recap of the apostles, not Ibn Ishaq's text; p256-257 Ibn Hisham counts 27 ghazawat, 9 fought, and the saraya «ثمان وثلاثون» with «وبعض الناس يقدم غزوة حمزة».
+
+## Tier A for review (batches 9b-12)
+
+- event/mission-of-khalid-to-banu-al-harith: the threat «لألقيت رؤوسكم تحت أقدامكم» is attributed to the Prophet in Ibn Ishaq's text and left as reported speech.
+- event/musaylimas-letter-and-the-prophets-reply: the reply's wording and Ibn Hisham's transmission.
+- event/complaint-against-ali-after-yemen: perspectives (Sunni reading of the soldiers' complaint vs the Twelver reading as prelude to Ghadir), both marked needs_source for the second voice.
+
 ## Next step
 
-Batch 9b (pp. 232-238: Kinda and al-Ash'ath, Surad and Jurash, the letter of Himyar's kings as a work, Mu'adh's charge, Farwa al-Judhami's verses), then 9c (pp. 239-247: Khalid and Banu al-Harith ibn Ka'b, the charge to Amr ibn Hazm as a work, Rifa'a, Hamdan, the two liars, the collectors, Musaylima's letter), then batches 10-14, 17, 19-22 in the plan's order. Pages 182-199 (batch 17) are still untouched.
+Batch 13 (pp. 257-274: Ghalib / Banu al-Mulawwah, Zayd / Judham, Zayd / Fazara and Umm Qirfa [Tier A], al-Yasir ibn Rizam, Khalid al-Hudhali, Uyayna / Banu al-Anbar, Ghalib / Banu Murra and Mirdas, Dhat al-Salasil), then 14 (pp. 275-291), 17 (pp. 182-199), 19-22 (pp. 291-322), 23 (indexes).
 
 ## Doubt markers, batch 7 (pp. 173-181)
 

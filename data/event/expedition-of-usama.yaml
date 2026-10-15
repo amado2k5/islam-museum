@@ -10,12 +10,14 @@ themes: [wars-and-campaigns, skirmishes-raids-expeditions]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0632-04~", hijri: "0011-02", calendar: julian, precision: month, status: tradition }
+  start: { edtf: "0632-05~", hijri: "0011-02", calendar: julian, precision: month, status: tradition, note: "عند ابن إسحاق: أقام بالمدينة بقية ذي الحجة والمحرم وصفر ثم ضرب البعث (ص253)؛ الرحيق: صفر 11هـ (ص463).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/al-jurf }
-  - { type: had_participant, target: person/usama-ibn-zayd }
-  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/usama-ibn-zayd, role: "أمير البعث", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, role: "ضرب البعث وأمّر أسامة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/muhajirun, role: "أوعب معه المهاجرون الأولون", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/battle-of-mutah }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 253, 291; al-Raheeq al-Makhtum p. 463", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-11" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 253, 291" }

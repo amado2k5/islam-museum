@@ -16,6 +16,8 @@ relations:
   - { type: mentions, target: person/muhammad }
   - { type: mentions, target: person/abbas-ibn-abd-al-muttalib, note: "أول ربا وُضع: ربا العباس بن عبد المطلب", sources: [source/sahih-muslim] }
   - { type: mentions, target: event/farewell-sermon-at-arafat }
+  - { type: mentions, target: concept/nasi, note: "فقرة النسيء واستدارة الزمان (ابن هشام ص251)", sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/rabia-ibn-umayya-ibn-khalaf, note: "الصارخ بها في الناس (ص252)", sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "al-Raheeq al-Makhtum pp. 459-462; Sahih Muslim bab hajjat al-nabi", generated_by: "Devin", model: "SWE-2 High", run: "raheeq-batch-23" }
-sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira, source/sahih-al-bukhari]
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira, source/sahih-al-bukhari, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

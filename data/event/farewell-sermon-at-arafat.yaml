@@ -10,15 +10,17 @@ themes: [pilgrimages-and-mass-gatherings, conferences-and-declarations]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0632-03", hijri: "0010-12-09", calendar: julian, precision: month, status: tradition }
+  start: { edtf: "0632-03", hijri: "0010-12-09", calendar: julian, precision: month, status: tradition, note: "يوم عرفة عند الرحيق (ص459)؛ ابن إسحاق يورد الخطبة بعد قوله: ثم مضى على حجه فأرى الناس مناسكهم (ص250)، والصارخ بها بعرفة (ص252).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa] }
 relations:
   - { type: occurred_at, target: place/arafat }
   - { type: had_participant, target: person/muhammad }
-  - { type: had_participant, target: person/rabia-ibn-umayya-ibn-khalaf }
+  - { type: had_participant, target: person/rabia-ibn-umayya-ibn-khalaf, role: "الصارخ بكلام النبي في الناس", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/amr-ibn-kharija, role: "سمع النبي من تحت ناقته بعرفة", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/bilal-ibn-rabah }
   - { type: had_participant, target: person/umar-ibn-al-khattab }
   - { type: had_participant, target: person/usama-ibn-zayd }
   - { type: part_of, target: event/farewell-pilgrimage }
   - { type: mentions, target: work/farewell-sermon }
-sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 250-253; al-Raheeq al-Makhtum pp. 458-462", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-11" }
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-sira, source/zad-al-maad, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 250-253" }

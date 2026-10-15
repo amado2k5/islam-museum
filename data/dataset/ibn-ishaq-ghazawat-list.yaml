@@ -1,0 +1,17 @@
+id: dataset/ibn-ishaq-ghazawat-list
+class: dataset
+label: { ar: "جملة غزوات النبي بحسب ابن إسحاق", en: "Ibn Ishaq's enumeration of the Prophet's expeditions" }
+summary:
+  ar: "قائمة ابن إسحاق، في رواية زياد البكائي عن ابن هشام، بما غزاه النبي بنفسه: سبع وعشرون غزوة من ودّان إلى تبوك على ترتيبه، قاتل منها في تسع: بدر وأحد والخندق وقريظة والمصطلق وخيبر والفتح وحنين والطائف."
+  en: "Ibn Ishaq's list, in Ziyad al-Bakka'i's transmission through Ibn Hisham, of the expeditions the Prophet led in person: twenty-seven from Waddan to Tabuk in his order, nine of them with fighting: Badr, Uhud, the Trench, Qurayza, al-Mustaliq, Khaybar, the Conquest, Hunayn and al-Ta'if."
+wings: [time]
+periods: [period/prophetic-era]
+regions: [arabia]
+rows_file: datasets/ibn-ishaq-ghazawat-list.csv
+license: CC0
+source: source/ibn-hisham-saqqa
+columns: [order, name_ar, note_ar, fought, event_id, printed_page]
+coverage: { printed_pages: "256", ghazawat: 27, with_fighting: 9 }
+method_note: "الترتيب والأسماء والملاحظات (ودّان وهي الأبواء، بواط من ناحية رضوى، العشيرة من بطن ينبع، بدر الأولى يطلب كرز بن جابر…) كما طُبعت في ص256؛ عمود event_id يشير إلى المدخل الموجود في المتحف إن وُجد، وفارغ إن لم يوجد بعد."
+sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 256" }
