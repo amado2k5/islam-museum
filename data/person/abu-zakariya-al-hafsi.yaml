@@ -1,0 +1,36 @@
+id: person/abu-zakariya-al-hafsi
+class: person
+label:
+  ar: أبو زكريا الحفصي
+  en: Abu Zakariya al-Hafsi
+summary:
+  ar: أبو زكريا يحيى بن أبي محمد بن الشيخ أبي حفص الهنتاتي، مؤسس الدولة الحفصية بإفريقية؛ أمير موحدي مخلص حتى خلع المأمون دعوة المهدي، فخلع طاعته بإفريقية سنة 627هـ واستبد بها، وجدّد دولة آل حفص التي ملكت تونس نحو ثلاثة قرون.
+  en: Abu Zakariya Yahya ibn Abi Muhammad, grandson of the shaykh Abu Hafs al-Hintati, founder of the Hafsid state in Ifriqiya; a loyal Almohad amir until al-Ma'mun abjured the Mahdi's creed, whereupon he threw off his allegiance in 627 AH and seized Ifriqiya, founding the Hafsid house that ruled Tunis some three centuries.
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "1249", hijri: "0647", calendar: julian, precision: year, status: tradition, derived: true, note: "مؤسس الدولة الحفصية؛ وفاته سنة 647هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: founder_of
+  target: polity/hafsid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/hafsid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة المأمون بن المنصور وأخبار الحفصيين، ص1684 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
