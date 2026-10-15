@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.230"
-label: { ar: "الموطأ 1.230", en: "Muwatta 1.230" }
+label: { ar: "الموطأ 230 — ما لي أنازع القرآن؟", en: "Muwatta 230" }
+text: "هل قرأ معي منكم أحد آنفاً؟ فقال رجل: نعم أنا يا رسول الله. فقال: إني أقول ما لي أنازع القرآن"
 summary:
-  ar: "ابن أكيمة الليثي عن أبي هريرة: انصرف النبي ﷺ من صلاة جهر فيها بالقراءة فسأل هل قرأ معه أحد؛ تفاصيل الجواب تحتاج مراجعة."
+  ar: "يرويه يحيى عن مالك عن ابن شهاب عن ابن أكيمة الليثي عن أبي هريرة، في باب ترك القراءة خلف الإمام فيما جهر فيه: انصرف النبي من صلاة جهر فيها بالقراءة وسأل هل قرأ معه أحد، فأجاب رجل بنعم، فقال النبي إنه يقول في نفسه: ما لي أُنازع القرآن؟ فانتهى الناس عن القراءة معه فيما يجهر فيه حين سمعوا ذلك. ويخرّجه المحقق عند أبي داود (826) والترمذي (312) والنسائي (2/140) وابن حبان (1849) وأحمد والشافعي والبخاري في القراءة خلف الإمام من طرق أصحاب مالك، ويحيل على التمهيد (11/23). {cite:muwatta-maruf-1997 p.139}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 230 of kitab al-salat at PDF p. 139", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-12" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-ukayma-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 230 at PDF p. 139; باب ترك القراءة خلف الإمام فيما جهر فيه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b10" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الجواب تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 139; matn excerpt at most 40 words" }

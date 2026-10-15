@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.250"
-label: { ar: "الموطأ 1.250", en: "Muwatta 1.250" }
+label: { ar: "الموطأ 250 — مثله عن ابن شهاب عن سعيد بن المسيب وأبي سلمة، واضطراب الزهري في حديث ذي اليدين", en: "Muwatta 250" }
 summary:
-  ar: "ابن شهاب عن سعيد بن المسيب وأبي سلمة: مثل ما سبق في سجود السهو."
+  ar: "يرويه مالك عن ابن شهاب عن سعيد بن المسيب وعن أبي سلمة بن عبد الرحمن مثل الحديث السابق مرسلاً؛ وهو في باب ما يفعل من سلم من ركعتين ساهياً. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وينقل عن ابن عبد البر أنه لم يسنده عن مالك إلا عبد الحميد بن سليمان فرواه عن سعيد عن أبي هريرة، وأن الزهري اضطرب في حديث ذي اليدين اضطراباً شديداً أوجب عند أهل العلم بالنقل تركه من روايته خاصة، وقوله: لا أعلم أحداً من أهل العلم المنصفين عوّل على حديث ابن شهاب في قصة ذي اليدين، فالغلط لا يسلم منه أحد، وكل أحد يؤخذ من قوله ويترك إلا النبي (التمهيد 1/366، 7/55). {cite:muwatta-maruf-1997 p.149}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 250 of kitab al-salat at PDF p. 149", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-13" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 250 at PDF p. 149; باب ما يفعل من سلم من ركعتين ساهياً", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b10" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 149; matn excerpt at most 40 words" }

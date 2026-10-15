@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.233"
-label: { ar: "الموطأ 1.233", en: "Muwatta 1.233" }
+label: { ar: "الموطأ 233 — إذا قال أحدكم آمين وقالت الملائكة في السماء آمين", en: "Muwatta 233" }
+text: "إذا قال أحدكم: آمين، وقالت الملائكة في السماء: آمين، فوافقت إحداهما الأخرى، غفر له ما تقدم من ذنبه"
 summary:
-  ar: "أبو هريرة عن النبي ﷺ: إذا قال أحدكم آمين والملائكة في السماء قالت آمين، فوافق تأمينه تأمينهم غُفر له."
+  ar: "يرويه مالك عن أبي الزناد عن الأعرج عن أبي هريرة، في باب ما جاء في التأمين خلف الإمام: أخبر النبي أن من قال آمين فوافق تأمينه تأمين الملائكة في السماء غُفر له ما تقدم من ذنبه. ويخرّجه المحقق عند البخاري (781) والنسائي (2/144) وأحمد والشافعي والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (18/348). {cite:muwatta-maruf-1997 p.141}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 233 of kitab al-salat at PDF p. 141", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-12" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/maghfira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 233 at PDF p. 141; باب ما جاء في التأمين خلف الإمام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b10" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 141; matn excerpt at most 40 words" }
