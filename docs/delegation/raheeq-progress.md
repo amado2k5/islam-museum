@@ -14,7 +14,7 @@
 | Chapter | Pages | State |
 |---|---|---|
 | 1 موقع العرب وأقوامها | 15–22 | **done**: 1a `bcebba1f` (17 new entities), 1b `9b15fd0e` (21 tribal groups), 1c `6f4975da` (lineage persons, Ibrahim-cycle events, Nabataean polity, 9 appended sections) |
-| 2 الحكم والإمارة في العرب | 23–34 | **in progress**: 2a (7 polities, 6 events incl. new first-abyssinian-occupation, concept/pre-islamic-political-condition, place/sirwah, Yemen/Marib/Hira/Sham, Marib dam) |
+| 2 الحكم والإمارة في العرب | 23–34 | **in progress**: 2a pushed (`d5147463`: 7 polities, 6 events, political-condition concept, Sirwah, Yemen/Marib/Hira/Sham, dam), 2b (kings and chiefs of Yemen, Hira and Sham: 11 rewritten, 5 new persons, Daja'ima, Shayban, Mazdak, Anushirvan, Abraha section), 2c (Mecca: Qusayy and the offices) next |
 | 3 ديانات العرب / الحالة الدينية | 35–42 | pending |
 | 4 صور من المجتمع الجاهلي | 43–47 | pending |
 | 5 نسب النبي وأسرته | 48–53 | pending |

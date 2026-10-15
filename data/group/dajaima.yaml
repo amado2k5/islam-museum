@@ -1,0 +1,23 @@
+id: group/dajaima
+class: group
+kind: clan
+label: { ar: "الضجاعمة (بنو سليح)", en: "The Daja'ima (Banu Salih)" }
+summary:
+  ar: "بنو ضجعم بن سليح بن حلوان من قضاعة، بطون نزلت مشارف الشام في عهد الهجرات فاصطنعهم الرومان ليمنعوا عرب البرية من العبث وليكونوا عدة ضد الفرس، وولّوا منهم ملكاً تعاقب الملك فيهم سنين؛ من أشهر ملوكهم زياد بن الهبولة، وزمنهم من أوائل القرن الثاني الميلادي إلى نهايته تقريباً، وانتهت ولايتهم بغلبة آل غسان."
+  en: "Banu Dajam ibn Salih ibn Hulwan of Quda'a, who settled the Syrian marches in the age of migrations and were set up by the Romans as kings to hold back the desert Arabs and serve against Persia; Ziyad ibn al-Habula was their most famous king, their era runs from the early second century CE to about its end, and the Ghassanids displaced them."
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: part_of, target: group/qudaa, note: "من بني سليح بن حلوان من قضاعة.", sources: [source/mubarakpuri-raheeq] }
+  - { type: lived_in, target: place/al-sham, sources: [source/mubarakpuri-raheeq] }
+  - { type: allied_with, target: polity/byzantine-empire, note: "اصطنعهم الرومان ملوكاً على عرب الشام.", sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص25–28 و40 نقلاً عن محاضرات تاريخ الأمم الإسلامية للخضري 1/29–34 وتاريخ أرض القرآن 2/80–82 وتفهيم القرآن 6/297–298"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2b"
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/tarikh-ard-al-quran]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 27" }

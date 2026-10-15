@@ -1,0 +1,18 @@
+---
+id: person/khosrow-i-anushirvan
+lang: ar
+source_lang: ar
+translators: []
+---
+
+## موجز
+كسرى أنوشروان ملك [[polity/sasanian-empire|الفرس]] الذي خلف قباذ بن فيروز؛ كان يكره المذهب المزدكي جداً فقتل [[person/mazdak|مزدك]] وكثيراً ممن دان بمذهبه، وأعاد [[person/al-mundhir-ibn-ma-al-sama|المنذر بن ماء السماء]] إلى ولاية [[place/al-hira|الحيرة]] {cite:mubarakpuri-raheeq p.26} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/29-32}.
+
+## الحارث الكندي
+طلب كسرى [[person/al-harith-ibn-amr-al-kindi|الحارث بن عمرو الكندي]] الذي كان قباذ ولّاه الحيرة، لكنه أفلت إلى ديار كلب فبقي فيهم حتى مات {cite:mubarakpuri-raheeq p.26}.
+
+## ما لم يُذكر هنا
+ما يذكره الطبري من أخبار ملكه في بيانات هذا المدخل؛ وكسرى الذي حبس النعمان بن المنذر ملك آخر لا يسميه الرحيق.
+
+## للزوار الصغار
+أنوشروان ملك فارس المشهور بالعدل عند العرب؛ قتل مزدك وأعاد ملك الحيرة إلى مكانه.

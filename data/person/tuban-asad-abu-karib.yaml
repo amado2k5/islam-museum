@@ -1,0 +1,29 @@
+id: person/tuban-asad-abu-karib
+class: person
+label: { ar: "تبّان أسعد أبو كرب", en: "Tuban As'ad Abu Karib" }
+names:
+  - { kind: full, lang: ar, value: "تبّان أسعد أبو كرب الحميري" }
+  - { kind: alternate, lang: ar, value: "تبّع أبو كرب" }
+gender: male
+roles: [ruler]
+faith: [{ value: jewish, basis: tradition, note: "اعتنق اليهودية بيثرب وجاء بحبرين من بني قريظة إلى اليمن (الرحيق ص40).", sources: [source/mubarakpuri-raheeq] }]
+summary:
+  ar: "ملك حمير الذي دخلت اليهودية في اليمن من قبله: ذهب مقاتلاً إلى يثرب واعتنق هناك اليهودية وجاء بحبرين من بني قريظة إلى اليمن فأخذت اليهودية إلى التوسع والانتشار فيها؛ وابنه يوسف ذو نواس صاحب أخدود نجران، في رواية الرحيق المختوم."
+  en: "The Himyarite king through whom Judaism entered Yemen: he went to fight at Yathrib, adopted Judaism there and brought two rabbis of Banu Qurayza back to Yemen, where Judaism then spread; his son Yusuf Dhu Nuwas was the king of the Najran trench, in al-Raheeq al-Makhtum's account."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/himyar, sources: [source/mubarakpuri-raheeq] }
+  - { type: ruler_of, target: place/yemen, sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran] }
+  - { type: parent_of, target: person/dhu-nuwas, sources: [source/mubarakpuri-raheeq] }
+  - { type: traveled_to, target: place/medina, note: "ذهب مقاتلاً إلى يثرب واعتنق هناك اليهودية.", sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص25–28 و40 نقلاً عن محاضرات تاريخ الأمم الإسلامية للخضري 1/29–34 وتاريخ أرض القرآن 2/80–82 وتفهيم القرآن 6/297–298"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2b"
+sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 40" }
