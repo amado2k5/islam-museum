@@ -1,31 +1,38 @@
 id: person/farwa-ibn-musayk
 class: person
-label:
-  ar: فروة بن مسيك المرادي
-  en: Farwa ibn Musayk al-Muradi
+label: { ar: "فروة بن مسيك المرادي", en: "Farwa ibn Musayk al-Muradi" }
 names:
-  - { kind: full, lang: ar, value: فروة بن مسيك المرادي }
+  - { kind: full, lang: ar, value: "فروة بن مسيك المرادي" }
+  - { kind: kunya, lang: ar, value: "أبو عمير (في هجاء عمرو بن معدي كرب له)" }
 gender: male
-roles: [companion]
+roles: [companion, poet, politician]
 traditions: [sunni]
 summary:
-  ar: "مرادي؛ بعثه النبي مع قيس بن هبيرة المكشوح إلى اليمن لقتال الأسود العنسي واستمالة الأبناء، فبلغهما باليمن وفاة النبي."
-  en: "A Muradi; the Prophet sent him with Qays ibn Hubayra al-Makshuh to Yemen to fight al-Aswad al-Ansi and win over the Abna', news of the Prophet's death reaching them on arrival."
-periods:
-- period/prophetic-era
-- period/rashidun
-regions:
-- arabia
+  ar: "سيد من مراد وشاعر؛ قدم على النبي مفارقاً لملوك كندة فأسلم، وسأله النبي عن يوم الردم الذي أثخنت فيه همدان قومه، واستعمله على مراد وزبيد ومذحج كلها وبعث معه خالد بن سعيد على الصدقة؛ وارتد عليه عمرو بن معدي كرب بعد وفاة النبي وهجاه. ويذكر البلاذري أن النبي بعثه مع قيس بن المكشوح إلى اليمن لقتال الأسود العنسي."
+  en: "A chief of Murad and poet; he came to the Prophet breaking with the kings of Kinda and embraced Islam, the Prophet asked him about the Day of al-Radm on which Hamdan had crushed his people, and set him over Murad, Zubayd and all Madhhij with Khalid ibn Sa'id sent with him over the sadaqa; after the Prophet's death Amr ibn Ma'dikarib rebelled against him and satirised him. Al-Baladhuri adds that the Prophet sent him with Qays ibn al-Makshuh to Yemen against al-Aswad al-Ansi."
+wings: [people]
+themes: [converts-and-leavers, literature]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "قدم مفارقاً لملوك كندة فأسلم (ابن هشام ص228-229).", sources: [source/ibn-hisham-saqqa] }
+  - { role: official, start: { edtf: "0631~" }, status: tradition, note: "استعمله النبي على مراد وزبيد ومذحج كلها (ابن هشام ص229).", sources: [source/ibn-hisham-saqqa] }
+  - { role: poet, status: tradition, note: "شعره في يوم الردم وفي مسيره إلى النبي (ابن هشام ص228-229).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم على يد النبي (ابن هشام ص229).", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: member_of, target: group/murad, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-al-radm, role: "من مراد؛ شاعر اليوم", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-farwa-ibn-musayk, role: "الوافد", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/farwa-ibn-musayk-poems, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/apostasy-of-amr-ibn-madikarib, role: "المهجوّ", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/killing-of-al-aswad-al-ansi, sources: [source/futuh-buldan-maarif-1407] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: own-research
-  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 147"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-futuh-buldan-batch-6
-sources:
-- source/futuh-buldan-maarif-1407
-status:
-  review: draft
-  completeness: 1
-  generated_by: "Devin (SWE-2 High)"
+  source: "سيرة ابن هشام (السقا 1936) ج4 ص228-231؛ فتوح البلدان (ط مؤسسة المعارف 1407هـ) ص147"
+  generated_by: "Devin (SWE-2 High); extended by Claude Code"
+  model: "claude-fable-5-1"
+  run: "ibn-hisham-batch-9a"
+sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High) from Futuh al-Buldan; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 228-231" }

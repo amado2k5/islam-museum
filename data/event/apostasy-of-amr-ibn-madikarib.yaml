@@ -1,0 +1,21 @@
+id: event/apostasy-of-amr-ibn-madikarib
+class: event
+kind: defection
+label: { ar: "ارتداد عمرو بن معدي كرب بعد وفاة النبي", en: "Amr ibn Ma'dikarib's apostasy after the Prophet's death" }
+summary:
+  ar: "أقام عمرو بن معدي كرب في قومه من بني زبيد وعليهم فروة بن مسيك، فلما توفي النبي ارتد وقال بيتين يذم فيهما ملك فروة ويكنّيه أبا عمير؛ ثم أُسر في الردة وعاود الإسلام فيما يرويه ابن حجر عن سيف."
+  en: "Amr ibn Ma'dikarib stayed among Banu Zubayd under Farwa ibn Musayk; when the Prophet died he apostatised and said two verses disparaging Farwa's rule, calling him Abu Umayr. He was later captured in the ridda and returned to Islam, as Ibn Hajar reports from Sayf."
+wings: [time, people]
+themes: [converts-and-leavers, civil-wars-and-revolts]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0632", hijri: "0011", calendar: julian, precision: year, status: tradition, note: "«فلما توفي رسول الله ارتد» (ص231)؛ الإصابة ص1130.", sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba] }
+relations:
+  - { type: part_of, target: event/ridda-wars, sources: [source/ibn-hajar-isaba] }
+  - { type: had_participant, target: person/amr-ibn-madikarib, role: "المرتد ثم العائد", sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba] }
+  - { type: had_participant, target: person/farwa-ibn-musayk, role: "المهجوّ في بيتيه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-zubayd, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 231", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 231" }

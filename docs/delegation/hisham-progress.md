@@ -2,7 +2,7 @@
 
 **Lane:** hisham
 **Book:** السيرة النبوية لابن هشام — الجزء الرابع (السقا والأبياري وشلبي، 1936); printed page = PDF page - 4
-**Sessions:** kiro (2026-10-11), Claude Sonnet 5.5 (2026-10-12, worktree `islam-museum-kiro`)
+**Sessions:** kiro (2026-10-11), Claude Sonnet 5.5 (2026-10-12, worktree `islam-museum-kiro`), Claude Fable 5.1 (2026-10-15, worktree `gallant-lewin-a0a7bd`, branch `content/ibn-hisham-182-358`, lane 2 of `held-back-content.md` under `docs/sources-policy.md`)
 
 ## Status
 
@@ -40,9 +40,33 @@
 - p5 vs p11: Rayta bint al-Harith died in Abyssinia (p5) or on the road (p11); unresolved, recorded as debated.
 - Page-image corrections: جعفر (p3, verified on image), Abu al-Rum ibn Umayr and Firas ibn al-Nadr (p7, OCR line garbled), Umm Habiba's daughter Habiba (p6).
 
+- Batch 8 (الوفود ١ pp. 199-223), pushed to main (97ecf895), first batch under the sources policy of 15 Oct 2026 (classical text and editors' apparatus read and rewritten, every sentence cited):
+  - 8a: event/delegation-of-banu-tamim with full prose (the shouting from behind the apartments, Utarid's speech and Thabit's reply, the Zibriqan/Hassan exchange, al-Aqra's verdict, Amr ibn al-Ahtam and Qays ibn Asim); 8 poem works with own-words accounts (Hassan's three poems closing Bara'a pp. 199-204, Zibriqan's two boasts, Hassan's two replies, Amr's satire); persons al-Hutat ibn Yazid (the brother-pact list of Muhajirun pairs, Farazdaq's verses), Nu'aym ibn Yazid, Qays ibn al-Harith; groups Banu Darim, Banu Minqar; Banu Tamim prose; passage edge 49:4.
+  - 8b: Amir/Arbad (event extended with Ibn Ishaq's version, new death events for each, Jabbar ibn Salma, groups Banu Amir ibn Sa'sa'a and Banu Salul, Labid's six elegies as one work, passage edges 13:8, 13:11, 13:13 via Ibn Hisham <- Zayd ibn Aslam <- Ata' <- Ibn Abbas); Dimam (event with Ibn Ishaq's isnad to Ibn Abbas, group Banu Sa'd ibn Bakr); Abd al-Qays (event extended, al-Jarud enriched with his three names and the ridda stand, al-Gharur ibn al-Mundhir, al-Mundhir ibn Sawa and the event of al-Ala's mission); Banu Hanifa (event extended with both of Ibn Ishaq's accounts, event/musaylima-claims-prophethood with perspectives); question/why-is-9-ah-the-year-of-delegations.
+  - Repairs: group/banu-amir (Quraysh clan) was wrongly used for Banu Amir ibn Sa'sa'a in three files; person/jarud-ibn-al-ala aliased into person/al-jarud-al-abdi; Musaylima's perspectives now cite sources; three stubs removed.
+- Batch 9 (الوفود ٢ pp. 224-247), in progress on `content/ibn-hisham-182-358`:
+  - 9a (pp. 224-231): event/delegation-of-tayy, places Fayd and Farda, Zayd al-Khayl extended (death at Farda, the burned writs); event/islam-of-adi-ibn-hatim with the whole dialogue and the three prophecies, event/capture-and-release-of-hatims-daughter, person/safana-bint-hatim (name from al-Suhayli via the editors), Adi extended (faith christian then sunni, the Rakusiyya note); event/battle-of-al-radm (leader of Hamdan debated: al-Ajda' ibn Malik vs Malik ibn Harim), event/delegation-of-farwa-ibn-musayk, work/farwa-ibn-musayk-poems, group/murad, Madhhij and Banu Zubayd prose, Khalid ibn Sa'id's posting; event/delegation-of-zubayd (Amr ibn Ma'dikarib; perspectives on whether he met the Prophet), work/amr-ibn-madikarib-poem-to-qays-ibn-makshuh, event/apostasy-of-amr-ibn-madikarib, Qays ibn Makshuh prose. Duplicate person/amr-ibn-madi-karib (Futuh/Muruj) merged into person/amr-ibn-madikarib as an alias. group/tayy arrived from the raheeq lane during the rebase: kept theirs, appended the Ibn Hisham section.
+
+## Doubt markers, batches 8-9a (pp. 199-231)
+
+- p199 «قال ابن هشام: وتروى لابنه عبد الرحمن بن حسان» (the maghazi poem); p200, p201, p216, p219 «عن غير ابن إسحاق» lines; p204 Abu Zayd al-Ansari's readings; p204 n.8 end of the sira's juz' 18.
+- p206 الحبحاب / الحتات (Ibn Hisham), n.1 MSS «زيد» and one MS merging him with Amr ibn al-Ahtam; p207 n.1 al-Aqra's nasab variant; p209 «ويروى» two Zibriqan readings «رواه لي بعض بني تميم، وأكثر أهل العلم بالشعر ينكرها للزبرقان»; p211 the second Zibriqan poem from «بعض أهل العلم بالشعر من بني تميم»; p213 «بقي بيت واحد تركناه لأنه أقذع فيه».
+- p213 n.3 Arbad «ابن جزء» vs Abu Dharr «جزي» vs Abu Ubayd/Ibn al-Kalbi «ابن جزء»; p214 «قال ابن هشام: ويقال أغدة كغدة الإبل وموتاً في بيت سلولية»; p214 n.2 «خالني» two readings; p215 Ibn Hisham's isnad to Ibn Abbas for 13:8-13; p215 n.1 «يبيعه».
+- p220 n.1 «فلا تحدث بها علي»; p220 n.3 «بئست» (Sharh al-Mawahib) vs MSS «باست»; Dimam's year (Waqidi 5 / Ibn Hajar 9).
+- p221 al-Jarud ibn Amr ibn Hanash (Ibn Ishaq) / ibn Bishr ibn al-Mu'alla (Ibn Hisham) / ibn al-Ala' (Raheeq); n.2 «الحسن» vs «الحسين»; p222 «ويروى: وأكفي من لم يشهد»; n.1 «صليباً»; n.2 al-Suhayli on al-Gharur's name.
+- p222 Musaylima ibn Habib (Ibn Ishaq) / ibn Thumama, Abu Thumama (Ibn Hisham); p223 two accounts of his presence, «فالله أعلم أي ذلك كان».
+- p224 «فلم يثبته» (the name the Prophet gave the fever); p225 الجوشية / الحوشية (Ibn Hisham), n.4 Safana via al-Suhayli; p227 bracketed additions from MS ١; p228 Hamdan's leader (Ibn Ishaq vs Ibn Hisham); p229 Abu Ubayda's reading of Farwa's line, «أول بيت منها وقوله فإن نغلب عن غير ابن إسحاق»; p231 Abu Ubayda's three lines «ولم يعرف سائرها», «بثفر» from Abu Ubayda.
+- Page-image verified: p206 (the delegation names), p213 (Arbad's nasab and the footnote), p221 (al-Jarud's two names, the Hasan/Husayn note).
+
+## Tier A for review (batches 8-9a)
+
+- event/musaylima-claims-prophethood: perspectives (two Sunni accounts, al-Mubarakpuri, academic needs_source).
+- event/assassination-attempt-of-amir-and-arbad: Ibn Ishaq's «عدو الله» and «شياطينهم» attributed, not in the museum's voice; the death events keep «بعث الله عليه الطاعون/الصاعقة» as the tradition's narrative.
+- event/capture-and-release-of-hatims-daughter: captives of Tayy held in an enclosure by the mosque; sensitivity slavery-and-freedom.
+
 ## Next step
 
-Batch 8 (الوفود ١ pp. 200-222). Pages 182-199 (وفد ثقيف، حج أبي بكر، براءة; batch 17) are untouched.
+Batch 9b (pp. 232-238: Kinda and al-Ash'ath, Surad and Jurash, the letter of Himyar's kings as a work, Mu'adh's charge, Farwa al-Judhami's verses), then 9c (pp. 239-247: Khalid and Banu al-Harith ibn Ka'b, the charge to Amr ibn Hazm as a work, Rifa'a, Hamdan, the two liars, the collectors, Musaylima's letter), then batches 10-14, 17, 19-22 in the plan's order. Pages 182-199 (batch 17) are still untouched.
 
 ## Doubt markers, batch 7 (pp. 173-181)
 

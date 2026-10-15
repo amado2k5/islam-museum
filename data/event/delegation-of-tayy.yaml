@@ -1,0 +1,22 @@
+id: event/delegation-of-tayy
+class: event
+kind: gathering
+label: { ar: "قدوم زيد الخيل في وفد طيء", en: "Zayd al-Khayl comes with the delegation of Tayy" }
+summary:
+  ar: "قدم وفد طيء وفيهم سيدهم زيد الخيل، فعرض عليهم النبي الإسلام فأسلموا وحسن إسلامهم؛ وقال النبي، فيما رواه ابن إسحاق عن رجال من طيء، إنه ما ذُكر له رجل من العرب بفضل ثم جاءه إلا رآه دون ما يُقال فيه إلا زيد الخيل، وسمّاه زيد الخير وقطع له فيداً وأرضين وكتب له بذلك. وفي رجوعه أصابته الحمى بماء يقال له فردة فمات، وحرّقت امرأته كتبه."
+  en: "The delegation of Tayy came with their chief Zayd al-Khayl; the Prophet offered them Islam and they became good Muslims. The Prophet said, as Ibn Ishaq heard from men of Tayy, that every Arab praised to him fell short of the praise when he came, except Zayd al-Khayl, who exceeded it; he renamed him Zayd al-Khayr, granted him Fayd and other lands and wrote it for him. On the way home fever struck him at a water called Farda and he died, and his wife burned the Prophet's writs."
+wings: [time, people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "ضمن سنة الوفود عند ابن إسحاق (ص224)؛ الرحيق ص453.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/year-of-delegations, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "عرض الإسلام وسمّى زيداً زيد الخير وأقطعه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/zayd-al-khayl, role: "سيد الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/tayy, role: "الوفد", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 224", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 224" }

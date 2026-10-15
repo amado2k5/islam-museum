@@ -1,0 +1,36 @@
+id: event/delegation-of-zubayd
+class: event
+kind: gathering
+label: { ar: "قدوم عمرو بن معدي كرب في أناس من بني زبيد", en: "Amr ibn Ma'dikarib comes with men of Banu Zubayd" }
+summary:
+  ar: "قدم عمرو بن معدي كرب على النبي في أناس من بني زبيد فأسلم وصدّقه وآمن به؛ وكان قد دعا قيس بن مكشوح المرادي سيد قومه أن يذهبا معاً ليعلما علم الرجل القرشي الذي يقول إنه نبي، فأبى قيس وسفّه رأيه، فركب عمرو وحده؛ ثم أوعده قيس فهجاه عمرو. وأقام عمرو في قومه وعليهم فروة بن مسيك، فلما توفي النبي ارتد."
+  en: "Amr ibn Ma'dikarib came to the Prophet with men of Banu Zubayd and embraced Islam, believing in him. He had earlier urged Qays ibn Makshuh al-Muradi, chief of his people, to go together and find out about the Qurashi who claimed prophethood; Qays refused and belittled the idea, so Amr rode alone. Qays then threatened him and Amr lampooned him. Amr stayed among his people under Farwa ibn Musayk, and when the Prophet died he apostatised."
+wings: [time, people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: debated, note: "ضمن سنة الوفود عند ابن إسحاق (ص230)؛ وفي الإصابة خلاف هل لقي عمرو النبي أصلاً (ص1130).", sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/year-of-delegations, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/amr-ibn-madikarib, role: "الوافد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-zubayd, role: "الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/qays-ibn-makshuh, role: "أبى أن يذهب معه", sources: [source/ibn-hisham-saqqa] }
+  - { type: caused, target: event/apostasy-of-amr-ibn-madikarib, sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "هل وفد عمرو بن معدي كرب على النبي ولقيه؟" }
+perspectives:
+  - tradition: sunni
+    id: ibn-ishaq
+    stance: { ar: "قدم على النبي في وفد زبيد فأسلم" }
+    summary: { ar: "يروي ابن إسحاق أنه قدم على النبي في أناس من بني زبيد فأسلم وصدّقه وآمن به." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: ibn-hajar-doubt
+    stance: { ar: "قيل: لم يلق النبي وإنما قدم المدينة بعد وفاته" }
+    summary: { ar: "ينقل ابن حجر عن الخطيب قوله: «يقال إن له وفادة»، وقولاً آخر إنه لم يلق النبي وإنما قدم بعد وفاته وحضر القادسية." }
+    sources: [source/ibn-hajar-isaba]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 230-231", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 230-231" }

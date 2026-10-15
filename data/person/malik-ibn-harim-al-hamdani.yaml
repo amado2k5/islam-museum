@@ -1,0 +1,19 @@
+id: person/malik-ibn-harim-al-hamdani
+class: person
+label: { ar: "مالك بن حريم الهمداني", en: "Malik ibn Harim al-Hamdani" }
+names:
+  - { kind: full, lang: ar, value: "مالك بن حريم الهمداني" }
+gender: male
+roles: [tribal-leader]
+summary:
+  ar: "قائد همدان يوم الردم على مراد عند ابن هشام، خلافاً لابن إسحاق الذي سمّى الأجدع بن مالك."
+  en: "Leader of Hamdan on the Day of al-Radm against Murad according to Ibn Hisham, against Ibn Ishaq who names al-Ajda' ibn Malik."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-hamdan, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-al-radm, role: "قائد همدان عند ابن هشام", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 228", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 228" }

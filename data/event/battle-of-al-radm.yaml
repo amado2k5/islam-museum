@@ -1,0 +1,40 @@
+id: event/battle-of-al-radm
+class: event
+kind: battle
+label: { ar: "يوم الردم بين مراد وهمدان", en: "The Day of al-Radm between Murad and Hamdan" }
+summary:
+  ar: "وقعة قبيل الإسلام بين مراد وهمدان أصابت فيها همدان من مراد ما أرادوا حتى أثخنوهم؛ قاد همدان فيها الأجدع بن مالك عند ابن إسحاق، ومالك بن حريم الهمداني عند ابن هشام؛ وقال فيها فروة بن مسيك المرادي شعراً، وسأله النبي حين قدم عليه: هل ساءك ما أصاب قومك يوم الردم؟"
+  en: "A battle shortly before Islam between Murad and Hamdan in which Hamdan did as they wished with Murad and inflicted heavy losses; Hamdan was led by al-Ajda' ibn Malik according to Ibn Ishaq, by Malik ibn Harim al-Hamdani according to Ibn Hisham. Farwa ibn Musayk of Murad composed verses on it, and the Prophet asked him on his arrival whether what befell his people on the Day of al-Radm grieved him."
+wings: [time, people]
+themes: [battles]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "062X", calendar: julian, precision: decade, status: tradition, note: "«قبيل الإسلام» عند ابن إسحاق (ص228)؛ لا يذكر الكتاب سنة، والعقد تقريبي يحتاج مصدراً ثانياً (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: had_participant, target: group/murad, role: "المغلوبون", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-hamdan, role: "الغالبون", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-ajda-ibn-malik-al-hamdani, role: "قائد همدان عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/malik-ibn-harim-al-hamdani, role: "قائد همدان عند ابن هشام", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/farwa-ibn-musayk, role: "من مراد؛ قال فيه شعراً", sources: [source/ibn-hisham-saqqa] }
+sides:
+  - label: { ar: "همدان", en: "Hamdan" }
+    participants: [group/banu-hamdan]
+    commanders: [person/al-ajda-ibn-malik-al-hamdani]
+  - label: { ar: "مراد", en: "Murad" }
+    participants: [group/murad]
+issue: { ar: "من قاد همدان يوم الردم؟" }
+perspectives:
+  - tradition: sunni
+    id: ibn-ishaq
+    stance: { ar: "الأجدع بن مالك" }
+    summary: { ar: "قال ابن إسحاق إن الذي قاد همدان إلى مراد في ذلك اليوم الأجدع بن مالك." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: ibn-hisham
+    stance: { ar: "مالك بن حريم الهمداني" }
+    summary: { ar: "قال ابن هشام: الذي قاد همدان في ذلك اليوم مالك بن حريم الهمداني." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 228-229", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 228-229" }

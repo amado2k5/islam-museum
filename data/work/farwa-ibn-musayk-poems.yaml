@@ -1,0 +1,22 @@
+id: work/farwa-ibn-musayk-poems
+class: work
+kind: poem
+label: { ar: "شعر فروة بن مسيك في يوم الردم وفي مسيره إلى النبي", en: "Farwa ibn Musayk's verses on the Day of al-Radm and on his journey to the Prophet" }
+summary:
+  ar: "قصيدة على روي النون قالها فروة بن مسيك المرادي في يوم الردم: إن غلبوا فغلّابون قديماً وإن غُلبوا فغير مغلَّبين، وليس طبّهم الجبن، والدهر دولته سجال، ولو خلد الملوك لخلدوا؛ وبيتان قالهما حين توجه إلى النبي مفارقاً ملوك كندة. أثبت ابن هشام أن أول القصيدة وقوله «فإن نغلب» عن غير ابن إسحاق، وأنشد عن أبي عبيدة رواية للبيت الثاني."
+  en: "A nun-rhymed poem Farwa ibn Musayk al-Muradi composed on the Day of al-Radm: if they win they have long been winners and if beaten they are not the oft-beaten, cowardice is not their way, fortune turns by turns, and had kings lived forever so would they; and two verses he said when he set out for the Prophet, leaving the kings of Kinda. Ibn Hisham marks the first line and the phrase 'if we win' as from other than Ibn Ishaq and gives Abu Ubayda's reading of the second couplet."
+genre: [poetry]
+made: { by_muslims: false, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/farwa-ibn-musayk]
+language: language/arabic
+wings: [words]
+themes: [literature, battles]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/battle-of-al-radm, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/delegation-of-farwa-ibn-musayk, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/banu-hamdan, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 228-229", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 228-229" }

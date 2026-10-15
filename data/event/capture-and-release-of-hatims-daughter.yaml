@@ -1,0 +1,23 @@
+id: event/capture-and-release-of-hatims-daughter
+class: event
+kind: other
+label: { ar: "أسر ابنة حاتم الطائي وإطلاقها", en: "The capture and release of Hatim al-Ta'i's daughter" }
+summary:
+  ar: "أصابت خيل للنبي ابنة حاتم في سبايا طيء بعد هرب أخيها عدي إلى الشام، فحُبست في حظيرة بباب المسجد؛ كلّمت النبي ثلاثة أيام: هلك الوالد وغاب الوافد فامنن علي، فأشار إليها علي بن أبي طالب أن تكلّمه، فأطلقها النبي وأمرها ألا تخرج حتى تجد من قومها ثقة، ثم كساها وحملها وأعطاها نفقة فلحقت بأخيها بالشام."
+  en: "A cavalry force of the Prophet took Hatim's daughter among the captives of Tayy after her brother Adi fled to Syria, and she was held in the enclosure by the mosque door. For three days she addressed the Prophet, the father is dead and the envoy absent, be gracious to me, until Ali ibn Abi Talib signalled her to speak again; the Prophet released her, told her to wait for trustworthy kin, then clothed her, mounted her and provisioned her, and she joined her brother in Syria."
+wings: [time, people]
+themes: [women, slavery-and-freedom, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "لا يؤرّخ ابن إسحاق الغارة؛ موضعها في سياق سنة الوفود قبل قدوم عدي (ص225)، وتضع المصادر المتأخرة سرية علي إلى الفلس في ربيع الآخر سنة 9هـ (الرحيق ص426-427).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/medina, note: "الحظيرة بباب المسجد", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/islam-of-adi-ibn-hatim, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/safana-bint-hatim, role: "الأسيرة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "أطلقها وكساها وحملها", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أشار إليها أن تكلّم النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/tayy, role: "السبايا منهم", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 225-226", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 225-226" }

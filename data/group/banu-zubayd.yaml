@@ -2,10 +2,12 @@ id: group/banu-zubayd
 class: group
 label: { en: Banu Zubayd, ar: "بنو زبيد" }
 summary:
-  ar: "قبيلة عربية؛ ذكر ابن إسحاق أن محمية بن الجزء منها حليف لبني سهم."
-  en: An Arab tribe; Ibn Ishaq records that Muhayyisa ibn al-Juzu' of it was an ally of Banu Sahm.
+  ar: "قبيلة يمانية من مذحج؛ قدم منها عمرو بن معدي كرب في أناس منها على النبي فأسلم، وكانت تحت ولاية فروة بن مسيك مع مراد ومذحج، وارتد عمرو فيها بعد وفاة النبي. وذكر ابن إسحاق أن محمية بن الجزء منها حليف لبني سهم."
+  en: "A Yemeni tribe of Madhhij; Amr ibn Ma'dikarib came from it with a party to the Prophet and embraced Islam, it was placed under Farwa ibn Musayk with Murad and Madhhij, and Amr apostatised among it after the Prophet's death. Ibn Ishaq also records that Muhayyisa ibn al-Juzu' of it was an ally of Banu Sahm."
 kind: tribe
 wings: [people]
+relations:
+  - { type: member_of, target: group/madhhij, sources: [source/ibn-hisham-saqqa] }
 periods: [period/prophetic-era]
 regions: [arabia]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 5", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-i" }

@@ -2,7 +2,7 @@ id: person/zayd-al-khayl
 class: person
 label: { en: "Zayd al-Khayl", ar: "زيد الخيل" }
 names:
-  - { kind: full, lang: ar, value: "زيد الخيل الطائي" }
+  - { kind: full, lang: ar, value: "زيد الخيل الطائي، سيد طيء" }
   - { kind: laqab, lang: ar, value: "زيد الخير" }
 gender: male
 roles: [companion, politician]
@@ -10,6 +10,7 @@ traditions: [sunni]
 summary:
   en: "Chief of Tayy' whose delegation came to Medina in the Year of Delegations; the Prophet renamed him Zayd al-Khayr ('the good') and said no Arab praised to him had ever fallen short of the praise except this man."
   ar: "سيد طيء الذي قدم في وفد قومه على النبي في عام الوفود فأسلم وحسن إسلامه؛ سمّاه النبي زيد الخير وقال: ما ذُكر لي رجل من العرب بفضل ثم جاءني إلا رأيته دون ما يُقال فيه إلا زيد الخيل."
+died: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بالحمى بماء فردة بنجد في رجوعه من المدينة (ابن هشام ص224)؛ السنة سنة الوفود.", sources: [source/ibn-hisham-saqqa] }
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
@@ -21,6 +22,10 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0631~" } }
 relations:
-  - { type: member_of, target: group/tayy }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+  - { type: member_of, target: group/tayy, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-tayy, role: "سيد الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: died_in, target: place/farda, sources: [source/ibn-hisham-saqqa] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 224; al-Raheeq al-Makhtum p. 453", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 p. 224" }

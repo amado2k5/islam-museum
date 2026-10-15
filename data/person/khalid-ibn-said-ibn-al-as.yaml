@@ -26,6 +26,7 @@ relations:
   - { type: child_of, target: person/said-ibn-al-as-abu-uhayha, sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/marj-al-suffar, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: returnee, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 3", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-5c-ii" }
+  - { type: participated_in, target: event/delegation-of-farwa-ibn-musayk, role: "بُعث مع فروة على الصدقة فأقام في بلاده حتى توفي النبي", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 3, 229", generated_by: "Claude Sonnet 5.5; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
 sources: [source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Claude Sonnet 5.5; mined from Ibn Hisham juz' 4 pp. 3-11" }

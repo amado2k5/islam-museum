@@ -1,0 +1,15 @@
+id: group/murad
+class: group
+label: { ar: "مراد", en: "Murad" }
+summary:
+  ar: "قبيلة يمانية من مذحج؛ أصابتها همدان يوم الردم قبيل الإسلام، وقدم منها فروة بن مسيك على النبي مفارقاً لملوك كندة فأسلم واستعمله النبي على مراد وزبيد ومذحج كلها؛ ومنها قيس بن مكشوح الذي أبى على عمرو بن معدي كرب أن يأتي النبي."
+  en: "A Yemeni tribe of Madhhij; Hamdan defeated it on the Day of al-Radm shortly before Islam, and Farwa ibn Musayk of Murad came to the Prophet breaking with the kings of Kinda, embraced Islam and was set over Murad, Zubayd and all Madhhij; Qays ibn Makshuh, who refused to accompany Amr ibn Ma'dikarib to the Prophet, was of Murad."
+kind: tribe
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/madhhij, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 228-230", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 228-230" }

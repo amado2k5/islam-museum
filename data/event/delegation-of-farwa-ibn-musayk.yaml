@@ -1,0 +1,24 @@
+id: event/delegation-of-farwa-ibn-musayk
+class: event
+kind: gathering
+label: { ar: "قدوم فروة بن مسيك المرادي وإسلامه", en: "Farwa ibn Musayk al-Muradi comes to the Prophet and embraces Islam" }
+summary:
+  ar: "قدم فروة بن مسيك المرادي على النبي مفارقاً لملوك كندة ومباعداً لهم، وقال في مسيره بيتين يؤم فيهما محمداً راجياً فواضله؛ فسأله النبي: هل ساءك ما أصاب قومك يوم الردم؟ وقال إن ذلك لم يزد قومه في الإسلام إلا خيراً، واستعمله على مراد وزبيد ومذحج كلها، وبعث معه خالد بن سعيد بن العاص على الصدقة، فكان معه في بلاده حتى توفي النبي."
+  en: "Farwa ibn Musayk al-Muradi came to the Prophet, breaking with the kings of Kinda, reciting two verses on the way about seeking Muhammad's favours; the Prophet asked whether what befell his people on the Day of al-Radm grieved him and said it had only increased them in Islam's good. He set him over Murad, Zubayd and all Madhhij and sent Khalid ibn Sa'id ibn al-As with him over the sadaqa, who stayed in his land until the Prophet died."
+wings: [time, people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "ضمن سنة الوفود عند ابن إسحاق (ص228)؛ لا يذكر الكتاب الشهر.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/year-of-delegations, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/farwa-ibn-musayk, role: "الوافد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "استعمله على مراد وزبيد ومذحج", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khalid-ibn-said-ibn-al-as, role: "بُعث معه على الصدقة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/murad, sources: [source/ibn-hisham-saqqa] }
+  - { type: caused_by, target: event/battle-of-al-radm, note: "سأله النبي عن يوم الردم", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 228-229", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 228-229" }
