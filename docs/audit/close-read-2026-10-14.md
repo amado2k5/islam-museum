@@ -40,36 +40,25 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 
 ## Pages needing citations (not added here)
 
+- `exhibit/path-abyssinia-migrations.md`
+- `exhibit/path-from-opposition-to-islam.md`
+- `exhibit/path-islam-in-30-minutes.md`
+- `exhibit/path-meccan-period.md`
+- `exhibit/path-women-around-the-prophet.md`
 
-## Batch 18 of 19
+## Batch 19 of 19
 
-Pages period/contemporary-era.md to source/rahma-lil-alamin.md (25 pages).
+Pages source/sifr-al-takwin.md to exhibit/path-women-around-the-prophet.md (9 pages).
 
 | Page | Result |
 |---|---|
-| `period/contemporary-era.md` | ok |
-| `period/crusades-ayyubid-mamluk.md` | ok |
-| `period/gunpowder-empires.md` | ok |
-| `period/modern-era.md` | ok |
-| `period/mongol-post-mongol.md` | ok |
-| `period/pre-islamic-arabia.md` | ok |
-| `period/prophetic-era.md` | ok |
-| `period/rashidun.md` | ok |
-| `period/umayyad.md` | ok |
-| `work/abu-khaythama-verses.md` | ok |
-| `work/al-dahhak-ibn-khalifa-verses.md` | ok |
-| `work/al-mughni.md` | ok |
-| `work/bujayr-ibn-bujra-verses.md` | ok |
-| `work/covenant-of-ayla.md` | ok |
-| `work/farewell-sermon.md` | ok |
-| `work/hatib-letter-to-quraysh.md` | ok |
-| `work/kaab-ibn-malik-account-of-tabuk.md` | ok |
-| `work/madkhal-ila-madhhab-ahmad.md` | ok |
-| `work/mukhtasar-al-kharaqi.md` | ok |
-| `work/qasidat-banat-suad.md` | ok |
-| `source/al-aalam.md` | ok |
-| `source/ikhbar-al-kiram.md` | ok |
-| `source/muhadarat-tarikh-al-umam-al-islamiyya.md` | ok |
-| `source/qalb-jazirat-al-arab.md` | ok |
-| `source/rahma-lil-alamin.md` | ok |
+| `source/sifr-al-takwin.md` | ok |
+| `source/tafhim-al-quran.md` | ok |
+| `source/tarikh-al-tabari.md` | ok |
+| `source/tarikh-ard-al-quran.md` | ok |
+| `exhibit/path-abyssinia-migrations.md` | no citation: listed for citation |
+| `exhibit/path-from-opposition-to-islam.md` | no citation: listed for citation |
+| `exhibit/path-islam-in-30-minutes.md` | no citation: listed for citation |
+| `exhibit/path-meccan-period.md` | no citation: listed for citation |
+| `exhibit/path-women-around-the-prophet.md` | no citation: listed for citation |
 
