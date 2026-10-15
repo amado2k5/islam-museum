@@ -1,0 +1,24 @@
+id: person/ibn-al-bitar-abu-muhammad-abd-allah-ibn-ahmad
+class: person
+label: { ar: "ابن البيطار أبو محمد عبد الله بن أحمد", en: "Ibn al-Bitar Abu Muhammad Abd Allah ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "أبو محمد عبد الله بن أحمد بن محمد بن أحمد بن عبد الملك المالقي" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: nisba, lang: ar, value: "المالقي" }
+  - { kind: laqab, lang: ar, value: "ابن البيطار" }
+gender: male
+roles: [physician, scientist]
+traditions: [sunni]
+died: { edtf: "1248", hijri: "0646", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم بالنبات والعقاقير والطب من أهل مالقة في الأندلس، توفي سنة 646هـ (1248م)."
+  en: "Scholar of plants, drugs and medicine from Malaga in al-Andalus; died 646 AH (1248 CE)."
+wings: [people, ideas]
+themes: [agriculture-and-botany, medicine]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 308-309, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص308", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

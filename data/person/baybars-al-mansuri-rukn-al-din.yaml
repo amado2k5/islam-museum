@@ -1,0 +1,23 @@
+id: person/baybars-al-mansuri-rukn-al-din
+class: person
+label: { ar: "بيبرس المنصوري ركن الدين", en: "Baybars al-Mansuri Rukn al-Din" }
+names:
+  - { kind: full, lang: ar, value: "الأمير ركن الدين بيبرس بن عبد الله المنصوري" }
+  - { kind: laqab, lang: ar, value: "ركن الدين" }
+  - { kind: nisba, lang: ar, value: "المنصوري" }
+gender: male
+roles: [commander, historian]
+traditions: [sunni]
+died: { edtf: "1325", hijri: "0725", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "الأمير ركن الدين بيبرس المنصوري الداوادار، أُخذ صغيراً مملوكاً إلى مصر سنة 659هـ، وصار من أمراء المماليك، وتوفي سنة 725هـ (1325م)."
+  en: "Emir Rukn al-Din Baybars al-Mansuri, the dawadar, taken as a child slave to Egypt in 659 AH and later a Mamluk emir; died 725 AH (1325 CE)."
+wings: [people, time]
+themes: [history-writing-and-social-thought]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+story_roles:
+  - { role: commander, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 239-240, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص239", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
