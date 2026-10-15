@@ -36,35 +36,35 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 ## Pages needing citations (not added here)
 
 
-## Batch 12 of 19
+## Batch 13 of 19
 
-Pages event/order-to-the-three-to-separate-from-their-wives.md to event/sariyya-of-al-dahhak-to-banu-kilab.md (25 pages).
+Pages event/sariyya-of-alqama-to-jeddah.md to event/umar-dismisses-al-numan-ibn-adi.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `event/order-to-the-three-to-separate-from-their-wives.md` | ok |
-| `event/pen-and-paper-incident.md` | ok |
-| `event/persecution-of-mustadafin.md` | ok |
-| `event/persian-rule-of-yemen.md` | ok |
-| `event/pledges-of-aqaba.md` | ok |
-| `event/plot-of-dar-al-nadwa.md` | ok |
-| `event/preparation-for-uhud.md` | ok |
-| `event/proclamation-of-surat-baraa.md` | ok |
-| `event/prophets-mosque-built.md` | ok |
-| `event/prophets-mosques-between-medina-and-tabuk.md` | ok |
-| `event/prophets-return-and-excuses-of-the-stragglers.md` | ok |
-| `event/prophets-speech-to-the-ansar.md` | ok |
-| `event/quba-sojourn.md` | ok |
-| `event/qusayy-takes-mecca.md` | ok |
-| `event/rain-at-al-hijr-after-the-prophets-prayer.md` | ok |
-| `event/rebuilding-of-the-kaaba.md` | ok |
-| `event/recovery-of-abd-al-muttalib-rights.md` | ok |
-| `event/redigging-of-zamzam.md` | ok |
-| `event/repentance-of-the-three-accepted.md` | ok |
-| `event/return-of-abyssinian-emigrants.md` | ok |
-| `event/sacrifice-of-ismail.md` | ok |
-| `event/safa-proclamation.md` | ok |
-| `event/sajdat-al-najm.md` | ok |
-| `event/saqifa.md` | ok |
-| `event/sariyya-of-al-dahhak-to-banu-kilab.md` | ok |
+| `event/sariyya-of-alqama-to-jeddah.md` | ok |
+| `event/sariyya-of-qutba-to-khatham.md` | ok |
+| `event/sariyya-of-uyayna-to-banu-tamim.md` | ok |
+| `event/second-migration-to-abyssinia.md` | ok |
+| `event/sermon-at-mina-yawm-al-nahr.md` | ok |
+| `event/settlement-of-hajar-and-ismail.md` | ok |
+| `event/shaqq-al-sadr.md` | ok |
+| `event/siege-of-banu-qaynuqa.md` | ok |
+| `event/siege-of-banu-qurayza.md` | ok |
+| `event/siege-of-taif.md` | ok |
+| `event/stoning-of-al-ghamidiyya.md` | ok |
+| `event/sunbadh-revolt-137.md` | ok |
+| `event/tabuk-departure-and-deputies.md` | ok |
+| `event/tabuk-mobilisation-order.md` | ok |
+| `event/tabuk-stay-and-return.md` | ok |
+| `event/the-choice-of-the-prophets-wives.md` | ok |
+| `event/the-prophets-she-camel-strays.md` | ok |
+| `event/the-three-left-behind.md` | ok |
+| `event/the-weepers-al-bakkaun.md` | ok |
+| `event/treaty-of-ayla.md` | ok |
+| `event/treaty-of-hudaybiyya.md` | ok |
+| `event/treaty-of-ukaydir.md` | ok |
+| `event/ubaydullah-ibn-jahsh-leaves-islam-in-abyssinia.md` | ok |
+| `event/uhud-tactical-deployment.md` | ok |
+| `event/umar-dismisses-al-numan-ibn-adi.md` | ok |
 
