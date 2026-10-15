@@ -16,6 +16,7 @@ sides:
   - label: { ar: "الجيش العباسي" }
     commanders: [person/jahwar-ibn-marrar-al-ijli]
 relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: had_participant, target: person/sunbadh, role: "زعيم الحركة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
   - { type: had_participant, target: person/jahwar-ibn-marrar-al-ijli, role: "قائد الجيش العباسي", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
