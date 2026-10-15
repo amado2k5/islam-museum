@@ -1,0 +1,25 @@
+id: person/al-jundi-abu-al-diya-khalil-ibn-ishaq
+class: person
+label: { ar: "الجندي أبو الضياء خليل بن إسحاق", en: "al-Jundi Abu al-Diya Khalil ibn Ishaq" }
+names:
+  - { kind: full, lang: ar, value: "أبو الضياء خليل بن إسحاق بن موسى الجندي المالكي" }
+  - { kind: kunya, lang: ar, value: "أبو الضياء" }
+  - { kind: laqab, lang: ar, value: "ضياء الدين" }
+  - { kind: nisba, lang: ar, value: "الجندي" }
+  - { kind: nisba, lang: ar, value: "المالكي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { edtf: "1365", hijri: "0767", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه مالكي، عُرف بالجندي، وتوفي سنة 767هـ (1365م)."
+  en: "Maliki jurist known as al-Jundi; died 767 AH (1365 CE)."
+wings: [people, ideas]
+themes: [development-of-law-theology-institutions]
+periods: [period/mongol-post-mongol]
+regions: []
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 475-476, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص475", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

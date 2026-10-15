@@ -1,0 +1,25 @@
+id: person/al-jabari-abu-ishaq-ibrahim-ibn-umar
+class: person
+label: { ar: "الجعبري أبو إسحاق إبراهيم بن عمر", en: "al-Ju'bari Abu Ishaq Ibrahim ibn Umar" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم بن عمر بن إبراهيم بن خليل بن أبي العباس الربعي الجعبري" }
+  - { kind: kunya, lang: ar, value: "أبو إسحاق" }
+  - { kind: laqab, lang: ar, value: "برهان الدين" }
+  - { kind: nisba, lang: ar, value: "الجعبري" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1242", hijri: "0640", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1332", hijri: "0732", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مقرئ يُلقّب في بغداد بتقي الدين وفي غيرها ببرهان الدين، ويُكنى أبا إسحاق، وتوفي سنة 732هـ (1332م)."
+  en: "Reader of the Qur'an known in Baghdad as Taqi al-Din and elsewhere as Burhan al-Din; died 732 AH (1332 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 299-300, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص299", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
