@@ -1,0 +1,32 @@
+id: event/sicilian-assault-alexandria-569
+class: event
+kind: siege
+label: { ar: "أسطول صقلية على الإسكندرية", en: "The Sicilian assault on Alexandria (569 AH)" }
+summary:
+  ar: "استجابةً لمراسلات المتواطئين على إعادة الدولة العلوية جهز صاحب صقلية أسطولاً قوامه مائتا شيني تحمل الرجالة وست وثلاثون طريدة تحمل الخيل وست مراكب كبار لآلة الحرب وأربعون مركباً للأزواد، فيها خمسون ألف راجل وألف وخمسمائة فارس منها خمسمائة تركبلي، والمقدم عليهم ابن عم صاحب صقلية؛ وصلوا الإسكندرية في السادس والعشرين من ذي الحجة سنة تسع وستين وخمسمائة على حين غفلة من أهلها، فنزلوا ما يلي البحر والمنارة ونصبوا الدبابات والمنجنيقات، وصبر لهم أهل البلد وليس عندهم إلا قليل من العسكر؛ ودام القتال ثلاثة أيام وصل في ثانيها من كان في أقطاعه القريبة من العساكر الإسلامية، ففتح المسلمون باب البلد في اليوم الثالث وخرجوا عليهم من كل جانب وأحرقوا الدبابات، وسيّر صلاح الدين مملوكاً ينادي بقربه فعاود الناس القتال وهم يظنونه معهم، وسقط الفرنج في أيديهم فهاجم المسلمون خيامهم عند اختلاط الظلام وغنموها وكثر القتل فيهم، فهرب كثير إلى البحر فغرق بعضهم وغاص مسلمون فخرقوا شوانيهم، واحتمى ثلاثمائة من فرسانهم على رأس تل حتى أضحى النهار فصاروا بين قتيل وأسير {cite:kamil-ibn-al-athir p. 63-64}."
+  en: "26 Dhu al-Hijja 569 (1174): answering the restoration plotters' letters, a Sicilian armada — two hundred troop-shinis, thirty-six horse-transports, six siege-train ships and forty supply vessels, fifty thousand foot and fifteen hundred horse under the Sicilian king's cousin — landed by the Pharos and set siege-towers against Alexandria's wall; the townsfolk and nearby iqta' troops held three days, burst out and burned the towers, and a rumour of Saladin's approach broke the Franks — the camp was stormed in the dark, the fleet fled under hull-piercing swimmers, and three hundred knights on a hill were finished by morning {cite:kamil-ibn-al-athir p. 63-64}."
+date:
+  start: { hijri: "0569-12-26", edtf: "1174-08-01~", calendar: julian, precision: day, status: tradition, derived: true, note: "26 ذي الحجة 569هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 63}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/salah-al-din-yusuf-ibn-ayyub
+  role: "سار إليها بالعساكر وسيّر من يبشر بقربه"
+  sources: [source/kamil-ibn-al-athir]
+- type: occurred_at
+  target: place/iskandariyya
+  sources: [source/kamil-ibn-al-athir]
+- type: part_of
+  target: event/fatimid-restoration-plot-569
+  role: "استجابة الفرنج لمراسلات المتواطئين"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+themes: [crusades]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 63-64"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-08
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

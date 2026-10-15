@@ -1,0 +1,32 @@
+id: event/kanz-al-dawla-revolt-570
+class: event
+kind: revolt
+label: { ar: "خلاف الكنز بالصعيد", en: "Kanz al-Dawla's revolt in Upper Egypt (570 AH)" }
+summary:
+  ar: "في أول سنة سبعين وخمسمائة خالف الكنز بصعيد مصر واجتمع إليه من رعية البلاد والسودان والعرب خلق كثير، فقتل أميراً من الصلاحية في أقطاعه وهو أخو الأمير أبي الهيجاء السمين؛ فسار أبو الهيجاء — وهو من أكبر الأمراء وأشجعهم — إلى قتاله وسيّر معه صلاح الدين جماعة من الأمراء وكثيراً من العسكر، فوصلوا مدينة طود فاحتمت عليهم فقاتلوا أهلها وظفروا بهم وقتلوا منهم كثيراً وذلوا بعد العز وقهروا، ثم سار العسكر بعد فراغه من طود إلى الكنز وهو في طغيانه يعمه فقاتلوه فقتل هو ومن معه من الأعراب وغيرهم، وأمنت بعده البلاد واطمأن أهلها {cite:kamil-ibn-al-athir p. 64-65}."
+  en: "Early 570 (1174): Kanz rose in Upper Egypt, drawing crowds of locals, Sudanese and Arabs and killing a Salahiyya amir — brother of Abu al-Hayja 'the Fat'; Abu al-Hayja marched on him with a Saladin detachment, stormed Tud, then caught and killed Kanz and his Arabs, and the country was quiet after him {cite:kamil-ibn-al-athir p. 64-65}."
+date:
+  start: { hijri: "0570-01~", edtf: "1174-08~", calendar: julian, precision: month, status: tradition, derived: true, note: "أول سنة 570هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 64}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/kanz-al-dawla
+  role: "صاحب الخلاف؛ قتل في المعركة"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/abu-al-hayja-al-samin
+  role: "الأمير الصلاحي الذي سار إلى قتاله أخذاً بثأر أخيه"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/salah-al-din-yusuf-ibn-ayyub
+  role: "سيّر مع أبي الهيجاء جماعة من الأمراء والعسكر"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 64-65"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-08
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
