@@ -1,0 +1,29 @@
+id: event/taj-al-din-kirman-hormuz-611
+class: event
+kind: campaign
+label: { ar: "فتح تاج الدين أبي بكر كرمان ومكران والسند", en: "Taj al-Din Abu Bakr's conquest of Kirman, Makran and Sind for the Khwarazmshah (c. 611 AH)" }
+summary:
+  ar: "تولى الأمير تاج الدين أبو بكر صاحب زوزن — وكان بدأ جمالاً يكري الجمال في الأسفار حتى صار من أعيان أمراء خوارزمشاه محمد بن تكش وأثقتهم — فتح كرمان من صاحبها حرب بن محمد بن أبي الفضل في أسرع وقت، وسار إلى نواحي مكران فملكها كلها إلى السند من حدود كابل، وأتى هرمز المدينة على ساحل بحر مكران فأطاعه صاحبها ملتك وحمل عنها مالاً، وخطب لخوارزمشاه بقلهات وبعض عمان لأن أصحابها كانوا يطيعون صاحب هرمز — المرسى العظيم مجمع التجار من أقاصي الهند والصين واليمن — يتقربون بالطاعة ليأمن أصحاب المراكب التي تسير إليهم؛ روى الحادثة لابن الأثير أحد أجناد الموصل الذي رافق الفتح وشك في سنتها فهي في هذه السنة أو قبلها بقليل أو بعدها {cite:kamil-ibn-al-athir p. 362-363}."
+  en: "A camel-hirer turned Khwarazmshah's most trusted amir, Taj al-Din Abu Bakr of Zuzan took Kirman 'in the quickest time', swept Makran to Sind's borders by Kabul, and received Hormuz's tribute — the great entrepôt whose protection merchants from India, China and Yemen bought with obedience — raising the Khwarazmian khutba at Qalhat and parts of Oman; Ibn al-Athir heard the story from a Mosul soldier who marched in the conquest {cite:kamil-ibn-al-athir p. 362-363}."
+date:
+  start: { hijri: "0611~", edtf: "1214~", calendar: julian, precision: year, status: debated, note: "شك راوي الحادثة في سنتها فهي 611 أو قبلها بقليل أو بعدها بقليل {cite:kamil-ibn-al-athir p. 362-363}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/taj-al-din-abu-bakr-zuzani
+  role: "الأمير الفاتح"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/muhammad-khwarazmshah
+  role: "السلطان الممول للحملة"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+themes: [trade-and-finance, wars-and-campaigns]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 362-363"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-15
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
