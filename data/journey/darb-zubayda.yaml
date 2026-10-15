@@ -1,0 +1,21 @@
+id: journey/darb-zubayda
+class: journey
+kind: pilgrimage_route
+label: { ar: "درب زبيدة — طريق الحج من الكوفة إلى مكة", en: "Darb Zubayda — the pilgrim road from Kufa to Mecca" }
+summary:
+  ar: "طريق الحج من الكوفة إلى مكة الذي سجله قدامة بن جعفر في منزلة البريد بسككه ومنازله ومسافاته بالأميال وما في كل منزل من البرك والآبار والمنابر: من مدينة السلام إلى الكوفة فالقادسية فالعذيب — وكانت مسلحة بين العرب وفارس في حد البرية بها حائطان — ثم المغيثة والقرعاء وواقصة والعقبة والقاع وزبالة العامرة والشقوق وقبر العبادي والثعلبية والخزيمية المسورة التي فيها منبر وحمام وكانت تسمى زرود ورملها أحمر، والأجفر وفيد وفيها منزل العامل وقناة وزروع ومنبر، وتوز والحاجر ومعدن النقرة والربذة كثيرة الماء والمنبر ومعدن بني سليم، ثم طريق الحجاز إلى مكة {cite:masalik-mamalik-ibn-khurdadhbih pp. 193-194}."
+  en: "The pilgrim road from Kufa to Mecca as registered by Qudama ibn Ja'far in the barid chapter — its relay stations, mileages and each halt's cisterns, wells and minbars: from Madinat al-Salam to Kufa, al-Qadisiyya and al-Udhayb (the frontier picket between Arabs and Persians with its twin walls), then al-Maghitha, al-Qar'a, Waqisa, al-Aqaba, al-Qa', populous Zubala, al-Shiquq, Qabr al-Abbadi, al-Tha'labiyya, walled al-Khuzaymiyya with its minbar and hammam (once called Zarud, its sand red), al-Ajfar, Fayd with the governor's lodge and canal and minbar, Tawz, al-Hajir, Ma'dan al-Nuqra, al-Rabadha with abundant water, Ma'dan Bani Sulaym, and on through the Hijaz road to Mecca {cite:masalik-mamalik-ibn-khurdadhbih pp. 193-194}."
+wings: [time, place]
+periods: [period/abbasid-fragmentation]
+regions: [arabia, levant-iraq]
+legs:
+  - { from: place/baghdad, to: place/kufa, mode: "بريد", note: "من مدينة السلام إلى جسر كوثى فقصر ابن هبيرة فسوق أسد فساي فالكوفة.", sources: [source/masalik-mamalik-ibn-khurdadhbih] }
+  - { from: place/kufa, to: place/al-qadisiyya, mode: "بريد", note: "من الكوفة إلى القادسية خمسة عشر ميلاً.", sources: [source/masalik-mamalik-ibn-khurdadhbih] }
+  - { from: place/al-qadisiyya, to: place/mecca, mode: "بريد — درب زبيدة", note: "العذيب والمغيثة والقرعاء وواقصة والعقبة والقاع وزبالة والشقوق وقبر العبادي والثعلبية والخزيمية والأجفر وفيد وتوز وسميرة والحاجر ومعدن النقرة ومغيثة الماوان والربذة ومعدن بني سليم ثم طريق الحجاز إلى مكة.", sources: [source/masalik-mamalik-ibn-khurdadhbih] }
+provenance:
+  layer: own-research
+  source: "قدامة بن جعفر، كتاب الخراج وصنعة الكتابة — الباب الحادي عشر (BGA 6، دي غويه) ص 193-194"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-bga6-1
+sources: [source/masalik-mamalik-ibn-khurdadhbih]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
