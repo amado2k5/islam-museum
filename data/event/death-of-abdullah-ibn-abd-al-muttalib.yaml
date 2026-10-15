@@ -1,0 +1,47 @@
+id: event/death-of-abdullah-ibn-abd-al-muttalib
+class: event
+kind: death
+label: { ar: "وفاة عبد الله بن عبد المطلب بالمدينة", en: "Death of Abdullah ibn Abd al-Muttalib at Medina" }
+summary:
+  ar: "أرسل عبد المطلب ابنه عبد الله إلى المدينة يمتار تمراً، وقيل خرج تاجراً إلى الشام فنزل بها مريضاً، فمات ودُفن في دار النابغة الجعدي وله خمس وعشرون سنة، قبل مولد ابنه عند أكثر المؤرخين وبعده بشهرين في قول، وخلّف خمسة أجمال وقطعة غنم وجارية حبشية هي أم أيمن."
+  en: "Abd al-Muttalib sent his son Abdullah to Medina to buy dates, or by another report he fell ill there returning from trade in Syria; he died aged twenty-five and was buried in the house of al-Nabigha al-Jadi, before his son's birth according to most historians or two months after it by one report, leaving five camels, a flock of sheep and an Abyssinian girl, Umm Ayman."
+date:
+  start: { edtf: "0570~", calendar: julian, precision: year, status: tradition, note: "لا يذكر الرحيق المختوم سنة بعينها؛ يضع الوفاة قبل مولد النبي عام الفيل عند أكثر المؤرخين، وبعده بشهرين في قول آخر. الرقم مشتق من عام الفيل وحده.", derived: true, sources: [source/mubarakpuri-raheeq] }
+participants:
+  - { target: person/abdullah-ibn-abd-al-muttalib, role: "المتوفى" }
+  - { target: person/abd-al-muttalib, role: "الأب الذي أرسله" }
+  - { target: person/amina-bint-wahb, role: "الزوجة التي رثته" }
+wings: [people]
+themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+issue:
+  ar: "هل مات عبد الله قبل مولد ابنه أم بعده؟"
+  en: "Did Abdullah die before or after his son's birth?"
+perspectives:
+  - tradition: sunni
+    id: before-birth
+    stance: { ar: "أكثر المؤرخين كما ينقل الرحيق المختوم" }
+    summary: { ar: "كانت وفاته قبل أن يولد النبي." }
+    evidence:
+      - { ref: source/mubarakpuri-raheeq, note: { ar: "ص53" } }
+      - { ref: source/ibn-hisham-sira, note: { ar: "1/156، 158" } }
+    sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+  - tradition: sunni
+    id: two-months-after
+    stance: { ar: "قول آخر ينقله الرحيق المختوم" }
+    summary: { ar: "توفي بعد مولده بشهرين." }
+    evidence:
+      - { ref: source/mubarakpuri-raheeq, note: { ar: "ص53" } }
+      - { ref: source/fiqh-al-sira-al-ghazali, note: { ar: "ص45" } }
+    sources: [source/mubarakpuri-raheeq, source/fiqh-al-sira-al-ghazali]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص52–53 نقلاً عن تلقيح فهوم أهل الأثر ص8–9 ورحمة للعالمين 2/56–66 وابن هشام 1/151–158"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-5b"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/fiqh-al-sira-al-ghazali, source/rahma-lil-alamin, source/tabaqat-ibn-sad, source/mukhtasar-sirat-al-rasul-al-najdi, source/talqih-fuhum-ahl-al-athr, source/sahih-muslim]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 53" }

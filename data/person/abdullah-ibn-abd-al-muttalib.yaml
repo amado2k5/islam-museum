@@ -1,16 +1,34 @@
 id: person/abdullah-ibn-abd-al-muttalib
 class: person
-label: { ar: "عبد الله بن عبد المطلب", en: "ʿAbdullāh ibn ʿAbd al-Muṭṭalib" }
-summary: { ar: "والد النبي؛ الذبيح الذي خرجت عليه القرعة ففُدي بمائة من الإبل، وتزوج آمنة بنت وهب وتوفي بالمدينة وله خمس وعشرون سنة قبل مولد ابنه بنحو شهرين.", en: "The Prophet’s father — the ransomed ‘sacrifice’ of the lot, husband of Āmina, who died at Yathrib aged twenty-five before his son’s birth." }
-born: { edtf: "0545~", calendar: julian, precision: year, status: tradition }
-died: { edtf: "0570~", calendar: julian, precision: year, status: tradition }
-faith: [{ value: hanif, basis: tradition }]
-story_roles: [{ role: family-of-the-prophet }]
+label: { ar: "عبد الله بن عبد المطلب", en: "Abdullah ibn Abd al-Muttalib" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن عبد المطلب بن هاشم بن عبد مناف" }
+  - { kind: laqab, lang: ar, value: "الذبيح" }
+gender: male
+summary:
+  ar: "والد النبي؛ أحسن أولاد عبد المطلب وأعفّهم وأحبّهم إليه، والذبيح الذي خرجت عليه القداح ففُدي بمائة من الإبل، تزوج آمنة بنت وهب ومات بالمدينة وله خمس وعشرون سنة، قبل مولد ابنه عند أكثر المؤرخين وبعده بشهرين في قول."
+  en: "The Prophet's father; the handsomest, most chaste and best-loved of Abd al-Muttalib's sons, the 'sacrifice' on whom the lots fell and who was ransomed with a hundred camels; he married Amina bint Wahb and died at Medina aged twenty-five, before his son's birth according to most historians or two months after it by one report."
+born: { edtf: "0545~", calendar: julian, precision: year, status: tradition, note: "مشتق من قول الكتاب إنه مات وله خمس وعشرون سنة قبيل عام الفيل؛ لا يذكر الكتاب سنة مولده.", derived: true, sources: [source/mubarakpuri-raheeq] }
+died: { edtf: "0570~", calendar: julian, precision: year, status: tradition, note: "بالمدينة؛ قبل مولد النبي عند أكثر المؤرخين وبعده بشهرين في قول (الرحيق ص53).", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+wings: [people]
 themes: [family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+story_roles:
+  - { role: family-of-the-prophet, status: tradition, sources: [source/mubarakpuri-raheeq] }
 relations:
-  - { type: child_of, target: person/abd-al-muttalib }
-  - { type: child_of, target: person/fatima-bint-amr }
-  - { type: spouse_of, target: person/amina-bint-wahb }
-  - { type: died_in, target: place/medina }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
-status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 48–53" }
+  - { type: child_of, target: person/abd-al-muttalib, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: child_of, target: person/fatima-bint-amr, sources: [source/mubarakpuri-raheeq] }
+  - { type: spouse_of, target: person/amina-bint-wahb, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: member_of, target: group/banu-hashim, sources: [source/mubarakpuri-raheeq] }
+  - { type: died_in, target: place/medina, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: participated_in, target: event/vow-and-lot-of-abd-al-muttalib, role: "الذبيح المفدى", sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/death-of-abdullah-ibn-abd-al-muttalib, role: "المتوفى", sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص52–53 نقلاً عن ابن هشام 1/151–158 ورحمة للعالمين 2/89–91 ومختصر سيرة الرسول ص12 وفقه السيرة للغزالي ص45 وطبقات ابن سعد 1/62"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-5b"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/rahma-lil-alamin, source/mukhtasar-sirat-al-rasul, source/fiqh-al-sira-al-ghazali, source/tabaqat-ibn-sad, source/sahih-muslim]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 52–53; first pass Devin pp. 48–53" }
