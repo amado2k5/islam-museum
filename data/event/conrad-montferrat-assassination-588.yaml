@@ -1,0 +1,29 @@
+id: event/conrad-montferrat-assassination-588
+class: event
+kind: other
+label: { ar: "قتل المركيس صاحب صور", en: "The assassination of the Marquis of Tyre (588 AH)" }
+summary:
+  ar: "في ثالث عشر ربيع الآخر سنة ثمان وثمانين وخمسمائة قُتل المركيس الفرنجي صاحب صور — وكان عند ابن الأثير أكبر شياطين الفرنج؛ ويروي ابن الأثير أن صلاح الدين راسل مقدم الإسماعيلية سنان أن يُرسل من يقتل ملك إنكلتار وإن قتل المركيس فله عشرة آلاف دينار، فلم يكن قتل ملك إنكلتار ممكناً ولم يره سنان مصلحة لئلا يتفرغ صلاح الدين لهم، فأرسل رجلين في زي الرهبان اتصلا بصاحب صيدا وبابن بيرزان صاحب الرملة وكانا مع المركيس بصور فأقاما ستة أشهر يظهران العبادة حتى ائتمن بهما المركيس ووثق إليهما، فوثبا عليه يوم دعوة الأسقف فجرحاه جراحاً وثيقة وهرب أحدهما إلى كنيسة فلما حُمل المركيس إليها ليُشد جرحه وثب عليه فقتله، وقُتل الرجلان بعده؛ ونسب الفرنج قتله إلى ملك إنكلتار لينفرد بملك الساحل {cite:kamil-ibn-al-athir p. 213-214}."
+  en: "13 Rabi' II 588 (April 1192): the Marquis of Tyre — 'greatest of the Frankish devils' — was cut down by two Assassins in monks' garb who had spent six months in the households of Sidon's lord and Ibn Barzan winning his trust; wounded at a bishop's banquet, he was carried to a church where one of them, hiding inside, finished him; Ibn al-Athir reports Saladin had offered Sinan ten thousand dinars for the deed or for Richard's, and the Franks blamed the English king {cite:kamil-ibn-al-athir p. 213-214}."
+date:
+  start: { hijri: "0588-04-13", edtf: "1192-04-28~", calendar: julian, precision: day, status: tradition, derived: true, note: "13 ربيع الآخر 588هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 213}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/conrad-de-montferrat
+  role: "صاحب صور المقتول"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/sinan-rashid-al-din
+  role: "مقدم الإسماعيلية الذي أرسل الرجلين بأجر عشرة آلاف دينار"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+themes: [crusades]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 213-214"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-11
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
