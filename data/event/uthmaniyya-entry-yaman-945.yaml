@@ -1,0 +1,23 @@
+id: event/uthmaniyya-entry-yaman-945
+class: event
+kind: campaign
+label: { ar: "دخول العثمانيين اليمن" }
+summary:
+  ar: "بعد انهزام المماليك قدّم حاكم اليمن المملوكي إسكندر وفداً إلى السلطان سليم يعلن الولاء والطاعة فأبقاه في منصبه، وكانت السيطرة العثمانية أول الأمر ضعيفة لصراعات القادة ونفوذ الإمامة الزيدية بين قبائل الجبال والخطر البرتغالي على السواحل. ثم أرسل السلطان سليمان حملة سلمان باشا الأرناؤطي سنة ٩٤٥هـ/١٥٣٨م تضم ٧٤ سفينة وعشرين ألف مقاتل بهدف احتلال عدن وإغلاق باب المندب أمام السفن البرتغالية، فدخل العثمانيون عدن عام ٩٤٦هـ/١٥٣٩م وتعز عام ٩٥٢هـ/١٥٤٥م وسقطت صنعاء عام ٩٥٤هـ/١٥٤٧م، وتحرك سلمان بأسطوله فاستولى على موانئ حضرموت كالشحر والمكلا واجتاح ساحل الحبشة وسواكن ومصوع عام ٩٦٤هـ/١٥٥٧م. وظلت اليمن طيلة فترة خضوعها (١٥٣٨–١٦٣٥م) متنازعاً بين العثمانيين والأئمة الزيدية، فلم يضمن العثمانيون سيطرة حقيقية على البلاد {cite:dawlat-uthmaniyya-salabi p. 191-192}."
+  en: "The first Ottoman entry into Yemen: Sulayman's 1538 expedition under Salman Pasha with 74 ships and 20,000 men took Aden, Taiz and finally Sanaa by 1547, closing Bab al-Mandab to the Portuguese — yet Yemen stayed contested with the Zaydi imams until 1635 {cite:dawlat-uthmaniyya-salabi p. 191-192}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [arabia, east-africa]
+date:
+  start: { edtf: "1538", hijri: "0945", calendar: julian, precision: year, status: tradition, derived: true, note: "حملة سلمان باشا سنة ٩٤٥هـ/١٥٣٨م {cite:dawlat-uthmaniyya-salabi p. 191}." }
+  end: { edtf: "1547", hijri: "0954", calendar: julian, precision: year, status: tradition, derived: true, note: "سقوط صنعاء عام ٩٥٤هـ/١٥٤٧م {cite:dawlat-uthmaniyya-salabi p. 192}." }
+relations:
+  - { type: occurred_at, target: place/aden }
+  - { type: occurred_at, target: place/sanaa }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 191-192"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-7
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
