@@ -1,0 +1,48 @@
+id: person/ala-al-din-husayn-ghuri
+class: person
+label:
+  ar: علاء الدين الحسين الغوري
+  en: Ala al-Din al-Husayn al-Ghuri (Jahan-Suz)
+summary:
+  ar: "علاء الدين الحسين بن حسين، ملك الغور الملقب جهانسوز؛ ملك الغور بعد مقتل أخيه شوري واستولى على جبالها ومدينة بيروزكوه واستفحل ملكه وخطب فيها للسلطان سنجر، ثم سار يريد غزنة سنة 547هـ فملكها وأحرقها ثأراً لأخويه اللذين قتلهما بهرام شاه، وملك بلخ وقاتل السلطان سنجر فظفر به وأسره ثم خلع عليه ورده إلى بيروزكوه، فلما استفحل ملكه ثار عليه ابنا أخيه غياث الدين وشهاب الدين فقاتلاه حتى انهزم فأجلساه على التخت واستبدا عليه، وتوفي سنة 556هـ فقام غياث الدين بالأمر."
+  en: "Ala al-Din al-Husayn ibn al-Husayn, king of Ghor called Jahan-Suz the World-Burner; succeeding his martyred brother Suri he mastered Ghor's mountains and Firuzkuh, proclaimed Sanjar in the khutba, marched on Ghazna in 547 AH and burned it in vengeance for the brothers Bahramshah killed, took Balkh, fought and was captured by Sultan Sanjar who released him back to Firuzkuh — and when his power swelled his nephews Ghiyath al-Din and Shihab al-Din rose, defeated him, yet seated him back on the throne as their puppet until his death in 556, when Ghiyath al-Din took the realm."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1161"
+  hijri: "0556"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: توفي سنة 556هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: ruler_of
+  target: polity/ghurid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/suri-ibn-husayn-ghuri
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: fought
+  target: person/bahramshah-ghaznavi
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia, south-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة الغورية، استيلاء علاء الدين على غزنة ووفاته، ص1159-1160 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-9
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
