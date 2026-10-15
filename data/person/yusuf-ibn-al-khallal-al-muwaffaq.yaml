@@ -1,0 +1,23 @@
+id: person/yusuf-ibn-al-khallal-al-muwaffaq
+class: person
+label: { ar: "الموفق ابن الخلال" }
+names:
+  - { value: "أبو الحجاج يوسف بن محمد الموفق المعروف بابن الخلال", kind: full }
+gender: male
+roles: [secretary, poet]
+died: { edtf: "1171~", hijri: "0566", calendar: julian, precision: day, status: debated, derived: true, note: "مات في الثالث والعشرين من جمادى الآخرة سنة ٥٦٦هـ؛ وقال عماد الدين الأصبهاني إنه توفي بعد ملك الملك الناصر مصر بثلاث أو أربع سنين {cite:wafayat-ayan p. 219, 224}." }
+summary:
+  ar: "أبو الحجاج يوسف بن محمد الموفق المعروف بابن الخلال، صاحب ديوان الإنشاء بمصر في دولة الحافظ أبي الميمون عبد المجيد العبيدي ومن بعده؛ وصفه عماد الدين الأصبهاني بأنه «ناظر مصر وإنسان ناظره وجامع مفاخره» وكان إليه الإنشاء وله قوة على الترسل يكتب كما يشاء؛ وحدث القاضي الفاضل عبد الرحيم بن علي البيساني أنه حين قدم ديوان المكاتبات غلاماً وسأله ابن الخلال ما الذي أعددت لفن الكتابة من الآلات قال ليس عندي سوى حفظ القرآن وكتاب الحماسة فقال في هذا بلاغ وأمره بملازمته ثم بتحليل شعر الحماسة فحلله مرتين — وشكك ابن خلكان في الرواية لأن القاضي الفاضل لم يدخل مصر إلا في أيام الظافر بن الحافظ {cite:wafayat-ayan p. 219-220}. وعاش كثيراً وعطل في آخر عمره وأضر ولزم بيته حتى مات في جمادى الآخرة سنة ست وستين وخمسمائة {cite:wafayat-ayan p. 219, 224}."
+  en: "al-Muwaffaq 'Ibn al-Khallal' — Fatimid head of the diwan al-insha' under al-Hafiz, called by Imad al-Din 'Egypt's eye and the pupil of its eye'; the al-Qadi al-Fadil anecdote has him admitting the boy on the strength of the Qur'an and the Hamasa alone and making him parse the Hamasa twice; he outlived his faculties and died 23 Jumada II 566 {cite:wafayat-ayan p. 219-224}."
+wings: [people, made]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 219-224"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
