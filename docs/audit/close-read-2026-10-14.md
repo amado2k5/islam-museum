@@ -17,39 +17,41 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 | Page | Before | After | Reason |
 |---|---|---|---|
 | `group/banu-al-dil.md` | فكان خطؤهم بداية نهاية الحرب كلها | فكان فعلهم بداية نهاية الحرب كلها | moral label in the children's section; describes the act |
+| `group/banu-hashim.md` | صار لاحقًا اسم الحقّ الذي قامت عليه دول هاشمية وعلوية وفاطمية | صار لاحقًا اسمًا ترفع به دول هاشمية وعلوية وفاطمية دعوى الشرعية | museum voice presented a claim as the truth; reframed as the dynasties' claim |
+| `group/banu-shayban.md` | لأن سيدها حفظ الأمانة | وتذكر الرواية أن سيدها حفظ أمانة النعمان | causal moral explanation in museum voice; attributed to the narrative |
 
 ## Pages needing citations (not added here)
 
 
-## Batch 3 of 19
+## Batch 4 of 19
 
-Pages place/thaniyyat-al-wada.md to group/banu-dubaya-ibn-zayd.md (25 pages).
+Pages group/banu-ghifar.md to group/early-muslims.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `place/thaniyyat-al-wada.md` | ok |
-| `place/uhud.md` | ok |
-| `place/ukaz.md` | ok |
-| `place/wadi-al-mushaqqaq.md` | ok |
-| `place/wadi-hunayn.md` | ok |
-| `place/wadi-nakhla.md` | ok |
-| `place/yemen.md` | ok |
-| `group/adnan.md` | ok |
-| `group/ahl-al-bayt.md` | ok |
-| `group/al-arab-al-baida.md` | ok |
-| `group/al-azd.md` | ok |
-| `group/ansar.md` | ok |
-| `group/aslam.md` | ok |
-| `group/banu-abd-dar.md` | ok |
-| `group/banu-abd-shams.md` | ok |
-| `group/banu-adi.md` | ok |
-| `group/banu-al-ajlan.md` | ok |
-| `group/banu-al-dil.md` | fixed (1) |
-| `group/banu-al-harith.md` | ok |
-| `group/banu-amir.md` | ok |
-| `group/banu-amr-ibn-awf.md` | ok |
-| `group/banu-asad-ibn-khuzayma.md` | ok |
-| `group/banu-asad.md` | ok |
-| `group/banu-bakr.md` | ok |
-| `group/banu-dubaya-ibn-zayd.md` | ok |
+| `group/banu-ghifar.md` | ok |
+| `group/banu-hamdan.md` | ok |
+| `group/banu-hashim.md` | fixed (1) |
+| `group/banu-jumah.md` | ok |
+| `group/banu-jusham.md` | ok |
+| `group/banu-lakhm.md` | ok |
+| `group/banu-makhzum.md` | ok |
+| `group/banu-nadir.md` | ok |
+| `group/banu-nasr.md` | ok |
+| `group/banu-qaynuqa.md` | ok |
+| `group/banu-qurayza.md` | ok |
+| `group/banu-sahm.md` | ok |
+| `group/banu-salim-ibn-awf.md` | ok |
+| `group/banu-salima.md` | ok |
+| `group/banu-shayban.md` | fixed (1) |
+| `group/banu-tahm.md` | ok |
+| `group/banu-tamim.md` | ok |
+| `group/banu-ubayd-ibn-zayd.md` | ok |
+| `group/banu-umayya-ibn-zayd.md` | ok |
+| `group/banu-umayya.md` | ok |
+| `group/banu-waqif.md` | ok |
+| `group/banu-zubayd.md` | ok |
+| `group/banu-zuhra.md` | ok |
+| `group/builders-of-masjid-al-dirar.md` | ok |
+| `group/early-muslims.md` | ok |
 
