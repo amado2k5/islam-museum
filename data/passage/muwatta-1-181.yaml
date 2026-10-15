@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.181"
-label: { ar: "الموطأ 1.181", en: "Muwatta 1.181" }
+label: { ar: "الموطأ 181 — مالك: الجماعة الحاضرة تجزئها الإقامة بلا أذان", en: "Muwatta 181" }
 summary:
-  ar: "مالك سُئل عن قوم حضور أرادوا جمع المكتوبة فأقاموا دون أذان؛ قال مالك إن ذلك مجزئ."
+  ar: "فتوى لمالك في باب ما جاء في النداء للصلاة: سُئل عن قوم حضور أرادوا أن يجمعوا المكتوبة فأرادوا أن يقيموا ولا يؤذنوا، فقال: ذلك مجزئ عنهم، وإنما يجب النداء في مساجد الجماعات التي تُجمع فيها الصلاة. ويذكر المحقق أن أبا مصعب رواه عن مالك. {cite:muwatta-maruf-1997 p.119}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 181 of kitab al-salat at PDF p. 119", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-10" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 181 at PDF p. 119; باب ما جاء في النداء للصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b08" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 119; matn excerpt at most 40 words" }
