@@ -3,10 +3,15 @@ class: place
 kind: region
 label: { en: "al-Sham (Greater Syria)", ar: "بلاد الشام" }
 summary:
-  en: "The lands north of Arabia where Qudaʾa’s Salihids then the Ghassanids ruled as Rome’s client kings, and to which Harran-bound Ibrahim had earlier passed through Palestine."
-  ar: "البلاد شمال الجزيرة؛ ملك فيها الضجاعمة ثم الغساسنة وكلاء للروم، وكان مورد تجارة قريش وباب الجزيرة إلى أوربا."
+  en: "The lands north of Arabia where Qudaʾa’s Salihids then the Ghassanids ruled as Rome’s client kings, and to which Harran-bound Ibrahim had earlier passed through Palestine. Writing c. 375 AH, the native son al-Muqaddasi called Sham 'the abode of the prophets', home of the first qibla, the ribats and the holy mountains — though its marches were already ruined and its people lived in fear of the Byzantines {cite:ahsan-al-taqasim pp. 132-133}."
+  ar: "البلاد شمال الجزيرة؛ ملك فيها الضجاعمة ثم الغساسنة وكلاء للروم، وكان مورد تجارة قريش وباب الجزيرة إلى أوربا. ووصفها المقدسي نحو 375هـ بأنها ديار النبيين ومعدن البدلاء وفيها القبلة الأولى والرباطات الفاضلة والثغور الجليلة والجبال الشريفة، غير أن أطرافها قد خربت وأهلها على خوف من الروم {cite:ahsan-al-taqasim pp. 132-133}."
 wings: [place]
 periods: [period/pre-islamic-arabia]
 regions: [levant-iraq]
-sources: [source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 23–34 (batch 25b)" }
+sources: [source/mubarakpuri-raheeq, source/ahsan-al-taqasim]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص 23-34؛ المقدسي، أحسن التقاسيم ص 132-133"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-ahsan-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
