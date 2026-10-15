@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.30"
-label: { ar: "الموطأ 1.30", en: "Muwatta 1.30" }
+label: { ar: "الموطأ 30 — من أكل الثوم فلا يقرب مساجدنا", en: "Muwatta 30" }
+text: "من أكل من هذه الشجرة فلا يقرب مساجدنا، يؤذينا بريح الثوم"
 summary:
-  ar: "ابن شهاب عن سعيد بن المسيب: من أكل من هذه الشجرة (الثوم) فلا يقربن مساجدنا لأنه يؤذينا بريح الثوم."
+  ar: "أول حديث في باب النهي عن دخول المسجد بريح الثوم وتغطية الفم. يرويه يحيى عن مالك عن ابن شهاب عن سعيد بن المسيب مرسلاً: نهى النبي من أكل الثوم أن يقرب المساجد لأن ريحه تؤذي المصلين. وينقل المحقق عن ابن عبد البر أنه مرسل في الموطأ عند جميع رواته إلا في رواية شاذة موصولة عن أبي هريرة، وأن معمراً ويونس وإبراهيم بن سعد وصلوه عن ابن شهاب (التمهيد 6/412)، ويخرّج الموصول عند عبد الرزاق وأحمد (2/264) ومسلم (2/79) وابن ماجه (1015) وابن حبان (1645) والبيهقي. {cite:muwatta-maruf-1997 p.49}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 30 of kitab al-salat at PDF p. 49", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 30 at PDF p. 49; باب النهي عن دخول المسجد بريح الثوم وتغطية الفم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 49; matn excerpt at most 40 words" }

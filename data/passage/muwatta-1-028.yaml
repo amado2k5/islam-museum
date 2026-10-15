@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.28"
-label: { ar: "الموطأ 1.28", en: "Muwatta 1.28" }
+label: { ar: "الموطأ 28 — أبو هريرة: إذا اشتد الحر فأبردوا عن الصلاة", en: "Muwatta 28" }
+text: "إذا اشتد الحر فأبردوا عن الصلاة، فإن شدة الحر من فيح جهنم"
 summary:
-  ar: "أبو هريرة عن النبي ﷺ في الإبراد بالظهر عند شدة الحر، وأن شدة الحر من فيح جهنم."
+  ar: "يرويه مالك عن عبد الله بن يزيد مولى الأسود بن سفيان عن أبي سلمة بن عبد الرحمن وعن محمد بن عبد الرحمن بن ثوبان، كلاهما عن أبي هريرة، في باب النهي عن الصلاة بالهاجرة: أمر النبي بالإبراد بالصلاة إذا اشتد الحر لأن شدته من فيح جهنم، وذكر شكوى النار إلى ربها وإذنه لها بنفسين في كل عام. ويخرّجه المحقق من طرق أصحاب مالك عند مسلم (2/108) وأحمد (2/462) والبيهقي والطحاوي، ويحيل على التمهيد (19/112). {cite:muwatta-maruf-1997 p.48}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 28 of kitab al-salat at PDF p. 48", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-yazid-mawla-al-aswad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-abd-al-rahman-ibn-thawban, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 28 at PDF p. 48; باب النهي عن الصلاة بالهاجرة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 48; matn excerpt at most 40 words" }

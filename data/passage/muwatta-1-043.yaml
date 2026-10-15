@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.43"
-label: { ar: "الموطأ 1.43", en: "Muwatta 1.43" }
+label: { ar: "الموطأ 43 — مالك: لا وضوء من رعاف ولا دم ولا قيح", en: "Muwatta 43" }
 summary:
-  ar: "مالك: ما يوجب الوضوء هو الخارج من السبيلين أو النوم، ولا يوجبه الرعاف أو الدم أو القيح (رأي فقهي)."
+  ar: "قول لمالك يرويه يحيى في باب وضوء النائم إذا قام إلى الصلاة: الأمر عند أهل المدينة أنه لا وضوء من الرعاف ولا من الدم ولا من القيح يسيل من الجسد، وإنما الوضوء من حدث يخرج من أحد السبيلين أو من النوم. ويفسر المحقق الرعاف بخروج الدم من الأنف ويحيل على اختلاف الفقهاء عند الترمذي. {cite:muwatta-maruf-1997 p.55}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 43 of kitab al-salat at PDF p. 55", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 43 at PDF p. 55; باب وضوء النائم إذا قام إلى الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 55; matn excerpt at most 40 words" }

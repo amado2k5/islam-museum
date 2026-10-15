@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.42"
-label: { ar: "الموطأ 1.42", en: "Muwatta 1.42" }
+label: { ar: "الموطأ 42 — زيد بن أسلم في تفسير آية الوضوء: القيام من النوم", en: "Muwatta 42" }
 summary:
-  ar: "زيد بن أسلم في تفسير آية الوضوء (المائدة) عند القيام إلى الصلاة، وأن المراد القيام من المضاجع أي النوم (أثر)."
+  ar: "يروي مالك عن زيد بن أسلم تفسيره لآية الوضوء في سورة المائدة، وهي التي تأمر بغسل الوجوه والأيدي ومسح الرؤوس والأرجل عند القيام إلى الصلاة: المراد القيام من المضاجع، أي من النوم؛ وهو في باب وضوء النائم إذا قام إلى الصلاة. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وابن وهب عند الطبري في تفسيره ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.55}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 42 of kitab al-salat at PDF p. 55", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 42 at PDF p. 55; باب وضوء النائم إذا قام إلى الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 55; matn excerpt at most 40 words" }

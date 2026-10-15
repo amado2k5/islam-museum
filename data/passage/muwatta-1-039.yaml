@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.39"
-label: { ar: "الموطأ 1.39", en: "Muwatta 1.39" }
+label: { ar: "الموطأ 39 — مالك فيمن نسي المضمضة والاستنثار حتى صلى", en: "Muwatta 39" }
 summary:
-  ar: "يحيى عن مالك: من نسي عضوًا من وضوئه ثم صلى، فليس عليه أن يعيد إن كان يريد الصلاة (فقه النسيان في الوضوء)."
+  ar: "فتوى لمالك يرويها يحيى في باب العمل في الوضوء: من نسي أن يتمضمض ويستنثر حتى صلى فليس عليه إعادة صلاته، وليتمضمض ويستنثر لما يستقبل من الصلاة. ويحيل المحقق على اختلاف الفقهاء في المسألة عند الترمذي. {cite:muwatta-maruf-1997 p.53} {cite:muwatta-maruf-1997 p.54}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 39 of kitab al-salat at PDF p. 53", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 39 at PDF p. 53; باب العمل في الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 53; matn excerpt at most 40 words" }

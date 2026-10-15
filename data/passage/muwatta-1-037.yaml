@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.37"
-label: { ar: "الموطأ 1.37", en: "Muwatta 1.37" }
+label: { ar: "الموطأ 37 — عمر يستنجي بالماء", en: "Muwatta 37" }
 summary:
-  ar: "يحيى بن محمد بن طحلاء عن عثمان بن عبد الرحمن: النبي ﷺ توضأ وأتم الوضوء لما تحت إزاره من أعضاء (في وصف إتمام الوضوء)."
+  ar: "أثر يرويه مالك عن يحيى بن محمد بن طحلاء عن عثمان بن عبد الرحمن أن أباه عبد الرحمن بن عثمان التيمي حدثه أنه شهد عمر بن الخطاب يغسل بالماء ما تحت إزاره، أي يستنجي بالماء؛ وهو في باب العمل في الوضوء. ويذكر المحقق أن رواية يحيى ومحمد بن الحسن «أنه سمع» وأن رواية أبي مصعب «أنه رأى» وهي أصح وأبين. {cite:muwatta-maruf-1997 p.53}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 37 of kitab al-salat at PDF p. 53", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-muhammad-ibn-tahla, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 37 at PDF p. 53; باب العمل في الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 53; matn excerpt at most 40 words" }

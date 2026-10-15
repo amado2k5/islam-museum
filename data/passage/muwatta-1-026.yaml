@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.26"
-label: { ar: "الموطأ 1.26", en: "Muwatta 1.26" }
+label: { ar: "الموطأ 26 — النوم عن الصبح بطريق مكة وقصة بلال", en: "Muwatta 26" }
+text: "فإذا رقد أحدكم عن الصلاة أو نسيها ثم فزع إليها فليصلها كما كان يصليها في وقتها"
 summary:
-  ar: "زيد بن أسلم مرسلًا: نام النبي ﷺ ومن معه في طريق مكة عن صلاة الفجر حتى طلعت الشمس، فأمرهم بالارتحال من الوادي لما فيه من الشيطان، ثم صلى بهم."
+  ar: "يرويه مالك عن زيد بن أسلم مرسلاً، في باب النوم عن الصلاة: نزل النبي ليلةً في طريق مكة ووكّل بلالاً أن يوقظهم للصلاة، فنام بلال وناموا حتى طلعت الشمس، ففزعوا، فأمرهم أن يركبوا حتى يخرجوا من ذلك الوادي وقال إن به شيطاناً، ثم أمرهم أن ينزلوا ويتوضؤوا، وأمر بلالاً فأقام، فصلى بالناس، ثم طمأنهم بأن الله قبض أرواحهم ولو شاء لردها في غير ذلك الحين، وأن من رقد عن الصلاة أو نسيها فليصلها إذا فزع إليها كما كان يصليها في وقتها. ثم أخبر أبا بكر أن الشيطان أتى بلالاً وهو قائم يصلي فأضجعه وهدّأه كما يُهدّأ الصبي حتى نام، وأخبر بلال بمثل ذلك، فقال أبو بكر: أشهد أنك رسول الله. وينقل المحقق عن ابن عبد البر أنه لم يسنده عن زيد أحد من رواة الموطأ، وأن معناه جاء متصلاً مسنداً «من وجوه صحاح ثابتة» رواها جماعة من الصحابة في نومه عن صلاة الصبح في سفره (التمهيد 5/204). {cite:muwatta-maruf-1997 p.46} {cite:muwatta-maruf-1997 p.47}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 26 of kitab al-salat at PDF p. 46", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/bilal-ibn-rabah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 26 at PDF p. 46; باب النوم عن الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 46; matn excerpt at most 40 words" }

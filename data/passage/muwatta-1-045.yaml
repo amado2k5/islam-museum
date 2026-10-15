@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.45"
-label: { ar: "الموطأ 1.45", en: "Muwatta 1.45" }
+label: { ar: "الموطأ 45 — ماء البحر: هو الطهور ماؤه الحل ميتته", en: "Muwatta 45" }
+text: "هو الطهور ماؤه، الحل ميتته"
 summary:
-  ar: "صفوان بن سليم عن رجل من بني عبد الدار: سأل رجل النبي ﷺ عن ركوب البحر والوضوء بمائه؛ فأجاب بأن ماءه طهور وميتته حل."
+  ar: "أول حديث في باب الطهور للوضوء. يرويه يحيى عن مالك عن صفوان بن سليم عن سعيد بن سلمة من آل بني الأزرق عن المغيرة بن أبي بردة من بني عبد الدار أنه سمع أبا هريرة يقول: سأل رجل النبي عن الوضوء بماء البحر لأنهم يركبونه ويحملون القليل من الماء فإن توضؤوا به عطشوا، فأجابه بأن البحر طهور ماؤه حلال ميتته. ويخرّجه المحقق عند أبي داود (83) والترمذي (69) والنسائي وابن ماجه (386) وابن خزيمة (111) وابن حبان (1243) والحاكم من طرق أصحاب مالك، ويرى أنه حديث صحيح رجاله ثقات، إذ وثّق النسائي سعيداً والمغيرة وصححه البخاري والترمذي، ويذكر أن ابن عبد البر ضعّف إسناده بجهالتهما وبالاختلاف فيه مع تصحيحه متنه لتلقي العلماء له بالقبول، وينقل عن الدارقطني في العلل أن أشبه الروايات بالصواب رواية مالك ومن تابعه عن صفوان. {cite:muwatta-maruf-1997 p.55} {cite:muwatta-maruf-1997 p.56}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 45 of kitab al-salat at PDF p. 55", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/safwan-ibn-sulaym, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-salama-al-azraqi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-mughira-ibn-abi-burda, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-daraqutni, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 45 at PDF p. 55; باب الطهور للوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 55; matn excerpt at most 40 words" }
