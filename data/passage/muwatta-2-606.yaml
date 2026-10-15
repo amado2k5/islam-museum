@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "606"
-label: { ar: "الموطأ 606", en: "Muwatta 606" }
+label: { ar: "الموطأ 606 — نعى النبي النجاشي للناس في اليوم الذي مات فيه وصلى عليه بالمصلى أربع تكبيرات", en: "Muwatta 606" }
 summary:
-  ar: "ابن شهاب عن سعيد بن المسيب عن أبي هريرة: قال رسول الله ﷺ... ؛ حديث في الجنازة أو القيام لها؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب التكبير على الجنائز. يرويه مالك عن ابن شهاب عن سعيد بن المسيب عن أبي هريرة، أن النبي نعى النجاشي للناس في اليوم الذي مات فيه، وخرج بهم إلى المصلى فصف بهم وكبر أربع تكبيرات. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان والبغوي، وإسماعيل بن أبي أويس عند البخاري (1245)، وابن المبارك عند النسائي، والقعنبي عند أبي داود (3204)، والتنيسي عند البخاري (1334)، وقتيبة عند النسائي، والشافعي، ويحيى بن يحيى النيسابوري عند مسلم (3/54)، وأن الحديث محفوظ أيضاً من حديث الزهري عن سعيد وأبي سلمة معاً كما في الصحيحين، وأن رواية مالك في جميع الموطآت عن سعيد وحده. {cite:muwatta-maruf-1997 p.311} {cite:muwatta-maruf-1997 p.312}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 606 of kitab 02-janaza at PDF p. 311", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-28b" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/negus-of-aksum, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-janaza, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 606 at PDF p. 311; باب التكبير على الجنائز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 311; matn excerpt at most 40 words" }

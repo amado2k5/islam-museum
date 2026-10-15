@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "610"
-label: { ar: "الموطأ 610", en: "Muwatta 610" }
+label: { ar: "الموطأ 610 — سعيد بن المسيب: صليت وراء أبي هريرة على صبي فسمعته يقول: اللهم أعذه من عذاب القبر", en: "Muwatta 610" }
+text: "اللهم أعذه من عذاب القبر"
 summary:
-  ar: "يحيى بن سعيد: سمع سعيد بن المسيب يقول: صليت وراء... ؛ حديث في الصلاة على الجنازة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد، قال: سمعت سعيد بن المسيب يقول: صليت وراء أبي هريرة على صبي لم يعمل خطيئة قط، فسمعته يقول: اللهم أعذه من عذاب القبر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.313}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 610 of kitab 02-janaza at PDF p. 313", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-janaza, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/adhab-al-qabr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 610 at PDF p. 313; باب ما يقول المصلي على الجنازة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 313; matn excerpt at most 40 words" }

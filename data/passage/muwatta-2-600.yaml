@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "600"
-label: { ar: "الموطأ 600", en: "Muwatta 600" }
+label: { ar: "الموطأ 600 — ابن شهاب مرسلاً: كان النبي وأبو بكر وعمر يمشون أمام الجنازة", en: "Muwatta 600" }
 summary:
-  ar: "ابن شهاب: أن رسول الله ﷺ وأبا بكر وعمر... ؛ حديث في الجنازة أو الدفن؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب المشي أمام الجنازة. يرويه مالك عن ابن شهاب مرسلاً، أن النبي وأبا بكر وعمر كانوا يمشون أمام الجنازة، والخلفاء بعدهم، وعبد الله بن عمر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والشيباني ولم يذكروا أبا بكر وعمر، وينقل عن ابن عبد البر (التمهيد 2/83–85) أنه مرسل في الموطأ، وأن قوماً وصلوه عن مالك، والصحيح الإرسال، لكن وصله جماعة من ثقات أصحاب ابن شهاب كابن عيينة ومعمر وموسى بن عقبة من حديث ابن عمر. ويضيف المحقق أن حديث ابن عمر الموصول عند أحمد وأبي داود (3179) والترمذي (1007 و1008) وابن ماجة (1482) والنسائي وابن حبان، وأن الترمذي نقل أن أهل الحديث كلهم يرون المرسل أصح، وأن ابن المبارك قال إن حديث الزهري المرسل أصح من حديث ابن عيينة، ويرى المحقق أن نسبة الوصل إلى معمر فيها نظر لأنها من رواية يحيى بن اليمان وهو ضعيف عند المخالفة، وأن الصواب الإرسال. {cite:muwatta-maruf-1997 p.308} {cite:muwatta-maruf-1997 p.309} {cite:muwatta-maruf-1997 p.310}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 600 of kitab 02-janaza at PDF p. 308", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-28b" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-tirmidhi-muhammad-ibn-isa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dafn, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 600 at PDF p. 308; باب المشي أمام الجنازة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 308; matn excerpt at most 40 words" }

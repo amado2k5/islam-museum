@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "609"
-label: { ar: "الموطأ 609", en: "Muwatta 609" }
+label: { ar: "الموطأ 609 — أبو هريرة يصف صلاته على الجنازة: اللهم عبدك وابن عبدك وابن أمتك… لا تحرمنا أجره ولا تفتنا بعده", en: "Muwatta 609" }
+text: "اللهم إن كان محسناً، فزد في إحسانه، وإن كان مسيئاً، فتجاوز عنه سيئاته. اللهم لا تحرمنا أجره، ولا تفتنا بعده"
 summary:
-  ar: "سعيد بن أبي سعيد المقبري عن أبيه: سأل أبا هريرة كيف يُصلى على الجنازة؛ جوابه في صفة الصلاة على الميت."
+  ar: "أول حديث في باب ما يقول المصلي على الجنازة. يرويه مالك عن سعيد بن أبي سعيد المقبري عن أبيه، أنه سأل أبا هريرة كيف يصلي على الجنازة، فقال: أنا لعمر الله أخبرك: أتبعها من أهلها، فإذا وُضعت كبرت وحمدت الله وصليت على نبيه، ثم أقول: اللهم عبدك وابن عبدك وابن أمتك، كان يشهد أن لا إله إلا أنت وأن محمداً عبدك ورسولك وأنت أعلم به، اللهم إن كان محسناً فزد في إحسانه وإن كان مسيئاً فتجاوز عنه سيئاته، اللهم لا تحرمنا أجره ولا تفتنا بعده. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وعبد الرزاق (6425). {cite:muwatta-maruf-1997 p.313}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 609 of kitab 02-janaza at PDF p. 313", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-abi-said-al-maqburi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-janaza, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dua, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 609 at PDF p. 313; باب ما يقول المصلي على الجنازة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 313; matn excerpt at most 40 words" }

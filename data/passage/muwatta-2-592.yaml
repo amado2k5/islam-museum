@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "592"
-label: { ar: "الموطأ 592", en: "Muwatta 592" }
+label: { ar: "الموطأ 592 — أم عطية في غسل ابنة النبي: اغسلنها ثلاثاً أو خمساً أو أكثر بماء وسدر", en: "Muwatta 592" }
+text: "اغسلنها ثلاثاً، أو خمساً أو أكثر من ذلك، بماء وسدر، واجعلن في الآخرة كافوراً، أو شيئاً من كافور، فإذا فرغتن فآذنني"
 summary:
-  ar: "أيوب السختياني عن ابن سيرين عن أم عطية: حديث في غسل الميتة وكيفيته؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن أيوب بن أبي تميمة السختياني عن محمد بن سيرين عن أم عطية الأنصارية، قالت: دخل علينا النبي حين توفيت ابنته، فأمرنا أن نغسلها ثلاثاً أو خمساً أو أكثر بماء وسدر، وأن نجعل في الغسلة الأخيرة كافوراً أو شيئاً منه، وأن نؤذنه إذا فرغنا. قالت: فلما فرغنا آذناه، فأعطانا حقوه، أي إزاره، وقال: أشعرنها إياه. ويذكر المحقق أن عبارة «إن رأيتن ذلك» التي في نسخة م وغيرها لا تصح في رواية يحيى، نقلاً عن ابن عبد البر (التمهيد 1/372) أن كل من روى الحديث عن مالك يقولها وسقطت ليحيى، وأنه رواه عن مالك أبو مصعب ومن طريقه البغوي، وإسماعيل بن أبي أويس عند البخاري (1253)، والقعنبي عند أبي داود (3142)، وقتيبة عند مسلم (3/47)، والشافعي. {cite:muwatta-maruf-1997 p.305} {cite:muwatta-maruf-1997 p.306}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 592 of kitab 02-janaza at PDF p. 305", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-28b" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-atiyya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-sirin, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ayyub-al-sakhtiyani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zaynab-bint-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ghusl-al-mayyit, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 592 at PDF p. 305; باب ما جاء في غسل الميت", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 305; matn excerpt at most 40 words; doubt: الحديث لا يسمي الابنة؛ ربطها بزينب بنت النبي اجتهاد من المتحف لا من الصفحة." }

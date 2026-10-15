@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "605"
-label: { ar: "الموطأ 605", en: "Muwatta 605" }
+label: { ar: "الموطأ 605 — أبو هريرة ينهى أن يُتبع بعد موته بنار؛ ويحيى: سمعت مالكاً يكره ذلك", en: "Muwatta 605" }
 summary:
-  ar: "سعيد بن أبي سعيد المقبري عن أبي هريرة: نهى أن يُتبع... ؛ حكم اتباع الجنازة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن سعيد بن أبي سعيد المقبري عن أبي هريرة، أنه نهى أن يُتبع بعد موته بنار. ويقول يحيى: سمعت مالكاً يكره ذلك. ويذكر المحقق أنه رواه عن مالك أبو مصعب وعبد الرزاق (6155) ومحمد بن الحسن الشيباني (309)، وأن إسناده صحيح، وأنه روي عن أبي هريرة مرفوعاً عند أحمد وأبي داود (3171) من طريق فيها راو مبهم، وقد اختلف فيه على يحيى بن أبي كثير فجُعل مرة عن أبي سعيد الخدري، وهو اضطراب أعله به الدارقطني في العلل، فالموقوف عند المحقق أصح. {cite:muwatta-maruf-1997 p.310} {cite:muwatta-maruf-1997 p.311}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 605 of kitab 02-janaza at PDF p. 310", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-28b" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-abi-said-al-maqburi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-daraqutni, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dafn, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 605 at PDF p. 310; باب النهي أن تتبع الجنازة بنار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 310; matn excerpt at most 40 words" }

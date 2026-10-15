@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "612"
-label: { ar: "الموطأ 612", en: "Muwatta 612" }
+label: { ar: "الموطأ 612 — جنازة زينب بنت أبي سلمة بعد الصبح: ابن عمر: إما أن تصلوا الآن وإما أن تتركوها حتى ترتفع الشمس", en: "Muwatta 612" }
 summary:
-  ar: "محمد بن أبي حرملة مولى عبد الرحمن بن أبي سفيان بن حويطب: حديث في الصلاة على الجنازة؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب الصلاة على الجنائز بعد العصر وبعد الصبح. يرويه مالك عن محمد بن أبي حرملة مولى عبد الرحمن بن أبي سفيان بن حويطب، أن زينب بنت أبي سلمة توفيت وطارق أمير المدينة، فأُتي بجنازتها بعد صلاة الصبح فوُضعت بالبقيع، وكان طارق يغلّس بالصبح، فسمع ابن أبي حرملة عبد الله بن عمر يقول لأهلها: إما أن تصلوا على جنازتكم الآن، وإما أن تتركوها إلى أن ترتفع الشمس. ويذكر المحقق أن عنوان الباب في نسخة م «بعد الصبح إلى الإسفار وبعد العصر إلى الاصفرار»، وأنه رواه عن مالك أبو مصعب وسويد ويحيى بن بكير عند البيهقي (4/32). {cite:muwatta-maruf-1997 p.314}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 612 of kitab 02-janaza at PDF p. 314", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zaynab-bint-abi-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-abi-harmala, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/tariq-ibn-amr-amir-al-madina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-baqia, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-janaza, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 612 at PDF p. 314; باب الصلاة على الجنائز بعد العصر وبعد الصبح", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 314; matn excerpt at most 40 words" }

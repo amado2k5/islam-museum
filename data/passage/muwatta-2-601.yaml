@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "601"
-label: { ar: "الموطأ 601", en: "Muwatta 601" }
+label: { ar: "الموطأ 601 — ربيعة بن عبد الله بن الهدير: رأى عمر يقدم الناس أمام جنازة زينب بنت جحش", en: "Muwatta 601" }
 summary:
-  ar: "محمد بن المنكدر عن ربيعة بن عبد الله بن الهدير: أخبره أنه... ؛ حديث في الجنازة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن محمد بن المنكدر عن ربيعة بن عبد الله بن الهدير، أنه أخبره أنه رأى عمر بن الخطاب يتقدم الناس أمام الجنازة في جنازة زينب بنت جحش. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والشافعي في مسنده ومحمد بن الحسن الشيباني (308). {cite:muwatta-maruf-1997 p.310}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 601 of kitab 02-janaza at PDF p. 310", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-28b" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zaynab-bint-jahsh, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabia-ibn-abdallah-ibn-al-hudayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-al-munkadir, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dafn, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 601 at PDF p. 310; باب المشي أمام الجنازة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 310; matn excerpt at most 40 words" }

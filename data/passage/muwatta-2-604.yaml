@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "604"
-label: { ar: "الموطأ 604", en: "Muwatta 604" }
+label: { ar: "الموطأ 604 — أسماء بنت أبي بكر لأهلها: أجمروا ثيابي إذا مت وحنطوني ولا تتبعوني بنار", en: "Muwatta 604" }
+text: "أجمروا ثيابي إذا مت، ثم حنطوني، ولا تذروا على كفني حناطاً، ولا تتبعوني بنار"
 summary:
-  ar: "هشام بن عروة عن أسماء بنت أبي بكر: قالت لأهلها: أجمروني... ؛ وصية أسماء في تطييب الميت؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب النهي أن تتبع الجنازة بنار. يرويه مالك عن هشام بن عروة عن أسماء بنت أبي بكر، أنها أوصت أهلها أن يبخروا ثيابها إذا ماتت ثم يحنطوها، وأن لا يذروا على كفنها حناطاً، وأن لا يتبعوها بنار. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.310}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 604 of kitab 02-janaza at PDF p. 310", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-28b" }
+  - { type: mentions, target: person/asma-bint-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/takfin, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dafn, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 604 at PDF p. 310; باب النهي أن تتبع الجنازة بنار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 310; matn excerpt at most 40 words" }

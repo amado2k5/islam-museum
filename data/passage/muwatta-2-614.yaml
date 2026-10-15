@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "614"
-label: { ar: "الموطأ 614", en: "Muwatta 614" }
+label: { ar: "الموطأ 614 — عائشة تأمر أن يُمر عليها بسعد بن أبي وقاص في المسجد: ما صلى النبي على سهيل بن بيضاء إلا في المسجد", en: "Muwatta 614" }
+text: "ما أسرع الناس، ما صلى رسول الله على سهيل بن بيضاء إلا في المسجد"
 summary:
-  ar: "أبو النضر مولى عمر بن عبيد الله عن عائشة: أن... ؛ حديث في الصلاة على الميت؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب الصلاة على الجنائز في المسجد. يرويه مالك عن أبي النضر مولى عمر بن عبيد الله عن عائشة، أنها أمرت أن يُمر عليها بسعد بن أبي وقاص في المسجد حين مات لتدعو له، فأنكر ذلك الناس عليها، فقالت: ما أسرع الناس، ما صلى النبي على سهيل بن بيضاء إلا في المسجد. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والقعنبي عند الطحاوي، وينقل عن الدارقطني في أحاديث الموطأ أنه روي موصولاً من حديث مالك ولا يثبت، وعن ابن عبد البر (التمهيد 21/216) أنه منقطع عند جمهور الرواة وأن حماد بن خالد انفرد بوصله عن أبي سلمة عن عائشة، ويضيف أن مسلماً (3/63) وأبا داود (3190) أخرجاه من طريق الضحاك بن عثمان عن أبي النضر عن أبي سلمة، وأن الدارقطني تتبعها على مسلم ورجح رواية مالك، وأن أحمد ومسلماً (3/62) والترمذي (1033) وابن ماجة والنسائي أخرجوه من حديث عباد بن عبد الله بن الزبير عن عائشة، وقال الترمذي: حسن. {cite:muwatta-maruf-1997 p.314} {cite:muwatta-maruf-1997 p.315}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-02-janaza }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 614 of kitab 02-janaza at PDF p. 314", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-29" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/suhayl-ibn-bayda, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-nadr-salim-ibn-abi-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-daraqutni, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-janaza, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 614 at PDF p. 314; باب الصلاة على الجنائز في المسجد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k2-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 314; matn excerpt at most 40 words" }
