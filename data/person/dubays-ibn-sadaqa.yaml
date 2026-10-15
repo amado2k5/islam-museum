@@ -1,0 +1,43 @@
+id: person/dubays-ibn-sadaqa
+class: person
+label:
+  ar: دبيس بن صدقة المزيدي
+  en: Dubays ibn Sadaqa al-Mazyadidi
+summary:
+  ar: "دبيس بن صدقة بن منصور المزيدي؛ أسر يوم مقتل أبيه سنة 501هـ فأطلقه السلطان محمد لأمه واستحلفه على الطاعة، ثم سرحه السلطان محمود إلى بلده فملك الحلة واجتمع عليه خلق من العرب والأكراد، فثار على المسترشد وجمع له الخليفة العساكر فانهزم عسكره وسبيت حرمه سنة 517هـ، فلحق بالفرنج وأطمعهم في حلب سنة 518هـ فامتنعت عليهم، ثم لحق بالملك طغرل بن السلطان محمد فأغراه بالمسير إلى العراق وضمن له ملكه."
+  en: "Dubays ibn Sadaqa ibn Mansur al-Mazyadidi; captured at his father's death in 501 AH, released by Sultan Muhammad to his mother under oath of obedience, then sent home by Sultan Mahmud to rule al-Hilla where Arabs and Kurds rallied to him — he rose against caliph al-Mustarshid, whose mustered army routed him and took his household captive in 517 AH; he fled to the Franks tempting them with Aleppo in 518 (which resisted), then joined Malik Tughril ibn Sultan Muhammad and incited him to march on Iraq, pledging him its kingship."
+gender: male
+roles: [ruler]
+traditions: [sunni]
+relations:
+- type: member_of
+  target: group/banu-mazyad
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/mazyadid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/sadaqa-ibn-mansur-mazyadid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: fought
+  target: person/al-mustarshid-billah
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — خبر دبيس مع البرسقي ومع الملك مسعود ومسيره إلى الملك طغرل، ص1083-1085 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
