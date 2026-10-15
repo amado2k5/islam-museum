@@ -1,0 +1,19 @@
+id: place/al-ukhdud
+class: place
+kind: site
+label: { ar: "الأخدود", en: "al-Ukhdud" }
+summary:
+  ar: "الخندق المحتفَر لأصحاب الأخدود المذكورين في القرآن الكريم؛ عند ابن فضل الله العمري هو بنجران من اليمن {cite:umari-masalik-1924 p. 232}."
+  en: "The dug trench of the People of the Ditch named in the Qur'an; al-Umari places it at Najran in Yemen {cite:umari-masalik-1924 p. 232}."
+wings: [place]
+regions: [arabia]
+relations:
+  - { type: related_to, target: event/massacre-of-najran, note: "موضع خندق أصحاب الأخدود.", sources: [source/umari-masalik-1924] }
+  - { type: related_to, target: place/najran, note: "يعدّه العمري بنجران.", sources: [source/umari-masalik-1924] }
+provenance:
+  layer: own-research
+  source: "مسالك الأبصار (ط 1924) ص 232"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-umari-2
+sources: [source/umari-masalik-1924]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

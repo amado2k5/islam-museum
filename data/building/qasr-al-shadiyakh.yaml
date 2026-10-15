@@ -1,0 +1,19 @@
+id: building/qasr-al-shadiyakh
+class: building
+kind: palace
+label: { ar: "قصر الشاذياخ", en: "Qasr al-Shadiyakh" }
+summary:
+  ar: "قصر بباب نيسابور من خراسان كان دار السلطنة لبعض ملوكها، وشُبّه بناؤه بغمدان حتى قيل «اشرب هنيئاً عليك التاج مرتفقاً بالشاذياخ ودع غمدان لليمن»؛ وعلى بابه صُلب الشاعر علي بن الجهم {cite:umari-masalik-1924 p. 233}."
+  en: "The palace at Nishapur's gate that was the seat of rule for some of its kings, its building likened to Ghumdan itself — 'drink your crown's ease at al-Shadiyakh and leave Ghumdan to Yemen'; at its gate the poet Ali ibn al-Jahm was crucified {cite:umari-masalik-1924 p. 233}."
+wings: [place]
+regions: [levant-iraq]
+relations:
+  - { type: located_in, target: place/nishapur, sources: [source/umari-masalik-1924] }
+  - { type: related_to, target: person/ali-ibn-al-jahm, note: "صُلب على باب القصر على رواية العمري.", sources: [source/umari-masalik-1924] }
+provenance:
+  layer: own-research
+  source: "مسالك الأبصار (ط 1924) ص 233"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-umari-2
+sources: [source/umari-masalik-1924]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

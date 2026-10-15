@@ -9,7 +9,7 @@ periods: [period/rashidun]
 relations:
   - { type: had_participant, target: person/abd-allah-ibn-amir, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/qays-ibn-al-haytham, role: "أول وال", sources: [source/futuh-buldan-maarif-1407] }
-  - { type: occurred_at, target: place/naysabur }
+  - { type: occurred_at, target: place/nishapur }
 wings: [people, place, time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
