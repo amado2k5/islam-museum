@@ -1,0 +1,25 @@
+id: person/al-bayduq-abu-bakr-ibn-ali-al-sanhaji
+class: person
+label: { ar: "البيدق أبو بكر بن علي الصنهاجي", en: "al-Bayduq Abu Bakr ibn Ali al-Sanhaji" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر بن علي الصنهاجي المعروف بالبيدق" }
+  - { kind: kunya, lang: ar, value: "أبو بكر" }
+  - { kind: nisba, lang: ar, value: "الصنهاجي" }
+  - { kind: laqab, lang: ar, value: "البيدق" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1096~", hijri: "0490", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1160", hijri: "0555", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من قبيلة صنهاجة في المغرب الأوسط، ولد حوالي 490هـ (1096م)، وتوفي سنة 555هـ (1160م)."
+  en: "From the Sanhaja tribe of the central Maghrib, born around 490 AH (1096 CE) and died 555 AH (1160 CE)."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 244-245, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص244", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
