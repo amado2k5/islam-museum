@@ -34,6 +34,9 @@ relations:
   - { type: participated_in, target: event/battle-of-yamama, role: hanifa-commander, sources: [source/tabari-donner-1993] }
   - { type: participated_in, target: event/delegation-of-banu-hanifa, role: وفد-member, note: "اختلفت الروايات في شأنه داخل الوفد: حضر مستوراً بالثياب أو خُلّف في الرحال (ابن إسحاق ص222-223).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: participated_in, target: event/musaylima-claims-prophethood, role: "مدّعي النبوة", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/musaylimas-letter-and-the-prophets-reply, role: "كاتب الرسالة", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/letter-of-musaylima-to-the-prophet, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/the-prophets-dream-of-the-two-gold-bracelets, role: "أحد الكذابين في تأويل الرؤيا", sources: [source/ibn-hisham-saqqa] }
 issue:
   ar: كيف يُقرأ مسيلمة في التراث السني وعند المؤرخين؟
   en: How is Musaylima read in the Sunni tradition and by historians?

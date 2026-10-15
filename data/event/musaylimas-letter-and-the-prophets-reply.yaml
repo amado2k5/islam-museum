@@ -1,0 +1,22 @@
+id: event/musaylimas-letter-and-the-prophets-reply
+class: event
+kind: other
+label: { ar: "كتاب مسيلمة إلى النبي والجواب عنه", en: "Musaylima's letter to the Prophet and the reply" }
+summary:
+  ar: "كتب مسيلمة بن حبيب إلى النبي في آخر سنة عشر: من مسيلمة رسول الله إلى محمد رسول الله، أما بعد فإني قد أُشركت في الأمر معك، وإن لنا نصف الأرض ولقريش نصف الأرض، ولكن قريشاً قوم يعتدون؛ وقدم به رسولان له. فسألهما النبي: فما تقولان أنتما؟ قالا: نقول كما قال؛ فقال: لولا أن الرسل لا تُقتل لضربت أعناقكما، ثم كتب: من محمد رسول الله إلى مسيلمة الكذاب، السلام على من اتبع الهدى، أما بعد فإن الأرض لله يورثها من يشاء من عباده والعاقبة للمتقين."
+  en: "At the end of 10 AH Musaylima ibn Habib wrote to the Prophet: from Musaylima the messenger of God to Muhammad the messenger of God; I have been made a partner with you in the matter, half the earth is ours and half Quraysh's, but Quraysh are a people who transgress. Two envoys brought it. The Prophet asked what they themselves said; they said, as he says; he said that were envoys not immune from death he would have struck off their heads, then wrote: from Muhammad the messenger of God to Musaylima the liar, peace on whoever follows guidance; the earth is God's, He gives it to whom He wills of His servants, and the outcome is for the God-fearing."
+wings: [time, people, words]
+themes: [prophets, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-03~", hijri: "0010-12~", calendar: julian, precision: month, status: tradition, note: "«وذلك في آخر سنة عشر» (ص247)؛ الشهر مستنتج؛ الرحيق ص452.", derived: true, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: caused_by, target: event/musaylima-claims-prophethood, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/musaylima, role: "كاتب الرسالة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "المجيب", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/nuaym-ibn-masud, role: "راوي الخبر (شهد المجلس)", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 247", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/tabari-donner-1993]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 247" }

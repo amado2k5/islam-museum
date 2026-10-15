@@ -1,0 +1,16 @@
+id: group/banu-al-harith-ibn-kab
+class: group
+label: { ar: "بنو الحارث بن كعب", en: "Banu al-Harith ibn Ka'b" }
+summary:
+  ar: "قبيلة بنجران بعث إليها النبي خالد بن الوليد في ربيع الآخر أو جمادى الأولى سنة 10هـ ليدعوهم ثلاثاً قبل القتال، فأسلموا ولم يقاتلوا، وأقام فيهم خالد يعلمهم ثم قدم بوفدهم على النبي، فأمّر عليهم قيس بن الحصين وبعث إليهم عمرو بن حزم يفقههم ويأخذ صدقاتهم؛ قالوا للنبي إنهم كانوا يغلبون من قاتلهم لأنهم يجتمعون ولا يفترقون ولا يبدؤون أحداً بظلم."
+  en: "A tribe of Najran to whom the Prophet sent Khalid ibn al-Walid in Rabi' al-Akhir or Jumada al-Ula 10 AH to call them to Islam for three days before fighting; they converted without a fight, Khalid stayed to teach them and then brought their delegation to the Prophet, who appointed Qays ibn al-Husayn over them and sent Amr ibn Hazm to instruct them and collect their sadaqa. They told the Prophet they used to defeat whoever fought them because they stayed united and never began a wrong."
+kind: tribe
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/najran, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/madhhij, note: "بنو الحارث بن كعب من مذحج بحسب المسعودي الذي يذكر أبا حارثة جدّ الحارث بن كعب بنجران", sources: [source/muruj-al-dhahab] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 239-243", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 239-243" }

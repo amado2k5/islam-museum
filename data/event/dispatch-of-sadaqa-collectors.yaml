@@ -19,6 +19,11 @@ relations:
   - { type: had_participant, target: person/al-zibriqan-ibn-badr, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/qays-ibn-asim, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/al-dahhak-ibn-sufyan, role: collector-to-banu-kilab, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-muhajir-ibn-abi-umayya, role: "إلى صنعاء؛ خرج عليه العنسي وهو بها", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ziyad-ibn-labid-al-bayadi, role: "إلى حضرموت وصدقاتها", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/malik-ibn-nuwayra, role: "على صدقات بني حنظلة؛ قال ابن هشام: اليربوعي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "إلى أهل نجران ليجمع صدقتهم ويقدم بجزيتهم", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: period/prophetic-era }
-sources: [source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 424-425" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 246-247; al-Raheeq al-Makhtum pp. 424-425", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 424-425; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 246-247" }

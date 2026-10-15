@@ -1,0 +1,25 @@
+id: person/qays-ibn-al-husayn-dhu-al-ghussa
+class: person
+label: { ar: "قيس بن الحصين ذو الغصة", en: "Qays ibn al-Husayn Dhu al-Ghussa" }
+names:
+  - { kind: full, lang: ar, value: "قيس بن الحصين ذو الغصة" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من وفد بني الحارث بن كعب الذي قدم مع خالد بن الوليد سنة 10هـ؛ أمّره النبي على بني الحارث بن كعب، ويذكر المحققون أنه سُمّي ذا الغصة لأنه كان إذا تكلم أصابه كالغصص."
+  en: "A member of the Banu al-Harith ibn Ka'b delegation that came with Khalid ibn al-Walid in 10 AH; the Prophet appointed him over Banu al-Harith, and the editors explain he was called Dhu al-Ghussa because he seemed to choke when he spoke."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631" }, status: tradition, note: "أسلم مع بني الحارث بن كعب على يدي خالد سنة 10هـ وقدم في وفدهم (ابن هشام ص240).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-al-harith-ibn-kab, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/mission-of-khalid-to-banu-al-harith, role: "من الوفد؛ أمّره النبي على قومه", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 240-241", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 240-241" }

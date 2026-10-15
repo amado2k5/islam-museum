@@ -1,0 +1,23 @@
+id: event/the-prophets-dream-of-the-two-gold-bracelets
+class: event
+kind: other
+label: { ar: "رؤيا النبي في السوارين من ذهب وتأويلهما بالكذابين", en: "The Prophet's dream of the two gold bracelets, interpreted as the two liars" }
+summary:
+  ar: "خطب النبي الناس على منبره فقال إنه رأى ليلة القدر ثم أُنسيها، ورأى في ذراعيه سوارين من ذهب فكرههما فنفخهما فطارا، فأوّلهما بالكذابين صاحب اليمن وصاحب اليمامة، أي الأسود العنسي ومسيلمة؛ يرويه ابن إسحاق عن يزيد بن عبد الله بن قسيط عن عطاء بن يسار أو أخيه سليمان عن أبي سعيد الخدري. ويروي عن أبي هريرة أن الساعة لا تقوم حتى يخرج ثلاثون دجالاً كلهم يدعي النبوة."
+  en: "The Prophet addressed the people from his minbar saying he had seen the Night of Power and then been made to forget it, and had seen on his arms two gold bracelets which he disliked and blew away, interpreting them as the two liars, the man of Yemen and the man of al-Yamama, that is al-Aswad al-Ansi and Musaylima; Ibn Ishaq has it from Yazid ibn Abdullah ibn Qusayt from Ata' ibn Yasar or his brother Sulayman from Abu Sa'id al-Khudri. He also reports from Abu Hurayra that the Hour will not come until thirty impostors appear, each claiming prophethood."
+wings: [time, people, ideas]
+themes: [prophets, afterlife-and-eschatology]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631/0632", hijri: "0010", calendar: julian, precision: year, status: tradition, derived: true, note: "لا يؤرّخ ابن إسحاق الخطبة؛ يضعها في ذكر الكذابين بعد الوفود وقبل كتاب مسيلمة الذي في آخر سنة عشر (ص246-247).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, note: "على منبر النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "الرائي والخطيب", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-said-al-khudri, role: "راوي الخطبة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/musaylima, role: "أحد الكذابين في التأويل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-aswad-al-ansi, role: "أحد الكذابين في التأويل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-hurayra, role: "راوي حديث الدجالين", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 246", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 246" }

@@ -1,0 +1,22 @@
+id: work/letter-of-musaylima-to-the-prophet
+class: work
+kind: other
+label: { ar: "كتاب مسيلمة إلى النبي", en: "Musaylima's letter to the Prophet" }
+summary:
+  ar: "رسالة قصيرة من مسيلمة بن حبيب إلى النبي في آخر سنة عشر يسمّي فيها نفسه رسول الله ويقول إنه أُشرك في الأمر معه وإن له نصف الأرض ولقريش نصفها ولكن قريشاً قوم يعتدون؛ أجاب النبي عنها بأن الأرض لله يورثها من يشاء والعاقبة للمتقين."
+  en: "A short letter from Musaylima ibn Habib to the Prophet at the end of 10 AH in which he calls himself the messenger of God, claims to have been made a partner in the matter, with half the earth his and half Quraysh's, though Quraysh transgress; the Prophet replied that the earth is God's to give to whom He wills, and the outcome is for the God-fearing."
+genre: [narrative]
+made: { by_muslims: false, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/musaylima]
+language: language/arabic
+composed: { edtf: "0632-03~", hijri: "0010-12~", calendar: julian, precision: month, status: tradition, derived: true, note: "«في آخر سنة عشر» (ص247).", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/musaylimas-letter-and-the-prophets-reply, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/quraysh, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 247", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 247" }

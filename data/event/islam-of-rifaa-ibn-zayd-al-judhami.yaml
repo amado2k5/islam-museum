@@ -1,0 +1,21 @@
+id: event/islam-of-rifaa-ibn-zayd-al-judhami
+class: event
+kind: other
+label: { ar: "قدوم رفاعة بن زيد الجذامي وإسلامه وكتاب النبي لقومه", en: "Rifa'a ibn Zayd al-Judhami comes to the Prophet, embraces Islam and carries his letter to his people" }
+summary:
+  ar: "قدم رفاعة بن زيد الجذامي ثم الضبيبي على النبي في هدنة الحديبية قبل خيبر، فأهدى له غلاماً وأسلم فحسن إسلامه، وكتب له النبي كتاباً إلى قومه: إنه بعثه إلى قومه عامة ومن دخل فيهم يدعوهم إلى الله ورسوله، فمن أقبل فهو في حزب الله وحزب رسوله، ومن أدبر فله أمان شهرين؛ فلما قدم على قومه أجابوا وأسلموا ثم ساروا إلى حرة الرجلاء فنزلوها."
+  en: "Rifa'a ibn Zayd al-Judhami, of the Dubayb, came to the Prophet during the Hudaybiyya truce before Khaybar, gave him a slave and became a good Muslim; the Prophet wrote him a letter to his people: he sent him to all his people and whoever joined them, to call them to God and His Messenger, and whoever came forward was in God's party and the Messenger's, while whoever turned away had two months' safety. His people answered and embraced Islam, then moved to Harrat al-Rajla' and settled there."
+wings: [time, people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628~", hijri: "0006~", calendar: julian, precision: year, status: tradition, note: "«في هدنة الحديبية قبل خيبر» (ص243)؛ الحديبية ذو القعدة 6هـ وخيبر 7هـ؛ السنة مشتقة.", derived: true, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/rifaa-ibn-zayd-al-judhami, role: "الوافد وحامل الكتاب", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "كتب له الكتاب إلى قومه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/judham, role: "قومه الذين أسلموا", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 243", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 243; single-source date flagged" }

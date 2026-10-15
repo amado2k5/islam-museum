@@ -1,0 +1,22 @@
+id: event/mission-of-amr-ibn-hazm-to-najran
+class: event
+kind: other
+label: { ar: "بعث عمرو بن حزم إلى بني الحارث بن كعب وعهد النبي إليه", en: "The sending of Amr ibn Hazm to Banu al-Harith ibn Ka'b and the Prophet's written charge to him" }
+summary:
+  ar: "بعد أن ولّى وفد بني الحارث بن كعب بعث إليهم النبي عمرو بن حزم ليفقههم في الدين ويعلمهم السنة ومعالم الإسلام ويأخذ منهم صدقاتهم، وكتب له كتاباً عهد إليه فيه عهده: تقوى الله، والأخذ بالحق، وتعليم القرآن وألا يمسه إلا طاهر، واللين في الحق والشدة في الظلم، ومعالم الحج والصلاة ومواقيتها والوضوء والجمعة، والنهي عن دعوى الجاهلية والقبائل، وخمس المغانم وفرائض الصدقة، وحكم من أسلم من أهل الكتاب ومن بقي على دينه وعليه الجزية."
+  en: "After the Banu al-Harith delegation left, the Prophet sent Amr ibn Hazm to teach them religion, the sunna and the landmarks of Islam and to collect their sadaqa, writing him a charge: fear of God, taking what is right, teaching the Qur'an which none may touch but the pure, gentleness in right and severity against wrong, the rites of hajj, the prayer and its times, ablution and Friday, the ban on tribal rallying-cries, the fifth of booty and the sadaqa rates, and the rule for People of the Book who convert and for those who keep their faith and pay the jizya."
+wings: [time, people, ideas]
+themes: [education, dawa-and-christian-mission, zakat-and-sadaqa]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-01~", hijri: "0010-11~", calendar: julian, precision: month, status: tradition, derived: true, note: "«بعد أن ولّى وفدهم» الذي رجع في بقية من شوال أو صدر ذي القعدة سنة 10هـ (ص241)؛ التاريخ مشتق.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/najran, sources: [source/ibn-hisham-saqqa] }
+  - { type: caused_by, target: event/mission-of-khalid-to-banu-al-harith, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "الباعث وكاتب العهد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/amr-ibn-hazm, role: "المبعوث معلماً ومصدّقاً", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-al-harith-ibn-kab, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 241-243", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 241-243" }

@@ -19,6 +19,7 @@ periods:
 regions:
 - arabia
 relations:
+  - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: "على صدقات بني حنظلة؛ قال ابن هشام: اليربوعي", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/killing-of-malik-ibn-nuwayra, sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
@@ -26,6 +27,7 @@ provenance:
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-7
 sources:
+- source/ibn-hisham-saqqa
 - source/futuh-buldan-maarif-1407
 status:
   review: draft

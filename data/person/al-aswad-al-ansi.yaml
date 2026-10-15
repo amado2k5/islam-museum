@@ -23,6 +23,7 @@ story_roles:
 faith:
   - { value: arabian-polytheism, basis: debated, note: "A kahin (soothsayer) claiming prophecy; the religious content of his movement is thinly documented.", sources: [source/watt-1956-medina] }
 relations:
+  - { type: participated_in, target: event/the-prophets-dream-of-the-two-gold-bracelets, role: "صاحب اليمن في تأويل الرؤيا", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-ans }
   - { type: died_in, target: place/sanaa }
   - { type: opposed, target: polity/rashidun-caliphate, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }

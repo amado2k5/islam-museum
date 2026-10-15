@@ -1,0 +1,23 @@
+id: work/letter-to-hamdan
+class: work
+kind: charter
+label: { ar: "كتاب النبي لمخلاف خارف وهمدان", en: "The Prophet's letter to the district of Kharif and Hamdan" }
+summary:
+  ar: "كتاب من رسول الله محمد لمخلاف خارف وأهل جناب الهضب وحقاف الرمل مع وافدها ذي المشعار مالك بن النمط ومن أسلم من قومه: أن لهم فراع أرضهم ووهاطها ما أقاموا الصلاة وآتوا الزكاة، يأكلون علافها ويرعون عافيها، لهم بذلك عهد الله وذمة رسوله، وشاهدهم المهاجرون والأنصار."
+  en: "A letter from the Messenger of God Muhammad to the district of Kharif and the people of the highland slopes and the sand dunes, with their envoy Dhu al-Mish'ar Malik ibn al-Namat and those of his people who became Muslim: the heights and lowlands of their land are theirs while they pray and pay zakat, to eat its acacia fruit and graze its pasture, under God's pact and the Messenger's protection, with the Muhajirun and Ansar as witnesses."
+genre: [charter]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+language: language/arabic
+composed: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "مرجع النبي من تبوك (ص244).", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [zakat-and-sadaqa, water-and-animals]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/delegation-of-hamdan, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/malik-ibn-al-namt, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/banu-hamdan, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: concept/hima, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 245", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 245" }

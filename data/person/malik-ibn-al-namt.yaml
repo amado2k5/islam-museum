@@ -1,0 +1,30 @@
+id: person/malik-ibn-al-namt
+class: person
+label: { ar: "مالك بن النمط الهمداني ذو المشعار", en: "Malik ibn al-Namat al-Hamdani, Dhu al-Mish'ar" }
+names:
+  - { kind: full, lang: ar, value: "مالك بن النمط الهمداني" }
+  - { kind: laqab, lang: ar, value: "ذو المشعار" }
+  - { kind: kunya, lang: ar, value: "أبو ثور" }
+gender: male
+roles: [companion, poet, tribal-leader]
+traditions: [sunni]
+summary:
+  ar: "وافد همدان على النبي مرجعه من تبوك، ارتجز بالقوم ثم قام بين يدي النبي فقال: نصية من همدان من كل حاضر وباد أتوك على قلص نواجٍ متصلة بحبائل الإسلام، فكتب له النبي كتاباً لمخلاف خارف وأهل جناب الهضب وحقاف الرمل بأن لهم فراع أرضهم ووهاطها ما أقاموا الصلاة وآتوا الزكاة؛ وقال في ذلك شعراً يذكر فيه أنه ذكر رسول الله في فحمة الدجى. والمصادر المتأخرة تقول إن النبي أمّره على من أسلم من همدان."
+  en: "The envoy of Hamdan who met the Prophet on his return from Tabuk, chanted rajaz before the company, then stood before the Prophet and said that the pick of Hamdan, settled and nomad, had come on swift camels bound to the ropes of Islam; the Prophet wrote him a letter for the district of Kharif and the people of the highland slopes and sand dunes granting them their heights and lowlands while they prayed and paid zakat, and he composed verses recalling the Messenger in the blackness of night. Later sources say the Prophet set him over the Muslims of Hamdan."
+wings: [people]
+themes: [converts-and-leavers, literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "وافد همدان مرجع النبي من تبوك (ابن هشام ص244).", sources: [source/ibn-hisham-saqqa] }
+  - { role: poet, status: tradition, note: "ارتجز بالقوم وقال قصيدة في النبي (ابن هشام ص244-246).", sources: [source/ibn-hisham-saqqa] }
+  - { role: official, start: { edtf: "0631~" }, status: tradition, note: "أمّره النبي على من أسلم من قومه (الرحيق ص449).", sources: [source/mubarakpuri-raheeq] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-hamdan, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-hamdan, role: "وافد همدان وخطيبه", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/malik-ibn-al-namt-poem, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 243-246", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 243-246" }

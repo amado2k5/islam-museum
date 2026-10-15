@@ -40,6 +40,11 @@ faith:
   basis: tradition
   note: ذُكر في كتب الصحابة؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md).
 relations:
+- type: participated_in
+  target: event/mission-of-amr-ibn-hazm-to-najran
+  role: المبعوث إلى بني الحارث بن كعب معلماً ومصدّقاً
+  sources:
+  - source/ibn-hisham-saqqa
 - type: member_of
   target: group/ansar
   sources:
@@ -60,6 +65,7 @@ provenance:
   run: isaba-batch-6
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 2

@@ -1,0 +1,27 @@
+id: person/rifaa-ibn-zayd-al-judhami
+class: person
+label: { ar: "رفاعة بن زيد الجذامي", en: "Rifa'a ibn Zayd al-Judhami" }
+names:
+  - { kind: full, lang: ar, value: "رفاعة بن زيد الجذامي ثم الضبيبي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من جذام ثم من الضبيب؛ قدم على النبي في هدنة الحديبية قبل خيبر فأهدى له غلاماً وأسلم فحسن إسلامه، وحمل كتاب النبي إلى قومه يدعوهم فأسلموا ونزلوا حرة الرجلاء."
+  en: "Of Judham, of the Dubayb; he came to the Prophet during the Hudaybiyya truce before Khaybar, gave him a slave and became a good Muslim, and carried the Prophet's letter inviting his people, who converted and settled Harrat al-Rajla'."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0628~" }, status: tradition, note: "أسلم فحسن إسلامه في هدنة الحديبية (ابن هشام ص243).", sources: [source/ibn-hisham-saqqa] }
+  - { role: missionary, toward: group/judham, start: { edtf: "0628~" }, status: tradition, note: "حمل كتاب النبي إلى قومه فأسلموا (ابن هشام ص243).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0628~" }, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/judham, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/islam-of-rifaa-ibn-zayd-al-judhami, role: "الوافد", sources: [source/ibn-hisham-saqqa] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0628~" }, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 243", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 243" }

@@ -1,0 +1,25 @@
+id: person/malik-ibn-ayfa
+class: person
+label: { ar: "مالك بن أيفع الهمداني", en: "Malik ibn Ayfa' al-Hamdani" }
+names:
+  - { kind: full, lang: ar, value: "مالك بن أيفع الهمداني" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من وفد همدان الذين لقوا النبي مرجعه من تبوك مع مالك بن النمط ذي المشعار، كما سمّاهم ابن هشام عن أبي إسحاق السبيعي."
+  en: "One of the Hamdan delegation who met the Prophet on his return from Tabuk with Malik ibn al-Namat Dhu al-Mish'ar, as Ibn Hisham names them on the authority of Abu Ishaq al-Sabi'i."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "من وفد همدان (ابن هشام ص244).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-hamdan, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-hamdan, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 244", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 244" }

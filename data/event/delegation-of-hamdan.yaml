@@ -10,14 +10,18 @@ themes: [converts-and-leavers, peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "لقوا النبي مرجعه من تبوك (ابن هشام ص244)؛ الرحيق ص449.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: group/hamdan }
+  - { type: had_participant, target: group/banu-hamdan, role: "الوفد", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/malik-ibn-ayfa, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/dimam-ibn-malik-al-salmani, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/umayra-ibn-malik-al-kharifi, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/khalid-ibn-al-walid }
   - { type: had_participant, target: person/ali-ibn-abi-talib }
-  - { type: had_participant, target: person/malik-ibn-al-namt }
+  - { type: had_participant, target: person/malik-ibn-al-namt, role: "وافد همدان وخطيبه، ذو المشعار", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/muhammad }
   - { type: part_of, target: event/year-of-delegations }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 243-246; al-Raheeq al-Makhtum pp. 449-450", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 243-246" }

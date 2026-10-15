@@ -1,0 +1,31 @@
+id: event/mission-of-khalid-to-banu-al-harith
+class: event
+kind: other
+label: { ar: "بعث خالد بن الوليد إلى بني الحارث بن كعب وإسلامهم وقدوم وفدهم", en: "Khalid ibn al-Walid's mission to Banu al-Harith ibn Ka'b, their conversion and their delegation" }
+summary:
+  ar: "بعث النبي خالد بن الوليد في ربيع الآخر أو جمادى الأولى سنة 10هـ إلى بني الحارث بن كعب بنجران وأمره أن يدعوهم ثلاثاً قبل القتال، فأسلموا ولم يقاتلوا، وأقام فيهم يعلمهم، وكتب إلى النبي بذلك فأمره النبي أن يقبل ويقبل معه وفدهم؛ فقدم بستة من رؤسائهم، فقال النبي حين رآهم: من هؤلاء القوم الذين كأنهم رجال الهند؟ وسألهم أربع مرات: أنتم الذين إذا زُجروا استقدموا، حتى أجاب يزيد بن عبد المدان، وقال لهم: لو لم يكتب خالد أنكم أسلمتم ولم تقاتلوا لألقيت رؤوسكم تحت أقدامكم؛ وأمّر عليهم قيس بن الحصين، ورجعوا في آخر شوال أو أول ذي القعدة، قبل وفاة النبي بأربعة أشهر."
+  en: "In Rabi' al-Akhir or Jumada al-Ula 10 AH the Prophet sent Khalid ibn al-Walid to Banu al-Harith ibn Ka'b at Najran with orders to invite them to Islam for three days before fighting; they converted without fighting, Khalid stayed to teach them and wrote to the Prophet, who told him to come with their delegation. He brought six of their chiefs; the Prophet asked who these men were who looked like men of India, asked four times whether they were the ones who advance when rebuked until Yazid ibn Abd al-Madan answered, told them that but for Khalid's letter he would have thrown their heads beneath their feet, and appointed Qays ibn al-Husayn over them. They returned at the end of Shawwal or the start of Dhu al-Qa'da, four months before the Prophet's death."
+wings: [time, people, place]
+themes: [converts-and-leavers, dawa-and-christian-mission]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631-07/0631-08", hijri: "0010-04~", calendar: julian, precision: month, status: tradition, note: "«في شهر ربيع الآخر أو جمادى الأولى سنة عشر» (ص239)؛ رجوع الوفد «في بقية من شوال أو في صدر ذي القعدة» (ص241). التحويل الميلادي مشتق.", derived: true, sources: [source/ibn-hisham-saqqa] }
+  end: { edtf: "0632-01/0632-02", hijri: "0010-10~", calendar: julian, precision: month, status: tradition, derived: true, note: "رجوع الوفد إلى قومهم (ص241).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/najran, sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: place/medina, note: "قدوم الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/year-of-delegations, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "الباعث؛ استقبل الوفد وأمّر قيس بن الحصين", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "المبعوث داعياً ومعلماً", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-al-harith-ibn-kab, role: "أسلموا ولم يقاتلوا", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/qays-ibn-al-husayn-dhu-al-ghussa, role: "من الوفد؛ أمّره النبي عليهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/yazid-ibn-abd-al-madan, role: "من الوفد؛ أجاب النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/yazid-ibn-al-muhajjal, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-qurad-al-ziyadi, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/shaddad-ibn-abdullah-al-qanani, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/amr-ibn-abdullah-al-dibabi, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: caused, target: event/mission-of-amr-ibn-hazm-to-najran, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 239-241", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9c" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 239-241; single-source date flagged" }
