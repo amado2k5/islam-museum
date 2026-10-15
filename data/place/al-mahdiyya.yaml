@@ -1,0 +1,19 @@
+id: place/al-mahdiyya
+class: place
+kind: city
+label: { ar: "المهدية", en: "al-Mahdiyya" }
+summary:
+  ar: "المهدية قاعدة الفاطميين الأولى على ساحل إفريقية؛ وصفها المقدسي نحو 375هـ: مسورة بالحجر والجيل، شرب أهلها من الآبار وجباب ماء المطر، وهي خزانة القيروان ومطرح أصقلية ومصر عامرة آهلة — ومن أحب أن ينظر إلى القسطنطينية فلينظر إليها فإنها على عملها في جزيرة يُدخل إليها من طريق واحد مثل الشراك {cite:ahsan-al-taqasim p. 181}."
+  en: "Al-Mahdiyya, the first Fatimid seat on the Ifriqiyan coast; al-Muqaddasi c. 375 AH: walled in stone and gypsum, its folk drinking from wells and rain-cisterns, the granary of Qayrawan and berth of Sicily — whoever would see Constantinople should look on it, for it is built like it, on an island entered by a single causeway {cite:ahsan-al-taqasim p. 181}."
+wings: [place]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+relations:
+  - { type: part_of, target: place/ifriqiya, note: "على ساحل إفريقية", sources: [source/ahsan-al-taqasim] }
+provenance:
+  layer: own-research
+  source: "المقدسي، أحسن التقاسيم في معرفة الأقاليم (de Goeje) ص 181"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-ahsan-2
+sources: [source/ahsan-al-taqasim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
