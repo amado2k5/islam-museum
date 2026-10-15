@@ -1,0 +1,29 @@
+id: event/qadir-istitaba-408
+class: event
+kind: persecution
+label: { ar: "استتابة القادر للمبتدعة سنة 408", en: "Al-Qadir's recantation decree against the innovators (408 AH)" }
+summary:
+  ar: "في سنة ثمان وأربعمائة استتاب القادر بالله أمير المؤمنين فقهاء المعتزلة الحنفية فأظهروا الرجوع وتبرؤوا من الاعتزال، ثم نهاهم عن الكلام والتدريس والمناظرة في الاعتزال والرفض والمقالات المخالفة للإسلام وأخذ خطوطهم بذلك وأنهم متى خالفوه حل بهم من النكال والعقوبة ما يتعظ به أمثالهم؛ وامتثل يمين الدولة وأمين الملة محمود أمير المؤمنين — أي سلطان غزنة — واستنّ في أعماله بخراسان وغيرها في قتل المعتزلة والرافضة والإسماعيلية والقرامطة والجهمية والمشبهة وصلبهم وحرقهم ونقمهم وأمر بلعنهم على منابر المسلمين وإبعاد كل طائفة من أهل البدع وطردهم عن ديارهم، وصار ذلك سنة في الإسلام {cite:muntazam-ibn-al-jawzi j.7 p.284}."
+  en: "408: al-Qadir bi'llah made the Hanafi Mu'tazili faqihs recant — they 'showed return and disavowed i'tizal' — and bound them in writing never to teach or debate i'tizal, rafd or 'doctrines contrary to Islam' on pain of exemplary punishment; Sultan Mahmud of Ghazna emulated the decree in Khurasan with killing, crucifixion, burning, minbar-curses and expulsion of Mu'tazilis, Rafidis, Ismailis, Qarmatis, Jahmis and Mushabbihas — 'and it became a sunna in Islam' {cite:muntazam-ibn-al-jawzi j.7 p.284}."
+date:
+  start: { hijri: "0408", edtf: "1017", calendar: julian, precision: year, status: tradition, note: "سنة ٤٠٨هـ {cite:muntazam-ibn-al-jawzi j.7 p.284}.", sources: [source/muntazam-ibn-al-jawzi] }
+relations:
+- type: had_participant
+  target: person/al-qadir-billah
+  role: "الخليفة المستتيب"
+  sources: [source/muntazam-ibn-al-jawzi]
+- type: had_participant
+  target: person/mahmud-ghaznawi
+  role: "السلطان الممتثل المستن بمثله في خراسان"
+  sources: [source/muntazam-ibn-al-jawzi]
+wings: [people, beliefs]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq, persia-central-asia]
+themes: [sects-and-schools, takfir-and-its-critics]
+sources: [source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي، مسح AAlexandrina-224011، ج7 ص 284"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
