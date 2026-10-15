@@ -22,5 +22,8 @@
 - Existing `summary.en` lines (Devin, 12 Oct 2026) predate the rewrite; they remain as short glosses and are not updated here (English is Phase 4).
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
+## Paused (15 Oct 2026, on the founder's instruction)
+Kitab 3 (الزكاة, PDF pp. 333–384) has been read in full and its stubs are committed; batches 1–3 (hadith 652–726) are drafted as JSON in the session scratchpad but not yet applied to `data/passage/`, so every kitab 3 record still carries its old summary and REVIEW flag. Nothing of kitab 3 is on `main` except the stubs.
+
 ## Next step
-Kitab 3 (الزكاة): dump PDF pp. 333–384 of volume 1, write batches of 25 (652–676, 677–701, 702–726, 727–751, 752–776, 777–780), then the chapter page `content/ar/passage/muwatta-kitab-03-zakat.md`. Same cycle: apply, commit explicit paths, rebase, coverage, validate, test, push.
+Resume kitab 3: apply the three drafted batches (652–676, 677–701, 702–726), write batches 727–751, 752–776 and 777–780 from pp. 365–384, then the chapter page `content/ar/passage/muwatta-kitab-03-zakat.md`. Same cycle: apply, commit explicit paths, rebase, coverage, validate, test, push. If the scratchpad is gone, rewrite the batches from the pages.
