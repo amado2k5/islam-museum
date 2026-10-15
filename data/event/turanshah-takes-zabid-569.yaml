@@ -1,0 +1,31 @@
+id: event/turanshah-takes-zabid-569
+class: event
+kind: conquest
+label: { ar: "ملك شمس الدولة زبيد ودخول اليمن", en: "Turanshah's conquest of Zabid (569 AH)" }
+summary:
+  ar: "استأذن صلاح الدين وأهله نور الدين في تسيير شمس الدولة تورانشاه إلى اليمن لقصد عبد النبي صاحب زبيد لأجل قطعه الخطبة العباسية، فأذن؛ وكان بمصر شاعر يقال له عمارة من أهل اليمن يحسن لشمس الدولة قصدها ويعظم البلاد في عينه فزادته رغبة، فجهز وجمع وسار عن مصر في مستهل رجب سنة تسع وستين وخمسمائة إلى مكة ومنها إلى زبيد؛ خرج إليه عبد النبي بعسكره فانهزم أهل زبيد ولم يجدوا على السور من يمنعهم فنصبوا السلالم وملكوا البلد عنوة ونهبوه، وأُسر عبد النبي وزوجته المدعوة بالحرة — وكانت امرأة صالحة كثيرة الصدقة على فقراء الحاج — وسلمه إلى سيف الدولة مبارك بن كامل من بني منقذ أصحاب شيزر يستخرج منه الأموال فدلّه على دفائن قبر أبيه، ثم دانت أهل زبيد وأقيمت فيها الخطبة العباسية {cite:kamil-ibn-al-athir p. 52-53}."
+  en: "Rajab 569 (early 1174): with Nur al-Din's leave — for Abd al-Nabi of Zabid had cut the Abbasid khutba — Shams al-Dawla Turanshah marched from Egypt via Mecca, routed Abd al-Nabi outside Zabid, scaled its wall and sacked the town, taking him and his wife al-Hurra prisoner; Zabid submitted and the Abbasid khutba was proclaimed — the first move of the Ayyubid conquest of Yemen, urged on by the Yemeni poet Umara at Cairo {cite:kamil-ibn-al-athir p. 52-53}."
+date:
+  start: { hijri: "0569-07-01~", edtf: "1174-01~", calendar: julian, precision: month, status: tradition, derived: true, note: "مستهل رجب 569هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 52}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/shams-al-dawla-turanshah
+  role: "قائد الجيش الفاتح"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/abd-al-nabi-sahib-zabid
+  role: "صاحب زبيد المهزوم المأسور"
+  sources: [source/kamil-ibn-al-athir]
+- type: occurred_at
+  target: place/zabid
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 52-53"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-08
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
