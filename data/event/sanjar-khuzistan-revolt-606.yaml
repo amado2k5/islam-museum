@@ -1,0 +1,29 @@
+id: event/sanjar-khuzistan-revolt-606
+class: event
+kind: revolt
+label: { ar: "عصيان سنجر بخوزستان وتسليمه", en: "Sanjar's revolt in Khuzistan and his surrender (606–608 AH)" }
+summary:
+  ar: "كان قطب الدين سنجر مملوك الخليفة الناصر ولاه خوزستان بعد طشتكين أمير الحاج، فلما كان سنة ست وستمائة بدا منه تغير عن الطاعة يبطن التغلب على البلاد، فسيّر الخليفة إليه مؤيد الدين نائب الوزارة وعز الدين بن نجاح الشرابي بعساكر، فلما تحقق قصدهم فارق البلاد ولحق بصاحب شيراز أتابك عز الدين سعد بن دكلا ملتجئاً، فأكرمه وقام دونه؛ فبادر عسكر الخليفة إلى أرجان وأقاموا شهوراً والرسل مترددة، فلما عزموا على قصد شيراز أرسل صاحبها يشفع فيه وطلب العهد فأجيب فسلمه وماله وأهله، ودخل سنجر بغداد في المحرم سنة ثمان وستمائة راكباً على بغل بأكلف وفي رجله سلسلتان، فجمع الأمراء والأعيان بدار نائب الوزارة فقرر بأمور منكرة نسبت إليه فأقر بها {cite:kamil-ibn-al-athir p. 352-353}."
+  en: "Al-Nasir's mamluk-governor of Khuzistan, Qutb al-Din Sanjar, drifted into covert rebellion in 606; the caliphal army chased him into the protection of the Salghurid Atabeg Sa'd of Shiraz, wintered at Arrajan, and took his surrender under safe-conduct — Sanjar entered Baghdad on a pack-mule with two chains on his legs and confessed before the assembled amirs and notables {cite:kamil-ibn-al-athir p. 352-353}."
+date:
+  start: { hijri: "0606", edtf: "1209", calendar: julian, precision: year, status: tradition, note: "بدأ العصيان سنة 606 وانتهى بالتسليم في المحرم 608 {cite:kamil-ibn-al-athir p. 352-353}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/qutb-al-din-sanjar
+  role: "مملوك الخليفة والي خوزستان العاصي"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/sad-ibn-dakla
+  role: "صاحب شيراز الذي أكرمه ثم سلمه"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, persia-central-asia]
+themes: [civil-wars-and-revolts]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 352-353"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-15
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
