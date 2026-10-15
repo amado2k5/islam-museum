@@ -1,0 +1,21 @@
+id: event/seljuk-takeover-khurasan-430
+class: event
+kind: conquest
+label: { ar: "استيلاء السلاجقة على خراسان وهزيمة مسعود الغزنوي" }
+summary:
+  ar: "في جمادى الآخرة سنة 430هـ ملك سلجوق خراسان والجيل وهرب مسعود بن محمود سبكتكين وأخذوا الدواة، واستولى طغرلبك أبو طالب محمد وأخوه داود وبهرم؟ ونيروز أولاد ميكائيل على البلاد وتقسموا الأطراف. وبحلول سنة 432هـ انصرف مسعود إلى غزنة وعاد طغرلبك إلى نيسابور واستولت الغز على جميع خراسان، وظهر من خرقهم الهيبة وإطراحهم الحشمة وقتلهم الناس ما خرج عن الحد وقصدوا خلقاً كثيراً من الكتاب وغيرهم فقتلوا منهم وصانعوا بعضهم {cite:muntazam-ibn-al-jawzi j.8 p.400, 413}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1039-02~", hijri: "0430-06", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الآخرة 430هـ؛ التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/tughrul-beg, role: "المستولي على نيسابور", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/masud-ibn-mahmud, role: "المهزوم", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 400، 413"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-1
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

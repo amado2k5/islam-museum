@@ -1,0 +1,21 @@
+id: person/masud-ibn-mahmud
+class: person
+label: { ar: "السلطان مسعود بن محمود الغزنوي" }
+summary:
+  ar: "مسعود بن محمود بن سبكتكين سلطان غزنة بعد أبيه؛ هزمته السلاجقة في جمادى الآخرة سنة 430هـ فملكوا خراسان والجيل وهرب وأخذوا الدواة، ثم انصرف إلى غزنة وعاد طغرلبك إلى نيسابور فاستولت الغز على جميع خراسان {cite:muntazam-ibn-al-jawzi j.8 p.400, 413}."
+gender: male
+roles: [sultan]
+relations:
+- type: child_of
+  target: person/mahmud-ghaznawi
+  sources: [source/muntazam-ibn-al-jawzi]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+sources: [source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 400، 413"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
