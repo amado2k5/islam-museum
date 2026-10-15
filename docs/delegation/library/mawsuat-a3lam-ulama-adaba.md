@@ -41,6 +41,10 @@
 - (12 Oct 2026) Batch 4d (vol. 4, pp. 523–701): 7 entries: Abu al-Arab al-Tamimi, al-Tanasi, Abu Ali al-Muhassin al-Tanukhi, Ali ibn Muhammad al-Tanukhi, Lutfullah al-Tawqani, Razaq Allah al-Tamimi, Abu al-Wafa al-Ghunaymi al-Taftazani. Skipped: Lebanese, Sudanese and Indian figures (regions outside our list), and entries whose identity or dates are unclear.
 - (12 Oct 2026) Batch 4e (vol. 4, pp. 722–823): 11 entries: Khayr al-Din al-Tunisi, Muhammad ibn Umar al-Tunisi, Tamam ibn Ghalib, Ahmad ibn Hamallah al-Tishiti, Ahmad ibn Yusuf al-Tifashi, Umar ibn al-Ash'ath al-Taymi, Abd Allah ibn Ayyub al-Taymi, Sulayman ibn Tarkhan al-Taymi, Ibn al-Tayn, Abd al-Rahman al-Tha'alibi, Tha'lab. Skipped: Sabian (Sinan ibn Thabit) and Ibadi (al-Mus'abi) figures outside the Sunni frame, and an entry with unclear identity.
 - (14 Oct 2026) Volume 4 Tier 2 list exhausted: all clean candidates mined through page 823. The two remaining candidates (p. 832 bibliography; p. 846 Ibadi scholar, outside the Sunni frame) are skipped. Volume 4 Tier 3 entries are not mined.
+- (14 Oct 2026) Volume 5 Tier 2 mined through page 612; batches 5a–5d (about 45 entries). Remaining volume 5 candidates are skipped for tradition or region reasons (Shi'i, Ibadi, Mu'tazili, Christian, Jewish, Indian figures) or are unclear.
+- (14 Oct 2026) Volume 7 Tier 2 mined: batches 7a and 7b (25 entries). Remaining volume 7 candidates are Shi'i-linked or unclear.
+- (14 Oct 2026) Volume 8 Tier 2 mined through page 652: batches 8a–8c and one entry (about 34 entries). Remaining volume 8 candidates are Christian, Indian, Shi'i or unclear.
+- Volume 6 (absent from the set) is not mined. Tier 3 entries are not mined for any volume.
 - OCR complete (12 Oct 2026): all seven volumes OCR'd; the page counts match the PDFs. Volume 6 is absent from the set.
 - Entry indexes and tiers built (harvest workspace, not committed): v01 251 entries, v02 231, v03 277, v04 324, v05 220, v07 153, v08 241. Indexes are first-pass and still need the undated-opening pass.
 

@@ -1,0 +1,22 @@
+id: person/mus-ab-al-khushani
+class: person
+label: { ar: "مصعب الخشني", en: "Mus'ab al-Khushani" }
+names:
+  - { kind: full, lang: ar, value: "مصعب بن محمد بن مسعود الخشني" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1139", hijri: "0535", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1208", hijri: "0604", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم من أهل المغرب، أخذ عن عبد الحق الإشبيلي ببجاية."
+  en: "A scholar of the Maghrib who studied with Abd al-Haqq al-Ishbili in Bejaia."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 292, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص292", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

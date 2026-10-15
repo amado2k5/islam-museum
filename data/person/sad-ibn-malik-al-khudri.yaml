@@ -1,0 +1,22 @@
+id: person/sad-ibn-malik-al-khudri
+class: person
+label: { ar: "سعد بن مالك الخدري", en: "Sa'd ibn Malik al-Khudri" }
+names:
+  - { kind: full, lang: ar, value: "سعد بن مالك بن سنان الخزرجي الأنصاري الخدري" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+born: { edtf: "0612~", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0693", hijri: "0074", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من صحابة النبي، من بني خدرة من الأنصار، روى الحديث."
+  en: "A Companion of the Prophet from the Ansar, of the Khudra clan, who transmitted hadith."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 133, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص133", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

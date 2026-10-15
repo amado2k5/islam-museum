@@ -1,0 +1,22 @@
+id: person/ibn-khaqan-al-qaysi-al-fath
+class: person
+label: { ar: "ابن خاقان الفتح بن محمد القيسي", en: "Ibn Khaqan, al-Fath ibn Muhammad al-Qaysi" }
+names:
+  - { kind: full, lang: ar, value: "أبو نصر الفتح بن محمد بن عبيد الله القيسي الإشبيلي" }
+gender: male
+roles: [writer, poet]
+traditions: [sunni]
+born: { edtf: "1087", hijri: "0480", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1133", hijri: "0528", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أديب إشبيلي، صاحب كتابي «قلائد العقيان» و«مطمح الأنفس»."
+  en: "A man of letters from Seville, author of Qala'id al-Iqyan and Matmah al-Anfus."
+wings: [people, words]
+themes: [literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 61, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص61", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

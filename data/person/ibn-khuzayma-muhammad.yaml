@@ -1,0 +1,22 @@
+id: person/ibn-khuzayma-muhammad
+class: person
+label: { ar: "ابن خزيمة محمد بن إسحاق", en: "Ibn Khuzayma, Muhammad ibn Ishaq" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر محمد بن إسحاق بن خزيمة بن المغيرة السلمي" }
+gender: male
+roles: [muhaddith, jurist]
+traditions: [sunni]
+born: { edtf: "0838", hijri: "0223", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0924", hijri: "0311", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "إمام الأئمة ومحدّث نيسابور، صنّف «الصحيح» المعروف بصحيح ابن خزيمة."
+  en: "Imam of the imams and hadith scholar of Nishapur, author of the Sahih known as Sahih Ibn Khuzayma."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 258, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص258", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

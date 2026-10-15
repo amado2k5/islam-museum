@@ -1,0 +1,21 @@
+id: person/khatib-zada-al-rumi
+class: person
+label: { ar: "خطيب زاده الرومي", en: "Khatib-zada al-Rumi" }
+names:
+  - { kind: full, lang: ar, value: "خطيب زاده الرومي القسطموني" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+died: { edtf: "1496", hijri: "0901", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "ولد في قسطموني، ويعرف بلقب خطيب زاده."
+  en: "Born in Kastamonu, known by the title Khatib-zada."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 357, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص357", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

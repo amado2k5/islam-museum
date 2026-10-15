@@ -1,0 +1,22 @@
+id: person/ibn-khurradadhbih-ubayd-allah
+class: person
+label: { ar: "ابن خرداذبه عبيد الله بن عبد الله", en: "Ibn Khurradadhbih, Ubayd Allah ibn Abd Allah" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم عبيد الله بن عبد الله بن خرداذبه" }
+gender: male
+roles: [geographer, historian]
+traditions: [sunni]
+born: { edtf: "0820", hijri: "0205", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0893", hijri: "0280", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مؤرخ وجغرافي موسوعي العلم، صاحب كتاب «المسالك والممالك»."
+  en: "A historian and geographer of encyclopaedic learning, author of al-Masalik wa-l-Mamalik."
+wings: [people, words]
+themes: [geography-and-cartography, history-writing-and-social-thought]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+story_roles:
+  - { role: traveller-observer, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 165, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص165", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
