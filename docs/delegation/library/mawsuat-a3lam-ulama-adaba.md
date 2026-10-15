@@ -54,6 +54,8 @@
 
 - (14 Oct 2026) Batch 1c (vol. 1, pp. 499–520): 5 entries: al-Ardabili (Shafi'i jurist), Ibn Arqam al-Numayri, Junada al-Azdi al-Harawi, Abd al-Ghani al-Azdi, al-Azdi al-Qurtubi. Born date for Abd al-Ghani recorded as an approximate CE year only (printed Hijri and CE disagree).
 
+- (16 Oct 2026) Batch 1d (vol. 1, Tier 3 rest): 3 entries: al-Ajdabi (Husayn ibn Abi al-Abbas), Ibn Akhi Rabi al-Sabbagh al-Kalabi, Akhi-zade (Yusuf Efendi). Vol. 1 Tier 3 exhausted. Skipped: bibliography and fragment openings; Mauritanian, Malian, Nigerian, Sudanese figures (West Africa or outside the regions list); Shi'i (Ibn Tawus, al-Ahsa'i, Muhyi al-Din family); Ibadi; Christian (Adib Ishaq, Ibn Ishaq al-Nasrani); Jewish (Ishaq al-Israili); entries whose openings carry no printed dates.
+
 **Flags:**
 - Volume 6 (m-a-3-o-06.pdf) is absent from the founder's folder — its letter range will be missing entirely.
 
