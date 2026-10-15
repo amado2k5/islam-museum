@@ -1,0 +1,29 @@
+id: event/khirit-revolt-38
+class: event
+kind: revolt
+label: { ar: "خبر الخرّيت بن راشد وبني ناجية", en: "Al-Khirit ibn Rashid's revolt (38–39 AH)" }
+summary:
+  ar: "فارق الخرّيت بن راشد الناجي علياً بعد النهروان، فلما سئله زياد بن خصفة ما الذي نقمت على أمير المؤمنين قال: لم أرضَ صاحبكم إماماً ولا سيرتكم سيرة، فرأيت أن أعتزل وأكون مع من يدعو إلى الشورى؛ فاقتتلوا قتالاً شديداً تطاعنوا بالرماح حتى لم يبق رمح وتضاربوا بالسيوف حتى انحنت وعقرت عامة خيولهم، فجاء الليل فحجز بينهما وجُرح زياد وسار الخرّيت من الليل إلى الأهواز، فاجتمع عليه الناجية وعلوج من أهل الأهواز أرادوا كسر الخراج فصاروا نحو مائتين، فقال معقل بن قيس لعلي: كان ينبغي أن يكون مع من يطلب هؤلاء مكان كل واحد منهم عشرة، فندب علي معه ألفين وكتب إلى ابن عباس يبعث مثله، فلما استحكم القتال قال الخرّيت لمن معه: قاتلوا عن حريمكم وأولادكم {cite:kamil-ibn-al-athir p. 715-716}."
+  en: "The Najid Khariji who walked out on Ali after Nahrawan — 'your man's imamate and your conduct alike displease me; I side with those who call for shura'. His night-battle with Ziyad ibn Khasafa bent swords and hamstrung horses; he drew the Banu Najiya and Ahwazi tax-resisters around him until Ma'qil ibn Qays's four-thousand-man expedition demanded 'ten for every one of them' {cite:kamil-ibn-al-athir p. 715-716}."
+date:
+  start: { hijri: "0038", edtf: "0658", calendar: julian, precision: year, status: tradition, note: "في أخبار سنتي 38-39 {cite:kamil-ibn-al-athir p. 715-716}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/al-khirit-ibn-rashid
+  role: "الخارجي قائد التمرد"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/maqil-ibn-qays
+  role: "أمير جيش علي المرسل إليه"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/rashidun]
+regions: [levant-iraq, persia-central-asia]
+themes: [civil-wars-and-revolts, sects-and-schools]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح 02-163053، ص 715-716"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-vol2-16
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

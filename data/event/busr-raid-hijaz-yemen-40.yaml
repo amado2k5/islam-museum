@@ -1,0 +1,33 @@
+id: event/busr-raid-hijaz-yemen-40
+class: event
+kind: raid
+label: { ar: "سرية بسر بن أبي أرطاة إلى الحجاز واليمن", en: "Busr ibn Abi Artat's raid through the Hijaz and Yemen (40 AH)" }
+summary:
+  ar: "في سنة أربعين بعث معاوية بسر بن أبي أرطاة في ثلاثة آلاف، فدخل المدينة وهرب عامل علي أبو أيوب الأنصاري، فصعد منبرها ونادى على بطون الأنصار بأسمائهم يوبخهم ثم قال: والله لولا ما عهد إلي معاوية ما تركت بها محتلماً، وأكره الناس على البيعة حتى جاء جابر بن عبد الله يستشير أم سلمة فبايع خوفاً؛ ثم سار إلى مكة فهرب أبو موسى الأشعري وأكره أهلها، ثم سار إلى اليمن وقد هرب عاملها عبيد الله بن العباس، فقتل واليها عبد الله بن عبد المدان وابنه، وأخذ ابني عبيد الله الصغيرين عبد الرحمن وقتام فقتلهما، وقاتل عنهما رجل من كنانة حتى قتل هو وهم، وخرجت امرأة من بني كنانة تقول: قتلت الرجال فعلام تقتل هذين؟ والله ما كانوا يقتلون في الجاهلية والإسلام؛ فأرسل علي جارية بن قدامة السعدي في ألفين ووهب بن مسعود في ألفين، فهرب بسر وأصحابه واتبعه جارية إلى مكة، ثم أتى المدينة وأبو هريرة يصلي بالناس فهرب منه، فبايع أهلها الحسن بن علي لما هلك أبوه، وولهت أم الغلامين فكانت لا تعقل وتناشدهما في المواسم {cite:kamil-ibn-al-athir p. 732-733}."
+  en: "Mu'awiya's terror-raid of 40: Busr ibn Abi Artat entered Medina unopposed, mounted the minbar and mocked the Ansar clans by name — 'had Mu'awiya not bound me I would leave no grown man' — forced bay'a at Mecca, then in Yemen killed the governor and butchered Ubaydallah ibn al-Abbas's two small boys over a Kinani protector who died shielding them, while their mother went mad with grief. Ali's counter-column under Jariya ibn Qudama chased Busr to Mecca and took Medina's bay'a for al-Hasan {cite:kamil-ibn-al-athir p. 732-733}."
+date:
+  start: { hijri: "0040", edtf: "0660", calendar: julian, precision: year, status: tradition, note: "سنة ٤٠هـ {cite:kamil-ibn-al-athir p. 732}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/busr-ibn-abi-artat
+  role: "قائد السرية"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/jariya-ibn-qudama
+  role: "قائد سرية علي التي طردته"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/muawiya-ibn-abi-sufyan
+  role: "مرسل السرية"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/rashidun]
+regions: [arabia]
+themes: [civil-wars-and-revolts]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح 02-163053، ص 732-733"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-vol2-16
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
