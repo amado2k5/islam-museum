@@ -1,0 +1,22 @@
+id: person/baltaci-mehmed-pasha
+class: person
+label: { ar: "بلطه جي محمد باشا" }
+names:
+  - { kind: full, lang: ar, value: "بلطه جي محمد باشا الصدر الأعظم" }
+gender: male
+roles: [ruler, military]
+summary:
+  ar: "بلطه جي محمد باشا، الصدر الأعظم في عهد السلطان أحمد الثالث وقائد الجيش في حملة بروث؛ يذكر الصلابي أن الخيانة تحت فتنة المال والنساء دفعته إلى رفع الحصار عن قيصر روسيا بطرس وخليلته ومعهما مئتا ألف كادوا يقعون في الأسر، وخيانة الدولة بمعاهدة فلكزن في جمادى الآخرة ١١٢٣هـ التي أخلت آزاق للروس وتعهدت بعدم التدخل في شئون القوزاق، فعزله السلطان أحمد الثالث {cite:dawlat-uthmaniyya-salabi p. 310}."
+  en: "Baltacı Mehmed Pasha — Ahmed III's grand vizier who lifted the Pruth encirclement of Tsar Peter and signed the 1711 treaty yielding Azov; the source frames it as betrayal and the sultan deposed him {cite:dawlat-uthmaniyya-salabi p. 310}."
+wings: [people]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+relations:
+  - { type: participated_in, target: event/treaty-pruth-1123, role: "الصدر الأعظم", sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 310"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-9
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

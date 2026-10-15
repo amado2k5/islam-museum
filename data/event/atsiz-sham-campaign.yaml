@@ -1,0 +1,24 @@
+id: event/atsiz-sham-campaign
+class: event
+kind: campaign
+label: { ar: "حملة أتسز بن أوق على الشام" }
+summary:
+  ar: "أرسل السلطان ألب أرسلان قائده التركي أتسز بن أوق الخوارزمي في حملة إلى جنوب الشام فانتزع الرملة وبيت المقدس من يد الفاطميين، لكنه لم يستطع الاستيلاء على عسقلان التي تعتبر بوابة الدخول إلى مصر، وبذلك أضحى السلاجقة على مقربة من قاعدة الخلافة العباسية والسلطان السلجوقي داخل بيت المقدس. وسبق ذلك أن حاصر ألب أرسلان الدولة المرداسية في حلب وأجبر أميرها محمود بن صالح بن مرداس على إقامة الدعوة للخليفة العباسي بدلاً من الفاطمي سنة ٤٦٢هـ/١٠٧٠م {cite:dawlat-uthmaniyya-salabi p. 30}."
+  en: "Atsiz ibn Uwaq's Seljuk campaign into southern Syria — Ramla and Jerusalem taken from the Fatimids, Ascalon holding out — bringing the Abbasid sultanate to Jerusalem's gates {cite:dawlat-uthmaniyya-salabi p. 30}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1070~", hijri: "0462~", calendar: julian, precision: year, status: tradition, derived: true, note: "لا يؤرخها المصدر؛ تقع بعد خطبة حلب ٤٦٢هـ {cite:dawlat-uthmaniyya-salabi p. 30}." }
+relations:
+  - { type: occurred_at, target: place/jerusalem }
+  - { type: occurred_at, target: place/ramla }
+  - { type: had_participant, target: person/atsiz-ibn-uwaq, role: "القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/alp-arslan, role: "السلطان الآمر", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 30"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-11
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

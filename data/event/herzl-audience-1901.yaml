@@ -1,0 +1,23 @@
+id: event/herzl-audience-1901
+class: event
+kind: gathering
+label: { ar: "مقابلة هرتزل للسلطان عبد الحميد" }
+summary:
+  ar: "قابل تيودور هرتزل السلطان عبد الحميد الثاني عام ١٩٠١م بعد سنتين (١٨٩٩–١٩٠١) من الاحتكاك بكبار موظفي قصر يلدز، واقترح في مقابلة دامت ساعتين أن تساعد البنوك اليهودية الغنية في أوروبا الدولة العثمانية على تخفيف ديونها العامة القائمة منذ ١٨٨١م لقاء السماح بالاستيطان في فلسطين، وكان السلطان مستمعاً أكثر منه متكلماً حتى ظن هرتزل أنه نجح ثم أدرك أنه يسير في طريق مسدود. وكان عبد الحميد يرى ضرورة عدم توطين اليهود في فلسطين كي يحتفظ العنصر العربي بتفوقه، وأصدر إرادتين سنيتين في يونيو ويوليو ١٨٩٠م برفض قبول اليهود في الممالك العثمانية وبطلب دراسة حاسمة للمسألة، واتخذ التدابير لمنع بيع الأراضي لليهود في فلسطين {cite:dawlat-uthmaniyya-salabi p. 447-450}."
+  en: "Herzl's 1901 Yıldız audience: a two-hour offer of Jewish banking relief on the Ottoman debt in exchange for Palestine settlement, which Abdülhamid heard out and declined — after already issuing the 1890 irades refusing Jewish immigration {cite:dawlat-uthmaniyya-salabi p. 447-450}."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1901", calendar: julian, precision: year, status: tradition, note: "عام ١٩٠١م {cite:dawlat-uthmaniyya-salabi p. 447}." }
+relations:
+  - { type: occurred_at, target: place/istanbul }
+  - { type: had_participant, target: person/herzl-theodor, role: "زعيم الحركة الصهيونية", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/abd-al-hamid-ii-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 447-450"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-10
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

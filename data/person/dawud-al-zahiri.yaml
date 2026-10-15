@@ -1,0 +1,26 @@
+id: person/dawud-al-zahiri
+class: person
+label: { ar: "داود الظاهري" }
+names:
+  - { kind: full, lang: ar, value: "داود بن علي الأصبهاني" }
+gender: male
+roles: [jurist, scholar]
+born: { edtf: "0815~", hijri: "0200~", calendar: julian, precision: year, status: tradition, sources: [source/duha-islam], note: "وُلد بالكوفة نحو سنة ٢٠٠هـ." }
+died: { edtf: "0884", hijri: "0270", calendar: julian, precision: year, status: tradition, sources: [source/duha-islam], note: "توفي ببغداد سنة ٢٧٠هـ." }
+summary:
+  ar: "داود بن علي الأصبهاني المعروف بداود الظاهري؛ ولد بالكوفة نحو سنة ٢٠٠هـ ونشأ ببغداد وتوفي بها سنة ٢٧٠هـ، درس مذهب الشافعي وتعصب له وألّف في مناقبه، ثم استقل بمذهب يعرف بمذهب الظاهرية تبعه كثير من الناس خصوصاً في فارس والأندلس؛ أنكر القياس وتمسك بظاهر الكتاب والسنة، ولم يُبح القياس إلا حيث نُص على العلة، وقد هاجم القياسيين وبيّن ما ألجأهم إليه القياس من خطأ في الأحكام {cite:duha-islam p. 567-568}."
+  en: "Dawud ibn Ali al-Isbahani — Kufa-born (c. 200), Baghdad-bred (d. 270); a zealous Shafi'i who wrote al-Shafi'i's virtues then broke away to found the literalist Zahiri school, rejecting qiyas and holding to the evident text {cite:duha-islam p. 567-568}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+themes: [sects-and-schools, development-of-law-theology-institutions]
+traditions: [sunni]
+relations:
+  - { type: founder_of, target: group/zahiri-madhhab, sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 567-568"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-6
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

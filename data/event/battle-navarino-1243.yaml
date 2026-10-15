@@ -1,0 +1,21 @@
+id: event/battle-navarino-1243
+class: event
+kind: battle
+label: { ar: "معركة نافارين" }
+summary:
+  ar: "لما أجهضت قوات إبراهيم باشا تمرد اليونان أعلنت الصليبية الأوروبية بسط حمايتها على بلاد اليونان، واتفقت روسيا وفرنسا وإنجلترا في الحادي عشر من ذي الحجة على إجبار الدولة العثمانية على إعطاء اليونان استقلالها، فلما رفض السلطان أمرت الدول أساطيلها بالتوجه إلى سواحل اليونان وطلبت من إبراهيم باشا التوقف عن القتال فأجاب بأنه يتلقى الأوامر من خليفة المسلمين أو من أبيه لا من غيرهما، ومع ذلك توقف القتال عشرين يوماً ريثما تصله التعليمات. ويذكر الصلابي أن الجيوش الأوروبية المتحالفة دخلت مرفأ نافارين دون أن ترفع أعلام الحرب فكان دخولها دخول خديعة، ومباغتت الأسطول العثماني المصري المشترك فأطلقت عليه النيران وهزمته هزيمة نكراء وأغرقت السفن، فانقلب الحال وأصبحت القوات العثمانية موضع الضعف بعد أن كانت موضع القوة، ثم عقدت فرنسا وإنجلترا مؤتمراً قرر فصل بلاد اليونان عن الدولة العثمانية على أن يحكمها حاكم نصراني تختاره الدول الثلاث {cite:dawlat-uthmaniyya-salabi p. 366-367}."
+  en: "Navarino (1827): the allied British, French and Russian fleets entered the harbour unannounced, surprised the combined Ottoman-Egyptian fleet and destroyed it — after which the powers decreed Greece's separation under a ruler of their choosing {cite:dawlat-uthmaniyya-salabi p. 366-367}."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1827-10~", hijri: "1243", calendar: julian, precision: month, status: tradition, derived: true, note: "لا يؤرخه المصدر؛ يقع بعد اتفاق ١١ ذي الحجة وبعد فتح نافرين عام ١٢٤٠هـ {cite:dawlat-uthmaniyya-salabi p. 365-366}." }
+relations:
+  - { type: had_participant, target: person/ibrahim-pasha-misri, role: "قائد القوات المصرية", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 366-367"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-9
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

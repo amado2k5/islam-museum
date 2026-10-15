@@ -1,0 +1,22 @@
+id: person/tutush
+class: person
+label: { ar: "تاج الدولة تتش" }
+names:
+  - { kind: full, lang: ar, value: "تاج الدولة تتش بن ألب أرسلان" }
+gender: male
+roles: [ruler, military]
+summary:
+  ar: "تاج الدولة تتش بن ألب أرسلان، أخو السلطان ملكشاه؛ أسند إليه ملكشاه المناطق التي سيطر عليها السلاجقة في بلاد الشام سنة ٤٧٠هـ/١٠٧٧م لمتابعة الفتح، فأسس دولة سلاجقة الشام {cite:dawlat-uthmaniyya-salabi p. 33}."
+  en: "Taj al-Dawla Tutush — Malikshah's brother, given Seljuk Syria in 1077 and founder of the Damascus Seljuk state {cite:dawlat-uthmaniyya-salabi p. 33}."
+wings: [people, time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+  - { type: child_of, target: person/alp-arslan, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 33"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-11
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

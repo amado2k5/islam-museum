@@ -1,0 +1,21 @@
+id: event/war-of-crete-1055
+class: event
+kind: campaign
+label: { ar: "حرب كريت ضد البنادقة" }
+summary:
+  ar: "كانت جمهورية البنادقة تهيمن على جزيرة كريت وعلى الحركة التجارية في بحر إيجة مستغلة الصلح مع الدولة العثمانية، فعزم العثمانيون على تدمير نفوذ البنادقة في الشرق وجُهزت الجيوش والأسطول وأعلنت الحرب عليهم، واعتُقل جميع البنادقة في طول البلاد وعرضها وأُمر بمصادرة أموالهم وممتلكاتهم، ثم سُيرت حملة إلى جزيرة كريت عام ١٠٥٥هـ/١٦٤٥م واستولت على أجزاء منها. وفي تلك الأثناء تمرد الجنود في إستانبول وقرروا عزل السلطان إبراهيم وتولية ابنه محمد الرابع الذي لم يتم السابعة، وقتل السلطان إبراهيم {cite:dawlat-uthmaniyya-salabi p. 307}."
+  en: "The Cretan War of 1645: to break Venetian hegemony over Crete and Aegean trade the Ottomans arrested every Venetian in the realm, confiscated their property and landed on Crete — while in Istanbul the soldiery deposed and killed Sultan Ibrahim {cite:dawlat-uthmaniyya-salabi p. 307}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1645", hijri: "1055", calendar: julian, precision: year, status: tradition, derived: true, note: "عام ١٠٥٥هـ/١٦٤٥م {cite:dawlat-uthmaniyya-salabi p. 307}." }
+relations:
+  - { type: had_participant, target: person/ibrahim-i-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 307"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-9
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

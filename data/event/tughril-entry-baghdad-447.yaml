@@ -1,0 +1,23 @@
+id: event/tughril-entry-baghdad-447
+class: event
+kind: conquest
+label: { ar: "دخول طغرل بك بغداد" }
+summary:
+  ar: "استطاع طغرل بك الزعيم السلجوقي أن يسقط نفوذ الدولة البويهية في بغداد عام ٤٤٧هـ وأن يقضي على الفتن ويزيل من على أبواب المساجد سبّ الصحابة. ولما دخل عاصمة الخلافة العباسية استقبله الخليفة القائم بأمر الله استقبالاً عظيماً وخلع عليه خلعة سنية وأجلسه إلى جواره وأغدق عليه ألقاب التعظيم فلقبه بالسلطان ركن الدين، وأمر الخليفة بأن يُنقش اسم السلطان طغرل بك على العملة وأن يُذكر اسمه في الخطبة في مساجد بغداد وغيرها، فحل السلاجقة منذ ذلك الحين محل البويهيين في السيطرة على الأمر في بغداد. وتوطيداً للروابط تزوج الخليفة من ابنة جغري بك الأخ الأكبر لطغرل بك عام ٤٤٨هـ، ثم تزوج طغرل بك من ابنة الخليفة القائم في شعبان ٤٥٤هـ، وتوفي ليلة الجمعة لثمانٍ خلون من رمضان ٤٥٥هـ عن سبعين عاماً {cite:dawlat-uthmaniyya-salabi p. 28-29}."
+  en: "Tughril Beg's entry into Baghdad (1055): the Buyid grip broken, the caliph al-Qa'im's grand reception, the title Sultan Rukn al-Din on coinage and minbars, and the double marriage alliance that sealed Seljuk-Abbasid ties {cite:dawlat-uthmaniyya-salabi p. 28-29}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1055", hijri: "0447", calendar: julian, precision: year, status: tradition, derived: true, note: "عام ٤٤٧هـ {cite:dawlat-uthmaniyya-salabi p. 28}." }
+relations:
+  - { type: occurred_at, target: place/baghdad }
+  - { type: had_participant, target: person/tughril-beg, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/al-qaim-billah, role: "الخليفة", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 28-29"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-11
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

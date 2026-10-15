@@ -1,0 +1,17 @@
+id: person/uthman-ibn-sulayman-al-bati
+class: person
+label: { ar: "عثمان بن سليمان البتي" }
+names:
+  - { kind: full, lang: ar, value: "أبو عمرو عثمان بن سليمان البتي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0143", edtf: "0761~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة ثلاث وأربعين ومائة (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو عمرو عثمان بن سليمان البتي، من أهل الكوفة، انتقل إلى البصرة، أخذ عن الحسن البصري {cite:tabaqat-fuqaha-abbas-1981 p. 49}، ومات سنة ثلاث وأربعين ومائة {cite:tabaqat-fuqaha-abbas-1981 p. 49}. وتذكر حاشية المحقق أن نسبته «البتي» إلى بيع «البتوت»، وهو كساء غليظ."
+wings: [people]
+relations:
+  - { type: student_of, target: person/al-hasan-al-basri, role: "أخذ عن الحسن (PDF ص49)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-5" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 5 (PDF ص48–53); " }

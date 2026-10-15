@@ -1,0 +1,15 @@
+id: person/ziyad-ibn-kulayb
+class: person
+label: { ar: "زياد بن كليب التميمي", en: "Ziyad ibn Kulayb al-Tamimi" }
+names:
+  - { kind: full, lang: ar, value: "أبو معشر زياد بن كليب التميمي الحنظلي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو معشر زياد بن كليب التميمي الحنظلي، ذُكر في الطبقة نفسها مع الحارث العكلي والمغيرة بن مقسم والقعقاع بن يزيد {cite:tabaqat-fuqaha-abbas-1981 p. 44}. يذكر محقق الطبعة أنه توفي سنة عشرين ومائة على الأرجح {cite:tabaqat-fuqaha-abbas-1981 p. 44}."
+wings: [people]
+died: { hijri: "0120", edtf: "0738~", calendar: julian, precision: year, status: debated, derived: true, note: "حاشية محقق الطبعة (فن 4) نقلاً عن التهذيب: توفي سنة 120 على الأرجح؛ ليس في متن الشيرازي (PDF ص44).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص44–47", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-4" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 4; the death year is an editor's footnote, not the book's text; slug distinct from person/abu-mashar (the astrologer)" }

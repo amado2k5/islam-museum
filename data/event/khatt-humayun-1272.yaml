@@ -1,0 +1,22 @@
+id: event/khatt-humayun-1272
+class: event
+kind: law-enacted
+label: { ar: "الخط الهمايوني" }
+summary:
+  ar: "صدر المرسوم المعروف بالخط الهمايوني عام ١٨٥٦م مؤكداً باسم السلطان عبد المجيد الأول مبادئ خط كلخانة وزائداً امتيازات وحصانات لرعايا الدولة غير المسلمين، وكان أكثر جرأة من الأول وأكثر اندفاعاً نحو الاقتباس من الغرب، وتضمن إلغاء نظام الالتزام والقضاء على الرشوة والفساد، والمساواة في التجنيد بين المسلمين وغير المسلمين، ومعاملة جميع رعايا الدولة معاملة متساوية مهما كانت أديانهم ومذاهبهم {cite:dawlat-uthmaniyya-salabi p. 376}."
+  en: "The 1856 Reform Edict (Khatt-i Hümayun): Abdülmecid's decree confirming Gülhane and going further — abolishing tax-farming, equal conscription and equal treatment for every Ottoman subject whatever their faith {cite:dawlat-uthmaniyya-salabi p. 376}."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1856", hijri: "1272", calendar: julian, precision: year, status: tradition, derived: true, note: "عام ١٨٥٦م {cite:dawlat-uthmaniyya-salabi p. 376}." }
+relations:
+  - { type: occurred_at, target: place/istanbul }
+  - { type: had_participant, target: person/abd-al-majid-i-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 376"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-12
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

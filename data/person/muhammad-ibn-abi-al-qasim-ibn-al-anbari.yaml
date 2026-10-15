@@ -1,0 +1,24 @@
+id: person/muhammad-ibn-abi-al-qasim-ibn-al-anbari
+class: person
+label: { ar: "محمد بن أبي القاسم ابن الأنباري", en: "Muhammad ibn Abi al-Qasim Ibn al-Anbari" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن أبي القاسم بن بشار" }
+  - { kind: kunya, lang: ar, value: "أبو بكر" }
+  - { kind: nisba, lang: ar, value: "ابن الأنباري" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "0884", hijri: "0271", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0940", hijri: "0328", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "اللغوي النحوي والراوية للشعر أبو بكر محمد بن أبي القاسم بن بشار الأنباري، نشأ في بيت علم بالأنبار، وأخذ عن أبيه علوم الحديث والأخبار واللغة."
+  en: "The philologist, grammarian and transmitter of poetry Abu Bakr Muhammad ibn Abi al-Qasim ibn Bashshar al-Anbari, raised in a household of learning in al-Anbar, who studied with his father the sciences of hadith, reports and language."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 404-405, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص404-405", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

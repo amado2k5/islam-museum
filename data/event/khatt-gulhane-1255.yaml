@@ -1,0 +1,23 @@
+id: event/khatt-gulhane-1255
+class: event
+kind: law-enacted
+label: { ar: "خط شريف كلخانة" }
+summary:
+  ar: "صدر خط شريف كلخانة سنة ١٨٣٩م على لسان مصطفى رشيد باشا باسم السلطان عبد المجيد الأول، فساوى بين الرعايا المسلمين وغير المسلمين في الحقوق، فلم يلق ترحيباً من الرأي العام العثماني المسلم وأعلن العلماء استنكارهم وتكفيرهم لرشيد باشا واعتبروا الخط منافياً للقرآن في مجمله وبخاصة في مساواته المسيحيين بالمسلمين. ويذكر الصلابي أن إصداره كان الثمن الذي نالته بريطانيا والدول الأوروبية مقابل تسوية النزاع بين السلطان ومحمد علي باشا أثناء الأزمة المعروفة (١٢٥٥–١٢٥٧هـ/١٨٣٩–١٨٤١م)، ويرى أنه نحّى جملة من أحكام الشريعة في شأن أهل الذمة، وتضمن مفهوم «الوطن» بدلاً من «الأمة» فكان أولى الخطوات نحو فصل الدين عن الدولة {cite:dawlat-uthmaniyya-salabi p. 375-377}."
+  en: "The Gülhane decree (1839): Reshid Pasha's charter proclaiming equal rights for all Ottoman subjects regardless of faith — denounced by the ulema, and read by the source as the price paid to Britain for settling the Egyptian crisis {cite:dawlat-uthmaniyya-salabi p. 375-377}."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1839", calendar: julian, precision: year, status: tradition, note: "سنة ١٨٣٩م أثناء أزمة ١٢٥٥–١٢٥٧هـ {cite:dawlat-uthmaniyya-salabi p. 375}." }
+relations:
+  - { type: occurred_at, target: place/istanbul }
+  - { type: had_participant, target: person/rashid-pasha-mustafa, role: "قارئ الخط", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/abd-al-majid-i-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 375-377"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-12
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

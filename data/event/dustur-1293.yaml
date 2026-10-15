@@ -1,0 +1,22 @@
+id: event/dustur-1293
+class: event
+kind: law-enacted
+label: { ar: "دستور مدحت باشا ١٨٧٦" }
+summary:
+  ar: "تُكللت خطا كلخانة وهمايون بدستور مدحت باشا عام ١٨٧٦م؛ يذكر الصلابي أنه لأول مرة في تاريخ الإسلام ودوله جرى العمل بدستور مأخوذ عن الدستورين الفرنسي والبلجيكي، واعتمد مصدراً وضعياً للتشريع مستوحى من التجربة الدستورية الأوروبية واحتوى مفاهيم غربية مثل «الوطن» {cite:dawlat-uthmaniyya-salabi p. 377}."
+  en: "The 1876 constitution of Midhat Pasha — the first Western-modeled constitution put into effect in a state of Islam, capping the Tanzimat decrees {cite:dawlat-uthmaniyya-salabi p. 377}."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1876", hijri: "1293", calendar: julian, precision: year, status: tradition, derived: true, note: "عام ١٨٧٦م {cite:dawlat-uthmaniyya-salabi p. 377}." }
+relations:
+  - { type: occurred_at, target: place/istanbul }
+  - { type: had_participant, target: person/midhat-pasha, role: "واضع الدستور", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 377"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-12
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

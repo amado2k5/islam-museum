@@ -1,0 +1,22 @@
+id: person/husayn-ibn-siddiq-al-ahdal
+class: person
+label: { ar: "حسين بن صديق الأهدل", en: "Husayn ibn Siddiq al-Ahdal" }
+names:
+  - { kind: full, lang: ar, value: "حسين بن صديق بن عبد الرحمن الأهدل" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1446", hijri: "0850", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1497", hijri: "0903", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "العالم اليمني حسين بن صديق الأهدل، ولد ببايات سنة 850 هـ وتوفي سنة 903 هـ، وله مؤلفات مخطوطة."
+  en: "The Yemeni scholar Husayn ibn Siddiq al-Ahdal, born at Bayat in 850 AH and died in 903 AH; he left manuscript works."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 522, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص522", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

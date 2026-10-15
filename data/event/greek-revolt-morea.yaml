@@ -1,0 +1,23 @@
+id: event/greek-revolt-morea
+class: event
+kind: revolt
+label: { ar: "ثورة المورة (اليونان)" }
+summary:
+  ar: "اندلع تمرد الروم في المورة في عهد السلطان محمود الثاني؛ يذكر الصلابي أن القساوسة كُلفوا بإبلاغ القرى أن الهجوم على الأتراك سيحدث ليلة عيد الفصح، وأن رجال الدين كانوا على صلة وثيقة بجمعية الفكرة العظمى وسمحوا باستخدام الأديرة مخازن للمدافع والبارود وملاجئ للمتمردين، ودفعت الكنيسة لهم الأموال. انسحب العثمانيون احتياطاً إلى القلاع فسقطت واحدة تلو الأخرى، وسيطر المتمردون في نحو ثلاثة أسابيع على المورة كلها عدا قلعة تريبوليجة مركز الولاية التي صمدت شهوراً، وقتل الروم العثمانيين الذين وقعوا في الأسر وسلبوا أموالهم. وكشفت مداهمة البطريركية وثائق تثبت تورط البطريرك جريجوريوس فأُعدم يوم عيد الفصح، ثم استدعى السلطان جيوش محمد علي باشا بقيادة ابنه إبراهيم ففتح نافرين عام ١٢٤٠هـ ودخل أثينا عام ١٢٤١هـ {cite:dawlat-uthmaniyya-salabi p. 363-365}."
+  en: "The Greek War of Independence in the Morea — an Easter-night rising that overran the peninsula except Tripolitsa, patriarch Gregory executed after incriminating papers were seized, and Ibrahim Pasha's Egyptian army called in to crush the revolt {cite:dawlat-uthmaniyya-salabi p. 363-365}."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1821", calendar: julian, precision: year, status: tradition, derived: true, note: "في عهد محمود الثاني قبل إبحار جيش مصر عام ١٢٣٩هـ {cite:dawlat-uthmaniyya-salabi p. 363-365}." }
+relations:
+  - { type: had_participant, target: person/mahmud-ii-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/gregorios-v-patriarch, role: "البطريرك", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/ibrahim-pasha-misri, role: "قائد جيش مصر", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 363-365"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-9
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

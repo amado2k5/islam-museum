@@ -1,0 +1,23 @@
+id: person/sulayman-ibn-umar-al-ahdal-abu-al-mahasin
+class: person
+label: { ar: "سليمان بن عمر الأهدل", en: "Sulayman ibn Umar al-Ahdal" }
+names:
+  - { kind: full, lang: ar, value: "سليمان بن عمر بن يحيى بن عمر بن مقبول الأهدل الزبيدي" }
+  - { kind: kunya, lang: ar, value: "أبو المحاسن" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1725", hijri: "1137", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1783", hijri: "1197", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "المحدّث اليمني أبو المحاسن سليمان بن عمر الأهدل الزبيدي، ولد بزبيد سنة 1137 هـ، ويلقّب بمحدّث اليمن، وله مؤلفات منها شرح منظومة في مصطلح الحديث."
+  en: "The Yemeni traditionist Abu al-Mahasin Sulayman ibn Umar al-Ahdal al-Zabidi, born at Zabid in 1137 AH and known as the traditionist of Yemen; he wrote works including a commentary on a versified treatise on hadith terminology."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 528, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص528", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -11,5 +11,8 @@ provenance:
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 497"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-95
-sources: [source/muruj-al-dhahab]
+died: { hijri: "0240", edtf: "0855~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة أربعين ومائتين (PDF ص49).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/al-shafii, role: "أخذ الفقه عن الشافعي (PDF ص49)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
