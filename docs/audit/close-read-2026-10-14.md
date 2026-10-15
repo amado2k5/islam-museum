@@ -34,41 +34,42 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 | `event/isra-and-miraj.md` | أسري برسول الله بجسده على الصحيح بصحبة جبريل | أسري برسول الله بجسده، وهو الصحيح عند أهل السنة، بصحبة جبريل | doctrinal verdict stated without attribution; attributed to Sunni tradition |
 | `concept/anwa.md` | عدّها الإسلام كفراً بالنعمة | عدّها حديث النبي كفراً بالنعمة | doctrinal verdict in the lede without attribution; attributed to the hadith |
 | `concept/hums.md` | وابتدعوا به بدعاً في مناسك الحج | وأحدثوا به أموراً في مناسك الحج | bid'a label applied in the lede without attribution |
+| `concept/sacred-livestock-jahiliyya.md` | حرّموا الانتفاع بها على أنفسهم ابتداعاً، فأنكرها القرآن | حرّموا الانتفاع بها على أنفسهم، فأنكرها القرآن | bid'a label applied in the lede without attribution |
 | `concept/jahili-marriage-forms.md` | فيها ظلم للمرأة والولد | تراها الشريعة ظلماً للمرأة والولد | moral judgement in the children's section; attributed to the Shari'a |
 | `concept/maysar.md` | حرّمه الله لأن فيه عداوة وخسارة للناس | حرّمه الله، وذكر القرآن أن إثمه أكبر من نفعه | unattributed causal moral claim in the children's section; attributed to the Qur'an (2:219) |
 
 ## Pages needing citations (not added here)
 
 
-## Batch 16 of 19
+## Batch 17 of 19
 
-Pages concept/ashara-mubashshara.md to concept/nasi.md (25 pages).
+Pages concept/prohibition-killing-women-children.md to period/colonial-era.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `concept/ashara-mubashshara.md` | ok |
-| `concept/ashrat-al-saa.md` | ok |
-| `concept/azlam.md` | ok |
-| `concept/emancipation-of-enemy-slaves.md` | ok |
-| `concept/five-pillars.md` | ok |
-| `concept/ghulul.md` | ok |
-| `concept/hama.md` | ok |
-| `concept/hubb-al-sahaba.md` | ok |
-| `concept/hums.md` | fixed (1) |
-| `concept/ihsan.md` | ok |
-| `concept/iman.md` | ok |
-| `concept/islam-din.md` | ok |
-| `concept/jahili-marriage-forms.md` | fixed (1) |
-| `concept/jaysh-al-usra.md` | ok |
-| `concept/kahana.md` | ok |
-| `concept/kalam-allah.md` | ok |
-| `concept/karamat-al-awliya.md` | ok |
-| `concept/kasb.md` | ok |
-| `concept/khalq-al-quran.md` | ok |
-| `concept/khatm-al-nubuwwa.md` | ok |
-| `concept/khilafa-rashida.md` | ok |
-| `concept/la-yanbaghi.md` | ok |
-| `concept/maysar.md` | fixed (1) |
-| `concept/muhajirun-of-abyssinia.md` | ok |
-| `concept/nasi.md` | ok |
+| `concept/prohibition-killing-women-children.md` | ok |
+| `concept/qadar.md` | ok |
+| `concept/riwayat-al-imam.md` | ok |
+| `concept/ruyat-allah.md` | ok |
+| `concept/sacred-livestock-jahiliyya.md` | fixed (1) |
+| `concept/shafaa.md` | ok |
+| `concept/shahada.md` | ok |
+| `concept/taat-wulat-al-amr.md` | ok |
+| `concept/takhalluf-an-ghazwat-tabuk.md` | ok |
+| `concept/tawba.md` | ok |
+| `concept/tawhid.md` | ok |
+| `concept/tiyara.md` | ok |
+| `concept/wad.md` | ok |
+| `polity/aksumite-kingdom.md` | ok |
+| `polity/byzantine-empire.md` | ok |
+| `polity/ghassanid-kingdom.md` | ok |
+| `polity/himyarite-kingdom.md` | ok |
+| `polity/kingdom-of-saba.md` | ok |
+| `polity/lakhmid-kingdom.md` | ok |
+| `polity/nabataean-kingdom.md` | ok |
+| `polity/sasanian-empire.md` | ok |
+| `period/abbasid-early.md` | ok |
+| `period/abbasid-fragmentation.md` | ok |
+| `period/buyid-seljuk-fatimid-era.md` | ok |
+| `period/colonial-era.md` | ok |
 
