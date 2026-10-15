@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.224"
-label: { ar: "الموطأ 1.224", en: "Muwatta 1.224" }
+label: { ar: "الموطأ 224 — صلاة بغير أم القرآن خداج، وحديث قسمت الصلاة بيني وبين عبدي", en: "Muwatta 224" }
+text: "من صلى صلاة لم يقرأ فيها بأم القرآن فهي خداج، هي خداج، هي خداج، غير تمام"
 summary:
-  ar: "أبو السائب مولى هشام بن زهرة سمع أبا هريرة يحدث عن النبي ﷺ في القراءة في الصلاة؛ تفاصيل المتن تحتاج مراجعة."
+  ar: "أول حديث في باب القراءة خلف الإمام فيما لا يجهر فيه بالقراءة. يرويه يحيى عن مالك عن العلاء بن عبد الرحمن أنه سمع أبا السائب مولى هشام بن زهرة يقول إنه سمع أبا هريرة يروي عن النبي أن من صلى صلاة لم يقرأ فيها بفاتحة الكتاب فصلاته ناقصة غير تامة. فسأله أبو السائب عن حاله إذا كان وراء الإمام، فغمز ذراعه وقال له: اقرأ بها في نفسك يا فارسي، ثم روى عن النبي الحديث القدسي أن الله قسم الصلاة، أي الفاتحة، بينه وبين عبده نصفين، فإذا قرأ العبد كل آية منها أجابه الله: حمدني عبدي، أثنى علي عبدي، مجدني عبدي، وهذه الآية بيني وبين عبدي، وهؤلاء لعبدي ولعبدي ما سأل. ويخرّجه المحقق عند مسلم (2/9–10) وأبي داود (821) والنسائي (2/135) وابن حبان وابن خزيمة وأحمد والبخاري في القراءة خلف الإمام وفي خلق أفعال العباد من طرق أصحاب مالك، وينقل عن ابن عبد البر أن الحديث ليس في الموطأ إلا عن العلاء عند جميع الرواة، وأن رواية مطرف له عن مالك عن ابن شهاب غريبة انفرد بها، وأن شعبة والثوري وابن عيينة رووه عن العلاء عن أبيه عن أبي هريرة، وليس ذلك باختلاف، فالحديث صحيح للعلاء عن أبيه وعن أبي السائب جميعاً (التمهيد 20/187–189). {cite:muwatta-maruf-1997 p.136} {cite:muwatta-maruf-1997 p.137} {cite:muwatta-maruf-1997 p.138}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 224 of kitab al-salat at PDF p. 136", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-12" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-saib-mawla-hisham, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-ala-ibn-abd-al-rahman-al-huraqi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hadith-qudsi, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 224 at PDF p. 136; باب القراءة خلف الإمام فيما لا يجهر فيه بالقراءة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b09" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 136; matn excerpt at most 40 words" }
