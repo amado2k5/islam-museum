@@ -3,7 +3,7 @@ class: event
 kind: publication
 label: { ar: "كتاب القادر في الأصول" }
 summary:
-  ar: "قال الخطيب كان القادر من الديانة والسيادة وإدامة التهجد وكثرة الصدقات وحسن الطريقة على صفة اشتهرت عنه تفقه على العلامة أبي بشر الهروي الشافعي وقد صنف كتاباً في الأصول ذكر فيه فضائل الصحابة وإكفار المعتزلة والقائلين بخلق القرآن وكان ذلك الكتاب يقرأ في كل جمعة في حلقة أصحاب الحديث بجامع المهدي وبحضرة الناس {cite:tarikh-khulafa-minhaj-1434 p. 634}."
+  ar: "قال الخطيب كان القادر من الديانة والسيادة وإدامة التهجد وكثرة الصدقات وحسن الطريقة على صفة اشتهرت عنه تفقه على العلامة أبي بشر الهروي الشافعي وقد صنف كتاباً في الأصول ذكر فيه فضائل الصحابة وإكفار المعتزلة والقائلين بخلق القرآن وكان ذلك الكتاب يقرأ في كل جمعة في حلقة أصحاب الحديث بجامع المهدي وبحضرة الناس {cite:tarikh-khulafa-minhaj-1434 p. 634}. ويوثق ابن الجوزي أن الاعتقاد القادري قرئ في الديوان سنة 433هـ بحضور الزهاد والعلماء، فكتب الشيخ أبو الحسن علي بن عمر القزويني خطه تحته قبل أن يكتب الفقهاء، وكتب الفقهاء خطوطهم فيه «إن هذا اعتقاد المسلمين ومن خالفه فقد فسق وكفر»، ويورد نصه كاملاً من «يجب على الإنسان أن يعلم أن الله عز وجل وحده لا شريك له لم يلد ولم يولد» إلى آخره {cite:muntazam-ibn-al-jawzi j.8 p.109-112}."
   en: "Al-Khatib: al-Qadir was marked by piety, night-prayer, abundant alms and good conduct; he studied fiqh under the Shafi'i master Abu Bishr al-Harawi and authored a book of usul containing the Companions' virtues and the takfir of the Mu'tazila and the Quran-creators — read every Friday in the ahl al-hadith circle at al-Mahdi's mosque before the people {cite:tarikh-khulafa-minhaj-1434 p. 634}."
 wings: [time]
 periods: [period/abbasid-early]
@@ -11,11 +11,11 @@ regions: [levant-iraq]
 date:
   start: { edtf: "0991~", hijri: "0381~", calendar: julian, precision: year, status: tradition, derived: true, note: "في خلافته؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 634}." }
 relations:
-  - { type: had_participant, target: person/al-qadir-billah, role: "المصنف", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "المصنف", sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 626–636"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-37
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
