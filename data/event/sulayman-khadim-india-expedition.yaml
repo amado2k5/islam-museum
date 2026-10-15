@@ -1,0 +1,23 @@
+id: event/sulayman-khadim-india-expedition
+class: event
+kind: campaign
+label: { ar: "حملة سليمان الخادم على الهند" }
+summary:
+  ar: "أدرك السلطان سليمان القانوني أن الدفاع عن الأماكن المقدسة مسؤولية الدولة العثمانية، فعقد اتفاقاً مع حاكمي قاليقوط وكامباى الهنديين المتضررين من الغزو البرتغالي على العمل المشترك ضد البرتغال، ثم أصدر مرسوماً إلى سليمان باشا الخادم والي مصر يأمره بتجهيز أسطول في السويس والخروج إلى الهند للجهاد حتى يقطع الطرق المؤدية إلى مكة عن البرتغاليين ويزيل رايتهم من البحر. نفذ سليمان الخادم الأمر فوصل جدة في سبعة أيام ثم كمران فسيطر على عدن ووضع فيها حامية من ستمائة جندي، وواصل إلى الهند فحاصر ديو فلم يقتحمها وانسحب وقد فقد نحو أربعمائة من رجاله، لكنه عاد فاستولى على إحدى القلاع الأمامية وأسر ثمانين برتغالياً، ولولا الإمدادات البرتغالية الجديدة لاستسلمت القلاع كلها، وقد مكنت هذه الحملة العثمانيين من تأمين البحر الأحمر وإبعاد البرتغاليين عن الممالك الإسلامية {cite:dawlat-uthmaniyya-salabi p. 196-197}."
+  en: "The 1538 Ottoman India expedition: after a pact with the rulers of Calicut and Cambay, a royal firman ordered Egypt's governor Sulayman al-Khadim to sail from Suez, drive Portugal's flag from the sea and keep the Mecca routes open — he garrisoned Aden, besieged Diu, took eighty prisoners and fell back on reinforcements' arrival {cite:dawlat-uthmaniyya-salabi p. 196-197}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [arabia, south-asia]
+date:
+  start: { edtf: "1538", hijri: "0945", calendar: julian, precision: year, status: tradition, derived: true, note: "في سياق حملة ٩٤٥هـ على عدن واليمن {cite:dawlat-uthmaniyya-salabi p. 191-192}." }
+relations:
+  - { type: occurred_at, target: place/aden }
+  - { type: had_participant, target: person/sulayman-pasha-khadim, role: "قائد الحملة", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/sulayman-al-qanuni, role: "السلطان الآمر", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 196-197"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-8
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
