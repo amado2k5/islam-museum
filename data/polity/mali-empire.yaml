@@ -1,0 +1,36 @@
+id: polity/mali-empire
+class: polity
+kind: dynasty
+label:
+  ar: مملكة مالي
+  en: Mali Empire
+summary:
+  ar: أعظم ممالك السودان الغربي الإسلامية، أسسها ماري جاطة بعد أن انتزع الملك من أيدي صوصو، وبلغت أوجها في القرن الثامن الهجري عندما امتد ملكها من منابع النيجر إلى المحيط، وحاضرة ملكها «بلد بني» (نياني) على الزرع والعمارة.
+  en: The greatest Islamic kingdom of the western Sudan, founded by Mari Jata after wresting power from the Susu, reaching its height in the eighth century AH when its rule stretched from the Niger headlands to the ocean approaches.
+wings:
+- time
+- place
+periods:
+- period/crusades-ayyubid-mamluk
+- period/mongol-post-mongol
+regions:
+- west-africa-sahel
+start: { edtf: "1235~", hijri: "0632~", calendar: julian, precision: year, status: tradition, derived: true, note: "غلب ماري جاطة على صوصو وملك جميع ما بأيديهم من ملك أهل غانة القديم؛ التاريخ تقريبي والتحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+end: { edtf: "1610~", calendar: julian, precision: year, status: debated, note: "لم يضبط ابن خلدون نهاية الملك؛ تداعى في القرن الحادي عشر الهجري أمام أهل كوكو (غاو).", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: successor_of
+  target: polity/ghana-empire
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — باب الخبر عن ملوك السودان المجاورين للمغرب، ص1655-1657 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar Sudan-kings chapter via Apple Vision OCR

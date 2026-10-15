@@ -1,0 +1,41 @@
+id: person/mansa-sulayman
+class: person
+label:
+  ar: منسا سليمان
+  en: Mansa Sulayman
+summary:
+  ar: منسا سليمان بن أبي بكر، أخو منسا موسى وخلفه في ملك مالي بعد ابنه منسا مغا، ملك أربعاً وعشرين سنة فثبت ملكه واتسعت به حدود مملكة مالي.
+  en: Mansa Sulayman ibn Abi Bakr, brother of Mansa Musa and his successor after Mansa Magha; he ruled Mali for twenty-four years, consolidating the empire his brother had raised.
+gender: male
+roles: [ruler]
+traditions:
+- sunni
+died: { edtf: "1360~", hijri: "0761~", calendar: julian, precision: year, status: tradition, derived: true, note: "ملك أربعاً وعشرين سنة عقب أخيه موسى وابنه مغا على حساب ابن خلدون للتتابع؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: ruler_of
+  target: polity/mali-empire
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/mansa-musa
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings:
+- time
+- place
+periods:
+- period/mongol-post-mongol
+regions:
+- west-africa-sahel
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — باب ملوك السودان، ص1656 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -1,0 +1,41 @@
+id: person/mari-jata
+class: person
+label:
+  ar: ماري جاطة
+  en: Mari Jata (Sundiata Keita)
+summary:
+  ar: مؤسس مملكة مالي وأعظم ملوك السودان الغربي. معنى اسمه عندهم «جاطة» الأسد و«ماري» الملك. تغلب على أهل صوصو وانتزع من أيديهم ملك أهل غانة القديم فملك من النيل إلى المحيط الأطلسي.
+  en: Founder of the Mali Empire and the greatest of the western Sudanese kings; in their tongue jata means lion and mari means king. He defeated the Susu and wrested from them the old kingdom of Ghana, ruling from the Niger to the Atlantic.
+gender: male
+roles: [ruler]
+traditions:
+- sunni
+died: { edtf: "1255~", hijri: "0653~", calendar: julian, precision: year, status: debated, derived: true, note: "لم يضبط ابن خلدون سنة وفاته؛ أنشأ الملك بعد انتزاعه من صوصو في ثلاثينيات القرن السابع؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: founder_of
+  target: polity/mali-empire
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/mali-empire
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings:
+- time
+- place
+periods:
+- period/mongol-post-mongol
+regions:
+- west-africa-sahel
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — باب ملوك السودان، ص1656 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
