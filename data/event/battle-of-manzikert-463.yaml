@@ -3,7 +3,7 @@ class: event
 kind: battle
 label: { ar: "وقعة ملاذكرد وأسر ملك الروم" }
 summary:
-  ar: "في سنة ثلاث وستين كانت وقعة عظيمة بين الإسلام والروم ونصر المسلمون ولله الحمد ومقدمهم السلطان ألب أرسلان وأسر ملك الروم ثم أطلقه بمال جزيل وهادنه خمسين سنة ولما أطلق قال للسلطان أين جهة الخليفة فأشار له فكشف رأسه وأومأ إلى الجهة بالخدمة {cite:tarikh-khulafa-minhaj-1434 p. 647}."
+  ar: "في سنة ثلاث وستين كانت وقعة عظيمة بين الإسلام والروم ونصر المسلمون ولله الحمد ومقدمهم السلطان ألب أرسلان وأسر ملك الروم ثم أطلقه بمال جزيل وهادنه خمسين سنة ولما أطلق قال للسلطان أين جهة الخليفة فأشار له فكشف رأسه وأومأ إلى الجهة بالخدمة {cite:tarikh-khulafa-minhaj-1434 p. 647}. ويورد ابن الجوزي تفصيل الوقعة: بقي السلطان في نحو أربعة آلاف غلام بعد انصراف العساكر إلى خراسان للغلاء، فآثر الغزاة والصبر وعهد إلى عسكره أن يسمعوا لولده ملكشاه ويطيعوه إن قتل، وكان ملك الروم قد جمع خمسة وثلاثين ألفاً من الإفرنج وغيرهم وخمسة عشر ألفاً من الغز وأربعمائة عجلة سلاح ومجانيق منها منجنيق يمدّه ألف رجل ومائتا رجل، ورفض الهدنة التي توسط فيها الخليفة وقال «لا هدنة إلا بالري ولا رجوع إلا بعد أن أفعل ببلاد الإسلام مثل ما فعل ببلاد الروم». وفي يوم الجمعة صلى السلطان بالعسكر ودعا وبكى وقال «من أحب أن يتبعني فليتبعني ومن أحب أن ينصرف فليمضِ مصاحباً عني فما ها هنا سلطان يأمر ولا عسكر يؤمر» ثم رمى القوس والنشاب وأخذ الدبوس وعقد ذنب فرسه بيده وزحف إلى الروم فقتلوهم يومهم وليلتهم القتل الذريع. وأسر ملك الروم وجيء به فضربه السلطان بيده ورفسه وقال «ألم آذن لرسل الخليفة في قصدك؟» فسأله «لو وقعتَ معي ماذا كنت تفعل بي؟» قال «القبيح» فقال «صدق والله ولو قال غير ذلك لكذب»، واستقر الفداء على ألف ألف وخمسمائة ألف دينار وثلاثمائة وستين ألف دينار في كل سنة وإطلاق أسارى الروم ورد أنطاكية والرها ومنبج، وخلع عليه وعقد له راية مكتوب عليها لا إله إلا الله محمد رسول الله وأنفذ معه مائة غلام إلى قسطنطينية، فلما بلغ الروم ما جرى حالوا بينه وبين ملكه {cite:muntazam-ibn-al-jawzi j.8 p.260-264}."
   en: "In 463 came the great battle between Islam and Byzantium — the Muslims victorious under sultan Alp Arslan; the Roman king was captured, then released for a vast ransom and a fifty-year truce. Freed, he asked 'where is the caliph's quarter?' — it was pointed out, and he uncovered his head and gestured service in its direction {cite:tarikh-khulafa-minhaj-1434 p. 647}."
 wings: [time]
 periods: [period/abbasid-fragmentation]
@@ -11,11 +11,11 @@ regions: [anatolia-balkans]
 date:
   start: { edtf: "1071~", hijri: "0463", calendar: julian, precision: year, status: tradition, derived: true, note: "463؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 647}." }
 relations:
-  - { type: had_participant, target: person/alp-arslan, role: "السلطان المنتصر", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: had_participant, target: person/alp-arslan, role: "السلطان المنتصر", sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 646–657"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-39
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/muntazam-ibn-al-jawzi]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

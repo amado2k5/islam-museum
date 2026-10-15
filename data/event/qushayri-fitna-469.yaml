@@ -1,0 +1,23 @@
+id: event/qushayri-fitna-469
+class: event
+kind: civil-war
+label: { ar: "فتنة القشيري بين الحنابلة والأشعرية ببغداد" }
+summary:
+  ar: "في شوال سنة 469هـ وقعت الفتنة بين الحنابلة والأشعرية ببغداد، وكان السبب أن أبا نصر بن القشيري ورد بغداد وجلس في النظامية يذم الحنابلة وينسبهم إلى التجسيم، ومال أبو إسحاق الشيرازي إلى نصرته وكتب إلى النظام يشكو الحنابلة ويسأله المعونة، واتفق الغوغاء على الهجوم على الشريف أبي جعفر في مسجده فرتب جماعة أعدهم لرد الخصومة فرماهم هؤلاء بالآجر فوقعت الفتنة وقتل خياط من سوق الثلاثاء وصاحت أمها على باب النوبي «المستنصر بالله يا منصور»، وغضب أبو إسحاق الشيرازي ومضى إلى باب الطاق وأخذ في إعداد أهبة السفر فأنفذ إليه الخليفة من ردّه. ثم استدعى الوزير فخر الدولة بن جهير الشريف أبا جعفر للمصالحة فحضر مع أبي إسحاق وأبي سعد الصوفي وأبي نصر بن القشيري، فقبل أبو إسحاق رأس الشريف فقال له «قد كان ما تقول، إلا أنك لما كنت فقيراً لم يظهر لنا ما في نفسك فلما جاءك الأعوان والسلطان وخواجا بزوك أبديت ما كان مخفياً»، وقال لأبي سعد الصوفي «أيها الشيخ أما الفقهاء فإذا تكلموا في مسائل الأصول فلهم فيها مدخل فأما أنت فصاحب لهو وسماع وبغتة»، ولما قام القشيري قال «لو جاز أن يُشكر أحد على بدعته لكان هذا الشاب لأنه باهتنا بما في نفسه ولم ينافقنا كما فعل هذان»، ثم قال «أي صلح بيننا؟ إنما يكون الصلح بين مختصمين على ولاية أو دنيا أو قسمة ميراث أو تنازع في ملك، فأما هؤلاء القوم فيزعمون أنا كفار ونحن نزعم أن من لا يعتقد ما نعتقده كافر فأي صلح بيننا». وقرر الشريف أن جدّي الخليفة القائم والقادر أخرجا اعتقادهما للناس وقرئ عليهم في دواوينهم وحمله الخراسانيون والحجيج إلى أطراف الأرض «ونحن على اعتقادهما». وقيل إن الشريف مرض بعدها فانتفخت رجلاه وقيل إن بعض المتفقهة من الأعداء دسّ له في مداسه سماً والله أعلم {cite:muntazam-ibn-al-jawzi j.8 p.305-307}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1076-05~", hijri: "0469-10", calendar: julian, precision: month, status: tradition, derived: true, note: "شوال 469هـ؛ التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/abu-nasr-ibn-al-qushayri, role: "الواعظ الأشعري", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/sharif-abu-jafar, role: "زعيم الحنابلة", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/abu-ishaq-al-shirazi, role: "المناصر للأشعرية", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/fakhr-al-dawla-ibn-jahir, role: "الوزير المصالح", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 305-307"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-1
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
