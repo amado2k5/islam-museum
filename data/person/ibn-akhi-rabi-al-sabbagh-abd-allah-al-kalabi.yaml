@@ -1,0 +1,21 @@
+id: person/ibn-akhi-rabi-al-sabbagh-abd-allah-al-kalabi
+class: person
+label: { ar: "ابن أخي ربيع الصباغ الكلابي", en: "Ibn Akhi Rabi al-Sabbagh al-Kalabi" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن حنين بن عبد الله بن عبد الملك الكلابي القرطبي" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: nisba, lang: ar, value: "الكلابي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+died: { edtf: "0930", hijri: "0318", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary: { ar: "من علماء قرطبة، مولى بني أمية، عرف بابن أخي ربيع الصباغ، وتوفي بعد أن أخذ العلم في الأندلس.", en: "A scholar of Cordoba, client of the Umayyads, known as Ibn Akhi Rabi al-Sabbagh, who studied in al-Andalus." }
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol {vol} pp. {page}-{end}, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص393-393", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -41,6 +41,7 @@ export const newHonState = (): HonState => ({ prophet: false, companions: new Se
 export function honorify(html: string, lang: Lang, state: HonState = newHonState()): string {
   const prophet = HON_PATTERNS[lang];
   const companions = companionsFor(lang);
+  // Marks go only in plain body text: a name inside a link label is left alone, so the link text stays clean.
   const body = (text: string) => {
     let t = text.replace(prophet, (x) => {
       if (state.prophet) return x;
@@ -58,7 +59,13 @@ export function honorify(html: string, lang: Lang, state: HonState = newHonState
   };
   return html
     .split(/(<h[1-6][\s\S]*?<\/h[1-6]>|<table[\s\S]*?<\/table>)/)
-    .map((part, idx) => (idx % 2 === 1 ? part : part.replace(/(^|>)([^<]+)(?=<|$)/g, (_m, lead: string, text: string) => lead + body(text))))
+    .map((part, idx) => {
+      if (idx % 2 === 1) return part;
+      return part.replace(/(^|>)([^<]+)(?=<|$)/g, (_m, lead: string, text: string, offset: number) => {
+        const inLink = part.lastIndexOf("<a ", offset) > part.lastIndexOf("</a>", offset);
+        return lead + (inLink ? text : body(text));
+      });
+    })
     .join("");
 }
 
