@@ -11,5 +11,5 @@ const dark = variant === "mono" ? "/brand/mark-mono-gold-256.webp" : big ? "/bra
 ---
 <span class:list={["brand-mark", cls]} style={`--logo:${size}px`} aria-hidden={alt ? undefined : "true"}>
   <img class="logo-light" src={light} width={size} height={size} alt={alt} loading={big ? "lazy" : "eager"} decoding="async" />
-  <img class="logo-dark" src={dark} width={size} height={size} alt="" aria-hidden="true" loading={big ? "lazy" : "eager"} decoding="async" />
+  <img class="logo-dark" src={dark} width={size} height={size} alt={alt} aria-hidden={alt ? undefined : "true"} loading={big ? "lazy" : "eager"} decoding="async" />
 </span>
