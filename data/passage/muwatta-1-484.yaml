@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.484"
-label: { ar: "الموطأ 1.484", en: "Muwatta 1.484" }
+label: { ar: "الموطأ 484 — عمر يبني البطيحاء بناحية المسجد لمن أراد أن يلغط أو ينشد شعراً", en: "Muwatta 484" }
+text: "من كان يريد أن يلغط أو ينشد شعراً أو يرفع صوته فليخرج إلى هذه الرحبة"
 summary:
-  ar: "بلغ مالكًا أن عمر بن الخطاب بنى رحبة في ناحية المسجد تسمى البطيحاء؛ أثر في بناء الرحبة عند المسجد."
+  ar: "بلاغ في باب جامع الصلاة: يروي مالك أنه بلغه أن عمر بن الخطاب بنى رحبة في ناحية المسجد تُسمى البطيحاء، وقال: من كان يريد أن يلغط أو ينشد شعراً أو يرفع صوته فليخرج إلى هذه الرحبة. ويذكر المحقق أن أبا مصعب وسويداً أخرجاه عن مالك متصلاً: أخبرني أبو النضر عن سالم بن عبد الله أن عمر بن الخطاب. {cite:muwatta-maruf-1997 p.248}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 484 of kitab al-salat at PDF p. 248", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-23" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/salim-ibn-abd-allah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-nadr-salim-ibn-abi-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-butayha-medina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 484 at PDF p. 248; باب جامع الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 248; matn excerpt at most 40 words" }

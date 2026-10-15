@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.482"
-label: { ar: "الموطأ 1.482", en: "Muwatta 1.482" }
+label: { ar: "الموطأ 482 — الأخوان اللذان مات أحدهما قبل الآخر: مثل الصلاة كمثل نهر غمر عذب", en: "Muwatta 482" }
+text: "إنما مثل الصلاة كمثل نهر غمر عذب بباب أحدكم، يقتحم فيه كل يوم خمس مرات، فما ترون ذلك يبقي من درنه؟"
 summary:
-  ar: "عامر بن سعد بن أبي وقاص عن أبيه: كان رجلان أخوان... ؛ حديث في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "بلاغ يرويه مالك عن عامر بن سعد بن أبي وقاص عن أبيه، في باب جامع الصلاة: كان رجلان أخوان فمات أحدهما قبل صاحبه بأربعين ليلة، فذُكرت فضيلة الأول عند النبي، فسأل ألم يكن الآخر مسلماً، قالوا بلى وكان لا بأس به، فقال وما يدريكم ما بلغت به صلاته، وضرب للصلاة مثل نهر غمر عذب بباب أحدهم يقتحم فيه كل يوم خمس مرات فلا يبقي من درنه شيئاً. وينقل المحقق عن ابن عبد البر أن قصة الأخوين لا تُحفظ من حديث سعد إلا في مرسل مالك هذا، وأن البزار أنكره وما كان ينبغي له لأن مراسيل مالك أصولها صحاح، وأن ابن وهب رواه عن مخرمة بن بكير عن أبيه عن عامر بن سعد عن أبيه مثله، وأن القصة تُحفظ من حديث طلحة بن عبيد الله وأبي هريرة وعبيد بن خالد (التمهيد 24/220–221). ويذكر أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.247} {cite:muwatta-maruf-1997 p.248}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 482 of kitab al-salat at PDF p. 247", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-22" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amir-ibn-sad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 482 at PDF p. 247; باب جامع الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 247; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.479"
-label: { ar: "الموطأ 1.479", en: "Muwatta 1.479" }
+label: { ar: "الموطأ 479 — ابن مسعود: زمان كثير فقهاؤه قليل قراؤه، وسيأتي زمان على العكس", en: "Muwatta 479" }
+text: "إنك في زمان كثير فقهاؤه، قليل قراؤه، تحفظ فيه حدود القرآن وتضيع حروفه"
 summary:
-  ar: "يحيى بن سعيد: قال عبد الله بن مسعود لإنسان: إنك في زمان كثير فقهاؤه... ؛ أثر في الفقه والعمل؛ تفاصيل المتن غير واضحة."
+  ar: "أثر يرويه مالك عن يحيى بن سعيد، في باب جامع الصلاة: قال عبد الله بن مسعود لإنسان إنه في زمان كثير فقهاؤه قليل قراؤه، تُحفظ فيه حدود القرآن وتُضيع حروفه، قليل من يسأل كثير من يعطي، يطيلون الصلاة ويقصرون الخطبة ويبدؤون أعمالهم قبل أهوائهم؛ وسيأتي زمان قليل فقهاؤه كثير قراؤه، تُحفظ حروف القرآن وتُضيع حدوده، كثير من يسأل قليل من يعطي، يطيلون الخطبة ويقصرون الصلاة ويبدون أهواءهم قبل أعمالهم. ويذكر المحقق أنه رواه عن مالك أبو مصعب، وأن عبد الرزاق (3787) أخرج نحوه عن معمر عن أبي إسحاق عن أبي الأحوص عن ابن مسعود، ويعلق: وهذا زماننا. وإسناد مالك هنا منقطع بين يحيى بن سعيد وابن مسعود. {cite:muwatta-maruf-1997 p.246}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 479 of kitab al-salat at PDF p. 246", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-22" }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 479 at PDF p. 246; باب جامع الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 246; matn excerpt at most 40 words" }

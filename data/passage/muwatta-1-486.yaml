@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.486"
-label: { ar: "الموطأ 1.486", en: "Muwatta 1.486" }
+label: { ar: "الموطأ 486 — يعقد الشيطان على قافية رأس أحدكم إذا نام ثلاث عقد", en: "Muwatta 486" }
+text: "فإن استيقظ فذكر الله انحلت عقدة، فإن توضأ انحلت عقدة، فإن صلى انحلت عقده، فأصبح نشيطاً طيب النفس"
 summary:
-  ar: "أبو الزناد عن الأعرج عن أبي هريرة: يعقد الشيطان على قافية رأس أحدكم ثلاث عقد إذا نام؛ الحديث في قيام الليل."
+  ar: "يرويه مالك عن أبي الزناد عن الأعرج عن أبي هريرة، في باب جامع الترغيب في الصلاة: يعقد الشيطان على قافية رأس أحدهم إذا نام ثلاث عقد، يضرب مكان كل عقدة: عليك ليل طويل فارقد؛ فإن استيقظ فذكر الله انحلت عقدة، فإن توضأ انحلت عقدة، فإن صلى انحلت عقده فأصبح نشيطاً طيب النفس، وإلا أصبح خبيث النفس كسلان. ويخرّجه المحقق عند البخاري (1142) وأبي داود (1306) وابن حبان وأبي عوانة والطحاوي والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (19/45). {cite:muwatta-maruf-1997 p.249} {cite:muwatta-maruf-1997 p.250}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 486 of kitab al-salat at PDF p. 249", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-23" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 486 at PDF p. 249; باب جامع الترغيب في الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 249; matn excerpt at most 40 words" }

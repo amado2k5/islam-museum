@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.480"
-label: { ar: "الموطأ 1.480", en: "Muwatta 1.480" }
+label: { ar: "الموطأ 480 — أول ما يُنظر فيه من عمل العبد الصلاة", en: "Muwatta 480" }
 summary:
-  ar: "يحيى بن سعيد: بلغني أن أول ما ينظر فيه من عمل العبد الصلاة؛ أثر في أن الصلاة أول ما يُحاسب عليه العبد."
+  ar: "بلاغ يرويه مالك عن يحيى بن سعيد أنه بلغه أن أول ما يُنظر فيه من عمل العبد الصلاة، فإن قُبلت نُظر فيما بقي من عمله، وإن لم تُقبل لم يُنظر في شيء من عمله؛ وهو في باب جامع الصلاة. وينقل المحقق عن ابن عبد البر أن مثله لا يكون رأياً وإنما هو توقيف، وأنه روي مسنداً من وجوه صحاح من حديث تميم الداري وأبي هريرة (التمهيد 24/79–80)؛ ويرى المحقق أن حديث تميم عند أحمد والدارمي وأبي داود (866) وابن ماجه (1426) والحاكم إسناده صحيح، وأن حديث أبي هريرة، وإن حسّنه الترمذي (413)، ضعيف مضطرب كما بيّن الدارقطني في العلل، وينقل قول المزي في تهذيب الكمال إنه حديث مضطرب. {cite:muwatta-maruf-1997 p.246} {cite:muwatta-maruf-1997 p.247}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 480 of kitab al-salat at PDF p. 246", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-22" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/tamim-al-dari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/akhira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 480 at PDF p. 246; باب جامع الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 246; matn excerpt at most 40 words" }

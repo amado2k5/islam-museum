@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.491"
-label: { ar: "الموطأ 1.491", en: "Muwatta 1.491" }
+label: { ar: "الموطأ 491 — أبو عبيد مولى ابن أزهر يشهد العيد مع عمر ثم عثمان ثم علي", en: "Muwatta 491" }
+text: "إن هذين يومان نهى رسول الله عن صيامهما: يوم فطركم من صيامكم، والآخر يوم تأكلون فيه من نسككم"
 summary:
-  ar: "ابن شهاب عن أبي عبيد مولى ابن أزهر: شهد العيد مع عمر بن الخطاب فصلى قبل الخطبة؛ الأثر في تقديم الصلاة على الخطبة في العيد."
+  ar: "يرويه مالك عن ابن شهاب عن أبي عبيد مولى ابن أزهر، في باب الأمر بالصلاة قبل الخطبة في العيدين: شهد العيد مع عمر بن الخطاب فصلى ثم خطب فقال إن هذين يومان نهى النبي عن صيامهما: يوم الفطر من الصيام ويوم يأكل الناس فيه من نسكهم. ثم شهده مع عثمان بن عفان فصلى ثم خطب وقال إنه اجتمع لهم في يومهم عيدان، فمن أحب من أهل العالية أن ينتظر الجمعة فلينتظرها ومن أحب أن يرجع فقد أذن له. ثم شهده مع علي بن أبي طالب وعثمان محصور، فصلى ثم خطب. ويخرّجه المحقق عند البخاري (1990) ومسلم (3/152) وابن حبان وأحمد والشافعي ومحمد بن الحسن من طرق أصحاب مالك، ويحيل على التمهيد (10/239). {cite:muwatta-maruf-1997 p.251} {cite:muwatta-maruf-1997 p.252}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 491 of kitab al-salat at PDF p. 251", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-23" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-ubayd-mawla-ibn-azhar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-aliya-medina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-id, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 491 at PDF p. 251; باب الأمر بالصلاة قبل الخطبة في العيدين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 251; matn excerpt at most 40 words" }

@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.494"
-label: { ar: "الموطأ 1.494", en: "Muwatta 1.494" }
+label: { ar: "الموطأ 494 — عمر يسأل أبا واقد الليثي: بم كان يقرأ النبي في الأضحى والفطر؟ بقاف والقمر", en: "Muwatta 494" }
 summary:
-  ar: "ضمرة بن سعيد المازني عن عبيد الله بن عبد الله بن عتبة: حديث في صلاة العيد؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب ما جاء في التكبير والقراءة في صلاة العيدين. يرويه يحيى عن مالك عن ضمرة بن سعيد المازني عن عبيد الله بن عبد الله بن عتبة بن مسعود: سأل عمر بن الخطاب أبا واقد الليثي بم كان النبي يقرأ في الأضحى والفطر، فقال: بسورة ق وسورة القمر. ويخرّجه المحقق عند مسلم (3/21) وأبي داود (1154) والترمذي (534) والنسائي وأحمد وابن حبان وعبد الرزاق والشافعي ومحمد بن الحسن والبيهقي من طرق أصحاب مالك. وينقل عن ابن عبد البر أن بعض أهل الحديث زعم أنه منقطع لأن عبيد الله لم يلق عمر، وأن غيره عدّه متصلاً لأن لقاءه لأبي واقد غير مدفوع (التمهيد 16/328)؛ ويقول المحقق إن أبا زرعة نص على عدم سماعه من عمر وتابعه ابن خزيمة والبيهقي والمزي، لكن رواية فليح بن سليمان عند مسلم «قال أبو واقد: سألني عمر» تدل على أنه رواه عن أبي واقد، وإن كان فليح ضعيفاً عند التفرد، ويختم بأن كلام ابن عبد البر هو الأصوب فالحديث حديث أبي واقد وقد صححه الترمذي بالصيغة التي رواها مالك. {cite:muwatta-maruf-1997 p.252} {cite:muwatta-maruf-1997 p.253} {cite:muwatta-maruf-1997 p.254}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 494 of kitab al-salat at PDF p. 252", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-23" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-waqid-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubaydallah-ibn-abdallah-ibn-utba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/damra-ibn-said-al-mazini, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-id, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 494 at PDF p. 252; باب ما جاء في التكبير والقراءة في صلاة العيدين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 252; matn excerpt at most 40 words" }

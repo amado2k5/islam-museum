@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.490"
-label: { ar: "الموطأ 1.490", en: "Muwatta 1.490" }
+label: { ar: "الموطأ 490 — بلاغ: أبو بكر وعمر كانا يصليان العيد قبل الخطبة", en: "Muwatta 490" }
 summary:
-  ar: "بلغ مالكًا أن أبا بكر وعمر كانا يفعلان ذلك؛ أثر في فعل الشيخين في صلاة العيد."
+  ar: "بلاغ في باب الأمر بالصلاة قبل الخطبة في العيدين: يروي مالك أنه بلغه أن أبا بكر وعمر كانا يفعلان ذلك، أي يصليان العيد قبل الخطبة. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.251}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 490 of kitab al-salat at PDF p. 251", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-23" }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-id, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 490 at PDF p. 251; باب الأمر بالصلاة قبل الخطبة في العيدين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 251; matn excerpt at most 40 words" }

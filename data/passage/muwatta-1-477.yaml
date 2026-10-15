@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.477"
-label: { ar: "الموطأ 1.477", en: "Muwatta 1.477" }
+label: { ar: "الموطأ 477 — رأى النبي مستلقياً في المسجد واضعاً إحدى رجليه على الأخرى", en: "Muwatta 477" }
 summary:
-  ar: "ابن شهاب عن عباد بن تميم عن عمه: رأى رسول الله ﷺ مستلقيًا في المسجد واضعًا إحدى رجليه على الأخرى؛ وصف جلسة النبي ﷺ."
+  ar: "يرويه مالك عن ابن شهاب عن عباد بن تميم عن عمه عبد الله بن زيد المازني، في باب جامع الصلاة: رأى النبي مستلقياً في المسجد واضعاً إحدى رجليه على الأخرى. ويخرّجه المحقق عند البخاري (475) ومسلم (6/154) وأبي داود (4866) والنسائي (2/50) وأحمد ومحمد بن الحسن من طرق أصحاب مالك، ويحيل على التمهيد (9/203). {cite:muwatta-maruf-1997 p.245}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 477 of kitab al-salat at PDF p. 245", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-22" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abbad-ibn-tamim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-zayd-al-mazini, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 477 at PDF p. 245; باب جامع الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 245; matn excerpt at most 40 words" }

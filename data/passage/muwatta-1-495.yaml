@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.495"
-label: { ar: "الموطأ 1.495", en: "Muwatta 1.495" }
+label: { ar: "الموطأ 495 — نافع: أبو هريرة يكبر في العيد سبعاً في الأولى وخمساً في الآخرة", en: "Muwatta 495" }
 summary:
-  ar: "نافع مولى ابن عمر: شهد الأضحى والفطر مع أبيه ابن عمر فصلى قبل الخطبة؛ الأثر في تقديم الصلاة على الخطبة."
+  ar: "أثر يرويه مالك عن نافع مولى عبد الله بن عمر، في باب ما جاء في التكبير والقراءة في صلاة العيدين: شهد الأضحى والفطر مع أبي هريرة فكبر في الركعة الأولى سبع تكبيرات قبل القراءة وفي الآخرة خمس تكبيرات قبل القراءة؛ قال مالك: وهو الأمر عندنا. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وعبد الرزاق والشافعي ومحمد بن الحسن، وينقل عن ابن عبد البر أن مثل هذا لا يكون رأياً وإنما توقيف، وأنه روي عن النبي من طرق كثيرة حسان (التمهيد 16/137)؛ ثم ينقل عن ابن حجر في تلخيص الحبير قول أحمد بن حنبل إنه لا يُروى في التكبير في العيدين حديث صحيح مرفوع، ويرى أن قوله حق. {cite:muwatta-maruf-1997 p.254}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 495 of kitab al-salat at PDF p. 254", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-23" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ahmad-ibn-hanbal, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-hajar-al-asqalani, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-id, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 495 at PDF p. 254; باب ما جاء في التكبير والقراءة في صلاة العيدين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 254; matn excerpt at most 40 words" }

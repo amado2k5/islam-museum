@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.481"
-label: { ar: "الموطأ 1.481", en: "Muwatta 1.481" }
+label: { ar: "الموطأ 481 — عائشة: أحب العمل إلى النبي ما داوم عليه صاحبه", en: "Muwatta 481" }
+text: "كان أحب العمل إلى رسول الله الذي يدوم عليه صاحبه"
 summary:
-  ar: "هشام بن عروة عن أبيه عن عائشة: كان أحب الأعمال إلى النبي ﷺ ما داوم عليه صاحبه وإن قل؛ الحديث في الدوام على العمل."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه عن عائشة، في باب جامع الصلاة: كان أحب العمل إلى النبي الذي يدوم عليه صاحبه. ويخرّجه المحقق عند البخاري (6462) وأحمد (6/176) من طرق أصحاب مالك، ويذكر أنه في الصحيحين من طريق أبي سلمة عن عائشة وعند مسلم (2/189) من طريق القاسم عنها، ويحيل على التمهيد (22/120). {cite:muwatta-maruf-1997 p.247}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 481 of kitab al-salat at PDF p. 247", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-22" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 481 at PDF p. 247; باب جامع الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 247; matn excerpt at most 40 words" }
