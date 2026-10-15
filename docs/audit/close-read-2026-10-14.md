@@ -28,35 +28,35 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 ## Pages needing citations (not added here)
 
 
-## Batch 5 of 19
+## Batch 6 of 19
 
-Pages group/ghassan.md to event/abu-khaythama-joins-the-army.md (25 pages).
+Pages event/abu-quhafa-conversion.md to event/battle-of-the-trench.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `group/ghassan.md` | ok |
-| `group/hanbali-madhhab.md` | ok |
-| `group/hawazin.md` | fixed (2) |
-| `group/himyar.md` | fixed (1) |
-| `group/hudhayl.md` | ok |
-| `group/jahmiyya.md` | fixed (1) |
-| `group/jews-of-khaybar.md` | ok |
-| `group/jurhum.md` | ok |
-| `group/kahlan.md` | ok |
-| `group/khathum.md` | ok |
-| `group/khuzaa.md` | ok |
-| `group/kinana.md` | ok |
-| `group/mothers-of-the-believers.md` | ok |
-| `group/muhajirun.md` | ok |
-| `group/murjia.md` | ok |
-| `group/mutazila.md` | ok |
-| `group/qadariyya.md` | ok |
-| `group/qahtan.md` | ok |
-| `group/qudaa.md` | ok |
-| `group/quraysh.md` | ok |
-| `group/thaqif.md` | fixed (1) |
-| `event/abolition-caliphate-1342.md` | ok |
-| `event/abu-bakr-leads-the-prayers.md` | ok |
-| `event/abu-dharr-lags-behind-on-the-march.md` | ok |
-| `event/abu-khaythama-joins-the-army.md` | ok |
+| `event/abu-quhafa-conversion.md` | ok |
+| `event/abu-ruhm-and-the-stragglers-of-ghifar-and-aslam.md` | ok |
+| `event/abu-sufyan-conversion.md` | ok |
+| `event/abu-sufyan-medina-mission.md` | ok |
+| `event/abu-talib-gathers-clans.md` | ok |
+| `event/abyssinian-occupation-of-yemen.md` | ok |
+| `event/address-to-the-ansar-at-jirana.md` | ok |
+| `event/al-dawa-al-sirriyya.md` | ok |
+| `event/al-jadd-ibn-qays-asks-to-stay-behind.md` | ok |
+| `event/ali-expedition-to-al-fuls.md` | ok |
+| `event/ali-left-with-the-prophets-family.md` | ok |
+| `event/arab-congress-paris-1332.md` | ok |
+| `event/assassination-attempt-of-amir-and-arbad.md` | ok |
+| `event/assassination-of-sallam-ibn-abi-al-huqayq.md` | ok |
+| `event/badr-council.md` | ok |
+| `event/badr-duel.md` | ok |
+| `event/badr-prisoners.md` | ok |
+| `event/badr-qulayb.md` | ok |
+| `event/bahira-encounter.md` | ok |
+| `event/battle-of-badr.md` | ok |
+| `event/battle-of-dhu-qar.md` | ok |
+| `event/battle-of-hunayn.md` | ok |
+| `event/battle-of-khaybar.md` | ok |
+| `event/battle-of-mutah.md` | ok |
+| `event/battle-of-the-trench.md` | ok |
 
