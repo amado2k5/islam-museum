@@ -1,0 +1,44 @@
+id: polity/hammudid-state
+class: polity
+kind: caliphate
+label:
+  ar: دولة بني حمود
+  en: Hammudid state
+summary:
+  ar: "دولة بني حمود بن ميمون من الأدارسة بسبتة وطنجة وبلاد غمارة ثم بالأندلس؛ لما انقرضت الدولة العامرية نصب البرابرة سليمان بن الحكم فاختص به علي والقاسم ابنا حمود، وعقد لعلي على طنجة فانتقض ودعا لنفسه وأجاز إلى الأندلس وولي الخلافة، وتعاقب أهل بيته القاسم ويحيى وإدريس على قرطبة ومالقة والجزيرة الخضراء، ثم استقل بسبتة وطنجة من مواليهم الحاجب سكوت البرغواطي إلى أن أوقع به يوسف بن تاشفين سنة 476هـ فقتله وعثر على ذخائره وفيها خاتم يحيى بن علي بن حمود، وانقرضت دولتهم."
+  en: "The state of Banu Hammud ibn Maymun of the Idrisids at Ceuta, Tangier and the Ghumara lands, then in al-Andalus; when the Amirid state collapsed the Berbers set up Sulayman ibn al-Hakam, and the brothers Ali and al-Qasim ibn Hammud stood him in good stead — Ali took Tangier, rebelled, crossed to Andalus and assumed the caliphate, and his house (al-Qasim, Yahya, Idris) held Cordoba, Malaga and Algeciras, until their Saqali client the hajib Sakkut the Barghawati seized Ceuta and Tangier, whom Yusuf ibn Tashfin destroyed in 476, finding among his hoard the seal-ring of Yahya ibn Ali — and the Hammudid state ended."
+wings: [time, place]
+periods: [period/umayyad, period/buyid-seljuk-fatimid-era]
+regions: [maghreb, andalus-europe]
+start:
+  edtf: "1016"
+  hijri: "0407"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: استيلاء علي بن حمود على قرطبة ودعواه الخلافة؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+end:
+  edtf: "1083"
+  hijri: "0476"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: فتح سبتة ومقتل سكوت سنة 476هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة بني حمود ومواليهم بسبتة وطنجة، ص1666-1667 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-20
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

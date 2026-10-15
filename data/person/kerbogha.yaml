@@ -1,0 +1,40 @@
+id: person/kerbogha
+class: person
+label:
+  ar: كربوقا صاحب الموصل
+  en: Kerbogha, lord of Mosul
+summary:
+  ar: "كربوقا، من أمراء السلجوقية وصاحب الموصل؛ ملكها بعد أقسنقر وبوزان لما قبضهما تتش بحلب، ودارت بينه وبين سقمان بن أرتق فتن وحروب أسر في بعضها ياقوتي ابن سقمان فحبسه بقلعة ماردين عند المغني صاحب الحصون، وسار لحصار آمد فقاتله سقمان قتالاً شديداً ثم هزمه وتوفي سنة 495هـ فولي الموصل بعده موسى التركماني."
+  en: "Kerbogha, a Seljuk amir and lord of Mosul; he held it after Aqsunqur and Bozan when Tutush seized them at Aleppo, waged a running war with Sukman ibn Artuq in which he captured Sukman's son Yaquti and held him at Mardin's fortress with the castellan al-Mughni, marched against Amid and fought Sukman bitterly before beating him, and died in 495 AH when Musa al-Turkmani took Mosul after him."
+gender: male
+roles: [ruler, military-commander]
+died:
+  edtf: "1102"
+  hijri: "0495"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: توفي سنة 495هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: fought
+  target: person/sukman-ibn-artuq
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني أرتق، ص1357-1358 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

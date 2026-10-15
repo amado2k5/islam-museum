@@ -1,0 +1,36 @@
+id: person/muhammad-ibn-sulayman-al-katib
+class: person
+label:
+  ar: محمد بن سليمان الكاتب
+  en: Muhammad ibn Sulayman al-Katib
+summary:
+  ar: "محمد بن سليمان الكاتب، من ديار مضر من الرقة؛ اصطنعه أحمد بن طولون بمصر ثم تنكر له فلحق ببغداد فصار كاتباً للجيش ومن أعظم قواد المكتفي، أغرى الخلفاء بملك مصر فلما فشلت دولة بني طولون وعاث القرامطة بالشام بعثه المكتفي في العساكر فهزم القرامطة وأسر صاحب الشامة، ثم استولى على الشام ودخل مصر فكسر أمر هارون بن خمارويه وقيد بني طولون وأشخصهم إلى بغداد، وأحرق القطائع التي بناها أحمد بن طولون ميلاً في ميل ونُهبت الفسطاط سنة 292هـ، فكان المتولي لتحويل دولة بني طولون."
+  en: "Muhammad ibn Sulayman al-Katib, from Diyar Mudar of al-Raqqa; Ahmad ibn Tulun's own protege in Egypt until estranged, he fled to Baghdad becoming army secretary and one of al-Muqtafi's greatest commanders, urging the caliphs to retake Egypt — when Tulunid power failed and the Qarmatians ravaged Syria, al-Muqtafi sent him with the armies: he crushed the Qarmatians, captured their Shama chief, took Syria, entered Egypt breaking Harun ibn Khumarawayh, chained the Banu Tulun (seventeen men) and shipped them to Baghdad, and burned Ibn Tulun's al-Qata'i' mile by mile while Fustat was plundered — the man who turned over the Tulunid state in 292 AH."
+gender: male
+roles: [military-commander]
+traditions: [sunni]
+relations:
+- type: fought
+  target: person/harun-ibn-khumarawayh
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: participated_in
+  target: event/fall-of-tulunids-292
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile, levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+- source/muntazam-ibn-al-jawzi
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — خبر محمد بن سليمان المتولي بتحويل دولة بني طولون، ص1100 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

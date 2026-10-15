@@ -1,0 +1,31 @@
+id: polity/ghana-empire
+class: polity
+kind: dynasty
+label:
+  ar: مملكة غانة القديمة
+  en: Ghana Empire
+summary:
+  ar: أعظم ممالك السودان قديماً، حاضرتها غانة بمدينتين على حافتي النيل من أعظم مدائن العالم، مسلمة من قديم الزمن، أول من أسلم من ملوكها برمندانه الذي حج واقتفت ملوكها من بعده سننه في الحج، ثم ضعف ملكها فتغلب عليها أهل صوصو ثم أهل مالي. ويذكر ابن خلدون في أخبار الأدارسة أنه كان بمدينة غانة من بلاد السودان مما يلي البحر ملك لبني صالح بن عبد الله من أعقاب موسى الجون بن عبد الله بن الحسن المثنى، يقال إنهم لحقوا بالمغرب لما حبس المأمون جدهم بخراسان، على ما أورده بعض المؤرخين ولم يذكره ابن حزم.
+  en: The greatest of the old Sudanese kingdoms, its capital Ghana standing in two cities on the banks of the Niger among the largest cities of the world, Muslim from early times, whose first convert king was Barmandana the pilgrim, until the Susu then Mali absorbed it.
+wings:
+- time
+- place
+periods:
+- period/rashidun
+- period/crusades-ayyubid-mamluk
+regions:
+- west-africa-sahel
+start: { edtf: "0300~", calendar: julian, precision: century, status: tradition, note: "المملكة قديمة قبل الإسلام؛ يذكر ابن خلدون أن أهلها كانوا مسلمين في زمن الهجرة على ما ثبت في الصحيح.", sources: [source/tarikh-ibn-khaldun-ibar] }
+end: { edtf: "1235~", hijri: "0633~", calendar: julian, precision: year, status: tradition, derived: true, note: "اضمحل ملك أصحاب غانة وتغلب عليهم أهل صوصو ثم أهل مالي فملكوا جميع ما بأيديهم من ملكهم القديم؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — باب ملوك السودان المجاورين للمغرب، ص1655-1656 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

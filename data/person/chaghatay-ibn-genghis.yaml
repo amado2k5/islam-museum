@@ -1,0 +1,34 @@
+id: person/chaghatay-ibn-genghis
+class: person
+label:
+  ar: جفتاي بن جنكزخان
+  en: Chaghatay ibn Genghis Khan
+summary:
+  ar: "جفتاي بن جنكزخان، وهو عندهم كداي؛ عين له أبوه من الممالك ما بين الأيقور إلى سمرقند وبخارى وما وراء النهر، ومات دون استيفاء أمره فولى أولاده عمهم منكوفان على ما وراء النهر إمضاء لوصية جنكزخان لأبيهم، واستقر الملك في أعقابه بسمرقند وأعمالها."
+  en: "Chaghatay ibn Genghis Khan, called Kaday among them; his father assigned him the realms from the Uyghur lands to Samarkand, Bukhara and Transoxiana — he died without completing his course, and Monke set his sons over Transoxiana in fulfilment of Genghis's bequest to their father, their line settling at Samarkand and its districts."
+gender: male
+roles: [ruler]
+relations:
+- type: child_of
+  target: person/genghis-khan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/jochi-ibn-genghis
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، قسمة الأعمال بين ولد جنكزخان، ص1536 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-12
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

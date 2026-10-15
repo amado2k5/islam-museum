@@ -1,0 +1,36 @@
+id: person/abu-inan-faris
+class: person
+label:
+  ar: أبو عنان فارس المريني
+  en: Abu Inan Faris al-Marini
+summary:
+  ar: "أبو عنان فارس بن علي المريني، سلطان بني مرين الذي وثب على الأمر حين كان أبوه أبو الحسن محاصراً بالقيروان في هوة واقعة العرب سنة 749هـ، فدعا لنفسه ورحل إلى المغرب وانتحر أباه عند عودته، ثم تغلب على تلمسان سنة 753هـ وعلى إفريقية سنة 758هـ فملك ما ملك الأسلاف من البلاد، وبنى المدارس المشهورة بفاس ومكناس وبها درس ابن خلدون نفسه، حتى قتله وزيره سنة 759هـ."
+  en: "Abu Inan Faris ibn Ali al-Marini, the Marinid sultan who seized power while his father Abu al-Hasan lay besieged at Kairouan after the Arab rout of 749 AH, claimed the throne and forced his father's abdication on his return, then took Tlemcen in 753 AH and Ifriqiya in 758 AH, ruling the full ancestral realm and building the famed madrasas of Fez and Meknes where Ibn Khaldun himself studied, until his vizier had him killed in 759 AH."
+gender: male
+roles: [sultan]
+traditions: [sunni]
+died: { edtf: "1358", hijri: "0759", calendar: julian, precision: year, status: tradition, derived: true, note: "قتله وزيره سنة 759هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: child_of
+  target: person/abu-al-hasan-al-marini
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/marinid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb, andalus-europe]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — أخبار واقعة القيروان وخلع أبي عنان أباه، ص1762 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

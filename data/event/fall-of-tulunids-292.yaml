@@ -1,0 +1,31 @@
+id: event/fall-of-tulunids-292
+class: event
+kind: conquest
+label:
+  ar: سقوط الدولة الطولونية وإحراق القطائع (292هـ)
+  en: Fall of the Tulunid state and burning of al-Qata'i' (292 AH)
+date:
+  start: { edtf: "0905", hijri: "0292", calendar: julian, precision: year, status: tradition, derived: true, note: "استيلاء محمد بن سليمان على مصر سنة 292هـ؛ التحويل مشتق." }
+summary:
+  ar: "لما فشلت دولة بني طولون وعاث القرامطة بنواحي الشام بعث المكتفي قائده محمد بن سليمان الكاتب فاستولى على الشام ثم قارب مصر، فكاتب القواد يستميلهم حتى جاءه بدر الحمامي رئيسهم، وبرز هارون بن خمارويه لقتالهم فأصابته حربة في فتنة وقعت بين جنده، واستأمن إليه أعيان دولته، فركب محمد إلى مصر واستولى عليها وقيد بني طولون — وكانوا سبعة عشر رجلاً — وأشخصهم إلى بغداد، وأمر المكتفي بإحراق القطائع التي بناها أحمد بن طولون شرقي مصر فكانت ميلاً في ميل ونُهبت الفسطاط."
+  en: "As Tulunid power failed and the Qarmatians ravaged Syria, al-Muqtafi sent his commander Muhammad ibn Sulayman al-Katib, who took Syria then neared Egypt and won over the commanders until Badr al-Hammami their chief came over; Harun ibn Khumarawayh rode out to fight but was struck by a spear amid a mutiny of his own troops, his state's notables surrendered, and Muhammad rode into Egypt, chained the seventeen Banu Tulun and shipped them to Baghdad — then on al-Muqtafi's order burned Ibn Tulun's al-Qata'i' quarter east of Fustat mile upon mile while Fustat was plundered."
+relations:
+- type: occurred_at
+  target: place/al-fustat
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [time]
+periods: [period/abbasid-fragmentation]
+regions: [egypt-nile]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — استيلاء المكتفي على الشام ومصر وقتل هارون وشيبان، ص1100-1101 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

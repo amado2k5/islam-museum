@@ -1,0 +1,37 @@
+id: person/bughra-khan-qarakhanid
+class: person
+label:
+  ar: بقراخان الخاقاني
+  en: Bughra Khan al-Qarakhani
+summary:
+  ar: "بقراخان من ملوك الترك الخاقانيين؛ طمع في بلاد بني سامان بإغواء أبي علي بن سمجور عند اضطراب دولتهم فقصد أعمالهم وملكها شيئاً فشيئاً وهزم عساكر الأمير نوح بن منصور وأسر قائده أنج، ودخل بخارى حتى رجع عنها الأمير نوح، ولما ارتحل منها وهو على ما به من المرض أدركه الموت في طريقه سنة ثلاث وثمانين وأربعمائة على قراءة النص، وكان ديناً عادلاً حسن السيرة محباً للعلماء وأهل الدين مكرماً لهم متشيعاً سنياً، وولي بعده أخوه ايلك خان سليمان."
+  en: "Bughra Khan of the Qarakhanid Turkic kings; drawn into the Samanid lands by Abu Ali ibn Simjur's tempting of him with Bukhara in that dynasty's collapse, he took their country piece by piece, routed Nuh ibn Mansur's armies and captured his commander Anj, entered Bukhara until Nuh's return — then, departing sick, died on the road in the year the text reads as 403 of the fourth century; pious, just, of good conduct, a Sunni-leaning honourer of scholars, succeeded by his brother Ilig Khan Sulayman."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1012~"
+  hijri: "0403~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "النص يقرأ «سنة ثلاث وثمانين وأربعمائة» — والقراءة عرضة لخلط المسح الضوئي بين ثلاثمائة وأربعمائة؛ التحويل مشتق."
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+- { type: "ruler_of", target: "polity/qarakhanid-dynasty", note: "الفاتح الأول لبخارى من الخاقانيين", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة الترك في كاشغر — وفاة بقراخان، ص1154 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-31
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

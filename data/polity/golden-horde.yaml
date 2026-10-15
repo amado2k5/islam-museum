@@ -1,0 +1,29 @@
+id: polity/golden-horde
+class: polity
+kind: empire
+label:
+  ar: دولة بني جوجي بالدست (القبيل الذهبي)
+  en: The Jochid state of the Dasht (Golden Horde)
+summary:
+  ar: "دولة بني جوجي (دوشي خان) بن جنكزخان بدست القفجاق من فيلاق إلى بلغار؛ خلف جوجي من الولد ناخوا وبركة، وأسلم بركة على يد شيخ من أصحاب نجم الدين كبرى ببخارى واستأذن أخاه منكوفان في الاستيلاء على أعمال الخلافة، وكانت دولتهم بصراي حتى ملك أزبك فظهر الإسلام فيهم وتصاهروا على ملوك مصر."
+  en: "The state of the sons of Jochi (Dushi Khan) ibn Genghis in the Qipchaq Dasht from Filak to Bulgar; Jochi's sons Naju and Berke inherited it, Berke converting at a Bukhara shaykh's hand of Najm al-Din Kubra's school and seeking his brother Monke's leave to strike the caliphate's lands — their throne sat at Saray until Uzbek's reign when Islam spread among them and they intermarried with Egypt's kings."
+wings: [time, place]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, anatolia-balkans]
+relations:
+- type: founded_by
+  target: person/jochi-ibn-genghis
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، ملوك الدست بالشمال، ص1535-1540 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-13
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -1,0 +1,46 @@
+id: person/abaga-ibn-hulagu
+class: person
+label:
+  ar: أبغا بن هلاكو
+  en: Abaga ibn Hulagu
+summary:
+  ar: "أبغا بن هلاكو، ثاني إيلخانات بني هلاكو بالعراق؛ ولي بعد أبيه سنة 663هـ، وزحف سنة 680هـ إلى بلاد الشام في مظاهرة منكوتمر ملك الدست بالشمال فنازل حماة مع أخيه منكوتمر وزحف إليهم المنصور قلاوون ملك مصر والشام من دمشق فلقيهم بظاهر حمص وكانت الدائرة على ملوك التتر وهلك خلق من عساكرهم وأسر آخرون، وأجفل أبغا من منازلة الرحبة ورجع إلى بلاده منهزماً."
+  en: "Abaga ibn Hulagu, second Ilkhan of the Hulaguid line in Iraq; succeeding his father in 663 AH he marched on Syria in 680 in concert with Mengu-Timur, king of the northern Dasht, camped at Hama with his brother Mongke-Timur, and al-Mansur Qalawun of Egypt and Syria met them outside Homs — the day went against the Tatar kings, many were slain and captured, and Abaga fled from the Rahba camping-ground back to his lands defeated."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1282~"
+  hijri: "0680~"
+  calendar: julian
+  precision: decade
+  status: debated
+  derived: true
+  note: هزيمة حمص سنة 681هـ في أواخر أيامه؛ سنة الوفاة تحتاج توثيقاً.
+relations:
+- type: child_of
+  target: person/hulagu
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/ilkhanate
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: fought
+  target: person/qalawun
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، وقعة حمص، ص1539 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-13
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

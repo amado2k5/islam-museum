@@ -1,0 +1,44 @@
+id: person/muzaffar-yusuf-rasulid
+class: person
+label:
+  ar: الملك المظفر شمس الدين يوسف بن عمر
+  en: al-Malik al-Muzaffar Shams al-Din Yusuf ibn Umar
+summary:
+  ar: "الملك المظفر شمس الدين يوسف بن عمر بن علي بن رسول، ثالث ملوك بني رسول باليمن؛ قام بالأمر بعد مقتل أبيه سنة 648هـ، وكان عادلاً محسناً، وفرض الأتاوة على نفسه لملوك مصر من الترك لما استقلوا بالملك وما زال يصانعهم بها، وشغل أول ملكه بحصن الدملوة وبثورة أحمد الموطىء الزيدي الذي ملك عشرين حصناً من حصون الزيدية وملك صفد، ولم يزل والياً على اليمن إلى أن هلك بغتة سنة 694هـ لست وأربعين سنة من ملكه."
+  en: "Al-Malik al-Muzaffar Shams al-Din Yusuf ibn Umar, third Rasulid king of Yemen; taking power after his father's killing in 648 AH, he was just and beneficent, assessed upon himself the atawa tribute to Egypt's Turkish kings and kept buying their goodwill, spent his first reign besieging the Damluwa fortress and fighting the Zaydi claimant Ahmad al-Mu'ti who took twenty Zaydi fortresses and Safad — and remained wali of Yemen until he died suddenly in 694 in the forty-sixth year of his rule."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1295"
+  hijri: "0694"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: هلك بغتة سنة 694هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: child_of
+  target: person/mansur-umar-ibn-ali-rasuli
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/rasulid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني رسول باليمن، ص1527 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-10
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -5,6 +5,7 @@ These documents apply to every agent, whichever vendor, product or model it is, 
 | Document | Read it when |
 |---|---|
 | [`AGENTS.md`](../../AGENTS.md) | Always, first: the rules that never bend. |
+| [`../sources-policy.md`](../sources-policy.md) | Before you use any source: what may be read (everything), how it is rewritten and cited, what stays out of git. |
 | [`workflow.md`](workflow.md) | You are about to set up, edit, commit, push, merge or hand off. |
 | [`content-standards.md`](content-standards.md) | You write or change any entity (data or prose). |
 | [`mining-sources.md`](mining-sources.md) and [`categories/`](categories/) | You turn a book, a dictionary or a text collection into entities. |

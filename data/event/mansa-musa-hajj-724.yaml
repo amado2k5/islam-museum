@@ -1,0 +1,36 @@
+id: event/mansa-musa-hajj-724
+class: event
+kind: pilgrimage
+label:
+  ar: حج منسا موسى
+  en: The hajj of Mansa Musa
+summary:
+  ar: رحلة منسا موسى ملك مالي إلى الحجاز سنة 724هـ في موكب أدهش أهل مصر والحجاز، جاوزت وصائفه اثني عشر ألفاً لابسات أقبية الديباج والحرير اليماني، وكان يتحف الناس في كل منزل بطرف المآكل والحلاوات، فأنشأت مصر تحكي عن سخائه وعن ملك مالي وعظمته ما لا تزال تتناقله، وأراد أن يتخذ بيتاً في قاعدة سلطانه محكم البناء مجللاً بالكلس لغرابته.
+  en: The journey of Mali's king Mansa Musa to the Hijaz in 724 AH in a caravan that astonished Egypt and the Hijaz — over twelve thousand attendants in brocade and Yemeni silk, feasting every halt on rare foods and sweets — leaving Egypt retelling his munificence for generations, while he planned a lime-plastered guest house in his capital for his returning entourage.
+wings:
+- time
+- place
+periods:
+- period/mongol-post-mongol
+regions:
+- west-africa-sahel
+- maghreb
+date:
+  start: { edtf: "1324", hijri: "0724", calendar: julian, precision: year, status: tradition, derived: true, note: "حج سنة 724هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: had_participant
+  target: person/mansa-musa
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — باب ملوك السودان، ص1656 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

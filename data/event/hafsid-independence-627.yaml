@@ -1,0 +1,35 @@
+id: event/hafsid-independence-627
+class: event
+kind: founding
+label:
+  ar: خلع أبي زكريا الحفصي طاعة الموحدين
+  en: Abu Zakariya al-Hafsi's break with the Almohads
+summary:
+  ar: سنة 627هـ استبد الأمير أبو زكريا بن أبي محمد ابن الشيخ أبي حفص بإفريقية وخلع طاعة الخليفة المأمون بعد أن محا الأخير اسم المهدي من السكة والخطبة، فقامت الدولة الحفصية بتونس على يد الحفصيين الهنتاتيين أحفاد كبير مشيخة الموحدين.
+  en: In 627 AH the amir Abu Zakariya, grandson of the shaykh Abu Hafs, seized Ifriqiya and threw off the caliph al-Ma'mun's allegiance after the latter had erased the Mahdi's name from coinage and khutba — founding the Hafsid state at Tunis under the Hintati grandsons of the Almohads' greatest shaykh.
+wings: [time, people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1230", hijri: "0627", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 627هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: had_participant
+  target: person/abu-zakariya-al-hafsi
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: occurred_at
+  target: place/tunis
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة المأمون بن المنصور، ص1684 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

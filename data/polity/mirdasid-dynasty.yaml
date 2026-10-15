@@ -1,0 +1,39 @@
+id: polity/mirdasid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: الدولة المرداسية
+  en: Mirdasid dynasty
+summary:
+  ar: "دولة بني صالح بن مرداس من بني كلاب بن عامر بن صعصعة بحلب وما بينها إلى عنه؛ ابتدأها صالح بملك الرحبة ثم استولى على حلب من يد ابن شعبان الكتامي سنة 424هـ فاتسع ملكه من بعلبك إلى عنه، وبعد مهلكه سنة 429هـ تداولها بنوه نصر (شبل الدولة) وثمال حتى انقرضت دولتهم مع ظهور ملوك السلاجقة بالشام."
+  en: "The state of Banu Salih ibn Mirdas of Banu Kilab ibn Amir ibn Sa'sa'a at Aleppo and the lands down to Ana; Salih began by taking al-Rahba, then seized Aleppo from Ibn Sha'ban al-Katami in 424 AH so his realm stretched from Baalbek to Ana — after his death in 429 his sons Nasr (Shibl al-Dawla) and Thimal held it until their line ended with the rise of the Seljuk kings in Syria."
+wings: [time, place]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+start:
+  edtf: "1033"
+  hijri: "0424"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: استيلاء صالح بن مرداس على حلب سنة 424هـ عند ابن خلدون؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: founded_by
+  target: person/salih-ibn-mirdas
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة بني صالح بن مرداس بحلب، ص1074-1075 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

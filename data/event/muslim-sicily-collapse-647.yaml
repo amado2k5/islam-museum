@@ -1,0 +1,31 @@
+id: event/muslim-sicily-collapse-647
+class: event
+kind: expulsion
+label:
+  ar: انهيار مسلمي صقلية بعد هلاك أبي زكريا
+  en: The collapse of Muslim Sicily after Abu Zakariya's death
+summary:
+  ar: "لما طار خبر مهلك السلطان أبي زكريا سنة 647هـ إلى صقلية، وكان المسلمون بمدينة بلرم قد عُقد لهم مع صاحب الجزيرة الاشتراك في البلد والضاحية فتساكنوا، بادر النصارى إلى العيث فيهم فلجؤوا إلى الحصون والأوعار، فحاصرهم طاغية صقلية بمعقلهم من الجبل حتى استنزلهم وأجازهم البحر إلى عدوته وأنزلهم بوجاره، ثم تعدى إلى جزيرة مالطة فأخرج المسلمين الذين كانوا بها."
+  en: "When word of Sultan Abu Zakariya's death in 647 AH reached Sicily — whose Muslims of Palermo had a compact to share town and suburbs with the island's lord — the Christians fell upon them; they fled to strongholds, were besieged until they surrendered, ferried across the strait and settled on the facing coast, and then the lord of Sicily passed to Malta and expelled its Muslims too."
+wings: [time, people]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1249", hijri: "0647", calendar: julian, precision: year, status: tradition, derived: true, note: "عقب مهلك أبي زكريا سنة 647هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: had_participant
+  target: person/abu-zakariya-al-hafsi
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — أخبار دولة الحفصيين، ص1707 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

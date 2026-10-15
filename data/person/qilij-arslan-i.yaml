@@ -1,0 +1,42 @@
+id: person/qilij-arslan-i
+class: person
+label:
+  ar: قليج أرسلان بن سليمان بن قطلمش
+  en: Qilij Arslan I ibn Sulayman
+summary:
+  ar: "قليج أرسلان بن سليمان بن قطلمش، سلطان سلاجقة الروم؛ ملك بعد أبيه قونية وأقصرا وسائر بلاد الروم، ولما زحف الإفرنج إلى سواحل الشام سنة 490هـ مروا ببلاده فنازعهم، ثم استولى على الموصل وديار بكر وأعمالها وجلس على التخت، ولما حاصر جاولي سكاوو الرحبة سار من الموصل لحربه فتفرق عنه قومه وحمل على جاولي بنفسه فصرع صاحب الراية ثم هزمه أصحاب جاولي فألقى نفسه في الخابور فغرق، وولي بلاد الروم ابنه مسعود."
+  en: "Qilij Arslan ibn Sulayman ibn Qutulmush, Seljuk sultan of Rum; succeeding his father over Konya, Aqsaray and the Rum lands, he fought the Frankish hosts crossing his country toward the Levantine coast in 490 AH, then took Mosul, Diyar Bakr and their districts and sat on the throne — marching from Mosul against Jawali Saqawa's siege of al-Rahba, his host deserted him, he charged Jawali in person, was beaten back by Jawali's men and threw himself into the Khabur where he drowned; his son Mas'ud took the Rum lands."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1107~"
+  hijri: "0500~"
+  calendar: julian
+  precision: decade
+  status: debated
+  derived: true
+  note: غرق بالخابور في حربه مع جاولي؛ سنة الوفاة تحتاج توثيقاً دقيقاً من هذا المصدر.
+relations:
+- type: child_of
+  target: person/sulayman-ibn-qutlumush
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/rum-seljuk-sultanate
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans, levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة قطلمش وبنيه، مقتل قليج أرسلان، ص1331-1333 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

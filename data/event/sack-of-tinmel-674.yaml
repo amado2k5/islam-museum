@@ -1,0 +1,37 @@
+id: event/sack-of-tinmel-674
+class: event
+kind: massacre
+label:
+  ar: ملحمة تينملل وقطع دابر بني عبد المؤمن
+  en: The Tinmel massacre — end of Banu Abd al-Mu'min
+summary:
+  ar: "في سنة أربع وسبعين وستمائة صمد فل بني عبد المؤمن إلى جبل تينملل جرثومة أمرهم ودار إمامهم ومسجد مهديهم، وقد بايعوا إسمحاق أخا عمر المرتضى سنة 669هـ، فأوقع بهم محمد بن علي بن محلى عامل السلطان أبي يوسف على أعمال مراكش واقتحم الجبل عنوة وقتل خليفتهم المستضعف ووزيرهم ابن عطوش في جوانب الملحمة، وضربت أعناق من قبض عليهم بمراكش وصلبت أشلاؤهم، وبعثرت قبور الخلفاء من بني عبد المؤمن واستخرج شلو يوسف وابنه يعقوب المنصور فقطعت رؤوسهم، وتولى كبر ذلك أبو علي الملياني الذي كان السلطان أقطعه بلاد أغمات فنكرها السلطان لجلاله وتجاوز عنها تأنيساً لقربته، وانقطعت دابر بني عبد المؤمن."
+  en: "In 674 the Almohad remnant, who had sworn to Ishaq brother of Umar al-Murtada in 669, stood to their last refuge at Mount Tinmel — cradle of their da'wa, their imam's house and their Mahdi's mosque; Muhammad ibn Ali ibn Mahalla, Abu Yusuf's governor of Marrakesh, stormed the height, killed their puppet caliph and the vizier Ibn Attush in the battle, beheaded and crucified the captives at Marrakesh, scattered the Almohad caliphs' tombs and exhumed the bodies of Yusuf and his son Ya'qub al-Mansur to cut off their heads — the work of Abu Ali al-Milyani whom the sultan had enfeoffed with Aghmat; the sultan disowned the deed for its enormity yet pardoned it for the man's fealty — and the seed of Banu Abd al-Mu'min was cut off."
+wings: [time, place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start:
+    edtf: "1275"
+    hijri: "0674"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: وقعت الملحمة سنة 674هـ؛ التحويل مشتق.
+    sources:
+    - source/tarikh-ibn-khaldun-ibar
+relations:
+- { type: "occurred_at", target: "place/tinmal", note: "جبل تينملل معقل فل الموحدين", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — ملحمة تينملل ضمن أحداث اختطاط البلد الجديد، ص1920 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-40
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

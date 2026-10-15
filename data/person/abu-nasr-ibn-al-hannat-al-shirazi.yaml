@@ -1,0 +1,18 @@
+id: person/abu-nasr-ibn-al-hannat-al-shirazi
+class: person
+label: { ar: "أبو نصر ابن الحناط الشيرازي" }
+names:
+  - { kind: full, lang: ar, value: "أبو نصر ابن الحناط الشيرازي" }
+gender: male
+roles: [jurist, scholar, poet, mystic]
+traditions: [sunni]
+summary:
+  ar: "أبو نصر ابن الحناط الشيرازي، أخذ الفقه عن أبيه أبي عبد الله الحناط، فقيه أصولي فصيح صوفي شاعر، ومات بفيد في طريق مكة، وله مصنفات كثيرة في الفقه وأصوله، وعنه أخذ فقهاء شيراز {cite:tabaqat-fuqaha-abbas-1981 p. 64}. يحكي الكتاب أنه أو أباه تكلم في مجلس نظر فأعجب الحاضرين، فاعترض عليه أبو سعد بشر بن الحسين الداودي، فأجاب بما نقله الكتاب {cite:tabaqat-fuqaha-abbas-1981 p. 64}. لم يذكر الشيرازي سنة وفاته."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: student_of, target: person/abu-abd-allah-al-hannat-al-shirazi, role: "أخذ الفقه عن أبيه (PDF ص64)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-8" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 8 (PDF ص62–64)" }

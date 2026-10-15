@@ -1,0 +1,26 @@
+id: event/genoese-capture-tripoli-757
+class: event
+kind: conquest
+label:
+  ar: استيلاء الجنوبيين على طرابلس ورجوعها
+  en: The Genoese capture and recovery of Tripoli
+summary:
+  ar: "كانت طرابلس ثغراً مقيماً رسم الدولة منقطعاً عن الحضرة في أعوام خمسين وسبعمائة، وتجار الجنوبيين يترددون إليها فاطلعوا على عوراتها، فهتف هاتفهم بالحرب وقد لبسوا السلاح فارتاع الناس وهبوا من مضاجعهم، فلما رأوهم بالأسوار لم يكن همّ أهلها إلا النجاة بأنفسهم، ونجا ثابت بن عمر مقدمهم إلى الحلة فلحق بأخيه بقاصية إفريقية، وملك النصارى البلد حتى ردّها المسلمون."
+  en: "Tripoli stood as a frontier town holding the state's rite while cut off from the capital in the 750s, Genoese merchants frequenting it and spying out its weaknesses; their herald cried war with arms already donned, the people woke in panic, and seeing them on the walls thought only of saving themselves — Thabit ibn Umar their captain escaping to the Hulla to join his brother — while the Christians held the town until the Muslims won it back."
+wings: [time, people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb, andalus-europe]
+date:
+  start: { edtf: "1356~", hijri: "0757~", calendar: julian, precision: year, status: tradition, derived: true, note: "في أعوام خمسين وسبعمائة على خبر ابن خلدون؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن حادثة طرابلس واستيلاء النصارى عليها ثم رجوعها، ص1766-1767 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

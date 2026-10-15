@@ -1,0 +1,38 @@
+id: person/abu-hammu-i-musa-zayyanid
+class: person
+label:
+  ar: أبو حمو موسى بن عثمان
+  en: Abu Hammu I Musa ibn Uthman
+summary:
+  ar: "أبو حمو موسى بن عثمان بن يغمراسن سلطان تلمسان؛ اصطفى ابن عمه مسعوداً بن أبي عامر وقرّبه إلى خلواته، ودفع إلى ابنه عبد الرحمن أبا تاشفين أتراباً من المعلوجي يقومون بخدمته في مرباه، وكان كثيراً ما يقرع ابنه ويويخه إرهافاً في اكتساب الخلال ويعيره بمكان ابن عمه من النجابة، فاستشعر المعلوج غيرته وأغروه بالتوثب على الأمر، فتحينوا قايلة الهاجرة عند منصرف السلطان من مجلسه فهجموا ببطانتهم على خاصة القصر واعتوروه بأسيافهم فقتلوه، وقتلوا معه مسعود بن أبي عامر وأبا سرحان وهلك الوزراء بنو الملاح حجاب الدار من أهل قرطبة، وطاف الهاتف بسكك تلمسان بأن أبا سرحان غدر بالسلطان وأن ابنه أبا تاشفين ثار له."
+  en: "Abu Hammu Musa ibn Uthman ibn Yaghmurasan, sultan of Tlemcen; he singled out his cousin Mas'ud ibn Abi Amir for his privy councils while heaping scorn on his son Abd al-Rahman Abu Tashfin, comparing him unfavourably to that cousin — until the son's M'aluji companions, stoking his envy, rushed the palace at the siesta hour as the council broke up, cut the sultan down with their swords, killed Mas'ud and Abu Sarhan, and massacred the Banu al-Mallah viziers, the Cordoban house of the hijaba — the town-crier going through Tlemcen's streets that Abu Sarhan had betrayed the sultan and his son Abu Tashfin had risen for him."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1318~"
+  hijri: "0718~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: قتل غدراً في قصره على يد بطانة ابنه أبي تاشفين؛ السنة تقديرية على مشهور الروايات.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+relations:
+- { type: "ruler_of", target: "polity/zayyanid-tlemcen", note: "رابع ملوك بني عبد الواد", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: "successor_of", target: "person/abu-ziyan-muhammad-ibn-uthman", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مقتل السلطان أبي حمو وولاية ابنه أبي تاشفين، ص1863-1864 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-37
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -1,0 +1,41 @@
+id: person/mansa-musa
+class: person
+label:
+  ar: منسا موسى
+  en: Mansa Musa
+summary:
+  ar: أشهر ملوك مالي وأعظمهم، ملك نحو ربع قرن وحج بيت الله سنة 724هـ في موكب جاوزت وصائفه اثني عشر ألفاً لابسات أقبية الديباج والحرير اليماني، فكثر الكلام عن بذله وسعة ملكه حتى اشتهرت مملكة مالي في المغرب ومصر والمشرق، وتبادل الهدايا مع السلطان المريني أبي الحسن فكان من جملة ما بعث إليه الزرافة التي تحدث بها أهل المغرب دهراً.
+  en: The most famous and greatest of Mali's kings, who reigned about a quarter of a century and made the hajj in 724 AH in a procession of over twelve thousand attendants clad in brocade and Yemeni silk, his largesse and the breadth of his realm becoming proverbial across the Maghreb, Egypt and the East; he exchanged gifts with the Marinid sultan Abu al-Hasan, among them the giraffe that the Maghreb talked about for an age.
+gender: male
+roles: [ruler]
+traditions:
+- sunni
+died: { edtf: "1337~", hijri: "0737~", calendar: julian, precision: year, status: debated, derived: true, note: "بلغ ابن خلدون أنه توفي بعد خمس وعشرين سنة من ملكه؛ سنة الوفاة محتملة بين ٧٣٧ و٧٣٩هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: ruler_of
+  target: polity/mali-empire
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/mari-jata
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings:
+- time
+- place
+periods:
+- period/mongol-post-mongol
+regions:
+- west-africa-sahel
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — باب ملوك السودان، ص1656-1657 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

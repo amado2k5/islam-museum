@@ -1,0 +1,23 @@
+id: building/al-madrasa-al-nizamiyya-baghdad
+class: building
+kind: madrasa
+label:
+  ar: المدرسة النظامية ببغداد
+  en: The Nizamiyya Madrasa of Baghdad
+summary:
+  ar: "المدرسة النظامية ببغداد، أولى وأشهر المدارس التي أنشأها الوزير نظام الملك الطوسي، أخذ في بنائها سنة 457هـ وتفرع عنها نظائر في نيسابور وأصفهان وهراة والبصرة والموصل وأمد، وقد عُهد فيها بالتدريس إلى إمام الحرمين الجويني ثم إلى أبي إسحاق الشيرازي، وصارت أمهات المعاهد السنية التي احتذتها المدارس التالية في بغداد وغيرها، حتى صلّى فيها الخلفاء وزارها الوزير نظام الملك بنفسه متفقداً خزانتها."
+  en: "The Nizamiyya of Baghdad, first and most famous of the madrasas founded by the vizier Nizam al-Mulk al-Tusi: building began in 457 and sisters rose at Nishapur, Isfahan, Herat, Basra, Mosul and Amid; the Imam al-Haramayn al-Juwayni then Abu Ishaq al-Shirazi taught in it, and it mothered the Sunni institutional model that the later madrasas of Baghdad followed — the caliphs prayed there and Nizam al-Mulk himself visited to inspect its library."
+wings: [people, place]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+- { type: located_in, target: place/baghdad, sources: [source/tarikh-islam-hasan-ibrahim] }
+- { type: founded_by, target: person/nizam-al-mulk, role: "أخذ في بنائها سنة 457هـ", sources: [source/tarikh-islam-hasan-ibrahim] }
+provenance:
+  layer: own-research
+  source: "حسن إبراهيم حسن، تاريخ الإسلام ج4 ص 25، 285؛ بناؤها ابتدأ 457هـ"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-hasanibrahim-9
+sources: [source/tarikh-islam-hasan-ibrahim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

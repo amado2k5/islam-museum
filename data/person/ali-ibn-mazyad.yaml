@@ -1,0 +1,36 @@
+id: person/ali-ibn-mazyad
+class: person
+label:
+  ar: أبو الحسن علي بن مزيد الأسدي
+  en: Abu al-Hasan Ali ibn Mazyad al-Asadi
+summary:
+  ar: "أبو الحسن علي بن مزيد الأسدي، كبير بني مزيد ومؤسس أمرهم؛ طلب ثأر أخيه أبي الغنائم الذي قُتل سنة 401هـ فهزم بني دبيس وقتل حساناً ونبهان واستولى على الجزيرة الدبيسية، وقلده فخر الدولة أمرها إلا الطيب وقرقوب، ثم ثار به مضر بن دبيس فانتزعها، وتوفي سنة 408هـ وقد قام الأمر في حياته لابنه دبيس فخلع عليه سلطان الدولة وأذن في ولايته."
+  en: "Abu al-Hasan Ali ibn Mazyad al-Asadi, chief of Banu Mazyad and founder of their fortune; seeking revenge for his brother Abu al-Ghana'im (killed 401 AH) he defeated Banu Dubays, slew Hasan and Nubhan and took the Dubaysi islands, Fakhr al-Dawla investing him with them save al-Tayyib and Qarqub — until Mudar ibn Dubays retook them; he died in 408 AH having in his lifetime settled the command on his son Dubays, whom the sultan of the state robed and licensed."
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "1017", hijri: "0408", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة 408هـ عند ابن خلدون؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: member_of
+  target: group/banu-mazyad
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/mazyadid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني مزيد، وفاة علي بن مزيد، ص1078 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -1,0 +1,22 @@
+id: event/majus-raid-nekour-244
+class: event
+kind: raid
+label: { ar: "غارة المجوس على نكور سنة 244" }
+summary:
+  ar: "سنة 244هـ غزا المجوس مدينة نكور على ساحل المغرب الأقصى في أساطيلهم فتغلبوا عليها واستباحوها ثمانية أيام، ثم اجتمع إلى سعيد بن صالح ملكها من بني صالح بن منصور نجدة من البربر فتزاحفوا معهم فأظهرهم الله عليهم وفرق جماعتهم وقتل مقدمهم واستوسق أمره إلى أن هلك سنة 188هـ لسبع وثلاثين من ملكه {cite:tarikh-ibn-khaldun-ibar p. 1662-1663}."
+  en: "In 244 AH the Majus (Norse seafarers) raided Nekour on the Maghreb's coast in their fleets, overran it and sacked it for eight days, until Sa'id ibn Salih of the Banu Salih gathered Berber succour, met them in battle, routed their host and killed their leader {cite:tarikh-ibn-khaldun-ibar p. 1662-1663}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0858", hijri: "0244", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة أربع وأربعين ومائتين عند ابن خلدون؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1662}." }
+relations:
+  - { type: occurred_at, target: place/nekour, sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "ابن خلدون، العبر — بنو صالح بن منصور ملوك نكور (طبعة هيليوبوليس)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-ibar-east-19
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

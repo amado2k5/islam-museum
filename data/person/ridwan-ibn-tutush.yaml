@@ -1,0 +1,34 @@
+id: person/ridwan-ibn-tutush
+class: person
+label:
+  ar: رضوان بن تتش
+  en: Ridwan ibn Tutush
+summary:
+  ar: "رضوان بن تاج الدولة تتش بن ألب أرسلان؛ كان أبوه أوصى أصحابه قبل المصاف بطاعته فلما قتل تتش بالري سنة 488هـ بلغه الخبر عند هيت فعاد إلى حلب، وثار جناح الدولة الحسن بن أفتكين بقلعتها من الليل ونادى بشعاره فخطب له على منابرها وأعمالها وأحسن تدبير دولته، وحاصر نصيبين مع الألبي سنة 499هـ، وكان أخوه دقاق بدمشق فتنازعا الملك."
+  en: "Ridwan ibn Taj al-Dawla Tutush ibn Alp Arslan; his father had commended him to his men before battle, and when Tutush fell at Rayy in 488 AH the news reached him at Hit — he returned to Aleppo where Janah al-Dawla al-Hasan ibn Aftakin seized the citadel by night, proclaimed him from its pulpits and managed his state well; he besieged Nisibis with al-Albi in 499 and contested kingship with his brother Duqaq at Damascus."
+gender: male
+roles: [ruler]
+relations:
+- type: child_of
+  target: person/tutush
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/duqaq-ibn-tutush
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني تتش ببلاد الشام، استيلاء رضوان على حلب، ص1323-1324 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -1,0 +1,29 @@
+id: polity/hamdanid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: الدولة الحمدانية
+  en: Hamdanid dynasty
+summary:
+  ar: "دولة بني حمدان بن حمدون بن الحارث التغلبية، من بني تغلب بن وائل أهل الجزيرة؛ بدأت بالرياسة على الموصل لما ولي المكتفي أبا الهيجاء عبد اللّه بن حمدان عليها، ثم امتدت إلى الجزيرة والشام واستقرت بأمرائها الكبار ناصر الدولة على الموصل وسيف الدولة على حلب، مستبدة بالدعوة العباسية، على وصف ابن خلدون."
+  en: "The state of the Banu Hamdan ibn Hamdun al-Taghlibi, of Banu Taghlib ibn Wa'il of the Jazira; it began with authority over Mosul when al-Muktafi appointed Abu al-Hayja Abd Allah ibn Hamdan over it, then extended through the Jazira and Syria, settling under its great amirs Nasir al-Dawla at Mosul and Sayf al-Dawla at Aleppo, acting independently under the Abbasid call — in Ibn Khaldun's description."
+wings: [time, place]
+periods: [period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+- type: founded_by
+  target: person/abu-l-hayja-ibn-hamdan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة بني حمدان المستبدين بالدعوة العباسية، ص1046-1047 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

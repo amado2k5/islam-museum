@@ -1,0 +1,27 @@
+id: building/fas-jdid
+class: building
+kind: other
+label:
+  ar: فاس الجديد
+  en: Fes Jdid
+summary:
+  ar: "البلد الجديد بفاس؛ لما سكن غرب الثوار واستوسق ملك السلطان أبي يوسف يعقوب بن عبد الحق المريني وعظمت غاشيته وكثر وافده رأى أن يختط بلداً يتميز لنزله وعساكره إلى جانب فاس العتيقة، فاختط البلد الجديد دار ملك بني مرين ومنزل سلطانهم وجنده، وأوعز بعد ذلك ببناء قصبة مدينة مكناسة."
+  en: "The New Town of Fes; when the rebellion's west subsided and Sultan Abu Yusuf Ya'qub ibn Abd al-Haqq's kingship ran steady with a great retinue and many incomers, he chose to lay out a separate city for his residence and armies beside old Fes — Fes Jdid, the Marinids' royal seat — and afterwards ordered the qasba of Miknasa built."
+wings: [place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+relations:
+- { type: "located_in", target: "place/fes", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: "founded_by", target: "person/abu-yusuf-yaqub-marini", role: "اختطه لنزله وعساكره", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — اختطاط البلد الجديد بفاس، ص1920-1921 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-40
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

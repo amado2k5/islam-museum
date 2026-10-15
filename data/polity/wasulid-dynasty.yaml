@@ -1,0 +1,44 @@
+id: polity/wasulid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: دولة بني واسول بسجلماسة
+  en: Wasulid (Midrarid) state of Sijilmasa
+summary:
+  ar: "دولة بني واسول بن مصلان بن أبي يزول ملوك سجلماسة وأعمالها من مكناسة؛ دان أهل مواطن سجلماسة بدين الصفرية من الخوارج فاجتمع زهاء أربعين من رجالاتهم ونقضوا طاعة الخلفاء وولوا عيسى بن يزيد الأسود واختطوا مدينة سجلماسة سنة 140هـ، ثم انقلت الإمارة إلى أبي القاسم سمكو وبنيه فاستفحل ملكهم وبنوا سورها ومصانعها وقصورها، ودامت دولتهم حتى زحف إليها خزرون بن فلفول من ملوك مغراوة سنة 366هـ فقتل أميرهم المعتز بالله واستولى على بلده وذخيرته."
+  en: "The state of Banu Wasul ibn Maslan ibn Abi Yazul, Miknasa kings of Sijilmasa and its districts; the people of Sijilmasa's site embraced the Sufrite Kharijite creed, forty of their chief men renounced caliphal obedience, elected Isa ibn Yazid al-Aswad and founded the city in 140 AH — the imamate then passed to Abu al-Qasim Samku and his sons, who built its wall, workshops and palaces, until Khazrun ibn Fulful of the Maghrawa kings marched in 366, killed their amir al-Mu'tazz bi'llah and seized the land and its hoard."
+wings: [time, place]
+periods: [period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+start:
+  edtf: "0757"
+  hijri: "0140"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: اختطاط مدينة سجلماسة سنة 140هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+end:
+  edtf: "0977"
+  hijri: "0366"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: زحف خزرون بن فلفول سنة 366هـ وقتل أميرهم؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة بني واسول ملوك سجلماسة، ص1619-1620 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-15
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

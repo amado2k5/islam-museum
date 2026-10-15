@@ -1,0 +1,40 @@
+id: person/salih-ibn-mirdas
+class: person
+label:
+  ar: صالح بن مرداس الكلابي
+  en: Salih ibn Mirdas al-Kilabi
+summary:
+  ar: "صالح بن مرداس أمير بني كلاب ومؤسس دولتهم بحلب؛ ابتدأ أمره بملك الرحبة بعد أن قتل ابن مجلكان صاحبها واستولى على أمواله وأقام دعوة العلويين بمصر، ثم سار إلى حلب فملكها من يد ابن شعبان الكتامي وحصره في القلعة حتى استأمنه سنة 424هـ واتسع ملكه من بعلبك إلى عنه، وقُتل سنة 429هـ في واقعة طبرية مع أنوشتكين أمير عساكر الظاهر من مصر ونجا ابنه نصر شبل الدولة."
+  en: "Salih ibn Mirdas, amir of Banu Kilab and founder of their Aleppo state; he began by taking al-Rahba after killing its lord Ibn Majlakan and proclaiming the Alid da'wa of Egypt, then seized Aleppo from Ibn Sha'ban al-Katami, besieging him in the citadel until he surrendered it in 424 AH, his realm stretching from Baalbek to Ana — he was killed in 429 AH at the Tiberias encounter with Anushtakin, commander of al-Zahir's Egyptian army, while his son Nasr Shibl al-Dawla escaped."
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "1038", hijri: "0429", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل في واقعة طبرية سنة 429هـ عند ابن خلدون؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: member_of
+  target: group/banu-kilab
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/mirdasid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: participated_in
+  target: event/battle-tiberias-429
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني صالح بن مرداس، استيلائه على حلب ومقتله، ص1074-1075 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

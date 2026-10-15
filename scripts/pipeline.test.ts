@@ -77,10 +77,16 @@ const run = (...e: ReturnType<typeof base>[]) => validateAll(e).issues;
 const msgs = (i: ReturnType<typeof run>, level: "error" | "warn") => i.filter((x) => x.level === level).map((x) => x.msg).join("\n");
 
 describe("rules from docs 12-15", () => {
-  it("rejects data from layers that may not enter CC0 data", () => {
-    const i = run(base("place", "zz-test-a", { kind: "city", provenance: { layer: "by-sa" } }));
-    expect(msgs(i, "error")).toMatch(/may not enter data/);
+  it("records the provenance layer and only asks a rewritten source to be cited (docs/sources-policy.md)", () => {
+    // any layer may enter data/ once rewritten and cited
+    expect(msgs(run(base("place", "zz-test-a", { kind: "city", provenance: { layer: "by-sa" } })), "error")).toBe("");
     expect(msgs(run(base("place", "zz-test-b", { kind: "city", provenance: { layer: "cc0" } })), "error")).toBe("");
+    // a layer other than the open ones must cite the source it was rewritten from
+    const i = run(base("place", "zz-test-e", { kind: "city", sources: [], provenance: { layer: "copyrighted-reference" } }));
+    expect(msgs(i.filter((x) => x.file.includes("zz-test-e")), "error")).toMatch(/requires cited sources/);
+    // an unknown layer name is a warning, not a wall
+    const u = run(base("place", "zz-test-f", { kind: "city", provenance: { layer: "mystery" } }));
+    expect(msgs(u.filter((x) => x.file.includes("zz-test-f")), "warn")).toMatch(/not a known layer/);
   });
   it("warns when a conflict lists fewer than two sides", () => {
     const i = run(base("event", "zz-test-c", { kind: "battle", sides: [{ label: { en: "A" } }] }));

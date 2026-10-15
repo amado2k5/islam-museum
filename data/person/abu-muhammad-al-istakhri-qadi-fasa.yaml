@@ -1,0 +1,18 @@
+id: person/abu-muhammad-al-istakhri-qadi-fasa
+class: person
+label: { ar: "القاضي أبو محمد الاصطخري" }
+names:
+  - { kind: kunya, lang: ar, value: "أبو محمد الاصطخري (قاضي فسا)" }
+gender: male
+roles: [jurist, teacher]
+traditions: [sunni]
+summary:
+  ar: "القاضي أبو محمد الاصطخري، تفقه على القاضي أبي حامد المروروذي، وكان قاضي فسا وفقيه فارس، وشرح «المستعمل» لمنصور وكان فقيهاً مجوداً {cite:tabaqat-fuqaha-abbas-1981 p. 62}. ليس هو أبا سعيد الإصطخري (person/al-istakhri-abu-said-al-hasan)، والاسم الكامل غير مذكور في النص."
+wings: [people]
+regions: [persia-central-asia]
+periods: [period/buyid-seljuk-fatimid-era]
+relations:
+  - { type: student_of, target: person/abu-hamid-al-marwarudhi, role: "تفقه على القاضي أبي حامد المروروذي (PDF ص62)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص62–64", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-8" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 8 (PDF ص62–64)" }

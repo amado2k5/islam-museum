@@ -1,0 +1,36 @@
+id: person/al-rashid-almohad
+class: person
+label:
+  ar: الرشيد بن المأمون الموحدي
+  en: al-Rashid ibn al-Ma'mun al-Muwahhidi
+summary:
+  ar: عبد الواحد بن المأمون الملقب بالرشيد، بويع بعد هلاك أبيه سنة 630هـ وهزم يحيى بن الناصر ودخل مراكش، واشترط عليه مشيخة الموحدين إعادة رسوم الدعوة المهدية التي كان أبوه محاها فأعيدت، ودبّر في استدراج أمير الخلط مسعود بن حميدان فقتله، وملك إلى أن قتل سنة 640هـ.
+  en: Abd al-Wahid ibn al-Ma'mun, titled al-Rashid; acclaimed after his father's death in 630 AH, he defeated Yahya ibn al-Nasir and entered Marrakesh, restoring at the Almohad shaykhs' condition the Mahdi rites his father had erased, and contrived the killing of the Arab commander Mas'ud ibn Humaydan, ruling until his death in 640 AH.
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "1242", hijri: "0640", calendar: julian, precision: year, status: tradition, derived: true, note: "قتل سنة 640هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: child_of
+  target: person/al-mamun-almohad
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/almohad-caliphate
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة الرشيد بن المأمون، ص1684-1685 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

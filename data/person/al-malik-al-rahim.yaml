@@ -1,0 +1,34 @@
+id: person/al-malik-al-rahim
+class: person
+label:
+  ar: الملك الرحيم أبو نصر خسرو فيروز
+  en: al-Malik al-Rahim Abu Nasr Khusraw Firuz
+summary:
+  ar: "الملك الرحيم بن أبي كاليجار بن سلطان الدولة بن بهاء الدولة بن عضد الدولة، آخر ملوك بني بويه بالعراق؛ لما مات أبوه أبو كاليجار زحف إلى البصرة طامعاً فيها فكان الظفر له، واقتتل مع إخوته على الملك فاستولى على البصرة والأهواز، واتصل حربه بالبساسيري ودبيس بن مزيد حتى دخول طغرلبك بغداد سنة 447هـ فانقرضت دولة بني بويه."
+  en: "Al-Malik al-Rahim ibn Abi Kalijar ibn Sultan al-Dawla ibn Baha' al-Dawla ibn Adud al-Dawla, last Buyid king of Iraq; on his father's death he marched on Basra and prevailed, fought his brothers over kingship, seized Basra and al-Ahwaz, and stayed at war with al-Basasiri and Dubays ibn Mazyad until Tughril Beg's entry into Baghdad in 447 AH extinguished the Buyid state."
+gender: male
+roles: [ruler]
+relations:
+- type: ruler_of
+  target: polity/buyid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: child_of
+  target: person/abu-kalijar
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia, levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — ملك الملك الرحيم بن أبي كاليجار، ص1219-1221 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

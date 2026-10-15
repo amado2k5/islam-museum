@@ -1,0 +1,38 @@
+id: person/sukman-ibn-artuq
+class: person
+label:
+  ar: سقمان بن أرتق
+  en: Sukman ibn Artuq
+summary:
+  ar: "سقمان بن أرتق بن أكسك؛ ملك مع أخيه أبي الغازي الرها وسروج بعد أبيهما سنة 483هـ، ولما ملك الإفرنج أنطاكية سنة 491هـ اجتمعت الأمراء لحصارها فكان له المقام المحمود، وخرج من بيت المقدس بالأمان لما ملكه الأفضل صاحب مصر، ودارت بينه وبين كربوقا صاحب الموصل فتن وحروب أسر في بعضها ابنه ياقوتي، واجتمع مع جكرمش على جهاد الإفرنج سنة 497هـ فهزموا الإفرنج وأسروا القمص بردويل صاحب الرها، ثم استولى على ماردين بعد مقتل ياقوتي فاستقر ملكه بها مع حصن كيفا ونصيبين."
+  en: "Sukman ibn Artuq ibn Aksak; he and his brother Abu al-Ghazi held al-Ruha and Saruj after their father's death in 483 AH, and when the Franks took Antioch in 491 he won renown in the amirs' counter-siege — he left Jerusalem under safe-conduct when al-Afdal of Egypt took it, fought a running war with Kerbogha of Mosul in which his son Yaquti was captured, joined Jikirmish in the 497 jihad that routed the Franks and captured Count Baldwin of al-Ruha, and after Yaquti's killing took Mardin itself, fixing his rule over it with Hisn Kayfa and Nisibis."
+gender: male
+roles: [ruler, military-commander]
+relations:
+- type: child_of
+  target: person/artuq-ibn-aksak
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/artuqid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: fought
+  target: person/kerbogha
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, anatolia-balkans]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني أرتق، استيلاء سقمان على ماردين، ص1357-1358 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

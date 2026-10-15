@@ -15,6 +15,8 @@ export interface Issue { level: "error" | "warn"; file: string; msg: string }
 
 const CONFLICT_KINDS = new Set(["war", "campaign", "battle", "skirmish", "raid", "siege", "naval-battle", "revolt", "civil-war", "mutiny", "massacre", "conquest"]);
 const SPATIAL_KINDS = new Set(["battle", "siege", "naval-battle", "campaign", "war", "conquest", "treaty", "migration", "revolt", "massacre", "council", "founding", "raid", "skirmish"]);
+// provenance layers of docs/plan/15 §3; they record origin and no longer gate entry (docs/sources-policy.md)
+const KNOWN_LAYERS = new Set(["cc0", "by", "by-sa", "odbl", "nc", "pd", "copyrighted-reference", "link-only", "own-research", "unverified"]);
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const REF = /^[a-z]+\/[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -201,10 +203,12 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
     };
     walkRefs(entity, "");
 
-    // ---- licence wall (docs/plan/15 §3): only cc0, by or our own cited research may enter data/
+    // ---- provenance layer (docs/sources-policy.md, founder's rule of 15 Oct 2026): the layer records where a thing came
+    // from and no longer decides whether it may enter data/. Any source may be read and rewritten with a citation; a layer
+    // other than the open ones must therefore cite the source it was rewritten from.
     const layer = entity.provenance?.layer;
-    if (layer && !["cc0", "by", "own-research"].includes(layer)) err(file, `provenance.layer "${layer}" may not enter data/ (only cc0, by or own-research; see docs/plan/15 §3)`);
-    if (layer === "own-research" && own.size === 0) err(file, "provenance.layer own-research requires cited sources");
+    if (layer && !KNOWN_LAYERS.has(layer)) warn(file, `provenance.layer "${layer}" is not a known layer (${[...KNOWN_LAYERS].join(", ")}; see docs/plan/15 §3)`);
+    if (layer && !["cc0", "by"].includes(layer) && own.size === 0) err(file, `provenance.layer ${layer} requires cited sources (docs/sources-policy.md §3)`);
 
     // ---- conflicts must show both sides (docs/plan/13 and 14): warn when a conflict has fewer than two sides
     if (entity.class === "event" && CONFLICT_KINDS.has(entity.kind) && (entity.sides?.length ?? 0) < 2) {

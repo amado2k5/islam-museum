@@ -1,0 +1,44 @@
+id: person/mansur-umar-ibn-ali-rasuli
+class: person
+label:
+  ar: الملك المنصور عمر بن علي بن رسول
+  en: al-Malik al-Mansur Umar ibn Ali ibn Rasul
+summary:
+  ar: "الملك المنصور عمر بن علي بن رسول، ثاني ملوك بني رسول باليمن؛ ولي بعد أبيه سنة 629هـ، فلما توفي الكامل بمصر سنة 635هـ وشغل بنو أيوب بالفتنة بينهم استغلظ سلطانه باليمن وتلقب المنصور ومنع الأتاوة التي كان يبعث بها إلى مصر، وهمّ بثورة المتوكل أحمد بن حسين الزيدي الملقب الموطىء فحاصره بحصن ملا، ثم وثب عليه جماعة من مماليكه بممالأة بني أخيه حسن فقتلوه سنة 648هـ."
+  en: "Al-Malik al-Mansur Umar ibn Ali ibn Rasul, second Rasulid king of Yemen; succeeding his father in 629 AH, when al-Kamil of Egypt died in 635 and the Ayyubids were consumed by their feuds his sultanate grew strong — he took the laqab al-Mansur and withheld the atawa sent to Egypt, besieged the rising Zaydi imam al-Mutawakkil Ahmad ibn al-Husayn at Hisn Mala, then his own mamluks colluding with his nephews fell on him and killed him in 648."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1250"
+  hijri: "0648"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: قتله مماليكه سنة 648هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: child_of
+  target: person/ali-ibn-rasul
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/rasulid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني رسول باليمن، ص1527 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-10
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

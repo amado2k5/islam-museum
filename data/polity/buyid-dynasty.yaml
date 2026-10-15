@@ -1,0 +1,49 @@
+id: polity/buyid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: الدولة البويهية
+  en: Buyid dynasty
+summary:
+  ar: "دولة بني بويه من الديلم؛ كانوا من قواد الديلم فتطاولوا للاستيلاء على أعمال الخلفاء العباسيين لما لم يروا عنها مدافعاً ولا لها حامية، فملكوا أصفهان والري ثم انعطفوا على بلاد فارس فملكوا شيراز وأرجان، واستولى معز الدولة على الأهواز سنة 325هـ ثم واسط وبغداد سنة 334هـ، فصار الخلفاء في كفالتهم وتحت حجرهم من خلافة المستكفي إلى انقراض دولتهم بدخول طغرلبك بغداد سنة 447هـ، وكانت دولتهم ثلاث شعب: فارس لعماد الدولة وبنيه، والجبال لركن الدولة وبنيه، والعراق لمعز الدولة وبنيه."
+  en: "The Buyid state of the Daylamites; Daylamite commanders who reached for the Abbasid caliphs' lands when they saw them undefended, taking Isfahan and Rayy, then Fars (Shiraz and Arrajan), with Mu'izz al-Dawla seizing al-Ahwaz in 325 AH then Wasit and Baghdad in 334 — the caliphs falling under their wardship from al-Mustakfi until the dynasty's extinction at Tughril Beg's entry into Baghdad in 447. The state ran in three branches: Fars for Imad al-Dawla's line, the Jibal for Rukn al-Dawla's, and Iraq for Mu'izz al-Dawla's."
+wings: [time, place]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia, levant-iraq]
+start:
+  edtf: "0934"
+  hijri: "0322"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: استيلاء الإخوة الثلاثة على أصفهان والري وفارس بعد قتل مرداويج؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+end:
+  edtf: "1055"
+  hijri: "0447"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: انتقل طغرلبك إلى دار الملك في شوال سنة 447هـ واستقرت قدمه في الملك والسلطان؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: founded_by
+  target: person/ali-ibn-buya
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة بني بويه من الديلم، ص1181-1184 و1222 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

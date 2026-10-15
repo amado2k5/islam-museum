@@ -1,0 +1,34 @@
+id: person/anushtakin-al-dizbiri
+class: person
+label:
+  ar: أنوشتكين الدزبري
+  en: Anushtakin al-Dizbiri
+summary:
+  ar: "أنوشتكين الدزبري، قائد عساكر الخليفة الظاهر بمصر إلى الشام؛ كان عامله على البلاد إلى عسقلان فنازل حسان بن مفرج وقومه بني كلاب، ثم جهزه الظاهر سنة 429هـ لقتال صالح بن مرداس وحسان فلقيهما على الأردن بطبرية فانهزما وقتل صالحاً وابنه الأصغر."
+  en: "Anushtakin al-Dizbiri, commander of the Fatimid caliph al-Zahir's armies to Syria; his authority reached Ascalon where he faced Hasan ibn Mufarrij and the Kilabis, then al-Zahir dispatched him in 429 AH against Salih ibn Mirdas and Hasan — he met them at the Jordan by Tiberias, routed them, and killed Salih and his younger son."
+gender: male
+roles: [military-commander]
+relations:
+- type: fought
+  target: person/salih-ibn-mirdas
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: participated_in
+  target: event/battle-tiberias-429
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, egypt-nile]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مقتل صالح وولاية ابنه، ص1075 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

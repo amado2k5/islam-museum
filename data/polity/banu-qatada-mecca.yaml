@@ -1,0 +1,26 @@
+id: polity/banu-qatada-mecca
+class: polity
+kind: emirate
+label:
+  ar: بنو قتادة أمراء مكة
+  en: Banu Qatada, sharifs of Mecca
+summary:
+  ar: "بنو قتادة أمراء مكة بعد الهواشم؛ من ولد موسى الجون بن عبد الله بن الحسن المثنى كانوا بوادي ينبع ظواعن بادية، وكان أبو عزيز بن قتادة يناسب الهواشم فلما ضعف أمرهم ورث أمرهم وملك مكة من أيديهم من جهة النساء ومات سنة 589هـ، ثم استكثر قتادة بن إدريس من المماليك واتسعت ولايته من حدود اليمن إلى المدينة وله قلعة ينبع، ومن بعده عقبه إلى أبي نمي الذي استبد بأمر مكة نحواً من خمسين سنة ثم ابناه رميثة وحميضة، وهم أمراؤها إلى عهد ابن خلدون."
+  en: "Banu Qatada, amirs of Mecca after the Hawashim; of Musa al-Jawn's line dwelling as nomads in Wadi Yanbu — Abu Aziz ibn Qatada intermarried with the Hawashim and on their decline inherited Mecca through the female line (d. 589); then Qatada ibn Idris multiplied his mamluks and stretched his writ from Yemen's borders to Medina from Yanbu's castle, his descendants ruling on to Abu Numayy who held Mecca's affairs some fifty years, then his sons Rumaytha and Humayda — Mecca's amirs in Ibn Khaldun's own day and ancestors of its later sharifs."
+relations:
+- { type: "successor_of", target: "polity/hawashim-mecca", note: "ورثوا إمارة مكة من الهواشم من جهة النساء", sources: [source/tarikh-ibn-khaldun-ibar] }
+wings: [time, place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن بني قتادة أمراء مكة بعد الهواشم، ص966-969 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-32
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

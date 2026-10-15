@@ -1,0 +1,31 @@
+id: event/sadaqa-last-stand-501
+class: event
+kind: battle
+label:
+  ar: مقتل صدقة المزيدي في حرب السلطان محمد (501هـ)
+  en: Death of Sadaqa al-Mazyadidi fighting Sultan Muhammad (501 AH)
+date:
+  start: { edtf: "1108-03", hijri: "0501-07", calendar: julian, precision: month, status: tradition, derived: true, note: "سار السلطان من بغداد آخر رجب سنة 501هـ ولقيه صدقة فقتل؛ التحويل مشتق." }
+summary:
+  ar: "لما أجرى صدقة بن منصور المزيدي سرخاب بن كيخسرو وامتنع من تسليمه، سار السلطان محمد بن ملك شاه من بغداد آخر رجب سنة 501هـ فلقيه صدقة، وتخاذلت عنه عبادة وخفاجة ورغب الأكراد بالمواعد، فحمل على الترك وهو ينادي «أنا ملك العرب أنا صدقة» فأصابه سهم أثبته وتعلق به غلام تركي يدعى برغش فجذبه إلى الأرض وقتله وحمل رأسه إلى السلطان فأنفذه إلى بغداد، وقتل من أصحابه ثلاثة آلاف أو يزيدون وأسر ابنه دبيس."
+  en: "When Sadaqa ibn Mansur sheltered Sarkhab ibn Kaykhusraw and refused to yield him, Sultan Muhammad ibn Malikshah marched from Baghdad at the end of Rajab 501 AH; Ubada and Khafaja deserted Sadaqa and the Kurds took bribes, so he charged the Turks crying 'I am the king of the Arabs, I am Sadaqa' — an arrow transfixed him and a Turkish ghulam named Barghash pulled him down and killed him, his head borne to Baghdad; three thousand or more of his men were killed and his son Dubays captured."
+relations:
+- type: occurred_at
+  target: place/hilla
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مقتل صدقة، ص1083 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
