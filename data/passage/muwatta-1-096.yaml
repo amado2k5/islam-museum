@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.96"
-label: { ar: "الموطأ 1.96", en: "Muwatta 1.96" }
+label: { ar: "الموطأ 96 — عمر: إني لأجده ينحدر مني مثل الخريزة", en: "Muwatta 96" }
+text: "إني لأجده ينحدر مني مثل الخريزة، فإذا وجد ذلك أحدكم فليغسل ذكره وليتوضأ وضوءه للصلاة"
 summary:
-  ar: "عمر بن الخطاب: يخرج منه المذي كالخريزة، وإذا وجده فليغسل ذكره ويتوضأ."
+  ar: "أثر يرويه مالك عن زيد بن أسلم عن أبيه أسلم مولى عمر، في باب الوضوء من المذي: قال عمر بن الخطاب إنه يجد المذي ينحدر منه مثل الخرزة الصغيرة، وأمر من وجد ذلك أن يغسل ذكره ويتوضأ وضوءه للصلاة. ويفسر المحقق الخريزة بتصغير خرزة، ويذكر رواية عبد الرزاق عن الأعرج أن عمر قال على المنبر إنه ينحدر منه شيء مثل الجمان أو الخرز فما يباليه. {cite:muwatta-maruf-1997 p.83}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 96 of kitab al-salat at PDF p. 83", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-6" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aslam-mawla-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 96 at PDF p. 83; باب الوضوء من المذي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 83; matn excerpt at most 40 words" }

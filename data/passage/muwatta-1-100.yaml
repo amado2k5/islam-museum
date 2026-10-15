@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.100"
-label: { ar: "الموطأ 1.100", en: "Muwatta 1.100" }
+label: { ar: "الموطأ 100 — بسرة بنت صفوان: إذا مس أحدكم ذكره فليتوضأ", en: "Muwatta 100" }
+text: "إذا مس أحدكم ذكره فليتوضأ"
 summary:
-  ar: "عبد الله بن أبي بكر: الحديث في أحكام الطهارة يتصل بسعيد بن المسيب؛ متن الحديث غير واضح في OCR."
+  ar: "أول حديث في باب الوضوء من مس الفرج. يرويه يحيى عن مالك عن عبد الله بن أبي بكر بن محمد بن عمرو بن حزم أنه سمع عروة بن الزبير يقول: دخل على مروان بن الحكم فتذاكرا ما يوجب الوضوء، فذكر مروان مس الذكر، فقال عروة إنه لم يعلم ذلك، فأخبره مروان أن بسرة بنت صفوان حدثته أنها سمعت النبي يأمر من مس ذكره بالوضوء. ويبين المحقق أن نسخة يحيى جعلت الإسناد «عن عبد الله بن أبي بكر عن محمد بن عمرو بن حزم» وأن ابن عبد البر عدّ ذلك وهماً أفسد الإسناد والصواب «بن» لأن الحديث لعبد الله بن أبي بكر عن عروة، ويخرّجه عند أبي داود (181) والنسائي (1/100) والشافعي والبيهقي من طرق أصحاب مالك، وينقل أن يحيى بن معين كان يقول إن أصح حديث في مس الذكر حديث مالك هذا، وأن أحمد بن حنبل قال نحو ذلك (التمهيد 17/191). {cite:muwatta-maruf-1997 p.84} {cite:muwatta-maruf-1997 p.85}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 100 of kitab al-salat at PDF p. 84", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/busra-bint-safwan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/marwan-ibn-al-hakam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-main, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ahmad-ibn-hanbal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 100 at PDF p. 84; باب الوضوء من مس الفرج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: متن الحديث غير واضح" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 84; matn excerpt at most 40 words" }

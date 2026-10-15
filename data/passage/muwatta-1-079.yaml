@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.79"
-label: { ar: "الموطأ 1.79", en: "Muwatta 1.79" }
+label: { ar: "الموطأ 79 — وضوء النبي في غزوة تبوك ومسحه على الخفين", en: "Muwatta 79" }
+text: "فجاء وعبد الرحمن بن عوف يؤمهم وقد صلى بهم ركعة، فصلى رسول الله الركعة التي بقيت عليهم"
 summary:
-  ar: "ابن شهاب عن عباد بن زياد: حديث في المسح على الرأس أو الخف؛ تفاصيل المتن غير واضحة في OCR."
+  ar: "أول حديث في باب ما جاء في المسح على الخفين. يرويه يحيى عن مالك عن ابن شهاب عن عباد بن زياد عن المغيرة بن شعبة: ذهب النبي لحاجته في غزوة تبوك وذهب معه المغيرة بماء، فصبّ عليه فغسل وجهه، ثم أراد أن يخرج يديه من كمي جبته فضاقا فأخرجهما من تحتها، فغسل يديه ومسح برأسه ومسح على الخفين، ثم جاء فوجد عبد الرحمن بن عوف يؤم الناس وقد صلى بهم ركعة، فصلى معهم الركعة الباقية، ففزع الناس، فلما قضى صلاته قال لهم: أحسنتم. ويبين المحقق أن قول مالك إن عباد بن زياد «من ولد المغيرة» خطأ نص عليه مصعب الزبيري وابن عبد البر، وأن قول يحيى «عن أبيه المغيرة» زيادة لم يقلها غيره من رواة الموطأ وإن تابعه فيها ابن مهدي، وينقل عن ابن عبد البر أن إسناد مالك هنا «ليس بالقائم» وأن روايته مقطوعة لأن عباداً لم ير المغيرة، وإنما يرويه ابن شهاب عن عباد عن عروة أو حمزة ابني المغيرة عن أبيهما (التمهيد 11/120–121)؛ ويذكر أن الحديث في الصحيحين من طريق عروة بن المغيرة عن أبيه. {cite:muwatta-maruf-1997 p.75} {cite:muwatta-maruf-1997 p.76} {cite:muwatta-maruf-1997 p.77}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 79 of kitab al-salat at PDF p. 75", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-6" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-mughira-ibn-shuba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-awf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abbad-ibn-ziyad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/expedition-to-tabuk, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/tabuk, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 79 at PDF p. 75; باب ما جاء في المسح على الخفين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: متن الحديث غير واضح" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 75; matn excerpt at most 40 words" }

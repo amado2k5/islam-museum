@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.93"
-label: { ar: "الموطأ 1.93", en: "Muwatta 1.93" }
+label: { ar: "الموطأ 93 — عمر يصلي الصبح ليلة طُعن وجرحه يثعب دماً", en: "Muwatta 93" }
+text: "نعم، ولا حظ في الإسلام لمن ترك الصلاة"
 summary:
-  ar: "هشام بن عروة عن أبيه: المسور بن مخرمة أخبره أنه دخل على عمر بن الخطاب في الليلة التي طُعن فيها، وقصة ما جرى."
+  ar: "أول حديث في باب العمل فيمن غلبه الدم من جرح أو رعاف. يرويه يحيى عن مالك عن هشام بن عروة عن أبيه أن المسور بن مخرمة أخبره أنه دخل على عمر بن الخطاب في الليلة التي طُعن فيها فأيقظه لصلاة الصبح، فقال عمر: نعم، ولا حظ في الإسلام لمن ترك الصلاة، فصلى وجرحه يسيل دماً. ويذكر المحقق أن عبد الرزاق رواه بأسانيد من غير طريق مالك عن المسور أنه دخل هو وابن عباس على عمر حين طُعن. {cite:muwatta-maruf-1997 p.81}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 93 of kitab al-salat at PDF p. 81", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-6" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-miswar-ibn-makhrama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/death-of-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 93 at PDF p. 81; باب العمل فيمن غلبه الدم من جرح أو رعاف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 81; matn excerpt at most 40 words" }

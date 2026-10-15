@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.91"
-label: { ar: "الموطأ 1.91", en: "Muwatta 1.91" }
+label: { ar: "الموطأ 91 — سعيد بن المسيب يرعف فيصلي ولا يتوضأ", en: "Muwatta 91" }
 summary:
-  ar: "عبد الرحمن بن حرملة رأى سعيد بن المسيب يرعف فيخرج منه الدم ويواصل."
+  ar: "أول أثر في باب العمل في الرعاف. يرويه يحيى عن مالك عن عبد الرحمن بن حرملة الأسلمي: رأى سعيد بن المسيب يرعف فيخرج منه الدم حتى تختضب أصابعه من دم أنفه، ثم يصلي ولا يتوضأ. ويذكر المحقق أن عبد الرزاق رواه عن معمر عن أبي الزناد عن ابن المسيب، وابن أبي شيبة عن يحيى بن سعيد عنه. {cite:muwatta-maruf-1997 p.80} {cite:muwatta-maruf-1997 p.81}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 91 of kitab al-salat at PDF p. 80", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-6" }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-harmala-al-aslami, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 91 at PDF p. 80; باب العمل في الرعاف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 80; matn excerpt at most 40 words" }
