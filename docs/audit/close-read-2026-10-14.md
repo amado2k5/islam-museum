@@ -32,39 +32,40 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 | `event/funeral-prayer-for-the-negus.md` | مات ملك الحبشة العادل الذي حمى المسلمين الأوائل في بلده | مات ملك الحبشة الذي تصفه الروايات بالعدل، والذي حمى المسلمين الأوائل في بلده | moral label in the children's section; attributed to the tradition |
 | `event/expulsion-of-jurhum.md` | فلما أساءت إلى الحجاج حاربتها خزاعة | فلما أساءت، كما تذكر الروايات، إلى الحجاج حاربتها خزاعة | moral judgement in the children's section; attributed |
 | `event/isra-and-miraj.md` | أسري برسول الله بجسده على الصحيح بصحبة جبريل | أسري برسول الله بجسده، وهو الصحيح عند أهل السنة، بصحبة جبريل | doctrinal verdict stated without attribution; attributed to Sunni tradition |
+| `concept/anwa.md` | عدّها الإسلام كفراً بالنعمة | عدّها حديث النبي كفراً بالنعمة | doctrinal verdict in the lede without attribution; attributed to the hadith |
 
 ## Pages needing citations (not added here)
 
 
-## Batch 14 of 19
+## Batch 15 of 19
 
-Pages event/umrah-of-jirana.md to journey/hamra-al-asad-pursuit.md (25 pages).
+Pages journey/hijra-route.md to concept/ariya-madmuna.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `event/umrah-of-jirana.md` | ok |
-| `event/umrah-of-qada.md` | ok |
-| `event/utba-offer.md` | ok |
-| `event/uthman-funds-the-army-of-hardship.md` | ok |
-| `event/vow-and-lot-of-abd-al-muttalib.md` | ok |
-| `event/walid-council.md` | ok |
-| `event/water-of-wadi-al-mushaqqaq.md` | ok |
-| `event/year-of-delegations.md` | ok |
-| `event/year-of-sorrow.md` | ok |
-| `event/year-of-the-elephant-and-birth.md` | ok |
-| `journey/aydhab-to-jeddah.md` | ok |
-| `journey/badr-march.md` | ok |
-| `journey/badr-to-medina-jubayr.md` | ok |
-| `journey/baghdad-to-damascus-jubayr.md` | ok |
-| `journey/baghdad-to-medina-jubayr.md` | ok |
-| `journey/banu-qurayza-march.md` | ok |
-| `journey/basra-to-persia-battuta.md` | ok |
-| `journey/cairo-to-aydhab.md` | ok |
-| `journey/dumat-al-jandal-5ah.md` | ok |
-| `journey/dumat-al-jandal-expedition.md` | ok |
-| `journey/farewell-pilgrimage-route.md` | ok |
-| `journey/fath-mecca-march.md` | ok |
-| `journey/first-migration-to-abyssinia.md` | ok |
-| `journey/granada-to-cairo.md` | ok |
-| `journey/hamra-al-asad-pursuit.md` | ok |
+| `journey/hijra-route.md` | ok |
+| `journey/hudaybiyya-march.md` | ok |
+| `journey/hunayn-and-taif.md` | ok |
+| `journey/isra-and-miraj-route.md` | ok |
+| `journey/journey-to-taif.md` | ok |
+| `journey/mecca-to-iraq-by-medina.md` | ok |
+| `journey/medina-to-mecca.md` | ok |
+| `journey/mustaliq-raid.md` | ok |
+| `journey/mutah-march.md` | ok |
+| `journey/road-to-khaybar.md` | ok |
+| `journey/sicily-to-granada-jubayr.md` | ok |
+| `journey/syria-trade-for-khadija.md` | ok |
+| `journey/syria-trade-with-abu-talib.md` | ok |
+| `journey/tabriz-to-mosul-battuta.md` | ok |
+| `journey/tabuk-march-out-and-back.md` | ok |
+| `journey/tangier-to-cairo.md` | ok |
+| `journey/uhud-approach.md` | ok |
+| `concept/ahl-al-qibla.md` | ok |
+| `concept/akhira.md` | ok |
+| `concept/al-bakkaun.md` | ok |
+| `concept/al-hajr-social-boycott.md` | ok |
+| `concept/al-muallafa-qulubuhum.md` | ok |
+| `concept/al-sidq-truthfulness.md` | ok |
+| `concept/anwa.md` | fixed (1) |
+| `concept/ariya-madmuna.md` | ok |
 
