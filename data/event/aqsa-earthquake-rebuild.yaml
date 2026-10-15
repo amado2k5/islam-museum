@@ -1,0 +1,22 @@
+id: event/aqsa-earthquake-rebuild
+class: event
+kind: disaster-relief
+label: { ar: "زلزلة المسجد الأقصى وإعمارته في الدولة العباسية" }
+summary:
+  ar: "زلزلة وقعت في دولة بني العباس طرحت مغطّى المسجد الأقصى إلا ما حول المحراب؛ فلما بلغ الخليفة خبره قيل له إن بيت مال المسلمين لا يفي بردّه إلى ما كان فكتب إلى أمراء الأطراف وسائر القواد أن يبني كل واحد منهم رواقاً، فبنوه أوثق وأغلظ صناعة مما كان وبقيت تلك القطعة شامة فيه إلى أعمدة الرخام، وأحدث عبد الله بن طاهر فيه أروقة على أعمدة رخام {cite:ahsan-al-taqasim p. 143}."
+  en: "The Abbasid-era earthquake that felled the Aqsa's roofed part save the mihrab: when the treasury pleaded it could not restore it as before, the caliph ordered each provincial amir and commander to rebuild one arcade — raising it stronger and thicker, the repair still legible as a 'seam' in al-Muqaddasi's day — and Abdallah ibn Tahir added marble arcades {cite:ahsan-al-taqasim p. 143}."
+wings: [time, place]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0800~", calendar: julian, precision: century, status: tradition, derived: true, note: "في دولة بني العباس دون تاريخ عند المقدسي." }
+relations:
+  - { type: had_participant, target: person/abd-allah-ibn-tahir, role: "أحدث أروقة على أعمدة رخام", sources: [source/ahsan-al-taqasim] }
+sources: [source/ahsan-al-taqasim]
+provenance:
+  layer: own-research
+  source: "أحسن التقاسيم للمقدسي — وصف بيت المقدس، ص143"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-geo-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
