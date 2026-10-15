@@ -41,35 +41,35 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 ## Pages needing citations (not added here)
 
 
-## Batch 17 of 19
+## Batch 18 of 19
 
-Pages concept/prohibition-killing-women-children.md to period/colonial-era.md (25 pages).
+Pages period/contemporary-era.md to source/rahma-lil-alamin.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `concept/prohibition-killing-women-children.md` | ok |
-| `concept/qadar.md` | ok |
-| `concept/riwayat-al-imam.md` | ok |
-| `concept/ruyat-allah.md` | ok |
-| `concept/sacred-livestock-jahiliyya.md` | fixed (1) |
-| `concept/shafaa.md` | ok |
-| `concept/shahada.md` | ok |
-| `concept/taat-wulat-al-amr.md` | ok |
-| `concept/takhalluf-an-ghazwat-tabuk.md` | ok |
-| `concept/tawba.md` | ok |
-| `concept/tawhid.md` | ok |
-| `concept/tiyara.md` | ok |
-| `concept/wad.md` | ok |
-| `polity/aksumite-kingdom.md` | ok |
-| `polity/byzantine-empire.md` | ok |
-| `polity/ghassanid-kingdom.md` | ok |
-| `polity/himyarite-kingdom.md` | ok |
-| `polity/kingdom-of-saba.md` | ok |
-| `polity/lakhmid-kingdom.md` | ok |
-| `polity/nabataean-kingdom.md` | ok |
-| `polity/sasanian-empire.md` | ok |
-| `period/abbasid-early.md` | ok |
-| `period/abbasid-fragmentation.md` | ok |
-| `period/buyid-seljuk-fatimid-era.md` | ok |
-| `period/colonial-era.md` | ok |
+| `period/contemporary-era.md` | ok |
+| `period/crusades-ayyubid-mamluk.md` | ok |
+| `period/gunpowder-empires.md` | ok |
+| `period/modern-era.md` | ok |
+| `period/mongol-post-mongol.md` | ok |
+| `period/pre-islamic-arabia.md` | ok |
+| `period/prophetic-era.md` | ok |
+| `period/rashidun.md` | ok |
+| `period/umayyad.md` | ok |
+| `work/abu-khaythama-verses.md` | ok |
+| `work/al-dahhak-ibn-khalifa-verses.md` | ok |
+| `work/al-mughni.md` | ok |
+| `work/bujayr-ibn-bujra-verses.md` | ok |
+| `work/covenant-of-ayla.md` | ok |
+| `work/farewell-sermon.md` | ok |
+| `work/hatib-letter-to-quraysh.md` | ok |
+| `work/kaab-ibn-malik-account-of-tabuk.md` | ok |
+| `work/madkhal-ila-madhhab-ahmad.md` | ok |
+| `work/mukhtasar-al-kharaqi.md` | ok |
+| `work/qasidat-banat-suad.md` | ok |
+| `source/al-aalam.md` | ok |
+| `source/ikhbar-al-kiram.md` | ok |
+| `source/muhadarat-tarikh-al-umam-al-islamiyya.md` | ok |
+| `source/qalb-jazirat-al-arab.md` | ok |
+| `source/rahma-lil-alamin.md` | ok |
 
