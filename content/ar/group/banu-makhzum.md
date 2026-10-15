@@ -22,3 +22,7 @@ translators: []
 
 ## في فصل الأسرة النبوية من الرحيق المختوم (ص52)
 من هذا البطن [[person/fatima-bint-amr|فاطمة بنت عمرو]] بن عائذ بن عمران بن مخزوم بن يقظة بن مرة، أم [[person/abdullah-ibn-abd-al-muttalib|عبد الله]] والد النبي، فبنو مخزوم أخوال عبد الله {cite:mubarakpuri-raheeq p.52} {cite:talqih-fuhum-ahl-al-athr p.8-9}. ولما أقبل [[person/abd-al-muttalib|عبد المطلب]] بابنه إلى الكعبة ليذبحه وفاءً بنذره منعته قريش ولا سيما أخواله من بني مخزوم، وأخوه [[person/abu-talib|أبو طالب]] ([[event/vow-and-lot-of-abd-al-muttalib|نذر عبد المطلب والقرعة]]) {cite:mubarakpuri-raheeq p.52} {cite:ibn-hisham-sira 1/151-155}.
+
+
+## في الأحلاف يوم حلف الفضول (الرحيق المختوم ص60)
+يعدّ الرحيق المختوم هذا البطن في «الأحلاف» الذين استعدى عليهم الزبيدي المظلوم حين حبس [[person/al-as-ibn-wail|العاص بن وائل]] حقه، وهم عبد الدار ومخزوم وجمح وسهم وعدي، فلم يكترثوا له، فكان ذلك سبب [[event/hilf-al-fudul|حلف الفضول]] الذي عقدته بنو هاشم وبنو المطلب وأسد وزهرة وتيم {cite:mubarakpuri-raheeq p.60} {cite:mukhtasar-sirat-al-rasul-al-najdi p.30-31}.

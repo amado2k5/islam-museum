@@ -1,0 +1,28 @@
+id: event/trade-journey-to-syria-for-khadija
+class: event
+kind: other
+label: { ar: "رحلة النبي التجارية إلى الشام في مال خديجة", en: "The Prophet's trade journey to Syria with Khadija's goods" }
+summary:
+  ar: "في الخامسة والعشرين من عمره خرج النبي تاجراً إلى الشام في مال خديجة بنت خويلد، التي بلغها صدق حديثه وعظم أمانته وكرم أخلاقه فعرضت عليه أجراً أفضل مما تعطي غيره، ومعه غلامها ميسرة؛ ورأت خديجة في مالها من الأمانة والبركة ما لم تر قبله، فكان ذلك سبب زواجها منه."
+  en: "At twenty-five the Prophet went to Syria as a trader with the goods of Khadija bint Khuwaylid, who had heard of his truthfulness, trustworthiness and noble character and offered him better terms than other merchants, sending her servant Maysara with him; she found in her goods a trustworthiness and blessing she had never seen, which led to their marriage."
+date:
+  start: { edtf: "0595~", calendar: julian, precision: year, status: tradition, note: "في الخامسة والعشرين من عمره (الرحيق ص60؛ ابن هشام 1/187-188)؛ السنة مشتقة من العمر وعام الفيل.", derived: true, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+participants:
+  - { target: person/muhammad, role: "التاجر في مال خديجة" }
+  - { target: person/khadija, role: "صاحبة المال" }
+  - { target: person/maysara, role: "غلام خديجة المرافق" }
+wings: [people, time]
+themes: [trade-and-finance]
+periods: [period/prophetic-era]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: occurred_at, target: place/al-sham, sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/marriage-to-khadija, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص58–61 نقلاً عن ابن هشام 1/180–191 ومختصر سيرة الرسول للنجدي ص16، 30–31 وزاد المعاد 1/17 وقلب جزيرة العرب ص260 ومحاضرات الخضري 1/63 وفقه السيرة ص52، 59"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-6b"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 60–61" }

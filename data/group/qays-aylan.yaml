@@ -1,0 +1,21 @@
+id: group/qays-aylan
+class: group
+kind: tribe
+label: { ar: "قيس عيلان", en: "Qays Aylan" }
+summary:
+  ar: "جذم كبير من قبائل مضر؛ يذكره الرحيق المختوم طرفاً في حرب الفجار في مواجهة قريش ومن معهم من كنانة، وكان الظفر لهم أول النهار ثم لكنانة وسط النهار."
+  en: "A great branch of the Mudar tribes; al-Raheeq al-Makhtum names it as the party facing Quraysh and their Kinana allies in the Fijar war, winning in the morning before Kinana prevailed by midday."
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/mudar-ibn-nizar, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/harb-al-fijar, role: "الطرف المقابل لقريش وكنانة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص58–61 نقلاً عن ابن هشام 1/180–191 ومختصر سيرة الرسول للنجدي ص16، 30–31 وزاد المعاد 1/17 وقلب جزيرة العرب ص260 ومحاضرات الخضري 1/63 وفقه السيرة ص52، 59"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-6b"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 17, 59" }

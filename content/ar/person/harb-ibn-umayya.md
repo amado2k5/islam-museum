@@ -1,7 +1,21 @@
 ---
 id: person/harb-ibn-umayya
 lang: ar
-source_lang: en
+source_lang: ar
 translators: []
 ---
-حرب بن أمية بن عبد شمس الأموي والد [[person/abu-sufyan-ibn-harb|أبي سفيان]]؛ قاد [[group/quraysh|قريشاً]] و[[group/kinana|كنانة]] كلها في [[event/harb-al-fijar|حرب الفجار]] ضد [[group/qays-aylan|قيس عيلان]] لمكانته فيهم سناً وشرفاً. {cite:mubarakpuri-raheeq}
+
+## موجز
+حرب بن أمية بن عبد شمس، والد [[person/abu-sufyan-ibn-harb|أبي سفيان]]؛ قاد [[group/quraysh|قريشاً]] و[[group/kinana|كنانة]] كلها في [[event/harb-al-fijar|حرب الفجار]] لمكانته فيهم سناً وشرفاً {cite:mubarakpuri-raheeq p.59} {cite:ibn-hisham-sira 1/184-187}.
+
+## في حرب الفجار
+يذكر الرحيق المختوم أن حرب الفجار وقعت لخمس عشرة سنة من عمر النبي بين قريش ومن معهم من كنانة وبين قيس عيلان، وأن قائد قريش وكنانة كلها كان حرب بن أمية لمكانته فيهم سناً وشرفاً {cite:mubarakpuri-raheeq p.59} {cite:ibn-hisham-sira 1/184-187} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/63}.
+
+## من مصدر آخر
+يروي المسعودي أن الجن قتلته وقالت فيه بيتين، وأن قبره بمكان قفر، ويذكر استدلال القوم على أن البيتين من قول الجن {cite:muruj-al-dhahab p.474}.
+
+## ما لم يُذكر هنا
+لا يذكر الرحيق المختوم مولده ولا وفاته ولا سائر أخباره في الجاهلية؛ وهي في كتب الأنساب والأخبار.
+
+## للزوار الصغار
+حرب بن أمية كان من كبار رجال قريش، فاختاروه قائداً لهم في حرب الفجار، وهو والد أبي سفيان.
