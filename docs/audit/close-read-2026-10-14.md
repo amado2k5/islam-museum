@@ -16,39 +16,40 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 
 | Page | Before | After | Reason |
 |---|---|---|---|
+| `group/banu-al-dil.md` | فكان خطؤهم بداية نهاية الحرب كلها | فكان فعلهم بداية نهاية الحرب كلها | moral label in the children's section; describes the act |
 
 ## Pages needing citations (not added here)
 
 
-## Batch 2 of 19
+## Batch 3 of 19
 
-Pages place/dumat-al-jandal.md to place/taif.md (25 pages).
+Pages place/thaniyyat-al-wada.md to group/banu-dubaya-ibn-zayd.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `place/dumat-al-jandal.md` | ok |
-| `place/ghar-hira.md` | ok |
-| `place/ghar-thawr.md` | ok |
-| `place/hamadan.md` | ok |
-| `place/iraq.md` | ok |
-| `place/isfahan.md` | ok |
-| `place/istanbul.md` | ok |
-| `place/jerusalem.md` | ok |
-| `place/khaybar.md` | ok |
-| `place/kufa.md` | ok |
-| `place/maan.md` | ok |
-| `place/marib.md` | ok |
-| `place/marr-al-zahran.md` | ok |
-| `place/maysan.md` | ok |
-| `place/mecca.md` | ok |
-| `place/medina.md` | ok |
-| `place/mount-sal.md` | ok |
-| `place/mutah.md` | ok |
-| `place/najran.md` | ok |
-| `place/petra.md` | ok |
-| `place/quba.md` | ok |
-| `place/qudayd.md` | ok |
-| `place/sanaa.md` | ok |
-| `place/tabuk.md` | ok |
-| `place/taif.md` | ok |
+| `place/thaniyyat-al-wada.md` | ok |
+| `place/uhud.md` | ok |
+| `place/ukaz.md` | ok |
+| `place/wadi-al-mushaqqaq.md` | ok |
+| `place/wadi-hunayn.md` | ok |
+| `place/wadi-nakhla.md` | ok |
+| `place/yemen.md` | ok |
+| `group/adnan.md` | ok |
+| `group/ahl-al-bayt.md` | ok |
+| `group/al-arab-al-baida.md` | ok |
+| `group/al-azd.md` | ok |
+| `group/ansar.md` | ok |
+| `group/aslam.md` | ok |
+| `group/banu-abd-dar.md` | ok |
+| `group/banu-abd-shams.md` | ok |
+| `group/banu-adi.md` | ok |
+| `group/banu-al-ajlan.md` | ok |
+| `group/banu-al-dil.md` | fixed (1) |
+| `group/banu-al-harith.md` | ok |
+| `group/banu-amir.md` | ok |
+| `group/banu-amr-ibn-awf.md` | ok |
+| `group/banu-asad-ibn-khuzayma.md` | ok |
+| `group/banu-asad.md` | ok |
+| `group/banu-bakr.md` | ok |
+| `group/banu-dubaya-ibn-zayd.md` | ok |
 
