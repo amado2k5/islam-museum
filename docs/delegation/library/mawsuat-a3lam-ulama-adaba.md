@@ -60,3 +60,4 @@
 - Volume 6 (m-a-3-o-06.pdf) is absent from the founder's folder — its letter range will be missing entirely.
 
 **Next:** when OCR finishes, map each volume's letter range, then batch-mine starting with authors of existing `work/*` entities.
+- (14 Oct 2026) Tier 3 batch t2a (vol. 2, pp. 17–66; tier rows 0–11): 3 entries: Ibrahim al-Ghafiqi (death year as printed CE only, Hijri/CE disagree), al-Ashraf Umar ibn al-Muzaffar (Rasulid ruler; no printed dates in opening), Ali al-Ashmuni (approximate CE birth/death). Skipped: al-Ashtari and al-Riwandi (bibliography openings; the latter Mu'tazili), Sadid al-Din al-Himsi (Twelver Shi'i), Thumama ibn Ashras (Mu'tazili, two rows), Ibn Abi al-Ash'ath Ahmad (rows 7–9 are a split of one entry and open on works lists; re-open from p. 35), Aziz ibn al-Fadl (row 10, opening truncated; re-open to read the biography).
