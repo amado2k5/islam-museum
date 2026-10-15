@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.157"
-label: { ar: "الموطأ 1.157", en: "Muwatta 1.157" }
+label: { ar: "الموطأ 157 — فاطمة بنت أبي حبيش: إنما ذلك عرق وليست بالحيضة", en: "Muwatta 157" }
+text: "إنما ذلك عرق وليست بالحيضة، فإذا أقبلت الحيضة فاتركي الصلاة، فإذا ذهب قدرها فاغسلي الدم عنك وصلي"
 summary:
-  ar: "فاطمة بنت أبي حبيش قالت للنبي ﷺ إنها مستحاضة؛ فأمرها بترك الصلاة أيام الحيض ثم الغسل والصلاة."
+  ar: "أول حديث في باب المستحاضة. يرويه يحيى عن مالك عن هشام بن عروة عن أبيه عن عائشة: شكت فاطمة بنت أبي حبيش إلى النبي أنها لا تطهر وسألته أتدع الصلاة، فأخبرها أن ذلك دم عرق لا حيض، وأمرها أن تترك الصلاة إذا أقبلت الحيضة، فإذا مضى قدرها غسلت الدم وصلت. ويخرّجه المحقق عند البخاري (306) وأبي داود (283) والنسائي (1/124) وابن حبان (1350) والدارقطني والشافعي من طرق أصحاب مالك، ويحيل على التمهيد (22/102). {cite:muwatta-maruf-1997 p.106} {cite:muwatta-maruf-1997 p.107}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 157 of kitab al-salat at PDF p. 106", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-9" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/fatima-bint-abi-hubaysh, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hayd, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 157 at PDF p. 106; باب المستحاضة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 106; matn excerpt at most 40 words" }

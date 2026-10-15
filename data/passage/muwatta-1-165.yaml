@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.165"
-label: { ar: "الموطأ 1.165", en: "Muwatta 1.165" }
+label: { ar: "الموطأ 165 — ابن أم قيس يبول في حجر النبي فينضحه ولا يغسله", en: "Muwatta 165" }
+text: "فدعا رسول الله بماء فنضحه ولم يغسله"
 summary:
-  ar: "أم قيس بنت محصن أتت بابن لها إلى النبي ﷺ؛ الحديث في حكم بول الصبي."
+  ar: "يرويه مالك عن ابن شهاب عن عبيد الله بن عبد الله بن عتبة بن مسعود عن أم قيس بنت محصن، في باب ما جاء في بول الصبي: أتت بابن لها صغير لم يأكل الطعام إلى النبي، فأجلسه في حجره فبال على ثوبه، فدعا بماء فنضحه ولم يغسله. ويخرّجه المحقق عند البخاري (223) وأبي داود (374) والنسائي (1/157) وابن خزيمة (286) والدارمي والطبراني من طرق أصحاب مالك، ويحيل على التمهيد (9/108). {cite:muwatta-maruf-1997 p.109}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 165 of kitab al-salat at PDF p. 109", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-9" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-qays-bint-mihsan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubaydallah-ibn-abdallah-ibn-utba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 165 at PDF p. 109; باب ما جاء في بول الصبي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 109; matn excerpt at most 40 words" }
