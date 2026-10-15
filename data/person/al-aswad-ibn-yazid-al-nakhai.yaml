@@ -1,0 +1,19 @@
+id: person/al-aswad-ibn-yazid-al-nakhai
+class: person
+label: { ar: "الأسود بن يزيد النخعي" }
+names:
+  - { kind: full, lang: ar, value: "الأسود بن يزيد بن قيس النخعي أبو عمرو" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "من فقهاء الكوفة من التابعين، أبو عمرو الأسود بن يزيد بن قيس النخعي، أخو عبد الرحمن بن يزيد وابن أخي علقمة؛ مات سنة خمس وسبعين، وقالت عائشة إنه لم يكن بالعراق رجل أكرم عليها منه {cite:tabaqat-fuqaha-abbas-1981 p. 42}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+died: { hijri: "0075", edtf: "0694~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة خمس وسبعين (PDF ص42). الحاشية تذكر رواية «أكرم على الله» في الطبعة المطبوعة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-3" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from PDF pp. 41-43; a second source is needed for the death year and the saying" }

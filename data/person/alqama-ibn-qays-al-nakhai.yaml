@@ -1,0 +1,19 @@
+id: person/alqama-ibn-qays-al-nakhai
+class: person
+label: { ar: "علقمة بن قيس النخعي" }
+names:
+  - { kind: full, lang: ar, value: "علقمة بن قيس بن عبد الله بن علقمة النخعي أبو شبل" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "من فقهاء الكوفة من التابعين، أبو شبل علقمة بن قيس النخعي، عم الأسود بن يزيد وعبد الرحمن بن يزيد وخال إبراهيم النخعي؛ مات سنة اثنتين وستين، وقال إبراهيم إنه أفضل من الأسود، وقد شهد صفين {cite:tabaqat-fuqaha-abbas-1981 p. 42}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+died: { hijri: "0062", edtf: "0681~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة اثنتين وستين (PDF ص42).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-3" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from PDF pp. 41-43; the Ibn Mas'ud edge follows the book's list of his companions (PDF ص43); a second source is needed" }

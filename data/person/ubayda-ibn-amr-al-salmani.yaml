@@ -1,0 +1,19 @@
+id: person/ubayda-ibn-amr-al-salmani
+class: person
+label: { ar: "عبيدة بن عمرو السلماني" }
+names:
+  - { kind: full, lang: ar, value: "عبيدة بن عمرو السلماني المرادي الهمداني أبو مسلم" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو مسلم، ويقال أبو عمرو، عبيدة بن عمرو السلماني المرادي الهمداني؛ أسلم قبل وفاة النبي بسنتين ولم يره، ومات سنة اثنتين وسبعين، وقال أبو إسحاق إنه لم يكن بالكوفة أعلم بالفريضة منه ومن الحارث الأعور {cite:tabaqat-fuqaha-abbas-1981 p. 43}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+regions: [levant-iraq]
+died: { hijri: "0072", edtf: "0691~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات سنة اثنتين وسبعين (PDF ص43). ابن سعد يسميه عبيدة بن قيس في الحاشية.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-3" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from PDF pp. 41-43; the book names him among Ibn Mas'ud's companions (PDF ص43); the 'two years before the Prophet's death' claim is the book's; a second source is needed" }

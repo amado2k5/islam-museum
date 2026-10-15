@@ -16,6 +16,8 @@ periods: [period/umayyad]
 regions: [arabia]
 story_roles:
   - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+relations:
+  - { type: student_of, target: person/abdullah-ibn-masud, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 290-296, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص290-296", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
