@@ -1,0 +1,29 @@
+id: event/mahdiyya-revolt-594
+class: event
+kind: revolt
+label: { ar: "عصيان المهدية على الموحدين", en: "The Mahdiyya revolt (594–595 AH)" }
+summary:
+  ar: "كان أبو يوسف يعقوب المنصور لما عاد من إفريقية ولّى أبا سعيد عثمان تونس وأخاه أبا علي يونس بن عمر اينتي المهدية، وجعل قائد الجيش بالمهدية محمد بن عبد الكريم وهو شجاع مشهور عظمت نكايته في العرب؛ فلما أخذ لعرب من بني عوف فروا منه مالهم وعيالهم واستجار بنو عوف بأبي سعيد فأمره برد النعم فأغلظ له وأراد أن يبطش به، فعاد محمد إلى المهدية خائفاً فحالف أصحابه وقبض على الوالي أبي علي يونس وتغلب على المدينة، فأطلقه على اثني عشر ألف دينار وزعها في الجند، وحالف علي بن إسحاق الملثم ابن غانية فامتنع أبو سعيد من قصده؛ فلما مات يعقوب وولي ابنه محمد الناصر سيّر عسكراً في البحر وعسكراً في البر فهرب الملثم ومن معه إلى الصحراء، فلما وصل الأسطول المهدية قال محمد بن عبد الكريم: أنا على طاعة أمير المؤمنين محمد ولا أسلمها إلى أبي سعيد وإنما أسلمها إلى من يرسله أمير المؤمنين، فأرسل من تسلمها منه وعاد إلى الطاعة {cite:kamil-ibn-al-athir p. 259-260}."
+  en: "The Almohad field-commander Muhammad ibn Abd al-Karim — terror of the Arabs of Ifriqiya — fell out with the vizier Abu Sa'id ibn Umar Inti over the Banu Awf captives, seized Mahdiyya, ransomed the governor for twelve thousand dinars, and allied with Ibn Ghaniya; when al-Mansur died, the new caliph Muhammad al-Nasir's sea and land armies came, Ibn Ghaniya fled to the desert, and Ibn Abd al-Karim answered the fleet: 'I obey the Commander of the Faithful Muhammad — I will only hand it to whom he sends' {cite:kamil-ibn-al-athir p. 259-260}."
+date:
+  start: { hijri: "0594", edtf: "1198", calendar: julian, precision: year, status: tradition, note: "امتدت الحادثة إلى أوائل 595؛ {cite:kamil-ibn-al-athir p. 259-260}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/muhammad-ibn-abd-al-karim
+  role: "قائد الجيش بالمهدية الذي تغلب عليها ثم عاد إلى الطاعة"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/ali-ibn-ghaniya
+  role: "حليف المتمرد"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+themes: [civil-wars-and-revolts]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 259-260"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-12
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

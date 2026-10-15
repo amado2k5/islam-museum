@@ -1,0 +1,24 @@
+id: event/balkh-qara-khitai-594
+class: event
+kind: conquest
+label: { ar: "ملك الغورية بلخ من الخطا", en: "The Ghurid capture of Balkh from the Qara Khitai (594 AH)" }
+summary:
+  ar: "في سنة أربع وتسعين وخمسمائة توفي صاحب بلخ وكان تركياً اسمه أزيه يحمل الخراج كل سنة إلى الخطا بما وراء النهر، فسار بهاء الدين سام بن محمد بن مسعود — وهو ابن أخت غياث الدين وشهاب الدين وله باميان — إلى المدينة فملكها وتمكن منها وقطع الحمل إلى الخطا وخطب لغياث الدين، فصارت من جملة بلاد الإسلام بعد أن كانت في طاعتهم؛ فأرسل خوارزم شاه تكش إلى الخطا يستنجدهم على غياث الدين فعبر ملك الخطا بجيش مقدمه طاينكوا جيحون في جمادى الآخرة — والزمان شتاء — فلقيهم عسكر غياث الدين فانهزموا {cite:kamil-ibn-al-athir p. 252-253}."
+  en: "594: on the death of its Turkish tribute-lord Aziya, Baha al-Din Sam of Bamiyan — nephew of both Ghurid sultans — marched on Balkh, took it, cut the yearly tribute to the Qara Khitai and raised the khutba for Ghiyath al-Din, 'returning it to the lands of Islam'; the Khita's answering expedition under Tayanku crossed the Oxus that winter and broke before the Ghurid army {cite:kamil-ibn-al-athir p. 252-253}."
+date:
+  start: { hijri: "0594", edtf: "1198", calendar: julian, precision: year, status: tradition, note: "سنة ٥٩٤هـ {cite:kamil-ibn-al-athir p. 252}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/baha-al-din-sam-bamiyani
+  role: "صاحب باميان الذي ملك بلخ وقطع الخراج عن الخطا"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 252-253"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-12
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

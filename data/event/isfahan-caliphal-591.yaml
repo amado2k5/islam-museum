@@ -1,0 +1,24 @@
+id: event/isfahan-caliphal-591
+class: event
+kind: conquest
+label: { ar: "ملك عسكر الخليفة أصفهان", en: "The caliphal army's takeover of Isfahan (591 AH)" }
+summary:
+  ar: "في سنة إحدى وتسعين وخمسمائة جهّز الخليفة الناصر لدين الله جيشاً مقدمهم سيف الدين طغرل مقطع بلد اللحف من العراق إلى أصفهان، وكان بها عسكر لخوارزم شاه مع ولده وأهلها يكرهونهم، فكتب صدر الدين الخجندي رئيس الشافعية بأصفهان — وهو بعد الحاكم على جميع أهلها — إلى الديوان ببغداد يبذل من نفسه تسليم البلد إلى من يصل من عساكر الديوان؛ فوصلوا ونزلوا بظاهر البلد وفارقه الخوارزمية عائدين إلى خراسان وتبعهم بعض العسكر فأخذوا من ساقتهم من قدروا عليه، ودخل عسكر الخليفة أصفهان وملكوها {cite:kamil-ibn-al-athir p. 238-239}."
+  en: "591: al-Nasir's troops under Sayf al-Din Tughril entered Isfahan after Sadr al-Din al-Khujandi — ra'is of its Shafi'is and de facto second ruler — offered the city to Baghdad's Diwan; the hated Khwarazmian garrison withdrew to Khurasan with the caliphals taking stragglers — a rare Abbasid territorial gain deep in the Jibal {cite:kamil-ibn-al-athir p. 238-239}."
+date:
+  start: { hijri: "0591", edtf: "1195", calendar: julian, precision: year, status: tradition, note: "سنة ٥٩١هـ {cite:kamil-ibn-al-athir p. 238}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/sadr-al-din-al-khujandi
+  role: "رئيس شافعية أصفهان الذي بذل تسليمها للديوان"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 238-239"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-12
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

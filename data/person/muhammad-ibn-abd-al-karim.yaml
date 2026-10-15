@@ -1,0 +1,25 @@
+id: person/muhammad-ibn-abd-al-karim
+class: person
+label: { ar: "محمد بن عبد الكريم", en: "Muhammad ibn Abd al-Karim" }
+summary:
+  ar: "محمد بن عبد الكريم قائد الجيش بالمهدية في دولة الموحدين، شجاع مشهور عظمت نكايته في العرب حتى لم يبق منهم إلا من يخافه؛ تنازع مع الوزير أبي سعيد بن عمر اينتي في عيال بني عوف وأموالهم فقبض على والي المهدية وتغلب عليها وأطلقه على اثني عشر ألف دينار وحالف ابن غانية، فلما ولي محمد الناصر بن يعقوب وسيّر العساكر براً وبحراً قال: أنا على طاعة أمير المؤمنين محمد ولا أسلمها إلى أبي سعيد وإنما أسلمها إلى من يرسله أمير المؤمنين، فعاد إلى الطاعة {cite:kamil-ibn-al-athir p. 259-260}."
+  en: "The Almohad army-commander at Mahdiyya — feared by every Arab of Ifriqiya — who rebelled over the Banu Awf captives, held the city against the vizier, allied with Ibn Ghaniya, then chose loyalty to the new caliph al-Nasir: 'I hand it only to whom the Commander of the Faithful sends' {cite:kamil-ibn-al-athir p. 259-260}."
+gender: male
+relations:
+- type: participated_in
+  target: event/mahdiyya-revolt-594
+  sources: [source/kamil-ibn-al-athir]
+- type: allied_with
+  target: person/ali-ibn-ghaniya
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+roles: [military]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 259-260"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-12
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
