@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.314"
-label: { ar: "الموطأ 1.314", en: "Muwatta 1.314" }
+label: { ar: "الموطأ 314 — عائشة: كان يصلي من الليل إحدى عشرة ركعة يوتر منها بواحدة", en: "Muwatta 314" }
+text: "كان يصلي من الليل إحدى عشرة ركعة يوتر منها بواحدة، فإذا فرغ اضطجع على شقه الأيمن"
 summary:
-  ar: "عروة بن الزبير عن عائشة: أن النبي ﷺ كان يصلي من الليل؛ الحديث في صلاة الليل."
+  ar: "أول حديث في باب صلاة النبي في الوتر. يرويه يحيى عن مالك عن ابن شهاب عن عروة بن الزبير عن عائشة: كان النبي يصلي من الليل إحدى عشرة ركعة يوتر منها بواحدة، فإذا فرغ اضطجع على شقه الأيمن. ويخرّجه المحقق عند مسلم (2/165) وأبي داود (1335) والترمذي (440–441) والنسائي (3/234) وأحمد والشافعي من طرق أصحاب مالك، وينقل عن ابن عبد البر أن أصحاب ابن شهاب جعلوا الاضطجاع بعد ركعتي الفجر لا بعد الوتر، وأن ما قاله مالك لا يُدفع لموضعه من الحفظ (التمهيد 8/121–122)؛ ويرى المحقق أن اجتماع أصحاب الزهري على أن الاضطجاع بعد الفجر هو المحفوظ كما نص عليه ابن حجر، فتكون رواية مالك في هذا الحرف شاذة. {cite:muwatta-maruf-1997 p.176} {cite:muwatta-maruf-1997 p.177}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 314 of kitab al-salat at PDF p. 176", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-15" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-hajar-al-asqalani, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 314 at PDF p. 176; باب صلاة النبي في الوتر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b13" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 176; matn excerpt at most 40 words" }

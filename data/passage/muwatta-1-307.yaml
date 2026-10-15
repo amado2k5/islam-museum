@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.307"
-label: { ar: "الموطأ 1.307", en: "Muwatta 1.307" }
+label: { ar: "الموطأ 307 — من غلبه النوم عن صلاته بالليل كتب له أجرها وكان نومه صدقة", en: "Muwatta 307" }
+text: "ما من امرئ تكون له صلاة بليل يغلبه عليها نوم إلا كتب الله له أجر صلاته وكان نومه عليه صدقة"
 summary:
-  ar: "عائشة: أخبرها رجل عند رضا أن... ؛ الحديث في صلاة الليل وقيام رمضان؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب ما جاء في صلاة الليل. يرويه يحيى عن مالك عن محمد بن المنكدر عن سعيد بن جبير عن رجل عنده رضا عن عائشة: أخبر النبي أن من كانت له صلاة بالليل فغلبه عليها النوم كتب الله له أجر صلاته وكان نومه عليه صدقة. ويخرّجه المحقق عند أبي داود (1314) والنسائي في الكبرى وابن نصر في قيام الليل والبيهقي من طرق أصحاب مالك، وينقل عن ابن عبد البر أن الرجل الرضا عند سعيد بن جبير قيل إنه الأسود بن يزيد، وساقه من طريق أبي جعفر الرازي بتسميته (التمهيد 12/261–262). {cite:muwatta-maruf-1997 p.173}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 307 of kitab al-salat at PDF p. 173", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-15" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-jubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-al-munkadir, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-aswad-ibn-yazid-al-nakhai, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 307 at PDF p. 173; باب ما جاء في صلاة الليل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b13" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 173; matn excerpt at most 40 words" }

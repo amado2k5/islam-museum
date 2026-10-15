@@ -1,0 +1,23 @@
+id: passage/muwatta-1-301
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.301"
+label: { ar: "الموطأ 301 — عمر يجمع الناس على أبي بن كعب: نعمت البدعة هذه", en: "Muwatta 301" }
+text: "نعمت البدعة هذه، والتي تنامون عنها أفضل من التي تقومون"
+summary:
+  ar: "أول حديث في باب ما جاء في قيام رمضان. يرويه مالك عن ابن شهاب عن عروة بن الزبير عن عبد الرحمن بن عبد القاري: خرج مع عمر بن الخطاب في رمضان إلى المسجد فإذا الناس متفرقون يصلي الرجل لنفسه ويصلي الرجل فيصلي بصلاته الرهط، فرأى عمر أن جمعهم على قارئ واحد أمثل، فجمعهم على أبي بن كعب. ثم خرج معه ليلة أخرى والناس يصلون بصلاة قارئهم فقال عمر: نعمت البدعة هذه، والتي تنامون عنها أفضل من التي تقومون، يعني آخر الليل، وكان الناس يقومون أوله. ويخرّجه المحقق عند البخاري (2010) والبيهقي من طرق أصحاب مالك، وعبد الرزاق عن معمر عن الزهري. {cite:muwatta-maruf-1997 p.171}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubayy-ibn-kab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-abd-al-qari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bida, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 301 at PDF p. 171; باب ما جاء في قيام رمضان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b13" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 171; matn excerpt at most 40 words" }

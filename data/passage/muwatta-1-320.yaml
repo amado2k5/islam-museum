@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.320"
-label: { ar: "الموطأ 1.320", en: "Muwatta 1.320" }
+label: { ar: "الموطأ 320 — عبادة بن الصامت: خمس صلوات كتبهن الله على العباد", en: "Muwatta 320" }
+text: "خمس صلوات كتبهن الله عز وجل على العباد، فمن جاء بهن لم يضيع منهن شيئاً استخفافاً بحقهن كان له عند الله عهد أن يدخله الجنة"
 summary:
-  ar: "ابن محيريز: رجل من بني كنانة يُدعى المخدجي أخبره أن النبي ﷺ قال: إن الوتر حق؛ حكم الوتر وأنه واجب أو مستحب على خلاف."
+  ar: "يرويه مالك عن يحيى بن سعيد عن محمد بن يحيى بن حبان عن ابن محيريز، في باب الأمر بالوتر: سمع رجل من بني كنانة يدعى المخدجي رجلاً بالشام يكنى أبا محمد يقول إن الوتر واجب، فراح إلى عبادة بن الصامت فأخبره، فقال عبادة: أخطأ أبو محمد، وروى عن النبي أن الله كتب على العباد خمس صلوات، فمن جاء بهن ولم يضيع منهن شيئاً استخفافاً بحقهن كان له عند الله عهد أن يدخله الجنة، ومن لم يأت بهن فليس له عند الله عهد، إن شاء عذبه وإن شاء أدخله الجنة. ويخرّجه المحقق عند أبي داود (1420) والنسائي (1/230) وابن حبان (1732) وأحمد والبيهقي من طرق أصحاب مالك، ويرى أن إسناده ضعيف لجهالة المخدجي لكنه صح من طريق الصنابحي عن عبادة عند أحمد وأبي داود (425)، وينقل عن ابن عبد البر أنه حديث صحيح ثابت لأنه روي عن عبادة من طرق صحاح من غير طريق المخدجي (التمهيد 23/288–289). {cite:muwatta-maruf-1997 p.181} {cite:muwatta-maruf-1997 p.182}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 320 of kitab al-salat at PDF p. 181", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-16" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubada-ibn-al-samit, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-muhayriz, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-mukhdaji, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-yahya-ibn-habban, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-sham, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 320 at PDF p. 181; باب الأمر بالوتر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b13" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: حكم الوتر يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 181; matn excerpt at most 40 words" }

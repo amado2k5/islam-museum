@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.325"
-label: { ar: "الموطأ 1.325", en: "Muwatta 1.325" }
+label: { ar: "الموطأ 325 — ابن عمر يوتر بمكة ثم يشفع لما انكشف الغيم", en: "Muwatta 325" }
 summary:
-  ar: "نافع: كان مع ابن عمر بمكة والسماء ملبدة بالغيم، فخشي ابن عمر أن يطلع الفجر فأوتر بواحدة؛ الحديث في الوتر عند خشية الصبح."
+  ar: "أثر يرويه مالك عن نافع، في باب الأمر بالوتر: كان مع عبد الله بن عمر بمكة والسماء مغيمة، فخشي ابن عمر الصبح فأوتر بواحدة، ثم انكشف الغيم فرأى أن عليه ليلاً فشفع بواحدة، ثم صلى بعد ذلك ركعتين ركعتين، فلما خشي الصبح أوتر بواحدة. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.183} {cite:muwatta-maruf-1997 p.184}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 325 of kitab al-salat at PDF p. 183", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-16" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 325 at PDF p. 183; باب الأمر بالوتر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b13" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 183; matn excerpt at most 40 words" }
