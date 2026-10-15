@@ -1,0 +1,32 @@
+id: event/battle-tarain-588
+class: event
+kind: battle
+label: { ar: "وقعة شهاب الدين بملك الهند وأخذ أجمير", en: "Shihab al-Din's victory over the king of Hind and the taking of Ajmer (588 AH)" }
+summary:
+  ar: "في سنة ثمان وثمانين وخمسمائة خرج شهاب الدين الغوري من غزنة بعساكره يطلب ملك الهند الذي هزمه سنة ثلاث وثمانين، وقال لشيخ من الغورية نصحه: أعلم أنني منذ هزمني هذا الكافر ما نمت مع زوجتي ولا غيرت ثياب البياض عني وأنا معتمد على الله لا على الغورية ولا على غيرهم؛ فسار حتى جاز موضع المصاف الأول وأخذ مواضع من بلاد العدو، ولما جمع له ملك الهند عساكره عاد شهاب الدين أربع منازل والعدو في أثره يطلبه حتى لحقه قريباً من مرندة، فجرّد من عسكره سبعين ألفاً يدورون ليلاً حتى يكونوا وراء عسكر العدو، فلما طلع الفجر — ومن عادة الهنود أنهم لا يبرحون مضاجعهم حتى تطلع الشمس — حمل المسلمون من كل جانب وضربت الكؤسات، فلم يلتفت ملك الهند حتى كثر القتل في أصحابه، فركب فرساً ليهرب فذكّره أعيان أصحابه بحلفه ألا يخليهم فنزل وركب الفيل ووقف موضعه حتى انتهى إليه المسلمون فأخذوه أسيراً، فجذبه بعض الحجاب بلحيته حتى أصاب جبينه الأرض بين يدي شهاب الدين، فقال له: لو استأسرتني ماذا كنت تفعل بي؟ فقال: قد استعملت لك قيداً من ذهب أقيدك به، فقال شهاب الدين: بل نحن لا نجعل لك من القدر ما نقيدك؛ وغنم المسلمون أموالاً عظيمة وأربعة عشر فيلاً، وسار به إلى أجمير فأخذه وجميع البلاد التي تقاربه وأقطعها لمملوكه قطب الدين أيبك وعاد إلى غزنة وقُتل ملك الهند {cite:kamil-ibn-al-athir p. 221-222}."
+  en: "588 (1192): brooding since his 583 defeat — 'I have not slept with my wife nor changed my white clothes since that kafir beat me' — Shihab al-Din al-Ghuri marched for Hind, drew the pursuing king four stages deep, then loosed seventy thousand horse on a night encirclement; at dawn, while the Indians kept to their bedding custom, the host struck from every side; the king stood on his elephant till taken, was dragged by the beard before Shihab al-Din, exchanged the famous words — 'I had a golden fetter for you' / 'we give you no rank worth a fetter' — saw Ajmer iqta'd to the mamluk Qutb al-Din Aybak, and was killed {cite:kamil-ibn-al-athir p. 221-222}."
+date:
+  start: { hijri: "0588", edtf: "1192", calendar: julian, precision: year, status: tradition, note: "سنة ٥٨٨هـ {cite:kamil-ibn-al-athir p. 221}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/shihab-al-din-ghuri
+  role: "السلطان المنتصر"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/prithviraj-chauhan
+  role: "ملك الهند المأسور المقتول"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/qutb-al-din-aybak
+  role: "مملوك شهاب الدين الذي أقطعه أجمير والبلاد"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [south-asia]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 221-222"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-11
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

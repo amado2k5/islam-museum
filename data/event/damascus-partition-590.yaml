@@ -1,0 +1,27 @@
+id: event/damascus-partition-590
+class: event
+kind: treaty
+label: { ar: "حصر العزيز دمشق والصلح على قسمة البلاد", en: "al-Aziz's siege of Damascus and the partition settlement (590 AH)" }
+summary:
+  ar: "في سنة تسعين وخمسمائة وصل الملك العزيز عثمان بن صلاح الدين صاحب مصر إلى دمشق فحصرها وبها أخوه الأكبر الملك الأفضل، وكان ابن الأثير حينئذ بدمشق؛ فأرسل الأفضل إلى عمه الملك العادل أبي بكر بن أيوب صاحب الديار الجزرية يستنجده، فسار العادل والملك الظاهر غازي بن صلاح الدين صاحب حلب وناصر الدين محمد بن تقي الدين صاحب حماة وأسد الدين شيركوه صاحب حمص وعسكر الموصل كلهم إلى دمشق واتفقوا على حفظها — علماً منهم أن العزيز إن ملكها أخذ بلادهم — فلما رأى العزيز اجتماعهم علم أنه لا قدرة له على البلد، فاستقرت القاعدة على أن يكون بيت المقدس وما جاوره من أعمال فلسطين للعزيز، وتبقى دمشق وطبرية والغور للأفضل على ما كانت عليه، وأن يعطي الأفضل أخاه الملك الظاهر جبلة واللاذقية، وأن يكون للعادل بمصر إقطاعه الأول؛ فعاد العزيز إلى مصر ورجع كل واحد من الملوك إلى بلده {cite:kamil-ibn-al-athir p. 234}."
+  en: "590: al-Aziz of Egypt besieged his elder brother al-Afdal in Damascus — Ibn al-Athir was inside — until al-Adil, al-Zahir of Aleppo, Nasir al-Din of Hama, Asad al-Din Shirkuh of Homs and Mosul's army converged to hold the city, knowing their own lands were next; the settlement gave al-Aziz Jerusalem and Palestine, kept Damascus, Tiberias and the Ghawr for al-Afdal, added Jabla and Latakia to al-Zahir, and restored al-Adil's Egyptian iqta' {cite:kamil-ibn-al-athir p. 234}."
+date:
+  start: { hijri: "0590", edtf: "1194", calendar: julian, precision: year, status: tradition, note: "سنة ٥٩٠هـ {cite:kamil-ibn-al-athir p. 234}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/al-malik-al-adil-ayyub
+  role: "عم الأخوين؛ قاد مع الملوك إلى نصرة دمشق وعاد بإقطاعه بمصر"
+  sources: [source/kamil-ibn-al-athir]
+- type: occurred_at
+  target: place/damascus
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 234"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-11
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
