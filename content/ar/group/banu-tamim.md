@@ -12,3 +12,6 @@ translators: []
 
 ## ما لم يُذكر هنا
 نسب تميم بن مرّ إلى مضر، ومواطنها في نجد، ودورها في الردة والفتوح، تُضاف من مصادر أخرى.
+
+## في مقدمة الرحيق المختوم
+تميم بن مرة من بطون [[person/ilyas-ibn-mudar|إلياس بن مضر]] {cite:mubarakpuri-raheeq p.21} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/14-15}. هاجرت بطون من تميم مع عبد القيس وبكر إلى البحرين، وسكنت بنو تميم ببادية البصرة {cite:mubarakpuri-raheeq p.21} {cite:mubarakpuri-raheeq p.22}. ولما انقرضت [[group/sufa|صوفة]] ورثهم بنو سعد بن زيد مناة من تميم في الإجازة بالناس من منى {cite:mubarakpuri-raheeq p.29} {cite:ibn-hisham-sira 1/119-122}. ويعدّ المؤلف قصة حاجب بن زرارة التميمي في أمثلة الوفاء بالعهد عند أهل الجاهلية {cite:mubarakpuri-raheeq p.47}.

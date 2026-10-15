@@ -13,7 +13,7 @@
 
 | Chapter | Pages | State |
 |---|---|---|
-| 1 موقع العرب وأقوامها | 15–22 | **in progress**: 1a pushed (`bcebba1f`: 17 new entities: concept/arab-peoples-before-islam, groups tayy/kinda/judham/ghatafan/bakr-ibn-wail, persons nabit/qaydar/mudad-ibn-amr/imran-ibn-amr/thalaba-ibn-amr/jafna-ibn-amr/sara, places ur/aja-and-salma, event/ibrahim-visits-ismail-in-mecca, question/who-are-qahtan-and-adnan); 1b (21 tribal groups re-written) next |
+| 1 موقع العرب وأقوامها | 15–22 | **in progress**: 1a pushed (`bcebba1f`, 17 new entities), 1b pushed (`9b15fd0e`, 21 tribal groups), 1c (lineage persons, Ibrahim-cycle events, Nabataean polity, appended sections on 9 richer groups) next |
 | 2 الحكم والإمارة في العرب | 23–34 | pending |
 | 3 ديانات العرب / الحالة الدينية | 35–42 | pending |
 | 4 صور من المجتمع الجاهلي | 43–47 | pending |

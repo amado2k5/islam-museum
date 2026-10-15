@@ -15,3 +15,6 @@ translators: []
 
 ## الأثر
 حنين — أكثر الوقائع ذكرًا في سورة التوبة — صارت في العبرة الإسلامية مثال الغرور بالكثرة قبل النصر، وعند المؤرخين آخر محاولة عسكرية جادة من القبائل البدوية ضدّ الدولة الجديدة {cite:ibn-sad-tabaqat-bewley}.
+
+## في مقدمة الرحيق المختوم
+هوازن من قيس عيلان بن [[group/mudar-ibn-nizar|مضر]] مع بني سليم وغطفان {cite:mubarakpuri-raheeq p.21} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/14-15}. سكنت هوازن في شرقي مكة بنواحي [[place/awtas|أوطاس]]، وهي على الجادة بين مكة والبصرة {cite:mubarakpuri-raheeq p.22} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/15-16}.
