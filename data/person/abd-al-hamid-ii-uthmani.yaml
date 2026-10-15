@@ -1,0 +1,23 @@
+id: person/abd-al-hamid-ii-uthmani
+class: person
+label: { ar: "عبد الحميد الثاني" }
+names:
+  - { kind: full, lang: ar, value: "عبد الحميد الثاني بن عبد المجيد الأول" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "السلطان عبد الحميد الثاني (١٢٩٣–١٣٢٧هـ/١٨٧٦–١٩٠٩م)؛ تولى بعد خلع أخيه مراد الخامس، فظل يتمتع بالسلطة التي تمتع بها أسلافه إذ كان الدستور مرتهناً بشخصه: له وحده حق تعيين الوزراء وإقالتهم وعقد المعاهدات وإعلان الحرب والصلح وإصدار القوانين دون الرجوع إلى البرلمان. انتهج سياسة التودد إلى الشخصيات ذات النفوذ، فجعل مجلس المشايخ ورتّب رواتب أعضائه، وتودد إلى دعاة الجامعة الإسلامية كمصطفى كامل في مصر ونامق كمال، وأنشأ مدرسة العشائر العربية لأبناء زعماء العرب ثم توسعت فأخذت من أبناء الأكراد والألبان، وحرص على الاتصال بزعماء القبائل بالرسائل والرسل لتقوية روابط الأخوة الإسلامية، وكان على معرفة تامة بعمل الإنجليز الذين اتصلوا بشريف مكة والشيخ حميد الدين في اليمن وشيخ عسير لتحريضهم على الخلافة {cite:dawlat-uthmaniyya-salabi p. 397-434}."
+  en: "Abd al-Hamid II (r. 1293–1327/1876–1909) — ruled under a constitution hostage to his person: ministers, treaties, war and law all his alone. His pan-Islamic counterweight: the Shaykhs' Council, the Arab Tribal School for sons of chiefs, and correspondence with the Arab amirs — against British approaches to the Sharif of Mecca and the imams of Yemen and Asir {cite:dawlat-uthmaniyya-salabi p. 397-434}."
+wings: [people, time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/abd-al-majid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/murad-v-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 397-434"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-6
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

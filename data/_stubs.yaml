@@ -5,7 +5,6 @@
 - { id: work/kitab-al-shifa, label: { en: "The Book of Healing (al-Shifa)" } }
 - { id: building/avicenna-mausoleum-hamadan, label: { en: "Mausoleum of Ibn Sina, Hamadan" } }
 - { id: person/ala-al-dawla-muhammad, label: { en: "Ala al-Dawla Muhammad" } }
-- { id: person/al-farabi, label: { en: "al-Farabi" } }
 - { id: person/aristotle, label: { en: "Aristotle" } }
 - { id: person/al-ghazali, label: { en: "al-Ghazali" } }
 - { id: person/ibn-rushd, label: { en: "Ibn Rushd (Averroes)" } }
@@ -35,10 +34,6 @@
 - { id: person/abu-rafi, label: { ar: "أبو رافع مولى رسول الله", en: "Abu Rafi" } }
 - { id: person/umm-al-fadl, label: { ar: "أم الفضل لبابة الكبرى", en: "Umm al-Fadl Lubaba al-Kubra" } }
 - { id: person/abdullah-ibn-rawaha, label: { ar: "عبد الله بن رواحة", en: "Abdullah ibn Rawaha" } }
-- { id: person/ruqayya-bint-muhammad, label: { ar: "رقية بنت محمد", en: "Ruqayya bint Muhammad" } }
-- { id: person/aqil-ibn-abi-talib, label: { ar: "عقيل بن أبي طالب", en: "Aqil ibn Abi Talib" } }
-- { id: person/abu-al-as-ibn-al-rabi, label: { ar: "أبو العاص بن الربيع", en: "Abu al-As ibn al-Rabi" } }
-- { id: person/zaynab-bint-muhammad, label: { ar: "زينب بنت محمد", en: "Zaynab bint Muhammad" } }
 - { id: person/saad-ibn-al-numan, label: { ar: "سعد بن النعمان", en: "Sa'd ibn al-Nu'man" } }
 - { id: person/amr-ibn-abi-sufyan, label: { ar: "عمرو بن أبي سفيان", en: "Amr ibn Abi Sufyan" } }
 - { id: person/al-muttalib-ibn-hantab, label: { ar: "المطلب بن حنطب", en: "al-Muttalib ibn Hantab" } }
@@ -62,7 +57,6 @@
 - { id: place/batn-yajij, label: { ar: "بطن يأجج", en: "Batn Ya'juj" } }
 - { id: place/arq-al-dhubya, label: { ar: "عرق الظبية", en: "Arq al-Dhubya" } }
 # Stubs for the Ibn Hisham mining, batch 1a (Fath causes, printed pp. 31–41) — remove each line as the entity is written.
-- { id: person/ibn-hisham, label: { ar: "عبد الملك بن هشام", en: "Abd al-Malik ibn Hisham" } }
 - { id: person/munabbih, label: { ar: "منبه", en: "Munabbih" } }
 - { id: person/salma-al-dili, label: { ar: "سلمى الديلي", en: "Salma al-Dili" } }
 - { id: person/kulthum-al-dili, label: { ar: "كلثوم الديلي", en: "Kulthum al-Dili" } }
@@ -92,7 +86,6 @@
 - { id: person/abdullah-ibn-mazun, label: { ar: "عبد الله بن مظعون", en: "Abdullah ibn Maz'un" }, note: "Brother of Uthman ibn Maz'un; early Muslim" }
 - { id: person/al-khattab-ibn-nufayl, label: { ar: "الخطاب بن نفيل", en: "al-Khattab ibn Nufayl" }, note: "Father of Umar and Fatima" }
 - { id: person/amr-ibn-nufayl, label: { ar: "عمرو بن نفيل", en: "Amr ibn Nufayl" }, note: "Meccan monotheist" }
-- { id: person/muqatil-ibn-sulayman, label: { ar: "مقاتل بن سليمان", en: "Muqatil ibn Sulayman" }, note: "Early Qur'an commentator cited by the book" }
 - { id: person/utba-ibn-abi-lahab, label: { ar: "عتبة بن أبي لهب", en: "Utba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Ruqayya" }
 - { id: person/utayba-ibn-abi-lahab, label: { ar: "عتيبة بن أبي لهب", en: "Utayba ibn Abi Lahab" }, note: "Son of Abu Lahab; divorced Umm Kulthum" }
 - { id: person/zinnira, label: { ar: "زنيرة", en: "Zinnira" }, note: "Slave woman freed by Abu Bakr" }
@@ -111,7 +104,6 @@
 - { id: group/tayy, label: { ar: "طيء", en: "Tayy" }, note: "قبيلة جبلي طيء قوم حاتم الطائي وعدي بن حاتم؛ صنمهم الفلس" }
 - { id: person/ramla-bint-al-harith, label: { ar: "رملة بنت الحارث", en: "Ramla bint al-Harith" }, note: "صاحبة الدار التي أُنزل فيها سبي بني تميم بالمدينة" }
 - { id: group/aws, label: { ar: "الأوس", en: "Banu Aws" }, note: "إحدى قبيلتي الأنصار بيثرب مع الخزرج" }
-- { id: person/jubayr-ibn-mutim, label: { ar: "جبير بن مطعم", en: "Jubayr ibn Mut'im" }, note: "ابن المطعم بن عدي وسيد بني نوفل، حضر دار الندوة مشركاً ثم أسلم بعد فتح مكة وكان نسابة قريش" }
 # Added by the ibn-hisham lane (batch: return from Abyssinia); restored the file after a commit replaced all earlier stubs with this fragment
 - { id: group/ghatafan, label: { ar: "غطفان", en: "Ghatafan" }, note: "قبيلة قيسية نجدية كبيرة كانت إحدى دعائم حلف الأحزاب" }
 - { id: person/sinan-ibn-abi-sinan-al-asadi, label: { ar: "سنان بن أبي سنان الأسدي", en: "Sinan ibn Abi Sinan al-Asadi" }, note: "صحابي بدري أول من بايع بيعة الرضوان تحت الشجرة" }
@@ -146,12 +138,9 @@
 - { id: place/afra, label: { ar: "عفراء", en: "Afra'" }, note: "ماء بفلسطين صُلب عليه فروة بن عمرو الجذامي" }
 # Added by the raheeq lane (batch 23: the Farewell Pilgrimage and the death, pp. 458-472)
 - { id: place/al-baqia, label: { ar: "بقيع الغرقد", en: "al-Baqi'" }, note: "مقبرة المدينة، دفن فيها كثير من الصحابة وأهل البيت" }
-- { id: person/qutham-ibn-al-abbas, label: { ar: "قثم بن العباس", en: "Qutham ibn al-Abbas" }, note: "ابن عم النبي، ممن قلّبه عند الغسل" }
 - { id: person/shaqran, label: { ar: "شقران", en: "Shuqran" }, note: "مولى النبي، صبّ الماء مع أسامة عند غسله" }
-- { id: person/aws-ibn-khawli, label: { ar: "أوس بن خولي", en: "Aws ibn Khawli" }, note: "أسند جسد النبي إلى صدره عند الغسل" }
 - { id: person/abu-talha-zayd-ibn-sahl, label: { ar: "أبو طلحة زيد بن سهل", en: "Abu Talha Zayd ibn Sahl" }, note: "الأنصاري الذي رفع فراش النبي وحفر تحته فجُعل القبر لحداً" }
 - { id: person/sarra-bint-nabhan, label: { ar: "سرّاء بنت نبهان", en: "Sarra' bint Nabhan" }, note: "راوية خطبة يوم الرؤوس في أيام التشريق" }
-- { id: person/abd-al-rahman-ibn-abi-bakr, label: { ar: "عبد الرحمن بن أبي بكر", en: "Abd al-Rahman ibn Abi Bakr" }, note: "صاحب السواك الذي أخذته عائشة فلينته للنبي في احتضاره" }
 - { id: person/abu-juhayfa, label: { ar: "أبو جحيفة", en: "Abu Juhayfa" }, class: person, note: "صحابي روى أوصاف النبي — شمائل" }
 - { id: person/abu-l-as-ibn-al-rabi, label: { ar: "أبو العاص بن الربيع", en: "Abu al-As ibn al-Rabi'" }, class: person, note: "زوج زينب بنت النبي؛ ابن خالة لها" }
 - { id: person/khunays-ibn-hudhafa, label: { ar: "خُنيس بن حذافة", en: "Khunays ibn Hudhafa" }, class: person, note: "زوج حفصة بنت عمر الأول؛ استشهد ببدر أو توفي بعده" }
@@ -166,8 +155,6 @@
 - { id: person/al-nadr-ibn-kinana, label: { ar: "النضر بن كنانة", en: "al-Nadr ibn Kinana" } }
 - { id: person/kinana-ibn-khuzayma, label: { ar: "كنانة بن خزيمة", en: "Kinana ibn Khuzayma" } }
 - { id: person/khuzayma-ibn-mudrika, label: { ar: "خزيمة بن مدركة", en: "Khuzayma ibn Mudrika" } }
-- { id: person/mudrika-ibn-ilyas, label: { ar: "مدركة بن إلياس", en: "Mudrika ibn Ilyas" } }
-- { id: person/ilyas-ibn-mudar, label: { ar: "إلياس بن مضر", en: "Ilyas ibn Mudar" } }
 - { id: person/mudar-ibn-nizar, label: { ar: "مضر بن نزار", en: "Mudar ibn Nizar" } }
 - { id: person/nizar-ibn-maad, label: { ar: "نزار بن معد", en: "Nizar ibn Ma'add" } }
 - { id: person/maad-ibn-adnan, label: { ar: "معد بن عدنان", en: "Ma'add ibn Adnan" } }

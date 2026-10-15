@@ -1,0 +1,25 @@
+id: person/abd-al-aziz-uthmani
+class: person
+label: { ar: "عبد العزيز" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزيز بن محمود الثاني" }
+gender: male
+roles: [ruler]
+born: { edtf: "1830~", calendar: julian, precision: year, status: tradition, note: "مشتق." }
+died: { edtf: "1876", hijri: "1293", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "عُزل ثم قُتل عام ١٢٩٣هـ/١٨٧٦م." }
+summary:
+  ar: "السلطان عبد العزيز بن محمود الثاني (١٢٧٧–١٢٩٣هـ/١٨٦١–١٨٧٦م)؛ عُزل ثم قُتل عام ١٢٩٣هـ/١٨٧٦م في انقلاب دبّره رجال الدولة، وهذا أمر معروف تاريخياً ومدوَّن في الوثائق {cite:dawlat-uthmaniyya-salabi p. 394-395}."
+  en: "Abdülaziz (r. 1277–1293/1861–1876) — deposed and then killed in the 1876 palace coup, 'a matter known to history and recorded in the documents' {cite:dawlat-uthmaniyya-salabi p. 394-395}."
+wings: [people, time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/mahmud-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/abd-al-majid-i-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 394-395"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-6
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
