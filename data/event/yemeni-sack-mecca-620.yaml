@@ -1,0 +1,29 @@
+id: event/yemeni-sack-mecca-620
+class: event
+kind: raid
+label: { ar: "نهب عسكر اليمن مكة سنة 620هـ", en: "The Yemeni army's sack of Mecca (620 AH)" }
+summary:
+  ar: "في سنة عشرين وستمائة سار الملك المسعود أتسز بن الملك الكامل صاحب اليمن إلى مكة وصاحبها حينئذٍ الحسن بن قتادة الذي كان أساء إلى الأشراف والمماليك الذين كانوا لأبيه فتفرقوا عنه، فنهبها عسكره إلى العصر، ويحدث ابن الأثير عن بعض المجاورين المتأهلين أنهم نهبوها حتى أخذوا الثياب عن الناس وأفقروهم، وأمر صاحب اليمن أن ينبش قبر قتادة ويحرق فنبشوه فظهر التابوت والناس ينظرون فلم يروا فيه شيئاً، فعلموا حينئذٍ أن الحسن دفن أباه سراً — وكان الحسن قد قتل أباه وأخاه وعمه لأجل الملك فذاق عاقبة قطيعة الرحم وأزال الله عنه ما قتل لأجله {cite:kamil-ibn-al-athir p. 435-436}."
+  en: "620: al-Malik al-Mas'ud Atsiz ibn al-Kamil — the Ayyubid sultan of Yemen — reached Mecca, whose new sharif Hasan ibn Qatada had alienated his father's ashraf and mamluks; the army plundered the sanctuary 'until they took the clothes off people and beggared them'. Atsiz ordered Qatada's grave exhumed and burnt — and the coffin proved empty, exposing that Hasan had secretly buried the father he had strangled. Ibn al-Athir moralises: he lost this world and the next for the kingship he killed for {cite:kamil-ibn-al-athir p. 435-436}."
+date:
+  start: { hijri: "0620", edtf: "1223", calendar: julian, precision: year, status: tradition, note: "سنة ٦٢٠هـ {cite:kamil-ibn-al-athir p. 435-436}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/al-masud-atsiz-yemen
+  role: "صاحب اليمن الذي نهب عسكره مكة وأمر بنبش قبر قتادة"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/hasan-ibn-qatada
+  role: "شريف مكة المنهوبة ملكه"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people, place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+themes: [sacred-space-and-pilgrimage]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 435-436"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-15
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
