@@ -1,0 +1,22 @@
+id: event/hilf-al-mutayyibin
+class: event
+kind: treaty
+label: { ar: "حلف المطيبين والأحلاف" }
+summary:
+  ar: "انقسام قريش حزبين إذ رأى بنو عبد مناف — هاشم وعبد شمس والمطلب ونوفل — أنهم أحق بالحجابة والسقاية والرفادة والندوة واللواء من بني عبد الدار لشرفهم، فتفرقت قريش: اجتمع بنو أسد بن عبد العزى وبنو زهرة وبنو تيم وبنو الحارث بن فهر مع بني عبد مناف، واجتمع بنو مخزوم وسهم وجمح وعدي مع بني عبد الدار، وخرجت عامر بن لؤي ومحارب بن فهر فلم يكونوا مع فريق؛ فعقد كل فريق حلفاً ألا يتخاذلوا ولا يسلم بعضهم بعضاً ما بل بحر صوفة، فأخرجت بنو عبد مناف جفنة مملوءة طيباً فوضعوها في المسجد وغمسوا أيديهم فيها وتعاقدوا ومسحوا الكعبة توكيداً على أنفسهم فسموا المطيبين، وتعاقد بنو عبد الدار ومن معهم عند الكعبة فسموا الأحلاف، ثم تصافوا للقتال فتداعوا للصلح على أن يعطوا بني عبد مناف السقاية والرفادة وتكون الحجابة واللواء والندوة لبني عبد الدار فاصطلحوا، وثبت كل قوم مع من حالفوا حتى جاء الإسلام فقال رسول الله ما كان من حلف في الجاهلية فإن الإسلام لم يزده إلا شدة ولا حلف في الإسلام، وولي السقاية والرفادة هاشم بن عبد مناف لأن عبد شمس كان كثير الأسفار قليل المال {cite:kamil-ibn-al-athir p. 337-338}."
+  en: "The pact of the Mutayyibin and the Ahlaf: Quraysh's split over the custodial offices of Qusayy — Banu Abd Manaf with Asad, Zuhra, Taym and Banu al-Harith ibn Fihr bound themselves by dipping their hands in a perfume-filled bowl and stroking the Ka'ba (hence 'the perfumed'), against the Confederates of Abd al-Dar with Makhzum, Sahm, Jumah and Adi; peace gave Banu Abd Manaf the siqaya and rifada while the hijaba, liwa and nadwa stayed with Abd al-Dar — the alliance holding into Islam {cite:kamil-ibn-al-athir p. 337-338}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0500~", calendar: julian, precision: century, status: tradition, derived: true, note: "في جيل بني قصي قبل الإسلام." }
+relations:
+  - { type: had_participant, target: group/quraysh, note: "انقسمت بسبب خدمات البيت", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — ذكر حلف المطيبين والأحلاف، ص337-338"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-21
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: person/bahram-chubin
+class: person
+label: { ar: "بهرام جوبين" }
+names:
+  - { value: "بهرام خشنش المعروف بجوبين", kind: full }
+gender: male
+summary:
+  ar: "بهرام خشنش ويعرف بجوبين، سبهبد فارس؛ لما خرج شايه ملك الترك على هرمز بن أنوشروان في ثلاثمائة ألف مقاتل فوصل هراة وباذغيس أرسله هرمز في اثني عشر ألفاً من المقاتلة فواقع شايه فقتله برمية رماها واستباح عسكره، ثم وافاه برمودة بن شايه فهزمه وحصره في بعض الحصون حتى استسلم فأرسله إلى هرمز أسيراً، ثم خاف بهرام ومن معه هرمز فخلعوه وساروا نحو المدائن وأظهروا أن ابنه أبرويز أصلح للملك منه {cite:kamil-ibn-al-athir p. 354}."
+  en: "Bahram Chubin, the Sasanian spahbed: sent by Hormizd IV with twelve thousand picked men against the Turk shah's three hundred thousand, he killed the shah with a single shot, scattered his army, then defeated and captured his son Barmuda; fearing Hormizd afterwards he deposed him in favour of the prince Khusraw Abarwiz {cite:kamil-ibn-al-athir p. 354}."
+roles: [general]
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [persia-central-asia]
+relations:
+  - { type: related_to, target: person/hormizd-iv-ibn-khosrow-i, note: "قائده ثم خلعه", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — ملك هرمز بن أنوشروان، ص354"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-21
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

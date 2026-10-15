@@ -1,0 +1,24 @@
+id: event/zuhayr-bakr-taghlib-war
+class: event
+kind: battle
+label: { ar: "حرب زهير بن جناب على بكر وتغلب" }
+summary:
+  ar: "حرب زهير بن جناب الكلبي على بكر وتغلب ابني وائل؛ كان أبرهة لما طلع إلى نجد أتاه زهير فأكرمه وفضله على من أتاه من العرب ثم أمره على بكر وتغلب فوليهم، فلما أصابتهم سنة اشتد عليهم ما يطلب منهم من الخراج فأقام بهم زهير في الحرب ومنعهم من النجعة حتى يؤدوا ما عليهم فكادت مواشيهم تهلك، فاعتمد ابن زيابة أحد بني تيم الله بن ثعلبة بالسيف على بطن زهير وهو نائم حتى خرج من ظهره وسلمت أمعاؤه وما في بطنه، وعلم زهير أنه قد سلم فلم يتحرك لئلا يجهز عليه، وانصرف التيمي فأعلمهم أنه قتل زهيراً، فأمر زهير أصحابه أن يظهروا أنه ميت ويستأذنوا بكراً وتغلب في دفنه فدفنوا ثياباً ملفوفة ثم ساروا مجدين إلى قومه، فجمع الجموع وغزا بكراً وتغلب {cite:kamil-ibn-al-athir p. 378}."
+  en: "Zuhayr ibn Janab's war on Bakr and Taghlib: set over them as Abraha's tax-collector in a famine year, he pressed them until their herds nearly died — whereupon Ibn Ziyaba the Taym Allah drove a sword clean through the sleeping Zuhayr without killing him, and Zuhayr had his men stage a mock burial of bundled clothes with the tribes' leave, then marched on them {cite:kamil-ibn-al-athir p. 378}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "في زمان أبرهة الأشرم قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/zuhayr-ibn-janab-al-kalbi, role: "أمير الخراج لأبرهة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-bakr, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — حرب زهير بن جناب، ص378"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-21
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

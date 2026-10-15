@@ -1,0 +1,23 @@
+id: event/zuhayr-ghatafan-haram-war
+class: event
+kind: battle
+label: { ar: "حرب زهير بن جناب على حرم غطفان" }
+summary:
+  ar: "حرب زهير بن جناب الكلبي على غطفان؛ كان سببها أن بني بغيض بن ريث بن غطفان حين عزوا وأثروا بعد فتكهم بصداء قبيلة من مذحج قالوا لنتخذن حرماً مثل مكة لا يقتل صيده ولا يهاج عائذه فبنوا حرماً ووليه بنو مرة بن عوف، فلما بلغ ذلك زهير بن جناب — وكان يدعى الكاهن لصحة رأيه — قال والله لا يكون ذلك أبداً وأنا حي ولا أخلي غطفان تتخذ حرماً أبداً، فغزا بهم غطفان فقاتلهم أشد قتال فظفر بهم وأخذ فارساً منهم في حرمهم فقتله وعطّل ذلك الحرم، ثم منّ على غطفان ورد النساء وأخذ الأموال {cite:kamil-ibn-al-athir p. 378}."
+  en: "Zuhayr ibn Janab's war on Ghatafan's rival sanctuary: when Banu Bughayd grew mighty they vowed to found a haram like Mecca's — its game unslain, its refuge unassailed — with Banu Murra ibn Awf as wardens; Zuhayr 'the kahin' swore Ghatafan would never have a haram while he lived, broke them in battle, killed a horseman inside the sanctuary and abolished it, then spared Ghatafan and returned their women {cite:kamil-ibn-al-athir p. 378}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام العرب قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/zuhayr-ibn-janab-al-kalbi, role: "الغازي", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ghatafan, role: "المقاتَلون", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — حرب زهير بن جناب، ص378"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-21
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

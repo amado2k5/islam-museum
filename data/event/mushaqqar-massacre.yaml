@@ -1,0 +1,25 @@
+id: event/mushaqqar-massacre
+class: event
+kind: massacre
+label: { ar: "قتل تميم بالمشقر" }
+summary:
+  ar: "مذبحة بني تميم بحصن المشقر؛ أرسل وهرز بأموال وطرف من اليمن إلى كسرى فلما كانت ببلاد تميم دعا صعصعة بن ناجية المجاشعي — جد الفرزدق — بني تميم إلى الوثوب عليها فأبوا ثم وثبوا عليها وأخذوها، وأصاب رجل من بني صليت يقال له النطف خرجاً فيه جوهر فقيل «أصاب فلان كنز النطف» مثلاً، وصار أصحاب العير إلى هوذة بن علي الحنفي فكساهم وحملهم وسار معهم إلى كسرى فأعجب به ودعا بعقد من در فعُقد على رأسه فسُمي ذا التاج، وقال لكسرى عن تميم لا بيننا إلا الموت، فأشاروا عليه أن يرسل إلى عامله بالبحرين أزاد فيروز بن جشيش الذي سمته العرب المكعبر لأنه كان يقطع الأيدي والأرجل فأمره بقتل بني تميم، فنادى مناديه ليحضر من كان بهجر من بني تميم إذ الملك أمر لهم بميرة وطعام، فحضروا أيام اللقاط فلما دخلوا المشقر قتل رجالهم واستبقى غلمانهم فجعلهم في السفن وعبر بهم إلى فارس، وقتل يومئذ قعنب الرياحي وكان فارس ربيعة، واستوهب هوذة من المكعبر مائة أسير فأطلقهم {cite:kamil-ibn-al-athir p. 349}."
+  en: "The al-Mushaqqar massacre of Banu Tamim: after Tamim — urged on by Sa'sa'a ibn Najiya, al-Farazdaq's grandfather — plundered Khusraw's Yemeni tax convoy, Khusraw had his Bahrayn governor Azad Firuz 'al-Muka'bbir' (the hand-and-foot cutter) lure Tamim into the fort at Hajar with a promise of provisions; the men were killed, the boys shipped to Persia, and Hawdha ibn Ali — freshly crowned 'dhu al-taj' by Khusraw — begged a hundred captives and freed them {cite:kamil-ibn-al-athir p. 349}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "في عهد كسرى أنوشروان قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/al-mukabbir-azad-firuz, role: "عامل كسرى بالبحرين، صاحب المذبحة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-tamim, role: "المقتولون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/sasaa-ibn-najiya, role: "الحاث على أخذ الأموال", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/hawdha-ibn-ali-al-hanafi, role: "وسط الكسرى واستوهب مائة أسير", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص349"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-21
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

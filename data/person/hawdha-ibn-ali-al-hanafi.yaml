@@ -1,0 +1,24 @@
+id: person/hawdha-ibn-ali-al-hanafi
+class: person
+label: { ar: "هوذة بن علي الحنفي" }
+names:
+  - { value: "هوذة بن علي الحنفي ذو التاج", kind: full }
+gender: male
+summary:
+  ar: "هوذة بن علي الحنفي صاحب اليمامة، لُقب ذا التاج لأن كسرى دعا بعقد من در فعقد على رأسه؛ اصحب أصحاب العير إلى كسرى بعد واقعة أموال وهرز وكان في إذاعة أمر بني تميم إليه فقال لكسرى لا بيننا إلا الموت، واستوهب من المكعبر عامل البحرين مائة أسير من بني تميم يوم المشقر فأطلقهم {cite:kamil-ibn-al-athir p. 349}."
+  en: "Hawdha ibn Ali of Banu Hanifa, lord of al-Yamama, surnamed dhu al-taj for the pearl-diadem Khusraw bound on his head; he brought the plundered convoy's owners to Khusraw, declared of Tamim 'only death lies between us', yet begged a hundred Tamimi captives at al-Mushaqqar and freed them {cite:kamil-ibn-al-athir p. 349}."
+roles: [emir]
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/al-yamama, sources: [source/kamil-ibn-al-athir] }
+  - { type: member_of, target: group/banu-hanifa, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص349"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-21
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

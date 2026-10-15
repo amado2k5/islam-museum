@@ -1,0 +1,23 @@
+id: person/sasaa-ibn-najiya
+class: person
+label: { ar: "صعصعة بن ناجية" }
+names:
+  - { value: "صعصعة بن ناجية المجاشعي", kind: full }
+gender: male
+summary:
+  ar: "صعصعة بن ناجية المجاشعي، جد الفرزدق الشاعر؛ دعا بني تميم إلى الوثوب على أموال وهرز المارّة ببلادهم إلى كسرى فلما أبوا أنذرهم وثوب بني وائل عليها فوثبوا عليها وأخذوها {cite:kamil-ibn-al-athir p. 349}."
+  en: "Sa'sa'a ibn Najiya al-Mujashi'i, grandfather of the poet al-Farazdaq; it was he who urged Tamim to fall on Wahrz's convoy of gifts bound for Khusraw {cite:kamil-ibn-al-athir p. 349}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-tamim, sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/farazdaq, note: "جدّه", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص349"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-21
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
