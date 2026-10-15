@@ -1,0 +1,22 @@
+id: person/ibn-jama-a-badr-al-din
+class: person
+label: { ar: "ابن جماعة بدر الدين محمد بن إبراهيم", en: "Ibn Jama'a, Badr al-Din Muhammad ibn Ibrahim" }
+names:
+  - { kind: full, lang: ar, value: "بدر الدين محمد بن إبراهيم بن سعد الله بن جماعة" }
+gender: male
+roles: [jurist, muhaddith]
+traditions: [sunni]
+born: { edtf: "1241", hijri: "0639", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1332", hijri: "0733", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه شافعي ومحدث ونحوي، من كبار علماء القاهرة ودمشق في عصره."
+  en: "A Shafi'i jurist, hadith scholar and grammarian, among the leading scholars of Cairo and Damascus in his time."
+wings: [people, words]
+themes: [development-of-law-theology-institutions, scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 392, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص392", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

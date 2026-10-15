@@ -1,0 +1,22 @@
+id: person/amr-ibn-dinar
+class: person
+label: { ar: "عمرو بن دينار", en: "Amr ibn Dinar" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن دينار أبو محمد الجمحي المكي الأثرم" }
+gender: male
+roles: [muhaddith, scholar]
+traditions: [sunni]
+born: { edtf: "0666", hijri: "0046", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0743", hijri: "0126", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أعلام التابعين، وشيخ الحرم المكي في عصره، ومن رواة الحديث الكبار."
+  en: "One of the senior Successors, and the shaykh of the Meccan sanctuary in his time; among the great transmitters of hadith."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 422, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص422", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
