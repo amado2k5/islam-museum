@@ -1,0 +1,22 @@
+id: person/abd-al-ghani-ibn-said-al-azdi
+class: person
+label: { ar: "عبد الغني بن سعيد الأزدي", en: "Abd al-Ghani ibn Sa'id al-Azdi" }
+names:
+  - { kind: full, lang: ar, value: "أبو محمد عبد الغني بن سعيد بن علي الأزدي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0941~", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1018", hijri: "0409", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "حافظ للحديث من أهل مصر، أسرته معروفة بالحديث والرواية."
+  en: "Hadith memoriser of Egypt, from a family known for hadith transmission."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 508, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص508", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
