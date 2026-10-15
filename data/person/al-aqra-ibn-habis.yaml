@@ -3,23 +3,30 @@ class: person
 label: { en: "al-Aqra' ibn Habis al-Tamimi", ar: "الأقرع بن حابس التميمي" }
 names:
   - { kind: full, lang: ar, value: "الأقرع بن حابس بن عقال بن محمد المجاشعي الدارمي التميمي" }
+  - { kind: alternate, lang: ar, value: "الأقرع بن حابس، أحد بني دارم من مالك (وفي نسختين: أحد بني مالك بن دارم بن مالك)" }
 gender: male
 roles: [companion, tribal-leader]
 traditions: [sunni]
 summary:
-  en: "A paramount chieftain and arbitrator of Banu Tamim in Najd; given one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum to reconcile his tribe, he became a loyal Companion and participated in the early Islamic conquests."
-  ar: "سيد بني تميم وحَكَمُهم في الجاهلية؛ أعطاه النبي مئة بعير بالجعرانة في سهم المؤلفة قلوبهم لتثبيت قومه، فأسلم وحسن إسلامه وشهد الفتوح الإسلامية."
+  en: "A paramount chieftain and arbitrator of Banu Tamim in Najd; given one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, he witnessed the conquest of Mecca, Hunayn and al-Ta'if with the Prophet, came with the Tamim delegation in 9 AH and pronounced that the Muslims' orator and poet surpassed Tamim's, after which the delegation accepted Islam; he later took part in the early conquests."
+  ar: "سيد بني تميم وحَكَمُهم في الجاهلية؛ أعطاه النبي مئة بعير بالجعرانة في سهم المؤلفة قلوبهم، وشهد معه فتح مكة وحنيناً والطائف، ثم جاء مع وفد بني تميم سنة 9هـ وحكم أن خطيب المسلمين أخطب من خطيبهم وشاعرهم أشعر من شاعرهم فأسلم الوفد؛ وشهد الفتوح الإسلامية."
 wings: [people]
 themes: [reconciliation-and-unity, converts-and-leavers, battles]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia, persia-central-asia]
 story_roles:
   - { role: convert, status: tradition, note: "من سادات نجد الذين تألفهم النبي بالجعرانة بمائة بعير (ابن هشام 4/136).", sources: [source/ibn-hisham-saqqa] }
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "حكم في مفاخرة وفد بني تميم أن خطيب المسلمين أخطب وشاعرهم أشعر (ابن هشام 4/212).", sources: [source/ibn-hisham-saqqa] }
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح/حنين." }
 relations:
   - { type: member_of, target: group/banu-tamim }
+  - { type: member_of, target: group/banu-darim, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient-leader, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+  - { type: participated_in, target: event/conquest-of-mecca, note: "شهد مع النبي فتح مكة (ص207)", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/siege-of-taif, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-banu-tamim, role: "من أشراف الوفد؛ حكم للمسلمين", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137, 206-212", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
 sources: [source/ibn-hisham-saqqa]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 136–137" }
+status: { review: draft, completeness: 2, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 136–137; extended by Claude Fable 5.1 from pp. 206-212" }

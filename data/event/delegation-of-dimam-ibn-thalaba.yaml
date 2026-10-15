@@ -1,0 +1,23 @@
+id: event/delegation-of-dimam-ibn-thalaba
+class: event
+kind: gathering
+label: { ar: "قدوم ضمام بن ثعلبة وافداً عن بني سعد بن بكر", en: "Dimam ibn Tha'laba comes as the envoy of Banu Sa'd ibn Bakr" }
+summary:
+  ar: "بعث بنو سعد بن بكر ضمام بن ثعلبة إلى النبي، فأناخ بعيره على باب المسجد ودخل فسأل: أيكم ابن عبد المطلب؟ ثم ناشده الله عن كل فريضة: أبعثك الله رسولاً؟ أأمرك أن نعبده وحده ونخلع الأنداد؟ الصلوات الخمس؟ الزكاة والصيام والحج؟ والنبي يجيب: اللهم نعم؛ فشهد الشهادتين ووعد ألا يزيد ولا ينقص، فقال النبي: إن صدق ذو العقيصتين دخل الجنة؛ ورجع فأسلم قومه في يوم واحد. إسناد ابن إسحاق إلى ابن عباس."
+  en: "Banu Sa'd ibn Bakr sent Dimam ibn Tha'laba to the Prophet; he knelt his camel at the mosque door, walked in and asked which of them was Ibn Abd al-Muttalib, then adjured him by God on each duty in turn: did God send you? did He order us to worship Him alone and cast off the idols? the five prayers? zakat, fasting, hajj? and the Prophet answered each time, O God, yes. He testified, promised to add nothing and omit nothing, and the Prophet said: if the man with the two plaits is truthful he will enter Paradise; he went home and his people embraced Islam in a day. Ibn Ishaq's isnad reaches Ibn Abbas."
+wings: [time, people, ideas]
+themes: [converts-and-leavers, worship-and-the-pillars]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: debated, note: "في سياق سنة الوفود عند ابن إسحاق (ص219)؛ وقال الواقدي إنه قدم سنة 5هـ، ورجّح ابن حجر سنة 9هـ عن ابن هشام عن أبي عبيدة (الإصابة ص715).", sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba] }
+relations:
+  - { type: occurred_at, target: place/medina, note: "في مسجد النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/year-of-delegations, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/dimam-ibn-thalaba, role: "وافد بني سعد بن بكر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "المسؤول", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-sad-ibn-bakr, role: "القبيلة الموفِدة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-abbas, role: "راوي الخبر", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 219-221", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/ibn-hisham-saqqa, source/ibn-hajar-isaba, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 219-221" }

@@ -1,0 +1,20 @@
+id: event/death-of-arbad-ibn-qays
+class: event
+kind: death
+label: { ar: "موت أربد بن قيس بالصاعقة", en: "The death of Arbad ibn Qays by lightning" }
+summary:
+  ar: "لما رجع أصحاب أربد إلى أرض بني عامر وسألوه: ما وراءك؟ قال إن محمداً دعاهم إلى عبادة شيء يودّ لو كان عنده ليرميه بالنبل؛ فخرج بعد يوم أو يومين بجمل له فأرسل الله عليه وعلى جمله صاعقة فأحرقتهما. يروي ابن هشام عن زيد بن أسلم عن عطاء بن يسار عن ابن عباس أن آيات من سورة الرعد نزلت في عامر وأربد، ورثاه أخوه لأمه لبيد بقصائد."
+  en: "When Arbad's companions reached Banu Amir's land and asked what news he brought, he said Muhammad had called them to worship something he wished he had at hand to shoot with arrows; a day or two later he went out with a camel and God sent a thunderbolt that burned him and the camel. Ibn Hisham reports from Zayd ibn Aslam, from Ata' ibn Yasar, from Ibn Abbas that verses of sura al-Ra'd were revealed about Amir and Arbad; his maternal brother Labid mourned him in several poems."
+wings: [time, people]
+themes: [health-body-death]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد الرجوع من المدينة بيوم أو يومين، سنة الوفود؛ لا يذكر ابن إسحاق الشهر (ص215).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+relations:
+  - { type: part_of, target: event/assassination-attempt-of-amir-and-arbad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/arbad-ibn-qays, role: "المتوفى", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/labid-ibn-rabia, role: "أخوه لأمه ورثاه", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 215-219", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 215-219" }

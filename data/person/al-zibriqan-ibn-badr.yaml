@@ -2,26 +2,31 @@ id: person/al-zibriqan-ibn-badr
 class: person
 label: { en: "al-Zibriqan ibn Badr", ar: "الزبرقان بن بدر" }
 names:
-  - { kind: full, lang: ar, value: "الزبرقان بن بدر التميمي" }
+  - { kind: full, lang: ar, value: "الزبرقان بن بدر التميمي، أحد بني بهدلة بن عوف بن كعب بن سعد بن زيد مناة بن تميم" }
 gender: male
 roles: [poet, companion]
+traditions: [sunni]
 summary:
-  en: "A Tamimi notable and poet who came among his people's ten chiefs to Medina after Uyayna's raid, declaimed boastfully against Hassan ibn Thabit and was answered; he accepted Islam and was later appointed sadaqa collector over part of Banu Sa'd."
-  ar: "سيد وشاعر من بني تميم؛ جاء في العشرة من رؤساء قومه إلى المدينة إثر سرية عيينة، فأنشد مفاخراً فأجابه حسان بن ثابت على البديهة، فأسلم وولّاه النبي الصدقة على قسم من بني سعد."
+  en: "A Tamimi notable and poet of Banu Bahdala of Sa'd who came among his people's chiefs to Medina in 9 AH and declaimed a boast before the Prophet; Hassan ibn Thabit answered him, al-Aqra' conceded the Muslims' superiority, and he accepted Islam; later sources make him sadaqa collector over part of Banu Sa'd."
+  ar: "سيد وشاعر من بني تميم، أحد بني بهدلة بن عوف من سعد؛ جاء في وفد رؤساء قومه سنة 9هـ وقام فأنشد قصيدته في الفخر بين يدي النبي، فأجابه حسان بن ثابت، وحكم الأقرع بن حابس للمسلمين، فأسلم؛ وتذكر المصادر المتأخرة أن النبي ولّاه الصدقة على قسم من بني سعد."
 wings: [people]
-themes: [converts-and-leavers, skirmishes-raids-expeditions]
+themes: [converts-and-leavers, skirmishes-raids-expeditions, literature]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: poet, status: tradition, note: "شاعر وفد بني تميم العشرة؛ فاخر فأجابه حسان (الرحيق ص426).", sources: [source/mubarakpuri-raheeq] }
-  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "أسلم مع وفد بني تميم بعد مبارزة الخطابة والشعر.", sources: [source/mubarakpuri-raheeq] }
+  - { role: poet, status: tradition, note: "شاعر وفد بني تميم؛ فاخر فأجابه حسان (ابن هشام ص208-209؛ الرحيق ص426).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "أسلم مع وفد بني تميم بعد مبارزة الخطابة والشعر.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد (الرحيق ص425).", sources: [source/mubarakpuri-raheeq] }
 faith:
-  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
+  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: member_of, target: group/banu-tamim }
+  - { type: participated_in, target: event/delegation-of-banu-tamim, role: "شاعر الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/zibriqan-boast-poem, sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/zibriqan-second-boast, note: "النسبة من ابن هشام عن بعض علماء الشعر من بني تميم", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/sariyya-of-uyayna-to-banu-tamim, role: poet-of-the-tamim-delegation, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
-  - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 425-426" }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-212; al-Raheeq al-Makhtum pp. 425-426", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 425-426; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 206-212" }

@@ -1,0 +1,22 @@
+id: work/zibriqan-boast-poem
+class: work
+kind: poem
+label: { ar: "قصيدة الزبرقان بن بدر في الفخر بقومه بين يدي النبي", en: "Al-Zibriqan ibn Badr's boasting poem before the Prophet" }
+summary:
+  ar: "قصيدة الفخر التي قام بها الزبرقان بن بدر في مفاخرة وفد بني تميم بمسجد النبي سنة 9هـ: نحن الكرام، منا الملوك، نُطعم عند القحط، ونُفاخر فنغلب. أجابه حسان بن ثابت. يثبت ابن هشام روايتين لبعض ألفاظها رواهما له بعض بني تميم."
+  en: "The boast al-Zibriqan ibn Badr declaimed in the Banu Tamim delegation's contest at the Prophet's mosque in 9 AH: we are the noble, ours are the kings, we feed in drought and win every boast. Hassan ibn Thabit answered it. Ibn Hisham records two variant readings he heard from men of Tamim."
+genre: [poetry]
+made: { by_muslims: false, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/al-zibriqan-ibn-badr]
+language: language/arabic
+composed: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "سنة الوفود عن أبي عبيدة (ص205)", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+wings: [words]
+themes: [literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/delegation-of-banu-tamim, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 208-209", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 208-209" }

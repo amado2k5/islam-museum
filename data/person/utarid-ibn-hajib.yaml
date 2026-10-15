@@ -2,24 +2,28 @@ id: person/utarid-ibn-hajib
 class: person
 label: { en: "Utarid ibn Hajib", ar: "عُطَارِد بن حاجب" }
 names:
-  - { kind: full, lang: ar, value: "عطارد بن حاجب التميمي" }
+  - { kind: full, lang: ar, value: "عطارد بن حاجب بن زرارة بن عدس التميمي، أحد بني دارم بن مالك بن حنظلة بن مالك بن زيد مناة بن تميم" }
 gender: male
-roles: []
+roles: [companion]
+traditions: [sunni]
 summary:
-  en: "The orator whom the chiefs of Banu Tamim put forward in the boasting contest at the Prophet's mosque in 9 AH; Thabit ibn Qays ibn Shammas answered him, and al-Aqra' ibn Habis judged the Muslims' orator superior — whereupon the delegation accepted Islam."
-  ar: "خطيب وفد بني تميم العشرة الذين قدموا المدينة إثر سرية عيينة سنة 9هـ؛ قدّموه للمفاخرة فأجابه ثابت بن قيس بن شماس خطيب الإسلام، فقال الأقرع بن حابس: خطيبه أخطب من خطيبنا، فأسلموا."
+  en: "The orator at the head of the Banu Tamim notables who came to the Prophet in 9 AH; he boasted of his people as kings of the East, Thabit ibn Qays ibn Shammas answered him, and al-Aqra' ibn Habis judged the Muslims' orator superior, whereupon the delegation accepted Islam."
+  ar: "خطيب وفد بني تميم ورأسه سنة 9هـ؛ قدم في أشراف قومه على النبي فنادوه من وراء حجراته، ثم خطب يفخر بأن قومه ملوك وأعز أهل المشرق، فأجابه ثابت بن قيس بن الشماس خطيب الأنصار، وقال الأقرع بن حابس: خطيبه أخطب من خطيبنا، فأسلموا."
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631" }, status: tradition, note: "خطيب وفد بني تميم (الرحيق ص425-426).", sources: [source/mubarakpuri-raheeq] }
-  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "أسلم مع وفد رؤساء بني تميم.", sources: [source/mubarakpuri-raheeq] }
+  - { role: interlocutor, toward: person/muhammad, start: { edtf: "0631" }, status: tradition, note: "خطيب وفد بني تميم (ابن هشام ص207؛ الرحيق ص425-426).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "أسلم مع وفد رؤساء بني تميم.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 faith:
-  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
+  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: member_of, target: group/banu-tamim }
+  - { type: member_of, target: group/banu-darim, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-banu-tamim, role: "رأس الوفد وخطيبه", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/sariyya-of-uyayna-to-banu-tamim, role: orator-of-the-tamim-delegation, sources: [source/mubarakpuri-raheeq] }
-  - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 425-426" }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-208; al-Raheeq al-Makhtum pp. 425-426", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 425-426; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 206-208" }

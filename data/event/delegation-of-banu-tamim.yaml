@@ -1,0 +1,32 @@
+id: event/delegation-of-banu-tamim
+class: event
+kind: gathering
+label: { ar: "قدوم وفد بني تميم ومفاخرتهم النبي", en: "The delegation of Banu Tamim and the boasting contest" }
+summary:
+  ar: "قدم عطارد بن حاجب في أشراف بني تميم على النبي سنة 9هـ، ومعهم الأقرع بن حابس والزبرقان بن بدر وعمرو بن الأهتم والحتات بن يزيد وقيس بن عاصم وغيرهم، وعيينة بن حصن معهم؛ نادوه من وراء حجراته، ثم فاخروه بخطيبهم وشاعرهم، فأجاب ثابت بن قيس عطارداً وأجاب حسان الزبرقان، فحكم الأقرع أن خطيب المسلمين أخطب وشاعرهم أشعر، فأسلموا وأجازهم النبي؛ ونزل فيهم أول سورة الحجرات."
+  en: "Utarid ibn Hajib led the notables of Banu Tamim to the Prophet in 9 AH, with al-Aqra' ibn Habis, al-Zibriqan ibn Badr, Amr ibn al-Ahtam, al-Hutat ibn Yazid, Qays ibn Asim and others, and Uyayna ibn Hisn with them. They called him from behind his apartments, then challenged him to a boasting contest; Thabit ibn Qays answered Utarid and Hassan answered al-Zibriqan, al-Aqra' conceded that the Muslims' orator and poet were better, and they embraced Islam and were given gifts. The opening of sura al-Hujurat was revealed about them."
+wings: [time, people, words]
+themes: [converts-and-leavers, literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "سنة الوفود؛ قال ابن هشام: حدثني أبو عبيدة أن ذلك في سنة تسع (ص205). وتذكر المصادر المتأخرة أن قدوم الوفد كان إثر سرية عيينة إلى بني تميم في المحرم سنة 9هـ (الرحيق ص425-426).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/medina, note: "في المسجد ومن وراء حجرات النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/year-of-delegations, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "المُفاخَر، أذن لخطيبهم وشاعرهم وأجازهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-tamim, role: "الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/utarid-ibn-hajib, role: "رأس الوفد وخطيبه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-aqra-ibn-habis, role: "من أشراف الوفد؛ حكم للمسلمين", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-zibriqan-ibn-badr, role: "شاعر الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/amr-ibn-al-ahtam, role: "أصغر الوفد سناً؛ خُلّف في الإبل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-hutat-ibn-yazid, role: "من الوفد (الحبحاب في رواية ابن إسحاق)", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/nuaym-ibn-yazid-al-tamimi, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/qays-ibn-al-harith-al-tamimi, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/qays-ibn-asim, role: "من الوفد؛ حقّر عمرو بن الأهتم عند النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/uyayna-ibn-hisn, role: "قدم مع الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/thabit-ibn-qays, role: "خطيب المسلمين، أجاب عطارداً بأمر النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/hassan-ibn-thabit, role: "شاعر المسلمين، أجاب الزبرقان", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-213", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 206-213" }

@@ -44,6 +44,19 @@ relations:
   target: place/kufa
   sources:
   - source/ibn-hajar-isaba
+- type: sibling_of
+  target: person/arbad-ibn-qays
+  note: أخوه لأمه (ابن هشام ص215)
+  sources:
+  - source/ibn-hisham-saqqa
+- type: authored
+  target: work/labid-elegies-for-arbad
+  sources:
+  - source/ibn-hisham-saqqa
+- type: member_of
+  target: group/banu-amir-ibn-sasaa
+  sources:
+  - source/ibn-hisham-saqqa
 issue:
   ar: متى مات لبيد بن ربيعة وكم عاش في الإسلام؟
   en: When did Labid ibn Rabi'a die, and how long did he live as a Muslim?
@@ -80,6 +93,7 @@ provenance:
   run: isaba-batch-10
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 2

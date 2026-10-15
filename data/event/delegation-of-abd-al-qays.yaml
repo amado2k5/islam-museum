@@ -10,12 +10,14 @@ themes: [converts-and-leavers, peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "الوفادة الثانية في سنة الوفود عند ابن إسحاق (ص221) والرحيق (ص445).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: group/abd-al-qays }
-  - { type: had_participant, target: person/jarud-ibn-al-ala }
+  - { type: had_participant, target: person/al-jarud-al-abdi, role: "رأس الوفد الثاني؛ كان نصرانياً فأسلم", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/al-ashajj-al-asri }
   - { type: part_of, target: event/year-of-delegations }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 221-222; al-Raheeq al-Makhtum p. 445", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 221-222" }

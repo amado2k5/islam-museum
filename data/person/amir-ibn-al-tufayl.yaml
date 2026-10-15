@@ -2,9 +2,9 @@ id: person/amir-ibn-al-tufayl
 class: person
 label: { en: "Amir ibn al-Tufayl", ar: "عامر بن الطفيل" }
 names:
-  - { kind: full, lang: ar, value: "عامر بن الطفيل بن مالك العامري" }
+  - { kind: full, lang: ar, value: "عامر بن الطفيل بن مالك العامري، من بني جعفر بن كلاب من بني عامر بن صعصعة" }
 gender: male
-died: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "مات بغدّة في عنقه في بيت امرأة سلولية فيما ترويه السيرة بعد مؤامرة الوفد.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+died: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "مات بطاعون أو غدّة في عنقه في بيت امرأة من بني سلول في طريق رجوع الوفد (ابن هشام ص214؛ الرحيق ص453).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 roles: [poet, politician]
 summary:
   en: "Chief and horseman of Banu Amir ibn Sa'sa'a, remembered as the betrayer of the Bi'r Ma'una envoys; within the 9 AH delegation he plotted with Arbad ibn Qays to strike the Prophet and died shortly after of a throat swelling."
@@ -17,8 +17,9 @@ story_roles:
   - { role: military-opponent, toward: person/muhammad, status: historical, note: "غدر بسرية بئر معونة وقتل الدعاة فيها.", sources: [source/mubarakpuri-raheeq] }
   - { role: opponent, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "حاول الفتك بالنبي مع أربد بن قيس ثم عرض عليه التخيير بين أهل السهل والمدر أو الخلافة أو الغزو بغطفان.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
 relations:
-  - { type: member_of, target: group/banu-amir }
-  - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "صاحب المؤامرة", sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/banu-amir-ibn-sasaa, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "صاحب المؤامرة", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/death-of-amir-ibn-al-tufayl, role: "المتوفى", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/incident-of-bir-mauna, role: "الغادر بالدعاة", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/muruj-al-dhahab, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

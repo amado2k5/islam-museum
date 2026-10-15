@@ -1,14 +1,38 @@
 id: person/al-jarud-al-abdi
 class: person
+aliases: [person/jarud-ibn-al-ala]
 label: { ar: "الجارود العبدي", en: "al-Jarud al-Abdi" }
+names:
+  - { kind: full, lang: ar, value: "الجارود بن عمرو بن حنش العبدي (كذا عند ابن إسحاق)" }
+  - { kind: alternate, lang: ar, value: "الجارود بن بشر بن المعلى (كذا عند ابن هشام)" }
+  - { kind: alternate, lang: ar, value: "الجارود بن العلاء (كذا في الرحيق المختوم)" }
+gender: male
+roles: [companion, tribal-leader]
+traditions: [sunni]
 summary:
-  ar: "الجارود العبدي؛ أمر عمر سنة ٢٢ أن يوجه إلى قلاع فارس."
-  en: "Al-Jarud al-Abdi; in 22h Umar ordered him sent against the fortresses of Fars."
-periods: [period/rashidun]
+  ar: "سيد من عبد القيس كان نصرانياً، قدم في وفد قومه على النبي فسأله: أتضمن لي ديني إن تركته لدينك؟ فقال النبي: نعم أنا ضامن أن قد هداك الله إلى ما هو خير منه، فأسلم وأسلم أصحابه؛ وطلب الحملان فلم يجد، ونهاه النبي عن ركوب ضوال الناس. ثبت على إسلامه حتى مات وقد أدرك الردة، ودعا قومه حين ارتدوا مع الغرور إلى الإسلام. ويذكر البلاذري أن عمر أمر سنة 22هـ أن يوجَّه إلى قلاع فارس."
+  en: "A chief of Abd al-Qays who had been a Christian; he came in his people's delegation and asked the Prophet to guarantee his religion if he left it for Islam. The Prophet answered that he guaranteed God had guided him to something better, and he and his companions embraced Islam; he asked for mounts, there were none, and the Prophet forbade him to ride stray camels. He remained firm in Islam until he died, having lived into the ridda, when he called his people back from apostasy with al-Gharur. Al-Baladhuri adds that in 22 AH Umar ordered him sent against the fortresses of Fars."
+periods: [period/prophetic-era, period/rashidun]
 wings: [people, place, time]
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1 }
+themes: [converts-and-leavers]
+regions: [arabia]
+story_roles:
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كان نصرانياً فأسلم في وفد عبد القيس (ابن هشام ص221).", sources: [source/ibn-hisham-saqqa] }
+  - { role: preacher, start: { edtf: "0632" }, status: tradition, note: "دعا قومه إلى الإسلام حين ارتدوا مع الغرور (ابن هشام ص222).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: christian, basis: tradition, end: { edtf: "0631~" }, note: "«وكان نصرانياً» قال ابن هشام (ص221).", sources: [source/ibn-hisham-saqqa] }
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم على يد النبي وحسن إسلامه (ابن هشام ص221-222).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/abd-al-qays, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-abd-al-qays, role: "رأس الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+  - { type: opposed, target: person/al-gharur-ibn-al-mundhir, note: "دعا قومه إلى الإسلام حين ارتدوا معه (ص222)", sources: [source/ibn-hisham-saqqa] }
+sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High) from Futuh al-Buldan; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 221-222" }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ)؛ سيرة ابن هشام (السقا 1936) ج4 ص221-222"
+  generated_by: "Devin (SWE-2 High); extended by Claude Code"
+  model: "claude-fable-5-1"
+  run: "ibn-hisham-batch-8b"
   extraction_flow: "Apple Vision OCR -> manual extraction"

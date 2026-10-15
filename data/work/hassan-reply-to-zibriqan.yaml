@@ -1,0 +1,24 @@
+id: work/hassan-reply-to-zibriqan
+class: work
+kind: poem
+label: { ar: "قصيدة حسان في الرد على الزبرقان «إن الذوائب من فهر وإخوتهم»", en: "Hassan ibn Thabit's reply to al-Zibriqan, 'The chiefs of Fihr and their brothers'" }
+summary:
+  ar: "قصيدة حسان بن ثابت التي أجاب بها الزبرقان بن بدر في مفاخرة وفد بني تميم؛ روى حسان أنه استُدعي وهو غائب وأنشأ في طريقه أبياتاً ثم قام فأجاب على نحو ما قال الزبرقان. يمدح فيها قريشاً والأنصار بالسنّة المتّبعة والكرم والعفة المذكورة في الوحي والبأس. أنشد ابن هشام بيتاً منها عن أبي زيد برواية أخرى، ويذكر المحققون أنها من قصيدة في أربعة عشر بيتاً."
+  en: "Hassan ibn Thabit's answer to al-Zibriqan ibn Badr in the Banu Tamim contest; Hassan relates that he was summoned while absent and composed lines on the way, then answered in the same vein. It praises Quraysh and the Ansar for the sunna they established, their generosity, the chastity Revelation mentions, and their valour. Ibn Hisham gives one verse in Abu Zayd's reading; the editors note the opening lines belong to a fourteen-verse qasida."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/hassan-ibn-thabit]
+language: language/arabic
+composed: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "سنة الوفود عن أبي عبيدة (ص205)", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+wings: [words]
+themes: [literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: responded_to, target: work/zibriqan-boast-poem, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/delegation-of-banu-tamim, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/ansar, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/quraysh, note: "«الذوائب من فهر»", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 209-211", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 209-211" }

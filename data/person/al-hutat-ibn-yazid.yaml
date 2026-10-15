@@ -1,0 +1,29 @@
+id: person/al-hutat-ibn-yazid
+class: person
+label: { ar: "الحتات بن يزيد المجاشعي", en: "al-Hutat ibn Yazid al-Mujashi'i" }
+names:
+  - { kind: full, lang: ar, value: "الحتات بن يزيد المجاشعي التميمي، أحد بني دارم بن مالك" }
+  - { kind: alternate, lang: ar, value: "الحبحاب بن يزيد (كذا عند ابن إسحاق وفي الإصابة)" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+died: { hijri: "0041~", edtf: "0661~", calendar: julian, precision: decade, status: tradition, derived: true, note: "«فمات الحتات عند معاوية في خلافته» (ابن هشام ص206)؛ خلافة معاوية 41-60هـ، ولا يذكر الكتاب سنة بعينها.", sources: [source/ibn-hisham-saqqa] }
+summary:
+  ar: "من أشراف بني تميم الذين قدموا في وفدهم على النبي سنة 9هـ؛ سمّاه ابن إسحاق الحبحاب بن يزيد وصحّحه ابن هشام إلى الحتات، وهو الذي آخى النبي بينه وبين معاوية بن أبي سفيان، فمات عند معاوية في خلافته وأخذ معاوية ما ترك بهذه الأخوة، فعاتبه الفرزدق ببيتين."
+  en: "A notable of Banu Tamim in the 9 AH delegation; Ibn Ishaq calls him al-Habhab ibn Yazid and Ibn Hisham corrects the name to al-Hutat, the man the Prophet paired in brotherhood with Mu'awiya ibn Abi Sufyan. He died with Mu'awiya during his caliphate, and Mu'awiya took his estate by that brotherhood, for which al-Farazdaq reproached him in two verses."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era, period/rashidun, period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0631~" }, status: tradition, note: "أسلم مع وفد بني تميم بعد المفاخرة (ص212).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم مع وفد بني تميم (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-darim, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-banu-tamim, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: allied_with, target: person/muawiya-ibn-abi-sufyan, note: "آخى النبي بينهما؛ ورث معاوية ما تركه بهذه الأخوة (ص206)", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-207", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 206-207" }

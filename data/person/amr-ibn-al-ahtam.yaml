@@ -1,14 +1,34 @@
 id: person/amr-ibn-al-ahtam
 class: person
 label: { ar: "عمرو بن الأهتم التميمي", en: "Amr ibn al-Ahtam al-Tamimi" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن الأهتم التميمي، أحد بني منقر بن عبيد بن الحارث بن عمرو بن كعب بن سعد بن زيد مناة بن تميم" }
+gender: male
+roles: [companion, poet]
+traditions: [sunni]
 summary:
-  ar: "عمرو بن الأهتم التميمي؛ توجه بالفتح إلى عمر بن الخطاب من ريشهر يقول جئت الإمام بإسراع لأخبره بالحق من خبر العبدي سواد."
-  en: "Amr ibn al-Ahtam al-Tamimi; he carried the Rayshahr victory to Umar, chanting 'I came racing to the Imam to tell him true news of the Abdi, Sawwar'."
-periods: [period/rashidun]
+  ar: "شاعر من بني منقر من تميم؛ قدم في وفد بني تميم على النبي سنة 9هـ وكان أصغرهم سناً فخلّفوه في إبلهم، وحقّره قيس بن عاصم عند النبي فأعطاه النبي مثل ما أعطى القوم، فهجا قيساً ببيتين؛ وفي خلافة عمر حمل إليه بشرى فتح ريشهر فيما يرويه البلاذري."
+  en: "A poet of Banu Minqar of Tamim; he came in the Tamim delegation of 9 AH as its youngest member and was left with the mounts, Qays ibn Asim belittled him before the Prophet, who gave him the same gift as the others, and he lampooned Qays in two verses; in Umar's caliphate he carried the news of the Rayshahr victory, as al-Baladhuri relates."
 wings: [people, place, time]
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1 }
+themes: [converts-and-leavers, literature]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: convert, start: { edtf: "0631~" }, status: tradition, note: "أسلم مع وفد بني تميم (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa] }
+  - { role: poet, status: tradition, note: "هجا قيس بن عاصم ببيتين (ابن هشام ص213).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أسلم مع وفد بني تميم (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }
+  - { type: member_of, target: group/banu-minqar, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-banu-tamim, role: "أصغر الوفد سناً؛ خُلّف في الإبل", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/amr-ibn-al-ahtam-satire-of-qays-ibn-asim, sources: [source/ibn-hisham-saqqa] }
+sources: [source/futuh-buldan-maarif-1407, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High) from Futuh al-Buldan; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 206-213" }
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
+  source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ) ص408؛ سيرة ابن هشام (السقا 1936) ج4 ص206-213"
+  generated_by: "Devin (SWE-2 High); extended by Claude Code"
+  model: "claude-fable-5-1"
+  run: "ibn-hisham-batch-8a"
   extraction_flow: "Apple Vision OCR -> manual extraction"

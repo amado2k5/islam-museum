@@ -1,0 +1,29 @@
+id: person/al-mundhir-ibn-sawa
+class: person
+label: { ar: "المنذر بن ساوى العبدي", en: "al-Mundhir ibn Sawa al-Abdi" }
+names:
+  - { kind: full, lang: ar, value: "المنذر بن ساوى العبدي" }
+gender: male
+roles: [politician]
+traditions: [sunni]
+died: { hijri: "0011~", edtf: "0632~", calendar: julian, precision: year, status: tradition, derived: true, note: "«هلك بعد رسول الله قبل ردة أهل البحرين» (ابن هشام ص222)؛ السنة مستنتجة من موقعه بين وفاة النبي والردة.", sources: [source/ibn-hisham-saqqa] }
+summary:
+  ar: "صاحب البحرين الذي بعث إليه النبي العلاء بن الحضرمي قبل فتح مكة فأسلم وحسن إسلامه، ومات بعد النبي قبل ردة أهل البحرين والعلاء عنده أميراً للنبي عليها."
+  en: "The lord of Bahrayn to whom the Prophet sent al-Ala' ibn al-Hadrami before the conquest of Mecca; he became a good Muslim and died after the Prophet, before the apostasy of Bahrayn, with al-Ala' stationed with him as the Prophet's governor."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: ruler, toward: place/bahrayn, status: tradition, note: "عظيم البحرين الذي كاتبه النبي (ابن هشام ص222؛ الرحيق ص358).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { role: convert, toward: person/muhammad, status: tradition, note: "أسلم فحسن إسلامه (ابن هشام ص222).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, note: "أسلم فحسن إسلامه على يد رسالة النبي مع العلاء بن الحضرمي (ابن هشام ص222).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/abd-al-qays, sources: [source/ibn-hisham-saqqa] }
+  - { type: ruler_of, target: place/bahrayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/islam-of-al-mundhir-ibn-sawa, role: "المسلم", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/letters-to-rulers-and-kings, role: "متلقي كتاب النبي مع العلاء بن الحضرمي", sources: [source/mubarakpuri-raheeq] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 222", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 222" }

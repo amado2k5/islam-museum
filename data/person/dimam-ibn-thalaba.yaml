@@ -40,6 +40,15 @@ relations:
   target: place/kufa
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/banu-sad-ibn-bakr
+  sources:
+  - source/ibn-hisham-saqqa
+- type: participated_in
+  target: event/delegation-of-dimam-ibn-thalaba
+  role: وافد بني سعد بن بكر
+  sources:
+  - source/ibn-hisham-saqqa
 issue:
   ar: في أي سنة قدم ضمام بن ثعلبة على النبي؟
   en: In which year did Dimam ibn Tha'laba come to the Prophet?
@@ -76,6 +85,7 @@ provenance:
   run: isaba-batch-4
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 2

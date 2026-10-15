@@ -20,5 +20,7 @@ faith:
   - { value: sunni, basis: tradition, start: { edtf: "0620~" }, note: "صحابي وقائد ووالي البحرين." }
 relations:
   - { type: participated_in, target: event/letters-to-rulers-and-kings, role: "سفير النبي إلى البحرين", sources: [source/mubarakpuri-raheeq, source/zad-al-maad] }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-sad-tabaqat-bewley]
+  - { type: participated_in, target: event/islam-of-al-mundhir-ibn-sawa, role: "الرسول إلى المنذر ثم الأمير على البحرين", sources: [source/ibn-hisham-saqqa] }
+  - { type: ruler_of, target: place/bahrayn, note: "أمير النبي على البحرين (ابن هشام ص222)", sources: [source/ibn-hisham-saqqa] }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 358–359" }

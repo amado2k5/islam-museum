@@ -4,19 +4,23 @@ kind: other
 label: { en: "The plot of Amir ibn al-Tufayl and Arbad ibn Qays", ar: "مؤامرة عامر بن الطفيل وأربد بن قيس" }
 summary:
   en: "Within the Banu Amir delegation of 9 AH, Amir ibn al-Tufayl engaged the Prophet in talk while Arbad ibn Qays circled behind him and half-drew his sword; the tradition reports that God restrained his hand, and on their return Arbad was struck by lightning and Amir died of a throat swelling."
-  ar: "تآمر عامر بن الطفيل وأربد بن قيس داخل وفد بني عامر سنة 9هـ، فشغل عامر النبي بالكلام ودار أربد خلفه واخترط سيفه شبراً فحبس الله يده فيما ترويه السيرة، وفي رجوعهما أصابت أربداً صاعقة فأحرقته ومات عامر بغدة في عنقه."
+  ar: "تآمر عامر بن الطفيل وأربد بن قيس داخل وفد بني عامر سنة 9هـ: عند ابن إسحاق طلب عامر من النبي أن يخاليه ثلاثاً وهو ينتظر أن يضربه أربد بالسيف فلم يفعل، فتهدده عامر ودعا عليه النبي؛ وفي الرواية المتأخرة دار أربد خلفه واخترط سيفه شبراً فحبس الله يده. وفي رجوعهما مات عامر بغدة في عنقه في بيت امرأة سلولية وأصابت أربداً صاعقة فأحرقته، ونزلت فيهما آيات من سورة الرعد بحسب ابن هشام عن ابن عباس."
 wings: [people]
 themes: [battles, peace-making-and-coexistence]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "ضمن سنة الوفود عند ابن إسحاق (ص213)؛ الرحيق ص453.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina }
-  - { type: had_participant, target: person/amir-ibn-al-tufayl }
-  - { type: had_participant, target: person/arbad-ibn-qays }
-  - { type: had_participant, target: person/muhammad }
-  - { type: had_participant, target: group/banu-amir }
+  - { type: had_participant, target: person/amir-ibn-al-tufayl, role: "صاحب التدبير؛ شغل النبي بالكلام", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/arbad-ibn-qays, role: "المكلَّف بالضرب بالسيف فلم يفعل", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/jabbar-ibn-salma, role: "ثالث رؤساء الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "الوفد (بنو عامر بن صعصعة؛ كان المعرّف السابق يشير خطأً إلى بني عامر بن لؤي)", sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/death-of-amir-ibn-al-tufayl, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/death-of-arbad-ibn-qays, sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: event/year-of-delegations }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 213-215; al-Raheeq al-Makhtum p. 453", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 213-215" }

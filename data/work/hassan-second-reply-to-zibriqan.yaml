@@ -1,0 +1,23 @@
+id: work/hassan-second-reply-to-zibriqan
+class: work
+kind: poem
+label: { ar: "قصيدة حسان «هل المجد إلا السؤدد العود والندى» في الرد على الزبرقان", en: "Hassan ibn Thabit's second reply to al-Zibriqan, 'Is glory anything but ancient lordship and bounty?'" }
+summary:
+  ar: "قصيدة على روي الميم يرويها ابن هشام لحسان جواباً على أبيات الزبرقان الثانية: نصرة الأنصار النبي وإيواؤه، وبذل أبنائهم وبناتهم دونه، وضربهم الناس حتى تتابعوا على دينه، وأنهم ولدوا من قريش عظيمها، ثم نهي بني دارم عن الفخر لأنهم خول للأنصار ما بين ظئر وخادم، ودعوتهم إلى الإسلام."
+  en: "A mim-rhymed poem Ibn Hisham reports as Hassan's answer to al-Zibriqan's second verses: the Ansar's sheltering and defence of the Prophet, their sons and daughters placed before him, their fighting until people followed his religion, their kinship to Quraysh's greatest, then a rebuke to Banu Darim not to boast since they are the Ansar's dependants, and a call to embrace Islam."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/hassan-ibn-thabit]
+language: language/arabic
+wings: [words]
+themes: [literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: responded_to, target: work/zibriqan-second-boast, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/delegation-of-banu-tamim, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/banu-darim, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/ansar, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 211-212", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 211-212" }

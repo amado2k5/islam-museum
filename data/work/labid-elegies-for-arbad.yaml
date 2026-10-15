@@ -1,0 +1,22 @@
+id: work/labid-elegies-for-arbad
+class: work
+kind: poem
+label: { ar: "مراثي لبيد بن ربيعة في أخيه أربد", en: "Labid ibn Rabi'a's elegies for his brother Arbad" }
+summary:
+  ar: "ست مقطوعات يوردها ابن إسحاق للبيد يبكي فيها أخاه لأمه أربد بن قيس بعد موته بالصاعقة: دالية «ما إن تعدّي المنون من أحد»، وميمية «ألا ذهب المحافظ والمحامي» يودّعه فيها بكنيته أبي حريز، ورجز «انع الكريم للكريم أربدا»، ومقطوعة «لن تفنيا خيرات أربد»، ورائية «يذكرني بأربد كل خصم»، وبيتان في من فقدهم من قومه. أثبت ابن هشام أن بعض أبياتها عن أبي عبيدة وعن غير ابن إسحاق."
+  en: "Six pieces Ibn Ishaq gives as Labid's laments for his maternal brother Arbad ibn Qays after his death by lightning: a dal-rhymed poem, a mim-rhymed poem bidding him farewell by his kunya Abu Hurayz, a rajaz, a short piece on his virtues, a ra'-rhymed poem, and two verses on the kinsmen he had lost. Ibn Hisham marks certain verses as from Abu Ubayda or from other than Ibn Ishaq."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/labid-ibn-rabia]
+language: language/arabic
+composed: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد موت أربد في سنة الوفود؛ لا يذكر الكتاب تاريخ النظم.", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [literature, health-body-death]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: person/arbad-ibn-qays, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/death-of-arbad-ibn-qays, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 215-219", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 215-219" }

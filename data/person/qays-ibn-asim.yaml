@@ -2,24 +2,29 @@ id: person/qays-ibn-asim
 class: person
 label: { en: "Qays ibn Asim", ar: "قيس بن عاصم" }
 names:
-  - { kind: full, lang: ar, value: "قيس بن عاصم المنقري التميمي" }
+  - { kind: full, lang: ar, value: "قيس بن عاصم المنقري التميمي، أحد بني منقر بن عبيد بن الحارث، أخو بني سعد" }
 gender: male
 roles: [companion]
+traditions: [sunni]
 summary:
-  en: "A chief of Banu Tamim famed for forbearance; he accepted Islam and was appointed sadaqa collector over part of Banu Sa'd in 9 AH."
-  ar: "سيد من بني تميم اشتُهر بحلمه؛ أسلم وولّاه النبي الصدقة على قسم من بني سعد سنة 9هـ."
+  en: "A chief of Banu Minqar of Tamim famed for forbearance; he came in the Tamim delegation of 9 AH, belittled the young Amr ibn al-Ahtam before the Prophet and was lampooned for it, accepted Islam, and was later appointed sadaqa collector over part of Banu Sa'd."
+  ar: "سيد من بني منقر من تميم اشتُهر بحلمه؛ جاء في وفد بني تميم سنة 9هـ، وحقّر عمرو بن الأهتم عند النبي لأنه كان يبغضه فهجاه عمرو، وأسلم، وولّاه النبي الصدقة على قسم من بني سعد."
 wings: [people]
 themes: [converts-and-leavers]
 periods: [period/prophetic-era]
 regions: [arabia]
 story_roles:
-  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "من سادات تميم المسلمين.", sources: [source/mubarakpuri-raheeq] }
+  - { role: convert, start: { edtf: "0631" }, status: tradition, note: "من سادات تميم المسلمين؛ أسلم مع الوفد (ابن هشام ص212).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { role: official, start: { edtf: "0631" }, status: tradition, note: "مصدّق إلى قسم من بني سعد (الرحيق ص425).", sources: [source/mubarakpuri-raheeq] }
 faith:
-  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
+  - { value: sunni, basis: tradition, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: member_of, target: group/banu-tamim }
+  - { type: member_of, target: group/banu-minqar, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-banu-tamim, role: "من الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: opposed, target: person/amr-ibn-al-ahtam, note: "كان يبغضه فحقّره عند النبي (ص212)", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/dispatch-of-sadaqa-collectors, role: collector-to-a-part-of-banu-sad, sources: [source/mubarakpuri-raheeq] }
-  - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 425" }
+  - { type: converted_under, target: person/muhammad, start: { edtf: "0631" }, sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 206-213; al-Raheeq al-Makhtum p. 425", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum p. 425; extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 206-213" }

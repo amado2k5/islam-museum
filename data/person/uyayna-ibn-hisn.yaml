@@ -7,8 +7,8 @@ gender: male
 roles: [companion, tribal-leader]
 traditions: [sunni]
 summary:
-  en: "A powerful, mercurial chieftain of Banu Fazara in Najd (dubbed 'the foolish chief obeyed by ten thousand swords'); granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, he later faltered during the Ridda wars before repenting and returning to Islam."
-  ar: "سيد بني فزارة وغطفان في نجد؛ قاد الأحزاب يوم الخندق، وأعطاه النبي مئة بعير بالجعرانة تأليفاً لقلبه؛ ارتد مع طليحة ثم أسر وتاب وحسن إسلامه في خلافة أبي بكر وعمر.، وعدّه عمرو بن معد يكرب عند عمر في حرّي العرب الذين يخشى لقاءهم وسماه المسعودي عيينة بن الحارث بن شهاب التميمي {cite:muruj-al-dhahab p. 621}"
+  en: "A powerful, mercurial chieftain of Banu Fazara in Najd (dubbed 'the foolish chief obeyed by ten thousand swords'); he witnessed the conquest of Mecca, Hunayn and al-Ta'if with the Prophet, was granted one hundred camels at al-Ji'rana among al-Mu'allafa Qulubuhum, came with the Banu Tamim delegation in 9 AH, and later faltered during the Ridda wars before repenting and returning to Islam."
+  ar: "سيد بني فزارة وغطفان في نجد؛ قاد الأحزاب يوم الخندق، وشهد مع النبي فتح مكة وحنيناً والطائف، وأعطاه النبي مئة بعير بالجعرانة تأليفاً لقلبه، وقدم مع وفد بني تميم سنة 9هـ؛ ارتد مع طليحة ثم أسر وتاب وحسن إسلامه في خلافة أبي بكر وعمر.، وعدّه عمرو بن معد يكرب عند عمر في حرّي العرب الذين يخشى لقاءهم وسماه المسعودي عيينة بن الحارث بن شهاب التميمي {cite:muruj-al-dhahab p. 621}"
 wings: [people]
 themes: [converts-and-leavers, battles]
 periods: [period/prophetic-era, period/rashidun]
@@ -19,6 +19,10 @@ faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم بعد الفتح ثم تاب بعد الردة." }
 relations:
   - { type: participated_in, target: event/distribution-of-hunayn-spoils, role: recipient-leader, sources: [source/ibn-hisham-saqqa] }
-provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137", generated_by: "Devin", run: "ibn-hisham-batch-3" }
+  - { type: participated_in, target: event/conquest-of-mecca, note: "شهد مع النبي فتح مكة (ص207)", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/battle-of-hunayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/siege-of-taif, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/delegation-of-banu-tamim, role: "قدم مع الوفد", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 136–137, 207", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
 sources: [source/ibn-hisham-saqqa, source/muruj-al-dhahab]
-status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 136–137" }
+status: { review: draft, completeness: 2, generated_by: "Devin; mined from Ibn Hisham juz' 4 pp. 136–137; extended by Claude Fable 5.1 from p. 207" }

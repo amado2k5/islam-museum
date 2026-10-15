@@ -3,6 +3,8 @@ class: person
 label: { en: "Musaylima", ar: "مسيلمة" }
 names:
   - { kind: full, lang: ar, value: "مسيلمة بن حبيب الحنفي" }
+  - { kind: alternate, lang: ar, value: "مسيلمة بن ثمامة، أبو ثمامة (قال ابن هشام)" }
+  - { kind: kunya, lang: ar, value: "أبو ثمامة" }
   - { kind: laqab, lang: ar, value: "مسيلمة الكذاب" }
 gender: male
 born: { edtf: "0580~", calendar: julian, precision: decade, status: tradition, sources: [source/tabari-donner-1993] }
@@ -30,7 +32,8 @@ relations:
   - { type: corresponded_with, target: person/muhammad, start: { edtf: "0630~" }, note: "The sources preserve his letter proposing a partition of prophecy and Muhammad's reply.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
   - { type: fought, target: person/khalid-ibn-al-walid, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
   - { type: participated_in, target: event/battle-of-yamama, role: hanifa-commander, sources: [source/tabari-donner-1993] }
-  - { type: participated_in, target: event/delegation-of-banu-hanifa, role: وفد-member, note: "اختلفت الروايات في شأنه داخل الوفد كما بيّن المباركفوري.", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: participated_in, target: event/delegation-of-banu-hanifa, role: وفد-member, note: "اختلفت الروايات في شأنه داخل الوفد: حضر مستوراً بالثياب أو خُلّف في الرحال (ابن إسحاق ص222-223).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: participated_in, target: event/musaylima-claims-prophethood, role: "مدّعي النبوة", sources: [source/ibn-hisham-saqqa] }
 issue:
   ar: كيف يُقرأ مسيلمة في التراث السني وعند المؤرخين؟
   en: How is Musaylima read in the Sunni tradition and by historians?
@@ -39,9 +42,11 @@ perspectives:
   id: sunni
   summary:
     ar: 'يسمّيه التراث السني «الكذاب»: مدّعي نبوة زائفة ارتدّ قومه معه فقاتلهم أبو بكر.'
+  sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
 - tradition: academic
   id: academic
   summary:
     ar: أما المؤرخون فيقرؤونه زعيمًا دينيًّا قبليًّا حقيقيًّا حاولت اليمامة به حفظ استقلالها عن المركز الجديد في المدينة.
-sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+  sources: [source/watt-1956-medina, source/tabari-donner-1993]
+sources: [source/tabari-donner-1993, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

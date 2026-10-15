@@ -1,0 +1,19 @@
+id: person/jabbar-ibn-salma
+class: person
+label: { ar: "جبار بن سلمى", en: "Jabbar ibn Salma" }
+names:
+  - { kind: full, lang: ar, value: "جبار بن سلمى بن مالك بن جعفر العامري" }
+gender: male
+roles: [tribal-leader]
+summary:
+  ar: "أحد رؤساء وفد بني عامر الثلاثة على النبي سنة 9هـ مع عامر بن الطفيل وأربد بن قيس، كما سمّاه ابن إسحاق؛ لا يذكر له الكتاب دوراً في المؤامرة ولا خبراً بعدها."
+  en: "One of the three chiefs of the Banu Amir delegation to the Prophet in 9 AH with Amir ibn al-Tufayl and Arbad ibn Qays, as Ibn Ishaq names him; the book gives him no part in the plot and no later news."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-amir-ibn-sasaa, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/assassination-attempt-of-amir-and-arbad, role: "من رؤساء الوفد؛ لا يُذكر له دور في التدبير", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 213", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 213" }

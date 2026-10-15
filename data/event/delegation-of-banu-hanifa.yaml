@@ -4,17 +4,20 @@ kind: gathering
 label: { en: "The delegation of Banu Hanifa", ar: "وفد بني حنيفة" }
 summary:
   en: "Seventeen men of Banu Hanifa of al-Yamama, among them Musaylima, lodged with an Ansari household in Medina in 9 AH and declared Islam; the sources differ on Musaylima's own conduct, and on his return home he claimed a share in prophethood."
-  ar: "قدم سبعة عشر رجلاً من بني حنيفة أهل اليمامة فيهم مسيلمة المدينة سنة 9هـ فنزلوا بيت رجل من الأنصار وأسلموا، واختلفت الروايات في شأن مسيلمة، ثم ادعى بعد رجوعه النبوة."
+  ar: "قدم وفد بني حنيفة أهل اليمامة فيهم مسيلمة المدينة في سنة الوفود، فنزلوا في دار بنت الحارث امرأة من الأنصار من بني النجار وأسلموا؛ يروي ابن إسحاق روايتين في شأن مسيلمة: أنه جيء به مستوراً بالثياب فقال له النبي: لو سألتني هذا العسيب ما أعطيتكه، أو أنه خُلّف في الرحال فقال النبي: ليس بشركم مكاناً. والمصادر المتأخرة تجعلهم سبعة عشر رجلاً. ثم ادعى مسيلمة النبوة بعد رجوعه."
 wings: [people]
 themes: [converts-and-leavers, prophets]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "ضمن سنة الوفود عند ابن إسحاق (ص222)؛ الرحيق ص451.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: group/banu-hanifa }
-  - { type: had_participant, target: person/musaylima }
+  - { type: had_participant, target: person/musaylima, role: "مع الوفد؛ اختُلف هل حضر مجلس النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: caused, target: event/musaylima-claims-prophethood, sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: event/year-of-delegations }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 222-223; al-Raheeq al-Makhtum pp. 451-452", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/zad-al-maad, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 222-223" }

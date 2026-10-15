@@ -1,0 +1,22 @@
+id: work/hassan-poem-kunna-muluk-al-nas
+class: work
+kind: poem
+label: { ar: "قصيدة حسان «كنا ملوك الناس قبل محمد»", en: "Hassan ibn Thabit's poem 'We were the kings of men before Muhammad'" }
+summary:
+  ar: "قصيدة لحسان بن ثابت على روي اللام في فخر الأنصار: كانوا ملوك الناس قبل محمد ثم أكرمهم الله بنصر دينه؛ تمدح كرمهم وعدلهم وتختم بسعد بن معاذ وحنظلة غسيل الملائكة. أثبت ابن هشام أن قوله «وألبسناه اسماً» عن غير ابن إسحاق، ونقل المحققون روايات الديوان."
+  en: "A lam-rhymed poem by Hassan ibn Thabit in praise of the Ansar: kings of men before Muhammad, then honoured by God through the victory of his religion; it praises their generosity and justice and closes with Sa'd ibn Mu'adh and Hanzala washed by the angels. Ibn Hisham marks one phrase as from other than Ibn Ishaq; the editors record the diwan's variant readings."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/hassan-ibn-thabit]
+language: language/arabic
+wings: [words]
+themes: [literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: group/ansar, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/sad-ibn-muadh, note: "«أمين المسلمين» في البيت الأخير هو سعد بن معاذ بحسب المحققين (ص201 ح10)", sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/hanzala-ibn-abi-amir, note: "«من غسلته من جنابته الرسل» هو حنظلة الذي غسلته الملائكة يوم أحد بحسب المحققين (ص201 ح10)", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 201", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 201" }

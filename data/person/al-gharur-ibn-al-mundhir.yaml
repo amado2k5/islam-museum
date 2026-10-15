@@ -1,0 +1,23 @@
+id: person/al-gharur-ibn-al-mundhir
+class: person
+label: { ar: "الغرور بن المنذر", en: "al-Gharur ibn al-Mundhir" }
+names:
+  - { kind: full, lang: ar, value: "الغرور بن المنذر بن النعمان بن المنذر اللخمي" }
+  - { kind: alternate, lang: ar, value: "المنذر بن المنذر (اسمه عند السهيلي، ولُقّب الغرور)" }
+gender: male
+roles: [politician]
+summary:
+  ar: "من بيت المناذرة ملوك الحيرة؛ رجع معه بعد وفاة النبي من كان أسلم من عبد القيس إلى دينهم الأول، فقام الجارود يدعوهم إلى الإسلام. يقول السهيلي، فيما ينقله المحققون، إن اسمه المنذر وإنما سُمّي الغرور لأنه غرّ قومه يوم حرب الردة."
+  en: "Of the Lakhmid house of al-Hira; after the Prophet's death those of Abd al-Qays who had converted reverted with him, and al-Jarud rose to call them back to Islam. Al-Suhayli, as the editors report, says his name was al-Mundhir and that he was called al-Gharur, the deceiver, because he deceived his people on the day of the ridda war."
+wings: [people]
+themes: [civil-wars-and-revolts]
+periods: [period/rashidun]
+regions: [arabia]
+story_roles:
+  - { role: rebel, toward: polity/rashidun-caliphate, start: { edtf: "0632" }, status: tradition, note: "قاد ردة بعض عبد القيس بالبحرين (ابن هشام ص222).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: child_of, target: person/al-numan-ibn-al-mundhir, note: "الغرور بن المنذر بن النعمان بن المنذر: فهو حفيد النعمان", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/ridda-wars, role: "قائد ردة في البحرين", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 222 and n. 2", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 222" }

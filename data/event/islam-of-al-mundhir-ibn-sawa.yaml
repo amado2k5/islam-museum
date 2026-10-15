@@ -1,0 +1,23 @@
+id: event/islam-of-al-mundhir-ibn-sawa
+class: event
+kind: other
+label: { ar: "بعث العلاء بن الحضرمي إلى المنذر بن ساوى وإسلامه", en: "Al-Ala' ibn al-Hadrami's mission to al-Mundhir ibn Sawa and his conversion" }
+summary:
+  ar: "بعث النبي العلاء بن الحضرمي قبل فتح مكة إلى المنذر بن ساوى العبدي صاحب البحرين، فأسلم فحسن إسلامه، وبقي العلاء عنده أميراً للنبي على البحرين حتى مات المنذر بعد النبي قبل ردة أهل البحرين؛ تضعه المصادر المتأخرة ضمن مكاتبة الملوك بعد الحديبية."
+  en: "Before the conquest of Mecca the Prophet sent al-Ala' ibn al-Hadrami to al-Mundhir ibn Sawa al-Abdi, lord of Bahrayn, who became a good Muslim; al-Ala' stayed as the Prophet's governor of Bahrayn until al-Mundhir died after the Prophet and before Bahrayn's apostasy. Later sources place it among the letters to the kings after al-Hudaybiyya."
+wings: [time, people, place]
+themes: [converts-and-leavers, peace-making-and-coexistence]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628~", hijri: "0007~", calendar: julian, precision: year, status: tradition, note: "«قبل فتح مكة» عند ابن إسحاق (ص222)؛ الرحيق المختوم يضع البعث في أواخر سنة 6هـ ومستهل 7هـ (ص358-359).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/bahrayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/letters-to-rulers-and-kings, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, role: "الباعث", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-ala-ibn-al-hadrami, role: "الرسول ثم الأمير على البحرين", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-mundhir-ibn-sawa, role: "صاحب البحرين الذي أسلم", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/abd-al-qays, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 222", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 222" }

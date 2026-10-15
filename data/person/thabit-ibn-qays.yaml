@@ -47,6 +47,11 @@ relations:
   target: event/battle-of-uhud
   sources:
   - source/ibn-hajar-isaba
+- type: participated_in
+  target: event/delegation-of-banu-tamim
+  role: خطيب المسلمين؛ أجاب عطارد بن حاجب بأمر النبي
+  sources:
+  - source/ibn-hisham-saqqa
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 914، ص 180
@@ -55,6 +60,7 @@ provenance:
   run: isaba-batch-3
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 2

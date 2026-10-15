@@ -1,0 +1,43 @@
+id: event/musaylima-claims-prophethood
+class: event
+kind: other
+label: { ar: "ارتداد مسيلمة وادعاؤه النبوة باليمامة", en: "Musaylima's apostasy and claim to prophethood at al-Yamama" }
+summary:
+  ar: "لما رجع وفد بني حنيفة إلى اليمامة ارتد مسيلمة وادعى النبوة وقال إنه قد أُشرك في الأمر مع محمد، واحتج بقول النبي عنه «ليس بشركم مكاناً»، وجعل يسجع لهم أساجيع مضاهاة للقرآن، وأحل لهم الخمر والزنا ووضع عنهم الصلاة، وهو يشهد لمحمد بالنبوة، فأجمعت معه حنيفة. يروي ابن إسحاق الخبر عن شيخ من بني حنيفة ويعلّق: فالله أعلم أي ذلك كان."
+  en: "When the Banu Hanifa delegation returned to al-Yamama, Musaylima apostatised and claimed prophethood, saying he had been made a partner in the matter with Muhammad and citing the Prophet's words that he was 'not the worst placed of you'. He produced rhymed sayings imitating the Qur'an, permitted wine and fornication and lifted the prayer, while still testifying that Muhammad was a prophet, and Hanifa rallied to him. Ibn Ishaq has it from a shaykh of Banu Hanifa and adds: God knows best which account is true."
+wings: [time, people, ideas]
+themes: [prophets, civil-wars-and-revolts, dissent-heresy-freethought]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: debated, note: "بعد رجوع الوفد من المدينة في سنة الوفود عند ابن إسحاق (ص223)؛ والرحيق المختوم يجعل ادعاءه النبوة سنة 10هـ (ص452)، وكتابه إلى النبي في آخر سنة عشر (ابن هشام ص247).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/al-yamama, sources: [source/ibn-hisham-saqqa] }
+  - { type: caused_by, target: event/delegation-of-banu-hanifa, sources: [source/ibn-hisham-saqqa] }
+  - { type: caused, target: event/battle-of-yamama, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/musaylima, role: "مدّعي النبوة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-hanifa, role: "أجمعوا معه", sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "كيف كان موقف مسيلمة في وفد بني حنيفة، وهل حضر مجلس النبي أم خُلّف في الرحال؟", en: "What was Musaylima's part in the Banu Hanifa delegation: did he attend the Prophet's gathering or was he left with the baggage?" }
+perspectives:
+  - tradition: sunni
+    id: medinan-account
+    stance: { ar: "حضر مستوراً بالثياب وسأل فردّه النبي" }
+    summary: { ar: "يروي ابن إسحاق عن بعض علماء أهل المدينة أن بني حنيفة أتت به النبي تستره بالثياب، فكلّمه وسأله، فقال له النبي: لو سألتني هذا العسيب ما أعطيتكه." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: hanafi-account
+    stance: { ar: "خُلّف في الرحال ولم يحضر" }
+    summary: { ar: "يروي ابن إسحاق عن شيخ من بني حنيفة من أهل اليمامة أن الوفد خلّفوه في رحالهم، فلما أسلموا ذكروه فأمر له النبي بمثل ما أمر للقوم وقال: ليس بشركم مكاناً، فاحتج مسيلمة بذلك بعدُ؛ ويعلّق ابن إسحاق: فالله أعلم أي ذلك كان." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: mubarakpuri
+    stance: { ar: "ترجيح الاستنكاف وعدم الحضور" }
+    summary: { ar: "يرجّح المباركفوري أن مسيلمة استنكف وطمح إلى الإمارة ولم يحضر مع سائر الوفد، وأن النبي أراد استمالته بالإحسان أولاً." }
+    sources: [source/mubarakpuri-raheeq]
+  - tradition: academic
+    id: academic
+    summary: { ar: "يقرأ المؤرخون المحدثون مسيلمة زعيماً دينياً قبلياً حاولت به اليمامة حفظ استقلالها عن المركز الجديد في المدينة؛ مرجع أكاديمي محدد لهذا التلخيص لم يُضف بعد (needs_source)." }
+    sources: [source/tabari-donner-1993]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 222-223, 247", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/tabari-donner-1993]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 222-223" }

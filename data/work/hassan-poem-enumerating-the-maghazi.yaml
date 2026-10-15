@@ -1,0 +1,41 @@
+id: work/hassan-poem-enumerating-the-maghazi
+class: work
+kind: poem
+label: { ar: "قصيدة حسان في تعداد أيام الأنصار مع النبي", en: "Hassan ibn Thabit's poem enumerating the Ansar's campaigns with the Prophet" }
+summary:
+  ar: "قصيدة على روي اللام تعدّد مشاهد الأنصار مع النبي من بدر إلى تبوك؛ أوردها ابن إسحاق خاتمةً لباب براءة، وذكر ابن هشام أنها تُروى أيضاً لعبد الرحمن بن حسان وأن بيتها الأخير عن غير ابن إسحاق."
+  en: "A lam-rhymed poem listing the Ansar's battles beside the Prophet from Badr to Tabuk; Ibn Ishaq places it at the close of the Bara'a chapter, and Ibn Hisham notes it is also attributed to Hassan's son Abd al-Rahman and that its last verse comes from a source other than Ibn Ishaq."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/hassan-ibn-thabit]
+language: language/arabic
+composed: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: debated, note: "لا يذكر ابن إسحاق تاريخاً؛ القصيدة تذكر تبوك آخر الغزوات فهي بعدها، والنسبة إلى حسان أو ابنه عبد الرحمن محل رواية (ص199).", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [literature, battles]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: group/ansar, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/battle-of-badr, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/battle-of-uhud, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/expedition-of-dhu-qarad, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/battle-of-hunayn, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/conquest-of-mecca, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/battle-of-khaybar, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: event/expedition-to-tabuk, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: place/waddan, sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "لمن هذه القصيدة: لحسان بن ثابت أم لابنه عبد الرحمن؟" }
+perspectives:
+  - tradition: sunni
+    id: ibn-ishaq
+    stance: { ar: "لحسان بن ثابت" }
+    summary: { ar: "يوردها ابن إسحاق لحسان يعدّد فيها أيام الأنصار مع النبي ومواطنهم معه في غزواته." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: ibn-hisham-variant
+    stance: { ar: "تُروى لعبد الرحمن بن حسان" }
+    summary: { ar: "قال ابن هشام إنها تُروى أيضاً لابنه عبد الرحمن بن حسان، وإن عجز آخر أبياتها عن غير ابن إسحاق." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 199-200", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 199-200" }

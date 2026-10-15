@@ -1,0 +1,20 @@
+id: event/death-of-amir-ibn-al-tufayl
+class: event
+kind: death
+label: { ar: "موت عامر بن الطفيل", en: "The death of Amir ibn al-Tufayl" }
+summary:
+  ar: "في طريق رجوع وفد بني عامر أصاب عامرَ بن الطفيل طاعون في عنقه فمات في بيت امرأة من بني سلول وهو يقول: أغدة كغدة البكر في بيت امرأة من بني سلول؛ يرويه ابن إسحاق بعد دعاء النبي: اللهم اكفني عامر بن الطفيل. وذكر ابن هشام رواية أخرى للفظه."
+  en: "On the Banu Amir delegation's way home a plague-swelling struck Amir ibn al-Tufayl in the neck and he died in the house of a woman of Banu Salul, saying: a swelling like a young camel's, in the house of a Saluli woman. Ibn Ishaq places it after the Prophet's prayer 'O God, suffice me against Amir ibn al-Tufayl'; Ibn Hisham records another wording."
+wings: [time, people]
+themes: [health-body-death]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, derived: true, note: "في طريق رجوع الوفد من المدينة سنة الوفود؛ لا يذكر ابن إسحاق الشهر (ص214). الرحيق ص453 يذكر الخبر في السنة نفسها.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+relations:
+  - { type: part_of, target: event/assassination-attempt-of-amir-and-arbad, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/amir-ibn-al-tufayl, role: "المتوفى", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-salul, role: "مات في بيت امرأة منهم", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 214", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 214" }

@@ -1,0 +1,15 @@
+id: group/banu-minqar
+class: group
+label: { ar: "بنو منقر", en: "Banu Minqar" }
+summary:
+  ar: "بطن من بني سعد بن زيد مناة بن تميم: منقر بن عبيد بن الحارث بن عمرو بن كعب بن سعد؛ منهم عمرو بن الأهتم وقيس بن عاصم من وفد بني تميم سنة 9هـ."
+  en: "A clan of Banu Sa'd ibn Zayd Manat of Tamim: Minqar ibn Ubayd ibn al-Harith ibn Amr ibn Ka'b ibn Sa'd; Amr ibn al-Ahtam and Qays ibn Asim of the 9 AH Tamim delegation belonged to it."
+kind: clan
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-tamim, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 207", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 207" }

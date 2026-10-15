@@ -1,0 +1,28 @@
+id: work/zibriqan-second-boast
+class: work
+kind: poem
+label: { ar: "أبيات تُروى للزبرقان بن بدر «أتيناك كيما يعلم الناس فضلنا»", en: "Verses attributed to al-Zibriqan ibn Badr, 'We came so that people would know our merit'" }
+summary:
+  ar: "أربعة أبيات على روي الميم يرويها ابن هشام عن بعض أهل العلم بالشعر من بني تميم للزبرقان حين قدم في وفد بني تميم: فروع الناس، وليس في الحجاز كدارم، وذود المُعْلِمين، والمرباع في كل غارة. أجابها حسان بقصيدة على الروي نفسه. النسبة من ابن هشام لا من ابن إسحاق."
+  en: "Four mim-rhymed verses that Ibn Hisham reports from Tamimi men of letters as al-Zibriqan's when he came in the delegation: the foremost of men, none in the Hijaz like Darim, repelling marked warriors, the chief's quarter of every raid. Hassan answered on the same rhyme. The attribution rests on Ibn Hisham, not Ibn Ishaq."
+genre: [poetry]
+made: { by_muslims: false, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/al-zibriqan-ibn-badr]
+language: language/arabic
+wings: [words]
+themes: [literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/delegation-of-banu-tamim, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/banu-darim, sources: [source/ibn-hisham-saqqa] }
+issue: { ar: "هل هذه الأبيات للزبرقان بن بدر؟" }
+perspectives:
+  - tradition: sunni
+    id: ibn-hisham
+    stance: { ar: "رواها ابن هشام عن بعض علماء الشعر من بني تميم للزبرقان" }
+    summary: { ar: "لا يذكرها ابن إسحاق؛ وإنما حدّث بها ابنُ هشام عن بعض أهل العلم بالشعر من بني تميم، وهو في الموضع نفسه ينبّه على أن أكثر أهل العلم بالشعر ينكرون للزبرقان بعض ما يُروى له، فالنسبة رواية قابلة للمراجعة." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 211", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 211" }

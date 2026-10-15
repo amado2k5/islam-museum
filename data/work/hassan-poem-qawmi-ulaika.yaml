@@ -1,0 +1,23 @@
+id: work/hassan-poem-qawmi-ulaika
+class: work
+kind: poem
+label: { ar: "قصيدة حسان «قومي أولئك إن تسألي كرام»", en: "Hassan ibn Thabit's poem 'Those are my people, if you ask, noble'" }
+summary:
+  ar: "قصيدة على روي الميم لحسان بن ثابت تروي تاريخ الأنصار: ملوكاً في أرضهم، ثم نزولهم يثرب وفتحهم حصون اليهود في النخيل، ثم استقبالهم النبي وقتالهم عنه؛ أنشد ابن هشام بعض أبياتها عن أبي زيد الأنصاري بروايات مغايرة، وتنتهي عندها في طبعة 1936 أجزاء السيرة الثمانية عشر الأولى."
+  en: "A mim-rhymed poem by Hassan ibn Thabit telling the Ansar's story: kings in their own land, their settlement at Yathrib and the conquest of the Jewish forts among the palms, then their welcome of the Prophet and their fighting for him; Ibn Hisham gives variant readings from Abu Zayd al-Ansari, and the 1936 editors mark here the end of the sira's eighteenth traditional part."
+genre: [poetry]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+authors: [person/hassan-ibn-thabit]
+language: language/arabic
+wings: [words]
+themes: [literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: group/ansar, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: place/medina, note: "يثرب في القصيدة", sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/said-ibn-aws-abu-zayd-al-ansari, note: "أنشد ابن هشام عنه بيتين بروايته (ص204)", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 202-204", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-8a" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 202-204" }

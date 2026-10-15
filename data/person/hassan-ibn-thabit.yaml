@@ -23,6 +23,12 @@ relations:
   - { type: born_in, target: place/medina }
   - { type: member_of, target: group/ansar }
   - { type: member_of, target: group/khazraj }
+  - { type: participated_in, target: event/delegation-of-banu-tamim, role: "شاعر المسلمين؛ أجاب الزبرقان بأمر النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/hassan-poem-enumerating-the-maghazi, note: "وتروى لابنه عبد الرحمن (ص199)", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/hassan-poem-kunna-muluk-al-nas, sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/hassan-poem-qawmi-ulaika, sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/hassan-reply-to-zibriqan, sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/hassan-second-reply-to-zibriqan, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/incident-of-the-slander, role: "خاض في الإفك ثم جُلد وتاب وعفا عنه حسان بمدح عائشة", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/muruj-al-dhahab]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/muruj-al-dhahab, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 331–334" }
