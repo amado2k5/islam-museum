@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.343"
-label: { ar: "الموطأ 1.343", en: "Muwatta 1.343" }
+label: { ar: "الموطأ 343 — لقد هممت أن آمر بحطب فيحطب ثم أخالف إلى رجال فأحرق عليهم بيوتهم", en: "Muwatta 343" }
+text: "لقد هممت أن آمر بحطب فيحطب، ثم آمر بالصلاة فيؤذن لها، ثم آمر رجلاً فيؤم الناس، ثم أخالف إلى رجال فأحرق عليهم بيوتهم"
 summary:
-  ar: "أبو الزناد عن الأعرج عن أبي هريرة: والذي نفسي بيده لقد هممت أن آمر بحطب فيحطب، ثم آمر بالصلاة فيؤذن لها، ثم آمر رجلا فيؤم الناس، ثم أخالف إلى رجال فأحرق عليهم بيوتهم؛ الحديث في التخلف عن الجماعة."
+  ar: "يرويه مالك عن أبي الزناد عن الأعرج عن أبي هريرة، في باب فضل صلاة الجماعة على صلاة الفذ: أقسم النبي أنه همّ أن يأمر بحطب فيُحطب ثم يأمر بالصلاة فيؤذن لها ويأمر رجلاً فيؤم الناس، ثم يخالف إلى رجال يتخلفون عن الجماعة فيحرق عليهم بيوتهم، وأقسم أن أحدهم لو علم أنه يجد عظماً سميناً أو مرماتين حسنتين لشهد العشاء. ويفسر المحقق المرماة بما بين ظلفي الشاة من اللحم، ويخرّج الحديث عند البخاري (644، 7224) والنسائي (2/107) والشافعي والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (18/331). {cite:muwatta-maruf-1997 p.189}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 343 of kitab al-salat at PDF p. 189", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-17" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 343 at PDF p. 189; باب فضل صلاة الجماعة على صلاة الفذ", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 189; matn excerpt at most 40 words" }

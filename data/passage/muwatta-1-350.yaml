@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.350"
-label: { ar: "الموطأ 1.350", en: "Muwatta 1.350" }
+label: { ar: "الموطأ 350 — ابن عمر لمن صلى في بيته ثم أدرك الجماعة: إنما ذلك إلى الله", en: "Muwatta 350" }
+text: "أو ذلك إليك؟ إنما ذلك إلى الله يجعل أيتهما شاء"
 summary:
-  ar: "نافع: سأل رجل ابن عمر عن الصلاة في الطريق؛ جواب ابن عمر في الصلاة في الأسواق والطرق."
+  ar: "أثر يرويه مالك عن نافع، في باب إعادة الصلاة مع الإمام: سأل رجل عبد الله بن عمر أنه يصلي في بيته ثم يدرك الصلاة مع الإمام أفيصلي معه، فقال: نعم، فسأله أيتهما يجعل صلاته، فأجابه ابن عمر: أو ذلك إليك؟ إنما ذلك إلى الله يجعل أيتهما شاء. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.193} {cite:muwatta-maruf-1997 p.194}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 350 of kitab al-salat at PDF p. 194", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-17" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 350 at PDF p. 193; باب إعادة الصلاة مع الإمام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 193; matn excerpt at most 40 words" }

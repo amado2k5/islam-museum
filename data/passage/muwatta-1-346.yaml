@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.346"
-label: { ar: "الموطأ 1.346", en: "Muwatta 1.346" }
+label: { ar: "الموطأ 346 — ثلاثة أحاديث في واحد: غصن الشوك، والشهداء خمسة، والنداء والصف الأول", en: "Muwatta 346" }
+text: "بينما رجل يمشي بطريق إذ وجد غصن شوك على الطريق فأخره، فشكر الله له فغفر له"
 summary:
-  ar: "أبو هريرة عن النبي ﷺ: حديث في فضل صلاة الجماعة أو في شروطها؛ تفاصيل المتن غير واضحة في OCR."
+  ar: "يرويه مالك عن سمي مولى أبي بكر عن أبي صالح عن أبي هريرة، في باب ما جاء في العتمة والصبح، ثلاثة أحاديث في سياق واحد: أن رجلاً أخّر غصن شوك عن الطريق فشكر الله له فغفر له؛ وأن الشهداء خمسة: المطعون والمبطون والغرق وصاحب الهدم والشهيد في سبيل الله؛ وأن الناس لو علموا ما في النداء والصف الأول لاستهموا عليه، ولو علموا ما في التهجير لاستبقوا إليه، ولو علموا ما في العشاء والصبح لأتوهما ولو حبواً. ويذكر المحقق أن القسم الثالث تقدم برقم 174 وأن ابن عبد البر عدّها ثلاثة أحاديث في واحد، ويخرّج حديث غصن الشوك عند البخاري (2472) والترمذي (1958) وابن حبان، وحديث الشهداء عند البخاري (2829، 5733) ومسلم (6/51) والترمذي (1063) والنسائي، وأن البخاري (720، 721) والجوهري اقتصرا على قطعتين. {cite:muwatta-maruf-1997 p.190} {cite:muwatta-maruf-1997 p.191}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 346 of kitab al-salat at PDF p. 190", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-17" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sumayy-mawla-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salih-al-samman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/maghfira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 346 at PDF p. 190; باب ما جاء في العتمة والصبح", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 190; matn excerpt at most 40 words" }

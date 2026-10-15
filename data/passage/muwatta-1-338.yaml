@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.338"
-label: { ar: "الموطأ 1.338", en: "Muwatta 1.338" }
+label: { ar: "الموطأ 338 — أصلاتان معاً؟", en: "Muwatta 338" }
+text: "أصلاتان معاً؟ أصلاتان معاً؟"
 summary:
-  ar: "أبو سلمة بن عبد الرحمن: سمع قوم الإقامة فقاموا للصلاة؛ الحديث في الإقامة وقيام الناس للصلاة."
+  ar: "يرويه مالك عن شريك بن عبد الله بن أبي نمر عن أبي سلمة بن عبد الرحمن مرسلاً، في باب ما جاء في ركعتي الفجر: سمع قوم الإقامة فقاموا يصلون ركعتي الفجر، فخرج عليهم النبي فقال منكراً: أصلاتان معاً؟ ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن، وأن الثوري والدراوردي تابعا مالكاً على إرساله، وأن محمد بن عمارة وإبراهيم بن طهمان روياه عن شريك عن أنس مرفوعاً، وينقل عن أبي حاتم الرازي أن رواية مالك ومن تابعه المرسلة أشبه وأصح (العلل 369). {cite:muwatta-maruf-1997 p.187}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 338 of kitab al-salat at PDF p. 187", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-16" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sharik-ibn-abdallah-ibn-abi-namir, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 338 at PDF p. 187; باب ما جاء في ركعتي الفجر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 187; matn excerpt at most 40 words" }
