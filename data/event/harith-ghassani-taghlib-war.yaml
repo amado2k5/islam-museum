@@ -1,0 +1,25 @@
+id: event/harith-ghassani-taghlib-war
+class: event
+kind: war
+label: { ar: "حرب الحارث الأعرج على بني تغلب" }
+summary:
+  ar: "غزوة الحارث بن أبي شمر الغساني الملقب الأعرج على بني تغلب؛ خرج ملك غسان بالشام فمر بأفاريق من تغلب فلم يستقبلوه فتوعدهم «لأغزونهم غزوة تتركهم أيقاظاً لقدومي»، فرد عليه عمرو بن كلثوم «ما استيقظ قوم قط إلا نبل رأيهم وعزت جماعتهم فلا توقظن نائمهم»، فتوعده الحارث باجتياث أصولهم ونفي فلهم إلى اليابس الجدد والنازح الثمد، فلما غزاهم اقتتلوا قتالاً شديداً فانهزم الحارث وبنو غسان وقتل أخو الحارث في عدد كثير، وقال فيه عمرو بن كلثوم معلقته {cite:kamil-ibn-al-athir p. 403}."
+  en: "The Ghassanid king al-Harith ibn Abi Shamir's war on Taghlib: ungreeted by their riders on his march, he swore a raid that 'would leave them wide-awake for his coming'; Amr ibn Kulthum answered that peoples wake only to their own counsel — and when al-Harith invaded he was routed and his brother slain, the occasion of Amr's great qasida {cite:kamil-ibn-al-athir p. 403}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "في زمن ملك الحارث الغساني قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/al-harith-ibn-abi-shamir, role: "الغازي المنهزم", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/ghassan, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-taghlib, role: "المنتصرون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/amr-ibn-kulthum, role: "المتصدي للملك وشاعر الوقعة", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — الحرب بين الحارث الأعرج وبني تغلب، ص403"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

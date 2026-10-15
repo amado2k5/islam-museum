@@ -1,0 +1,25 @@
+id: event/yawm-al-kullab
+class: event
+kind: battle
+label: { ar: "يوم الكلاب الأول" }
+summary:
+  ar: "يوم الكلاب الأول، الوقعة التي تقاتل فيها أبناء الحارث الكندي بعد هلاكه؛ لما مات الحارث بن عمرو تشتت أمر بنيه الملوك على قبائل معد حتى جمع كل واحد جموع من كان معه وزحفوا بعضهم على بعض، فنزل شرحبيل بمن معه من بكر بن وائل وحلفائهم الكلاب وهو ماء بين البصرة والكوفة وأقبل سلمة بمن معه من تغلب والصنائع وعليهم السفاح بن خالد، فاقتتلوا قتالاً شديداً ونادى كل منهما بمائة من الإبل لمن جاءه برأس صاحبه، وكانت الغلبة آخر النهار لتغلب وسلمة، وتبع ذو السنينة التغلبي شرحبيل فضربه شرحبيل على ركبته فأطن رجله فهلك، فحمل عليه أخوه أبو حنش فطعنه فألقاه عن فرسه وأخذ رأسه فبعث به إلى سلمة، فعرفت الندامة والجزع في وجه سلمة وقال لو كنت ألقيته أرفق من هذا {cite:kamil-ibn-al-athir p. 410-411}."
+  en: "The first day of al-Kullab, when the dead al-Harith's Kindite sons fell on each other at the water of al-Kullab between Basra and Kufa: Shurahbil with Bakr against Salama with Taghlib and the sana'i', a hundred camels cried for each brother's head, and at day's end Taghlib prevailed — Abu Hanash avenging his brother Dhu al-Sunayna by taking Shurahbil's head to Salama, who only grieved {cite:kamil-ibn-al-athir p. 410-411}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0530~", calendar: julian, precision: century, status: tradition, derived: true, note: "بعد هلاك الحارث بن عمرو الكندي." }
+relations:
+  - { type: had_participant, target: person/shurahbil-ibn-al-harith, role: "القتيل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salama-ibn-al-harith-al-taghlibi, role: "الظافر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/bakr-ibn-wail, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — يوم الكلاب الأول، ص410-411"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

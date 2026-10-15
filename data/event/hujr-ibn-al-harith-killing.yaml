@@ -1,0 +1,24 @@
+id: event/hujr-ibn-al-harith-killing
+class: event
+kind: death
+label: { ar: "مقتل حجر أبي امرئ القيس" }
+summary:
+  ar: "مقتل حجر بن الحارث الكندي أبي امرئ القيس الشاعر؛ ملكه أبوه على بني أسد وغطفان وكنانة وله عليهم جائزة وإتاوة، فلما طردت بنو أسد جباته وضربوهم سار إليهم بجند من ربيعة وقيس وكنانة فأخذ سرواتهم وجعل يقتلهم بالعصا وأباح الأموال وحبس أشرافهم فيهم عبيد بن الأبرص، فلما صاروا على يوم منه تكهن كاهنهم عوف بن ربيعة فقال «من الملك الصلهب الغلاب غير المغلب، في الإبل كأنها الربرب، هذا دمه يتثعب، وهو غداً أول من يستلب»، فهجموا عليه في قبته فطعنه علباء بن الحارث الكاهلي وكان حجر قتل أباه، وانتهبوا هجانته ونساءه وأسلابه؛ فأشعل قتله حرب ثأر امرئ القيس على بني أسد {cite:kamil-ibn-al-athir p. 383-384}."
+  en: "The killing of Hujr, father of Imru' al-Qays: Asad's tributary king answered their expulsion of his tax-collectors by seizing and clubbing their chiefs, until their kahin Awf ibn Rabi'a prophesied him 'first to be stripped tomorrow' — the tribe stormed his tent and Ilba' ibn al-Harith speared him, kindling Imru' al-Qays's long war of vengeance on Asad {cite:kamil-ibn-al-athir p. 383-384}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0500~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أخبار كندة والجاهلية." }
+relations:
+  - { type: had_participant, target: person/hujr-ibn-al-harith-al-kindi, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/ilba-ibn-al-harith, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-asad-ibn-khuzayma, role: "الثائرون", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — مقتل حجر أبي امرئ القيس، ص383-384"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

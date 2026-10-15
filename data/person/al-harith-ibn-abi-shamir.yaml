@@ -1,0 +1,23 @@
+id: person/al-harith-ibn-abi-shamir
+class: person
+label: { ar: "الحارث بن أبي شمر الغساني" }
+names:
+  - { value: "الحارث الأعرج بن أبي شمر الغساني", kind: full }
+gender: male
+summary:
+  ar: "الحارث بن أبي شمر الغساني الملقب الأعرج، ملك غسان بالشام؛ غزا بني تغلب بعد أن ردّ عليه عمرو بن كلثوم وعيده فانهزم وقتل أخوه، وهو الذي كتب له السموأل بن عادياء ليوصل امرأ القيس بن حجر إلى قيصر يستنصره على ثأر أبيه {cite:kamil-ibn-al-athir p. 385, 403}."
+  en: "Al-Harith ibn Abi Shamir 'the Lame' (Arethas), Ghassanid king of Syria: routed by Taghlib after Amr ibn Kulthum's defiance, losing his own brother; it was to him that Samaw'al ibn Adiya's letter commended Imru' al-Qays seeking passage to Caesar {cite:kamil-ibn-al-athir p. 385, 403}."
+roles: [emir]
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: member_of, target: group/ghassan, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — ص385، 403"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

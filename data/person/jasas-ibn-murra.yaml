@@ -1,0 +1,23 @@
+id: person/jasas-ibn-murra
+class: person
+label: { ar: "جساس بن مرة" }
+names:
+  - { value: "جساس بن مرة بن ذهل بن شيبان البكري", kind: full }
+gender: male
+summary:
+  ar: "جساس بن مرة بن ذهل بن شيبان البكري، قاتل كليب بن ربيعة؛ لما رمى كليب ضرع سراب ناقة جارته خالته البسوس وصاحت واذلاه علم جساس أنه ساق إلى صدره القتل، فلم يزل يطلب غرة كليب حتى أدركه فطعنه وقال «يا كليب الرمح وراءك» فلما قال له أقبل من أمامي لم يلتفت فطعنه فأرداه، وقال لأبيه مرة لما عوتب طعنة يجتمع بنو وائل غداً لها رقصاً، فاشتعلت بقتله حرب البسوس بين بكر وتغلب أربعين سنة {cite:kamil-ibn-al-athir p. 391-392}."
+  en: "Jasas ibn Murra of Banu Shayban: when his aunt al-Basus cried shame over her guest's wounded camel he knew honour pointed at his own breast, stalked Kulayb and speared him — 'a thrust for which Wa'il's sons will gather dancing tomorrow' — lighting the forty-year Basus war {cite:kamil-ibn-al-athir p. 391-392}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/bakr-ibn-wail, sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/al-basus-bint-munqidh, note: "خالته", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — مقتل كليب، ص391-392"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

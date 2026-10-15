@@ -1,20 +1,25 @@
 id: person/salama-ibn-al-harith-al-taghlibi
 class: person
-label: { ar: "سلمة بن الحارث التغلبي" }
+label: { ar: "سلمة بن الحارث الكندي" }
+names:
+  - { value: "سلمة بن الحارث بن عمرو الكندي", kind: full }
 gender: male
 summary:
-  ar: "سلمة بن الحارث التغلبي؛ أخرجته تغلب عنها فالتجأ إلى بكر بن وائل فأذعنوا له وقالوا لا يملكنا غيرك، فدعاهم المنذر بن امرئ القيس إلى طاعته فأبوا فكانت من وراء ذلك يوم أوارة الأول {cite:kamil-ibn-al-athir p. 412}."
-  en: "Salama ibn al-Harith of Taghlib: expelled by his people he sought refuge with Bakr ibn Wa'il who made him their master, and his adoption — rejected by al-Mundhir ibn Imru' al-Qays — caused the first day of Awara {cite:kamil-ibn-al-athir p. 412}."
+  ar: "سلمة بن الحارث بن عمرو الكندي، أصغر بني الحارث؛ ملكه أبوه على تغلب والنمر بن قاسط وبني سعد بن زيد مناة من تميم، فأخرجته تغلب عنها فالتجأ إلى بكر بن وائل فأذعنوا له وقالوا لا يملكنا غيرك، فدعاهم المنذر بن امرئ القيس إلى طاعته فأبوا فكانت من وراء ذلك يوم أوارة الأول، وفي حرب إخوته بعد هلاك أبيه زحف بتغلب والصنائع إلى ماء الكلاب فكان له الغلب يوم الكلاب الأول {cite:kamil-ibn-al-athir p. 410-412}."
+  en: "Salama ibn al-Harith al-Kindi, youngest of al-Harith's sons: set over Taghlib, expelled by them, then taken as king by Bakr ibn Wa'il — the adoption al-Mundhir ibn Imru' al-Qays answered with the first day of Awara; at al-Kullab he led Taghlib and the sana'i' to victory over his brother Shurahbil {cite:kamil-ibn-al-athir p. 410-412}."
 wings: [people]
 periods: [period/pre-islamic-arabia]
 regions: [arabia]
 relations:
-  - { type: member_of, target: group/banu-taghlib, note: "أخرجته عنها فالتجأ إلى بكر بن وائل", sources: [source/kamil-ibn-al-athir] }
+  - { type: child_of, target: person/al-harith-ibn-amr-al-kindi, sources: [source/kamil-ibn-al-athir] }
+  - { type: member_of, target: group/kinda, sources: [source/kamil-ibn-al-athir] }
+  - { type: sibling_of, target: person/hujr-ibn-al-harith-al-kindi, sources: [source/kamil-ibn-al-athir] }
+  - { type: sibling_of, target: person/shurahbil-ibn-al-harith, sources: [source/kamil-ibn-al-athir] }
 sources: [source/kamil-ibn-al-athir]
 provenance:
   layer: own-research
-  source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص412"
+  source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص410-412"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   model: swe-2-high
-  run: lib-kamil-20
+  run: lib-kamil-22
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,24 @@
+id: event/amr-ibn-hind-killing
+class: event
+kind: death
+label: { ar: "قتل عمرو بن هند مضرط الحجارة" }
+summary:
+  ar: "قتل عمرو بن كلثوم التغلبي عمرَو بنَ هند صاحبَ الحيرة الملقب مضرط الحجارة؛ قال ابن هند لجلسائه هل تعلمون أحداً من العرب يأنف أن تخدم أمه أمي فقيل له عمرو بن كلثوم وأمه ليلى بنت مهلهل، فاستزار ابنَ كلثوم وأمر أن تزور أمه ليلى أمَه هنداً، ثم مكر بها فقالت هند لليلى ناوليني هذا الطبق فقالت لتقم صاحبة الحاجة إلى حاجتها، فألحت فنادت ليلى «واذلاه يا آل تغلب» فسمعها ابنها وثار إلى سيف ابن هند المعلق في السرادق فضرب به رأسه فقتله وانتهبت تغلب ماله وخيله {cite:kamil-ibn-al-athir p. 409}."
+  en: "Amr ibn Kulthum's killing of Amr ibn Hind 'Mudarrat al-Hijara', king of al-Hira: seeking a man whose mother would scorn to serve his own, the king contrived that Hind should order Layla bint Muhalhil to pass her a dish; Layla's cry 'wa-dhalah, O Taghlib!' reached her son, who seized the king's own hanging sword and struck off his head {cite:kamil-ibn-al-athir p. 409}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "في ملك عمرو بن هند على الحيرة قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/amr-ibn-kulthum, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/amr-ibn-hind-al-lakhmi, role: "المقتول", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/al-hira, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — قتل مضرط الحجارة، ص409"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

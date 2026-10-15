@@ -1,0 +1,23 @@
+id: person/kulayb-ibn-rabia
+class: person
+label: { ar: "كليب بن ربيعة" }
+names:
+  - { value: "كليب وائل بن ربيعة بن الحرث التغلبي", kind: full }
+gender: male
+summary:
+  ar: "كليب بن ربيعة التغلبي، اسمه وائل بن ربيعة، لُقب كليباً لأنه كان يأخذ معه جرو كلب يضربه فيلقيه في الروضة التي تعجبه فلا يقربها أحد؛ تحول إليه لواء ربيعة ولم تجتمع معد إلا على ثلاثة هو ثالثهم، وكان قائد معد يوم خزاز ففض جموع اليمن، ثم دخله زهو وبغى حتى كان يحمي مواقع السحاب، وقتله جساس بن مرة الشيباني حين رمى ضرع ناقة جاره الجرمي، فكانت حرب البسوس {cite:kamil-ibn-al-athir p. 390-392}."
+  en: "Kulayb (Wa'il) ibn Rabi'a of Taghlib — 'little whelp' for the puppy he would beat and leave howling to mark his pleasure-grounds; bearer of Rabi'a's banner, leader of Ma'add at Khazzaz and one of only three men all Ma'add united behind, whose swagger grew until he fenced off the very rain-pools; Jasas ibn Murra speared him over the camel Sarab, and the Basus war began {cite:kamil-ibn-al-athir p. 390-392}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
+  - { type: sibling_of, target: person/al-muhalhil, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — مقتل كليب، ص390-392"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

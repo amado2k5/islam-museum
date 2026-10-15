@@ -1,0 +1,27 @@
+id: event/harb-al-basus
+class: event
+kind: war
+label: { ar: "حرب البسوس" }
+summary:
+  ar: "حرب البسوس، أطول أيام العرب وأشهرها، بين بكر وتغلب ابني وائل؛ سببها أن كليب بن ربيعة التغلبي — وكان اللواء قد تحول إلى تغلب فوليه ولم تجتمع معد إلا على ثلاثة هو ثالثهم وكان قائد معد يوم خزاز — حمى أرضاً من العالية في أول الربيع لا يقربها إلا محارب، فدخلتها سراب ناقة سعد بن شميس الجرمي جار جساس بن مرة، فنذر كليب لئن عادت ليضعن سهمه في ضرعها ونذر جساس لئن فعل ليضعن سنان رمحه في لبته، فلما رمى كليب ضرع الناقة صاحت البسوس بنت منقذ خالة جساس «واذلاه»، ففطن جساس أنه ساق إلى صدره القتل، فلم يزل يطلب غرة كليب حتى طعنه فرماه عن فرسه فقضى نحبه، وثار أخوه مهلهل بن ربيعة يطلب بثأره فدارت الحرب بين الأخوين أربعين سنة حتى هدّت طريفة حربها وباتت البلية مقيمة {cite:kamil-ibn-al-athir p. 390-397}."
+  en: "The Basus war, the longest and most storied of the Arabs' days: when the mare-camel Sarab strayed into Kulayb's forbidden spring pasture he shot her udder as threatened, and al-Basus's cry of shame — 'wa-dhalah!' — told her nephew Jasas ibn Murra that honour demanded blood; he speared Kulayb ibn Rabi'a, the Taghlibi lord under whom all Ma'add had united, and Kulayb's brother al-Muhalhil spent forty years exacting the feud between Bakr and Taghlib {cite:kamil-ibn-al-athir p. 390-397}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0494~", calendar: julian, precision: decade, status: tradition, derived: true, note: "أربعون سنة قبل الإسلام بقليل؛ التاريخ التقليدي نحو أواخر القرن الخامس." }
+relations:
+  - { type: had_participant, target: group/bakr-ibn-wail, role: "أحد الفريقين", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-taghlib, role: "أحد الفريقين", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/kulayb-ibn-rabia, role: "القتيل الذي اندلعت بسببه", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jasas-ibn-murra, role: "القاتل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-muhalhil, role: "طالب الثأر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-basus-bint-munqidh, role: "صاحبة الناقة التي سميت بها الحرب", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — مقتل كليب والأيام بين بكر وتغلب، ص390-397"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

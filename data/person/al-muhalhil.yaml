@@ -1,0 +1,26 @@
+id: person/al-muhalhil
+class: person
+label: { ar: "المهلهل بن ربيعة" }
+names:
+  - { value: "المهلهل عدي بن ربيعة التغلبي، أبو ليلى، زير سالم", kind: full }
+  - { value: "زير سالم", kind: kunya }
+gender: male
+summary:
+  ar: "المهلهل بن ربيعة التغلبي، أخو كليب بن ربيعة وأبو ليلى أم عمرو بن كلثوم؛ لما قتل جساس بن مرة أخاه كليباً ثار يطلب بثأره فدار بينه وبين بكر أيام البسوس أربعين سنة، وهو مثل العرب في طول الحرب وصبر الثأر {cite:kamil-ibn-al-athir p. 392}."
+  en: "Al-Muhalhil (Adi) ibn Rabi'a of Taghlib, called Abu Layla and Zir Salim — Kulayb's brother and father of Amr ibn Kulthum's mother; after Jasas killed Kulayb he prosecuted the blood-feud against Bakr for forty years, the proverbial model of patient vengeance {cite:kamil-ibn-al-athir p. 392}."
+roles: [poet]
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
+  - { type: sibling_of, target: person/kulayb-ibn-rabia, sources: [source/kamil-ibn-al-athir] }
+  - { type: fought, target: person/jasas-ibn-murra, note: "ثأر أخيه كليب", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — مقتل كليب، ص392"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,25 @@
+id: person/amr-ibn-kulthum
+class: person
+label: { ar: "عمرو بن كلثوم" }
+names:
+  - { value: "عمرو بن كلثوم بن مالك التغلبي", kind: full }
+gender: male
+summary:
+  ar: "عمرو بن كلثوم التغلبي، شاعر الجاهلية وصاحب إحدى المعلقات، أمه ليلى بنت مهلهل وعمه كليب وائل؛ قتل عمرو بن هند مضرط الحجارة صاحب الحيرة حين أهان أمه ليلى، وردّ على الحارث بن أبي شمر الغساني حين توعد تغلب بالغزو «ما استيقظ قوم قط إلا نبل رأيهم وعزت جماعتهم، فلا توقظن نائمهم» فغزاهم الحارث فانهزم وقتل أخوه {cite:kamil-ibn-al-athir p. 403, 409}."
+  en: "Amr ibn Kulthum of Taghlib, jahili poet and Mu'allaqa author, son of Layla bint Muhalhil and nephew of Kulayb; he killed King Amr ibn Hind for insulting his mother, and answered the Ghassanid al-Harith's threat — 'no people ever woke save to their own counsel's shafts; do not wake the sleeper' — then routed him and slew his brother {cite:kamil-ibn-al-athir p. 403, 409}."
+roles: [poet]
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/banu-taghlib, sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/al-muhalhil, note: "جده لأمه", sources: [source/kamil-ibn-al-athir] }
+  - { type: related_to, target: person/kulayb-ibn-rabia, note: "عمه لأمه", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — الحرب بين الحارث الأعرج وبني تغلب ص403، قتل مضرط الحجارة ص409"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

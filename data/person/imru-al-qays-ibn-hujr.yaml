@@ -1,0 +1,26 @@
+id: person/imru-al-qays-ibn-hujr
+class: person
+label: { ar: "امرؤ القيس بن حجر" }
+names:
+  - { value: "امرؤ القيس بن حجر الكندي", kind: full }
+  - { value: "ذو القروح", kind: kunya }
+gender: male
+summary:
+  ar: "امرؤ القيس بن حجر الكندي، أشهر شعراء الجاهلية وصاحب إحدى المعلقات؛ طرده أبوه حجر لقوله الشعر فكان يسير في أحياء العرب يشرب الخمر ويتصيد، فلما أتاه نعي أبيه وهو يشرب ويلعب النرد بدمون من أرض اليمن قال «ضيعني صغيراً وحملني دمه كبيراً، لأصحو اليوم ولأسكر غداً، اليوم خمر وغداً أمر» فذهبت مثلاً، وحرم على نفسه الخمر والنساء حتى يقتل من بني أسد مائة ويطلق مائة، فاستنصر بكراً وتغلب فأجاباه حتى وضع السلاح في بني كنانة يظنهم بني أسد، ثم استمد حمير وأزد شنوءة، ولما طلبه المنذر صاحب الحيرة تفرق عنه أصحابه فنزل على السموأل بن عادياء اليهودي بقلعة الأبلق وأودعه أهله وأدراعه وكتب له إلى الحارث بن أبي شمر الغساني ليوصله إلى قيصر يستنصره على ثأر أبيه {cite:kamil-ibn-al-athir p. 384-385}."
+  en: "Imru' al-Qays ibn Hujr al-Kindi, the most celebrated of the jahili poets and author of a Mu'allaqa: banished by his father for poetry, he was drinking and playing nard at Damun when word came of Hujr's death — 'he ruined me young and loaded me with his blood grown; today wine, tomorrow the affair' — and swore off wine and women until he had slain a hundred of Banu Asad; when al-Mundhir of al-Hira pursued him he lodged his family and armour with Samaw'al ibn Adiya at al-Ablaq and went on to seek Byzantine help {cite:kamil-ibn-al-athir p. 384-385}."
+roles: [poet]
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/hujr-ibn-al-harith-al-kindi, sources: [source/kamil-ibn-al-athir] }
+  - { type: member_of, target: group/kinda, sources: [source/kamil-ibn-al-athir] }
+  - { type: protected, target: person/al-samawal-ibn-adiya, note: "أجاره وأودعه أهله وأدراعه", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص384-385"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-22
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
