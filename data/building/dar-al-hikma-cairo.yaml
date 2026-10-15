@@ -1,0 +1,24 @@
+id: building/dar-al-hikma-cairo
+class: building
+kind: library
+label:
+  ar: دار الحكمة بالقاهرة
+  en: The Dar al-Hikma of Cairo
+summary:
+  ar: "دار الحكمة بالقاهرة، أنشأها الخليفة الفاطمي الحاكم بأمر الله سنة 395هـ، وهي أشهر مدارس الحكمة الفاطمية التي نهض بها المذهب الإسماعيلي لنشر عقائده بين الأشياع — بدأت بمدارس الدعوة في المهدية في عهد عبيد الله المهدي ثم راجت في المنصورية في عهد المنصور ثم في القاهرة من عهد المعز، ولم تكن مقصورة على القاهرة بل جاوزت إلى أقاليم الدعوة الرئيسية وجزرها، وكانت متصلة بمكتبة دار العلم التي جمعت كثيراً من المؤلفات للاطلاع والنسخ، وأغلقها الوزير الأفضل ثم أعادها الخليفة الآمر."
+  en: "The Dar al-Hikma of Cairo, founded by the Fatimid caliph al-Hakim bi-Amr Allah in 395 — the most famous of the Fatimid 'madaris al-hikma' through which the Ismaili da'wa spread its doctrines among its adherents. The institution began with the da'wa-schools al-Mahdi Ubayd Allah opened at Mahdiyya, flourished at Mansuriyya under al-Mansur, then at Cairo from al-Mu'izz's reign, reaching the chief 'islands' of the da'wa beyond Egypt. Attached to it was the Dar al-Ilm library holding many works for reading and copying; the vizier al-Afdal closed it and the caliph al-Amir reopened it."
+wings: [people, place]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+relations:
+- { type: located_in, target: place/cairo, sources: [source/tarikh-islam-hasan-ibrahim] }
+- { type: founded_by, target: person/al-hakim-bi-amr-allah, role: "أنشأها سنة 395هـ", sources: [source/tarikh-islam-hasan-ibrahim] }
+- { type: "related_to", target: "polity/fatimid-caliphate", note: "من مدارس الحكمة الفاطمية", sources: [source/tarikh-islam-hasan-ibrahim] }
+provenance:
+  layer: own-research
+  source: حسن إبراهيم حسن، تاريخ الإسلام ج4 — معاهد الثقافة، ص405، 409؛ وج3 ص173
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-hasanibrahim-15
+sources: [source/tarikh-islam-hasan-ibrahim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
