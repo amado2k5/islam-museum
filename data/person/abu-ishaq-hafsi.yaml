@@ -1,0 +1,36 @@
+id: person/abu-ishaq-hafsi
+class: person
+label:
+  ar: السلطان أبو إسحاق الحفصي
+  en: Sultan Abu Ishaq al-Hafsi
+summary:
+  ar: "أبو إسحاق إبراهيم بن أبي زكريا، أخو المستنصر؛ كان نازحاً إلى الأندلس أيام دولة أخيه، فلما هلك وبويع ابنه الواثق أجاز من الأندلس إلى تلمسان فدخل بجاية آخر ذي القعدة سنة 677هـ وبايعه الموحدون والملأ، ودخل الحضرة منتصف الحجة آخر سنة 678هـ بعد انخلاع ابن أخيه، واستعمل في خطة الأشغال أبا بكر بن أبي الحسن بن خلدون الذي كان وفد مع أبيه الحسن على الأمير أبي زكريا من إشبيلية."
+  en: "Abu Ishaq Ibrahim ibn Abi Zakariya, brother of al-Mustansir; settled in al-Andalus during his brother's reign, he crossed to Tlemcen when al-Mustansir died and the son al-Wathiq was acclaimed, entered Bejaia at the end of Dhu al-Qa'da 677 where the Almohads and notables swore him, and took the capital in mid-Dhu al-Hijja 678 after his nephew's abdication — appointing to the Ashghal office Abu Bakr ibn Abi al-Hasan ibn Khaldun, whose father al-Hasan had come from Seville under Abu Zakariya's protection."
+gender: male
+roles: [caliph]
+traditions: [sunni]
+died: { edtf: "1283", hijri: "0683", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك سنة 683هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: child_of
+  target: person/abu-zakariya-al-hafsi
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/hafsid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb, andalus-europe]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — إجازة السلطان أبي إسحاق من الأندلس واستيلاؤه على الحضرة، ص1723-1724 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

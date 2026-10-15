@@ -1,0 +1,35 @@
+id: person/al-wathiq-hafsi
+class: person
+label:
+  ar: الواثق يحيى بن المستنصر الحفصي
+  en: al-Wathiq Yahya ibn al-Mustansir al-Hafsi
+summary:
+  ar: "يحيى بن المستنصر الملقب بالواثق والمشهور بالمخلوع؛ بويع ليلة هلاك أبيه سنة 675هـ فافتتح أمره برفع المظالم وتسريح أهل السجون وإفاضة العطاء وإصلاح المساجد، واستبد عليه وزيره الأندلسي ابن الحبّر الذي أهلك الوزير ابن أبي الحسين عذاباً على ذخيرة من ماله، فلما دخل عمه أبو إسحاق بجاية ودعا له الجند استيقن الواثق ذهاب ملكه وانخلع عن الأمر لعمه غرة ربيع الأول سنة 678هـ وتحول عن قصور القصبة إلى دار الأقوري."
+  en: "Yahya ibn al-Mustansir, titled al-Wathiq and known as the Deposed; acclaimed the night of his father's death in 675 AH, he opened with redress of grievances, freeing prisoners, largesse and restoring mosques, until his Andalusi vizier Ibn al-Habbar dominated him and tortured the vizier Ibn Abi al-Husayn to death over his hoard; when his uncle Abu Ishaq entered Bejaia and the army called for him, al-Wathiq knew his reign was spent and abdicated on 1 Rabi I 678, moving from the citadel's palaces to the Aquri house."
+gender: male
+roles: [caliph]
+traditions: [sunni]
+relations:
+- type: child_of
+  target: person/al-mustansir-hafsi
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/hafsid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — بيعة الواثق يحيى بن المستنصر، ص1723-1724 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
