@@ -1,0 +1,26 @@
+id: person/ghiyath-al-din-muhammad-ibn-sam
+class: person
+label: { ar: "غياث الدين الغوري", en: "Ghiyath al-Din Muhammad ibn Sam" }
+summary:
+  ar: "غياث الدين أبو الفتح محمد بن سام الغوري صاحب غزنة وبعض خراسان؛ يصفه ابن الأثير بأنه كان مظفراً منصوراً في حروبه لم تهزم له راية قط، قليل المباشرة للقتال وله دهاء ومكر، جواداً كثير الصدقات والأوقاف بخراسان بنى المساجد والمدارس لأصحاب الشافعي والخانكاهات في الطرق وأسقط المكوس؛ أكرم الفقيه فخر الدين الرازي وبالغ في إكرامه وبنى له مدرسة بهراة بالقرب من الجامع، وحضر مناظرته مع الكرامية بفيروزكوه سنة خمس وتسعين وخمسمائة؛ توفي في جمادى الأولى سنة تسع وتسعين وخمسمائة وأخفيت وفاته حتى وصل أخوه شهاب الدين إلى هراة فأظهرها في رجب، وخلفه ابنه محمود الذي لُقّب غياث الدين {cite:kamil-ibn-al-athir p. 262، 282}."
+  en: "Abu al-Fath Muhammad ibn Sam al-Ghuri, sultan of Ghazna and much of Khurasan — Ibn al-Athir credits him with a never-defeated standard, rule by stratagem rather than personal combat, abolition of the mukus tolls, and madrasas and khanqahs across Khurasan; patron of Fakhr al-Din al-Razi at Herat and host of the Firuzkuh debate (595); died Jumada I 599, his death concealed until his brother Shihab al-Din reached Herat {cite:kamil-ibn-al-athir p. 262, 282}."
+gender: male
+died: { edtf: "1203-01~", hijri: "0599-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى 599هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 282}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: sibling_of
+  target: person/shihab-al-din-ghuri
+  sources: [source/kamil-ibn-al-athir]
+- type: participated_in
+  target: event/firuzkuh-fitna-595
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+roles: [ruler]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 262، 282"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-06
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
