@@ -1,0 +1,17 @@
+id: person/abu-zayd-al-marwazi
+class: person
+label: { ar: "أبو زيد المروزي محمد بن أحمد بن عبد الله" }
+names:
+  - { kind: full, lang: ar, value: "أبو زيد محمد بن أحمد بن عبد الله بن محمد المروزي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0371", edtf: "0981~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بمرو في رجب سنة 371هـ (PDF ص60). حاشية 3: «البزاز» في ط، و«البزار» في ابن خلكان.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو زيد محمد بن أحمد بن عبد الله المروزي، صاحب أبي إسحاق، مات بمرو في رجب سنة إحدى وسبعين وثلاثمائة، وكان حافظاً للمذهب حسن النظر مشهوراً بالزهد {cite:tabaqat-fuqaha-abbas-1981 p. 60}. ينقل الشيرازي عن أبي بكر البزار قوله: «عادلت الفقيه أبا زيد من نيسابور إلى مكة فما أعلم أن الملائكة كتبت عليه خطيئة» {cite:tabaqat-fuqaha-abbas-1981 p. 60}. وعنه أخذ أبو بكر القفال المروزي وفقهاء مرو {cite:tabaqat-fuqaha-abbas-1981 p. 60}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/abu-ishaq-ibrahim-al-marwazi, role: "صاحب أبي إسحاق (PDF ص60)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

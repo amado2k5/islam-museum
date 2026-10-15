@@ -1,0 +1,17 @@
+id: person/abu-ishaq-ibrahim-al-marwazi
+class: person
+label: { ar: "أبو إسحاق المروزي إبراهيم بن أحمد" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم بن أحمد المروزي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { hijri: "0340", edtf: "0951~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بمصر سنة 340هـ (PDF ص59)؛ يذكر الشيرازي أن «المختصر» المشروح هو مختصر المزني (حاشية 4).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو إسحاق إبراهيم بن أحمد المروزي، صاحب أبي العباس ابن سريج. انتهت إليه الرياسة في العلم ببغداد، وشرح «المختصر» {cite:tabaqat-fuqaha-abbas-1981 p. 59}، وصنّف الأصول، وأخذ عنه الأئمة، وانتشر الفقه عن أصحابه في البلاد، وخرج إلى مصر ومات بها سنة أربعين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 59}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/ahmad-ibn-umar-ibn-surayj, role: "صاحب أبي العباس ابن سريج (PDF ص59)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

@@ -1,0 +1,17 @@
+id: person/abu-al-husayn-ibn-al-qattan
+class: person
+label: { ar: "أبو الحسين ابن القطان البغدادي" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسين أحمد بن محمد المعروف بابن القطان البغدادي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0359", edtf: "0970~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: سنة 359هـ (PDF ص59). مصدر ثانٍ مطلوب.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو الحسين أحمد بن محمد المعروف بابن القطان البغدادي، وهو آخر من عرفه الشيرازي من أصحاب أبي العباس ابن سريج. درّس ببغداد وأخذ عنه العلماء، ومات سنة تسع وخمسين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 59}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/ahmad-ibn-umar-ibn-surayj, role: "من أصحاب أبي العباس ابن سريج (PDF ص59)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

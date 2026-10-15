@@ -1,0 +1,17 @@
+id: person/al-qaffal-al-shashi
+class: person
+label: { ar: "القفال الشاشي أبو بكر محمد بن علي" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر محمد بن علي بن إسماعيل القفال الشاشي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { hijri: "0336", edtf: "0947~", calendar: julian, precision: year, status: debated, derived: true, note: "الشيرازي: سنة 336هـ (PDF ص59)؛ ابن خلكان في الحاشية: بالشاش سنة 365هـ، وفي الذيل سنة 336هـ. متنازع فيه، ويحتاج إلى مصدر ثانٍ.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو بكر محمد بن علي بن إسماعيل القفال الشاشي. درس على أبي العباس ابن سريج، وكان إماماً وله مصنفات كثيرة، وهو أول من صنّف الجدل الحسن من الفقهاء، وله كتاب في أصول الفقه، وله «شرح الرسالة»، وعنه انتشر فقه الشافعي فيما وراء النهر {cite:tabaqat-fuqaha-abbas-1981 p. 59}. قال الشيرازي إنه مات سنة ست وثلاثين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 59}، ونقل ابن خلكان اختلافاً في وفاته، منها أنه توفي بالشاش سنة خمس وستين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 59}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/ahmad-ibn-umar-ibn-surayj, role: "درس على أبي العباس ابن سريج (PDF ص59)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

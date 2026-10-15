@@ -1,0 +1,17 @@
+id: person/abu-ali-al-tabari-al-hasan-ibn-al-qasim
+class: person
+label: { ar: "أبو علي الطبري الحسن بن القاسم" }
+names:
+  - { kind: full, lang: ar, value: "أبو علي الحسن بن القاسم الطبري" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { hijri: "0350", edtf: "0961~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: سنة 350هـ (PDF ص60). اسم «الحسين» عند السبكي (حاشية 1). عنوان «المحرر» كما هو مطبوع في OCR؛ يحتاج إلى التحقق على الصورة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو علي الحسن بن القاسم الطبري، من مصنفي أصحاب الشافعي، علّق عن أبي علي ابن أبي هريرة، والتعليقة المنسوبة إلى أبي علي هي هذه التعليقة {cite:tabaqat-fuqaha-abbas-1981 p. 60}. مات سنة خمسين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 60}. صنّف «المحرر» في النظر، وهو أول كتاب صُنّف في الخلاف المجرد، وصنّف «الإفصاح» في المذهب، وأصول الفقه، والجدل، ودرّس ببغداد بعد أستاذه أبي علي ابن أبي هريرة {cite:tabaqat-fuqaha-abbas-1981 p. 60}. حاشية الكتاب تذكر أن السبكي يسميه «الحسين» {cite:tabaqat-fuqaha-abbas-1981 p. 60}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/abu-ali-ibn-abi-hurayra, role: "علّق عن أبي علي ابن أبي هريرة (PDF ص60)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

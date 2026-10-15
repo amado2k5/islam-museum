@@ -1,0 +1,18 @@
+id: person/abu-bakr-al-sibi
+class: person
+label: { ar: "أبو بكر السيبي أحمد بن محمد" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر أحمد بن محمد بن علي بن الحسين بن يحيى السيبي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+born: { hijri: "0296", edtf: "0909~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: ولد سنة 296هـ (PDF ص61).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+died: { hijri: "0372", edtf: "0982~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: أول رجب سنة 372هـ (PDF ص61). مصدر ثانٍ مطلوب.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو بكر أحمد بن محمد بن علي بن الحسين بن يحيى السيبي. ولد بقصر ابن هبيرة سنة ست وتسعين ومائتين، ودخل بغداد بعد أن أحرق القرمطي قصر ابن هبيرة سنة أربع عشرة وثلاثمائة، ودرس على أبي إسحاق المروزي، ورجع إلى قصره ونشر بها مذهب الشافعي، ومات في أول يوم من رجب سنة اثنتين وسبعين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 61}. حاشية الكتاب تذكر أن نسبه ورد في بعض المصادر «الحسن» و«السني»، والنسبة إلى «السيب» بنواحي قصر ابن هبيرة {cite:tabaqat-fuqaha-abbas-1981 p. 61}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/abu-ishaq-ibrahim-al-marwazi, role: "درس على أبي إسحاق المروزي (PDF ص61)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

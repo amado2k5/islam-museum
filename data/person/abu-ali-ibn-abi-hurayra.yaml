@@ -1,0 +1,18 @@
+id: person/abu-ali-ibn-abi-hurayra
+class: person
+label: { ar: "القاضي أبو علي ابن أبي هريرة البغدادي" }
+names:
+  - { kind: full, lang: ar, value: "أبو علي الحسن بن الحسين بن أبي هريرة البغدادي" }
+gender: male
+roles: [jurist, qadi]
+traditions: [sunni]
+died: { hijri: "0345", edtf: "0956~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: سنة 345هـ (PDF ص59)؛ حاشية الخطيب: في رجب (PDF ص59). مصدر ثانٍ مطلوب للتحقق.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "القاضي أبو علي ابن أبي هريرة البغدادي. درس على أبي العباس ابن سريج وعلى أبي إسحاق المروزي، وشرح المزني، وعلّق عنه الشرح أبو علي الطبري، ودرّس ببغداد ومات سنة خمس وأربعين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 59}. ذكر الخطيب أنه مات في رجب من تلك السنة {cite:tabaqat-fuqaha-abbas-1981 p. 59}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/ahmad-ibn-umar-ibn-surayj, role: "درس على أبي العباس ابن سريج (PDF ص59)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/abu-ishaq-ibrahim-al-marwazi, role: "درس على أبي إسحاق (PDF ص59)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

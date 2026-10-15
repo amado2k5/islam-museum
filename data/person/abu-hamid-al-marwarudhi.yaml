@@ -1,0 +1,17 @@
+id: person/abu-hamid-al-marwarudhi
+class: person
+label: { ar: "القاضي أبو حامد المروروذي أحمد بن عامر بن بشر" }
+names:
+  - { kind: full, lang: ar, value: "أبو حامد أحمد بن عامر بن بشر المروروذي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { hijri: "0362", edtf: "0973~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: سنة 362هـ (PDF ص60). الاسم والنسب مختلفان في المصادر (حاشية 2).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "القاضي أبو حامد أحمد بن عامر بن بشر المروروذي، صاحب أبي إسحاق المروزي. مات سنة اثنتين وستين وثلاثمائة، ونزل البصرة ودرّس بها، وصنّف «الجامع» في المذهب، وشرح المزني، وصنّف في أصول الفقه، وكان إماماً لا يشق غباره، وعنه أخذ فقهاء البصرة {cite:tabaqat-fuqaha-abbas-1981 p. 60}. حاشية الكتاب تذكر أن ابن خلكان والسبكي يختلفان في نسبه بين «ابن عامر بن بشر» و«ابن بشر بن عامر» {cite:tabaqat-fuqaha-abbas-1981 p. 60}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/abu-ishaq-ibrahim-al-marwazi, role: "صاحب أبي إسحاق المروزي (PDF ص60)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

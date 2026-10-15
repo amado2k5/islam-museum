@@ -1,0 +1,17 @@
+id: person/abu-al-hasan-ibn-al-marzuban
+class: person
+label: { ar: "أبو الحسن ابن المرزبان البغدادي" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن ابن المرزبان البغدادي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0366", edtf: "0976~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: سنة 366هـ (PDF ص61). حاشية 3 تحيل إلى ابن خلكان وتاريخ بغداد.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو الحسن ابن المرزبان البغدادي، صاحب أبي الحسين ابن القطان. مات سنة ست وستين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 61}، وكان فقيهاً ورعاً، حُكي عنه أنه قال: «ما أعلم أن لأحد عليّ مظلمة»، وكان فقيهاً يعلم أن الغيبة من المظالم {cite:tabaqat-fuqaha-abbas-1981 p. 61}. ودرّس ببغداد، وعليه درس الشيخ أبو حامد الإسفراييني {cite:tabaqat-fuqaha-abbas-1981 p. 61}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/abu-al-husayn-ibn-al-qattan, role: "صاحب أبي الحسين ابن القطان (PDF ص61)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

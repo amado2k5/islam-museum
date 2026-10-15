@@ -1,0 +1,16 @@
+id: person/abu-ali-al-zajjaji-al-tabari
+class: person
+label: { ar: "أبو علي الزجاجي الطبري" }
+names:
+  - { kind: full, lang: ar, value: "أبو علي الزجاجي الطبري" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو علي الزجاجي الطبري، من أصحاب أبي العباس ابن القاص، وله كتاب «زيادة المفتاح»، وعنه أخذ فقهاء آمل، ودرس عليه شيخ الشيرازي القاضي أبو الطيب {cite:tabaqat-fuqaha-abbas-1981 p. 61}. لم يذكر الشيرازي تاريخ وفاته."
+wings: [people]
+relations:
+  - { type: student_of, target: person/abu-al-abbas-ibn-al-qass-al-tabari, role: "من أصحاب أبي العباس ابن القاص (PDF ص61)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }

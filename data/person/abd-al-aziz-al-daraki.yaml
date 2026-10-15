@@ -1,0 +1,17 @@
+id: person/abd-al-aziz-al-daraki
+class: person
+label: { ar: "الداركي أبو القاسم عبد العزيز بن عبد الله" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم عبد العزيز بن عبد الله الداركي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0375", edtf: "0985~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: سنة 375هـ (PDF ص61). مصدر ثانٍ مطلوب.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو القاسم عبد العزيز بن عبد الله الداركي، كان فقيهاً حصلاً، تفقه على أبي إسحاق المروزي {cite:tabaqat-fuqaha-abbas-1981 p. 61}. مات سنة خمس وسبعين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 61}. وذكره ابن كج في ترجمته بأنه حضر مجلس الداركي {cite:tabaqat-fuqaha-abbas-1981 p. 61}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/abu-ishaq-ibrahim-al-marwazi, role: "تفقه على أبي إسحاق المروزي (PDF ص61)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص59–61", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-7" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 7 (PDF ص59–61)" }
