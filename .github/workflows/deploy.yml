@@ -64,15 +64,18 @@ jobs:
           curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
             -H "Authorization: Bearer ${CF_API_TOKEN}" -H "Content-Type: application/json" \
             --data '{"purge_everything":true}'
-      - name: Notify IndexNow
-        # Needs repository secret INDEXNOW_KEY.
-        env:
-          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
-          SITE_URL: ${{ steps.deployment.outputs.page_url }}
-        run: |
-          if [ -z "$INDEXNOW_KEY" ]; then
-            echo "INDEXNOW_KEY secret not set; skipping IndexNow notification."; exit 0
-          fi
-          curl -fsS -X POST "https://api.indexnow.org/indexnow" \
-            -H "Content-Type: application/json; charset=utf-8" \
-            --data "{\"host\": \"${SITE_URL#https://}\", \"key\": \"$INDEXNOW_KEY\", \"urlList\": [\"${SITE_URL}\"]}"
+  # Pings IndexNow with the URLs changed in this push (scripts/indexnow.mjs), so
+  # Bing/Yandex pick up new and updated pages without waiting for a crawl.
+  # Set the repository variable INDEXNOW to "off" to skip it.
+  notify-indexnow:
+    if: vars.INDEXNOW != 'off'
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          # The previous commit is the cut-off for "changed".
+          fetch-depth: 2
+      - name: Submit changed URLs to IndexNow
+        run: node scripts/indexnow.mjs
