@@ -1,0 +1,26 @@
+id: work/letter-to-the-kings-of-himyar
+class: work
+kind: charter
+label: { ar: "كتاب النبي إلى ملوك حمير", en: "The Prophet's letter to the kings of Himyar" }
+summary:
+  ar: "كتاب بعث به النبي إلى الحارث بن عبد كلال ونعيم بن عبد كلال والنعمان قيل ذي رعين ومعافر وهمدان جواباً على كتابهم بإسلامهم: يذكر لقاء رسولهم بالمدينة منقلبه من أرض الروم، ويبيّن ما على المسلمين من الصلاة والزكاة وخمس المغانم وسهم النبي وصفيه، وفرائض الصدقة في الزرع والإبل والبقر والغنم، وأن من أسلم من يهودي أو نصراني فهو من المؤمنين، ومن بقي على دينه لا يُرد عنها وعليه الجزية ديناراً وافياً على كل حالم أو عوضه ثياباً. ثم خطاب لزرعة ذي يزن بالوصية برسله وأن أميرهم معاذ بن جبل، وأن الصدقة لا تحل لمحمد ولا لأهل بيته."
+  en: "A letter the Prophet sent to al-Harith ibn Abd Kulal, Nu'aym ibn Abd Kulal and al-Nu'man, qayl of Dhu Ru'ayn, Ma'afir and Hamdan, in answer to their letter announcing their Islam: it records meeting their envoy at Medina on his return from the land of the Romans, sets out the Muslims' duties of prayer, zakat, the fifth of booty with the Prophet's share and safi, the sadaqa rates on crops, camels, cattle and sheep, and rules that a Jew or Christian who converts is a believer while one who keeps his faith is not turned from it and owes a jizya of one full dinar per adult or its value in cloth. A second part addresses Zur'a Dhu Yazan, commending the envoys under Mu'adh ibn Jabal and stating that sadaqa is unlawful for Muhammad and his household."
+genre: [charter]
+made: { by_muslims: true, basis: unverified, sources: [source/ibn-hisham-saqqa] }
+language: language/arabic
+composed: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "«مقدمه من تبوك» (ص235)؛ تبوك في رجب سنة 9هـ.", sources: [source/ibn-hisham-saqqa] }
+wings: [words]
+themes: [zakat-and-sadaqa, non-muslim-minorities-under-muslim-rule, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: mentions, target: event/letter-of-himyar-kings, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: group/himyar, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/malik-ibn-murra-al-rahawi, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: person/zura-dhu-yazan, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: concept/jizya, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: concept/dhimma, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 235-237", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 235-237" }

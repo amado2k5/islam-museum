@@ -43,6 +43,15 @@ relations:
   target: place/kufa
   sources:
   - source/ibn-hajar-isaba
+- type: member_of
+  target: group/kinda
+  sources:
+  - source/ibn-hisham-saqqa
+- type: participated_in
+  target: event/delegation-of-kinda
+  role: رأس الوفد
+  sources:
+  - source/ibn-hisham-saqqa
 provenance:
   layer: own-research
   source: الإصابة في تمييز الصحابة، ترجمة 315، ص 70
@@ -51,6 +60,7 @@ provenance:
   run: isaba-batch-4
 sources:
 - source/ibn-hajar-isaba
+- source/ibn-hisham-saqqa
 status:
   review: draft
   completeness: 2

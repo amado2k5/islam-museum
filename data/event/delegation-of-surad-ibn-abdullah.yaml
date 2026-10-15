@@ -1,0 +1,23 @@
+id: event/delegation-of-surad-ibn-abdullah
+class: event
+kind: gathering
+label: { ar: "قدوم صرد بن عبد الله الأزدي وإسلامه", en: "Surad ibn Abdullah al-Azdi comes to the Prophet and embraces Islam" }
+summary:
+  ar: "قدم صرد بن عبد الله الأزدي في وفد من الأزد على النبي فأسلم وحسن إسلامه، فأمّره النبي على من أسلم من قومه وأمره أن يجاهد بمن أسلم من كان يليه من أهل الشرك من قبائل اليمن."
+  en: "Surad ibn Abdullah al-Azdi came in an Azd delegation to the Prophet and became a good Muslim; the Prophet set him over the Muslims of his people and ordered him to fight, with those who had converted, the neighbouring polytheist tribes of Yemen."
+wings: [time, people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "ضمن سنة الوفود عند ابن إسحاق (ص233)؛ لا يذكر الكتاب الشهر.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/year-of-delegations, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/surad-ibn-abdullah-al-azdi, role: "الوافد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "أمّره على من أسلم من قومه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/al-azd, role: "الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: caused, target: event/surad-campaign-against-jurash, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 233-234", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 233-234" }

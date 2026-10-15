@@ -1,0 +1,26 @@
+id: person/zura-dhu-yazan
+class: person
+label: { ar: "زرعة ذو يزن", en: "Zur'a Dhu Yazan" }
+names:
+  - { kind: full, lang: ar, value: "زرعة ذو يزن" }
+gender: male
+roles: [politician]
+traditions: [sunni]
+summary:
+  ar: "من ملوك حمير، بعث مالك بن مرة الرهاوي إلى النبي بإسلامهم ومفارقتهم الشرك، وخاطبه النبي في كتابه بالوصية برسله وأميرهم معاذ بن جبل، وبشّره لأنه أسلم من أول حمير."
+  en: "A Himyarite king who sent Malik ibn Murra al-Rahawi to the Prophet with news of their Islam and separation from idolatry; the Prophet's letter addresses him, commending the envoys under Mu'adh ibn Jabal and congratulating him for being the first of Himyar to convert."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: ruler, toward: group/himyar, status: tradition, note: "من ملوك حمير وأقيالها (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كتب بإسلامه مقدم النبي من تبوك (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أعلن إسلامه في كتاب ملوك حمير (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/himyar, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/letter-of-himyar-kings, role: "من أصحاب الكتاب", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 235-237", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 235-237" }

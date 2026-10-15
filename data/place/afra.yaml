@@ -1,0 +1,15 @@
+id: place/afra
+class: place
+kind: site
+label: { ar: "عَفْراء", en: "Afra'" }
+summary:
+  ar: "ماء للروم بفلسطين صلبوا عليه فروة بن عمرو الجذامي وضربوا عنقه؛ ذكره فروة في بيتيه، وفي شرح المواهب للزرقاني أنه ممدود وقصره في الشعر ضرورة، وفي أصول السيرة «عفرا» بالقصر."
+  en: "A water of the Romans in Palestine where Farwa ibn Amr al-Judhami was crucified and beheaded; he names it in his two verses, and al-Zurqani's commentary on al-Mawahib reads it with the long ending, shortened in the verse by licence, while the sira's manuscripts have the short form."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [levant-iraq]
+relations:
+  - { type: located_in, target: place/al-sham, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 238 and n. 5", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 238; no coordinates" }

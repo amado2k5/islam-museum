@@ -13,6 +13,8 @@ date:
   start: { edtf: "0630~", hijri: "0008", calendar: julian, precision: year, status: tradition }
 relations:
   - { type: occurred_at, target: place/afra }
-  - { type: had_participant, target: person/farwa-ibn-amr-al-judhami }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
+  - { type: had_participant, target: person/farwa-ibn-amr-al-judhami, role: "الشهيد", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: polity/byzantine-empire, role: "حبسوه وصلبوه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad-ibn-shihab-al-zuhri, role: "راوي بيته الأخير", sources: [source/ibn-hisham-saqqa] }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

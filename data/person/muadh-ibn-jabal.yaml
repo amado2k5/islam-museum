@@ -16,9 +16,9 @@ themes: [dawa-and-christian-mission, development-of-law-theology-institutions, i
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia, levant-iraq]
 story_roles:
-  - { role: convert, start: { edtf: "0621" }, status: tradition, note: "Embraced Islam at the second pledge of Aqaba, aged about eighteen.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: convert, start: { edtf: "0621" }, status: tradition, note: "Embraced Islam at the second pledge of Aqaba, aged about eighteen.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa] }
   - { role: companion, start: { edtf: "0621" }, status: tradition, sources: [source/ibn-sad-tabaqat-bewley] }
-  - { role: missionary, toward: place/yemen, start: { edtf: "0631" }, end: { edtf: "0632" }, status: tradition, note: "Sent to Yemen to teach Islam, collect the alms and judge disputes.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume] }
+  - { role: missionary, toward: place/yemen, start: { edtf: "0631" }, end: { edtf: "0632" }, status: tradition, note: "Sent to Yemen to teach Islam, collect the alms and judge disputes.", sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa] }
   - { role: scholar, start: { edtf: "0630~" }, status: tradition, note: "Counted among the foremost in legal knowledge in the tradition.", sources: [source/ibn-sad-tabaqat-bewley] }
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
@@ -30,5 +30,6 @@ relations:
   - { type: participated_in, target: event/pledges-of-aqaba, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/battle-of-badr, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: traveled_to, target: place/yemen, sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume]
+  - { type: participated_in, target: event/mission-of-muadh-to-yemen, role: "أمير رسل النبي إلى اليمن", sources: [source/ibn-hisham-saqqa] }
+sources: [source/ibn-sad-tabaqat-bewley, source/ibn-ishaq-guillaume, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

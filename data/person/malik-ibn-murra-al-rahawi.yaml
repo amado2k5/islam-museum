@@ -1,0 +1,25 @@
+id: person/malik-ibn-murra-al-rahawi
+class: person
+label: { ar: "مالك بن مرة الرهاوي", en: "Malik ibn Murra al-Rahawi" }
+names:
+  - { kind: full, lang: ar, value: "مالك بن مرة الرهاوي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "رسول ملوك حمير إلى النبي بإسلامهم ومفارقتهم الشرك، بعثه زرعة ذو يزن فلقي النبي بالمدينة منقلبه من تبوك؛ وذكره النبي في كتابه إلى حمير بين رسله الذين أميرهم معاذ بن جبل، وأنه بلّغ الخبر وحفظ الغيب وحدّثه أن زرعة أسلم من أول حمير."
+  en: "The envoy of Himyar's kings to the Prophet with news of their Islam, sent by Zur'a Dhu Yazan, who met the Prophet at Medina on his return from Tabuk; the Prophet's letter names him among the envoys under Mu'adh ibn Jabal, says he delivered the message faithfully, and reports his account that Zur'a was the first of Himyar to convert."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: official, status: tradition, note: "رسول ملوك حمير ثم من رسل النبي إليهم (ابن هشام ص235-237).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: participated_in, target: event/letter-of-himyar-kings, role: "رسول الملوك إلى النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/mission-of-muadh-to-yemen, role: "من رسل النبي مع معاذ", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 235-237", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 235-237" }

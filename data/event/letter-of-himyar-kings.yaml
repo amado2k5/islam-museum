@@ -10,13 +10,19 @@ themes: [peace-making-and-coexistence, conferences-and-declarations]
 periods: [period/prophetic-era]
 regions: [arabia]
 date:
-  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition }
+  start: { edtf: "0631~", hijri: "0009", calendar: julian, precision: year, status: tradition, note: "«مقدمه من تبوك» عند ابن إسحاق (ص235)؛ الرحيق ص449.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: group/himyar }
   - { type: had_participant, target: person/malik-ibn-murra-al-rahawi }
   - { type: had_participant, target: person/muadh-ibn-jabal }
-  - { type: had_participant, target: person/muhammad }
+  - { type: had_participant, target: person/muhammad, role: "كتب الجواب", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-harith-ibn-abd-kulal, role: "من الملوك الكاتبين", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/nuaym-ibn-abd-kulal, role: "من الملوك الكاتبين", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-numan-qayl-dhi-ruayn, role: "من الملوك الكاتبين", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/zura-dhu-yazan, role: "بعث الرسول بإسلامهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: caused, target: event/mission-of-muadh-to-yemen, sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: event/year-of-delegations }
-sources: [source/mubarakpuri-raheeq, source/zad-al-maad]
-status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 235-237; al-Raheeq al-Makhtum p. 449", generated_by: "Devin; extended by Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22); extended by Claude Fable 5.1 from Ibn Hisham juz' 4 pp. 235-237" }

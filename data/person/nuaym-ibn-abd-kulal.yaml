@@ -1,0 +1,26 @@
+id: person/nuaym-ibn-abd-kulal
+class: person
+label: { ar: "نعيم بن عبد كلال", en: "Nu'aym ibn Abd Kulal" }
+names:
+  - { kind: full, lang: ar, value: "نعيم بن عبد كلال" }
+gender: male
+roles: [politician]
+traditions: [sunni]
+summary:
+  ar: "من ملوك حمير الذين كتبوا إلى النبي بإسلامهم مقدمه من تبوك، وكتب إليهم النبي كتابه."
+  en: "One of the kings of Himyar who wrote to the Prophet announcing their Islam on his return from Tabuk, and to whom the Prophet addressed his letter."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: ruler, toward: group/himyar, status: tradition, note: "من ملوك حمير وأقيالها (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+  - { role: convert, toward: person/muhammad, start: { edtf: "0631~" }, status: tradition, note: "كتب بإسلامه مقدم النبي من تبوك (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+faith:
+  - { value: sunni, basis: tradition, start: { edtf: "0631~" }, note: "أعلن إسلامه في كتاب ملوك حمير (ابن هشام ص235).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/himyar, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/letter-of-himyar-kings, role: "من أصحاب الكتاب", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 235-237", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 235-237" }

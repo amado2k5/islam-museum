@@ -1,0 +1,23 @@
+id: event/mission-of-muadh-to-yemen
+class: event
+kind: other
+label: { ar: "بعث معاذ بن جبل إلى اليمن ووصية النبي له", en: "The sending of Mu'adh ibn Jabal to Yemen and the Prophet's charge to him" }
+summary:
+  ar: "بعث النبي معاذ بن جبل أميراً على رسله إلى اليمن بعد كتاب ملوك حمير، وأوصاه حين بعثه: يسّر ولا تعسّر، وبشّر ولا تنفّر، وأخبره أنه سيقدم على قوم من أهل الكتاب يسألونه ما مفتاح الجنة فليقل: شهادة أن لا إله إلا الله وحده لا شريك له. ويروي ابن إسحاق عن عبد الله بن أبي بكر أنه حُدّث بذلك، ويورد سؤال امرأة من أهل اليمن معاذاً عن حق الزوج على المرأة."
+  en: "After the letter of Himyar's kings the Prophet sent Mu'adh ibn Jabal as amir of his envoys to Yemen and charged him on departure: make things easy, not hard; give good tidings, do not repel; you will come to People of the Book who will ask what the key of Paradise is, so say: the testimony that there is no god but God alone without partner. Ibn Ishaq has it from Abdullah ibn Abi Bakr, who was told it, and adds a Yemeni woman's question to Mu'adh about a husband's right over his wife."
+wings: [time, people, ideas]
+themes: [dawa-and-christian-mission, education]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد كتاب ملوك حمير مقدم النبي من تبوك (ص235-237)؛ الرحيق يذكر بعث معاذ سنة 10هـ في قول (ص449)؛ ابن سعد: سنة 9-10هـ.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/yemen, sources: [source/ibn-hisham-saqqa] }
+  - { type: caused_by, target: event/letter-of-himyar-kings, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muadh-ibn-jabal, role: "أمير الرسل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "الباعث والموصي", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/malik-ibn-murra-al-rahawi, role: "من الرسل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/himyar, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 236-237", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/ibn-sad-tabaqat-bewley]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 236-237" }

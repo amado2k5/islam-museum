@@ -1,0 +1,30 @@
+id: event/surad-campaign-against-jurash
+class: event
+kind: siege
+label: { ar: "غزوة صرد بن عبد الله لجرش وإسلام أهلها", en: "Surad ibn Abdullah's campaign against Jurash and the conversion of its people" }
+summary:
+  ar: "سار صرد بأمر النبي حتى نزل بجرش، مدينة مغلقة فيها قبائل من اليمن لجأت إليهم خثعم، فحاصرهم نحو شهر ثم رجع، فلما بلغ جبل شكر ظنوا أنه منهزم وطلبوه فعطف عليهم فقتلهم قتلاً شديداً. وكان أهل جرش قد بعثوا رجلين إلى النبي، فقال لهما بعد العصر: إن بُدن الله لتُنحر الآن عند شكر، فسألاه أن يدعو فقال: اللهم ارفع عنهم، فوجدا قومهما أصيبوا في ذلك اليوم والساعة. ثم قدم وفد جرش فأسلموا، وحمى لهم النبي حمى حول قريتهم للفرس والراحلة وبقرة الحرث."
+  en: "Surad marched at the Prophet's order to Jurash, a walled town sheltering Yemeni tribes and Khath'am, besieged it for about a month and withdrew; when at the mountain of Shakar its people pursued him thinking him beaten, he turned and slaughtered them. Jurash had sent two men to the Prophet, who told them after the afternoon prayer that God's sacrificial camels were being slaughtered at Shakar at that moment, then prayed at their request that it be lifted; they found their people struck that very day and hour. The delegation of Jurash then came and embraced Islam, and the Prophet set a protected reserve around their village for the horse, the mount and the plough-ox."
+wings: [time, people, place]
+themes: [skirmishes-raids-expeditions, converts-and-leavers, water-and-animals]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0009~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد قدوم صرد في سنة الوفود (ص233-234)؛ لا يذكر الكتاب الشهر.", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/jurash, sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: place/shakar, note: "موضع الوقعة", sources: [source/ibn-hisham-saqqa] }
+  - { type: caused_by, target: event/delegation-of-surad-ibn-abdullah, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/surad-ibn-abdullah-al-azdi, role: "القائد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/al-azd, role: "جيش صرد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/khathum, role: "لجأوا إلى جرش", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "أخبر وافدي جرش بالوقعة ودعا برفعها", sources: [source/ibn-hisham-saqqa] }
+sides:
+  - label: { ar: "من أسلم من الأزد بقيادة صرد", en: "The Muslim Azd under Surad" }
+    participants: [group/al-azd]
+    commanders: [person/surad-ibn-abdullah-al-azdi]
+  - label: { ar: "أهل جرش ومن لجأ إليهم من خثعم", en: "The people of Jurash and the Khath'am who took refuge with them" }
+    participants: [group/khathum]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 234-235", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-9b" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 234-235" }
