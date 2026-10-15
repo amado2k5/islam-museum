@@ -1,0 +1,38 @@
+id: polity/rum-seljuk-sultanate
+class: polity
+kind: sultanate
+label:
+  ar: سلطنة سلاجقة الروم
+  en: Sultanate of Rum
+summary:
+  ar: "دولة قطلمش وبنيه من السلجوقية ملوك قونية وبلاد الروم؛ دخل قطلمش بلاد الروم وملك قونية وأقصرا ونواحيهما، وعصى على ألب أرسلان فهزمه وقتل سنة 456هـ، فقام ابنه سليمان بأمره وافتتح أنطاكية من الروم سنة 477هـ ثم قتل في حربه مع تتش سنة 479هـ، وملك ابنه قليج أرسلان فنازع الإفرنج واستولى على الموصل وديار بكر حتى غرق بالخابور في حربه مع جاولي، فولي ابنه مسعود بلاد الروم، وبقي ملك بنيه بقونية حتى انقرضت دولتهم بالتتر."
+  en: "The state of Qutulmush and his sons, Seljuk kings of Konya and the land of Rum; Qutulmush entered Anatolia and held Konya, Aqsaray and their districts, rebelled against Alp Arslan and was killed in 456 AH — his son Sulayman succeeded, took Antioch from the Romans in 477 and fell fighting Tutush in 479; his son Qilij Arslan contested the Franks and seized Mosul and Diyar Bakr until he drowned in the Khabur fighting Jawali, leaving his son Mas'ud over the Rum lands, and their line held Konya until the Tatars ended their state."
+wings: [time, place]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [anatolia-balkans]
+start:
+  edtf: "1071~"
+  hijri: "0463~"
+  calendar: julian
+  precision: decade
+  status: tradition
+  note: دخول قطلمش بلاد الروم وملكه قونية وأقصرا في عهد طغرلبك؛ سنة تقريبية.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: founded_by
+  target: person/sulayman-ibn-qutlumush
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة قطلمش وبنيه ملوك قونية وبلاد الروم، ص1331-1333 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
