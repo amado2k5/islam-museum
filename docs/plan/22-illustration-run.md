@@ -88,7 +88,7 @@ All scripts live in `scripts/media/illustrate/` (new, owned by the `illustration
    Seeds are the first 31 bits of `sha256(media_id)` plus 0, 1, 2, so a rerun gives the same images.
 3. **`lint.py`** rejects a prompt before any GPU time is spent: figure words under `figure_policy: none` (man, woman, people, crowd, rider, soldier, figure, silhouette, hand, face, angel, prophet, and their Arabic equivalents in the cues); any person label together with portrait/face words; anachronisms listed for the period and region; the words text, calligraphy, inscription, banner with writing; any living artist's or studio's name; any prompt longer than 1,200 characters. A failed lint writes the reason into the prompt file and skips it.
 4. **`generate.py <class>`** loads Z-Image-Turbo once, walks the prompt files, skips seeds already in `generation.log.jsonl`, renders, saves PNG masters with embedded metadata, logs `{media_id, seed, model, mflux_version, quantize, seconds, status, file}`. Runs under `caffeinate -dims` in `tmux` (doc 10 §6.3) with a battery stop. Peak memory and seconds per image are printed every 10 images.
-5. **`screen.py <batch>`** runs the automatic gates on every PNG and writes `screen.json`: text detection with Apple Vision OCR (`ocrmac`, already used by the library pipeline; any recognised string of two or more letters fails the image), face detection with Vision (`VNDetectFaceRectanglesRequest` through `pyobjc-framework-Vision`; any face fails), and a person check with the same framework's human-rectangle request under `figure_policy: none`. Failed images never reach the contact sheet; their seed is replaced by seed + 100 and re-queued once.
+5. **`screen.py <batch>`** runs the automatic gates on every PNG and writes `screen.json`: text detection with Apple Vision OCR (`ocrmac`, already used by the library pipeline; any recognised string of two or more letters fails the image), face detection with Vision (`VNDetectFaceRectanglesRequest` through `pyobjc-framework-Vision`; any face fails), and a person check with the same framework's human-rectangle request under `figure_policy: none`. Failed images never reach `approve.py`; their seed is replaced by seed + 100 and re-queued once.
 6. **`approve.py <batch>`** (replaces the former contact sheet and human review) runs the automated gates on every seed and approves at most one seed per entity that passes all of them. Gates, all required:
    - (a) OCR gate (any recognised letters fail) and face gate (any face fails), as in step 5.
    - (b) Architecture gate: each period's forbidden architectural terms are taken from `scripts/media/accuracy.yaml` `avoid_anachronisms`; a local vision-language model checks the image for them, and any hit fails.
@@ -96,7 +96,7 @@ All scripts live in `scripts/media/illustrate/` (new, owned by the `illustration
    - (d) Figure gate, as in step 5, plus: any image under `figure_policy: none` with any detected human fails.
    The pipeline sets `status.approved_by: "pipeline"` with the gate report hash, and writes `review/<batch>/auto-approved.json` (every approval, seed, gate results, timestamp) as the daily audit file the founder can read at any time. Any approval can be reverted by deleting its record and re-running ingest. The agent never sets `status.review` beyond `draft`.
 7. Retired. The human review step is replaced by step 6.
-8. **`ingest.py <batch>`** reads the pipeline's approvals (not `decisions.json`) and writes, for each approved image: the WebP (1280 px, quality 82, ≤ 150 KB; re-encode at 78 if larger), the media record below, and `media.hero: media/illus-<class>-<slug>` on the entity when it has no hero. It appends the decision (`reviewed_by`, date, seed) to the record's `generated` block. Then `npm run validate && npm test && npm run coverage`.
+8. **`ingest.py <batch>`** reads the pipeline's approvals (not `decisions.json`) and writes, for each approved image: the WebP (1280 px, quality 82, ≤ 150 KB; re-encode at 78 if larger), the media record below, and `media.hero: media/illus-<class>-<slug>` on the entity when it has no hero. It appends the pipeline approval (`approved_by: "pipeline"`, gate report hash, date, seed) to the record's `generated` block. Then `npm run validate && npm test && npm run coverage`.
 
 Media record (shape of the existing `data/media/illus-event-battle-of-uhud.yaml`, completed):
 
@@ -127,7 +127,7 @@ status: { review: draft, completeness: 2, generated_by: "illustrations lane; <ag
 provenance: { generated_by: "<agent>", model: "<llm used for cues>", run: "<batch id>", source: "media/prompts/event/battle-of-uhud.json" }
 ```
 
-Alt text is written in Arabic by the agent from the prompt and the approved image (what is visible, in one or two sentences, ending with the note that the scene is illustrative), never by the image model.
+Alt text is written in Arabic by a rule-based template filled from the prompt file (what is depicted, in one or two sentences, ending with the note that the scene is illustrative), never by the image model.
 
 ## 6. What the site needs (maintainer lane)
 
