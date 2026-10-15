@@ -1,0 +1,23 @@
+id: person/mustafa-iii-uthmani
+class: person
+label: { ar: "مصطفى الثالث" }
+names:
+  - { kind: full, lang: ar, value: "مصطفى الثالث بن أحمد الثالث" }
+gender: male
+roles: [ruler]
+died: { edtf: "1774~", hijri: "1187", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi], note: "مرض في حرب روسيا حزناً وتوفي وعمره يناهز ٥٧ عاماً." }
+summary:
+  ar: "السلطان مصطفى الثالث (١١٧١–١١٨٧هـ/١٧٥٧–١٧٧٣م)؛ من السلاطين المجاهدين، تصدى للهجمات الروسية وأنزل بها هزائم عدة، وكان يرى بثاقب بصره أن الدولة بدأت في عصر التراجع والسقوط وظهرت تلك الرؤية في شعره: إن الدنيا منهدمة لا تظن أنها تستقيم لنا. وكان مهتماً بالتاريخ الإسلامي عموماً وتاريخ الدولة العثمانية خصوصاً. واستمرت الحرب مع روسيا من ١٧٦٨م إلى ١٧٧٤م وفقدت الدولة فيها أراضي واسعة، ومرض مصطفى الثالث في حرب روسيا حزناً وتوفي عن ٥٧ عاماً وتولى مكانه أخوه عبد الحميد الأول {cite:dawlat-uthmaniyya-salabi p. 316}."
+  en: "Mustafa III (r. 1171–1187/1757–1773) — a mujahid sultan who beat the Russians several times yet foresaw the decline and wrote it in verse; the 1768–1774 war that ended at Küçük Kaynarca broke him — he fell ill with grief and died at 57 {cite:dawlat-uthmaniyya-salabi p. 316}."
+wings: [people, time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/ahmed-iii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 316"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-5
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

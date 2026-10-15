@@ -517,7 +517,7 @@ html[lang="ar"] .gx-label { font-family: var(--ar-body); font-size: 14px; }
 .lhero-star img { height: auto; }
 .logo-showcase .emblem { border-radius: 18px; box-shadow: 0 8px 24px rgba(10,37,51,.18); }
 /* inner-page banners carry the gold monochrome medallion as a faint watermark at the end edge */
-.page-banner { background-image: url("/brand/mark-watermark-gold.webp"), linear-gradient(180deg, #0a2533 0%, color-mix(in srgb, var(--wing, #c5a059) 42%, #113f4e) 100%); background-repeat: no-repeat; background-size: 360px, auto; background-position: calc(100% + 80px) -60px, 0 0; }
+.page-banner { background-image: url("/brand/mark-watermark-gold.webp"), linear-gradient(180deg, #0a2533 0%, color-mix(in srgb, var(--wing, #c5a059) 42%, #113f4e) 100%); background-repeat: no-repeat; background-size: 200px, auto; background-position: calc(100% + 60px) -40px, 0 0; }
 html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
 .page-banner::before { opacity: .1; }
 .page-banner > .wrap { position: relative; }

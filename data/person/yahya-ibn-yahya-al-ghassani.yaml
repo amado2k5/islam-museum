@@ -1,0 +1,20 @@
+id: person/yahya-ibn-yahya-al-ghassani
+class: person
+label: { ar: "يحيى بن يحيى الغساني" }
+names:
+  - { kind: full, lang: ar, value: "يحيى بن يحيى الغساني" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "مفتي أهل دمشق في زمانه، هلك سنة خمس وثلاثين ومائة؛ وثبتت الفتيا بالشام بعده على مذهب الأوزاعي وسعيد بن عبد العزيز {cite:tabaqat-fuqaha-abbas-1981 p. 41}."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [levant-iraq]
+died: { hijri: "0135", edtf: "0752~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: هلك سنة خمس وثلاثين ومائة (PDF ص41).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص41–43", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-3" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 3 from PDF pp. 41-43; a second source for the death year is needed" }

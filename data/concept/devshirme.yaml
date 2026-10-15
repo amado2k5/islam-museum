@@ -1,0 +1,35 @@
+id: concept/devshirme
+class: concept
+kind: political
+label: { ar: "الدوشرمة (نظام التجنيد)" }
+summary:
+  ar: "الاسم الذي يُطلق في المصادر الأوروبية على نظام انتقاء أطفال من الرعايا النصارى لتنشئهم في صفوف الإنكشارية ودوائر الدولة العثمانية، وتُطلق عليه أحياناً «ضريبة الغلمان» أو «ضريبة الأبناء». أصل الجدل في أن الإنكشارية أُضيفت في عهد أورخان أو مراد الأول، والمسألة موضع خلاف شديد بين المؤرخين المسلمين والأوروبيين {cite:dawlat-uthmaniyya-salabi p. 53-54}."
+  en: "The devshirme — the name given in European sources to the Ottoman levy of Christian boys for the Janissary corps and palace service, sometimes called the 'boy tribute'. Its very existence as a levy is contested between Muslim and Western historiography {cite:dawlat-uthmaniyya-salabi p. 53-54}."
+wings: [ideas, time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+sensitivity: contested
+perspectives:
+  - tradition: sunni
+    id: salabi-denial
+    stance: { ar: "نفي: الدوشرمة فرية دُسّت على التاريخ العثماني" }
+    summary:
+      ar: "يرى علي محمد الصلابي أن نظام الدوشرمة المزعوم كذبة دُسّت على تاريخ أورخان بن عثمان ومراد، وأن الإنكشارية تشكلت من المسلمين الجدد الداخلين طوعاً ومن الأطفال المشردين الذين تركتهم الحروب أيتاماً فاحتضنتهم الدولة وربّتهم تربية إسلامية، وأن «ضريبة الغلمان» لا دليل لها إلا كتب المستشرقين كجب وبروكلمان وسوموفيل، وأن بعض المؤرخين المسلمين التقطوا الفرية ورددوها في كتبهم."
+    evidence:
+      - { ref: source/dawlat-uthmaniyya-salabi, note: { ar: "ص 53-54" } }
+    sources: [source/dawlat-uthmaniyya-salabi]
+  - tradition: academic
+    id: western-levy-account
+    stance: { ar: "نظام تجنيد موثق في الكتابات الأوروبية والتاريخ العثماني الحديث" }
+    summary:
+      ar: "الرواية التي ينسبها المصدر نفسه إلى المؤرخين الأوروبيين: أن الدوشرمة كانت نظاماً تقوم بموجبه الدولة بانتزاع عدد من أطفال المدن والقرى النصرانية باعتبارهم حصة الخُمس من الغنائم، فيُربَّون على الإسلام ويلحقون بالإنكشارية؛ وينسب المصدر هذا القول إلى بروكلمان وجيبونز وجب وسوموفيل، ويقرّ بأنه ورد أيضاً في كتب مؤرخين مسلمين كمحمد فريد بك وعلي حسون ومحمد كرد علي وعمر عبد العزيز وعبد الكريم غريبة."
+    evidence:
+      - { ref: source/dawlat-uthmaniyya-salabi, note: { ar: "ص 53-54 (نقلاً عن المؤرخين الأوروبيين)" } }
+    sources: [source/dawlat-uthmaniyya-salabi]
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 53-54"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-6
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

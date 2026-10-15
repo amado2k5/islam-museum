@@ -1,0 +1,23 @@
+id: person/uruj-barbarossa
+class: person
+label: { ar: "عروج بربروسة" }
+names:
+  - { kind: full, lang: ar, value: "عروج بن يعقوب بن يوسف التركي" }
+gender: male
+roles: [military, ruler]
+died: { edtf: "1518", hijri: "0924", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "ابن يعقوب بن يوسف من بقايا الفاتحين المسلمين الأتراك المستقرين في جزيرة مدللي، وأمه سيدة مسلمة أندلسية، واسمه مأخوذ من حادثة الإسراء والمعراج التي يُرجَّح أنه ولد ليلتها، والترك ينطقونه (أوروج) ثم عُرِّب إلى عروج. اتجه مع أخيه خير الدين إلى الجهاد البحري منذ الصغر في بحر الأرخبيل نحو سنة ١٥١٠م، ثم نقلا نشاطهما إلى شمال أفريقية وأقاما قاعدة في ميناء جيجل بعد دخولها وقتل حماتها الجنويين سنة ١٥١٤م لتحرير بجاية ومساعدة مسلمي الأندلس، وحكما الجزائر وبعض المناطق المجاورة. وقد بقيت رخامة منقوشة على باب حصن شرشال تنص: هذا برج شرشال أنشأه المجاهد محمود بن فارس التركي في خلافة الأمير الحاكم بأمر الله المجاهد في سبيل الله أوروج بن يعقوب بإذنه بتاريخ أربعة وعشرين بعد تسعمائة (١٥١٨م)، ورخامة أخرى على باب مسجد الشواس بالعاصمة الجزائرية. قُتل في إحدى المعارك سنة ١٥١٨م فخلفه أخوه خير الدين {cite:dawlat-uthmaniyya-salabi p. 207-209}."
+  en: "Oruç Reis (d. 1518) — elder Barbarossa brother, named for the night of the Mi'raj on which he was said to be born; with Khayr al-Din he took Jijel from its Genoese garrison (1514) and ruled Algiers until killed in battle. A marble inscription on Cherchell's fort still named him 'al-mujahid fi sabil Allah' (924/1518) {cite:dawlat-uthmaniyya-salabi p. 207-209}."
+wings: [people, time]
+periods: [period/gunpowder-empires]
+regions: [maghreb, anatolia-balkans]
+relations:
+  - { type: sibling_of, target: person/khayr-al-din-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 207-209"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

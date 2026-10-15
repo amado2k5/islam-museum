@@ -1,0 +1,21 @@
+id: event/treaty-belgrade-1152
+class: event
+kind: treaty
+label: { ar: "معاهدة بلغراد" }
+summary:
+  ar: "في عهد السلطان محمود الأول أعلنت روسيا والنمسا الحرب على بولندا واحتلتها روسيا، ثم بدأت روسيا القتال مع الدولة العثمانية، فتمكن العثمانيون من وقف تقدم الروس في إقليم البغدان وأوقفوا تقدم النمسا في البوسنة والصرب والأفلاق وانتصروا على الصرب وعلى جيوش النمسا التي انسحبت من الحرب وطلبت الصلح عن طريق فرنسا، فوقعت معاهدة الصلح في بلغراد عام ١١٥٢هـ/١٧٣٩م وتنازلت فيها النمسا عن مدينة بلغراد وعن بلاد الصرب والأفلاق، وتعهدت روسيا بعدم بناء سفن في البحر الأسود وهدم قلاع ميناء آزوف {cite:dawlat-uthmaniyya-salabi p. 313}."
+  en: "Belgrade, 1739 — the last great Ottoman diplomatic victory: after checking the Russians in Moldavia and beating the Austrians in Serbia, Austria ceded back Belgrade, Serbia and Wallachia, and Russia undertook to build no ships on the Black Sea and to raze Azov {cite:dawlat-uthmaniyya-salabi p. 313}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1739", hijri: "1152", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/mahmud-i-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 313"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-5
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

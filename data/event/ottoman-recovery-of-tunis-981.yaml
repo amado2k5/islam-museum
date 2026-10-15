@@ -1,0 +1,21 @@
+id: event/ottoman-recovery-of-tunis-981
+class: event
+kind: conquest
+label: { ar: "استرداد تونس من الإسبان" }
+summary:
+  ar: "أصدر السلطان سليم الثاني أوامره إلى وزيره سنان باشا وقبودانه قلج علي بالاستعداد للتوجه إلى تونس لفتحها نهائياً وإعادة نفوذ الدولة العثمانية إليها، وتعبأت مائتان وثمان وثلاثون سفينة مختلفة الأحجام وأُحضر المجدفون اللازمون، وأخذ حيدر باشا الحاكم العثماني في تونس — وقد انسحب إلى القيروان — في حشد المجاهدين من الأهالي الذين التفوا حوله. أبحر الأسطول بقيادة سنان باشا وقلج علي في ٢٣ محرم ٩٨٢هـ/١٤ مايو ١٥٧٤م فضرب ساحل كالابريا ومسينا واستولى على سفينة مسيحية ثم قطع عرض البحر في خمسة أيام، ووصل حيدر باشا وقوة من الجزائريين بقيادة رمضان باشا وقوة طرابلس بقيادة مصطفى باشا ومتطوعون من مصر. بدأ القتال في ربيع سنة ٩٨١هـ/١٥٧٤م فاستولى العثمانيون على حلق الواد بعد حصار محكم، وحوصرت مدينة تونس ففرّ الإسبان ومعهم الملك الحفصي محمد بن الحسن إلى البستيون التي بالغ الإسبان في تحصينها وجعلوها من أمنع الحصون في شمال أفريقية، فتوجه العثمانيون بعد تجمع قواتهم إلى حصارها وضيّقوا الخناق عليها {cite:dawlat-uthmaniyya-salabi p. 285}."
+  en: "The final Ottoman recovery of Tunis, 1574 — Selim II sent Sinan Pasha and Kapudan Kılıç Ali with 238 ships; La Goulette fell to a tight siege and the Spanish, with the Hafsid king Muhammad b. al-Hasan, were driven into their showpiece fortress, the Bastion {cite:dawlat-uthmaniyya-salabi p. 285}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+date:
+  start: { edtf: "1574-05-14", hijri: "0982-01-23", calendar: julian, precision: day, status: tradition, derived: true, note: "إبحار الأسطول ٢٣ محرم ٩٨٢هـ/١٤ مايو ١٥٧٤م؛ بدأ القتال ربيع ٩٨١هـ {cite:dawlat-uthmaniyya-salabi p. 285}." }
+relations:
+  - { type: occurred_at, target: place/tunis }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 285"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-3
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: person/husayn-ibn-abi-al-abbas-al-ajdabi
+class: person
+label: { ar: "الأجدابي حسين بن أبي العباس", en: "Husayn ibn Abi al-Abbas al-Ajdabi" }
+names:
+  - { kind: full, lang: ar, value: "حسين بن أبي العباس عبد الله بن عبد الرحمن الأجدابي" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الله" }
+  - { kind: nisba, lang: ar, value: "الأجدابي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+died: { edtf: "1040", hijri: "0432", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary: { ar: "فقيه مالكي ومقرئ ومحدث من أهل القيروان، أصله من أجدابية في ليبيا، وأخذ عن أعلام المدرسة القيروانية.", en: "Maliki jurist, reciter and hadith transmitter of Qayrawan, originally from Ajdabiya in Libya, who studied with the masters of the Qayrawan school." }
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol {vol} pp. {page}-{end}, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص289-291", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

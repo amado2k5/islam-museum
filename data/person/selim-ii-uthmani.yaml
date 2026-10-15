@@ -1,0 +1,25 @@
+id: person/selim-ii-uthmani
+class: person
+label: { ar: "سليم الثاني" }
+names:
+  - { kind: full, lang: ar, value: "سليم الثاني بن سليمان القانوني" }
+gender: male
+roles: [ruler]
+born: { edtf: "1524~", calendar: julian, precision: year, status: tradition, note: "مشتق؛ تولى ٩ ربيع الأول ٩٧٤هـ." }
+died: { edtf: "1574", hijri: "0982", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "السلطان سليم الثاني؛ تولى الحكم في ٩ ربيع الأول سنة ٩٧٤هـ بعد أبيه سليمان القانوني. ولم يكن مؤهلاً لحفظ فتوحات والده، ولولا الوزير محمد باشا الصوقللي الذي أسند إليه منصب القيادة العامة لانهارت الدولة — فأعاد الصوقللي هيبتها وعقد صلحاً مع النمسا عام ٩٧٥هـ/١٥٦٧م احتفظت بموجبه بأملاكها في بلاد المجر ودفعت الجزية السنوية. وفي عهده فُتحت قبرص سنة ٩٧٨هـ ووقعت معركة ليبانتو، وأعيدت تونس إلى النفوذ العثماني سنة ٩٨١هـ، وشُرع في حملة استراخان ومشروع قناة الدون–الفولغا {cite:dawlat-uthmaniyya-salabi p. 277-285}."
+  en: "Selim II (r. 974–982/1566–1574) — succeeded Sulayman; his reign ran on Grand Vizier Sokollu Mehmed Pasha's hand: the Austrian peace of 1567, the conquest of Cyprus, Lepanto, the recovery of Tunis and the Don–Volga canal project {cite:dawlat-uthmaniyya-salabi p. 277-285}."
+wings: [people, time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/sulayman-al-qanuni, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 277-285"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-4
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

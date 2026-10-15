@@ -17,6 +17,7 @@ regions: [anatolia-balkans]
 relations:
   - { type: child_of, target: person/murad-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: ruler_of, target: place/istanbul, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: student_of, target: person/aq-shams-al-din, sources: [source/dawlat-uthmaniyya-salabi] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج6، سنة 886)"

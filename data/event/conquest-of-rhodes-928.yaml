@@ -1,0 +1,22 @@
+id: event/conquest-of-rhodes-928
+class: event
+kind: conquest
+label: { ar: "فتح رودس العثماني" }
+summary:
+  ar: "شنّ السلطان سليمان القانوني حرباً كبيرة ضد رودس ابتداءً من منتصف عام ١٥٢٢م وفتحها، وأعطى للفرسان حق الانتقال منها فذهبوا إلى مالطة، وهناك أعطاهم شارل كان حق حكم تلك الجزيرة {cite:dawlat-uthmaniyya-salabi p. 201}."
+  en: "Sulayman's great war on Rhodes from mid-1522 ended with the island's fall; the Knights of St John were granted the right to depart and were resettled by Charles V on Malta {cite:dawlat-uthmaniyya-salabi p. 201}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1522", hijri: "0928", calendar: julian, precision: year, status: tradition, derived: true, note: "ابتدأت الحرب منتصف ١٥٢٢م {cite:dawlat-uthmaniyya-salabi p. 201}." }
+relations:
+  - { type: occurred_at, target: place/rudis }
+  - { type: had_participant, target: person/sulayman-al-qanuni, role: "القائد", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 201"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-3
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,21 @@
+id: event/conquest-neuhausl-1074
+class: event
+kind: conquest
+label: { ar: "فتح قلعة نوهزل" }
+summary:
+  ar: "رفض الصدر الأعظم أحمد كوبريللي الصلح مع النمسا والبندقية وسار على رأس جيش لقتال النمسا، فتمكن عام ١٠٧٤هـ أن يفتح أعظم قلعة في النمسا وهي قلعة نوهزل شرقي فيينا في ٢٥ صفر ١٠٧٤هـ/٢٨ سبتمبر ١٦٦٣م {cite:dawlat-uthmaniyya-salabi p. 308}."
+  en: "The conquest of Neuhausl (Nové Zámky), Austria's greatest fortress east of Vienna, by Grand Vizier Fazıl Ahmed Köprülü — 25 Safar 1074/28 September 1663 {cite:dawlat-uthmaniyya-salabi p. 308}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1663-09-28", hijri: "1074-02-25", calendar: julian, precision: day, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/fazil-ahmed-koprulu, role: "القائد الفاتح", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 308"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-4
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
