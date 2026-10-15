@@ -1,0 +1,16 @@
+id: journey/safwan-expedition
+class: journey
+kind: military_campaign
+label: { ar: "غزوة سفوان", en: "The expedition of Safwan" }
+summary:
+  ar: "خرج النبي في ربيع الأول سنة 2هـ في سبعين رجلاً لمطاردة كرز بن جابر الفهري الذي أغار على مراعي المدينة، حتى بلغ وادي سفوان من ناحية بدر، فلم يدركه فرجع دون حرب، واستخلف زيد بن حارثة."
+wings: [time, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - { from: place/medina, to: place/safwan, mode: "على الأقدام والركاب مع سبعين رجلاً", note: "من المدينة إلى وادي سفوان من ناحية بدر في مطاردة كرز بن جابر (الرحيق ص199).", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: part_of, target: event/expedition-of-safwan }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum p. 199" }

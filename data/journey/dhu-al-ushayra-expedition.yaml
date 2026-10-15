@@ -1,0 +1,16 @@
+id: journey/dhu-al-ushayra-expedition
+class: journey
+kind: military_campaign
+label: { ar: "غزوة ذي العشيرة", en: "The expedition of Dhu al-Ushayra" }
+summary:
+  ar: "خرج النبي في جمادى الأولى سنة 2هـ في مائة وخمسين، ويقال مائتين، من المهاجرين، يعترض عير قريش العائدة من الشام، فبلغ ذا العشيرة فوجد العير قد فاتته بأيام، وهي التي صارت سبباً لغزوة بدر الكبرى."
+wings: [time, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - { from: place/medina, to: place/dhu-al-ushayra, mode: "على ثلاثين بعيراً يعتقبونها", note: "من المدينة إلى ذي العشيرة بناحية ينبع، وفاتت العير بأيام؛ وعقد فيها معاهدة عدم اعتداء مع بني مدلج وضمرة (الرحيق ص199–200).", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: part_of, target: event/expedition-of-dhu-al-ushayra }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum p. 199–200" }

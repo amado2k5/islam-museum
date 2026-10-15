@@ -1,0 +1,16 @@
+id: journey/sad-kharrar
+class: journey
+kind: military_campaign
+label: { ar: "سرية سعد بن أبي وقاص إلى الخرار", en: "The expedition of Sa'd ibn Abi Waqqas to al-Kharrar" }
+summary:
+  ar: "بعث النبي سعداً في ذي القعدة سنة 1هـ في عشرين راكباً يعترضون عيراً لقريش، وعهد إليه ألا يجاوز الخرار، فساروا مشاة بالليل وكمنوا بالنهار، فوجدوا العير قد مرت بالأمس."
+wings: [time, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - { from: place/medina, to: place/al-kharrar, mode: "مشياً ليلاً وكموناً نهاراً مع عشرين راكباً", note: "من المدينة إلى الخرار قرب الجحفة، ولم يتجاوزه سعد بأمر النبي، فوجد العير قد مرت (الرحيق ص198).", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: part_of, target: event/expedition-of-al-kharrar }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum p. 198" }
