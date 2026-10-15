@@ -1,0 +1,22 @@
+id: person/muhammad-ibn-ahmad-aknasus
+class: person
+label: { ar: "محمد بن أحمد أكنسوس", en: "Muhammad ibn Ahmad Aknasus" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن أحمد أكنسوس" }
+gender: male
+roles: [mystic, teacher]
+traditions: [sunni]
+born: { edtf: "1776", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1877", hijri: "1294", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "الصوفي الداعية محمد بن أحمد أكنسوس، من أعلام الطريقة التجانية في إقليم السوس بالمغرب، وانتشرت الطريقة في الإقليم بمساعيه."
+  en: "The Sufi preacher Muhammad ibn Ahmad Aknasus, a figure of the Tijani order in the Sus region of Morocco; the order spread in the region through his efforts."
+wings: [people, words]
+themes: [spirituality-and-sufism]
+periods: [period/modern-era]
+regions: [maghreb]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 294-295, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص294-295", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

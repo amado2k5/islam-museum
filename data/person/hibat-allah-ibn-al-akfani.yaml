@@ -1,0 +1,25 @@
+id: person/hibat-allah-ibn-al-akfani
+class: person
+label: { ar: "هبة الله بن الأكفاني", en: "Hibat Allah ibn al-Akfani" }
+names:
+  - { kind: full, lang: ar, value: "هبة الله بن أحمد الدمشقي" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: laqab, lang: ar, value: "ابن الأكفاني" }
+  - { kind: nisba, lang: ar, value: "الدمشقي الشافعي" }
+gender: male
+roles: [scholar, historian]
+traditions: [sunni]
+born: { edtf: "1052", hijri: "0444", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1129", hijri: "0524", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "المحدث الحافظ الفقيه المؤرخ أبو محمد هبة الله بن أحمد الدمشقي المعروف بابن الأكفاني، وُلد بدمشق سنة 444 هـ، واشتهر بالحفظ والفقه الشافعي."
+  en: "The Damascene traditionist, hafiz, Shafi'i jurist and historian Abu Muhammad Hibat Allah ibn Ahmad, known as Ibn al-Akfani; born at Damascus in 444 AH and famed for his memorization of hadith."
+wings: [people, words]
+themes: [scripture-and-its-sciences, history-writing-and-social-thought]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 291-292, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص291-292", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
