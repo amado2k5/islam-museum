@@ -1,9 +1,55 @@
 # Raheeq Mining Lane — Progress & Handoff Trail
 
 **Lane:** raheeq  
-**Branch:** content/raheeq-continue  
-**Book:** «الرحيق المختوم» by صفي الرحمن المباركفوري (1943–2006)  
-**Last updated:** 11 Oct 2026
+**Book:** «الرحيق المختوم» by صفي الرحمن المباركفوري (1943–2006), 512 pp., PDF page = printed page  
+**Last updated:** 15 Oct 2026
+
+## Second pass with prose (from 15 Oct 2026, `docs/sources-policy.md`)
+
+**Branch:** `content/raheeq-prose` (pushed straight to `main` after every validated sub-batch).  
+**Why:** the first pass (below) was done under the old "facts only, never paraphrase" rule; 493 entities cite the book, 90 with no Arabic prose, most with a one-line summary, and pp. 15–124 and 300–399 are sparsely cited (`docs/delegation/held-back-content.md` item 1). This pass re-walks the book writing full Arabic prose per entity with `{cite:mubarakpuri-raheeq p.N}` after every factual sentence plus the classical source the footnote names.  
+**Batch order:** book order, chapter by chapter (the task brief's "batch 1 = pp. 15–47"), i.e. the chapter map of `docs/plan/17-raheeq-makhtum.md` §3 rather than the Badr-first order of §6. 27 chapters, each split into sub-batches of at most 25 entities.  
+**Conventions:** rewrite thin first-pass prose files wholesale (`## موجز` first, keeping their facts and their «للزوار الصغار» section); append a section to richer files from other lanes; add `source/mubarakpuri-raheeq` to the data file's `sources` of every entity touched; stubs whose entity is now written are removed from the stub lists; `completeness` left as is unless the entity is new.
+
+| Chapter | Pages | State |
+|---|---|---|
+| 1 موقع العرب وأقوامها | 15–22 | **in progress**: 1a pushed (`bcebba1f`: 17 new entities: concept/arab-peoples-before-islam, groups tayy/kinda/judham/ghatafan/bakr-ibn-wail, persons nabit/qaydar/mudad-ibn-amr/imran-ibn-amr/thalaba-ibn-amr/jafna-ibn-amr/sara, places ur/aja-and-salma, event/ibrahim-visits-ismail-in-mecca, question/who-are-qahtan-and-adnan); 1b (21 tribal groups re-written) next |
+| 2 الحكم والإمارة في العرب | 23–34 | pending |
+| 3 ديانات العرب / الحالة الدينية | 35–42 | pending |
+| 4 صور من المجتمع الجاهلي | 43–47 | pending |
+| 5 نسب النبي وأسرته | 48–53 | pending |
+| 6 المولد وأربعون عاماً | 54–64 | pending |
+| 7 في ظلال النبوة / الدعوة السرية | 65–77 | pending |
+| 8 الدعوة جهاراً | 78–108 | pending |
+| 9 المقاطعة / عام الحزن | 109–124 | pending |
+| 10 خارج مكة / الإسراء | 125–142 | pending |
+| 11 بيعتا العقبة / دار الندوة | 143–160 | pending |
+| 12 الهجرة | 161–174 | pending |
+| 13 الحياة في المدينة / السرايا قبل بدر | 175–203 | pending |
+| 14 بدر | 204–233 | pending |
+| 15 بين بدر وأحد | 233–247 | pending |
+| 16 أحد | 248–289 | pending |
+| 17 بين أحد والأحزاب | 290–300 | pending |
+| 18 الأحزاب / بنو قريظة (Tier A) | 301–324 | pending |
+| 19 بنو المصطلق / الإفك (Tier A) | 325–336 | pending |
+| 20 الحديبية | 337–348 | pending |
+| 21 مكاتبة الملوك | 349–361 | pending |
+| 22 خيبر | 362–379 | pending |
+| 23 السنة السابعة / مؤتة | 380–393 | pending |
+| 24 فتح مكة | 394–411 | pending |
+| 25 حنين والطائف | 412–423 | pending |
+| 26 البعوث / تبوك / الوفود / حجة الوداع / الوفاة / البيت النبوي | 424–488 | pending (split by chapter when reached) |
+| 27 ثبت المراجع | 489–494 | pending (check every cited classical source has a `source` entity) |
+
+**Doubts flagged so far:** the nasab of the Aws, Khazraj and Ghassan (Qahtan vs Nabit ibn Ismail, p. 20) is recorded as a disagreement on the entities concerned; dates of the Yemeni kingdoms are the author's estimates (p. 25 note) and carry `status: tradition`.  
+**Environment note:** this worktree needed `site/node_modules` linked from the main checkout for `npm test` (`scripts/hijri/dates.test.ts` resolves `site/tsconfig.json`); `npm run coverage` needs `npm run graph` first.
+
+**Next step:** 1b: rewrite the prose of the 21 tribal groups pp. 15–22 (al-arab-al-baida, qahtan, kahlan, adnan, himyar, qudaa, al-azd, banu-lakhm, banu-hamdan, jurhum, rabia-ibn-nizar, mudar-ibn-nizar, iyad, anmar-ibn-nizar, banu-hanifa, banu-taghlib, banu-sulaym, madhhij, al-aws, al-khazraj, jadis), then 1c: persons and events of pp. 15–22 (ibrahim, ismail, hajar, adnan, maadd, nizar, ilyas, fihr, qusayy, settlement-of-hajar-and-ismail, sacrifice-of-ismail, building-of-the-kaaba, nabataean-kingdom) and appended sections on khuzaa, kinana, quraysh, banu-tamim, hudhayl, banu-asad-ibn-khuzayma, hawazin, thaqif, ghassan; then chapter 2 (pp. 23–34).
+
+---
+
+## First pass (Oct 2026, old rules): batch log
+
 
 ## Batch Progress
 
