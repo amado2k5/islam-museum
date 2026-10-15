@@ -1,0 +1,37 @@
+id: event/marinid-mamluk-embassy-706
+class: event
+kind: other
+label:
+  ar: مهاداة السلطان أبي يعقوب والناصر محمد بن قلاوون
+  en: The Abu Ya'qub–al-Nasir Muhammad embassy exchange
+summary:
+  ar: "لما استوسق ملك السلطان أبي يعقوب المريني وصلحت السابلة أذن لأهل المغرب بركب الحاج في السفن إلى مكة سنة ثلاث وسبعمائة، وانتسخ مصحفاً رائق الصنعة كتبه أحمد بن حسن الكاتب المحسن واستكثر فيه من مغالق الذهب المنظم بخرزات الدر والياقوت ووقفه على الحرم الشريف، وسرح مع الحاج حامية من زناتة تناهز خمسمائة وقلد القضاء عليهم محمد بن رغبوش، وأتحف صاحب الديار المصرية الناصر محمد بن قلاوون بهدية من طرف بلاد المغرب فيها الخيل العراب والمطايا الفارهة يقال إنها كانت أربعمائة، فلما وصلت هديته حسن موقعها لديه وجمع من طرف بلاده من الثياب والحيوان ما يستغرب جنسه من نوع الفيل والزرافة وأوفد بها الأمير التليلي ففصل من القاهرة أخريات سنة خمس وسبعمائة ووصل إلى سدة السلطان بالمنصورة من البلد الجديد في جمادى الآخرة سنة ست وسبعمائة، واهتز السلطان لقدومها واستركب."
+  en: "When Abu Ya'qub's Marinid kingship ran steady and the roads mended, he licensed the Maghrebis' first sea-hajj in years for 703 — having a splendid mushaf transcribed by Ahmad ibn Hasan the master scribe, bound with gold clasps set in ordered pearls and rubies and endowed to the Sacred Mosque — sent with the pilgrims a Zanata guard near five hundred under qadi Muhammad ibn Raghbush, and a gift of Barb horses and four hundred rare mounts to al-Nasir Muhammad ibn Qalawun; the Egyptian sultan, pleased, gathered marvels of his lands — garments, an elephant and a giraffe — and sent them by Amir al-Tilili, leaving Cairo at the end of 705 and reaching the sultan's court at the Mansura of Fes Jdid in Jumada II 706, and the sultan rejoiced at their coming and mounted."
+wings: [time, place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb, egypt-nile]
+date:
+  start:
+    edtf: "1304"
+    hijri: "0703"
+    calendar: julian
+    precision: year
+    status: tradition
+    derived: true
+    note: إرسال المصحف الوقف والهدية مع حاج 703هـ؛ وصول سفارة التليلي جمادى الآخرة 706هـ؛ التحويل مشتق.
+    sources:
+    - source/tarikh-ibn-khaldun-ibar
+relations:
+- { type: "had_participant", target: "person/abu-yaqub-yusuf-marinid", role: "مهادٍ مرسل", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مراسلة المشرق الأقصى ومهاداتهم (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-42
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
