@@ -1,0 +1,28 @@
+id: event/ibn-ghaniya-takes-bejaia-580
+class: event
+kind: conquest
+label: { ar: "ملك ابن غانية بجاية", en: "Ibn Ghaniya's seizure of Béjaïa (580 AH)" }
+summary:
+  ar: "في شعبان سنة ثمانين وخمسمائة سمع علي بن إسحاق المعروف بابن غانية — وهو صاحب جزيرة ميورقة — بوفاة يوسف بن عبد المؤمن، فعمّر أسطولاً عشرين قطعة وسار في جموعه فأرسى في ساحل بجاية وخرجت خيله ورجاله نحو مائتي فارس وأربعة آلاف راجل من الملثمين، فدخل المدينة بغير قتال لأن واليها كان قد سار عنها إلى مراكش ولم يترك فيها جيشاً؛ ووافقه جماعة من بقايا دولة بني حماد فكثر جمعه بهم، وعاد والي بجاية من طريقه ومعه ثلاثمائة فارس من الموحدين وجمع من العرب نحو ألف فارس، فخرج إليهم ابن غانية بقدر ألف فارس فلما توافقوا انضاف جميع من مع الوالي إلى الملثم وانهزم الوالي وسار إلى مراكش؛ وأطاع ابن غانية أعمال بجاية جميعها إلا قسطنطينية فحصرها حتى جاء جيش الموحدين من البر والبحر في صفر سنة إحدى وثمانين — عشرين ألف فارس براً وأسطول كبير — فخرج منها أخواه يحيى وعبد الله هاربين ولحقا به فرحل عن قسطنطينية وسار إلى إفريقية {cite:kamil-ibn-al-athir p. 128-129}."
+  en: "Sha'ban 580: hearing of Yusuf ibn Abd al-Mu'min's death, Ali 'Ibn Ghaniya' of Majorca sailed twenty vessels into Béjaïa's roadstead — two hundred mounted Mulaththamun and four thousand foot took the governor-less city without a fight; the Banu Hammad remnant flocked in, the returning governor's own thousand Arabs defected at first contact, and only Constantine held out until an Almohad army of twenty thousand horse and a great fleet lifted it in Safar 581, driving the brothers to Ifriqiya {cite:kamil-ibn-al-athir p. 128-129}."
+date:
+  start: { hijri: "0580-10", edtf: "1184-11~", calendar: julian, precision: month, status: tradition, derived: true, note: "شعبان 580هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 128}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/ali-ibn-ghaniya
+  role: "قائد الملثمين الذي أرسى أسطوله على بجاية فملكها بغير قتال"
+  sources: [source/kamil-ibn-al-athir]
+- type: occurred_at
+  target: place/bejaia
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+themes: [civil-wars-and-revolts]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 128-129"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-10
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
