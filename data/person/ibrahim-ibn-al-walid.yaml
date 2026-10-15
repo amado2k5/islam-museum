@@ -14,6 +14,7 @@ wings: [people]
 periods: [period/umayyad]
 regions: [levant-iraq]
 relations:
+  # debated: umayyad-birth-to-fall-2006 p. 182 (genealogy chain) names Ibrahim as son of al-Walid ibn Yazid; this edge follows tarikh-khulafa-minhaj-1434. Left as debated, not resolved.
   - { type: child_of, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: sibling_of, target: person/yazid-ibn-al-walid, sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: successor_of, target: person/yazid-ibn-al-walid, sources: [source/tarikh-khulafa-minhaj-1434] }
