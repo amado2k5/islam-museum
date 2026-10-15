@@ -1,16 +1,27 @@
 id: person/al-khwarizmi
+aliases: [person/al-khwarizmi-muhammad-ibn-musa]   # same person; merged the Mawsuat A'lam record into this one
 class: person
 label: { ar: "الخوارزمي", en: "al-Khwarizmi" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن موسى الخوارزمي" }
+roles: [mathematician, astronomer]
+traditions: [sunni]
+born: { edtf: "0780", hijri: "0164", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0850", hijri: "0235", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+themes: [mathematics, astronomy-and-timekeeping, geography-and-cartography]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
 summary:
   ar: "محمد بن موسى الخوارزمي، عده المسعودي فيمن عُني بعلوم الهيئة بعد ظهور الإسلام مع الكندي وأبي معشر والفرغاني وثابت بن قرة والبتاني وغيرهم {cite:muruj-al-dhahab p. 519}."
   en: "Muhammad ibn Musa al-Khwarizmi, numbered by al-Mas'udi among Islam's astronomers {cite:muruj-al-dhahab p. 519}."
 gender: male
-wings: [people]
+wings: [people, words]
 periods: [period/abbasid-early]
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 519"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-21
-sources: [source/muruj-al-dhahab]
+sources: [source/muruj-al-dhahab, source/mawsuat-a3lam-ulama-adaba]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
