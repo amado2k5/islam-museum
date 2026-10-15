@@ -1,0 +1,22 @@
+id: person/abu-zayd-al-balkhi
+class: person
+label: { ar: "أبو زيد أحمد بن سهل البلخي" }
+names:
+  - { kind: full, lang: ar, value: "أبو زيد أحمد بن سهل البلخي" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "أبو زيد أحمد بن سهل البلخي، حكيم متعدد العلوم؛ يروي ياقوت أنه لما كان في عنفوان شبابه دعته نفسه إلى أن يسافر من بلخ إلى أرض العراق ويجثو بين يدي العلماء، فتوجه إليها راجلاً مع الحاج وأقام بها ثماني سنين وطوّف البلاد المتاخمة لها ولقي الكبار والأعيان، وتتلمذ لأبي يوسف يعقوب بن إسحاق الكندي وحصّل من عنده علوماً جمة وتعمق في علم الفلسفة وجمع على أسرار علم التنجيم والهيئة وبرز في علوم الطب والطبائع وبحث عن أصول الدين {cite:duha-islam p. 434-435}."
+  en: "Abu Zayd Ahmad ibn Sahl al-Balkhi — the polymath who walked from Balkh to Iraq, spent eight years among its scholars, and sat under al-Kindi mastering philosophy, astronomy and medicine {cite:duha-islam p. 434-435}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [persia-central-asia, levant-iraq]
+relations:
+  - { type: student_of, target: person/al-kindi, sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 434-435"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-4
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
