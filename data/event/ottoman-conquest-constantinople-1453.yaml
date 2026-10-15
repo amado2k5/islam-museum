@@ -1,0 +1,19 @@
+id: event/ottoman-conquest-constantinople-1453
+class: event
+kind: conquest
+label: { ar: "فتح القسطنطينية على يد محمد الفاتح", en: "Ottoman conquest of Constantinople under Mehmed II" }
+summary:
+  ar: "يصف شكيب أرسلان في تعليقه على حاضر العالم الإسلامي حصار العثمانيين للمدينة منذ عهد بايزيد الأول، وحصار مراد الثاني، ثم فتحها على يد محمد الفاتح، ويذكر نهب المدينة ثلاثة أيام وصلاة الجمعة في آيا صوفيا في اليوم الرابع، ويعدّ الفتح من أهم تحولات المنطقة."
+  en: "In Arslan's commentary on Stoddard, the Ottoman siege begins under Bayezid I and resumes under Murad II before Mehmed II takes the city; the book describes three days of plunder and Friday prayer in Hagia Sophia on the fourth."
+periods: [period/gunpowder-empires]
+relations:
+  - { type: had_participant, target: person/mehmed-ii, role: "السلطان الفاتح", sources: [source/stoddard-arslan-hadir-1923] }
+  - { type: occurred_at, target: place/istanbul }
+wings: [people, place, time]
+sources: [source/stoddard-arslan-hadir-1923]
+# Verification: Draft from one source (Arslan's commentary, volume 1, scan pages 235–237, book pp. 218–220). Arslan's dates (the siege beginning under Bayezid I, given as 1396; the chronogram 853 AH) and the claim about Mehmed II's artillery (quoted from Baron Carra de Vaux) need a second source before any date is stated as fact. Standard histories give 29 May 1453; that date is not in the book and must be cited separately.
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  generated_by: "Claude Haiku 5.5"
+  extraction_flow: "Apple Vision OCR (text layer) -> manual reading of scan pages 231-237 -> summary in own words"
