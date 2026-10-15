@@ -1,0 +1,31 @@
+id: event/abu-hammu-tlemcen-760
+class: event
+kind: conquest
+label:
+  ar: استرداد أبي حمو تلمسان
+  en: Abu Hammu's recovery of Tlemcen
+summary:
+  ar: "لما هلك السلطان أبو عنان المريني سنة 759هـ قويت عزائم أبي حمو موسى بن يوسف على ارتجاع ملكه، فركبت به الدواودة وزغبة من تونس إلى تلمسان وبها الكتائب المجمرة من بني مرين، فنازلها ثلاثاً ثم اقتحمها في صبيحة الرابعة يوم الأربعاء لثمان خلون من ربيع الأول سنة 760هـ، واحتل قصر ملكه واقتعد أريكته وبويع بيعة الخلافة، وأخرج بني مرين عن أمصار مملكته."
+  en: "When the sultan Abu Inan died in 759 AH, Abu Hammu Musa ibn Yusuf's resolve to reclaim his kingdom strengthened; the Dawawida and Zaghba carried him from Tunis to Tlemcen where the Marinid standing battalions lay, besieged it three days and stormed it at dawn of the fourth, Wednesday 8 Rabi I 760, took his palace and seat, received the caliphate's bay'a, and expelled the Marinids from his realm's cities."
+wings: [time, people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1359-02-11", hijri: "0760-03-08", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الأربعاء لثمان خلون من ربيع الأول سنة 760هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: had_participant
+  target: person/abu-hammu-musa-ii
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن إجفال أبي حمو ودخوله تلمسان، ص1875 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
