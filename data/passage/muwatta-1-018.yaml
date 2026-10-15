@@ -3,12 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.18"
-label: { ar: "الموطأ 1.18", en: "Muwatta 1.18" }
+label: { ar: "الموطأ 18 — بلاغ عن أبي هريرة: من فاته أم القرآن فاته خير كثير", en: "Muwatta 18" }
+text: "من أدرك الركعة فقد أدرك السجدة، ومن فاته قراءة أم القرآن فقد فاته خير كثير"
 summary:
-  ar: "أثر بلغ مالكًا: من أدرك الركعة فقد أدرك السجدة، ومن فاتته الركعة فقد فاتته الصلاة."
+  ar: "بلاغ في باب من أدرك ركعة من الصلاة: يروي يحيى عن مالك أنه بلغه أن أبا هريرة كان يقول إن من أدرك الركعة فقد أدرك السجدة، ومن فاتته قراءة فاتحة الكتاب في الصلاة فقد فاته خير كثير. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.42}"
   en: "A report that reached Malik: whoever catches the rak'a has caught the prostration, and whoever misses the rak'a has missed the prayer."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 18 of kitab al-salat at PDF p. 42", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 18 at PDF p. 42; باب من أدرك ركعة من الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 42; matn excerpt at most 40 words" }

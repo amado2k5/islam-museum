@@ -3,12 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.20"
-label: { ar: "الموطأ 1.20", en: "Muwatta 1.20" }
+label: { ar: "الموطأ 20 — ابن عباس في تفسير الدلوك والغسق", en: "Muwatta 20" }
+text: "دلوك الشمس إذا فاء الفيء، وغسق الليل اجتماع الليل وظلمته"
 summary:
-  ar: "ابن عباس في معنى دلوك الشمس وغسق الليل، وإسناد الأثر ضعيف لجهالة أحد رواته."
+  ar: "أثر يرويه مالك عن داود بن الحصين قال: أخبرني مخبر، أن عبد الله بن عباس كان يفسر دلوك الشمس بأن يفيء الفيء بعد الزوال، وغسق الليل باجتماع ظلمته؛ وهو في باب ما جاء في دلوك الشمس وغسق الليل. ويقول المحقق إن إسناده ضعيف لجهالة شيخ داود بن الحصين، وينقل عن السيوطي والزرقاني أن المخبر هو عكرمة وأن مالكاً كان يكتم اسمه لكلام سعيد بن المسيب فيه كما ذكره ابن عبد البر في الاستذكار، فإن صح ذلك فالإسناد ضعيف أيضاً لضعف داود في روايته عن عكرمة خاصة. {cite:muwatta-maruf-1997 p.42} {cite:muwatta-maruf-1997 p.43}"
   en: "Ibn Abbas on the meaning of the sun's decline and the coming of night; the report's chain is weak because one of its transmitters is unknown."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 20 of kitab al-salat at PDF p. 42", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/dawud-ibn-al-husayn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ikrima-mawla-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 20 at PDF p. 42; باب ما جاء في دلوك الشمس وغسق الليل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 42; matn excerpt at most 40 words" }

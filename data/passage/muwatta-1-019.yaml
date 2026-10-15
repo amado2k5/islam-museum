@@ -3,12 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.19"
-label: { ar: "الموطأ 1.19", en: "Muwatta 1.19" }
+label: { ar: "الموطأ 19 — ابن عمر: دلوك الشمس ميلها", en: "Muwatta 19" }
+text: "دلوك الشمس ميلها"
 summary:
-  ar: "ابن عمر في معنى دلوك الشمس: أنه ميلها عن وسط السماء."
+  ar: "أول أثر في باب ما جاء في دلوك الشمس وغسق الليل، وهما لفظان من آية الإسراء في إقامة الصلاة. يرويه يحيى عن مالك عن نافع أن عبد الله بن عمر كان يفسر دلوك الشمس بميلها عن وسط السماء، أي الزوال. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.42}"
   en: "Ibn Umar on the meaning of the sun's decline (duluk): its turning away from the middle of the sky."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 19 of kitab al-salat at PDF p. 42", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 19 at PDF p. 42; باب ما جاء في دلوك الشمس وغسق الليل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 42; matn excerpt at most 40 words" }

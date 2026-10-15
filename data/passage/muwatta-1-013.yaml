@@ -3,12 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.13"
-label: { ar: "الموطأ 1.13", en: "Muwatta 1.13" }
+label: { ar: "الموطأ 13 — طنفسة عقيل وخروج عمر إلى الجمعة", en: "Muwatta 13" }
+text: "فإذا غشي الطنفسة كلها ظل الجدار خرج عمر بن الخطاب وصلى الجمعة"
 summary:
-  ar: "سعيد بن المسيب: قيلولة الناس بعد صلاة الجمعة، وصفة الكليم الذي كان يُطرح على جدار المسجد الغربي."
+  ar: "أول أثر في باب وقت الجمعة. يرويه يحيى عن مالك عن عمه أبي سهيل بن مالك عن أبيه مالك بن أبي عامر: كان يرى بساطاً لعقيل بن أبي طالب يُطرح يوم الجمعة إلى الجدار الغربي للمسجد، فإذا غطى ظل الجدار البساط كله خرج عمر بن الخطاب فصلى الجمعة، أي بعد الزوال بقليل، ثم كانوا يرجعون بعد الصلاة فيقيلون قيلولة شدة النهار. ويفسر المحقق الطنفسة بالبساط ذي الخمل الرقيق، والضَّحاء بالمد باشتداد النهار، ويذكر أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.40} {cite:muwatta-maruf-1997 p.41}"
   en: "Sa'id ibn al-Musayyab: the people's midday nap after the Friday prayer, and the description of the rug that used to be laid out on the mosque's western wall."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 13 of kitab al-salat at PDF p. 40", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aqil-ibn-abi-talib, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-suhayl-nafi-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-abi-amir-al-asbahi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 13 at PDF p. 40; باب وقت الجمعة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 40; matn excerpt at most 40 words" }

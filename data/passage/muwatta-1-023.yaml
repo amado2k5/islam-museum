@@ -3,12 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.23"
-label: { ar: "الموطأ 1.23", en: "Muwatta 1.23" }
+label: { ar: "الموطأ 23 — يحيى بن سعيد: ما فاته من وقتها أعظم من أهله وماله، وأقوال مالك في الوقت", en: "Muwatta 23" }
+text: "إن المصلي ليصلي الصلاة وما فاته وقتها، ولما فاته من وقتها أعظم أو أفضل من أهله وماله"
 summary:
-  ar: "مالك: حكم من نام عن الصلاة أو نسيها فأدرك وقتها وهو مسافر أو مقيم، ومرجع ذلك إلى ما أدركه من الوقت."
+  ar: "قول موقوف على يحيى بن سعيد الأنصاري يرويه عنه مالك في باب جامع الوقوت: قد يصلي المصلي الصلاة في وقتها، ومع ذلك يكون ما فاته من أول الوقت أعظم عنده من أهله وماله. ويتبعه يحيى بن يحيى بأقوال لمالك: من أدركه الوقت في سفر وأخّر الصلاة ساهياً أو ناسياً حتى قدم على أهله، صلى صلاة المقيم إن قدم والوقت باقٍ، وصلاة المسافر إن قدم وقد ذهب الوقت، لأنه يقضي مثل الذي كان عليه، وأن هذا ما أدرك عليه أهل العلم بالمدينة؛ وأن الشفق هو الحمرة التي في المغرب، فإذا ذهبت وجبت العشاء وخرج وقت المغرب. وينقل المحقق عن ابن عبد البر أن هذا موقوف في الموطأ ويستحيل أن يكون رأياً، وأنه روي مرفوعاً بإسناد ليس بالقوي فيه يعقوب بن الوليد، وأن مالكاً لم يكن يعجبه قول يحيى هذا (التمهيد 24/75)، ويذكر أن عبارة «وهذا الأمر الذي أدركت عليه الناس» لم يروها أبو مصعب ولا سويد. {cite:muwatta-maruf-1997 p.44} {cite:muwatta-maruf-1997 p.45}"
   en: "Malik: the ruling for one who sleeps through a prayer or forgets it and then catches its time, whether travelling or resident — the reference point is the time he catches."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 23 of kitab al-salat at PDF p. 44", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 23 at PDF p. 44; باب جامع الوقوت", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 44; matn excerpt at most 40 words" }
