@@ -2,15 +2,16 @@ id: person/muhammad-ibn-al-qasim
 class: person
 label: { ar: "محمد بن القاسم الثقفي", en: "Muhammad ibn al-Qasim al-Thaqafi" }
 summary:
-  ar: "محمد بن القاسم الثقفي، فاتح السند في خلافة الوليد بن عبد الملك؛ عند البلاذري: نقل الوليد إلى أنطاكية قوماً من الزط السند ممن حلّه محمد بن القاسم إلى الحجاج فبعث بهم الحجاج إلى الشام — كما كان معاوية نقل سنة 49 أو 50 إلى السواحل قوماً من زط البصرة والسباتجة فأنزل بعضهم أنطاكية."
+  ar: "محمد بن القاسم الثقفي، فاتح السند في خلافة الوليد بن عبد الملك؛ عند البلاذري: نقل الوليد إلى أنطاكية قوماً من الزط السند ممن حلّه محمد بن القاسم إلى الحجاج فبعث بهم الحجاج إلى الشام — كما كان معاوية نقل سنة 49 أو 50 إلى السواحل قوماً من زط البصرة والسباتجة فأنزل بعضهم أنطاكية. ويذكر الكتاب أن الفتح الإسلامي للسند بدأ بحملات مبكرة في عهد عمر وعلي، ثم جاء فتح محمد بن القاسم في خلافة الوليد بن عبد الملك. {cite:salabi-umayyad-state-2020 p.101-102} ويذكر الكتاب أن الحجاج عقد له ثغر السند وضم إليه ستة آلاف من جند الشام، وأن الحملة فتحت الديبل ونيرون والرور وملتان، وأن داهر قُتل في معركته على نهر مهران. وأن نفقات الحملة بلغت ستين مليون درهم على ما يُروى. وعزله صالح بن عبد الرحمن وحبسه بواسط، وتضاربت الروايات في موته. {cite:salabi-umayyad-state-2020 p.102-107}"
   en: "Muhammad ibn al-Qasim al-Thaqafi, conqueror of Sind in al-Walid ibn Abd al-Malik's caliphate; in al-Baladhuri: al-Walid transferred to Antioch a company of the Sindhi Zutt whom Muhammad ibn al-Qasim had assigned to al-Hajjaj, who sent them on to Syria — as Mu'awiya had earlier, in year 49 or 50, moved companies of Basra's Zutt and Sayabija to the coasts, settling some at Antioch."
 wings: [people]
 periods: [period/umayyad]
-relations: []
+relations:
+  - { type: participated_in, target: event/conquest-of-sind-89, role: "القائد الفاتح", sources: [source/umayyad-birth-to-fall-2006] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 221–222"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-12
-sources: [source/futuh-buldan-maarif-1407]
+sources: [source/futuh-buldan-maarif-1407, source/umayyad-birth-to-fall-2006, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

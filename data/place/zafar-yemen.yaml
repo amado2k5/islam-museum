@@ -1,0 +1,13 @@
+id: place/zafar-yemen
+class: place
+kind: city
+label: { ar: "ظفار الحموض", en: "Zafar (Yemen coast)" }
+summary:
+  ar: "مدينة على ساحل البحر الهندي، وهي آخر بلاد اليمن على هذا الساحل عند ابن بطوطة، ومنها تحمل الخيل العتاق إلى الهند؛ وقد سماها «ظفار الحموض» (الرحلة، الطبعة 1958م، ص 159، والطبعة 1904م ص 199، والطبعة 2021م ص 267)."
+regions: [arabia]
+wings: [place]
+coordinate_precision: approx
+coordinate_note: "لم يُحدَّد موقعه بإحداثيات؛ توجد عدة مواضع باسم ظفار في اليمن في GeoNames، ولم يتضح أيها الساحلي المقصود."
+provenance: { layer: own-research, source: "Ibn Battuta, Rihla, Arabic 1958 (printed p. 159), compared with the 1904 and 2021 prints (pp. 199, 267)", generated_by: "Claude Code", run: "journeys-battuta-zafar-correction" }
+sources: [source/rihla-ibn-battuta-1958]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; corrected from an earlier Oman identification; the coastal site is not resolved" }

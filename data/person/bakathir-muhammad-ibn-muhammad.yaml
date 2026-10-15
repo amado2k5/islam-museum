@@ -1,0 +1,23 @@
+id: person/bakathir-muhammad-ibn-muhammad
+class: person
+label: { ar: "باكثير", en: "Ba Kathir" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن محمد بن أحمد باكثير" }
+  - { kind: nisba, lang: ar, value: "الحضرمي" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+born: { edtf: "1867", hijri: "1283", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1936", hijri: "1355", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم من آل باكثير في حضرموت، وهي أسرة لها مآثر علمية ومساجد في تريم وسيئون، وتوفي سنة 1355هـ."
+  en: "Scholar from the Ba Kathir family of Hadramawt, a family known for its learning and for mosques at Tarim and Seiyun."
+wings: [people, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/modern-era]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 p. 145, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص145", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

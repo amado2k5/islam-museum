@@ -1,0 +1,25 @@
+id: person/ibn-balban-ala-al-din-ali
+class: person
+label: { ar: "ابن بلبان علاء الدين علي", en: "Ibn Balban Ala al-Din Ali" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن علاء الدين علي بن بلبان الفارسي" }
+  - { kind: kunya, lang: ar, value: "أبو الحسن" }
+  - { kind: laqab, lang: ar, value: "علاء الدين" }
+  - { kind: nisba, lang: ar, value: "الفارسي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1276", hijri: "0675", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1339", hijri: "0739", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم يُعرف بالفارسي، ولد سنة 675هـ (1276م) وتوفي سنة 739هـ (1339م)."
+  en: "Scholar known as al-Farisi, born 675 AH (1276 CE) and died 739 AH (1339 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 23-24, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص24", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

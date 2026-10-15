@@ -1,0 +1,23 @@
+id: person/al-bukhari-ala-al-din
+class: person
+label: { ar: "البخاري علاء الدين", en: "al-Bukhari, Ala al-Din" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزيز بن أحمد بن محمد البخاري" }
+  - { kind: kunya, lang: ar, value: "علاء الدين" }
+  - { kind: nisba, lang: ar, value: "البخاري الحنفي" }
+gender: male
+roles: [jurist, theologian]
+traditions: [sunni]
+died: { edtf: "1331", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه حنفي من بخارى، من علماء الحنفية في عصره، وتوفي سنة 1331م."
+  en: "Hanafi jurist from Bukhara; died 1331 CE (the printed Hijri year does not match and is not recorded)."
+wings: [people, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 p. 214, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص214", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

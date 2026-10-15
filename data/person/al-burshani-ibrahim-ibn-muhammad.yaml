@@ -1,0 +1,24 @@
+id: person/al-burshani-ibrahim-ibn-muhammad
+class: person
+label: { ar: "البرشاني إبراهيم بن محمد", en: "al-Burshani Ibrahim ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم بن محمد بن مسعود بن حسين بن عبد العزيز بن كامل الأنصاري البرشاني" }
+  - { kind: kunya, lang: ar, value: "أبو إسحاق" }
+  - { kind: nisba, lang: ar, value: "البرشاني" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+born: { edtf: "1403", hijri: "0806", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1483", hijri: "0888", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه ولغوي وعالم بالفرائض والحساب من أهل وادي آشي في الأندلس، أخذ العلم عن كبار علماء عصره."
+  en: "Andalusi jurist, linguist and scholar of inheritance law and arithmetic from Wadi Ash (Guadix), who studied with the leading scholars of his time."
+wings: [people, words]
+themes: [linguistics, mathematics]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 332-333, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص332", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
