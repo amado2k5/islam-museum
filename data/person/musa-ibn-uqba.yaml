@@ -1,0 +1,21 @@
+id: person/musa-ibn-uqba
+class: person
+label: { ar: "موسى بن عقبة" }
+names:
+  - { kind: full, lang: ar, value: "موسى بن عقبة" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "موسى بن عقبة، مدني من الطبقة الثانية من كتّاب المغازي، مات سنة ١٤١هـ {cite:duha-islam p. 639}؛ ذاع صيت مغازيه في كتب المتأخرين حتى فضّله بعض أهل الحديث."
+  en: "Musa ibn Uqba — Medinan second-tier maghazi author (d. 141), whose Kitab al-Maghazi won lasting fame in the later tradition {cite:duha-islam p. 639}."
+died: { edtf: "0758", hijri: "0141", calendar: julian, precision: year, status: tradition, derived: true, note: "مات سنة ١٤١هـ {cite:duha-islam p. 639}." }
+wings: [people]
+periods: [period/umayyad, period/abbasid-early]
+regions: [arabia]
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 639"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
