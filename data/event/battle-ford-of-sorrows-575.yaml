@@ -1,0 +1,33 @@
+id: event/battle-ford-of-sorrows-575
+class: event
+kind: battle
+label: { ar: "وقعة مخاضة الأحزان وتخريب حصن بيت يعقوب", en: "The battle of the Ford of Sorrows (Jacob's Ford, 575 AH)" }
+summary:
+  ar: "بنى الفرنج حصناً منيعاً يقارب بانياس عند بيت يعقوب بمكان يعرف بمخاضة الأحزان، فأقام صلاح الدين ببانياس وبث غاراته على بلادهم؛ وفي سنة خمس وسبعين وخمسمائة أرسل جماعة من عسكره مع جالي الميرة فخرج عليهم الفرنج بملكهم، فسار صلاح الدين في العساكر حتى وافاهم وهم في القتال، فقاتل الفرنج قتالاً شديداً وحملوا على المسلمين حملات كادت تزيلهم عن مواقفهم ثم هُزموا وكثر قتلاهم ونجا ملكهم فريداً، وأُسر خلق كثير منهم ابن بيرزان صاحب الرملة ونابلس وهو أعظم الفرنج محلاً بعد الملك، وأخوه صاحب جبيل وصاحب طبرية ومقدم الداوية ومقدم الاسبتارية وصاحب جينين؛ وفدى ابن بيرزان نفسه بمائة ألف وخمسين ألف دينار صورية وإطلاق ألف أسير مسلم، وكان أكثر العمل في ذلك اليوم لعز الدين فرخشاه ابن أخي صلاح الدين وقد ذكر بيتي المتنبي فهان الموت في عينه وألقى بنفسه إليه فكان ذلك سبب الظفر؛ ثم خرب صلاح الدين الحصن {cite:kamil-ibn-al-athir p. 95-96}."
+  en: "The Franks built a strong castle by Jacob's Ford near Banias at the 'Ford of Sorrows'; in 575 Saladin, holding Banias, sent out a foraging escort that the Frankish king's whole host fell upon — he raced up, the Muslims were nearly flung from their stands, then broke the Franks: their king escaped alone while Balian 'ibn Barzan' of Ramla and Nablus, his brother of Jubayl, the lord of Tiberias, the masters of the Templars and Hospitallers and the lord of Janin were taken. Ibn Barzan ransomed himself for 150,000 Tyrian dinars and a thousand Muslim captives; the day's work was Izz al-Din Farrukhshah's, who recited al-Mutanabbi's two verses and threw himself on death — then Saladin demolished the fort {cite:kamil-ibn-al-athir p. 95-96}."
+date:
+  start: { hijri: "0575", edtf: "1179", calendar: julian, precision: year, status: tradition, note: "سنة ٥٧٥هـ {cite:kamil-ibn-al-athir p. 95-96}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/salah-al-din-yusuf-ibn-ayyub
+  role: "وافاهم في العساكر وهزم الفرنج وخرب الحصن"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/izz-al-din-farrukhshah
+  role: "ابن أخي صلاح الدين؛ كان أكثر العمل في هذا اليوم له"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/ibn-barzan
+  role: "صاحب الرملة ونابلس؛ أُسر وفدى نفسه بمائة ألف وخمسين ألف دينار وألف أسير مسلم"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+themes: [crusades]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 95-96"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-09
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,31 @@
+id: event/makkah-fitna-571
+class: event
+kind: civil-war
+label: { ar: "فتنة مكة وعزل مكثر بن عيسى", en: "The Mecca fitna and deposition of Mukaththir (571 AH)" }
+summary:
+  ar: "في ذي الحجة سنة إحدى وسبعين وخمسمائة كان بمكة حرب شديدة بين أمير الحاج طاشتكين وبين الأمير مكثر بن عيسى أمير مكة، وكان الخليفة قد أمر أمير الحاج بعزل مكثر وإقامة أخيه داود مقامه لبنائه قلعة على جبل أبي قبيس؛ فلم يبت الحاج بالمزدلفة بل اجتازوا بها ورمى بعضهم الجمار وهو سائر، ونزلوا الأبطح فخرج إليهم ناس من أهل مكة فحاربوهم وقتل من الفريقين جماعة وصاح الناس الغزاة إلى مكة فهجموا عليها؛ وهرب مكثر إلى قلعته على جبل أبي قبيس فحُصر بها ثم فارقها وسار عن مكة وولي أخوه داود الإمارة، ونهب الحاج كثيراً وأخذوا من أموال التجار المقيمين بها شيئاً كثيراً وأحرقوا دوراً كثيرة — ومن أعجبها أن رجلاً أزرق أحرق داراً لأيتام بقارورة نفط فلما ذهب ليضرب بأخرى أصابها حجر فكسرها فاحترق بها وبقي ثلاثة أيام يعذب ثم مات {cite:kamil-ibn-al-athir p. 77-78}."
+  en: "Dhu al-Hijja 571: fierce war in Mecca between the Hajj's amir Tashtakin and Mecca's amir Mukaththir ibn Isa, whom the caliph had ordered deposed for his brother Dawud over the castle he had built on Abu Qubays; the pilgrims stormed the city from al-Abtah, burned houses and plundered residents and merchants, Mukaththir was besieged in his hill-fort then fled, and Dawud took the emirate — and a blue-eyed arsonist who burned an orphans' house with a naphtha flask was struck by a stone mid-throw and burned in his own fire three days {cite:kamil-ibn-al-athir p. 77-78}."
+date:
+  start: { hijri: "0571-12", edtf: "1176-06~", calendar: julian, precision: month, status: tradition, derived: true, note: "ذو الحجة 571هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 77}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/mukaththir-ibn-isa
+  role: "أمير مكة المعزول الهارب من قلعة أبي قبيس"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/dawud-ibn-isa
+  role: "أخوه الذي أقيم في الإمارة بأمر الخليفة"
+  sources: [source/kamil-ibn-al-athir]
+- type: occurred_at
+  target: place/mecca
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 77-78"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-09
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
