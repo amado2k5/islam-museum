@@ -4,9 +4,18 @@ label: { ar: "أحمد بن أويس الجلائري" }
 names:
   - { kind: full, lang: ar, value: "غياث الدين أحمد بن أويس بن الشيخ حسن بن حسين بن أقبغا ابن إيلكان" }
 summary:
-  ar: "غياث الدين أحمد بن أويس الجلائري سلطان بغداد وتبريز وغيرهما من بلاد العراق ملك بعد موت أخيه الشيخ حسين بن أويس سنة أربع وثمانين وسبع مئة وكان سلطاناً فاتكاً له سطوة على الرعية مقداماً شجاعاً مهاباً سفاكاً للدماء وعنده جور وظلم على أمرائه وجنده وكانت له مشاركة في عدة علوم ومعرفة تامة بعلم النجوم ويد في معرفة الموسيقى وفي تأديته يجيد ذلك إلى الغاية منهمكاً في اللذات التي تهواها الأنفس فأكرمه برقوق غاية الإكرام وأنعم عليه أجل الإنعام وأعطاه تقليد نيابة السلطنة ببغداد فأهوى ابن أويس لتقبيل الأرض فلم يمكنه الظاهر من ذلك إجلالاً له ثم سار إلى بغداد فدخلها {cite:shadharat-dhahab p. 100-101}."
+  ar: "غياث الدين أحمد بن أويس الجلائري سلطان بغداد وتبريز وغيرهما من بلاد العراق ملك بعد موت أخيه الشيخ حسين بن أويس سنة أربع وثمانين وسبع مئة وكان سلطاناً فاتكاً له سطوة على الرعية مقداماً شجاعاً مهاباً سفاكاً للدماء وعنده جور وظلم على أمرائه وجنده وكانت له مشاركة في عدة علوم ومعرفة تامة بعلم النجوم ويد في معرفة الموسيقى وفي تأديته يجيد ذلك إلى الغاية منهمكاً في اللذات التي تهواها الأنفس فأكرمه برقوق غاية الإكرام وأنعم عليه أجل الإنعام وأعطاه تقليد نيابة السلطنة ببغداد فأهوى ابن أويس لتقبيل الأرض فلم يمكنه الظاهر من ذلك إجلالاً له ثم سار إلى بغداد فدخلها {cite:shadharat-dhahab p. 100-101}، وعند ابن خلدون لما زحف تمر إلى بغداد هرب ولحق بالسلطان الظاهر برقوق مستصرخاً فخرج معه في العساكر إلى الفرات وبعث الظاهر العساكر مدداً له فملك بغداد من شرذمة عسكر تمر {cite:tarikh-ibn-khaldun-ibar p. 1542}."
   en: "Ahmad ibn Uways the Jalayirid, sultan of Baghdad, Tabriz and the Iraqi lands after his brother Shaykh Husayn (784) — a dreaded, blood-spilling sultan with tyranny over his amirs and troops, yet versed in several sciences, complete in astronomy, and an accomplished musician in knowledge and performance, immersed in the pleasures souls desire; Barquq honoured him exceedingly, gave him the vice-sultanate patent of Baghdad, and would not let him kiss the ground, out of reverence {cite:shadharat-dhahab p. 100-101}."
 gender: male
+relations:
+- type: fought
+  target: person/timur-lang
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: allied_with
+  target: person/barquq
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq, persia-central-asia]
@@ -15,5 +24,5 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج6، سنة 813)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-64
-sources: [source/shadharat-dhahab]
+sources: [source/shadharat-dhahab, source/tarikh-ibn-khaldun-ibar]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

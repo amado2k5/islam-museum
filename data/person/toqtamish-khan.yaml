@@ -1,0 +1,42 @@
+id: person/toqtamish-khan
+class: person
+label:
+  ar: طغطمش بن بردبيك صاحب صراي
+  en: Toqtamish ibn Burdbik, lord of Saray
+summary:
+  ar: "طغطمش بن بردبيك من بني دوشي خان، صاحب التخت بصراي؛ استوسق له الملك بصراي وأعمالها بعد ماماي، وأغرا الشيخ ولي ملك مازندران بالانتقاض على تمر فحسم تمر علته وقرر الزحف إليه، فسار طغطمش للقائه وداخله تمر وجماعة الأمراء فاستراب بهم وقد حان اللقاء فتصافحوا للحرب وانهزم طغطمش وتبدد عياله، ثم عاد فاسترجع صراي، ولم تزل الحرب بينه وبين تمر إلى أن بلغ الخبر آخر سنة 797هـ أن تمر ظفر به وقتله واستولى على سائر أعماله."
+  en: "Toqtamish ibn Burdbik of the Jochids, holder of the throne at Saray; he secured the Dasht kingship after Mamay — incited by the dispossessed Shaykh Wali of Mazandaran he rose against Timur, who marched on him; they met in battle and Toqtamish broke, his household scattered, yet he regained Saray — and the war ran on until word came late in 797 AH that Timur had crushed and killed him and seized all his domains."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1395~"
+  hijri: "0797~"
+  calendar: julian
+  precision: decade
+  status: debated
+  derived: true
+  note: بلغ الخبر آخر سنة 797هـ بظفر تمر به وقتله؛ التاريخ والواقعة تحتاج توثيقاً.
+relations:
+- type: ruler_of
+  target: polity/golden-horde
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: fought
+  target: person/timur-lang
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — حروب السلطان تمر مع طغطمش صاحب صراي، ص1541-1542 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-14
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
