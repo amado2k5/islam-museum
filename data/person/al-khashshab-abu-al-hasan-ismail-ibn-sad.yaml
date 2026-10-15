@@ -1,0 +1,24 @@
+id: person/al-khashshab-abu-al-hasan-ismail-ibn-sad
+class: person
+label: { ar: "الخشاب أبو الحسن إسماعيل بن سعد", en: "al-Khashshab Abu al-Hasan Isma'il ibn Sa'd" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن إسماعيل بن سعد بن إسماعيل الخشاب الشافعي المصري" }
+  - { kind: kunya, lang: ar, value: "أبو الحسن" }
+  - { kind: nisba, lang: ar, value: "الخشاب" }
+  - { kind: nisba, lang: ar, value: "المصري" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+died: { edtf: "1815", hijri: "1230", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شافعي مصري، كان من أصدقاء المؤرخ عبد الرحمن الجبرتي، وتوفي سنة 1230هـ (1815م)."
+  en: "Shafi'i scholar of Egypt, a friend of the historian Abd al-Rahman al-Jabarti; died 1230 AH (1815 CE)."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/colonial-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 277-278, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص277", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

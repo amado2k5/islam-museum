@@ -1,0 +1,25 @@
+id: person/ibn-khalil-al-dimashqi-abu-al-hajjaj-yusuf
+class: person
+label: { ar: "ابن خليل الدمشقي أبو الحجاج يوسف", en: "Ibn Khalil al-Dimashqi Abu al-Hajjaj Yusuf" }
+names:
+  - { kind: full, lang: ar, value: "شمس الدين أبو الحجاج يوسف بن خليل بن قراجا بن عبد الله الدمشقي ثم الحلبي" }
+  - { kind: kunya, lang: ar, value: "أبو الحجاج" }
+  - { kind: nisba, lang: ar, value: "الدمشقي" }
+  - { kind: nisba, lang: ar, value: "الحلبي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1160", hijri: "0555", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1250", hijri: "0648", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "شمس الدين أبو الحجاج يوسف بن خليل الدمشقي ثم الحلبي، ولد سنة 555هـ (1160م) وتوفي سنة 648هـ (1250م)."
+  en: "Shams al-Din Abu al-Hajjaj Yusuf ibn Khalil of Damascus and later Aleppo; born 555 AH (1160 CE) and died 648 AH (1250 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 492-493, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص492", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
