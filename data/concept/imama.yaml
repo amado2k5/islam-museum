@@ -1,0 +1,34 @@
+id: concept/imama
+class: concept
+kind: doctrine
+label: { ar: "الإمامة" }
+summary:
+  ar: "الإمامة هي أهم مسألة يدور عليها كلام الإمامية — مركز بحوثهم والملوّن لعقيدتهم وإليها ترجع أكثر المسائل الفرعية، وحولها يدور أكثر الخلاف بينهم وبين أهل السنة {cite:duha-islam p. 850}. وفي كتاب الكافي أن الإمام له صلة روحية بالله من جنس التي للأنبياء والرسل، وأنه لا تبقى الأرض بغير إمام حجة الله على عباده، وأن الإيمان بالإمام جزء من الإيمان، ومن مات بلا إمام «مات ميتة كفر ونفاق»، وأن الإمامة «منزلة الأنبياء وإرث الأوصياء، خلافة الله وخلافة الرسول ومقام أمير المؤمنين، زمام الدين ونظام المسلمين وصلاح الدنيا وعز المؤمنين» {cite:duha-islam p. 850-852}."
+  en: "The Imamate — the axis of Imami doctrine per al-Kafi: the imam shares the prophets' link to God, the earth is never without a hujja, and 'the imamate is the station of the prophets, God's caliphate, the reins of religion' {cite:duha-islam p. 850-852}."
+wings: [ideas]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+themes: [sects-and-schools, creed]
+perspectives:
+  - tradition: sunni
+    id: sunni-imamate
+    stance: { ar: "الإمامة عند أهل السنة اختيار من الأمة لا نصاً معصوماً" }
+    summary: { ar: "أهل السنة يجعلون الإمامة مفوضة إلى اختيار الأمة وشوراها {cite:duha-islam p. 850}." }
+    sources: [source/duha-islam]
+  - tradition: academic
+    id: amin-analysis
+    stance: { ar: "الإمامة هي أهم مسألة يدور عليها كلام الإمامية وحولها يدور أكثر الخلاف مع أهل السنة" }
+    summary: { ar: "مركز بحوث الإمامية والملوّن لعقيدتهم وإليها ترجع أكثر المسائل الفرعية {cite:duha-islam p. 850}." }
+    sources: [source/duha-islam]
+  - tradition: shia-twelver
+    id: kafi-doctrine
+    stance: { ar: "الإمامة نص ووحي بحسب طريقته، والإمام حجة الله الذي لا تخلو الأرض منه" }
+    summary: { ar: "كما في الكافي للكليني: للإمام صلة روحية بالله، ومعرفة الله تكون بالإيمان بالله ورسوله وموالاة علي والائتمام به وبأئمة الهدى والبراءة إلى الله من عدوهم {cite:duha-islam p. 850-852}." }
+    sources: [source/duha-islam]
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 850-852"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-8
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

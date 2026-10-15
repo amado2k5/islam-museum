@@ -1,0 +1,24 @@
+id: person/al-kulayni
+class: person
+label: { ar: "محمد بن يعقوب الكليني" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن يعقوب الكليني" }
+gender: male
+roles: [scholar]
+died: { edtf: "0940~", hijri: "0328", calendar: julian, precision: year, status: debated, derived: true, note: "مات ببغداد سنة ٣٢٨ أو سنة ٣٢٩ ودفن بالكوفة {cite:duha-islam p. 891}." }
+summary:
+  ar: "محمد بن يعقوب الكليني، يعد من أفاضل الشيعة ورؤسائهم وهو عند الشيعة كالبخاري عند أهل السنة ويسمونه «ثقة الإسلام»؛ له كتاب الكافي في ثلاثة أجزاء: الأول في الأصول والثاني والثالث في الفروع، ويحتوي ستة عشر ألف حديث قسمها — كما فعل أهل السنة — إلى صحيح وحسن وقوي وضعيف، وقد اتفق في جمعه عشرون عاماً، ومات ببغداد سنة ٣٢٨ أو سنة ٣٢٩ ودفن بالكوفة {cite:duha-islam p. 850, 891}."
+  en: "al-Kulayni — 'the Bukhari of the Shi'a', titled Thiqat al-Islam; his al-Kafi gathered sixteen thousand hadiths over twenty years {cite:duha-islam p. 850, 891}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq, persia-central-asia]
+traditions: [shia-twelver]
+relations:
+  - { type: authored, target: work/al-kafi, sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 850، 891"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-8
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
