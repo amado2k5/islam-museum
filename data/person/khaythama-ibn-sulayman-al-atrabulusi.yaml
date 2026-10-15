@@ -1,0 +1,24 @@
+id: person/khaythama-ibn-sulayman-al-atrabulusi
+class: person
+label: { ar: "خيثمة بن سليمان الأطرابلسي", en: "Khaythama ibn Sulayman al-Atrabulusi" }
+names:
+  - { kind: full, lang: ar, value: "خيثمة بن سليمان بن حيدرة القرشي" }
+  - { kind: kunya, lang: ar, value: "أبو الحسن" }
+  - { kind: nisba, lang: ar, value: "الأطرابلسي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0864", hijri: "0250", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0954", hijri: "0343", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "المحدث الحافظ أبو الحسن خيثمة بن سليمان القرشي الأطرابلسي، مسند الشام في عصره، طاف في طلب الحديث بين الثغور والعراق والحجاز، وتوفي بطرابلس الشام."
+  en: "The traditionist and hafiz Abu al-Hasan Khaythama ibn Sulayman al-Qurashi of Tripoli in Syria, a leading transmitter of Syria in his age; he travelled widely in search of hadith and died at Tripoli."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 138-139, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص138-139", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

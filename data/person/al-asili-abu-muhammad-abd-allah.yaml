@@ -1,0 +1,24 @@
+id: person/al-asili-abu-muhammad-abd-allah
+class: person
+label: { ar: "أبو محمد عبد الله الأصيلي", en: "Abu Muhammad Abd Allah al-Asili" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن إبراهيم الأندلسي" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: laqab, lang: ar, value: "الأصيلي" }
+gender: male
+roles: [scholar, jurist]
+traditions: [sunni]
+born: { edtf: "0936", hijri: "0324", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1002", hijri: "0392", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "المحدث والفقيه المالكي القاضي أبو محمد عبد الله بن إبراهيم الأصيلي الأندلسي، من كبار أصحاب الحديث والفقه، نشأ بأصيلا قرب طنجة ثم عاد إلى الأندلس."
+  en: "The Maliki traditionist, jurist and judge Abu Muhammad Abd Allah ibn Ibrahim al-Asili of al-Andalus, one of the leading transmitters and jurists of his time; he grew up at Asila near Tangier before returning to al-Andalus."
+wings: [people, words]
+themes: [scripture-and-its-sciences, law-and-courts]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 135-136, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص135-136", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
