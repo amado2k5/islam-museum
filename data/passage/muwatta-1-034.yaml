@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.34"
-label: { ar: "الموطأ 1.34", en: "Muwatta 1.34" }
+label: { ar: "الموطأ 34 — من توضأ فليستنثر ومن استجمر فليوتر", en: "Muwatta 34" }
+text: "من توضأ فليستنثر، ومن استجمر فليوتر"
 summary:
-  ar: "ابن شهاب عن أبي إدريس الخولاني عن أبي هريرة: الأمر بالاستنثار عند الاستيقاظ وبالإيتار في الاستجمار."
+  ar: "يرويه مالك عن ابن شهاب عن أبي إدريس الخولاني عائذ الله بن عبد الله عن أبي هريرة، في باب العمل في الوضوء، بمعنى الحديث السابق: الاستنثار في الوضوء والإيتار في الاستجمار. ويخرّجه المحقق عند مسلم (1/146) وابن ماجه (409) والنسائي (1/66) وابن خزيمة (75) من طرق أصحاب مالك، وينقل عن ابن عبد البر أنه لا يصح عن مالك ولا عن ابن شهاب في هذا الحديث غير هذا الإسناد. {cite:muwatta-maruf-1997 p.52}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 34 of kitab al-salat at PDF p. 52", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-idris-al-khawlani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 34 at PDF p. 52; باب العمل في الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 52; matn excerpt at most 40 words" }

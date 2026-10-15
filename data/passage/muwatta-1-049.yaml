@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.49"
-label: { ar: "الموطأ 1.49", en: "Muwatta 1.49" }
+label: { ar: "الموطأ 49 — أم سلمة: الذيل الطويل يطهره ما بعده", en: "Muwatta 49" }
+text: "يطهره ما بعده"
 summary:
-  ar: "أم ولد لإبراهيم بن عبد الرحمن بن عوف تسأل أم سلمة زوج النبي ﷺ عن مسألة في الطهارة، والنص المحوَّل غير واضح في تفاصيل السؤال."
+  ar: "أول حديث في باب ما لا يجب منه الوضوء. يرويه يحيى عن مالك عن محمد بن عمارة عن محمد بن إبراهيم التيمي عن أم ولد لإبراهيم بن عبد الرحمن بن عوف، أنها سألت أم سلمة زوج النبي عن ذيل ثوبها الطويل تمشي به في المكان القذر، فأخبرتها أن النبي قال إن ما بعده من الأرض الطاهرة يطهره. ويذكر المحقق أن أم الولد اسمها حميدة وأنها مجهولة تفرد بالرواية عنها محمد بن إبراهيم وحكم الذهبي بجهالتها، ويخرّج الحديث عند أبي داود (383) والترمذي (143) وابن ماجه (531) والدارمي، ويذكر له شاهداً صحيحاً من حديث امرأة من بني عبد الأشهل عند أحمد وأبي داود (384) وابن ماجه (533) يتقوى به حديث أم سلمة. {cite:muwatta-maruf-1997 p.59}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 49 of kitab al-salat at PDF p. 59", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-5" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-umara-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-ibrahim-al-taymi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 49 at PDF p. 59; باب ما لا يجب منه الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل السؤال غير واضحة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 59; matn excerpt at most 40 words" }

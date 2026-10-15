@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.36"
-label: { ar: "الموطأ 1.36", en: "Muwatta 1.36" }
+label: { ar: "الموطأ 36 — عائشة لعبد الرحمن: أسبغ الوضوء، ويل للأعقاب من النار", en: "Muwatta 36" }
+text: "ويل للأعقاب من النار"
 summary:
-  ar: "أبو بكر بن عبد الرحمن: عائشة تُنبّه على أن الأعقاب التي لا تصيبها الماء تتوعد بالنار، فيجب إسباغ الوضوء على العقب."
+  ar: "بلاغ في باب العمل في الوضوء: يروي مالك أنه بلغه أن عبد الرحمن بن أبي بكر دخل على أخته عائشة يوم مات سعد بن أبي وقاص فدعا بماء ليتوضأ، فأمرته أن يسبغ الوضوء، واحتجت بأنها سمعت النبي يتوعد الأعقاب التي لا يصيبها الماء بالنار. ويذكر المحقق أن أبا مصعب رواه عن مالك كذلك، وأنه حديث مدني معروف روي عن النبي من وجوه شتى موصولاً ذكرها ابن عبد البر (التمهيد 24/247)، وينقل عن الزرقاني أن البلاغ يحتمل أن يكون وصل مالكاً من تلميذه ابن وهب أو من مخرمة بن بكير، إذ رواه مسلم من طريقهما عن سالم مولى شداد قال: دخلت على عائشة يوم توفي سعد. {cite:muwatta-maruf-1997 p.52} {cite:muwatta-maruf-1997 p.53}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 36 of kitab al-salat at PDF p. 52", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 36 at PDF p. 52; باب العمل في الوضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 52; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.31"
-label: { ar: "الموطأ 1.31", en: "Muwatta 1.31" }
+label: { ar: "الموطأ 31 — سالم بن عبد الله ينزع الثوب عن فم المصلي", en: "Muwatta 31" }
 summary:
-  ar: "عبد الرحمن بن المجبر عن سالم بن عبد الله: كان سالم ينزع يد المصلي عن فمه إذا غطاه أثناء الصلاة (أثر، والحديث مرسل عند مالك)."
+  ar: "أثر يرويه مالك عن عبد الرحمن بن المجبر، في باب النهي عن دخول المسجد بريح الثوم وتغطية الفم: كان سالم بن عبد الله بن عمر إذا رأى رجلاً يغطي فمه وهو يصلي جذب الثوب عن فيه جذباً شديداً حتى ينزعه. ويعرّف المحقق بعبد الرحمن بن المجبر بأنه عبد الرحمن بن عبد الرحمن بن عمر بن الخطاب، سُمي المجبر لأنه سقط فتكسر فجُبر، وينقل عن ابن ماكولا أنه لا يُعرف في الرواة ثلاثة في النسق بهذا الاسم سواه. {cite:muwatta-maruf-1997 p.49}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 31 of kitab al-salat at PDF p. 49", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-4" }
+  - { type: mentions, target: person/salim-ibn-abd-allah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-mujabbar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 31 at PDF p. 49; باب النهي عن دخول المسجد بريح الثوم وتغطية الفم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 49; matn excerpt at most 40 words" }
