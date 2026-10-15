@@ -1,0 +1,25 @@
+id: person/ibn-barri-abd-allah-ibn-abi-al-wahsh
+class: person
+label: { ar: "ابن بري عبد الله بن أبي الوحش", en: "Ibn Barri Abd Allah ibn Abi al-Wahsh" }
+names:
+  - { kind: full, lang: ar, value: "أبو محمد عبد الله بن أبي الوحش بن عبد الجبار بن بري المقدسي المصري" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: nisba, lang: ar, value: "المقدسي" }
+  - { kind: nisba, lang: ar, value: "المصري" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1106", hijri: "0499", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1187", hijri: "0582", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "لغوي ونحوي مصري، ولد ونشأ وتوفي بمصر، وكان أبوه كاتباً."
+  en: "Egyptian lexicographer and grammarian, born and died in Egypt; his father was a scribe."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 382-383, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص382", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
