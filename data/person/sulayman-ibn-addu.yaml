@@ -1,0 +1,32 @@
+id: person/sulayman-ibn-addu
+class: person
+label:
+  ar: سليمان بن عدو
+  en: Sulayman ibn Addu
+summary:
+  ar: خلف عبد الله بن ياسين في قيادة المرابطين بعد استشهاده سنة 450هـ في حرب برغواطة، فاستأصل شأفتهم ومحا أثر دعوتهم من المغرب، ثم هلك في جهادهم سنة 451هـ.
+  en: Successor of Abd Allah ibn Yasin at the head of the Almoravids after his martyrdom in 450 AH in the Barghawata war; he extirpated their sect from the Maghreb before falling in that jihad in 451 AH.
+gender: male
+roles: [ruler, scholar]
+traditions: [sunni]
+died: { edtf: "1059", hijri: "0451", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك في جهاد برغواطة سنة 451هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: successor_of
+  target: person/abdallah-ibn-yasin
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [west-africa-sahel, maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — باب دولة المرابطين، ص1646 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

@@ -1,0 +1,36 @@
+id: person/tashfin-ibn-ali
+class: person
+label:
+  ar: تاشفين بن علي
+  en: Tashfin ibn Ali
+summary:
+  ar: تاشفين بن علي بن يوسف بن تاشفين، آخر أمراء المرابطين قوة؛ قاتل عبد المؤمن والموحدين قتالاً شديداً حتى نازله بتلمسان، وفر إلى وهران فاتبعه الموحدون واقتحموا البلد فهلك سنة 541هـ.
+  en: Tashfin ibn Ali ibn Yusuf ibn Tashfin, the last vigorous Almoravid amir; he fought Abd al-Mu'min and the Almohads stubbornly until besieged at Tlemcen, fled to Oran where the Almohads stormed the town and he perished in 541 AH.
+gender: male
+roles: [ruler]
+traditions: [sunni]
+died: { edtf: "1145", hijri: "0541", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك بوهران سنة إحدى وأربعين بعد نزال تلمسان؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: child_of
+  target: person/ali-ibn-yusuf-al-murabiti
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/almoravid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — أخبار نهاية دولة المرابطين، ص1649 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

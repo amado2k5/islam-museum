@@ -1,0 +1,38 @@
+id: polity/almoravid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: دولة المرابطين
+  en: Almoravid dynasty
+summary:
+  ar: دولة قامت على يد عبد الله بن ياسين الجزولي بين قبائل لمتونة وجدالة ومسوفة من الملثمين، سماهم بالمرابطين على اسم رباطهم بجزيرة النيل، فافتتح أميرهم يحيى بن عمر سجلماسة سنة 445هـ وثبت الملك ليوسف بن تاشفين الذي اختط مراكش سنة 454هـ ودوخ أقطار المغرب وضم الأندلس بعد موقعة الزلاقة، واستمر ملكهم إلى أن استولى الموحدون على مراكش سنة 541هـ.
+  en: The dynasty raised by Abd Allah ibn Yasin al-Jazuli among the Mulaththamun tribes of Lamtuna, Guddala and Massufa, named Murabitun after their ribat island on the Niger; their amir Yahya ibn Umar took Sijilmasa in 445 AH, Yusuf ibn Tashfin founded Marrakesh in 454 AH, subdued the Maghreb and annexed al-Andalus after Zallaqa, until the Almohads took Marrakesh in 541 AH.
+wings:
+- time
+- place
+periods:
+- period/buyid-seljuk-fatimid-era
+- period/crusades-ayyubid-mamluk
+regions:
+- maghreb
+- andalus-europe
+- west-africa-sahel
+start: { edtf: "1042~", hijri: "0435~", calendar: julian, precision: decade, status: tradition, derived: true, note: "خرج ابن ياسين بألف من الرجالات من الرباط نحو سنة 435هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+end: { edtf: "1147", hijri: "0541", calendar: julian, precision: year, status: historical, derived: true, note: "استولى عبد المؤمن والموحدون على المغرب وقتلوا إسحاق بن علي آخر ملوكهم سنة 541هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: successor_of
+  target: polity/ghana-empire
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — باب دولة المرابطين من لمتونة، ص1645-1650 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
