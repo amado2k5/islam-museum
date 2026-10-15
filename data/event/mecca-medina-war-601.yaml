@@ -1,0 +1,29 @@
+id: event/mecca-medina-war-601
+class: event
+kind: war
+label: { ar: "الحرب بين أميري مكة والمدينة", en: "The war between the amirs of Mecca and Medina (601 AH)" }
+summary:
+  ar: "في سنة واحدة وستمائة كانت الحرب بين الأمير قتادة الحسيني أمير مكة والأمير سالم بن قاسم الحسيني أمير المدينة ومع كل واحد منهما جمع كثير؛ قصد قتادة المدينة ليحصرها ويأخذها فلقيه سالم بذي الحليفة بعد أن قصد الحجرة على ساكنها فصلى عندها ودعا وسار فلقيه فانهزم قتادة وتبعه سالم إلى مكة فحصره بها، فأرسل قتادة إلى من مع سالم من الأمراء فأفسدهم عليه فمالوا إليه وحالفوه، فلما رأى سالم ذلك رحل عائداً إلى المدينة وعاد أمر قتادة قوياً {cite:kamil-ibn-al-athir p. 245}."
+  en: "601: the Husaynid amirs of the two sanctuaries went to war — Qatada of Mecca marched to besiege Medina; Salim ibn Qasim prayed at the Prophet's tomb and supplicated, then met him at Dhu al-Hulayfa and routed him, chasing him into a siege inside Mecca itself — until Qatada corrupted Salim's amirs, and Salim withdrew {cite:kamil-ibn-al-athir p. 245}."
+date:
+  start: { hijri: "0601", edtf: "1205", calendar: julian, precision: year, status: tradition, note: "سنة ٦٠١هـ {cite:kamil-ibn-al-athir p. 245}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/qatada-ibn-idris-al-alawi
+  role: "أمير مكة المهزوم بذي الحليفة المحاصَر بمكة"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/salim-ibn-qasim
+  role: "أمير المدينة المنتصر"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+themes: [civil-wars-and-revolts]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 245"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-14
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
