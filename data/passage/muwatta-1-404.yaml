@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.404"
-label: { ar: "الموطأ 1.404", en: "Muwatta 1.404" }
+label: { ar: "الموطأ 404 — عمر بمكة: يا أهل مكة أتموا صلاتكم فإنا قوم سفر", en: "Muwatta 404" }
+text: "يا أهل مكة أتموا صلاتكم، فإنا قوم سفر"
 summary:
-  ar: "ابن شهاب عن سالم عن أبيه: كان عمر بن الخطاب إذا قدم مكة يقصر الصلاة؛ الأثر في القصر بمكة."
+  ar: "أول أثر في باب صلاة المسافر إذا كان إماماً أو كان وراء إمام. يرويه يحيى عن مالك عن ابن شهاب عن سالم بن عبد الله عن أبيه: كان عمر بن الخطاب إذا قدم مكة صلى بأهلها ركعتين ثم يقول: يا أهل مكة أتموا صلاتكم فإنا قوم سفر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وروح بن عبادة وابن وهب عند الطحاوي وسويد ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.213}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 404 of kitab al-salat at PDF p. 213", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-19" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/salim-ibn-abd-allah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 404 at PDF p. 213; باب صلاة المسافر إذا كان إماماً أو كان وراء إمام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b17" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 213; matn excerpt at most 40 words" }

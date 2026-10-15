@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.402"
-label: { ar: "الموطأ 1.402", en: "Muwatta 1.402" }
+label: { ar: "الموطأ 402 — سعيد بن المسيب: من أجمع إقامة أربع ليال أتم", en: "Muwatta 402" }
+text: "من أجمع إقامة أربع ليال وهو مسافر أتم الصلاة"
 summary:
-  ar: "عطاء الخراساني سمع سعيد بن المسيب يقول: من أجمع إقامة أربعة أيام فليتم الصلاة؛ حكم القصر إذا نوى الإقامة."
+  ar: "أول أثر في باب صلاة المسافر إذا أجمع مكثاً. يرويه يحيى عن مالك عن عطاء الخراساني أنه سمع سعيد بن المسيب يقول إن من عزم على إقامة أربع ليال وهو مسافر أتم الصلاة؛ ويقول مالك إن ذلك أحب ما سمع إليه. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وعبد الرزاق ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.212} {cite:muwatta-maruf-1997 p.213}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 402 of kitab al-salat at PDF p. 212", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-19" }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-al-khurasani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 402 at PDF p. 212; باب صلاة المسافر إذا أجمع مكثاً", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b17" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 212; matn excerpt at most 40 words" }

@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.415"
-label: { ar: "الموطأ 1.415", en: "Muwatta 1.415" }
+label: { ar: "الموطأ 415 — أم هانئ: صلى عام الفتح ثماني ركعات ملتحفاً في ثوب واحد", en: "Muwatta 415" }
+text: "صلى عام الفتح ثماني ركعات ملتحفاً في ثوب واحد"
 summary:
-  ar: "موسى بن ميسرة عن أبي مرة مولى عقيل بن أبي طالب: أن أم هانئ بنت أبي طالب حدثت بأمر في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب صلاة الضحى. يرويه يحيى عن مالك عن موسى بن ميسرة عن أبي مرة مولى عقيل بن أبي طالب أن أم هانئ بنت أبي طالب أخبرته أن النبي صلى عام فتح مكة ثماني ركعات ملتحفاً في ثوب واحد. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والقعنبي وعثمان بن عمر عند أحمد ومحمد بن الحسن، ويحيل على التمهيد (13/184). {cite:muwatta-maruf-1997 p.216} {cite:muwatta-maruf-1997 p.217}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 415 of kitab al-salat at PDF p. 216", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-20" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-hani-bint-abi-talib, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-murra-mawla-aqil, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/musa-ibn-maysara, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/conquest-of-mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 415 at PDF p. 216; باب صلاة الضحى", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b17" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 216; matn excerpt at most 40 words" }

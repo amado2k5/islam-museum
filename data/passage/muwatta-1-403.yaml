@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.403"
-label: { ar: "الموطأ 1.403", en: "Muwatta 1.403" }
+label: { ar: "الموطأ 403 — مالك: صلاة الأسير مثل صلاة المقيم إلا أن يكون مسافراً", en: "Muwatta 403" }
 summary:
-  ar: "سُئل مالك عن صلاة الأسير: مثل صلاة المقيم إلا أن يكون مسافرًا؛ حكم صلاة الأسير."
+  ar: "فتوى لمالك في باب صلاة المسافر إذا أجمع مكثاً: سُئل عن صلاة الأسير فقال إنها مثل صلاة المقيم إلا أن يكون مسافراً. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.213}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 403 of kitab al-salat at PDF p. 213", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-19" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 403 at PDF p. 213; باب صلاة المسافر إذا أجمع مكثاً", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b17" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 213; matn excerpt at most 40 words" }
