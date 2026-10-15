@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.178"
-label: { ar: "الموطأ 1.178", en: "Muwatta 1.178" }
+label: { ar: "الموطأ 178 — سهل بن سعد: ساعتان تفتح لهما أبواب السماء", en: "Muwatta 178" }
+text: "ساعتان يفتح لهما أبواب السماء وقل داع ترد عليه دعوته: حضرة النداء للصلاة، والصف في سبيل الله"
 summary:
-  ar: "سهل بن سعد الساعدي: ساعتان تُفتح لهما أبواب السماء، وقلّ من يُدعى فيهما؛ الحديث في ساعات الإجابة عند الأذان والصف."
+  ar: "أثر يرويه مالك عن أبي حازم بن دينار عن سهل بن سعد الساعدي، في باب ما جاء في النداء للصلاة: ساعتان تُفتح فيهما أبواب السماء وقلّ أن تُرد فيهما دعوة داعٍ: عند النداء للصلاة، وعند الصف في سبيل الله. ويذكر المحقق أنه رواه عن مالك أبو مصعب وابن أبي أويس عند البخاري في الأدب المفرد وسويد وعبد الرزاق ومعن ويحيى بن بكير، وينقل عن ابن عبد البر أنه موقوف على سهل عند جماعة الرواة ومثله لا يقال بالرأي، وأن أيوب بن سويد ومحمد بن مخلد وإسماعيل بن عمر رووه عن مالك مرفوعاً (التمهيد 21/138)؛ ويبين المحقق ضعف أيوب واتهام محمد بن مخلد، وأن إسماعيل بن عمر تفرد برفعه من بين الثقات، فالوقف من طريق مالك هو الراجح عنده، وأن موسى بن يعقوب الزمعي رواه عن أبي حازم مرفوعاً عند أبي داود (2540) وابن خزيمة والحاكم. {cite:muwatta-maruf-1997 p.117} {cite:muwatta-maruf-1997 p.118}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 178 of kitab al-salat at PDF p. 117", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-10" }
+  - { type: mentions, target: person/sahl-ibn-sad-al-saidi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hazim-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 178 at PDF p. 117; باب ما جاء في النداء للصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b08" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 117; matn excerpt at most 40 words" }

@@ -1,0 +1,15 @@
+id: passage/muwatta-1-179
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.179"
+label: { ar: "الموطأ 179 — مالك: لا نداء للجمعة إلا بعد الزوال", en: "Muwatta 179" }
+summary:
+  ar: "فتوى لمالك في باب ما جاء في النداء للصلاة: سُئل عن النداء يوم الجمعة هل يكون قبل أن يحل الوقت، فقال: لا يكون إلا بعد أن تزول الشمس. ويذكر المحقق أن أبا مصعب رواه عن مالك، وأن في صحيح البخاري (904) من حديث أنس أن النبي كان يصلي الجمعة حين تميل الشمس. {cite:muwatta-maruf-1997 p.118}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 179 at PDF p. 118; باب ما جاء في النداء للصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b08" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 118; matn excerpt at most 40 words" }

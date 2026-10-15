@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.189"
-label: { ar: "الموطأ 1.189", en: "Muwatta 1.189" }
+label: { ar: "الموطأ 189 — ابن عمر في ليلة باردة: ألا صلوا في الرحال", en: "Muwatta 189" }
+text: "ألا صلوا في الرحال"
 summary:
-  ar: "نافع: أذّن ابن عمر في ليلة باردة وريح، فقال: ألا صلوا في الرحال؛ الحديث في الصلاة في الرحال عند المطر والبرد."
+  ar: "أول حديث في باب النداء في السفر وعلى غير وضوء. يرويه يحيى عن مالك عن نافع: أذّن عبد الله بن عمر بالصلاة في ليلة ذات برد وريح ثم قال: ألا صلوا في الرحال، وأخبر أن النبي كان يأمر المؤذن إذا كانت ليلة باردة ذات مطر أن يقول ذلك. ويخرّجه المحقق عند البخاري (666) ومسلم (2/147) وأبي داود (1063) والنسائي (2/15) وابن حبان وأحمد والشافعي من طرق أصحاب مالك، ويحيل على التمهيد (13/270). {cite:muwatta-maruf-1997 p.121}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 189 of kitab al-salat at PDF p. 121", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-10" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 189 at PDF p. 121; باب النداء في السفر وعلى غير وضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b08" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 121; matn excerpt at most 40 words" }
