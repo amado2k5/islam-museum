@@ -52,6 +52,8 @@
 
 - (14 Oct 2026) Batch 1b (vol. 1): pp. 425–441 (12 entries: al-Azraqi, Khalid al-Azhari, al-Isbijabi, Asad al-Sunna, al-Asadi al-Sammaki, al-Isfara'ini (Shahfur), Abd al-Salam al-Asmar, al-Akhfash al-Akbar, al-Ahwal, two al-Irbili entries, al-Azjani). Skipped in this range: Shi'i (Istarabadi, Ibn Tawus, al-Ahsa'i), Christian and Jewish figures, Mauritanian and Malian figures, Ibadi figures, and bibliography or fragment openings.
 
+- (14 Oct 2026) Batch 1c (vol. 1, pp. 499–520): 5 entries: al-Ardabili (Shafi'i jurist), Ibn Arqam al-Numayri, Junada al-Azdi al-Harawi, Abd al-Ghani al-Azdi, al-Azdi al-Qurtubi. Born date for Abd al-Ghani recorded as an approximate CE year only (printed Hijri and CE disagree).
+
 **Flags:**
 - Volume 6 (m-a-3-o-06.pdf) is absent from the founder's folder — its letter range will be missing entirely.
 
