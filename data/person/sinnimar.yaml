@@ -1,0 +1,20 @@
+id: person/sinnimar
+class: person
+label: { ar: "سِنِمَّار", en: "Sinnimar" }
+summary:
+  ar: "البناء الذي شيّد الخورنق والسدير للنعمان بن امرئ القيس وكملهما في عشرين سنة؛ لما وقف عليه النعمان واستجاده قال له سنمار: «لو شئت أن أجعله يدور مع الشمس لفعلت»، فأمر النعمان بطرحه من أعلى شرفاته فضُرب به المثل: «جزاه جزاء سنمار» {cite:umari-masalik-1924 p. 230}."
+  en: "The builder who raised al-Khawarnaq and al-Sadir for al-Nu'man ibn Imri' al-Qays over twenty years; when the king marvelled and feared him, Sinnimar boasted 'had I wished, I could have made it turn with the sun' — and was thrown from its highest balcony, begetting the proverb 'he was repaid Sinnimar's reward' {cite:umari-masalik-1924 p. 230}."
+gender: male
+wings: [people, place]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq]
+relations:
+  - { type: related_to, target: place/al-khawarnaq, note: "بناه مع السدير للنعمان في عشرين سنة.", sources: [source/umari-masalik-1924] }
+  - { type: related_to, target: person/al-numan-ibn-imri-al-qays, note: "صاحبه وقاتله على المشهور.", sources: [source/umari-masalik-1924] }
+provenance:
+  layer: own-research
+  source: "مسالك الأبصار (ط 1924) ص 230"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-umari-1
+sources: [source/umari-masalik-1924]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
