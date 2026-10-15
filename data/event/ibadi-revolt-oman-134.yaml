@@ -1,0 +1,23 @@
+id: event/ibadi-revolt-oman-134
+class: event
+kind: battle
+label: { ar: "ثورة الجلندى الإباضية في عُمان" }
+summary:
+  ar: "في سنة ١٣٤ — ما استقر السفاح في خلافته حتى — تحرك خوارج عُمان الإباضية على رأسهم الجلندى بن مسعود؛ فأرسل إليهم خازم بن خزيمة جيشاً سار في البحر حتى أرسى على ساحل عمان، وتقاتلوا قتالاً شديداً سجالاً، حتى أوقد الجيش العباسي بيوت الثائرين الخشبية بمشاقة مغموسة بالنفط فاشتغل الثائرون بإنقاذ أهاليهم، فحمل عليهم خازم فوضعوا فيهم السيف وقُتل الجلندى فيمن قتل، وبلغت عدة القتلى نحو عشرة آلاف وبُعث برءوسهم إلى البصرة {cite:duha-islam p. 950}."
+  en: "The Ibadi rising of al-Julanda ibn Mas'ud in Oman, crushed by al-Saffah's general Khazim ibn Khuzayma with some ten thousand dead, 134 AH {cite:duha-islam p. 950}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia]
+date:
+  start: { edtf: "0751", hijri: "0134", calendar: julian, precision: year, status: tradition, derived: true }
+relations:
+  - { type: had_participant, target: person/al-julanda-ibn-masud, role: "إمام الثائرين وقُتل فيهم", sources: [source/duha-islam] }
+  - { type: had_participant, target: person/khazim-ibn-khuzayma, role: "قائد الجيش العباسي", sources: [source/duha-islam] }
+  - { type: occurred_at, target: place/oman, sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 950"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-11
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
