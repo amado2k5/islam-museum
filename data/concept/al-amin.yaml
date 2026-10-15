@@ -1,0 +1,23 @@
+id: concept/al-amin
+class: concept
+kind: term
+label: { ar: "الأمين (لقب النبي قبل البعثة)", en: "al-Amin, the Trustworthy (the Prophet's title before his mission)" }
+summary:
+  ar: "اللقب الذي سمّت به قريش محمداً قبل النبوة لما جمع فيه من الخصال المرضية والأمانة؛ وبه هتفوا حين دخل عليهم حَكَماً في وضع الحجر الأسود عند بناء الكعبة."
+  en: "The title by which Quraysh called Muhammad before prophethood for the trustworthiness and good qualities they saw in him; they cried it out when he entered as arbiter over the Black Stone during the rebuilding of the Kaaba."
+wings: [ideas, people]
+themes: [prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: related_to, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: event/rebuilding-of-the-kaaba, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: concept/al-sidq-truthfulness, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص61–64 نقلاً عن ابن هشام 1/192–197 وفقه السيرة ص62–63 وصحيح البخاري 1/215، 1/540، 1/3 ومحاضرات الخضري 1/64–65"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-6c"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 62–64" }
