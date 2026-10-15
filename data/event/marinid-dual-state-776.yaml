@@ -1,0 +1,31 @@
+id: event/marinid-dual-state-776
+class: event
+kind: civil-war
+label:
+  ar: انقسام ملك بني مرين بين فاس ومراكش (776هـ)
+  en: The Marinid division between Fez and Marrakesh (776 AH)
+date:
+  start: { edtf: "1374-06", hijri: "0776-01", calendar: julian, precision: month, status: tradition, derived: true, note: "دخل أبو العباس البلد الجديد سابع المحرم سنة 776هـ؛ التحويل مشتق." }
+summary:
+  ar: "اجتمع السلطان أبو العباس أحمد والأمير عبد الرحمن بن أبي الفضل بوادي النجا فحلفا على اتصال اليد على عدوهم، وزحفوا بعسكريهم إلى كدية العرائس في ذي القعدة سنة 775هـ فدارت الحرب وانهزم الوزير، وحاصروا البلد الجديد حتى دخل السلطان أبو العباس إليه سابع المحرم سنة 776هـ، وارتحل عبد الرحمن إلى مراكش فاستقل بها، وانعقدت بينهما السلم وجعل التخم بينهما أزمور — فصار لبني مرين ملكان: ملك فاس وملك مراكش."
+  en: "Sultan Abu al-Abbas Ahmad and the amir Abd al-Rahman ibn Abi al-Fadl met at Wadi al-Naja and swore to join hands against their foe; their armies marched to Kadiyat al-Ara'is in Dhu al-Qa'da 775 AH where the vizier was routed, then besieged the New City until Abu al-Abbas entered on 7 Muharram 776 AH while Abd al-Rahman withdrew to Marrakesh and held it independently — the truce between them fixing Azmour as the boundary, leaving the Marinids with two kings: one of Fez and one of Marrakesh."
+relations:
+- type: occurred_at
+  target: place/fez
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — اتفاق السلطان أبي العباس والأمير عبد الرحمن وانقسام الملك بين فاس ومراكش، ص2016 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
