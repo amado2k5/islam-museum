@@ -459,7 +459,10 @@ html[lang="ar"] .gx-elabel { font-family: var(--ar-body); font-size: 12px; }
 .gx-label { font-size: 13px; fill: #f9f8f6; font-family: var(--sans); paint-order: stroke; stroke: #0f1a26; stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
 html[lang="ar"] .gx-label { font-family: var(--ar-body); font-size: 14px; }
 .gx-centre { font-size: 15px; font-weight: 600; fill: #0a2533; stroke: none; }
-.gx-card { position: absolute; top: 12px; inset-inline-end: 12px; width: min(300px, 70%); background: rgba(249,248,246,.96); color: #1a1a1a; border-radius: 12px; padding: 10px 12px; border-inline-start: 4px solid var(--gold); font-size: .9rem; }
+.gx-card { position: absolute; top: 12px; inset-inline-end: 12px; width: min(300px, 70%); background: rgba(249,248,246,.96); color: #1a1a1a; border-radius: 12px; padding: 10px 12px; padding-inline-end: 38px; border-inline-start: 4px solid var(--gold); font-size: .9rem; }
+.gx-close { position: absolute; top: 6px; inset-inline-end: 6px; width: 28px; height: 28px; border: 1px solid var(--line); background: transparent; color: inherit; border-radius: 50%; font-size: 1.1rem; line-height: 1; cursor: pointer; padding: 0; }
+.gx-close:hover { background: rgba(0,0,0,.08); }
+.gx-close:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .gx-card .gx-kicker { margin: 0; font-size: .75rem; color: #4a4a4a; }
 .gx-card .gx-title { margin: 0 0 4px; font-weight: 600; font-size: 1.05rem; }
 .gx-card .muted { color: #4a4a4a; margin: 0 0 6px; }

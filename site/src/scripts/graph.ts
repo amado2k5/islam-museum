@@ -27,6 +27,7 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
   const rtl = document.documentElement.dir === "rtl";
   const cross = page.querySelector<HTMLInputElement>("[data-gx-cross]");
   cross?.addEventListener("change", () => root.classList.toggle("show-cross", cross.checked));
+  card.addEventListener("keydown", (ev) => { if (ev.key === "Escape") card.hidden = true; });
 
   function draw(d: Data) {
     svg.innerHTML = "";
@@ -103,9 +104,10 @@ for (const root of document.querySelectorAll<HTMLElement>("[data-graph]")) {
 
   function show(n: GNode, hover = false) {
     const s = n.s?.[lang] ?? n.s?.en ?? "";
-    card.innerHTML = `<p class="gx-kicker">${esc(p.classes[n.c] ?? n.c)}${n.hop === 0 ? ` · ${esc(p.t.centre)}` : ""}</p><p class="gx-title">${esc(labelOf(n))}</p>${s ? `<p class="muted">${esc(s)}</p>` : ""}<p class="gx-actions"><a class="chip" href="${esc(hrefOf(n.id))}">${esc(p.t.open)} →</a>${n.hop ? ` <button type="button" class="chip gx-mini" data-go="${esc(n.id)}">${esc(p.t.recentre)}</button>` : ""}</p>`;
+    card.innerHTML = `<button type="button" class="gx-close" aria-label="${esc(p.t.close)}">×</button><p class="gx-kicker">${esc(p.classes[n.c] ?? n.c)}${n.hop === 0 ? ` · ${esc(p.t.centre)}` : ""}</p><p class="gx-title">${esc(labelOf(n))}</p>${s ? `<p class="muted">${esc(s)}</p>` : ""}<p class="gx-actions"><a class="chip" href="${esc(hrefOf(n.id))}">${esc(p.t.open)} →</a>${n.hop ? ` <button type="button" class="chip gx-mini" data-go="${esc(n.id)}">${esc(p.t.recentre)}</button>` : ""}</p>`;
     card.hidden = false;
     card.querySelector<HTMLButtonElement>("[data-go]")?.addEventListener("click", () => load(n.id, true));
+    card.querySelector<HTMLButtonElement>(".gx-close")?.addEventListener("click", () => { card.hidden = true; });
     void hover;
   }
 
