@@ -1,0 +1,19 @@
+id: building/masjid-amr-fustat
+class: building
+kind: mosque
+label: { ar: "مسجد عمرو بن العاص", en: "the Mosque of Amr ibn al-As" }
+summary:
+  ar: "مسجد عظيم بمدينة الفسطاط بناه عمرو بن العاص موضع فسطاطه وما جاوره، وموضع فسطاطه منه حيث المحراب والمنبر؛ وصلّى فيه نحو ثمانين من الصحابة {cite:umari-masalik-1924 p. 209}."
+  en: "The great mosque of Fustat built by Amr ibn al-As on his camp's ground — its mihrab and minbar stand where his tent stood — and some eighty Companions prayed in it {cite:umari-masalik-1924 p. 209}."
+wings: [place, time]
+periods: [period/rashidun]
+regions: [egypt-nile]
+relations:
+  - { type: located_in, target: place/al-fustat, sources: [source/umari-masalik-1924] }
+provenance:
+  layer: own-research
+  source: "مسالك الأبصار (ط 1924) ص 209"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-umari-6
+sources: [source/umari-masalik-1924]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
