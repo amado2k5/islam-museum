@@ -15,7 +15,8 @@ text_search: "وقالوا هذه أنعام وحرث حجر لا يطعمها �
 relations:
   - { type: revealed_about, target: concept/sacred-livestock-jahiliyya }
   - { type: part_of, target: passage/quran-6 }
+  - { type: revealed_about, target: concept/ibadat-al-asnam-jahiliyya, note: "يذكرها الرحيق المختوم ص36–37 في مراسم عبادة الأصنام.", sources: [source/mubarakpuri-raheeq] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/mubarakpuri-raheeq]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }
