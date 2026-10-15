@@ -1,0 +1,22 @@
+id: person/al-khwarizmi-muhammad-ibn-musa
+class: person
+label: { ar: "الخوارزمي محمد بن موسى", en: "Al-Khwarizmi, Muhammad ibn Musa" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن موسى الخوارزمي" }
+gender: male
+roles: [mathematician, astronomer]
+traditions: [sunni]
+born: { edtf: "0780", hijri: "0164", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0850", hijri: "0235", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أشهر علماء الرياضيات والفلك والجغرافيا في عصره."
+  en: "One of the best-known mathematicians, astronomers and geographers of his age."
+wings: [people, words]
+themes: [mathematics, astronomy-and-timekeeping, geography-and-cartography]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scientist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 523, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص523", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
