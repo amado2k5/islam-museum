@@ -1,0 +1,25 @@
+id: person/yusuf-al-bayyasi
+class: person
+label: { ar: "يوسف البياسي" }
+names:
+  - { value: "أبو الحجاج يوسف بن محمد بن إبراهيم الأنصاري البياسي", kind: full }
+gender: male
+roles: [adib, hafiz, historian]
+born: { edtf: "1177~", hijri: "0573", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد يوم الخميس الرابع عشر من ربيع الأول سنة ٥٧٣هـ {cite:wafayat-ayan p. 242}." }
+died: { edtf: "1255~", hijri: "0653", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الأحد الرابع من ذي القعدة سنة ثلاث وخمسين وستمائة {cite:wafayat-ayan p. 242}." }
+summary:
+  ar: "أبو الحجاج يوسف بن محمد بن إبراهيم الأنصاري البياسي، من فضلاء الأندلس وحفاظها المتقنين؛ أديب بارع مطلع على أقسام كلام العرب من النظم والنثر وراوية لوقائعها وحروبها وأيامها، كان يحفظ كتاب الحماسة لأبي تمام والأشعار الستة وديوان أبي تمام وديوان المتنبي وسقط الزند للمعري وغير ذلك؛ وتنقل في بلاد الأندلس وطاف بأكثرها ثم قدم مدينة تونس فجمع للأمير أبي زكريا يحيى الحفصي كتاب «الإعلام بالحروب الواقعة في صدر الإسلام» ابتدأ فيه بمقتل عمر بن الخطاب وختمه بخروج الوليد بن طريف الشاري على هارون الرشيد، وطالعه ابن خلكان وهو في مجلدين فوجد كلامه كلام عارف بالفن {cite:wafayat-ayan p. 238}. ورأى ابن خلكان له كتاب «الحماسة» في مجلدين قرئت النسخة عليه وعليها خطه، قال في آخره إن الفراغ من تأليفه وترتيبه كان بمدينة تونس في شوال سنة ست وأربعين وستمائة، وذكر في مقدمته أنه لم يجد أقرب تبويب ولا أحسن ترتيب مما بوبه أبو تمام في حماسته فاتبع مذهبه وقرن الشعر بما يجانسه {cite:wafayat-ayan p. 239}. وكان مولده سنة ثلاث وسبعين وخمسمائة وتوفي سنة ثلاث وخمسين وستمائة {cite:wafayat-ayan p. 242}."
+  en: "Abu al-Hajjaj Yusuf al-Bayyasi — the Andalusi hafiz who carried the Hamasa, the Six Diwans, al-Mutanabbi's and al-Ma'arri's collections in memory; at Tunis he wrote for the Hafsid amir Abu Zakariya the I'lam bil-Hurub from 'Umar's murder to al-Walid ibn Tarif's revolt, and his own Hamasa arranged on Abu Tammam's pattern, finished Shawwal 646 {cite:wafayat-ayan p. 238-242}."
+wings: [people, made]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+relations:
+  - { type: authored, target: work/hamasa-al-bayyasi, sources: [source/wafayat-ayan] }
+  - { type: authored, target: work/al-ilam-bil-hurub, sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 238-242"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
