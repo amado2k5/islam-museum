@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.145"
-label: { ar: "الموطأ 1.145", en: "Muwatta 1.145" }
+label: { ar: "الموطأ 145 — مالك: التيمم بتراب السباخ والصلاة فيها", en: "Muwatta 145" }
 summary:
-  ar: "مالك: جنب لم يجد إلا تراب السبخة؛ هل يتيمم بالسبخ؟ والجواب فيه كراهة أو جواز."
+  ar: "فتوى لمالك في باب تيمم الجنب: سُئل عن جنب أراد أن يتيمم فلم يجد تراباً إلا تراب سبخة، هل يتيمم بالسباخ وهل تكره الصلاة فيها؟ فقال: لا بأس بالصلاة في السباخ والتيمم منها، واحتج بأن الله أمر في آية المائدة بالتيمم بالصعيد الطيب، فكل ما كان صعيداً يُتيمم به سباخاً كان أو غيره. ويذكر المحقق أن أبا مصعب رواه عن مالك. {cite:muwatta-maruf-1997 p.102}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 145 of kitab al-salat at PDF p. 102", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-8" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tayammum, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 145 at PDF p. 102; باب تيمم الجنب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b06" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 102; matn excerpt at most 40 words" }

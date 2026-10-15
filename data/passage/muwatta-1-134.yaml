@@ -3,11 +3,22 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.134"
-label: { ar: "الموطأ 1.134", en: "Muwatta 1.134" }
+label: { ar: "الموطأ 134 — عقد عائشة ونزول آية التيمم", en: "Muwatta 134" }
+text: "ما هي بأول بركتكم يا آل أبي بكر"
 summary:
-  ar: "القاسم عن عائشة: خرجوا مع النبي ﷺ في سفر؛ الحديث في التيمم، وقصة انقطاع العقد."
+  ar: "أول حديث في باب التيمم. يرويه يحيى عن مالك عن عبد الرحمن بن القاسم عن أبيه القاسم بن محمد عن عائشة أم المؤمنين: خرجت مع النبي في بعض أسفاره، فلما كانوا بالبيداء أو بذات الجيش انقطع عقد لها، فأقام النبي على التماسه وأقام الناس معه وليسوا على ماء ولا معهم ماء، فشكا الناس إلى أبي بكر ما صنعت عائشة، فجاء أبو بكر والنبي نائم واضع رأسه على فخذها فعاتبها وجعل يطعن بيده في خاصرتها وهي لا تتحرك لمكان رأس النبي، فنام النبي حتى أصبح على غير ماء، فأنزل الله آية التيمم، فقال أسيد بن حضير: ما هي بأول بركتكم يا آل أبي بكر. ثم بعثوا البعير الذي كانت عليه فوجدوا العقد تحته. ويخرّجه المحقق عند البخاري (334، 3672، 4607، 5250، 6844) ومسلم (1/191) والنسائي (1/163) وابن حبان وابن خزيمة وأحمد والشافعي من طرق أصحاب مالك، ويحيل على التمهيد (19/265). {cite:muwatta-maruf-1997 p.98} {cite:muwatta-maruf-1997 p.99}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 134 of kitab al-salat at PDF p. 98", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-8" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/usayd-ibn-hudayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-qasim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad-ibn-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-bayda-medina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/dhat-al-jaysh, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tayammum, sources: [source/muwatta-maruf-1997] }
+  - { type: revealed_about, target: concept/tayammum, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 134 at PDF p. 98; باب التيمم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b06" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 98; matn excerpt at most 40 words" }

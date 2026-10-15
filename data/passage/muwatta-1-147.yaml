@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.147"
-label: { ar: "الموطأ 1.147", en: "Muwatta 1.147" }
+label: { ar: "الموطأ 147 — عائشة تحيض وهي مضطجعة مع النبي: شدي عليك إزارك", en: "Muwatta 147" }
+text: "مالك؟ لعلك نفست؟ فقالت: نعم. قال: شدي على نفسك إزارك ثم عودي إلى مضجعك"
 summary:
-  ar: "ربيعة بن أبي عبد الرحمن عن عائشة: كانت مضطجعة مع النبي ﷺ في ثوب واحد وهي حائض؛ الحديث في مباشرة الحائض."
+  ar: "يرويه مالك عن ربيعة بن أبي عبد الرحمن مرسلاً، في باب ما يحل للرجل من امرأته وهي حائض: كانت عائشة مضطجعة مع النبي في ثوب واحد فوثبت وثبة شديدة، فسألها: مالك؟ لعلك نفست؟ يعني الحيضة، فقالت: نعم، فأمرها أن تشد على نفسها إزارها وتعود إلى مضجعها. وينقل المحقق عن ابن عبد البر أنه في الموطأ منقطع لم يختلف رواته في إرساله، وأن معناه يتصل من حديث أم سلمة في الصحيحين، وأنه لا يعلمه روي من حديث عائشة بهذا اللفظ (التمهيد 3/162). {cite:muwatta-maruf-1997 p.103}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 147 of kitab al-salat at PDF p. 103", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-8" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabia-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hayd, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 147 at PDF p. 103; باب ما يحل للرجل من امرأته وهي حائض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b06" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 103; matn excerpt at most 40 words" }
