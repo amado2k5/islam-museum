@@ -1,0 +1,22 @@
+id: person/al-sharif-al-jurjani-ali-ibn-muhammad
+class: person
+label: { ar: "الشريف الجرجاني علي بن محمد", en: "Al-Sharif al-Jurjani, Ali ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "علي بن محمد بن علي الجرجاني المعروف بالشريف" }
+gender: male
+roles: [philosopher, scholar]
+traditions: [sunni]
+born: { edtf: "1340", hijri: "0740", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1413", hijri: "0816", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم في الفلسفة والمنطق والكلام والبلاغة، ولد في تاجو ويعرف بالشريف الجرجاني."
+  en: "A scholar of philosophy, logic, theology and rhetoric, born in Taju and known as al-Sharif al-Jurjani."
+wings: [people, words]
+themes: [philosophy-and-logic, creed]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+story_roles:
+  - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 187, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص187", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

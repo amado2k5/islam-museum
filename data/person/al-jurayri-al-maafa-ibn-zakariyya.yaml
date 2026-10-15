@@ -1,0 +1,22 @@
+id: person/al-jurayri-al-maafa-ibn-zakariyya
+class: person
+label: { ar: "الجريري المعافى بن زكريا", en: "Al-Jurayri, al-Mu'afa ibn Zakariyya" }
+names:
+  - { kind: full, lang: ar, value: "المعافى بن زكريا بن يحيى بن حميد أبو الفرج النهرواني" }
+gender: male
+roles: [scholar, muhaddith]
+traditions: [sunni]
+born: { edtf: "0917", hijri: "0305", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1000", hijri: "0390", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم من نهروان يعرف بالجريري وبابن طرار، له تأليف في اللغة والحديث."
+  en: "A scholar from Nahrawan, known as al-Jurayri and Ibn Tarar, who wrote on language and hadith."
+wings: [people, words]
+themes: [scripture-and-its-sciences, linguistics]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 224, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص224", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

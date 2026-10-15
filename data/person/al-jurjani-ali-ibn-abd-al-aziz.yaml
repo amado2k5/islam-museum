@@ -1,0 +1,21 @@
+id: person/al-jurjani-ali-ibn-abd-al-aziz
+class: person
+label: { ar: "الجرجاني علي بن عبد العزيز", en: "Al-Jurjani, Ali ibn Abd al-Aziz" }
+names:
+  - { kind: full, lang: ar, value: "أبو الحسن علي بن عبد العزيز بن الحسن الجرجاني" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+died: { edtf: "1001", hijri: "0392", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "ولد بجرجان ونشأ فيها، وتلقى علوم عصره فيها، وصنّف في النقد الأدبي كتاب «الوساطة بين المتنبي وخصومه»."
+  en: "Born and raised in Jurjan, where he studied the learning of his time. He wrote on literary criticism, including al-Wasata between al-Mutanabbi and his opponents."
+wings: [people, words]
+themes: [literature]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 179, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص179", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

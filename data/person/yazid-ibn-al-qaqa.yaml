@@ -1,0 +1,22 @@
+id: person/yazid-ibn-al-qaqa
+class: person
+label: { ar: "يزيد بن القعقاع", en: "Yazid ibn al-Qa'qa'" }
+names:
+  - { kind: full, lang: ar, value: "يزيد بن القعقاع المخزومي المدني" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0660", hijri: "0040", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0747", hijri: "0130", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أحد القراء العشرة المشهورين، من أهل المدينة المنورة."
+  en: "One of the ten well-known canonical reciters, from Medina."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 323, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص323", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
