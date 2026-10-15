@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.436"
-label: { ar: "الموطأ 1.436", en: "Muwatta 1.436" }
+label: { ar: "الموطأ 436 — عبد الكريم: من كلام النبوة إذا لم تستحي فافعل ما شئت، ووضع اليمنى على اليسرى", en: "Muwatta 436" }
+text: "إذا لم تستحي فافعل ما شئت"
 summary:
-  ar: "عبد الكريم بن أبي المخارق: من كلام النبوة الأول: إذا لم تستحِ فاصنع ما شئت؛ حديث في الحياء."
+  ar: "أول أثر في باب وضع اليدين إحداهما على الأخرى في الصلاة. يرويه يحيى عن مالك عن عبد الكريم بن أبي المخارق البصري قوله: من كلام النبوة: إذا لم تستحي فافعل ما شئت، ووضع اليدين إحداهما على الأخرى في الصلاة يضع اليمنى على اليسرى، وتعجيل الفطر والاستئناء بالسحور. ويبين المحقق أن ما نقله مالك عن شيخه الضعيف عبد الكريم ثلاثة أحاديث معروفة: الأول عند البخاري من حديث أبي مسعود الأنصاري، والثاني حديث سهل بن سعد الآتي بعده، والثالث حديث تعجيل الفطر وتأخير السحور الصحيح من حديث ابن عباس وغيره؛ ويرى أن مالكاً لم يرو عن عبد الكريم حديثاً مرفوعاً وإنما نقل من قوله ما هو شائع من الأحاديث الصحيحة، فليس من باب الرواية. {cite:muwatta-maruf-1997 p.225}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 436 of kitab al-salat at PDF p. 225", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-21" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-karim-ibn-abi-al-mukhariq, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/haya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 436 at PDF p. 225; باب وضع اليدين إحداهما على الأخرى في الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 225; matn excerpt at most 40 words" }

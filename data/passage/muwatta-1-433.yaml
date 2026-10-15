@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.433"
-label: { ar: "الموطأ 1.433", en: "Muwatta 1.433" }
+label: { ar: "الموطأ 433 — بلاغ عن أبي ذر: مسح الحصباء مسحة واحدة وتركها خير من حمر النعم", en: "Muwatta 433" }
+text: "مسح الحصباء مسحة واحدة، وتركها خير من حمر النعم"
 summary:
-  ar: "يحيى بن سعيد: بلغه أن أبا ذر كان يقول: مسح الحصباء مرة واحدة؛ الأثر في الفعل اليسير في الصلاة."
+  ar: "بلاغ يرويه مالك عن يحيى بن سعيد، في باب مسح الحصباء في الصلاة: بلغه أن أبا ذر كان يقول إن مسح الحصباء في الصلاة مسحة واحدة، وتركها خير من حمر النعم. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وينقل عن ابن عبد البر أن حديث أبي ذر في مسح الحصباء مرفوع صحيح محفوظ وساقه من طريق الزهري عن أبي الأحوص عن أبي ذر (التمهيد 24/116)؛ ويرى المحقق أن إسناده ضعيف لجهالة أبي الأحوص الليثي الذي تفرد الزهري بالرواية عنه وضعفه ابن معين، وأن الترمذي حسّنه لأحاديث الباب، وأن الألباني ضعفه، وأن الثابت حديث معيقيب في الصحيحين: إن كنت لا بد فاعلاً فمرة واحدة. {cite:muwatta-maruf-1997 p.223} {cite:muwatta-maruf-1997 p.224}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 433 of kitab al-salat at PDF p. 223", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-20" }
+  - { type: mentions, target: person/abu-dharr-al-ghifari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muayqib-ibn-abi-fatima, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-albani-muhammad-nasir-al-din, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 433 at PDF p. 223; باب مسح الحصباء في الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 223; matn excerpt at most 40 words" }

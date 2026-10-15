@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.435"
-label: { ar: "الموطأ 1.435", en: "Muwatta 1.435" }
+label: { ar: "الموطأ 435 — عثمان يسوي الحصباء بنعليه حتى يخبروه أن الصفوف قد استوت", en: "Muwatta 435" }
+text: "استو في الصف. ثم كبر"
 summary:
-  ar: "أبو سهيل بن مالك عن أبيه: كنت مع عثمان بن عفان فقال... ؛ الأثر في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "أثر يرويه مالك عن عمه أبي سهيل بن مالك عن أبيه مالك بن أبي عامر، في باب ما جاء في تسوية الصفوف: كان مع عثمان بن عفان فقامت الصلاة وهو يكلمه في أن يفرض له عطاءً، فلم يزل يكلمه وعثمان يسوي الحصباء بنعليه حتى جاءه رجال وكّلهم بتسوية الصفوف فأخبروه أنها قد استوت، فقال له: استو في الصف، ثم كبّر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وعبد الرزاق. {cite:muwatta-maruf-1997 p.224} {cite:muwatta-maruf-1997 p.225}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 435 of kitab al-salat at PDF p. 224", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-20" }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-abi-amir-al-asbahi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-suhayl-nafi-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 435 at PDF p. 224; باب ما جاء في تسوية الصفوف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 224; matn excerpt at most 40 words" }

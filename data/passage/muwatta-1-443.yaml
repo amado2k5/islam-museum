@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.443"
-label: { ar: "الموطأ 1.443", en: "Muwatta 1.443" }
+label: { ar: "الموطأ 443 — أبو بكر بن عبد الرحمن: من غدا إلى المسجد ليتعلم خيراً كان كالمجاهد", en: "Muwatta 443" }
+text: "من غدا أو راح إلى المسجد لا يريد غيره ليتعلم خيراً أو ليعلمه ثم رجع إلى بيته كان كالمجاهد في سبيل الله رجع غانماً"
 summary:
-  ar: "أبو بكر بن عبد الرحمن: من غدا أو راح إلى المسجد فقد أعد له نزلًا من الجنة؛ الحديث في فضل الذهاب للمسجد."
+  ar: "أثر يرويه مالك عن سمي مولى أبي بكر أن أبا بكر بن عبد الرحمن كان يقول، في باب انتظار الصلاة والمشي إليها: من غدا أو راح إلى المسجد لا يريد غيره ليتعلم خيراً أو ليعلمه ثم رجع إلى بيته كان كالمجاهد في سبيل الله رجع غانماً. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وينقل الزرقاني عن ابن عبد البر أن هذا لا يُدرك بالرأي لأنه قطع على غيب من ثواب الله. {cite:muwatta-maruf-1997 p.228}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 443 of kitab al-salat at PDF p. 228", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-21" }
+  - { type: mentions, target: person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sumayy-mawla-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ilm, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 443 at PDF p. 228; باب انتظار الصلاة والمشي إليها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 228; matn excerpt at most 40 words" }

@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.426"
-label: { ar: "الموطأ 1.426", en: "Muwatta 1.426" }
+label: { ar: "الموطأ 426 — ابن عباس يمر على أتان بين يدي بعض الصف بمنى فلا يُنكر عليه", en: "Muwatta 426" }
+text: "فمررت بين يدي بعض الصف فنزلت فأرسلت الأتان ترتع ودخلت في الصف، فلم ينكر ذلك علي أحد"
 summary:
-  ar: "عبيد الله بن عبد الله عن ابن عباس: حديث في المرور بين يدي المصلي والسترة؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب الرخصة في المرور بين يدي المصلي. يرويه يحيى عن مالك عن ابن شهاب عن عبيد الله بن عبد الله بن عتبة عن عبد الله بن عباس: أقبل راكباً على أتان وقد ناهز الاحتلام، والنبي يصلي بالناس بمنى، فمر بين يدي بعض الصف ثم نزل وأرسل الأتان ترتع ودخل في الصف، فلم ينكر ذلك عليه أحد. ويخرّجه المحقق عند البخاري (76، 493، 861، 4412) ومسلم (2/57) وأبي داود (715) والنسائي وابن خزيمة وأحمد والشافعي من طرق أصحاب مالك، ويحيل على التمهيد (9/19). {cite:muwatta-maruf-1997 p.221} {cite:muwatta-maruf-1997 p.222}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 426 of kitab al-salat at PDF p. 221", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-20" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubaydallah-ibn-abdallah-ibn-utba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 426 at PDF p. 221; باب الرخصة في المرور بين يدي المصلي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 221; matn excerpt at most 40 words" }

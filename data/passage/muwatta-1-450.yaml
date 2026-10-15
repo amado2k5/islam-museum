@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.450"
-label: { ar: "الموطأ 1.450", en: "Muwatta 1.450" }
+label: { ar: "الموطأ 450 — ابن عمر: إن اليدين تسجدان كما يسجد الوجه", en: "Muwatta 450" }
+text: "من وضع جبهته بالأرض فليضع كفيه على الذي يضع عليه جبهته، ثم إذا رفع فليرفعهما، فإن اليدين تسجدان كما يسجد الوجه"
 summary:
-  ar: "نافع: كان ابن عمر يقول: من وضع جبهته على الأرض فليضع كفيه؛ صفة السجود."
+  ar: "أثر يرويه مالك عن نافع أن عبد الله بن عمر كان يقول إن من وضع جبهته بالأرض فليضع كفيه على ما يضع عليه جبهته، ثم إذا رفع فليرفعهما، فإن اليدين تسجدان كما يسجد الوجه؛ وهو في باب وضع اليدين على ما يوضع عليه الوجه في السجود. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.231}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 450 of kitab al-salat at PDF p. 231", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-21" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 450 at PDF p. 231; باب وضع اليدين على ما يوضع عليه الوجه في السجود", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 231; matn excerpt at most 40 words" }

@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.441"
-label: { ar: "الموطأ 1.441", en: "Muwatta 1.441" }
+label: { ar: "الموطأ 441 — الملائكة تصلي على أحدكم ما دام في مصلاه ما لم يحدث", en: "Muwatta 441" }
+text: "الملائكة تصلي على أحدكم ما دام في مصلاه الذي صلى فيه ما لم يحدث: اللهم اغفر له، اللهم ارحمه"
 summary:
-  ar: "أبو الزناد عن الأعرج عن أبي هريرة: الملائكة تصلي على أحدكم ما دام في مصلاه ما لم يحدث؛ الحديث في فضل المكث في المصلى."
+  ar: "أول حديث في باب انتظار الصلاة والمشي إليها. يرويه يحيى عن مالك عن أبي الزناد عن الأعرج عن أبي هريرة: أخبر النبي أن الملائكة تدعو للمصلي بالمغفرة والرحمة ما دام في مصلاه الذي صلى فيه ما لم يُحدث؛ ويقول مالك إنه لا يرى الإحداث هنا إلا ما ينقض الوضوء. ويفسر المحقق صلاة الملائكة بالترحم والدعاء، ويخرّج الحديث عند البخاري (445، 659) وأبي داود (469) والنسائي (2/55) وأحمد والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (19/39). {cite:muwatta-maruf-1997 p.227} {cite:muwatta-maruf-1997 p.228}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 441 of kitab al-salat at PDF p. 227", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-21" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/maghfira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 441 at PDF p. 227; باب انتظار الصلاة والمشي إليها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 227; matn excerpt at most 40 words" }
