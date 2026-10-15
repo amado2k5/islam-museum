@@ -1,0 +1,19 @@
+id: event/omens-of-kisra-at-birth
+class: event
+kind: other
+label: { en: "Omens in the Persian court at the Prophet's birth", ar: "أخبار الإرهاصات في إيوان كسرى عند مولد النبي" }
+summary:
+  en: "Ibn Jarir and others, as cited by Salihi, report that the Persian king's palace arch cracked, the Tigris breached its dam, and the king's soothsayers found the omens foretold a prophet from Hijaz."
+  ar: "يذكر ابن جرير وغيره، كما نقله الصالحي، أن طاق إيوان كسرى انشقّ، وأن دجلة العوراء انخرقت، وأن الكهان والمنجمين عند كسرى رأوا في ذلك علامة على مولد نبي من الحجاز."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia, persia-central-asia]
+date:
+  start: { edtf: "0571~", calendar: julian, precision: year, status: tradition, note: "يُربط بمولد النبي دون تحديد يوم؛ الحدث من الإرهاصات المروية." }
+relations:
+  - { type: related_to, target: event/year-of-the-elephant-and-birth, note: "إرهاص مروٍ يُذكر مع مولد النبي" }
+  - { type: related_to, target: person/muhammad }
+  - { type: part_of, target: period/prophetic-era }
+# Verification: this is a narrative of omens reported by early historians (via Ibn Jarir), not an independently dated event. It needs a second source before any date is stated.
+sources: [source/subul-huda-salihi, source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; Subul al-Huda vol. 1 pp. 353–354 (OCR)" }
