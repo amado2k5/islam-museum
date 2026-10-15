@@ -1,0 +1,35 @@
+id: person/muhammad-v-nasrid
+class: person
+label:
+  ar: السلطان محمد الخامس النصري
+  en: Sultan Muhammad V al-Nasri
+summary:
+  ar: "أبو عبد اللّه محمد بن يوسف بن نصر، سلطان غرناطة؛ نُصب بعد مهلك أبيه أبي الحجاج فحجبه مولاه رضوان واستبد عليه حتى خلع، فلحق بفاس مملكة بني مرين وامتحن بين أيديهم، ثم أرتجع ملكه سنة 763هـ، ودانت له الأندلس حتى عرف بصاحب الحمراء وأعظم ملوك بني الأحمر عمراناً وملكاً."
+  en: "Abu Abd Allah Muhammad ibn Yusuf ibn Nasr, sultan of Granada; installed after his father Abu al-Hajjaj's death, then held under ward by his mawla Ridwan who ruled over him until he was deposed — he fled to the Marinid court at Fez where he recited his famous plea-poem, and regained his kingdom in 763 AH, becoming master of the Alhambra and the greatest of the Banu al-Ahmar kings in building and dominion."
+gender: male
+roles: [sultan]
+traditions: [sunni]
+relations:
+- type: ruler_of
+  target: polity/emirate-of-granada
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/yusuf-i-nasrid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — خلع ابن الأحمر صاحب غرناطة وارتجاع ملكه سنة 763هـ، ص1994-1995 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
