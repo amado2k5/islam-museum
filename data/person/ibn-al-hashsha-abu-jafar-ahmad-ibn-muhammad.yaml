@@ -1,0 +1,22 @@
+id: person/ibn-al-hashsha-abu-jafar-ahmad-ibn-muhammad
+class: person
+label: { ar: "ابن الحشاء أبو جعفر أحمد بن محمد", en: "Ibn al-Hashsha Abu Ja'far Ahmad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو جعفر أحمد بن محمد بن الحشاء" }
+  - { kind: kunya, lang: ar, value: "أبو جعفر" }
+gender: male
+roles: [physician]
+traditions: [sunni]
+died: { edtf: "1249", hijri: "0647", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "طبيب عاش في النصف الأول من القرن السابع الهجري بتونس، وتوفي سنة 647هـ (1249م)."
+  en: "Physician who lived in Tunis in the first half of the seventh century AH; died 647 AH (1249 CE)."
+wings: [people, ideas]
+themes: [medicine]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 7 pp. 7-8, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص7", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

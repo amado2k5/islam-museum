@@ -1,0 +1,26 @@
+id: person/al-halabi-qutb-al-din-abd-al-karim-ibn-abd-al-nur
+class: person
+label: { ar: "الحلبي قطب الدين عبد الكريم بن عبد النور", en: "al-Halabi Qutb al-Din Abd al-Karim ibn Abd al-Nur" }
+names:
+  - { kind: full, lang: ar, value: "قطب الدين أبو علي عبد الكريم بن عبد النور بن متير الحلبي المصري" }
+  - { kind: kunya, lang: ar, value: "أبو علي" }
+  - { kind: laqab, lang: ar, value: "قطب الدين" }
+  - { kind: nisba, lang: ar, value: "الحلبي" }
+  - { kind: nisba, lang: ar, value: "المصري" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1266", hijri: "0664", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1335", hijri: "0735", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "حافظ من مشاهير المحدّثين، حلبي الأصل ثم مصري، ولد سنة 664هـ (1266م) وتوفي سنة 735هـ (1335م)."
+  en: "Hadith memorist of celebrated standing, of Aleppine origin who settled in Egypt; born 664 AH (1266 CE), died 735 AH (1335 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 7 pp. 134-135, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص134", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
