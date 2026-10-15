@@ -1,0 +1,24 @@
+id: event/harb-samir
+class: event
+kind: battle
+label: { ar: "حرب سمير" }
+summary:
+  ar: "أول اختلاف وحرب وقعت بين الأنصار؛ نزل كعب بن العجلان الثعلبي على مالك بن العجلان السالمي فحالفه، فخرج إلى سوق بني قينقاع ورأى غطفانياً معه فرس يقول ليأخذه أعز أهل يثرب، فاختلفوا في ذلك وقال قائل أحيحة بن الجلاح الأوسي وقال غيره فلان اليهودي، فدفع الغطفاني الفرس إلى مالك ففخر به كعب، فغضب سمير رجل من الأوس من بني عمرو بن عوف وشتمه وافترقا، ثم قصده سمير في سوق لهم بقباء ولازمه حتى خلا السوق فقتله، فطلب مالك قاتله وأنكر بنو عمرو بن عوف ثم عرضوا الدية فأبى إلا دية كاملة — وكانت دية الحليف عندهم نصف دية النسيب — ولج الأمر إلى المحاربة فاقتتلوا قتالاً شديداً ودخلت فيها سائر بطون الأنصار، ثم حكّموا المنذر بن حرام النجاري الخزرجي جد حسان بن ثابت فحكم بأداء دية الصريح والعودة إلى سنتهم القديمة فرضوا بذلك، وقد شبت البغضاء في نفوسهم وتمكنت العداوة بينهم {cite:kamil-ibn-al-athir p. 488}."
+  en: "The first dissension and war among the Ansar: over a Ghatafani's horse at the Banu Qaynuqa market, Samir of Banu Amr ibn Awf killed the client Ka'b ibn al-Ajlan; the quarrel over the client-half diyya became a war that drew in every clan of the Ansar, until al-Mundhir ibn Haram al-Najjari — grandfather of Hassan ibn Thabit — arbitrated full blood-money and a return to the old custom; the hatred had by then taken root {cite:kamil-ibn-al-athir p. 488}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0600~", calendar: julian, precision: century, status: tradition, derived: true, note: "أول حرب بين الأنصار قبل الإسلام." }
+relations:
+  - { type: had_participant, target: group/al-aws, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/al-khazraj, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-mundhir-ibn-haram, role: "الحكم في الوقعة", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — ذكر حرب سمير، ص488"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-20
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

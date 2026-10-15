@@ -1,0 +1,25 @@
+id: event/yawm-al-burdan
+class: event
+kind: battle
+label: { ar: "يوم البردان" }
+summary:
+  ar: "يوم من أيام العرب؛ أغار زياد بن الهبولة ملك الشام من سليح بن حلوان القضاعي على أهل حجر بن عمرو المعروف بآكل المرار ملك كندة وربيعة وهم خلوف إذ كانوا في غزوة على البحرين، فأخذ الحريم والأموال وسبى منهم هند بنت ظالم بن وهب، فعاد حجر وكندة وربيعة في طلبه فأدركوه بالبردان دون عين أباغ، ونزل حجر في سفح جبل ونزلت بكر وتغلب وكندة معه على ماء يقال له حفير؛ وفيها قصة تجسس سدوس بن شيبان بن ذهل وصليع بن عبد غنم على عسكر زياد، جاءا بحطب إلى القسمة على التمر فجلسا يتسمعان كلامه {cite:kamil-ibn-al-athir p. 377-378}."
+  en: "The day of al-Burdan: Ziyad ibn al-Habula, the Salihid king of Syria, raided the tents of Hujr 'Akil al-Murar', king of Kinda and Rabi'a, while their men were away campaigning in Bahrayn, carrying off Hind bint Zalim among the captives; Hujr's host caught up with him at al-Burdan by Ayn Abagh — famous for the night-scouting of Sudus ibn Shayban and Sulay' ibn Abd Ghanm inside Ziyad's camp {cite:kamil-ibn-al-athir p. 377-378}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia, levant-iraq]
+date:
+  start: { edtf: "0490~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام العرب قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/ziyad-ibn-al-habula, role: "الغازي ملك الشام", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/akil-al-murar, role: "المطالِب ملك كندة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-bakr, role: "مع حجر بالجيش", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-taghlib, role: "مع حجر بالجيش", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — ذكر يوم البردان، ص377-378"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-20
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

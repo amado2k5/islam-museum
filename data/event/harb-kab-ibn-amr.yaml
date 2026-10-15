@@ -1,0 +1,24 @@
+id: event/harb-kab-ibn-amr
+class: event
+kind: battle
+label: { ar: "حرب كعب بن عمرو المازني" }
+summary:
+  ar: "حرب بين بني جحجبا من الأوس وبني مازن بن النجار من الخزرج؛ سببها أن كعب بن عمرو المازني تزوج امرأة من بني سالم فكان يختلف إليها فأمر أحيحة بن الجلاح سيد بني جحجبا جماعة فرصدوه حتى ظفروا به فقتلوه، فبلغ ذلك أخاه عاصم بن عمرو فاستعد قومه للقتال وأرسل إلى بني جحجبا يؤذنهم بالحرب، فالتقوا بالرحابة فاقتتلوا قتالاً شديداً فانهزمت بنو جحجبا وانهزم معهم أحيحة فطلبه عاصم فأدركه وقد دخل حصنه فرماه بسهم فوقع في باب الحصن وقتل عاصم أخاً لأحيحة {cite:kamil-ibn-al-athir p. 488-489}."
+  en: "The war of Ka'b ibn Amr al-Mazini: Banu Juhjuba of Aws against Banu Mazin of Khazraj — Uhayha ibn al-Julah had Ka'b ambushed and killed for visiting his Banu Salim wife, whereupon his brother Asim declared war; at al-Rihaba Juhjuba were routed and Uhayha fled to his fortress with Asim's arrow lodging in its gate {cite:kamil-ibn-al-athir p. 488-489}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0600~", calendar: julian, precision: century, status: tradition, derived: true, note: "من حروب الأنصار قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/uhayha-ibn-al-julah, role: "سيد بني جحجبا", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/al-aws, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/al-khazraj, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — ذكر حرب كعب بن عمرو المازني، ص488-489"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-20
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

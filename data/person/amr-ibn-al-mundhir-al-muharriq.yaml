@@ -1,0 +1,23 @@
+id: person/amr-ibn-al-mundhir-al-muharriq
+class: person
+label: { ar: "عمرو بن المنذر المحرق" }
+names:
+  - { value: "عمرو بن المنذر اللخمي المحرق", kind: full }
+gender: male
+summary:
+  ar: "عمرو بن المنذر اللخمي، قيل إنه سُمي محرقاً لأنه أحرق من بني دارم تسعة وتسعين رجلاً يوم أوارة الثاني وأتم المائة بوافد البراجم فذهبت مقولته «إن الشقي وافد البراجم» مثلاً {cite:kamil-ibn-al-athir p. 412-413}."
+  en: "Amr ibn al-Mundhir the Lakhmid, called al-Muharriq 'the burner' for burning ninety-nine men of Banu Darim at the second day of Awara and completing his hundred with the Burajim passer-by — whence the proverb {cite:kamil-ibn-al-athir p. 412-413}."
+roles: [emir]
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: child_of, target: person/al-mundhir-ibn-imri-al-qays, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — أيام العرب، ص412-413"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-20
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: person/uhayha-ibn-al-julah
+class: person
+label: { ar: "أحيحة بن الجلاح" }
+names:
+  - { value: "أحيحة بن الجلاح الأوسي", kind: full }
+gender: male
+summary:
+  ar: "أحيحة بن الجلاح الأوسي، سيد بني جحجبا ويعدّ من أعز أهل يثرب قبل الإسلام؛ دُفع إليه الغطفاني فرسه عند سوق بني قينقاع تعظيماً له، وكان له صولة في أمر قتل كعب بن العجلان بحرب سمير، وأمر جماعة فرصدوا كعب بن عمرو المازني حتى ظفروا به فقتلوه فكانت حرب بني جحجبا وبني مازن التي انهزم فيها ودخل حصنه {cite:kamil-ibn-al-athir p. 488-489}."
+  en: "Uhayha ibn al-Julah of Aws, sayyid of Banu Juhjuba and reckoned among the mightiest men of Yathrib before Islam; the Ghatafani's horse was yielded to him at the Qaynuqa market, his word loomed over the Samir war, and his order to kill Ka'b ibn Amr al-Mazini set off the Juhjuba-Mazin war in which he was routed to his fortress {cite:kamil-ibn-al-athir p. 488-489}."
+roles: [emir]
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-aws, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — حرب سمير وحرب كعب بن عمرو، ص488-489"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-20
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

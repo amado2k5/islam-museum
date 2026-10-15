@@ -1,0 +1,24 @@
+id: event/yawm-awara-al-ula
+class: event
+kind: battle
+label: { ar: "يوم أوارة الأول" }
+summary:
+  ar: "يوم من أيام العرب وقع بين المنذر بن امرئ القيس اللخمي وبين بكر بن وائل؛ سببه أن تغلب لما أخرجت سلمة بن الحارث عنها التجأ إلى بكر بن وائل فأذعنوا له وقالوا لا يملكنا غيرك، فبعث إليهم المنذر يدعوهم إلى طاعته فأبوا، فحلف ليسيرن إليهم فإن ظفر بهم ليذبحنهم على قلة جبل أوارة حتى يبلغ الدم الحضيض، فسار إليهم فالتقوا بأوارة فاقتتلوا قتالاً شديداً وأجلت الواقعة عن هزيمة بكر وأسر يزيد بن شرحبيل الكندي فأمر المنذر بقتله، وأسر من بكر أسرى كثيرة فذُبحوا على جبل أوارة فجعل الدم يجمد، وقيل له أبيت اللعن لو ذبحت كل بكري على وجه الأرض لم تبلغ دماؤهم الحضيض ولكن لو صببت عليه الماء ففعل فسال الدم إلى الحضيض، وأمر النساء أن يُحرقن بالنار، ثم كلمه رجل من قيس بن ثعلبة في سبي بكر فأطلقهن، فافتخر الأعشى بتلك الشفاعة {cite:kamil-ibn-al-athir p. 412}."
+  en: "The first day of Awara — the Lakhmid al-Mundhir ibn Imru' al-Qays against Bakr ibn Wa'il, who had sheltered the Taghlibi exile Salama ibn al-Harith; refusing allegiance, Bakr were bound by al-Mundhir's oath to be slaughtered on the hill of Awara until the blood reached its foot; when the blood froze they poured water on it so it flowed, and the women were burned, until a man of Qays ibn Tha'laba interceded and the captives were freed — the boast al-A'sha made of it in verse {cite:kamil-ibn-al-athir p. 412}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام العرب قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/al-mundhir-ibn-imri-al-qays, role: "ملك الحيرة صاحب القسم", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-bakr, role: "المقاتَلون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/salama-ibn-al-harith-al-taghlibi, role: "سبب الوقعة — لجأ إلى بكر", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — ذكر أيام العرب في الجاهلية، ص412"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-20
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,24 @@
+id: event/yawm-awara-al-thani
+class: event
+kind: battle
+label: { ar: "يوم أوارة الثاني" }
+summary:
+  ar: "اليوم الثاني بأوارة؛ كان عمرو بن المنذر اللخمي قد ترك ابناً له اسمه أسعد عند زرارة بن عدس التميمي فقتله سويد بن عبد الله بن دارم وهرب إلى مكة، فلما توفي زرارة أوصى ابنه حاجباً، وغزا عمرو بن المنذر بني دارم وقد حلف ليقتلن منهم مائة، فسار يطلبهم حتى بلغ أوارة وقد أنذروا به فتفرقوا، فبث سراياه فيهم فأتوه بتسعة وتسعين رجلاً سوى من قتلوه في غاراتهم فأحرقهم، فمر رجل من البراجم شم قتار اللحم فظن أن الملك يتخذ طعاماً فقصده، فقال من أنت قال أبيت اللعن أنا وافد البراجم، فقال عمرو إن الشقي وافد البراجم وأمر به فقُذف في النار إتماماً للمائة، فذهبت مقولته مثلاً وقيل إنه لذلك سُمي محرقاً، وعير به جرير الفرزدق: أين الذين بنار عمرو أحرقوا، أم أين أسعد فيكم المسترضع {cite:kamil-ibn-al-athir p. 412-413}."
+  en: "The second day of Awara: Amr ibn al-Mundhir 'al-Muharriq' avenged his foster-son As'ad, killed by Suwayd al-Darimi, by burning ninety-nine Darim captives to fulfil his vow of a hundred — and when a man of the Burajim wandered up drawn by the smell of roasting meat, he cried 'the wretch is the one who comes to Burajim' and had him cast into the fire to complete the count; Jarir taunted al-Farazdaq with it {cite:kamil-ibn-al-athir p. 412-413}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام العرب قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/amr-ibn-al-mundhir-al-muharriq, role: "صاحب القسم المحرق", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-darim, role: "المقاتَلون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/zarara-ibn-udas, role: "المرتضع عنده أسعد بن عمرو", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — ذكر أيام العرب في الجاهلية، ص412-413"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-20
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
