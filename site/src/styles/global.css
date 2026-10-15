@@ -217,6 +217,8 @@ html[dir="rtl"] .reading-progress span { transform-origin: right; }
 /* phone toolbar: wing directory, share, back to top; always in thumb reach */
 .explore-bar { display: none; }
 @media (max-width: 720px) {
+  /* keep the last content clear of the fixed toolbar (about 64px tall) */
+  body { padding-bottom: 72px; }
   .explore-bar { display: flex; position: fixed; inset-inline: 0; bottom: 0; z-index: 50; gap: 8px; justify-content: space-around; padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); background: var(--bg); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(10, 37, 51, 0.08); }
   .explore-bar a, .explore-bar button { flex: 1; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; font-family: var(--sans); font-size: 0.92rem; border-radius: 10px; background: var(--panel); color: var(--fg); border: 0; text-decoration: none; cursor: pointer; }
   html[lang="ar"] .explore-bar a, html[lang="ar"] .explore-bar button { font-family: var(--ar-body); font-size: 1rem; }
