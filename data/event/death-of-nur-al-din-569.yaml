@@ -1,0 +1,22 @@
+id: event/death-of-nur-al-din-569
+class: event
+kind: death
+label: { ar: "وفاة نور الدين محمود" }
+summary:
+  ar: "توفي نور الدين محمود بن زنكي صاحب الشام وديار الجزيرة ومصر يوم الأربعاء حادي عشر شوال سنة تسع وستين وخمسمائة بعلة الخوانيق، ودفن بقلعة دمشق ثم نقل إلى المدرسة التي أنشأها بدمشق عند سوق الخواصين؛ وحكى طبيب كان يخدمه أنه لما اشتد به المرض في بيته الصغير بالقلعة أشار الأطباء بالقصد فقال «ابن ستين لا يقتصد» وامتنع منه فلم ينجع الدواء؛ وكان قبل موته بأيام قد شرع يتجهز للدخول إلى مصر لأخذها من صلاح الدين إذ رأى منه فتوراً في غزو الفرنج، فأرسل إلى الموصل وديار الجزيرة وديار بكر يطلب العساكر للغزاة؛ وقال ابن الأثير: طالعت سير الملوك المتقدمين فلم أر فيها بعد الخلفاء الراشدين وعمر بن عبد العزيز أحسن من سيرته ولا أكثر تحرياً منه للعدل، وكان مولده سنة إحدى عشرة وخمسمائة {cite:kamil-ibn-al-athir p. 56}."
+  en: "Death of Nur al-Din Mahmud ibn Zangi, lord of Syria, the Jazira and Egypt's overlord — Wednesday 11 Shawwal 569, of quinsy, in the small prayer-cell he kept in Damascus citadel; refusing cupping ('a man of sixty is not bled'), buried in the citadel then translated to his madrasa by Suq al-Khawwassin. He had been mustering armies from Mosul and the Jazira to take Egypt from Saladin when death overtook him. Ibn al-Athir's verdict: after the Rashidun and Umar ibn Abd al-Aziz he read of no king's conduct finer or more scrupulous in justice {cite:kamil-ibn-al-athir p. 56}."
+wings: [time, place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1174~", hijri: "0569", calendar: julian, precision: day, status: tradition, derived: true, note: "الأربعاء ١١ شوال ٥٦٩هـ {cite:kamil-ibn-al-athir p. 56}." }
+relations:
+  - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير (سنة 569هـ) ص 56"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-vol-late-batch-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

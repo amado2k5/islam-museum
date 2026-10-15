@@ -1,0 +1,24 @@
+id: event/al-adil-takes-damascus-592
+class: event
+kind: conquest
+label: { ar: "استيلاء العادل على دمشق" }
+summary:
+  ar: "في السابع والعشرين من رجب سنة اثنتين وتسعين وخمسمائة ملك الملك العادل أبو بكر بن أيوب مدينة دمشق من ابن أخيه الأفضل علي بن صلاح الدين؛ وكان سببها أن عساكر دمشق الأسدية والأكراد مالت إلى الأفضل ضد أخيه العزيز صاحب مصر لإعراضه عنهم وإقباله على المماليك الناصرية، فنازع العزيز وخرج منهزماً إلى مصر، واتفق على صلح بلبيس أن يكون للأفضل القدس وجميع فلسطين وطبرية والأردن ويبقى العادل مقيماً بمصر عند العزيز؛ ثم استمال العادل العزيز فسار معه إلى دمشق وحاصراها واستمالا أميراً من أمراء الأفضل يعرف بالعزيز بن أبي غالب الحمصي — وكان الأفضل كثير الإحسان إليه والوثوق به — ففتح لهما الباب الشرقي وقت العصر اليوم السابع والعشرين من رجب وأدخل العادل، وركب العزيز فوقف بالميدان الأخضر غربي دمشق، ونزل العادل بدار أسد الدين شيركوه، وأوهما الأفضل أنهما يبقيان على البلد له خيفة أن يثور بهما ومعه العامة، ثم أقرآه بمفارقة القلعة {cite:kamil-ibn-al-athir p. 240-244}."
+  en: "al-Adil's seizure of Damascus, 27 Rajab 592 — after the Asadiyya and Kurds defected from al-Aziz of Egypt to his brother al-Afdal, the Bilbays settlement gave al-Afdal Palestine while al-Adil stayed in Egypt beside al-Aziz; then uncle and nephew marched on Damascus, suborned al-Afdal's favoured amir Ibn Abi Ghalib of Homs who opened the Bab al-Sharqi at 'asr, entered while al-Afdal knew nothing, and read him the order to vacate the citadel {cite:kamil-ibn-al-athir p. 240-244}."
+wings: [time, place]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1196~", hijri: "0592", calendar: julian, precision: day, status: tradition, derived: true, note: "٢٧ رجب ٥٩٢هـ {cite:kamil-ibn-al-athir p. 242-243}." }
+relations:
+  - { type: had_participant, target: person/al-malik-al-adil-ayyub, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-afdal-ali, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/al-malik-al-aziz-uthman, sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/damascus, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير (سنة 591-592هـ) ص 240-244"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-vol-late-batch-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
