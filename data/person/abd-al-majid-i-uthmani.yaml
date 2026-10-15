@@ -1,0 +1,23 @@
+id: person/abd-al-majid-i-uthmani
+class: person
+label: { ar: "عبد المجيد الأول" }
+names:
+  - { kind: full, lang: ar, value: "عبد المجيد الأول بن محمود الثاني" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "السلطان عبد المجيد الأول؛ تولى الحكم بعد وفاة والده محمود الثاني، وكان ضعيف البنية شديد الذكاء واقعياً رحيماً وهو من أجلّ سلاطين آل عثمان قدراً. وكان خاضعاً لتأثير وزيره رشيد باشا الذي وجد في الغرب مثله، وهو الذي أعد الجيل التالي من الوزراء ورجال الدولة فأسهموا بمساعدته في دفع عجلة التغريب التي بدأها. وفي عهده دارت حركة الإصلاح حول ثلاث نقاط: الاقتباس من الغرب في تنظيم الجيش ونظم الحكم والإدارة، والاتجاه بالمجتمع نحو التشكيل العلماني، والاتجاه نحو مركزية السلطة في استانبول والولايات {cite:dawlat-uthmaniyya-salabi p. 548}."
+  en: "Abdülmecid I — Mahmud II's son, 'of slight build, sharp mind, realistic and merciful'; under Mustafa Rashid Pasha's hand the Tanzimat ran on three tracks: Western military and administrative models, secularising the social order, and centralising Istanbul's power over the provinces {cite:dawlat-uthmaniyya-salabi p. 548}."
+wings: [people, time]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+relations:
+  - { type: child_of, target: person/mahmud-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: successor_of, target: person/mahmud-ii-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 548"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-6
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

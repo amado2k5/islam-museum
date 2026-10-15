@@ -1,0 +1,21 @@
+id: event/french-campaign-egypt-1213
+class: event
+kind: campaign
+label: { ar: "الحملة الفرنسية على مصر وإعلان الجهاد" }
+summary:
+  ar: "كان الهجوم الفرنسي على مصر سنة ١٢١٣هـ/١٧٩٨م أول هجوم على ولاية عربية من ولايات الدولة العثمانية في التاريخ الحديث، وعلى الفور أعلن السلطان سليم الثالث الجهاد فاستجاب المسلمون في الحجاز والشام وشمال أفريقية. يقول الجبرتي في حوادث شعبان ١٢١٣هـ: لما وردت أخبار الفرنسيين إلى الحجاز وأنهم ملكوا الديار المصرية انزعج أهل الحجاز وضجّوا بالحرم، وصار الشيخ محمد الكيلاني يعظ الناس ويدعوهم إلى الجهاد فاتعظ جملة من الناس وبذلوا أموالهم وأنفسهم واجتمع نحو الستمائة من المجاهدين وركبوا البحر إلى القصير، وصمّموا على الظفر بإحدى الحسنيين: الاستشهاد أو الانتصار، وتكونت منهم ومن مسلمي الوجه القبلي وعرب الهوارة وأهالي النوبة وقوات مراد بك جبهة حربية في مواجهة القوات الفرنسية. وبعد احتلال القاهرة واصل نابليون احتلاله لبقية مدن مصر وغزة والرملة ويافا، وحاول احتلال عكا لكن يقظة أهلها بقيادة أحمد باشا الجزار حالت بينه وبين ما يشتهي {cite:dawlat-uthmaniyya-salabi p. 329-330}."
+  en: "The French campaign in Egypt, 1798 — Selim III proclaimed jihad at once; al-Jabarti records the Hijaz rising, six hundred volunteers sailing to al-Qusayr under Muhammad al-Kilani resolved on martyrdom or victory, while Ahmad Pasha al-Jazzar's watchfulness at Acre checked Napoleon himself {cite:dawlat-uthmaniyya-salabi p. 329-330}."
+wings: [time]
+periods: [period/modern-era]
+regions: [egypt-nile, levant-iraq]
+date:
+  start: { edtf: "1798", hijri: "1213", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/selim-iii-uthmani, role: "معلن الجهاد", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 329-330"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-6
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
