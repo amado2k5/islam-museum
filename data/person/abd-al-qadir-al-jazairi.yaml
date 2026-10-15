@@ -2,21 +2,26 @@ id: person/abd-al-qadir-al-jazairi
 class: person
 label: { ar: "عبد القادر الجزائري" }
 names:
-  - { kind: full, lang: ar, value: "عبد القادر بن محيي الدين بن مصطفى الحسني الجزائري" }
+  - { value: "عبد القادر بن محيي الدين بن مصطفى الحسني الجزائري", kind: full }
 gender: male
-roles: [ruler, scholar, military]
-born: { edtf: "1807", calendar: gregorian, precision: year, status: tradition, sources: [source/al-aalam] }
-died: { edtf: "1883", calendar: gregorian, precision: year, status: tradition, sources: [source/al-aalam] }
 summary:
-  ar: "عبد القادر بن محيي الدين الحسني الجزائري (١٨٠٧–١٨٨٣م)؛ أمير ناهض من العلماء الشعراء البسلاء. ولد في القيطنة من قرى إيالة وهران وتعلم في وهران، وحج مع أبيه سنة ١٢٤١هـ فزار المدينة ودمشق وبغداد. ولما دخل الفرنسيس بلاد الجزائر بايعه الجزائريون وولّوه القيام بأمر الجهاد فقاتل الفرنسيين خمسة عشر عاماً، ضرب في أثنائها نقوداً سماها «الحمدية» وأنشأ معامل للأسلحة والأدوات الحربية وملابس الجند، وكان يتقدم جيشه في معاركه ببسالة عجيبة. وأصرّ عليه سلطان الغرب الأقصى عبد الرحمن بن هشام فضعف أمره، فاشترط شروطاً للاستسلام رضي بها الفرنسيون واستسلم سنة ١٢٦٣هـ (١٨٤٧م)، فنفوه إلى طولون ثم إلى أنبواز حيث أقام نحو أربع سنين وزارَه نابليون الثالث فسرّحه مشترطاً ألا يعود إلى الجزائر، فزار باريس والآستانة واستقر في دمشق سنة ١٢٧١هـ فتوفي فيها. من آثاره العلمية «ذكرى العاقل» رسالة في العلوم والأخلاق، و«ديوان شعر»، و«الصافنات الجياد» في محاسن الخيل وصفاتها، و«المواقف» في التصوف {cite:al-aalam tarjama}."
-  en: "Abd al-Qadir al-Jaza'iri (1807–1883 CE) — the amir who led fifteen years of jihad against the French conquest of Algeria, minted the Hamdiyya coinage, then settled in Damascus as a scholar and Sufi author {cite:al-aalam tarjama}."
-wings: [people, time]
-periods: [period/modern-era]
-regions: [maghreb, levant-iraq]
+  ar: "الأمير عبد القادر بن محيي الدين الحسني الجزائري، ناهض من العلماء والشعراء البُسلاء؛ ولد بالقيطنة من قرى إيالة وهران وتعلّم في وهران وحج مع أبيه سنة 1241هـ فزار المدينة ودمشق وبغداد، ولما دخل الفرنسيون بلاد الجزائر سنة 1246هـ بايعه الجزائريون وولّوه القيام بأمر الجهاد فقاتل الفرنسيين خمسة عشر عاماً وضرب في أثنائها نقوداً سماها «الحمدية» وأنشأ معامل للأسلحة والأدوات الحربية وملابس الجند، ثم استسلم بشروط سنة 1263هـ فنفوه إلى طولون ثم أنبواز حيث زاره نابليون الثالث وسرّحه مشترطاً ألا يعود إلى الجزائر، فزار باريس والآستانة واستقر بدمشق سنة 1271هـ وتوفي فيها سنة 1883م، ومن آثاره «ذكرى العاقل» وديوان شعر و«المواقف» في التصوف {cite:al-aalam p. 140-141}."
+  en: "Amir Abd al-Qadir al-Jaza'iri, the scholar-poet who led the Algerian jihad: elected by the Algerians when the French entered the country, he fought them fifteen years, minted the 'Hamdiyya' coinage and built arms works; exiled after his 1847 surrender to Toulon then Amboise, freed by Napoleon III, he settled in Damascus in 1855 and died there in 1883 {cite:al-aalam p. 140-141}."
+roles: [ruler, scholar]
+wings: [people]
+periods: [period/colonial-era]
+regions: [maghreb]
+born: { edtf: "1807", hijri: "1222~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "ولد بالقيطنة من قرى وهران {cite:al-aalam p. 140}", sources: [source/al-aalam] }
+died: { edtf: "1883", hijri: "1300~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "توفي بدمشق {cite:al-aalam p. 141}", sources: [source/al-aalam] }
+relations:
+  - { type: related_to, target: event/french-occupation-algiers-1246, note: "بويع لقيادة الجهاد إثر دخول الفرنسيين", sources: [source/al-aalam] }
+  - { type: died_in, target: place/damascus, sources: [source/al-aalam] }
+  - { type: lived_in, target: place/wahran, note: "نشأ فيها وتعلم", sources: [source/al-aalam] }
 sources: [source/al-aalam]
 provenance:
   layer: own-research
-  source: "الأعلام للزركلي (ط2 القاهرة) ترجمة عبد القادر الجزائري"
+  source: "الأعلام لخير الدين الزركلي (ط2) — باب عبد، ص140-141"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-alam-batch-1
-status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+  model: swe-2-high
+  run: lib-alam-zirikli-2
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High); extracted from al-Zirikli al-A'lam via Apple Vision OCR" }
