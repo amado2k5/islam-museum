@@ -3,12 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.2"
-label: { ar: "الموطأ 1.2", en: "Muwatta 1.2" }
+label: { ar: "الموطأ 2 — عائشة: كان يصلي العصر والشمس في حجرتها", en: "Muwatta 2" }
+text: "كان يصلي العصر والشمس في حجرتها قبل أن تظهر"
 summary:
-  ar: "عروة عن عائشة: كان النبي ﷺ يصلي العصر والشمس في حجرتها لم تغادرها بعد."
+  ar: "تتمة متصلة بالحديث الأول في باب وقوت الصلاة: يقول عروة بن الزبير إن عائشة زوج النبي حدثته أن رسول الله كان يصلي العصر والشمس ما تزال داخل حجرتها قبل أن ترتفع عن أرضها، وهو دليل على تبكيره بالعصر. ويبين المحقق أن هذا من قول ابن شهاب موصولاً بما قبله لا معلقاً، نقلاً عن ابن حجر في الفتح رداً على الكرماني، وأن محمد بن الحسن الشيباني أفرده في روايته بإسناده عن مالك عن ابن شهاب عن عروة عن عائشة. ويخرّجه عند البخاري (522) وأبي داود (407) ومسلم (2/103–104) والدارمي من طرق أصحاب مالك. {cite:muwatta-maruf-1997 p.34}"
   en: "Urwa from A'isha: the Prophet used to pray the afternoon prayer while the sun was still in her chamber and had not yet left it."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2 of kitab al-salat at PDF p. 34", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2 at PDF p. 34; باب وقوت الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 34; matn excerpt at most 40 words" }

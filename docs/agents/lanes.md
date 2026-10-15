@@ -14,6 +14,7 @@ Rules for every lane: [`../../AGENTS.md`](../../AGENTS.md), [`workflow.md`](work
 | `people` | Prophetic-era people and groups (complete; historical) | [`lanes/prophetic-people.md`](lanes/prophetic-people.md) | `docs/status.md` | `people-batch-*` | `data/_stubs.d/devin-people.yaml` |
 | `maintainer` | Schema, scripts, validator, site, i18n, periods, maps, Qur'an, local harvest, core concepts and practices | [`lanes/maintainer.md`](lanes/maintainer.md) | `docs/status.md` | any | `data/_stubs.yaml` |
 | `en-translation` | English locale + translation of rendered content (prose, labels, summaries, rooms) | [`lanes/en-translation.md`](lanes/en-translation.md) | `docs/delegation/en-translation-progress.md` | `i18n/en-<agent>` | none |
+| `muwatta-prose` | The Muwatta of Malik (Yahya recension, ed. Ma'ruf 1997): own-words accounts, matn excerpts and edges for 2,833 hadith records and prose for the 31 kitab pages; clears the REVIEW flags of the old rights rule (held-back item 15) | [`lanes/muwatta-prose.md`](lanes/muwatta-prose.md) | `docs/delegation/muwatta-prose-progress.md` | `content/muwatta-prose` | `data/_stubs.d/muwatta-prose.yaml` |
 
 `<agent>` in a branch name is any short name for the session or tool (so two sessions never collide on a branch). A lane may have several sessions over time, one at a time unless the lane document says otherwise.
 

@@ -3,12 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.6"
-label: { ar: "الموطأ 1.6", en: "Muwatta 1.6" }
+label: { ar: "الموطأ 6 — كتاب عمر إلى عماله: إن أهم أمركم عندي الصلاة", en: "Muwatta 6" }
+text: "إن أهم أمركم عندي الصلاة، من حفظها وحافظ عليها حفظ دينه، ومن ضيعها فهو لما سواها أضيع"
 summary:
-  ar: "كتاب عمر بن الخطاب إلى عماله في مواقيت الصلوات، وفيه أن الحفاظ على الصلاة حفظ للدين."
+  ar: "أثر موقوف يرويه مالك عن نافع مولى ابن عمر، في باب وقوت الصلاة: كتب عمر بن الخطاب إلى عماله أن الصلاة أهم أمورهم عنده، فمن حفظها حفظ دينه ومن ضيعها فهو لغيرها أضيع، ثم بيّن لهم أوقاتها: الظهر من أن يصير الفيء ذراعاً إلى أن يصير ظل المرء مثله، والعصر والشمس مرتفعة بيضاء نقية بقدر ما يسير الراكب فرسخين أو ثلاثة قبل الغروب، والمغرب عند غروب الشمس، والعشاء من مغيب الشفق إلى ثلث الليل، مع تحذير المتهاون بالنوم عنها، والصبح والنجوم بادية مشتبكة. ويبين المحقق أن المراد بتضييعها تأخيرها لا تركها، وأن الإسناد منقطع لأن نافعاً لم يلق عمر، لكن عبد الرزاق وصله عن نافع عن ابن عمر «فصح الأثر بهذا». {cite:muwatta-maruf-1997 p.37}"
   en: "Umar ibn al-Khattab's letter to his officials on the times of the prayers, in which he says that keeping to the prayer is keeping to the religion."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 6 of kitab al-salat at PDF p. 37", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 6 at PDF p. 37; باب وقوت الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 37; matn excerpt at most 40 words" }

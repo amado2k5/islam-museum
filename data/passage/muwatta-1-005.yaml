@@ -3,12 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.5"
-label: { ar: "الموطأ 1.5", en: "Muwatta 1.5" }
+label: { ar: "الموطأ 5 — من أدرك ركعة من الصبح قبل طلوع الشمس", en: "Muwatta 5" }
+text: "من أدرك ركعة من الصبح قبل أن تطلع الشمس فقد أدرك الصبح، ومن أدرك ركعة من العصر قبل أن تغرب الشمس فقد أدرك العصر"
 summary:
-  ar: "من أدرك ركعة من الصبح أو من العصر فقد أدرك الصلاة في وقتها."
+  ar: "يرويه مالك عن زيد بن أسلم عن عطاء بن يسار وبسر بن سعيد والأعرج عبد الرحمن بن هرمز، ثلاثتهم عن أبي هريرة، أن النبي جعل من أدرك ركعة من الصبح قبل طلوع الشمس مدركاً للصبح، ومن أدرك ركعة من العصر قبل غروبها مدركاً للعصر؛ وهو في باب وقوت الصلاة. ويخرّجه المحقق من طرق أصحاب مالك عند البخاري (579) ومسلم (2/102) والترمذي (186) والنسائي وابن خزيمة وابن حبان، وينقل عن ابن عبد البر أن الإدراك هنا إدراك الوقت لا أن ركعة واحدة تجزئ عن تمام الصلاة، وأن ذلك «إجماع من المسلمين» (التمهيد 3/273). {cite:muwatta-maruf-1997 p.36} {cite:muwatta-maruf-1997 p.37}"
   en: "Whoever catches one rak'a of the dawn or the afternoon prayer has caught the prayer in its time."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 5 of kitab al-salat at PDF p. 36", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/busr-ibn-said, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 5 at PDF p. 36; باب وقوت الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 36; matn excerpt at most 40 words" }

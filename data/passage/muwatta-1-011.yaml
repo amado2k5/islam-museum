@@ -3,12 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.11"
-label: { ar: "الموطأ 1.11", en: "Muwatta 1.11" }
+label: { ar: "الموطأ 11 — أنس: يذهب الذاهب إلى قباء والشمس مرتفعة", en: "Muwatta 11" }
+text: "كنا نصلي العصر ثم يذهب الذاهب إلى قباء فيأتيهم والشمس مرتفعة"
 summary:
-  ar: "أنس بن مالك: كانوا يصلون العصر ثم يذهب الذاهب إلى العوالي والشمس ما تزال مرتفعة، واختلاف الرواة في ذكر النبي ﷺ."
+  ar: "يرويه مالك عن ابن شهاب عن أنس بن مالك، في باب وقوت الصلاة: كانوا يصلون العصر ثم يذهب الذاهب إلى قباء فيبلغها والشمس ما تزال مرتفعة. ويخرّجه المحقق عند البخاري (551) ومسلم والنسائي، وينقل عن ابن عبد البر أنه موقوف اللفظ في الموطأ لكنه «مرفوع عند أهل العلم بالحديث» لرواية الحفاظ له عن الزهري بذكر رسول الله. وفي لفظة «إلى قباء» خلاف نقله المحقق: نص النسائي والبزار والدارقطني على أن مالكاً وهم فيها وأن الصواب «إلى العوالي»، وجزم ابن عبد البر بالوهم (التمهيد 6/178)، وتعقبه ابن حجر في فتح الباري (2/37) بأن ابن أبي ذئب رواها عن الزهري كرواية مالك، ويرجح المحقق أن الوهم من مالك، ويذكر رأي ابن رشيد أن رواية العوالي مجملة ورواية قباء مفسرة، وأن ذلك كله لا يقدح في صحة الحديث. {cite:muwatta-maruf-1997 p.39} {cite:muwatta-maruf-1997 p.40}"
   en: "Anas ibn Malik: they used to pray the afternoon prayer, then a man could set out for al-Awali while the sun was still high; the transmitters differ over mentioning the Prophet in it."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 11 of kitab al-salat at PDF p. 39", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/quba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-hajar-al-asqalani, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 11 at PDF p. 39; باب وقوت الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 39; matn excerpt at most 40 words" }

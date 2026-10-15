@@ -3,12 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.14"
-label: { ar: "الموطأ 1.14", en: "Muwatta 1.14" }
+label: { ar: "الموطأ 14 — عثمان يصلي الجمعة بالمدينة والعصر بملل", en: "Muwatta 14" }
 summary:
-  ar: "عثمان بن عفان صلى الجمعة في أول الوقت، وقال مالك إن ذلك للتهجير وسرعة السير."
+  ar: "أثر يرويه مالك عن عمرو بن يحيى المازني عن ابن أبي سليط، في باب وقت الجمعة: صلى عثمان بن عفان الجمعة بالمدينة ثم صلى العصر بملل، وهو موضع على سبعة عشر ميلاً من المدينة في طريق مكة كما يبين المحقق. ويعلق مالك بأن ذلك كان لتبكيره بالجمعة في الهاجرة وسرعة سيره. {cite:muwatta-maruf-1997 p.41}"
   en: "Uthman ibn Affan prayed the Friday prayer at the earliest part of its time; Malik said that was because of the midday heat and to hasten the walk."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 14 of kitab al-salat at PDF p. 41", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amr-ibn-yahya-al-mazini, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abi-salit, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/malal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 14 at PDF p. 41; باب وقت الجمعة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 41; matn excerpt at most 40 words" }

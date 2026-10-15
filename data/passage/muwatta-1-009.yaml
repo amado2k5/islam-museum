@@ -3,12 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.9"
-label: { ar: "الموطأ 1.9", en: "Muwatta 1.9" }
+label: { ar: "الموطأ 9 — أبو هريرة يبين أوقات الصلاة بالظل", en: "Muwatta 9" }
+text: "صل الظهر إذا كان ظلك مثلك، والعصر إذا كان ظلك مثليك، والمغرب إذا غربت الشمس، والعشاء ما بينك وبين ثلث الليل، وصل الصبح بغبش"
 summary:
-  ar: "أبو هريرة يبيّن لسائله أوقات الصلاة الخمس، ومنها الظهر إذا صار الظل مثلي الشخص وصلاة الصبح بغبش."
+  ar: "أثر يرويه مالك عن يزيد بن زياد عن عبد الله بن رافع مولى أم سلمة، في باب وقوت الصلاة: سأل أبا هريرة عن وقت الصلاة فبيّنه له بالظل: الظهر إذا صار ظل المرء مثله، والعصر إذا صار مثليه، والمغرب عند الغروب، والعشاء إلى ثلث الليل، والصبح في بقية ظلمة الليل، وفسر الراوي الغبش بالغلس. وينقل المحقق عن ابن عبد البر أنه موقوف في الموطأ عند جماعة رواته، وأن «المواقيت لا تؤخذ بالرأي ولا تدرك إلا بالتوقيف» (التمهيد 23/86). {cite:muwatta-maruf-1997 p.38}"
   en: "Abu Hurayra explains to his questioner the times of the five prayers, among them noon when a person's shadow becomes twice his height, and the dawn prayer in the last darkness."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 9 of kitab al-salat at PDF p. 38", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-rafi-mawla-umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yazid-ibn-ziyad-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 9 at PDF p. 38; باب وقوت الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 38; matn excerpt at most 40 words" }

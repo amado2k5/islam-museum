@@ -3,12 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.25"
-label: { ar: "الموطأ 1.25", en: "Muwatta 1.25" }
+label: { ar: "الموطأ 25 — النوم عن الصبح في طريق العودة من خيبر", en: "Muwatta 25" }
+text: "من نسي الصلاة فليصلها إذا ذكرها"
 summary:
-  ar: "سعيد بن المسيب مرسلًا: النبي ﷺ ومن معه ناموا في السفر عن صلاة الفجر حتى طلعت الشمس، فأمر بالقضاء عند الذكر."
+  ar: "أول حديث في باب النوم عن الصلاة. يرويه يحيى عن مالك عن ابن شهاب عن سعيد بن المسيب مرسلاً: لما رجع النبي من خيبر سار ليلاً، فلما كان آخر الليل نزل للراحة وأمر بلالاً أن يرقب لهم الفجر، فنام هو وأصحابه، وغلب بلالاً النوم وهو مستند إلى راحلته، فلم يستيقظ أحد حتى أصابتهم الشمس. فزع النبي، فاعتذر بلال بأن الذي أخذ بنفس النبي أخذ بنفسه، فأمرهم أن يقتادوا رواحلهم قليلاً، ثم أمر بلالاً فأقام فصلى بهم الصبح، وقال بعدها إن من نسي الصلاة فليصلها إذا ذكرها، واستشهد بآية طه التي تأمر بإقامة الصلاة للذكر. ويبين المحقق أنه مرسل عند جماعة رواة الموطأ وعند ابن عيينة ومعمر عن الزهري، وأنه جاء موصولاً من حديث سعيد عن أبي هريرة عند مسلم (2/138) وأبي داود والترمذي (3163) وابن ماجه والنسائي، ومن طريق أبي حازم عن أبي هريرة عند أحمد ومسلم وغيرهما؛ وينقل تضعيف الترمذي للموصول من طريق صالح بن أبي الأخضر وترجيح الدارقطني للمرسل، ثم يرى أن الحديث اختُلف فيه على الزهري فروي مرسلاً وموصولاً. {cite:muwatta-maruf-1997 p.45} {cite:muwatta-maruf-1997 p.46}"
   en: "Sa'id ibn al-Musayyab, mursal: the Prophet and those with him slept on a journey past the dawn prayer until the sun had risen, so he ordered it made up when they remembered."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 25 of kitab al-salat at PDF p. 45", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/bilal-ibn-rabah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/khaybar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/battle-of-khaybar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 25 at PDF p. 45; باب النوم عن الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 45; matn excerpt at most 40 words" }

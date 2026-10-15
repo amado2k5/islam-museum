@@ -3,12 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.12"
-label: { ar: "الموطأ 1.12", en: "Muwatta 1.12" }
+label: { ar: "الموطأ 12 — القاسم بن محمد: أدركت الناس يصلون الظهر بعشي", en: "Muwatta 12" }
+text: "ما أدركت الناس إلا وهم يصلون الظهر بعشي"
 summary:
-  ar: "القاسم بن محمد يذكر ما أدرك عليه الناس في وقت الظهر والعصر (أثر موقوف)."
+  ar: "أثر يرويه مالك عن ربيعة بن أبي عبد الرحمن عن القاسم بن محمد، يختم به باب وقوت الصلاة: لم يدرك القاسم أهل المدينة إلا وهم يصلون الظهر بعد الزوال حين يميل النهار إلى العشي، أي أنهم كانوا يبردون بها. ويذكر المحقق أنه رواه عن مالك أبو مصعب الزهري وسويد بن سعيد. {cite:muwatta-maruf-1997 p.40}"
   en: "Al-Qasim ibn Muhammad reports what he found the people doing about the times of the noon and afternoon prayers (a mawquf report)."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 12 of kitab al-salat at PDF p. 40", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad-ibn-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabia-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 12 at PDF p. 40; باب وقوت الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 40; matn excerpt at most 40 words" }

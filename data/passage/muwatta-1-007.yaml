@@ -3,12 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.7"
-label: { ar: "الموطأ 1.7", en: "Muwatta 1.7" }
+label: { ar: "الموطأ 7 — كتاب عمر إلى أبي موسى في المواقيت", en: "Muwatta 7" }
+text: "وأخر العشاء ما لم تنم، وصل الصبح والنجوم بادية مشتبكة، واقرأ فيها بسورتين طويلتين من المفصل"
 summary:
-  ar: "كتاب عمر إلى أبي موسى الأشعري في مواقيت الصلوات، وفيه تأخير العشاء ما لم يَنَم الناس."
+  ar: "أثر يرويه مالك عن عمه أبي سهيل نافع بن مالك عن أبيه مالك بن أبي عامر، في باب وقوت الصلاة: كتب عمر بن الخطاب إلى أبي موسى الأشعري يأمره أن يصلي الظهر إذا زالت الشمس، والعصر والشمس بيضاء نقية قبل أن تدخلها صفرة، والمغرب عند الغروب، وأن يؤخر العشاء ما لم يغلبه النوم، وأن يصلي الصبح والنجوم بادية مشتبكة ويقرأ فيها بسورتين طويلتين من المفصل. ويذكر المحقق أنه رواه عن مالك أبو مصعب الزهري وسويد بن سعيد وعبد الرزاق. {cite:muwatta-maruf-1997 p.37} {cite:muwatta-maruf-1997 p.38}"
   en: "Umar's letter to Abu Musa al-Ash'ari on the times of the prayers, including delaying the evening prayer as long as the people have not gone to sleep."
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 7 of kitab al-salat at PDF p. 37", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-3" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-suhayl-nafi-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-abi-amir-al-asbahi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 7 at PDF p. 37; باب وقوت الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 37; matn excerpt at most 40 words" }

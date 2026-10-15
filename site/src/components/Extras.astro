@@ -32,13 +32,19 @@ const faithText = (d.faith ?? []) as any[];
   </figure>
 )}
 
-{n.class === "passage" && d.text && (
+{n.class === "passage" && d.text && d.work === "work/quran" && (
   <section class="panel" style="margin-bottom:1.2rem" aria-label={n.label[lang] ?? n.label.en}>
     <p lang="ar" dir="rtl" style="font-family:var(--ar-quran);font-size:clamp(1.6rem,4vw,2.4rem);line-height:2.2;margin:0">{d.text}</p>
     <p class="ui muted" style="margin:10px 0 0;font-size:.85rem">{T.passage.attribution} <a href="https://tanzil.net" rel="noopener">tanzil.net</a> · {T.passage.verbatim}
       {d.aya > 1 && <> · <a href={href(lang, `passage/quran-${d.sura}-${d.aya - 1}`)}>{T.passage.prev}</a></>}
       {byId.has(`passage/quran-${d.sura}-${d.aya + 1}`) && <> · <a href={href(lang, `passage/quran-${d.sura}-${d.aya + 1}`)}>{T.passage.next}</a></>}
     </p>
+  </section>
+)}
+{n.class === "passage" && d.text && d.work !== "work/quran" && (
+  <section class="panel" style="margin-bottom:1.2rem" aria-label={n.label[lang] ?? n.label.en}>
+    <p lang="ar" dir="rtl" style="font-size:clamp(1.15rem,2.5vw,1.45rem);line-height:2;margin:0">«{d.text}»</p>
+    <p class="ui muted" style="margin:10px 0 0;font-size:.85rem">{T.passage.excerpt}</p>
   </section>
 )}
 
