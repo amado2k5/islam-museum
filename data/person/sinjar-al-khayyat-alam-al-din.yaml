@@ -1,0 +1,25 @@
+id: person/sinjar-al-khayyat-alam-al-din
+class: person
+label: { ar: "سنجر الخياط علم الدين", en: "Sanjar al-Khayyat Alam al-Din" }
+names:
+  - { kind: full, lang: ar, value: "الأمير الكبير علم الدين سنجر المسروري الصالحي الحاجب" }
+  - { kind: laqab, lang: ar, value: "علم الدين" }
+  - { kind: nisba, lang: ar, value: "المسروري" }
+  - { kind: nisba, lang: ar, value: "الصالحي" }
+  - { kind: nisba, lang: ar, value: "الخياط" }
+gender: male
+roles: [commander, official]
+traditions: [sunni]
+died: { edtf: "1296", hijri: "0695", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "الأمير الكبير علم الدين سنجر المسروري الصالحي، المعروف بالخياط، متولي القاهرة، وتوفي سنة 695هـ (1296م)، وتختلف المصادر في سنة وفاته."
+  en: "Senior Mamluk emir Alam al-Din Sanjar al-Khayyat, governor of Cairo; died 695 AH (1296 CE), although the sources differ on the year of his death."
+wings: [people, time]
+themes: []
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+story_roles:
+  - { role: commander, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 606-607, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص606", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

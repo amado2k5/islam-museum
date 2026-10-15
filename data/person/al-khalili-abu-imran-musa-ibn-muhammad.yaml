@@ -1,0 +1,24 @@
+id: person/al-khalili-abu-imran-musa-ibn-muhammad
+class: person
+label: { ar: "الخليلي أبو عمران موسى بن محمد", en: "al-Khalili Abu Imran Musa ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو عمران شرف الدين موسى بن محمد بن عثمان الخليلي" }
+  - { kind: kunya, lang: ar, value: "أبو عمران" }
+  - { kind: laqab, lang: ar, value: "شرف الدين" }
+  - { kind: nisba, lang: ar, value: "الخليلي" }
+gender: male
+roles: [astronomer]
+traditions: [sunni]
+died: { edtf: "1402", calendar: gregorian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فلكي نشأ في دمشق، صاحب رسالة في الفلك، وتوفي سنة 1402م."
+  en: "Astronomer who grew up in Damascus and wrote a treatise on astronomy; died 1402 CE."
+wings: [people, ideas]
+themes: [astronomy-and-timekeeping]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 494-495, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص494", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

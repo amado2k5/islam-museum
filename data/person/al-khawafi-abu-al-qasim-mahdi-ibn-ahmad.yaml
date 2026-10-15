@@ -1,0 +1,23 @@
+id: person/al-khawafi-abu-al-qasim-mahdi-ibn-ahmad
+class: person
+label: { ar: "الخوافي أبو القاسم مهدي بن أحمد", en: "al-Khawafi Abu al-Qasim Mahdi ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم مهدي بن أحمد الخوافي" }
+  - { kind: kunya, lang: ar, value: "أبو القاسم" }
+  - { kind: nisba, lang: ar, value: "الخوافي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+died: { edtf: "1058", hijri: "0450", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "نسبة إلى خواف، ناحية من نواحي نيسابور، وكان منها جماعة من العلماء، وتوفي سنة 450هـ (1058م)."
+  en: "Named after Khawaf, a district of Nishapur that produced several scholars; died 450 AH (1058 CE)."
+wings: [people, words]
+themes: []
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 535-536, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص535", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

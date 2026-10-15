@@ -1,0 +1,24 @@
+id: person/ibn-khallikan-shams-al-din-ahmad-ibn-muhammad
+class: person
+label: { ar: "ابن خلكان شمس الدين أحمد بن محمد", en: "Ibn Khallikan Shams al-Din Ahmad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "شمس الدين أحمد بن محمد بن إبراهيم بن أبي بكر بن خلكان" }
+  - { kind: laqab, lang: ar, value: "شمس الدين" }
+  - { kind: nisba, lang: ar, value: "الإربلي" }
+gender: male
+roles: [historian, scholar]
+traditions: [sunni]
+born: { edtf: "1211", hijri: "0608", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1282", hijri: "0681", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مؤرخ من أهل إربل، ولد بها سنة 608هـ (1211م) ونشأ في المدرسة المظفرية، وتوفي سنة 681هـ (1282م)، وهو صاحب «وفيات الأعيان»."
+  en: "Historian of Irbil, born there in 608 AH (1211 CE) and raised at the Muzaffariyya school; died 681 AH (1282 CE); author of the biographical dictionary Wafayat al-A'yan."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 451-452, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص451", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

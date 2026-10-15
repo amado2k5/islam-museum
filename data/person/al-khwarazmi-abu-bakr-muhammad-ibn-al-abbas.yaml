@@ -1,0 +1,24 @@
+id: person/al-khwarazmi-abu-bakr-muhammad-ibn-al-abbas
+class: person
+label: { ar: "الخوارزمي أبو بكر محمد بن العباس", en: "al-Khwarazmi Abu Bakr Muhammad ibn al-Abbas" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر محمد بن العباس الخوارزمي" }
+  - { kind: kunya, lang: ar, value: "أبو بكر" }
+  - { kind: nisba, lang: ar, value: "الخوارزمي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0935", hijri: "0323", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0993", hijri: "0382", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "ولد سنة 323هـ (935م) في خوارزم، وطاف البلاد في طلب العلم والمال، وتوفي سنة 382هـ (993م)."
+  en: "Born in Khwarazm in 323 AH (935 CE); travelled widely in pursuit of learning and wealth; died 382 AH (993 CE)."
+wings: [people, words]
+themes: []
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 521-522, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص521", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

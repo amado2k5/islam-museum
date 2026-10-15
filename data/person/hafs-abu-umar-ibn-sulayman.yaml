@@ -1,0 +1,25 @@
+id: person/hafs-abu-umar-ibn-sulayman
+class: person
+label: { ar: "حفص أبو عمر بن سليمان", en: "Hafs Abu Umar ibn Sulayman" }
+names:
+  - { kind: full, lang: ar, value: "أبو عمر حفص بن سليمان بن المغيرة الأسدي الكوفي" }
+  - { kind: kunya, lang: ar, value: "أبو عمر" }
+  - { kind: nisba, lang: ar, value: "الأسدي" }
+  - { kind: nisba, lang: ar, value: "الكوفي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0709", hijri: "0090", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0796", hijri: "0180", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أحد الرواة المشهورين عن عاصم بن أبي النجود، وأحد القراء السبعة، قارئ الكوفة، ثقة ضابط في القراءة؛ توفي سنة 180هـ (796م)."
+  en: "Well-known transmitter of the reading of Asim ibn Abi al-Najud and one of the seven canonical readers, reader of Kufa; died 180 AH (796 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 7 pp. 62-63, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص62", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

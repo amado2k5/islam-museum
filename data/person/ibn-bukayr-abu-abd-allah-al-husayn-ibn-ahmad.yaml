@@ -1,0 +1,25 @@
+id: person/ibn-bukayr-abu-abd-allah-al-husayn-ibn-ahmad
+class: person
+label: { ar: "ابن بكير أبو عبد الله الحسين بن أحمد", en: "Ibn Bukayr Abu Abd Allah al-Husayn ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله الحسين بن أحمد بن عبد الله بن بكير الصيرفي البغدادي" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الله" }
+  - { kind: nisba, lang: ar, value: "الصيرفي" }
+  - { kind: nisba, lang: ar, value: "البغدادي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0938", hijri: "0327", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0998", hijri: "0388", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "حافظ محدّث بغدادي، لا تذكر المصادر عنه إلا بعض الأخبار عن روايته للحديث وأسماء من روى عنهم، وتوفي سنة 388هـ (998م)."
+  en: "Baghdadi hadith memorist known only from reports of his transmission and of his teachers; died 388 AH (998 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 749-750, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص749", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

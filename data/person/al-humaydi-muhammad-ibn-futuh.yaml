@@ -1,0 +1,25 @@
+id: person/al-humaydi-muhammad-ibn-futuh
+class: person
+label: { ar: "الحميدي محمد بن فتوح", en: "al-Humaydi Muhammad ibn Futuh" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن فتوح بن عبد الله الأزدي" }
+  - { kind: laqab, lang: ar, value: "الحافظ الحميدي" }
+  - { kind: nisba, lang: ar, value: "الأزدي" }
+  - { kind: nisba, lang: ar, value: "الحميدي" }
+gender: male
+roles: [historian, scholar]
+traditions: [sunni]
+born: { edtf: "1029", hijri: "0420", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1095", hijri: "0488", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "مؤرخ أديب وفقيه محدّث، كان ظاهري المذهب، منقطعاً للعلم زاهداً، ولد سنة 420هـ (1029م) وتوفي سنة 488هـ (1095م)."
+  en: "Historian, man of letters, jurist and hadith scholar who followed the Zahiri school, devoted to learning and asceticism; born 420 AH (1029 CE), died 488 AH (1095 CE)."
+wings: [people, words]
+themes: [history-writing-and-social-thought, scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 7 pp. 288-289, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص288", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

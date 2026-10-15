@@ -1,0 +1,24 @@
+id: person/ibn-al-khurasani-abu-al-izz-muhammad-ibn-muhammad
+class: person
+label: { ar: "ابن الخراساني أبو العز محمد بن محمد", en: "Ibn al-Khurasani Abu al-Izz Muhammad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن محمد بن مواهب أبو العز" }
+  - { kind: kunya, lang: ar, value: "أبو العز" }
+  - { kind: nisba, lang: ar, value: "الخراساني" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1100", hijri: "0494", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1180", hijri: "0576", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "نحوي وعروضي وشاعر وكاتب، ولد سنة 494هـ (1100م) وتوفي سنة 576هـ (1180م)، وتكتفي المصادر بذكر بعض شيوخه."
+  en: "Grammarian, prosodist, poet and writer; born 494 AH (1100 CE) and died 576 AH (1180 CE); sources record only some of his teachers."
+wings: [people, words]
+themes: [linguistics, literature]
+periods: [period/crusades-ayyubid-mamluk]
+regions: []
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 154-155, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص154", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

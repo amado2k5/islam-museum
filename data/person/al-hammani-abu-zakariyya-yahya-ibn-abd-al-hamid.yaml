@@ -1,0 +1,24 @@
+id: person/al-hammani-abu-zakariyya-yahya-ibn-abd-al-hamid
+class: person
+label: { ar: "الحماني أبو زكرياء يحيى بن عبد الحميد", en: "al-Hammani Abu Zakariyya Yahya ibn Abd al-Hamid" }
+names:
+  - { kind: full, lang: ar, value: "أبو زكرياء يحيى بن عبد الحميد بن عبد الرحمن بن ميمون الحماني الكوفي" }
+  - { kind: kunya, lang: ar, value: "أبو زكرياء" }
+  - { kind: nisba, lang: ar, value: "الحماني" }
+  - { kind: nisba, lang: ar, value: "الكوفي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+died: { edtf: "0842", hijri: "0228", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من حفاظ الحديث الرحّالين، قدم بغداد وحدّث بها عن خلق كثير، وهو أول من صنّف المسند بالكوفة، وتوفي سنة 228هـ (842م)."
+  en: "Travelling hadith memorist who came to Baghdad, first to compile a musnad in Kufa; died 228 AH (842 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 7 pp. 217-218, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص217", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

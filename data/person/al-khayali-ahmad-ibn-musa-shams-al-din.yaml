@@ -1,0 +1,25 @@
+id: person/al-khayali-ahmad-ibn-musa-shams-al-din
+class: person
+label: { ar: "الخيالي أحمد بن موسى شمس الدين", en: "al-Khayali Ahmad ibn Musa Shams al-Din" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن موسى شمس الدين الرومي الحنفي" }
+  - { kind: laqab, lang: ar, value: "شمس الدين" }
+  - { kind: nisba, lang: ar, value: "الخيالي" }
+  - { kind: nisba, lang: ar, value: "الرومي" }
+gender: male
+roles: [theologian]
+traditions: [sunni]
+born: { edtf: "1425", hijri: "0829", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1458", hijri: "0862", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم بالعقيدة، رومي حنفي، تلميذ الشيخ خضر بيك، درّس في المدرسة السلطانية ببروسة ثم في أزنيق، وتوفي بأزنيق سنة 862هـ (1458م)."
+  en: "Theologian of the creed, a Rumi Hanafi and pupil of Khidr Bik; taught at the Sultan's madrasa in Bursa and then at Iznik; died there in 862 AH (1458 CE)."
+wings: [people, ideas]
+themes: [creed]
+periods: [period/mongol-post-mongol]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 627-628, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص627", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
