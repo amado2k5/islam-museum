@@ -1,0 +1,25 @@
+id: event/battle-of-tarifa-741
+class: event
+kind: battle
+label: { ar: "واقعة طريف وتمحيص المسلمين" }
+summary:
+  ar: "أجاز السلطان أبو الحسن المريني في أسطوله وخاصته آخر سنة 740هـ ونزل بساحة طريف فوافاه سلطان الأندلس أبو الحجاج يوسف بن السلطان أبي الوليد بعسكر الأندلس فأحاطوا بطريف نطاقاً واحداً ونصبوا عليها الآلات، وجهز الطاغية أسطولاً اعترض به الزقاق فقطع المرافق عن المعسكر وطال ثواهم ففنيت أزودتهم ووهن الظهر، واحتشد الطاغية أمم النصرانية وظاهره البرتغال صاحب أشبونة فجاء معه في قومه، ودسّ إلى طريف جيشاً كميناً دخلوها ليلاً، فلما نشبت الحرب في اليوم التالي برز الجيش الكمين على ظهور المسلمين فاختل مصافهم وارتدوا على أعقابهم، وقتل النصارى النساء اللواتي دافعن عن أنفسهن وخلصوا إلى حظايا السلطان عائشة بنت عمه أبي يحيى بن يعقوب وفاطمة، وكانت هزيمة تمحّصت بها جموع المسلمين وعزّ بها ملك الطاغية على ثغور الأندلس {cite:tarikh-ibn-khaldun-ibar p. 1965-1966}."
+  en: "Sultan Abu al-Hasan crossed in late 740 and encamped before Tarifa; Yusuf I of Granada joined him with the Andalus army, they ringed the town and set engines — but the Taghiya's second fleet sealed the Strait, starved the camp, and he mustered the Christian nations with Afonso of Portugal at his side; a hidden force he slipped into Tarifa by night burst on the Muslim rear as battle joined, their lines dissolved, the royal women were taken — Aisha the sultan's cousin and Fatima among them — and the Christian king's power over the Andalus frontier was sealed {cite:tarikh-ibn-khaldun-ibar p. 1965-1966}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1340-10-30", hijri: "0741-03-09", calendar: julian, precision: day, status: tradition, derived: true, note: "الواقعة المشهورة في ربيع الأول 741هـ؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1965}." }
+relations:
+  - { type: had_participant, target: person/abu-al-hasan-al-marini, role: "سلطان المغرب المهزوم", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/yusuf-i-nasrid, role: "سلطان الأندلس المهزوم", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/alfonso-xi-castile, role: "ملك الطاغية الظافر", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: occurred_at, target: place/tarifa, sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "ابن خلدون، العبر — الخبر عن واقعة طريف وتمحيص المسلمين (طبعة هيليوبوليس)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-ibar-east-24
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

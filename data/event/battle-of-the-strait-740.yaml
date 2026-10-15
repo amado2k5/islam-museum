@@ -1,0 +1,23 @@
+id: event/battle-of-the-strait-740
+class: event
+kind: naval-battle
+label: { ar: "واقعة الزقاق البحرية وملك أسطول المسلمين" }
+summary:
+  ar: "استعد السلطان أبو الحسن المريني للجهاد فأخرج وزراءه إلى السواحل لتجهيز الأساطيل واستنفر أهل المغرب وارتحل إلى سبتة، فأخرج الطاغية أسطوله إلى الزقاق ليمنعه من الإجازة؛ وعقد الموحدون أسطولهم لزيد بن فرحون قائد أسطول بجاية فأوفى سبتة في ستة عشر مركباً من طرابلس وقابس وجربة وتونس وبونة وبجاية، وتوافت أساطيل المغربين بمرسى سبتة تناهز المائة فعقد عليها لمحمد بن علي العزفي صاحب سبتة يوم فتحها، وأمره بمناجزة أسطول النصارى، فقربوا الأساطيل بعضها إلى بعض وقرنوها للمصاع فهبت ريح النصر وأظفر الله المسلمين بعدوهم فاستلحموهم قهراً بالسيوف وطعناً بالرماح وألقوا أشلاءهم في اليم وقتلوا قائدهم الملند واستاقوا أساطيلهم مجنوبة إلى مرسى سبتة، وعظم الفتح وجلس السلطان للتهنئة {cite:tarikh-ibn-khaldun-ibar p. 1964-1965}."
+  en: "Sultan Abu al-Hasan al-Marini prepared for jihad, sent his viziers to the coasts to fit out the fleets, summoned the Maghreb and marched to Ceuta; the Taghiya sent his fleet into the Strait to bar the crossing. The Almohads (Ifriqiya's heirs) contracted their fleet to Zayd ibn Farhun, who brought sixteen ships from Tripoli, Gabes, Djerba, Tunis, Bona and Bijaya, and the two-Maghreb fleets at Ceuta's anchorage neared a hundred sail under Muhammad ibn Ali al-Azafi — the fleets closed, grappled for boarding, the wind of victory rose, the Muslims cut them down, killed their admiral 'al-Maland' and towed the prizes into Ceuta, where the sultan sat for congratulations {cite:tarikh-ibn-khaldun-ibar p. 1964-1965}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [maghreb, andalus-europe]
+date:
+  start: { edtf: "1340", hijri: "0740", calendar: julian, precision: year, status: tradition, derived: true, note: "قبيل إجازة السلطان آخر سنة 740هـ؛ التحويل مشتق {cite:tarikh-ibn-khaldun-ibar p. 1964}." }
+relations:
+  - { type: had_participant, target: person/muhammad-ibn-ali-al-azafi, role: "قائد الأسطول", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/abu-al-hasan-al-marini, role: "السلطان المغزي", sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "ابن خلدون، العبر — الخبر عن واقعة الملند والظفر به (طبعة هيليوبوليس)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-ibar-east-24
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
