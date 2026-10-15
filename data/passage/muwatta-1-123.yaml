@@ -1,0 +1,19 @@
+id: passage/muwatta-1-123
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.123"
+label: { ar: "الموطأ 123 — عمر: لقد ابتليت بالاحتلام منذ وليت أمر الناس", en: "Muwatta 123" }
+text: "لقد ابتليت بالاحتلام منذ وليت أمر الناس"
+summary:
+  ar: "أثر يرويه مالك عن إسماعيل بن أبي حكيم عن سليمان بن يسار، في باب إعادة الجنب الصلاة: غدا عمر بن الخطاب إلى أرضه بالجرف فرأى في ثوبه احتلاماً، فقال إنه ابتُلي بالاحتلام منذ ولي أمر الناس، فاغتسل وغسل ما رأى في ثوبه ثم صلى بعد طلوع الشمس. ويذكر المحقق أن رواية يحيى «فرأى» وفي نسخة «فوجد»، وأنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن، ويحيل على مصنف عبد الرزاق والبيهقي. {cite:muwatta-maruf-1997 p.94}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ismail-ibn-abi-hakim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-jurf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 123 at PDF p. 94; باب إعادة الجنب الصلاة وغسله إذا صلى ولم يذكر وغسله ثوبه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 94; matn excerpt at most 40 words" }

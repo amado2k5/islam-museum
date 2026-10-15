@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.118"
-label: { ar: "الموطأ 1.118", en: "Muwatta 1.118" }
+label: { ar: "الموطأ 118 — عمر تصيبه الجنابة من الليل: توضأ واغسل ذكرك ثم نم", en: "Muwatta 118" }
+text: "توضأ واغسل ذكرك ثم نم"
 summary:
-  ar: "عمر بن الخطاب ذكر للنبي ﷺ أمرًا يتعلق بالغسل؛ تفاصيل الواقعة تحتاج مراجعة."
+  ar: "أول حديث في باب وضوء الجنب إذا أراد أن ينام أو يطعم قبل أن يغتسل. يرويه يحيى عن مالك عن عبد الله بن دينار عن عبد الله بن عمر: ذكر عمر بن الخطاب للنبي أنه تصيبه الجنابة من الليل، فأمره أن يتوضأ ويغسل ذكره ثم ينام. ويخرّجه المحقق عند البخاري (290) ومسلم (1/171) وأبي داود (221) والنسائي (1/140) وأحمد من طرق أصحاب مالك، وينقل عن ابن عبد البر أن هذا الإسناد هو المحفوظ عند أكثر الرواة، وأن طائفة روته بلفظ أن عمر قال: يا رسول الله، وأن إسحاق الطباع وجماعة رووه عن مالك عن نافع عن ابن عمر، وحديث نافع عند العلماء كالمستغرب (التمهيد 17/32–33). {cite:muwatta-maruf-1997 p.92} {cite:muwatta-maruf-1997 p.93}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 118 of kitab al-salat at PDF p. 92", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 118 at PDF p. 92; باب وضوء الجنب إذا أراد أن ينام أو يطعم قبل أن يغتسل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 92; matn excerpt at most 40 words" }

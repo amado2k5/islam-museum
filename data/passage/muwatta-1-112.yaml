@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.112"
-label: { ar: "الموطأ 1.112", en: "Muwatta 1.112" }
+label: { ar: "الموطأ 112 — بلاغ عن عائشة في غسل المرأة: ثلاث حفنات على الرأس", en: "Muwatta 112" }
 summary:
-  ar: "مالك: بلغه أن عائشة سُئلت في مسألة من مسائل الغسل؛ تفاصيل الجواب تحتاج مراجعة."
+  ar: "بلاغ في باب العمل في غسل الجنابة: يروي مالك أنه بلغه أن عائشة سُئلت عن غسل المرأة من الجنابة فقالت: لتحفن على رأسها ثلاث حفنات من الماء ولتضغث رأسها بيديها. ويفسر المحقق الحفنة بملء اليدين من الماء والضغث بمعالجة شعر الرأس باليد، ويذكر أن حديث أم سلمة في صحيح مسلم والترمذي (105) يشهد له، وأن عبد الرزاق روى أن أبا هريرة سأل عائشة عن المرأة تنقض شعرها إذا اغتسلت فقالت: وإن كانت قد أنفقت عليه أوقية؟ إذا أفرغت على رأسها ثلاثاً فقد أجزأ ذلك. {cite:muwatta-maruf-1997 p.89} {cite:muwatta-maruf-1997 p.90}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 112 of kitab al-salat at PDF p. 89", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 112 at PDF p. 89; باب العمل في غسل الجنابة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 89; matn excerpt at most 40 words" }

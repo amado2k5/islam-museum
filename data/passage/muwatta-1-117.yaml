@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.117"
-label: { ar: "الموطأ 1.117", en: "Muwatta 1.117" }
+label: { ar: "الموطأ 117 — ابن عمر: إذا جاوز الختان الختان وجب الغسل", en: "Muwatta 117" }
 summary:
-  ar: "ابن عمر: إذا جاوز الختان الختان وجب الغسل."
+  ar: "أثر يرويه مالك عن نافع أن عبد الله بن عمر كان يقول: إذا جاوز الختان الختان فقد وجب الغسل؛ وهو في باب واجب الغسل إذا التقى الختانان. ويذكر المحقق أن عبد الرزاق رواه عن ابن جريج وعن عبد الله بن عمر العمري، وابن أبي شيبة عن عبيد الله بن عمر، كلهم عن نافع. {cite:muwatta-maruf-1997 p.92}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 117 of kitab al-salat at PDF p. 92", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 117 at PDF p. 92; باب واجب الغسل إذا التقى الختانان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 92; matn excerpt at most 40 words" }

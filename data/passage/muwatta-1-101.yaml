@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.101"
-label: { ar: "الموطأ 1.101", en: "Muwatta 1.101" }
+label: { ar: "الموطأ 101 — سعد يأمر ابنه مصعباً بالوضوء من مس الذكر", en: "Muwatta 101" }
+text: "لعلك مسست ذكرك؟ قال: فقلت: نعم. فقال: قم فتوضأ"
 summary:
-  ar: "مصعب بن سعد بن أبي وقاص: كان يمسك المصحف لأبيه ويحك رأسه؛ الحكم المستفاد يتعلق بمس المصحف."
+  ar: "أثر يرويه مالك عن إسماعيل بن محمد بن سعد عن مصعب بن سعد بن أبي وقاص، في باب الوضوء من مس الفرج: كان مصعب يمسك المصحف على أبيه سعد فاحتك، فسأله سعد أمسّ ذكره، فلما أجاب بنعم أمره أن يقوم فيتوضأ، فتوضأ ورجع. ويذكر المحقق أنه رواه من غير طريق مالك عبد الرزاق وابن أبي شيبة والطحاوي، وأن للطحاوي رواية أخرى بالقصة أمره فيها أبوه أن يغمس يده في التراب ولم يأمره بالوضوء، ورواية بلفظ: أمرني بغسل يدي. {cite:muwatta-maruf-1997 p.85} {cite:muwatta-maruf-1997 p.86}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 101 of kitab al-salat at PDF p. 85", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/musab-ibn-sad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ismail-ibn-muhammad-ibn-sad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 101 at PDF p. 85; باب الوضوء من مس الفرج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: مضمون الأثر يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 85; matn excerpt at most 40 words" }

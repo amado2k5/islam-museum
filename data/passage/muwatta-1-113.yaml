@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.113"
-label: { ar: "الموطأ 1.113", en: "Muwatta 1.113" }
+label: { ar: "الموطأ 113 — عمر وعثمان وعائشة: إذا مس الختان الختان وجب الغسل", en: "Muwatta 113" }
+text: "إذا مس الختان الختان فقد وجب الغسل"
 summary:
-  ar: "ابن شهاب عن سعيد بن المسيب: عمر وعثمان وعائشة في مسألة الغسل بعد الجماع؛ الحكم المنقول يحتاج مراجعة."
+  ar: "أول أثر في باب واجب الغسل إذا التقى الختانان. يرويه يحيى عن مالك عن ابن شهاب عن سعيد بن المسيب أن عمر بن الخطاب وعثمان بن عفان وعائشة زوج النبي كانوا يقولون إن الغسل يجب بالتقاء الختانين وإن لم يكن إنزال. ويذكر المحقق أن عبد الرزاق وابن أبي شيبة والطحاوي أخرجوه من غير طريق مالك عن سعيد عن عائشة، وابن أبي شيبة من طريق مسروق عن عائشة، والدارقطني مرفوعاً من طريق القاسم عن عائشة، وابن أبي شيبة عن عمر بنحوه. {cite:muwatta-maruf-1997 p.90}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 113 of kitab al-salat at PDF p. 90", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 113 at PDF p. 90; باب واجب الغسل إذا التقى الختانان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم المنقول يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 90; matn excerpt at most 40 words" }
