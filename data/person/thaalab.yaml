@@ -1,0 +1,22 @@
+id: person/thaalab
+class: person
+label: { ar: "ثعلب" }
+names:
+  - { kind: full, lang: ar, value: "أبو العباس أحمد بن يحيى ثعلب" }
+gender: male
+roles: [scholar]
+summary:
+  ar: "ثعلب أبو العباس أحمد بن يحيى، إمام المدرسة الكوفية في بغداد وخصم المبرد؛ كان بينهما نزاع على رياسة العلم في بغداد من أسبابه اختلاف مدرستهما، فالمبرد بصري تعلم على المذهب البصري وطريقته وثعلب كوفي تعلم على المذهب الكوفي وبينهما اختلاف كبير في النحو والصرف واللغة فيما يقاس وما لا يقاس، وقد ظفر المبرد بثعلب لأن المبرد كان حسن العبارة حلو الإشارة فصيح اللسان ظاهر البيان وثعلب متحفظاً منكمشاً ليس فيه لباقة المبرد وفصاحته، وكان المبرد يحب الاجتماع بثعلب للمناظرة وثعلب يراوغ {cite:duha-islam p. 287-288}."
+  en: "Tha'lab — head of the Kufan grammar school in Baghdad and al-Mubarrad's great rival; the Basran–Kufan methodic quarrel embodied in two men {cite:duha-islam p. 287-288}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+relations:
+  - { type: debated_with, target: person/al-mubarrad, sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 287-288"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-5
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: person/ibn-aybak-al-dawadari
+class: person
+label: { ar: "ابن أيبك الداوداري", en: "Ibn Aybak al-Dawadari" }
+names:
+  - { kind: full, lang: ar, value: "أبو بكر بن عبد الله بن أيبك الداوداري" }
+  - { kind: nisba, lang: ar, value: "الداوداري" }
+gender: male
+roles: [historian, writer]
+traditions: [sunni]
+born: { edtf: "1286~", hijri: "0685~", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1336", hijri: "0737", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "المؤرخ أبو بكر بن عبد الله بن أيبك الداوداري، صاحب الموسوعة التاريخية «كنز الدرر وجامع الغرر» في تاريخ مصر والدول الإسلامية، وقد جمع فيها بين الأخبار السياسية والحكايات الأدبية والشعر."
+  en: "The historian Abu Bakr ibn Abd Allah ibn Aybak al-Dawadari, author of the historical encyclopedia 'Kanz al-Durar wa-Jami al-Gurar', which combines political reports with literary anecdotes and poetry."
+wings: [people, words]
+themes: [history-writing-and-social-thought]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+story_roles:
+  - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 599-601, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص599-601", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -1,0 +1,34 @@
+id: concept/muta
+class: concept
+kind: doctrine
+label: { ar: "نكاح المتعة" }
+summary:
+  ar: "نكاح المتعة زواج إلى أجل بأجر؛ يجمع أحمد أمين طرفاً من الأحاديث الواردة فيها: رخصة ابن مسعود في الغزو بلا نساء، وإذن النبي عام أوطاس ثلاثة أيام ثم النهي، ورخصة فتح مكة ثم التحريم — فالظاهر أن النبي أجازها في بعض الأوقات وعند الحاجة ثم حرمت، وأكد عمر بن الخطاب تحريمها في خلافته وانقطع الخلاف بإجماع الأئمة الأربعة وفقهاء الأمصار ما عدا فقهاء الشيعة؛ فقد حُكي عن علي والباقر والصادق حلها، وفي الكافي أن الباقر قال أحلّها الله في كتابه وسنة نبيه فهي حلال إلى يوم القيامة، والشيعة يستعملونها إلى الآن وأكثر ما يستعملونها في الأسفار {cite:duha-islam p. 883-886}."
+  en: "Mut'a — fixed-term marriage for a fee; Ahmad Amin surveys the hadiths (licensed in travel and need, then forbidden, with Umar's emphatic prohibition and the four imams' ijma') against the Shi'i retention via al-Baqir and al-Sadiq {cite:duha-islam p. 883-886}."
+wings: [ideas]
+periods: [period/rashidun, period/abbasid-early]
+regions: [arabia, levant-iraq]
+themes: [sects-and-schools, development-of-law-theology-institutions]
+perspectives:
+  - tradition: sunni
+    id: sunni-prohibition
+    stance: { ar: "أُبيحت في الحاجة ثم حُرمت، وأجمعت الأئمة الأربعة وفقهاء الأمصار على تحريمها" }
+    summary: { ar: "أجازها النبي في بعض الأوقات كما في أحاديث أوطاس وخيبر وفتح مكة ثم حرّمها، وأكد عمر تحريمها في خلافته، وانقطع الخلاف بإجماع الأئمة {cite:duha-islam p. 884-885}." }
+    sources: [source/duha-islam]
+  - tradition: academic
+    id: amin-reading
+    stance: { ar: "الظاهر من مجموع الأحاديث أنها أجيزت في بعض الأوقات وعند الحاجة ثم حرمت" }
+    summary: { ar: "رُويت روايات مختلفة عن ابن عباس وابن مسعود وعلي، وبعضها رجوع وبعضها استمرار {cite:duha-islam p. 885}." }
+    sources: [source/duha-islam]
+  - tradition: shia-twelver
+    id: imami-permission
+    stance: { ar: "أحلّها الله في كتابه وسنة نبيه فهي حلال إلى يوم القيامة" }
+    summary: { ar: "في الكافي عن الباقر: نزلت ﴿فَمَا اسْتَمْتَعْتُم بِهِ مِنْهُنَّ فَآتُوهُنَّ أُجُورَهُنَّ﴾ فيها، وحُكي عن علي والباقر والصادق حلّها {cite:duha-islam p. 885-886}." }
+    sources: [source/duha-islam]
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 883-886"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-9
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

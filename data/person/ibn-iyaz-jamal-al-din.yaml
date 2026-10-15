@@ -1,0 +1,24 @@
+id: person/ibn-iyaz-jamal-al-din
+class: person
+label: { ar: "ابن إياز جمال الدين", en: "Ibn Iyaz Jamal al-Din" }
+names:
+  - { kind: full, lang: ar, value: "الحسين بن بدر بن إياز" }
+  - { kind: kunya, lang: ar, value: "أبو محمد" }
+  - { kind: laqab, lang: ar, value: "جمال الدين" }
+  - { kind: nisba, lang: ar, value: "البغدادي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+died: { edtf: "1282", hijri: "0681", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "النحوي البغدادي جمال الدين أبو محمد الحسين بن بدر بن إياز، أحد نحاة بغداد، درّس بالمدرسة المستنصرية وصنّف في النحو والتصريف، ومن كتبه «المحصول في شرح الفصول» و«قواعد المطارحة»."
+  en: "The Baghdad grammarian Jamal al-Din Abu Muhammad al-Husayn ibn Badr ibn Iyaz, who taught at the Mustansiriya madrasa and wrote on grammar and morphology, including 'al-Mahsul fi Sharh al-Fusul' and 'Qawa'id al-Mutarahah'."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 591-593, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص591-593", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

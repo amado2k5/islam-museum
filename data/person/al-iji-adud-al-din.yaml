@@ -1,0 +1,24 @@
+id: person/al-iji-adud-al-din
+class: person
+label: { ar: "الإيجي عضد الدين", en: "al-Iji Adud al-Din" }
+names:
+  - { kind: full, lang: ar, value: "عبد الرحمن الإيجي" }
+  - { kind: kunya, lang: ar, value: "أبو الفضل" }
+  - { kind: laqab, lang: ar, value: "عضد الدين" }
+  - { kind: nisba, lang: ar, value: "الإيجي" }
+gender: male
+roles: [theologian, jurist]
+traditions: [sunni]
+died: { hijri: "0756", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba], note: "المطبوع سنة 756 هـ فقط، دون سنة ميلادية؛ لم يُحوَّل التاريخ." }
+summary:
+  ar: "عضد الدين أبو الفضل عبد الرحمن الإيجي، من علماء الكلام وأصول الفقه، وصاحب مؤلفات في هذين الفنين؛ ذكرت المصادر أنه حُبس بقلعة دريميار حتى مات في سجنه."
+  en: "Adud al-Din Abu al-Fadl al-Iji, a scholar of kalam and legal theory and author of works in both fields; the sources report that he was imprisoned at the Dizmar fortress until he died there."
+wings: [people, words]
+themes: [creed]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 609-611, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص609-611", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
