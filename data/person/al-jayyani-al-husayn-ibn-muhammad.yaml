@@ -1,0 +1,25 @@
+id: person/al-jayyani-al-husayn-ibn-muhammad
+class: person
+label: { ar: "الجياني الحسين بن محمد", en: "al-Jayyani al-Husayn ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أبو علي الحسين بن محمد بن أحمد الفساني الأندلسي الجياني" }
+  - { kind: kunya, lang: ar, value: "أبو علي" }
+  - { kind: nisba, lang: ar, value: "الجياني" }
+  - { kind: nisba, lang: ar, value: "الأندلسي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1035", hijri: "0427", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1105", hijri: "0498", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "الإمام الحافظ المحدّث من أهل الأندلس، نُسب إلى جيّان التي نزلها أبوه مدة، وأصله من الزهراء، وتوفي سنة 498هـ (1105م)."
+  en: "Imam, hadith memorist and traditionist of al-Andalus, named after Jaen where his father lived for a time, of Madinat al-Zahra origin; died 498 AH (1105 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 594-595, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص594", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

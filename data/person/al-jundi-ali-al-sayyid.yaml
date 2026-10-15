@@ -1,0 +1,23 @@
+id: person/al-jundi-ali-al-sayyid
+class: person
+label: { ar: "الجندي علي السيد", en: "al-Jundi Ali al-Sayyid" }
+names:
+  - { kind: full, lang: ar, value: "علي السيد الجندي" }
+  - { kind: nisba, lang: ar, value: "الجندي" }
+gender: male
+roles: [writer, scholar]
+traditions: [sunni]
+born: { edtf: "1898", hijri: "1316", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1973", hijri: "1393", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أديب وشاعر وأستاذ للأدب، وعميد دار العلوم وعضو مجمع اللغة العربية، من أبرز أبناء جيله، ولد سنة 1316هـ (1898م) وتوفي سنة 1393هـ (1973م)."
+  en: "Man of letters, poet and professor of Arabic literature, dean of Dar al-Ulum and member of the Arabic Language Academy; born 1316 AH (1898 CE), died 1393 AH (1973 CE)."
+wings: [people, words]
+themes: [literature]
+periods: [period/modern-era]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 481-482, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص481", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
