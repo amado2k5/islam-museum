@@ -1,0 +1,44 @@
+id: polity/zirid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: دولة آل زيري بن مناد
+  en: Zirid dynasty
+summary:
+  ar: "دولة آل زيري بن مناد الصنهاجي ولاة العبيديين بإفريقية؛ اختار المعز لدين الله بلكين بن زيري لأمر إفريقية والمغرب عدا صقلية لما رحل إلى المشرق سنة 358هـ وكناه أبا الفتوح ولقبه سيف الدولة، فتوارث ولده المنصور ثم باديس الملك حتى انفصل عنهم أخوه حماد بالمغرب الأوسط، وكبست دولتهم عود العرب الهلالية بعد هجرة بني سليم إلى إفريقية فتحولوا إلى المهدية ولم يزالوا بها إلى أن قضى عليهم عبد المؤمن الموحدي سنة 555هـ."
+  en: "The house of Ziri ibn Manad al-Sanhaji, Fatimid governors of Ifriqiya; al-Mu'izz li-Din Allah chose Buluggin ibn Ziri for the affairs of Ifriqiya and the Maghreb (save Sicily) when he departed east in 358 AH, styling him Abu al-Futuh Sayf al-Dawla — his heirs al-Mansur then Badis held the kingship until his brother Hammad broke away in the Middle Maghreb, and after Banu Hilal and Sulaym's Arab migration overwhelmed them they retired to Mahdiyya, where they lasted until Abd al-Mu'min the Almohad ended them in 555."
+wings: [time, place]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+start:
+  edtf: "0969"
+  hijri: "0358"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: ولاية بلكين بن زيري إذ رحل المعز إلى المشرق؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+end:
+  edtf: "1160"
+  hijri: "0555"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: وصول عبد المؤمن إلى إفريقية سنة 554-555هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة آل زيري بن مناد، ص1631-1639 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-17
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

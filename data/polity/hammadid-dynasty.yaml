@@ -1,0 +1,44 @@
+id: polity/hammadid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: دولة آل حماد بالقلعة
+  en: Hammadid dynasty
+summary:
+  ar: "دولة آل حماد بن بلكين بالقلعة من ملوك صنهاجة؛ شعبة من دولة آل زيري عقد لها المنصور بلكيز لأخيه حماد على أشير والمسيلة فاستقل بها سنة 398هـ أيام باديس، وحارب زناتة بالمغرب الأوسط فأثخن فيهم وكان مظفراً عليهم، واختط مدينة القلعة ونقل إليها جراوة وتم بناؤها وتمصيرها على رأس المائة الرابعة ورحل إليها طلاب العلوم وأرباب الصنائع، ودامت دولتهم في القلعة وبجاية إلى أن محاها عبد المؤمن الموحدي."
+  en: "The house of Hammad ibn Buluggin at the Qal'a, Sanhaja kings of the Middle Maghreb; a branch of the Zirid state — al-Mansur Buluggin invested his brother Hammad with Ashir and Msila, and in 398 AH he seceded in Badis's day, ground down the Zanata, founded the fortress-city of the Qal'a (settled by Jarawa and finished about 400) which drew scholars and craftsmen from afar, and the dynasty lasted at the Qal'a and Bijaya until Abd al-Mu'min the Almohad erased it."
+wings: [time, place]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+start:
+  edtf: "1007"
+  hijri: "0398"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: استقلال حماد بأشير والمسيلة سنة 398هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+end:
+  edtf: "1152"
+  hijri: "0547~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: انقراض الدولة بفتح عبد المؤمن بجاية؛ التاريخ تقريبي.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة آل حماد بالقلعة، ص1639-1649 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-17
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
