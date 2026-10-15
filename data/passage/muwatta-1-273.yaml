@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.273"
-label: { ar: "الموطأ 1.273", en: "Muwatta 1.273" }
+label: { ar: "الموطأ 273 — إذا قلت لصاحبك أنصت والإمام يخطب فقد لغوت", en: "Muwatta 273" }
+text: "إذا قلت لصاحبك: أنصت، والإمام يخطب يوم الجمعة، فقد لغوت"
 summary:
-  ar: "أبو هريرة عن النبي ﷺ: إذا قلت لصاحبك يوم الجمعة أنصت والإمام يخطب فقد لغوت؛ الحديث في الإنصات يوم الجمعة."
+  ar: "أول حديث في باب ما جاء في الإنصات يوم الجمعة والإمام يخطب. يرويه يحيى عن مالك عن أبي الزناد عن الأعرج عن أبي هريرة: أخبر النبي أن من قال لصاحبه «أنصت» والإمام يخطب يوم الجمعة فقد لغا. ويخرّجه المحقق عند أحمد (2/485) والدارمي وعبد الرزاق والشافعي والبيهقي والبغوي من طرق أصحاب مالك، وينقل عن ابن عبد البر أن لمالك فيه إسنادين: هذا، وإسناد ابن شهاب عن سعيد بن المسيب عن أبي هريرة، وأن يحيى لم يرو عن مالك غير إسناد أبي الزناد وجمعهما القعنبي وابن القاسم وابن وهب (التمهيد 19/29). {cite:muwatta-maruf-1997 p.159} {cite:muwatta-maruf-1997 p.160}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 273 of kitab al-salat at PDF p. 159", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-14" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 273 at PDF p. 159; باب ما جاء في الإنصات يوم الجمعة والإمام يخطب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b11" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 159; matn excerpt at most 40 words" }

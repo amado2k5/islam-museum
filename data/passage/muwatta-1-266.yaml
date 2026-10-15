@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.266"
-label: { ar: "الموطأ 1.266", en: "Muwatta 1.266" }
+label: { ar: "الموطأ 266 — من اغتسل يوم الجمعة ثم راح في الساعة الأولى فكأنما قرب بدنة", en: "Muwatta 266" }
+text: "من اغتسل يوم الجمعة غسل الجنابة ثم راح في الساعة الأولى فكأنما قرب بدنة"
 summary:
-  ar: "سمي عن أبي صالح عن أبي هريرة: قال النبي ﷺ: إذا قام أحدكم يصلي فلا يلتفت؛ الحديث في الالتفات في الصلاة."
+  ar: "أول حديث في باب العمل في غسل يوم الجمعة. يرويه يحيى عن مالك عن سمي مولى أبي بكر بن عبد الرحمن عن أبي صالح السمان عن أبي هريرة: شبّه النبي من اغتسل يوم الجمعة غسل الجنابة ثم بكّر إليها في الساعة الأولى بمن قرّب بدنة، ومن راح في الثانية بمن قرّب بقرة، وفي الثالثة كبشاً أقرن، وفي الرابعة دجاجة، وفي الخامسة بيضة، فإذا خرج الإمام حضرت الملائكة يستمعون الذكر. ويخرّجه المحقق عند البخاري (881) ومسلم (3/4) وأبي داود (351) والترمذي (499) والنسائي (3/99) وابن حبان وأحمد والشافعي من طرق أصحاب مالك، ويحيل على التمهيد (22/21). {cite:muwatta-maruf-1997 p.156} {cite:muwatta-maruf-1997 p.157}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 266 of kitab al-salat at PDF p. 156", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-13" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sumayy-mawla-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salih-al-samman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 266 at PDF p. 156; باب العمل في غسل يوم الجمعة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b11" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 156; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.275"
-label: { ar: "الموطأ 1.275", en: "Muwatta 1.275" }
+label: { ar: "الموطأ 275 — عثمان في خطبته: استمعوا وأنصتوا، واعدلوا الصفوف", en: "Muwatta 275" }
+text: "إذا قام الإمام يخطب يوم الجمعة فاستمعوا وأنصتوا، فإن للمنصت الذي لا يسمع من الحظ مثل ما للمنصت السامع"
 summary:
-  ar: "مالك بن أبي عامر: كان عثمان بن عفان يقول في خطبة الجمعة كلامًا يتعلق بالمحافظة على الصلاة؛ مضمون الخطبة يحتاج مراجعة."
+  ar: "يرويه مالك عن أبي النضر مولى عمر بن عبيد الله عن مالك بن أبي عامر، في باب ما جاء في الإنصات يوم الجمعة والإمام يخطب: كان عثمان بن عفان يقول في خطبته قلّ ما يدع ذلك: إذا قام الإمام يخطب يوم الجمعة فاستمعوا وأنصتوا، فإن للمنصت الذي لا يسمع من الحظ مثل ما للمنصت السامع، فإذا قامت الصلاة فاعدلوا الصفوف وحاذوا بالمناكب فإن اعتدال الصفوف من تمام الصلاة؛ ثم كان لا يكبر حتى يأتيه رجال وكّلهم بتسوية الصفوف فيخبرونه أن قد استوت فيكبر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وعبد الرزاق ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.160} {cite:muwatta-maruf-1997 p.161}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 275 of kitab al-salat at PDF p. 160", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-14" }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-abi-amir-al-asbahi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-nadr-salim-ibn-abi-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 275 at PDF p. 160; باب ما جاء في الإنصات يوم الجمعة والإمام يخطب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b11" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: مضمون الخطبة يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 160; matn excerpt at most 40 words" }
