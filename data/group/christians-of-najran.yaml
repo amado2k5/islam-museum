@@ -1,0 +1,22 @@
+id: group/christians-of-najran
+class: group
+kind: denomination
+label: { ar: "نصارى نجران", en: "The Christians of Najran" }
+summary:
+  ar: "أهل نجران الذين تنصّروا على يد الزاهد فيميون قرب زمن الاحتلال الحبشي الأول لليمن، ثم دعاهم ذو نواس الحميري إلى اليهودية فلما أبوا خدّ لهم الأخدود وأحرقهم في أكتوبر سنة 523م، ويقال إن القتلى ما بين عشرين ألفاً وأربعين ألفاً؛ أصحاب الأخدود في سورة البروج، في رواية الرحيق المختوم."
+  en: "The people of Najran who became Christian through the ascetic Faymiyun around the time of the first Abyssinian occupation of Yemen; Dhu Nuwas the Himyarite summoned them to Judaism and, when they refused, dug the trench and burned them in October 523 CE, the dead being said to number between twenty and forty thousand; the People of the Trench of Surat al-Buruj, in al-Raheeq al-Makhtum's account."
+wings: [people]
+themes: [non-muslim-minorities-under-muslim-rule]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: lived_in, target: place/najran, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: participated_in, target: event/massacre-of-najran, role: "الجماعة المحروقة في الأخدود", sources: [source/mubarakpuri-raheeq, source/tafhim-al-quran] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص35–42 نقلاً عن مختصر سيرة الرسول لمحمد بن عبد الوهاب وصحيح البخاري وابن هشام وقلب جزيرة العرب ص151 وتفهيم القرآن 6/297–298 ووفاء الوفا ص116"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-3a"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/tafhim-al-quran]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 24, 40–41" }
