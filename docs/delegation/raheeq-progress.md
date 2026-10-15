@@ -48,6 +48,10 @@
 
 ---
 
+## Paused (15 Oct 2026)
+
+Paused on the user's request after chapter 6 was pushed (`cb5e124b`). Resume with chapter 7 from the saved drafts in the shared notes folder, then chapters 8–27 in book order; chapter 8 (pp. 78–108) has been read and its existing entities checked (dawat-al-ashira, safa-proclamation, walid-council, persecution-of-mustadafin, the two Abyssinia migrations and the return, islam-of-hamza, islam-of-umar, utba-offer, abu-talib-gathers-clans, sajdat-al-najm exist; missing: uqba-ibn-abi-muit, umara-ibn-al-walid, dar-al-arqam, al-safa, a gharaniq tension card, the Quraysh envoys to the Negus, the plots to kill the Prophet).
+
 ## First pass (Oct 2026, old rules): batch log
 
 
