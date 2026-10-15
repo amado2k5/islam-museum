@@ -1,0 +1,25 @@
+id: person/amr-ibn-al-harith-al-jurhumi
+class: person
+label: { ar: "عمرو بن الحارث الجرهمي", en: "Amr ibn al-Harith al-Jurhumi" }
+names:
+  - { kind: full, lang: ar, value: "عمرو بن الحارث بن مضاض الجرهمي" }
+gender: male
+roles: [tribal-chief, poet]
+summary:
+  ar: "الجرهمي الذي خرج عند جلاء جرهم عن مكة بغزالي الكعبة وحجر الركن الأسود فدفنهما في بئر زمزم، وانطلق بقومه إلى اليمن وقال في الحزن على مكة شعره المشهور؛ وهو غير مضاض بن عمرو الأكبر صهر إسماعيل، في رواية ابن إسحاق التي ينقلها الرحيق المختوم."
+  en: "The Jurhumite who, when Jurhum was driven from Mecca, carried off the Kaaba's two gazelles and the Black Stone and buried them in the well of Zamzam, then led his people to Yemen and composed the famous lament for Mecca; not to be confused with the elder Mudad ibn Amr, Ismail's father-in-law, in Ibn Ishaq's account as cited by al-Raheeq al-Makhtum."
+wings: [people]
+themes: [sacred-space-and-pilgrimage]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/jurhum, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: participated_in, target: event/expulsion-of-jurhum, role: "دافن غزالي الكعبة والركن في زمزم", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص28–30 نقلاً عن ابن هشام 1/44 و114–125 وقلب جزيرة العرب ص230–231 ورحمة للعالمين 2/48 ومروج الذهب 1/205"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2c"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muruj-al-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 28" }

@@ -1,0 +1,21 @@
+id: group/adwan
+class: group
+kind: tribe
+label: { ar: "عدوان", en: "Adwan" }
+summary:
+  ar: "قبيلة كانت إليها الإفاضة من جُمَع (المزدلفة) غداة النحر إلى منى في ولاية خزاعة على مكة، إحدى الخلال الثلاث التي بقيت لقبائل مضر؛ وأقرّها قصي على ما كانت عليه من المناصب لأنه كان يراه ديناً لا ينبغي تغييره."
+  en: "The tribe that held the right to lead the pilgrims from Jam' (Muzdalifa) to Mina on the morning of the sacrifice under Khuza'a's rule, one of the three prerogatives kept by Mudar; Qusayy confirmed it in its office, regarding it as religion not to be changed."
+wings: [people]
+themes: [sacred-space-and-pilgrimage]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: part_of, target: group/mudar-ibn-nizar, note: "من قبائل مضر التي كانت إليها إحدى الخلال الثلاث.", sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص28–30 نقلاً عن ابن هشام 1/44 و114–125 وقلب جزيرة العرب ص230–231 ورحمة للعالمين 2/48 ومروج الذهب 1/205"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2c"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 29–30" }

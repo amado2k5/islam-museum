@@ -1,0 +1,22 @@
+id: person/bukhtanasar
+class: person
+label: { ar: "بختنصر", en: "Nebuchadnezzar (Bukhtanasar)" }
+names:
+  - { kind: full, lang: ar, value: "بختنصر ملك بابل" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "ملك بابل الذي غزا العرب في ذات عرق فكان قائد العرب في الموقعة غير جرهمي، وتفرقت بنو عدنان إلى اليمن عند غزوته الثانية سنة 587 ق.م، وذهب برميا النبي بمعد إلى الشام؛ وهو الذي خرّب فلسطين ودمر الهيكل سنة 587 ق.م وسبى اليهود إلى بابل فهاجر قسم منهم إلى شمالي الحجاز، في رواية الرحيق المختوم."
+  en: "The king of Babylon who attacked the Arabs at Dhat Irq, where the Arabs' commander was no Jurhumite; the Adnanis scattered to Yemen at his second campaign in 587 BCE and the prophet Jeremiah took Ma'add to al-Sham; he also laid waste Palestine, destroyed the Temple in 587 BCE and carried the Jews to Babylon, after which some migrated to northern Hijaz, in al-Raheeq al-Makhtum's account."
+wings: [people]
+themes: [wars-and-campaigns]
+periods: [period/pre-islamic-arabia]
+regions: [levant-iraq, arabia]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص28–30 نقلاً عن ابن هشام 1/44 و114–125 وقلب جزيرة العرب ص230–231 ورحمة للعالمين 2/48 ومروج الذهب 1/205"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2c"
+sources: [source/mubarakpuri-raheeq, source/qalb-jazirat-al-arab, source/rahma-lil-alamin]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 28, 40" }

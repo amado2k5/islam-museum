@@ -14,3 +14,6 @@ translators: []
 
 ## للزوار الصغار
 الكعبة بيت الله في مكة؛ بناه إبراهيم وابنه إسماعيل، وظل الناس يحجون إليه عبر الدهور.
+
+## في مقدمة الرحيق المختوم
+كان موضع البيت حين أسكن إبراهيم هاجر وإسماعيل مرتفعاً من الأرض كالرابية تأتيه السيول فتأخذ عن يمينه وشماله، ثم بنى إبراهيم وإسماعيل الكعبة ورفعا قواعدها في رحلة إبراهيم الثالثة المحفوظة {cite:mubarakpuri-raheeq p.18} {cite:mubarakpuri-raheeq p.20} {cite:sahih-al-bukhari 1/474-476}. ولي إسماعيل ولاية البيت طول حياته، ثم جرهم زهاء عشرين قرناً، ثم خزاعة ثلاثمائة سنة، ثم قصي وقريش منذ نحو سنة 440م {cite:mubarakpuri-raheeq p.27} {cite:mubarakpuri-raheeq p.29} {cite:mubarakpuri-raheeq p.30} {cite:qalb-jazirat-al-arab p.230-237}. ولما أجليت جرهم دفن [[person/amr-ibn-al-harith-al-jurhumi|عمرو بن الحارث]] غزالي الكعبة وحجر الركن الأسود في بئر زمزم {cite:mubarakpuri-raheeq p.28} {cite:ibn-hisham-sira 1/114-115}. وكانت حجابة الكعبة من مناصب قصي الخمسة ثم صارت لبني عبد الدار {cite:mubarakpuri-raheeq p.31} (انظر [[concept/manasib-quraysh|مناصب قريش]]). وأراد أبرهة أن يصرف حج العرب إلى كنيسته ويهدم البيت {cite:mubarakpuri-raheeq p.41}، وجعل عمرو بن لحي هبل في جوف الكعبة، وملأ المشركون المسجد الحرام بالأصنام حتى وجد النبي حول البيت يوم الفتح ثلاثمائة وستين صنماً {cite:mubarakpuri-raheeq p.35} {cite:mukhtasar-sirat-al-rasul p.50-54}.

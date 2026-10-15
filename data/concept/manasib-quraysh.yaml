@@ -1,0 +1,22 @@
+id: concept/manasib-quraysh
+class: concept
+kind: political
+label: { ar: "مناصب قريش في مكة", en: "The offices of Quraysh at Mecca" }
+summary:
+  ar: "المناصب التي قامت عليها حكومة مكة قبل الإسلام في عرض الرحيق المختوم: الخمسة التي جمعها قصي (رياسة دار الندوة واللواء والحجابة والسقاية والرفادة) واقتسمها بعده بنو عبد الدار وبنو عبد مناف، وما وُزّع بين بطون قريش من الإيسار وتحجير الأموال والشورى والأشناق والعقاب والقبة والسفارة، حتى كوّنوا بها ما يسميه المؤلف شبه دويلة ديمقراطية؛ وقبلها خلال مضر الثلاث في الحج."
+  en: "The offices on which Mecca's pre-Islamic government rested in al-Raheeq al-Makhtum's account: the five gathered by Qusayy (Dar al-Nadwa, the banner, the custody of the Kaaba, the watering and the feeding of pilgrims) later divided between Abd al-Dar and Abd Manaf, and the further offices distributed among the clans (divination arrows, votive property, counsel, blood-money, the war standard, the camp and cavalry, embassy), forming what the author calls a quasi-democratic statelet; before them, the three hajj prerogatives of Mudar."
+wings: [ideas, people]
+themes: [sacred-space-and-pilgrimage, laws-of-war-and-peace]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: practiced_in, target: group/quraysh, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: practiced_in, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص27–34 نقلاً عن ابن هشام 1/111–132 وقلب جزيرة العرب ص230–232 ومحاضرات الخضري 1/35–36 وتاريخ أرض القرآن 2/104–106"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2c"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/muhadarat-tarikh-al-umam-al-islamiyya, source/tarikh-ard-al-quran]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 29–32" }

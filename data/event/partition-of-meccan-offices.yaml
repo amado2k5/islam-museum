@@ -1,0 +1,28 @@
+id: event/partition-of-meccan-offices
+class: event
+kind: council
+label: { ar: "اقتسام مناصب مكة بين بني عبد مناف وبني عبد الدار", en: "The partition of the Meccan offices between Abd Manaf and Abd al-Dar" }
+summary:
+  ar: "لما هلك عبد مناف نافس أبناؤه بني عمهم عبد الدار في المناصب التي أوصى بها قصي لعبد الدار، وافترقت قريش فرقتين وكاد يكون بينهم قتال، فتداعوا إلى الصلح واقتسموها: السقاية والرفادة لبني عبد مناف، ودار الندوة واللواء والحجابة لبني عبد الدار؛ ثم خرجت قرعة بني عبد مناف لهاشم فوليهما حتى مات، ثم المطلب ثم عبد المطلب ثم بنوه حتى جاء الإسلام والولاية إلى العباس."
+  en: "After Abd Manaf's death his sons contested with their cousins of Abd al-Dar the offices Qusayy had bequeathed to Abd al-Dar; Quraysh split in two and nearly fought, then settled: the watering and feeding of pilgrims to Abd Manaf, Dar al-Nadwa, the banner and the custody of the Kaaba to Abd al-Dar; the Abd Manaf lot fell to Hashim, then al-Muttalib, then Abd al-Muttalib and his sons down to al-Abbas at the coming of Islam."
+wings: [time, people]
+themes: [sacred-space-and-pilgrimage, family-marriage-kinship]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "04XX", calendar: julian, precision: century, status: tradition, note: "بعد موت عبد مناف بن قصي؛ لا تاريخ في الكتاب. قصي استولى على مكة نحو 440م (ص30).", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/abd-manaf-ibn-qusayy, role: "من ورثته نشأ النزاع", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: group/banu-abd-al-dar, role: "أصحاب دار الندوة واللواء والحجابة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: person/hashim-ibn-abd-manaf, role: "من خرجت له القرعة بالسقاية والرفادة", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+  - { type: had_participant, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/pre-islamic-arabia }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص27–32 نقلاً عن ابن هشام 1/114–132 وقلب جزيرة العرب ص230–232"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2c"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 31–32" }

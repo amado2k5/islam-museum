@@ -1,0 +1,21 @@
+id: group/sufa
+class: group
+kind: clan
+label: { ar: "صوفة (بنو الغوث بن مرة)", en: "Sufa (Banu al-Ghawth ibn Murra)" }
+summary:
+  ar: "بنو الغوث بن مرة من بطون إلياس بن مضر، كانوا يسمون صوفة؛ كان إليهم في ولاية خزاعة الدفع بالناس من عرفة إلى المزدلفة والإجازة بهم يوم النفر من منى: لا يرمي الناس يوم النفر حتى يرمي رجل من صوفة، ويأخذون بجانبي العقبة فلا يجوز أحد حتى يمروا؛ فلما انقرضوا ورثهم بنو سعد بن زيد مناة من تميم."
+  en: "Banu al-Ghawth ibn Murra of the Ilyas ibn Mudar line, called Sufa; under Khuza'a's rule they held the right to lead the pilgrims from Arafa to Muzdalifa and to release them from Mina on the day of departure: none threw the stones until a man of Sufa threw, and they held both sides of the pass until they had passed; when they died out, Banu Sa'd ibn Zayd Manat of Tamim inherited the office."
+wings: [people]
+themes: [sacred-space-and-pilgrimage]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: part_of, target: group/mudar-ibn-nizar, note: "من بطون إلياس بن مضر.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص28–30 نقلاً عن ابن هشام 1/44 و114–125 وقلب جزيرة العرب ص230–231 ورحمة للعالمين 2/48 ومروج الذهب 1/205"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-2c"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 29–30" }
