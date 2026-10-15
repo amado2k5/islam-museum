@@ -1,0 +1,44 @@
+id: person/duqaq-ibn-tutush
+class: person
+label:
+  ar: دقاق بن تتش
+  en: Duqaq ibn Tutush
+summary:
+  ar: "دقاق بن تاج الدولة تتش بن ألب أرسلان؛ كان بقلعة دمشق لما قتل أبوه سنة 488هـ فبعث إليه ساوتكين الخادم يستدعيه للملك فسار إليه ووصل دمشق قبل أن يدركه أخوه رضوان، وأشار عليه باغيسيان صاحب أنطاكية بالاستبداد بدمشق على أخيه ففعل، واستوزر الخوارزمي وحكمه في دولته، وتوفي سنة 497هـ فاستقل أتابكه طغركين بالملك وخطب لأخيه تلتاش صبياً مراهقاً."
+  en: "Duqaq ibn Taj al-Dawla Tutush ibn Alp Arslan; he was in Damascus castle when his father fell in 488 AH, summoned to kingship by Sawtakin the eunuch and reached Damascus before his brother Ridwan's courier — on Yaghisiyan of Antioch's advice he held Damascus independently of his brother, made al-Khawarizmi his vizier and controller of the state, and died in 497, whereupon his atabeg Tughtakin took power and proclaimed his infant brother Tultash."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1104"
+  hijri: "0497"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: توفي سنة 497هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: child_of
+  target: person/tutush
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/ridwan-ibn-tutush
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني تتش، استيلاء دقاق على دمشق ووفاته، ص1324 و1327 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
