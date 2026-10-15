@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.553"
-label: { ar: "الموطأ 1.553", en: "Muwatta 1.553" }
+label: { ar: "الموطأ 553 — مالك: عزائم سجود القرآن إحدى عشرة سجدة ليس في المفصل منها شيء", en: "Muwatta 553" }
 summary:
-  ar: "مالك: الأمر عندنا أن عزائم سجود القرآن إحدى عشرة سجدة، وليس في المفصل سجدة؛ عدد سجدات التلاوة."
+  ar: "يقول يحيى: قال مالك: الأمر عندنا أن عزائم سجود القرآن إحدى عشرة سجدة، ليس في المفصل منها شيء. ويذكر المحقق أنه رواه عن مالك أبو مصعب، وأن قوله «قال يحيى» ليس في نسخة م. {cite:muwatta-maruf-1997 p.284}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 553 of kitab al-salat at PDF p. 284", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-25" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: work/quran, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sujud-al-tilawa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 553 at PDF p. 284; باب ما جاء في سجود القرآن", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 284; matn excerpt at most 40 words" }

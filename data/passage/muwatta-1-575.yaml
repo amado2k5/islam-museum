@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.575"
-label: { ar: "الموطأ 1.575", en: "Muwatta 1.575" }
+label: { ar: "الموطأ 575 — ابن عمر في بني معاوية: الثلاث التي دعا بهن النبي في مسجدكم، أُعطي اثنتين ومُنع الثالثة", en: "Muwatta 575" }
+text: "فلن يزال الهرج إلى يوم القيامة"
 summary:
-  ar: "عبد الله بن عبد الله بن جابر بن عتيك: قال: جاءنا عبد الله بن عمر... ؛ حديث في الصلاة أو الدعاء؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن عبد الله بن عبد الله بن جابر بن عتيك، قال: جاءنا عبد الله بن عمر في بني معاوية، وهي قرية من قرى الأنصار، فسألني هل نعرف أين صلى النبي من مسجدنا، فأشرت له إلى ناحية منه، ثم سألني عن الثلاث التي دعا بهن فيه، فأخبرته: دعا بأن لا يُظهر عليهم عدواً من غيرهم، ولا يهلكهم بالسنين، فأُعطيهما، ودعا بأن لا يجعل بأسهم بينهم، فمُنعها. فقال: صدقت، ثم قال: فلن يزال الهرج إلى يوم القيامة. ويذكر المحقق نقلاً عن ابن عبد البر (التمهيد 19/195) أن رواة الموطأ اضطربوا في إسناده اضطراباً شديداً: فطائفة كيحيى وابن وهب وابن بكير ومعن لم تجعل بين عبد الله شيخ مالك وابن عمر أحداً، وطائفة أدخلت عتيك بن الحارث، وطائفة كالقعنبي والتنيسي ومطرف أدخلت جابر بن عتيك، وأن رواية يحيى أولى بالصواب عنده لمتابعة ابن وهب ومعن وأكثر الرواة، وأن البخاري وأبا حاتم صححا سماع عبد الله بن عبد الله من ابن عمر. ويضيف المحقق أنه رواه مثل رواية يحيى أبو مصعب (624) وإسحاق بن سليمان عند الحاكم (4/517)، ورواه بذكر جابر بن عتيك سويد والقعنبي وابن مهدي عند أحمد (5/445) والشافعي. {cite:muwatta-maruf-1997 p.296} {cite:muwatta-maruf-1997 p.297}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 575 of kitab al-salat at PDF p. 296", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-26" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abdallah-ibn-jabir-ibn-atik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/ansar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dua, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 575 at PDF p. 296; باب ما جاء في الدعاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 296; matn excerpt at most 40 words; doubt: اضطراب رواة الموطأ في الإسناد بين الوصل وإدخال عتيك بن الحارث أو جابر بن عتيك؛ ابن عبد البر يرجح رواية يحيى." }

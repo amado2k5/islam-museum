@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.564"
-label: { ar: "الموطأ 1.564", en: "Muwatta 1.564" }
+label: { ar: "الموطأ 564 — أبو الدرداء: ألا أخبركم بخير أعمالكم… ذكر الله؛ ومعاذ: ما عمل ابن آدم عملاً أنجى له من عذاب الله من ذكر الله", en: "Muwatta 564" }
+text: "ما عمل ابن آدم من عمل أنجى له من عذاب الله، من ذكر الله"
 summary:
-  ar: "زياد بن أبي زياد: قال أبو الدرداء: ألا أخبركم بخير أعمالكم... ؛ حديث في الأعمال الصالحة والذكر."
+  ar: "يرويه مالك عن زياد بن أبي زياد، قال: قال أبو الدرداء: ألا أخبركم بخير أعمالكم وأرفعها في درجاتكم وأزكاها عند مليككم، وخير لكم من إعطاء الذهب والورق، وخير لكم من أن تلقوا عدوكم فتضربوا أعناقهم ويضربوا أعناقكم؟ قالوا: بلى. قال: ذكر الله. ويضيف زياد أن أبا عبد الرحمن معاذ بن جبل قال: ما عمل ابن آدم من عمل أنجى له من عذاب الله من ذكر الله. ويذكر المحقق أن الأثر الموقوف رواه عن مالك أبو مصعب وسويد، وأنه روي مرفوعاً من حديث أبي بحرية عن أبي الدرداء عند أحمد (5/195) والترمذي (3377) وابن ماجة (3790) والحاكم (1/496)، وأن قول معاذ أخرجه الطبراني وابن عبد البر في التمهيد (6/57) من حديث أبي الزبير عن طاووس عن معاذ مرفوعاً. {cite:muwatta-maruf-1997 p.289} {cite:muwatta-maruf-1997 p.290}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 564 of kitab al-salat at PDF p. 289", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-26" }
+  - { type: mentions, target: person/abu-al-darda, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ziyad-ibn-abi-ziyad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-tirmidhi-muhammad-ibn-isa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/dhikr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 564 at PDF p. 289; باب ما جاء في ذكر الله تبارك وتعالى", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 289; matn excerpt at most 40 words" }

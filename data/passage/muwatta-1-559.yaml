@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.559"
-label: { ar: "الموطأ 1.559", en: "Muwatta 1.559" }
+label: { ar: "الموطأ 559 — حميد بن عبد الرحمن: سورة الإخلاص ثلث القرآن، وسورة الملك تجادل عن صاحبها", en: "Muwatta 559" }
 summary:
-  ar: "ابن شهاب عن حميد بن عبد الرحمن بن عوف: أخبره أنه سمع... ؛ حديث في قراءة سورة الإخلاص في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن ابن شهاب عن حميد بن عبد الرحمن بن عوف، أنه أخبره أن سورة الإخلاص [[passage/quran-112-1|الإخلاص]] ثلث القرآن، وأن سورة الملك [[passage/quran-67-1|الملك]] تجادل عن صاحبها. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وأن في نسخة م والتمهيد «تعدل ثلث»، وينقل عن ابن عبد البر (التمهيد 7/252) أن مثله لا يقال من جهة الرأي ولا بد أن يكون توقيفاً، وقد ثبت عن النبي من وجوه، ويضيف أنه جاء مرفوعاً من حديث أنس وابن عباس وعقبة بن عمرو وأبي هريرة وأم كلثوم بنت عقبة وغيرهم. {cite:muwatta-maruf-1997 p.287}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 559 of kitab al-salat at PDF p. 287", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-26" }
+  - { type: mentions, target: person/humayd-ibn-abd-al-rahman-ibn-awf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: work/quran, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-112-1, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-67-1, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 559 at PDF p. 287; باب ما جاء في قراءة قل هو الله أحد وتبارك الذي بيده الملك", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 287; matn excerpt at most 40 words" }

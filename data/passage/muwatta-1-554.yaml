@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.554"
-label: { ar: "الموطأ 1.554", en: "Muwatta 1.554" }
+label: { ar: "الموطأ 554 — مالك: لا يقرأ أحد سجدة بعد الصبح ولا بعد العصر لأن السجدة من الصلاة", en: "Muwatta 554" }
 summary:
-  ar: "مالك: لا ينبغي لأحد أن يقرأ من سجود القرآن شيئًا بعد صلاة الصبح ولا بعد صلاة العصر؛ حكم قراءة السجدة في وقت النهي."
+  ar: "قول لمالك: لا ينبغي لأحد أن يقرأ من سجود القرآن شيئاً بعد صلاة الصبح ولا بعد صلاة العصر، ويعلل ذلك بأن النبي نهى عن الصلاة بعد الصبح حتى تطلع الشمس وبعد العصر حتى تغرب، والسجدة من الصلاة، فلا ينبغي أن يقرأ أحد سجدة في تينك الساعتين. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.284}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 554 of kitab al-salat at PDF p. 284", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-25" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sujud-al-tilawa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 554 at PDF p. 284; باب ما جاء في سجود القرآن", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 284; matn excerpt at most 40 words" }

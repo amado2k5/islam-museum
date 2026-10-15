@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.561"
-label: { ar: "الموطأ 1.561", en: "Muwatta 1.561" }
+label: { ar: "الموطأ 561 — من قال سبحان الله وبحمده في يوم مئة مرة حطت عنه خطاياه وإن كانت مثل زبد البحر", en: "Muwatta 561" }
+text: "من قال: سبحان الله وبحمده في يوم مئة مرة، حطت عنه خطاياه وإن كانت مثل زبد البحر"
 summary:
-  ar: "سمي عن أبي صالح السمان عن أبي هريرة: أن رسول الله ﷺ... ؛ حديث في الدعاء أو الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن سمي مولى أبي بكر عن أبي صالح السمان عن أبي هريرة، أن النبي أخبر أن من قال سبحان الله وبحمده في يوم مئة مرة حُطت عنه خطاياه وإن كانت مثل زبد البحر. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان والبغوي، والقعنبي عند البخاري (6405)، وعبد الرحمن المحاربي عند ابن ماجة (3812) والترمذي (3466)، ويحيى بن يحيى النيسابوري عند مسلم (8/69). {cite:muwatta-maruf-1997 p.288}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 561 of kitab al-salat at PDF p. 288", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-26" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salih-al-samman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sumayy-mawla-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/dhikr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 561 at PDF p. 288; باب ما جاء في ذكر الله تبارك وتعالى", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 288; matn excerpt at most 40 words" }

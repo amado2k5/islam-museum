@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.566"
-label: { ar: "الموطأ 1.566", en: "Muwatta 1.566" }
+label: { ar: "الموطأ 566 — لكل نبي دعوة يدعو بها، فأريد أن أختبئ دعوتي شفاعة لأمتي في الآخرة", en: "Muwatta 566" }
+text: "لكل نبي دعوة يدعو بها، فأريد أن أختبئ دعوتي، شفاعة لأمتي في الآخرة"
 summary:
-  ar: "أبو الزناد عن الأعرج عن أبي هريرة عن النبي ﷺ: حديث في الصلاة أو الذكر؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب ما جاء في الدعاء. يرويه مالك عن أبي الزناد عن الأعرج عن أبي هريرة، أن النبي أخبر أن لكل نبي دعوة يدعو بها، وأنه يريد أن يدخر دعوته شفاعة لأمته في الآخرة. ويذكر المحقق أنه رواه عن مالك أبو مصعب وإسحاق بن عيسى الطباع عند أحمد (2/486) وإسماعيل بن أبي أويس عند البخاري (6304)، وينقل عن ابن عبد البر (التمهيد 19/62–63) أن جماعة رواة الموطأ رووه بهذا الإسناد، وأن ابن وهب رواه عن مالك عن الزهري عن أبي سلمة عن أبي هريرة وهو غريب، وأن الإسنادين صحيحان لمالك. {cite:muwatta-maruf-1997 p.291} {cite:muwatta-maruf-1997 p.292}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 566 of kitab al-salat at PDF p. 291", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-26" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shafaa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/akhira, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dua, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 566 at PDF p. 291; باب ما جاء في الدعاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 291; matn excerpt at most 40 words" }
