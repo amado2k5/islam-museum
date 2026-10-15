@@ -18,6 +18,9 @@ periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 503-504, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص503-504", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
+relations:
+  - { type: student_of, target: person/al-rabi-ibn-sulayman-al-muadhdhin, role: "أخذ الفقه عن الربيع (PDF ص55)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/al-muzani, role: "أخذ الفقه عن المزني (PDF ص55)", sources: [source/tabaqat-fuqaha-abbas-1981] }

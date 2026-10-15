@@ -1,0 +1,17 @@
+id: person/abd-al-malik-ibn-adi-al-istarabadhi
+class: person
+label: { ar: "أبو نعيم الاستراباذي" }
+names:
+  - { kind: full, lang: ar, value: "أبو نعيم عبد الملك بن محمد بن عدي الاستراباذي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0322", edtf: "0934~", calendar: julian, precision: year, status: debated, derived: true, note: "حاشية المحقق عن السبكي: توفي سنة 322 أو في التي بعدها (PDF ص55). الشيرازي لم يذكر تاريخ الوفاة.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو نعيم عبد الملك بن محمد بن عدي الاستراباذي، صاحب الربيع بن سليمان، وروى حديث ابن مسعود «لا تسبوا قريشاً فإن عالمها يملأ الأرض علماً» {cite:tabaqat-fuqaha-abbas-1981 p. 55}. وقال إن المراد بالحديث رجل من علماء هذه الأمة من قريش هو الشافعي {cite:tabaqat-fuqaha-abbas-1981 p. 55}، وهذا قوله هو، لا حكم للمحقق أو للكتاب فيه."
+wings: [people]
+relations:
+  - { type: student_of, target: person/al-rabi-ibn-sulayman-al-muadhdhin, role: "صاحب الربيع بن سليمان (PDF ص55)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 6 (PDF ص54–58)" }

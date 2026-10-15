@@ -1,0 +1,16 @@
+id: person/abd-al-aziz-ibn-yahya-al-kinani
+class: person
+label: { ar: "عبد العزيز بن يحيى الكناني" }
+names:
+  - { kind: full, lang: ar, value: "عبد العزيز بن يحيى الكناني المكي المتكلم" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "عبد العزيز بن يحيى الكناني المكي المتكلم، وهو الذي ناظر بشر المريسي عند المأمون في نفي خلق القرآن {cite:tabaqat-fuqaha-abbas-1981 p. 54}. قال داود بن علي: هو أحد أصحاب الشافعي، أخذ عنه وطالت صحبته وخرج معه إلى اليمن {cite:tabaqat-fuqaha-abbas-1981 p. 54}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/al-shafii, role: "أخذ عنه وطالت صحبته (داود بن علي، PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 6 (PDF ص54–58)" }

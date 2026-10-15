@@ -1,0 +1,17 @@
+id: person/abu-al-abbas-ibn-al-qass-al-tabari
+class: person
+label: { ar: "أبو العباس ابن القاص الطبري" }
+names:
+  - { kind: full, lang: ar, value: "أبو العباس أحمد بن أبي أحمد المعروف بابن القاص الطبري" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0335", edtf: "0947~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بطرسوس سنة خمس وثلاثين وثلاثمائة (PDF ص58).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو العباس أحمد بن أبي أحمد المعروف بابن القاص الطبري، صاحب أبي العباس بن سريج، مات بطرسوس سنة خمس وثلاثين وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 58}. وكان من أئمة أصحابنا، وصنف المصنفات الكثيرة، منها «المفتاح» و«أدب القاضي» و«المواقيت» و«التلخيص» الذي شرحه أبو عبد الله ختن الإسماعيلي {cite:tabaqat-fuqaha-abbas-1981 p. 58}. وعنه أخذ الفقه أهل طبرستان {cite:tabaqat-fuqaha-abbas-1981 p. 58}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/ahmad-ibn-umar-ibn-surayj, role: "صاحب أبي العباس بن سريج (PDF ص58)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 6 (PDF ص54–58)" }

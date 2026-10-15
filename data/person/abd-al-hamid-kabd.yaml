@@ -1,0 +1,17 @@
+id: person/abd-al-hamid-kabd
+class: person
+label: { ar: "أبو زيد عبد الحميد بن الوليد الكبد" }
+names:
+  - { kind: full, lang: ar, value: "أبو زيد عبد الحميد بن الوليد بن المغيرة المصري" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0211", edtf: "0827~", calendar: julian, precision: year, status: debated, derived: true, note: "حاشية المحقق عن ابن حجر (تبصير المنتبه) وابن يونس: توفي سنة 211 (PDF ص54). الشيرازي لم يذكر السنة. يحتاج مصدراً ثانياً.", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "أبو زيد عبد الحميد بن الوليد بن المغيرة المصري، المعروف بكبد، من أصحاب الشافعي المصريين، قديم الوفاة، ذكره الدارقطني فيمن روى عن الشافعي {cite:tabaqat-fuqaha-abbas-1981 p. 54}. قال ابن يونس: سُمي كبداً لأنه كان ثقيلاً (حاشية المحقق، PDF ص54)."
+wings: [people]
+relations:
+  - { type: student_of, target: person/al-shafii, role: "من أصحابه المصريين، روى عن الشافعي (PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 6 (PDF ص54–58)" }

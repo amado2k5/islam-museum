@@ -1,0 +1,17 @@
+id: person/ahmad-ibn-umar-ibn-surayj
+class: person
+label: { ar: "أحمد بن عمر بن سريج" }
+names:
+  - { kind: full, lang: ar, value: "القاضي أبو العباس أحمد بن عمر بن سريج" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+died: { hijri: "0306", edtf: "0919~", calendar: julian, precision: year, status: debated, derived: true, note: "الشيرازي: مات ببغداد سنة ست وثلاثمائة (PDF ص57). حاشية المحقق عن الفهرست: سنة خمس وثلاثمائة (PDF ص57).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+summary:
+  ar: "القاضي أبو العباس أحمد بن عمر بن سريج، مات ببغداد سنة ست وثلاثمائة {cite:tabaqat-fuqaha-abbas-1981 p. 57}. وكان من عظماء الشافعيين، ويقال له الباز الأشهب، وولي القضاء بشيراز، وكان يفضل على جميع أصحاب الشافعي حتى على المزني {cite:tabaqat-fuqaha-abbas-1981 p. 57}. ويروي الشيرازي عن شيخه أبي الحسن الشيرجي أن فهرست كتبه يشتمل على أربعمائة مصنف {cite:tabaqat-fuqaha-abbas-1981 p. 57}. وأخذ العلم عن أبي القاسم الأنماطي {cite:tabaqat-fuqaha-abbas-1981 p. 58}."
+wings: [people]
+relations:
+  - { type: student_of, target: person/uthman-ibn-said-al-anmati, role: "أخذ العلم عن أبي القاسم الأنماطي (PDF ص58)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 6 (PDF ص54–58)" }

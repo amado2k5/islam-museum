@@ -11,5 +11,7 @@ provenance:
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/دار التحرير) ج2 ص 512"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-97
-sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab]
+sources: [source/fihrist-ibn-al-nadim, source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+relations:
+  - { type: student_of, target: person/al-shafii, role: "كتب عن الشافعي (الشيرازي، PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981] }
