@@ -11,5 +11,8 @@ provenance:
   source: "مروج الذهب للمسعودي ج2 ص 576–577"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-105
-sources: [source/muruj-al-dhahab]
+died: { hijri: "0264", edtf: "0878~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بمصر سنة أربع وستين ومائتين (PDF ص51).", sources: [source/tabaqat-fuqaha-abbas-1981] }
+relations:
+  - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي، وقال فيه: ناصر مذهبي (PDF ص51)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/muruj-al-dhahab, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

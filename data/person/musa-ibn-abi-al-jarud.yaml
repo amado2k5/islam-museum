@@ -1,0 +1,16 @@
+id: person/musa-ibn-abi-al-jarud
+class: person
+label: { ar: "موسى بن أبي الجارود" }
+names:
+  - { kind: full, lang: ar, value: "أبو الوليد موسى بن أبي الجارود المكي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+summary:
+  ar: "أبو الوليد موسى بن أبي الجارود المكي، ذكره الشيرازي في أصحاب الشافعي المكيين {cite:tabaqat-fuqaha-abbas-1981 p. 53}، و«روى عنه الحديث وكتاب الأمالي وغيره، وكان يفتي بمكة على مذهب الشافعي» {cite:tabaqat-fuqaha-abbas-1981 p. 53}. لم يذكر الشيرازي تاريخ وفاته."
+wings: [people]
+relations:
+  - { type: student_of, target: person/al-shafii, role: "من أصحاب الشافعي المكيين (PDF ص53)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/tabaqat-fuqaha-abbas-1981]
+provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص48–53", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-5" }
+status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 5 (PDF ص48–53); no death date; direction of riwaya as printed" }

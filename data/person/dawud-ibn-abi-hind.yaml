@@ -6,7 +6,11 @@ summary:
   en: "Dawud ibn Abi Hind of Basra; one of Sulayman ibn Ali's delegates to al-Mansur over al-Subaytiyya."
 periods: [period/abbasid-early]
 wings: [people, place, time]
-sources: [source/futuh-buldan-maarif-1407]
+relations:
+  - { type: student_of, target: person/al-hasan-al-basri, role: "أخذ عن الحسن (PDF ص48)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/muhammad-ibn-sirin, role: "أخذ عن ابن سيرين (PDF ص48)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+  - { type: student_of, target: person/said-ibn-al-musayyab, role: "أخذ عن سعيد بن المسيب (PDF ص48)", sources: [source/tabaqat-fuqaha-abbas-1981] }
+sources: [source/futuh-buldan-maarif-1407, source/tabaqat-fuqaha-abbas-1981]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research
