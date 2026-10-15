@@ -1,0 +1,23 @@
+id: person/al-abili-muhammad-ibn-ibrahim
+class: person
+label: { ar: "الآبلي أبو عبد الله", en: "al-Abili, Abu Abd Allah" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن إبراهيم الآبلي" }
+gender: male
+roles: [scholar, philosopher]
+traditions: [sunni]
+born: { edtf: "1282", hijri: "0681", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1356", hijri: "0757", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم مغربي من أهل المنطق والعلوم العقلية، لازمه ابن خلدون في تونس وأخذ عنه."
+  en: "Maghribi scholar of logic and the rational sciences; Ibn Khaldun attended his lessons in Tunis."
+wings: [people, words]
+themes: [philosophy-and-logic]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { role: philosopher, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 22, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص22", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

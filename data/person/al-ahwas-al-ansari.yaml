@@ -1,0 +1,20 @@
+id: person/al-ahwas-al-ansari
+class: person
+label: { ar: "الأحوص الأنصاري", en: "al-Ahwas al-Ansari" }
+names:
+  - { kind: full, lang: ar, value: "عبد الله بن محمد بن عاصم الأحوص الأنصاري" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+summary:
+  ar: "شاعر أموي من أنصار المدينة، اشتهر بشعر الغزل ومكانته في الأدب العربي."
+  en: "Umayyad poet from the Ansar of Medina, known for love poetry and for his standing in Arabic letters."
+wings: [people, words]
+themes: [literature]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 356-357, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص356-357", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

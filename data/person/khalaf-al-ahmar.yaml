@@ -1,0 +1,22 @@
+id: person/khalaf-al-ahmar
+class: person
+label: { ar: "خلف الأحمر", en: "Khalaf al-Ahmar" }
+names:
+  - { kind: full, lang: ar, value: "خلف بن حيان بن محرز الأحمر" }
+gender: male
+roles: [scholar, poet]
+traditions: [sunni]
+born: { edtf: "0733", hijri: "0115", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0796", hijri: "0180", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "راوية ولغوي من البصرة، عُرف بحفظ الشعر العربي وروايته."
+  en: "Philologist and transmitter of Basra, known for memorising and transmitting Arabic poetry."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+story_roles:
+  - { role: transmitter, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 338-339, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص338-339", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

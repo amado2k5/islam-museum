@@ -1,0 +1,21 @@
+id: person/ibn-adham-ibrahim
+class: person
+label: { ar: "ابن أدهم", en: "Ibn Adham, Ibrahim" }
+names:
+  - { kind: full, lang: ar, value: "أبو إسحاق إبراهيم بن أدهم بن منصور التميمي البلخي" }
+gender: male
+roles: [mystic]
+traditions: [sunni]
+died: { edtf: "0777", hijri: "0161", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "زاهد ومحدّث من بلخ، يُذكر في سير الزهاد والمتصوفة."
+  en: "Ascetic and hadith transmitter from Balkh, remembered among the early Sufi ascetics."
+wings: [people, ideas]
+themes: [spirituality-and-sufism]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+story_roles:
+  - { role: saint, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 424-425, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص424-425", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

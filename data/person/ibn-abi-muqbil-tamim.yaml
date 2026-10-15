@@ -1,0 +1,20 @@
+id: person/ibn-abi-muqbil-tamim
+class: person
+label: { ar: "ابن أبي مقبل", en: "Ibn Abi Muqbil" }
+names:
+  - { kind: full, lang: ar, value: "تميم بن أبي بن مقبل، أبو كعب" }
+gender: male
+roles: [poet]
+traditions: [sunni]
+summary:
+  ar: "شاعر من عصر بني أمية، وردت أبياته في كتب الأدب والشعر."
+  en: "Poet of the Umayyad period whose verses are preserved in the adab literature."
+wings: [words]
+themes: [literature]
+periods: [period/umayyad]
+regions: [arabia]
+story_roles:
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 218-221, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص218-221", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

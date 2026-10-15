@@ -1,0 +1,23 @@
+id: person/ibn-ajrum-muhammad
+class: person
+label: { ar: "ابن آجروم", en: "Ibn Ajrum" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن محمد بن داود الصنهاجي، المعروف بابن آجروم" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1273", hijri: "0672", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1323", hijri: "0723", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه ونحوي صنهاجي من أهل فاس، اشتهر بعلم النحو وبالتصوف في سيرته."
+  en: "Sanhaji jurist and grammarian of Fez, known for Arabic grammar and a reputation for asceticism."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 33, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص33", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

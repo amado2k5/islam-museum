@@ -1,0 +1,23 @@
+id: person/ibrahim-ibn-ali-al-ahdab
+class: person
+label: { ar: "الأحدب إبراهيم بن علي", en: "al-Ahdab, Ibrahim ibn Ali" }
+names:
+  - { kind: full, lang: ar, value: "إبراهيم بن علي الأحدب الطرابلسي" }
+gender: male
+roles: [poet, writer]
+traditions: [sunni]
+born: { edtf: "1826", hijri: "1242", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1891", hijri: "1308", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أديب وشاعر ومصنف وفقيه من طرابلس الشام، ترك تراثاً كبيراً من الكتب والرسائل."
+  en: "Man of letters, poet and jurist from Tripoli in Syria, who left a large body of books and treatises."
+wings: [people, words]
+themes: [literature]
+periods: [period/modern-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { role: poet, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 302-304, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص302-304", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

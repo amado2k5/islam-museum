@@ -1,0 +1,22 @@
+id: person/al-abshihi-muhammad-ibn-ahmad
+class: person
+label: { ar: "الأبشيهي أبو الفتح", en: "al-Abshihi, Abu al-Fath" }
+names:
+  - { kind: full, lang: ar, value: "أبو الفتح محمد بن أحمد بن منصور الأبشيهي" }
+gender: male
+roles: [writer]
+traditions: [sunni]
+born: { edtf: "1388", hijri: "0790", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1448", hijri: "0852", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أديب ومؤلف مصري في العصر المملوكي، جمع في كتبه الأخبار والطرائف."
+  en: "Egyptian man of letters and author of the Mamluk period who gathered anecdotes and curiosities in his books."
+wings: [people, words]
+themes: [literature]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 183, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص183", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

@@ -48,6 +48,8 @@
 - OCR complete (12 Oct 2026): all seven volumes OCR'd; the page counts match the PDFs. Volume 6 is absent from the set.
 - Entry indexes and tiers built (harvest workspace, not committed): v01 251 entries, v02 231, v03 277, v04 324, v05 220, v07 153, v08 241. Indexes are first-pass and still need the undated-opening pass.
 
+- (14 Oct 2026) Batch 1a (vol. 1): pp. 21–97 (12 entries: al-Abri, al-Abili, Ibn Ajrum, al-Abshihi, Ibn Abi Muqbil, Ibrahim Isma'il al-Abyari, Ibn al-Ahdab, Khalaf al-Ahmar, al-Ahwas, Ibn al-Akhram, al-Akhsikathi, Ibn Adham). Skipped in this range: Shi'i (Ibn Tawus, al-Ahsa'i), Ibadi (Ibn Iyad, Ibn Ibad, Ibn Ibad al-Ibadi), Mauritanian and Malian figures (West Africa), Christian and Jewish figures, and entries with bibliography or fragment openings.
+
 **Flags:**
 - Volume 6 (m-a-3-o-06.pdf) is absent from the founder's folder — its letter range will be missing entirely.
 
