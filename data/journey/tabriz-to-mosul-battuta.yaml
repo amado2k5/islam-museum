@@ -14,10 +14,12 @@ legs:
   - { from: place/samarra, to: place/tikrit, mode: "مسير", note: "مرحلة واحدة من موضع المعشوق قرب سامراء إلى تكريت (ص147–148)." , sources: [source/rihla-ibn-battuta-1958] }
   - { from: place/tikrit, to: place/mosul, mode: "مسير", note: "مرحلتان إلى قرية المقر على دجلة، ثم موضع القيارة وعيون القار، ثم مرحلتان إلى الموصل (ص148). ذكر النص أيضا عيون القار في القيارة (ص148)." , sources: [source/rihla-ibn-battuta-1958] }
   - { from: place/mosul, to: place/nasibin, mode: "مسير", note: "من الموصل إلى عين الرصد على جسر، ثم المويلحة، ثم جزيرة ابن عمر، ثم مرحلتان إلى نصيبين (ص149)." , sources: [source/rihla-ibn-battuta-1958] }
+  - { from: place/nasibin, to: place/sinjar, mode: "مسير", note: "بعد نصيبين «رحلنا إلى مدينة سنجار» (ص150). لا يذكر النص المسافة. النص يذكر بعدها دارا ثم ماردين؛ ولا توجد لدارا بطاقة مكان في هذا المشروع، فلم يُكتب مقطع من سنجار إلى ماردين.", sources: [source/rihla-ibn-battuta-1958] }
+  - { from: place/mardin, to: place/mosul, mode: "عودة", note: "بعد ماردين وعودته من عند قاضيها، «رحلت عائدا إلى بغداد فوصلت إلى مدينة الموصل» (ص151). لا يفصل النص المرحلة بين ماردين والموصل." , sources: [source/rihla-ibn-battuta-1958] }
   - { from: place/mosul, to: place/baghdad, mode: "عودة", note: "بعد ماردين وعودته من عند قاضيها، رحل عائدا إلى بغداد فوصل إلى الموصل، ووجد ركب الحجاج خارجها متوجها إلى بغداد، ثم وصل إلى بغداد (ص151). لا يفصل النص الطريق من الموصل إلى بغداد." , sources: [source/rihla-ibn-battuta-1958] }
 sources: [source/rihla-ibn-battuta-1958]
 provenance: { layer: own-research, source: "Rihla of Ibn Battuta, Arabic edition 1958, pp. 147–152 (printed numbering)", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "journeys-phase1-battuta-tabriz-mosul" }
-status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Battuta pp. 147–152 (printed numbering)" }
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from Rihla of Ibn Battuta pp. 147–152 (printed numbering). Gap: the text gives no direct Nasibin-to-Mosul stretch; it goes Nasibin, Sinjar, Dara, Mardin, then back to Mosul. Legs added only for the stated consecutive stops with place files (nasibin to sinjar; mardin to mosul). Dara has no place file, so the Sinjar-Dara-Mardin part is left as text. Scan image not opened for this file." }
 
 waypoints:
   - {"place": "place/tabriz", "day": 1, "day_note": "رقم المحطة في ترتيب النص، لا يدل على عدد الأيام ما لم يذكره النص.", "title": {"ar": "تبريز"}, "narrative": {"ar": "وصل إلى تبريز بعد عشرة أيام، ونزل بخارجها في موضع يعرف بالشام عند قبر قازان وزاويته. دخل المدينة ومرّ بأسواقها وبالمسجد الجامع (ص147). ثم أدخله الأمير على السلطان في محلته، فأمر له بالزاد والركوب، وكتب إلى أمير بغداد (ص147)."}, "sources": ["source/rihla-ibn-battuta-1958"]}
