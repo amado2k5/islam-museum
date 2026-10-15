@@ -1,0 +1,23 @@
+id: event/abolition-caliphate-1342
+class: event
+kind: declaration
+label: { ar: "إلغاء الخلافة العثمانية" }
+summary:
+  ar: "دعا مصطفى كمال الجمعية التأسيسية إلى اجتماع في ٣ آذار/مارس ١٩٢٤م وطرح عليها مشروع قرار بإلغاء الخلافة التي وصفها بأنها ورم من القرون الوسطى، فأجيز القرار الذي شمل نفي الخليفة عبد المجيد الثاني في اليوم التالي دون مناقشة، فانطفأت شعلة الخلافة التي كان المسلمون طيلة القرون يستمدون من بقائها رمز وحدتهم. ويذكر الصلابي أن معاهدة لوزان سنة ١٣٤٠هـ/١٩٢٣م قد فرضت على تركيا ما يعرف بشروط كرزون الأربع: قطع صلة تركيا بالإسلام، وإلغاء الخلافة إلغاءً تاماً، وإخراج الخليفة وأنصاره ومصادرة أمواله، واتخاذ دستور مدني. وعم الاستياء العالم الإسلامي فبكى أحمد شوقي الخلافة بعد أن كان قد مدح مصطفى كمال وقرنه بخالد بن الوليد {cite:dawlat-uthmaniyya-salabi p. 472-473}."
+  en: "3 March 1924 — the Grand National Assembly abolished the caliphate without debate and exiled Abdülmecid II the next day, ending the institution Muslims had long read as the emblem of their unity {cite:dawlat-uthmaniyya-salabi p. 472-473}."
+wings: [time]
+periods: [period/modern-era]
+regions: [anatolia-balkans, global]
+date:
+  start: { edtf: "1924-03-03", hijri: "1342", calendar: julian, precision: day, status: tradition, derived: true, note: "٣ آذار ١٩٢٤م وعام ١٣٤٢هـ {cite:dawlat-uthmaniyya-salabi p. 329, 472}." }
+relations:
+  - { type: occurred_at, target: place/istanbul }
+  - { type: had_participant, target: person/mustafa-kamal, role: "المقرر", sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: had_participant, target: person/abd-al-majid-ii, role: "الخليفة المنفي", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 329، 472-473"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-10
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

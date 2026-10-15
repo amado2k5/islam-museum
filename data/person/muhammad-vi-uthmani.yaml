@@ -1,0 +1,22 @@
+id: person/muhammad-vi-uthmani
+class: person
+label: { ar: "السلطان وحيد الدين (محمد السادس)" }
+names:
+  - { kind: full, lang: ar, value: "السلطان وحيد الدين محمد السادس" }
+gender: male
+roles: [ruler]
+summary:
+  ar: "السلطان وحيد الدين محمد السادس، آخر سلاطين الدولة العثمانية؛ وصفه الصلابي بأنه كان قابعاً في الأستانة مستكيناً لما يجري عليه من الذل زمن الاحتلال بعد الحرب العالمية الأولى، ونقلت الصحف عنه إهدار دم مصطفى كمال واعتباره عاصياً متمرداً، وهو ما زاد في سخط الناس عليه مقارنة بكفاح كمال {cite:dawlat-uthmaniyya-salabi p. 468}."
+  en: "Mehmed VI Vahdeddin — the last Ottoman sultan, in occupied Istanbul issuing the death warrant on Mustafa Kemal while the national resistance grew {cite:dawlat-uthmaniyya-salabi p. 468}."
+wings: [people]
+periods: [period/modern-era]
+regions: [anatolia-balkans]
+relations:
+  - { type: successor_of, target: person/muhammad-v-rashad, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 468"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-10
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
