@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.86"
-label: { ar: "الموطأ 1.86", en: "Muwatta 1.86" }
+label: { ar: "الموطأ 86 — عروة يمسح ظهور الخفين لا بطونهما", en: "Muwatta 86" }
 summary:
-  ar: "هشام بن عروة: رأى أباه يمسح على الخفين ولا يزيد على مسح ظهورهما."
+  ar: "أول أثر في باب العمل في المسح على الخفين. يرويه يحيى عن مالك عن هشام بن عروة أنه رأى أباه عروة يمسح على الخفين، وكان لا يزيد على مسح ظهورهما ولا يمسح بطونهما. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.79}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 86 of kitab al-salat at PDF p. 79", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-6" }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 86 at PDF p. 79; باب العمل في المسح على الخفين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 79; matn excerpt at most 40 words" }

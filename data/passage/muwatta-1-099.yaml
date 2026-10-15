@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.99"
-label: { ar: "الموطأ 1.99", en: "Muwatta 1.99" }
+label: { ar: "الموطأ 99 — سليمان بن يسار: انضح ما تحت ثوبك واله عنه", en: "Muwatta 99" }
 summary:
-  ar: "الصلت بن زبيد سأل سليمان بن يسار عن البلل: يُنضح ما تحت الثوب بالماء."
+  ar: "أثر يرويه مالك عن الصلت بن زبيد، في باب الرخصة في ترك الوضوء من المذي: سأل الصلت سليمان بن يسار عن البلل يجده فقال له: انضح ما تحت ثوبك بالماء ولا تلتفت إليه. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.84}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 99 of kitab al-salat at PDF p. 84", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-7" }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-salt-ibn-zubayd, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 99 at PDF p. 84; باب الرخصة في ترك الوضوء من المذي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 84; matn excerpt at most 40 words" }
