@@ -1,0 +1,36 @@
+id: polity/mongol-empire
+class: polity
+kind: empire
+label:
+  ar: دولة التتر (الإمبراطورية المغولية)
+  en: Mongol empire
+summary:
+  ar: "دولة التتر من شعوب الترك وهم أمم من وراء الخطا نزلوا في حدود الصين؛ خرج عليهم جنكزخان ملك المغل فغلبوا على ممالك الإسلام وانتزعوا كرسي الخلافة ببغداد، ثم افترقت دولتهم إلى دول: ملوك ما وراء النهر وجوقية وبيت جوجي بالدشت وإيلخانات العراق، وأسلموا بعد ذلك."
+  en: "The Tatar state of the Turkish nations beyond the Khita lands on China's marches; Genghis Khan, king of the Mongols, arose among them and they overran the Islamic realms and tore the caliphate's seat from Baghdad — then their state split into kingdoms: the rulers of Transoxiana, the Juchid house of the Dasht and the Ilkhans of Iraq, and in time they embraced Islam."
+wings: [time, place]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, china-east-asia, levant-iraq]
+start:
+  edtf: "1206~"
+  hijri: "0602~"
+  calendar: julian
+  precision: decade
+  status: debated
+  note: قيام جنكزخان واجتماع المغل عليه؛ سنة تقريبية.
+relations:
+- type: founded_by
+  target: person/genghis-khan
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة التتر من شعوب الترك، ص1529-1531 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-11
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
