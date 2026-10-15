@@ -1,0 +1,36 @@
+id: person/al-mustansir-hafsi
+class: person
+label:
+  ar: المستنصر بالله الحفصي
+  en: al-Mustansir billah al-Hafsi
+summary:
+  ar: "أبو عبد الله محمد بن أبي زكريا، ثاني خلفاء الدولة الحفصية؛ بويع بعد هلاك أبيه سنة 647هـ واختار لعلامته «الحمد لله والشكر لله»، وفي دولته دخلت مكة في الدعوة الحفصية وخطب له شرفها على المنابر، وتلقب بالإمام المستنصر بالله أمير المؤمنين، وبنى الآثار المشهورة بتونس ومنها بستان أبي فهر الذي وصفه ابن خلدون، وقتل عميه اللحياني وأبا إبراهيم وحمل رؤوسهما إليه."
+  en: "Abu Abd Allah Muhammad ibn Abi Zakariya, second caliph of the Hafsid state; acclaimed after his father's death in 647 AH, choosing for his motto «الحمد لله والشكر لله», in whose reign Mecca entered the Hafsid da'wa and its sharif preached him from the minbars, taking the title Imam al-Mustansir billah Commander of the Faithful, builder of the famed Abu Fahr garden at Tunis."
+gender: male
+roles: [caliph]
+traditions: [sunni]
+died: { edtf: "1277", hijri: "0675", calendar: julian, precision: year, status: tradition, derived: true, note: "ثاني خلفاء الحفصيين؛ هلك سنة 675هـ على مشهور التواريخ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: child_of
+  target: person/abu-zakariya-al-hafsi
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/hafsid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — بيعة السلطان أبي عبد الله المستنصر، ص1708-1712 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
