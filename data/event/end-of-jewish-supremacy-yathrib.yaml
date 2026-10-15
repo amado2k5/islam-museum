@@ -1,0 +1,24 @@
+id: event/end-of-jewish-supremacy-yathrib
+class: event
+kind: other
+label: { ar: "غلبة الأنصار على المدينة وقتل الفطيون" }
+summary:
+  ar: "نهاية استيلاء يهود على يثرب؛ كان الاستيلاء لليهود على المدينة حين نزلتها الأوس والخزرج إلى أن ملك عليهم الفطيون اليهودي من بني لعلبة وكان رجل سوء فاجراً تدين له اليهود بألا تزوج امرأة منهم إلا دخلت عليه قبل زوجها، فلما زُفت أخت مالك بن العجلان الخزرجي صاحت به أدخل على غير زوجي فدخل مالك على الفطيون في خدره فقتله، وهرب مالك إلى الشام فدخل على أبي جبيلة عبيد بن سالم الخزرجي العظيم عند ملك غسان فعاهد الله ألا يمس طيباً ولا يأتي النساء حتى يذل اليهود ويكون الأوس والخزرج أعز أهلها، فسار في جمع كثير وأظهر أنه يريد اليمن حتى نزل بذي حرض وأرسل إلى وجوه اليهود يستدعيهم ويظهر الإحسان فلما اجتمعوا ببابه أدخلهم رجلاً رجلاً فقتلهم عن آخرهم، فصارت الأوس والخزرج أعز أهل المدينة وشاركوا اليهود في النخل والدور {cite:kamil-ibn-al-athir p. 487-491}."
+  en: "The end of Jewish supremacy at Yathrib: the tyrant al-Fityawn of Banu La'laba claimed every Jewish bride before her husband until Malik ibn al-Ajlan the Khazraji killed him in his chamber at his own sister's wedding; Malik fled to Abu Jubayla — a Khazraji grandee at the Ghassanid court — who swore off perfume and women until the Jews were humbled, marched to Yathrib feigning a Yemen campaign, summoned the Jewish notables and slaughtered them at his door, leaving Aws and Khazraj masters of palm and dwelling {cite:kamil-ibn-al-athir p. 487-491}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0570~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أخبار يثرب قبل الهجرة بجيل أو أكثر." }
+relations:
+  - { type: had_participant, target: person/malik-ibn-al-ajlan, role: "قاتل الفطيون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/abu-jubayla-ubayd-ibn-salim, role: "منتقم يثرب", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — غلبة الأنصار على المدينة، ص487-491"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-23
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

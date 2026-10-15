@@ -1,0 +1,24 @@
+id: event/thaqif-takeover-taif
+class: event
+kind: conquest
+label: { ar: "غلبة ثقيف على الطائف" }
+summary:
+  ar: "استيلاء ثقيف على الطائف؛ كانت أرض الطائف لعدوان بن عمرو بن قيس عيلان فغلبهم عليها بنو عامر بن صعصعة بعد قتال شديد، وكانت مساكن ثقيف حول الطائف فأعجبهم نباتها وطيب ثمرها فقالوا لبني عامر إن هذه الأرض لا تصلح للزرع إنما هي أرض ضرع فادفعوا إلينا بلادكم نثيرها ونغرسها ونكلفها بغير مؤنة عليكم وإذا أدرك الثمر فلكم النصف ولنا النصف بعملنا، فرغب بنو عامر فسلموا إليهم الأرض فزرعت ثقيف الأعناب والثمار ووفوا بالشرط حيناً، ثم لما كثروا وشرفت حصنت بلادها بنوا سوراً على الطائف ومنعوا عامراً نصف الثمار، فأرادت عامر أخذه فلم تقدر فقاتلتهم فلم تظفر {cite:kamil-ibn-al-athir p. 512}."
+  en: "Thaqif's acquisition of Ta'if: the valley had passed from Adwan to Banu Amir ibn Sa'sa'a by the sword; Thaqif, camped around it, persuaded Amir to hand them the land to till and plant at no cost for half the harvest — then, grown strong, walled the town, kept the halves, and Amir could not win it back {cite:kamil-ibn-al-athir p. 512}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أخبار الطائف قبل الإسلام." }
+relations:
+  - { type: had_participant, target: group/thaqif, role: "المستولون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "المغلوبون", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/taif, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — غلبة ثقيف على الطائف، ص512"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-23
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

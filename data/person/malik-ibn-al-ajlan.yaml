@@ -1,0 +1,23 @@
+id: person/malik-ibn-al-ajlan
+class: person
+label: { ar: "مالك بن العجلان" }
+names:
+  - { value: "مالك بن العجلان السالمي الخزرجي", kind: full }
+gender: male
+summary:
+  ar: "مالك بن العجلان السالمي الخزرجي، قاتل الفطيون اليهودي؛ لما زُفت أخته وأخبرته أنها تدخل على الفطيون قبل زوجها دخل عليه فقتله، ثم هرب إلى الشام فألجأ أبا جبيلة الخزرجي إلى قسمه ألا يمس طيباً حتى يذل يهود يثرب، فكان قتله أول غلبة الأنصار على المدينة {cite:kamil-ibn-al-athir p. 487-488}."
+  en: "Malik ibn al-Ajlan al-Khazraji: when his sister confessed she must enter al-Fityawn's chamber before her bridegroom's, he killed the Jewish tyrant and fled to Syria — the act that set Abu Jubayla's purge in motion and ended Jewish supremacy at Yathrib {cite:kamil-ibn-al-athir p. 487-488}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-khazraj, sources: [source/kamil-ibn-al-athir] }
+  - { type: lived_in, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — غلبة الأنصار على المدينة، ص487-488"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-23
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

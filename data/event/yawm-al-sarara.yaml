@@ -1,0 +1,24 @@
+id: event/yawm-al-sarara
+class: event
+kind: battle
+label: { ar: "يوم السرارة" }
+summary:
+  ar: "يوم السرارة، الحرب بين بني عمرو بن عوف وبني أخرث من أهل يثرب قبل الإسلام؛ فيها قال حسان بن ثابت «فدى لبني النجار أمي وخالتي، وصرم من الأحياء عمرو بن مالك»، وفيها محاورته الشعرية مع قيس بن الخطيم ومنها قوله «فإني لأغنى الناس عن متكلف، وذي شيمة عسراء خالف شيمتي، فما المال والأخلاق إلا معارة، متى ما تقد بالباطل الحق يأبه، إذا ما أتيت الأمر من غير بابه» {cite:kamil-ibn-al-athir p. 491-496}."
+  en: "The day of al-Sarara — the war between Yathrib's Banu Amr ibn Awf and Banu al-Akhrath before Islam, sung by Hassan ibn Thabit and answered in verse by Qays ibn al-Khatim {cite:kamil-ibn-al-athir p. 491-496}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0600~", calendar: julian, precision: century, status: tradition, derived: true, note: "من أيام الأوس والخزرج قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/hassan-ibn-thabit, role: "شاعر الوقعة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/qays-ibn-al-khatim, role: "محاور حسان بالشعر", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/medina, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — الحرب بين بني عمرو بن عوف، ص491-496"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-23
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

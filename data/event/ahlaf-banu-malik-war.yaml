@@ -1,0 +1,27 @@
+id: event/ahlaf-banu-malik-war
+class: event
+kind: civil-war
+label: { ar: "الحرب بين الأحلاف وبني مالك" }
+summary:
+  ar: "حرب بطني ثقيف بالطائف: الأحلاف وبنو مالك؛ كان للأحلاف في أخذ الطائف أثر عظيم فاعتدوا به على بني مالك، فلما أثرت الأحلاف وكثرت خيلهم حموا لها حمى جلذان من أرض بني نصر بن معاوية اليربوعيين فغضبت بنو نصر ورئيسهم عفيف بن عوف وقاتلوهم، فاغتنمت بنو مالك ورئيسهم جندب بن عوف ذلك لضغائن قديمة فحالفوا بني يربوع على الأحلاف؛ فكان أول قتال بينهم يوم الطائف فانتصر الأحلاف وأخرجوهم إلى واد يقال له لحب وقتلوهم مقتلة عظيمة بشعب الأبان، واقتتلوا أياماً منها يوم عمر ذي كندة ويوم كروبا وصاح عفيف اليربوعي صيحة يزعمون أن سبعين حبلى ألقت ما في بطنها، وسارت بنو مالك تبتغي الحلف من دوس وخثعم وخرجت الأحلاف إلى المدينة يبتغون حلف الأنصار فقدم مسعود بن معتب على أحيحة بن الجلاح فقال له أحيحة ما خرج رجل من قومه إلى قوم بحلف إلا أقر لهم بشر مما أنف منه من قومه، وقال أخوك الذي تركته وراءك فارجع إليه وصالحه ولو بجدع أنفك وأذنك، فانصرف وزوده بغلام يبني الآطام فبنى لمسعود أطماً فكان أول أطم بني بالطائف، ولم يكن بعد ذلك بينهم حرب تذكر {cite:kamil-ibn-al-athir p. 512-513}."
+  en: "The civil war of Thaqif's two moieties — the Ahlaf and Banu Malik: when the Ahlaf's herds drove them to fence the Jalathan pasture of Banu Nasr, Banu Malik allied with Yarbu' and war rolled through the day of Ta'if, the al-Aban defile massacre, the days of Umr dhi Kinda and Karuba, and Afif ibn Awf's battle-cry said to have made seventy pregnant women miscarry; it ended when the Ansari Uhayha refused Mas'ud ibn Mu'tib a pact — 'your brother is the one you left behind; reconcile with him though it cost your nose' — and gave him instead a slave who built Ta'if's first fortress-tower {cite:kamil-ibn-al-athir p. 512-513}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0570~", calendar: julian, precision: century, status: tradition, derived: true, note: "بعد استيلاء ثقيف على الطائف قبل الإسلام بقليل." }
+relations:
+  - { type: had_participant, target: group/thaqif, note: "بطناها المتقاتلان", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/masud-ibn-mutib, role: "سفير الأحلاف إلى يثرب", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/afif-ibn-awf, role: "رأس بني نصر اليربوعيين", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/jundub-ibn-awf, role: "رئيس بني مالك", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: person/uhayha-ibn-al-julah, role: "الرافض للحلف وصاحب الأطم الأول", sources: [source/kamil-ibn-al-athir] }
+  - { type: occurred_at, target: place/taif, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — الحرب بين الأحلاف وبني مالك، ص512-513"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-23
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

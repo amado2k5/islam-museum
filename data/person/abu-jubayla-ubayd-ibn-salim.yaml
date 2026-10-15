@@ -1,0 +1,23 @@
+id: person/abu-jubayla-ubayd-ibn-salim
+class: person
+label: { ar: "أبو جبيلة" }
+names:
+  - { value: "أبو جبيلة عبيد بن سالم بن مالك الخزرجي", kind: full }
+gender: male
+summary:
+  ar: "أبو جبيلة واسمه عبيد بن سالم بن مالك بن سالم الخزرجي من بني غضب بن جشم، عظيم خزرجي عند ملوك غسان بالشام؛ لما فرّ إليه مالك بن العجلان قاتل الفطيون عاهد الله ألا يمس طيباً ولا يأتي النساء حتى يذل اليهود ويكون الأوس والخزرج أعز أهل يثرب، فسار في جمع وأظهر أنه يريد اليمن فنزل بذي حرض واستدعى وجوه اليهود يظهر لهم الإحسان فأدخلهم رجلاً رجلاً فقتلهم عن آخرهم، فصارت الأوس والخزرج أعز أهل المدينة، ثم رجع إلى الشام {cite:kamil-ibn-al-athir p. 491}."
+  en: "Abu Jubayla — Ubayd ibn Salim, a Khazraji magnate at the Ghassanid court: he swore off perfume and women until Yathrib's Jews were humbled, marched down feigning a Yemen campaign, and at Dhi Hard admitted the Jewish notables one by one and killed them all, handing supremacy to Aws and Khazraj {cite:kamil-ibn-al-athir p. 491}."
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia, levant-iraq]
+relations:
+  - { type: member_of, target: group/al-khazraj, sources: [source/kamil-ibn-al-athir] }
+  - { type: lived_in, target: place/al-sham, sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — غلبة الأنصار على المدينة، ص491"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-23
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
