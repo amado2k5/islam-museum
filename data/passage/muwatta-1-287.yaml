@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.287"
-label: { ar: "الموطأ 1.287", en: "Muwatta 1.287" }
+label: { ar: "الموطأ 287 — مالك: الإمام المسافر يجمّع بقرية تجب فيها الجمعة", en: "Muwatta 287" }
 summary:
-  ar: "مالك: إذا نزل الإمام بقرية تجب فيها الجمعة وهو مسافر فخطب وجمّع بهم؛ فإن أهل تلك القرية يُجزيهم ذلك؛ حكم جمعة المسافر الإمام."
+  ar: "قول لمالك في باب ما جاء في الإمام ينزل بقرية يوم الجمعة في السفر: إذا نزل الإمام، وهو مسافر، بقرية تجب فيها الجمعة فخطب وجمّع بهم، فإن أهل تلك القرية وغيرهم يجمّعون معه. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.163}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 287 of kitab al-salat at PDF p. 163", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-14" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 287 at PDF p. 163; باب ما جاء في الإمام ينزل بقرية يوم الجمعة في السفر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 163; matn excerpt at most 40 words" }

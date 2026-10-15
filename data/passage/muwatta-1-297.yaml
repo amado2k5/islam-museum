@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.297"
-label: { ar: "الموطأ 1.297", en: "Muwatta 1.297" }
+label: { ar: "الموطأ 297 — من ترك الجمعة ثلاث مرات من غير عذر طبع الله على قلبه", en: "Muwatta 297" }
+text: "من ترك الجمعة ثلاث مرات من غير عذر ولا علة طبع الله على قلبه"
 summary:
-  ar: "صفوان بن سليم: من ترك الجمعة ثلاث مرات... ومالك لم يجزم بأنه عن النبي ﷺ؛ الحديث في التحذير من ترك الجمعة."
+  ar: "يرويه مالك عن صفوان بن سليم، وقال مالك إنه لا يدري أعن النبي هو أم لا، في باب القراءة في صلاة الجمعة والاحتباء ومن تركها من غير عذر: من ترك الجمعة ثلاث مرات من غير عذر ولا علة طبع الله على قلبه. وينقل المحقق عن ابن عبد البر أن الحديث يُسند من وجوه عن النبي أحسنها إسناداً حديث أبي الجعد الضمري (التمهيد 16/239)، ويرى أن حديث أبي الجعد حسن كما قال الترمذي، ويخرّجه عند أحمد وأبي داود (1052) والترمذي (500) وابن ماجه (1125) والنسائي وابن خزيمة وابن حبان والحاكم. {cite:muwatta-maruf-1997 p.168} {cite:muwatta-maruf-1997 p.169}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 297 of kitab al-salat at PDF p. 168", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-15" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/safwan-ibn-sulaym, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-jad-al-damri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 297 at PDF p. 168; باب القراءة في صلاة الجمعة والاحتباء ومن تركها من غير عذر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: مالك لم يجزم بنسبة الحديث" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 168; matn excerpt at most 40 words" }

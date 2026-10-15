@@ -1,0 +1,15 @@
+id: passage/muwatta-1-283
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "1.283"
+label: { ar: "الموطأ 283 — مالك فيمن ركع ركعة مع الإمام ثم رعف فخرج", en: "Muwatta 283" }
+summary:
+  ar: "قول لمالك في باب ما جاء فيمن رعف يوم الجمعة: من ركع ركعة مع الإمام يوم الجمعة ثم رعف فخرج فعاد وقد صلى الإمام الركعتين كلتيهما، فإنه يبني بركعة أخرى ما لم يتكلم. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.162}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-01-salat }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 283 at PDF p. 162; باب ما جاء فيمن رعف يوم الجمعة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b12" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 162; matn excerpt at most 40 words" }

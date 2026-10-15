@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.276"
-label: { ar: "الموطأ 1.276", en: "Muwatta 1.276" }
+label: { ar: "الموطأ 276 — ابن عمر يحصب رجلين يتحدثان والإمام يخطب", en: "Muwatta 276" }
 summary:
-  ar: "نافع: رأى ابن عمر رجلين يتحدثان والإمام يخطب يوم الجمعة، فرماهما بالحصى ليسكتهما؛ الحديث في الكلام أثناء الخطبة."
+  ar: "أثر يرويه مالك عن نافع، في باب ما جاء في الإنصات يوم الجمعة والإمام يخطب: رأى عبد الله بن عمر رجلين يتحدثان والإمام يخطب يوم الجمعة فرماهما بالحصباء أن اصمتا. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.161}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 276 of kitab al-salat at PDF p. 161", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-14" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 276 at PDF p. 161; باب ما جاء في الإنصات يوم الجمعة والإمام يخطب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 161; matn excerpt at most 40 words" }

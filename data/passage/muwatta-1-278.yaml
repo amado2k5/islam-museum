@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.278"
-label: { ar: "الموطأ 1.278", en: "Muwatta 1.278" }
+label: { ar: "الموطأ 278 — ابن شهاب: لا بأس بالكلام إذا نزل الإمام قبل أن يكبر", en: "Muwatta 278" }
 summary:
-  ar: "مالك سأل ابن شهاب عن الكلام يوم الجمعة إذا نزل الإمام عن المنبر قبل أن يكبّر؛ والجواب في الكلام قبل الصلاة."
+  ar: "يروي مالك أنه سأل ابن شهاب عن الكلام يوم الجمعة إذا نزل الإمام عن المنبر قبل أن يكبر، فقال ابن شهاب: لا بأس بذلك؛ وهو في باب ما جاء في الإنصات يوم الجمعة والإمام يخطب. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.161}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 278 of kitab al-salat at PDF p. 161", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-14" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 278 at PDF p. 161; باب ما جاء في الإنصات يوم الجمعة والإمام يخطب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 161; matn excerpt at most 40 words" }

@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.300"
-label: { ar: "الموطأ 1.300", en: "Muwatta 1.300" }
+label: { ar: "الموطأ 300 — من قام رمضان إيماناً واحتساباً غفر له ما تقدم من ذنبه", en: "Muwatta 300" }
+text: "من قام رمضان إيماناً واحتساباً غفر له ما تقدم من ذنبه"
 summary:
-  ar: "أبو سلمة بن عبد الرحمن عن أبي هريرة: كان النبي ﷺ إذا نهض للصلاة كبّر؛ الحديث في تكبير الصلاة."
+  ar: "يرويه مالك عن ابن شهاب عن أبي سلمة بن عبد الرحمن عن أبي هريرة، في باب الترغيب في الصلاة في رمضان: كان النبي يرغّب في قيام رمضان من غير أن يأمر به أمر إيجاب فيقول إن من قام رمضان إيماناً واحتساباً غُفر له ما تقدم من ذنبه؛ وقال ابن شهاب: فتوفي النبي والأمر على ذلك، ثم كان الأمر على ذلك في خلافة أبي بكر وصدراً من خلافة عمر. وينقل المحقق عن النووي أن معنى «من غير عزيمة» أنه لم يأمرهم أمر إيجاب بل أمر ندب، ويبين أن الرواة اختلفوا على مالك في إسناده: فرواه يحيى وابن أبي أويس وعبد الرزاق وعثمان بن عمر وغيرهم متصلاً بذكر أبي هريرة، ورواه القعنبي وأبو مصعب وابن وهب وأكثر رواة الموطأ مرسلاً عن أبي سلمة، كما قال ابن عبد البر (التمهيد 7/96)، وأن أصحاب الزهري رووه موصولاً وأن الطرق الموصولة تقوي رواية يحيى. {cite:muwatta-maruf-1997 p.170} {cite:muwatta-maruf-1997 p.171}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 300 of kitab al-salat at PDF p. 170", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-15" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/maghfira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 300 at PDF p. 170; باب الترغيب في الصلاة في رمضان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 170; matn excerpt at most 40 words" }

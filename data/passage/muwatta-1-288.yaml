@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.288"
-label: { ar: "الموطأ 1.288", en: "Muwatta 1.288" }
+label: { ar: "الموطأ 288 — مالك: لا جمعة بقرية لا تجب فيها الجمعة وإن جمّع الإمام", en: "Muwatta 288" }
 summary:
-  ar: "مالك: وإن جمّع الإمام وهو مسافر في قرية لا تجب فيها الجمعة، فلا جمعة له ولا لأهل القرية؛ حكم الجمعة في قرية لا تجب فيها."
+  ar: "قول لمالك في باب ما جاء في الإمام ينزل بقرية يوم الجمعة في السفر: إن جمّع الإمام وهو مسافر بقرية لا تجب فيها الجمعة فلا جمعة له ولا لأهل تلك القرية ولا لمن جمّع معهم من غيرهم، وليتم أهل تلك القرية ومن ليس بمسافر الصلاة. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.163} {cite:muwatta-maruf-1997 p.164}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 288 of kitab al-salat at PDF p. 163", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-14" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 288 at PDF p. 163; باب ما جاء في الإمام ينزل بقرية يوم الجمعة في السفر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 163; matn excerpt at most 40 words" }

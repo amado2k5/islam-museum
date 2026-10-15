@@ -3,11 +3,25 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.291"
-label: { ar: "الموطأ 1.291", en: "Muwatta 1.291" }
+label: { ar: "الموطأ 291 — أبو هريرة وكعب الأحبار وعبد الله بن سلام في ساعة الجمعة", en: "Muwatta 291" }
+text: "خير يوم طلعت عليه الشمس يوم الجمعة، فيه خلق آدم، وفيه أهبط من الجنة، وفيه تيب عليه، وفيه مات، وفيه تقوم الساعة"
 summary:
-  ar: "يزيد بن عبد الله بن الهاد عن محمد بن إبراهيم بن الحارث التيمي عن أبي سلمة: حديث في الجمعة وأحكامها؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن يزيد بن عبد الله بن الهاد عن محمد بن إبراهيم التيمي عن أبي سلمة بن عبد الرحمن عن أبي هريرة، في باب ما جاء في الساعة التي في يوم الجمعة: خرج أبو هريرة إلى الطور فلقي كعب الأحبار فحدثه كعب عن التوراة وحدثه هو عن النبي، ومما حدثه أن خير يوم طلعت عليه الشمس يوم الجمعة، فيه خُلق آدم وأُهبط من الجنة وتيب عليه ومات، وفيه تقوم الساعة، وما من دابة إلا وهي مصيخة يوم الجمعة شفقاً من الساعة إلا الجن والإنس، وفيه ساعة لا يصادفها عبد مسلم وهو يصلي يسأل الله شيئاً إلا أعطاه. فقال كعب: ذلك في كل سنة يوم، فقال أبو هريرة: بل في كل جمعة، فقرأ كعب التوراة وصدّق. ثم لقي أبو هريرة بصرة بن أبي بصرة الغفاري فأخبره أنه سمع النبي ينهى أن تُشد الرحال إلا إلى المسجد الحرام ومسجده ومسجد إيلياء أو بيت المقدس. ثم لقي عبد الله بن سلام فحدثه، فقال ابن سلام إن كعباً أخطأ أولاً ثم أصاب، وأخبره أن تلك الساعة آخر ساعة في يوم الجمعة، فلما استشكل أبو هريرة أنها ليست ساعة صلاة ذكّره ابن سلام بحديث أن من جلس ينتظر الصلاة فهو في صلاة. ويخرّجه المحقق عند أبي داود (1046) والترمذي (491) والحاكم وأحمد والشافعي والبيهقي من طرق أصحاب مالك، وينقل عن ابن عبد البر أنه لا يعلم أحداً ساقه أحسن من مالك عن ابن الهاد، إلا قوله «بصرة بن أبي بصرة» الذي لم يتابعه عليه أحد والمعروف «أبو بصرة الغفاري»، ويظن الوهم من مالك أو من ابن الهاد (التمهيد 23/37–38)؛ ويفسر «كذب كعب» بلغة أهل الحجاز بمعنى أخطأ. {cite:muwatta-maruf-1997 p.165} {cite:muwatta-maruf-1997 p.166}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 291 of kitab al-salat at PDF p. 165", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-14" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/kab-al-ahbar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-salam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-basra-al-ghifari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yazid-ibn-abdallah-ibn-al-had, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-ibrahim-al-taymi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/jabal-al-tur, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/masjid-al-haram, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/al-aqsa-mosque, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 291 at PDF p. 165; باب ما جاء في الساعة التي في يوم الجمعة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 165; matn excerpt at most 40 words" }

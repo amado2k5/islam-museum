@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.299"
-label: { ar: "الموطأ 1.299", en: "Muwatta 1.299" }
+label: { ar: "الموطأ 299 — صلى بالناس ليالي في رمضان ثم امتنع خشية أن تفرض", en: "Muwatta 299" }
+text: "قد رأيت الذي صنعتم، ولم يمنعني من الخروج إليكم إلا أني خشيت أن تفرض عليكم"
 summary:
-  ar: "عروة بن الزبير عن عائشة: صلى النبي ﷺ من الليل؛ الحديث في صفة صلاة الليل."
+  ar: "أول حديث في باب الترغيب في الصلاة في رمضان. يرويه يحيى عن مالك عن ابن شهاب عن عروة بن الزبير عن عائشة: صلى النبي في المسجد ذات ليلة فصلى بصلاته ناس، ثم صلى الليلة التالية فكثر الناس، ثم اجتمعوا الليلة الثالثة أو الرابعة فلم يخرج إليهم، فلما أصبح أخبرهم أنه رأى ما صنعوا وأنه لم يمنعه من الخروج إلا خشية أن تُفرض عليهم، وذلك في رمضان. ويخرّجه المحقق عند البخاري (1129، 2011) ومسلم (2/177) وأبي داود (1373) والنسائي (2/202) وابن حبان وأحمد من طرق أصحاب مالك، ويحيل على التمهيد (8/108). {cite:muwatta-maruf-1997 p.169} {cite:muwatta-maruf-1997 p.170}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 299 of kitab al-salat at PDF p. 169", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-15" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 299 at PDF p. 169; باب الترغيب في الصلاة في رمضان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 169; matn excerpt at most 40 words" }
