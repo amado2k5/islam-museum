@@ -11,7 +11,8 @@ regions: [levant-iraq, arabia, maghreb, east-africa]
 themes: [sects-and-schools, creed]
 relations:
   - { type: split_from, target: group/khawarij, sources: [source/duha-islam] }
-sources: [source/duha-islam]
+  - { type: related_to, target: place/dawan, note: "دوعن بحضرموت دار إمامتهم في القرن الرابع عند الهمداني.", sources: [source/sifat-jazirat-al-arab] }
+sources: [source/duha-islam, source/sifat-jazirat-al-arab]
 provenance:
   layer: own-research
   source: "ضحى الإسلام لأحمد أمين ص 948-956"
