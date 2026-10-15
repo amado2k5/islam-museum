@@ -1,0 +1,24 @@
+id: person/ibn-tufayl
+class: person
+label: { ar: "ابن الطفيل" }
+names:
+  - { value: "أبو بكر محمد بن عبد الملك بن الطفيل", kind: full }
+gender: male
+summary:
+  ar: "أبو بكر محمد بن عبد الملك بن الطفيل، فيلسوف أندلسي، من كتبه رسالة «حي بن يقظان» المطبوعة و«أسرار الحكمة المشرقية» المطبوعة، توفي سنة 581هـ الموافق 1185م {cite:al-aalam p. 937}."
+  en: "Abu Bakr Muhammad ibn Abd al-Malik ibn Tufayl, the Andalusi philosopher and author of the printed treatise Hayy ibn Yaqzan and Asrar al-hikma al-mashriqiyya; he died in 1185 {cite:al-aalam p. 937}."
+roles: [philosopher]
+wings: [people, ideas]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+died: { edtf: "1185", hijri: "0581~", calendar: gregorian, precision: year, status: tradition, derived: true, note: "توفي سنة 1185م {cite:al-aalam p. 937}", sources: [source/al-aalam] }
+relations:
+  - { type: authored, target: work/hayy-ibn-yaqzan, sources: [source/al-aalam] }
+sources: [source/al-aalam]
+provenance:
+  layer: own-research
+  source: "الأعلام لخير الدين الزركلي (ط2) — باب محمد، ص937"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-alam-zirikli-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); extracted from al-Zirikli al-A'lam via Apple Vision OCR" }

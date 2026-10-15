@@ -1,0 +1,26 @@
+id: person/ibn-zuhr-al-hafid
+class: person
+label: { ar: "ابن زهر الحفيد" }
+names:
+  - { value: "أبو بكر محمد بن عبد الملك بن زهر الإيادي", kind: full }
+gender: male
+summary:
+  ar: "أبو بكر محمد بن عبد الملك بن زهر الإيادي، من نوابغ الطب والأدب في الأندلس؛ ولد بإشبيلية وخدم دولتي الملثمين والموحدين، ولم يكن في زمنه أعلم منه بصناعة الطب وقد أخذها عن أبيه وعُرف بالحفيد ابن زهر، له «الترياق» في الطب وشعر رقيق وموشحات أجاد نظمها في عصره، توفي بمراكش {cite:al-aalam p. 937}."
+  en: "Abu Bakr Muhammad ibn Abd al-Malik ibn Zuhr of Seville, among the foremost physicians and men of letters in al-Andalus; he served the Almoravid and Almohad states and had no equal in medicine in his day, having learnt it from his father — hence 'Ibn Zuhr the grandson'; he died at Marrakesh {cite:al-aalam p. 937}."
+roles: [physician]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+relations:
+  - { type: born_in, target: place/seville, sources: [source/al-aalam] }
+  - { type: died_in, target: place/marrakesh, sources: [source/al-aalam] }
+  - { type: related_to, target: polity/almoravid-dynasty, note: "خدم دولتهم", sources: [source/al-aalam] }
+  - { type: related_to, target: polity/almohad-caliphate, note: "خدم دولتهم", sources: [source/al-aalam] }
+sources: [source/al-aalam]
+provenance:
+  layer: own-research
+  source: "الأعلام لخير الدين الزركلي (ط2) — باب محمد، ص937"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-alam-zirikli-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); extracted from al-Zirikli al-A'lam via Apple Vision OCR" }

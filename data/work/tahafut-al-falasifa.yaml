@@ -1,0 +1,20 @@
+id: work/tahafut-al-falasifa
+class: work
+kind: book
+label: { ar: "تهافت الفلاسفة" }
+summary:
+  ar: "كتاب أبي حامد الغزالي المطبوع في نقد مذاهب الفلاسفة، من كتبه المذكورة مع الإحياء والاقتصاد في الاعتقاد ومقاصد الفلاسفة والمنقذ من الضلال {cite:al-aalam p. 970}. ردّ عليه ابن رشد بعد نحو قرن بكتاب «تهافت التهافت» {cite:al-aalam p. 849}."
+  en: "Al-Ghazali's printed critique of the philosophers, listed among his works with the Ihya', Iqtisad, Maqasid and Munqidh {cite:al-aalam p. 970}; Ibn Rushd answered it a century later with Tahafut al-tahafut {cite:al-aalam p. 849}."
+wings: [words, ideas]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+relations:
+  - { type: critic_of, target: concept/falsafa, sources: [source/al-aalam] }
+sources: [source/al-aalam]
+provenance:
+  layer: own-research
+  source: "الأعلام لخير الدين الزركلي (ط2) — باب محمد، ص970"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-alam-zirikli-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
