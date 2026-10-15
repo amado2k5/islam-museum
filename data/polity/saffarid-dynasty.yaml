@@ -1,0 +1,47 @@
+id: polity/saffarid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: الدولة الصفارية
+  en: Saffarid dynasty
+summary:
+  ar: "دولة بني الصفار ملوك سجستان؛ نشأت من جماعة المتطوعة الذين اجتمعوا بنواحي سجستان لقتال الخوارج الشراة عند اضطراب الدولة ببغداد لقتل المتوكل، وكان اجتماعهم على صالح بن نصر الكناني، ثم قادها يعقوب بن الليث الصفار فملك هراة وكرمان وفارس وخراسان وأذعن له الخلفاء بالولايات، وتوفي سنة 265هـ فخلفه أخوه عمرو حتى أسره إسماعيل الساماني ببلخ، فانقرضت دولتهم الكبرى."
+  en: "The Saffarid state, kings of Sistan; it arose from the mutatawwi'a volunteers who gathered in Sistan to fight the Kharijite Shurat as the Baghdad state faltered after al-Mutawakkil's killing, first rallying to Salih ibn Nasr al-Kinani, then led by Ya'qub ibn al-Layth al-Saffar who mastered Herat, Kirman, Fars and Khurasan with caliphal investiture — he died in 265 AH and his brother Amr succeeded until Isma'il al-Samani captured him at Balkh, ending their great state."
+wings: [time, place]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+start:
+  edtf: "0861~"
+  calendar: julian
+  precision: decade
+  status: tradition
+  note: نشأة المتطوعة بسجستان إثر اضطراب الدولة لقتل المتوكل (247هـ) وغلبتهم عليها؛ سنة تقريبية.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+end:
+  edtf: "0900"
+  hijri: "0287"
+  calendar: julian
+  precision: year
+  status: debated
+  derived: true
+  note: أسر عمرو بن الليث ببلخ على يد إسماعيل الساماني؛ السنة تابعة لمصدر ثانٍ — تحتاج توثيقاً من هذا المصدر.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: founded_by
+  target: person/yaqub-ibn-layth
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة بني الصفار ملوك سجستان، ص1108-1112 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
