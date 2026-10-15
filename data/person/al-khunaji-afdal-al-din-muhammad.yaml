@@ -1,0 +1,25 @@
+id: person/al-khunaji-afdal-al-din-muhammad
+class: person
+label: { ar: "الخونجي أفضل الدين محمد", en: "al-Khunaji Afdal al-Din Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "أفضل الدين أبو الفضائل أبو عبد الله محمد بن ناماور بن عبد الملك الخونجي" }
+  - { kind: kunya, lang: ar, value: "أبو الفضائل" }
+  - { kind: laqab, lang: ar, value: "أفضل الدين" }
+  - { kind: nisba, lang: ar, value: "الخونجي" }
+gender: male
+roles: [philosopher, physician]
+traditions: [sunni]
+born: { edtf: "1194", hijri: "0590", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1248", hijri: "0646", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم بالطب والحكمة والمنطق، من أصل فارسي، ولد سنة 590هـ (1194م) وتوفي سنة 646هـ (1248م)."
+  en: "Scholar of medicine, philosophy and logic of Persian origin; born 590 AH (1194 CE) and died 646 AH (1248 CE)."
+wings: [people, ideas]
+themes: [philosophy-and-logic, medicine]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 597-598, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص597", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
