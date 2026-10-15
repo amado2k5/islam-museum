@@ -1,0 +1,29 @@
+id: polity/marwanid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: الدولة المروانية الكردية
+  en: Marwanid dynasty (Kurdish)
+summary:
+  ar: "دولة بني مروان الأكراد بديار بكر بعد بني حمدان — وليست من العرب كما يبين ابن خلدون؛ أسسها باد الكردي الحسين بن دوشك الذي تغلب على آمد وديار بكر، ثم قام من بعده أبو علي بن مروان ابن أخته الذي استولى على حصن كيفا وضبط ديار بكر، وامتد ملك أبنائه حتى انقرض أمرهم مع قيام دول السلاجقة."
+  en: "The Kurdish Marwanid state of Diyar Bakr after the Hamdanids — not Arab, as Ibn Khaldun notes; founded by Bad al-Kurdi Husayn ibn Dushik who seized Amid and Diyar Bakr, then carried on by his nephew Abu Ali ibn Marwan who took the Kayfa stronghold and secured Diyar Bakr, his descendants' rule lasting until the Seljuk states arose."
+wings: [time, place]
+periods: [period/buyid-seljuk-fatimid-era, period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, anatolia-balkans]
+relations:
+- type: founded_by
+  target: person/bad-al-kurdi
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن دولة بني مروان بديار بكر بعد بني حمدان، ص1104 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

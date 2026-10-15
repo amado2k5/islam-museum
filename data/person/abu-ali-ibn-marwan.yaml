@@ -1,0 +1,35 @@
+id: person/abu-ali-ibn-marwan
+class: person
+label:
+  ar: أبو علي بن مروان الكردي
+  en: Abu Ali ibn Marwan al-Kurdi
+summary:
+  ar: "أبو علي بن مروان بن دوشك، ابن أخت باد الكردي؛ نجا من معركة قتل فيها خاله ولحق بحصن كيفا فتحيل في دخوله بأن خاله أرسله واستولى عليه وتزوج امرأته، ثم سار في ديار بكر فملك ما كان لخاله وهزم ابني ناصر الدولة مرتين، وأخذ ميافارقين من شيخها أبو الأصغر فألقاه من السور سنة 380هـ، وتزوج بنت سعد الدولة بن حمدان، وقُتل بمكيدة وخلفه أخوه أبو منصور."
+  en: "Abu Ali ibn Marwan ibn Dushk, nephew of Bad al-Kurdi; surviving the battle that killed his uncle he slipped into the Kayfa stronghold claiming his uncle had sent him, seized it and married his uncle's wife, then mastered Diyar Bakr and twice defeated Nasir al-Dawla's sons, taking Mayyafariqin from its shaykh Abu al-Asghar whom he flung from the wall in 380 AH; he married Sa'd al-Dawla ibn Hamdan's daughter, was killed by guile, and his brother Abu Mansur succeeded."
+gender: male
+roles: [ruler]
+traditions: [sunni]
+relations:
+- type: ruler_of
+  target: polity/marwanid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/bad-al-kurdi
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq, anatolia-balkans]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مقتل أبي علي بن مروان وولاية أخيه أبي منصور، ص1104-1105 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

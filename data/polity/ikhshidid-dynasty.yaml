@@ -1,0 +1,39 @@
+id: polity/ikhshidid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: الدولة الإخشيدية
+  en: Ikhshidid dynasty
+summary:
+  ar: "دولة بني طغج الإخشيدية بمصر والشام؛ أسسها محمد بن طغج الإخشيد وخلفه ابناه وأستاذهما كافور الإخشيدي حتى انقرضت بدخول جوهر الصقلي مصر سنة 358هـ وتحول الدعوة فيها للعلوية واختطاطه مدينة القاهرة."
+  en: "The Ikhshidid state of Banu Tughj in Egypt and Syria, founded by Muhammad ibn Tughj al-Ikhshid, held after him by his sons and their master Kafur al-Ikhshidi until it ended with Jawhar al-Siqilli's entry into Egypt in 358 AH, the da'wa turning Alid and his founding of Cairo."
+wings: [time, place]
+periods: [period/abbasid-fragmentation, period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile, levant-iraq]
+end:
+  edtf: "0969"
+  hijri: "0358"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: دخول جوهر مصر سنة 358هـ وانقراض دولة بني طغج؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: founded_by
+  target: person/muhammad-ibn-tughj-al-ikhshid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مسير جوهر إلى مصر وانقراض دولة بني طغج، ص1103-1104 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
