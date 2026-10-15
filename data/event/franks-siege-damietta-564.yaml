@@ -1,0 +1,32 @@
+id: event/franks-siege-damietta-564
+class: event
+kind: siege
+label: { ar: "حصر الفرنج دمياط سنة ٥٦٤", en: "The Frankish siege of Damietta (564 AH)" }
+summary:
+  ar: "في صفر سنة أربع وستين وخمسمائة نزل الفرنج على دمياط وحصروها، بعد أن كاتب فرنج الشام إخوانهم بصقلية والأندلس يستمدونهم خوفاً من ملك الأتراك مصر على البيت المقدس، فأمدوهم بالأموال والرجال والسلاح؛ فأمدهم صلاح الدين عبر النيل بالعساكر والأموال والذخائر، وشكا إلى نور الدين مخافته أن يخلفه المصريون بالشر إن سار، فسير نور الدين العساكر أرسالاً وسار بنفسه إلى بلاد الفرنج الشامية فنهبها واستباحها حتى بلغت الغارات ما لم تبلغه من قبل؛ فرجع الفرنج عن دمياط خائبين بعد مقام خمسين يوماً وقد وجدوا بلادهم خراباً، فضرب فيهم المثل «خرجت النعامة تطلب قرنين فرجعت بلا أذنين»؛ وحكى صلاح الدين أن العاضد أرسل إليه لمقام الفرنج على دمياط ألف ألف دينار مصرية سوى الثياب {cite:kamil-ibn-al-athir p. 21-22}."
+  en: "Safar 564 (Oct–Dec 1169): Frankish Syria, reinforced by fleets answering appeals to Sicily and al-Andalus, besieged Damietta fifty days; Saladin fed it men and money down the Nile while Nur al-Din loosed his raiders deep into the emptied Frankish lands — the besiegers withdrew to find their own country wasted, in Ibn al-Athir's proverb the ostrich that went out seeking horns and came back without ears {cite:kamil-ibn-al-athir p. 21-22}."
+date:
+  start: { hijri: "0564-02", edtf: "1169-10~", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 564هـ ومقامهم خمسون يوماً؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 21-22}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/salah-al-din-yusuf-ibn-ayyub
+  role: "أمد المحاصَرين في النيل بالعساكر والأموال"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/nur-al-din-mahmud-ibn-zangi
+  role: "أغار على بلاد الفرنج الشامية حتى اضطروا للعودة"
+  sources: [source/kamil-ibn-al-athir]
+- type: occurred_at
+  target: place/dimyat
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+themes: [crusades]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 21-22"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-07
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,36 @@
+id: event/waqat-al-sudan-cairo-564
+class: event
+kind: battle
+label: { ar: "وقعة السودان بين القصرين", en: "The battle of the Sudan between the two palaces" }
+summary:
+  ar: "في أوائل ذي القعدة سنة أربع وستين وخمسمائة قُتل مؤتمن الخلافة، خصي قصر العاضد الفاطمي والمتحكم فيه، بعد افتضاح مكاتبته الفرنج لاستدعائهم إلى مصر؛ فعزل صلاح الدين خدم القصر واستعمل عليهم بهاء الدين قراقوش. فغضب السودان لقتله للجنسية وكان يتعصب لهم، فحشدوا حتى زادت عدتهم على خمسين ألفاً وقصدوا حرب الأجناد الصلاحية، فاقتتلوا بين القصرين وكثر القتل في الفريقين، فأرسل صلاح الدين من أحرق محلتهم المعروفة بالمنصورة على أموالهم وأولادهم، فانهزموا وركبهم السيف وأخذت عليهم أفواه السكك، فطلبوا الأمان وأخرجوا من مصر إلا من لجأ إلى الجيزة، فعبر إليهم شمس الدولة أخو صلاح الدين في طائفة من العسكر فأبادهم بالسيف إلا القليل الشريد {cite:kamil-ibn-al-athir p. 18-19}."
+  en: "Dhu al-Qa'da 564 (1169): after Saladin executed Mu'tamin al-Khilafa — the Fatimid palace eunuch caught corresponding with the Franks — and set Baha al-Din Qaraqush over the palace, the Sudanese troops of Cairo, over fifty thousand strong out of solidarity, rose against the Salahiyya regiments and fought them between the two palaces; Saladin had their Mansura quarter burned over their families, they broke, took safe-conduct out of Egypt, and Turanshah destroyed the remnant at Giza — the end of the Fatimid army {cite:kamil-ibn-al-athir p. 18-19}."
+date:
+  start: { hijri: "0564-11-01~", edtf: "1169-08~", calendar: julian, precision: month, status: tradition, derived: true, note: "أوائل ذي القعدة 564هـ؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 18}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/salah-al-din-yusuf-ibn-ayyub
+  role: "أمده قتالهم بين القصرين وأحرق محلة المنصورة"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/turanshah
+  role: "أخو صلاح الدين الأكبر؛ أباد من لجأ منهم إلى الجيزة"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/mutamin-al-khilafa
+  role: "سبب الحركة؛ قتلته العساكر الصلاحية قبلها بأيام"
+  sources: [source/kamil-ibn-al-athir]
+- type: occurred_at
+  target: place/cairo
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+themes: [crusades]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 18-19"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-07
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
