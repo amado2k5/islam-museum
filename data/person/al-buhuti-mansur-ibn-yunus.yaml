@@ -1,0 +1,24 @@
+id: person/al-buhuti-mansur-ibn-yunus
+class: person
+label: { ar: "البهوتي منصور بن يونس", en: "al-Buhuti Mansur ibn Yunus" }
+names:
+  - { kind: full, lang: ar, value: "منصور بن يونس بن صلاح الدين البهوتي الحنبلي" }
+  - { kind: nisba, lang: ar, value: "البهوتي" }
+  - { kind: nisba, lang: ar, value: "الحنبلي" }
+gender: male
+roles: [jurist, scholar]
+traditions: [sunni]
+born: { edtf: "1591", hijri: "1000", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1641", hijri: "1051", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه حنبلي، كان شيخ الحنابلة بمصر في عصره، نُسب إلى بُهوت في غربية مصر، وصنّف الكثير في الفقه الحنبلي وجمع إلى ذلك التفسير والأصول والفرائض."
+  en: "Hanbali jurist, shaykh of the Hanbalis in Egypt in his time, named after Buhut in the Gharbiyya province; wrote extensively on Hanbali law and also on exegesis, legal theory and inheritance; born 1000 AH (1591 CE), died 1051 AH (1641 CE)."
+wings: [people, words]
+themes: [development-of-law-theology-institutions, scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 164-165, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص164", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

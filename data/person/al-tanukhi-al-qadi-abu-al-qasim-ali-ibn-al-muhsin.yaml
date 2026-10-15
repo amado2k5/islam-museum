@@ -1,0 +1,24 @@
+id: person/al-tanukhi-al-qadi-abu-al-qasim-ali-ibn-al-muhsin
+class: person
+label: { ar: "التنوخي القاضي أبو القاسم علي بن المحسن", en: "al-Tanukhi al-Qadi Abu al-Qasim Ali ibn al-Muhsin" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم علي بن المحسن التنوخي" }
+  - { kind: kunya, lang: ar, value: "أبو القاسم" }
+  - { kind: nisba, lang: ar, value: "التنوخي" }
+gender: male
+roles: [jurist]
+traditions: [sunni]
+born: { edtf: "0975", hijri: "0365", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1081", hijri: "0474", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "القاضي أبو القاسم علي بن المحسن التنوخي، صحب أبا العلاء المعري وأخذ عنه كثيراً، وتوفي سنة 474هـ (1081م)."
+  en: "Judge Abu al-Qasim Ali ibn al-Muhsin al-Tanukhi, companion and pupil of Abu al-Ala al-Ma'arri; died 474 AH (1081 CE)."
+wings: [people, words]
+themes: [literature, development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 668-669, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص668", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
