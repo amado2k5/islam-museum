@@ -1,0 +1,29 @@
+id: event/mangli-fall-612
+class: event
+kind: battle
+label: { ar: "قتل منكلي صاحب بلاد الجبل", en: "The fall and death of Mangli (612 AH)" }
+summary:
+  ar: "في جمادى الأولى سنة اثنتي عشرة وستمائة انهزم منكلي صاحب همذان وأصفهان والري وما بينها وقتل هارباً؛ كان قد ملك البلاد وقتل أيتغمش، فأنكر الديوان الخلفي ذلك عليه وحرض الخليفة صاحبه الأمير أوزبك بن البهلوان صاحب أذربيجان على قتاله وجلال الدين الإسماعيلي صاحب القلاع على مساعدته مقسمين البلاد بينهم، وجهز الخليفة عسكراً مقدمهم مملوكه مظفر الدين سنقر الملقب بوجه السبع وأمر مظفر الدين كوكبري صاحب إربل أن يكون مقدم العساكر جميعها فحضر ومعه عسكر الموصل وديار الجزيرة وحلب؛ تعلق منكلي بالجبال وضاقت الميرة على عسكر الخليفة حتى لم يمكنهم المقام أكثر من عشرة أيام لكنه طمع فنزل بعسكره فحمل على أوزبك فانهزم، فطمع أكثر ونزل من الغد في جميع عسكره فاقتتلوا أشد قتال فانهزم منكلي ومضى هارباً فقتل، وولي أغلمش ما كان بيده من الممالك {cite:kamil-ibn-al-athir p. 364-365}."
+  en: "Jumada I 612: Mangli — master of Hamadan, Isfahan and Rayy — fell to the coalition al-Nasir built around his killer's ambition: Uzbek of Azerbaijan, the Ismaili Jalal al-Din of the castles, and the grand army under Kukburi of Irbil with Mosul, Jazira and Aleppo contingents. Trapped in the mountains he had the caliphal army near starvation — then gambled on a downhill charge, won the first day over Uzbek, lost the second, fled and was killed; his mamluk Aghlamish inherited the kingdoms {cite:kamil-ibn-al-athir p. 364-365}."
+date:
+  start: { hijri: "0612-05", edtf: "1215-09", calendar: julian, precision: month, status: tradition, note: "جمادى الأولى ٦١٢هـ {cite:kamil-ibn-al-athir p. 364-365}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/mangli
+  role: "صاحب بلاد الجبل المنهزم المقتول"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/muzaffar-al-din-kokburi
+  role: "مقدم العساكر جميعها"
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+themes: [wars-and-campaigns]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 364-365"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-15
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
