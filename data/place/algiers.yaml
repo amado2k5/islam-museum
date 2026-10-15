@@ -2,12 +2,13 @@ id: place/algiers
 class: place
 kind: city
 label: { ar: "الجزائر", en: "Algiers" }
+aliases: [place/al-jazair]
 summary:
-  ar: "مدينة الجزائر، مر بها ابن بطوطة في طريقه من المغرب إلى المشرق.، وعند ابن خلدون اختطها بلكين بن زيري بن مناد الصنهاجي بأمر أبيه وعلى عهده وهي المنسوبة لبني مزغنة بساحل البحر في أيام العبيديين بالقيروان {cite:tarikh-ibn-khaldun-ibar p. 1630}"
+  ar: "مدينة الجزائر، مر بها ابن بطوطة في طريقه من المغرب إلى المشرق.، وعند ابن خلدون اختطها بلكين بن زيري بن مناد الصنهاجي بأمر أبيه وعلى عهده وهي المنسوبة لبني مزغنة بساحل البحر في أيام العبيديين بالقيروان {cite:tarikh-ibn-khaldun-ibar p. 1630}، وهي عاصمة الجهاد البحري في شمال أفريقية في القرن السادس عشر؛ دخلها الأخوان عروج وخير الدين بربروسة وحكماها، ومنها انضمّ خير الدين إلى الدولة العثمانية بعد أن قوّى استحكاماتها {cite:dawlat-uthmaniyya-salabi p. 207-216}"
 regions: [maghreb]
 wings: [place]
 coordinates: [36.73225, 3.08746]
 coordinate_precision: locality
 external_ids: { geonames: "2507480" }
-sources: [source/tarikh-ibn-khaldun-ibar, source/geonames-gazetteer, source/rihla-ibn-battuta-1958]
+sources: [source/tarikh-ibn-khaldun-ibar, source/geonames-gazetteer, source/rihla-ibn-battuta-1958, source/dawlat-uthmaniyya-salabi]
 status: { review: draft, completeness: 1, generated_by: "Claude Code; coordinates from GeoNames (modern settlement of the same name); identification with the classical place to be checked" }

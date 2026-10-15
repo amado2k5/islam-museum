@@ -1,0 +1,24 @@
+id: person/khayr-al-din-barbarossa
+class: person
+label: { ar: "خير الدين بربروسة" }
+names:
+  - { kind: full, lang: ar, value: "خير الدين بن يعقوب بن يوسف التركي" }
+gender: male
+roles: [military, ruler]
+died: { edtf: "1546~", hijri: "0953", calendar: julian, precision: year, status: tradition, note: "توفي في استانبول؛ التاريخ مشتق." }
+summary:
+  ar: "ابن يعقوب بن يوسف من بقايا الفاتحين المسلمين الأتراك المستقرين في جزيرة مدللي، وأمه سيدة مسلمة أندلسية. اتجه مع أخيه عروج إلى الجهاد البحري منذ الصغر في بحر الأرخبيل نحو سنة ١٥١٠م، ثم استقطبتهما ضراوة الصراع في شمال أفريقية، فنقلا نشاطهما إليها ومنحهما السلطان الحفصي حق الاستقرار في جزيرة جربة، وحاولا تحرير بجاية سنة ١٥١٢م ودخلا جيجل وقتلا حماتها سنة ١٥١٤م. وبعد مقتل عروج سنة ١٥١٨م استمر خير الدين في حكم الجزائر. وفي ٩٤٠هـ/١٥٣٣م استدعاه السلطان سليمان القانوني بخطاب بعثه مع سنان جاوش، فوضع الخطاب فوق رأسه ونصب ديواناً عظيماً أحضر فيه العلماء والمشايخ والأعيان وقرأ عليهم أمر السلطان، وواجه بفتنة أشاعها أندريا دوريا بين الأسرى الإسبان ثم قوّى استحكامات الجزائر، وأبحر بأربع وأربعين سفينة فهزم في طريقه فرقة من أسطول آل هابسبورج قرب المورة حتى وصل استانبول حيث مثل بين يدي السلطان فخلع عليه وعلى خواص أصحابه وفوّض إليه النظر في دار الصناعة ومنحه لقب قبودان باشا وزيراً للبحرية، وأُلبس خلعة الوزارة في حلب بحضور الصدر الأعظم. ثم خرج بالأسطول العثماني الجديد من الدردنيل إلى سواحل إيطاليا الجنوبية وصقلية واسترجع كورون وليبانتو. وكان قد كتب إلى السلطان قبل استدعائه: إن هدفي إذا قُدّر لي شرف الاشتراك هو طرد الإسبان في أقصر وقت من أفريقية، ومن الممكن أن تسمع بعد ذلك أن المغاربة قد أغاروا على الإسبان من جديد ليستعيدوا مملكة قرطاجة وأن تونس قد أصبحت تحت سلطانك، وإنني لا أبغي من وراء ذلك أن أحول بينك وبين توجيه قواتك ناحية المشرق {cite:dawlat-uthmaniyya-salabi p. 207-218}."
+  en: "Khayr al-Din Barbarossa (d. 1546) — son of a Turkish settler of Lesbos and an Andalusi mother; corsair-amir of Algiers who, summoned by Sulayman in 1533, laid the sultan's letter on his head before the assembled ulema, sailed east with 44 ships, and returned as Kapudan Pasha commanding the rebuilt Ottoman fleet {cite:dawlat-uthmaniyya-salabi p. 207-218}."
+wings: [people, time]
+periods: [period/gunpowder-empires]
+regions: [maghreb, anatolia-balkans]
+relations:
+  - { type: sibling_of, target: person/uruj-barbarossa, sources: [source/dawlat-uthmaniyya-salabi] }
+  - { type: ruler_of, target: place/algiers, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 207-218"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-3
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,21 @@
+id: event/conquest-of-cyprus-979
+class: event
+kind: conquest
+label: { ar: "الفتح العثماني لقبرص" }
+summary:
+  ar: "نزل العثمانيون قبرص بقوة كاسحة ونفذوا إلى الجزيرة دون صعوبة، ووقفت مدينة فاماغوستا الحصينة أمامهم بقيادة باغليون وبراغادينو، ووصلت القوة العثمانية مئة ألف مقاتل استعملوا جميع وسائل الحصار المعروفة من فركر وزرع للألغام ولم ينتج أي تأثير على الحامية، ولو وصلت قوة مسيحية للنجدة لصار العثمانيون في خطر، إلا أن المجاعة قامت بعملها واستسلمت المدينة في ربيع الثاني ٩٧٩هـ/أغسطس ١٥٧١م. ونقلت الدولة العثمانية بعد الفتح عدداً كبيراً من سكان الأناضول لا يزال أحفادهم مقيمين في الجزيرة، ورحّب القبارصة الأرثوذكس بالحكم العثماني الذي أنقذهم من الاضطهاد الكاثوليكي الذي مارسته البندقية لعدة قرون {cite:dawlat-uthmaniyya-salabi p. 279-280}."
+  en: "The Ottoman conquest of Cyprus, 1570–71 — a hundred thousand men reduced Famagusta by famine after every siege engine failed; the island surrendered Rabi' II 979/August 1571, Anatolian settlers followed, and the Orthodox welcomed the end of Venetian Catholic persecution {cite:dawlat-uthmaniyya-salabi p. 279-280}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1571-08~", hijri: "0979-04", calendar: julian, precision: month, status: tradition, derived: true, note: "استسلام فاماغوستا ربيع الثاني ٩٧٩هـ/أغسطس ١٥٧١م {cite:dawlat-uthmaniyya-salabi p. 279}." }
+relations:
+  - { type: occurred_at, target: place/qubrus }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 279-280"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-3
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
