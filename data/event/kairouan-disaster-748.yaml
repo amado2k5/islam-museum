@@ -1,0 +1,35 @@
+id: event/kairouan-disaster-748
+class: event
+kind: battle
+label:
+  ar: واقعة القيروان
+  en: The Kairouan disaster
+summary:
+  ar: "أعظم وقائع دولة بني مرين: ثارت عرب إفريقية من أولاد مهلهل والكعوب وبني سليم على عساكر السلطان أبي الحسن المريني ونصبوا على رأسهم أحمد بن حمزة العائد من الإسكندرية، فزحف إليهم السلطان من تونس أيام الحج سنة 748هـ ولقيهم بالثنية دون القيروان فغلبهم، ثم تدامروا وانتقضوا عليه فأحاطوا به في القيروان واختل مصافه ودخلوها وانتهبوا معسكره، وخلص هو إلى سوسة وركب منها في أساطيله إلى تونس، وقد أجلب العرب وابن أبي دبوس معهم على الحضرة ونازلوها، حتى رحل السلطان عن إفريقية راجعاً إلى المغرب إذ وثب ابنه أبو عنان على الملك في غيبته."
+  en: "The greatest battle of the Marinid era: the Arabs of Ifriqiya — sons of Mihhal, the Ka'ub and Banu Sulaym — rose against Abu al-Hasan's army and set over themselves Ahmad ibn Hamza back from Alexandria; the sultan marched in the hajj days of 748 and routed them at the defile below Kairouan, but they regathered, turned and hemmed him in the city, broke his ranks and plundered his camp, while he escaped to Susa and sailed for Tunis as the Arabs with Ibn Abi Dabbus laid siege to the capital — until he abandoned Ifriqiya for the Maghreb, his son Abu Inan having seized the throne in his absence."
+wings: [time, people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+date:
+  start: { edtf: "1348", hijri: "0748-12", calendar: julian, precision: month, status: tradition, derived: true, note: "أيام الحج سنة 748هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: had_participant
+  target: person/abu-al-hasan-al-marini
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: had_participant
+  target: person/abu-inan-faris
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن حصار القصبة بتونس ووقعة القيروان، ص1761-1762 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
