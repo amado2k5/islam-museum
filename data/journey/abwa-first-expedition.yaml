@@ -1,0 +1,16 @@
+id: journey/abwa-first-expedition
+class: journey
+kind: military_campaign
+label: { ar: "غزوة الأبواء (ودان) أول غزوات النبي", en: "The expedition to al-Abwa (Waddan), the first of the Prophet's campaigns" }
+summary:
+  ar: "خرج النبي في صفر سنة 2هـ في سبعين رجلاً من المهاجرين، يعترض عيراً لقريش، حتى بلغ ودان فلم يلق كيداً، واستخلف على المدينة سعد بن عبادة، وعقد فيها معاهدة مع بني ضمرة. غاب خمس عشرة ليلة (الرحيق ص198)."
+wings: [time, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - { from: place/medina, to: place/waddan, mode: "مسير مع السبعين من المهاجرين", note: "في صفر سنة 2هـ، خرج يعترض عير قريش حتى بلغ ودان، ولم يلق كيداً؛ ودان بينها وبين رابغ من جهة المدينة تسعة وعشرون ميلاً (الرحيق ص198 وحاشيته). مدة الغيبة خمس عشرة ليلة.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: part_of, target: event/expedition-of-al-abwa-waddan }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum p. 198" }

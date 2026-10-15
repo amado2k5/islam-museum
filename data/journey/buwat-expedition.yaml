@@ -1,0 +1,16 @@
+id: journey/buwat-expedition
+class: journey
+kind: military_campaign
+label: { ar: "غزوة بواط", en: "The expedition to Buwat" }
+summary:
+  ar: "خرج النبي في ربيع الأول سنة 2هـ في مائتين من أصحابه يعترض عير قريش، فيها أمية بن خلف ومائة من قريش، فبلغ بواطاً ولم يلق كيداً، واستخلف على المدينة سعد بن معاذ (الرحيق ص199)."
+wings: [time, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+travelers: [person/muhammad]
+legs:
+  - { from: place/medina, to: place/buwat, mode: "مسير مع المائتين من أصحابه", note: "من المدينة إلى بواط، وهو جبل من جبال جهينة على طريق الشام نحو أربعة برد من المدينة (الرحيق ص199 وحاشيته)." , sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: part_of, target: event/expedition-of-buwat }
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code; drafted from al-Raheeq al-Makhtum p. 199" }
