@@ -39,7 +39,7 @@ const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinate
     wing={wing}
   >
     <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}{" "}<span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span></p>
-    {wing === "time" && <p class="ui" style="color:#c9d3d6;font-size:.9rem;margin:6px 0 0">{T.entity.dagger}</p>}
+    {wing === "time" && <p class="ui tl-legend" style="color:#c9d3d6;font-size:.9rem;margin:6px 0 0">{T.timeline.legend}</p>}
   </PageHeader>
   <div class="wrap" style="padding-block:24px 20px" data-pagefind-ignore>
     {wing === "time" && <HijriTimeline lang={lang} />}

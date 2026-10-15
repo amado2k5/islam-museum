@@ -133,6 +133,10 @@ entity:
   disciplines: Fields
   tradition: Counted among
   venerated_by: Venerated by
+  venerated_label:
+    shia-twelver: Twelver Shia
+    shia-ismaili: Ismaili Shia
+    shia-zaydi: Zaydi Shia
   era: Era
   region: Region
   identifiers: Identifiers
@@ -231,6 +235,7 @@ wander:
   button: Take me somewhere
 timeline:
   title: Hijri timeline
+  legend: '† Hijri date computed from the Gregorian — may differ from the transmitted date by a day or two'
   lede: Fourteen centuries on a Hijri axis; drag the marker, click a dot to see that year's events, click an era to zoom in. The Gregorian is a second reading.
   calendar: Calendar
   year: Year

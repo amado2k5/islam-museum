@@ -114,7 +114,13 @@ export function timelineKey(n: { span?: { earliest: number }; class: string; dat
     key = msToYear(Date.UTC(c.date.y, c.date.m - 1, c.date.d));
   } else key = n.span?.earliest;
   if (key === undefined) return { key: Infinity, ord: 0 };
-  // Year-only dates sort after the dated events of their year (§1.5): "نحو 622" follows "12 سبتمبر 622".
-  if (s?.precision === "year") key = Math.round(key) + 1 - 1e-6;
+  // Year-only dates sort after the dated events of their year (§1.5): "نحو 622" follows "12 سبتمبر 622". A year given in the
+  // Hijri calendar ends with that Hijri year, so "1 هـ" follows ذو القعدة 1 هـ and precedes محرم 2 هـ (not the end of 623 CE).
+  if (s?.precision === "year") {
+    if (hj && !hijriCoarser) {
+      const c = hijriToCivil({ y: hj[0] + 1, m: 1, d: 1 });
+      key = msToYear(Date.UTC(c.date.y, c.date.m - 1, c.date.d)) - 1e-6;
+    } else key = Math.floor(key) + 1 - 1e-6;
+  }
   return { key, ord: hj ? hj[0] * 10000 + hj[1] * 100 + hj[2] : 0 };
 }
