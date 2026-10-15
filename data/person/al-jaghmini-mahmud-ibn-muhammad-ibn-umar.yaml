@@ -1,0 +1,23 @@
+id: person/al-jaghmini-mahmud-ibn-muhammad-ibn-umar
+class: person
+label: { ar: "الجغميني محمود بن محمد", en: "al-Jaghmini Mahmud ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "محمود بن محمد بن عمر الجغميني" }
+  - { kind: nisba, lang: ar, value: "الجغميني" }
+gender: male
+roles: [astronomer]
+traditions: [sunni]
+born: { edtf: "1154", hijri: "0549", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1220", hijri: "0618", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أعلام التقدم العلمي في آسيا الصغرى ضمن الحضارة الإسلامية، ينسب إلى قرية جَغْمين، وتوفي سنة 618هـ (1220م)."
+  en: "Among the scientific pioneers of Anatolia within Islamic civilisation, named after the village of Jaghmin; died 618 AH (1220 CE)."
+wings: [people, ideas]
+themes: [astronomy-and-timekeeping]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 332-333, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص332", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

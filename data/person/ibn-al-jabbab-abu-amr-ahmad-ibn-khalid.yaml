@@ -1,0 +1,25 @@
+id: person/ibn-al-jabbab-abu-amr-ahmad-ibn-khalid
+class: person
+label: { ar: "ابن الجباب أبو عمر أحمد بن خالد", en: "Ibn al-Jabbab Abu Amr Ahmad ibn Khalid" }
+names:
+  - { kind: full, lang: ar, value: "أبو عمر أحمد بن خالد بن يزيد بن الجباب الجياني القرطبي" }
+  - { kind: kunya, lang: ar, value: "أبو عمر" }
+  - { kind: nisba, lang: ar, value: "الجياني" }
+  - { kind: nisba, lang: ar, value: "القرطبي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0860", hijri: "0246", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "0933", hijri: "0322", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "أبو عمر أحمد بن خالد بن يزيد بن الجباب، جياني الأصل، سكن قرطبة، ولد سنة 246هـ (860م) وتوفي سنة 322هـ (933م)."
+  en: "Abu Amr Ahmad ibn Khalid ibn Yazid ibn al-Jabbab, of Jaen origin, who settled in Cordoba; born 246 AH (860 CE), died 322 AH (933 CE)."
+wings: [people, words]
+themes: []
+periods: [period/abbasid-fragmentation]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 76-77, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص76", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
