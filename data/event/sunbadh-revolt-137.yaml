@@ -1,0 +1,27 @@
+id: event/sunbadh-revolt-137
+class: event
+kind: battle
+label: { ar: "حركة سنباذ المجوسي" }
+summary:
+  ar: "في سنة ١٣٧هـ خرج سنباذ المجوسي غضباً لمقتل أبي مسلم وطلباً لثأره، فغلب على نيسابور وقومس والري وتسمى بفيروز أصبهذ واستولى على خزائن أبي مسلم وأعلن عزمه على هدم الكعبة؛ فأرسل إليه أبو جعفر المنصور جيشاً بقيادة جهور بن مرّار العجلي اصطدم به بين همذان والري وقضى عليه بعد سبعين يوماً من قيام حركته {cite:tarikh-dawla-abbasiyya-taqqush p. 54-55}. وكانت الحركة أولى حركات «المبيضة» — الجماعات التي اقترنت باسم أبي مسلم وارتدت البياض وحملت الأعلام البيضاء — وتلتها حركة الراوندية سنة ١٤١ وحركة أستاذسيس سنة ١٥٠ {cite:tarikh-dawla-abbasiyya-taqqush p. 55}."
+  en: "The seventy-day rising of Sunbadh the Magian — first of the 'Mubayyida' movements that gathered under Abu Muslim's name, crushed between Hamadhan and Rayy, 137 AH {cite:tarikh-dawla-abbasiyya-taqqush p. 54-55}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0755", hijri: "0137", calendar: julian, precision: year, status: tradition, derived: true }
+sides:
+  - label: { ar: "أتباع سنباذ" }
+    commanders: [person/sunbadh]
+  - label: { ar: "الجيش العباسي" }
+    commanders: [person/jahwar-ibn-marrar-al-ijli]
+relations:
+  - { type: had_participant, target: person/sunbadh, role: "زعيم الحركة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: had_participant, target: person/jahwar-ibn-marrar-al-ijli, role: "قائد الجيش العباسي", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+sources: [source/tarikh-dawla-abbasiyya-taqqush]
+provenance:
+  layer: own-research
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 54-55"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-taqqush-abbasi-batch-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
