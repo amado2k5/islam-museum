@@ -36,35 +36,35 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 ## Pages needing citations (not added here)
 
 
-## Batch 11 of 19
+## Batch 12 of 19
 
-Pages event/kaab-and-abu-qatada-at-the-garden-wall.md to event/night-supplication-at-al-baqia.md (25 pages).
+Pages event/order-to-the-three-to-separate-from-their-wives.md to event/sariyya-of-al-dahhak-to-banu-kilab.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `event/kaab-and-abu-qatada-at-the-garden-wall.md` | ok |
-| `event/kaab-ibn-malik-delays-his-preparations.md` | ok |
-| `event/kaab-ibn-zuhayr-pardon-and-burda.md` | ok |
-| `event/kaab-offers-his-wealth-and-vows-truthfulness.md` | ok |
-| `event/kaab-tells-the-prophet-the-truth.md` | ok |
-| `event/khalid-expedition-to-ukaydir.md` | ok |
-| `event/khandama-skirmish.md` | ok |
-| `event/khirash-incident.md` | ok |
-| `event/khuzaa-appeal-to-medina.md` | ok |
-| `event/khuzaa-bakr-clash-al-watir.md` | ok |
-| `event/killing-of-kab-ibn-al-ashraf.md` | ok |
-| `event/last-minbar-sermon.md` | ok |
-| `event/last-quraysh-delegation-to-abu-talib.md` | ok |
-| `event/letter-of-himyar-kings.md` | ok |
-| `event/letters-to-rulers-and-kings.md` | ok |
-| `event/lian-between-uwaymir-and-his-wife.md` | ok |
-| `event/marriage-to-khadija.md` | ok |
-| `event/marriage-to-sawda.md` | ok |
-| `event/marriage-to-zaynab-bint-jahsh.md` | ok |
-| `event/martyrdom-of-farwa-al-judhami.md` | ok |
-| `event/masjid-al-dirar-builders-ask-the-prophet-to-pray.md` | ok |
-| `event/massacre-of-najran.md` | ok |
-| `event/muslim-army-deployment-uhud.md` | ok |
-| `event/muslim-intelligence-uhud.md` | ok |
-| `event/night-supplication-at-al-baqia.md` | ok |
+| `event/order-to-the-three-to-separate-from-their-wives.md` | ok |
+| `event/pen-and-paper-incident.md` | ok |
+| `event/persecution-of-mustadafin.md` | ok |
+| `event/persian-rule-of-yemen.md` | ok |
+| `event/pledges-of-aqaba.md` | ok |
+| `event/plot-of-dar-al-nadwa.md` | ok |
+| `event/preparation-for-uhud.md` | ok |
+| `event/proclamation-of-surat-baraa.md` | ok |
+| `event/prophets-mosque-built.md` | ok |
+| `event/prophets-mosques-between-medina-and-tabuk.md` | ok |
+| `event/prophets-return-and-excuses-of-the-stragglers.md` | ok |
+| `event/prophets-speech-to-the-ansar.md` | ok |
+| `event/quba-sojourn.md` | ok |
+| `event/qusayy-takes-mecca.md` | ok |
+| `event/rain-at-al-hijr-after-the-prophets-prayer.md` | ok |
+| `event/rebuilding-of-the-kaaba.md` | ok |
+| `event/recovery-of-abd-al-muttalib-rights.md` | ok |
+| `event/redigging-of-zamzam.md` | ok |
+| `event/repentance-of-the-three-accepted.md` | ok |
+| `event/return-of-abyssinian-emigrants.md` | ok |
+| `event/sacrifice-of-ismail.md` | ok |
+| `event/safa-proclamation.md` | ok |
+| `event/sajdat-al-najm.md` | ok |
+| `event/saqifa.md` | ok |
+| `event/sariyya-of-al-dahhak-to-banu-kilab.md` | ok |
 
