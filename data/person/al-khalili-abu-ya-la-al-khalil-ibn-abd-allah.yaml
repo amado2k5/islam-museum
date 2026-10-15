@@ -1,0 +1,24 @@
+id: person/al-khalili-abu-ya-la-al-khalil-ibn-abd-allah
+class: person
+label: { ar: "الخليلي أبو يعلى الخليل بن عبد الله", en: "al-Khalili Abu Ya'la al-Khalil ibn Abd Allah" }
+names:
+  - { kind: full, lang: ar, value: "أبو يعلى الخليل بن عبد الله الخليلي" }
+  - { kind: kunya, lang: ar, value: "أبو يعلى" }
+  - { kind: nisba, lang: ar, value: "الخليلي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "0980~", hijri: "0370", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1055", hijri: "0446", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "محدّث، وتقدّر ولادته حوالي سنة 370هـ (980م)، وتوفي سنة 446هـ (1055م)."
+  en: "Hadith scholar, born about 370 AH (980 CE, estimated) and died 446 AH (1055 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 8 pp. 507-508, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج8 ص508", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
