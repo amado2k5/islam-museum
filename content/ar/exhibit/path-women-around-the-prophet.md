@@ -23,40 +23,40 @@ translators: []
 ## الخطوات
 
 ### 1. خديجة
-[[person/khadija|خديجة بنت خويلد]]: البداية: أول من آمن في الرواية.
+[[person/khadija|خديجة بنت خويلد]]: البداية: أول من آمن في الرواية. {cite:ibn-sad-tabaqat-bewley}
 
 ### 2. أم أيمن
-[[person/umm-ayman|أم أيمن بركة بنت ثعلبة]]: من رعت النبي صغيراً.
+[[person/umm-ayman|أم أيمن بركة بنت ثعلبة]]: من رعت النبي صغيراً. {cite:mubarakpuri-raheeq ص57}
 
 ### 3. سمية بنت خياط
-[[person/sumayya-bint-khayyat|سمية بنت خياط]]: من ثبتت تحت التعذيب بمكة.
+[[person/sumayya-bint-khayyat|سمية بنت خياط]]: من ثبتت تحت التعذيب بمكة. {cite:mubarakpuri-raheeq ص90}
 
 ### 4. أسماء بنت عميس
-[[person/asma-bint-umays|أسماء بنت عميس]]: هاجرت إلى الحبشة.
+[[person/asma-bint-umays|أسماء بنت عميس]]: هاجرت إلى الحبشة. {cite:siyar-alam-nubala-abyari ص204-205}
 
 ### 5. أم حبيبة
-[[person/umm-habiba-bint-abi-sufyan|أم حبيبة رملة بنت أبي سفيان]]: هاجرت وعادت بعد سنين.
+[[person/umm-habiba-bint-abi-sufyan|أم حبيبة رملة بنت أبي سفيان]]: هاجرت وعادت بعد سنين. {cite:ibn-hisham-saqqa 4/38; cite:ibn-sad-tabaqat-bewley}
 
 ### 6. نسيبة بنت كعب
-[[person/nusayba-bint-kab|نسيبة بنت كعب]]: من بايعت في العقبة ودافعت يوم أحد.
+[[person/nusayba-bint-kab|نسيبة بنت كعب]]: من بايعت في العقبة ودافعت يوم أحد. {cite:mubarakpuri-raheeq ص148}
 
 ### 7. أسماء بنت أبي بكر
-[[person/asma-bint-abi-bakr|أسماء بنت أبي بكر]]: ذات النطاقين في رحلة الهجرة.
+[[person/asma-bint-abi-bakr|أسماء بنت أبي بكر]]: ذات النطاقين في رحلة الهجرة. {cite:sahih-al-bukhari}
 
 ### 8. صفية بنت عبد المطلب
-[[person/safiyya-bint-abd-al-muttalib|صفية بنت عبد المطلب]]: عمّة النبي، وما يُروى عنها يوم الخندق.
+[[person/safiyya-bint-abd-al-muttalib|صفية بنت عبد المطلب]]: عمّة النبي، وما يُروى عنها يوم الخندق. {cite:ibn-hajar-isaba p.1911}
 
 ### 9. فاطمة
-[[person/fatima|فاطمة بنت محمد]]: ابنة النبي، وانتبه إلى كيف تُذكر عند السنة والشيعة.
+[[person/fatima|فاطمة بنت محمد]]: ابنة النبي، وانتبه إلى كيف تُذكر عند السنة والشيعة. {cite:ibn-sad-tabaqat-bewley}
 
 ### 10. عائشة
-[[person/aisha|عائشة بنت أبي بكر]]: من أكثر الرواة حديثاً؛ اقرأ قسم وجهات النظر في الصفحة، والرأي السني أولاً.
+[[person/aisha|عائشة بنت أبي بكر]]: من أكثر الرواة حديثاً؛ اقرأ قسم وجهات النظر في الصفحة، والرأي السني أولاً. {cite:watt-1956-medina}
 
 ### 11. حفصة
-[[person/hafsa|حفصة بنت عمر]]: وما يُذكر عنها في حفظ المصحف.
+[[person/hafsa|حفصة بنت عمر]]: وما يُذكر عنها في حفظ المصحف. {cite:ibn-sad-tabaqat-bewley}
 
 ### 12. أم سلمة
-[[person/umm-salama|أم سلمة هند بنت أبي أمية]]: ورأيها يوم الحديبية.
+[[person/umm-salama|أم سلمة هند بنت أبي أمية]]: ورأيها يوم الحديبية. {cite:ibn-sad-tabaqat-bewley}
 
 ## بعد أن تنتهي
 جرّب بعد ذلك: [[exhibit/path-from-opposition-to-islam|من الخصومة إلى الإسلام: من غيّروا موقفهم]].

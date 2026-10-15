@@ -23,37 +23,37 @@ translators: []
 ## الخطوات
 
 ### 1. لماذا خرجوا؟
-[[event/persecution-of-mustadafin|اضطهاد المستضعفين]]: السياق: الأذى الذي سبق الهجرة.
+[[event/persecution-of-mustadafin|اضطهاد المستضعفين]]: السياق: الأذى الذي سبق الهجرة. {cite:mubarakpuri-raheeq}
 
 ### 2. الهجرة الأولى
-[[event/first-migration-to-abyssinia|الهجرة الأولى إلى الحبشة]]: من خرج، ومتى، وكيف.
+[[event/first-migration-to-abyssinia|الهجرة الأولى إلى الحبشة]]: من خرج، ومتى، وكيف. {cite:mubarakpuri-raheeq}
 
 ### 3. الملك الذي آواهم
-[[person/negus-of-aksum|النجاشي]]: من هو النجاشي كما تقدّمه الصفحة، وما قيل في إسلامه.
+[[person/negus-of-aksum|النجاشي]]: من هو النجاشي كما تقدّمه الصفحة، وما قيل في إسلامه. {cite:ibn-sad-tabaqat-bewley}
 
 ### 4. الهجرة الثانية
-[[event/second-migration-to-abyssinia|الهجرة الثانية إلى الحبشة]]: من خرج ثانية وما فعلت قريش.
+[[event/second-migration-to-abyssinia|الهجرة الثانية إلى الحبشة]]: من خرج ثانية وما فعلت قريش. {cite:mubarakpuri-raheeq}
 
 ### 5. جعفر بن أبي طالب
-[[person/jafar-ibn-abi-talib|جعفر بن أبي طالب]]: الذي تكلّم أمام الملك باسم المهاجرين.
+[[person/jafar-ibn-abi-talib|جعفر بن أبي طالب]]: الذي تكلّم أمام الملك باسم المهاجرين. {cite:ibn-sad-tabaqat-bewley}
 
 ### 6. مهاجرو الحبشة
 [[concept/muhajirun-of-abyssinia|مهاجرة الحبشة]]: كيف يصنّفهم ابن إسحاق بحسب عودتهم.
 
 ### 7. حالةٌ مختلفة
-[[event/ubaydullah-ibn-jahsh-leaves-islam-in-abyssinia|تنصّر عبيد الله بن جحش بأرض الحبشة]]: ليس كل من خرج بقي على إسلامه كما يروي ابن إسحاق، وتنبّه إلى أن الكتاب لا يؤرّخ الواقعة.
+[[event/ubaydullah-ibn-jahsh-leaves-islam-in-abyssinia|تنصّر عبيد الله بن جحش بأرض الحبشة]]: ليس كل من خرج بقي على إسلامه كما يروي ابن إسحاق، وتنبّه إلى أن الكتاب لا يؤرّخ الواقعة. {cite:ibn-hisham-saqqa 4/6}
 
 ### 8. أم حبيبة
-[[person/umm-habiba-bint-abi-sufyan|أم حبيبة رملة بنت أبي سفيان]]: من هاجرت وعادت وصارت من أمهات المؤمنين.
+[[person/umm-habiba-bint-abi-sufyan|أم حبيبة رملة بنت أبي سفيان]]: من هاجرت وعادت وصارت من أمهات المؤمنين. {cite:ibn-hisham-saqqa 4/38; cite:ibn-sad-tabaqat-bewley}
 
 ### 9. أسماء بنت عميس
-[[person/asma-bint-umays|أسماء بنت عميس]]: من النساء اللواتي هاجرن مع أزواجهن.
+[[person/asma-bint-umays|أسماء بنت عميس]]: من النساء اللواتي هاجرن مع أزواجهن. {cite:siyar-alam-nubala-abyari ص204-205}
 
 ### 10. العودة
-[[event/return-of-abyssinian-emigrants|قدوم مهاجري الحبشة مع جعفر بن أبي طالب]]: روايتها في الصفحة بحسب ابن إسحاق.
+[[event/return-of-abyssinian-emigrants|قدوم مهاجري الحبشة مع جعفر بن أبي طالب]]: روايتها في الصفحة بحسب ابن إسحاق. {cite:ibn-hisham-saqqa 4/3}
 
 ### 11. رواية أخرى لقدوم جعفر
-[[event/jafar-arrival-at-khaybar|قدوم جعفر بن أبي طالب على النبي بخيبر]]: خبر ينقله ابن هشام عن غير ابن إسحاق؛ قارن بين الصفحتين.
+[[event/jafar-arrival-at-khaybar|قدوم جعفر بن أبي طالب على النبي بخيبر]]: خبر ينقله ابن هشام عن غير ابن إسحاق؛ قارن بين الصفحتين. {cite:ibn-hisham-saqqa 4/3}
 
 ## بعد أن تنتهي
 جرّب بعد ذلك: [[exhibit/path-women-around-the-prophet|النساء حول النبي: اثنتا عشرة سيرة]].
