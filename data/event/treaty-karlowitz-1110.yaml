@@ -1,0 +1,21 @@
+id: event/treaty-karlowitz-1110
+class: event
+kind: treaty
+label: { ar: "معاهدة كارلوفتس" }
+summary:
+  ar: "وقّعت معاهدة كارلوفتس جنوب غرب زغرب على نهر الدانوب عام ١١١٠هـ/١٦٩٩م في عهد السلطان مصطفى الثاني، وطبقاً لشروطها انسحب العثمانيون من بلاد المجر وإقليم ترانسلفانيا، وأصبحت كل الدول التي كانت تدفع الجزية ممتنعة من دفعها. وكان تنازل العثمانيين عن أراضيهم بداية الانسحاب العثماني من أوروبا ويسجل الانتقال إلى عصر التفكك والاضمحلال السريع {cite:dawlat-uthmaniyya-salabi p. 310}."
+  en: "Karlowitz, 1699 — the treaty that opened the Ottoman retreat from Europe: Hungary and Transylvania surrendered, and every tributary state stopped paying {cite:dawlat-uthmaniyya-salabi p. 310}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1699", hijri: "1110", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+relations:
+  - { type: had_participant, target: person/mustafa-ii-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 310"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-5
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

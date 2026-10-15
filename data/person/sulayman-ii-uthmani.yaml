@@ -1,0 +1,23 @@
+id: person/sulayman-ii-uthmani
+class: person
+label: { ar: "سليمان الثاني" }
+names:
+  - { kind: full, lang: ar, value: "سليمان الثاني بن إبراهيم الأول" }
+gender: male
+roles: [ruler]
+born: { edtf: "1642~", hijri: "1052", calendar: julian, precision: year, status: tradition, sources: [source/dawlat-uthmaniyya-salabi] }
+summary:
+  ar: "السلطان سليمان الثاني؛ ولد عام ١٠٥٢هـ وتولى الحكم بعد أخيه محمد الرابع عام ١٠٩٩هـ. استمر التدهور في عهده فاغتصبت النمسا مواقع كثيرة ومنها بلغراد عام ١٠٩٩هـ، واحتلت البندقية سواحل دالماسيا وبعض أماكن اليونان، وقيّض الله للدولة الصدر الأعظم مصطفى بن محمد كوبريللي الذي سار على نهج أبيه، وسمح للنصارى في استانبول ببناء ما تهدم من كنائسهم وأحسن إليهم وعاقب بأشد العقاب كل من عرض لهم في إقامة شعائر دينهم، حتى ثار أهالي المورة على البنادقة الكاثوليك وطردوا جيشها ودخلوا في حماية الدولة العثمانية مختارين طائعين لعدم تعرضها لديانتهم {cite:dawlat-uthmaniyya-salabi p. 308-309}."
+  en: "Sulayman II (r. 1099–1102/1687–1691) — reign of retreat: Belgrade lost to Austria, Dalmatia and Greece to Venice; his vizier Mustafa Köprülü's protection of Istanbul's Christians prompted the Morean Greeks to expel the Venetians and choose Ottoman rule {cite:dawlat-uthmaniyya-salabi p. 308-309}."
+wings: [people, time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+relations:
+  - { type: successor_of, target: person/mehmed-iv-uthmani, sources: [source/dawlat-uthmaniyya-salabi] }
+sources: [source/dawlat-uthmaniyya-salabi]
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 308-309"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-5
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

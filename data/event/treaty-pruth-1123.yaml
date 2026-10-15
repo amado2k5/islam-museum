@@ -1,0 +1,21 @@
+id: event/treaty-pruth-1123
+class: event
+kind: treaty
+label: { ar: "معاهدة فلكزن (بروث) ومحاصرة قيصر روسيا" }
+summary:
+  ar: "في عهد السلطان أحمد الثالث واصلت الدولة جهادها ضد روسيا وأنزلت بها ضربة كادت تكون قاصمة، حين حاصر المجاهدون العثمانيون قيصر روسيا بطرس وخليلته ومعهما مئتا ألف كادوا يقعون في الأسر، لكن الخيانة دفعت الصدر الأعظم بلطه جي باشا إلى رفع الحصار وخيانة الدولة، ووقع معاهدة فلكزن في جمادى الآخرة عام ١١٢٣هـ ترتب عليها إخلاء مدينة آزاق للروس وتعهدٌ بعدم التدخل في شئون القوزاق، فعزل السلطان أحمد الثالث الصدر الأعظم بلطه جي باشا {cite:dawlat-uthmaniyya-salabi p. 310}."
+  en: "Pruth, 1711 — Ottoman mujahidun encircled Tsar Peter and 200,000 Russians and nearly took them; the grand vizier lifted the siege and signed the Pruth treaty surrendering Azov, and the sultan deposed him for it {cite:dawlat-uthmaniyya-salabi p. 310}."
+wings: [time]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+date:
+  start: { edtf: "1711-07~", hijri: "1123-06", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الآخرة ١١٢٣هـ {cite:dawlat-uthmaniyya-salabi p. 310}." }
+relations:
+  - { type: had_participant, target: person/ahmed-iii-uthmani, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 310"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-5
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
