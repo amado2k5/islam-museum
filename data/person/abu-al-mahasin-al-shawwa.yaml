@@ -1,0 +1,26 @@
+id: person/abu-al-mahasin-al-shawwa
+class: person
+label: { ar: "أبو المحاسن الشواء" }
+names:
+  - { value: "أبو المحاسن يوسف بن إسماعيل بن علي بن أحمد الشواء شهاب الدين", kind: full }
+gender: male
+roles: [poet, adib]
+born: { edtf: "1166~", hijri: "0562", calendar: julian, precision: year, status: debated, derived: true, note: "مولده تقديراً في سنة ٥٦٢هـ فإنه كان لا يحقق مولده {cite:wafayat-ayan p. 236}." }
+died: { edtf: "1237~", hijri: "0635", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الجمعة تاسع عشر المحرم سنة ٦٣٥هـ بحلب ودفن ظاهرها بمقبرة باب أنطاكية {cite:wafayat-ayan p. 236}." }
+summary:
+  ar: "أبو المحاسن يوسف بن إسماعيل الشواء شهاب الدين، الكوفي الأصل الحلي المولد والمنشأ والوفاة بحسب ما في أصل الترجمة وقد صحح ابن خلكان أنه حلبي؛ أديب فاضل متقن لعلم العروض والقوافي شاعر يقع له في النظم معان بديعة في البيتين والثلاثة، وله ديوان شعر كبير يدخل في أربع مجلدات، وكان زيه على زي الحلبيين الأوائل في اللباس والعمامة المشقوقة، وكان كثير الملازمة لحلقة الشيخ ابن الجبراني الأديب اللغوي بجامع حلب؛ وكان بينه وبين ابن خلكان مودة أكيدة وموانسة كثيرة فقال فيه ابن خلكان: فلقد كان نعم الصاحب {cite:wafayat-ayan p. 231, 233-236}. ومولده تقديراً سنة اثنتين وستين وخمسمائة وتوفي يوم الجمعة تاسع عشر المحرم سنة خمس وثلاثين وستمائة بحلب ودفن بمقبرة باب أنطاكية {cite:wafayat-ayan p. 236}."
+  en: "Shihab al-Din Abu al-Mahasin 'al-Shawwa'' — the Aleppine adib and prosodist with a four-volume diwan who wore the old Aleppine split turban, constant of Ibn al-Jubrani's circle in the Jami' maqsura and 'the best of companions' to the young Ibn Khallikan; died 19 Muharram 635, buried outside Bab Antakya {cite:wafayat-ayan p. 231-236}."
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: student_of, target: person/ibn-al-jubrani, sources: [source/wafayat-ayan] }
+  - { type: lived_in, target: place/aleppo, sources: [source/wafayat-ayan] }
+  - { type: related_to, target: person/ibn-khallikan, role: "صديق ومؤانس", sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 231-236"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
