@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.264"
-label: { ar: "الموطأ 1.264", en: "Muwatta 1.264" }
+label: { ar: "الموطأ 264 — بلاغ: إني لأنسى أو أُنسّى لأسنّ", en: "Muwatta 264" }
+text: "إني لأنسى أو أنسى لأسن"
 summary:
-  ar: "النبي ﷺ: إني لأنسى أو أُنسّى لأسنّ؛ الحديث في النسيان وحكمة ذلك."
+  ar: "بلاغ في باب العمل في السهو: يروي مالك أنه بلغه أن النبي قال إنه ينسى أو يُنسّى ليسنّ للناس أحكام السهو. ويذكر المحقق أن أبا مصعب رواه عن مالك، وينقل عن ابن عبد البر أنه لا يعلم هذا اللفظ يروى عن النبي من غير هذا الوجه مسنداً ولا مقطوعاً، وأنه أحد البلاغات الأربعة في الموطأ التي لا توجد في غيره، ومعناه صحيح في الأصول، وأن ابن الصلاح في رسالته في وصل البلاغات الأربعة قال إن حديث النسيان روي من وجوه كثيرة صحيحة وساق منها حديث ابن مسعود. {cite:muwatta-maruf-1997 p.155} {cite:muwatta-maruf-1997 p.156}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 264 of kitab al-salat at PDF p. 155", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-13" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-al-salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 264 at PDF p. 155; باب العمل في السهو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b11" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 155; matn excerpt at most 40 words" }

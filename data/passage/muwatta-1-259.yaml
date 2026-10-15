@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.259"
-label: { ar: "الموطأ 1.259", en: "Muwatta 1.259" }
+label: { ar: "الموطأ 259 — خميصة أبي جهم: نظرت إلى علمها في الصلاة فكاد يفتنني", en: "Muwatta 259" }
+text: "ردي هذه الخميصة إلى أبي جهم، فإني نظرت إلى علمها في الصلاة فكاد يفتنني"
 summary:
-  ar: "عائشة: أهدى أبو جهم بن حذيفة للنبي ﷺ خميصة لها علم، فلما لبسها ألهته أعلامها، فأعطاها أبا جهم وأخذ أنبجانيته؛ الحديث في الصلاة في الثوب ذي العلم."
+  ar: "أول حديث في باب النظر في الصلاة إلى ما يشغلك عنها. يرويه يحيى عن مالك عن علقمة بن أبي علقمة عن أمه عن عائشة: أهدى أبو جهم بن حذيفة للنبي خميصة شامية لها أعلام، فصلى فيها، فلما انصرف أمر بردها إلى أبي جهم لأنه نظر إلى علمها في الصلاة فكاد يشغله. ويبين المحقق أن يحيى أسقط «عن أمه» من الإسناد ولم يتابعه أحد من الرواة، وأن الحديث صحيح متصل لمالك عن علقمة عن أمه عن عائشة كما قال ابن عبد البر (التمهيد 20/108)، ويخرّجه عند أحمد (6/177) والجوهري والبيهقي من طرق أصحاب مالك. {cite:muwatta-maruf-1997 p.153}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 259 of kitab al-salat at PDF p. 153", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-13" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-jahm-ibn-hudhayfa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/alqama-ibn-abi-alqama, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 259 at PDF p. 153; باب النظر في الصلاة إلى ما يشغلك عنها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b11" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 153; matn excerpt at most 40 words" }

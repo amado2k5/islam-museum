@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.272"
-label: { ar: "الموطأ 1.272", en: "Muwatta 1.272" }
+label: { ar: "الموطأ 272 — مالك: من انتقض وضوؤه بعد غسل الجمعة فعليه الوضوء فقط", en: "Muwatta 272" }
 summary:
-  ar: "مالك: من اغتسل يوم الجمعة معجلًا أو مؤخرًا وهو ينوي غسل الجمعة، فأصابه ما ينقض الوضوء، فحكمه أن يتوضأ."
+  ar: "قول لمالك في باب العمل في غسل يوم الجمعة: من اغتسل يوم الجمعة معجّلاً أو مؤخّراً ينوي به غسل الجمعة ثم أصابه ما ينقض وضوءه، فليس عليه إلا الوضوء وغسله ذلك مجزئ عنه. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.159}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 272 of kitab al-salat at PDF p. 159", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-14" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 272 at PDF p. 159; باب العمل في غسل يوم الجمعة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b11" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 159; matn excerpt at most 40 words" }

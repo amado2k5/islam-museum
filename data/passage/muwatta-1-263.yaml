@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.263"
-label: { ar: "الموطأ 1.263", en: "Muwatta 1.263" }
+label: { ar: "الموطأ 263 — الشيطان يلبس على المصلي حتى لا يدري كم صلى فليسجد سجدتين", en: "Muwatta 263" }
+text: "إن أحدكم إذا قام يصلي جاءه الشيطان فلبس عليه حتى لا يدري كم صلى، فإذا وجد ذلك أحدكم فليسجد سجدتين وهو جالس"
 summary:
-  ar: "أبو سلمة عن أبي هريرة: إن الشيطان إذا نودي للصلاة ولّى له ضراط؛ الحديث في الأذان والشيطان."
+  ar: "أول حديث في باب العمل في السهو. يرويه يحيى عن مالك عن ابن شهاب عن أبي سلمة بن عبد الرحمن عن أبي هريرة: أخبر النبي أن الشيطان يأتي المصلي فيلبّس عليه حتى لا يدري كم صلى، فمن وجد ذلك فليسجد سجدتين وهو جالس. ويخرّجه المحقق عند البخاري (1232) ومسلم (2/82) وأبي داود (1030) والنسائي (3/30) وابن حبان من طرق أصحاب مالك، ويحيل على التمهيد (7/89). {cite:muwatta-maruf-1997 p.155}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 263 of kitab al-salat at PDF p. 155", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-13" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 263 at PDF p. 155; باب العمل في السهو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b11" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 155; matn excerpt at most 40 words" }
