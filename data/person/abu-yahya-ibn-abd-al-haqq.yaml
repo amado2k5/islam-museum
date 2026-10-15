@@ -1,0 +1,28 @@
+id: person/abu-yahya-ibn-abd-al-haqq
+class: person
+label:
+  ar: أبو يحيى بن عبد الحق المريني
+  en: Abu Yahya ibn Abd al-Haqq al-Marini
+summary:
+  ar: "أبو يحيى بن عبد الحق المريني، مديل الأمر لبني مرين وفاتح الأمصار ومقيم الرسوم الملوكية؛ لما ولي أمرهم سنة اثنتين وأربعين وستمائة بعد مهلك أخيه محمد بوادي ياباش، كان من أول نظره لقومه أن قسم بلاد المغرب وقبائل جبايته بين عشائر بني مرين وأنزل كلاً منهم في ناحية تسوغها طعمة فاستركبوا الرجل أتباعهم وتوفرت عساكرهم، وقام بتدبير الملك ونظامه من الآلة والرسوم لمن بعده من أمرائهم."
+  en: "Abu Yahya ibn Abd al-Haqq al-Marini, 'the state's architect' for Banu Marin, conqueror of the cities and founder of their royal usages; taking the command in 642 after his brother Muhammad's fall at Wadi Yabash, his first act of state was to divide Morocco's lands and tributary tribes among the Marinid clans, settling each in a tract they might live on — so they mounted their followers, gathered their retainers, and their armies multiplied — and he set up the machinery of kingship for the amirs after him."
+gender: male
+roles: [ruler]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+relations:
+- { type: "child_of", target: "person/abd-al-haqq-ibn-mahyu", sources: [source/tarikh-ibn-khaldun-ibar] }
+- { type: "successor_of", target: "person/muhammad-ibn-abd-al-haqq-marinid", note: "ولي الأمر سنة 642هـ", sources: [source/tarikh-ibn-khaldun-ibar] }
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة الأمير أبي يحيى بن عبد الحق، ص1904-1905 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-39
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
