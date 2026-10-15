@@ -50,6 +50,8 @@
 
 - (14 Oct 2026) Batch 1a (vol. 1): pp. 21–97 (12 entries: al-Abri, al-Abili, Ibn Ajrum, al-Abshihi, Ibn Abi Muqbil, Ibrahim Isma'il al-Abyari, Ibn al-Ahdab, Khalaf al-Ahmar, al-Ahwas, Ibn al-Akhram, al-Akhsikathi, Ibn Adham). Skipped in this range: Shi'i (Ibn Tawus, al-Ahsa'i), Ibadi (Ibn Iyad, Ibn Ibad, Ibn Ibad al-Ibadi), Mauritanian and Malian figures (West Africa), Christian and Jewish figures, and entries with bibliography or fragment openings.
 
+- (14 Oct 2026) Batch 1b (vol. 1): pp. 425–441 (12 entries: al-Azraqi, Khalid al-Azhari, al-Isbijabi, Asad al-Sunna, al-Asadi al-Sammaki, al-Isfara'ini (Shahfur), Abd al-Salam al-Asmar, al-Akhfash al-Akbar, al-Ahwal, two al-Irbili entries, al-Azjani). Skipped in this range: Shi'i (Istarabadi, Ibn Tawus, al-Ahsa'i), Christian and Jewish figures, Mauritanian and Malian figures, Ibadi figures, and bibliography or fragment openings.
+
 **Flags:**
 - Volume 6 (m-a-3-o-06.pdf) is absent from the founder's folder — its letter range will be missing entirely.
 

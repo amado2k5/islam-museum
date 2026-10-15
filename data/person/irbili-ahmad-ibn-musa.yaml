@@ -1,0 +1,22 @@
+id: person/irbili-ahmad-ibn-musa
+class: person
+label: { ar: "الإربلي أبو الفضل", en: "al-Irbili, Abu al-Fadl" }
+names:
+  - { kind: full, lang: ar, value: "أبو الفضل شرف الدين أحمد بن موسى بن يونس الإربلي الموصلي الشافعي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1179", hijri: "0575", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1225", hijri: "0622", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فقيه شافعي من الموصل، توسع في العلوم الشرعية في زمن الزنكيين."
+  en: "Shafi'i jurist of Mosul who studied the religious sciences in the Zengid period."
+wings: [people, place]
+themes: [scripture-and-its-sciences]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 436-437, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص436-437", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

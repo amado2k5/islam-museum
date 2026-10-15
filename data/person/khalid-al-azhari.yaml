@@ -1,0 +1,20 @@
+id: person/khalid-al-azhari
+class: person
+label: { ar: "خالد الأزهري", en: "Khalid al-Azhari" }
+names:
+  - { kind: full, lang: ar, value: "خالد بن عبد الله بن أبي بكر الأزهري" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+summary:
+  ar: "نحوي ولغوي مصري، أخذ العربية عن علماء عصره في مصر."
+  en: "Egyptian grammarian who studied Arabic with the scholars of his time in Egypt."
+wings: [people, words]
+themes: [linguistics]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 530, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص530", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

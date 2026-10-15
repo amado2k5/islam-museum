@@ -1,0 +1,22 @@
+id: person/al-asadi-ahmad-al-sammaki
+class: person
+label: { ar: "الأسدي أحمد السمكي", en: "al-Asadi, Ahmad al-Sammaki" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن محمد الأسدي الشيخ السمكي المكي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1625", hijri: "1035", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1656", hijri: "1066", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم مكي في القرن الحادي عشر الهجري، نشأ في مكة المكرمة."
+  en: "Meccan scholar of the eleventh century AH who grew up in Mecca."
+wings: [people]
+themes: [scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [arabia]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 1 pp. 574-576, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج1 ص574-576", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
