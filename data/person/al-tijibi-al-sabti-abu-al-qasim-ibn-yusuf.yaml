@@ -1,0 +1,25 @@
+id: person/al-tijibi-al-sabti-abu-al-qasim-ibn-yusuf
+class: person
+label: { ar: "التجيبي السبتي أبو القاسم بن يوسف", en: "al-Tujibi al-Sabti Abu al-Qasim ibn Yusuf" }
+names:
+  - { kind: full, lang: ar, value: "أبو القاسم بن يوسف بن محمد بن علي بن القاسم التجيبي السبتي" }
+  - { kind: kunya, lang: ar, value: "أبو القاسم" }
+  - { kind: nisba, lang: ar, value: "التجيبي" }
+  - { kind: nisba, lang: ar, value: "السبتي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1267", hijri: "0666", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1329", hijri: "0730", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم من أصل بلنسي، ولد بسبتة سنة 666هـ (1267م) ونشأ بها، وتوفي سنة 730هـ (1329م)."
+  en: "Scholar of Valencian origin, born in Ceuta in 666 AH (1267 CE) and raised there; died 730 AH (1329 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 424-425, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص424", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

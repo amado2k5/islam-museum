@@ -1,0 +1,24 @@
+id: person/al-thaqafi-al-jayyani-muhammad-ibn-al-hasan
+class: person
+label: { ar: "الثقفي الجياني محمد بن الحسن", en: "al-Thaqafi al-Jayyani Muhammad ibn al-Hasan" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن الحسن بن الزبير بن الحسن بن الحسين الثقفي العاصمي الجياني" }
+  - { kind: nisba, lang: ar, value: "الثقفي" }
+  - { kind: nisba, lang: ar, value: "الجياني" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1174", hijri: "0570", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1264", hijri: "0663", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "خطيب ومقرئ ومحدّث وأديب من جيّان بالأندلس، تنقّل في مدن الأندلس الجنوبية، وتوفي سنة 663هـ (1264م)."
+  en: "Preacher, reader, hadith scholar and man of letters of Jaen in al-Andalus, who travelled through the southern cities; died 663 AH (1264 CE)."
+wings: [people, words]
+themes: [scripture-and-its-sciences, literature]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 831-832, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص831", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

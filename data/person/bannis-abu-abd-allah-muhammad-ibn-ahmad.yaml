@@ -1,0 +1,25 @@
+id: person/bannis-abu-abd-allah-muhammad-ibn-ahmad
+class: person
+label: { ar: "بنيس أبو عبد الله محمد بن أحمد", en: "Bannis Abu Abd Allah Muhammad ibn Ahmad" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن أحمد بن محمد بن بنيس الفاسي" }
+  - { kind: kunya, lang: ar, value: "أبو عبد الله" }
+  - { kind: nisba, lang: ar, value: "الفاسي" }
+  - { kind: nisba, lang: ar, value: "المغربي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1747", hijri: "1160", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1799", hijri: "1214", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "عالم من فاس بالمغرب، ولد سنة 1160هـ (1747م) وتوفي سنة 1214هـ (1799م)."
+  en: "Scholar of Fez in Morocco, born 1160 AH (1747 CE) and died 1214 AH (1799 CE)."
+wings: [people, words]
+themes: []
+periods: [period/gunpowder-empires]
+regions: [maghreb]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 132-133, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص132", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

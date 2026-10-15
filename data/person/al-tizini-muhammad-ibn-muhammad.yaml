@@ -1,0 +1,24 @@
+id: person/al-tizini-muhammad-ibn-muhammad
+class: person
+label: { ar: "التيزيني محمد بن محمد", en: "al-Tizini Muhammad ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن محمد بن أبي بكر التيزيني الحلبي الحنفي" }
+  - { kind: nisba, lang: ar, value: "التيزيني" }
+  - { kind: nisba, lang: ar, value: "الحلبي" }
+gender: male
+roles: [astronomer, mathematician]
+traditions: [sunni]
+born: { edtf: "1424", hijri: "0828", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1505", hijri: "0911", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "فلكي ورياضي حنفي من حلب، نُسب إلى بلدة تيزن قرب حلب، ولد سنة 828هـ (1424م) وتوفي سنة 911هـ (1505م)."
+  en: "Hanafi astronomer and mathematician of Aleppo, named after the town of Tizin near Aleppo; born 828 AH (1424 CE), died 911 AH (1505 CE)."
+wings: [people, ideas]
+themes: [mathematics, astronomy-and-timekeeping]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 745-746, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص745", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

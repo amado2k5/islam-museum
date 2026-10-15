@@ -1,0 +1,25 @@
+id: person/al-tanukhi-al-mufaddal-ibn-muhammad
+class: person
+label: { ar: "التنوخي المفضل بن محمد", en: "al-Tanukhi al-Mufaddal ibn Muhammad" }
+names:
+  - { kind: full, lang: ar, value: "المفضل بن محمد بن مشعر بن محمد التنوخي المعري" }
+  - { kind: kunya, lang: ar, value: "أبو المحاسن" }
+  - { kind: nisba, lang: ar, value: "التنوخي" }
+  - { kind: nisba, lang: ar, value: "المعري" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1000", hijri: "0390", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1050", hijri: "0442", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "من أهل المعرة في الشام، قدم بغداد سنة 390هـ وأخذ الفقه عن أبي الحسين، وتوفي سنة 442هـ (1050م)."
+  en: "Of Ma'arrat al-Nu'man in Syria; came to Baghdad in 390 AH, studied law there, and died 442 AH (1050 CE)."
+wings: [people, words]
+themes: [development-of-law-theology-institutions]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 4 pp. 670-671, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج4 ص670", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
