@@ -24,39 +24,42 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 | `group/hawazin.md` | ردّة حنين سنة 630م على بيعة الفتح | حرب حنين سنة 630م بعد بيعة الفتح | 'ردّة' (apostasy) asserted in museum voice |
 | `group/thaqif.md` | فسلّموا على شروط التصنّع | فسلّموا بشروط خاصّة | imputed insincerity in museum voice; no source states it |
 | `group/himyar.md` | ومنهم الملك الظالم الذي أحرق أهل نجران | ومنهم الملك الذي تذكر الرواية أنه أحرق أهل نجران | moral label in the children's section; attributed to the tradition |
+| `event/battle-of-uhud.md` | ## غلطة الرماة والانتكاسة | ## ترك الرماة مواقعهم والانتكاسة | evaluative heading ('mistake') in museum voice |
+| `event/battle-of-uhud.md` | ## قبل المعركة: انسحاب المنافقين | ## قبل المعركة: انسحاب عبد الله بن أبي | heading labelled a named person with a faith category |
+| `event/death-of-abdullah-ibn-ubayy.md` | مات رجل كان يقول أنه مسلم لكنه كان يضرّ بالمسلمين سراً | مات رجل كانت الرواية تصفه بأنه يقول إنه مسلم ويضرّ بالمسلمين سراً | faith and hidden harm inferred in the children's section (no citation there) |
 
 ## Pages needing citations (not added here)
 
 
-## Batch 6 of 19
+## Batch 7 of 19
 
-Pages event/abu-quhafa-conversion.md to event/battle-of-the-trench.md (25 pages).
+Pages event/battle-of-uhud.md to event/death-of-umm-kulthum-bint-muhammad.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `event/abu-quhafa-conversion.md` | ok |
-| `event/abu-ruhm-and-the-stragglers-of-ghifar-and-aslam.md` | ok |
-| `event/abu-sufyan-conversion.md` | ok |
-| `event/abu-sufyan-medina-mission.md` | ok |
-| `event/abu-talib-gathers-clans.md` | ok |
-| `event/abyssinian-occupation-of-yemen.md` | ok |
-| `event/address-to-the-ansar-at-jirana.md` | ok |
-| `event/al-dawa-al-sirriyya.md` | ok |
-| `event/al-jadd-ibn-qays-asks-to-stay-behind.md` | ok |
-| `event/ali-expedition-to-al-fuls.md` | ok |
-| `event/ali-left-with-the-prophets-family.md` | ok |
-| `event/arab-congress-paris-1332.md` | ok |
-| `event/assassination-attempt-of-amir-and-arbad.md` | ok |
-| `event/assassination-of-sallam-ibn-abi-al-huqayq.md` | ok |
-| `event/badr-council.md` | ok |
-| `event/badr-duel.md` | ok |
-| `event/badr-prisoners.md` | ok |
-| `event/badr-qulayb.md` | ok |
-| `event/bahira-encounter.md` | ok |
-| `event/battle-of-badr.md` | ok |
-| `event/battle-of-dhu-qar.md` | ok |
-| `event/battle-of-hunayn.md` | ok |
-| `event/battle-of-khaybar.md` | ok |
-| `event/battle-of-mutah.md` | ok |
-| `event/battle-of-the-trench.md` | ok |
+| `event/battle-of-uhud.md` | fixed (2) |
+| `event/bayat-al-ridwan.md` | ok |
+| `event/bedouin-excuse-makers.md` | ok |
+| `event/believers-who-lagged-without-doubt.md` | ok |
+| `event/betrayal-of-abdullah-ibn-ubayy.md` | ok |
+| `event/boycott-of-banu-hashim.md` | ok |
+| `event/boycott-of-the-three.md` | ok |
+| `event/brotherhood-of-muhajirun-and-ansar.md` | ok |
+| `event/building-of-the-kaaba.md` | ok |
+| `event/burial-of-dhu-al-bijadayn.md` | ok |
+| `event/burial-of-the-prophet.md` | ok |
+| `event/burning-of-suwaylims-house.md` | ok |
+| `event/camp-at-al-hijr.md` | ok |
+| `event/change-of-qibla.md` | ok |
+| `event/conquest-of-mecca.md` | ok |
+| `event/constitution-of-medina.md` | ok |
+| `event/conversion-of-umayr-ibn-wahb.md` | ok |
+| `event/council-of-uhud.md` | ok |
+| `event/dawat-al-ashira.md` | ok |
+| `event/death-of-abdullah-ibn-ubayy.md` | fixed (1) |
+| `event/death-of-abu-dharr-at-al-rabadha.md` | ok |
+| `event/death-of-amina.md` | ok |
+| `event/death-of-ibrahim.md` | ok |
+| `event/death-of-the-prophet.md` | ok |
+| `event/death-of-umm-kulthum-bint-muhammad.md` | ok |
 
