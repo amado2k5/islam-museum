@@ -1,0 +1,36 @@
+id: person/abu-al-rabi-sulayman-marinid
+class: person
+label:
+  ar: السلطان أبو الربيع سليمان المريني
+  en: Sultan Abu al-Rabi' Sulayman al-Marini
+summary:
+  ar: "أبو الربيع سليمان بن عبد الحق المريني (708-710هـ)؛ بايعه بنو مرين بعد مهلك أخيه أبي ثابت فتقبض على عمه علي بن رزيكة المستام للأمر، وهزم عثمان بن أبي العلاء بساحة علودان في الظهور الذي لا كفاء له، وعقد السلم مع صاحب تلمسان، وكانت أيامه خير أيام: هدنة وسكونة وترف حتى تغالى الناس في أثمان العقار فبيعت دور فاس بألف دينار، وتنافسوا في البناء بالصخر والرخام والزليج، وهلك بتازى سنة 710هـ."
+  en: "Abu al-Rabi' Sulayman ibn Abd al-Haqq al-Marini (708-710 AH); the Marinids swore him after Abu Thabit's death, he jailed his uncle Ali ibn Razika who had grasped for power, crushed Uthman ibn Abi al-Ala' at Aludan field in 'the victory without peer', and made peace with Tlemcen's lord — his days the best of days: truce, quiet and ease until Fez houses sold at a thousand gold dinars and men vied in building marble-and-zellij palaces, dying at Taza in 710 AH."
+gender: male
+roles: [sultan]
+traditions: [sunni]
+died: { edtf: "1310", hijri: "0710", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك بتازى لجمادى سنة 710هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: ruler_of
+  target: polity/marinid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: successor_of
+  target: person/abu-thabit-marinid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة السلطان أبي الربيع، ص1949 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

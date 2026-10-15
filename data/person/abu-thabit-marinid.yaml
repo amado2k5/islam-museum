@@ -1,0 +1,36 @@
+id: person/abu-thabit-marinid
+class: person
+label:
+  ar: السلطان أبو ثابت المريني
+  en: Sultan Abu Thabit al-Marini
+summary:
+  ar: "أبو ثابت عامر بن يوسف المريني، سلطان بني مرين (707-708هـ)؛ كان صقر قومه إقداماً، سار إلى تلمسان فنازلها وشد عليها الحصار، ثم دخل مراكش منتصف رجب من سنته، وهلك بتازى سنة 708هـ في ريعان ملكه."
+  en: "Abu Thabit Amir ibn Yusuf al-Marini, sultan of the Marinids (707-708 AH); 'the falcon of his people' for his daring, he marched on Tlemcen and besieged it hard, entered Marrakesh in mid-Rajab, and died at Taza in 708 AH in the flower of his reign."
+gender: male
+roles: [sultan]
+traditions: [sunni]
+died: { edtf: "1308", hijri: "0708", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك بتازى سنة 708هـ؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+relations:
+- type: ruler_of
+  target: polity/marinid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: child_of
+  target: person/abu-yusuf-yaqub-marini
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [maghreb]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — أخبار دولة أبي ثابت، ص1948-1949 (المجلد السادس، طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-maghreb-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
