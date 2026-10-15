@@ -1,0 +1,34 @@
+id: person/tuda-mengu
+class: person
+label:
+  ar: تدان بن منكوتمر ملك الدست
+  en: Tuda-Mengu ibn Mengu-Timur
+summary:
+  ar: "تدان بن منكوتمر، ملك الدست بالشمال بعد أبيه سنة 681هـ؛ جلس على كرسي ملكهم بصراي فأقام خمس سنين ثم ترهب وخرج عن الملك سنة 686هـ وانقطع إلى صحبة المشايخ الفقراء، فملك مكانه قلابغا."
+  en: "Tuda-Mengu ibn Mengu-Timur, king of the northern Dasht after his father in 681 AH; he sat five years on their throne at Saray then turned dervish, quit the kingship in 686 and devoted himself to the company of the poor shaykhs — Qalabgha succeeding."
+gender: male
+roles: [ruler]
+relations:
+- type: child_of
+  target: person/mengu-timur-dashti
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/golden-horde
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، ملك تدان وترهبه، ص1539 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-13
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

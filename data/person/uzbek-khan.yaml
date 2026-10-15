@@ -1,0 +1,47 @@
+id: person/uzbek-khan
+class: person
+label:
+  ar: أزبك بن طغرلجاي ملك الدست
+  en: Uzbek Khan ibn Tughriljay
+summary:
+  ar: "أزبك بن طغرلجاي بن منكوتمر، ملك الدست بالشمال بعد طغطاي سنة 712هـ؛ بايعه نائب طغطاي قطلتمر بإشارة الخاتون وعاهده على الإسلام فأسلم واتخذ مسجداً للصلاة وأنكر عليه بعض أمرائه فقتله، وكانت المواصلة بينه وبين ملوك مصر فزوج أخته للسلطان الناصر محمد بن قلاوون فبنى بها، وحدثت بينه وبين أبي سعيد بني هلاكو فتنة فبعث عساكره إلى أذربيجان وموقان يدعي أن توريز ومراغة لبني دوشي، ولم تزل الحرب متصلة بينه وبين أبي سعيد إلى أن هلك فولي ابنه جاني بك."
+  en: "Uzbek ibn Tughriljay ibn Mengu-Timur, king of the northern Dasht after Tughtay in 712 AH; Tughtay's lieutenant Qutlutmur pledged him at the Khatun's direction on condition of Islam — he converted, built a mosque for prayer and killed the amir who objected — kept up exchanges with Egypt's kings marrying his sister to al-Nasir Muhammad ibn Qalawun, and feuded with Abu Sa'id of the Hulaguids sending armies to Azerbaijan and Mughan claiming Tabriz and Maragha for the Jochids, war unbroken until his death when his son Janibeg succeeded."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1341~"
+  hijri: "0741~"
+  calendar: julian
+  precision: decade
+  status: debated
+  derived: true
+  note: هلك بعد سنين من حرب أبي سعيد؛ سنة الوفاة تحتاج توثيقاً.
+traditions: [sunni]
+relations:
+- type: child_of
+  target: person/tughriljay-dashti
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/golden-horde
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: allied_with
+  target: person/al-nasir-muhammad-ibn-qalawun
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة التتر، ملك أزبك بن طغرلجاي، ص1540 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-13
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
