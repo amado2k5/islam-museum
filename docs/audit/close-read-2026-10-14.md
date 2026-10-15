@@ -27,39 +27,42 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 | `event/battle-of-uhud.md` | ## غلطة الرماة والانتكاسة | ## ترك الرماة مواقعهم والانتكاسة | evaluative heading ('mistake') in museum voice |
 | `event/battle-of-uhud.md` | ## قبل المعركة: انسحاب المنافقين | ## قبل المعركة: انسحاب عبد الله بن أبي | heading labelled a named person with a faith category |
 | `event/death-of-abdullah-ibn-ubayy.md` | مات رجل كان يقول أنه مسلم لكنه كان يضرّ بالمسلمين سراً | مات رجل كانت الرواية تصفه بأنه يقول إنه مسلم ويضرّ بالمسلمين سراً | faith and hidden harm inferred in the children's section (no citation there) |
+| `event/fath-mecca-proscribed-persons.md` | الذين ارتكبوا جرائم قتل وغدر واضحة | الذين تذكر الروايات أنهم ارتكبوا جرائم قتل وغدر | judgement in the children's section (no citation there) |
+| `event/funeral-prayer-for-the-negus.md` | مات ملك الحبشة العادل الذي حمى المسلمين الأوائل في بلده | مات ملك الحبشة الذي تصفه الروايات بالعدل، والذي حمى المسلمين الأوائل في بلده | moral label in the children's section; attributed to the tradition |
+| `event/expulsion-of-jurhum.md` | فلما أساءت إلى الحجاج حاربتها خزاعة | فلما أساءت، كما تذكر الروايات، إلى الحجاج حاربتها خزاعة | moral judgement in the children's section; attributed |
 
 ## Pages needing citations (not added here)
 
 
-## Batch 8 of 19
+## Batch 9 of 19
 
-Pages event/delegation-of-abd-al-qays.md to event/expedition-of-dhu-al-ushayra.md (25 pages).
+Pages event/expedition-of-dhu-amarr.md to event/funeral-prayer-for-the-negus.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `event/delegation-of-abd-al-qays.md` | ok |
-| `event/delegation-of-banu-hanifa.md` | ok |
-| `event/delegation-of-hamdan.md` | ok |
-| `event/delegation-of-najran.md` | ok |
-| `event/delegation-of-thaqif.md` | ok |
-| `event/demolition-of-al-lat.md` | ok |
-| `event/demolition-of-al-uzza-and-idols.md` | ok |
-| `event/demolition-of-masjid-al-dirar.md` | ok |
-| `event/deposition-abd-al-hamid-1327.md` | ok |
-| `event/dispatch-of-sadaqa-collectors.md` | ok |
-| `event/distribution-of-hunayn-spoils.md` | ok |
-| `event/emigrants-carried-in-two-ships.md` | ok |
-| `event/expedition-of-al-abwa-waddan.md` | ok |
-| `event/expedition-of-al-kharrar.md` | ok |
-| `event/expedition-of-al-kudr.md` | ok |
-| `event/expedition-of-al-qarada.md` | ok |
-| `event/expedition-of-al-sawiq.md` | ok |
-| `event/expedition-of-badr-al-mawida.md` | ok |
-| `event/expedition-of-banu-al-mustaliq.md` | ok |
-| `event/expedition-of-banu-al-nadir.md` | ok |
-| `event/expedition-of-buhran.md` | ok |
-| `event/expedition-of-buwat.md` | ok |
-| `event/expedition-of-dhat-al-riqa.md` | ok |
-| `event/expedition-of-dhat-al-salasil.md` | ok |
-| `event/expedition-of-dhu-al-ushayra.md` | ok |
+| `event/expedition-of-dhu-amarr.md` | ok |
+| `event/expedition-of-dhu-qarad.md` | ok |
+| `event/expedition-of-dumat-al-jandal.md` | ok |
+| `event/expedition-of-nakhla.md` | ok |
+| `event/expedition-of-rabigh.md` | ok |
+| `event/expedition-of-safwan.md` | ok |
+| `event/expedition-of-sif-al-bahr.md` | ok |
+| `event/expedition-of-usama.md` | ok |
+| `event/expedition-to-awtas.md` | ok |
+| `event/expedition-to-tabuk.md` | ok |
+| `event/expulsion-of-jurhum.md` | fixed (1) |
+| `event/farewell-pilgrimage.md` | ok |
+| `event/farewell-sermon-at-arafat.md` | ok |
+| `event/farewell-visit-to-uhud-martyrs.md` | ok |
+| `event/fasting-of-ramadan-prescribed.md` | ok |
+| `event/fath-mecca-cleansing-kaaba.md` | ok |
+| `event/fath-mecca-proscribed-persons.md` | fixed (1) |
+| `event/fath-mecca-sermon.md` | ok |
+| `event/fatrat-al-wahy.md` | ok |
+| `event/first-encounter-with-the-ansar.md` | ok |
+| `event/first-jumma.md` | ok |
+| `event/first-migration-to-abyssinia.md` | ok |
+| `event/first-revelation.md` | ok |
+| `event/flood-of-al-aram.md` | ok |
+| `event/funeral-prayer-for-the-negus.md` | fixed (1) |
 
