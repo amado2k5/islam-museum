@@ -25,9 +25,20 @@ Plan: `docs/plan/22-illustration-run.md` (execution), built on `docs/plan/10-ima
 5. **Nothing invented.** Every visible element traces to the page's data, its prose (a cue with its source sentence) or the sourced accuracy table. The cue extractor restates; it never adds. If the page gives no visual cue, the image is a landscape of the place in the right season.
 6. **Sensitive subjects** follow doc 05 §3 and doc 16 §5: aftermath template only for massacres, atrocities and disasters (no bodies, blood or fire in progress); no polemical material; `sensitivity` set on the record.
 7. **Licence.** Published images come only from Z-Image-Turbo (Apache 2.0; confirm the licence text once and note it in the progress file). The cached FLUX.2 [klein] 9B weights are under the FLUX Non-Commercial License and are never used for anything that reaches `data/` or `site/`. Record model, exact snapshot, seed, steps, size, quantisation and prompt hash in every media record. Never name a living artist, studio or copyrighted work in a prompt.
-8. **A human approves every image.** You pre-screen (lint, OCR, face and person gates, contact sheets); the founder or a named reviewer approves one seed per entity in `review.html`; you ingest only approved seeds; you never set `status.review` above `draft` and never approve your own images.
+8. **The pipeline approves an image only when it passes every automated gate in section 3 of this rule set.** Approval is recorded as `status.approved_by: "pipeline"` with the gate report hash, and every approval is written to the daily audit file `review/<batch>/auto-approved.json`. You ingest only pipeline approvals; you never set `status.review` above `draft`.
 9. **Arabic first.** `label.ar`, `summary.ar` and `alt.ar` on every record; the alt text describes what is visible in one or two sentences and ends with the note that the scene is illustrative. English is optional.
 10. **No honorifics anywhere** (not in alt text, labels, summaries or prompt files); no Qur'an text; no `.yaml` under `content/`.
+
+## Section 3: automated approval gates
+
+An image is approved by the pipeline (rule 8) only when it passes all four gates; any failure rejects that seed, and a rejected seed is re-queued once with seed + 100.
+
+- (a) OCR gate (any recognised letters fail) and face gate (any detected face fails).
+- (b) Architecture gate: the forbidden architectural terms for the image's period are taken from `scripts/media/accuracy.yaml` `avoid_anachronisms`; a local vision-language check on the image fails on any hit.
+- (c) Prompt lint (figure words under `none`, person label with face words, anachronisms, text words, artist names, length).
+- (d) Figure gate: `figure_policy` respected; any image under `figure_policy: none` with any detected human fails.
+
+Rules that stay enforced by the pipeline with no exception: no prophet or Companion depicted; no real person's likeness; no text in the image; Arabic alt text required, written by a rule-based template from the prompt file (not by the image model) and saying the scene is illustrative; `status.review` stays `draft`; licence CC0 for records; Z-Image-Turbo only.
 
 ## Setup on the Mac (once)
 
@@ -54,8 +65,8 @@ Follow `docs/plan/22-illustration-run.md` §5 for the scripts and §7 for the or
 3. `lint.py` on the prompt files: figure words under `none`, person label with face words, anachronisms, text words, artist names, length. Fix the template or the cue, not the lint.
 4. `generate.py <class>` under tmux and caffeinate: Z-Image-Turbo loaded once, 1536 × 1024, 8 steps, three seeds per entity, resumable log in `~/islam-museum-media/generation.log.jsonl`. Expect about 80 s per image.
 5. `screen.py <batch>`: OCR and face and person gates; failed seeds re-queued once with seed + 100.
-6. `contact.py <batch>` → `~/islam-museum-media/review/<batch>/review.html`. Tell the reviewer in the progress file that the sheet is ready and stop the batch there; continue with the next batch's steps 1–6 while waiting.
-7. After `decisions.json` exists: `ingest.py <batch>` writes WebPs, records and `media.hero` links; write the Arabic alt text yourself from the approved image; `npm run validate && npm test && npm run coverage`; commit explicit paths; `git pull --rebase origin main`; validate and test again; push to main and to your branch.
+6. **`approve.py <batch>`** runs the automated gates of section 3 on every seed that passed step 5, approves at most one seed per entity that passes all of them, and writes `~/islam-museum-media/review/<batch>/auto-approved.json` (every approval, seed, gate results, timestamp). No contact sheet and no human step. Continue with the next batch's steps 1–6 as soon as this finishes.
+7. `ingest.py <batch>` reads the pipeline approvals (not `decisions.json`) and writes WebPs, records and `media.hero` links; write the Arabic alt text from the prompt file by the rule-based template (it must say the scene is illustrative), not from the image model; `npm run validate && npm test && npm run coverage`; commit explicit paths; `git pull --rebase origin main`; validate and test again; push to main and to your branch. To revert any approval, delete its record and re-run `ingest.py`.
 8. Update `docs/delegation/illustrations-progress.md` (batch done, images approved and rejected with reasons, prompt or template changes, next step) and the lane's row in `docs/status.md`.
 
 Batch 0 comes first: regenerate `illus-event-battle-of-badr`, `illus-event-battle-of-uhud` and `illus-event-battle-of-the-trench` with Z-Image-Turbo under the same ids, replace the three WebPs and complete their records (section 5 of doc 22 shows the finished shape); say in the commit message that the earlier files came from a non-commercially licensed model.
