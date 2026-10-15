@@ -1,0 +1,22 @@
+id: event/killing-aq-sunqur-bursuqi-520
+class: event
+kind: death
+label: { ar: "اغتيال آق سنقر البرسقي" }
+summary:
+  ar: "في سنة ٥٢٠هـ قتل الباطنيون آق سنقر البرسقي أمير الموصل وهو يصلي في الجامع الكبير بالموصل، وكان مشتغلاً بجهاد الصليبيين؛ قال عنه ابن الأثير: «كان مملوكاً تركياً خيراً، يحب أهل العلم والصالحين ويرى العدل ويفعله، وكان خير الولاة، يحافظ على الصلوات في أوقاتها، ويصلي من الليل متهجداً» {cite:dawlat-uthmaniyya-salabi p. 35}."
+  en: "In 1126 the Batinis assassinated Aq Sunqur al-Bursuqi, atabeg of Mosul and crusade-fighter, while he prayed in Mosul's Great Mosque {cite:dawlat-uthmaniyya-salabi p. 35}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1126", hijri: "0520", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٥٢٠هـ {cite:dawlat-uthmaniyya-salabi p. 35}." }
+relations:
+  - { type: occurred_at, target: place/mosul }
+  - { type: had_participant, target: person/aq-sunqur-bursuqi, role: "المقتول", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 35"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-11
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
