@@ -31,35 +31,35 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 ## Pages needing citations (not added here)
 
 
-## Batch 7 of 19
+## Batch 8 of 19
 
-Pages event/battle-of-uhud.md to event/death-of-umm-kulthum-bint-muhammad.md (25 pages).
+Pages event/delegation-of-abd-al-qays.md to event/expedition-of-dhu-al-ushayra.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `event/battle-of-uhud.md` | fixed (2) |
-| `event/bayat-al-ridwan.md` | ok |
-| `event/bedouin-excuse-makers.md` | ok |
-| `event/believers-who-lagged-without-doubt.md` | ok |
-| `event/betrayal-of-abdullah-ibn-ubayy.md` | ok |
-| `event/boycott-of-banu-hashim.md` | ok |
-| `event/boycott-of-the-three.md` | ok |
-| `event/brotherhood-of-muhajirun-and-ansar.md` | ok |
-| `event/building-of-the-kaaba.md` | ok |
-| `event/burial-of-dhu-al-bijadayn.md` | ok |
-| `event/burial-of-the-prophet.md` | ok |
-| `event/burning-of-suwaylims-house.md` | ok |
-| `event/camp-at-al-hijr.md` | ok |
-| `event/change-of-qibla.md` | ok |
-| `event/conquest-of-mecca.md` | ok |
-| `event/constitution-of-medina.md` | ok |
-| `event/conversion-of-umayr-ibn-wahb.md` | ok |
-| `event/council-of-uhud.md` | ok |
-| `event/dawat-al-ashira.md` | ok |
-| `event/death-of-abdullah-ibn-ubayy.md` | fixed (1) |
-| `event/death-of-abu-dharr-at-al-rabadha.md` | ok |
-| `event/death-of-amina.md` | ok |
-| `event/death-of-ibrahim.md` | ok |
-| `event/death-of-the-prophet.md` | ok |
-| `event/death-of-umm-kulthum-bint-muhammad.md` | ok |
+| `event/delegation-of-abd-al-qays.md` | ok |
+| `event/delegation-of-banu-hanifa.md` | ok |
+| `event/delegation-of-hamdan.md` | ok |
+| `event/delegation-of-najran.md` | ok |
+| `event/delegation-of-thaqif.md` | ok |
+| `event/demolition-of-al-lat.md` | ok |
+| `event/demolition-of-al-uzza-and-idols.md` | ok |
+| `event/demolition-of-masjid-al-dirar.md` | ok |
+| `event/deposition-abd-al-hamid-1327.md` | ok |
+| `event/dispatch-of-sadaqa-collectors.md` | ok |
+| `event/distribution-of-hunayn-spoils.md` | ok |
+| `event/emigrants-carried-in-two-ships.md` | ok |
+| `event/expedition-of-al-abwa-waddan.md` | ok |
+| `event/expedition-of-al-kharrar.md` | ok |
+| `event/expedition-of-al-kudr.md` | ok |
+| `event/expedition-of-al-qarada.md` | ok |
+| `event/expedition-of-al-sawiq.md` | ok |
+| `event/expedition-of-badr-al-mawida.md` | ok |
+| `event/expedition-of-banu-al-mustaliq.md` | ok |
+| `event/expedition-of-banu-al-nadir.md` | ok |
+| `event/expedition-of-buhran.md` | ok |
+| `event/expedition-of-buwat.md` | ok |
+| `event/expedition-of-dhat-al-riqa.md` | ok |
+| `event/expedition-of-dhat-al-salasil.md` | ok |
+| `event/expedition-of-dhu-al-ushayra.md` | ok |
 
