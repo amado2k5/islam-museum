@@ -1,0 +1,24 @@
+id: event/tripoli-rising-against-normans
+class: event
+kind: revolt
+label: { ar: "ثورة طرابلس على النصارى وإحراقهم" }
+summary:
+  ar: "لما استولى رجار صاحب صقلية على طرابلس بإفريقية وأبقى المسلمين بها تحت مملكته واستعمل عليهم من شاء، مشى أبو يحيى بن مطروح من أعيان البلد في وجوه الناس وأعيانهم وداخلهم في الفتك بالنصارى فاجتمعوا لذلك وثاروا بهم وأحرقوهم بالنار، واستقر ابن مطروح والياً على طرابلس إلى أن وليها عبد المؤمن سنة 555هـ فأوفده إليها ورد أهلها إليها {cite:tarikh-ibn-khaldun-ibar p. 1638}."
+  en: "When Roger of Sicily took Tripoli of Ifriqiya and kept its Muslims under his rule, Abu Yahya ibn Matruh, one of the town's notables, went among its leading men and drew them into striking the Normans — they rose, killed them and burned them, and Ibn Matruh governed Tripoli until Abd al-Mu'min's coming in 555 restored it {cite:tarikh-ibn-khaldun-ibar p. 1638}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+date:
+  start: { edtf: "1153~", hijri: "0548~", calendar: julian, precision: year, status: tradition, derived: true, note: "بعد استيلاء النصارى على طرابلس وقبل ورود عبد المؤمن سنة 555هـ؛ التاريخ تقريبي {cite:tarikh-ibn-khaldun-ibar p. 1638}." }
+relations:
+  - { type: had_participant, target: person/roger-of-sicily, role: "صاحب الاحتلال النورماني", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: had_participant, target: person/abu-yahya-ibn-matruh, role: "قائد الثورة", sources: [source/tarikh-ibn-khaldun-ibar] }
+  - { type: occurred_at, target: place/tarabulus-gharb, sources: [source/tarikh-ibn-khaldun-ibar] }
+provenance:
+  layer: own-research
+  source: "ابن خلدون، العبر — الخبر عن ثورة رافع بن مكن بن مطروح بطرابلس على النصارى (طبعة هيليوبوليس)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-ibar-east-18
+sources: [source/tarikh-ibn-khaldun-ibar]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
