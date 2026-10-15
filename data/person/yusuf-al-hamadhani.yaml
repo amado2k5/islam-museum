@@ -1,0 +1,26 @@
+id: person/yusuf-al-hamadhani
+class: person
+label: { ar: "يوسف الهمذاني" }
+names:
+  - { value: "يوسف بن أيوب بن يوسف بن الحسين بن وهرة أبو يعقوب الهمذاني", kind: full }
+gender: male
+roles: [jurist, sufi]
+born: { edtf: "1048~", hijri: "0440", calendar: julian, precision: year, status: debated, derived: true, note: "مولده تقديراً لا تحقيقاً سنة أربعين أو إحدى وأربعين وأربعمائة ببوزنجرد قرية من قرى همذان مما يلي الري {cite:wafayat-ayan p. 80}." }
+died: { edtf: "1140~", hijri: "0535", calendar: julian, precision: month, status: tradition, derived: true, note: "أدركته منيته بباميين بين هراة وبغشور في شهر ربيع الأول سنة ٥٣٥هـ ودفن ثم نقل بعد ذلك إلى مرو {cite:wafayat-ayan p. 80}." }
+summary:
+  ar: "أبو يعقوب يوسف بن أيوب الهمذاني، الفقيه الزاهد الجليل صاحب المقامات والكرامات؛ من أهل بوزنجرد قرية من قرى همذان، قدم بغداد في صباه بعد الستين وأربعمائة ولازم الشيخ أبا إسحاق الشيرازي وتفقه عليه حتى برع في أصول الفقه والمذهب والخلاف وكان الشيرازي يقدمه على جماعة من أصحابه مع صغر سنه لعلمه بزهده، ثم زهد في ذلك كله واشتغل بالزهد والعبادة والرياضة والمجاهدة حتى صار علماً من أعلام الدين؛ وقدم بغداد سنة خمس عشرة وخمسمائة وعقد بها مجلس الوعظ بالمدرسة النظامية وصادف قبولاً عظيماً، وقيل فيه حين آذاه فقيه يعرف بابن السقاء عن مسألة: اجلس فإني أجد من كلامك رائحة الكفر ولعلك تموت على غير دين الإسلام — فاتفق أن ابن السقاء التحق بعدها برسول ملك الروم فتنصر ومات على النصرانية بالقسطنطينية {cite:wafayat-ayan p. 78-79}. ونزل مرو وسكنها واجتمع برباطه بها جماعة من المنقطعين إلى الله ما لا يتصور أن يكون في غيره من الربط مثلهم، وإليه انتهت تربية المريدين الصادقين كما قال ابن السمعاني، وخرج إلى هراة وأقام بها مدة ثم عزم على الرجوع إلى مرو فأدركته منيته بباميين بين هراة وبغشور في ربيع الأول سنة خمس وثلاثين وخمسمائة ودفن ثم نقل إلى مرو {cite:wafayat-ayan p. 79-80}."
+  en: "Abu Ya'qub Yusuf al-Hamadhani — the ascetic jurist of Buzanjird who outshone his peers in Abu Ishaq al-Shirazi's Baghdad circle, then abandoned disputation for devotion, preached at the Nizamiyya in 515, and gathered at his Merv ribat such a company of seekers that al-Sam'ani said the training of sincere murids ended with him; died at Bamiyyin in Rabi' I 535 and was carried back to Merv {cite:wafayat-ayan p. 78-80}."
+wings: [people, ideas]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq]
+relations:
+  - { type: student_of, target: person/abu-ishaq-al-shirazi, sources: [source/wafayat-ayan] }
+  - { type: born_in, target: place/hamadan, sources: [source/wafayat-ayan] }
+  - { type: died_in, target: place/merv, sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 78-80"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-2
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,24 @@
+id: person/yusuf-al-sirafi
+class: person
+label: { ar: "يوسف السيرافي" }
+names:
+  - { value: "أبو محمد يوسف بن أبي سعيد الحسن بن عبد الله بن المرزبان السيرافي", kind: full }
+gender: male
+roles: [grammarian, lexicographer]
+born: { edtf: "0941~", hijri: "0330", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده سنة ٣٣٠هـ {cite:wafayat-ayan p. 74}." }
+died: { edtf: "0995~", hijri: "0385", calendar: julian, precision: year, status: debated, derived: true, note: "توفي لثلاث خلون أو بقين من الشهر المذكور سنة خمس وثمانين وثلاثمائة — اختلفت الروايتان في اليوم {cite:wafayat-ayan p. 73-74}." }
+summary:
+  ar: "أبو محمد يوسف بن أبي سعيد السيرافي، النحوي اللغوي الأخباري الفاضل ابن الفاضل؛ تصدر في مجلس أبيه بعد موته وخلفه على ما كان عليه، وأكمل كتاب أبيه «الإقناع» الذي مات قبل إتمامه فكأنه ثمرة استفادة أبيه حال تصنيف شرح كتاب سيبويه، فإذا تأمله المنصف لم يجد بين اللفظين والقصدين تفاوتاً كثيراً؛ وصنف عدة كتب في شرح أبيات استشهادات الكتب المشهورة مثل «شرح أبيات كتاب سيبويه» وهو الغاية في بابه وبسطه، و«شرح أبيات إصلاح المنطق» وأجاد فيه، و«شرح أبيات المجاز» لأبي عبيدة وأبيات معاني الزجاج، و«شرح أبيات غريب المصنف» لأبي عبيد القاسم بن سلام {cite:wafayat-ayan p. 72-73}. وحكى المعري أنه كان سماناً فلما تغير وجهه يوم صوّب أباه في مجلسه نهض إلى دكانه فباعها واشتغل بالعلم حتى برع فيه وبلغ الغاية، وحدث المعري من رآه وبين يديه أربعمائة ديوان وهو يعمل شرح إصلاح المنطق {cite:wafayat-ayan p. 73}."
+  en: "Abu Muhammad Yusuf al-Sirafi — 'the excellent son of the excellent', who succeeded his father Abu Sa'id in his majlis, completed his al-Iqna', and wrote the indispensable commentary on Sibawayh's verses plus shuruh on Islah al-Mantiq, al-Majaz and Gharib al-Musannaf; al-Ma'arri tells he abandoned his grocer's shop in a flash of wounded pride and worked with four hundred diwans open before him {cite:wafayat-ayan p. 72-74}."
+wings: [people, made]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+  - { type: child_of, target: person/al-sirafi, sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 72-74"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

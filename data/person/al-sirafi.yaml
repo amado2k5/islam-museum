@@ -1,0 +1,22 @@
+id: person/al-sirafi
+class: person
+label: { ar: "أبو سعيد السيرافي" }
+names:
+  - { value: "أبو سعيد الحسن بن عبد الله بن المرزبان السيرافي", kind: full }
+gender: male
+roles: [grammarian, lexicographer]
+summary:
+  ar: "أبو سعيد الحسن بن عبد الله بن المرزبان السيرافي، النحوي اللغوي المشهور؛ شرح كتاب سيبويه فظهر له بالاطلاع والبحث في حال التصنيف ما لم يظهر لغيره ممن يعاني هذا الشأن، وصنف بعد ذلك كتاب «الإقناع» فكأنه ثمرة استفادته حال البحث والتصنيف ومات قبل إتمامه فأكمله ولده أبو محمد يوسف، وكان له ببغداد مجلس يقرأ فيه العلماء عليه حتى إن خازن دار العلم عبد السلام البصري كان من جلسائه {cite:wafayat-ayan p. 72-73}."
+  en: "Abu Sa'id al-Sirafi — the celebrated grammarian whose commentary on Sibawayh's Kitab revealed things no one else in the field had seen, and whose al-Iqna' was completed by his son Abu Muhammad; his Baghdad majlis drew even the keeper of Dar al-'Ilm's library {cite:wafayat-ayan p. 72-73}."
+wings: [people, made]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/wafayat-ayan] }
+sources: [source/wafayat-ayan]
+provenance:
+  layer: own-research
+  source: "وفيات الأعيان — ابن خلكان (حرف الياء) ص 72-74 (في ترجمة ولده يوسف)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-wafayat-batch-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
