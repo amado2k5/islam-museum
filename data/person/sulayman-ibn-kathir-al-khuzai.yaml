@@ -10,6 +10,8 @@ wings: [people]
 periods: [period/umayyad, period/abbasid-early]
 regions: [persia-central-asia]
 themes: [sects-and-schools]
+relations:
+  - { type: member_of, target: group/abbasid-dawa, role: "نقيب النقباء", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
 sources: [source/tarikh-dawla-abbasiyya-taqqush]
 provenance:
   layer: own-research
