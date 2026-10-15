@@ -1,0 +1,27 @@
+id: event/death-of-abd-al-muttalib
+class: event
+kind: death
+label: { ar: "وفاة عبد المطلب وكفالة أبي طالب", en: "Death of Abd al-Muttalib and Abu Talib's guardianship" }
+summary:
+  ar: "مات عبد المطلب بمكة ولحفيده محمد ثماني سنوات وشهران وعشرة أيام، بعد أن رقّ عليه رقة لم يرقّها على أحد من أولاده، ورأى قبل وفاته أن يعهد بكفالته إلى عمه أبي طالب شقيق أبيه، فنهض أبو طالب بحقه وظل فوق أربعين سنة يحميه."
+  en: "Abd al-Muttalib died at Mecca when his grandson Muhammad was eight years, two months and ten days old, having shown him a tenderness he showed none of his sons; before dying he entrusted the boy to his uncle Abu Talib, full brother of his father, who took up the charge and protected him for over forty years."
+date:
+  start: { edtf: "0578~", calendar: julian, precision: year, status: tradition, note: "لا يذكر الكتاب سنة؛ يضع الوفاة ولعمر الحفيد ثماني سنوات وشهرين وعشرة أيام من عام الفيل (الرحيق ص58؛ تلقيح فهوم أهل الأثر ص7؛ ابن هشام 1/169).", derived: true, sources: [source/mubarakpuri-raheeq, source/talqih-fuhum-ahl-al-athr] }
+participants:
+  - { target: person/abd-al-muttalib, role: "المتوفى" }
+  - { target: person/muhammad, role: "الحفيد اليتيم" }
+  - { target: person/abu-talib, role: "الكافل بعده" }
+wings: [people, time]
+themes: [family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص54–58 نقلاً عن ابن هشام 1/159–169 وتلقيح فهوم أهل الأثر ص4–7 وزاد المعاد 1/18–19 وصحيح مسلم 1/92 ومختصر سيرة الرسول للنجدي ص12–16"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-6a"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/talqih-fuhum-ahl-al-athr]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 57–58" }

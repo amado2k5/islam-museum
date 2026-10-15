@@ -18,3 +18,7 @@ translators: []
 
 ## للزوار الصغار
 وقف عمّ النبي نفسه ضده — وفي القرآن سورة كاملة عنه. البيوت لا تتفق دائمًا.
+
+
+## في فصل المولد من الرحيق المختوم (ص55)
+يذكر الكتاب أن أول من أرضع النبي بعد أمه [[person/thuwayba|ثويبة]] مولاة أبي لهب، بلبن ابن لها يقال له مسروح {cite:mubarakpuri-raheeq p.55} {cite:talqih-fuhum-ahl-al-athr p.4} {cite:mukhtasar-sirat-al-rasul-al-najdi p.13}. ويعدّه الكتاب سادس بني [[person/abd-al-muttalib|عبد المطلب]] العشرة {cite:mubarakpuri-raheeq p.52}.

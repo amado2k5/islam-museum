@@ -22,3 +22,7 @@ translators: []
 
 ## في فصل الأسرة النبوية من الرحيق المختوم (ص52)
 يعدّه الرحيق المختوم ثالث بني عبد المطلب العشرة بعد الحارث والزبير {cite:mubarakpuri-raheeq p.52} {cite:talqih-fuhum-ahl-al-athr p.8-9}. وحين خرجت قداح النذر على أخيه [[person/abdullah-ibn-abd-al-muttalib|عبد الله]] وأقبل به أبوهما إلى الكعبة ليذبحه، كان أبو طالب مع أخوال عبد الله من [[group/banu-makhzum|بني مخزوم]] فيمن منعه، حتى فُدي عبد الله بمائة من الإبل ([[event/vow-and-lot-of-abd-al-muttalib|نذر عبد المطلب والقرعة]]) {cite:mubarakpuri-raheeq p.52} {cite:ibn-hisham-sira 1/151-155}.
+
+
+## كفالة ابن أخيه (الرحيق المختوم ص58)
+عهد إليه [[person/abd-al-muttalib|عبد المطلب]] قبل وفاته بكفالة حفيده محمد، وهو شقيق أبيه عبد الله {cite:mubarakpuri-raheeq p.58} {cite:talqih-fuhum-ahl-al-athr p.7} {cite:ibn-hisham-sira 1/169}. فنهض بحق ابن أخيه على أكمل وجه، وضمّه إلى ولده وقدّمه عليهم واختصه بفضل احترام وتقدير، وظل فوق أربعين سنة يعزّ جانبه ويبسط عليه حمايته ويصادق ويخاصم من أجله ([[event/death-of-abd-al-muttalib|وفاة عبد المطلب وكفالة أبي طالب]]) {cite:mubarakpuri-raheeq p.58}. ومن أخبار تلك الكفالة ما يرويه ابن عساكر من استسقائه بالغلام حين أقحط الوادي ([[event/istisqa-abi-talib-bi-al-nabi|الاستسقاء]])، وإليه أشار في شعره بالأبيض الذي يُستسقى الغمام بوجهه {cite:mubarakpuri-raheeq p.58} {cite:mukhtasar-sirat-al-rasul-al-najdi p.15-16}.

@@ -1,0 +1,26 @@
+id: event/istisqa-abi-talib-bi-al-nabi
+class: event
+kind: other
+label: { ar: "استسقاء أبي طالب بالغلام محمد", en: "Abu Talib's prayer for rain with the boy Muhammad" }
+summary:
+  ar: "خبر يرويه ابن عساكر عن جلهمة بن عرفطة: قدم مكة وأهلها في قحط فسألت قريش أبا طالب أن يستسقي، فخرج ومعه غلام فألصق ظهره بالكعبة ولاذ الغلام بأصبعه وما في السماء قزعة، فأقبل السحاب وأغدق وانفجر الوادي؛ وإليه أشار أبو طالب في شعره بالأبيض الذي يُستسقى الغمام بوجهه."
+  en: "A report Ibn Asakir transmits from Jalhama ibn Urfuta: arriving at Mecca in a drought he saw Quraysh ask Abu Talib to pray for rain; Abu Talib went out with a boy, set his back to the Kaaba while the boy pointed with his finger under a cloudless sky, and the clouds gathered and the valley flooded; Abu Talib's verse about the fair one by whose face rain is sought refers to this."
+date:
+  start: { edtf: "058X", calendar: julian, precision: decade, status: tradition, note: "في صباه في كفالة أبي طالب؛ لا يؤرخه الكتاب.", sources: [source/mubarakpuri-raheeq] }
+participants:
+  - { target: person/abu-talib, role: "المستسقي" }
+  - { target: person/muhammad, role: "الغلام الذي استُسقي به" }
+wings: [people, time]
+themes: [sacred-space-and-pilgrimage]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص54–58 نقلاً عن ابن هشام 1/159–169 وتلقيح فهوم أهل الأثر ص4–7 وزاد المعاد 1/18–19 وصحيح مسلم 1/92 ومختصر سيرة الرسول للنجدي ص12–16"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-6a"
+sources: [source/mubarakpuri-raheeq, source/mukhtasar-sirat-al-rasul-al-najdi]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 58" }

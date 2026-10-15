@@ -31,3 +31,7 @@ translators: []
 
 ## ملاحظات للباحثين
 - سنة 497م لمولده تأريخ المؤلف عن رحمة للعالمين، لا مصدر ثانٍ له؛ والخلاف في عدد بنيه (عشرة أو أحد عشر أو ثلاثة عشر) مسجل كما أورده المؤلف.
+
+
+## مع حفيده محمد (الرحيق المختوم ص54–58)
+لما وُلد حفيده بشّرته آمنة فجاء مستبشراً ودخل به الكعبة ودعا الله وشكر له، واختار له اسم محمد وختنه يوم سابعه ([[event/year-of-the-elephant-and-birth|المولد]]) {cite:mubarakpuri-raheeq p.54} {cite:ibn-hisham-sira 1/159-160}. والتمس له الرضعاء واسترضع له [[person/halima-al-sadiyya|حليمة]] في بني سعد بن بكر {cite:mubarakpuri-raheeq p.55}. وبعد [[event/death-of-amina|وفاة آمنة]] عاد به إلى مكة ورقّ عليه رقة لم يرقّها على أحد من أولاده، وكان يجلسه معه على فراشه في ظل الكعبة الذي لا يجلس عليه أحد من بنيه، ويقول إن لابنه هذا شأناً {cite:mubarakpuri-raheeq p.57} {cite:ibn-hisham-sira 1/168}. ومات بمكة ولحفيده ثماني سنوات وشهران وعشرة أيام بعد أن عهد بكفالته إلى [[person/abu-talib|أبي طالب]] ([[event/death-of-abd-al-muttalib|وفاة عبد المطلب]]) {cite:mubarakpuri-raheeq p.58} {cite:talqih-fuhum-ahl-al-athr p.7} {cite:ibn-hisham-sira 1/169}.

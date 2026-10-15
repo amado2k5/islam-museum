@@ -27,3 +27,7 @@ translators: []
 
 ## في تركة عبد الله (الرحيق المختوم ص53)
 يذكر الرحيق المختوم أن جميع ما خلّفه [[person/abdullah-ibn-abd-al-muttalib|عبد الله بن عبد المطلب]] خمسة أجمال وقطعة غنم وجارية حبشية اسمها بركة وكنيتها أم أيمن، وأنها حاضنة النبي {cite:mubarakpuri-raheeq p.53} {cite:mukhtasar-sirat-al-rasul-al-najdi p.12} {cite:talqih-fuhum-ahl-al-athr p.4} {cite:sahih-muslim 2/96}. فهي بذلك من بيت أبيه قبل أن يولد، وانتقلت إلى أمه [[person/amina-bint-wahb|آمنة]] ثم إليه ([[event/death-of-abdullah-ibn-abd-al-muttalib|وفاة عبد الله]]) {cite:mubarakpuri-raheeq p.53}.
+
+
+## في رحلة يثرب (الرحيق المختوم ص57)
+يذكر الكتاب أن آمنة خرجت من مكة إلى يثرب في رحلة يقدّرها بخمسمائة كيلومتر، ومعها ولدها اليتيم محمد وخادمتها أم أيمن وقيّمها عبد المطلب، فمكثت شهراً ثم ماتت في العودة بالأبواء ([[event/death-of-amina|وفاة آمنة]]) {cite:mubarakpuri-raheeq p.57} {cite:ibn-hisham-sira 1/168} {cite:fiqh-al-sira-al-ghazali p.50}.
