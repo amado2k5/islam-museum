@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.457"
-label: { ar: "الموطأ 1.457", en: "Muwatta 1.457" }
+label: { ar: "الموطأ 457 — أبو مسعود: بشير بن سعد يسأل في مجلس سعد بن عبادة كيف نصلي عليك", en: "Muwatta 457" }
+text: "اللهم صل على محمد وعلى آل محمد كما صليت على إبراهيم، وبارك على محمد وعلى آل محمد كما باركت على آل إبراهيم في العالمين، إنك حميد مجيد، والسلام كما قد علمتم"
 summary:
-  ar: "نعيم بن عبد الله المجمر عن محمد بن عبد الله بن زيد الأنصاري: أخبره حديث في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن نعيم بن عبد الله المجمر عن محمد بن عبد الله بن زيد الأنصاري عن أبي مسعود الأنصاري، في باب ما جاء في الصلاة على النبي: أتاهم النبي في مجلس سعد بن عبادة فسأله بشير بن سعد: أمرنا الله أن نصلي عليك فكيف نصلي عليك؟ فسكت النبي حتى تمنوا أنه لم يسأله، ثم علمهم أن يقولوا: اللهم صل على محمد وعلى آل محمد كما صليت على إبراهيم، وبارك على محمد وعلى آل محمد كما باركت على آل إبراهيم في العالمين، إنك حميد مجيد، والسلام كما قد علمتم. ويخرّجه المحقق عند مسلم (2/16) وأبي داود (980) والترمذي (3220) والنسائي (3/45) وابن حبان وأحمد والدارمي والشافعي من طرق أصحاب مالك، ويحيل على التمهيد (16/183). {cite:muwatta-maruf-1997 p.234} {cite:muwatta-maruf-1997 p.235}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 457 of kitab al-salat at PDF p. 234", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-21" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-masud-al-badri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/bashir-ibn-sad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sad-ibn-ubada, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-abdallah-ibn-zayd-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nuaym-ibn-abdallah-al-mujmir, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 457 at PDF p. 234; باب ما جاء في الصلاة على النبي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b19" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 234; matn excerpt at most 40 words" }

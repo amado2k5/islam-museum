@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.454"
-label: { ar: "الموطأ 1.454", en: "Muwatta 1.454" }
+label: { ar: "الموطأ 454 — زيد بن ثابت يركع ثم يدب حتى يصل الصف", en: "Muwatta 454" }
 summary:
-  ar: "أبو أمامة بن سهل بن حنيف: دخل زيد بن ثابت... ؛ الحديث في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "أول أثر في باب ما يفعل من جاء والإمام راكع. يرويه يحيى عن مالك عن ابن شهاب عن أبي أمامة بن سهل بن حنيف: دخل زيد بن ثابت المسجد فوجد الناس ركوعاً فركع ثم دبّ حتى وصل الصف. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، وأن البيهقي أخرجه من غير طريق مالك، وأن عبد الرزاق أخرج عن سعد بن إبراهيم أن زيداً كان يركع ثم يتمشى راكعاً. {cite:muwatta-maruf-1997 p.233}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 454 of kitab al-salat at PDF p. 233", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-21" }
+  - { type: mentions, target: person/zayd-ibn-thabit, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-umama-ibn-sahl-ibn-hunayf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 454 at PDF p. 233; باب ما يفعل من جاء والإمام راكع", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b19" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 233; matn excerpt at most 40 words" }

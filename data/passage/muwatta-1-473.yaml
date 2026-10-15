@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.473"
-label: { ar: "الموطأ 1.473", en: "Muwatta 1.473" }
+label: { ar: "الموطأ 473 — مروا أبا بكر فليصل للناس: إنكن لأنتن صواحب يوسف", en: "Muwatta 473" }
+text: "إنكن لأنتن صواحب يوسف، مروا أبا بكر فليصل للناس"
 summary:
-  ar: "هشام بن عروة عن أبيه عن عائشة: قال النبي ﷺ: ... ؛ الحديث في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه عن عائشة، في باب جامع الصلاة: أمر النبي في مرضه أن يُؤمر أبو بكر فيصلي بالناس، فقالت عائشة إن أبا بكر إذا قام في مقامه لم يُسمع الناس من البكاء فليأمر عمر، فأعاد أمره، فقالت عائشة لحفصة أن تقول له مثل ذلك ففعلت، فقال النبي: إنكن لأنتن صواحب يوسف، مروا أبا بكر فليصل للناس، فقالت حفصة لعائشة إنها ما كانت لتصيب منها خيراً. ويخرّجه المحقق عند البخاري (679، 7303) والترمذي (3672) وأبي عوانة والبيهقي من طرق أصحاب مالك، ويحيل على التمهيد (22/123). {cite:muwatta-maruf-1997 p.242}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 473 of kitab al-salat at PDF p. 242", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-22" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hafsa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 473 at PDF p. 242; باب جامع الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b19" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 242; matn excerpt at most 40 words" }

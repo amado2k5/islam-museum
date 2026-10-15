@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.470"
-label: { ar: "الموطأ 1.470", en: "Muwatta 1.470" }
+label: { ar: "الموطأ 470 — سعيد بن المسيب: ما صلاة يُجلس في كل ركعة منها؟ المغرب إذا فاتتك منها ركعة", en: "Muwatta 470" }
 summary:
-  ar: "ابن شهاب عن سعيد بن المسيب: ما صلاة يجلس في كل ركعة منها... ؛ حكم الجلوس في الصلاة."
+  ar: "أثر يرويه مالك عن ابن شهاب عن سعيد بن المسيب، في باب العمل في جامع الصلاة: سأل سعيد ما الصلاة التي يُجلس في كل ركعة منها، ثم أجاب: هي المغرب إذا فاتتك منها ركعة، وكذلك سنة الصلاة كلها، أي أن المسبوق يجلس مع الإمام ثم يجلس في قضائه. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.240}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 470 of kitab al-salat at PDF p. 240", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-22" }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 470 at PDF p. 240; باب العمل في جامع الصلاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b19" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القول تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 240; matn excerpt at most 40 words" }
