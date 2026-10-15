@@ -36,35 +36,35 @@ Pages are committed in 19 batches of at most 25 pages. This document grows by on
 ## Pages needing citations (not added here)
 
 
-## Batch 13 of 19
+## Batch 14 of 19
 
-Pages event/sariyya-of-alqama-to-jeddah.md to event/umar-dismisses-al-numan-ibn-adi.md (25 pages).
+Pages event/umrah-of-jirana.md to journey/hamra-al-asad-pursuit.md (25 pages).
 
 | Page | Result |
 |---|---|
-| `event/sariyya-of-alqama-to-jeddah.md` | ok |
-| `event/sariyya-of-qutba-to-khatham.md` | ok |
-| `event/sariyya-of-uyayna-to-banu-tamim.md` | ok |
-| `event/second-migration-to-abyssinia.md` | ok |
-| `event/sermon-at-mina-yawm-al-nahr.md` | ok |
-| `event/settlement-of-hajar-and-ismail.md` | ok |
-| `event/shaqq-al-sadr.md` | ok |
-| `event/siege-of-banu-qaynuqa.md` | ok |
-| `event/siege-of-banu-qurayza.md` | ok |
-| `event/siege-of-taif.md` | ok |
-| `event/stoning-of-al-ghamidiyya.md` | ok |
-| `event/sunbadh-revolt-137.md` | ok |
-| `event/tabuk-departure-and-deputies.md` | ok |
-| `event/tabuk-mobilisation-order.md` | ok |
-| `event/tabuk-stay-and-return.md` | ok |
-| `event/the-choice-of-the-prophets-wives.md` | ok |
-| `event/the-prophets-she-camel-strays.md` | ok |
-| `event/the-three-left-behind.md` | ok |
-| `event/the-weepers-al-bakkaun.md` | ok |
-| `event/treaty-of-ayla.md` | ok |
-| `event/treaty-of-hudaybiyya.md` | ok |
-| `event/treaty-of-ukaydir.md` | ok |
-| `event/ubaydullah-ibn-jahsh-leaves-islam-in-abyssinia.md` | ok |
-| `event/uhud-tactical-deployment.md` | ok |
-| `event/umar-dismisses-al-numan-ibn-adi.md` | ok |
+| `event/umrah-of-jirana.md` | ok |
+| `event/umrah-of-qada.md` | ok |
+| `event/utba-offer.md` | ok |
+| `event/uthman-funds-the-army-of-hardship.md` | ok |
+| `event/vow-and-lot-of-abd-al-muttalib.md` | ok |
+| `event/walid-council.md` | ok |
+| `event/water-of-wadi-al-mushaqqaq.md` | ok |
+| `event/year-of-delegations.md` | ok |
+| `event/year-of-sorrow.md` | ok |
+| `event/year-of-the-elephant-and-birth.md` | ok |
+| `journey/aydhab-to-jeddah.md` | ok |
+| `journey/badr-march.md` | ok |
+| `journey/badr-to-medina-jubayr.md` | ok |
+| `journey/baghdad-to-damascus-jubayr.md` | ok |
+| `journey/baghdad-to-medina-jubayr.md` | ok |
+| `journey/banu-qurayza-march.md` | ok |
+| `journey/basra-to-persia-battuta.md` | ok |
+| `journey/cairo-to-aydhab.md` | ok |
+| `journey/dumat-al-jandal-5ah.md` | ok |
+| `journey/dumat-al-jandal-expedition.md` | ok |
+| `journey/farewell-pilgrimage-route.md` | ok |
+| `journey/fath-mecca-march.md` | ok |
+| `journey/first-migration-to-abyssinia.md` | ok |
+| `journey/granada-to-cairo.md` | ok |
+| `journey/hamra-al-asad-pursuit.md` | ok |
 
