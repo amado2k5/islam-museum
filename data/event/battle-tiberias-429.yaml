@@ -1,0 +1,31 @@
+id: event/battle-tiberias-429
+class: event
+kind: battle
+label:
+  ar: واقعة طبرية (429هـ)
+  en: Battle of Tiberias (429 AH)
+date:
+  start: { edtf: "1038", hijri: "0429", calendar: julian, precision: year, status: tradition, derived: true, note: "واقعة طبرية سنة 429هـ عند ابن خلدون؛ التحويل مشتق." }
+summary:
+  ar: "جهز الخليفة الظاهر العساكر من مصر إلى الشام لقتال صالح بن مرداس صاحب حلب وحسان بن مفرج صاحب الرملة، وعليهم أنوشتكين الدزبري، فلقيهما على الأردن بطبرية فانهزما وقتل صالح بن مرداس وولده الأصغر، ونجا ولده الأكبر نصر (شبل الدولة) إلى حلب."
+  en: "Caliph al-Zahir dispatched armies from Egypt to Syria under Anushtakin al-Dizbiri against Salih ibn Mirdas of Aleppo and Hasan ibn Mufarrij of Ramla; he met them on the Jordan at Tiberias, routed them, and killed Salih and his younger son — his elder son Nasr (Shibl al-Dawla) escaped to Aleppo."
+relations:
+- type: occurred_at
+  target: place/tabariyya
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — مقتل صالح بن مرداس بواقعة طبرية، ص1075 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
