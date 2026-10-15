@@ -19,6 +19,27 @@ function onDay(list: DayItem[], cal: "h" | "g", m: number, d: number) {
   return { items: list.filter((x) => x.m === best.m && x.d === best.d), exact: false };
 }
 
+// Shuffled deck, as on /wander: every option is shown once before any repeats. The deck and its position
+// live in sessionStorage so they survive navigation; a reshuffle happens only once the deck is exhausted.
+function shuffleDeck(n: number): number[] {
+  const d = Array.from({ length: n }, (_, i) => i);
+  for (let k = n - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [d[k], d[j]] = [d[j], d[k]]; }
+  return d;
+}
+function nextFromDeck<T extends { id: string }>(key: string, pool: T[], skip: Set<string> = new Set()): T | undefined {
+  if (!pool.length) return undefined;
+  const k = `today-deck-v1-${key}-${pool.length}`;
+  let s: { deck: number[]; pos: number } | null = null;
+  try { const v = JSON.parse(sessionStorage.getItem(k) || "null"); if (v && Array.isArray(v.deck) && v.deck.length === pool.length && v.pos < pool.length) s = v; } catch (e) { /* no storage: a fresh deck each time */ }
+  if (!s) s = { deck: shuffleDeck(pool.length), pos: 0 };
+  // take the next option not already on screen; if every option is, take the next one anyway
+  let pick = pool[s.deck[s.pos]];
+  for (let guard = 0; guard < pool.length && skip.has(pick.id); guard++) { s.pos = (s.pos + 1) % pool.length; pick = pool[s.deck[s.pos]]; }
+  s.pos++;
+  try { sessionStorage.setItem(k, JSON.stringify(s)); } catch (e) { /* ignore */ }
+  return pick;
+}
+
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 
 function render(root: HTMLElement, p: Payload) {
@@ -52,7 +73,9 @@ function render(root: HTMLElement, p: Payload) {
       const list = cal === "h" ? p.h : p.g;
       const days = [...new Set(list.map((x) => `${x.m}-${x.d}`))].filter((k) => !(cur[cal] ?? "").startsWith(k + "|"));
       if (!days.length) continue;
-      const [m, d] = days[Math.floor(Math.random() * days.length)].split("-").map(Number);
+      const day = nextFromDeck(`day-${cal}`, days.map((k) => ({ id: k })));
+      if (!day) continue;
+      const [m, d] = day.id.split("-").map(Number);
       fill(cal, m, d);
       cur[cal] = `${m}-${d}|${cur[cal]}`;
     }
@@ -62,9 +85,8 @@ function render(root: HTMLElement, p: Payload) {
     const onScreen = new Set(Object.values(cur));
     const pick = (cal: "h" | "g") => {
       const list = cal === "h" ? p.h : p.g;
-      const pool = list.filter((x) => !onScreen.has(x.id));
-      if (!pool.length) return list[0];
-      const x = pool[Math.floor(Math.random() * pool.length)];
+      const x = nextFromDeck(`item-${cal}`, list, onScreen) ?? list[0];
+      if (!x) return x;
       onScreen.add(x.id);
       return x;
     };
