@@ -1,0 +1,15 @@
+id: event/marwan-designates-two-heirs
+class: event
+kind: other
+label: { ar: "مروان يعهد بالخلافة لولديه عبد الملك وعبد العزيز" }
+summary:
+  ar: "عهد مروان بن الحكم بالخلافة من بعده لاثنين من أولاده، هما عبد الملك وعبد العزيز، وكانت تلك أول مرة يولى فيها اثنان ولاية العهد {cite:khudari-umayyad-state p.145}. ويعلّق الخضري في الحاشية بأن ولاية اثنين لم تكن تنتهي عادةً إلى نتيجة حسنة، لأن الأول كان يميل إلى نزع الثاني؛ فاجتهد عبد الملك في تأخير أخيه عبد العزيز وتولية ابنه الوليد {cite:khudari-umayyad-state p.145}."
+wings: [people]
+periods: [period/umayyad]
+relations:
+  - { type: had_participant, target: person/marwan-ibn-al-hakam, role: "العاهد بولاية العهد", sources: [source/khudari-umayyad-state] }
+  - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "ولي العهد الأول", sources: [source/khudari-umayyad-state] }
+  - { type: had_participant, target: person/abd-al-aziz-ibn-marwan, role: "ولي العهد الثاني", sources: [source/khudari-umayyad-state] }
+sources: [source/khudari-umayyad-state]
+provenance: { layer: own-research, source: "khudari-umayyad-state p. 145", generated_by: "Claude (subagent), extracted from khudari-umayyad-state p. 145" }
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from khudari-umayyad-state p. 145; the book gives no date for the designation" }

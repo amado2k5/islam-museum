@@ -1,0 +1,16 @@
+id: event/muawiya-minbar-transfer-attempt
+class: event
+kind: other
+label: { ar: "محاولة معاوية نقل المنبر النبوي إلى دمشق" }
+summary:
+  ar: "ذكر الكتاب أن معاوية عزم في سنة خمسين على نقل المنبر النبوي من المدينة إلى دمشق، وأن يأخذ العصا التي كان النبي يمسكها عند الخطبة، فراجعه أبو هريرة وجابر بن عبد الله في ذلك، فترك النقل واكتفى بالزيادة في المنبر ست درجات واعتذر إلى الناس {cite:bakr-umayyad-state-1134715 p. 138}."
+wings: [time, people, place]
+periods: [period/umayyad]
+regions: [arabia]
+date:
+  start: { hijri: "0050", precision: year, status: historical, note: "ترتيب الكتاب: ضمن أخبار سنة خمسين (ص 138)؛ لم يُحوَّل إلى الميلادي." }
+relations:
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "المزمع نقل المنبر", sources: [source/bakr-umayyad-state-1134715] }
+sources: [source/bakr-umayyad-state-1134715]
+provenance: { layer: own-research, source: "bakr-umayyad-state-1134715 p. 138", generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 138, 149-150" }
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from bakr-umayyad-state-1134715 pp. 138, 149-150" }

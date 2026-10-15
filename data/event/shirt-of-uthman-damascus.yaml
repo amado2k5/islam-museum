@@ -1,0 +1,15 @@
+id: event/shirt-of-uthman-damascus
+class: event
+kind: other
+label: { ar: "قميص عثمان المنصوب على منبر دمشق" }
+summary:
+  ar: "ذكر الخضري أن معاوية أرسل في الشهر الثالث بعد مقتل عثمان رجلاً من بني عبس بطومار مختوم عنوانه «من معاوية إلى علي»، فرفعه الرسول في المدينة في غرة ربيع الأول كما أُمر، فلما فضّه علي لم يجد فيه شيئاً؛ فسأل الرسول عما وراءه، فقال: تركت قوماً لا يرضون إلا بالقود، وتركت ستين ألف شيخ يبكي تحت قميص عثمان وهو منصوب لهم، قد ألبسوه منبر دمشق {cite:khudari-umayyad-state p.234}. ولا يذكر الكتاب سنة هذه الواقعة."
+wings: [people, place]
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "المرسل بالطومار", sources: [source/khudari-umayyad-state] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المخاطَب بالطومار", sources: [source/khudari-umayyad-state] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "صاحب القميص المعروض في دمشق", sources: [source/khudari-umayyad-state] }
+sources: [source/khudari-umayyad-state]
+provenance: { layer: own-research, source: "khudari-umayyad-state p. 234", generated_by: "Claude (subagent), extracted from khudari-umayyad-state p. 234" }
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from khudari-umayyad-state p. 234; the book gives no year for the scroll" }

@@ -1,0 +1,15 @@
+id: event/uthman-exiles-kufan-agitators
+class: event
+kind: other
+label: { ar: "نفي عثمان رؤوس الفتنة من أهل الكوفة إلى الشام ثم إلى حمص" }
+summary:
+  ar: "نفى عثمان بن عفان نفراً من أهل الكوفة شاغبوا على عماله إلى الشام ليكونوا تحت نظر معاوية بن أبي سفيان. حاول معاوية استصلاحهم بالإكرام، فردّوا عليه بما دل على تمكن الفتنة من رؤوسهم، فكتب إلى عثمان أنه لم يقدر على استصلاحهم ولا يود بقاءهم في الشام. فأمر عثمان بتسييرهم إلى حمص عند عبد الرحمن بن خالد بن الوليد، فأدّبهم تأديباً شديداً حتى أظهروا الندم، فأعادهم عثمان إلى الكوفة، فاشتد أمرهم في الوقيعة بعثمان وعماله. ويعدّ الخضري منهم مالك بن الحارث الأشتر وثابت بن قيس النخعي وكميل بن زياد وزيد بن صوحان العبدي وجندب بن زهير الغامدي وجندب بن كعب الأزدي وعروة بن الجعد وعمر بن الجعد وعمر بن الحمق الخزاعي {cite:khudari-umayyad-state p.220}."
+wings: [people, place]
+periods: [period/rashidun]
+relations:
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "الآمر بالنفي", sources: [source/khudari-umayyad-state] }
+  - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "المكلف باستصلاحهم في الشام", sources: [source/khudari-umayyad-state] }
+  - { type: had_participant, target: person/malik-al-ashtar, role: "من المنفيين", sources: [source/khudari-umayyad-state] }
+sources: [source/khudari-umayyad-state]
+provenance: { layer: own-research, source: "khudari-umayyad-state p. 220", generated_by: "Claude (subagent), extracted from khudari-umayyad-state p. 220" }
+status: { review: draft, completeness: 1, generated_by: "Claude (subagent), extracted from khudari-umayyad-state p. 220; the book gives no year for the exile" }
