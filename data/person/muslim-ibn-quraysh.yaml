@@ -1,0 +1,24 @@
+id: person/muslim-ibn-quraysh
+class: person
+label: { ar: "مسلم بن قريش شرف الدولة" }
+summary:
+  ar: "أبو المكارم مسلم بن قريش بن بدران العقيلي، آخر أمراء بني عقيل الأقوياء؛ أخذ حلب سنة 472هـ وكتب إلى السلطان ملكشاه كتاباً أشهد فيه على نفسه بالعوض عنها بثلاثمائة ألف دينار كل سنة تؤدى إلى خزانة السلطان فأجابه إلى ذلك {cite:muntazam-ibn-al-jawzi j.8 p.323}."
+gender: male
+roles: [ruler]
+relations:
+- type: member_of
+  target: group/banu-uqayl
+  sources: [source/muntazam-ibn-al-jawzi]
+- type: child_of
+  target: person/quraysh-ibn-badran
+  sources: [source/muntazam-ibn-al-jawzi]
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+sources: [source/muntazam-ibn-al-jawzi]
+provenance:
+  layer: own-research
+  source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 323"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,20 @@
+id: event/muslim-ibn-quraysh-aleppo-472
+class: event
+kind: conquest
+label: { ar: "أخذ مسلم بن قريش العقيلي حلب" }
+summary:
+  ar: "في سنة 472هـ أخذ مسلم بن قريش العقيلي حلب، وكتب إلى السلطان ملكشاه كتاباً أشهد فيه على نفسه بالعوض عنها بثلاثمائة ألف دينار كل سنة تؤدى إلى خزانة السلطان فأجابه إلى ذلك {cite:muntazam-ibn-al-jawzi j.8 p.323}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1079~", hijri: "0472", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 472هـ؛ التحويل مشتق." }
+relations:
+  - { type: had_participant, target: person/muslim-ibn-quraysh, role: "الآخذ", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 323"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-1
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
