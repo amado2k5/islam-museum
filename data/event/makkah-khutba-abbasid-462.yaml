@@ -1,0 +1,22 @@
+id: event/makkah-khutba-abbasid-462
+class: event
+kind: declaration
+label: { ar: "خطبة مكة للخليفة العباسي والسلطان السلجوقي" }
+summary:
+  ar: "في سنة ٤٦٢هـ ورد رسول صاحب مكة محمد بن أبي هاشم إلى السلطان ألب أرسلان يخبره بإقامة الخطبة للخليفة العباسي القائم وله وإسقاط خطبة الخليفة الفاطمي صاحب مصر، وترك الأذان بـ«حي على خير العمل»، فأعطاه السلطان ثلاثين ألف دينار وقال له: إذا فعل أمير المدينة كذلك أعطيناه عشرين ألف دينار. وكان ذلك في سياق حملة ألب أرسلان لتوحيد العالم الإسلامي تحت راية الخلافة العباسية {cite:dawlat-uthmaniyya-salabi p. 30}."
+  en: "In 1070 the Sharif of Mecca's envoy told Alp Arslan that the khutba there now named the Abbasid caliph and the Seljuk sultan, dropping the Fatimid name and the 'hayya ala khayr al-amal' formula — worth thirty thousand dinars, and twenty thousand more promised if Medina followed {cite:dawlat-uthmaniyya-salabi p. 30}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia]
+date:
+  start: { edtf: "1070", hijri: "0462", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة ٤٦٢هـ {cite:dawlat-uthmaniyya-salabi p. 30}." }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/alp-arslan, role: "السلطان", sources: [source/dawlat-uthmaniyya-salabi] }
+provenance:
+  layer: own-research
+  source: "الدولة العثمانية لعلي محمد الصلابي (ط1 1421) ص 30"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-salabi-uthmani-batch-11
+sources: [source/dawlat-uthmaniyya-salabi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
