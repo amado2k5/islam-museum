@@ -1,0 +1,19 @@
+id: place/shabwa
+class: place
+kind: city
+label: { ar: "شبوة", en: "Shabwa" }
+summary:
+  ar: "مدينة قديمة لحمير بين بيحان وحضرموت، بها جبل الملح ويقاسم جبلها الثاني أهل مأرب؛ قال الهمداني: لما احتربت حمير ومذحج خرج أهل شبوة منها فسكنوا حضرموت وبهم سميت شبام، وكان الأصل «شباه» فأبدلت الميم من الهاء {cite:sifat-jazirat-al-arab p. 70}."
+  en: "An old Himyarite city between Bayhan and Hadramawt with a salt mountain whose second ridge belonged to Ma'rib. Al-Hamdani reports: when Himyar and Madhhij warred, the people of Shabwa abandoned it for Hadramawt, and from them Shibam took its name — 'the original was Shabah, the mim replacing the ha' {cite:sifat-jazirat-al-arab p. 70}."
+wings: [place]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: related_to, target: place/shibam, note: "شبام حضرموت سميت بهم بعد أن خرجوا من شبوة {cite:sifat-jazirat-al-arab p. 70}.", sources: [source/sifat-jazirat-al-arab] }
+provenance:
+  layer: own-research
+  source: "الهمداني، صفة جزيرة العرب (ط مولر) ص 70"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-geo-sifat-2
+sources: [source/sifat-jazirat-al-arab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

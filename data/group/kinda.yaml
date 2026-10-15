@@ -13,7 +13,7 @@ regions: [arabia]
 relations:
   - { type: part_of, target: group/kahlan, sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya] }
   - { type: lived_in, target: place/bahrayn, note: "نزلوا البحرين أولاً ثم اضطروا إلى مغادرتها.", sources: [source/mubarakpuri-raheeq] }
-  - { type: lived_in, target: place/hadramawt, note: "ثم نزلوا حضرموت ولاقوا هناك ما لاقوا بالبحرين.", sources: [source/mubarakpuri-raheeq] }
+  - { type: lived_in, target: place/hadramawt, note: "ثم نزلوا حضرموت ولاقوا هناك ما لاقوا بالبحرين. ويقول الهمداني إن الذين نقلوهم عن هذه البلاد إلى حضرموت كانوا ستة وثلاثين ألفاً، وإنهم سكنوا تريم وكان بها أبو الخير بن عمرو الذي عنّاه الأعشى بقوله «بسهام ينزب أو سهام الوادي» {cite:sifat-jazirat-al-arab pp. 70-71}.", sources: [source/mubarakpuri-raheeq, source/sifat-jazirat-al-arab] }
   - { type: participated_in, target: event/delegation-of-kinda, note: "وفدهم بقيادة الأشعث بن قيس في ثمانين راكباً عند الزهري (ابن هشام ص232).", sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: own-research
@@ -21,5 +21,5 @@ provenance:
   generated_by: "Claude Code"
   model: "claude-fable-5-1"
   run: "raheeq-prose-batch-1a"
-sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/qalb-jazirat-al-arab, source/ibn-hisham-saqqa]
+sources: [source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/qalb-jazirat-al-arab, source/ibn-hisham-saqqa, source/sifat-jazirat-al-arab]
 status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 16–17, 26" }
