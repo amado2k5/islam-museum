@@ -1,0 +1,31 @@
+id: event/qaraqush-takes-tripoli-568
+class: event
+kind: conquest
+label: { ar: "ملك قراقوش طرابلس الغرب", en: "Qaraqush's conquest of Tripoli (568 AH)" }
+summary:
+  ar: "في سنة ثمان وستين وخمسمائة سار طائفة من الترك من ديار مصر مع قراقوش — مملوك تقي الدين عمر ابن أخي صلاح الدين — إلى جبال نفوسة، فاجتمع به مسعود بن زمام المعروف بمسعود البلاط وكان خارجاً عن طاعة عبد المؤمن، فاتفقا وكثر جمعهما ونزلا على طرابلس الغرب فحاصراها وضيقا على أهلها ثم فتحت، فاستولى عليها قراقوش وأسكن أهله قصرها وملك كثيراً من بلاد إفريقية ما خلا المهدية وسفاقس وقفصة وتونس وما والاها، وحكم على تلك البلاد بمساعدة العرب بما جُبلت عليه من تخريب ونهب وقطع أشجار، وجمع أموالاً عظيمة جعلها بمدينة قابس حتى حدثته نفسه بالاستيلاء على إفريقية كلها لبعد صاحبها أبي يعقوب يوسف بن عبد المؤمن عنها {cite:kamil-ibn-al-athir p. 47}."
+  en: "568 AH: a Turkish corps out of Egypt under Sharaf al-Din Qaraqush — mamluk of Saladin's nephew Taqi al-Din Umar — joined the Nafusa-mountain amir Mas'ud ibn Zammam 'al-Balat', then in revolt against the Almohads; together they besieged Tripoli until it opened, and Qaraqush installed his household in its palace and ruled most of Ifriqiya bar Mahdiyya, Sfax, Gafsa and Tunis, amassing a treasury at Gabes and nursing designs on the whole country {cite:kamil-ibn-al-athir p. 47}."
+date:
+  start: { hijri: "0568", calendar: julian, precision: year, status: tradition, note: "سنة ٥٦٨هـ {cite:kamil-ibn-al-athir p. 47}.", sources: [source/kamil-ibn-al-athir] }
+relations:
+- type: had_participant
+  target: person/sharaf-al-din-qaraqush
+  role: "قائد الطائفة التركية الذي ملك طرابلس وبلاد إفريقية"
+  sources: [source/kamil-ibn-al-athir]
+- type: had_participant
+  target: person/masud-ibn-zammam
+  role: "أمير جبال نفوسة الخارج عن طاعة عبد المؤمن وحليفه"
+  sources: [source/kamil-ibn-al-athir]
+- type: occurred_at
+  target: place/atrabulus
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 47"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-07
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

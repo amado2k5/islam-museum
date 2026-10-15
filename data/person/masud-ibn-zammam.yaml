@@ -1,0 +1,25 @@
+id: person/masud-ibn-zammam
+class: person
+label: { ar: "مسعود بن زمام البلاط", en: "Mas'ud ibn Zammam al-Balat" }
+summary:
+  ar: "مسعود بن زمام المعروف بمسعود البلاط، من أعيان أمراء جبال نفوسة وكان خارجاً عن طاعة عبد المؤمن؛ اجتمع بقراقوش مملوك تقي الدين عمر سنة ثمان وستين وخمسمائة فاتفقا وكثر جمعهما ونزلا على طرابلس الغرب ففتحت {cite:kamil-ibn-al-athir p. 47}."
+  en: "Mas'ud ibn Zammam 'al-Balat', a leading amir of the Nafusa mountains in revolt against the Almohad Abd al-Mu'min — joined Qaraqush's Turkish corps in 568 and took Tripoli with him {cite:kamil-ibn-al-athir p. 47}."
+gender: male
+relations:
+- type: participated_in
+  target: event/qaraqush-takes-tripoli-568
+  sources: [source/kamil-ibn-al-athir]
+- type: allied_with
+  target: person/sharaf-al-din-qaraqush
+  sources: [source/kamil-ibn-al-athir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+roles: [military, ruler]
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ — ابن الأثير، مسح kamilt00_201908، ص 47"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-kamil-562-629-07
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
