@@ -1,0 +1,23 @@
+id: event/rashid-charlemagne-embassies
+class: event
+kind: conference
+label: { ar: "سفارات هارون الرشيد وشارلمان" }
+summary:
+  ar: "انفردت المصادر اللاتينية — إينهارد كاتب سيرة شارلمان والراهب سانت جول والأخبار الملكية — بذكر الصلة بين الرشيد وشارلمان، وهي مضطربة غامضة عند طقّوش يقلل من ثقة المؤرخين بها: ابتدأت العلاقات سنة ١٨١هـ/٧٩٧م حين أرسل شارلمان وفدين إلى الشرق، الأول إلى الرشيد والثاني إلى بطريرك القدس، وكانت البعثة ثلاثة — فرنجيين ويهودياً اسمه إسحاق قام بالترجمة — طلبوا تسهيلات للحجاج الكاثوليك في الأماكن المقدسة وحمايتهم، ويذكر إينهارد أن الهدف الحصول على فيل من الخليفة؛ واستغرقت الرحلة ثلاثة أعوام توفي أثناءها الفرنجيان وعاد إسحاق وحده مع فيل هدية من الرشيد، وفي ١٨٣هـ وصلت إلى آخن سفارة الرشيد من عضوين — فارسي عن الخليفة ومغربي عن إبراهيم بن الأغلب — ثم بعثة شارلمانية ثانية سنة ١٨٦هـ وبعثة رشيدية ثانية سنة ١٩٢هـ؛ وفي ذلك التقارب أرسل بطريرك القدس إلى شارلمان مفاتيح كنيسة القيامة ومفاتيح المدينة وراية {cite:tarikh-dawla-abbasiyya-taqqush p. 106-107}."
+  en: "The Harun al-Rashid–Charlemagne embassies of 181-192 AH (797-807 CE), known only from Latin sources — Einhard, the Monk of St Gall and the Royal Annals: Isaac's three-year journey returning alone with the elephant, the Persian-Maghribi counter-embassy to Aachen, and the Jerusalem patriarch's gift of the Sepulchre's keys {cite:tarikh-dawla-abbasiyya-taqqush p. 106-107}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq, andalus-europe]
+date:
+  start: { edtf: "0797", hijri: "0181", calendar: julian, precision: year, status: tradition }
+  end: { edtf: "0807", hijri: "0192", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: had_participant, target: person/charlemagne-malik-al-ifranj, role: "ملك الفرنجة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: had_participant, target: person/isaac-the-jewish-envoy, role: "المترجم والعائد بالفيل", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+sources: [source/tarikh-dawla-abbasiyya-taqqush]
+provenance:
+  layer: own-research
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 106-107"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-taqqush-abbasi-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

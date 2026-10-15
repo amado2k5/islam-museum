@@ -1,0 +1,23 @@
+id: event/muqanna-revolt
+class: event
+kind: battle
+label: { ar: "حركة المقنَّع الخراساني" }
+summary:
+  ar: "في عهد المهدي قامت حركة المقنع الخراساني (١٥٩-١٦١هـ) في ناحية مرو، امتداداً لحركتي سنباذ والراوندية واتصالاً بذكرى أبي مسلم؛ تبعه خلق كثير في بخارى والصغد وانتشر أتباعه المبيضة في نواحي كش ونسف يغيرون على المناطق الآمنة، حتى هزمهم سعيد الحرشي وقضى عليهم، وأحرق المقنع نفسه قبل القبض عليه {cite:tarikh-dawla-abbasiyya-taqqush p. 79}."
+  en: "The rising of the Veiled One in Marw's region, 159-161 AH — the last of the movements bound to Abu Muslim's name, broken by Sa'id al-Harashi {cite:tarikh-dawla-abbasiyya-taqqush p. 79}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "0776", hijri: "0159", calendar: julian, precision: year, status: tradition, derived: true }
+  end: { edtf: "0778", hijri: "0161", calendar: julian, precision: year, status: tradition, derived: true }
+relations:
+  - { type: had_participant, target: person/al-muqanna, role: "زعيم الحركة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: had_participant, target: person/said-al-harashi, role: "قائد النصر عليهم", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+sources: [source/tarikh-dawla-abbasiyya-taqqush]
+provenance:
+  layer: own-research
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 78-79"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-taqqush-abbasi-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
