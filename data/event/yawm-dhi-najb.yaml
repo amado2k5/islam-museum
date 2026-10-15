@@ -1,0 +1,24 @@
+id: event/yawm-dhi-najb
+class: event
+kind: battle
+label: { ar: "يوم ذي نجب" }
+summary:
+  ar: "يوم ذي نجب، وقع بعد يوم جبلة بسنة؛ لما أصابت بنو عامر من تميم يوم جبلة رجوا استئصالهم فكاتبوا حسان بن كبشة ملكاً من ملوك كندة فأقبل معهم بصنائعه يغزو بني حنظلة من تميم، فتحولت بنو مالك خلف بني يربوع فصارت يربوع تلي الملك، فلما كان وجه الصبح اقتتلوا وشهدت بنو مالك القتال معهم فضرب جشيش بن نمران الرياحي الملك ابن كبشة على رأسه فقتله، وقتل عمرو بن الأحوص بن جعفر رئيس عامر، وانهزمت عامر وصنائع ابن كبشة، وهلك الأحوص أسفاً على ابنه، وقال جرير في الإسلام يذكر اليوم «بذي نجب ذدنا وواكل مالك أخاً لم يكن عند الطعان بواكل» {cite:kamil-ibn-al-athir p. 455}."
+  en: "The day of Dhi Najb, a year after Jabala: seeking to finish Tamim, Banu Amir brought in the Kindite king Hassan ibn Kabsha with his retainers against Banu Hanzala — but Yarbu' stood the brunt, Jushaysh ibn Numran brained the king himself, Amir's chief Amr ibn al-Ahwas fell, and Jarir still boasted of the day under Islam {cite:kamil-ibn-al-athir p. 455}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "بعد يوم جبلة بسنة، قبل الإسلام." }
+relations:
+  - { type: had_participant, target: person/hassan-ibn-kabsha, role: "الملك القتيل", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "المنهزمون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-tamim, role: "الظافرون", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — يوم ذي نجب، ص455"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-24
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,25 @@
+id: event/yawm-al-nasar
+class: event
+kind: battle
+label: { ar: "يوم النسار" }
+summary:
+  ar: "يوم النسار عند جبال متجاورة يقال لها النسار؛ سببه أن بني تميم كانوا يأكلون عمومتهم ضبة بن أد وبني عبد مناة فلما أصابت ضبة رهطاً من تميم طلبتهم تميم فانزاحت الرباب — تيم وعدي وثور وعكل وعبد مناة وضبة وإنما سموا الرباب لأنهم غمسوا أيديهم في الرب حين تحالفوا — فلحقت ببني أسد حلفاء بني ذبيان، فنادى صارخ بن ضبة «يا آل خندف» فأصرختهم بنو أسد وهو أول يوم تخندفت فيه ضبة واستمدوا حليفهم ظبياً وغطفان، وكان على الجماعة حصن بن حذيفة بن بدر، واستمدت تميم بني عامر بن صعصعة فالتقى الجمعان بالنسار فصبرت عامر واستحر بهم القتل وقتل شريح القشيري رأسها وعبيد بن معاوية الكلابي، وأخذت عدة من أشراف نساء بني عامر منهن سلمى بنت المخلف والعنقاء بنت همام، وفيه يقول زهير بن أبي سلمى «ومن مثل حصن في الحروب ومثله لإنداد ضيم أو لأمر يحاوله» {cite:kamil-ibn-al-athir p. 465}."
+  en: "The day of al-Nasar: when Tamim pressed their 'paternal' claims on Dabba and Abd Manat, Dabba raised for the first time the cry 'ya Al Khindif' — the federation-name — and the Rabbab confederates (dipped in rubb-pitch at their pact) joined Asad and Ghatafan under Husayn ibn Hudhayfa; Tamim and Banu Amir broke, their chief Shurayh al-Qushayri fell, and noblewomen of Amir were taken, Salma bint al-Mukhallaf among them {cite:kamil-ibn-al-athir p. 465}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0550~", calendar: julian, precision: century, status: tradition, derived: true, note: "بعد يوم جبلة وقتل لقيط بن زرارة." }
+relations:
+  - { type: had_participant, target: group/banu-dabba, role: "الداعون بخندف أول مرة", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-asad-ibn-khuzayma, sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-tamim, role: "المدَّعون بالعمومة المنهزمون مع عامر", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "أمداد تميم، استحر بهم القتل", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — يوم النسار، ص465"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-24
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

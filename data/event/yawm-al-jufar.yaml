@@ -1,0 +1,23 @@
+id: event/yawm-al-jufar
+class: event
+kind: battle
+label: { ar: "يوم الجفار (الصيلم)" }
+summary:
+  ar: "يوم الجفار ويسمى الصيلم لكثرة من قتل به؛ لما كان على رأس الحول من يوم النسار اجتمع من العرب من شهد النسار برؤسائهم فالتقوا بالجفار واقتتلوا فصبرت تميم فعظم القتل في بني عامر وخاصة في بني عمرو بن تميم، وهرب مالك بن كعب جواب قنب العير عن ضرتيه، وفيه شعر بشر بن أبي خازم في عصبة تميم «عصبت تميم أن يقتل عامر، ولا النساء وكان القوم أحراباً» {cite:kamil-ibn-al-athir p. 466}."
+  en: "The day of al-Jufar, called al-Saylim 'the shearing' for its slaughter: a year after al-Nasar the same hosts met again and Tamim stood fast, cutting deep into Banu Amir — Malik ibn Ka'b 'Jawab' fled from his two wives, and Bishr ibn Abi Khazim sang of Tamim's squadrons {cite:kamil-ibn-al-athir p. 466}."
+wings: [time]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0551~", calendar: julian, precision: century, status: tradition, derived: true, note: "على رأس الحول من يوم النسار." }
+relations:
+  - { type: had_participant, target: group/banu-tamim, role: "الظافرون", sources: [source/kamil-ibn-al-athir] }
+  - { type: had_participant, target: group/banu-amir-ibn-sasaa, role: "المنهزمون", sources: [source/kamil-ibn-al-athir] }
+sources: [source/kamil-ibn-al-athir]
+provenance:
+  layer: own-research
+  source: "الكامل في التاريخ لابن الأثير — يوم الجفار، ص466"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  model: swe-2-high
+  run: lib-kamil-24
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
