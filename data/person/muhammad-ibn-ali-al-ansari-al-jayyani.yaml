@@ -1,0 +1,24 @@
+id: person/muhammad-ibn-ali-al-ansari-al-jayyani
+class: person
+label: { ar: "محمد بن علي الأنصاري الجياني", en: "Muhammad ibn Ali al-Ansari al-Jayyani" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن علي بن عبد الله بن ياسر الأنصاري" }
+  - { kind: kunya, lang: ar, value: "أبو بكر" }
+  - { kind: nisba, lang: ar, value: "الجياني" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+born: { edtf: "1098", hijri: "0492", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1167", hijri: "0563", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "المحدّث المفسّر والعالم بالقراءات أبو بكر محمد بن علي بن عبد الله الأنصاري الجياني، وُلد بجيّان بالأندلس سنة 492 هـ، ثم رحل إلى المشرق وسكن دمشق وكان يُقرئ القرآن فيها."
+  en: "The traditionist, Qur'an commentator and reader Abu Bakr Muhammad ibn Ali al-Ansari al-Jayyani, born at Jaen in al-Andalus in 492 AH; he travelled east and settled at Damascus, where he taught the Qur'an."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 2 pp. 440-442, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج2 ص440-442", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
