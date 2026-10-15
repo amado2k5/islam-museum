@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.533"
-label: { ar: "الموطأ 1.533", en: "Muwatta 1.533" }
+label: { ar: "الموطأ 533 — عائشة: لو أدرك النبي ما أحدث النساء لمنعهن المساجد كما منعه نساء بني إسرائيل", en: "Muwatta 533" }
+text: "لو أدرك رسول الله ما أحدث النساء، لمنعهن المساجد، كما منعه نساء بني إسرائيل"
 summary:
-  ar: "يحيى بن سعيد عن عمرة بنت عبد الرحمن عن عائشة: حديث في المسجد أو صلاة المرأة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن عمرة بنت عبد الرحمن عن عائشة، أنها قالت: لو أدرك النبي ما أحدث النساء بعده لمنعهن المساجد كما مُنعه نساء بني إسرائيل. وسأل يحيى بن سعيد عمرة: أومُنع نساء بني إسرائيل المساجد؟ قالت: نعم. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد، والقعنبي عند أبي داود (695)، والتنيسي عند البخاري (869)، وينقل عن ابن عبد البر (التمهيد 23/394) أن سائر رواة الموطأ يقولون «لمنعهن المسجد» بالإفراد، ولم يقل «المساجد» غير يحيى بن يحيى. {cite:muwatta-maruf-1997 p.274} {cite:muwatta-maruf-1997 p.275}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 533 of kitab al-salat at PDF p. 274", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-25" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/banu-israil, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 533 at PDF p. 274; باب ما جاء في خروج النساء إلى المساجد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 274; matn excerpt at most 40 words" }

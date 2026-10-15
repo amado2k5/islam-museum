@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.539"
-label: { ar: "الموطأ 1.539", en: "Muwatta 1.539" }
+label: { ar: "الموطأ 539 — زيد بن ثابت: قراءة القرآن في نصف شهر أو عشر أحب إلي لكي أتدبره وأقف عليه", en: "Muwatta 539" }
+text: "لكي أتدبره وأقف عليه"
 summary:
-  ar: "يحيى بن سعيد قال: كنت أنا ومحمد بن يحيى بن حبان جالسين فدعا محمد... ؛ حكم السجود في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد، قال: كنت أنا ومحمد بن يحيى بن حبان جالسين، فدعا محمد رجلاً وطلب منه أن يخبره بما سمع من أبيه، فأخبر الرجل أن أباه أتى زيد بن ثابت وسأله عن قراءة القرآن في سبع، فقال زيد: حسن، ولأن أقرأه في نصف شهر أو عشر أحب إلي، وعلل ذلك بأنه يريد أن يتدبره ويقف عليه. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.277}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 539 of kitab al-salat at PDF p. 277", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-25" }
+  - { type: mentions, target: person/zayd-ibn-thabit, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-yahya-ibn-habban, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: work/quran, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 539 at PDF p. 277; باب ما جاء في تحزيب القرآن", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 277; matn excerpt at most 40 words" }

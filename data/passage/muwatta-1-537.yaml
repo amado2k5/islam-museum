@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.537"
-label: { ar: "الموطأ 1.537", en: "Muwatta 1.537" }
+label: { ar: "الموطأ 537 — عمر يقرأ القرآن على غير وضوء: من أفتاك بهذا؟ أمسيلمة؟", en: "Muwatta 537" }
+text: "من أفتاك بهذا؟ أمسيلمة؟"
 summary:
-  ar: "أيوب السختياني عن محمد بن سيرين: أن عمر بن الخطاب كان... ؛ أثر في القراءة أو السجود؛ تفاصيل المتن غير واضحة."
+  ar: "الحديث الوحيد في باب الرخصة في قراءة القرآن على غير وضوء. يرويه مالك عن أيوب بن أبي تميمة السختياني عن محمد بن سيرين، أن عمر بن الخطاب كان في قوم يقرؤون القرآن، فذهب لحاجته ثم رجع وهو يقرأ، فقال له رجل: أتقرأ القرآن ولست على وضوء؟ فأنكر عليه عمر وسأله من أفتاه بذلك، أمسيلمة؟ ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.276}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 537 of kitab al-salat at PDF p. 276", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-25" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-sirin, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ayyub-al-sakhtiyani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/musaylima, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: work/quran, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 537 at PDF p. 276; باب الرخصة في قراءة القرآن على غير وضوء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 276; matn excerpt at most 40 words" }

@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.534"
-label: { ar: "الموطأ 1.534", en: "Muwatta 1.534" }
+label: { ar: "الموطأ 534 — كتاب النبي لعمرو بن حزم: أن لا يمس القرآن إلا طاهر", en: "Muwatta 534" }
+text: "أن لا يمس القرآن إلا طاهر"
 summary:
-  ar: "عبد الله بن أبي بكر بن محمد بن عمرو بن حزم: في الكتاب الذي كتبه رسول الله ﷺ لعمرو بن حزم ذكر لأحكام تتعلق بالصلاة والقرآن؛ الحديث في كتاب النبي ﷺ لعمرو بن حزم."
+  ar: "أول حديث في باب الأمر بالوضوء لمن مس القرآن. يرويه مالك عن عبد الله بن أبي بكر بن محمد بن عمرو بن حزم، أن في الكتاب الذي كتبه النبي لعمرو بن حزم أن لا يمس القرآن إلا طاهر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن الشيباني، وأن كتاب النبي لعمرو بن حزم إلى أهل اليمن في السنن والفرائض والديات كتاب مشهور عند أهل العلم، ويحيل على المسند الجامع (14/120) والتمهيد (17/396). {cite:muwatta-maruf-1997 p.275}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 534 of kitab al-salat at PDF p. 275", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-25" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/yemen, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: work/quran, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tahara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 534 at PDF p. 275; باب الأمر بالوضوء لمن مس القرآن", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 275; matn excerpt at most 40 words" }

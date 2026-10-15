@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.528"
-label: { ar: "الموطأ 1.528", en: "Muwatta 1.528" }
+label: { ar: "الموطأ 528 — ما بين بيتي ومنبري روضة من رياض الجنة، ومنبري على حوضي", en: "Muwatta 528" }
+text: "ما بين بيتي ومنبري روضة من رياض الجنة، ومنبري على حوضي"
 summary:
-  ar: "خبيب بن عبد الرحمن عن حفص بن عاصم عن أبي هريرة أو أبي سعيد: حديث في الصلاة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن خبيب بن عبد الرحمن عن حفص بن عاصم، عن أبي هريرة أو عن أبي سعيد الخدري على الشك، أن النبي قال إن ما بين بيته ومنبره روضة من رياض الجنة، وإن منبره على حوضه. ويذكر المحقق نقلاً عن ابن عبد البر (التمهيد 2/285) أن أكثر رواة الموطأ رووه على الشك، وأن روح بن القاسم ومعناً روياه عن الصحابيين جمعاً، وأن ابن مهدي رواه من حديث أبي هريرة وحده عند البخاري (7335). {cite:muwatta-maruf-1997 p.272} {cite:muwatta-maruf-1997 p.273}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 528 of kitab al-salat at PDF p. 272", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-24" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/khubayb-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hafs-ibn-asim-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/prophets-mosque, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 528 at PDF p. 272; باب ما جاء في مسجد النبي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 272; matn excerpt at most 40 words" }

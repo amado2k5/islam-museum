@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1.544"
-label: { ar: "الموطأ 1.544", en: "Muwatta 1.544" }
+label: { ar: "الموطأ 544 — عمر يسأل النبي ثلاثاً فلا يجيبه، ثم نزول سورة الفتح: لهي أحب إلي مما طلعت عليه الشمس", en: "Muwatta 544" }
+text: "لقد أنزلت علي هذه الليلة سورة، لهي أحب إلي مما طلعت عليه الشمس"
 summary:
-  ar: "زيد بن أسلم عن أبيه: أن رسول الله ﷺ كان يسير في بعض أسفاره فسمع عمر... ؛ حديث في السفر والقراءة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن زيد بن أسلم عن أبيه أسلم مولى عمر، أن النبي كان يسير في بعض أسفاره وعمر بن الخطاب معه ليلاً، فسأله عمر عن شيء ثلاث مرات فلم يجبه، فلام عمر نفسه على إلحاحه، وحرك بعيره حتى تقدم الناس خشية أن ينزل فيه قرآن، فما لبث أن سمع صارخاً يصرخ به، فجاء النبي وسلم عليه، فأخبره أنه أنزلت عليه تلك الليلة سورة هي أحب إليه مما طلعت عليه الشمس، ثم قرأ أول سورة الفتح [[passage/quran-48-1|الفتح 1]]. ويذكر المحقق بتفصيل أن رواة الموطأ رووه عن مالك مرسلاً (منهم القعنبي وإسماعيل بن أبي أويس عند البخاري 4833 و5012)، وأن عبد الرحمن بن غزوان ومحمد بن حرب ومحمد بن خالد بن عثمة أسندوه عن مالك عن زيد عن أبيه عن عمر (أحمد 1/31، الترمذي 3262)، وأن الدارقطني نص على أن أصحاب الموطأ أرسلوه، وأن ابن حجر في مقدمة الفتح يرى أن ظاهر رواية البخاري الوصل لأن معظم القصة محكي عن عمر، ويعلق المحقق بأن كلام البزار وابن عبد البر يعكر على ذلك. {cite:muwatta-maruf-1997 p.280} {cite:muwatta-maruf-1997 p.281}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 544 of kitab al-salat at PDF p. 280", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k1-batch-25" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aslam-mawla-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-daraqutni, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-hajar-al-asqalani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-48-1, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 544 at PDF p. 280; باب ما جاء في القرآن", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k1-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 280; matn excerpt at most 40 words; doubt: مرسل عند رواة الموطأ، مسند عن عمر عند غيرهم؛ خلاف بين ابن حجر والبزار وابن عبد البر في رواية البخاري." }
