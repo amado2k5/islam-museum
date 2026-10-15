@@ -1,0 +1,44 @@
+id: polity/muzaffarid-dynasty
+class: polity
+kind: dynasty
+label:
+  ar: بنو المظفر اليزدي
+  en: Muzaffarid dynasty
+summary:
+  ar: "دولة بني المظفر اليزدي المتغلبين على أصفهان وفارس وكرمان بعد انقراض دولة بني هلاكو؛ أصلهم أحمد المظفر من أهل يزد اتصل بالدولة أيام أبي سعيد فولي حفظ السابلة بفارس، فلما هلك أبو سعيد سنة 736هـ استبد ابنه شرف الدين محمود بأصفهان وفارس، ثم تغلب أخوه مبارز الدين محمد بن المظفر على كرمان ثم انتزع شيراز وأصفهان وقتل ابن أخيه أبا إسحاق أمير شيخ، وتوارث ولده محمود وشاه شجاع ومنصور بن شاه ولي وزين العابدين بن شجاع الملك حتى كبسهم تمر سنة 795هـ واستلحمهم واستصفى ملكهم من شيراز وأصفهان ويزد وكرمان."
+  en: "The Muzaffarid (Mubariz al-Dinid) dynasty that ruled Isfahan, Fars and Kirman after the Ilkhanid fall; their root Ahmad al-Muzaffar of Yazd held the watch of Fars's roads under Abu Sa'id — at the Ilkhan's death in 736 his son Sharaf al-Din Mahmud seized Isfahan and Fars, then his brother Mubariz al-Din Muhammad took Kirman, wrested Shiraz and Isfahan and killed his nephew Abu Ishaq Amir Shaykh; his sons Mahmud, Shah Shuja', Mansur ibn Shah Wali and Zayn al-Abidin held the kingship until Timur stormed in 795, exterminated them and took Shiraz, Isfahan, Yazd and Kirman."
+wings: [time, place]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+start:
+  edtf: "1335"
+  hijri: "0736"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: استبداد بني المظهر عند مهلك أبي سعيد سنة 736هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+end:
+  edtf: "1393"
+  hijri: "0795"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: كبوس تمر لهم سنة 795هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — الخبر عن بني المظفر اليزدي، ص1550-1551 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-28
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
