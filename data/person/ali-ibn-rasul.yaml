@@ -1,0 +1,40 @@
+id: person/ali-ibn-rasul
+class: person
+label:
+  ar: علي بن رسول التركماني
+  en: Ali ibn Rasul al-Turkmani
+summary:
+  ar: "علي بن رسول التركماني، مؤسس دولة بني رسول باليمن؛ كان أستاذ دار الملك المسعود يوسف بن الكامل فاستخلفه على اليمن لما ارتحل إلى مكة مريضاً، وخلع موسى الأشرف بن المسعود واستبد بملك اليمن وأخذ بدعوة الكامل بمصر وبعث أخويه رهناً على الطاعة، ثم هلك سنة 629هـ فولي ابنه المنصور عمر."
+  en: "Ali ibn Rasul al-Turkmani, founder of the Rasulid state in Yemen; ustadh-dar of the Ayyubid al-Malik al-Mas'ud Yusuf ibn al-Kamil, left as his lieutenant when al-Mas'ud rode sick to Mecca — he deposed al-Mas'ud's son Musa al-Ashraf, took Yemen for himself while keeping the Kamil's da'wa and sending his brothers as hostages of obedience, then died in 629 AH leaving the throne to his son al-Mansur Umar."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1232"
+  hijri: "0629"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: هلك سنة 629هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: ruler_of
+  target: polity/rasulid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني رسول باليمن، ص1526-1527 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-10
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

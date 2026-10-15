@@ -1,0 +1,44 @@
+id: person/ashraf-umar-rasulid
+class: person
+label:
+  ar: الملك الأشرف ممهد الدين عمر بن يوسف
+  en: al-Malik al-Ashraf Mumahhid al-Din Umar ibn Yusuf
+summary:
+  ar: "الملك الأشرف ممهد الدين عمر بن المظفر يوسف، رابع ملوك بني رسول باليمن؛ ولي بعد أبيه سنة 694هـ، وكان أخوه داود والياً على الشحر فدعا لنفسه ونازعه الأمر فبعث الأشرف عساكره فهزموه وحبسوه، واستمر في ملكه إلى أن سمته جاريته فمات سنة 696هـ لعشرين شهراً من ولايته."
+  en: "Al-Malik al-Ashraf Mumahhid al-Din Umar ibn al-Muzaffar Yusuf, fourth Rasulid king of Yemen; succeeding his father in 694 AH, his brother Dawud, wali of al-Shihr, claimed the throne — al-Ashraf's army broke and imprisoned him, and the reign lasted until his slave-girl poisoned him to death in 696 after twenty months."
+gender: male
+roles: [ruler]
+died:
+  edtf: "1297"
+  hijri: "0696"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: سمته جاريته فمات سنة 696هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: child_of
+  target: person/muzaffar-yusuf-rasulid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/rasulid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني رسول باليمن، ص1527 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-10
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR

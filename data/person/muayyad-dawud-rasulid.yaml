@@ -1,0 +1,48 @@
+id: person/muayyad-dawud-rasulid
+class: person
+label:
+  ar: الملك المؤيد داود بن يوسف
+  en: al-Malik al-Mu'ayyad Dawud ibn Yusuf
+summary:
+  ar: "الملك المؤيد داود بن المظفر يوسف، خامس ملوك بني رسول باليمن؛ أخرج من معتقله وولوّه بعد مقتل أخيه الأشرف سنة 696هـ، وافتتح أمره بقتل الجارية التي سمت أخاه، وواصل ملوك الترك بهداياه حتى انتهت هديته سنة 711هـ إلى مائتي قِرْب بعير بالثياب والتحف وطرف اليمن ومائتين من الجمال والخيل، وجمع الكتب من سائر الأمصار فاشتملت خزانته على مائة ألف مجلد، وكان يتفقد العلماء بصلاته ويبعث لابن دقيق العيد فقيه الشافعية بمصر جوائزه، وتوفي سنة 721هـ."
+  en: "Al-Malik al-Mu'ayyad Dawud ibn al-Muzaffar Yusuf, fifth Rasulid king of Yemen; freed from confinement and enthroned after his brother al-Ashraf's killing in 696 AH, he opened his reign by executing the poisoner slave-girl, kept Egypt's Turkish kings supplied with gifts until his 711 offering reached two hundred camel-loads of textiles, rarities and mounts, gathered books from every land until his treasury held a hundred thousand volumes, tended the scholars with his stipends sending gifts to the Shafi'i faqih Ibn Daqiq al-Id in Egypt, and died in 721."
+gender: male
+roles: [ruler, scholar-patron]
+died:
+  edtf: "1321"
+  hijri: "0721"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: توفي سنة 721هـ؛ التحويل مشتق.
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+relations:
+- type: child_of
+  target: person/muzaffar-yusuf-rasulid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: sibling_of
+  target: person/ashraf-umar-rasulid
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+- type: ruler_of
+  target: polity/rasulid-dynasty
+  sources:
+  - source/tarikh-ibn-khaldun-ibar
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [arabia]
+sources:
+- source/tarikh-ibn-khaldun-ibar
+provenance:
+  layer: own-research
+  source: ابن خلدون، العبر — دولة بني رسول باليمن، ص1527-1528 (طبعة هيليوبوليس)
+  generated_by: Devin (SWE-2 High) from Apple Vision OCR
+  model: swe-2-high
+  run: lib-ibar-east-10
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High); extracted from Ibn Khaldun al-Ibar via Apple Vision OCR
