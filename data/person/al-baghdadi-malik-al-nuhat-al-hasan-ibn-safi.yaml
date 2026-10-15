@@ -1,0 +1,26 @@
+id: person/al-baghdadi-malik-al-nuhat-al-hasan-ibn-safi
+class: person
+label: { ar: "البغدادي ملك النحاة الحسن بن صافي", en: "al-Baghdadi Malik al-Nuhat al-Hasan ibn Safi" }
+names:
+  - { kind: full, lang: ar, value: "أبو نزار الحسن بن صافي بن عبد الله البغدادي" }
+  - { kind: kunya, lang: ar, value: "أبو نزار" }
+  - { kind: laqab, lang: ar, value: "ملك النحاة" }
+  - { kind: nisba, lang: ar, value: "البغدادي" }
+gender: male
+roles: [scholar, writer]
+traditions: [sunni]
+born: { edtf: "1096", hijri: "0489", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1173", hijri: "0568", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+summary:
+  ar: "نحوي وفقيه وأديب من أهل بغداد، لُقّب بملك النحاة، ولد لأب كان مولى تاجر."
+  en: "Grammarian, jurist and man of letters of Baghdad, known as the King of Grammarians; born to a freedman father; lived 489–568 AH (1096–1173 CE)."
+wings: [people, words]
+themes: [linguistics, development-of-law-theology-institutions]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+story_roles:
+  - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+  - { role: jurist, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+sources: [source/mawsuat-a3lam-ulama-adaba]
+status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 3 pp. 632-633, lib-mawsuat-a3lam" }
+provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج3 ص632", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }
