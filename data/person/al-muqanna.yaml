@@ -1,0 +1,22 @@
+id: person/al-muqanna
+class: person
+label: { ar: "المقنَّع الخراساني" }
+gender: male
+roles: [rebel]
+died: { edtf: "0778~", hijri: "0161", calendar: julian, precision: year, status: tradition, derived: true, note: "أحرق نفسه قبل القبض عليه سنة ١٦١هـ {cite:tarikh-dawla-abbasiyya-taqqush p. 79}." }
+summary:
+  ar: "المقنَّع الخراساني، زعيم حركة في عهد المهدي امتدت من سنة ١٥٩ إلى ١٦١هـ؛ وضع على وجهه قناعاً من ذهب ليخفي قبح ملامحه زاعماً للناس أنه يحجب الذات الإلهية التي تجسدت فيه، فادعى الربوبية وارتكزت حركته على الحلولية والتناسخ — اعتقد أن الله خلق آدم وتحول في صورته وأن روح آدم انتقلت إلى الأنبياء حتى وصلت إلى أبي مسلم ثم حلت به من بعده — وأحيا تعاليم مزدك وأبطل التكاليف الشرعية؛ واتصلت حركته بأبي مسلم الخراساني فهي استمرار لحركتي سنباذ والراوندية، وانضوى إليه المبيضة في بخارى والصغد وانتشر أتباعه في نواحي كش ونسف يغيرون على المناطق الآمنة، حتى هزمهم سعيد الحرشي، وأحرق المقنع نفسه قبل القبض عليه {cite:tarikh-dawla-abbasiyya-taqqush p. 78-79}."
+  en: "al-Muqanna' — the Veiled One of Khurasan who wore a golden mask and claimed divinity through the metempsychosis of Adam's spirit via Abu Muslim; his Mubayyida followers spread across Bukhara and Soghd until Sa'id al-Harashi's victory and his self-immolation, 159-161 AH {cite:tarikh-dawla-abbasiyya-taqqush p. 78-79}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+themes: [sects-and-schools]
+relations:
+  - { type: participated_in, target: event/muqanna-revolt, role: "زعيم الحركة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+sources: [source/tarikh-dawla-abbasiyya-taqqush]
+provenance:
+  layer: own-research
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 78-79"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-taqqush-abbasi-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,25 @@
+id: event/paderborn-pact-160
+class: event
+kind: battle
+label: { ar: "مؤامرة بادربودن وحملة شارلمان على الأندلس" }
+summary:
+  ar: "في سنة ١٦٠هـ/٧٧٧م اتصل سليمان بن يقظان الأعرابي والي برشلونة وجيرندة بشارلمان الكارولنجي في بادربودن، بالتفاهم مع حسين بن يحيى الأنصاري والي سرقسطة وعبد الرحمن بن حبيب الصقلبي، وبتشجيع من الخليفة المهدي؛ وكانت الخطة أن يعبر شارلمان جبال البرينييه إلى سرقسطة فيسلمها له الأعرابي، بينما يزحف الفهري من المغرب وينزل بجيوشه مرسية، فيُضرب الطوق على عبد الرحمن الداخل وتُعلن خضوع البلاد للحكم العباسي؛ لكن عبد الرحمن باغت الفهري فقضى عليه، وأغلق الأنصاري أبواب سرقسطة في وجه الكارولنجيين، وبلغ شارلمان قيام السكسون بثورة في ألمانيا فعاد سنة ١٦٢هـ/٧٧٩م، وفشل الغزو كما فشل العباسيون في استعادة الأندلس {cite:tarikh-dawla-abbasiyya-taqqush p. 80-82}."
+  en: "The Paderborn pact, 160 AH/777 CE — the Andalusi governors' compact with Charlemagne to deliver Saragossa, collapsing when al-Ansari shut the gates and the Saxon revolt recalled the Frank {cite:tarikh-dawla-abbasiyya-taqqush p. 80-82}."
+wings: [time]
+periods: [period/umayyad]
+regions: [andalus-europe]
+date:
+  start: { edtf: "0777", hijri: "0160", calendar: julian, precision: year, status: tradition }
+  end: { edtf: "0779", hijri: "0162", calendar: julian, precision: year, status: tradition }
+relations:
+  - { type: had_participant, target: person/sulayman-ibn-yaqzan-al-arabi, role: "صاحب المبادرة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: had_participant, target: person/husayn-ibn-yahya-al-ansari, role: "والي سرقسطة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-habib-al-fihri, role: "والي المغرب المتحالف", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+  - { type: had_participant, target: person/charlemagne-malik-al-ifranj, role: "ملك الفرنجة", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+sources: [source/tarikh-dawla-abbasiyya-taqqush]
+provenance:
+  layer: own-research
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 80-82"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-taqqush-abbasi-batch-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

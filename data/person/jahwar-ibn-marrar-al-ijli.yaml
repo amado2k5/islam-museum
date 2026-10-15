@@ -1,0 +1,20 @@
+id: person/jahwar-ibn-marrar-al-ijli
+class: person
+label: { ar: "جهور بن مرّار العجلي" }
+gender: male
+roles: [military]
+summary:
+  ar: "جهور بن مرّار العجلي، قائد عباسي؛ أرسله أبو جعفر المنصور على رأس جيش إلى سنباذ المجوسي فاصطدم به بين همذان والري وقضى على حركته سنة ١٣٧هـ {cite:tarikh-dawla-abbasiyya-taqqush p. 55}."
+  en: "Jahwar ibn Marrar al-Ijli — the Abbasid commander who crushed Sunbadh's rising between Hamadhan and Rayy, 137 AH {cite:tarikh-dawla-abbasiyya-taqqush p. 55}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+relations:
+  - { type: participated_in, target: event/sunbadh-revolt-137, role: "قائد الجيش العباسي", sources: [source/tarikh-dawla-abbasiyya-taqqush] }
+sources: [source/tarikh-dawla-abbasiyya-taqqush]
+provenance:
+  layer: own-research
+  source: "تاريخ الدولة العباسية لمحمد سهيل طقّوش (ط7) ص 55"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-taqqush-abbasi-batch-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,24 @@
+id: person/al-julanda-ibn-masud
+class: person
+label: { ar: "الجلندى بن مسعود" }
+gender: male
+roles: [rebel]
+traditions: [ibadi]
+died: { edtf: "0752~", hijri: "0134", calendar: julian, precision: year, status: tradition, derived: true, note: "قُتل سنة ١٣٤ في ثورته على السفاح {cite:duha-islam p. 950}." }
+summary:
+  ar: "الجلندى بن مسعود، إمام إباضي عمان؛ ما استقر السفاح في خلافته حتى تحرك خوارج عُمان وعلى رأسهم الجلندى وأصحابه من الخوارج الإباضية، فأرسل إليهم السفاح جيشاً على رأسه خازم بن خزيمة سار في البحر حتى أرسى على ساحل عمان؛ وتقاتلوا قتالاً شديداً كانت الحرب فيه سجالاً حتى أشار أصحاب خازم بإشعال المشاقة المغموسة بالنفط وضربها في بيوت أصحاب الجلندى الخشبية، فلما اشتغلوا ببيوتهم المحترقة وأهاليهم حمل عليهم فوضعوا فيهم السيف وقُتل الجلندى فيمن قتل، وبلغت عدة القتلى نحو عشرة آلاف وبعثوا رءوسهم إلى البصرة سنة ١٣٤ {cite:duha-islam p. 950}."
+  en: "al-Julanda ibn Mas'ud — the Ibadi imam of Oman whose rising against al-Saffah was drowned in fire and sword by Khazim ibn Khuzayma, 134 AH {cite:duha-islam p. 950}."
+wings: [people]
+periods: [period/abbasid-early]
+regions: [arabia]
+themes: [sects-and-schools]
+relations:
+  - { type: participated_in, target: event/ibadi-revolt-oman-134, role: "إمام الثورة الإباضية", sources: [source/duha-islam] }
+  - { type: member_of, target: group/ibadiyya, sources: [source/duha-islam] }
+sources: [source/duha-islam]
+provenance:
+  layer: own-research
+  source: "ضحى الإسلام لأحمد أمين ص 950"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-duha-islam-batch-11
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
