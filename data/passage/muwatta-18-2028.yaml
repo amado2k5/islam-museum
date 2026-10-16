@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2028"
-label: { ar: "الموطأ 2028", en: "Muwatta 2028" }
+label: { ar: "الموطأ 2028 — مالك: فيمن أخذ من رجل مالا قراضا ثم دفعه إلى رجل آخر فعمل فيه قراضا بغير إذن صاحبه: إنه ضامن للمال، إن نقص فعليه النقصان، وإن ربح فلصاحب المال شرطه من الربح، ثم يكون للذي عمل شرطه بما بقي", en: "Muwatta 2028" }
 summary:
-  ar: "مالك في رجل أخذ من رجل مالًا قراضًا ثم دفعه إلى رجل آخر فعمل فيه قراضًا بغير... ؛ حكم دفع المضاربة إلى غير صاحبها؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في رجل أخذ من رجل مالا قراضا، ثم دفعه إلى رجل آخر، فعمل فيه قراضا بغير إذن صاحبه: إنه ضامن للمال، إن نقص فعليه النقصان، وإن ربح فلصاحب المال شرطه من الربح، ثم يكون للذي عمل شرطه بما بقي من المال. {cite:muwatta-maruf-1997 p.229}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2028 of kitab 18-qiraad at PDF p. 229", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k18-batch-88" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2028 at PDF p. 229; التعدي في القراض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b56" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 229; matn excerpt at most 40 words" }

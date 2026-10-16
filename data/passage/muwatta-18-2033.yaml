@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2033"
-label: { ar: "الموطأ 2033", en: "Muwatta 2033" }
+label: { ar: "الموطأ 2033 — يحيى عن مالك: فيمن معه مال قراض فهو يستنفق منه ويكتسي: لا يهب منه شيئا، ولا يعطي منه سائلا ولا غيره، ولا يكافئ فيه أحدا، فإن اجتمع هو وقوم فجاءوا بطعام وجاء هو بطعام، فأرجو أن يكون ذلك واسعا إذا لم يتعمد التفضل عليهم، فإن تعمد ذلك فعليه أن يتحلله رب المال", en: "Muwatta 2033" }
 summary:
-  ar: "يحيى: قال مالك في رجل معه مال قراض فهو يستنفق منه ويكتسي: إنه لا يهب من... ؛ حكم الإنفاق من مال المضاربة؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: قال مالك في رجل معه مال قراض، فهو يستنفق منه ويكتسي: إنه لا يهب منه شيئا، ولا يعطي منه سائلا ولا غيره، ولا يكافئ فيه أحدا. فأما إن اجتمع هو وقوم، فجاءوا بطعام وجاء هو بطعام، فأرجو أن يكون ذلك واسعا، إذا لم يتعمد أن يتفضل عليهم. فإن تعمد ذلك، أو ما يشبهه، بغير إذن صاحب المال، فعليه أن يتحلله من رب المال. فإن حلله ذلك فلا بأس به، وإن أبى أن يحلله فعليه أن يكافئه بمثل ذلك، إن كان ذلك شيئا له مكافأة. {cite:muwatta-maruf-1997 p.231}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2033 of kitab 18-qiraad at PDF p. 231", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k18-batch-88" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2033 at PDF p. 231; ما لا يجوز من النفقة في القراض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b56" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 231; matn excerpt at most 40 words" }

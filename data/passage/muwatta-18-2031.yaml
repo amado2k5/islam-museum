@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2031"
-label: { ar: "الموطأ 2031", en: "Muwatta 2031" }
+label: { ar: "الموطأ 2031 — يحيى عن مالك: إذا كان المال كثيرا يحمل النفقة، فإذا شخص فيه العامل فله أن يأكل منه ويكتسي بالمعروف من قدر المال، ويستأجر من المال من يكفيه بعض مؤونته فيما لا يعمله هو، كتقاضي الدين ونقل المتاع وشده، وليس له أن ينفق من المال مقيما في أهله", en: "Muwatta 2031" }
 summary:
-  ar: "يحيى: قال مالك في رجل دفع إلى رجل مالًا قراضًا: إنه إذا كان المال كثيرًا يحمل... ؛ مسألة في المضاربة مع كثرة المال؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: قال مالك في رجل دفع إلى رجل مالا قراضا: إنه إذا كان المال كثيرا يحمل النفقة، فإذا شخص فيه العامل، فإن له أن يأكل منه، ويكتسي بالمعروف من قدر المال، ويستأجر من المال، إذا كان كثيرا لا يقوى عليه، بعض من يكفيه بعض مؤونته. ومن الأعمال أعمال لا يعملها الذي يأخذ المال، وليس مثله يعملها، من ذلك تقاضي الدين، ونقل المتاع، وشده وأشباه ذلك، فله أن يستأجر من المال من يكفيه ذلك. وليس للمقارض أن يستنفق من المال، ولا يكتسي منه، ما كان مقيما في أهله، إنما يجوز له النفقة إذا شخص في المال، وكان المال يحمل النفقة. فإن كان إنما يتجر في المال في البلد الذي هو به مقيم، فلا نفقة له من المال ولا كسوة. {cite:muwatta-maruf-1997 p.230} {cite:muwatta-maruf-1997 p.231}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2031 of kitab 18-qiraad at PDF p. 230", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k18-batch-88" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2031 at PDF p. 230; ما يجوز من النفقة في القراض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b56" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 230; matn excerpt at most 40 words" }
