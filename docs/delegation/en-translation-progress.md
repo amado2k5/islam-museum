@@ -161,3 +161,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person s–z batch 16 (Claude Code, claude-haiku-5-5): umayr-ibn-sad … umm-sharik-al-dawsiyya, 25 files, 25 files.
 - place a–l batch 11 (Haiku 5.5, draft): 25 files, arqa → astur; 936 Arabic files in a–l at commit time.
 - person i–m batch 24 (25 files, masud-ibn-haritha … midhat-pasha) — Claude Haiku 5.5, draft
+- event a–m batch 11 (2026-10-16, claude-haiku-5-5): 25 pages, byzantine-sack-of-aleppo-351 → conquest-of-al-badhdh-city-of-babak (EN drafts).
