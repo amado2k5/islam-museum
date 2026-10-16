@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1960"
-label: { ar: "الموطأ 1960", en: "Muwatta 1960" }
+label: { ar: "الموطأ 1960 — مالك: بلغه أن عبد الله بن مسعود كان يحدث: أيما بيعين تبايعا فالقول ما قال البائع، أو يتراددان، وذكر المحقق أن الحديث مشهور عند العلماء ولا إسناد صحيح له", en: "Muwatta 1960" }
 summary:
-  ar: "مالك: بلغه أن عبد الله بن مسعود كان يحدث... ؛ أثر عن ابن مسعود في البيع؛ تفاصيل الأثر غير واضحة."
+  ar: "قال مالك: وبلغه أن عبد الله بن مسعود كان يحدث أن رسول الله قال: أيما بيعين تبايعا، فالقول ما قال البائع، أو يتراددان. ويذكر المحقق أن ابن عبد البر قال إن الحديث محفوظ عن ابن مسعود، وأنه عند جماعة العلماء أصل تلقوه بالقبول، وأن الترمذي قال إنه مرسل، وأن لا إسناد صحيحا له فيما يعلم المحقق. {cite:muwatta-maruf-1997 p.201} {cite:muwatta-maruf-1997 p.202}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1960 of kitab 17-buyu at PDF p. 201", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-85" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1960 at PDF p. 201; بيع الخيار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b51" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 201; matn excerpt at most 40 words" }

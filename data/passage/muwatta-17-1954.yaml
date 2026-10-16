@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1954"
-label: { ar: "الموطأ 1954", en: "Muwatta 1954" }
+label: { ar: "الموطأ 1954 — مالك: إذا باع رجل سلعة قامت عليه بمائة دينار، للعشرة أحد عشر، ثم جاءه بعد ذلك فقال إنها قامت عليه بتسعين دينارا، وقد فاتت السلعة، خير البائع بين قيمة سلعته يوم قبضت، وبين الربع على التسعين", en: "Muwatta 1954" }
 summary:
-  ar: "مالك: وإذا باع رجل سلعة قامت عليه بمئة دينار، للعشرة أحد عشر... ؛ بيع المرابحة وحساب الربح؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وإذا باع رجل سلعة قامت عليه بمائة دينار، للعشرة أحد عشر. ثم جاءه بعد ذلك فقال: إنها قامت عليه بتسعين دينارا، وقد فاتت السلعة، خير البائع. فإن أحب فله قيمة سلعته يوم قبضت منه، إلا أن تكون القيمة أكثر من الثمن الذي وجب له به البيع أول يوم، فلا يكون له أكثر من ذلك، وذلك مائة دينار وعشرة دنانير. وإن أحب ضرب له الربع على التسعين، إلا أن يكون الذي بلغت سلعته من الثمن أقل من القيمة، فيخير في الذي بلغت سلعته، وفي رأس ماله وربحه، وذلك تسعة وتسعون دينارا. {cite:muwatta-maruf-1997 p.199}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1954 of kitab 17-buyu at PDF p. 199", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-85" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/murabaha, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1954 at PDF p. 199; بيع المرابحة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b51" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 199; matn excerpt at most 40 words" }

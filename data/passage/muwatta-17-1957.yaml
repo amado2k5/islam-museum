@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1957"
-label: { ar: "الموطأ 1957", en: "Muwatta 1957" }
+label: { ar: "الموطأ 1957 — مالك: في الرجل يقدم له أصناف من البز، ويحضره السوام، فيقرأ عليهم برنامجه، فيشترون الأغدال على ما وصف لهم، ثم يفتحونها فيستغلونها ويندمون: ذلك لازم لهم إذا كان موافقا للبرنامج الذي باعهم عليه", en: "Muwatta 1957" }
 summary:
-  ar: "مالك في الرجل يقدم له أصناف من البز، ويحضره الشوامّ، ويقرأ عليهم برنامجه... ؛ البيع بالوصف المكتوب في البرنامج؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في الرجل يقدم له أصناف من البز، ويحضره السوام، ويقرأ عليهم برنامجه، ويقول: في كل عدل كذا وكذا ملحفة بصرية، وكذا وكذا ريطة سابرية، ذرعها كذا وكذا، ويسمي لهم أصنافا من البز بأجناسه، ويقول: اشتروا مني على هذه الصفة. فيشترون الأغدال على ما وصف لهم، ثم يفتحونها فيستغلونها ويندمون. قال مالك: ذلك لازم لهم، إذا كان موافقا للبرنامج الذي باعهم عليه. قال مالك: وهذا الأمر الذي لم يزل عليه الناس عندنا، يجيزونه بينهم، إذا كان المتاع موافقا للبرنامج، ولم يكن مخالفا له. {cite:muwatta-maruf-1997 p.200} {cite:muwatta-maruf-1997 p.201}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1957 of kitab 17-buyu at PDF p. 200", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-85" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1957 at PDF p. 200; البيع على البرنامج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b51" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 200; matn excerpt at most 40 words" }

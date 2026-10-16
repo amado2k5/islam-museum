@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1953"
-label: { ar: "الموطأ 1953", en: "Muwatta 1953" }
+label: { ar: "الموطأ 1953 — مالك: في الرجل يشتري المتاع بالذهب أو الورق، والصرف يوم اشتراه عشرة دراهم بدينار، فيقدم به بلدا فيبيعه مرابحة على صرف يوم البيع: إن كان المبتاع بالخيار إن لم يفت المتاع، فإن فات كان للمشتري بالثمن الذي ابتاعه به البائع", en: "Muwatta 1953" }
 summary:
-  ar: "مالك في الرجل يشتري المتاع بالذهب أو بالورق، والصرف يوم اشتراه عشرة دراهم بدينار... ؛ حساب ثمن المتاع بسعر الصرف؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في الرجل يشتري المتاع بالذهب أو الورق، والصرف يوم اشتراه عشرة دراهم بدينار، فيقدم به بلدا فيبيعه مرابحة، أو يبيعه حيث اشتراه مرابحة على صرف ذلك اليوم الذي باعه فيه: فإنه إن كان ابتاعه بدراهم وباعه بدنانير، أو ابتاعه بدنانير وباعه بدراهم، وكان المتاع لم يفت، فالمبتاع بالخيار: إن شاء أخذه، وإن شاء تركه. فإن فات المتاع، كان للمشتري بالثمن الذي ابتاعه به البائع، ويحسب للبائع الربح على ما اشتراه به على ما ربحه المبتاع. {cite:muwatta-maruf-1997 p.199}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1953 of kitab 17-buyu at PDF p. 199", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-85" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/murabaha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sarf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1953 at PDF p. 199; بيع المرابحة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b51" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 199; matn excerpt at most 40 words" }

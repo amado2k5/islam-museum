@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1961"
-label: { ar: "الموطأ 1961", en: "Muwatta 1961" }
+label: { ar: "الموطأ 1961 — مالك: فيمن باع سلعة وقال البائع عند المواجبة: أبيعك على أن أستشير فلانا، فإن رضي فقد جاز البيع، فإن ندم المشتري قبل أن يستشير البائع، فالبيع لازم لهما على ما وصفا، ولا خيار للمبتاع", en: "Muwatta 1961" }
 summary:
-  ar: "مالك فيمن باع رجلًا سلعة، فقال البائع عند مواجبة البيع: أبيعك على أن أستشير فلانًا... ؛ شرط الاستشارة في البيع؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك فيمن باع من رجل سلعة. فقال البائع عند مواجبة البيع: أبيعك على أن أستشير فلانا، فإن رضي فقد جاز البيع، وإن كره فلا بيع بيننا. فيتبايعان على ذلك، ثم يندم المستري قبل أن يستشير البائع فلانا: إن ذلك البيع لازم لهما، على ما وصفا، ولا خيار للمبتاع، وهو لازم له، إن أحب الذي اشترط له الخيار أن يجيزه. {cite:muwatta-maruf-1997 p.203}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1961 of kitab 17-buyu at PDF p. 203", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-85" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1961 at PDF p. 203; بيع الخيار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b51" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 203; matn excerpt at most 40 words" }

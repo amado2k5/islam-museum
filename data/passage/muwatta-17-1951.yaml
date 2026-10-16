@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1951"
-label: { ar: "الموطأ 1951", en: "Muwatta 1951" }
+label: { ar: "الموطأ 1951 — يحيى عن مالك: الأمر المجتمع عليه عندنا في البز يشتريه الرجل ببلد ثم يقدم به بلدا آخر فيبيعه مرابحة، أنه لا يحسب فيه أجر السماسرة ولا الطي ولا الشد ولا النفقة ولا كراء البيت، وكراء البز في حملانه يحسب في أصل الثمن", en: "Muwatta 1951" }
 summary:
-  ar: "يحيى عن مالك: الأمر المجتمع عليه عندنا في البز يشتريه الرجل ببلد ثم يُقدم به... ؛ حكم نقل البضاعة وتكلفتها؛ الحكم يحتاج مراجعة."
+  ar: "يروي يحيى قال مالك: الأمر المجتمع عليه عندنا في البز يشتريه الرجل ببلد، ثم يقدم به بلدا آخر فيبيعه مرابحة، إنه لا يحسب فيه أجر السماسرة، ولا أجر الطي ولا الشد، ولا النفقة، ولا كراء بيت. فأما كراء البز في حملانه، فإنه يحسب في أصل الثمن، ولا يحسب فيه ربح، إلا أن يعلم البائع من يساومه بذلك كله، فإن ربحوه على ذلك كله بعد العلم به، فلا بأس به. {cite:muwatta-maruf-1997 p.198}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1951 of kitab 17-buyu at PDF p. 198", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-85" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/murabaha, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1951 at PDF p. 198; بيع المرابحة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b51" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 198; matn excerpt at most 40 words" }
