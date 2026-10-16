@@ -65,3 +65,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person i–m batch 5 (25 files, ibn-barrajan-abd-al-salam … ibn-hayy-al-tujibi-al-hasan-ibn-muhammad) — Claude Haiku 5.5, draft
 - place m–z batch 9: 25 files (nughayra.md … qalari.md), draft
 - concept batch 5 (Claude Haiku 5.5): 25 pages, ibadat-al-asnam-jahiliyya → jihad-call-of-1914
+- person d–h batch 8 (Claude Haiku 5.5): 25 pages, hisham-ibn-abd-al-malik → hurayth-ibn-jabir-al-jufi (commit ea10e080)
