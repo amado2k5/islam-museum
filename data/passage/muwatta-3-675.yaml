@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "675"
-label: { ar: "الموطأ 675", en: "Muwatta 675" }
+label: { ar: "الموطأ 675 — مالك: التبر والحلي الذي لا ينتفع به للبس فيه الزكاة كل عام، والمكسور الذي يراد إصلاحه بمنزلة المتاع", en: "Muwatta 675" }
 summary:
-  ar: "مالك: من كان عنده تبر أو حلي من ذهب أو فضة لا يُنتفع به للبس فإن عليه الزكاة؛ زكاة الحلي غير المستعمل."
+  ar: "قول لمالك: من كان عنده تبر أو حلي من ذهب أو فضة لا يُنتفع به للبس فإن عليه فيه الزكاة في كل عام، يوزن فيؤخذ ربع عشره، إلا أن ينقص عن وزن عشرين ديناراً عيناً أو مئتي درهم فلا زكاة فيه؛ وإنما تكون فيه الزكاة إذا كان يمسكه لغير اللبس، فأما التبر والحلي المكسور الذي يريد أهله إصلاحه ولبسه فهو بمنزلة المتاع الذي يكون عند أهله فلا زكاة عليهم فيه. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.341}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 675 of kitab 03-zakat at PDF p. 341", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-31" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 675 at PDF p. 341; باب ما لا زكاة فيه من الحلي والتبر والعنبر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 341; matn excerpt at most 40 words" }

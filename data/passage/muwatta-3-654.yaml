@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "654"
-label: { ar: "الموطأ 654", en: "Muwatta 654" }
+label: { ar: "الموطأ 654 — بلاغ: كتاب عمر بن عبد العزيز إلى عامله على دمشق: إنما الصدقة في الحرث والعين والماشية", en: "Muwatta 654" }
+text: "إنما الصدقة في الحرث، والعين، والماشية"
 summary:
-  ar: "بلغ مالكًا أن عمر بن عبد العزيز كتب إلى عامله على دمشق في الصدقة... ؛ كتاب الخليفة في الصدقة؛ تفاصيل الكتاب غير واضحة."
+  ar: "بلاغ يرويه مالك أنه بلغه أن عمر بن عبد العزيز كتب إلى عامله على دمشق في الصدقة: إنما الصدقة في الحرث والعين والماشية. ويقول مالك: ولا تكون الصدقة إلا في ثلاثة أشياء: في الحرث والعين والماشية. ويذكر المحقق أن البلاغ وقول مالك رواهما عنه أبو مصعب (636 و637). {cite:muwatta-maruf-1997 p.335}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 654 of kitab 03-zakat at PDF p. 335", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/damascus, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 654 at PDF p. 335; باب ما تجب فيه الزكاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الكتاب غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 335; matn excerpt at most 40 words" }

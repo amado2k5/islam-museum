@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "653"
-label: { ar: "الموطأ 653", en: "Muwatta 653" }
+label: { ar: "الموطأ 653 — أبو سعيد من طريق ابن أبي صعصعة: ليس فيما دون خمسة أوسق من التمر صدقة…", en: "Muwatta 653" }
+text: "ليس فيما دون خمسة أوسق من التمر صدقة، وليس فيما دون خمس أواق من الورق صدقة، وليس فيما دون خمس ذود من الإبل صدقة"
 summary:
-  ar: "محمد بن عبد الله بن عبد الرحمن بن أبي صعصعة: حديث في الجنازة أو الميت؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن محمد بن عبد الله بن عبد الرحمن بن أبي صعصعة الأنصاري المازني عن أبيه عن أبي سعيد الخدري، أن النبي قال: لا صدقة فيما دون خمسة أوسق من التمر، ولا فيما دون خمس أواق من الورق، ولا فيما دون خمس ذود من الإبل. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه البغوي، وسويد، والقعنبي، وابن وهب عند ابن خزيمة، والتنيسي عند البخاري (1459)، وابن القاسم ومن طريقه النسائي، وعبد الرزاق، والشافعي، والشيباني، ويحيى بن سعيد القطان عند البخاري (1484)، وأن ابن عبد البر زعم أن مالكاً أخطأ في هذا الإسناد وأن محمداً وأباه وأخاه ليسوا بالمشاهير وأن البخاري لم يخرجه للاختلاف فيه، فيرد عليه المحقق بأن رواية محمد عن أبيه وعن يحيى بن عمارة وعن عباد بن تميم ليست اضطراباً وأن الطرق محفوظة كما قرره الذهلي وابن حجر، وأنهم ثقات معروفون، وأن البخاري أخرجه في موضعين، وأن مسلماً (3/67) أخرجه من حديث جابر خلافاً لقول ابن عبد البر إن أبا سعيد انفرد به. {cite:muwatta-maruf-1997 p.333} {cite:muwatta-maruf-1997 p.334} {cite:muwatta-maruf-1997 p.335}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 653 of kitab 03-zakat at PDF p. 333", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k2-batch-30" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-abdallah-ibn-abi-sasaa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-hajar-al-asqalani, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 653 at PDF p. 333; باب ما تجب فيه الزكاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 333; matn excerpt at most 40 words" }

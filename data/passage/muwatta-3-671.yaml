@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "671"
-label: { ar: "الموطأ 671", en: "Muwatta 671" }
+label: { ar: "الموطأ 671 — في الركاز الخمس", en: "Muwatta 671" }
+text: "في الركاز الخمس"
 summary:
-  ar: "ابن شهاب عن سعيد بن المسيب وأبي سلمة عن أبي هريرة: حديث في زكاة الإبل والبقر والغنم؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب زكاة الركاز. يرويه مالك عن ابن شهاب عن سعيد بن المسيب وعن أبي سلمة بن عبد الرحمن، كلاهما عن أبي هريرة، أن النبي قال: في الركاز الخمس. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان (6005) والبغوي، وإسحاق الطباع عند مسلم (5/128)، وخالد بن مخلد عند ابن خزيمة، وابن وهب عند الطحاوي والدارقطني، والتنيسي عند البخاري (1499)، وقتيبة عند النسائي (5/45)، ومحمد بن الحسن الشيباني (677)، ويحيى بن بكير عند أبي عبيد في الأموال (858)، ويحيل على الترمذي (642 و1377) وعلى الحديث (2541) من هذا الكتاب. {cite:muwatta-maruf-1997 p.340}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 671 of kitab 03-zakat at PDF p. 340", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-31" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/rikaz, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/khums, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 671 at PDF p. 340; باب زكاة الركاز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 340; matn excerpt at most 40 words" }

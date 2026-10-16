@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "662"
-label: { ar: "الموطأ 662", en: "Muwatta 662" }
+label: { ar: "الموطأ 662 — مالك: خمسة دنانير تجر فيها فبلغت النصاب قبل الحول بيوم أو بعده بيوم يزكيها", en: "Muwatta 662" }
 summary:
-  ar: "مالك في رجل كانت له خمسة دنانير من فائدة أو غيرها فتجر فيها؛ حكم الزكاة في المال المستفاد."
+  ar: "قول لمالك في رجل له خمسة دنانير من فائدة أو غيرها فتجر فيها فلم يأت الحول حتى بلغت ما تجب فيه الزكاة: أنه يزكيها وإن لم تتم إلا قبل أن يحول عليها الحول بيوم واحد أو بعده بيوم واحد، ثم لا زكاة فيها حتى يحول عليها الحول من يوم زُكيت. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.337}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 662 of kitab 03-zakat at PDF p. 337", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-31" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hawl, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 662 at PDF p. 337; باب الزكاة في العين من الذهب والورق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 337; matn excerpt at most 40 words" }
