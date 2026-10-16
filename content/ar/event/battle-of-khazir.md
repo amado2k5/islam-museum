@@ -1,0 +1,13 @@
+---
+id: event/battle-of-khazir
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+في سنة 66هـ سار [[person/ubayd-allah-ibn-ziyad|عبيد الله بن زياد]] بعساكر الشام نحو العراق. فلما بلغ الموصل ([[place/mosul|الموصل]]) التقى بـ[[person/ibrahim-ibn-al-ashtar|إبراهيم بن الأشتر]]، وكان على خيل العراق من قبل المختار، عند الخازر. {cite:bakr-umayyad-state-1134715 p. 209}
+
+## النتيجة
+يصف الكتاب الوقعة بأنها عظيمة. قُتل فيها ابن زياد والحصين بن نمير وشرحبيل بن ذي الكلاع وأشراف من أهل الشام. {cite:bakr-umayyad-state-1134715 p. 209}
+
+يذكر الخضري أن الغلبة كانت لابن الأشتر، وأن جند الشام أصابهم قتل وغرق. {cite:khudari-umayyad-state p.300} ويرى أن انهزامهم كان حين نبض عرق العصبية بين قيس واليمن. {cite:khudari-umayyad-state p.365}

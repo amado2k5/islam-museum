@@ -1,0 +1,14 @@
+---
+id: event/battle-of-marj-rahit
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+في نهاية سنة 64هـ وقعت بمرج راهط، شرقي [[place/damascus|دمشق]]، معركة بين مروان بن الحكم وأنصار بني أمية من جهة، وأنصار عبد الله بن الزبير من جهة أخرى. وكان النصر لمروان. {cite:umayyad-birth-to-fall-2006 p. 30}
+
+يرى الكتاب أنها بداية استعادة الأمويين دولتهم التي كانت قاب قوسين من الزوال. {cite:umayyad-birth-to-fall-2006 p. 30}
+
+قاد جيش ابن الزبير بالشام [[person/al-dahhak-ibn-qays-al-fihri|الضحاك بن قيس الفهري]]. {cite:bakr-umayyad-state-1134715}
+
+يذكر الكتاب التاريخ بالهجري، ولم يُحوَّل هنا.
