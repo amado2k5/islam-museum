@@ -64,3 +64,32 @@ markets (`data/place/`), 2 iconic cafés (`data/listing/`), plus
   el-Attarine Tunis), folk festivals (Moussem of Tan-Tan, Mevlana
   week beyond Şeb-i Arus), and Islamic-art object records are a huge
   open field — the nine minted are the canonical headliners only.
+
+## Source pass 2 (2026-10-16): elCinema, Dhliz, Shahid
+
+Beyond IMDb/Wikidata, three Arabic-first catalogues were distilled:
+
+- **elCinema** (`source/elcinema`, `external_ids.elcinema`, pattern
+  `^\d+$` → `elcinema.com/en/work/{id}/`): 53 of 130 records matched,
+  each verified by fetching the work page and comparing title+year.
+  Method: `/en/search/work/?q=<title>` → candidate pages → `<title>`
+  gives type+name+year. One false match dropped (zaky-2010 → an
+  unrelated Egyptian film). Cast lists were captured but not imported
+  as `features` — the page mixes crew and actors without labels.
+- **Dhliz** (`source/dhliz`, `external_ids.dhliz`, pattern
+  `^(film|series)/<slug>$`): title-slug search alone produced many
+  false positives; only entries verified via the JSON-LD `sameAs`
+  Wikidata QID on each work page were kept: `fajr-al-islam-1971`,
+  `muawiya-2025`. Dhliz coverage of non-Arabic works is thin.
+- **Shahid** (`source/shahid`): public search API at
+  `api2.shahid.net/proxy/v2/search/<TV_SHOWS|MOVIES>` with headers
+  `uuid: Web`, `language: AR`, profile JSON `{"id":<uuid>,"isAdult":
+  false,"master":true}` and request `{"name": <title>}`. Strict
+  whole-token title matching after substring false positives (علي ⊂
+  عليه, مو ⊂ مودة). Only `bilal-jil-jadid-2015` streams there —
+  watch entry `official-paid`, region `mena`, percent-encoded Arabic
+  URL (validator requires `uri` format). Khawatir/Omar/al-Zahir
+  Baybars are not in the current Shahid catalogue.
+
+Caveat for future passes: never accept a catalogue match on title
+alone — always confirm year ±1 or a Wikidata `sameAs` QID.
