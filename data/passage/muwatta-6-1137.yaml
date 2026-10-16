@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1137"
-label: { ar: "الموطأ 1137", en: "Muwatta 1137" }
+label: { ar: "الموطأ 1137 — ثور بن زيد عن عكرمة: من أصاب أهله قبل أن يفيض يعتمر ويهدي", en: "Muwatta 1137" }
+text: "الذي يُصيبُ أهْلَهُ قَبْلَ أنْ يُفيضَ، يَعْتَمِرُ ويُهْدي"
 summary:
-  ar: "ثور بن زيد الديلي عن عكرمة مولى ابن عباس: حديث في الحج أو الهدي؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن ثور بن زيد الديلي عن عكرمة مولى ابن عباس، ويقول عكرمة إنه لا يظنه إلا عن عبد الله بن عباس، أن من أصاب أهله قبل أن يفيض يعتمر ويهدي. {cite:muwatta-maruf-1997 p.517}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1137 of kitab 06-hajj at PDF p. 517", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-51" }
+  - { type: mentions, target: person/ikrima-mawla-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1137 at PDF p. 517; من أصاب أهله قبل أن يفيض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b11" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 517; matn excerpt at most 40 words" }

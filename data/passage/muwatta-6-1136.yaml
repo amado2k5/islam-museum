@@ -1,0 +1,17 @@
+id: passage/muwatta-6-1136
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "6.1136"
+label: { ar: "الموطأ 1136 — ابن أبي رباح عن ابن عباس: من أصاب أهله بمنى قبل أن يفيض، فعليه أن ينحر بدنة", en: "Muwatta 1136" }
+summary:
+  ar: "يروي ابن أبي رباح عن عبد الله بن عباس أنه سئل عن رجل وقع بأهله وهو بمنى قبل أن يفيض، فأمره أن ينحر بدنة. {cite:muwatta-maruf-1997 p.516}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-06-hajj }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1136 at PDF p. 516; من أصاب أهله قبل أن يفيض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b11" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 516; matn excerpt at most 40 words" }
