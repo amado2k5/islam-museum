@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2301"
-label: { ar: "الموطأ 2301", en: "Muwatta 2301" }
+label: { ar: "الموطأ 2301 — مالك: الكتابة الجماعية والحمالة بين المكاتبين", en: "Muwatta 2301" }
 summary:
-  ar: "مالك: إذا كاتب القوم جميعًا كتابة واحدة، ولا رحم بينهم يتوارثون بها، فإن ب... ؛ حكم كتابة جماعة لا رحم بينهم؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: إذا كوتب القوم جميعا كتابة واحدة، ولا رحم بينهم يتوارثون بها، فإن بعضهم حملاء عن بعض، ولا يعتق بعضهم دون بعض حتى يؤدوا الكتابة كلها. فإن مات أحدهم وترك مالا أكثر من جميع ما عليهم، أدي عنهم جميعه، وكان فضل المال لسيده، ويتبعهم السيد بحصصهم الباقية من الكتابة التي قضيت من مال الهالك. وإن كان للمكاتب الهالك ولد حر لم يولد في الكتابة ولم يكاتب عليه، لم يرثه؛ لأن المكاتب لم يعتق حتى مات. {cite:muwatta-maruf-1997 p.348} {cite:muwatta-maruf-1997 p.349}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2301 of kitab 25-mukatab at PDF p. 348", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-99" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2301 at PDF p. 348; الحمالة في الكتابة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b71" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 348; matn excerpt at most 40 words" }
