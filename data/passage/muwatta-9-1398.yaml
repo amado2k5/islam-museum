@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1398"
-label: { ar: "الموطأ 1398", en: "Muwatta 1398" }
+label: { ar: "الموطأ 1398 — ابن شهاب: ما نحر رسول الله عنه وعن أهل بيته إلا بدنة واحدة أو بقرة واحدة", en: "Muwatta 1398" }
 summary:
-  ar: "ابن شهاب: ما نحر رسول الله ﷺ عنه وعن أهل بيته إلا... ؛ أضحية النبي ﷺ عن نفسه وأهل بيته؛ تفاصيل القول غير واضحة."
+  ar: "يروي مالك عن ابن شهاب أنه قال ما نحر رسول الله عنه وعن أهل بيته إلا بدنة واحدة أو بقرة واحدة. قال مالك لا أدري أيهما قال ابن شهاب. ويذكر المحقق أن بعضهم رواه عن الزهري عن عمرة عن عائشة، والظاهر أن الزهري لم يسمعه من عمرة. {cite:muwatta-maruf-1997 p.626}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1398 of kitab 09-dahaya at PDF p. 626", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k9-batch-61b" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1398 at PDF p. 626; الشركة في الضحايا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k9-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القول غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 626; matn excerpt at most 40 words" }

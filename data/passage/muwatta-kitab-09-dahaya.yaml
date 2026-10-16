@@ -3,12 +3,16 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-9"
-label: { ar: "الموطأ، كتاب الضحايا", en: "Muwatta, Book of Sacrifices" }
+label: { ar: "الموطأ، كتاب الضحايا", en: "Muwatta, Book of Sacrifices (dahaya)" }
 summary:
-  ar: "كتاب الضحايا في الموطأ، المجلد الأول، يبدأ في صفحة 619 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Sacrifices in the Muwatta, volume 1, starting at PDF page 619 (PDF numbering, not the printed page)."
+  ar: "كتاب الضحايا، الكتاب التاسع من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997): 16 نصاً (1387–1402) في ستة أبواب، من الصفحة 619 إلى الصفحة 627 من ملف PDF المجلد الأول. يبدأ بما يتقى من الضحايا من العيوب، ثم ما يستحب منها ووقت ذبحها، ثم ادخار لحومها والاشتراك فيها، وينتهي بأن الضحية سنة لا واجبة. {cite:muwatta-maruf-1997 p.619} {cite:muwatta-maruf-1997 p.627}"
+  en: "The Book of Sacrifices, ninth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997): 16 reports (1387–1402) in six babs, PDF pp. 619–627 of volume 1, from the defects that forbid a sacrifice to its timing, storing its meat, sharing and the sacrifice for the household."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 619", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab al-dahaya, PDF pp. 619–627", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k9-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

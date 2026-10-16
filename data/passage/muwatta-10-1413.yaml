@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1413"
-label: { ar: "الموطأ 1413", en: "Muwatta 1413" }
+label: { ar: "الموطأ 1413 — يزيد بن عبد الله بن قسيط عن سعيد بن المسيب: ذكاة ما في بطن الذبيحة في ذكاة أمه إذا تم خلقه ونبت شعره", en: "Muwatta 1413" }
 summary:
-  ar: "يزيد بن عبد الله بن قسيط الليثي عن سعيد بن المسيب: أنه كان... ؛ قول سعيد في الذبائح؛ تفاصيل القول غير واضحة."
+  ar: "يروي مالك عن يزيد بن عبد الله بن قسيط الليثي عن سعيد بن المسيب أنه كان يقول ذكاة ما في بطن الذبيحة في ذكاة أمه، إذا كان قد تم خلقه ونبت شعره. {cite:muwatta-maruf-1997 p.633}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-10-dhaba-ih }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1413 of kitab 10-dhaba-ih at PDF p. 633", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k10-batch-62a" }
+  - { type: mentions, target: person/yazid-ibn-abdallah-ibn-qusayt, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1413 at PDF p. 633; ذكاة ما في بطن الذبيحة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k10-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القول غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 633; matn excerpt at most 40 words" }

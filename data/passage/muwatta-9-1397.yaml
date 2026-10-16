@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1397"
-label: { ar: "الموطأ 1397", en: "Muwatta 1397" }
+label: { ar: "الموطأ 1397 — مالك: أحسن ما سمع في البدنة والبقرة والشاة الواحدة أن الرجل ينحر عنه وعن أهل بيته، ويكره أن يشترك النفر في شرائها للضحايا", en: "Muwatta 1397" }
 summary:
-  ar: "مالك: وأحسن ما سمعت في البدنة والبقرة والشاة الواحدة: أن الرجل ينحر عن... ؛ الأضحية عن الأهل؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك أحسن ما سمعه في البدنة والبقرة والشاة الواحدة، أن الرجل ينحر عنه وعن أهل بيته البدنة، ويذبح البقرة والشاة الواحدة وهو يملكها، ويذبحها عنهم ويشركهم فيها. فأما أن يشتري النفر البدنة أو البقرة أو الشاة يشتركون فيها في النسك والضحايا، فيخرج كل إنسان حصته من ثمنها، وتكون له حصته من لحمها، فإن ذلك يكره. {cite:muwatta-maruf-1997 p.625}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1397 of kitab 09-dahaya at PDF p. 625", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k9-batch-61b" }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1397 at PDF p. 625; الشركة في الضحايا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k9-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 625; matn excerpt at most 40 words" }

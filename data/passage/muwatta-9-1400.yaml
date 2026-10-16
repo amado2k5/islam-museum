@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1400"
-label: { ar: "الموطأ 1400", en: "Muwatta 1400" }
+label: { ar: "الموطأ 1400 — مالك: بلغه عن علي بن أبي طالب مثل ذلك", en: "Muwatta 1400" }
 summary:
-  ar: "بلغ مالكًا عن علي بن أبي طالب مثل ذلك؛ موافقة علي في مدة أيام الأضحى."
+  ar: "بلغ مالكا عن علي بن أبي طالب مثل ذلك، أي أن الأضحى يومان بعد يوم الأضحى. {cite:muwatta-maruf-1997 p.626}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1400 of kitab 09-dahaya at PDF p. 626", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k9-batch-61b" }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1400 at PDF p. 626; الضحية عما في بطن المرأة، وذكر أيام الأضحى", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k9-b24" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 626; matn excerpt at most 40 words" }
