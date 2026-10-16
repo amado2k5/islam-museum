@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1933"
-label: { ar: "الموطأ 1933", en: "Muwatta 1933" }
+label: { ar: "الموطأ 1933 — مالك: فيما يكال أو يوزن مما لا يؤكل ولا يشرب، كالعصفر والنوى والخبط والكتم، يؤخذ من كل صنف اثنان بواحد يدا بيد، ولا يؤخذ من صنف واحد اثنان بواحد إلى أجل", en: "Muwatta 1933" }
 summary:
-  ar: "مالك: الأمر عندنا فيما يكال أو يوزن مما لا يؤكل ولا يشرب، مثل العصفر والنوى والخ... ؛ حكم المكيل والموزون غير المأكول؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر عندنا فيما يكال أو يوزن، مما لا يؤكل ولا يشرب، مثل العصفر والنوى والخبط والكتم وما يشبه ذلك: أنه لا بأس بأن يؤخذ من كل صنف منه اثنان بواحد، يدا بيد، ولا يؤخذ من صنف واحد منه اثنان بواحد إلى أجل. فإن اختلف الصنفان فبان اختلافهما، فلا بأس بأن يؤخذ منهما اثنان بواحد إلى أجل. {cite:muwatta-maruf-1997 p.191}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1933 of kitab 17-buyu at PDF p. 191", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-84" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1933 at PDF p. 191; بيع النحاس والحديد وما أشبههما مما يوزن", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b50" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 191; matn excerpt at most 40 words" }

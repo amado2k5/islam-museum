@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1940"
-label: { ar: "الموطأ 1940", en: "Muwatta 1940" }
+label: { ar: "الموطأ 1940 — مالك: في رجل قال لرجل أشتري منك هذه العجوة خمسة عشر صاعا، أو الصيحاني عشرة آصع، أو الحنطة المحمولة خمسة عشر صاعا، أو الشامية عشرة آصع بدينار، وقد وجبت لي إحداهما: إن ذلك مكروه لا يحل، وهو مما نهي عنه من بيعتين في بيعة", en: "Muwatta 1940" }
 summary:
-  ar: "مالك في رجل قال لرجل: أشتري منك هذه العجوة خمسة عشر صاعًا، أو الصيحاني... ؛ تفاصيل بيع التمر بأنواعه؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في رجل قال لرجل: أشتري منك هذه العجوة خمسة عشر صاعا، أو الصيحاني عشرة آصع، أو الحنطة المحمولة خمسة عشر صاعا، أو الشامية عشرة آصع، بدينار، قد وجبت لي إحداهما: إن ذلك مكروه لا يحل. وذلك أنه قد أوجب له عشرة آصع صيحانيا، فهو يدعها ويأخذ خمسة عشر صاعا من العجوة، أو تجب عليه خمسة عشر صاعا من الحنطة المحمولة، فيدعها ويأخذ عشرة آصع من الشامية، فهذا أيضا مكروه لا يحل. وهو يشبه ما نهي عنه من بيعتين في بيعة، وهو أيضا مما نهي عنه أن يباع من صنف واحد من الطعام اثنان بواحد. {cite:muwatta-maruf-1997 p.193}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1940 of kitab 17-buyu at PDF p. 193", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-84" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1940 at PDF p. 193; النهي عن بيعتين في بيعة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b50" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 193; matn excerpt at most 40 words" }
