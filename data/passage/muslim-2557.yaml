@@ -1,0 +1,15 @@
+id: passage/muslim-2557
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2557"
+label: { ar: "مسلم 2557 — من سره أن يبسط له في رزقه أو ينسأ له في أثره فليصل رحمه", en: "Muslim 2557 — Whoever wishes his provision expanded and his term deferred should keep his kin" }
+text: "قال رسول الله: «من سره أن يبسط له في رزقه، أو ينسأ له في أثره، فليصل رحمه»"
+summary:
+  ar: "رواية أنس بن مالك في باب صلة الرحم من صحيح مسلم؛ يقرن بسط الرزق ونسأ الأثر بصلة الرحم."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب صلة الرحم (طبعة دار التأصيل، الحديث ٢٦٣٩؛ ترقيم عبد الباقي المعروف 2557)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

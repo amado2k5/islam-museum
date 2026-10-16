@@ -1,0 +1,15 @@
+id: passage/muslim-0482
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "482"
+label: { ar: "مسلم 482 — أقرب ما يكون العبد من ربه وهو ساجد", en: "Muslim 482 — The closest a servant is to his Lord is while prostrating" }
+text: "قال رسول الله: «أقرب ما يكون العبد من ربه وهو ساجد؛ فأكثروا الدعاء»"
+summary:
+  ar: "رواية أبي هريرة في باب الدعاء في السجود من كتاب الصلاة في صحيح مسلم؛ يربط السجود بأقصى قرب العبد من ربه ويستحب إكثار الدعاء فيه."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الصلاة، باب الدعاء في السجود (طبعة دار التأصيل، الحديث ٤٧٢؛ ترقيم عبد الباقي المعروف 482)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

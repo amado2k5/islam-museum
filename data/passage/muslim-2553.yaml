@@ -1,0 +1,16 @@
+id: passage/muslim-2553
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2553"
+label: { ar: "مسلم 2553 — البر حسن الخلق والإثم ما حاك في صدرك", en: "Muslim 2553 — Piety is good character; sin is what stirs in your chest" }
+text: "قال رسول الله: «البر حسن الخلق، والإثم ما حاك في صدرك وكرهت أن يطلع عليه الناس»"
+summary:
+  ar: "رواية النواس بن سمعان الأنصاري في باب البر والإثم من صحيح مسلم؛ يجعل البر حسنَ الخلق ويعرّف الإثم بما يحاك في الصدر ويُكره اطلاع الناس عليه — من جوامع التعريف النبوي."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/al-nawwas-ibn-siman, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب البر والإثم (طبعة دار التأصيل، الحديث ٢٦٣٥؛ ترقيم عبد الباقي المعروف 2553)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

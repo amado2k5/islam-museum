@@ -1,0 +1,15 @@
+id: passage/muslim-0798
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "798"
+label: { ar: "مسلم 798 — الماهر بالقرآن مع السفرة الكرام البررة", en: "Muslim 798 — The skilled reciter is with the noble obedient envoys" }
+text: "قال رسول الله: «الماهر بالقرآن مع السفرة الكرام البررة، والذي يقرأ القرآن ويتتعتع فيه وهو عليه شاق له أجران»"
+summary:
+  ar: "رواية عائشة عن سعد بن هشام في باب فضل الماهر بالقرآن والذي يتتعتع فيه من كتاب صلاة المسافرين في صحيح مسلم؛ يرتب الماهر في رفقة الملائكة ويضاعف أجر من يجهد نفسه في التلاوة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/aisha, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب صلاة المسافرين، باب فضل الماهر بالقرآن والذي يتتعتع فيه (النسخة المرقمة هامشياً، الحديث ١٨٩٨–١٨٩٩؛ ترقيم عبد الباقي المعروف 798)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

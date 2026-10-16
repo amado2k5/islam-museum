@@ -1,0 +1,16 @@
+id: passage/muslim-2552
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2552"
+label: { ar: "مسلم 2552 — إن من أبر البر صلة الرجل أهل ود أبيه", en: "Muslim 2552 — Among the greatest piety is that a man keep ties with his father's friends" }
+text: "قال رسول الله: «إن من أبر البر صلة الرجل أهل ود أبيه بعد أن يولي»"
+summary:
+  ar: "رواية عبد الله بن عمر في باب البر والصلة من صحيح مسلم، في قصة أعرابي لقي ابنَ عمر على حماره فأعطاه الحمار والعمامة لأن أباه كان صديقاً لعمر؛ يوسع البر إلى صلة أهل ود الوالدين."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/birr, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب صلة ود الأب (طبعة دار التأصيل، الحديث ٢٦٣٤؛ ترقيم عبد الباقي المعروف 2552)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
