@@ -85,3 +85,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - work batch 9 (25 files, sifat-jazirat-al-arab … wafayat-al-ayan): done by Claude Haiku 5.5, draft
 - person i–m batch 9 (25 files, ibn-zuhr-al-hafid … ibrahim-ibn-yahya-al-ansari-al-mursi) — Claude Haiku 5.5, draft
 - person s–z batch 5 (Claude Code, claude-haiku-5-5): salmawayh-ibn-bunan … sayf-al-din-ghazi-i, 25 files, 25 files.
+- place m–z batch 14: 25 files (ramhurmuz.md … rudhistu.md), draft
