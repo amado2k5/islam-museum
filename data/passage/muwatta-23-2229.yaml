@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2229"
-label: { ar: "الموطأ 2229", en: "Muwatta 2229" }
+label: { ar: "الموطأ 2229 — مالك عن هشام بن عروة عن أبيه: كان عند أم سلمة مخنث، فقال لعبد الله بن أبي أمية والنبي يسمع: إن فتح الله عليكم الطائف غدا فأنا أدلك على ابنة غيلان، فإنها تقبل بأربع وتدبر بثمان، فقال رسول الله: لا يدخلن هؤلاء عليكم", en: "Muwatta 2229" }
 summary:
-  ar: "مالك عن هشام بن عروة عن أبيه: أن مخنثًا كان عند أم سلمة زوج النبي ﷺ... ؛ قصة المخنث وأم سلمة؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن هشام بن عروة عن أبيه أن مخنثا كان عند أم سلمة زوج النبي، فقال لعبد الله بن أبي أمية، ورسول الله يسمع: يا عبد الله، إن فتح الله عليكم الطائف غدا، فأنا أدلك على ابنة غيلان، فإنها تقبل بأربع وتدبر بثمان. فقال رسول الله: لا يدخلن هؤلاء عليكم. ويذكر المحقق أن جمهور رواة الموطأ رووه مرسلا، وأن الصواب عن مالك أنه عن عروة عن زينب بنت أم سلمة عن أمها. {cite:muwatta-maruf-1997 p.316} {cite:muwatta-maruf-1997 p.317}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-23-wasiyya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2229 of kitab 23-wasiyya at PDF p. 316", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k23-batch-96b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2229 at PDF p. 316; ما جاء في المؤنث من الرجال ومن أحق بالولد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k23-b67" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 316; matn excerpt at most 40 words" }

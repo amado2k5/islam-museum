@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2237"
-label: { ar: "الموطأ 2237", en: "Muwatta 2237" }
+label: { ar: "الموطأ 2237 — يحيى عن مالك: السنة عندنا في جناية العبيد أن كل ما أصاب العبد من جرح جرح به إنسانا، أو شيء اختلسه، أو حريسة احترسها، أو ثمر معلق جذه أو أفسده، فإن ذلك في رقبة العبد، فإن شاء سيده أن يعطي قيمة ما أخذ أو أفسد أو عقل ما جرح أعطاه وأمسك غلامه، وإن شاء أسلمه", en: "Muwatta 2237" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول: السنة عندنا في جناية العبيد أن كل ما أصاب العبد من... ؛ جناية العبد على غيره وضمانها؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: سمعت مالكا يقول: السنة عندنا في جناية العبيد أن كل ما أصاب العبد من جرح جرح به إنسانا، أو شيء اختلسه، أو حريسة احترسها، أو ثمر معلق جذه أو أفسده، أو سرقة سرقها لا قطع عليه فيها: إن ذلك في رقبة العبد، لا يعدو ذلك الرقبة، قل ذلك أو كثر. فإن شاء سيده أن يعطي قيمة ما أخذ غلامه، أو أفسد، أو عقل ما جرح، أعطاه وأمسك غلامه، وإن شاء أن يسلمه أسلمه، وليس عليه شيء غير ذلك، فسيده في ذلك بالخيار. {cite:muwatta-maruf-1997 p.320}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-23-wasiyya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2237 of kitab 23-wasiyya at PDF p. 320", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k23-batch-97a" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2237 at PDF p. 320; ما جاء فيما أفسد العبيد أو جرحوا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k23-b67" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 320; matn excerpt at most 40 words" }

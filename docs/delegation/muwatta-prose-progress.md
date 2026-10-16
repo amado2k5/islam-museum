@@ -28,8 +28,8 @@
 - Kitab 20 done: كراء الأرض (hadith 2073–2078, vol. 2 PDF pp. 249–250; 1 bab; 6 records; chapter record and page written).
 - Kitab 21 done: الشفعة (hadith 2079–2102, vol. 2 PDF pp. 251–258; 2 babs; 24 records; chapter record and page written).
 - Kitab 22 done: الأقضية (hadith 2103–2213, vol. 2 PDF pp. 259–307; 41 babs; 111 records; chapter record and page written).
-- Kitab 23 in progress: الوصية (hadith 2214 onward, vol. 2 PDF p. 309). Records 2214–2224 done (babs 1–5 so far).
-- Record reached: 2224. Next: kitab 23 from hadith 2225 (vol. 2, PDF p. 314, bab 5 continues).
+- Kitab 23 in progress: الوصية (hadith 2214 onward, vol. 2 PDF p. 309). Records 2214–2239 done (babs 1–10 so far).
+- Record reached: 2239. Next: kitab 23 from hadith 2240 (vol. 2, PDF p. 321, bab 10 continues onto p. 322).
 - REVIEW flags remaining: none in kitab 1–6; kitab 7–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
@@ -42,7 +42,7 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 23 (الوصية) from hadith 2225 (vol. 2, PDF p. 314), then kitab 24 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
+Kitab 23 (الوصية) from hadith 2240 (vol. 2, PDF p. 321), then kitab 24 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.

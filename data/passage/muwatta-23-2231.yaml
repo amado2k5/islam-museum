@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2231"
-label: { ar: "الموطأ 2231", en: "Muwatta 2231" }
+label: { ar: "الموطأ 2231 — يحيى عن مالك: في الرجل يبتاع السلعة من الحيوان أو الثياب أو العروض فيوجد ذلك البيع غير جائز فيرد، فلصاحب السلعة قيمتها يوم قبضت منه، لا يوم يرد، لأنه ضمنها من يوم قبضها، وما زاد فيها أو نقص فهو له أو عليه", en: "Muwatta 2231" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول في الرجل يبتاع السلعة من الحيوان أو الثياب أو العروض... ؛ حكم المبيع قبل القبض والوصية؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: سمعت مالكا يقول في الرجل يبتاع السلعة من الحيوان أو الثياب أو العروض فيوجد ذلك البيع غير جائز، فيرد، ويؤمر الذي قبض السلعة أن يرد إلى صاحبه سلعته. قال مالك: فليس لصاحب السلعة إلا قيمتها يوم قبضت منه، وليس يوم يرد ذلك إليه، وذلك أنه ضمنها من يوم قبضها، فما كان فيها من نقصان بعد ذلك كان عليه، فبذلك كان نماؤها وزيادتها له. وإن الرجل يقبض السلعة في زمان هي فيه نافقة، مرغوب فيها، ثم يردها في زمان هي فيه ساقطة لا يريدها أحد. {cite:muwatta-maruf-1997 p.317} {cite:muwatta-maruf-1997 p.318}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-23-wasiyya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2231 of kitab 23-wasiyya at PDF p. 317", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k23-batch-96b" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ayb, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2231 at PDF p. 317; العيب في السلعة وضمانها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k23-b67" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 317; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2227"
-label: { ar: "الموطأ 2227", en: "Muwatta 2227" }
+label: { ar: "الموطأ 2227 — مالك: أما أن يستأذن ورثته في وصية لوارث في صحته فيأذنون له، فإن ذلك لا يلزمهم، ولهم أن يردوه إن شاءوا، وإنما يكون استئذانه جائزا على الورثة إذا أذنوا له حين يحجب عنه ماله. ولا يجوز له شيء إلا في ثلثه. فإن سأل بعض ورثته أن يهب له ميراثه حين تحضره الوفاة فيفعل، ثم لا يقضي فيه الهالك شيئا، فإنه رد على من وهبه، إلا أن يقول له الميت فلان ضعيف، وقد أحببت أن تهب له ميراثك، فيعطيه ذلك، فإن ذلك جائز إذا سماه الميت له", en: "Muwatta 2227" }
 summary:
-  ar: "قال: فأما أن يستأذن ورثته في وصية يوصي بها لوارث في صحته، فيأذنون له: فإن... ؛ إذن الورثة للوصية لوارث في الصحة؛ الحكم يحتاج مراجعة."
+  ar: "قال: فأما أن يستأذن ورثته في وصية يوصي بها لوارث في صحته، فيأذنون له، فإن ذلك لا يلزمهم، ولوارثه أن يردوا ذلك إن شاءوا. وإنما يكون استئذانه جائزا على الورثة إذا أذنوا له حين يحجب عنه ماله، ولا يجوز له شيء إلا في ثلثه، وحين هم أحق بثلثي ماله منه. فإن سأل بعض ورثته أن يهب له ميراثه حين تحضره الوفاة فيفعل، ثم لا يقضي فيه الهالك شيئا، فإنه رد على من وهبه، إلا أن يقول الميت لبعض ورثته: فلان ضعيف، وقد أحببت أن تهب له ميراثك، فأعطاه إياه، فإن ذلك جائز إذا سماه الميت له. قال: فإن وهب له ميراثه، ثم أنفذ الهالك بعضه وبقي بعض، فهو رد على الذي وهب، يرجع إليه ما بقي بعد وفاة الذي أعطيه. {cite:muwatta-maruf-1997 p.315} {cite:muwatta-maruf-1997 p.316}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-23-wasiyya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2227 of kitab 23-wasiyya at PDF p. 315", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k23-batch-96b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mirath, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2227 at PDF p. 315; الوصية للوارث والحيازة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k23-b67" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 315; matn excerpt at most 40 words" }
