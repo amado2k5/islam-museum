@@ -23,6 +23,15 @@ Goal: catalogue films, TV series, documentaries and famous video works about Isl
 
 - 2026-10-16: Batch 7 (4): al-qadisiyya-1981 (Q4704628/tt0328295), fajr-al-islam-1971 (Q12230352/tt1458553), waris-1979 (Q7969446/tt5547882), muharib-al-sahra-2025 (Q110903821/tt13570066). paradise-now-2005 and not-without-my-daughter-1991 already existed as al-jannah-al-an-2005 and la-abla-bintati-1991 — deduped by QID.
 
+- 2026-10-16: Enrichment pass over all 123 QID-carrying records: cast (P161→`features`, top ~8), directors (P57→`directed_by`), writers (P58→`written_by`), networks (P449→`broadcast_by`), official sites (P856→`external_ids.official`), awards (P166→`reception` kind:award). 648 new person/group stubs in this lane's stub file. 14 press source records minted for flagship works (The Message siege coverage, Omar fatwa debate, Muawiya bans, Ramy Golden Globe). Schema: `imdb` and `official` keys added to external-id-patterns.yaml (imdb had been an unregistered key generating warnings).
+
+## Still open
+
+- Press coverage is seeded for four flagship works only; extend reception/sources per work over time (every reception entry must cite a source entity — mint source/<outlet>-<work>-<year> records).
+- Stubs are name-only; promote actors/directors as needed when prose wants them.
+- Adam's World / Ali and Sumaya / Sang Kyai / Hidayah / al-Shaimaa 1972 / An Islamic History of Europe / Khalid ibn al-Walid serials remain unminted (no verifiable catalogue entry found).
+- No content/ar/screen/*.md prose yet.
+
 ## Still open
 
 - Not minted (no verifiable catalogue/source yet): adams-world, ali-and-sumaya (Sound Vision/African works — official sites could be minted as primary sources if wanted), sang-kyai-2013 (idwiki page exists, no QID), hidayah-2005, al-shaimaa-1972, an-islamic-history-of-europe-2005 (Rageh Omaar C4 doc — no QID found), khalid-ibn-al-walid serials.
