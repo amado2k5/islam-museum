@@ -1,0 +1,27 @@
+id: event/quraysh-envoys-to-the-negus
+class: event
+kind: council
+label: { ar: "وفادة قريش إلى النجاشي", en: "The Quraysh embassy to the Negus" }
+summary:
+  ar: "أرسلت قريش عمرو بن العاص وعبد الله بن أبي ربيعة بالهدايا إلى النجاشي يطلبان رد المهاجرين المسلمين، فسمع النجاشي من جعفر بن أبي طالب وتلا عليه صدر سورة مريم، فأبى تسليمهم وردّ الهدايا."
+  en: "Quraysh sent Amr ibn al-As and Abdullah ibn Abi Rabi'a with gifts to the Negus to demand the return of the Muslim emigrants; he heard Ja'far ibn Abi Talib recite the opening of Maryam, refused to surrender them and returned the gifts."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0616~", calendar: julian, precision: year, status: tradition, note: "أواسط السنة السادسة من النبوة على تقدير الكتاب (الرحيق ص98)." }
+relations:
+  - { type: occurred_at, target: place/aksum, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/negus-of-aksum, role: "أبى التسليم وردّ الهدايا", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/jafar-ibn-abi-talib, role: "تكلم عن المسلمين وتلا صدر مريم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/amr-ibn-al-as, role: "رسول قريش", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-abi-rabia, role: "رسول قريش", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص94–98"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-8b"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 94–98" }

@@ -1,0 +1,25 @@
+id: person/al-nahdiya
+class: person
+label: { ar: "النهدية", en: "al-Nahdiya" }
+names:
+  - { kind: full, lang: ar, value: "النهدية" }
+gender: female
+summary:
+  ar: "أمة أسلمت بمكة مع ابنتها، فعذبها المشركون، ثم أعتقها أبو بكر."
+  en: "An enslaved woman who embraced Islam in Mecca with her daughter; the polytheists tortured her, and Abu Bakr freed her."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: victim, status: tradition, note: "من المستضعفين في مكة في الدعوة جهاراً.", sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: participated_in, target: event/persecution-of-mustadafin, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص88–108 نقلاً عن ابن هشام 1/289–321 ومختصر سيرة الرسول للنجدي ص93–118 ورحمة للعالمين 1/57–62 وصحيح البخاري 1/540 وصحيح مسلم"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-8b"
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 90–100" }

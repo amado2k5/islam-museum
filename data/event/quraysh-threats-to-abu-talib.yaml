@@ -1,0 +1,26 @@
+id: event/quraysh-threats-to-abu-talib
+class: event
+kind: council
+label: { ar: "تهديد قريش لأبي طالب ومقايضة عمارة", en: "Quraysh's threats to Abu Talib and the offer of Umara" }
+summary:
+  ar: "جاءت سادات قريش إلى أبي طالب تهدده بالمنازلة، ثم عرضوا عليه عمارة بن الوليد مقابل تسليم ابن أخيه للقتل؛ فأبى أبو طالب وأبلغ النبي فقال إنه لن يترك الأمر ولو وضعوا الشمس في يمينه والقمر في يساره."
+  en: "Quraysh's notables threatened Abu Talib with open war, then offered him Umara ibn al-Walid in exchange for his nephew's death; Abu Talib refused, and the Prophet told him he would not give up the matter even if the sun were placed in his right hand and the moon in his left."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0616~", calendar: julian, precision: year, status: tradition, note: "أواسط السنة السادسة على تقدير الكتاب (الرحيق ص97–98)." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-talib, role: "المهدَّد الذي رفض التسليم", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umara-ibn-al-walid, role: "المعروض على أبي طالب", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, role: "قال إنه لن يترك الأمر", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص97–98 نقلاً عن ابن هشام 1/265–267"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-8b"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 97–98" }

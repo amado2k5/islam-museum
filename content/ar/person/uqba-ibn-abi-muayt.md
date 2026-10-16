@@ -18,3 +18,6 @@ translators: []
 
 ## للزوار الصغار
 آذى عقبة النبي في الناس مرارًا. وبعد أول معركة كبرى كان واحدًا من أسيرين فقط لم يُعفَ عنهما.
+
+## في عداوة النبي (الرحيق المختوم ص88، 100)
+كان من أشد الناس على النبي، فطرح عليه سلا الجزور وهو ساجد {cite:mubarakpuri-raheeq p.88} {cite:sahih-al-bukhari 1/543}، وخنقه بثوبه في حجر الكعبة حتى دفعه [[person/abu-bakr|أبو بكر]] عنه ([[event/uqba-strangling-of-the-prophet|خنق النبي في الحجر]]) {cite:mubarakpuri-raheeq p.100} {cite:sahih-al-bukhari 1/544}.

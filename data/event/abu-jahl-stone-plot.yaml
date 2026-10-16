@@ -1,0 +1,23 @@
+id: event/abu-jahl-stone-plot
+class: event
+kind: other
+label: { ar: "تدبير أبي جهل لضرب النبي بحجر وهو ساجد", en: "Abu Jahl's plan to crush the Prophet's head with a stone" }
+summary:
+  ar: "أعلن أبو جهل أنه سيجلس للنبي بحجر ليضرب به رأسه حين يسجد، فلما دنا منه رأى فحلاً من الإبل عرض له فرجع منهزماً؛ وقال النبي إنه جبريل لو دنا لأخذه."
+  en: "Abu Jahl announced that he would sit in wait for the Prophet with a stone to crush his head when he prostrated; when he drew near he saw a stallion camel barring his way and fled; the Prophet said it was Gabriel, who would have seized him had he come closer."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "المدبّر للضرب", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص99 نقلاً عن ابن هشام 1/298–299"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-8b"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum p. 99" }

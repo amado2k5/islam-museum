@@ -1,0 +1,24 @@
+id: event/uqba-strangling-of-the-prophet
+class: event
+kind: other
+label: { ar: "خنق عقبة بن أبي معيط للنبي في الحجر", en: "Uqba ibn Abi Mu'it chokes the Prophet at the Hijr" }
+summary:
+  ar: "وضع عقبة بن أبي معيط ثوبه في عنق النبي وهو يصلي عند الكعبة فخنقه خنقاً شديداً، فأخذ أبو بكر بمنكبيه ودفعه عنه وقال: أتقتلون رجلاً أن يقول ربي الله؟"
+  en: "Uqba ibn Abi Mu'it put his garment around the Prophet's neck while he prayed by the Kaaba and choked him severely; Abu Bakr seized his shoulders, pushed him away and said: Will you kill a man for saying 'My Lord is God'?"
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uqba-ibn-abi-muayt, role: "خنق النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, role: "دفع عقبة عن النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص100 نقلاً عن البخاري 1/544 وابن هشام"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-8b"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum p. 100" }
