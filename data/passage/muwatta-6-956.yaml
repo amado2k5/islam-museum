@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "956"
-label: { ar: "الموطأ 956", en: "Muwatta 956" }
+label: { ar: "الموطأ 956 — عائشة كانت تنزل من عرفة بنمرة ثم تحولت إلى الأراك، وتهل ما كانت في منزلها ومن معها، فإذا ركبت وتوجهت إلى الموقف تركت الإهلال", en: "Muwatta 956" }
 summary:
-  ar: "علقمة بن أبي علقمة عن أمه عن عائشة: أنها كانت تنزل من عرفات... ؛ أثر في النزول من عرفة؛ تفاصيل الأثر غير واضحة."
+  ar: "يرويه مالك عن علقمة بن أبي علقمة عن أمه عن عائشة أم المؤمنين، أنها كانت تنزل من عرفة بنمرة ثم تحولت إلى الأراك، وكانت تهل ما كانت في منزلها ومن كان معها، فإذا ركبت وتوجهت إلى الموقف تركت الإهلال. وكانت تعتمر بعد الحج من مكة في ذي الحجة، ثم تركت ذلك فكانت تخرج قبل هلال المحرم حتى تأتي الجحفة فتقيم بها حتى ترى الهلال، فإذا رأته أهلت بعمرة. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1094) وسويد (503). {cite:muwatta-maruf-1997 p.455} {cite:muwatta-maruf-1997 p.456}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 956 of kitab 06-hajj at PDF p. 455", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-43" }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/alqama-ibn-abi-alqama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/arafat, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-juhfa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talbiya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 956 at PDF p. 455; قطع التلبية", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 455; matn excerpt at most 40 words" }

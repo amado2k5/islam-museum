@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "935"
-label: { ar: "الموطأ 935", en: "Muwatta 935" }
+label: { ar: "الموطأ 935 — عبيد بن جريج يسأل ابن عمر عن أربع خصال يراه يصنعها: الأركان اليمانيين، والنعال السبتية، والصفرة، والإهلال حتى تنبعث به راحلته", en: "Muwatta 935" }
+text: "لم أر أحداً من أصحابك يصنعها"
 summary:
-  ar: "سعيد بن أبي سعيد المقبري عن عبيد بن جريج: قال لعبد الله بن عمر: يا أبا عبد الرحمن... ؛ حديث في الإحرام وما يلبسه المحرم؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن سعيد بن أبي سعيد المقبري عن عبيد بن جريج، أنه قال لعبد الله بن عمر: رأيتك تصنع أربعاً لم أر أحداً من أصحابك يصنعها: لا تمس من الأركان إلا اليمانيين، وتلبس النعال السبتية، وتصبغ بالصفرة، وإذا كنت بمكة أهل الناس إذا رأوا الهلال ولم تهل أنت حتى يكون يوم التروية. فأجابه ابن عمر عن كل واحدة. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1068) وإسحاق الطباع وسويد وعبد الله بن إدريس وغيرهم. {cite:muwatta-maruf-1997 p.448}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 935 of kitab 06-hajj at PDF p. 448", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-42" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubayd-ibn-jurayj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihlal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 935 at PDF p. 448; ما جاء في الطيب في الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 448; matn excerpt at most 40 words" }

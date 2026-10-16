@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "924"
-label: { ar: "الموطأ 924", en: "Muwatta 924" }
+label: { ar: "الموطأ 924 — الوليد بن عبد الملك سأل سالم بن عبد الله وخارجة بن زيد عن الطيب بعد الرمي والحلق قبل الإفاضة؛ فنهاه سالم ورخص له خارجة", en: "Muwatta 924" }
 summary:
-  ar: "يحيى بن سعيد وعبد الله بن أبي بكر وربيعة بن أبي عبد الرحمن: أن الوليد بن عبد الملك... ؛ أثر في الطيب للمحرم؛ تفاصيل الواقعة غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد وعبد الله بن أبي بكر وربيعة بن أبي عبد الرحمن أن الوليد بن عبد الملك سأل سالم بن عبد الله وخارجة بن زيد بن ثابت، بعد أن رمى الجمرة وحلق رأسه وقبل أن يفيض، عن الطيب، فنهاه سالم وأرخص له خارجة. ويذكر المحقق أن أبا مصعب (1059) وسويداً (493) رويا ذلك. {cite:muwatta-maruf-1997 p.443} {cite:muwatta-maruf-1997 p.444}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 924 of kitab 06-hajj at PDF p. 443", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-42" }
+  - { type: mentions, target: person/al-walid-ibn-abd-al-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/salim-ibn-abd-allah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/kharija-ibn-zayd-ibn-thabit, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabia-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 924 at PDF p. 444; ما جاء في الطيب في الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 444; matn excerpt at most 40 words" }

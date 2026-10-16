@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "966"
-label: { ar: "الموطأ 966", en: "Muwatta 966" }
+label: { ar: "الموطأ 966 — ربيعة بن عبد الله بن الهدير رأى رجلاً متجرداً بالعراق، فقيل: إنه أمر بهديه أن يقلد، فلذلك تجرد؛ فقال ابن الزبير: بدعة ورب الكعبة", en: "Muwatta 966" }
+text: "بدعة، ورب الكعبة"
 summary:
-  ar: "يحيى بن سعيد عن محمد بن إبراهيم بن الحارث التيمي عن ربيعة بن عبد الله بن الهدير: حديث في الهدي؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن محمد بن إبراهيم بن الحارث التيمي عن ربيعة بن عبد الله بن الهدير، أنه رأى رجلاً متجرداً بالعراق، فسأل الناس عنه، فقالوا: إنه أمر بهديه أن يقلد، فلذلك تجرد. فلقي ربيعة عبد الله بن الزبير فذكر ذلك له، فقال: بدعة، ورب الكعبة. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1098) وسويد. {cite:muwatta-maruf-1997 p.459}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 966 of kitab 06-hajj at PDF p. 459", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-43" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-ibrahim-al-taymi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabia-ibn-abdallah-ibn-al-hudayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 966 at PDF p. 459; ما لا يوجب الإحرام من تقليد الهدي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 459; matn excerpt at most 40 words" }

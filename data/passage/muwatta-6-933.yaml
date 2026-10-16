@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "933"
-label: { ar: "الموطأ 933", en: "Muwatta 933" }
+label: { ar: "الموطأ 933 — عروة عن أبيه: كان رسول الله يصلي في مسجد ذي الحليفة ركعتين، فإذا استوت به راحلته أهل", en: "Muwatta 933" }
+text: "كان يصلي في مسجد ذي الحليفة ركعتين، فإذا استوت به راحلته أهل"
 summary:
-  ar: "هشام بن عروة عن أبيه: أن رسول الله ﷺ كان يصلي في مسجد ذي الحليفة... ؛ الصلاة في ذي الحليفة قبل الإحرام."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه، أن رسول الله كان يصلي في مسجد ذي الحليفة ركعتين، فإذا استوت به راحلته أهل. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1066) وسويد (498)، وأن ابن عبد البر قال إنه لم يختلف فيه الرواة عن مالك في إرساله بهذا الإسناد، وأن معناه مسند من حديث ابن عمر وأنس من وجوه ثابتة، وأنه في الصحيحين. {cite:muwatta-maruf-1997 p.447}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 933 of kitab 06-hajj at PDF p. 447", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-42" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/dhu-al-hulayfa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihlal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 933 at PDF p. 447; ما جاء في الطيب في الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 447; matn excerpt at most 40 words" }

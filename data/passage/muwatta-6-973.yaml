@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "973"
-label: { ar: "الموطأ 973", en: "Muwatta 973" }
+label: { ar: "الموطأ 973 — عبد الرحمن بن حرملة الأسلمي: سأل رجل سعيد بن المسيب: أعتمر قبل أن أحج؟", en: "Muwatta 973" }
 summary:
-  ar: "عبد الرحمن بن حرملة الأسلمي: سأل رجل سعيد بن المسيب... ؛ حكم العمرة؛ الجواب يحتاج مراجعة."
+  ar: "يرويه مالك عن عبد الرحمن بن حرملة الأسلمي أن رجلاً سأل سعيد بن المسيب: أعتمر قبل أن أحج؟ ويذكر المحقق أن الجواب في الصفحة 461 التي لم تُدرج في هذه الدفعة، وأنه رواه عن مالك أبو مصعب (1105) وسويد. {cite:muwatta-maruf-1997 p.460} {cite:muwatta-maruf-1997 p.461}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 973 of kitab 06-hajj at PDF p. 460", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-44" }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-harmala-al-aslami, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 973 at PDF p. 460; العمرة في أشهر الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 460; matn excerpt at most 40 words" }

@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "958"
-label: { ar: "الموطأ 958", en: "Muwatta 958" }
+label: { ar: "الموطأ 958 — عمر بن الخطاب: يا أهل مكة، ما شأن الناس يأتون شعثاً وأنتم مدهنون؟ أهلوا إذا رأيتم الهلال", en: "Muwatta 958" }
+text: "يا أهل مكة، ما شأن الناس يأتون شعثاً وأنتم مدهنون؟ أهلوا إذا رأيتم الهلال"
 summary:
-  ar: "عبد الرحمن بن القاسم عن أبيه: أن عمر بن الخطاب قال: يا أهل مكة، ما شأن الناس... ؛ أثر عن عمر في التلبية بمكة؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب إهلال أهل مكة ومن بها من غيرهم. يرويه مالك عن عبد الرحمن بن القاسم عن أبيه، أن عمر بن الخطاب قال: يا أهل مكة، ما شأن الناس يأتون شعثاً وأنتم مدهنون؟ أهلوا إذا رأيتم الهلال. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1083) وسويد (500). {cite:muwatta-maruf-1997 p.456}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 958 of kitab 06-hajj at PDF p. 456", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-43" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihlal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 958 at PDF p. 456; إهلال أهل مكة ومن بها من غيرهم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 456; matn excerpt at most 40 words" }

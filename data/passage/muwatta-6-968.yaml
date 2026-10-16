@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "968"
-label: { ar: "الموطأ 968", en: "Muwatta 968" }
+label: { ar: "الموطأ 968 — مالك: هل يخرج بالهدي غير محرم؟ نعم، لا بأس بذلك", en: "Muwatta 968" }
+text: "نعم، لا بأس بذلك"
 summary:
-  ar: "سُئل مالك: هل يخرج بالهدي غير محرم؟ فقال: نعم، لا بأس بذلك؛ جواز بعث الهدي دون إحرام."
+  ar: "سئل مالك: هل يخرج بالهدي غير محرم؟ فقال: نعم، لا بأس بذلك. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1100). {cite:muwatta-maruf-1997 p.459}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 968 of kitab 06-hajj at PDF p. 459", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-43" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 968 at PDF p. 459; ما لا يوجب الإحرام من تقليد الهدي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 459; matn excerpt at most 40 words" }

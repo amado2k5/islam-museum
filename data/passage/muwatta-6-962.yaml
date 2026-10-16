@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "962"
-label: { ar: "الموطأ 962", en: "Muwatta 962" }
+label: { ar: "الموطأ 962 — مالك: سُئل عمن أهل بالحج من أهل المدينة أو غيرهم من مكة لهلال ذي الحجة، كيف يصنع بالطواف؟ الواجب يؤخره، ويطوف ما بدا له ويصلي ركعتين لكل سبع", en: "Muwatta 962" }
 summary:
-  ar: "سُئل مالك عمن أهل بالحج من أهل المدينة أو غيرهم من مكة لهلال ذي الحجة، كيف يصنع... ؛ حكم من أهل بالحج قبل يوم التروية."
+  ar: "سئل مالك عمن أهل بالحج من أهل المدينة أو غيرهم من مكة لهلال ذي الحجة، كيف يصنع بالطواف؟ فقال: أما الطواف الواجب فليؤخره، وهو الذي يصل بينه وبين السعي بين الصفا والمروة، وليطف ما بدا له، وليصل ركعتين كلما طاف سبعاً. وقد فعل ذلك أصحاب رسول الله الذين أهلوا بالحج من مكة فأخروا الطواف والسعي حتى رجعوا من منى، وفعله عبد الله بن عمر. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1087). {cite:muwatta-maruf-1997 p.457}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 962 of kitab 06-hajj at PDF p. 457", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-43" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 962 at PDF p. 457; إهلال أهل مكة ومن بها من غيرهم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 457; matn excerpt at most 40 words" }

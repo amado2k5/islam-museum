@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "944"
-label: { ar: "الموطأ 944", en: "Muwatta 944" }
+label: { ar: "الموطأ 944 — أبو الأسود عن عروة عن عائشة: أن رسول الله أفرد الحج", en: "Muwatta 944" }
+text: "أن رسول الله أفرد الحج"
 summary:
-  ar: "أبو الأسود محمد بن عبد الرحمن، وكان يتيمًا في حجر عروة بن الزبير، عن عائشة: حديث في الحج؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن أبي الأسود محمد بن عبد الرحمن، وكان يتيماً في حجر عروة بن الزبير، عن عروة عن عائشة، أن رسول الله أفرد الحج. ويقول ابن عبد البر إن هذا الحديث مستخرج من الحديث السابق، أخرجه مالك حجة لمذهبه أن الإفراد أفضل. {cite:muwatta-maruf-1997 p.451}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 944 of kitab 06-hajj at PDF p. 451", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-42" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-aswad-muhammad-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ifrad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 944 at PDF p. 451; باب إفراد الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 451; matn excerpt at most 40 words" }

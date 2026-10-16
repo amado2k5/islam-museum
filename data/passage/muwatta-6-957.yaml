@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "957"
-label: { ar: "الموطأ 957", en: "Muwatta 957" }
+label: { ar: "الموطأ 957 — يحيى بن سعيد: عمر بن عبد العزيز غدا يوم عرفة من منى فسمع التكبير عالياً، فبعث الحرس يصيحون في الناس: أيها الناس، إنها التلبية", en: "Muwatta 957" }
+text: "أيها الناس، إنها التلبية"
 summary:
-  ar: "يحيى بن سعيد: أن عمر بن عبد العزيز غدا يوم عرفة من منى فسمع التكبير... ؛ أثر في التكبير يوم عرفة."
+  ar: "يرويه مالك عن يحيى بن سعيد أن عمر بن عبد العزيز غدا يوم عرفة من منى، فسمع التكبير عالياً، فبعث الحرس يصيحون في الناس: أيها الناس، إنها التلبية. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1095) وسويد (504). {cite:muwatta-maruf-1997 p.456}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 957 of kitab 06-hajj at PDF p. 456", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-43" }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/arafat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talbiya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 957 at PDF p. 456; قطع التلبية", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 456; matn excerpt at most 40 words" }

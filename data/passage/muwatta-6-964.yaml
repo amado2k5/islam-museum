@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "964"
-label: { ar: "الموطأ 964", en: "Muwatta 964" }
+label: { ar: "الموطأ 964 — عمرة عن عائشة: كتب زياد بن أبي سفيان إلى عائشة أن ابن عباس قال: من أهدى هدياً حرم عليه ما يحرم على الحاج حتى ينحر الهدي؛ فقالت عائشة: ليس كما قال ابن عباس، أنا فتلت قلائد هدي رسول الله", en: "Muwatta 964" }
+text: "ليس كما قال ابن عباس، أنا فتلت قلائد هدي رسول الله بيدي، ثم قلدها رسول الله بيده، ثم بعث بها مع أبي. فلم يحرم على رسول الله شيء أحله الله له حتى نحر الهدي"
 summary:
-  ar: "عبد الله بن أبي بكر بن محمد بن عمرو بن حزم عن عمرة بنت عبد الرحمن: حديث في الهدي أو الحج؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب ما لا يوجب الإحرام من تقليد الهدي. يرويه مالك عن عبد الله بن أبي بكر بن محمد بن عمرو بن حزم عن عمرة بنت عبد الرحمن، أنها أخبرته أن زياد بن أبي سفيان كتب إلى عائشة زوج النبي، أن عبد الله بن عباس قال: من أهدى هدياً حرم عليه ما يحرم على الحاج حتى ينحر الهدي، وقد بعثت بهدي فاكتبي إلي بأمرك. فقالت عائشة: ليس كما قال ابن عباس، أنا فتلت قلائد هدي رسول الله بيدي، ثم قلدها رسول الله بيده، ثم بعث بها مع أبي، فلم يحرم على رسول الله شيء أحله الله له حتى نحر الهدي. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1096) وإسماعيل بن أبي أويس عند البخاري (2317) وسويد وغيرهم. {cite:muwatta-maruf-1997 p.458}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 964 of kitab 06-hajj at PDF p. 458", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-43" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ziyad-ibn-abi-sufyan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 964 at PDF p. 458; ما لا يوجب الإحرام من تقليد الهدي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 458; matn excerpt at most 40 words" }

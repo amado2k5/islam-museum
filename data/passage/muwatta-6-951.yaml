@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "951"
-label: { ar: "الموطأ 951", en: "Muwatta 951" }
+label: { ar: "الموطأ 951 — محمد بن أبي بكر الثقفي سأل أنس بن مالك وهما غاديان من منى إلى عرفة: كيف كنتم تصنعون في هذا اليوم مع رسول الله؟ قال: كان المهل منا يهل فلا ينكر عليه، ويكبر المكبر فلا ينكر عليه", en: "Muwatta 951" }
+text: "كان المهل منا يهل فلا ينكر عليه، ويكبر المكبر فلا ينكر عليه"
 summary:
-  ar: "محمد بن أبي بكر الثقفي سأل أنس بن مالك وهما غاديان من منى إلى عرفة... ؛ سؤال عن التلبية في الطريق؛ تفاصيل الجواب غير واضحة."
+  ar: "أول حديث في باب قطع التلبية. يرويه مالك عن محمد بن أبي بكر الثقفي أنه سأل أنس بن مالك وهما غاديان من منى إلى عرفة: كيف كنتم تصنعون في هذا اليوم مع رسول الله؟ فقال: كان المهل منا يهل فلا ينكر عليه، ويكبر المكبر فلا ينكر عليه. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان والبغوي والمزي، وسويد، والقعنبي، والتنيسي عند البخاري (1659)، وابن القاسم، ومنصور، ويحيى بن يحيى النيسابوري عند مسلم (4/72). {cite:muwatta-maruf-1997 p.454}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 951 of kitab 06-hajj at PDF p. 454", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-43" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-abi-bakr-al-thaqafi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/arafat, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muslim-ibn-al-hajjaj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talbiya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 951 at PDF p. 454; قطع التلبية", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الجواب غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 454; matn excerpt at most 40 words" }

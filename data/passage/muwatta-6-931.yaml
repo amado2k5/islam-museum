@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "931"
-label: { ar: "الموطأ 931", en: "Muwatta 931" }
+label: { ar: "الموطأ 931 — بلغ مالكاً أن رسول الله أهل من الجعرانة بعمرة", en: "Muwatta 931" }
+text: "أهل من الجعرانة بعمرة"
 summary:
-  ar: "مالك: بلغه أن رسول الله ﷺ أهل من الجعرانة بعمرة؛ الإحرام بالعمرة من الجعرانة."
+  ar: "بلاغ يرويه مالك أن رسول الله أهل من الجعرانة بعمرة. ويذكر المحقق أن ابن عبد البر قال إنه إنما يحفظ هذا مسنداً من حديث محرش الكعبي الخزاعي، وأن الحديث صحيح من رواية أهل مكة، وأن الترمذي (935) قال إنه حسن غريب. {cite:muwatta-maruf-1997 p.446}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 931 of kitab 06-hajj at PDF p. 446", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-42" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-jiranah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-tirmidhi-muhammad-ibn-isa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihlal, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 931 at PDF p. 446; باب مواقيت الإهلال", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 446; matn excerpt at most 40 words; doubt: الرقم 932 غير مطبوع في النص المطبوع؛ يقفز الترقيم من 931 إلى 933." }
