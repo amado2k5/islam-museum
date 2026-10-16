@@ -46,3 +46,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 2: 25 files (majtama-al-anhar.md … manh.md), draft
 - place m–z batch 3: 25 files (manjabari.md … masfahan-island.md), draft
 - place m–z batch 4: 25 files (masharif.md … mihrajanqadhaf.md), draft
+- place m–z batch 5: 25 files (mihran.md … mussisa.md), draft
