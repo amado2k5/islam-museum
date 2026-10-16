@@ -1,0 +1,15 @@
+id: person/adam
+class: person
+label: { ar: "آدم", en: "Adam" }
+gender: male
+summary:
+  ar: "أبو البشر. عند البخاري أن الله خلقه وطوله ستون ذراعاً وأمره أن يسلم على الملائكة فاستمع تحيتهم فكانت تحيته وتحية ذريته، ومنه جرى أن من دخل الجنة فعلى صورة آدم {cite:sahih-al-bukhari 3326}. وفي حديث الإسراء رآه النبي في السماء الدنيا فقال له مرحباً بك من ابن ونبي {cite:sahih-al-bukhari 3207}."
+  en: "The father of mankind. In Bukhari, God created him sixty cubits tall and sent him to greet the angels, whose answer became his descendants' greeting {cite:sahih-al-bukhari 3326}; in the Isra account the Prophet met him in the lowest heaven {cite:sahih-al-bukhari 3207}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

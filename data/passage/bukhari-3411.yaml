@@ -1,0 +1,17 @@
+id: passage/bukhari-3411
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3411"
+label: { ar: "البخاري 3411 — آسية ومريم", en: "Bukhari 3411 — Asiya and Maryam" }
+text: "كمل من الرجال كثير ولم يكمل من النساء إلا آسية امرأة فرعون ومريم بنت عمران، وإن فضل عائشة على النساء كفضل الثريد على سائر الطعام"
+summary:
+  ar: "في كتاب أحاديث الأنبياء باب فضل مريم؛ وضع امرأتين من خارج النبوة في أعلى مقام الكمال البشري، وألحق به فضل عائشة في بابه — من أشهر أحاديث مقامات النساء."
+relations:
+  - { type: mentions, target: person/maryam, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/asiya, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/aisha, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3411", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn checked against the scan" }

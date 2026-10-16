@@ -1,0 +1,17 @@
+id: person/ishaq
+class: person
+label: { ar: "إسحاق", en: "Ishaq (Isaac)" }
+gender: male
+summary:
+  ar: "إسحاق بن إبراهيم، والد يعقوب؛ يذكره البخاري في السلسلة «يوسف بن يعقوب بن إسحاق بن إبراهيم» {cite:sahih-al-bukhari 3382}."
+  en: "Son of Ibrahim, father of Ya'qub — named in Bukhari's prophetic chain {cite:sahih-al-bukhari 3382}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+relations:
+  - { type: child_of, target: person/ibrahim, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

@@ -1,0 +1,17 @@
+id: person/al-khidr
+class: person
+label: { ar: "الخضر", en: "al-Khidr" }
+gender: male
+summary:
+  ar: "العبد الذي أوتي علماً من لدن الله فصحبه موسى في رحلة مجمع البحرين. عند البخاري قصته بطولها عن ابن عباس عن أبي بن كعب، وردّ ابن عباس على نوف البكالي زعمه أن موسى صاحب الخضر غير موسى بني إسرائيل {cite:sahih-al-bukhari 3401}."
+  en: "The servant given knowledge from God whom Musa accompanied at the junction of the seas — the full account in Bukhari {cite:sahih-al-bukhari 3401}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+relations:
+  - { type: related_to, target: person/musa, note: "صحبه في رحلة مجمع البحرين", sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

@@ -1,0 +1,15 @@
+id: person/musa
+class: person
+label: { ar: "موسى", en: "Musa" }
+gender: male
+summary:
+  ar: "نبي بني إسرائيل. عند البخاري خبر الحجر الذي فرّ بثوبه فتبعه حتى برأه الله عند قومه {cite:sahih-al-bukhari 278}، وقصته مع الخضر بطولها على لسان ابن عباس الذي رد على من زعم أن موسى صاحب الخضر غيره {cite:sahih-al-bukhari 3401}، ورآه النبي ليلة الإسراء آدم جسيماً سبط الشعر {cite:sahih-al-bukhari 3207}، وإليه رجع يسترد الفرائض حتى انتهت إلى خمس {cite:sahih-al-bukhari 3207}."
+  en: "The prophet of Banu Israel: the fleeing-stone vindication {cite:sahih-al-bukhari 278}, the al-Khidr journey at length {cite:sahih-al-bukhari 3401}, and his Isra meetings with the Prophet {cite:sahih-al-bukhari 3207}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

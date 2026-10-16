@@ -1,0 +1,17 @@
+id: person/salih
+class: person
+label: { ar: "صالح", en: "Salih" }
+gender: male
+summary:
+  ar: "نبي ثمود. عند البخاري أن النبي لما مر بالحجر — مساكن ثمود — في غزوة تبوك قال «لا تدخلوا مساكن الذين ظلموا أنفسهم إلا أن تكونوا باكين أن يصيبكم ما أصابهم» ثم تقنع بردائه وهو على الرحل {cite:sahih-al-bukhari 3380} {cite:sahih-al-bukhari 3381}."
+  en: "Thamud's prophet — the Prophet passed their dwellings at al-Hijr on the Tabuk road and forbade entering them except weeping {cite:sahih-al-bukhari 3380}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+relations:
+  - { type: related_to, target: group/thamud, note: "نبيها في الرواية", sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

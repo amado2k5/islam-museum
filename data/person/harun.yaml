@@ -1,0 +1,17 @@
+id: person/harun
+class: person
+label: { ar: "هارون", en: "Harun (Aaron)" }
+gender: male
+summary:
+  ar: "هارون بن عمران، أخو موسى ووزيره. استشهد النبي بمنزلته من موسى لعلي «أما ترضى أن تكون مني بمنزلة هارون من موسى» {cite:sahih-al-bukhari 3706}، ورآه النبي في السماوات ليلة الإسراء {cite:sahih-al-bukhari 3207}."
+  en: "Musa's brother and deputy — the Prophet cited his standing to Musa for Ali {cite:sahih-al-bukhari 3706}, and met him in the Isra heavens {cite:sahih-al-bukhari 3207}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+relations:
+  - { type: sibling_of, target: person/musa, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

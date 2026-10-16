@@ -1,0 +1,15 @@
+id: person/dawud
+class: person
+label: { ar: "داود", en: "Dawud (David)" }
+gender: male
+summary:
+  ar: "نبي بني إسرائيل ووالد سليمان. عند البخاري أن النبي قال لأبي موسى الأشعري لحسن صوته بالقرآن «لقد أوتيت مزماراً من مزامير آل داود» {cite:sahih-al-bukhari 5048}."
+  en: "Prophet of Banu Israel and Sulayman's father — the Prophet praised Abu Musa's recitation as 'a flute of the flutes of Dawud's house' {cite:sahih-al-bukhari 5048}."
+wings: [people]
+themes: [prophets]
+periods: [period/pre-islamic-arabia]
+story_roles:
+  - { role: prophet-figure, status: scriptural, sources: [source/tanzil-quran, source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-anbiya" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }
