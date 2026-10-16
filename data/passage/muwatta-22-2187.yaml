@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2187"
-label: { ar: "الموطأ 2187", en: "Muwatta 2187" }
+label: { ar: "الموطأ 2187 — يحيى عن مالك: وإن ابتاع رجل ثوبا به عيب من حرق أو عوار، فزعم البائع أنه لم يعلم، وقد قطع المشتري الثوب أو صبغه، فالمبتاع بالخيار: إن شاء أن يوضع عنه قدر ما نقص العيب من ثمن الثوب ويمسكه، وإن شاء أن يغرم ما نقص التقطيع أو الصبغ من ثمنه ويرده", en: "Muwatta 2187" }
 summary:
-  ar: "قال: وإن ابتاع رجل ثوبًا وبه عيب من حرق أو عوار، فزعم الذي باعه أنه لم يعلم... ؛ حكم العيب الخفي وادعاء البائع الجهل؛ الحكم يحتاج مراجعة."
+  ar: "قال: وإن ابتاع رجل ثوبا وبه عيب من حرق أو عوار، فزعم الذي باعه أنه لم يعلم بذلك، وقد قطع الثوب الذي ابتاعه، أو صبغه، فالمبتاع بالخيار: إن شاء أن يوضع عنه قدر ما نقص الحرق أو العوار من ثمن الثوب، وإن شاء أن يغرم ما نقص التقطيع أو الصبغ من ثمن الثوب ويرده. فإن كان المبتاع قد صبغ الثوب صبغا يزيد في ثمنه، فالمبتاع بالخيار: إن شاء أن يوضع عنه قدر ما نقص العيب من ثمن الثوب، وإن شاء أن يكون شريكا للذي باعه الثوب، فعل. {cite:muwatta-maruf-1997 p.297}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2187 of kitab 22-aqdiya at PDF p. 297", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-94" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ayb, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2187 at PDF p. 297; القضاء فيمن ابتاع ثوبا وبه عيب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b64" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 297; matn excerpt at most 40 words" }

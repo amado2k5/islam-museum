@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2175"
-label: { ar: "الموطأ 2175", en: "Muwatta 2175" }
+label: { ar: "الموطأ 2175 — يحيى عن مالك عن ثور بن زيد الديلي: بلغه أن رسول الله قال: أيما دار أو أرض قسمت في الجاهلية فهي على قسم الجاهلية، وأيما دار أو أرض أدركها الإسلام ولم تقسم فهي على قسم الإسلام", en: "Muwatta 2175" }
 summary:
-  ar: "يحيى عن مالك عن ثور بن زيد الديلي: أنه قال: بلغني أن رسول الله ﷺ قال... ؛ حديث في الماء أو السقي؛ تفاصيل المتن غير واضحة."
+  ar: "قال يحيى: حدثنا مالك عن ثور بن زيد الديلي أنه قال: بلغني أن رسول الله قال: أيما دار أو أرض قسمت في الجاهلية فهي على قسم الجاهلية، وأيما دار أو أرض أدركها الإسلام ولم تقسم فهي على قسم الإسلام. ويذكر المحقق أن الحديث في الموطأ لم يتجاوز به ثور بن زيد، وأن ابن عبد البر رآه موصولا من طريق ابن عباس عند غيره. {cite:muwatta-maruf-1997 p.292}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2175 of kitab 22-aqdiya at PDF p. 292", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-94" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/thawr-ibn-zayd-al-dili, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2175 at PDF p. 292; القضاء في قسم الأموال", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b64" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 292; matn excerpt at most 40 words" }

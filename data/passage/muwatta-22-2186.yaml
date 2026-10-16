@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2186"
-label: { ar: "الموطأ 2186", en: "Muwatta 2186" }
+label: { ar: "الموطأ 2186 — يحيى عن مالك: إذا ابتاع الرجل ثوبا به عيب من حرق أو غيره قد علمه البائع، فشهد عليه بذلك أو أقر به، فأحدث فيه المبتاع حدثا من تقطيع ينقص من ثمن الثوب، ثم علم المبتاع بالعيب، فهو رد على البائع، وليس على الذي ابتاعه غرم في تقطيعه", en: "Muwatta 2186" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول: إذا ابتاع الرجل ثوبًا وبه عيب من حرق أو غيره قد عُلم... ؛ حكم العيب المعلوم في المبيع؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: سمعت مالكا يقول: إذا ابتاع الرجل ثوبا وبه عيب من حرق أو غيره قد علمه البائع، فشهد عليه بذلك، أو أقر به، فأحدث فيه الذي ابتاعه حدثا من تقطيع ينقص من ثمن الثوب، ثم علم المبتاع بالعيب، فهو رد على البائع، وليس على الذي ابتاعه غرم في تقطيعه إياه. {cite:muwatta-maruf-1997 p.297}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2186 of kitab 22-aqdiya at PDF p. 297", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-94" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ayb, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2186 at PDF p. 297; القضاء فيمن ابتاع ثوبا وبه عيب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b64" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 297; matn excerpt at most 40 words" }

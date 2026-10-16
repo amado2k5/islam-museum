@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2183"
-label: { ar: "الموطأ 2183", en: "Muwatta 2183" }
+label: { ar: "الموطأ 2183 — يحيى عن مالك: في الصباغ يدفع إليه الثوب فيخطئ به فيدفعه إلى رجل آخر حتى يلبسه الذي أعطاه: لا غرم على الذي لبسه، ويغرم الغسال لصاحب الثوب، إذا لبسه على غير معرفة أنه ليس له، فإن لبسه وهو يعرف أنه ليس ثوبه فهو ضامن", en: "Muwatta 2183" }
 summary:
-  ar: "قال: وسمعت مالكًا يقول في الصباغ يُدفع إليه الثوب فيخطئ به فيدفعه إلى رجل... ؛ ضمان الصباغ عند الخطأ؛ الحكم يحتاج مراجعة."
+  ar: "قال: وسمعت مالكا يقول في الصباغ يدفع إليه الثوب فيخطئ به فيدفعه إلى رجل آخر، حتى يلبسه الذي أعطاه إياه: إنه لا غرم على الذي لبسه، ويغرم الغسال لصاحب الثوب، وذلك إذا لبس الثوب الذي دفع إليه، على غير معرفة بأنه ليس له. فإن لبسه وهو يعرف أنه ليس ثوبه، فهو ضامن له. {cite:muwatta-maruf-1997 p.296}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2183 of kitab 22-aqdiya at PDF p. 296", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-94" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2183 at PDF p. 296; القضاء فيما يعطي العمال", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b64" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 296; matn excerpt at most 40 words" }
