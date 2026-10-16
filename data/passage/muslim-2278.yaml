@@ -1,0 +1,15 @@
+id: passage/muslim-2278
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2278"
+label: { ar: "مسلم 2278 — أنا سيد ولد آدم يوم القيامة", en: "Muslim 2278 — I am the master of the children of Adam" }
+text: "قال رسول الله: «أنا سيد ولد آدم يوم القيامة، وأول من ينشق عنه القبر، وأول شافع وأول مشفع»"
+summary:
+  ar: "رواية أبي هريرة في باب «تفضيل نبينا على جميع الخلائق» من كتاب الفضائل بصحيح مسلم؛ يقرر فيها النبي سيادته يوم القيامة وأولية قبره في الانشقاق وأولية شفاعته — من أظهر نصوص الشفاعة الكبرى عند أهل السنة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/shafaa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب تفضيل نبينا على جميع الخلائق (طبعة دار التأصيل، الحديث 6079؛ ترقيم عبد الباقي المعروف 2278)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
