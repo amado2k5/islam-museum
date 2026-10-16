@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2754"
-label: { ar: "الموطأ 2754", en: "Muwatta 2754" }
+label: { ar: "الموطأ 2754 — نافع عن ابن عمر: كان يضرب من يجده يلعب بالنرد ويكسرها", en: "Muwatta 2754" }
 summary:
-  ar: "ابن عمر إذا وجد أحدًا من أهله يلعب بالنرد ضربه وكسرها."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أنه كان، إذا وجد أحدا من أهله يلعب بالنرد، ضربه وكسرها. {cite:muwatta-maruf-1997 p.548}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2754 of kitab 31-jami at PDF p. 548", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b118" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nard, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2754 at PDF p. 548; ما جاء في النرد", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b105" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 548; matn excerpt at most 40 words" }

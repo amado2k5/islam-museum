@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2760"
-label: { ar: "الموطأ 2760", en: "Muwatta 2760" }
+label: { ar: "الموطأ 2760 — مالك: لا يستقيل المسلم من سلامه على اليهودي أو النصراني", en: "Muwatta 2760" }
 summary:
-  ar: "سُئل مالك عمّن سلّم على يهودي أو نصراني هل له أن يستقيله ذلك، فقال: لا."
+  ar: "قال يحيى: وسُئل مالك عمن سلّم على اليهودي أو النصراني هل يستقيله ذلك؟ فقال: لا. {cite:muwatta-maruf-1997 p.550}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2760 of kitab 31-jami at PDF p. 550", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b119" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salam, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2760 at PDF p. 550; ما جاء في السلام على اليهود والنصارى", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b105" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 550; matn excerpt at most 40 words" }

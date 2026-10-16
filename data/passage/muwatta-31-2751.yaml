@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2751"
-label: { ar: "الموطأ 2751", en: "Muwatta 2751" }
+label: { ar: "الموطأ 2751 — هشام بن عروة عن أبيه: البشرى في الحياة الدنيا هي الرؤيا الصالحة", en: "Muwatta 2751" }
 summary:
-  ar: "هشام بن عروة يفسر آية يونس (64) بالبشرى في الدنيا والآخرة بأنها الرؤيا الصالحة."
+  ar: "يروي مالك عن هشام بن عروة عن أبيه أنه كان يقول في الآية التي فيها البشرى في الحياة الدنيا وفي الآخرة: هي الرؤيا الصالحة يراها الرجل الصالح أو ترى له. {cite:muwatta-maruf-1997 p.547}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2751 of kitab 31-jami at PDF p. 547", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b118" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ruya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-10-64, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2751 at PDF p. 547; ما جاء في الرؤيا", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b105" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 547; matn excerpt at most 40 words" }

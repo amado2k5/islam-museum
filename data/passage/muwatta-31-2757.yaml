@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2757"
-label: { ar: "الموطأ 2757", en: "Muwatta 2757" }
+label: { ar: "الموطأ 2757 — وهب بن كيسان عن محمد بن عمرو بن عطاء: رجل من اليمن يسلم على ابن عباس فيقول إن السلام انتهى إلى البركة", en: "Muwatta 2757" }
 summary:
-  ar: "ابن عباس يسمع رجلًا من أهل اليمن يُلقي السلام مع زيادة ويعلّق عليها."
+  ar: "يروي مالك عن وهب بن كيسان عن محمد بن عمرو بن عطاء أنه كان جالسا عند عبد الله بن عباس، فدخل عليه رجل من أهل اليمن فقال: السلام عليكم ورحمة الله وبركاته، ثم زاد شيئا مع ذلك أيضا. فقال ابن عباس، وقد ذهب بصره: من هذا؟ فقيل: هذا اليماني الذي يغشاك. فقال ابن عباس: إن السلام انتهى إلى البركة. {cite:muwatta-maruf-1997 p.549}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2757 of kitab 31-jami at PDF p. 549", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b118" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/wahb-ibn-kaysan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-amr-ibn-ata, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2757 at PDF p. 549; العمل في السلام", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b105" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نهاية الخبر غير واضحة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 549; matn excerpt at most 40 words" }
