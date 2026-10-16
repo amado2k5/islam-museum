@@ -8,4 +8,6 @@ archnet: { pattern: "^[0-9]+$", url: "https://www.archnet.org/sites/{id}" }
 unesco: { pattern: "^[0-9]+$", url: "https://whc.unesco.org/en/list/{id}" }
 getty-tgn: { pattern: "^[0-9]+$", url: "https://vocab.getty.edu/tgn/{id}" }
 imdb: { pattern: "^tt[0-9]{5,9}$", url: "https://www.imdb.com/title/{id}" }
+elcinema: { pattern: "^[0-9]{5,9}$", url: "https://elcinema.com/en/work/{id}/" }
+dhliz: { pattern: "^(film|series)/[a-z0-9][a-zA-Z0-9_-]*$", url: "https://dhliz.com/en/{id}/" }
 official: { pattern: "^https?://\\S+$", url: "{id}" }

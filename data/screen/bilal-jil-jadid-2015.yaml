@@ -74,12 +74,21 @@ external_ids:
   wikidata: Q19363380
   imdb: tt3576728
   official: http://www.bilalmovie.com/
+  elcinema: '2033094'
 sources:
 - source/wikidata
 - source/imdb
+- source/elcinema
+- source/shahid
 status:
   review: draft
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
 reception: []
+watch:
+- kind: official-paid
+  url: https://shahid.mbc.net/ar/player/movies/%D8%A8%D9%84%D8%A7%D9%84/id-807668
+  region:
+  - mena
+  checked: '2026-10-16'
