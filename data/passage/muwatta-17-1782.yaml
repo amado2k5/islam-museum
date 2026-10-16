@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1782"
-label: { ar: "الموطأ 1782", en: "Muwatta 1782" }
+label: { ar: "الموطأ 1782 — مالك: بيع العربان أن يشتري الرجل العبد أو الوليدة أو يتكارى الدابة، ويعطي البائع عربونا على أنه إن أخذ السلعة احتسب من الثمن، وإن تركها بطل ما دفع", en: "Muwatta 1782" }
 summary:
-  ar: "مالك: وذلك فيما نرى، والله أعلم، أن يشتري الرجل العبد أو الوليدة أو يتكارى الدابة... ؛ حكم الشراء والكراء في الأشياء المحظورة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وذلك فيما نرى، والله أعلم، أن يشتري الرجل العبد أو الوليدة، أو يتكارى الدابة، ثم يقول للذي اشترى منه أو تكارى منه: أعطيك دينارا أو درهما أو أكثر أو أقل، على أني إن أخذت السلعة، أو ركبت ما تكاريت منك، فالذي أعطيتك هو من ثمن السلعة أو من كراء الدابة، وإن تركت ابتياع السلعة أو كراء الدابة، فما أعطيتك لك باطل بغير شيء. {cite:muwatta-maruf-1997 p.129} {cite:muwatta-maruf-1997 p.130}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1782 of kitab 17-buyu at PDF p. 129", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-78" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay-al-urban, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ijara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1782 at PDF p. 129; ما جاء في بيع العربان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b43" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 129; matn excerpt at most 40 words" }

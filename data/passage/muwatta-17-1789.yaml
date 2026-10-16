@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1789"
-label: { ar: "الموطأ 1789", en: "Muwatta 1789" }
+label: { ar: "الموطأ 1789 — مالك: الأمر المجتمع عليه أن المبتاع إذا اشترط مال العبد فهو له، نقدا كان أو دينا أو عرضا، وأن مال العبد ليس فيه زكاة على سيده، وإن عتق العبد أو كاتب تبعه ماله، وإن أفلس أخذ الغرماء ماله ولم يتبع سيده بشيء", en: "Muwatta 1789" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندنا أن المبتاع إذا اشترط مال العبد فهو له، نقدًا كان... ؛ حكم اشتراط مال العبد عند البيع؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر المجتمع عليه عندنا أن المبتاع إذا اشترط مال العبد فهو له، نقدا كان أو دينا أو عرضا، يعلم أو لا يعلم. وإن كان للعبد من المال أكثر مما اشترى به، كان ثمنه نقدا أو دينا أو عرضا، وذلك أن مال العبد ليس على سيده فيه زكاة. وإن كانت للعبد جارية استحل فرجها بملكه إياها. وإن عتق العبد أو كاتب تبعه ماله. وإن أفلس أخذ الغرماء ماله، ولم يتبع سيده بشيء من دينه. {cite:muwatta-maruf-1997 p.133}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1789 of kitab 17-buyu at PDF p. 133", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-78" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1789 at PDF p. 133; ما جاء في مال المملوك", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b43" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 133; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1792"
-label: { ar: "الموطأ 1792", en: "Muwatta 1792" }
+label: { ar: "الموطأ 1792 — مالك: من باع عبدا أو وليدة بالبراءة فقد برئ من كل عيب، ولا عهدة عليه إلا أن يكون علم عيبا فكتمه، ولا عهدة عند مالك إلا في الرقيق", en: "Muwatta 1792" }
 summary:
-  ar: "مالك: ومن باع عبدًا أو وليدة من أهل الميراث أو غيرهم بالبراءة، فقد برئ من كل عيب... ؛ البيع بشرط البراءة من العيوب؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ومن باع عبدا أو وليدة من أهل الميراث أو غيرهم بالبراءة، فقد برئ من كل عيب، ولا عهدة عليه، إلا أن يكون علم عيبا فكتمه، فإن كان علم عيبا فكتمه لم تنفعه البراءة، وكان ذلك البيع مردودا، ولا عهدة عندنا إلا في الرقيق. {cite:muwatta-maruf-1997 p.134}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1792 of kitab 17-buyu at PDF p. 134", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-78" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/uhda, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ayb, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1792 at PDF p. 134; ما جاء في العهدة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b43" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 134; matn excerpt at most 40 words" }

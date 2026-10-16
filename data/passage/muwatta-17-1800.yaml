@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1800"
-label: { ar: "الموطأ 1800", en: "Muwatta 1800" }
+label: { ar: "الموطأ 1800 — مالك: فيمن ابتاع رقيقا في صفقة واحدة فوجد فيهم عبدا مسروقا أو عيبا، فإن كان هو وجه الرقيق أو أكثره ثمنا أو من أجله اشترى ردت الصفقة كلها، وإن كان قليلا لا يضعف الصفقة رد وحده بقدر حصته من الثمن", en: "Muwatta 1800" }
 summary:
-  ar: "مالك: الأمر عندنا فيمن ابتاع رقيقًا في صفقة واحدة، فوجد في ذلك الرقيق عبدًا مسروقًا... ؛ حكم الصفقة المتعددة مع الاستحقاق؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر عندنا فيمن ابتاع رقيقا في صفقة واحدة، فوجد في ذلك الرقيق عبدا مسروقا، أو وجد بعبد منهم عيبا: إنه ينظر فيما وجد مسروقا، أو وجد به عيبا، فإن كان هو وجه ذلك الرقيق أو أكثره ثمنا، أو من أجله اشترى، وهو الذي فيه الفضل لو سلم فيما يرى الناس، كان ذلك البيع مردودا كله. وإن كان الذي وجد مسروقا، أو وجد به العيب من ذلك الرقيق في الشيء اليسير منه، ليس هو وجه ذلك الرقيق، ولا من أجله اشتري، ولا فيه الفضل فيما يرى الناس، رد ذلك الذي وجد به العيب، أو وجد مسروقا بعينه، بقدر قيمته من الثمن الذي اشترى به أولئك الرقيق. {cite:muwatta-maruf-1997 p.137} {cite:muwatta-maruf-1997 p.138}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1800 of kitab 17-buyu at PDF p. 137", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-78" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ayb, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1800 at PDF p. 137; العيب في الرقيق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b43" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 137; matn excerpt at most 40 words" }
