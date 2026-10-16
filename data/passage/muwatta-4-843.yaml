@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "843"
-label: { ar: "الموطأ 843", en: "Muwatta 843" }
+label: { ar: "الموطأ 843 — مالك: من أكل أو شرب في رمضان ساهياً أو ناسياً، أو في صيام واجب، فعليه قضاء يوم مكانه", en: "Muwatta 843" }
 summary:
-  ar: "مالك: من أكل أو شرب في رمضان ساهيًا أو ناسيًا، أو كان عليه صيام واجب... ؛ حكم الأكل نسيانًا في الصيام؛ تفاصيل الحكم تحتاج مراجعة."
+  ar: "قول لمالك: من أكل أو شرب في رمضان ساهياً أو ناسياً، أو كان من صيام واجب عليه، فعليه قضاء يوم مكانه. ويذكر المحقق أن هذه الفتوى تخالف حديث أبي هريرة المرفوع: إذا نسي فأكل وشرب فليتم صومه، فإنما أطعمه الله وسقاه (البخاري 3/40 ومسلم 3/160)، ويحيل على فتح الباري (4/195–197)، ويذكر أن مالكاً رواها عنه أبو مصعب (824). {cite:muwatta-maruf-1997 p.409}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 843 of kitab 04-siyam at PDF p. 409", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-38" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-sirin, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada-al-sawm, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 843 at PDF p. 409; باب قضاء رمضان والكفارات", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الحكم تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 409; matn excerpt at most 40 words; doubt: فتوى مالك هنا تخالف حديث أبي هريرة المرفوع في الناسي، كما بيّن المحقق." }

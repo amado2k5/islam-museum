@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "841"
-label: { ar: "الموطأ 841", en: "Muwatta 841" }
+label: { ar: "الموطأ 841 — سعيد بن المسيب: أحب إلي ألا يفرق قضاء رمضان وأن يوالى", en: "Muwatta 841" }
 summary:
-  ar: "يحيى بن سعيد: سمع سعيد بن المسيب يُسأل عن قضاء رمضان، فقال... ؛ جواب سعيد في قضاء رمضان؛ تفاصيل الجواب غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد أنه سمع سعيد بن المسيب يُسأل عن قضاء رمضان، فقال: أحب إلي أن لا يُفرّق قضاء رمضان، وأن يُواتر، أي يُتابع. ويذكر المحقق أنه رواه عن مالك أبو مصعب (822) وسويد (470). {cite:muwatta-maruf-1997 p.409}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 841 of kitab 04-siyam at PDF p. 409", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-38" }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada-al-sawm, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 841 at PDF p. 409; باب قضاء رمضان والكفارات", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الجواب غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 409; matn excerpt at most 40 words" }

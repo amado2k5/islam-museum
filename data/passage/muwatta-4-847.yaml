@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "847"
-label: { ar: "الموطأ 847", en: "Muwatta 847" }
+label: { ar: "الموطأ 847 — مالك عمن أسلم في آخر يوم من رمضان: ليس عليه قضاء ما مضى، وإنما يستأنف الصيام فيما يستقبل، وأحب إليه أن يقضي اليوم الذي أسلم فيه في بعضه", en: "Muwatta 847" }
 summary:
-  ar: "سُئل مالك عمن أسلم في آخر يوم من رمضان: هل عليه قضاء رمضان كله أو... ؛ حكم من أسلم في آخر رمضان؛ الجواب يحتاج مراجعة."
+  ar: "سئل مالك عمن أسلم في آخر يوم من رمضان: هل عليه قضاء رمضان كله، أو يجب عليه قضاء اليوم الذي أسلم فيه؟ فقال: ليس عليه قضاء ما مضى، وإنما يستأنف الصيام فيما يستقبل، وأحب إليه أن يقضي اليوم الذي أسلم فيه في بعضه. ويذكر المحقق أن هذه الفتوى رواها عن مالك أبو مصعب وسويد بألفاظ مختلفة (826). {cite:muwatta-maruf-1997 p.410}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 847 of kitab 04-siyam at PDF p. 410", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-38" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada-al-sawm, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 847 at PDF p. 410; باب قضاء رمضان والكفارات", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 410; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "849"
-label: { ar: "الموطأ 849", en: "Muwatta 849" }
+label: { ar: "الموطأ 849 — مالك: من أكل أو شرب ساهياً أو ناسياً في صيام تطوع فلا قضاء عليه، ويتم يومه ولا يفطره؛ ولا قضاء على من قطع صيامه لعذر", en: "Muwatta 849" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول: من أكل أو شرب ساهيًا أو ناسيًا في صيام التطوع فليس عليه قضاء؛ حكم الأكل نسيانًا في صيام النافلة."
+  ar: "قول يرويه يحيى عن مالك: من أكل أو شرب ساهياً أو ناسياً في صيام تطوع فليس عليه قضاء، وليتم يومه الذي أكل فيه أو شرب وهو متطوع، ولا يفطره. وليس على من أصابه أمر يقطع صيامه وهو متطوع قضاء إذا كان إنما أفطر من عذر غير متعمد للفطر. ولا يرى عليه قضاء صلاة نافلة إذا قطعها من حدث لا يستطيع حبسه مما يحتاج فيه إلى الوضوء. ويذكر المحقق أنه رواه عن مالك أبو مصعب (828–830). {cite:muwatta-maruf-1997 p.411}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 849 of kitab 04-siyam at PDF p. 411", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-39" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 849 at PDF p. 411; باب قضاء التطوع", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 411; matn excerpt at most 40 words" }

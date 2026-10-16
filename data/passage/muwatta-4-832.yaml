@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "832"
-label: { ar: "الموطأ 832", en: "Muwatta 832" }
+label: { ar: "الموطأ 832 — مالك: المريض إذا اشتد عليه الصيام فله أن يفطر، وكذلك المريض إذا اشتد عليه القيام في الصلاة يصلي جالساً؛ ودين الله يسر", en: "Muwatta 832" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول: الأمر الذي سمعته من أهل العلم أن المريض إذا أصابه المرض... ؛ حكم الصيام للمريض؛ تفاصيل الحكم تحتاج مراجعة."
+  ar: "يقول يحيى: سمعت مالكاً يقول: الأمر الذي سمعت من أهل العلم أن المريض إذا أصابه المرض الذي يشق عليه الصيام معه ويُنصِبه ويبلغ ذلك منه، فإن له أن يفطر. وكذلك المريض إذا اشتد عليه القيام في الصلاة فيصلي جالساً، ودين الله يسر. ويستدل مالك بأن الله أرخص للمسافر في الفطر وهو أقوى على الصيام من المريض، بقوله تعالى: فمن كان منكم مريضاً أو على سفر فعدة من أيام أخر [[passage/quran-2-184|البقرة 184]]. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.406}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 832 of kitab 04-siyam at PDF p. 406", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-38" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-2-184, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 832 at PDF p. 406; باب ما يفعل المريض في صيامه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الحكم تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 406; matn excerpt at most 40 words" }
