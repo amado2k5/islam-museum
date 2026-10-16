@@ -1,0 +1,8 @@
+---
+id: place/dhu-al-hulayfa
+lang: ar
+source_lang: ar
+translators: []
+---
+## موجز
+ميقات أهل [[place/medina|المدينة]]، وعند مسجدها يحرم الحجاج القادمون منها. يعرف موضعها اليوم بأبيار علي. وذكرها ابن بطوطة في طريقه إلى مكة. {cite:geonames-gazetteer} {cite:rihla-ibn-battuta-1958}
