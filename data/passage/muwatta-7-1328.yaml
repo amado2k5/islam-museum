@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1328"
-label: { ar: "الموطأ 1328", en: "Muwatta 1328" }
+label: { ar: "الموطأ 1328 — عبد الله بن أبي قتادة عن أبيه: جاء رجل يسأل إن قتل صابرا محتسبا مقبلا غير مدبر أيكفر الله خطاياه، فقال نعم إلا الدين", en: "Muwatta 1328" }
+text: "نَعَمْ. إلَّا الدَّيْنَ. كَذلكَ قَال لِي جِبْريلُ"
 summary:
-  ar: "يحيى بن سعيد عن سعيد بن أبي سعيد المقبري عن عبد الله بن أبي قتادة: حديث في الجهاد؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد عن سعيد بن أبي سعيد المقبري عن عبد الله بن أبي قتادة عن أبيه أن رجلا جاء إلى رسول الله فقال يا رسول الله، إن قتلت في سبيل الله صابرا محتسبا مقبلا غير مدبر، أيكفر الله عني خطاياي؟ فقال رسول الله نعم، فلما أدبر الرجل ناداه رسول الله أو أمر به فنودي له، فقال كيف قلت؟ فأعاد عليه قوله، فقال نعم إلا الدين، كذلك قال لي جبريل. ويذكر المحقق أن ابن عبد البر رأى أن الحديث متصل المعنى. {cite:muwatta-maruf-1997 p.593}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1328 of kitab 07-jihad at PDF p. 593", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-58" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-abi-said-al-maqburi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abi-qatada, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-qatada-ibn-rib-i, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1328 at PDF p. 593; الشهداء في سبيل الله", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 593; matn excerpt at most 40 words" }

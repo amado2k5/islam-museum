@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1321"
-label: { ar: "الموطأ 1321", en: "Muwatta 1321" }
+label: { ar: "الموطأ 1321 — عبد الله بن المغيرة بن أبي بردة: وجد في برذعة رجل من قبيلة عقد جزع غلولا، فكبر النبي عليهم كما يكبر على الميت", en: "Muwatta 1321" }
+text: "كَبَّرَ عَلَيْهمْ، كَمَا يُكبِّرُ على الْمَيِّتِ"
 summary:
-  ar: "يحيى بن سعيد عن عبد الله بن المغيرة بن أبي بردة الكناني: أنه بلغه... ؛ أثر في الجهاد أو الغنيمة؛ تفاصيل الأثر غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد عن عبد الله بن المغيرة بن أبي بردة الكناني أنه بلغه أن رسول الله أعطى الناس في قبائلهم يدعو لهم، وترك قبيلة من القبائل. فوجدوا في برذعة رجل منهم عقد جزع غلولا، فأتاهم رسول الله فكبر عليهم كما يكبر على الميت. {cite:muwatta-maruf-1997 p.590}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1321 of kitab 07-jihad at PDF p. 590", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-58" }
+  - { type: mentions, target: person/abdallah-ibn-al-mughira-ibn-abi-burda, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1321 at PDF p. 590; ما جاء في الغلول", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 590; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1323"
-label: { ar: "الموطأ 1323", en: "Muwatta 1323" }
+label: { ar: "الموطأ 1323 — ابن عباس: ما ظهر الغلول في قوم قط إلا ألقي في قلوبهم الرعب، ولا فشا الزنا إلا كثر فيهم الموت", en: "Muwatta 1323" }
+text: "مَا ظَهرَ الْغُلُولُ في قَوْمِ قَطُّ إِلاَّا أُلْقِيَ في قُلُوبِهِمُ الرُّعْبُ"
 summary:
-  ar: "يحيى بن سعيد: بلغه عن عبد الله بن عباس أنه قال: ما ظهر الغلول... ؛ قول ابن عباس في الغلول وعقوبته؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن يحيى بن سعيد أنه بلغه عن عبد الله بن عباس أنه قال ما ظهر الغلول في قوم قط إلا ألقي في قلوبهم الرعب، ولا فشا الزنا في قوم قط إلا كثر فيهم الموت، ولا نقص قوم المكيال والميزان إلا قطع عنهم الرزق، ولا حكم قوم بغير الحق إلا فشا فيهم الدم، ولا خفر قوم بالعهد إلا سلط الله عليهم العدو. ويذكر المحقق أن ابن عبد البر ذكره موقوفا على ابن عباس. {cite:muwatta-maruf-1997 p.592}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1323 of kitab 07-jihad at PDF p. 592", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-58" }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1323 at PDF p. 592; ما جاء في الغلول", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 592; matn excerpt at most 40 words" }

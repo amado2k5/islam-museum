@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1327"
-label: { ar: "الموطأ 1327", en: "Muwatta 1327" }
+label: { ar: "الموطأ 1327 — زيد بن أسلم: كان عمر بن الخطاب يقول اللهم لا تجعل قتلي بيد رجل صلى لك سجدة واحدة", en: "Muwatta 1327" }
+text: "اللّهُمَّ لَا تَجْعلْ قَتْلي بِيَدِ رَجُلٍ صَلَّى لَكَ سَجْدةً وَاحِدةً"
 summary:
-  ar: "زيد بن أسلم: أن عمر بن الخطاب كان يقول: اللهم لا تجعل قتلي... ؛ دعاء عمر أن لا يُقتل في الجهاد؛ تفاصيل الدعاء غير واضحة."
+  ar: "يروي مالك عن زيد بن أسلم أن عمر بن الخطاب كان يقول اللهم لا تجعل قتلي بيد رجل صلى لك سجدة واحدة، يحاجني بها عندك يوم القيامة. ويذكر المحقق أن الحديث منقطع، وأن الليث رواه عن هشام عن زيد بن أسلم عن أبيه عن عمر. {cite:muwatta-maruf-1997 p.593}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1327 of kitab 07-jihad at PDF p. 593", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-58" }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1327 at PDF p. 593; الشهداء في سبيل الله", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الدعاء غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 593; matn excerpt at most 40 words" }

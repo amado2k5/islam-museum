@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1324"
-label: { ar: "الموطأ 1324", en: "Muwatta 1324" }
+label: { ar: "الموطأ 1324 — أبو هريرة عن النبي: لوددت أني أقاتل في سبيل الله فأقتل ثم أحيا فأقتل ثم أحيا فأقتل", en: "Muwatta 1324" }
+text: "لَوَددْتُ أنِّي أُقَاتلُ في سَبِيلِ اللهِ، فَأُقْتلُ، ثُمَّ أُحْيَا فَأُقْتلُ"
 summary:
-  ar: "أبو الزناد عن الأعرج عن أبي هريرة عن النبي ﷺ: وفي الحديث... ؛ حديث في الجهاد أو الشهادة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن أبي الزناد عن الأعرج عن أبي هريرة أن رسول الله قال والذي نفسي بيده، لوددت أني أقاتل في سبيل الله فأقتل، ثم أحيا فأقتل، ثم أحيا فأقتل، وكان أبو هريرة يقول ثلاثا أشهد بالله. {cite:muwatta-maruf-1997 p.592}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1324 of kitab 07-jihad at PDF p. 592", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-58" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hurmuz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1324 at PDF p. 592; الشهداء في سبيل الله", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 592; matn excerpt at most 40 words" }

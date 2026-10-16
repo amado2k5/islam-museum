@@ -1,0 +1,18 @@
+id: passage/muwatta-7-1332
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "7.1332"
+label: { ar: "الموطأ 1332 — يحيى بن سعيد عن عمر بن الخطاب: كرم المؤمن تقواه، والشهيد من احتسب نفسه على الله", en: "Muwatta 1332" }
+text: "وَالشَّهيدُ مَن احْتَسبَ نَفْسهُ على اللهِ"
+summary:
+  ar: "يروي مالك عن يحيى بن سعيد أن عمر بن الخطاب قال كرم المؤمن تقواه، ودينه حسبه، ومروءته خلقه، والجرأة والجبن غرائز يضعها الله حيث يشاء، فالجبان يفر عن أبيه وأمه، والجريء يقاتل عما لا يؤوب به إلى رحله، والقتل حتف من الحتوف، والشهيد من احتسب نفسه على الله. {cite:muwatta-maruf-1997 p.595}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-07-jihad }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1332 at PDF p. 595; ما تكون فيه الشهادة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b20" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 595; matn excerpt at most 40 words" }

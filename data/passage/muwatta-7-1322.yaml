@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1322"
-label: { ar: "الموطأ 1322", en: "Muwatta 1322" }
+label: { ar: "الموطأ 1322 — أبو هريرة في خيبر: مدعم عبد رفاعة بن زيد أصابه سهم فقال الناس هنيئا له الجنة، فقال النبي إن الشملة لتشتعل عليه نارا", en: "Muwatta 1322" }
+text: "شِرَاكٌ أوْ شِرَاكانِ مِن نَارِ"
 summary:
-  ar: "ثور بن زيد الديلي عن أبي الغيث سالم مولى ابن مطيع عن أبي هريرة: حديث في الجهاد؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن ثور بن زيد الديلي عن أبي الغيث سالم مولى ابن مطيع عن أبي هريرة أنه قال خرجنا مع رسول الله عام خيبر، فلم نغنم ذهبا ولا ورقا، إلا الأموال والثياب والمتاع. فأهدى رفاعة بن زيد لرسول الله غلاما أسود يقال له مدعم، فوجه إلى وادي القرى، فبينما مدعم يحط رحل رسول الله إذ جاءه سهم عائر فقتله، فقال الناس هنيئا له الجنة، فقال رسول الله كلا والذي نفسي بيده، إن الشملة التي أخذ يوم خيبر من المغانم لم تصبها المقاسم لتشتعل عليه نارا. فلما سمع الناس ذلك جاء رجل بشراك أو شراكين فقال شراك أو شراكان من نار. ويذكر المحقق أن ابن عبد البر لم يحفظه مسندا بوجه. {cite:muwatta-maruf-1997 p.591}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1322 of kitab 07-jihad at PDF p. 591", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-58" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/thawr-ibn-zayd-al-dili, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-ghayth-salim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rifaa-ibn-zayd-al-judhami, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/khaybar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/wadi-al-qura, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1322 at PDF p. 591; ما جاء في الغلول", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b20" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 591; matn excerpt at most 40 words" }
