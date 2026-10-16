@@ -80,3 +80,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - concept batch 6 (Claude Haiku 5.5): 25 pages, jizya → madhahib-al-tibb
 - person s–z batch 4 (Claude Code, claude-haiku-5-5): salih-ibn-muslim … salman-ibn-rabi-a, 25 files, 25 files.
 - person i–m batch 8 (25 files, ibn-qudama-al-maqdisi … ibn-zaydun) — Claude Haiku 5.5, draft
+- person d–h batch 9 (Claude Haiku 5.5): 15 pages, hurayth-ibn-qutba → husayn-ibn-yahya-al-ansari (commit 3a4e31e5). Person d–h slice complete.
