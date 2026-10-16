@@ -1,0 +1,16 @@
+id: passage/muslim-2311
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2311"
+label: { ar: "مسلم 2311 — ما سئل شيئاً قط فقال لا", en: "Muslim 2311 — He was never asked a thing and said no" }
+text: "قال جابر بن عبد الله: ما سئل رسول الله شيئاً قط فقال لا"
+summary:
+  ar: "رواية جابر بن عبد الله في باب كثرة عطائه من كتاب الفضائل في صحيح مسلم؛ إجمال العطاء النبوي — لم يُسأل شيئاً قط فقال لا."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/al-shamail-al-muhammadiyya, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب ما سئل رسول الله شيئاً قط فقال لا (طبعة دار التأصيل، الحديث 6159؛ ترقيم عبد الباقي المعروف 2311)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
