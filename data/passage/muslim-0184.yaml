@@ -1,0 +1,16 @@
+id: passage/muslim-0184
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "184"
+label: { ar: "مسلم 184 — يبثّون على أنهار الجنة فينبتون نبات الحبة", en: "Muslim 184 — Cast on Paradise's rivers, growing like the seed in flood silt" }
+text: "قال أبو سعيد الخدري: قال رسول الله: أما أهل النار الذين هم أهلها فإنهم لا يموتون فيها ولا يحيون، ولكن ناس أصابتهم النار بذنوبهم فأماتهم إماتة، حتى إذا كانوا فحماً أذن بالشفاعة فجيء بهم ضبائر ضبائر فبثوا على أنهار الجنة ثم قيل: يا أهل الجنة أفيضوا عليهم، فينبتون نبات الحبة تكون في حميل السيل"
+summary:
+  ar: "رواية أبي سعيد الخدري في باب الشفاعة وإخراج الموحدين من النار من كتاب الإيمان في صحيح مسلم؛ خروج من أصابتهم النار بذنوبهم بعد الشفاعة فينبتون على أنهار الجنة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/shafaa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب الشفاعة وإخراج الموحدين من النار (طبعة دار التأصيل، الحديث 176؛ ترقيم عبد الباقي المعروف 184)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

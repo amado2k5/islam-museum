@@ -1,0 +1,17 @@
+id: passage/muslim-0202
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "202"
+label: { ar: "مسلم 202 — اللهم أمتي أمتي", en: "Muslim 202 — O God, my ummah, my ummah" }
+text: "قال عبد الله بن عمرو بن العاص: تلا النبي قول إبراهيم: رب إنهن أضللن كثيراً من الناس، وقال عيسى الكلمة: إن تعذبهم فإنهم عبادك، فرفع يديه وقال: اللهم أمتي أمتي وبكى، فقال الله: يا جبريل اذهب إلى محمد فسله ما يبكيك... فقال: يا محمد إنا سنرضيك في أمتك ولا نسوءك"
+summary:
+  ar: "رواية عبد الله بن عمرو بن العاص في باب دعاء النبي لأمته من كتاب الإيمان في صحيح مسلم؛ دعاء الشفاعة بعد تلاوة قول إبراهيم وقول عيسى، ووعد الإرضاء في الأمة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jibril, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/shafaa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب دعاء النبي لأمته (طبعة دار التأصيل، الحديث 192؛ ترقيم عبد الباقي المعروف 202)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

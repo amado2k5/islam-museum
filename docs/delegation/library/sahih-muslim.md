@@ -13,12 +13,13 @@
 
 **Record shape:** `data/passage/muslim-NNNN.yaml` with `unit: hadith`, `work: work/sahih-muslim`, matn excerpt ≤40 words (no honorifics — the renderer supplies them), own-words `summary.ar`, `mentions`/`basis_for` edges to people/concepts, draft status, provenance run `hadith-muslim-passages-N`.
 
-**Done (154 files on main as of 58746221):**
-- `muslim-muqaddima-isnad` + iman foundations: 8, 16, 20, 22, 34–37, 40, 42–45, 47, 49, 50, 55, 57, 82, 83, 89–91, 96, 98, 102, 105–107, 118, 140, 142, 145, 162, 179
-- Worship/zakat: 223, 246, 249, 384, 408, 482, 532–533, 633, 637, 667, 779, 783, 797–798, 1015–1016, 1031, 1033, 1042, 1218, 1337, 1349, 1381, 1400, 1553, 1631, 1864, 1904, 1955, 2162
+**Done (187 files on main as of 7e07d612):**
+- `muslim-muqaddima-isnad` + iman foundations: 8, 16, 20, 22, 28–29, 34–37, 40, 42–45, 47, 49, 50, 54, 55, 57, 82, 83, 89–91, 96, 98, 102, 105–107, 118, 140, 142, 145, 162, 179
+- Worship/zakat: 223, 246, 249, 384, 408, 482, 532–533, 633, 637, 650–651, 667, 725, 779, 783, 797–798, 854, 1015–1016, 1031, 1033, 1035, 1042, 1048, 1079, 1162, 1164, 1218, 1337, 1349, 1353, 1381, 1400, 1553, 1631, 1650, 1742, 1864, 1904, 1955, 2162
+- Ramadan/tawba: 760, 1079, 2759–2760
 - The Prophet's person / shama'il: 2276, 2278–2279, 2307–2309, 2311, 2321, 2330, 2355, seal bab 2344–2347
 - Companions/Ahl al-Bayt: 2381–2382, 2396, 2401, 2405, 2408–2409, 2411, 2419, 2421, 2424, 2430, 2432, 2449, 2458, 2466, 2477, 2479, 2486, 2533, 2770
-- Birr/ethics: 2552–2560, 2563–2565 (incl. 2564a), 2577–2578, 2580–2581, 2585–2590, 2592–2593, 2599, 2608–2609, 2626, 2637–2639, 2643, 2664, 2669, 2673, 2676–2677, 2683, 2693–2695, 2699, 2816, 2820, 2956, 2965, 2982–2983
+- Birr/ethics: 2540–2541, 2552–2560, 2563–2565 (incl. 2564a), 2577–2578, 2580–2581, 2585–2590, 2592–2593, 2599, 2608–2609, 2626, 2637–2639, 2643, 2646, 2664, 2669, 2673–2674, 2676–2677, 2683, 2693–2695, 2699, 2740, 2742, 2816, 2820, 2946, 2956, 2965, 2982–2983
 - Entity enrichments riding on these: umar, ali, aisha, fatima, hasan, husayn, zayd-ibn-arqam, jabir, sahl-ibn-sad, ghadir-khumm, incident-of-the-slander, farewell-pilgrimage, ahl-al-bayt, ihsan, tahara, ukhuwwa, ilm, sadaqa, hadith-qudsi, zulm, isnad, ridda-wars, shama'il, khatm-al-nubuwwa; `person/jibril` promoted from stub.
 - Trail `path-hadith` room «نماذج من الصحيح» features 3 Muslim + 6 Bukhari passages.
 
