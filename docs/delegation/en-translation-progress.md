@@ -156,3 +156,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 1: 25 files (maadin-al-naqra … majrit), pushed in commit b81294c8 / 432c732a — draft
 - person i–m batch 22 (25 files, mamay-dashti … mardawij-ibn-ziyad) — Claude Haiku 5.5, draft
 - place a–l batch 10 (Haiku 5.5, draft): 25 files, anjiya → armuqastru; 936 Arabic files in a–l at commit time.
+- event a–m batch 10 (2026-10-16, claude-haiku-5-5): 25 pages, bayat-ibrahim-ibn-al-mahdi → byzantine-ransom-296 (EN drafts).
