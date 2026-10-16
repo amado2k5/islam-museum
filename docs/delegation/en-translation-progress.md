@@ -105,3 +105,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - group batch 6 (25 files, mudar-ibn-nizar … saqaliba): done by Claude Haiku 5.5, draft
 - place m–z batch 18: 25 files (sayumur.md … sharma.md), draft
 - concept batch 9 (Claude Haiku 5.5): 25 pages, saltanat-al-kawakib → tolerance-and-intolerance-islam-europe
+- person s–z batch 8 (Claude Code, claude-haiku-5-5): shurayh-ibn-amir-al-sadi … siyawush-ibn-kaykaus, 25 files, 25 files.
