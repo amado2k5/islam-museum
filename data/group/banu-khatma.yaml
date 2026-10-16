@@ -9,6 +9,7 @@ wings: [people, place]
 periods: [period/pre-islamic-arabia, period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: participated_in, target: event/killing-of-asma-bint-marwan, role: "قوم القاتل وزوج المقتولة؛ عزّ الإسلام فيهم يومئذ", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: group/al-aws, sources: [source/samhudi-wafa-al-wafa] }
   - { type: lived_in, target: place/medina, note: "منازلهم بالعوالي شرقي مسجد الشمس في ترجيح المطري", sources: [source/samhudi-wafa-al-wafa] }
 sources: [source/samhudi-wafa-al-wafa]

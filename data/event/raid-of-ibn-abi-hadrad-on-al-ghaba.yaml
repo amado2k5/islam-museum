@@ -1,0 +1,24 @@
+id: event/raid-of-ibn-abi-hadrad-on-al-ghaba
+class: event
+kind: raid
+label: { ar: "غزوة ابن أبي حدرد الغابة ومقتل رفاعة بن قيس الجشمي", en: "Ibn Abi Hadrad's raid on al-Ghaba and the killing of Rifa'a ibn Qays al-Jushami" }
+summary:
+  ar: "بعث النبي عبد الله بن أبي حدرد ورجلين معه إلى رفاعة بن قيس الجشمي، وكان قد نزل بالغابة في بطن عظيم من جشم يريد أن يجمع قيساً على حرب النبي، ليأتوا منه بخبر؛ فكمنوا حول الحاضر، وخرج رفاعة وحده في أثر راعيه فرماه ابن أبي حدرد بسهم في فؤاده واحتزّ رأسه، وكبّروا فهرب القوم، واستاقوا إبلاً وغنماً؛ وأعان النبي ابن أبي حدرد من الإبل بثلاثة عشر بعيراً في صداقه الذي كان مئتي درهم."
+  en: "The Prophet sent Abdullah ibn Abi Hadrad with two men to Rifa'a ibn Qays al-Jushami, who had camped at al-Ghaba with a large clan of Jusham meaning to gather Qays against the Prophet, to bring back news of him; they lay in ambush, Rifa'a went out alone after his shepherd and Ibn Abi Hadrad shot him through the heart and cut off his head; they shouted the takbir, the camp fled, and they drove off camels and sheep. The Prophet gave Ibn Abi Hadrad thirteen camels towards his dowry of two hundred dirhams."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions, family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: violence
+date:
+  start: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن إسحاق؛ أصحاب المغازي المتأخرون يضعونها سنة 8هـ (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/al-ghaba, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "بعث الثلاثة وأعان ابن أبي حدرد في صداقه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-abi-hadrad, role: "قتل رفاعة وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/rifaa-ibn-qays-al-jushami, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-jusham, role: "بطن عظيم منهم نزل بالغابة", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 278-279", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 278-279" }

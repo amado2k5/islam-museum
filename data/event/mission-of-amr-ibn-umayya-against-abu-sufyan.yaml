@@ -1,0 +1,27 @@
+id: event/mission-of-amr-ibn-umayya-against-abu-sufyan
+class: event
+kind: raid
+label: { ar: "بعث عمرو بن أمية الضمري لقتل أبي سفيان وما صنع في طريقه", en: "The dispatch of Amr ibn Umayya al-Damri to kill Abu Sufyan, and what he did on the way" }
+summary:
+  ar: "يرويه ابن هشام عمن يثق به من أهل العلم فيما لم يذكره ابن إسحاق: بعث النبي عمرو بن أمية الضمري بعد مقتل خبيب بن عدي وأصحابه إلى مكة ليقتل أبا سفيان بن حرب، ومعه جبار بن صخر الأنصاري؛ فطافا بالبيت ليلاً، وعُرف عمرو فهربا إلى جبل وباتا في كهف، فقتل عمرو قرشياً اطّلع عليهما، ثم أنزل خشبة خبيب وألقاها في جرف، وفي طريق عودته قتل شيخاً أعور من بني الدِّيل أنشد أنه لن يسلم ما عاش، وقتل أحد عينَي قريش وأسر الآخر فقدم به المدينة."
+  en: "Ibn Hisham tells it, from a scholar he trusts, among what Ibn Ishaq did not include: after the killing of Khubayb ibn Adi and his companions the Prophet sent Amr ibn Umayya al-Damri to Mecca to kill Abu Sufyan ibn Harb, with Jabbar ibn Sakhr al-Ansari; they circled the Ka'ba at night, Amr was recognised and the two fled to a mountain and spent the night in a cave, where Amr killed a Qurayshi who came upon them; he then took down Khubayb's body from its stake and threw it into a ravine; on his way home he killed a one-eyed old man of Banu al-Dil who sang that he would never be a Muslim, killed one of two Quraysh spies and brought the other bound to Medina."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: violence
+date:
+  start: { edtf: "0626~", hijri: "0004~", calendar: julian, precision: year, status: debated, note: "«بعد مقتل خبيب بن عدي وأصحابه» عند ابن هشام؛ مقتل خبيب سنة 4هـ في المشهور (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "بعث عمراً", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/amr-ibn-umayya-al-damri, role: "المبعوث وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/jabbar-ibn-sakhr, role: "صاحبه الأنصاري", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "المقصود بالقتل؛ لم يُصل إليه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khubayb-ibn-adi, role: "أُنزلت خشبته", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-al-dil, role: "الشيخ الأعور المقتول منهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: caused_by, target: event/incident-of-al-raji, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 282-284", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 282-284" }

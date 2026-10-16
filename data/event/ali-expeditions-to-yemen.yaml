@@ -1,0 +1,24 @@
+id: event/ali-expeditions-to-yemen
+class: event
+kind: campaign
+label: { ar: "غزوة علي بن أبي طالب اليمن (غزاها مرتين)", en: "Ali ibn Abi Talib's expeditions to Yemen (twice)" }
+summary:
+  ar: "يقول ابن إسحاق في جملة السرايا: وغزوة علي بن أبي طالب اليمن، غزاها مرتين؛ ويضيف ابن هشام عن أبي عمرو المدني أن النبي بعث علياً إلى اليمن وبعث خالد بن الوليد في جند آخر وقال: إن التقيتما فالأمير علي بن أبي طالب؛ ويلاحظ ابن هشام أن ابن إسحاق ذكر بعث خالد في حديثه ولم يذكره في عدة البعوث، فينبغي أن تكون العدة تسعة وثلاثين."
+  en: "Ibn Ishaq says in his enumeration of detachments: and Ali ibn Abi Talib's expedition to Yemen, which he made twice; Ibn Hisham adds from Abu Amr al-Madani that the Prophet sent Ali to Yemen and Khalid ibn al-Walid with another force, saying: if you meet, Ali is the commander. Ibn Hisham notes that Ibn Ishaq mentioned Khalid's dispatch in his narrative but not in his count, so the number should be thirty-nine."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions, dawa-and-christian-mission]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0631~", hijri: "0010~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن إسحاق؛ بعث علي الذي سبق حجة الوداع في رمضان سنة 10هـ عند أصحاب المغازي (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/yemen, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "بعث علياً وخالداً", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "أمير الجيش؛ غزاها مرتين", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khalid-ibn-al-walid, role: "أمير جند آخر؛ علي الأمير إن التقيا", sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/complaint-against-ali-after-yemen, sources: [source/ibn-hisham-saqqa] }
+  - { type: has_part, target: event/mission-of-khalid-to-banu-al-harith, note: "بعث خالد إلى بني الحارث بن كعب بنجران", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 290-291", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 290-291; umbrella entry linking the Yemen missions" }

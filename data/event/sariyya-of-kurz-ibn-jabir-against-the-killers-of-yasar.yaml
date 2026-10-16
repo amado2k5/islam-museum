@@ -1,0 +1,41 @@
+id: event/sariyya-of-kurz-ibn-jabir-against-the-killers-of-yasar
+class: event
+kind: raid
+label: { ar: "سرية كرز بن جابر لقتل البجليين الذين قتلوا يساراً", en: "Kurz ibn Jabir's detachment against the men of Bajila who killed Yasar" }
+summary:
+  ar: "يرويه ابن هشام عن بعض أهل العلم عن محمد بن طلحة عن عثمان بن عبد الرحمن: أصاب النبي في غزوة محارب وبني ثعلبة عبداً يقال له يسار فجعله في لقاحه ترعى بناحية الجماء؛ فقدم نفر من قيس كبّة من بجيلة فاستوبؤوا وطحلوا، فأمرهم النبي أن يخرجوا إلى اللقاح فيشربوا من ألبانها وأبوالها، فلما صحّوا عدوا على يسار فذبحوه وغرزوا الشوك في عينيه واستاقوا اللقاح؛ فبعث النبي في آثارهم كرز بن جابر فلحقهم وأتى بهم النبي مرجعه من غزوة ذي قرد، فقطع أيديهم وأرجلهم وسمل أعينهم."
+  en: "Ibn Hisham tells it from a scholar, from Muhammad ibn Talha, from Uthman ibn Abd al-Rahman: in the raid on Muharib and Banu Tha'laba the Prophet acquired a slave named Yasar and put him in charge of his milch-camels grazing near al-Jamma'; a party of Qays Kubba of Bajila came to Medina, fell sick and their spleens swelled, so the Prophet told them to go out to the camels and drink their milk and urine; when they recovered they attacked Yasar, slaughtered him, drove thorns into his eyes and drove off the camels. The Prophet sent Kurz ibn Jabir after them; he caught them and brought them to the Prophet on his return from the Dhu Qarad raid, and he cut off their hands and feet and put out their eyes."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions, law-and-courts, slavery-and-freedom, health-body-death]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: violence
+date:
+  start: { edtf: "0627~", hijri: "0006~", calendar: julian, precision: year, status: debated, note: "«مرجعه من غزوة ذي قرد» عند ابن هشام؛ ذو قرد سنة 6هـ في المشهور (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, note: "اللقاح بناحية الجماء من نواحي المدينة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "أذن لهم في اللقاح ثم عاقبهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/kurz-ibn-jabir-al-fihri, role: "أمير الطلب", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/yasar-mawla-al-nabi, role: "الراعي المقتول", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/bajila, role: "نفر من قيس كبّة منهم", sources: [source/ibn-hisham-saqqa] }
+  - { type: caused_by, target: event/expedition-of-dhu-qarad, note: "أُتي بهم مرجع النبي من ذي قرد", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+issue: { ar: "كيف تُقرأ عقوبة قتلة يسار: قطع الأيدي والأرجل وسمل الأعين؟", en: "How is the punishment of Yasar's killers, amputation and blinding, to be read?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-ibn-hisham
+    stance: { ar: "خبر يُروى بلا تعليق" }
+    summary: { ar: "يرويه ابن هشام بإسناد إلى عثمان بن عبد الرحمن بلا تعليق: قتلوا الراعي ومثّلوا به وسرقوا اللقاح، فقُطعت أيديهم وأرجلهم وسُملت أعينهم؛ وهو خبر «العرنيين» المشهور في الصحيحين بنسبتهم إلى عكل وعرينة لا إلى بجيلة." }
+    sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari]
+  - tradition: sunni
+    id: sunni-fiqh
+    stance: { ar: "قصاص وحدّ حرابة، أو منسوخ" }
+    summary: { ar: "يقرأ الفقهاء والشرّاح العقوبة إما مماثلةً لما فعلوه بالراعي (قصاص)، أو حدَّ الحرابة في آية المائدة 33، ويذهب بعضهم إلى أن سمل الأعين نُسخ بالنهي عن المثلة؛ المراجع المحددة لم تُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    id: academic
+    summary: { ar: "تناقش الدراسات الحديثة اختلاف روايات الخبر في نسبة القوم وفي صفة العقوبة وفي علاقته بآية الحرابة، وتقرأه في سياق أمن المدينة المبكرة؛ مرجع أكاديمي محدد لم يُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 290", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 290; Tier A" }

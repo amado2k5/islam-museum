@@ -18,6 +18,8 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابي من بني أسلم." }
 relations:
+  - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-al-ghaba, role: "قتل رفاعة بن قيس؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "من السرية وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-aslam }
   - { type: participated_in, target: event/battle-of-hunayn, role: scout, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 83–84", generated_by: "Devin", run: "ibn-hisham-batch-2a" }

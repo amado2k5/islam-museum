@@ -1,0 +1,24 @@
+id: event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal
+class: event
+kind: raid
+label: { ar: "سرية عبد الرحمن بن عوف إلى دومة الجندل", en: "Abd al-Rahman ibn Awf's detachment to Dumat al-Jandal" }
+summary:
+  ar: "يرويها ابن إسحاق عن عطاء بن أبي رباح عن رجل سأل عبد الله بن عمر عن إرسال العمامة: كان ابن عمر عاشر عشرة في المسجد مع النبي، فسأل فتى من الأنصار: أي المؤمنين أفضل وأكيس؟ ثم خطب النبي المهاجرين بالخصال الخمس، ثم أمر عبد الرحمن بن عوف أن يتجهز لسرية، فعمّمه بيده بعمامة كرابيس سوداء وأرسل من خلفه أربع أصابع، ودفع إليه اللواء وعهد إليه: اغزوا في سبيل الله، لا تغلوا ولا تغدروا ولا تمثلوا ولا تقتلوا وليداً؛ قال ابن هشام: فخرج إلى دومة الجندل."
+  en: "Ibn Ishaq tells it from Ata' ibn Abi Rabah, from a man who asked Abdullah ibn Umar about letting the turban's end hang behind: Ibn Umar was one of ten Companions sitting with the Prophet in his mosque when a young Ansari asked which believers were best and wisest; the Prophet then addressed the Muhajirun with the five afflictions, then ordered Abd al-Rahman ibn Awf to prepare for a detachment, wound a black cotton turban on him with his own hands leaving four fingers hanging behind, handed him the banner and charged him: fight in God's way, do not steal from the spoils, do not break faith, do not mutilate, do not kill a child. Ibn Hisham adds: he set out for Dumat al-Jandal."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions, laws-of-war-and-peace, dress]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0627~", hijri: "0006~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن إسحاق؛ أصحاب المغازي يضعونها في شعبان سنة 6هـ (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/dumat-al-jandal, note: "«قال ابن هشام: فخرج إلى دومة الجندل»", sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: building/prophets-mosque, note: "التعميم ودفع اللواء في المسجد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "عمّمه بيده ودفع إليه اللواء وعهد إليه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-awf, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-umar, role: "راوي الخبر؛ عاشر عشرة في المسجد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/bilal-ibn-rabah, role: "دفع اللواء بأمر النبي", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 279-281", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 279-281; the raid itself is not narrated by Ibn Ishaq" }

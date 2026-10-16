@@ -1,0 +1,42 @@
+id: event/killing-of-abu-afak
+class: event
+kind: death
+label: { ar: "غزوة سالم بن عمير لقتل أبي عفك", en: "Salim ibn Umayr's mission to kill Abu Afak" }
+summary:
+  ar: "يروي ابن إسحاق أن أبا عفك، أحد بني عمرو بن عوف ثم من بني عبيدة، «نجم نفاقه» حين قُتل الحارث بن سويد بن الصامت، فقال شعراً يذم فيه راكباً صدّع أولاد قيلة وفرّق جمعهم؛ فقال النبي: من لي بهذا الخبيث؟ فخرج سالم بن عمير أحد البكائين فقتله؛ وقالت أمامة المزيرية في ذلك بيتين."
+  en: "Ibn Ishaq relates that Abu Afak, of Banu Amr ibn Awf and then of Banu Ubayda, showed his hypocrisy openly when al-Harith ibn Suwayd ibn al-Samit was killed, and composed verses reviling a rider who had split the sons of Qayla and broken their unity; the Prophet said: who will deal with this wretch for me? and Salim ibn Umayr, one of the Weepers, went out and killed him; Umama al-Muzayriyya spoke two verses on it."
+wings: [time, people]
+themes: [dissent-heresy-freethought, literature, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: violence
+date:
+  start: { edtf: "0625~", hijri: "0003~", calendar: julian, precision: year, status: debated, note: "«حين قتل رسول الله الحارث بن سويد بن صامت» عند ابن إسحاق؛ مقتل الحارث بعد أحد في المشهور، وأصحاب المغازي المتأخرون يضعون قتل أبي عفك في شوال سنة 2هـ (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "قال: من لي بهذا الخبيث؟", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-afak, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/salim-ibn-umayr, role: "القاتل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/umama-al-muzayriyya, role: "قالت في ذلك شعراً", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-amr-ibn-awf, role: "قوم أبي عفك وسالم", sources: [source/ibn-hisham-saqqa] }
+  - { type: caused, target: event/killing-of-asma-bint-marwan, note: "«فلما قُتل أبو عفك نافقت»", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+issue: { ar: "كيف يُقرأ قتل أبي عفك بسبب شعره؟", en: "How is the killing of Abu Afak for his verses to be read?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-ibn-ishaq
+    stance: { ar: "خبر مغازٍ يُروى بلا إسناد وبلا تعليق" }
+    summary: { ar: "يرويه ابن إسحاق في قائمة السرايا بلا إسناد مسمى: ظهر نفاق أبي عفك وقال شعراً يحرّض على النبي، فقال النبي: من لي بهذا الخبيث؟ فقتله سالم بن عمير؛ ويسمّي ابن إسحاق الخبر «غزوة»." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: sunni-later
+    stance: { ar: "تضعيف الخبر أو تعليله عند المتأخرين" }
+    summary: { ar: "يضعّف كثير من علماء السنة المتأخرين أخبار قتل أبي عفك وعصماء بنت مروان لانقطاع أسانيدها، أو يعلّلونها بالتحريض على القتال لا بمجرد الهجاء؛ المراجع المحددة لم تُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    id: academic
+    summary: { ar: "تقرأ الدراسات الحديثة الخبر في سياق صراع المدينة الداخلي بعد أحد وموقف السيرة من شعراء الهجاء، وتختلف في صحة التفاصيل؛ مرجع أكاديمي محدد لم يُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 284-285", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 284-285; Tier A" }

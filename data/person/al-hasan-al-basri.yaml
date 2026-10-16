@@ -7,9 +7,10 @@ summary:
 periods: [period/rashidun, period/umayyad]
 died: { hijri: "0110", edtf: "0728~", calendar: julian, precision: year, status: tradition, derived: true, note: "الشيرازي: مات بالبصرة سنة عشر ومائة وهو ابن ثمان وثمانين سنة (PDF ص46). الملخص أعلاه يقول ابن تسع وثمانين؛ الاختلاف في العمر مسجل.", sources: [source/tabaqat-fuqaha-abbas-1981] }
 relations:
+  - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "راوي خبر موت محلّم ولفظ الأرض له (مرسلاً)", sources: [source/ibn-hisham-saqqa] }
   - { type: lived_in, target: place/basra }
 wings: [people, place, time]
-sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/bakr-umayyad-state-1134715, source/tabaqat-fuqaha-abbas-1981]
+sources: [source/futuh-buldan-maarif-1407, source/muruj-al-dhahab, source/fihrist-ibn-al-nadim, source/bakr-umayyad-state-1134715, source/tabaqat-fuqaha-abbas-1981, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1 }
 provenance:
   layer: own-research

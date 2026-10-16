@@ -9,11 +9,12 @@ wings: [people]
 periods: [period/prophetic-era, period/rashidun]
 regions: [arabia]
 relations:
+  - { type: participated_in, target: event/capture-and-islam-of-thumama-ibn-uthal, role: "ثمامة سيدهم؛ منع ميرة اليمامة عن مكة", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: place/al-yamama, note: "سكان اليمامة", sources: [source/futuh-buldan-maarif-1407] }
 provenance:
   layer: own-research
   source: "فتوح البلدان (ط مؤسسة المعارف 1407هـ/1987م) ص 115–123"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-futuh-buldan-batch-5
-sources: [source/futuh-buldan-maarif-1407, source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya]
+sources: [source/futuh-buldan-maarif-1407, source/mubarakpuri-raheeq, source/muhadarat-tarikh-al-umam-al-islamiyya, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,27 @@
+id: event/raid-of-ibn-abi-hadrad-on-batn-idam
+class: event
+kind: raid
+label: { ar: "غزوة ابن أبي حدرد بطن إضم ومقتل عامر بن الأضبط", en: "Ibn Abi Hadrad's raid on Batn Idam and the killing of Amir ibn al-Adbat" }
+summary:
+  ar: "سرية بعثها النبي قبل الفتح إلى إضم في نفر فيهم أبو قتادة ومحلّم بن جثامة؛ مرّ بهم عامر بن الأضبط الأشجعي فسلّم بتحية الإسلام، فحمل عليه محلّم فقتله لشيء كان بينهما وأخذ بعيره ومتاعه، فنزلت فيهم آية النساء 94 بحسب ابن أبي حدرد؛ ثم اختصم عيينة بن حصن والأقرع بن حابس في دمه عند النبي بحنين فقُبلت الدية، ودعا النبي على محلّم ثلاثاً: اللهم لا تغفر لمحلّم."
+  en: "A detachment the Prophet sent before the conquest of Mecca to Idam, with Abu Qatada and Muhallim ibn Jaththama among its men; Amir ibn al-Adbat al-Ashja'i passed them and gave the greeting of Islam, but Muhallim attacked and killed him over an old grudge and took his camel and goods; Ibn Abi Hadrad says Qur'an 4:94 was revealed about them. At Hunayn Uyayna ibn Hisn and al-Aqra' ibn Habis disputed the blood before the Prophet until blood-money was accepted, and the Prophet prayed three times: 'O God, do not forgive Muhallim'."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions, laws-of-war-and-peace, law-and-courts]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: violence
+date:
+  start: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: debated, note: "«وكانت قبل الفتح» عند ابن إسحاق؛ الخصومة في الدم بحنين سنة 8هـ؛ السنة غير منصوصة (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/idam, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "بعث السرية وقضى بالدية ودعا على القاتل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-abi-hadrad, role: "من السرية وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhallim-ibn-jaththama, role: "قاتل عامر بن الأضبط", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/amir-ibn-al-adbat-al-ashjai, role: "المقتول بعد تحية الإسلام", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/uyayna-ibn-hisn, role: "طلب بدم عامر وهو رئيس غطفان يومئذ", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-aqra-ibn-habis, role: "دفع عن محلّم لمكانه من خندف", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-hasan-al-basri, role: "راوي خبر لفظ الأرض لمحلّم", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 275-277", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 275-277" }

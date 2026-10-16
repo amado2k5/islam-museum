@@ -12,6 +12,9 @@ regions: [arabia]
 date:
   start: { edtf: "0631-04", hijri: "0009-04", calendar: julian, precision: month, status: tradition, sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: caused_by, target: event/expedition-of-dhu-qarad, note: "طلب علقمة البعث ثأراً لأخيه وقاص المقتول يوم ذي قرد، عند ابن هشام", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-said-al-khudri, role: "كان في الجيش وراوي الخبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abdullah-ibn-hudhafa-al-sahmi, role: "استُعمل على طائفة من الجيش؛ صاحب دعابة النار", sources: [source/ibn-hisham-saqqa] }
   - { type: had_participant, target: person/muhammad, role: dispatched-the-detachment, sources: [source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/alqama-ibn-mujazziz, role: raid-commander, sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
@@ -20,5 +23,5 @@ sides:
     participants: [group/early-muslims]
     commanders: [person/alqama-ibn-mujazziz]
   - label: { en: "Abyssinian raiders", ar: "رجال من الحبشة متجمّعون للقرصنة" }
-sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum p. 426" }

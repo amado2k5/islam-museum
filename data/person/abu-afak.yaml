@@ -1,0 +1,24 @@
+id: person/abu-afak
+class: person
+label: { ar: "أبو عفك", en: "Abu Afak" }
+names:
+  - { kind: kunya, lang: ar, value: "أبو عفك" }
+gender: male
+roles: [poet]
+summary:
+  ar: "شيخ من بني عمرو بن عوف ثم من بني عبيدة من الأوس؛ يقول ابن إسحاق إن نفاقه ظهر حين قُتل الحارث بن سويد بن الصامت فقال شعراً يذم فيه راكباً فرّق جمع أولاد قيلة، فقال النبي: من لي بهذا الخبيث؟ فقتله سالم بن عمير؛ وفي بيتي أمامة المزيرية إشارة إلى كبر سنه."
+  en: "An old man of Banu Amr ibn Awf, then of Banu Ubayda, of al-Aws; Ibn Ishaq says his hypocrisy became open when al-Harith ibn Suwayd ibn al-Samit was killed, and he composed verses reviling a rider who had split the unity of the sons of Qayla; the Prophet said 'who will deal with this wretch for me?' and Salim ibn Umayr killed him; Umama al-Muzayriyya's verses allude to his great age."
+wings: [people]
+themes: [dissent-heresy-freethought, literature]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, status: tradition, note: "«نجم نفاقه» وقال شعراً في ذم النبي عند ابن إسحاق؛ ووصف «الخبيث» منسوب إلى قول النبي في الرواية", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "0625~", hijri: "0003~", calendar: julian, precision: year, status: debated, note: "قُتل بعد مقتل الحارث بن سويد؛ السنة غير منصوصة (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-amr-ibn-awf, note: "ثم من بني عبيدة", sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/abu-afak-verses-against-the-prophet, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/killing-of-abu-afak, role: "المقتول", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 284-285", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 284-285; Tier A" }

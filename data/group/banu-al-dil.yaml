@@ -11,6 +11,7 @@ periods: [period/prophetic-era]
 regions: [arabia]
 made: { by_muslims: false, basis: unverified }
 relations:
+  - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "الشيخ الأعور المقتول في كهف ضجنان منهم", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: group/banu-bakr, note: "بطن من بني بكر بن عبد مناف بن كنانة.", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/khuzaa-bakr-clash-al-watir, role: raiding-party, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 31–32", generated_by: "Devin", run: "ibn-hisham-batch-1a" }

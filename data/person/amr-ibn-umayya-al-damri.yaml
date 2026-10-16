@@ -19,7 +19,8 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0625~" }, note: "صحابي وسفير النبي." }
 relations:
+  - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "المبعوث لقتل أبي سفيان؛ راوي الخبر", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh, note: "حليف قريش من كنانة" }
   - { type: participated_in, target: event/incident-of-bir-mauna, role: "الناجي الذي حمل الخبر إلى المدينة", sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-sira, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 294, 352" }

@@ -1,0 +1,42 @@
+id: event/killing-of-asma-bint-marwan
+class: event
+kind: death
+label: { ar: "غزوة عمير بن عدي الخطمي لقتل عصماء بنت مروان", en: "Umayr ibn Adi al-Khatmi's mission to kill Asma' bint Marwan" }
+summary:
+  ar: "يروي ابن إسحاق عن عبد الله بن الحارث بن الفضيل عن أبيه أن عصماء بنت مروان، من بني أمية بن زيد وكانت تحت يزيد بن زيد الخطمي، نافقت بعد قتل أبي عفك وقالت شعراً تعيب فيه الإسلام وأهله وتحرّض على النبي، فأجابها حسان بن ثابت؛ فقال النبي حين بلغه: ألا آخذ لي من ابنة مروان؟ فسمعه عمير بن عدي الخطمي فسرى عليها في بيتها ليلاً فقتلها، فقال له النبي: نصرت الله ورسوله يا عمير، ولا ينتطح فيها عنزان؛ ويقول ابن إسحاق إن ذلك اليوم كان أول ما عزّ الإسلام في دار بني خطمة."
+  en: "Ibn Ishaq relates from Abdullah ibn al-Harith ibn al-Fudayl from his father that Asma' bint Marwan, of Banu Umayya ibn Zayd and married to Yazid ibn Zayd of Banu Khatma, showed hypocrisy after Abu Afak's killing and composed verses reviling Islam and its people and inciting against the Prophet, which Hassan ibn Thabit answered; when it reached the Prophet he said 'is there no one to deal with the daughter of Marwan for me?' Umayr ibn Adi al-Khatmi heard him, went to her house that night and killed her, and the Prophet told him 'you have helped God and His Messenger, Umayr', and that no two goats would butt heads over her. Ibn Ishaq says that day was the first on which Islam became strong among Banu Khatma."
+wings: [time, people]
+themes: [dissent-heresy-freethought, literature, women, laws-of-war-and-peace]
+periods: [period/prophetic-era]
+regions: [arabia]
+sensitivity: violence
+date:
+  start: { edtf: "0625~", hijri: "0003~", calendar: julian, precision: year, status: debated, note: "«فلما قُتل أبو عفك نافقت» عند ابن إسحاق؛ أصحاب المغازي المتأخرون يضعونها في رمضان سنة 2هـ (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "قال: ألا آخذ لي من ابنة مروان؟ ثم: نصرت الله ورسوله", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/asma-bint-marwan, role: "المقتولة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/umayr-ibn-adi-al-khatmi, role: "القاتل", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/hassan-ibn-thabit, role: "أجاب شعرها", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-khatma, role: "قوم القاتل وزوجها؛ عزّ الإسلام فيهم يومئذ", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: group/banu-umayya-ibn-zayd, role: "قوم عصماء", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+issue: { ar: "كيف يُقرأ قتل عصماء بنت مروان بسبب شعرها؟", en: "How is the killing of Asma' bint Marwan for her verses to be read?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-ibn-ishaq
+    stance: { ar: "خبر مغازٍ يُروى بإسناد قصير وبلا تعليق" }
+    summary: { ar: "يرويه ابن إسحاق عن عبد الله بن الحارث بن الفضيل عن أبيه: شعرها عيب للإسلام وتحريض على النبي بعد قتل أبي عفك، فقتلها عمير وأقرّه النبي وقال: لا ينتطح فيها عنزان؛ ويجعل ابن إسحاق ثمرة الخبر عزّ الإسلام في بني خطمة وإسلام رجال منهم." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: sunni-later
+    stance: { ar: "تضعيف الخبر أو تعليله عند المتأخرين" }
+    summary: { ar: "يضعّف كثير من علماء السنة المتأخرين الخبر لضعف طرقه في كتب المغازي، أو يعلّلونه بأن شعرها كان تحريضاً صريحاً على قتل النبي في حال حرب؛ المراجع المحددة لم تُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    id: academic
+    summary: { ar: "تناقش الدراسات الحديثة صحة الخبر ودلالته على موقف المدينة المبكرة من الهجاء ومن النساء الشاعرات، وتختلف فيه اختلافاً كبيراً؛ مرجع أكاديمي محدد لم يُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 285-287", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 285-287; Tier A" }

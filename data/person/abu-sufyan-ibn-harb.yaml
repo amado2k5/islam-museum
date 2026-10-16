@@ -25,6 +25,7 @@ faith:
   - { value: arabian-polytheism, basis: documented, end: { edtf: "0630" }, note: "Leader of Mecca's traditional order through the war years.", sources: [source/watt-1956-medina] }
   - { value: sunni, basis: tradition, start: { edtf: "0630" }, note: "Late convert; the sincerity of the conversion is debated by historians, while the tradition counts him among the companions.", sources: [source/ibn-sad-tabaqat-bewley] }
 relations:
+  - { type: participated_in, target: event/mission-of-amr-ibn-umayya-against-abu-sufyan, role: "المقصود بالقتل؛ لم يُصل إليه", sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/mecca }
   - { type: child_of, target: person/harb-ibn-umayya }
   - { type: member_of, target: group/banu-umayya }
@@ -51,6 +52,6 @@ perspectives:
     id: shia-twelver
     summary: { en: "Twelver Shia tradition remembers him through his son Mu'awiya's war against Ali and regards the late conversion with deep suspicion.", ar: "أما التراث الشيعي الاثني عشري فيذكره من خلال حرب ابنه معاوية على علي، وينظر إلى إسلامه المتأخر بشك عميق." }
     sources: [source/momen-1985]
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa]
 sensitivity: contested
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

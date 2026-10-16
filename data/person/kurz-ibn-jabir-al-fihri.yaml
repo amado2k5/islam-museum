@@ -18,6 +18,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "صحابي شهيد يوم الفتح." }
 relations:
+  - { type: participated_in, target: event/sariyya-of-kurz-ibn-jabir-against-the-killers-of-yasar, role: "أمير الطلب؛ لحق القوم وأتى بهم", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh }
   - { type: participated_in, target: event/khandama-skirmish, role: fallen-fighter, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 50", generated_by: "Devin", run: "ibn-hisham-batch-1b" }

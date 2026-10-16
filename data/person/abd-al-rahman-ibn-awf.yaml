@@ -17,8 +17,9 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
+  - { type: participated_in, target: event/sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal, role: "أمير السرية؛ عمّمه النبي بيده ودفع إليه اللواء", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh }
   - { type: member_of, target: group/banu-zuhra }
   - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "أسلم بدعوة أبي بكر", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 75-76" }

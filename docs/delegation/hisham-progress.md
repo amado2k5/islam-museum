@@ -83,6 +83,10 @@
 - event/musaylimas-letter-and-the-prophets-reply: the reply's wording and Ibn Hisham's transmission.
 - event/complaint-against-ali-after-yemen: perspectives (Sunni reading of the soldiers' complaint vs the Twelver reading as prelude to Ghadir), both marked needs_source for the second voice.
 
+- Batch 14 (السرايا ٢ pp. 275-291), on main with this commit: events raid-of-ibn-abi-hadrad-on-batn-idam (Muhallim kills Amir ibn al-Adbat after the greeting; blood-money at Hunayn; the prayer against Muhallim), raid-of-ibn-abi-hadrad-on-al-ghaba (Rifa'a ibn Qays and the thirteen camels), sariyya-of-abd-al-rahman-ibn-awf-to-dumat-al-jandal (the turban, the five afflictions, the banner charge), sariyya-of-abu-ubayda-to-sif-al-bahr (the dates and the sea creature), mission-of-amr-ibn-umayya-against-abu-sufyan (Ibn Hisham's addition), sariyya-of-zayd-to-madyan, killing-of-abu-afak [Tier A], killing-of-asma-bint-marwan [Tier A], capture-and-islam-of-thumama-ibn-uthal, sariyya-of-kurz-ibn-jabir-against-the-killers-of-yasar [Tier A], ali-expeditions-to-yemen; works hadith-of-the-five-afflictions, Abu Afak's and Asma's verses, Hassan's reply; places al-Salsal, Idam, al-Ghaba; groups Juhayna, Banu Umayya ibn Zayd and Banu Khatma extended; saraya dataset complete at 38 rows.
+  - Repair: group/banu-khatma was added on main by the geography lane; this batch adds to that file and does not replace it.
+  - Cite check on this machine reports 287 problems in other lanes' citations to books whose extracted pages are absent; none are in ibn-hisham-saqqa.
+
 ## Doubt markers, batch 13 (pp. 257-274)
 
 - p257 saraya list: «في نسختين ثنية ذي المروة» (editors: corruption), «وبعض الناس يقدم غزوة حمزة»; p260 «قال ابن هشام والشافعي: من أرض حسمى» for Judham's land; p260-261 vowelling of al-Dula' and the archer's name (editors' notes); p261 «قال ابن هشام: ويقال حيان بن ملة».

@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: participated_in, target: event/sariyya-of-alqama-to-jeddah, role: "استُعمل على طائفة من الجيش؛ أمرهم مازحاً أن يثبوا في النار", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-sahm, sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
   - { type: participated_in, target: event/return-of-abyssinian-emigrants, role: emigrant, sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }
   - { type: corresponded_with, target: person/khosrow-ii, note: "رسول النبي إليه بحسب ابن إسحاق", sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407] }

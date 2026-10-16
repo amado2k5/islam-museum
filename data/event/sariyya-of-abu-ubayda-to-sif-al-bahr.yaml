@@ -1,0 +1,21 @@
+id: event/sariyya-of-abu-ubayda-to-sif-al-bahr
+class: event
+kind: raid
+label: { ar: "سرية أبي عبيدة بن الجراح إلى سيف البحر (غزوة الخبط)", en: "Abu Ubayda ibn al-Jarrah's detachment to the sea coast (the Khabat raid)" }
+summary:
+  ar: "سرية بعثها النبي إلى سيف البحر عليها أبو عبيدة بن الجراح وزوّدهم جراباً من تمر؛ يرويها عبادة بن الصامت: قوّتهم أبو عبيدة التمر حتى صار يعطي كل رجل تمرة في اليوم، فلما جهدهم الجوع أخرج الله لهم دابة من البحر فأكلوا من لحمها وودكها عشرين ليلة حتى سمنوا، ورفع أميرهم ضلعاً من أضلاعها فمرّ تحتها أجسم رجل على أجسم بعير؛ فلما سألوا النبي عن أكلهم قال: رزق رزقكموه الله."
+  en: "A detachment the Prophet sent to the sea coast under Abu Ubayda ibn al-Jarrah, provisioned with a single bag of dates; Ubada ibn al-Samit tells it: Abu Ubayda rationed the dates until each man received one a day, and when hunger wore them down God brought out for them a sea creature on whose flesh and fat they lived twenty nights until they grew fat; the commander propped up one of its ribs and the tallest man on the biggest camel passed beneath it. When they asked the Prophet about having eaten it he said: a provision God provided you."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions, water-and-animals, environment-and-climate]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0629~", hijri: "0008~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن إسحاق؛ أصحاب المغازي يضعونها في رجب سنة 8هـ (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: had_participant, target: person/muhammad, role: "بعث السرية وزوّدها وأجاز أكل الدابة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "أمير السرية؛ قسم التمر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/ubada-ibn-al-samit, role: "راوي الخبر", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 281", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 281; distinct from event/expedition-of-sif-al-bahr (Hamza, 1 AH)" }

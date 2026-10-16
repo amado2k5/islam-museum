@@ -1,0 +1,25 @@
+id: person/asma-bint-marwan
+class: person
+label: { ar: "عصماء بنت مروان", en: "Asma' bint Marwan" }
+names:
+  - { kind: full, lang: ar, value: "عصماء بنت مروان" }
+  - { kind: alternate, lang: ar, value: "أسماء بنت مروان" }
+gender: female
+roles: [poet]
+summary:
+  ar: "امرأة من بني أمية بن زيد كانت تحت يزيد بن زيد الخطمي ولها خمسة بنين رجال؛ يقول ابن إسحاق إنها نافقت بعد قتل أبي عفك وقالت شعراً تعيب الإسلام وأهله وتحرّض على النبي، فأجابها حسان، وقتلها عمير بن عدي الخطمي ليلاً في بيتها بعد قول النبي: ألا آخذ لي من ابنة مروان؟"
+  en: "A woman of Banu Umayya ibn Zayd married to Yazid ibn Zayd of Banu Khatma, with five grown sons; Ibn Ishaq says she showed hypocrisy after Abu Afak's killing and composed verses reviling Islam and its people and inciting against the Prophet, which Hassan answered; Umayr ibn Adi al-Khatmi killed her at night in her house after the Prophet said 'is there no one to deal with the daughter of Marwan for me?'"
+wings: [people]
+themes: [dissent-heresy-freethought, literature, women]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, toward: person/muhammad, status: tradition, note: "«نافقت» وقالت شعراً تعيب الإسلام وتحرّض على النبي، عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+died: { edtf: "0625~", hijri: "0003~", calendar: julian, precision: year, status: debated, note: "قُتلت بعد أبي عفك؛ السنة غير منصوصة (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: member_of, target: group/banu-umayya-ibn-zayd, sources: [source/ibn-hisham-saqqa] }
+  - { type: authored, target: work/asma-bint-marwan-verses-against-the-ansar, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/killing-of-asma-bint-marwan, role: "المقتولة", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 285-287", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 pp. 285-287; Tier A" }

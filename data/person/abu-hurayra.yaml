@@ -23,6 +23,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "Early Muslim; recorded under the museum's Sunni frame (docs/scope.md)." }
 relations:
+  - { type: participated_in, target: event/capture-and-islam-of-thumama-ibn-uthal, role: "راوي الخبر عند ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
   - { type: died_in, target: place/medina }
   - { type: member_of, target: group/early-muslims }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0629~" }, sources: [source/ibn-sad-tabaqat-bewley] }
@@ -42,5 +43,5 @@ perspectives:
     summary: { en: "Twelver Shia tradition is cautious about Abu Hurayra, accepting his narrations selectively and regarding some as serving later Umayyad interests.", ar: "يتحفظ التراث الإمامي عن أبي هريرة، فيقبل رواياته انتقاءً ويرى بعضها في خدمة مصالح أموية لاحقة." }
     sources: [source/momen-1985]
 sensitivity: contested
-sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/sahih-al-bukhari, source/sahih-muslim]
+sources: [source/ibn-sad-tabaqat-bewley, source/watt-1956-medina, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }

@@ -20,6 +20,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630~" }, note: "أسلم عام الفتح/حنين." }
 relations:
+  - { type: participated_in, target: event/raid-of-ibn-abi-hadrad-on-batn-idam, role: "دفع عن محلّم لمكانه من خندف، ثم حمل قيساً على قبول الدية", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/sariyya-of-uyayna-to-banu-tamim, role: "من وفد تميم الثمانية الذين كلّموا النبي في سبي بني العنبر", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-tamim }
   - { type: member_of, target: group/banu-darim, sources: [source/ibn-hisham-saqqa] }

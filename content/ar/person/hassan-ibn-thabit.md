@@ -12,3 +12,6 @@ translators: []
 
 ## في وفد بني تميم وأشعار سنة الوفود
 يروي ابن إسحاق أن حساناً كان غائباً حين فاخر [[event/delegation-of-banu-tamim|وفد بني تميم]] النبي، فبعث إليه النبي، وقال حسان إن رسوله أخبره أنه دُعي ليجيب شاعر بني تميم، فأنشأ أبياتاً في طريقه، ثم أمره النبي أن يقوم فيجيب الزبرقان، فأنشد [[work/hassan-reply-to-zibriqan|قصيدته «إن الذوائب من فهر وإخوتهم»]]، فحكم الأقرع بن حابس أن شاعر المسلمين أشعر من شاعرهم. {cite:ibn-hisham-saqqa 4/209} {cite:ibn-hisham-saqqa 4/212} ويروي ابن هشام له [[work/hassan-second-reply-to-zibriqan|جواباً آخر]] على أبيات أخرى للزبرقان. {cite:ibn-hisham-saqqa 4/211} وفي ختام باب براءة يورد ابن إسحاق له [[work/hassan-poem-enumerating-the-maghazi|قصيدة في تعداد أيام الأنصار مع النبي]]، وقال ابن هشام إنها تُروى لابنه عبد الرحمن، ثم [[work/hassan-poem-kunna-muluk-al-nas|قصيدة «كنا ملوك الناس قبل محمد»]] و[[work/hassan-poem-qawmi-ulaika|قصيدة «قومي أولئك إن تسألي كرام»]]. {cite:ibn-hisham-saqqa 4/199} {cite:ibn-hisham-saqqa 4/201} {cite:ibn-hisham-saqqa 4/202}
+
+## جوابه على عصماء بنت مروان
+يروي ابن إسحاق أن عصماء بنت مروان قالت شعراً تعيب فيه الإسلام وأهله وتحرّض على النبي، فأجابها حسان بأبيات يجعل فيها بني وائل وواقفاً وخطمة دون بني الخزرج ويصف مقتلها؛ انظر [[work/hassan-reply-to-asma-bint-marwan|الجواب]] و[[event/killing-of-asma-bint-marwan|الخبر]]. {cite:ibn-hisham-saqqa 4/286}

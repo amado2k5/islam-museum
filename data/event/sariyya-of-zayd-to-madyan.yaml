@@ -1,0 +1,22 @@
+id: event/sariyya-of-zayd-to-madyan
+class: event
+kind: raid
+label: { ar: "سرية زيد بن حارثة إلى مدين وقصة السبي", en: "Zayd ibn Haritha's detachment to Madyan and the captives" }
+summary:
+  ar: "يرويها ابن هشام عن عبد الله بن حسن بن حسن عن أمه فاطمة بنت الحسين: بعث النبي زيد بن حارثة نحو مدين ومعه ضميرة مولى علي بن أبي طالب وأخ له، فأصاب سبياً من أهل ميناء وهي السواحل، فبيعوا وفُرّق بينهم، فخرج النبي وهم يبكون فسأل عنهم فقيل: فُرّق بينهم، فقال: لا تبيعوهم إلا جميعاً؛ قال ابن هشام: أراد الأمهات والأولاد."
+  en: "Ibn Hisham tells it from Abdullah ibn Hasan ibn Hasan from his mother Fatima bint al-Husayn: the Prophet sent Zayd ibn Haritha towards Madyan with Dumayra, the client of Ali ibn Abi Talib, and a brother of his; he took captives from the people of Mina', the coasts, who were sold and separated; the Prophet came out as they wept, asked what ailed them, was told they had been separated, and said: sell them only together. Ibn Hisham: he meant mothers and children."
+wings: [time, people]
+themes: [skirmishes-raids-expeditions, slavery-and-freedom, family-marriage-kinship]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0628~", hijri: "0006~", calendar: julian, precision: year, status: debated, note: "لا يؤرّخها ابن هشام (needs_source).", sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: occurred_at, target: place/madyan, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/muhammad, role: "نهى عن التفريق في البيع", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "أمير السرية", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/dumayra-mawla-ali, role: "خرج مع زيد هو وأخوه", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: period/prophetic-era }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 284", generated_by: "Claude Code", model: "claude-fable-5-1", run: "ibn-hisham-batch-14" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Fable 5.1; mined from Ibn Hisham juz' 4 p. 284" }
