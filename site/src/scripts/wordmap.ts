@@ -1,6 +1,6 @@
 // WordMap client: form expansion → collocation/occurrence detail panel + quiz mode.
 // Progressive enhancement over the static SVG + no-JS fallback list.
-interface Ref { s: number; a: number; t: string; name: string }
+interface Ref { s: number; a: number; t: string; name: string; slug?: string }
 interface Payload {
   slug: string; word: string; total: number; lang: string;
   forms: { form: string; count: number; refs: Ref[] }[];
@@ -27,8 +27,10 @@ function init(root: HTMLElement) {
 
   // Click a form node → show its collocations + sample occurrences.
   const refList = (refs: Ref[]) =>
-    `<ul>${refs.slice(0, 12).map((r) =>
-      `<li><b>${r.name} ${r.a}</b> — <span lang="ar" dir="rtl">${r.t}</span></li>`).join("")}</ul>` +
+    `<ul>${refs.slice(0, 12).map((r) => {
+      const label = `<b>${r.name} ${r.a}</b>`;
+      const linked = r.slug ? `<a href="/${lang}/surah/${r.slug}/">${label}</a>` : label;
+      return `<li>${linked} — <span lang="ar" dir="rtl">${r.t}</span></li>`; }).join("")}</ul>` +
     (refs.length > 12 ? `<p>… +${refs.length - 12}</p>` : "");
 
   root.querySelectorAll(".wm-form").forEach((g) => {
@@ -69,7 +71,10 @@ function init(root: HTMLElement) {
       b.textContent = o;
       b.addEventListener("click", () => {
         rounds++;
-        if (o === correct) { score++; b.style.borderColor = "green"; } else b.style.borderColor = "red";
+        const correctBtn = [...qopts.children].find(
+          (c) => (c as HTMLButtonElement).textContent === correct) as HTMLButtonElement | undefined;
+        if (o === correct) { score++; b.classList.add("q-correct"); }
+        else { b.classList.add("q-wrong"); correctBtn?.classList.add("q-correct"); }
         qscore.textContent = `${score} / ${rounds}`;
         [...qopts.children].forEach((c) => ((c as HTMLButtonElement).disabled = true));
       });

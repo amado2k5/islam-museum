@@ -11,7 +11,7 @@ const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
   <div class="chal-head">
     <div class="chal-progress"><div class="chal-bar" data-bar style="width:0%"></div></div>
     <span class="ui" data-pct>0%</span>
-    <button data-reset class="ui reset">{t.reset}</button>
+    <button data-reset data-confirm={t.reset_confirm} class="ui reset">{t.reset}</button>
   </div>
   {ch.note && <p class="note">{L(ch.note)}</p>}
   <div class="chal-grid" role="table" aria-label={L(ch.title)}>
@@ -45,6 +45,7 @@ const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
 .chal-progress { flex: 1; height: 8px; background: #1d3a6e33; border-radius: 4px; }
 .chal-bar { height: 100%; background: #c9a227; border-radius: 4px; transition: width .3s; }
 .reset { background: none; border: 1px solid currentColor; border-radius: 8px; padding: 4px 12px; cursor: pointer; }
+.reset[data-armed="true"] { border-color: #b3261e; color: #b3261e; font-weight: 700; }
 .note { border-inline-start: 3px solid #c9a227; padding-inline-start: 10px; }
 .chal-grid { display: inline-block; min-width: 100%; }
 .chal-row { display: flex; align-items: center; }

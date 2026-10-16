@@ -3,6 +3,7 @@
 // Static SVG + full no-JS fallback list; client script (site/src/scripts/wordmap.ts) adds expansion + quiz.
 import type { WordMapFile } from "../lib/wordmap";
 import { byId, labelOf } from "../lib/graph";
+import { surahSlug } from "../lib/surah-maps";
 import type { Lang } from "../lib/i18n";
 
 interface Props { map: WordMapFile; lang: Lang; t: Record<string, string> }
@@ -63,9 +64,11 @@ const surahName = (s: number) => {
       <details>
         <summary><b>{f.form}</b> — {f.count} {t.occurrences}</summary>
         <ul>
-          {f.refs.map((r) => (
-            <li><a href={`/${lang}/surah/`}>{surahName(r.s)} {r.a}</a> — <span lang="ar">{r.t}</span></li>
-          ))}
+          {f.refs.map((r) => { const slug = surahSlug(r.s); return (
+            <li>{slug
+              ? <a href={`/${lang}/surah/${slug}/`}>{surahName(r.s)} {r.a}</a>
+              : <b>{surahName(r.s)} {r.a}</b>} — <span lang="ar">{r.t}</span></li>
+          ); })}
         </ul>
       </details>
     ))}
@@ -80,9 +83,9 @@ const surahName = (s: number) => {
   <script type="application/json" data-payload set:html={JSON.stringify({
     slug: map.slug, word: map.word, total: map.total,
     forms: map.forms.map((f) => ({ form: f.form, count: f.count,
-      refs: f.refs.map((r) => ({ s: r.s, a: r.a, t: r.t, name: surahName(r.s) })) })),
+      refs: f.refs.map((r) => ({ s: r.s, a: r.a, t: r.t, name: surahName(r.s), slug: surahSlug(r.s) })) })),
     collocations: map.collocations.map((c) => ({ after: c.after, phrase: c.phrase, count: c.count,
-      refs: c.refs.map((r) => ({ s: r.s, a: r.a, t: r.t, name: surahName(r.s) })) })),
+      refs: c.refs.map((r) => ({ s: r.s, a: r.a, t: r.t, name: surahName(r.s), slug: surahSlug(r.s) })) })),
     lang,
   })} />
 </div>
@@ -105,5 +108,9 @@ const surahName = (s: number) => {
 .wm-toolbar { margin-top: 10px; display: flex; gap: 8px; }
 .wm-fallback { margin-top: 18px; }
 .wm-fallback details { margin-bottom: 6px; }
-.wm-opts button { display: block; margin: 6px 0; }
+.wm-opts button { display: block; margin: 6px 0; border: 2px solid #c9a22755; background: transparent;
+  color: inherit; border-radius: 8px; padding: 8px 14px; cursor: pointer; font-size: 1rem; }
+.wm-opts button:disabled { cursor: default; }
+.wm-opts button.q-correct { border-color: #2e7d32; background: #2e7d3326; }
+.wm-opts button.q-wrong { border-color: #c62828; background: #c6282826; }
 </style>
