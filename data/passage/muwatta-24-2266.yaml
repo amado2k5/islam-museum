@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2266"
-label: { ar: "الموطأ 2266", en: "Muwatta 2266" }
+label: { ar: "الموطأ 2266 — نافع عن ابن عمر: عائشة تشتري جارية لتعتقها", en: "Muwatta 2266" }
 summary:
-  ar: "مالك عن نافع عن عبد الله بن عمر: أن عائشة أم المؤمنين أرادت أن تشتري... ؛ قصة شراء عائشة للعتق؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن عائشة أرادت شراء جارية لتعتقها، فاشترط أهلها أن يكون ولاؤها لهم، فأخبرت النبي، فقال: لا يمنعك ذلك، فإنما الولاء لمن أعتق. {cite:muwatta-maruf-1997 p.335}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2266 of kitab 24-itq at PDF p. 335", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-98a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2266 at PDF p. 335; مصير الولاء لمن أعتق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b69" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 335; matn excerpt at most 40 words" }

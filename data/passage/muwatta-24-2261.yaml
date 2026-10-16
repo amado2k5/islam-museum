@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2261"
-label: { ar: "الموطأ 2261", en: "Muwatta 2261" }
+label: { ar: "الموطأ 2261 — عبد الرحمن بن أبي عمرة: عتق الابن عن أمه", en: "Muwatta 2261" }
 summary:
-  ar: "مالك عن عبد الرحمن بن أبي عمرة الأنصاري: أن أمه أرادت أن توصي ثم أخرت ذلك... ؛ قصة وصية لم تكتمل؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن عبد الرحمن بن أبي عمرة الأنصاري أن أمه همت بالعتق ثم هلكت قبل أن تفعل، فسأل القاسم بن محمد هل ينفعها أن يعتق ابنها عنها، فذكر القاسم حديث سعد بن عبادة في ذلك، فأجاب النبي بالإيجاب. وينقل المحقق عن ابن عبد البر أن الإسناد منقطع لأن القاسم لم يلق سعدا، وأن القصة مروية من وجوه كثيرة في الصدقة والعتق والصيام. {cite:muwatta-maruf-1997 p.332}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2261 of kitab 24-itq at PDF p. 332", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-98a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-abi-amra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sad-ibn-ubada, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2261 at PDF p. 332; عتق الحي عن الميت", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b69" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 332; matn excerpt at most 40 words" }

@@ -1,0 +1,16 @@
+id: passage/muwatta-24-2273
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "24.2273"
+label: { ar: "الموطأ 2273 — مالك: الملاعنة من العرب وولدها إذا اعترف به زوجها", en: "Muwatta 2273" }
+summary:
+  ar: "قال مالك: وكذلك المرأة الملاعنة من العرب، إذا اعترف زوجها بولدها صار إلى هذه المنزلة، إلا أن بقية ميراثه بعد ميراث أمه وإخوته لأمه لعامة المسلمين ما لم يلحق بأبيه، وإنما ورث موالي أمه قبل أن يعترف به أبوه لأنه لم يكن له نسب ولا عصبة. {cite:muwatta-maruf-1997 p.337} {cite:muwatta-maruf-1997 p.338}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-24-itq }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/lian, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2273 at PDF p. 337; جر العبد الولاء إذا أعتق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b69" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 337; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2272"
-label: { ar: "الموطأ 2272", en: "Muwatta 2272" }
+label: { ar: "الموطأ 2272 — مالك: ولد الملاعنة ينسب إلى موالي أمه", en: "Muwatta 2272" }
 summary:
-  ar: "مالك: ومثل ذلك ولد الملاعنة من الموالي، ينسب إلى موالي أمه، فيكونون هم موالي... ؛ ولاء ولد الملاعنة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ولد الملاعنة من الموالي ينسب إلى موالي أمه، فيرثونه ويعقلون عنه إن جنى. فإن اعترف به أبوه ألحق به، وصار ولاؤه لموالي أبيه، وصار ميراثه لهم وعقله عليهم، ويُجلد أبوه الحد. {cite:muwatta-maruf-1997 p.337}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2272 of kitab 24-itq at PDF p. 337", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-98a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/lian, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2272 at PDF p. 337; جر العبد الولاء إذا أعتق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b69" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 337; matn excerpt at most 40 words" }
