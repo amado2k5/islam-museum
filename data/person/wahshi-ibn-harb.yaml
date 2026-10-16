@@ -10,7 +10,7 @@ roles: []
 traditions: []
 summary:
   en: "An Abyssinian slave famous for his javelin: promised his freedom for killing Hamza at Uhud, he later became a Muslim and, in the tradition's account, also killed the false prophet Musaylima at Yamama."
-  ar: "عبد حبشي اشتهر بحربته: وُعد بالحرية على قتل حمزة بأحد، ثم أسلم وفي رواية التراث قتل مسيلمة الكذاب باليمامة."
+  ar: "عبد حبشي اشتهر بحربته: وُعد بالحرية على قتل حمزة بأحد، ثم أسلم وفي رواية التراث قتل مسيلمة الكذاب باليمامة. وفي الصحيح أخبر بنفسه لجعفر بن عمرو الضمري بحمص كيف كمن لحمزة تحت صخرة فرماه بحربته، وذلك لوعد مولاه جبير بن مطعم إياه الحرية على قتل حمزة بعمه طعيمة بن عدي {cite:sahih-al-bukhari 4072}."
 wings: [people]
 themes: [battles, slavery-and-freedom, converts-and-leavers]
 periods: [period/prophetic-era, period/rashidun]
@@ -27,5 +27,5 @@ relations:
   - { type: participated_in, target: event/battle-of-uhud, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/battle-of-yamama, role: muslim-side, sources: [source/ibn-sad-tabaqat-bewley] }
   - { type: fought, target: person/musaylima, start: { edtf: "0632" }, end: { edtf: "0632" }, note: "The tradition attributes Musaylima's death to his javelin.", sources: [source/ibn-sad-tabaqat-bewley] }
-sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993]
+sources: [source/ibn-ishaq-guillaume, source/ibn-sad-tabaqat-bewley, source/tabari-donner-1993, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
