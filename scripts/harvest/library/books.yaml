@@ -1,3 +1,4 @@
+# cat fatwa: prominent Sunni fatwa and responsa collections (only items verified on archive.org with Arabic titles are listed).
 # Canon of prominent Sunni books to locate as reference copies (docs/plan/15 layer: copyrighted-reference / pd).
 # t = title, a = author, d = death year AH (null = modern), k = tokens that must ALL appear in the item's title+creator
 # (normalised Arabic; "x|y" = either). cat: hadith, hadith-sciences, rijal, sunnah-aqeedah, aqeedah, tafsir, quran-sciences,
@@ -209,6 +210,17 @@ books:
 - {id: irshad-fuhul, cat: usul, t: إرشاد الفحول إلى تحقيق الحق من علم الأصول, a: الشوكاني, d: 1250, k: [ارشاد, الفحول]}
 - {id: ahkam-sultaniyya, cat: fiqh, t: الأحكام السلطانية, a: الماوردي, d: 450, k: [الاحكام, السلطانيه, الماوردي]}
 - {id: kitab-kharaj, cat: fiqh, t: كتاب الخراج, a: أبو يوسف, d: 182, k: [الخراج, "يوسف"]}
+# ---- fatwa and responsa (Arabic titles found on archive.org; the rest of the well-known collections are not catalogued there under Arabic titles)
+- {id: fatawa-hadithiyya, cat: fatwa, t: الفتاوى الحديثية, a: ابن حجر الهيتمي, d: 974, k: [الفتاوي, الحديثيه]}
+- {id: fatawa-subki, cat: fatwa, t: فتاوى السبكي, a: تقي الدين السبكي, d: 756, k: [فتاوي, السبكي]}
+- {id: fatawa-ibn-salah, cat: fatwa, t: فتاوى ابن الصلاح, a: ابن الصلاح, d: 643, k: [فتاوي, الصلاح]}
+- {id: fatawa-khayriyya, cat: fatwa, t: الفتاوى الخيرية, a: خير الدين الرملي, d: 1081, k: [الفتاوي, الخيريه]}
+- {id: uqud-durriyya, cat: fatwa, t: العقود الدرية في تنقيح الفتاوى الحامدية, a: ابن عابدين, d: 1252, k: [العقود, الدريه]}
+- {id: fatawa-hindiyya, cat: fatwa, t: الفتاوى الهندية, a: نظام الدين البلخي وجماعة, d: null, k: [الفتاوي, "الهنديه|العالمكيريه"]}
+- {id: fatawa-ibn-rushd, cat: fatwa, t: فتاوى ابن رشد, a: ابن رشد الجد, d: 520, k: [فتاوي, رشد]}
+- {id: fatawa-ibn-hajar-asqalani, cat: fatwa, t: فتاوى ابن حجر العسقلاني, a: ابن حجر العسقلاني, d: 852, k: [فتاوي, حجر]}
+- {id: fatawa-ghazali, cat: fatwa, t: فتاوى الإمام الغزالي, a: الغزالي, d: 505, k: [فتاوي, الغزالي]}
+- {id: fatawa-azhar-qubur, cat: fatwa, t: فتاوى كبار علماء الأزهر الشريف, a: علماء الأزهر الشريف, d: null, k: [فتاوي, الازهر]}
 # ---- adab, zuhd, lugha
 - {id: zuhd-ahmad, cat: adab-zuhd, t: الزهد, a: أحمد بن حنبل, d: 241, k: [الزهد, احمد]}
 - {id: zuhd-ibn-mubarak, cat: adab-zuhd, t: الزهد والرقائق, a: عبد الله بن المبارك, d: 181, k: [الزهد, الرقايق|الرقائق, المبارك]}
