@@ -1,0 +1,27 @@
+id: event/offering-islam-to-the-tribes
+class: event
+kind: gathering
+label: { ar: "عرض الإسلام على القبائل في المواسم", en: "Offering Islam to the tribes at the pilgrim season" }
+summary:
+  ar: "في ذي القعدة من السنة العاشرة من البعثة عاد النبي إلى مكة ليعرض الإسلام على القبائل والأفراد في الموسم، فعرضه على بني كلب وبني حنيفة وبني عامر وغيرهم فلم يستجب منهم أحد، ومن الأفراد من أسلم بعد ذلك كسويد بن الصامت وإياس بن معاذ."
+  en: "In Dhu al-Qa'da of the tenth year of the mission the Prophet returned to Mecca to offer Islam to the tribes and individuals at the season; among the tribes he approached Banu Kalb, Banu Hanifa and Banu Amir, none of whom accepted, while some individuals, such as Suwayd ibn al-Samit and Iyas ibn Mu'adh, later embraced it."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0619-06~", calendar: julian, precision: month, status: tradition, note: "ذو القعدة من السنة العاشرة من البعثة (الرحيق ص130)." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: group/banu-kalb, role: "عُرض عليهم فلم يقبلوا", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/suwayd-ibn-samit, role: "أسلم بعد أن تلا عليه النبي القرآن", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/iyas-ibn-muadh, role: "عرض عليه النبي الإسلام ومات بعد ذلك", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص125–131 نقلاً عن ابن هشام 1/419–425 وزاد المعاد 2/46–47 ومختصر سيرة الرسول للنجدي ص141–149 ورحمة للعالمين 1/71–74 وصحيح البخاري 1/458 ومسلم"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-10a"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 130–132" }

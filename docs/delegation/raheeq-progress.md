@@ -22,7 +22,7 @@
 | 7 في ظلال النبوة / الدعوة السرية | 65–77 | **done**: 7a `10ff236c` (revelation, pause, modes of revelation, second revelation, the call's stages), 7b (the three-year secret call, early Muslims, Maz'un brothers, concept al-salat-qabl-al-isra; sections on the early Muslims' companions) |
 | 8 الدعوة جهاراً | 78–108 | **done**: 8a `a9955afe` (pp. 78–87), 8b `ee9a3948` (pp. 88–100), 8c (pp. 100–108: Hamza, Umar, Utba's offer, Abu Talib's gathering rewritten with page cites) |
 | 9 المقاطعة / عام الحزن | 109–124 | **done**: 9a `5960d545` (pp. 109–115: covenant, siege, nullification, last delegation), 9b (pp. 115–124: deaths of Abu Talib and Khadija, Year of Sorrow, Ibn al-Dughunna, Sawda, sources of steadfastness appended to concept sabr) |
-| 10 خارج مكة / الإسراء | 125–142 | pending |
+| 10 خارج مكة / الإسراء | 125–142 | in progress: 10a (pp. 125–131: the Ta'if journey, the jinn at Wadi Nakhla, offering Islam to the tribes; sections on Zayd, Mut'im, Suwayd, Iyas) applied; 10b (pp. 131–142: the rest of the tribes and individuals, the Night Journey) pending |
 | 11 بيعتا العقبة / دار الندوة | 143–160 | pending |
 | 12 الهجرة | 161–174 | pending |
 | 13 الحياة في المدينة / السرايا قبل بدر | 175–203 | pending |
