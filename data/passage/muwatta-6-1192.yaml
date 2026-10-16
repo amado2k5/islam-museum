@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1192"
-label: { ar: "الموطأ 1192", en: "Muwatta 1192" }
+label: { ar: "الموطأ 1192 — أسامة بن زيد: توضأ النبي بالشعب ولم يسبغ الوضوء، فقال الصلاة أمامك، ثم صلى المغرب والعشاء بالمزدلفة", en: "Muwatta 1192" }
+text: "الصَّلاةُ أمامَكَ"
 summary:
-  ar: "موسى بن عقبة عن كريب مولى ابن عباس عن أسامة بن زيد: أنه سمعه يقول... ؛ حديث في الإفاضة من عرفة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن موسى بن عقبة عن كريب مولى ابن عباس عن أسامة بن زيد أنه سمعه يقول إن رسول الله دفع من عرفة، حتى إذا كان بالشعب نزل فتوضأ ولم يسبغ الوضوء، فقال له أسامة الصلاة يا رسول الله، فقال الصلاة أمامك. فلما جاء المزدلفة نزل فتوضأ فأسبغ الوضوء، ثم صلى المغرب، ثم أناخ كل إنسان بعيره في منزله، ثم صلى العشاء ولم يصل بينهما شيئا. {cite:muwatta-maruf-1997 p.536}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1192 of kitab 06-hajj at PDF p. 536", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-53" }
+  - { type: mentions, target: person/usama-ibn-zayd, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/musa-ibn-uqba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/arafat, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/muzdalifa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/wudu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1192 at PDF p. 536; صلاة المزدلفة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b13" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 536; matn excerpt at most 40 words" }

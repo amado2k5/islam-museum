@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1193"
-label: { ar: "الموطأ 1193", en: "Muwatta 1193" }
+label: { ar: "الموطأ 1193 — أبو أيوب الأنصاري: صلى مع النبي في حجة الوداع المغرب والعشاء بالمزدلفة جميعا", en: "Muwatta 1193" }
 summary:
-  ar: "يحيى بن سعيد عن عدي بن ثابت الأنصاري: أن عبد الله بن يزيد الخطمي أخبره... ؛ حديث في الحج؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد عن عدي بن ثابت الأنصاري أن عبد الله بن يزيد الخطمي أخبره أن أبا أيوب الأنصاري أخبره أنه صلى مع رسول الله في حجة الوداع المغرب والعشاء بالمزدلفة جميعا. {cite:muwatta-maruf-1997 p.537}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1193 of kitab 06-hajj at PDF p. 537", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-53" }
+  - { type: mentions, target: person/abu-ayyub-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/muzdalifa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1193 at PDF p. 537; صلاة المزدلفة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b13" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 537; matn excerpt at most 40 words" }

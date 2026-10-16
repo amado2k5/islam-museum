@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1203"
-label: { ar: "الموطأ 1203", en: "Muwatta 1203" }
+label: { ar: "الموطأ 1203 — مالك: التكبير في أيام التشريق واجب على الرجال والنساء، في جماعة أو وحده، بمنى أو بالآفاق", en: "Muwatta 1203" }
 summary:
-  ar: "مالك: والتكبير في أيام التشريق على الرجال والنساء، من كان في جماعة أو وحده، بمنى... ؛ من يلزمه التكبير في أيام التشريق."
+  ar: "يقول مالك إن التكبير في أيام التشريق واجب على الرجال والنساء، من كان في جماعة أو وحده، بمنى أو بالآفاق، وإنما يأتم الناس في ذلك بإمام الحاج وبالناس بمنى، لأنهم إذا رجعوا وانقضى الإحرام ائتموا بهم. أما من لم يكن حاجا فإنه لا يأتم بهم إلا في تكبير أيام التشريق. {cite:muwatta-maruf-1997 p.540}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1203 of kitab 06-hajj at PDF p. 540", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-53" }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1203 at PDF p. 540; تكبير أيام التشريق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b13" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 540; matn excerpt at most 40 words" }

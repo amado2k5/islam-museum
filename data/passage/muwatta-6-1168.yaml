@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1168"
-label: { ar: "الموطأ 1168", en: "Muwatta 1168" }
+label: { ar: "الموطأ 1168 — حفصة: لماذا حل الناس ولم تحل أنت من عمرتك، فقال إني لبدت رأسي وقلدت هديي فلا أحل حتى أنحر", en: "Muwatta 1168" }
+text: "إنِّي لَبَّدْتُ رأسِي، وقَلَّدْتُ هَذيي، فلا أحِلُّ حتَّى أنْحَرَ"
 summary:
-  ar: "نافع عن ابن عمر عن حفصة أم المؤمنين: أنها قالت لرسول الله ﷺ... ؛ حديث في الحج؛ تفاصيل المتن غير واضحة."
+  ar: "تسأل حفصة أم المؤمنين رسول الله عن حل الناس ولم يحل هو من عمرته، فقال إني لبدت رأسي وقلدت هديي، فلا أحل حتى أنحر. {cite:muwatta-maruf-1997 p.527}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1168 of kitab 06-hajj at PDF p. 527", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-52" }
+  - { type: mentions, target: person/hafsa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/talbid, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1168 at PDF p. 527; ما جاء في النحر في الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 527; matn excerpt at most 40 words" }

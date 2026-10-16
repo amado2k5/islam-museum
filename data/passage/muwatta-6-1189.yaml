@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1189"
-label: { ar: "الموطأ 1189", en: "Muwatta 1189" }
+label: { ar: "الموطأ 1189 — مالك: الإمام لا يجهر بالقراءة في ظهر يوم عرفة، ويخطب الناس، وصلاتها ظهر قصرت للسفر ولو وافقت الجمعة", en: "Muwatta 1189" }
 summary:
-  ar: "مالك: والأمر الذي لا اختلاف فيه عندنا أن الإمام لا يجهر بالقراءة في الظهر يوم... ؛ حكم الجهر بالقراءة في صلاة الظهر يوم عرفة."
+  ar: "يقول مالك إن الأمر الذي لا اختلاف فيه عندهم أن الإمام لا يجهر بالقراءة في الظهر يوم عرفة، وأنه يخطب الناس يوم عرفة، وأن الصلاة يوم عرفة إنما هي ظهر، وإن وافقت الجمعة، لكنها قصرت من أجل السفر. {cite:muwatta-maruf-1997 p.535}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1189 of kitab 06-hajj at PDF p. 535", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-53" }
+  - { type: mentions, target: place/arafat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1189 at PDF p. 535; الصلاة بمنى يوم التروية والجمعة بمنى وعرفة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b13" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 535; matn excerpt at most 40 words" }

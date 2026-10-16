@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1184"
-label: { ar: "الموطأ 1184", en: "Muwatta 1184" }
+label: { ar: "الموطأ 1184 — عمر بن الخطاب: من ضفر رأسه فليحلق، ولا تتشبهوا بالتلبيد", en: "Muwatta 1184" }
 summary:
-  ar: "نافع عن ابن عمر: أن عمر بن الخطاب قال: من ضفر رأسه فليحلق؛ حكم ضفر الشعر في الحج."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن عمر بن الخطاب قال من ضفر رأسه فليحلق، ولا تتشبهوا بالتلبيد. {cite:muwatta-maruf-1997 p.532}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1184 of kitab 06-hajj at PDF p. 532", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-52" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/talbid, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/halq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1184 at PDF p. 532; التلبيد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 532; matn excerpt at most 40 words" }

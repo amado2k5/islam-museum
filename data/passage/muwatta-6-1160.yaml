@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1160"
-label: { ar: "الموطأ 1160", en: "Muwatta 1160" }
+label: { ar: "الموطأ 1160 — مولاة أسماء بنت أبي بكر: جئنا معها إلى منى بغلس، فقالت كنا نصنع ذلك مع من هو خير منكن", en: "Muwatta 1160" }
+text: "قد كُنَّا نَصْنَعُ ذلكَ مع من هو خَيْرٌ منكِ"
 summary:
-  ar: "يحيى بن سعيد عن عطاء بن أبي رباح: أن مولاة لأسماء بنت أبي بكر أخبرته... ؛ أثر في الحج؛ تفاصيل المتن غير واضحة."
+  ar: "يروي عطاء بن أبي رباح عن مولاة لأسماء بنت أبي بكر أنها جاءت مع أسماء إلى منى بغلس، فقالت لها إنهم جاءوا منى بغلس، فقالت أسماء إنهم كانوا يصنعون ذلك مع من هو خير منها. ويذكر المحقق أن الحديث في الصحيحين من حديث ابن عمر مرفوعا. {cite:muwatta-maruf-1997 p.524}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1160 of kitab 06-hajj at PDF p. 524", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-51" }
+  - { type: mentions, target: person/asma-bint-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-abi-rabah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/muzdalifa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ramy-al-jamarat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1160 at PDF p. 524; تقديم النساء والصبيان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b11" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 524; matn excerpt at most 40 words" }

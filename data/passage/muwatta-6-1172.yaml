@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1172"
-label: { ar: "الموطأ 1172", en: "Muwatta 1172" }
+label: { ar: "الموطأ 1172 — مالك: لا يجوز لأحد أن يحلق رأسه حتى ينحر هديه، ولا ينحر قبل الفجر يوم النحر، وإنما يكون العمل كله يوم النحر", en: "Muwatta 1172" }
 summary:
-  ar: "مالك: لا يجوز لأحد أن يحلق رأسه حتى ينحر هديه، ولا ينبغي لأحد أن ينحر قبل... ؛ ترتيب الحلق بعد النحر."
+  ar: "يقول مالك إنه لا يجوز لأحد أن يحلق رأسه حتى ينحر هديه، ولا ينبغي لأحد أن ينحر قبل الفجر يوم النحر. وإنما يكون العمل كله يوم النحر، وهو الذبح ولبس الثياب وإلقاء التفث والحلاق، ولا يكون شيء من ذلك قبل يوم النحر. {cite:muwatta-maruf-1997 p.529}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1172 of kitab 06-hajj at PDF p. 529", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-52" }
+  - { type: basis_for, target: practice/halq, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1172 at PDF p. 529; العمل في النحر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b12" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 529; matn excerpt at most 40 words" }
