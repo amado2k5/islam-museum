@@ -1,0 +1,16 @@
+id: passage/muslim-0022
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "22"
+label: { ar: "مسلم 22 — أُمرت أن أقاتل الناس حتى يشهدوا", en: "Muslim 22 — I was commanded to fight the people until they testify" }
+text: "قال رسول الله: «أمرت أن أقاتل الناس حتى يشهدوا أن لا إله إلا الله وأن محمداً رسول الله، ويقيموا الصلاة ويؤتوا الزكاة، فإذا فعلوا عصموا مني دماءهم وأموالهم إلا بحقها وحسابهم على الله»"
+summary:
+  ar: "رواية عبد الله بن عمر في كتاب الإيمان من صحيح مسلم؛ أركان العصمة: الشهادتان والصلاة والزكاة، وعصمة الدم والمال إلا بالحق — قرأه على قوله تعالى «إنما أنت مذكر لست عليهم بمسيطر»."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/shahada, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب الأمر بقتال الناس (طبعة دار التأصيل، الحديث 139؛ ترقيم عبد الباقي المعروف 22)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
