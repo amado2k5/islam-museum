@@ -3,12 +3,24 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-6"
-label: { ar: "الموطأ، كتاب الحج", en: "Muwatta, Book of Pilgrimage" }
+label: { ar: "الموطأ، كتاب الحج", en: "Muwatta, Book of Pilgrimage (hajj)" }
 summary:
-  ar: "كتاب الحج في الموطأ، المجلد الأول، يبدأ في صفحة 433 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Pilgrimage in the Muwatta, volume 1, starting at PDF page 433 (PDF numbering, not the printed page)."
+  ar: "كتاب الحج، الكتاب السادس من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997): 385 نصاً (898–1282) في ثلاثة وثمانين باباً، من الصفحة 433 إلى الصفحة 570 من ملف PDF المجلد الأول. يبدأ بأحكام المحرم وما يُجتنب فيه، ثم الهدي وما يفعله من فاته الحج أو أصاب أهله، ثم الوقوف بعرفة والمزدلفة، والرمي والحلق والإفاضة، والمبيت بمنى، وفدية ما يُصاب في الإحرام، ويختم بحج المرأة بغير ذي محرم وصيام المتمتع. {cite:muwatta-maruf-1997 p.433} {cite:muwatta-maruf-1997 p.570}"
+  en: "The Book of Pilgrimage, sixth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997): 385 reports (898–1282) in eighty-three babs, PDF pp. 433–570 of volume 1, from the rules of the state of ihram through the hady, the standing at Arafa and Muzdalifa, the stoning, the expiations, to the pilgrimage of a woman without a mahram and the fasting of the tamattu' pilgrim."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 433", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/arafat, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/muzdalifa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ramy-al-jamarat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab al-hajj, PDF pp. 433–570", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k6-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }
