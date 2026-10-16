@@ -72,3 +72,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person i–m batch 6 (25 files, ibn-hayyan-abu-marwan … ibn-khaldun) — Claude Haiku 5.5, draft
 - person s–z batch 3 (Claude Code, claude-haiku-5-5): salih-ibn-al-mansur … sajjada, 25 files, 25 files (said-ibn-yahya … salih-ibn-musarrih).
 - event a–m batch 3 (2026-10-16, claude-haiku-5-5): 25 pages, al-falalij-and-tustar-jaban → ansar-scribes-kamil (EN drafts).
+- place m–z batch 11: 25 files (qantarat-qurra.md … qasr-al-nawashiq.md), draft
