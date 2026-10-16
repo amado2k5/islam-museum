@@ -1,0 +1,20 @@
+id: passage/muslim-0162
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "162"
+label: { ar: "مسلم 162 — حديث المعراج الطويل (مالك بن صعصعة)", en: "Muslim 162 — The long Mi'raj report (Malik ibn Sa'sa'a)" }
+text: "قال رسول الله: «أتيت بالبراق وهو دابة أبيض طويل، فوق الحمار ودون البغل، يضع حافره عند منتهى طرفه» — ثم سيرة العروج سماءً سماء حتى فرض الصلوات الخمسين فردت إلى خمس"
+summary:
+  ar: "أطول نص لرحلة المعراج في الصحيحين؛ رواية ثابت البناني عن أنس عن مالك بن صعصعة عن أبي ذر في كتاب الإيمان. فيه البراق، واستفتاح أبواب السماوات، ولقاء آدم ويحيى وعيسى ويوسف وإدريس وهارون وموسى وإبراهيم، وسدرة المنتهى، وفرض الصلاة ثم التخفيف من خمسين إلى خمس بمراجعة موسى."
+relations:
+  - { type: mentions, target: event/isra-and-miraj, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: event/isra-and-miraj, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-dharr-al-ghifari, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jibril, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/musa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب الإسراء (طبعة دار التأصيل، الحديث 151؛ ترقيم عبد الباقي المعروف 162)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
