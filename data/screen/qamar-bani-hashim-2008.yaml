@@ -51,6 +51,10 @@ relations:
   target: place/mecca
 - type: set_in
   target: period/pre-islamic-arabia
+- type: directed_by
+  target: person/q12239794
+- type: broadcast_by
+  target: group/lebanese-broadcasting-corporation-international
 external_ids:
   wikidata: Q17271663
   imdb: tt9500124
@@ -62,3 +66,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata/IMDb or the
     official channel/producer page, 2026-10-16
+reception: []

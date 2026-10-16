@@ -50,9 +50,32 @@ approach: devotional
 relations:
 - type: about
   target: person/yusuf
+- type: features
+  target: person/mostafa-zamani
+- type: features
+  target: person/mahmoud-pak-niat
+- type: features
+  target: person/katayoun-riahi
+- type: features
+  target: person/jafar-dehghan
+- type: features
+  target: person/abbas-amiri-moghaddam
+- type: features
+  target: person/elham-hamidi
+- type: features
+  target: person/rahim-norouzi
+- type: features
+  target: person/fereshte-sarabandi
+- type: directed_by
+  target: person/farajullah-salahshur
+- type: written_by
+  target: person/farajullah-salahshur
+- type: broadcast_by
+  target: group/irib-tv1
 external_ids:
   wikidata: Q4115461
   imdb: tt3084150
+  official: http://simafilmideh.ir
 sources:
 - source/wikidata
 - source/imdb
@@ -61,3 +84,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

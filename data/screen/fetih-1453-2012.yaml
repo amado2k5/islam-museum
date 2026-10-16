@@ -46,6 +46,24 @@ relations:
   target: place/istanbul
 - type: set_in
   target: period/gunpowder-empires
+- type: features
+  target: person/devrim-evin
+- type: features
+  target: person/i-brahim-celikkol
+- type: features
+  target: person/dilek-serbest
+- type: features
+  target: person/cengiz-coskun
+- type: features
+  target: person/recep-aktug
+- type: features
+  target: person/erden-alkan
+- type: features
+  target: person/lili-rich
+- type: features
+  target: person/naci-adiguzel
+- type: directed_by
+  target: person/faruk-aksoy
 external_ids:
   wikidata: Q171731
   imdb: tt1783232
@@ -57,3 +75,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

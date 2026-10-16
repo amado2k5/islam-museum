@@ -44,6 +44,7 @@ sensitivity: violence
 external_ids:
   wikidata: Q1212650
   imdb: tt1255953
+  official: https://micro-scope.ca/portfolio/incendies/
 sources:
 - source/wikidata
 - source/imdb
@@ -52,3 +53,41 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/lubna-azabal
+- type: features
+  target: person/maxim-gaudette
+- type: features
+  target: person/remy-girard
+- type: features
+  target: person/melissa-desormeaux-poulin
+- type: features
+  target: person/allen-altman
+- type: features
+  target: person/baya-belal
+- type: features
+  target: person/mohamed-majd
+- type: features
+  target: person/frederic-paquet
+- type: directed_by
+  target: person/denis-villeneuve
+- type: written_by
+  target: person/denis-villeneuve
+- type: written_by
+  target: person/wajdi-mouawad
+- type: written_by
+  target: person/valerie-beaugrand-champagne
+reception:
+- kind: award
+  note: Academy of Canadian Cinema and Television Award for Best Motion Picture
+  sources:
+  - source/wikidata
+- kind: award
+  note: Toronto International Film Festival Award for Best Canadian Film
+  sources:
+  - source/wikidata
+- kind: award
+  note: Québec Cinéma Award for Best Film
+  sources:
+  - source/wikidata

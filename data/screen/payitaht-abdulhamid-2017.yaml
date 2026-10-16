@@ -51,9 +51,14 @@ relations:
   target: place/istanbul
 - type: set_in
   target: period/colonial-era
+- type: features
+  target: person/bulent-i-nal
+- type: broadcast_by
+  target: group/trt-1
 external_ids:
   wikidata: Q28841110
   imdb: tt6536562
+  official: http://www.payitaht.com.tr/
 sources:
 - source/wikidata
 - source/imdb
@@ -62,3 +67,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

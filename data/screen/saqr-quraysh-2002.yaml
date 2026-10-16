@@ -42,6 +42,26 @@ relations:
   target: place/cordoba
 - type: set_in
   target: period/umayyad
+- type: features
+  target: person/jamal-suliman
+- type: features
+  target: person/mohamed-miftah
+- type: features
+  target: person/bassem-yakhour
+- type: features
+  target: person/taim-hasan
+- type: features
+  target: person/fayez-abu-dan
+- type: features
+  target: person/mohammed-hassan-el-joundi
+- type: features
+  target: person/nasser-wardiani
+- type: features
+  target: person/raid-wardiani
+- type: directed_by
+  target: person/hatem-ali
+- type: written_by
+  target: person/walid-saif
 external_ids:
   wikidata: Q12220115
   imdb: tt3109652
@@ -53,3 +73,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata/IMDb or the
     official channel/producer page, 2026-10-16
+reception: []

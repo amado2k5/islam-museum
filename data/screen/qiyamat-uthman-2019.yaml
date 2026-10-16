@@ -45,9 +45,32 @@ relations:
   target: place/anatolia
 - type: about
   target: polity/ottoman-empire
+- type: features
+  target: person/nurettin-sonmez
+- type: features
+  target: person/ragip-savas
+- type: features
+  target: person/burak-ozcivit
+- type: features
+  target: person/saruhan-hunel
+- type: features
+  target: person/yurdaer-okur
+- type: features
+  target: person/burak-celik
+- type: features
+  target: person/ozge-torer
+- type: features
+  target: person/q141457763
+- type: directed_by
+  target: person/metin-gunay
+- type: written_by
+  target: person/mehmet-bozdag
+- type: broadcast_by
+  target: group/atv
 external_ids:
   wikidata: Q64878719
   imdb: tt11093718
+  official: http://www.bozdagfilm.com.tr/Kunye.aspx?P=1
 sources:
 - source/wikidata
 - source/imdb
@@ -56,3 +79,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

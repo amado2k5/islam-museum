@@ -42,6 +42,7 @@ approach: comedy
 external_ids:
   wikidata: Q5122563
   imdb: tt2334302
+  official: https://www.bbc.co.uk/programmes/p00vh04r
 sources:
 - source/wikidata
 - source/imdb
@@ -50,3 +51,23 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/adil-ray
+- type: features
+  target: person/shobu-kapoor
+- type: features
+  target: person/kris-marshall
+- type: features
+  target: person/matthew-cottle
+- type: features
+  target: person/maya-sondhi
+- type: features
+  target: person/bhavna-limbachia
+- type: written_by
+  target: person/adil-ray
+- type: written_by
+  target: person/anil-gupta
+- type: broadcast_by
+  target: group/bbc-one
+reception: []

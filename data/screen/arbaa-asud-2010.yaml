@@ -40,6 +40,7 @@ sensitivity: contested
 external_ids:
   wikidata: Q5590
   imdb: tt1341167
+  official: http://www.fourlionsthemovie.com/
 sources:
 - source/wikidata
 - source/imdb
@@ -48,3 +49,29 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/riz-ahmed
+- type: features
+  target: person/kayvan-novak
+- type: features
+  target: person/nigel-lindsay
+- type: features
+  target: person/adeel-akhtar
+- type: features
+  target: person/benedict-cumberbatch
+- type: features
+  target: person/julia-davis
+- type: features
+  target: person/craig-parkinson
+- type: features
+  target: person/preeya-kalidas
+- type: directed_by
+  target: person/chris-morris
+- type: written_by
+  target: person/jesse-armstrong
+- type: written_by
+  target: person/chris-morris
+- type: written_by
+  target: person/sam-bain
+reception: []

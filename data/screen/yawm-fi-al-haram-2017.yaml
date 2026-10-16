@@ -44,6 +44,8 @@ relations:
   target: building/masjid-al-haram
 - type: set_in
   target: place/mecca
+- type: directed_by
+  target: person/abrar-hussain
 external_ids:
   wikidata: Q35465999
   imdb: tt7253332
@@ -55,3 +57,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

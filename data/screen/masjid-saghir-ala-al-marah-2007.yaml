@@ -42,6 +42,7 @@ approach: comedy
 external_ids:
   wikidata: Q1522189
   imdb: tt0923293
+  official: http://www.cbc.ca/littlemosque/
 sources:
 - source/wikidata
 - source/imdb
@@ -50,3 +51,23 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/zaib-shaikh
+- type: features
+  target: person/carlo-rota
+- type: features
+  target: person/sheila-mccarthy
+- type: features
+  target: person/sitara-hewitt
+- type: features
+  target: person/manoj-sood
+- type: features
+  target: person/arlene-duncan
+- type: features
+  target: person/debra-mcgrath
+- type: features
+  target: person/derek-mcgrath
+- type: broadcast_by
+  target: group/cbc-television
+reception: []

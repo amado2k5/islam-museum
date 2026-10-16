@@ -51,6 +51,7 @@ watch:
 external_ids:
   wikidata: Q64063362
   imdb: tt9336138
+  official: http://www.nussaofficial.com
 sources:
 - source/wikidata
 - source/imdb
@@ -59,3 +60,11 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/muzakki-ramdhan
+- type: features
+  target: person/sandra-dewi
+- type: directed_by
+  target: person/anggia-kharisma
+reception: []

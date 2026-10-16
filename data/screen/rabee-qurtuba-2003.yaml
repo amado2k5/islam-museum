@@ -41,6 +41,26 @@ relations:
   target: place/cordoba
 - type: set_in
   target: place/al-andalus
+- type: features
+  target: person/taim-hasan
+- type: features
+  target: person/jamal-suliman
+- type: features
+  target: person/mohamed-miftah
+- type: features
+  target: person/nesreen-tafesh
+- type: features
+  target: person/ramez-atallah
+- type: features
+  target: person/mohammad-kheir-al-jarrah
+- type: features
+  target: person/maxim-khalil
+- type: features
+  target: person/fayez-abu-dan
+- type: directed_by
+  target: person/hatem-ali
+- type: written_by
+  target: person/walid-saif
 external_ids:
   wikidata: Q12213119
   imdb: tt3109660
@@ -52,3 +72,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata/IMDb or the
     official channel/producer page, 2026-10-16
+reception: []

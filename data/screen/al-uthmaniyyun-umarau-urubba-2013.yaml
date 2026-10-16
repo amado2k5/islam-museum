@@ -41,6 +41,8 @@ relations:
   target: polity/ottoman-empire
 - type: set_in
   target: place/istanbul
+- type: broadcast_by
+  target: group/bbc-two
 external_ids:
   wikidata: Q15109336
   imdb: tt3239918
@@ -52,3 +54,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

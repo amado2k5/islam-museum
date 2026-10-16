@@ -46,6 +46,22 @@ sensitivity: violence
 relations:
 - type: set_in
   target: place/timbuktu
+- type: features
+  target: person/abel-jafri
+- type: features
+  target: person/hichem-yacoubi
+- type: features
+  target: person/toulou-kiki
+- type: features
+  target: person/fatoumata-diawara
+- type: features
+  target: person/ibrahim-ahmed-dit-pino
+- type: directed_by
+  target: person/abderrahmane-sissako
+- type: written_by
+  target: person/abderrahmane-sissako
+- type: written_by
+  target: person/kessen-tall
 external_ids:
   wikidata: Q16653473
   imdb: tt3409392
@@ -57,3 +73,28 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception:
+- kind: award
+  note: Prize of the Ecumenical Jury Cannes
+  sources:
+  - source/wikidata
+- kind: award
+  note: François Chalais Prize
+  sources:
+  - source/wikidata
+- kind: award
+  note: Grand Prix
+  sources:
+  - source/wikidata
+- kind: award
+  note: Lumière Award for Best Film
+  sources:
+  - source/wikidata
+- kind: award
+  note: César Award for Best Film
+  sources:
+  - source/wikidata
+- kind: award
+  note: Lumière Award for Best Director
+  sources:
+  - source/wikidata

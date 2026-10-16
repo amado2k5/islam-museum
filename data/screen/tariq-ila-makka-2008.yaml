@@ -49,9 +49,12 @@ relations:
   target: place/mecca
 - type: set_in
   target: place/jerusalem
+- type: directed_by
+  target: person/georg-misch
 external_ids:
   wikidata: Q1197953
   imdb: tt3676032
+  official: http://www.mischief-films.com/htm/filme-uebersicht.php?id=6
 sources:
 - source/wikidata
 - source/imdb
@@ -60,3 +63,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

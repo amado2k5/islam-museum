@@ -50,9 +50,30 @@ relations:
   target: place/mecca
 - type: set_in
   target: period/prophetic-era
+- type: features
+  target: person/adewale-akinnuoye-agbaje
+- type: features
+  target: person/jacob-latimore
+- type: features
+  target: person/ian-mcshane
+- type: features
+  target: person/dave-b-mitchell
+- type: features
+  target: person/fred-tatasciore
+- type: features
+  target: person/cynthia-kaye-mcwilliams
+- type: features
+  target: person/china-anne-mcclain
+- type: features
+  target: person/al-rodrigo
+- type: directed_by
+  target: person/khurram-alavi
+- type: directed_by
+  target: person/ayman-jamal
 external_ids:
   wikidata: Q19363380
   imdb: tt3576728
+  official: http://www.bilalmovie.com/
 sources:
 - source/wikidata
 - source/imdb
@@ -61,3 +82,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

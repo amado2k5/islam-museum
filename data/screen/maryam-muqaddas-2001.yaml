@@ -48,9 +48,16 @@ relations:
   target: person/maryam
 - type: about
   target: person/isa-ibn-maryam
+- type: features
+  target: person/shabnam-gholikhani
+- type: features
+  target: person/mohammadreza-bagheri
+- type: directed_by
+  target: person/shahriar-bahrani
 external_ids:
   wikidata: Q7401850
   imdb: tt3463178
+  official: http://cmi.irib.ir/saint/default.htm
 sources:
 - source/wikidata
 - source/imdb
@@ -59,3 +66,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

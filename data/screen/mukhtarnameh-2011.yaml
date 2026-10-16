@@ -53,6 +53,24 @@ relations:
   target: place/kufa
 - type: set_in
   target: period/umayyad
+- type: features
+  target: person/fariborz-arabnia
+- type: features
+  target: person/mehdi-fakhimzadeh
+- type: features
+  target: person/farhad-aslani
+- type: features
+  target: person/nasrin-moghanloo
+- type: features
+  target: person/davoud-rashidi
+- type: features
+  target: person/fariba-kossari
+- type: features
+  target: person/reza-rooygari
+- type: features
+  target: person/reza-kianian
+- type: directed_by
+  target: person/davood-mir-bagheri
 external_ids:
   wikidata: Q3019585
   imdb: tt1815138
@@ -64,3 +82,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

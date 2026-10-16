@@ -43,6 +43,7 @@ approach: educational
 external_ids:
   wikidata: Q12495308
   imdb: tt14359138
+  official: https://citrasinema.co.id/
 sources:
 - source/wikidata
 - source/imdb
@@ -51,3 +52,35 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata/IMDb or the
     official channel/producer page, 2026-10-16
+relations:
+- type: features
+  target: person/deddy-mizwar
+- type: features
+  target: person/jourast-jordy
+- type: features
+  target: person/zaskia-adya-mecca
+- type: features
+  target: person/aditya-novika
+- type: features
+  target: person/christy-jusung
+- type: features
+  target: person/hefri-olifian
+- type: features
+  target: person/adjie-pangestu
+- type: features
+  target: person/opie-kumis
+- type: directed_by
+  target: person/deddy-mizwar
+- type: directed_by
+  target: person/aldisar-syafar
+- type: directed_by
+  target: person/abdul-kadir
+- type: directed_by
+  target: person/rully-manna
+- type: written_by
+  target: person/wahyu-h-s
+- type: written_by
+  target: person/deddy-mizwar
+- type: broadcast_by
+  target: group/sctv
+reception: []

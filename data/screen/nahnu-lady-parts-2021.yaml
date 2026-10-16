@@ -42,6 +42,7 @@ approach: comedy
 external_ids:
   wikidata: Q106912754
   imdb: tt10846104
+  official: https://www.channel4.com/programmes/we-are-lady-parts
 sources:
 - source/wikidata
 - source/imdb
@@ -50,3 +51,19 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: directed_by
+  target: person/nida-manzoor
+- type: written_by
+  target: person/nida-manzoor
+- type: broadcast_by
+  target: group/channel-4
+reception:
+- kind: award
+  note: Edinburgh International Television Festival
+  sources:
+  - source/wikidata
+- kind: award
+  note: Rose d'Or
+  sources:
+  - source/wikidata

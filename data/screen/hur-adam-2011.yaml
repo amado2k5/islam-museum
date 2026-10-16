@@ -41,6 +41,7 @@ approach: historical-drama
 external_ids:
   wikidata: Q4808154
   imdb: tt1783298
+  official: http://www.huradam.com.tr
 sources:
 - source/wikidata
 - source/imdb
@@ -49,3 +50,9 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/mursid-aga-bag
+- type: directed_by
+  target: person/mehmet-tanrisever
+reception: []

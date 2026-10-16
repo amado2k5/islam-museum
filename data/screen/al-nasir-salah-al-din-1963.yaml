@@ -40,6 +40,18 @@ relations:
   target: period/crusades-ayyubid-mamluk
 - type: set_in
   target: place/jerusalem
+- type: features
+  target: person/ahmad-mazhar
+- type: features
+  target: person/salah-zulfikar
+- type: features
+  target: person/nadia-lotfi
+- type: features
+  target: person/leila-fawzi
+- type: features
+  target: person/omar-el-hariri
+- type: directed_by
+  target: person/youssef-chahine
 external_ids:
   wikidata: Q251692
   imdb: tt0057357
@@ -51,3 +63,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

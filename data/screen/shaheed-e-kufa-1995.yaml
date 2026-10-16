@@ -54,6 +54,26 @@ relations:
   target: place/kufa
 - type: set_in
   target: period/rashidun
+- type: features
+  target: person/dariush-arjmand
+- type: features
+  target: person/mehdi-fathi
+- type: features
+  target: person/behzad-farahani
+- type: features
+  target: person/vishka-asayesh
+- type: features
+  target: person/jamshid-mashayekhi
+- type: features
+  target: person/davoud-rashidi
+- type: features
+  target: person/parviz-parastui
+- type: features
+  target: person/mohammad-reza-sharifinia
+- type: directed_by
+  target: person/davood-mir-bagheri
+- type: broadcast_by
+  target: group/irib-tv1
 external_ids:
   wikidata: Q5952247
   imdb: tt1986451
@@ -65,3 +85,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

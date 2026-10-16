@@ -49,6 +49,22 @@ relations:
   target: person/mehmed-ii
 - type: set_in
   target: place/istanbul
+- type: features
+  target: person/cem-yigit-uzumoglu
+- type: features
+  target: person/tuba-buyukustun
+- type: features
+  target: person/damla-sonmez
+- type: features
+  target: person/osman-sonant
+- type: features
+  target: person/tolga-tekin
+- type: features
+  target: person/ushan-cakir
+- type: features
+  target: person/selim-bayraktar
+- type: features
+  target: person/birkan-sokullu
 watch:
 - kind: official-paid
   url: https://www.netflix.com/title/80990771
@@ -66,3 +82,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

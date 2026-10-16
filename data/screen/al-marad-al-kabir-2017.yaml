@@ -42,6 +42,7 @@ approach: comedy
 external_ids:
   wikidata: Q24901880
   imdb: tt5462602
+  official: http://www.thebigsickmovie.com
 sources:
 - source/wikidata
 - source/imdb
@@ -50,3 +51,27 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/zoe-kazan
+- type: features
+  target: person/holly-hunter
+- type: features
+  target: person/ray-romano
+- type: features
+  target: person/kumail-nanjiani
+- type: features
+  target: person/adeel-akhtar
+- type: features
+  target: person/anupam-kher
+- type: features
+  target: person/bo-burnham
+- type: features
+  target: person/linda-emond
+- type: directed_by
+  target: person/michael-showalter
+- type: written_by
+  target: person/kumail-nanjiani
+- type: written_by
+  target: person/emily-v-gordon
+reception: []

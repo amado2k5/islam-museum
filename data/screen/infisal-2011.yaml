@@ -46,9 +46,34 @@ reception:
   by: Academy Award for Best International Feature Film
   status: historical
   sources: []
+- kind: award
+  note: Golden Bear
+  sources:
+  - source/wikidata
+- kind: award
+  note: Silver Bear for Best Actress
+  sources:
+  - source/wikidata
+- kind: award
+  note: Silver Bear for Best Actor
+  sources:
+  - source/wikidata
+- kind: award
+  note: César Award for Best Foreign Film
+  sources:
+  - source/wikidata
+- kind: award
+  note: Academy Award for Best International Feature Film
+  sources:
+  - source/wikidata
+- kind: award
+  note: Asia Pacific Screen Award for Best Feature Film
+  sources:
+  - source/wikidata
 external_ids:
   wikidata: Q640561
   imdb: tt1832382
+  official: http://www.sonyclassics.com/aseparation
 sources:
 - source/wikidata
 - source/imdb
@@ -57,3 +82,24 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/sareh-bayat
+- type: features
+  target: person/leila-hatami
+- type: features
+  target: person/payman-maadi
+- type: features
+  target: person/shahab-hosseini
+- type: features
+  target: person/sarina-farhadi
+- type: features
+  target: person/merila-zarei
+- type: features
+  target: person/shirin-yazdanbakhsh
+- type: features
+  target: person/babak-karimi
+- type: directed_by
+  target: person/asghar-farhadi
+- type: written_by
+  target: person/asghar-farhadi

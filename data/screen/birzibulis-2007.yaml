@@ -46,6 +46,7 @@ approach: drama-of-muslim-life
 external_ids:
   wikidata: Q477965
   imdb: tt0808417
+  official: https://www.sonypictures.com/movies/persepolis
 sources:
 - source/wikidata
 - source/imdb
@@ -54,3 +55,13 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: directed_by
+  target: person/marjane-satrapi
+- type: directed_by
+  target: person/vincent-paronnaud
+- type: written_by
+  target: person/marjane-satrapi
+- type: written_by
+  target: person/vincent-paronnaud
+reception: []

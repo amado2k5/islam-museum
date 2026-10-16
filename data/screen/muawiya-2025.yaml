@@ -48,11 +48,43 @@ relations:
   target: period/umayyad
 - type: set_in
   target: place/damascus
+- type: features
+  target: person/lojain-ismail
+- type: features
+  target: person/eyad-nassar
+- type: features
+  target: person/souhir-ben-amara
+- type: features
+  target: person/wael-sharaf
+- type: features
+  target: person/yazan-khalil
+- type: features
+  target: person/aicha-ben-ahmed
+- type: features
+  target: person/jamila-chihi
+- type: features
+  target: person/asmaa-galal
+- type: directed_by
+  target: person/tarek-alarian
+- type: written_by
+  target: person/khaled-salah
+- type: broadcast_by
+  target: group/mbc-1
 reception:
 - kind: objection
   by: public and scholarly debate in 2025 over depicting Companions
   status: debated
   sources: []
+- kind: fatwa
+  note: Al-Azhar's Senior Scholars Authority called viewing religiously unacceptable; Iraq's media regulator banned broadcast
+    citing sectarian tension; Iran also banned it.
+  sources:
+  - source/newarab-muawiya-azhar-2025
+  - source/national-muawiya-2025
+- kind: objection
+  note: Coverage framed the series as stoking Sunni-Shia tensions by dramatising the first fitna.
+  sources:
+  - source/nyt-muawiya-2025
 external_ids:
   wikidata: Q131589489
   imdb: tt14931294

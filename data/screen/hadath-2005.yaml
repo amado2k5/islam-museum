@@ -41,6 +41,7 @@ sensitivity: polemical
 external_ids:
   wikidata: Q3348518
   imdb: tt0487116
+  official: http://www.obsessionthemovie.com/
 sources:
 - source/wikidata
 - source/imdb
@@ -49,3 +50,15 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/martin-gilbert
+- type: features
+  target: person/khaleel-mohammed
+- type: features
+  target: person/robert-s-wistrich
+- type: directed_by
+  target: person/raphael-shore
+- type: written_by
+  target: person/raphael-shore
+reception: []

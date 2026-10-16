@@ -44,6 +44,30 @@ relations:
   target: event/battle-of-al-qadisiyya
 - type: set_in
   target: period/rashidun
+- type: features
+  target: person/soad-hosny
+- type: features
+  target: person/ezzat-el-alaili
+- type: features
+  target: person/mohammed-hassan-el-joundi
+- type: features
+  target: person/laila-taher
+- type: features
+  target: person/kanaan-wasfy
+- type: features
+  target: person/badri-hassoun-farid
+- type: features
+  target: person/hani-hani
+- type: features
+  target: person/kanaan-ali
+- type: directed_by
+  target: person/salah-abu-seif
+- type: written_by
+  target: person/mahfouz-abdel-rahman
+- type: written_by
+  target: person/ali-ahmad-bakathir
+- type: written_by
+  target: person/salah-abu-seif
 external_ids:
   wikidata: Q4704628
   imdb: tt0328295
@@ -54,3 +78,4 @@ status:
   review: draft
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence and identifiers verified against Wikidata/IMDb, 2026-10-16
+reception: []

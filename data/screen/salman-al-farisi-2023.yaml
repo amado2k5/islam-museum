@@ -51,6 +51,26 @@ relations:
   target: period/prophetic-era
 - type: set_in
   target: place/medina
+- type: features
+  target: person/alireza-shoja-nouri
+- type: features
+  target: person/mohammad-yaromtaghloo
+- type: features
+  target: person/farhad-aslani
+- type: features
+  target: person/setareh-eskandari
+- type: features
+  target: person/shahram-haghighatdoost
+- type: features
+  target: person/elham-korda
+- type: directed_by
+  target: person/davood-mir-bagheri
+- type: written_by
+  target: person/davood-mir-bagheri
+- type: written_by
+  target: person/amrollah-ahmadjoo
+- type: broadcast_by
+  target: group/irib-tv1
 external_ids:
   wikidata: Q106494004
   imdb: tt17526298
@@ -62,3 +82,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata/IMDb or the
     official channel/producer page, 2026-10-16
+reception: []

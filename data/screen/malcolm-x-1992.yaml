@@ -45,6 +45,30 @@ relations:
   target: person/malcolm-x
 - type: about
   target: practice/hajj
+- type: features
+  target: person/denzel-washington
+- type: features
+  target: person/angela-bassett
+- type: features
+  target: person/albert-hall
+- type: features
+  target: person/al-freeman-jr
+- type: features
+  target: person/delroy-lindo
+- type: features
+  target: person/spike-lee
+- type: features
+  target: person/theresa-randle
+- type: features
+  target: person/kate-vernon
+- type: directed_by
+  target: person/spike-lee
+- type: written_by
+  target: person/spike-lee
+- type: written_by
+  target: person/arnold-perl
+- type: written_by
+  target: person/james-baldwin
 external_ids:
   wikidata: Q923925
   imdb: tt0104797
@@ -56,3 +80,8 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception:
+- kind: award
+  note: 'National Board of Review: Top Ten Films'
+  sources:
+  - source/wikidata

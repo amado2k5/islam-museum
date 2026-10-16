@@ -52,6 +52,26 @@ relations:
   target: place/anatolia
 - type: set_in
   target: period/mongol-post-mongol
+- type: features
+  target: person/engin-altan-duzyatan
+- type: features
+  target: person/serdar-gokhan
+- type: features
+  target: person/hulya-darcan
+- type: features
+  target: person/didem-balcin
+- type: features
+  target: person/kaan-tasaner
+- type: features
+  target: person/esra-bilgic
+- type: features
+  target: person/osman-soykut
+- type: features
+  target: person/cengiz-coskun
+- type: directed_by
+  target: person/metin-gunay
+- type: broadcast_by
+  target: group/trt-1
 external_ids:
   wikidata: Q18338011
   imdb: tt4320258
@@ -63,3 +83,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

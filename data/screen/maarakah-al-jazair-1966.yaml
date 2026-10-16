@@ -49,6 +49,26 @@ relations:
   target: place/algiers
 - type: set_in
   target: period/colonial-era
+- type: features
+  target: person/jean-martin
+- type: features
+  target: person/saadi-yacef
+- type: features
+  target: person/brahim-hadjadj
+- type: features
+  target: person/larbi-zekkal
+- type: features
+  target: person/fusia-el-kader
+- type: features
+  target: person/mohamed-ben-kassen
+- type: directed_by
+  target: person/gillo-pontecorvo
+- type: written_by
+  target: person/gillo-pontecorvo
+- type: written_by
+  target: person/saadi-yacef
+- type: written_by
+  target: person/franco-solinas
 external_ids:
   wikidata: Q784812
   imdb: tt0058946
@@ -60,3 +80,8 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception:
+- kind: award
+  note: Golden Lion
+  sources:
+  - source/wikidata

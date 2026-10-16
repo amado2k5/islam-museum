@@ -41,6 +41,10 @@ relations:
   target: place/cordoba
 - type: set_in
   target: place/granada
+- type: features
+  target: person/bettany-hughes
+- type: directed_by
+  target: person/timothy-copestake
 external_ids:
   wikidata: Q7993005
   imdb: tt2162745
@@ -52,3 +56,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

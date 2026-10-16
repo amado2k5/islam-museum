@@ -41,7 +41,27 @@ depiction:
   companions: not-applicable
   imams: not-applicable
 approach: historical-drama
-relations: []
+relations:
+- type: features
+  target: person/tahar-rahim
+- type: features
+  target: person/michael-lonsdale
+- type: features
+  target: person/lubna-azabal
+- type: features
+  target: person/stephane-rideau
+- type: features
+  target: person/blandine-pelissier
+- type: features
+  target: person/bruno-fleury
+- type: features
+  target: person/christopher-buchholz
+- type: features
+  target: person/farid-larbi
+- type: directed_by
+  target: person/isma-l-ferroukhi
+- type: written_by
+  target: person/isma-l-ferroukhi
 external_ids:
   wikidata: Q3233232
   imdb: tt1699185
@@ -53,3 +73,12 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception:
+- kind: award
+  note: Abu Dhabi Film Festival
+  sources:
+  - source/wikidata
+- kind: award
+  note: Santa Barbara International Film Festival
+  sources:
+  - source/wikidata

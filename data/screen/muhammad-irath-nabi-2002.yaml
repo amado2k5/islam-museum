@@ -42,6 +42,12 @@ relations:
   target: person/muhammad
 - type: set_in
   target: period/prophetic-era
+- type: features
+  target: person/karen-armstrong
+- type: directed_by
+  target: person/omar-al-qattan
+- type: broadcast_by
+  target: group/pbs
 external_ids:
   wikidata: Q6932317
   imdb: tt0396743
@@ -53,3 +59,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

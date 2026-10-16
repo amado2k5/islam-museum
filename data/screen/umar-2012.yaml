@@ -63,6 +63,30 @@ relations:
   target: place/mecca
 - type: set_in
   target: place/medina
+- type: features
+  target: person/samer-ismail
+- type: features
+  target: person/ghassan-massoud
+- type: features
+  target: person/ghanem-zrelli
+- type: features
+  target: person/qasim-melho
+- type: features
+  target: person/fethi-haddaoui
+- type: features
+  target: person/mohammed-hassan-el-joundi
+- type: features
+  target: person/may-skaf
+- type: features
+  target: person/muna-wassef
+- type: directed_by
+  target: person/hatem-ali
+- type: written_by
+  target: person/walid-saif
+- type: broadcast_by
+  target: group/mbc-1
+- type: broadcast_by
+  target: group/qatar-tv
 external_ids:
   wikidata: Q3184088
   imdb: tt2063241
@@ -74,3 +98,16 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception:
+- kind: fatwa
+  note: Al-Azhar's Islamic Research Academy and Saudi Dar al-Ifta opposed the series for depicting the Companions; other scholars
+    including Salman al-Ouda and Yusuf al-Qaradawi approved it.
+  sources:
+  - source/thr-omar-fatwa-2012
+  - source/national-omar-2012
+- kind: protest
+  note: Pre-broadcast campaign against the series ('No to showing Farouk Omar'); defenders argued dramatising the Companions
+    has precedent.
+  sources:
+  - source/egyptind-omar-2012
+  - source/alarabiya-omar-2012

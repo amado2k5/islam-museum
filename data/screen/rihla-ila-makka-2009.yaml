@@ -47,6 +47,12 @@ relations:
   target: practice/hajj
 - type: set_in
   target: place/mecca
+- type: features
+  target: person/q12219086
+- type: features
+  target: person/ben-kingsley
+- type: directed_by
+  target: person/bruce-neibaur
 external_ids:
   wikidata: Q6296453
   imdb: tt1235836
@@ -58,3 +64,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

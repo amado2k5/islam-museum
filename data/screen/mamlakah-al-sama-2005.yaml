@@ -44,6 +44,26 @@ relations:
   target: place/jerusalem
 - type: set_in
   target: period/crusades-ayyubid-mamluk
+- type: features
+  target: person/eva-green
+- type: features
+  target: person/jeremy-irons
+- type: features
+  target: person/david-thewlis
+- type: features
+  target: person/brendan-gleeson
+- type: features
+  target: person/marton-csokas
+- type: features
+  target: person/liam-neeson
+- type: features
+  target: person/edward-norton
+- type: features
+  target: person/ghassan-massoud
+- type: directed_by
+  target: person/ridley-scott
+- type: written_by
+  target: person/william-monahan
 external_ids:
   wikidata: Q207698
   imdb: tt0320661
@@ -55,3 +75,8 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception:
+- kind: award
+  note: Jameson People's Choice Award for Best Actor
+  sources:
+  - source/wikidata

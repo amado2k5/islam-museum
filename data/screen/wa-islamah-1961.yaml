@@ -43,6 +43,26 @@ relations:
   target: place/cairo
 - type: set_in
   target: period/mongol-post-mongol
+- type: features
+  target: person/ahmad-mazhar
+- type: features
+  target: person/lobna-abdelaziz
+- type: features
+  target: person/rushdy-abaza
+- type: features
+  target: person/mahmoud-el-meliguy
+- type: features
+  target: person/farid-shawqi
+- type: features
+  target: person/folco-lulli
+- type: directed_by
+  target: person/enrico-bomba
+- type: directed_by
+  target: person/andrew-marton
+- type: written_by
+  target: person/rob-andrews
+- type: written_by
+  target: person/enrico-bomba
 external_ids:
   wikidata: Q6151145
   imdb: tt0370051
@@ -54,3 +74,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

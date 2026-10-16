@@ -53,6 +53,10 @@ relations:
   target: place/mecca
 - type: set_in
   target: place/medina
+- type: directed_by
+  target: person/richard-rich
+- type: written_by
+  target: person/brian-nissen
 external_ids:
   wikidata: Q4115183
   imdb: tt0430377
@@ -64,3 +68,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

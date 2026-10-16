@@ -46,6 +46,7 @@ approach: drama-of-muslim-life
 external_ids:
   wikidata: Q38620429
   imdb: tt7048622
+  official: https://www.en.rouge-international.com/movie/450/
 sources:
 - source/wikidata
 - source/imdb
@@ -54,3 +55,17 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/adel-karam
+- type: features
+  target: person/kamel-el-basha
+- type: features
+  target: person/rita-hayek
+- type: features
+  target: person/julia-kassar
+- type: directed_by
+  target: person/ziad-doueiri
+- type: written_by
+  target: person/ziad-doueiri
+reception: []

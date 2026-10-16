@@ -16,3 +16,653 @@
 - { id: group/bbc, label: { ar: "هيئة الإذاعة البريطانية", en: "BBC" }, class: group }
 - { id: group/pbs, label: { ar: "خدمة البث العامة", en: "PBS" }, class: group }
 - { id: group/trt, label: { ar: "مؤسسة الإذاعة والتلفزيون التركية", en: "TRT" }, class: group }
+
+# Screen-index enrichment pass: cast, directors, writers, broadcasters (2026-10-16)
+- { id: group/ajwa-tv, label: { en: "Ajwa TV" }, class: group }
+- { id: group/astro-ria, label: { en: "Astro Ria" }, class: group }
+- { id: group/atv, label: { ar: "أي تي في", en: "ATV" }, class: group }
+- { id: group/bbc-one, label: { ar: "بي بي سي وان", en: "BBC One" }, class: group }
+- { id: group/bbc-three, label: { en: "BBC Three" }, class: group }
+- { id: group/bbc-two, label: { ar: "بي بي سي تو", en: "BBC Two" }, class: group }
+- { id: group/cbc-television, label: { ar: "شبكة سي بي سي", en: "CBC Television" }, class: group }
+- { id: group/channel-4, label: { ar: "القناة الرابعة البريطانية", en: "Channel 4" }, class: group }
+- { id: group/discovery-family, label: { ar: "ديسكافوري فاميلي", en: "Discovery Family" }, class: group }
+- { id: group/disney, label: { ar: "ديزني+", en: "Disney+" }, class: group }
+- { id: group/hulu, label: { ar: "هولو", en: "Hulu" }, class: group }
+- { id: group/hum-tv, label: { en: "Hum TV" }, class: group }
+- { id: group/irib-tv1, label: { en: "IRIB TV1" }, class: group }
+- { id: group/lebanese-broadcasting-corporation-international, label: { ar: "المؤسسة اللبنانية للإرسال إنترناسيونال", en: "Lebanese Broadcasting Corporation International" }, class: group }
+- { id: group/mbc-1, label: { ar: "إم بي سي 1", en: "MBC 1" }, class: group }
+- { id: group/mbc-group, label: { ar: "مجموعة إم بي سي", en: "MBC Group" }, class: group }
+- { id: group/netflix, label: { ar: "نتفليكس", en: "Netflix" }, class: group }
+- { id: group/qatar-tv, label: { ar: "تلفزيون قطر", en: "Qatar TV" }, class: group }
+- { id: group/rcti, label: { ar: "آر سي تي آي", en: "RCTI" }, class: group }
+- { id: group/sctv, label: { en: "SCTV" }, class: group }
+- { id: group/trt-1, label: { ar: "تي أر تي 1", en: "TRT 1" }, class: group }
+- { id: group/vpro, label: { en: "VPRO" }, class: group }
+- { id: person/a-c-bradley, label: { en: "A. C. Bradley" }, class: person }
+- { id: person/abbas-amiri-moghaddam, label: { ar: "عباس أميري", en: "Abbas Amiri Moghaddam" }, class: person }
+- { id: person/abbas-kiarostami, label: { ar: "عباس كيارستمي", en: "Abbas Kiarostami" }, class: person }
+- { id: person/abdel-hamid-gouda-al-sahhar, label: { ar: "عبد الحميد جودة السحار", en: "Abdel Hamid Gouda al-Sahhar" }, class: person }
+- { id: person/abdel-raouf-dafri, label: { ar: "عبد الرؤوف دفري", en: "Abdel Raouf Dafri" }, class: person }
+- { id: person/abderrahmane-sissako, label: { ar: "عبد الرحمن سيساكو", en: "Abderrahmane Sissako" }, class: person }
+- { id: person/abdul-hakim-quotaifan, label: { ar: "عبد الحكيم قطيفان", en: "Abdul Hakim Quotaifan" }, class: person }
+- { id: person/abdul-kadir, label: { en: "Abdul Kadir" }, class: person }
+- { id: person/abdurrahman-ahmed-serkavi, label: { ar: "عبد الرحمن الشرقاوي", en: "Abdurrahman Ahmed Şerkavi" }, class: person }
+- { id: person/abed-fahed, label: { ar: "عابد فهد", en: "Abed Fahed" }, class: person }
+- { id: person/abel-jafri, label: { ar: "عادل جفري", en: "Abel Jafri" }, class: person }
+- { id: person/abimana-aryasatya, label: { ar: "أبيمنا أرياستيا", en: "Abimana Aryasatya" }, class: person }
+- { id: person/abrar-hussain, label: { en: "Abrar Hussain" }, class: person }
+- { id: person/acha-septriasa, label: { en: "Acha Septriasa" }, class: person }
+- { id: person/adeel-afzal, label: { en: "Adeel Afzal" }, class: person }
+- { id: person/adeel-akhtar, label: { ar: "عديل اختر", en: "Adeel Akhtar" }, class: person }
+- { id: person/adel-bencherif, label: { ar: "عادل بن شريف", en: "Adel Bencherif" }, class: person }
+- { id: person/adel-karam, label: { ar: "عادل كرم", en: "Adel Karam" }, class: person }
+- { id: person/aden-bajaj, label: { en: "Aden Bajaj" }, class: person }
+- { id: person/adewale-akinnuoye-agbaje, label: { ar: "أديوالي أقباجي", en: "Adewale Akinnuoye-Agbaje" }, class: person }
+- { id: person/adi-putra, label: { en: "Adi Putra" }, class: person }
+- { id: person/adil-el-arbi, label: { ar: "عادل العربي", en: "Adil El Arbi" }, class: person }
+- { id: person/adil-ray, label: { en: "Adil Ray" }, class: person }
+- { id: person/aditya-herpavi-rachman, label: { en: "Aditya Herpavi Rachman" }, class: person }
+- { id: person/aditya-novika, label: { en: "Aditya Novika" }, class: person }
+- { id: person/adjie-pangestu, label: { en: "Adjie Pangestu" }, class: person }
+- { id: person/ahmad-mazhar, label: { ar: "أحمد مظهر", en: "Ahmad Mazhar" }, class: person }
+- { id: person/ahmed-fouad-selim, label: { ar: "أحمد فؤاد سليم", en: "Ahmed Fouad Selim" }, class: person }
+- { id: person/ahuva-keren, label: { ar: "اهوفا كيرين", en: "Ahuva Keren" }, class: person }
+- { id: person/aicha-ben-ahmed, label: { ar: "عائشة بن أحمد", en: "Aïcha Ben Ahmed" }, class: person }
+- { id: person/aiysha-hart, label: { ar: "عائشة هارت", en: "Aiysha Hart" }, class: person }
+- { id: person/akef-najem, label: { ar: "عاكف نجم", en: "Akef Najem" }, class: person }
+- { id: person/al-freeman-jr, label: { ar: "آل فريمان جونيور", en: "Al Freeman Jr." }, class: person }
+- { id: person/al-rodrigo, label: { ar: "أل رودريغو", en: "Al Rodrigo" }, class: person }
+- { id: person/alaa-eddine-aljem, label: { ar: "علاء الدين الجم", en: "Alaa Eddine Aljem" }, class: person }
+- { id: person/albert-hall, label: { ar: "ألبرت هال", en: "Albert Hall" }, class: person }
+- { id: person/aldisar-syafar, label: { en: "Aldisar Syafar" }, class: person }
+- { id: person/alex-abbad, label: { en: "Alex Abbad" }, class: person }
+- { id: person/alfred-molina, label: { ar: "ألفريد مولينا", en: "Alfred Molina" }, class: person }
+- { id: person/ali-ahmad-bakathir, label: { ar: "علي أحمد باكثير", en: "Ali Ahmad Bakathir" }, class: person }
+- { id: person/ali-ersan-duru, label: { ar: "علي إرسان", en: "Ali Ersan Duru" }, class: person }
+- { id: person/ali-fikry, label: { en: "Ali Fikry" }, class: person }
+- { id: person/ali-pourtash, label: { en: "Ali Pourtash" }, class: person }
+- { id: person/ali-suliman, label: { ar: "علي سليمان", en: "Ali Suliman" }, class: person }
+- { id: person/alice-norin, label: { ar: "أليس نورين", en: "Alice Norin" }, class: person }
+- { id: person/alina-khan, label: { ar: "علينه خان", en: "Alina Khan" }, class: person }
+- { id: person/alireza-shoja-nouri, label: { ar: "علي رضا شجاع نوري", en: "Alireza Shoja Nouri" }, class: person }
+- { id: person/allen-altman, label: { ar: "الين التمان", en: "Allen Altman" }, class: person }
+- { id: person/amer-hlehel, label: { ar: "عامر حليحل", en: "Amer Hlehel" }, class: person }
+- { id: person/amin-zendegani, label: { ar: "أمين زندكاني", en: "Amin Zendegani" }, class: person }
+- { id: person/amr-waked, label: { ar: "عمرو واكد", en: "Amr Waked" }, class: person }
+- { id: person/amrollah-ahmadjoo, label: { en: "Amrollah Ahmadjoo" }, class: person }
+- { id: person/anas-el-baz, label: { ar: "أنس الباز", en: "Anas El Baz" }, class: person }
+- { id: person/anders-t-andersen, label: { en: "Anders T. Andersen" }, class: person }
+- { id: person/andi-arsyil-rahman, label: { en: "Andi Arsyil Rahman" }, class: person }
+- { id: person/andre-morell, label: { ar: "أندريه موريل", en: "André Morell" }, class: person }
+- { id: person/andrea-kalin, label: { en: "Andrea Kalin" }, class: person }
+- { id: person/andrew-marton, label: { ar: "أندرو مارتون", en: "Andrew Marton" }, class: person }
+- { id: person/angela-bassett, label: { ar: "أنجيلا باسيت", en: "Angela Bassett" }, class: person }
+- { id: person/anggia-kharisma, label: { en: "Anggia Kharisma" }, class: person }
+- { id: person/anil-gupta, label: { en: "Anil Gupta" }, class: person }
+- { id: person/anisa-mehdi, label: { ar: "أنيسة مهدي", en: "Anisa Mehdi" }, class: person }
+- { id: person/anjum-shahzad, label: { en: "Anjum Shahzad" }, class: person }
+- { id: person/anthony-mackie, label: { ar: "أنتوني ماكي", en: "Anthony Mackie" }, class: person }
+- { id: person/anthony-quinn, label: { ar: "أنتوني كوين", en: "Anthony Quinn" }, class: person }
+- { id: person/antoine-basler, label: { ar: "أنطوان باسلر", en: "Antoine Basler" }, class: person }
+- { id: person/antonio-banderas, label: { ar: "أنتونيو بانديراس", en: "Antonio Banderas" }, class: person }
+- { id: person/anupam-kher, label: { ar: "أنوبام خير", en: "Anupam Kher" }, class: person }
+- { id: person/aramis-knight, label: { ar: "آرامیس نایت", en: "Aramis Knight" }, class: person }
+- { id: person/arlene-duncan, label: { en: "Arlene Duncan" }, class: person }
+- { id: person/arnold-perl, label: { en: "Arnold Perl" }, class: person }
+- { id: person/arnold-schwarzenegger, label: { ar: "أرنولد شوارزنيجر", en: "Arnold Schwarzenegger" }, class: person }
+- { id: person/art-malik, label: { ar: "أرت مالك", en: "Art Malik" }, class: person }
+- { id: person/asghar-farhadi, label: { ar: "أصغر فرهادي", en: "Asghar Farhadi" }, class: person }
+- { id: person/ashraf-barhom, label: { ar: "أشرف برهوم", en: "Ashraf Barhom" }, class: person }
+- { id: person/asmaa-galal, label: { ar: "أسماء جلال", en: "Asmaa Galal" }, class: person }
+- { id: person/assia-boundaoui, label: { en: "Assia Boundaoui" }, class: person }
+- { id: person/ayaan-hirsi-ali, label: { ar: "آيان هرسي علي", en: "Ayaan Hirsi Ali" }, class: person }
+- { id: person/ayman-jamal, label: { en: "Ayman Jamal" }, class: person }
+- { id: person/ayman-zeidan, label: { ar: "أيمن زيدان", en: "Ayman Zeidan" }, class: person }
+- { id: person/babak-karimi, label: { ar: "بابك كريمي", en: "Babak Karimi" }, class: person }
+- { id: person/badri-hassoun-farid, label: { ar: "بدري حسون فريد", en: "Badri Hassoun Farid" }, class: person }
+- { id: person/baldev-raj-chopra, label: { en: "Baldev Raj Chopra" }, class: person }
+- { id: person/balraj-sahni, label: { ar: "بلرج ساهني", en: "Balraj Sahni" }, class: person }
+- { id: person/bassam-nessim, label: { ar: "سام منير", en: "Bassam Nessim" }, class: person }
+- { id: person/bassel-khaiat, label: { ar: "باسل خياط", en: "Bassel Khaiat" }, class: person }
+- { id: person/bassem-yakhour, label: { ar: "باسم ياخور", en: "Bassem Yakhour" }, class: person }
+- { id: person/baya-belal, label: { ar: "بايا بلال", en: "Baya Belal" }, class: person }
+- { id: person/behzad-farahani, label: { ar: "بهزاد فراهاني", en: "Behzad Farahani" }, class: person }
+- { id: person/ben-kingsley, label: { ar: "بن كينغسلي", en: "Ben Kingsley" }, class: person }
+- { id: person/benedict-cumberbatch, label: { ar: "بيندكت كامبرباتش", en: "Benedict Cumberbatch" }, class: person }
+- { id: person/bernard-holley, label: { ar: "برنارد هولي", en: "Bernard Holley" }, class: person }
+- { id: person/bero-beyer, label: { ar: "بيرو بيير", en: "Bero Beyer" }, class: person }
+- { id: person/beto-kusyairy, label: { en: "Beto Kusyairy" }, class: person }
+- { id: person/bettany-hughes, label: { ar: "بيتاني هيوز", en: "Bettany Hughes" }, class: person }
+- { id: person/bhavna-limbachia, label: { en: "Bhavna Limbachia" }, class: person }
+- { id: person/bilall-fallah, label: { ar: "بلال فلاح", en: "Bilall Fallah" }, class: person }
+- { id: person/birkan-sokullu, label: { ar: "بيركان سوكولو", en: "Birkan Sokullu" }, class: person }
+- { id: person/bisha-k-ali, label: { en: "Bisha K. Ali" }, class: person }
+- { id: person/blandine-pelissier, label: { en: "Blandine Pélissier" }, class: person }
+- { id: person/bo-burnham, label: { ar: "بو بورنهام", en: "Bo Burnham" }, class: person }
+- { id: person/brahim-hadjadj, label: { ar: "إبراهيم حجاج", en: "Brahim Hadjadj" }, class: person }
+- { id: person/brendan-gleeson, label: { ar: "برندان غليسون", en: "Brendan Gleeson" }, class: person }
+- { id: person/brian-gilbert, label: { ar: "براين جيلبرت", en: "Brian Gilbert" }, class: person }
+- { id: person/brian-nissen, label: { en: "Brian Nissen" }, class: person }
+- { id: person/bruce-neibaur, label: { en: "Bruce Neibaur" }, class: person }
+- { id: person/bruno-fleury, label: { ar: "برونو فلوري", en: "Bruno Fleury" }, class: person }
+- { id: person/bulent-i-nal, label: { ar: "بولنت إينال", en: "Bülent İnal" }, class: person }
+- { id: person/burak-celik, label: { ar: "براق جليك", en: "Burak Çelik" }, class: person }
+- { id: person/burak-ozcivit, label: { ar: "براق أوزجوید", en: "Burak Özçivit" }, class: person }
+- { id: person/carissa-putri, label: { en: "Carissa Putri" }, class: person }
+- { id: person/carlo-rota, label: { ar: "كارلو روتا", en: "Carlo Rota" }, class: person }
+- { id: person/cem-yigit-uzumoglu, label: { ar: "جيم يغيت أوزوموغلو", en: "Cem Yiğit Üzümoğlu" }, class: person }
+- { id: person/cengiz-coskun, label: { ar: "جنكيز جوكشون", en: "Cengiz Coşkun" }, class: person }
+- { id: person/chaerul-umam, label: { en: "Chaerul Umam" }, class: person }
+- { id: person/cherien-dabis, label: { ar: "شيرين دعيبس", en: "Cherien Dabis" }, class: person }
+- { id: person/china-anne-mcclain, label: { ar: "تشاينا آن ماكلين", en: "China Anne McClain" }, class: person }
+- { id: person/chris-morris, label: { ar: "كريس موريس", en: "Chris Morris" }, class: person }
+- { id: person/christopher-buchholz, label: { ar: "كريستوفر بوكهولز", en: "Christopher Buchholz" }, class: person }
+- { id: person/christopher-simpson, label: { ar: "كريستوفر سيمبسون", en: "Christopher Simpson" }, class: person }
+- { id: person/christopher-storer, label: { ar: "كريستوفر ستورر", en: "Christopher Storer" }, class: person }
+- { id: person/christopher-wilkinson, label: { ar: "كريستوفر ويلكينسون", en: "Christopher Wilkinson" }, class: person }
+- { id: person/christy-jusung, label: { en: "Christy Jusung" }, class: person }
+- { id: person/citra-kirana, label: { en: "Citra Kirana" }, class: person }
+- { id: person/clive-russell, label: { ar: "كلايف روسل", en: "Clive Russell" }, class: person }
+- { id: person/craig-parkinson, label: { en: "Craig Parkinson" }, class: person }
+- { id: person/cuneyt-turel, label: { en: "Cüneyt Türel" }, class: person }
+- { id: person/cynthia-kaye-mcwilliams, label: { en: "Cynthia Kaye McWilliams" }, class: person }
+- { id: person/cyrus-nowrasteh, label: { ar: "سیروس نورسته", en: "Cyrus Nowrasteh" }, class: person }
+- { id: person/damla-sonmez, label: { ar: "داملا سونمز", en: "Damla Sönmez" }, class: person }
+- { id: person/dariush-arjmand, label: { ar: "داريوش أرجمند", en: "Dariush Arjmand" }, class: person }
+- { id: person/dave-b-mitchell, label: { ar: "ديف بي. ميتشيل", en: "Dave B. Mitchell" }, class: person }
+- { id: person/david-diaan, label: { en: "David Diaan" }, class: person }
+- { id: person/david-self, label: { ar: "ديفيد سلف", en: "David Self" }, class: person }
+- { id: person/david-thewlis, label: { ar: "ديفيد ثيوليس", en: "David Thewlis" }, class: person }
+- { id: person/david-w-rintels, label: { en: "David W. Rintels" }, class: person }
+- { id: person/davood-mir-bagheri, label: { ar: "داود ميرباقري", en: "Davood Mir-Bagheri" }, class: person }
+- { id: person/davoud-rashidi, label: { ar: "داوود رشيدي", en: "Davoud Rashidi" }, class: person }
+- { id: person/dean-obeidallah, label: { ar: "دين عبيدالله", en: "Dean Obeidallah" }, class: person }
+- { id: person/debra-mcgrath, label: { ar: "ديبرا ماكغراث", en: "Debra McGrath" }, class: person }
+- { id: person/deddy-mizwar, label: { en: "Deddy Mizwar" }, class: person }
+- { id: person/deepak-parashar, label: { en: "Deepak Parashar" }, class: person }
+- { id: person/deliana-siahaan, label: { en: "Deliana Siahaan" }, class: person }
+- { id: person/delroy-lindo, label: { ar: "ديلروي ليندو", en: "Delroy Lindo" }, class: person }
+- { id: person/denis-villeneuve, label: { ar: "ديني فيلنوف", en: "Denis Villeneuve" }, class: person }
+- { id: person/dennis-adhiswara, label: { en: "Dennis Adhiswara" }, class: person }
+- { id: person/denzel-washington, label: { ar: "دنزل واشنطن", en: "Denzel Washington" }, class: person }
+- { id: person/derek-mcgrath, label: { en: "Derek McGrath" }, class: person }
+- { id: person/devrim-evin, label: { ar: "ديفريم إيفين", en: "Devrim Evin" }, class: person }
+- { id: person/dewi-sandra, label: { ar: "ديوي ساندرا", en: "Dewi Sandra" }, class: person }
+- { id: person/diane-venora, label: { ar: "ديان فينورا", en: "Diane Venora" }, class: person }
+- { id: person/didem-balcin, label: { ar: "ديدم بلجين", en: "Didem Balçın" }, class: person }
+- { id: person/didi-petet, label: { en: "Didi Petet" }, class: person }
+- { id: person/dilek-serbest, label: { ar: "ديلك سربست", en: "Dilek Serbest" }, class: person }
+- { id: person/duaa-karim, label: { en: "Duaa Karim" }, class: person }
+- { id: person/ebrahim-hatamikia, label: { ar: "إبراهيم حاتمي كيا", en: "Ebrahim Hatamikia" }, class: person }
+- { id: person/ed-grady, label: { en: "Ed Grady" }, class: person }
+- { id: person/edward-norton, label: { ar: "إدوارد نورتون", en: "Edward Norton" }, class: person }
+- { id: person/el-manik, label: { en: "El Manik" }, class: person }
+- { id: person/elham-hamidi, label: { ar: "إلهام حميدي", en: "Elham Hamidi" }, class: person }
+- { id: person/elham-korda, label: { en: "Elham Korda" }, class: person }
+- { id: person/elit-i-scan, label: { ar: "أليت إيشجان", en: "Elit İşcan" }, class: person }
+- { id: person/eman-suleman, label: { en: "Eman Suleman" }, class: person }
+- { id: person/emily-v-gordon, label: { en: "Emily V. Gordon" }, class: person }
+- { id: person/engin-altan-duzyatan, label: { ar: "إنجين آلتان دوزياتان", en: "Engin Altan Düzyatan" }, class: person }
+- { id: person/engin-gunaydin, label: { en: "Engin Günaydın" }, class: person }
+- { id: person/enrico-bomba, label: { ar: "إنريكو بومبا", en: "Enrico Bomba" }, class: person }
+- { id: person/erden-alkan, label: { ar: "إيردن ألكان", en: "Erden Alkan" }, class: person }
+- { id: person/eric-roth, label: { ar: "اريك روث", en: "Eric Roth" }, class: person }
+- { id: person/erkan-can, label: { ar: "أركان جان", en: "Erkan Can" }, class: person }
+- { id: person/erman-saban, label: { ar: "عرمان سابان", en: "Erman Saban" }, class: person }
+- { id: person/esra-bilgic, label: { ar: "إسراء بلكج", en: "Esra Bilgiç" }, class: person }
+- { id: person/eva-green, label: { ar: "إيفا غرين", en: "Eva Green" }, class: person }
+- { id: person/eyad-nassar, label: { ar: "إياد نصار", en: "Eyad Nassar" }, class: person }
+- { id: person/ezzat-el-alaili, label: { ar: "عزت العلايلي", en: "Ezzat El Alaili" }, class: person }
+- { id: person/farajullah-salahshur, label: { ar: "فرج الله سلحشور", en: "Farajullah Salahshur" }, class: person }
+- { id: person/farhad-aslani, label: { ar: "فرهاد أصلاني", en: "Farhad Aslani" }, class: person }
+- { id: person/fariba-kossari, label: { ar: "فريبا كوثري", en: "Fariba Kossari" }, class: person }
+- { id: person/fariborz-arabnia, label: { ar: "فريبرز عربنيا", en: "Fariborz Arabnia" }, class: person }
+- { id: person/farid-amirul, label: { en: "Farid Amirul" }, class: person }
+- { id: person/farid-larbi, label: { ar: "فريد العربي", en: "Farid Larbi" }, class: person }
+- { id: person/farid-shawqi, label: { ar: "فريد شوقي", en: "Farid Shawqi" }, class: person }
+- { id: person/faris-kermani, label: { en: "Faris Kermani" }, class: person }
+- { id: person/faruk-aksoy, label: { ar: "فاروق أكسوي", en: "Faruk Aksoy" }, class: person }
+- { id: person/fatima-adoum, label: { ar: "فاطمه عضوم", en: "Fatima Adoum" }, class: person }
+- { id: person/fatima-al-banawi, label: { ar: "فاطمة البنوي", en: "Fatima Al-Banawi" }, class: person }
+- { id: person/fatimah-asghar, label: { en: "Fatimah Asghar" }, class: person }
+- { id: person/fatoumata-diawara, label: { ar: "فاتوماتا دياوارا", en: "Fatoumata Diawara" }, class: person }
+- { id: person/fattah-amin, label: { en: "Fattah Amin" }, class: person }
+- { id: person/fawad-afzal-khan, label: { ar: "فواد خان", en: "Fawad Afzal Khan" }, class: person }
+- { id: person/fayez-abu-dan, label: { ar: "فايز أبو دان", en: "Fayez Abu Dan" }, class: person }
+- { id: person/fedi-nuril, label: { en: "Fedi Nuril" }, class: person }
+- { id: person/fenita-arie, label: { en: "Fenita Arie" }, class: person }
+- { id: person/fereshte-sarabandi, label: { en: "Fereshte Sarabandi" }, class: person }
+- { id: person/fethi-haddaoui, label: { ar: "فتحي الهداوي", en: "Fethi Haddaoui" }, class: person }
+- { id: person/folco-lulli, label: { ar: "فولكو لولي", en: "Folco Lulli" }, class: person }
+- { id: person/franco-solinas, label: { en: "Franco Solinas" }, class: person }
+- { id: person/fred-tatasciore, label: { ar: "فريد تاتاسكاوري", en: "Fred Tatasciore" }, class: person }
+- { id: person/freddy-syborn, label: { en: "Freddy Syborn" }, class: person }
+- { id: person/frederic-paquet, label: { ar: "فريديريك باكيه", en: "Frédéric Paquet" }, class: person }
+- { id: person/frederick-stafford, label: { ar: "فريدريك ستافورد", en: "Frederick Stafford" }, class: person }
+- { id: person/freidoune-sahebjam, label: { ar: "فريدون صاحب جم", en: "Freidoune Sahebjam" }, class: person }
+- { id: person/fusia-el-kader, label: { en: "Fusia El Kader" }, class: person }
+- { id: person/gary-ross, label: { ar: "غاري روس", en: "Gary Ross" }, class: person }
+- { id: person/gastone-moschin, label: { ar: "غاستون موسكين", en: "Gastone Moschin" }, class: person }
+- { id: person/geert-wilders, label: { ar: "خيرت فيلدرز", en: "Geert Wilders" }, class: person }
+- { id: person/georg-misch, label: { en: "Georg Misch" }, class: person }
+- { id: person/georges-corraface, label: { en: "Georges Corraface" }, class: person }
+- { id: person/geza-rohrig, label: { ar: "جيزا روهريج", en: "Géza Röhrig" }, class: person }
+- { id: person/ghanem-zrelli, label: { ar: "غانم الزرلي", en: "Ghanem Zrelli" }, class: person }
+- { id: person/ghassan-massoud, label: { ar: "غسان مسعود", en: "Ghassan Massoud" }, class: person }
+- { id: person/gilles-cohen, label: { ar: "جيل كوهين", en: "Gilles Cohen" }, class: person }
+- { id: person/gillo-pontecorvo, label: { ar: "جيلو بونتيكورفو", en: "Gillo Pontecorvo" }, class: person }
+- { id: person/ginatri-s-noer, label: { en: "Ginatri S. Noer" }, class: person }
+- { id: person/giring-ganesha, label: { en: "Giring Ganesha" }, class: person }
+- { id: person/guntur-soeharjanto, label: { en: "Guntur Soeharjanto" }, class: person }
+- { id: person/guven-kirac, label: { ar: "جوفن كيراك", en: "Güven Kıraç" }, class: person }
+- { id: person/guz-khan, label: { ar: "جوز خان", en: "Guz Khan" }, class: person }
+- { id: person/h-a-l-craig, label: { ar: "هاري كريج", en: "H.A.L. Craig" }, class: person }
+- { id: person/haifaa-al-mansour, label: { ar: "هيفاء المنصور", en: "Haifaa al-Mansour" }, class: person }
+- { id: person/hameed-sheikh, label: { ar: "حميد شيخ", en: "Hameed Sheikh" }, class: person }
+- { id: person/hani-hani, label: { ar: "هاني هاني", en: "Hani Hani" }, class: person }
+- { id: person/hani-salama, label: { ar: "هاني سلامة", en: "Hani Salama" }, class: person }
+- { id: person/hanung-bramantyo, label: { ar: "هانونغ برامانتيو", en: "Hanung Bramantyo" }, class: person }
+- { id: person/hany-abu-assad, label: { ar: "هاني أبو أسعد", en: "Hany Abu-Assad" }, class: person }
+- { id: person/harry-bradbeer, label: { en: "Harry Bradbeer" }, class: person }
+- { id: person/haseeb-hassan, label: { en: "Haseeb Hassan" }, class: person }
+- { id: person/hassan-younes, label: { ar: "حسان يونس", en: "Hassan Younes" }, class: person }
+- { id: person/hatem-ali, label: { ar: "حاتم علي", en: "Hatem Ali" }, class: person }
+- { id: person/hefri-olifian, label: { en: "Hefri Olifian" }, class: person }
+- { id: person/hiam-abbass, label: { ar: "هيام عباس", en: "Hiam Abbass" }, class: person }
+- { id: person/hichem-yacoubi, label: { ar: "هشام اليعقوبي", en: "Hichem Yacoubi" }, class: person }
+- { id: person/hisham-fageeh, label: { ar: "هشام فقيه", en: "Hisham Fageeh" }, class: person }
+- { id: person/holly-hunter, label: { ar: "هولي هنتر", en: "Holly Hunter" }, class: person }
+- { id: person/homa-khakpash, label: { en: "Homa Khakpash" }, class: person }
+- { id: person/homayoun-ershadi, label: { ar: "همايون إرشادي", en: "Homayoun Ershadi" }, class: person }
+- { id: person/hulya-darcan, label: { ar: "هوليا دارجان", en: "Hülya Darcan" }, class: person }
+- { id: person/i-brahim-celikkol, label: { ar: "إبراهيم تشيليكول", en: "İbrahim Çelikkol" }, class: person }
+- { id: person/ian-mcshane, label: { ar: "إيان ماكشين", en: "Ian McShane" }, class: person }
+- { id: person/ibrahim-ahmed-dit-pino, label: { en: "Ibrahim Ahmed dit Pino" }, class: person }
+- { id: person/iftekhar, label: { ar: "افتخار", en: "Iftekhar" }, class: person }
+- { id: person/imam-darto, label: { en: "Imam Darto" }, class: person }
+- { id: person/imam-tantowi, label: { en: "Imam Tantowi" }, class: person }
+- { id: person/iman-ali, label: { ar: "إيمان علي", en: "Iman Ali" }, class: person }
+- { id: person/iman-vellani, label: { ar: "إيمان فيلاني", en: "Iman Vellani" }, class: person }
+- { id: person/irene-papas, label: { ar: "إيرين باباس", en: "Irene Papas" }, class: person }
+- { id: person/isa-bajaj, label: { en: "Isa Bajaj" }, class: person }
+- { id: person/isma-l-ferroukhi, label: { ar: "إسماعيل فروخي", en: "Ismaël Ferroukhi" }, class: person }
+- { id: person/jack-shaheen, label: { ar: "جاك شاهين", en: "Jack Shaheen" }, class: person }
+- { id: person/jacky-nercessian, label: { ar: "جاكي نرسيسيان", en: "Jacky Nercessian" }, class: person }
+- { id: person/jacob-latimore, label: { ar: "جاكوب لاتيمور", en: "Jacob Latimore" }, class: person }
+- { id: person/jacques-audiard, label: { ar: "جاك أوديار", en: "Jacques Audiard" }, class: person }
+- { id: person/jada-pinkett-smith, label: { ar: "جادا بينكيت سميث", en: "Jada Pinkett Smith" }, class: person }
+- { id: person/jafar-dehghan, label: { ar: "جعفر دهقان", en: "Jafar Dehghan" }, class: person }
+- { id: person/jahanbakhsh-soltani, label: { ar: "جهانبخش سلطاني", en: "Jahanbakhsh Soltani" }, class: person }
+- { id: person/jamal-suliman, label: { ar: "جمال سليمان", en: "Jamal Suliman" }, class: person }
+- { id: person/james-baldwin, label: { ar: "جيمس بالدوين", en: "James Baldwin" }, class: person }
+- { id: person/jamie-foxx, label: { ar: "جيمي فوكس", en: "Jamie Foxx" }, class: person }
+- { id: person/jamila-chihi, label: { ar: "جميلة الشيحي", en: "Jamila Chihi" }, class: person }
+- { id: person/jamshid-mashayekhi, label: { ar: "جمشيد مشايخي", en: "Jamshid Mashayekhi" }, class: person }
+- { id: person/jarwo-kwat, label: { en: "Jarwo Kwat" }, class: person }
+- { id: person/jean-martin, label: { ar: "جيان مارتن", en: "Jean Martin" }, class: person }
+- { id: person/jean-philippe-ricci, label: { ar: "جان فيليب ريتشي", en: "Jean-Philippe Ricci" }, class: person }
+- { id: person/jeffrey-wright, label: { ar: "جيفري رايت", en: "Jeffrey Wright" }, class: person }
+- { id: person/jennifer-echols, label: { en: "Jennifer Echols" }, class: person }
+- { id: person/jennifer-maytorena-taylor, label: { en: "Jennifer Maytorena Taylor" }, class: person }
+- { id: person/jeremy-irons, label: { ar: "جيرمي أيرونز", en: "Jeremy Irons" }, class: person }
+- { id: person/jesse-armstrong, label: { ar: "جيسي أرمسترونغ", en: "Jesse Armstrong" }, class: person }
+- { id: person/jim-caviezel, label: { ar: "جيم كافيزل", en: "Jim Caviezel" }, class: person }
+- { id: person/jimmy-shergill, label: { en: "Jimmy Shergill" }, class: person }
+- { id: person/john-gielgud, label: { ar: "جون غيلغد", en: "John Gielgud" }, class: person }
+- { id: person/john-mctiernan, label: { ar: "جون مكتيرنان", en: "John McTiernan" }, class: person }
+- { id: person/johnny-sekka, label: { ar: "جوني سيكا", en: "Johnny Sekka" }, class: person }
+- { id: person/jon-voight, label: { ar: "جون فويت", en: "Jon Voight" }, class: person }
+- { id: person/jourast-jordy, label: { en: "Jourast Jordy" }, class: person }
+- { id: person/julia-davis, label: { ar: "جوليا دافيس", en: "Julia Davis" }, class: person }
+- { id: person/julia-kassar, label: { ar: "جوليا قصار", en: "Julia Kassar" }, class: person }
+- { id: person/kaan-tasaner, label: { ar: "كعان طاشانر", en: "Kaan Taşaner" }, class: person }
+- { id: person/kaifi-azmi, label: { ar: "كيفي اعظمي", en: "Kaifi Azmi" }, class: person }
+- { id: person/kais-nashef, label: { ar: "قيس ناشف", en: "Kais Nashef" }, class: person }
+- { id: person/kajol, label: { ar: "كاجول", en: "Kajol" }, class: person }
+- { id: person/kamel-belghazi, label: { ar: "كامل بلغازي", en: "Kamel Belghazi" }, class: person }
+- { id: person/kamel-el-basha, label: { ar: "كامل الباشا", en: "Kamel El Basha" }, class: person }
+- { id: person/kanaan-ali, label: { ar: "كنعان علي", en: "Kanaan Ali" }, class: person }
+- { id: person/kanaan-wasfy, label: { ar: "كنعان وصفي", en: "Kanaan Wasfy" }, class: person }
+- { id: person/kaouther-ben-hania, label: { ar: "كوثر بن هنية", en: "Kaouther Ben Hania" }, class: person }
+- { id: person/karam-al-shaarani, label: { ar: "كرم الشعراني", en: "Karam Al-Shaarani" }, class: person }
+- { id: person/karan-johar, label: { ar: "كاران جوهر", en: "Karan Johar" }, class: person }
+- { id: person/karen-armstrong, label: { ar: "كارن أرمسترونغ", en: "Karen Armstrong" }, class: person }
+- { id: person/karin-dor, label: { ar: "كارين دور", en: "Karin Dor" }, class: person }
+- { id: person/katayoun-riahi, label: { ar: "كتايون رياحي", en: "Katayoun Riahi" }, class: person }
+- { id: person/kate-hudson, label: { ar: "كيت هدسون", en: "Kate Hudson" }, class: person }
+- { id: person/kate-vernon, label: { ar: "كيت فيرنون", en: "Kate Vernon" }, class: person }
+- { id: person/kayvan-novak, label: { ar: "كايفان نوفاك", en: "Kayvan Novak" }, class: person }
+- { id: person/kessen-tall, label: { en: "Kessen Tall" }, class: person }
+- { id: person/khaled-el-nabawy, label: { ar: "خالد النبوي", en: "Khaled El Nabawy" }, class: person }
+- { id: person/khaled-salah, label: { ar: "خالد صلاح", en: "Khaled Salah" }, class: person }
+- { id: person/khaled-youssef, label: { ar: "خالد يوسف", en: "Khaled Youssef" }, class: person }
+- { id: person/khaleel-mohammed, label: { en: "Khaleel Mohammed" }, class: person }
+- { id: person/khir-rahman, label: { en: "Khir Rahman" }, class: person }
+- { id: person/kholidi-asadil-alam, label: { en: "Kholidi Asadil Alam" }, class: person }
+- { id: person/khurram-alavi, label: { en: "Khurram Alavi" }, class: person }
+- { id: person/kiefer-sutherland, label: { ar: "كيفر ساذرلاند", en: "Kiefer Sutherland" }, class: person }
+- { id: person/kiell-smith-bynoe, label: { en: "Kiell Smith-Bynoe" }, class: person }
+- { id: person/kiril-kavadarkov, label: { ar: "كيريل كافاداركوف", en: "Kiril Kavadarkov" }, class: person }
+- { id: person/koksal-engur, label: { en: "Köksal Engür" }, class: person }
+- { id: person/kris-marshall, label: { ar: "كريس مارشال", en: "Kris Marshall" }, class: person }
+- { id: person/kumail-nanjiani, label: { ar: "كميل نانجياني", en: "Kumail Nanjiani" }, class: person }
+- { id: person/laila-elouy, label: { ar: "ليلى علوي", en: "Laila Elouy" }, class: person }
+- { id: person/laila-taher, label: { ar: "ليلى طاهر", en: "Laila Taher" }, class: person }
+- { id: person/laith-nakli, label: { ar: "ليث نقلي", en: "Laith Nakli" }, class: person }
+- { id: person/lamis-ammar, label: { ar: "لميس عمار", en: "Lamis Ammar" }, class: person }
+- { id: person/larbi-zekkal, label: { ar: "العربي زكال", en: "Larbi Zekkal" }, class: person }
+- { id: person/lath-el-mofty, label: { ar: "الليث المفتي", en: "Lath El Mofty" }, class: person }
+- { id: person/lee-eddy, label: { en: "Lee Eddy" }, class: person }
+- { id: person/leila-fawzi, label: { ar: "ليلى فوزي", en: "Leila Fawzi" }, class: person }
+- { id: person/leila-hatami, label: { ar: "ليلى حاتمي", en: "Leila Hatami" }, class: person }
+- { id: person/liam-neeson, label: { ar: "ليام نيسون", en: "Liam Neeson" }, class: person }
+- { id: person/liev-schreiber, label: { ar: "ييف شرايبر", en: "Liev Schreiber" }, class: person }
+- { id: person/lili-rich, label: { ar: "ليلي ريتش", en: "Lili Rich" }, class: person }
+- { id: person/linda-emond, label: { ar: "ليندا إموند", en: "Linda Emond" }, class: person }
+- { id: person/lobna-abdelaziz, label: { ar: "لبنى عبد العزيز", en: "Lobna Abdelaziz" }, class: person }
+- { id: person/lojain-ismail, label: { ar: "لجين إسماعيل", en: "Lojain Ismail" }, class: person }
+- { id: person/lubna-azabal, label: { ar: "لبنى أزابال", en: "Lubna Azabal" }, class: person }
+- { id: person/lukman-sardi, label: { en: "Lukman Sardi" }, class: person }
+- { id: person/m-s-sathyu, label: { en: "M. S. Sathyu" }, class: person }
+- { id: person/maggie-briggs, label: { en: "Maggie Briggs" }, class: person }
+- { id: person/mahdi-pakdel, label: { ar: "مهدي باكدل", en: "Mahdi Pakdel" }, class: person }
+- { id: person/mahershala-ali, label: { ar: "ماهرشالا علي", en: "Mahershala Ali" }, class: person }
+- { id: person/mahfouz-abdel-rahman, label: { ar: "محفوظ", en: "Mahfouz Abdel Rahman" }, class: person }
+- { id: person/mahira-khan, label: { ar: "ماهرة خان", en: "Mahira Khan" }, class: person }
+- { id: person/mahmoud-el-meliguy, label: { ar: "محمود المليجي", en: "Mahmoud el-Meliguy" }, class: person }
+- { id: person/mahmoud-hemida, label: { ar: "محمود حميدة", en: "Mahmoud Hemida" }, class: person }
+- { id: person/mahmoud-khalili, label: { ar: "محمود خليلي", en: "Mahmoud Khalili" }, class: person }
+- { id: person/mahmoud-pak-niat, label: { ar: "محمود باك نيت", en: "Mahmoud Pak-Niat" }, class: person }
+- { id: person/mahmoud-sabbagh, label: { ar: "محمود صباغ", en: "Mahmoud Sabbagh" }, class: person }
+- { id: person/mahyar-kaddour, label: { ar: "مهيار خضور", en: "Mahyar Kaddour" }, class: person }
+- { id: person/majid-abdol-azizi, label: { en: "Majid Abdol-Azizi" }, class: person }
+- { id: person/majid-majidi, label: { ar: "مجيد مجيدي", en: "Majid Majidi" }, class: person }
+- { id: person/manoj-sood, label: { en: "Manoj Sood" }, class: person }
+- { id: person/mariam-alghamdi, label: { ar: "مريم الغامدي", en: "Mariam Alghamdi" }, class: person }
+- { id: person/marina-golbahari, label: { ar: "مارينا جولبهاري", en: "Marina Golbahari" }, class: person }
+- { id: person/mario-van-peebles, label: { ar: "ماريو فان بيبلس", en: "Mario Van Peebles" }, class: person }
+- { id: person/marissa-nasution, label: { en: "Marissa Nasution" }, class: person }
+- { id: person/marjane-satrapi, label: { ar: "مرجان ساترابي", en: "Marjane Satrapi" }, class: person }
+- { id: person/mark-silcox, label: { en: "Mark Silcox" }, class: person }
+- { id: person/martin-donovan, label: { ar: "مارتن دونوفان", en: "Martin Donovan" }, class: person }
+- { id: person/martin-gilbert, label: { ar: "مارتن غيلبرت", en: "Martin Gilbert" }, class: person }
+- { id: person/marton-csokas, label: { ar: "مارتون كسوكاس", en: "Marton Csokas" }, class: person }
+- { id: person/mat-solar, label: { en: "Mat Solar" }, class: person }
+- { id: person/matt-lintz, label: { ar: "مات لينتز", en: "Matt Lintz" }, class: person }
+- { id: person/matthew-cottle, label: { en: "Matthew Cottle" }, class: person }
+- { id: person/maudy-koesnaedi, label: { en: "Maudy Koesnaedi" }, class: person }
+- { id: person/maxim-gaudette, label: { en: "Maxim Gaudette" }, class: person }
+- { id: person/maxim-khalil, label: { ar: "مكسيم خليل", en: "Maxim Khalil" }, class: person }
+- { id: person/may-calamawy, label: { ar: "مي القلماوي", en: "May Calamawy" }, class: person }
+- { id: person/may-skaf, label: { ar: "مي سكاف", en: "May Skaf" }, class: person }
+- { id: person/maya-sondhi, label: { en: "Maya Sondhi" }, class: person }
+- { id: person/meera-menon, label: { ar: "ميرا مينون", en: "Meera Menon" }, class: person }
+- { id: person/mehar-bano, label: { en: "Mehar Bano" }, class: person }
+- { id: person/mehdi-fakhimzadeh, label: { en: "Mehdi Fakhimzadeh" }, class: person }
+- { id: person/mehdi-fathi, label: { en: "Mehdi Fat'hi" }, class: person }
+- { id: person/mehmet-ali-nuroglu, label: { ar: "محمد علي نور أوغلي", en: "Mehmet Ali Nuroğlu" }, class: person }
+- { id: person/mehmet-bozdag, label: { ar: "محمد بوزداغ", en: "Mehmet Bozdağ" }, class: person }
+- { id: person/mehmet-tanrisever, label: { en: "Mehmet Tanrısever" }, class: person }
+- { id: person/melanie-putria-dewita-sari, label: { en: "Melanie Putria Dewita Sari" }, class: person }
+- { id: person/melissa-desormeaux-poulin, label: { ar: "ميليسا ديسورمو بولين", en: "Mélissa Désormeaux-Poulin" }, class: person }
+- { id: person/melky-bajaj, label: { en: "Melky Bajaj" }, class: person }
+- { id: person/meray-ulgen, label: { en: "Meray Ülgen" }, class: person }
+- { id: person/merila-zarei, label: { ar: "مريلا زارعي", en: "Merila Zarei" }, class: person }
+- { id: person/metin-gunay, label: { ar: "متين جوناي", en: "Metin Günay" }, class: person }
+- { id: person/meyda-sefira, label: { en: "Meyda Sefira" }, class: person }
+- { id: person/michael-ansara, label: { ar: "مايكل أنسارا", en: "Michael Ansara" }, class: person }
+- { id: person/michael-crichton, label: { ar: "مايكل كرايتون", en: "Michael Crichton" }, class: person }
+- { id: person/michael-forest, label: { ar: "مايكل فوريست", en: "Michael Forest" }, class: person }
+- { id: person/michael-lonsdale, label: { ar: "مايكل لونسديل", en: "Michael Lonsdale" }, class: person }
+- { id: person/michael-mann, label: { ar: "مايكل مان", en: "Michael Mann" }, class: person }
+- { id: person/michael-showalter, label: { ar: "مايكل شوالتر", en: "Michael Showalter" }, class: person }
+- { id: person/michel-piccoli, label: { ar: "ميشيل بيكولي", en: "Michel Piccoli" }, class: person }
+- { id: person/mina-sadati, label: { en: "Mina Sadati" }, class: person }
+- { id: person/mira-nair, label: { ar: "ميرا ناير", en: "Mira Nair" }, class: person }
+- { id: person/mohamed-ben-kassen, label: { en: "Mohamed Ben Kassen" }, class: person }
+- { id: person/mohamed-majd, label: { ar: "محمد مجد", en: "Mohamed Majd" }, class: person }
+- { id: person/mohamed-miftah, label: { ar: "محمد مفتاح", en: "Mohamed Miftah" }, class: person }
+- { id: person/mohamed-mounir, label: { ar: "محمد منير", en: "Mohamed Mounir" }, class: person }
+- { id: person/mohammad-azizia, label: { ar: "محمد عزيزية", en: "Mohammad Azizia" }, class: person }
+- { id: person/mohammad-kheir-al-jarrah, label: { ar: "محمد خير الجراح", en: "Mohammad Kheir al-Jarrah" }, class: person }
+- { id: person/mohammad-reza-sharifinia, label: { ar: "محمد رضا شریفینیا", en: "Mohammad-Reza Sharifinia" }, class: person }
+- { id: person/mohammad-yaromtaghloo, label: { ar: "محمد یارمطاقلو", en: "Mohammad Yaromtaghloo" }, class: person }
+- { id: person/mohammadreza-bagheri, label: { en: "Mohammadreza Bagheri" }, class: person }
+- { id: person/mohammed-amer, label: { ar: "مو عامر", en: "Mohammed Amer" }, class: person }
+- { id: person/mohammed-hassan-el-joundi, label: { ar: "محمد حسن الجندي", en: "Mohammed Hassan El Joundi" }, class: person }
+- { id: person/mohan-kapur, label: { ar: "موهان كابور", en: "Mohan Kapur" }, class: person }
+- { id: person/mohsen-tanabandeh, label: { ar: "محسن تنابنده", en: "Mohsen Tanabandeh" }, class: person }
+- { id: person/mohsin-hamid, label: { ar: "محسن حامد", en: "Mohsin Hamid" }, class: person }
+- { id: person/monica-ali, label: { ar: "مونيكا علي", en: "Monica Ali" }, class: person }
+- { id: person/mostafa-zamani, label: { ar: "سلام هیوری", en: "Mostafa Zamani" }, class: person }
+- { id: person/moustapha-akkad, label: { ar: "مصطفى العقاد", en: "Moustapha Akkad" }, class: person }
+- { id: person/mozhan-marno, label: { ar: "موزان مارني", en: "Mozhan Marnò" }, class: person }
+- { id: person/muna-wassef, label: { ar: "منى واصف", en: "Muna Wassef" }, class: person }
+- { id: person/murat-cemcir, label: { ar: "مراد جمجير", en: "Murat Cemcir" }, class: person }
+- { id: person/mursid-aga-bag, label: { en: "Mürşid Ağa Bağ" }, class: person }
+- { id: person/muzakki-ramdhan, label: { en: "Muzakki Ramdhan" }, class: person }
+- { id: person/mykelti-williamson, label: { ar: "مايكلتي ويليامسون", en: "Mykelti Williamson" }, class: person }
+- { id: person/naci-adiguzel, label: { en: "Naci Adıgüzel" }, class: person }
+- { id: person/nader-talebzadeh, label: { ar: "نادر طالب زادة", en: "Nader Talebzadeh" }, class: person }
+- { id: person/nadia-afghan, label: { en: "Nadia Afghan" }, class: person }
+- { id: person/nadia-lotfi, label: { ar: "نادية لطفي", en: "Nadia Lotfi" }, class: person }
+- { id: person/nadine-labaki, label: { ar: "نادين لبكي", en: "Nadine Labaki" }, class: person }
+- { id: person/najah-safkounoi, label: { ar: "نجاح سفكوني", en: "Najah Safkounoi" }, class: person }
+- { id: person/najmeddin-shariati, label: { ar: "نجم الدين شريعتي", en: "Najmeddin Shariati" }, class: person }
+- { id: person/nakoula-basseley-nakoula, label: { ar: "مارك باسيلي يوسف", en: "Nakoula Basseley Nakoula" }, class: person }
+- { id: person/nani-widjaja, label: { en: "Nani Widjaja" }, class: person }
+- { id: person/naseeruddin-shah, label: { ar: "نصر الدين شاه", en: "Naseeruddin Shah" }, class: person }
+- { id: person/nasrin-moghanloo, label: { en: "Nasrin Moghanloo" }, class: person }
+- { id: person/nasser-wardiani, label: { ar: "ناصر وردياني", en: "Nasser Wardiani" }, class: person }
+- { id: person/navid-negahban, label: { ar: "نويد نكهبان", en: "Navid Negahban" }, class: person }
+- { id: person/negin-farsad, label: { ar: "نيجين فارساد", en: "Negin Farsad" }, class: person }
+- { id: person/nelsan-ellis, label: { ar: "نيلسن إيليس", en: "Nelsan Ellis" }, class: person }
+- { id: person/nesreen-tafesh, label: { ar: "نسرين طافش", en: "Nesreen Tafesh" }, class: person }
+- { id: person/nicolas-cazale, label: { ar: "نيكولا كازالي", en: "Nicolas Cazalé" }, class: person }
+- { id: person/nicolas-peufaillit, label: { en: "Nicolas Peufaillit" }, class: person }
+- { id: person/nida-manzoor, label: { en: "Nida Manzoor" }, class: person }
+- { id: person/niels-arestrup, label: { ar: "نيلس أريستروب", en: "Niels Arestrup" }, class: person }
+- { id: person/nigel-lindsay, label: { ar: "نايجل ليندسي", en: "Nigel Lindsay" }, class: person }
+- { id: person/nihat-nikerel, label: { ar: "نهاد نيكرل", en: "Nihat Nikerel" }, class: person }
+- { id: person/niniek-l-karim, label: { en: "Niniek L. Karim" }, class: person }
+- { id: person/nino-fernandez, label: { ar: "نينو فرنانديز", en: "Nino Fernandez" }, class: person }
+- { id: person/nour-el-sherif, label: { ar: "نور الشريف", en: "Nour El-Sherif" }, class: person }
+- { id: person/nurettin-sonmez, label: { ar: "نور الدين سونمز", en: "Nurettin Sönmez" }, class: person }
+- { id: person/oka-antara, label: { en: "Oka Antara" }, class: person }
+- { id: person/oki-setiana-dewi, label: { en: "Oki Setiana Dewi" }, class: person }
+- { id: person/oliver-reed, label: { ar: "أوليفر ريد", en: "Oliver Reed" }, class: person }
+- { id: person/om-puri, label: { ar: "أوم بوري", en: "Om Puri" }, class: person }
+- { id: person/omar-al-qattan, label: { ar: "عمر القطان", en: "Omar al-Qattan" }, class: person }
+- { id: person/omar-el-hariri, label: { ar: "عمر الحريري", en: "Omar El-Hariri" }, class: person }
+- { id: person/omar-elba, label: { ar: "عمر علبة", en: "Omar Elba" }, class: person }
+- { id: person/omar-sharif, label: { ar: "عمر الشريف", en: "Omar Sharif" }, class: person }
+- { id: person/onder-cakar, label: { en: "Önder Çakar" }, class: person }
+- { id: person/opie-kumis, label: { en: "Opie Kumis" }, class: person }
+- { id: person/osman-sonant, label: { en: "Osman Sonant" }, class: person }
+- { id: person/osman-soykut, label: { ar: "عثمان سويكوت", en: "Osman Soykut" }, class: person }
+- { id: person/ousmane-sembene, label: { ar: "عثمان سيمبين", en: "Ousmane Sembène" }, class: person }
+- { id: person/ozer-kiziltan, label: { ar: "أوزار كيزيلتان", en: "Özer Kızıltan" }, class: person }
+- { id: person/ozge-torer, label: { ar: "أوزجه تورير", en: "Özge Törer" }, class: person }
+- { id: person/parviz-parastui, label: { ar: "برفيز باراستوي", en: "Parviz Parastui" }, class: person }
+- { id: person/parviz-sayyad, label: { en: "Parviz Sayyad" }, class: person }
+- { id: person/payman-maadi, label: { ar: "بيمان المعادي", en: "Payman Maadi" }, class: person }
+- { id: person/perry-fitzpatrick, label: { en: "Perry Fitzpatrick" }, class: person }
+- { id: person/pierre-hodgson, label: { en: "Pierre Hodgson" }, class: person }
+- { id: person/preeya-kalidas, label: { en: "Preeya Kalidas" }, class: person }
+- { id: person/q12219086, label: { ar: "شمس الدين زينون", en: "Q12219086" }, class: person }
+- { id: person/q12239794, label: { ar: "محمد الشيخ نجيب", en: "Q12239794" }, class: person }
+- { id: person/q141457763, label: { en: "Q141457763" }, class: person }
+- { id: person/q57452166, label: { en: "Q57452166" }, class: person }
+- { id: person/q57452295, label: { en: "Q57452295" }, class: person }
+- { id: person/qasim-melho, label: { ar: "قاسم ملحو", en: "Qasim Melho" }, class: person }
+- { id: person/raf-vallone, label: { ar: "راف فالون", en: "Raf Vallone" }, class: person }
+- { id: person/rafic-ali-ahmad, label: { ar: "رفيق علي أحمد", en: "Rafic Ali Ahmad" }, class: person }
+- { id: person/ragip-savas, label: { ar: "راغب صواش", en: "Ragıp Savaş" }, class: person }
+- { id: person/rahim-norouzi, label: { ar: "رحيم نوروزي", en: "Rahim Norouzi" }, class: person }
+- { id: person/raid-wardiani, label: { ar: "رياض وردياني", en: "Raid Wardiani" }, class: person }
+- { id: person/raisa, label: { ar: "رايسا (مغنية)", en: "Raisa" }, class: person }
+- { id: person/raj-babbar, label: { ar: "راج بابار", en: "Raj Babbar" }, class: person }
+- { id: person/raline-shah, label: { en: "Raline Shah" }, class: person }
+- { id: person/ramez-atallah, label: { ar: "رامز عطا الله", en: "Ramez Atallah" }, class: person }
+- { id: person/ramy-youssef, label: { ar: "رامي يوسف", en: "Ramy Youssef" }, class: person }
+- { id: person/rana-azadivar, label: { ar: "رعنا ازادي ور", en: "Rana Azadivar" }, class: person }
+- { id: person/raphael-shore, label: { ar: "رافائيل شور", en: "Raphael Shore" }, class: person }
+- { id: person/rasheed-assaf, label: { ar: "رشيد عساف", en: "Rasheed Assaf" }, class: person }
+- { id: person/ray-romano, label: { ar: "راي رومانو", en: "Ray Romano" }, class: person }
+- { id: person/recep-aktug, label: { ar: "رجب أكتوغ", en: "Recep Aktuğ" }, class: person }
+- { id: person/reda-kateb, label: { ar: "رضا كاتب", en: "Reda Kateb" }, class: person }
+- { id: person/reem-abdullah, label: { ar: "ريم عبد الله", en: "Reem Abdullah" }, class: person }
+- { id: person/reha-erdem, label: { ar: "ريها ارديم", en: "Reha Erdem" }, class: person }
+- { id: person/remy-girard, label: { ar: "ريمي جيرارد", en: "Rémy Girard" }, class: person }
+- { id: person/reza-kianian, label: { ar: "رضا كيانيان", en: "Reza Kianian" }, class: person }
+- { id: person/reza-rooygari, label: { ar: "رضا رويكري", en: "Reza Rooygari" }, class: person }
+- { id: person/rianti-cartwright, label: { ar: "ريانتي كارترايت", en: "Rianti Cartwright" }, class: person }
+- { id: person/richard-bremmer, label: { ar: "ريتشارد بريمر", en: "Richard Bremmer" }, class: person }
+- { id: person/richard-johnson, label: { ar: "ريتشارد جونسون", en: "Richard Johnson" }, class: person }
+- { id: person/richard-rich, label: { ar: "ريتشارد ريتش", en: "Richard Rich" }, class: person }
+- { id: person/ridley-scott, label: { ar: "ريدلي سكوت", en: "Ridley Scott" }, class: person }
+- { id: person/rish-shah, label: { en: "Rish Shah" }, class: person }
+- { id: person/rita-hayek, label: { ar: "ريتا حايك", en: "Rita Hayek" }, class: person }
+- { id: person/riz-ahmed, label: { ar: "ريز أحمد", en: "Riz Ahmed" }, class: person }
+- { id: person/rob-andrews, label: { ar: "روب اندروز", en: "Rob Andrews" }, class: person }
+- { id: person/robert-brown, label: { ar: "روبرت براون", en: "Robert Brown" }, class: person }
+- { id: person/robert-h-gardner, label: { en: "Robert H. Gardner" }, class: person }
+- { id: person/robert-s-wistrich, label: { en: "Robert S. Wistrich" }, class: person }
+- { id: person/rod-steiger, label: { ar: "رود ستايغر", en: "Rod Steiger" }, class: person }
+- { id: person/ron-silver, label: { ar: "رون سيلفر", en: "Ron Silver" }, class: person }
+- { id: person/roshan-seth, label: { ar: "روشان سيث", en: "Roshan Seth" }, class: person }
+- { id: person/roxane-mesquida, label: { ar: "روكساني ميسكيدا", en: "Roxane Mesquida" }, class: person }
+- { id: person/rully-manna, label: { en: "Rully Manna" }, class: person }
+- { id: person/rupert-wyatt, label: { ar: "روبرت ويات", en: "Rupert Wyatt" }, class: person }
+- { id: person/rushdy-abaza, label: { ar: "رشدي أباظة", en: "Rushdy Abaza" }, class: person }
+- { id: person/saad-mineh, label: { ar: "سعد مينه", en: "Saad Mineh" }, class: person }
+- { id: person/saadi-yacef, label: { ar: "ياسف سعدي", en: "Saadi Yacef" }, class: person }
+- { id: person/safia-el-emari, label: { ar: "صفية العمري", en: "Safia El Emari" }, class: person }
+- { id: person/saim-sadiq, label: { ar: "صائم صادق", en: "Saim Sadiq" }, class: person }
+- { id: person/salah-abu-seif, label: { ar: "صلاح أبو سيف", en: "Salah Abu Seif" }, class: person }
+- { id: person/salah-bensalah, label: { ar: "صالح بن صالح", en: "Salah Bensalah" }, class: person }
+- { id: person/salah-zulfikar, label: { ar: "صلاح ذو الفقار", en: "Salah Zulfikar" }, class: person }
+- { id: person/salloum-haddad, label: { ar: "سلوم حداد", en: "Salloum Haddad" }, class: person }
+- { id: person/sally-field, label: { ar: "سالي فيلد", en: "Sally Field" }, class: person }
+- { id: person/salma-agha, label: { ar: "سلمى آغا", en: "Salma Agha" }, class: person }
+- { id: person/sam-bain, label: { ar: "سام باين", en: "Sam Bain" }, class: person }
+- { id: person/samer-ismail, label: { ar: "سامر إسماعيل", en: "Samer Ismail" }, class: person }
+- { id: person/sami-bouajila, label: { ar: "سامي بوعجيلة", en: "Sami Bouajila" }, class: person }
+- { id: person/samiya-mumtaz, label: { ar: "سمعية ممتاز", en: "Samiya Mumtaz" }, class: person }
+- { id: person/sandra-dewi, label: { ar: "ساندرا ديوي", en: "Sandra Dewi" }, class: person }
+- { id: person/sania-saeed, label: { en: "Sania Saeed" }, class: person }
+- { id: person/sarah-badel, label: { en: "Sarah Badel" }, class: person }
+- { id: person/sarah-gavron, label: { en: "Sarah Gavron" }, class: person }
+- { id: person/sareh-bayat, label: { ar: "ساره بيات", en: "Sareh Bayat" }, class: person }
+- { id: person/sarina-farhadi, label: { ar: "سارينا فرهادي", en: "Sarina Farhadi" }, class: person }
+- { id: person/sarmad-sultan-khoosat, label: { en: "Sarmad Sultan Khoosat" }, class: person }
+- { id: person/saruhan-hunel, label: { ar: "صاروخان هونيل", en: "Saruhan Hünel" }, class: person }
+- { id: person/sarwat-gilani, label: { en: "Sarwat Gilani" }, class: person }
+- { id: person/sasson-gabai, label: { ar: "ساسون جاباي", en: "Sasson Gabai" }, class: person }
+- { id: person/satish-kaushik, label: { ar: "ساتيش كاوشيك", en: "Satish Kaushik" }, class: person }
+- { id: person/scarlet-pimpernel, label: { en: "Scarlet Pimpernel" }, class: person }
+- { id: person/selim-bayraktar, label: { ar: "سليم بيرقدار", en: "Selim Bayraktar" }, class: person }
+- { id: person/selma-ergec, label: { ar: "سلمى أرغتش", en: "Selma Ergeç" }, class: person }
+- { id: person/serdar-gokhan, label: { ar: "سردار غوكهان", en: "Serdar Gökhan" }, class: person }
+- { id: person/setareh-eskandari, label: { ar: "ستاره إسكندري", en: "Setareh Eskandari" }, class: person }
+- { id: person/settar-tanriogen, label: { ar: "سيتار تانريوجين", en: "Settar Tanrıöğen" }, class: person }
+- { id: person/sevinc-erbulak, label: { ar: "سفينتش إيربولاك", en: "Sevinç Erbulak" }, class: person }
+- { id: person/sezgin-erdemir, label: { ar: "سزغين أردمير", en: "Sezgin Erdemir" }, class: person }
+- { id: person/sezin-akbasogullari, label: { ar: "سيزين أكباشوغولاري", en: "Sezin Akbaşoğulları" }, class: person }
+- { id: person/shaan-shahid, label: { ar: "شان شهيد", en: "Shaan Shahid" }, class: person }
+- { id: person/shabana-azmi, label: { ar: "شبانة عزمي", en: "Shabana Azmi" }, class: person }
+- { id: person/shabnam-gholikhani, label: { ar: "شبنم قلي خاني", en: "Shabnam Gholikhani" }, class: person }
+- { id: person/shah-rukh-khan, label: { ar: "شاه روخ خان", en: "Shah Rukh Khan" }, class: person }
+- { id: person/shahab-hosseini, label: { ar: "شهاب حسيني", en: "Shahab Hosseini" }, class: person }
+- { id: person/shahram-haghighatdoost, label: { en: "Shahram Haghighatdoost" }, class: person }
+- { id: person/shahriar-bahrani, label: { ar: "شهريار بحراني", en: "Shahriar Bahrani" }, class: person }
+- { id: person/shahruddin-dali, label: { en: "Shahruddin Dali" }, class: person }
+- { id: person/sharlto-copley, label: { ar: "شارلتو كوبلي", en: "Sharlto Copley" }, class: person }
+- { id: person/sharmeen-obaid-chinoy, label: { ar: "شرمين عبيد جنائي", en: "Sharmeen Obaid-Chinoy" }, class: person }
+- { id: person/sheila-mccarthy, label: { ar: "شيلا ماكارثي", en: "Sheila McCarthy" }, class: person }
+- { id: person/shibani-bathija, label: { ar: "شيباني باتيجة", en: "Shibani Bathija" }, class: person }
+- { id: person/shirin-yazdanbakhsh, label: { ar: "شيرين يزدان بخش", en: "Shirin Yazdanbakhsh" }, class: person }
+- { id: person/shoaib-mansoor, label: { en: "Shoaib Mansoor" }, class: person }
+- { id: person/shobu-kapoor, label: { en: "Shobu Kapoor" }, class: person }
+- { id: person/shohreh-aghdashloo, label: { ar: "شهره اغداشلو", en: "Shohreh Aghdashloo" }, class: person }
+- { id: person/siddiq-barmak, label: { ar: "صدّيق برمك", en: "Siddiq Barmak" }, class: person }
+- { id: person/sitara-hewitt, label: { en: "Sitara Hewitt" }, class: person }
+- { id: person/slamet-rahardjo, label: { ar: "سلامت رحاردجو", en: "Slamet Rahardjo" }, class: person }
+- { id: person/soad-hosny, label: { ar: "سعاد حسني", en: "Soad Hosny" }, class: person }
+- { id: person/sohail-sameer, label: { ar: "سهيل سمير", en: "Sohail Sameer" }, class: person }
+- { id: person/solvan-naim, label: { ar: "سولفان نعيم", en: "Solvan Naim" }, class: person }
+- { id: person/souhir-ben-amara, label: { ar: "سهير بن عمارة", en: "Souhir Ben Amara" }, class: person }
+- { id: person/spike-lee, label: { ar: "سبايك لي", en: "Spike Lee" }, class: person }
+- { id: person/stefano-patrizi, label: { en: "Stefano Patrizi" }, class: person }
+- { id: person/stephane-rideau, label: { en: "Stéphane Rideau" }, class: person }
+- { id: person/stephen-j-rivele, label: { en: "Stephen J. Rivele" }, class: person }
+- { id: person/steve-way, label: { en: "Steve Way" }, class: person }
+- { id: person/suhail-jabaei, label: { ar: "سهيل جباعي", en: "Suhail Jabaei" }, class: person }
+- { id: person/sulaf-fawakherji, label: { ar: "سلاف فواخرجي", en: "Sulaf Fawakherji" }, class: person }
+- { id: person/surya-saputra, label: { en: "Surya Saputra" }, class: person }
+- { id: person/sut-jhally, label: { ar: "سوت جهالي", en: "Sut Jhally" }, class: person }
+- { id: person/suzan-najm-aldeeen, label: { ar: "سوزان نجم الدين", en: "Suzan Najm Aldeeen" }, class: person }
+- { id: person/syamsul-yusof, label: { ar: "شمسول يوسف", en: "Syamsul Yusof" }, class: person }
+- { id: person/tabata-ndiaye, label: { en: "Tabata Ndiaye" }, class: person }
+- { id: person/tahar-rahim, label: { ar: "طاهر رحيم", en: "Tahar Rahim" }, class: person }
+- { id: person/taim-hasan, label: { ar: "تيم حسن", en: "Taim Hasan" }, class: person }
+- { id: person/tanay-chheda, label: { en: "Tanay Chheda" }, class: person }
+- { id: person/taner-birsel, label: { ar: "تانر اباد", en: "Taner Birsel" }, class: person }
+- { id: person/tannishtha-chatterjee, label: { ar: "تانيسهثا شاترجي", en: "Tannishtha Chatterjee" }, class: person }
+- { id: person/tarek-alarian, label: { ar: "طارق العريان", en: "Tarek Alarian" }, class: person }
+- { id: person/teresa-ruiz, label: { ar: "تيريزا رويز", en: "Teresa Ruiz" }, class: person }
+- { id: person/tez-ilyas, label: { en: "Tez Ilyas" }, class: person }
+- { id: person/theo-van-gogh, label: { ar: "ثيو فان خوخ", en: "Theo van Gogh" }, class: person }
+- { id: person/theresa-randle, label: { ar: "تيريزا رندل", en: "Theresa Randle" }, class: person }
+- { id: person/thomas-bidegain, label: { ar: "توماس بدجاين", en: "Thomas Bidegain" }, class: person }
+- { id: person/tilbe-saran, label: { en: "Tilbe Saran" }, class: person }
+- { id: person/tim-usborne, label: { en: "Tim Usborne" }, class: person }
+- { id: person/timothy-copestake, label: { en: "Timothy Copestake" }, class: person }
+- { id: person/tobe-nwigwe, label: { en: "Tobe Nwigwe" }, class: person }
+- { id: person/tolga-tekin, label: { ar: "تولجا تكين", en: "Tolga Tekin" }, class: person }
+- { id: person/tolu-ogunmefun, label: { en: "Tolu Ogunmefun" }, class: person }
+- { id: person/tom-holland, label: { ar: "توم هولاند", en: "Tom Holland" }, class: person }
+- { id: person/tony-curran, label: { ar: "توني كوران", en: "Tony Curran" }, class: person }
+- { id: person/tora-sudiro, label: { en: "Tora Sudiro" }, class: person }
+- { id: person/toulou-kiki, label: { ar: "تولو كيكي", en: "Toulou Kiki" }, class: person }
+- { id: person/travina-springer, label: { en: "Travina Springer" }, class: person }
+- { id: person/tuba-buyukustun, label: { ar: "توبا بويوك أوستون", en: "Tuba Büyüküstün" }, class: person }
+- { id: person/uci-bing-slamet, label: { en: "Uci Bing Slamet" }, class: person }
+- { id: person/ucik-supra, label: { en: "Ucik Supra" }, class: person }
+- { id: person/udin-nganga, label: { en: "Udin Nganga" }, class: person }
+- { id: person/ugur-gunes, label: { ar: "أوغور غونيش", en: "Uğur Güneş" }, class: person }
+- { id: person/umera-ahmad, label: { en: "Umera Ahmad" }, class: person }
+- { id: person/ushan-cakir, label: { ar: "أوشان جاكير", en: "Ushan Çakır" }, class: person }
+- { id: person/valerie-beaugrand-champagne, label: { en: "Valérie Beaugrand-Champagne" }, class: person }
+- { id: person/vida-ghahremani, label: { en: "Vida Ghahremani" }, class: person }
+- { id: person/vincent-paronnaud, label: { en: "Vincent Paronnaud" }, class: person }
+- { id: person/vishka-asayesh, label: { ar: "ويشكا آسايش", en: "Vishka Asayesh" }, class: person }
+- { id: person/vladimir-kulich, label: { ar: "فلاديمير كيلاسح", en: "Vladimir Kulich" }, class: person }
+- { id: person/waad-mohammed, label: { ar: "وعد محمد", en: "Waad Mohammed" }, class: person }
+- { id: person/wael-ramdhan, label: { ar: "وائل رمضان", en: "Wael Ramdhan" }, class: person }
+- { id: person/wael-sharaf, label: { ar: "وائل شرف", en: "Wael Sharaf" }, class: person }
+- { id: person/wahyu-h-s, label: { en: "Wahyu H.S." }, class: person }
+- { id: person/wajdi-mouawad, label: { ar: "وجدي معوض", en: "Wajdi Mouawad" }, class: person }
+- { id: person/walid-saif, label: { ar: "وليد سيف", en: "Walid Saif" }, class: person }
+- { id: person/wan-hanafi-su, label: { en: "Wan Hanafi Su" }, class: person }
+- { id: person/warren-lewis, label: { ar: "ارين لويس", en: "Warren Lewis" }, class: person }
+- { id: person/will-smith, label: { ar: "ويل سميث", en: "Will Smith" }, class: person }
+- { id: person/william-monahan, label: { ar: "وليام موناهان", en: "William Monahan" }, class: person }
+- { id: person/william-wheeler, label: { en: "William Wheeler" }, class: person }
+- { id: person/william-wisher-jr, label: { en: "William Wisher Jr." }, class: person }
+- { id: person/yasmeen-fletcher, label: { en: "Yasmeen Fletcher" }, class: person }
+- { id: person/yayan-ruhian, label: { ar: "يايان رويان", en: "Yayan Ruhian" }, class: person }
+- { id: person/yazan-khalil, label: { ar: "يزن خليل", en: "Yazan Khalil" }, class: person }
+- { id: person/yigit-ozsener, label: { ar: "إيغيت أوزينير", en: "Yiğit Özşener" }, class: person }
+- { id: person/younes-bouab, label: { ar: "يونس بواب", en: "Younes Bouab" }, class: person }
+- { id: person/yousra, label: { ar: "يسرا", en: "Yousra" }, class: person }
+- { id: person/youssef-al-moukbel, label: { ar: "يوسف المقبل", en: "Youssef Al Moukbel" }, class: person }
+- { id: person/youssef-chahine, label: { ar: "يوسف شاهين", en: "Youssef Chahine" }, class: person }
+- { id: person/yurdaer-okur, label: { ar: "يورداير أوكور", en: "Yurdaer Okur" }, class: person }
+- { id: person/zaib-shaikh, label: { en: "Zaib Shaikh" }, class: person }
+- { id: person/zaskia-adya-mecca, label: { en: "Zaskia Adya Mecca" }, class: person }
+- { id: person/ziad-doueiri, label: { ar: "زياد دويري", en: "Ziad Doueiri" }, class: person }
+- { id: person/zoe-kazan, label: { ar: "زوي كازان", en: "Zoe Kazan" }, class: person }
+- { id: person/zoren-legaspi, label: { en: "Zoren Legaspi" }, class: person }

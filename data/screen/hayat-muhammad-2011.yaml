@@ -48,6 +48,10 @@ relations:
   target: place/mecca
 - type: set_in
   target: place/medina
+- type: directed_by
+  target: person/faris-kermani
+- type: broadcast_by
+  target: group/bbc-two
 reception:
 - kind: objection
   by: some viewers; a complaint campaign led the BBC to re-schedule one episode during Ramadan

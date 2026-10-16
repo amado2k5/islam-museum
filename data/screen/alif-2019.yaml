@@ -41,6 +41,7 @@ approach: devotional
 external_ids:
   wikidata: Q54629821
   imdb: tt11357084
+  official: http://www.hum.tv
 sources:
 - source/wikidata
 - source/imdb
@@ -49,3 +50,11 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: directed_by
+  target: person/haseeb-hassan
+- type: written_by
+  target: person/umera-ahmad
+- type: broadcast_by
+  target: group/hum-tv
+reception: []

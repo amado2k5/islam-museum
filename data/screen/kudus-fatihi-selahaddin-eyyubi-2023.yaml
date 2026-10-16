@@ -52,9 +52,22 @@ relations:
   target: place/jerusalem
 - type: set_in
   target: place/cairo
+- type: features
+  target: person/ugur-gunes
+- type: features
+  target: person/mehmet-ali-nuroglu
+- type: features
+  target: person/ali-ersan-duru
+- type: features
+  target: person/sezgin-erdemir
+- type: features
+  target: person/sezin-akbasogullari
+- type: features
+  target: person/q141457763
 external_ids:
   wikidata: Q110174294
   imdb: tt21856856
+  official: https://www.trt1.com.tr/diziler/kudus-fatihi-selahaddin-eyyubi
 sources:
 - source/wikidata
 - source/imdb
@@ -63,3 +76,4 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+reception: []

@@ -41,6 +41,7 @@ approach: comedy
 external_ids:
   wikidata: Q64841612
   imdb: tt7639280
+  official: https://www.bbc.co.uk/programmes/p05pgjy6
 sources:
 - source/wikidata
 - source/imdb
@@ -49,3 +50,23 @@ status:
   completeness: 2
   generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
     2026-10-16
+relations:
+- type: features
+  target: person/guz-khan
+- type: features
+  target: person/kiell-smith-bynoe
+- type: features
+  target: person/tez-ilyas
+- type: features
+  target: person/duaa-karim
+- type: features
+  target: person/tolu-ogunmefun
+- type: features
+  target: person/perry-fitzpatrick
+- type: features
+  target: person/mark-silcox
+- type: features
+  target: person/art-malik
+- type: broadcast_by
+  target: group/bbc-three
+reception: []
