@@ -3,7 +3,7 @@ class: event
 kind: other
 label: { en: "The expedition to Tabuk", ar: "غزوة تبوك" }
 summary:
-  en: "The Prophet led a large expedition north toward the Byzantine frontier as far as Tabuk; no battle took place."
+  en: "The Prophet led a large expedition north toward the Byzantine frontier as far as Tabuk; no battle took place. وفي صحيح البخاري يروي كعب بن مالك قصة تخلفه عنها بلسانه: المسير في الحر الشديد والمفازة البعيدة، وأن النبي كان يوري بغير الغزوة حتى جلاها هذه المرة، وأن المسلمين كانوا «كثيراً ولا يجمعهم كتاب حافظ» {cite:sahih-al-bukhari 4418}، وعدّها يعلى بن أمية «أوثق أعمالي» {cite:sahih-al-bukhari 4417}."
   ar: "قاد النبي حملة كبيرة شمالًا نحو الحدود البيزنطية حتى تبوك في رجب سنة تسع، ولم يقع قتال بحسب سيرة ابن إسحاق. فصّل ابن إسحاق في رواية ابن هشام الاستنفار في زمن عسرة، وإنفاق الأغنياء، والبكائين، والمتخلفين من المؤمنين والمنافقين، ومسير الجيش بالحجر، وصلح النبي مع صاحب أيلة وأكيدر دومة، والعودة."
 wings: [time, people]
 themes: [skirmishes-raids-expeditions, desertions-defections-withdrawals]
@@ -55,6 +55,6 @@ map:
   date_for_borders: "0630"
   features:
     - { type: point, role: camp, label: { ar: "تبوك — معسكر الجيش الإسلامي، وفيها العين التي وصلها الجيش", en: "Tabuk: the Muslim army's camp, with the spring it reached" }, at: [28.38, 36.57], precision: approximate, source: source/mubarakpuri-raheeq }
-sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq]
+sources: [source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/sahih-al-bukhari]
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 159-173", generated_by: "Claude Sonnet 5.5", run: "ibn-hisham-batch-6c" }
 status: { review: draft, completeness: 2, generated_by: "Claude Sonnet 5.5; dates follow the cited tradition and are approximate where marked; extended from Ibn Hisham juz' 4 pp. 159-173 (batch 6)" }
