@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2422"
-label: { ar: "الموطأ 2422", en: "Muwatta 2422" }
+label: { ar: "الموطأ 2422 — مالك: السارق يوجد معه ما سرق فيرد لصاحبه وتقطع يده", en: "Muwatta 2422" }
 summary:
-  ar: "مالك في الذي يسرق ما يجب فيه القطع ثم يوجد معه ما سرق فيُرد إلى صاحب... ؛ رد المسروق وأثره على القطع؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في الذي يسرق ما يجب عليه فيه القطع، ثم يوجد معه ما سرق فيُرد إلى صاحبه: إنه تُقطع يده. فإن قال قائل: كيف تُقطع يده وقد أُخذ المتاع منه ودُفع إلى صاحبه؟ فإنما هو بمنزلة الشارب يوجد منه ريح الخمر وليس به سكر فيُجلد الحد؛ لأنه إنما شربه ليسكره، فكذلك تُقطع يد السارق في السرقة التي أُخذت منه، لأنه إنما سرقها ليذهب بها. {cite:muwatta-maruf-1997 p.400}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-27-hudud }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2422 of kitab 27-hudud at PDF p. 400", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k27-batch-104" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qat-al-yad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2422 at PDF p. 400; جامع القطع", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b79" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 400; matn excerpt at most 40 words" }

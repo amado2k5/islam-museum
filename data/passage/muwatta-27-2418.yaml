@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2418"
-label: { ar: "الموطأ 2418", en: "Muwatta 2418" }
+label: { ar: "الموطأ 2418 — عبد الرحمن بن القاسم: الأقطع اليمني وعقد أسماء بنت عميس", en: "Muwatta 2418" }
 summary:
-  ar: "يحيى عن مالك عن عبد الرحمن بن القاسم عن أبيه: أن رجلًا من أهل اليمن أقطع اليد... ؛ قصة قطع اليد وما بعدها؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن عبد الرحمن بن القاسم عن أبيه أن رجلا من أهل اليمن أقطع اليد والرجل قدم فنزل على أبي بكر الصديق، فشكا إليه أن عامل اليمن ظلمه. فكان يصلي من الليل، فيقول أبو بكر: وأبيك، ما ليلك بليل سارق. ثم فقدوا عقدا لأسماء بنت عميس امرأة أبي بكر، فجعل الرجل يطوف معهم ويقول: اللهم عليك بمن بيّت أهل هذا البيت الصالح. فوجدوا الحلي عند صائغ زعم أن الأقطع جاءه به، فاعترف الأقطع أو شُهد عليه، فأمر أبو بكر بقطع يده اليسرى، وقال: والله لدعاؤه على نفسه أشد عندي عليه من سرقته. {cite:muwatta-maruf-1997 p.399}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-27-hudud }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2418 of kitab 27-hudud at PDF p. 399", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k27-batch-104" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/asma-bint-umays, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-qasim, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qat-al-yad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2418 at PDF p. 399; جامع القطع", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b79" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 399; matn excerpt at most 40 words" }
