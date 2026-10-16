@@ -1,0 +1,16 @@
+id: passage/muslim-2381
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2381"
+label: { ar: "مسلم 2381 — ما ظنك باثنين الله ثالثهما", en: "Muslim 2381 — What think you of two, the third of whom is God" }
+text: "قال أبو بكر: نظرت إلى أقدام المشركين على رؤوسنا ونحن في الغار، فقلت: يا رسول الله، لو أن أحدهم نظر إلى قدميه أبصرنا تحت قدميه؛ فقال: «يا أبا بكر، ما ظنك باثنين الله ثالثهما؟»"
+summary:
+  ar: "رواية أنس عن أبي بكر نفسه في صحيح مسلم؛ شهادة الصاحب الوحيد على لحظة الغار في رحلة الهجرة — من أوثق نصوص صحبة أبي بكر في يوم الهجرة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/sahih-muslim] }
+  - { type: mentions, target: event/hijra-departure, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب من فضائل أبي بكر الصديق (طبعة دار التأصيل، الحديث 6319؛ ترقيم عبد الباقي المعروف 2381)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,16 @@
+id: passage/muslim-2382
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2382"
+label: { ar: "مسلم 2382 — أمن الناس علي في صحبته أبو بكر", en: "Muslim 2382 — The dearest of people to me in companionship is Abu Bakr" }
+text: "قال رسول الله: «إن أمن الناس علي في ماله وصحبته أبو بكر، ولو كنت متخذا خليلا لاتخذت أبا بكر خليلا، ولكن أخوة الإسلام ومودته؛ لا تبقين في المسجد خوخة إلا سدت إلا خوخة أبي بكر»"
+summary:
+  ar: "رواية أبي سعيد الخدري في باب فضائل أبي بكر من صحيح مسلم؛ حديث الاختيار الأخروي وبكاء أبي بكر فهماً لدنو الأجل، وحديث سد الخوخات إلا خوخة أبي بكر — نص الصديقية الأشهر عند أهل السنة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب من فضائل أبي بكر الصديق (طبعة دار التأصيل، الحديث 6320؛ ترقيم عبد الباقي المعروف 2382)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

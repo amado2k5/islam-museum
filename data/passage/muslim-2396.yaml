@@ -1,0 +1,16 @@
+id: passage/muslim-2396
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2396"
+label: { ar: "مسلم 2396 — ما لقيك الشيطان سالكاً فجاً إلا سلك فجاً غير فجك", en: "Muslim 2396 — Satan never meets you on a path but takes another" }
+text: "قال رسول الله لعمر: «والذي نفسي بيده، ما لقيك الشيطان قط سالكاً فجاً إلا سلك فجاً غير فجك»"
+summary:
+  ar: "رواية سعد بن أبي وقاص في باب فضائل عمر من صحيح مسلم؛ في سياق قصة استئذان عمر والنساء يبتدرن الحجاب — من أشهر نصوص مناقب عمر عند أهل السنة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب من فضائل عمر (طبعة دار التأصيل، الحديث 6356؛ ترقيم عبد الباقي المعروف 2396)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
