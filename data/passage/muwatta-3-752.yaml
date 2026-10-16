@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "752"
-label: { ar: "الموطأ 752", en: "Muwatta 752" }
+label: { ar: "الموطأ 752 — أهل الشام يطلبون من أبي عبيدة أخذ الصدقة من خيلهم ورقيقهم؛ عمر: إن أحبوا فخذها منهم وارددها عليهم وارزق رقيقهم", en: "Muwatta 752" }
+text: "إن أحبوا فخذها منهم، وارددها عليهم، وارزق رقيقهم"
 summary:
-  ar: "ابن شهاب عن سليمان بن يسار: قال أهل الشام لأبي عبيدة بن الجراح... ؛ حديث في الصدقة وجمعها؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن ابن شهاب عن سليمان بن يسار، أن أهل الشام قالوا لأبي عبيدة بن الجراح: خذ من خيلنا ورقيقنا صدقة. فأبى، ثم كتب إلى عمر بن الخطاب فأبى عمر، ثم كلموه أيضاً فكتب إلى عمر، فكتب إليه عمر: إن أحبوا فخذها منهم وارددها عليهم وارزق رقيقهم. ويقول مالك: معنى قوله «وارددها عليهم» يعني على فقرائهم. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومحمد بن الحسن الشيباني (338) ويحيى بن بكير عند أبي عبيد في الأموال (1366). {cite:muwatta-maruf-1997 p.373}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 752 of kitab 03-zakat at PDF p. 373", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-ubayda-ibn-al-jarrah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-sham, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 752 at PDF p. 373; باب ما جاء في صدقة الرقيق والخيل والعسل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 373; matn excerpt at most 40 words" }

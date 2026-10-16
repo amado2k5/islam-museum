@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "766"
-label: { ar: "الموطأ 766", en: "Muwatta 766" }
+label: { ar: "الموطأ 766 — عمر والفرس الذي حمل عليه في سبيل الله: لا تشتره وإن أعطاكه بدرهم، فإن العائد في صدقته كالكلب يعود في قيئه", en: "Muwatta 766" }
+text: "لا تشتره، وإن أعطاكه بدرهم واحد. فإن العائد في صدقته، كالكلب يعود في قيئه"
 summary:
-  ar: "زيد بن أسلم عن أبيه: سمعت عمر بن الخطاب وهو يقول... ؛ أثر عن عمر في الصدقة؛ تفاصيل الأثر غير واضحة."
+  ar: "أول حديث في باب اشتراء الصدقة والعود فيها. يرويه مالك عن زيد بن أسلم عن أبيه، أنه سمع عمر بن الخطاب يقول: حملت على فرس عتيق في سبيل الله، وكان الرجل الذي هو عنده قد أضاعه، فأردت أن أشتريه منه وظننت أنه بائعه برخص، فسألت النبي فنهاني أن أشتريه ولو أعطانيه بدرهم واحد، وشبه العائد في صدقته بالكلب يعود في قيئه. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان (5125) والبغوي، وإسماعيل بن أبي أويس عند البخاري (3003)، وسفيان بن عيينة عند الحميدي والبخاري (2636 و2970)، والقعنبي عند مسلم (5/63)، والتنيسي عند البخاري (1490)، وابن القاسم ومن طريقه النسائي (5/108)، وابن مهدي عند أحمد ومسلم، ويحيى بن قزعة عند البخاري (2623). {cite:muwatta-maruf-1997 p.378} {cite:muwatta-maruf-1997 p.379}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 766 of kitab 03-zakat at PDF p. 378", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-35" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aslam-mawla-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muslim-ibn-al-hajjaj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sadaqa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 766 at PDF p. 378; باب اشتراء الصدقة والعود فيها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 378; matn excerpt at most 40 words" }

@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "767"
-label: { ar: "الموطأ 767", en: "Muwatta 767" }
+label: { ar: "الموطأ 767 — ابن عمر: حمل عمر على فرس في سبيل الله فأراد أن يبتاعه، فقال النبي: لا تبتعه ولا تعد في صدقتك", en: "Muwatta 767" }
+text: "لا تبتعه ولا تعد في صدقتك"
 summary:
-  ar: "نافع عن ابن عمر: أن عمر بن الخطاب حمل على فرس في سبيل الله... ؛ أثر في الصدقة في سبيل الله؛ تفاصيل الواقعة غير واضحة."
+  ar: "يرويه مالك عن نافع عن عبد الله بن عمر، أن عمر بن الخطاب حمل على فرس في سبيل الله فأراد أن يبتاعه، فسأل عن ذلك النبي فنهاه أن يبتاعه أو يعود في صدقته. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان (5124) والبغوي، وإسماعيل بن أبي أويس عند البخاري (2971)، والقعنبي عند أبي داود (1593)، والتنيسي عند البخاري (3002)، وابن القاسم، وقتيبة، والشافعي، ويحيى بن يحيى النيسابوري عند مسلم (5/63)، وينقل عن ابن عبد البر (التمهيد 14/74–75) أن مالكاً جعله من مسند ابن عمر عند جمهور الرواة، وأن معن بن عيسى رواه عن مالك عن نافع عن ابن عمر عن عمر فجعله من مسند عمر، وأن الدارقطني في العلل صوب رواية الموطأ. {cite:muwatta-maruf-1997 p.379} {cite:muwatta-maruf-1997 p.380}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 767 of kitab 03-zakat at PDF p. 379", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-35" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-daraqutni, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sadaqa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 767 at PDF p. 379; باب اشتراء الصدقة والعود فيها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 379; matn excerpt at most 40 words" }

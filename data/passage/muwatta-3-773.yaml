@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "773"
-label: { ar: "الموطأ 773", en: "Muwatta 773" }
+label: { ar: "الموطأ 773 — ابن عمر: فرض النبي زكاة الفطر من رمضان صاعاً من تمر أو صاعاً من شعير على كل حر أو عبد ذكر أو أنثى من المسلمين", en: "Muwatta 773" }
+text: "فرض زكاة الفطر من رمضان على الناس صاعاً من تمر، أو صاعاً من شعير، على كل حر أو عبد، ذكر أو أنثى، من المسلمين"
 summary:
-  ar: "نافع عن ابن عمر: أن رسول الله ﷺ فرض زكاة الفطر صاعًا من تمر أو صاعًا من شعير... ؛ الحديث في مقدار زكاة الفطر."
+  ar: "أول حديث في باب مكيلة زكاة الفطر. يرويه مالك عن نافع عن عبد الله بن عمر، أن النبي فرض زكاة الفطر من رمضان على الناس صاعاً من تمر أو صاعاً من شعير، على كل حر أو عبد، ذكر أو أنثى، من المسلمين. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان (3301) والبغوي، وخالد بن مخلد عند الدارمي، والقعنبي عند مسلم (3/68) وأبي داود، وابن وهب عند ابن خزيمة، والتنيسي عند البخاري (1504)، وابن القاسم عند النسائي (5/48)، وابن مهدي عند أحمد وابن ماجة (1826)، وقتيبة عند مسلم والنسائي، والشافعي، ومعن عند الترمذي (676)، ويحيى بن يحيى النيسابوري عند مسلم، وأن الترمذي قال إن مالكاً زاد «من المسلمين» ولم يذكرها غير واحد عن نافع، ويرد المحقق بأن عبيد الله بن عمر وكثير بن فرقد ويونس بن يزيد وعمر بن نافع (البخاري 1503) والمعلى بن إسماعيل تابعوا مالكاً على هذه الزيادة. {cite:muwatta-maruf-1997 p.381} {cite:muwatta-maruf-1997 p.382}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 773 of kitab 03-zakat at PDF p. 381", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-35" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-tirmidhi-muhammad-ibn-isa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat-al-fitr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 773 at PDF p. 381; باب مكيلة زكاة الفطر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 381; matn excerpt at most 40 words" }

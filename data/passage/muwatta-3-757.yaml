@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "757"
-label: { ar: "الموطأ 757", en: "Muwatta 757" }
+label: { ar: "الموطأ 757 — أسلم: ضرب عمر الجزية على أهل الذهب أربعة دنانير وعلى أهل الورق أربعين درهماً، مع أرزاق المسلمين وضيافة ثلاثة أيام", en: "Muwatta 757" }
 summary:
-  ar: "أسلم مولى عمر بن الخطاب: أن عمر بن الخطاب ضرب الجزية... ؛ أثر عن عمر في الجزية؛ تفاصيل الحكم غير واضحة."
+  ar: "يرويه مالك عن نافع عن أسلم مولى عمر بن الخطاب، أن عمر ضرب الجزية على أهل الذهب أربعة دنانير وعلى أهل الورق أربعين درهماً، مع ذلك أرزاق المسلمين وضيافة ثلاثة أيام. ويذكر المحقق أنه رواه عن مالك أبو مصعب وعبد الأعلى بن مسهر عند أبي عبيد في الأموال (100) ومحمد بن الحسن الشيباني (333) ويحيى بن بكير عند أبي عبيد. {cite:muwatta-maruf-1997 p.375}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 757 of kitab 03-zakat at PDF p. 375", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-35" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aslam-mawla-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/ahl-al-dhimma, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/jizya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 757 at PDF p. 375; باب جزية أهل الكتاب والمجوس", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الحكم غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 375; matn excerpt at most 40 words" }

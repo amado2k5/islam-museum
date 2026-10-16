@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "753"
-label: { ar: "الموطأ 753", en: "Muwatta 753" }
+label: { ar: "الموطأ 753 — كتاب عمر بن عبد العزيز إلى أبي بكر بن حزم وهو بمنى: أن لا يأخذ من العسل ولا من الخيل صدقة", en: "Muwatta 753" }
 summary:
-  ar: "عبد الله بن أبي بكر بن محمد بن عمرو بن حزم: جاء كتاب من عمر بن عبد العزيز في الصدقة؛ تفاصيل الكتاب تحتاج مراجعة."
+  ar: "يرويه مالك عن عبد الله بن أبي بكر بن محمد بن عمرو بن حزم، أنه قال: جاء كتاب من عمر بن عبد العزيز إلى أبي وهو بمنى أن لا يأخذ من العسل ولا من الخيل صدقة. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومحمد بن الحسن الشيباني (337) ويحيى بن بكير عند البيهقي (4/119). {cite:muwatta-maruf-1997 p.373}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 753 of kitab 03-zakat at PDF p. 373", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-35" }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 753 at PDF p. 373; باب ما جاء في صدقة الرقيق والخيل والعسل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الكتاب تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 373; matn excerpt at most 40 words" }

@@ -3,11 +3,23 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "762"
-label: { ar: "الموطأ 762", en: "Muwatta 762" }
+label: { ar: "الموطأ 762 — مالك: لا صدقة على أهل الذمة والمجوس في نخيلهم وزروعهم ومواشيهم؛ فإن اتجروا في بلاد المسلمين أخذ منهم العشر", en: "Muwatta 762" }
 summary:
-  ar: "مالك: وليس على أهل الذمة ولا على المجوس في نخيلهم ولا كرومهم ولا زروعهم... ؛ ما لا زكاة فيه على أهل الذمة."
+  ar: "قول طويل لمالك: ليس على أهل الذمة ولا على المجوس في نخيلهم ولا كرومهم ولا زروعهم ولا مواشيهم صدقة، لأن الصدقة إنما وُضعت على المسلمين تطهيراً لهم ورداً على فقرائهم، ووُضعت الجزية على أهل الكتاب صغاراً لهم؛ فهم ما كانوا ببلدهم الذي صالحوا عليه ليس عليهم شيء سوى الجزية في شيء من أموالهم، إلا أن يتجروا في بلاد المسلمين ويختلفوا فيها فيؤخذ منهم العشر فيما يديرون من التجارات، لأن الجزية وُضعت عليهم على أن يُقروا ببلادهم ويُقاتل عنهم عدوهم، فمن خرج منهم إلى غير بلاده يتجر، كمن تجر من أهل مصر إلى الشام ومن الشام إلى العراق ومن العراق إلى المدينة أو اليمن، فعليه العشر، ويُقرون على دينهم، وكلما اختلفوا في العام الواحد إلى بلاد المسلمين فعليهم العشر لأنه ليس مما صالحوا عليه. ويقول مالك: وهذا الذي أدركت عليه أهل العلم ببلدنا. ويثبت المحقق فروق النسخ، ويذكر أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.376} {cite:muwatta-maruf-1997 p.377}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 762 of kitab 03-zakat at PDF p. 376", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-35" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/ahl-al-dhimma, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/majus, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/ahl-al-kitab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/misr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-sham, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/iraq, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/yemen, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/jizya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ushr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/dhimma, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 762 at PDF p. 376; باب جزية أهل الكتاب والمجوس", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 376; matn excerpt at most 40 words" }

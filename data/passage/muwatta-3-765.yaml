@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "765"
-label: { ar: "الموطأ 765", en: "Muwatta 765" }
+label: { ar: "الموطأ 765 — ابن شهاب: كان العشر يؤخذ من النبط في الجاهلية فألزمهم ذلك عمر", en: "Muwatta 765" }
 summary:
-  ar: "مالك سأل ابن شهاب: على أي وجه كان يؤخذ منهم في الجاهلية؛ والجواب فيه أخذ الصدقة من أهل الكتاب."
+  ar: "يروي مالك أنه سأل ابن شهاب على أي وجه كان عمر بن الخطاب يأخذ من النبط العشر، فقال ابن شهاب: كان ذلك يؤخذ منهم في الجاهلية فألزمهم ذلك عمر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وإسحاق الطباع عند أبي عبيد في الأموال (1669). {cite:muwatta-maruf-1997 p.378}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 765 of kitab 03-zakat at PDF p. 378", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-35" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/nabat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ushr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 765 at PDF p. 378; باب عشور أهل الذمة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 378; matn excerpt at most 40 words" }

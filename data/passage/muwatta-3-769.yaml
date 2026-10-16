@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "769"
-label: { ar: "الموطأ 769", en: "Muwatta 769" }
+label: { ar: "الموطأ 769 — نافع: كان ابن عمر يخرج زكاة الفطر عن غلمانه الذين بوادي القرى وبخيبر", en: "Muwatta 769" }
 summary:
-  ar: "نافع عن ابن عمر: كان يخرج زكاة الفطر عن غلمانه... ؛ زكاة الفطر عن المماليك."
+  ar: "أول حديث في باب من تجب عليه زكاة الفطر. يرويه مالك عن نافع، أن عبد الله بن عمر كان يخرج زكاة الفطر عن غلمانه الذين بوادي القرى وبخيبر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والشافعي عند البيهقي (4/161). {cite:muwatta-maruf-1997 p.380}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 769 of kitab 03-zakat at PDF p. 380", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-35" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/wadi-al-qura, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/khaybar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat-al-fitr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 769 at PDF p. 380; باب من تجب عليه زكاة الفطر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 380; matn excerpt at most 40 words" }

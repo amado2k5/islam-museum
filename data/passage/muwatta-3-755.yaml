@@ -3,11 +3,22 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "755"
-label: { ar: "الموطأ 755", en: "Muwatta 755" }
+label: { ar: "الموطأ 755 — بلاغ ابن شهاب: أخذ النبي الجزية من مجوس البحرين، وعمر من مجوس فارس، وعثمان من البربر", en: "Muwatta 755" }
 summary:
-  ar: "ابن شهاب: بلغني أن رسول الله ﷺ أخذ الجزية من مجوس هجر؛ حديث في أخذ الجزية من المجوس."
+  ar: "أول حديث في باب جزية أهل الكتاب والمجوس. يرويه مالك عن ابن شهاب قال: بلغني أن النبي أخذ الجزية من مجوس البحرين، وأن عمر بن الخطاب أخذها من مجوس فارس، وأن عثمان بن عفان أخذها من البربر. ويذكر المحقق أنه رواه عن مالك محمد بن الحسن الشيباني (332)، وأن أبا مصعب (741) رواه عن مالك أنه بلغه، من غير ذكر ابن شهاب، وينقل عن ابن عبد البر (التمهيد 12/63–65) أنه هكذا عند جميع رواة الموطأ، وأن عبد الرحمن بن مهدي رواه عن مالك عن ابن شهاب عن السائب بن يزيد موصولاً (الطبراني 6660)، وأن الهيثمي ضعف الحسين بن سلمة راويه عن ابن مهدي، ويخالفه المحقق في تضعيفه لكنه يرى تفرده بهذا الوجه عن مالك مشعراً بغرابته، كما أشار الدارقطني. {cite:muwatta-maruf-1997 p.374}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 755 of kitab 03-zakat at PDF p. 374", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-35" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-saib-ibn-yazid, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/majus, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/berbers, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/bahrayn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/fars, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/jizya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 755 at PDF p. 374; باب جزية أهل الكتاب والمجوس", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 374; matn excerpt at most 40 words" }
