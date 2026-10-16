@@ -1,0 +1,15 @@
+---
+id: person/ibn-hajar-al-asqalani
+lang: ar
+source_lang: ar
+translators: []
+---
+
+## موجز
+الحافظ شيخ الإسلام أحمد بن علي بن حجر العسقلاني، صاحب «إنباء الغمر». {cite:tarikh-khulafa-minhaj-1434 p.765,774,781}
+
+## في تاريخ الخلفاء
+يذكر السيوطي أنه عمل قصيدته المشهورة في مدح الخليفة المستعين لما بويع بالسلطنة. واعتمد عليه السيوطي في الحوادث إلى سنة 850هـ. ومات في أيام المستكفي الثاني. {cite:tarikh-khulafa-minhaj-1434 p.765,774,781}
+
+## مؤلفاته
+ينسب إليه حاجي خليفة: [[work/ilam-bi-man-wala-misr|الإعلام بمن ولي مصر]] و[[work/raf-al-isr-qudat-misr|رفع الإصر عن قضاة مصر]] و[[work/al-isaba-fi-tamyiz-al-sahaba|الإصابة في تمييز الصحابة]]. {cite:kashf-zunun-furqan}
