@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1414"
-label: { ar: "الموطأ 1414", en: "Muwatta 1414" }
+label: { ar: "الموطأ 1414 — نافع: رمى طائرين بحجر بالجرف فأصابهما، فمات أحدهما فطرحه ابن عمر، ومات الآخر قبل أن يذكيه فطرحه", en: "Muwatta 1414" }
 summary:
-  ar: "نافع: قال: رميت طائرين بحجر وأنا بالجرف، فأصبتهما... ؛ حكم صيد الطير بالحجر؛ تفاصيل الواقعة غير واضحة."
+  ar: "يروي مالك عن نافع أنه قال رميت طائرين بحجر وأنا بالجرف، فأصبتهما، فأما أحدهما فمات، فطرحه عبد الله بن عمر، وأما الآخر فذهب عبد الله بن عمر يذكيه بقدوم، فمات قبل أن يذكيه، فطرحه عبد الله أيضا. {cite:muwatta-maruf-1997 p.635}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1414 of kitab 11-sayd at PDF p. 635", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k11-batch-62b" }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-jurf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sayd, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1414 at PDF p. 635; ترك أكل ما قتل المعراض والحجر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k11-b25" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 635; matn excerpt at most 40 words" }

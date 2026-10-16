@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1435"
-label: { ar: "الموطأ 1435", en: "Muwatta 1435" }
+label: { ar: "الموطأ 1435 — مالك: أحسن ما سمع في الخيل والبغال والحمير أنها لا تؤكل، واستشهد بآيات النحل والحج وقول سعيد في البراذين", en: "Muwatta 1435" }
 summary:
-  ar: "يحيى: قال مالك: أحسن ما سُمع في الخيل والبغال والحمير أنها لا تُؤكل؛ حكم أكل لحوم الخيل والبغال والحمير."
+  ar: "يروي يحيى عن مالك أن أحسن ما سمعه في الخيل والبغال والحمير أنها لا تؤكل، لأن الله تعالى ذكرها للركوب والزينة، وذكر الأنعام للركوب والأكل، واستشهد بآيات من سورتي الحج والنحل. وسمع مالكا يقول إن البائس هو الفقير، والمعتر هو الزائر، والقانع هو الفقير أيضا. {cite:muwatta-maruf-1997 p.641}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1435 of kitab 11-sayd at PDF p. 641", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k11-batch-63a" }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1435 at PDF p. 641; ما يكره من أكل الدواب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k11-b25" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 641; matn excerpt at most 40 words" }

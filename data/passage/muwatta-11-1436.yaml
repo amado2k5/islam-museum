@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1436"
-label: { ar: "الموطأ 1436", en: "Muwatta 1436" }
+label: { ar: "الموطأ 1436 — ابن عباس: مر النبي بشاة ميتة أعطتها مولاة لميمونة، فقال أفلا انتفعتم بجلدها، إنما حرم أكلها", en: "Muwatta 1436" }
+text: "إنَّما حُرِّمَ أكْلُها"
 summary:
-  ar: "ابن شهاب عن عبيد الله بن عبد الله بن عتبة بن مسعود عن عبد الله بن عباس: حديث في أكل الحيوان؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن ابن شهاب عن عبيد الله بن عبد الله بن عتبة بن مسعود عن عبد الله بن عباس أن رسول الله مر بشاة ميتة كان أعطاها مولاة لميمونة زوج النبي، فقال أفلا انتفعتم بجلدها؟ فقالوا يا رسول الله إنها ميتة، فقال إنما حرم أكلها. ويذكر المحقق أن ابن عبد البر قال إن الصحيح في إسناده الاتصال. {cite:muwatta-maruf-1997 p.642}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1436 of kitab 11-sayd at PDF p. 642", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k11-batch-63a" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubaydallah-ibn-abdallah-ibn-utba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/maymuna-bint-al-harith, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1436 at PDF p. 642; ما جاء في جلود الميتة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k11-b25" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 642; matn excerpt at most 40 words" }

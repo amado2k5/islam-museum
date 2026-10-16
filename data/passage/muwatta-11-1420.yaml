@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1420"
-label: { ar: "الموطأ 1420", en: "Muwatta 1420" }
+label: { ar: "الموطأ 1420 — نافع عن ابن عمر: في الكلب المعلم كل ما أمسك عليك، قتل أو لم يقتل", en: "Muwatta 1420" }
+text: "كُلْ مَا أمْسَكَ عَلَيْكَ"
 summary:
-  ar: "نافع عن ابن عمر: كان يقول في الكلب المعلَّم: كُل... ؛ حكم أكل ما صاده الكلب المعلَّم."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أنه كان يقول في الكلب المعلم كل ما أمسك عليك، إن قتل وإن لم يأكل. {cite:muwatta-maruf-1997 p.636}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1420 of kitab 11-sayd at PDF p. 636", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k11-batch-62b" }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sayd, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1420 at PDF p. 636; ما جاء في صيد المعلمات", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k11-b25" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 636; matn excerpt at most 40 words" }

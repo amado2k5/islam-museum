@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1434"
-label: { ar: "الموطأ 1434", en: "Muwatta 1434" }
+label: { ar: "الموطأ 1434 — إسماعيل بن أبي حكيم عن عبيدة بن سفيان الحضرمي عن أبي هريرة: أكل كل ذي ناب من السباع حرام، وهو الأمر عندنا", en: "Muwatta 1434" }
 summary:
-  ar: "إسماعيل بن أبي حكيم عن عبيدة بن سفيان الحضرمي عن أبي هريرة: أن رسول الله ﷺ... ؛ حديث في الصيد؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن إسماعيل بن أبي حكيم عن عبيدة بن سفيان الحضرمي عن أبي هريرة أن رسول الله قال أكل كل ذي ناب من السباع حرام، وقال مالك وهو الأمر عندنا. {cite:muwatta-maruf-1997 p.641}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1434 of kitab 11-sayd at PDF p. 641", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k11-batch-63a" }
+  - { type: mentions, target: person/ismail-ibn-abi-hakim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubayda-ibn-sufyan-al-hadrami, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sayd, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1434 at PDF p. 641; تحريم أكل كل ذي ناب من السباع", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k11-b25" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 641; matn excerpt at most 40 words" }

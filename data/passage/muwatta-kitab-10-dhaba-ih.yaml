@@ -3,12 +3,15 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-10"
-label: { ar: "الموطأ، كتاب الذبائح", en: "Muwatta, Book of Slaughter" }
+label: { ar: "الموطأ، كتاب الذبائح", en: "Muwatta, Book of Slaughter (dhaba'ih)" }
 summary:
-  ar: "كتاب الذبائح في الموطأ، المجلد الأول، يبدأ في صفحة 629 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Slaughter in the Muwatta, volume 1, starting at PDF page 629 (PDF numbering, not the printed page)."
+  ar: "كتاب الذبائح، الكتاب العاشر من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997): 11 نصاً (1403–1413) في أربعة أبواب، من الصفحة 629 إلى الصفحة 633 من ملف PDF المجلد الأول. يبدأ بالتسمية على الذبيحة، ثم ما يجوز من الذكاة في حال الضرورة، ثم ما يكره من الذبيحة، ويختم بذكاة ما في بطن الذبيحة. {cite:muwatta-maruf-1997 p.629} {cite:muwatta-maruf-1997 p.633}"
+  en: "The Book of Slaughter, tenth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997): 11 reports (1403–1413) in four babs, PDF pp. 629–633 of volume 1, from naming God over the slaughter to the slaughter of what is in the belly of the slaughtered animal."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 629", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab al-dhaba'ih, PDF pp. 629–633", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k10-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

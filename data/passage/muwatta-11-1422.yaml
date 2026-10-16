@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1422"
-label: { ar: "الموطأ 1422", en: "Muwatta 1422" }
+label: { ar: "الموطأ 1422 — سعد بن أبي وقاص: سئل عن الكلب المعلم إذا قتل الصيد، فقال كل وإن لم تبق إلا ضعة واحدة", en: "Muwatta 1422" }
+text: "كُلْ، وَإِنْ لَمْ تَبْقَ إلاَّا ضْعةٌ وَاحدةٌ"
 summary:
-  ar: "مالك: بلغه عن سعد بن أبي وقاص أنه سُئل عن الكلب المعلَّم إذا قتل... ؛ حكم الكلب المعلَّم إذا قتل الصيد؛ الجواب يحتاج مراجعة."
+  ar: "بلغ مالكا عن سعد بن أبي وقاص أنه سئل عن الكلب المعلم إذا قتل الصيد، فقال كل، وإن لم تبق إلا ضعة واحدة. ويذكر المحقق أن البيهقي ذكر أن مالكا رواه منقطعا، ثم رواه بإسناد متصل من طريق شعبة وسفيان، وقال إنه أيضا مرسل. {cite:muwatta-maruf-1997 p.637}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1422 of kitab 11-sayd at PDF p. 637", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k11-batch-62b" }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sayd, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1422 at PDF p. 637; ما جاء في صيد المعلمات", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k11-b25" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 637; matn excerpt at most 40 words" }
