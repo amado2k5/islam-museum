@@ -1,0 +1,28 @@
+id: event/first-pledge-of-aqaba
+class: event
+kind: treaty
+label: { ar: "بيعة العقبة الأولى", en: "The first pledge of al-Aqaba" }
+summary:
+  ar: "في موسم الحج من السنة الثانية عشرة من البعثة جاء اثنا عشر رجلاً من يثرب، خمسة من الستة الذين أسلموا في العام الماضي وسبعة سواهم، فبايعوا النبي عند العقبة بمنى بيعة النساء، وطلب منهم النبي أن يختاروا اثني عشر نقيباً على قومهم، فبعث معهم مصعب بن عمير يعلمهم القرآن والإسلام."
+  en: "At the pilgrim season of the twelfth year of the mission twelve men from Yathrib, five of the six who had embraced Islam the year before and seven others, pledged allegiance to the Prophet at al-Aqaba at Mina in the manner of the women's pledge; he asked them to choose twelve chiefs over their people, and sent Mus'ab ibn Umayr with them to teach them the Qur'an and Islam."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0621-07~", calendar: julian, precision: month, status: tradition, note: "موسم الحج من السنة الثانية عشرة من البعثة، يوليو 621م (الرحيق ص143)." }
+relations:
+  - { type: occurred_at, target: place/mina, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/musab-ibn-umayr, role: "أرسله النبي معلماً للمسلمين في يثرب", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/asad-ibn-zurara, role: "بايع وأخذ مصعباً في داره", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ubada-ibn-al-samit, role: "من المبايعين", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/second-pledge-of-aqaba, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/musnad-ahmad]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص143–152 نقلاً عن ابن هشام 1/431–454 وزاد المعاد 2/51–52 وصحيح البخاري 1/7، 1/550–551، 2/727 ومسند أحمد وصحيح مسلم 2/131 ورحمة للعالمين 1/85"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-11a"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 143–146" }

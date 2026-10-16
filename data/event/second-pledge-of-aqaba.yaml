@@ -1,0 +1,31 @@
+id: event/second-pledge-of-aqaba
+class: event
+kind: treaty
+label: { ar: "بيعة العقبة الثانية", en: "The second pledge of al-Aqaba" }
+summary:
+  ar: "في موسم الحج من السنة الثالثة عشرة من البعثة، يونيو 622م، اجتمع نحو ثلاث وسبعين رجلاً وامرأتين من أهل يثرب مع النبي في الشعب عند العقبة، فحضر العباس بن عبد المطلب، وتكلم العباس عن خطورة الحلف، ثم بايعوه على السمع والطاعة والنفقة والأمر بالمعروف والقيام في الله والنصرة، وانتخبوا اثني عشر نقيباً، ثم تسلل شيطان بالصيحة فأمرهم النبي بالانصراف."
+  en: "At the pilgrim season of the thirteenth year of the mission, June 622, about seventy-three men and two women from Yathrib met the Prophet secretly at the ravine of al-Aqaba; al-Abbas ibn Abd al-Muttalib spoke of the gravity of the covenant; they pledged hearing and obedience, spending in hardship and ease, enjoining good, standing for God, and protecting him; they chose twelve chiefs, and a voice from the hills gave the alarm, after which the Prophet ordered them to disperse."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622-06~", calendar: julian, precision: month, status: tradition, note: "موسم الحج من السنة الثالثة عشرة من البعثة، يونيو 622م (الرحيق ص147)." }
+relations:
+  - { type: occurred_at, target: place/mina, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "حضر وتكلم عن خطورة الحلف", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-al-rabi, role: "من النقباء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-rawaha, role: "من النقباء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ubada-ibn-al-samit, role: "من النقباء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-ubada, role: "من النقباء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/usayd-ibn-hudayr, role: "من النقباء", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused_by, target: event/first-pledge-of-aqaba, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/musnad-ahmad, source/zad-al-maad]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص143–152 نقلاً عن ابن هشام 1/431–454 وزاد المعاد 2/51–52 وصحيح البخاري 1/7، 1/550–551، 2/727 ومسند أحمد وصحيح مسلم 2/131 ورحمة للعالمين 1/85"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-11a"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 147–152" }
