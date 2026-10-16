@@ -1,0 +1,16 @@
+id: passage/muslim-1353
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1353"
+label: { ar: "مسلم 1353 — إن مكة حرمها الله", en: "Muslim 1353 — God sanctified Mecca" }
+text: "قال أبو شريح العدوي لعمرو بن سعيد: قام رسول الله الغد من يوم الفتح فحمد الله وأثنى عليه ثم قال: إن مكة حرمها الله ولم يحرمها الناس، فلا يحل لامرئ يؤمن بالله واليوم الآخر أن يسفك بها دماً ولا يعضد بها شجرة، وإنما أذن لي فيها ساعة من نهار وقد عادت حرمتها اليوم كحرمتها بالأمس"
+summary:
+  ar: "رواية أبي شريح العدوي في باب تحريم مكة من كتاب الحج في صحيح مسلم؛ خطبة فتح مكة في حرمتها ودمها وشجرها، وأن الإذن للنبي كان ساعة من نهار ثم عادت حرمتها."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: place/mecca, sources: [source/sahih-muslim] }
+  - { type: mentions, target: event/fath-mecca-sermon, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الحج، باب تحريم مكة ودمها وعضاهها (طبعة دار التأصيل، الحديث 1375؛ ترقيم عبد الباقي المعروف 1353)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

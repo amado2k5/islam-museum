@@ -1,0 +1,16 @@
+id: passage/muslim-1035
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1035"
+label: { ar: "مسلم 1035 — إن هذا المال خضرة حلوة", en: "Muslim 1035 — This wealth is fresh and sweet" }
+text: "قال حكيم بن حزام: سألت النبي فأعطاني ثم سألته فأعطاني، فقال: يا حكيم إن هذا المال خضرة حلوة، فمن أخذه بطيب نفس بورك له فيه، ومن أخذه بإشراف نفس لم يبارك له فيه وكان كالذي يأكل ولا يشبع، واليد العليا خير من اليد السفلى"
+summary:
+  ar: "رواية حكيم بن حزام في باب تحريم المسألة للناس من كتاب الزكاة في صحيح مسلم؛ المال الذي يؤخذ بطيب نفس يبارك فيه، والمأخوذ بإشراف نفس كمن يأكل ولا يشبع — وسياقها أن النبي أعطاه ثلاثاً ثم نهاه عن السؤال."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/hakim-ibn-hizam, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/sadaqa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الزكاة، باب تحريم المسألة للناس (طبعة دار التأصيل، الحديث 1047؛ ترقيم عبد الباقي المعروف 1035)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
