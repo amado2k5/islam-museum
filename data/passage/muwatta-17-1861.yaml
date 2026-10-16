@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1861"
-label: { ar: "الموطأ 1861", en: "Muwatta 1861" }
+label: { ar: "الموطأ 1861 — مالك: من راطل رجلا فأعطاه الذهب الجياد وجعل معها تبرا غير جيدة، وأخذ منه ذهبا كوفية مكروهة عند الناس، فلا يصلح، لأن صاحب الجياد أخذ فضل عيون ذهبه في التبر", en: "Muwatta 1861" }
 summary:
-  ar: "مالك في الرجل يراطل الرجل، ويعطيه الذهب العتق الجياد، ويجعل معها تبرًا... ؛ حكم خلط الجيد بالتبر في المراطلة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في الرجل يراطل الرجل، ويعطيه الذهب العتق الجياد، ويجعل معها تبرا ذهبا غير جيدة، ويأخذ من صاحبه ذهبا كوفية قطعة، وتلك الكوفية مكروهة عند الناس، فيتبايعان ذلك مثلا بمثل: إن ذلك لا يصلح. وتفسير ما كره من ذلك، أن صاحب الذهب الجياد أخذ فضل عيون ذهبه في التبر الذي طرح مع ذهبه، ولولا فضل ذهبه على ذهب صاحبه، لم يراطله صاحبه بتبره ذلك إلى ذهبه الكوفية. {cite:muwatta-maruf-1997 p.165}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1861 of kitab 17-buyu at PDF p. 165", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-81" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/muratala, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1861 at PDF p. 165; المراطلة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b46" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 165; matn excerpt at most 40 words" }

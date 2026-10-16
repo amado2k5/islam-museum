@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1847"
-label: { ar: "الموطأ 1847", en: "Muwatta 1847" }
+label: { ar: "الموطأ 1847 — مالك عن جده مالك بن أبي عامر: قال عثمان بن عفان إن رسول الله قال لا تبيعوا الدينار بالدينارين، ولا الدرهم بالدرهمين", en: "Muwatta 1847" }
 summary:
-  ar: "مالك: بلغه عن جده مالك بن أبي عامر أن عثمان بن عفان قال: قال لي رسول الله ﷺ... ؛ حديث في الصرف أو البيع؛ تفاصيل المتن غير واضحة."
+  ar: "قال مالك: بلغه عن جده مالك بن أبي عامر أن عثمان بن عفان قال: قال لي رسول الله: لا تبيعوا الدينار بالدينارين، ولا الدرهم بالدرهمين. ويذكر المحقق أن ابن عبد البر قال إن هذا الحديث في الموطأ مرسل عند جماعة رواته، وإن بكير بن الأشج رواه مسندا عن سليمان بن يسار عن مالك بن أبي عامر عن عثمان. {cite:muwatta-maruf-1997 p.158}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1847 of kitab 17-buyu at PDF p. 158", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-80" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-abi-amir, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/bukayr-ibn-abd-allah-ibn-al-ashajj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sarf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1847 at PDF p. 158; بيع الذهب بالورق عينا وتبرا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b46" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 158; matn excerpt at most 40 words" }

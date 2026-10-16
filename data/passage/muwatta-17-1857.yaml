@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1857"
-label: { ar: "الموطأ 1857", en: "Muwatta 1857" }
+label: { ar: "الموطأ 1857 — مالك: إذا اصطرف الرجل دراهم بدينار، ثم وجد فيها درهما زائفا فأراد رده، انتقض صرف الدينار، ورد إليه ورقه وأخذ دينار، لأن الدرهم المردود بعد التفرق بمنزلة الدين", en: "Muwatta 1857" }
 summary:
-  ar: "مالك: إذا اصطرف الرجل دراهم بدينار، ثم وجد فيها درهمًا زائفًا فأراد رده... ؛ حكم الدرهم الزائف في الصرف؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: إذا اصطرف الرجل دراهم بدينار، ثم وجد فيها درهما زائفا فأراد رده، انتقض صرف ذلك الدينار، ورد إليه ورقه، وأخذ إليه دينار. وتفسير ما كره من ذلك: أن رسول الله قال: الذهب بالورق ربا إلا هاء وهاء. وقال عمر بن الخطاب: وإن استنظرك إلى أن يلج بيته فلا تنظره. فهو إذا رد عليه درهما من صرف، بعد أن يفارقه، كان بمنزلة الدين أو الشيء المستأخر، فلذلك كره ذلك، وانتقض الصرف. وإنما أراد عمر بن الخطاب أن لا يباع الذهب والورق والطعام كله عاجلا بآجل. {cite:muwatta-maruf-1997 p.163} {cite:muwatta-maruf-1997 p.164}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1857 of kitab 17-buyu at PDF p. 163", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-81" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sarf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1857 at PDF p. 163; ما جاء في الصرف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b46" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 163; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1858"
-label: { ar: "الموطأ 1858", en: "Muwatta 1858" }
+label: { ar: "الموطأ 1858 — يحيى عن مالك عن يزيد بن عبد الله بن قسيط: رأى سعيد بن المسيب يراطل الذهب بالذهب، يفرغ ذهبه في كفة الميزان، ويفرغ صاحبه ذهبه في الكفة الأخرى، فإذا اعتدل لسان الميزان أخذ وأعطى", en: "Muwatta 1858" }
 summary:
-  ar: "يحيى عن مالك عن يزيد بن عبد الله بن قسيط: أنه رأى سعيد بن المسيب يراطل الذهب... ؛ صورة من المراطلة في الذهب؛ تفاصيل الصورة غير واضحة."
+  ar: "يروي يحيى عن مالك عن يزيد بن عبد الله بن قسيط أنه رأى سعيد بن المسيب يراطل الذهب بالذهب، فيفرغ ذهبه في كفة الميزان، ويفرغ صاحبه الذي يراطله ذهبه في كفة الميزان الأخرى، فإذا اعتدل لسان الميزان أخذ وأعطى. {cite:muwatta-maruf-1997 p.164}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1858 of kitab 17-buyu at PDF p. 164", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-81" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yazid-ibn-abdallah-ibn-qusayt, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/muratala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1858 at PDF p. 164; المراطلة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b46" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الصورة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 164; matn excerpt at most 40 words" }

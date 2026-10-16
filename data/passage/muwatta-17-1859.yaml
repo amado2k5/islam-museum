@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1859"
-label: { ar: "الموطأ 1859", en: "Muwatta 1859" }
+label: { ar: "الموطأ 1859 — مالك: الأمر عندنا في بيع الذهب بالذهب، أو الورق بالورق، مراطلة، أنه لا بأس به، أن يأخذ أحد عشر دينارا بعشرة دنانير يدا بيد، إذا كان وزن الذهبين سواء، وإن تفاضل العدد، والدراهم بمنزلة الدنانير", en: "Muwatta 1859" }
 summary:
-  ar: "مالك: الأمر عندنا في بيع الذهب بالذهب أو الورق بالورق مراطلة، أنه لا بأس بذل... ؛ جواز المراطلة بالوزن؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر عندنا في بيع الذهب بالذهب، أو الورق بالورق، مراطلة، أنه لا بأس بذلك، أن يأخذ أحد عشر دينارا بعشرة دنانير، يدا بيد، إذا كان وزن الذهبين سواء، عينا بعين، وإن تفاضل العدد. والدراهم أيضا في ذلك بمنزلة الدنانير. {cite:muwatta-maruf-1997 p.164}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1859 of kitab 17-buyu at PDF p. 164", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-81" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/muratala, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sarf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1859 at PDF p. 164; المراطلة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b46" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 164; matn excerpt at most 40 words" }

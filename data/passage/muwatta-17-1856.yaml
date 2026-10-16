@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1856"
-label: { ar: "الموطأ 1856", en: "Muwatta 1856" }
+label: { ar: "الموطأ 1856 — يحيى عن مالك عن ابن شهاب عن مالك بن أوس بن الحدثان: التمس صرفا بمائة دينار فدعاه طلحة بن عبيد الله فتراوضا، وقال حتى يأتيني خازني من الغابة، فقال عمر: والله لا تفارقه حتى تأخذ منه، وذكر قول النبي الذهب بالورق ربا إلا هاء وهاء", en: "Muwatta 1856" }
+text: "الذَّهَبُ بالوَرِقِ رِبّا إلاَّا هَاءَ وهَاءَ"
 summary:
-  ar: "يحيى عن مالك عن ابن شهاب عن مالك بن أوس بن الحدثان النصري: أنه التمس صرفًا بمئة... ؛ قصة الصرف بالدنانير والدراهم؛ تفاصيل القصة غير واضحة."
+  ar: "يروي يحيى عن مالك عن ابن شهاب عن مالك بن أوس بن الحدثان النصري أنه التمس صرفا بمائة دينار. قال: فدعاني طلحة بن عبيد الله، فتراوضنا حتى اصطرف مني، وأخذ الذهب يقلبها في يده، ثم قال: حتى يأتيني خازني من الغابة، وعمر بن الخطاب يسمع. فقال عمر: والله لا تفارقه حتى تأخذ منه. ثم قال: قال رسول الله: الذهب بالورق ربا إلا هاء وهاء، والبر بالبر ربا إلا هاء وهاء، والتمر بالتمر ربا إلا هاء وهاء، والشعير بالشعير ربا إلا هاء وهاء. ويذكر المحقق أن مالكا ومعمرا والليث وابن عيينة رووا عن الزهري: الذهب بالورق، ولم يقولوا الذهب بالذهب. {cite:muwatta-maruf-1997 p.162} {cite:muwatta-maruf-1997 p.163}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1856 of kitab 17-buyu at PDF p. 162", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-81" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-aws-ibn-al-hadathan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/talha-ibn-ubaydullah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sarf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1856 at PDF p. 162; ما جاء في الصرف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b46" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 162; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1854"
-label: { ar: "الموطأ 1854", en: "Muwatta 1854" }
+label: { ar: "الموطأ 1854 — مالك: لا بأس بشراء الذهب بالفضة جزافا إذا كان تبرا أو حليا قد صيغ، أما الدراهم والدنانير المعدودة فلا يشترى شيء منها جزافا حتى يعد، لأنه غرر", en: "Muwatta 1854" }
 summary:
-  ar: "مالك: لا بأس أن يشتري الرجل الذهب بالفضة، والفضة بالذهب، جزافًا، إذا كان تبرًا... ؛ جواز الصرف جزافًا عند اختلاف الجنس؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: لا بأس أن يشتري الرجل الذهب بالفضة، والفضة بالذهب، جزافا، إذا كان تبرا أو حليا قد صيغ. فأما الدراهم المعدودة، والدنانير المعدودة، فلا ينبغي لأحد أن يشتري شيئا من ذلك جزافا حتى يعلم ويعد، فإن اشتري ذلك جزافا، فإنما يراد به الغرر، حين يترك عده ويشترى جزافا، وليس هذا من بيوع المسلمين. وأما ما كان يوزن من التبر والحلي فلا بأس أن يباع ذلك جزافا. {cite:muwatta-maruf-1997 p.161}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1854 of kitab 17-buyu at PDF p. 161", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-81" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sarf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/gharar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1854 at PDF p. 161; بيع الذهب بالورق عينا وتبرا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b46" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 161; matn excerpt at most 40 words" }
