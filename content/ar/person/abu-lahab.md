@@ -22,3 +22,7 @@ translators: []
 
 ## في فصل المولد من الرحيق المختوم (ص55)
 يذكر الكتاب أن أول من أرضع النبي بعد أمه [[person/thuwayba|ثويبة]] مولاة أبي لهب، بلبن ابن لها يقال له مسروح {cite:mubarakpuri-raheeq p.55} {cite:talqih-fuhum-ahl-al-athr p.4} {cite:mukhtasar-sirat-al-rasul-al-najdi p.13}. ويعدّه الكتاب سادس بني [[person/abd-al-muttalib|عبد المطلب]] العشرة {cite:mubarakpuri-raheeq p.52}.
+
+
+## في الدعوة جهاراً (الرحيق المختوم ص79–86)
+تولّى أبو لهب كبر مجابهة الدعوة: أفسد مجلس بني هاشم الأول حين دعا النبي عشيرته ([[event/dawat-al-ashira|الدعوة في الأقربين]])، وقال على الصفا: «تباً لك سائر اليوم» فنزلت سورة المسد ([[event/safa-proclamation|صيحة الصفا]]) {cite:mubarakpuri-raheeq p.79} {cite:mubarakpuri-raheeq p.80}. وفي المواسم كان يتبع النبي في منازل الناس وعكاظ ومجنة وذي المجاز يقول: لا تطيعوه فإنه صابئ كذاب {cite:mubarakpuri-raheeq p.82}. وكان يرمي النبي بالحجر حتى يدمي عقبيه {cite:mubarakpuri-raheeq p.86}. وكانت امرأته [[person/umm-jamil|أم جميل]] من أشد الناس عداوة للنبي {cite:mubarakpuri-raheeq p.86}.

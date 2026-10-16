@@ -1,0 +1,20 @@
+id: building/dar-al-arqam
+class: building
+kind: other
+label: { ar: "دار الأرقم", en: "Dar al-Arqam" }
+summary:
+  ar: "دار الأرقم بن أبي الأرقم المخزومي على الصفا بمكة، اتخذها النبي مركزاً لدعوته ولاجتماعه بالمسلمين سراً من السنة الخامسة من النبوة."
+  en: "The house of al-Arqam ibn Abi al-Arqam on al-Safa at Mecca, which the Prophet made the centre of his call and his meetings with the Muslims in secret from the fifth year of prophethood."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: located_in, target: place/al-safa, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص91–92"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-8a"
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 91–92" }

@@ -20,7 +20,7 @@
 | 5 نسب النبي وأسرته | 48–53 | **done**: 5a `c9d79f7d` (nasab-al-nabi, Radman, Banu al-Najjar, Gaza; Hashim, al-Muttalib, Salma, Nawfal, Abu Sad; three Abd al-Muttalib events; sections on Muhammad, Adnan, Ibrahim, Abd al-Muttalib, Banu Hashim, Banu Abd Shams, the Elephant), 5b (Abdullah, Fatima bint Amr, Wahb; seven children of Abd al-Muttalib; event death-of-abdullah; sections on Amina, Umm Ayman, Abu Talib, Makhzum, Zuhra) |
 | 6 المولد وأربعون عاماً | 54–64 | **done**: 6a `d3807837`, 6b `f2c4737e`, 6c `cb5e124b` (birth, nursing, Banu Sad, shaqq al-sadr, Amina, Abd al-Muttalib, istisqa; concept istirda-al-badiya, place bilad-banu-sad) (Bahira, Busra, Fijar, Qays Aylan, Hilf al-Fudul, Banu al-Muttalib, Abu Qubays, trade journey, marriage, Khadija, Maysara, Nafisa, Ahlaf clans), 6c (Kaaba rebuilt, Abu Umayya, Baqum, al-Walid, al-Abbas, concept al-amin, question, the seven children, Muhammad youth and character) |
 | 7 في ظلال النبوة / الدعوة السرية | 65–77 | **done**: 7a `10ff236c` (revelation, pause, modes of revelation, second revelation, the call's stages), 7b (the three-year secret call, early Muslims, Maz'un brothers, concept al-salat-qabl-al-isra; sections on the early Muslims' companions) |
-| 8 الدعوة جهاراً | 78–108 | pending |
+| 8 الدعوة جهاراً | 78–108 | in progress: 8a (pp. 78–87: dawat al-ashira, Safa proclamation, Walid's council, place al-Safa, building Dar al-Arqam, sections on Abu Lahab, Umm Jamil, Utba, al-Nadr, al-Walid) applied; 8b (pp. 88–108) pending |
 | 9 المقاطعة / عام الحزن | 109–124 | pending |
 | 10 خارج مكة / الإسراء | 125–142 | pending |
 | 11 بيعتا العقبة / دار الندوة | 143–160 | pending |
