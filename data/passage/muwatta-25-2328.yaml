@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2328"
-label: { ar: "الموطأ 2328", en: "Muwatta 2328" }
+label: { ar: "الموطأ 2328 — مالك: ميراث كل معتَق لأقرب الناس ممن أعتقه", en: "Muwatta 2328" }
 summary:
-  ar: "قال: وهذا أيضًا في كل من أُعتق؛ فإنما ميراثه لأقرب الناس ممن أعتقه، من ولد أو عصبة... ؛ ميراث المعتَق لأقرب الناس؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وهذا في كل من أُعتق، فإنما ميراثه لأقرب الناس ممن أعتقه من الرجال، من ولد أو عصبة، يوم يموت المعتَق بعد أن يعتق، ويصير موروثا بالولاء. {cite:muwatta-maruf-1997 p.359}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2328 of kitab 25-mukatab at PDF p. 359", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-100" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2328 at PDF p. 359; ميراث المكاتب إذا عتق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b72" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 359; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2319"
-label: { ar: "الموطأ 2319", en: "Muwatta 2319" }
+label: { ar: "الموطأ 2319 — عروة وسليمان بن يسار: بنو المكاتب يسعون في كتابة أبيهم", en: "Muwatta 2319" }
 summary:
-  ar: "مالك: بلغه أن عروة بن الزبير وسليمان بن يسار سُئلا عن رجل كاتب على... ؛ مسألة في كتابة الرقيق؛ الجواب يحتاج مراجعة."
+  ar: "بلغ مالكا أن عروة بن الزبير وسليمان بن يسار سئلا عن رجل كاتب على نفسه وعلى بنيه ثم مات: هل يسعى بنو المكاتب في كتابة أبيهم أم هم عبيد؟ فقالا: بل يسعون في كتابة أبيهم، ولا يوضع عنهم لموت أبيهم شيء. {cite:muwatta-maruf-1997 p.356} {cite:muwatta-maruf-1997 p.357}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2319 of kitab 25-mukatab at PDF p. 356", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-100" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2319 at PDF p. 357; سعي المكاتب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b72" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 357; matn excerpt at most 40 words" }

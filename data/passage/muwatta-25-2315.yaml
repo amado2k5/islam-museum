@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2315"
-label: { ar: "الموطأ 2315", en: "Muwatta 2315" }
+label: { ar: "الموطأ 2315 — مالك: لا يحل بيع نجم من نجوم المكاتب", en: "Muwatta 2315" }
 summary:
-  ar: "مالك: لا يحل بيع نجم من نجوم المكاتب، وذلك أنه غرر؛ إن عجز المكاتب بطل... ؛ منع بيع نجوم الكتابة لتحقق الغرر؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: لا يحل بيع نجم من نجوم المكاتب، لأنه غرر: إن عجز المكاتب بطل ما عليه، وإن مات أو أفلس وعليه ديون لم يأخذ مشتري النجم بحصته مع الغرماء شيئا. ومشتري النجم بمنزلة سيد المكاتب، فلا يحاص بكتابة غلامه غرماء المكاتب، وكذلك الخراج المجتمع على الغلام. {cite:muwatta-maruf-1997 p.355}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2315 of kitab 25-mukatab at PDF p. 355", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-100" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2315 at PDF p. 355; بيع المكاتب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b72" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 355; matn excerpt at most 40 words" }
