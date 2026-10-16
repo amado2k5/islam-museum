@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1833"
-label: { ar: "الموطأ 1833", en: "Muwatta 1833" }
+label: { ar: "الموطأ 1833 — مالك: لا بأس بشراء ثمر من نخل مسماة، أو حائط مسمى، أو لبن من غنم مسماة، إذا كان يؤخذ عاجلا، مثل راوية زيت يبتاع منها بدينار فيكيل له منها", en: "Muwatta 1833" }
 summary:
-  ar: "مالك: من اشترى ثمرًا من نخل مسماة أو حائط مسمى أو لبنًا من غنم مسماة... ؛ شروط بيع الثمار والألبان؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: من اشترى ثمرا من نخل مسماة، أو حائط مسمى، أو لبنا من غنم مسماة، إنه لا بأس بذلك، إذا كان يؤخذ عاجلا، يشرع المشتري في أخذه عند دفعه الثمن. وإنما مثل ذلك بمنزلة راوية زيت، يبتاع منها رجل بدينار أو بدينارين ويعطيه ذهبه، ويشترط عليه أن يكيل له منها. فهذا لا بأس به. فإن انشقت الراوية، فذهب زيتها، فليس للمبتاع إلا ذهبه، ولا يكون بينهما بيع. {cite:muwatta-maruf-1997 p.152}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1833 of kitab 17-buyu at PDF p. 152", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-80" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1833 at PDF p. 152; جامع بيع الثمر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b45" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 152; matn excerpt at most 40 words" }

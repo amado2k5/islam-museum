@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1831"
-label: { ar: "الموطأ 1831", en: "Muwatta 1831" }
+label: { ar: "الموطأ 1831 — مالك: تفسير المزابنة أن يضمن الرجل لصاحب الجزاف الذي لا يعلم كيله ولا وزنه ولا عدده كيلا أو وزنا أو عددا معلوما، على أن يكون له ما زاد وعليه ما نقص، وهذا ليس بيعا بل مخاطرة وغرر وقمار", en: "Muwatta 1831" }
 summary:
-  ar: "مالك: نهى رسول الله ﷺ عن المزابنة، وتفسير المزابنة أن كل شيء من الجزاف... ؛ تفسير المزابنة وتعريفها؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: نهى رسول الله عن المزابنة. وتفسير المزابنة أن كل شيء من الجزاف الذي لا يعلم كيله ولا وزنه ولا عدده، ابتيع بشيء مسمى من الكيل أو الوزن أو العدد. وذلك أن يقول الرجل للرجل يكون له الطعام المصبر الذي لا يعلم كيله، من الحنطة أو التمر، أو تكون للرجل السلعة من الحنطة أو النوى أو القضب، فيقول الرجل لرب السلعة: كل سلعتك هذه، أو مر من يكيلها، فما نقص من كذا وكذا صاعا لتسمية يسميها، فعلي غرمه حتى أوفيك تلك التسمية، وما زاد على تلك التسمية فهو لي. فليس ذلك بيعا، ولكنه المخاطرة والغرر والقمار. {cite:muwatta-maruf-1997 p.150} {cite:muwatta-maruf-1997 p.151}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1831 of kitab 17-buyu at PDF p. 150", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-80" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/muzabana, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/gharar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1831 at PDF p. 150; ما جاء في المزابنة والمحاقلة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b45" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 150; matn excerpt at most 40 words" }

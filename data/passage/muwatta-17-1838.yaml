@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1838"
-label: { ar: "الموطأ 1838", en: "Muwatta 1838" }
+label: { ar: "الموطأ 1838 — مالك: لا يصلح التسليف في شيء من هذا يسلف فيه بعينه، إلا أن يقبض المسلف ما سلف فيه عند دفعه الذهب، ولا يصلح في ذلك تأخير ولا أجل", en: "Muwatta 1838" }
 summary:
-  ar: "مالك: ولا يصلح التسليف في شيء من هذا يُسلف فيه بعينه، إلا أن يقبض المسلّف ما سلّف... ؛ شرط صحة السلف في الإجارة والكراء؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ولا يصلح التسليف في شيء من هذا يسلف فيه بعينه، إلا أن يقبض المسلف ما سلف فيه عند دفعه الذهب إلى صاحبه، يقبض العبد أو الراحلة أو المسكن، أو يبدأ فيما اشترى من الرطب فيأخذ منه عند دفعه الذهب إلى صاحبه. لا يصلح أن يكون في شيء من ذلك تأخير ولا أجل. {cite:muwatta-maruf-1997 p.155}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1838 of kitab 17-buyu at PDF p. 155", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-80" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1838 at PDF p. 155; جامع بيع الثمر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b45" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 155; matn excerpt at most 40 words" }

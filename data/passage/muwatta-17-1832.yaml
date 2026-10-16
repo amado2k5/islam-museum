@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1832"
-label: { ar: "الموطأ 1832", en: "Muwatta 1832" }
+label: { ar: "الموطأ 1832 — مالك: ومن ذلك أن يضمن الرجل للرجل ثوبه بكذا وكذا ظهارة قلنسوة، أو قميصا، أو يقطع جلود البقر والإبل نعالا، أو يعصر حب البان، وكل ذلك يرجع إلى المزابنة", en: "Muwatta 1832" }
 summary:
-  ar: "مالك: ومن ذلك أيضًا أن يقول الرجل للرجل له الثوب: أضمن لك من ثوبك هذا كذا وكذا... ؛ صورة من صور المزابنة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ومن ذلك أيضا أن يقول الرجل للرجل، له الثوب: أضمن لك من ثوبك هذا كذا وكذا ظهارة قلنسوة، وقدر كل ظهارة كذا وكذا، فما نقص من ذلك فعلي غرمه حتى أوفيكه، وما زاد فلي. أو أن يقول الرجل للرجل: أضمن لك من ثيابك هذه كذا وكذا قميصا، ذرع كل قميص كذا وكذا، فما نقص من ذلك علي غرمه، وما زاد فلي. ومما يشبه ذلك أن يقول الرجل للرجل عنده حب البان: اعصر حبك هذا، فما نقص من كذا وكذا رطلا فعلي أن أعطيكه، وما زاد فهو لي. فهذا كله وما أشبهه من المزابنة التي لا تصلح ولا تجوز، ويرجع إليها ما كان مثلها في الخبط والنوى والكرسف والكتان والقضب والعصفر. {cite:muwatta-maruf-1997 p.151} {cite:muwatta-maruf-1997 p.152}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1832 of kitab 17-buyu at PDF p. 151", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-80" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/muzabana, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1832 at PDF p. 151; ما جاء في المزابنة والمحاقلة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b45" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 151; matn excerpt at most 40 words" }

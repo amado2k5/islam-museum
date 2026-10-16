@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1834"
-label: { ar: "الموطأ 1834", en: "Muwatta 1834" }
+label: { ar: "الموطأ 1834 — مالك: كل شيء حاضر يشترى على وجهه، كاللبن إذا حلب والرطب يجتنى، فيأخذ المبتاع يوما بيوم فلا بأس، فإن فنى قبل الاستيفاء رد البائع ذهبه بحساب ما بقي، ويكره أن يفارقه قبل أن يأخذ", en: "Muwatta 1834" }
 summary:
-  ar: "مالك: وأما كل شيء كان حاضرًا يُشترى على وجهه، مثل اللبن إذا حُلب، والرطب يُستجنى... ؛ بيع المعروض حاضرًا؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وأما كل شيء كان حاضرا يشترى على وجهه، مثل اللبن إذا حلب، والرطب يستجنى، فيأخذ المبتاع يوما بيوم: فلا بأس به. فإن فنى قبل أن يستوفي المشتري ما اشترى، رد عليه البائع من ذهبه بحساب ما بقي له، أو يأخذ منه المشتري سلعة بما بقي له، يتراضيان عليها، ولا يفارقه حتى يأخذها. فإن فارقه فإن ذلك مكروه؛ لأنه يدخله الدين بالدين، وقد نهي عن الكالئ بالكالئ. {cite:muwatta-maruf-1997 p.152} {cite:muwatta-maruf-1997 p.153}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1834 of kitab 17-buyu at PDF p. 152", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-80" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1834 at PDF p. 152; جامع بيع الثمر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b45" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 152; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1844"
-label: { ar: "الموطأ 1844", en: "Muwatta 1844" }
+label: { ar: "الموطأ 1844 — مالك عن موسى بن أبي تميم عن أبي الحباب سعيد بن يسار عن أبي هريرة: الدينار بالدينار، والدرهم بالدرهم، لا فضل بينهما", en: "Muwatta 1844" }
 summary:
-  ar: "موسى بن أبي تميم عن أبي الحباب سعيد بن يسار عن أبي هريرة: أن رسول الله ﷺ... ؛ حديث في البيع أو الربا؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن موسى بن أبي تميم عن أبي الحباب سعيد بن يسار عن أبي هريرة أن رسول الله قال: الدينار بالدينار، والدرهم بالدرهم، لا فضل بينهما. {cite:muwatta-maruf-1997 p.157}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1844 of kitab 17-buyu at PDF p. 157", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-80" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/musa-ibn-abi-tamim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-hubab-said-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sarf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1844 at PDF p. 157; بيع الذهب بالورق عينا وتبرا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b45" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 157; matn excerpt at most 40 words" }
