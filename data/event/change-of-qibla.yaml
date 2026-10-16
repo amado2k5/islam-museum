@@ -3,8 +3,8 @@ class: event
 kind: other
 label: { en: "The change of the qibla", ar: "تحويل القبلة" }
 summary:
-  en: "The direction of prayer was changed from Jerusalem to the Kaaba in Mecca, about a year and a half after the Hijra."
-  ar: "تحوّل اتجاه الصلاة من بيت المقدس إلى الكعبة بمكة في شعبان سنة 2هـ، استجابةً لرغبة النبي وتمييزاً للأمة الإسلامية وتطهيراً لصفوف المسلمين."
+  en: "The direction of prayer was changed from Jerusalem to the Kaaba in Mecca, about a year and a half after the Hijra. Al-Samhudi gathers the reports: toward Bayt al-Maqdis sixteen months on al-Bara's account in Muslim (seventeen for Sa'id ibn al-Musayyib), the turn falling in mid-Rajab of year two on the soundest view — at zuhr in the Banu Salama mosque where two rak'as had been prayed, or at fajr in Quba in the Sahihayn's version carried by a runner — while Ibn Hajar makes 'asr the first prayer faced to the Kaaba {cite:samhudi-wafa-al-wafa p. 373-376}."
+  ar: "تحوّل اتجاه الصلاة من بيت المقدس إلى الكعبة بمكة في شعبان سنة 2هـ، استجابةً لرغبة النبي وتمييزاً للأمة الإسلامية وتطهيراً لصفوف المسلمين. ويجمع السمهودي الروايات: الصلاة إلى بيت المقدس ستة عشر شهراً في رواية البراء عند مسلم وسبعة عشر عند سعيد بن المسيب، والتحويل في النصف من رجب سنة ثنتين على الأصح — في الظهر بمسجد بني سلمة بعد ركعتين، أو في الفجر بقباء في رواية الصحيحين — ويحقق ابن حجر أن أول صلاة إلى الكعبة كانت العصر {cite:samhudi-wafa-al-wafa p. 373-376}."
 wings: [time, people]
 themes: [worship-and-the-pillars, sacred-space-and-pilgrimage]
 periods: [period/prophetic-era]
@@ -16,5 +16,5 @@ relations:
   - { type: had_participant, target: person/muhammad, role: "المصلي والمتقلب وجهه في السماء ترقباً للوحي", sources: [source/mubarakpuri-raheeq] }
   - { type: part_of, target: period/prophetic-era }
   - { type: caused_by, target: event/hijra }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/ibn-ishaq-guillaume, source/watt-1956-medina, source/lings-1983, source/samhudi-wafa-al-wafa]
 status: { review: draft, completeness: 2, generated_by: "Antigravity; al-Raheeq al-Makhtum p. 203 citing Bukhari and Muslim" }

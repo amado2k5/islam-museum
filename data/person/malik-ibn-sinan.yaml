@@ -1,0 +1,20 @@
+id: person/malik-ibn-sinan
+class: person
+label: { ar: "مالك بن سنان", en: "Malik ibn Sinan" }
+summary:
+  ar: "أنصاري من بني خدرة بن عوف بن الحارث بن الخزرج، جد أبي سعيد الخدري؛ كان له أطم «الأجرد» الذي يقال لبئره البصة في دار بني خدرة المعروفة بهم {cite:samhudi-wafa-al-wafa p. 211}."
+  en: "An Ansari of Banu Khudra ibn 'Awf of Banu al-Harith ibn al-Khazraj, grandfather of Abu Sa'id al-Khudri; he held the utm 'al-Ajrad' — whose well was called al-Basa — in the known Banu Khudra quarter {cite:samhudi-wafa-al-wafa p. 211}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-khazraj, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: related_to, target: person/abu-said-al-khudri, note: "جدّه", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 211"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

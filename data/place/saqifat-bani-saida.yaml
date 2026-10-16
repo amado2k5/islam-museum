@@ -1,0 +1,21 @@
+id: place/saqifat-bani-saida
+class: place
+kind: site
+label: { ar: "سقيفة بني ساعدة", en: "Saqifa of Banu Sa'ida" }
+summary:
+  ar: "السقيفة الظليلة لبني ساعدة حيث اجتمع الأنصار بعد وفاة النبي فبُويع فيها أبو بكر؛ والسمهودي يرجّح أنها كانت مما يلي سوق المدينة عند ما يُعرف بدرب السويقة — في حيّ جرار سعد منزل رهط سعد بن عبادة — لا في قرية بني ساعدة عند بئر بضاعة كما ظن المطري؛ لأن سعداً كان مع رهطه، والسقيفة عند منزله {cite:samhudi-wafa-al-wafa p. 221}."
+  en: "The roofed hall of Banu Sa'ida where the Ansar met after the Prophet's death and Abu Bakr was acclaimed; al-Samhudi argues it stood by the market of Medina at what is now Darb al-Suwayqa — in the Jirar Sa'd quarter where Sa'd ibn Ubada's sept lived — not at the Banu Sa'ida village by Bi'r Buda'a as al-Matari held, for Sa'd was among his own sept and the saqifa stood by his house {cite:samhudi-wafa-al-wafa p. 221}."
+wings: [place, time]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: site_of, target: event/saqifa, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: related_to, target: group/banu-saida, note: "سقيفتهم", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 221"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,21 @@
+id: group/banu-al-harith-al-khazraj
+class: group
+kind: clan
+label: { ar: "بنو الحارث بن الخزرج", en: "Banu al-Harith ibn al-Khazraj" }
+summary:
+  ar: "بطن من الخزرج، بنو الحارث بن الخزرج الأكبر بن حارثة — وهم بلحارث — نزلوا دارهم بالعوالي شرقي وادي بطحان وتربة صُعيب، وابتنوا أطماً سُميت به الناحية «السُّنْح»؛ خرج منهم جشم وزيد ابنا الحارث فسكنا السنح، وكان فيه منزل أبي بكر بزوجته بنت خارجة بن زيد، وبينه وبين منزل النبي ميل {cite:samhudi-wafa-al-wafa p. 210-211}."
+  en: "A clan of the Khazraj, Banu al-Harith ibn al-Khazraj the Elder (Balharith); they settled their quarter in the 'Awali east of Wadi Buthan by the Su'ayb plot, and built the utm after which the quarter 'al-Sunh' was named — where Abu Bakr had his home with his wife bint Kharija ibn Zayd, a mile from the Prophet's residence {cite:samhudi-wafa-al-wafa p. 210-211}."
+wings: [people, place]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: group/al-khazraj, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: lived_in, target: place/medina, note: "بالعوالي شرقي وادي بطحان", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: lived_in, target: place/al-sunh, sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 210–211"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

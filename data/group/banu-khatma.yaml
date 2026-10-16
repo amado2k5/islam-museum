@@ -1,0 +1,20 @@
+id: group/banu-khatma
+class: group
+kind: clan
+label: { ar: "بنو خطمة", en: "Banu Khatma" }
+summary:
+  ar: "بطن من الأوس، خطمة هو عبد الله بن جشم بن مالك بن الأوس؛ نزلوا دارهم المعروفة بهم فابتنوا الآطام وغرسوا النخيل، وكانوا متفرقين في آطامهم لا يسكن قصبة دارهم أحد، حتى جاء الإسلام فاتخذوا مسجدهم وسكن بيتاً عنده رجل منهم كانوا يسألون عنه كل غداة مخافة أن يعدو عليه السبع، ثم كثروا حتى سُموا «غزة» تشبيهاً بغزة الشام لكثرة أهلها. ومن آطامهم «صعب ذرع» المجمل كالحصن للقتال عند بطنهم المعروف بذرع، وأطم لأمية بن عامر بن خطمة بمال الماجشونية {cite:samhudi-wafa-al-wafa p. 209-210}."
+  en: "A clan of the Aws — Khatma is 'Abdallah ibn Jusham ibn Malik al-Awsi — who settled their known quarter, built utum and planted palms, yet lived scattered in their towers with none in the quarter's heart; when Islam came they took a mosque and one man built a house beside it, the others asking after him each morning for fear a beast had taken him, until they multiplied and were nicknamed 'Ghazza' after populous Gaza of al-Sham. Their utum include 'Sa'b Dhar'' — kept as a fighting fortress with no dwellings — and the tower of Umayya ibn 'Amir ibn Khatma {cite:samhudi-wafa-al-wafa p. 209-210}."
+wings: [people, place]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: group/al-aws, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: lived_in, target: place/medina, note: "منازلهم بالعوالي شرقي مسجد الشمس في ترجيح المطري", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 209–210"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

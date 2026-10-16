@@ -1,0 +1,21 @@
+id: group/banu-maghala
+class: group
+kind: clan
+label: { ar: "بنو مغالة", en: "Banu Maghala" }
+summary:
+  ar: "بطن من بني النجار — بنو عدي بن عمرو بن مالك، ومغالة أم عدي — نزلوا ما كان على اليمين لمن وقف آخر البلاط مستقبل المسجد النبوي، وابتنوا أطم «فارع» الذي يواجه دور بني طلحة بن عبيد الله ودخل لاحقاً في دار جعفر بن يحيى البرمكي؛ وهو الأطم الذي كانت به صفية عمة النبي يوم الخندق وعندها حسان بن ثابت، وقال الزين المراغي إنه كان لثابت والد حسان، وفيه وُجد ابن صياد في حديث مسلم، وإليه أشار حسان: «ونحن نشاوى بين سلع وفارع» {cite:samhudi-wafa-al-wafa p. 222-223}."
+  en: "A clan of Banu al-Najjar — Banu 'Adi ibn 'Amr ibn Malik, Maghala being 'Adi's mother — settled on the right of one facing the Prophet's Mosque from the end of the balat; they built the utm 'Fari'' facing the houses of Banu Talha ibn 'Ubayd Allah, later absorbed into Ja'far ibn Yahya al-Barmaki's residence — the tower where Safiyya the Prophet's aunt sheltered on the day of the Trench with Hassan ibn Thabit beside it (al-Zayn al-Maraghi makes it the tower of Thabit, Hassan's father), where Ibn Sayyad was found in Muslim's hadith, and to which Hassan's verse 'we hold sway between Sal' and Fari'' refers {cite:samhudi-wafa-al-wafa p. 222-223}."
+wings: [people, place]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: group/banu-al-najjar, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: lived_in, target: place/medina, note: "يمين المستقبل للمسجد النبوي من آخر البلاط", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: related_to, target: person/hassan-ibn-thabit, note: "أطم فارع له ولأبيه ثابت", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 222–223"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

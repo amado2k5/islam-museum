@@ -1,0 +1,20 @@
+id: place/al-sunh
+class: place
+kind: site
+label: { ar: "السنح", en: "al-Sunh" }
+summary:
+  ar: "محلة من عوالي المدينة سُميت بأطم «السنح» الذي ابتناه بنو الحارث بن الخزرج، وهي إحدى محال المدينة كما عند ياقوت؛ كان فيها منزل أبي بكر حين تزوج مليكة — وقيل حبيبة — بنت خارجة بن زيد، وبينها وبين منزل النبي نحو ميل {cite:samhudi-wafa-al-wafa p. 210-211}."
+  en: "A quarter of the 'Awali (upper Medina) named for the utm 'al-Sunh' built by Banu al-Harith ibn al-Khazraj, counted by Yaqut among Medina's quarters; Abu Bakr had his residence there when he married Malika — or Habiba — bint Kharija ibn Zayd, about a mile from the Prophet's house {cite:samhudi-wafa-al-wafa p. 210-211}."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: related_to, target: person/abu-bakr, note: "كان فيها منزله بزوجته بنت خارجة", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 210–211"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-3
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
