@@ -150,3 +150,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - event a–m batch 9 (2026-10-16, claude-haiku-5-5): 25 pages, battle-of-the-bridge → bayat-ibn-al-mutazz (EN drafts).
 - place m–z batch 28: 25 files (zafar-yakhsub.md … zuwayla.md), draft
 - person i–m batch 21 (25 files, mahwiya … malik-ibn-zaflah) — Claude Haiku 5.5, draft
+- place m–z batch 29: 1 files (zuzan.md … zuzan.md), draft
