@@ -1,0 +1,15 @@
+id: object/kisa-al-nabi
+class: object
+kind: relic
+label: { ar: "كساء النبي الملبَّد", en: "the Prophet's patched cloak" }
+summary:
+  ar: "كساء ملبَّد — مرقَّع — أخرجته عائشة لأبي بردة وقالت «في هذا نُزِع روح النبي»، وأخرجت معه إزاراً غليظاً مما يُصنع باليمن؛ فكانا من أمتعة النبي التي تبرّك بها أصحابه ومن بعدهم {cite:sahih-al-bukhari 3108}."
+  en: "A patched, felted cloak (kisa' mulabbad) which 'A'isha produced for Abu Burda saying 'in this the Prophet's spirit was drawn out', and with it a thick izar of Yemeni make — among the belongings kept for blessing after his death {cite:sahih-al-bukhari 3108}."
+wings: [objects]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+relations:
+  - { type: related_to, target: person/muhammad, note: "كساه الذي قبض فيه", sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: person/aisha, note: "حفظته وأخرجته للزائرين", sources: [source/sahih-al-bukhari] }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); Sahih al-Bukhari 3108" }
