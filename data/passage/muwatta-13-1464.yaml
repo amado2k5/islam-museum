@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1464"
-label: { ar: "الموطأ 1464", en: "Muwatta 1464" }
+label: { ar: "الموطأ 1464 — مالك: الجدة أم الأم لا ترث مع الأم شيئا، والجدة أم الأب لا ترث مع الأم ولا مع الأب، وإذا اجتمعتا فالقربى تأخذ السدس", en: "Muwatta 1464" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندنا الذي لا اختلاف فيه، والذي أدركت عليه أهل العلم... ؛ قاعدة ميراث الجدات عنده."
+  ar: "يقول مالك إن الأمر المجتمع عليه عندهم أن الجدة أم الأم لا ترث مع الأم شيئا، ويفرض لها فيما سوى ذلك السدس فريضة. وأن الجدة أم الأب لا ترث مع الأم ولا مع الأب شيئا، ويفرض لها فيما سوى ذلك السدس. فإذا اجتمعت الجدتان، أم الأب وأم الأم، وليس للمتوفى دونهما أب ولا أم، فإن أم الأم، إن كانت أقعدهما، فلها السدس دون أم الأب، وإن كانت أم الأب أقعدهما، أو كانتا في القعدد بمنزلة سواء، فالسدس بينهما نصفان. {cite:muwatta-maruf-1997 p.16}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1464 of kitab 13-faraid at PDF p. 16", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1464 at PDF p. 16; ميراث الجدة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 16; matn excerpt at most 40 words" }

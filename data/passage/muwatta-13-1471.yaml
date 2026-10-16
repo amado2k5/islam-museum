@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1471"
-label: { ar: "الموطأ 1471", en: "Muwatta 1471" }
+label: { ar: "الموطأ 1471 — مالك: الأخ لأب وأم أولى بالميراث من الأخ للأب، والأخ للأب أولى من بني الأخ للأب والأم، ثم بنو الأخ، ثم الأعمام على هذا الترتيب", en: "Muwatta 1471" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندنا الذي لا اختلاف فيه، والذي أدركت عليه أهل العلم... ؛ قاعدة في الميراث عنده."
+  ar: "يقول مالك إن الأمر المجتمع عليه عندهم في ولاية العصبة أن الأخ لأب وأم أولى بالميراث من الأخ للأب، والأخ للأب أولى من بني الأخ للأب والأم، وبنو الأخ للأب والأم أولى من بني الأخ للأب، وبنو الأخ للأب أولى من بني ابن الأخ للأب والأم، وبنو ابن الأخ للأب أولى من العم أخي الأب للأب والأم، والعم أخو الأب للأب والأم أولى من العم أخي الأب للأب، والعم أخو الأب للأب أولى من بني العم أخي الأب للأب والأم، وابن العم للأب أولى من عم الأب أخي أبي الأب للأب والأم. {cite:muwatta-maruf-1997 p.19}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1471 of kitab 13-faraid at PDF p. 19", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1471 at PDF p. 19; ميراث ولاية العصبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 19; matn excerpt at most 40 words" }

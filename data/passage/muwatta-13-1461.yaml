@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1461"
-label: { ar: "الموطأ 1461", en: "Muwatta 1461" }
+label: { ar: "الموطأ 1461 — ابن شهاب عن قبيصة بن ذؤيب: جاءت الجدة إلى أبي بكر، فقال لا شيء لك في كتاب الله، فسأل الناس حتى شهد المغيرة ومحمد بن مسلمة أن النبي أعطاها السدس", en: "Muwatta 1461" }
 summary:
-  ar: "ابن شهاب عن عثمان بن إسحاق بن خرشة عن قبيصة بن ذؤيب: أنه قال... ؛ حديث في ميراث الجدة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن ابن شهاب عن عثمان بن إسحاق بن خرشة عن قبيصة بن ذؤيب أن الجدة جاءت إلى أبي بكر الصديق تسأله ميراثها، فقال لها أبو بكر ما لك في كتاب الله شيء، وما علمت لك في سنة رسول الله شيئا، فارجعي حتى أسأل الناس. فسأل الناس، فقال المغيرة بن شعبة حضرت رسول الله أعطاها السدس. فقال أبو بكر هل معك غيرك؟ فقام محمد بن مسلمة الأنصاري فقال مثل ما قال المغيرة، فأنفذه لها أبو بكر. ثم جاءت الجدة الأخرى إلى عمر بن الخطاب، فقال لها ما لك في كتاب الله شيء، وما أنا بزائد في الفرائض شيئا، ولكنه ذلك السدس، فإن اجتمعتما فيه فهو بينكما، وأيتكما خلت به فهو لها. ويذكر المحقق أن الترمذي وغيره صححوا الحديث، لكن رواية قبيصة عن أبي بكر منقطعة كما نص عليه المزي. {cite:muwatta-maruf-1997 p.14}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1461 of kitab 13-faraid at PDF p. 14", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/qabisa-ibn-dhuayb, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-mughira-ibn-shuba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-maslama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1461 at PDF p. 14; ميراث الجدة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 14; matn excerpt at most 40 words" }

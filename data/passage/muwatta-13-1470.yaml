@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1470"
-label: { ar: "الموطأ 1470", en: "Muwatta 1470" }
+label: { ar: "الموطأ 1470 — محمد بن أبي بكر بن حزم: سمع أباه يقول كان عمر يقول عجبا للعمة تورث ولا ترث", en: "Muwatta 1470" }
+text: "عَجبًا لِلْعَمَّةِ تُورَثُ وَلَا تَرثُ"
 summary:
-  ar: "محمد بن أبي بكر بن حزم: أنه سمع أباه كثيرًا يقول: كان عمر بن الخطاب... ؛ أثر عن عمر في الميراث؛ تفاصيل الأثر غير واضحة."
+  ar: "يروي مالك عن محمد بن أبي بكر بن حزم أنه سمع أباه كثيرا يقول كان عمر بن الخطاب يقول عجبا للعمة تورث ولا ترث. {cite:muwatta-maruf-1997 p.19}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1470 of kitab 13-faraid at PDF p. 19", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/muhammad-ibn-abi-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1470 at PDF p. 19; ما جاء في العمة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 19; matn excerpt at most 40 words" }

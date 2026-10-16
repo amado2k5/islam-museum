@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1452"
-label: { ar: "الموطأ 1452", en: "Muwatta 1452" }
+label: { ar: "الموطأ 1452 — مالك: الإخوة للأم لا يرثون مع الولد ولا مع ولد الابن ولا مع الأب ولا مع الجد، ويرثون فيما سوى ذلك السدس أو الثلث", en: "Muwatta 1452" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندنا أن الإخوة لأم لا يرثون مع الولد شيئًا؛ ميراث الإخوة لأم مع الولد."
+  ar: "يقول مالك إن الأمر المجتمع عليه عندهم أن الإخوة للأم لا يرثون مع الولد شيئا، ولا مع ولد الابن، ذكرانا كانوا أو إناثا، ولا يرثون مع الأب ولا مع الجد أبي الأب شيئا. وأنهم يرثون فيما سوى ذلك، فيفرض للواحد منهم السدس، ذكرا كان أو أنثى، فإن كانا اثنين فلكل واحد منهما السدس، فإن كانوا أكثر فهم شركاء في الثلث يقتسمونه بالسواء، وذلك بآية الكلالة في سورة النساء. {cite:muwatta-maruf-1997 p.8}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1452 of kitab 13-faraid at PDF p. 8", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1452 at PDF p. 8; ميراث الإخوة للأم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b27" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 8; matn excerpt at most 40 words" }

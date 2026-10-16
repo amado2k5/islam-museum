@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1473"
-label: { ar: "الموطأ 1473", en: "Muwatta 1473" }
+label: { ar: "الموطأ 1473 — مالك: الجد أبو الأب أولى من بني الأخ للأب والأم بالميراث، وابن الأخ للأب والأم أولى من الجد بولاء الموالي", en: "Muwatta 1473" }
 summary:
-  ar: "مالك: والجد أبو الأب أولى من بني الأخ لأب وأم، وأولى من العم أخي الأب؛ ترتيب الجد في الميراث."
+  ar: "يقول مالك إن الجد أبا الأب أولى من بني الأخ للأب والأم، وأولى من العم أخي الأب للأب والأم بالميراث. وابن الأخ للأب والأم أولى من الجد بولاء الموالي. {cite:muwatta-maruf-1997 p.20}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1473 of kitab 13-faraid at PDF p. 20", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-65" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1473 at PDF p. 20; ميراث ولاية العصبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 20; matn excerpt at most 40 words" }

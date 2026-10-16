@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1454"
-label: { ar: "الموطأ 1454", en: "Muwatta 1454" }
+label: { ar: "الموطأ 1454 — مالك: ميراث الإخوة للأب كميراث الإخوة للأب والأم إذا لم يكن معهم أحد من بني الأب والأم، إلا في الفريضة المشتركة", en: "Muwatta 1454" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندنا أن ميراث الإخوة لأب إذا لم يكن معهم أخ لأب وأم؛ ميراث الإخوة لأب."
+  ar: "يقول مالك إن الأمر المجتمع عليه عندهم أن ميراث الإخوة للأب، إذا لم يكن معهم أحد من بني الأب والأم، كمنزلة الإخوة للأب والأم سواء، ذكرهم كذكرهم وأنثاهم كأنثاهم، إلا أنهم لا يشركون مع بني الأم في الفريضة التي شركهم فيها بنو الأب والأم، لأنهم خرجوا من ولادة الأم التي جمعت أولئك. فإن اجتمع الإخوة للأب والأم والإخوة للأب، فكان في بني الأب والأم ذكر، فلا ميراث لأحد من بني الأب. وإن لم يكن بنو الأب والأم إلا امرأة واحدة أو أكثر من الإناث لا ذكر معهن، فيفرض للأخت الواحدة النصف، ويفرض للأخوات للأب السدس تتمة الثلثين. {cite:muwatta-maruf-1997 p.10}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1454 of kitab 13-faraid at PDF p. 10", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1454 at PDF p. 10; ميراث الإخوة للأب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b27" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 10; matn excerpt at most 40 words" }

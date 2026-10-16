@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1469"
-label: { ar: "الموطأ 1469", en: "Muwatta 1469" }
+label: { ar: "الموطأ 1469 — ابن مرسى مولى قريش: كان عمر يطلب كتابا كتبه في شأن العمة، فمحاه بالماء ثم قال لو رضيها الله أقرها", en: "Muwatta 1469" }
+text: "لَوْ رَضِيكِ اللهُ أقَرَّكِ"
 summary:
-  ar: "يحيى عن مالك عن محمد بن أبي بكر بن محمد بن عمرو بن حزم عن عبد الرحمن بن حنظلة: حديث في الميراث؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن محمد بن أبي بكر بن محمد بن عمرو بن حزم عن عبد الرحمن بن حنظلة الزرقي أنه أخبره عن مولى لقريش كان قديما يقال له ابن مرسى قال كنت جالسا عند عمر بن الخطاب، فلما صلى الظهر قال يا يرفأ، هلم ذلك الكتاب، لكتاب كتبه في شأن العمة، فنسأل عنها ونستخبر فيها. فأتاه به يرفأ، فدعا بتور أو قدح فيه ماء، فمحا ذلك الكتاب فيه، ثم قال لو رضيها الله أقرها، لو رضيها الله أقرها. {cite:muwatta-maruf-1997 p.18}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1469 of kitab 13-faraid at PDF p. 18", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/muhammad-ibn-abi-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hanzala-al-zuraqi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yarfa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1469 at PDF p. 18; ما جاء في العمة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 18; matn excerpt at most 40 words" }

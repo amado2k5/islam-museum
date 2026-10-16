@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1459"
-label: { ar: "الموطأ 1459", en: "Muwatta 1459" }
+label: { ar: "الموطأ 1459 — مالك: إذا شرك الجد والإخوة للأب والأم أحد بفريضة مسماة، يخير الجد بين الثلث مما بقي أو مقاسمة الإخوة أو السدس من رأس المال", en: "Muwatta 1459" }
 summary:
-  ar: "مالك: والجد والإخوة لأب وأم إذا شركهم أحد بفريضة مسماة يُبدأ بمن... ؛ ترتيب الإخوة مع الجد عند تقسيم الفرض؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك إن الجد والإخوة للأب والأم، إذا شركهم أحد بفريضة مسماة، يبدأ بمن شركهم من أهل الفرائض فيعطون فرائضهم، فما بقي بعد ذلك للجد والإخوة ينظر أي ذلك أفضل لحظ الجد: أن يعطى الثلث مما بقي له وللإخوة، أو أن يكون بمنزلة رجل من الإخوة فيقاسمهم بمثل حصة أحدهم، أو السدس من رأس المال كله، فأي ذلك كان أفضل لحظ الجد أعطيه. ويذكر مالك فريضة واحدة تكون قسمتهم فيها على غير ذلك، وهي امرأة ماتت وتركت زوجها وأمها وأختها لأمها وأبيها وجدها. {cite:muwatta-maruf-1997 p.13}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1459 of kitab 13-faraid at PDF p. 13", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1459 at PDF p. 13; ميراث الجد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 13; matn excerpt at most 40 words" }

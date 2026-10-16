@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1462"
-label: { ar: "الموطأ 1462", en: "Muwatta 1462" }
+label: { ar: "الموطأ 1462 — يحيى بن سعيد عن القاسم بن محمد: أتت الجدتان أبا بكر فأراد أن يجعل السدس للتي من قبل الأم، فقال له رجل من الأنصار إنك تترك التي لو ماتت وهو حي كان يرث منها", en: "Muwatta 1462" }
 summary:
-  ar: "يحيى بن سعيد عن القاسم بن محمد: أنه قال: أتت الجدتان إلى أبي بكر... ؛ قصة الجدتين وميراثهما؛ تفاصيل الواقعة غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد عن القاسم بن محمد أنه قال أتت الجدتان إلى أبي بكر الصديق، فأراد أن يجعل السدس للتي من قبل الأم، فقال له رجل من الأنصار أما إنك تترك التي لو ماتت وهو حي كان إياها يرث، فجعل أبو بكر السدس بينهما. {cite:muwatta-maruf-1997 p.15}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1462 of kitab 13-faraid at PDF p. 15", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1462 at PDF p. 15; ميراث الجدة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 15; matn excerpt at most 40 words" }

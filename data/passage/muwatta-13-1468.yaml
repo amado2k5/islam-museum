@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1468"
-label: { ar: "الموطأ 1468", en: "Muwatta 1468" }
+label: { ar: "الموطأ 1468 — مالك: الكلالة على وجهين، الآية في أول سورة النساء حيث لا يرث الإخوة للأم مع ولد ولا والد، والآية في آخرها حيث يرث الإخوة عصبة مع الجد", en: "Muwatta 1468" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندنا الذي لا اختلاف فيه، والذي أدركت عليه أهل العلم... ؛ قاعدة ميراث الكلالة عنده."
+  ar: "يقول مالك إن الأمر المجتمع عليه عندهم أن الكلالة على وجهين: فأما الآية التي في أول سورة النساء، فهذه الكلالة التي لا يرث فيها الإخوة للأم حتى لا يكون ولد ولا والد. وأما الآية التي في آخر سورة النساء، فهذه الكلالة التي يكون فيها الإخوة عصبة إذا لم يكن ولد، فيرثون مع الجد في الكلالة، لأن الجد أولى بالميراث منهم، فهو يرث مع ذكور ولد المتوفى السدس. ويعقب مالك بأن الجد حجب الإخوة للأم ومنعهم مكانه الميراث، فهو أولى بالذي كان لهم. ويذكر المحقق أن يحيى رواه مرسلا، وتابعه أكثر الرواة على إرساله، ووصله القعنبي وابن القاسم على اختلاف. {cite:muwatta-maruf-1997 p.17}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1468 of kitab 13-faraid at PDF p. 17", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1468 at PDF p. 17; ميراث الكلالة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 17; matn excerpt at most 40 words" }

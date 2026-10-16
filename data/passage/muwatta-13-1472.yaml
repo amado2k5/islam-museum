@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1472"
-label: { ar: "الموطأ 1472", en: "Muwatta 1472" }
+label: { ar: "الموطأ 1472 — مالك: كل ما سئلت عنه من ميراث العصبة فعلى هذا النحو، انسب المتوفى ومن ينازع في ولايته من عصبته، واستشهد بآية أولي الأرحام", en: "Muwatta 1472" }
 summary:
-  ar: "مالك: وكل شيء سُئلت عنه من ميراث العصبة فإنه على نحو هذا: انسب المتوفى... ؛ طريقة حساب العصبات في الميراث."
+  ar: "يقول مالك وكل شيء سئلت عنه من ميراث العصبة فإنه على نحو هذا، انسب المتوفى ومن ينازع في ولايته من عصبته، فإن وجدت أحدا منهم يلقى المتوفى إلى أب لا يلقاه أحد منهم إلى أب دونه، فاجعل ميراثه للذي يلقاه إلى الأب الأدنى، دون من يلقاه إلى فوق ذلك. وإن وجدتهم يلقون إلى أب واحد يجمعهم، فانظر أقعدهم في النسب، واستشهد بآية أولي الأرحام في سورة الأنفال. {cite:muwatta-maruf-1997 p.20}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1472 of kitab 13-faraid at PDF p. 20", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-64" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1472 at PDF p. 20; ميراث ولاية العصبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b28" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 20; matn excerpt at most 40 words" }
