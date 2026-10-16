@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1391"
-label: { ar: "الموطأ 1391", en: "Muwatta 1391" }
+label: { ar: "الموطأ 1391 — عباد بن تميم: عويمر بن أشقر ذبح ضحيته قبل أن يغدو يوم الأضحى، فأمره النبي أن يعود بضحية أخرى", en: "Muwatta 1391" }
 summary:
-  ar: "يحيى بن سعيد عن عباد بن تميم: أن عويمر بن أشقر ذبح ضحيته قبل... ؛ أثر في الذبح قبل الصلاة؛ تفاصيل الواقعة غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد عن عباد بن تميم أن عويمر بن أشقر ذبح ضحيته قبل أن يغدو يوم الأضحى، وأنه ذكر ذلك لرسول الله، فأمره أن يعود بضحية أخرى. ويذكر المحقق أن ابن عبد البر رأى أن يحيى بن معين قال إن الحديث مرسل، وأن رواية حماد بن سلمة تدل على ذلك. {cite:muwatta-maruf-1997 p.621}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1391 of kitab 09-dahaya at PDF p. 621", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k9-batch-61b" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubbad-ibn-tamim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uwaymir-ibn-ashqar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-id, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1391 at PDF p. 621; النهي عن ذبح الضحية قبل انصراف الإمام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k9-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 621; matn excerpt at most 40 words" }

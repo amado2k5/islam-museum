@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1387"
-label: { ar: "الموطأ 1387", en: "Muwatta 1387" }
+label: { ar: "الموطأ 1387 — البراء بن عازب: سئل النبي عما يتقى من الضحايا، فأشار بيده أربعا: العرجاء البين ظلعها، والعوراء البين عورها، والمريضة البين مرضها، والعجفاء التي لا تنقي", en: "Muwatta 1387" }
+text: "الْعَرْجاءُ الْبَيِّنُ ظَلْعُها، وَالْعَوْراءُ الْبَيِّنُ عَورُها"
 summary:
-  ar: "البراء بن عازب عن النبي ﷺ: من ذبح قبل الصلاة فإنما هو لحم قدمه لأهله... ؛ حكم الذبح قبل صلاة العيد؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن عمرو بن الحارث عن عبيد بن فيروز عن البراء بن عازب أن رسول الله سئل ماذا يتقى من الضحايا؟ فأشار بيده وقال أربعا، وكان البراء يشير بيده ويقول يدي أقصر من يد رسول الله، العرجاء البين ظلعها، والعوراء البين عورها، والمريضة البين مرضها، والعجفاء التي لا تنقي. ويذكر المحقق أن هذا منقطع، وأن ابن أبي حاتم وابن عبد البر ذكرا أن الحديث إنما رواه عمرو بن الحارث عن سليمان بن عبد الرحمن عن عبيد بن فيروز، فسقط لمالك ذكر سليمان. {cite:muwatta-maruf-1997 p.619}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1387 of kitab 09-dahaya at PDF p. 619", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k9-batch-61b" }
+  - { type: mentions, target: person/al-bara-ibn-azib, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amr-ibn-al-harith, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubayd-ibn-fayruz, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1387 at PDF p. 619; ما ينهى عنه من الضحايا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k9-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 619; matn excerpt at most 40 words" }

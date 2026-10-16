@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1393"
-label: { ar: "الموطأ 1393", en: "Muwatta 1393" }
+label: { ar: "الموطأ 1393 — عبد الله بن أبي بكر عن عبد الله بن واقد: نهى النبي عن أكل لحوم الضحايا بعد ثلاث، ثم قال إنما نهيتكم من أجل الدافة", en: "Muwatta 1393" }
+text: "ادَّخِرُوا لِثَلاثِ، وَتصدَّقُوا بِمَا بَقي"
 summary:
-  ar: "عبد الله بن أبي بكر عن عبد الله بن واقد: قال: نهى رسول الله ﷺ... ؛ النهي عن ادخار لحوم الأضاحي فوق ثلاث ثم نُسخ؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن عبد الله بن أبي بكر عن عبد الله بن واقد أنه قال نهى رسول الله عن أكل لحوم الضحايا بعد ثلاث. وذكر عبد الله بن أبي بكر ذلك لعمرة بنت عبد الرحمن، فقالت صدق، سمعت عائشة تقول دف ناس من أهل البادية حضرة الأضحى في زمان رسول الله، فقال ادخروا لثلاث وتصدقوا بما بقي، فلما كان بعد ذلك قيل له لقد كان الناس ينتفعون بضحاياهم، فقال وما ذلك؟ قالوا نهيت عن لحوم الضحايا بعد ثلاث، فقال إنما نهيتكم من أجل الدافة التي دفت عليكم، فكلوا وتصدقوا وادخروا. {cite:muwatta-maruf-1997 p.623}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-09-dahaya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1393 of kitab 09-dahaya at PDF p. 623", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k9-batch-61b" }
+  - { type: mentions, target: person/abdullah-ibn-abi-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-waqid, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1393 at PDF p. 623; ادخار لحوم الأضاحي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k9-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 623; matn excerpt at most 40 words" }

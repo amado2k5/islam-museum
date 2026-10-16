@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1382"
-label: { ar: "الموطأ 1382", en: "Muwatta 1382" }
+label: { ar: "الموطأ 1382 — نافع عن ابن عمر: أدرك النبي عمر وهو يحلف بأبيه فقال إن الله ينهاكم أن تحلفوا بآبائكم، فليحلف بالله أو ليصمت", en: "Muwatta 1382" }
+text: "إنَّ اللهَ يَنْهَاكُمْ أَنْ تَحْلِفُوا بِآبَائكُمْ، فَمن كَانَ حَالفًا، فَلْيَحْلفْ بِاللهِ أوْ لِيَصْمُتْ"
 summary:
-  ar: "نافع عن ابن عمر: أن رسول الله ﷺ أدرك عمر بن الخطاب... ؛ حديث النهي عن الحلف بالآباء."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن رسول الله أدرك عمر بن الخطاب وهو يسير في ركب، وهو يحلف بأبيه، فقال إن الله ينهاكم أن تحلفوا بآبائكم، فمن كان حالفا فليحلف بالله أو ليصمت. {cite:muwatta-maruf-1997 p.616}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1382 of kitab 08-nudhur at PDF p. 616", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k8-batch-61a" }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1382 at PDF p. 616; جامع الأيمان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k8-b23" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 616; matn excerpt at most 40 words" }
