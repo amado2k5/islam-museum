@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2579"
-label: { ar: "الموطأ 2579", en: "Muwatta 2579" }
+label: { ar: "الموطأ 2579 — مالك: القوم المتهمون بالدم يحلف كل واحد منهم خمسين يمينا", en: "Muwatta 2579" }
 summary:
-  ar: "إذا اتُّهم قوم لهم عدد بالدم فردّ ولاة المقتول الأيمان عليهم: يحلف كل واحد منهم عن نفسه خمسين يمينًا."
+  ar: "قال يحيى: وقد قال مالك في القوم يكون لهم العدد يُتهمون بالدم، فيرد ولاة المقتول الأيمان عليهم وهم نفر لهم عدد: أن يحلف كل إنسان منهم عن نفسه خمسين يمينا، ولا تُقطع الأيمان عليهم بقدر عددهم، ولا يبرؤون دون أن يحلف كل إنسان منهم عن نفسه خمسين يمينا. قال مالك: وهذا أحسن ما سمعت في ذلك. {cite:muwatta-maruf-1997 p.455}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-30-qasama }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2579 of kitab 30-qasama at PDF p. 455", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b111" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qasama, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2579 at PDF p. 455; تبدئة أهل الدم في القسامة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b88" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 455; matn excerpt at most 40 words" }

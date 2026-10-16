@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2574"
-label: { ar: "الموطأ 2574", en: "Muwatta 2574" }
+label: { ar: "الموطأ 2574 — بشير بن يسار: محيصة وحويصة يطلبان دم عبد الله بن سهل وقول النبي", en: "Muwatta 2574" }
 summary:
-  ar: "رواية بشير بن يسار للقصة نفسها، وفيها أن محيصة وأخاه حويصة وعبد الرحمن بن سهل أتوا النبي."
+  ar: "يروي مالك عن يحيى بن سعيد عن بشير بن يسار أنه أخبره أن عبد الله بن سهل الأنصاري ومحيصة بن مسعود خرجا إلى خيبر فتفرقا في حوائجهما، فقُتل عبد الله بن سهل. فقدم محيصة فأتى هو وأخوه حويصة وعبد الرحمن بن سهل إلى النبي، فذهب عبد الرحمن ليتكلم لمكانه من أخيه، فقال النبي: كبّر كبّر، فتكلم حويصة ومحيصة وذكرا شأن عبد الله بن سهل. فقال لهم النبي: أتحلفون خمسين يمينا وتستحقون دم صاحبكم أو قاتلكم؟ فقالوا: يا رسول الله، لم نشهد ولم نحضر. فقال: فتبرئكم يهود بخمسين يمينا؟ فقالوا: كيف نقبل أيمان قوم كفار؟ قال يحيى بن سعيد: فزعم بشير بن يسار أن النبي داه من عنده. ويذكر المحقق أن ابن عبد البر عدّه مرسلا في رواية مالك، وأن رواية سهل وحده متصلة في الصحيحين. {cite:muwatta-maruf-1997 p.452} {cite:muwatta-maruf-1997 p.453}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-30-qasama }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2574 of kitab 30-qasama at PDF p. 452", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b111" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/bashir-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-sahl, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhayyisa-ibn-masud, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/huwayyisa-ibn-masud, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-sahl, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qasama, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2574 at PDF p. 452; تبدئة أهل الدم في القسامة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b88" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 452; matn excerpt at most 40 words" }

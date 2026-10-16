@@ -3,12 +3,12 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-29"
-label: { ar: "الموطأ، كتاب العقول", en: "Muwatta, Book of Blood money (uqul)" }
+label: { ar: "الموطأ، كتاب العقول", en: "Muwatta, Book of blood-money (uqul)" }
 summary:
-  ar: "كتاب العقول في الموطأ، المجلد الثاني، يبدأ في صفحة 417 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Blood money (uqul) in the Muwatta, volume 2, starting at PDF page 417 (PDF numbering, not the printed page)."
+  ar: "كتاب العقول في الموطأ، المجلد الثاني، من صفحة 417 إلى 449 بترقيم ملف PDF، ويضم 115 نصا مرقوما (2458–2572) في أربعة وعشرين بابا."
+  en: "The Book of blood-money (uqul) in the Muwatta, volume 2, PDF pages 417 to 449 (PDF numbering), with 115 numbered reports (2458–2572) in twenty-four babs."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 417", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 417; hadith 2458–2572 at PDF pp. 417–449", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k29-chapter" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); chapter record written after 2572; own-words accounts; no hadith text stored; REVIEW on 2353 is in kitab 26 only" }

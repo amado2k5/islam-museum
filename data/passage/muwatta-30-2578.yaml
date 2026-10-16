@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2578"
-label: { ar: "الموطأ 2578", en: "Muwatta 2578" }
+label: { ar: "الموطأ 2578 — مالك: فرق القسامة في الدم عن الأيمان في الحقوق", en: "Muwatta 2578" }
 summary:
-  ar: "فرّق مالك بين القسامة في الدم والأيمان في الحقوق: لأن القاتل لا يقتل في جماعة من الناس وإنما يلتمس الخلوة."
+  ar: "قال يحيى: قال مالك: وإنما فُرق بين القسامة في الدم والأيمان في الحقوق: أن الرجل إذا داين الرجل استثبت عليه في حقه، وأن الرجل إذا أراد قتل الرجل لم يقتله في جماعة من الناس، وإنما يلتمس الخلوة. فلو لم تكن القسامة إلا فيما تثبت فيه البينة، ولو عُمل فيها كما يُعمل في الحقوق، لهلكت الدماء واجترأ الناس عليها، ولكن إنما جُعلت القسامة إلى ولاة المقتول يُبدؤون بها ليكف الناس عن الدم، وليحذر القاتل أن يؤخذ في مثل ذلك بقول المقتول. {cite:muwatta-maruf-1997 p.455}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-30-qasama }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2578 of kitab 30-qasama at PDF p. 455", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b111" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qasama, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2578 at PDF p. 455; تبدئة أهل الدم في القسامة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b88" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 455; matn excerpt at most 40 words" }
