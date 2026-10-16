@@ -144,3 +144,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 26: 25 files (ujj.md … wadi-al-mushaqqaq.md), draft
 - event a–m batch 8 (2026-10-16, claude-haiku-5-5): 25 pages, battle-of-ibn-abi-dulaf-near-hamadhan → battle-of-tawahin (EN drafts).
 - person i–m batch 20 (25 files, lajin … mahmud-shukri-al-alusi) — Claude Haiku 5.5, draft
+- person s–z batch 14 (Claude Code, claude-haiku-5-5): ubayd-allah-ibn-al-husayn-al-jallab … ujayf-ibn-anbasa, 25 files, 25 files.
