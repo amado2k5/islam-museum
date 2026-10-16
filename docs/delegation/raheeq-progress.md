@@ -26,7 +26,7 @@
 | 11 بيعتا العقبة / دار الندوة | 143–160 | **done**: 11a `6827efdc` (pp. 143–152: first and second pledges of al-Aqaba, Mus'ab's mission, the covenant clauses, the twelve chiefs), 11b (pp. 153–160: the emigrations and the stories of their hindrance, Abu Bakr waiting, the Dar al-Nadwa plot; new place dar-al-nadwa) |
 | 12 الهجرة | 161–174 | **done**: 12a `fe1269ec` (pp. 161–166: the night escape, the cave of Thawr, the pursuit), 12b (pp. 167–174: the route, Umm Ma'bad, Suraqa, Quba, entry into Medina, the family's arrival) |
 | 13 الحياة في المدينة / السرايا قبل بدر | 175–203 | **done**: 13a `101f5204` (pp. 175–182: three phases, three groups, Ibn Ubayy, the Jews), 13b `79c2b4d0` (pp. 183–189: the Mosque, brotherhood, Medina charter, ethics), 13c (pp. 190–203: the Jews' pact, Quraysh's letter to Ibn Ubayy, the permission to fight, the raids before Badr, the qibla change) |
-| 14 بدر | 204–233 | in progress: 14a `896163c0` (pp. 204–211: the build-up), 14b (pp. 212–219: the shelter, Quraysh's council, the lines, the duels, the supplication, the angels, Iblis's flight) applied; 14c (pp. 219–233: the rout, the dead, the prisoners) pending |
+| 14 بدر | 204–233 | **done**: 14a `896163c0` (pp. 204–211: the build-up), 14b `aaad03d2` (pp. 212–219: the battle's day), 14c (pp. 220–233: the death of Abu Jahl, the aftermath, the captives, Anfal, the first Eid) |
 | 15 بين بدر وأحد | 233–247 | pending |
 | 16 أحد | 248–289 | pending |
 | 17 بين أحد والأحزاب | 290–300 | pending |
@@ -50,7 +50,7 @@
 
 ## Next step
 
-Chapter 14 onward (chapter 14 starts at p. 204; read its pages and the existing entities first). Chapters 1–13 are on main.
+Chapter 15 onward (chapter 15 starts at p. 234; read its pages and the existing entities first). Chapters 1–14 are on main.
 
 ## First pass (Oct 2026, old rules): batch log
 

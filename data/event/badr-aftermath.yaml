@@ -1,0 +1,33 @@
+id: event/badr-aftermath
+class: event
+kind: other
+label: { ar: "بعد بدر: القتلى والأسرى والأنفال وأخبار المدينة ومكة", en: "After Badr: the dead, the captives, the spoils, and the news in Mecca and Medina" }
+summary:
+  ar: "استشهد من المسلمين أربعة عشر رجلاً، وقُتل من المشركين نحو سبعين وأُسر نحو سبعين، وألقي القتلى في القليب، وخبرت مكة بالهزيمة، ثم بعث النبي بشيرين إلى المدينة، وقسم الغنائم بعد خلاف، وأطلق الأسرى بالفداء، وفرض الصيام والزكاة."
+  en: "Fourteen Muslims were martyred, about seventy Meccans were killed and about seventy taken captive; the dead were thrown into a well, Mecca received the news of the rout, the Prophet sent two messengers to Medina, the spoils were divided after a dispute, the captives were ransomed, and fasting and zakat al-fitr were prescribed."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-03~", calendar: julian, precision: month, status: tradition, note: "بعد يوم بدر، السنة الثانية للهجرة (الرحيق ص222–233)." }
+relations:
+  - { type: occurred_at, target: place/badr, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-lahab, role: "تلقى خبر الهزيمة في مكة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zayd-ibn-haritha, role: "بشير إلى أهل السافلة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-rawaha, role: "بشير إلى أهل العالية", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "قتل النضر بن الحارث", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/uqba-ibn-abi-muayt, role: "قُتل بأمر النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, role: "أشار بالفداء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "أشار بقتل الأسرى", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zaynab-bint-muhammad, role: "فُديت بقلادة خديجة وهاجرت بعد ذلك", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-al-as-ibn-al-rabi, role: "أُطلق بشرط إخلاء سبيل زينب", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-muslim, source/sahih-al-bukhari, source/musnad-ahmad, source/sunan-abi-dawud]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص220–233 نقلاً عن صحيح البخاري ومسلم وأحمد وأبي داود وابن هشام 1/630–660 وزاد المعاد 2/89–90 وتاريخ عمر لابن الجوزي"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-14c"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 222–233" }

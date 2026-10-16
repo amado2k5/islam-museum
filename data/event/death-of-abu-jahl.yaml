@@ -1,0 +1,27 @@
+id: event/death-of-abu-jahl
+class: event
+kind: death
+label: { ar: "مقتل أبي جهل في بدر", en: "The death of Abu Jahl at Badr" }
+summary:
+  ar: "لما اضطرب صف قريش صمد أبو جهل يحرّض جيشه، ثم قتله غلامان من الأنصار، هما معاذ بن عمرو بن الجموح ومعوذ بن عفراء، فأثخناه، ثم أجهز عليه عبد الله بن مسعود فاحتز رأسه، فقال النبي: هذا فرعون هذه الأمة."
+  en: "When Quraysh's ranks broke, Abu Jahl stood firm and urged his men on, then two young Helpers, Mu'adh ibn Amr ibn al-Jamuh and Mu'awwidh ibn Afra, struck him down; Ibn Mas'ud finished him and cut off his head, and the Prophet called him the Pharaoh of this community."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-03-17~", calendar: julian, precision: day, status: tradition, note: "يوم بدر، السابع عشر من رمضان سنة اثنتين من الهجرة (الرحيق ص220)." }
+relations:
+  - { type: occurred_at, target: place/badr, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muadh-ibn-amr-ibn-al-jamuh, role: "ضربه فأطن قدمه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-masud, role: "احتز رأسه", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused_by, target: event/battle-of-badr, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim, source/musnad-ahmad]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص220–233 نقلاً عن صحيح البخاري ومسلم وأحمد وأبي داود وابن هشام 1/630–660 وزاد المعاد 2/89–90 وتاريخ عمر لابن الجوزي"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-14c"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 220–221" }
