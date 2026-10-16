@@ -1,0 +1,36 @@
+---
+id: concept/social-condition-jahiliyya
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## Overview
+After its search of the politics and religions of the Peninsula, *al-Rahiq al-Makhtum* speaks briefly of the social, economic, and moral conditions of the Arabs before Islam. {cite:mubarakpuri-raheeq p.43} The author describes various circles whose conditions differ from one another, and at the end of the chapter he judges that the social condition was at the bottom of weakness and blindness. {cite:mubarakpuri-raheeq p.43} {cite:mubarakpuri-raheeq p.45}
+
+## Women among the nobles
+The relationship between a man and his household among the nobles was at a high degree of refinement and progress. Women had the greater share of freedom of will and of the force of speech; they were honoured and protected, so that swords were drawn in their defence and blood was shed. When a man wished to be praised for generosity and courage, he addressed, for most of his time, only a woman; and sometimes a woman, if she wished, gathered the tribes for peace, and if she wished, she kindled between them the fire of war. {cite:mubarakpuri-raheeq p.43} Yet with all this, the man was without dispute the head of the household and the one with the final word, and a man's bond with a woman by the marriage contract was under the supervision of her guardians, and it was not her right to act against them. {cite:mubarakpuri-raheeq p.43}
+
+## Other circles and marriages
+In the other circles there were kinds of mixing between men and women, which the author describes as debauchery and indecency. {cite:mubarakpuri-raheeq p.43} He cites the hadith of Aisha in Abu Dawud that marriage in the Jahiliyya was of four kinds; their details are in [[concept/jahili-marriage-forms|the forms of marriage in the Jahiliyya]]. {cite:mubarakpuri-raheeq p.43} {cite:mubarakpuri-raheeq p.44} {cite:sunan-abi-dawud Book of Marriage} There were gatherings of men and women brought about by the edges of swords and the points of spears: the victor in the wars of the tribes would take the women of the vanquished and make them lawful to himself, but the children whose mother was such a woman bore the shame all their lives. {cite:mubarakpuri-raheeq p.44}
+
+## Polygamy, divorce, and adultery
+It was known among the people of the Jahiliyya that they took several wives without a known limit, combined two sisters, and married the wife of their fathers when they divorced her or when they died. The Qur'an speaks of this in [[passage/quran-4-22|al-Nisa' 22]] and [[passage/quran-4-23|al-Nisa' 23]]. Divorce was in the hands of men, without a fixed limit. {cite:mubarakpuri-raheeq p.44} {cite:sunan-abi-dawud chapter on the abrogation of return after three divorces} The author holds that the sin of adultery was prevalent in all the circles, except for individuals whose souls refused it; that free women were in a better condition than slave women; and that the majority did not feel shame in being attributed to this sin. He relies on the hadith of Abu Dawud from Amr ibn Shu'ayb about the man who claimed a son and said the boy was fathered by an adulterer on his mother in the Jahiliyya, whereupon the Prophet said: "The child belongs to the bed, and the adulterer gets the stone," and on the story of the dispute between Sa'd ibn Abi Waqqas and Abd ibn Zam'a over the son of the slave woman of Zam'a, which is well known. {cite:mubarakpuri-raheeq p.44} {cite:mubarakpuri-raheeq p.45} {cite:sunan-abi-dawud chapter on the child belonging to the bed}
+
+## Children
+The relationship of the man with his children was of many kinds: some said "our children are our livers walking upon the earth," and some would bury daughters for fear of shame and expense, and kill sons for fear of poverty and want, as in [[passage/quran-6-151|al-An'am 151]], [[passage/quran-17-31|al-Isra' 31]], [[passage/quran-81-8|al-Takwir 8]], and [[passage/quran-16-58|al-Nahl 58]]. {cite:mubarakpuri-raheeq p.45} The author, however, does not count this among the widespread prevailing morals, since they were the people most in need of sons to protect them against the enemy. {cite:mubarakpuri-raheeq p.45} See [[concept/wad|burial of daughters]].
+
+## Solidarity and the tribe
+The bond of a man with his brother and his cousins and his clan was firm and strong. They lived and died for tribal solidarity, and the basis of the social order was solidarity by descent and kinship. They followed the proverb "help your brother, whether he is an oppressor or oppressed," in its literal sense, without the qualification that Islam introduced, that helping the oppressor means restraining him from oppression. {cite:mubarakpuri-raheeq p.45} Yet rivalry for honour and lordship often led to wars among tribes that shared one father, as between [[group/al-aws|al-Aws]] and [[group/al-khazraj|al-Khazraj]], 'Abs and Dhubyan, and [[group/bakr-ibn-wail|Bakr]] and [[group/banu-taghlib|Taghlib]]. {cite:mubarakpuri-raheeq p.45} See [[concept/asabiyya|asabiyya]].
+
+## Between the tribes
+The relations between the different tribes were wholly disjointed, and their strength was spent in wars. Yet the awe of some traditions common to religion and superstition sometimes eased their intensity; in some cases alliance, pacts, and subordination led to the gathering of different tribes. The sacred months were a mercy and a help to them in their lives and the earning of their livelihood. {cite:mubarakpuri-raheeq p.45}
+
+## The author's judgement
+The author's final word is that the social condition was at the bottom of weakness and blindness: ignorance pitched its tent, superstitions had their sway, women were bought and sold and sometimes treated like objects, the bond between the slave and his master was frail, and most of the governments' concern was to fill their treasuries from their subjects or to draw wars upon their adversaries. {cite:mubarakpuri-raheeq p.45}
+
+## What is not recorded here
+This is the picture of a contemporary Sunni author that combines description and judgement. The views of modern studies of Arab society before Islam and of the status of women in it have not yet been added, and the subject is one of dispute.
+
+## For young visitors
+Before Islam the society was tribes, each of which was partisan to its own people. It had harsh customs, such as burying daughters, and noble ones, such as keeping faith and protecting the guest.

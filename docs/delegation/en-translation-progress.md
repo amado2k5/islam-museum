@@ -104,3 +104,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place a–l batch 1 (Haiku 5.5, draft): 25 files, abadan → aghriyimis; 895 remaining at this point.
 - group batch 6 (25 files, mudar-ibn-nizar … saqaliba): done by Claude Haiku 5.5, draft
 - place m–z batch 18: 25 files (sayumur.md … sharma.md), draft
+- concept batch 9 (Claude Haiku 5.5): 25 pages, saltanat-al-kawakib → tolerance-and-intolerance-islam-europe
