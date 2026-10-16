@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2587"
-label: { ar: "الموطأ 2587", en: "Muwatta 2587" }
+label: { ar: "الموطأ 2587 — مالك: كل وارث يحلف بقدر ميراثه من الخمسين يمينا لاستحقاق حقه من الدية", en: "Muwatta 2587" }
 summary:
-  ar: "إذا أراد بعض ورثة المقتول خطأً أن يأخذ من الدية بقدر حقه وأصحابه غُيّب، فلا يأخذ ولا يستحق شيئًا حتى يحضروا."
+  ar: "قال مالك: إذا قام بعض ورثة المقتول خطأ يريد أن يأخذ من الدية بقدر حقه منها، وأصحابه غيب، لم يأخذ ذلك ولم يستحق من الدية شيئا، قل أو كثر، دون أن يستكمل القسامة، فيحلف خمسين يمينا. فإذا حلف خمسين يمينا استحق حصته من الدية؛ لأن الدم لا يثبت إلا بخمسين يمينا، ولا تثبت الدية حتى يثبت الدم. فإن جاء بعد ذلك أحد من الورثة حلف من الخمسين يمينا بقدر ميراثه، وأخذ حقه، حتى يستكمل الورثة حقوقهم. وإن كان بعض الورثة غائبا أو صبيا لم يبلغ الحلم، حلف الذين حضروا خمسين يمينا، فإن جاء الغائب بعد ذلك حلف، أو بلغ الصبي الحلم حلف، يحلفون على قدر حقوقهم من الدية. قال يحيى: قال مالك: وهذا أحسن ما سمعت. {cite:muwatta-maruf-1997 p.458}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-30-qasama }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2587 of kitab 30-qasama at PDF p. 458", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b111" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mirath, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qasama, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2587 at PDF p. 458; الميراث في القسامة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b89" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نهاية الحكم غير واضحة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 458; matn excerpt at most 40 words" }
