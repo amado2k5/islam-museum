@@ -5,10 +5,10 @@ work: work/muwatta-malik
 ref: "kitab-31"
 label: { ar: "الموطأ، كتاب الجامع", en: "Muwatta, Book of Miscellaneous (al-jami')" }
 summary:
-  ar: "كتاب الجامع في الموطأ، المجلد الثاني، يبدأ في صفحة 461 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Miscellaneous (al-jami') in the Muwatta, volume 2, starting at PDF page 461 (PDF numbering, not the printed page)."
+  ar: "كتاب الجامع في الموطأ، المجلد الثاني، من صفحة 461 إلى 604 بترقيم ملف PDF، ويضم 272 نصا مرقوما (2590–2861) في تسعة وثمانين بابا، وهو آخر كتب متن الموطأ في هذا المجلد."
+  en: "The Book of Miscellaneous (al-jami') in the Muwatta, volume 2, PDF pages 461 to 604 (PDF numbering), with 272 numbered reports (2590–2861) in eighty-nine babs; the last book of the Muwatta body in this volume."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 461", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 461; hadith 2590–2861 at PDF pp. 461–604", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k31-chapter" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); chapter record completed after 2861; own-words accounts; no hadith text stored" }
