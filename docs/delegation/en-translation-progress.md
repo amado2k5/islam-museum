@@ -74,3 +74,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - event a–m batch 3 (2026-10-16, claude-haiku-5-5): 25 pages, al-falalij-and-tustar-jaban → ansar-scribes-kamil (EN drafts).
 - place m–z batch 11: 25 files (qantarat-qurra.md … qasr-al-nawashiq.md), draft
 - person i–m batch 7 (25 files, ibn-khalil-al-dimashqi-abu-al-hajjaj-yusuf … ibn-qayyim-al-jawziyya) — Claude Haiku 5.5, draft
+- work batch 8 (25 files, masalik-al-absar … sharh-aqida-tahawiyya): done by Claude Haiku 5.5, draft
