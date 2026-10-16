@@ -29,11 +29,6 @@ Goal: catalogue films, TV series, documentaries and famous video works about Isl
 
 - Press coverage is seeded for four flagship works only; extend reception/sources per work over time (every reception entry must cite a source entity — mint source/<outlet>-<work>-<year> records).
 - Stubs are name-only; promote actors/directors as needed when prose wants them.
-- Adam's World / Ali and Sumaya / Sang Kyai / Hidayah / al-Shaimaa 1972 / An Islamic History of Europe / Khalid ibn al-Walid serials remain unminted (no verifiable catalogue entry found).
-- No content/ar/screen/*.md prose yet.
-
-## Still open
-
 - Not minted (no verifiable catalogue/source yet): adams-world, ali-and-sumaya (Sound Vision/African works — official sites could be minted as primary sources if wanted), sang-kyai-2013 (idwiki page exists, no QID), hidayah-2005, al-shaimaa-1972, an-islamic-history-of-europe-2005 (Rageh Omaar C4 doc — no QID found), khalid-ibn-al-walid serials.
 - Already in graph under other slugs: paradise-now (al-jannah-al-an-2005), not-without-my-daughter (la-abla-bintati-1991), ibn-hanbal series (al-imam-2017).
 - No content/ar/screen/*.md prose yet; most records cite only wikidata/imdb and need a second source for dated facts before review.
