@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1991"
-label: { ar: "الموطأ 1991", en: "Muwatta 1991" }
+label: { ar: "الموطأ 1991 — مالك عن نافع: سمع ابن عمر يقول: من أسلف سلفا فلا يشترط إلا قضاءه", en: "Muwatta 1991" }
 summary:
-  ar: "مالك عن نافع: أنه سمع عبد الله بن عمر يقول: من أسلف سلفًا فلا يشترط إلا قضاءه... ؛ حكم اشتراط الغير في القرض؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن نافع أنه سمع عبد الله بن عمر يقول: من أسلف سلفا فلا يشترط إلا قضاءه. {cite:muwatta-maruf-1997 p.215}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1991 of kitab 17-buyu at PDF p. 215", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-86" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1991 at PDF p. 215; ما لا يجوز من السلف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b53" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 215; matn excerpt at most 40 words" }

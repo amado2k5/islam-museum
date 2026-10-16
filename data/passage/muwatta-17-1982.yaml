@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1982"
-label: { ar: "الموطأ 1982", en: "Muwatta 1982" }
+label: { ar: "الموطأ 1982 — مالك: من اشترى بقعة أرض فبنى فيها دارا أو نسج الغزل ثوبا ثم أفلس، فلرب البقعة أن يأخذها بما فيها من البنيان ليس له ذلك، بل تقوم البقعة وما أصلحه المشتري، ويكونان شريكين فيها", en: "Muwatta 1982" }
 summary:
-  ar: "مالك: ومن اشترى سلعة من السلع، غزلًا أو متاعًا أو بقعة من الأرض، ثم أحدث في ذلك... ؛ حكم الزيادة على المبيع قبل الإفلاس؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ومن اشترى سلعة من السلع، غزلا أو متاعا أو بقعة من الأرض، ثم أحدث في ذلك المشتري عملا، بنى البقعة دارا، أو نسج الغزل ثوبا، ثم أفلس الذي ابتاع ذلك، فقال رب البقعة: أنا آخذ البقعة وما فيها من البنيان، إن ذلك ليس له، ولكن تقوم البقعة وما فيها مما أصلح المشتري، ثم ينظر كم ثمن البقعة؟ وكم ثمن البنيان من تلك القيمة؟ ثم يكونان شريكين في ذلك، لصاحب البقعة بقدر حصته، ويكون للغرماء بقدر حصة البنيان. {cite:muwatta-maruf-1997 p.211} {cite:muwatta-maruf-1997 p.212}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1982 of kitab 17-buyu at PDF p. 211", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-86" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/iflas, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1982 at PDF p. 211; ما جاء في إفلاس الغريم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b53" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 211; matn excerpt at most 40 words" }
