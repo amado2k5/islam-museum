@@ -16,8 +16,9 @@
 - Kitab 8 done: النذور والأيمان (hadith 1351–1386, PDF pp. 605–618; 9 babs; 36 records; chapter record and page written).
 - Kitab 9 done: الضحايا (hadith 1387–1402, PDF pp. 619–627; 6 babs; 16 records; chapter record and page written).
 - Kitab 10 done: الذبائح (hadith 1403–1413, PDF pp. 629–633; 4 babs; 11 records; chapter record and page written).
-- Kitab 11 in progress: الصيد (hadith 1414–1436 written; next 1437, PDF p. 642).
-- Record reached: 1436. Next: kitab 11 from hadith 1437.
+- Kitab 11 done: الصيد (hadith 1414–1440, PDF pp. 635–644; 7 babs; 27 records; chapter record and page written).
+- Kitab 12 done: العقيقة (hadith 1441–1448, PDF pp. 645–647; 2 babs; 8 records; chapter record and page written). Volume 1 (kitab 1–12) is complete.
+- Record reached: 1448. Next: kitab 13 (الفرائض) from hadith 1449, volume 2 (PDF pages restart at 1).
 - REVIEW flags remaining: none in kitab 1–6; kitab 7–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
@@ -30,7 +31,7 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 11 (الصيد) from hadith 1437 (PDF p. 642), then kitab 12 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
+Volume 2 (kitab 13–31) from hadith 1449. Its PDF is the second Noor-Book file under books/hadith/muwatta-malik/noor-maruf-1997-v2/. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.

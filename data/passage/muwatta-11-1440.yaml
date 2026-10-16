@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1440"
-label: { ar: "الموطأ 1440", en: "Muwatta 1440" }
+label: { ar: "الموطأ 1440 — مالك: إن ظن المضطر أن أهل الثمر أو الزرع أو الغنم يصدقونه بضرورته أكل مما يرد جوعه، وإلا فأكل الميتة خير له", en: "Muwatta 1440" }
 summary:
-  ar: "سُئل مالك عن الرجل يُضطر إلى الميتة: أيأكل منها وهو يجد ثمر القوم أو زرعًا... ؛ حكم أكل الميتة مع وجود طعام الغير؛ الجواب يحتاج مراجعة."
+  ar: "سئل مالك عن الرجل يضطر إلى الميتة، أيأكل منها، وهو يجد ثمر القوم أو زرعا أو غنما بمكانه؟ فقال إن ظن أن أهل ذلك يصدقونه بضرورته حتى لا يعد سارقا فتقطع يده، رأى أن يأكل من أي ذلك وجد ما يرد جوعه، ولا يحمل منه شيئا، وذلك أحب إليه من أكل الميتة. وإن خشي أن لا يصدقوه ويعدوه سارقا، فأكل الميتة خير له عنده، وله في ذلك سعة، مع أنه يخاف أن يعدو عاد ممن لم يضطر إلى الميتة، يريد استجازة أخذ أموال الناس بذلك. قال مالك وهذا أحسن ما سمعت. {cite:muwatta-maruf-1997 p.644}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1440 of kitab 11-sayd at PDF p. 644", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k11-batch-63a" }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1440 at PDF p. 644; ما يضطر إليه من أكل الميتة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k11-b26" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 644; matn excerpt at most 40 words" }

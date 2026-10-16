@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1443"
-label: { ar: "الموطأ 1443", en: "Muwatta 1443" }
+label: { ar: "الموطأ 1443 — ربيعة بن أبي عبد الرحمن عن محمد بن علي بن الحسين: وزنت فاطمة شعر حسن وحسين، فتصدقت بزنته فضة", en: "Muwatta 1443" }
 summary:
-  ar: "ربيعة بن أبي عبد الرحمن عن محمد بن علي بن الحسين: أنه قال: وزنت... ؛ أثر في وزن شعر المولود والصدقة بوزنه؛ تفاصيل الأثر غير واضحة."
+  ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن عن محمد بن علي بن الحسين أنه قال وزنت فاطمة بنت رسول الله شعر حسن وحسين، فتصدقت بزنته فضة. {cite:muwatta-maruf-1997 p.646}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-12-aqiqa }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1443 of kitab 12-aqiqa at PDF p. 646", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k12-batch-63b" }
+  - { type: mentions, target: person/rabia-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ali-zayn-al-abidin, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/fatima, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/aqiqa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1443 at PDF p. 646; ما جاء في العقيقة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k12-b26" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 646; matn excerpt at most 40 words" }

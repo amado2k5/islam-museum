@@ -3,12 +3,17 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-12"
-label: { ar: "الموطأ، كتاب العقيقة", en: "Muwatta, Book of Aqiqa" }
+label: { ar: "الموطأ، كتاب العقيقة", en: "Muwatta, Book of the Aqiqa" }
 summary:
-  ar: "كتاب العقيقة في الموطأ، المجلد الأول، يبدأ في صفحة 645 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Aqiqa in the Muwatta, volume 1, starting at PDF page 645 (PDF numbering, not the printed page)."
+  ar: "كتاب العقيقة، الكتاب الثاني عشر والأخير من المجلد الأول في طبعة بشار عواد معروف (1997) من الموطأ في رواية يحيى بن يحيى عن مالك: 8 نصوص (1441–1448) في بابين، من الصفحة 645 إلى الصفحة 647 من ملف PDF المجلد الأول. يبدأ بقول النبي في العقيقة ويذكر وزن شعر الحسن والحسين وصدقته بالفضة، ثم عمل الصحابة والتابعين فيها، ويختم بحكم مالك أنها مستحبة وليست واجبة. {cite:muwatta-maruf-1997 p.645} {cite:muwatta-maruf-1997 p.647}"
+  en: "The Book of the Aqiqa, the twelfth and last book of volume 1 of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997): 8 reports (1441–1448) in two babs, PDF pp. 645–647, from the Prophet's word on the aqiqa and Fatima's alms of silver to the Malikite ruling that it is recommended and not obligatory."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 645", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/fatima, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/aqiqa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab al-aqiqa, PDF pp. 645–647", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k12-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

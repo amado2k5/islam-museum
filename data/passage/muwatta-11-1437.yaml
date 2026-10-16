@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1437"
-label: { ar: "الموطأ 1437", en: "Muwatta 1437" }
+label: { ar: "الموطأ 1437 — زيد بن أسلم عن ابن وعلة المصري عن ابن عباس: إذا دبغ الإهاب فقد طهر", en: "Muwatta 1437" }
+text: "إذا دُبغَ الإِهابُ فَقدْ طَهرَ"
 summary:
-  ar: "زيد بن أسلم عن ابن وعلة المصري عن عبد الله بن عباس: أن رسول الله ﷺ... ؛ حديث في أكل الحيوان؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن زيد بن أسلم عن ابن وعلة المصري عن عبد الله بن عباس أن رسول الله قال إذا دبغ الإهاب فقد طهر. {cite:muwatta-maruf-1997 p.643}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1437 of kitab 11-sayd at PDF p. 643", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k11-batch-63a" }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-wala-al-misri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/dhabh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1437 at PDF p. 643; ما جاء في جلود الميتة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k11-b26" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 643; matn excerpt at most 40 words" }
