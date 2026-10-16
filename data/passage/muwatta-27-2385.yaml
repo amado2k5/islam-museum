@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2385"
-label: { ar: "الموطأ 2385", en: "Muwatta 2385" }
+label: { ar: "الموطأ 2385 — ابن شهاب: الذي يعمل عمل قوم لوط عليه الرجم أحصن أو لم يحصن", en: "Muwatta 2385" }
 summary:
-  ar: "مالك سأل ابن شهاب عن الذي يعمل عمل قوم لوط... ؛ حكم اللواط؛ الجواب يحتاج مراجعة."
+  ar: "حدث مالك أنه سأل ابن شهاب عن الذي يعمل عمل قوم لوط؟ فقال: عليه الرجم، أحصن أو لم يحصن. {cite:muwatta-maruf-1997 p.387}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-27-hudud }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2385 of kitab 27-hudud at PDF p. 387", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k27-batch-103" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/rajm, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2385 at PDF p. 387; ما جاء في الرجم", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b77" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 387; matn excerpt at most 40 words" }

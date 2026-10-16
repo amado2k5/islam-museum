@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2393"
-label: { ar: "الموطأ 2393", en: "Muwatta 2393" }
+label: { ar: "الموطأ 2393 — مالك: المرأة الحامل التي لا زوج لها وتدعي الاستكراه أو النكاح", en: "Muwatta 2393" }
 summary:
-  ar: "مالك: الأمر عندنا في المرأة توجد حاملًا ولا زوج لها، فتقول: قد استُكرهت... ؛ حكم المرأة المستكرهة إذا ادعت الإكراه؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر عندنا في المرأة توجد حاملا ولا زوج لها، فتقول: قد استكرهت، أو تقول: تزوجت؛ إن ذلك لا يقبل منها ويقام عليها الحد، إلا أن يكون لها بينة على النكاح، أو على الاستكراه، أو جاءت تدمى إن كانت بكرا، أو استغاثت حتى أُتي بها على تلك الحال، أو ما أشبه ذلك مما تبلغ به فضيحة نفسها. فإن لم تأت بشيء من ذلك أُقيم عليها الحد ولم يُقبل منها ما ادعت. {cite:muwatta-maruf-1997 p.390}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-27-hudud }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2393 of kitab 27-hudud at PDF p. 390", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k27-batch-103" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/zina, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2393 at PDF p. 390; ما جاء في المغتصبة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b77" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 390; matn excerpt at most 40 words" }

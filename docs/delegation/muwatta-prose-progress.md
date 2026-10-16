@@ -30,7 +30,7 @@
 - Kitab 22 done: الأقضية (hadith 2103–2213, vol. 2 PDF pp. 259–307; 41 babs; 111 records; chapter record and page written).
 - Kitab 23 done: الوصية (hadith 2214–2239, vol. 2 PDF pp. 309–321; 10 babs; 26 records; chapter record and page written).
 - Kitab 24 done: العتق والولاء (hadith 2240–2282, vol. 2 PDF pp. 323–341; 13 babs; 43 records; chapter record and page written). 2256–2282 replace the maintainer drafts of commits c74445f4 and 7ac75d0e (12 Oct); relations merged, none dropped. 2273 was skipped by the old lane and is filled here.
-- Kitab 25 done: المكاتب (hadith 2283–2347, vol. 2 PDF pp. 343–368; 13 babs; 65 records; chapter record and page written). Open REVIEW on 2338 (OCR garbled on PDF p. 364). Kitab 26 done: المدبر (hadith 2348–2373, vol. 2 PDF pp. 369–378; 7 babs; 26 records; chapter record and page written). Open REVIEW on 2353 (OCR garbled, PDF p. 371). Kitab 27 in progress: الحدود (hadith 2374 onward, PDF p. 379; bab 1 so far). Record reached: 2381. Next: kitab 27 from hadith 2382 (PDF p. 385, not yet read).
+- Kitab 25 done: المكاتب (hadith 2283–2347, vol. 2 PDF pp. 343–368; 13 babs; 65 records; chapter record and page written). Open REVIEW on 2338 (OCR garbled on PDF p. 364). Kitab 26 done: المدبر (hadith 2348–2373, vol. 2 PDF pp. 369–378; 7 babs; 26 records; chapter record and page written). Open REVIEW on 2353 (OCR garbled, PDF p. 371). Kitab 27 in progress: الحدود (hadith 2374 onward, PDF p. 379). Records 2374–2394 done (babs 1–4 so far). Record reached: 2394. Next: kitab 27 from hadith 2395 (bab 5, PDF p. 390; the rest of that page is not yet read).
 - REVIEW flags remaining: none in kitab 1–6; kitab 7–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
@@ -43,7 +43,7 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 27 (الحدود) from hadith 2382 (vol. 2, PDF p. 385), then kitab 27 to its end, then kitab 28 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
+Kitab 27 (الحدود) from hadith 2395 (vol. 2, PDF p. 390), then kitab 27 to its end, then kitab 28 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.
