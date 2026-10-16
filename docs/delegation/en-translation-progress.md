@@ -194,3 +194,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person i–m batch 32 (25 files, murad-v-uthmani … musaddad-ibn-musarhad) — Claude Haiku 5.5, draft
 - place a–l batch 22 (Haiku 5.5, draft): 25 files, dayr-al-jis → dinawar; 936 Arabic files in a–l at commit time.
 - person i–m batch 33 (25 files, musafir-al-qassab … mutarrif-ibn-al-mughira) — Claude Haiku 5.5, draft
+- person i–m batch 34 (final 6 files, mutarrif-ibn-saydan … muzna) — Claude Haiku 5.5, draft; i–m person set complete
