@@ -1,0 +1,16 @@
+id: passage/muslim-1031
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1031"
+label: { ar: "مسلم 1031 — سبعة يظلهم الله في ظله", en: "Muslim 1031 — Seven God shades in His shade" }
+text: "قال رسول الله: «سبعة يظلهم الله في ظله يوم لا ظل إلا ظله: الإمام العادل، وشاب نشأ في عبادة الله، ورجل قلبه معلق في المساجد، ورجلان تحابا في الله اجتمعا عليه وتفرقا عليه، ورجل دعته امرأة ذات منصب وجمال فقال إني أخاف الله، ورجل تصدق بصدقة فأخفاها حتى لا تعلم شماله ما تنفق يمينه، ورجل ذكر الله خالياً ففاضت عيناه»"
+summary:
+  ar: "رواية أبي هريرة في كتاب الزكاة من صحيح مسلم؛ سبع صنوف يظلهم الله في ظل عرشه يوم القيامة — من أشهر نصوص الوعد."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/sadaqa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الزكاة، باب فضل إخفاء الصدقة (طبعة دار التأصيل، الحديث 2427؛ ترقيم عبد الباقي المعروف 1031)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
