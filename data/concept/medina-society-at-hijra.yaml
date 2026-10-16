@@ -1,0 +1,24 @@
+id: concept/medina-society-at-hijra
+class: concept
+kind: social
+label: { ar: "المجتمع في المدينة عند الهجرة", en: "Medina's society at the Hijra" }
+summary:
+  ar: "الصورة التي يرسمها الرحيق المختوم للمدينة عند الهجرة: ثلاث مراحل للعهد المدني، وثلاث فئات تواجه النبي، هي الصحابة من المهاجرين والأنصار، والمشركون من قبائل المدينة وعلى رأسهم عبد الله بن أبي، واليهود الذين يعيشون بالربا والتحريض بين القبائل، وقريش خارجاً."
+  en: "The picture al-Raheeq al-Makhtum draws of Medina at the Hijra: three phases of the Medinan period and three groups facing the Prophet, namely the Companions among the Emigrants and Helpers, the pagans of Medina's tribes led by Abdullah ibn Ubayy, and the Jews who lived by usury and by stirring enmity between tribes; and Quraysh from outside."
+wings: [ideas, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: related_to, target: place/medina, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: person/abdullah-ibn-ubayy, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: group/banu-qaynuqa, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: group/banu-nadir, sources: [source/mubarakpuri-raheeq] }
+  - { type: related_to, target: group/banu-qurayza, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص175–182 نقلاً عن ابن هشام 1/518–519 وصحيح البخاري 1/459، 1/556–561 ومحمد الغزالي في فقه السيرة ص162"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-13a"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 175–182" }
