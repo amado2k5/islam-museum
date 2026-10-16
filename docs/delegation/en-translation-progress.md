@@ -44,3 +44,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person d–h batch 5 (Claude Haiku 5.5): 25 pages, hakim-ibn-jabala → hanzala-ibn-zayd (commit e0890fee)
 - person s–z batch 1 (Claude Code, claude-haiku-5-5): saad-al-aasir … sahib-ibn-abbad, 25 files, commit b4c0bec7.
 - place m–z batch 2: 25 files (majtama-al-anhar.md … manh.md), draft
+- place m–z batch 3: 25 files (manjabari.md … masfahan-island.md), draft
