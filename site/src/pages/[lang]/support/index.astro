@@ -3,7 +3,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../components/PageHeader.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { REPO } from "../../../lib/graph";
-import { siPatreon, siPaypal } from "simple-icons";
+import { siPatreon, siPaypal, siGithubsponsors } from "simple-icons";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
@@ -12,6 +12,7 @@ const S = T.support;
 const PATREON = "https://www.patreon.com/14118699/join";
 const PAYPAL = "https://www.paypal.com/donate/?business=KHXBWQAVZK3VE&no_recurring=0&item_name=Support+islam.museum%21+An+ad-free%2C+open-source+archive+mapping+14+centuries+of+Islamic+history%2C+figures%2C+and+heritage.&currency_code=CAD";
 const LAUNCHGOOD = "https://www.launchgood.com/v4/campaign/build_the_worlds_first_open_digital_museum_of_islam_islammuseum?src=1096683";
+const GITHUB_SPONSORS = "https://github.com/sponsors/amado2k5?preview=true";
 ---
 <BaseLayout lang={lang} title={S.title} description={S.lede} path={`/${lang}/support/`}>
   <PageHeader title={S.title} lede={S.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: S.title }]} crumbsLabel={T.entity.breadcrumb} />
@@ -30,6 +31,11 @@ const LAUNCHGOOD = "https://www.launchgood.com/v4/campaign/build_the_worlds_firs
             <h3 class="card-title">{S.patreon_title}</h3>
             <p>{S.patreon_body}</p>
             <p><a class="ui btn" href={PATREON} rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d={siPatreon.path} /></svg>{S.patreon_cta}</a></p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">{S.github_title}</h3>
+            <p>{S.github_body}</p>
+            <p><a class="ui btn" href={GITHUB_SPONSORS} rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d={siGithubsponsors.path} /></svg>{S.github_cta}</a></p>
           </div>
           <div class="card">
             <h3 class="card-title">{S.launchgood_title}</h3>
