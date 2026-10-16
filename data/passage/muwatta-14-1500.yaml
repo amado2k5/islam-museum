@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1500"
-label: { ar: "الموطأ 1500", en: "Muwatta 1500" }
+label: { ar: "الموطأ 1500 — نافع: ابنة عبيد الله بن عمر كانت تحت ابن عبد الله بن عمر، فمات ولم يدخل بها ولم يسم لها صداقا، فقضى زيد بن ثابت أن لا صداق لها ولها الميراث", en: "Muwatta 1500" }
 summary:
-  ar: "نافع: أن ابنة عبيد الله بن عمر وأمها بنت زيد بن الخطاب... ؛ أثر في نكاح بنات الصحابة؛ تفاصيل الواقعة غير واضحة."
+  ar: "يروي مالك عن نافع أن ابنة عبيد الله بن عمر، وأمها بنت زيد بن الخطاب، كانت تحت ابن لعبد الله بن عمر، فمات، ولم يدخل بها، ولم يسم لها صداقا. فابتغت أمها صداقها، فقال عبد الله بن عمر ليس لها صداق، ولو كان لها صداق لم نمسكه ولم نظلمها. فأبت أمها أن تقبل ذلك، فجعلوا بينهم زيد بن ثابت، فقضى أن لا صداق لها، ولها الميراث. {cite:muwatta-maruf-1997 p.31}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1500 of kitab 14-nikah at PDF p. 31", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-66" }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-thabit, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1500 at PDF p. 31; ما جاء في الصداق والحباء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b30" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 31; matn excerpt at most 40 words" }

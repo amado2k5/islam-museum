@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1501"
-label: { ar: "الموطأ 1501", en: "Muwatta 1501" }
+label: { ar: "الموطأ 1501 — مالك: بلغه أن عمر بن عبد العزيز كتب إلى عماله أن كل ما اشترط المنكح من حباء أو كرامة فهو للمرأة إن ابتغته", en: "Muwatta 1501" }
 summary:
-  ar: "بلغ مالكًا أن عمر بن عبد العزيز كتب في خلافته إلى بعض عماله: أن... ؛ كتاب عمر بن عبد العزيز في النكاح؛ تفاصيل الكتاب غير واضحة."
+  ar: "يروي مالك أنه بلغه أن عمر بن عبد العزيز كتب في خلافته إلى بعض عماله أن كل ما اشترط المنكح، من كان أبا أو غيره، من حباء أو كرامة، فهو للمرأة إن ابتغته. {cite:muwatta-maruf-1997 p.32}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1501 of kitab 14-nikah at PDF p. 32", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-66" }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1501 at PDF p. 32; ما جاء في الصداق والحباء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b30" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الكتاب غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 32; matn excerpt at most 40 words" }

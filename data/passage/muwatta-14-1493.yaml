@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1493"
-label: { ar: "الموطأ 1493", en: "Muwatta 1493" }
+label: { ar: "الموطأ 1493 — نافع بن جبير عن ابن عباس: الأيم أحق بنفسها من وليها، والبكر تستأذن في نفسها، وإذنها صماتها", en: "Muwatta 1493" }
+text: "الأَيُمُ أحَقُّ نَفْسها مِن وَلِيُّها. وَالْبِكْرُ تُسْتأُذَنُ في نَفْسها، وَإذْنُها صُمَاتُها"
 summary:
-  ar: "عبد الله بن الفضل عن نافع بن جبير بن مطعم عن عبد الله بن عباس: أن... ؛ حديث في النكاح أو المهر؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن عبد الله بن الفضل عن نافع بن جبير بن مطعم عن عبد الله بن عباس أن رسول الله قال الأيم أحق بنفسها من وليها، والبكر تستأذن في نفسها، وإذنها صماتها. {cite:muwatta-maruf-1997 p.28}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1493 of kitab 14-nikah at PDF p. 28", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-65" }
+  - { type: mentions, target: person/abdallah-ibn-al-fadl, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-ibn-jubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1493 at PDF p. 28; استئذان البكر والأيم في أنفسهما", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b30" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 28; matn excerpt at most 40 words" }

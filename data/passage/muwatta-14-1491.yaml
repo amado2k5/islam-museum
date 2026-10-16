@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1491"
-label: { ar: "الموطأ 1491", en: "Muwatta 1491" }
+label: { ar: "الموطأ 1491 — مالك: تفسير النهي أن يخطب الرجل المرأة فتركن إليه ويتفقان على صداق معلوم، فهي التي نهي عنها، ولا يعني أن لا يخطبها أحد إذا لم توافق", en: "Muwatta 1491" }
 summary:
-  ar: "مالك: وتفسير قول رسول الله ﷺ فيما نرى والله أعلم: لا يخطب أحدكم على خطبة أخيه؛ معنى النهي عن الخطبة على الخطبة."
+  ar: "يقول مالك تفسير قول رسول الله لا يخطب أحدكم على خطبة أخيه، فيما نرى والله أعلم، أن يخطب الرجل المرأة، فتركن إليه، ويتفقان على صداق واحد معلوم، وقد تراضيا، فهي تشترط عليه لنفسها، فتلك التي نهى أن يخطبها الرجل على خطبة أخيه. ولم يعن بذلك إذا خطب الرجل المرأة فلم يوافقها أمره، ولم تركن إليه، أن لا يخطبها أحد، فهذا باب فساد يدخل على الناس. {cite:muwatta-maruf-1997 p.28}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1491 of kitab 14-nikah at PDF p. 27", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-65" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1491 at PDF p. 27; ما جاء في الخطبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b30" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 27; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1498"
-label: { ar: "الموطأ 1498", en: "Muwatta 1498" }
+label: { ar: "الموطأ 1498 — سهل بن سعد الساعدي: جاءت امرأة توهب نفسها للنبي، فزوجه إياها بما معه من القرآن إذ لم يجد صداقا", en: "Muwatta 1498" }
+text: "قَدْ أنْكَحْتُكهَا بِمَا مَعكَ مِن الْقُرْآنِ"
 summary:
-  ar: "أبو حازم بن دينار عن سهل بن سعد الساعدي: حديث في النكاح أو المهر؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن أبي حازم بن دينار عن سهل بن سعد الساعدي أن رسول الله جاءته امرأة فقالت إني قد وهبت نفسي لك، فقامت قياما طويلا، فقام رجل فقال زوجنيها إن لم يكن لك بها حاجة. فقال هل عندك من شيء تصدقها إياه؟ قال ما عندي إلا إزاري. قال إن أعطيتها إياه جلست لا إزار لك، فالتمس شيئا، فلم يجد، فقال هل معك من القرآن شيء؟ قال نعم سور سماها، فقال قد أنكحتكها بما معك من القرآن. {cite:muwatta-maruf-1997 p.30}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1498 of kitab 14-nikah at PDF p. 30", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-66" }
+  - { type: mentions, target: person/abu-hazim-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sahl-ibn-sad-al-saidi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1498 at PDF p. 30; ما جاء في الصداق والحباء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b30" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 30; matn excerpt at most 40 words" }
