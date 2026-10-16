@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "727"
-label: { ar: "الموطأ 727", en: "Muwatta 727" }
+label: { ar: "الموطأ 727 — مالك: الحبوب التي تؤكل بعد الحصاد لا تخرص، وعلى أهلها فيها الأمانة", en: "Muwatta 727" }
 summary:
-  ar: "مالك: أما ما لا يؤكل رطبًا وإنما يؤكل بعد حصاده من الحبوب كلها فإن... ؛ حكم زكاة الحبوب؛ تفاصيل الحكم تحتاج مراجعة."
+  ar: "قول لمالك: فأما ما لا يؤكل رطباً وإنما يؤكل بعد حصاده من الحبوب كلها فإنه لا يُخرص، وإنما على أهلها فيها الأمانة إذا حصدوها ودقوها وطيبوها وخلصت حباً، يؤدون زكاتها إذا بلغ ذلك ما تجب فيه الزكاة. ويقول مالك: وهذا الأمر الذي لا اختلاف فيه عندنا. ويذكر المحقق أن قوله «قال مالك» ليس في نسخة م، وأنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.365}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 727 of kitab 03-zakat at PDF p. 365", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-33" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 727 at PDF p. 365; باب زكاة ما يخرص من ثمار النخيل والأعناب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الحكم تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 365; matn excerpt at most 40 words" }

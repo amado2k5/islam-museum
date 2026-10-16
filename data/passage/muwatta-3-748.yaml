@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "748"
-label: { ar: "الموطأ 748", en: "Muwatta 748" }
+label: { ar: "الموطأ 748 — مالك: ما أخرجت زكاته من الثمار ثم أمسكه صاحبه سنين ثم باعه فلا زكاة في ثمنه حتى يحول الحول، إلا أن يكون للتجارة", en: "Muwatta 748" }
 summary:
-  ar: "مالك: السنة عندنا أن كل ما أُخرجت زكاته من هذه الأصناف كلها، الحنطة... ؛ قاعدة إخراج الزكاة من أصناف الحبوب."
+  ar: "قول لمالك: السنة عندنا أن كل ما أُخرجت زكاته من الحنطة والتمر والزبيب والحبوب كلها، ثم أمسكه صاحبه بعد أداء صدقته سنين ثم باعه، أنه ليس عليه في ثمنه زكاة حتى يحول على ثمنه الحول من يوم باعه، إذا كان أصل تلك الأصناف من فائدة أو غيرها ولم يكن للتجارة، كالطعام والعروض يفيدها الرجل ثم يمسكها سنين ثم يبيعها بذهب أو ورق؛ فإن كان أصل تلك العروض للتجارة فعلى صاحبها فيها الزكاة حين يبيعها إذا كان قد حبسها سنة من يوم زكى المال الذي ابتاعها به. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.371} {cite:muwatta-maruf-1997 p.372}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 748 of kitab 03-zakat at PDF p. 371", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hawl, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 748 at PDF p. 371; باب ما لا زكاة فيه من الثمار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 371; matn excerpt at most 40 words" }

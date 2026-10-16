@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "751"
-label: { ar: "الموطأ 751", en: "Muwatta 751" }
+label: { ar: "الموطأ 751 — ليس على المسلم في عبده ولا في فرسه صدقة", en: "Muwatta 751" }
+text: "ليس على المسلم في عبده ولا في فرسه صدقة"
 summary:
-  ar: "يحيى بن سعيد عن عبد الله بن دينار عن سليمان بن يسار وعراك بن مالك: حديث في الزكاة أو الصدقة؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب ما جاء في صدقة الرقيق والخيل والعسل. يرويه مالك عن عبد الله بن دينار عن سليمان بن يسار وعن عراك بن مالك عن أبي هريرة، أن النبي قال: ليس على المسلم في عبده ولا في فرسه صدقة. ويذكر المحقق أن الواو بين سليمان وعراك منصوص عليها في رواية يحيى وإن خالفت رواية جماعة رواة الموطأ، وينقل عن ابن عبد البر (التمهيد 17/123–124) أن يحيى أخطأ فيها وأن الحديث محفوظ في الموطآت كلها لسليمان بن يسار عن عراك بن مالك، وهما تابعيان نظيران، وأن عراكاً توفي سنة 102 وسليمان سنة 107. ويضيف المحقق أنه رواه عن مالك أبو مصعب ومن طريقه البغوي، والقعنبي عند أبي داود (1595) والطحاوي، وابن القاسم عند النسائي (5/36)، والشافعي، ومحمد بن الحسن الشيباني (336)، ويحيى بن يحيى النيسابوري عند مسلم (3/67). {cite:muwatta-maruf-1997 p.372} {cite:muwatta-maruf-1997 p.373}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 751 of kitab 03-zakat at PDF p. 372", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/irak-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muslim-ibn-al-hajjaj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 751 at PDF p. 372; باب ما جاء في صدقة الرقيق والخيل والعسل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 372; matn excerpt at most 40 words; doubt: الواو بين سليمان بن يسار وعراك بن مالك من غلط يحيى بن يحيى عند ابن عبد البر؛ المحفوظ: سليمان عن عراك." }

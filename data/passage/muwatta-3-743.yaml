@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "743"
-label: { ar: "الموطأ 743", en: "Muwatta 743" }
+label: { ar: "الموطأ 743 — مالك: الزبيب كله أسوده وأحمره صنف واحد", en: "Muwatta 743" }
 summary:
-  ar: "مالك: وكذلك الزبيب كله أسوده وأحمره؛ إذا بلغ خمسة أوسق ففيه الزكاة؛ زكاة الزبيب."
+  ar: "قول لمالك: وكذلك الزبيب كله، أسوده وأحمره، فإذا قطف الرجل منه خمسة أوسق وجبت فيه الزكاة، فإن لم يبلغ ذلك فلا زكاة فيه. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.369}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 743 of kitab 03-zakat at PDF p. 369", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 743 at PDF p. 369; باب ما لا زكاة فيه من الثمار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 369; matn excerpt at most 40 words" }

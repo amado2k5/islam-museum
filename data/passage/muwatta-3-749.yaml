@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "749"
-label: { ar: "الموطأ 749", en: "Muwatta 749" }
+label: { ar: "الموطأ 749 — مالك: ليس في شيء من الفواكه كلها صدقة: الرمان والفرسك والتين وما أشبه ذلك", en: "Muwatta 749" }
 summary:
-  ar: "مالك: السنة التي لا خلاف فيها عندنا، وما سمعته من أهل العلم، أنه لا... ؛ أنه لا زكاة في بعض الزروع؛ تفاصيل الحكم تحتاج مراجعة."
+  ar: "أول نص في باب ما لا زكاة فيه من الفواكه والقضب والبقول. يقول مالك: السنة التي لا اختلاف فيها عندنا والذي سمع من أهل العلم أنه ليس في شيء من الفواكه كلها صدقة: الرمان والفرسك والتين وما أشبه ذلك وما لم يشبهه إذا كان من الفواكه. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.372}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 749 of kitab 03-zakat at PDF p. 372", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 749 at PDF p. 372; باب ما لا زكاة فيه من الفواكه والقضب والبقول", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الحكم تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 372; matn excerpt at most 40 words" }

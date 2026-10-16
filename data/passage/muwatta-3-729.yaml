@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "729"
-label: { ar: "الموطأ 729", en: "Muwatta 729" }
+label: { ar: "الموطأ 729 — مالك: قطع أموال متفرقة أو اشتراك في أموال لا يبلغ كل منها النصاب تجمع ويؤدى زكاتها", en: "Muwatta 729" }
 summary:
-  ar: "مالك: إذا كانت لرجل قطع أموال متفرقة... ؛ حكم ضم الأموال المتفرقة في الزكاة؛ تفاصيل الحكم تحتاج مراجعة."
+  ar: "قول لمالك يختم به الباب: إذا كانت لرجل قطع أموال متفرقة أو اشتراك في أموال متفرقة لا يبلغ كل مال شريك منهم أو قطعه ما تجب فيه الزكاة، وكانت إذا جُمع بعضها إلى بعض تبلغ النصاب، فإنه يجمعها ويؤدي زكاتها. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.365} {cite:muwatta-maruf-1997 p.366}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 729 of kitab 03-zakat at PDF p. 365", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 729 at PDF p. 365; باب زكاة ما يخرص من ثمار النخيل والأعناب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الحكم تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 365; matn excerpt at most 40 words" }

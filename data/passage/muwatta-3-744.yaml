@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "744"
-label: { ar: "الموطأ 744", en: "Muwatta 744" }
+label: { ar: "الموطأ 744 — مالك: القطنية صنف واحد: الحمص والعدس واللوبيا والجلبان وكل ما عرفه الناس قطنية", en: "Muwatta 744" }
 summary:
-  ar: "مالك: وكذلك القطنية صنف واحد مثل الحنطة والتمر والزبيب، وإن اختلفت... ؛ حكم القطنية في الزكاة."
+  ar: "قول لمالك: وكذلك القطنية صنف واحد مثل الحنطة والتمر والزبيب وإن اختلفت أسماؤها وألوانها، والقطنية الحمص والعدس واللوبيا والجلبان وكل ما ثبتت معرفته عند الناس أنه قطنية، فإذا حصد الرجل من ذلك خمسة أوسق بصاع النبي، وإن كان من أصناف القطنية كلها لا من صنف واحد، جُمع بعضه إلى بعض وعليه فيه الزكاة. ويذكر المحقق أنه رواه عن مالك أبو مصعب ويحيى بن بكير عند أبي عبيد في الأموال (1395). {cite:muwatta-maruf-1997 p.370}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 744 of kitab 03-zakat at PDF p. 370", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 744 at PDF p. 370; باب ما لا زكاة فيه من الثمار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 370; matn excerpt at most 40 words" }

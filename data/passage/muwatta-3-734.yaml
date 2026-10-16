@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "734"
-label: { ar: "الموطأ 734", en: "Muwatta 734" }
+label: { ar: "الموطأ 734 — مالك: الحبوب التي تجب فيها الزكاة: الحنطة والشعير والسلت والذرة والدخن والأرز والعدس والجلبان واللوبيا والجلجلان وما أشبهها", en: "Muwatta 734" }
 summary:
-  ar: "مالك: الحبوب التي تجب فيها الزكاة: الحنطة والشعير والسلت والذرة... ؛ بيان أصناف الحبوب الزكوية."
+  ar: "قول لمالك: الحبوب التي تجب فيها الزكاة هي الحنطة والشعير والسلت والذرة والدخن والأرز والعدس والجلبان واللوبيا والجلجلان وما أشبه ذلك من الحبوب التي تصير طعاماً، فالزكاة تؤخذ منها كلها بعد أن تُحصد وتصير حباً، والناس مصدَّقون في ذلك ويُقبل منهم ما دفعوا. ويبين المحقق أن السلت حب من نوع الشعير لا قشر له، والجلجلان السمسم في قشره، ويذكر أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.367}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 734 of kitab 03-zakat at PDF p. 367", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 734 at PDF p. 367; باب زكاة الحبوب والزيتون", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 367; matn excerpt at most 40 words" }

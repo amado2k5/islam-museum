@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "747"
-label: { ar: "الموطأ 747", en: "Muwatta 747" }
+label: { ar: "الموطأ 747 — مالك: الشركاء في كل زرع أو نخل أو كرم، الصدقة على من بلغ جداده أو قطافه أو حصاده خمسة أوسق", en: "Muwatta 747" }
 summary:
-  ar: "مالك: وكذلك العمل في الشركاء كلهم في كل زرع من الحبوب كلها يُحصد أو يُنال... ؛ حكم الشركاء في الزكاة."
+  ar: "قول لمالك: وكذلك العمل في الشركاء كلهم في كل زرع من الحبوب يُحصد أو نخل يُجذ أو كرم يُقطف، إذا كان كل رجل منهم يجذ من التمر أو يقطف من الزبيب أو يحصد من الحنطة خمسة أوسق فعليه فيه الزكاة، ومن كان حقه أقل من خمسة أوسق فلا صدقة عليه؛ وإنما تجب الصدقة على من بلغ جداده أو قطافه أو حصاده خمسة أوسق. ويثبت المحقق فروق النسخ، ويذكر أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.371}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 747 of kitab 03-zakat at PDF p. 371", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 747 at PDF p. 371; باب ما لا زكاة فيه من الثمار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 371; matn excerpt at most 40 words" }

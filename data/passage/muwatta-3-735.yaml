@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "735"
-label: { ar: "الموطأ 735", en: "Muwatta 735" }
+label: { ar: "الموطأ 735 — مالك: عشر الزيتون لا ينظر فيه إلى النفقة، ويسأل أهله ويصدقون، فمن رفع خمسة أوسق أخذ من زيته العشر", en: "Muwatta 735" }
 summary:
-  ar: "سُئل مالك: متى يُخرج العشر من الزيتون، قبل النفقة أم بعدها؟ والجواب فيه كيفية احتساب النفقة."
+  ar: "يقول يحيى: سئل مالك متى يُخرج من الزيتون العشر، أقبل النفقة أم بعدها؟ فقال: لا يُنظر إلى النفقة ولكن يُسأل عنه أهله كما يُسأل أهل الطعام عن الطعام ويُصدَّقون بما قالوا، فمن رُفع من زيتونه خمسة أوسق فصاعداً أُخذ من زيته العشر بعد أن يُعصر، ومن لم يُرفع من زيتونه خمسة أوسق لم تجب عليه في زيته الزكاة. ويذكر المحقق أن زيادة «أو نصفه» في نسخة م لا أصل لها، وأنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.367}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 735 of kitab 03-zakat at PDF p. 367", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ushr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 735 at PDF p. 367; باب زكاة الحبوب والزيتون", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 367; matn excerpt at most 40 words" }

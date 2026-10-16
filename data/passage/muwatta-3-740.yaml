@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "740"
-label: { ar: "الموطأ 740", en: "Muwatta 740" }
+label: { ar: "الموطأ 740 — مالك: أربعة أوسق من التمر وأربعة من الزبيب وأربعة من الحنطة وأربعة من القطنية لا يجمع بعضها إلى بعض", en: "Muwatta 740" }
 summary:
-  ar: "مالك: إن الرجل إذا كان له ما يجد منه أربعة أوسق من التمر... ؛ نصاب التمر في الزكاة؛ تفاصيل الحكم تحتاج مراجعة."
+  ar: "أول نص في باب ما لا زكاة فيه من الثمار. يقول مالك: إن الرجل إذا كان له ما يجذ منه أربعة أوسق من التمر وما يقطف منه أربعة أوسق من الزبيب وما يحصد منه أربعة أوسق من الحنطة وأربعة أوسق من القطنية، فإنه لا يُجمع عليه بعض ذلك إلى بعض، وليس عليه في شيء من ذلك زكاة حتى يبلغ الصنف الواحد منه خمسة أوسق بصاع النبي، كما قال النبي إنه لا صدقة فيما دون خمسة أوسق من التمر. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.368} {cite:muwatta-maruf-1997 p.369}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 740 of kitab 03-zakat at PDF p. 368", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 740 at PDF p. 368; باب ما لا زكاة فيه من الثمار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الحكم تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 368; matn excerpt at most 40 words" }

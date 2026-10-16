@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "733"
-label: { ar: "الموطأ 733", en: "Muwatta 733" }
+label: { ar: "الموطأ 733 — مالك: السنة في الحبوب المدخرة: العشر فيما سقت السماء ونصف العشر فيما سقي بالنضح إذا بلغ خمسة أوسق بصاع النبي", en: "Muwatta 733" }
 summary:
-  ar: "مالك: السنة عندنا في الحبوب التي يدخرها الناس ويأكلونها أنه يؤخذ منها الزكاة؛ زكاة الحبوب المدخرة."
+  ar: "قول لمالك: السنة عندنا في الحبوب التي يدخرها الناس ويأكلونها أنه يؤخذ مما سقت السماء من ذلك والعيون وما كان بعلاً العشر، وما سُقي بالنضح نصف العشر، إذا بلغ ذلك خمسة أوسق بالصاع الأول صاع النبي، وما زاد على خمسة أوسق ففيه الزكاة بحساب ذلك. ويذكر المحقق فروق النسخ في العبارة، وأنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.366} {cite:muwatta-maruf-1997 p.367}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 733 of kitab 03-zakat at PDF p. 366", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ushr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 733 at PDF p. 366; باب زكاة الحبوب والزيتون", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 366; matn excerpt at most 40 words" }

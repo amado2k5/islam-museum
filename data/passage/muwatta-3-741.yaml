@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "741"
-label: { ar: "الموطأ 741", en: "Muwatta 741" }
+label: { ar: "الموطأ 741 — مالك: إن بلغ الصنف الواحد خمسة أوسق ففيه الزكاة، والتمر وإن اختلفت أسماؤه وألوانه يجمع بعضه إلى بعض", en: "Muwatta 741" }
 summary:
-  ar: "مالك: وإن كان في الصنف الواحد من تلك الأصناف ما يبلغ خمسة أوسق ففيه الزكاة؛ ضم الأصناف في النصاب."
+  ar: "قول لمالك: إن كان في الصنف الواحد من تلك الأصناف ما يبلغ خمسة أوسق ففيه الزكاة، وإن لم يبلغ فلا زكاة فيه؛ وتفسير ذلك أن يجذ الرجل من التمر خمسة أوسق وإن اختلفت أسماؤه وألوانه فإنه يُجمع بعضه إلى بعض ثم تؤخذ منه الزكاة. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.369}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 741 of kitab 03-zakat at PDF p. 369", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-34" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 741 at PDF p. 369; باب ما لا زكاة فيه من الثمار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 369; matn excerpt at most 40 words" }
