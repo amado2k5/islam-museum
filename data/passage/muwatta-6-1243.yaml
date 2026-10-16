@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1243"
-label: { ar: "الموطأ 1243", en: "Muwatta 1243" }
+label: { ar: "الموطأ 1243 — مالك: من أهل مكة يحرم بحج أو عمرة وفي بيته فراخ حمام مكة فتموت مغلقا عليها، يفدي عن كل فرخ بشاة", en: "Muwatta 1243" }
 summary:
-  ar: "مالك في الرجل من أهل مكة يحرم بالحج أو العمرة وفي بيته فراخ من حمام مكة... ؛ حكم الحمام في بيت المحرم؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك في الرجل من أهل مكة يحرم بالحج أو العمرة وفي بيته فراخ من حمام مكة فيغلق عليها فتموت، إنه يرى أن يفدي ذلك عن كل فرخ بشاة. {cite:muwatta-maruf-1997 p.554}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1243 of kitab 06-hajj at PDF p. 554", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-55" }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1243 at PDF p. 554; فدية ما أصيب من الطير والوحش", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 554; matn excerpt at most 40 words" }

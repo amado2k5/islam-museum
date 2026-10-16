@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1252"
-label: { ar: "الموطأ 1252", en: "Muwatta 1252" }
+label: { ar: "الموطأ 1252 — عطاء الخراساني عن شيخ بسوق البرم بالكوفة عن كعب بن عجرة: جاءني النبي وأنا أنفخ تحت قدر وقد امتلأ رأسي قملا، فأمرني أن أحلق", en: "Muwatta 1252" }
 summary:
-  ar: "عطاء بن عبد الله الخراساني: حدثه شيخ بسوق البرم بالكوفة... ؛ حديث في فدية الأذى؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن عطاء بن عبد الله الخراساني أنه حدثه شيخ بسوق البرم بالكوفة عن كعب بن عجرة أنه قال جاءني رسول الله وأنا أنفخ تحت قدر لأصحابي، وقد امتلأ رأسي ولحيتي قملا، فأخذ بجبهتي، وقال احلق هذا الشعر، وصم ثلاثة أيام، أو أطعم ستة مساكين، وكان قد علم أنه ليس عنده ما ينسك به. ويذكر المحقق أن ابن عبد البر رأى أن قول من قال إن الشيخ هو عبد الرحمن بن أبي ليلى بعيد. {cite:muwatta-maruf-1997 p.557}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1252 of kitab 06-hajj at PDF p. 557", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-55" }
+  - { type: mentions, target: person/ata-al-khurasani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/kab-ibn-ujra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-abi-layla, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/halq, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1252 at PDF p. 557; فدية من حلق قبل أن ينحر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 557; matn excerpt at most 40 words" }

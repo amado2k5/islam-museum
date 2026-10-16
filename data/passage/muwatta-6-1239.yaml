@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1239"
-label: { ar: "الموطأ 1239", en: "Muwatta 1239" }
+label: { ar: "الموطأ 1239 — عمر بن الخطاب قضى في الضبع بكبش، وفي الغزال بعنز، وفي الأرنب بعناق، وفي اليربوع بجفرة", en: "Muwatta 1239" }
 summary:
-  ar: "يحيى عن مالك عن أبي الزبير: أن عمر بن الخطاب قضى في الضبع بكبش، وفي الغزال بعنز... ؛ قضاء عمر في جزاء الصيد."
+  ar: "يروي مالك عن أبي الزبير أن عمر بن الخطاب قضى في الضبع بكبش، وفي الغزال بعنز، وفي الأرنب بعناق، وفي اليربوع بجفرة. ويذكر المحقق أن أصحاب مالك رووه كلهم من حديث أبي الزبير عن جابر، وأن يحيى تفرد بعدم ذكر جابر. {cite:muwatta-maruf-1997 p.553}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1239 of kitab 06-hajj at PDF p. 553", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-55" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zubayr-al-makki, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1239 at PDF p. 553; فدية ما أصيب من الطير والوحش", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 553; matn excerpt at most 40 words" }

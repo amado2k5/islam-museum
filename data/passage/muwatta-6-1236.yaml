@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1236"
-label: { ar: "الموطأ 1236", en: "Muwatta 1236" }
+label: { ar: "الموطأ 1236 — عبد الله بن أبي بكر عن أبيه: أن أم سليم بنت ملحان استفتت رسول الله بعد أن أفاضت يوم النحر ثم حاضت أو ولدت", en: "Muwatta 1236" }
 summary:
-  ar: "عبد الله بن أبي بكر عن أبيه: أن أبا سلمة بن عبد الرحمن أخبره أن أم... ؛ حديث في الحيض في الحج؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن عبد الله بن أبي بكر بن حزم عن أبيه أن أبا سلمة بن عبد الرحمن أخبره أن أم سليم بنت ملحان استفتت رسول الله، وحاضت أو ولدت بعد ما أفاضت يوم النحر، فأذن لها فخرجت. ويذكر المحقق أن ابن عبد البر رأى الحديث منقطعا، وأن المحفوظ فيه قصة صفية عن عائشة. {cite:muwatta-maruf-1997 p.552}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1236 of kitab 06-hajj at PDF p. 552", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-55" }
+  - { type: mentions, target: person/abu-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-sulaym, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1236 at PDF p. 552; إفاضة الحائض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 552; matn excerpt at most 40 words" }

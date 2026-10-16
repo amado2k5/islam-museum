@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1248"
-label: { ar: "الموطأ 1248", en: "Muwatta 1248" }
+label: { ar: "الموطأ 1248 — زيد بن أسلم: رجل قال لعمر بن الخطاب إنه أصاب جرادات بسوطه وهو محرم، فقال أطعم قبضة من طعام", en: "Muwatta 1248" }
+text: "أَطْعِمْ قَبضَةً من طَعَامٍ"
 summary:
-  ar: "زيد بن أسلم: أن رجلًا جاء إلى عمر بن الخطاب فقال: يا أمير المؤمنين... ؛ أثر في جزاء الصيد؛ تفاصيل الواقعة غير واضحة."
+  ar: "يروي مالك عن زيد بن أسلم أن رجلا جاء إلى عمر بن الخطاب فقال يا أمير المؤمنين إني أصبت جرادات بسوطي وأنا محرم، فقال له عمر أطعم قبضة من طعام. {cite:muwatta-maruf-1997 p.555}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1248 of kitab 06-hajj at PDF p. 555", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-55" }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1248 at PDF p. 555; فدية من أصاب شيئا من الجراد وهو محرم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b15" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 555; matn excerpt at most 40 words" }
