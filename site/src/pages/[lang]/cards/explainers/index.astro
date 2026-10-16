@@ -1,0 +1,32 @@
+---
+// Explainers index.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { listExplainers } from "../../../../lib/explainers";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const C = T.cards;
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const decks = listExplainers();
+---
+<BaseLayout lang={lang} title={C.explainers} description={C.explainers_lede} path={`/${lang}/cards/explainers/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label="breadcrumb">
+      <a href={`/${lang}/cards/`}>{C.title}</a> › {C.explainers}
+    </nav>
+    <h1>{C.explainers}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{C.explainers_lede}</p>
+    <ul class="grid-cards">
+      {decks.map((d) => (
+        <li>
+          <a class="card" href={`/${lang}/cards/explain/${d.slug}/`}>
+            <h2 class="card-title">{L(d.title)}</h2>
+            <span class="ui">{C.widget_names[d.widget] ?? d.widget}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

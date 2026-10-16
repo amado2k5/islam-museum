@@ -1,0 +1,29 @@
+---
+// DecisionTree: "ماذا حدث؟" guided fiqh answers (sujud al-sahw).
+import type { ExplainerFile } from "../lib/explainers";
+import type { Lang } from "../lib/i18n";
+
+interface Props { deck: ExplainerFile; lang: Lang; t: Record<string, string> }
+const { deck, lang, t } = Astro.props;
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+---
+<div class="dtree" data-dtree>
+  {deck.attribution && <p class="ui attribution">{L(deck.attribution)}</p>}
+  <div data-stage></div>
+  <script type="application/json" data-payload set:html={JSON.stringify({ tree: deck.tree, lang, labels: { restart: t.restart } })} />
+  <noscript><p class="muted">{t.js_needed}</p></noscript>
+</div>
+<script src="../scripts/decision-tree.ts"></script>
+<style>
+.dtree { max-width: 640px; margin-inline: auto; }
+.attribution { color: #c9a227; border: 1px solid #c9a227; border-radius: 8px; padding: 6px 12px; display: inline-block; }
+.dt-q { font-size: 1.4rem; font-weight: 800; margin-bottom: 16px; text-align: center; }
+.dt-opts { display: flex; flex-direction: column; gap: 10px; }
+.dt-opt { padding: 14px 20px; font-size: 1.1rem; border: 2px solid #c9a227; border-radius: 12px;
+  background: #f8f1de; color: #1d3a6e; cursor: pointer; text-align: center; }
+.dt-opt:hover { background: #c9a22733; }
+.dt-result { border: 2px solid #c9a227; border-radius: 14px; padding: 26px; background: #152c55;
+  color: #f8f1de; text-align: center; font-size: 1.25rem; line-height: 1.8; }
+.dt-restart { margin-top: 14px; background: none; border: 1px solid currentColor; border-radius: 8px;
+  padding: 8px 16px; cursor: pointer; color: inherit; }
+</style>

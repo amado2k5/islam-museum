@@ -1,0 +1,31 @@
+---
+// CompareCards: side-by-side comparison (al-madhahib al-arba'a).
+import type { ExplainerFile } from "../lib/explainers";
+import type { Lang } from "../lib/i18n";
+
+interface Props { deck: ExplainerFile; lang: Lang }
+const { deck, lang } = Astro.props;
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const cols = deck.columns ?? [];
+---
+<div class="cmp">
+  <div class="cmp-grid">
+    {cols.map((c: any) => (
+      <article class="cmp-card">
+        <h3>{L(c.name)}</h3>
+        <p class="ui died">{c.died}</p>
+        <p class="regions">{L(c.regions)}</p>
+        <p>{L(c.feature)}</p>
+      </article>
+    ))}
+  </div>
+  {deck.footer && <p class="cmp-footer">{L(deck.footer)}</p>}
+</div>
+<style>
+.cmp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.cmp-card { border: 2px solid #c9a227; border-radius: 12px; padding: 20px; background: #f8f1de; color: #1d3a6e; }
+.cmp-card h3 { margin-top: 0; }
+.died { color: #8a6d1a; }
+.regions { font-weight: 700; }
+.cmp-footer { text-align: center; font-size: 1.2rem; color: #c9a227; margin-top: 18px; }
+</style>

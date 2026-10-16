@@ -1,0 +1,50 @@
+slug: sujud-al-sahw
+title: { ar: "سجود السهو", en: "Prostration of forgetfulness" }
+lede:
+  ar: "ماذا تفعل إذا سهوت في الصلاة؟ أجب عن سؤالين واعرف الحكم."
+  en: "What to do if you err in prayer? Answer two questions and get the ruling."
+source_card: 8cabd697
+status: { review: draft }
+widget: decision-tree
+attribution:
+  ar: "برأي الجمهور"
+  en: "Per the majority view"
+tree:
+  q: { ar: "ماذا حدث في الصلاة؟", en: "What happened in the prayer?" }
+  options:
+    - label: { ar: "زيادة", en: "Addition" }
+      next:
+        q: { ar: "هل الزيادة ركن (كركعة زائدة)؟", en: "Was it a pillar (e.g. an extra rak'ah)?" }
+        options:
+          - label: { ar: "نعم", en: "Yes" }
+            result:
+              ar: "اسجد سجدتين بعد السلام ثم سلِّم."
+              en: "Prostrate twice after the salam, then give salam."
+          - label: { ar: "لا (قول أو فعل غير ركن)", en: "No" }
+            result:
+              ar: "اسجد سجدتين بعد السلام."
+              en: "Prostrate twice after the salam."
+    - label: { ar: "نقص", en: "Omission" }
+      next:
+        q: { ar: "هل النقص ركن؟", en: "Was it a pillar?" }
+        options:
+          - label: { ar: "نعم", en: "Yes" }
+            result:
+              ar: "ائت بالركن الناقص ثم اسجد للسهو بعد السلام."
+              en: "Perform the missed pillar, then prostrate for forgetfulness after the salam."
+          - label: { ar: "لا (واجب كالتشهد الأول)", en: "No (e.g. first tashahhud)" }
+            result:
+              ar: "اسجد سجدتين قبل السلام."
+              en: "Prostrate twice before the salam."
+    - label: { ar: "شك", en: "Doubt" }
+      next:
+        q: { ar: "هل ترجح عندك أحد الاحتمالين؟", en: "Does one option seem likelier?" }
+        options:
+          - label: { ar: "نعم", en: "Yes" }
+            result:
+              ar: "ابنِ على الراجح واسجد بعد السلام."
+              en: "Act on the likelier option and prostrate after the salam."
+          - label: { ar: "لا", en: "No" }
+            result:
+              ar: "ابنِ على الأقل (اليقين) واسجد قبل السلام."
+              en: "Act on the lesser (certain) number and prostrate before the salam."

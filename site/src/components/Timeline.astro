@@ -1,0 +1,35 @@
+---
+// Timeline: stations with the ordering caution (alamat al-sa'a).
+import type { ExplainerFile } from "../lib/explainers";
+import type { Lang } from "../lib/i18n";
+
+interface Props { deck: ExplainerFile; lang: Lang; t: Record<string, string> }
+const { deck, lang, t } = Astro.props;
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const stations = deck.stations ?? [];
+---
+<div class="tl">
+  {deck.caution && <p class="caution">⚠ {L(deck.caution)}</p>}
+  <ol class="tl-list">
+    {stations.map((s: any, i: number) => (
+      <li class="tl-item">
+        <span class="tl-num">{i + 1}</span>
+        <div>
+          <h3>{L(s.title)} <span class="ui tag">{L(s.tag)}</span></h3>
+          <p>{L(s.body)}</p>
+          {s.evidence?.map((e: any) => <p class="ui ev">📜 {e.source}{e.note && <span class="muted"> — {e.note}</span>}</p>)}
+        </div>
+      </li>
+    ))}
+  </ol>
+</div>
+<style>
+.tl { max-width: 680px; margin-inline: auto; }
+.caution { background: #e8a13d22; border: 1px solid #e8a13d; border-radius: 8px; padding: 10px 14px; }
+.tl-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.tl-item { display: flex; gap: 14px; border: 2px solid #c9a227; border-radius: 12px; padding: 16px; background: #f8f1de; color: #1d3a6e; }
+.tl-num { flex: none; width: 40px; height: 40px; border-radius: 50%; background: #c9a227; color: #0a1428;
+  display: flex; align-items: center; justify-content: center; font-weight: 800; }
+.tag { color: #8a6d1a; font-size: .85rem; }
+.ev { font-size: .9rem; }
+</style>
