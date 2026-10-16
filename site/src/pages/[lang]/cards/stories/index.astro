@@ -1,0 +1,32 @@
+---
+// Stories index.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { listStories } from "../../../../lib/stories";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const C = T.cards;
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const stories = listStories();
+---
+<BaseLayout lang={lang} title={C.stories} description={C.stories_lede} path={`/${lang}/cards/stories/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label="breadcrumb">
+      <a href={`/${lang}/cards/`}>{C.title}</a> › {C.stories}
+    </nav>
+    <h1>{C.stories}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{C.stories_lede}</p>
+    <ul class="grid-cards">
+      {stories.map((s) => (
+        <li>
+          <a class="card" href={`/${lang}/cards/story/${s.slug}/`}>
+            <h2 class="card-title">{L(s.title)}</h2>
+            <span class="ui">{s.count} {C.stations_count}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

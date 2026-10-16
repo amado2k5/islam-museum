@@ -1,0 +1,65 @@
+---
+// StoryPlayer: station-based story with progress rail.
+import type { StoryFile } from "../lib/stories";
+import type { Lang } from "../lib/i18n";
+
+interface Props { story: StoryFile; lang: Lang; t: Record<string, string> }
+const { story, lang, t } = Astro.props;
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+---
+<div class="story" data-story>
+  <p class="intro">{L(story.intro)}</p>
+  <div class="rail" role="tablist" aria-label={t.stations}>
+    {story.stations.map((s, i) => (
+      <button class="tick" data-tick={i} role="tab" aria-selected={i === 0 ? "true" : "false"} aria-label={L(s.title)}>{i + 1}</button>
+    ))}
+  </div>
+  <div class="panels">
+    {story.stations.map((s, i) => (
+      <article class="panel" data-panel hidden={i !== 0} role="tabpanel">
+        <h3>{L(s.title)}</h3>
+        <p class="ref ui">{s.ref}</p>
+        <p>{L(s.body)}</p>
+        {s.evidence?.map((e) => <p class="ui ev">📜 {e.source}{e.note && <span class="muted"> — {e.note}</span>}</p>)}
+      </article>
+    ))}
+  </div>
+  <div class="st-nav">
+    <button data-prev aria-label={t.prev}>→</button>
+    <span class="ui" data-count>1 / {story.stations.length}</span>
+    <button data-next aria-label={t.next}>←</button>
+  </div>
+  {story.facts?.length && (
+    <section class="block"><h3>{t.facts}</h3><ul>{story.facts.map((f) => <li>{L(f)}</li>)}</ul></section>
+  )}
+  {story.lessons?.length && (
+    <section class="block"><h3>{t.lessons}</h3><ul>{story.lessons.map((l) => <li>{L(l)}</li>)}</ul></section>
+  )}
+  {story.cautions?.map((c) => <p class="caution">⚠ {L(c)}</p>)}
+  {story.khulasa && <p class="khulasa">✦ {L(story.khulasa)}</p>}
+  <div class="st-fallback">
+    <h3>{t.all_items}</h3>
+    <ol>{story.stations.map((s) => <li><b>{L(s.title)}</b> <span class="ui">({s.ref})</span><br />{L(s.body)}</li>)}</ol>
+  </div>
+</div>
+<script src="../scripts/story.ts"></script>
+<style>
+.story { max-width: 680px; margin-inline: auto; }
+.intro { font-size: 1.15rem; line-height: 1.9; border-inline-start: 3px solid #c9a227; padding-inline-start: 14px; }
+.rail { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0; }
+.tick { width: 40px; height: 40px; border-radius: 50%; border: 2px solid #c9a227; background: transparent;
+  color: inherit; cursor: pointer; font-weight: 700; }
+.tick[aria-selected="true"] { background: #c9a227; color: #0a1428; }
+.panel[hidden] { display: none; }
+.panel { border: 2px solid #c9a227; border-radius: 14px; padding: 24px; background: #f8f1de; color: #1d3a6e; }
+.panel h3 { margin-top: 0; font-size: 1.3rem; }
+.ref { color: #8a6d1a; }
+.ev { font-size: .9rem; }
+.st-nav { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 14px; }
+.st-nav button { font-size: 22px; background: #152c55; color: #f8f1de; border: 1px solid #c9a227;
+  border-radius: 50%; width: 48px; height: 48px; cursor: pointer; }
+.block { margin-top: 18px; }
+.caution { background: #e8a13d22; border: 1px solid #e8a13d; border-radius: 8px; padding: 10px 14px; }
+.khulasa { text-align: center; font-size: 1.2rem; color: #c9a227; margin-top: 18px; }
+.st-fallback { margin-top: 22px; }
+</style>

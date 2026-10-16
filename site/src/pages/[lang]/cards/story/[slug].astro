@@ -1,0 +1,28 @@
+---
+// Story page.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import StoryPlayer from "../../../../components/StoryPlayer.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { listStories, loadStory } from "../../../../lib/stories";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    listStories().map(({ slug }) => ({ params: { lang, slug }, props: { lang, slug } })));
+}
+const { lang, slug } = Astro.props as { lang: Lang; slug: string };
+const T = ui(lang);
+const C = T.cards;
+const story = loadStory(slug);
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const t = { stations: C.stations, prev: C.prev, next: C.next, all_items: C.all_items, facts: C.facts, lessons: C.lessons };
+---
+<BaseLayout lang={lang} title={L(story.title)} description={L(story.lede)} path={`/${lang}/cards/story/${slug}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label="breadcrumb">
+      <a href={`/${lang}/cards/`}>{C.title}</a> › <a href={`/${lang}/cards/stories/`}>{C.stories}</a> › {L(story.title)}
+    </nav>
+    <h1>{L(story.title)}</h1>
+    <p style="font-size:1.15rem;max-width:var(--measure)">{L(story.lede)}</p>
+    <StoryPlayer story={story} lang={lang} t={t} />
+  </div>
+</BaseLayout>
