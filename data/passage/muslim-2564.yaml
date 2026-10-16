@@ -1,0 +1,15 @@
+id: passage/muslim-2564
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2564"
+label: { ar: "مسلم 2564 — إن الله لا ينظر إلى صوركم ولكن إلى قلوبكم", en: "Muslim 2564 — God looks at your hearts, not your forms" }
+text: "قال رسول الله: «إن الله لا ينظر إلى صوركم وأموالكم، ولكن ينظر إلى قلوبكم وأعمالكم»"
+summary:
+  ar: "رواية أبي هريرة في كتاب البر من صحيح مسلم؛ النظر الإلهي إلى القلوب والأعمال لا إلى الصور والأموال — من أجمع نصوص حقيقة القيمة الإنسانية."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة (طبعة دار التأصيل، الحديث 6708؛ ترقيم عبد الباقي المعروف 2564)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

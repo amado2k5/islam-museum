@@ -1,0 +1,16 @@
+id: passage/muslim-0223
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "223"
+label: { ar: "مسلم 223 — الطهور شطر الإيمان", en: "Muslim 223 — Purity is half of faith" }
+text: "قال رسول الله: «الطهور شطر الإيمان، والحمد لله تملأ الميزان، وسبحان الله والحمد لله تملآن ما بين السموات والأرض، والصلاة نور، والصدقة برهان، والصبر ضياء، والقرآن حجة لك أو عليك»"
+summary:
+  ar: "رواية أبي مالك الأشعري، أول حديث في كتاب الطهارة من صحيح مسلم؛ مقياس الأعمال في الميزان: الطهور والحمد والصلاة والصدقة والصبر والقرآن."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/tahara, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-malik-al-ashari, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الطهارة، باب فضل الوضوء (طبعة دار التأصيل، الحديث 556؛ ترقيم عبد الباقي المعروف 223)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
