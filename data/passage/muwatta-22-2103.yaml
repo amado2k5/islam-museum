@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2103"
-label: { ar: "الموطأ 2103", en: "Muwatta 2103" }
+label: { ar: "الموطأ 2103 — يحيى عن مالك عن هشام بن عروة عن أبيه عن زينب بنت أبي سلمة عن أم سلمة: قال رسول الله إنما أنا بشر، وإنكم تختصمون إلي، فمن قضيت له بشيء من حق أخيه فلا يأخذن منه شيئا", en: "Muwatta 2103" }
+text: "فَمن قَضيْتُ لَهُ بِشَيءٍ مِن حَقِّ أخيهِ، فَلَا يَأْخُذَنَّ مِنْهُ شَيْئًا"
 summary:
-  ar: "يحيى عن مالك عن هشام بن عروة عن أبيه عن زينب بنت أبي سلمة عن أم سلمة زوج النبي ﷺ: حديث في القضاء بين الخصوم؛ تفاصيل المتن غير واضحة."
+  ar: "يروي يحيى عن مالك عن هشام بن عروة عن أبيه عن زينب بنت أبي سلمة عن أم سلمة زوج النبي أن رسول الله قال: إنما أنا بشر، وإنكم تختصمون إلي، فلعل بعضكم أن يكون ألحن بحجته من بعض، فأقضي له على نحو ما أسمع منه، فمن قضيت له بشيء من حق أخيه فلا يأخذن منه شيئا، فإنما أقطع له قطعة من النار. ويذكر المحقق قول ابن عبد البر إن الحديث لم يختلف عن مالك في إسناده، وإن معمرا رواه عن الزهري عن عروة عن زينب عن أم سلمة مثله. {cite:muwatta-maruf-1997 p.259}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2103 of kitab 22-aqdiya at PDF p. 259", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-91b" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zaynab-bint-abi-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2103 at PDF p. 259; الترغيب في القضاء بالحق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k21-b59" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 259; matn excerpt at most 40 words" }

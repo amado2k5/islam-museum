@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2091"
-label: { ar: "الموطأ 2091", en: "Muwatta 2091" }
+label: { ar: "الموطأ 2091 — مالك: من باع حصته من أرض أو دار مشتركة، فلما علم أن صاحب الشفعة يأخذ بالشفعة، استقال المشتري فأقاله: ليس ذلك له، والشفيع أحق بها بالثمن الذي كان باعها به", en: "Muwatta 2091" }
 summary:
-  ar: "مالك: من باع حصته من أرض أو دار مشتركة، فلما علم أن صاحب الشفعة يأخذ به... ؛ البيع للتحايل على الشفعة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: من باع حصته من أرض أو دار مشتركة، فلما علم أن صاحب الشفعة يأخذ بالشفعة، استقال المشتري فأقاله. قال: ليس ذلك له، والشفيع أحق بها بالثمن الذي كان باعها به. {cite:muwatta-maruf-1997 p.255}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-21-shufa }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2091 of kitab 21-shufa at PDF p. 255", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k21-batch-90c" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shufa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/iqala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2091 at PDF p. 255; ما تقع فيه الشفعة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k21-b59" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 255; matn excerpt at most 40 words" }
