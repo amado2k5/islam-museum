@@ -78,3 +78,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - group batch 3 (25 files, banu-musa … christians-of-najran): done by Claude Haiku 5.5, draft
 - place m–z batch 12: 25 files (qasr-al-numan.md … qift.md), draft
 - concept batch 6 (Claude Haiku 5.5): 25 pages, jizya → madhahib-al-tibb
+- person s–z batch 4 (Claude Code, claude-haiku-5-5): salih-ibn-muslim … salman-ibn-rabi-a, 25 files, 25 files.
