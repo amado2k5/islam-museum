@@ -1,0 +1,17 @@
+id: passage/muslim-2432
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2432"
+label: { ar: "مسلم 2432 — بشارة خديجة ببيت من قصب", en: "Muslim 2432 — Khadija promised a house of qasab in Paradise" }
+text: "أتى جبريل النبي فقال: يا رسول الله، هذه خديجة قد أتتك معها إناء فيه إدام أو طعام أو شراب، فإذا هي أتتك فاقرأ عليها السلام من ربها ومني وبشرها ببيت في الجنة من قصب لا صخب فيه ولا نصب"
+summary:
+  ar: "رواية أبي هريرة في باب فضائل خديجة من صحيح مسلم؛ جبريل يقرئ خديجة السلام من ربها ويبشرها ببيت في الجنة لا صخب فيه ولا نصب — أخص نصوص فضلها في الدواوين."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/khadija, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jibril, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب فضائل خديجة (طبعة دار التأصيل، الحديث 6426؛ ترقيم عبد الباقي المعروف 2432)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
