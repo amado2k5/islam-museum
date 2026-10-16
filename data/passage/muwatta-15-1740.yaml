@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1740"
-label: { ar: "الموطأ 1740", en: "Muwatta 1740" }
+label: { ar: "الموطأ 1740 — ربيعة بن أبي عبد الرحمن عن محمد بن يحيى بن حبان عن ابن محيريز: سأل أبا سعيد الخدري عن العزل، فذكر غزوة بني المصطلق وقول النبي ما عليكم أن لا تفعلوا", en: "Muwatta 1740" }
+text: "ما عَلِيْكُمْ أنْ لَاَ تَفْعِلُوا. مَا مِن نَسمةٍ كَائنةِ إلى يَوْمِ الْقِيامةِ إلاَّا وَهي كَائنةٌ"
 summary:
-  ar: "يحيى عن مالك عن ربيعة بن أبي عبد الرحمن عن محمد بن يحيى بن حبان عن ابن محيريز: حديث في الطلاق أو العدة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن عن محمد بن يحيى بن حبان عن ابن محيريز أنه دخل المسجد فرأى أبا سعيد الخدري فسأله عن العزل. فذكر أبو سعيد أنهم خرجوا مع رسول الله في غزوة بني المصطلق، فأصابوا سبيا من سبي العرب، فاشتهوا النساء، واشتدت عليهم العزبة، وأحبوا الفداء، فأرادوا أن يعزلوا، ثم سألوا النبي فقال: ما عليكم أن لا تفعلوا، فما من نسمة كائنة إلى يوم القيامة إلا وهي كائنة. وينبه المحقق إلى أن البخاري ومسلم رويا الحديث من طريق الزهري عن عبد الله بن محيريز. {cite:muwatta-maruf-1997 p.110}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1740 of kitab 15-talaq at PDF p. 110", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-76" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabiah-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-yahya-ibn-habban, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-muhayriz, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/expedition-of-banu-al-mustaliq, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/azl, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1740 at PDF p. 110; ما جاء في العزل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b40" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 110; matn excerpt at most 40 words" }

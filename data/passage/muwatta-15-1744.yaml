@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1744"
-label: { ar: "الموطأ 1744", en: "Muwatta 1744" }
+label: { ar: "الموطأ 1744 — ضمرة بن سعيد المازني عن الحجاج بن عمرو بن غزية: سأل رجل من أهل اليمن زيد بن ثابت عن العزل عن جواريه، فقال زيد أفته يا حجاج، فقال هو حرثك", en: "Muwatta 1744" }
 summary:
-  ar: "ضمرة بن سعيد المازني عن الحجاج بن عمرو بن غزية: أنه كان ج... ؛ أثر في العزل أو الجماع؛ تفاصيل الأثر غير واضحة."
+  ar: "يروي مالك عن ضمرة بن سعيد المازني عن الحجاج بن عمرو بن غزية أنه كان جالسا عند زيد بن ثابت، فجاءه رجل من أهل اليمن يسأل عن جواريه، ويقول إنه لا يحب أن يحملن منه، أفيعزل؟ فقال زيد: أفته يا حجاج. فقال الحجاج: هو حرثك، إن شئت سقيته، وإن شئت أعطشته. فقال زيد: صدق. {cite:muwatta-maruf-1997 p.111}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1744 of kitab 15-talaq at PDF p. 111", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-76" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/damrah-ibn-said-al-mazini, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hajjaj-ibn-amr-ibn-ghaziyya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-thabit, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/azl, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1744 at PDF p. 111; ما جاء في العزل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b40" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 111; matn excerpt at most 40 words" }

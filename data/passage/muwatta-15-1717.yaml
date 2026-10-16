@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1717"
-label: { ar: "الموطأ 1717", en: "Muwatta 1717" }
+label: { ar: "الموطأ 1717 — ابن شهاب: أمر النبي رجلا من ثقيف أسلم وعنده عشر نسوة أن يمسك أربعا ويفارق سائرهن، واختلف الرواة فيه وأرجح المرسل عند أهل الحديث", en: "Muwatta 1717" }
+text: "أمْسِكْ مِنْهُنَّ أرْبَعًا. وَفَارقْ سَائرَهُنَّ"
 summary:
-  ar: "ابن شهاب: بلغني أن رسول الله ﷺ قال لرجل من ثقيف... ؛ حديث في الطلاق أو الخلع؛ تفاصيل المتن غير واضحة."
+  ar: "يروي يحيى عن مالك عن ابن شهاب أنه قال بلغني أن رسول الله قال لرجل من ثقيف، أسلم وعنده عشر نسوة، حين أسلم الثقفي: أمسك منهن أربعا، وفارق سائرهن. ويذكر المحقق أن ابن عبد البر قال إن الحديث رواه جماعة رواة الموطأ وأكثر أصحاب ابن شهاب، وأن البخاري قال عن رواية معمر إنها غير محفوظة، وأن الصحيح المرسل، وأن الأحاديث في الباب معلولة عند ابن عبد البر. {cite:muwatta-maruf-1997 p.99}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1717 of kitab 15-talaq at PDF p. 99", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-75" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1717 at PDF p. 99; جامع الطلاق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b39" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 99; matn excerpt at most 40 words" }

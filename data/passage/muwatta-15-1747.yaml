@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1747"
-label: { ar: "الموطأ 1747", en: "Muwatta 1747" }
+label: { ar: "الموطأ 1747 — يحيى عن مالك عن عبد الله بن أبي بكر عن حميد بن نافع عن زينب بنت أبي سلمة: حديث أم حبيبة في الطيب وقول النبي في الإحداد", en: "Muwatta 1747" }
+text: "لاَ يَحلُّ لامْرأةٍ تُؤْمنُ بِاللهِ وَالْيَوْمِ الآخرِ أنْ تُحدَّ على مَيْتٍ فَوْقَ ثَلاثِ لَيالٍ، إلاَّا على زَوْجٍ أرْبَعةَ أشْهُرٍ وَعَشْرًا"
 summary:
-  ar: "يحيى عن مالك عن عبد الله بن أبي بكر بن محمد بن عمرو بن حزم عن حميد بن نافع: حديث في الإحداد أو العدة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي يحيى عن مالك عن عبد الله بن أبي بكر بن محمد بن عمرو بن حزم عن حميد بن نافع عن زينب بنت أبي سلمة أنها أخبرته هذه الأحاديث الثلاثة. قالت زينب دخلت على أم حبيبة، زوج النبي، حين توفي أبوها أبو سفيان بن حرب، فدعت بطيب فيه صفرة، فدهنت به جارية، ثم مسحت بعارضيها، ثم قالت: والله ما لي بالطيب من حاجة، غير أني سمعت رسول الله يقول: لا يحل لامرأة تؤمن بالله واليوم الآخر أن تحد على ميت فوق ثلاث ليال، إلا على زوج أربعة أشهر وعشرا. {cite:muwatta-maruf-1997 p.112}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1747 of kitab 15-talaq at PDF p. 112", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-76" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-ibn-nafi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zaynab-bint-abi-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-habiba-bint-abi-sufyan, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ihdad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/iddah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1747 at PDF p. 112; ما جاء في الإحداد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b40" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 112; matn excerpt at most 40 words" }

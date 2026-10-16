@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1749"
-label: { ar: "الموطأ 1749", en: "Muwatta 1749" }
+label: { ar: "الموطأ 1749 — زينب بنت أبي سلمة عن أم سلمة: امرأة سألت النبي عن كحل ابنتها المتوفى عنها زوجها، فقال لا، إنما هي أربعة أشهر وعشرا", en: "Muwatta 1749" }
+text: "إنَّما هِي أرْبَعةَ أشهُرٍ وَعَشْرًا"
 summary:
-  ar: "قالت زينب: وسمعت أمي أم سلمة زوج النبي ﷺ تقول: جاءت امرأة إلى رسول الله ﷺ... ؛ قصة امرأة وحكم الإحداد؛ تفاصيل القصة غير واضحة."
+  ar: "قالت زينب: سمعت أمي أم سلمة، زوج النبي، تقول: جاءت امرأة إلى رسول الله، فقالت إن ابنتي توفي عنها زوجها وقد اشتكت عينيها، أفنكحلهما؟ فقال رسول الله: لا، مرتين أو ثلاثا، كل ذلك يقول لا، ثم قال: إنما هي أربعة أشهر وعشرا، وقد كانت إحداكن في الجاهلية ترمي بالبعرة على رأس الحول. وشرح حميد بن نافع لزينب ذلك: إذا توفي زوجها دخلت حفشا ولبست شر ثيابها، ولم تمس طيبا حتى تمر بها سنة، ثم تؤتى بدابة فتفتض بها فقلما تفتض بشيء إلا مات، ثم تخرج فتعطى بعرة فترمي بها، ثم تراجع ما شاءت من طيب أو غيره. {cite:muwatta-maruf-1997 p.113} {cite:muwatta-maruf-1997 p.114}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1749 of kitab 15-talaq at PDF p. 113", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-76" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zaynab-bint-abi-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-ibn-nafi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ihdad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/iddah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1749 at PDF p. 113; ما جاء في الإحداد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b40" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 113; matn excerpt at most 40 words" }

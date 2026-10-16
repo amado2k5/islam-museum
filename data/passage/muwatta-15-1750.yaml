@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1750"
-label: { ar: "الموطأ 1750", en: "Muwatta 1750" }
+label: { ar: "الموطأ 1750 — نافع عن صفية بنت أبي عبيد عن عائشة وحفصة: حديث الإحداد ثلاثة أيام إلا على الزوج، مع اختلاف الرواة في تعيين الراوية", en: "Muwatta 1750" }
 summary:
-  ar: "نافع عن صفية بنت أبي عبيد عن عائشة وحفصة زوجي النبي ﷺ: حديث في الإحداد؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن نافع عن صفية بنت أبي عبيد عن عائشة وحفصة، زوجي النبي، أن رسول الله قال: لا يحل لامرأة تؤمن بالله واليوم الآخر أن تحد على ميت فوق ثلاث ليال، إلا على زوج. وينقل ابن عبد البر أن يحيى روى الحديث عن عائشة وحفصة جميعا، وأن رواة آخرين قالوا «عن عائشة أو حفصة» على الشك، وأن أصحاب نافع اختلفوا فيه اختلافا كثيرا. {cite:muwatta-maruf-1997 p.113} {cite:muwatta-maruf-1997 p.114}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1750 of kitab 15-talaq at PDF p. 114", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-76" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/safiyya-bint-abi-ubayd, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hafsa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ihdad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1750 at PDF p. 113; ما جاء في الإحداد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b40" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 113; matn excerpt at most 40 words" }

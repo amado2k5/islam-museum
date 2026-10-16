@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1728"
-label: { ar: "الموطأ 1728", en: "Muwatta 1728" }
+label: { ar: "الموطأ 1728 — يحيى بن سعيد عن سليمان بن يسار: اختلف عبد الله بن عباس وأبو سلمة في المرأة تنفس بعد وفاة زوجها بليال، فأرسلوا كريبا إلى أم سلمة، فأخبر أنها قالت إن سبيعة وضعت بليال، فقال النبي قد حللت", en: "Muwatta 1728" }
 summary:
-  ar: "يحيى بن سعيد عن سليمان بن يسار: أن عبد الله بن عباس وأبا سلمة بن عبد... ؛ اختلاف الصحابة في عدة الحامل المتوفى عنها؛ تفاصيل الخلاف غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد عن سليمان بن يسار أن عبد الله بن عباس وأبا سلمة بن عبد الرحمن بن عوف اختلفا في المرأة تنفس بعد وفاة زوجها بليال. فقال أبو سلمة إذا وضعت ما في بطنها فقد حلت، وقال ابن عباس آخر الأجلين. فجاء أبو هريرة فقال أنا مع ابن أخي، يعني أبا سلمة. فبعثوا كريبا مولى عبد الله بن عباس إلى أم سلمة زوج النبي يسألها، فجاءهم فأخبرهم أنها قالت وضعت سبيعة الأسلمية بعد وفاة زوجها بليال، فذكرت ذلك لرسول الله فقال قد حللت فانكحي من شئت. قال مالك وهذا الأمر الذي لم يزل عليه أهل العلم عندنا. {cite:muwatta-maruf-1997 p.105}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1728 of kitab 15-talaq at PDF p. 105", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-75" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salama-ibn-abd-al-rahman-ibn-awf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/kurayb-mawla-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/subayah-al-aslamiyya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1728 at PDF p. 105; عدة المتوفى عنها زوجها إذا كانت حاملا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b39" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الخلاف غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 105; matn excerpt at most 40 words" }

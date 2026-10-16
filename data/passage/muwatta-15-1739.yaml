@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1739"
-label: { ar: "الموطأ 1739", en: "Muwatta 1739" }
+label: { ar: "الموطأ 1739 — مالك في العبد يطلق أمته طلاقا رجعيا ثم يموت وهي في عدتها: تعتد عدة الأمة المتوفى عنها زوجها، فإن عتقت ثم مات وهي في عدة طلاقه اعتدت عدة الحرة", en: "Muwatta 1739" }
 summary:
-  ar: "مالك في العبد يطلّق الأمة طلاقًا لم يبتّها فيه، له عليها فيه الرجعة، ثم يم... ؛ حكم رجعة العبد على أمته؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في العبد يطلق أمته طلاقا لم يبتها فيه، وله عليها الرجعة، ثم يموت وهي في عدتها من الطلاق: إنها تعتد عدة الأمة المتوفى عنها زوجها، شهرين وخمس ليال. وإن عتقت وله عليها رجعة، ثم اختارت فراقه بعد العتق حتى يموت وهي في عدتها من طلاقه، اعتدت عدة الحرة المتوفى عنها زوجها، أربعة أشهر وعشرا، لأن عدة الوفاة إنما وقعت عليها بعد أن عتقت. {cite:muwatta-maruf-1997 p.109}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1739 of kitab 15-talaq at PDF p. 109", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-76" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/iddah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1739 at PDF p. 109; عدة الأمة إذا توفي سيدها أو زوجها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b40" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 109; matn excerpt at most 40 words" }

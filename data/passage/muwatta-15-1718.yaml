@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1718"
-label: { ar: "الموطأ 1718", en: "Muwatta 1718" }
+label: { ar: "الموطأ 1718 — ابن شهاب عن سعيد وحميد وعبيد الله وسليمان، عن أبي هريرة عن عمر بن الخطاب: المرأة التي طلقها زوجها تطليقة أو تطليقتين، ثم تنكح زوجا غيره ثم يطلقها أو يموت عنها، ثم ينكحها الأول، تكون عنده على ما بقي من طلاقها", en: "Muwatta 1718" }
 summary:
-  ar: "ابن شهاب: سمعت سعيد بن المسيب وحميد بن عبد الرحمن بن عوف... ؛ قول التابعين في الطلاق؛ تفاصيل القول غير واضحة."
+  ar: "يروي مالك عن ابن شهاب أنه قال سمعت سعيد بن المسيب وحميد بن عبد الرحمن بن عوف وعبيد الله بن عبد الله بن عتبة وسليمان بن يسار، كلهم يقول سمعت أبا هريرة يقول سمعت عمر بن الخطاب يقول أيما امرأة طلقها زوجها تطليقة أو تطليقتين، ثم تركها حتى تحل وتنكح زوجا غيره، فيموت عنها أو يطلقها، ثم ينكحها زوجها الأول، فإنها تكون عنده على ما بقي من طلاقها. قال مالك وعلى ذلك السنة عندنا التي لا اختلاف فيها. {cite:muwatta-maruf-1997 p.101}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1718 of kitab 15-talaq at PDF p. 101", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-75" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-ibn-abd-al-rahman-ibn-awf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubaydallah-ibn-abdallah-ibn-utba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1718 at PDF p. 101; جامع الطلاق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b39" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القول غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 101; matn excerpt at most 40 words" }
