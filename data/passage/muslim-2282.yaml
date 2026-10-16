@@ -3,14 +3,14 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2282"
-label: { ar: "مسلم 2282 — إثبات خاتم النبوة بين كتفيه", en: "Muslim 2282 — The seal of prophethood between his shoulders" }
-text: "قال السائب بن يزيد: ذهبت بي خالتي إلى رسول الله فقالت: يا رسول الله إن ابن أختي وجع، فمسح رأسي ودعا لي بالبركة، ثم توضأ فشربت من وضوئه، ثم قمت خلف ظهره فنظرت إلى الخاتم بين كتفيه مثل زر الحجلة"
+label: { ar: "مسلم 2282 — مثل الهدى والعلم كمثل الغيث", en: "Muslim 2282 — The rain parable of guidance and knowledge" }
+text: "قال النبي: إن مثل ما بعثني الله به من الهدى والعلم كمثل غيث أصاب أرضاً، فكان منها طائفة طيبة قبلت الماء فأنبتت الكلأ والعشب الكثير، وكان منها أجادب أمسكت الماء فنفع الله بها الناس، وأصاب طائفة منها أخرى إنما هي قيعان لا تمسك ماء ولا تنبت كلأ"
 summary:
-  ar: "رواية السائب بن يزيد في باب إثبات خاتم النبوة وصفته ومحله من جسده من كتاب الفضائل في صحيح مسلم؛ مشاهدة الغلام للخاتم بين الكتفين مثل زر الحجلة — متوافقة مع رواية البخاري."
+  ar: "رواية أبي موسى الأشعري في باب مثل ما بعث به النبي من الهدى والعلم من كتاب الفضائل في صحيح مسلم؛ الأرض الطيبة والأجادب والقيعان صور لثلاثة أصناف من الناس مع الوحي."
 relations:
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
-  - { type: mentions, target: person/al-saib-ibn-yazid, sources: [source/sahih-muslim] }
-  - { type: mentions, target: concept/khatm-al-nubuwwa, sources: [source/sahih-muslim] }
-provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب إثبات خاتم النبوة (طبعة دار التأصيل، الحديث 6233؛ ترقيم عبد الباقي المعروف 2282)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ilm, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفضائل، باب مثل ما بعث به النبي من الهدى والعلم (طبعة دار التأصيل، الحديث 2354؛ ترقيم عبد الباقي المعروف 2282)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
 sources: [source/sahih-muslim]
-status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
