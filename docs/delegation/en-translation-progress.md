@@ -67,3 +67,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - concept batch 5 (Claude Haiku 5.5): 25 pages, ibadat-al-asnam-jahiliyya → jihad-call-of-1914
 - person d–h batch 8 (Claude Haiku 5.5): 25 pages, hisham-ibn-abd-al-malik → hurayth-ibn-jabir-al-jufi (commit ea10e080)
 - group batch 2 (25 files, banu-al-najjar … banu-murra): done by Claude Haiku 5.5, draft
+- work batch 7 (25 files, kitab-al-ibana … masail-tabiiyya-hunayn): done by Claude Haiku 5.5, draft
