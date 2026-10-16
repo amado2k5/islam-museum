@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2626"
-label: { ar: "الموطأ 2626", en: "Muwatta 2626" }
+label: { ar: "الموطأ 2626 — مالك: معاذ بن جبل يروي آخر وصية النبي له أن يحسن خلقه للناس", en: "Muwatta 2626" }
 summary:
-  ar: "معاذ بن جبل: آخر ما أوصاه به النبي حين وضع رجله في الغرز أن يُحسن خلقه للناس."
+  ar: "يروي مالك أن معاذ بن جبل قال: آخر ما أوصاني به رسول الله حين وضعت رجلي في الغرز أن قال: أحسن خلقك للناس يا معاذ بن جبل. ويذكر المحقق قول ابن عبد البر إن الحديث منقطع جدا في رواية مالك، وإن الصحيح في معناه حديث أبي ذر. {cite:muwatta-maruf-1997 p.485} {cite:muwatta-maruf-1997 p.486}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2626 of kitab 31-jami at PDF p. 485", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b113" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/husn-al-khuluq, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2626 at PDF p. 485; ما جاء في حسن الخلق", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b94" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 485; matn excerpt at most 40 words" }

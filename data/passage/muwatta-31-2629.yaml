@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2629"
-label: { ar: "الموطأ 2629", en: "Muwatta 2629" }
+label: { ar: "الموطأ 2629 — عائشة: بئس ابن العشيرة ثم ضحك النبي معه، فإن من شر الناس من اتقاه الناس لشره", en: "Muwatta 2629" }
 summary:
-  ar: "استأذن رجل على النبي وعائشة عنده، فقال: بئس ابن العشيرة، ثم أذن له فلان في الكلام."
+  ar: "يروي مالك أنه بلغه عن عائشة أنها قالت: استأذن رجل على رسول الله وأنا معه في البيت، فقال: بئس ابن العشيرة، ثم أذن له، فلم أنشب أن سمعت ضحك رسول الله معه. فلما خرج الرجل قلت: يا رسول الله، قلت فيه ما قلت ثم ضحكت معه؟ فقال: إن من شر الناس من اتقاه الناس لشره. ويذكر المحقق أن الحديث صحيح من رواية محمد بن المنكدر عن عروة عن عائشة في الصحيحين، وأن رواية مالك فيه بلاغ. {cite:muwatta-maruf-1997 p.488}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2629 of kitab 31-jami at PDF p. 488", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b113" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/husn-al-khuluq, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2629 at PDF p. 488; ما جاء في حسن الخلق", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b94" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 488; matn excerpt at most 40 words" }
