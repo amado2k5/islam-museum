@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1026"
-label: { ar: "الموطأ 1026", en: "Muwatta 1026" }
+label: { ar: "الموطأ 1026 — ابن عمر عن النبي: خمس من الدواب ليس على المحرم في قتلهن جناح: الغراب، والحدأة، والعقرب، والفأرة، والكلب العقور", en: "Muwatta 1026" }
+text: "خمس من الدواب ليس على المحرم في قتلهن جناح: الغراب، والحدأة، والعقرب، والفأرة، والكلب العقور"
 summary:
-  ar: "نافع عن ابن عمر: أن رسول الله ﷺ قال: خمس من الدواب ليس على المحرم فيهن جناح... ؛ حديث في الدواب المستثناة للمحرم."
+  ar: "أول حديث في باب ما يقتل المحرم من الدواب. يرويه مالك عن نافع عن عبد الله بن عمر، أن رسول الله قال: خمس من الدواب ليس على المحرم في قتلهن جناح: الغراب، والحدأة، والعقرب، والفأرة، والكلب العقور. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1183) وإسحاق الطباع وسويد (629) والبخاري وغيرهم كثيرون، ويحيل على التمهيد (15/153). {cite:muwatta-maruf-1997 p.479}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1026 of kitab 06-hajj at PDF p. 479", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-46" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muslim-ibn-al-hajjaj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1026 at PDF p. 479; ما يقتل المحرم من الدواب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 479; matn excerpt at most 40 words" }

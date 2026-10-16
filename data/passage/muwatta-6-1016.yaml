@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1016"
-label: { ar: "الموطأ 1016", en: "Muwatta 1016" }
+label: { ar: "الموطأ 1016 — عبد الله بن أبي بكر عن عبد الله بن عامر بن ربيعة: رأيت عثمان بن عفان بالعرج وهو محرم في يوم صائف، قد غطى وجهه بقطيفة أرجوان، ثم أُتي بلحم صيد، فقال لأصحابه: كلوا. فقالوا: أولا تأكل أنت؟ فقال: إني لست كهيئتكم، إنما صيد من أجلي", en: "Muwatta 1016" }
 summary:
-  ar: "عبد الله بن أبي بكر عن عبد الله بن عامر بن ربيعة قال: رأيت عثمان بن عفان... ؛ أثر عن عثمان في الإحرام؛ تفاصيل الأثر غير واضحة."
+  ar: "يرويه مالك عن عبد الله بن أبي بكر عن عبد الله بن عامر بن ربيعة، قال: رأيت عثمان بن عفان بالعرج وهو محرم في يوم صائف، قد غطى وجهه بقطيفة أرجوان، ثم أُتي بلحم صيد، فقال لأصحابه: كلوا. فقالوا: أولا تأكل أنت؟ فقال: إني لست كهيئتكم، إنما صيد من أجلي. ويذكر المحقق أن في نسخة م «عبد الرحمن» خطأ بيّن، وأنه رواه عن مالك أبو مصعب (1147) وسويد (577). {cite:muwatta-maruf-1997 p.476}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1016 of kitab 06-hajj at PDF p. 476", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-45" }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-arj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1016 at PDF p. 476; ما لا يجوز للمحرم أكله من الصيد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 476; matn excerpt at most 40 words" }

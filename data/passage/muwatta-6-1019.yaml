@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1019"
-label: { ar: "الموطأ 1019", en: "Muwatta 1019" }
+label: { ar: "الموطأ 1019 — مالك سئل: المحرم يضطر إلى أكل الميتة، أيصيد الصيد فيأكله أم يأكل الميتة؟ قال: بل يأكل الميتة، لأن الله لم يرخص للمحرم في أكل الصيد ولا في أخذه على حال من الأحوال، وقد رخص في الميتة على حال الضرورة", en: "Muwatta 1019" }
 summary:
-  ar: "سُئل مالك عن الرجل يُضطر إلى أكل الميتة وهو محرم، أيصيد الصيد فيأكله أم يأكل الميتة؛ حكم الضرورة في الإحرام؛ الجواب يحتاج مراجعة."
+  ar: "سئل مالك: المحرم يُضطر إلى أكل الميتة، أيصيد الصيد فيأكله أم يأكل الميتة؟ فقال: بل يأكل الميتة، لأن الله لم يرخص للمحرم في أكل الصيد ولا في أخذه على حال من الأحوال، وقد رخص في الميتة على حال الضرورة. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1150) وسويد (578). {cite:muwatta-maruf-1997 p.477}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1019 of kitab 06-hajj at PDF p. 477", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-46" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1019 at PDF p. 477; ما لا يجوز للمحرم أكله من الصيد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 477; matn excerpt at most 40 words" }

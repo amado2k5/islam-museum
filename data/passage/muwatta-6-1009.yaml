@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1009"
-label: { ar: "الموطأ 1009", en: "Muwatta 1009" }
+label: { ar: "الموطأ 1009 — سعيد بن المسيب عن أبي هريرة: أقبل من البحرين حتى كان بالربذة، فوجد ركباً من أهل العراق محرمين، فسألوه عن لحم صيد وجدوه عند أهل الربذة، فأمرهم بأكله، ثم شك فيما أمرهم به، فلما قدم المدينة ذكر ذلك لعمر، فقال عمر: لو أمرتهم بغير ذلك لفعلت بك", en: "Muwatta 1009" }
+text: "لو أمرتهم بغير ذلك لفعلت بك"
 summary:
-  ar: "يحيى بن سعيد: سمع سعيد بن المسيب يحدث عن أبي هريرة: أنه أقبل من البقيع... ؛ حديث في الإحرام؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد أنه سمع سعيد بن المسيب يحدث عن أبي هريرة، أنه أقبل من البحرين حتى كان بالربذة، فوجد ركباً من أهل العراق محرمين، فسألوه عن لحم صيد وجدوه عند أهل الربذة، فأمرهم بأكله. ثم إنه شك فيما أمرهم به، فلما قدم المدينة ذكر ذلك لعمر بن الخطاب، فقال عمر: ماذا أمرتهم به؟ فقال: أمرتهم بأكله. فقال عمر: لو أمرتهم بغير ذلك لأوجعتك. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1140) وسويد (573). {cite:muwatta-maruf-1997 p.473}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1009 of kitab 06-hajj at PDF p. 473", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-45" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1009 at PDF p. 473; ما يحل للمحرم أكله من الصيد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 473; matn excerpt at most 40 words" }

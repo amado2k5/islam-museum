@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1008"
-label: { ar: "الموطأ 1008", en: "Muwatta 1008" }
+label: { ar: "الموطأ 1008 — يحيى بن سعيد عن محمد بن إبراهيم عن عيسى بن طلحة عن عمير بن سلمة الضمري عن البهزي: خرج رسول الله يريد مكة وهو محرم، فلما كان بالروحاء إذا حمار وحشي عقير، فقال: دعوه، فإنه يوشك أن يأتي صاحبه، فجاء البهزي فقال: شأنكم بهذا الحمار، فأمر أبا بكر فقسمه بين الرفاق", en: "Muwatta 1008" }
 summary:
-  ar: "يحيى بن سعيد الأنصاري: أخبره محمد بن إبراهيم بن الحارث التيمي... ؛ حديث في صيد المحرم؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن محمد بن إبراهيم بن الحارث عن عيسى بن طلحة عن عمير بن سلمة الضمري عن البهزي، أن رسول الله خرج يريد مكة وهو محرم، فلما كان بالروحاء إذا حمار وحشي عقير، فقال: دعوه، فإنه يوشك أن يأتي صاحبه. فجاء البهزي فقال: شأنكم بهذا الحمار، فأمر أبا بكر فقسمه بين الرفاق. ثم مضى حتى كان بالأثابة إذا ظبي حاقق في ظل فيه سهم، فأمر رجلاً أن يقف عنده لا يريبه أحد حتى يجاوزه. ويذكر المحقق أن ابن عبد البر بيّن أن الحديث عند حماد بن زيد وهشيم وعلي بن مسهر عن يحيى بن سعيد عن محمد بن إبراهيم عن عيسى بن طلحة عن عمير بن سلمة عن النبي مباشرة، وأن مالكاً جعله عن عمير عن البهزي. {cite:muwatta-maruf-1997 p.472}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1008 of kitab 06-hajj at PDF p. 472", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-45" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-ibrahim-al-taymi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1008 at PDF p. 472; ما يحل للمحرم أكله من الصيد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 472; matn excerpt at most 40 words; doubt: الإسناد في الموطأ: عمير عن البهزي عن النبي، وعند حماد بن زيد: عمير عن النبي مباشرة؛ ابن عبد البر يرجح رواية حماد." }

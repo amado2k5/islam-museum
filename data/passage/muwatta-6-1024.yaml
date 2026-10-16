@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1024"
-label: { ar: "الموطأ 1024", en: "Muwatta 1024" }
+label: { ar: "الموطأ 1024 — مالك: أحسن ما سمع في الذي يقتل الصيد فيحكم عليه فيه، أن يقوم الصيد الذي أصاب، فينظر كم ثمنه من الطعام، فيطعم كل مسكين مداً، أو يصوم مكان كل مد يوماً، فإن كانوا عشرة صام عشرة أيام، وإن كانوا أكثر من ستين مسكيناً", en: "Muwatta 1024" }
 summary:
-  ar: "يحيى قال مالك: أحسن ما سمعت في الذي يقتل الصيد فيُحكم عليه فيه أن يُقوّم الصيد... ؛ طريقة تقويم جزاء الصيد؛ الحكم يحتاج مراجعة."
+  ar: "قول يرويه يحيى عن مالك: أحسن ما سمع في الذي يقتل الصيد فيُحكم عليه فيه أن يقوم الصيد الذي أصاب، فينظر كم ثمنه من الطعام، فيُطعم كل مسكين مداً، أو يصوم مكان كل مد يوماً، وينظر كم عدد المساكين، فإن كانوا عشرة صام عشرة أيام، وإن كانوا عشرين صام عشرين يوماً عدَدهم ما كانوا، وإن كانوا أكثر من ستين مسكيناً. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1158). {cite:muwatta-maruf-1997 p.478}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1024 of kitab 06-hajj at PDF p. 478", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-46" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1024 at PDF p. 478; الحكم في الصيد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 478; matn excerpt at most 40 words" }

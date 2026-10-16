@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1012"
-label: { ar: "الموطأ 1012", en: "Muwatta 1012" }
+label: { ar: "الموطأ 1012 — مالك عن لحم صيد يوجد على الطريق: يبتاعه المحرم؟ أما ما كان يعترض به فلا بأس، وأما ما كان يُقصد من أجل المحرمين فأكرهه وأنهى عنه", en: "Muwatta 1012" }
 summary:
-  ar: "يحيى: سُئل مالك عما يوجد من لحوم الصيد على الطريق: هل يبتاعه المحرم؟ فقال: أما... ؛ حكم شراء لحم الصيد للمحرم؛ الجواب يحتاج مراجعة."
+  ar: "سئل مالك عما يوجد من لحوم الصيد على الطريق: هل يبتاعه المحرم؟ فقال: أما ما كان من ذلك يعترض به ولم يصد من أجل المحرمين، فلا بأس بأن يبتاعه المحرم. وأما ما صيد من أجل المحرمين فإني أكرهه وأنهى عنه. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1142). {cite:muwatta-maruf-1997 p.474} {cite:muwatta-maruf-1997 p.475}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1012 of kitab 06-hajj at PDF p. 474", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-45" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1012 at PDF p. 474; ما يحل للمحرم أكله من الصيد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b05" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 474; matn excerpt at most 40 words" }
