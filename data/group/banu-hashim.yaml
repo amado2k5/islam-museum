@@ -4,7 +4,7 @@ kind: clan
 label: { en: "Banu Hashim", ar: "بنو هاشم" }
 summary:
   en: "The Prophet's own clan within Quraysh — divided over his mission yet bound to him by blood, sheltering him through the boycott whether they believed or not."
-  ar: "عشيرة النبي نفسها في قريش — انقسمت على رسالته لكنها التفّت به بالدم، وأوته في سني المقاطعة مؤمنَها وغير مؤمنها."
+  ar: "عشيرة النبي نفسها في قريش — انقسمت على رسالته لكنها التفّت به بالدم، وأوته في سني المقاطعة مؤمنَها وغير مؤمنها. وفي مسلم قال النبي «اصطفى من قريش بني هاشم واصطفاني من بني هاشم» {cite:sahih-muslim 2276}."
 wings: [people]
 themes: [family-marriage-kinship, care-for-the-vulnerable]
 periods: [period/prophetic-era]
@@ -18,5 +18,5 @@ relations:
   - { type: lived_in, target: place/mecca }
   - { type: protected, target: person/muhammad, start: { edtf: "0617~" }, end: { edtf: "0619~" }, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/boycott-of-banu-hashim, role: boycotted-party, sources: [source/ibn-ishaq-guillaume] }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa, source/bakr-umayyad-state-1134715, source/mubarakpuri-raheeq]
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley, source/ibn-hisham-saqqa, source/bakr-umayyad-state-1134715, source/mubarakpuri-raheeq, source/sahih-muslim]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11; restored by Claude Sonnet 5.5 after a thin overwrite in 25fae5f (ibn-hisham batch 5a); Ibn Hisham juz' 4 pp. 3, 10 added as a source" }
