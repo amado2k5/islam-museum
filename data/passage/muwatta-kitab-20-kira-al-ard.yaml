@@ -3,12 +3,14 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-20"
-label: { ar: "الموطأ، كتاب كراء الأرض", en: "Muwatta, Book of Leasing land" }
+label: { ar: "الموطأ، كتاب كراء الأرض", en: "Muwatta, Book of Renting Land (kira al-ard)" }
 summary:
-  ar: "كتاب كراء الأرض في الموطأ، المجلد الثاني، يبدأ في صفحة 249 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Leasing land in the Muwatta, volume 2, starting at PDF page 249 (PDF numbering, not the printed page)."
+  ar: "كتاب كراء الأرض، الكتاب العشرون من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997)، في المجلد الثاني: 6 نصوص (2073–2078) في باب واحد، من الصفحة 249 إلى الصفحة 250 من ملف PDF المجلد الثاني. يبدأ بنهي النبي عن كراء المزارع ورواية رافع بن خديج، ويذكر كراء الأرض بالذهب والورق عند سعيد بن المسيب وسالم وابن شهاب وعبد الرحمن بن عوف، ويختم بكراء الأرض بجزء من غلتها. {cite:muwatta-maruf-1997 p.249} {cite:muwatta-maruf-1997 p.250}"
+  en: "The Book of Renting Land (kira al-ard), twentieth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997), in volume 2: 6 reports (2073–2078) in one bab, PDF pp. 249–250 of volume 2. It opens with the report of Rafi' ibn Khadij on renting farms, gives the rulings of Sa'id ibn al-Musayyab and Salim on renting for gold and silver, and closes with the question of renting land for a share of its yield."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 249", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ijara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab kira al-ard, PDF pp. 249–250", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k20-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

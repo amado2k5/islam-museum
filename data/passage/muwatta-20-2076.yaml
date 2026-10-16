@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2076"
-label: { ar: "الموطأ 2076", en: "Muwatta 2076" }
+label: { ar: "الموطأ 2076 — مالك: بلغه أن عبد الرحمن بن عوف تكارى أرضا فلم تزل في يديه بكراء حتى مات، فأمر ورثته بقضاء شيء كان عليه من كرائها، ذهب أو ورق", en: "Muwatta 2076" }
 summary:
-  ar: "مالك: أنه بلغه أن عبد الرحمن بن عوف تكارى أرضًا، فلم تزل في يديه بكراء حتى... ؛ قصة كراء الأرض في عهد عبد الرحمن بن عوف؛ تفاصيل القصة غير واضحة."
+  ar: "قال مالك: وبلغه أن عبد الرحمن بن عوف تكارى أرضا، فلم تزل في يديه بكراء حتى مات. قال ابنه: فما كنت أراها إلا لنا، من طول ما مكثت في يديه، حتى ذكرها لنا عند موته، فأمرنا بقضاء شيء كان عليه من كرائها، ذهب أو ورق. {cite:muwatta-maruf-1997 p.250}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-20-kira-al-ard }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2076 of kitab 20-kiraa-al-ard at PDF p. 250", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k20-batch-90b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-awf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ijara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2076 at PDF p. 250; ما جاء في كراء الأرض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b58" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 250; matn excerpt at most 40 words" }

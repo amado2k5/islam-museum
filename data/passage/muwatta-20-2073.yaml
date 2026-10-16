@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2073"
-label: { ar: "الموطأ 2073", en: "Muwatta 2073" }
+label: { ar: "الموطأ 2073 — يحيى عن مالك عن ربيعة بن أبي عبد الرحمن عن حنظلة بن قيس الزرقي عن رافع بن خديج: نهى رسول الله عن كراء المزارع، فسأل حنظلة رافعا عن الذهب والورق، فقال: أما بالذهب والورق فلا بأس به", en: "Muwatta 2073" }
 summary:
-  ar: "يحيى عن مالك عن ربيعة بن أبي عبد الرحمن عن حنظلة بن قيس الزرقي عن رافع بن خديج: حديث في كراء الأرض؛ تفاصيل المتن غير واضحة."
+  ar: "يروي يحيى عن مالك عن ربيعة بن أبي عبد الرحمن عن حنظلة بن قيس الزرقي عن رافع بن خديج أن رسول الله نهى عن كراء المزارع. قال حنظلة: فسألت رافع بن خديج: بالذهب والورق؟ فقال: أما بالذهب والورق، فلا بأس به. {cite:muwatta-maruf-1997 p.249}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-20-kira-al-ard }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2073 of kitab 20-kiraa-al-ard at PDF p. 249", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k20-batch-90b" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabiah-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/handhala-ibn-qays, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rafi-ibn-khadij, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ijara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2073 at PDF p. 249; ما جاء في كراء الأرض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b58" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 249; matn excerpt at most 40 words" }

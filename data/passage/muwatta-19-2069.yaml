@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2069"
-label: { ar: "الموطأ 2069", en: "Muwatta 2069" }
+label: { ar: "الموطأ 2069 — مالك: فيمن يساقي الأرض فيها النخل والكرم وما أشبهه من الأصول، وفيها الأرض البيضاء: إذا كان البياض تبعا للأصل وكان الأصل أعظم وأكثر فلا بأس بمساقاته، فإن كان الأصل الثلث أو أقل والبياض الثلثين أو أكثر، جاز فيه الكراء وحرمت فيه المساقاة", en: "Muwatta 2069" }
 summary:
-  ar: "مالك في الرجل يساقي الرجل الأرض فيها النخل والكرم أو ما أشبه ذلك من الأصول... ؛ المساقاة مع الأرض والأصول؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في الرجل يساقي الرجل الأرض، فيها النخل والكرم، أو ما أشبه ذلك من الأصول، فتكون فيها الأرض البيضاء: إذا كان البياض تبعا للأصل، وكان الأصل أعظم من ذلك وأكثر، فلا بأس بمساقاته. وذلك أن يكون النخل الثلثين أو أكثر، ويكون البياض الثلث أو أقل من ذلك. فإذا كان الأصل الثلث أو أقل، والبياض الثلثين أو أكثر، جاز في ذلك الكراء وحرمت فيه المساقاة. {cite:muwatta-maruf-1997 p.245} {cite:muwatta-maruf-1997 p.246}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-19-musaqat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2069 of kitab 19-musaqat at PDF p. 245", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k19-batch-90a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/musaqat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ijara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2069 at PDF p. 245; ما جاء في المساقاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b58" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 245; matn excerpt at most 40 words" }

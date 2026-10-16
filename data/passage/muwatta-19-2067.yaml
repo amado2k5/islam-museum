@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2067"
-label: { ar: "الموطأ 2067", en: "Muwatta 2067" }
+label: { ar: "الموطأ 2067 — مالك: المساقي لا يأخذ من صاحبه الذي ساقاه شيئا من ذهب ولا ورق يزداده، ولا طعام ولا شيئا من الأشياء، لأن الزيادة فيما بينهما لا تصلح", en: "Muwatta 2067" }
 summary:
-  ar: "مالك في المساقي إنه لا يأخذ من صاحبه الذي ساقاه شيئًا من ذهب ولا ورق يزداده... ؛ منع الزيادة النقدية على المساقي؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في المساقي: إنه لا يأخذ من صاحبه الذي ساقاه شيئا من ذهب ولا ورق يزداده، ولا طعام ولا شيئا من الأشياء. لا يصلح ذلك، ولا ينبغي أن يأخذ المساقي من رب الحائط شيئا يزيده إياه، من ذهب ولا ورق ولا طعام ولا شيء من الأشياء. والزيادة فيما بينهما لا تصلح. {cite:muwatta-maruf-1997 p.245}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-19-musaqat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2067 of kitab 19-musaqat at PDF p. 245", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k19-batch-89b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/musaqat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2067 at PDF p. 245; ما جاء في المساقاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b58" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 245; matn excerpt at most 40 words" }

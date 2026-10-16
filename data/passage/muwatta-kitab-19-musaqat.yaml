@@ -3,12 +3,16 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-19"
-label: { ar: "الموطأ، كتاب المساقاة", en: "Muwatta, Book of Irrigation partnership (musaqat)" }
+label: { ar: "الموطأ، كتاب المساقاة", en: "Muwatta, Book of Irrigation Partnership (musaqat)" }
 summary:
-  ar: "كتاب المساقاة في الموطأ، المجلد الثاني، يبدأ في صفحة 239 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Irrigation partnership (musaqat) in the Muwatta, volume 2, starting at PDF page 239 (PDF numbering, not the printed page)."
+  ar: "كتاب المساقاة، الكتاب التاسع عشر من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997)، في المجلد الثاني: 24 نصا (2049–2072) في بابين، من الصفحة 239 إلى الصفحة 247 من ملف PDF المجلد الثاني. يبدأ بمساقاة أهل خيبر وما جرى فيها من خرص عبد الله بن رواحة، ويبين السنة في المساقاة وما يشترط فيها من الأعمال والنفقة، وما لا يجوز من الزيادة فيها، ثم شرط الرقيق في المساقاة. {cite:muwatta-maruf-1997 p.239} {cite:muwatta-maruf-1997 p.247}"
+  en: "The Book of Irrigation Partnership (musaqat), nineteenth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997), in volume 2: 24 reports (2049–2072) in two babs, PDF pp. 239–247 of volume 2. It opens with the agreement with the Jews of Khaybar and Ibn Rawaha's estimate, sets out the customary work and expenses in musaqat, forbids added payments that turn it into hire, and closes with the workers and slaves in the orchard."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 239", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/musaqat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ijara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab al-musaqat, PDF pp. 239–247", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k19-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

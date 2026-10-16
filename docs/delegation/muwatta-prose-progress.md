@@ -24,8 +24,10 @@
 - Kitab 16 done: الرضاع (hadith 1762–1780, vol. 2 PDF pp. 119–128; 3 babs; 19 records; chapter record and page written). Hadith 1780 was an unnumbered record in the old lane; created now.
 - Kitab 17 done: البيوع (hadith 1781–2006, vol. 2 PDF pp. 129–220; 46 babs; 226 records; chapter record and page written). Hadith 1948 has a cut isnad in the OCR, flagged for checking.
 - Kitab 18 done: القراض (hadith 2007–2048, vol. 2 PDF pp. 221–237; 15 babs; 42 records; chapter record and page written).
-- Kitab 19 in progress: المساقاة (hadith 2049 onward, vol. 2 PDF p. 239). Records 2049–2061 done (bab 1 so far).
-- Record reached: 2061. Next: kitab 19 from hadith 2062 (vol. 2, PDF p. 243).
+- Kitab 19 done: المساقاة (hadith 2049–2072, vol. 2 PDF pp. 239–247; 2 babs; 24 records; chapter record and page written).
+- Kitab 20 in progress: كراء الأرض (hadith 2073 onward, vol. 2 PDF p. 249). Records 2073–2078 done.
+- Kitab 21 started: الشفعة (hadith 2079, vol. 2 PDF p. 251).
+- Record reached: 2079. Next: kitab 21 from hadith 2080 (vol. 2, PDF p. 251).
 - REVIEW flags remaining: none in kitab 1–6; kitab 7–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
@@ -38,7 +40,7 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 19 (المساقاة) from hadith 2062 (vol. 2, PDF p. 243), then kitab 20 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
+Kitab 21 (الشفعة) from hadith 2080 (vol. 2, PDF p. 251), after finishing kitab 20 (كراء الأرض) with its chapter record and page. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.

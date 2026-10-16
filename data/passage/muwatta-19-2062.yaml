@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2062"
-label: { ar: "الموطأ 2062", en: "Muwatta 2062" }
+label: { ar: "الموطأ 2062 — مالك: لا ينبغي أن تساقى الأرض البيضاء، لأنه يحل لصاحبها كراؤها بالدنانير والدراهم وما أشبهها من الأثمان المعلومة", en: "Muwatta 2062" }
 summary:
-  ar: "مالك: ولا ينبغي أن تُساقى الأرض البيضاء، وذلك أنه يحل لصاحبها كراؤها بالدنانير... ؛ منع مساقاة الأرض البيضاء؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ولا ينبغي أن تساقى الأرض البيضاء، وذلك أنه يحل لصاحبها كراؤها بالدنانير والدراهم، وما أشبه ذلك من الأثمان المعلومة. {cite:muwatta-maruf-1997 p.244}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-19-musaqat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2062 of kitab 19-musaqat at PDF p. 244", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k19-batch-89b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/musaqat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ijara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2062 at PDF p. 244; ما جاء في المساقاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b58" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 244; matn excerpt at most 40 words" }
