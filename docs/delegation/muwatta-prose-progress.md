@@ -11,8 +11,8 @@
 - Kitab done: 1 (الصلاة, hadith 1–590, PDF pp. 33–303; 24 batches; chapter page written; records 546 and 547, skipped by the old lane, created); 2 (الجنائز, hadith 591–651, PDF pp. 305–332; 3 batches; chapter page written; record 617 created); 3 (الزكاة, hadith 652–780, PDF pp. 333–384; 6 batches; chapter page written).
 - Kitab 4 done: الصيام (hadith 781–865, PDF pp. 385–417; 4 batches; chapter page written).
 - Kitab 5 done: الاعتكاف (hadith 866–897, PDF pp. 419–431; 2 batches; chapter page written). Hadith 877 onward are heard by Yahya through Ziyad ibn Abd al-Rahman (Shabtun), per the editor's note at 878.
-- Kitab in progress: 6 (الحج, PDF pp. 433–570; hadith 898–1282, with numbers 932 absent from the printed text and some others absent from the records). Written so far: 898–1030 (133 records; 192 REVIEW flags left in kitab 6).
-- Record reached: 1030. Next: 1031.
+- Kitab in progress: 6 (الحج, PDF pp. 433–570; hadith 898–1282, with numbers 932 absent from the printed text and some others absent from the records). Written so far: 898–1097 (200 records; 137 REVIEW flags left in kitab 6).
+- Record reached: 1097. Next: 1098.
 - REVIEW flags remaining: none in kitab 1–5; kitab 6 has 192 left; kitab 7–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
@@ -25,7 +25,7 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 6 from hadith 1031 (PDF p. 480 onward, the rites of the muhrim, the hady, the tawaf and the sa'y) to 1282; then the kitab 6 chapter page `content/ar/passage/muwatta-kitab-06-hajj.md`. Same cycle: apply, commit explicit paths, rebase, coverage, validate, test, push.
+Kitab 6 from hadith 1098 (PDF p. 503 onward: the rules of the sa'y and the shortening of the hair, the animals of the hady, the Day of Arafa and the stoning) to 1282, then the kitab 6 chapter page `content/ar/passage/muwatta-kitab-06-hajj.md`. Same cycle: apply, commit explicit paths, rebase, coverage, validate, test, push.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.
