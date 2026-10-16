@@ -95,3 +95,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person s–z batch 6 (Claude Code, claude-haiku-5-5): sayf-al-islam-tughrakin … shams-al-din-ildigiz, 25 files, 25 files.
 - person i–m batch 11 (25 files, irbili-ahmad-ibn-musa … ishaq-ibn-ali-murabiti) — Claude Haiku 5.5, draft
 - place m–z batch 16: 25 files (safwan.md … sandan.md), draft
+- concept batch 8 (Claude Haiku 5.5): 25 pages, nasiha → sadaqa
