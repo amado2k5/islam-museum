@@ -1,0 +1,26 @@
+id: event/splitting-of-the-moon
+class: event
+kind: other
+label: { ar: "انشقاق القمر", en: "the splitting of the moon" }
+summary:
+  ar: "الآية التي سألها أهل مكة من النبي فأراهم القمر شقتين حتى رأوا حراء بينهما {cite:sahih-al-bukhari 3868}، وقالوا في رواية أخرى «سحرنا محمد». يروي ابن مسعود «انشق القمر ونحن مع النبي بمنى فقال: اشهدوا — وذهبت فرقة نحو الجبل»، وقال مرة: انشق بمكة {cite:sahih-al-bukhari 3869}، ويروي ابن عباس أن القمر انشق على زمان رسول الله {cite:sahih-al-bukhari 3870}. ويقرأ المسلمون عليه افتتاح سورة القمر [[passage/quran-54-1|«اقتربت الساعة وانشق القمر»]]."
+  en: "The sign the people of Mecca asked of the Prophet: he showed them the moon in two halves until they saw Mount Hira between them {cite:sahih-al-bukhari 3868}; in another report they said 'Muhammad has bewitched us'. Ibn Mas'ud reports 'the moon split while we were with the Prophet at Mina; he said: bear witness — and one part went toward the mountain', and once said it split at Mecca {cite:sahih-al-bukhari 3869}; Ibn 'Abbas reports the moon split in the Prophet's lifetime {cite:sahih-al-bukhari 3870}. Muslims read the event in the opening of Surat al-Qamar [[passage/quran-54-1|'the Hour has drawn near and the moon has split']]."
+wings: [time, people]
+themes: [prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0610/0622", calendar: julian, precision: decade, status: tradition, derived: true, note: "مكة قبل الهجرة في إجماع الروايات؛ لم يرد في الصحيح تعيين سنة، فسجّل بالمدى العام للفترة المكية بعد البعثة.", sources: [source/sahih-al-bukhari] }
+relations:
+  - { type: occurred_at, target: place/mecca }
+  - { type: had_participant, target: person/muhammad, role: "أظهر الآية" }
+  - { type: had_participant, target: person/abdullah-ibn-masud, role: eyewitness-narrator, sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abdullah-ibn-abbas, role: narrator, sources: [source/sahih-al-bukhari] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/sahih-al-bukhari]
+provenance:
+  layer: own-research
+  source: "صحيح البخاري، باب انشقاق القمر من كتاب مناقب الأنصار، أحاديث 3868–3871"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR of the Bugha/Dar al-Fikr scan"
+  run: hadith-bukhari-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
