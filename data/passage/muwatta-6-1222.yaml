@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1222"
-label: { ar: "الموطأ 1222", en: "Muwatta 1222" }
+label: { ar: "الموطأ 1222 — مالك: تفسير الحديث في الرخصة أنهم يرمون يوم النحر، ثم يرمون لما مضى ولليوم، لأن أحدا لا يقضي شيئا حتى يجب عليه", en: "Muwatta 1222" }
 summary:
-  ar: "مالك: وتفسير الحديث الذي أرخص فيه رسول الله ﷺ رمي الجمار، فيما نرى... ؛ تفسير الرخصة في الرمي؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك إن تفسير الحديث الذي أرخص فيه رسول الله، فيما يرى، أنهم يرمون يوم النحر، فإذا مضى اليوم الذي يلي يوم النحر رموا من الغد، وهو يوم النفر الأول، فيرمون لما مضى ثم يرمون ليومهم، لأنه لا يقضي أحد شيئا حتى يجب عليه. فإن بدا لهم النفر فقد فرغوا، وإن أقاموا إلى الغد رموا مع الناس يوم النفر الآخر ونفروا. {cite:muwatta-maruf-1997 p.546}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1222 of kitab 06-hajj at PDF p. 546", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-54" }
+  - { type: basis_for, target: practice/ramy-al-jamarat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1222 at PDF p. 546; الرخصة في رمي الجمار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 546; matn excerpt at most 40 words" }

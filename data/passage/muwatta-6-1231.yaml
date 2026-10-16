@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1231"
-label: { ar: "الموطأ 1231", en: "Muwatta 1231" }
+label: { ar: "الموطأ 1231 — عبد الرحمن بن القاسم عن أبيه عن عائشة: حاضت صفية، فقال النبي أحابستنا هي؟ فقيل قد أفاضت، فقال فلا إذا", en: "Muwatta 1231" }
+text: "فَلا إذًا"
 summary:
-  ar: "يحيى عن مالك عن عبد الرحمن بن القاسم عن أبيه عن عائشة: أن صفية بنت حيي... ؛ حديث في الحيض في الحج؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن عبد الرحمن بن القاسم عن أبيه عن عائشة أن صفية بنت حيي حاضت، فذكرت ذلك للنبي، فقال أحابستنا هي؟ فقيل له إنها قد أفاضت، فقال فلا إذا. {cite:muwatta-maruf-1997 p.550}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1231 of kitab 06-hajj at PDF p. 550", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-54" }
+  - { type: mentions, target: person/safiyya-bint-huyayy, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-qasim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1231 at PDF p. 550; إفاضة الحائض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 550; matn excerpt at most 40 words" }

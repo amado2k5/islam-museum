@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1228"
-label: { ar: "الموطأ 1228", en: "Muwatta 1228" }
+label: { ar: "الموطأ 1228 — ابن شهاب عن عروة عن عائشة: مثل ذلك", en: "Muwatta 1228" }
 summary:
-  ar: "ابن شهاب عن عروة بن الزبير عن عائشة: بمثل ذلك؛ موافقة عروة لحديث عائشة في الحج."
+  ar: "يروي مالك عن ابن شهاب عن عروة بن الزبير عن عائشة بمثل ذلك. {cite:muwatta-maruf-1997 p.548}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1228 of kitab 06-hajj at PDF p. 548", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-54" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/qiran, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1228 at PDF p. 548; دخول الحائض مكة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 548; matn excerpt at most 40 words" }

@@ -3,11 +3,23 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1227"
-label: { ar: "الموطأ 1227", en: "Muwatta 1227" }
+label: { ar: "الموطأ 1227 — عائشة: أهللنا بعمرة في حجة الوداع، فقال من كان معه هدي أن يهل بالحج مع العمرة، فلما حاضت أمرها أن تدع العمرة وتهل بالحج", en: "Muwatta 1227" }
+text: "من كانَ معَهُ هَذْيٌ فَلْيُهْلِلْ بِالحَجِّ مع العُمْرَةِ، ثم لا يَحِلُّ حتَّى يَحِلَّ مِنْهُما جَميعًا"
 summary:
-  ar: "عبد الرحمن بن القاسم عن أبيه عن عائشة أم المؤمنين: أنها قالت... ؛ حديث في الحج أو الحيض؛ تفاصيل المتن غير واضحة."
+  ar: "تروي عمرة بنت عبد الرحمن عن عائشة أنها قالت خرجنا مع رسول الله عام حجة الوداع، فأهللنا بعمرة، فقال من كان معه هدي فليهل بالحج مع العمرة، ثم لا يحل حتى يحل منهما جميعا. ثم قدمت مكة وهي حائض، فلم تطف بالبيت ولا بين الصفا والمروة، فأمرها النبي أن تنقض رأسها وتمتشط وتهل بالحج وتدع العمرة. فلما قضوا الحج أرسلها مع عبد الرحمن بن أبي بكر إلى التنعيم فاعتمرت، فقال هذه مكان عمرتك. ويذكر المحقق أن ابن عبد البر رأى إسناد عبد الرحمن بن القاسم عند يحيى خطأ لانفراده به. {cite:muwatta-maruf-1997 p.547}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1227 of kitab 06-hajj at PDF p. 547", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-54" }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/tanim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihlal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/qiran, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sai, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1227 at PDF p. 547; دخول الحائض مكة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 547; matn excerpt at most 40 words" }

@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1213"
-label: { ar: "الموطأ 1213", en: "Muwatta 1213" }
+label: { ar: "الموطأ 1213 — مالك: حصى الجمار مثل حصى الخذف، وأكبر منه قليلا أعجب إليه", en: "Muwatta 1213" }
 summary:
-  ar: "مالك: سمع بعض أهل العلم يقول: الحصى التي يُرمى بها الجمار مثل حصى الخذف؛ وصف حصى الرمي."
+  ar: "يروي مالك أنه سمع بعض أهل العلم يقول إن الحصى التي يرمى بها الجمار مثل حصى الخذف، فقال مالك إن أكبر من ذلك قليلا أعجب إليه. ويذكر المحقق أن رمي الجمار بمثل حصى الخذف روي مرفوعا من حديث جابر في صحيح مسلم. {cite:muwatta-maruf-1997 p.543}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1213 of kitab 06-hajj at PDF p. 543", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-54" }
+  - { type: basis_for, target: practice/ramy-al-jamarat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1213 at PDF p. 543; رمي الجمار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 543; matn excerpt at most 40 words" }

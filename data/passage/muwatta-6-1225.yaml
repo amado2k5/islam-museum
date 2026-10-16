@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1225"
-label: { ar: "الموطأ 1225", en: "Muwatta 1225" }
+label: { ar: "الموطأ 1225 — عمر بن الخطاب: من رمى الجمرة فقد حل له ما حرم على الحاج إلا النساء والطيب حتى يطوف بالبيت", en: "Muwatta 1225" }
 summary:
-  ar: "نافع وعبد الله بن دينار عن ابن عمر: أن عمر بن الخطاب خطب... ؛ خطبة عمر في أيام منى؛ تفاصيل الخطبة غير واضحة."
+  ar: "يروي مالك عن نافع وعبد الله بن دينار عن عبد الله بن عمر أن عمر بن الخطاب خطب الناس بعرفة وعلمهم أمر الحج، وقال فيما قال إذا جئتم منى فمن رمى الجمرة فقد حل له ما حرم على الحاج، إلا النساء والطيب، حتى يطوف بالبيت. {cite:muwatta-maruf-1997 p.547}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1225 of kitab 06-hajj at PDF p. 547", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-54" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/arafat, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ramy-al-jamarat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1225 at PDF p. 547; الإفاضة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b14" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الخطبة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 547; matn excerpt at most 40 words" }
