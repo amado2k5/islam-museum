@@ -40,3 +40,27 @@ Documentaries: islam-empire-of-faith-2000, inside-mecca-2003, journey-to-mecca-2
 Muslim-life film/series: little-mosque-2007, ramy-2019, mo-2022, we-are-lady-parts-2021, citizen-khan-2012, man-like-mobeen-2017, ms-marvel-2022, the-big-sick-2017, my-name-is-khan-2010, timbuktu-2014, ceddo-1977 (Q5057031/tt0077309), khuda-kay-liye-2007, sang-pencerah-2010, para-pencari-tuhan-2007, 99-cahaya-2013 (Q15277609/tt6096424), nussa-2019, bilal-new-breed-2015, le-grand-voyage-2004, wadjda-2012, mat-kilau-2022, ali-2001 (imdb tt0248667 — needs QID), malcolm-x-1992, four-lions-2010, a-prophet-2009, battle-of-algiers-1966, incendies-2010, where-do-we-go-now-2011, free-men-2011, the-insult-2017, the-13th-warrior-1999, garm-hava-1973, alif-2019, shehr-e-zaat-2012, khuda-aur-muhabbat-2011, zindagi-tamasha-2019, wa-islamah-1961, kingdom-of-solomon-2010, the-99-2011, paradise-now-2005, stoning-of-soraya-m-2009, osama-2003, a-separation-2011, persepolis-2007, taste-of-cherry-1997, brick-lane-2007, hur-adam-2011, times-and-winds-2006, the-unknown-saint-2019, barakah-meets-barakah-2016, the-perfect-candidate-2019, the-reluctant-fundamentalist-2012, damascus-time-2018, ketika-cinta-bertasbih-2009, raqs-e-bismil-2020, joyland-2022, tukang-bubur-naik-haji-2012 (Q7851815).
 Polemical (neutral index entries, `sensitivity: polemical`, no watch links): fitna-2008, innocence-of-muslims-2012, submission-2004, obsession-2005.
 Unresolved candidates (need arwiki/fawiki/idwiki resolution or manual): koran-by-heart, sultan-and-the-saint-2016, cities-of-light-2007, ayat-ayat-cinta-2008, an-islamic-history-of-europe-2005, science-and-islam-2009, ornament-of-the-world-2019, not-without-my-daughter-1991, sang-kyai-2013, lorong-waktu, hidayah, fajr-al-islam, al-zahir-baybars-2005, saqr-quraish-2002, rabee-qurtuba-2003, muluk-al-tawaif-2005, al-taghriba-al-filistiniyya-2004, al-shaimaa-1972, al-qadisiyya-1981, nikaah-1982, al-hassan-wal-hussain-2011, qamar-bani-hashim-2008, salman-al-farisi-2023, khawatir-2005, the-deen-show, zaky.
+
+## Culture lane (2026-10-16, same session family)
+
+The "anything cultural about Islam" sweep landed on `main` in four commits
+(`e136afff`…`53e2bb34`): 26 fiction works (`data/work/`), 14 musicians +
+5 bands (`data/person/`, `data/group/`), 15 monuments + 9 bazaars
+(`data/building/`), 9 art objects (`data/object/`), 8 gatherings
+(`data/event/`), 4 festival practices (`data/practice/`), 2 street
+markets (`data/place/`), 2 iconic cafés (`data/listing/`), plus
+`data/_stubs.d/culture-index.yaml` (21 author stubs).
+
+- Resolution path: enwiki REST pageprops → wikibase_item (Wikidata API
+  was 429-throttled; REST worked). QIDs keyed in
+  `/tmp/screenindex/culture_resolved.json` during the run.
+- Fiction authors are stubs — promote to full `person/` records when a
+  lane picks them up.
+- Two dedupe notes: `nussa-2019`/`salah-al-din-animated` etc. already
+  existed; `dawud-wharnsby` kept its filename (no real collision — the
+  other `dawud-*` people are distinct).
+- Still open: more musicians (Maher Zain collaborators, Malaysian
+  nasyid groups), more bazaars (Kashan, Grand Bazaar Tehran, Souk
+  el-Attarine Tunis), folk festivals (Moussem of Tan-Tan, Mevlana
+  week beyond Şeb-i Arus), and Islamic-art object records are a huge
+  open field — the nine minted are the canonical headliners only.
