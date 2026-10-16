@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1299"
-label: { ar: "الموطأ 1299", en: "Muwatta 1299" }
+label: { ar: "الموطأ 1299 — ابن عمر: بعث النبي سرية فيها عبد الله بن عمر قبل نجد، فغنموا إبلا، فكان سهمانهم اثني عشر بعيرا ونفلوا بعيرا بعيرا", en: "Muwatta 1299" }
+text: "ونُفِّلوا بَعِيرًا بَعِيرًا"
 summary:
-  ar: "نافع عن ابن عمر: أن رسول الله ﷺ بعث سرية فيها عبد الله بن عمر... ؛ حديث في السرية والغنيمة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن رسول الله بعث سرية فيها عبد الله بن عمر قبل نجد، فغنموا إبلا كثيرة، فكان سهمانهم اثني عشر بعيرا، أو أحد عشر بعيرا، ونفلوا بعيرا بعيرا. ويذكر المحقق أن يحيى شك بين العددين، وأن ابن عبد البر رأى أن الصواب اثنا عشر بغير شك، وأن مالكا تفرد بالشك. {cite:muwatta-maruf-1997 p.580}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1299 of kitab 07-jihad at PDF p. 580", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-57" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/najd, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1299 at PDF p. 580; جامع النفل في الغزو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 580; matn excerpt at most 40 words" }

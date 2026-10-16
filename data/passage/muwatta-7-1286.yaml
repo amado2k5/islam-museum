@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1286"
-label: { ar: "الموطأ 1286", en: "Muwatta 1286" }
+label: { ar: "الموطأ 1286 — عطاء بن يسار: خير الناس منزلا رجل آخذ بعنان فرسه يجاهد في سبيل الله، ثم رجل معتزل في غنيمة يقيم الصلاة", en: "Muwatta 1286" }
+text: "رَجُلٌ آخِذٌ بِعنانِ فرسهِ، يُجَاهدُ في سَبيلِ اللهِ"
 summary:
-  ar: "عبد الله بن عبد الرحمن بن معمر الأنصاري عن عطاء بن يسار: أنه قال... ؛ حديث في الجهاد؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن عبد الله بن عبد الرحمن بن معمر الأنصاري عن عطاء بن يسار أن رسول الله قال ألا أخبركم بخير الناس منزلا؟ رجل آخذ بعنان فرسه يجاهد في سبيل الله، ثم بخير الناس منزلا بعده، رجل معتزل في غنيمة، يقيم الصلاة، ويؤتي الزكاة، ويعبد الله لا يشرك به شيئا. ويذكر المحقق أن ابن عبد البر قال إنه مرسل من رواية مالك، وأنه يتصل من وجوه ثابتة عن النبي، ويروى موصولا من حديث ابن عباس. {cite:muwatta-maruf-1997 p.573}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1286 of kitab 07-jihad at PDF p. 573", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-57" }
+  - { type: mentions, target: person/abd-allah-ibn-abd-al-rahman-ibn-maamar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1286 at PDF p. 573; الترغيب في الجهاد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 573; matn excerpt at most 40 words" }

@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1301"
-label: { ar: "الموطأ 1301", en: "Muwatta 1301" }
+label: { ar: "الموطأ 1301 — مالك في الأجير في الغزو: إن شهد القتال وكان حرا فله سهمه، وإلا فلا سهم له", en: "Muwatta 1301" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول في الأجير في الغزو: إنه إن كان شهد القتال وكان... ؛ حكم أجر الأجير في الغزو؛ الحكم يحتاج مراجعة."
+  ar: "يذكر يحيى أن مالكا قال في الأجير في الغزو إن كان شهد القتال، وكان مع الناس عند القتال، وكان حرا، فله سهمه، وإن لم يفعل فلا سهم له. ويرى مالك أن لا يقسم إلا لمن شهد القتال من الأحرار. {cite:muwatta-maruf-1997 p.581}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1301 of kitab 07-jihad at PDF p. 581", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-57" }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1301 at PDF p. 581; جامع النفل في الغزو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b19" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 581; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1293"
-label: { ar: "الموطأ 1293", en: "Muwatta 1293" }
+label: { ar: "الموطأ 1293 — عمر بن عبد العزيز إلى عامله: كان النبي إذا بعث سرية يقول لهم اغزوا باسم الله، لا تغلوا، ولا تغدروا، ولا تمثلوا، ولا تقتلوا وليدا", en: "Muwatta 1293" }
+text: "لَا نَغُلُوا، وَلَا تَغْدِرُوا، وَلَاَ تُمَثَّلُوا، وَلَا تَقْتُلُوا وَلِيدًا"
 summary:
-  ar: "مالك: بلغه أن عمر بن عبد العزيز كتب... ؛ كتاب في الجهاد؛ تفاصيل الكتاب غير واضحة."
+  ar: "يروي مالك أنه بلغه أن عمر بن عبد العزيز كتب إلى عامل من عماله أن رسول الله كان إذا بعث سرية يقول لهم اغزوا باسم الله في سبيل الله، تقاتلون من كفر بالله، لا تغلوا، ولا تغدروا، ولا تمثلوا، ولا تقتلوا وليدا، وأمره أن يقول ذلك لجيوشه وسراياه. {cite:muwatta-maruf-1997 p.577}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1293 of kitab 07-jihad at PDF p. 577", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-57" }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1293 at PDF p. 577; النهي عن قتل النساء والولدان في الغزو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الكتاب غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 577; matn excerpt at most 40 words" }

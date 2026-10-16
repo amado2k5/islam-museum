@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1291"
-label: { ar: "الموطأ 1291", en: "Muwatta 1291" }
+label: { ar: "الموطأ 1291 — نافع: رأى النبي في بعض مغازيه امرأة مقتولة، فأنكر ذلك ونهى عن قتل النساء والصبيان", en: "Muwatta 1291" }
 summary:
-  ar: "نافع: أن رسول الله ﷺ رأى... ؛ حديث في الجهاد أو الغزو؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن نافع أن رسول الله رأى في بعض مغازيه امرأة مقتولة، فأنكر ذلك، ونهى عن قتل النساء والصبيان. ويذكر المحقق أن أكثر رواة الموطأ رووه مرسلا عن نافع، وأن أبا مصعب أسنده عن ابن عمر. {cite:muwatta-maruf-1997 p.576}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1291 of kitab 07-jihad at PDF p. 576", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-57" }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1291 at PDF p. 576; النهي عن قتل النساء والولدان في الغزو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 576; matn excerpt at most 40 words" }

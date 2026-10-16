@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1298"
-label: { ar: "الموطأ 1298", en: "Muwatta 1298" }
+label: { ar: "الموطأ 1298 — مالك: من أوجب على نفسه الغزو فمنعه أبواه لا يكابرهما، ويؤخر الجهاز إلى عام آخر، ويبيعه إن خشي فساده", en: "Muwatta 1298" }
 summary:
-  ar: "سُئل مالك عن رجل أوجب على نفسه الغزو فتجهز، حتى إذا أراد أن يخرج منعه أبوه... ؛ حكم الغزو مع منع الوالدين؛ الحكم يحتاج مراجعة."
+  ar: "سئل مالك عن رجل أوجب على نفسه الغزو فتجهز، حتى إذا أراد أن يخرج منعه أبواه أو أحدهما، فقال لا أرى أن يكابرهما، ولكن يؤخر ذلك إلى عام آخر. أما الجهاز فيرى أن يرفعه حتى يخرج به، فإن خشي أن يفسد باعه وأمسك ثمنه حتى يشتري به ما يصلحه للغزو، فإن كان موسرا يجد مثل جهازه إذا خرج فليصنع بجهازه ما شاء. {cite:muwatta-maruf-1997 p.579}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1298 of kitab 07-jihad at PDF p. 579", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-57" }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1298 at PDF p. 579; العمل فيمن أعطى شيئا في سبيل الله", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 579; matn excerpt at most 40 words" }

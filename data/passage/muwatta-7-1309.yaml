@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1309"
-label: { ar: "الموطأ 1309", en: "Muwatta 1309" }
+label: { ar: "الموطأ 1309 — مالك في أم ولد رجل حازها المشركون ثم غنمها المسلمون وقسمت: لا تسترق، ويفتديها الإمام أو سيدها", en: "Muwatta 1309" }
 summary:
-  ar: "مالك في أم ولد رجل من المسلمين حازها المشركون ثم غنمها المسلمون، فقس... ؛ حكم أم الولد المأسورة؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك في أم ولد رجل من المسلمين، حازها المشركون، ثم غنمها المسلمون، فقسمت في المقاسم، ثم عرفها سيدها بعد القسم، إنها لا تسترق، ويرى أن يفتديها الإمام لسيدها، فإن لم يفعل فعلى سيدها أن يفتديها ولا يدعها. ولا يرى لمن صارت له أن يسترقها ويستحل فرجها، وإنما هي بمنزلة الحرة. {cite:muwatta-maruf-1997 p.584}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1309 of kitab 07-jihad at PDF p. 584", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-58" }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1309 at PDF p. 584; ما يرد قبل أن يقع القسم مما أصاب العدو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b19" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 584; matn excerpt at most 40 words" }

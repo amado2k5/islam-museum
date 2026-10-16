@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1302"
-label: { ar: "الموطأ 1302", en: "Muwatta 1302" }
+label: { ar: "الموطأ 1302 — مالك فيمن وجد من العدو على ساحل بلاد المسلمين يزعم أنه تاجر، فالأمر للإمام يرى فيهم رأيه", en: "Muwatta 1302" }
 summary:
-  ar: "مالك فيمن وُجد من العدو على ساحل البحر بأرض المسلمين، فزعموا أنهم تجار... ؛ حكم الأسير الوافد؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك فيمن وجد من العدو على ساحل البحر بأرض المسلمين، فزعموا أنهم تجار وأن البحر لفظهم، إن المسلمين لا يعرفون صدق ذلك إلا أن مراكبهم تكسرت أو عطشوا فنزلوا بغير إذن المسلمين. يرى مالك أن ذلك للإمام، يرى فيهم رأيه، ولا يرى لمن أخذهم فيهم خمسا. {cite:muwatta-maruf-1997 p.581}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1302 of kitab 07-jihad at PDF p. 581", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-57" }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1302 at PDF p. 581; ما لا يجب فيه الخمس", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b19" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 581; matn excerpt at most 40 words" }

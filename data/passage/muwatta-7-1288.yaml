@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1288"
-label: { ar: "الموطأ 1288", en: "Muwatta 1288" }
+label: { ar: "الموطأ 1288 — زيد بن أسلم: كتب أبو عبيدة إلى عمر يذكر جموع الروم، فكتب إليه عمر أن العسر لن يغلب يسرين", en: "Muwatta 1288" }
+text: "إنَّهُ لَنْ يَغْلبَ عُسْرٌ يُسْرَيْنِ"
 summary:
-  ar: "زيد بن أسلم: كتب أبو عبيدة بن الجراح إلى عمر بن الخطاب... ؛ كتاب في الجهاد؛ تفاصيل الكتاب غير واضحة."
+  ar: "يروي مالك عن زيد بن أسلم أن أبا عبيدة بن الجراح كتب إلى عمر بن الخطاب يذكر له جموعا من الروم وما يتخوف منهم، فكتب إليه عمر أنه مهما ينزل بعبد مؤمن من منزل شدة يجعل الله بعدها فرجا، وأنه لن يغلب عسر يسرين، واستشهد بآية في سورة آل عمران على الصبر والمصابرة والرباط والتقوى. {cite:muwatta-maruf-1997 p.574}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1288 of kitab 07-jihad at PDF p. 574", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-57" }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-ubaydah-ibn-al-jarrah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1288 at PDF p. 574; الترغيب في الجهاد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الكتاب غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 574; matn excerpt at most 40 words" }

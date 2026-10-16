@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1311"
-label: { ar: "الموطأ 1311", en: "Muwatta 1311" }
+label: { ar: "الموطأ 1311 — أبو قتادة في حنين: من قتل قتيلا له عليه بينة فله سلبه، وقول أبي بكر في أسد من أسد الله", en: "Muwatta 1311" }
+text: "مَن قَتَلَ قَتِيلًا، لَهُ عَلَيْهِ بَيِّنةٌ، فَلهُ سَلَبهُ"
 summary:
-  ar: "يحيى بن سعيد عن عمرو بن كثير بن أفلح عن أبي محمد مولى أبي قتادة: حديث في الغنيمة أو السلب؛ تفاصيل المتن غير واضحة."
+  ar: "يروي يحيى بن يحيى عن مالك عن يحيى بن سعيد عن عمر بن كثير بن أفلح عن أبي محمد مولى أبي قتادة عن أبي قتادة بن ربعي أنه قال خرجنا مع رسول الله عام حنين، فلما التقينا كانت للمسلمين جولة، فرأى رجلا من المشركين قد علا رجلا من المسلمين، فضربه من ورائه على حبل عاتقه، فأقبل عليه فضمه، ثم أرسله. فقال عمر ما بال الناس، فقال أمر الله. ثم قال رسول الله من قتل قتيلا له عليه بينة فله سلبه، ثلاث مرات، حتى قال له رجل صدق يا رسول الله، وسلب ذلك القتيل عندي، فقال أبو بكر لا ها الله إذا لا يعمد إلى أسد من أسد الله يقاتل عن الله ورسوله فيعطيك سلبه، فقال رسول الله صدق فأعطه إياه، فبعت الدرع فاشتريت به مخرفا في بني سلمة، وهو أول مال تأثلته في الإسلام. ويذكر المحقق أن الصواب فيه عمر بن كثير بن أفلح عند أكثر الرواة. {cite:muwatta-maruf-1997 p.585}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1311 of kitab 07-jihad at PDF p. 585", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-58" }
+  - { type: mentions, target: person/abu-qatada-ibn-rib-i, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/hunayn, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1311 at PDF p. 585; ما جاء في السلب في النفل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b19" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 585; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1287"
-label: { ar: "الموطأ 1287", en: "Muwatta 1287" }
+label: { ar: "الموطأ 1287 — عبادة بن الوليد عن أبيه عن جده: بايعنا رسول الله على السمع والطاعة في العسر واليسر وأن نقول بالحق حيثما كنا", en: "Muwatta 1287" }
+text: "بَايَعْنا رَسولَ اللهِ على السَّمْعِ وَالطّاعةِ، في الْيُسْرِ وَالْعُسْرِ، وَالْمَنْشطِ وَالْمَكْرهِ"
 summary:
-  ar: "يحيى بن سعيد: أخبره عبادة بن الوليد بن عبادة بن الصامت عن... ؛ حديث في الجهاد أو الشهادة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد أنه أخبره عبادة بن الوليد بن عبادة بن الصامت عن أبيه عن جده أنهم بايعوا رسول الله على السمع والطاعة، في اليسر والعسر، والمنشط والمكره، وأن لا ينازعوا الأمر أهله، وأن يقولوا أو يقوموا بالحق حيثما كانوا. ويذكر المحقق أن ابن عبد البر رأى هذا الإسناد هو الصحيح عند جمهور رواة الموطأ، وأن القعنبي رواه عن عبادة بن الصامت دون ذكر الأب. {cite:muwatta-maruf-1997 p.573}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1287 of kitab 07-jihad at PDF p. 573", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-57" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubada-ibn-al-walid-ibn-ubada, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubada-ibn-al-samit, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1287 at PDF p. 573; الترغيب في الجهاد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b18" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 573; matn excerpt at most 40 words" }

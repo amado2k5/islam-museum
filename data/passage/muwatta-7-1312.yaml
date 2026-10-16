@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1312"
-label: { ar: "الموطأ 1312", en: "Muwatta 1312" }
+label: { ar: "الموطأ 1312 — القاسم بن محمد: سأل رجل ابن عباس عن الأنفال، فقال الفرس من النفل والسلب من النفل، ثم ضربه عمر لشبهه بصبيغ", en: "Muwatta 1312" }
 summary:
-  ar: "ابن شهاب عن القاسم بن محمد: حديث في النفل والسلب؛ قول ابن عباس: الفرس من النفل والسلب من النفل؛ تفاصيل المتن ناقصة."
+  ar: "يروي مالك عن ابن شهاب عن القاسم بن محمد أنه سمع رجلا يسأل عبد الله بن عباس عن الأنفال، فقال ابن عباس الفرس من النفل، والسلب من النفل. ثم عاد الرجل يسأل، حتى كاد أن يحرجه، فقال ابن عباس أتدرون ما مثل هذا؟ مثل صبيغ الذي ضربه عمر بن الخطاب. ويذكر المحقق أن صبيغ بن عسل قدم المدينة يسأل عن متشابه القرآن، فضربه عمر لأجل ذلك. {cite:muwatta-maruf-1997 p.586}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1312 of kitab 07-jihad at PDF p. 586", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-58" }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/subay-ibn-asal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1312 at PDF p. 586; ما جاء في السلب في النفل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b19" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن ناقصة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 586; matn excerpt at most 40 words" }
