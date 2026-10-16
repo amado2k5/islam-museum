@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2717"
-label: { ar: "الموطأ 2717", en: "Muwatta 2717" }
+label: { ar: "الموطأ 2717 — عمرة بنت عبد الرحمن: أبو بكر يأمر اليهودية أن ترقي عائشة بكتاب الله", en: "Muwatta 2717" }
 summary:
-  ar: "عائشة وهي تشتكي دخل عليها أبو بكر وعندها يهودية ترقيها، فأمر أبو بكر أن تُرقى بكتاب الله."
+  ar: "يروي مالك عن يحيى بن سعيد عن عمرة بنت عبد الرحمن أن أبا بكر الصديق دخل على عائشة وهي تشتكي، واليهودية ترقيها، فقال أبو بكر: ارقيها بكتاب الله. {cite:muwatta-maruf-1997 p.532}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2717 of kitab 31-jami at PDF p. 532", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b117" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ruqya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2717 at PDF p. 532; التعوذ والرقية في المرض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b102" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 532; matn excerpt at most 40 words" }

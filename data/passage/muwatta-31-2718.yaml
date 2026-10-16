@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2718"
-label: { ar: "الموطأ 2718", en: "Muwatta 2718" }
+label: { ar: "الموطأ 2718 — زيد بن أسلم: الرجل الذي احتقن جرحه الدم فسأل النبي أيكما أطب", en: "Muwatta 2718" }
 summary:
-  ar: "رجل جُرح فاحتقن الدم، فدعا رجلين من بني أنمار، فسألهما النبي أيهما أطب، فتحاورا في منفعة الطب."
+  ar: "يروي مالك عن زيد بن أسلم أن رجلا في زمان رسول الله أصابه جرح فاحتقن الجرح الدم، فدعا رجلين من بني أنمار فنظرا إليه، فزعما أن رسول الله قال لهما: أيكما أطب؟ فقالا: أوفي الطب خير يا رسول الله؟ فزعم زيد أن رسول الله قال: أنزل الدواء الذي أنزل الأدواء. ويذكر المحقق قول ابن عبد البر أن الحديث منقطع في رواية الجماعة، وأن عاصم بن عمر رواه عن سهيل بن أبي صالح عن أبي هريرة موصولا في شطره الأول. {cite:muwatta-maruf-1997 p.532}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2718 of kitab 31-jami at PDF p. 532", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b117" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tibb, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/asim-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/suhayl-ibn-abi-salih, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2718 at PDF p. 532; تعالج المريض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b102" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نهاية الخبر غير واضحة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 532; matn excerpt at most 40 words" }
