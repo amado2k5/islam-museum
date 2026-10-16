@@ -142,3 +142,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person s–z batch 13 (Claude Code, claude-haiku-5-5): thuml-al-qahramana … ubayd-allah-ibn-al-hasan-al-sanbari, 25 files, 25 files.
 - place a–l batch 7 (Haiku 5.5, draft): 25 files, al-rami → al-sibayn; 936 Arabic files in a–l at commit time.
 - place m–z batch 26: 25 files (ujj.md … wadi-al-mushaqqaq.md), draft
+- event a–m batch 8 (2026-10-16, claude-haiku-5-5): 25 pages, battle-of-ibn-abi-dulaf-near-hamadhan → battle-of-tawahin (EN drafts).
