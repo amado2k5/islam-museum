@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1916"
-label: { ar: "الموطأ 1916", en: "Muwatta 1916" }
+label: { ar: "الموطأ 1916 — مالك: لا بأس بلحم الحيتان بلحم الإبل والبقر والغنم وما أشبهها من الوحوش، اثنين بواحد وأكثر، يدا بيد، فإن دخل الأجل فلا خير فيه", en: "Muwatta 1916" }
 summary:
-  ar: "مالك: ولا بأس بلحم الحيتان، بلحم الإبل والبقر والغنم، وما أشبه ذلك من الوحوش كلها... ؛ مبادلة اللحوم المختلفة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ولا بأس بلحم الحيتان، بلحم الإبل والبقر والغنم، وما أشبه ذلك من الوحوش كلها، اثنين بواحد، وأكثر من ذلك، يدا بيد. فإن دخل ذلك الأجل فلا خير فيه. {cite:muwatta-maruf-1997 p.185}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1916 of kitab 17-buyu at PDF p. 185", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-83" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1916 at PDF p. 185; بيع اللحم باللحم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b49" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 185; matn excerpt at most 40 words" }

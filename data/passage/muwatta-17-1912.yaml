@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1912"
-label: { ar: "الموطأ 1912", en: "Muwatta 1912" }
+label: { ar: "الموطأ 1912 — يحيى عن مالك عن زيد بن أسلم عن سعيد بن المسيب: أن رسول الله نهى عن بيع الحيوان باللحم", en: "Muwatta 1912" }
 summary:
-  ar: "يحيى عن مالك عن زيد بن أسلم عن سعيد بن المسيب: أن رسول الله ﷺ نهى عن بيع... ؛ النهي عن بيع شيء من الحيوان؛ تفاصيل النهي غير واضحة."
+  ar: "يروي يحيى عن مالك عن زيد بن أسلم عن سعيد بن المسيب أن رسول الله نهى عن بيع الحيوان باللحم. {cite:muwatta-maruf-1997 p.183}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1912 of kitab 17-buyu at PDF p. 183", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-83" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1912 at PDF p. 183; بيع الحيوان باللحم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b49" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل النهي غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 183; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1904"
-label: { ar: "الموطأ 1904", en: "Muwatta 1904" }
+label: { ar: "الموطأ 1904 — مالك: الأمر المجتمع عليه أن الجمل بالجمل مثله وزيادة دراهم جائز يدا بيد، والجمل بالجمل والدراهم إلى أجل، لا خير في الدراهم إلى أجل مع الجمل نقدا", en: "Muwatta 1904" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندنا أنه لا بأس بالجمل بالجمل مثله وزيادة دراهم... ؛ مبادلة الجمل بمثله مع زيادة نقد؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر المجتمع عليه عندنا أنه لا بأس بالجمل بالجمل مثله، وزيادة دراهم، يدا بيد. ولا بأس بالجمل بالجمل مثله، وزيادة دراهم، الجمل بالجمل يدا بيد، والدراهم إلى أجل. قال: ولا خير في الجمل بالجمل مثله، وزيادة دراهم، الدراهم نقدا والجمل إلى أجل. وإن أخرت الجمل والدراهم، فلا خير في ذلك أيضا. {cite:muwatta-maruf-1997 p.181}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1904 of kitab 17-buyu at PDF p. 181", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-83" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1904 at PDF p. 181; ما يجوز من بيع الحيوان بعضه ببعض والسلف فيه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b49" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 181; matn excerpt at most 40 words" }

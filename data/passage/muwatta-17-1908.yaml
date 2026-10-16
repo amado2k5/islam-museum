@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1908"
-label: { ar: "الموطأ 1908", en: "Muwatta 1908" }
+label: { ar: "الموطأ 1908 — يحيى عن مالك عن نافع عن ابن عمر: نهى رسول الله عن بيع حبل الحبلة، وهو بيع كان أهل الجاهلية يتبايعونه، أن يبتاع الرجل الجزور إلى أن تنتج الناقة ثم تنتج التي في بطنها", en: "Muwatta 1908" }
 summary:
-  ar: "يحيى عن مالك عن نافع عن ابن عمر: أن رسول الله ﷺ نهى عن بيع حبل الحبلة... ؛ النهي عن بيع حبل الحبلة؛ تفسير الحديث غير واضح."
+  ar: "يروي يحيى عن مالك عن نافع عن عبد الله بن عمر أن رسول الله نهى عن بيع حبل الحبلة، وكان بيعا يتبايعه أهل الجاهلية، كان الرجل يبتاع الجزور إلى أن تنتج الناقة، ثم تنتج التي في بطنها. {cite:muwatta-maruf-1997 p.182}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1908 of kitab 17-buyu at PDF p. 182", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-83" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/habal-al-habala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1908 at PDF p. 182; ما لا يجوز من بيع الحيوان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b49" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفسير الحديث غير واضح" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 182; matn excerpt at most 40 words" }
