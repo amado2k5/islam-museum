@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2706"
-label: { ar: "الموطأ 2706", en: "Muwatta 2706" }
+label: { ar: "الموطأ 2706 — أبو بشير الأنصاري: النبي يأمر بقطع القلادة من وتر في رقبة البعير، ومالك يراه من العين", en: "Muwatta 2706" }
 summary:
-  ar: "أبو بشير الأنصاري يذكر أن النبي في بعض أسفاره أرسل رسولاً يأمر بإزالة ما في أعناق الإبل من قلائد."
+  ar: "يروي مالك عن عبد الله بن أبي بكر عن عباد بن تميم أن أبا بشير الأنصاري أخبره أنه كان مع رسول الله في بعض أسفاره، فأرسل رسولا: لا تبقين في رقبة بعير قلادة من وتر أو قلادة إلا قُطعت. قال يحيى: سمعت مالكا يقول: أرى ذلك من العين. {cite:muwatta-maruf-1997 p.526}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2706 of kitab 31-jami at PDF p. 526", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b116" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ayn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-bashir-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abbad-ibn-tamim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2706 at PDF p. 526; ما جاء في نزع المعاليق والجرس من العنق", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b101" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نص الأمر غير واضح في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 526; matn excerpt at most 40 words" }
