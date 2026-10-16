@@ -33,3 +33,5 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - work batch 1 (25 files, aban-ibn-said-verses-to-khalid-and-amr … al-amthal-al-saira): done by Claude Haiku 5.5, draft
 - person d–h batch 2 (Claude Haiku 5.5): 25 pages, dirar-ibn-damra → fakhr-al-razi… farqad-al-sanji (commit 8b8a1d07)
 - work batch 2 (25 files, al-ansab-samani … al-kamil-fi-al-tarikh): done by Claude Haiku 5.5, draft
+- concept batch 1 (Claude Haiku 5.5): 25 pages, abjad-kings-etymology → al-ilm-fi-l-andalus (commit 9c937da4)
+- concept batch 2 (Claude Haiku 5.5): 25 pages, amir-al-umara → bayyina
