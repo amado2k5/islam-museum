@@ -75,3 +75,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 11: 25 files (qantarat-qurra.md … qasr-al-nawashiq.md), draft
 - person i–m batch 7 (25 files, ibn-khalil-al-dimashqi-abu-al-hajjaj-yusuf … ibn-qayyim-al-jawziyya) — Claude Haiku 5.5, draft
 - work batch 8 (25 files, masalik-al-absar … sharh-aqida-tahawiyya): done by Claude Haiku 5.5, draft
+- group batch 3 (25 files, banu-musa … christians-of-najran): done by Claude Haiku 5.5, draft
