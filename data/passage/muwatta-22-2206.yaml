@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2206"
-label: { ar: "الموطأ 2206", en: "Muwatta 2206" }
+label: { ar: "الموطأ 2206 — مالك عن نافع: أن رجلا وجد لقطة، فجاء إلى عبد الله بن عمر فسأله، فقال له عبد الله: عرفها. قال: قد فعلت. قال: زد. قال: قد فعلت. فقال عبد الله: لا آمرك أن تأكلها، ولو شئت لم تأخذها", en: "Muwatta 2206" }
 summary:
-  ar: "مالك عن نافع: أن رجلًا وجد لقطة فجاء إلى عبد الله بن عمر فقال: إني وجدت... ؛ مسألة اللقطة؛ الجواب يحتاج مراجعة."
+  ar: "يروي مالك عن نافع أن رجلا وجد لقطة، فجاء إلى عبد الله بن عمر فقال: إني وجدت لقطة، فماذا ترى فيها؟ فقال له عبد الله: عرفها. قال: قد فعلت. قال: زد. قال: قد فعلت. فقال عبد الله: لا آمرك أن تأكلها، ولو شئت لم تأخذها. {cite:muwatta-maruf-1997 p.304}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2206 of kitab 22-aqdiya at PDF p. 304", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-95" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/luqata, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2206 at PDF p. 304; القضاء في اللقطة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b65" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 304; matn excerpt at most 40 words" }
