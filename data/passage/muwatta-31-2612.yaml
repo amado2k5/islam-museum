@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2612"
-label: { ar: "الموطأ 2612", en: "Muwatta 2612" }
+label: { ar: "الموطأ 2612 — أسامة بن زيد: الطاعون رجز أُرسل على طائفة من بني إسرائيل", en: "Muwatta 2612" }
 summary:
-  ar: "سعد بن أبي وقاص يسأل أسامة بن زيد عما سمعه من النبي في الطاعون، فيُخبره أسامة بالحديث."
+  ar: "يروي مالك عن محمد بن المنكدر وعن سالم أبي النضر مولى عمر بن عبيد الله عن عامر بن سعد بن أبي وقاص عن أبيه أنه سمعه يسأل أسامة بن زيد: ما سمعت من رسول الله في الطاعون؟ فقال أسامة: قال رسول الله: الطاعون رجز أُرسل على طائفة من بني إسرائيل، أو على من كان قبلكم، فإذا سمعتم به بأرض فلا تدخلوا عليه، وإذا وقع بأرض وأنتم بها فلا تخرجوا فرارا منه. قال مالك: قال أبو النضر: لا يخرجكم إلا فرارا منه. ويذكر المحقق ما قاله القاضي عياض وابن عبد البر في ضبط «فرارا» رفعا ونصبا. {cite:muwatta-maruf-1997 p.475} {cite:muwatta-maruf-1997 p.476}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2612 of kitab 31-jami at PDF p. 475", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b112" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/taun, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-al-munkadir, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/salim-abu-al-nadr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amir-ibn-said-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/usama-ibn-zayd, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2612 at PDF p. 475; ما جاء في الطاعون", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b92" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 475; matn excerpt at most 40 words" }
