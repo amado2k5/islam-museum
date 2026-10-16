@@ -1,0 +1,22 @@
+id: passage/muwatta-6-1281
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "6.1281"
+label: { ar: "الموطأ 1281 — عائشة: الصيام لمن تمتع بالعمرة إلى الحج لمن لم يجد هديا، ما بين الإهلال بالحج إلى يوم عرفة", en: "Muwatta 1281" }
+text: "الصِّيامُ لمَن تَمَتَّعَ بالعُمرَةِ إلى الحَجِّ لمَن لَمْ يَجِدْ هَدْيًا، ما بَينَ أن يُهِلَّ بالحَجِّ إلى يَومِ عَرَفَةَ"
+summary:
+  ar: "يروي مالك عن ابن شهاب عن عروة بن الزبير عن عائشة أم المؤمنين أنها كانت تقول إن الصيام لمن تمتع بالعمرة إلى الحج، لمن لم يجد هديا، ما بين أن يهل بالحج إلى يوم عرفة. فإن لم يصم صام أيام منى. {cite:muwatta-maruf-1997 p.569}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-06-hajj }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1281 at PDF p. 569; صيام المتمتع", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b17" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 569; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1276"
-label: { ar: "الموطأ 1276", en: "Muwatta 1276" }
+label: { ar: "الموطأ 1276 — ابن عباس: ما بين الركن والباب هو الملتزم", en: "Muwatta 1276" }
+text: "ما بَينَ الرُّكْنِ والبابِ، المُلْتَزَمُ"
 summary:
-  ar: "مالك: بلغه أن عبد الله بن عباس كان... ؛ أثر في الشجر أو الحرم؛ تفاصيل الأثر غير واضحة."
+  ar: "بلغ مالكا أن عبد الله بن عباس كان يقول إن ما بين الركن والباب هو المُلتزم. {cite:muwatta-maruf-1997 p.567}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1276 of kitab 06-hajj at PDF p. 567", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-56" }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1276 at PDF p. 567; جامع الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b17" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 567; matn excerpt at most 40 words" }
