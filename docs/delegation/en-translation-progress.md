@@ -61,3 +61,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - concept batch 4 (Claude Haiku 5.5): 25 pages, fay → husn-al-islam
 - person d–h batch 7 (Claude Haiku 5.5): 25 pages, hasan-ibn-umran-al-batih → hisham-i-andalusi (commit f0e275d7)
 - place m–z batch 8: 25 files (naroa.md … nuba.md), draft
+- work batch 6 (25 files, ihya-ulum-al-din … kitab-al-ayn): done by Claude Haiku 5.5, draft
