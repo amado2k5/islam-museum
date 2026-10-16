@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2395"
-label: { ar: "الموطأ 2395", en: "Muwatta 2395" }
+label: { ar: "الموطأ 2395 — أبو الزناد: عمر بن عبد العزيز يجلد عبدا في فرية ثمانين", en: "Muwatta 2395" }
 summary:
-  ar: "مالك عن أبي الزناد: أن عمر بن عبد العزيز جلد عبدًا في فرية ثمانين... ؛ حد القذف على العبد؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن أبي الزناد أن عمر بن عبد العزيز جلد عبدا في فرية ثمانين. قال أبو الزناد: سألت عبد الله بن عامر بن ربيعة عن ذلك، فقال: أدركت عمر بن الخطاب وعثمان والخلفاء بعدهما، فما رأيت أحدا جلد عبدا في فرية أكثر من أربعين. {cite:muwatta-maruf-1997 p.390} {cite:muwatta-maruf-1997 p.391}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-27-hudud }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2395 of kitab 27-hudud at PDF p. 390", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k27-batch-103" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-amir-ibn-rabia, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qadhf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2395 at PDF p. 390; الحد في القذف والنفي والتعريض", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b78" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 390; matn excerpt at most 40 words" }
