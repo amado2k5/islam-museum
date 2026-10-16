@@ -27,8 +27,8 @@
 - Kitab 19 done: المساقاة (hadith 2049–2072, vol. 2 PDF pp. 239–247; 2 babs; 24 records; chapter record and page written).
 - Kitab 20 done: كراء الأرض (hadith 2073–2078, vol. 2 PDF pp. 249–250; 1 bab; 6 records; chapter record and page written).
 - Kitab 21 done: الشفعة (hadith 2079–2102, vol. 2 PDF pp. 251–258; 2 babs; 24 records; chapter record and page written).
-- Kitab 22 in progress: الأقضية (hadith 2103 onward, vol. 2 PDF p. 259). Records 2103–2157 done (babs 1–21 so far).
-- Record reached: 2157. Next: kitab 22 from hadith 2158 (vol. 2, PDF p. 283, bab 21 continues onto p. 284).
+- Kitab 22 in progress: الأقضية (hadith 2103 onward, vol. 2 PDF p. 259). Records 2103–2172 done (babs 1–26 so far).
+- Record reached: 2172. Next: kitab 22 from hadith 2173 (vol. 2, PDF p. 290, bab 26 continues onto p. 291).
 - REVIEW flags remaining: none in kitab 1–6; kitab 7–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
@@ -41,7 +41,7 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 22 (الأقضية) from hadith 2158 (vol. 2, PDF p. 283), then kitab 23 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
+Kitab 22 (الأقضية) from hadith 2173 (vol. 2, PDF p. 290), then kitab 23 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.
