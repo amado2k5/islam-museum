@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2570"
-label: { ar: "الموطأ 2570", en: "Muwatta 2570" }
+label: { ar: "الموطأ 2570 — مالك: الرجل يعمد إلى امرأته فيفقأ عينها أو يكسر يدها يُقاد منه", en: "Muwatta 2570" }
 summary:
-  ar: "إذا تعمد الرجل إلى امرأته ففقأ عينها أو كسر يدها أو قطع إصبعها، فإنها تُقاد منه؛ وأما ضربها بالحبل أو بالسوط فمسألة أخرى في الحكم."
+  ar: "قال مالك: وإذا عمد الرجل إلى امرأته ففقأ عينها، أو كسر يدها، أو قطع إصبعها، أو أشباه ذلك، متعمدا لذلك: فإنها تُقاد منه. وأما الرجل يضرب امرأته بالحبل أو بالسوط فيصيبها من ضربه ما لم يرد ولم يتعمد، فإنه يعقل ما أصاب منها على هذا الوجه، ولا يُقاد منه. {cite:muwatta-maruf-1997 p.448} {cite:muwatta-maruf-1997 p.449}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2570 of kitab 29-uqul at PDF p. 448", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b110" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qawad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2570 at PDF p. 448; القصاص في الجراح", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b87" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الفرع الأخير غير واضح في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 448; matn excerpt at most 40 words" }

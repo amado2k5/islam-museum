@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2567"
-label: { ar: "الموطأ 2567", en: "Muwatta 2567" }
+label: { ar: "الموطأ 2567 — مالك: عفو البنين جائز على البنات في قتل العمد", en: "Muwatta 2567" }
 summary:
-  ar: "إذا قتل الرجل عمدًا وقامت البينة، وللمقتول بنون وبنات فعفا البنون وأبت البنات: فعفو البنين جائز على البنات، ولا أمر للبنات مع البنين."
+  ar: "قال مالك: وإذا قتل الرجل عمدا وقامت على ذلك البينة، وللمقتول بنون وبنات، فعفا البنون وأبى البنات أن يعفون: فعفو البنين جائز على البنات، ولا أمر للبنات مع البنين في القيام بالدم والعفو عنه. {cite:muwatta-maruf-1997 p.448}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2567 of kitab 29-uqul at PDF p. 448", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b110" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qisas, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2567 at PDF p. 448; العفو في قتل العمد", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b87" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 448; matn excerpt at most 40 words" }

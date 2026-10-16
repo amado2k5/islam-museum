@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2565"
-label: { ar: "الموطأ 2565", en: "Muwatta 2565" }
+label: { ar: "الموطأ 2565 — مالك: العفو عن قتل العمد بعد الاستحقاق لا عقل فيه إلا بالشرط", en: "Muwatta 2565" }
 summary:
-  ar: "من عفا عن القتل العمد بعد أن يستحقه: لا يلزم القاتل عقل بعد ذلك، إلا أن يكون المعفو اشترط ذلك عند عفوه."
+  ar: "قال مالك في الرجل يعفو عن قتل العمد بعد أن يستحقه ويجب له: إنه ليس على القاتل عقل يلزمه، إلا أن يكون الذي عفا عنه اشترط ذلك عند عفوه عنه. {cite:muwatta-maruf-1997 p.447}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2565 of kitab 29-uqul at PDF p. 447", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b110" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qisas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2565 at PDF p. 447; العفو في قتل العمد", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b87" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 447; matn excerpt at most 40 words" }

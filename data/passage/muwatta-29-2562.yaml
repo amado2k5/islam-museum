@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2562"
-label: { ar: "الموطأ 2562", en: "Muwatta 2562" }
+label: { ar: "الموطأ 2562 — مالك: من قُتل أو فُقئت عينه قبل القصاص لا دية ولا قصاص لورثته", en: "Muwatta 2562" }
 summary:
-  ar: "إذا قُتل القاتل عمدًا أو فُقئت عين الفاقئ قبل أن يُقتص منه، فلا دية ولا قصاص على من فعل ذلك بالقاتل؛ وإنما كان الحق لولي المقتول."
+  ar: "قال مالك في الرجل يقتل الرجل عمدا أو يفقأ عينه عمدا، فيُقتل القاتل أو تُفقأ عين الفاقئ قبل أن يُقتص منه: أنه ليس عليه دية ولا قصاص؛ لأن حق الذي قُتل أو فُقئت عينه في الشيء الذي ذهب، فإنما يكون له القصاص على صاحبه الذي قتله، فإذا هلك قاتله فليس له قصاص ولا دية، استدلالا بآية البقرة في القصاص. {cite:muwatta-maruf-1997 p.446} {cite:muwatta-maruf-1997 p.447}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2562 of kitab 29-uqul at PDF p. 446", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b110" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qisas, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-2-178, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2562 at PDF p. 446; القصاص في القتل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b87" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نهاية الحكم غير واضحة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 446; matn excerpt at most 40 words" }
