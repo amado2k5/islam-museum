@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2456"
-label: { ar: "الموطأ 2456", en: "Muwatta 2456" }
+label: { ar: "الموطأ 2456 — محمود بن لبيد: عمر في الشام والشراب المطبوخ الذي سماه طلاء", en: "Muwatta 2456" }
 summary:
-  ar: "مالك عن داود بن الحصين عن واقد بن عمرو بن سعد بن معاذ: أنه أخبره عن... ؛ حديث في الأشربة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن داود بن الحصين عن واقد بن عمرو بن سعد بن معاذ عن محمود بن لبيد الأنصاري أن عمر بن الخطاب لما قدم الشام شكا إليه أهلها وباء الأرض وثقلها، وقالوا: لا يصلحنا إلا هذا الشراب. فقال عمر: اشربوا هذا العسل، فقالوا: لا يصلحنا العسل. فقال رجل من أهل الأرض: هل لك أن نجعل لك من هذا الشراب شيئا لا يسكر؟ فطبخوه حتى ذهب ثلثاه وبقي الثلث، فأدخل عمر إصبعه فيه ثم رفعها فتبعها يتمطط، فقال: هذا الطلاء، هذا مثل طلاء الإبل، فأمرهم أن يشربوه. فقال له عبادة بن الصامت: أحللتها والله. فقال عمر: كلا والله، اللهم إني لا أحل لهم شيئا حرمته عليهم، ولا أحرم عليهم شيئا أحللته لهم. {cite:muwatta-maruf-1997 p.415} {cite:muwatta-maruf-1997 p.416}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2456 of kitab 28-ashriba at PDF p. 415", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k28-batch-106a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/dawud-ibn-al-husayn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/waqid-ibn-amr-ibn-said-ibn-muadh, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/mahmud-ibn-labid, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubada-ibn-al-samit, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/khamr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nabidh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2456 at PDF p. 415; جامع تحريم الخمر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b82" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 415; matn excerpt at most 40 words" }

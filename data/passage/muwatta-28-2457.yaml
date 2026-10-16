@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2457"
-label: { ar: "الموطأ 2457", en: "Muwatta 2457" }
+label: { ar: "الموطأ 2457 — نافع عن ابن عمر: لا يعصر الخمر ولا يبيعها ولا يسقيها", en: "Muwatta 2457" }
 summary:
-  ar: "مالك عن نافع عن ابن عمر: أن رجالًا من أهل العراق قالوا له: يا أبا عبد الرحمن... ؛ سؤال أهل العراق عن شراب؛ الجواب يحتاج مراجعة."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن رجالا من أهل العراق قالوا له: يا أبا عبد الرحمن، إنا نبتاع من ثمر النخل والعنب فنعصره خمرا فنبيعها. فقال ابن عمر: إني أشهد الله عليكم وملائكته ومن سمع من الجن والإنس أني لا آمركم أن تبيعوها أو تبتاعوها أو تعصروها أو تشربوها أو تسقوها، وذكر أنها مما ورد النهي عنه بنص القرآن. {cite:muwatta-maruf-1997 p.416}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2457 of kitab 28-ashriba at PDF p. 416", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k28-batch-106a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/khamr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2457 at PDF p. 416; جامع تحريم الخمر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b82" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 416; matn excerpt at most 40 words" }
