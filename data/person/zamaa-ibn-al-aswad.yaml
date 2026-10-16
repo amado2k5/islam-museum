@@ -1,0 +1,23 @@
+id: person/zamaa-ibn-al-aswad
+class: person
+label: { ar: "زمعة بن الأسود بن المطلب بن أسد", en: "zamaa-ibn-al-aswad" }
+names:
+  - { kind: full, lang: ar, value: "زمعة بن الأسود بن المطلب بن أسد القرشي الأسدي" }
+gender: male
+summary:
+  ar: "من رؤساء قريش؛ قام مع زهير والمطعم وأبي البختري في نقض صحيفة المقاطعة، وقال إنهم لا يرضون ما كُتب فيها."
+  en: "A Quraysh notable named in al-Raheeq al-Makhtum's account of the boycott covenant (pp. 110–111)."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/quraysh, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/nullification-of-boycott-covenant, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص110–111 نقلاً عن زاد المعاد 2/46 وصحيح البخاري 1/216، 1/548 وابن هشام 1/350–377"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-9a"
+sources: [source/mubarakpuri-raheeq]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 110–111" }

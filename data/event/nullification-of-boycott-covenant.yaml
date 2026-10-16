@@ -1,0 +1,32 @@
+id: event/nullification-of-boycott-covenant
+class: event
+kind: other
+label: { ar: "نقض صحيفة المقاطعة وخروج بني هاشم من الشعب", en: "Nullification of the boycott covenant and the exit from Shi'b Abi Talib" }
+summary:
+  ar: "في المحرم من السنة العاشرة من البعثة سعى هشام بن عمرو وزهير بن أبي أمية وانضم إليهما المطعم بن عدي وأبو البختري وزمعة بن الأسود في نقض الصحيفة التي علقتها قريش في الكعبة؛ فوجدوا الأرضة قد أكلتها إلا اسم الله، فخرج بنو هاشم من الشعب."
+  en: "In Muharram of the tenth year of the mission Hisham ibn Amr and Zuhayr ibn Abi Umayya, joined by al-Mut'im ibn Adi, Abu al-Bakhtari and Zam'a ibn al-Aswad, moved to tear up the covenant Quraysh had hung in the Kaaba; they found that termites had eaten all of it except the Name of God, and Banu Hashim left the ravine."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0619~", calendar: julian, precision: year, status: tradition, note: "المحرم من السنة العاشرة من البعثة على ترجيح الكتاب (الرحيق ص110؛ زاد المعاد 2/46)." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: occurred_at, target: place/shib-abi-talib, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hisham-ibn-amr, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zuhayr-ibn-abi-umayya, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/mutim-ibn-adi, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-al-bakhtari-ibn-hisham, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/zamaa-ibn-al-aswad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "أنكر النقض ونسبه إلى أمر قُضي بليل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-talib, sources: [source/mubarakpuri-raheeq] }
+  - { type: caused_by, target: event/boycott-of-banu-hashim, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari, source/ibn-hisham-sira]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص110–112 نقلاً عن زاد المعاد 2/46 وصحيح البخاري 1/216 وابن هشام 1/350–377"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-9a"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 110–112" }
