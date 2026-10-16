@@ -1,34 +1,98 @@
 ---
-// Museum Cards hub: the four engines (word maps live; lists/explainers/stories coming in later phases).
+// Museum Cards hub: the four engines + challenge + card of the day.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { listWordMaps } from "../../../lib/wordmap";
+import { listDecks } from "../../../lib/cardlists";
+import { listExplainers } from "../../../lib/explainers";
+import { listStories } from "../../../lib/stories";
+import { loadDaily, dailyEntry } from "../../../lib/daily";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const C = T.cards;
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
 const maps = listWordMaps();
+const decks = listDecks();
+const explainers = listExplainers();
+const stories = listStories();
+const daily = loadDaily();
+const today = dailyEntry();
 ---
 <BaseLayout lang={lang} title={C.title} description={C.lede} path={`/${lang}/cards/`}>
   <div class="wrap" style="padding-block:10px 20px">
     <h1>{C.title}</h1>
-    <p style="font-size:1.2rem;max-width:var(--measure)">{C.lede}</p>
+    <p style="font-size:1.25rem;max-width:var(--measure)">{C.lede}</p>
 
-    <h2>{C.wordmaps}</h2>
+    <section class="daily">
+      <h2>✦ {L(daily.title)}</h2>
+      <p class="prompt">{L(today.prompt)}</p>
+      <p class="ui muted">{C.today}</p>
+    </section>
+
+    <h2>🗺 {C.wordmaps}</h2>
     <p class="muted">{C.wordmaps_lede}</p>
     <ul class="grid-cards">
       {maps.map((m) => (
         <li>
           <a class="card" href={`/${lang}/cards/word/${m.slug}/`}>
-            <h3 class="card-title" lang="ar">{m.word}</h3>
-            <span class="ui">{m.slug}</span>
+            <h3 class="card-title">«{L(m.title)}»</h3>
+            <span class="ui">{m.count} {C.occurrences}</span>
           </a>
         </li>
       ))}
     </ul>
 
-    <h2>{C.more_soon}</h2>
-    <p class="muted">{C.more_soon_lede}</p>
+    <h2>🃏 <a href={`/${lang}/cards/lists/`}>{C.lists}</a></h2>
+    <p class="muted">{C.lists_lede}</p>
+    <ul class="grid-cards">
+      {decks.slice(0, 6).map((d) => (
+        <li>
+          <a class="card" href={`/${lang}/cards/list/${d.slug}/`}>
+            <h3 class="card-title">{L(d.title)}</h3>
+            <span class="ui">{d.count} {C.items}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p><a href={`/${lang}/cards/lists/`}>{C.all_decks} →</a></p>
+
+    <h2>❓ <a href={`/${lang}/cards/explainers/`}>{C.explainers}</a></h2>
+    <p class="muted">{C.explainers_lede}</p>
+    <ul class="grid-cards">
+      {explainers.slice(0, 6).map((d) => (
+        <li>
+          <a class="card" href={`/${lang}/cards/explain/${d.slug}/`}>
+            <h3 class="card-title">{L(d.title)}</h3>
+            <span class="ui">{C.widget_names[d.widget] ?? d.widget}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p><a href={`/${lang}/cards/explainers/`}>{C.all_explainers} →</a></p>
+
+    <h2>📖 <a href={`/${lang}/cards/stories/`}>{C.stories}</a></h2>
+    <p class="muted">{C.stories_lede}</p>
+    <ul class="grid-cards">
+      {stories.slice(0, 6).map((s) => (
+        <li>
+          <a class="card" href={`/${lang}/cards/story/${s.slug}/`}>
+            <h3 class="card-title">{L(s.title)}</h3>
+            <span class="ui">{s.count} {C.stations_count}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p><a href={`/${lang}/cards/stories/`}>{C.all_stories} →</a></p>
+
+    <h2>🎯 <a href={`/${lang}/cards/challenge/`}>{C.challenge}</a></h2>
+    <p class="muted">{C.challenge_lede}</p>
   </div>
 </BaseLayout>
+<style>
+.daily { border: 2px solid #c9a227; border-radius: 14px; padding: 20px 24px; margin: 18px 0 26px;
+  background: #f8f1de; color: #1d3a6e; max-width: 640px; }
+.daily h2 { margin-top: 0; }
+.prompt { font-size: 1.25rem; font-weight: 700; }
+</style>

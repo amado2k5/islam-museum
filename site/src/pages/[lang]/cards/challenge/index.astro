@@ -1,0 +1,25 @@
+---
+// Challenge page.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import ChallengeTracker from "../../../../components/ChallengeTracker.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadChallenge } from "../../../../lib/challenge";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const C = T.cards;
+const ch = loadChallenge();
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const t = { reset: C.reset, habit: C.habit, day: C.day, printable: C.printable };
+---
+<BaseLayout lang={lang} title={L(ch.title)} description={L(ch.lede)} path={`/${lang}/cards/challenge/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label="breadcrumb">
+      <a href={`/${lang}/cards/`}>{C.title}</a> › {L(ch.title)}
+    </nav>
+    <h1>{L(ch.title)}</h1>
+    <p style="font-size:1.15rem;max-width:var(--measure)">{L(ch.lede)}</p>
+    <ChallengeTracker ch={ch} lang={lang} t={t} />
+  </div>
+</BaseLayout>

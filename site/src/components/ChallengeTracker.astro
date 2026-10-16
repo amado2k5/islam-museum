@@ -1,0 +1,59 @@
+---
+// ChallengeTracker: 30-day habit grid, localStorage persistence, printable fallback.
+import type { ChallengeFile } from "../lib/challenge";
+import type { Lang } from "../lib/i18n";
+
+interface Props { ch: ChallengeFile; lang: Lang; t: Record<string, string> }
+const { ch, lang, t } = Astro.props;
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+---
+<div class="chal" data-challenge data-slug={ch.slug}>
+  <div class="chal-head">
+    <div class="chal-progress"><div class="chal-bar" data-bar style="width:0%"></div></div>
+    <span class="ui" data-pct>0%</span>
+    <button data-reset class="ui reset">{t.reset}</button>
+  </div>
+  {ch.note && <p class="note">{L(ch.note)}</p>}
+  <div class="chal-grid" role="table" aria-label={L(ch.title)}>
+    <div class="chal-row head" role="row">
+      <span role="columnheader">{t.habit}</span>
+      {Array.from({ length: ch.days }, (_, d) => <span role="columnheader" class="day">{d + 1}</span>)}
+    </div>
+    {ch.habits.map((h, hi) => (
+      <div class="chal-row" role="row">
+        <span role="rowheader" class="habit">{L(h)}</span>
+        {Array.from({ length: ch.days }, (_, d) => (
+          <button role="cell" class="cell" data-h={hi} data-d={d} aria-label={`${L(h)} — ${t.day} ${d + 1}`} aria-pressed="false"></button>
+        ))}
+      </div>
+    ))}
+  </div>
+  <div class="chal-print">
+    <h3>{t.printable}</h3>
+    <table>
+      <tr><th>{t.habit}</th>{Array.from({ length: ch.days }, (_, d) => <th>{d + 1}</th>)}</tr>
+      {ch.habits.map((h) => (
+        <tr><td>{L(h)}</td>{Array.from({ length: ch.days }, () => <td>☐</td>)}</tr>
+      ))}
+    </table>
+  </div>
+</div>
+<script src="../scripts/challenge.ts"></script>
+<style>
+.chal { overflow-x: auto; }
+.chal-head { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.chal-progress { flex: 1; height: 8px; background: #1d3a6e33; border-radius: 4px; }
+.chal-bar { height: 100%; background: #c9a227; border-radius: 4px; transition: width .3s; }
+.reset { background: none; border: 1px solid currentColor; border-radius: 8px; padding: 4px 12px; cursor: pointer; }
+.note { border-inline-start: 3px solid #c9a227; padding-inline-start: 10px; }
+.chal-grid { display: inline-block; min-width: 100%; }
+.chal-row { display: flex; align-items: center; }
+.chal-row.head .day, .habit { font-size: .8rem; }
+.day { width: 28px; text-align: center; flex: none; }
+.habit { flex: none; width: 200px; padding: 4px 8px; font-size: .9rem; }
+.cell { width: 28px; height: 28px; flex: none; border: 1px solid #c9a22755; background: transparent; cursor: pointer; border-radius: 6px; }
+.cell[aria-pressed="true"] { background: #c9a227; }
+.chal-print { display: none; }
+@media print { .chal-grid, .chal-head { display: none; } .chal-print { display: block; } .chal-print table { border-collapse: collapse; } .chal-print td, .chal-print th { border: 1px solid #999; padding: 2px 4px; font-size: 9px; } }
+@media (prefers-reduced-motion: reduce) { .chal-bar { transition: none; } }
+</style>

@@ -18,12 +18,12 @@ export interface WordMapFile {
 const dir = () => repoPath("cards/wordmap");
 
 /** All available word maps, sorted by slug. */
-export function listWordMaps(): { slug: string; word: string }[] {
+export function listWordMaps(): { slug: string; word: string; title: { ar: string; en: string }; count: number }[] {
   return readdirSync(dir())
     .filter((f) => f.endsWith(".json") && f !== "index.json")
     .map((f) => {
       const raw = JSON.parse(readFileSync(`${dir()}/${f}`, "utf8")) as WordMapFile;
-      return { slug: raw.slug, word: raw.word };
+      return { slug: raw.slug, word: raw.word, title: raw.title, count: raw.total };
     })
     .sort((a, b) => a.slug.localeCompare(b.slug));
 }
