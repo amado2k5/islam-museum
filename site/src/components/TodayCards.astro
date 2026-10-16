@@ -2,7 +2,7 @@
 // "This day" (Part 3, C.1): a dual-date pill and one card per calendar, rendered for the build day and refreshed in the browser
 // to the viewer's day from the embedded index. `full` lists every event of the day (the /today/ page); otherwise one per calendar.
 import { ui, type Lang } from "../lib/i18n";
-import { HIJRI_MONTHS, GREG_MONTHS, formatAH, formatCE } from "../lib/dates";
+import { HIJRI_MONTHS, GREG_MONTHS, ERA, formatAH, formatCE } from "../lib/dates";
 import { buildDay, onThisDay, todayIndex } from "../lib/today";
 const { lang, full = false, heading = "h2" } = Astro.props as { lang: Lang; full?: boolean; heading?: "h1" | "h2" };
 const T = ui(lang);
@@ -11,7 +11,7 @@ const { g, h } = buildDay();
 const pad = (n: number) => String(n).padStart(2, "0");
 const pill = `${T.landing.today_is} ${formatAH(`${pad(h.y)}-${pad(h.m)}-${pad(h.d)}`, lang)} · ${formatCE(`${g.y}-${pad(g.m)}-${pad(g.d)}`, lang)}`;
 const H = onThisDay(idx.h, "h", h.m, h.d), G = onThisDay(idx.g, "g", g.m, g.d);
-const payload = { h: idx.h, g: idx.g, hm: HIJRI_MONTHS[lang], gm: GREG_MONTHS[lang], lang, t: { nearest: T.today.nearest, none: T.today.none, ah: lang === "ar" ? "هـ" : "AH", ce: lang === "ar" ? "م" : "", today: T.landing.today_is } };
+const payload = { h: idx.h, g: idx.g, hm: HIJRI_MONTHS[lang], gm: GREG_MONTHS[lang], lang, t: { nearest: T.today.nearest, none: T.today.none, ah: ERA[lang].ah, ce: lang === "en" ? "" : ERA[lang].ce, today: T.landing.today_is } };
 const Heading = heading;
 const cards = [
   { cal: "h", title: T.today.in_hijri, r: H, acc: "var(--gold)" },

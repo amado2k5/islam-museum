@@ -5,11 +5,19 @@ import type { Lang } from "./i18n";
 const GREG = {
   en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
   ar: ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
+  ur: ["جنوری", "فروری", "مارچ", "اپریل", "مئی", "جون", "جولائی", "اگست", "ستمبر", "اکتوبر", "نومبر", "دسمبر"],
 };
 const HIJRI = {
   en: ["Muharram", "Safar", "Rabi' I", "Rabi' II", "Jumada I", "Jumada II", "Rajab", "Sha'ban", "Ramadan", "Shawwal", "Dhu al-Qa'da", "Dhu al-Hijja"],
   ar: ["محرم", "صفر", "ربيع الأول", "ربيع الآخر", "جمادى الأولى", "جمادى الآخرة", "رجب", "شعبان", "رمضان", "شوال", "ذو القعدة", "ذو الحجة"],
+  ur: ["محرم", "صفر", "ربیع الاول", "ربیع الثانی", "جمادی الاول", "جمادی الثانی", "رجب", "شعبان", "رمضان", "شوال", "ذوالقعدہ", "ذوالحجہ"],
 };
+// Era and approximation labels per language. Urdu uses its own forms; Arabic keeps the Hijri-era marks.
+export const ERA = {
+  en: { ce: "CE", bce: "BCE", ah: "AH", bh: "BH", approx: "c. ", approxTail: " (approx.)" },
+  ar: { ce: "م", bce: "ق.م", ah: "هـ", bh: "ق.هـ", approx: "نحو ", approxTail: " (تقريبًا)" },
+  ur: { ce: "عیسوی", bce: "قبل مسیح", ah: "ھ", bh: "قبل ہجرت", approx: "تقریباً ", approxTail: " (تقریباً)" },
+} as const;
 export const GREG_MONTHS = GREG;
 export const HIJRI_MONTHS = HIJRI;
 
@@ -25,10 +33,11 @@ function parts(s: string): Parts | null {
 const num = (n: number, lang: Lang) => (lang === "ar" ? new Intl.NumberFormat("ar-EG-u-nu-latn", { useGrouping: false }).format(n) : String(n));
 
 function render(p: Parts, names: string[], lang: Lang, era: string): string {
-  const c = lang === "ar" ? "نحو " : "c. ";
-  const yr = p.y < 0 ? (lang === "ar" ? `${num(-p.y, lang)} ق.م` : `${-p.y} BCE`) : num(p.y, lang);
+  const E = ERA[lang];
+  const c = E.approx;
+  const yr = p.y < 0 ? (lang === "en" ? `${-p.y} ${E.bce}` : `${num(-p.y, lang)} ${E.bce}`) : num(p.y, lang);
   const core = [p.d ? num(p.d, lang) : "", p.m ? names[p.m - 1] : "", yr].filter(Boolean).join(" ");
-  const tail = p.unknown ? (lang === "ar" ? " (تقريبًا)" : " (approx.)") : "";
+  const tail = p.unknown ? E.approxTail : "";
   return `${p.approx || p.unknown ? c : ""}${core}${p.uncertain ? "?" : ""}${tail} ${era}`.trim();
 }
 
@@ -37,23 +46,25 @@ function interval(edtf: string, lang: Lang, era: (y: number) => string): string 
   const m = edtf.match(/^(-?\d{4})\/(-?\d{4})$/);
   if (!m) return undefined;
   const a = Number(m[1]), b = Number(m[2]);
-  return lang === "ar" ? `بين ${num(a, lang)} و${num(b, lang)} ${era(b)}`.trim() : `between ${a} and ${b} ${era(b)}`.trim();
+  if (lang === "en") return `between ${a} and ${b} ${era(b)}`.trim();
+  if (lang === "ur") return `${num(a, lang)} اور ${num(b, lang)} کے درمیان ${era(b)}`.trim();
+  return `بين ${num(a, lang)} و${num(b, lang)} ${era(b)}`.trim();
 }
 
 export function formatCE(edtf: string, lang: Lang): string {
-  const iv = interval(edtf, lang, (y) => (y < 0 ? "" : lang === "ar" ? "م" : "CE"));
+  const iv = interval(edtf, lang, (y) => (y < 0 ? "" : ERA[lang].ce));
   if (iv) return iv;
   const p = parts(edtf);
-  return p ? render(p, GREG[lang], lang, p.y < 0 ? "" : lang === "ar" ? "م" : "CE") : edtf;
+  return p ? render(p, GREG[lang], lang, p.y < 0 ? "" : ERA[lang].ce) : edtf;
 }
 /** The Hijri calendar has no year 0: 0 is 1 BH, -11 is 12 BH (years before the Hijra are counted back from 1). */
 function renderAH(p: Parts, lang: Lang): string {
   const bh = p.y < 1;
   const q = bh ? { ...p, y: 1 - p.y } : p;
-  return render(q, HIJRI[lang], lang, bh ? (lang === "ar" ? "ق.هـ" : "BH") : (lang === "ar" ? "هـ" : "AH"));
+  return render(q, HIJRI[lang], lang, bh ? ERA[lang].bh : ERA[lang].ah);
 }
 export function formatAH(hijri: string, lang: Lang): string {
-  const iv = interval(hijri, lang, (y) => (y < 1 ? (lang === "ar" ? "ق.هـ" : "BH") : lang === "ar" ? "هـ" : "AH"));
+  const iv = interval(hijri, lang, (y) => (y < 1 ? ERA[lang].bh : ERA[lang].ah));
   if (iv) return iv;
   const p = parts(hijri);
   return p ? renderAH(p, lang) : hijri;

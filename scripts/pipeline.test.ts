@@ -214,11 +214,12 @@ describe("Arabic first (docs/language.md)", () => {
     const src = { ...base("source", "zz-test-r", { kind: "secondary", type: "book", title: "T" }).entity, label: { en: "T" }, summary: { en: "t" } };
     expect(msgs(validateAll([{ entity: src, file: p("data", "source", "zz-test-r.yaml") }]).issues, "error")).toBe("");
   });
-  it("requires alt text in every published language (ar and en)", () => {
+  it("requires alt text in every published language (ar, en and ur)", () => {
     const m = (alt: any) => ({ ...base("media", "zz-test-s", { kind: "map", license: "CC0", alt }).entity });
-    expect(msgs(validateAll([{ entity: m({ en: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "ar"/);
-    expect(msgs(validateAll([{ entity: m({ ar: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "en"/);
-    expect(msgs(validateAll([{ entity: m({ ar: "x", en: "y" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
+    expect(msgs(validateAll([{ entity: m({ en: "x", ur: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "ar"/);
+    expect(msgs(validateAll([{ entity: m({ ar: "x", ur: "x" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "en"/);
+    expect(msgs(validateAll([{ entity: m({ ar: "x", en: "y" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toMatch(/alt text missing for "ur"/);
+    expect(msgs(validateAll([{ entity: m({ ar: "x", en: "y", ur: "z" }), file: p("data", "media", "zz-test-s.yaml") }]).issues, "error")).toBe("");
   });
 });
 

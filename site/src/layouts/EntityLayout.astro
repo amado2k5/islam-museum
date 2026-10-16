@@ -8,7 +8,7 @@ import JourneyPlayer from "../components/JourneyPlayer.astro";
 import PageHeader from "../components/PageHeader.astro";
 import ExploreBar from "../components/ExploreBar.astro";
 import { byId, buildDate, href, labelOf, summaryOf, summaryRaw, related, REPO, SITE } from "../lib/graph";
-import { ui, other, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { formatDate } from "../lib/dates";
 import { connectionsOf, externalUrl, jsonLd, placesOf, regionLabel, sectionRole, traditionLabel } from "../lib/entity";
@@ -23,7 +23,7 @@ const second = lang === "ar" ? n.label.en : n.label.ar;
 const d = n.data;
 
 // --- prose with fallback chain: requested language -> the other published language -> none
-const proseLang = n.prose[lang] ? lang : n.prose[other(lang)] ? other(lang) : n.prose.en ? "en" : null;
+const proseLang = n.prose[lang] ? lang : n.prose.ar ? "ar" : n.prose.en ? "en" : null;
 const prose = proseLang ? n.prose[proseLang] : null;
 const untranslated = !!prose && proseLang !== lang;
 const brief = prose?.sections.find((s) => sectionRole(s.heading) === "brief");

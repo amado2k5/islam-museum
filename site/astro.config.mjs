@@ -25,13 +25,13 @@ export default defineConfig({
     "/en/person/mu-awiya-ibn-abi-sufyan/": "/en/person/muawiya-ibn-abi-sufyan/",
   },
   i18n: {
-    locales: ["ar", "en"],
+    locales: ["ar", "en", "ur"],
     defaultLocale: "ar",
     routing: { prefixDefaultLocale: true, redirectToDefaultLocale: false },
   },
   integrations: [
     svelte(),
-    sitemap({ i18n: { defaultLocale: "ar", locales: { ar: "ar", en: "en" } } }),
+    sitemap({ i18n: { defaultLocale: "ar", locales: { ar: "ar", en: "en", ur: "ur" } } }),
   ],
   vite: { plugins: [tailwindcss()], server: { fs: { allow: [".."] } } },
 });
