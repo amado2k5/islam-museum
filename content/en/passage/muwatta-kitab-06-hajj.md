@@ -1,0 +1,24 @@
+---
+id: passage/muwatta-kitab-06-hajj
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+The Book of Hajj is the sixth book of the [[work/muwatta-malik|Muwatta]] in the transmission of [[person/yahya-ibn-yahya-al-laythi|Yahya ibn Yahya al-Laythi]] from [[person/malik-ibn-anas|Malik ibn Anas]], in the edition of Bashshar Awwad Ma'ruf (1997). It occupies pages 433 to 570 of the first volume in the PDF pagination, and contains 385 numbered texts (898–1282) in eighty-three chapters. Most of it concerns the rulings and rites of the [[practice/hajj|Hajj]] in [[place/mecca|Mecca]], [[place/arafat|Arafat]], [[place/muzdalifa|Muzdalifa]] and [[place/mina|Mina]], and the sacrificial animal and the ransom for what befalls the one in the state of ihram. {cite:muwatta-maruf-1997 p.433} {cite:muwatta-maruf-1997 p.570}
+
+## What the book gathers
+- **The muhrim, what is avoided by him, and the offering** (898–1135): what is forbidden to the muhrim of perfume, marriage, hunting and cutting trees; one who sends an offering that is then lost or goes astray; what a person does who has relations with his wife before the ifada; the offering of one who has missed the Hajj; what is easy to obtain of the offering; and one who combined Hajj and Umra and then missed the Hajj. {cite:muwatta-maruf-1997 p.516}
+- **Standing at Arafat and Muzdalifa** (1151–1194): the hadith "all of Arafat is a place of standing", the valley of Uranah and the valley of Muhassir; sexual talk, wickedness and disputing; the standing of one in a state of ritual impurity, of a menstruating woman, and of a muhrim on his mount; the standing of one who has missed the Hajj; and the combined prayer at Muzdalifa. {cite:muwatta-maruf-1997 p.521} {cite:muwatta-maruf-1997 p.537}
+- **Mina, the stoning, and the ifada** (1195–1254): the prayer at Mina and its shortening; the takbir on the days of tashriq; the stoning of the pillars, its order, its advancing and delaying, and the concession granted to the herders of camels; the ifada, and the ruling on a menstruating woman in the ifada and in Mecca and Mina. {cite:muwatta-maruf-1997 p.538} {cite:muwatta-maruf-1997 p.544}
+- **The ransom** (1243–1265): what is hunted of birds, wild animals and locusts; the ransom for shaving, perfume and clothing; the choice in tamattu' between fasting and the offering; and the expiation of one who forgets some part of his rites. {cite:muwatta-maruf-1997 p.553} {cite:muwatta-maruf-1997 p.561}
+- **Comprehensive hadiths on Hajj, and its conclusion** (1266–1282): comprehensive hadiths on Hajj, including the Prophet's words at Mina "slaughter, and there is no blame"; the supplication on the day of Arafat; the story of Ibn Khatal; the Hajj of a woman who had not performed Hajj without a mahram; and the fast of the one who performs tamattu'. {cite:muwatta-maruf-1997 p.562} {cite:muwatta-maruf-1997 p.569}
+
+## Malik's method in the book
+Malik begins with what has reached him of reports from the Prophet and from the Companions, and then mentions what the people of Medina hold as an agreed matter, saying for example "the matter on which there is no disagreement among us". The book often relies on the reports of [[person/abdullah-ibn-umar|Abdullah ibn Umar]] transmitted through [[person/nafi-al-madani|Nafi]], and on the sayings of [[person/said-ibn-al-musayyab|Said ibn al-Musayyab]], [[person/al-qasim-ibn-muhammad|al-Qasim ibn Muhammad]] and Urwa. He cites the verses on Hajj in the chapters of al-Baqara and al-Ma'ida in many places, as in the explanation of sexual talk, wickedness and disputing. {cite:muwatta-maruf-1997 p.522} {cite:muwatta-maruf-1997 p.523}
+
+## The editor's notes
+The editor records the transmitters from Malik among his companions, refers to the two Sahihs, the Sunan and the Musnad al-Jami', and quotes [[person/ibn-abd-al-barr|Ibn Abd al-Barr]] from al-Tamhid on connected and disconnected transmissions and on differences in wording, such as the transmitters' differences over the number of the pillars of the Ka'ba and over the words "gap" (furja) and "space" (fajwa). He notes that some hadiths are disconnected in the view of most transmitters, such as the hadith of the woman in her litter and the hadith of the Devil on the day of Arafat, and that the hadith of Muhammad ibn Imran about the acacia tree is weak because its transmitters are unknown. {cite:muwatta-maruf-1997 p.533} {cite:muwatta-maruf-1997 p.566}
+
+## Its place in the museum
+Each text of the book has its own record. It gives the highest narrator and the chapter of the text, presents the substance of the report in the museum's wording, and records the editor's takhrij where it is needed. See [[practice/hajj|Hajj]], [[place/mecca|Mecca]] and [[place/arafat|Arafat]] for the places where the book's rulings appear. {cite:muwatta-maruf-1997 p.433}
