@@ -50,3 +50,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - concept batch 3 (Claude Haiku 5.5): 25 pages, bida → fath-sulh (commit 71f085dc)
 - group batch 1 (25 files, abbasid-dawa … banu-al-muttalib): done by Claude Haiku 5.5, draft
 - work batch 5 (25 files, azhar-al-riyad … hazar-afsan): done by Claude Haiku 5.5, draft
+- place m–z batch 6: 25 files (mustaghanim.md … nahr-al-ubulla.md), draft
