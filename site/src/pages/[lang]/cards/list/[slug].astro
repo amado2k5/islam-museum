@@ -1,0 +1,28 @@
+---
+// List deck page: flip cards for numbered material.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import FlipDeck from "../../../../components/FlipDeck.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { listDecks, loadDeck } from "../../../../lib/cardlists";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    listDecks().map(({ slug }) => ({ params: { lang, slug }, props: { lang, slug } })));
+}
+const { lang, slug } = Astro.props as { lang: Lang; slug: string };
+const T = ui(lang);
+const C = T.cards;
+const deck = loadDeck(slug);
+const L = (x: { ar: string; en: string }) => (lang === "ar" ? x.ar : x.en);
+const t = { flip: C.flip, tap_to_flip: C.tap_to_flip, prev: C.prev, next: C.next, all_items: C.all_items };
+---
+<BaseLayout lang={lang} title={L(deck.title)} description={L(deck.lede)} path={`/${lang}/cards/list/${slug}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label="breadcrumb">
+      <a href={`/${lang}/cards/`}>{C.title}</a> › <a href={`/${lang}/cards/lists/`}>{C.lists}</a> › {L(deck.title)}
+    </nav>
+    <h1>{L(deck.title)}</h1>
+    <p style="font-size:1.15rem;max-width:var(--measure)">{L(deck.lede)}</p>
+    <FlipDeck deck={deck} lang={lang} t={t} />
+  </div>
+</BaseLayout>
