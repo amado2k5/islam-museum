@@ -1,0 +1,33 @@
+---
+// Word map page: corpus-driven radial map + quiz + full no-JS fallback.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import WordMap from "../../../../components/WordMap.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { listWordMaps, loadWordMap } from "../../../../lib/wordmap";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    listWordMaps().map(({ slug }) => ({ params: { lang, slug }, props: { lang, slug } })));
+}
+const { lang, slug } = Astro.props as { lang: Lang; slug: string };
+const T = ui(lang);
+const C = T.cards;
+const map = loadWordMap(slug);
+const title = lang === "ar" ? map.title.ar : map.title.en;
+const t = {
+  close: C.close, quiz_title: C.quiz_title, quiz_next: C.quiz_next,
+  quiz_start: C.quiz_start, all_occurrences: C.all_occurrences,
+  occurrences: C.occurrences, collocations: C.collocations,
+};
+---
+<BaseLayout lang={lang} title={title} description={C.wordmaps_lede} path={`/${lang}/cards/word/${slug}/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <nav class="ui muted" aria-label="breadcrumb">
+      <a href={`/${lang}/cards/`}>{C.title}</a> › {title}
+    </nav>
+    <h1 lang="ar">{map.word}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{title}</p>
+    <p class="muted ui">{C.generated_from}: {map.corpus} · {map.total} {C.occurrences}</p>
+    <WordMap map={map} lang={lang} t={t} />
+  </div>
+</BaseLayout>

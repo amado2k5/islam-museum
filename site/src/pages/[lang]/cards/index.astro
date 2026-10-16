@@ -1,0 +1,34 @@
+---
+// Museum Cards hub: the four engines (word maps live; lists/explainers/stories coming in later phases).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { listWordMaps } from "../../../lib/wordmap";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const C = T.cards;
+const maps = listWordMaps();
+---
+<BaseLayout lang={lang} title={C.title} description={C.lede} path={`/${lang}/cards/`}>
+  <div class="wrap" style="padding-block:10px 20px">
+    <h1>{C.title}</h1>
+    <p style="font-size:1.2rem;max-width:var(--measure)">{C.lede}</p>
+
+    <h2>{C.wordmaps}</h2>
+    <p class="muted">{C.wordmaps_lede}</p>
+    <ul class="grid-cards">
+      {maps.map((m) => (
+        <li>
+          <a class="card" href={`/${lang}/cards/word/${m.slug}/`}>
+            <h3 class="card-title" lang="ar">{m.word}</h3>
+            <span class="ui">{m.slug}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{C.more_soon}</h2>
+    <p class="muted">{C.more_soon_lede}</p>
+  </div>
+</BaseLayout>

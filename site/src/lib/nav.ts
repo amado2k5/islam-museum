@@ -11,7 +11,7 @@ export const num = (n: number, lang: Lang) => new Intl.NumberFormat(lang === "ar
 /** "764 حدثًا" / "Worship and practice": the counted thing for the six counted wings, a phrase for the other three. */
 export const wingCountLabel = (lang: Lang, w: Wing | string) => fmt(ui(lang).wings.counts[w] ?? "{n}", { n: num(wingCount(w), lang) });
 
-export interface ExplorePage { key: "timeline" | "journeys" | "graph" | "revelation" | "surahmaps"; href: string; ready: boolean }
+export interface ExplorePage { key: "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards"; href: string; ready: boolean }
 /** The interactive explorers; `ready` flips as each phase ships, and an unfinished one links to the nearest page that exists. */
 export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "timeline", href: `/${lang}/time/`, ready: true },
@@ -19,4 +19,5 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "graph", href: `/${lang}/graph/`, ready: true },
   { key: "revelation", href: `/${lang}/words/revelation/`, ready: true },
   { key: "surahmaps", href: `/${lang}/surah/`, ready: true },
+  { key: "cards", href: `/${lang}/cards/`, ready: true },
 ];

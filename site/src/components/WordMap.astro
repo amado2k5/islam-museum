@@ -1,0 +1,109 @@
+---
+// WordMap: radial corpus-driven word map. Center word → surface forms → collocations → verse occurrences.
+// Static SVG + full no-JS fallback list; client script (site/src/scripts/wordmap.ts) adds expansion + quiz.
+import type { WordMapFile } from "../lib/wordmap";
+import { byId, labelOf } from "../lib/graph";
+import type { Lang } from "../lib/i18n";
+
+interface Props { map: WordMapFile; lang: Lang; t: Record<string, string> }
+const { map, lang, t } = Astro.props;
+
+const W = 720, H = 520, CX = W / 2, CY = H / 2 - 20, R = 170;
+const pos = (i: number, n: number, r: number) => {
+  const ang = (2 * Math.PI * i) / n - Math.PI / 2;
+  return { x: CX + r * Math.cos(ang), y: CY + r * Math.sin(ang) };
+};
+const forms = map.forms.slice(0, 12);
+const surahName = (s: number) => {
+  const node = byId.get(`passage/quran-${s}`);
+  return node ? labelOf(node, lang) : `Q${s}`;
+};
+---
+<div class="wordmap" data-wordmap data-slug={map.slug}>
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={map.title[lang]} class="wm-svg">
+    {forms.map((f, i) => { const p = pos(i, forms.length, R); return (
+      <line x1={CX} y1={CY} x2={p.x} y2={p.y} class="wm-edge" />
+    ); })}
+    <g class="wm-center" tabindex="0" role="button" aria-label={map.word}>
+      <circle cx={CX} cy={CY} r="64" class="wm-center-c" />
+      <text x={CX} y={CY + 10} text-anchor="middle" class="wm-center-t">{map.word}</text>
+    </g>
+    {forms.map((f, i) => { const p = pos(i, forms.length, R); return (
+      <g class="wm-form" tabindex="0" role="button" data-form={f.form}
+         aria-label={`${f.form} — ${f.count}`} transform={`translate(${p.x},${p.y})`}>
+        <circle r="44" class="wm-form-c" />
+        <text text-anchor="middle" class="wm-form-t">{f.form}</text>
+        <text text-anchor="middle" dy="20" class="wm-form-n">{f.count}</text>
+      </g>
+    ); })}
+  </svg>
+
+  <div class="wm-panel" data-panel hidden>
+    <button class="wm-x" data-close aria-label={t.close}>✕</button>
+    <h3 data-ptitle></h3>
+    <div data-pbody></div>
+  </div>
+
+  <div class="wm-quiz" data-quiz hidden>
+    <h3>{t.quiz_title}</h3>
+    <p class="wm-qverse" data-qverse></p>
+    <div class="wm-opts" data-qopts></div>
+    <p class="wm-score" data-qscore></p>
+    <button data-qnext>{t.quiz_next}</button>
+    <button data-qclose>{t.close}</button>
+  </div>
+  <div class="wm-toolbar">
+    <button data-quizbtn>{t.quiz_start}</button>
+  </div>
+
+  <noscript></noscript>
+  <div class="wm-fallback">
+    <h3>{t.all_occurrences}</h3>
+    {map.forms.map((f) => (
+      <details>
+        <summary><b>{f.form}</b> — {f.count} {t.occurrences}</summary>
+        <ul>
+          {f.refs.map((r) => (
+            <li><a href={`/${lang}/surah/`}>{surahName(r.s)} {r.a}</a> — <span lang="ar">{r.t}</span></li>
+          ))}
+        </ul>
+      </details>
+    ))}
+    <h3>{t.collocations}</h3>
+    <ul>
+      {map.collocations.slice(0, 20).map((c) => (
+        <li><b lang="ar">{c.phrase}</b> — {c.count} {t.occurrences}</li>
+      ))}
+    </ul>
+  </div>
+
+  <script type="application/json" data-payload set:html={JSON.stringify({
+    slug: map.slug, word: map.word, total: map.total,
+    forms: map.forms.map((f) => ({ form: f.form, count: f.count,
+      refs: f.refs.map((r) => ({ s: r.s, a: r.a, t: r.t, name: surahName(r.s) })) })),
+    collocations: map.collocations.map((c) => ({ after: c.after, phrase: c.phrase, count: c.count,
+      refs: c.refs.map((r) => ({ s: r.s, a: r.a, t: r.t, name: surahName(r.s) })) })),
+    lang,
+  })} />
+</div>
+<script src="../scripts/wordmap.ts"></script>
+<style>
+.wordmap { position: relative; }
+.wm-svg { width: 100%; height: auto; display: block; }
+.wm-edge { stroke: var(--gold-dim, #8a742a); stroke-width: 1.5; }
+.wm-center-c { fill: #152c55; stroke: #c9a227; stroke-width: 2.5; }
+.wm-center-t { fill: #f8f1de; font-size: 30px; font-family: "Aref Ruqaa", serif; }
+.wm-form { cursor: pointer; }
+.wm-form-c { fill: #f8f1de; stroke: #1d3a6e; stroke-width: 2; }
+.wm-form-t { fill: #1d3a6e; font-size: 17px; font-weight: 700; }
+.wm-form-n { fill: #9a8f74; font-size: 13px; }
+.wm-form:hover .wm-form-c, .wm-form:focus .wm-form-c { stroke: #c9a227; stroke-width: 3; }
+.wm-panel, .wm-quiz { border: 1px solid #c9a227; background: #0a1428; color: #f8f1de;
+  border-radius: 12px; padding: 16px 20px; margin-top: 12px; position: relative; }
+.wm-x { position: absolute; inset-inline-end: 10px; top: 8px; background: none; border: none;
+  color: #f8f1de; font-size: 18px; cursor: pointer; }
+.wm-toolbar { margin-top: 10px; display: flex; gap: 8px; }
+.wm-fallback { margin-top: 18px; }
+.wm-fallback details { margin-bottom: 6px; }
+.wm-opts button { display: block; margin: 6px 0; }
+</style>
