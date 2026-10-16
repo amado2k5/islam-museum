@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2665"
-label: { ar: "الموطأ 2665", en: "Muwatta 2665" }
+label: { ar: "الموطأ 2665 — ربيعة عن أنس: صفة النبي وعمره وشيبه", en: "Muwatta 2665" }
 summary:
-  ar: "وصف أنس للنبي: ليس بالطويل ولا القصير، ولا الأبيض الشديد البياض ولا الأسمر، ولا الشعر الشديد الجعودة ولا المسترسل."
+  ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن عن أنس بن مالك أنه سمعه يقول: كان رسول الله ليس بالطويل البائن ولا بالقصير، وليس بالأبيض الأمهق ولا بالآدم، وليس بالجعد القطط ولا بالسبط. بعثه الله على رأس أربعين سنة، فأقام بمكة عشر سنين، وبالمدينة عشر سنين، وتوفاه الله على رأس ستين سنة، وليس في رأسه ولحيته عشرون شعرة بيضاء. ويذكر المحقق أن قوله «على رأس ستين» رواية شاذة، والمحفوظ أنه توفي وهو ابن ثلاث وستين، وأن البخاري قال: هذا عندي أصح من حديث ربيعة. {cite:muwatta-maruf-1997 p.505}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2665 of kitab 31-jami at PDF p. 505", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b115" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabiah-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2665 at PDF p. 505; ما جاء في صفة النبي", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b97" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 505; matn excerpt at most 40 words" }
