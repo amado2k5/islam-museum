@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2334"
-label: { ar: "الموطأ 2334", en: "Muwatta 2334" }
+label: { ar: "الموطأ 2334 — مالك: مكاتب كاتب عبدا فعتق قبل سيده", en: "Muwatta 2334" }
 summary:
-  ar: "مالك: وكذلك أيضًا لو كاتب المكاتب عبدًا، فعتق المكاتب الآخر قبل سيده الذي... ؛ عتق المكاتب لعبد كاتبه قبل السيد؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وكذلك لو كاتب المكاتب عبدا، فعتق المكاتب الآخر قبل سيده الذي كاتبه، فإن ولاءه لسيد المكاتب، ما لم يعتق المكاتب الأول الذي كاتبه؛ فإن عتق الذي كاتبه رجع إليه ولاء مكاتبه الذي كان عتق قبله. وإن مات المكاتب الأول قبل أن يؤدي، أو عجز عن كتابته وله ولد أحرار، لم يرثوا ولاء مكاتب أبيهم، لأنه لم يبق لأبيهم الولاء حتى يعتق. {cite:muwatta-maruf-1997 p.361} {cite:muwatta-maruf-1997 p.362}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2334 of kitab 25-mukatab at PDF p. 361", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-101a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2334 at PDF p. 361; ولاء المكاتب إذا أعتق عبده", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b73" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 361; matn excerpt at most 40 words" }

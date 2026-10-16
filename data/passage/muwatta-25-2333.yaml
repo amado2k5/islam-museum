@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2333"
-label: { ar: "الموطأ 2333", en: "Muwatta 2333" }
+label: { ar: "الموطأ 2333 — مالك: عتق المكاتب عبده لا يجوز إلا بإذن سيده", en: "Muwatta 2333" }
 summary:
-  ar: "مالك: إن المكاتب إذا أعتق عبده، فإن ذلك غير جائز له إلا بإذن سيده؛ منع المكاتب من عتق عبده دون إذن سيده."
+  ar: "قال مالك: إن عتق المكاتب عبده غير جائز له إلا بإذن سيده. فإن أجاز السيد ذلك ثم عتق المكاتب كان ولاؤه للمكاتب. وإن مات المكاتب قبل أن يعتق، كان ولاء المعتَق لسيد المكاتب، وإن مات المعتَق قبل أن يعتق المكاتب ورثه سيد المكاتب. {cite:muwatta-maruf-1997 p.361}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2333 of kitab 25-mukatab at PDF p. 361", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-101a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2333 at PDF p. 361; ولاء المكاتب إذا أعتق عبده", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b73" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 361; matn excerpt at most 40 words" }

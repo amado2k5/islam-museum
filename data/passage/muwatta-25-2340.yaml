@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2340"
-label: { ar: "الموطأ 2340", en: "Muwatta 2340" }
+label: { ar: "الموطأ 2340 — مالك: المكاتب الذي يعتقه سيده عند الموت يحسب من الثلث بقدر الكتابة", en: "Muwatta 2340" }
 summary:
-  ar: "مالك: إن أحسن ما سمعت في المكاتب يعتقه سيده عند الموت: أن المكاتب يقام... ؛ حكم عتق السيد للمكاتب عند الموت؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: أحسن ما سمع في المكاتب يعتقه سيده عند الموت: أن المكاتب يقوم على هيئته التي لو بيع كان ذلك الثمن الذي يبلغ. فإن كانت القيمة أقل مما بقي عليه من الكتابة وضع ذلك في ثلث الميت، ولم يُنظر إلى عدد الدراهم الباقية عليه، لأنه لو قُتل لم يغرم قاتله إلا قيمته يوم قتله، ولو جُرح لم يغرم جارحه إلا دية جرحه يوم جرحه. وإن كان ما بقي عليه من كتابته أقل من قيمته لم يُحسب في الثلث إلا ما بقي من الكتابة، لأن الميت إنما ترك له ما بقي عليه من كتابته فصارت وصية. {cite:muwatta-maruf-1997 p.364} {cite:muwatta-maruf-1997 p.365}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2340 of kitab 25-mukatab at PDF p. 364", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-101a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2340 at PDF p. 364; الوصية في المكاتب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b73" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 364; matn excerpt at most 40 words" }

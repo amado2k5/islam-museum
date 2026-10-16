@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2335"
-label: { ar: "الموطأ 2335", en: "Muwatta 2335" }
+label: { ar: "الموطأ 2335 — مالك: ترك الدين من المكاتب ليس عتاقة، والولاء لمن عقد الكتابة", en: "Muwatta 2335" }
 summary:
-  ar: "مالك في المكاتب يكون بين الرجلين، فيترك أحدهما للمكاتب الذي له عليه... ؛ إسقاط أحد الشريكين نصيبه من النجوم؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في مكاتب بين رجلين، فيترك أحدهما للمكاتب ما له عليه ويشح الآخر، ثم يموت المكاتب ويترك مالا: يقضي الذي لم يترك له شيئا ما بقي له عليه، ثم يقتسمان المال كهيئته لو مات عبدا، لأن ما صنعه ليس بعتاقة وإنما ترك ما كان له عليه. واستدل مالك على ذلك بأن ولاء المكاتب الموروث لا يثبت لمن أعتق نصيبه من الورثة، ولو كان عتقا لثبت الولاء للمعتِق، وبأن من أعتق نصيبه من مكاتب مشترك لا يقوم عليه ما بقي، ولو كان عتقا لقوم عليه. ويرى أن الولاء لمن عقد الكتابة، وأن ولاءه لولد سيد المكاتب الذكور أو عصبته من الرجال لا النساء. {cite:muwatta-maruf-1997 p.362} {cite:muwatta-maruf-1997 p.363}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2335 of kitab 25-mukatab at PDF p. 362", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-101a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2335 at PDF p. 362; ولاء المكاتب إذا أعتق عبده", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b73" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 362; matn excerpt at most 40 words" }

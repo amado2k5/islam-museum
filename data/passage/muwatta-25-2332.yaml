@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2332"
-label: { ar: "الموطأ 2332", en: "Muwatta 2332" }
+label: { ar: "الموطأ 2332 — مالك: المكاتب لا يسافر ولا ينكح ولا يخرج إلا بإذن سيده", en: "Muwatta 2332" }
 summary:
-  ar: "مالك في الرجل يشترط على مكاتبه أنك لا تسافر ولا تنكح ولا تخرج من أرضي... ؛ شرط منع المكاتب من السفر والنكاح؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في رجل يشترط على مكاتبه ألا يسافر ولا ينكح ولا يخرج من أرضه إلا بإذنه، وأنه إن فعل شيئا من ذلك بغير إذنه فمحو كتابته بيده: ليس محو الكتابة بيد السيد، وإنما يرفع السيد ذلك إلى السلطان. وليس للمكاتب أن ينكح أو يسافر أو يخرج من أرض سيده إلا بإذنه، اشترط ذلك أو لم يشترط، لأن المكاتب قد ينكح فيصدق صداقا يجحف بماله فيعجز، أو يسافر فتحل نجومه وهو غائب. {cite:muwatta-maruf-1997 p.360} {cite:muwatta-maruf-1997 p.361}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2332 of kitab 25-mukatab at PDF p. 360", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-100" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2332 at PDF p. 360; الشرط في المكاتب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b73" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 360; matn excerpt at most 40 words" }
