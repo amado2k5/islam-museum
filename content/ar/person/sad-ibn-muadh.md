@@ -16,3 +16,7 @@ translators: []
 ## بعد بدر
 حكم سعد لاحقاً في شأن [[group/banu-qurayza|بني قريظة]] بعد حصارهم، وقضى من سهم أصابه في تلك الوقعة {cite:ibn-hisham-sira} {cite:tabaqat-ibn-sad}.
 
+
+
+## عمرة في مكة (الرحيق المختوم ص195)
+خرج معتمراً فنزل على [[person/umayya-ibn-khalaf|أمية بن خلف]] بمكة، فلقيه أبو جهل وعيره بإيواء الصباة، فرد عليه سعد بأن طريقه على أهل المدينة ([[event/quraysh-letter-to-ibn-ubayy|تهديد قريش]]) {cite:mubarakpuri-raheeq p.195}.

@@ -1,0 +1,26 @@
+id: event/quraysh-letter-to-ibn-ubayy
+class: event
+kind: other
+label: { ar: "كتاب قريش إلى عبد الله بن أبي بعد الهجرة", en: "Quraysh's letter to Abdullah ibn Ubayy after the Hijra" }
+summary:
+  ar: "كتبت قريش إلى عبد الله بن أبي ومن معه من المشركين تهددهم بالقتال أو الإخراج للنبي؛ فتجمع ابن أبي ليقاتله، فخرج إليهم النبي فتفرقوا، فامتنع عن القتال."
+  en: "Quraysh wrote to Abdullah ibn Ubayy and the pagans with him threatening war or the expulsion of the Prophet; Ibn Ubayy gathered to fight him, but when the Prophet came out to them they dispersed and he refrained from fighting."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622-10~", calendar: julian, precision: month, status: tradition, note: "بعد الهجرة بقليل (الرحيق ص194)." }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-ubayy, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-muadh, role: "خرج معتمراً إلى مكة فعيّره أبو جهل", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sunan-abi-dawud]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص194–195 نقلاً عن سنن أبي داود وصحيح البخاري"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-13c"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 194–195" }

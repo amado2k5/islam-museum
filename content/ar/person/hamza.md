@@ -22,3 +22,7 @@ translators: []
 
 ## رضيع النبي من وجهين (الرحيق المختوم ص55)
 أرضعت [[person/thuwayba|ثويبة]] مولاة أبي لهب حمزة قبل أن ترضع النبي، وكان حمزة مسترضعاً أيضاً في [[group/banu-sad-ibn-bakr|بني سعد بن بكر]]، فأرضعت أمه هناك النبي يوماً وهو عند [[person/halima-al-sadiyya|حليمة]]، فكان حمزة رضيع النبي من وجهين: من جهة ثويبة ومن جهة السعدية {cite:mubarakpuri-raheeq p.55} {cite:talqih-fuhum-ahl-al-athr p.4} {cite:zad-al-maad 1/19}. ويعدّه الكتاب خامس بني [[person/abd-al-muttalib|عبد المطلب]] العشرة {cite:mubarakpuri-raheeq p.52}.
+
+
+## سرية سيف البحر (الرحيق المختوم ص197)
+أمّره النبي على ثلاثين رجلاً من المهاجرين يعترضون عيراً لقريش فيها [[person/abu-jahl|أبو جهل]]، فلما التقوا حجز بينهم مجدي بن عمرو الجهني، فلم يقتتلوا، وكان لواء حمزة أول لواء عقده النبي ([[event/expedition-of-sif-al-bahr|سرية سيف البحر]]) {cite:mubarakpuri-raheeq p.197}.

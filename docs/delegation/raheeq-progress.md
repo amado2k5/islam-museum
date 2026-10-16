@@ -25,7 +25,7 @@
 | 10 خارج مكة / الإسراء | 125–142 | **done**: 10a `96cb131c` (pp. 125–131: Ta'if, the jinn at Wadi Nakhla, offering Islam to the tribes), 10b (pp. 132–142: Tufayl, Abu Dhar, Dhimad, the six men of Yathrib, Aisha's marriage, the Night Journey rewritten with page cites) |
 | 11 بيعتا العقبة / دار الندوة | 143–160 | **done**: 11a `6827efdc` (pp. 143–152: first and second pledges of al-Aqaba, Mus'ab's mission, the covenant clauses, the twelve chiefs), 11b (pp. 153–160: the emigrations and the stories of their hindrance, Abu Bakr waiting, the Dar al-Nadwa plot; new place dar-al-nadwa) |
 | 12 الهجرة | 161–174 | **done**: 12a `fe1269ec` (pp. 161–166: the night escape, the cave of Thawr, the pursuit), 12b (pp. 167–174: the route, Umm Ma'bad, Suraqa, Quba, entry into Medina, the family's arrival) |
-| 13 الحياة في المدينة / السرايا قبل بدر | 175–203 | in progress: 13a (pp. 175–182) and 13b (pp. 183–189: the Prophet's Mosque, the brotherhood, the Medina charter, the ethics of the new community) applied; 13c (pp. 190–203: the early raids) pending |
+| 13 الحياة في المدينة / السرايا قبل بدر | 175–203 | **done**: 13a `101f5204` (pp. 175–182: three phases, three groups, Ibn Ubayy, the Jews), 13b `79c2b4d0` (pp. 183–189: the Mosque, brotherhood, Medina charter, ethics), 13c (pp. 190–203: the Jews' pact, Quraysh's letter to Ibn Ubayy, the permission to fight, the raids before Badr, the qibla change) |
 | 14 بدر | 204–233 | pending |
 | 15 بين بدر وأحد | 233–247 | pending |
 | 16 أحد | 248–289 | pending |
@@ -50,7 +50,7 @@
 
 ## Next step
 
-Chapter 13 onward (chapter 13 starts at p. 175; read its pages and the existing entities first). Chapters 1–12 are on main.
+Chapter 14 onward (chapter 14 starts at p. 204; read its pages and the existing entities first). Chapters 1–13 are on main.
 
 ## First pass (Oct 2026, old rules): batch log
 

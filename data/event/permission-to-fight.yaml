@@ -1,0 +1,25 @@
+id: event/permission-to-fight
+class: event
+kind: law-enacted
+label: { ar: "الإذن بالقتال ونشاط السرايا قبل بدر", en: "The permission to fight and the expeditions before Badr" }
+summary:
+  ar: "نزل الإذن بالقتال بعد الهجرة بالمدينة، ولم يكن القصد منه إلا رفع الظلم وإقامة الشعائر، فأرسل النبي الدوريات والسرايا لتأمين طريق قريش التجاري، وعقد الحلف مع القبائل المجاورة، فكانت أول سرية سيف البحر في رمضان سنة اثنتين من الهجرة، ثم تتابعت السرايا والغزوات حتى بدر."
+  en: "The permission to fight was revealed after the Hijra in Medina, meant only to lift oppression and to uphold the rites of God; the Prophet sent scouting parties and raids to secure Quraysh's trade route and made alliances with the tribes along it, beginning with the expedition of Sif al-Bahr in Ramadan of the second year of the Hijra, and the raids continued until Badr."
+wings: [time, ideas]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0623~", calendar: julian, precision: year, status: tradition, note: "من السنة الأولى إلى السنة الثانية من الهجرة (الرحيق ص196–203)." }
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/expedition-of-sif-al-bahr, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira, source/rahma-lil-alamin]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص190–203 نقلاً عن ابن هشام 1/501–605 وزاد المعاد 2/83–85 وصحيح البخاري وصحيح مسلم وسنن أبي داود ورحمة للعالمين 1/115–116 و2/215–216"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-13c"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 195–203" }
