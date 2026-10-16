@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "858"
-label: { ar: "الموطأ 858", en: "Muwatta 858" }
+label: { ar: "الموطأ 858 — مالك: أهل العلم ينهون عن صيام اليوم الذي يشك فيه من شعبان إذا نوي به صيام رمضان؛ ومن صامه ثم ثبت أنه من رمضان فعليه قضاؤه، ولا بأس بصيامه تطوعاً", en: "Muwatta 858" }
 summary:
-  ar: "مالك: سمع أهل العلم ينهون أن يُصام اليوم الذي يُشك فيه من رمضان؛ النهي عن صيام يوم الشك."
+  ar: "يروي مالك أنه سمع أهل العلم ينهون أن يُصام اليوم الذي يُشك فيه من شعبان إذا نُوي به صيام رمضان. ويرون أن من صامه على غير رؤية ثم جاء الثبت أنه من رمضان فعليه قضاؤه، ولا يرون بصيامه تطوعاً بأساً. ويقول مالك: وهذا الأمر عندنا، والذي أدركت عليه أهل العلم ببلدنا. ويذكر المحقق أنه رواه عن مالك أبو مصعب (836). {cite:muwatta-maruf-1997 p.414} {cite:muwatta-maruf-1997 p.415}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 858 of kitab 04-siyam at PDF p. 414", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-39" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ruyat-al-hilal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada-al-sawm, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 858 at PDF p. 414; باب صيام اليوم الذي يشك فيه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 414; matn excerpt at most 40 words" }

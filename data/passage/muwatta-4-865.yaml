@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "865"
-label: { ar: "الموطأ 865", en: "Muwatta 865" }
+label: { ar: "الموطأ 865 — مالك: لم أسمع أحداً من أهل العلم والفقه ينهى عن صيام يوم الجمعة، وصيامه حسن، وقد رأى بعض أهل العلم يصومه ويتحراه", en: "Muwatta 865" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول: لم أسمع أحدًا من أهل العلم والفقه ممن يقتدى به ينهى... ؛ رأي مالك في صيام الست من شوال."
+  ar: "يقول يحيى: سمعت مالكاً يقول: لم أسمع أحداً من أهل العلم والفقه ومن يقتدى به ينهى عن صيام يوم الجمعة، وصيامه حسن، وقد رأى بعض أهل العلم يصومه، وأراه كان يتحراه. ويذكر المحقق أن الحديث في الصحيحين (البخاري 3/54، ومسلم 3/154) من حديث أبي هريرة مرفوعاً: لا يصومن أحدكم يوم الجمعة إلا يوماً قبله أو بعده، وأن كتاب الصيام ينتهي عند هذا الباب في نسخة م وص وه، ويأتي بعده باب ما جاء في ليلة القدر ثم كتاب الاعتكاف. {cite:muwatta-maruf-1997 p.417}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 865 of kitab 04-siyam at PDF p. 417", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-39" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muslim-ibn-al-hajjaj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 865 at PDF p. 417; باب جامع الصيام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 417; matn excerpt at most 40 words; doubt: ينهى الحديث المرفوع عن إفراد يوم الجمعة بالصوم؛ قول مالك بحسنه مذكور كما هو." }
