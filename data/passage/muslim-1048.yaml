@@ -1,0 +1,16 @@
+id: passage/muslim-1048
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1048"
+label: { ar: "مسلم 1048 — لو كان لابن آدم واديان من مال", en: "Muslim 1048 — If the son of Adam had two valleys of wealth" }
+text: "قال رسول الله: لو كان لابن آدم واديان من مال لابتغى وادياً ثالثاً، ولا يملأ جوف ابن آدم إلا التراب، ويتوب الله على من تاب"
+summary:
+  ar: "رواية أنس بن مالك في باب لو أن لابن آدم واديين لابتغى ثالثاً من كتاب الزكاة في صحيح مسلم؛ الحرص الذي لا يملؤه إلا التراب، وختمها بقبول التوبة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/zuhd, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الزكاة، باب لو أن لابن آدم واديين لابتغى ثالثاً (طبعة دار التأصيل، الحديث 1059؛ ترقيم عبد الباقي المعروف 1048)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

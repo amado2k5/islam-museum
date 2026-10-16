@@ -1,0 +1,15 @@
+id: passage/muslim-2540
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2540"
+label: { ar: "مسلم 2540 — لا تسبوا أصحابي", en: "Muslim 2540 — Do not revile my Companions" }
+text: "قال أبو هريرة: قال رسول الله: لا تسبوا أصحابي لا تسبوا أصحابي، فوالذي نفسي بيده لو أن أحدكم أنفق مثل أحد ذهباً ما أدرك مد أحدهم ولا نصيفه"
+summary:
+  ar: "رواية أبي هريرة في باب تحريم سب الصحابة من كتاب فضائل الصحابة في صحيح مسلم؛ إنفاق مثل أحد ذهباً لا يبلغ مد صاحب ولا نصيفه."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب فضائل الصحابة، باب تحريم سب الصحابة (طبعة دار التأصيل، الحديث 2621؛ ترقيم عبد الباقي المعروف 2540)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
