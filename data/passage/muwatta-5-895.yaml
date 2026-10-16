@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "895"
-label: { ar: "الموطأ 895", en: "Muwatta 895" }
+label: { ar: "الموطأ 895 — بلاغ: رجال من أصحاب رسول الله أُروا ليلة القدر في المنام في السبع الأواخر، فقال رسول الله: إني أرى رؤياكم قد تواطأت في السبع الأواخر", en: "Muwatta 895" }
+text: "إني أرى رؤياكم قد تواطأت في السبع الأواخر، فمن كان متحريها فليتحرها في السبع الأواخر"
 summary:
-  ar: "زياد عن مالك: بلغه أن رجالًا من أصحاب رسول الله ﷺ أُروا ليلة القدر... ؛ أثر في رؤيا ليلة القدر؛ تفاصيل الأثر غير واضحة."
+  ar: "بلاغ يرويه زياد عن مالك أنه بلغه أن رجالاً من أصحاب رسول الله رُوا ليلة القدر في المنام في السبع الأواخر، فقال رسول الله: إني أرى رؤياكم قد تواطأت في السبع الأواخر، فمن كان متحريها فليتحرها في السبع الأواخر. ويذكر المحقق أن يحيى رواه بلاغاً، والمحفوظ عند القعنبي والشافعي وابن وهب وابن القاسم وابن بكير وأكثر الرواة أنه عن مالك عن نافع عن ابن عمر، وأن الذي في الموطأ من حديث ابن عمر محفوظ من طريق عبد الله بن دينار كما مر، وأن ابن عبد البر عدّ هذا الحديث من الأحاديث التي انفرد بها مالك، وأن ابن الصلاح قال إنه غريب المتن جداً ضعيف الإسناد جداً. {cite:muwatta-maruf-1997 p.430} {cite:muwatta-maruf-1997 p.431}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 895 of kitab 05-itikaf at PDF p. 430", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k5-batch-40" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/laylat-al-qadr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 895 at PDF p. 430; باب ما جاء في ليلة القدر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 430; matn excerpt at most 40 words; doubt: بلاغ انفرد به مالك بحسب ابن عبد البر؛ المحقق ينقل قول ابن الصلاح في ضعف إسناده ومتنه." }

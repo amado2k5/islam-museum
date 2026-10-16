@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "882"
-label: { ar: "الموطأ 882", en: "Muwatta 882" }
+label: { ar: "الموطأ 882 — زياد عن مالك: المتطوع في الاعتكاف والذي عليه الاعتكاف أمرهما واحد فيما يحل لهما ويحرم عليهما؛ ولم يبلغه أن النبي كان اعتكافه إلا تطوعاً", en: "Muwatta 882" }
 summary:
-  ar: "زياد قال مالك: والمتطوع في الاعتكاف والذي عليه الاعتكاف أمرهما واحد... ؛ حكم المتطوع بالاعتكاف."
+  ar: "يرويه زياد عن مالك أن المتطوع في الاعتكاف والذي عليه الاعتكاف أمرهما واحد فيما يحل لهما ويحرم عليهما، ولم يبلغه أن رسول الله كان اعتكافه إلا تطوعاً. ويذكر المحقق أنه رواه عن مالك أبو مصعب (878). {cite:muwatta-maruf-1997 p.425}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 882 of kitab 05-itikaf at PDF p. 425", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k5-batch-40" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 882 at PDF p. 425; باب المتطوع في الاعتكاف والذي عليه الاعتكاف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 425; matn excerpt at most 40 words" }

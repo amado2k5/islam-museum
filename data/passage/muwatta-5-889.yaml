@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "889"
-label: { ar: "الموطأ 889", en: "Muwatta 889" }
+label: { ar: "الموطأ 889 — مالك: لا يحل لرجل أن يمس امرأته وهو معتكف، ولا يتلذذ منها بشيء، بقبلة ولا غيرها، ولم يسمع أحداً يكره للمعتكف والمعتكفة أن ينكحا في اعتكافهما ما لم يكن المسيس", en: "Muwatta 889" }
 summary:
-  ar: "زياد قال مالك: ولا يحل لرجل أن يمس امرأته وهو معتكف، ولا يتلذذ بها؛ منع المعتكف من مباشرة زوجته."
+  ar: "قول يرويه يحيى عن زياد عن مالك: لا يحل لرجل أن يمس امرأته وهو معتكف، ولا يتلذذ منها بشيء، بقبلة ولا غيرها. ولم يسمع أحداً يكره للمعتكف والمعتكفة أن ينكحا في اعتكافهما ما لم يكن المسيس، فيُكره ذلك، ولا يُكره للصائم أن ينكح في صيامه. ويفرق مالك بين نكاح المعتكف ونكاح المحرم: المحرم يأكل ويشرب ويعود المريض ويشهد الجنائز ولا يتطيب، والمعتكف يدهن ويتطيب ويأخذ من شعره، ولا يشهد الجنائز ولا يعود المرضى. ويذكر المحقق أنه رواه عن مالك أبو مصعب (886) و(887). {cite:muwatta-maruf-1997 p.426} {cite:muwatta-maruf-1997 p.427}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 889 of kitab 05-itikaf at PDF p. 426", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k5-batch-40" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 889 at PDF p. 426; النكاح في الاعتكاف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 426; matn excerpt at most 40 words" }

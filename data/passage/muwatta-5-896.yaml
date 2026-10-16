@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "896"
-label: { ar: "الموطأ 896", en: "Muwatta 896" }
+label: { ar: "الموطأ 896 — بلاغ عمن يثق به من أهل العلم: أُري رسول الله أعمار الناس قبله، فتقاصر أعمار أمته، فأعطاه الله ليلة القدر خير من ألف شهر", en: "Muwatta 896" }
+text: "أُري رسول الله أعمار الناس قبله، فتقاصر أعمار أمته، فأعطاه الله ليلة القدر، خير من ألف شهر"
 summary:
-  ar: "زياد عن مالك: سمع من يثق به من أهل العلم يقول: إن رسول الله ﷺ... ؛ حديث في ليلة القدر؛ تفاصيل المتن غير واضحة."
+  ar: "بلاغ يرويه زياد عن مالك أنه سمع من يثق به من أهل العلم يقول: إن رسول الله أُري أعمار الناس قبله، أو ما شاء الله من ذلك، فكأنه تقاصر أعمار أمته أن لا يبلغوا من العمل مثل الذي بلغ غيرهم في طول العمر، فأعطاه الله ليلة القدر، خير من ألف شهر. ويذكر المحقق أنه رواه عن مالك أبو مصعب (890) وسويد (452)، ويقول ابن عبد البر إنه لا يعلمه يُروى مسنداً من وجه من الوجوه، ولا يعرفه في غير الموطأ، وإنه من الرغائب والفضائل لا من الأحكام. {cite:muwatta-maruf-1997 p.430} {cite:muwatta-maruf-1997 p.431}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 896 of kitab 05-itikaf at PDF p. 430", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k5-batch-40" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/laylat-al-qadr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 896 at PDF p. 430; باب ما جاء في ليلة القدر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 430; matn excerpt at most 40 words; doubt: بلاغ لم يُعرف له إسناد موصول بحسب ابن عبد البر؛ منقول بلفظ من يثق به." }

@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "894"
-label: { ar: "الموطأ 894", en: "Muwatta 894" }
+label: { ar: "الموطأ 894 — أنس بن مالك: خرج علينا رسول الله، فقال: إني أُريت هذه الليلة، حتى تلاحى رجلان فرُفعت، فالتمسوها في التاسعة والسابعة والخامسة", en: "Muwatta 894" }
+text: "إني أريت هذه الليلة، حتى تلاحى رجلان فرفعت، فالتمسوها في التاسعة والسابعة والخامسة"
 summary:
-  ar: "زياد عن مالك عن حميد الطويل عن أنس بن مالك: قال: خرج علينا رسول الله ﷺ... ؛ حديث في ليلة القدر؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه زياد عن مالك عن حميد الطويل عن أنس بن مالك، أنه قال: خرج علينا رسول الله في رمضان فقال: إني أُريت هذه الليلة حتى تلاحى رجلان فرُفعت، فالتمسوها في التاسعة والسابعة والخامسة. ويذكر المحقق أن هذا الحديث يرويه أنس عن عبادة بن الصامت مرفوعاً، وأنه عند ابن عبد البر في التمهيد (2/200). {cite:muwatta-maruf-1997 p.429}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 894 of kitab 05-itikaf at PDF p. 429", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k5-batch-40" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-al-tawil, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubada-ibn-al-samit, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/laylat-al-qadr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 894 at PDF p. 429; باب ما جاء في ليلة القدر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 429; matn excerpt at most 40 words" }
