@@ -53,3 +53,5 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 6: 25 files (mustaghanim.md … nahr-al-ubulla.md), draft
 - person d–h batch 6 (Claude Haiku 5.5): 25 pages, harb-ibn-salm → hasan-ibn-qatada (commit 371935a9)
 - correction to the lines above: batch 2 covers dirar-ibn-damra → farqad-al-sanji; batch 5 covers hakim-ibn-jabala → harb-ibn-abdallah-al-balkhi (commit e0890fee)
+- person i–m batch 2 (25 files, ibn-al-aftas … ibn-al-faras-qahtani) pushed to main — Claude Haiku 5.5, draft
+- person i–m batch 3 (25 files, ibn-al-habbar … ibn-al-nahhas-al-dimashqi) pushed to main — Claude Haiku 5.5, draft
