@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2433"
-label: { ar: "الموطأ 2433", en: "Muwatta 2433" }
+label: { ar: "الموطأ 2433 — ابن شهاب عن السائب بن يزيد: خادم سرق مرآة امرأة سيده لا قطع عليه", en: "Muwatta 2433" }
 summary:
-  ar: "مالك عن ابن شهاب عن السائب بن يزيد: أن عبد الله بن عمرو بن الحضرمي جاء... ؛ قصة في الحد أو السرقة؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن ابن شهاب عن السائب بن يزيد أن عبد الله بن عمرو بن الحضرمي جاء بغلام له إلى عمر بن الخطاب، وطلب قطع يده لأنه سرق مرآة لامرأته ثمنها ستون درهما. فقال عمر: أرسله، فليس عليه قطع، خادمكم سرق متاعكم. {cite:muwatta-maruf-1997 p.405}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-27-hudud }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2433 of kitab 27-hudud at PDF p. 405", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k27-batch-105a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-saib-ibn-yazid, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-hadrami, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sariqa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2433 at PDF p. 405; مالا قطع فيه", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b80" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 405; matn excerpt at most 40 words" }

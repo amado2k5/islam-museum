@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2435"
-label: { ar: "الموطأ 2435", en: "Muwatta 2435" }
+label: { ar: "الموطأ 2435 — أبو بكر بن محمد بن عمرو بن حزم: النبطي الذي سرق خواتيم حديد", en: "Muwatta 2435" }
 summary:
-  ar: "مالك عن يحيى بن سعيد: أنه قال: أخبرني أبو بكر بن محمد بن عمرو بن حزم أن... ؛ حديث في الحد أو السرقة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد أن أبا بكر بن محمد بن عمرو بن حزم أخذ نبطيا قد سرق خواتيم من حديد، فحبسه ليقطع يده. فأرسلت إليه عمرة بنت عبد الرحمن مولاة لها تقول له: إن عمرة تقول لك: لا قطع إلا في ربع دينار فصاعدا. فأرسل النبطي. {cite:muwatta-maruf-1997 p.405}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-27-hudud }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2435 of kitab 27-hudud at PDF p. 405", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k27-batch-105a" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr-ibn-muhammad-ibn-amr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sariqa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2435 at PDF p. 405; مالا قطع فيه", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b80" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 405; matn excerpt at most 40 words" }
