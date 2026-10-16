@@ -24,7 +24,7 @@
 | 9 المقاطعة / عام الحزن | 109–124 | **done**: 9a `5960d545` (pp. 109–115: covenant, siege, nullification, last delegation), 9b (pp. 115–124: deaths of Abu Talib and Khadija, Year of Sorrow, Ibn al-Dughunna, Sawda, sources of steadfastness appended to concept sabr) |
 | 10 خارج مكة / الإسراء | 125–142 | **done**: 10a `96cb131c` (pp. 125–131: Ta'if, the jinn at Wadi Nakhla, offering Islam to the tribes), 10b (pp. 132–142: Tufayl, Abu Dhar, Dhimad, the six men of Yathrib, Aisha's marriage, the Night Journey rewritten with page cites) |
 | 11 بيعتا العقبة / دار الندوة | 143–160 | **done**: 11a `6827efdc` (pp. 143–152: first and second pledges of al-Aqaba, Mus'ab's mission, the covenant clauses, the twelve chiefs), 11b (pp. 153–160: the emigrations and the stories of their hindrance, Abu Bakr waiting, the Dar al-Nadwa plot; new place dar-al-nadwa) |
-| 12 الهجرة | 161–174 | pending |
+| 12 الهجرة | 161–174 | in progress: 12a (pp. 161–166: the night escape, the cave of Thawr, the pursuit) applied; 12b (pp. 167–174: the route, Suraqa, Umm Ma'bad, Quba, entry into Medina) pending |
 | 13 الحياة في المدينة / السرايا قبل بدر | 175–203 | pending |
 | 14 بدر | 204–233 | pending |
 | 15 بين بدر وأحد | 233–247 | pending |

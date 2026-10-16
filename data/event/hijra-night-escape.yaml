@@ -1,0 +1,31 @@
+id: event/hijra-night-escape
+class: event
+kind: migration
+label: { ar: "خروج النبي من داره ليلة الهجرة والاختباء في غار ثور", en: "The Prophet's escape from his house on the night of the Hijra and the hiding in the cave of Thawr" }
+summary:
+  ar: "بعد أن أعلمه جبريل بمؤامرة قريش خرج النبي ليلاً من داره وذر التراب على رؤوس المحاصرين، وخرج مع أبي بكر من خوخة في داره حتى غار ثور، فمكثا فيه ثلاث ليال، وكان ابن أبي بكر يأتيهما بالأخبار، وعامر بن فهيرة يرعى الغنم عليهما؛ ثم طاردتهما قريش فلم يبلغوا باب الغار."
+  en: "After Gabriel warned him of Quraysh's plot, the Prophet left his house at night, threw dust over the heads of those watching it, and went out through a back door of Abu Bakr's house to the cave of Thawr, where they hid three nights; Abu Bakr's son brought them news and Amir ibn Fuhayra grazed sheep over their tracks; Quraysh pursued them but did not reach the cave's door."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622-09-12~", calendar: julian, precision: day, status: tradition, note: "ليلة السابع والعشرين من صفر سنة أربع عشرة من البعثة، الموافق 12 أو 13 سبتمبر 622م على ترجيح الكتاب (الرحيق ص163–164)." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: occurred_at, target: place/ghar-thawr, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "نام على فراش النبي", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-abi-bakr, role: "يأتيهما بالأخبار من مكة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/amir-ibn-fuhayra, role: "يرعى الغنم عليهما", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "ضرب أسماء بنت أبي بكر حين سألها", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/hijra, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-al-bukhari, source/zad-al-maad]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص161–166 نقلاً عن ابن هشام 1/482–487 وزاد المعاد 2/52–53 وصحيح البخاري 1/553–558 ورحمة للعالمين 1/95–96"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-12a"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 161–166" }
