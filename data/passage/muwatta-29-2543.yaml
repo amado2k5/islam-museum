@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2543"
-label: { ar: "الموطأ 2543", en: "Muwatta 2543" }
+label: { ar: "الموطأ 2543 — مالك: من حفر بئرا على الطريق أو ربط الدابة فيها ضمان", en: "Muwatta 2543" }
 summary:
-  ar: "من حفر بئرًا في الطريق أو ربط دابة أو صنع مثل ذلك مما لا يجوز له على طريق المسلمين فهو ضامن لما أصاب."
+  ar: "قال مالك: الأمر عندنا في الذي يحفر البئر على الطريق، أو يربط الدابة، أو يصنع أشباه هذا على طريق المسلمين: أن ما صنع مما لا يجوز له أن يصنعه على طريق المسلمين فهو ضامن لما أُصيب في ذلك من جرح أو غيره؛ فما كان عقله دون ثلث الدية فهو في ماله خاصة، وما بلغ الثلث فصاعدا فهو على العاقلة. وما صنع مما يجوز له أن يصنعه فلا ضمان عليه فيه، كالبئر يحفرها الرجل للمطر، والدابة ينزل عنها الرجل للحاجة فيقفها على الطريق. {cite:muwatta-maruf-1997 p.441}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2543 of kitab 29-uqul at PDF p. 441", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b109" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/aqila, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2543 at PDF p. 441; جامع العقل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b86" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 441; matn excerpt at most 40 words" }

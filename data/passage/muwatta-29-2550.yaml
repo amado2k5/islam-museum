@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2550"
-label: { ar: "الموطأ 2550", en: "Muwatta 2550" }
+label: { ar: "الموطأ 2550 — مالك: القتيل الموجود بين قوم لا يؤخذ به أقرب الناس إليه", en: "Muwatta 2550" }
 summary:
-  ar: "القتيل الموجود بين قوم في قرية أو غيرها لا يُؤخذ به أقرب الناس إليه دارًا ومكانًا، لأن القتيل قد يُلقى على باب قوم."
+  ar: "قال مالك: الأمر عندنا أن القتيل إذا وُجد بين ظهراني قوم في قرية أو غيرها لم يُؤخذ به أقرب الناس إليه دارا ولا مكانا؛ لأنه قد يُقتل القتيل ثم يُلقى على باب قوم ليُلطخوا به، فليس يؤاخذ أحد بمثل ذلك. {cite:muwatta-maruf-1997 p.443}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2550 of kitab 29-uqul at PDF p. 443", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b110" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qawad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2550 at PDF p. 443; جامع العقل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b86" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 443; matn excerpt at most 40 words" }

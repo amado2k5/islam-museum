@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2554"
-label: { ar: "الموطأ 2554", en: "Muwatta 2554" }
+label: { ar: "الموطأ 2554 — مالك: الساحر الذي يعمل السحر بنفسه يُقتل", en: "Muwatta 2554" }
 summary:
-  ar: "الساحر الذي يعمل السحر ولا يعمله لأحد غيره؛ ويستشهد مالك بآية البقرة (102) على حاله."
+  ar: "قال مالك: الساحر الذي يعمل السحر ولم يعمل ذلك له غيره، هو مثل الذي ذكره الله في كتابه ممن اشترى السحر فلا خلاق له في الآخرة؛ فأرى أن يُقتل ذلك إذا عمل ذلك هو نفسه. {cite:muwatta-maruf-1997 p.444}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2554 of kitab 29-uqul at PDF p. 444", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b110" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sihr, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-2-102, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2554 at PDF p. 444; ما جاء في الغيلة والسحر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b86" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 444; matn excerpt at most 40 words" }

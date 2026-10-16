@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2553"
-label: { ar: "الموطأ 2553", en: "Muwatta 2553" }
+label: { ar: "الموطأ 2553 — حفصة زوج النبي تقتل جارية سحرتها وكانت دبرتها", en: "Muwatta 2553" }
 summary:
-  ar: "خبر بلغ مالكًا أن حفصة زوج النبي قتلت جاريتها التي سحرتها وكانت قد دبّرتها، فأمرت بها فقُتلت."
+  ar: "يروي يحيى عن مالك عن محمد بن عبد الرحمن بن سعد بن زرارة أنه بلغه أن حفصة زوج النبي قتلت جارية لها سحرتها، وقد كانت دبرتها، فأمرت بها فقُتلت. {cite:muwatta-maruf-1997 p.444}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2553 of kitab 29-uqul at PDF p. 444", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b110" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-abd-al-rahman-ibn-sad-ibn-zurara, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hafsa-bint-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sihr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2553 at PDF p. 444; ما جاء في الغيلة والسحر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b86" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: رواية بلاغ؛ يحتاج تحقق من السند" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 444; matn excerpt at most 40 words" }

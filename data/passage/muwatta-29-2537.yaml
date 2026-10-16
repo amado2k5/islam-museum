@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2537"
-label: { ar: "الموطأ 2537", en: "Muwatta 2537" }
+label: { ar: "الموطأ 2537 — سعيد بن المسيب وسليمان بن يسار: تغليظ الدية في الشهر الحرام", en: "Muwatta 2537" }
 summary:
-  ar: "سعيد بن المسيب وسليمان بن يسار: لا تُغلَّظ الدية لأجل الشهر الحرام، وإنما يُزاد فيها لحرمة الشهر، ويُسأل عن زيادة الجراح كما في النفس."
+  ar: "حدث مالك أنه بلغه أن سعيد بن المسيب وسليمان بن يسار سُئلا: أتغلظ الدية في الشهر الحرام؟ فقالا: لا، ولكن يُزاد فيها للحرمة. فقيل لسعيد: هل يزاد في الجراح كما يزاد في النفس؟ فقال: نعم. {cite:muwatta-maruf-1997 p.439}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2537 of kitab 29-uqul at PDF p. 439", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b109" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2537 at PDF p. 439; ما جاء في ميراث العقل والتغليظ فيه", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b86" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 439; matn excerpt at most 40 words" }

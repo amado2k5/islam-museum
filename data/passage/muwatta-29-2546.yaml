@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2546"
-label: { ar: "الموطأ 2546", en: "Muwatta 2546" }
+label: { ar: "الموطأ 2546 — مالك: لا يجب العقل على النساء والصبيان مع العاقلة", en: "Muwatta 2546" }
 summary:
-  ar: "لا عقل على النساء والصبيان مع العاقلة فيما تعقله من الديات، وإنما يجب العقل على الرجال البالغين."
+  ar: "قال مالك: الأمر الذي لا اختلاف فيه عندنا أنه ليس على النساء والصبيان عقل يجب عليهم أن يعقلوه مع العاقلة فيما تعقله العاقلة من الديات، وإنما يجب العقل على من بلغ الحلم من الرجال. {cite:muwatta-maruf-1997 p.442}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2546 of kitab 29-uqul at PDF p. 442", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b109" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/aqila, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2546 at PDF p. 442; جامع العقل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b86" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 442; matn excerpt at most 40 words" }

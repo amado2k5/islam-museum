@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2547"
-label: { ar: "الموطأ 2547", en: "Muwatta 2547" }
+label: { ar: "الموطأ 2547 — مالك: عقل الموالي تلزمه العاقلة وتعاقل الناس في زمن النبي وأبي بكر", en: "Muwatta 2547" }
 summary:
-  ar: "عقل الموالي تلزمه العاقلة إن شاءت، وإن أبت كانوا أهل ديوان أو مُقطَعين؛ وقد تعاقل الناس في زمن النبي وأبي بكر قبل الديوان."
+  ar: "قال مالك في عقل الموالي: تلزمه العاقلة إن شاؤوا، وإن أبوا كانوا أهل ديوان أو مُقطعين. وقد تعاقل الناس في زمن رسول الله بالعاقلة، وفي زمن أبي بكر الصديق قبل أن يكون ديوان؛ وإنما كان الديوان في زمان عمر بن الخطاب، فليس لأحد أن يعقل عنه غير قومه ومواليه؛ لأن الولاء لا ينتقل، ولأن النبي قال: الولاء لمن أعتق. قال مالك: والولاء نسب ثابت. {cite:muwatta-maruf-1997 p.442}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2547 of kitab 29-uqul at PDF p. 442", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b109" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/aqila, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2547 at PDF p. 442; جامع العقل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b86" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: آخر الجملة غير واضح في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 442; matn excerpt at most 40 words" }

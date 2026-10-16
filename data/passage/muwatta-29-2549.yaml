@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2549"
-label: { ar: "الموطأ 2549", en: "Muwatta 2549" }
+label: { ar: "الموطأ 2549 — مالك: من عليه القتل فأصاب حدا لا يؤخذ به، والفرية تثبت", en: "Muwatta 2549" }
 summary:
-  ar: "من عليه قتل ثم أصاب حدًّا من حدود الله لا يُؤخذ به، لأن القتل يأتي على ذلك كله، إلا القذف فإنه يثبت لمن قيل له."
+  ar: "قال مالك في الرجل يكون عليه القتل فيصيب حدا من الحدود: أنه لا يؤخذ به، لأن القتل يأتي على ذلك كله، إلا الفرية فإنها تثبت على من قيلت له؛ فأرى أن يُجلد المقتول الحد قبل أن يُقتل، ثم يُقتل. ولا أرى أن يُقاد منه في شيء من الجراح إلا القتل؛ لأن القتل يأتي على ذلك كله. {cite:muwatta-maruf-1997 p.443}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2549 of kitab 29-uqul at PDF p. 443", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b110" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qawad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2549 at PDF p. 443; جامع العقل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b86" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 443; matn excerpt at most 40 words" }
