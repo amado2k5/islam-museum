@@ -153,3 +153,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 29: 1 files (zuzan.md … zuzan.md), draft
 - person s–z batch 15 (Claude Code, claude-haiku-5-5): ukasha-ibn-mihsan … umayr-ibn-dabi, 25 files, 25 files.
 - place a–l batch 9 (Haiku 5.5, draft): 25 files, alamas → anhu; 936 Arabic files in a–l at commit time.
+- place m–z batch 1: 25 files (maadin-al-naqra … majrit), pushed in commit b81294c8 / 432c732a — draft
