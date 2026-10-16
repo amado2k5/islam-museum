@@ -12,7 +12,7 @@ relations:
   - { type: mentions, target: person/ishaq-ibn-abdallah-ibn-abi-talha, sources: [source/muwatta-maruf-1997] }
   - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
   - { type: mentions, target: person/abu-talha-al-ansari, sources: [source/muwatta-maruf-1997] }
-  - { type: mentions, target: passage/quran-3-92, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-3-92, sources: [source/muwatta-maruf-1997] }
 provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2845 at PDF p. 594; التَّرغيب في الصدقة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b112" }
 sources: [source/muwatta-maruf-1997]
 status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 594; matn excerpt at most 40 words" }
