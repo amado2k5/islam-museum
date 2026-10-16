@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2637"
-label: { ar: "الموطأ 2637", en: "Muwatta 2637" }
+label: { ar: "الموطأ 2637 — أبو هريرة: ليس الشديد بالصرعة إنما الشديد الذي يملك نفسه عند الغضب", en: "Muwatta 2637" }
 summary:
-  ar: "ليس الشديد بالصُّرَعة، وإنما الشديد من يملك نفسه عند الغضب."
+  ar: "يروي مالك عن ابن شهاب عن سعيد بن المسيب عن أبي هريرة أن رسول الله قال: ليس الشديد بالصرعة، إنما الشديد الذي يملك نفسه عند الغضب. ويذكر المحقق قول ابن عبد البر أن الحديث في الموطأ مرسل عند جمهور الرواة عن مالك، وأن الصحيح فيه الإيصال كما رواه أصحاب ابن شهاب. {cite:muwatta-maruf-1997 p.492} {cite:muwatta-maruf-1997 p.493}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2637 of kitab 31-jami at PDF p. 492", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b113" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghadab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2637 at PDF p. 492; ما جاء في الغضب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b95" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 492; matn excerpt at most 40 words" }

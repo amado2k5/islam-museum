@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2638"
-label: { ar: "الموطأ 2638", en: "Muwatta 2638" }
+label: { ar: "الموطأ 2638 — عطاء بن يزيد الليثي عن أبي أيوب: لا يحل لمسلم أن يهجر أخاه فوق ثلاث ليال", en: "Muwatta 2638" }
 summary:
-  ar: "النهي عن أن يهجر المسلم أخاه أكثر من ثلاث ليال، وخيرهما من يبدأ بالسلام."
+  ar: "يروي مالك عن ابن شهاب عن عطاء بن يزيد الليثي عن أبي أيوب الأنصاري أن رسول الله قال: لا يحل لمسلم أن يهجر أخاه فوق ثلاث ليال، يلتقيان فيعرض هذا ويعرض هذا، وخيرهما الذي يبدأ بالسلام. ويذكر المحقق أن يحيى روى «يهاجر»، وأن سائر الرواة للموطأ قالوا «يهجر». {cite:muwatta-maruf-1997 p.493}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2638 of kitab 31-jami at PDF p. 493", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b114" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hijra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-yazid-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-ayyub-al-ansari, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2638 at PDF p. 493; ما جاء في المهاجرة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b95" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 493; matn excerpt at most 40 words" }
