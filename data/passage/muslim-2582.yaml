@@ -1,0 +1,16 @@
+id: passage/muslim-2582
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2582"
+label: { ar: "مسلم 2582 — لتؤدن الحقوق إلى أهلها يوم القيامة", en: "Muslim 2582 — Rights will be restored to their owners on the Last Day" }
+text: "قال أبو هريرة: قال رسول الله: لتؤدن الحقوق إلى أهلها يوم القيامة، حتى يقاد للشاه الجلحاء من الشاه القرناء"
+summary:
+  ar: "رواية أبي هريرة في كتاب البر والصلة والآداب من صحيح مسلم؛ عدل يوم القيامة يبلغ أقصاه: القصاص للشاة الجلحاء من القرناء."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/zulm, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب تحريم الظلم (طبعة دار التأصيل، الحديث 2665؛ ترقيم عبد الباقي المعروف 2582)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
