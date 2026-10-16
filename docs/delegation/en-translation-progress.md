@@ -97,3 +97,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 16: 25 files (safwan.md … sandan.md), draft
 - concept batch 8 (Claude Haiku 5.5): 25 pages, nasiha → sadaqa
 - group batch 5 (25 files, jewish-tribes-of-hijaz … miknasa): done by Claude Haiku 5.5, draft
+- person s–z batch 7 (Claude Code, claude-haiku-5-5): shapur-dhu-al-aktaf … shurayh-ibn-al-ahwas, 25 files, 25 files.
