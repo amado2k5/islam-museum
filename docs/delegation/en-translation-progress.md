@@ -83,3 +83,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person d–h batch 9 (Claude Haiku 5.5): 15 pages, hurayth-ibn-qutba → husayn-ibn-yahya-al-ansari (commit 3a4e31e5). Person d–h slice complete.
 - place m–z batch 13: 25 files (qina.md … ramadin.md), draft
 - work batch 9 (25 files, sifat-jazirat-al-arab … wafayat-al-ayan): done by Claude Haiku 5.5, draft
+- person i–m batch 9 (25 files, ibn-zuhr-al-hafid … ibrahim-ibn-yahya-al-ansari-al-mursi) — Claude Haiku 5.5, draft
