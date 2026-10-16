@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2013"
-label: { ar: "الموطأ 2013", en: "Muwatta 2013" }
+label: { ar: "الموطأ 2013 — مالك: إذا كان لرجل على رجل دين فسأله أن يقره عنده قراضا: إن ذلك يكره حتى يقبض ماله، ثم يقارضه بعد، أو يمسك، مخافة أن يكون قد أعسر بماله، فيريد أن يؤخر ذلك على أن يزيده فيه", en: "Muwatta 2013" }
 summary:
-  ar: "مالك: إذا كان لرجل على رجل دين فسأله أن يقره عنده قراضًا، إن ذلك يكره... ؛ تحويل الدين إلى مضاربة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: إذا كان لرجل على رجل دين، فسأله أن يقره عنده قراضا: إن ذلك يكره حتى يقبض ماله، ثم يقارضه بعد، أو يمسك. وإنما ذلك مخافة أن يكون أعسر بماله، فهو يريد أن يؤخر ذلك على أن يزيده فيه. {cite:muwatta-maruf-1997 p.223}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2013 of kitab 18-qiradh at PDF p. 223", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k18-batch-87b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2013 at PDF p. 223; ما لا يجوز في القراض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b55" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 223; matn excerpt at most 40 words" }

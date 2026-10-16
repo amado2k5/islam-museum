@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2007"
-label: { ar: "الموطأ 2007", en: "Muwatta 2007" }
+label: { ar: "الموطأ 2007 — مالك عن زيد بن أسلم عن أبيه: خرج عبد الله وعبيد الله ابنا عمر في جيش إلى العراق، فلقيا أبا موسى الأشعري أمير البصرة، فعرض عليهما أن يسلفهما مالا يبتاعان به متاعا يبيعانه بالمدينة، فيؤديان رأس المال إلى أمير المؤمنين والربح لهما، فلما قدما قال عمر: أكل الجيش أسلفه مثل ما أسلفكما؟ فجعله قراضا، فأخذ رأس المال ونصف الربح", en: "Muwatta 2007" }
 summary:
-  ar: "مالك عن زيد بن أسلم عن أبيه: أنه قال: خرج عبد الله وعبيد الله ابنا عمر بجيش... ؛ قصة المضاربة بمال الصدقة؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن زيد بن أسلم عن أبيه أنه قال: خرج عبد الله وعبيد الله ابنا عمر بن الخطاب في جيش إلى العراق، فلما قفلا مرا على أبي موسى الأشعري، وهو أمير البصرة، فرحب بهما وسهل، ثم قال: لو أقدر لكما على أمر أنفعكما به لفعلت. ثم قال: بلى، هاهنا مال من مال الله أريد أن أبعث به إلى أمير المؤمنين، فأسلفكماه، فتبتاعان به متاعا من متاع العراق، ثم تبيعانه بالمدينة، فتؤديان رأس المال إلى أمير المؤمنين ويكون الربح لكما. فقالا: وددنا. ففعل، وكتب إلى عمر بن الخطاب أن يأخذ منهما المال. فلما قدما باعا فأربحا. فلما دفعا ذلك إلى عمر، قال: أكل الجيش أسلفه مثل ما أسلفكما؟ قالا: لا. فقال عمر بن الخطاب: ابنا أمير المؤمنين، فأسلفكما، أديا المال وربحه. فأما عبد الله فسكت، وأما عبيد الله فقال: ما ينبغي لك يا أمير المؤمنين هذا، لو نقص المال أو هلك لضمناه. فقال عمر: أدياه. فسكت عبد الله، وراجعه عبيد الله. فقال رجل من جلساء عمر: يا أمير المؤمنين، لو جعلته قراضا. فقال عمر: قد جعلته قراضا. فأخذ عمر رأس المال ونصف ربحه، وأخذ عبد الله وعبيد الله نصف ربح المال. {cite:muwatta-maruf-1997 p.221} {cite:muwatta-maruf-1997 p.222}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2007 of kitab 18-qiradh at PDF p. 221", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k18-batch-87b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubaydallah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2007 at PDF p. 221; ما جاء في القراض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b55" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 221; matn excerpt at most 40 words" }

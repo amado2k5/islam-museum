@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2018"
-label: { ar: "الموطأ 2018", en: "Muwatta 2018" }
+label: { ar: "الموطأ 2018 — يحيى عن مالك: لا ينبغي لصاحب المال أن يشترط لنفسه شيئا من الربح خالصا دون العامل، ولا للعامل شيئا خالصا دون صاحبه، ولا يكون مع القراض بيع أو كراء أو عمل أو سلف أو مرفق يشترطه أحدهما لنفسه", en: "Muwatta 2018" }
 summary:
-  ar: "يحيى: قال مالك: لا ينبغي لصاحب المال أن يشترط لنفسه شيئًا من الربح خالصًا... ؛ منع اشتراط ربح خالص لصاحب المال؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: قال مالك: لا ينبغي لصاحب المال أن يشترط لنفسه شيئا من الربح خالصا دون العامل، ولا ينبغي للعامل أن يشترط لنفسه شيئا من الربح خالصا دون صاحبه. ولا يكون مع القراض بيع، ولا كراء، ولا عمل، ولا سلف، ولا مرفق يشترطه أحدهما لنفسه دون صاحبه، إلا أن يعين أحدهما صاحبه على غير شرط، على وجه المعروف، إذا صح ذلك منهما. ولا ينبغي للمتقارضين أن يشترط أحدهما على صاحبه زيادة من ذهب ولا فضة ولا طعام، ولا شيء من الأشياء. فإن دخل القراض شيء من ذلك صار إجارة، ولا تصلح الإجارة إلا بشيء ثابت معلوم. فإذا وفر المال، وحصل عزل رأس المال، ثم اقتسما الربح على شرطهما. فإن لم يكن للمال ربح، أو دخلته وضيعة، لم يلحق العامل من ذلك شيء. وذلك على رب المال في ماله. والقراض جائز على ما تراضى عليه رب المال والعامل، من نصف الربح، أو ثلثه، أو ربعه، أو أقل من ذلك، أو أكثر. {cite:muwatta-maruf-1997 p.225}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2018 of kitab 18-qiradh at PDF p. 225", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k18-batch-87b" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2018 at PDF p. 225; ما لا يجوز من الشرط في القراض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k18-b55" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 225; matn excerpt at most 40 words" }
