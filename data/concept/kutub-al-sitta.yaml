@@ -1,0 +1,26 @@
+id: concept/kutub-al-sitta
+class: concept
+kind: term
+label: { ar: "الكتب الستة", en: "The Six Books" }
+summary:
+  ar: "الكتب الستة في اصطلاح المتأخرين: صحيح البخاري وصحيح مسلم وسنن أبي داود وجامع الترمذي وسنن النسائي وسنن ابن ماجه — جمهور مصنفات الحديث المسندة المرتبة على الأبواب أو بذكر الدرجة، وقد صارت مرجع الأمة الأوسع في الحديث النبوي منذ القرن الخامس الهجري؛ ويضم بعضهم إلى العدد الموطأ أو مسند أحمد بدل سنن ابن ماجه."
+  en: "The 'six books' of later convention: Sahih al-Bukhari, Sahih Muslim, Sunan Abi Dawud, Jami' al-Tirmidhi, Sunan al-Nasa'i and Sunan Ibn Majah — the principal chapter-arranged hadith collections that became the community's widest hadith reference from the fifth century; some lists substitute the Muwatta or the Musnad of Ahmad for Ibn Majah."
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+relations:
+  - { type: has_part, target: work/sahih-al-bukhari }
+  - { type: has_part, target: work/sahih-muslim }
+  - { type: has_part, target: work/sunan-abi-dawud }
+  - { type: has_part, target: work/jami-al-tirmidhi }
+  - { type: has_part, target: work/sunan-al-nasai }
+  - { type: has_part, target: work/sunan-ibn-majah }
+  - { type: related_to, target: work/muwatta-malik, note: "يُذكر في بعض العدّ بدل سنن ابن ماجه", sources: [source/muwatta-malik] }
+sources: [source/sahih-al-bukhari, source/sahih-muslim, source/sunan-abi-dawud, source/jami-al-tirmidhi, source/sunan-al-nasai, source/sunan-ibn-majah]
+provenance:
+  layer: own-research
+  source: "سجلات مصادر الكتب الستة في المتحف؛ صياغة المتحف"
+  generated_by: "Devin (SWE-2 High)"
+  run: hadith-section-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

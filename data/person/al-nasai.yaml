@@ -1,0 +1,26 @@
+id: person/al-nasai
+class: person
+label: { ar: "النسائي", en: "al-Nasa'i" }
+names:
+  - { kind: full, lang: ar, value: "أحمد بن شعيب النسائي" }
+gender: male
+born: { edtf: "0830~", hijri: "0215", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/sunan-al-nasai] }
+died: { edtf: "0915~", hijri: "0303", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/sunan-al-nasai] }
+roles: [scholar]
+traditions: [sunni]
+summary:
+  ar: "محدث نسا بخراسان صاحب «السنن» المعدودة في الكتب الستة؛ اشتهر بعنايته بعلل الحديث وتوثيق الرواة حتى قُدّم كتابه في الدقة، وانتقل في أواخر عمره إلى مصر ثم الشام حيث توفي."
+  en: "The muhaddith of Nasa in Khurasan, author of the Sunan counted among the six books; famed for his attention to hidden defects and transmitter criticism, moving late in life to Egypt and then al-Sham where he died."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+relations:
+  - { type: authored, target: work/sunan-al-nasai, sources: [source/sunan-al-nasai] }
+sources: [source/sunan-al-nasai]
+provenance:
+  layer: own-research
+  source: "Sunan al-Nasa'i source record (author dates 215–303 AH)"
+  generated_by: "Devin (SWE-2 High)"
+  run: hadith-section-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

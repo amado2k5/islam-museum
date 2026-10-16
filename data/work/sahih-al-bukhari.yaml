@@ -1,0 +1,19 @@
+id: work/sahih-al-bukhari
+class: work
+kind: book
+label: { ar: "صحيح البخاري", en: "Sahih al-Bukhari" }
+summary:
+  ar: "الجامع المسند الصحيح المختصر من أمور رسول الله وسننه وأيامه لمحمد بن إسماعيل البخاري (ت 256هـ): أشهر كتب الحديث المرتبة على الأبواب الفقهية، انتقى فيه مصنفه الأحاديث من مئات الآلاف التي جمعها في أسفاره، وجعل تراجم أبوابه نفسها دروساً في الفقه والاستنباط."
+  en: "The Jami' al-Musnad al-Sahih of Muhammad ibn Isma'il al-Bukhari (d. 256 AH): the best-known chapter-arranged hadith collection, distilled from the hundreds of thousands of reports its author gathered on his journeys, with the chapter headings themselves taught as lessons in jurisprudence."
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/sahih-al-bukhari] }
+authors: [person/al-bukhari]
+language: language/arabic
+wings: [words]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+relations:
+  - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "Sahih al-Bukhari source record (Deoband 1384–1387 AH edition)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

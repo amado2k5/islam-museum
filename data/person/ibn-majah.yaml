@@ -1,0 +1,25 @@
+id: person/ibn-majah
+class: person
+label: { ar: "ابن ماجه", en: "Ibn Majah" }
+names:
+  - { kind: full, lang: ar, value: "أبو عبد الله محمد بن يزيد القزويني" }
+gender: male
+died: { edtf: "0887~", hijri: "0273", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/sunan-ibn-majah] }
+roles: [scholar]
+traditions: [sunni]
+summary:
+  ar: "محدث قزوين صاحب «السنن» الذي صار عند جمهور المتأخرين سادس الكتب الستة؛ رحل في طلب الحديث إلى العراق والحجاز والشام ومصر، وتميز كتابه بأحاديث الزهد والفتن وما تفرد به عن الصحيحين."
+  en: "The muhaddith of Qazvin, author of the Sunan counted by later scholars as the sixth of the six books; he travelled for hadith to Iraq, the Hijaz, al-Sham and Egypt, and his collection is noted for renunciation and tribulation reports not found in the two Sahihs."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+relations:
+  - { type: authored, target: work/sunan-ibn-majah, sources: [source/sunan-ibn-majah] }
+sources: [source/sunan-ibn-majah]
+provenance:
+  layer: own-research
+  source: "Sunan Ibn Majah source record (Abd al-Baqi edition, author d. 273 AH)"
+  generated_by: "Devin (SWE-2 High)"
+  run: hadith-section-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

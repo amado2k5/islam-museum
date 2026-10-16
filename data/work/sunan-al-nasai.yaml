@@ -1,0 +1,19 @@
+id: work/sunan-al-nasai
+class: work
+kind: book
+label: { ar: "سنن النسائي", en: "Sunan al-Nasa'i" }
+summary:
+  ar: "السنن (السنن الصغرى) لأحمد بن شعيب النسائي (215–303هـ): من الكتب الستة، اشتهر بعنايته بعلل الحديث وأخطاء الراوي حتى قيل إنه أدقها من جهة العلل، وقسّمه مصنفه في النسخة المختصرة بعد أن انتقاه من سننه الكبرى."
+  en: "The Sunan al-Sughra of Ahmad ibn Shu'ayb al-Nasa'i (215–303 AH): one of the six books, famed for its attention to hidden defects and transmitters' errors — said to be the subtlest of them in that regard — distilled by its author from his larger Sunan."
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/sunan-al-nasai] }
+authors: [person/al-nasai]
+language: language/arabic
+wings: [words]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+relations:
+  - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sunan-al-nasai] }
+provenance: { layer: own-research, source: "Sunan al-Nasa'i source record", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+sources: [source/sunan-al-nasai]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

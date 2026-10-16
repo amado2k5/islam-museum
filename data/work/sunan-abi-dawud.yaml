@@ -1,0 +1,19 @@
+id: work/sunan-abi-dawud
+class: work
+kind: book
+label: { ar: "سنن أبي داود", en: "Sunan Abi Dawud" }
+summary:
+  ar: "سنن أبي داود سليمان بن الأشعث السجستاني (202–275هـ): من الكتب الستة، رتبه مصنفه على أبواب الفقه مقتصراً على أحاديث الأحكام، وقدم في رسالته إلى أهل مكة بيان منهجه فيما أخرجه وما تركه."
+  en: "The Sunan of Abu Dawud Sulayman ibn al-Ash'ath al-Sijistani (202–275 AH): one of the six books, arranged by legal chapter and restricted to reports bearing on rulings; his letter to the people of Mecca, prefixed to the work, explains what he included and omitted."
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/sunan-abi-dawud] }
+authors: [person/abu-dawud-al-sijistani]
+language: language/arabic
+wings: [words]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+relations:
+  - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sunan-abi-dawud] }
+provenance: { layer: own-research, source: "Sunan Abi Dawud source record (Kanpur/Deoband edition)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+sources: [source/sunan-abi-dawud]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

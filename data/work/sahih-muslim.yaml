@@ -1,0 +1,19 @@
+id: work/sahih-muslim
+class: work
+kind: book
+label: { ar: "صحيح مسلم", en: "Sahih Muslim" }
+summary:
+  ar: "المسند الصحيح المختصر بنقل العدل عن العدل إلى رسول الله لمسلم بن الحجاج القشيري النيسابوري (ت 261هـ): ثاني أشهر كتب الحديث، اشتهر بجمعه طرق الحديث الواحد في موضع واحد وبمقدمته في المصطلح التي صارت نصاً تأسيسياً في علم الحديث."
+  en: "The Musnad al-Sahih of Muslim ibn al-Hajjaj al-Naysaburi (d. 261 AH): the second most celebrated hadith collection, famed for gathering the variant transmissions of each report in one place and for its introductory essay that became a founding text of hadith method."
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/sahih-muslim] }
+authors: [person/muslim-ibn-al-hajjaj]
+language: language/arabic
+wings: [words]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+relations:
+  - { type: part_of, target: concept/kutub-al-sitta, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "Sahih Muslim source record (al-Maktaba al-Rashidiyya, Delhi 1376 AH)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

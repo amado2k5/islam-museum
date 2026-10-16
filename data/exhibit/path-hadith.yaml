@@ -1,0 +1,103 @@
+id: exhibit/path-hadith
+class: exhibit
+kind: trail
+label:
+  ar: "الحديث النبوي: من السماع إلى الصحيح"
+  en: "The Prophetic Hadith: From Hearing to the Collections"
+summary:
+  ar: "مسار في علوم الحديث في سبع محطات: ما الحديث، والإسناد الذي به يصل إلينا، والكتب الستة، وعلم المصطلح، والسيرة التي تحفظ سياقه، والشمائل التي تحفظ صورته — مدخل لأجنحة الكتب النبوية في المتحف."
+  en: "A trail through the hadith sciences in seven stations: what a hadith is, the isnad that conveys it, the six books, the science of methodology, the sira that preserves its context, and the shama'il that preserve the Prophet's portrait — a doorway into the museum's Prophetic-word shelves."
+audience:
+- student
+- newcomer
+duration_minutes: 35
+wings:
+- words
+- ideas
+periods:
+- period/prophetic-era
+- period/abbasid-early
+- period/abbasid-fragmentation
+regions:
+- arabia
+rooms:
+- title:
+    ar: "ما الحديث؟"
+    en: "What is a hadith?"
+  body:
+    ar: "قول وفعل وتقرير ووصف مروي عن النبي: المصدر الثاني بعد القرآن."
+    en: "Transmitted word, deed, approval and description of the Prophet: the second source after the Qur'an."
+  features:
+  - concept/al-hadith-al-nabawi
+  - person/muhammad
+- title:
+    ar: "الإسناد"
+    en: "The chain"
+  body:
+    ar: "«حدثنا فلان عن فلان»: كيف يصل الحديث من لسانه إلى الكتب."
+    en: "'So-and-so told us from so-and-so': how a report travels from his lips into the books."
+  features:
+  - concept/isnad
+  - concept/ittisal-al-isnad
+- title:
+    ar: "الكتب الستة"
+    en: "The Six Books"
+  body:
+    ar: "البخاري ومسلم وأبو داود والترمذي والنسائي وابن ماجه: مصنفات القرن الثالث التي صارت مرجع الأمة."
+    en: "Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasa'i and Ibn Majah: the third-century compilations that became the community's reference."
+  features:
+  - concept/kutub-al-sitta
+  - work/sahih-al-bukhari
+  - work/sahih-muslim
+- title:
+    ar: "قبل الستة: الموطأ والمسانيد"
+    en: "Before the six: Muwatta and the musnads"
+  body:
+    ar: "مالك في المدينة يجمع الموطأ قبل الصحيحين بنصف قرن."
+    en: "In Medina Malik compiles the Muwatta half a century before the Sahihs."
+  features:
+  - work/muwatta-malik
+  - person/malik-ibn-anas
+- title:
+    ar: "علم المصطلح"
+    en: "The methodology"
+  body:
+    ar: "كيف يفرق المحدثون بين الصحيح والضعيف: أحوال السند والمتن والراوي."
+    en: "How the muhaddithun tell sound from weak: the states of chain, text and narrator."
+  features:
+  - concept/mustalah-al-hadith
+  - concept/hadith-qudsi
+- title:
+    ar: "السيرة: سياق الحديث"
+    en: "Sira: the hadith's context"
+  body:
+    ar: "السيرة تحفظ الأحداث التي قيلت فيها الأحاديث، والحديث يحفظ السيرة."
+    en: "The sira preserves the events in which the reports were spoken, and the reports preserve the sira."
+  features:
+  - concept/al-sira-al-nabawiyya
+  - exhibit/path-life-of-the-prophet
+- title:
+    ar: "الشمائل: صورته"
+    en: "Shama'il: his portrait"
+  body:
+    ar: "خلقه وخُلقه كما نقله من رآه: باب الشمائل في جامع الترمذي."
+    en: "His form and character as eyewitnesses conveyed them: the Shama'il book in Tirmidhi's Jami'."
+  features:
+  - concept/al-shamail-al-muhammadiyya
+  - work/jami-al-tirmidhi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/sahih-al-bukhari
+- source/sahih-muslim
+- source/jami-al-tirmidhi
+- source/muwatta-malik
+provenance:
+  layer: own-research
+  source: "مسار تعليمي مبني على صفحات المتحف نفسها"
+  generated_by: "Devin (SWE-2 High)"
+  run: hadith-section-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: "Devin (SWE-2 High); pathway assembled from existing museum entries"

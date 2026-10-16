@@ -1,0 +1,26 @@
+id: person/abu-dawud-al-sijistani
+class: person
+label: { ar: "أبو داود السجستاني", en: "Abu Dawud al-Sijistani" }
+names:
+  - { kind: full, lang: ar, value: "أبو داود سليمان بن الأشعث السجستاني" }
+gender: male
+born: { edtf: "0817~", hijri: "0202", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/sunan-abi-dawud] }
+died: { edtf: "0889~", hijri: "0275", calendar: julian, precision: year, status: tradition, derived: true, sources: [source/sunan-abi-dawud] }
+roles: [scholar]
+traditions: [sunni]
+summary:
+  ar: "محدث سجستان صاحب «سنن أبي داود» أحد الكتب الستة؛ رحل في طلب الحديث حتى أدرك البصرة وبغداد وخراسان والشام ومصر، واقتصر في كتابه على أحاديث الأحكام مرتبة على أبواب الفقه."
+  en: "The muhaddith of Sijistan, author of the Sunan counted among the six books; he travelled for hadith to Basra, Baghdad, Khurasan, al-Sham and Egypt, and restricted his collection to the reports bearing on rulings, arranged by legal chapter."
+wings: [people, words]
+themes: [scripture-and-its-sciences]
+periods: [period/abbasid-fragmentation]
+regions: [persia-central-asia]
+relations:
+  - { type: authored, target: work/sunan-abi-dawud, sources: [source/sunan-abi-dawud] }
+sources: [source/sunan-abi-dawud]
+provenance:
+  layer: own-research
+  source: "Sunan Abi Dawud source record (author dates 202–275 AH on the edition)"
+  generated_by: "Devin (SWE-2 High)"
+  run: hadith-section-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

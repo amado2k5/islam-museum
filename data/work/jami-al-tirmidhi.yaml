@@ -1,0 +1,19 @@
+id: work/jami-al-tirmidhi
+class: work
+kind: book
+label: { ar: "جامع الترمذي", en: "Jami' al-Tirmidhi" }
+summary:
+  ar: "الجامع المختصر من السنن عن رسول الله لأبي عيسى محمد بن عيسى بن سورة الترمذي (ت 279هـ): من الكتب الستة، تميز ببيان درجة كل حديث (صحيح، حسن، غريب) وبذكر مذاهب الفقهاء في الباب، وله كتاب الشمائل المحمدية في أوصاف النبي."
+  en: "The Jami' of Abu 'Isa Muhammad ibn 'Isa al-Tirmidhi (d. 279 AH): one of the six books, distinguished by grading each report (sahih, hasan, gharib) and noting the jurists' positions under every chapter; it closes with the Book of al-Shama'il al-Muhammadiyya on the Prophet's description."
+genre: [hadith]
+made: { by_muslims: true, basis: documented, sources: [source/jami-al-tirmidhi] }
+authors: [person/al-tirmidhi-muhammad-ibn-isa]
+language: language/arabic
+wings: [words]
+themes: [scripture-and-its-sciences]
+regions: [arabia]
+relations:
+  - { type: part_of, target: concept/kutub-al-sitta, sources: [source/jami-al-tirmidhi] }
+provenance: { layer: own-research, source: "Jami' al-Tirmidhi source record (al-Maktaba al-Rashidiyya, Delhi)", generated_by: "Devin (SWE-2 High)", run: "hadith-section-1" }
+sources: [source/jami-al-tirmidhi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); structure only, no hadith texts" }

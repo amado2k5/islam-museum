@@ -1,0 +1,21 @@
+id: concept/al-sira-al-nabawiyya
+class: concept
+kind: term
+label: { ar: "السيرة النبوية", en: "The Prophetic sira" }
+summary:
+  ar: "السيرة النبوية هي التاريخ المروي لحياة النبي: مولده ونشأته ودعوته بمكة وهجرته وغزواته ووفاته، وما اتصل بذلك من حال أصحابه وأهل بيته. نشأت في المغازي والآثار المروية بالإسناد عند ابن إسحاق وتلاميذه، ثم استقلت فناً يؤرخ لثلاث وعشرين سنة غيّرت العالم."
+  en: "The Prophetic sira is the transmitted history of the Prophet's life: his birth and upbringing, his call in Mecca, the Hijra, his campaigns and his death, with the connected record of his Companions and family. It grew out of the maghazi and athar reports transmitted by isnad in Ibn Ishaq's school, then became its own genre chronicling the twenty-three years that changed the world."
+wings: [words, people, time]
+themes: [scripture-and-its-sciences]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: related_to, target: person/muhammad, note: "السيرة سجل حياته", sources: [source/ibn-hisham-sira] }
+  - { type: related_to, target: concept/al-hadith-al-nabawi, note: "السيرة والحديث متلازمان في رواية العصر النبوي", sources: [source/ibn-hisham-sira] }
+sources: [source/ibn-hisham-sira, source/mubarakpuri-raheeq]
+provenance:
+  layer: own-research
+  source: "سيرة ابن هشام والرحيق المختوم باعتبارهما النصين الممثلين للفن؛ صياغة المتحف"
+  generated_by: "Devin (SWE-2 High)"
+  run: hadith-section-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

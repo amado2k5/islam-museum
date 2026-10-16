@@ -1,0 +1,21 @@
+id: concept/al-hadith-al-nabawi
+class: concept
+kind: term
+label: { ar: "الحديث النبوي", en: "Hadith" }
+summary:
+  ar: "الحديث النبوي ما أُثر عن النبي من قول أو فعل أو تقرير أو وصف، يصل إلينا بسند ينتهي إليه؛ وهو المصدر الثاني من مصادر الإسلام بعد القرآن: يبيّن مجمله ويقرر تفاصيل العبادة والمعاملة والسيرة والأخلاق. جُمع في مصنفات مرتبة على الأبواب أو على مسانيد الرواة، أشهرها الكتب الستة."
+  en: "Hadith is what is transmitted of the Prophet's words, deeds, tacit approvals and descriptions, reaching us through a chain of narrators ending at him; it is Islam's second source after the Qur'an, expounding its generals and fixing the details of worship, dealings, biography and conduct. It was gathered into works arranged by legal chapter or by narrator's musnad, most famously the six books."
+wings: [words, ideas]
+themes: [scripture-and-its-sciences]
+periods: [period/prophetic-era, period/rashidun, period/umayyad, period/abbasid-early]
+regions: [arabia]
+relations:
+  - { type: related_to, target: person/muhammad, note: "الحديث أثره وكلامه وفعله", sources: [source/sahih-al-bukhari] }
+  - { type: related_to, target: concept/isnad, note: "طريق وصول الحديث", sources: [source/sahih-muslim] }
+sources: [source/sahih-al-bukhari, source/sahih-muslim]
+provenance:
+  layer: own-research
+  source: "الصحيحان باعتبارهما النص الممثل للمفهوم؛ صياغة المتحف"
+  generated_by: "Devin (SWE-2 High)"
+  run: hadith-section-1
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
