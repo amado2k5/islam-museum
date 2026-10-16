@@ -111,3 +111,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 19: 25 files (sharshal.md … siminjan.md), draft
 - place a–l batch 2 (Haiku 5.5, draft): 25 files, agra → al-arj; 936 Arabic files in a–l at commit time.
 - person i–m batch 14 (25 files, jahwar-ibn-marrar-al-ijli … jarir-ibn-yazid-al-bajali) — Claude Haiku 5.5, draft
+- concept batch 10 (Claude Haiku 5.5): 18 pages, ukhuwwa → zuyuf (final batch; concept slice complete)
