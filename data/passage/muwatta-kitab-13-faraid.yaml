@@ -3,12 +3,17 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-13"
-label: { ar: "الموطأ، كتاب الفرائض", en: "Muwatta, Book of Inheritance (Faraid)" }
+label: { ar: "الموطأ، كتاب الفرائض", en: "Muwatta, Book of Inheritance Shares (faraid)" }
 summary:
-  ar: "كتاب الفرائض في الموطأ، المجلد الثاني، يبدأ في صفحة 5 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Inheritance (Faraid) in the Muwatta, volume 2, starting at PDF page 5 (PDF numbering, not the printed page)."
+  ar: "كتاب الفرائض، الكتاب الثالث عشر من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997)، وهو أول كتب المجلد الثاني: 40 نصاً (1449–1488) في خمسة عشر باباً، من الصفحة 5 إلى الصفحة 26 من ملف PDF المجلد الثاني. يبدأ بميراث الولد والزوجين والأبوين والإخوة والأجداد والجدات والكلالة، ثم ميراث العمة وولاية العصبة، ثم أهل الملل والمولى، ويختم بميراث المجهول أمره وولد الملاعنة. {cite:muwatta-maruf-1997 p.5} {cite:muwatta-maruf-1997 p.26}"
+  en: "The Book of Inheritance Shares, thirteenth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997), the first book of volume 2: 40 reports (1449–1488) in fifteen babs, PDF pp. 5–26 of volume 2, from the inheritance of children, spouses, parents, siblings, grandparents and the kalala, to the inheritance of those whose death order is unknown and of children of li'an and zina."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 5", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-thabit, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab al-faraid, PDF pp. 5–26", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k13-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

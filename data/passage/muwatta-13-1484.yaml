@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1484"
-label: { ar: "الموطأ 1484", en: "Muwatta 1484" }
+label: { ar: "الموطأ 1484 — مالك: لا ينبغي أن يرث أحد أحدا بالشك، ولا يرث إلا باليقين من العلم والشهداء، فميراث الرجل يكون لأولى الناس به من الأحياء", en: "Muwatta 1484" }
 summary:
-  ar: "وقال مالك: لا ينبغي أن يرث أحد أحدًا بالشك، ولا يرث أحد أحدًا إلا باليقين من العلم؛ قاعدة اليقين في الميراث."
+  ar: "يقول مالك لا ينبغي أن يرث أحد أحدا بالشك، ولا يرث أحد أحدا إلا باليقين من العلم والشهداء، وذلك أن الرجل يهلك هو ومولاه الذي أعتقه أبوه، فيقول بنو الرجل العربي قد ورثه أبونا، فليس ذلك لهم أن يرثوه بغير علم ولا شهادة أنه مات قبله، وإنما يرثه أولى الناس به من الأحياء. {cite:muwatta-maruf-1997 p.25}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1484 of kitab 13-faraid at PDF p. 25", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-65" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1484 at PDF p. 25; ميراث من جهل أمره بالقتل أو غيره", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b29" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 25; matn excerpt at most 40 words" }

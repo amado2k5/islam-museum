@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1485"
-label: { ar: "الموطأ 1485", en: "Muwatta 1485" }
+label: { ar: "الموطأ 1485 — مالك: أخوان لأب وأم يموتان، لأحدهما ولد والآخر لا ولد له، فميراث الذي لا ولد له لأخيه لأبيه، وليس لبني أخيه لأبيه وأمه شيء", en: "Muwatta 1485" }
 summary:
-  ar: "مالك: ومن ذلك أيضًا الأخوان لأب وأم يموتان، ولأحدهما ولد والآخر لا ولد له... ؛ مسألة في ترتيب الموت وتوريث الأخوين؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك ومن ذلك أيضا الأخوان للأب والأم يموتان، ولأحدهما ولد، والآخر لا ولد له، ولهما أخ لأبيهما، فلا يعلم أيهما مات قبل، فميراث الذي لا ولد له لأخيه لأبيه، وليس لبني أخيه لأبيه وأمه شيء. {cite:muwatta-maruf-1997 p.25}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-13-faraid }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1485 of kitab 13-faraid at PDF p. 25", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k13-batch-65" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/faraid, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1485 at PDF p. 25; ميراث من جهل أمره بالقتل أو غيره", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k13-b29" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 25; matn excerpt at most 40 words" }
