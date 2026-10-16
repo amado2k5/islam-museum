@@ -1,0 +1,27 @@
+id: event/second-revelation-al-muddaththir
+class: event
+kind: revelation
+label: { ar: "نزول جبريل بالوحي مرة ثانية: أوائل المدثر", en: "The second descent of Jibril: the opening of surat al-Muddaththir" }
+summary:
+  ar: "بعد فترة الوحي سمع النبي صوتاً من السماء فرأى الملك الذي جاءه بحراء قاعداً على كرسي بين السماء والأرض، فرجع إلى أهله يطلب أن يُدثَّر، فأنزل الله أوائل سورة المدثر بأمر القيام والإنذار، ثم حمي الوحي وتتابع؛ ويقرأ المؤلف في أوامرها مواد الدعوة."
+  en: "After the pause in revelation the Prophet heard a voice from heaven and saw the angel who had come to him at Hira seated on a throne between heaven and earth; he returned home asking to be wrapped, and God sent down the opening of surat al-Muddaththir with the command to rise and warn, after which revelation came thick and fast; the author reads in its commands the substance of the call."
+date:
+  start: { edtf: "0610~", calendar: julian, precision: year, status: tradition, note: "بعد فترة الوحي التي يرجّح المؤلف أنها أيام (الرحيق ص69).", sources: [source/mubarakpuri-raheeq] }
+participants:
+  - { target: person/muhammad, role: "المنزَّل عليه" }
+wings: [time, people]
+themes: [scripture-and-its-sciences, prophets]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: caused_by, target: event/fatrat-al-wahy, sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/al-dawa-al-sirriyya, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص65–73 نقلاً عن صحيح البخاري 1/2–3، 2/733 وفتح الباري 1/27، 12/360 وابن هشام 1/235–238 وتاريخ الطبري 2/207 وزاد المعاد 1/18 ورحمة للعالمين 1/47–49 وفي ظلال القرآن 29/166–172"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-7a"
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/fi-zilal-al-quran]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum pp. 69–73" }

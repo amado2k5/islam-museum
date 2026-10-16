@@ -1,0 +1,21 @@
+id: place/jabal-al-nur
+class: place
+kind: mountain
+label: { ar: "جبل النور", en: "Jabal al-Nur" }
+summary:
+  ar: "جبل على نحو ميلين من مكة فيه غار حراء الذي كان النبي يخلو فيه قبل البعثة ونزل عليه فيه أول الوحي، في وصف الرحيق المختوم."
+  en: "A mountain about two miles from Mecca holding the cave of Hira where the Prophet retreated before his mission and received the first revelation, as al-Raheeq al-Makhtum describes it."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [arabia]
+coordinate_note: "لم تُحدَّد إحداثيات الجبل؛ إحداثيات الغار في بطاقته."
+relations:
+  - { type: located_in, target: place/mecca, note: "على مبعدة نحو ميلين من مكة (الرحيق ص65)", sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص65–73 نقلاً عن صحيح البخاري 1/2–3، 2/733 وفتح الباري 1/27، 12/360 وابن هشام 1/235–238 وتاريخ الطبري 2/207 وزاد المعاد 1/18 ورحمة للعالمين 1/47–49 وفي ظلال القرآن 29/166–172"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-7a"
+sources: [source/mubarakpuri-raheeq, source/rahma-lil-alamin]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 65" }
