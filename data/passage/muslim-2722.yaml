@@ -1,0 +1,16 @@
+id: passage/muslim-2722
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2722"
+label: { ar: "مسلم 2722 — اللهم آت نفسي تقواها وزكها أنت خير من زكاها", en: "Muslim 2722 — Grant my soul its piety, You are its best purifier" }
+text: "قال زيد بن أرقم: لا أقول لكم إلا كما كان رسول الله يقول، قال كان يقول: اللهم إني أعوذ بك من العجز والكسل والجبن والبخل والهرم وعذاب القبر، اللهم آت نفسي تقواها وزكها أنت خير من زكاها أنت وليها ومولاها، اللهم إني أعوذ بك من علم لا ينفع ومن قلب لا يخشع ومن نفس لا تشبع ومن دعوة لا يستجاب لها"
+summary:
+  ar: "رواية زيد بن أرقم في باب التعوذ من العجز والكسل وغيرهما من كتاب الذكر والدعاء في صحيح مسلم؛ الدعاء الجامع بتزكية النفس وطلب تقواها — نقله زيد كما سمعه لا يزيد فيه."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/zayd-ibn-arqam, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الذكر والدعاء، باب في التعوذ من العجز والكسل وغيرهما (طبعة دار التأصيل، الحديث 2822؛ ترقيم عبد الباقي المعروف 2722)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

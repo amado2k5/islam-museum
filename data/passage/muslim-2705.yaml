@@ -1,0 +1,17 @@
+id: passage/muslim-2705
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2705"
+label: { ar: "مسلم 2705 — اللهم اغسل خطاياي بماء الثلج والبرد", en: "Muslim 2705 — Wash my sins with water, snow and hail" }
+text: "قالت عائشة: كان رسول الله يدعو بهؤلاء الدعوات: اللهم إني أعوذ بك من فتنة النار وعذاب النار وفتنة القبر وعذاب القبر ومن شر فتنة الغنى ومن شر فتنة الفقر وأعوذ بك من شر فتنة المسيح الدجال، اللهم اغسل خطاياي بماء الثلج والبرد، وباعد بيني وبين خطاياي كما باعدت بين المشرق والمغرب"
+summary:
+  ar: "رواية عائشة في باب الدعاء في الصلاة من كتاب الذكر والدعاء في صحيح مسلم؛ الاستعاذة الجامعة من فتن النار والقبر والغنى والفقر والدجال، وسؤال غسل الخطايا بماء الثلج والبرد."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/aisha, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/al-dajjal, sources: [source/sahih-muslim] }
+  - { type: basis_for, target: practice/dua, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الذكر والدعاء (طبعة دار التأصيل، الحديث 2805؛ ترقيم عبد الباقي المعروف 2705)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
