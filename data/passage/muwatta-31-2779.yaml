@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2779"
-label: { ar: "الموطأ 2779", en: "Muwatta 2779" }
+label: { ar: "الموطأ 2779 — ابن عمر: أمر النبي بقتل الكلاب", en: "Muwatta 2779" }
 summary:
-  ar: "حديث ابن عمر: أمر النبي بقتل الكلاب."
+  ar: "يروي مالك عن نافع، عن عبد الله بن عمر أن رسول الله أمر بقتل الكلاب. ويذكر المحقق طرق الحديث عن مالك ومن رواه عنه، ويذكر قول ابن عبد البر أن الحديث محفوظ من حديث نافع كما هو محفوظ من حديث عبد الله بن دينار. {cite:muwatta-maruf-1997 p.562}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2779 of kitab 31-jami at PDF p. 562", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b119" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2779 at PDF p. 562; ما جاء في أمر الكلاب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b107" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة مع سياق الروايات" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 562; matn excerpt at most 40 words" }

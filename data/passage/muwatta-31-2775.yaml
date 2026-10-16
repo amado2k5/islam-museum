@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2775"
-label: { ar: "الموطأ 2775", en: "Muwatta 2775" }
+label: { ar: "الموطأ 2775 — خالد بن الوليد يأكل الضب والنبي ينظر: لا حرام ولكنه ليس بأرض قومي", en: "Muwatta 2775" }
 summary:
-  ar: "خالد بن الوليد يحكي أنه دخل مع النبي بيت ميمونة فقُدّم إليهم ضب مشوي، وفيه ما فعله النبي."
+  ar: "يروي مالك عن ابن شهاب، عن أبي أمامة بن سهل بن حنيف، عن عبد الله بن عباس، عن خالد بن الوليد أنه دخل مع النبي بيت ميمونة، فأتي بضب مشوي بالحجارة المحماة، فمد النبي يده إليه، فقالت بعض النسوة: أخبروا رسول الله بما يريد أن يأكل منه، فقيل له إنه ضب، فرفع يده. فسأله خالد: أحرام هو؟ فقال: لا، ولكنه لم يكن بأرض قومي، فأجدني أعافه. فأكله خالد والنبي ينظر. ويذكر المحقق أن ابن عباس كان حاضرا للقصة، وأن ذلك يؤيده حديث ابن المنكدر عن أبي أمامة. {cite:muwatta-maruf-1997 p.560}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2775 of kitab 31-jami at PDF p. 559", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b119" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-umama-ibn-sahl-ibn-hunayf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/khalid-ibn-al-walid, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/maymuna-bint-al-harith, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2775 at PDF p. 560; ما جاء في أكل الضب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b107" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نهاية الخبر غير واضحة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 560; matn excerpt at most 40 words" }

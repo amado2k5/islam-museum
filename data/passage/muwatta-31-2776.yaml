@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2776"
-label: { ar: "الموطأ 2776", en: "Muwatta 2776" }
+label: { ar: "الموطأ 2776 — رجل يسأل النبي عن الضب: لست بآكله ولا بمحرمه", en: "Muwatta 2776" }
 summary:
-  ar: "ابن عمر: سأل رجل النبي عن الضب، فقال: لست بآكله ولا بمحرّمه."
+  ar: "يروي مالك عن عبد الله بن دينار، عن عبد الله بن عمر أن رجلا نادى النبي فسأله عن الضب، فقال: لست بآكله ولا بمحرمه. ويذكر المحقق قول ابن عبد البر أن يحيى بن يحيى رواه هكذا عن مالك، وأن أكثر رواة الموطأ رووه كذلك، وأن رواية ابن بكير عن نافع عن ابن عمر صحيحة عنهما جميعا. {cite:muwatta-maruf-1997 p.560} {cite:muwatta-maruf-1997 p.561}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2776 of kitab 31-jami at PDF p. 560", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b119" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2776 at PDF p. 560; ما جاء في أكل الضب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b107" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 560; matn excerpt at most 40 words" }

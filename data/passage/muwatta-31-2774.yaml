@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2774"
-label: { ar: "الموطأ 2774", en: "Muwatta 2774" }
+label: { ar: "الموطأ 2774 — سليمان بن يسار: ضباب في بيت ميمونة ومسألة الجارية", en: "Muwatta 2774" }
 summary:
-  ar: "النبي يدخل بيت ميمونة فيجد ضبابًا مشويًا فيسأل من أين هذا، ومعه ابن عباس وخالد بن الوليد."
+  ar: "يروي مالك عن عبد الرحمن بن عبد الله بن عبد الرحمن بن أبي صعصعة، عن سليمان بن يسار، أن النبي دخل بيت ميمونة بنت الحارث فوجد عندها ضبابا، أهدتها إليها أختها هزيلة بنت الحارث. فقال لابن عباس وخالد بن الوليد: كلا. فقالا: ألا تأكل أنت؟ فقال إنه يحضره أمر من الله. ثم شرب من لبن قدمته ميمونة، وسألها عن مصدره فأجابت بأنه من الهدية نفسها، فأشار عليها أن تعطي الجارية التي استأمرته في عتقها لأختها، وأن تصل بها رحمها. {cite:muwatta-maruf-1997 p.559}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2774 of kitab 31-jami at PDF p. 559", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b119" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/maymuna-bint-al-harith, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/khalid-ibn-al-walid, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-abdallah-ibn-abd-al-rahman-ibn-abi-sasaa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2774 at PDF p. 559; ما جاء في أكل الضب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b107" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 559; matn excerpt at most 40 words" }

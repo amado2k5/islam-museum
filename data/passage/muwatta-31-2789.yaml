@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2789"
-label: { ar: "الموطأ 2789", en: "Muwatta 2789" }
+label: { ar: "الموطأ 2789 — اللقحة تحلب: الذي يكره اسمه فيأمره النبي بالجلوس ثم يحلب من اسمه يعيش", en: "Muwatta 2789" }
 summary:
-  ar: "النبي يسأل عمّن يحلب لقحة، فيقوم رجل فيسأله النبي عن اسمه، ثم يتكرر السؤال."
+  ar: "يروي مالك عن يحيى بن سعيد أن النبي قال للقحة تحلب: من يحلب هذه؟ فقام رجل فسأله عن اسمه فقال: مرة، فقال له: اجلس. ثم قام آخر فقال: حرب، فأمره بالجلوس. ثم قام ثالث فقال: يعيش، فقال له: احلب. ويذكر المحقق أن البخاري في الأدب المفرد أخرجه مرفوعا من طريق إسحاق بن عبد الله بن أبي طلحة عن أنس بإسناد يرى المحقق صحته. {cite:muwatta-maruf-1997 p.567} {cite:muwatta-maruf-1997 p.568}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2789 of kitab 31-jami at PDF p. 567", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b120" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2789 at PDF p. 567; ما يُكْرَهُ من الأسماء", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b107" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نص الخبر مقطوع في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 567; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2790"
-label: { ar: "الموطأ 2790", en: "Muwatta 2790" }
+label: { ar: "الموطأ 2790 — عمر بن الخطاب والرجل الذي اسمه جمرة وابنه شهاب", en: "Muwatta 2790" }
 summary:
-  ar: "عمر يسأل رجلًا عن اسمه ونسبه ومسكنه، فتأتي الأجوبة بألفاظ توحي بالنار، فيقول له عمر: أدرك أهلك فقد احترقوا."
+  ar: "يروي مالك عن يحيى بن سعيد أن عمر بن الخطاب قال لرجل: ما اسمك؟ قال: جمرة. قال: ابن من؟ قال: ابن شهاب. قال: ممن؟ قال: من الحرقة. قال: أين مسكنك؟ قال: بحرة النار. قال: بأيها؟ قال: بذات لظى. فقال عمر: أدرك أهلك فقد احترقوا، فكان كما قال عمر. ويذكر المحقق قول الزرقاني إن الأثر منقطع، وإن أبا القاسم بن بشران وصله من طريق موسى بن عقبة عن نافع عن ابن عمر. {cite:muwatta-maruf-1997 p.568}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2790 of kitab 31-jami at PDF p. 568", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b120" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2790 at PDF p. 568; ما يُكْرَهُ من الأسماء", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b107" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 568; matn excerpt at most 40 words" }
