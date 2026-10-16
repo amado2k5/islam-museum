@@ -115,3 +115,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person s–z batch 9 (Claude Code, claude-haiku-5-5): sokollu-mehmed-pasha … sulayman-ibn-al-hasan, 25 files, 25 files.
 - place m–z batch 20: 25 files (sind.md … sumaysat.md), draft
 - event a–m batch 5 (2026-10-16, claude-haiku-5-5): 25 pages, ashari-persecution-khurasan-1053 → baghdad-quarter-wars-601 (EN drafts).
+- polity batch 1 (25 files, abbasid-caliphate … fatimid-caliphate): done by Claude Haiku 5.5, draft

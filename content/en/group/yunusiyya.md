@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-The Yunusiyya are a order of dervishes, named after Shaykh Yunus ibn Yusuf al-Mukhariqi, and known by his name. {cite:wafayat-ayan p.256-257}
+The Yunusiyya are an order of dervishes, named after Shaykh Yunus ibn Yusuf al-Mukhariqi, and known by his name. {cite:wafayat-ayan p.256-257}
 
 ## Their shaykh
 Ibn Khallikan says that in the eyes of his followers Yunus was a "majdhub" without a shaykh. They call anyone without a shaykh a majdhub, meaning that he was drawn to the path of good and righteousness. {cite:wafayat-ayan p.256-257}
