@@ -25,3 +25,7 @@ translators: []
 
 ## في الحصار (الرحيق المختوم ص110)
 كان يحمل القمح إلى عمته [[person/khadija|خديجة]] في الشعب، فتعرض له [[person/abu-jahl|أبو جهل]] فتدخل [[person/abu-al-bakhtari-ibn-hisham|أبو البختري]] ومكّنه من حمله {cite:mubarakpuri-raheeq p.110}.
+
+
+## في بدر (الرحيق المختوم ص213، 215)
+لم يشرب من حوض المسلمين فلم يُقتل، وقال بعد إسلامه إذا أجهد في اليمين: لا والذي نجاني من يوم بدر. وعرض على عتبة أن يرجع بالناس ويتحمل دية حليفه، فلم يقبل أبو جهل ([[event/badr-battle-day|يوم بدر]]) {cite:mubarakpuri-raheeq p.213} {cite:mubarakpuri-raheeq p.215}.

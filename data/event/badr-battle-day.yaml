@@ -1,0 +1,33 @@
+id: event/badr-battle-day
+class: event
+kind: battle
+label: { ar: "يوم بدر: الصف والمبارزة ونصر الله", en: "The day of Badr: the lines, the duels and the victory" }
+summary:
+  ar: "في الجمعة السابع عشر من رمضان سنة اثنتين من الهجرة وقف الجيشان في بدر؛ دعا النبي ربه ساعة اشتد القتال، ثم نزلت الملائكة، فهزم الله جيش مكة، وقُتل صناديدهم بعد مبارزات أولها بين حمزة وعلي وعبيدة وبين عتبة وشيبة والوليد، وفرّ إبليس في صورة سراقة."
+  en: "On the Friday of 17 Ramadan in the second year of the Hijra the two armies met at Badr; the Prophet prayed to his Lord at the height of the fighting, the angels came down, God routed the Meccan army, and their chiefs fell after duels whose first were between Hamza, Ali and Ubayda and Utba, Shayba and al-Walid; Iblis fled in the form of Suraqa."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-03-17~", calendar: julian, precision: day, status: tradition, note: "ليلة الجمعة السابع عشر من رمضان سنة اثنتين من الهجرة، يقرره الكتاب (الرحيق ص212)." }
+relations:
+  - { type: occurred_at, target: place/badr, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hamza, role: "بارز عتبة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "بارز الوليد", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ubayda-ibn-al-harith, role: "بارز شيبة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/utba-ibn-rabia, role: "قُتل في المبارزة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/hakim-ibn-hizam, role: "لم يقتل ثم أسلم وحسن إسلامه", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umayr-ibn-al-humam, role: "قاتل حتى قُتل", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "أسره رجل من الأنصار", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/badr-duel, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/sahih-muslim, source/sahih-al-bukhari, source/mishkat-al-masabih]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص212–219 نقلاً عن ابن هشام 1/630–650 وصحيح مسلم وصحيح البخاري 2/568 ورحمة للعالمين 1/120–123 ومشكاة المصابيح"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-14b"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 212–219" }
