@@ -151,3 +151,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 28: 25 files (zafar-yakhsub.md … zuwayla.md), draft
 - person i–m batch 21 (25 files, mahwiya … malik-ibn-zaflah) — Claude Haiku 5.5, draft
 - place m–z batch 29: 1 files (zuzan.md … zuzan.md), draft
+- person s–z batch 15 (Claude Code, claude-haiku-5-5): ukasha-ibn-mihsan … umayr-ibn-dabi, 25 files, 25 files.
