@@ -1,0 +1,31 @@
+id: event/emigration-of-the-companions
+class: event
+kind: migration
+label: { ar: "هجرة المسلمين إلى يثرب بعد البيعة", en: "The emigration of the Muslims to Yathrib after the pledge" }
+summary:
+  ar: "بعد بيعة العقبة الثانية أذن النبي للمسلمين بالهجرة، فخرجوا أرسالاً، وحال المشركون بين بعضهم وبين الخروج، كأبي سلمة وزوجه أم سلمة، وصهيب الذي فدى نفسه بماله، وعمر وعياش وهشام الذين حُبس منهم عياش وهشام؛ وبقي النبي وأبو بكر وعلي بمكة."
+  en: "After the second pledge of al-Aqaba the Prophet authorised the Muslims to emigrate, and they left in groups; the Meccans hindered some, such as Abu Salama and his wife Umm Salama, Suhayb who ransomed himself with his wealth, and Ayyash and Hisham, who were held back; the Prophet, Abu Bakr and Ali remained at Mecca."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0622~", calendar: julian, precision: year, status: tradition, note: "بعد بيعة العقبة الثانية في السنة الثالثة عشرة من البعثة (الرحيق ص155–157)." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-salama, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umm-salama, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/suhayb-ibn-sinan, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ayyash-ibn-abi-rabia, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-bakr, sources: [source/mubarakpuri-raheeq] }
+  - { type: caused_by, target: event/second-pledge-of-aqaba, sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/hijra, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص153–160 نقلاً عن ابن هشام 1/448–482 وزاد المعاد 2/51–52 وصحيح البخاري 1/553–558 ورحمة للعالمين 2/29–31"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-11b"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 155–157" }

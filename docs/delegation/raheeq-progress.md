@@ -23,7 +23,7 @@
 | 8 الدعوة جهاراً | 78–108 | **done**: 8a `a9955afe` (pp. 78–87), 8b `ee9a3948` (pp. 88–100), 8c (pp. 100–108: Hamza, Umar, Utba's offer, Abu Talib's gathering rewritten with page cites) |
 | 9 المقاطعة / عام الحزن | 109–124 | **done**: 9a `5960d545` (pp. 109–115: covenant, siege, nullification, last delegation), 9b (pp. 115–124: deaths of Abu Talib and Khadija, Year of Sorrow, Ibn al-Dughunna, Sawda, sources of steadfastness appended to concept sabr) |
 | 10 خارج مكة / الإسراء | 125–142 | **done**: 10a `96cb131c` (pp. 125–131: Ta'if, the jinn at Wadi Nakhla, offering Islam to the tribes), 10b (pp. 132–142: Tufayl, Abu Dhar, Dhimad, the six men of Yathrib, Aisha's marriage, the Night Journey rewritten with page cites) |
-| 11 بيعتا العقبة / دار الندوة | 143–160 | in progress: 11a (pp. 143–152: first pledge of al-Aqaba, Mus'ab's mission, second pledge, the covenant clauses and the twelve chiefs) applied; 11b (pp. 153–160: Quraysh's reaction, the emigrations, the Dar al-Nadwa plot) pending |
+| 11 بيعتا العقبة / دار الندوة | 143–160 | **done**: 11a `6827efdc` (pp. 143–152: first and second pledges of al-Aqaba, Mus'ab's mission, the covenant clauses, the twelve chiefs), 11b (pp. 153–160: the emigrations and the stories of their hindrance, Abu Bakr waiting, the Dar al-Nadwa plot; new place dar-al-nadwa) |
 | 12 الهجرة | 161–174 | pending |
 | 13 الحياة في المدينة / السرايا قبل بدر | 175–203 | pending |
 | 14 بدر | 204–233 | pending |
@@ -50,7 +50,7 @@
 
 ## Next step
 
-Chapter 11 onward (chapter 11 starts at p. 143; read its pages and the existing entities first). Chapters 1–10 are on main.
+Chapter 12 onward (chapter 12 starts at p. 161; read its pages and the existing entities first). Chapters 1–11 are on main.
 
 ## First pass (Oct 2026, old rules): batch log
 

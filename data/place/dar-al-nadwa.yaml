@@ -1,0 +1,20 @@
+id: place/dar-al-nadwa
+class: place
+kind: site
+label: { ar: "دار الندوة", en: "Dar al-Nadwa" }
+summary:
+  ar: "دار قصي بن كلاب بمكة، كانت مجلس شورى قريش؛ عقدت فيها قريش برلمانها الذي دبّر قتل النبي قبيل الهجرة."
+  en: "The house of Qusayy ibn Kilab at Mecca, the council chamber of Quraysh; Quraysh held there the assembly that planned to kill the Prophet before the emigration."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: located_in, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص158–160"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-11b"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 158–160" }
