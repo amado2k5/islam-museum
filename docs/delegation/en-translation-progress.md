@@ -127,3 +127,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - event a–m batch 6 (2026-10-16, claude-haiku-5-5): 25 pages, baghdad-sectarian-war-422 → battle-of-ajnadayn (EN drafts).
 - person s–z batch 11 (Claude Code, claude-haiku-5-5): surama-ibn-abi-anas … tarifa-al-kahina, 25 files, 25 files.
 - person i–m batch 17 (25 files, khalid-al-azhari … kharija-ibn-zayd-ibn-thabit) — Claude Haiku 5.5, draft
+- place m–z batch 23: 25 files (tarabulus-gharb.md … thabun.md), draft
