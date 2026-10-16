@@ -1,0 +1,64 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { REPO } from "../../../lib/graph";
+import { siPatreon, siPaypal } from "simple-icons";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const S = T.support;
+const PATREON = "https://www.patreon.com/14118699/join";
+const PAYPAL = "https://www.paypal.com/donate/?business=KHXBWQAVZK3VE&no_recurring=0&item_name=Support+islam.museum%21+An+ad-free%2C+open-source+archive+mapping+14+centuries+of+Islamic+history%2C+figures%2C+and+heritage.&currency_code=CAD";
+const LAUNCHGOOD = "https://www.launchgood.com/v4/campaign/build_the_worlds_first_open_digital_museum_of_islam_islammuseum?src=1096683";
+---
+<BaseLayout lang={lang} title={S.title} description={S.lede} path={`/${lang}/support/`}>
+  <PageHeader title={S.title} lede={S.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: S.title }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      <section aria-labelledby="why-h" class="s-sec">
+        <h2 id="why-h">{S.why_title}</h2>
+        <p>{S.why_body}</p>
+      </section>
+
+      <section aria-labelledby="ways-h" class="s-sec">
+        <h2 id="ways-h">{S.ways_title}</h2>
+        <div class="grid-cards">
+          <div class="card">
+            <h3 class="card-title">{S.patreon_title}</h3>
+            <p>{S.patreon_body}</p>
+            <p><a class="ui btn" href={PATREON} rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d={siPatreon.path} /></svg>{S.patreon_cta}</a></p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">{S.launchgood_title}</h3>
+            <p>{S.launchgood_body}</p>
+            <p><a class="ui btn" href={LAUNCHGOOD} rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 21s-7.5-4.6-9.5-9.1C1.1 8.6 3.1 5 6.6 5c2 0 3.6 1.2 4.4 2.6C11.8 6.2 13.4 5 15.4 5c3.5 0 5.5 3.6 4.1 6.9C19.5 16.4 12 21 12 21z"/></svg>{S.launchgood_cta}</a></p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">{S.paypal_title}</h3>
+            <p>{S.paypal_body}</p>
+            <p><a class="ui btn" href={PAYPAL} rel="noopener"><svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d={siPaypal.path} /></svg>{S.paypal_cta}</a></p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">{S.other_title}</h3>
+            <p>{S.other_body}</p>
+            <p class="ui f-links"><a href={REPO} rel="noopener">{S.contribute}</a> · <a href={`/${lang}/foundation/`}>{T.nav.foundation}</a></p>
+          </div>
+        </div>
+      </section>
+
+      <p class="ui muted s-note">{S.note}</p>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .s-sec { margin-block: 2rem 0; }
+  .s-sec:first-child, .s-sec:first-child h2 { margin-top: 0; }
+  .s-note { margin-top: 2rem; font-size: 0.92rem; }
+  .f-links { margin-top: 0.5rem; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; }
+  .btn svg { flex: none; }
+</style>
