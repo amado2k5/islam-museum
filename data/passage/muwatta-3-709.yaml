@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "709"
-label: { ar: "الموطأ 709", en: "Muwatta 709" }
+label: { ar: "الموطأ 709 — مالك: الخليطان من كان الراعي والفحل والمراح والدلو واحداً، ولا تجب عليهما الصدقة حتى يكون لكل منهما نصاب", en: "Muwatta 709" }
 summary:
-  ar: "مالك في الخليطين إذا كان الراعي واحدًا والفحل واحدًا والمراح واحدًا والدلو... ؛ حكم الخليطين في الزكاة."
+  ar: "أول نص في باب صدقة الخلطاء. يقول مالك: الخليطان إذا كان الراعي واحداً والفحل واحداً والمراح واحداً والدلو واحداً فهما خليطان وإن عرف كل واحد منهما ماله من مال صاحبه، والذي لا يعرف ماله من مال صاحبه ليس بخليط إنما هو شريك. ولا تجب الصدقة على الخليطين حتى يكون لكل واحد منهما ما تجب فيه الصدقة: فإن كان لأحدهما أربعون شاة فصاعداً وللآخر أقل كانت الصدقة على صاحب الأربعين وحده؛ وإن كان لكل منهما نصاب جُمعا في الصدقة ووجبت عليهما جميعاً، فإن كان لأحدهما ألف شاة وللآخر أربعون فهما خليطان يترادان الفضل بينهما بالسوية على قدر عدد أموالهما. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.354} {cite:muwatta-maruf-1997 p.355}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 709 of kitab 03-zakat at PDF p. 354", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-33" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 709 at PDF p. 354; باب صدقة الخلطاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 354; matn excerpt at most 40 words" }

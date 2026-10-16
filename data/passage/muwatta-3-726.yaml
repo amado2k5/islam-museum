@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "726"
-label: { ar: "الموطأ 726", en: "Muwatta 726" }
+label: { ar: "الموطأ 726 — مالك: لا يخرص من الثمار إلا النخيل والأعناب، تخرص حين يبدو صلاحها للتوسعة على الناس", en: "Muwatta 726" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندنا أنه لا يُخرص من الثمار إلا النخيل والأعناب؛ الخرص في الثمار."
+  ar: "قول لمالك: الأمر المجتمع عليه عندنا أنه لا يُخرص من الثمار إلا النخيل والأعناب، فإن ذلك يُخرص حين يبدو صلاحه ويحل بيعه، لأن ثمر النخيل والأعناب يؤكل رطباً وعنباً، فيُخرص على أهله للتوسعة على الناس ولئلا يكون على أحد في ذلك ضيق، ثم يُخلى بينهم وبينه يأكلونه كيف شاؤوا، ثم يؤدون منه الزكاة على ما خُرص عليهم. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسعيد بن عفير ويحيى بن بكير عند أبي عبيد في الأموال (1443). {cite:muwatta-maruf-1997 p.364} {cite:muwatta-maruf-1997 p.365}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 726 of kitab 03-zakat at PDF p. 364", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-33" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 726 at PDF p. 364; باب زكاة ما يخرص من ثمار النخيل والأعناب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 364; matn excerpt at most 40 words" }

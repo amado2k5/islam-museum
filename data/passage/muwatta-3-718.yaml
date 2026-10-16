@@ -3,11 +3,23 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "718"
-label: { ar: "الموطأ 718", en: "Muwatta 718" }
+label: { ar: "الموطأ 718 — مرسل عطاء بن يسار: لا تحل الصدقة لغني إلا لخمسة", en: "Muwatta 718" }
+text: "لا تحل الصدقة لغني، إلا لخمسة: لغاز في سبيل الله، أو لعامل عليها، أو لغارم، أو لرجل اشتراها بماله، أو رجل له جار مسكين، فتصدق على المسكين، فأهدى المسكين للغني"
 summary:
-  ar: "زيد بن أسلم عن عطاء بن يسار: أن رسول الله ﷺ قال: لا تحل الصدقة لغني... ؛ الحديث في منع الصدقة للغني."
+  ar: "أول حديث في باب أخذ الصدقة ومن يجوز له أخذها. يرويه مالك عن زيد بن أسلم عن عطاء بن يسار مرسلاً، أن النبي قال: لا تحل الصدقة لغني إلا لخمسة: لغاز في سبيل الله، أو لعامل عليها، أو لغارم، أو لرجل اشتراها بماله، أو رجل له جار مسكين فتُصدق على المسكين فأهدى المسكين للغني. ويذكر المحقق أنه رواه عن مالك أبو مصعب والقعنبي عند أبي داود (1635) ومحمد بن الحسن الشيباني (343)، وينقل عن ابن عبد البر (التمهيد 5/95) أن مالكاً أرسله وتابعه ابن عيينة وإسماعيل بن أمية، وأن الثوري رواه عن زيد عن عطاء: حدثني الثبت، وأن معمراً وصله عن أبي سعيد الخدري (عبد الرزاق 7151، أبو داود 1636، ابن ماجة 1841، ابن خزيمة 2374، الحاكم 1/407)، وأن أبا حاتم وأبا زرعة والدارقطني خطّؤوا رواية معمر الموصولة، ثم يناقش المحقق طويلاً رواية عبد الرزاق عن معمر والثوري جميعاً، ويذكر أن ابن خزيمة والحاكم والبيهقي والمنذري والألباني وهو نفسه في تعليقه على ابن ماجة صححوا الموصول بناء على قبول زيادة الثقة، ثم يرجح أن المرسل أصح لاتفاق مالك وابن عيينة وإسماعيل بن أمية عليه واضطراب أصحاب الثوري. {cite:muwatta-maruf-1997 p.360} {cite:muwatta-maruf-1997 p.361}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 718 of kitab 03-zakat at PDF p. 360", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-33" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sufyan-al-thawri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sufyan-ibn-uyayna, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-daraqutni, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-albani-muhammad-nasir-al-din, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sadaqa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 718 at PDF p. 360; باب أخذ الصدقة ومن يجوز له أخذها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 360; matn excerpt at most 40 words; doubt: مرسل عند مالك؛ المحقق يرجح المرسل على الموصول عن أبي سعيد خلافاً لما كان صححه في تعليقه على ابن ماجة." }

@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "719"
-label: { ar: "الموطأ 719", en: "Muwatta 719" }
+label: { ar: "الموطأ 719 — مالك: قسم الصدقات على وجه الاجتهاد من الوالي، وليس للعامل عليها فريضة مسماة", en: "Muwatta 719" }
 summary:
-  ar: "مالك: الأمر عندنا في قسم الصدقات أن ذلك لا يكون إلا على وجه الاجتهاد من... ؛ رأي في قسمة الصدقات."
+  ar: "قول لمالك: الأمر عندنا في قسم الصدقات أن ذلك لا يكون إلا على وجه الاجتهاد من الوالي، فأي الأصناف كانت فيه الحاجة والعدد أُوثر بقدر ما يرى الوالي، وعسى أن ينتقل ذلك إلى الصنف الآخر بعد عام أو أعوام، فيُؤثر أهل الحاجة والعدد حيثما كانوا، وعلى هذا أدرك من يرضى من أهل العلم. ويقول مالك: وليس للعامل على الصدقات فريضة مسماة إلا على قدر ما يرى الإمام. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.361}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 719 of kitab 03-zakat at PDF p. 361", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-33" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 719 at PDF p. 361; باب أخذ الصدقة ومن يجوز له أخذها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 361; matn excerpt at most 40 words" }

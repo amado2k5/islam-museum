@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "725"
-label: { ar: "الموطأ 725", en: "Muwatta 725" }
+label: { ar: "الموطأ 725 — ابن شهاب: لا يؤخذ في صدقة النخل الجعرور ولا مصران الفأرة ولا عذق ابن حبيق؛ ومالك: إنما تؤخذ الصدقة من أوساط المال", en: "Muwatta 725" }
+text: "وإنما تؤخذ الصدقة من أوساط المال"
 summary:
-  ar: "زياد بن سعد عن ابن شهاب: لا يُؤخذ في صدقة النخل الجعرور... ؛ حكم أنواع التمر في الصدقة."
+  ar: "يرويه مالك عن زياد بن سعد عن ابن شهاب، أنه قال: لا يؤخذ في صدقة النخل الجعرور ولا مصران الفأرة ولا عذق ابن حبيق، وهي أنواع رديئة من التمر، ويُعد على صاحب المال ولا يؤخذ منه في الصدقة. ويقول مالك: إنما مثل ذلك الغنم تُعد على صاحبها بسخالها والسخل لا يؤخذ منه في الصدقة، وقد يكون في الأموال ثمار لا تؤخذ الصدقة منها كالبردي وما أشبهه، لا يؤخذ من أدناه كما لا يؤخذ من خياره، وإنما تؤخذ الصدقة من أوساط المال. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسعيد بن عفير ويحيى بن بكير عند أبي عبيد في الأموال (1541)، وينقل عن ابن عبد البر (التمهيد 6/83–84) أنه مروي عن ابن شهاب عن أبي أمامة بن سهل بن حنيف عن أبيه عن النبي من رواية سفيان بن حسين وسليمان بن كثير (أبو داود 1607، ابن خزيمة 2313)، ويرى المحقق أن الموصول ضعيف لأنهما ضعيفان في الزهري. {cite:muwatta-maruf-1997 p.363} {cite:muwatta-maruf-1997 p.364}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 725 of kitab 03-zakat at PDF p. 363", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-33" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ziyad-ibn-sad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-umama-ibn-sahl-ibn-hunayf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 725 at PDF p. 363; باب زكاة ما يخرص من ثمار النخيل والأعناب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 363; matn excerpt at most 40 words" }

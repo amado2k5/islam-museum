@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "716"
-label: { ar: "الموطأ 716", en: "Muwatta 716" }
+label: { ar: "الموطأ 716 — محمد بن مسلمة مصدقاً في أشجع: يقول لرب المال أخرج إلي صدقة مالك، فلا يقود إليه شاة فيها وفاء إلا قبلها", en: "Muwatta 716" }
 summary:
-  ar: "محمد بن يحيى بن حبان: أخبره رجلان من أشجع... ؛ حديث في الصدقة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن محمد بن يحيى بن حبان، قال: أخبرني رجلان من أشجع أن محمد بن مسلمة الأنصاري كان يأتيهم مصدقاً فيقول لرب المال: أخرج إلي صدقة مالك، فلا يقود إليه شاة فيها وفاء من حقه إلا قبلها. ويذكر المحقق أنه رواه عن مالك أبو مصعب والشافعي ومن طريقه البيهقي ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.359}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 716 of kitab 03-zakat at PDF p. 359", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-33" }
+  - { type: mentions, target: person/muhammad-ibn-maslama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-yahya-ibn-habban, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: group/ashja, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 716 at PDF p. 359; باب النهي عن التضييق على الناس في الصدقة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 359; matn excerpt at most 40 words" }

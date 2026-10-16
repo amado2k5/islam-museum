@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "710"
-label: { ar: "الموطأ 710", en: "Muwatta 710" }
+label: { ar: "الموطأ 710 — مالك: الخليطان في الإبل بمنزلة الخليطين في الغنم، يجمعان في الصدقة إذا كان لكل منهما نصاب", en: "Muwatta 710" }
 summary:
-  ar: "مالك: الخليطان في الإبل بمنزلة الخليطين في الغنم يجمعان في الصدقة جميعًا؛ حكم جمع الخليطين."
+  ar: "قول لمالك: الخليطان في الإبل بمنزلة الخليطين في الغنم، يُجمعان في الصدقة جميعاً إذا كان لكل واحد منهما ما تجب فيه الصدقة، ويحتج بقول النبي إنه لا صدقة فيما دون خمس ذود من الإبل، وبقول عمر بن الخطاب: وفي سائمة الغنم إذا بلغت أربعين شاة شاة. ويقول مالك: وهذا أحب ما سمعت إلي في هذا. ويذكر المحقق أن قول مالك هذا رواه عنه أبو مصعب. {cite:muwatta-maruf-1997 p.355} {cite:muwatta-maruf-1997 p.356}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 710 of kitab 03-zakat at PDF p. 355", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-33" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 710 at PDF p. 355; باب صدقة الخلطاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 355; matn excerpt at most 40 words" }

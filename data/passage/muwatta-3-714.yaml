@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "714"
-label: { ar: "الموطأ 714", en: "Muwatta 714" }
+label: { ar: "الموطأ 714 — مالك: إبل مئة وجبت فيها صدقتان ثم هلكت إلا خمساً، يأخذ المصدق من الخمس شاتين، لأن الصدقة تجب يوم يصدق المال", en: "Muwatta 714" }
 summary:
-  ar: "مالك: الأمر عندنا في الرجل تجب عليه الصدقة وإبله مئة بعير فلا يأتي... ؛ حكم الإبل في الزكاة عند الزيادة."
+  ar: "النص الوحيد في باب العمل في صدقة عامين إذا اجتمعتا. يقول يحيى: قال مالك: الأمر عندنا في الرجل تجب عليه الصدقة وإبله مئة بعير فلا يأتيه الساعي حتى تجب عليه صدقة أخرى، فيأتيه المصدق وقد هلكت إبله إلا خمس ذود: يأخذ المصدق من الخمس ذود الصدقتين اللتين وجبتا على رب المال، شاتين في كل عام شاة، لأن الصدقة إنما تجب على رب المال يوم يُصدّق ماله، فإن هلكت ماشيته أو نمت فإنما يصدّق المصدق ما يجد يوم يصدق؛ وإن تظاهرت على رب المال صدقات غير واحدة فليس عليه أن يصدّق إلا ما وجد المصدق عنده، فإن هلكت ماشيته كلها أو صارت إلى ما لا تجب فيه الصدقة فلا صدقة عليه ولا ضمان فيما هلك ومضى من ماله. ويثبت المحقق فروق النسخ، ويذكر أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.358}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 714 of kitab 03-zakat at PDF p. 358", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-33" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 714 at PDF p. 358; باب العمل في صدقة عامين إذا اجتمعتا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b03" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 358; matn excerpt at most 40 words" }
