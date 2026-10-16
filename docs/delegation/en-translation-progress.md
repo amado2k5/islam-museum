@@ -30,3 +30,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 
 `translators: ["Devin (SWE-2), draft translation"]`; keep `[[id|label]]` ids, `{cite:id loc}` ids (localise `ص` → `p.`), `:::perspectives` order (Sunni first); standard headers used in this lane: `## Summary` (موجز), `## The account` (الرواية/خبر الوقعة), `## Markers of weakness and doubt` (علامات التمريض والشك), `## For young visitors` (للزوار الصغار).
 - person d–h batch 1 (Claude Haiku 5.5): 25 pages, daghful-ibn-al-muqarrij → dirar-ibn-amr (commit b8124662)
+- work batch 1 (25 files, aban-ibn-said-verses-to-khalid-and-amr … al-amthal-al-saira): done by Claude Haiku 5.5, draft
