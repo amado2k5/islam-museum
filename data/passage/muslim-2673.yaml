@@ -1,0 +1,16 @@
+id: passage/muslim-2673
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2673"
+label: { ar: "مسلم 2673 — إن الله لا يقبض العلم انتزاعاً", en: "Muslim 2673 — God does not snatch knowledge away" }
+text: "سمع عبد الله بن عمرو بن العاص يقول: سمعت رسول الله يقول: «إن الله لا يقبض العلم انتزاعاً ينتزعه من الناس، ولكن يقبض العلم بقبض العلماء، حتى إذا لم يترك عالماً اتخذ الناس رؤوساً جهالاً، فسُئلوا فأفتوا بغير علم، فضلوا وأضلوا»"
+summary:
+  ar: "رواية عبد الله بن عمرو بن العاص في كتاب الزهد من صحيح مسلم؛ قبض العلم بموت العلماء لا بانتزاعه، وفتوى الجهال آية من آيات ذهابه — من أشهر نصوص فضل العلماء."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ilm, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الزهد والرقائق، باب يقبض العلم ويفشو الجهل والزنا ويشرب الخمر (طبعة دار التأصيل، الحديث 6971؛ ترقيم عبد الباقي المعروف 2673)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt checked against the scan" }
