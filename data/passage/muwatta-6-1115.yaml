@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1115"
-label: { ar: "الموطأ 1115", en: "Muwatta 1115" }
+label: { ar: "الموطأ 1115 — ابن عمر: كان يجلل بدنه القباطي والأنماط والحلل، ثم يبعث بها إلى الكعبة فيكسوها إياها", en: "Muwatta 1115" }
+text: "يجلل بدنه القباطي والأنماط والحلل، ثم يبعث بها إلى الكعبة فيكسوها إياها"
 summary:
-  ar: "نافع: كان ابن عمر يجلّل بُدنه القباطي والأنماط والحلل... ؛ صفة تجليل البدن عند ابن عمر."
+  ar: "يرويه مالك عن نافع أن عبد الله بن عمر كان يجلل بدنه القباطي والأنماط والحلل، ثم يبعث بها إلى الكعبة فيكسوها إياها. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1210) وسويد (525) والبيهقي. {cite:muwatta-maruf-1997 p.510} {cite:muwatta-maruf-1997 p.511}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1115 of kitab 06-hajj at PDF p. 510", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-50" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: building/kaaba, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1115 at PDF p. 510; العمل في الهدي حين يساق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b09" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 510; matn excerpt at most 40 words" }

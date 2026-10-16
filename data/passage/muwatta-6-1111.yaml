@@ -1,0 +1,16 @@
+id: passage/muwatta-6-1111
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "6.1111"
+label: { ar: "الموطأ 1111 — هشام بن عروة عن أبيه: إذا اضطررت إلى بدنتك فاركبها ركوباً غير فادح، وإذا اضطررت إلى لبنها فاشرب بعد ما يروى فصيلها، فإذا نحرتها فانحر فصيلها معها", en: "Muwatta 1111" }
+summary:
+  ar: "يرويه مالك عن هشام بن عروة أن أباه قال: إذا اضطررت إلى بدنتك فاركبها ركوباً غير فادح، وإذا اضطررت إلى لبنها فاشرب بعد ما يروى فصيلها، فإذا نحرتها فانحر فصيلها معها. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1205) وسويد (528) ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.509}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-06-hajj }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1111 at PDF p. 509; ما يجوز من الهدي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b09" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 509; matn excerpt at most 40 words" }

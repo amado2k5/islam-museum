@@ -1,0 +1,17 @@
+id: passage/muwatta-6-1119
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "6.1119"
+label: { ar: "الموطأ 1119 — هشام بن عروة عن أبيه: كان يقول لبنيه: يا بني، لا يهدين أحدكم لله من البدن شيئاً يستحيي أن يهديه لكريمه، فإن الله أكرم الكرماء وأحق من اختير له", en: "Muwatta 1119" }
+text: "لا يهدين أحدكم لله من البدن شيئاً يستحيي أن يهديه لكريمه، فإن الله أكرم الكرماء وأحق من اختير له"
+summary:
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه، أنه كان يقول لبنيه: يا بني، لا يهدين أحدكم لله من البدن شيئاً يستحيي أن يهديه لكريمه، فإن الله أكرم الكرماء وأحق من اختير له. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1214) وسويد (526). {cite:muwatta-maruf-1997 p.512}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-06-hajj }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1119 at PDF p. 511; العمل في الهدي حين يساق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b09" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 511; matn excerpt at most 40 words" }

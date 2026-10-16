@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1102"
-label: { ar: "الموطأ 1102", en: "Muwatta 1102" }
+label: { ar: "الموطأ 1102 — ابن شهاب: أن رسول الله بعث عبد الله بن حذافة أيام منى يطوف، يقول: إنما هي أيام أكل وشرب وذكر الله", en: "Muwatta 1102" }
+text: "إنما هي أيام أكل وشرب وذكر الله"
 summary:
-  ar: "ابن شهاب: أن رسول الله ﷺ بعث عبد الله بن حذافة أيام منى يطوف... ؛ حديث في النداء بمنى؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن ابن شهاب أن رسول الله بعث عبد الله بن حذافة أيام منى يطوف، يقول: إنما هي أيام أكل وشرب وذكر الله. ويذكر المحقق أن الحديث عند يونس بن يزيد وابن أبي ذئب وعبد الله بن عمر العمري عن الزهري مرسلاً كما رواه مالك، وأنه الصحيح في حديث ابن شهاب، وأنه في سند روح بن عبادة عن صالح بن أبي الأخضر وهو خطأ. {cite:muwatta-maruf-1997 p.505}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1102 of kitab 06-hajj at PDF p. 505", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-49" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1102 at PDF p. 505; صيام أيام منى", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b09" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 505; matn excerpt at most 40 words" }

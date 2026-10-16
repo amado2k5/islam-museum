@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1106"
-label: { ar: "الموطأ 1106", en: "Muwatta 1106" }
+label: { ar: "الموطأ 1106 — أبو هريرة عن النبي: رأى رجلاً يسوق بدنة، فقال: اركبها، فقال: يا رسول الله، إنها بدنة؛ فقال: اركبها ويلك، في الثانية أو الثالثة", en: "Muwatta 1106" }
+text: "اركبها ويلك"
 summary:
-  ar: "أبو الزناد عن الأعرج عن أبي هريرة: أن رسول الله ﷺ رأى رجلًا يسوق بدنة... ؛ حديث في الهدي وسوق البدن؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن أبي الزناد عن الأعرج عن أبي هريرة، أن رسول الله رأى رجلاً يسوق بدنة، فقال: اركبها. فقال: يا رسول الله، إنها بدنة. فقال: اركبها ويلك، في الثانية أو الثالثة. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1203) وإسحاق الطباع وإسماعيل بن أبي أويس عند البخاري (2755) وغيرهم. {cite:muwatta-maruf-1997 p.508}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1106 of kitab 06-hajj at PDF p. 508", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-49" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-hormoz-al-araj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1106 at PDF p. 508; ما يجوز من الهدي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b09" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 508; matn excerpt at most 40 words" }

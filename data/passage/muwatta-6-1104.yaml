@@ -1,0 +1,19 @@
+id: passage/muwatta-6-1104
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "6.1104"
+label: { ar: "الموطأ 1104 — عبد الله بن عمرو بن العاص: دخل على أبيه عمرو فوجده يأكل، فقال: إني صائم، فقال: هذه الأيام التي نهانا رسول الله عن صيامهن وأمرنا بفطرهن. قال مالك: هي أيام التشريق", en: "Muwatta 1104" }
+text: "هذه الأيام التي نهانا رسول الله عن صيامهن، وأمرنا بفطرهن"
+summary:
+  ar: "يرويه مالك عن يزيد بن عبد الله بن الهاد عن أبي مرة مولى أم هانئ عن عبد الله بن عمرو بن العاص، أنه دخل على أبيه عمرو بن العاص فوجده يأكل، فدعاه، فقال: إني صائم. فقال عمرو: هذه الأيام التي نهانا رسول الله عن صيامهن وأمرنا بفطرهن. قال مالك: هي أيام التشريق. ويذكر المحقق أن يحيى قال «مولى أم هانئ امرأة عقيل» وهو خطأ فاحش أدركه ابن وضاح، وأن الصواب أخت أم هانئ، وأن ابن عبد البر (التمهيد 23/67–68) بين أن أبا مرة لم يسمع من عمرو. {cite:muwatta-maruf-1997 p.506}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-06-hajj }
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amr-ibn-al-as, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1104 at PDF p. 506; صيام أيام منى", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b09" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 506; matn excerpt at most 40 words; doubt: في نسخة يحيى «مولى أم هانئ امرأة عقيل»؛ ابن عبد البر يصوّبه إلى أخت أم هانئ." }
