@@ -1,0 +1,16 @@
+id: passage/muslim-1401
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1401"
+label: { ar: "مسلم 1401 — فمن رغب عن سنتي فليس مني", en: "Muslim 1401 — Whoever turns away from my way is not of me" }
+text: "قال أنس: سأل نفر من أصحاب النبي أزواجه عن عمله في السر فقال بعضهم لا أتزوج النساء وقال بعضهم لا آكل اللحم وقال بعضهم لا أنام على فراش، فقال النبي: ما بال أقوام قالوا كذا وكذا، لكني أصلي وأنام وأصوم وأفطر وأتزوج النساء، فمن رغب عن سنتي فليس مني"
+summary:
+  ar: "رواية أنس بن مالك في كتاب النكاح من صحيح مسلم؛ الحديث يرد على ظاهرة رهبانية القول لدى بعض الصحابة ويرسم خط السنة العملي؛ يليه رد النبي التبتل عن عثمان بن مظعون."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/uthman-ibn-mazun, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب النكاح، باب استحباب النكاح لمن تاقت نفسه إليها (طبعة دار التأصيل، الحديث 1418؛ ترقيم عبد الباقي المعروف 1401)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

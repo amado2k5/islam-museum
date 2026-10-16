@@ -1,0 +1,16 @@
+id: passage/muslim-2674
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2674"
+label: { ar: "مسلم 2674 — من دعا إلى هدى كان له مثل أجور من تبعه", en: "Muslim 2674 — Whoever calls to guidance earns the followers' reward" }
+text: "قال رسول الله: من دعا إلى هدى كان له من الأجر مثل أجور من تبعه لا ينقص ذلك من أجورهم شيئاً، ومن دعا إلى ضلالة كان عليه من الإثم مثل آثام من تبعه لا ينقص ذلك من آثامهم شيئاً"
+summary:
+  ar: "رواية أبي هريرة في باب من دعا إلى هدى أو ضلالة من كتاب العلم في صحيح مسلم؛ قاعدة الجر المستمر للدعوة إلى الهدى والضر المستمر للدعوة إلى الضلال."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ilm, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب العلم، باب من دعا إلى هدى أو ضلالة (طبعة دار التأصيل، الحديث 2769؛ ترقيم عبد الباقي المعروف 2674)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

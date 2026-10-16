@@ -1,0 +1,14 @@
+id: passage/muslim-1895
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1895"
+label: { ar: "مسلم 1895 — من جهز غازياً فقد غزا", en: "Muslim 1895 — Whoever equips a fighter has fought" }
+text: "قال رسول الله: من جهز غازياً في سبيل الله فقد غزا، ومن خلفه في أهله بخير فقد غزا"
+summary:
+  ar: "رواية زيد بن خالد الجهني في باب أجر من جهز غازياً أو خلفه بخير من كتاب الإمارة في صحيح مسلم؛ تجهيز الغازي وخلفان أهله بخير كلاهما عند أجر الغزو."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإمارة، باب أجر من جهز غازياً أو خلفه بخير (طبعة دار التأصيل، الحديث 1946؛ ترقيم عبد الباقي المعروف 1895)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
