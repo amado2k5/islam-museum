@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1815"
-label: { ar: "الموطأ 1815", en: "Muwatta 1815" }
+label: { ar: "الموطأ 1815 — مالك: إنما تباع العرايا بخرصها من التمر، يتحرى ذلك ويخرص في رؤوس النخل، وليست لها مكيلة، وإنما رخص فيها لأنها بمنزلة التولية والإقالة والشركة", en: "Muwatta 1815" }
 summary:
-  ar: "مالك: وإنما تُباع العرايا بخرصها من التمر، يُتحرى ذلك ويُخرص في رؤوس النخل... ؛ كيفية بيع العرايا بالخرص؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وإنما تباع العرايا بخرصها من التمر، يتحرى ذلك ويخرص في رءوس النخل، وليست له مكيلة. وإنما أرخص فيه لأنه أنزل بمنزلة التولية والإقالة والشرك. ولو كان بمنزلة غيره من البيوع، ما أشرك أحد أحدا في طعام حتى يستوفيه، ولا أقاله منه، ولا ولاه أحدا حتى يقبضه المبتاع. {cite:muwatta-maruf-1997 p.143}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1815 of kitab 17-buyu at PDF p. 143", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-79" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ariyya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1815 at PDF p. 143; ما جاء في بيع العرية", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b44" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 143; matn excerpt at most 40 words" }

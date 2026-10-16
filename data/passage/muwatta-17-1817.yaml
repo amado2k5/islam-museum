@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1817"
-label: { ar: "الموطأ 1817", en: "Muwatta 1817" }
+label: { ar: "الموطأ 1817 — مالك: بلغه أن عمر بن عبد العزيز قضى بوضع الجائحة، وعلى ذلك الأمر عندنا", en: "Muwatta 1817" }
 summary:
-  ar: "مالك: بلغه أن عمر بن عبد العزيز قضى بوضع الجائحة؛ قضاء عمر بوضع الجوائح عن المشتري."
+  ar: "قال مالك: وحدثني أنه بلغه أن عمر بن عبد العزيز قضى بوضع الجائحة، قال مالك: وعلى ذلك الأمر عندنا. {cite:muwatta-maruf-1997 p.144}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1817 of kitab 17-buyu at PDF p. 144", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-79" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/jaiha, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1817 at PDF p. 144; الجائحة في بيع الثمار والزرع", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b44" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 144; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1824"
-label: { ar: "الموطأ 1824", en: "Muwatta 1824" }
+label: { ar: "الموطأ 1824 — يحيى عن مالك عن زيد بن أسلم عن عطاء بن يسار: التمر بالتمر مثلا بمثل، وأن عامل خيبر كان يأخذ الصاع بالصاعين، فأمره النبي أن يبيع الجمع بالدراهم ثم يبتاع بالدراهم جنيبا", en: "Muwatta 1824" }
 summary:
-  ar: "يحيى عن مالك عن زيد بن أسلم عن عطاء بن محمد بن الحسن... ؛ حديث في البيع أو الثمر؛ تفاصيل المتن غير واضحة."
+  ar: "يروي يحيى عن مالك عن زيد بن أسلم عن عطاء بن يسار أنه قال: قال رسول الله: التمر بالتمر مثلا بمثل. فقيل له: إن عاملك على خيبر يأخذ الصاع بالصاعين. فقال رسول الله: ادعوه لي، فدعي له، فقال له رسول الله: أتأخذ الصاع بالصاعين؟ فقال: يا رسول الله، لا يبيعونني الجنيب بالجمع صاعا بصاع. فقال له رسول الله: بع الجمع بالدراهم، ثم ابتع بالدراهم جنيبا. {cite:muwatta-maruf-1997 p.146}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1824 of kitab 17-buyu at PDF p. 145", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-79" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1824 at PDF p. 146; ما يكره من بيع التمر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b44" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 146; matn excerpt at most 40 words" }
