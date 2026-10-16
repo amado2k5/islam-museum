@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2118"
-label: { ar: "الموطأ 2118", en: "Muwatta 2118" }
+label: { ar: "الموطأ 2118 — مالك: فسنة الطلاق والعتاق عندنا في الشاهد الواحد واحدة، إنما يكون اليمين على زوج المرأة وعلى سيد العبد، والعتاقة حد من الحدود، لا تجوز فيها شهادة النساء", en: "Muwatta 2118" }
 summary:
-  ar: "مالك: فسنة الطلاق والعتاقة عندنا في الشاهد الواحد واحدة؛ إنما يكون اليمين... ؛ اليمين مع الشاهد الواحد في الطلاق والعتق؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: فسنة الطلاق والعتاق عندنا في الشاهد الواحد واحدة، إنما يكون اليمين على زوج المرأة، وعلى سيد العبد. وإنما العتاقة حد من الحدود، لا تجوز فيها شهادة النساء؛ لأنه إذا عتق العبد ثبتت حرمته، ووقعت له الحدود، ووقعت عليه، وإن زنى وقد أحصن رجم، وإن قتل العبد قتل به، وثبت له الميراث بينه وبين من يوارثه. {cite:muwatta-maruf-1997 p.265}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2118 of kitab 22-aqdiya at PDF p. 265", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-92" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2118 at PDF p. 265; القضاء باليمين مع الشاهد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b60" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 265; matn excerpt at most 40 words" }

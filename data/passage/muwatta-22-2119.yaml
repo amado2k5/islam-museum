@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2119"
-label: { ar: "الموطأ 2119", en: "Muwatta 2119" }
+label: { ar: "الموطأ 2119 — مالك: احتجاج محتج بأن رجلا لو أعتق عبده ثم جاء رجل يطلب سيد العبد بدين، فشهد له رجل وامرأتان، فإن ذلك يثبت الحق على سيد العبد، حتى ترد به عتاقته، وذلك ليس على ما قال", en: "Muwatta 2119" }
 summary:
-  ar: "قال: وكذلك أيضًا الرجل ينكح الأمة فتكون امرأته، فيأتي سيد الأمة إلى الرجل... ؛ دعوى سيد الأمة على زوجها؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وهذا الاحتجاج: لو أن رجلا أعتق عبده، ثم جاء رجل يطلب سيد العبد بدين له عليه، فشهد له على حقه ذلك رجل وامرأتان، فإن ذلك يثبت الحق على سيد العبد، حتى ترد به عتاقته، إذا لم يكن لسيد العبد مال غير العبد. يريد أن يجيز بذلك شهادة النساء في العتاقة، فإن ذلك ليس على ما قال. وإنما مثل ذلك الرجل يعتق عبده، ثم يأتي طالب الحق على سيده بشاهد واحد، فيحلف مع شاهده، ثم يستحق حقه، وترد بذلك عتاقة العبد. {cite:muwatta-maruf-1997 p.265} {cite:muwatta-maruf-1997 p.266}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2119 of kitab 22-aqdiya at PDF p. 266", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-92" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2119 at PDF p. 265; القضاء باليمين مع الشاهد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b60" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 265; matn excerpt at most 40 words" }

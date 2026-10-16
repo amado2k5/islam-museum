@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2110"
-label: { ar: "الموطأ 2110", en: "Muwatta 2110" }
+label: { ar: "الموطأ 2110 — مالك: الأمر عندنا أن الذي يجلد الحد ثم تاب وأصلح تجوز شهادته، وهو أحب ما سمعت إلي، لقول الله في قاذف المحصنات، ويستشهد مالك بآية في سورة النور في ذلك", en: "Muwatta 2110" }
 summary:
-  ar: "مالك: وذلك الأمر عندنا، وذلك لقول الله تبارك وتعالى: والذين يرمون المحصنات... ؛ حكم قبول شهادة المحدود في القذف؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وذلك الأمر عندنا، وذلك لقول الله تبارك وتعالى في الذين يرمون المحصنات ثم لم يأتوا بأربعة شهداء فاجلدوهم ثمانين جلدة ولا تقبلوا لهم شهادة أبدا، إلا الذين تابوا من بعد ذلك وأصلحوا. قال مالك: فالأمر الذي لا اختلاف فيه عندنا أن الذي يجلد الحد ثم تاب وأصلح تجوز شهادته، وهو أحب ما سمعت إلي في ذلك. {cite:muwatta-maruf-1997 p.262} {cite:muwatta-maruf-1997 p.263}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2110 of kitab 22-aqdiya at PDF p. 262", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-91b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-24-4, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2110 at PDF p. 262; القضاء في شهادة المحدود", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b60" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 262; matn excerpt at most 40 words" }

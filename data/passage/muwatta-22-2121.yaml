@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2121"
-label: { ar: "الموطأ 2121", en: "Muwatta 2121" }
+label: { ar: "الموطأ 2121 — مالك: مما يفترق فيه القضاء: أن المرأتين تشهدان على استهلال الصبي، فيجب بذلك ميراثه، وليس مع المرأتين رجل ولا يمين، ولو شهدتا على درهم واحد لم تجز شهادتهما إلا أن يكون معهما شاهد أو يمين", en: "Muwatta 2121" }
 summary:
-  ar: "مالك: ومما يشبه ذلك أيضًا مما يفترق فيه القضاء، وما مضى من السنة: أن ال... ؛ تفريق الأحكام القضائية بحسب نوع الدعوى؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ومما يشبه ذلك أيضا مما يفترق فيه القضاء، وما مضى من السنة: أن المرأتين تشهدان على استهلال الصبي، فيجب بذلك ميراثه، حتى يرث، ويكون ماله لمن يرثه إن مات الصبي، وليس مع المرأتين اللتين شهدتا رجل ولا يمين. وقد يكون ذلك في الأموال العظام، من الذهب والورق والرباع والحوائط والرقيق، وما سوى ذلك من الأموال. ولو شهدت امرأتان على درهم واحد، أو أقل من ذلك أو أكثر، لم تقطع شهادتهما شيئا، ولم تجز إلا أن يكون معهما شاهد أو يمين. {cite:muwatta-maruf-1997 p.266} {cite:muwatta-maruf-1997 p.267}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2121 of kitab 22-aqdiya at PDF p. 266", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-92" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2121 at PDF p. 266; القضاء باليمين مع الشاهد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b60" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 266; matn excerpt at most 40 words" }

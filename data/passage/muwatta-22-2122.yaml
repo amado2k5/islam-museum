@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2122"
-label: { ar: "الموطأ 2122", en: "Muwatta 2122" }
+label: { ar: "الموطأ 2122 — مالك: ومن الناس من يقول لا تكون اليمين مع الشاهد الواحد، ويحتج بقوله تعالى في الشهادة، فيقال له: أرأيت لو أن رجلا ادعى على رجل مالا، ألا يحلف المطلوب ما ذلك الحق عليه؟ فهذا مما لا اختلاف فيه عند أحد من الناس", en: "Muwatta 2122" }
 summary:
-  ar: "مالك: ومن الناس من يقول لا تكون اليمين مع الشاهد الواحد، ويحتج بقول... ؛ الخلاف في اليمين مع الشاهد الواحد؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ومن الناس من يقول لا تكون اليمين مع الشاهد الواحد، ويحتج بقول الله تبارك وتعالى: واستشهدوا شهيدين من رجالكم فإن لم يكونا رجلين فرجل وامرأتان. فيقول: فإن لم يأت برجل وامرأتين فلا شيء له، ولا يحلف مع شاهده. قال مالك: فمن الحجة على من قال ذلك القول، أن يقال له: أرأيت لو أن رجلا ادعى على رجل مالا، أليس يحلف المطلوب ما ذلك الحق عليه؟ فإن حلف بطل ذلك عنه، وإن نكل عن اليمين حلف صاحب الحق إن حقه لحق، وثبت حقه على صاحبه؟ فهذا مما لا اختلاف فيه عند أحد من الناس، ولا ببلد من البلدان. {cite:muwatta-maruf-1997 p.267}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2122 of kitab 22-aqdiya at PDF p. 267", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-92" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-2-282, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2122 at PDF p. 267; القضاء باليمين مع الشاهد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b60" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 267; matn excerpt at most 40 words" }

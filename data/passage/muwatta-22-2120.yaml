@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2120"
-label: { ar: "الموطأ 2120", en: "Muwatta 2120" }
+label: { ar: "الموطأ 2120 — مالك: ومن ذلك أيضا الرجل يفتري على الرجل الحر فيقع عليه الحد، فيأتي رجل وامرأتان فيشهدون أن الذي افتري عليه عبد مملوك، فيضع ذلك الحد عن المفتري، وشهادة النساء لا تجوز في الفرية", en: "Muwatta 2120" }
 summary:
-  ar: "مالك: ومن ذلك أيضًا، الرجل يفتري على الرجل الحر فيقع عليه الحد، فيأتي... ؛ القذف وإثبات الحد بالشهادة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ومن ذلك أيضا، الرجل يفتري على الرجل الحر فيقع عليه الحد، فيأتي رجل وامرأتان فيشهدون أن الذي افتري عليه عبد مملوك، فيضع ذلك الحد عن المفتري بعد أن وقع عليه. وشهادة النساء لا تجوز في الفرية. {cite:muwatta-maruf-1997 p.266}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2120 of kitab 22-aqdiya at PDF p. 266", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-92" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2120 at PDF p. 266; القضاء باليمين مع الشاهد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b60" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 266; matn excerpt at most 40 words" }

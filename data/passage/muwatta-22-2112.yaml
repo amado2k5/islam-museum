@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2112"
-label: { ar: "الموطأ 2112", en: "Muwatta 2112" }
+label: { ar: "الموطأ 2112 — مالك عن أبي الزناد: كتب عمر بن عبد العزيز إلى عبد الحميد بن عبد الرحمن بن زيد بن الخطاب، وهو عامل على الكوفة، أن اقض باليمين مع الشاهد", en: "Muwatta 2112" }
 summary:
-  ar: "مالك عن أبي الزناد: أن عمر بن عبد العزيز كتب إلى عبد الحميد بن عبد الرحمن بن زيد... ؛ كتاب في القضاء؛ تفاصيل الكتاب غير واضحة."
+  ar: "يروي مالك عن أبي الزناد أن عمر بن عبد العزيز كتب إلى عبد الحميد بن عبد الرحمن بن زيد بن الخطاب، وهو عامل على الكوفة: أن اقض باليمين مع الشاهد. {cite:muwatta-maruf-1997 p.263}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2112 of kitab 22-aqdiya at PDF p. 263", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-91b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-abd-al-aziz, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-hamid-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2112 at PDF p. 263; القضاء باليمين مع الشاهد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b60" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الكتاب غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 263; matn excerpt at most 40 words" }
