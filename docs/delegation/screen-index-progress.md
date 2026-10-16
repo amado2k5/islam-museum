@@ -19,12 +19,16 @@ Goal: catalogue films, TV series, documentaries and famous video works about Isl
 - 2026-10-16: Batch 5 (18): khawatir-2005, muawiya-wal-hasan-wal-husayn-2011, qamar-bani-hashim-2008, al-zahir-baybars-2005, saqr-quraysh-2002, rabee-qurtuba-2003, muluk-al-tawaif-2005, al-taghriba-al-filistiniyya-2004, salman-al-farisi-2023, nikaah-1982, ayat-al-hubb-2008, luwur-waktu-1999, ilm-wal-islam-2009, abu-lahab-1953, quran-bi-al-qalb-2011 (tt1766189), al-sultan-wal-qiddis-2016 (tt5977536), mudun-al-nur-2007 (tt1047890), zukhruf-al-alam-2019 (tt11007470, official PBS stream).
 - 2026-10-16: Batch 6 web/children (6 + 2 sources): source/deen-show, source/one4kids, deen-show-2006, zaky-2010, umar-hana-2017 (Q85990452), salah-al-din-animated-2009 (Q3471948), nussa-film-2021 (Q109563749), layla-fi-al-aqsa-2019 (tt10499648).
 
+## Done (cont.)
+
+- 2026-10-16: Batch 7 (4): al-qadisiyya-1981 (Q4704628/tt0328295), fajr-al-islam-1971 (Q12230352/tt1458553), waris-1979 (Q7969446/tt5547882), muharib-al-sahra-2025 (Q110903821/tt13570066). paradise-now-2005 and not-without-my-daughter-1991 already existed as al-jannah-al-an-2005 and la-abla-bintati-1991 — deduped by QID.
+
 ## Still open
 
-- adams-world, ali-and-sumaya: famous but no Wikidata/IMDb entry found; need a primary/secondary source before minting.
-- fajr-al-islam, al-shaimaa-1972 (the 1972 film exists; arwiki hit pointed at the Abu Lahab film), al-qadisiyya-1981 (Q4704628 verified, needs a record), sang-kyai-2013, hidayah-2005 (idwiki hit was the film series' parent), waris (2017 Pakistani series), khalid-ibn-al-walid serials, ibn-hanbal-2016, an-islamic-history-of-europe-2005 (Rageh Omaar, C4 — matched wrong QID), not-without-my-daughter-1991, paradise-now-2005, the-deen-show-done; remaining backlogs: see candidate list above for unminted items.
-- Al-Qadisiyya Q4704628 was resolved late; mint in next batch.
-- No content/ar/screen/*.md prose yet.
+- Not minted (no verifiable catalogue/source yet): adams-world, ali-and-sumaya (Sound Vision/African works — official sites could be minted as primary sources if wanted), sang-kyai-2013 (idwiki page exists, no QID), hidayah-2005, al-shaimaa-1972, an-islamic-history-of-europe-2005 (Rageh Omaar C4 doc — no QID found), khalid-ibn-al-walid serials.
+- Already in graph under other slugs: paradise-now (al-jannah-al-an-2005), not-without-my-daughter (la-abla-bintati-1991), ibn-hanbal series (al-imam-2017).
+- No content/ar/screen/*.md prose yet; most records cite only wikidata/imdb and need a second source for dated facts before review.
+- Screen index now ~130 records at data/screen/.
 
 ## Candidate backlog (verified QID+IMDb pairs already collected)
 
