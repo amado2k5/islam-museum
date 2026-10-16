@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2807"
-label: { ar: "الموطأ 2807", en: "Muwatta 2807" }
+label: { ar: "الموطأ 2807 — عمر بن الخطاب يتفقد العبيد في العوالي فيضع عن العبد ما لا يطيق", en: "Muwatta 2807" }
 summary:
-  ar: "بلغ مالكًا أن عمر كان يذهب إلى العوالي كل سبت، فإذا وجد عبدًا في عمل لا يطيقه وضع عنه منه."
+  ar: "بلغ مالكا أن عمر بن الخطاب كان يذهب إلى العوالي كل يوم سبت، فإذا وجد عبدا في عمل لا يطيقه وضع عنه منه. {cite:muwatta-maruf-1997 p.577}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2807 of kitab 31-jami at PDF p. 577", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b121" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2807 at PDF p. 577; الأمرُ بالرِّفْق بالمَمْلوك", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b109" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 577; matn excerpt at most 40 words" }

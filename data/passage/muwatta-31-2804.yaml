@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2804"
-label: { ar: "الموطأ 2804", en: "Muwatta 2804" }
+label: { ar: "الموطأ 2804 — خالد بن معدان مرفوعا: إن الله رفيق يحب الرفق في السفر", en: "Muwatta 2804" }
 summary:
-  ar: "حديث خالد بن معدان مرفوعًا: الله رفيق يحب الرفق، فإذا ركبتم الدواب فأنزلوها منازلها."
+  ar: "يروي مالك عن أبي عبيد مولى سليمان بن عبد الملك، عن خالد بن معدان مرفوعا، أن الله رفيق يحب الرفق، ويعين عليه ما لا يعين على العنف. وفيه الأمر بإنزال الدواب منازلها إذا ركبوا، والسير بالليل لأن الأرض تطوى فيه، والنهي عن التعريس على الطريق لأنه طرق الدواب ومأوى الحيات. ويذكر المحقق أن مالكا رواه على وجهين: أحدهما عن سعيد المقبري عن أبيه عن أبي هريرة، والآخر عن سعيد عن أبي هريرة مباشرة، وأن رواية أكثر الرواة ليس فيها «عن أبيه»، ويرى أن الروايتين صحيحتان. ويذكر أن ابن عبد البر ساق في الباب أحاديث عن عبد الله بن مغفل وابن عباس وأنس. {cite:muwatta-maruf-1997 p.575}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2804 of kitab 31-jami at PDF p. 575", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b120" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-ubayd-mawla-sulayman-ibn-abd-al-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/khalid-ibn-maadan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-abi-said-al-maqburi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2804 at PDF p. 575; ما يُؤْمَرُ به من العَمَل في السَّفَرِ", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b109" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 575; matn excerpt at most 40 words" }
