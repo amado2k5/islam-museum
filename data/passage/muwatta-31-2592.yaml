@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2592"
-label: { ar: "الموطأ 2592", en: "Muwatta 2592" }
+label: { ar: "الموطأ 2592 — قطن بن وهب عن يحنس مولى الزبير: ابن عمر ينهى المرأة عن الخروج من المدينة في الفتنة", en: "Muwatta 2592" }
 summary:
-  ar: "حديث قطن بن وهب بن عويمر؛ وفيه تعليق المحقق على خطأ في إسناد بعض الرواة."
+  ar: "يروي مالك عن قطن بن وهب بن عويمر بن الأجدع أن يحنس مولى الزبير بن العوام أخبره أنه كان جالسا عند عبد الله بن عمر في الفتنة، فأتته مولاة له تسلم عليه، فقالت: إني أردت الخروج يا أبا عبد الرحمن، اشتد علينا الزمان. فقال لها ابن عمر: اقعدي، فإني سمعت النبي يقول: لا يصبر على لأوائها وشدتها أحد إلا كنت له شفيعا أو شهيدا يوم القيامة. {cite:muwatta-maruf-1997 p.462} {cite:muwatta-maruf-1997 p.463}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2592 of kitab 31-jami at PDF p. 462", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b112" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-madina, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/qatan-ibn-wahb, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yuhannis-mawla-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2592 at PDF p. 462; ما جاء في سكنى المدينة والخروج منها", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b90" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: متن الحديث غير واضح في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 462; matn excerpt at most 40 words" }
