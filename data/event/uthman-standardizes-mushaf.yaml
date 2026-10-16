@@ -1,0 +1,25 @@
+id: event/uthman-standardizes-mushaf
+class: event
+kind: law-enacted
+label: { ar: "توحيد المصحف في خلافة عثمان", en: "Uthman's standardization of the mushaf" }
+date:
+  start: { edtf: "0650~", hijri: "0030~", calendar: julian, precision: year, status: tradition, note: "بعد فتح أرمينية وأذربيجان في رواية حذيفة؛ دون سنة محددة عند البخاري، ويعود تقديراً إلى نحو 25-30هـ." }
+summary:
+  ar: "فزع حذيفة بن اليمان — وهو يغازي أهل الشام في فتح أرمينية وأذربيجان مع أهل العراق — من اختلاف القراء في القراءة فقال لعثمان «أدرك هذه الأمة قبل أن يختلفوا في الكتاب اختلاف اليهود والنصارى»، فأرسل عثمان إلى حفصة يستعير الصحف التي جمعها زيد بن ثابت في خلافة أبي بكر، وكلف أربعة — زيد بن ثابت وعبد الله بن الزبير وسعيد بن العاص وعبد الرحمن بن الحارث بن هشام — أن ينسخوها في المصاحف، وأمر القرشيين الثلاثة: إذا اختلفتم أنتم وزيد في شيء فاكتبوه بلسان قريش فإنما نزل بلسانهم، ثم أرسل إلى كل أفق بمصحف وأمر بما سواه من صحيفة أو مصحف أن يحرق {cite:sahih-al-bukhari 4987}. وفي خبر زيد الملحق أن آية من الأحزاب فقدت حين النسخ فوجدت عند خزيمة بن ثابت {cite:sahih-al-bukhari 4988}."
+  en: "Hudhayfa ibn al-Yaman, alarmed at the readers' divergence during the Armenia-Azerbaijan campaign, pressed Uthman to save the community before it split over the Book; Uthman borrowed Hafsa's codex, commissioned Zayd ibn Thabit and three Qurashis to copy it into masahif — 'write it in the tongue of Quraysh' — sent a copy to every garrison city and ordered all other codices burned {cite:sahih-al-bukhari 4987}."
+wings: [words]
+themes: [scripture-and-its-sciences]
+periods: [period/rashidun]
+regions: [arabia]
+relations:
+  - { type: occurred_at, target: place/medina, sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/uthman-ibn-affan, role: "صاحب الأمر", sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/hudhayfa-ibn-al-yaman, role: "المنذر", sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/hafsa, role: "حافظة الصحف", sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/zayd-ibn-thabit, role: "رئيس اللجنة", sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abdullah-ibn-al-zubayr, role: "من النساخ", sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/said-ibn-al-as, role: "من النساخ", sources: [source/sahih-al-bukhari] }
+  - { type: had_participant, target: person/abd-al-rahman-ibn-al-harith, role: "من النساخ", sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4987-4988", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

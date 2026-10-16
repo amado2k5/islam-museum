@@ -1,0 +1,14 @@
+id: person/abd-al-rahman-ibn-al-harith
+class: person
+label: { ar: "عبد الرحمن بن الحارث بن هشام", en: "Abd al-Rahman ibn al-Harith ibn Hisham" }
+gender: male
+summary:
+  ar: "قرشي مخزومي من قراء أهل مكة؛ ضمه عثمان إلى لجنة نسخ المصاحف مع زيد بن ثابت وعبد الله بن الزبير وسعيد بن العاص، وهو أحد القرشيين الثلاثة المأمورين بكتابة المختلف فيه بلسان قريش {cite:sahih-al-bukhari 4987}."
+  en: "A Qurashi of Makhzum among Mecca's readers; one of the three Qurashis on Uthman's committee ordered to write the contested text in the tongue of Quraysh {cite:sahih-al-bukhari 4987}."
+story_roles:
+  - { role: companion, status: tradition, sources: [source/sahih-al-bukhari] }
+relations:
+  - { type: participated_in, target: event/uthman-standardizes-mushaf, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4987", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 0, generated_by: "Devin (SWE-2 High) from Apple Vision OCR" }

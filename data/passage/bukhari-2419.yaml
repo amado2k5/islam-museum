@@ -1,0 +1,16 @@
+id: passage/bukhari-2419
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2419"
+label: { ar: "البخاري 2419 — سبعة أحرف", en: "Bukhari 2419 — the seven ahruf" }
+text: "سمعت هشام بن حكيم يقرأ سورة الفرقان على غير ما أقرأها، وكان رسول الله أقرأنيها… فقال له: اقرأ، فقرأ، قال: هكذا أنزلت، ثم قال لي: اقرأ، فقرأت، فقال: هكذا أنزلت، إن القرآن أنزل على سبعة أحرف فاقرؤوا منه ما تيسر"
+summary:
+  ar: "في كتاب فضائل القرآن؛ قصة خصومة عمر وهشام بن حكيم في القراءة أمام النبي، وفيها متن التيسير الشهير بسبعة أحرف — أساس أبواب القراءات وتوحيد عثمان لاحقاً."
+relations:
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: basis_for, target: concept/al-ahruf-al-sabaa, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 2419", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn checked against the scan" }
