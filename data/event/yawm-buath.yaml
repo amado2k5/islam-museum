@@ -20,6 +20,13 @@ relations:
   - { type: had_participant, target: person/amr-ibn-al-numan-al-bayadi, role: "رئيس الخزرج، قُتل فيها", sources: [source/samhudi-wafa-al-wafa] }
   - { type: had_participant, target: person/kaab-ibn-asad, role: "دُعي إلى حلف الأوس ففعل", sources: [source/samhudi-wafa-al-wafa] }
   - { type: had_participant, target: person/abu-amir-al-rahib, role: "مع الأوس", sources: [source/samhudi-wafa-al-wafa] }
+sides:
+  - label: { ar: "الأوس وحلفاؤهم", en: "The Aws and their allies" }
+    participants: [group/al-aws, group/banu-qurayza, group/banu-nadir]
+    commanders: [person/hudayr-al-kataib]
+  - label: { ar: "الخزرج", en: "The Khazraj" }
+    participants: [group/al-khazraj]
+    commanders: [person/amr-ibn-al-numan-al-bayadi]
 sources: [source/samhudi-wafa-al-wafa]
 provenance:
   layer: own-research

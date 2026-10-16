@@ -13,7 +13,7 @@ story_roles:
 relations:
   - { type: member_of, target: group/al-aws, sources: [source/samhudi-wafa-al-wafa] }
   - { type: participated_in, target: event/yawm-buath, role: "مع الأوس", sources: [source/samhudi-wafa-al-wafa] }
-  - { type: related_to, target: person/hanzala-ibn-abi-amir, note: "أبوه", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: parent_of, target: person/hanzala-ibn-abi-amir, sources: [source/samhudi-wafa-al-wafa] }
 sources: [source/samhudi-wafa-al-wafa]
 provenance:
   layer: own-research

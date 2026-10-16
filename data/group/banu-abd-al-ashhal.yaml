@@ -1,0 +1,21 @@
+id: group/banu-abd-al-ashhal
+class: group
+kind: clan
+label: { ar: "بنو عبد الأشهل", en: "Banu Abd al-Ashhal" }
+summary:
+  ar: "بطن من الأوس، بنو عبد الأشهل بن جُشَم بن الحارث بن الخزرج الأصغر؛ بعد انصراف أبي جبيلة تفرّق الأوس والخزرج في عالية المدينة وسافلتها فنزلوا دارهم قبليّ دار بني ظفر مع طرف الحرة الشرقية، وابتنوا أطماً سمّوه «واقماً» كان لحضير بن سماك فسُميت الناحية به، وأطماً آخر اسمه «الرَّعَل» لصَخْرة أم بني عبد الأشهل، قالوا يوم بعاث «نحن بنو صخرة أرباب الرعل». وبينهم وبين بني حارثة حرب أخرجوهم فيها من الدار المشتركة فتحوّلوا إلى ناحية يثرب {cite:samhudi-wafa-al-wafa p. 202-204}."
+  en: "A clan of the Aws, Banu Abd al-Ashhal ibn Jusham ibn al-Harith; after Abu Jubayla's departure they settled a quarter south of Banu Zafar's, by the edge of the eastern Harra, and built the utm 'Waqim' — held by Hudayr ibn Simak, after whom the quarter was named — and another called 'al-Ra'l' for Sakhra umm Banu Abd al-Ashhal, crying at Bu'ath 'we are Banu Sakhra, lords of the Ra'l'. A war with Banu Haritha drove the latter from the shared quarter to the Yathrib neighbourhood {cite:samhudi-wafa-al-wafa p. 202-204}."
+wings: [people, place]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: group/al-aws, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: lived_in, target: place/medina, note: "دارهم قبلي دار بني ظفر مع طرف الحرة الشرقية", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: participated_in, target: event/yawm-buath, sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 202–204"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
