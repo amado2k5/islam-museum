@@ -1,0 +1,19 @@
+id: place/baqi-al-gharqad
+class: place
+kind: site
+label: { ar: "بقيع الغرقد", en: "al-Baqi' (Baqi' al-Gharqad)" }
+summary:
+  ar: "مقبرة المدينة الكبرى شرقي المسجد النبوي؛ كان أسعد بن زرارة أول من دُفن به من المسلمين على رواية أبي حاتم عند رزين — وعثمان بن مظعون أول المهاجرين — ويذكر السمهودي في فضائلها: بعث سبعين ألفاً منه على صورة القمر بغير حساب، ووكالة ملائكة به كلما امتلأ أخذوا بأطرافه فكفّوه في الجنة، وأن الدعاء مستجاب في زاوية دار عقيل به، وكان داخله على يمين الداخل من بابه مسجد بني حديلة {cite:samhudi-wafa-al-wafa p. 91, 271}."
+  en: "Medina's great cemetery east of the Prophet's Mosque; As'ad ibn Zurara was the first Muslim buried there on Abu Hatim's account via Razin — 'Uthman ibn Maz'un the first of the Emigrants — and al-Samhudi lists among its merits the resurrection of seventy thousand from it in the image of the moon without reckoning, angels who whenever it fills take it by its edges and empty it into Paradise, answered prayer at the corner of Dar 'Aqil beside it, and the mosque of Banu Hudayla inside it right of its gate {cite:samhudi-wafa-al-wafa p. 91, 271}."
+wings: [place]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: part_of, target: place/medina, sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفا للسمهودي (ط محيي الدين عبد الحميد) ص 73، 91، 271"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-4
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
