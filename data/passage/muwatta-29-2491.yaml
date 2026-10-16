@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2491"
-label: { ar: "الموطأ 2491", en: "Muwatta 2491" }
+label: { ar: "الموطأ 2491 — مالك: إذا أُصيب الرجل في أطرافه أكثر من ديته فله ذلك", en: "Muwatta 2491" }
 summary:
-  ar: "مالك: الأمر عندنا أن الرجل إذا أُصيب من أطرافه أكثر من ديته فذلك له... ؛ تعدد أروش الأطراف والدية؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر عندنا أن الرجل إذا أُصيب من أطرافه أكثر من ديته فذلك له؛ إذا أُصيبت يداه ورجلاه وعيناه فله ثلاث ديات. {cite:muwatta-maruf-1997 p.426}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2491 of kitab 29-uqul at PDF p. 427", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k29-batch-107" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2491 at PDF p. 426; ما فيه الدية كاملة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b84" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 426; matn excerpt at most 40 words" }
