@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1712"
-label: { ar: "الموطأ 1712", en: "Muwatta 1712" }
+label: { ar: "الموطأ 1712 — عبد الله بن مسعود: فيمن قال كل امرأة أنكحها فهي طالق: إذا لم يسم قبيلة أو امرأة بعينها فلا شيء عليه، وهو أحسن ما سمعه مالك", en: "Muwatta 1712" }
 summary:
-  ar: "مالك: بلغه أن عبد الله بن مسعود كان يقول فيمن قال: كل امرأة أنكحها فهي طالق... ؛ حكم تعليق الطلاق على النكاح؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك أنه بلغه أن عبد الله بن مسعود كان يقول فيمن قال كل امرأة أنكحها فهي طالق، إنه إذا لم يسم قبيلة أو امرأة بعينها فلا شيء عليه. قال مالك وهذا أحسن ما سمعت. {cite:muwatta-maruf-1997 p.98}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1712 of kitab 15-talaq at PDF p. 98", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-74" }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1712 at PDF p. 98; يمين الرجل بطلاق ما لم ينكح", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b38" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 98; matn excerpt at most 40 words" }

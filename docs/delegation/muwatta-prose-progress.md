@@ -20,8 +20,8 @@
 - Kitab 12 done: العقيقة (hadith 1441–1448, PDF pp. 645–647; 2 babs; 8 records; chapter record and page written). Volume 1 (kitab 1–12) is complete.
 - Kitab 13 done: الفرائض (hadith 1449–1488, PDF pp. 5–26 of volume 2; 15 babs; 40 records; chapter record and page written).
 - Kitab 14 done: النكاح (hadith 1489–1580, vol. 2 PDF pp. 27–58; 22 babs; 92 records; chapter record and page written).
-- Kitab 15 in progress: الطلاق (hadith 1581–1686 written; next 1687, vol. 2 PDF p. 90).
-- Record reached: 1686. Next: kitab 15 from hadith 1687.
+- Kitab 15 done: الطلاق (hadith 1581–1713, vol. 2 PDF pp. 59–98; 27 babs; 133 records; chapter record and page written).
+- Record reached: 1713. Next: kitab 16 الرضاع from hadith 1714 (vol. 2, PDF p. 99).
 - REVIEW flags remaining: none in kitab 1–6; kitab 7–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
@@ -34,7 +34,7 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 14 (النكاح) from hadith 1489 (vol. 2, PDF p. 27), then kitab 15 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
+Kitab 16 (الرضاع) from hadith 1714 (vol. 2, PDF p. 99), then kitab 17 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.

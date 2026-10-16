@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1704"
-label: { ar: "الموطأ 1704", en: "Muwatta 1704" }
+label: { ar: "الموطأ 1704 — سعيد بن المسيب: الطلاق للرجال، والعدة للنساء", en: "Muwatta 1704" }
 summary:
-  ar: "مالك عن يحيى بن سعيد عن سعيد بن المسيب: كان يقول: الطلاق للرجال، ... ؛ قول سعيد في ملكية الطلاق؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن يحيى بن سعيد عن سعيد بن المسيب أنه كان يقول الطلاق للرجال، والعدة للنساء. {cite:muwatta-maruf-1997 p.96}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1704 of kitab 15-talaq at PDF p. 96", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-74" }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1704 at PDF p. 96; جامع عدة الطلاق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b38" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 96; matn excerpt at most 40 words" }

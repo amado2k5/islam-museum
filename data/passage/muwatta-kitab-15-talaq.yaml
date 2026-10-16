@@ -3,12 +3,20 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-15"
-label: { ar: "الموطأ، كتاب الطلاق", en: "Muwatta, Book of Divorce" }
+label: { ar: "الموطأ، كتاب الطلاق", en: "Muwatta, Book of Divorce (talaq)" }
 summary:
-  ar: "كتاب الطلاق في الموطأ، المجلد الثاني، يبدأ في صفحة 59 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Divorce in the Muwatta, volume 2, starting at PDF page 59 (PDF numbering, not the printed page)."
+  ar: "كتاب الطلاق، الكتاب الخامس عشر من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997)، في المجلد الثاني: 133 نصاً (1581–1713) في سبعة وعشرين باباً، من الصفحة 59 إلى الصفحة 98 من ملف PDF المجلد الثاني. يبدأ بالبتة وألفاظ الطلاق المختلفة، ثم التمليك والخيار والإيلاء، ثم الظهار واللغو، والخلع واللعان، وطلاق المريض والعبد، وعدة المطلقة والمتوفى عنها، ويختم بالحكمين وأيمان الطلاق. {cite:muwatta-maruf-1997 p.59} {cite:muwatta-maruf-1997 p.98}"
+  en: "The Book of Divorce, fifteenth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997), in volume 2: 133 reports (1581–1713) in twenty-seven babs, PDF pp. 59–98 of volume 2, from the irrevocable word al-batta and the words of divorce, through delegation, the oath of abstinence, zihar, khul', li'an, the divorce during illness and of slaves, to the 'idda and the two arbiters."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 59", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ila, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/zihar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/khul, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/lian, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab al-talaq, PDF pp. 59–98", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k15-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

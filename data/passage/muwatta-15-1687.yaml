@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1687"
-label: { ar: "الموطأ 1687", en: "Muwatta 1687" }
+label: { ar: "الموطأ 1687 — القاسم بن محمد وسالم بن عبد الله وأبو بكر وسليمان وابن شهاب: إذا دخلت المطلقة في الدم من الحيضة الثالثة فقد بانت، ولا ميراث بينهما، ولا رجعة له عليها", en: "Muwatta 1687" }
 summary:
-  ar: "مالك: بلغه عن القاسم بن محمد وسالم... ؛ أثر في الطلاق أو العدة؛ تفاصيل الأثر غير واضحة."
+  ar: "يروي مالك أنه بلغه عن القاسم بن محمد وسالم بن عبد الله وأبي بكر بن عبد الرحمن وسليمان بن يسار وابن شهاب أنهم كانوا يقولون إذا دخلت المطلقة في الدم من الحيضة الثالثة فقد بانت من زوجها، ولا ميراث بينهما، ولا رجعة له عليها. {cite:muwatta-maruf-1997 p.90}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1687 of kitab 15-talaq at PDF p. 90", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-73" }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/salim-ibn-abd-allah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr-ibn-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1687 at PDF p. 90; ما جاء في الأقراء في عدة الطلاق وطلاق الحائض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b38" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 90; matn excerpt at most 40 words" }

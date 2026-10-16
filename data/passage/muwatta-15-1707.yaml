@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1707"
-label: { ar: "الموطأ 1707", en: "Muwatta 1707" }
+label: { ar: "الموطأ 1707 — مالك: السنة عندنا أن الرجل إذا طلق امرأته وله عليها رجعة، فاعتدت بعض عدتها، ثم ارتجعها ثم فارقها قبل أن يمسها، فإنها تستأنف عدة مستقبلة من يوم طلقها", en: "Muwatta 1707" }
 summary:
-  ar: "مالك: السنة عندنا أن الرجل إذا طلق امرأته وله عليها رجعة، فاعتدت بعد... ؛ حكم الرجعة في العدة؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك السنة عندنا أن الرجل إذا طلق امرأته وله عليها رجعة، فاعتدت بعض عدتها، ثم ارتجعها، ثم فارقها قبل أن يمسها، فإنها لا تبني على ما مضى من عدتها، وإنها تستأنف عدة مستقبلة من يوم طلقها. وقد ظلم زوجها نفسه وأخطأ، إن كان ارتجعها ولا حاجة له بها. {cite:muwatta-maruf-1997 p.97}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1707 of kitab 15-talaq at PDF p. 97", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-74" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1707 at PDF p. 97; جامع عدة الطلاق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b38" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 97; matn excerpt at most 40 words" }

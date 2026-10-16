@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1706"
-label: { ar: "الموطأ 1706", en: "Muwatta 1706" }
+label: { ar: "الموطأ 1706 — مالك: الأمر عندنا في المطلقة التي ترفعها حيضتها حين يطلقها زوجها أنها تنتظر تسعة أشهر، فإن لم تحض فيها اعتدت ثلاثة أشهر، فإن حاضت قبل تمام الثلاثة استقبلت الحيض", en: "Muwatta 1706" }
 summary:
-  ar: "مالك: الأمر عندنا في المطلقة التي ترفعها حيضتها حين يطلقها زوجها؛ أنها تعتد... ؛ عدة المطلقة التي ترفعها الحيض؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك الأمر عندنا في المطلقة التي ترفعها حيضتها حين يطلقها زوجها، أنها تنتظر تسعة أشهر، فإن لم تحض فيها اعتدت ثلاثة أشهر، فإن حاضت قبل أن تستكمل الأشهر الثلاثة استقبلت الحيض، فإن مرت بها تسعة أشهر قبل أن تحيض اعتدت ثلاثة أشهر، فإن حاضت الثالثة كانت قد استكملت عدة الحيض، فإن لم تحض استقبلت ثلاثة أشهر، ثم حلت، ولزوجها عليها الرجعة قبل أن تحل، إلا أن يكون قد بت طلاقها. {cite:muwatta-maruf-1997 p.96}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1706 of kitab 15-talaq at PDF p. 96", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-74" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1706 at PDF p. 96; جامع عدة الطلاق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b38" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 96; matn excerpt at most 40 words" }

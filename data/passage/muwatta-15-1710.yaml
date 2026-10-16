@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1710"
-label: { ar: "الموطأ 1710", en: "Muwatta 1710" }
+label: { ar: "الموطأ 1710 — مالك: ذلك أحسن ما سمعت من أهل العلم، أن قول الحكمين يجوز بين الرجل وامرأته في الفرقة والاجتماع", en: "Muwatta 1710" }
 summary:
-  ar: "مالك: وذلك أحسن ما سمعت من أهل العلم، أن الحكمين يجوز قولهما بين الرجل... ؛ حكم الحكمين بين الزوجين؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك وذلك أحسن ما سمعت من أهل العلم، أن الحكمين يجوز قولهما بين الرجل وامرأته، في الفرقة والاجتماع. {cite:muwatta-maruf-1997 p.98}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1710 of kitab 15-talaq at PDF p. 98", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-74" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1710 at PDF p. 98; ما جاء في الحكمين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b38" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 98; matn excerpt at most 40 words" }
