@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "695"
-label: { ar: "الموطأ 695", en: "Muwatta 695" }
+label: { ar: "الموطأ 695 — ابن عمر سئل عن الكنز ما هو: هو المال الذي لا تؤدى منه الزكاة", en: "Muwatta 695" }
+text: "هو المال الذي لا تؤدى منه الزكاة"
 summary:
-  ar: "عبد الله بن دينار: سمعت عبد الله بن عمر يُسأل عن... ؛ جواب ابن عمر في مسألة زكاة؛ تفاصيل السؤال غير واضحة."
+  ar: "أول حديث في باب ما جاء في الكنز. يرويه مالك عن عبد الله بن دينار، قال: سمعت عبد الله بن عمر وهو يُسأل عن الكنز ما هو، فقال: هو المال الذي لا تؤدى منه الزكاة. ويذكر المحقق أنه رواه عن مالك أبو مصعب والشافعي في مسنده ومن طريقه البيهقي، وأن محمد بن الحسن الشيباني (341) رواه عن مالك عن نافع قال: سئل ابن عمر، بنحوه. {cite:muwatta-maruf-1997 p.348}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 695 of kitab 03-zakat at PDF p. 348", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-32" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kanz, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 695 at PDF p. 348; باب ما جاء في الكنز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل السؤال غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 348; matn excerpt at most 40 words" }

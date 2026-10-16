@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "679"
-label: { ar: "الموطأ 679", en: "Muwatta 679" }
+label: { ar: "الموطأ 679 — بلاغ: كانت عائشة تعطي أموال اليتامى من يتجر لهم فيها", en: "Muwatta 679" }
 summary:
-  ar: "بلغ مالكًا أن عائشة زوج النبي ﷺ كانت تعطي أموال اليتامى... ؛ أثر في زكاة مال اليتيم؛ تفاصيل الأثر غير واضحة."
+  ar: "بلاغ يرويه مالك أنه بلغه أن عائشة زوج النبي كانت تعطي أموال اليتامى من يتجر لهم فيها. ويذكر المحقق أن زيادة «الذين في حجرها» في نسخة م لم يقف عليها في النسخ ولا في رواية أبي مصعب، وأنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.342}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 679 of kitab 03-zakat at PDF p. 342", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-31" }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 679 at PDF p. 342; باب زكاة أموال اليتامى والتجارة لهم فيها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 342; matn excerpt at most 40 words" }

@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "693"
-label: { ar: "الموطأ 693", en: "Muwatta 693" }
+label: { ar: "الموطأ 693 — مالك: المدير للتجارة يجعل له شهراً من السنة يقوم فيه عروضه ويحصي نقده فيزكي ما بلغ النصاب", en: "Muwatta 693" }
 summary:
-  ar: "مالك: وما كان من مال عند رجل يديره للتجارة ولا ينض لصاحبه منه شيء... ؛ حكم زكاة المال المدار في التجارة."
+  ar: "قول لمالك: ما كان من مال عند رجل يديره للتجارة ولا ينض لصاحبه منه شيء تجب فيه الزكاة، فإنه يجعل له شهراً من السنة يقوّم فيه ما عنده من عرض للتجارة ويحصي ما عنده من نقد أو عين، فإذا بلغ ذلك كله ما تجب فيه الزكاة زكاه. ويذكر المحقق أنه رواه عن مالك أبو مصعب. {cite:muwatta-maruf-1997 p.347} {cite:muwatta-maruf-1997 p.348}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 693 of kitab 03-zakat at PDF p. 347", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-32" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 693 at PDF p. 347; باب زكاة العروض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 347; matn excerpt at most 40 words" }

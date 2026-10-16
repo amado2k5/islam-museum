@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "696"
-label: { ar: "الموطأ 696", en: "Muwatta 696" }
+label: { ar: "الموطأ 696 — أبو هريرة موقوفاً: من كان عنده مال لم يؤد زكاته مُثل له يوم القيامة شجاعاً أقرع يقول: أنا كنزك", en: "Muwatta 696" }
+text: "مثل له يوم القيامة شجاعاً أقرع له زبيبتان يطلبه حتى يمكنه، يقول: أنا كنزك"
 summary:
-  ar: "عبد الله بن دينار عن أبي صالح السمان عن أبي هريرة: كان يقول... ؛ أثر في زكاة الذهب أو الورق؛ تفاصيل الأثر غير واضحة."
+  ar: "يرويه مالك عن عبد الله بن دينار عن أبي صالح السمان عن أبي هريرة، أنه كان يقول: من كان عنده مال لم يؤد زكاته مُثّل له يوم القيامة شجاعاً أقرع له زبيبتان، يطلبه حتى يمكنه ويقول: أنا كنزك. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والشافعي ومحمد بن الحسن الشيباني (342)، وينقل عن ابن عبد البر (التمهيد 17/146) أنه روي عن أبي هريرة مرفوعاً من طرق صحاح ثابتة، منها حديث سهيل بن أبي صالح عن أبيه وحديث ابن عجلان عن القعقاع عن أبي صالح، ويضيف أن حديث أبي صالح المرفوع عند البخاري (2/132 و6/49) وحديث همام عنده أيضاً (9/30). {cite:muwatta-maruf-1997 p.348} {cite:muwatta-maruf-1997 p.349}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 696 of kitab 03-zakat at PDF p. 348", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-32" }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salih-al-samman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kanz, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/akhira, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 696 at PDF p. 348; باب ما جاء في الكنز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 348; matn excerpt at most 40 words" }

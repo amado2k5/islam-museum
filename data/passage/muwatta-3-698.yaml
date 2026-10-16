@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "698"
-label: { ar: "الموطأ 698", en: "Muwatta 698" }
+label: { ar: "الموطأ 698 — معاذ بن جبل يأخذ من ثلاثين بقرة تبيعاً ومن أربعين مسنة ويأبى ما دون ذلك حتى يسأل النبي", en: "Muwatta 698" }
+text: "لم أسمع من رسول الله فيه شيئاً، حتى ألقاه فأسأله"
 summary:
-  ar: "حميد بن قيس المكي عن طاوس اليماني: أن معاذ بن جبل الأنصاري... ؛ حديث في بعث معاذ إلى اليمن وأخذ الصدقة؛ تفاصيل المتن غير واضحة."
+  ar: "الحديث الوحيد في باب ما جاء في صدقة البقر. يرويه مالك عن حميد بن قيس المكي عن طاووس اليماني، أن معاذ بن جبل الأنصاري أخذ من ثلاثين بقرة تبيعاً ومن أربعين بقرة مسنة، وأُتي بما دون ذلك فأبى أن يأخذ منه شيئاً وقال إنه لم يسمع من النبي فيه شيئاً حتى يلقاه فيسأله، فتوفي النبي قبل أن يقدم معاذ. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه البغوي، والقعنبي عند أبي داود في المراسيل (108)، وعبد الرزاق (6856)، والشافعي، ومحمد بن الحسن الشيباني (340)، وينقل عن ابن عبد البر (التمهيد 2/273) أن ظاهره الوقف على معاذ، إلا أن قوله إنه لم يسمع فيما دون الثلاثين والأربعين دليل واضح على أنه سمع في الثلاثين والأربعين، ومثله لا يكون رأياً وإنما هو توقيف. {cite:muwatta-maruf-1997 p.350} {cite:muwatta-maruf-1997 p.351}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 698 of kitab 03-zakat at PDF p. 350", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-32" }
+  - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/tawus-ibn-kaysan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-ibn-qays-al-makki, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/yemen, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 698 at PDF p. 350; باب ما جاء في صدقة البقر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 350; matn excerpt at most 40 words" }

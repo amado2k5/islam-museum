@@ -3,11 +3,20 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "697"
-label: { ar: "الموطأ 697", en: "Muwatta 697" }
+label: { ar: "الموطأ 697 — كتاب عمر بن الخطاب في الصدقة: فرائض الإبل والغنم، ولا يجمع بين مفترق ولا يفرق بين مجتمع", en: "Muwatta 697" }
+text: "ولا يجمع بين مفترق، ولا يفرق بين مجتمع، خشية الصدقة. وما كان من خليطين فإنهما يتراجعان بينهما بالسوية"
 summary:
-  ar: "مالك: قرأ كتاب عمر بن الخطاب في الصدقة، فوجد فيه: بسم الله الرحمن الرحيم... ؛ كتاب عمر في فرائض الصدقة ومقاديرها."
+  ar: "أول حديث في باب صدقة الماشية. يروي مالك أنه قرأ كتاب عمر بن الخطاب في الصدقة فوجد فيه بعد البسملة: في أربع وعشرين من الإبل فدونها الغنم، في كل خمس شاة؛ وفيما فوق ذلك إلى خمس وثلاثين ابنة مخاض، فإن لم تكن فابن لبون ذكر؛ وإلى خمس وأربعين بنت لبون؛ وإلى ستين حقة طروقة الفحل؛ وإلى خمس وسبعين جذعة؛ وإلى تسعين ابنتا لبون؛ وإلى عشرين ومئة حقتان؛ فما زاد ففي كل أربعين بنت لبون وفي كل خمسين حقة. وفي سائمة الغنم إذا بلغت أربعين إلى عشرين ومئة شاة، وإلى مئتين شاتان، وإلى ثلاث مئة ثلاث شياه، فما زاد ففي كل مئة شاة. ولا يُخرج في الصدقة تيس ولا هرمة ولا ذات عوار إلا ما شاء المصدق، ولا يُجمع بين مفترق ولا يُفرق بين مجتمع خشية الصدقة، وما كان من خليطين فإنهما يتراجعان بينهما بالسوية، وفي الرقة إذا بلغت خمس أواق ربع العشر. ويشرح المحقق أسنان الإبل والرقة، ويذكر أنه رواه عن مالك أبو مصعب، وأن الكتاب أخرجه أحمد وأبو داود (1568 و1569) وابن ماجة (1798) والترمذي (621) وغيرهم من طريق الزهري عن سالم عن أبيه أن النبي كتب كتاب الصدقة ولم يخرجه إلى عماله حتى قُبض فعمل به أبو بكر ثم عمر، ويرى أن الصواب فيه الإرسال، وأن حديث أنس في كتاب أبي بكر له عند البخاري وأبي داود (1567) والنسائي. {cite:muwatta-maruf-1997 p.349} {cite:muwatta-maruf-1997 p.350}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 697 of kitab 03-zakat at PDF p. 349", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-32" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/salim-ibn-abd-allah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 697 at PDF p. 349; باب صدقة الماشية", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 349; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "688"
-label: { ar: "الموطأ 688", en: "Muwatta 688" }
+label: { ar: "الموطأ 688 — مالك: الدين لا يزكيه صاحبه حتى يقبضه، وإن أقام سنين فزكاة واحدة؛ ويخرج زكاة كل شيء منه", en: "Muwatta 688" }
 summary:
-  ar: "مالك: الأمر الذي لا خلاف فيه عندنا في الدين أن صاحبه لا يزكيه حتى يقبضه؛ زكاة الدين."
+  ar: "قول طويل لمالك: الأمر الذي لا اختلاف فيه عندنا في الدين أن صاحبه لا يزكيه حتى يقبضه، وإن أقام عند من هو عليه سنين ثم قبضه لم تجب عليه إلا زكاة واحدة. فإن قبض منه ما لا تجب فيه الزكاة وكان له ناض سواه تجب فيه الزكاة زكاه معه، وإن لم يكن له ناض غيره حفظ عدد ما اقتضى حتى يتم بما يقتضيه بعد ذلك النصاب فيزكيه، سواء استهلك ما اقتضى أولاً أو لم يستهلكه، ثم ما اقتضى بعد ذلك من قليل أو كثير زكاه بحسابه. ويستدل مالك على أن الدين الغائب أعواماً ليس فيه إلا زكاة واحدة بالعروض تكون للتجارة أعواماً ثم تُباع فليس في أثمانها إلا زكاة واحدة، لأن زكاة كل شيء تُخرج منه لا من مال سواه. ويذكر المحقق أن الناض ما كان ذهباً أو فضة، ويثبت فروق النسخ، وأنه رواه عن مالك أبو مصعب ويحيى بن بكير عند أبي عبيد في الأموال. {cite:muwatta-maruf-1997 p.344} {cite:muwatta-maruf-1997 p.345}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 688 of kitab 03-zakat at PDF p. 344", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-32" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hawl, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 688 at PDF p. 344; باب الزكاة في الدين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 344; matn excerpt at most 40 words" }

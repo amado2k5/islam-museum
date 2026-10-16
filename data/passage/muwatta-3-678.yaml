@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "678"
-label: { ar: "الموطأ 678", en: "Muwatta 678" }
+label: { ar: "الموطأ 678 — القاسم بن محمد: كانت عائشة تليني أنا وأخاً لي يتيمين في حجرها فتخرج من أموالنا الزكاة", en: "Muwatta 678" }
 summary:
-  ar: "عبد الرحمن بن القاسم عن أبيه: كانت عائشة تلينا أنا... ؛ أثر عن عائشة في مال اليتيم؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن عبد الرحمن بن القاسم عن أبيه، أنه قال: كانت عائشة تليني أنا وأخاً لي يتيمين في حجرها، فكانت تخرج من أموالنا الزكاة. ويذكر المحقق أن لفظة «أنا» ليست في نسخة م، وأنه رواه عن مالك أبو مصعب والشافعي ومن طريقه البيهقي، وأن أبا عبيد في الأموال (1307) وعبد الرزاق (6984) روياه من طريق يحيى بن سعيد وحميد وأيوب عن القاسم بنحوه. {cite:muwatta-maruf-1997 p.342}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-03-zakat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 678 of kitab 03-zakat at PDF p. 342", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k3-batch-31" }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 678 at PDF p. 342; باب زكاة أموال اليتامى والتجارة لهم فيها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k3-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 342; matn excerpt at most 40 words" }
