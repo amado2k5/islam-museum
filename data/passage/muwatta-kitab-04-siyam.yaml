@@ -5,10 +5,17 @@ work: work/muwatta-malik
 ref: "kitab-4"
 label: { ar: "الموطأ، كتاب الصيام", en: "Muwatta, Book of Fasting" }
 summary:
-  ar: "كتاب الصيام في الموطأ، المجلد الأول، يبدأ في صفحة 385 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Fasting in the Muwatta, volume 1, starting at PDF page 385 (PDF numbering, not the printed page)."
+  ar: "كتاب الصيام، الكتاب الرابع من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997): 85 نصاً (781–865) في سبعة وعشرين باباً، من الصفحة 385 إلى الصفحة 417 من ملف PDF المجلد الأول. يبدأ برؤية هلال رمضان وتعجيل الفطر وصيام الجنب والقبلة للصائم وصيام السفر والكفارة والحجامة وعاشوراء والوصال وقضاء رمضان والفدية وقضاء التطوع، ويختم بفضل الصيام وآدابه. {cite:muwatta-maruf-1997 p.385} {cite:muwatta-maruf-1997 p.417}"
+  en: "The Book of Fasting, fourth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997): 85 reports (781–865) in twenty-seven babs, PDF pp. 385–417 of volume 1, from sighting the moon and breaking the fast through travel, expiation, Ashura, making up missed fasts and fidya."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 385", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ruyat-al-hilal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/fidya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ashura, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab al-siyam, PDF pp. 385–417", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k4-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }
