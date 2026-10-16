@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1642"
-label: { ar: "الموطأ 1642", en: "Muwatta 1642" }
+label: { ar: "الموطأ 1642 — سهل بن سعد الساعدي عن ابن شهاب: جاء عويمر العجلاني إلى عاصم بن عدي يسأل عن رجل يجد مع امرأته رجلا، فسأل عاصم النبي فكره المسائل، ثم تلاعنا", en: "Muwatta 1642" }
+text: "قَدْ أُنزلَ فِيكَ وَفي صَاحِبَتكَ. فَاذْهَبْ فَأْتِ بِها"
 summary:
-  ar: "يحيى عن مالك عن ابن شهاب: أن سهل بن سعد الساعدي أخبره أن عويمر العجلاني... ؛ قصة اللعان؛ تفاصيل القصة غير واضحة."
+  ar: "يروي يحيى عن مالك عن ابن شهاب أن سهل بن سعد الساعدي أخبره أن عويمرا العجلاني جاء إلى عاصم بن عدي الأنصاري فقال له يا عاصم، أرأيت رجلا وجد مع امرأته رجلا، أيقتله فتقتلونه؟ أم كيف يفعل؟ سل لي يا عاصم عن ذلك رسول الله، فسأل عاصم رسول الله، فكره الرسول المسائل وعابها، حتى كبر على عاصم ما سمع. فلما رجع عاصم إلى أهله جاءه عويمر فسأله، فقال لم تأتني بخير، قد كره رسول الله المسألة التي سألته عنها. فأقبل عويمر حتى أتى رسول الله وسط الناس، فسأله، فقال قد أنزل فيك وفي صاحبتك، فاذهب فأت بها. فتلاعنا وسهل مع الناس عند رسول الله، فلما فرغا قال عويمر كذبت عليها يا رسول الله إن أمسكتها، فطلقها ثلاثا قبل أن يأمره رسول الله. قال ابن شهاب فكانت تلك بعد سنة المتلاعنين. {cite:muwatta-maruf-1997 p.76}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1642 of kitab 15-talaq at PDF p. 76", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-72" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sahl-ibn-sad-al-saidi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uwaymir-al-ajlani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/asim-ibn-adi-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/lian, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1642 at PDF p. 76; ما جاء في اللعان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b36" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 76; matn excerpt at most 40 words" }

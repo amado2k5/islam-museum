@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1657"
-label: { ar: "الموطأ 1657", en: "Muwatta 1657" }
+label: { ar: "الموطأ 1657 — محمد بن إياس بن البكير: طلق رجل امرأته ثلاثا قبل أن يدخل بها، ثم أراد نكاحها، فقال ابن عباس وأبو هريرة لا نرى أن تنكحها حتى تنكح زوجا غيرك", en: "Muwatta 1657" }
 summary:
-  ar: "يحيى عن مالك عن ابن شهاب عن محمد بن عبد الرحمن بن ثوبان عن محمد بن إياس بن البكير: حديث في اللعان أو النسب؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن ابن شهاب عن محمد بن عبد الرحمن بن ثوبان عن محمد بن إياس بن البكير أنه قال طلق رجل امرأته ثلاثا قبل أن يدخل بها، ثم بدا له أن ينكحها، فجاء يستفتي، فذهبت معه أسأل له، فسأل عبد الله بن عباس وأبا هريرة عن ذلك، فقالا لا نرى أن تنكحها حتى تنكح زوجا غيرك. قال فإنما طلاقي إياها واحدة. فقال ابن عباس إنك أرسلت من يدك ما كان لك من فضل. {cite:muwatta-maruf-1997 p.81}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1657 of kitab 15-talaq at PDF p. 81", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-72" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-abd-al-rahman-ibn-thawban, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-iyas-ibn-al-bukayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1657 at PDF p. 81; طلاق البكر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b36" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 81; matn excerpt at most 40 words" }
