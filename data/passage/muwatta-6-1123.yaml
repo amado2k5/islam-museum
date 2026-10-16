@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1123"
-label: { ar: "الموطأ 1123", en: "Muwatta 1123" }
+label: { ar: "الموطأ 1123 — ابن شهاب: من أهدى بدنة جزاء أو نذراً أو هدي تمتع، فأصيبت في الطريق فعليه البدل", en: "Muwatta 1123" }
+text: "من أهدى بدنة جزاء أو نذراً أو هدي تمتع، فأصيبت في الطريق فعليه البدل"
 summary:
-  ar: "ابن شهاب: من أهدى بدنة جزاء أو نذرًا أو هدي تمتع فأُصيبت... ؛ حكم البدنة إذا أُصيبت؛ الحكم يحتاج مراجعة."
+  ar: "يرويه مالك عن ابن شهاب أنه قال: من أهدى بدنة جزاء أو نذراً، أو هدي تمتع، فأُصيبت في الطريق، فعليه البدل. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1219) وسويد (528). {cite:muwatta-maruf-1997 p.513}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1123 of kitab 06-hajj at PDF p. 513", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-50" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1123 at PDF p. 513; العمل في الهدي إذا عطب أو ضل", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b10" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 513; matn excerpt at most 40 words" }

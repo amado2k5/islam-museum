@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1134"
-label: { ar: "الموطأ 1134", en: "Muwatta 1134" }
+label: { ar: "الموطأ 1134 — نافع عن سليمان بن يسار: هبار بن الأسود جاء يوم النحر وعمر ينحر هديه، فقال: يا أمير المؤمنين، أخطأنا العدة، كنا نرى أن هذا اليوم يوم عرفة؛ فقال عمر: اذهب إلى مكة فطف أنت ومن معك، وانحروا هدياً إن كان معكم، ثم احلقوا أو قصروا وارجعوا، فإذا كان عام قابل فحجوا وأهدوا، فمن لم يجد فصيام ثلاثة أيام في الحج وسبعة إذا رجع", en: "Muwatta 1134" }
 summary:
-  ar: "نافع عن سليمان بن يسار: أن هبار بن الأسود جاء يوم النحر وعمر بن الخطاب يُنحر... ؛ أثر في يوم النحر؛ تفاصيل الواقعة غير واضحة."
+  ar: "يرويه مالك عن نافع عن سليمان بن يسار، أن هبار بن الأسود جاء يوم النحر وعمر بن الخطاب ينحر هديه، فقال: يا أمير المؤمنين، أخطأنا العدة، كنا نرى أن هذا اليوم يوم عرفة. فقال عمر: اذهب إلى مكة فطف أنت ومن معك، وانحروا هدياً إن كان معكم، ثم احلقوا أو قصروا وارجعوا، فإذا كان عام قابل فحجوا وأهدوا، فمن لم يجد فصيام ثلاثة أيام في الحج وسبعة إذا رجع. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1430) وسويد (532) والشيباني (431). {cite:muwatta-maruf-1997 p.516}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1134 of kitab 06-hajj at PDF p. 516", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-50" }
+  - { type: mentions, target: person/habbar-ibn-al-aswad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/arafat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1134 at PDF p. 516; هدي من فاته الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b10" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 516; matn excerpt at most 40 words" }

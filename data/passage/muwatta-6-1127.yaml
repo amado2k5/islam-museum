@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1127"
-label: { ar: "الموطأ 1127", en: "Muwatta 1127" }
+label: { ar: "الموطأ 1127 — يحيى بن سعيد عن سعيد بن المسيب: رجل وقع بامرأته وهو محرم، فبعث إلى المدينة يسأل، فقال بعض الناس: يفرق بينهما إلى عام قابل؛ فقال سعيد: لينفذا لوجههما فليتما حجهما الذي أفسدا، ثم عليهما الحج والهدي من قابل ويفترقان حتى يقضيا حجهما", en: "Muwatta 1127" }
 summary:
-  ar: "يحيى بن سعيد: سمع سعيد بن المسيب يقول: ما ترون في رجل وقع بامرأته... ؛ حكم الجماع في الحج؛ الجواب يحتاج مراجعة."
+  ar: "يرويه مالك عن يحيى بن سعيد أنه سمع سعيد بن المسيب يقول: ما ترون في رجل وقع بامرأته وهو محرم؟ فلم يقل له القوم شيئاً. فقال سعيد: إن رجلاً وقع بامرأته وهو محرم، فبعث إلى المدينة يسأل، فقال بعض الناس: يُفرق بينهما إلى عام قابل. فقال سعيد: لينفذا لوجههما، فليتما حجهما الذي أفسدا، فإذا فرغا رجعا. فإن أدركهما حج قابل فعليهما الحج والهدي، ويهلان من حيث أهلا بحجهما الذي أفسدا، ويتفرقان حتى يقضيا حجهما. قال مالك: يُهديان جميعاً بدنة بدنة. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1231). {cite:muwatta-maruf-1997 p.514}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1127 of kitab 06-hajj at PDF p. 514", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-50" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1127 at PDF p. 514; هدي المحرم إذا أصاب أهله", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b10" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 514; matn excerpt at most 40 words" }
