@@ -175,3 +175,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - event a–m batch 13 (2026-10-16, claude-haiku-5-5): 25 pages, conquest-of-iqritish → conquest-of-samarkand (EN drafts).
 - person i–m batch 27 (25 files, muhammad-i-andalusi … muhammad-ibn-al-fadl-al-jarjarai) — Claude Haiku 5.5, draft
 - place a–l batch 16 (Haiku 5.5, draft): 25 files, barus → batrani; 936 Arabic files in a–l at commit time.
+- person s–z batch 20 (Claude Code, claude-haiku-5-5): yahya-ibn-al-bitriq … yaqtin-ibn-musa, 25 files, 25 files.
