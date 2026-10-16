@@ -57,3 +57,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person i–m batch 3 (25 files, ibn-al-habbar … ibn-al-nahhas-al-dimashqi) pushed to main — Claude Haiku 5.5, draft
 - place m–z batch 7: 25 files (nahr-barada.md … narand.md), draft
 - person s–z batch 2 (Claude Code, claude-haiku-5-5): sahl-al-tustari … said-ibn-uthman, 25 files, commit 4cebb75c.
+- event a–m batch 2 (2026-10-16, claude-haiku-5-5): 25 pages, abu-said-qarmati-bahrayn-286 → al-awzai-letter-to-salih (EN drafts).
