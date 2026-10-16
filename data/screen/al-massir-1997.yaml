@@ -1,0 +1,65 @@
+id: screen/al-massir-1997
+class: screen
+format: film
+relevance: primary
+label:
+  en: Destiny
+  ar: المصير
+titles:
+- lang: ar
+  value: المصير
+  kind: original
+- lang: fr
+  value: Le Destin
+  kind: release
+- lang: en
+  value: Destiny
+  kind: release
+summary:
+  ar: فيلم يوسف شاهين عن ابن رشد في قرطبة الأندلس على أعتاب حرق كتبه، يوازي بين قرطبة القرن الثاني عشر ومصر التسعينيات في
+    مواجهة التشدد باسم الدين.
+  en: Youssef Chahine's film about Ibn Rushd in Almohad Cordoba on the eve of the burning of his books — a deliberate parallel
+    with 1990s Egypt and religious militancy.
+wings:
+- people
+- time
+themes:
+- dissent-heresy-freethought
+- tradition-versus-culture
+released:
+  edtf: '1997'
+  calendar: gregorian
+  precision: year
+countries:
+- eg
+- fr
+languages:
+  original:
+  - ar
+  - fr
+approach: historical-drama
+relations:
+- type: about
+  target: person/ibn-rushd
+- type: set_in
+  target: place/cordoba
+- type: set_in
+  target: period/crusades-ayyubid-mamluk
+reception:
+- kind: ban
+  where:
+  - eg
+  status: debated
+  note: A lawsuit sought to ban the film in Egypt on blasphemy grounds; the case was rejected in court.
+  sources: []
+external_ids:
+  wikidata: Q1170237
+  imdb: tt0119629
+sources:
+- source/wikidata
+- source/imdb
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
+    2026-10-16

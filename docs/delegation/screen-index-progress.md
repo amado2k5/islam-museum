@@ -1,0 +1,24 @@
+# Screen index lane (docs/plan/12)
+
+Goal: catalogue films, TV series, documentaries and famous video works about Islam as `data/screen/<slug>.yaml` records rendered in the Screening Room at `/[lang]/screen/`.
+
+## Conventions used in this lane
+
+- `id`: `screen/<arabic-or-transliterated-slug>-<year>`; `format`, `relevance`, `titles[]`, `released`/`first_broadcast`, `depiction{}`, `approach`, `relations` (existing entity ids only), `external_ids` `{wikidata, imdb}`, `sources: [source/wikidata, source/imdb]`, `status.review: draft`.
+- Verification: Wikidata QID resolved via enwiki `pageprops` (or direct Wikidata search); IMDb id taken from the Wikidata P345 claim. Records with no second source get only the source that exists.
+- `depiction.prophet` refers to the Prophet Muhammad; other prophets shown on screen are described in `depiction.note` (`prophet: face` is rejected by the validator).
+- `sensitivity`: `figurative-prophet` where Companions/Imams or the Prophet's silhouette appear; `contested` for controversy; `polemical` for hostile works (never carry `watch` links).
+- `watch` links: official/rights-holder URLs only, each with `region` and `checked` date.
+- Broadcasters used: `group/mbc`, `group/bbc`, `group/pbs`, `group/trt` — all stubs in `data/_stubs.d/screen-index.yaml`.
+- New stub file: `data/_stubs.d/screen-index.yaml` (remove lines as entities are promoted).
+
+## Done
+
+- 2026-10-16: `source/imdb` created. Batch 1 (25 records): al-risala-1976 enriched with IMDb id; new — umar-2012, muhammad-rasul-allah-2015, muhammad-khatam-al-anbiya-2002, hayat-muhammad-2011, muhammad-irath-nabi-2002, al-nasir-salah-al-din-1963, umar-al-mukhtar-1981, al-massir-1997, mamlakah-al-sama-2005, fetih-1453-2012, qiyamat-ertugrul-2014, qiyamat-uthman-2019, yunus-emre-askin-yolculugu-2015, payitaht-abdulhamid-2017, kudus-fatihi-selahaddin-eyyubi-2023, takva-2006, yusuf-payambar-2008, maryam-muqaddas-2001, ashab-al-kahf-1997, al-masih-2007, mukhtarnameh-2011, shaheed-e-kufa-1995, al-imam-2017, muawiya-2025, al-muhajir-1994.
+
+## Candidate backlog (verified QID+IMDb pairs already collected)
+
+Documentaries: islam-empire-of-faith-2000, inside-mecca-2003, journey-to-mecca-2009, one-day-in-the-haram-2017, islam-the-untold-story-2012, a-road-to-mecca-2008 (Q1197953), prince-among-slaves-2007, when-the-moors-ruled-2005, ottomans-europes-muslim-emperors-2013, reel-bad-arabs-2006, new-muslim-cool-2009, the-feeling-of-being-watched-2018, four-daughters-2023, rise-of-empires-ottoman-2020, muslims-are-coming-2013.
+Muslim-life film/series: little-mosque-2007, ramy-2019, mo-2022, we-are-lady-parts-2021, citizen-khan-2012, man-like-mobeen-2017, ms-marvel-2022, the-big-sick-2017, my-name-is-khan-2010, timbuktu-2014, ceddo-1977 (Q5057031/tt0077309), khuda-kay-liye-2007, sang-pencerah-2010, para-pencari-tuhan-2007, 99-cahaya-2013 (Q15277609/tt6096424), nussa-2019, bilal-new-breed-2015, le-grand-voyage-2004, wadjda-2012, mat-kilau-2022, ali-2001 (imdb tt0248667 — needs QID), malcolm-x-1992, four-lions-2010, a-prophet-2009, battle-of-algiers-1966, incendies-2010, where-do-we-go-now-2011, free-men-2011, the-insult-2017, the-13th-warrior-1999, garm-hava-1973, alif-2019, shehr-e-zaat-2012, khuda-aur-muhabbat-2011, zindagi-tamasha-2019, wa-islamah-1961, kingdom-of-solomon-2010, the-99-2011, paradise-now-2005, stoning-of-soraya-m-2009, osama-2003, a-separation-2011, persepolis-2007, taste-of-cherry-1997, brick-lane-2007, hur-adam-2011, times-and-winds-2006, the-unknown-saint-2019, barakah-meets-barakah-2016, the-perfect-candidate-2019, the-reluctant-fundamentalist-2012, damascus-time-2018, ketika-cinta-bertasbih-2009, raqs-e-bismil-2020, joyland-2022, tukang-bubur-naik-haji-2012 (Q7851815).
+Polemical (neutral index entries, `sensitivity: polemical`, no watch links): fitna-2008, innocence-of-muslims-2012, submission-2004, obsession-2005.
+Unresolved candidates (need arwiki/fawiki/idwiki resolution or manual): koran-by-heart, sultan-and-the-saint-2016, cities-of-light-2007, ayat-ayat-cinta-2008, an-islamic-history-of-europe-2005, science-and-islam-2009, ornament-of-the-world-2019, not-without-my-daughter-1991, sang-kyai-2013, lorong-waktu, hidayah, fajr-al-islam, al-zahir-baybars-2005, saqr-quraish-2002, rabee-qurtuba-2003, muluk-al-tawaif-2005, al-taghriba-al-filistiniyya-2004, al-shaimaa-1972, al-qadisiyya-1981, nikaah-1982, al-hassan-wal-hussain-2011, qamar-bani-hashim-2008, salman-al-farisi-2023, khawatir-2005, the-deen-show, zaky.

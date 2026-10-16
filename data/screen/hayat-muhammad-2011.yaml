@@ -1,0 +1,66 @@
+id: screen/hayat-muhammad-2011
+class: screen
+format: documentary_series
+relevance: primary
+label:
+  en: The Life of Muhammad
+  ar: حياة محمد
+titles:
+- lang: en
+  value: The Life of Muhammad
+  kind: original
+- lang: ar
+  value: حياة محمد
+  kind: alternate
+summary:
+  ar: سلسلة وثائقية من ثلاث حلقات قدّمها راغب عمر على بي بي سي توثّق سيرة النبي بالتصوير في مواقع الجزيرة العربية مع مقابلات
+    باحثين ومسلمين معاصرين.
+  en: A three-part BBC documentary presented by Rageh Omaar, tracing the Prophet's life on location in Arabia with scholars
+    and contemporary Muslims.
+wings:
+- people
+- time
+themes:
+- prophets
+first_broadcast:
+  edtf: '2011'
+  calendar: gregorian
+  precision: year
+countries:
+- gb
+languages:
+  original:
+  - en
+episodes: 3
+broadcaster: group/bbc
+depiction:
+  prophet: not-applicable
+  companions: not-applicable
+  imams: not-applicable
+  note: Documentary format; the Prophet is not dramatised.
+approach: documentary
+relations:
+- type: about
+  target: person/muhammad
+- type: set_in
+  target: period/prophetic-era
+- type: set_in
+  target: place/mecca
+- type: set_in
+  target: place/medina
+reception:
+- kind: objection
+  by: some viewers; a complaint campaign led the BBC to re-schedule one episode during Ramadan
+  status: debated
+  sources: []
+external_ids:
+  wikidata: Q14954424
+  imdb: tt1944942
+sources:
+- source/wikidata
+- source/imdb
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
+    2026-10-16

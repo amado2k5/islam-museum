@@ -1,0 +1,59 @@
+id: screen/fetih-1453-2012
+class: screen
+format: film
+relevance: substantial
+label:
+  en: Conquest 1453
+  ar: الفتح ١٤٥٣
+titles:
+- lang: tr
+  value: Fetih 1453
+  kind: original
+- lang: en
+  value: Conquest 1453
+  kind: release
+- lang: ar
+  value: الفتح ١٤٥٣
+  kind: dubbed
+summary:
+  ar: فيلم تركي ملحمي عن محمد الفاتح وفتح القسطنطينية سنة 1453، ومن أنجح الأفلام التركية إيراداً في تاريخ السينما التركية.
+  en: A Turkish epic about Mehmed II and the conquest of Constantinople in 1453 — one of the highest-grossing Turkish films
+    of its era.
+wings:
+- people
+- time
+themes:
+- conquest-and-its-debates
+- wars-and-campaigns
+released:
+  edtf: '2012'
+  calendar: gregorian
+  precision: year
+countries:
+- tr
+languages:
+  original:
+  - tr
+  dubbed:
+  - ar
+approach: historical-drama
+relations:
+- type: about
+  target: event/ottoman-conquest-constantinople-1453
+- type: about
+  target: person/mehmed-ii
+- type: set_in
+  target: place/istanbul
+- type: set_in
+  target: period/gunpowder-empires
+external_ids:
+  wikidata: Q171731
+  imdb: tt1783232
+sources:
+- source/wikidata
+- source/imdb
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
+    2026-10-16

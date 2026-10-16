@@ -1,0 +1,76 @@
+id: screen/umar-2012
+class: screen
+format: series
+relevance: primary
+label:
+  en: Omar
+  ar: عمر
+titles:
+- lang: ar
+  value: عمر
+  kind: original
+- lang: en
+  value: Omar
+  kind: alternate
+- lang: en
+  value: Farouk Omar
+  kind: broadcast
+summary:
+  ar: مسلسل تاريخي إنتاج إم بي سي يتابع سيرة عمر بن الخطاب من الجاهلية إلى استشهاده خليفةً، ولا يظهر فيه النبي ولا يُسمع صوته.
+  en: An MBC historical series following the life of Umar ibn al-Khattab from the Jahiliya to his assassination as caliph;
+    the Prophet is neither shown nor heard.
+wings:
+- people
+- time
+themes:
+- prophets
+- wars-and-campaigns
+first_broadcast:
+  edtf: '2012'
+  calendar: gregorian
+  precision: year
+countries:
+- sa
+languages:
+  original:
+  - ar
+  dubbed:
+  - fa
+  - tr
+  - ur
+  - id
+seasons: 1
+episodes: 31
+broadcaster: group/mbc
+depiction:
+  prophet: not-shown
+  companions: shown
+  imams: shown
+  note: The Prophet is never shown; Companions including Ali are played by actors — a depiction Sunni religious authorities
+    have often objected to.
+approach: historical-drama
+sensitivity: figurative-prophet
+relations:
+- type: about
+  target: person/umar-ibn-al-khattab
+- type: about
+  target: person/muhammad
+- type: set_in
+  target: period/prophetic-era
+- type: set_in
+  target: period/rashidun
+- type: set_in
+  target: place/mecca
+- type: set_in
+  target: place/medina
+external_ids:
+  wikidata: Q3184088
+  imdb: tt2063241
+sources:
+- source/wikidata
+- source/imdb
+status:
+  review: draft
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against Wikidata and IMDb,
+    2026-10-16
