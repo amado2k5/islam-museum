@@ -13,7 +13,7 @@ describe("museum cards data", () => {
     for (const f of files) {
       const d = JSON.parse(readFileSync(`${dir}/${f}`, "utf8"));
       expect(d.slug).toBe(f.replace(/\.json$/, ""));
-      expect(d.occurrences.length).toBeGreaterThan(0);
+      expect(d.forms.length).toBeGreaterThan(0);
     }
   });
   it("list decks validate", () => {
