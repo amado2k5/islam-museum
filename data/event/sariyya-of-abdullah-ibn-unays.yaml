@@ -1,0 +1,19 @@
+id: event/sariyya-of-abdullah-ibn-unays
+class: event
+kind: raid
+label: { en: "Sariyya of Abdullah ibn Unays against Sufyan ibn Khalid", ar: "سرية عبد الله بن أنيس إلى سفيان بن خالد" }
+summary:
+  en: "A single-man sariyya the Prophet sent in Muharram of the sixth year, as Waqidi reports, to kill Sufyan ibn Khalid al-Hudhali, who was gathering forces at Uranah; Ibn Unays went alone, identified him by the Prophet's description, and joined him to get close."
+  ar: "سرية أرسلها النبي في المحرم سنة ست، كما يروي الواقدي، لقتل سفيان بن خالد الهذلي الذي جمع الجموع بعرنة؛ خرج عبد الله بن أنيس وحده، فعرف سفيان بالصفة التي وصفها النبي، واندس إليه ليتمكن منه."
+wings: [time, people]
+themes: [military-history]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0627-04~", calendar: julian, precision: month, status: tradition, note: "خرج يوم الإثنين لخمس خلون من المحرم على رأس أربعة وخمسين شهراً من الهجرة (المغازي ص531)" }
+relations:
+  - { type: had_participant, target: person/abdullah-ibn-unays, role: "قائد السرية وحده", sources: [source/al-waqidi-maghazi] }
+  - { type: part_of, target: period/prophetic-era }
+# Verification: taken from Waqidi's isnad-based narration; the outcome of the killing is in the next page and not drafted yet. Needs a second source before a dated claim.
+sources: [source/al-waqidi-maghazi]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; al-Waqidi Maghazi pp. 531–532 (OCR)" }
