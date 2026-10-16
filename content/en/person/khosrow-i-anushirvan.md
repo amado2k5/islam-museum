@@ -1,0 +1,18 @@
+---
+id: person/khosrow-i-anushirvan
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## Overview
+Khosrow I Anushirvan, king of the [[polity/sasanian-empire|Persians]], who succeeded Kavad ibn Firuz. He strongly disliked the Mazdakite doctrine, and killed [[person/mazdak|Mazdak]] and many who professed his doctrine. He restored [[person/al-mundhir-ibn-ma-al-sama|al-Mundhir ibn Ma al-Sama]] to the governorship of [[place/al-hira|al-Hira]]. {cite:mubarakpuri-raheeq p.26} {cite:muhadarat-tarikh-al-umam-al-islamiyya 1/29-32}
+
+## Al-Harith al-Kindi
+Khosrow sought [[person/al-harith-ibn-amr-al-kindi|al-Harith ibn Amr al-Kindi]], whom Kavad had appointed over al-Hira, but he escaped to the lands of the Banu Kalb and remained among them until he died. {cite:mubarakpuri-raheeq p.26}
+
+## What is not stated here
+The reports of al-Tabari about his reign are not given in this entry, and the Ar-Raheeq does not name the other king who imprisoned al-Nu'man ibn al-Mundhir.
+
+## For young visitors
+Anushirvan was a king of Persia known to the Arabs for justice. He killed Mazdak and restored the king of al-Hira to his place.
