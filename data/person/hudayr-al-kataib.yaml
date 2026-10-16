@@ -1,0 +1,20 @@
+id: person/hudayr-al-kataib
+class: person
+label: { ar: "حضير الكتائب", en: "Hudayr al-Kata'ib" }
+summary:
+  ar: "حضير الملقب بالكتائب، والد أسيد بن حضير ورئيس الأوس يوم بعاث؛ رثاه خفاف بن ندبة بقوله «فيا عين بكي حضير الندى، حضير الكتائب والمجلس»، وقيل ثبّت الأوس بعدما كانت الدبرة على الخزرج أولاً فرجعوا وانتصروا {cite:samhudi-wafa-al-wafa p. 229-230}."
+  en: "Hudayr, called 'of the Squadrons', father of Usayd ibn Hudayr and the Aws commander on the day of Bu'ath; Khufaf ibn Nadba eulogised him as 'Hudayr of generosity, of squadrons and of council', and it is said he rallied the Aws after the first rout fell on the Khazraj, so they returned and prevailed {cite:samhudi-wafa-al-wafa p. 229-230}."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+relations:
+  - { type: member_of, target: group/al-aws, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: participated_in, target: event/yawm-buath, role: "رئيس الأوس، قُتل فيها", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 229–230"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

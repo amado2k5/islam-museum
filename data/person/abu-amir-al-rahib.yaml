@@ -1,0 +1,23 @@
+id: person/abu-amir-al-rahib
+class: person
+label: { ar: "أبو عامر الراهب", en: "Abu 'Amir al-Rahib" }
+summary:
+  ar: "أبو عامر عبد عمرو بن صيفي الأوسي المعروف بالراهب، والد حنظلة غسيل الملائكة؛ كان له صيت في الجاهلية بيثرب وكان مع الأوس يوم بعاث، ثم أظهر عداوته للإسلام بعد الهجرة حتى سمّاه النبي الفاسق {cite:samhudi-wafa-al-wafa p. 230}. وعند المقريزي كان من قساوسة العرب وهاجر إلى الحبشة فراراً بدينه وإليه تنسب حفرة أبي عامر التي وقع فيها المسلمون يوم أحد."
+  en: "Abu 'Amir 'Abd 'Amr ibn Sayfi al-Awsi, known as 'the Monk', father of Hanzala 'the one washed by the angels'; a man of standing in Jahiliyya Yathrib who fought with the Aws at Bu'ath, then showed open hostility to Islam after the Hijra until the Prophet named him al-Fasiq — the reprobate {cite:samhudi-wafa-al-wafa p. 230}. In al-Maqrizi he was one of the Arabs' priests, emigrated to Abyssinia for his faith, and to him is ascribed Abu 'Amir's pit into which the Muslims fell at Uhud."
+gender: male
+wings: [people]
+periods: [period/pre-islamic-arabia, period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: opponent, status: tradition, note: "أظهر عداوته للإسلام بعد الهجرة؛ سمّاه النبي الفاسق." }
+relations:
+  - { type: member_of, target: group/al-aws, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: participated_in, target: event/yawm-buath, role: "مع الأوس", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: related_to, target: person/hanzala-ibn-abi-amir, note: "أبوه", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 230"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

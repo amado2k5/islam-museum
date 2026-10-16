@@ -1,0 +1,29 @@
+id: event/yawm-buath
+class: event
+kind: battle
+label: { ar: "يوم بُعاث", en: "The day of Bu'ath" }
+summary:
+  ar: "آخر حروب الأوس والخزرج وأكبرها قبل الإسلام، على بعد نحو خمس سنين من الهجرة على الأصح؛ اقتتلوا في بُعاث وهو موضع عند أعلى قَوْرى، بعد أن تحالفت الأوس — وقد غُلبت في الحروب السالفة — مع قريظة والنضير ونزل بعض بطونها خيبر، فلما افتخرت الخزرج بالفوز وأخذت رهن اليهود تمّت الحرب، وقُتل فيها رئيسا الفريقين: حُضَيْر الكتائب والد أسيد بن حضير للأوس، وعمرو بن النعمان البياضي للخزرج — وقد أنذره عبد الله بن أُبيّ أنه يُحمَل قتيلاً فأجابه بعصيان، فجيء به محمولاً على أربعة كما قال — وكانت الدَّبْرة أولاً على الخزرج ثم ثبّت حضير الأوس فرجعوا وانتصروا؛ وفي الصحيح قالت عائشة «كان يوم بعاث يوماً قدَّمه الله رسوله في دخولهم في الإسلام، فقدِم رسول الله وقد افترق ملؤهم وقُتلت سراتهم» {cite:samhudi-wafa-al-wafa p. 227-230}."
+  en: "The last and greatest of the Aws–Khazraj wars before Islam, about five years before the Hijra on the soundest view; they fought at Bu'ath, a site at the head of Qawra, after the long-bested Aws allied with Qurayza and al-Nadir and some of its clans withdrew to Khaybar — when the Khazraj boasted of victory and seized the Jews' hostages, the war was joined. Both chiefs fell: Hudayr 'al-Kata'ib', father of Usayd, for the Aws, and 'Amr ibn al-Nu'man al-Bayadi for the Khazraj — 'Abdallah ibn Ubayy had warned him he would be borne off slain, and four men carried him in as foretold; the rout first fell on the Khazraj until Hudayr rallied the Aws to victory; and in the Sahih 'A'isha says 'the day of Bu'ath was a day God sent ahead of His Messenger for their entering Islam — he came when their assembly had scattered and their chiefs been slain' {cite:samhudi-wafa-al-wafa p. 227-230}."
+wings: [time, place, people]
+periods: [period/pre-islamic-arabia]
+regions: [arabia]
+date:
+  start: { edtf: "0617~", hijri: "-0005", calendar: julian, precision: year, status: tradition, derived: true, note: "قبل الهجرة بخمس سنين على الأصح عند السمهودي؛ وقيل أربع وقيل أكثر {cite:samhudi-wafa-al-wafa p. 230}." }
+relations:
+  - { type: occurred_at, target: place/medina, note: "بُعاث عند أعلى قورى من أرض يثرب", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: had_participant, target: group/al-aws, role: "المتحالفون مع قريظة والنضير", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: had_participant, target: group/al-khazraj, sources: [source/samhudi-wafa-al-wafa] }
+  - { type: had_participant, target: group/banu-qurayza, role: "حلفاء الأوس", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: had_participant, target: group/banu-nadir, role: "حلفاء الأوس", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: had_participant, target: person/hudayr-al-kataib, role: "رئيس الأوس، قُتل فيها", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: had_participant, target: person/amr-ibn-al-numan-al-bayadi, role: "رئيس الخزرج، قُتل فيها", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: had_participant, target: person/kaab-ibn-asad, role: "دُعي إلى حلف الأوس ففعل", sources: [source/samhudi-wafa-al-wafa] }
+  - { type: had_participant, target: person/abu-amir-al-rahib, role: "مع الأوس", sources: [source/samhudi-wafa-al-wafa] }
+sources: [source/samhudi-wafa-al-wafa]
+provenance:
+  layer: own-research
+  source: "وفاء الوفاء للسمهودي (ط محيي الدين عبد الحميد) ص 227–230"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: geo-wafa-al-wafa-2
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
