@@ -133,3 +133,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - polity batch 4 (5 files, zayyanid-tlemcen … zurayid-dynasty; polity complete): done by Claude Haiku 5.5, draft
 - place m–z batch 24: 25 files (thaniyyat-al-mirar.md … trebizond.md), draft
 - person i–m batch 18 (25 files, kharisha-ibn-masud … khuraym-ibn-aws) — Claude Haiku 5.5, draft
+- person s–z batch 12 (Claude Code, claude-haiku-5-5): tariq-ibn-ziyad … thamumma, 25 files, .
