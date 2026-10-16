@@ -124,3 +124,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - polity batch 2 (25 files, ghana-empire … muzaffarid-dynasty): done by Claude Haiku 5.5, draft
 - place m–z batch 22: 25 files (tabas.md … taqarart.md), draft
 - place a–l batch 4 (Haiku 5.5, draft): 25 files, al-haditha → al-khawarnaq; 936 Arabic files in a–l at commit time.
+- event a–m batch 6 (2026-10-16, claude-haiku-5-5): 25 pages, baghdad-sectarian-war-422 → battle-of-ajnadayn (EN drafts).
