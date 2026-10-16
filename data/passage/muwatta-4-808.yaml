@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "808"
-label: { ar: "الموطأ 808", en: "Muwatta 808" }
+label: { ar: "الموطأ 808 — أنس بن مالك: سافرنا مع رسول الله في رمضان فلم يعب الصائم على المفطر ولا المفطر على الصائم", en: "Muwatta 808" }
+text: "فلم يعب الصائم على المفطر، ولا المفطر على الصائم"
 summary:
-  ar: "حميد الطويل عن أنس بن مالك: قال: سافرنا مع رسول الله ﷺ... ؛ حديث في الصيام في السفر؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن حميد الطويل عن أنس بن مالك، أنه قال: سافرنا مع رسول الله في رمضان فلم يعب الصائم على المفطر، ولا المفطر على الصائم. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن حبان والبغوي، وسويد، والقعنبي عند البخاري (1947) والجوهري، والشافعي، ويحيل على التمهيد (2/169). {cite:muwatta-maruf-1997 p.396}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 808 of kitab 04-siyam at PDF p. 396", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-37" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-al-tawil, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 808 at PDF p. 396; باب ما جاء في الرخصة في الفطر في السفر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 396; matn excerpt at most 40 words" }

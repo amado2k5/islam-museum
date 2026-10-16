@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "809"
-label: { ar: "الموطأ 809", en: "Muwatta 809" }
+label: { ar: "الموطأ 809 — حمزة بن عمرو الأسلمي: أصوم في السفر؟ قال: إن شئت فصم وإن شئت فأفطر", en: "Muwatta 809" }
+text: "إن شئت فصم، وإن شئت فأفطر"
 summary:
-  ar: "هشام بن عروة عن أبيه: أن حمزة بن عمرو الأسلمي قال لرسول الله ﷺ... ؛ حديث في الصيام في السفر؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه، أن حمزة بن عمرو الأسلمي قال للنبي: يا رسول الله، إني رجل أصوم، أفأصوم في السفر؟ فقال له النبي: إن شئت فصم، وإن شئت فأفطر. ويذكر المحقق أن يحيى رواه هكذا عن هشام عن أبيه عن حمزة، وأن سائر أصحاب مالك رووه عن هشام عن أبيه عن عائشة أن حمزة قال ذلك، وأن الحديث محفوظ عن هشام عن أبيه عن عائشة، كما رواه جماعة منهم ابن عيينة وحماد بن سلمة وابن عجلان ووكيع والليث، وأن ابن عبد البر (التمهيد 22/146–147) رأى أن رواية يحيى ليست خطأ محضاً لأن سليمان بن يسار رواه عن حمزة نفسه، وأن عروة قد يكون سمعه من عائشة ومن أبي مراوح عن حمزة. {cite:muwatta-maruf-1997 p.397}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 809 of kitab 04-siyam at PDF p. 397", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-37" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hamza-ibn-amr-al-aslami, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 809 at PDF p. 397; باب ما جاء في الرخصة في الفطر في السفر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 397; matn excerpt at most 40 words; doubt: يحيى يجعله عن حمزة مباشرة عن عروة؛ سائر الرواة عن عائشة عن حمزة؛ ابن عبد البر يرجح الجمع." }

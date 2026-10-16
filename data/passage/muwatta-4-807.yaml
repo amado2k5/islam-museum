@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "807"
-label: { ar: "الموطأ 807", en: "Muwatta 807" }
+label: { ar: "الموطأ 807 — أبو سعيد ومن عند أبي بكر بن عبد الرحمن: أفطر النبي الناس في سفره عام الفتح وقال: تقووا لعدوكم، وصام رسول الله", en: "Muwatta 807" }
 summary:
-  ar: "سمي مولى أبي بكر بن عبد الرحمن عن أبي بكر بن عبد الرحمن عن بعض أصحاب النبي ﷺ: حديث في الصيام؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن سمي مولى أبي بكر بن عبد الرحمن عن أبي بكر بن عبد الرحمن عن بعض أصحاب النبي، أن رسول الله أمر الناس في سفره عام الفتح بالفطر، وقال: تقووا لعدوكم، وصام رسول الله. ويروي أبو بكر عن الذي حدثه أنه رأى النبي بالعرج يصب الماء على رأسه من العطش أو من الحر، ثم قيل للنبي إن طائفة من الناس قد صاموا حين صمت، فلما كان بعد ذلك دعا بالقدح فشرب فأفطر الناس. ويذكر المحقق أن ابن عبد البر (التمهيد 22/47) قال إن الحديث مسند صحيح، ولا فرق بين أن يسمي التابعي الصحابي أو لا يسميه. {cite:muwatta-maruf-1997 p.396}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 807 of kitab 04-siyam at PDF p. 396", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-37" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sumayy-mawla-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: event/conquest-of-mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-arj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-tatawwu, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 807 at PDF p. 396; باب ما جاء في الرخصة في الفطر في السفر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 396; matn excerpt at most 40 words; doubt: المتّصل عن «بعض أصحاب النبي» لم يُسمّ في الموطأ." }

@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "816"
-label: { ar: "الموطأ 816", en: "Muwatta 816" }
+label: { ar: "الموطأ 816 — سعيد بن المسيب مرسلاً: أعرابي يضرب نحره ويقول هلك الأبعد؛ أصبت أهلي وأنا صائم في رمضان، فأمر بالعرق من التمر", en: "Muwatta 816" }
 summary:
-  ar: "عطاء بن عبد الله الخراساني عن... ؛ حديث في الصيام؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن عطاء بن عبد الله الخراساني عن سعيد بن المسيب، أن أعرابياً جاء إلى النبي يضرب نحره وينتف شعره ويقول: هلك الأبعد. فقال له النبي: وما ذاك؟ فقال: أصبت أهلي وأنا صائم في رمضان. فقال: هل تستطيع أن تعتق رقبة؟ قال لا. قال: فهل تستطيع أن تهدي بدنة؟ قال لا. فقال: فاجلس، فأُتي النبي بعرق تمر، فقال: خذ هذا فتصدق به، فقال: ما أحد أحوج مني، فقال: كله، وصم يوماً مكان ما أصبت. قال مالك: قال عطاء: فسألت سعيد بن المسيب كم في ذلك العرق من التمر؟ فقال: ما بين خمسة عشر صاعاً إلى عشرين. ويذكر المحقق أن الحديث مرسل عند جماعة الرواة، وأن ذكر البدنة فيه غير محفوظ في الأحاديث الصحاح، وأن ذكر الرقبة والصدقة بالعرق محفوظ من حديث أبي هريرة وعائشة، ويحيل على التمهيد (8/21). {cite:muwatta-maruf-1997 p.400}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 816 of kitab 04-siyam at PDF p. 399", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-37" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-al-khurasani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 816 at PDF p. 399; باب كفارة من أفطر في رمضان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b02" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 399; matn excerpt at most 40 words; doubt: ذكر البدنة في هذه الرواية المرسلة غير محفوظ عند ابن عبد البر." }
