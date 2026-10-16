@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2518"
-label: { ar: "الموطأ 2518", en: "Muwatta 2518" }
+label: { ar: "الموطأ 2518 — مالك: جراح العبد بحسب ثمنه، وما سوى الخصال الأربع يُقدَّر بالنقص", en: "Muwatta 2518" }
 summary:
-  ar: "مالك: والأمر عندنا أن في موضحة العبد نصف عشر ثمنه، وفي منقلته العشر... ؛ أرش جراح العبد؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر عندنا أن في موضحة العبد نصف عشر ثمنه، وفي منقلته العشر ونصف العشر من ثمنه، وفي مأمومته وجائفته في كل واحد منهما ثلث ثمنه. وفيما سوى هذه الخصال الأربع مما يصاب به العبد، ما نقص من ثمنه، ينظر في ذلك بعد ما يصح العبد ويبرأ، كم بين قيمته بعد الجرح وقيمته صحيحا قبله، ثم يغرم الذي أصابه ما بين القيمتين. {cite:muwatta-maruf-1997 p.433} {cite:muwatta-maruf-1997 p.434}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2518 of kitab 29-uqul at PDF p. 433", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k29-batch-108" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2518 at PDF p. 433; العمل في عقل الأسنان", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b85" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 433; matn excerpt at most 40 words" }

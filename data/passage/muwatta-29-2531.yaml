@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2531"
-label: { ar: "الموطأ 2531", en: "Muwatta 2531" }
+label: { ar: "الموطأ 2531 — مالك: الدية في العمد المقبولة على القاتل لا على العاقلة", en: "Muwatta 2531" }
 summary:
-  ar: "ما لا خلاف فيه عند أهل المدينة: إذا قُبلت الدية في القتل العمد أو في جراح القصاص فلا تحملها العاقلة إلا برضاها."
+  ar: "قال مالك: الأمر الذي لا اختلاف فيه عندنا، فيمن قُبلت منه الدية في قتل العمد أو في شيء من الجراح التي فيها القصاص: أن عقل ذلك لا يكون على العاقلة إلا أن يشاؤوا، وإنما عقل ذلك في مال القاتل أو الجارح خاصة إن وُجد له مال، فإن لم يوجد له مال كان دينا عليه، وليس على العاقلة منه شيء إلا أن يشاؤوا. {cite:muwatta-maruf-1997 p.436}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2531 of kitab 29-uqul at PDF p. 436", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b109" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/aqila, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qawad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2531 at PDF p. 436; ما يوجب العقل على الرجل في خاصة ماله", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b85" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 436; matn excerpt at most 40 words" }
