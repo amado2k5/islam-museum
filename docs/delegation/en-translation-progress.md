@@ -70,3 +70,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - work batch 7 (25 files, kitab-al-ibana … masail-tabiiyya-hunayn): done by Claude Haiku 5.5, draft
 - place m–z batch 10: 25 files (qalat-al-balut.md … qantarat-al-sayf.md), draft
 - person i–m batch 6 (25 files, ibn-hayyan-abu-marwan … ibn-khaldun) — Claude Haiku 5.5, draft
+- person s–z batch 3 (Claude Code, claude-haiku-5-5): salih-ibn-al-mansur … sajjada, 25 files, 25 files (said-ibn-yahya … salih-ibn-musarrih).
