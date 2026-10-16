@@ -1,0 +1,16 @@
+id: passage/bukhari-4450
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4450"
+label: { ar: "البخاري 4450 — أين أنا غداً والموت في بيت عائشة", en: "Bukhari 4450 — Where am I tomorrow; the death in Aisha's room" }
+text: "أن رسول الله كان يسأل في مرضه الذي مات فيه يقول: «أين أنا غداً؟ أين أنا غداً؟» يريد يوم عائشة، فأذن له أزواجه يكون حيث شاء، فكان في بيت عائشة حتى مات عندها… ودخل عبد الرحمن بن أبي بكر ومعه سواك فقضمته ومضغته فأعطيته رسول الله فاستن به وهو مسند إلى صدري"
+summary:
+  ar: "في كتاب المغازي؛ رواية عائشة في دور النبي على نسائه في مرضه وإذنهن له بالمقام عندها، وموته بين سحرها ونحرها، وسواك عبد الرحمن بن أبي بكر الذي لانت له وهي آخر ما دخل فمه. من أنفص نصوص الوفاة تفصيلاً."
+relations:
+  - { type: mentions, target: person/aisha, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-abi-bakr, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/death-of-the-prophet, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4450 (كتاب المغازي)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

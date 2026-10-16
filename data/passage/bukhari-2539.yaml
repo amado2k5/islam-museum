@@ -1,0 +1,17 @@
+id: passage/bukhari-2539
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "2539"
+label: { ar: "البخاري 2539 — وفد هوازن يختار السبي", en: "Bukhari 2539 — Hawazin's deputation chooses the captives" }
+text: "أن النبي قام حين جاءه وفد هوازن فسألوه أن يرد إليهم أموالهم وسبيهم، فقال: «إن معي من ترون، وأحب الحديث إلي أصدقه، فاختاروا إحدى الطائفتين: إما المال وإما السبي، وقد كنت استأنيت بهم»"
+summary:
+  ar: "في كتاب فرض الخمس؛ أثر عروة عن مروان والمسور بن مخرمة أن وفد هوازن سأل النبي رد الأموال أو السبي فخيرهم فاختاروا سبيهم، ثم سأل الناس التطييب فأذنوا وردّهم. وكان النبي قد انتظرهم بضع عشرة ليلة حين قفل من الطائف."
+relations:
+  - { type: mentions, target: group/hawazin, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/distribution-of-hunayn-spoils, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: place/al-jirana, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/al-miswar-ibn-makhrama, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 2539 (كتاب فرض الخمس)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

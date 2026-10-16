@@ -1,0 +1,17 @@
+id: passage/bukhari-3678
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "3678"
+label: { ar: "البخاري 3678 — عقبة يخنق النبي وأبو بكر يدفعه", en: "Bukhari 3678 — Uqba strangles the Prophet; Abu Bakr pushes him off" }
+text: "رأيت عقبة بن أبي معيط جاء إلى النبي وهو يصلي فوضع رداءه في عنقه فخنقه خنقاً شديداً، فجاء أبو بكر حتى دفعه عنه وقال: «أتقتلون رجلاً أن يقول ربي الله وقد جاءكم بالبينات من ربكم»"
+summary:
+  ar: "في كتاب مناقب الأنصار؛ سئل عبد الله بن عمرو عن أشد ما صنع المشركون برسول الله فشهد هذه الواقعة عند البيت. وفيه منقبة ظاهرة لأبي بكر في الذب عنه بمكة، وقراءته لآية غافر في وجه المشركين."
+relations:
+  - { type: mentions, target: person/uqba-ibn-abi-muayt, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: place/mecca, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 3678 (كتاب مناقب الأنصار)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -19,7 +19,20 @@ export const buildDate = new Date().toISOString().slice(0, 10);
 
 // A title in the page language, else the other language (an honest interim), never the slug.
 export const labelOf = (n: Pick<Node, "label" | "slug">, lang: Lang) => n.label[lang] ?? n.label.ar ?? n.label.en ?? "";
-export const summaryOf = (n: Pick<Node, "summary">, lang: Lang) => n.summary[lang] ?? n.summary.en ?? "";
+// The raw summary keeps its {cite:…} markers and [[wiki-links]]; entity pages pass it through
+// renderProse so citations become footnotes. For plain-text contexts (cards, meta descriptions,
+// feeds) this strips the markers and resolves links to their label text.
+export const summaryOf = (n: Pick<Node, "summary">, lang: Lang) => {
+  const raw = n.summary[lang] ?? n.summary.en ?? "";
+  return raw
+    .replace(/\{cite:[^}]*\}/g, "")
+    .replace(/\[\[([a-z]+\/[a-z0-9-]+)(?:\|([^\]]*))?\]\]/g, (_x, id: string, custom?: string) => { const t = custom ?? (byId.has(id) ? labelOf(byId.get(id)!, lang) : id.split("/")[1].replace(/-/g, " ")); return t; })
+    .replace(/[ \t]+([.,:;!؟?])/g, "$1")
+    .replace(/[ \t]{2,}/g, " ")
+    .trim();
+};
+// Raw summary with markers intact — only for the rendered lede on entity pages.
+export const summaryRaw = (n: Pick<Node, "summary">, lang: Lang) => n.summary[lang] ?? n.summary.en ?? "";
 // URL segment per class: questions and exhibits are plural (docs/plan/03 §5)
 export const SEGMENT: Record<string, string> = { question: "questions", exhibit: "exhibits" };
 export const href = (lang: Lang, id: string) => {

@@ -1,0 +1,15 @@
+id: passage/bukhari-4451
+class: passage
+unit: hadith
+work: work/sahih-al-bukhari
+ref: "4451"
+label: { ar: "البخاري 4451 — آخر كلامه: في الرفيق الأعلى", en: "Bukhari 4451 — His last words: with the highest Companion" }
+text: "توفي النبي في بيتي وفي يومي وبين سحري ونحري، وكانت إحدانا تعوذه بدعاء إذا مرض، فذهبت أعوذ به فرفع رأسه إلى السماء وقال: «في الرفيق الأعلى، في الرفيق الأعلى»"
+summary:
+  ar: "في كتاب المغازي؛ رواية عائشة في آخر لحظات الوفاة: النظر إلى السماء وتكرار «في الرفيق الأعلى» إجابة للخيار الذي عرض عليه، ودفنه في بيتها حيث مات. من أشهر نصوص الوفاة."
+relations:
+  - { type: mentions, target: person/aisha, sources: [source/sahih-al-bukhari] }
+  - { type: mentions, target: event/death-of-the-prophet, sources: [source/sahih-al-bukhari] }
+provenance: { layer: own-research, source: "صحيح البخاري (طبعة دار ابن كثير، ترقيم فخر الدين)، تصوير Apple Vision OCR، حديث 4451 (كتاب المغازي)", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-bukhari-passages-1" }
+sources: [source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

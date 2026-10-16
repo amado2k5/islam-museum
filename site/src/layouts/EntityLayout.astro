@@ -7,7 +7,7 @@ import Extras from "../components/Extras.astro";
 import JourneyPlayer from "../components/JourneyPlayer.astro";
 import PageHeader from "../components/PageHeader.astro";
 import ExploreBar from "../components/ExploreBar.astro";
-import { byId, buildDate, href, labelOf, summaryOf, related, REPO, SITE } from "../lib/graph";
+import { byId, buildDate, href, labelOf, summaryOf, summaryRaw, related, REPO, SITE } from "../lib/graph";
 import { ui, other, fmt, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { renderProse, newHonState } from "../lib/markdown";
 import { formatDate } from "../lib/dates";
@@ -50,6 +50,9 @@ const groups = connectionsOf(n.id, lang);
 
 // --- sources: the entity's own + any cited in prose
 const hon = newHonState(); // one honorific state per article, so the first mention is marked once across all sections
+// the lede is read first on the page, so its summary renders before the sections: {cite:…} markers
+// in summaries become footnotes and [[wiki-links]] become links, matching the prose pipeline
+const ledeR = renderProse(summaryRaw(n, lang), lang, hon);
 const sections = (prose?.sections ?? []).map((s) => ({ ...s, role: sectionRole(s.heading), r: renderProse(s.markdown, lang, hon) }));
 // citation numbers are per-section in renderProse; re-number globally for the footnote list
 const citeList: { source: string; locator?: string }[] = [];
@@ -58,13 +61,18 @@ const citeIndex = (c: { source: string; locator?: string }) => {
   if (i < 0) { citeList.push(c); i = citeList.length - 1; }
   return i + 1;
 };
-const sectionHtml = sections.map((s) => {
-  const map = new Map(s.r.cites.map((c) => [c.n, citeIndex(c)]));
-  const renumber = (h: string) =>
+const renumberR = (r: { html: string; cites: { n: number; source: string; locator?: string }[] }) => {
+  const map = new Map(r.cites.map((c) => [c.n, citeIndex(c)]));
+  return (h: string) =>
     h.replace(/<sup class="cite"><a href="#note-(\d+)" id="cite-\d+-\d+">\d+<\/a><\/sup>/g, (_m, k) => {
       const g = map.get(Number(k))!;
       return `<sup class="cite"><a href="#note-${g}">${g}</a></sup>`;
     });
+};
+// the lede is one inline paragraph: unwrap the single <p> renderProse wraps it in
+const ledeHtml = renumberR(ledeR)(ledeR.html).replace(/^<p>\s*([\s\S]*?)\s*<\/p>\s*$/, "$1");
+const sectionHtml = sections.map((s) => {
+  const renumber = renumberR(s.r);
   return { ...s, html: renumber(s.r.html), persp: s.r.perspectives.map((p) => ({ ...p, html: renumber(p.html) })) };
 });
 const proseSources = [...new Set(citeList.map((c) => c.source))];
@@ -115,7 +123,7 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
       {dateLine.text && <p class="ui" style="margin:0 0 6px;color:#e6d5b8">{dateLine.text}{dateLine.derived && <span title={T.entity.derived}> †</span>}</p>}
       {dateLine.derived && <p class="ui" style="margin:0 0 6px;font-size:.85rem;color:#c9d3d6">{T.entity.dagger}</p>}
       {places.length > 0 && <p class="ui" style="margin:0 0 10px">{places.map((p, i) => <><a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>{i < places.length - 1 ? " → " : ""}</>)}</p>}
-      <p class="page-lede" data-pagefind-meta="summary">{summaryOf(n, lang) || ""}</p>
+      {ledeHtml && <p class="page-lede" data-pagefind-meta="summary" set:html={ledeHtml} />}
     </PageHeader>
 
     <div class="wrap" style="padding-block:24px 20px">

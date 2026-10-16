@@ -9,7 +9,7 @@ died: { edtf: "0624-03", calendar: julian, precision: month, status: historical,
 roles: []
 traditions: []
 summary:
-  en: "A Qurashi of Banu Abd Shams among the documented harassers of the Prophet in Mecca; captured at Badr, he was one of the two captives executed on the march home — a fact the sources record soberly."
+  en: "A Qurashi of Banu Abd Shams among the documented harassers of the Prophet in Mecca; captured at Badr, he was one of the two captives executed on the march home — a fact the sources record soberly. وفي صحيح البخاري أن ابن عمرو شاهده وقد جاء إلى النبي وهو يصلي فوضع رداءه في عنقه فخنقه خنقاً شديداً حتى جاء أبو بكر فدفعه عنه «أتقتلون رجلاً أن يقول ربي الله» {cite:sahih-al-bukhari 3678}."
   ar: "قرشي من بني عبد شمس من الموثق أذاهم للنبي بمكة؛ أُسر ببدر وكان أحد الأسيرين اللذين أُعدما في طريق العودة — حقيقة تسجلها المصادر بجفاف."
 wings: [people]
 themes: [anti-muslim-hatred, battles]
@@ -27,5 +27,5 @@ relations:
   - { type: member_of, target: group/quraysh }
   - { type: persecuted, target: person/muhammad, start: { edtf: "0613~" }, end: { edtf: "0622" }, sources: [source/ibn-ishaq-guillaume] }
   - { type: participated_in, target: event/battle-of-badr, role: meccan-side, sources: [source/ibn-ishaq-guillaume] }
-sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley]
+sources: [source/ibn-ishaq-guillaume, source/watt-1953-mecca, source/ibn-sad-tabaqat-bewley, source/sahih-al-bukhari]
 status: { review: draft, completeness: 2, generated_by: "Devin; 2026-10-11" }
