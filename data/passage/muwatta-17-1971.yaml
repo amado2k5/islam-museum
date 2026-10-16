@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1971"
-label: { ar: "الموطأ 1971", en: "Muwatta 1971" }
+label: { ar: "الموطأ 1971 — مالك: في الذي يشتري الطعام فيكتاله، ثم يأتيه من يشتريه منه فيخبره أنه قد اكتاله لنفسه واستوفاه، فإن بيع بنقد فلا بأس به، وإن بيع إلى أجل فهو مكروه حتى يكتاله المشتري الآخر لنفسه، لأنه ذريعة إلى الربا", en: "Muwatta 1971" }
 summary:
-  ar: "مالك في الذي يشتري الطعام فيكتاله، ثم يأتيه من يشتريه منه، فيخبر الذي يأتيه أنه قد... ؛ حكم بيع الطعام بعد كيله؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في الذي يشتري الطعام فيكتاله، ثم يأتيه من يشتريه منه، فيخبر الذي يأتيه أنه قد اكتاله لنفسه واستوفاه، فيريد المبتاع أن يصدقه ويأخذه بكيله. فإن ما بيع على هذه الصفة بنقد فلا بأس به. وما بيع على هذه الصفة إلى أجل فإنه مكروه، حتى يكتاله المشتري الآخر لنفسه. وإنما كره الذي إلى أجل، لأنه ذريعة إلى الربا، ويتخوف أن يدار ذلك على هذا الوجه بغير كيل ولا وزن. {cite:muwatta-maruf-1997 p.206} {cite:muwatta-maruf-1997 p.207}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1971 of kitab 17-buyu at PDF p. 206", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-85" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1971 at PDF p. 206; جامع الدين والحول", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b52" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 206; matn excerpt at most 40 words" }

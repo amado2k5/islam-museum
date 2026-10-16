@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1963"
-label: { ar: "الموطأ 1963", en: "Muwatta 1963" }
+label: { ar: "الموطأ 1963 — يحيى عن مالك عن أبي الزناد عن بسر بن سعيد عن عبيد أبي صالح مولى السفاح: باع بزا لأهل دار نخلة إلى أجل، فعرضوا أن يضع عنهم بعض الثمن وينقدوه، فسأل زيد بن ثابت فقال: لا آمرك أن تأكل هذا ولا توكله", en: "Muwatta 1963" }
 summary:
-  ar: "يحيى عن مالك عن أبي الزناد عن بسر بن نعيد عن عبيد أبي صالح مولى السفاح: أنه قال... ؛ حديث في البيع أو الربا؛ تفاصيل المتن غير واضحة."
+  ar: "يروي يحيى عن مالك عن أبي الزناد عن بسر بن سعيد عن عبيد أبي صالح مولى السفاح أنه قال: بعت بزا لي من أهل دار نخلة إلى أجل، ثم أردت الخروج إلى الكوفة، فعرضوا علي أن أضع عنهم بعض الثمن، وينقدوني. فسألت عن ذلك زيد بن ثابت، فقال: لا آمرك أن تأكل هذا ولا توكله. {cite:muwatta-maruf-1997 p.204}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1963 of kitab 17-buyu at PDF p. 204", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-85" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zinad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/busr-ibn-said, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubayd-abu-salih, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-thabit, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1963 at PDF p. 204; ما جاء في الربا في الدين", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b52" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 204; matn excerpt at most 40 words" }

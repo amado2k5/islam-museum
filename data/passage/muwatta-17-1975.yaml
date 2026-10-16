@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1975"
-label: { ar: "الموطأ 1975", en: "Muwatta 1975" }
+label: { ar: "الموطأ 1975 — مالك: الأمر عندنا أنه لا بأس بالشرك والتولية والإقالة في الطعام وغيره، قبض ذلك أو لم يقبض، إذا كان ذلك بالنقد، ولم يكن فيه ربح ولا وضيعة ولا تأخير، فإن دخل ربح أو وضيعة أو تأخير صار بيعا", en: "Muwatta 1975" }
 summary:
-  ar: "مالك: الأمر عندنا أنه لا بأس بالشركة والتولية والإقالة في الطعام وغيره، قبض... ؛ جواز الشركة والتولية والإقالة في البيع؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر عندنا أنه لا بأس بالشرك والتولية والإقالة في الطعام وغيره، قبض ذلك أو لم يقبض، إذا كان ذلك بالنقد، ولم يكن فيه ربح ولا وضيعة ولا تأخير. فإن دخل ذلك ربح أو وضيعة أو تأخير من واحد منهما، صار بيعا يحله ما يحل البيع، ويحرمه ما يحرم البيع، وليس بشرك ولا تولية ولا إقالة. {cite:muwatta-maruf-1997 p.208}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1975 of kitab 17-buyu at PDF p. 208", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-86" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/iqala, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1975 at PDF p. 208; ما جاء في الشركة والتولية والإقالة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b52" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 208; matn excerpt at most 40 words" }
