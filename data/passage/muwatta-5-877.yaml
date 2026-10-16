@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "877"
-label: { ar: "الموطأ 877", en: "Muwatta 877" }
+label: { ar: "الموطأ 877 — القاسم بن محمد ونافع مولى ابن عمر: لا اعتكاف إلا بصيام؛ لقول الله تعالى في آية البقرة", en: "Muwatta 877" }
 summary:
-  ar: "بلغ مالكًا أن القاسم بن محمد ونافعًا مولى ابن عمر قالا... ؛ أثر في الاعتكاف؛ تفاصيل الأثر غير واضحة."
+  ar: "يروي مالك أنه بلغه أن القاسم بن محمد ونافعاً مولى عبد الله بن عمر قالا: لا اعتكاف إلا بصيام، لقول الله تعالى في كتابه: وكلوا واشربوا حتى يتبين لكم الخيط الأبيض من الخيط الأسود من الفجر، ثم أتموا الصيام إلى الليل ولا تباشروهن وأنتم عاكفون في المساجد، فإنما ذكر الله الاعتكاف مع الصيام. ويذكر المحقق أنه رواه عن مالك أبو مصعب (873). {cite:muwatta-maruf-1997 p.422}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 877 of kitab 05-itikaf at PDF p. 422", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k5-batch-40" }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-2-187, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 877 at PDF p. 422; باب ما لا يجوز الاعتكاف إلا به", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 422; matn excerpt at most 40 words" }

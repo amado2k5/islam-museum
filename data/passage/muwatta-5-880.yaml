@@ -3,11 +3,22 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "880"
-label: { ar: "الموطأ 880", en: "Muwatta 880" }
+label: { ar: "الموطأ 880 — عمرة عن رسول الله: أراد أن يعتكف، فلما انصرف إلى المكان وجد أخبية: خباء عائشة وحفصة وزينب، فقال: البر تقولون بهن؟ فانصرف فلم يعتكف حتى اعتكف عشراً من شوال", en: "Muwatta 880" }
+text: "البر تقولون بهن؟ فانصرف فلم يعتكف حتى اعتكف عشراً من شوال"
 summary:
-  ar: "زياد عن مالك عن ابن شهاب عن عمرة بنت عبد الرحمن: أن رسول الله ﷺ أراد... ؛ حديث في الاعتكاف؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب قضاء الاعتكاف. يرويه زياد عن مالك عن ابن شهاب عن عمرة بنت عبد الرحمن، أن رسول الله أراد أن يعتكف، فلما انصرف إلى المكان الذي أراد أن يعتكف فيه وجد أخبية: خباء عائشة وخباء حفصة وخباء زينب، فلما رآها سأل عنها فقيل له: هذا خباء عائشة وحفصة وزينب، فقال: البر تقولون بهن؟ ثم انصرف فلم يعتكف، حتى اعتكف عشراً من شوال. ويذكر المحقق أن هذا غلط من يحيى أو شبطون، فذكر الزهري غير محفوظ، وأن الحديث لمالك عن يحيى بن سعيد عن عمرة عن عائشة، وأن زيادة «عن عائشة» سقطت من رواية الموطآت كلها، وأن البخاري رواه عن عبد الله بن يوسف عن مالك عن يحيى بن سعيد عن عمرة عن عائشة. {cite:muwatta-maruf-1997 p.424} {cite:muwatta-maruf-1997 p.425}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 880 of kitab 05-itikaf at PDF p. 424", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k5-batch-40" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hafsa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zaynab-bint-jahsh, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 880 at PDF p. 424; باب قضاء الاعتكاف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 424; matn excerpt at most 40 words; doubt: نسبة الحديث إلى ابن شهاب في رواية يحيى (زياد) غلط؛ الصواب عن يحيى بن سعيد، بحسب ابن عبد البر والمحقق." }

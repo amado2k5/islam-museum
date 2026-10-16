@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "881"
-label: { ar: "الموطأ 881", en: "Muwatta 881" }
+label: { ar: "الموطأ 881 — مالك عن رجل دخل المسجد لاعتكاف العشر الأواخر من رمضان فأقام يوماً أو يومين ثم مرض فخرج: يقضي ما وجب عليه من عكوف إذا صح، في رمضان أو غيره", en: "Muwatta 881" }
 summary:
-  ar: "سُئل مالك عن رجل دخل المسجد للعكوف في العشر الأواخر من رمضان، فأقام يومًا أو... ؛ حكم الخروج من المعتكف؛ الجواب يحتاج مراجعة."
+  ar: "سئل مالك عن رجل دخل المسجد لاعتكاف العشر الأواخر من رمضان فأقام يوماً أو يومين ثم مرض فخرج من المسجد: أيجب عليه أن يعتكف ما بقي من العشر إذا صح، أم لا يجب، وفي أي شهر يعتكف إن وجب؟ فقال مالك: يقضي ما وجب عليه من عكوف إذا صح، في رمضان أو غيره، وقد بلغه أن رسول الله أراد الاعتكاف في رمضان ثم رجع فلم يعتكف، حتى إذا ذهب رمضان اعتكف عشراً من شوال. ويذكر المحقق أنه رواه عن مالك أبو مصعب (877). {cite:muwatta-maruf-1997 p.425}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 881 of kitab 05-itikaf at PDF p. 425", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k5-batch-40" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada-al-sawm, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 881 at PDF p. 425; باب قضاء الاعتكاف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 425; matn excerpt at most 40 words" }

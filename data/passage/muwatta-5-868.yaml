@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "868"
-label: { ar: "الموطأ 868", en: "Muwatta 868" }
+label: { ar: "الموطأ 868 — مالك: لا يأتي المعتكف حاجته ولا يخرج لها، ولا يعود أحداً، إلا أن يخرج لحاجة الإنسان، وإن خرج لحاجة أحد فأحق ما يخرج إليه عيادة المريض والصلاة على الجنائز واتباعها", en: "Muwatta 868" }
 summary:
-  ar: "مالك: لا يأتي المعتكف حاجته ولا يخرج لها... ؛ أحكام المعتكف في قضاء الحاجة؛ تفاصيل الحكم تحتاج مراجعة."
+  ar: "قول لمالك: لا يأتي المعتكف حاجته ولا يخرج لها، ولا يعين أحداً، إلا أن يخرج لحاجة الإنسان. ولو كان خارجاً لحاجة أحد، فأحق ما يُخرج إليه عيادة المريض والصلاة على الجنائز واتباعها. ويذكر المحقق أنه رواه عن مالك أبو مصعب (863). {cite:muwatta-maruf-1997 p.419} {cite:muwatta-maruf-1997 p.420}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-05-itikaf }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 868 of kitab 05-itikaf at PDF p. 419", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-39" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salat-al-janaza, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 868 at PDF p. 419; باب ذكر الاعتكاف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k5-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الحكم تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 419; matn excerpt at most 40 words" }
