@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1776"
-label: { ar: "الموطأ 1776", en: "Muwatta 1776" }
+label: { ar: "الموطأ 1776 — عبد الله بن دينار: سأل رجل ابن عمر عن رضاعة الكبير، فحكى ابن عمر أن رجلا جاء عمر بن الخطاب يشكو أن امرأته أرضعت جاريته، فقال له عمر: أوجعها، وأت جاريتك، فإنما الرضاعة رضاعة الصغير", en: "Muwatta 1776" }
+text: "فَإنَّما الرَّضَاعةُ رَضَاعةُ الصَّغيرِ"
 summary:
-  ar: "عبد الله بن دينار: أن رجلًا جاء إلى عبد الله بن عمر... ؛ مسألة في الرضاع؛ تفاصيل الواقعة غير واضحة."
+  ar: "يروي مالك عن عبد الله بن دينار أنه قال: جاء رجل إلى عبد الله بن عمر، وأنا معه عند دار القضاء، يسأله عن رضاعة الكبير. فقال ابن عمر: جاء رجل إلى عمر بن الخطاب فقال: إني كانت لي وليدة، وكنت أطؤها، فعمدت امرأتي إليها فأرضعتها، فدخلت عليها، فقالت: دونك، فقد والله أرضعتها. فقال عمر: أوجعها، وأت جاريتك، فإنما الرضاعة رضاعة الصغير. {cite:muwatta-maruf-1997 p.125}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-16-radaa }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1776 of kitab 16-radaa at PDF p. 125", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k16-batch-77" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/radaa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1776 at PDF p. 125; ما جاء في الرضاعة بعد الكبر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k16-b41" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 125; matn excerpt at most 40 words" }

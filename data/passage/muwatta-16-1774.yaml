@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1774"
-label: { ar: "الموطأ 1774", en: "Muwatta 1774" }
+label: { ar: "الموطأ 1774 — يحيى عن مالك: الرضاعة في الحولين قليلها وكثيرها تحرم، وما كان بعد الحولين فلا يحرم شيئا وهو بمنزلة الطعام", en: "Muwatta 1774" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول: والرضاعة قليلها وكثيرها إذا كان في الحولين تحرم... ؛ مدة الرضاع المحرِّم؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: وسمعت مالكا يقول: الرضاعة، قليلها وكثيرها، إذا كانت في الحولين تحرم. فأما ما كان بعد الحولين فإن قليله وكثيره لا يحرم شيئا، وإنما هو بمنزلة الطعام. {cite:muwatta-maruf-1997 p.123}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-16-radaa }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1774 of kitab 16-radaa at PDF p. 123", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k16-batch-77" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/radaa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1774 at PDF p. 123; رضاعة الصغير", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k16-b41" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 123; matn excerpt at most 40 words" }

@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1762"
-label: { ar: "الموطأ 1762", en: "Muwatta 1762" }
+label: { ar: "الموطأ 1762 — يحيى عن مالك عن عبد الله بن أبي بكر عن عمرة بنت عبد الرحمن: عائشة سمعت رجلا يستأذن في بيت حفصة، فقال النبي هو عم لحفصة من الرضاعة، وقال نعم إن الرضاعة تحرم ما تحرم الولادة", en: "Muwatta 1762" }
+text: "إنَّ الرَّضَاعةَ تُحَرِّمُ مَا تُحَرِّمُ الْوِلَادةُ"
 summary:
-  ar: "يحيى عن مالك عن عبد الله بن أبي بكر عن عمرة بنت عبد الرحمن: أن عائشة أم المؤمنين... ؛ حديث في الرضاع؛ تفاصيل المتن غير واضحة."
+  ar: "يروي يحيى عن مالك عن عبد الله بن أبي بكر عن عمرة بنت عبد الرحمن أن عائشة أم المؤمنين أخبرتها أن رسول الله كان عندها، وأنها سمعت صوت رجل يستأذن في بيت حفصة. فقالت عائشة: يا رسول الله، هذا رجل يستأذن في بيتك. فقال النبي: أراه فلانا، لعم لحفصة من الرضاعة. فقالت عائشة: يا رسول الله، لو كان فلان حيا، لعمها من الرضاعة، دخل علي؟ فقال النبي: نعم، إن الرضاعة تحرم ما تحرم الولادة. وينبه المحقق إلى أن عم حفصة من الرضاعة كان أخا لعمر بن الخطاب من الرضاعة، أرضعتهما امرأة واحدة. {cite:muwatta-maruf-1997 p.119}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-16-radaa }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1762 of kitab 16-radaa at PDF p. 119", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k16-batch-77" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amra-bint-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hafsa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/radaa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1762 at PDF p. 119; رضاعة الصغير", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k16-b41" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 119; matn excerpt at most 40 words" }
