@@ -3,12 +3,12 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-27"
-label: { ar: "الموطأ، كتاب الحدود", en: "Muwatta, Book of Penalties (hudud)" }
+label: { ar: "الموطأ، كتاب الحدود", en: "Muwatta, Book of the prescribed punishments (hudud)" }
 summary:
-  ar: "كتاب الحدود في الموطأ، المجلد الثاني، يبدأ في صفحة 379 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Penalties (hudud) in the Muwatta, volume 2, starting at PDF page 379 (PDF numbering, not the printed page)."
+  ar: "كتاب الحدود في الموطأ، المجلد الثاني، من صفحة 379 إلى 407 بترقيم ملف PDF، ويضم 67 نصا مرقوما (2374–2440) في أحد عشر بابا."
+  en: "The Book of the prescribed punishments (hudud) in the Muwatta, volume 2, PDF pages 379 to 407 (PDF numbering), with 67 numbered reports (2374–2440) in eleven babs."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 379", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 379; hadith 2374–2440 at PDF pp. 379–407", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k27-chapter" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); chapter record written after 2440; own-words accounts; no hadith text stored" }

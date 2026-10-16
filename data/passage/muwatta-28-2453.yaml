@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2453"
-label: { ar: "الموطأ 2453", en: "Muwatta 2453" }
+label: { ar: "الموطأ 2453 — نافع عن ابن عمر: من شرب الخمر في الدنيا ولم يتب حرمها في الآخرة", en: "Muwatta 2453" }
 summary:
-  ar: "مالك عن نافع عن ابن عمر: أن رسول الله ﷺ قال: من شرب الخمر... ؛ عقوبة شارب الخمر في الدنيا والآخرة؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن النبي قال: من شرب الخمر في الدنيا ثم لم يتب منها حرمها في الآخرة. {cite:muwatta-maruf-1997 p.413} {cite:muwatta-maruf-1997 p.414}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2453 of kitab 28-ashriba at PDF p. 413", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k28-batch-106a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/khamr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2453 at PDF p. 413; تحريم الخمر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b81" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 413; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2444"
-label: { ar: "الموطأ 2444", en: "Muwatta 2444" }
+label: { ar: "الموطأ 2444 — سعيد بن المسيب: ما من شيء إلا يحب الله أن يعفى عنه ما لم يكن حدا", en: "Muwatta 2444" }
 summary:
-  ar: "يحيى عن مالك عن يحيى بن سعيد: أنه سمع سعيد بن المسيب يقول: ما من شيء إلا الله... ؛ قول سعيد في شرب المسكر؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن يحيى بن سعيد أنه سمع سعيد بن المسيب يقول: ما من شيء إلا الله يحب أن يُعفى عنه، ما لم يكن حدا. {cite:muwatta-maruf-1997 p.410}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2444 of kitab 28-ashriba at PDF p. 410", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k28-batch-105b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hadd, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2444 at PDF p. 410; الحد في الخمر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b81" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 410; matn excerpt at most 40 words" }

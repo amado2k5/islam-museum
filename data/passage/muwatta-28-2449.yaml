@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2449"
-label: { ar: "الموطأ 2449", en: "Muwatta 2449" }
+label: { ar: "الموطأ 2449 — بكير بن عبد الله بن الأشج عن عبد الرحمن بن الحباب عن أبي قتادة: النهي عن شرب التمر والزبيب معا", en: "Muwatta 2449" }
 summary:
-  ar: "مالك عن الثقة عنده عن بكير بن... ؛ حديث في الأشربة؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن ثقة عنده عن بكير بن عبد الله بن الأشج عن عبد الرحمن بن الحباب الأنصاري عن أبي قتادة الأنصاري أن النبي نهى أن يُشرب التمر والزبيب جميعا، والزهو والرطب جميعا. ويذكر المحقق قول المزي والخطيب في تعيين الثقة المبهم، ويرجح أن المحفوظ هو الإبهام كما في الموطأ. {cite:muwatta-maruf-1997 p.411} {cite:muwatta-maruf-1997 p.412}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2449 of kitab 28-ashriba at PDF p. 411", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k28-batch-105b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/bukayr-ibn-abdallah-ibn-ashajj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-hubab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-qatada-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nabidh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2449 at PDF p. 411; ما يكره أن ينبذ جميعا", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b81" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 411; matn excerpt at most 40 words" }

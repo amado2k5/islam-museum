@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2446"
-label: { ar: "الموطأ 2446", en: "Muwatta 2446" }
+label: { ar: "الموطأ 2446 — نافع عن ابن عمر: النبي نهى أن ينبذ في الدباء والمزفت", en: "Muwatta 2446" }
 summary:
-  ar: "يحيى عن مالك عن نافع عن ابن عمر: أن رسول الله ﷺ خطب الناس في بعض... ؛ خطبة النبي ﷺ في تحريم الخمر؛ تفاصيل الخطبة غير واضحة."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن النبي خطب الناس في بعض مغازيه، قال ابن عمر: فأقبلت نحوه فانصرف قبل أن أبلغه، فسألت ماذا قال؟ فقيل لي: نهى أن يُنبذ في الدباء والمزفت. ويذكر المحقق أن ابن عمر ومالكا كانا يريان أن النهي عن الانتباذ في الدباء والمزفت غير منسوخ. {cite:muwatta-maruf-1997 p.410} {cite:muwatta-maruf-1997 p.411}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2446 of kitab 28-ashriba at PDF p. 410", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k28-batch-105b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nabidh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2446 at PDF p. 410; ما ينهى أن ينبذ فيه", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b81" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الخطبة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 410; matn excerpt at most 40 words" }

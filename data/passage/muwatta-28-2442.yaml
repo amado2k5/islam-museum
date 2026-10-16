@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2442"
-label: { ar: "الموطأ 2442", en: "Muwatta 2442" }
+label: { ar: "الموطأ 2442 — ثور بن زيد الديلي: عمر يستشير في حد شارب الخمر، وعلي يرى ثمانين", en: "Muwatta 2442" }
 summary:
-  ar: "ثور بن زيد الديلي: أن عمر بن الخطاب استشار في الخمر يشربها... ؛ مشورة عمر في حد شارب الخمر؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن ثور بن زيد الديلي أن عمر بن الخطاب استشار في الخمر يشربها الرجل، فقال له علي بن أبي طالب: نرى أن تجلده ثمانين، فإنه إذا شرب سكر، وإذا سكر هذى، وإذا هذى افترى. فجلد عمر في الخمر ثمانين. {cite:muwatta-maruf-1997 p.409}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-28-ashriba }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2442 of kitab 28-ashriba at PDF p. 409", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k28-batch-105b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/thawr-ibn-zayd-al-daili, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hadd, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/khamr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2442 at PDF p. 409; الحد في الخمر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b81" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 409; matn excerpt at most 40 words" }
