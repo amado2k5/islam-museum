@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1375"
-label: { ar: "الموطأ 1375", en: "Muwatta 1375" }
+label: { ar: "الموطأ 1375 — مالك: التوكيد حلف الإنسان في الشيء الواحد يرددها يمينا بعد يمين، فكفارته كفارة واحدة", en: "Muwatta 1375" }
 summary:
-  ar: "مالك: فأما التوكيد فهو حلف الإنسان في الشيء الواحد يردد فيه الأيمان... ؛ تعريف التوكيد في اليمين."
+  ar: "يقول مالك أما التوكيد فهو حلف الإنسان في الشيء الواحد، يردد فيه الأيمان يمينا بعد يمين، كقوله والله لا أنقصه من كذا وكذا، يحلف بذلك مرارا ثلاثا أو أكثر من ذلك، فكفارة ذلك كفارة واحدة، مثل كفارة اليمين. {cite:muwatta-maruf-1997 p.614}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1375 of kitab 08-nudhur at PDF p. 614", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k8-batch-60" }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1375 at PDF p. 614; ما تجب فيه الكفارة من الأيمان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k8-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 614; matn excerpt at most 40 words" }

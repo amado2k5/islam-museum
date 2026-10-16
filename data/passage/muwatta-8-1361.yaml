@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1361"
-label: { ar: "الموطأ 1361", en: "Muwatta 1361" }
+label: { ar: "الموطأ 1361 — مالك فيمن حلف بنذور مسماة مشيا إلى بيت الله ألا يكلم أخاه بشيء لا يقوى عليه: يكفيه الوفاء بما جعل على نفسه بقدر ما يستطيع", en: "Muwatta 1361" }
 summary:
-  ar: "يحيى: سُئل مالك عن الرجل يحلف بنذور مسماة مشيًا إلى بيت الله ألا يكلم... ؛ حكم الحلف بالمشي إلى البيت؛ الحكم يحتاج مراجعة."
+  ar: "سئل مالك عن الرجل يحلف بنذور مسماة مشيا إلى بيت الله، ألا يكلم أخاه أو أباه بكذا وكذا، نذرا لشيء لا يقوى عليه، ولو تكلف ذلك كل عام لعرف أنه لا يبلغ عمره ما جعل على نفسه. فقال ما أعلمه يجزئه من ذلك إلا الوفاء بما جعل على نفسه، فليمش ما قدر عليه من الزمان، وليتقرب إلى الله بما استطاع من الخير. {cite:muwatta-maruf-1997 p.608}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1361 of kitab 08-nudhur at PDF p. 608", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k8-batch-60" }
+  - { type: basis_for, target: concept/nadhr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1361 at PDF p. 608; ما جاء فيمن نذر مشيا إلى بيت الله فعجز", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k8-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 608; matn excerpt at most 40 words" }

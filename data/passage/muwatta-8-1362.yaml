@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1362"
-label: { ar: "الموطأ 1362", en: "Muwatta 1362" }
+label: { ar: "الموطأ 1362 — يحيى بن سعيد: أحسن ما سمع مالك من أهل العلم في الحالف بالمشي إلى بيت الله فيحنث", en: "Muwatta 1362" }
 summary:
-  ar: "يحيى عن مالك: أن أحسن ما سمعت من أهل العلم في الرجل يحلف بالمشي إلى بيت الله... ؛ حكم الحلف بالمشي إلى البيت؛ الحكم يحتاج مراجعة."
+  ar: "يقول يحيى إن أحسن ما سمع مالك من أهل العلم في الرجل يحلف بالمشي إلى بيت الله، أو المرأة، فيحنث، أنه إن مشى الحانث منهما في عمرة، فإنه يمشي حتى يسعى بين الصفا والمروة، فإذا سعى فقد فرغ. وإن جعل على نفسه مشيا في الحج، فإنه يمشي حتى يأتي مكة، ثم يمشي حتى يفرغ من المناسك كلها، ولا يزال ماشيا حتى يفيض. ويقول مالك لا يكون مشي إلا في حج أو عمرة. {cite:muwatta-maruf-1997 p.609}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1362 of kitab 08-nudhur at PDF p. 609", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k8-batch-60" }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sai, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nadhr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1362 at PDF p. 609; العمل في المشي إلى الكعبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k8-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 609; matn excerpt at most 40 words" }

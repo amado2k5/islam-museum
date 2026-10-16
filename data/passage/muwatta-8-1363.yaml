@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1363"
-label: { ar: "الموطأ 1363", en: "Muwatta 1363" }
+label: { ar: "الموطأ 1363 — حميد بن قيس وثور بن زيد: رأى النبي رجلا قائما في الشمس نذر أن لا يتكلم ولا يستظل ولا يجلس ويصوم، فأمره أن يتم صومه", en: "Muwatta 1363" }
+text: "مُرُوهُ فَلْيَتكلَّمْ، وَلْيَسْتظلَّ، وَلْيَجْلسْ، وَلْيُتمَّ صِيَامهُ"
 summary:
-  ar: "يحيى عن مالك عن حميد بن قيس وثور بن زيد الديلي: أنهما أخبراه عن رسول الله ﷺ... ؛ حديث في النذر؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن حميد بن قيس وثور بن زيد الديلي أنهما أخبراه عن رسول الله، أنه رأى رجلا قائما في الشمس، فقال ما بال هذا؟ فقالوا نذر أن لا يتكلم، ولا يستظل من الشمس، ولا يجلس، ويصوم. فقال رسول الله مروه فليتكلم، وليستظل، وليجلس، وليتم صيامه. ويذكر المحقق أن ابن عبد البر قال إن الحديث متصل عن النبي من وجوه. {cite:muwatta-maruf-1997 p.609}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1363 of kitab 08-nudhur at PDF p. 609", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k8-batch-60" }
+  - { type: mentions, target: person/humayd-ibn-qays-al-makki, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/thawr-ibn-zayd-al-dili, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nadhr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1363 at PDF p. 609; ما لا يجوز من النذور في معصية الله", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k8-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 609; matn excerpt at most 40 words" }

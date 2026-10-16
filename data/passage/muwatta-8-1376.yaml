@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1376"
-label: { ar: "الموطأ 1376", en: "Muwatta 1376" }
+label: { ar: "الموطأ 1376 — مالك: من حلف لا يأكل هذا الطعام ولا يلبس هذا الثوب ولا يدخل هذا البيت في يمين واحدة فعليه كفارة واحدة", en: "Muwatta 1376" }
 summary:
-  ar: "مالك: فإن حلف رجل فقال: والله لا آكل هذا الطعام، ولا ألبس هذا الثوب، ولا... ؛ حكم الحلف على أشياء متعددة؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك إن حلف رجل والله لا آكل هذا الطعام، ولا ألبس هذا الثوب، ولا أدخل هذا البيت، فكان هذا في يمين واحدة، فإنما عليه كفارة واحدة. وإنما ذلك كقول الرجل لامرأته أنت الطلاق إن كسوتك هذا الثوب، وأذنت لك إلى المسجد، إذا كان ذلك نسقا متتابعا في كلام واحد، فإن حنث في شيء واحد من ذلك وجب عليه الطلاق. {cite:muwatta-maruf-1997 p.614}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1376 of kitab 08-nudhur at PDF p. 614", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k8-batch-60" }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1376 at PDF p. 614; ما تجب فيه الكفارة من الأيمان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k8-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 614; matn excerpt at most 40 words" }

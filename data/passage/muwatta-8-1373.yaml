@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1373"
-label: { ar: "الموطأ 1373", en: "Muwatta 1373" }
+label: { ar: "الموطأ 1373 — أبو هريرة عن النبي: من حلف بيمين فرأى غيرها خيرا منها فليكفر عن يمينه وليفعل الذي هو خير", en: "Muwatta 1373" }
+text: "مَن حَلفَ بِيَمينٍ، فَرَأى غَيرَها خَيْرًا مِنْها، فَلْيُكفِّرْ عَن يَمِينِهِ، وَلْيَفْعلِ الَّذِي هُو خَيْرُ"
 summary:
-  ar: "يحيى عن مالك عن سهيل بن أبي صالح عن أبيه عن أبي هريرة: أن رسول الله ﷺ قال... ؛ حديث في الحلف أو النذر؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن سهيل بن أبي صالح عن أبيه عن أبي هريرة أن رسول الله قال من حلف بيمين فرأى غيرها خيرا منها، فليكفر عن يمينه، وليفعل الذي هو خير. {cite:muwatta-maruf-1997 p.613}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1373 of kitab 08-nudhur at PDF p. 613", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k8-batch-60" }
+  - { type: mentions, target: person/suhayl-ibn-abi-salih, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-salih-al-sammam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1373 at PDF p. 613; ما تجب فيه الكفارة من الأيمان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k8-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 613; matn excerpt at most 40 words" }

@@ -3,11 +3,12 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1371"
-label: { ar: "الموطأ 1371", en: "Muwatta 1371" }
+label: { ar: "الموطأ 1371 — مالك: أحسن ما سمع في الثنيا أنها لصاحبها ما لم يقطع كلامه، فإذا سكت وقطع كلامه فلا ثنيا له", en: "Muwatta 1371" }
 summary:
-  ar: "مالك: أحسن ما سمعت في الثنيا أنها لصاحبها ما لم يقطع كلامه، وما كان من ذلك... ؛ حكم الاستثناء في اليمين؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك أحسن ما سمعه في الثنيا أنها لصاحبها ما لم يقطع كلامه، وما كان من ذلك نسقا يتبع بعضه بعضا قبل أن يسكت، فإذا سكت وقطع كلامه فلا ثنيا له. {cite:muwatta-maruf-1997 p.613}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1371 of kitab 08-nudhur at PDF p. 613", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k8-batch-60" }
+  - { type: basis_for, target: concept/kaffara, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1371 at PDF p. 613; ما لا تجب فيه الكفارة من الأيمان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k8-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 613; matn excerpt at most 40 words" }

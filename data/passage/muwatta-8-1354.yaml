@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1354"
-label: { ar: "الموطأ 1354", en: "Muwatta 1354" }
+label: { ar: "الموطأ 1354 — عبد الله بن أبي حبيبة: كان يقول وهو حدث إن على الرجل الذي يقول علي مشي إلى بيت الله، فأفتاه سعيد بالمشي", en: "Muwatta 1354" }
 summary:
-  ar: "عبد الله بن أبي حبيبة: قلت لرجل وأنا يومئذ حديث السن... ؛ حديث في الجهاد أو السن؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن عبد الله بن أبي حبيبة أنه قال لرجل وهو يومئذ حديث السن، ما على الرجل أن يقول علي مشي إلى بيت الله، ولم يقل علي نذر مشي. فأعطاه رجل شيئا تافها ليقول علي مشي إلى بيت الله، ففعل، ثم عقل فقيل له عليك مشي، فسأل سعيد بن المسيب فقال عليك مشي، فمشى. قال مالك وهو الأمر عندنا. ويذكر المحقق أن ابن القاسم قال إن مالكا أنكر الأحاديث في المشي إلى قباء. {cite:muwatta-maruf-1997 p.606}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-08-nudhur }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1354 of kitab 08-nudhur at PDF p. 606", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-59" }
+  - { type: mentions, target: person/abdullah-ibn-abi-habiba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nadhr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1354 at PDF p. 606; ما يجب من النذور في المشي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k8-b22" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 606; matn excerpt at most 40 words" }
