@@ -134,3 +134,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 24: 25 files (thaniyyat-al-mirar.md … trebizond.md), draft
 - person i–m batch 18 (25 files, kharisha-ibn-masud … khuraym-ibn-aws) — Claude Haiku 5.5, draft
 - person s–z batch 12 (Claude Code, claude-haiku-5-5): tariq-ibn-ziyad … thamumma, 25 files, .
+- person s–z batch 12 (Claude Code, claude-haiku-5-5): tariq-ibn-ziyad … thumama-ibn-ashras, 25 files, 25 files.
