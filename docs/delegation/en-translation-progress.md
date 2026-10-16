@@ -129,3 +129,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person i–m batch 17 (25 files, khalid-al-azhari … kharija-ibn-zayd-ibn-thabit) — Claude Haiku 5.5, draft
 - place m–z batch 23: 25 files (tarabulus-gharb.md … thabun.md), draft
 - polity batch 3 (25 files, najahid-dynasty … wasulid-dynasty): done by Claude Haiku 5.5, draft
+- place a–l batch 5 (Haiku 5.5, draft): 25 files, al-khurayba → al-mudhar; 936 Arabic files in a–l at commit time.
