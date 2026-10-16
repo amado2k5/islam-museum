@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2133"
-label: { ar: "الموطأ 2133", en: "Muwatta 2133" }
+label: { ar: "الموطأ 2133 — مالك: تفسير ذلك فيما نرى أن يرهن الرجل الرهن عند الرجل بالشيء، وفي الرهن فضل عما رهن به، فيقول الراهن للمرتهن: إن جئتك بحقك إلى أجل وإلا فالرهن لك بما فيه، فهذا لا يصلح ولا يحل، وإن جاء صاحبه بالذي رهن به بعد الأجل فهو له", en: "Muwatta 2133" }
 summary:
-  ar: "مالك: وتفسير ذلك فيما نرى والله أعلم، أن يرهن الرجل الرهن عند الرجل ب... ؛ تفسير الرهن الذي لا يغلق؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وتفسير ذلك، فيما نرى والله أعلم، أن يرهن الرجل الرهن عند الرجل بالشيء، وفي الرهن فضل عما رهن به، فيقول الراهن للمرتهن: إن جئتك بحقك إلى أجل يسميه له، وإلا فالرهن لك بما فيه. فهذا لا يصلح ولا يحل، وهذا الذي نهي عنه. وإن جاء صاحبه بالذي رهن به بعد الأجل فهو له. وأرى هذا الشرط منفسخا. {cite:muwatta-maruf-1997 p.271} {cite:muwatta-maruf-1997 p.272}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2133 of kitab 22-aqdiya at PDF p. 271", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-92" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/rahn, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2133 at PDF p. 271; ما لا يجوز من غلق الرهن", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b61" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 271; matn excerpt at most 40 words" }

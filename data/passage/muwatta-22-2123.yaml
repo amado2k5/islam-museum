@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2123"
-label: { ar: "الموطأ 2123", en: "Muwatta 2123" }
+label: { ar: "الموطأ 2123 — يحيى عن مالك: الرجل يهلك وله دين عليه شاهد واحد، وعليه دين للناس لهم فيه شاهد واحد، فيأبى ورثته أن يحلفوا على حقوقهم مع شاهدهم، فإن الغرماء يحلفون ويأخذون حقوقهم، فإن فضل فضل لم يكن للورثة منه شيء", en: "Muwatta 2123" }
 summary:
-  ar: "يحيى: قال مالك في الرجل يهلك وله دين، عليه شاهد واحد، وعليه دين للناس... ؛ مسألة الدين مع الشاهد الواحد بعد الوفاة؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: قال مالك في الرجل يهلك وله دين، عليه شاهد واحد، وعليه دين للناس، لهم فيه شاهد واحد، فيأبى ورثته أن يحلفوا على حقوقهم مع شاهدهم. قال: فإن الغرماء يحلفون ويأخذون حقوقهم. فإن فضل فضل لم يكن للورثة منه شيء، وذلك أن الأيمان عرضت عليهم قبل فتركوها، إلا أن يقولوا لم نعلم لصاحبنا فضلا، فيعلم أنهم إنما تركوا الأيمان من أجل ذلك، فإني أرى أن يحلفوا ويأخذوا ما بقي بعد دينه. {cite:muwatta-maruf-1997 p.267} {cite:muwatta-maruf-1997 p.268}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2123 of kitab 22-aqdiya at PDF p. 267", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-92" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2123 at PDF p. 267; القضاء فيمن هلك وله دين وعليه دين له فيه شاهد واحد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b61" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 267; matn excerpt at most 40 words" }

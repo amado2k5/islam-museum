@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2126"
-label: { ar: "الموطأ 2126", en: "Muwatta 2126" }
+label: { ar: "الموطأ 2126 — يحيى عن مالك عن هشام بن عروة: كان عبد الله بن الزبير يقضي بشهادة الصبيان فيما بينهم من الجراح", en: "Muwatta 2126" }
 summary:
-  ar: "يحيى: قال مالك عن هشام بن عروة: أن عبد الله بن الزبير كان يقضي بشهادة الصبي... ؛ قضاء ابن الزبير بشهادة الصبيان؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: قال مالك عن هشام بن عروة أن عبد الله بن الزبير كان يقضي بشهادة الصبيان فيما بينهم من الجراح. {cite:muwatta-maruf-1997 p.268} {cite:muwatta-maruf-1997 p.269}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2126 of kitab 22-aqdiya at PDF p. 268", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-92" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2126 at PDF p. 268; القضاء في شهادة الصبيان", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b61" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 268; matn excerpt at most 40 words" }

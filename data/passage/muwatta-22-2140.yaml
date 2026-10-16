@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2140"
-label: { ar: "الموطأ 2140", en: "Muwatta 2140" }
+label: { ar: "الموطأ 2140 — يحيى عن مالك: فيمن ارتهن متاعا فهلك عند المرتهن، وأقر من عليه الحق بتسمية الحق، واختلفا في قيمة الرهن: يقال للذي بيده الرهن صفه، فإذا وصفه أحلف عليه، ثم يقيم أهل المعرفة تلك الصفة، فإن كانت القيمة أكثر رد الفضل إلى الراهن، وإن كانت أقل أخذ المرتهن بقية حقه", en: "Muwatta 2140" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول فيمن ارتهن متاعًا فهلك المتاع عند المرتهن، وأقر الذي... ؛ هلاك الرهن عند المرتهن؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: سمعت مالكا يقول فيمن ارتهن متاعا فهلك المتاع عند المرتهن، وأقر الذي عليه الحق بتسمية الحق، واجتمعا على التسمية، وتداعيا في الرهن، فقال الراهن: قيمته عشرون دينارا، وقال المرتهن: قيمته عشرة دنانير، والحق الذي للرجل فيه عشرون دينارا. قال مالك: يقال للذي بيده الرهن: صفه، فإذا وصفه أحلف عليه، ثم أقام تلك الصفة أهل المعرفة بها. فإن كانت القيمة أكثر مما رهن به، قيل للمرتهن: ارد إلى الراهن بقية حقه. وإن كانت القيمة أقل مما رهن به، أخذ المرتهن بقية حقه من الراهن. وإن كانت القيمة بقدر حقه، فالرهن بما فيه. {cite:muwatta-maruf-1997 p.274} {cite:muwatta-maruf-1997 p.275}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2140 of kitab 22-aqdiya at PDF p. 274", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-92" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/rahn, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2140 at PDF p. 274; القضاء في جامع الرهون", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b61" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 274; matn excerpt at most 40 words" }
