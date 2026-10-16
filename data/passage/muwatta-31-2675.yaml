@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2675"
-label: { ar: "الموطأ 2675", en: "Muwatta 2675" }
+label: { ar: "الموطأ 2675 — سهيل بن أبي صالح عن أبيه: الضيف الكافر يشرب حلاب سبع شياه ثم يسلم", en: "Muwatta 2675" }
 summary:
-  ar: "ضيف كافر نزل على النبي فشرب حليب سبع شياه، وذُكر بعد ذلك حاله."
+  ar: "يروي مالك عن سهيل بن أبي صالح عن أبيه عن أبي هريرة أن رسول الله ضافه ضيف كافر، فأمر له بشاة فحُلبت فشرب حلابها، ثم أخرى فشرب، ثم أخرى فشرب، حتى شرب حلاب سبع شياه. ثم أصبح فأسلم، فأمر له بشاة فحُلبت فشرب حلابها، ثم أمر له بأخرى فلم يستتمها، فقال رسول الله: المؤمن يشرب في معى واحد، والكافر يشرب في سبعة أمعاء. {cite:muwatta-maruf-1997 p.512}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2675 of kitab 31-jami at PDF p. 512", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b115" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/adab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/suhayl-ibn-abi-salih, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2675 at PDF p. 512; ما جاء في معى الكافر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b98" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نهاية الخبر غير واضحة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 512; matn excerpt at most 40 words" }

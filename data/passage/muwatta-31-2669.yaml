@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2669"
-label: { ar: "الموطأ 2669", en: "Muwatta 2669" }
+label: { ar: "الموطأ 2669 — مالك: يؤخذ من الشارب حتى يبدو طرف الشفة ولا يُجَز", en: "Muwatta 2669" }
 summary:
-  ar: "مالك: يُؤخذ من الشارب حتى يبدو طرف الشفة، ولا يُجزّ جزًّا يُمثّل بصاحبه."
+  ar: "قال يحيى: وسمعت مالكا يقول: يُؤخذ من الشارب حتى يبدو طرف الشفة، وهو الإطار، ولا يجزّه فيمثّل بنفسه. {cite:muwatta-maruf-1997 p.507}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2669 of kitab 31-jami at PDF p. 507", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b115" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/fitra, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2669 at PDF p. 507; ما جاء في السنة في الفطرة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b98" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 507; matn excerpt at most 40 words" }
