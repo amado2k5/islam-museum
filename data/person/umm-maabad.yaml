@@ -1,0 +1,27 @@
+id: person/umm-maabad
+class: person
+label: { ar: "أم معبد الخزاعية", en: "Umm Ma'bad al-Khuza'iyya" }
+names:
+  - { kind: full, lang: ar, value: "عاتكة بنت خالد الخزاعية، أم معبد" }
+  - { kind: kunya, lang: ar, value: "أم معبد" }
+gender: female
+roles: [host]
+summary:
+  ar: "امرأة من خزاعة بخيمتها بين مكة والمدينة، أطعمت النبي وصاحبه في الهجرة وحلبت شاتها الجهيدة، ووصفت النبي لزوجها أبي معبد لما رأى اللبن فعرف أنه صاحب قريش."
+  en: "A Khuza'a woman of a tent on the road between Mecca and Medina, who fed the Prophet and his companion during the Hijra and milked her ewe; she described him to her husband when he saw the milk and recognised the man Quraysh sought."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: host, start: { edtf: "0622-09~" }, status: tradition, sources: [source/mubarakpuri-raheeq] }
+relations:
+  - { type: member_of, target: group/khuzaa, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/hijra-journey-to-medina, role: "أطعمت النبي وحلبت له الشاة", sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص167–174 نقلاً عن ابن هشام 1/491–494 وزاد المعاد 2/53–55 وصحيح البخاري 1/510–589 ورحمة للعالمين 1/95–106"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-12b"
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/sahih-al-bukhari]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 169–170" }

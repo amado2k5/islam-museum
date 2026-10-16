@@ -13,3 +13,7 @@ translators: []
 
 ونزل على كلثوم أيضاً [[person/ali-ibn-abi-talib|علي بن أبي طالب]] لما لحق بالنبي مهاجراً على قدميه بعد أدائه الودائع {cite:mubarakpuri-raheeq pp.171-172}.
 
+
+
+## نزول النبي عليه بقباء (الرحيق المختوم ص171–172)
+نزل النبي عليه بقباء، وقيل على سعد بن خيثمة، والأول أثبت عند الكتاب، فأقام عنده أربعة أيام ([[event/hijra-journey-to-medina|رحلة الهجرة ودخول المدينة]]) {cite:mubarakpuri-raheeq p.171} {cite:mubarakpuri-raheeq p.172}.
