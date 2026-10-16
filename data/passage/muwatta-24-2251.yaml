@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2251"
-label: { ar: "الموطأ 2251", en: "Muwatta 2251" }
+label: { ar: "الموطأ 2251 — مالك عن هلال بن أسامة عن عطاء بن يسار عن عمر بن الحكم: أتيت النبي فقلت إن جارية لي كانت ترعى غنما، فجئتها وقد فقدت شاة، فسألتها فقالت: أكلها الذئب، فلطمت وجهها، وعلي رقبة، فقال لها النبي: أين الله؟ قالت: في السماء، فقال: من أنا؟ قالت: أنت رسول الله، فقال: أعتقها", en: "Muwatta 2251" }
 summary:
-  ar: "مالك عن هلال بن أسامة عن عطاء بن يسار عن عمر بن الحكم: أنه قال: أتيت... ؛ قصة في العتق أو الولاء؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن هلال بن أسامة عن عطاء بن يسار عن عمر بن الحكم أنه قال: أتيت رسول الله فقلت: يا رسول الله، إن جارية لي كانت ترعى غنما لي، فجئتها وقد فقدت شاة من الغنم، فسألتها عنها، فقالت: أكلها الذئب. فأسفت عليها، وكنت من بني آدم، فلطمت وجهها، وعلي رقبة، أفأعتقها؟ فقال لها رسول الله: أين الله؟ فقالت: في السماء، فقال: من أنا؟ فقالت: أنت رسول الله، فقال رسول الله: أعتقها. ويذكر المحقق أن مالكا سماه عمر بن الحكم وهو وهم، والصواب معاوية بن الحكم السلمي، كما قال ابن عبد البر وغيره. {cite:muwatta-maruf-1997 p.328} {cite:muwatta-maruf-1997 p.329}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2251 of kitab 24-itq at PDF p. 328", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-97b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hilal-ibn-usama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muawiyah-ibn-al-hakam, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2251 at PDF p. 328; ما يجوز من العتق في الرقاب الواجبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b68" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 328; matn excerpt at most 40 words; doubt: Malik names the narrator Umar ibn al-Hakam; the editor and Ibn Abd al-Barr identify him as Mu'awiya ibn al-Hakam al-Sulami, which the record links." }

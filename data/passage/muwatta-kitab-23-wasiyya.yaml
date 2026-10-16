@@ -3,12 +3,16 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-23"
-label: { ar: "الموطأ، كتاب الوصية", en: "Muwatta, Book of Bequests" }
+label: { ar: "الموطأ، كتاب الوصية", en: "Muwatta, Book of Bequests (wasiyya)" }
 summary:
-  ar: "كتاب الوصية في الموطأ، المجلد الثاني، يبدأ في صفحة 309 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Bequests in the Muwatta, volume 2, starting at PDF page 309 (PDF numbering, not the printed page)."
+  ar: "كتاب الوصية، الكتاب الثالث والعشرون من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997)، في المجلد الثاني: 26 نصا (2214–2239) في عشرة أبواب، من الصفحة 309 إلى الصفحة 321 من ملف PDF المجلد الثاني. يبدأ بالأمر بالوصية وجواز وصية الصغير والضعيف، ويبين أن الوصية في الثلث لا تتعدى، وأمر الحامل والمريض والمقاتل، والوصية للوارث، والحيازة، والنحل، ويختم بما يجوز من النحل وما لا يجوز. {cite:muwatta-maruf-1997 p.309} {cite:muwatta-maruf-1997 p.321}"
+  en: "The Book of Bequests (wasiyya), twenty-third book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997), in volume 2: 26 reports (2214–2239) in ten babs, PDF pp. 309–321 of volume 2. It opens with the duty to write a bequest and the bequests of the weak and the young, sets the one-third limit, rules on bequests by a pregnant woman and a man at battle, bequests to heirs, and gifts (nuhl) to children."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 309", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/hiba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab al-wasiya, PDF pp. 309–321", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k23-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

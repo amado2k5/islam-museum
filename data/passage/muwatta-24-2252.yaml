@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2252"
-label: { ar: "الموطأ 2252", en: "Muwatta 2252" }
+label: { ar: "الموطأ 2252 — مالك عن ابن شهاب عن عبيد الله بن عبد الله بن عتبة بن مسعود: أن رجلا من الأنصار جاء إلى رسول الله بجارية له سوداء، فقال: إن علي عتق رقبة مؤمنة، فإن كنت تراها مؤمنة أعتقها، فقال لها: أتشهدين أن لا إله إلا الله؟ وأن محمدا رسول الله؟ وتوقنين بالبعث؟ قالت نعم، فقال: أعتقها", en: "Muwatta 2252" }
 summary:
-  ar: "مالك عن ابن شهاب عن عبيد الله بن عبد الله بن عتبة بن مسعود: أن رجلًا من الأ... ؛ قصة في العتق؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن ابن شهاب عن عبيد الله بن عبد الله بن عتبة بن مسعود أن رجلا من الأنصار جاء إلى رسول الله بجارية له سوداء، فقال: يا رسول الله، إن علي عتق رقبة مؤمنة، فإن كنت تراها مؤمنة أعتقها. فقال لها رسول الله: أتشهدين أن لا إله إلا الله؟ قالت: نعم. قال: أتشهدين أن محمدا رسول الله؟ قالت: نعم. قال: أتوقنين بالبعث بعد الموت؟ قالت: نعم. فقال رسول الله: أعتقها. {cite:muwatta-maruf-1997 p.329} {cite:muwatta-maruf-1997 p.330}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2252 of kitab 24-itq at PDF p. 329", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-97b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubaydallah-ibn-abdallah-ibn-utba, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2252 at PDF p. 329; ما يجوز من العتق في الرقاب الواجبة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b68" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 329; matn excerpt at most 40 words" }

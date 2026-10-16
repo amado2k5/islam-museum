@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2247"
-label: { ar: "الموطأ 2247", en: "Muwatta 2247" }
+label: { ar: "الموطأ 2247 — مالك: مما يبين ذلك أن المكاتب إذا كوتب تبعه ماله وإن لم يشترطه، لأن عقد الكتابة هو عقد الولاء، وليس مال العبد والمكاتب بمنزلة ما كان لهما من ولد، لأن السنة أن العبد إذا أعتق تبعه ماله ولم يتبعه ولده، وأن المكاتب إذا كوتب تبعه ماله ولم يتبعه ولده", en: "Muwatta 2247" }
 summary:
-  ar: "مالك: ومما يبين ذلك أن العبد إذا أُعتق تبعه ماله... ؛ مال العبد المعتَق؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ومما يبين ذلك أن المكاتب إذا كوتب تبعه ماله، وإن لم يشترطه، وذلك أن عقد الكتابة هو عقد الولاء إذا تم ذلك. وليس مال العبد والمكاتب بمنزلة ما كان لهما من ولد؛ إنما أولادهما بمنزلة رقابهما ليسوا بمنزلة أموالهما؛ لأن السنة التي لا اختلاف فيها، أن العبد إذا أعتق تبعه ماله، ولم يتبعه ولده، وأن المكاتب إذا كوتب تبعه ماله، ولم يتبعه ولده. قال مالك: ومما يبين ذلك أيضا أن العبد والمكاتب إذا أفلسا أخذت أموالهما، وأمهات أولادهما، ولم تؤخذ أولادهما، لأنهم ليسوا بأموال لهما. {cite:muwatta-maruf-1997 p.327}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2247 of kitab 24-itq at PDF p. 326", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-97b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itq, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/kitaba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2247 at PDF p. 327; القضاء في مال العبد إذا عتق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b68" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 327; matn excerpt at most 40 words" }

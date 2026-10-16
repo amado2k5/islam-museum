@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2248"
-label: { ar: "الموطأ 2248", en: "Muwatta 2248" }
+label: { ar: "الموطأ 2248 — مالك عن نافع عن عبد الله بن عمر: قال عمر بن الخطاب أيما وليدة ولدت من سيدها، فإنه لا يبيعها ولا يهبها ولا يورثها، وهو يستمتع منها، فإذا مات فهي حرة", en: "Muwatta 2248" }
 summary:
-  ar: "مالك عن نافع عن ابن عمر: أن عمر بن الخطاب قال: أيما وليدة ولدت... ؛ حكم أم الولد؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن عمر بن الخطاب قال: أيما وليدة ولدت من سيدها، فإنه لا يبيعها ولا يهبها ولا يورثها، وهو يستمتع بها، فإذا مات فهي حرة. {cite:muwatta-maruf-1997 p.327}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2248 of kitab 24-itq at PDF p. 327", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-97b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itq, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/umm-walad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2248 at PDF p. 327; عتق أمهات الأولاد وجامع القضاء في العتاقة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b68" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 327; matn excerpt at most 40 words" }

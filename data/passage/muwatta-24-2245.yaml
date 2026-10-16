@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2245"
-label: { ar: "الموطأ 2245", en: "Muwatta 2245" }
+label: { ar: "الموطأ 2245 — مالك عن ربيعة بن أبي عبد الرحمن: أن رجلا في إمارة أبان بن عثمان أعتق رقيقا له كلهم جميعا، ولم يكن له مال غيرهم، فأمر أبان بتلك الرقيق فقسمت أثلاثا، ثم أسهم على أيهم يخرج سهم الميت، فوقع السهم على أحد الأثلاث، فعتق الثلث الذي وقع عليه السهم", en: "Muwatta 2245" }
 summary:
-  ar: "مالك عن ربيعة بن أبي عبد الرحمن: أن رجلًا في إمارة أبان بن عثمان أعتق رقيقًا له... ؛ قصة عتق الرقيق في إمارة أبان؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن أن رجلا في إمارة أبان بن عثمان أعتق رقيقا له كلهم جميعا، ولم يكن له مال غيرهم. فأمر أبان بن عثمان بتلك الرقيق فقسمت أثلاثا، ثم أسهم على أيهم يخرج سهم الميت، فيعتقون، فوقع السهم على أحد الأثلاث، فعتق الثلث الذي وقع عليه السهم. {cite:muwatta-maruf-1997 p.326}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2245 of kitab 24-itq at PDF p. 326", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-97b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabiah-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aban-ibn-uthman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2245 at PDF p. 326; من أعتق رقيقا لا يملك مالا غيرهم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b68" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 326; matn excerpt at most 40 words" }
