@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2741"
-label: { ar: "الموطأ 2741", en: "Muwatta 2741" }
+label: { ar: "الموطأ 2741 — أبو هريرة: أين المتحابون لجلالي اليوم أظلهم في ظلي", en: "Muwatta 2741" }
 summary:
-  ar: "حديث أبي هريرة: يقول الله يوم القيامة أين المتحابون لجلالي، فيظلهم في ظله يوم لا ظل إلا ظله."
+  ar: "يروي مالك عن عبد الله بن عبد الرحمن بن معمر عن أبي الحباب سعيد بن يسار عن أبي هريرة أن رسول الله قال: إن الله تبارك وتعالى يقول يوم القيامة: أين المتحابون لجلالي؟ اليوم أظلهم في ظلي، يوم لا ظل إلا ظلي. {cite:muwatta-maruf-1997 p.542}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2741 of kitab 31-jami at PDF p. 542", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b118" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mahabba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abd-al-rahman-ibn-maamar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-hubab-said-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2741 at PDF p. 542; ما جاء في المتحابين في الله", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b104" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 542; matn excerpt at most 40 words" }

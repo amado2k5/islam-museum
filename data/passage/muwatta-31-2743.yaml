@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2743"
-label: { ar: "الموطأ 2743", en: "Muwatta 2743" }
+label: { ar: "الموطأ 2743 — سهيل عن أبيه عن أبي هريرة: إذا أحب الله العبد قال لجبريل قد أحببت فلانا فأحبه", en: "Muwatta 2743" }
 summary:
-  ar: "تكرار طريق الحديث السابق عن سهيل بن أبي صالح، مع تعليق المحقق على الشك في اسم الصحابي."
+  ar: "يروي مالك عن سهيل بن أبي صالح عن أبيه عن أبي هريرة أن رسول الله قال: إذا أحب الله العبد قال لجبريل: قد أحببت فلانا فأحبه، فيحبه جبريل، ثم ينادي في أهل السماء: إن الله قد أحب فلانا فأحبوه، فيحبه أهل السماء، ثم يوضع له القبول في الأرض. وإذا أبغض الله العبد... قال مالك: لا أحسبه إلا أنه قال في البغض مثل ذلك. {cite:muwatta-maruf-1997 p.543} {cite:muwatta-maruf-1997 p.544}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2743 of kitab 31-jami at PDF p. 543", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b118" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mahabba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/suhayl-ibn-abi-salih, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/jibril, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2743 at PDF p. 543; ما جاء في المتحابين في الله", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b104" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 543; matn excerpt at most 40 words" }

@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2742"
-label: { ar: "الموطأ 2742", en: "Muwatta 2742" }
+label: { ar: "الموطأ 2742 — خبيب بن عبد الرحمن عن حفص: السبعة الذين يظلهم الله في ظله", en: "Muwatta 2742" }
 summary:
-  ar: "سبعة يظلهم الله في ظله يوم القيامة، وفيهم الإمام العادل والشاب الذي نشأ في العبادة."
+  ar: "يروي مالك عن خبيب بن عبد الرحمن الأنصاري عن حفص بن عاصم عن أبي سعيد الخدري، أو عن أبي هريرة، أن رسول الله قال: سبعة يظلهم الله في ظله يوم لا ظل إلا ظله: إمام عادل، وشاب نشأ في عبادة الله، ورجل قلبه متعلق بالمسجد، ورجلان تحابا في الله اجتمعا على ذلك وتفرقا عليه، ورجل ذكر الله خاليا ففاضت عيناه، ورجل دعته ذات حسب وجمال فقال: إني أخاف الله، ورجل تصدق بصدقة فأخفاها حتى لا تعلم شماله ما تنفق يمينه. ويذكر المحقق أن أكثر أصحاب مالك شكوا في الراوي بين أبي هريرة وأبي سعيد، وأن الحديث محفوظ لأبي هريرة من رواية عبيد الله بن عمر. {cite:muwatta-maruf-1997 p.542} {cite:muwatta-maruf-1997 p.543}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2742 of kitab 31-jami at PDF p. 542", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b118" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mahabba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/khubayb-ibn-abd-al-rahman-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hafs-ibn-asim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2742 at PDF p. 542; ما جاء في المتحابين في الله", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b104" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 542; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2740"
-label: { ar: "الموطأ 2740", en: "Muwatta 2740" }
+label: { ar: "الموطأ 2740 — كعب الأحبار: كلمات يقولها تحفظه من أن تجعله يهود حمارا", en: "Muwatta 2740" }
 summary:
-  ar: "كعب الأحبار يذكر كلمات يستعيذ بها، ويقول إنها تحفظه من أن يحوّله اليهود إلى حمار."
+  ar: "يروي مالك عن سمي مولى أبي بكر عن القعقاع بن حكيم أن كعب الأحبار قال: لولا كلمات أقولهن لجعلتني يهود حمارا. فقيل له: وما هن؟ فقال: أعوذ بوجه الله العظيم الذي ليس شيء أعظم منه، وبكلمات الله التامات، وبأسماء الله الحسنى كلها ما علمت منها وما لم أعلم، من شر ما خلق وبرأ وذرأ. {cite:muwatta-maruf-1997 p.541} {cite:muwatta-maruf-1997 p.542}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2740 of kitab 31-jami at PDF p. 541", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b118" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ruqya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sumay-mawla-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qaqa-ibn-hakim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/kab-al-ahbar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2740 at PDF p. 541; ما يؤمر به من التعوذ", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b104" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 541; matn excerpt at most 40 words" }

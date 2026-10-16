@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2738"
-label: { ar: "الموطأ 2738", en: "Muwatta 2738" }
+label: { ar: "الموطأ 2738 — يحيى بن سعيد: العفريت الذي يطلب النبي بشعلة من نار ودعاء جبريل", en: "Muwatta 2738" }
 summary:
-  ar: "في الإسراء رأى النبي عفريتًا من الجن يطلبه بشعلة نار، فعلّمه جبريل كلمات تطفئ الشعلة."
+  ar: "يروي مالك عن يحيى بن سعيد أنه قال: أُسري برسول الله فرأى عفريتا من الجن يطلبه بشعلة من نار، كلما التفت رسول الله رآه، فقال له جبريل: ألا أعلمك كلمات تقولهن، إذا قلتهن طفئت شعلته وخر لفيه؟ فقال رسول الله: بلى. فقال جبريل: قل: أعوذ بوجه الله الكريم، وبكلمات الله التامات التي لا يجاوزهن بر ولا فاجر، من شر ما ينزل من السماء، ومن شر ما يعرج فيها، ومن شر ما ذرأ في الأرض، ومن فتن الليل والنهار، ومن طوارق الليل إلا طارقا يطرق بخير. ويذكر المحقق أن أكثر الروايات تذكر متنه، وأن أحمد وأبا داود والترمذي وغيرهم خرجوه من حديث عبد الله بن عمرو. {cite:muwatta-maruf-1997 p.540} {cite:muwatta-maruf-1997 p.541}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2738 of kitab 31-jami at PDF p. 540", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b118" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ruqya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/jibril, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2738 at PDF p. 540; ما يؤمر به من التعوذ", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b104" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 540; matn excerpt at most 40 words" }
