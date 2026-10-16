@@ -1,0 +1,29 @@
+id: event/six-men-of-yathrib
+class: event
+kind: other
+label: { ar: "ستة نفر من أهل يثرب يسلمون في منى", en: "Six men of Yathrib embrace Islam at Mina" }
+summary:
+  ar: "في موسم الحج من السنة الحادية عشرة من البعثة لقي النبي ستة نفر من شباب الخزرج عند عقبة منى، فشرح لهم الإسلام وتلا عليهم القرآن، فأسلموا وقالوا إنهم سيدعون قومهم، لعل الله يجمعهم به."
+  en: "At the pilgrim season of the eleventh year of the mission the Prophet met six young men of the Khazraj at the Aqaba of Mina; he explained Islam and recited the Qur'an to them, they embraced it, and they promised to call their people, hoping God would unite them."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0620-07~", calendar: julian, precision: month, status: tradition, note: "موسم الحج من السنة الحادية عشرة من البعثة، يوليو 620م (الرحيق ص135)." }
+relations:
+  - { type: occurred_at, target: place/mina, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/asad-ibn-zurara, role: "أسعد بن زرارة من بني النجار", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/awf-ibn-al-harith, role: "عوف بن الحارث بن رفاعة ابن عفراء", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/rafi-ibn-malik, role: "رافع بن مالك من بني زريق", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/qutba-ibn-amir, role: "قطبة بن عامر من بني سلمة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/jabir-ibn-abdullah, role: "جابر بن عبد الله بن رئاب من بني عبيد بن غنم", sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/zad-al-maad, source/ibn-hisham-sira]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص132–142 نقلاً عن زاد المعاد 2/47–50 وصحيح مسلم وصحيح البخاري وابن هشام 1/389–406 و1/420–425 ورحمة للعالمين 1/81–84"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-10b"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 135–136" }

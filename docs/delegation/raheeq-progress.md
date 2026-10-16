@@ -22,7 +22,7 @@
 | 7 في ظلال النبوة / الدعوة السرية | 65–77 | **done**: 7a `10ff236c` (revelation, pause, modes of revelation, second revelation, the call's stages), 7b (the three-year secret call, early Muslims, Maz'un brothers, concept al-salat-qabl-al-isra; sections on the early Muslims' companions) |
 | 8 الدعوة جهاراً | 78–108 | **done**: 8a `a9955afe` (pp. 78–87), 8b `ee9a3948` (pp. 88–100), 8c (pp. 100–108: Hamza, Umar, Utba's offer, Abu Talib's gathering rewritten with page cites) |
 | 9 المقاطعة / عام الحزن | 109–124 | **done**: 9a `5960d545` (pp. 109–115: covenant, siege, nullification, last delegation), 9b (pp. 115–124: deaths of Abu Talib and Khadija, Year of Sorrow, Ibn al-Dughunna, Sawda, sources of steadfastness appended to concept sabr) |
-| 10 خارج مكة / الإسراء | 125–142 | in progress: 10a (pp. 125–131: the Ta'if journey, the jinn at Wadi Nakhla, offering Islam to the tribes; sections on Zayd, Mut'im, Suwayd, Iyas) applied; 10b (pp. 131–142: the rest of the tribes and individuals, the Night Journey) pending |
+| 10 خارج مكة / الإسراء | 125–142 | **done**: 10a `96cb131c` (pp. 125–131: Ta'if, the jinn at Wadi Nakhla, offering Islam to the tribes), 10b (pp. 132–142: Tufayl, Abu Dhar, Dhimad, the six men of Yathrib, Aisha's marriage, the Night Journey rewritten with page cites) |
 | 11 بيعتا العقبة / دار الندوة | 143–160 | pending |
 | 12 الهجرة | 161–174 | pending |
 | 13 الحياة في المدينة / السرايا قبل بدر | 175–203 | pending |
@@ -48,9 +48,9 @@
 
 ---
 
-## Paused (15 Oct 2026)
+## Next step
 
-Paused on the user's request after chapter 6 was pushed (`cb5e124b`). Resume with chapter 7 from the saved drafts in the shared notes folder, then chapters 8–27 in book order; chapter 8 (pp. 78–108) has been read and its existing entities checked (dawat-al-ashira, safa-proclamation, walid-council, persecution-of-mustadafin, the two Abyssinia migrations and the return, islam-of-hamza, islam-of-umar, utba-offer, abu-talib-gathers-clans, sajdat-al-najm exist; missing: uqba-ibn-abi-muit, umara-ibn-al-walid, dar-al-arqam, al-safa, a gharaniq tension card, the Quraysh envoys to the Negus, the plots to kill the Prophet).
+Chapter 11 onward (chapter 11 starts at p. 143; read its pages and the existing entities first). Chapters 1–10 are on main.
 
 ## First pass (Oct 2026, old rules): batch log
 
