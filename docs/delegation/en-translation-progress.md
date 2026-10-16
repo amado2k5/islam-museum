@@ -108,3 +108,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person s–z batch 8 (Claude Code, claude-haiku-5-5): shurayh-ibn-amir-al-sadi … siyawush-ibn-kaykaus, 25 files, 25 files.
 - person i–m batch 13 (25 files, jabala-ibn-salim … jahwar-ibn-marrar) — Claude Haiku 5.5, draft
 - group batch 7 (18 files, sayabija … zutt; group complete): done by Claude Haiku 5.5, draft
+- place m–z batch 19: 25 files (sharshal.md … siminjan.md), draft
