@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1097"
-label: { ar: "الموطأ 1097", en: "Muwatta 1097" }
+label: { ar: "الموطأ 1097 — جابر بن عبد الله عن النبي: كان إذا نزل من الصفا والمروة مشى، حتى إذا انصبت قدماه في بطن الوادي سعى حتى يخرج منه", en: "Muwatta 1097" }
+text: "كان إذا نزل من الصفا والمروة مشى، حتى إذا انصبت قدماه في بطن الوادي سعى حتى يخرج منه"
 summary:
-  ar: "جعفر بن محمد عن أبيه عن جابر بن عبد الله: أن رسول الله ﷺ كان إذا نزل... ؛ حديث في صفة الحج؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن جعفر بن محمد عن أبيه عن جابر بن عبد الله، أن رسول الله كان إذا نزل من الصفا والمروة مشى، حتى إذا انصبت قدماه في بطن الوادي سعى حتى يخرج منه. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1314) وإسحاق الطباع وسويد (544) وغيرهما، وأنه قطعة من حديث جابر الطويل. {cite:muwatta-maruf-1997 p.502}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1097 of kitab 06-hajj at PDF p. 502", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-49" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/jafar-al-sadiq, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-al-baqir, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sai, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1097 at PDF p. 502; جامع السعي", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b08" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 502; matn excerpt at most 40 words" }

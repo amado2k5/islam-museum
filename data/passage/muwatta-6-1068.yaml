@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1068"
-label: { ar: "الموطأ 1068", en: "Muwatta 1068" }
+label: { ar: "الموطأ 1068 — هشام بن عروة عن أبيه: كان لا يجمع بين السبعين، لا يصلي بينهما، ولكنه كان يصلي بعد كل سبع ركعتين، فربما صلى عند المقام أو عند غيره", en: "Muwatta 1068" }
 summary:
-  ar: "هشام بن عروة عن أبيه: أنه كان لا يجمع بين السبعين، لا يصلي بعد... ؛ أثر في الطواف وركعتيه؛ تفاصيل الأثر غير واضحة."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه، أنه كان لا يجمع بين السبعين، لا يصلي بينهما، ولكنه كان يصلي بعد كل سبع ركعتين، فربما صلى عند المقام أو عند غيره. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1291) وسويد (554). {cite:muwatta-maruf-1997 p.494}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1068 of kitab 06-hajj at PDF p. 494", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-48" }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1068 at PDF p. 494; ركعتا الطواف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 494; matn excerpt at most 40 words" }

@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1084"
-label: { ar: "الموطأ 1084", en: "Muwatta 1084" }
+label: { ar: "الموطأ 1084 — زينب بنت أبي سلمة عن أم سلمة زوج النبي: شكوت إلى رسول الله أني أشتكي، فقال: طوفي من وراء الناس وأنت راكبة، فطفت راكبة وهو يصلي إلى جانب البيت يقرأ بالطور وكتاب مسطور", en: "Muwatta 1084" }
+text: "طوفي من وراء الناس وأنت راكبة"
 summary:
-  ar: "يحيى عن مالك عن أبي الأسود محمد بن عبد الرحمن بن نوفل عن عروة بن الزبير عن زينب: حديث في الحج أو الطواف؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب جامع الطواف. يرويه مالك عن أبي الأسود محمد بن عبد الرحمن بن نوفل عن عروة بن الزبير عن زينب بنت أبي سلمة عن أم سلمة زوج النبي، أنها قالت: شكوت إلى رسول الله أني أشتكي، فقال: طوفي من وراء الناس وأنت راكبة. قالت: فطفت راكبة بعيري ورسول الله حينئذ يصلي إلى جانب البيت، وهو يقرأ بالطور وكتاب مسطور. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1302) وسويد (552) وإسماعيل بن أبي أويس عند البخاري (1619)، وغيرهم. {cite:muwatta-maruf-1997 p.498}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1084 of kitab 06-hajj at PDF p. 497", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-48" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zaynab-bint-abi-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-nadr-salim-ibn-abi-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1084 at PDF p. 497; جامع الطواف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b08" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 497; matn excerpt at most 40 words; doubt: أبو الأسود هنا محمد بن عبد الرحمن بن نوفل؛ راجع السجل المرتبط بالحديث 944." }

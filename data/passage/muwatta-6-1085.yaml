@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1085"
-label: { ar: "الموطأ 1085", en: "Muwatta 1085" }
+label: { ar: "الموطأ 1085 — أبو معيز الأسلمي عن ابن عمر: امرأة سألته، أهراقت دماً عند باب المسجد ثلاث مرات، فقال: إنما ذلك ركضة من الشيطان، فاغتسلي ثم استثفري بثوب ثم طوفي", en: "Muwatta 1085" }
 summary:
-  ar: "أبو الزبير المكي: أن أبا ماعز الأسلمي عبد الله بن سفيان أخبره... ؛ حديث في الحج أو الطواف؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن أبي الزبير المكي أن أبا معيز الأسلمي، عبد الله بن سفيان، أخبره أنه كان جالساً مع عبد الله بن عمر، فجاءته امرأة تستفتيه، فقالت: إني أقبلت أريد أن أطوف بالبيت، حتى إذا كنت ببابه المسجد أهرقت الدماء، فرجعت حتى ذهب ذلك عني، ثم أقبلت فهرقت الدماء ثلاث مرات. فقال عبد الله بن عمر: إنما ذلك ركضة من الشيطان، فاغتسلي ثم استثفري بثوب ثم طوفي. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1305) وسويد (549) وغيرهم. {cite:muwatta-maruf-1997 p.498} {cite:muwatta-maruf-1997 p.499}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1085 of kitab 06-hajj at PDF p. 498", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-48" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zubayr-al-makki, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-muaiz-al-aslami, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ghusl, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1085 at PDF p. 498; جامع الطواف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b08" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 498; matn excerpt at most 40 words" }

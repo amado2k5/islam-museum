@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1074"
-label: { ar: "الموطأ 1074", en: "Muwatta 1074" }
+label: { ar: "الموطأ 1074 — ابن شهاب عن حميد بن عبد الرحمن: عبد الرحمن بن عبد القاري أخبره أنه طاف بالبيت مع عمر بن الخطاب بعد صلاة الصبح، فلما قضى عمر طوافه نظر فلم ير الشمس، فركب حتى أناخ بذي طوى فصلى ركعتين", en: "Muwatta 1074" }
 summary:
-  ar: "ابن شهاب عن حميد بن عبد الرحمن بن عوف: أن عبد الرحمن بن عبد القاري أ... ؛ حديث في الطواف؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب الصلاة بعد الصبح والعصر في الطواف. يرويه مالك عن ابن شهاب عن حميد بن عبد الرحمن بن عوف، أن عبد الرحمن بن عبد القاري أخبره أنه طاف بالبيت مع عمر بن الخطاب بعد صلاة الصبح، فلما قضى عمر طوافه نظر فلم ير الشمس طلعت، فركب حتى أناخ بذي طوى فصلى ركعتين. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1297) وسويد (555) والشيباني (440). {cite:muwatta-maruf-1997 p.495}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1074 of kitab 06-hajj at PDF p. 495", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-48" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-ibn-abd-al-rahman-ibn-awf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-abd-al-qari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/dhu-tuwa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1074 at PDF p. 495; الصلاة بعد الصبح والعصر في الطواف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 495; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1075"
-label: { ar: "الموطأ 1075", en: "Muwatta 1075" }
+label: { ar: "الموطأ 1075 — أبو الزبير المكي: رأيت عبد الله بن عباس يطوف بعد صلاة العصر، ثم يدخل حجرته فلا أدري ما يصنع", en: "Muwatta 1075" }
 summary:
-  ar: "أبو الزبير المكي: رأيت عبد الله بن عباس يطوف بعد صلاة... ؛ أثر عن ابن عباس في الطواف بعد الصلاة؛ تفاصيل الأثر غير واضحة."
+  ar: "يرويه مالك عن أبي الزبير المكي أنه قال: رأيت عبد الله بن عباس يطوف بعد صلاة العصر، ثم يدخل حجرته، فلا أدري ما يصنع. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1298) وسويد (555) ويحيى بن بكير عند البيهقي (5/91). {cite:muwatta-maruf-1997 p.495}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1075 of kitab 06-hajj at PDF p. 495", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-48" }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-zubayr-al-makki, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/salah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1075 at PDF p. 495; الصلاة بعد الصبح والعصر في الطواف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b07" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 495; matn excerpt at most 40 words" }
