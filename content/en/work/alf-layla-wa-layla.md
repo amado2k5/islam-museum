@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-"The Thousand and One Nights", a book of stories. This entry records the earliest mention of it in the sources held here, not its text. {cite:muruj-al-dhahab p.550}
+"The Thousand and One Nights", a book of stories. This entry records the earliest mention of it in the sources held here, not its text.
 
 ## In al-Mas'udi
 In the year 332 AH, al-Mas'udi mentioned books translated from Persian, among them "Hazar Afsana". Its Arabic meaning is "A Thousand Fables", since a fable in Persian is an "afsana". He said that people call it "The Thousand and One Nights". {cite:muruj-al-dhahab p.550}
