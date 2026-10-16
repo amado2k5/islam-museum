@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2219"
-label: { ar: "الموطأ 2219", en: "Muwatta 2219" }
+label: { ar: "الموطأ 2219 — مالك عن ابن شهاب عن عامر بن سعد بن أبي وقاص عن أبيه: جاءه رسول الله يعوده عام حجة الوداع من وجع اشتد به، فقال: أفأتصدق بثلثي مالي؟ قال: لا. فالشطر؟ قال: لا. قال: الثلث، والثلث كثير، إن تذر ورثتك أغنياء خير من أن تذرهم عالة يتكففون الناس", en: "Muwatta 2219" }
+text: "الثُّلُثُ، وَالثُّلُثُ كَثيرٌ"
 summary:
-  ar: "مالك عن ابن شهاب عن عامر بن سعد بن أبي وقاص عن أبيه: أنه قال: جاءني رسول... ؛ قصة الوصية بالمال؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن ابن شهاب عن عامر بن سعد بن أبي وقاص عن أبيه أنه قال: جاءني رسول الله يعودني عام حجة الوداع، من وجع اشتد بي، فقلت: يا رسول الله، قد بلغ بي من الوجع ما ترى، وأنا ذو مال، ولا يرثني إلا ابنة لي، أفأتصدق بثلثي مالي؟ قال: لا. فقلت: فالشطر؟ قال: لا. ثم قال رسول الله: الثلث، والثلث كثير، إنك أن تذر ورثتك أغنياء خير من أن تذرهم عالة يتكففون الناس، وإنك لن تنفق نفقة تبتغي بها وجه الله إلا أجرت بها، حتى ما تجعل في في امرأتك. قال: فقلت: يا رسول الله، أأخلف بعد أصحابي؟ فقال رسول الله: إنك لن تخلف، فتعمل عملا صالحا إلا ازددت به درجة ورفعة، ولعلك أن تخلف حتى ينتفع بك أقوام ويضر بك آخرون. اللهم أمض لأصحابي هجرتهم، ولا ترهم على أعقابهم، لكن البائس سعد بن خولة. {cite:muwatta-maruf-1997 p.311} {cite:muwatta-maruf-1997 p.312}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-23-wasiyya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2219 of kitab 23-wasiyya at PDF p. 311", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k23-batch-96b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amir-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2219 at PDF p. 311; الوصية في الثلث لا يتعدى", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k23-b66" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 311; matn excerpt at most 40 words" }

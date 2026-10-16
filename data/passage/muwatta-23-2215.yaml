@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2215"
-label: { ar: "الموطأ 2215", en: "Muwatta 2215" }
+label: { ar: "الموطأ 2215 — مالك: الأمر المجتمع عليه عندنا أن الموصي إذا أوصى في صحته أو مرضه بوصية فيها عتاقة رقيق أو غير ذلك، يغير منها ما بدا له حتى يموت، وليس له تغيير التدبير، لأن كل موص يحبس ماله لو لم يملك تغيير وصيته", en: "Muwatta 2215" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندنا أن الموصي إذا أوصى في صحته أو مرضه بوصية... ؛ حكم الوصية وتنفيذها؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر المجتمع عليه عندنا، أن الموصي إذا أوصى في صحته أو مرضه بوصية، فيها عتاقة رقيق من رقيقه أو غير ذلك، فإنه يغير من ذلك ما بدا له، ويصنع من ذلك ما شاء حتى يموت. وإن أحب أن يطرح تلك الوصية أو يبدلها، فعل، إلا أن يدبر مملوكا، فإن دبر، فلا سبيل إلى تغيير ما دبر. فلو كان الموصي لا يقدر على تغيير وصيته، ولا ما ذكر فيها من العتاقة، كان كل موص قد حبس ماله الذي أوصى فيه من العتاقة وغيرها. فالأمر عندنا الذي لا اختلاف فيه، أنه يغير من ذلك ما شاء، غير التدبير. {cite:muwatta-maruf-1997 p.309} {cite:muwatta-maruf-1997 p.310}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-23-wasiyya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2215 of kitab 23-wasiyya at PDF p. 309", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k23-batch-96b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tadbir, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2215 at PDF p. 309; الأمر بالوصية", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k23-b66" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 309; matn excerpt at most 40 words" }

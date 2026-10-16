@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2214"
-label: { ar: "الموطأ 2214", en: "Muwatta 2214" }
+label: { ar: "الموطأ 2214 — مالك عن نافع عن عبد الله بن عمر: قال رسول الله ما حق امرئ مسلم له شيء يوصى فيه يبيت ليلتين إلا ووصيته عنده مكتوبة", en: "Muwatta 2214" }
 summary:
-  ar: "مالك عن نافع عن عبد الله بن عمر: أن رسول الله ﷺ قال: ما حق امرئ مسلم... ؛ حديث في وجوب الوصية وكتابتها؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن رسول الله قال: ما حق امرئ مسلم، له شيء يوصى فيه، يبيت ليلتين، إلا ووصيته عنده مكتوبة. ويذكر المحقق أن هذا الحديث لا خلاف عن مالك في لفظه ولا في إسناده. {cite:muwatta-maruf-1997 p.309}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-23-wasiyya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2214 of kitab 23-wasiyya at PDF p. 309", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k23-batch-96b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2214 at PDF p. 309; الأمر بالوصية", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k23-b66" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 309; matn excerpt at most 40 words" }

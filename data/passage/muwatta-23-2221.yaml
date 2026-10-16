@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2221"
-label: { ar: "الموطأ 2221", en: "Muwatta 2221" }
+label: { ar: "الموطأ 2221 — مالك: فيمن يوصي في ثلثه فيقول: لفلان كذا وكذا، ولفلان كذا وكذا، فيقول الورثة قد زاد على ثلثه: فإن الورثة يخيرون بين أن يعطوا أهل الوصايا وصاياهم ويأخذوا جميع مال الميت، أو يقسموا لأهل الوصايا ثلث المال", en: "Muwatta 2221" }
 summary:
-  ar: "قال: وسمعت مالكًا يقول في الذي يوصي في ثلثه، فيقول: لفلان كذا وكذا، ولفلان كذا... ؛ توزيع الثلث على الموصى لهم؛ الحكم يحتاج مراجعة."
+  ar: "قال: وسمعت مالكا يقول فيمن يوصي في ثلثه، فيقول: لفلان كذا وكذا، ولفلان كذا وكذا، يسمي مالا من ماله، فيقول ورثته: قد زاد على ثلثه. فإن الورثة يخيرون، بين أن يعطوا أهل الوصايا وصاياهم، ويأخذوا جميع مال الميت، وبين أن يقسموا لأهل الوصايا ثلث مال الميت، فيسلموا إليهم ثلثه، فتكون حقوقهم فيه إن أرادوا، بالغا ما بلغ. {cite:muwatta-maruf-1997 p.313}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-23-wasiyya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2221 of kitab 23-wasiyya at PDF p. 313", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k23-batch-96b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2221 at PDF p. 313; الوصية في الثلث لا يتعدى", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k23-b66" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 313; matn excerpt at most 40 words" }

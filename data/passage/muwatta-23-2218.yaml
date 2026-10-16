@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2218"
-label: { ar: "الموطأ 2218", en: "Muwatta 2218" }
+label: { ar: "الموطأ 2218 — يحيى عن مالك: الأمر المجتمع عليه عندنا أن الضعيف في عقله، والسفيه، والمصاب الذي يفيق أحيانا، تجوز وصاياهم إذا كان معهم من عقولهم ما يعرفون به ما يوصون به، فمن لم يكن معه من عقله ما يعرف به ما يوصي به، فلا وصية له", en: "Muwatta 2218" }
 summary:
-  ar: "يحيى: سمعت مالكًا يقول: الأمر المجتمع عليه عندنا: أن الضعيف في عقله والسفيه... ؛ وصية المحجور عليه والسفيه؛ الحكم يحتاج مراجعة."
+  ar: "قال يحيى: سمعت مالكا يقول: الأمر المجتمع عليه عندنا أن الضعيف في عقله، والسفيه، والمصاب الذي يفيق أحيانا، تجوز وصاياهم، إذا كان معهم من عقولهم ما يعرفون ما يوصون به. فأما من ليس معه من عقله ما يعرف به ما يوصي به، وكان مغلوبا على عقله، فلا وصية له. {cite:muwatta-maruf-1997 p.311}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-23-wasiyya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2218 of kitab 23-wasiyya at PDF p. 311", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k23-batch-96b" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2218 at PDF p. 311; جواز وصية الصغير والضعيف والمصاب والسفيه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k23-b66" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 311; matn excerpt at most 40 words" }
