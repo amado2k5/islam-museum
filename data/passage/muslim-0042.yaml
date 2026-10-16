@@ -1,0 +1,16 @@
+id: passage/muslim-0042
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "42"
+label: { ar: "مسلم 42 — المسلم من سلم المسلمون", en: "Muslim 42 — The Muslim is he from whose tongue and hand Muslims are safe" }
+text: "سئل رسول الله: أي المسلمين خير؟ قال: «من سلم المسلمون من لسانه ويده»"
+summary:
+  ar: "رواية عبد الله بن عمرو في كتاب الإيمان؛ جواب النبي عن سؤال «أي المسلمين خير؟» بسلامة المسلمين من لسان المرء ويده — من أخص تعريفات الإسلام العملي في الصحيح."
+relations:
+  - { type: mentions, target: person/abdullah-ibn-amr-ibn-al-as, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/islam-din, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب المسلم من سلم المسلمون من لسانه (طبعة دار التأصيل، الحديث 32؛ ترقيم عبد الباقي المعروف 42)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

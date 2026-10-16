@@ -1,0 +1,16 @@
+id: passage/muslim-0532
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "532"
+label: { ar: "مسلم 532 — «لو كنت متخذا خليلا لاتخذت أبا بكر خليلا»", en: "Muslim 532 — Had I taken a bosom friend, it would have been Abu Bakr" }
+text: "سمعت النبي قبل أن يموت بخمس وهو يقول: «إني أبرأ إلى الله أن يكون لي منكم خليل؛ فإن الله تعالى قد اتخذني خليلا كما اتخذ إبراهيم خليلا، ولو كنت متخذا من أمتي خليلا لاتخذت أبا بكر خليلا»"
+summary:
+  ar: "رواية جندب بن عبد الله البجلي في كتاب الصلاة من صحيح مسلم؛ سمعه من النبي قبل وفاته بخمسة أيام، وفيه تسوية منزلة أبي بكر بين الخلة الإلهية للنبي ومحبة الصديق الخاصة، ويليه في المتن «ألا وإن أشكر الناس لي صحبة ومالا أبو بكر»."
+relations:
+  - { type: mentions, target: person/abu-bakr, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/ibrahim, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الصلاة (طبعة دار التأصيل، الحديث 522؛ ترقيم عبد الباقي المعروف 532)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-1" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
