@@ -128,3 +128,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person s–z batch 11 (Claude Code, claude-haiku-5-5): surama-ibn-abi-anas … tarifa-al-kahina, 25 files, 25 files.
 - person i–m batch 17 (25 files, khalid-al-azhari … kharija-ibn-zayd-ibn-thabit) — Claude Haiku 5.5, draft
 - place m–z batch 23: 25 files (tarabulus-gharb.md … thabun.md), draft
+- polity batch 3 (25 files, najahid-dynasty … wasulid-dynasty): done by Claude Haiku 5.5, draft
