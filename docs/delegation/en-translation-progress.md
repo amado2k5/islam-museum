@@ -87,3 +87,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person s–z batch 5 (Claude Code, claude-haiku-5-5): salmawayh-ibn-bunan … sayf-al-din-ghazi-i, 25 files, 25 files.
 - place m–z batch 14: 25 files (ramhurmuz.md … rudhistu.md), draft
 - concept batch 7 (Claude Haiku 5.5): 25 pages, madrasat-al-nahw-al-basriyya-kufiyya → nasab-al-nabi
+- work batch 10 (25 files, zibriqan-boast-poem … zibriqan-second-boast): done by Claude Haiku 5.5, draft
