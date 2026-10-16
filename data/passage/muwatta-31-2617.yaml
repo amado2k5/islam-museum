@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2617"
-label: { ar: "الموطأ 2617", en: "Muwatta 2617" }
+label: { ar: "الموطأ 2617 — زيد بن أبي أنيسة عن مسلم بن يسار: عمر يُسأل عن آية الذرية ويجيب بحديث النبي", en: "Muwatta 2617" }
 summary:
-  ar: "سُئل عمر عن الآية في الأعراف (172) المتعلقة بأخذ الميثاق من ظهور بني آدم، وفي الحديث جوابه."
+  ar: "يروي مالك عن زيد بن أبي أنيسة عن عبد الحميد بن عبد الرحمن بن زيد بن الخطاب أنه أخبره عن مسلم بن يسار الجهني أن عمر بن الخطاب سُئل عن آية سورة الأعراف في أخذ الذرية من ظهور بني آدم وإشهادهم على أنفسهم. فقال عمر: سمعت رسول الله يُسأل عنها، فقال: إن الله خلق آدم، ثم مسح ظهره بيمينه فاستخرج منه ذرية، فقال: خلقت هؤلاء للجنة وبعمل أهل الجنة يعملون، ثم مسح ظهره فاستخرج منه ذرية، فقال: خلقت هؤلاء للنار وبعمل أهل النار يعملون. فقال رجل: ففيم العمل؟ فقال النبي: إن الله إذا خلق العبد للجنة استعمله بعمل أهل الجنة حتى يموت على عمل من أعمالها فيُدخله به الجنة، وإذا خلق العبد للنار استعمله بعمل أهل النار. ويذكر المحقق أن الإسناد منقطع، لأن مسلم بن يسار لم يسمع من عمر، وأن بينهما نعيم بن ربيعة المجهول، وأن معنى الحديث صحيح في وجوه كثيرة. {cite:muwatta-maruf-1997 p.478} {cite:muwatta-maruf-1997 p.479}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2617 of kitab 31-jami at PDF p. 478", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b113" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qadar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-abi-unaysa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muslim-ibn-yasar-al-juhani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nuaym-ibn-rabia, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-7-172, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2617 at PDF p. 478; النهي عن القول بالقدر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b93" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نص الجواب غير واضح في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 478; matn excerpt at most 40 words" }
