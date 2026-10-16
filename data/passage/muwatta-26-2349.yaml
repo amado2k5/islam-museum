@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2349"
-label: { ar: "الموطأ 2349", en: "Muwatta 2349" }
+label: { ar: "الموطأ 2349 — مالك: حكم ولد كل ذات رحم بحسب حال أمه", en: "Muwatta 2349" }
 summary:
-  ar: "مالك: كل ذات رحم فولدها بمنزلتها: إن كانت حرة، فولدت بعد عتقها، فولدها... ؛ حكم الولد تابع لأمه في الحرية والرق؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: كل ذات رحم فولدها بمنزلتها. إن كانت حرة فولدت بعد عتقها فولدها أحرار، وإن كانت مدبرة أو مكاتبة أو معتقة إلى سنين أو مخدمة أو بعضها حر أو مرهونة أو أم ولد، فولد كل واحدة منهن على مثال حالها، يعتقون بعتقها ويرقون برقها. {cite:muwatta-maruf-1997 p.369}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-26-mudabbar }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2349 of kitab 26-mudabbar at PDF p. 369", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k26-batch-101b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tadbir, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/umm-walad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2349 at PDF p. 369; القضاء في ولد المدبرة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k26-b75" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 369; matn excerpt at most 40 words" }

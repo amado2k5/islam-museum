@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2356"
-label: { ar: "الموطأ 2356", en: "Muwatta 2356" }
+label: { ar: "الموطأ 2356 — مالك: ولد الأمة الموصى بعتقها غير المدبرة لا يعتق معها", en: "Muwatta 2356" }
 summary:
-  ar: "مالك: وكل ولد ولدته أمة، أُوصي بعتقها ولم تُدبر، فإن ولدها لا يعتقون م... ؛ حكم ولد الأمة الموصى بعتقها؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: وكل ولد ولدته أمة أوصي بعتقها ولم تدبر، فإن ولدها لا يعتقون معها إذا عتقت؛ لأن سيدها يغير وصيته إن شاء ويردها متى شاء، ولم تثبت لها عتاقة. وإنما هي بمنزلة رجل قال لجاريته: إن بقيت عندي فلانة حتى أموت فهي حرة. فإن أدركت ذلك كان لها، وإن شاء قبل ذلك باعها وولدها، لأنه لم يدخل ولدها في شيء مما جعل لها. {cite:muwatta-maruf-1997 p.371} {cite:muwatta-maruf-1997 p.372}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-26-mudabbar }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2356 of kitab 26-mudabbar at PDF p. 371", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k26-batch-101b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tadbir, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2356 at PDF p. 371; الوصية في التدبير", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k26-b75" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 371; matn excerpt at most 40 words" }

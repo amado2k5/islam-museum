@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2362"
-label: { ar: "الموطأ 2362", en: "Muwatta 2362" }
+label: { ar: "الموطأ 2362 — نافع عن ابن عمر: دبر جاريتين وكان يطؤهما", en: "Muwatta 2362" }
 summary:
-  ar: "مالك عن نافع: أن عبد الله بن عمر دبّر جاريتين له، فكان يطؤهما وهما مدبّرتان... ؛ وطء ابن عمر لمدبّرتيه؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن نافع أن عبد الله بن عمر دبر جاريتين له، فكان يطؤهما وهما مدبرتان. {cite:muwatta-maruf-1997 p.373}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-26-mudabbar }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2362 of kitab 26-mudabbar at PDF p. 373", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k26-batch-102a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tadbir, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2362 at PDF p. 373; مس الرجل وليدته إذا دبرها", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k26-b75" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 373; matn excerpt at most 40 words" }
