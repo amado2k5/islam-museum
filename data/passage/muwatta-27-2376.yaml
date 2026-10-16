@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2376"
-label: { ar: "الموطأ 2376", en: "Muwatta 2376" }
+label: { ar: "الموطأ 2376 — سعيد بن المسيب: النبي قال لهزال لو سترته برداءك", en: "Muwatta 2376" }
 summary:
-  ar: "مالك عن يحيى بن سعيد عن سعيد بن المسيب: أنه قال: بلغني أن رسول الله ﷺ قال لرجل... ؛ حديث في الحد أو الإقرار؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد عن سعيد بن المسيب أنه بلغه أن النبي قال لرجل من أسلم يقال له هزال: لو سترته برداءك لكان خيرا لك. ويذكر المحقق أن الحديث في رواية مالك مرسل عند جماعة من الرواة عنه، وأن طرقه الموصولة في الصحيحين من حديث أبي هريرة وجابر، وأن طرق قصة هزال الأخرى لا تصح عنده. {cite:muwatta-maruf-1997 p.381} {cite:muwatta-maruf-1997 p.382}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-27-hudud }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2376 of kitab 27-hudud at PDF p. 381", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k27-batch-102b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hazzal-al-aslami, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/rajm, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2376 at PDF p. 381; ما جاء في الرجم", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b76" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 381; matn excerpt at most 40 words" }
