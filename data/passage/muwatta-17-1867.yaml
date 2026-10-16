@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1867"
-label: { ar: "الموطأ 1867", en: "Muwatta 1867" }
+label: { ar: "الموطأ 1867 — مالك: بلغه أن صكوكا خرجت للناس في زمن مروان بن الحكم من طعام الجار، فتبايع الناس الصكوك قبل أن يستوفوها، فأنكر زيد بن ثابت ومعه صاحب للنبي، فبعث مروان الحرس لينتزعوا الصكوك", en: "Muwatta 1867" }
 summary:
-  ar: "مالك: بلغه أن صكوكًا خرجت للناس في زمان مروان بن الحكم من طعام الجار... ؛ قصة الصكوك وبيع الطعام؛ تفاصيل القصة غير واضحة."
+  ar: "قال مالك: بلغه أنه قد خرجت صكوك للناس في زمان مروان بن الحكم من طعام الجار، فتبايع الناس تلك الصكوك بينهم، قبل أن يستوفوها. فدخل زيد بن ثابت ورجل من أصحاب رسول الله على مروان بن الحكم، فقالا: أتحل بيع الربا يا مروان؟ فقال: أعوذ بالله، وما ذاك؟ فقالا: هذه الصكوك تبايعها الناس، ثم باعوها قبل أن يستوفوها. فبعث مروان الحرس يتبعونها، ينتزعونها من أيدي الناس، ويردونها إلى أهلها. {cite:muwatta-maruf-1997 p.168}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1867 of kitab 17-buyu at PDF p. 168", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-81" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-thabit, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/marwan-ibn-al-hakam, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1867 at PDF p. 168; العينة وما يشبهها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b47" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 168; matn excerpt at most 40 words" }

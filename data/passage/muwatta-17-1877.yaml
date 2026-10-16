@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1877"
-label: { ar: "الموطأ 1877", en: "Muwatta 1877" }
+label: { ar: "الموطأ 1877 — مالك: من أسلف في حنطة شامية فلا بأس أن يأخذ محمولة بعد محل الأجل، وكذلك من أسلف في صنف فلا بأس أن يأخذ خيرا أو أدنى بعد محل الأجل، إذا كانت مكيلة ذلك سواء", en: "Muwatta 1877" }
 summary:
-  ar: "مالك: من أسلف في حنطة شامية فلا بأس أن يأخذ حمولة بعد محل الأجل، وكذلك من أسلف... ؛ استيفاء السلم بعد الأجل؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: من أسلف في حنطة شامية فلا بأس أن يأخذ محمولة بعد محل الأجل. وكذلك من أسلف في صنف من الأصناف، فلا بأس أن يأخذ خيرا مما أسلف فيه، أو أدنى بعد محل الأجل. وتفسير ذلك: أن يسلف الرجل في حنطة محمولة، فلا بأس أن يأخذ شعيرا أو شامية. وإن أسلف في تمر عجوة، فلا بأس أن يأخذ صيحانيا أو جمعا. وإن أسلف في زبيب أحمر، فلا بأس أن يأخذ أسود، إذا كان ذلك كله بعد محل الأجل، إذا كانت مكيلة ذلك سواء بمثل كيل ما أسلف فيه. {cite:muwatta-maruf-1997 p.172}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1877 of kitab 17-buyu at PDF p. 172", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-82" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1877 at PDF p. 172; السلفة في الطعام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b47" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 172; matn excerpt at most 40 words" }
