@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2677"
-label: { ar: "الموطأ 2677", en: "Muwatta 2677" }
+label: { ar: "الموطأ 2677 — أبو المثنى الجهني: مروان يسأل أبا سعيد عن النهي عن النفخ في الشراب", en: "Muwatta 2677" }
 summary:
-  ar: "مروان بن الحكم يسأل أبا سعيد الخدري عما سمعه من النبي في النهي عن النفخ في الشراب."
+  ar: "يروي مالك عن أيوب بن حبيب مولى سعد بن أبي وقاص عن أبي المثنى الجهني أنه كان عند مروان بن الحكم، فدخل عليه أبو سعيد الخدري، فقال له مروان: أسمعت من رسول الله أنه نهى عن النفخ في الشراب؟ فقال أبو سعيد: نعم. فقال رجل: يا رسول الله، إني لا أروى من نفس واحد. فقال له النبي: فأبن القدح عن فيك ثم تنفس. قال: فإني أرى القذاة فيه. قال: فأهرقها. {cite:muwatta-maruf-1997 p.512} {cite:muwatta-maruf-1997 p.513}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2677 of kitab 31-jami at PDF p. 513", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b115" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/adab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ayyub-ibn-habib-mawla-said, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-muthanna-al-juhani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/marwan-ibn-al-hakam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2677 at PDF p. 512; النهي عن الشرب في آنية الفضة والنفخ في الشراب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b99" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 512; matn excerpt at most 40 words" }

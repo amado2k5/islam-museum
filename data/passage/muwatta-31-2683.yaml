@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2683"
-label: { ar: "الموطأ 2683", en: "Muwatta 2683" }
+label: { ar: "الموطأ 2683 — أبو حازم عن سهل بن سعد: الغلام يأبى أن يؤثر بنصيبه من النبي أحدا", en: "Muwatta 2683" }
 summary:
-  ar: "سهل بن سعد: أُتي النبي بشراب فشرب منه، وعن يمينه غلام وعن يساره الأشياخ، فاستأذن الغلام في إعطائهم، فأبى الغلام أن يؤثر بنصيبه من النبي أحدًا."
+  ar: "يروي مالك عن أبي حازم بن دينار عن سهل بن سعد الأنصاري أن رسول الله أُتي بشراب فشرب منه، وعن يمينه غلام، وعن يساره الأشياخ، فقال للغلام: أتأذن لي أن أعطي هؤلاء؟ فقال الغلام: لا والله يا رسول الله، لا أوثر بنصيبي منك أحدا. قال: فتله رسول الله في يده. {cite:muwatta-maruf-1997 p.515}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2683 of kitab 31-jami at PDF p. 515", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b115" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/adab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-hazim-ibn-dinar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sahl-ibn-sad-al-ansari, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2683 at PDF p. 515; السنة في الشرب ومناولته عن اليمين", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b99" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 515; matn excerpt at most 40 words" }
