@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "979"
-label: { ar: "الموطأ 979", en: "Muwatta 979" }
+label: { ar: "الموطأ 979 — صدقة بن يسار عن ابن عمر: لأن أعتمر قبل الحج وأهدي أحب إلي من أن أعتمر بعد الحج في ذي الحجة", en: "Muwatta 979" }
+text: "لأن أعتمر قبل الحج وأهدي أحب إلي من أن أعتمر بعد الحج في ذي الحجة"
 summary:
-  ar: "صدقة بن يسار عن ابن عمر: قال: والله لأن أعتمر قبل الحج... ؛ قول ابن عمر في تقديم العمرة على الحج."
+  ar: "يرويه مالك عن صدقة بن يسار عن عبد الله بن عمر، أنه قال: والله لأن أعتمر قبل الحج وأهدي أحب إلي من أن أعتمر بعد الحج في ذي الحجة. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1108) وسويد (519) والشافعي عند البيهقي. {cite:muwatta-maruf-1997 p.462}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 979 of kitab 06-hajj at PDF p. 462", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-44" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sadaqa-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 979 at PDF p. 462; ما جاء في التمتع", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 462; matn excerpt at most 40 words" }

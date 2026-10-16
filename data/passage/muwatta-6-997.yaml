@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "997"
-label: { ar: "الموطأ 997", en: "Muwatta 997" }
+label: { ar: "الموطأ 997 — نبيه بن وهب: عمر بن عبيد الله أرسل إلى أبان بن عثمان، وهو أمير الحاج، أنه يريد أن ينكح طلحة بنت شيبة، فأنكر أبان ذلك وقال: سمعت عثمان يقول: قال رسول الله: لا ينكح المحرم ولا ينكح ولا يخطب", en: "Muwatta 997" }
+text: "لا ينكح المحرم، ولا ينكح، ولا يخطب"
 summary:
-  ar: "نافع عن نبيه بن وهب أخي بني عبد الدار: أن عمر بن عبيد الله أرسل إليه... ؛ أثر في الإحرام؛ تفاصيل الواقعة غير واضحة."
+  ar: "يرويه مالك عن نافع عن نبيه بن وهب أخي بني عبد الدار، أن عمر بن عبيد الله أرسل إلى أبان بن عثمان، وأبان يومئذ أمير الحاج، وهما محرمان، أنه يريد أن ينكح طلحة بن عمر بنت شيبة بن جبير، ويريد أن يحضر أبان، فأنكر ذلك أبان وقال: سمعت عثمان بن عفان يقول: قال رسول الله: لا ينكح المحرم ولا ينكح ولا يخطب. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1177) وسويد (331 و565) وغيرهم. {cite:muwatta-maruf-1997 p.468}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 997 of kitab 06-hajj at PDF p. 468", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-45" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nubayh-ibn-wahb, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-ubaydallah-ibn-mamar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aban-ibn-uthman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 997 at PDF p. 468; نكاح المحرم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 468; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "985"
-label: { ar: "الموطأ 985", en: "Muwatta 985" }
+label: { ar: "الموطأ 985 — مالك: كل من انقطع إلى مكة من أهل الآفاق وسكنها ثم اعتمر في أشهر الحج ثم أنشأ الحج منها فليس بمتمتع، وهو بمنزلة أهل مكة", en: "Muwatta 985" }
 summary:
-  ar: "مالك: وكل من انقطع إلى مكة من أهل الآفاق وسكنها ثم اعتمر في أشهر الحج ثم أنشأ... ؛ حكم من سكن مكة فاعتمر في أشهر الحج."
+  ar: "قول لمالك: كل من انقطع إلى مكة من أهل الآفاق وسكنها، ثم اعتمر في أشهر الحج، ثم أنشأ الحج منها، فليس بمتمتع، وليس عليه هدي ولا صيام، وهو بمنزلة أهل مكة إذا كان من ساكنيها. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1117). {cite:muwatta-maruf-1997 p.464}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 985 of kitab 06-hajj at PDF p. 464", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-44" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 985 at PDF p. 464; ما لا يجب فيه التمتع", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b04" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 464; matn excerpt at most 40 words" }
