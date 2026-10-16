@@ -63,3 +63,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 8: 25 files (naroa.md … nuba.md), draft
 - work batch 6 (25 files, ihya-ulum-al-din … kitab-al-ayn): done by Claude Haiku 5.5, draft
 - person i–m batch 5 (25 files, ibn-barrajan-abd-al-salam … ibn-hayy-al-tujibi-al-hasan-ibn-muhammad) — Claude Haiku 5.5, draft
+- place m–z batch 9: 25 files (nughayra.md … qalari.md), draft
