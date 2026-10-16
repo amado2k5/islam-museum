@@ -39,3 +39,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person d–h batch 3 (Claude Haiku 5.5): 25 pages, farrukhbandadh → ghaylan-al-dimashqi (commit ac283e50)
 - work batch 4 (25 files, alf-layla-wa-layla … azhar-al-rawdatayn): done by Claude Haiku 5.5, draft
 - person d–h batch 4 (Claude Haiku 5.5): 25 pages, ghaylan-ibn-kharasha → hajib-ibn-zurara (commit 3e1b7dee)
+- person i–m batch 1 (25 files, ibn-aaisha-al-qurashi … ibn-al-abrash-khalaf) pushed to main — Claude Haiku 5.5, draft
