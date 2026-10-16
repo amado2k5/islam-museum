@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1053"
-label: { ar: "الموطأ 1053", en: "Muwatta 1053" }
+label: { ar: "الموطأ 1053 — مالك فيمن أهل بالحج من مكة ثم طاف وسعى ثم مرض فلم يستطع حضور الموقف: إذا فاته الحج خرج إلى الحل فدخل بعمرة وطاف وسعى لأن طوافه الأول لم ينوه للعمرة، وعليه حج قابل والهدي", en: "Muwatta 1053" }
 summary:
-  ar: "مالك فيمن أهل بالحج من مكة ثم طاف بالبيت وسعى بين الصفا والمروة ثم مرض فلم... ؛ حكم المريض بعد السعي؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك فيمن أهل بالحج من مكة، ثم طاف بالبيت وسعى بين الصفا والمروة، ثم مرض فلم يستطع أن يحضر مع الناس الموقف: قال: إذا فاته الحج فإنه إن استطاع خرج إلى الحل، فدخل بعمرة، فطاف بالبيت وسعى بين الصفا والمروة، لأن الطواف الأول لم يكن نواه للعمرة، وعليه حج قابل والهدي. ويذكر المحقق أن ما بعد ذلك في الصفحة 488 لمن كان من غير أهل مكة. ويذكر أنه رواه عن مالك أبو مصعب (1171). {cite:muwatta-maruf-1997 p.487} {cite:muwatta-maruf-1997 p.488}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1053 of kitab 06-hajj at PDF p. 487", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-47" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/mecca, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1053 at PDF p. 487; ما جاء فيمن أحصر بغير عدو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b06" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 487; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1060"
-label: { ar: "الموطأ 1060", en: "Muwatta 1060" }
+label: { ar: "الموطأ 1060 — هشام بن عروة عن أبيه: كان إذا طاف بالبيت يسعى الأشواط الثلاثة، يقول: وأنت تحيي بعد ما أمتا، اللهم لا إله إلا أنتا، يخفض صوته بذلك", en: "Muwatta 1060" }
 summary:
-  ar: "هشام بن عروة عن أبيه: كان إذا طاف بالبيت يسعى الأشواط الثلاثة... ؛ صفة الرمل في الأشواط الأولى."
+  ar: "يرويه مالك عن هشام بن عروة عن أبيه، أنه كان إذا طاف بالبيت يسعى الأشواط الثلاثة يقول: وأنت تحيي بعد ما أمتا، اللهم لا إله إلا أنتا، يخفض صوته بذلك. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1284) وسويد (542). {cite:muwatta-maruf-1997 p.490}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1060 of kitab 06-hajj at PDF p. 490", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-47" }
+  - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/tawaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1060 at PDF p. 490; الرمل في الطواف", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b06" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 490; matn excerpt at most 40 words" }

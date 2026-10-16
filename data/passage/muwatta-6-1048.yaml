@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1048"
-label: { ar: "الموطأ 1048", en: "Muwatta 1048" }
+label: { ar: "الموطأ 1048 — سليمان بن يسار: صُرع سعيد بن حزابة المخزومي ببعض طريق مكة وهو محرم، فسأل عمن يلي الماء، فوجد ابن عمر وابن الزبير ومروان، فأمروه أن يتداوى ويفتدي، فإذا صح اعتمر ثم عليه حج قابل والهدي", en: "Muwatta 1048" }
 summary:
-  ar: "يحيى بن سعيد عن سليمان بن يسار: أن سعيد بن حزابة المخزومي صُد... ؛ أثر في المصدود عن الحج؛ تفاصيل الواقعة غير واضحة."
+  ar: "يرويه مالك عن يحيى بن سعيد عن سليمان بن يسار أن سعيد بن حزابة المخزومي صُرع ببعض طريق مكة وهو محرم، فسأل عمن يلي على الماء، فوجد عبد الله بن عمر وعبد الله بن الزبير ومروان بن الحكم، فذكر لهم ما عرض له، فكلهم أمره أن يتداوى بما لا بد له منه ويفتدي، فإذا صح اعتمر وحل من إحرامه، ثم عليه حج قابل ويهدي ما استيسر. ويذكر المحقق أن هذا الحكم عند مالك في المحصر بغير عدو. {cite:muwatta-maruf-1997 p.486}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1048 of kitab 06-hajj at PDF p. 486", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-47" }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/marwan-ibn-al-hakam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/umrah, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hady, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1048 at PDF p. 486; ما جاء فيمن أحصر بغير عدو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b06" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 486; matn excerpt at most 40 words; doubt: سعيد بن حزابة: الاسم في الموطأ دون ترجمة في هذه الدفعة." }

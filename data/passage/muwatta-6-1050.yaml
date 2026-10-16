@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1050"
-label: { ar: "الموطأ 1050", en: "Muwatta 1050" }
+label: { ar: "الموطأ 1050 — مالك: كل من حُبس عن الحج بعد ما يحرم، إما بمرض أو بغيره، أو بخطأ من العدد، أو خفي عليه الهلال: فهو محصر، وعليه ما على المحصر", en: "Muwatta 1050" }
 summary:
-  ar: "مالك: وكل من حُبس عن الحج بعد ما يُحرم، إما بمرض أو بغيره، أو بخطأ من العدد... ؛ حكم من فاته الحج بعد الإحرام؛ الحكم يحتاج مراجعة."
+  ar: "قول لمالك: كل من حُبس عن الحج بعد ما يحرم، إما بمرض أو بغيره، أو بخطأ من العدد، أو خفي عليه الهلال، فهو محصر، وعليه ما على المحصر. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1168). {cite:muwatta-maruf-1997 p.487}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1050 of kitab 06-hajj at PDF p. 487", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-47" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1050 at PDF p. 487; ما جاء فيمن أحصر بغير عدو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b06" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 487; matn excerpt at most 40 words" }
