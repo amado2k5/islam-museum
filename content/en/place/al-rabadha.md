@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## Overview
-al-Rabadha: a place near Medina, according to the editors. Ibn Ishaq reports that Abu Dharr was exiled to it, and that his appointed end overtook him there. {cite:ibn-hisham-saqqa}
+al-Rabadha: a place near Medina, according to the editors. Ibn Ishaq reports that Abu Dharr was exiled to it, and that his appointed end overtook him there.
 
 ## Location
 Its approximate coordinates are 24.6319 N and 41.2906 E {cite:geonames-gazetteer}.
