@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1568"
-label: { ar: "الموطأ 1568", en: "Muwatta 1568" }
+label: { ar: "الموطأ 1568 — ابن شهاب: أم حكيم بنت الحارث بن هشام كانت تحت عكرمة بن أبي جهل، فأسلمت يوم الفتح، فلحقته باليمن ودعته إلى الإسلام، فأسلم، فثبتا على نكاحهما", en: "Muwatta 1568" }
 summary:
-  ar: "مالك عن ابن شهاب: أن أم حكيم بنت الحارث بن هشام، وكانت تحت عكرمة... ؛ قصة إسلام أم حكيم وزوجها؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن ابن شهاب أن أم حكيم بنت الحارث بن هشام، وكانت تحت عكرمة بن أبي جهل، أسلمت يوم الفتح، وهرب زوجها عكرمة من الإسلام حتى قدم اليمن، فارتحلت أم حكيم حتى قدمت عليه باليمن، فدعته إلى الإسلام، فأسلم، وقدم على رسول الله عام الفتح، فلما رآه رسول الله رحب به فرحا، حتى بايعه، فثبتا على نكاحهما ذلك. {cite:muwatta-maruf-1997 p.53}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1568 of kitab 14-nikah at PDF p. 53", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-68" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-hakim-bint-al-harith-ibn-hisham, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ikrima-ibn-abi-jahl, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/yemen, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1568 at PDF p. 53; نكاح المشرك إذا أسلمت زوجته قبله", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b33" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 53; matn excerpt at most 40 words" }

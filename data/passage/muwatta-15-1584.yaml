@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1584"
-label: { ar: "الموطأ 1584", en: "Muwatta 1584" }
+label: { ar: "الموطأ 1584 — ابن شهاب: كان مروان بن الحكم يقضي في الذي يطلق امرأته البتة أنها ثلاث تطليقات، وهذا أحب ما سمعه مالك", en: "Muwatta 1584" }
 summary:
-  ar: "ابن شهاب: أن مروان بن الحكم كان يقضي في الذي يطلق امرأته البتة... ؛ قضاء مروان في الطلاق البتة؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن ابن شهاب أن مروان بن الحكم كان يقضي في الذي يطلق امرأته البتة أنها ثلاث تطليقات. قال مالك وهذا أحب ما سمعت إلي في ذلك. {cite:muwatta-maruf-1997 p.60}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1584 of kitab 15-talaq at PDF p. 60", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-69" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/marwan-ibn-al-hakam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1584 at PDF p. 60; ما جاء في البتة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b34" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 60; matn excerpt at most 40 words" }

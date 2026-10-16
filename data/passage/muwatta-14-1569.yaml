@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1569"
-label: { ar: "الموطأ 1569", en: "Muwatta 1569" }
+label: { ar: "الموطأ 1569 — مالك: إذا أسلم الرجل قبل امرأته، وقعت الفرقة بينهما إذا عرض عليها الإسلام فلم تسلم، لقول الله لا تمسكوا بعصم الكوافر", en: "Muwatta 1569" }
 summary:
-  ar: "مالك: وإذا أسلم الرجل قبل امرأته وقعت الفرقة بينهما، إذا عُرض عليها الإسلام... ؛ حكم إسلام أحد الزوجين قبل الآخر؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك وإذا أسلم الرجل قبل امرأته وقعت الفرقة بينهما، إذا عرض عليها الإسلام فلم تسلم، لأن الله تعالى يقول في كتابه ولا تمسكوا بعصم الكوافر. {cite:muwatta-maruf-1997 p.53}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1569 of kitab 14-nikah at PDF p. 53", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-69" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1569 at PDF p. 53; نكاح المشرك إذا أسلمت زوجته قبله", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b33" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 53; matn excerpt at most 40 words" }

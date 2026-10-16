@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1565"
-label: { ar: "الموطأ 1565", en: "Muwatta 1565" }
+label: { ar: "الموطأ 1565 — ابن شهاب: بنت الوليد بن المغيرة أسلمت يوم الفتح وزوجها صفوان بن أمية هرب من الإسلام، فأرسل إليه النبي الأمان بردائه، فشهد حنينا وهو كافر وامرأته مسلمة حتى أسلم", en: "Muwatta 1565" }
 summary:
-  ar: "مالك: بلغه عن ابن شهاب أن نساءً كنّ في عهد رسول الله ﷺ يسلمن بأرض... ؛ حكم إسلام الزوجة قبل زوجها؛ تفاصيل الأثر غير واضحة."
+  ar: "يروي مالك عن ابن شهاب أنه بلغه أن نساء كن في عهد رسول الله أسلمن بأرضهن، وهن غير مهاجرات، وأزواجهن حين أسلمن كفار، منهن بنت الوليد بن المغيرة، وكانت تحت صفوان بن أمية، فأسلمت يوم الفتح، وهرب زوجها صفوان من الإسلام. فبعث إليه رسول الله ابن عمه وهب بن عمير بردائه أمانا لصفوان، ودعاه إلى الإسلام والقدوم عليه، فإن رضي أمرا قبله، وإلا سيره شهرين. فلما قدم صفوان على رسول الله ناداه على رؤوس الناس، فقال له رسول الله انزل أبا وهب، فقال لا والله حتى تبين لي، فقال بل لك تسيير أربعة أشهر. ثم خرج النبي إلى هوازن بحنين، فأرسل إلى صفوان يستعيره أداة وسلاحا عنده، فقال أطوعا أم كرها، فقال بل طوعا، فأعاره، ثم خرج معه وهو كافر فشهد حنينا والطائف، وامرأته مسلمة، ولم يفرق النبي بينهما حتى أسلم صفوان، فاستقرت عنده امرأته بذلك النكاح. ويذكر المحقق أن ابن عبد البر قال إن الحديث لا يتصل من وجه صحيح، وإن شهرته عند أهل السير أقوى من إسناده. {cite:muwatta-maruf-1997 p.52}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1565 of kitab 14-nikah at PDF p. 52", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-68" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/safwan-ibn-umayya, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/wahb-ibn-umayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/hunayn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-taif, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1565 at PDF p. 52; نكاح المشرك إذا أسلمت زوجته قبله", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b33" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 52; matn excerpt at most 40 words" }

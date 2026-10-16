@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1590"
-label: { ar: "الموطأ 1590", en: "Muwatta 1590" }
+label: { ar: "الموطأ 1590 — مالك: الرجل يقول لامرأته أنت خلية أو برية أو بائنة، إنها ثلاث تطليقات للتي دخل بها، ويدين في التي لم يدخل بها", en: "Muwatta 1590" }
 summary:
-  ar: "مالك في الرجل يقول لامرأته: أنت خلية أو برية أو بائنة: إنها ثلاث تطليقات... ؛ حكم الطلاق بألفاظ الكناية؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك في الرجل يقول لامرأته أنت خلية أو برية أو بائنة، إنها ثلاث تطليقات للمرأة التي قد دخل بها، ويدين في التي لم يدخل بها، أواحدة أراد أم ثلاثا. فإن قال واحدة أحلف على ذلك، وكان خاطبا من الخطاب، لأنه لا يخلي المرأة التي قد دخل بها زوجها ولا يبينها ولا يبريها إلا ثلاث تطليقات، والتي لم يدخل بها تخليها وتبريها وتبينها الواحدة. قال مالك وهذا أحسن ما سمعت في ذلك. {cite:muwatta-maruf-1997 p.61}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1590 of kitab 15-talaq at PDF p. 61", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-69" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1590 at PDF p. 61; ما جاء في الخلية والبرية وأشباه ذلك", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b34" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 61; matn excerpt at most 40 words" }

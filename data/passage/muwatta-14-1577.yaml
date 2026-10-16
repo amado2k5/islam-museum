@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1577"
-label: { ar: "الموطأ 1577", en: "Muwatta 1577" }
+label: { ar: "الموطأ 1577 — ربيعة بن أبي عبد الرحمن: القاسم بن محمد وعروة بن الزبير قالا في الرجل عنده أربع نسوة فيطلق إحداهن البتة إنه يتزوج إن شاء ولا ينتظر انقضاء عدتها", en: "Muwatta 1577" }
 summary:
-  ar: "ربيعة بن أبي عبد الرحمن: أن القاسم بن محمد وعروة بن الزبير كانا... ؛ أثر في النكاح أو الخطبة؛ تفاصيل الأثر غير واضحة."
+  ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن أن القاسم بن محمد وعروة بن الزبير كانا يقولان في الرجل يكون عنده أربع نسوة، فيطلق إحداهن البتة، إنه يتزوج إن شاء، ولا ينتظر أن تنقضي عدتها. {cite:muwatta-maruf-1997 p.57}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1577 of kitab 14-nikah at PDF p. 57", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-69" }
+  - { type: mentions, target: person/rabia-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1577 at PDF p. 57; جامع النكاح", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b33" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 57; matn excerpt at most 40 words" }
