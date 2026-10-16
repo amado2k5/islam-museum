@@ -5,10 +5,14 @@ work: work/muwatta-malik
 ref: "kitab-5"
 label: { ar: "الموطأ، كتاب الاعتكاف", en: "Muwatta, Book of Seclusion (i'tikaf)" }
 summary:
-  ar: "كتاب الاعتكاف في الموطأ، المجلد الأول، يبدأ في صفحة 419 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Seclusion (i'tikaf) in the Muwatta, volume 1, starting at PDF page 419 (PDF numbering, not the printed page)."
+  ar: "كتاب الاعتكاف، الكتاب الخامس من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997): 32 نصاً (866–897) في عشرة أبواب، من الصفحة 419 إلى الصفحة 431 من ملف PDF المجلد الأول. يبدأ بذكر الاعتكاف وما يُجتنب فيه، ثم اشتراط الصيام، والخروج للعيد وقضاء الاعتكاف، وما يحل للمعتكف ويحرم عليه، ويختم بليلة القدر. {cite:muwatta-maruf-1997 p.419} {cite:muwatta-maruf-1997 p.431}"
+  en: "The Book of I'tikaf, fifth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997): 32 reports (866–897) in ten babs, PDF pp. 419–431 of volume 1, from the rules of retreat and what is forbidden to the retreatant to Laylat al-Qadr."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 419", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/itikaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/laylat-al-qadr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab al-itikaf, PDF pp. 419–431", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k5-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }
