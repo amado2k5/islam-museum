@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1534"
-label: { ar: "الموطأ 1534", en: "Muwatta 1534" }
+label: { ar: "الموطأ 1534 — عبد الله بن عباس وعبد الله بن عمر: سئلا عن رجل تحته امرأة حرة فأراد أن ينكح عليها أمة، فكرها أن يجمع بينهما", en: "Muwatta 1534" }
 summary:
-  ar: "يحيى عن مالك: بلغه أن عبد الله بن عباس وعبد الله بن عمر سُئلا عن رجل كان... ؛ فتوى في نكاح أو عدة؛ تفاصيل الفتوى غير واضحة."
+  ar: "يروي مالك أنه بلغه أن عبد الله بن عباس وعبد الله بن عمر سئلا عن رجل كانت تحته امرأة حرة، فأراد أن ينكح عليها أمة، فكرها أن يجمع بينهما. {cite:muwatta-maruf-1997 p.43}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1534 of kitab 14-nikah at PDF p. 43", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-67" }
+  - { type: mentions, target: person/abdullah-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1534 at PDF p. 43; نكاح الأمة على الحرة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b31" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الفتوى غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 43; matn excerpt at most 40 words" }

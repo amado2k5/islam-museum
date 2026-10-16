@@ -1,0 +1,15 @@
+id: passage/muwatta-14-1544
+class: passage
+unit: hadith
+work: work/muwatta-malik
+ref: "14.1544"
+label: { ar: "الموطأ 1544 — مالك: بلغه عن الزبير بن العوام مثل ذلك", en: "Muwatta 1544" }
+summary:
+  ar: "بلغ مالكا عن الزبير بن العوام مثل ذلك. {cite:muwatta-maruf-1997 p.46}"
+relations:
+  - { type: part_of, target: passage/muwatta-kitab-14-nikah }
+  - { type: mentions, target: person/zubayr-ibn-al-awwam, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1544 at PDF p. 46; ما جاء في كراهية إصابة الأختين بملك اليمين، والمرأة وابنتها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b32" }
+sources: [source/muwatta-maruf-1997]
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 46; matn excerpt at most 40 words" }

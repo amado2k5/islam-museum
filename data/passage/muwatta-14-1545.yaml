@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1545"
-label: { ar: "الموطأ 1545", en: "Muwatta 1545" }
+label: { ar: "الموطأ 1545 — مالك: الأمة عند الرجل فيصيبها ثم يريد أن يصيب أختها، لا تحل له حتى يحرم عليه فرج أختها بنكاح أو عتاقة أو كتابة", en: "Muwatta 1545" }
 summary:
-  ar: "مالك في الأمة تكون عند الرجل فيصيبها ثم يريد أن يصيب أختها: إنها لا تح... ؛ تحريم الجمع بين الأمة وأختها بالوطء؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك في الأمة تكون عند الرجل فيصيبها، ثم يريد أن يصيب أختها، إنها لا تحل له حتى يحرم عليه فرج أختها بنكاح أو عتاقة أو كتابة أو ما أشبه ذلك، أو يزوجها عبده أو غير عبده. {cite:muwatta-maruf-1997 p.46}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1545 of kitab 14-nikah at PDF p. 46", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-68" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1545 at PDF p. 46; ما جاء في كراهية إصابة الأختين بملك اليمين، والمرأة وابنتها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b32" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 46; matn excerpt at most 40 words" }

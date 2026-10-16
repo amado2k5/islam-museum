@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1519"
-label: { ar: "الموطأ 1519", en: "Muwatta 1519" }
+label: { ar: "الموطأ 1519 — مالك في المحلل: لا يقيم على نكاحه ذلك حتى يستقبل نكاحا جديدا، فإن أصابها فلها مهرها", en: "Muwatta 1519" }
 summary:
-  ar: "مالك في المحلِّل: إنه لا يقيم على نكاحه ذلك حتى يستقبل نكاحًا جديدًا... ؛ حكم نكاح التحليل؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك في المحلل إنه لا يقيم على نكاحه ذلك، حتى يستقبل نكاحا جديدا، فإن أصابها فلها مهرها. {cite:muwatta-maruf-1997 p.38}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1519 of kitab 14-nikah at PDF p. 38", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-66" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1519 at PDF p. 38; نكاح المحلل وما أشبهه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b31" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 38; matn excerpt at most 40 words" }

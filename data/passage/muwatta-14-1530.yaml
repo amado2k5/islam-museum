@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1530"
-label: { ar: "الموطأ 1530", en: "Muwatta 1530" }
+label: { ar: "الموطأ 1530 — خنساء بنت خدام الأنصارية: أبوها زوجها وهي ثيب فكرهت ذلك، فأتت النبي فرد نكاحه", en: "Muwatta 1530" }
 summary:
-  ar: "يحيى عن مالك عن عبد الرحمن بن القاسم عن أبيه عن عبد الرحمن ومجمع ابني يزيد بن جارية: حديث في النكاح؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن عبد الرحمن بن القاسم عن أبيه عن عبد الرحمن ومجمع ابني يزيد بن جارية الأنصاري عن خنساء بنت خدام الأنصارية أن أباها زوجها وهي ثيب، فكرهت ذلك، فأتت رسول الله فرد نكاحه. {cite:muwatta-maruf-1997 p.41}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1530 of kitab 14-nikah at PDF p. 41", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-67" }
+  - { type: mentions, target: person/khansa-bint-khidam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-qasim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1530 at PDF p. 41; جامع ما لا يجوز من النكاح", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b31" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 41; matn excerpt at most 40 words" }

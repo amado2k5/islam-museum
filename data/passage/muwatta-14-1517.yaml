@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1517"
-label: { ar: "الموطأ 1517", en: "Muwatta 1517" }
+label: { ar: "الموطأ 1517 — يحيى بن سعيد عن القاسم بن محمد عن عائشة: سئلت عن رجل طلق امرأته البتة فتزوجها آخر فطلقها قبل أن يمسها، فقالت لا حتى يذوق عسيلتها", en: "Muwatta 1517" }
+text: "حَتَّى يَذُوقَ عُسَيْلَتها"
 summary:
-  ar: "يحيى بن سعيد عن القاسم بن محمد عن عائشة زوج النبي ﷺ: أنها سُئلت... ؛ جواب عائشة في مسألة نكاح؛ تفاصيل الجواب غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد عن القاسم بن محمد عن عائشة زوج النبي أنها سئلت عن رجل طلق امرأته البتة، فتزوجها رجل آخر، فطلقها قبل أن يمسها، هل يصلح لزوجها الأول أن يتزوجها؟ فقالت عائشة لا، حتى يذوق عسيلتها. ويذكر المحقق أن ابن وهب وصله عن المسور عن الزبير عن أبيه، وأن النسائي رجح المرسل، وأن الزبير مجهول، وأن القصة في الصحيحين من حديث عروة عن عائشة. {cite:muwatta-maruf-1997 p.37}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1517 of kitab 14-nikah at PDF p. 37", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-66" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1517 at PDF p. 37; نكاح المحلل وما أشبهه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b31" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الجواب غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 37; matn excerpt at most 40 words" }

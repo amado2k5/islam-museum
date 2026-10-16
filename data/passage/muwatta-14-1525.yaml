@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1525"
-label: { ar: "الموطأ 1525", en: "Muwatta 1525" }
+label: { ar: "الموطأ 1525 — مالك: إذا تزوج الرجل المرأة ثم نكح أمها فأصابها، فالأم لا تحل له أبدا، ولا لأبيه ولا لابنه، وتحرم عليه امرأته", en: "Muwatta 1525" }
 summary:
-  ar: "مالك في الرجل يتزوج المرأة ثم ينكح أمها فيصيبها: إنه لا تحل له أ... ؛ تحريم الجمع بين المرأة وأمها بالوطء؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك في الرجل يتزوج المرأة، ثم ينكح أمها فيصيبها، إنه لا تحل له أمها أبدا، ولا تحل لأبيه ولا لابنه، ولا تحل له ابنتها، وتحرم عليه امرأته. {cite:muwatta-maruf-1997 p.40}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1525 of kitab 14-nikah at PDF p. 40", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-67" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1525 at PDF p. 40; ما لا يجوز من نكاح الرجل أم امرأته", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b31" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 40; matn excerpt at most 40 words" }

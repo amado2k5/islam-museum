@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1523"
-label: { ar: "الموطأ 1523", en: "Muwatta 1523" }
+label: { ar: "الموطأ 1523 — مالك عن غير واحد: استفتي ابن مسعود بالكوفة في نكاح الأم بعد الابنة، فأرخص، فلما قدم المدينة أخبر أنه ليس كما قال، فرجع فأمر الرجل بفراق امرأته", en: "Muwatta 1523" }
 summary:
-  ar: "مالك عن غير واحد: أن عبد الله بن مسعود استُفتي وهو بالكوفة عن نكاح الأ... ؛ فتوى ابن مسعود في النكاح؛ تفاصيل الفتوى غير واضحة."
+  ar: "يروي مالك عن غير واحد أن عبد الله بن مسعود استفتي وهو بالكوفة عن نكاح الأم بعد الابنة، إذا لم تكن الابنة مسته، فأرخص في ذلك. ثم قدم المدينة فسأل عن ذلك، فأخبر أنه ليس كما قال، وإنما الشرط في الربائب، فرجع إلى الكوفة، فلم يصل إلى منزله حتى أتى الرجل الذي أفتاه بذلك، فأمره أن يفارق امرأته. {cite:muwatta-maruf-1997 p.39}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1523 of kitab 14-nikah at PDF p. 39", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-67" }
+  - { type: mentions, target: person/abdullah-ibn-masud, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1523 at PDF p. 39; ما لا يجوز من نكاح الرجل أم امرأته", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b31" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الفتوى غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 39; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1543"
-label: { ar: "الموطأ 1543", en: "Muwatta 1543" }
+label: { ar: "الموطأ 1543 — قبيصة بن ذؤيب: سأل رجل عثمان بن عفان عن الأختين من ملك اليمين، فقال أحلتهما آية وحرمتهما آية، فأما أنا فلا أحب أن أصنع ذلك", en: "Muwatta 1543" }
 summary:
-  ar: "ابن شهاب عن قبيصة بن ذؤيب: أن رجلًا سأل عثمان بن عفان عن الأخ... ؛ فتوى عثمان في الأخ والميراث أو النكاح؛ تفاصيل الفتوى غير واضحة."
+  ar: "يروي مالك عن ابن شهاب عن قبيصة بن ذؤيب أن رجلا سأل عثمان بن عفان عن الأختين من ملك اليمين، هل يجمع بينهما؟ فقال عثمان أحلتهما آية، وحرمتهما آية، فأما أنا فلا أحب أن أصنع ذلك. فخرج الرجل فلقي رجلا من أصحاب رسول الله فسأله، فقال لو كان لي من الأمر شيء، ثم وجدت أحدا فعله، لجعلته نكالا. قال ابن شهاب أراه علي بن أبي طالب. {cite:muwatta-maruf-1997 p.45}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1543 of kitab 14-nikah at PDF p. 45", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-67" }
+  - { type: mentions, target: person/qabisa-ibn-dhuayb, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1543 at PDF p. 45; ما جاء في كراهية إصابة الأختين بملك اليمين، والمرأة وابنتها", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b32" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الفتوى غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 45; matn excerpt at most 40 words" }

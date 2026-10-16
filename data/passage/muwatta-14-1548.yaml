@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1548"
-label: { ar: "الموطأ 1548", en: "Muwatta 1548" }
+label: { ar: "الموطأ 1548 — يحيى بن سعيد: أبو نهشل بن الأسود قال للقاسم بن محمد رأيت جاريتي منكشفا عنها فجلست منها مجلس الرجل من امرأته، فنهاه القاسم", en: "Muwatta 1548" }
 summary:
-  ar: "يحيى بن سعيد: أن أبا نهشل بن الأسود قال للقاسم بن محمد: إني رأيت... ؛ مسألة في وطء الأمة؛ تفاصيل المسألة غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد أن أبا نهشل بن الأسود قال للقاسم بن محمد إني رأيت جارية لي منكشفا عنها، وهي في القمر، فجلست منها مجلس الرجل من امرأته، فقالت إني حائض، فنهضت فلم أقربها بعد، أفأهبها لابني يطؤها؟ فنهاه القاسم عن ذلك. {cite:muwatta-maruf-1997 p.47}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1548 of kitab 14-nikah at PDF p. 47", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-68" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-nahshal-ibn-al-aswad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1548 at PDF p. 47; النهي أن يصيب الرجل أمة كانت لأبيه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k14-b32" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المسألة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 47; matn excerpt at most 40 words" }
