@@ -55,3 +55,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - correction to the lines above: batch 2 covers dirar-ibn-damra → farqad-al-sanji; batch 5 covers hakim-ibn-jabala → harb-ibn-abdallah-al-balkhi (commit e0890fee)
 - person i–m batch 2 (25 files, ibn-al-aftas … ibn-al-faras-qahtani) pushed to main — Claude Haiku 5.5, draft
 - person i–m batch 3 (25 files, ibn-al-habbar … ibn-al-nahhas-al-dimashqi) pushed to main — Claude Haiku 5.5, draft
+- place m–z batch 7: 25 files (nahr-barada.md … narand.md), draft
