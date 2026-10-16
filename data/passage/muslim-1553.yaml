@@ -1,0 +1,17 @@
+id: passage/muslim-1553
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1553"
+label: { ar: "مسلم 1553 — ما من مسلم يغرس غرساً فيأكل منه طير أو إنسان أو بهيمة إلا كان له به صدقة", en: "Muslim 1553 — Every Muslim who plants or sows and is eaten from it earns charity" }
+text: "قال رسول الله: «ما من مسلم يغرس غرساً أو يزرع زرعاً فيأكل منه طير أو إنسان أو بهيمة إلا كان له به صدقة»"
+summary:
+  ar: "رواية أنس بن مالك في باب فضل الغرس من كتاب المساقاة في صحيح مسلم، وروى جابر نظائرها ومنها حديث أم مبشر الأنصارية؛ يجعل الزرع والغرس صدقة جارية تتعدى نفعها إلى الطير والدابة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/jabir-ibn-abdullah, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/sadaqa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب المساقاة، باب فيمن غرس غرساً (طبعة دار التأصيل، الحديثان ١٥٨٦–١٥٨٧؛ ترقيم عبد الباقي المعروف 1553)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

@@ -1,0 +1,16 @@
+id: passage/muslim-2563
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2563"
+label: { ar: "مسلم 2563 — إياكم والظن فإن الظن أكذب الحديث", en: "Muslim 2563 — Beware suspicion, for suspicion is the falsest speech" }
+text: "قال رسول الله: «إياكم والظن؛ فإن الظن أكذب الحديث، ولا تحسسوا ولا تجسسوا ولا تنافسوا ولا تحاسدوا ولا تباغضوا ولا تدابروا، وكونوا عباد الله إخواناً»"
+summary:
+  ar: "رواية أبي هريرة عن مالك عن الأعرج في باب تحريم الظن والتجسس من كتاب البر في صحيح مسلم؛ أصل من أصول آداب المجتمع في تحريم سوء الظن والتجسس."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ukhuwwa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب تحريم الظن والتجسس والتنافس (طبعة دار التأصيل، الحديث ٢٦٤٥؛ ترقيم عبد الباقي المعروف 2563)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
