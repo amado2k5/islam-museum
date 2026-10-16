@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2470"
-label: { ar: "الموطأ 2470", en: "Muwatta 2470" }
+label: { ar: "الموطأ 2470 — مالك: الجرح خطأ لا يُعقل حتى يبرأ المجروح ويصح", en: "Muwatta 2470" }
 summary:
-  ar: "مالك: الأمر المجتمع عليه عندهم في الخطأ أنه لا يُعقل حتى يبرأ الـ... ؛ شرط استحقاق الدية في الخطأ؛ الحكم يحتاج مراجعة."
+  ar: "حدث مالك أن الأمر المجتمع عليه عندهم في الخطأ أنه لا يُعقل حتى يبرأ المجروح ويصح. فإذا كُسر عظم من الإنسان، يد أو رجل أو غير ذلك من الجسد، خطأ، فبرئ وعاد لهيئته، فليس فيه عقل، وإن نقص أو كان فيه عثل ففيه من العقل بحساب ما نقص منه. وما ورد فيه عن النبي عقل مسمى فبحسابه، وما لم يرد فيه عقل مسمى ولا سنة فيُجتهد فيه. {cite:muwatta-maruf-1997 p.421}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2470 of kitab 29-uqul at PDF p. 421", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k29-batch-106b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2470 at PDF p. 421; عقل الجراح في الخطأ", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b83" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 421; matn excerpt at most 40 words" }

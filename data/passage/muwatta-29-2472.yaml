@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2472"
-label: { ar: "الموطأ 2472", en: "Muwatta 2472" }
+label: { ar: "الموطأ 2472 — مالك: الطبيب إذا ختن فقطع الحشفة عليه العقل", en: "Muwatta 2472" }
 summary:
-  ar: "يحيى عن مالك عن يحيى بن سعيد عن سعيد بن المسيب: أنه كان يقول: تُعاقل المرأة... ؛ عقل المرأة مع العاقلة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر المجتمع عليه عندنا أن الطبيب إذا ختن فقطع الحشفة، إن عليه العقل، وأن ذلك من الخطأ الذي تحمله العاقلة، وأن كل ما أخطأ به الطبيب أو تعدى، إذا لم يتعمد ذلك، ففيه العقل. {cite:muwatta-maruf-1997 p.422}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2472 of kitab 29-uqul at PDF p. 422", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k29-batch-106b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2472 at PDF p. 422; عقل المرأة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b83" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 422; matn excerpt at most 40 words" }

@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2477"
-label: { ar: "الموطأ 2477", en: "Muwatta 2477" }
+label: { ar: "الموطأ 2477 — مالك: المرأة إذا كان زوجها وولدها من غير عصبتها لا يعقلون عنها", en: "Muwatta 2477" }
 summary:
-  ar: "مالك في المرأة يكون لها زوج وولد من غير عصبتها ولا قومها: فليس على زوج... ؛ من يعقل عن المرأة ومسؤولية الزوج؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في المرأة يكون لها زوج وولد من غير عصبتها ولا قومها: فليس على زوجها إذا كان من قبيلة أخرى من عقل جنايتها شيء، ولا على ولدها إذا كانوا من غير قومها، ولا على إخوتها من أمها إذا كانوا من غير عصبتها ولا قومها. فهؤلاء أحق بميراثها، والعصبة عليهم العقل. وكذلك موالي المرأة ميراثهم لولد المرأة، وإن كانوا من غير قبيلتها، وعقل جناية الموالي على قبيلتها. {cite:muwatta-maruf-1997 p.423}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2477 of kitab 29-uqul at PDF p. 423", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k29-batch-107" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2477 at PDF p. 423; عقل المرأة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b83" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 423; matn excerpt at most 40 words" }

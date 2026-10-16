@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2480"
-label: { ar: "الموطأ 2480", en: "Muwatta 2480" }
+label: { ar: "الموطأ 2480 — ربيعة: الغرة تقوم خمسين دينارا أو ست مئة درهم، وعشر دية الحرة", en: "Muwatta 2480" }
 summary:
-  ar: "مالك عن ربيعة بن أبي عبد الرحمن: أنه كان يقول: الغرة تُقوَّم خمسين دينارًا... ؛ تقويم الغرة في دية الجنين؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن أنه كان يقول: الغرة تُقوَّم خمسين دينارا أو ست مئة درهم، ودية المرأة الحرة المسلمة خمس مئة دينار أو ستة آلاف درهم. قال مالك: فدية جنين الحرة عشر ديتها، والعشر خمسون دينارا أو ست مئة درهم. {cite:muwatta-maruf-1997 p.424} {cite:muwatta-maruf-1997 p.425}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2480 of kitab 29-uqul at PDF p. 424", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k29-batch-107" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabiah-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghurra, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2480 at PDF p. 424; عقل الجنين", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b83" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 424; matn excerpt at most 40 words" }

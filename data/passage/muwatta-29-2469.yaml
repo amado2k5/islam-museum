@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2469"
-label: { ar: "الموطأ 2469", en: "Muwatta 2469" }
+label: { ar: "الموطأ 2469 — مالك: القاتل خطأ عقله مال لا قود فيه ويجوز في ثلثه", en: "Muwatta 2469" }
 summary:
-  ar: "مالك: ومن قتل خطأ فإنما عقله مال، لا قود فيه، وإنما هو كغيره من ماله... ؛ دية القتل الخطأ وأنها مال؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: من قتل خطأ فإنما عقله مال لا قود فيه، وإنما هو كغيره من ماله يُقضى به دينه، وتُجوز فيه وصيته. فإن كان له مال تكون الدية قدر ثلثه، ثم عفي عن ديته، فذلك جائز له. وإن لم يكن له مال غير ديته جاز له من ذلك الثلث إذا عفي عنه وأوصى به. {cite:muwatta-maruf-1997 p.420} {cite:muwatta-maruf-1997 p.421}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-29-uqul }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2469 of kitab 29-uqul at PDF p. 420", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k29-batch-106b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2469 at PDF p. 420; دية الخطأ في القتل", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b83" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 420; matn excerpt at most 40 words" }
