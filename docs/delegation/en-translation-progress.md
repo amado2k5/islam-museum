@@ -93,3 +93,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place m–z batch 15: 25 files (rudis.md … safru.md), draft
 - person a–c, batch 2 (abd-al-hamid-ii-uthmani … abd-al-qadir-al-baghdadi): 25 pages, draft (Claude Haiku 5.5).
 - person s–z batch 6 (Claude Code, claude-haiku-5-5): sayf-al-islam-tughrakin … shams-al-din-ildigiz, 25 files, 25 files.
+- person i–m batch 11 (25 files, irbili-ahmad-ibn-musa … ishaq-ibn-ali-murabiti) — Claude Haiku 5.5, draft
