@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2610"
-label: { ar: "الموطأ 2610", en: "Muwatta 2610" }
+label: { ar: "الموطأ 2610 — أسلم مولى عمر: عمر يستحسن النبيذ ويعاتب عبد الله بن عياش على تفضيل مكة", en: "Muwatta 2610" }
 summary:
-  ar: "أسلم مولى عمر زار عبد الله بن عياش المخزومي فرأى عنده نبيذًا بطريق مكة، فذكر له أن عمر يحب هذا الشراب."
+  ar: "يروي مالك عن يحيى بن سعيد عن عبد الرحمن بن القاسم أن أسلم مولى عمر بن الخطاب أخبره أنه زار عبد الله بن عياش المخزومي فرأى عنده نبيذا وهو بطريق مكة، فقال له أسلم: إن هذا الشراب يحبه عمر بن الخطاب، فحمل عبد الله قدحا عظيما إلى عمر، فشرب منه وقال: إن هذا لشراب طيب. ثم ناداه عمر وسأله: أأنت القائل إن مكة خير من المدينة؟ فقال: هي حرم الله وأمنه وفيها بيته. فقال عمر: لا أقول في بيت الله ولا في حرمه شيئا، ثم انصرف. {cite:muwatta-maruf-1997 p.472}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2610 of kitab 31-jami at PDF p. 472", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b112" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-al-qasim, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aslam-mawla-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-ayyash-ibn-abi-rabia, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/makkah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/al-madina, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2610 at PDF p. 472; جامع ما جاء في أمر المدينة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b91" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نهاية الخبر غير واضحة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 472; matn excerpt at most 40 words" }
