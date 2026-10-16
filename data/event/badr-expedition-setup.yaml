@@ -1,0 +1,31 @@
+id: event/badr-expedition-setup
+class: event
+kind: campaign
+label: { ar: "التعبئة قبل بدر: عير أبي سفيان ونفير مكة وخروج النبي", en: "The build-up to Badr: Abu Sufyan's caravan, Mecca's muster and the Prophet's march" }
+summary:
+  ar: "خرج النبي في السنة الثانية للهجرة طلباً لعير أبي سفيان العائدة من الشام، فاستنفرت قريش نفيرها ليحموا عيرهم، ومضى الجيشان نحو بدر؛ وانسحب أبو سفيان بالعير إلى الساحل، فرجع بنو زهرة بقيادة الأخنس بن شريق، وسار جيش مكة نحو بدر، فاستكشف النبي أمرهم بالغلامين وبالشيخ."
+  en: "In Ramadan of the second year of the Hijra the Prophet set out to intercept Abu Sufyan's caravan returning from Syria; Quraysh mustered to defend it, and the two armies moved towards Badr; Abu Sufyan turned the caravan to the coast, Banu Zuhra withdrew under al-Akhnas ibn Shariq, and the Meccan army pressed on to Badr, where the Prophet learned their numbers from two water-carriers."
+wings: [time, people, place]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0624-03~", calendar: julian, precision: month, status: tradition, note: "السنة الثانية للهجرة؛ يفصل الكتاب الشهر في موضع لاحق (الرحيق ص204)." }
+relations:
+  - { type: occurred_at, target: place/badr, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "صاحب العير", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "قائد جيش مكة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/al-akhnas-ibn-shariq, role: "رجع ببني زهرة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/musab-ibn-umayr, role: "حامل لواء المهاجرين والقيادة العامة", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/ali-ibn-abi-talib, role: "حامل لواء كتيبة المهاجرين", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/sad-ibn-muadh, role: "حامل لواء كتيبة الأنصار", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/battle-of-badr, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص204–211 نقلاً عن ابن هشام 1/606–630 وزاد المعاد 2/85–90"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-14a"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 204–211" }
