@@ -26,3 +26,7 @@ translators: []
 
 ## كفالة ابن أخيه (الرحيق المختوم ص58)
 عهد إليه [[person/abd-al-muttalib|عبد المطلب]] قبل وفاته بكفالة حفيده محمد، وهو شقيق أبيه عبد الله {cite:mubarakpuri-raheeq p.58} {cite:talqih-fuhum-ahl-al-athr p.7} {cite:ibn-hisham-sira 1/169}. فنهض بحق ابن أخيه على أكمل وجه، وضمّه إلى ولده وقدّمه عليهم واختصه بفضل احترام وتقدير، وظل فوق أربعين سنة يعزّ جانبه ويبسط عليه حمايته ويصادق ويخاصم من أجله ([[event/death-of-abd-al-muttalib|وفاة عبد المطلب وكفالة أبي طالب]]) {cite:mubarakpuri-raheeq p.58}. ومن أخبار تلك الكفالة ما يرويه ابن عساكر من استسقائه بالغلام حين أقحط الوادي ([[event/istisqa-abi-talib-bi-al-nabi|الاستسقاء]])، وإليه أشار في شعره بالأبيض الذي يُستسقى الغمام بوجهه {cite:mubarakpuri-raheeq p.58} {cite:mukhtasar-sirat-al-rasul-al-najdi p.15-16}.
+
+
+## حين رأى النبي وعلياً يصليان (الرحيق المختوم ص77)
+ذكر ابن هشام أن أبا طالب رأى النبي و[[person/ali-ibn-abi-talib|علياً]] يصليان مرة في أيام [[event/al-dawa-al-sirriyya|الدعوة السرية]] فكلّمهما في ذلك، فلما عرف جلية الأمر أمرهما بالثبات {cite:mubarakpuri-raheeq p.77} {cite:ibn-hisham-sira 1/247}.

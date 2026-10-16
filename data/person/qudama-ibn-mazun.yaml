@@ -1,0 +1,31 @@
+id: person/qudama-ibn-mazun
+class: person
+label: { ar: "قدامة بن مظعون", en: "Qudama ibn Mazun" }
+names:
+  - { kind: full, lang: ar, value: "قدامة بن مظعون الجمحي" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "من أوائل المسلمين في الدعوة السرية؛ يذكره الرحيق المختوم أخاً لعثمان بن مظعون أسلم معه."
+  en: "One of the earliest Muslims of the secret call; al-Raheeq al-Makhtum names him as a brother of Uthman ibn Mazun who embraced Islam with him."
+wings: [people]
+themes: [converts-and-leavers]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: convert, status: tradition, note: "من السابقين الأولين في عدّ الرحيق المختوم ص76.", sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
+faith:
+  - { value: sunni, basis: tradition, note: "من أوائل المسلمين؛ يُسجَّل ضمن الإطار السني للمتحف (docs/scope.md)." }
+relations:
+  - { type: sibling_of, target: person/uthman-ibn-mazun, sources: [source/mubarakpuri-raheeq] }
+  - { type: member_of, target: group/banu-jumah, sources: [source/mubarakpuri-raheeq] }
+  - { type: participated_in, target: event/al-dawa-al-sirriyya, role: "من أوائل المسلمين مع أخيه عثمان", sources: [source/mubarakpuri-raheeq] }
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص74–77 نقلاً عن ابن هشام 1/245–262 ورحمة للعالمين 1/50 ومختصر سيرة الرسول للنجدي ص88 وفقه السيرة ص76 وصحيح البخاري 1/530"
+  generated_by: "Claude Code"
+  model: "claude-fable-5-1"
+  run: "raheeq-prose-batch-7b"
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-fable-5-1); al-Raheeq al-Makhtum p. 76" }
