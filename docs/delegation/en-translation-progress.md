@@ -179,3 +179,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place a–l batch 17 (Haiku 5.5, draft): 25 files, batsawa → bilad-al-buja; 936 Arabic files in a–l at commit time.
 - person i–m batch 28 (25 files, muhammad-ibn-al-fudayl … muhammad-ibn-harun) — Claude Haiku 5.5, draft
 - event a–m batch 14 (2026-10-16, claude-haiku-5-5): 25 pages, conquest-of-shahrazur → dar-al-ilm-waqf-382 (EN drafts).
+- person s–z batch 21 (Claude Code, claude-haiku-5-5): yaqub-al-mansur-al-muwahhidi … yazid-ibn-abi-habib, 25 files, 25 files.
