@@ -30,7 +30,7 @@
 - Kitab 22 done: الأقضية (hadith 2103–2213, vol. 2 PDF pp. 259–307; 41 babs; 111 records; chapter record and page written).
 - Kitab 23 done: الوصية (hadith 2214–2239, vol. 2 PDF pp. 309–321; 10 babs; 26 records; chapter record and page written).
 - Kitab 24 done: العتق والولاء (hadith 2240–2282, vol. 2 PDF pp. 323–341; 13 babs; 43 records; chapter record and page written). 2256–2282 replace the maintainer drafts of commits c74445f4 and 7ac75d0e (12 Oct); relations merged, none dropped. 2273 was skipped by the old lane and is filled here.
-- Kitab 25 in progress: المكاتب (hadith 2283 onward, vol. 2 PDF p. 343). Records 2283–2341 done (babs 1–13 so far). Record reached: 2341. Next: kitab 25 from hadith 2342 (PDF p. 366, not yet read). Open REVIEW on 2338 (OCR garbled on PDF p. 364).
+- Kitab 25 done: المكاتب (hadith 2283–2347, vol. 2 PDF pp. 343–368; 13 babs; 65 records; chapter record and page written). Open REVIEW on 2338 (OCR garbled on PDF p. 364). Record reached: 2347. Next: kitab 26 المدبر from hadith 2348 (PDF p. 369).
 - REVIEW flags remaining: none in kitab 1–6; kitab 7–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
@@ -43,8 +43,9 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 25 (المكاتب) from hadith 2342 (vol. 2, PDF p. 366), then kitab 25 to its end, then kitab 26 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
+Kitab 26 (المدبر) from hadith 2348 (vol. 2, PDF p. 369), then kitab 27 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.
 - Local branch `content/muwatta-prose` holds a copy of the kitab 3 coverage commit (479f1ad1) that differs from the pushed one only in its message; the next rebase onto origin/main drops it.
+- Provenance label: the batch tool wrote claude-fable-5-1 into generated_by; corrected to claude-haiku-5-5 on the lane's records in a1e06e85. Kitab 1–3 chapter records keep their own label.

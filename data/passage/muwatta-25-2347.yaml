@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2347"
-label: { ar: "الموطأ 2347", en: "Muwatta 2347" }
+label: { ar: "الموطأ 2347 — مالك: في الوصية بعتق غلام وكتابة آخر تُبدأ العتاقة على الكتابة", en: "Muwatta 2347" }
 summary:
-  ar: "مالك في رجل قال في وصيته: غلامي فلان حر، وكاتبوا فلانًا: تُبدأ العتاقة على... ؛ ترتيب العتق في الوصية عند ضيق الثلث؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في رجل قال في وصيته: غلامي فلان حر، وكاتبوا فلانا؛ تُبدأ العتاقة على الكتابة. {cite:muwatta-maruf-1997 p.368}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2347 of kitab 25-mukatab at PDF p. 368", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-101a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wasiyya, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2347 at PDF p. 368; الوصية في المكاتب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-b74" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 368; matn excerpt at most 40 words" }

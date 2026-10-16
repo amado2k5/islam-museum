@@ -3,12 +3,12 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-25"
-label: { ar: "الموطأ، كتاب المكاتب", en: "Muwatta, Book of Contract manumission (mukatab)" }
+label: { ar: "الموطأ، كتاب المكاتب", en: "Muwatta, Book of the contract manumission (mukatab)" }
 summary:
-  ar: "كتاب المكاتب في الموطأ، المجلد الثاني، يبدأ في صفحة 343 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Contract manumission (mukatab) in the Muwatta, volume 2, starting at PDF page 343 (PDF numbering, not the printed page)."
+  ar: "كتاب المكاتب في الموطأ، المجلد الثاني، من صفحة 343 إلى 368 بترقيم ملف PDF، ويضم 65 نصا مرقوما (2283–2347) في ثلاثة عشر بابا."
+  en: "The Book of the contract manumission (mukatab) in the Muwatta, volume 2, PDF pages 343 to 368 (PDF numbering), with 65 numbered reports (2283–2347) in thirteen babs."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 343", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 343; hadith 2283–2347 at PDF pp. 343–368", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k25-chapter" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); chapter record written after 2347; own-words accounts; no hadith text stored; one REVIEW on 2338 (OCR)" }
