@@ -3,12 +3,15 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-16"
-label: { ar: "الموطأ، كتاب الرضاع", en: "Muwatta, Book of Breastfeeding" }
+label: { ar: "الموطأ، كتاب الرضاع", en: "Muwatta, Book of Breastfeeding (radaa)" }
 summary:
-  ar: "كتاب الرضاع في الموطأ، المجلد الثاني، يبدأ في صفحة 119 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Breastfeeding in the Muwatta, volume 2, starting at PDF page 119 (PDF numbering, not the printed page)."
+  ar: "كتاب الرضاع، الكتاب السادس عشر من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997)، في المجلد الثاني: 19 نصاً (1762–1780) في ثلاثة أبواب، من الصفحة 119 إلى الصفحة 128 من ملف PDF المجلد الثاني. يبدأ برضاعة الصغير وحكم الحولين، ثم رضاعة الكبير وقصة سالم مولى أبي حذيفة وسهلة بنت سهيل، ويختم بجامع أحكام الرضاع وحديث الغيلة. {cite:muwatta-maruf-1997 p.119} {cite:muwatta-maruf-1997 p.128}"
+  en: "The Book of Breastfeeding, sixteenth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997), in volume 2: 19 reports (1762–1780) in three babs, PDF pp. 119–128 of volume 2. It opens with fosterage of infants and the two-year limit, turns to fosterage of adults and the case of Salim, mawla of Abu Hudhayfa, and closes with general rules and the ruling on intercourse with a nursing wife."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 119", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/radaa, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab al-radaa, PDF pp. 119–128", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k16-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }
