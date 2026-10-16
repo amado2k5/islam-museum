@@ -3,11 +3,19 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "898"
-label: { ar: "الموطأ 898", en: "Muwatta 898" }
+label: { ar: "الموطأ 898 — أسماء بنت عميس ولدت محمد بن أبي بكر بالبيداء، فأمرها أبو بكر أن تغتسل ثم تهل", en: "Muwatta 898" }
+text: "مرها فلتغتسل، ثم لتهل"
 summary:
-  ar: "يحيى عن مالك عن عبد الرحمن بن القاسم عن أبيه عن أسماء بنت عميس: ولدت محمد بن أبي بكر بذي الحليفة، فأمرها النبي ﷺ أن تغتسل وتحرم؛ حديث في غسل الإحرام للنفساء."
+  ar: "أول حديث في كتاب الحج وفي باب الغسل للإهلال. يرويه مالك عن عبد الرحمن بن القاسم عن أبيه عن أسماء بنت عميس، أنها ولدت محمد بن أبي بكر بالبيداء، فذكر أبو بكر ذلك للنبي، فقال: مرها فلتغتسل، ثم لتهل. ويذكر المحقق أن الحديث مرسل عند جماعة رواة الموطأ، وأن بعضهم قال «عن أسماء أنها ولدت»، وأن مسلماً أخرجه من طريق عائشة بذكر النفاس. {cite:muwatta-maruf-1997 p.433}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 898 of kitab 06-hajj at PDF p. 433", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-41b" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/asma-bint-umays, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ghusl, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 898 at PDF p. 433; باب الغسل للإهلال", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 433; matn excerpt at most 40 words; doubt: الحديث مرسل عند جماعة الرواة؛ مسلم يصله من طريق عائشة." }

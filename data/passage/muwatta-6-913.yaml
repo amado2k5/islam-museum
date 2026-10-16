@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "913"
-label: { ar: "الموطأ 913", en: "Muwatta 913" }
+label: { ar: "الموطأ 913 — سعيد بن المسيب: لا بأس بالمنطقة تلبس تحت الثياب للمحرم إذا جعل في طرفيها جميعاً سيوراً يعقد بعضها إلى بعض، وهذا أحب ما سمع مالك إليه", en: "Muwatta 913" }
 summary:
-  ar: "يحيى بن سعيد: سمع سعيد بن المسيب يقول في المنطقة يلبسها المحرم تحت ثوبه... ؛ حكم المنطقة للمحرم؛ الجواب يحتاج مراجعة."
+  ar: "يرويه مالك عن يحيى بن سعيد أنه سمع سعيد بن المسيب يقول في المنطقة يلبسها المحرم تحت ثيابه: لا بأس بذلك إذا جعل في طرفيها جميعاً سيوراً يعقد بعضها إلى بعض. ويقول مالك: وهذا أحب ما سمعت إلي في ذلك. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1046) وسويد (490). {cite:muwatta-maruf-1997 p.439}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 913 of kitab 06-hajj at PDF p. 439", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-41b" }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 913 at PDF p. 439; لبس المحرم المنطقة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 439; matn excerpt at most 40 words" }

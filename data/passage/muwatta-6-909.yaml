@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "909"
-label: { ar: "الموطأ 909", en: "Muwatta 909" }
+label: { ar: "الموطأ 909 — عمر رأى على طلحة بن عبيد الله ثوباً مصبوغاً وهو محرم: إنكم أيها الرهط أئمة يقتدي بكم الناس، فلا تلبسوا من هذه الثياب المصبغة", en: "Muwatta 909" }
 summary:
-  ar: "نافع سمع أسلم مولى عمر بن الخطاب يحدث ابن عمر: أن عمر... ؛ حديث في الإحرام؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن نافع عن أسلم مولى عمر أنه حدث عبد الله بن عمر، أن عمر بن الخطاب رأى على طلحة بن عبيد الله ثوباً مصبوغاً وهو محرم، فقال: ما هذا الثوب المصبوغ يا طلحة؟ فقال طلحة: يا أمير المؤمنين، إنما هو مدر. فقال عمر: إنكم أيها الرهط أئمة يقتدي بكم الناس، فلو أن رجلاً جاهلاً رأى هذا الثوب لقال إن طلحة كان يلبس الثياب المصبغة في الإحرام، فلا تلبسوا أيها الرهط شيئاً من هذه الثياب المصبغة. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1041) وسويد (487) والشيباني (425) ويحيى بن بكير عند البيهقي. {cite:muwatta-maruf-1997 p.438}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 909 of kitab 06-hajj at PDF p. 438", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-41b" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/talha-ibn-ubaydullah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aslam-mawla-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 909 at PDF p. 438; لبس الثياب المصبغة في الإحرام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 438; matn excerpt at most 40 words" }

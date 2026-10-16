@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "899"
-label: { ar: "الموطأ 899", en: "Muwatta 899" }
+label: { ar: "الموطأ 899 — سعيد بن المسيب: ولدت أسماء بذي الحليفة محمد بن أبي بكر، فأمرها أبو بكر أن تغتسل ثم تهل", en: "Muwatta 899" }
 summary:
-  ar: "سعيد بن المسيب: أن أسماء بنت عميس ولدت محمد بن أبي بكر؛ الخبر في ولادتها بذي الحليفة وأمر النبي ﷺ لها بالغسل."
+  ar: "يرويه مالك عن يحيى بن سعيد عن سعيد بن المسيب، أن أسماء بنت عميس ولدت محمد بن أبي بكر بذي الحليفة، فأمرها أبو بكر أن تغتسل ثم تهل. ويذكر المحقق أن ابن عبد البر قال إن الحديث مرسل من وجوه صحاح، وأن منهم من يجعله من قول أبي بكر. {cite:muwatta-maruf-1997 p.433}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 899 of kitab 06-hajj at PDF p. 433", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-41b" }
+  - { type: mentions, target: person/asma-bint-umays, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/dhu-al-hulayfa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ghusl, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 899 at PDF p. 433; باب الغسل للإهلال", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 433; matn excerpt at most 40 words" }

@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "911"
-label: { ar: "الموطأ 911", en: "Muwatta 911" }
+label: { ar: "الموطأ 911 — مالك: الثوب الذي مسه طيب ثم ذهب ريحه يحرم فيه ما لم يكن فيه صباغ زعفران أو ورس", en: "Muwatta 911" }
 summary:
-  ar: "يحيى: سُئل مالك عن ثوب مسه طيب ثم ذهب منه ريح الطيب، هل يُحرم فيه؟ فقال: نعم، ما لم يكن... ؛ حكم الثوب المطيّب للمحرم؛ الجواب يحتاج مراجعة."
+  ar: "قول يرويه يحيى عن مالك: سئل عن ثوب مسه طيب ثم ذهب منه ريح الطيب، هل يحرم فيه؟ فقال: نعم، ما لم يكن فيه صباغ زعفران أو ورس. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1043). {cite:muwatta-maruf-1997 p.439}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 911 of kitab 06-hajj at PDF p. 439", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-41b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 911 at PDF p. 439; لبس الثياب المصبغة في الإحرام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 439; matn excerpt at most 40 words" }

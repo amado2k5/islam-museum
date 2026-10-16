@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "906"
-label: { ar: "الموطأ 906", en: "Muwatta 906" }
+label: { ar: "الموطأ 906 — سأل رجل النبي عما يلبس المحرم من الثياب: لا تلبسوا القمص ولا العمائم ولا السراويلات ولا البرانس ولا الخفاف، إلا أحداً لا يجد نعلين فليلبس خفين وليقطعهما أسفل من الكعبين", en: "Muwatta 906" }
+text: "لا تلبسوا القمص، ولا العمائم، ولا السراويلات، ولا البرانس، ولا الخفاف، إلا أحد لا يجد نعلين فليلبس خفين وليقطعهما أسفل من الكعبين"
 summary:
-  ar: "يحيى عن مالك عن نافع عن ابن عمر: حديث في الإحرام؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب ما ينهى عنه من لبس الثياب في الإحرام. يرويه مالك عن نافع عن عبد الله بن عمر، أن رجلاً سأل النبي عما يلبس المحرم من الثياب، فقال: لا تلبسوا القمص ولا العمائم ولا السراويلات ولا البرانس ولا الخفاف، إلا أحداً لا يجد نعلين فليلبس خفين وليقطعهما أسفل من الكعبين، ولا تلبسوا من الثياب شيئاً مسه الزعفران ولا الورس. ويذكر المحقق أنه رواه عن مالك أبو مصعب ومن طريقه ابن ماجة وابن حبان والبغوي، وإسماعيل بن أبي أويس عند البخاري (5803)، وغيرهم كثير. {cite:muwatta-maruf-1997 p.436} {cite:muwatta-maruf-1997 p.437}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 906 of kitab 06-hajj at PDF p. 436", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-41b" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 906 at PDF p. 436; ما ينهى عنه من لبس الثياب في الإحرام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 436; matn excerpt at most 40 words" }

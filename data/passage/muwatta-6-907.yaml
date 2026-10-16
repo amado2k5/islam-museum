@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "907"
-label: { ar: "الموطأ 907", en: "Muwatta 907" }
+label: { ar: "الموطأ 907 — مالك: لم أسمع بقول النبي: ومن لم يجد إزاراً فليلبس سراويل، ولا أرى أن يلبس المحرم سراويل؛ لأن النبي نهى عن لبس السراويلات ولم يستثن فيها كما استثنى في الخفين", en: "Muwatta 907" }
 summary:
-  ar: "يحيى: سُئل مالك عما يُذكر أن النبي ﷺ قال: لا يلبس المحرم سراويل؛ والجواب في النهي عن لبس السراويل للمحرم."
+  ar: "يقول يحيى: سئل مالك عما ذُكر عن النبي أنه قال: ومن لم يجد إزاراً فليلبس سراويل. فقال: لم أسمع بهذا، ولا أرى أن يلبس المحرم سراويل، لأن النبي نهى عن لبس السراويلات فيما نهى عنه من لبس الثياب، ولم يستثن فيها كما استثنى في الخفين. ويذكر المحقق أنه رواه عن مالك أبو مصعب (1093) وسويد (489). {cite:muwatta-maruf-1997 p.437}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 907 of kitab 06-hajj at PDF p. 437", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-41b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ihram, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 907 at PDF p. 437; ما ينهى عنه من لبس الثياب في الإحرام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 437; matn excerpt at most 40 words" }
