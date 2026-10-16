@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2050"
-label: { ar: "الموطأ 2050", en: "Muwatta 2050" }
+label: { ar: "الموطأ 2050 — مالك عن ابن شهاب عن سليمان بن يسار: كان رسول الله يبعث عبد الله بن رواحة إلى خيبر فيخرص بينه وبين يهود خيبر، فجمعوا له حليا من حلي نسائهم فقالوا: هذا لك وخفف عنا، فقال ابن رواحة: يا معشر يهود، والله إنكم لمن أبغض خلق الله إلي، وما ذاك بحاملي على أن أحيف عليكم", en: "Muwatta 2050" }
 summary:
-  ar: "ابن شهاب عن سليمان بن يسار: أن رسول الله ﷺ كان يبعث عبد الله بن رواحة... ؛ بعث ابن رواحة لخرص ثمر خيبر؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن ابن شهاب عن سليمان بن يسار أن رسول الله كان يبعث عبد الله بن رواحة إلى خيبر، فيخرص بينه وبين يهود خيبر، قال: فجمعوا له حليا من حلي نسائهم، فقالوا: هذا لك، وخفف عنا وتجاوز في القسم. فقال عبد الله بن رواحة: يا معشر يهود، والله إنكم لمن أبغض خلق الله إلي، وما ذاك بحاملي على أن أحيف عليكم، فأما ما عرضتم من الرشوة فإنها سحت، وإنا لا نأكلها. فقالوا: بهذا قامت السماوات والأرض. {cite:muwatta-maruf-1997 p.240}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-19-musaqat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2050 of kitab 19-musaqat at PDF p. 239", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k19-batch-89b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sulayman-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-allah-ibn-rawaha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/musaqat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2050 at PDF p. 240; ما جاء في المساقاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b57" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 240; matn excerpt at most 40 words" }

@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2049"
-label: { ar: "الموطأ 2049", en: "Muwatta 2049" }
+label: { ar: "الموطأ 2049 — يحيى عن مالك عن ابن شهاب عن سعيد بن المسيب: قال رسول الله ليهود خيبر يوم افتتحها: أقركم ما أقركم الله، على أن التمر بيننا وبينكم، فكان يبعث عبد الله بن رواحة فيخرص بينه وبينهم", en: "Muwatta 2049" }
 summary:
-  ar: "ابن شهاب عن سعيد بن المسيب: أن رسول الله ﷺ عامل يهود خيبر على... ؛ معاملة النبي ﷺ ليهود خيبر على الثمر والزرع؛ تفاصيل المتن غير واضحة."
+  ar: "يروي يحيى عن مالك عن ابن شهاب عن سعيد بن المسيب أن رسول الله قال ليهود خيبر، يوم افتتح خيبر: أقركم ما أقركم الله عز وجل، على أن التمر بيننا وبينكم. قال: فكان رسول الله يبعث عبد الله بن رواحة فيخرص بينه وبينهم، ثم يقول: إن شئتم فلكم، وإن شئتم فلي، فكانوا يأخذونه. ويذكر المحقق أن بعض الضعفاء رووا الحديث موصولا، ولا يصح، وأن الصحيح أنه مرسل. {cite:muwatta-maruf-1997 p.239} {cite:muwatta-maruf-1997 p.240}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-19-musaqat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2049 of kitab 19-musaqat at PDF p. 239", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k19-batch-89b" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-allah-ibn-rawaha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/khaybar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/musaqat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2049 at PDF p. 239; ما جاء في المساقاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b57" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 239; matn excerpt at most 40 words; doubt: The record reports the Muwatta's own mursal wording; the editor says the connected version is not sound." }

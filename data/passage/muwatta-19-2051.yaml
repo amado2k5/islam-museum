@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2051"
-label: { ar: "الموطأ 2051", en: "Muwatta 2051" }
+label: { ar: "الموطأ 2051 — مالك: إذا ساقى الرجل النخل وفيها البياض، فما ازدرع الداخل في البياض فهو له، وإن اشترط صاحب الأرض أنه يزرع في البياض لنفسه فلا يصلح، لأن الداخل يسقي له الأرض فذلك زيادة", en: "Muwatta 2051" }
 summary:
-  ar: "مالك: إذا ساقى الرجل النخل وفيها البياض، فما ازدرع الرجل الداخل في البياض فهو... ؛ حكم الزرع في البياض بين النخل في المساقاة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: إذا ساقى الرجل النخل، وفيها البياض، فما ازدرع الرجل الداخل في البياض فهو له. قال: وإن اشترط صاحب الأرض أنه يزرع في البياض لنفسه، فذلك لا يصلح، لأن الرجل الداخل في المال يسقي لرب المال الأرض، فذلك زيادة ازدادها عليه. {cite:muwatta-maruf-1997 p.240}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-19-musaqat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2051 of kitab 19-musaqat at PDF p. 240", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k19-batch-89b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/musaqat, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2051 at PDF p. 240; ما جاء في المساقاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b57" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 240; matn excerpt at most 40 words" }

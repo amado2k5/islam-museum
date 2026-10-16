@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2057"
-label: { ar: "الموطأ 2057", en: "Muwatta 2057" }
+label: { ar: "الموطأ 2057 — مالك: فأما إذا طاب الثمر وبدا صلاحه وحل بيعه، ثم قال رجل لرجل: اعمل لي بعض هذه الأعمال بنصف ثمر حائطي هذا، فلا بأس بذلك، وإنما استأجره بشيء معروف معلوم، فإن لم يكن للحائط ثمر أو قل أو فسد فليس له إلا ذلك، والإجارة لا تجوز إلا بشيء مسمى", en: "Muwatta 2057" }
 summary:
-  ar: "مالك: فأما إذا طاب الثمر وبدا صلاحه وحل بيعه، ثم قال رجل لرجل: اعمل لي بعض هذا... ؛ حكم المساقاة بعد بدو الصلاح؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: فأما إذا طاب الثمر وبدا صلاحه وحل بيعه، ثم قال رجل لرجل: اعمل لي بعض هذه الأعمال، لعمل يسميه له، بنصف ثمر حائطي هذا، فلا بأس بذلك، وإنما استأجره بشيء معروف معلوم قد رآه ورضيه. قال: فأما المساقاة، فإنه إن لم يكن للحائط ثمر، أو قل ثمره أو فسد، فليس له إلا ذلك. وأن الأجير لا يستأجر إلا بشيء مسمى، لا تجوز الإجارة إلا بذلك. وإنما الإجارة بيع من البيوع، إنما يشتري منه عمله، ولا يصلح ذلك إذا دخله الغرر، لأن رسول الله نهى عن بيع الغرر. {cite:muwatta-maruf-1997 p.242}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-19-musaqat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2057 of kitab 19-musaqat at PDF p. 242", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k19-batch-89b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/musaqat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ijara, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/gharar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2057 at PDF p. 242; ما جاء في المساقاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b57" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 242; matn excerpt at most 40 words" }

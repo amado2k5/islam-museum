@@ -3,12 +3,16 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-18"
-label: { ar: "الموطأ، كتاب القراض", en: "Muwatta, Book of Partnership (qirad)" }
+label: { ar: "الموطأ، كتاب القراض", en: "Muwatta, Book of Profit-Sharing (qiradh)" }
 summary:
-  ar: "كتاب القراض في الموطأ، المجلد الثاني، يبدأ في صفحة 221 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Partnership (qirad) in the Muwatta, volume 2, starting at PDF page 221 (PDF numbering, not the printed page)."
+  ar: "كتاب القراض، الكتاب الثامن عشر من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997)، في المجلد الثاني: 42 نصا (2007–2048) في خمسة عشر بابا، من الصفحة 221 إلى الصفحة 237 من ملف PDF المجلد الثاني. يبدأ بقراض عمر لابنيه وأبي موسى الأشعري، ويبين ما يجوز من القراض وما لا يجوز من شروطه وديونه ونفقته، والتعدي فيه والمحاسبة عليه، ويختم بجامع أحكامه. {cite:muwatta-maruf-1997 p.221} {cite:muwatta-maruf-1997 p.237}"
+  en: "The Book of Profit-Sharing (qiradh), eighteenth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997), in volume 2: 42 reports (2007–2048) in fifteen babs, PDF pp. 221–237 of volume 2. It opens with the qiradh of Umar's sons and Abu Musa al-Ash'ari, sets out what is permitted and forbidden in its terms, debts, expenses, transgression and reckoning, and closes with general rules."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 221", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab al-qiradh, PDF pp. 221–237", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k18-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

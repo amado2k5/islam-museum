@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2047"
-label: { ar: "الموطأ 2047", en: "Muwatta 2047" }
+label: { ar: "الموطأ 2047 — مالك: فيمن أعطى رجلا مائة دينار قراضا فاشترى بها سلعة، ثم سرقت المائة قبل أن يدفعها إلى رب السلعة: يلزم العامل أداء ثمنها إلى البائع، ويخير رب المال بين أن يدفع المائة إلى العامل والسلعة بينهما قراضا، أو يبرأ من السلعة فتكون للعامل وعليه ثمنها", en: "Muwatta 2047" }
 summary:
-  ar: "مالك في رجل أعطى رجلًا مئة دينار قراضًا فاشترى بها سلعة، ثم ذهب ليدفع إل... ؛ حكم الخلاف في تسليم الربح؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في رجل أعطى رجلا مائة دينار قراضا، فاشترى بها سلعة، ثم ذهب ليدفع إلى رب السلعة المائة دينار، فوجدها قد سرقت. فقال رب المال: بع السلعة، فإن كان فيها فضل كان لي، وإن كان فيها نقصان كان عليك، لأنك أنت ضيعت. وقال المقارض: بل عليك وفاء حق هذا، إنما اشتريتها بمالك الذي أعطيتني. قال مالك: يلزم العامل المشتري أداء ثمنها إلى البائع، ويقال لصاحب المال: إن شئت فأد المائة الدينار إلى المقارض، والسلعة بينكما، وتكون قراضا على ما كانت عليه المائة الأولى، وإن شئت فابرأ من السلعة. فإن دفع المائة دينار إلى العامل كانت قراضا على سنة القراض الأول. وإن أبى، كانت السلعة للعامل، وكان عليه ثمنها. {cite:muwatta-maruf-1997 p.236} {cite:muwatta-maruf-1997 p.237}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-18-qiraad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2047 of kitab 18-qiraad at PDF p. 236", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k18-batch-89a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qiradh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2047 at PDF p. 236; جامع ما جاء في القراض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b57" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 236; matn excerpt at most 40 words" }

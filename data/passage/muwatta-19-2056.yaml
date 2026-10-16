@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2056"
-label: { ar: "الموطأ 2056", en: "Muwatta 2056" }
+label: { ar: "الموطأ 2056 — مالك: السنة في المساقاة التي يجوز لرب الحائط أن يشترطها على المساقي منها شد الحظار، وخم العين، وسرو الشرب، وإبار النخل، وقطع الجريد، وجد الثمر، على أن للمساقي شطر الثمر أو أقل أو أكثر إذا تراضيا، ولا يشترط صاحب الأصل ابتداء عمل جديد، كالبئر والعين والغراس وما يعظم فيه النفقة", en: "Muwatta 2056" }
 summary:
-  ar: "مالك: والسنة في المساقاة التي يجوز لرب الحائط أن يشترط لها على المساقي منها... ؛ شروط المساقاة الجائزة؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: والسنة في المساقاة التي يجوز لرب الحائط أن يشترطها على المساقي منها: شد الحظار، وخم العين، وسرو الشرب، وإبار النخل، وقطع الجريد، وجد الثمر. هذا وأشباهه، على أن للمساقي شطر الثمر، أو أقل من ذلك، أو أكثر إذا تراضيا عليه. غير أن صاحب الأصل لا يشترط ابتداء عمل جديد يحدثه العامل فيها، من بئر يحفرها، أو عين يرفع رأسها، أو غراس يغرسه فيها يأتي بأصل ذلك من عنده، أو ضفيرة يبنيها، تعظم فيها نفقته. وإنما ذلك بمنزلة أن يقول رب الحائط لرجل من الناس: ابن لي هاهنا بيتا، أو احفر لي بئرا، أو أجر لي عينا، أو اعمل لي عملا، بنصف ثمر حائطي هذا، قبل أن يطيب ثمر الحائط، ويحل بيعه، فهذا بيع الثمر قبل أن يبدو صلاحه، وقد نهى رسول الله عن بيع الثمار حتى يبدو صلاحها. {cite:muwatta-maruf-1997 p.241} {cite:muwatta-maruf-1997 p.242}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-19-musaqat }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2056 of kitab 19-musaqat at PDF p. 241", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k19-batch-89b" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/musaqat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2056 at PDF p. 241; ما جاء في المساقاة", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k19-b57" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 241; matn excerpt at most 40 words" }
