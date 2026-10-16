@@ -13,8 +13,9 @@ summary:
 text: "ٱسْتَغْفِرْ لَهُمْ أَوْ لَا تَسْتَغْفِرْ لَهُمْ إِن تَسْتَغْفِرْ لَهُمْ سَبْعِينَ مَرَّةً فَلَن يَغْفِرَ ٱللَّهُ لَهُمْ ۚ ذَٰلِكَ بِأَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَـٰسِقِينَ"
 text_search: "استغفر لهم أو لا تستغفر لهم إن تستغفر لهم سبعين مرة فلن يغفر الله لهم ۚ ذلك بأنهم كفروا بالله ورسوله ۗ والله لا يهدي القوم الفاسقين"
 relations:
+  - { type: revealed_about, target: event/death-of-abdullah-ibn-ubayy, note: "نزلت بعد صلاة النبي على ابن أبي وقول عمر (ابن هشام 4/197)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

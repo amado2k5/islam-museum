@@ -19,6 +19,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, note: "ذُكر في أصحاب النبي المهاجرين إلى الحبشة؛ مسجّل في الإطار السني للمتحف" }
 relations:
+  - { type: participated_in, target: event/delegation-of-thaqif, role: "وسيط الوفد وكاتب كتابه", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-abd-shams, sources: [source/ibn-hisham-saqqa] }
   - { type: spouse_of, target: person/amina-bint-khalf, sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/amr-ibn-said-ibn-al-as, sources: [source/ibn-hisham-saqqa] }

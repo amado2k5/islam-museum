@@ -15,6 +15,7 @@ regions: [arabia]
 story_roles:
   - { role: military-opponent, toward: group/early-muslims, status: tradition, note: "قاد راية الأحلاف من ثقيف يوم حنين وانحاز بهم إلى الطائف.", sources: [source/ibn-hisham-saqqa] }
 relations:
+  - { type: participated_in, target: event/delegation-of-thaqif, role: "أسلم قبل الوفد وطلب قضاء دين الأسود", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/thaqif }
   - { type: participated_in, target: event/battle-of-hunayn, role: thaqif-commander, sources: [source/ibn-hisham-saqqa] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 80, 90–92", generated_by: "Devin", run: "ibn-hisham-batch-2a" }

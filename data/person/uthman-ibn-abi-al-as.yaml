@@ -24,5 +24,5 @@ relations:
   - { type: born_in, target: place/taif }
   - { type: ruler_of, target: place/taif, start: { edtf: "0631~" }, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/delegation-of-thaqif, role: "عضو الوفد وأصغرهم", sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 2, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }

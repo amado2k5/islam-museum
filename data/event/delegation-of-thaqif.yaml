@@ -12,6 +12,15 @@ regions: [arabia]
 date:
   start: { edtf: "0630-12~", hijri: "0009-09", calendar: julian, precision: month, status: tradition }
 relations:
+  - { type: caused, target: event/demolition-of-al-lat, note: "هدم اللات بعد الإسلام بشرط الوفد (ابن هشام 4/186)", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-bakr, role: "لقي المغيرة ليسبقه إلى النبي بخبر الوفد", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/bilal-ibn-rabah, role: "كان يأتي الوفد بالسحور والفطور في رمضان", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-sufyan-ibn-harb, role: "بعثه النبي مع المغيرة لهدم اللات", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "بعثه النبي مع أبي سفيان لهدم اللات", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/khalid-ibn-said-ibn-al-as, role: "مشى بين الوفد والنبي وكتب كتابهم بيده", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/qarib-ibn-al-aswad, role: "أسلم مع أبي مليح، وقال: إنما الدين عليّ", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-mulayh-ibn-urwa, role: "قدم مع قارب يريد فراق ثقيف فأسلم، وطلب دية أبيه", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/urwa-ibn-masud, role: "أسلم ثم قُتل فيهم، فدُفن معهم بوصيته", sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: group/thaqif }
   - { type: had_participant, target: person/abd-yalil-ibn-amr }
@@ -19,5 +28,5 @@ relations:
   - { type: had_participant, target: person/muhammad }
   - { type: part_of, target: event/year-of-delegations }
   - { type: caused_by, target: event/siege-of-taif }
-sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira, source/zad-al-maad, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 440-454 (batch 22)" }
