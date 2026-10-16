@@ -89,3 +89,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - concept batch 7 (Claude Haiku 5.5): 25 pages, madrasat-al-nahw-al-basriyya-kufiyya → nasab-al-nabi
 - work batch 10 (25 files, zibriqan-boast-poem … zibriqan-second-boast): done by Claude Haiku 5.5, draft
 - group batch 4 (25 files, dajaima … jarudiyya): done by Claude Haiku 5.5, draft
+- person i–m batch 10 (25 files, ibrahim-ismail-al-abyari … inal-khan-utrari) — Claude Haiku 5.5, draft
