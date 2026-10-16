@@ -1,0 +1,15 @@
+id: passage/muslim-2590
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2590"
+label: { ar: "مسلم 2590 — لا يستر عبد عبداً في الدنيا إلا ستره الله يوم القيامة", en: "Muslim 2590 — Whoever conceals a servant in this world, God conceals him on the Last Day" }
+text: "قال رسول الله: «لا يستر عبد عبداً في الدنيا إلا ستره الله يوم القيامة»"
+summary:
+  ar: "رواية أبي هريرة في كتاب البر من صحيح مسلم؛ يجعل الستر على المسلم موجباً للستر الإلهي يوم القيامة."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب (طبعة دار التأصيل، الحديث ٢٦٧٣؛ ترقيم عبد الباقي المعروف 2590)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

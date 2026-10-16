@@ -1,0 +1,15 @@
+id: passage/muslim-2589
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2589"
+label: { ar: "مسلم 2589 — أتدرون ما الغيبة؟ ذكرك أخاك بما يكره", en: "Muslim 2589 — Do you know what backbiting is? Mentioning your brother with what he dislikes" }
+text: "قال رسول الله: «أتدرون ما الغيبة؟» قالوا: الله ورسوله أعلم، قال: «ذكرك أخاك بما يكره»، قيل: أفرأيت إن كان في أخي ما أقول؟ قال: «إن كان فيه ما تقول فقد اغتبته، وإن لم يكن فيه فقد بهته»"
+summary:
+  ar: "رواية أبي هريرة في كتاب البر من صحيح مسلم؛ التعريف النبوي للغيبة بأنها ذكر الإنسان بما يكره — ولو كان صدقاً — وبهتانه إن لم يكن فيه."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب البر والصلة والآداب، باب تحريم الغيبة (طبعة دار التأصيل، الحديث ٢٦٧٢؛ ترقيم عبد الباقي المعروف 2589)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
