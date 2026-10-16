@@ -1,0 +1,16 @@
+id: passage/muslim-1016
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1016"
+label: { ar: "مسلم 1016 — اتقوا النار ولو بشق تمرة", en: "Muslim 1016 — Shield yourselves from the Fire even with half a date" }
+text: "قال رسول الله: «من استطاع منكم أن يستتر من النار ولو بشق تمرة فليفعل»، وفي رواية: «فمن لم يجد فبكلمة طيبة»"
+summary:
+  ar: "رواية عدي بن حاتم في باب الحث على الصدقة ولو بشق تمرة من كتاب الزكاة في صحيح مسلم؛ وفي تمامها صورة مكلمة الله للعبد بلا ترجمان حتى يظن الناظر أنه ينظر إلى النار."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/adi-ibn-hatim, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/sadaqa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الزكاة، باب الحث على الصدقة ولو بشق تمرة (النسخة المرقمة هامشياً، الحديث ٢٣٩٤–٢٣٩٥؛ ترقيم عبد الباقي المعروف 1016)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

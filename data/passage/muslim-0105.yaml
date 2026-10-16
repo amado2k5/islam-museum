@@ -1,0 +1,15 @@
+id: passage/muslim-0105
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "105"
+label: { ar: "مسلم 105 — لا يدخل الجنة قتات", en: "Muslim 105 — No tale-bearer enters Paradise" }
+text: "قال رسول الله: «لا يدخل الجنة قتات» — سمعه حذيفة فجهر به لرجل يوصف برفع الأشياء إلى السلطان"
+summary:
+  ar: "رواية حذيفة بن اليمان في كتاب الإيمان من صحيح مسلم؛ أمسكه حذيفة عن لسانه فلما رأى رجلاً يُرفع إلى السلطان أخبار الناس أسمعه إياه ليُصلح."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/hudhayfa-ibn-al-yaman, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الإيمان، باب تحريم النميمة (طبعة دار التأصيل، الحديث ٩٧؛ ترقيم عبد الباقي المعروف 105)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
