@@ -6,6 +6,7 @@ import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../../components/PageHeader.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
 import { byId, graph, href, labelOf, realNodes } from "../../../../lib/graph";
+import { surahSlug } from "../../../../lib/surah-maps";
 import { formatDate } from "../../../../lib/dates";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
@@ -47,7 +48,7 @@ const dateOf = (n: any) => { const d = n.data; return formatDate(d.date?.start ?
           <article class="rv-sura" aria-labelledby={`s-${r.n}`}>
             <p class="ui rv-kicker"><span class="rv-num">{fmt(R.order_n, { n: String(r.order) })}</span> · <span>{fmt(R.mushaf_n, { n: String(r.n) })}</span> · <span class={`chip rv-${r.place}`}>{R[r.place]}</span></p>
             <h2 id={`s-${r.n}`} class="rv-title"><a href={href(lang, r.node.id)}>{labelOf(r.node, lang)}</a></h2>
-            <p class="ui muted" style="margin:0 0 6px;font-size:.85rem">{fmt(R.verses, { n: String(r.verses) })}</p>
+            <p class="ui muted" style="margin:0 0 6px;font-size:.85rem">{fmt(R.verses, { n: String(r.verses) })}{surahSlug(r.n) && <> · <a href={`/${lang}/surah/${surahSlug(r.n)}/`}>{T.surahmap.row_map}</a></>}</p>
             {r.open && <p class="rv-open" lang="ar" dir="rtl"><span class="sr-only">{R.opening}: </span>{r.open}</p>}
           </article>
           <div class="rv-connector" aria-hidden="true"></div>

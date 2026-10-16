@@ -1,0 +1,45 @@
+---
+// Surah map: the journey rail (verse scrubber) + the SVG mind-map canvas + detail card.
+// All behaviour lives in site/src/scripts/surah-map.ts; the payload travels as JSON.
+export interface SurahMapPayload {
+  lang: string; total: number; name: string;
+  families: Record<string, string>;
+  colors: Record<string, string>;
+  t: { journey: string; stop: string; close: string; prev: string; next: string; verse_n: string };
+  sections: { t: string; a: number; b: number; f: string; s: string; kids: { t: string; a: number; b: number }[] }[];
+}
+const { payload, hint } = Astro.props as { payload: SurahMapPayload; hint: string };
+const loc = (n: number) => n.toLocaleString(payload.lang === "ar" ? "ar-EG" : "en-GB");
+const ticks = [1, Math.round(payload.total / 4), Math.round(payload.total / 2), Math.round((3 * payload.total) / 4), payload.total];
+---
+<div class="sm-studio" data-surahmap>
+  <aside class="rail-wrap" aria-label={payload.t.journey}>
+    <div class="rail-readout">
+      <div class="vnum" data-vnum>١</div>
+      <div class="vsec" data-vsec></div>
+    </div>
+    <div style="display:flex;gap:6px;align-items:stretch">
+      <div class="rail" data-rail role="slider" aria-label={hint} aria-valuemin={1} aria-valuemax={payload.total} aria-valuenow={1} tabindex={0}>
+        <div class="rail-handle" data-handle></div>
+      </div>
+      <div class="rail-scale" aria-hidden="true">{ticks.map((t) => <span>{loc(t)}</span>)}</div>
+    </div>
+    <div class="legend">
+      {Object.entries(payload.families).map(([k, v]) => (
+        <span><i class="dot" style={`background:${payload.colors[k]}`}></i>{v}</span>
+      ))}
+    </div>
+  </aside>
+  <section class="canvas-wrap" aria-label={payload.name}>
+    <svg data-map role="img" aria-label={payload.name}></svg>
+    <div class="toolbar">
+      <button data-zin aria-label="+">+</button>
+      <button data-zout aria-label="−">−</button>
+      <button data-zreset aria-label="⟲">⟲</button>
+    </div>
+    <div class="playbar"><button data-play>▶ {payload.t.journey}</button></div>
+    <div class="gx-card" data-card hidden></div>
+  </section>
+  <script type="application/json" set:html={JSON.stringify(payload)} />
+</div>
+<script src="../scripts/surah-map.ts"></script>

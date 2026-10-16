@@ -483,8 +483,47 @@ html[lang="ar"] .gx-label { font-family: var(--ar-body); font-size: 14px; }
 .gx-list li { margin: 0 0 4px; }
 @media (max-width: 900px) { .gx { grid-template-columns: 1fr; } .gx-card { width: min(260px, 80%); } }
 
-/* ---- Part 3 C.6: revelation-order reading ---- */
-.rv-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0 0 16px; }
+/* ---- Surah maps: thematic journey (rail + mind-map canvas) ---- */
+.sm-studio{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:stretch}
+.sm-studio .rail-wrap{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 10px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.sm-studio .rail-readout{text-align:center}
+.sm-studio .rail-readout .vnum{font-size:1.5rem;font-weight:700;color:var(--gold-soft,#e6d5b8)}
+.sm-studio .rail-readout .vsec{font-size:.75rem;color:var(--muted);min-height:2.2em}
+.sm-studio .rail{position:relative;width:44px;height:62vh;min-height:380px;border-radius:22px;background:rgba(0,0,0,.25);cursor:pointer;touch-action:none}
+.sm-studio .rail-seg{position:absolute;inset-inline:0;border-radius:6px;opacity:.75;border:1px solid rgba(0,0,0,.35);transition:opacity .15s}
+.sm-studio .rail-seg:hover{opacity:1}
+.sm-studio .rail-seg.active{opacity:1;box-shadow:0 0 0 2px var(--gold-soft,#e6d5b8)}
+.sm-studio .rail-handle{position:absolute;inset-inline:-8px;height:26px;transform:translateY(-13px);z-index:3;pointer-events:none}
+.sm-studio .rail-handle::before{content:"";position:absolute;inset-inline:0;top:11px;height:4px;border-radius:2px;background:var(--gold-soft,#e6d5b8);box-shadow:0 0 8px rgba(230,213,184,.8)}
+.sm-studio .rail-handle::after{content:"";position:absolute;top:3px;inset-inline-start:-7px;width:18px;height:18px;border-radius:50%;background:var(--gold);border:3px solid var(--lapis-950,#071c28);box-shadow:0 0 10px rgba(197,160,89,.9)}
+.sm-studio .rail-scale{display:flex;flex-direction:column;justify-content:space-between;height:62vh;min-height:380px;font-size:.7rem;color:var(--muted);padding:2px 0}
+.sm-studio .legend{display:flex;flex-direction:column;gap:6px;font-size:.75rem;color:var(--muted)}
+.sm-studio .legend span{display:flex;align-items:center;gap:6px}
+.sm-studio .dot{width:10px;height:10px;border-radius:50%;flex:none}
+.sm-studio .canvas-wrap{position:relative;background:radial-gradient(1200px 600px at 50% 0%,#10394d 0%,var(--lapis-900,#0a2533) 55%,var(--lapis-950,#071c28) 100%);border:1px solid var(--line);border-radius:16px;overflow:hidden;height:calc(62vh + 148px);min-height:528px}
+.sm-studio .canvas-wrap svg{width:100%;height:100%;display:block;cursor:grab}
+.sm-studio .canvas-wrap svg.panning{cursor:grabbing}
+.sm-studio .toolbar{position:absolute;top:12px;inset-inline-start:12px;display:flex;gap:6px;z-index:5}
+.sm-studio .toolbar button{width:36px;height:36px;border-radius:10px;border:1px solid var(--line);background:rgba(10,37,51,.85);color:var(--gold-soft,#e6d5b8);font-size:1.05rem;cursor:pointer}
+.sm-studio .toolbar button:hover{background:rgba(20,60,80,.9)}
+.sm-studio .playbar{position:absolute;bottom:12px;inset-inline-start:12px;z-index:5;display:flex;gap:8px;align-items:center}
+.sm-studio .playbar button{border:1px solid var(--line);background:rgba(10,37,51,.85);color:var(--gold-soft,#e6d5b8);border-radius:999px;padding:8px 18px;font:inherit;font-size:.9rem;cursor:pointer}
+.sm-studio .playbar button:hover{background:rgba(20,60,80,.9)}
+.sm-studio .playbar button.on{background:var(--gold);color:#0a2533;border-color:var(--gold);font-weight:600}
+.sm-studio .jpath{fill:none;stroke:rgba(197,160,89,.35);stroke-width:3}
+.sm-studio .jconn{fill:none;stroke:rgba(197,160,89,.4);stroke-width:1.5}
+.sm-studio .jnode{cursor:pointer}
+.sm-studio .jnode rect{fill:#102f3f;stroke-width:2;transition:filter .15s}
+.sm-studio .jnode:hover rect{filter:brightness(1.35)}
+.sm-studio .jnode.active rect{filter:brightness(1.5) drop-shadow(0 0 10px rgba(197,160,89,.7));stroke-width:3}
+.sm-studio .jnode text{fill:#f2ede2;font-family:inherit;pointer-events:none}
+.sm-studio .jnode .rng{fill:var(--gold-soft,#e6d5b8);opacity:.85}
+.sm-studio .jchild rect{fill:#0d2836}
+.sm-studio .jchild text{fill:#d9e6ea}
+.sm-studio .gx-card{position:absolute;top:12px;inset-inline-end:12px;width:min(330px,80%);z-index:6;box-shadow:0 12px 32px rgba(0,0,0,.45)}
+@media (max-width:760px){.sm-studio{grid-template-columns:1fr}.sm-studio .rail-wrap{flex-direction:row;flex-wrap:wrap}.sm-studio .rail,.sm-studio .rail-scale{height:40vh;min-height:280px}}
+
+/* ---- Part 3 C.6: revelation-order reading ---- */.rv-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0 0 16px; }
 .rv-tools button { border: 1px solid var(--line); background: var(--card); color: var(--fg); border-radius: 999px; padding: 5px 14px; font: inherit; cursor: pointer; }
 .rv-tools button[aria-pressed="true"] { background: var(--gold); color: #0a2533; border-color: var(--gold); }
 .rv { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }

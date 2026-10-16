@@ -1,0 +1,82 @@
+---
+// Surah map page: the interactive thematic journey for one surah.
+// The researched map (sections + children) comes from <repo>/surah-maps/<nn>-<slug>.yaml;
+// surah metadata (name, verses, Makki/Madani, order) comes from the existing passage/quran-N entities.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import SurahMap, { type SurahMapPayload } from "../../../components/SurahMap.astro";
+import { listSurahMaps, loadSurahMap } from "../../../lib/surah-maps";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { byId, labelOf, realNodes } from "../../../lib/graph";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) =>
+    listSurahMaps().map(({ slug }) => ({ params: { lang, slug }, props: { lang, slug } })),
+  );
+}
+const { lang, slug } = Astro.props as { lang: Lang; slug: string };
+const T = ui(lang);
+const SM = T.surahmap;
+const file = loadSurahMap(slug);
+const node = byId.get(`passage/quran-${file.surah}`);
+if (!node) throw new Error(`surah page: no passage entity for surah ${file.surah}`);
+const name = labelOf(node, lang);
+const total = realNodes.filter((n) => n.class === "passage" && (n as any).data.unit === "ayah" && (n as any).data.sura === file.surah).length;
+const place = (node as any).data.revelation_place as string;
+const revOrder = (node as any).data.revelation_order as number;
+const L = (t: { ar: string; en: string }) => (lang === "ar" ? t.ar : t.en);
+const payload: SurahMapPayload = {
+  lang, total, name,
+  families: { faith: SM.family_faith, stories: SM.family_stories, law: SM.family_law },
+  colors: { faith: "#c5a059", stories: "#2a7b88", law: "#4d8a4f" },
+  t: { journey: SM.journey, stop: SM.stop, close: SM.close_card, prev: SM.prev, next: SM.next, verse_n: SM.verse_n },
+  sections: file.map.map((s) => ({
+    t: L(s.title), a: s.range[0], b: s.range[1], f: s.family, s: L(s.summary),
+    kids: (s.children ?? []).map((k) => ({ t: L(k.title), a: k.range[0], b: k.range[1] })),
+  })),
+};
+const title = fmt(SM.map_title, { name });
+const desc = fmt(SM.map_lede, { n: String(total) });
+---
+<BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/surah/${slug}/`}>
+  <PageHeader
+    title={title}
+    lede={desc}
+    crumbs={[
+      { label: T.entity.breadcrumb, href: `/${lang}/` },
+      { label: SM.title, href: `/${lang}/surah/` },
+      { label: name },
+    ]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing="words"
+  />
+  <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
+    <div class="chips" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+      <span class="chip">{place === "medinan" ? SM.medinan : SM.meccan}</span>
+      <span class="chip">{fmt(T.revelation.verses, { n: String(total) })}</span>
+      <span class="chip">{fmt(SM.rev_order, { n: String(revOrder) })}</span>
+      <span class="chip">{fmt(SM.mushaf_order, { n: String(file.surah) })}</span>
+    </div>
+    <p class="muted" style="max-width:var(--measure);margin:0 0 14px">{SM.hint}</p>
+    <SurahMap payload={payload} hint={SM.hint} />
+    <section style="margin-top:28px" aria-label={SM.title}>
+      <h2 class="ui" style="font-size:1.1rem">{SM.title} — {name}</h2>
+      <ol>
+        {file.map.map((s) => (
+          <li style="margin-bottom:10px">
+            <strong>{lang === "ar" ? s.title.ar : s.title.en}</strong>
+            <span class="muted ui" style="font-size:.85rem"> · {s.range[0]}–{s.range[1]}</span>
+            <br /><span class="ui" style="font-size:.92rem">{lang === "ar" ? s.summary.ar : s.summary.en}</span>
+            {(s.children ?? []).length > 0 && (
+              <ul style="margin-top:4px">
+                {(s.children ?? []).map((k) => (
+                  <li class="ui" style="font-size:.88rem">{lang === "ar" ? k.title.ar : k.title.en} <span class="muted">· {k.range[0]}–{k.range[1]}</span></li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ol>
+    </section>
+  </div>
+</BaseLayout>

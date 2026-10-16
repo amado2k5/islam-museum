@@ -300,6 +300,27 @@ revelation:
   none: No museum event is yet recorded for this sura; the context is its Meccan or Medinan classification.
   source_note: The order of revelation and the Meccan/Medinan classification follow the Cairo edition (1924) as carried by Tanzil; a well-known ordering, not a unanimous one. Verse-level refinement comes later.
   legend: 'Transmitted: carried by the sira and tafsir works cited on the link. Estimated: a link the museum recorded without a source yet.'
+surahmap:
+  title: Surah maps
+  lede: 'Every surah as an interactive map: its stations and themes, verse by verse, from beginning to end.'
+  map_title: '{name} map'
+  map_lede: An interactive journey through {n} verses — from the surah's first verse to its last.
+  hint: Drag the handle on the track to travel through the verses, click any station on the map — or start an auto journey.
+  journey: Auto journey
+  stop: Stop
+  close_card: Close card
+  prev: Previous
+  next: Next
+  verse_n: 'Verse {n}'
+  verses_of: '{a}–{b}'
+  meccan: Meccan
+  medinan: Medinan
+  rev_order: 'Revealed {n}'
+  mushaf_order: 'Mushaf {n}'
+  family_faith: Faith
+  family_stories: Stories
+  family_law: Law
+  row_map: Map
 today:
   title: Today
   lede: Where the Islamic and the Gregorian calendars meet.
@@ -708,6 +729,10 @@ explore:
       title: Revelation and history
       desc: Read the Quran in the order it was revealed, beside the events.
       menu: The Quran as revealed, with the events
+    surahmaps:
+      title: Surah maps
+      desc: 'Every surah as an interactive map: its themes and stations, verse by verse.'
+      menu: Interactive surah maps
     wander:
       title: Wander
       menu: A random page of the museum
