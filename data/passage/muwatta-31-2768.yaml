@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2768"
-label: { ar: "الموطأ 2768", en: "Muwatta 2768" }
+label: { ar: "الموطأ 2768 — أبو موسى الأشعري يستأذن على عمر ثلاثا ثم يرجع فيشهد له أبو سعيد", en: "Muwatta 2768" }
 summary:
-  ar: "أبو موسى الأشعري استأذن على عمر ثلاثًا ثم انصرف، فأرسل عمر في أثره، فذكر أنه سمع النبي يقول ذلك."
+  ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن وعن غير واحد من علمائهم أن أبا موسى الأشعري جاء يستأذن على عمر بن الخطاب، فاستأذن ثلاثا ثم رجع، فأرسل عمر في أثره، فقال: ما لك لم تدخل؟ فقال أبو موسى: سمعت رسول الله يقول: الاستئذان ثلاث، فإن أذن لك فادخل وإلا فارجع. فقال عمر: ومن يعلم هذا؟ لئن لم تأتني بمن يعلم ذلك لأفعلن بك كذا وكذا. فخرج أبو موسى إلى مجلس الأنصار فأخبرهم، فقالوا لأبي سعيد الخدري: قم معه، فقام معه، فأخبر بذلك عمر، فقال لأبي موسى: أما إني لم أتهمك، ولكن خشيت أن يتقول الناس على رسول الله. {cite:muwatta-maruf-1997 p.553} {cite:muwatta-maruf-1997 p.554}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2768 of kitab 31-jami at PDF p. 553", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b119" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/istidhan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/rabiah-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2768 at PDF p. 553; الاستئذان", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b106" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 553; matn excerpt at most 40 words" }

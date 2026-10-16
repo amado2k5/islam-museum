@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2769"
-label: { ar: "الموطأ 2769", en: "Muwatta 2769" }
+label: { ar: "الموطأ 2769 — عبد الله بن أبي بكر عن أبيه: إذا عطس فشمّته ثلاثا ثم قل إنك مضنوك", en: "Muwatta 2769" }
 summary:
-  ar: "حديث عن تشميت العاطس ثلاثًا، ثم يُقال للعاطس بعد الثالثة أو الرابعة ما يخرجه من الدعاء بالشفاء."
+  ar: "يروي مالك عن عبد الله بن أبي بكر عن أبيه أن رسول الله قال: إن عطس فشمّته، ثم إن عطس فشمّته، ثم إن عطس فشمّته، ثم إن عطس فقل: إنك مضنوك. قال عبد الله بن أبي بكر: لا أدري أبعد الثالثة أو الرابعة. ويذكر المحقق أن ابن عبد البر قال إن الحديث في الموطأ مرسل لا خلاف فيه، وأنه يتصل من وجوه، منها حديث سلمة بن الأكوع وحديث أبي هريرة. {cite:muwatta-maruf-1997 p.554}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2769 of kitab 31-jami at PDF p. 554", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b119" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/tashmit, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2769 at PDF p. 554; التشميت في العطاس", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b106" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: شك الراوي في الثالثة أو الرابعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 554; matn excerpt at most 40 words" }
