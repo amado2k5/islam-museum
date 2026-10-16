@@ -5,10 +5,19 @@ work: work/muwatta-malik
 ref: "kitab-7"
 label: { ar: "الموطأ، كتاب الجهاد", en: "Muwatta, Book of Jihad" }
 summary:
-  ar: "كتاب الجهاد في الموطأ، المجلد الأول، يبدأ في صفحة 571 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Jihad in the Muwatta, volume 1, starting at PDF page 571 (PDF numbering, not the printed page)."
+  ar: "كتاب الجهاد، الكتاب السابع من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997): 68 نصاً (1283–1350) في إحدى وعشرين باباً، من الصفحة 571 إلى الصفحة 604 من ملف PDF المجلد الأول. يبدأ بالترغيب في الجهاد وفضل المجاهد، ثم ينتقل إلى أحكام الحرب من النهي عن قتل النساء والولدان ووفاء الأمان، ثم إلى الغنيمة والنفل والخمس وقسمة الخيل والسلب، ثم إلى الغلول والشهادة وغسل الشهداء، ويختم بالدفن في قبر واحد عند الضرورة. {cite:muwatta-maruf-1997 p.571} {cite:muwatta-maruf-1997 p.604}"
+  en: "The Book of Jihad, seventh book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997): 68 reports (1283–1350) in twenty-one babs, PDF pp. 571–604 of volume 1, from the merit of striving through the conduct of war, booty and the fifth, ghulul, martyrdom and the burial of the martyrs."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 571", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ibn-abd-al-barr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/uhud, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/hunayn, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/khaybar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/shahada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab al-jihad, PDF pp. 571–604", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k7-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }

@@ -12,7 +12,8 @@
 - Kitab 4 done: الصيام (hadith 781–865, PDF pp. 385–417; 4 batches; chapter page written).
 - Kitab 5 done: الاعتكاف (hadith 866–897, PDF pp. 419–431; 2 batches; chapter page written). Hadith 877 onward are heard by Yahya through Ziyad ibn Abd al-Rahman (Shabtun), per the editor's note at 878.
 - Kitab 6 done: الحج (hadith 898–1282, PDF pp. 433–570; 83 babs; 385 records; 17 batches in this lane's last session; chapter record and page written). Hadith 932 is absent from the printed text; 1136, 1165 and 1206 had no record file and were created.
-- Record reached: 1282. Next: kitab 7 الجهاد from hadith 1283 (PDF p. 571).
+- Kitab 7 done: الجهاد (hadith 1283–1350, PDF pp. 571–604; 21 babs; 68 records; chapter record and page written).
+- Record reached: 1350. Next: kitab 8 النذور والأيمان from hadith 1351 (PDF p. 605).
 - REVIEW flags remaining: none in kitab 1–6; kitab 7–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
@@ -25,7 +26,7 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 7 (الجهاد) from hadith 1283 (PDF p. 571), then kitab 8 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
+Kitab 8 (النذور والأيمان) from hadith 1351 (PDF p. 605), then kitab 9 onward. Same cycle per 25 records: apply, commit explicit paths, rebase, coverage, validate, verify cites, push. Chapter record and page at the end of each kitab.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.
