@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2823"
-label: { ar: "الموطأ 2823", en: "Muwatta 2823" }
+label: { ar: "الموطأ 2823 — المطلب بن عبد الله بن حنطب: ما الغيبة؟ أن تذكر من المرء ما يكره أن يسمع", en: "Muwatta 2823" }
 summary:
-  ar: "الوليد بن عبد الله بن صياد يروي خبرًا، وفيه تعليق المحقق على الإرسال والوصل."
+  ar: "يروي مالك عن الوليد بن عبد الله بن صياد أن المطلب بن عبد الله بن حنطب المخزومي أخبره أن رجلا سأل النبي: ما الغيبة؟ فقال: أن تذكر من المرء ما يكره أن يسمع. قال: يا رسول الله، وإن كان حقا؟ قال: إذا قلت باطلا فذلك البهتان. ويذكر المحقق قول ابن عبد البر أن الصواب في اسم الراوي «حنطب» لا «حويطب» كما في رواية يحيى، وأن الحديث موصول من حديث العلاء بن عبد الرحمن عن أبيه عن أبي هريرة عند مسلم وغيره. {cite:muwatta-maruf-1997 p.585}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2823 of kitab 31-jami at PDF p. 584", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b121" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/walid-ibn-abdallah-ibn-sayyad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-muttalib-ibn-abdallah-ibn-hanatib, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2823 at PDF p. 585; ما جاءَ في الغِيبة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b110" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: متن الخبر غير واضح في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 585; matn excerpt at most 40 words" }
