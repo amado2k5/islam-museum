@@ -1,5 +1,6 @@
 id: person/abu-bakra-al-thaqafi
 class: person
+aliases: [person/abu-bakra]
 label: { en: "Abu Bakra Nufay' ibn al-Harith", ar: "أبو بكرة نفيع بن الحارث الثقفي" }
 names:
   - { kind: full, lang: ar, value: "نفيع بن الحارث بن كلدة الثقفي" }
@@ -9,7 +10,7 @@ roles: [companion, scholar]
 traditions: [sunni]
 summary:
   en: "A slave of Thaqif who descended from the besieged fortress of Ta'if on a pulley (bakra) in response to the Prophet's proclamation of freedom; the Prophet manumitted him as a 'freeman of God', and he became a prominent Companion and hadith transmitter in Basra."
-  ar: "كان مولى لثقيف في حصن الطائف؛ فلما أعلن النبي أن من تدلى من الحصن فهو حر تدلى ببكرة فعُرف بها، فأعتقه النبي وسماه من عتقاء الله، وصار صحابياً وفقيهاً ومحدثاً نزل البصرة."
+  ar: "كان مولى لثقيف في حصن الطائف؛ فلما أعلن النبي أن من تدلى من الحصن فهو حر تدلى ببكرة فعُرف بها، فأعتقه النبي وسماه من عتقاء الله، وصار صحابياً وفقيهاً ومحدثاً نزل البصرة. وفي الصحيح أنه «تسوّر حضن الطائف في أناس فجاء إلى النبي ثالث ثلاثة وعشرين من الطائف» {cite:sahih-al-bukhari 4327}. وشهد بعد ذلك على المغيرة بن شعبة في قصة أم جميل فجلده عمر في القذف، وحلف أن لا يكلم أخاه لأمه زياداً أبداً، وكان قدم البصرة مع عتبة بن غزوان {cite:futuh-buldan-maarif-1407}."
 wings: [people]
 themes: [slavery-and-freedom, converts-and-leavers]
 periods: [period/prophetic-era, period/rashidun]
@@ -20,7 +21,8 @@ faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630-01" }, note: "أسلم في حصار الطائف." }
 relations:
   - { type: member_of, target: group/thaqif }
-  - { type: participated_in, target: event/siege-of-taif, role: freed-slave-convert, sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/siege-of-taif, role: freed-slave-convert, sources: [source/ibn-hisham-saqqa, source/sahih-al-bukhari] }
+  - { type: participated_in, target: event/mughira-adultery-affair, sources: [source/futuh-buldan-maarif-1407] }
 provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 128", generated_by: "Devin", run: "ibn-hisham-batch-2b" }
-sources: [source/ibn-hisham-saqqa]
+sources: [source/ibn-hisham-saqqa, source/futuh-buldan-maarif-1407, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1, generated_by: "Devin; mined from Ibn Hisham juz' 4 p. 128" }
