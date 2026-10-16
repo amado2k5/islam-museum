@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2690"
-label: { ar: "الموطأ 2690", en: "Muwatta 2690" }
+label: { ar: "الموطأ 2690 — زيد بن أسلم عن جدته: لا تحقرن إحداكن لجارتها ولو كراع شاة محرقا", en: "Muwatta 2690" }
 summary:
-  ar: "النبي يحث النساء ألا تحقر إحداهن ما يُهدى لجارتها ولو كان شيئًا يسيرًا."
+  ar: "يروي مالك عن زيد بن أسلم عن عمرو بن سعد بن معاذ عن جدته أن رسول الله قال: يا نساء المؤمنات، لا تحقرن إحداكن لجارتها ولو كراع شاة محرقا. {cite:muwatta-maruf-1997 p.520}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2690 of kitab 31-jami at PDF p. 520", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b116" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/taam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/amr-ibn-said-ibn-muadh, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2690 at PDF p. 520; جامع ما جاء في الطعام والشراب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b100" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 520; matn excerpt at most 40 words" }

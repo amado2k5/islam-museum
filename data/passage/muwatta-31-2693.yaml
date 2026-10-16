@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2693"
-label: { ar: "الموطأ 2693", en: "Muwatta 2693" }
+label: { ar: "الموطأ 2693 — بلغ مالكا: النبي يدخل المسجد فيجد أبا بكر وعمر جائعين فيطعمهم أبو الهيثم", en: "Muwatta 2693" }
 summary:
-  ar: "النبي يدخل المسجد فيجد أبا بكر وعمر فيسألهما، فيذكران الجوع، فيذهبون إلى أبي الهيثم بن التيهان فيأمر لهم بطعام."
+  ar: "بلغ مالكا أن رسول الله دخل المسجد فوجد فيه أبا بكر الصديق وعمر بن الخطاب، فسألهما، فقالا: أخرجنا الجوع. فقال رسول الله: وأنا أخرجني الجوع. فذهبوا إلى أبي الهيثم بن التيهان الأنصاري، فأمر لهم بشعير عنده يُعمل، وقام يذبح لهم شاة، فقال رسول الله: نكّب عن ذات الدر، فذبح لهم شاة، واستعذب لهم ماء فعُلّق في نخلة، ثم أُتوا بذلك الطعام فأكلوا وشربوا، فقال رسول الله: لتُسألن عن نعيم هذا اليوم. {cite:muwatta-maruf-1997 p.521}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2693 of kitab 31-jami at PDF p. 521", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b116" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/taam, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/diyafa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-haytham-ibn-al-tayhan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2693 at PDF p. 521; جامع ما جاء في الطعام والشراب", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b100" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 521; matn excerpt at most 40 words" }
