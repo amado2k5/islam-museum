@@ -171,3 +171,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - place a–l batch 14 (Haiku 5.5, draft): 25 files, bahirat-bidasht-arzan → bandasa; 936 Arabic files in a–l at commit time.
 - person i–m batch 26 (25 files, mudad-ibn-amr … muhammad-farid) — Claude Haiku 5.5, draft
 - place a–l batch 15 (Haiku 5.5, draft): 25 files, bani-zandawi → barsaklafa; 936 Arabic files in a–l at commit time.
+- person s–z batch 19 (Claude Code, claude-haiku-5-5): wahb-ibn-sad-ibn-abi-sarh … yahya-ibn-aktham, 25 files, 25 files.
