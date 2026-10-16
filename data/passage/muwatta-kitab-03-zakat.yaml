@@ -5,10 +5,17 @@ work: work/muwatta-malik
 ref: "kitab-3"
 label: { ar: "الموطأ، كتاب الزكاة", en: "Muwatta, Book of Zakat" }
 summary:
-  ar: "كتاب الزكاة في الموطأ، المجلد الأول، يبدأ في صفحة 333 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Zakat in the Muwatta, volume 1, starting at PDF page 333 (PDF numbering, not the printed page)."
+  ar: "كتاب الزكاة، الكتاب الثالث من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997): 129 نصاً (652–780) في ثلاثين باباً، من الصفحة 333 إلى الصفحة 384 من ملف PDF المجلد الأول. يبدأ بما تجب فيه الزكاة ونصاب الذهب والورق والمعادن والركاز، ثم ما لا زكاة فيه من الحلي وأموال اليتامى والميراث والدين والعروض والكنز، ثم صدقة الماشية والخلطاء والسخل، وأخذ الصدقة ومن يجوز له أخذها، وزكاة الثمار والحبوب والزيتون، والرقيق والخيل والعسل، وجزية أهل الكتاب والمجوس وعشور أهل الذمة، واشتراء الصدقة، ويختم بأبواب زكاة الفطر. أكثر نصوصه أقوال لمالك. {cite:muwatta-maruf-1997 p.333} {cite:muwatta-maruf-1997 p.384}"
+  en: "The Book of Zakat, third book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997): 129 reports (652–780) in thirty babs, PDF pp. 333–384 of volume 1, mostly Malik's own rulings on thresholds, the zakat year, livestock, crops, jizya and zakat al-fitr."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab heading at PDF p. 333", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v1-batch-1" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/zakat-al-fitr, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nisab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/jizya, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ushr, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, kitab al-zakat, PDF pp. 333–384", generated_by: "Claude Code (claude-fable-5-1, Claude desktop app) from the OCR pages", model: "claude-fable-5-1", run: "muwatta-prose-k3-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-fable-5-1); chapter summary and prose written from the pages; draft" }

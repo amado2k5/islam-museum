@@ -8,10 +8,10 @@
 - Tools kept outside git (session scratchpad): a batch-apply script that rewrites a record from a JSON batch and checks honorifics, the 40-word cap on `text` and on every «…» quotation, and that every relation target exists.
 
 ## State
-- Kitab done: 1 (الصلاة, hadith 1–590, PDF pp. 33–303; 24 batches; chapter page written; records 546 and 547, skipped by the old lane, created); 2 (الجنائز, hadith 591–651, PDF pp. 305–332; 3 batches; chapter page written; record 617 created).
-- Kitab in progress: 3 (الزكاة, hadith 652–780, PDF pp. 333–384).
-- Record reached: 651 (kitab 2 complete).
-- REVIEW flags remaining: none in kitab 1–2; kitab 3–31 still carry theirs.
+- Kitab done: 1 (الصلاة, hadith 1–590, PDF pp. 33–303; 24 batches; chapter page written; records 546 and 547, skipped by the old lane, created); 2 (الجنائز, hadith 591–651, PDF pp. 305–332; 3 batches; chapter page written; record 617 created); 3 (الزكاة, hadith 652–780, PDF pp. 333–384; 6 batches; chapter page written).
+- Kitab in progress: 4 (الصيام, PDF pp. 385 ff.).
+- Record reached: 780 (kitab 3 complete).
+- REVIEW flags remaining: none in kitab 1–3; kitab 4–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
 
@@ -22,8 +22,5 @@
 - Existing `summary.en` lines (Devin, 12 Oct 2026) predate the rewrite; they remain as short glosses and are not updated here (English is Phase 4).
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
-## Paused (15 Oct 2026, on the founder's instruction)
-Kitab 3 (الزكاة, PDF pp. 333–384) has been read in full and its stubs are committed; batches 1–3 (hadith 652–726) are drafted as JSON in the session scratchpad but not yet applied to `data/passage/`, so every kitab 3 record still carries its old summary and REVIEW flag. Nothing of kitab 3 is on `main` except the stubs.
-
 ## Next step
-Resume kitab 3: apply the three drafted batches (652–676, 677–701, 702–726), write batches 727–751, 752–776 and 777–780 from pp. 365–384, then the chapter page `content/ar/passage/muwatta-kitab-03-zakat.md`. Same cycle: apply, commit explicit paths, rebase, coverage, validate, test, push. If the scratchpad is gone, rewrite the batches from the pages.
+Kitab 4 (الصيام): dump PDF pp. 385–418 of volume 1, write batches of 25, then the chapter page `content/ar/passage/muwatta-kitab-04-siyam.md`. Same cycle: apply, commit explicit paths, rebase, coverage, validate, test, push.
