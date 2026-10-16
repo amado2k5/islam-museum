@@ -3,12 +3,18 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-17"
-label: { ar: "الموطأ، كتاب البيوع", en: "Muwatta, Book of Sales" }
+label: { ar: "الموطأ، كتاب البيوع", en: "Muwatta, Book of Sales (buyu')" }
 summary:
-  ar: "كتاب البيوع في الموطأ، المجلد الثاني، يبدأ في صفحة 129 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Sales in the Muwatta, volume 2, starting at PDF page 129 (PDF numbering, not the printed page)."
+  ar: "كتاب البيوع، الكتاب السابع عشر من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997)، في المجلد الثاني: 226 نصا (1781–2006) في ستة وأربعين بابا، من الصفحة 129 إلى الصفحة 220 من ملف PDF المجلد الثاني. يبدأ ببيع العربون ومال المملوك والعهدة والعيب في الرقيق، ثم بيوع الثمار والزرع والجوائح والعرايا، ثم الصرف والمراطلة والعينة وبيع الطعام قبل استيفائه، ثم بيع الحيوان واللحم والكلب، والغرر والملامسة والمرابحة والبرنامج والخيار، والربا في الدين والشركة والإقالة، وإفلاس الغريم، والسلف وما يجوز منه وما لا يجوز، ويختم بالمساومة وجامع البيوع. {cite:muwatta-maruf-1997 p.129} {cite:muwatta-maruf-1997 p.220}"
+  en: "The Book of Sales, seventeenth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997), in volume 2: 226 reports (1781–2006) in forty-six babs, PDF pp. 129–220 of volume 2. It covers down-payment sales, the sale of a slave with property, warranty and defects, fruit and crops, calamity, the exchange of gold and silver, sale on credit, animals and meat, gharar, murabaha, the option of the parties, bankruptcy, advances (salaf), and the closing rules on sales."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 129", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/gharar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab al-buyu', PDF pp. 129–220", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k17-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }
