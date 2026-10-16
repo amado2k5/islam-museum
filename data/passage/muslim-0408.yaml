@@ -1,0 +1,15 @@
+id: passage/muslim-0408
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "408"
+label: { ar: "مسلم 408 — من صلى علي واحدة صلى الله عليه عشراً", en: "Muslim 408 — Whoever sends one prayer on me, God sends ten upon him" }
+text: "قال رسول الله: «من صلى علي واحدة صلى الله عليه عشراً»"
+summary:
+  ar: "رواية أبي هريرة في باب الصلاة على النبي بعد التشهد من كتاب الصلاة في صحيح مسلم؛ عشر بالواحدة صلاة من الله على من صلى على النبي."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الصلاة، باب الصلاة على النبي (طبعة دار التأصيل، ترقيم عبد الباقي المعروف 408)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

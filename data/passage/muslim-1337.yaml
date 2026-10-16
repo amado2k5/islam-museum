@@ -1,0 +1,15 @@
+id: passage/muslim-1337
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "1337"
+label: { ar: "مسلم 1337 — ما نهيتكم عنه فاجتنبوه وما أمرتكم به فائتوا منه ما استطعتم", en: "Muslim 1337 — What I forbid, avoid; what I command, do of it what you can" }
+text: "قال رسول الله: «ما نهيتكم عنه فاجتنبوه، وما أمرتكم به فافعلوا منه ما استطعتم؛ فإنما أهلك الذين من قبلكم كثرة مسائلهم واختلافهم على أنبيائهم»"
+summary:
+  ar: "رواية أبي هريرة في باب تحريم كثرة السؤال من كتاب العلم/الفضائل في صحيح مسلم؛ قاعدة الامتثال الكلي للنهي والامتثال المقدور للأمر، ويذيل بعلة هلاك الأمم بكثرة السؤال."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، باب تحريم كثرة الأسئلة (طبعة دار التأصيل، الحديث ٢٤٣٢؛ ترقيم عبد الباقي المعروف 1337)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }

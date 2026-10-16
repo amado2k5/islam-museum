@@ -1,0 +1,15 @@
+id: passage/muslim-0249
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "249"
+label: { ar: "مسلم 249 — أنتم أصحابي وإخواننا الذين لم يأتوا بعد", en: "Muslim 249 — You are my Companions; my brothers are those yet to come" }
+text: "قال رسول الله في المقبرة: «وددت أنا قد رأينا إخواننا»، قالوا: أولسنا إخوانك يا رسول الله؟ قال: «أنتم أصحابي، وإخواننا الذين لم يأتوا بعد»"
+summary:
+  ar: "رواية أبي هريرة في باب الحوض من كتاب الطهارة في صحيح مسلم؛ يفرّق النبي بين الصحابة الذين رأوه والإخوان المؤمنين الذين لم يأتوا، ويعرفهم عند الحوض بالغر والتحجيل."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الطهارة، باب الحوض (طبعة دار التأصيل، الحديث ٢٤٠؛ ترقيم عبد الباقي المعروف 249)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-3" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
