@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1660"
-label: { ar: "الموطأ 1660", en: "Muwatta 1660" }
+label: { ar: "الموطأ 1660 — مالك: الثيب إذا ملكها الرجل فلم يدخل بها تجري مجرى البكر، الواحدة تبينها والثلاث تحرمها حتى تنكح زوجا غيره", en: "Muwatta 1660" }
 summary:
-  ar: "مالك: والثيّب إذا ملكها الرجل فلم يدخل بها: إنها تجري مجرى البكر في... ؛ حكم الثيب قبل الدخول؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك والثيب إذا ملكها الرجل فلم يدخل بها، إنها تجري مجرى البكر: الواحدة تبينها، والثلاث تحرمها حتى تنكح زوجا غيره. {cite:muwatta-maruf-1997 p.83}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1660 of kitab 15-talaq at PDF p. 83", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-72" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1660 at PDF p. 83; طلاق البكر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b37" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 83; matn excerpt at most 40 words" }

@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1668"
-label: { ar: "الموطأ 1668", en: "Muwatta 1668" }
+label: { ar: "الموطأ 1668 — نافع عن ابن عمر: لكل مطلقة متعة، إلا التي فرض لها صداق ولم تمس فحسبها نصف ما فرض لها", en: "Muwatta 1668" }
 summary:
-  ar: "نافع عن ابن عمر: كان يقول: لكل مطلقة متعة؛ وجوب المتعة للمطلقة عنده."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أنه كان يقول لكل مطلقة متعة، إلا التي تطلق وقد فرض لها صداق ولم تمس، فحسبها نصف ما فرض لها. {cite:muwatta-maruf-1997 p.85}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1668 of kitab 15-talaq at PDF p. 85", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-73" }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1668 at PDF p. 85; ما جاء في متعة الطلاق", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b37" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 85; matn excerpt at most 40 words" }

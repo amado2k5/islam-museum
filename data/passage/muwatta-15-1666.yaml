@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1666"
-label: { ar: "الموطأ 1666", en: "Muwatta 1666" }
+label: { ar: "الموطأ 1666 — مالك: إن طلقها وهو مريض قبل الدخول فلها نصف الصداق والميراث ولا عدة، وإن دخل بها ثم طلقها فلها المهر كله والميراث، والبكر والثيب سواء", en: "Muwatta 1666" }
 summary:
-  ar: "مالك: وإن طلقها وهو مريض قبل أن يدخل بها، فلها نصف الصداق ولها الميراث... ؛ حكم ميراث المطلقة في مرض الموت؛ الحكم يحتاج مراجعة."
+  ar: "يقول مالك وإن طلقها وهو مريض قبل أن يدخل بها، فلها نصف الصداق، ولها الميراث، ولا عدة عليها. وإن دخل بها ثم طلقها، فلها المهر كله والميراث. البكر والثيب في هذا عندنا سواء. {cite:muwatta-maruf-1997 p.84}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1666 of kitab 15-talaq at PDF p. 84", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k15-batch-73" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1666 at PDF p. 84; طلاق المريض", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b37" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 84; matn excerpt at most 40 words" }
