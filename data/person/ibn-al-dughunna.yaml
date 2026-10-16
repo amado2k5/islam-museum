@@ -1,0 +1,22 @@
+id: person/ibn-al-dughunna
+class: person
+label: { ar: "ابن الدغنة", en: "Ibn al-Dughunna" }
+names:
+  - { kind: full, lang: ar, value: "ابن الدغنة الحارث بن يزيد القاري" }
+gender: male
+summary:
+  ar: "سيد من القارة، أجار أبا بكر حين همّ بالهجرة إلى الحبشة فأرجعه معه إلى مكة."
+  en: "A chief of al-Qara who gave Abu Bakr protection when he set out to emigrate to Abyssinia and brought him back to Mecca."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+relations:
+  - { type: participated_in, target: event/year-of-sorrow, role: "أجار أبا بكر", sources: [source/mubarakpuri-raheeq] }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص117 نقلاً عن صحيح البخاري 1/548 و1/216 ومسلم وابن هشام 1/416–419، 1/372–377 والبداية والنهاية 3/30 ورحمة للعالمين 2/164–165"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-9b"
+status: { review: draft, completeness: 1, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum p. 117" }

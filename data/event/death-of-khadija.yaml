@@ -1,0 +1,25 @@
+id: event/death-of-khadija
+class: event
+kind: death
+label: { ar: "وفاة خديجة بنت خويلد", en: "Death of Khadija bint Khuwaylid" }
+summary:
+  ar: "توفيت خديجة أم المؤمنين في رمضان من السنة العاشرة من البعثة، بعد وفاة أبي طالب بنحو شهرين أو ثلاثة، ولها خمس وستون سنة والنبي في الخمسين."
+  en: "Khadija, mother of the believers, died in Ramadan of the tenth year of the mission, about two or three months after Abu Talib, aged sixty-five while the Prophet was fifty."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0619-04~", calendar: julian, precision: month, status: tradition, note: "رمضان من السنة العاشرة من البعثة (الرحيق ص116؛ رحمة للعالمين 2/164)." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/khadija, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/rahma-lil-alamin, source/musnad-ahmad]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص115–124 نقلاً عن صحيح البخاري 1/548 و1/216 ومسلم وابن هشام 1/416–419، 1/372–377 والبداية والنهاية 3/30 ورحمة للعالمين 2/164–165"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-9b"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum p. 116" }

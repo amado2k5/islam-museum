@@ -21,7 +21,7 @@
 | 6 المولد وأربعون عاماً | 54–64 | **done**: 6a `d3807837`, 6b `f2c4737e`, 6c `cb5e124b` (birth, nursing, Banu Sad, shaqq al-sadr, Amina, Abd al-Muttalib, istisqa; concept istirda-al-badiya, place bilad-banu-sad) (Bahira, Busra, Fijar, Qays Aylan, Hilf al-Fudul, Banu al-Muttalib, Abu Qubays, trade journey, marriage, Khadija, Maysara, Nafisa, Ahlaf clans), 6c (Kaaba rebuilt, Abu Umayya, Baqum, al-Walid, al-Abbas, concept al-amin, question, the seven children, Muhammad youth and character) |
 | 7 في ظلال النبوة / الدعوة السرية | 65–77 | **done**: 7a `10ff236c` (revelation, pause, modes of revelation, second revelation, the call's stages), 7b (the three-year secret call, early Muslims, Maz'un brothers, concept al-salat-qabl-al-isra; sections on the early Muslims' companions) |
 | 8 الدعوة جهاراً | 78–108 | **done**: 8a `a9955afe` (pp. 78–87), 8b `ee9a3948` (pp. 88–100), 8c (pp. 100–108: Hamza, Umar, Utba's offer, Abu Talib's gathering rewritten with page cites) |
-| 9 المقاطعة / عام الحزن | 109–124 | in progress: 9a (pp. 109–115: the covenant, the siege at Shi'b Abi Talib, the nullification, the last delegation) applied; 9b (pp. 115–124: Abu Talib's and Khadija's deaths, Sawda, the Year of Sorrow, the sources of patience) pending |
+| 9 المقاطعة / عام الحزن | 109–124 | **done**: 9a `5960d545` (pp. 109–115: covenant, siege, nullification, last delegation), 9b (pp. 115–124: deaths of Abu Talib and Khadija, Year of Sorrow, Ibn al-Dughunna, Sawda, sources of steadfastness appended to concept sabr) |
 | 10 خارج مكة / الإسراء | 125–142 | pending |
 | 11 بيعتا العقبة / دار الندوة | 143–160 | pending |
 | 12 الهجرة | 161–174 | pending |

@@ -1,0 +1,28 @@
+id: event/death-of-abu-talib
+class: event
+kind: death
+label: { ar: "وفاة أبي طالب", en: "Death of Abu Talib" }
+summary:
+  ar: "توفي أبو طالب، عم النبي وحاميه، في رجب من السنة العاشرة من البعثة بعد خروج بني هاشم من الشعب بستة أشهر على ترجيح الكتاب، وقيل في رمضان قبل وفاة خديجة بثلاثة أيام؛ وقد دعاه النبي عند موته إلى قول لا إله إلا الله فأبى وبقي على ملة عبد المطلب."
+  en: "Abu Talib, the Prophet's uncle and protector, died in Rajab of the tenth year of the mission, six months after Banu Hashim left the ravine on the book's reckoning, though another view places it in Ramadan three days before Khadija's death; the Prophet asked him at the end to say there is no god but God, and he refused, remaining on the religion of Abd al-Muttalib."
+wings: [time, people]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0619-07~", calendar: julian, precision: month, status: debated, note: "رجب من السنة العاشرة من البعثة على ترجيح الكتاب، وقيل رمضان؛ الكتاب يرجّح رجب (الرحيق ص115 هامش)." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-talib, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/muhammad, sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abu-jahl, role: "حاضر عند الموت", sources: [source/mubarakpuri-raheeq] }
+  - { type: had_participant, target: person/abdullah-ibn-abi-umayya, role: "حاضر عند الموت", sources: [source/mubarakpuri-raheeq] }
+  - { type: caused, target: event/year-of-sorrow, sources: [source/mubarakpuri-raheeq] }
+  - { type: part_of, target: period/prophetic-era }
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/sahih-muslim]
+provenance:
+  layer: own-research
+  source: "الرحيق المختوم ص115–124 نقلاً عن صحيح البخاري 1/548 و1/216 ومسلم وابن هشام 1/416–419، 1/372–377 والبداية والنهاية 3/30 ورحمة للعالمين 2/164–165"
+  generated_by: "Claude Code"
+  model: "claude-haiku-5-5"
+  run: "raheeq-prose-batch-9b"
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); al-Raheeq al-Makhtum pp. 115–116" }
