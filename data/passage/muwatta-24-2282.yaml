@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2282"
-label: { ar: "الموطأ 2282", en: "Muwatta 2282" }
+label: { ar: "الموطأ 2282 — مالك: ولاء العبد المعتق من الكافر إذا أسلم", en: "Muwatta 2282" }
 summary:
-  ar: "مالك في اليهودي والنصراني يُسلم عبد أحدهما فيعتقه قبل أن يُباع عليه: إن... ؛ عتق العبد المسلم لسيده الكتابي؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك في يهودي أو نصراني يُسلم عبدُ أحدهما فيعتقه قبل أن يُباع عليه: إن ولاء العبد المعتَق للمسلمين، ولا يرجع إلى السيد الكافر بعد إسلامه. أما إن أعتق الكافر عبدا على دينه ثم أسلم المعتَق قبل أن يسلم معتِقه، ثم أسلم المعتِق، رجع إليه الولاء لأنه ثبت له يوم العتق. وإن كان للكافر ولد مسلم يرث موالي أبيه في الحال الأولى، أما إن كان المعتَق مسلما وقت العتق فلا يكون لولد الكافر من ولائه شيء. {cite:muwatta-maruf-1997 p.341}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2282 of kitab 24-itq at PDF p. 341", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-98a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2282 at PDF p. 341; ميراث السائبة وولاء من أعتق اليهودي والنصراني", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b70" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 341; matn excerpt at most 40 words" }

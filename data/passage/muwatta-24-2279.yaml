@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2279"
-label: { ar: "الموطأ 2279", en: "Muwatta 2279" }
+label: { ar: "الموطأ 2279 — مالك: سعيد بن المسيب في ولاء الموالي بين الورثة", en: "Muwatta 2279" }
 summary:
-  ar: "مالك: بلغه أن سعيد بن المسيب قال في رجل هلك وترك بنين له ثلاثة... ؛ قول سعيد في ميراث الولاء؛ الحكم يحتاج مراجعة."
+  ar: "بلغ مالكا أن سعيد بن المسيب قال في رجل هلك وترك ثلاثة بنين وموالي أعتقهم، ثم هلك اثنان من بنيه وتركا أولادا: إن الباقي من الثلاثة يرث ولاء الموالي، فإذا هلك فولده وولد إخوته في ولاء الموالي سواء. {cite:muwatta-maruf-1997 p.340}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2279 of kitab 24-itq at PDF p. 340", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-98a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2279 at PDF p. 340; ميراث الولاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b70" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 340; matn excerpt at most 40 words" }

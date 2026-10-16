@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2287"
-label: { ar: "الموطأ 2287", en: "Muwatta 2287" }
+label: { ar: "الموطأ 2287 — حميد بن قيس المكي: مكاتب ابن المتوكل بمكة", en: "Muwatta 2287" }
 summary:
-  ar: "مالك عن حميد بن قيس المكي: أن مكاتبًا كان لابن المتوكل هلك بمكة... ؛ قصة مكاتب توفي بمكة وماله؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن حميد بن قيس المكي أن مكاتبا لابن المتوكل هلك بمكة وعليه بقية من كتابته وديون للناس، وترك ابنة. فكتب عامل مكة إلى عبد الملك بن مروان يسأله، فأمره أن يبدأ بديون الناس، ثم يُقضى ما بقي من الكتابة، ثم يُقسم الباقي من ماله بين ابنته ومولاه. {cite:muwatta-maruf-1997 p.344}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2287 of kitab 25-mukatab at PDF p. 344", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-99" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-ibn-qays-al-makki, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-malik-ibn-marwan, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2287 at PDF p. 344; القضاء في المكاتب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b70" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 344; matn excerpt at most 40 words" }

@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2277"
-label: { ar: "الموطأ 2277", en: "Muwatta 2277" }
+label: { ar: "الموطأ 2277 — عبد الله بن أبي بكر بن حزم: ولاء الموالي بعد موت الوارث", en: "Muwatta 2277" }
 summary:
-  ar: "مالك عن عبد الله بن أبي بكر بن محمد بن عمرو بن حزم عن عبد الملك بن أبي بكر... ؛ حديث في الولاء أو العتق؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن عبد الله بن أبي بكر بن حزم عن عبد الملك بن أبي بكر بن عبد الرحمن بن الحارث بن هشام عن أبيه، أن العاص بن هشام توفي عن ثلاثة بنين، اثنين لأم وواحد من أم أخرى. فورث أحد الشقيقين ماله وولاء موالي أبيه، ثم توفي الوارث وترك ابنه وأخاه لأبيه، فاختصما إلى عثمان بن عفان، فقضى للأخ بولاء الموالي. {cite:muwatta-maruf-1997 p.339}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-24-itq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2277 of kitab 24-itq at PDF p. 339", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k24-batch-98a" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-abi-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-malik-ibn-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-as-ibn-hisham, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/wala, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2277 at PDF p. 339; ميراث الولاء", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b70" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 339; matn excerpt at most 40 words" }

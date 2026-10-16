@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2288"
-label: { ar: "الموطأ 2288", en: "Muwatta 2288" }
+label: { ar: "الموطأ 2288 — مالك: لا يجب على السيد أن يكاتب عبده إذا سأله", en: "Muwatta 2288" }
 summary:
-  ar: "مالك: الأمر عندنا أنه ليس على سيد العبد أن يكاتبه إذا سأله ذلك، ولم أسمع... ؛ عدم وجوب الكتابة على السيد؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: الأمر عندنا أنه ليس على سيد العبد أن يكاتبه إذا سأله ذلك، ولم يُعلم أن أحدا من الأئمة أكره رجلا على مكاتبة عبده. وسمع مالك بعض أهل العلم يستدل بآية في سورة النور على الاستحباب، ويذكر آيتين في سورتي المائدة والجمعة، ويقول: إن الأمر أذن الله فيه للناس وليس بواجب. {cite:muwatta-maruf-1997 p.344}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2288 of kitab 25-mukatab at PDF p. 344", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-99" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-24-33, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-5-2, sources: [source/muwatta-maruf-1997] }
+  - { type: related_to, target: passage/quran-62-10, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2288 at PDF p. 344; القضاء في المكاتب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b70" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 344; matn excerpt at most 40 words" }

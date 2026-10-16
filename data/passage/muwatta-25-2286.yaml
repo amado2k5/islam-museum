@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2286"
-label: { ar: "الموطأ 2286", en: "Muwatta 2286" }
+label: { ar: "الموطأ 2286 — مالك: ميراث المكاتب إذا ترك مالا يفي بالكتابة", en: "Muwatta 2286" }
 summary:
-  ar: "مالك: فإن هلك المكاتب وترك مالًا أكثر مما بقي عليه من كتابته، وله ولد و... ؛ تركة المكاتب المتوفى وحق ولده؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: إذا هلك المكاتب وترك مالا أكثر مما بقي عليه من الكتابة، وله ولد ولدوا في كتابته أو كوتبوا معه، ورثوا ما بقي من المال بعد قضاء الكتابة. {cite:muwatta-maruf-1997 p.343} {cite:muwatta-maruf-1997 p.344}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2286 of kitab 25-mukatab at PDF p. 343", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k25-batch-99" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/mukatab, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2286 at PDF p. 343; القضاء في المكاتب", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-b70" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 343; matn excerpt at most 40 words" }

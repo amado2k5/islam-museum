@@ -5,10 +5,10 @@ work: work/muwatta-malik
 ref: "kitab-24"
 label: { ar: "الموطأ، كتاب العتق والولاء", en: "Muwatta, Book of Manumission and patronage" }
 summary:
-  ar: "كتاب العتق والولاء في الموطأ، المجلد الثاني، يبدأ في صفحة 323 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Manumission and patronage in the Muwatta, volume 2, starting at PDF page 323 (PDF numbering, not the printed page)."
+  ar: "كتاب العتق والولاء في الموطأ، المجلد الثاني، من صفحة 323 إلى 341 بترقيم ملف PDF، ويضم 43 نصا مرقوما (2240–2282) في ثلاثة عشر بابا."
+  en: "The Book of Manumission and patronage in the Muwatta, volume 2, PDF pages 323 to 341 (PDF numbering), with 43 numbered reports (2240–2282) in thirteen babs."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 323", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 323; hadith 2240–2282 at PDF pp. 323–341", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k24-chapter" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); chapter record written after 2282; own-words accounts; no hadith text stored" }
