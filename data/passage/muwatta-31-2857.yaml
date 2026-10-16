@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2857"
-label: { ar: "الموطأ 2857", en: "Muwatta 2857" }
+label: { ar: "الموطأ 2857 — عامل الصدقة من بني عبد الأشهل يسأل النبي إبلا من الصدقة فيغضب النبي", en: "Muwatta 2857" }
 summary:
-  ar: "النبي استعمل رجلًا من بني عبد الأشهل على الصدقة، فلما عاد طلب منه إبلًا من الصدقة، فغضب النبي حتى عُرف الغضب في وجهه."
+  ar: "يروي مالك عن عبد الله بن أبي بكر، عن أبيه، أن رسول الله استعمل رجلا من بني عبد الأشهل على الصدقة، فلما قدم سأله إبلا من الصدقة. فغضب رسول الله حتى عرف الغضب في وجهه، وكانت علامة غضبه أن تحمر عيناه، ثم قال: إن الرجل ليسألني ما لا يصلح لي ولا له، فإن منعته كرهت المنع، وإن أعطيته أعطيته ما لا يصلح لي ولا له. فقال الرجل: يا رسول الله، لا أسألك منها شيئا أبدا. ويذكر المحقق قول ابن عبد البر أن جماعة الرواة رووه عن مالك مرسلا، وأن أحمد بن منصور التلي رواه عن مالك عن عبد الله بن أبي بكر عن أنس، ويرى المحقق أن هذه الرواية لا يعول عليها بالنسبة لمن رواه مرسلا. {cite:muwatta-maruf-1997 p.600} {cite:muwatta-maruf-1997 p.601}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2857 of kitab 31-jami at PDF p. 600", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b123" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abi-bakr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-bakr-ibn-hazm, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2857 at PDF p. 600; ما يكره من الصدقة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b113" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 600; matn excerpt at most 40 words" }
