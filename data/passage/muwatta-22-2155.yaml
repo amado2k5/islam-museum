@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2155"
-label: { ar: "الموطأ 2155", en: "Muwatta 2155" }
+label: { ar: "الموطأ 2155 — يحيى عن مالك عن ابن شهاب عن سنين أبي جميلة رجل من بني سليم: وجد منبوذا في زمان عمر بن الخطاب، فجاء به إلى عمر، فسأله عمر، فقال: وجدته ضائعة فأخذته، فقال عريفه: إنه رجل صالح، فقال عمر: اذهب فهو حر، وله ولاؤه، وعلينا نفقته", en: "Muwatta 2155" }
 summary:
-  ar: "يحيى: قال مالك عن ابن شهاب عن سنين أبي جميلة رجل من بني سليم: أنه وجد منبوذًا... ؛ حكم اللقيط المنبوذ؛ تفاصيل الواقعة غير واضحة."
+  ar: "قال يحيى: قال مالك عن ابن شهاب عن سنين أبي جميلة، رجل من بني سليم، أنه وجد منبوذا في زمان عمر بن الخطاب، قال: فجئت به إلى عمر بن الخطاب، فقال: ما حملك على أخذ هذه النسمة؟ فقال: وجدتها ضائعة فأخذتها. فقال له عريفه: يا أمير المؤمنين، إنه رجل صالح. فقال له عمر: أكذلك؟ قال: نعم. فقال عمر بن الخطاب: اذهب فهو حر، ولك ولاؤه، وعلينا نفقته. {cite:muwatta-maruf-1997 p.282}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2155 of kitab 22-aqdiya at PDF p. 282", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-93" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sunayn-abi-jamila, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2155 at PDF p. 282; القضاء في المنبوذ", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b62" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الواقعة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 282; matn excerpt at most 40 words" }

@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2154"
-label: { ar: "الموطأ 2154", en: "Muwatta 2154" }
+label: { ar: "الموطأ 2154 — مالك عن يحيى بن سعيد عن سعيد بن المسيب: وجد رجل من أهل الشام يقال له ابن خيبري مع امرأته رجلا فقتله، فأشكل القضاء على معاوية، فكتب إلى أبي موسى، فسأل علي بن أبي طالب، فقال: إن لم يأت بأربعة شهداء فليعط برمته", en: "Muwatta 2154" }
 summary:
-  ar: "مالك عن يحيى بن سعيد عن سعيد بن المسيب: حديث في القضاء أو الحدود؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد عن سعيد بن المسيب أن رجلا من أهل الشام، يقال له ابن خيبري، وجد مع امرأته رجلا فقتله، أو قتلها، فأشكل على معاوية بن أبي سفيان القضاء فيه، فكتب إلى أبي موسى الأشعري يسأل له علي بن أبي طالب عن ذلك. فسأل أبو موسى عليا، فقال: أنا أبو حسن: إن لم يأت بأربعة شهداء فليعط برمته. {cite:muwatta-maruf-1997 p.281} {cite:muwatta-maruf-1997 p.282}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2154 of kitab 22-aqdiya at PDF p. 281", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-93" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muawiya-ibn-abi-sufyan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ali-ibn-abi-talib, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2154 at PDF p. 281; القضاء فيمن وجد مع امرأته رجلا", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b62" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 281; matn excerpt at most 40 words" }

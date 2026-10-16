@@ -3,11 +3,21 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2157"
-label: { ar: "الموطأ 2157", en: "Muwatta 2157" }
+label: { ar: "الموطأ 2157 — يحيى عن مالك عن ابن شهاب عن عروة عن عائشة: عهد عتبة بن أبي وقاص إلى أخيه سعد أن ابن وليدة زمعة مني فاقبضه، فلما كان عام الفتح أخذه سعد، وقال ابن أخي، فقام عبد بن زمعة فقال أخي، ولد على فراشه، فقضى النبي: هو لك يا عبد بن زمعة، الولد للفراش وللعاهر الحجر، واحتجبي منه يا سودة", en: "Muwatta 2157" }
 summary:
-  ar: "يحيى عن مالك عن ابن شهاب عن عروة بن الزبير عن عائشة زوج النبي ﷺ: أنها قالت... ؛ حديث في القضاء أو الأحكام؛ تفاصيل المتن غير واضحة."
+  ar: "قال يحيى: قال مالك عن ابن شهاب عن عروة بن الزبير عن عائشة زوج النبي أنها قالت: كان عتبة بن أبي وقاص عهد إلى أخيه سعد بن أبي وقاص أن ابن وليدة زمعة مني، فاقبضه إليك. قالت: فلما كان عام الفتح أخذه سعد، وقال: ابن أخي، قد كان عهد إلي فيه. فقام إليه عبد بن زمعة فقال: أخي، وابن وليدة أبي، ولد على فراشه. فتساوقا إلى رسول الله، فقال سعد: يا رسول الله، ابن أخي، قد كان عهد إلي فيه. وقال عبد بن زمعة: أخي، وابن وليدة أبي، ولد على فراشه. فقال رسول الله: هو لك يا عبد بن زمعة. ثم قال رسول الله: الولد للفراش، وللعاهر الحجر. ثم قال لسودة بنت زمعة: احتجبي منه، لما رأى من شبهه بعتبة بن أبي وقاص. قالت: فما رآها حتى لقي الله عز وجل. {cite:muwatta-maruf-1997 p.283}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2157 of kitab 22-aqdiya at PDF p. 283", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-93" }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/utba-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-ibn-zamah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/sawda-bint-zama, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/qada, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2157 at PDF p. 283; القضاء بإلحاق الولد بأبيه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b62" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 283; matn excerpt at most 40 words" }

@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2152"
-label: { ar: "الموطأ 2152", en: "Muwatta 2152" }
+label: { ar: "الموطأ 2152 — مالك عن عبد الرحمن بن محمد بن عبد الله بن عبد القاري عن أبيه: قدم على عمر بن الخطاب رجل من قبل أبي موسى الأشعري، فسأله عن الناس، ثم قال: هل كان فيكم من مغربة خبر؟ قال: نعم، رجل كفر بعد إسلامه، فقتلوه. فقال عمر: أفلا حبستموه ثلاثا وأطعمتموه كل يوم رغيفا واستتبتموه؟", en: "Muwatta 2152" }
 summary:
-  ar: "مالك عن عبد الرحمن بن محمد بن عبد الله بن عبد القاري عن أبيه: أنه قال: قدم... ؛ قصة في القضاء أو الحدود؛ تفاصيل القصة غير واضحة."
+  ar: "يروي مالك عن عبد الرحمن بن محمد بن عبد الله بن عبد القاري عن أبيه أنه قال: قدم على عمر بن الخطاب رجل من قبل أبي موسى الأشعري، فسأله عن الناس، فأخبره، ثم قال له عمر: هل كان فيكم من مغربة خبر؟ فقال: نعم، رجل كفر بعد إسلامه. قال: فما فعلتم به؟ قال: قربناه فضربنا عنقه. فقال عمر: أفلا حبستموه ثلاثا، وأطعمتموه كل يوم رغيفا، واستتبتموه لعله يتوب ويراجع أمر الله؟ ثم قال عمر: اللهم إني لم أحضر، ولم آمر، ولم أرض، إذ بلغني. {cite:muwatta-maruf-1997 p.280} {cite:muwatta-maruf-1997 p.281}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-22-aqdiya }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2152 of kitab 22-aqdiya at PDF p. 280", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k22-batch-93" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abd-al-rahman-ibn-muhammad-ibn-abdallah-ibn-abd-al-qari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-musa-al-ashari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riddah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2152 at PDF p. 280; القضاء فيمن ارتد عن الإسلام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k22-b62" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل القصة غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 280; matn excerpt at most 40 words" }
