@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "796"
-label: { ar: "الموطأ 796", en: "Muwatta 796" }
+label: { ar: "الموطأ 796 — سمي وأبو بكر بن عبد الرحمن: عائشة وأم سلمة قالتا إن كان النبي يصبح جنباً من جماع ثم يصوم", en: "Muwatta 796" }
 summary:
-  ar: "سمي عن أبي بكر بن عبد الرحمن عن عائشة: حديث في الصيام عند الجنابة؛ تفاصيل المتن غير واضحة."
+  ar: "يرويه مالك عن سمي مولى أبي بكر بن عبد الرحمن عن أبي بكر بن عبد الرحمن عن عائشة وأم سلمة زوجي النبي، أنهما قالتا: إن كان رسول الله يصبح جنباً من جماع غير احتلام ثم يصوم. ويذكر المحقق أنه تقدم الكلام عليه مفصلاً في الحديث السابق. {cite:muwatta-maruf-1997 p.392}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 796 of kitab 04-siyam at PDF p. 392", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-36b" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ghusl, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 796 at PDF p. 392; باب ما جاء في صيام الذي يصبح جنباً", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 392; matn excerpt at most 40 words" }

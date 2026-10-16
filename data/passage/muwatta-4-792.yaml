@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "792"
-label: { ar: "الموطأ 792", en: "Muwatta 792" }
+label: { ar: "الموطأ 792 — عمر وعثمان يصليان المغرب حين ينظران الليل الأسود قبل أن يفطرا، ثم يفطران بعد الصلاة في رمضان", en: "Muwatta 792" }
 summary:
-  ar: "ابن شهاب عن حميد بن عبد الرحمن: أن عمر بن الخطاب وعثمان بن عفان... ؛ أثر في الإفطار؛ تفاصيل الأثر غير واضحة."
+  ar: "يرويه مالك عن ابن شهاب عن حميد بن عبد الرحمن، أن عمر بن الخطاب وعثمان بن عفان كانا يصليان المغرب حين ينظران إلى الليل الأسود قبل أن يفطرا، ثم يفطران بعد الصلاة، وذلك في رمضان. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والقعنبي والتنيسي عند البخاري (1957)، وأن عبد الرزاق (7588) رواه عن معمر عن الزهري. {cite:muwatta-maruf-1997 p.389} {cite:muwatta-maruf-1997 p.390}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 792 of kitab 04-siyam at PDF p. 389", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-36b" }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/uthman-ibn-affan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/humayd-ibn-abd-al-rahman-ibn-awf, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-bukhari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 792 at PDF p. 389; باب ما جاء في تعجيل الفطر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 389; matn excerpt at most 40 words" }

@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "802"
-label: { ar: "الموطأ 802", en: "Muwatta 802" }
+label: { ar: "الموطأ 802 — عائشة: كانت إذا ذكرت أن النبي كان يقبّل وهو صائم تقول: وأيكم أملك لنفسه من رسول الله", en: "Muwatta 802" }
+text: "وأيكم أملك لنفسه من رسول الله"
 summary:
-  ar: "بلغ مالكًا أن عائشة زوج النبي ﷺ كانت إذا ذكرت أن رسول الله ﷺ كان يقبّل وهو صائم... ؛ أثر عن عائشة في القبلة للصائم."
+  ar: "أول حديث في باب ما جاء في التشديد في القبلة للصائم. يروي مالك أنه بلغه أن عائشة زوج النبي كانت إذا ذكرت أن رسول الله كان يقبّل وهو صائم تقول: وأيكم أملك لنفسه من رسول الله. ويذكر المحقق أن هذه الرواية بالبلاغ، وأن المسند الجامع أحال على أحاديث في ذلك. {cite:muwatta-maruf-1997 p.394}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 802 of kitab 04-siyam at PDF p. 394", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-37" }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 802 at PDF p. 394; باب ما جاء في التشديد في القبلة للصائم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل الأثر تحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 394; matn excerpt at most 40 words" }

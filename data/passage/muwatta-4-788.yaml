@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "788"
-label: { ar: "الموطأ 788", en: "Muwatta 788" }
+label: { ar: "الموطأ 788 — ابن عمر: لا يصوم إلا من أجمع الصيام قبل الفجر", en: "Muwatta 788" }
+text: "لا يصوم إلا من أجمع الصيام قبل الفجر"
 summary:
-  ar: "نافع عن ابن عمر: كان يقول: لا يصوم إلا من أجمع الصيام من الليل؛ اشتراط النية من الليل في صيام الفرض."
+  ar: "أول حديث في باب من أجمع على الصيام قبل الفجر. يرويه مالك عن نافع عن عبد الله بن عمر أنه كان يقول: لا يصوم إلا من أجمع الصيام قبل الفجر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد ومحمد بن الحسن الشيباني (372) ويحيى بن بكير عند البيهقي (4/202). {cite:muwatta-maruf-1997 p.388}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 788 of kitab 04-siyam at PDF p. 388", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-36b" }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-mawla-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 788 at PDF p. 388; باب من أجمع على الصيام قبل الفجر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 388; matn excerpt at most 40 words" }

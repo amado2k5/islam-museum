@@ -3,11 +3,17 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "797"
-label: { ar: "الموطأ 797", en: "Muwatta 797" }
+label: { ar: "الموطأ 797 — عطاء بن يسار: رجل قبّل امرأته وهو صائم في رمضان فوجد من ذلك وجداً شديداً، فأرسل امرأته تسأل أم سلمة", en: "Muwatta 797" }
 summary:
-  ar: "زيد بن أسلم عن عطاء بن يسار: أن رجلًا قبّل امرأته وهو صائم... ؛ حكم القبلة للصائم."
+  ar: "أول حديث في باب ما جاء في الرخصة في القبلة للصائم. يرويه مالك عن زيد بن أسلم عن عطاء بن يسار، أن رجلاً قبّل امرأته وهو صائم في رمضان فوجد من ذلك وجداً شديداً، فأرسل امرأته تسأل أم سلمة زوج النبي، فأخبرتها أم سلمة أن النبي كان يقبّل وهو صائم، فرجعت فأخبرت زوجها فزاده ذلك شراً وقال: لسنا مثل رسول الله، الله يحل لرسوله ما شاء. فرجعت امرأته إلى أم سلمة فوجدت عندها النبي، فقال: ما لهذه المرأة؟ فأخبرته أم سلمة، فقال: ألا أخبرتيها أني أفعل ذلك؟ فقالت: قد أخبرتها، فذهبت إلى زوجها فأخبرته، فزاده ذلك شراً، فغضب النبي وقال: والله إني لأتقاكم لله، وأعلمكم بحدوده. ويذكر المحقق أن الحديث رواه عن مالك أبو مصعب (351) وسويد والشافعي في الرسالة ومحمد بن الحسن الشيباني (352)، وأنه روي عن عبد الرزاق (7412) عن ابن جريج عن زيد بن أسلم. {cite:muwatta-maruf-1997 p.392} {cite:muwatta-maruf-1997 p.394}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 797 of kitab 04-siyam at PDF p. 392", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-36b" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-salama, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ata-ibn-yasar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/zayd-ibn-aslam, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-shafii, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 797 at PDF p. 392; باب ما جاء في الرخصة في القبلة للصائم", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 392; matn excerpt at most 40 words" }

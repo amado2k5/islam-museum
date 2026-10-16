@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "793"
-label: { ar: "الموطأ 793", en: "Muwatta 793" }
+label: { ar: "الموطأ 793 — عائشة وأم سلمة: رجل يسأل النبي وهو على الباب: أصبح جنباً وأريد الصيام، فيقول النبي: فأغتسل وأصوم", en: "Muwatta 793" }
+text: "فأغتسل وأصوم"
 summary:
-  ar: "عبد الله بن عبد الرحمن بن نعمر عن أبي يونس مولى عائشة: حديث في الصيام؛ تفاصيل المتن غير واضحة."
+  ar: "أول حديث في باب ما جاء في صيام الذي يصبح جنباً. يرويه مالك عن عبد الله بن عبد الرحمن بن معمر الأنصاري عن أبي يونس مولى عائشة عن عائشة، أن رجلاً قال للنبي وهو واقف على الباب: إني أصبح جنباً وأنا أريد الصيام. فقال النبي: وأنا أصبح جنباً وأنا أريد الصيام، فأغتسل وأصوم. فقال الرجل: إنك لست مثلنا، قد غفر الله لك ما تقدم من ذنبك وما تأخر، فغضب النبي وقال: والله إني لأرجو أن أكون أخشاكم لله وأعلمكم بما أتقي. ويذكر المحقق أن عبارة «زوج النبي» ليست في م، وأن الحديث رواه عن مالك أبو مصعب وإسماعيل بن عمر ورُوح بن عبادة وسويد والقعنبي عند أبي داود (2389)، ويحيى بن بكير وغيرهم. {cite:muwatta-maruf-1997 p.390}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 793 of kitab 04-siyam at PDF p. 390", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-36b" }
+  - { type: mentions, target: person/muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-yunus-mawla-aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdallah-ibn-abd-al-rahman-ibn-mamar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/ghusl, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 793 at PDF p. 390; باب ما جاء في صيام الذي يصبح جنباً", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 390; matn excerpt at most 40 words" }

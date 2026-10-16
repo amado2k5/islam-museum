@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "789"
-label: { ar: "الموطأ 789", en: "Muwatta 789" }
+label: { ar: "الموطأ 789 — عائشة وحفصة: مثل ذلك", en: "Muwatta 789" }
 summary:
-  ar: "ابن شهاب عن عائشة وحفصة زوجي النبي ﷺ: مثل ذلك؛ اشتراط النية من الليل."
+  ar: "يرويه مالك عن ابن شهاب عن عائشة وحفصة زوجي النبي مثل ذلك، أي مثل قول ابن عمر في اشتراط الإجماع قبل الفجر. ويذكر المحقق أن في نسخة م «بمثل»، وأن يحيى بن أيوب رواه عن عبد الله بن أبي بكر عن الزهري عن سالم عن أبيه عن حفصة عن النبي مرفوعاً، وأن الترمذي (730) قال إن حديث حفصة لا يُعرف مرفوعاً إلا من هذا الوجه، وأن الصحيح عنده الموقوف، ويحيل على العلل الكبير (202). {cite:muwatta-maruf-1997 p.388}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-04-siyam }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 789 of kitab 04-siyam at PDF p. 388", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k4-batch-36b" }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/hafsa, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-tirmidhi-muhammad-ibn-isa, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/sawm-ramadan, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 789 at PDF p. 388; باب من أجمع على الصيام قبل الفجر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k4-b01" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 388; matn excerpt at most 40 words; doubt: حديث حفصة مرفوعاً تفرد به يحيى بن أيوب عند الترمذي؛ الصحيح عنده الموقوف." }
