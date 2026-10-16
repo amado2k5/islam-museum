@@ -1,0 +1,38 @@
+---
+id: event/delegation-of-banu-tamim
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+The first of the delegations that Ibn Ishaq relates in [[event/year-of-delegations|the Year of Delegations]]: [[person/utarid-ibn-hajib|Utarid ibn Hajib ibn Zurara]] came with the nobles of [[group/banu-tamim|Banu Tamim]] to the Prophet, and they called out to him from behind his chambers. Then they boasted to him with their orator and their poet, and they were answered. [[person/al-aqra-ibn-habis|al-Aqra' ibn Habis]] gave judgement for the Muslims, the people embraced Islam, and the Prophet gave them gifts. {cite:ibn-hisham-saqqa 4/206} {cite:ibn-hisham-saqqa 4/212}
+
+## The men of the delegation
+Ibn Ishaq names in the delegation Utarid ibn Hajib ibn Zurara ibn Ads al-Tamimi, al-Aqra' ibn Habis, [[person/al-zibriqan-ibn-badr|al-Zibriqan ibn Badr]] of Banu Sa'd, [[person/amr-ibn-al-ahtam|Amr ibn al-Ahtam]], and al-Habhab ibn Yazid. {cite:ibn-hisham-saqqa 4/206} Ibn Hisham corrects the name of the last to [[person/al-hutat-ibn-yazid|al-Hutat]], the one whom the Prophet made brothers with Mu'awiya ibn Abi Sufyan. {cite:ibn-hisham-saqqa 4/206} Ibn Ishaq also mentions [[person/nuaym-ibn-yazid-al-tamimi|Nu'aym ibn Yazid]], [[person/qays-ibn-al-harith-al-tamimi|Qays ibn al-Harith]] and [[person/qays-ibn-asim|Qays ibn Asim]], brother of Banu Sa'd, in a great delegation of Banu Tamim. {cite:ibn-hisham-saqqa 4/206} Ibn Hisham details their lineages: Utarid, al-Aqra' and al-Hutat are from [[group/banu-darim|Banu Darim]]; al-Zibriqan is from the Banu Bahdala ibn Awf ibn Ka'b ibn Sa'd; and Amr ibn al-Ahtam and Qays ibn Asim are from [[group/banu-minqar|Banu Minqar]]. {cite:ibn-hisham-saqqa 4/206} {cite:ibn-hisham-saqqa 4/207} [[person/uyayna-ibn-hisn|Uyayna ibn Hisn al-Fazari]] was with them, and he and al-Aqra' had both fought with the Prophet at the conquest of Mecca, at Hunayn and at al-Ta'if. {cite:ibn-hisham-saqqa 4/207}
+
+The editors confirm that the name "al-Hababab" is also so in al-Isaba and in all the originals that follow, that in two copies it is "Zayd", and that one copy makes Amr ibn al-Ahtam and al-Habab one person. {cite:ibn-hisham-saqqa 4/206}
+
+## The shouting from behind the chambers
+When the delegation entered the mosque, they called out to the Prophet from behind his chambers: "Come out to us, O Muhammad." His shouting hurt him, so he came out to them. They said: "We have come to boast to you, so permit our poet and our orator." He permitted their orator. {cite:ibn-hisham-saqqa 4/207} Ibn Ishaq says that concerning them there came down God's words about those who call out to the Prophet from behind the chambers, in [[passage/quran-49-4|al-Hujurat 4]]. {cite:ibn-hisham-saqqa 4/213}
+
+## Utarid's speech and Thabit's reply
+Utarid stood up and praised God, who had made them kings and given them great wealth with which to do good, and had made them the most honoured of the East, the most numerous and the most affluent in equipment. He asked: "Who is like us among the people?" and he called on anyone who would boast against them to enumerate what they had enumerated, then he sat down. {cite:ibn-hisham-saqqa 4/207} The Prophet ordered [[person/thabit-ibn-qays|Thabit ibn Qays ibn al-Shammas]], brother of Banu al-Harith ibn al-Khazraj, to stand up and answer him. {cite:ibn-hisham-saqqa 4/207} Thabit praised God, creator of the heavens and the earth, and mentioned that He had chosen from the best of His creation a messenger whom He honoured with the best lineage and the truest speech, and sent down His book to him. The Muhajirun of his people believed in him, and then the Ansar were the first of creation to respond: "We are the helpers of God and the ministers of His Messenger," and we fight people until they believe; whoever believes, his property and blood are protected. {cite:ibn-hisham-saqqa 4/208}
+
+## The poem of al-Zibriqan and the reply of Hassan
+al-Zibriqan ibn Badr stood up and recited [[work/zibriqan-boast-poem|his boast poem]]: "We are the noble, from us are the kings, we feed in the time of dearth." {cite:ibn-hisham-saqqa 4/208} [[person/hassan-ibn-thabit|Hassan]] was absent, so the Prophet sent for him. His messenger told him that he had been summoned to answer the poet of Banu Tamim, and he came having composed verses on the way. Then the Prophet ordered him to answer the man, and he stood and recited [[work/hassan-reply-to-zibriqan|his poem "The forelocks of Fihr and their brothers"]]. {cite:ibn-hisham-saqqa 4/209} {cite:ibn-hisham-saqqa 4/210} Ibn Hisham relates from some scholars of poetry among Banu Tamim [[work/zibriqan-second-boast|other verses by al-Zibriqan]] and [[work/hassan-second-reply-to-zibriqan|another reply by Hassan]]. {cite:ibn-hisham-saqqa 4/211}
+
+## The judgement of al-Aqra' and the Islam of the delegation
+When Hassan had finished, al-Aqra' ibn Habis said: "This man is well guided; his orator is more eloquent than ours, and his poet is more poetic than ours, and their voices are sweeter than ours." {cite:ibn-hisham-saqqa 4/212} When the people had finished, they embraced Islam, and the Prophet granted them and gave them generous gifts. {cite:ibn-hisham-saqqa 4/212}
+
+## Amr ibn al-Ahtam and Qays ibn Asim
+The people had left Amr ibn al-Ahtam with their camels because he was the youngest of them. Qays ibn Asim, who hated him, said to the Prophet that he was an immature youth among the baggage, and belittled him. The Prophet gave him the same as he gave the people. {cite:ibn-hisham-saqqa 4/212} {cite:ibn-hisham-saqqa 4/213} When this reached Amr, he satirised Qays in [[work/amr-ibn-al-ahtam-satire-of-qays-ibn-asim|two verses]], and Ibn Hisham left out a third verse because it was too foul. {cite:ibn-hisham-saqqa 4/213}
+
+## Notes on the reports
+- The name "al-Habhab ibn Yazid" in Ibn Ishaq, "al-Hutat" in Ibn Hisham, with a difference between the copies that the editors have established. {cite:ibn-hisham-saqqa 4/206}
+- Al-Aqra's lineage is "one of Banu Darim ibn Malik"; in two copies "one of Banu Malik ibn Darim ibn Malik". {cite:ibn-hisham-saqqa 4/207}
+- Two of the verses of Ibn Hisham for some words of al-Zibriqan's poem are from some of Banu Tamim. {cite:ibn-hisham-saqqa 4/209}
+- The additional verses of al-Zibriqan and Hassan's reply on them are additions by Ibn Hisham from a scholar of poetry among Banu Tamim. {cite:ibn-hisham-saqqa 4/211}
+- The placing of this delegation after the expedition of Uyayna against Banu Tamim, and the taking of their women and children captive, is found in the late writers on the expeditions and is not mentioned by Ibn Ishaq here; see [[event/sariyya-of-uyayna-to-banu-tamim|the expedition of Uyayna]]. {cite:mubarakpuri-raheeq p.425}
+
+## For young visitors
+A large tribe called Banu Tamim came to the Prophet and wanted to boast with the Muslims in speeches and poetry. The orator and the poet of the Muslims stood up and answered them, and the leader of the delegation admitted that the Muslims spoke better, and they became Muslims.
