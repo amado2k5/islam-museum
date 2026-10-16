@@ -3,12 +3,17 @@ class: passage
 unit: chapter
 work: work/muwatta-malik
 ref: "kitab-14"
-label: { ar: "الموطأ، كتاب النكاح", en: "Muwatta, Book of Marriage" }
+label: { ar: "الموطأ، كتاب النكاح", en: "Muwatta, Book of Marriage (nikah)" }
 summary:
-  ar: "كتاب النكاح في الموطأ، المجلد الثاني، يبدأ في صفحة 27 من ملف PDF (ترقيم الملف، لا الترقيم المطبوع)."
-  en: "The Book of Marriage in the Muwatta, volume 2, starting at PDF page 27 (PDF numbering, not the printed page)."
+  ar: "كتاب النكاح، الكتاب الرابع عشر من الموطأ في رواية يحيى بن يحيى عن مالك، في طبعة بشار عواد معروف (1997)، في المجلد الثاني: 92 نصاً (1489–1580) في اثنين وعشرين باباً، من الصفحة 27 إلى الصفحة 58 من ملف PDF المجلد الثاني. يبدأ بالخطبة والاستئذان في النكاح، ثم الصداق وإرخاء الستور والمقام عند البكر والثيب، ثم ما لا يجوز من الشروط والمحلل، وما لا يجمع من النساء وملك اليمين، ونكاح الإماء والعبيد، والإحصان، والمتعة، ويختم بنكاح المشرك إذا أسلمت امرأته والوليمة. {cite:muwatta-maruf-1997 p.27} {cite:muwatta-maruf-1997 p.58}"
+  en: "The Book of Marriage, fourteenth book of the Muwatta in Yahya ibn Yahya's recension (ed. Ma'ruf 1997), in volume 2: 92 reports (1489–1580) in twenty-two babs, PDF pp. 27–58 of volume 2, from the proposal and the consent of the bride, through the dowry, the consummation, the forbidden combinations of women and slave-women, to the feast and the conversion of a husband or wife."
 relations:
   - { type: part_of, target: work/muwatta-malik }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab heading at PDF p. 27", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-v2-batch-2" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yahya-ibn-yahya-al-laythi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/aisha, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/nikah, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, kitab al-nikah, PDF pp. 27–58", generated_by: "Claude Code (claude-haiku-5-5, Claude desktop app) from the OCR pages", model: "claude-haiku-5-5", run: "muwatta-prose-k14-kitab" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); chapter boundary only, no hadith texts" }
+status: { review: draft, completeness: 3, generated_by: "Claude Code (claude-haiku-5-5); chapter summary and prose written from the pages; draft" }
