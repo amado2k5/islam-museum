@@ -12,6 +12,7 @@ regions: [arabia]
 date:
   start: { edtf: "0632-05-26~", hijri: "0011-03-08", calendar: julian, precision: day, status: tradition }
 relations:
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "صلى بالناس حين لم يحضر أبو بكر، ثم تراجع", sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/abu-bakr }
   - { type: had_participant, target: person/muhammad }
@@ -29,5 +30,5 @@ perspectives:
   - tradition: shia-twelver
     id: shia-twelver
     summary: { en: "Twelver Shia tradition accepts the report but denies it constitutes a designation of political succession.", ar: "تقبل التقاليد الشيعية الخبر لكنها تنفي أن يكون توليته للصلاة نصاً في الخلافة." }
-sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari]
+sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

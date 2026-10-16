@@ -12,6 +12,8 @@ regions: [arabia]
 date:
   start: { edtf: "0632-06-08", hijri: "0011-03-12", calendar: julian, precision: day, status: tradition, note: "Traditionally 12 Rabi' I, 11 AH; a tabular conversion gives 7 June." }
 relations:
+  - { type: had_participant, target: person/al-fadl-ibn-al-abbas, role: "أحد الرجلين اللذين مشى بينهما إلى بيت عائشة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-muwayhiba, role: "أيقظه ليرافقه إلى البقيع وأخبره بالتخيير", sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/abu-bakr }

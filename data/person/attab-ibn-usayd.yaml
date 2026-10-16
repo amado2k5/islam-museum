@@ -19,9 +19,10 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
 relations:
+  - { type: participated_in, target: event/suhayl-ibn-amr-speech-in-mecca, role: "والي مكة يوم الوفاة، توارى ثم ظهر", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/quraysh }
   - { type: ruler_of, target: place/mecca, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
   - { type: participated_in, target: event/umrah-of-jirana, role: confirmed-governor-of-mecca, sources: [source/mubarakpuri-raheeq] }
   - { type: converted_under, target: person/muhammad, start: { edtf: "0630" }, sources: [source/mubarakpuri-raheeq] }
-sources: [source/mubarakpuri-raheeq]
+sources: [source/mubarakpuri-raheeq, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 414, 422" }

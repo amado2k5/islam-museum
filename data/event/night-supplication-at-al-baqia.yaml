@@ -12,8 +12,9 @@ regions: [arabia]
 date:
   start: { edtf: "0632-05~", hijri: "0011-02", calendar: julian, precision: month, status: tradition }
 relations:
+  - { type: had_participant, target: person/abu-muwayhiba, role: "رافق النبي وسمع التخيير", sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/al-baqia }
   - { type: had_participant, target: person/muhammad }
   - { type: part_of, target: event/death-of-the-prophet }
-sources: [source/mubarakpuri-raheeq, source/sahih-muslim]
+sources: [source/mubarakpuri-raheeq, source/sahih-muslim, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin; al-Raheeq al-Makhtum pp. 458-472 (batch 23)" }

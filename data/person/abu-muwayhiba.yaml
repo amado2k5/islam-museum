@@ -1,0 +1,23 @@
+id: person/abu-muwayhiba
+class: person
+label: { ar: "أبو مويهبة مولى النبي", en: "Abu Muwayhiba, client of the Prophet" }
+names:
+  - { kind: kunya, lang: ar, value: "أبو مويهبة" }
+  - { kind: nisba, lang: ar, value: "مولى رسول الله" }
+gender: male
+roles: [companion]
+traditions: [sunni]
+summary:
+  ar: "مولى النبي؛ أيقظه النبي من جوف الليل ليرافقه إلى البقيع، فاستغفر لأهله، ثم أخبره أنه أُوتي مفاتيح خزائن الدنيا والخلد ثم الجنة فخُيّر فاختار لقاء ربه؛ ويروي خبره ابن إسحاق عن عبد الله بن عمرو بن العاص."
+  en: "A client of the Prophet, whom he woke in the middle of the night to accompany him to al-Baqi'; the Prophet asked forgiveness for its people, then told him he had been given the keys of the treasures of this world and eternity and the Garden, but had chosen to meet his Lord; Ibn Ishaq narrates it through Abdullah ibn Amr ibn al-As."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+story_roles:
+  - { role: companion, status: tradition, sources: [source/ibn-hisham-saqqa] }
+relations:
+  - { type: participated_in, target: event/night-supplication-at-al-baqia, role: "رافق النبي إلى البقيع", sources: [source/ibn-hisham-saqqa] }
+  - { type: participated_in, target: event/death-of-the-prophet, role: "رواية خبر التخيير", sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 291-292", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-19" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 pp. 291-292" }

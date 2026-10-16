@@ -12,6 +12,15 @@ regions: [arabia]
 date:
   start: { edtf: "0632-06-10", hijri: "0011-03-14", calendar: julian, precision: day, status: tradition, derived: true, note: "دُفن من وسط الليل ليلة الأربعاء بعد أن قضى الصحابة يوم الثلاثاء في تجهيزه (ابن هشام، تحقيق السقا 4/314؛ الرحيق المختوم ص 472). الليلة تُنسب في التقويم الهجري إلى يومها التالي، فليلة الأربعاء التالية ليوم الثلاثاء 13 ربيع الأول هي 14 ربيع الأول. التاريخ اليولياني مشتق من يوم الوفاة الاثنين 8 يونيو 632: الدفن حول منتصف ليلة 9–10 يونيو، ويُسجَّل بيوم الأربعاء 10 يونيو.", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
+  - { type: had_participant, target: person/al-mughira-ibn-shuba, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-ubayda-ibn-al-jarrah, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-talha-al-ansari, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/aws-ibn-khawli, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/shuqran-mawla-rasul, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/usama-ibn-zayd, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/qutham-ibn-al-abbas, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/al-fadl-ibn-al-abbas, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abbas-ibn-abd-al-muttalib, role: "من أهل الغسل أو الدفن أو الخبر في رواية ابن إسحاق", sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/medina }
   - { type: had_participant, target: person/muhammad }
   - { type: had_participant, target: person/abu-bakr }

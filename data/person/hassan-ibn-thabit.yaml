@@ -20,6 +20,7 @@ story_roles:
 faith:
   - { value: sunni, basis: tradition, start: { edtf: "0622~" }, note: "صحابي وشاعر النبي." }
 relations:
+  - { type: authored, target: work/hassan-elegy-for-the-prophet, sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/killing-of-asma-bint-marwan, role: "أجاب شعر عصماء", sources: [source/ibn-hisham-saqqa] }
   - { type: authored, target: work/hassan-reply-to-asma-bint-marwan, sources: [source/ibn-hisham-saqqa] }
   - { type: born_in, target: place/medina }

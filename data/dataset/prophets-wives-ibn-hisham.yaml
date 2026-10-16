@@ -1,0 +1,17 @@
+id: dataset/prophets-wives-ibn-hisham
+class: dataset
+label: { ar: "أزواج النبي بحسب ابن هشام: الترتيب والمهور والملاحظات", en: "The Prophet's wives according to Ibn Hisham: order, dowries and notes" }
+summary:
+  ar: "قائمة الزوجات التي جمعها ابن هشام في الجزء الرابع من السيرة: ثلاث عشرة زوجة، إحدى عشرة بنى بهن النبي، ومنهن خديجة وزينب بنت خزيمة قُبضتا قبله؛ مع المهر كما يذكره ابن هشام، وما انفرد به من ملاحظات الروايات."
+  en: "The list of wives Ibn Hisham gives in juz' 4 of the Sira: thirteen in all, eleven of whom the Prophet consummated, two of them (Khadija and Zaynab bint Khuzayma) dying before him; with the dowry as Ibn Hisham gives it and his notes on the variant reports."
+wings: [people]
+periods: [period/prophetic-era]
+regions: [arabia]
+rows_file: datasets/prophets-wives-ibn-hisham.csv
+license: CC0
+source: source/ibn-hisham-saqqa
+columns: [order, name_ar, person_id, mahr_ar, note_ar, status_ar, printed_page]
+coverage: { printed_pages: "293-298", total_per_ibn_hisham: 13, rows_so_far: 13 }
+method_note: "الترتيب ترتيب الكتاب (لا ترتيب زمني) مع استثناء الاثنتين اللتين لم يُبنَ بهما؛ عمود person_id مملوء حيث وُجد المدخل في المتحف؛ الجويرية وأم شريك وأسماء بنت النعمان وعمرة بنت يزيد بلا مدخل بعد. المهور كما يذكرها ابن هشام، ولم تُقابل بالمصادر الأخرى هنا (needs_source)."
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 pp. 293-298" }

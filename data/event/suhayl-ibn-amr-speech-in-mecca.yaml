@@ -1,0 +1,21 @@
+id: event/suhayl-ibn-amr-speech-in-mecca
+class: event
+kind: other
+label: { ar: "كلمة سهيل بن عمرو بمكة عند وفاة النبي", en: "Suhayl ibn Amr's speech in Mecca at the Prophet's death" }
+summary:
+  ar: "لما توفي النبي همّ أكثر أهل مكة بالرجوع عن الإسلام، فخاف عتاب بن أسيد والي مكة فتوارى؛ فقام سهيل بن عمرو فحمد الله وذكر وفاة النبي، وقال: إن ذلك لم يزد الإسلام إلا قوة، فمن رابنا ضربنا عنقه؛ فتراجع الناس، وظهر عتاب بن أسيد."
+  en: "When the Prophet died most people of Mecca meant to renounce Islam; Attab ibn Usayd, its governor, hid; then Suhayl ibn Amr stood, praised God, named the Prophet's death and said it had only increased Islam in strength, and whoever doubted them they would strike his neck; the people drew back and Attab reappeared."
+wings: [people]
+themes: [converts-and-leavers, civil-wars-and-revolts]
+periods: [period/prophetic-era, period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0632-06-08~", hijri: "0011-03~", calendar: julian, precision: month, status: tradition, note: "عند وفاة النبي؛ ابن هشام يذكره بإسناد أبي عبيدة وغيره من أهل العلم." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/suhayl-ibn-amr, role: "قام بالكلمة وردّ الناس", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/attab-ibn-usayd, role: "والي مكة توارى ثم ظهر", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/death-of-the-prophet, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 p. 316", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-21" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 p. 316; ibn Hisham's own note on Attab" }

@@ -12,6 +12,7 @@ regions: [arabia]
 date:
   start: { edtf: "0632-05~", hijri: "0011-02", calendar: julian, precision: month, status: tradition, note: "عند ابن إسحاق: أقام بالمدينة بقية ذي الحجة والمحرم وصفر ثم ضرب البعث (ص253)؛ الرحيق: صفر 11هـ (ص463).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
 relations:
+  - { type: occurred_at, target: place/medina, note: "نزل الجيش بالجرف على فرسخ من المدينة (ابن هشام 4/300)", sources: [source/ibn-hisham-saqqa] }
   - { type: occurred_at, target: place/al-jurf }
   - { type: had_participant, target: person/usama-ibn-zayd, role: "أمير البعث", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq] }
   - { type: had_participant, target: person/muhammad, role: "ضرب البعث وأمّر أسامة", sources: [source/ibn-hisham-saqqa] }

@@ -1,0 +1,38 @@
+id: event/umar-sermon-on-the-stoning-verse
+class: event
+kind: other
+label: { ar: "خطبة عمر الجمعة في آية الرجم وبيعة أبي بكر", en: "Umar's Friday sermon on the stoning verse and on Abu Bakr's pledge" }
+summary:
+  ar: "في أول جمعة بعد الوفاة قام عمر فذكر آية الرجم التي كانت من كتاب الله فقرأها ووعاها ورُجم بعد النبي، وخشي أن يقول قائل ما نجد الرجم في كتاب الله؛ ثم قال إن بيعة أبي بكر كانت فلتة وقى الله شرها، ومن بايع رجلاً عن غير مشورة فلا بيعة له ولا للذي بايعه."
+  en: "On the first Friday after the death Umar recalled a verse of stoning, which he said had been in God's book and had been recited, memorised and applied, and feared that someone might say there is no stoning in God's book; he then called the pledge to Abu Bakr a sudden act that God had averted the harm of, and said whoever pledges to a man without consultation has no pledge, nor has the one he pledged to."
+wings: [people, ideas]
+themes: [law-and-courts, afterlife-and-eschatology, scripture-and-its-sciences]
+periods: [period/rashidun]
+regions: [arabia]
+date:
+  start: { edtf: "0632-06-12~", hijri: "0011-03~", calendar: julian, precision: day, status: tradition, note: "أول جمعة بعد الوفاة عند ابن إسحاق؛ اليوم دون تحديد (needs_source)." }
+relations:
+  - { type: had_participant, target: person/uwaym-ibn-saida, role: "ذكره عمر في سياق السقيفة", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-bakr, role: "المبايَع المذكور في الخطبة", sources: [source/ibn-hisham-saqqa] }
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخطيب", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/saqifa }
+issue: { ar: "هل كانت في القرآن آية للرجم تُركت تلاوتها؟ وماذا تعني خطبة عمر في الشورى والبيعة؟", en: "Was there a verse on stoning in the Qur'an whose recitation was dropped? And what does Umar's sermon say about consultation and the pledge?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-ibn-ishaq
+    stance: { ar: "خبر يرويه ابن إسحاق عن الزهري عن ابن المسيب" }
+    summary: { ar: "يرويه ابن إسحاق عن الزهري عن سعيد بن المسيب عن أبي هريرة: خطبة عمر في آية الرجم وفي بيعة أبي بكر بأنها فلتة؛ ويذكر ابن هشام أن عمر قال إنهم كانوا يقرؤون لا ترغبوا عن آبائكم." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: sunni-later
+    stance: { ar: "الرجم ثابت بالسنة والإجماع، وتلاوة الآية منسوخة" }
+    summary: { ar: "يذهب كثير من علماء أهل السنة إلى أن الرجم ثابت بالسنة المتواترة معنى وأن الآية المذكورة نُسخت تلاوتها وبقي حكمها؛ المراجع المحددة لم تُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    id: academic
+    summary: { ar: "تقرأ الدراسات الحديثة الخبر في سياق جمع القرآن وتفسير الآية المنسوبة إلى عمر، وتناقش ما إذا كانت الشورى والفلتة مقولة سياسية لاحقة؛ مرجع أكاديمي محدد لم يُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 308-309", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-20" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 pp. 308-309; Tier A" }

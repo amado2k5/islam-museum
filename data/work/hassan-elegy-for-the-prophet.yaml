@@ -1,0 +1,19 @@
+id: work/hassan-elegy-for-the-prophet
+class: work
+kind: poem
+label: { ar: "مرثية حسان بن ثابت للنبي", en: "Hassan ibn Thabit's elegy for the Prophet" }
+summary:
+  ar: "قصيدة في رثاء النبي يرويها ابن هشام عن أبي زيد الأنصاري، تبدأ بطيبة رسماً للرسول ومعهداً، وتصف حجرات النبي والمنبر والقبر الذي واراه، وتقول إن البكاء عليه لا يكفي، وإن الأرض كلها بكته، وإن رزية يوم مات فيه محمد لم يعدلها شيء."
+  en: "An elegy on the Prophet which Ibn Hisham transmits from Abu Zayd al-Ansari; it opens with Medina as the trace and habitation of the Messenger, describes his chambers, the pulpit and the grave that covered him, and says that weeping for him is not enough, that the earth wept for him, and that no calamity equals the day Muhammad died."
+wings: [ideas]
+themes: [literature, health-body-death]
+periods: [period/prophetic-era]
+regions: [arabia]
+languages: [ar]
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/ibn-hisham-saqqa] }
+  - { type: mentions, target: place/medina, sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/burial-of-the-prophet, sources: [source/ibn-hisham-saqqa] }
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 317-318", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-21" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 pp. 317-318; text not reproduced" }

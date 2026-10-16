@@ -6,10 +6,12 @@ summary:
   en: "The Prophet's freedman who went down into the grave with Ali and the two sons of al-Abbas at the burial {cite:muruj-al-dhahab p. 582}."
 gender: male
 wings: [people]
+relations:
+  - { type: participated_in, target: event/burial-of-the-prophet, role: "من غسل النبي وصب الماء ونزل القبر ودفن القطيفة", sources: [source/ibn-hisham-saqqa] }
 provenance:
   layer: own-research
   source: "مروج الذهب للمسعودي (ط الدار الإفريقية/الشركة العالمية) ج1 ص 582"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-muruj-dhahab-batch-30
-sources: [source/muruj-al-dhahab]
+sources: [source/muruj-al-dhahab, source/ibn-hisham-saqqa]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,42 @@
+id: event/umar-denial-of-the-prophets-death
+class: event
+kind: other
+label: { ar: "إنكار عمر وفاة النبي وكلمة أبي بكر", en: "Umar's denial of the Prophet's death and Abu Bakr's reply" }
+summary:
+  ar: "لما توفي النبي قام عمر فقال: إن رجالاً من المنافقين يزعمون أن النبي قد توفي، والله ما مات، ولكنه ذهب إلى ربه كما ذهب موسى فغاب أربعين ليلة، وليرجعنّ فليقطعنّ أيدي رجال وأرجلهم زعموا أنه مات. فأقبل أبو بكر ودخل على النبي وكشف عن وجهه فقبّله وقال: بأبي أنت وأمي، أما الموتة التي كتب الله عليك فقد ذقتها، ثم خرج وقال: من كان يعبد محمداً فإن محمداً قد مات، ومن كان يعبد الله فإن الله حيّ لا يموت، وتلا: وما محمد إلا رسول قد خلت من قبله الرسل. فقال عمر: والله ما هو إلا أن سمعت أبا بكر تلاها فعقرت حتى وقعت إلى الأرض، وعرفت أن النبي قد مات."
+  en: "When the Prophet died, Umar stood up and said that some hypocrites claimed he had died, that he had not died but had gone to his Lord as Moses did, and would return to cut off the hands and feet of men who said he was dead. Abu Bakr came, uncovered the Prophet's face and kissed him, then went out and said: whoever worshipped Muhammad, Muhammad has died; whoever worshipped God, God lives and does not die; and recited the verse about the messengers. Umar said that when he heard Abu Bakr recite it he collapsed, knowing the Prophet was dead."
+wings: [time, people]
+themes: [prophets, afterlife-and-eschatology]
+periods: [period/prophetic-era]
+regions: [arabia]
+date:
+  start: { edtf: "0632-06-08", hijri: "0011-03-12", calendar: julian, precision: day, status: tradition, note: "يوم وفاة النبي؛ الإنكار والكلمة في يوم الوفاة عند ابن إسحاق." }
+relations:
+  - { type: part_of, target: period/prophetic-era }
+  - { type: occurred_at, target: place/medina }
+  - { type: had_participant, target: person/umar-ibn-al-khattab, role: "قام ينكر الوفاة، ثم سلّم بكلمة أبي بكر", sources: [source/ibn-hisham-saqqa] }
+  - { type: had_participant, target: person/abu-bakr, role: "كشف عن وجه النبي وتلا الآية في الإعلام بالوفاة", sources: [source/ibn-hisham-saqqa] }
+  - { type: part_of, target: event/death-of-the-prophet }
+issue: { ar: "كيف تُقرأ كلمة عمر عند الوفاة، وهل كانت إنكاراً للموت أم جزعاً؟", en: "How is Umar's statement at the Prophet's death to be read: a denial of death or grief?" }
+perspectives:
+  - tradition: sunni
+    id: sunni-ibn-ishaq
+    stance: { ar: "خبر يُروى بإسناد الزهري عن سعيد بن المسيب عن أبي هريرة" }
+    summary: { ar: "يرويه ابن إسحاق عن الزهري عن سعيد بن المسيب عن أبي هريرة: قام عمر يقول إن النبي لم يمت بل ذهب إلى ربه كما ذهب موسى، ثم جاء أبو بكر فكشف عن وجهه وتلا الآية، فرجع إليها عمر؛ وينقل ابن هشام بعض ألفاظ الخبر بلا إضافة." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: sunni
+    id: sunni-later
+    stance: { ar: "عمر ممن رجع إلى الحق بعد الصدمة" }
+    summary: { ar: "يرى علماء أهل السنة في كلمة عمر دليلاً على شدة الحزن، وأنه رجع إلى الحق بمجرد تلاوة أبي بكر؛ المراجع المحددة لم تُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: academic
+    id: academic
+    summary: { ar: "تقرأ الدراسات الحديثة المشهد في سياق الخلاف على الخلافة من بعد النبي، وتلاحظ أن تلاوة الآية تُحمّل المشهد معنى سياسياً لاحقاً؛ مرجع أكاديمي محدد لم يُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+  - tradition: shia-twelver
+    id: shia-twelver
+    summary: { ar: "ترى التقاليد الشيعية الاثني عشرية أن الخبر يصوّر عمر متردداً في الحق يوم الوفاة؛ مرجع من التقاليد الشيعية لم يُضف بعد (needs_source)." }
+    sources: [source/ibn-hisham-saqqa]
+provenance: { layer: own-research, source: "sira-ibn-hisham saqqa 1936, juz' 4 pp. 305-306", generated_by: "Claude Code", model: "claude-haiku-5-5", run: "ibn-hisham-batch-19" }
+sources: [source/ibn-hisham-saqqa]
+status: { review: draft, completeness: 2, generated_by: "Claude Haiku 5.5; mined from Ibn Hisham juz' 4 pp. 305-306; Tier A" }

@@ -11,6 +11,7 @@ wings: [people]
 periods: [period/prophetic-era]
 regions: [arabia]
 relations:
+  - { type: participated_in, target: event/saqifa, role: "أحد الرجلين اللذين لقيا المهاجرين في الطريق إلى السقيفة", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/demolition-of-masjid-al-dirar, role: "كلّفه النبي بهدم المسجد وإحراقه، أو أخاه عاصماً", sources: [source/ibn-hisham-saqqa] }
   - { type: sibling_of, target: person/asim-ibn-adi, note: "بحسب عبارة ابن إسحاق «أو أخاه عاصم بن عدي»", sources: [source/ibn-hisham-saqqa] }
   - { type: member_of, target: group/banu-al-ajlan, sources: [source/ibn-hisham-saqqa] }
