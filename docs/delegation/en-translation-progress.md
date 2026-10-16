@@ -109,3 +109,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - person i–m batch 13 (25 files, jabala-ibn-salim … jahwar-ibn-marrar) — Claude Haiku 5.5, draft
 - group batch 7 (18 files, sayabija … zutt; group complete): done by Claude Haiku 5.5, draft
 - place m–z batch 19: 25 files (sharshal.md … siminjan.md), draft
+- place a–l batch 2 (Haiku 5.5, draft): 25 files, agra → al-arj; 936 Arabic files in a–l at commit time.
