@@ -1,0 +1,16 @@
+id: passage/muslim-0945
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "945"
+label: { ar: "مسلم 945 — قيراط وقيراطان في شهود الجنازة", en: "Muslim 945 — A qirat or two for attending the funeral" }
+text: "قال أبو هريرة: قال رسول الله: من شهد الجنازة حتى يصلي عليها فله قيراط، ومن شهدها حتى تدفن فله قيراطان، قيل: وما القيراطان؟ قال: مثل الجبلين العظيمين، فلما بلغ ابنَ عمر قال: لقد ضيعنا قراريط كثيرة"
+summary:
+  ar: "رواية أبي هريرة في باب أجر شهود الجنازة من كتاب الجنائز في صحيح مسلم؛ قيراطٌ لمن صلى عليها وقيراطان لمن تبعها حتى الدفن، وقول ابن عمر «لقد ضيعنا قراريط كثيرة»."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abu-hurayra, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الجنائز، باب أجر شهود الجنازة (طبعة دار التأصيل، الحديث 953-954؛ ترقيم عبد الباقي المعروف 945)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-4" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
