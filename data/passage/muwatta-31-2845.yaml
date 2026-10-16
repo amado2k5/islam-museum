@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2845"
-label: { ar: "الموطأ 2845", en: "Muwatta 2845" }
+label: { ar: "الموطأ 2845 — أبو طلحة يتصدق ببيرحاء بعد نزول آية البر", en: "Muwatta 2845" }
 summary:
-  ar: "أنس: كان أبو طلحة أكثر الأنصار مالًا بالمدينة، وفيه ذكر لصدقته بما يحب من أمواله."
+  ar: "يروي مالك عن إسحاق بن عبد الله بن أبي طلحة أنه سمع أنس بن مالك يقول: كان أبو طلحة أكثر الأنصار بالمدينة مالا من نخل، وكان أحب أمواله إليه بيرحاء، وكانت مستقبلة المسجد، وكان رسول الله يدخلها ويشرب من ماء فيها طيب. فلما نزلت الآية [[passage/quran-3-92|آل عمران ٩٢]] قام أبو طلحة فقال: إن أحب أموالي إلي بيرحاء، وإنها صدقة لله أرجو برها وذخرها عند الله، فضعها يا رسول الله حيث شئت. فقال النبي: بخ، ذلك مال رابح، وقد سمعت ما قلت فيه، وإني أرى أن تجعلها في الأقربين. ففعل أبو طلحة وقسمها في أقاربه وبني عمه. {cite:muwatta-maruf-1997 p.594} {cite:muwatta-maruf-1997 p.595}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2845 of kitab 31-jami at PDF p. 594", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b122" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ishaq-ibn-abdallah-ibn-abi-talha, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-talha-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: passage/quran-3-92, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2845 at PDF p. 594; التَّرغيب في الصدقة", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b112" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تعليق المحقق على حكم الرفع" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 594; matn excerpt at most 40 words" }
