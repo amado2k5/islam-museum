@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1342"
-label: { ar: "الموطأ 1342", en: "Muwatta 1342" }
+label: { ar: "الموطأ 1342 — نافع عن ابن عمر: سابق رسول الله بين الخيل المضمرة من الحفياء، وغير المضمرة من التنية إلى مسجد بني زريق", en: "Muwatta 1342" }
 summary:
-  ar: "نافع عن ابن عمر: أن رسول الله ﷺ سابق بين الخيل التي... ؛ حديث في السباق بين الخيل."
+  ar: "يروي مالك عن نافع عن عبد الله بن عمر أن رسول الله سابق بين الخيل التي قد أضمرت من الحفياء، وكان أمدها ثنية الوداع، وسابق بين الخيل التي لم تضمر من التنية إلى مسجد بني زريق، وأن عبد الله بن عمر كان ممن سابق بها. ويذكر المحقق أن الحفياء وثنية الوداع موضعان قرب المدينة. {cite:muwatta-maruf-1997 p.600}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1342 of kitab 07-jihad at PDF p. 600", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-59" }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/medina, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1342 at PDF p. 600; ما جاء في الخيل والمسابقة بينها، والنفقة في الغزو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 600; matn excerpt at most 40 words" }

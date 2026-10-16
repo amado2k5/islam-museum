@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1347"
-label: { ar: "الموطأ 1347", en: "Muwatta 1347" }
+label: { ar: "الموطأ 1347 — مالك: أرض من أسلم من أهل الصلح له، وأرض من أسلم من أهل العنوة للمسلمين لأنهم غلبوا على بلادهم", en: "Muwatta 1347" }
 summary:
-  ar: "سُئل مالك عن إمام قبل الجزية من قوم فكانوا يعطونها، أرأيت من أسلم منهم... ؛ حكم الجزية عند إسلام المكلف؛ الجواب يحتاج مراجعة."
+  ar: "سئل مالك عن إمام قبل الجزية من قوم فكانوا يعطونها، أرأيت من أسلم منهم، أتكون له أرضه، أو تكون للمسلمين ويكون لهم ماله؟ فقال ذلك يختلف. أما أهل الصلح فإن من أسلم منهم فهو أحق بأرضه وماله، وأما أهل العنوة الذين أخذوا عنوة، فمن أسلم منهم فإن أرضه وماله للمسلمين، لأن أهل العنوة قد غلبوا على بلادهم وصارت فيئا للمسلمين. وأما أهل الصلح فإنهم منعوا أموالهم وأنفسهم حتى صالحوا عليها، فليس عليهم إلا ما صالحوا عليه. {cite:muwatta-maruf-1997 p.603}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1347 of kitab 07-jihad at PDF p. 603", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-59" }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1347 at PDF p. 603; إحراز من أسلم من أهل الذمة أرضه", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 603; matn excerpt at most 40 words" }

@@ -3,11 +3,18 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1336"
-label: { ar: "الموطأ 1336", en: "Muwatta 1336" }
+label: { ar: "الموطأ 1336 — أنس بن مالك: كان النبي يدخل على أم حرام بنت ملحان بقباء فتطعمه، فنام ثم استيقظ يضحك", en: "Muwatta 1336" }
+text: "نَاسٌ مِن أُمَّتي، عُرِضُوا عَليَّ غزاةً في سَبِيلِ اللهِ"
 summary:
-  ar: "إسحاق بن عبد الله بن أبي طلحة عن أنس بن مالك: كان رسول الله ﷺ... ؛ حديث في الجهاد؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن إسحاق بن عبد الله بن أبي طلحة عن أنس بن مالك أن رسول الله كان إذا ذهب إلى قباء دخل على أم حرام بنت ملحان فتطعمه، وكانت أم حرام تحت عبادة بن الصامت، فدخل عليها يوما فأطعمته، وجلست تفلي في رأسه، فنام ثم استيقظ يضحك. فسألته فقال ناس من أمتي عرضوا علي غزاة في سبيل الله يركبون ثبج هذا البحر، ملوكا على الأسرة أو مثل الملوك على الأسرة. فدعت أن تكون منهم، فقال أنت من الأولين، فركبت البحر في زمن معاوية فصرعت عن دابتها حين خرجت من البحر فهلكت. {cite:muwatta-maruf-1997 p.597}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1336 of kitab 07-jihad at PDF p. 597", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-59" }
+  - { type: mentions, target: person/anas-ibn-malik, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umm-haram-bint-milhan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/ubada-ibn-al-samit, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muawiya-ibn-abi-sufyan, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/quba, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1336 at PDF p. 597; الترغيب في الجهاد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 597; matn excerpt at most 40 words" }

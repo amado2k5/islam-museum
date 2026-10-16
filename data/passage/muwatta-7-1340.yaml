@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1340"
-label: { ar: "الموطأ 1340", en: "Muwatta 1340" }
+label: { ar: "الموطأ 1340 — معاذ بن جبل: الغزو غزوان، غزو تنفق فيه الكريمة ويطاع فيه ذو الأمر، وغزو لا يرجع صاحبه كفافا", en: "Muwatta 1340" }
 summary:
-  ar: "يحيى بن سعيد عن معاذ بن جبل: قال: الغزو غزوان: فغزو تنفق فيه... ؛ تقسيم الغزو عند معاذ بن جبل؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك عن يحيى بن سعيد عن معاذ بن جبل أنه قال الغزو غزوان: فغزو تنفق فيه الكريمة، ويياسر فيه الشريك، ويطاع فيه ذو الأمر، ويجتنب فيه الفساد، فذلك الغزو خير كله. وغزو لا تنفق فيه الكريمة، ولا يياسر فيه الشريك، ولا يطاع فيه ذو الأمر، ولا يجتنب فيه الفساد، فذلك الغزو لا يرجع صاحبه كفافا. ويذكر المحقق أن الحديث روي مرفوعا من طريق بقية بن الوليد، وفيه بقية وهو ضعيف. {cite:muwatta-maruf-1997 p.600}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1340 of kitab 07-jihad at PDF p. 600", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-59" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/muadh-ibn-jabal, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/ghanima, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1340 at PDF p. 600; الترغيب في الجهاد", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 600; matn excerpt at most 40 words" }

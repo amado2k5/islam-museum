@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1344"
-label: { ar: "الموطأ 1344", en: "Muwatta 1344" }
+label: { ar: "الموطأ 1344 — يحيى بن سعيد: رئي النبي يمسح وجه فرسه بردائه، فقال إني عوتبت الليلة في الخيل", en: "Muwatta 1344" }
+text: "إِنِّي عُوتبْتُ اللَّيْلةَ في الْخَيْلِ"
 summary:
-  ar: "يحيى بن سعيد: أن رسول الله ﷺ رُئي وهو يمسح وجه فرسه بردائه... ؛ حديث في الخيل؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن يحيى بن سعيد أن رسول الله رئي وهو يمسح وجه فرسه بردائه، فسئل عن ذلك، فقال إني عوتبت الليلة في الخيل. ويذكر المحقق أن ابن عبد البر قال إن هذا الخبر روي عن مالك سندا عن يحيى بن سعيد عن أنس، ولا يصح. {cite:muwatta-maruf-1997 p.601}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-07-jihad }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1344 of kitab 07-jihad at PDF p. 601", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k7-batch-59" }
+  - { type: mentions, target: person/yahya-ibn-said-al-ansari, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/jihad, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1344 at PDF p. 601; ما جاء في الخيل والمسابقة بينها، والنفقة في الغزو", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k7-b21" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 601; matn excerpt at most 40 words" }
