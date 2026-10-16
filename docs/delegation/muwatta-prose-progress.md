@@ -10,9 +10,10 @@
 ## State
 - Kitab done: 1 (الصلاة, hadith 1–590, PDF pp. 33–303; 24 batches; chapter page written; records 546 and 547, skipped by the old lane, created); 2 (الجنائز, hadith 591–651, PDF pp. 305–332; 3 batches; chapter page written; record 617 created); 3 (الزكاة, hadith 652–780, PDF pp. 333–384; 6 batches; chapter page written).
 - Kitab 4 done: الصيام (hadith 781–865, PDF pp. 385–417; 4 batches; chapter page written).
-- Kitab in progress: 5 (الاعتكاف, from PDF p. 419; p. 418 is blank in the OCR).
-- Record reached: 865 (kitab 4 complete).
-- REVIEW flags remaining: none in kitab 1–4; kitab 5–31 still carry theirs.
+- Kitab 5 done: الاعتكاف (hadith 866–897, PDF pp. 419–431; 2 batches; chapter page written). Hadith 877 onward are heard by Yahya through Ziyad ibn Abd al-Rahman (Shabtun), per the editor's note at 878.
+- Kitab in progress: 6 (الحج, from PDF p. 433).
+- Record reached: 897 (kitab 5 complete).
+- REVIEW flags remaining: none in kitab 1–5; kitab 6–31 still carry theirs.
 - Record `ref` convention differs by kitab in the old data (kitab 1: "1.NNN"; kitab 2 onward: "NNN"); records created by this lane follow the kitab they belong to.
 - Branch note: work is committed on `content/muwatta-prose` and pushed to `main` after each rebase on `origin/main`; the lane branch itself is not pushed after rebases.
 
@@ -24,7 +25,7 @@
 - The old summaries carried the ﷺ glyph in 381 records (the validator exempts passages); the rewrite removes it.
 
 ## Next step
-Kitab 5 (الاعتكاف): dump PDF pp. 419 onward of volume 1, write batches of 25, then the chapter page `content/ar/passage/muwatta-kitab-05-itikaf.md`. Same cycle: apply, commit explicit paths, rebase, coverage, validate, test, push.
+Kitab 6 (الحج): dump PDF pp. 433 onward of volume 1, write batches of 25, then the chapter page `content/ar/passage/muwatta-kitab-06-hajj.md`. Same cycle: apply, commit explicit paths, rebase, coverage, validate, test, push.
 
 ## Notes (Haiku session)
 - Commits from the Haiku 5.5 session carry `claude-haiku-5-5` in the AI-Model trailer; earlier commits carry `claude-fable-5-1` and stay as they are.
