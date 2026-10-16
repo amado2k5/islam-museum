@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1268"
-label: { ar: "الموطأ 1268", en: "Muwatta 1268" }
+label: { ar: "الموطأ 1268 — كريب مولى ابن عباس: مر النبي بامرأة في محفتها، فسألته ألهذا حج، فقال نعم ولك أجر", en: "Muwatta 1268" }
+text: "نَعَمْ . ولَكِ أجْرٌ"
 summary:
-  ar: "إبراهيم بن عقبة عن كريب مولى ابن عباس: أن رسول الله ﷺ... ؛ حديث في الحج؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن إبراهيم بن عقبة عن كريب مولى عبد الله بن عباس أن رسول الله مر بامرأة في محفتها، فقيل لها هذا رسول الله، فأخذت بضبعي صبي كان معها، فقالت ألهذا حج؟ فقال نعم، ولك أجر. ويذكر المحقق أن الحديث مرسل عند أكثر رواة الموطأ، وقد أسنده عن مالك جماعة. {cite:muwatta-maruf-1997 p.563}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1268 of kitab 06-hajj at PDF p. 563", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-56" }
+  - { type: mentions, target: person/ibrahim-ibn-uqba, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/kurayb-mawla-ibn-abbas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1268 at PDF p. 563; جامع الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b16" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 563; matn excerpt at most 40 words; doubt: the isnad is mursal in most Muwatta transmissions, as the editor notes" }

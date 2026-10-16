@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1269"
-label: { ar: "الموطأ 1269", en: "Muwatta 1269" }
+label: { ar: "الموطأ 1269 — طلحة بن عبيد الله بن كريز: ما رؤي الشيطان يوما أصغر ولا أدحر منه في يوم عرفة", en: "Muwatta 1269" }
+text: "ما رُؤيَ الشَّيطانُ يَوْماً، هوَ فيهِ أصْغَرُ ولا أدْحَرُ ولا أحْقَرُ ولا أغْيَظُ، منهُ في يَوْمِ عَرَفَةَ"
 summary:
-  ar: "إبراهيم بن أبي عبلة عن طلحة بن عبيد الله بن كريز: أن رسول الله ﷺ... ؛ حديث في الحج أو الدعاء؛ تفاصيل المتن غير واضحة."
+  ar: "يروي مالك عن إبراهيم بن أبي عبلة عن طلحة بن عبيد الله بن كريز أن رسول الله قال ما رؤي الشيطان يوما هو فيه أصغر ولا أدحر ولا أحقر ولا أغيظ منه في يوم عرفة، وما ذاك إلا لما رأى من تنزل الرحمة وتجاوز الله عن الذنوب العظام، إلا ما أري يوم بدر، فقيل وما رأى يوم بدر؟ قال أما إنه رأى جبريل يزع الملائكة. ويذكر المحقق أنه مرسل. {cite:muwatta-maruf-1997 p.564}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-06-hajj }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1269 of kitab 06-hajj at PDF p. 564", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k6-batch-56" }
+  - { type: mentions, target: person/ibrahim-ibn-abi-ablah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/talha-ibn-ubaydallah-ibn-kariz, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: place/arafat, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: practice/hajj, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1269 at PDF p. 564; جامع الحج", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k6-b16" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: تفاصيل المتن غير واضحة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 564; matn excerpt at most 40 words; doubt: the isnad is mursal, as the editor notes" }
