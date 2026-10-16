@@ -1,0 +1,17 @@
+id: passage/muslim-2942
+class: passage
+unit: hadith
+work: work/sahih-muslim
+ref: "2942"
+label: { ar: "مسلم 2942 — قصة الجساسة", en: "Muslim 2942 — The Jassasah story" }
+text: "قالت فاطمة بنت قيس: حدثني تميم الداري أنه ركب البحر في سفينة فلعب بهم الموج شهراً ثم أرفؤوا إلى جزيرة فلقيتهم دابة أهلب قالت: أنا الجساسة، انطلقوا إلى هذا الرجل في الدير؛ فإذا فيه أعظم إنسان رأيناه قط خلقاً وأشده وثاقاً، مجموعة يداه إلى عنقه بالحديد... قال: «إني أنا المسيح، وإني أوشك أن يؤذن لي في الخروج»"
+summary:
+  ar: "رواية فاطمة بنت قيس عن تميم الداري في باب قصة الجساسة من كتاب الفتن في صحيح مسلم؛ جمع النبي الناس ليحدثهم بها — أطول نصوص فتنة الدجال في الدواوين، وفيه أسئلته عن نخل بيسان وبحيرة طبرية وعين زغر وخبر نبي الأميين."
+relations:
+  - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/fatima-bint-qays, sources: [source/sahih-muslim] }
+  - { type: mentions, target: person/tamim-al-dari, sources: [source/sahih-muslim] }
+  - { type: mentions, target: concept/ashrat-al-saa, sources: [source/sahih-muslim] }
+provenance: { layer: own-research, source: "صحيح مسلم، كتاب الفتن وأشراط الساعة، باب قصة الجساسة (طبعة دار التأصيل، الحديث 7573؛ ترقيم عبد الباقي المعروف 2942)، تصوير Apple Vision OCR", generated_by: "Devin (SWE-2 High) from Apple Vision OCR", run: "hadith-muslim-passages-2" }
+sources: [source/sahih-muslim]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High); matn excerpt at most 40 words checked against the scan" }
