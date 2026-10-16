@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1610"
-label: { ar: "الموطأ 1610", en: "Muwatta 1610" }
+label: { ar: "الموطأ 1610 — سعيد بن عمرو بن سليم الزرقي عن القاسم بن محمد: رجل جعل امرأة عليه كظهر أمه إن تزوجها، فأمره عمر أن لا يقربها حتى يكفر كفارة المتظاهر", en: "Muwatta 1610" }
 summary:
-  ar: "يحيى عن مالك عن سعيد بن عمرو بن سليم الزرقي: أنه سأل القاسم بن محمد عن رجل... ؛ مسألة في الإيلاء أو الطلاق؛ الجواب يحتاج مراجعة."
+  ar: "يروي مالك عن سعيد بن عمرو بن سليم الزرقي أنه سأل القاسم بن محمد عن رجل طلق امرأة إن هو تزوجها، فقال القاسم بن محمد إن رجلا جعل امرأة عليه كظهر أمه إن هو تزوجها، فأمره عمر بن الخطاب، إن هو تزوجها، أن لا يقربها حتى يكفر كفارة المتظاهر. {cite:muwatta-maruf-1997 p.68}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1610 of kitab 15-talaq at PDF p. 68", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-70" }
+  - { type: mentions, target: person/sad-amr-ibn-sulaym-al-zuraqi, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/al-qasim-ibn-muhammad, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/zihar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1610 at PDF p. 68; ظهار الحر", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b35" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الجواب يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 68; matn excerpt at most 40 words" }

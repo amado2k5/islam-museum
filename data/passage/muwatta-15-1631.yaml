@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1631"
-label: { ar: "الموطأ 1631", en: "Muwatta 1631" }
+label: { ar: "الموطأ 1631 — ابن شهاب: إذا خير الرجل امرأته فاختارته، فليس ذلك بطلاق، وهو أحسن ما سمعه مالك", en: "Muwatta 1631" }
 summary:
-  ar: "ابن شهاب: أنه سمعه يقول: إذا خير الرجل امرأته فاختارته، فإن... ؛ حكم تخيير الزوجة واختيارها الزوج؛ الحكم يحتاج مراجعة."
+  ar: "يروي مالك أنه سمع ابن شهاب يقول إذا خير الرجل امرأته فاختارته، فليس ذلك بطلاق. قال مالك وذلك أحسن ما سمعت. {cite:muwatta-maruf-1997 p.73}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1631 of kitab 15-talaq at PDF p. 73", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k14-batch-71" }
+  - { type: mentions, target: person/muhammad-ibn-shihab-al-zuhri, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/talaq, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1631 at PDF p. 73; ما جاء في الخيار", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k15-b35" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 73; matn excerpt at most 40 words" }
