@@ -36,3 +36,4 @@ Lane complete. English is published end-to-end; all prose is draft and awaits hu
 - concept batch 1 (Claude Haiku 5.5): 25 pages, abjad-kings-etymology → al-ilm-fi-l-andalus (commit 9c937da4)
 - concept batch 2 (Claude Haiku 5.5): 25 pages, amir-al-umara → bayyina
 - work batch 3 (25 files, al-kashshaf … alam-al-tubwa): done by Claude Haiku 5.5, draft
+- person d–h batch 3 (Claude Haiku 5.5): 25 pages, farrukhbandadh → ghaylan-al-dimashqi (commit ac283e50)
