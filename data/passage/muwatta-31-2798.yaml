@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2798"
-label: { ar: "الموطأ 2798", en: "Muwatta 2798" }
+label: { ar: "الموطأ 2798 — أبو سعيد الخدري: الحية في بيت الفتى الأنصاري وأن الجن أسلموا بالمدينة", en: "Muwatta 2798" }
 summary:
-  ar: "صيفي يحكي أنه دخل على أبي سعيد الخدري فوجده يصلي، فسمع تحريكًا تحت سريره فرأى حية، فأشار إليه أبو سعيد."
+  ar: "يروي مالك عن صيفي مولى ابن أفلح، عن أبي السائب مولى هشام بن زهرة، أنه دخل على أبي سعيد الخدري فوجده يصلي، فسمع تحريكا تحت سريره، فإذا حية، فقام ليقتلها، فأشار إليه أبو سعيد أن اجلس. فلما انصرف أراه بيتا في الدار، وحكى له أن فتى من الأنصار كان حديث عهد بعرس، فخرج مع رسول الله إلى الخندق، فاستأذن أن يحدث بأهله عهدا، فأذن له وأمره بأخذ السلاح خشية بني قريظة. فوجد امرأته بين البابين، فأهوى إليها برمحه، فقالت: لا تعجل حتى تدخل فتنظر ما في بيتك. فدخل فإذا حية منطوية على فراشه، فركز فيها رمحه، فاضطربت الحية في رأس الرمح، ومات الفتى والحية، فلا يدرى أيهما كان أسرع موتا. فذكروا ذلك للنبي فقال: إن بالمدينة جنا قد أسلموا، فإذا رأيتم منهم شيئا فآذنوهم ثلاثة أيام، فإن بدا لكم بعد ذلك فاقتلوه، فإنما هو شيطان. {cite:muwatta-maruf-1997 p.571} {cite:muwatta-maruf-1997 p.572}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2798 of kitab 31-jami at PDF p. 571", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b120" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/saifi-mawla-ibn-aflah, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-al-saib-mawla-hisham-ibn-zuhra, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-said-al-khudri, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2798 at PDF p. 571; ما جاء في قتل الحيات وما يقال في ذلك", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b108" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نهاية القصة غير واضحة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 571; matn excerpt at most 40 words" }

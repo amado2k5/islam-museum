@@ -3,11 +3,16 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2800"
-label: { ar: "الموطأ 2800", en: "Muwatta 2800" }
+label: { ar: "الموطأ 2800 — خولة بنت حكيم: من نزل منزلا فليقل أعوذ بكلمات الله التامات", en: "Muwatta 2800" }
 summary:
-  ar: "خولة بنت حكيم: من نزل منزلًا فليقل دعاء الاستعاذة بكلمات الله التامات من شر ما خلق، وهو حديث في الوقاية."
+  ar: "يروي مالك عن الثقة عنده، عن يعقوب بن عبد الله بن الأشج، عن بسر بن سعيد، عن سعد بن أبي وقاص، عن خولة بنت حكيم، أن النبي قال: من نزل منزلا فليقل: أعوذ بكلمات الله التامات من شر ما خلق، فإنه لن يضره شيء حتى يرتحل. ويذكر المحقق قول ابن عبد البر أن يحيى رواه بعبارة «عن الثقة عنده»، وأن القعنبي وابن بكير وابن القاسم وابن وهب رووه بعبارة «بلغه عن يعقوب»، والمعنى واحد. {cite:muwatta-maruf-1997 p.573}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2800 of kitab 31-jami at PDF p. 573", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b120" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/yaqub-ibn-abdallah-ibn-al-ashajj, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/busr-ibn-said, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/saad-ibn-abi-waqqas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/khawla-bint-hakim, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2800 at PDF p. 573; ما يُؤْمر به من الكلام في السفر", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b108" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: نهاية الحديث مقطوعة في OCR" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 573; matn excerpt at most 40 words" }

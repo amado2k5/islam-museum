@@ -3,11 +3,15 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2796"
-label: { ar: "الموطأ 2796", en: "Muwatta 2796" }
+label: { ar: "الموطأ 2796 — نافع عن أبي لبابة: نهى النبي عن قتل الحيات التي في البيوت", en: "Muwatta 2796" }
 summary:
-  ar: "حديث أبي لبابة: النبي نهى عن قتل الحيات التي في البيوت."
+  ar: "يروي مالك عن نافع، عن أبي لبابة، أن رسول الله نهى عن قتل الحيات التي في البيوت. ويذكر المحقق قول ابن عبد البر أن الصحيح عن مالك رواية يحيى وغيره: عن نافع عن أبي لبابة، لأن نافعا سمعه مع ابن عمر من أبي لبابة. ويذكر أن القعنبي زاد فيه استثناء ذي الطفيتين والأبتر من حديث ابن عمر، وأن ابن عبد البر جزم بأنه من أوهام القعنبي. {cite:muwatta-maruf-1997 p.570}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2796 of kitab 31-jami at PDF p. 570", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b120" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abu-lubaba-ibn-abd-al-mundhir, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2796 at PDF p. 570; ما جاء في قتل الحيات وما يقال في ذلك", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b108" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: حاشية المحقق: منقطع لا يصح" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 570; matn excerpt at most 40 words" }

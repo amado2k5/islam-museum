@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2795"
-label: { ar: "الموطأ 2795", en: "Muwatta 2795" }
+label: { ar: "الموطأ 2795 — كعب الأحبار ينهى عمر عن الخروج إلى العراق", en: "Muwatta 2795" }
 summary:
-  ar: "عمر أراد الخروج إلى العراق فحذّره كعب الأحبار، وذكر أن فيها تسعة أعشار السحر والجن الفسقة."
+  ar: "بلغ مالكا أن عمر بن الخطاب أراد الخروج إلى العراق، فقال له كعب الأحبار: لا تخرج إليها يا أمير المؤمنين، فإن بها تسعة أعشار السحر، وبها فسقة الجن، وبها الداء العضال. ويرى المحقق أن الأثر منقطع لا يصح، وإن صح فإن كعبا نقله من كتب اليهود. {cite:muwatta-maruf-1997 p.570}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-31-jami }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 2795 of kitab 31-jami at PDF p. 570", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "b120" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/umar-ibn-al-khattab, sources: [source/muwatta-maruf-1997] }
+  - { type: mentions, target: person/kab-al-ahbar, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 2795 at PDF p. 570; ما جاء في المشرق", generated_by: "Claude Code (claude-haiku-5-5) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-b108" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: أثر عن كعب الأحبار، من الإسرائيليات" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-haiku-5-5); own-words account written from PDF p. 570; matn excerpt at most 40 words" }
