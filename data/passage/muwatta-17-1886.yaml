@@ -3,11 +3,13 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1886"
-label: { ar: "الموطأ 1886", en: "Muwatta 1886" }
+label: { ar: "الموطأ 1886 — مالك: من صبر صبرة طعام، وقد علم كيلها، ثم باعها جزافا وكتم المشتري كيلها، فلا يصلح، فإن أحب المشتري رد الطعام على البائع رده", en: "Muwatta 1886" }
 summary:
-  ar: "مالك: ومن صبّر صبرة طعام وقد علم كيلها، ثم باعها جزافًا وكتم المشتري كيلها... ؛ حكم كتمان الكيل في البيع جزافًا؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ومن صبر صبرة طعام، وقد علم كيلها، ثم باعها جزافا، وكتم المشتري كيلها، فإن ذلك لا يصلح. فإن أحب المشتري أن يرد ذلك الطعام على البائع، رده بما كتمه كيله وغره. وكذلك كل ما علم البائع كيله وعدده من الطعام وغيره، ثم باعه جزافا، ولم يعلم المشتري ذلك، فإن المشتري إن أحب أن يرد ذلك على البائع رده. ولم يزل أهل العلم ينهون عن ذلك. {cite:muwatta-maruf-1997 p.175}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1886 of kitab 17-buyu at PDF p. 175", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-82" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1886 at PDF p. 175; بيع الطعام بالطعام لا فضل بينهما", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b48" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 175; matn excerpt at most 40 words" }

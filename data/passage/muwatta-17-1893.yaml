@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1893"
-label: { ar: "الموطأ 1893", en: "Muwatta 1893" }
+label: { ar: "الموطأ 1893 — مالك: في رجل له على رجل طعام ابتاعه منه، ولغريمه على رجل طعام مثله، فقال المدين لغريمه: أحيلك على غريم لي عليه مثل الطعام الذي لك علي، فإن كان الطعام الذي عليه طعاما ابتاعه فلا يصلح، وإن كان الطعام سلفا حالا فلا بأس", en: "Muwatta 1893" }
 summary:
-  ar: "مالك: في رجل له على رجل طعام ابتاعه منه، ولغريمه على رجل طعام مثل ذلك... ؛ مسألة المقاصة في الطعام؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: في رجل له على رجل طعام ابتاعه منه، ولغريمه على رجل طعام مثله، فقال الذي عليه الطعام لغريمه: أحيلك على غريم لي عليه مثل الطعام الذي لك علي بطعامك الذي لك علي. قال مالك: إن كان الذي عليه الطعام إنما هو طعام ابتاعه، فأراد أن يحيل غريمه بطعام ابتاعه، فإن ذلك لا يصلح، وذلك بيع الطعام قبل أن يستوفى. فإن كان الطعام سلفا حالا، فلا بأس أن يحال به غريمه، لأن ذلك ليس ببيع، ولا يحل بيع الطعام قبل أن يستوفى، لنهي رسول الله عن ذلك. {cite:muwatta-maruf-1997 p.177} {cite:muwatta-maruf-1997 p.178}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1893 of kitab 17-buyu at PDF p. 177", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-82" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1893 at PDF p. 177; جامع بيع الطعام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b48" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 177; matn excerpt at most 40 words" }

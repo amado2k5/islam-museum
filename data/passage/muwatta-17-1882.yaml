@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1882"
-label: { ar: "الموطأ 1882", en: "Muwatta 1882" }
+label: { ar: "الموطأ 1882 — مالك: لا يباع مد حنطة بمدي حنطة، ولا مد تمر بمدي تمر، ولا مد زبيب بمدي زبيب، ولا شيء من الحبوب والأدم إذا كان من صنف واحد، وإنما ذلك بمنزلة الورق بالورق والذهب بالذهب", en: "Muwatta 1882" }
 summary:
-  ar: "مالك: ولا يباع شيء من الطعام والأدم إذا كان من صنف واحد، اثنان بواحد... ؛ تحريم التفاضل في الصنف الواحد؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ولا يباع شيء من الطعام والأدم إذا كان من صنف واحد، اثنان بواحد. لا يباع مد حنطة بمدي حنطة، ولا مد تمر بمدي تمر، ولا مد زبيب بمدي زبيب، ولا ما أشبه ذلك من الحبوب والأدم كلها، إذا كان من صنف واحد، وإن كان يدا بيد. إنما ذلك بمنزلة الورق بالورق والذهب بالذهب. ولا يحل في شيء من ذلك الفضل. ولا يحل إلا مثلا بمثل، ويدا بيد. {cite:muwatta-maruf-1997 p.174}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1882 of kitab 17-buyu at PDF p. 174", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-82" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/sarf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/riba, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1882 at PDF p. 174; بيع الطعام بالطعام لا فضل بينهما", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b48" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 174; matn excerpt at most 40 words" }

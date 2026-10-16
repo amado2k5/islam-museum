@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1895"
-label: { ar: "الموطأ 1895", en: "Muwatta 1895" }
+label: { ar: "الموطأ 1895 — مالك: لا ينبغي أن يشتري الرجل طعاما بربع أو ثلث أو كسر من درهم على أن يعطي بذلك طعاما إلى أجل، ولا بأس بأن يبتاع طعاما بكسر من درهم إلى أجل ثم يعطي درهما ويأخذ ببقية درهمه سلعة", en: "Muwatta 1895" }
 summary:
-  ar: "مالك: ولا ينبغي أن يشتري رجل طعامًا برُبع أو ثلث أو كسر من درهم، على أن يعطي... ؛ شراء الطعام بالكسور من الدرهم؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ولا ينبغي أن يشتري رجل طعاما بربع أو بثلث أو بكسر من درهم، على أن يعطي بذلك طعاما إلى أجل. ولا بأس أن يبتاع الرجل طعاما بكسر من درهم إلى أجل، ثم يعطى درهما ويأخذ بما بقي له من درهمه سلعة من السلع؛ لأنه أعطى الكسر الذي عليه فضة، وأخذ ببقية درهمه سلعة. فهذا لا بأس به. {cite:muwatta-maruf-1997 p.178}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1895 of kitab 17-buyu at PDF p. 178", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-82" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/salaf, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1895 at PDF p. 178; جامع بيع الطعام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b48" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 178; matn excerpt at most 40 words" }

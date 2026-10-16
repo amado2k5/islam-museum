@@ -3,11 +3,14 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1896"
-label: { ar: "الموطأ 1896", en: "Muwatta 1896" }
+label: { ar: "الموطأ 1896 — مالك: لا بأس أن يضع الرجل عند الرجل درهما، ثم يأخذ منه برعب أو بثلث أو بكسر معلوم سلعة معلومة، فإذا لم يكن في ذلك سعر معلوم فهو غرر لا يحل", en: "Muwatta 1896" }
 summary:
-  ar: "مالك: ولا بأس بأن يضع الرجل عند الرجل درهمًا، ثم يأخذ منه بربع أو ثلث... ؛ الإيداع والأخذ منه بجزء؛ الحكم يحتاج مراجعة."
+  ar: "قال مالك: ولا بأس بأن يضع الرجل عند الرجل درهما، ثم يأخذ منه بربع أو بثلث أو بكسر معلوم سلعة معلومة. فإذا لم يكن في ذلك سعر معلوم، وقال الرجل: آخذ منك بسعر كل يوم، فهذا لا يحل، لأنه غرر، يقل مرة ويكثر مرة، ولم يفترقا على بيع معلوم. {cite:muwatta-maruf-1997 p.179}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
-provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 1, hadith 1896 of kitab 17-buyu at PDF p. 179", generated_by: "Claude (Haiku 5.5) from Apple Vision OCR", run: "muwatta-k17-batch-82" }
+  - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/gharar, sources: [source/muwatta-maruf-1997] }
+  - { type: basis_for, target: concept/bay, sources: [source/muwatta-maruf-1997] }
+provenance: { layer: own-research, source: "Muwatta, ed. Ma'ruf (1997), vol. 2, hadith 1896 at PDF p. 179; جامع بيع الطعام", generated_by: "Claude Code (claude-fable-5-1) from Apple Vision OCR of the Noor-Book PDF, checked on the page image where doubtful", run: "muwatta-prose-k17-b48" }
 sources: [source/muwatta-maruf-1997]
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); draft; summary in own words, no hadith text stored; REVIEW: الحكم يحتاج مراجعة" }
+status: { review: draft, completeness: 2, generated_by: "Claude Code (claude-fable-5-1); own-words account written from PDF p. 179; matn excerpt at most 40 words" }
