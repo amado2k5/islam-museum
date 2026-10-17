@@ -1,0 +1,72 @@
+id: exhibit/path-yemen-happy
+class: exhibit
+kind: trail
+label:
+  ar: اليمن السعيد
+  en: Happy Arabia
+summary:
+  ar: 'مسار في اليمن: سبأ وحمير قبل الإسلام، وصنعاء وعدن وحضرموت بعده، والقهوة.'
+  en: A trail through Yemen.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: قبل الإسلام
+    en: Before Islam
+  body:
+    ar: 'حمير وسبأ ومأرب: ممالك العرب الجنوبية.'
+    en: 'حمير وسبأ ومأرب: ممالك العرب الجنوبية.'
+  features:
+  - polity/himyarite-kingdom
+  - question/how-were-arabs-ruled-before-islam
+- title:
+    ar: صنعاء
+    en: Sanaa
+  body:
+    ar: 'أقدم مدن العرب المأهولة: جامعها الكبير من القرن الأول.'
+    en: 'أقدم مدن العرب المأهولة: جامعها الكبير من القرن الأول.'
+  features:
+  - place/sanaa
+- title:
+    ar: عدن
+    en: Aden
+  body:
+    ar: ميناء العرب على الهند.
+    en: ميناء العرب على الهند.
+  features:
+  - place/aden
+- title:
+    ar: حضرموت
+    en: Hadramawt
+  body:
+    ar: 'وادي العلم والمهاجرين: باعلوي ينشرون الإسلام شرقًا.'
+    en: 'وادي العلم والمهاجرين: باعلوي ينشرون الإسلام شرقًا.'
+  features:
+  - place/hadramawt
+- title:
+    ar: القهوة
+    en: Coffee
+  body:
+    ar: 'ميناء المخا: من صوفية اليمن إلى مقاهي العالم.'
+    en: 'ميناء المخا: من صوفية اليمن إلى مقاهي العالم.'
+  features:
+  - exhibit/path-coffee-culture
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-5
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
