@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور سلیمان اور داؤد کے قائم مقام ہوئے۔ اور کہنے لگے کہ لوگو! ہمیں (خدا کی طرف سے) جانوروں کی بولی سکھائی گئی ہے اور ہر چیز عنایت فرمائی گئی ہے۔ بےشک یہ (اُس کا) صریح فضل ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
+  - { type: mentions, target: person/sulayman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

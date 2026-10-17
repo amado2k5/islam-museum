@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ہم نے داؤد اور سلیمان کو علم بخشا اور انہوں نے کہا کہ خدا کا شکر ہے جس نے ہمیں بہت سے مومن بندوں پر فضلیت دی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
+  - { type: mentions, target: person/sulayman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

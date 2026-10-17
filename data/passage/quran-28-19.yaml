@@ -17,6 +17,7 @@ translations:
   ur: { text: "جب موسٰی نے ارادہ کیا کہ اس شخص کو جو ان دونوں کا دشمن تھا پکڑ لیں تو وہ (یعنی موسٰی کی قوم کا آدمی) بول اُٹھا کہ جس طرح تم نے کل ایک شخص کو مار ڈالا تھا اسی طرح چاہتے ہو کہ مجھے بھی مار ڈالو۔ تم تو یہی چاہتے ہو کہ ملک میں ظلم وستم کرتے پھرو اور یہ نہیں چاہتے ہو کہ نیکو کاروں میں ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

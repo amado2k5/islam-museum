@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور موسٰی کی ماں کا دل بے صبر ہو گیا اگر ہم اُن کے دل مضبوط نہ کر دیتے تو قریب تھا کہ وہ اس (قصّے) کو ظاہر کر دیں۔ غرض یہ تھی کہ وہ مومنوں میں رہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
