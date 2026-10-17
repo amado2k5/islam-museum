@@ -58,3 +58,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 97 — سنة 449–455 (Basasiri's rise, Tughril's death Ramadan 455).
 - Batch 97 (Devin): AH 449–451 — Shaykh al-Islam al-Sabuni (preached from age 10, d. Safar 449), qari' Ibn Shita (al-Tadhkara author), al-Karajiki (head of the Shi'a, Murtada's pupil); enriched al-Malik al-Rahim (died prisoner at Rayy 450, last Buyid), Ibn Battal (Safar 449), al-Basasiri (killed mid-Dhu al-Hijja 451, crucified at Bab al-Nubi), al-Mawardi (Rabi' I 450). 3 new + 4 enriched.
 - Next: batch 98 — سنة 452–456 (Tughril's death Ramadan 455, Alp Arslan's accession).
+- Batch 98 (Devin): AH 456 — Qutlumush (grandfather of the Rum Seljuqs, killed by Alp Arslan); enriched Ibn Hazm (born last night of Ramadan 384 Cordoba, died 28 Sha'ban 456 in exile at Manta Lisham), al-Kunduri (killed at Marw al-Rudh, head to Nishapur), and merged the Hilali-flight biography + disputed death (456 vs 463) into the existing Ibn Rashiq record. 1 new + 3 enriched.
+- Next: batch 99 — سنة 457–463 (Alp Arslan consolidates, Nizam al-Mulk's rise).
