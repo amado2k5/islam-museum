@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:42 (سورة الرعد، الآية 42)."
 text: "وَقَدْ مَكَرَ ٱلَّذِينَ مِن قَبْلِهِمْ فَلِلَّهِ ٱلْمَكْرُ جَمِيعًا ۖ يَعْلَمُ مَا تَكْسِبُ كُلُّ نَفْسٍ ۗ وَسَيَعْلَمُ ٱلْكُفَّـٰرُ لِمَنْ عُقْبَى ٱلدَّارِ"
 text_search: "وقد مكر الذين من قبلهم فلله المكر جميعا ۖ يعلم ما تكسب كل نفس ۗ وسيعلم الكفار لمن عقبى الدار"
+translations:
+  en: { text: "Those who were before them plotted; but all plotting is Allah's. He knoweth that which each soul earneth. The disbelievers will come to know for whom will be the sequel of the (heavenly) Home.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ ان سے پہلے تھے وہ بھی (بہتری) چالیں چلتے رہے ہیں سو چال تو سب الله ہی کی ہے ہر متنفس جو کچھ کر رہا ہے وہ اسے جانتا ہے۔ اور کافر جلد معلوم کریں گے کہ عاقبت کا گھر (یعنی انجام محمود) کس کے لیے ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

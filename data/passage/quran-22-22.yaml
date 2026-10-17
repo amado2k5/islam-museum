@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:22 (سورة الحج، الآية 22)."
 text: "كُلَّمَآ أَرَادُوٓا۟ أَن يَخْرُجُوا۟ مِنْهَا مِنْ غَمٍّ أُعِيدُوا۟ فِيهَا وَذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ"
 text_search: "كلما أرادوا أن يخرجوا منها من غم أعيدوا فيها وذوقوا عذاب الحريق"
+translations:
+  en: { text: "Whenever, in their anguish, they would go forth from thence they are driven back therein and (it is said unto them): Taste the doom of burning.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب وہ چاہیں گے کہ اس رنج (وتکلیف) کی وجہ سے دوزخ سے نکل جائیں تو پھر اسی میں لوٹا دیئے جائیں گے۔ اور (کہا جائے گا کہ) جلنے کے عذاب کا مزہ چکھتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

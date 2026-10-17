@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:41 (سورة القلم، الآية 41)."
 text: "أَمْ لَهُمْ شُرَكَآءُ فَلْيَأْتُوا۟ بِشُرَكَآئِهِمْ إِن كَانُوا۟ صَـٰدِقِينَ"
 text_search: "أم لهم شركاء فليأتوا بشركائهم إن كانوا صادقين"
+translations:
+  en: { text: "Or have they other gods? Then let them bring their other gods if they are truthful", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا (اس قول میں) ان کے اور بھی شریک ہیں؟ اگر یہ سچے ہیں تو اپنے شریکوں کو لا سامنے کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

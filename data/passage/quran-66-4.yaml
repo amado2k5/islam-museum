@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 66:4 (سورة التحريم، الآية 4)."
 text: "إِن تَتُوبَآ إِلَى ٱللَّهِ فَقَدْ صَغَتْ قُلُوبُكُمَا ۖ وَإِن تَظَـٰهَرَا عَلَيْهِ فَإِنَّ ٱللَّهَ هُوَ مَوْلَىٰهُ وَجِبْرِيلُ وَصَـٰلِحُ ٱلْمُؤْمِنِينَ ۖ وَٱلْمَلَـٰٓئِكَةُ بَعْدَ ذَٰلِكَ ظَهِيرٌ"
 text_search: "إن تتوبا إلى الله فقد صغت قلوبكما ۖ وإن تظاهرا عليه فإن الله هو مولاه وجبريل وصالح المؤمنين ۖ والملائكة بعد ذلك ظهير"
+translations:
+  en: { text: "If ye twain turn unto Allah repentant, (ye have cause to do so) for your hearts desired (the ban); and if ye aid one another against him (Muhammad) then lo! Allah, even He, is his Protecting Friend, and Gabriel and the righteous among the believers; and furthermore the angels are his helpers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تم دونوں خدا کے آگے توبہ کرو (تو بہتر ہے کیونکہ) تمہارے دل کج ہوگئے ہیں۔ اور اگر پیغمبر (کی ایذا) پر باہم اعانت کرو گی تو خدا اور جبریل اور نیک کردار مسلمان ان کے حامی (اور دوستدار) ہیں۔ اور ان کے علاوہ (اور) فرشتے بھی مددگار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-66 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:7 (سورة الحديد، الآية 7)."
 text: "ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَأَنفِقُوا۟ مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ ۖ فَٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَأَنفَقُوا۟ لَهُمْ أَجْرٌ كَبِيرٌ"
 text_search: "آمنوا بالله ورسوله وأنفقوا مما جعلكم مستخلفين فيه ۖ فالذين آمنوا منكم وأنفقوا لهم أجر كبير"
+translations:
+  en: { text: "Believe in Allah and His messenger, and spend of that whereof He hath made you trustees; and such of you as believe and spend (aright), theirs will be a great reward.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو) خدا پر اور اس کے رسول پر ایمان لاؤ اور جس (مال) میں اس نے تم کو (اپنا) نائب بنایا ہے اس میں سے خرچ کرو۔ جو لوگ تم میں سے ایمان لائے اور (مال) خرچ کرتے رہے ان کے لئے بڑا ثواب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

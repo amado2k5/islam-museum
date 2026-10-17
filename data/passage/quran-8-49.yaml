@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:49 (سورة الأنفال، الآية 49)."
 text: "إِذْ يَقُولُ ٱلْمُنَـٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ غَرَّ هَـٰٓؤُلَآءِ دِينُهُمْ ۗ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَإِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ"
 text_search: "إذ يقول المنافقون والذين في قلوبهم مرض غر هؤلاء دينهم ۗ ومن يتوكل على الله فإن الله عزيز حكيم"
+translations:
+  en: { text: "When the hypocrites and those in whose hearts is a disease said: Their religion hath deluded these. Whoso putteth his trust in Allah (will find that) lo! Allah is Mighty, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس وقت منافق اور (کافر) جن کے دلوں میں مرض تھا کہتے تھے کہ ان لوگوں کو ان کے دین نے مغرور کر رکھا ہے اور جو شخص خدا پر بھروسہ رکھتا ہے تو خدا غالب حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

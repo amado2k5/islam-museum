@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:57 (سورة آل عمران، الآية 57)."
 text: "وَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّـٰلِمِينَ"
 text_search: "وأما الذين آمنوا وعملوا الصالحات فيوفيهم أجورهم ۗ والله لا يحب الظالمين"
+translations:
+  en: { text: "And as for those who believe and do good works, He will pay them their wages in full. Allah loveth not wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو ایمان لائے اور نیک عمل کرتے رہے ان کو خدا پورا پورا صلہ دے گا اور خدا ظالموں کو دوست نہیں رکھتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,11 +12,14 @@ summary:
   ar: "القرآن 4:22 (سورة النساء، الآية 22)."
 text: "وَلَا تَنكِحُوا۟ مَا نَكَحَ ءَابَآؤُكُم مِّنَ ٱلنِّسَآءِ إِلَّا مَا قَدْ سَلَفَ ۚ إِنَّهُۥ كَانَ فَـٰحِشَةً وَمَقْتًا وَسَآءَ سَبِيلًا"
 text_search: "ولا تنكحوا ما نكح آباؤكم من النساء إلا ما قد سلف ۚ إنه كان فاحشة ومقتا وساء سبيلا"
+translations:
+  en: { text: "And marry not those women whom your fathers married, except what hath already happened (of that nature) in the past. Lo! it was ever lewdness and abomination, and an evil way.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جن عورتوں سے تمہارے باپ نے نکاح کیا ہو ان نکاح مت کرنا (مگر جاہلیت میں) جو ہوچکا (سوہوچکا) یہ نہایت بےحیائی اور (خدا کی) ناخوشی کی بات تھی۔ اور بہت برا دستور تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: concept/jahili-marriage-forms }
   - { type: part_of, target: passage/quran-4 }
   - { type: revealed_about, target: concept/social-condition-jahiliyya, note: "يذكرها الرحيق المختوم ص44 في الأنكحة التي أبطلها الإسلام.", sources: [source/mubarakpuri-raheeq] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

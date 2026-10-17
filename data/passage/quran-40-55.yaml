@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:55 (سورة غافر، الآية 55)."
 text: "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَسَبِّحْ بِحَمْدِ رَبِّكَ بِٱلْعَشِىِّ وَٱلْإِبْكَـٰرِ"
 text_search: "فاصبر إن وعد الله حق واستغفر لذنبك وسبح بحمد ربك بالعشي والإبكار"
+translations:
+  en: { text: "Then have patience (O Muhammad). Lo! the promise of Allah is true. And ask forgiveness of thy sin, and hymn the praise of thy Lord at fall of night and in the early hours.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو صبر کرو بےشک خدا کا وعدہ سچا ہے اور اپنے گناہوں کی معافی مانگو اور صبح وشام اپنے پروردگار کی تعریف کے ساتھ تسبیح کرتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

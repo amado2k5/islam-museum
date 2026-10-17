@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:92 (سورة التوبة، الآية 92)."
 text: "وَلَا عَلَى ٱلَّذِينَ إِذَا مَآ أَتَوْكَ لِتَحْمِلَهُمْ قُلْتَ لَآ أَجِدُ مَآ أَحْمِلُكُمْ عَلَيْهِ تَوَلَّوا۟ وَّأَعْيُنُهُمْ تَفِيضُ مِنَ ٱلدَّمْعِ حَزَنًا أَلَّا يَجِدُوا۟ مَا يُنفِقُونَ"
 text_search: "ولا على الذين إذا ما أتوك لتحملهم قلت لا أجد ما أحملكم عليه تولوا وأعينهم تفيض من الدمع حزنا ألا يجدوا ما ينفقون"
+translations:
+  en: { text: "Nor unto those whom, when they came to thee (asking) that thou shouldst mount them, thou didst tell: I cannot find whereon to mount you. They turned back with eyes flowing with tears, for sorrow that they could not find the means to spend.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور نہ ان (بےسروسامان) لوگوں پر (الزام) ہے کہ تمہارے پاس آئے کہ ان کو سواری دو اور تم نے کہا کہ میرے پاس کوئی ایسی چیز نہیں جس پر تم کو سوار کروں تو وہ لوٹ گئے اور اس غم سے کہ ان کے پاس خرچ موجود نہ تھا، ان کی آنکھوں سے آنسو بہہ رہے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

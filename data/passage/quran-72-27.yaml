@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 72:27 (سورة الجن، الآية 27)."
 text: "إِلَّا مَنِ ٱرْتَضَىٰ مِن رَّسُولٍ فَإِنَّهُۥ يَسْلُكُ مِنۢ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِۦ رَصَدًا"
 text_search: "إلا من ارتضى من رسول فإنه يسلك من بين يديه ومن خلفه رصدا"
+translations:
+  en: { text: "Save unto every messenger whom He hath chosen, and then He maketh a guard to go before him and a guard behind him", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہاں جس پیغمبر کو پسند فرمائے تو اس (کو غیب کی باتیں بتا دیتا اور اس) کے آگے اور پیچھے نگہبان مقرر کر دیتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-72 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

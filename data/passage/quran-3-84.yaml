@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:84 (سورة آل عمران، الآية 84)."
 text: "قُلْ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ عَلَيْنَا وَمَآ أُنزِلَ عَلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَمَآ أُوتِىَ مُوسَىٰ وَعِيسَىٰ وَٱلنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَ"
 text_search: "قل آمنا بالله وما أنزل علينا وما أنزل على إبراهيم وإسماعيل وإسحاق ويعقوب والأسباط وما أوتي موسى وعيسى والنبيون من ربهم لا نفرق بين أحد منهم ونحن له مسلمون"
+translations:
+  en: { text: "Say (O Muhammad): We believe in Allah and that which is revealed unto us and that which was revealed unto Abraham and Ishmael and Isaac and Jacob and the tribes, and that which was vouchsafed unto Moses and Jesus and the prophets from their Lord. We make no distinction between any of them, and unto Him we have surrendered.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کہ ہم خدا پر ایمان لائے اور جو کتاب ہم پر نازل ہوئی اور جو صحیفے ابراہیم اور اسماعیل اور اسحٰق اور یعقوب اور ان کی اولاد پر اترے اور جو کتابیں موسیٰ اور عیسیٰ اور دوسرے انبیاء کو پروردگار کی طرف سے ملیں سب پر ایمان لائے ہم ان پیغمبروں میں سے کسی میں کچھ فرق نہیں کرتے اور ہم اسی (خدائے واحد) کے فرماں بردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

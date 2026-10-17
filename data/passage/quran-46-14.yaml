@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 46:14 (سورة الأحقاف، الآية 14)."
 text: "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَنَّةِ خَـٰلِدِينَ فِيهَا جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ"
 text_search: "أولئك أصحاب الجنة خالدين فيها جزاء بما كانوا يعملون"
+translations:
+  en: { text: "Such are rightful owners of the Garden, immortal therein, as a reward for what they used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہی اہل جنت ہیں کہ ہمیشہ اس میں رہیں گے۔ (یہ) اس کا بدلہ (ہے) جو وہ کیا کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

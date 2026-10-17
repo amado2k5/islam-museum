@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:31 (سورة العنكبوت، الآية 31)."
 text: "وَلَمَّا جَآءَتْ رُسُلُنَآ إِبْرَٰهِيمَ بِٱلْبُشْرَىٰ قَالُوٓا۟ إِنَّا مُهْلِكُوٓا۟ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ ۖ إِنَّ أَهْلَهَا كَانُوا۟ ظَـٰلِمِينَ"
 text_search: "ولما جاءت رسلنا إبراهيم بالبشرى قالوا إنا مهلكو أهل هذه القرية ۖ إن أهلها كانوا ظالمين"
+translations:
+  en: { text: "And when Our messengers brought Abraham the good news, they said: Lo! we are about to destroy the people of that township, for its people are wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ہمارے فرشتے ابراہیم کے پاس خوشی کی خبر لے کر آئے تو کہنے لگے کہ ہم اس بستی کے لوگوں کو ہلاک کر دینے والے ہیں کہ یہاں کے رہنے والے نافرمان ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

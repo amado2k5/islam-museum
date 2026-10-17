@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:52 (سورة الحج، الآية 52)."
 text: "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ وَلَا نَبِىٍّ إِلَّآ إِذَا تَمَنَّىٰٓ أَلْقَى ٱلشَّيْطَـٰنُ فِىٓ أُمْنِيَّتِهِۦ فَيَنسَخُ ٱللَّهُ مَا يُلْقِى ٱلشَّيْطَـٰنُ ثُمَّ يُحْكِمُ ٱللَّهُ ءَايَـٰتِهِۦ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ"
 text_search: "وما أرسلنا من قبلك من رسول ولا نبي إلا إذا تمنى ألقى الشيطان في أمنيته فينسخ الله ما يلقي الشيطان ثم يحكم الله آياته ۗ والله عليم حكيم"
+translations:
+  en: { text: "Never sent We a messenger or a prophet before thee but when He recited (the message) Satan proposed (opposition) in respect of that which he recited thereof. But Allah abolisheth that which Satan proposeth. Then Allah establisheth His revelations. Allah is Knower, Wise;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے تم سے پہلے کوئی رسول اور نبی نہیں بھیجا مگر (اس کا یہ حال تھا کہ) جب وہ کوئی آرزو کرتا تھا تو شیطان اس کی آرزو میں (وسوسہ) ڈال دیتا تھا۔ تو جو (وسوسہ) شیطان ڈالتا ہے خدا اس کو دور کردیتا ہے۔ پھر خدا اپنی آیتوں کو مضبوط کردیتا ہے۔ اور خدا علم والا اور حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

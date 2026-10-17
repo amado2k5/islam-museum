@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:41 (سورة النحل، الآية 41)."
 text: "وَٱلَّذِينَ هَاجَرُوا۟ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ظُلِمُوا۟ لَنُبَوِّئَنَّهُمْ فِى ٱلدُّنْيَا حَسَنَةً ۖ وَلَأَجْرُ ٱلْـَٔاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ"
 text_search: "والذين هاجروا في الله من بعد ما ظلموا لنبوئنهم في الدنيا حسنة ۖ ولأجر الآخرة أكبر ۚ لو كانوا يعلمون"
+translations:
+  en: { text: "And those who became fugitives for the cause of Allah after they had been oppressed, We verily shall give them goodly lodging in the world, and surely the reward of the Hereafter is greater, if they but knew;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جن لوگوں نے ظلم سہنے کے بعد خدا کے لیے وطن چھوڑا ہم ان کو دنیا میں اچھا ٹھکانا دیں گے۔ اور آخرت کا اجر تو بہت بڑا ہے۔ کاش وہ (اسے) جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

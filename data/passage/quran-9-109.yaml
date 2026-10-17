@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:109 (سورة التوبة، الآية 109)."
 text: "أَفَمَنْ أَسَّسَ بُنْيَـٰنَهُۥ عَلَىٰ تَقْوَىٰ مِنَ ٱللَّهِ وَرِضْوَٰنٍ خَيْرٌ أَم مَّنْ أَسَّسَ بُنْيَـٰنَهُۥ عَلَىٰ شَفَا جُرُفٍ هَارٍ فَٱنْهَارَ بِهِۦ فِى نَارِ جَهَنَّمَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ"
 text_search: "أفمن أسس بنيانه على تقوى من الله ورضوان خير أم من أسس بنيانه على شفا جرف هار فانهار به في نار جهنم ۗ والله لا يهدي القوم الظالمين"
+translations:
+  en: { text: "Is he who founded his building upon duty to Allah and His good pleasure better; or he who founded his building on the brink of a crumbling, overhanging precipice so that it toppled with him into the fire of hell? Allah guideth not wrongdoing folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا جس شخص نے اپنی عمارت کی بنیاد خدا کے خوف اور اس کی رضامندی پر رکھی وہ اچھا ہے یا وہ جس نے اپنی عمارت کی بنیاد گر جانے والی کھائی کے کنارے پر رکھی کہ وہ اس کو دوزخ کی آگ میں لے گری اور خدا ظالموں کو ہدایت نہیں دیتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

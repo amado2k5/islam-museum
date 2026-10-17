@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:119 (سورة البقرة، الآية 119)."
 text: "إِنَّآ أَرْسَلْنَـٰكَ بِٱلْحَقِّ بَشِيرًا وَنَذِيرًا ۖ وَلَا تُسْـَٔلُ عَنْ أَصْحَـٰبِ ٱلْجَحِيمِ"
 text_search: "إنا أرسلناك بالحق بشيرا ونذيرا ۖ ولا تسأل عن أصحاب الجحيم"
+translations:
+  en: { text: "Lo! We have sent thee (O Muhammad) with the truth, a bringer of glad tidings and a warner. And thou wilt not be asked about the owners of hell-fire.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) ہم نے تم کو سچائی کے ساتھ خوشخبری سنانے والا اور ڈرانے والا بنا کر بھیجا ہے۔ اور اہل دوزخ کے بارے میں تم سے کچھ پرسش نہیں ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

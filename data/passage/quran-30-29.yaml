@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:29 (سورة الروم، الآية 29)."
 text: "بَلِ ٱتَّبَعَ ٱلَّذِينَ ظَلَمُوٓا۟ أَهْوَآءَهُم بِغَيْرِ عِلْمٍ ۖ فَمَن يَهْدِى مَنْ أَضَلَّ ٱللَّهُ ۖ وَمَا لَهُم مِّن نَّـٰصِرِينَ"
 text_search: "بل اتبع الذين ظلموا أهواءهم بغير علم ۖ فمن يهدي من أضل الله ۖ وما لهم من ناصرين"
+translations:
+  en: { text: "Nay, but those who do wrong follow their own lusts without knowledge. Who is able to guide him whom Allah hath sent astray? For such there are no helpers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر جو ظالم ہیں بےسمجھے اپنی خواہشوں کے پیچھے چلتے ہیں تو جس کو خدا گمراہ کرے اُسے کون ہدایت دے سکتا ہے؟ اور ان کا کوئی مددگار نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 54:18 (سورة القمر، الآية 18)."
 text: "كَذَّبَتْ عَادٌ فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ"
 text_search: "كذبت عاد فكيف كان عذابي ونذر"
+translations:
+  en: { text: "(The tribe of) A'ad rejected warnings. Then how (dreadful) was My punishment after My warnings.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "عاد نے بھی تکذیب کی تھی سو (دیکھ لو کہ) میرا عذاب اور ڈرانا کیسا ہوا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-54 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

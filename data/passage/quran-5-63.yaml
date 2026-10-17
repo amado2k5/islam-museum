@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:63 (سورة المائدة، الآية 63)."
 text: "لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّـٰنِيُّونَ وَٱلْأَحْبَارُ عَن قَوْلِهِمُ ٱلْإِثْمَ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ يَصْنَعُونَ"
 text_search: "لولا ينهاهم الربانيون والأحبار عن قولهم الإثم وأكلهم السحت ۚ لبئس ما كانوا يصنعون"
+translations:
+  en: { text: "Why do not the rabbis and the priests forbid their evil-speaking and their devouring of illicit gain? Verily evil is their handiwork.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا ان کے مشائخ اور علماء انہیں گناہ کی باتوں اور حرام کھانے سے منع کیوں نہیں کرتے؟ بلاشبہ وہ بھی برا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 46:35 (سورة الأحقاف، الآية 35)."
 text: "فَٱصْبِرْ كَمَا صَبَرَ أُو۟لُوا۟ ٱلْعَزْمِ مِنَ ٱلرُّسُلِ وَلَا تَسْتَعْجِل لَّهُمْ ۚ كَأَنَّهُمْ يَوْمَ يَرَوْنَ مَا يُوعَدُونَ لَمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةً مِّن نَّهَارٍۭ ۚ بَلَـٰغٌ ۚ فَهَلْ يُهْلَكُ إِلَّا ٱلْقَوْمُ ٱلْفَـٰسِقُونَ"
 text_search: "فاصبر كما صبر أولو العزم من الرسل ولا تستعجل لهم ۚ كأنهم يوم يرون ما يوعدون لم يلبثوا إلا ساعة من نهار ۚ بلاغ ۚ فهل يهلك إلا القوم الفاسقون"
+translations:
+  en: { text: "Then have patience (O Muhammad) even as the stout of heart among the messengers (of old) had patience, and seek not to hasten on (the doom) for them. On the day when they see that which they are promised (it will seem to them) as though they had tarried but an hour of daylight. A clear message. Shall any be destroyed save evil-living folk?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پس (اے محمدﷺ) جس طرح اور عالی ہمت پیغمبر صبر کرتے رہے ہیں اسی طرح تم بھی صبر کرو اور ان کے لئے (عذاب) جلدی نہ مانگو۔ جس دن یہ اس چیز کو دیکھیں گے جس کا ان سے وعدہ کیا جاتا ہے تو (خیال کریں گے کہ) گویا (دنیا میں) رہے ہی نہ تھے مگر گھڑی بھر دن۔ (یہ قرآن) پیغام ہے۔ سو (اب) وہی ہلاک ہوں گے جو نافرمان تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

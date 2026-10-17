@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:148 (سورة الأنعام، الآية 148)."
 text: "سَيَقُولُ ٱلَّذِينَ أَشْرَكُوا۟ لَوْ شَآءَ ٱللَّهُ مَآ أَشْرَكْنَا وَلَآ ءَابَآؤُنَا وَلَا حَرَّمْنَا مِن شَىْءٍ ۚ كَذَٰلِكَ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ حَتَّىٰ ذَاقُوا۟ بَأْسَنَا ۗ قُلْ هَلْ عِندَكُم مِّنْ عِلْمٍ فَتُخْرِجُوهُ لَنَآ ۖ إِن تَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ أَنتُمْ إِلَّا تَخْرُصُونَ"
 text_search: "سيقول الذين أشركوا لو شاء الله ما أشركنا ولا آباؤنا ولا حرمنا من شيء ۚ كذلك كذب الذين من قبلهم حتى ذاقوا بأسنا ۗ قل هل عندكم من علم فتخرجوه لنا ۖ إن تتبعون إلا الظن وإن أنتم إلا تخرصون"
+translations:
+  en: { text: "They who are idolaters will say: Had Allah willed, we had not ascribed (unto Him) partners neither had our fathers, nor had we forbidden aught. Thus did those who were before them give the lie (to Allah's messengers) till they tasted of the fear of Us. Say: Have ye any knowledge that ye can adduce for Us? Lo! ye follow naught but an opinion, Lo! ye do but guess.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ شرک کرتے ہیں وہ کہیں گے کہ اگر خدا چاہتا تو ہم شرک نہ کرتے اور نہ ہمارے باپ دادا (شرک کرتے) اور نہ ہم کسی چیز کو حرام ٹھہراتے اسی طرح ان لوگوں نے تکذیب کی تھی جو ان سے پہلے تھے یہاں تک کہ ہمارے عذاب کا مزہ چکھ کر رہے کہہ دو کیا تمہارے پاس کوئی سند ہے (اگر ہے) تو اسے ہمارے سامنے نکالو تم محض خیال کے پیچھے چلتے اور اٹکل کی تیر چلاتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

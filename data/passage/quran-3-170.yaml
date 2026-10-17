@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:170 (سورة آل عمران، الآية 170)."
 text: "فَرِحِينَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ وَيَسْتَبْشِرُونَ بِٱلَّذِينَ لَمْ يَلْحَقُوا۟ بِهِم مِّنْ خَلْفِهِمْ أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ"
 text_search: "فرحين بما آتاهم الله من فضله ويستبشرون بالذين لم يلحقوا بهم من خلفهم ألا خوف عليهم ولا هم يحزنون"
+translations:
+  en: { text: "Jubilant (are they) because of that which Allah hath bestowed upon them of His bounty, rejoicing for the sake of those who have not joined them but are left behind: That there shall no fear come upon them neither shall they grieve.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو کچھ خدا نے ان کو اپنے فضل سے بخش رکھا ہے اس میں خوش ہیں۔ اور جو لوگ ان کے پیچھے رہ گئے اور (شہید ہوکر) ان میں شامل نہیں ہوسکے ان کی نسبت خوشیاں منا رہے ہیں کہ (قیامت کے دن) ان کو بھی نہ کچھ خوف ہوگا اور نہ وہ غمناک ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

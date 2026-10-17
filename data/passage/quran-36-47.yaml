@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:47 (سورة يس، الآية 47)."
 text: "وَإِذَا قِيلَ لَهُمْ أَنفِقُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُۥٓ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍ مُّبِينٍ"
 text_search: "وإذا قيل لهم أنفقوا مما رزقكم الله قال الذين كفروا للذين آمنوا أنطعم من لو يشاء الله أطعمه إن أنتم إلا في ضلال مبين"
+translations:
+  en: { text: "And when it is said unto them: Spend of that wherewith Allah hath provided you, those who disbelieve say unto those who believe: Shall we feed those whom Allah, if He willed, would feed? Ye are in naught else than error manifest.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ان سے کہا جاتا ہے کہ جو رزق خدا نے تم کو دیا ہے اس میں سے خرچ کرو۔ تو کافر مومنوں سے کہتے ہیں کہ بھلا ہم ان لوگوں کو کھانا کھلائیں جن کو اگر خدا چاہتا تو خود کھلا دیتا۔ تم تو صریح غلطی میں ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

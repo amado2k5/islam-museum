@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:27 (سورة الجاثية، الآية 27)."
 text: "وَلِلَّهِ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَيَوْمَ تَقُومُ ٱلسَّاعَةُ يَوْمَئِذٍ يَخْسَرُ ٱلْمُبْطِلُونَ"
 text_search: "ولله ملك السماوات والأرض ۚ ويوم تقوم الساعة يومئذ يخسر المبطلون"
+translations:
+  en: { text: "And unto Allah belongeth the Sovereignty of the heavens and the earth; and on the day when the Hour riseth, on that day those who follow falsehood will be lost.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور آسمانوں اور زمین کی بادشاہت خدا ہی کی ہے۔ اور جس روز قیامت برپا ہوگی اس روز اہل باطل خسارے میں پڑ جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

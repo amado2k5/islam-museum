@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 92:5 (سورة الليل، الآية 5)."
 text: "فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ"
 text_search: "فأما من أعطى واتقى"
+translations:
+  en: { text: "As for him who giveth and is dutiful (toward Allah)", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جس نے (خدا کے رستے میں مال) دیا اور پرہیز گاری کی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-92 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

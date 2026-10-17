@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:45 (سورة فاطر، الآية 45)."
 text: "وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِمَا كَسَبُوا۟ مَا تَرَكَ عَلَىٰ ظَهْرِهَا مِن دَآبَّةٍ وَلَـٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۖ فَإِذَا جَآءَ أَجَلُهُمْ فَإِنَّ ٱللَّهَ كَانَ بِعِبَادِهِۦ بَصِيرًۢا"
 text_search: "ولو يؤاخذ الله الناس بما كسبوا ما ترك على ظهرها من دابة ولكن يؤخرهم إلى أجل مسمى ۖ فإذا جاء أجلهم فإن الله كان بعباده بصيرا"
+translations:
+  en: { text: "If Allah took mankind to task by that which they deserve, He would not leave a living creature on the surface of the earth; but He reprieveth them unto an appointed term, and when their term cometh - then verily (they will know that) Allah is ever Seer of His slaves.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر خدا لوگوں کو ان کے اعمال کے سبب پکڑنے لگتا۔ تو روئے زمین پر ایک چلنے پھرنے والے کو نہ چھوڑتا۔ لیکن وہ ان کو ایک وقت مقرر تک مہلت دیئے جاتا ہے۔ سو جب ان کا وقت آجائے گا تو (ان کے اعمال کا بدلہ دے گا) خدا تو اپنے بندوں کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:91 (سورة البقرة، الآية 91)."
 text: "وَإِذَا قِيلَ لَهُمْ ءَامِنُوا۟ بِمَآ أَنزَلَ ٱللَّهُ قَالُوا۟ نُؤْمِنُ بِمَآ أُنزِلَ عَلَيْنَا وَيَكْفُرُونَ بِمَا وَرَآءَهُۥ وَهُوَ ٱلْحَقُّ مُصَدِّقًا لِّمَا مَعَهُمْ ۗ قُلْ فَلِمَ تَقْتُلُونَ أَنۢبِيَآءَ ٱللَّهِ مِن قَبْلُ إِن كُنتُم مُّؤْمِنِينَ"
 text_search: "وإذا قيل لهم آمنوا بما أنزل الله قالوا نؤمن بما أنزل علينا ويكفرون بما وراءه وهو الحق مصدقا لما معهم ۗ قل فلم تقتلون أنبياء الله من قبل إن كنتم مؤمنين"
+translations:
+  en: { text: "And when it is said unto them: Believe in that which Allah hath revealed, they say: We believe in that which was revealed unto us. And they disbelieve in that which cometh after it, though it is the truth confirming that which they possess. Say (unto them, O Muhammad): Why then slew ye the prophets of Allah aforetime, if ye are (indeed) believers?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ان سے کہا جاتا ہے کہ جو (کتاب) خدا نے (اب) نازل فرمائی ہے، اس کو مانو۔ تو کہتے ہیں کہ جو کتاب ہم پر (پہلے) نازل ہو چکی ہے، ہم تو اسی کو مانتے ہیں۔ (یعنی) یہ اس کے سوا کسی اور (کتاب) کو نہیں مانتے، حالانکہ وہ (سراسر) سچی ہے اور جو ان کی (آسمانی) کتاب ہے، اس کی بھی تصدیق کرتی ہے۔ (ان سے) کہہ دو کہ اگر تم صاحبِ ایمان ہوتے تو الله کے پیغمبروں کو پہلے ہی کیوں قتل کیا کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

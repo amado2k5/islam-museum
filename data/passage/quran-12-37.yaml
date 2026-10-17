@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:37 (سورة يوسف، الآية 37)."
 text: "قَالَ لَا يَأْتِيكُمَا طَعَامٌ تُرْزَقَانِهِۦٓ إِلَّا نَبَّأْتُكُمَا بِتَأْوِيلِهِۦ قَبْلَ أَن يَأْتِيَكُمَا ۚ ذَٰلِكُمَا مِمَّا عَلَّمَنِى رَبِّىٓ ۚ إِنِّى تَرَكْتُ مِلَّةَ قَوْمٍ لَّا يُؤْمِنُونَ بِٱللَّهِ وَهُم بِٱلْـَٔاخِرَةِ هُمْ كَـٰفِرُونَ"
 text_search: "قال لا يأتيكما طعام ترزقانه إلا نبأتكما بتأويله قبل أن يأتيكما ۚ ذلكما مما علمني ربي ۚ إني تركت ملة قوم لا يؤمنون بالله وهم بالآخرة هم كافرون"
+translations:
+  en: { text: "He said: The food which ye are given (daily) shall not come unto you but I shall tell you the interpretation ere it cometh unto you. This is of that which my Lord hath taught me. Lo! I have forsaken the religion of folk who believe not in Allah and are disbelievers in the Hereafter.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یوسف نے کہا کہ جو کھانا تم کو ملنے والا ہے وہ آنے نہیں پائے گا کہ میں اس سے پہلے تم کو اس کی تعبیر بتادوں گا۔ یہ ان (باتوں) میں سے ہے جو میرے پروردگار نے مجھے سکھائی ہیں جو لوگ خدا پر ایمان نہیں لاتے اور روز آخرت سے انکار کرتے ہیں میں ان کا مذہب چھوڑے ہوئے ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

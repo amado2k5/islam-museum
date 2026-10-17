@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:61 (سورة الأحزاب، الآية 61)."
 text: "مَّلْعُونِينَ ۖ أَيْنَمَا ثُقِفُوٓا۟ أُخِذُوا۟ وَقُتِّلُوا۟ تَقْتِيلًا"
 text_search: "ملعونين ۖ أينما ثقفوا أخذوا وقتلوا تقتيلا"
+translations:
+  en: { text: "Accursed, they will be seized wherever found and slain with a (fierce) slaughter.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(وہ بھی) پھٹکارے ہوئے۔ جہاں پائے گئے پکڑے گئے اور جان سے مار ڈالے گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

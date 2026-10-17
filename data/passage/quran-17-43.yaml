@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:43 (سورة الإسراء، الآية 43)."
 text: "سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يَقُولُونَ عُلُوًّا كَبِيرًا"
 text_search: "سبحانه وتعالى عما يقولون علوا كبيرا"
+translations:
+  en: { text: "Glorified is He, and High Exalted above what they say!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ پاک ہے اور جو کچھ یہ بکواس کرتے ہیں اس سے (اس کا رتبہ) بہت عالی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

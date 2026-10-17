@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:19 (سورة النور، الآية 19)."
 text: "إِنَّ ٱلَّذِينَ يُحِبُّونَ أَن تَشِيعَ ٱلْفَـٰحِشَةُ فِى ٱلَّذِينَ ءَامَنُوا۟ لَهُمْ عَذَابٌ أَلِيمٌ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ"
 text_search: "إن الذين يحبون أن تشيع الفاحشة في الذين آمنوا لهم عذاب أليم في الدنيا والآخرة ۚ والله يعلم وأنتم لا تعلمون"
+translations:
+  en: { text: "Lo! those who love that slander should be spread concerning those who believe, theirs will be a painful punishment in the world and the Hereafter. Allah knoweth. Ye know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ اس بات کو پسند کرتے ہیں کہ مومنوں میں بےحیائی یعنی (تہمت بدکاری کی خبر) پھیلے ان کو دنیا اور آخرت میں دکھ دینے والا عذاب ہوگا۔ اور خدا جانتا ہے اور تم نہیں جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

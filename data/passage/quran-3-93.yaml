@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:93 (سورة آل عمران، الآية 93)."
 text: "۞ كُلُّ ٱلطَّعَامِ كَانَ حِلًّا لِّبَنِىٓ إِسْرَٰٓءِيلَ إِلَّا مَا حَرَّمَ إِسْرَٰٓءِيلُ عَلَىٰ نَفْسِهِۦ مِن قَبْلِ أَن تُنَزَّلَ ٱلتَّوْرَىٰةُ ۗ قُلْ فَأْتُوا۟ بِٱلتَّوْرَىٰةِ فَٱتْلُوهَآ إِن كُنتُمْ صَـٰدِقِينَ"
 text_search: "۞ كل الطعام كان حلا لبني إسرائيل إلا ما حرم إسرائيل على نفسه من قبل أن تنزل التوراة ۗ قل فأتوا بالتوراة فاتلوها إن كنتم صادقين"
+translations:
+  en: { text: "All food was lawful unto the Children of Israel, save that which Israel forbade himself, (in days) before the Torah was revealed. Say: Produce the Torah and read it (unto us) if ye are truthful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بنی اسرائیل کے لیے (تورات کے نازل ہونے سے) پہلے کھانے کی تمام چیزیں حلال تھیں بجز ان کے جو یعقوب نے خود اپنے اوپر حرام کر لی تھیں کہہ دو کہ اگر سچے ہو تو تورات لاؤ اور اسے پڑھو (یعنی دلیل پیش کرو)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

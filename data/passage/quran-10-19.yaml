@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:19 (سورة يونس، الآية 19)."
 text: "وَمَا كَانَ ٱلنَّاسُ إِلَّآ أُمَّةً وَٰحِدَةً فَٱخْتَلَفُوا۟ ۚ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ فِيمَا فِيهِ يَخْتَلِفُونَ"
 text_search: "وما كان الناس إلا أمة واحدة فاختلفوا ۚ ولولا كلمة سبقت من ربك لقضي بينهم فيما فيه يختلفون"
+translations:
+  en: { text: "Mankind were but one community; then they differed; and had it not been for a word that had already gone forth from thy Lord it had been judged between them in respect of that wherein they differ.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (سب) لوگ (پہلے) ایک ہی اُمت (یعنی ایک ہی ملت پر) تھے۔ پھر جدا جدا ہوگئے۔ اور اگر ایک بات جو تمہارے پروردگار کی طرف سے پہلے ہوچکی ہے نہ ہوتی تو جن باتوں میں وہ اختلاف کرتے ہیں ان میں فیصلہ کر دیا جاتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

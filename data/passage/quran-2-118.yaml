@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:118 (سورة البقرة، الآية 118)."
 text: "وَقَالَ ٱلَّذِينَ لَا يَعْلَمُونَ لَوْلَا يُكَلِّمُنَا ٱللَّهُ أَوْ تَأْتِينَآ ءَايَةٌ ۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ مِن قَبْلِهِم مِّثْلَ قَوْلِهِمْ ۘ تَشَـٰبَهَتْ قُلُوبُهُمْ ۗ قَدْ بَيَّنَّا ٱلْـَٔايَـٰتِ لِقَوْمٍ يُوقِنُونَ"
 text_search: "وقال الذين لا يعلمون لولا يكلمنا الله أو تأتينا آية ۗ كذلك قال الذين من قبلهم مثل قولهم ۘ تشابهت قلوبهم ۗ قد بينا الآيات لقوم يوقنون"
+translations:
+  en: { text: "And those who have no knowledge say: Why doth not Allah speak unto us, or some sign come unto us? Even thus, as they now speak, spake those (who were) before them. Their hearts are all alike. We have made clear the revelations for people who are sure.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ (کچھ) نہیں جانتے (یعنی مشرک) وہ کہتے ہیں کہ خدا ہم سے کلام کیوں نہیں کرتا۔ یا ہمارے پاس کوئی نشانی کیوں نہیں آتی۔ اسی طرح جو لوگ ان سے پہلے تھے، وہ بھی انہی کی سی باتیں کیا کرتے تھے۔ ان لوگوں کے دل آپس میں ملتے جلتے ہیں۔ جو لوگ صاحبِ یقین ہیں، ان کے (سمجھانے کے) لیے نشانیاں بیان کردی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

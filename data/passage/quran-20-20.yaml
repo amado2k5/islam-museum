@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:20 (سورة طه، الآية 20)."
 text: "فَأَلْقَىٰهَا فَإِذَا هِىَ حَيَّةٌ تَسْعَىٰ"
 text_search: "فألقاها فإذا هي حية تسعى"
+translations:
+  en: { text: "So he cast it down, and lo! it was a serpent, gliding.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو انہوں نے اس کو ڈال دیا اور وہ ناگہاں سانپ بن کر دوڑنے لگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

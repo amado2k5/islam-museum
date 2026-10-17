@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:34 (سورة مريم، الآية 34)."
 text: "ذَٰلِكَ عِيسَى ٱبْنُ مَرْيَمَ ۚ قَوْلَ ٱلْحَقِّ ٱلَّذِى فِيهِ يَمْتَرُونَ"
 text_search: "ذلك عيسى ابن مريم ۚ قول الحق الذي فيه يمترون"
+translations:
+  en: { text: "Such was Jesus, son of Mary: (this is) a statement of the truth concerning which they doubt.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ مریم کے بیٹے عیسیٰ ہیں (اور یہ) سچی بات ہے جس میں لوگ شک کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:39 (سورة الفرقان، الآية 39)."
 text: "وَكُلًّا ضَرَبْنَا لَهُ ٱلْأَمْثَـٰلَ ۖ وَكُلًّا تَبَّرْنَا تَتْبِيرًا"
 text_search: "وكلا ضربنا له الأمثال ۖ وكلا تبرنا تتبيرا"
+translations:
+  en: { text: "Each (of them) We warned by examples, and each (of them) We brought to utter ruin.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور سب کے (سمجھانے کے لئے) ہم نے مثالیں بیان کیں اور (نہ ماننے پر) سب کا تہس نہس کردیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

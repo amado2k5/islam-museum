@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 62:3 (سورة الجمعة، الآية 3)."
 text: "وَءَاخَرِينَ مِنْهُمْ لَمَّا يَلْحَقُوا۟ بِهِمْ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
 text_search: "وآخرين منهم لما يلحقوا بهم ۚ وهو العزيز الحكيم"
+translations:
+  en: { text: "Along with others of them who have not yet joined them. He is the Mighty, the Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان میں سے اور لوگوں کی طرف بھی (ان کو بھیجا ہے) جو ابھی ان (مسلمانوں سے) نہیں ملے۔ اور وہ غالب حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-62 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

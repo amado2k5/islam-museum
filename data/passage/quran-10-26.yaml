@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:26 (سورة يونس، الآية 26)."
 text: "۞ لِّلَّذِينَ أَحْسَنُوا۟ ٱلْحُسْنَىٰ وَزِيَادَةٌ ۖ وَلَا يَرْهَقُ وُجُوهَهُمْ قَتَرٌ وَلَا ذِلَّةٌ ۚ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَـٰلِدُونَ"
 text_search: "۞ للذين أحسنوا الحسنى وزيادة ۖ ولا يرهق وجوههم قتر ولا ذلة ۚ أولئك أصحاب الجنة ۖ هم فيها خالدون"
+translations:
+  en: { text: "For those who do good is the best (reward) and more (thereto). Neither dust nor ignominy cometh near their faces. Such are rightful owners of the Garden; they will abide therein.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جن لوگوں نے نیکو کاری کی ان کے لیے بھلائی ہے اور (مزید برآں) اور بھی اور ان کے مونہوں پر نہ تو سیاہی چھائے گی اور نہ رسوائی۔ یہی جنتی ہیں کہ اس میں ہمیشہ رہیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

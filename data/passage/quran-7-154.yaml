@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:154 (سورة الأعراف، الآية 154)."
 text: "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ"
 text_search: "ولما سكت عن موسى الغضب أخذ الألواح ۖ وفي نسختها هدى ورحمة للذين هم لربهم يرهبون"
+translations:
+  en: { text: "Then, when the anger of Moses abated, he took up the tablets, and in their inscription there was guidance and mercy for all those who fear their Lord.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب موسیٰ کا غصہ فرو ہوا تو (تورات) کی تختیاں اٹھالیں اور جو کچھ ان میں لکھا تھا وہ ان لوگوں کے لیے جو اپنے پروردگار سے ڈرتے ہیں۔ ہدایت اور رحمت تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

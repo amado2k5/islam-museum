@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:5 (سورة الكهف، الآية 5)."
 text: "مَّا لَهُم بِهِۦ مِنْ عِلْمٍ وَلَا لِـَٔابَآئِهِمْ ۚ كَبُرَتْ كَلِمَةً تَخْرُجُ مِنْ أَفْوَٰهِهِمْ ۚ إِن يَقُولُونَ إِلَّا كَذِبًا"
 text_search: "ما لهم به من علم ولا لآبائهم ۚ كبرت كلمة تخرج من أفواههم ۚ إن يقولون إلا كذبا"
+translations:
+  en: { text: "(A thing) whereof they have no knowledge, nor (had) their fathers, Dreadful is the word that cometh out of their mouths. They speak naught but a lie.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کو اس بات کا کچھ بھی علم نہیں اور نہ ان کے باپ دادا ہی کو تھا۔ (یہ) بڑی سخت بات ہے جو ان کے منہ سے نکلتی ہے (اور کچھ شک نہیں) کہ یہ جو کہتے ہیں محض جھوٹ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

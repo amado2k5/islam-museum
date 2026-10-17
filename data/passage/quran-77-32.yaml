@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 77:32 (سورة المرسلات، الآية 32)."
 text: "إِنَّهَا تَرْمِى بِشَرَرٍ كَٱلْقَصْرِ"
 text_search: "إنها ترمي بشرر كالقصر"
+translations:
+  en: { text: "Lo! it throweth up sparks like the castles,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس سے (آگ کی اتنی اتنی بڑی) چنگاریاں اُڑتی ہیں جیسے محل", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:104 (سورة الكهف، الآية 104)."
 text: "ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا"
 text_search: "الذين ضل سعيهم في الحياة الدنيا وهم يحسبون أنهم يحسنون صنعا"
+translations:
+  en: { text: "Those whose effort goeth astray in the life of the world, and yet they reckon that they do good work.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ لوگ جن کی سعی دنیا کی زندگی میں برباد ہوگئی۔ اور وہ یہ سمجھے ہوئے ہیں کہ اچھے کام کر رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

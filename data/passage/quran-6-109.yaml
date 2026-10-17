@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:109 (سورة الأنعام، الآية 109)."
 text: "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَـٰنِهِمْ لَئِن جَآءَتْهُمْ ءَايَةٌ لَّيُؤْمِنُنَّ بِهَا ۚ قُلْ إِنَّمَا ٱلْـَٔايَـٰتُ عِندَ ٱللَّهِ ۖ وَمَا يُشْعِرُكُمْ أَنَّهَآ إِذَا جَآءَتْ لَا يُؤْمِنُونَ"
 text_search: "وأقسموا بالله جهد أيمانهم لئن جاءتهم آية ليؤمنن بها ۚ قل إنما الآيات عند الله ۖ وما يشعركم أنها إذا جاءت لا يؤمنون"
+translations:
+  en: { text: "And they swear a solemn oath by Allah that if there come unto them a portent they will believe therein. Say; Portents are with Allah and (so is) that which telleth you that if such came unto them they would not believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ لوگ خدا کی سخت سخت قسمیں کھاتے ہیں کہ اگر ان کے پاس کوئی نشانی آئے تو وہ اس پر ضروری ایمان لے آئیں۔ کہہ دو کہ نشانیاں تو سب خدا ہی کے پاس ہیں۔ اور (مومنو!) تمہیں کیا معلوم ہے (یہ تو ایسے بدبخت ہیں کہ ان کے پاس) نشانیاں آ بھی جائیں تب بھی ایمان نہ لائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

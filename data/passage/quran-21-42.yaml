@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:42 (سورة الأنبياء، الآية 42)."
 text: "قُلْ مَن يَكْلَؤُكُم بِٱلَّيْلِ وَٱلنَّهَارِ مِنَ ٱلرَّحْمَـٰنِ ۗ بَلْ هُمْ عَن ذِكْرِ رَبِّهِم مُّعْرِضُونَ"
 text_search: "قل من يكلؤكم بالليل والنهار من الرحمن ۗ بل هم عن ذكر ربهم معرضون"
+translations:
+  en: { text: "Say: Who guardeth you in the night or in the day from the Beneficent? Nay, but they turn away from mention of their Lord!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کہ رات اور دن میں خدا سے تمہاری کون حفاظت کرسکتا ہے؟ بات یہ ہے کہ اپنے پروردگار کی یاد سے منہ پھیرے ہوئے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

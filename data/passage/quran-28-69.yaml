@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:69 (سورة القصص، الآية 69)."
 text: "وَرَبُّكَ يَعْلَمُ مَا تُكِنُّ صُدُورُهُمْ وَمَا يُعْلِنُونَ"
 text_search: "وربك يعلم ما تكن صدورهم وما يعلنون"
+translations:
+  en: { text: "And thy Lord knoweth what their breasts conceal, and what they publish.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کے سینے جو کچھ مخفی کرتے اور جو یہ ظاہر کرتے ہیں تمہارا پروردگار اس کو جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:7 (سورة الزمر، الآية 7)."
 text: "إِن تَكْفُرُوا۟ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنكُمْ ۖ وَلَا يَرْضَىٰ لِعِبَادِهِ ٱلْكُفْرَ ۖ وَإِن تَشْكُرُوا۟ يَرْضَهُ لَكُمْ ۗ وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ ۗ ثُمَّ إِلَىٰ رَبِّكُم مَّرْجِعُكُمْ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ"
 text_search: "إن تكفروا فإن الله غني عنكم ۖ ولا يرضى لعباده الكفر ۖ وإن تشكروا يرضه لكم ۗ ولا تزر وازرة وزر أخرى ۗ ثم إلى ربكم مرجعكم فينبئكم بما كنتم تعملون ۚ إنه عليم بذات الصدور"
+translations:
+  en: { text: "If ye are thankless, yet Allah is Independent of you, though He is not pleased with thanklessness for His bondmen; and if ye are thankful He is pleased therewith for you. No laden soul will bear another's load. Then unto your Lord is your return; and He will tell you what ye used to do. Lo! He knoweth what is in the breasts (of men).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر ناشکری کرو گے تو خدا تم سے بےپروا ہے۔ اور وہ اپنے بندوں کے لئے ناشکری پسند نہیں کرتا اور اگر شکر کرو گے تو وہ اس کو تمہارے لئے پسند کرے گا۔ اور کوئی اٹھانے والا دوسرے کا بوجھ نہیں اٹھائے گا۔ پھر تم اپنے پروردگار کی طرف لوٹنا ہے۔ پھر جو کچھ تم کرتے رہے وہ تم کو بتائے گا۔ وہ تو دلوں کی پوشیدہ باتوں تک سے آگاہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:204 (سورة البقرة، الآية 204)."
 text: "وَمِنَ ٱلنَّاسِ مَن يُعْجِبُكَ قَوْلُهُۥ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَيُشْهِدُ ٱللَّهَ عَلَىٰ مَا فِى قَلْبِهِۦ وَهُوَ أَلَدُّ ٱلْخِصَامِ"
 text_search: "ومن الناس من يعجبك قوله في الحياة الدنيا ويشهد الله على ما في قلبه وهو ألد الخصام"
+translations:
+  en: { text: "And of mankind there is he whoso conversation on the life of this world pleaseth thee (Muhammad), and he calleth Allah to witness as to that which is in his heart; yet he is the most rigid of opponents.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کوئی شخص تو ایسا ہے جس کی گفتگو دنیا کی زندگی میں تم کو دلکش معلوم ہوتی ہے اور وہ اپنی مانی الضمیر پر خدا کو گواہ بناتا ہے حالانکہ وہ سخت جھگڑالو ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

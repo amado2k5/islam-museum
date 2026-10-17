@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:25 (سورة ص، الآية 25)."
 text: "فَغَفَرْنَا لَهُۥ ذَٰلِكَ ۖ وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَـَٔابٍ"
 text_search: "فغفرنا له ذلك ۖ وإن له عندنا لزلفى وحسن مآب"
+translations:
+  en: { text: "So We forgave him that; and lo! he had access to Our presence and a happy journey's end.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ہم نے ان کو بخش دیا۔ اور بےشک ان کے لئے ہمارے ہاں قرب اور عمدہ مقام ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

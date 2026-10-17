@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:3 (سورة المؤمنون، الآية 3)."
 text: "وَٱلَّذِينَ هُمْ عَنِ ٱللَّغْوِ مُعْرِضُونَ"
 text_search: "والذين هم عن اللغو معرضون"
+translations:
+  en: { text: "And who shun vain conversation,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو بیہودہ باتوں سے منہ موڑے رہتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

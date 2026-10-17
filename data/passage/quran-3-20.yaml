@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:20 (سورة آل عمران، الآية 20)."
 text: "فَإِنْ حَآجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِىَ لِلَّهِ وَمَنِ ٱتَّبَعَنِ ۗ وَقُل لِّلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ وَٱلْأُمِّيِّـۧنَ ءَأَسْلَمْتُمْ ۚ فَإِنْ أَسْلَمُوا۟ فَقَدِ ٱهْتَدَوا۟ ۖ وَّإِن تَوَلَّوْا۟ فَإِنَّمَا عَلَيْكَ ٱلْبَلَـٰغُ ۗ وَٱللَّهُ بَصِيرٌۢ بِٱلْعِبَادِ"
 text_search: "فإن حاجوك فقل أسلمت وجهي لله ومن اتبعن ۗ وقل للذين أوتوا الكتاب والأميين أأسلمتم ۚ فإن أسلموا فقد اهتدوا ۖ وإن تولوا فإنما عليك البلاغ ۗ والله بصير بالعباد"
+translations:
+  en: { text: "And if they argue with thee, (O Muhammad), say: I have surrendered my purpose to Allah and (so have) those who follow me. And say unto those who have received the Scripture and those who read not: Have ye (too) surrendered? If they surrender, then truly they are rightly guided, and if they turn away, then it is thy duty only to convey the message (unto them). Allah is Seer of (His) bondmen.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پیغمبر اگر یہ لوگ تم سے جھگڑنے لگیں تو کہنا کہ میں اور میرے پیرو تو خدا کے فرمانبردار ہو چکے اور اہل کتاب اور ان پڑھ لوگوں سے کہو کہ کیا تم بھی (خدا کے فرمانبردار بنتے ہو) اور اسلام لاتے ہو؟ اگر یہ لوگ اسلام لے آئیں تو بے شک ہدایت پالیں اور اگر (تمہارا کہا) نہ مانیں تو تمہارا کام صرف خدا کا پیغام پہنچا دینا ہے اور خدا (اپنے) بندوں کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

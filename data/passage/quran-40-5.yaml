@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:5 (سورة غافر، الآية 5)."
 text: "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَٱلْأَحْزَابُ مِنۢ بَعْدِهِمْ ۖ وَهَمَّتْ كُلُّ أُمَّةٍۭ بِرَسُولِهِمْ لِيَأْخُذُوهُ ۖ وَجَـٰدَلُوا۟ بِٱلْبَـٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ فَأَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ"
 text_search: "كذبت قبلهم قوم نوح والأحزاب من بعدهم ۖ وهمت كل أمة برسولهم ليأخذوه ۖ وجادلوا بالباطل ليدحضوا به الحق فأخذتهم ۖ فكيف كان عقاب"
+translations:
+  en: { text: "The folk of Noah and the factions after them denied (their messengers) before these, and every nation purposed to seize their messenger and argued falsely, (thinking) thereby to refute the Truth. Then I seized them, and how (awful) was My punishment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان سے پہلے نوح کی قوم اور ان کے بعد اور اُمتوں نے بھی (پیغمبروں کی) تکذیب کی۔ اور ہر اُمت نے اپنے پیغمبر کے بارے میں یہی قصد کیا کہ اس کو پکڑ لیں اور بیہودہ (شہبات سے) جھگڑتے رہے کہ اس سے حق کو زائل کردیں تو میں نے ان کو پکڑ لیا (سو دیکھ لو) میرا عذاب کیسا ہوا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

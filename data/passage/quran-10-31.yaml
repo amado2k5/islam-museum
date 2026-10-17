@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:31 (سورة يونس، الآية 31)."
 text: "قُلْ مَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ أَمَّن يَمْلِكُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَمَن يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَيُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ وَمَن يُدَبِّرُ ٱلْأَمْرَ ۚ فَسَيَقُولُونَ ٱللَّهُ ۚ فَقُلْ أَفَلَا تَتَّقُونَ"
 text_search: "قل من يرزقكم من السماء والأرض أمن يملك السمع والأبصار ومن يخرج الحي من الميت ويخرج الميت من الحي ومن يدبر الأمر ۚ فسيقولون الله ۚ فقل أفلا تتقون"
+translations:
+  en: { text: "Say (unto them, O Muhammad): Who provideth for you from the sky and the earth, or Who owneth hearing and sight; and Who bringeth forth the living from the dead and bringeth forth the dead from the living; and Who directeth the course? They will say: Allah. Then say: Will ye not then keep your duty (unto Him)?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(ان سے) پوچھو کہ تم کو آسمان اور زمین میں رزق کون دیتا ہے یا (تمہارے) کانوں اور آنکھوں کا مالک کون ہے اور بےجان سے جاندار کون پیدا کرتا ہے اور دنیا کے کاموں کا انتظام کون کرتا ہے۔ جھٹ کہہ دیں گے کہ خدا۔ تو کہو کہ پھر تم (خدا سے) ڈرتے کیوں نہیں؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

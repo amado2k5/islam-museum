@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:28 (سورة الحج، الآية 28)."
 text: "لِّيَشْهَدُوا۟ مَنَـٰفِعَ لَهُمْ وَيَذْكُرُوا۟ ٱسْمَ ٱللَّهِ فِىٓ أَيَّامٍ مَّعْلُومَـٰتٍ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلْأَنْعَـٰمِ ۖ فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْبَآئِسَ ٱلْفَقِيرَ"
 text_search: "ليشهدوا منافع لهم ويذكروا اسم الله في أيام معلومات على ما رزقهم من بهيمة الأنعام ۖ فكلوا منها وأطعموا البائس الفقير"
+translations:
+  en: { text: "That they may witness things that are of benefit to them, and mention the name of Allah on appointed days over the beast of cattle that He hath bestowed upon them. Then eat thereof and feed therewith the poor unfortunate.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ اپنے فائدے کے کاموں کے لئے حاضر ہوں۔ اور (قربانی کے) ایام معلوم میں چہار پایاں مویشی (کے ذبح کے وقت) جو خدا نے ان کو دیئے ہیں ان پر خدا کا نام لیں۔ اس میں سے تم خود بھی کھاؤ اور فقیر درماندہ کو بھی کھلاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

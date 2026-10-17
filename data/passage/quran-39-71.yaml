@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:71 (سورة الزمر، الآية 71)."
 text: "وَسِيقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا فُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ رُسُلٌ مِّنكُمْ يَتْلُونَ عَلَيْكُمْ ءَايَـٰتِ رَبِّكُمْ وَيُنذِرُونَكُمْ لِقَآءَ يَوْمِكُمْ هَـٰذَا ۚ قَالُوا۟ بَلَىٰ وَلَـٰكِنْ حَقَّتْ كَلِمَةُ ٱلْعَذَابِ عَلَى ٱلْكَـٰفِرِينَ"
 text_search: "وسيق الذين كفروا إلى جهنم زمرا ۖ حتى إذا جاءوها فتحت أبوابها وقال لهم خزنتها ألم يأتكم رسل منكم يتلون عليكم آيات ربكم وينذرونكم لقاء يومكم هذا ۚ قالوا بلى ولكن حقت كلمة العذاب على الكافرين"
+translations:
+  en: { text: "And those who disbelieve are driven unto hell in troops till, when they reach it and the gates thereof are opened, and the warders thereof say unto them: Came there not unto you messengers of your own, reciting unto you the revelations of your Lord and warning you of the meeting of this your Day? they say: Yea, verily. But the word of doom of disbelievers is fulfilled.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کافروں کو گروہ گروہ بنا کر جہنم کی طرف لے جائیں گے۔ یہاں تک کہ جب وہ اس کے پاس پہنچ جائیں گے تو اس کے دروازے کھول دیئے جائیں گے تو اس کے داروغہ ان سے کہیں گے کہ کیا تمہارے پاس تم ہی میں سے پیغمبر نہیں آئے تھے جو تم کو تمہارے پروردگار کی آیتیں پڑھ پڑھ کر سناتے اور اس دن کے پیش آنے سے ڈراتے تھے کہیں گے کیوں نہیں لیکن کافروں کے حق میں عذاب کا حکم متحقق ہوچکا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

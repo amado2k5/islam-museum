@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:43 (سورة آل عمران، الآية 43)."
 text: "يَـٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ وَٱسْجُدِى وَٱرْكَعِى مَعَ ٱلرَّٰكِعِينَ"
 text_search: "يا مريم اقنتي لربك واسجدي واركعي مع الراكعين"
+translations:
+  en: { text: "O Mary! Be obedient to thy Lord, prostrate thyself and bow with those who bow (in worship).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مریم اپنے پروردگار کی فرمانبرداری کرنا اور سجدہ کرنا اور رکوع کرنے والوں کے ساتھ رکوع کرنا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

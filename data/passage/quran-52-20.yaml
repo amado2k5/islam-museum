@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 52:20 (سورة الطور، الآية 20)."
 text: "مُتَّكِـِٔينَ عَلَىٰ سُرُرٍ مَّصْفُوفَةٍ ۖ وَزَوَّجْنَـٰهُم بِحُورٍ عِينٍ"
 text_search: "متكئين على سرر مصفوفة ۖ وزوجناهم بحور عين"
+translations:
+  en: { text: "Reclining on ranged couches. And we wed them unto fair ones with wide, lovely eyes.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تختوں پر جو برابر برابر بچھے ہوئے ہیں تکیہ لگائے ہوئے اور بڑی بڑی آنکھوں والی حوروں سے ہم ان کا عقد کر دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-52 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

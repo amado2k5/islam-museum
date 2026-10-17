@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:4 (سورة الروم، الآية 4)."
 text: "فِى بِضْعِ سِنِينَ ۗ لِلَّهِ ٱلْأَمْرُ مِن قَبْلُ وَمِنۢ بَعْدُ ۚ وَيَوْمَئِذٍ يَفْرَحُ ٱلْمُؤْمِنُونَ"
 text_search: "في بضع سنين ۗ لله الأمر من قبل ومن بعد ۚ ويومئذ يفرح المؤمنون"
+translations:
+  en: { text: "Within ten years - Allah's is the command in the former case and in the latter - and in that day believers will rejoice", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "چند ہی سال میں پہلے بھی اور پیچھے بھی خدا ہی کا حکم ہے اور اُس روز مومن خوش ہوجائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

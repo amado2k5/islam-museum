@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:198 (سورة البقرة، الآية 198)."
 text: "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ ۚ فَإِذَآ أَفَضْتُم مِّنْ عَرَفَـٰتٍ فَٱذْكُرُوا۟ ٱللَّهَ عِندَ ٱلْمَشْعَرِ ٱلْحَرَامِ ۖ وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ"
 text_search: "ليس عليكم جناح أن تبتغوا فضلا من ربكم ۚ فإذا أفضتم من عرفات فاذكروا الله عند المشعر الحرام ۖ واذكروه كما هداكم وإن كنتم من قبله لمن الضالين"
+translations:
+  en: { text: "It is no sin for you that ye seek the bounty of your Lord (by trading). But, when ye press on in the multitude from 'Arafat, remember Allah by the sacred monument. Remember Him as He hath guided you, although before ye were of those astray.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس کا تمہیں کچھ گناہ نہیں کہ (حج کے دنوں میں بذریعہ تجارت) اپنے پروردگار سے روزی طلب کرو اور جب عرفات سے واپس ہونے لگو تو مشعر حرام (یعنی مزدلفے) میں خدا کا ذکر کرو اور اس طرح ذکر کرو جس طرح اس نے تم کو سکھایا۔ اور اس سے پیشتر تم لوگ (ان طریقوں سے) محض ناواقف تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

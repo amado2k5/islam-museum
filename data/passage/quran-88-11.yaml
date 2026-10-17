@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 88:11 (سورة الغاشية، الآية 11)."
 text: "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً"
 text_search: "لا تسمع فيها لاغية"
+translations:
+  en: { text: "Where they hear no idle speech,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہاں کسی طرح کی بکواس نہیں سنیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-88 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

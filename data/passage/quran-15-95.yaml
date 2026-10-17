@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:95 (سورة الحجر، الآية 95)."
 text: "إِنَّا كَفَيْنَـٰكَ ٱلْمُسْتَهْزِءِينَ"
 text_search: "إنا كفيناك المستهزئين"
+translations:
+  en: { text: "Lo! We defend thee from the scoffers,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم تمہیں ان لوگوں (کے شر) سے بچانے کے لیے جو تم سے استہزاء کرتے ہیں کافی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:2 (سورة النساء، الآية 2)."
 text: "وَءَاتُوا۟ ٱلْيَتَـٰمَىٰٓ أَمْوَٰلَهُمْ ۖ وَلَا تَتَبَدَّلُوا۟ ٱلْخَبِيثَ بِٱلطَّيِّبِ ۖ وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَهُمْ إِلَىٰٓ أَمْوَٰلِكُمْ ۚ إِنَّهُۥ كَانَ حُوبًا كَبِيرًا"
 text_search: "وآتوا اليتامى أموالهم ۖ ولا تتبدلوا الخبيث بالطيب ۖ ولا تأكلوا أموالهم إلى أموالكم ۚ إنه كان حوبا كبيرا"
+translations:
+  en: { text: "Give unto orphans their wealth. Exchange not the good for the bad (in your management thereof) nor absorb their wealth into your own wealth. Lo! that would be a great sin.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یتیموں کا مال (جو تمہاری تحویل میں ہو) ان کے حوالے کردو اور ان کے پاکیزہ (اور عمدہ) مال کو (اپنے ناقص اور) برے مال سے نہ بدلو۔ اور نہ ان کا مال اپنے مال میں ملا کر کھاؤ۔ کہ یہ بڑا سخت گناہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

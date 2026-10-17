@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:57 (سورة الزخرف، الآية 57)."
 text: "۞ وَلَمَّا ضُرِبَ ٱبْنُ مَرْيَمَ مَثَلًا إِذَا قَوْمُكَ مِنْهُ يَصِدُّونَ"
 text_search: "۞ ولما ضرب ابن مريم مثلا إذا قومك منه يصدون"
+translations:
+  en: { text: "And when the son of Mary is quoted as an example, behold! the folk laugh out,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب مریم کے بیٹے (عیسیٰ) کا حال بیان کیا گیا تو تمہاری قوم کے لوگ اس سے چِلا اُٹھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

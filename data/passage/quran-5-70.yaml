@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:70 (سورة المائدة، الآية 70)."
 text: "لَقَدْ أَخَذْنَا مِيثَـٰقَ بَنِىٓ إِسْرَٰٓءِيلَ وَأَرْسَلْنَآ إِلَيْهِمْ رُسُلًا ۖ كُلَّمَا جَآءَهُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُهُمْ فَرِيقًا كَذَّبُوا۟ وَفَرِيقًا يَقْتُلُونَ"
 text_search: "لقد أخذنا ميثاق بني إسرائيل وأرسلنا إليهم رسلا ۖ كلما جاءهم رسول بما لا تهوى أنفسهم فريقا كذبوا وفريقا يقتلون"
+translations:
+  en: { text: "We made a covenant of old with the Children of Israel and We sent unto them messengers. As often as a messenger came unto them with that which their souls desired not (they became rebellious). Some (of them) they denied and some they slew.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم نے بنی اسرائیل سے عہد بھی لیا اور ان کی طرف پیغمبر بھی بھیجے (لیکن) جب کوئی پیغمبر ان کے پاس ایسی باتیں لےکر آتا جن کو ان کے دل نہیں چاہتے تھے تو وہ (انبیاء کی) ایک جماعت کو تو جھٹلا دیتے اور ایک جماعت کو قتل کر دیتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

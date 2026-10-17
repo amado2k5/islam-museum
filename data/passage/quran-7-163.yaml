@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:163 (سورة الأعراف، الآية 163)."
 text: "وَسْـَٔلْهُمْ عَنِ ٱلْقَرْيَةِ ٱلَّتِى كَانَتْ حَاضِرَةَ ٱلْبَحْرِ إِذْ يَعْدُونَ فِى ٱلسَّبْتِ إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ سَبْتِهِمْ شُرَّعًا وَيَوْمَ لَا يَسْبِتُونَ ۙ لَا تَأْتِيهِمْ ۚ كَذَٰلِكَ نَبْلُوهُم بِمَا كَانُوا۟ يَفْسُقُونَ"
 text_search: "واسألهم عن القرية التي كانت حاضرة البحر إذ يعدون في السبت إذ تأتيهم حيتانهم يوم سبتهم شرعا ويوم لا يسبتون ۙ لا تأتيهم ۚ كذلك نبلوهم بما كانوا يفسقون"
+translations:
+  en: { text: "Ask them (O Muhammad) of the township that was by the sea, how they did break the Sabbath, how their big fish came unto them visibly upon their Sabbath day and on a day when they did not keep Sabbath came they not unto them. Thus did We try them for that they were evil-livers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان سے اس گاؤں کا حال تو پوچھو جب لب دریا واقع تھا۔ جب یہ لوگ ہفتے کے دن کے بارے میں حد سے تجاوز کرنے لگے (یعنی) اس وقت کہ ان کے ہفتے کے دن مچھلیاں ان کے سامنے پانی کے اوپر آتیں اور جب ہفتے کا دن نہ ہوتا تو نہ آتیں۔ اسی طرح ہم ان لوگوں کو ان کی نافرمانیوں کے سبب آزمائش میں ڈالنے لگے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

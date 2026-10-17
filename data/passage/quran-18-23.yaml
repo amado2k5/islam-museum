@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:23 (سورة الكهف، الآية 23)."
 text: "وَلَا تَقُولَنَّ لِشَا۟ىْءٍ إِنِّى فَاعِلٌ ذَٰلِكَ غَدًا"
 text_search: "ولا تقولن لشيء إني فاعل ذلك غدا"
+translations:
+  en: { text: "And say not of anything: Lo! I shall do that tomorrow,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کسی کام کی نسبت نہ کہنا کہ میں اسے کل کردوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

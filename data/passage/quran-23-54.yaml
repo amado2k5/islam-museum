@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:54 (سورة المؤمنون، الآية 54)."
 text: "فَذَرْهُمْ فِى غَمْرَتِهِمْ حَتَّىٰ حِينٍ"
 text_search: "فذرهم في غمرتهم حتى حين"
+translations:
+  en: { text: "So leave them in their error till a time.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان کو ایک مدت تک ان کی غفلت میں رہنے دو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:16 (سورة يس، الآية 16)."
 text: "قَالُوا۟ رَبُّنَا يَعْلَمُ إِنَّآ إِلَيْكُمْ لَمُرْسَلُونَ"
 text_search: "قالوا ربنا يعلم إنا إليكم لمرسلون"
+translations:
+  en: { text: "They answered: Our Lord knoweth that we are indeed sent unto you,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا کہ ہمارا پروردگار جانتا ہے کہ ہم تمہاری طرف (پیغام دے کر) بھیجے گئے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

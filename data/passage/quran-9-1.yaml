@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:1 (سورة التوبة، الآية 1)."
 text: "بَرَآءَةٌ مِّنَ ٱللَّهِ وَرَسُولِهِۦٓ إِلَى ٱلَّذِينَ عَـٰهَدتُّم مِّنَ ٱلْمُشْرِكِينَ"
 text_search: "براءة من الله ورسوله إلى الذين عاهدتم من المشركين"
+translations:
+  en: { text: "Freedom from obligation (is proclaimed) from Allah and His messenger toward those of the idolaters with whom ye made a treaty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے اہل اسلام اب) خدا اور اس کے رسول کی طرف سے مشرکوں سے جن سے تم نے عہد کر رکھا تھا بیزاری (اور جنگ کی تیاری) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

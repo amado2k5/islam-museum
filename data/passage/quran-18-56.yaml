@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:56 (سورة الكهف، الآية 56)."
 text: "وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَ ۚ وَيُجَـٰدِلُ ٱلَّذِينَ كَفَرُوا۟ بِٱلْبَـٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ ۖ وَٱتَّخَذُوٓا۟ ءَايَـٰتِى وَمَآ أُنذِرُوا۟ هُزُوًا"
 text_search: "وما نرسل المرسلين إلا مبشرين ومنذرين ۚ ويجادل الذين كفروا بالباطل ليدحضوا به الحق ۖ واتخذوا آياتي وما أنذروا هزوا"
+translations:
+  en: { text: "We send not the messengers save as bearers of good news and warners. Those who disbelieve contend with falsehood in order to refute the Truth thereby. And they take Our revelations and that wherewith they are threatened as a jest.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم جو پیغمبروں کو بھیجا کرتے ہیں تو صرف اس لئے کہ (لوگوں کو خدا کی نعمتوں کی) خوشخبریاں سنائیں اور (عذاب سے) ڈرائیں۔ اور جو کافر ہیں وہ باطل کی (سند) سے جھگڑا کرتے ہیں تاکہ اس سے حق کو پھسلا دیں اور انہوں نے ہماری آیتوں کو اور جس چیز سے ان کو ڈرایا جاتا ہے ہنسی بنا لیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:107 (سورة البقرة، الآية 107)."
 text: "أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ"
 text_search: "ألم تعلم أن الله له ملك السماوات والأرض ۗ وما لكم من دون الله من ولي ولا نصير"
+translations:
+  en: { text: "Knowest thou not that it is Allah unto Whom belongeth the Sovereignty of the heavens and the earth; and ye have not, beside Allah, any guardian or helper?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تمہیں معلوم نہیں کہ آسمانوں اور زمین کی بادشاہت خدا ہی کی ہے، اور خدا کے سوا تمہارا کوئی دوست اور مدد گار نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:15 (سورة النور، الآية 15)."
 text: "إِذْ تَلَقَّوْنَهُۥ بِأَلْسِنَتِكُمْ وَتَقُولُونَ بِأَفْوَاهِكُم مَّا لَيْسَ لَكُم بِهِۦ عِلْمٌ وَتَحْسَبُونَهُۥ هَيِّنًا وَهُوَ عِندَ ٱللَّهِ عَظِيمٌ"
 text_search: "إذ تلقونه بألسنتكم وتقولون بأفواهكم ما ليس لكم به علم وتحسبونه هينا وهو عند الله عظيم"
+translations:
+  en: { text: "When ye welcomed it with your tongues, and uttered with your mouths that whereof ye had no knowledge, ye counted it a trifle. In the sight of Allah it is very great.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب تم اپنی زبانوں سے اس کا ایک دوسرے سے ذکر کرتے تھے اور اپنے منہ سے ایسی بات کہتے تھے جس کا تم کو کچھ علم نہ تھا اور تم اسے ایک ہلکی بات سمجھتے تھے اور خدا کے نزدیک وہ بڑی بھاری بات تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

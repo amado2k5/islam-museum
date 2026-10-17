@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:7 (سورة المائدة، الآية 7)."
 text: "وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَـٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ"
 text_search: "واذكروا نعمة الله عليكم وميثاقه الذي واثقكم به إذ قلتم سمعنا وأطعنا ۖ واتقوا الله ۚ إن الله عليم بذات الصدور"
+translations:
+  en: { text: "Remember Allah's grace upon you and His covenant by which He bound you when ye said: We hear and we obey; And keep your duty to Allah. Lo! He knoweth what is in the breasts (of men).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا نے جو تم پر احسان کئے ہیں ان کو یاد کرو اور اس عہد کو بھی جس کا تم سے قول لیا تھا (یعنی) جب تم نے کہا تھا کہ ہم نے (خدا کا حکم) سن لیا اور قبول کیا۔ اور الله سے ڈرو۔ کچھ شک نہیں کہ خدا دلوں کی باتوں (تک) سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

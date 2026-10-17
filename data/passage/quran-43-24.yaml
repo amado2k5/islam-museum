@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:24 (سورة الزخرف، الآية 24)."
 text: "۞ قَـٰلَ أَوَلَوْ جِئْتُكُم بِأَهْدَىٰ مِمَّا وَجَدتُّمْ عَلَيْهِ ءَابَآءَكُمْ ۖ قَالُوٓا۟ إِنَّا بِمَآ أُرْسِلْتُم بِهِۦ كَـٰفِرُونَ"
 text_search: "۞ قال أولو جئتكم بأهدى مما وجدتم عليه آباءكم ۖ قالوا إنا بما أرسلتم به كافرون"
+translations:
+  en: { text: "(And the warner) said: What! Even though I bring you better guidance than that ye found your fathers following? They answered: Lo! in what ye bring we are disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پیغمبر نے کہا اگرچہ میں تمہارے پاس ایسا (دین) لاؤں کہ جس رستے پر تم نے اپنے باپ دادا کو پایا وہ اس سے کہیں سیدھا رستہ دکھاتا ہے کہنے لگے کہ جو (دین) تم دے کر بھیجے گئے ہو ہم اس کو نہیں مانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

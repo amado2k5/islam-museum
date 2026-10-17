@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:53 (سورة مريم، الآية 53)."
 text: "وَوَهَبْنَا لَهُۥ مِن رَّحْمَتِنَآ أَخَاهُ هَـٰرُونَ نَبِيًّا"
 text_search: "ووهبنا له من رحمتنا أخاه هارون نبيا"
+translations:
+  en: { text: "And We bestowed upon him of Our mercy his brother Aaron, a prophet (likewise).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اپنی مہربانی سے اُن کو اُن کا بھائی ہارون پیغمبر عطا کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

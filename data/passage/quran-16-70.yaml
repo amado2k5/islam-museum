@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:70 (سورة النحل، الآية 70)."
 text: "وَٱللَّهُ خَلَقَكُمْ ثُمَّ يَتَوَفَّىٰكُمْ ۚ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَىْ لَا يَعْلَمَ بَعْدَ عِلْمٍ شَيْـًٔا ۚ إِنَّ ٱللَّهَ عَلِيمٌ قَدِيرٌ"
 text_search: "والله خلقكم ثم يتوفاكم ۚ ومنكم من يرد إلى أرذل العمر لكي لا يعلم بعد علم شيئا ۚ إن الله عليم قدير"
+translations:
+  en: { text: "And Allah createth you, then causeth you to die, and among you is he who is brought back to the most abject stage of life, so that he knoweth nothing after (having had) knowledge. Lo! Allah is Knower, Powerful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا ہی نے تم کو پیدا کیا۔ پھر وہی تم کو موت دیتا ہے اور تم میں بعض ایسے ہوتے ہیں کہ نہایت خراب عمر کو پہنچ جاتے ہیں اور (بہت کچھ) جاننے کے بعد ہر چیز سے بےعلم ہوجاتے ہیں۔ بےشک خدا (سب کچھ) جاننے والا (اور) قدرت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

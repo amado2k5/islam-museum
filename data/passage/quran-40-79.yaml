@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:79 (سورة غافر، الآية 79)."
 text: "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَنْعَـٰمَ لِتَرْكَبُوا۟ مِنْهَا وَمِنْهَا تَأْكُلُونَ"
 text_search: "الله الذي جعل لكم الأنعام لتركبوا منها ومنها تأكلون"
+translations:
+  en: { text: "Allah it is Who hath appointed for you cattle, that ye may ride on some of them, and eat of some -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا ہی تو ہے جس نے تمہارے لئے چارپائے بنائے تاکہ ان میں سے بعض پر سوار ہو اور بعض کو تم کھاتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

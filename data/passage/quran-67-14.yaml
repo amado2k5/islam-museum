@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 67:14 (سورة الملك، الآية 14)."
 text: "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ"
 text_search: "ألا يعلم من خلق وهو اللطيف الخبير"
+translations:
+  en: { text: "Should He not know what He created? And He is the Subtile, the Aware.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا جس نے پیدا کیا وہ بےخبر ہے؟ وہ تو پوشیدہ باتوں کا جاننے والا اور (ہر چیز سے) آگاہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-67 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:102 (سورة الكهف، الآية 102)."
 text: "أَفَحَسِبَ ٱلَّذِينَ كَفَرُوٓا۟ أَن يَتَّخِذُوا۟ عِبَادِى مِن دُونِىٓ أَوْلِيَآءَ ۚ إِنَّآ أَعْتَدْنَا جَهَنَّمَ لِلْكَـٰفِرِينَ نُزُلًا"
 text_search: "أفحسب الذين كفروا أن يتخذوا عبادي من دوني أولياء ۚ إنا أعتدنا جهنم للكافرين نزلا"
+translations:
+  en: { text: "Do the disbelievers reckon that they can choose My bondmen as protecting friends beside Me? Lo! We have prepared hell as a welcome for the disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا کافر یہ خیال کرتے ہیں کہ وہ ہمارے بندوں کو ہمارے سوا (اپنا) کارساز بنائیں گے (تو ہم خفا نہیں ہوں گے) ہم نے (ایسے) کافروں کے لئے جہنم کی (مہمانی) تیار کر رکھی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:109 (سورة آل عمران، الآية 109)."
 text: "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ"
 text_search: "ولله ما في السماوات وما في الأرض ۚ وإلى الله ترجع الأمور"
+translations:
+  en: { text: "Unto Allah belongeth whatsoever is in the heavens and whatsoever is in the earth; and unto Allah all things are returned.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو کچھ آسمانوں میں اور جو کچھ زمین میں ہے سب خدا ہی کا ہے اور سب کاموں کا رجوع (اور انجام) خدا ہی کی طرف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:60 (سورة الأنفال، الآية 60)."
 text: "وَأَعِدُّوا۟ لَهُم مَّا ٱسْتَطَعْتُم مِّن قُوَّةٍ وَمِن رِّبَاطِ ٱلْخَيْلِ تُرْهِبُونَ بِهِۦ عَدُوَّ ٱللَّهِ وَعَدُوَّكُمْ وَءَاخَرِينَ مِن دُونِهِمْ لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فِى سَبِيلِ ٱللَّهِ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ"
 text_search: "وأعدوا لهم ما استطعتم من قوة ومن رباط الخيل ترهبون به عدو الله وعدوكم وآخرين من دونهم لا تعلمونهم الله يعلمهم ۚ وما تنفقوا من شيء في سبيل الله يوف إليكم وأنتم لا تظلمون"
+translations:
+  en: { text: "Make ready for them all thou canst of (armed) force and of horses tethered, that thereby ye may dismay the enemy of Allah and your enemy, and others beside them whom ye know not. Allah knoweth them. Whatsoever ye spend in the way of Allah it will be repaid to you in full, and ye will not be wronged.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جہاں تک ہوسکے (فوج کی جمعیت کے) زور سے اور گھوڑوں کے تیار رکھنے سے ان کے (مقابلے کے) لیے مستعد رہو کہ اس سے خدا کے دشمنوں اور تمہارے دشمنوں اور ان کے سوا اور لوگوں پر جن کو تم نہیں جانتے اور خدا جانتا ہے ہیبت بیٹھی رہے گی۔ اور تم جو کچھ راہ خدا میں خرچ کرو گے اس کا ثواب تم کو پورا پورا دیا جائے گا اور تمہارا ذرا نقصان نہیں کیا جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

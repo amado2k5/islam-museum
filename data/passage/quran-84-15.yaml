@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 84:15 (سورة الانشقاق، الآية 15)."
 text: "بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًا"
 text_search: "بلى إن ربه كان به بصيرا"
+translations:
+  en: { text: "Nay, but lo! his Lord is ever looking on him!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہاں ہاں۔ اس کا پروردگار اس کو دیکھ رہا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-84 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

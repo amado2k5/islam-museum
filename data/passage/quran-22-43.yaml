@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:43 (سورة الحج، الآية 43)."
 text: "وَقَوْمُ إِبْرَٰهِيمَ وَقَوْمُ لُوطٍ"
 text_search: "وقوم إبراهيم وقوم لوط"
+translations:
+  en: { text: "And the folk of Abraham and the folk of Lot;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور قوم ابراہیم اور قوم لوط بھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

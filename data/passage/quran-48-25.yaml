@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 48:25 (سورة الفتح، الآية 25)."
 text: "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌ مُّؤْمِنُونَ وَنِسَآءٌ مُّؤْمِنَـٰتٌ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا"
 text_search: "هم الذين كفروا وصدوكم عن المسجد الحرام والهدي معكوفا أن يبلغ محله ۚ ولولا رجال مؤمنون ونساء مؤمنات لم تعلموهم أن تطئوهم فتصيبكم منهم معرة بغير علم ۖ ليدخل الله في رحمته من يشاء ۚ لو تزيلوا لعذبنا الذين كفروا منهم عذابا أليما"
+translations:
+  en: { text: "These it was who disbelieved and debarred you from the Inviolable Place of Worship, and debarred the offering from reaching its goal. And if it had not been for believing men and believing women, whom ye know not - lest ye should tread them under foot and thus incur guilt for them unknowingly; that Allah might bring into His mercy whom He will - If (the believers and the disbelievers) had been clearly separated We verily had punished those of them who disbelieved with painful punishment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ وہی لوگ ہیں جنہوں نے کفر کیا اور تم کو مسجد حرام سے روک دیا اور قربانیوں کو بھی کہ اپنی جگہ پہنچنے سے رکی رہیں۔ اور اگر ایسے مسلمان مرد اور مسلمان عورتیں نہ ہوتیں جن کو تم جانتے نہ تھے کہ اگر تم ان کو پامال کر دیتے تو تم کو ان کی طرف سے بےخبری میں نقصان پہنچ جاتا۔ (تو بھی تمہارے ہاتھ سے فتح ہوجاتی مگر تاخیر) اس لئے (ہوئی) کہ خدا اپنی رحمت میں جس کو چاہے داخل کرلے۔ اور اگر دونوں فریق الگ الگ ہوجاتے تو جو ان میں کافر تھے ان ہم دکھ دینے والا عذاب دیتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-48 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

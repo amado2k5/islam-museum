@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:76 (سورة الأنعام، الآية 76)."
 text: "فَلَمَّا جَنَّ عَلَيْهِ ٱلَّيْلُ رَءَا كَوْكَبًا ۖ قَالَ هَـٰذَا رَبِّى ۖ فَلَمَّآ أَفَلَ قَالَ لَآ أُحِبُّ ٱلْـَٔافِلِينَ"
 text_search: "فلما جن عليه الليل رأى كوكبا ۖ قال هذا ربي ۖ فلما أفل قال لا أحب الآفلين"
+translations:
+  en: { text: "When the night grew dark upon him he beheld a star. He said: This is my Lord. But when it set, he said: I love not things that set.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یعنی) جب رات نے ان کو (پردہٴ تاریکی سے) ڈھانپ لیا (تو آسمان میں) ایک ستارا نظر پڑا۔ کہنے لگے یہ میرا پروردگار ہے۔ جب وہ غائب ہوگیا تو کہنے لگے کہ مجھے غائب ہوجانے والے پسند نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

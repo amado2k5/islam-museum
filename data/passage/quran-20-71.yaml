@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:71 (سورة طه، الآية 71)."
 text: "قَالَ ءَامَنتُمْ لَهُۥ قَبْلَ أَنْ ءَاذَنَ لَكُمْ ۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِى عَلَّمَكُمُ ٱلسِّحْرَ ۖ فَلَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَـٰفٍ وَلَأُصَلِّبَنَّكُمْ فِى جُذُوعِ ٱلنَّخْلِ وَلَتَعْلَمُنَّ أَيُّنَآ أَشَدُّ عَذَابًا وَأَبْقَىٰ"
 text_search: "قال آمنتم له قبل أن آذن لكم ۖ إنه لكبيركم الذي علمكم السحر ۖ فلأقطعن أيديكم وأرجلكم من خلاف ولأصلبنكم في جذوع النخل ولتعلمن أينا أشد عذابا وأبقى"
+translations:
+  en: { text: "(Pharaoh) said: Ye put faith in him before I give you leave. Lo! he is your chief who taught you magic. Now surely I shall cut off your hands and your feet alternately, and I shall crucify you on the trunks of palm trees, and ye shall know for certain which of us hath sterner and more lasting punishment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(فرعون) بولا کہ پیشتر اس کے میں تمہیں اجازت دوں تم اس پر ایمان لے آئے۔ بےشک وہ تمہارا بڑا (یعنی استاد) ہے جس نے تم کو جادو سکھایا ہے۔ سو میں تمہارے ہاتھ اور پاؤں (جانب) خلاف سے کٹوا دوں گا اور کھجور کے تنوں پر سولی چڑھوا دوں گا (اس وقت) تم کو معلوم ہوگا کہ ہم میں سے کس کا عذاب زیادہ سخت اور دیر تک رہنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

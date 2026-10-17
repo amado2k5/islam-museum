@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:251 (سورة البقرة، الآية 251)."
 text: "فَهَزَمُوهُم بِإِذْنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ وَٱلْحِكْمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّفَسَدَتِ ٱلْأَرْضُ وَلَـٰكِنَّ ٱللَّهَ ذُو فَضْلٍ عَلَى ٱلْعَـٰلَمِينَ"
 text_search: "فهزموهم بإذن الله وقتل داوود جالوت وآتاه الله الملك والحكمة وعلمه مما يشاء ۗ ولولا دفع الله الناس بعضهم ببعض لفسدت الأرض ولكن الله ذو فضل على العالمين"
+translations:
+  en: { text: "So they routed them by Allah's leave and David slew Goliath; and Allah gave him the kingdom and wisdom, and taught him of that which He willeth. And if Allah had not repelled some men by others the earth would have been corrupted. But Allah is a Lord of Kindness to (His) creatures.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو طالوت کی فوج نے خدا کے حکم سے ان کو ہزیمت دی۔ اور داؤد نے جالوت کو قتل کر ڈالا۔ اور خدا نے اس کو بادشاہی اور دانائی بخشی اور جو کچھ چاہا سکھایا۔ اور خدا لوگوں کو ایک دوسرے (پر چڑھائی اور حملہ کرنے) سے ہٹاتا نہ رہتا تو ملک تباہ ہوجاتا لیکن خدا اہل عالم پر بڑا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:60 (سورة مريم، الآية 60)."
 text: "إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَـٰلِحًا فَأُو۟لَـٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ شَيْـًٔا"
 text_search: "إلا من تاب وآمن وعمل صالحا فأولئك يدخلون الجنة ولا يظلمون شيئا"
+translations:
+  en: { text: "Save him who shall repent and believe and do right. Such will enter the Garden, and they will not be wronged in aught -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہاں جس نے توبہ کی اور ایمان لایا اور عمل نیک کئے تو اسے لوگ بہشت میں داخل ہوں گے اور ان کا ذرا نقصان نہ کیا جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:3 (سورة هود، الآية 3)."
 text: "وَأَنِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُمَتِّعْكُم مَّتَـٰعًا حَسَنًا إِلَىٰٓ أَجَلٍ مُّسَمًّى وَيُؤْتِ كُلَّ ذِى فَضْلٍ فَضْلَهُۥ ۖ وَإِن تَوَلَّوْا۟ فَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ كَبِيرٍ"
 text_search: "وأن استغفروا ربكم ثم توبوا إليه يمتعكم متاعا حسنا إلى أجل مسمى ويؤت كل ذي فضل فضله ۖ وإن تولوا فإني أخاف عليكم عذاب يوم كبير"
+translations:
+  en: { text: "And (bidding you): Ask pardon of your Lord and turn to Him repentant. He will cause you to enjoy a fair estate until a time appointed. He giveth His bounty unto every bountiful one. But if ye turn away, lo! (then) I fear for you the retribution of an awful Day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ کہ اپنے پروردگار سے بخشش مانگو اور اس کے آگے توبہ کرو وہ تو تم کو ایک وقت مقررہ تک متاع نیک سے بہرہ مند کرے گا اور ہر صاحب بزرگ کو اس کی بزرگی (کی داد) دے گا۔ اور اگر روگردانی کرو گے تو مجھے تمہارے بارے میں (قیامت کے) بڑے دن کے عذاب کا ڈر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

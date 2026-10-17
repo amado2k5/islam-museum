@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:53 (سورة الدخان، الآية 53)."
 text: "يَلْبَسُونَ مِن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَقَـٰبِلِينَ"
 text_search: "يلبسون من سندس وإستبرق متقابلين"
+translations:
+  en: { text: "Attired in silk and silk embroidery, facing one another.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "حریر کا باریک اور دبیز لباس پہن کر ایک دوسرے کے سامنے بیٹھے ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

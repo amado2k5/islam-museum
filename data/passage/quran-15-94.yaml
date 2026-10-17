@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 15:94 (سورة الحجر، الآية 94)."
 text: "فَٱصْدَعْ بِمَا تُؤْمَرُ وَأَعْرِضْ عَنِ ٱلْمُشْرِكِينَ"
 text_search: "فاصدع بما تؤمر وأعرض عن المشركين"
+translations:
+  en: { text: "So proclaim that which thou art commanded, and withdraw from the idolaters.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پس جو حکم تم کو (خدا کی طرف سے) ملا ہے وہ (لوگوں کو) سنا دو اور مشرکوں کا (ذرا) خیال نہ کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/safa-proclamation, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

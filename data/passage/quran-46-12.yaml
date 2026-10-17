@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 46:12 (سورة الأحقاف، الآية 12)."
 text: "وَمِن قَبْلِهِۦ كِتَـٰبُ مُوسَىٰٓ إِمَامًا وَرَحْمَةً ۚ وَهَـٰذَا كِتَـٰبٌ مُّصَدِّقٌ لِّسَانًا عَرَبِيًّا لِّيُنذِرَ ٱلَّذِينَ ظَلَمُوا۟ وَبُشْرَىٰ لِلْمُحْسِنِينَ"
 text_search: "ومن قبله كتاب موسى إماما ورحمة ۚ وهذا كتاب مصدق لسانا عربيا لينذر الذين ظلموا وبشرى للمحسنين"
+translations:
+  en: { text: "When before it there was the Scripture of Moses, an example and a mercy; and this is a confirming Scripture in the Arabic language, that it may warn those who do wrong and bring good tidings for the righteous.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس سے پہلے موسیٰ کی کتاب تھی (لوگوں کے لئے) رہنما اور رحمت۔ اور یہ کتاب عربی زبان میں ہے اسی کی تصدیق کرنے والی تاکہ ظالموں کو ڈرائے۔ اور نیکوکاروں کو خوشخبری سنائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

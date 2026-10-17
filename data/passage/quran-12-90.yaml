@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:90 (سورة يوسف، الآية 90)."
 text: "قَالُوٓا۟ أَءِنَّكَ لَأَنتَ يُوسُفُ ۖ قَالَ أَنَا۠ يُوسُفُ وَهَـٰذَآ أَخِى ۖ قَدْ مَنَّ ٱللَّهُ عَلَيْنَآ ۖ إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ"
 text_search: "قالوا أإنك لأنت يوسف ۖ قال أنا يوسف وهذا أخي ۖ قد من الله علينا ۖ إنه من يتق ويصبر فإن الله لا يضيع أجر المحسنين"
+translations:
+  en: { text: "They said: Is it indeed thou who art Joseph? He said: I am Joseph and this is my brother. Allah hath shown us favour. Lo! he who wardeth off (evil) and endureth (findeth favour); for lo! Allah loseth not the wages of the kindly.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے کیا تم ہی یوسف ہو؟ انہوں نے کہا ہاں میں ہی یوسف ہوں۔ اور (بنیامین کی طرف اشارہ کرکے کہنے لگے) یہ میرا بھائی ہے خدا نے ہم پر بڑا احسان کیا ہے۔ جو شخص خدا سے ڈرتا اور صبر کرتا ہے تو خدا نیکوکاروں کا اجر ضائع نہیں کرتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

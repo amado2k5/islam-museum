@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:35 (سورة الزمر، الآية 35)."
 text: "لِيُكَفِّرَ ٱللَّهُ عَنْهُمْ أَسْوَأَ ٱلَّذِى عَمِلُوا۟ وَيَجْزِيَهُمْ أَجْرَهُم بِأَحْسَنِ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ"
 text_search: "ليكفر الله عنهم أسوأ الذي عملوا ويجزيهم أجرهم بأحسن الذي كانوا يعملون"
+translations:
+  en: { text: "That Allah will remit from them the worst of what they did, and will pay them for reward the best they used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ خدا ان سے برائیوں کو جو انہوں نے کیں دور کردے اور نیک کاموں کا جو وہ کرتے رہے ان کو بدلہ دے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 66:3 (سورة التحريم، الآية 3)."
 text: "وَإِذْ أَسَرَّ ٱلنَّبِىُّ إِلَىٰ بَعْضِ أَزْوَٰجِهِۦ حَدِيثًا فَلَمَّا نَبَّأَتْ بِهِۦ وَأَظْهَرَهُ ٱللَّهُ عَلَيْهِ عَرَّفَ بَعْضَهُۥ وَأَعْرَضَ عَنۢ بَعْضٍ ۖ فَلَمَّا نَبَّأَهَا بِهِۦ قَالَتْ مَنْ أَنۢبَأَكَ هَـٰذَا ۖ قَالَ نَبَّأَنِىَ ٱلْعَلِيمُ ٱلْخَبِيرُ"
 text_search: "وإذ أسر النبي إلى بعض أزواجه حديثا فلما نبأت به وأظهره الله عليه عرف بعضه وأعرض عن بعض ۖ فلما نبأها به قالت من أنبأك هذا ۖ قال نبأني العليم الخبير"
+translations:
+  en: { text: "When the Prophet confided a fact unto one of his wives and when she afterward divulged it and Allah apprised him thereof, he made known (to her) part thereof and passed over part. And when he told it her she said: Who hath told thee? He said: The Knower, the Aware hath told me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (یاد کرو) جب پیغمبر نے اپنی ایک بی بی سے ایک بھید کی بات کہی تو (اس نے دوسری کو بتا دی) ۔ جب اس نے اس کو افشاء کیا اور خدا نے اس (حال) سے پیغمبر کو آگاہ کردیا تو پیغمبر نے ان (بی بی کو وہ بات) کچھ تو بتائی اور کچھ نہ بتائی۔ تو جب وہ ان کو جتائی تو پوچھنے لگیں کہ آپ کو کس نے بتایا؟ انہوں نے کہا کہ مجھے اس نے بتایا ہے جو جاننے والا خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-66 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:29 (سورة التوبة، الآية 29)."
 text: "قَـٰتِلُوا۟ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ ٱلْـَٔاخِرِ وَلَا يُحَرِّمُونَ مَا حَرَّمَ ٱللَّهُ وَرَسُولُهُۥ وَلَا يَدِينُونَ دِينَ ٱلْحَقِّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ حَتَّىٰ يُعْطُوا۟ ٱلْجِزْيَةَ عَن يَدٍ وَهُمْ صَـٰغِرُونَ"
 text_search: "قاتلوا الذين لا يؤمنون بالله ولا باليوم الآخر ولا يحرمون ما حرم الله ورسوله ولا يدينون دين الحق من الذين أوتوا الكتاب حتى يعطوا الجزية عن يد وهم صاغرون"
+translations:
+  en: { text: "Fight against such of those who have been given the Scripture as believe not in Allah nor the Last Day, and forbid not that which Allah hath forbidden by His messenger, and follow not the Religion of Truth, until they pay the tribute readily, being brought low.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو اہل کتاب میں سے خدا پر ایمان نہیں لاتے اور نہ روز آخرت پر (یقین رکھتے ہیں) اور نہ ان چیزوں کو حرام سمجھتے ہیں جو خدا اور اس کے رسول نے حرام کی ہیں اور نہ دین حق کو قبول کرتے ہیں ان سے جنگ کرو یہاں تک کہ ذلیل ہوکر اپنے ہاتھ سے جزیہ دیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

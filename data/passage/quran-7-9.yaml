@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:9 (سورة الأعراف، الآية 9)."
 text: "وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَـٰتِنَا يَظْلِمُونَ"
 text_search: "ومن خفت موازينه فأولئك الذين خسروا أنفسهم بما كانوا بآياتنا يظلمون"
+translations:
+  en: { text: "And as for those whose scale is light: those are they who lose their souls because they used to wrong Our revelations.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جن کے وزن ہلکے ہوں گے تو یہی لوگ ہیں جنہوں نے اپنے تئیں خسارے میں ڈالا اس لیے کہ ہماری آیتوں کے بارے میں بےانصافی کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

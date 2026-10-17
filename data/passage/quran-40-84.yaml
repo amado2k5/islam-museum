@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:84 (سورة غافر، الآية 84)."
 text: "فَلَمَّا رَأَوْا۟ بَأْسَنَا قَالُوٓا۟ ءَامَنَّا بِٱللَّهِ وَحْدَهُۥ وَكَفَرْنَا بِمَا كُنَّا بِهِۦ مُشْرِكِينَ"
 text_search: "فلما رأوا بأسنا قالوا آمنا بالله وحده وكفرنا بما كنا به مشركين"
+translations:
+  en: { text: "Then, when they saw Our doom, they said: We believe in Allah only and reject (all) that we used to associate (with Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر جب انہوں نے ہمارا عذاب دیکھ لیا تو کہنے لگے کہ ہم خدائے واحد پر ایمان لائے اور جس چیز کو اس کے ساتھ شریک بناتے تھے اس سے نامعتقد ہوئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

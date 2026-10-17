@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:18 (سورة الحديد، الآية 18)."
 text: "إِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَـٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعَفُ لَهُمْ وَلَهُمْ أَجْرٌ كَرِيمٌ"
 text_search: "إن المصدقين والمصدقات وأقرضوا الله قرضا حسنا يضاعف لهم ولهم أجر كريم"
+translations:
+  en: { text: "Lo! those who give alms, both men and women, and lend unto Allah a goodly loan, it will be doubled for them, and theirs will be a rich reward.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ خیرات کرنے والے ہیں مرد بھی اور عورتیں بھی۔ اور خدا کو (نیت) نیک (اور خلوص سے) قرض دیتے ہیں ان کو دوچند ادا کیا جائے گا اور ان کے لئے عزت کا صلہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:92 (سورة مريم، الآية 92)."
 text: "وَمَا يَنۢبَغِى لِلرَّحْمَـٰنِ أَن يَتَّخِذَ وَلَدًا"
 text_search: "وما ينبغي للرحمن أن يتخذ ولدا"
+translations:
+  en: { text: "When it is not meet for (the Majesty of) the Beneficent that He should choose a son.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا کو شایاں نہیں کہ کسی کو بیٹا بنائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

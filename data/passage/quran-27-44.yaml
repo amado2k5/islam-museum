@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:44 (سورة النمل، الآية 44)."
 text: "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَـٰنَ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ"
 text_search: "قيل لها ادخلي الصرح ۖ فلما رأته حسبته لجة وكشفت عن ساقيها ۚ قال إنه صرح ممرد من قوارير ۗ قالت رب إني ظلمت نفسي وأسلمت مع سليمان لله رب العالمين"
+translations:
+  en: { text: "It was said unto her: Enter the hall. And when she saw it she deemed it a pool and bared her legs. (Solomon) said: Lo! it is a hall, made smooth, of glass. She said: My Lord! Lo! I have wronged myself, and I surrender with Solomon unto Allah, the Lord of the Worlds.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(پھر) اس سے کہا گیا کہ محل میں چلیے، جب اس نے اس (کے فرش) کو دیکھا تو اسے پانی کا حوض سمجھا اور (کپڑا اٹھا کر) اپنی پنڈلیاں کھول دیں۔ سلیمان نے کہا یہ ایسا محل ہے جس میں (نیچے بھی) شیشے جڑے ہوئے ہیں۔ وہ بول اٹھی کہ پروردگار میں اپنے آپ پر ظلم کرتی رہی تھی اور (اب) میں سلیمان کے ہاتھ پر خدائے رب العالمین پر ایمان لاتی ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

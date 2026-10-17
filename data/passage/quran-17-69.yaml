@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:69 (سورة الإسراء، الآية 69)."
 text: "أَمْ أَمِنتُمْ أَن يُعِيدَكُمْ فِيهِ تَارَةً أُخْرَىٰ فَيُرْسِلَ عَلَيْكُمْ قَاصِفًا مِّنَ ٱلرِّيحِ فَيُغْرِقَكُم بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوا۟ لَكُمْ عَلَيْنَا بِهِۦ تَبِيعًا"
 text_search: "أم أمنتم أن يعيدكم فيه تارة أخرى فيرسل عليكم قاصفا من الريح فيغرقكم بما كفرتم ۙ ثم لا تجدوا لكم علينا به تبيعا"
+translations:
+  en: { text: "Or feel ye secure that He will not return you to that (plight) a second time, and send against you a hurricane of wind and drown you for your thanklessness, and then ye will not find therein that ye have any avenger against Us?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یا (اس سے) بےخوف ہو کر تم دوسری دفعہ دریا میں لے جائے پھر تم پر تیز ہوا چلائے اور تمہارے کفر کے سبب تمہیں ڈبو دے۔ پھر تم اس غرق کے سبب اپنے لئے کوئی ہمارا پیچھا کرنے والا نہ پاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:176 (سورة آل عمران، الآية 176)."
 text: "وَلَا يَحْزُنكَ ٱلَّذِينَ يُسَـٰرِعُونَ فِى ٱلْكُفْرِ ۚ إِنَّهُمْ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًٔا ۗ يُرِيدُ ٱللَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظًّا فِى ٱلْـَٔاخِرَةِ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ"
 text_search: "ولا يحزنك الذين يسارعون في الكفر ۚ إنهم لن يضروا الله شيئا ۗ يريد الله ألا يجعل لهم حظا في الآخرة ۖ ولهم عذاب عظيم"
+translations:
+  en: { text: "Let not their conduct grieve thee, who run easily to disbelief, for lo! they injure Allah not at all. It is Allah's Will to assign them no portion in the Hereafter, and theirs will be an awful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ کفر میں جلدی کرتے ہیں ان (کی وجہ) سے غمگین نہ ہونا۔ یہ خدا کا کچھ نقصان نہیں کرسکتے خدا چاہتا ہے کہ آخرت میں ان کو کچھ حصہ نہ دے اور ان کے لئے بڑا عذاب تیار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

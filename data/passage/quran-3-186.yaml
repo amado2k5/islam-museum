@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:186 (سورة آل عمران، الآية 186)."
 text: "۞ لَتُبْلَوُنَّ فِىٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلِكُمْ وَمِنَ ٱلَّذِينَ أَشْرَكُوٓا۟ أَذًى كَثِيرًا ۚ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ"
 text_search: "۞ لتبلون في أموالكم وأنفسكم ولتسمعن من الذين أوتوا الكتاب من قبلكم ومن الذين أشركوا أذى كثيرا ۚ وإن تصبروا وتتقوا فإن ذلك من عزم الأمور"
+translations:
+  en: { text: "Assuredly ye will be tried in your property and in your persons, and ye will hear much wrong from those who were given the Scripture before you, and from the idolaters. But if ye persevere and ward off (evil), then that is of the steadfast heart of things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے اہل ایمان) تمہارے مال و جان میں تمہاری آزمائش کی جائے گی۔ اور تم اہل کتاب سے اور ان لوگوں سے جو مشرک ہیں بہت سی ایذا کی باتیں سنو گے۔ اور تو اگر صبر اور پرہیزگاری کرتے رہو گے تو یہ بڑی ہمت کے کام ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:130 (سورة البقرة، الآية 130)."
 text: "وَمَن يَرْغَبُ عَن مِّلَّةِ إِبْرَٰهِـۧمَ إِلَّا مَن سَفِهَ نَفْسَهُۥ ۚ وَلَقَدِ ٱصْطَفَيْنَـٰهُ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى ٱلْـَٔاخِرَةِ لَمِنَ ٱلصَّـٰلِحِينَ"
 text_search: "ومن يرغب عن ملة إبراهيم إلا من سفه نفسه ۚ ولقد اصطفيناه في الدنيا ۖ وإنه في الآخرة لمن الصالحين"
+translations:
+  en: { text: "And who forsaketh the religion of Abraham save him who befooleth himself? Verily We chose him in the world, and lo! in the Hereafter he is among the righteous.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ابراہیم کے دین سے کون رو گردانی کر سکتا ہے، بجز اس کے جو نہایت نادان ہو۔ ہم نے ان کو دنیا میں بھی منتخب کیا تھا اور آخرت میں بھی وہ (زمرہٴ) صلحا میں سے ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

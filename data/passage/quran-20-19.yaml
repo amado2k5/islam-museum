@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:19 (سورة طه، الآية 19)."
 text: "قَالَ أَلْقِهَا يَـٰمُوسَىٰ"
 text_search: "قال ألقها يا موسى"
+translations:
+  en: { text: "He said: Cast it down, O Moses!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "فرمایا کہ موسیٰ اسے ڈال دو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

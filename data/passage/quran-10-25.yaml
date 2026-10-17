@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:25 (سورة يونس، الآية 25)."
 text: "وَٱللَّهُ يَدْعُوٓا۟ إِلَىٰ دَارِ ٱلسَّلَـٰمِ وَيَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ"
 text_search: "والله يدعو إلى دار السلام ويهدي من يشاء إلى صراط مستقيم"
+translations:
+  en: { text: "And Allah summoneth to the abode of peace, and leadeth whom He will to a straight path.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا سلامتی کے گھر کی طرف بلاتا ہے۔ اور جس کو چاہتا ہے سیدھا راستہ دکھاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

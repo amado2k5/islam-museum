@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:24 (سورة الفرقان، الآية 24)."
 text: "أَصْحَـٰبُ ٱلْجَنَّةِ يَوْمَئِذٍ خَيْرٌ مُّسْتَقَرًّا وَأَحْسَنُ مَقِيلًا"
 text_search: "أصحاب الجنة يومئذ خير مستقرا وأحسن مقيلا"
+translations:
+  en: { text: "Those who have earned the Garden on that day will be better in their home and happier in their place of noonday rest;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس دن اہل جنت کا ٹھکانا بھی بہتر ہوگا اور مقام استراحت بھی ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

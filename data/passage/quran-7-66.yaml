@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:66 (سورة الأعراف، الآية 66)."
 text: "قَالَ ٱلْمَلَأُ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦٓ إِنَّا لَنَرَىٰكَ فِى سَفَاهَةٍ وَإِنَّا لَنَظُنُّكَ مِنَ ٱلْكَـٰذِبِينَ"
 text_search: "قال الملأ الذين كفروا من قومه إنا لنراك في سفاهة وإنا لنظنك من الكاذبين"
+translations:
+  en: { text: "The chieftains of his people, who were disbelieving, said: Lo! we surely see thee in foolishness, and lo! we deem thee of the liars.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان کی قوم کے سردار جو کافر تھے کہنے لگے کہ تم ہمیں احمق نظر آتے ہو اور ہم تمہیں جھوٹا خیال کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

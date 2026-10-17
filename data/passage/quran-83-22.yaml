@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 83:22 (سورة المطففين، الآية 22)."
 text: "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ"
 text_search: "إن الأبرار لفي نعيم"
+translations:
+  en: { text: "Lo! the righteous verily are in delight,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بےشک نیک لوگ چین میں ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-83 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

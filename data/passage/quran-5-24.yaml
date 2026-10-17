@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:24 (سورة المائدة، الآية 24)."
 text: "قَالُوا۟ يَـٰمُوسَىٰٓ إِنَّا لَن نَّدْخُلَهَآ أَبَدًا مَّا دَامُوا۟ فِيهَا ۖ فَٱذْهَبْ أَنتَ وَرَبُّكَ فَقَـٰتِلَآ إِنَّا هَـٰهُنَا قَـٰعِدُونَ"
 text_search: "قالوا يا موسى إنا لن ندخلها أبدا ما داموا فيها ۖ فاذهب أنت وربك فقاتلا إنا هاهنا قاعدون"
+translations:
+  en: { text: "They said: O Moses! We will never enter (the land) while they are in it. So go thou and thy Lord and fight! We will sit here.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے کہ موسیٰ! جب تک وہ لوگ وہاں ہیں ہم کبھی وہاں نہیں جا سکتے (اگر لڑنا ہی ضرور ہے) تو تم اور تمہارا خدا جاؤ اور لڑو ہم یہیں بیٹھے رہیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

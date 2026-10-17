@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 88:2 (سورة الغاشية، الآية 2)."
 text: "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ"
 text_search: "وجوه يومئذ خاشعة"
+translations:
+  en: { text: "On that day (many) faces will be downcast,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس روز بہت سے منہ (والے) ذلیل ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-88 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

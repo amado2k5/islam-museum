@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:170 (سورة النساء، الآية 170)."
 text: "يَـٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُمُ ٱلرَّسُولُ بِٱلْحَقِّ مِن رَّبِّكُمْ فَـَٔامِنُوا۟ خَيْرًا لَّكُمْ ۚ وَإِن تَكْفُرُوا۟ فَإِنَّ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا"
 text_search: "يا أيها الناس قد جاءكم الرسول بالحق من ربكم فآمنوا خيرا لكم ۚ وإن تكفروا فإن لله ما في السماوات والأرض ۚ وكان الله عليما حكيما"
+translations:
+  en: { text: "O mankind! The messenger hath come unto you with the Truth from your Lord. Therefor believe; (it is) better for you. But if ye disbelieve, still, lo! unto Allah belongeth whatsoever is in the heavens and the earth. Allah is ever Knower, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لوگو! خدا کے پیغمبر تمہارے پاس تمہارے پروردگار کی طرف سے حق بات لے کر آئے ہیں تو (ان پر) ایمان لاؤ (یہی) تمہارے حق میں بہتر ہے۔ اور اگر کفر کرو گے تو (جان رکھو کہ) جو کچھ آسمانوں اور زمین میں ہے سب خداہی کا ہے اور خدا سب کچھ جاننے والا (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

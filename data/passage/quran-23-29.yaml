@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:29 (سورة المؤمنون، الآية 29)."
 text: "وَقُل رَّبِّ أَنزِلْنِى مُنزَلًا مُّبَارَكًا وَأَنتَ خَيْرُ ٱلْمُنزِلِينَ"
 text_search: "وقل رب أنزلني منزلا مباركا وأنت خير المنزلين"
+translations:
+  en: { text: "And say: My Lord! Cause me to land at a blessed landing-place, for Thou art Best of all who bring to land.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (یہ بھی) دعا کرنا کہ اے پروردگار ہم کو مبارک جگہ اُتاریو اور تو سب سے بہتر اُتارنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

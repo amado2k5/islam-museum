@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 53:36 (سورة النجم، الآية 36)."
 text: "أَمْ لَمْ يُنَبَّأْ بِمَا فِى صُحُفِ مُوسَىٰ"
 text_search: "أم لم ينبأ بما في صحف موسى"
+translations:
+  en: { text: "Or hath he not had news of what is in the books of Moses", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا جو باتیں موسیٰ کے صحیفوں میں ہیں ان کی اس کو خبر نہیں پہنچی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-53 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

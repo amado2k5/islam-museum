@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:34 (سورة العنكبوت، الآية 34)."
 text: "إِنَّا مُنزِلُونَ عَلَىٰٓ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَفْسُقُونَ"
 text_search: "إنا منزلون على أهل هذه القرية رجزا من السماء بما كانوا يفسقون"
+translations:
+  en: { text: "Lo! We are about to bring down upon the folk of this township a fury from the sky because they are evil-livers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم اس بستی کے رہنے والوں پر اس سبب سے کہ یہ بدکرداری کرتے رہے ہیں آسمان سے عذاب نازل کرنے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

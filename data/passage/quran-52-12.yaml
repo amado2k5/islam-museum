@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 52:12 (سورة الطور، الآية 12)."
 text: "ٱلَّذِينَ هُمْ فِى خَوْضٍ يَلْعَبُونَ"
 text_search: "الذين هم في خوض يلعبون"
+translations:
+  en: { text: "Who play in talk of grave matters;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو خوض (باطل) میں پڑے کھیل رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-52 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

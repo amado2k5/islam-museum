@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:50 (سورة المائدة، الآية 50)."
 text: "أَفَحُكْمَ ٱلْجَـٰهِلِيَّةِ يَبْغُونَ ۚ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ حُكْمًا لِّقَوْمٍ يُوقِنُونَ"
 text_search: "أفحكم الجاهلية يبغون ۚ ومن أحسن من الله حكما لقوم يوقنون"
+translations:
+  en: { text: "Is it a judgment of the time of (pagan) ignorance that they are seeking? Who is better than Allah for judgment to a people who have certainty (in their belief)?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا یہ زمانہٴ جاہلیت کے حکم کے خواہش مند ہیں؟ اور جو یقین رکھتے ہیں ان کے لیے خدا سے اچھا حکم کس کا ہے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

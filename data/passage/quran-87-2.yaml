@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 87:2 (سورة الأعلى، الآية 2)."
 text: "ٱلَّذِى خَلَقَ فَسَوَّىٰ"
 text_search: "الذي خلق فسوى"
+translations:
+  en: { text: "Who createth, then disposeth;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس نے (انسان کو) بنایا پھر (اس کے اعضاء کو) درست کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-87 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

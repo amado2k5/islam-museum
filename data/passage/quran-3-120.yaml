@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:120 (سورة آل عمران، الآية 120)."
 text: "إِن تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِن تُصِبْكُمْ سَيِّئَةٌ يَفْرَحُوا۟ بِهَا ۖ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا ۗ إِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌ"
 text_search: "إن تمسسكم حسنة تسؤهم وإن تصبكم سيئة يفرحوا بها ۖ وإن تصبروا وتتقوا لا يضركم كيدهم شيئا ۗ إن الله بما يعملون محيط"
+translations:
+  en: { text: "If a lucky chance befall you, it is evil unto them, and if disaster strike you they rejoice thereat. But if ye persevere and keep from evil their guile will never harm you. Lo! Allah is Surrounding what they do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تمہیں آسودگی حاصل ہو تو ان کو بری لگتی ہے اور اگر رنج پہنچے تو خوش ہوتے ہیں اور اگر تم تکلیفوں کی برداشت اور (ان سے) کنارہ کشی کرتے رہو گے تو ان کا فریب تمھیں کچھ بھی نقصان نہ پہنچا سکے گا یہ جو کچھ کرتے ہیں خدا اس پر احاطہ کیے ہوئے ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

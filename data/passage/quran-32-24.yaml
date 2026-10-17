@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 32:24 (سورة السجدة، الآية 24)."
 text: "وَجَعَلْنَا مِنْهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا۟ ۖ وَكَانُوا۟ بِـَٔايَـٰتِنَا يُوقِنُونَ"
 text_search: "وجعلنا منهم أئمة يهدون بأمرنا لما صبروا ۖ وكانوا بآياتنا يوقنون"
+translations:
+  en: { text: "And when they became steadfast and believed firmly in Our revelations, We appointed from among them leaders who guided by Our command.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان میں سے ہم نے پیشوا بنائے تھے جو ہمارے حکم سے ہدایت کیا کرتے تھے۔ جب وہ صبر کرتے تھے اور وہ ہماری آیتوں پر یقین رکھتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-32 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

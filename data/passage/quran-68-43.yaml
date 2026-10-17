@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:43 (سورة القلم، الآية 43)."
 text: "خَـٰشِعَةً أَبْصَـٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ۖ وَقَدْ كَانُوا۟ يُدْعَوْنَ إِلَى ٱلسُّجُودِ وَهُمْ سَـٰلِمُونَ"
 text_search: "خاشعة أبصارهم ترهقهم ذلة ۖ وقد كانوا يدعون إلى السجود وهم سالمون"
+translations:
+  en: { text: "With eyes downcast, abasement stupefying them. And they had been summoned to prostrate themselves while they were yet unhurt.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کی آنکھیں جھکی ہوئی ہوں گی اور ان پر ذلت چھا رہی ہوگی حالانکہ پہلے (اُس وقت) سجدے کے لئے بلاتے جاتے تھے جب کہ صحیح وسالم تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

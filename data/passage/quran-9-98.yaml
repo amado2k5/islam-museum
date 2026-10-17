@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:98 (سورة التوبة، الآية 98)."
 text: "وَمِنَ ٱلْأَعْرَابِ مَن يَتَّخِذُ مَا يُنفِقُ مَغْرَمًا وَيَتَرَبَّصُ بِكُمُ ٱلدَّوَآئِرَ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ"
 text_search: "ومن الأعراب من يتخذ ما ينفق مغرما ويتربص بكم الدوائر ۚ عليهم دائرة السوء ۗ والله سميع عليم"
+translations:
+  en: { text: "And of the wandering Arabs there is he who taketh that which he expendeth (for the cause of Allah) as a loss, and awaiteth (evil) turns of fortune for you (that he may be rid of it). The evil turn of fortune will be theirs. Allah is Hearer, Knower.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بعض دیہاتی ایسے ہیں کہ جو خرچ کرتے ہیں اسے تاوان سمجھتے ہیں اور تمہارے حق میں مصیبتوں کے منتظر ہیں۔ ان ہی پر بری مصیبت (واقع) ہو۔ اور خدا سننے والا (اور) جاننے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

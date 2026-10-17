@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:42 (سورة المائدة، الآية 42)."
 text: "سَمَّـٰعُونَ لِلْكَذِبِ أَكَّـٰلُونَ لِلسُّحْتِ ۚ فَإِن جَآءُوكَ فَٱحْكُم بَيْنَهُمْ أَوْ أَعْرِضْ عَنْهُمْ ۖ وَإِن تُعْرِضْ عَنْهُمْ فَلَن يَضُرُّوكَ شَيْـًٔا ۖ وَإِنْ حَكَمْتَ فَٱحْكُم بَيْنَهُم بِٱلْقِسْطِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ"
 text_search: "سماعون للكذب أكالون للسحت ۚ فإن جاءوك فاحكم بينهم أو أعرض عنهم ۖ وإن تعرض عنهم فلن يضروك شيئا ۖ وإن حكمت فاحكم بينهم بالقسط ۚ إن الله يحب المقسطين"
+translations:
+  en: { text: "Listeners for the sake of falsehood! Greedy for illicit gain! If then they have recourse unto thee (Muhammad) judge between them or disclaim jurisdiction. If thou disclaimest jurisdiction, then they cannot harm thee at all. But if thou judgest, judge between them with equity. Lo! Allah loveth the equitable.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ) جھوٹی باتیں بنانے کے جاسوسی کرنے والے اور (رشوت کا) حرام مال کھانے والے ہیں اگر یہ تمہارے پاس (کوئی مقدمہ فیصل کرانے کو) آئیں تو تم ان میں فیصلہ کر دینا یا اعراض کرنا اور اگر ان سے اعراض کرو گے تو وہ تمہارا کچھ بھی نہیں بگاڑ سکیں گے اور اگر فیصلہ کرنا چاہو تو انصاف کا فیصلہ کرنا کہ خدا انصاف کرنے والوں کو دوست رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

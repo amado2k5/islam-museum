@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:84 (سورة يوسف، الآية 84)."
 text: "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَـٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌ"
 text_search: "وتولى عنهم وقال يا أسفى على يوسف وابيضت عيناه من الحزن فهو كظيم"
+translations:
+  en: { text: "And he turned away from them and said: Alas, my grief for Joseph! And his eyes were whitened with the sorrow that he was suppressing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر ان کے پاس سے چلے گئے اور کہنے لگے ہائے افسوس یوسف (ہائے افسوس) اور رنج والم میں (اس قدر روئے کہ) ان کی آنکھیں سفید ہوگئیں اور ان کا دل غم سے بھر رہا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

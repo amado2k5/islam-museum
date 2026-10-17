@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:31 (سورة سبأ، الآية 31)."
 text: "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَن نُّؤْمِنَ بِهَـٰذَا ٱلْقُرْءَانِ وَلَا بِٱلَّذِى بَيْنَ يَدَيْهِ ۗ وَلَوْ تَرَىٰٓ إِذِ ٱلظَّـٰلِمُونَ مَوْقُوفُونَ عِندَ رَبِّهِمْ يَرْجِعُ بَعْضُهُمْ إِلَىٰ بَعْضٍ ٱلْقَوْلَ يَقُولُ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ لَوْلَآ أَنتُمْ لَكُنَّا مُؤْمِنِينَ"
 text_search: "وقال الذين كفروا لن نؤمن بهذا القرآن ولا بالذي بين يديه ۗ ولو ترى إذ الظالمون موقوفون عند ربهم يرجع بعضهم إلى بعض القول يقول الذين استضعفوا للذين استكبروا لولا أنتم لكنا مؤمنين"
+translations:
+  en: { text: "And those who disbelieve say: We believe not in this Qur'an nor in that which was before it; but oh, if thou couldst see, when the wrong-doers are brought up before their Lord, how they cast the blame one to another; how those who were despised (in the earth) say unto those who were proud: But for you, we should have been believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو کافر ہیں وہ کہتے ہیں کہ ہم نہ تو اس قرآن کو مانیں گے اور نہ ان (کتابوں) کو جو ان سے پہلے کی ہیں اور کاش (ان) ظالموں کو تم اس وقت دیکھو جب یہ اپنے پروردگار کے سامنے کھڑے ہوں گے اور ایک دوسرے سے ردوکد کر رہے ہوں گے۔ جو لوگ کمزور سمجھے جاتے تھے وہ بڑے لوگوں سے کہیں گے کہ اگر تم نہ ہوتے تو ہم ضرور مومن ہوجاتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

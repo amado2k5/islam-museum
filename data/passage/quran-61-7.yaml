@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 61:7 (سورة الصف، الآية 7)."
 text: "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُوَ يُدْعَىٰٓ إِلَى ٱلْإِسْلَـٰمِ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ"
 text_search: "ومن أظلم ممن افترى على الله الكذب وهو يدعى إلى الإسلام ۚ والله لا يهدي القوم الظالمين"
+translations:
+  en: { text: "And who doeth greater wrong than he who inventeth a lie against Allah when he is summoned unto Al-Islam? And Allah guideth not wrongdoing folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس سے ظالم کون کہ بلایا تو جائے اسلام کی طرف اور وہ خدا پر جھوٹ بہتان باندھے۔ اور خدا ظالم لوگوں کو ہدایت نہیں دیا کرتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-61 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:2 (سورة الكهف، الآية 2)."
 text: "قَيِّمًا لِّيُنذِرَ بَأْسًا شَدِيدًا مِّن لَّدُنْهُ وَيُبَشِّرَ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّـٰلِحَـٰتِ أَنَّ لَهُمْ أَجْرًا حَسَنًا"
 text_search: "قيما لينذر بأسا شديدا من لدنه ويبشر المؤمنين الذين يعملون الصالحات أن لهم أجرا حسنا"
+translations:
+  en: { text: "(But hath made it) straight, to give warning of stern punishment from Him, and to bring unto the believers who do good works the news that theirs will be a fair reward,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "سیدھی (اور سلیس اتاری) تاکہ لوگوں کو عذاب سخت سے جو اس کی طرف سے (آنے والا) ہے ڈرائے اور مومنوں کو جو نیک عمل کرتے ہیں خوشخبری سنائے کہ اُن کے لئے (ان کے کاموں کا) نیک بدلہ (یعنی) بہشت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 59:11 (سورة الحشر، الآية 11)."
 text: "۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ نَافَقُوا۟ يَقُولُونَ لِإِخْوَٰنِهِمُ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ لَئِنْ أُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيعُ فِيكُمْ أَحَدًا أَبَدًا وَإِن قُوتِلْتُمْ لَنَنصُرَنَّكُمْ وَٱللَّهُ يَشْهَدُ إِنَّهُمْ لَكَـٰذِبُونَ"
 text_search: "۞ ألم تر إلى الذين نافقوا يقولون لإخوانهم الذين كفروا من أهل الكتاب لئن أخرجتم لنخرجن معكم ولا نطيع فيكم أحدا أبدا وإن قوتلتم لننصرنكم والله يشهد إنهم لكاذبون"
+translations:
+  en: { text: "Hast thou not observed those who are hypocrites, (how) they tell their brethren who disbelieve among the People of the Scripture: If ye are driven out, we surely will go out with you, and we will never obey anyone against you, and if ye are attacked we verily will help you. And Allah beareth witness that they verily are liars.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نے ان منافقوں کو نہیں دیکھا جو اپنے کافر بھائیوں سے جو اہل کتاب ہیں کہا کرتے ہیں کہ اگر تم جلا وطن کئے گئے تو ہم بھی تمہارے ساتھ نکل چلیں گے اور تمہارے بارے میں کبھی کسی کا کہا نہ مانیں گے۔ اور اگر تم سے جنگ ہوئی تو تمہاری مدد کریں گے۔ مگر خدا ظاہر کئے دیتا ہے کہ یہ جھوٹے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/expedition-of-banu-al-nadir }
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

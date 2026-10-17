@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:96 (سورة يوسف، الآية 96)."
 text: "فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًا ۖ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ"
 text_search: "فلما أن جاء البشير ألقاه على وجهه فارتد بصيرا ۖ قال ألم أقل لكم إني أعلم من الله ما لا تعلمون"
+translations:
+  en: { text: "Then, when the bearer of glad tidings came, he laid it on his face and he became a seer once more. He said: Said I not unto you that I know from Allah that which ye know not?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب خوشخبری دینے والا آ پہنچا تو کرتہ یعقوب کے منہ پر ڈال دیا اور وہ بینا ہو گئے (اور بیٹوں سے) کہنے لگے کیا میں نے تم سے نہیں کہا تھا کہ میں خدا کی طرف سے وہ باتیں جانتا ہوں جو تم نہیں جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

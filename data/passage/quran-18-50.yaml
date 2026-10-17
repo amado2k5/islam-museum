@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:50 (سورة الكهف، الآية 50)."
 text: "وَإِذْ قُلْنَا لِلْمَلَـٰٓئِكَةِ ٱسْجُدُوا۟ لِـَٔادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ كَانَ مِنَ ٱلْجِنِّ فَفَسَقَ عَنْ أَمْرِ رَبِّهِۦٓ ۗ أَفَتَتَّخِذُونَهُۥ وَذُرِّيَّتَهُۥٓ أَوْلِيَآءَ مِن دُونِى وَهُمْ لَكُمْ عَدُوٌّۢ ۚ بِئْسَ لِلظَّـٰلِمِينَ بَدَلًا"
 text_search: "وإذ قلنا للملائكة اسجدوا لآدم فسجدوا إلا إبليس كان من الجن ففسق عن أمر ربه ۗ أفتتخذونه وذريته أولياء من دوني وهم لكم عدو ۚ بئس للظالمين بدلا"
+translations:
+  en: { text: "And (remember) when We said unto the angels: Fall prostrate before Adam, and they fell prostrate, all save Iblis. He was of the jinn, so he rebelled against his Lord's command. Will ye choose him and his seed for your protecting friends instead of Me, when they are an enemy unto you? Calamitous is the exchange for evil-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ہم نے فرشتوں کو حکم دیا کہ آدم کو سجدہ کرو تو سب نے سجدہ کیا مگر ابلیس (نے نہ کیا) وہ جنات میں سے تھا تو اپنے پروردگار کے حکم سے باہر ہوگیا۔ کیا تم اس کو اور اس کی اولاد کو میرے سوا دوست بناتے ہو۔ حالانکہ وہ تمہارے دشمن ہیں (اور شیطان کی دوستی) ظالموں کے لئے (خدا کی دوستی کا) برا بدل ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:70 (سورة التوبة، الآية 70)."
 text: "أَلَمْ يَأْتِهِمْ نَبَأُ ٱلَّذِينَ مِن قَبْلِهِمْ قَوْمِ نُوحٍ وَعَادٍ وَثَمُودَ وَقَوْمِ إِبْرَٰهِيمَ وَأَصْحَـٰبِ مَدْيَنَ وَٱلْمُؤْتَفِكَـٰتِ ۚ أَتَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ ۖ فَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ"
 text_search: "ألم يأتهم نبأ الذين من قبلهم قوم نوح وعاد وثمود وقوم إبراهيم وأصحاب مدين والمؤتفكات ۚ أتتهم رسلهم بالبينات ۖ فما كان الله ليظلمهم ولكن كانوا أنفسهم يظلمون"
+translations:
+  en: { text: "Hath not the fame of those before them reached them - the folk of Noah, A'ad, Thamud, the folk of Abraham, the dwellers of Midian and the disasters (which befell them)? Their messengers (from Allah) came unto them with proofs (of Allah's Sovereignty). So Allah surely wronged them not, but they did wrong themselves.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا ان کو ان لوگوں (کے حالات) کی خبر نہیں پہنچی جو ان سے پہلے تھے (یعنی) نوح اور عاد اور ثمود کی قوم۔ اور ابراہیم کی قوم اور مدین والے اور الٹی ہوئی بستیوں والے۔ ان کے پاس پیغمبر نشانیاں لے لے کر آئے۔ اور خدا تو ایسا نہ تھا کہ ان پر ظلم کرتا لیکن وہی اپنے آپ پر ظلم کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

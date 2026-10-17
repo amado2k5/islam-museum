@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:117 (سورة النساء، الآية 117)."
 text: "إِن يَدْعُونَ مِن دُونِهِۦٓ إِلَّآ إِنَـٰثًا وَإِن يَدْعُونَ إِلَّا شَيْطَـٰنًا مَّرِيدًا"
 text_search: "إن يدعون من دونه إلا إناثا وإن يدعون إلا شيطانا مريدا"
+translations:
+  en: { text: "They invoke in His stead only females; they pray to none else than Satan, a rebel", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ جو خدا کے سوا پرستش کرتے ہیں تو عورتوں کی اور پکارتے ہیں تو شیطان کی سرکش ہی کو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:16 (سورة النمل، الآية 16)."
 text: "وَوَرِثَ سُلَيْمَـٰنُ دَاوُۥدَ ۖ وَقَالَ يَـٰٓأَيُّهَا ٱلنَّاسُ عُلِّمْنَا مَنطِقَ ٱلطَّيْرِ وَأُوتِينَا مِن كُلِّ شَىْءٍ ۖ إِنَّ هَـٰذَا لَهُوَ ٱلْفَضْلُ ٱلْمُبِينُ"
 text_search: "وورث سليمان داوود ۖ وقال يا أيها الناس علمنا منطق الطير وأوتينا من كل شيء ۖ إن هذا لهو الفضل المبين"
+translations:
+  en: { text: "And Solomon was David's heir. And he said: O mankind! Lo! we have been taught the language of birds, and have been given (abundance) of all things. This surely is evident favour.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور سلیمان اور داؤد کے قائم مقام ہوئے۔ اور کہنے لگے کہ لوگو! ہمیں (خدا کی طرف سے) جانوروں کی بولی سکھائی گئی ہے اور ہر چیز عنایت فرمائی گئی ہے۔ بےشک یہ (اُس کا) صریح فضل ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

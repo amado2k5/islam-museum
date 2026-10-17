@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:49 (سورة الشعراء، الآية 49)."
 text: "قَالَ ءَامَنتُمْ لَهُۥ قَبْلَ أَنْ ءَاذَنَ لَكُمْ ۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِى عَلَّمَكُمُ ٱلسِّحْرَ فَلَسَوْفَ تَعْلَمُونَ ۚ لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَـٰفٍ وَلَأُصَلِّبَنَّكُمْ أَجْمَعِينَ"
 text_search: "قال آمنتم له قبل أن آذن لكم ۖ إنه لكبيركم الذي علمكم السحر فلسوف تعلمون ۚ لأقطعن أيديكم وأرجلكم من خلاف ولأصلبنكم أجمعين"
+translations:
+  en: { text: "(Pharaoh) said: Ye put your faith in him before I give you leave. Lo! he doubtless is your chief who taught you magic! But verily ye shall come to know. Verily I will cut off your hands and your feet alternately, and verily I will crucify you every one.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "فرعون نے کہا کیا اس سے پہلے کہ میں تم کو اجازت دوں تم اس پر ایمان لے آئے، بےشک یہ تمہارا بڑا ہے جس نے تم کو جادو سکھایا ہے۔ سو عنقریب تم (اس کا انجام) معلوم کرلو گے کہ میں تمہارے ہاتھ اور پاؤں اطراف مخالف سے کٹوا دوں گا اور تم سب کو سولی پر چڑھوا دوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

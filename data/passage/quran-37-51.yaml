@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:51 (سورة الصافات، الآية 51)."
 text: "قَالَ قَآئِلٌ مِّنْهُمْ إِنِّى كَانَ لِى قَرِينٌ"
 text_search: "قال قائل منهم إني كان لي قرين"
+translations:
+  en: { text: "A speaker of them saith: Lo! I had a comrade", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ایک کہنے والا ان میں سے کہے گا کہ میرا ایک ہم نشین تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

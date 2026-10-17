@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:17 (سورة يوسف، الآية 17)."
 text: "قَالُوا۟ يَـٰٓأَبَانَآ إِنَّا ذَهَبْنَا نَسْتَبِقُ وَتَرَكْنَا يُوسُفَ عِندَ مَتَـٰعِنَا فَأَكَلَهُ ٱلذِّئْبُ ۖ وَمَآ أَنتَ بِمُؤْمِنٍ لَّنَا وَلَوْ كُنَّا صَـٰدِقِينَ"
 text_search: "قالوا يا أبانا إنا ذهبنا نستبق وتركنا يوسف عند متاعنا فأكله الذئب ۖ وما أنت بمؤمن لنا ولو كنا صادقين"
+translations:
+  en: { text: "Saying: O our father! We went racing one with another, and left Joseph by our things, and the wolf devoured him, and thou believest not our saying even when we speak the truth.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور) کہنے لگے کہ اباجان ہم تو دوڑنے اور ایک دوسرے سے آگے نکلنے میں مصروف ہوگئے اور یوسف کو اپنے اسباب کے پاس چھوڑ گئے تو اسے بھیڑیا کھا گیا۔ اور آپ ہماری بات کو گو ہم سچ ہی کہتے ہوں باور نہیں کریں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

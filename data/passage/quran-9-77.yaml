@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:77 (سورة التوبة، الآية 77)."
 text: "فَأَعْقَبَهُمْ نِفَاقًا فِى قُلُوبِهِمْ إِلَىٰ يَوْمِ يَلْقَوْنَهُۥ بِمَآ أَخْلَفُوا۟ ٱللَّهَ مَا وَعَدُوهُ وَبِمَا كَانُوا۟ يَكْذِبُونَ"
 text_search: "فأعقبهم نفاقا في قلوبهم إلى يوم يلقونه بما أخلفوا الله ما وعدوه وبما كانوا يكذبون"
+translations:
+  en: { text: "So He hath made the consequence (to be) hypocrisy in their hearts until the day when they shall meet Him, because they broke their word to Allah that they promised Him, and because they lied.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو خدا نے اس کا انجام یہ کیا کہ اس روز تک کے لیے جس میں وہ خدا کے روبرو حاضر ہوں گے ان کے دلوں میں نفاق ڈال دیا اس لیے کہ انہوں نے خدا سے جو وعدہ کیا تھا اس کے خلاف کیا اور اس لیے کہ وہ جھوٹ بولتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

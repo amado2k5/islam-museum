@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:40 (سورة الحج، الآية 40)."
 text: "ٱلَّذِينَ أُخْرِجُوا۟ مِن دِيَـٰرِهِم بِغَيْرِ حَقٍّ إِلَّآ أَن يَقُولُوا۟ رَبُّنَا ٱللَّهُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّهُدِّمَتْ صَوَٰمِعُ وَبِيَعٌ وَصَلَوَٰتٌ وَمَسَـٰجِدُ يُذْكَرُ فِيهَا ٱسْمُ ٱللَّهِ كَثِيرًا ۗ وَلَيَنصُرَنَّ ٱللَّهُ مَن يَنصُرُهُۥٓ ۗ إِنَّ ٱللَّهَ لَقَوِىٌّ عَزِيزٌ"
 text_search: "الذين أخرجوا من ديارهم بغير حق إلا أن يقولوا ربنا الله ۗ ولولا دفع الله الناس بعضهم ببعض لهدمت صوامع وبيع وصلوات ومساجد يذكر فيها اسم الله كثيرا ۗ ولينصرن الله من ينصره ۗ إن الله لقوي عزيز"
+translations:
+  en: { text: "Those who have been driven from their homes unjustly only because they said: Our Lord is Allah - For had it not been for Allah's repelling some men by means of others, cloisters and churches and oratories and mosques, wherein the name of Allah is oft mentioned, would assuredly have been pulled down. Verily Allah helpeth one who helpeth Him. Lo! Allah is Strong, Almighty -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ وہ لوگ ہیں کہ اپنے گھروں سے ناحق نکال دیئے گئے (انہوں نے کچھ قصور نہیں کیا) ہاں یہ کہتے ہیں کہ ہمارا پروردگار خدا ہے۔ اور اگر خدا لوگوں کو ایک دوسرے سے نہ ہٹاتا رہتا تو (راہبوں کے) صومعے اور (عیسائیوں کے) گرجے اور (یہودیوں کے) عبادت خانے اور (مسلمانوں کی) مسجدیں جن میں خدا کا بہت سا ذکر کیا جاتا ہے ویران ہوچکی ہوتیں۔ اور جو شخص خدا کی مدد کرتا ہے خدا اس کی ضرور مدد کرتا ہے۔ بےشک خدا توانا اور غالب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

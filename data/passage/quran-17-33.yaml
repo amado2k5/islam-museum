@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:33 (سورة الإسراء، الآية 33)."
 text: "وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۗ وَمَن قُتِلَ مَظْلُومًا فَقَدْ جَعَلْنَا لِوَلِيِّهِۦ سُلْطَـٰنًا فَلَا يُسْرِف فِّى ٱلْقَتْلِ ۖ إِنَّهُۥ كَانَ مَنصُورًا"
 text_search: "ولا تقتلوا النفس التي حرم الله إلا بالحق ۗ ومن قتل مظلوما فقد جعلنا لوليه سلطانا فلا يسرف في القتل ۖ إنه كان منصورا"
+translations:
+  en: { text: "And slay not the life which Allah hath forbidden save with right. Whoso is slain wrongfully, We have given power unto his heir, but let him not commit excess in slaying. Lo! he will be helped.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس کا جاندار کا مارنا خدا نے حرام کیا ہے اسے قتل نہ کرنا مگر جائز طور پر (یعنی بفتویٰ شریعت) ۔ اور جو شخص ظلم سے قتل کیا جائے ہم نے اس کے وارث کو اختیار دیا ہے (کہ ظالم قاتل سے بدلہ لے) تو اس کو چاہیئے کہ قتل (کے قصاص) میں زیادتی نہ کرے کہ وہ منصورو فتحیاب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

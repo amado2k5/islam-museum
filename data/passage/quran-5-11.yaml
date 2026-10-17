@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:11 (سورة المائدة، الآية 11)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ هَمَّ قَوْمٌ أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ"
 text_search: "يا أيها الذين آمنوا اذكروا نعمت الله عليكم إذ هم قوم أن يبسطوا إليكم أيديهم فكف أيديهم عنكم ۖ واتقوا الله ۚ وعلى الله فليتوكل المؤمنون"
+translations:
+  en: { text: "O ye who believe! Remember Allah's favour unto you, how a people were minded to stretch out their hands against you but He withheld their hands from you; and keep your duty to Allah. In Allah let believers put their trust.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے ایمان والو! خدا نے جو تم پر احسان کیا ہے اس کو یاد کرو۔ جب ایک جماعت نے ارادہ کیا کہ تم پر دست درازی کریں تو اس نے ان کے ہاتھ روک دیئے اور خدا سے ڈرتے رہوں اور مومنو کو خدا ہی پر بھروسہ رکھنا چاہیئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

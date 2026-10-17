@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:8 (سورة الصافات، الآية 8)."
 text: "لَّا يَسَّمَّعُونَ إِلَى ٱلْمَلَإِ ٱلْأَعْلَىٰ وَيُقْذَفُونَ مِن كُلِّ جَانِبٍ"
 text_search: "لا يسمعون إلى الملإ الأعلى ويقذفون من كل جانب"
+translations:
+  en: { text: "They cannot listen to the Highest Chiefs for they are pelted from every side,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ اوپر کی مجلس کی طرف کان نہ لگاسکیں اور ہر طرف سے (ان پر انگارے) پھینکے جاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

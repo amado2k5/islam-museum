@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:30 (سورة آل عمران، الآية 30)."
 text: "يَوْمَ تَجِدُ كُلُّ نَفْسٍ مَّا عَمِلَتْ مِنْ خَيْرٍ مُّحْضَرًا وَمَا عَمِلَتْ مِن سُوٓءٍ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُۥٓ أَمَدًۢا بَعِيدًا ۗ وَيُحَذِّرُكُمُ ٱللَّهُ نَفْسَهُۥ ۗ وَٱللَّهُ رَءُوفٌۢ بِٱلْعِبَادِ"
 text_search: "يوم تجد كل نفس ما عملت من خير محضرا وما عملت من سوء تود لو أن بينها وبينه أمدا بعيدا ۗ ويحذركم الله نفسه ۗ والله رءوف بالعباد"
+translations:
+  en: { text: "On the Day when every soul will find itself confronted with all that it hath done of good and all that it hath done of evil (every soul) will long that there might be a mighty space of distance between it and that (evil). Allah biddeth you beware of Him. And Allah is Full of Pity for (His) bondmen.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس دن ہر شخص اپنے اعمال کی نیکی کو موجود پالے گا اور ان کی برائی کو بھی (دیکھ لے گا) تو آرزو کرے گا کہ اے کاش اس میں اور اس برائی میں دور کی مسافت ہو جاتی اور خدا تم کو اپنے (غضب) سے ڈراتا ہے اور خدا اپنے بندوں پر نہایت مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

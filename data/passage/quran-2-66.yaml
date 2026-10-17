@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:66 (سورة البقرة، الآية 66)."
 text: "فَجَعَلْنَـٰهَا نَكَـٰلًا لِّمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِّلْمُتَّقِينَ"
 text_search: "فجعلناها نكالا لما بين يديها وما خلفها وموعظة للمتقين"
+translations:
+  en: { text: "And We made it an example to their own and to succeeding generations, and an admonition to the Allah-fearing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس قصے کو اس وقت کے لوگوں کے لیے اور جو ان کے بعد آنے والے تھے عبرت اور پرہیز گاروں کے لیے نصیحت بنا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

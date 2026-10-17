@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:3 (سورة الشورى، الآية 3)."
 text: "كَذَٰلِكَ يُوحِىٓ إِلَيْكَ وَإِلَى ٱلَّذِينَ مِن قَبْلِكَ ٱللَّهُ ٱلْعَزِيزُ ٱلْحَكِيمُ"
 text_search: "كذلك يوحي إليك وإلى الذين من قبلك الله العزيز الحكيم"
+translations:
+  en: { text: "Thus Allah the Mighty, the Knower inspireth thee (Muhammad) as (He inspired) those before thee.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدائے غالب و دانا اسی طرح تمہاری طرف مضامین اور (براہین) بھیجتا ہے جس طرح تم سے پہلے لوگوں کی طرف وحی بھیجتا رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

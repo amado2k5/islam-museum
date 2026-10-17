@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:272 (سورة البقرة، الآية 272)."
 text: "۞ لَّيْسَ عَلَيْكَ هُدَىٰهُمْ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَلِأَنفُسِكُمْ ۚ وَمَا تُنفِقُونَ إِلَّا ٱبْتِغَآءَ وَجْهِ ٱللَّهِ ۚ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ"
 text_search: "۞ ليس عليك هداهم ولكن الله يهدي من يشاء ۗ وما تنفقوا من خير فلأنفسكم ۚ وما تنفقون إلا ابتغاء وجه الله ۚ وما تنفقوا من خير يوف إليكم وأنتم لا تظلمون"
+translations:
+  en: { text: "The guiding of them is not thy duty (O Muhammad), but Allah guideth whom He will. And whatsoever good thing ye spend, it is for yourselves, when ye spend not save in search of Allah's Countenance; and whatsoever good thing ye spend, it will be repaid to you in full, and ye will not be wronged.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) تم ان لوگوں کی ہدایت کے ذمہ دار نہیں ہو بلکہ خدا ہی جس کو چاہتا ہے ہدایت بخشتا ہے۔ اور (مومنو) تم جو مال خرچ کرو گے تو اس کا فائدہ تمہیں کو ہے اور تم جو خرچ کرو گے خدا کی خوشنودی کے لئے کرو گے۔ اور جو مال تم خرچ کرو گے وہ تمہیں پورا پورا دے دیا جائے گا اور تمہارا کچھ نقصان نہیں کیا جائے گا،", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

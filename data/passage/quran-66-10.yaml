@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 66:10 (سورة التحريم، الآية 10)."
 text: "ضَرَبَ ٱللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا۟ ٱمْرَأَتَ نُوحٍ وَٱمْرَأَتَ لُوطٍ ۖ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَـٰلِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ ٱللَّهِ شَيْـًٔا وَقِيلَ ٱدْخُلَا ٱلنَّارَ مَعَ ٱلدَّٰخِلِينَ"
 text_search: "ضرب الله مثلا للذين كفروا امرأت نوح وامرأت لوط ۖ كانتا تحت عبدين من عبادنا صالحين فخانتاهما فلم يغنيا عنهما من الله شيئا وقيل ادخلا النار مع الداخلين"
+translations:
+  en: { text: "Allah citeth an example for those who disbelieve: the wife of Noah and the wife of Lot, who were under two of Our righteous slaves yet betrayed them so that they (the husbands) availed them naught against Allah and it was said (unto them): Enter the Fire along with those who enter.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے کافروں کے لئے نوحؑ کی بیوی اور لوطؑ کی بیوی کی مثال بیان فرمائی ہے۔ دونوں ہمارے دو نیک بندوں کے گھر میں تھیں اور دونوں نے ان کی خیانت کی تو وہ خدا کے مقابلے میں اور ان عورتوں کے کچھ بھی کام نہ آئے اور ان کو حکم دیا گیا کہ اور داخل ہونے والوں کے ساتھ تم بھی دوزخ میں داخل ہو جاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-66 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

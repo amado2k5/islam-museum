@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:37 (سورة النور، الآية 37)."
 text: "رِجَالٌ لَّا تُلْهِيهِمْ تِجَـٰرَةٌ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ ۙ يَخَافُونَ يَوْمًا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ وَٱلْأَبْصَـٰرُ"
 text_search: "رجال لا تلهيهم تجارة ولا بيع عن ذكر الله وإقام الصلاة وإيتاء الزكاة ۙ يخافون يوما تتقلب فيه القلوب والأبصار"
+translations:
+  en: { text: "Men whom neither merchandise nor sale beguileth from remembrance of Allah and constancy in prayer and paying to the poor their due; who fear a day when hearts and eyeballs will be overturned;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یعنی ایسے) لوگ جن کو خدا کے ذکر اور نماز پڑھنے اور زکوٰة دینے سے نہ سوداگری غافل کرتی ہے نہ خرید وفروخت۔ وہ اس دن سے جب دل (خوف اور گھبراہٹ کے سبب) الٹ جائیں گے اور آنکھیں (اوپر کو چڑھ جائیں گی) ڈرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:88 (سورة الأعراف، الآية 88)."
 text: "۞ قَالَ ٱلْمَلَأُ ٱلَّذِينَ ٱسْتَكْبَرُوا۟ مِن قَوْمِهِۦ لَنُخْرِجَنَّكَ يَـٰشُعَيْبُ وَٱلَّذِينَ ءَامَنُوا۟ مَعَكَ مِن قَرْيَتِنَآ أَوْ لَتَعُودُنَّ فِى مِلَّتِنَا ۚ قَالَ أَوَلَوْ كُنَّا كَـٰرِهِينَ"
 text_search: "۞ قال الملأ الذين استكبروا من قومه لنخرجنك يا شعيب والذين آمنوا معك من قريتنا أو لتعودن في ملتنا ۚ قال أولو كنا كارهين"
+translations:
+  en: { text: "The chieftains of his people, who were scornful, said: Surely we will drive thee out, O Shu'eyb, and those who believe with thee, from our township, unless ye return to our religion. He said: Even though we hate it?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(تو) ان کی قوم میں جو لوگ سردار اور بڑے آدمی تھے، وہ کہنے لگے کہ شعیب! (یا تو) ہم تم کو اور جو لوگ تمہارے ساتھ ایمان لائے ہیں، ان کو اپنے شہر سے نکال دیں گے۔ یا تم ہمارے مذہب میں آجاؤ۔ انہوں نے کہا خواہ ہم (تمہارے دین سے) بیزار ہی ہوں (تو بھی؟)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

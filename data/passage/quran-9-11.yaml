@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:11 (سورة التوبة، الآية 11)."
 text: "فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ ۗ وَنُفَصِّلُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَعْلَمُونَ"
 text_search: "فإن تابوا وأقاموا الصلاة وآتوا الزكاة فإخوانكم في الدين ۗ ونفصل الآيات لقوم يعلمون"
+translations:
+  en: { text: "But if they repent and establish worship and pay the poor-due, then are they your brethren in religion. We detail Our revelations for a people who have knowledge.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر یہ توبہ کرلیں اور نماز پڑھنے اور زکوٰة دینے لگیں تو دین میں تمہارے بھائی ہیں۔ اور سمجھنے والے لوگوں کے لیے ہم اپنی آیتیں کھول کھول کر بیان کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

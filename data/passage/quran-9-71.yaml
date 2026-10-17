@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:71 (سورة التوبة، الآية 71)."
 text: "وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَـٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَـٰٓئِكَ سَيَرْحَمُهُمُ ٱللَّهُ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ"
 text_search: "والمؤمنون والمؤمنات بعضهم أولياء بعض ۚ يأمرون بالمعروف وينهون عن المنكر ويقيمون الصلاة ويؤتون الزكاة ويطيعون الله ورسوله ۚ أولئك سيرحمهم الله ۗ إن الله عزيز حكيم"
+translations:
+  en: { text: "And the believers, men and women, are protecting friends one of another; they enjoin the right and forbid the wrong, and they establish worship and they pay the poor-due, and they obey Allah and His messenger. As for these, Allah will have mercy on them. Lo! Allah is Mighty, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور مومن مرد اور مومن عورتیں ایک دوسرے کے دوست ہیں کہ اچھے کام کرنے کو کہتے ہیں اور بری باتوں سے منع کرتے اور نماز پڑھتے اور زکوٰة دیتے اور خدا اور اس کے رسول کی اطاعت کرتے ہیں۔ یہی لوگ ہیں جن پر خدا رحم کرے گا۔ بےشک خدا غالب حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

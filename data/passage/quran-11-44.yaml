@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:44 (سورة هود، الآية 44)."
 text: "وَقِيلَ يَـٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَـٰسَمَآءُ أَقْلِعِى وَغِيضَ ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًا لِّلْقَوْمِ ٱلظَّـٰلِمِينَ"
 text_search: "وقيل يا أرض ابلعي ماءك ويا سماء أقلعي وغيض الماء وقضي الأمر واستوت على الجودي ۖ وقيل بعدا للقوم الظالمين"
+translations:
+  en: { text: "And it was said: O earth! Swallow thy water and, O sky! be cleared of clouds! And the water was made to subside. And the commandment was fulfilled. And it (the ship) came to rest upon (the mount) Al-Judi and it was said: A far removal for wrongdoing folk!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور حکم دیا گیا کہ اے زمین اپنا پانی نگل جا اور اے آسمان تھم جا۔ تو پانی خشک ہوگیا اور کام تمام کردیا گیا اور کشی کوہ جودی پر جا ٹھہری۔ اور کہہ دیا گیا کہ بےانصاف لوگوں پر لعنت", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

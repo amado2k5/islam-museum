@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:60 (سورة الأنبياء، الآية 60)."
 text: "قَالُوا۟ سَمِعْنَا فَتًى يَذْكُرُهُمْ يُقَالُ لَهُۥٓ إِبْرَٰهِيمُ"
 text_search: "قالوا سمعنا فتى يذكرهم يقال له إبراهيم"
+translations:
+  en: { text: "They said: We heard a youth make mention of them, who is called Abraham.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لوگوں نے کہا کہ ہم نے ایک جوان کو ان کا ذکر کرتے ہوئے سنا ہے اس کو ابراہیم کہتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

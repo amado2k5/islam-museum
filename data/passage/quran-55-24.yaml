@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 55:24 (سورة الرحمن، الآية 24)."
 text: "وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَـٰمِ"
 text_search: "وله الجوار المنشآت في البحر كالأعلام"
+translations:
+  en: { text: "His are the ships displayed upon the sea, like banners.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جہاز بھی اسی کے ہیں جو دریا میں پہاڑوں کی طرح اونچے کھڑے ہوتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

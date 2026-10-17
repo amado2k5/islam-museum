@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:39 (سورة الروم، الآية 39)."
 text: "وَمَآ ءَاتَيْتُم مِّن رِّبًا لِّيَرْبُوَا۟ فِىٓ أَمْوَٰلِ ٱلنَّاسِ فَلَا يَرْبُوا۟ عِندَ ٱللَّهِ ۖ وَمَآ ءَاتَيْتُم مِّن زَكَوٰةٍ تُرِيدُونَ وَجْهَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُضْعِفُونَ"
 text_search: "وما آتيتم من ربا ليربو في أموال الناس فلا يربو عند الله ۖ وما آتيتم من زكاة تريدون وجه الله فأولئك هم المضعفون"
+translations:
+  en: { text: "That which ye give in usury in order that it may increase on (other) people's property hath no increase with Allah; but that which ye give in charity, seeking Allah's Countenance, hath increase manifold.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو تم سود دیتے ہو کہ لوگوں کے مال میں افزائش ہو تو خدا کے نزدیک اس میں افزائش نہیں ہوتی اور جو تم زکوٰة دیتے ہو اور اُس سے خدا کی رضا مندی طلب کرتے ہو تو (وہ موجبِ برکت ہے اور) ایسے ہی لوگ (اپنے مال کو) دو چند سہ چند کرنے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

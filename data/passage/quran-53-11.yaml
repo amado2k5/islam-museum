@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 53:11 (سورة النجم، الآية 11)."
 text: "مَا كَذَبَ ٱلْفُؤَادُ مَا رَأَىٰٓ"
 text_search: "ما كذب الفؤاد ما رأى"
+translations:
+  en: { text: "The heart lied not (in seeing) what it saw.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو کچھ انہوں نے دیکھا ان کے دل نے اس کو جھوٹ نہ مانا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-53 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

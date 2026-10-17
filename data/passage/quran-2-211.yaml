@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:211 (سورة البقرة، الآية 211)."
 text: "سَلْ بَنِىٓ إِسْرَٰٓءِيلَ كَمْ ءَاتَيْنَـٰهُم مِّنْ ءَايَةٍۭ بَيِّنَةٍ ۗ وَمَن يُبَدِّلْ نِعْمَةَ ٱللَّهِ مِنۢ بَعْدِ مَا جَآءَتْهُ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ"
 text_search: "سل بني إسرائيل كم آتيناهم من آية بينة ۗ ومن يبدل نعمة الله من بعد ما جاءته فإن الله شديد العقاب"
+translations:
+  en: { text: "Ask of the Children of Israel how many a clear revelation We gave them! He who altereth the grace of Allah after it hath come unto him (for him), lo! Allah is severe in punishment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمد) بنی اسرائیل سے پوچھو کہ ہم نے ان کو کتنی کھلی نشانیاں دیں۔ اور جو شخص خدا کی نعمت کو اپنے پاس آنے کے بعد بدل دے تو خدا سخت عذاب کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

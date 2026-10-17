@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:203 (سورة الأعراف، الآية 203)."
 text: "وَإِذَا لَمْ تَأْتِهِم بِـَٔايَةٍ قَالُوا۟ لَوْلَا ٱجْتَبَيْتَهَا ۚ قُلْ إِنَّمَآ أَتَّبِعُ مَا يُوحَىٰٓ إِلَىَّ مِن رَّبِّى ۚ هَـٰذَا بَصَآئِرُ مِن رَّبِّكُمْ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ يُؤْمِنُونَ"
 text_search: "وإذا لم تأتهم بآية قالوا لولا اجتبيتها ۚ قل إنما أتبع ما يوحى إلي من ربي ۚ هذا بصائر من ربكم وهدى ورحمة لقوم يؤمنون"
+translations:
+  en: { text: "And when thou bringest not a verse for them they say: Why hast thou not chosen it? Say: I follow only that which is inspired in me from my Lord. This (Qur'an) is insight from your Lord, and a guidance and a mercy for a people that believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب تم ان کے پاس (کچھ دنوں تک) کوئی آیت نہیں لاتے تو کہتے ہیں کہ تم نے (اپنی طرف سے) کیوں نہیں بنالی۔ کہہ دو کہ میں تو اسی کی پیروی کرتا ہوں جو میرے پروردگار کی طرف سے میرے پاس آتا ہے۔ یہ قرآن تمہارے پروردگار کی جانب سے دانش وبصیرت اور مومنوں کے لیے ہدایت اور رحمت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

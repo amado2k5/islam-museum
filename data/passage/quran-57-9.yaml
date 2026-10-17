@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:9 (سورة الحديد، الآية 9)."
 text: "هُوَ ٱلَّذِى يُنَزِّلُ عَلَىٰ عَبْدِهِۦٓ ءَايَـٰتٍۭ بَيِّنَـٰتٍ لِّيُخْرِجَكُم مِّنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَإِنَّ ٱللَّهَ بِكُمْ لَرَءُوفٌ رَّحِيمٌ"
 text_search: "هو الذي ينزل على عبده آيات بينات ليخرجكم من الظلمات إلى النور ۚ وإن الله بكم لرءوف رحيم"
+translations:
+  en: { text: "He it is Who sendeth down clear revelations unto His slave, that He may bring you forth from darkness unto light; and lo! for you, Allah is Full of Pity, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہی تو ہے جو اپنے بندے پر واضح (المطالب) آیتیں نازل کرتا ہے تاکہ تم کو اندھیروں میں سے نکال کر روشنی میں لائے۔ بےشک خدا تم پر نہایت شفقت کرنے والا (اور) مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

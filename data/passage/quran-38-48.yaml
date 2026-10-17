@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:48 (سورة ص، الآية 48)."
 text: "وَٱذْكُرْ إِسْمَـٰعِيلَ وَٱلْيَسَعَ وَذَا ٱلْكِفْلِ ۖ وَكُلٌّ مِّنَ ٱلْأَخْيَارِ"
 text_search: "واذكر إسماعيل واليسع وذا الكفل ۖ وكل من الأخيار"
+translations:
+  en: { text: "And make mention of Ishmael and Elisha and Dhu'l-Kifl. All are of the chosen.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اسمٰعیل اور الیسع اور ذوالکفل کو یاد کرو۔ وہ سب نیک لوگوں میں سے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

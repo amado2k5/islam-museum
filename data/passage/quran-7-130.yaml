@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:130 (سورة الأعراف، الآية 130)."
 text: "وَلَقَدْ أَخَذْنَآ ءَالَ فِرْعَوْنَ بِٱلسِّنِينَ وَنَقْصٍ مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَذَّكَّرُونَ"
 text_search: "ولقد أخذنا آل فرعون بالسنين ونقص من الثمرات لعلهم يذكرون"
+translations:
+  en: { text: "And we straitened Pharaoh's folk with famine and dearth of fruits, that peradventure they might heed.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے فرعونیوں کو قحطوں اور میووں کے نقصان میں پکڑا تاکہ نصیحت حاصل کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

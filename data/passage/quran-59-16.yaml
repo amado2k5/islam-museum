@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 59:16 (سورة الحشر، الآية 16)."
 text: "كَمَثَلِ ٱلشَّيْطَـٰنِ إِذْ قَالَ لِلْإِنسَـٰنِ ٱكْفُرْ فَلَمَّا كَفَرَ قَالَ إِنِّى بَرِىٓءٌ مِّنكَ إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَـٰلَمِينَ"
 text_search: "كمثل الشيطان إذ قال للإنسان اكفر فلما كفر قال إني بريء منك إني أخاف الله رب العالمين"
+translations:
+  en: { text: "(And the hypocrites are) on the likeness of the devil when he telleth man to disbelieve, then, when he disbelieveth saith: Lo! I am quit of thee. Lo! I fear Allah, the Lord of the Worlds.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "منافقوں کی) مثال شیطان کی سی ہے کہ انسان سے کہتا رہا کہ کافر ہوجا۔ جب وہ کافر ہوگیا تو کہنے لگا کہ مجھے تجھ سے کچھ سروکار نہیں۔ مجھ کو خدائے رب العالمین سے ڈر لگتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

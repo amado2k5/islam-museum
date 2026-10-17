@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:65 (سورة النمل، الآية 65)."
 text: "قُل لَّا يَعْلَمُ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ٱلْغَيْبَ إِلَّا ٱللَّهُ ۚ وَمَا يَشْعُرُونَ أَيَّانَ يُبْعَثُونَ"
 text_search: "قل لا يعلم من في السماوات والأرض الغيب إلا الله ۚ وما يشعرون أيان يبعثون"
+translations:
+  en: { text: "Say (O Muhammad): None in the heavens and the earth knoweth the Unseen save Allah; and they know not when they will be raised (again).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ جو لوگ آسمانوں اور زمین میں ہیں خدا کے سوا غیب کی باتیں نہیں جانتے۔ اور نہ یہ جانتے ہیں کہ کب (زندہ کرکے) اٹھائے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

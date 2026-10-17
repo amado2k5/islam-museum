@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:183 (سورة الشعراء، الآية 183)."
 text: "وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ"
 text_search: "ولا تبخسوا الناس أشياءهم ولا تعثوا في الأرض مفسدين"
+translations:
+  en: { text: "Wrong not mankind in their goods, and do not evil, making mischief, in the earth.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور لوگوں کو ان کی چیزیں کم نہ دیا کرو اور ملک میں فساد نہ کرتے پھرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

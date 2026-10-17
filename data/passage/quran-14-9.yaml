@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:9 (سورة إبراهيم، الآية 9)."
 text: "أَلَمْ يَأْتِكُمْ نَبَؤُا۟ ٱلَّذِينَ مِن قَبْلِكُمْ قَوْمِ نُوحٍ وَعَادٍ وَثَمُودَ ۛ وَٱلَّذِينَ مِنۢ بَعْدِهِمْ ۛ لَا يَعْلَمُهُمْ إِلَّا ٱللَّهُ ۚ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ فَرَدُّوٓا۟ أَيْدِيَهُمْ فِىٓ أَفْوَٰهِهِمْ وَقَالُوٓا۟ إِنَّا كَفَرْنَا بِمَآ أُرْسِلْتُم بِهِۦ وَإِنَّا لَفِى شَكٍّ مِّمَّا تَدْعُونَنَآ إِلَيْهِ مُرِيبٍ"
 text_search: "ألم يأتكم نبأ الذين من قبلكم قوم نوح وعاد وثمود ۛ والذين من بعدهم ۛ لا يعلمهم إلا الله ۚ جاءتهم رسلهم بالبينات فردوا أيديهم في أفواههم وقالوا إنا كفرنا بما أرسلتم به وإنا لفي شك مما تدعوننا إليه مريب"
+translations:
+  en: { text: "Hath not the history of those before you reached you: the folk of Noah, and (the tribes of) A'ad and Thamud, and those after them? None save Allah knoweth them. Their messengers came unto them with clear proofs, but they thrust their hands into their mouths, and said: Lo! we disbelieve in that wherewith ye have been sent, and lo! we are in grave doubt concerning that to which ye call us.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا تم کو ان لوگوں (کے حالات) کی خبر نہیں پہنچی جو تم سے پہلے تھے (یعنی) نوح اور عاد اور ثمود کی قوم۔ اور جو ان کے بعد تھے۔ جن کا علم خدا کے سوا کسی کو نہیں (جب) ان کے پاس پیغمبر نشانیاں لے کر آئے تو انہوں نے اپنے ہاتھ ان کے مونہوں پر رکھ دیئے (کہ خاموش رہو) اور کہنے لگے کہ ہم تو تمہاری رسالت کو تسلیم نہیں کرتے اور جس چیز کی طرف تم ہمیں بلاتے ہو ہم اس سے قوی شک میں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

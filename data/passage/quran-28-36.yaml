@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:36 (سورة القصص، الآية 36)."
 text: "فَلَمَّا جَآءَهُم مُّوسَىٰ بِـَٔايَـٰتِنَا بَيِّنَـٰتٍ قَالُوا۟ مَا هَـٰذَآ إِلَّا سِحْرٌ مُّفْتَرًى وَمَا سَمِعْنَا بِهَـٰذَا فِىٓ ءَابَآئِنَا ٱلْأَوَّلِينَ"
 text_search: "فلما جاءهم موسى بآياتنا بينات قالوا ما هذا إلا سحر مفترى وما سمعنا بهذا في آبائنا الأولين"
+translations:
+  en: { text: "But when Moses came unto them with Our clear tokens, they said: This is naught but invented magic. We never heard of this among our fathers of old.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب موسٰی اُن کے پاس ہماری کھلی نشانیاں لےکر آئے تو وہ کہنے لگے کہ یہ جادو ہے جو اُس نے بنا کھڑا کیا ہے اور یہ باتیں ہم نے اپنے اگلے باپ دادا میں تو (کبھی) سنی نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

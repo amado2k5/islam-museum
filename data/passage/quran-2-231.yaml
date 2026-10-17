@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:231 (سورة البقرة، الآية 231)."
 text: "وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ سَرِّحُوهُنَّ بِمَعْرُوفٍ ۚ وَلَا تُمْسِكُوهُنَّ ضِرَارًا لِّتَعْتَدُوا۟ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ وَلَا تَتَّخِذُوٓا۟ ءَايَـٰتِ ٱللَّهِ هُزُوًا ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ وَمَآ أَنزَلَ عَلَيْكُم مِّنَ ٱلْكِتَـٰبِ وَٱلْحِكْمَةِ يَعِظُكُم بِهِۦ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ"
 text_search: "وإذا طلقتم النساء فبلغن أجلهن فأمسكوهن بمعروف أو سرحوهن بمعروف ۚ ولا تمسكوهن ضرارا لتعتدوا ۚ ومن يفعل ذلك فقد ظلم نفسه ۚ ولا تتخذوا آيات الله هزوا ۚ واذكروا نعمت الله عليكم وما أنزل عليكم من الكتاب والحكمة يعظكم به ۚ واتقوا الله واعلموا أن الله بكل شيء عليم"
+translations:
+  en: { text: "When ye have divorced women, and they have reached their term, then retain them in kindness or release them in kindness. Retain them not to their hurt so that ye transgress (the limits). He who doeth that hath wronged his soul. Make not the revelations of Allah a laughing-stock (by your behaviour), but remember Allah's grace upon you and that which He hath revealed unto you of the Scripture and of wisdom, whereby He doth exhort you. Observe your duty to Allah and know that Allah is Aware of all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب تم عورتوں کو (دو دفعہ) طلاق دے چکو اور ان کی عدت پوری ہوجائے تو انہیں یا تو حسن سلوک سے نکاح میں رہنے دو یا بطریق شائستہ رخصت کردو اور اس نیت سے ان کو نکاح میں نہ رہنے دینا چاہئے کہ انہیں تکلیف دو اور ان پر زیادتی کرو۔ اور جو ایسا کرے گا وہ اپنا ہی نقصان کرے گا اور خدا کے احکام کو ہنسی (اور کھیل) نہ بناؤ اور خدا نے تم کو جو نعمتیں بخشی ہیں اور تم پر جو کتاب اور دانائی کی باتیں نازل کی ہیں جن سے وہ تمہیں نصیحت فرماتا ہے ان کو یاد کرو۔ اور خدا سے ڈرتے رہو اور جان رکھوکہ خدا ہر چیز سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

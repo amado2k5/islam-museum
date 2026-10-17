@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:17 (سورة غافر، الآية 17)."
 text: "ٱلْيَوْمَ تُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ ۚ لَا ظُلْمَ ٱلْيَوْمَ ۚ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ"
 text_search: "اليوم تجزى كل نفس بما كسبت ۚ لا ظلم اليوم ۚ إن الله سريع الحساب"
+translations:
+  en: { text: "This day is each soul requited that which it hath earned; no wrong (is done) this day. Lo! Allah is swift at reckoning.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "آج کے دن ہر شخص کو اس کے اعمال کا بدلہ دیا جائے گا۔ آج (کسی کے حق میں) بےانصافی نہیں ہوگی۔ بےشک خدا جلد حساب لینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

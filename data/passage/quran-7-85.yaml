@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:85 (سورة الأعراف، الآية 85)."
 text: "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۗ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ ۖ فَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَـٰحِهَا ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ"
 text_search: "وإلى مدين أخاهم شعيبا ۗ قال يا قوم اعبدوا الله ما لكم من إله غيره ۖ قد جاءتكم بينة من ربكم ۖ فأوفوا الكيل والميزان ولا تبخسوا الناس أشياءهم ولا تفسدوا في الأرض بعد إصلاحها ۚ ذلكم خير لكم إن كنتم مؤمنين"
+translations:
+  en: { text: "And unto Midian (We sent) their brother, Shu'eyb. He said: O my people! Serve Allah. Ye have no other Allah save Him. Lo! a clear proof hath come unto you from your Lord; so give full measure and full weight and wrong not mankind in their goods, and work not confusion in the earth after the fair ordering thereof. That will be better for you, if ye are believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور مَدین کی طرف ان کے بھائی شعیب کو بھیجا۔ (تو) انہوں نے کہا کہ قوم! خدا ہی کی عبادت کرو اس کے سوا تمہارا کوئی معبود نہیں۔ تمہارے پاس تمہارے پروردگار کی طرف سے نشانی آچکی ہے تو تم ناپ تول پوری کیا کرو اور لوگوں کو چیزیں کم نہ دیا کرو۔ اور زمین میں اصلاح کے بعد خرابی نہ کرو۔ اگر تم صاحب ایمان ہو تو سمجھ لو کہ یہ بات تمہارے حق میں بہتر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

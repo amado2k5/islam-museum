@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:62 (سورة المؤمنون، الآية 62)."
 text: "وَلَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَلَدَيْنَا كِتَـٰبٌ يَنطِقُ بِٱلْحَقِّ ۚ وَهُمْ لَا يُظْلَمُونَ"
 text_search: "ولا نكلف نفسا إلا وسعها ۖ ولدينا كتاب ينطق بالحق ۚ وهم لا يظلمون"
+translations:
+  en: { text: "And we task not any soul beyond its scope, and with Us is a Record which speaketh the truth, and they will not be wronged.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم کسی شخص کو اس کی طاقت سے زیادہ تکلیف نہیں دیتے اور ہمارے پاس کتاب ہے جو سچ سچ کہہ دیتی ہے اور ان لوگوں پر ظلم نہیں کیا جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

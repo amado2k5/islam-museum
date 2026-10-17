@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:27 (سورة يونس، الآية 27)."
 text: "وَٱلَّذِينَ كَسَبُوا۟ ٱلسَّيِّـَٔاتِ جَزَآءُ سَيِّئَةٍۭ بِمِثْلِهَا وَتَرْهَقُهُمْ ذِلَّةٌ ۖ مَّا لَهُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۖ كَأَنَّمَآ أُغْشِيَتْ وُجُوهُهُمْ قِطَعًا مِّنَ ٱلَّيْلِ مُظْلِمًا ۚ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ"
 text_search: "والذين كسبوا السيئات جزاء سيئة بمثلها وترهقهم ذلة ۖ ما لهم من الله من عاصم ۖ كأنما أغشيت وجوههم قطعا من الليل مظلما ۚ أولئك أصحاب النار ۖ هم فيها خالدون"
+translations:
+  en: { text: "And those who earn ill-deeds, (for them) requital of each ill-deed by the like thereof; and ignominy overtaketh them - They have no protector from Allah - as if their faces had been covered with a cloak of darkest night. Such are rightful owners of the Fire; they will abide therein.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جنہوں نے برے کام کئے تو برائی کا بدلہ ویسا ہی ہوگا۔ اور ان کے مونہوں پر ذلت چھا جائے گی۔ اور کوئی ان کو خدا سے بچانے والا نہ ہوگا۔ ان کے مونہوں (کی سیاہی کا یہ عالم ہوگا کہ ان) پر گویا اندھیری رات کے ٹکڑے اُڑھا دیئے گئے ہیں۔ یہی دوزخی ہیں کہ ہمیشہ اس میں رہیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

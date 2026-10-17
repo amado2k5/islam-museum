@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:132 (سورة الأعراف، الآية 132)."
 text: "وَقَالُوا۟ مَهْمَا تَأْتِنَا بِهِۦ مِنْ ءَايَةٍ لِّتَسْحَرَنَا بِهَا فَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ"
 text_search: "وقالوا مهما تأتنا به من آية لتسحرنا بها فما نحن لك بمؤمنين"
+translations:
+  en: { text: "And they said: Whatever portent thou bringest wherewith to bewitch us, we shall not put faith in thee.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہنے لگے کہ تم ہمارے پاس (خواہ) کوئی ہی نشانی لاؤ تاکہ اس سے ہم پر جادو کرو۔ مگر ہم تم پر ایمان لانے والے نہیں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

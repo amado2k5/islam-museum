@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:132 (سورة آل عمران، الآية 132)."
 text: "وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ"
 text_search: "وأطيعوا الله والرسول لعلكم ترحمون"
+translations:
+  en: { text: "And obey Allah and the messenger, that ye may find mercy.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا اور اس کے رسول کی اطاعت کرو تاکہ تم پر رحمت کی جائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:59 (سورة ص، الآية 59)."
 text: "هَـٰذَا فَوْجٌ مُّقْتَحِمٌ مَّعَكُمْ ۖ لَا مَرْحَبًۢا بِهِمْ ۚ إِنَّهُمْ صَالُوا۟ ٱلنَّارِ"
 text_search: "هذا فوج مقتحم معكم ۖ لا مرحبا بهم ۚ إنهم صالو النار"
+translations:
+  en: { text: "Here is an army rushing blindly with you. (Those who are already in the Fire say): No word of welcome for them. Lo! they will roast at the Fire.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ ایک فوج ہے جو تمہارے ساتھ داخل ہوگی۔ ان کو خوشی نہ ہو یہ دوزخ میں جانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:52 (سورة النمل، الآية 52)."
 text: "فَتِلْكَ بُيُوتُهُمْ خَاوِيَةًۢ بِمَا ظَلَمُوٓا۟ ۗ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّقَوْمٍ يَعْلَمُونَ"
 text_search: "فتلك بيوتهم خاوية بما ظلموا ۗ إن في ذلك لآية لقوم يعلمون"
+translations:
+  en: { text: "See, yonder are their dwellings empty and in ruins because they did wrong. Lo! herein is indeed a portent for a people who have knowledge.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اب یہ ان کے گھر ان کے ظلم کے سبب خالی پڑے ہیں۔ جو لوگ دانش رکھتے ہیں، ان کے لئے اس میں نشانی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

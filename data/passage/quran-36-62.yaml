@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:62 (سورة يس، الآية 62)."
 text: "وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا۟ تَعْقِلُونَ"
 text_search: "ولقد أضل منكم جبلا كثيرا ۖ أفلم تكونوا تعقلون"
+translations:
+  en: { text: "Yet he hath led astray of you a great multitude. Had ye then no sense?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس نے تم میں سے بہت سی خلقت کو گمراہ کردیا تھا۔ تو کیا تم سمجھتے نہیں تھے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

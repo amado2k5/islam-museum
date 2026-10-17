@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:43 (سورة هود، الآية 43)."
 text: "قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ"
 text_search: "قال سآوي إلى جبل يعصمني من الماء ۚ قال لا عاصم اليوم من أمر الله إلا من رحم ۚ وحال بينهما الموج فكان من المغرقين"
+translations:
+  en: { text: "He said: I shall betake me to some mountain that will save me from the water. (Noah) said: This day there is none that saveth from the commandment of Allah save him on whom He hath had mercy. And the wave came in between them, so he was among the drowned.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس نے کہا کہ میں (ابھی) پہاڑ سے جا لگوں گا، وہ مجھے پانی سے بچالے گا۔ انہوں نے کہا کہ آج خدا کے عذاب سے کوئی بچانے والا نہیں (اور نہ کوئی بچ سکتا ہے) مگر جس پر خدا رحم کرے۔ اتنے میں دونوں کے درمیان لہر آحائل ہوئی اور وہ ڈوب کر رہ گیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

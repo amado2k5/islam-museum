@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:15 (سورة العنكبوت، الآية 15)."
 text: "فَأَنجَيْنَـٰهُ وَأَصْحَـٰبَ ٱلسَّفِينَةِ وَجَعَلْنَـٰهَآ ءَايَةً لِّلْعَـٰلَمِينَ"
 text_search: "فأنجيناه وأصحاب السفينة وجعلناها آية للعالمين"
+translations:
+  en: { text: "And We rescued him and those with him in the ship, and made of it a portent for the peoples.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر ہم نے نوحؑ کو اور کشتی والوں کو نجات دی اور کشتی کو اہل عالم کے لئے نشانی بنا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

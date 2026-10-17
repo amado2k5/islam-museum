@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:21 (سورة القلم، الآية 21)."
 text: "فَتَنَادَوْا۟ مُصْبِحِينَ"
 text_search: "فتنادوا مصبحين"
+translations:
+  en: { text: "And they cried out one unto another in the morning,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب صبح ہوئی تو وہ لوگ ایک دوسرے کو پکارنے لگے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

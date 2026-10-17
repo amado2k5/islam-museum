@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:55 (سورة النساء، الآية 55)."
 text: "فَمِنْهُم مَّنْ ءَامَنَ بِهِۦ وَمِنْهُم مَّن صَدَّ عَنْهُ ۚ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا"
 text_search: "فمنهم من آمن به ومنهم من صد عنه ۚ وكفى بجهنم سعيرا"
+translations:
+  en: { text: "And of them were (some) who believed therein and of them were (some) who turned away from it. Hell is sufficient for (their) burning.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر لوگوں میں سے کسی نے تو اس کتاب کو مانا اور کوئی اس سے رکا (اور ہٹا) رہا تو نہ ماننے والوں (کے جلانے) کو دوزخ کی جلتی ہوئی آگ کافی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

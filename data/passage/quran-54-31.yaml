@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 54:31 (سورة القمر، الآية 31)."
 text: "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ صَيْحَةً وَٰحِدَةً فَكَانُوا۟ كَهَشِيمِ ٱلْمُحْتَظِرِ"
 text_search: "إنا أرسلنا عليهم صيحة واحدة فكانوا كهشيم المحتظر"
+translations:
+  en: { text: "Lo! We sent upon them one Shout, and they became as the dry twigs (rejected by) the builder of a cattle-fold.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم نے ان پر (عذاب کے لئے) ایک چیخ بھیجی تو وہ ایسے ہوگئے جیسے باڑ والے کی سوکھی اور ٹوٹی ہوئی باڑ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-54 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

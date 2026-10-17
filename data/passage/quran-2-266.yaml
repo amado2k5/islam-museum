@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:266 (سورة البقرة، الآية 266)."
 text: "أَيَوَدُّ أَحَدُكُمْ أَن تَكُونَ لَهُۥ جَنَّةٌ مِّن نَّخِيلٍ وَأَعْنَابٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلْكِبَرُ وَلَهُۥ ذُرِّيَّةٌ ضُعَفَآءُ فَأَصَابَهَآ إِعْصَارٌ فِيهِ نَارٌ فَٱحْتَرَقَتْ ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَـٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ"
 text_search: "أيود أحدكم أن تكون له جنة من نخيل وأعناب تجري من تحتها الأنهار له فيها من كل الثمرات وأصابه الكبر وله ذرية ضعفاء فأصابها إعصار فيه نار فاحترقت ۗ كذلك يبين الله لكم الآيات لعلكم تتفكرون"
+translations:
+  en: { text: "Would any of you like to have a garden of palm-trees and vines, with rivers flowing underneath it, with all kinds of fruit for him therein; and old age hath stricken him and he hath feeble offspring; and a fiery whirlwind striketh it and it is (all) consumed by fire. Thus Allah maketh plain His revelations unto you, in order that ye may give thought.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا تم میں کوئی یہ چاہتا ہے کہ اس کا کھجوروں اور انگوروں کا باغ ہو جس میں نہریں بہہ رہی ہوں اور اس میں اس کے لئے ہر قسم کے میوے موجود ہوں اور اسے بڑھاپا آپکڑے اور اس کے ننھے ننھے بچے بھی ہوں۔ تو (ناگہاں) اس باغ پر آگ کا بھرا ہوا بگولا چلے اور وہ جل کر (راکھ کا ڈھیر ہو) جائے۔ اس طرح خدا تم سے اپنی آیتیں کھول کھول کر بیان فرماتا ہے تاکہ تم سوچو (اور سمجھو)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

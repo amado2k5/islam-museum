@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 75:37 (سورة القيامة، الآية 37)."
 text: "أَلَمْ يَكُ نُطْفَةً مِّن مَّنِىٍّ يُمْنَىٰ"
 text_search: "ألم يك نطفة من مني يمنى"
+translations:
+  en: { text: "Was he not a drop of fluid which gushed forth?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا وہ منی کا جو رحم میں ڈالی جاتی ہے ایک قطرہ نہ تھا؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-75 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

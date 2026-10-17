@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:91 (سورة يوسف، الآية 91)."
 text: "قَالُوا۟ تَٱللَّهِ لَقَدْ ءَاثَرَكَ ٱللَّهُ عَلَيْنَا وَإِن كُنَّا لَخَـٰطِـِٔينَ"
 text_search: "قالوا تالله لقد آثرك الله علينا وإن كنا لخاطئين"
+translations:
+  en: { text: "They said: By Allah, verily Allah hath preferred thee above us, and we were indeed sinful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے خدا کی قسم خدا نے تم کو ہم پر فضیلت بخشی ہے اور بےشک ہم خطاکار تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

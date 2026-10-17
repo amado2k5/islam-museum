@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:81 (سورة الأنبياء، الآية 81)."
 text: "وَلِسُلَيْمَـٰنَ ٱلرِّيحَ عَاصِفَةً تَجْرِى بِأَمْرِهِۦٓ إِلَى ٱلْأَرْضِ ٱلَّتِى بَـٰرَكْنَا فِيهَا ۚ وَكُنَّا بِكُلِّ شَىْءٍ عَـٰلِمِينَ"
 text_search: "ولسليمان الريح عاصفة تجري بأمره إلى الأرض التي باركنا فيها ۚ وكنا بكل شيء عالمين"
+translations:
+  en: { text: "And unto Solomon (We subdued) the wind in its raging. It set by his command toward the land which We had blessed. And of everything We are Aware.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے تیز ہوا سلیمان کے تابع (فرمان) کردی تھی جو ان کے حکم سے اس ملک میں چلتی تھی جس میں ہم نے برکت دی تھی (یعنی شام) اور ہم ہر چیز سے خبردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

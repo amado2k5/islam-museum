@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:75 (سورة الحج، الآية 75)."
 text: "ٱللَّهُ يَصْطَفِى مِنَ ٱلْمَلَـٰٓئِكَةِ رُسُلًا وَمِنَ ٱلنَّاسِ ۚ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ"
 text_search: "الله يصطفي من الملائكة رسلا ومن الناس ۚ إن الله سميع بصير"
+translations:
+  en: { text: "Allah chooseth from the angels messengers, and (also) from mankind. Lo! Allah is Hearer, Seer.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا فرشتوں میں سے پیغام پہنچانے والے منتخب کرلیتا ہے اور انسانوں میں سے بھی۔ بےشک خدا سننے والا (اور) دیکھنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:53 (سورة المائدة، الآية 53)."
 text: "وَيَقُولُ ٱلَّذِينَ ءَامَنُوٓا۟ أَهَـٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَـٰنِهِمْ ۙ إِنَّهُمْ لَمَعَكُمْ ۚ حَبِطَتْ أَعْمَـٰلُهُمْ فَأَصْبَحُوا۟ خَـٰسِرِينَ"
 text_search: "ويقول الذين آمنوا أهؤلاء الذين أقسموا بالله جهد أيمانهم ۙ إنهم لمعكم ۚ حبطت أعمالهم فأصبحوا خاسرين"
+translations:
+  en: { text: "Then will the believers say (unto the people of the Scripture): are these they who swore by Allah their most binding oaths that they were surely with you? Their works have failed, and they have become the losers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس (وقت) مسلمان (تعجب سے) کہیں گے کہ کیا یہ وہی ہیں جو خدا کی سخت سخت قسمیں کھایا کرتے تھے کہ ہم تمہارے ساتھ ہیں ان کےعمل اکارت گئے اور وہ خسارے میں پڑ گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

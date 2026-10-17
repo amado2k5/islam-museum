@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:79 (سورة الأنعام، الآية 79)."
 text: "إِنِّى وَجَّهْتُ وَجْهِىَ لِلَّذِى فَطَرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ حَنِيفًا ۖ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ"
 text_search: "إني وجهت وجهي للذي فطر السماوات والأرض حنيفا ۖ وما أنا من المشركين"
+translations:
+  en: { text: "Lo! I have turned my face toward Him Who created the heavens and the earth, as one by nature upright, and I am not of the idolaters.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "میں نے سب سے یکسو ہو کر اپنے تئیں اسی ذات کی طرف متوجہ کیا جس نے آسمانوں اور زمین کو پیدا کیا ہے اور میں مشرکوں میں سے نہیں ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

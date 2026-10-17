@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:35 (سورة فاطر، الآية 35)."
 text: "ٱلَّذِىٓ أَحَلَّنَا دَارَ ٱلْمُقَامَةِ مِن فَضْلِهِۦ لَا يَمَسُّنَا فِيهَا نَصَبٌ وَلَا يَمَسُّنَا فِيهَا لُغُوبٌ"
 text_search: "الذي أحلنا دار المقامة من فضله لا يمسنا فيها نصب ولا يمسنا فيها لغوب"
+translations:
+  en: { text: "Who, of His grace, hath installed us in the mansion of eternity, where toil toucheth us not nor can weariness affect us.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس نے ہم کو اپنے فضل سے ہمیشہ کے رہنے کے گھر میں اُتارا۔ یہاں نہ تو ہم کو رنج پہنچے گا اور نہ ہمیں تکان ہی ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

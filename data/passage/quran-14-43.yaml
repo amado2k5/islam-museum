@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:43 (سورة إبراهيم، الآية 43)."
 text: "مُهْطِعِينَ مُقْنِعِى رُءُوسِهِمْ لَا يَرْتَدُّ إِلَيْهِمْ طَرْفُهُمْ ۖ وَأَفْـِٔدَتُهُمْ هَوَآءٌ"
 text_search: "مهطعين مقنعي رءوسهم لا يرتد إليهم طرفهم ۖ وأفئدتهم هواء"
+translations:
+  en: { text: "As they come hurrying on in fear, their heads upraised, their gaze returning not to them, and their hearts as air.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور لوگ) سر اٹھائے ہوئے (میدان قیامت کی طرف) دوڑ رہے ہوں گے ان کی نگاہیں ان کی طرف لوٹ نہ سکیں گی اور ان کے دل (مارے خوف کے) ہوا ہو رہے ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

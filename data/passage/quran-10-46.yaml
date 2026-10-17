@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:46 (سورة يونس، الآية 46)."
 text: "وَإِمَّا نُرِيَنَّكَ بَعْضَ ٱلَّذِى نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ فَإِلَيْنَا مَرْجِعُهُمْ ثُمَّ ٱللَّهُ شَهِيدٌ عَلَىٰ مَا يَفْعَلُونَ"
 text_search: "وإما نرينك بعض الذي نعدهم أو نتوفينك فإلينا مرجعهم ثم الله شهيد على ما يفعلون"
+translations:
+  en: { text: "Whether We let thee (O Muhammad) behold something of that which We promise them or (whether We) cause thee to die, still unto Us is their return, and Allah, moreover, is Witness over what they do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر ہم کوئی عذاب جس کا ان لوگوں سے وعدہ کرتے ہیں تمہاری آنکھوں کے سامنے (نازل) کریں یا (اس وقت جب) تمہاری مدت حیات پوری کردیں تو ان کو ہمارے ہی پاس لوٹ کر آنا ہے پھر جو کچھ یہ کر رہے ہیں خدا اس کو دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:189 (سورة الأعراف، الآية 189)."
 text: "۞ هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ ءَاتَيْتَنَا صَـٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّـٰكِرِينَ"
 text_search: "۞ هو الذي خلقكم من نفس واحدة وجعل منها زوجها ليسكن إليها ۖ فلما تغشاها حملت حملا خفيفا فمرت به ۖ فلما أثقلت دعوا الله ربهما لئن آتيتنا صالحا لنكونن من الشاكرين"
+translations:
+  en: { text: "He it is Who did create you from a single soul, and therefrom did make his mate that he might take rest in her. And when he covered her she bore a light burden, and she passed (unnoticed) with it, but when it became heavy they cried unto Allah, their Lord, saying: If thou givest unto us aright we shall be of the thankful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ خدا ہی تو ہے جس نے تم کو ایک شخص سے پیدا کیا اور اس سے اس کا جوڑا بنایا تاکہ اس سے راحت حاصل کرے۔ سو جب وہ اس کے پاس جاتا ہے تو اسے ہلکا سا حمل رہ جاتا ہے اور وہ اس کے ساتھ چلتی پھرتی ہے۔ پھر جب کچھ بوجھ معلوم کرتی یعنی بچہ پیٹ میں بڑا ہوتا ہے تو دونوں میاں بیوی اپنے پروردگار خدائے عزوجل سے التجا کرتے ہیں کہ اگر تو ہمیں صحیح وسالم (بچہ) دے گا تو ہم تیرے شکر گذار ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

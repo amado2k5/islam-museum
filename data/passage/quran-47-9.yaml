@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:9 (سورة محمد، الآية 9)."
 text: "ذَٰلِكَ بِأَنَّهُمْ كَرِهُوا۟ مَآ أَنزَلَ ٱللَّهُ فَأَحْبَطَ أَعْمَـٰلَهُمْ"
 text_search: "ذلك بأنهم كرهوا ما أنزل الله فأحبط أعمالهم"
+translations:
+  en: { text: "That is because they are averse to that which Allah hath revealed, therefor maketh He their actions fruitless.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ اس لئے کہ خدا نے جو چیز نازل فرمائی انہوں نے اس کو ناپسند کیا تو خدا نے بھی ان کے اعمال اکارت کردیئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

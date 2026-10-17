@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:59 (سورة هود، الآية 59)."
 text: "وَتِلْكَ عَادٌ ۖ جَحَدُوا۟ بِـَٔايَـٰتِ رَبِّهِمْ وَعَصَوْا۟ رُسُلَهُۥ وَٱتَّبَعُوٓا۟ أَمْرَ كُلِّ جَبَّارٍ عَنِيدٍ"
 text_search: "وتلك عاد ۖ جحدوا بآيات ربهم وعصوا رسله واتبعوا أمر كل جبار عنيد"
+translations:
+  en: { text: "And such were A'ad. They denied the revelations of their Lord and flouted His messengers and followed the command of every froward potentate.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ (وہی) عاد ہیں جنہوں نے خدا کی نشانیوں سے انکار کیا اور اس کے پیغمبروں کی نافرمانی کی اور ہر متکبر وسرکش کا کہا مانا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

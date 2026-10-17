@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:49 (سورة المؤمنون، الآية 49)."
 text: "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ لَعَلَّهُمْ يَهْتَدُونَ"
 text_search: "ولقد آتينا موسى الكتاب لعلهم يهتدون"
+translations:
+  en: { text: "And We verily gave Moses the Scripture, that haply they might go aright.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے موسیٰ کو کتاب دی تھی تاکہ وہ لوگ ہدایت پائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

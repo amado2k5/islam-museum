@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:42 (سورة الروم، الآية 42)."
 text: "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلَّذِينَ مِن قَبْلُ ۚ كَانَ أَكْثَرُهُم مُّشْرِكِينَ"
 text_search: "قل سيروا في الأرض فانظروا كيف كان عاقبة الذين من قبل ۚ كان أكثرهم مشركين"
+translations:
+  en: { text: "Say (O Muhammad, to the disbelievers): Travel in the land, and see the nature of the consequence for those who were before you! Most of them were idolaters.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ ملک میں چلو پھرو اور دیکھو کہ جو لوگ (تم سے) پہلے ہوئے ہیں ان کا کیسا انجام ہوا ہے۔ ان میں زیادہ تر مشرک ہی تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

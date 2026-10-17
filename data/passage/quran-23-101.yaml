@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:101 (سورة المؤمنون، الآية 101)."
 text: "فَإِذَا نُفِخَ فِى ٱلصُّورِ فَلَآ أَنسَابَ بَيْنَهُمْ يَوْمَئِذٍ وَلَا يَتَسَآءَلُونَ"
 text_search: "فإذا نفخ في الصور فلا أنساب بينهم يومئذ ولا يتساءلون"
+translations:
+  en: { text: "And when the trumpet is blown there will be no kinship among them that day, nor will they ask of one another.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر جب صور پھونکا جائے گا تو نہ تو ان میں قرابتیں ہوں گی اور نہ ایک دوسرے کو پوچھیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

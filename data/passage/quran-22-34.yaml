@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:34 (سورة الحج، الآية 34)."
 text: "وَلِكُلِّ أُمَّةٍ جَعَلْنَا مَنسَكًا لِّيَذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلْأَنْعَـٰمِ ۗ فَإِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ فَلَهُۥٓ أَسْلِمُوا۟ ۗ وَبَشِّرِ ٱلْمُخْبِتِينَ"
 text_search: "ولكل أمة جعلنا منسكا ليذكروا اسم الله على ما رزقهم من بهيمة الأنعام ۗ فإلهكم إله واحد فله أسلموا ۗ وبشر المخبتين"
+translations:
+  en: { text: "And for every nation have We appointed a ritual, that they may mention the name of Allah over the beast of cattle that He hath given them for food; and your god is One God, therefor surrender unto Him. And give good tidings (O Muhammad) to the humble,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے ہر اُمت کے لئے قربانی کا طریق مقرر کردیا ہے تاکہ جو مویشی چارپائے خدا نے ان کو دیئے ہیں (ان کے ذبح کرنے کے وقت) ان پر خدا کا نام لیں۔ سو تمہارا معبود ایک ہی ہے تو اسی کے فرمانبردار ہوجاؤ۔ اور عاجزی کرنے والوں کو خوشخبری سنادو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

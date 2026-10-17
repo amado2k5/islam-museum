@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:48 (سورة يوسف، الآية 48)."
 text: "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ سَبْعٌ شِدَادٌ يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ إِلَّا قَلِيلًا مِّمَّا تُحْصِنُونَ"
 text_search: "ثم يأتي من بعد ذلك سبع شداد يأكلن ما قدمتم لهن إلا قليلا مما تحصنون"
+translations:
+  en: { text: "Then after that will come seven hard years which will devour all that ye have prepared for them, save a little of that which ye have stored.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر اس کے بعد (خشک سالی کے) سات سخت (سال) آئیں گے کہ جو (غلّہ) تم نے جمع کر رکھا ہوگا وہ اس سب کو کھا جائیں گے۔ صرف وہی تھوڑا سا رہ جائے گا جو تم احتیاط سے رکھ چھوڑو گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

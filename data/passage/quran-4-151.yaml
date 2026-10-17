@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:151 (سورة النساء، الآية 151)."
 text: "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَـٰفِرُونَ حَقًّا ۚ وَأَعْتَدْنَا لِلْكَـٰفِرِينَ عَذَابًا مُّهِينًا"
 text_search: "أولئك هم الكافرون حقا ۚ وأعتدنا للكافرين عذابا مهينا"
+translations:
+  en: { text: "Such are disbelievers in truth; and for disbelievers We prepare a shameful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بلا اشتباہ کافر ہیں اور کافروں کے لئے ہم نے ذلت کا عذاب تیار کر رکھا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

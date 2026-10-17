@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:128 (سورة التوبة، الآية 128)."
 text: "لَقَدْ جَآءَكُمْ رَسُولٌ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌ رَّحِيمٌ"
 text_search: "لقد جاءكم رسول من أنفسكم عزيز عليه ما عنتم حريص عليكم بالمؤمنين رءوف رحيم"
+translations:
+  en: { text: "There hath come unto you a messenger, (one) of yourselves, unto whom aught that ye are overburdened is grievous, full of concern for you, for the believers full of pity, merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(لوگو) تمہارے پاس تم ہی میں سے ایک پیغمبر آئے ہیں۔ تمہاری تکلیف ان کو گراں معلوم ہوتی ہے اور تمہاری بھلائی کے خواہش مند ہیں اور مومنوں پر نہایت شفقت کرنے والے (اور) مہربان ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

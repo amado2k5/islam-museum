@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:72 (سورة يوسف، الآية 72)."
 text: "قَالُوا۟ نَفْقِدُ صُوَاعَ ٱلْمَلِكِ وَلِمَن جَآءَ بِهِۦ حِمْلُ بَعِيرٍ وَأَنَا۠ بِهِۦ زَعِيمٌ"
 text_search: "قالوا نفقد صواع الملك ولمن جاء به حمل بعير وأنا به زعيم"
+translations:
+  en: { text: "They said: We have lost the king's cup, and he who bringeth it shall have a camel-load, and I (said Joseph) am answerable for it.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے کہ بادشاہ (کے پانی پینے) کا گلاس کھویا گیا ہے اور جو شخص اس کو لے آئے اس کے لیے ایک بار شتر (انعام) اور میں اس کا ضامن ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

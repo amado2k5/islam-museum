@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:18 (سورة الأعراف، الآية 18)."
 text: "قَالَ ٱخْرُجْ مِنْهَا مَذْءُومًا مَّدْحُورًا ۖ لَّمَن تَبِعَكَ مِنْهُمْ لَأَمْلَأَنَّ جَهَنَّمَ مِنكُمْ أَجْمَعِينَ"
 text_search: "قال اخرج منها مذءوما مدحورا ۖ لمن تبعك منهم لأملأن جهنم منكم أجمعين"
+translations:
+  en: { text: "He said: Go forth from hence, degraded, banished. As for such of them as follow thee, surely I will fill hell with all of you.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(خدا نے) فرمایا، نکل جا۔ یہاں سے پاجی۔ مردود جو لوگ ان میں سے تیری پیروی کریں گے میں (ان کو اور تجھ کو جہنم میں ڈال کر) تم سب سے جہنم کو بھر دوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

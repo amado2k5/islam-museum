@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:45 (سورة غافر، الآية 45)."
 text: "فَوَقَىٰهُ ٱللَّهُ سَيِّـَٔاتِ مَا مَكَرُوا۟ ۖ وَحَاقَ بِـَٔالِ فِرْعَوْنَ سُوٓءُ ٱلْعَذَابِ"
 text_search: "فوقاه الله سيئات ما مكروا ۖ وحاق بآل فرعون سوء العذاب"
+translations:
+  en: { text: "So Allah warded off from him the evils which they plotted, while a dreadful doom encompassed Pharaoh's folk,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "غرض خدا نے موسیٰ کو ان لوگوں کی تدبیروں کی برائیوں سے محفوظ رکھا اور فرعون والوں کو برے عذاب نے آگھیرا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

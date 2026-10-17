@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:65 (سورة المؤمنون، الآية 65)."
 text: "لَا تَجْـَٔرُوا۟ ٱلْيَوْمَ ۖ إِنَّكُم مِّنَّا لَا تُنصَرُونَ"
 text_search: "لا تجأروا اليوم ۖ إنكم منا لا تنصرون"
+translations:
+  en: { text: "Supplicate not this day! Assuredly ye will not be helped by Us.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "آج مت چلاّؤ! تم کو ہم سے کچھ مدد نہیں ملے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

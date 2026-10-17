@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 112:1 (سورة الإخلاص، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ"
 text_search: "بسم الله الرحمن الرحيم قل هو الله أحد"
+translations:
+  en: { text: "Say: He is Allah, the One!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کہ وہ (ذات پاک جس کا نام) الله (ہے) ایک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-112 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

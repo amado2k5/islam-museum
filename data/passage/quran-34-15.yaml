@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:15 (سورة سبأ، الآية 15)."
 text: "لَقَدْ كَانَ لِسَبَإٍ فِى مَسْكَنِهِمْ ءَايَةٌ ۖ جَنَّتَانِ عَن يَمِينٍ وَشِمَالٍ ۖ كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ وَٱشْكُرُوا۟ لَهُۥ ۚ بَلْدَةٌ طَيِّبَةٌ وَرَبٌّ غَفُورٌ"
 text_search: "لقد كان لسبإ في مسكنهم آية ۖ جنتان عن يمين وشمال ۖ كلوا من رزق ربكم واشكروا له ۚ بلدة طيبة ورب غفور"
+translations:
+  en: { text: "There was indeed a sign for Sheba in their dwelling-place: Two gardens on the right hand and the left (as who should say): Eat of the provision of your Lord and render thanks to Him. A fair land and an indulgent Lord!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اہل) سبا کے لئے ان کے مقام بودوباش میں ایک نشانی تھی (یعنی) دو باغ (ایک) داہنی طرف اور (ایک) بائیں طرف۔ اپنے پروردگار کا رزق کھاؤ اور اس کا شکر کرو۔ (یہاں تمہارے رہنے کو یہ) پاکیزہ شہر ہے اور (وہاں بخشنے کو) خدائے غفار", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

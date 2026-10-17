@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:151 (سورة الأعراف، الآية 151)."
 text: "قَالَ رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ"
 text_search: "قال رب اغفر لي ولأخي وأدخلنا في رحمتك ۖ وأنت أرحم الراحمين"
+translations:
+  en: { text: "He said: My Lord! Have mercy on me and on my brother; bring us into Thy mercy, Thou the Most Merciful of all who show mercy.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تب انہوں نے دعا کی کہ اے میرے پروردگار مجھے اور میرے بھائی کو معاف فرما اور ہمیں اپنی رحمت میں داخل کر تو سب سے بڑھ کر رحم کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

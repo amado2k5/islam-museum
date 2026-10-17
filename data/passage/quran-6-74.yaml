@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:74 (سورة الأنعام، الآية 74)."
 text: "۞ وَإِذْ قَالَ إِبْرَٰهِيمُ لِأَبِيهِ ءَازَرَ أَتَتَّخِذُ أَصْنَامًا ءَالِهَةً ۖ إِنِّىٓ أَرَىٰكَ وَقَوْمَكَ فِى ضَلَـٰلٍ مُّبِينٍ"
 text_search: "۞ وإذ قال إبراهيم لأبيه آزر أتتخذ أصناما آلهة ۖ إني أراك وقومك في ضلال مبين"
+translations:
+  en: { text: "(Remember) when Abraham said unto his father Azar: Takest thou idols for gods? Lo! I see thee and thy folk in error manifest.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (وہ وقت بھی یاد کرنے کے لائق ہے) جب ابراہیم نے اپنے باپ آزر سے کہا کہ تم بتوں کو کیا معبود بناتے ہو۔ میں دیکھتا ہوں کہ تم اور تمہاری قوم صریح گمراہی میں ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

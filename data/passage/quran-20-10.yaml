@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:10 (سورة طه، الآية 10)."
 text: "إِذْ رَءَا نَارًا فَقَالَ لِأَهْلِهِ ٱمْكُثُوٓا۟ إِنِّىٓ ءَانَسْتُ نَارًا لَّعَلِّىٓ ءَاتِيكُم مِّنْهَا بِقَبَسٍ أَوْ أَجِدُ عَلَى ٱلنَّارِ هُدًى"
 text_search: "إذ رأى نارا فقال لأهله امكثوا إني آنست نارا لعلي آتيكم منها بقبس أو أجد على النار هدى"
+translations:
+  en: { text: "When he saw a fire and said unto his folk: Lo! Wait! I see a fire afar off. Peradventure I may bring you a brand therefrom or may find guidance at the fire.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب انہوں نے آگ دیکھی تو اپنے گھر والوں سے کہا کہ تم (یہاں) ٹھہرو میں نے آگ دیکھی ہے (میں وہاں جاتا ہوں) شاید اس میں سے میں تمہارے پاس انگاری لاؤں یا آگ (کے مقام) کا رستہ معلوم کرسکوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

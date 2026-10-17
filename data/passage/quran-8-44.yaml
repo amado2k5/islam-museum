@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:44 (سورة الأنفال، الآية 44)."
 text: "وَإِذْ يُرِيكُمُوهُمْ إِذِ ٱلْتَقَيْتُمْ فِىٓ أَعْيُنِكُمْ قَلِيلًا وَيُقَلِّلُكُمْ فِىٓ أَعْيُنِهِمْ لِيَقْضِىَ ٱللَّهُ أَمْرًا كَانَ مَفْعُولًا ۗ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ"
 text_search: "وإذ يريكموهم إذ التقيتم في أعينكم قليلا ويقللكم في أعينهم ليقضي الله أمرا كان مفعولا ۗ وإلى الله ترجع الأمور"
+translations:
+  en: { text: "And when He made you (Muslims), when ye met (them), see them with your eyes as few, and lessened you in their eyes, (it was) that Allah might conclude a thing that must be done. Unto Allah all things are brought back.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس وقت جب تم ایک دوسرے کے مقابل ہوئے تو کافروں کو تمہاری نظروں میں تھوڑا کر کے دکھاتا تھا اور تم کو ان کی نگاہوں میں تھوڑا کر کے دکھاتا تھا تاکہ خدا کو جو کام منظور کرنا تھا اسے کر ڈالے۔ اور سب کاموں کا رجوع خدا کی طرف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

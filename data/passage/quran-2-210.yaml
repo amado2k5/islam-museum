@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:210 (سورة البقرة، الآية 210)."
 text: "هَلْ يَنظُرُونَ إِلَّآ أَن يَأْتِيَهُمُ ٱللَّهُ فِى ظُلَلٍ مِّنَ ٱلْغَمَامِ وَٱلْمَلَـٰٓئِكَةُ وَقُضِىَ ٱلْأَمْرُ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ"
 text_search: "هل ينظرون إلا أن يأتيهم الله في ظلل من الغمام والملائكة وقضي الأمر ۚ وإلى الله ترجع الأمور"
+translations:
+  en: { text: "Wait they for naught else than that Allah should come unto them in the shadows of the clouds with the angels? Then the case would be already judged. All cases go back to Allah (for judgment).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا یہ لوگ اسی بات کے منتظر ہیں کہ ان پر خدا (کاعذاب) بادل کے سائبانوں میں آنازل ہو اور فرشتے بھی (اتر آئیں) اور کام تمام کردیا جائے اور سب کاموں کا رجوع خدا ہی کی طرف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

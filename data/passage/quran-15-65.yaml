@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:65 (سورة الحجر، الآية 65)."
 text: "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَـٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ"
 text_search: "فأسر بأهلك بقطع من الليل واتبع أدبارهم ولا يلتفت منكم أحد وامضوا حيث تؤمرون"
+translations:
+  en: { text: "So travel with thy household in a portion of the night, and follow thou their backs. Let none of you turn round, but go whither ye are commanded.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو آپ کچھ رات رہے سے اپنے گھر والوں کو لے نکلیں اور خود ان کے پیچھے چلیں اور اور آپ میں سے کوئی شخص مڑ کر نہ دیکھے۔ اور جہاں آپ کو حکم ہو وہاں چلے جایئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

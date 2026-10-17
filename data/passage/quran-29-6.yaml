@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:6 (سورة العنكبوت، الآية 6)."
 text: "وَمَن جَـٰهَدَ فَإِنَّمَا يُجَـٰهِدُ لِنَفْسِهِۦٓ ۚ إِنَّ ٱللَّهَ لَغَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ"
 text_search: "ومن جاهد فإنما يجاهد لنفسه ۚ إن الله لغني عن العالمين"
+translations:
+  en: { text: "And whosoever striveth, striveth only for himself, for lo! Allah is altogether Independent of (His) creatures.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص محنت کرتا ہے تو اپنے ہی فائدے کے لئے محنت کرتا ہے۔ اور خدا تو سارے جہان سے بےپروا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

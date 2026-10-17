@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:49 (سورة الدخان، الآية 49)."
 text: "ذُقْ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْكَرِيمُ"
 text_search: "ذق إنك أنت العزيز الكريم"
+translations:
+  en: { text: "(Saying): Taste! Lo! thou wast forsooth the mighty, the noble!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اب) مزہ چکھ۔ تو بڑی عزت والا (اور) سردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

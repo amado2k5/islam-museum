@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:90 (سورة النمل، الآية 90)."
 text: "وَمَن جَآءَ بِٱلسَّيِّئَةِ فَكُبَّتْ وُجُوهُهُمْ فِى ٱلنَّارِ هَلْ تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ"
 text_search: "ومن جاء بالسيئة فكبت وجوههم في النار هل تجزون إلا ما كنتم تعملون"
+translations:
+  en: { text: "And whoso bringeth an ill-deed, such will be flung down on their faces in the Fire. Are ye rewarded aught save what ye did?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو برائی لے کر آئے گا تو ایسے لوگ اوندھے منہ دوزخ میں ڈال دیئے جائیں گے۔ تم کو تو اُن ہی اعمال کا بدلہ ملے گا جو تم کرتے رہے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

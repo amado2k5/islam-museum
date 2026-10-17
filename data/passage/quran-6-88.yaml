@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:88 (سورة الأنعام، الآية 88)."
 text: "ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَلَوْ أَشْرَكُوا۟ لَحَبِطَ عَنْهُم مَّا كَانُوا۟ يَعْمَلُونَ"
 text_search: "ذلك هدى الله يهدي به من يشاء من عباده ۚ ولو أشركوا لحبط عنهم ما كانوا يعملون"
+translations:
+  en: { text: "Such is the guidance of Allah wherewith He guideth whom He will of His bondmen. But if they had set up (for worship) aught beside Him, (all) that they did would have been vain.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ خدا کی ہدایت ہے اس پر اپنے بندوں میں سے جسے چاہے چلائے۔ اور اگر وہ لوگ شرک کرتے تو جو عمل وہ کرتے تھے سب ضائع ہوجاتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

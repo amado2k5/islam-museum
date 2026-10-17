@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:97 (سورة الإسراء، الآية 97)."
 text: "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَـٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَـٰهُمْ سَعِيرًا"
 text_search: "ومن يهد الله فهو المهتد ۖ ومن يضلل فلن تجد لهم أولياء من دونه ۖ ونحشرهم يوم القيامة على وجوههم عميا وبكما وصما ۖ مأواهم جهنم ۖ كلما خبت زدناهم سعيرا"
+translations:
+  en: { text: "And he whom Allah guideth, he is led aright; while, as for him whom He sendeth astray, for them thou wilt find no protecting friends beside Him, and We shall assemble them on the Day of Resurrection on their faces, blind, dumb and deaf; their habitation will be hell; whenever it abateth, We increase the flame for them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس شخص کو خدا ہدایت دے وہی ہدایت یاب ہے۔ اور جن کو گمراہ کرے تو تم خدا کے سوا اُن کے رفیق نہیں پاؤ گے۔ اور ہم اُن کو قیامت کے دن اوندھے منہ اندھے گونگے اور بہرے (بنا کر) اٹھائیں گے۔ اور ان کا ٹھکانہ دوزخ ہے۔ جب (اس کی آگ) بجھنے کو ہوگی تو ہم ان کو (عذاب دینے کے لئے) اور بھڑکا دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

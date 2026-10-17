@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:104 (سورة طه، الآية 104)."
 text: "نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ إِذْ يَقُولُ أَمْثَلُهُمْ طَرِيقَةً إِن لَّبِثْتُمْ إِلَّا يَوْمًا"
 text_search: "نحن أعلم بما يقولون إذ يقول أمثلهم طريقة إن لبثتم إلا يوما"
+translations:
+  en: { text: "We are Best Aware of what they utter when their best in conduct say: Ye have tarried but a day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو باتیں یہ کریں گے ہم خوب جانتے ہیں۔ اس وقت ان میں سب سے اچھی راہ والا (یعنی عاقل وہوشمند) کہے گا کہ (نہیں بلکہ) صرف ایک ہی روز ٹھہرے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

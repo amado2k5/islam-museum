@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:101 (سورة الإسراء، الآية 101)."
 text: "وَلَقَدْ ءَاتَيْنَا مُوسَىٰ تِسْعَ ءَايَـٰتٍۭ بَيِّنَـٰتٍ ۖ فَسْـَٔلْ بَنِىٓ إِسْرَٰٓءِيلَ إِذْ جَآءَهُمْ فَقَالَ لَهُۥ فِرْعَوْنُ إِنِّى لَأَظُنُّكَ يَـٰمُوسَىٰ مَسْحُورًا"
 text_search: "ولقد آتينا موسى تسع آيات بينات ۖ فاسأل بني إسرائيل إذ جاءهم فقال له فرعون إني لأظنك يا موسى مسحورا"
+translations:
+  en: { text: "And verily We gave unto Moses nine tokens, clear proofs (of Allah's Sovereignty). Do but ask the Children of Israel how he came unto them, then Pharaoh said unto him: Lo! I deem thee one bewitched, O Moses.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے موسیٰ کو نو کھلی نشانیاں دیں تو بنی اسرائیل سے دریافت کرلو کہ جب وہ ان کے پاس آئے تو فرعون نے ان سے کہا کہ موسیٰ میں خیال کرتا ہوں کہ تم پر جادو کیا گیا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

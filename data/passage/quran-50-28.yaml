@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:28 (سورة ق، الآية 28)."
 text: "قَالَ لَا تَخْتَصِمُوا۟ لَدَىَّ وَقَدْ قَدَّمْتُ إِلَيْكُم بِٱلْوَعِيدِ"
 text_search: "قال لا تختصموا لدي وقد قدمت إليكم بالوعيد"
+translations:
+  en: { text: "He saith: Contend not in My presence, when I had already proffered unto you the warning.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(خدا) فرمائے گا کہ ہمارے حضور میں ردوکد نہ کرو۔ ہم تمہارے پاس پہلے ہی (عذاب کی) وعید بھیج چکے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

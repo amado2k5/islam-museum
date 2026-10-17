@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:49 (سورة النساء، الآية 49)."
 text: "أَلَمْ تَرَ إِلَى ٱلَّذِينَ يُزَكُّونَ أَنفُسَهُم ۚ بَلِ ٱللَّهُ يُزَكِّى مَن يَشَآءُ وَلَا يُظْلَمُونَ فَتِيلًا"
 text_search: "ألم تر إلى الذين يزكون أنفسهم ۚ بل الله يزكي من يشاء ولا يظلمون فتيلا"
+translations:
+  en: { text: "Hast thou not seen those who praise themselves for purity? Nay, Allah purifieth whom He will, and they will not be wronged even the hair upon a date-stone.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نے ان لوگوں کو نہیں دیکھا جو اپنے تئیں پاکیزہ کہتے ہیں (نہیں) بلکہ خدا ہی جس کو چاہتا ہے پاکیزہ کرتا ہے اور ان پر دھاگے کے برابر بھی ظلم نہیں ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

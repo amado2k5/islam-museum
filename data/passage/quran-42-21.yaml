@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:21 (سورة الشورى، الآية 21)."
 text: "أَمْ لَهُمْ شُرَكَـٰٓؤُا۟ شَرَعُوا۟ لَهُم مِّنَ ٱلدِّينِ مَا لَمْ يَأْذَنۢ بِهِ ٱللَّهُ ۚ وَلَوْلَا كَلِمَةُ ٱلْفَصْلِ لَقُضِىَ بَيْنَهُمْ ۗ وَإِنَّ ٱلظَّـٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ"
 text_search: "أم لهم شركاء شرعوا لهم من الدين ما لم يأذن به الله ۚ ولولا كلمة الفصل لقضي بينهم ۗ وإن الظالمين لهم عذاب أليم"
+translations:
+  en: { text: "Or have they partners (of Allah) who have made lawful for them in religion that which Allah allowed not? And but for a decisive word (gone forth already), it would have been judged between them. Lo! for wrong-doers is a painful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا ان کے وہ شریک ہیں جنہوں نے ان کے لئے ایسا دین مقرر کیا ہے جس کا خدا نے حکم نہیں دیا۔ اور اگر فیصلے (کے دن) کا وعدہ نہ ہوتا تو ان میں فیصلہ کردیا جاتا اور جو ظالم ہیں ان کے لئے درد دینے والا عذاب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:51 (سورة سبأ، الآية 51)."
 text: "وَلَوْ تَرَىٰٓ إِذْ فَزِعُوا۟ فَلَا فَوْتَ وَأُخِذُوا۟ مِن مَّكَانٍ قَرِيبٍ"
 text_search: "ولو ترى إذ فزعوا فلا فوت وأخذوا من مكان قريب"
+translations:
+  en: { text: "Couldst thou but see when they are terrified with no escape, and are seized from near at hand,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کاش تم دیکھو جب یہ گھبرا جائیں گے تو (عذاب سے) بچ نہیں سکیں گے اور نزدیک ہی سے پکڑ لئے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:16 (سورة الرعد، الآية 16)."
 text: "قُلْ مَن رَّبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًا وَلَا ضَرًّا ۚ قُلْ هَلْ يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى ٱلظُّلُمَـٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ خَلَقُوا۟ كَخَلْقِهِۦ فَتَشَـٰبَهَ ٱلْخَلْقُ عَلَيْهِمْ ۚ قُلِ ٱللَّهُ خَـٰلِقُ كُلِّ شَىْءٍ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّـٰرُ"
 text_search: "قل من رب السماوات والأرض قل الله ۚ قل أفاتخذتم من دونه أولياء لا يملكون لأنفسهم نفعا ولا ضرا ۚ قل هل يستوي الأعمى والبصير أم هل تستوي الظلمات والنور ۗ أم جعلوا لله شركاء خلقوا كخلقه فتشابه الخلق عليهم ۚ قل الله خالق كل شيء وهو الواحد القهار"
+translations:
+  en: { text: "Say (O Muhammad): Who is Lord of the heavens and the earth? Say: Allah. Say: Take ye then (others) beside Him for protectors, which, even for themselves, have neither benefit nor hurt? Say: Is the blind man equal to the seer, or is darkness equal to light? Or assign they unto Allah partners who created the like of His creation so that the creation (which they made and His creation) seemed alike to them? Say: Allah is the Creator of all things, and He is the One, the Almighty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان سے پوچھو کہ آسمانوں اور زمین کا پروردگار کون ہے؟ (تم ہی ان کی طرف سے) کہہ دو کہ خدا۔ پھر (ان سے) کہو کہ تم نے خدا کو چھوڑ کر ایسے لوگوں کو کیوں کارساز بنایا ہے جو خود اپنے نفع ونقصان کا بھی اختیار نہیں رکھتے (یہ بھی) پوچھو کیا اندھا اور آنکھوں والا برابر ہیں؟ یا اندھیرا اور اُجالا برابر ہوسکتا ہے؟ بھلا ان لوگوں نے جن کو خدا کا شریک مقرر کیا ہے۔ کیا انہوں نے خدا کی سی مخلوقات پیدا کی ہے جس کے سبب ان کو مخلوقات مشتبہ ہوگئی ہے۔ کہہ دو کہ خدا ہی ہر چیز کا پیدا کرنے والا ہے اور وہ یکتا (اور) زبردست ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

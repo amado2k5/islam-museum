@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 71:18 (سورة نوح، الآية 18)."
 text: "ثُمَّ يُعِيدُكُمْ فِيهَا وَيُخْرِجُكُمْ إِخْرَاجًا"
 text_search: "ثم يعيدكم فيها ويخرجكم إخراجا"
+translations:
+  en: { text: "And afterward He maketh you return thereto, and He will bring you forth again, a (new) forthbringing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر اسی میں تمہیں لوٹا دے گا اور (اسی سے) تم کو نکال کھڑا کرے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-71 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

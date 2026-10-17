@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:12 (سورة الحجر، الآية 12)."
 text: "كَذَٰلِكَ نَسْلُكُهُۥ فِى قُلُوبِ ٱلْمُجْرِمِينَ"
 text_search: "كذلك نسلكه في قلوب المجرمين"
+translations:
+  en: { text: "Thus do We make it traverse the hearts of the guilty:", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اسی طرح ہم اس (تکذیب وضلال) کو گنہگاروں کے دلوں میں داخل کر دیتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:86 (سورة القصص، الآية 86)."
 text: "وَمَا كُنتَ تَرْجُوٓا۟ أَن يُلْقَىٰٓ إِلَيْكَ ٱلْكِتَـٰبُ إِلَّا رَحْمَةً مِّن رَّبِّكَ ۖ فَلَا تَكُونَنَّ ظَهِيرًا لِّلْكَـٰفِرِينَ"
 text_search: "وما كنت ترجو أن يلقى إليك الكتاب إلا رحمة من ربك ۖ فلا تكونن ظهيرا للكافرين"
+translations:
+  en: { text: "Thou hadst no hope that the Scripture would be inspired in thee; but it is a mercy from thy Lord, so never be a helper to the disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تمہیں اُمید نہ تھی کہ تم پر کتاب نازل کی جائے گی۔ مگر تمہارے پروردگار کی مہربانی سے (نازل ہوئی) تو تم ہرگز کافروں کے مددگار نہ ہونا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

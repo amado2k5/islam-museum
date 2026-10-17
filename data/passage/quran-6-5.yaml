@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:5 (سورة الأنعام، الآية 5)."
 text: "فَقَدْ كَذَّبُوا۟ بِٱلْحَقِّ لَمَّا جَآءَهُمْ ۖ فَسَوْفَ يَأْتِيهِمْ أَنۢبَـٰٓؤُا۟ مَا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ"
 text_search: "فقد كذبوا بالحق لما جاءهم ۖ فسوف يأتيهم أنباء ما كانوا به يستهزئون"
+translations:
+  en: { text: "And they denied the truth when it came unto them. But there will come unto them the tidings of that which they used to deride.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب ان کے پاس حق آیا تو اس کو بھی جھٹلا دیا سو ان کو ان چیزوں کا جن سے یہ استہزا کرتے ہیں عنقریب انجام معلوم ہو جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

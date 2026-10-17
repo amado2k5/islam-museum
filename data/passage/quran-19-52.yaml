@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:52 (سورة مريم، الآية 52)."
 text: "وَنَـٰدَيْنَـٰهُ مِن جَانِبِ ٱلطُّورِ ٱلْأَيْمَنِ وَقَرَّبْنَـٰهُ نَجِيًّا"
 text_search: "وناديناه من جانب الطور الأيمن وقربناه نجيا"
+translations:
+  en: { text: "We called him from the right slope of the Mount, and brought him nigh in communion.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے ان کو طور کی داہنی جانب پکارا اور باتیں کرنے کے لئے نزدیک بلایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

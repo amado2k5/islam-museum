@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 65:7 (سورة الطلاق، الآية 7)."
 text: "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا"
 text_search: "لينفق ذو سعة من سعته ۖ ومن قدر عليه رزقه فلينفق مما آتاه الله ۚ لا يكلف الله نفسا إلا ما آتاها ۚ سيجعل الله بعد عسر يسرا"
+translations:
+  en: { text: "Let him who hath abundance spend of his abundance, and he whose provision is measured, let him spend of that which Allah hath given him. Allah asketh naught of any soul save that which He hath given it. Allah will vouchsafe, after hardship, ease.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "صاحب وسعت کو اپنی وسعت کے مطابق خرچ کرنا چاہیئے۔ اور جس کے رزق میں تنگی ہو وہ جتنا خدا نے اس کو دیا ہے اس کے موافق خرچ کرے۔ خدا کسی کو تکلیف نہیں دیتا مگر اسی کے مطابق جو اس کو دیا ہے۔ اور خدا عنقریب تنگی کے بعد کشائش بخشے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-65 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

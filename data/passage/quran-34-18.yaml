@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:18 (سورة سبأ، الآية 18)."
 text: "وَجَعَلْنَا بَيْنَهُمْ وَبَيْنَ ٱلْقُرَى ٱلَّتِى بَـٰرَكْنَا فِيهَا قُرًى ظَـٰهِرَةً وَقَدَّرْنَا فِيهَا ٱلسَّيْرَ ۖ سِيرُوا۟ فِيهَا لَيَالِىَ وَأَيَّامًا ءَامِنِينَ"
 text_search: "وجعلنا بينهم وبين القرى التي باركنا فيها قرى ظاهرة وقدرنا فيها السير ۖ سيروا فيها ليالي وأياما آمنين"
+translations:
+  en: { text: "And We set, between them and the towns which We had blessed, towns easy to be seen, and We made the stage between them easy, (saying): Travel in them safely both by night and day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے ان کے اور (شام کی) ان بستیوں کے درمیان جن میں ہم نے برکت دی تھی (ایک دوسرے کے متصل) دیہات بنائے تھے جو سامنے نظر آتے تھے اور ان میں آمد ورفت کا اندازہ مقرر کردیا تھا کہ رات دن بےخوف وخطر چلتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

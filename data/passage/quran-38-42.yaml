@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:42 (سورة ص، الآية 42)."
 text: "ٱرْكُضْ بِرِجْلِكَ ۖ هَـٰذَا مُغْتَسَلٌۢ بَارِدٌ وَشَرَابٌ"
 text_search: "اركض برجلك ۖ هذا مغتسل بارد وشراب"
+translations:
+  en: { text: "(And it was said unto him): Strike the ground with thy foot. This (spring) is a cool bath and a refreshing drink.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(ہم نے کہا کہ زمین پر) لات مارو (دیکھو) یہ (چشمہ نکل آیا) نہانے کو ٹھنڈا اور پینے کو (شیریں)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

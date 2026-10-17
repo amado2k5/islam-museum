@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:96 (سورة هود، الآية 96)."
 text: "وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ"
 text_search: "ولقد أرسلنا موسى بآياتنا وسلطان مبين"
+translations:
+  en: { text: "And verily We sent Moses with Our revelations and a clear warrant", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے موسیٰ کو اپنی نشانیاں اور دلیل روشن دے کر بھیجا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

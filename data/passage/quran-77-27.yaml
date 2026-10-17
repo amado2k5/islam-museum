@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 77:27 (سورة المرسلات، الآية 27)."
 text: "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍ وَأَسْقَيْنَـٰكُم مَّآءً فُرَاتًا"
 text_search: "وجعلنا فيها رواسي شامخات وأسقيناكم ماء فراتا"
+translations:
+  en: { text: "And placed therein high mountains and given you to drink sweet water therein?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(بنایا) اور اس پر اونچے اونچے پہاڑ رکھ دیئے اور تم لوگوں کو میٹھا پانی پلایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:198 (سورة الشعراء، الآية 198)."
 text: "وَلَوْ نَزَّلْنَـٰهُ عَلَىٰ بَعْضِ ٱلْأَعْجَمِينَ"
 text_search: "ولو نزلناه على بعض الأعجمين"
+translations:
+  en: { text: "And if We had revealed it unto one of any other nation than the Arabs,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر ہم اس کو کسی غیر اہل زبان پر اُتارتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

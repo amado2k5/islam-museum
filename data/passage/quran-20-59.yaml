@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:59 (سورة طه، الآية 59)."
 text: "قَالَ مَوْعِدُكُمْ يَوْمُ ٱلزِّينَةِ وَأَن يُحْشَرَ ٱلنَّاسُ ضُحًى"
 text_search: "قال موعدكم يوم الزينة وأن يحشر الناس ضحى"
+translations:
+  en: { text: "(Moses) said: Your tryst shall be the day of the feast, and let the people assemble when the sun hath risen high.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "موسیٰ نے کہا آپ کے لئے (مقابلے کا) دن نو روز (مقرر کیا جاتا ہے) اور یہ کہ لوگ اس دن چاشت کے وقت اکھٹے ہوجائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

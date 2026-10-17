@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 61:6 (سورة الصف، الآية 6)."
 text: "وَإِذْ قَالَ عِيسَى ٱبْنُ مَرْيَمَ يَـٰبَنِىٓ إِسْرَٰٓءِيلَ إِنِّى رَسُولُ ٱللَّهِ إِلَيْكُم مُّصَدِّقًا لِّمَا بَيْنَ يَدَىَّ مِنَ ٱلتَّوْرَىٰةِ وَمُبَشِّرًۢا بِرَسُولٍ يَأْتِى مِنۢ بَعْدِى ٱسْمُهُۥٓ أَحْمَدُ ۖ فَلَمَّا جَآءَهُم بِٱلْبَيِّنَـٰتِ قَالُوا۟ هَـٰذَا سِحْرٌ مُّبِينٌ"
 text_search: "وإذ قال عيسى ابن مريم يا بني إسرائيل إني رسول الله إليكم مصدقا لما بين يدي من التوراة ومبشرا برسول يأتي من بعدي اسمه أحمد ۖ فلما جاءهم بالبينات قالوا هذا سحر مبين"
+translations:
+  en: { text: "And when Jesus son of Mary said: O Children of Israel! Lo! I am the messenger of Allah unto you, confirming that which was (revealed) before me in the Torah, and bringing good tidings of a messenger who cometh after me, whose name is the Praised One. Yet when he hath come unto them with clear proofs, they say: This is mere magic.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (وہ وقت بھی یاد کرو) جب مریمؑ کے بیٹے عیسیٰ نے کہا کے اے بنی اسرائیل میں تمہارے پاس خدا کا بھیجا ہوا آیا ہوں (اور) جو (کتاب) مجھ سے پہلے آچکی ہے (یعنی) تورات اس کی تصدیق کرتا ہوں اور ایک پیغمبر جو میرے بعد آئیں گے جن کا نام احمدﷺ ہوگا ان کی بشارت سناتا ہوں۔ (پھر) جب وہ ان لوگوں کے پاس کھلی نشانیاں لے کر آئے تو کہنے لگے کہ یہ تو صریح جادو ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-61 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 84:2 (سورة الانشقاق، الآية 2)."
 text: "وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ"
 text_search: "وأذنت لربها وحقت"
+translations:
+  en: { text: "And attentive to her Lord in fear,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اپنے پروردگار کا فرمان بجا لائے گا اور اسے واجب بھی یہ ہی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-84 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

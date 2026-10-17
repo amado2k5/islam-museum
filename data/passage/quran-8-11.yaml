@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 8:11 (سورة الأنفال، الآية 11)."
 text: "إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةً مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَـٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ ٱلْأَقْدَامَ"
 text_search: "إذ يغشيكم النعاس أمنة منه وينزل عليكم من السماء ماء ليطهركم به ويذهب عنكم رجز الشيطان وليربط على قلوبكم ويثبت به الأقدام"
+translations:
+  en: { text: "When He made the slumber fall upon you as a reassurance from him and sent down water from the sky upon you, that thereby He might purify you, and remove from you the fear of Satan, and make strong your hearts and firm (your) feet thereby.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب اس نے (تمہاری) تسکین کے لیے اپنی طرف سے تمہیں نیند (کی چادر) اُڑھا دی اور تم پر آسمان سے پانی برسادیا تاکہ تم کو اس سے (نہلا کر) پاک کر دے اور شیطانی نجاست کو تم سے دور کردے۔ اور اس لیے بھی کہ تمہارے دلوں کو مضبوط کردے اور اس سے تمہارے پاؤں جمائے رکھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
   - { type: revealed_about, target: event/battle-of-badr, sources: [source/mubarakpuri-raheeq] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

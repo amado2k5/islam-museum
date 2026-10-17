@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:105 (سورة الأعراف، الآية 105)."
 text: "حَقِيقٌ عَلَىٰٓ أَن لَّآ أَقُولَ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ قَدْ جِئْتُكُم بِبَيِّنَةٍ مِّن رَّبِّكُمْ فَأَرْسِلْ مَعِىَ بَنِىٓ إِسْرَٰٓءِيلَ"
 text_search: "حقيق على أن لا أقول على الله إلا الحق ۚ قد جئتكم ببينة من ربكم فأرسل معي بني إسرائيل"
+translations:
+  en: { text: "Approved upon condition that I speak concerning Allah nothing but the truth. I come unto you (lords of Egypt) with a clear proof from your Lord. So let the Children of Israel go with me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مجھ پر واجب ہے کہ خدا کی طرف سے جو کچھ کہوں سچ ہی کہوں۔ میں تمہارے پاس تمہارے پروردگار کی طرف سے نشانی لے کر آیا ہوں۔ سو بنی اسرائیل کو میرے ساتھ جانے کی رخصت دے دیجیے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

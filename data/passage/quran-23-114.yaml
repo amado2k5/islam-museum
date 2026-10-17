@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:114 (سورة المؤمنون، الآية 114)."
 text: "قَـٰلَ إِن لَّبِثْتُمْ إِلَّا قَلِيلًا ۖ لَّوْ أَنَّكُمْ كُنتُمْ تَعْلَمُونَ"
 text_search: "قال إن لبثتم إلا قليلا ۖ لو أنكم كنتم تعلمون"
+translations:
+  en: { text: "He will say: Ye tarried but a little if ye only knew.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(خدا) فرمائے گا کہ (وہاں) تم (بہت ہی) کم رہے۔ کاش تم جانتے ہوتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

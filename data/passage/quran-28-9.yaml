@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:9 (سورة القصص، الآية 9)."
 text: "وَقَالَتِ ٱمْرَأَتُ فِرْعَوْنَ قُرَّتُ عَيْنٍ لِّى وَلَكَ ۖ لَا تَقْتُلُوهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا وَهُمْ لَا يَشْعُرُونَ"
 text_search: "وقالت امرأت فرعون قرت عين لي ولك ۖ لا تقتلوه عسى أن ينفعنا أو نتخذه ولدا وهم لا يشعرون"
+translations:
+  en: { text: "And the wife of Pharaoh said: (He will be) a consolation for me and for thee. Kill him not. Peradventure he may be of use to us, or we may choose him for a son. And they perceived not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور فرعون کی بیوی نے کہا کہ (یہ) میری اور تمہاری (دونوں کی) آنکھوں کی ٹھنڈک ہے اس کو قتل نہ کرنا۔ شاید یہ ہمیں فائدہ پہنچائے یا ہم اُسے بیٹا بنالیں اور وہ انجام سے بےخبر تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

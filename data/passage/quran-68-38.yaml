@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:38 (سورة القلم، الآية 38)."
 text: "إِنَّ لَكُمْ فِيهِ لَمَا تَخَيَّرُونَ"
 text_search: "إن لكم فيه لما تخيرون"
+translations:
+  en: { text: "That ye shall indeed have all that ye choose?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ جو چیز تم پسند کرو گے وہ تم کو ضرور ملے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

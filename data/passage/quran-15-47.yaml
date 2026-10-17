@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:47 (سورة الحجر، الآية 47)."
 text: "وَنَزَعْنَا مَا فِى صُدُورِهِم مِّنْ غِلٍّ إِخْوَٰنًا عَلَىٰ سُرُرٍ مُّتَقَـٰبِلِينَ"
 text_search: "ونزعنا ما في صدورهم من غل إخوانا على سرر متقابلين"
+translations:
+  en: { text: "And We remove whatever rancour may be in their breasts. As brethren, face to face, (they rest) on couches raised.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کے دلوں میں جو کدورت ہوگی ان کو ہم نکال کر (صاف کر) دیں گے (گویا) بھائی بھائی تختوں پر ایک دوسرے کے سامنے بیٹھے ہوئے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

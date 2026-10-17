@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 90:11 (سورة البلد، الآية 11)."
 text: "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ"
 text_search: "فلا اقتحم العقبة"
+translations:
+  en: { text: "But he hath not attempted the Ascent -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر وہ گھاٹی پر سے ہو کر نہ گزرا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-90 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

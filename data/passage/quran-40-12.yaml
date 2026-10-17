@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:12 (سورة غافر، الآية 12)."
 text: "ذَٰلِكُم بِأَنَّهُۥٓ إِذَا دُعِىَ ٱللَّهُ وَحْدَهُۥ كَفَرْتُمْ ۖ وَإِن يُشْرَكْ بِهِۦ تُؤْمِنُوا۟ ۚ فَٱلْحُكْمُ لِلَّهِ ٱلْعَلِىِّ ٱلْكَبِيرِ"
 text_search: "ذلكم بأنه إذا دعي الله وحده كفرتم ۖ وإن يشرك به تؤمنوا ۚ فالحكم لله العلي الكبير"
+translations:
+  en: { text: "(It is said unto them): This is (your plight) because, when Allah only was invoked, ye disbelieved, but when some partner was ascribed to Him ye were believing. But the command belongeth only to Allah, the Sublime, the Majestic.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ اس لئے کہ جب تنہا خدا کو پکارا جاتا تھا تو تم انکار کردیتے تھے۔ اور اگر اس کے ساتھ شریک مقرر کیا جاتا تھا تو تسلیم کرلیتے تھے تو حکم تو خدا ہی کا ہے جو (سب سے) اوپر اور (سب سے) بڑا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

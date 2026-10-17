@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:14 (سورة الشورى، الآية 14)."
 text: "وَمَا تَفَرَّقُوٓا۟ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۚ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ إِلَىٰٓ أَجَلٍ مُّسَمًّى لَّقُضِىَ بَيْنَهُمْ ۚ وَإِنَّ ٱلَّذِينَ أُورِثُوا۟ ٱلْكِتَـٰبَ مِنۢ بَعْدِهِمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ"
 text_search: "وما تفرقوا إلا من بعد ما جاءهم العلم بغيا بينهم ۚ ولولا كلمة سبقت من ربك إلى أجل مسمى لقضي بينهم ۚ وإن الذين أورثوا الكتاب من بعدهم لفي شك منه مريب"
+translations:
+  en: { text: "And they were not divided until after the knowledge came unto them, through rivalry among themselves; and had it not been for a Word that had already gone forth from thy Lord for an appointed term, it surely had been judged between them. And those who were made to inherit the Scripture after them are verily in hopeless doubt concerning it.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ لوگ جو الگ الگ ہوئے ہیں تو علم (حق) آچکنے کے بعد آپس کی ضد سے (ہوئے ہیں) ۔ اور اگر تمہارے پروردگار کی طرف سے ایک وقت مقرر تک کے لئے بات نہ ٹھہر چکی ہوتی تو ان میں فیصلہ کردیا جاتا۔ اور جو لوگ ان کے بعد (خدا کی) کتاب کے وارث ہوئے وہ اس (کی طرف) سے شبہے کی الجھن میں (پھنسے ہوئے) ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

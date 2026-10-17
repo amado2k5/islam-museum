@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:97 (سورة المائدة، الآية 97)."
 text: "۞ جَعَلَ ٱللَّهُ ٱلْكَعْبَةَ ٱلْبَيْتَ ٱلْحَرَامَ قِيَـٰمًا لِّلنَّاسِ وَٱلشَّهْرَ ٱلْحَرَامَ وَٱلْهَدْىَ وَٱلْقَلَـٰٓئِدَ ۚ ذَٰلِكَ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَأَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ"
 text_search: "۞ جعل الله الكعبة البيت الحرام قياما للناس والشهر الحرام والهدي والقلائد ۚ ذلك لتعلموا أن الله يعلم ما في السماوات وما في الأرض وأن الله بكل شيء عليم"
+translations:
+  en: { text: "Allah hath appointed the Ka'bah, the Sacred House, a standard for mankind, and the Sacred Month and the offerings and the garlands. That is so that ye may know that Allah knoweth whatsoever is in the heavens and whatsoever is in the earth, and that Allah is Knower of all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے عزت کے گھر (یعنی) کعبے کو لوگوں کے لیے موجب امن مقرر فرمایا ہے اور عزت کے مہینوں کو اور قربانی کو اور ان جانوروں کو جن کے گلے میں پٹے بندھے ہوں یہ اس لیے کہ تم جان لو کہ جو کچھ آسمانوں میں اور جو کچھ زمین میں ہے خدا سب کو جانتا ہے اور یہ کہ خدا کو ہر چیز کا علم ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

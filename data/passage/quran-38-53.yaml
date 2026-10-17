@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:53 (سورة ص، الآية 53)."
 text: "هَـٰذَا مَا تُوعَدُونَ لِيَوْمِ ٱلْحِسَابِ"
 text_search: "هذا ما توعدون ليوم الحساب"
+translations:
+  en: { text: "This it is that ye are promised for the Day of Reckoning.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ وہ چیزیں ہیں جن کا حساب کے دن کے لئے تم سے وعدہ کیا جاتا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

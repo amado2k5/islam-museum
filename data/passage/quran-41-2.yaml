@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:2 (سورة فصلت، الآية 2)."
 text: "تَنزِيلٌ مِّنَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
 text_search: "تنزيل من الرحمن الرحيم"
+translations:
+  en: { text: "A revelation from the Beneficent, the Merciful,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ کتاب خدائے) رحمٰن ورحیم (کی طرف) سے اُتری ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

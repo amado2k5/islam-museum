@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:61 (سورة النمل، الآية 61)."
 text: "أَمَّن جَعَلَ ٱلْأَرْضَ قَرَارًا وَجَعَلَ خِلَـٰلَهَآ أَنْهَـٰرًا وَجَعَلَ لَهَا رَوَٰسِىَ وَجَعَلَ بَيْنَ ٱلْبَحْرَيْنِ حَاجِزًا ۗ أَءِلَـٰهٌ مَّعَ ٱللَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ"
 text_search: "أمن جعل الأرض قرارا وجعل خلالها أنهارا وجعل لها رواسي وجعل بين البحرين حاجزا ۗ أإله مع الله ۚ بل أكثرهم لا يعلمون"
+translations:
+  en: { text: "Is not He (best) Who made the earth a fixed abode, and placed rivers in the folds thereof, and placed firm hills therein, and hath set a barrier between the two seas? Is there any Allah beside Allah? Nay, but most of them know not!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا کس نے زمین کو قرار گاہ بنایا اور اس کے بیچ نہریں بنائیں اور اس کے لئے پہاڑ بنائے اور (کس نے) دو دریاؤں کے بیچ اوٹ بنائی (یہ سب کچھ خدا نے بنایا) تو کیا خدا کے ساتھ کوئی اور معبود بھی ہے؟ (ہرگز نہیں) بلکہ ان میں اکثر دانش نہیں رکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

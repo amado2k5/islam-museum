@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:29 (سورة الحجر، الآية 29)."
 text: "فَإِذَا سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَـٰجِدِينَ"
 text_search: "فإذا سويته ونفخت فيه من روحي فقعوا له ساجدين"
+translations:
+  en: { text: "So, when I have made him and have breathed into him of My Spirit, do ye fall down, prostrating yourselves unto him.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب اس کو (صورت انسانیہ میں) درست کر لوں اور اس میں اپنی (بےبہا چیز یعنی) روح پھونک دوں تو اس کے آگے سجدے میں گر پڑنا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:62 (سورة طه، الآية 62)."
 text: "فَتَنَـٰزَعُوٓا۟ أَمْرَهُم بَيْنَهُمْ وَأَسَرُّوا۟ ٱلنَّجْوَىٰ"
 text_search: "فتنازعوا أمرهم بينهم وأسروا النجوى"
+translations:
+  en: { text: "Then they debated one with another what they must do, and they kept their counsel secret.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو وہ باہم اپنے معاملے میں جھگڑانے اور چپکے چپکے سرگوشی کرنے لگے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

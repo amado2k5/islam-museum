@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:44 (سورة الأحزاب، الآية 44)."
 text: "تَحِيَّتُهُمْ يَوْمَ يَلْقَوْنَهُۥ سَلَـٰمٌ ۚ وَأَعَدَّ لَهُمْ أَجْرًا كَرِيمًا"
 text_search: "تحيتهم يوم يلقونه سلام ۚ وأعد لهم أجرا كريما"
+translations:
+  en: { text: "Their salutation on the day when they shall meet Him will be: Peace. And He hath prepared for them a goodly recompense.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس روز وہ اس سے ملیں گے ان کا تحفہ (خدا کی طرف سے) سلام ہوگا اور اس نے ان کے لئے بڑا ثواب تیار کر رکھا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:16 (سورة النور، الآية 16)."
 text: "وَلَوْلَآ إِذْ سَمِعْتُمُوهُ قُلْتُم مَّا يَكُونُ لَنَآ أَن نَّتَكَلَّمَ بِهَـٰذَا سُبْحَـٰنَكَ هَـٰذَا بُهْتَـٰنٌ عَظِيمٌ"
 text_search: "ولولا إذ سمعتموه قلتم ما يكون لنا أن نتكلم بهذا سبحانك هذا بهتان عظيم"
+translations:
+  en: { text: "Wherefor, when ye heard it, said ye not: It is not for us to speak of this. Glory be to Thee (O Allah)! This is awful calumny.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب تم نے اسے سنا تھا تو کیوں نہ کہہ دیا کہ ہمیں شایاں نہیں کہ ایسی بات زبان پر نہ لائیں۔ (پروردگار) تو پاک ہے یہ تو (بہت) بڑا بہتان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

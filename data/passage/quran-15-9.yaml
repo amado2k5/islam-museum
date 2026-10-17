@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:9 (سورة الحجر، الآية 9)."
 text: "إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ"
 text_search: "إنا نحن نزلنا الذكر وإنا له لحافظون"
+translations:
+  en: { text: "Lo! We, even We, reveal the Reminder, and lo! We verily are its Guardian.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بےشک یہ (کتاب) نصیحت ہمیں نے اُتاری ہے اور ہم ہی اس کے نگہبان ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:70 (سورة الزمر، الآية 70)."
 text: "وَوُفِّيَتْ كُلُّ نَفْسٍ مَّا عَمِلَتْ وَهُوَ أَعْلَمُ بِمَا يَفْعَلُونَ"
 text_search: "ووفيت كل نفس ما عملت وهو أعلم بما يفعلون"
+translations:
+  en: { text: "And each soul is paid in full for what it did. And He is Best Aware of what they do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس شخص نے جو عمل کیا ہوگا اس کو اس کا پورا پورا بدلہ مل جائے گا اور جو کچھ یہ کرتے ہیں اس کو سب کی خبر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

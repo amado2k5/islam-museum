@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:28 (سورة غافر، الآية 28)."
 text: "وَقَالَ رَجُلٌ مُّؤْمِنٌ مِّنْ ءَالِ فِرْعَوْنَ يَكْتُمُ إِيمَـٰنَهُۥٓ أَتَقْتُلُونَ رَجُلًا أَن يَقُولَ رَبِّىَ ٱللَّهُ وَقَدْ جَآءَكُم بِٱلْبَيِّنَـٰتِ مِن رَّبِّكُمْ ۖ وَإِن يَكُ كَـٰذِبًا فَعَلَيْهِ كَذِبُهُۥ ۖ وَإِن يَكُ صَادِقًا يُصِبْكُم بَعْضُ ٱلَّذِى يَعِدُكُمْ ۖ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ مُسْرِفٌ كَذَّابٌ"
 text_search: "وقال رجل مؤمن من آل فرعون يكتم إيمانه أتقتلون رجلا أن يقول ربي الله وقد جاءكم بالبينات من ربكم ۖ وإن يك كاذبا فعليه كذبه ۖ وإن يك صادقا يصبكم بعض الذي يعدكم ۖ إن الله لا يهدي من هو مسرف كذاب"
+translations:
+  en: { text: "And a believing man of Pharaoh's family, who hid his faith, said: Would ye kill a man because he saith: My Lord is Allah, and hath brought you clear proofs from your Lord? If he is lying, then his lie is upon him; and if he is truthful, then some of that wherewith he threateneth you will strike you. Lo! Allah guideth not one who is a prodigal, a liar.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور فرعون کے لوگوں میں سے ایک مومن شخص جو اپنے ایمان کو پوشیدہ رکھتا تھا کہنے لگا کیا تم ایسے شخص کو قتل کرنا چاہتے ہو جو کہتا ہے کہ میرا پروردگار خدا ہے اور وہ تمہارے پروردگار (کی طرف) سے نشانیاں بھی لے کر آیا ہے۔ اور اگر وہ جھوٹا ہوگا تو اس کے جھوٹ کا ضرر اسی کو ہوگا۔ اور اگر سچا ہوگا تو کوئی سا عذاب جس کا وہ تم سے وعدہ کرتا ہے تم پر واقع ہو کر رہے گا۔ بےشک خدا اس شخص کو ہدایت نہیں دیتا جو بےلحاظ جھوٹا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

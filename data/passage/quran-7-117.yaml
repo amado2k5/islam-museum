@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:117 (سورة الأعراف، الآية 117)."
 text: "۞ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَلْقِ عَصَاكَ ۖ فَإِذَا هِىَ تَلْقَفُ مَا يَأْفِكُونَ"
 text_search: "۞ وأوحينا إلى موسى أن ألق عصاك ۖ فإذا هي تلقف ما يأفكون"
+translations:
+  en: { text: "And We inspired Moses (saying): Throw thy staff! And lo! it swallowed up their lying show.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اس وقت) ہم نے موسیٰ کی طرف وحی بھیجی کہ تم بھی اپنی لاٹھی ڈال دو۔ وہ فوراً (سانپ بن کر) جادوگروں کے بنائے ہوئے سانپوں کو (ایک ایک کرکے) نگل جائے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

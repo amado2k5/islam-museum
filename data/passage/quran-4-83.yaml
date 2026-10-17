@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:83 (سورة النساء، الآية 83)."
 text: "وَإِذَا جَآءَهُمْ أَمْرٌ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَـٰنَ إِلَّا قَلِيلًا"
 text_search: "وإذا جاءهم أمر من الأمن أو الخوف أذاعوا به ۖ ولو ردوه إلى الرسول وإلى أولي الأمر منهم لعلمه الذين يستنبطونه منهم ۗ ولولا فضل الله عليكم ورحمته لاتبعتم الشيطان إلا قليلا"
+translations:
+  en: { text: "And if any tidings, whether of safety or fear, come unto them, they noise it abroad, whereas if they had referred it to the messenger and to such of them as are in authority, those among them who are able to think out the matter would have known it. If it had not been for the grace of Allah upon you and His mercy ye would have followed Satan, save a few (of you).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ان کے پاس امن یا خوف کی کوئی خبر پہنچتی ہے تو اس کو مشہور کردیتے ہیں اور اگر اس کو پیغمبر اور اپنے سرداروں کے پاس پہنچاتے تو تحقیق کرنے والے اس کی تحقیق کر لیتے اور اگر تم پر خدا کا فضل اور اس کی مہربانی نہ ہوتی تو چند اشخاص کے سوا سب شیطان کے پیرو ہوجاتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

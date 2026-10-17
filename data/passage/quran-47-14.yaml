@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:14 (سورة محمد، الآية 14)."
 text: "أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّهِۦ كَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ وَٱتَّبَعُوٓا۟ أَهْوَآءَهُم"
 text_search: "أفمن كان على بينة من ربه كمن زين له سوء عمله واتبعوا أهواءهم"
+translations:
+  en: { text: "Is he who relieth on a clear proof from his Lord like those for whom the evil that they do is beautified while they follow their own lusts?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا جو شخص اپنے پروردگار (کی مہربانی) سے کھلے رستے پر (چل رہا) ہو وہ ان کی طرح (ہوسکتا) ہے جن کے اعمال بد انہیں اچھے کرکے دکھائی جائیں اور جو اپنی خواہشوں کی پیروی کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

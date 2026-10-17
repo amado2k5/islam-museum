@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 9:65 (سورة التوبة، الآية 65)."
 text: "وَلَئِن سَأَلْتَهُمْ لَيَقُولُنَّ إِنَّمَا كُنَّا نَخُوضُ وَنَلْعَبُ ۚ قُلْ أَبِٱللَّهِ وَءَايَـٰتِهِۦ وَرَسُولِهِۦ كُنتُمْ تَسْتَهْزِءُونَ"
 text_search: "ولئن سألتهم ليقولن إنما كنا نخوض ونلعب ۚ قل أبالله وآياته ورسوله كنتم تستهزئون"
+translations:
+  en: { text: "And if thou ask them (O Muhammad) they will say: We did but talk and jest. Say: Was it at Allah and His revelations and His messenger that ye did scoff?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تم ان سے (اس بارے میں) دریافت کرو تو کہیں گے ہم تو یوں ہی بات چیت اور دل لگی کرتے تھے۔ کہو کیا تم خدا اور اس کی آیتوں اور اس کے رسول سے ہنسی کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/hypocrites-mock-the-army-and-excuse, note: "نزلت في الرهط الذين قالوا إنما كنا نخوض ونلعب بحسب ابن إسحاق (ص169)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

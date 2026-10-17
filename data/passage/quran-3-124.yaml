@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:124 (سورة آل عمران، الآية 124)."
 text: "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَن يَكْفِيَكُمْ أَن يُمِدَّكُمْ رَبُّكُم بِثَلَـٰثَةِ ءَالَـٰفٍ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُنزَلِينَ"
 text_search: "إذ تقول للمؤمنين ألن يكفيكم أن يمدكم ربكم بثلاثة آلاف من الملائكة منزلين"
+translations:
+  en: { text: "When thou didst say unto the believers: Is it not sufficient for you that your Lord should support you with three thousand angels sent down (to your help)?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب تم مومنوں سے یہ کہہ (کر ان کے دل بڑھا) رہے تھے کہ کیا یہ کافی نہیں کہ پروردگار تین ہزار فرشتے نازل کر کے تمہیں مدد دے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

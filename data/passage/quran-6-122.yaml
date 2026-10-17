@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:122 (سورة الأنعام، الآية 122)."
 text: "أَوَمَن كَانَ مَيْتًا فَأَحْيَيْنَـٰهُ وَجَعَلْنَا لَهُۥ نُورًا يَمْشِى بِهِۦ فِى ٱلنَّاسِ كَمَن مَّثَلُهُۥ فِى ٱلظُّلُمَـٰتِ لَيْسَ بِخَارِجٍ مِّنْهَا ۚ كَذَٰلِكَ زُيِّنَ لِلْكَـٰفِرِينَ مَا كَانُوا۟ يَعْمَلُونَ"
 text_search: "أومن كان ميتا فأحييناه وجعلنا له نورا يمشي به في الناس كمن مثله في الظلمات ليس بخارج منها ۚ كذلك زين للكافرين ما كانوا يعملون"
+translations:
+  en: { text: "Is he who was dead and We have raised him unto life, and set for him a light wherein he walketh among men, as him whose similitude is in utter darkness whence he cannot emerge? Thus is their conduct made fairseeming for the disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا جو پہلے مردہ تھا پھر ہم نے اس کو زندہ کیا اور اس کے لیے روشنی کر دی جس کے ذریعے سے وہ لوگوں میں چلتا پھرتا ہے کہیں اس شخص جیسا ہو سکتا ہے جو اندھیرے میں پڑا ہوا ہو اور اس سے نکل ہی نہ سکے اسی طرح کافر جو عمل کر رہے ہیں وہ انہیں اچھے معلوم ہوتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

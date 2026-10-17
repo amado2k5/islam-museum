@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:90 (سورة طه، الآية 90)."
 text: "وَلَقَدْ قَالَ لَهُمْ هَـٰرُونُ مِن قَبْلُ يَـٰقَوْمِ إِنَّمَا فُتِنتُم بِهِۦ ۖ وَإِنَّ رَبَّكُمُ ٱلرَّحْمَـٰنُ فَٱتَّبِعُونِى وَأَطِيعُوٓا۟ أَمْرِى"
 text_search: "ولقد قال لهم هارون من قبل يا قوم إنما فتنتم به ۖ وإن ربكم الرحمن فاتبعوني وأطيعوا أمري"
+translations:
+  en: { text: "And Aaron indeed had told them beforehand: O my people! Ye are but being seduced therewith, for lo! your Lord is the Beneficent, so follow me and obey my order.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہارون نے ان سے پہلے ہی کہہ دیا تھا کہ لوگو اس سے صرف تمہاری آزمائش کی گئی ہے۔ اور تمہارا پروردگار تو خدا ہے تو میری پیروی کرو اور میرا کہا مانو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

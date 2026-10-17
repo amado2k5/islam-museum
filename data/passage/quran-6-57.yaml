@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:57 (سورة الأنعام، الآية 57)."
 text: "قُلْ إِنِّى عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَكَذَّبْتُم بِهِۦ ۚ مَا عِندِى مَا تَسْتَعْجِلُونَ بِهِۦٓ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ ٱلْحَقَّ ۖ وَهُوَ خَيْرُ ٱلْفَـٰصِلِينَ"
 text_search: "قل إني على بينة من ربي وكذبتم به ۚ ما عندي ما تستعجلون به ۚ إن الحكم إلا لله ۖ يقص الحق ۖ وهو خير الفاصلين"
+translations:
+  en: { text: "Say: I am (relying) on clear proof from my Lord, while ye deny Him. I have not that for which ye are impatient. The decision is for Allah only. He telleth the truth and He is the Best of Deciders.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ میں تو اپنے پروردگار کی دلیل روشن پر ہوں اور تم اس کی تکذیب کرتے ہو۔ جس چیز (یعنی عذاب) کے لئے تم جلدی کر رہے ہو وہ میرے پاس نہیں ہے (ایسا) حکم الله ہی کے اختیار میں ہے وہ سچی بات بیان فرماتا ہے اور وہ سب سے بہتر فیصلہ کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

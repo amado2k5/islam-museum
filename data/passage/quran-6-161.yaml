@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:161 (سورة الأنعام، الآية 161)."
 text: "قُلْ إِنَّنِى هَدَىٰنِى رَبِّىٓ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ دِينًا قِيَمًا مِّلَّةَ إِبْرَٰهِيمَ حَنِيفًا ۚ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ"
 text_search: "قل إنني هداني ربي إلى صراط مستقيم دينا قيما ملة إبراهيم حنيفا ۚ وما كان من المشركين"
+translations:
+  en: { text: "Say: Lo! As for me, my Lord hath guided me unto a straight path, a right religion, the community of Abraham, the upright, who was no idolater.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ مجھے میرے پروردگار نے سیدھا رستہ دکھا دیا ہے (یعنی دین صحیح) مذہب ابراہیم کا جو ایک (خدا) ہی کی طرف کے تھے اور مشرکوں میں سے نہ تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

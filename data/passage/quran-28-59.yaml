@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:59 (سورة القصص، الآية 59)."
 text: "وَمَا كَانَ رَبُّكَ مُهْلِكَ ٱلْقُرَىٰ حَتَّىٰ يَبْعَثَ فِىٓ أُمِّهَا رَسُولًا يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِنَا ۚ وَمَا كُنَّا مُهْلِكِى ٱلْقُرَىٰٓ إِلَّا وَأَهْلُهَا ظَـٰلِمُونَ"
 text_search: "وما كان ربك مهلك القرى حتى يبعث في أمها رسولا يتلو عليهم آياتنا ۚ وما كنا مهلكي القرى إلا وأهلها ظالمون"
+translations:
+  en: { text: "And never did thy Lord destroy the townships, till He had raised up in their mother(-town) a messenger reciting unto them Our revelations. And never did We destroy the townships unless the folk thereof were evil-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تمہارا پروردگار بستیوں کو ہلاک نہیں کیا کرتا۔ جب تک اُن کے بڑے شہر میں پیغمبر نہ بھیج لے جو اُن کو ہماری آیتیں پڑھ پڑھ کر سنائے اور ہم بستیوں کو ہلاک نہیں کیا کرتے مگر اس حالت میں کہ وہاں کے باشندے ظالم ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

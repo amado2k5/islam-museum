@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:53 (سورة هود، الآية 53)."
 text: "قَالُوا۟ يَـٰهُودُ مَا جِئْتَنَا بِبَيِّنَةٍ وَمَا نَحْنُ بِتَارِكِىٓ ءَالِهَتِنَا عَن قَوْلِكَ وَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ"
 text_search: "قالوا يا هود ما جئتنا ببينة وما نحن بتاركي آلهتنا عن قولك وما نحن لك بمؤمنين"
+translations:
+  en: { text: "They said: O Hud! Thou hast brought us no clear proof and we are not going to forsake our gods on thy (mere) saying, and we are not believers in thee.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ بولے ہود تم ہمارے پاس کوئی دلیل ظاہر نہیں لائے اور ہم (صرف) تمہارے کہنے سے نہ اپنے معبودوں کو چھوڑنے والے ہیں اور نہ تم پر ایمان لانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:54 (سورة سبأ، الآية 54)."
 text: "وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا يَشْتَهُونَ كَمَا فُعِلَ بِأَشْيَاعِهِم مِّن قَبْلُ ۚ إِنَّهُمْ كَانُوا۟ فِى شَكٍّ مُّرِيبٍۭ"
 text_search: "وحيل بينهم وبين ما يشتهون كما فعل بأشياعهم من قبل ۚ إنهم كانوا في شك مريب"
+translations:
+  en: { text: "And a gulf is set between them and that which they desire, as was done for people of their kind of old. Lo! they were in hopeless doubt.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان میں اور ان کی خواہش کی چیزوں میں پردہ حائل کردیا گیا جیسا کہ پہلے ان کے ہم جنسوں سے کیا گیا وہ بھی الجھن میں ڈالنے والے شک میں پڑے ہوئے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

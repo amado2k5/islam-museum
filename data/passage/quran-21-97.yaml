@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:97 (سورة الأنبياء، الآية 97)."
 text: "وَٱقْتَرَبَ ٱلْوَعْدُ ٱلْحَقُّ فَإِذَا هِىَ شَـٰخِصَةٌ أَبْصَـٰرُ ٱلَّذِينَ كَفَرُوا۟ يَـٰوَيْلَنَا قَدْ كُنَّا فِى غَفْلَةٍ مِّنْ هَـٰذَا بَلْ كُنَّا ظَـٰلِمِينَ"
 text_search: "واقترب الوعد الحق فإذا هي شاخصة أبصار الذين كفروا يا ويلنا قد كنا في غفلة من هذا بل كنا ظالمين"
+translations:
+  en: { text: "And the True Promise draweth nigh; then behold them, staring wide (in terror), the eyes of those who disbelieve! (They say): Alas for us! We (lived) in forgetfulness of this. Ah, but we were wrong-doers!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (قیامت کا) سچا وعدہ قریب آجائے تو ناگاہ کافروں کی آنکھیں کھلی کی کھلی رہ جائیں (اور کہنے لگیں کہ) ہائے شامت ہم اس (حال) سے غفلت میں رہے بلکہ (اپنے حق میں) ظالم تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:44 (سورة الأنبياء، الآية 44)."
 text: "بَلْ مَتَّعْنَا هَـٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ طَالَ عَلَيْهِمُ ٱلْعُمُرُ ۗ أَفَلَا يَرَوْنَ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَآ ۚ أَفَهُمُ ٱلْغَـٰلِبُونَ"
 text_search: "بل متعنا هؤلاء وآباءهم حتى طال عليهم العمر ۗ أفلا يرون أنا نأتي الأرض ننقصها من أطرافها ۚ أفهم الغالبون"
+translations:
+  en: { text: "Nay, but We gave these and their fathers ease until life grew long for them. See they not how we aim to the land, reducing it of its outlying parts? Can they then be the victors?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بلکہ ہم ان لوگوں کو اور ان کے باپ دادا کو متمتع کرتے رہے یہاں تک کہ (اسی حالت میں) ان کی عمریں بسر ہوگئیں۔ کیا یہ نہیں دیکھتے کہ ہم زمین کو اس کے کناروں سے گھٹاتے چلے آتے ہیں۔ تو کیا یہ لوگ غلبہ پانے والے ہیں؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

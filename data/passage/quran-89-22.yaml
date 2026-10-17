@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 89:22 (سورة الفجر، الآية 22)."
 text: "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا"
 text_search: "وجاء ربك والملك صفا صفا"
+translations:
+  en: { text: "And thy Lord shall come with angels, rank on rank,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تمہارا پروردگار (جلوہ فرما ہو گا) اور فرشتے قطار باندھ باندھ کر آ موجود ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-89 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

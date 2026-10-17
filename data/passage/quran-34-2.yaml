@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:2 (سورة سبأ، الآية 2)."
 text: "يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ ٱلرَّحِيمُ ٱلْغَفُورُ"
 text_search: "يعلم ما يلج في الأرض وما يخرج منها وما ينزل من السماء وما يعرج فيها ۚ وهو الرحيم الغفور"
+translations:
+  en: { text: "He knoweth that which goeth into the earth and that which cometh forth from it, and that descendeth from the heaven and that which ascendeth into it. He is the Merciful, the Forgiving.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو کچھ زمین میں داخل ہوتا ہے اور جو اس میں سے نکلتا ہے اور جو آسمان سے اُترتا ہے اور جو اس پر چڑھتا ہے سب اس کو معلوم ہے۔ اور وہ مہربان (اور) بخشنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

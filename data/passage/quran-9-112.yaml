@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:112 (سورة التوبة، الآية 112)."
 text: "ٱلتَّـٰٓئِبُونَ ٱلْعَـٰبِدُونَ ٱلْحَـٰمِدُونَ ٱلسَّـٰٓئِحُونَ ٱلرَّٰكِعُونَ ٱلسَّـٰجِدُونَ ٱلْـَٔامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَـٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ"
 text_search: "التائبون العابدون الحامدون السائحون الراكعون الساجدون الآمرون بالمعروف والناهون عن المنكر والحافظون لحدود الله ۗ وبشر المؤمنين"
+translations:
+  en: { text: "(Triumphant) are those who turn repentant (to Allah), those who serve (Him), those who praise (Him), those who fast, those who bow down, those who fall prostrate (in worship), those who enjoin the right and who forbid the wrong and those who keep the limits (ordained) of Allah - And give glad tidings to believers!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "توبہ کرنے والے، عبادت کرنے والے، حمد کرنے والے، روزہ رکھنے والے، رکوع کرنے والے، سجدہ کرنے والے، نیک کاموں کا امر کرنے والے، بری باتوں سے منع کرنے والے، خدا کی حدوں کی حفاظت کرنے والے، (یہی مومن لوگ ہیں) اور اے پیغمبر مومنوں کو (بہشت کی) خوش خبری سنادو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

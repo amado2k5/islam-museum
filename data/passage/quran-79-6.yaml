@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 79:6 (سورة النازعات، الآية 6)."
 text: "يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ"
 text_search: "يوم ترجف الراجفة"
+translations:
+  en: { text: "On the day when the first trump resoundeth.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(کہ وہ دن آ کر رہے گا) جس دن زمین کو بھونچال آئے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-79 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

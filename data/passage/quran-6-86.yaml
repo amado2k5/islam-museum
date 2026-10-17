@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:86 (سورة الأنعام، الآية 86)."
 text: "وَإِسْمَـٰعِيلَ وَٱلْيَسَعَ وَيُونُسَ وَلُوطًا ۚ وَكُلًّا فَضَّلْنَا عَلَى ٱلْعَـٰلَمِينَ"
 text_search: "وإسماعيل واليسع ويونس ولوطا ۚ وكلا فضلنا على العالمين"
+translations:
+  en: { text: "And Ishmael and Elisha and Jonah and Lot. Each one (of them) did We prefer above (Our) creatures,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اسمٰعیل اور الیسع اور یونس اور لوط کو بھی۔ اور ان سب کو جہان کے لوگوں پر فضلیت بخشی تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:80 (سورة غافر، الآية 80)."
 text: "وَلَكُمْ فِيهَا مَنَـٰفِعُ وَلِتَبْلُغُوا۟ عَلَيْهَا حَاجَةً فِى صُدُورِكُمْ وَعَلَيْهَا وَعَلَى ٱلْفُلْكِ تُحْمَلُونَ"
 text_search: "ولكم فيها منافع ولتبلغوا عليها حاجة في صدوركم وعليها وعلى الفلك تحملون"
+translations:
+  en: { text: "(Many) benefits ye have from them - and that ye may satisfy by their means a need that is in your breasts, and may be borne upon them as upon the ship.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تمہارے لئے ان میں (اور بھی) فائدے ہیں اور اس لئے بھی کہ (کہیں جانے کی) تمہارے دلوں میں جو حاجت ہو ان پر (چڑھ کر وہاں) پہنچ جاؤ۔ اور ان پر اور کشتیوں پر تم سوار ہوتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

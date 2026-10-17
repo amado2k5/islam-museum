@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 84:20 (سورة الانشقاق، الآية 20)."
 text: "فَمَا لَهُمْ لَا يُؤْمِنُونَ"
 text_search: "فما لهم لا يؤمنون"
+translations:
+  en: { text: "What aileth them, then, that they believe not", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان لوگوں کو کیا ہوا ہے کہ ایمان نہیں لاتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-84 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

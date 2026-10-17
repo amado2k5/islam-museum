@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:57 (سورة غافر، الآية 57)."
 text: "لَخَلْقُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ أَكْبَرُ مِنْ خَلْقِ ٱلنَّاسِ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ"
 text_search: "لخلق السماوات والأرض أكبر من خلق الناس ولكن أكثر الناس لا يعلمون"
+translations:
+  en: { text: "Assuredly the creation of the heavens and the earth is greater than the creation of mankind; but most of mankind know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "آسمانوں اور زمین کا پیدا کرنا لوگوں کے پیدا کرنے کی نسبت بڑا (کام) ہے لیکن اکثر لوگ نہیں جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

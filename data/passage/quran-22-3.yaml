@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:3 (سورة الحج، الآية 3)."
 text: "وَمِنَ ٱلنَّاسِ مَن يُجَـٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّبِعُ كُلَّ شَيْطَـٰنٍ مَّرِيدٍ"
 text_search: "ومن الناس من يجادل في الله بغير علم ويتبع كل شيطان مريد"
+translations:
+  en: { text: "Among mankind is he who disputeth concerning Allah without knowledge, and followeth each froward devil;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بعض لوگ ایسے ہیں جو خدا (کی شان) میں علم (ودانش) کے بغیر جھگڑتے اور ہر شیطان سرکش کی پیروی کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

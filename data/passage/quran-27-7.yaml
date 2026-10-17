@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:7 (سورة النمل، الآية 7)."
 text: "إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ ءَانَسْتُ نَارًا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ ءَاتِيكُم بِشِهَابٍ قَبَسٍ لَّعَلَّكُمْ تَصْطَلُونَ"
 text_search: "إذ قال موسى لأهله إني آنست نارا سآتيكم منها بخبر أو آتيكم بشهاب قبس لعلكم تصطلون"
+translations:
+  en: { text: "(Remember) when Moses said unto his household: Lo! I spy afar off a fire; I will bring you tidings thence, or bring to you a borrowed flame that ye may warm yourselves.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب موسیٰ نے اپنے گھر والوں سے کہا کہ میں نے آگ دیکھی ہے، میں وہاں سے (رستے) کا پتہ لاتا ہوں یا سلگتا ہوا انگارہ تمہارے پاس لاتا ہوں تاکہ تم تاپو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

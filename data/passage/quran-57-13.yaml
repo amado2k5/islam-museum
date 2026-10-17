@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:13 (سورة الحديد، الآية 13)."
 text: "يَوْمَ يَقُولُ ٱلْمُنَـٰفِقُونَ وَٱلْمُنَـٰفِقَـٰتُ لِلَّذِينَ ءَامَنُوا۟ ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًا فَضُرِبَ بَيْنَهُم بِسُورٍ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَـٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ"
 text_search: "يوم يقول المنافقون والمنافقات للذين آمنوا انظرونا نقتبس من نوركم قيل ارجعوا وراءكم فالتمسوا نورا فضرب بينهم بسور له باب باطنه فيه الرحمة وظاهره من قبله العذاب"
+translations:
+  en: { text: "On the day when the hypocritical men and the hypocritical women will say unto those who believe: Look on us that we may borrow from your light! it will be said: Go back and seek for light! Then there will separate them a wall wherein is a gate, the inner side whereof containeth mercy, while the outer side thereof is toward the doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اُس دن منافق مرد اور منافق عورتیں مومنوں سے کہیں گے کہ ہماری طرف سے (شفقت) کیجیئے کہ ہم بھی تمہارے نور سے روشنی حاصل کریں۔ تو ان سے کہا جائے گا کہ پیچھے کو لوٹ جاؤ اور (وہاں) نور تلاش کرو۔ پھر ان کے بیچ میں ایک دیوار کھڑی کر دی جائے گی۔ جس میں ایک دروازہ ہوگا جو اس کی جانب اندرونی ہے اس میں تو رحمت ہے اور جو جانب بیرونی ہے اس طرف عذاب (واذیت)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

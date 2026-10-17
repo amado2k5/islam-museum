@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:26 (سورة العنكبوت، الآية 26)."
 text: "۞ فَـَٔامَنَ لَهُۥ لُوطٌ ۘ وَقَالَ إِنِّى مُهَاجِرٌ إِلَىٰ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
 text_search: "۞ فآمن له لوط ۘ وقال إني مهاجر إلى ربي ۖ إنه هو العزيز الحكيم"
+translations:
+  en: { text: "And Lot believed him, and said: Lo! I am a fugitive unto my Lord. Lo! He, only He, is the Mighty, the Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پس اُن پر (ایک) لوط ایمان لائے اور (ابراہیم) کہنے لگے کہ میں اپنے پروردگار کی طرف ہجرت کرنے والا ہوں۔ بیشک وہ غالب حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

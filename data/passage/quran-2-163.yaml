@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:163 (سورة البقرة، الآية 163)."
 text: "وَإِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ ۖ لَّآ إِلَـٰهَ إِلَّا هُوَ ٱلرَّحْمَـٰنُ ٱلرَّحِيمُ"
 text_search: "وإلهكم إله واحد ۖ لا إله إلا هو الرحمن الرحيم"
+translations:
+  en: { text: "Your Allah is One Allah; there is no Allah save Him, the Beneficent, the Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (لوگو) تمہارا معبود خدائے واحد ہے اس بڑے مہربان (اور) رحم کرنے کے سوا کوئی عبادت کے لائق نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:33 (سورة النساء، الآية 33)."
 text: "وَلِكُلٍّ جَعَلْنَا مَوَٰلِىَ مِمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ ۚ وَٱلَّذِينَ عَقَدَتْ أَيْمَـٰنُكُمْ فَـَٔاتُوهُمْ نَصِيبَهُمْ ۚ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدًا"
 text_search: "ولكل جعلنا موالي مما ترك الوالدان والأقربون ۚ والذين عقدت أيمانكم فآتوهم نصيبهم ۚ إن الله كان على كل شيء شهيدا"
+translations:
+  en: { text: "And unto each We have appointed heirs of that which parents and near kindred leave; and as for those with whom your right hands have made a covenant, give them their due. Lo! Allah is ever Witness over all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو مال ماں باپ اور رشتہ دار چھوڑ مریں تو (حق داروں میں تقسیم کردو کہ) ہم نے ہر ایک کے حقدار مقرر کردیئے ہیں اور جن لوگوں سے تم عہد کرچکے ہو ان کو بھی ان کا حصہ دو بےشک خدا ہر چیز کے سامنے ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

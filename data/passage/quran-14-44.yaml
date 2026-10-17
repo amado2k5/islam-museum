@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:44 (سورة إبراهيم، الآية 44)."
 text: "وَأَنذِرِ ٱلنَّاسَ يَوْمَ يَأْتِيهِمُ ٱلْعَذَابُ فَيَقُولُ ٱلَّذِينَ ظَلَمُوا۟ رَبَّنَآ أَخِّرْنَآ إِلَىٰٓ أَجَلٍ قَرِيبٍ نُّجِبْ دَعْوَتَكَ وَنَتَّبِعِ ٱلرُّسُلَ ۗ أَوَلَمْ تَكُونُوٓا۟ أَقْسَمْتُم مِّن قَبْلُ مَا لَكُم مِّن زَوَالٍ"
 text_search: "وأنذر الناس يوم يأتيهم العذاب فيقول الذين ظلموا ربنا أخرنا إلى أجل قريب نجب دعوتك ونتبع الرسل ۗ أولم تكونوا أقسمتم من قبل ما لكم من زوال"
+translations:
+  en: { text: "And warn mankind of a day when the doom will come upon them, and those who did wrong will say: Our Lord! Reprieve us for a little while. We will obey Thy call and will follow the messengers. (It will be answered): Did ye not swear before that there would be no end for you?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور لوگوں کو اس دن سے آگاہ کردو جب ان پر عذاب آجائے گا تب ظالم لوگ کہیں گے کہ اے ہمارے پروردگار ہمیں تھوڑی سی مدت مہلت عطا کر۔ تاکہ تیری دعوت (توحید) قبول کریں اور (تیرے) پیغمبروں کے پیچھے چلیں (تو جواب ملے گا) کیا تم پہلے قسمیں نہیں کھایا کرتے تھے کہ تم کو (اس حال سے جس میں تم ہو) زوال (اور قیامت کو حساب اعمال) نہیں ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

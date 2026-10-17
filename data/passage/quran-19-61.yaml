@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:61 (سورة مريم، الآية 61)."
 text: "جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدَ ٱلرَّحْمَـٰنُ عِبَادَهُۥ بِٱلْغَيْبِ ۚ إِنَّهُۥ كَانَ وَعْدُهُۥ مَأْتِيًّا"
 text_search: "جنات عدن التي وعد الرحمن عباده بالغيب ۚ إنه كان وعده مأتيا"
+translations:
+  en: { text: "Gardens of Eden, which the Beneficent hath promised to His slaves in the unseen. Lo! His promise is ever sure of fulfilment -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یعنی) بہشت جاودانی (میں) جس کا خدا نے اپنے بندوں سے وعدہ کیا ہے (اور جو ان کی آنکھوں سے) پوشیدہ (ہے) ۔ بےشک اس کا وعدہ (نیکوکاروں کے سامنے) آنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

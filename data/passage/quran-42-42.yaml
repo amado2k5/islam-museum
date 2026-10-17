@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:42 (سورة الشورى، الآية 42)."
 text: "إِنَّمَا ٱلسَّبِيلُ عَلَى ٱلَّذِينَ يَظْلِمُونَ ٱلنَّاسَ وَيَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ ۚ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ"
 text_search: "إنما السبيل على الذين يظلمون الناس ويبغون في الأرض بغير الحق ۚ أولئك لهم عذاب أليم"
+translations:
+  en: { text: "The way (of blame) is only against those who oppress mankind, and wrongfully rebel in the earth. For such there is a painful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "الزام تو ان لوگوں پر ہے جو لوگوں پر ظلم کرتے ہیں اور ملک میں ناحق فساد پھیلاتے ہیں۔ یہی لوگ ہیں جن کو تکلیف دینے والا عذاب ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:96 (سورة النحل، الآية 96)."
 text: "مَا عِندَكُمْ يَنفَدُ ۖ وَمَا عِندَ ٱللَّهِ بَاقٍ ۗ وَلَنَجْزِيَنَّ ٱلَّذِينَ صَبَرُوٓا۟ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ"
 text_search: "ما عندكم ينفد ۖ وما عند الله باق ۗ ولنجزين الذين صبروا أجرهم بأحسن ما كانوا يعملون"
+translations:
+  en: { text: "That which ye have wasteth away, and that which Allah hath remaineth. And verily We shall pay those who are steadfast a recompense in proportion to the best of what they used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو کچھ تمہارے پاس ہے وہ ختم ہو جاتا ہے اور جو خدا کے پاس ہے وہ باقی ہے کہ (کبھی ختم نہیں ہوگا) اور جن لوگوں نے صبر کیا ہم اُن کو ان کے اعمال کا بہت اچھا بدلہ دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

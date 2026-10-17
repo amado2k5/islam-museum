@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:118 (سورة النساء، الآية 118)."
 text: "لَّعَنَهُ ٱللَّهُ ۘ وَقَالَ لَأَتَّخِذَنَّ مِنْ عِبَادِكَ نَصِيبًا مَّفْرُوضًا"
 text_search: "لعنه الله ۘ وقال لأتخذن من عبادك نصيبا مفروضا"
+translations:
+  en: { text: "Whom Allah cursed, and he said: Surely I will take of Thy bondmen an appointed portion,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس پر خدا نے لعنت کی ہے (جو خدا سے) کہنے لگا میں تیرے بندوں سے (غیر خدا کی نذر دلوا کر مال کا) ایک مقرر حصہ لے لیا کروں گا۔", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

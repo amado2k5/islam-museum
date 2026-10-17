@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:44 (سورة غافر، الآية 44)."
 text: "فَسَتَذْكُرُونَ مَآ أَقُولُ لَكُمْ ۚ وَأُفَوِّضُ أَمْرِىٓ إِلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ بَصِيرٌۢ بِٱلْعِبَادِ"
 text_search: "فستذكرون ما أقول لكم ۚ وأفوض أمري إلى الله ۚ إن الله بصير بالعباد"
+translations:
+  en: { text: "And ye will remember what I say unto you. I confide my cause unto Allah. Lo! Allah is Seer of (His) slaves.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو بات میں تم سے کہتا ہوں تم اسے آگے چل کر یاد کرو گے۔ اور میں اپنا کام خدا کے سپرد کرتا ہوں۔ بےشک خدا بندوں کو دیکھنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

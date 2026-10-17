@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:31 (سورة القصص، الآية 31)."
 text: "وَأَنْ أَلْقِ عَصَاكَ ۖ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَـٰمُوسَىٰٓ أَقْبِلْ وَلَا تَخَفْ ۖ إِنَّكَ مِنَ ٱلْـَٔامِنِينَ"
 text_search: "وأن ألق عصاك ۖ فلما رآها تهتز كأنها جان ولى مدبرا ولم يعقب ۚ يا موسى أقبل ولا تخف ۖ إنك من الآمنين"
+translations:
+  en: { text: "Throw down thy staff. And when he saw it writhing as it had been a demon, he turned to flee headlong, (and it was said unto him): O Moses! Draw nigh and fear not. Lo! thou art of those who are secure.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ کہ اپنی لاٹھی ڈالدو۔ جب دیکھا کہ وہ حرکت کر رہی ہے گویا سانپ ہے، تو پیٹھ پھیر کر چل دیئے اور پیچھے پھر کر بھی نہ دیکھا۔ (ہم نے کہا کہ) موسٰی آگے آؤ اور ڈرومت تم امن پانے والوں میں ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

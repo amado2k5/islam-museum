@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:225 (سورة البقرة، الآية 225)."
 text: "لَّا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَـٰنِكُمْ وَلَـٰكِن يُؤَاخِذُكُم بِمَا كَسَبَتْ قُلُوبُكُمْ ۗ وَٱللَّهُ غَفُورٌ حَلِيمٌ"
 text_search: "لا يؤاخذكم الله باللغو في أيمانكم ولكن يؤاخذكم بما كسبت قلوبكم ۗ والله غفور حليم"
+translations:
+  en: { text: "Allah will not take you to task for that which is unintentional in your oaths. But He will take you to task for that which your hearts have garnered. Allah is Forgiving, Clement.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا تمہاری لغو قسموں پر تم سے مواخذہ نہ کرے گا۔ لیکن جو قسمیں تم قصد دلی سے کھاؤ گے ان پر مواخذہ کرے گا۔ اور خدا بخشنے والا بردبار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:73 (سورة المائدة، الآية 73)."
 text: "لَّقَدْ كَفَرَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ ثَالِثُ ثَلَـٰثَةٍ ۘ وَمَا مِنْ إِلَـٰهٍ إِلَّآ إِلَـٰهٌ وَٰحِدٌ ۚ وَإِن لَّمْ يَنتَهُوا۟ عَمَّا يَقُولُونَ لَيَمَسَّنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ"
 text_search: "لقد كفر الذين قالوا إن الله ثالث ثلاثة ۘ وما من إله إلا إله واحد ۚ وإن لم ينتهوا عما يقولون ليمسن الذين كفروا منهم عذاب أليم"
+translations:
+  en: { text: "They surely disbelieve who say: Lo! Allah is the third of three; when there is no Allah save the One Allah. If they desist not from so saying a painful doom will fall on those of them who disbelieve.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ لوگ (بھی) کافر ہیں جو اس بات کے قائل ہیں کہ خدا تین میں کا تیسرا ہے حالانکہ اس معبود یکتا کے سوا کوئی عبادت کے لائق نہیں اگر یہ لوگ ایسے اقوال (وعقائد) سے باز نہیں آئیں گے تو ان میں جو کافر ہوئے ہیں وہ تکلیف دینے والا عذاب پائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

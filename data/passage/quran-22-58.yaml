@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:58 (سورة الحج، الآية 58)."
 text: "وَٱلَّذِينَ هَاجَرُوا۟ فِى سَبِيلِ ٱللَّهِ ثُمَّ قُتِلُوٓا۟ أَوْ مَاتُوا۟ لَيَرْزُقَنَّهُمُ ٱللَّهُ رِزْقًا حَسَنًا ۚ وَإِنَّ ٱللَّهَ لَهُوَ خَيْرُ ٱلرَّٰزِقِينَ"
 text_search: "والذين هاجروا في سبيل الله ثم قتلوا أو ماتوا ليرزقنهم الله رزقا حسنا ۚ وإن الله لهو خير الرازقين"
+translations:
+  en: { text: "Those who fled their homes for the cause of Allah and then were slain or died, Allah verily will provide for them a good provision. Lo! Allah, He verily is Best of all who make provision.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جن لوگوں نے خدا کی راہ میں ہجرت کی پھر مارے گئے یا مر گئے۔ ان کو خدا اچھی روزی دے گا۔ اور بےشک خدا سب سے بہتر رزق دینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

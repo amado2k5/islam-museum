@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:57 (سورة المائدة، الآية 57)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَكُمْ هُزُوًا وَلَعِبًا مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلِكُمْ وَٱلْكُفَّارَ أَوْلِيَآءَ ۚ وَٱتَّقُوا۟ ٱللَّهَ إِن كُنتُم مُّؤْمِنِينَ"
 text_search: "يا أيها الذين آمنوا لا تتخذوا الذين اتخذوا دينكم هزوا ولعبا من الذين أوتوا الكتاب من قبلكم والكفار أولياء ۚ واتقوا الله إن كنتم مؤمنين"
+translations:
+  en: { text: "O Ye who believe! Choose not for guardians such of those who received the Scripture before you, and of the disbelievers, as make a jest and sport of your religion. But keep your duty to Allah if ye are true believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے ایمان والوں! جن لوگوں کو تم سے پہلے کتابیں دی گئی تھیں ان کو اور کافروں کو جنہوں نے تمہارے دین کو ہنسی اور کھیل بنا رکھا ہے دوست نہ بناؤ اور مومن ہو تو خدا سے ڈرتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

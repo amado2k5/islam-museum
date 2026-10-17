@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:45 (سورة المائدة، الآية 45)."
 text: "وَكَتَبْنَا عَلَيْهِمْ فِيهَآ أَنَّ ٱلنَّفْسَ بِٱلنَّفْسِ وَٱلْعَيْنَ بِٱلْعَيْنِ وَٱلْأَنفَ بِٱلْأَنفِ وَٱلْأُذُنَ بِٱلْأُذُنِ وَٱلسِّنَّ بِٱلسِّنِّ وَٱلْجُرُوحَ قِصَاصٌ ۚ فَمَن تَصَدَّقَ بِهِۦ فَهُوَ كَفَّارَةٌ لَّهُۥ ۚ وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ"
 text_search: "وكتبنا عليهم فيها أن النفس بالنفس والعين بالعين والأنف بالأنف والأذن بالأذن والسن بالسن والجروح قصاص ۚ فمن تصدق به فهو كفارة له ۚ ومن لم يحكم بما أنزل الله فأولئك هم الظالمون"
+translations:
+  en: { text: "And We prescribed for them therein: The life for the life, and the eye for the eye, and the nose for the nose, and the ear for the ear, and the tooth for the tooth, and for wounds retaliation. But whoso forgoeth it (in the way of charity) it shall be expiation for him. Whoso judgeth not by that which Allah hath revealed: such are wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے ان لوگوں کے لیے تورات میں یہ حکم لکھ دیا تھا کہ جان کے بدلے جان اور آنکھ کے بدلے آنکھ اور ناک کے بدلے ناک اور کان کے بدلے کان اور دانت کے بدلے دانت اور سب زخموں کا اسی طرح بدلہ ہے لیکن جو شخص بدلہ معاف کر دے وہ اس کے لیے کفارہ ہوگا اور جو خدا کے نازل فرمائے ہوئے احکام کے مطابق حکم نہ دے تو ایسے ہی لوگ بےانصاف ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

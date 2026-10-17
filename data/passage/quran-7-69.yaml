@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:69 (سورة الأعراف، الآية 69)."
 text: "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ ۚ وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ قَوْمِ نُوحٍ وَزَادَكُمْ فِى ٱلْخَلْقِ بَصْۜطَةً ۖ فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ لَعَلَّكُمْ تُفْلِحُونَ"
 text_search: "أوعجبتم أن جاءكم ذكر من ربكم على رجل منكم لينذركم ۚ واذكروا إذ جعلكم خلفاء من بعد قوم نوح وزادكم في الخلق بسطة ۖ فاذكروا آلاء الله لعلكم تفلحون"
+translations:
+  en: { text: "Marvel ye that there should come unto you a Reminder from your Lord by means of a man among you, that he may warn you? Remember how He made you viceroys after Noah's folk, and gave you growth of stature. Remember (all) the bounties of your Lord, that haply ye may be successful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم کو اس بات سے تعجب ہوا ہے کہ تم میں سے ایک شخص کے ہاتھ تمہارے پروردگار کی طرف سے تمہارے پاس نصیحت آئی تاکہ وہ تمہیں ڈرائے اور یاد کرو تو کرو جب اس نے تم کو قوم نوح کے بعد سردار بنایا۔ اور تم کو پھیلاؤ زیادہ دیا۔ پس خدا کی نعمتوں کو یاد کرو۔ تاکہ نجات حاصل کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

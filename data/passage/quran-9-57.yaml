@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:57 (سورة التوبة، الآية 57)."
 text: "لَوْ يَجِدُونَ مَلْجَـًٔا أَوْ مَغَـٰرَٰتٍ أَوْ مُدَّخَلًا لَّوَلَّوْا۟ إِلَيْهِ وَهُمْ يَجْمَحُونَ"
 text_search: "لو يجدون ملجأ أو مغارات أو مدخلا لولوا إليه وهم يجمحون"
+translations:
+  en: { text: "Had they but found a refuge, or caverns, or a place to enter, they surely had resorted thither swift as runaways.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر ان کی کوئی بچاؤ کی جگہ (جیسے قلعہ) یا غار ومغاک یا (زمین کے اندر) گھسنے کی جگہ مل جائے تو اسی طرف رسیاں تڑاتے ہوئے بھاگ جائیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

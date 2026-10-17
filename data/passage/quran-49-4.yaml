@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 49:4 (سورة الحجرات، الآية 4)."
 text: "إِنَّ ٱلَّذِينَ يُنَادُونَكَ مِن وَرَآءِ ٱلْحُجُرَٰتِ أَكْثَرُهُمْ لَا يَعْقِلُونَ"
 text_search: "إن الذين ينادونك من وراء الحجرات أكثرهم لا يعقلون"
+translations:
+  en: { text: "Lo! those who call thee from behind the private apartments, most of them have no sense.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ تم کو حجروں کے باہر سے آواز دیتے ہیں ان میں اکثر بےعقل ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/delegation-of-banu-tamim, note: "قال ابن إسحاق: وفيهم نزل من القرآن، أي في وفد بني تميم الذين نادوا النبي من وراء حجراته (ص213)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-49 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

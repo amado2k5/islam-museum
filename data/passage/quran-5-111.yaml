@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:111 (سورة المائدة، الآية 111)."
 text: "وَإِذْ أَوْحَيْتُ إِلَى ٱلْحَوَارِيِّـۧنَ أَنْ ءَامِنُوا۟ بِى وَبِرَسُولِى قَالُوٓا۟ ءَامَنَّا وَٱشْهَدْ بِأَنَّنَا مُسْلِمُونَ"
 text_search: "وإذ أوحيت إلى الحواريين أن آمنوا بي وبرسولي قالوا آمنا واشهد بأننا مسلمون"
+translations:
+  en: { text: "And when I inspired the disciples, (saying): Believe in Me and in My messenger, they said: We believe. Bear witness that we have surrendered (unto Thee) \"we are muslims\".", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب میں نے حواریوں کی طرف حکم بھیجا کہ مجھ پر اور میرے پیغمبر پر ایمان لاؤ وہ کہنے لگے کہ (پروردگار) ہم ایمان لائے تو شاہد رہیو کہ ہم فرمانبردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

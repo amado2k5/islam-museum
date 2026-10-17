@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:154 (سورة الأنعام، الآية 154)."
 text: "ثُمَّ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ تَمَامًا عَلَى ٱلَّذِىٓ أَحْسَنَ وَتَفْصِيلًا لِّكُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لَّعَلَّهُم بِلِقَآءِ رَبِّهِمْ يُؤْمِنُونَ"
 text_search: "ثم آتينا موسى الكتاب تماما على الذي أحسن وتفصيلا لكل شيء وهدى ورحمة لعلهم بلقاء ربهم يؤمنون"
+translations:
+  en: { text: "Again, We gave the Scripture unto Moses, complete for him who would do good, an explanation of all things, a guidance and a mercy, that they might believe in the meeting with their Lord.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(ہاں) پھر (سن لو کہ) ہم نے موسیؑ کو کتاب عنایت کی تھی تاکہ ان لوگوں پر جو نیکوکار ہیں نعمت پوری کر دیں اور (اس میں) ہر چیز کا بیان (ہے) اور ہدایت (ہے) اور رحمت ہے تاکہ (ان کی امت کے) لوگ اپنے پروردگار کے رُوبرو حاضر ہونے کا یقین کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

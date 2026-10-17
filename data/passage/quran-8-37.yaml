@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:37 (سورة الأنفال، الآية 37)."
 text: "لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍ فَيَرْكُمَهُۥ جَمِيعًا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ"
 text_search: "ليميز الله الخبيث من الطيب ويجعل الخبيث بعضه على بعض فيركمه جميعا فيجعله في جهنم ۚ أولئك هم الخاسرون"
+translations:
+  en: { text: "That Allah may separate the wicked from the good, The wicked will He place piece upon piece, and heap them all together, and consign them unto hell. Such verily are the losers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ خدا ناپاک کو پاک سے الگ کر دے اور ناپاک کو ایک دوسرے پر رکھ کر ایک ڈھیر بنا دے۔ پھر اس کو دوزخ میں ڈال دے۔ یہی لوگ خسارہ پانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

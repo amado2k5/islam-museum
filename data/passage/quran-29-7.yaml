@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:7 (سورة العنكبوت، الآية 7)."
 text: "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَنَجْزِيَنَّهُمْ أَحْسَنَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ"
 text_search: "والذين آمنوا وعملوا الصالحات لنكفرن عنهم سيئاتهم ولنجزينهم أحسن الذي كانوا يعملون"
+translations:
+  en: { text: "And as for those who believe and do good works, We shall remit from them their evil deeds and shall repay them the best that they did.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ ایمان لائے اور نیک عمل کرتے رہے ہم ان کے گناہوں کو اُن سے دور کردیں گے اور ان کو ان کے اعمال کا بہت اچھا بدلہ دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

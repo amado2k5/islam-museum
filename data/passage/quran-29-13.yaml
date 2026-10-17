@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:13 (سورة العنكبوت، الآية 13)."
 text: "وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالًا مَّعَ أَثْقَالِهِمْ ۖ وَلَيُسْـَٔلُنَّ يَوْمَ ٱلْقِيَـٰمَةِ عَمَّا كَانُوا۟ يَفْتَرُونَ"
 text_search: "وليحملن أثقالهم وأثقالا مع أثقالهم ۖ وليسألن يوم القيامة عما كانوا يفترون"
+translations:
+  en: { text: "But they verily will bear their own loads and other loads beside their own, and they verily will be questioned on the Day of Resurrection concerning that which they invented.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ اپنے بوجھ بھی اُٹھائیں گے اور اپنے بوجھوں کے ساتھ اور (لوگوں کے) بوجھ بھی۔ اور جو بہتان یہ باندھتے رہے قیامت کے دن اُن کی اُن سے ضرور پرسش ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:9 (سورة فصلت، الآية 9)."
 text: "۞ قُلْ أَئِنَّكُمْ لَتَكْفُرُونَ بِٱلَّذِى خَلَقَ ٱلْأَرْضَ فِى يَوْمَيْنِ وَتَجْعَلُونَ لَهُۥٓ أَندَادًا ۚ ذَٰلِكَ رَبُّ ٱلْعَـٰلَمِينَ"
 text_search: "۞ قل أئنكم لتكفرون بالذي خلق الأرض في يومين وتجعلون له أندادا ۚ ذلك رب العالمين"
+translations:
+  en: { text: "Say (O Muhammad, unto the idolaters): Disbelieve ye verily in Him Who created the earth in two Days, and ascribe ye unto Him rivals? He (and none else) is the Lord of the Worlds.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کیا تم اس سے انکار کرتے ہو جس نے زمین کو دو دن میں پیدا کیا۔ اور (بتوں کو) اس کا مدمقابل بناتے ہو۔ وہی تو سارے جہان کا مالک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

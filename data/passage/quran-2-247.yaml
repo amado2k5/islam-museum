@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:247 (سورة البقرة، الآية 247)."
 text: "وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ ٱللَّهَ قَدْ بَعَثَ لَكُمْ طَالُوتَ مَلِكًا ۚ قَالُوٓا۟ أَنَّىٰ يَكُونُ لَهُ ٱلْمُلْكُ عَلَيْنَا وَنَحْنُ أَحَقُّ بِٱلْمُلْكِ مِنْهُ وَلَمْ يُؤْتَ سَعَةً مِّنَ ٱلْمَالِ ۚ قَالَ إِنَّ ٱللَّهَ ٱصْطَفَىٰهُ عَلَيْكُمْ وَزَادَهُۥ بَسْطَةً فِى ٱلْعِلْمِ وَٱلْجِسْمِ ۖ وَٱللَّهُ يُؤْتِى مُلْكَهُۥ مَن يَشَآءُ ۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ"
 text_search: "وقال لهم نبيهم إن الله قد بعث لكم طالوت ملكا ۚ قالوا أنى يكون له الملك علينا ونحن أحق بالملك منه ولم يؤت سعة من المال ۚ قال إن الله اصطفاه عليكم وزاده بسطة في العلم والجسم ۖ والله يؤتي ملكه من يشاء ۚ والله واسع عليم"
+translations:
+  en: { text: "Their Prophet said unto them: Lo! Allah hath raised up Saul to be a king for you. They said: How can he have kingdom over us when we are more deserving of the kingdom than he is, since he hath not been given wealth enough? He said: Lo! Allah hath chosen him above you, and hath increased him abundantly in wisdom and stature. Allah bestoweth His Sovereignty on whom He will. Allah is All-Embracing, All-Knowing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور پیغمبر نے ان سے (یہ بھی) کہا کہ خدا نے تم پر طالوت کو بادشاہ مقرر فرمایا ہے۔ وہ بولے کہ اسے ہم پر بادشاہی کا حق کیونکر ہوسکتا ہےبادشاہی کے مستحق تو ہم ہیں اور اس کے پاس تو بہت سی دولت بھی نہیں۔ پیغمبر نے کہا کہ خدا نےاس کو تم پر فضیلت دی ہے اور (بادشاہی کے لئے) منتخب فرمایا ہے اس نے اسے علم بھی بہت سا بخشا ہے اور تن و توش بھی (بڑا عطا کیا ہے) اور خدا (کو اختیار ہے) جسے چاہے بادشاہی بخشے۔ وہ بڑا کشائش والا اور دانا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

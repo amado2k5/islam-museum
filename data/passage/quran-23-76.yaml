@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:76 (سورة المؤمنون، الآية 76)."
 text: "وَلَقَدْ أَخَذْنَـٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ"
 text_search: "ولقد أخذناهم بالعذاب فما استكانوا لربهم وما يتضرعون"
+translations:
+  en: { text: "Already have We grasped them with punishment, but they humble not themselves unto their Lord, nor do they pray,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے ان کو عذاب میں پکڑا تو بھی انہوں نے خدا کے آگے عاجزی نہ کی اور وہ عاجزی کرتے ہی نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

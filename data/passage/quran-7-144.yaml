@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:144 (سورة الأعراف، الآية 144)."
 text: "قَالَ يَـٰمُوسَىٰٓ إِنِّى ٱصْطَفَيْتُكَ عَلَى ٱلنَّاسِ بِرِسَـٰلَـٰتِى وَبِكَلَـٰمِى فَخُذْ مَآ ءَاتَيْتُكَ وَكُن مِّنَ ٱلشَّـٰكِرِينَ"
 text_search: "قال يا موسى إني اصطفيتك على الناس برسالاتي وبكلامي فخذ ما آتيتك وكن من الشاكرين"
+translations:
+  en: { text: "He said: O Moses! I have preferred thee above mankind by My messages and by My speaking (unto thee). So hold that which I have given thee, and be among the thankful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(خدا نے) فرمایا موسیٰ میں نے تم کو اپنے پیغام اور اپنے کلام سے لوگوں سے ممتاز کیا ہے۔ تو جو میں نے تم کو عطا کیا ہے اسے پکڑ رکھو اور (میرا) شکر بجالاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

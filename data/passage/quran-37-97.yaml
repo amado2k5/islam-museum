@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:97 (سورة الصافات، الآية 97)."
 text: "قَالُوا۟ ٱبْنُوا۟ لَهُۥ بُنْيَـٰنًا فَأَلْقُوهُ فِى ٱلْجَحِيمِ"
 text_search: "قالوا ابنوا له بنيانا فألقوه في الجحيم"
+translations:
+  en: { text: "They said: Build for him a building and fling him in the red-hotfire.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ کہنے لگے کہ اس کے لئے ایک عمارت بناؤ پھر اس کو آگ کے ڈھیر میں ڈال دو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

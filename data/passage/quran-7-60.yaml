@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:60 (سورة الأعراف، الآية 60)."
 text: "قَالَ ٱلْمَلَأُ مِن قَوْمِهِۦٓ إِنَّا لَنَرَىٰكَ فِى ضَلَـٰلٍ مُّبِينٍ"
 text_search: "قال الملأ من قومه إنا لنراك في ضلال مبين"
+translations:
+  en: { text: "The chieftains of his people said: Lo! we see thee surely in plain error.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جو ان کی قوم میں سردار تھے وہ کہنے لگے کہ ہم تمہیں صریح گمراہی میں (مبتلا) دیکھتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

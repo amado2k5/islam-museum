@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 9:108 (سورة التوبة، الآية 108)."
 text: "لَا تَقُمْ فِيهِ أَبَدًا ۚ لَّمَسْجِدٌ أُسِّسَ عَلَى ٱلتَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَن تَقُومَ فِيهِ ۚ فِيهِ رِجَالٌ يُحِبُّونَ أَن يَتَطَهَّرُوا۟ ۚ وَٱللَّهُ يُحِبُّ ٱلْمُطَّهِّرِينَ"
 text_search: "لا تقم فيه أبدا ۚ لمسجد أسس على التقوى من أول يوم أحق أن تقوم فيه ۚ فيه رجال يحبون أن يتطهروا ۚ والله يحب المطهرين"
+translations:
+  en: { text: "Never stand (to pray) there. A place of worship which was found upon duty (to Allah) from the first day is more worthy that thou shouldst stand (to pray) therein, wherein are men who love to purify themselves. Allah loveth the purifiers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تم اس (مسجد) میں کبھی (جاکر) کھڑے بھی نہ ہونا۔ البتہ وہ مسجد جس کی بنیاد پہلے دن سے تقویٰ پر رکھی گئی ہے اس قابل ہے کہ اس میں جایا (اور نماز پڑھایا) کرو۔ اس میں ایسے لوگ ہیں جو کہ پاک رہنے کو پسند کرتے ہیں۔ اور خدا پاک رہنے والوں کو ہی پسند کرتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/demolition-of-masjid-al-dirar, note: "داخلة في عبارة ابن إسحاق «إلى آخر القصة» بعد افتتاح الآية 107 (ص174)؛ تحديد آخر القصة قراءة المتحف (needs_source)", sources: [source/ibn-hisham-saqqa] }
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

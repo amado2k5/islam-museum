@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:4 (سورة القصص، الآية 4)."
 text: "إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًا يَسْتَضْعِفُ طَآئِفَةً مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ"
 text_search: "إن فرعون علا في الأرض وجعل أهلها شيعا يستضعف طائفة منهم يذبح أبناءهم ويستحيي نساءهم ۚ إنه كان من المفسدين"
+translations:
+  en: { text: "Lo! Pharaoh exalted himself in the earth and made its people castes. A tribe among them he oppressed, killing their sons and sparing their women. Lo! he was of those who work corruption.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ فرعون نے ملک میں سر اُٹھا رکھا تھا اور وہاں کے باشندوں کو گروہ گروہ بنا رکھا تھا اُن میں سے ایک گروہ کو (یہاں تک) کمزور کر دیا تھا کہ اُن کے بیٹوں کو ذبح کر ڈالتا اور اُن کی لڑکیوں کو زندہ رہنے دیتا۔ بیشک وہ مفسدوں میں تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 74:28 (سورة المدثر، الآية 28)."
 text: "لَا تُبْقِى وَلَا تَذَرُ"
 text_search: "لا تبقي ولا تذر"
+translations:
+  en: { text: "It leaveth naught; it spareth naught", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(وہ آگ ہے کہ) نہ باقی رکھے گی اور نہ چھوڑے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-74 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

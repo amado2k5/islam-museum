@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 53:54 (سورة النجم، الآية 54)."
 text: "فَغَشَّىٰهَا مَا غَشَّىٰ"
 text_search: "فغشاها ما غشى"
+translations:
+  en: { text: "So that there covered them that which did cover.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر ان پر چھایا جو چھایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-53 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

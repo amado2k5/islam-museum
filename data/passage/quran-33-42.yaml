@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:42 (سورة الأحزاب، الآية 42)."
 text: "وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا"
 text_search: "وسبحوه بكرة وأصيلا"
+translations:
+  en: { text: "And glorify Him early and late.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور صبح اور شام اس کی پاکی بیان کرتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 64:17 (سورة التغابن، الآية 17)."
 text: "إِن تُقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعِفْهُ لَكُمْ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ شَكُورٌ حَلِيمٌ"
 text_search: "إن تقرضوا الله قرضا حسنا يضاعفه لكم ويغفر لكم ۚ والله شكور حليم"
+translations:
+  en: { text: "If ye lend unto Allah a goodly loan, He will double it for you and will forgive you, for Allah is Responsive, Clement,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تم خدا کو (اخلاص اور نیت) نیک (سے) قرض دو گے تو وہ تم کو اس کا دوچند دے گا اور تمہارے گناہ بھی معاف کردے گا۔ اور خدا قدر شناس اور بردبار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-64 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:108 (سورة الصافات، الآية 108)."
 text: "وَتَرَكْنَا عَلَيْهِ فِى ٱلْـَٔاخِرِينَ"
 text_search: "وتركنا عليه في الآخرين"
+translations:
+  en: { text: "And We left for him among the later folk (the salutation):", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور پیچھے آنے والوں میں ابراہیم کا (ذکر خیر باقی) چھوڑ دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

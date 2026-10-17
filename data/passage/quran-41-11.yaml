@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:11 (سورة فصلت، الآية 11)."
 text: "ثُمَّ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ وَهِىَ دُخَانٌ فَقَالَ لَهَا وَلِلْأَرْضِ ٱئْتِيَا طَوْعًا أَوْ كَرْهًا قَالَتَآ أَتَيْنَا طَآئِعِينَ"
 text_search: "ثم استوى إلى السماء وهي دخان فقال لها وللأرض ائتيا طوعا أو كرها قالتا أتينا طائعين"
+translations:
+  en: { text: "Then turned He to the heaven when it was smoke, and said unto it and unto the earth: Come both of you, willingly or loth. They said: We come, obedient.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر آسمان کی طرف متوجہ ہوا اور وہ دھواں تھا تو اس نے اس سے اور زمین سے فرمایا کہ دونوں آؤ (خواہ) خوشی سے خواہ ناخوشی سے۔ انہوں نے کہا کہ ہم خوشی سے آتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

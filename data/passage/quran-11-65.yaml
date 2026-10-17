@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:65 (سورة هود، الآية 65)."
 text: "فَعَقَرُوهَا فَقَالَ تَمَتَّعُوا۟ فِى دَارِكُمْ ثَلَـٰثَةَ أَيَّامٍ ۖ ذَٰلِكَ وَعْدٌ غَيْرُ مَكْذُوبٍ"
 text_search: "فعقروها فقال تمتعوا في داركم ثلاثة أيام ۖ ذلك وعد غير مكذوب"
+translations:
+  en: { text: "But they hamstrung her, and then he said: Enjoy life in your dwelling-place three days! This is a threat that will not be belied.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر انہوں نے اس کی کانچیں کاٹ ڈالیں۔ تو (صالح نے) کہا کہ اپنے گھروں میں تم تین دن (اور) فائدہ اٹھا لو۔ یہ وعدہ ہے کہ جھوٹا نہ ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

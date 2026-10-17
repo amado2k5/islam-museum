@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:45 (سورة طه، الآية 45)."
 text: "قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن يَفْرُطَ عَلَيْنَآ أَوْ أَن يَطْغَىٰ"
 text_search: "قالا ربنا إننا نخاف أن يفرط علينا أو أن يطغى"
+translations:
+  en: { text: "They said: Our Lord! Lo! we fear that he may be beforehand with us or that he may play the tyrant.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "دونوں کہنے لگے کہ ہمارے پروردگار ہمیں خوف ہے کہ ہم پر تعدی کرنے لگے یا زیادہ سرکش ہوجائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

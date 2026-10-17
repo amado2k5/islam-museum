@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 48:28 (سورة الفتح، الآية 28)."
 text: "هُوَ ٱلَّذِىٓ أَرْسَلَ رَسُولَهُۥ بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُۥ عَلَى ٱلدِّينِ كُلِّهِۦ ۚ وَكَفَىٰ بِٱللَّهِ شَهِيدًا"
 text_search: "هو الذي أرسل رسوله بالهدى ودين الحق ليظهره على الدين كله ۚ وكفى بالله شهيدا"
+translations:
+  en: { text: "He it is Who hath sent His messenger with the guidance and the religion of truth, that He may cause it to prevail over all religion. And Allah sufficeth as a Witness.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہی تو ہے جس نے اپنے پیغمبر کو ہدایت (کی کتاب) اور دین حق دے کر بھیجا تاکہ اس کو تمام دینوں پر غالب کرے۔ اور حق ظاہر کرنے کے لئے خدا ہی کافی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-48 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

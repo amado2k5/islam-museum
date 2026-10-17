@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:199 (سورة الأعراف، الآية 199)."
 text: "خُذِ ٱلْعَفْوَ وَأْمُرْ بِٱلْعُرْفِ وَأَعْرِضْ عَنِ ٱلْجَـٰهِلِينَ"
 text_search: "خذ العفو وأمر بالعرف وأعرض عن الجاهلين"
+translations:
+  en: { text: "Keep to forgiveness (O Muhammad), and enjoin kindness, and turn away from the ignorant.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) عفو اختیار کرو اور نیک کام کرنے کا حکم دو اور جاہلوں سے کنارہ کرلو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

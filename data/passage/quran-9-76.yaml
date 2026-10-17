@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:76 (سورة التوبة، الآية 76)."
 text: "فَلَمَّآ ءَاتَىٰهُم مِّن فَضْلِهِۦ بَخِلُوا۟ بِهِۦ وَتَوَلَّوا۟ وَّهُم مُّعْرِضُونَ"
 text_search: "فلما آتاهم من فضله بخلوا به وتولوا وهم معرضون"
+translations:
+  en: { text: "Yet when He gave them of His bounty, they hoarded it and turned away, averse;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لیکن جب خدا نے ان کو اپنے فضل سے (مال) دیا تو اس میں بخل کرنے لگے اور (اپنے عہد سے) روگردانی کرکے پھر بیٹھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

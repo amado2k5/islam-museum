@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:104 (سورة الأنبياء، الآية 104)."
 text: "يَوْمَ نَطْوِى ٱلسَّمَآءَ كَطَىِّ ٱلسِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَآ أَوَّلَ خَلْقٍ نُّعِيدُهُۥ ۚ وَعْدًا عَلَيْنَآ ۚ إِنَّا كُنَّا فَـٰعِلِينَ"
 text_search: "يوم نطوي السماء كطي السجل للكتب ۚ كما بدأنا أول خلق نعيده ۚ وعدا علينا ۚ إنا كنا فاعلين"
+translations:
+  en: { text: "The Day when We shall roll up the heavens as a recorder rolleth up a written scroll. As We began the first creation, We shall repeat it. (It is) a promise (binding) upon Us. Lo! We are to perform it.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس دن ہم آسمان کو اس طرح لپیٹ لیں گے جیسے خطوں کا طومار لپیٹ لیتے ہیں۔ جس طرح ہم نے (کائنات کو) پہلے پیدا کیا اسی طرح دوبارہ پیدا کردیں گے۔ (یہ) وعدہ (جس کا پورا کرنا لازم) ہے۔ ہم (ایسا) ضرور کرنے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

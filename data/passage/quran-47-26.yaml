@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:26 (سورة محمد، الآية 26)."
 text: "ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لِلَّذِينَ كَرِهُوا۟ مَا نَزَّلَ ٱللَّهُ سَنُطِيعُكُمْ فِى بَعْضِ ٱلْأَمْرِ ۖ وَٱللَّهُ يَعْلَمُ إِسْرَارَهُمْ"
 text_search: "ذلك بأنهم قالوا للذين كرهوا ما نزل الله سنطيعكم في بعض الأمر ۖ والله يعلم إسرارهم"
+translations:
+  en: { text: "That is because they say unto those who hate what Allah hath revealed: We will obey you in some matters; and Allah knoweth their secret talk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ اس لئے کہ جو لوگ خدا کی اُتاری ہوئی (کتاب) سے بیزار ہیں یہ ان سے کہتے ہیں کہ بعض کاموں میں ہم تمہاری بات بھی مانیں گے۔ اور خدا ان کے پوشیدہ مشوروں سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

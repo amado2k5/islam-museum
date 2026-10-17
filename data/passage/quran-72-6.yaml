@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 72:6 (سورة الجن، الآية 6)."
 text: "وَأَنَّهُۥ كَانَ رِجَالٌ مِّنَ ٱلْإِنسِ يَعُوذُونَ بِرِجَالٍ مِّنَ ٱلْجِنِّ فَزَادُوهُمْ رَهَقًا"
 text_search: "وأنه كان رجال من الإنس يعوذون برجال من الجن فزادوهم رهقا"
+translations:
+  en: { text: "And indeed (O Muhammad) individuals of humankind used to invoke the protection of individuals of the jinn, so that they increased them in revolt against Allah);", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ کہ بعض بنی آدم بعض جنات کی پناہ پکڑا کرتے تھے (اس سے) ان کی سرکشی اور بڑھ گئی تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-72 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

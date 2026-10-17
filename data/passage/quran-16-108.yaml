@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:108 (سورة النحل، الآية 108)."
 text: "أُو۟لَـٰٓئِكَ ٱلَّذِينَ طَبَعَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَسَمْعِهِمْ وَأَبْصَـٰرِهِمْ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْغَـٰفِلُونَ"
 text_search: "أولئك الذين طبع الله على قلوبهم وسمعهم وأبصارهم ۖ وأولئك هم الغافلون"
+translations:
+  en: { text: "Such are they whose hearts and ears and eyes Allah hath sealed. And such are the heedless.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہی لوگ ہیں جن کے دلوں پر اور کانوں پر اور آنکھوں پر خدا نے مہر لگا رکھی ہے۔ اور یہی غفلت میں پڑے ہوئے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

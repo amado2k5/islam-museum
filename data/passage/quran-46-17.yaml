@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 46:17 (سورة الأحقاف، الآية 17)."
 text: "وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ ٱلْقُرُونُ مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ ءَامِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَيَقُولُ مَا هَـٰذَآ إِلَّآ أَسَـٰطِيرُ ٱلْأَوَّلِينَ"
 text_search: "والذي قال لوالديه أف لكما أتعدانني أن أخرج وقد خلت القرون من قبلي وهما يستغيثان الله ويلك آمن إن وعد الله حق فيقول ما هذا إلا أساطير الأولين"
+translations:
+  en: { text: "And whoso saith unto his parents: Fie upon you both! Do ye threaten me that I shall be brought forth (again) when generations before me have passed away? And they twain cry unto Allah for help (and say): Woe unto thee! Believe! Lo! the promise of Allah is true. But he saith: This is naught save fables of the men of old:", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس شخص نے اپنے ماں باپ سے کہا کہ اُف اُف! تم مجھے یہ بتاتے ہو کہ میں (زمین سے) نکالا جاؤں گا حالانکہ بہت سے لوگ مجھ سے پہلے گزر چکے ہیں۔ اور وہ دونوں خدا کی جناب میں فریاد کرتے (ہوئے کہتے) تھے کہ کم بخت ایمان لا۔ خدا کا وعدہ تو سچا ہے۔ تو کہنے لگا یہ تو پہلے لوگوں کی کہانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 89:11 (سورة الفجر، الآية 11)."
 text: "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَـٰدِ"
 text_search: "الذين طغوا في البلاد"
+translations:
+  en: { text: "Who (all) were rebellious (to Allah) in these lands,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ لوگ ملکوں میں سرکش ہو رہے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-89 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

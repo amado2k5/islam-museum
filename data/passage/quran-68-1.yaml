@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 68:1 (سورة القلم، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ"
 text_search: "بسم الله الرحمن الرحيم ن ۚ والقلم وما يسطرون"
+translations:
+  en: { text: "Nun. By the pen and that which they write (therewith),", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "نٓ۔ قلم کی اور جو (اہل قلم) لکھتے ہیں اس کی قسم", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-68 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

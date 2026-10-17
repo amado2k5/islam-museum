@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:42 (سورة الأنفال، الآية 42)."
 text: "إِذْ أَنتُم بِٱلْعُدْوَةِ ٱلدُّنْيَا وَهُم بِٱلْعُدْوَةِ ٱلْقُصْوَىٰ وَٱلرَّكْبُ أَسْفَلَ مِنكُمْ ۚ وَلَوْ تَوَاعَدتُّمْ لَٱخْتَلَفْتُمْ فِى ٱلْمِيعَـٰدِ ۙ وَلَـٰكِن لِّيَقْضِىَ ٱللَّهُ أَمْرًا كَانَ مَفْعُولًا لِّيَهْلِكَ مَنْ هَلَكَ عَنۢ بَيِّنَةٍ وَيَحْيَىٰ مَنْ حَىَّ عَنۢ بَيِّنَةٍ ۗ وَإِنَّ ٱللَّهَ لَسَمِيعٌ عَلِيمٌ"
 text_search: "إذ أنتم بالعدوة الدنيا وهم بالعدوة القصوى والركب أسفل منكم ۚ ولو تواعدتم لاختلفتم في الميعاد ۙ ولكن ليقضي الله أمرا كان مفعولا ليهلك من هلك عن بينة ويحيى من حي عن بينة ۗ وإن الله لسميع عليم"
+translations:
+  en: { text: "When ye were on the near bank (of the valley) and they were on the yonder bank, and the caravan was below you (on the coast plain). And had ye trysted to meet one another ye surely would have failed to keep the tryst, but (it happened, as it did, without the forethought of either of you) that Allah might conclude a thing that must be done; that he who perished (on that day) might perish by a clear proof (of His Sovereignty) and he who survived might survive by a clear proof (of His Sovereignty). Lo! Allah in truth is Hearer, Knower.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس وقت تم (مدینے سے) قریب کے ناکے پر تھے اور کافر بعید کے ناکے پر اور قافلہ تم سے نیچے (اتر گیا) تھا۔ اور اگر تم (جنگ کے لیے) آپس میں قرارداد کرلیتے تو وقت معین (پر جمع ہونے) میں تقدیم وتاخیر ہو جاتی۔ لیکن خدا کو منظور تھا کہ جو کام ہو کر رہنے والا تھا اسے کر ہی ڈالے تاکہ جو مرے بصیرت پر (یعنی یقین جان کر) مرے اور جو جیتا رہے وہ بھی بصیرت پر (یعنی حق پہچان کر) جیتا رہے۔ اور کچھ شک نہیں کہ خدا سنتا جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

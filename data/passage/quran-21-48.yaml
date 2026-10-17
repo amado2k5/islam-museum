@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:48 (سورة الأنبياء، الآية 48)."
 text: "وَلَقَدْ ءَاتَيْنَا مُوسَىٰ وَهَـٰرُونَ ٱلْفُرْقَانَ وَضِيَآءً وَذِكْرًا لِّلْمُتَّقِينَ"
 text_search: "ولقد آتينا موسى وهارون الفرقان وضياء وذكرا للمتقين"
+translations:
+  en: { text: "And We verily gave Moses and Aaron the Criterion (of right and wrong) and a light and a Reminder for those who keep from evil,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے موسیٰ اور ہارون کو (ہدایت اور گمراہی میں) فرق کر دینے والی اور (سرتاپا) روشنی اور نصیحت (کی کتاب) عطا کی (یعنی) پرہیز گاروں کے لئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 91:14 (سورة الشمس، الآية 14)."
 text: "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا"
 text_search: "فكذبوه فعقروها فدمدم عليهم ربهم بذنبهم فسواها"
+translations:
+  en: { text: "But they denied him, and they hamstrung her, so Allah doomed them for their sin and rased (their dwellings).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر انہوں نے پیغمبر کو جھٹلایا اور اونٹنی کی کونچیں کاٹ دیں تو خدا نے ان کےگناہ کے سبب ان پر عذاب نازل کیا اور سب کو (ہلاک کر کے) برابر کر دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-91 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

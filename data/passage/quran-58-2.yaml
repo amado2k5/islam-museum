@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 58:2 (سورة المجادلة، الآية 2)."
 text: "ٱلَّذِينَ يُظَـٰهِرُونَ مِنكُم مِّن نِّسَآئِهِم مَّا هُنَّ أُمَّهَـٰتِهِمْ ۖ إِنْ أُمَّهَـٰتُهُمْ إِلَّا ٱلَّـٰٓـِٔى وَلَدْنَهُمْ ۚ وَإِنَّهُمْ لَيَقُولُونَ مُنكَرًا مِّنَ ٱلْقَوْلِ وَزُورًا ۚ وَإِنَّ ٱللَّهَ لَعَفُوٌّ غَفُورٌ"
 text_search: "الذين يظاهرون منكم من نسائهم ما هن أمهاتهم ۖ إن أمهاتهم إلا اللائي ولدنهم ۚ وإنهم ليقولون منكرا من القول وزورا ۚ وإن الله لعفو غفور"
+translations:
+  en: { text: "Such of you as put away your wives (by saying they are as their mothers) - They are not their mothers; none are their mothers except those who gave them birth - they indeed utter an ill word and a lie. And lo! Allah is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ تم میں سے اپنی عورتوں کو ماں کہہ دیتے ہیں وہ ان کی مائیں نہیں (ہوجاتیں) ۔ ان کی مائیں تو وہی ہیں جن کے بطن سے وہ پیدا ہوئے۔ بےشک وہ نامعقول اور جھوٹی بات کہتے ہیں اور خدا بڑا معاف کرنے والا (اور) بخشنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-58 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

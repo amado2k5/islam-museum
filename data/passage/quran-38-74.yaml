@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:74 (سورة ص، الآية 74)."
 text: "إِلَّآ إِبْلِيسَ ٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَـٰفِرِينَ"
 text_search: "إلا إبليس استكبر وكان من الكافرين"
+translations:
+  en: { text: "Saving Iblis; he was scornful and became one of the disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر شیطان اکڑ بیٹھا اور کافروں میں ہوگیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

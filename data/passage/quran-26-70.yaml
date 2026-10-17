@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:70 (سورة الشعراء، الآية 70)."
 text: "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَا تَعْبُدُونَ"
 text_search: "إذ قال لأبيه وقومه ما تعبدون"
+translations:
+  en: { text: "When he said unto his father and his folk: What worship ye?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب انہوں نے اپنے باپ اور اپنی قوم کے لوگوں سے کہا کہ تم کس چیز کو پوجتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

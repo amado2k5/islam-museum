@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:165 (سورة الأعراف، الآية 165)."
 text: "فَلَمَّا نَسُوا۟ مَا ذُكِّرُوا۟ بِهِۦٓ أَنجَيْنَا ٱلَّذِينَ يَنْهَوْنَ عَنِ ٱلسُّوٓءِ وَأَخَذْنَا ٱلَّذِينَ ظَلَمُوا۟ بِعَذَابٍۭ بَـِٔيسٍۭ بِمَا كَانُوا۟ يَفْسُقُونَ"
 text_search: "فلما نسوا ما ذكروا به أنجينا الذين ينهون عن السوء وأخذنا الذين ظلموا بعذاب بئيس بما كانوا يفسقون"
+translations:
+  en: { text: "And when they forgot that whereof they had been reminded, We rescued those who forbade wrong, and visited those who did wrong with dreadful punishment because they were evil-livers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب انہوں نے ان باتوں کو فراموش کردیا جن کی ان کو نصیحت کی گئی تھی تو جو لوگ برائی سے منع کرتے تھے ان کو ہم نے نجات دی اور جو ظلم کرتے تھے ان کو برے عذاب میں پکڑ لیا کہ نافرمانی کئے جاتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

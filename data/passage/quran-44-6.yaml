@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:6 (سورة الدخان، الآية 6)."
 text: "رَحْمَةً مِّن رَّبِّكَ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ"
 text_search: "رحمة من ربك ۚ إنه هو السميع العليم"
+translations:
+  en: { text: "A mercy from thy Lord. Lo! He, even He is the Hearer, the Knower,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ) تمہارے پروردگار کی رحمت ہے۔ وہ تو سننے والا جاننے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

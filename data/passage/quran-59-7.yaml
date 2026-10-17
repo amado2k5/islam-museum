@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 59:7 (سورة الحشر، الآية 7)."
 text: "مَّآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱبْنِ ٱلسَّبِيلِ كَىْ لَا يَكُونَ دُولَةًۢ بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ ۚ وَمَآ ءَاتَىٰكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمْ عَنْهُ فَٱنتَهُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ"
 text_search: "ما أفاء الله على رسوله من أهل القرى فلله وللرسول ولذي القربى واليتامى والمساكين وابن السبيل كي لا يكون دولة بين الأغنياء منكم ۚ وما آتاكم الرسول فخذوه وما نهاكم عنه فانتهوا ۚ واتقوا الله ۖ إن الله شديد العقاب"
+translations:
+  en: { text: "That which Allah giveth as spoil unto His messenger from the people of the townships, it is for Allah and His messenger and for the near of kin and the orphans and the needy and the wayfarer, that it become not a commodity between the rich among you. And whatsoever the messenger giveth you, take it. And whatsoever he forbiddeth, abstain (from it). And keep your duty to Allah. Lo! Allah is stern in reprisal.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو مال خدا نے اپنے پیغمبر کو دیہات والوں سے دلوایا ہے وہ خدا کے اور پیغمبر کے اور (پیغمبر کے) قرابت والوں کے اور یتیموں کے اور حاجتمندوں کے اور مسافروں کے لئے ہے۔ تاکہ جو لوگ تم میں دولت مند ہیں ان ہی کے ہاتھوں میں نہ پھرتا رہے۔ سو جو چیز تم کو پیغمبر دیں وہ لے لو۔ اور جس سے منع کریں (اس سے) باز رہو۔ اور خدا سے ڈرتے رہو۔ بےشک خدا سخت عذاب دینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

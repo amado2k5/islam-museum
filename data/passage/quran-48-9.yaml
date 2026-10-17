@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 48:9 (سورة الفتح، الآية 9)."
 text: "لِّتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَتُعَزِّرُوهُ وَتُوَقِّرُوهُ وَتُسَبِّحُوهُ بُكْرَةً وَأَصِيلًا"
 text_search: "لتؤمنوا بالله ورسوله وتعزروه وتوقروه وتسبحوه بكرة وأصيلا"
+translations:
+  en: { text: "That ye (mankind) may believe in Allah and His messenger, and may honour Him, and may revere Him, and may glorify Him at early dawn and at the close of day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ (مسلمانو) تم لوگ خدا پر اور اس کے پیغمبر پر ایمان لاؤ اور اس کی مدد کرو اور اس کو بزرگ سمجھو۔ اور صبح وشام اس کی تسبیح کرتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-48 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 72:17 (سورة الجن، الآية 17)."
 text: "لِّنَفْتِنَهُمْ فِيهِ ۚ وَمَن يُعْرِضْ عَن ذِكْرِ رَبِّهِۦ يَسْلُكْهُ عَذَابًا صَعَدًا"
 text_search: "لنفتنهم فيه ۚ ومن يعرض عن ذكر ربه يسلكه عذابا صعدا"
+translations:
+  en: { text: "That We may test them thereby, and whoso turneth away from the remembrance of his Lord; He will thrust him into ever-growing torment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ اس سے ان کی آزمائش کریں۔ اور جو شخص اپنے پروردگار کی یاد سے منہ پھیرے گا وہ اس کو سخت عذاب میں داخل کرے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-72 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

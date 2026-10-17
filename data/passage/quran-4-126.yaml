@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:126 (سورة النساء، الآية 126)."
 text: "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ مُّحِيطًا"
 text_search: "ولله ما في السماوات وما في الأرض ۚ وكان الله بكل شيء محيطا"
+translations:
+  en: { text: "Unto Allah belongeth whatsoever is in the heavens and whatsoever is in the earth. Allah ever surroundeth all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور آسمان وزمین میں جو کچھ ہے سب خدا ہی کا ہے۔ اور خدا ہر چیز پر احاطے کئے ہوئے ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

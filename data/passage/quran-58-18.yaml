@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 58:18 (سورة المجادلة، الآية 18)."
 text: "يَوْمَ يَبْعَثُهُمُ ٱللَّهُ جَمِيعًا فَيَحْلِفُونَ لَهُۥ كَمَا يَحْلِفُونَ لَكُمْ ۖ وَيَحْسَبُونَ أَنَّهُمْ عَلَىٰ شَىْءٍ ۚ أَلَآ إِنَّهُمْ هُمُ ٱلْكَـٰذِبُونَ"
 text_search: "يوم يبعثهم الله جميعا فيحلفون له كما يحلفون لكم ۖ ويحسبون أنهم على شيء ۚ ألا إنهم هم الكاذبون"
+translations:
+  en: { text: "On the day when Allah will raise them all together, then will they swear unto Him as they (now) swear unto you, and they will fancy that they have some standing. Lo! is it not they who are the liars?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس دن خدا ان سب کو جلا اٹھائے گا تو جس طرح تمہارے سامنے قسمیں کھاتے (اسی طرح) خدا کے سامنے قسمیں کھائیں گے اور خیال کریں گے کہ (ایسا کرنے سے) کام لے نکلے ہیں۔ دیکھو یہ جھوٹے (اور برسر غلط) ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-58 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

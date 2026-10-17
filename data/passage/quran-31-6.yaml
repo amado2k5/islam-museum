@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 31:6 (سورة لقمان، الآية 6)."
 text: "وَمِنَ ٱلنَّاسِ مَن يَشْتَرِى لَهْوَ ٱلْحَدِيثِ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّخِذَهَا هُزُوًا ۚ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ"
 text_search: "ومن الناس من يشتري لهو الحديث ليضل عن سبيل الله بغير علم ويتخذها هزوا ۚ أولئك لهم عذاب مهين"
+translations:
+  en: { text: "And of mankind is he who payeth for mere pastime of discourse, that he may mislead from Allah's way without knowledge, and maketh it the butt of mockery. For such there is a shameful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور لوگوں میں بعض ایسا ہے جو بیہودہ حکایتیں خریدتا ہے تاکہ (لوگوں کو) بےسمجھے خدا کے رستے سے گمراہ کرے اور اس سے استہزاء کرے یہی لوگ ہیں جن کو ذلیل کرنے والا عذاب ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: person/al-nadr-ibn-al-harith, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: part_of, target: passage/quran-31 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

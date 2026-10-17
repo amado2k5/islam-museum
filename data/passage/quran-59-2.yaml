@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 59:2 (سورة الحشر، الآية 2)."
 text: "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ مِن دِيَـٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَـٰٓأُو۟لِى ٱلْأَبْصَـٰرِ"
 text_search: "هو الذي أخرج الذين كفروا من أهل الكتاب من ديارهم لأول الحشر ۚ ما ظننتم أن يخرجوا ۖ وظنوا أنهم مانعتهم حصونهم من الله فأتاهم الله من حيث لم يحتسبوا ۖ وقذف في قلوبهم الرعب ۚ يخربون بيوتهم بأيديهم وأيدي المؤمنين فاعتبروا يا أولي الأبصار"
+translations:
+  en: { text: "He it is Who hath caused those of the People of the Scripture who disbelieved to go forth from their homes unto the first exile. Ye deemed not that they would go forth, while they deemed that their strongholds would protect them from Allah. But Allah reached them from a place whereof they recked not, and cast terror in their hearts so that they ruined their houses with their own hands and the hands of the believers. So learn a lesson, O ye who have eyes!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہی تو ہے جس نے کفار اہل کتاب کو حشر اول کے وقت ان کے گھروں سے نکال دیا۔ تمہارے خیال میں بھی نہ تھا کہ وہ نکل جائیں گے اور وہ لوگ یہ سمجھے ہوئے تھے کہ ان کے قلعے ان کو خدا (کے عذاب) سے بچا لیں گے۔ مگر خدا نے ان کو وہاں سے آ لیا جہاں سے ان کو گمان بھی نہ تھا۔ اور ان کے دلوں میں دہشت ڈال دی کہ اپنے گھروں کو خود اپنے ہاتھوں اور مومنوں کے ہاتھوں سے اُجاڑنے لگے تو اے (بصیرت کی) آنکھیں رکھنے والو عبرت پکڑو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/expedition-of-banu-al-nadir }
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:105 (سورة التوبة، الآية 105)."
 text: "وَقُلِ ٱعْمَلُوا۟ فَسَيَرَى ٱللَّهُ عَمَلَكُمْ وَرَسُولُهُۥ وَٱلْمُؤْمِنُونَ ۖ وَسَتُرَدُّونَ إِلَىٰ عَـٰلِمِ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ"
 text_search: "وقل اعملوا فسيرى الله عملكم ورسوله والمؤمنون ۖ وستردون إلى عالم الغيب والشهادة فينبئكم بما كنتم تعملون"
+translations:
+  en: { text: "And say (unto them): Act! Allah will behold your actions, and (so will) His messenger and the believers, and ye will be brought back to the Knower of the Invisible and the Visible, and He will tell you what ye used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان سے کہہ دو کہ عمل کئے جاؤ۔ خدا اور اس کا رسول اور مومن (سب) تمہارے عملوں کو دیکھ لیں گے۔ اور تم غائب وحاضر کے جاننے والے (خدائے واحد) کی طرف لوٹائے جاؤ گے پھر جو کچھ تم کرتے رہے ہو وہ سب تم کو بتا دے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

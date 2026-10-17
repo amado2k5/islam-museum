@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:112 (سورة آل عمران، الآية 112)."
 text: "ضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ أَيْنَ مَا ثُقِفُوٓا۟ إِلَّا بِحَبْلٍ مِّنَ ٱللَّهِ وَحَبْلٍ مِّنَ ٱلنَّاسِ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ وَضُرِبَتْ عَلَيْهِمُ ٱلْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ ۚ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ"
 text_search: "ضربت عليهم الذلة أين ما ثقفوا إلا بحبل من الله وحبل من الناس وباءوا بغضب من الله وضربت عليهم المسكنة ۚ ذلك بأنهم كانوا يكفرون بآيات الله ويقتلون الأنبياء بغير حق ۚ ذلك بما عصوا وكانوا يعتدون"
+translations:
+  en: { text: "Ignominy shall be their portion wheresoever they are found save (where they grasp) a rope from Allah and a rope from men. They have incurred anger from their Lord, and wretchedness is laid upon them. That is because they used to disbelieve the revelations of Allah, and slew the prophets wrongfully. That is because they were rebellious and used to transgress.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ جہاں نظر آئیں گے ذلت (کو دیکھو گے کہ) ان سے چمٹ رہی ہے بجز اس کے کہ یہ خدا اور (مسلمان) لوگوں کی پناہ میں آ جائیں اور یہ لوگ خدا کے غضب میں گرفتار ہیں اور ناداری ان سے لپٹ رہی ہے یہ اس لیے کہ خدا کی آیتوں سے انکار کرتےتھے اور (اس کے) پیغمبروں کو ناحق قتل کر دیتے تھے یہ اس لیے کہ یہ نافرمانی کیے جاتے اور حد سے بڑھے جاتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

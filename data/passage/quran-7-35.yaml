@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:35 (سورة الأعراف، الآية 35)."
 text: "يَـٰبَنِىٓ ءَادَمَ إِمَّا يَأْتِيَنَّكُمْ رُسُلٌ مِّنكُمْ يَقُصُّونَ عَلَيْكُمْ ءَايَـٰتِى ۙ فَمَنِ ٱتَّقَىٰ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ"
 text_search: "يا بني آدم إما يأتينكم رسل منكم يقصون عليكم آياتي ۙ فمن اتقى وأصلح فلا خوف عليهم ولا هم يحزنون"
+translations:
+  en: { text: "O Children of Adam! When messengers of your own come unto you who narrate unto you My revelations, then whosoever refraineth from evil and amendeth - there shall no fear come upon them neither shall they grieve.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے نبی آدم! (ہم تم کو یہ نصیحت ہمیشہ کرتے رہے ہیں کہ) جب ہمارے پیغمبر تمہارے پاس آیا کریں اور ہماری آیتیں تم کو سنایا کریں (تو ان پر ایمان لایا کرو) کہ جو شخص (ان پر ایمان لا کر خدا سے) ڈرتا رہے گا اور اپنی حالت درست رکھے گا تو ایسے لوگوں کو نہ کچھ خوف ہوگا اور نہ وہ غمناک ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

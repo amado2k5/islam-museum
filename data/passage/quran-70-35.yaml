@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 70:35 (سورة المعارج، الآية 35)."
 text: "أُو۟لَـٰٓئِكَ فِى جَنَّـٰتٍ مُّكْرَمُونَ"
 text_search: "أولئك في جنات مكرمون"
+translations:
+  en: { text: "These will dwell in Gardens, honoured.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہی لوگ باغہائے بہشت میں عزت واکرام سے ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-70 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

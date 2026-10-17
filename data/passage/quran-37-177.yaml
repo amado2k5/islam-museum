@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:177 (سورة الصافات، الآية 177)."
 text: "فَإِذَا نَزَلَ بِسَاحَتِهِمْ فَسَآءَ صَبَاحُ ٱلْمُنذَرِينَ"
 text_search: "فإذا نزل بساحتهم فساء صباح المنذرين"
+translations:
+  en: { text: "But when it cometh home to them, then it will be a hapless morn for those who have been warned.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر جب وہ ان کے میدان میں آ اُترے گا تو جن کو ڈر سنا دیا گیا تھا ان کے لئے برا دن ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:91 (سورة يونس، الآية 91)."
 text: "ءَآلْـَٔـٰنَ وَقَدْ عَصَيْتَ قَبْلُ وَكُنتَ مِنَ ٱلْمُفْسِدِينَ"
 text_search: "آلآن وقد عصيت قبل وكنت من المفسدين"
+translations:
+  en: { text: "What! Now! When hitherto thou hast rebelled and been of the wrong-doers?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(جواب ملا کہ) اب (ایمان لاتا ہے) حالانکہ تو پہلے نافرمانی کرتا رہا اور مفسد بنا رہا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

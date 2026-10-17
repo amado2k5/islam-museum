@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:86 (سورة آل عمران، الآية 86)."
 text: "كَيْفَ يَهْدِى ٱللَّهُ قَوْمًا كَفَرُوا۟ بَعْدَ إِيمَـٰنِهِمْ وَشَهِدُوٓا۟ أَنَّ ٱلرَّسُولَ حَقٌّ وَجَآءَهُمُ ٱلْبَيِّنَـٰتُ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ"
 text_search: "كيف يهدي الله قوما كفروا بعد إيمانهم وشهدوا أن الرسول حق وجاءهم البينات ۚ والله لا يهدي القوم الظالمين"
+translations:
+  en: { text: "How shall Allah guide a people who disbelieved after their belief and (after) they bore witness that the messenger is true and after clear proofs (of Allah's Sovereignty) had come unto them. And Allah guideth not wrongdoing folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا ایسے لوگوں کو کیونکر ہدایت دے جو ایمان لانے کے بعد کافر ہوگئے اور (پہلے) اس بات کی گواہی دے چکے کہ یہ پیغمبر برحق ہے اور ان کے پاس دلائل بھی آگئے اور خدا بے انصافوں کو ہدایت نہیں دیتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

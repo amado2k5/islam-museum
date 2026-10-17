@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:105 (سورة المؤمنون، الآية 105)."
 text: "أَلَمْ تَكُنْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَكُنتُم بِهَا تُكَذِّبُونَ"
 text_search: "ألم تكن آياتي تتلى عليكم فكنتم بها تكذبون"
+translations:
+  en: { text: "(It will be said): Were not My revelations recited unto you, and then ye used to deny them?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم کو میری آیتیں پڑھ کر نہیں سنائی جاتیں تھیں (نہیں) تم ان کو سنتے تھے (اور) جھٹلاتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

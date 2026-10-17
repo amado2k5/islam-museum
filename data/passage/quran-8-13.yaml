@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:13 (سورة الأنفال، الآية 13)."
 text: "ذَٰلِكَ بِأَنَّهُمْ شَآقُّوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ وَمَن يُشَاقِقِ ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ"
 text_search: "ذلك بأنهم شاقوا الله ورسوله ۚ ومن يشاقق الله ورسوله فإن الله شديد العقاب"
+translations:
+  en: { text: "That is because they opposed Allah and His messenger. Whoso opposeth Allah and His messenger, (for him) lo! Allah is severe in punishment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ (سزا) اس لیے دی گئی کہ انہوں نے خدا اور اس کے رسول کی مخالفت کی۔ اور جو شخص خدا اور اس کے رسول کی مخالفت کرتا ہے تو خدا بھی سخت عذاب دینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

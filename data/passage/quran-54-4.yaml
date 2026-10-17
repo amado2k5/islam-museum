@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 54:4 (سورة القمر، الآية 4)."
 text: "وَلَقَدْ جَآءَهُم مِّنَ ٱلْأَنۢبَآءِ مَا فِيهِ مُزْدَجَرٌ"
 text_search: "ولقد جاءهم من الأنباء ما فيه مزدجر"
+translations:
+  en: { text: "And surely there hath come unto them news whereof the purport should deter,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کو ایسے حالات (سابقین) پہنچ چکے ہیں جن میں عبرت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-54 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

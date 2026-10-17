@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:17 (سورة فصلت، الآية 17)."
 text: "وَأَمَّا ثَمُودُ فَهَدَيْنَـٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ فَأَخَذَتْهُمْ صَـٰعِقَةُ ٱلْعَذَابِ ٱلْهُونِ بِمَا كَانُوا۟ يَكْسِبُونَ"
 text_search: "وأما ثمود فهديناهم فاستحبوا العمى على الهدى فأخذتهم صاعقة العذاب الهون بما كانوا يكسبون"
+translations:
+  en: { text: "And as for Thamud, We gave them guidance, but they preferred blindness to the guidance, so the bolt of the doom of humiliation overtook them because of what they used to earn.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو ثمود تھے ان کو ہم نے سیدھا رستہ دکھا دیا تھا مگر انہوں نے ہدایت کے مقابلے میں اندھا دھند رہنا پسند کیا تو ان کے اعمال کی سزا میں کڑک نے ان کو آپکڑا۔ اور وہ ذلت کا عذاب تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

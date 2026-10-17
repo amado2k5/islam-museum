@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:52 (سورة النحل، الآية 52)."
 text: "وَلَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَلَهُ ٱلدِّينُ وَاصِبًا ۚ أَفَغَيْرَ ٱللَّهِ تَتَّقُونَ"
 text_search: "وله ما في السماوات والأرض وله الدين واصبا ۚ أفغير الله تتقون"
+translations:
+  en: { text: "Unto Him belongeth whatsoever is in the heavens and the earth, and religion is His for ever. Will ye then fear any other than Allah?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو کچھ آسمانوں میں اور جو کچھ زمین میں ہے سب اسی کا ہے اور اسی کی عبادت لازم ہے۔ تو تم خدا کے سوا اوروں سے کیوں ڈرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

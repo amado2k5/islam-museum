@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:70 (سورة الحج، الآية 70)."
 text: "أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِى ٱلسَّمَآءِ وَٱلْأَرْضِ ۗ إِنَّ ذَٰلِكَ فِى كِتَـٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ"
 text_search: "ألم تعلم أن الله يعلم ما في السماء والأرض ۗ إن ذلك في كتاب ۚ إن ذلك على الله يسير"
+translations:
+  en: { text: "Hast thou not known that Allah knoweth all that is in the heaven and the earth? Lo! it is in a record. Lo! that is easy for Allah.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نہیں جانتے کہ جو کچھ آسمان اور زمین میں ہے خدا اس کو جانتا ہے۔ یہ (سب کچھ) کتاب میں (لکھا ہوا) ہے۔ بےشک یہ سب خدا کو آسان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

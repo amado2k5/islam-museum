@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:6 (سورة الرعد، الآية 6)."
 text: "وَيَسْتَعْجِلُونَكَ بِٱلسَّيِّئَةِ قَبْلَ ٱلْحَسَنَةِ وَقَدْ خَلَتْ مِن قَبْلِهِمُ ٱلْمَثُلَـٰتُ ۗ وَإِنَّ رَبَّكَ لَذُو مَغْفِرَةٍ لِّلنَّاسِ عَلَىٰ ظُلْمِهِمْ ۖ وَإِنَّ رَبَّكَ لَشَدِيدُ ٱلْعِقَابِ"
 text_search: "ويستعجلونك بالسيئة قبل الحسنة وقد خلت من قبلهم المثلات ۗ وإن ربك لذو مغفرة للناس على ظلمهم ۖ وإن ربك لشديد العقاب"
+translations:
+  en: { text: "And they bid thee hasten on the evil rather than the good, when exemplary punishments have indeed occurred before them. But lo! thy Lord is rich in pardon for mankind despite their wrong, and lo! thy Lord is strong in punishment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ لوگ بھلائی سے پہلے تم سے برائی کے جلد خواستگار یعنی (طالب عذاب) ہیں حالانکہ ان سے پہلے عذاب (واقع) ہوچکے ہیں اور تمہارا پروردگار لوگوں کو باوجود ان کی بےانصافیوں کے معاف کرنے والا ہے۔ اور بےشک تمہارا پروردگار سخت عذاب دینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

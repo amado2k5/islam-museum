@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 72:8 (سورة الجن، الآية 8)."
 text: "وَأَنَّا لَمَسْنَا ٱلسَّمَآءَ فَوَجَدْنَـٰهَا مُلِئَتْ حَرَسًا شَدِيدًا وَشُهُبًا"
 text_search: "وأنا لمسنا السماء فوجدناها ملئت حرسا شديدا وشهبا"
+translations:
+  en: { text: "And (the Jinn who had listened to the Qur'an said): We had sought the heaven but had found it filled with strong warders and meteors.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ کہ ہم نے آسمان کو ٹٹولا تو اس کو مضبوط چوکیداروں اور انگاروں سے سے بھرا پایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-72 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

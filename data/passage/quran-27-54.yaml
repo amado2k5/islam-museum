@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:54 (سورة النمل، الآية 54)."
 text: "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ أَتَأْتُونَ ٱلْفَـٰحِشَةَ وَأَنتُمْ تُبْصِرُونَ"
 text_search: "ولوطا إذ قال لقومه أتأتون الفاحشة وأنتم تبصرون"
+translations:
+  en: { text: "And Lot! when he said unto his folk: Will ye commit abomination knowingly?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور لوط کو (یاد کرو) جب انہوں نے اپنی قوم سے کہا کہ تم بےحیائی (کے کام) کیوں کرتے ہو اور تم دیکھتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

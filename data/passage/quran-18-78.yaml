@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:78 (سورة الكهف، الآية 78)."
 text: "قَالَ هَـٰذَا فِرَاقُ بَيْنِى وَبَيْنِكَ ۚ سَأُنَبِّئُكَ بِتَأْوِيلِ مَا لَمْ تَسْتَطِع عَّلَيْهِ صَبْرًا"
 text_search: "قال هذا فراق بيني وبينك ۚ سأنبئك بتأويل ما لم تستطع عليه صبرا"
+translations:
+  en: { text: "He said: This is the parting between thee and me! I will announce unto thee the interpretation of that thou couldst not bear with patience.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خضر نے کہا اب مجھ میں اور تجھ میں علیحدگی۔ (مگر) جن باتوں پر تم صبر نہ کرسکے میں ان کا تمہیں بھید بتائے دیتا ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

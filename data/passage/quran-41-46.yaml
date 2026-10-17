@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:46 (سورة فصلت، الآية 46)."
 text: "مَّنْ عَمِلَ صَـٰلِحًا فَلِنَفْسِهِۦ ۖ وَمَنْ أَسَآءَ فَعَلَيْهَا ۗ وَمَا رَبُّكَ بِظَلَّـٰمٍ لِّلْعَبِيدِ"
 text_search: "من عمل صالحا فلنفسه ۖ ومن أساء فعليها ۗ وما ربك بظلام للعبيد"
+translations:
+  en: { text: "Whoso doeth right it is for his soul, and whoso doeth wrong it is against it. And thy Lord is not at all a tyrant to His slaves.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو نیک کام کرے گا تو اپنے لئے۔ اور جو برے کام کرے گا تو ان کا ضرر اسی کو ہوگا۔ اور تمہارا پروردگار بندوں پر ظلم کرنے والا نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

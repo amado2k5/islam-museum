@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:46 (سورة التوبة، الآية 46)."
 text: "۞ وَلَوْ أَرَادُوا۟ ٱلْخُرُوجَ لَأَعَدُّوا۟ لَهُۥ عُدَّةً وَلَـٰكِن كَرِهَ ٱللَّهُ ٱنۢبِعَاثَهُمْ فَثَبَّطَهُمْ وَقِيلَ ٱقْعُدُوا۟ مَعَ ٱلْقَـٰعِدِينَ"
 text_search: "۞ ولو أرادوا الخروج لأعدوا له عدة ولكن كره الله انبعاثهم فثبطهم وقيل اقعدوا مع القاعدين"
+translations:
+  en: { text: "And if they had wished to go forth they would assuredly have made ready some equipment, but Allah was averse to their being sent forth and held them back and it was said (unto them): Sit ye with the sedentary!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر وہ نکلنے کا ارادہ کرتے ہیں تو اس کے لیے سامان تیار کرتے لیکن خدا نے ان کا اُٹھنا (اور نکلنا) پسند نہ کیا تو ان کو ہلنے جلنے ہی نہ دیا اور (ان سے) کہہ دیا گیا کہ جہاں (معذور) بیٹھے ہیں تم بھی ان کے ساتھ بیٹھے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

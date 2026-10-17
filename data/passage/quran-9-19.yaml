@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:19 (سورة التوبة، الآية 19)."
 text: "۞ أَجَعَلْتُمْ سِقَايَةَ ٱلْحَآجِّ وَعِمَارَةَ ٱلْمَسْجِدِ ٱلْحَرَامِ كَمَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَجَـٰهَدَ فِى سَبِيلِ ٱللَّهِ ۚ لَا يَسْتَوُۥنَ عِندَ ٱللَّهِ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ"
 text_search: "۞ أجعلتم سقاية الحاج وعمارة المسجد الحرام كمن آمن بالله واليوم الآخر وجاهد في سبيل الله ۚ لا يستوون عند الله ۗ والله لا يهدي القوم الظالمين"
+translations:
+  en: { text: "Count ye the slaking of a pilgrim's thirst and tendance of the Inviolable Place of Worship as (equal to the worth of) him who believeth in Allah and the Last Day, and striveth in the way of Allah? They are not equal in the sight of Allah. Allah guideth not wrongdoing folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نے حاجیوں کو پانی پلانا اور مسجد محترم یعنی (خانہٴ کعبہ) کو آباد کرنا اس شخص کے اعمال جیسا خیال کیا ہے جو خدا اور روز آخرت پر ایمان رکھتا ہے اور خدا کی راہ میں جہاد کرتا ہے۔ یہ لوگ خدا کے نزدیک برابر نہیں ہیں۔ اور خدا ظالم لوگوں کو ہدایت نہیں دیا کرتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:34 (سورة النور، الآية 34)."
 text: "وَلَقَدْ أَنزَلْنَآ إِلَيْكُمْ ءَايَـٰتٍ مُّبَيِّنَـٰتٍ وَمَثَلًا مِّنَ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِكُمْ وَمَوْعِظَةً لِّلْمُتَّقِينَ"
 text_search: "ولقد أنزلنا إليكم آيات مبينات ومثلا من الذين خلوا من قبلكم وموعظة للمتقين"
+translations:
+  en: { text: "And verily We have sent down for you revelations that make plain, and the example of those who passed away before you. An admonition unto those who ward off (evil).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے تمہاری طرف روشن آیتیں نازل کی ہیں اور جو لوگ تم سے پہلے گزر چکے ہیں ان کی خبریں اور پرہیزگاروں کے لئے نصیحت", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

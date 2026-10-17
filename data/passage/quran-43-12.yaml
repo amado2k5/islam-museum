@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:12 (سورة الزخرف، الآية 12)."
 text: "وَٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا وَجَعَلَ لَكُم مِّنَ ٱلْفُلْكِ وَٱلْأَنْعَـٰمِ مَا تَرْكَبُونَ"
 text_search: "والذي خلق الأزواج كلها وجعل لكم من الفلك والأنعام ما تركبون"
+translations:
+  en: { text: "He Who created all the pairs, and appointed for you ships and cattle whereupon ye ride.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس نے تمام قسم کے حیوانات پیدا کئے اور تمہارے لئے کشتیاں اور چارپائے بنائے جن پر تم سوار ہوتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

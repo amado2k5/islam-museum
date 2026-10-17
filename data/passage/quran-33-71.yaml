@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:71 (سورة الأحزاب، الآية 71)."
 text: "يُصْلِحْ لَكُمْ أَعْمَـٰلَكُمْ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ فَازَ فَوْزًا عَظِيمًا"
 text_search: "يصلح لكم أعمالكم ويغفر لكم ذنوبكم ۗ ومن يطع الله ورسوله فقد فاز فوزا عظيما"
+translations:
+  en: { text: "He will adjust your works for you and will forgive you your sins. Whosoever obeyeth Allah and His messenger, he verily hath gained a signal victory.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ تمہارے اعمال درست کردے گا اور تمہارے گناہ بخش دے گا۔ اور جو شخص خدا اور اس کے رسول کی فرمانبرداری کرے گا تو بےشک بڑی مراد پائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

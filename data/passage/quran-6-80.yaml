@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:80 (سورة الأنعام، الآية 80)."
 text: "وَحَآجَّهُۥ قَوْمُهُۥ ۚ قَالَ أَتُحَـٰٓجُّوٓنِّى فِى ٱللَّهِ وَقَدْ هَدَىٰنِ ۚ وَلَآ أَخَافُ مَا تُشْرِكُونَ بِهِۦٓ إِلَّآ أَن يَشَآءَ رَبِّى شَيْـًٔا ۗ وَسِعَ رَبِّى كُلَّ شَىْءٍ عِلْمًا ۗ أَفَلَا تَتَذَكَّرُونَ"
 text_search: "وحاجه قومه ۚ قال أتحاجوني في الله وقد هدان ۚ ولا أخاف ما تشركون به إلا أن يشاء ربي شيئا ۗ وسع ربي كل شيء علما ۗ أفلا تتذكرون"
+translations:
+  en: { text: "His people argued with him. He said: Dispute ye with me concerning Allah when He hath guided me? I fear not at all that which ye set up beside Him unless my Lord willeth aught. My Lord includeth all things in His knowledge. Will ye not then remember?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کی قوم ان سے بحث کرنے لگی تو انہوں نے کہا کہ تم مجھ سے خدا کے بارےمیں (کیا) بحث کرتے ہو اس نے تو مجھے سیدھا رستہ دکھا دیا ہے۔ اور جن چیزوں کو تم اس کا شریک بناتے ہو میں ان سے نہیں ڈرتا۔ ہاں جو میرا پروردگار چاہے۔ میرا پروردگار اپنے علم سے ہر چیز پر احاطہ کئے ہوئے ہے۔ کیا تم خیال نہیں کرتے۔", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

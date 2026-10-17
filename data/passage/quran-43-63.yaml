@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:63 (سورة الزخرف، الآية 63)."
 text: "وَلَمَّا جَآءَ عِيسَىٰ بِٱلْبَيِّنَـٰتِ قَالَ قَدْ جِئْتُكُم بِٱلْحِكْمَةِ وَلِأُبَيِّنَ لَكُم بَعْضَ ٱلَّذِى تَخْتَلِفُونَ فِيهِ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ"
 text_search: "ولما جاء عيسى بالبينات قال قد جئتكم بالحكمة ولأبين لكم بعض الذي تختلفون فيه ۖ فاتقوا الله وأطيعون"
+translations:
+  en: { text: "When Jesus came with clear proofs (of Allah's Sovereignty), he said: I have come unto you with wisdom, and to make plain some of that concerning which ye differ. So keep your duty to Allah, and obey me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب عیسیٰ نشانیاں لے کر آئے تو کہنے لگے کہ میں تمہارے پاس دانائی (کی کتاب) لے کر آیا ہوں۔ نیز اس لئے کہ بعض باتیں جن میں تم اختلاف کر رہے ہو تم کو سمجھا دوں۔ تو خدا سے ڈرو اور میرا کہا مانو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

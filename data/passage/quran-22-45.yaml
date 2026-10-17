@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:45 (سورة الحج، الآية 45)."
 text: "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَـٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍ مُّعَطَّلَةٍ وَقَصْرٍ مَّشِيدٍ"
 text_search: "فكأين من قرية أهلكناها وهي ظالمة فهي خاوية على عروشها وبئر معطلة وقصر مشيد"
+translations:
+  en: { text: "How many a township have We destroyed while it was sinful, so that it lieth (to this day) in ruins, and (how many) a deserted well and lofty tower!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بہت سی بستیاں ہیں کہ ہم نے ان کو تباہ کر ڈالا کہ وہ نافرمان تھیں۔ سو وہ اپنی چھتوں پر گری پڑی ہیں۔ اور (بہت سے) کنوئیں بےکار اور (بہت سے) محل ویران پڑے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

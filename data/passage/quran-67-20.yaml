@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 67:20 (سورة الملك، الآية 20)."
 text: "أَمَّنْ هَـٰذَا ٱلَّذِى هُوَ جُندٌ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَـٰنِ ۚ إِنِ ٱلْكَـٰفِرُونَ إِلَّا فِى غُرُورٍ"
 text_search: "أمن هذا الذي هو جند لكم ينصركم من دون الرحمن ۚ إن الكافرون إلا في غرور"
+translations:
+  en: { text: "Or who is he that will be an army unto you to help you instead of the Beneficent? The disbelievers are in naught but illusion.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا ایسا کون ہے جو تمہاری فوج ہو کر خدا کے سوا تمہاری مدد کرسکے۔ کافر تو دھوکے میں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-67 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

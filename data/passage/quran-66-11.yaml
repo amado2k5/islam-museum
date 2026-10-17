@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 66:11 (سورة التحريم، الآية 11)."
 text: "وَضَرَبَ ٱللَّهُ مَثَلًا لِّلَّذِينَ ءَامَنُوا۟ ٱمْرَأَتَ فِرْعَوْنَ إِذْ قَالَتْ رَبِّ ٱبْنِ لِى عِندَكَ بَيْتًا فِى ٱلْجَنَّةِ وَنَجِّنِى مِن فِرْعَوْنَ وَعَمَلِهِۦ وَنَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ"
 text_search: "وضرب الله مثلا للذين آمنوا امرأت فرعون إذ قالت رب ابن لي عندك بيتا في الجنة ونجني من فرعون وعمله ونجني من القوم الظالمين"
+translations:
+  en: { text: "And Allah citeth an example for those who believe: the wife of Pharaoh when she said: My Lord! Build for me a home with thee in the Garden, and deliver me from Pharaoh and his work, and deliver me from evil-doing folk;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور مومنوں کے لئے (ایک) مثال (تو) فرعون کی بیوی کی بیان فرمائی کہ اس نے خدا سے التجا کی کہ اے میرے پروردگار میرے لئے بہشت میں اپنے پاس ایک گھر بنا اور مجھے فرعون اور اس کے اعمال (زشت مآل) سے نجات بخش اور ظالم لوگوں کے ہاتھ سے مجھ کو مخلصی عطا فرما", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-66 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

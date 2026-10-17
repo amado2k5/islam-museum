@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:33 (سورة العنكبوت، الآية 33)."
 text: "وَلَمَّآ أَن جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالُوا۟ لَا تَخَفْ وَلَا تَحْزَنْ ۖ إِنَّا مُنَجُّوكَ وَأَهْلَكَ إِلَّا ٱمْرَأَتَكَ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ"
 text_search: "ولما أن جاءت رسلنا لوطا سيء بهم وضاق بهم ذرعا وقالوا لا تخف ولا تحزن ۖ إنا منجوك وأهلك إلا امرأتك كانت من الغابرين"
+translations:
+  en: { text: "And when Our messengers came unto Lot, he was troubled upon their account, for he could not protect them; but they said: Fear not, nor grieve! Lo! we are to deliver thee and thy household, (all) save thy wife, who is of those who stay behind.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ہمارے فرشتے لوط کے پاس آئے تو وہ اُن (کی وجہ) سے ناخوش اور تنگ دل ہوئے۔ فرشتوں نے کہا کچھ خوف نہ کیجئے۔ اور نہ رنج کیجئے ہم آپ کو اور آپ کے گھر والوں کو بچالیں گے مگر آپ کی بیوی کہ پیچھے رہنے والوں میں ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

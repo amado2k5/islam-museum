@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:73 (سورة الأحزاب، الآية 73)."
 text: "لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَـٰفِقِينَ وَٱلْمُنَـٰفِقَـٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَـٰتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًۢا"
 text_search: "ليعذب الله المنافقين والمنافقات والمشركين والمشركات ويتوب الله على المؤمنين والمؤمنات ۗ وكان الله غفورا رحيما"
+translations:
+  en: { text: "So Allah punisheth hypocritical men and hypocritical women, and idolatrous men and idolatrous women. But Allah pardoneth believing men and believing women, and Allah is ever Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ خدا منافق مردوں اور منافق عورتوں اور مشرک مردوں اور مشرک عورتوں کو عذاب دے اور خدا مومن مردوں اور مومن عورتوں پر مہربانی کرے۔ اور خدا تو بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

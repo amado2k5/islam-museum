@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:86 (سورة هود، الآية 86)."
 text: "بَقِيَّتُ ٱللَّهِ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍ"
 text_search: "بقيت الله خير لكم إن كنتم مؤمنين ۚ وما أنا عليكم بحفيظ"
+translations:
+  en: { text: "That which Allah leaveth with you is better for you if ye are believers; and I am not a keeper over you.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اگر تم کو (میرے کہنے کا) یقین ہو تو خدا کا دیا ہوا نفع ہی تمہارے لیے بہتر ہے اور میں تمہارا نگہبان نہیں ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

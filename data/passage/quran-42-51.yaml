@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:51 (سورة الشورى، الآية 51)."
 text: "۞ وَمَا كَانَ لِبَشَرٍ أَن يُكَلِّمَهُ ٱللَّهُ إِلَّا وَحْيًا أَوْ مِن وَرَآئِ حِجَابٍ أَوْ يُرْسِلَ رَسُولًا فَيُوحِىَ بِإِذْنِهِۦ مَا يَشَآءُ ۚ إِنَّهُۥ عَلِىٌّ حَكِيمٌ"
 text_search: "۞ وما كان لبشر أن يكلمه الله إلا وحيا أو من وراء حجاب أو يرسل رسولا فيوحي بإذنه ما يشاء ۚ إنه علي حكيم"
+translations:
+  en: { text: "And it was not (vouchsafed) to any mortal that Allah should speak to him unless (it be) by revelation or from behind a veil, or (that) He sendeth a messenger to reveal what He will by His leave. Lo! He is Exalted, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کسی آدمی کے لئے ممکن نہیں کہ خدا اس سے بات کرے مگر الہام (کے ذریعے) سے یا پردے کے پیچھے سے یا کوئی فرشتہ بھیج دے تو وہ خدا کے حکم سے جو خدا چاہے القا کرے۔ بےشک وہ عالی رتبہ (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

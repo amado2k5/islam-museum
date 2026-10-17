@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:87 (سورة المائدة، الآية 87)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُحَرِّمُوا۟ طَيِّبَـٰتِ مَآ أَحَلَّ ٱللَّهُ لَكُمْ وَلَا تَعْتَدُوٓا۟ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْمُعْتَدِينَ"
 text_search: "يا أيها الذين آمنوا لا تحرموا طيبات ما أحل الله لكم ولا تعتدوا ۚ إن الله لا يحب المعتدين"
+translations:
+  en: { text: "O ye who believe! Forbid not the good things which Allah hath made lawful for you, and transgress not, Lo! Allah loveth not transgressors.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! جو پاکیزہ چیزیں خدا نے تمہارے لیے حلال کی ہیں ان کو حرام نہ کرو اور حد سے نہ بڑھو کہ خدا حد سے بڑھنے والوں کو دوست نہیں رکھتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

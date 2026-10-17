@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:41 (سورة الزمر، الآية 41)."
 text: "إِنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَـٰبَ لِلنَّاسِ بِٱلْحَقِّ ۖ فَمَنِ ٱهْتَدَىٰ فَلِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍ"
 text_search: "إنا أنزلنا عليك الكتاب للناس بالحق ۖ فمن اهتدى فلنفسه ۖ ومن ضل فإنما يضل عليها ۖ وما أنت عليهم بوكيل"
+translations:
+  en: { text: "Lo! We have revealed unto thee (Muhammad) the Scripture for mankind with truth. Then whosoever goeth right it is for his soul, and whosoever strayeth, strayeth only to its hurt. And thou art not a warder over them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم نے تم پر کتاب لوگوں (کی ہدایت) کے لئے سچائی کے ساتھ نازل کی ہے۔ تو جو شخص ہدایت پاتا ہے تو اپنے (بھلے کے) لئے اور جو گمراہ ہوتا ہے گمراہی سے تو اپنا ہی نقصان کرتا ہے۔ اور (اے پیغمبر) تم ان کے ذمہ دار نہیں ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 32:25 (سورة السجدة، الآية 25)."
 text: "إِنَّ رَبَّكَ هُوَ يَفْصِلُ بَيْنَهُمْ يَوْمَ ٱلْقِيَـٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ"
 text_search: "إن ربك هو يفصل بينهم يوم القيامة فيما كانوا فيه يختلفون"
+translations:
+  en: { text: "Lo! thy Lord will judge between them on the Day of Resurrection concerning that wherein they used to differ.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بلاشبہ تمہارا پروردگار ان میں جن باتوں میں وہ اختلاف کرتے تھے۔ قیامت کے روز فیصلہ کر دے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-32 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

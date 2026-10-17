@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:24 (سورة سبأ، الآية 24)."
 text: "۞ قُلْ مَن يَرْزُقُكُم مِّنَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ قُلِ ٱللَّهُ ۖ وَإِنَّآ أَوْ إِيَّاكُمْ لَعَلَىٰ هُدًى أَوْ فِى ضَلَـٰلٍ مُّبِينٍ"
 text_search: "۞ قل من يرزقكم من السماوات والأرض ۖ قل الله ۖ وإنا أو إياكم لعلى هدى أو في ضلال مبين"
+translations:
+  en: { text: "Say: Who giveth you provision from the sky and the earth? Say: Allah, Lo! we or you assuredly are rightly guided or in error manifest.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پوچھو کہ تم کو آسمانوں اور زمین سے کون رزق دیتا ہے؟ کہو کہ خدا اور ہم یا تم (یا تو) سیدھے رستے پر ہیں یا صریح گمراہی میں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

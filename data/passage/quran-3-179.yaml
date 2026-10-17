@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:179 (سورة آل عمران، الآية 179)."
 text: "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ لِيُطْلِعَكُمْ عَلَى ٱلْغَيْبِ وَلَـٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌ"
 text_search: "ما كان الله ليذر المؤمنين على ما أنتم عليه حتى يميز الخبيث من الطيب ۗ وما كان الله ليطلعكم على الغيب ولكن الله يجتبي من رسله من يشاء ۖ فآمنوا بالله ورسله ۚ وإن تؤمنوا وتتقوا فلكم أجر عظيم"
+translations:
+  en: { text: "It is not (the purpose) of Allah to leave you in your present state till He shall separate the wicked from the good. And it is not (the purpose of) Allah to let you know the Unseen. But Allah chooseth of His messengers whom He will, (to receive knowledge thereof). So believe in Allah and His messengers. If ye believe and ward off (evil), yours will be a vast reward.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(لوگو) جب تک خدا ناپاک کو پاک سے الگ نہ کردے گا مومنوں کو اس حال میں جس میں تم ہو ہرگز نہیں رہنے دے گا۔ اور الله تم کوغیب کی باتوں سے بھی مطلع نہیں کرے گاالبتہ خدا اپنے پیغمبروں میں سے جسے چاہتا ہے انتخاب کرلیتا ہے۔ تو تم خدا پر اور اس کے رسولوں پر ایمان لاؤاور اگر ایمان لاؤ گے اور پرہیزگاری کرو گے تو تم کو اجر عظیم ملے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

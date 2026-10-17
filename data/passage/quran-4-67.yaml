@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:67 (سورة النساء، الآية 67)."
 text: "وَإِذًا لَّـَٔاتَيْنَـٰهُم مِّن لَّدُنَّآ أَجْرًا عَظِيمًا"
 text_search: "وإذا لآتيناهم من لدنا أجرا عظيما"
+translations:
+  en: { text: "And then We should bestow upon them from Our presence an immense reward,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم ان کو اپنے ہاں سے اجر عظیم بھی عطا فرماتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

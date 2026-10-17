@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:26 (سورة إبراهيم، الآية 26)."
 text: "وَمَثَلُ كَلِمَةٍ خَبِيثَةٍ كَشَجَرَةٍ خَبِيثَةٍ ٱجْتُثَّتْ مِن فَوْقِ ٱلْأَرْضِ مَا لَهَا مِن قَرَارٍ"
 text_search: "ومثل كلمة خبيثة كشجرة خبيثة اجتثت من فوق الأرض ما لها من قرار"
+translations:
+  en: { text: "And the similitude of a bad saying is as a bad tree, uprooted from upon the earth, possessing no stability.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ناپاک بات کی مثال ناپاک درخت کی سی ہے (نہ جڑ مستحکم نہ شاخیں بلند) زمین کے اوپر ہی سے اکھیڑ کر پھینک دیا جائے گا اس کو ذرا بھی قرار (وثبات) نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:153 (سورة النساء، الآية 153)."
 text: "يَسْـَٔلُكَ أَهْلُ ٱلْكِتَـٰبِ أَن تُنَزِّلَ عَلَيْهِمْ كِتَـٰبًا مِّنَ ٱلسَّمَآءِ ۚ فَقَدْ سَأَلُوا۟ مُوسَىٰٓ أَكْبَرَ مِن ذَٰلِكَ فَقَالُوٓا۟ أَرِنَا ٱللَّهَ جَهْرَةً فَأَخَذَتْهُمُ ٱلصَّـٰعِقَةُ بِظُلْمِهِمْ ۚ ثُمَّ ٱتَّخَذُوا۟ ٱلْعِجْلَ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَـٰتُ فَعَفَوْنَا عَن ذَٰلِكَ ۚ وَءَاتَيْنَا مُوسَىٰ سُلْطَـٰنًا مُّبِينًا"
 text_search: "يسألك أهل الكتاب أن تنزل عليهم كتابا من السماء ۚ فقد سألوا موسى أكبر من ذلك فقالوا أرنا الله جهرة فأخذتهم الصاعقة بظلمهم ۚ ثم اتخذوا العجل من بعد ما جاءتهم البينات فعفونا عن ذلك ۚ وآتينا موسى سلطانا مبينا"
+translations:
+  en: { text: "The people of the Scripture ask of thee that thou shouldst cause an (actual) Book to descend upon them from heaven. They asked a greater thing of Moses aforetime, for they said: Show us Allah plainly. The storm of lightning seized them for their wickedness. Then (even) after that) they chose the calf (for worship) after clear proofs (of Allah's Sovereignty) had come unto them. And We forgave them that! And We bestowed on Moses evident authority.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) اہل کتاب تم سے درخواست کرتے ہیں کہ تم ان پر ایک (لکھی ہوئی) کتاب آسمان سے اتار لاؤ تو یہ موسیٰ سے اس سے بھی بڑی بڑی درخواستیں کرچکے ہیں (ان سے) کہتے تھے ہمیں خدا ظاہر (یعنی آنکھوں سے) دکھا دو سو ان کے گناہ کی وجہ سے ان کو بجلی نے آپکڑا۔ پھر کھلی نشانیاں آئے پیچھے بچھڑے کو (معبود) بنا بیٹھے تو اس سے بھی ہم نے درگزر کی۔ اور موسیٰ کو صریح غلبہ دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

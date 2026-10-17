@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:36 (سورة الواقعة، الآية 36)."
 text: "فَجَعَلْنَـٰهُنَّ أَبْكَارًا"
 text_search: "فجعلناهن أبكارا"
+translations:
+  en: { text: "And made them virgins,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان کو کنواریاں بنایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

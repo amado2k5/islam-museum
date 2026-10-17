@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:28 (سورة الزخرف، الآية 28)."
 text: "وَجَعَلَهَا كَلِمَةًۢ بَاقِيَةً فِى عَقِبِهِۦ لَعَلَّهُمْ يَرْجِعُونَ"
 text_search: "وجعلها كلمة باقية في عقبه لعلهم يرجعون"
+translations:
+  en: { text: "And he made it a word enduring among his seed, that haply they might return.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہی بات اپنی اولاد میں پیچھے چھوڑ گئے تاکہ وہ (خدا کی طرف) رجوع کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

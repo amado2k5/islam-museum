@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:198 (سورة الأعراف، الآية 198)."
 text: "وَإِن تَدْعُوهُمْ إِلَى ٱلْهُدَىٰ لَا يَسْمَعُوا۟ ۖ وَتَرَىٰهُمْ يَنظُرُونَ إِلَيْكَ وَهُمْ لَا يُبْصِرُونَ"
 text_search: "وإن تدعوهم إلى الهدى لا يسمعوا ۖ وتراهم ينظرون إليك وهم لا يبصرون"
+translations:
+  en: { text: "And if ye (Muslims) call them to the guidance they hear not; and thou (Muhammad) seest them looking toward thee, but they see not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تم ان کو سیدھے رستے کی طرف بلاؤ تو سن نہ سکیں اور تم انہیں دیکھتے ہو کہ (بہ ظاہر) آنکھیں کھولے تمہاری طرف دیکھ رہے ہیں مگر (فی الواقع) کچھ نہیں دیکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

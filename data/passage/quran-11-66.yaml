@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:66 (سورة هود، الآية 66)."
 text: "فَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا صَـٰلِحًا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَمِنْ خِزْىِ يَوْمِئِذٍ ۗ إِنَّ رَبَّكَ هُوَ ٱلْقَوِىُّ ٱلْعَزِيزُ"
 text_search: "فلما جاء أمرنا نجينا صالحا والذين آمنوا معه برحمة منا ومن خزي يومئذ ۗ إن ربك هو القوي العزيز"
+translations:
+  en: { text: "So, when Our commandment came to pass, We saved Salih, and those who believed with him, by a mercy from Us, from the ignominy of that day. Lo, thy Lord! He is the Strong, the Mighty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب ہمارا حکم آگیا تو ہم نے صالح کو اور جو لوگ ان کے ساتھ ایمان لائے تھے ان کو اپنی مہربانی سے بچالیا۔ اور اس دن کی رسوائی سے (محفوظ رکھا) ۔ بےشک تمہارا پروردگار طاقتور اور زبردست ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

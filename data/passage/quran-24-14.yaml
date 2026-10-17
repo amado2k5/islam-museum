@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:14 (سورة النور، الآية 14)."
 text: "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ لَمَسَّكُمْ فِى مَآ أَفَضْتُمْ فِيهِ عَذَابٌ عَظِيمٌ"
 text_search: "ولولا فضل الله عليكم ورحمته في الدنيا والآخرة لمسكم في ما أفضتم فيه عذاب عظيم"
+translations:
+  en: { text: "Had it not been for the grace of Allah and His mercy unto you in the world and the Hereafter an awful doom had overtaken you for that whereof ye murmured.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر دنیا اور آخرت میں تم پر خدا کا فضل اور اس کی رحمت نہ ہوتی تو جس بات کا تم چرچا کرتے تھے اس کی وجہ سے تم پر بڑا (سخت) عذاب نازل ہوتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }
