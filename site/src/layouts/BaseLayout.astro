@@ -37,6 +37,7 @@ const EXPLORE = explorePages(lang);
     <link rel="canonical" href={canonical} />
     {Object.entries(alt).map(([l, h]) => <link rel="alternate" hreflang={l} href={`${SITE}${h}`} />)}
     <link rel="alternate" hreflang="x-default" href={`${SITE}${alt.ar ?? path}`} />
+    <link rel="alternate" type="application/rss+xml" title="islam.museum" href={`${SITE}/feed.xml`} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:type" content={ogType} />
@@ -140,7 +141,7 @@ const EXPLORE = explorePages(lang);
         <div class="fcols">
           <div><h2>{T.footer.browse_all}</h2>{BROWSE_CLASSES.map((c) => <a href={`/${lang}/browse/${browseSegment(c)}/`}>{T.class[c]}</a>)}</div>
           <div><h2>{T.footer.about}</h2><a href={`/${lang}/foundation/`}>{T.nav.foundation}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/05-editorial.md" rel="noopener">{T.footer.editorial}</a><a href={`/${lang}/questions/`}>{T.footer.faq}</a><a href={`/${lang}/learn/`}>{T.nav.learn}</a></div>
-          <div><h2>{T.footer.resources}</h2><a href={`/${lang}/words/quran/`}>{T.explore.pages.quran.title}</a><a href={`/${lang}/words/hadith/`}>{T.explore.pages.hadith.title}</a><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href={`/${lang}/art/`}>{T.nav.art}</a><a href={`/${lang}/support/`}>{T.support.title}</a><a href={SHOP} rel="noopener">{T.nav.gift_shop}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
+          <div><h2>{T.footer.resources}</h2><a href={`/${lang}/words/quran/`}>{T.explore.pages.quran.title}</a><a href={`/${lang}/words/hadith/`}>{T.explore.pages.hadith.title}</a><a href={`/${lang}/tour/`}>{T.mytour.title}</a><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href={`/${lang}/art/`}>{T.nav.art}</a><a href={`/${lang}/support/`}>{T.support.title}</a><a href={SHOP} rel="noopener">{T.nav.gift_shop}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
           <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.changelog}</a><a href="https://github.com/amado2k5/islam-museum/issues/new/choose" rel="noopener">{T.footer.report}</a><a href="https://github.com/amado2k5/islam-museum/discussions" rel="noopener">{T.footer.discuss}</a><a href={`/${lang}/privacy/`}>{T.footer.privacy_policy}</a></div>
         </div>
         <p class="fine">islam.museum · {T.footer.open} · <a href={`/${lang}/licenses/`}>{T.footer.licenses}</a> · {T.footer.privacy}</p>
