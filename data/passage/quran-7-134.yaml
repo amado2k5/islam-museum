@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور جب ان پر عذاب واقع ہوتا تو کہتے کہ موسیٰ ہمارے لیے اپنے پروردگار سے دعا کرو۔ جیسا اس نے تم سے عہد کر رکھا ہے۔ اگر تم ہم سے عذاب کو ٹال دو گے تو ہم تم پر ایمان بھی لے آئیں گے اور بنی اسرائیل کو بھی تمہارے ساتھ جانے (کی اجازت) دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
+  - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

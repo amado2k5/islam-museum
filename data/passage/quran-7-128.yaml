@@ -17,6 +17,7 @@ translations:
   ur: { text: "موسیٰ نے اپنی قوم سے کہا کہ خدا سے مدد مانگو اور ثابت قدم رہو۔ زمین تو خدا کی ہے۔ وہ اپنے بندوں میں سے جسے چاہتا ہے اس کا مالک بناتا ہے۔ اور آخر بھلا تو ڈرنے والوں کا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

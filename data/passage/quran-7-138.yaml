@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور ہم نے بنی اسرائیل کو دریا کے پار اتارا تو وہ ایسے لوگوں کے پاس جا پہنچے جو اپنے بتوں (کی عبادت) کے لیے بیٹھے رہتے تھے۔ (بنی اسرائیل) کہنے لگے کہ موسیٰ جیسے ان لوگوں کے معبود ہیں۔ ہمارے لیے بھی ایک معبود بنا دو۔ موسیٰ نے کہا کہ تم بڑے ہی جاہل لوگ ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
+  - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
