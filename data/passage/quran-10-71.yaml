@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ان کو نوح کا قصہ پڑھ کر سنادو۔ جب انہوں نے اپنی قوم سے کہا کہ اے قوم! اگر تم کو میرا تم میں رہنا اور خدا کی آیتوں سے نصیحت کرنا ناگوار ہو تو میں خدا پر بھروسہ رکھتا ہوں۔ تم اپنے شریکوں کے ساتھ مل کر ایک کام (جو میرے بارے میں کرنا چاہو) مقرر کرلو اور وہ تمہاری تمام جماعت (کو معلوم ہوجائے اور کسی) سے پوشیدہ نہ رہے اور پھر وہ کام میرے حق میں کر گزرو اور مجھے مہلت نہ دو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

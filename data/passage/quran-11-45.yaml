@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور نوح نے اپنے پروردگار کو پکارا اور کہا کہ پروردگار میرا بیٹا بھی میرے گھر والوں میں ہے (تو اس کو بھی نجات دے) تیرا وعدہ سچا ہے اور تو سب سے بہتر حاکم ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

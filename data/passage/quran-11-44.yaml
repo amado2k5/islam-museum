@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور حکم دیا گیا کہ اے زمین اپنا پانی نگل جا اور اے آسمان تھم جا۔ تو پانی خشک ہوگیا اور کام تمام کردیا گیا اور کشی کوہ جودی پر جا ٹھہری۔ اور کہہ دیا گیا کہ بےانصاف لوگوں پر لعنت", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
+  - { type: mentions, target: place/judi, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

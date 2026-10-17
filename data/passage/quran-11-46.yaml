@@ -17,6 +17,7 @@ translations:
   ur: { text: "خدا نے فرمایا کہ نوح وہ تیرے گھر والوں میں نہیں ہے وہ تو ناشائستہ افعال ہے تو جس چیز کی تم کو حقیقت معلوم نہیں ہے اس کے بارے میں مجھ سے سوال ہی نہ کرو۔ اور میں تم کو نصیحت کرتا ہوں کہ نادان نہ بنو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
