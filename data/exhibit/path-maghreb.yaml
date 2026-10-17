@@ -1,0 +1,77 @@
+id: exhibit/path-maghreb
+class: exhibit
+kind: trail
+label:
+  ar: المغرب الإسلامي
+  en: The Islamic Maghreb
+summary:
+  ar: 'مسار في الغرب الإسلامي: القيروان وفاس ومراكش وتونس، ثم العبور إلى الأندلس.'
+  en: A trail through the Islamic West.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- maghreb
+rooms:
+- title:
+    ar: القيروان
+    en: Kairouan
+  body:
+    ar: 'أول مدينة إسلامية في المغرب: جامع عقبة 670.'
+    en: 'The Maghreb''s first Islamic city: Uqba''s mosque, 670.'
+  features:
+  - place/qayrawan
+  - building/jami-qayrawan
+- title:
+    ar: فاس
+    en: Fez
+  body:
+    ar: 'القرويين 859: أقدم جامعة مستمرة في العالم.'
+    en: 'Al-Qarawiyyin 859: the oldest running university.'
+  features:
+  - place/fez
+  - person/fatima-al-fihri
+- title:
+    ar: مراكش
+    en: Marrakesh
+  body:
+    ar: 'المرابطون والموحدون يبنون: منارة الكتبية.'
+    en: 'Almoravid and Almohad building: the Kutubiyya.'
+  features:
+  - place/marrakesh
+  - object/minbar-kutubiyya
+  - polity/almohad-caliphate
+- title:
+    ar: تونس
+    en: Tunis
+  body:
+    ar: الزيتونة ومدينة ابن خلدون.
+    en: Zaytuna and Ibn Khaldun's city.
+  features:
+  - place/tunis
+  - person/ibn-khaldun
+- title:
+    ar: إلى الأندلس
+    en: To al-Andalus
+  body:
+    ar: طارق يعبر من المغرب 711.
+    en: Tariq crosses from the Maghreb, 711.
+  features:
+  - person/tariq-ibn-ziyad
+  - place/al-andalus
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
