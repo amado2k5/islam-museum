@@ -1,0 +1,77 @@
+id: exhibit/path-hulagu-fall
+class: exhibit
+kind: trail
+label:
+  ar: هولاكو وسقوط بغداد
+  en: Hulagu and the Fall of Baghdad
+summary:
+  ar: 'مسار في السنة التي انتهى بها العصر العباسي: هولاكو يحاصر المدينة أسبوعين، والمستعصم يُقتل — ومصر
+    تستعد.'
+  en: A trail through the year the Abbasid era ended.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: هولاكو
+    en: Hulagu
+  body:
+    ar: 'حفيد جنكيز: غازي المشرق المغولي.'
+    en: 'حفيد جنكيز: غازي المشرق المغولي.'
+  features:
+  - person/hulagu
+  - polity/ilkhanate
+- title:
+    ar: الحصار
+    en: The siege
+  body:
+    ar: 'فبراير 1258: أسبوعان على الأسوار.'
+    en: 'فبراير 1258: أسبوعان على الأسوار.'
+  features:
+  - event/sack-of-baghdad-656
+  - place/baghdad
+- title:
+    ar: السقوط
+    en: The fall
+  body:
+    ar: 'المستعصم يُعدم: خمسة قرون خلافة تنتهي.'
+    en: 'المستعصم يُعدم: خمسة قرون خلافة تنتهي.'
+  features:
+  - event/sack-of-baghdad-656
+  - polity/abbasid-caliphate
+- title:
+    ar: الرد
+    en: The response
+  body:
+    ar: 'عين جالوت 1260: المماليك يوقفون المد.'
+    en: 'عين جالوت 1260: المماليك يوقفون المد.'
+  features:
+  - event/ayn-jalut-658
+  - person/qutuz
+- title:
+    ar: الخلافة
+    en: The caliphate
+  body:
+    ar: 'العباسيون في القاهرة: استمرار الظل.'
+    en: 'العباسيون في القاهرة: استمرار الظل.'
+  features:
+  - place/cairo
+  - person/baybars
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

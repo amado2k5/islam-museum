@@ -1,0 +1,67 @@
+id: exhibit/path-buyid-age
+class: exhibit
+kind: trail
+label:
+  ar: الدولة البويهية
+  en: The Buyid Age
+summary:
+  ar: 'مسار في الديلم الذين ملكوا بغداد: البويهيون يحكمون باسم الخليفة، والعراق وإيران في يدهم قرنًا كاملًا.'
+  en: A trail through the Daylamites who ruled Baghdad.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الدولة
+    en: The dynasty
+  body:
+    ar: 'ثلاثة إخوة من ديلم: عمران وأحمد وعلي.'
+    en: 'ثلاثة إخوة من ديلم: عمران وأحمد وعلي.'
+  features:
+  - polity/buyid-dynasty
+  - place/baghdad
+- title:
+    ar: بغداد
+    en: Baghdad
+  body:
+    ar: 'الخليفة بلا سلطان: آمراء الشيعة يحكمون.'
+    en: 'الخليفة بلا سلطان: آمراء الشيعة يحكمون.'
+  features:
+  - place/baghdad
+  - polity/abbasid-caliphate
+- title:
+    ar: العلم
+    en: The learning
+  body:
+    ar: 'القرن البويهي: المتنبي والفارابي.'
+    en: 'القرن البويهي: المتنبي والفارابي.'
+  features:
+  - person/al-farabi
+  - place/shiraz
+- title:
+    ar: النهاية
+    en: The end
+  body:
+    ar: طغرل بك ينهي القرن البويهي 1055.
+    en: طغرل بك ينهي القرن البويهي 1055.
+  features:
+  - polity/seljuk-empire
+  - place/baghdad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

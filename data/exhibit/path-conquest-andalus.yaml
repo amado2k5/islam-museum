@@ -1,0 +1,77 @@
+id: exhibit/path-conquest-andalus
+class: exhibit
+kind: trail
+label:
+  ar: فتح الأندلس
+  en: The Conquest of al-Andalus
+summary:
+  ar: 'مسار في فتح 711: طارق يعبر المضيق، وقرطبة وطليطلة تُفتحان، وموسى يكمل — سبعمائة سنة تبدأ.'
+  en: A trail through the crossing of 711.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: العبور
+    en: The crossing
+  body:
+    ar: طارق بن زياد يعبر بسبعة آلاف.
+    en: طارق بن زياد يعبر بسبعة آلاف.
+  features:
+  - person/tariq-ibn-ziyad
+  - event/conquest-of-al-andalus
+- title:
+    ar: قرطبة
+    en: Cordoba
+  body:
+    ar: عاصمة القوط الغربيين تسقط.
+    en: عاصمة القوط الغربيين تسقط.
+  features:
+  - event/conquest-of-cordoba-92
+  - place/cordoba
+- title:
+    ar: طليطلة
+    en: Toledo
+  body:
+    ar: موسى بن نصير يتقدم للعاصمة الملكية.
+    en: موسى بن نصير يتقدم للعاصمة الملكية.
+  features:
+  - event/conquest-of-tulaytula
+  - person/musa-ibn-nusayr
+- title:
+    ar: البلاد
+    en: The land
+  body:
+    ar: الأندلس كلها في سبع سنين.
+    en: الأندلس كلها في سبع سنين.
+  features:
+  - event/conquest-of-al-andalus
+  - place/al-andalus
+- title:
+    ar: الإرث
+    en: The legacy
+  body:
+    ar: 'ثمانية قرون: من الفتح إلى غرناطة.'
+    en: 'ثمانية قرون: من الفتح إلى غرناطة.'
+  features:
+  - place/al-andalus
+  - place/cordoba
+  - place/cordoba
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
