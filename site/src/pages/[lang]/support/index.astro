@@ -3,16 +3,13 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../components/PageHeader.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { REPO } from "../../../lib/graph";
+import { PATREON, PAYPAL, LAUNCHGOOD, GITHUB_SPONSORS } from "../../../lib/links";
 import { siPatreon, siPaypal, siGithubsponsors } from "simple-icons";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const S = T.support;
-const PATREON = "https://www.patreon.com/14118699/join";
-const PAYPAL = "https://www.paypal.com/donate/?business=KHXBWQAVZK3VE&no_recurring=0&item_name=Support+islam.museum%21+An+ad-free%2C+open-source+archive+mapping+14+centuries+of+Islamic+history%2C+figures%2C+and+heritage.&currency_code=CAD";
-const LAUNCHGOOD = "https://www.launchgood.com/v4/campaign/build_the_worlds_first_open_digital_museum_of_islam_islammuseum?src=1096683";
-const GITHUB_SPONSORS = "https://github.com/sponsors/amado2k5?preview=true";
 ---
 <BaseLayout lang={lang} title={S.title} description={S.lede} path={`/${lang}/support/`}>
   <PageHeader title={S.title} lede={S.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: S.title }]} crumbsLabel={T.entity.breadcrumb} />

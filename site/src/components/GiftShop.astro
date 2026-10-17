@@ -1,0 +1,84 @@
+---
+// The two closing sections of the landing page: the gift shop carousel (eight Shopify collections, hover to auto-slide, click to visit the shop)
+// and "Donate and support us" (the same options as the support page). Layout follows the landing's section rhythm and the site tokens.
+import { ui, type Lang } from "../lib/i18n";
+import { SHOP, PATREON, PAYPAL, LAUNCHGOOD, GITHUB_SPONSORS } from "../lib/links";
+
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const L = T.landing;
+const CDN = "https://cdn.shopify.com/s/files/1/0795/3544/0040/collections/";
+// Category order follows the store's own navigation; each image is the collection's cover on the store.
+const CATS: { key: keyof typeof L.shop_cats; file: string }[] = [
+  { key: "apparel", file: "apparel-clothing-collection.png?v=1792190329" },
+  { key: "art", file: "art-prints-calligraphy.png?v=1792190070" },
+  { key: "books", file: "books.png?v=1792190047" },
+  { key: "ceramics", file: "ceramics-pottery.png?v=1792190059" },
+  { key: "home", file: "home-d-cor.png?v=1792190020" },
+  { key: "jewelry", file: "jewelry-accessories.png?v=1792190037" },
+  { key: "kids", file: "kids-collection.png?v=1792190134" },
+  { key: "oud", file: "oud-miswak-islamic-heritage-collection.png?v=1792190394" },
+];
+const GIVE = [
+  { name: "Patreon", href: PATREON },
+  { name: "PayPal", href: PAYPAL },
+  { name: "LaunchGood", href: LAUNCHGOOD },
+  { name: "GitHub Sponsors", href: GITHUB_SPONSORS },
+];
+---
+<section class="block shop" id="gift-shop" aria-labelledby="shop-title">
+  <div class="wrap">
+    <h2 id="shop-title">{L.shop_title}</h2>
+    <div class="carousel" data-carousel data-interval="3500">
+      <div class="frame">
+        <ul class="track" role="list" data-track>
+          {CATS.map((c) => (
+            <li class="slide">
+              <a class="card" href={SHOP} rel="noopener">
+                <img src={`${CDN}${c.file}&width=900`} alt={L.shop_cats[c.key]} loading="lazy" decoding="async" width="900" height="1125" />
+                <span class="cap">{L.shop_cats[c.key]}</span>
+                <span class="go ui">{L.shop_cta} <span class="flip" aria-hidden="true">→</span></span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div class="controls ui">
+        <button class="car-btn" type="button" data-prev aria-label={L.shop_prev}><span aria-hidden="true" class="flip">←</span></button>
+        <button class="car-btn" type="button" data-next aria-label={L.shop_next}><span aria-hidden="true" class="flip">→</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block give" aria-labelledby="give-title" style="padding-top:1rem">
+  <div class="wrap">
+    <h2 id="give-title">{L.give_title}</h2>
+    <ul class="give-list" role="list">
+      {GIVE.map((g) => (
+        <li><a class="give-link ui" href={g.href} rel="noopener">{g.name} <span class="flip" aria-hidden="true">↗</span></a></li>
+      ))}
+    </ul>
+  </div>
+</section>
+<script src="../scripts/gift-carousel.ts"></script>
+
+<style>
+  .shop h2, .give h2 { margin-bottom: 1rem; }
+  .frame { overflow: hidden; border: 1px solid var(--line); border-radius: 18px; background: var(--card); padding: 14px; }
+  .track { display: flex; gap: 14px; list-style: none; margin: 0; padding: 0; transition: transform 0.6s ease; will-change: transform; }
+  .slide { flex: 0 0 clamp(240px, 36vw, 400px); min-width: 0; }
+  .card { display: flex; flex-direction: column; height: 100%; color: var(--fg); text-decoration: none; border-radius: 12px; overflow: hidden; background: var(--bg); }
+  .card img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+  .cap { font-family: var(--serif); font-size: 1.2rem; padding: 12px 14px 4px; }
+  html[lang="ar"] .cap, html[lang="ur"] .cap { font-family: var(--ar-display); }
+  .go { padding: 0 14px 14px; color: var(--link); font-size: 0.95rem; font-weight: 600; }
+  .card:hover .cap { text-decoration: underline; }
+  .controls { display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 14px; }
+  .car-btn { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); color: var(--fg); font-size: 1.2rem; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+  .car-btn:hover { background: color-mix(in srgb, var(--fg) 7%, transparent); }
+  .give-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+  .give-link { display: inline-flex; align-items: center; gap: 6px; padding: 12px 20px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--link); text-decoration: none; font-weight: 600; }
+  .give-link:hover { background: color-mix(in srgb, var(--fg) 7%, transparent); text-decoration: underline; }
+  @media (prefers-reduced-motion: reduce) { .track { transition: none; } }
+</style>

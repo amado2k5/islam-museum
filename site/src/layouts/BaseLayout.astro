@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import { ui, nextLang, LANGS, ARABIC_SCRIPT, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
+import { SHOP } from "../lib/links";
 import { wingCountLabel, explorePages } from "../lib/nav";
 import Logo from "../components/Logo.astro";
 // Webfonts sit one hop behind the stylesheet, which delays first paint under throttled networks; the two faces above the fold
@@ -97,7 +98,7 @@ const EXPLORE = explorePages(lang);
             </ul>
           </details>
           <a class="top-link" href={`/${lang}/today/`}>{T.nav.today}</a>
-          <a class="top-link" href="https://k5fb0x-tz.myshopify.com/" rel="noopener">{T.nav.gift_shop}</a>
+          <a class="top-link" href={SHOP} rel="noopener">{T.nav.gift_shop}</a>
         </nav>
         <div class="nav-tools ui">
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
