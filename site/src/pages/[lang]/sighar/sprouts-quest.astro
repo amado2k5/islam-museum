@@ -1,0 +1,155 @@
+---
+// Sprout Quest (ages 4–6): tap-through picture journey — one giant screen at
+// a time, one short line, one big "next" button. Stateless client script,
+// no scores, no failure states. Scoped <style> on this page.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Hudhud from "../../../components/Hudhud.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadQuestStops, viewSproutLines } from "../../../lib/kids";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+const lines = viewSproutLines(loadQuestStops(), lang);
+const celebrateLabel = lang === "ar" ? "هدهد يحتفل" : "Hudhud celebrates";
+const stepLabel = (n: number) =>
+  lang === "ar" ? `الخطوة ${n} من ${lines.length}` : `Step ${n} of ${lines.length}`;
+const STAR_COUNT = 12;
+---
+<BaseLayout lang={lang} title={t.sprouts_quest_title} description={t.sprouts_quest_lede} path={`/${lang}/sighar/sprouts-quest/`} kids={true}>
+  <div class="kids sprouts-quest">
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{t.sprouts_quest_title}</span>
+    </nav>
+
+    <h1>{t.sprouts_quest_title}</h1>
+    <p class="lede">{t.sprouts_quest_lede}</p>
+
+    <div data-quest hidden>
+      <div class="screens" aria-live="polite">
+        {lines.map((l, i) => (
+          <section class="screen" data-panel hidden={i !== 0} aria-label={stepLabel(i + 1)}>
+            <p class="screen-icon" aria-hidden="true">{l.icon}</p>
+            <Hudhud pose="celebrate" size={140} label={celebrateLabel} />
+            <p class="screen-line" set:html={l.lineHtml} />
+            <p>
+              <button type="button" class="kids-btn quest-next" data-next>{t.sprouts_next}</button>
+            </p>
+          </section>
+        ))}
+        <section class="screen finale" data-finale hidden aria-label={t.sprouts_finale_title}>
+          <div class="star-shower" aria-hidden="true">
+            {Array.from({ length: STAR_COUNT }, () => <span class="star">⭐</span>)}
+          </div>
+          <Hudhud pose="celebrate" size={180} label={celebrateLabel} />
+          <h2>{t.sprouts_finale_title}</h2>
+          <p class="finale-lede">{t.sprouts_finale_lede}</p>
+          <p>
+            <button type="button" class="kids-btn quest-next" data-again>{t.sprouts_again}</button>
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <noscript>
+      <section class="nojs-list" aria-label={t.sprouts_quest_title}>
+        <h2>{t.sprouts_quest_title}</h2>
+        <ol>
+          {lines.map((l) => (
+            <li><span aria-hidden="true">{l.icon}</span> {l.line}</li>
+          ))}
+        </ol>
+      </section>
+    </noscript>
+
+    <details class="grownups">
+      <summary>{t.grownups_title}</summary>
+      <p>{t.grownups_sprouts}</p>
+    </details>
+  </div>
+  <script src="../scripts/sprouts-quest.ts"></script>
+
+  <style>
+    .kids.sprouts-quest { text-align: center; }
+    .kids.sprouts-quest .screen {
+      border: 4px solid #c9a227;
+      border-radius: 1.5rem;
+      background: #fffdf6;
+      padding: 2.5rem 1rem;
+      margin-block: 1.5rem;
+      max-width: 34rem;
+      margin-inline: auto;
+    }
+    .kids.sprouts-quest .screen-icon { font-size: clamp(4.5rem, 18vw, 7rem); margin: 0; }
+    .kids.sprouts-quest .screen-line {
+      font-size: clamp(1.5rem, 5.5vw, 2.1rem);
+      line-height: 1.7;
+      color: #1b2a4a;
+      margin-block: 1rem 1.5rem;
+      max-width: 24em;
+      margin-inline: auto;
+    }
+    .kids.sprouts-quest .quest-next {
+      min-height: 64px;
+      min-width: 200px;
+      font-size: 1.6rem;
+      padding-inline: 2.5rem;
+    }
+    .kids.sprouts-quest .finale { position: relative; overflow: hidden; }
+    .kids.sprouts-quest .finale h2 {
+      font-size: clamp(2rem, 7vw, 2.8rem);
+      color: #1b2a4a;
+    }
+    .kids.sprouts-quest .finale-lede {
+      font-size: clamp(1.3rem, 5vw, 1.7rem);
+      line-height: 1.7;
+      max-width: 24em;
+      margin-inline: auto;
+    }
+    .kids.sprouts-quest .star-shower {
+      position: absolute;
+      inset-block-start: 0;
+      inset-inline: 0;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+    }
+    .kids.sprouts-quest .star {
+      position: absolute;
+      inset-block-start: -2rem;
+      font-size: 1.8rem;
+      animation: sprout-star-fall 2.6s ease-in forwards infinite;
+    }
+    .kids.sprouts-quest .star:nth-child(1) { inset-inline-start: 5%; animation-delay: 0s; }
+    .kids.sprouts-quest .star:nth-child(2) { inset-inline-start: 15%; animation-delay: 0.4s; }
+    .kids.sprouts-quest .star:nth-child(3) { inset-inline-start: 25%; animation-delay: 0.9s; }
+    .kids.sprouts-quest .star:nth-child(4) { inset-inline-start: 35%; animation-delay: 0.2s; }
+    .kids.sprouts-quest .star:nth-child(5) { inset-inline-start: 45%; animation-delay: 1.3s; }
+    .kids.sprouts-quest .star:nth-child(6) { inset-inline-start: 55%; animation-delay: 0.7s; }
+    .kids.sprouts-quest .star:nth-child(7) { inset-inline-start: 65%; animation-delay: 1.7s; }
+    .kids.sprouts-quest .star:nth-child(8) { inset-inline-start: 75%; animation-delay: 0.5s; }
+    .kids.sprouts-quest .star:nth-child(9) { inset-inline-start: 85%; animation-delay: 1.1s; }
+    .kids.sprouts-quest .star:nth-child(10) { inset-inline-start: 92%; animation-delay: 2s; }
+    .kids.sprouts-quest .star:nth-child(11) { inset-inline-start: 30%; animation-delay: 2.3s; }
+    .kids.sprouts-quest .star:nth-child(12) { inset-inline-start: 60%; animation-delay: 2.1s; }
+    @keyframes sprout-star-fall {
+      0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(32rem) rotate(180deg); opacity: 0; }
+    }
+    .kids.sprouts-quest .nojs-list {
+      text-align: start;
+      max-width: 30rem;
+      margin-inline: auto;
+      margin-block: 2rem;
+    }
+    .kids.sprouts-quest .nojs-list ol { font-size: 1.4rem; line-height: 2; }
+    @media (prefers-reduced-motion: reduce) {
+      .kids.sprouts-quest .star { animation: none; inset-block-start: 0.5rem; opacity: 0.9; }
+    }
+  </style>
+</BaseLayout>

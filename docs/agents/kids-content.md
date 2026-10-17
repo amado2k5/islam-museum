@@ -55,3 +55,10 @@ Some topics stay out of kids' routes entirely:
 | 6 | «اختيار جميل!» / "Lovely choice!" (Hudhud celebrates every answer) | «إجابة خاطئة، حاول مرة أخرى» (failure state) / "Wrong answer, try again" (failure state) |
 
 Hudhud (هدهد), the wing's hoopoe guide, speaks in the first row's voice: warm, curious, never lecturing, never grading. When in doubt, ask: *would this sentence make a seven-year-old feel braver and more curious?*
+
+## 7. Phase 2/3 additions (recorded 2026-10-16)
+
+1. **Retellings, not copies.** When the same prophet appears in more than one wing format (quest stop vs. bedtime story), each telling must be fresh prose — never a copied sentence. The test suite enforces this: a story body fails if it shares a 12+ word verbatim substring with the quest version.
+2. **Audio is progressive enhancement.** Bedtime-story pages check at build time whether `site/public/audio/kids/<slug>-<lang>.mp3` exists; the `<audio>` player renders only when the file is present. No placeholders, no broken players. Narration MP3s may land later without any page change.
+3. **Sprouts mode (4–6) is stateless.** No localStorage, no scores, no persistence for the youngest band — every tap is a celebration and nothing can go wrong. State (stars, stickers) begins at the Explorers band.
+4. **Printables ship with print CSS.** Tracker-style experiences (Kindness Quest) include a print-only chart (fridge chart) and hide all interactive chrome in print. The print button calls `window.print()`; the chart is fully server-rendered so it prints with JS disabled.

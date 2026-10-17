@@ -20,6 +20,20 @@ const quest = () => parse(readFileSync(QUEST, "utf8")) as {
   stops: QuestStop[]; status: { review: string }; provenance: Record<string, string>;
 };
 
+interface SproutStory {
+  slug: string; icon: string;
+  prophet: Bilingual; title: Bilingual; body: Bilingual; talk: Bilingual;
+}
+const DEEDS = "kids/deeds.yaml";
+const deeds = () => parse(readFileSync(DEEDS, "utf8")) as {
+  deeds: { day: number; icon: string; deed: Bilingual }[];
+  status: { review: string }; provenance: Record<string, string>;
+};
+const STORIES = "kids/stories.yaml";
+const stories = () => parse(readFileSync(STORIES, "utf8")) as {
+  stories: SproutStory[]; status: { review: string }; provenance: Record<string, string>;
+};
+
 describe("kids wing", () => {
   it("quest stops validate: 5 stops, bilingual, draft, no typed honorifics", () => {
     const q = quest();
@@ -91,14 +105,24 @@ describe("kids wing", () => {
       "site/src/components/Hudhud.astro",
       "site/src/components/KidsWordGarden.astro",
       "site/src/components/ProphetQuest.astro",
+      "site/src/components/KindnessQuest.astro",
       "site/src/lib/kids.ts",
       "site/src/scripts/kidsgarden.ts",
       "site/src/scripts/quest.ts",
+      "site/src/scripts/kindness.ts",
+      "site/src/scripts/sprouts-garden.ts",
+      "site/src/scripts/sprouts-quest.ts",
       "site/src/pages/[lang]/sighar/index.astro",
       "site/src/pages/[lang]/sighar/garden.astro",
       "site/src/pages/[lang]/sighar/quest.astro",
+      "site/src/pages/[lang]/sighar/kindness.astro",
+      "site/src/pages/[lang]/sighar/stories.astro",
+      "site/src/pages/[lang]/sighar/sprouts-garden.astro",
+      "site/src/pages/[lang]/sighar/sprouts-quest.astro",
       "docs/agents/kids-content.md",
       "kids/quest-stops.yaml",
+      "kids/deeds.yaml",
+      "kids/stories.yaml",
     ]) expect(existsSync(f), f).toBe(true);
   });
 
@@ -116,6 +140,10 @@ describe("kids wing", () => {
       "site/src/pages/[lang]/sighar/index.astro",
       "site/src/pages/[lang]/sighar/garden.astro",
       "site/src/pages/[lang]/sighar/quest.astro",
+      "site/src/pages/[lang]/sighar/kindness.astro",
+      "site/src/pages/[lang]/sighar/stories.astro",
+      "site/src/pages/[lang]/sighar/sprouts-garden.astro",
+      "site/src/pages/[lang]/sighar/sprouts-quest.astro",
     ]) {
       expect(readFileSync(p, "utf8")).toContain("kids");
     }
@@ -135,12 +163,22 @@ describe("kids wing", () => {
   it("no typed honorifics in any kids' source file", () => {
     const files = [
       "kids/quest-stops.yaml",
+      "kids/deeds.yaml",
+      "kids/stories.yaml",
       "site/src/lib/kids.ts",
       "site/src/components/KidsWordGarden.astro",
       "site/src/components/ProphetQuest.astro",
+      "site/src/components/KindnessQuest.astro",
+      "site/src/scripts/kindness.ts",
+      "site/src/scripts/sprouts-garden.ts",
+      "site/src/scripts/sprouts-quest.ts",
       "site/src/pages/[lang]/sighar/index.astro",
       "site/src/pages/[lang]/sighar/garden.astro",
       "site/src/pages/[lang]/sighar/quest.astro",
+      "site/src/pages/[lang]/sighar/kindness.astro",
+      "site/src/pages/[lang]/sighar/stories.astro",
+      "site/src/pages/[lang]/sighar/sprouts-garden.astro",
+      "site/src/pages/[lang]/sighar/sprouts-quest.astro",
     ];
     for (const f of files) {
       if (!existsSync(f)) continue;
@@ -150,5 +188,102 @@ describe("kids wing", () => {
       if (f === "site/src/lib/kids.ts") continue;
       expect(HONORIFIC.test(t), f).toBe(false);
     }
+  });
+
+  it("kindness deeds validate: exactly 30 days, bilingual, draft, no typed honorifics", () => {
+    const d = deeds();
+    expect(d.deeds.length).toBe(30);
+    const days = d.deeds.map((x) => x.day).sort((a, b) => a - b);
+    expect(days).toEqual(Array.from({ length: 30 }, (_, i) => i + 1));
+    for (const x of d.deeds) {
+      expect(typeof x.icon === "string" && x.icon.length > 0, `day ${x.day} icon`).toBe(true);
+      expect(typeof x.deed?.ar === "string" && x.deed.ar.length > 0, `day ${x.day} deed.ar`).toBe(true);
+      expect(typeof x.deed?.en === "string" && x.deed.en.length > 0, `day ${x.day} deed.en`).toBe(true);
+    }
+    expect(d.status?.review).toBe("draft");
+    expect(d.provenance?.generated_by).toBeTruthy();
+    const raw = readFileSync(DEEDS, "utf8");
+    expect(HONORIFIC.test(raw), "deeds typed honorific").toBe(false);
+    expect(/[﴿﴾]/.test(raw), "deeds typed Quran text").toBe(false);
+  });
+
+  it("sprout stories validate: 5 retellings, slugs match quest stops, draft, no typed honorifics", () => {
+    const s = stories();
+    expect(s.stories.length).toBe(5);
+    expect(s.stories.map((x) => x.slug)).toEqual(["adam", "nuh", "ibrahim", "musa", "isa"]);
+    const bySlug = new Map(quest().stops.map((x) => [x.slug, x]));
+    for (const st of s.stories) {
+      for (const k of ["prophet", "title", "body", "talk"] as const) {
+        expect(typeof st[k].ar === "string" && st[k].ar.length > 0, `${st.slug}.${k}.ar`).toBe(true);
+        expect(typeof st[k].en === "string" && st[k].en.length > 0, `${st.slug}.${k}.en`).toBe(true);
+      }
+      expect(typeof st.icon === "string" && st.icon.length > 0, `${st.slug}.icon`).toBe(true);
+      // Prophet names are plain: the UI renders honorifics via kidsHonorify.
+      expect(HONORIFIC.test(JSON.stringify(st.prophet)), `${st.slug} prophet name typed honorific`).toBe(false);
+      // body must be a retelling of the quest stop's story, not a copy.
+      const stop = bySlug.get(st.slug)!;
+      expect(stop, `${st.slug} has a quest stop`).toBeTruthy();
+      expect(st.body.ar).not.toBe(stop.story.ar);
+      expect(st.body.ar.length).not.toBe(stop.story.ar.length);
+      const words = st.body.ar.split(/\s+/);
+      let sharesLongPhrase = false;
+      for (let i = 0; i + 12 <= words.length; i++) {
+        if (stop.story.ar.includes(words.slice(i, i + 12).join(" "))) { sharesLongPhrase = true; break; }
+      }
+      expect(sharesLongPhrase, `${st.slug} body shares a 12+ word phrase with the quest story`).toBe(false);
+    }
+    expect(s.status?.review).toBe("draft");
+    expect(s.provenance?.generated_by).toBeTruthy();
+    const raw = readFileSync(STORIES, "utf8");
+    expect(HONORIFIC.test(raw), "stories typed honorific").toBe(false);
+    expect(/[﴿﴾]/.test(raw), "stories typed Quran text").toBe(false);
+  });
+
+  it("quest stops carry sprout lines: ≤ 2 sentences each, no typed honorifics", () => {
+    const q = quest();
+    expect(q.stops.length).toBe(5);
+    for (const s of q.stops) {
+      const sprout = (s as QuestStop & { sprout?: Bilingual }).sprout;
+      expect(sprout?.ar?.length > 0, `${s.slug} sprout.ar`).toBe(true);
+      expect(sprout?.en?.length > 0, `${s.slug} sprout.en`).toBe(true);
+      expect(sprout!.ar.split(/[.!؟?]/).filter(Boolean).length).toBeLessThanOrEqual(2);
+      expect(sprout!.en.split(/[.!؟?]/).filter(Boolean).length).toBeLessThanOrEqual(2);
+      expect(HONORIFIC.test(JSON.stringify(sprout)), `${s.slug} sprout typed honorific`).toBe(false);
+    }
+  });
+
+  it("kids.ts exports the new loaders and views", () => {
+    const t = readFileSync("site/src/lib/kids.ts", "utf8");
+    for (const fn of [
+      "export function loadDeeds",
+      "export function loadStories",
+      "export function viewStories",
+      "export function viewSproutLines",
+      "export function storyAudioExists",
+    ]) expect(t).toContain(fn);
+  });
+
+  it("new kids' pages opt into the kids chrome and use the new scripts", () => {
+    for (const p of [
+      "site/src/pages/[lang]/sighar/kindness.astro",
+      "site/src/pages/[lang]/sighar/stories.astro",
+      "site/src/pages/[lang]/sighar/sprouts-garden.astro",
+      "site/src/pages/[lang]/sighar/sprouts-quest.astro",
+    ]) {
+      expect(readFileSync(p, "utf8")).toContain("kids");
+    }
+  });
+
+  it("story audio player is gated at build time, never unconditional", () => {
+    const t = readFileSync("site/src/pages/[lang]/sighar/stories.astro", "utf8");
+    expect(t).toContain("audio/kids");
+    expect(t.includes("storyAudioExists") || t.includes("existsSync"), "build-time audio existence check").toBe(true);
+  });
+
+  it("kindness quest supports printing the sticker chart", () => {
+    const comp = readFileSync("site/src/components/KindnessQuest.astro", "utf8");
+    expect(comp).toContain("print");
+    const page = readFileSync("site/src/pages/[lang]/sighar/kindness.astro", "utf8");
+    expect(page.includes("kindness_print") || comp.includes("kindness_print"), "t.kindness_print reference").toBe(true);
   });
 });

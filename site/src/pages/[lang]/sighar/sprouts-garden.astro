@@ -1,0 +1,157 @@
+---
+// Sprout Garden (ages 4–6): tap-and-delight flowers from the wa-bashshir
+// word map (frozen Tanzil corpus, kids-approved). First 5 surahs become 5
+// huge flower buttons; every tap blooms. Scoped <style> on this page.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Hudhud from "../../../components/Hudhud.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadWordMap } from "../../../lib/wordmap";
+import { byId, labelOf } from "../../../lib/graph";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+
+const map = loadWordMap("wa-bashshir");
+if (map.kids !== true) throw new Error("sprouts garden: cards/wordmap/wa-bashshir.json is not kids-approved");
+
+const surahName = (s: number) => {
+  const node = byId.get(`passage/quran-${s}`);
+  return node ? labelOf(node, lang) : `Q${s}`;
+};
+const surahs = [...new Set(map.forms.flatMap((f) => f.refs.map((r) => r.s)))]
+  .sort((a, b) => a - b)
+  .slice(0, 5)
+  .map((s) => ({ s, name: surahName(s) }));
+
+const FLOWERS = ["🌸", "🌻", "🌷", "🌼", "🌺"];
+const celebrateLabel = lang === "ar" ? "هدهد يحتفل" : "Hudhud celebrates";
+const payload = { word: map.word, surahs };
+---
+<BaseLayout lang={lang} title={t.sprouts_garden_title} description={t.sprouts_garden_lede} path={`/${lang}/sighar/sprouts-garden/`} kids={true}>
+  <div class="kids sprouts-garden" data-sprouts-garden>
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{t.sprouts_garden_title}</span>
+    </nav>
+
+    <h1>{t.sprouts_garden_title}</h1>
+    <p class="lede">{t.sprouts_garden_lede}</p>
+    <p class="hint" aria-hidden="true">{t.sprouts_garden_tap}</p>
+
+    <div class="flowerbed" role="group" aria-label={t.sprouts_garden_tap}>
+      {surahs.map((sh, i) => (
+        <button type="button" class="flower" data-flower data-index={i}
+          aria-label={`${FLOWERS[i % FLOWERS.length]} — ${sh.name}`}>
+          <span class="flower-emoji" aria-hidden="true">{FLOWERS[i % FLOWERS.length]}</span>
+        </button>
+      ))}
+    </div>
+
+    <div class="bloom-panel" data-bloom hidden aria-live="polite">
+      <Hudhud pose="celebrate" size={160} label={celebrateLabel} />
+      <p class="bloom-word" data-bloom-word lang="ar" dir="rtl"></p>
+      <p class="bloom-celebrate" aria-hidden="true">🎉 ✨ 🌟 💛 ✨ 🎉</p>
+      <p class="bloom-surah" data-bloom-surah></p>
+    </div>
+
+    <noscript>
+      <section class="nojs-list" aria-label={t.sprouts_garden_title}>
+        <h2>{t.sprouts_garden_title}</h2>
+        <p><span lang="ar" dir="rtl" class="nojs-word">{map.word}</span></p>
+        <ul>
+          {surahs.map((sh, i) => (
+            <li><span aria-hidden="true">{FLOWERS[i % FLOWERS.length]}</span> {sh.name}</li>
+          ))}
+        </ul>
+      </section>
+    </noscript>
+
+    <details class="grownups">
+      <summary>{t.grownups_title}</summary>
+      <p>{t.grownups_sprouts}</p>
+    </details>
+
+    <script type="application/json" data-payload set:html={JSON.stringify(payload)} />
+  </div>
+  <script src="../scripts/sprouts-garden.ts"></script>
+
+  <style>
+    .kids.sprouts-garden { text-align: center; }
+    .kids.sprouts-garden .flowerbed {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.25rem;
+      margin-block: 2rem;
+    }
+    .kids.sprouts-garden .flower {
+      min-width: 96px;
+      min-height: 96px;
+      width: clamp(96px, 22vw, 140px);
+      height: clamp(96px, 22vw, 140px);
+      border-radius: 50%;
+      border: 4px solid #c9a227;
+      background: #faf6ea;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.15s ease;
+    }
+    .kids.sprouts-garden .flower:hover,
+    .kids.sprouts-garden .flower:focus-visible { transform: scale(1.12); }
+    .kids.sprouts-garden .flower-emoji { font-size: clamp(3rem, 12vw, 4.5rem); }
+    .kids.sprouts-garden .flower.picked { outline: 6px solid #2a7b88; outline-offset: 4px; }
+    .kids.sprouts-garden .bloom-panel {
+      position: relative;
+      overflow: hidden;
+      border: 4px solid #c9a227;
+      border-radius: 1.5rem;
+      background: #fffdf6;
+      padding: 2rem 1rem;
+      margin-block: 1.5rem;
+      max-width: 34rem;
+      margin-inline: auto;
+    }
+    .kids.sprouts-garden .bloom-word {
+      font-size: clamp(4rem, 16vw, 7rem);
+      font-weight: 700;
+      color: #1b2a4a;
+      margin-block: 0.5rem;
+    }
+    .kids.sprouts-garden .bloom-celebrate { font-size: 2rem; margin-block: 0.5rem; }
+    .kids.sprouts-garden .bloom-surah {
+      font-size: clamp(1.5rem, 6vw, 2rem);
+      font-weight: 700;
+      color: #876a18;
+      margin-block: 0.5rem 0;
+    }
+    .kids.sprouts-garden .burst-emoji {
+      position: absolute;
+      font-size: 2rem;
+      pointer-events: none;
+      animation: sprout-burst 0.9s ease-out forwards;
+    }
+    @keyframes sprout-burst {
+      0% { opacity: 1; transform: translate(0, 0) scale(0.5); }
+      100% { opacity: 0; transform: translate(var(--bx, 0), var(--by, -120px)) scale(1.4); }
+    }
+    .kids.sprouts-garden .nojs-list {
+      text-align: start;
+      max-width: 30rem;
+      margin-inline: auto;
+      margin-block: 2rem;
+    }
+    .kids.sprouts-garden .nojs-word { font-size: 3rem; font-weight: 700; }
+    .kids.sprouts-garden .nojs-list ul { font-size: 1.4rem; line-height: 2; }
+    @media (prefers-reduced-motion: reduce) {
+      .kids.sprouts-garden .flower { transition: none; }
+      .kids.sprouts-garden .burst-emoji { animation: none; opacity: 1; position: static; }
+    }
+  </style>
+</BaseLayout>

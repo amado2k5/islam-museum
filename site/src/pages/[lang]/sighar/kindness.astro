@@ -1,0 +1,27 @@
+// Kindness Quest page: 30-day sticker chart + printable chart + grown-ups note.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import KindnessQuest from "../../../components/KindnessQuest.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadDeeds, viewDeeds } from "../../../lib/kids";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const deeds = viewDeeds(loadDeeds(), lang);
+if (deeds.length !== 30) throw new Error(`kindness: expected 30 deeds, got ${deeds.length}`);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={t.kindness_title} description={t.kindness_lede} path={`/${lang}/sighar/kindness/`} kids={true}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{t.kindness_title}</span>
+  </nav>
+  <KindnessQuest lang={lang} t={t} deeds={deeds} />
+  <details class="grownups">
+    <summary>{t.grownups_title}</summary>
+    <p>{t.grownups_kindness}</p>
+  </details>
+</BaseLayout>

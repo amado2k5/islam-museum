@@ -21,17 +21,22 @@ const t = T.kids;
     </section>
 
     <section class="age-bands">
-      <div class="age-band">
+      <div class="age-band on">
         <h2>🌱 {t.band_sprouts}</h2>
         <p>{t.band_sprouts_desc}</p>
-        <span class="chip">{t.band_coming_soon}</span>
+        <p>
+          <a class="kids-btn" href={`/${lang}/sighar/sprouts-garden/`}>{t.sprouts_garden_title}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/sprouts-quest/`}>{t.sprouts_quest_title}</a>
+        </p>
       </div>
       <div class="age-band on">
         <h2>🔍 {t.band_explorers}</h2>
         <p>{t.band_explorers_desc}</p>
         <p>
           <a class="kids-btn" href={`/${lang}/sighar/garden/`}>{t.garden_title}</a>{" "}
-          <a class="kids-btn" href={`/${lang}/sighar/quest/`}>{t.quest_title}</a>
+          <a class="kids-btn" href={`/${lang}/sighar/quest/`}>{t.quest_title}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/kindness/`}>{t.kindness_title}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/stories/`}>{t.stories_title}</a>
         </p>
       </div>
       <div class="age-band">
@@ -49,6 +54,14 @@ const t = T.kids;
       <a class="entry-card" href={`/${lang}/sighar/quest/`}>
         <h2>⭐ {t.quest_title}</h2>
         <p>{t.quest_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/kindness/`}>
+        <h2>🤲 {t.kindness_title}</h2>
+        <p>{t.kindness_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/stories/`}>
+        <h2>🌙 {t.stories_title}</h2>
+        <p>{t.stories_lede}</p>
       </a>
     </section>
 
