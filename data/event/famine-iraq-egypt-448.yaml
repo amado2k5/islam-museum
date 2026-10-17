@@ -1,0 +1,22 @@
+id: event/famine-iraq-egypt-448
+class: event
+kind: famine
+label: { ar: "الغلاء والوباء العام سنة 448" }
+summary:
+  ar: "في سنة ثمان وأربعين وأربعمائة كان القحط الشديد بديار مصر والوباء المفرط، وكانت العراق مموجة بالفتن والخوف والنهب من جماعة طغرل بك ومن الأعراب ومن البساسيري؛ وقع الغلاء والوباء في الناس فاشتد الجوع حتى أكلوا الميتة، وبلغ المكوك من بزر البقلة سبعة دنانير والرمانة ديناراً والخيارة ديناراً، وعمّ الغلاء والوباء جميع البلاد؛ وورد من مصر أن ثلاثة لصوص نقبوا داراً فوُجدوا عند الصباح موتى أحدهم على باب البيت والثاني على رأس الدرجة والثالث على الثياب المكورة {cite:shadharat-dhahab p. 278}."
+  en: "In 448 Egypt saw severe drought and rampant plague while Iraq was awash with strife, fear and looting from Tughril Beg's bands, the Bedouin and al-Basasiri; famine and pestilence struck until people ate carrion — a makuk of clover seed reached seven dinars, a pomegranate a dinar — and a report from Egypt told of three thieves found dead mid-burglary, one at the door, one on the stairs, one on the folded clothes {cite:shadharat-dhahab p. 278}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [egypt-nile, levant-iraq]
+date:
+  start: { edtf: "1056~", hijri: "0448", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 448؛ التحويل مشتق {cite:shadharat-dhahab p. 278}." }
+relations:
+  - { type: occurred_at, target: place/misr, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-96
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

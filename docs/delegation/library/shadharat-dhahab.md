@@ -54,3 +54,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 95 — سنة 436 (~line 6922) through ~450.
 - Batch 95 (Devin): AH 437–440 — al-Mu'izz b. Badis's defection and the FIRST HILALI ENTRY into Ifriqiya (Banu Riyah & Zughba), Abu Kalijar's death on the Kerman road (son al-Malik al-Rahim enthroned), Abbasid prince-hafiz al-Hasan b. Isa, and the Hanbali wit Ibn al-Baqqal. 3 new + 2 enriched + 1 prose.
 - Next: batch 96 — سنة 441 (~line 7160) through ~450 (Ash'ari persecution lead-in at 445+).
+- Batch 96 (Devin): AH 441–448 — the 448 twin set-pieces: al-Qa'im's marriage to Tughril's sister and the Egypt/Iraq famine-plague (people ate carrion, a pomegranate a dinar); Sultan Mawdud of Ghazna (d. Rajab 441, age 29), chief qadi Ibn Makula (d. Shawwal 447, father authored al-Ikmal), exegete al-Fath b. Sulaym al-Razi drowned off Jeddah, and musnid al-Andalus al-Hakam al-Judhami. 6 new + 2 prose.
+- Next: batch 97 — سنة 449–455 (Basasiri's rise, Tughril's death Ramadan 455).
