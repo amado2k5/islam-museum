@@ -1,0 +1,77 @@
+id: exhibit/path-ibn-taymiyya
+class: exhibit
+kind: trail
+label:
+  ar: ابن تيمية ومدرسته
+  en: Ibn Taymiyya and His School
+summary:
+  ar: 'مسار في شيخ الإسلام الحنبلي: ابن تيمية في دمشق المنكوبة بالمغول، وتلميذه ابن القيم، وابن رجب شرّاح
+    الأربعين.'
+  en: A trail through the Hanbali shaykh and his school.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: ابن تيمية
+    en: Ibn Taymiyya
+  body:
+    ar: 'تقي الدين: الفتاوى والسجون ومجابهة المغول.'
+    en: 'تقي الدين: الفتاوى والسجون ومجابهة المغول.'
+  features:
+  - person/ibn-taymiyya
+  - place/damascus
+- title:
+    ar: ابن القيم
+    en: Ibn Qayyim
+  body:
+    ar: 'شمس الدين ابن قيم الجوزية: تلميذ الأربعين سنة.'
+    en: 'شمس الدين ابن قيم الجوزية: تلميذ الأربعين سنة.'
+  features:
+  - person/ibn-qayyim-al-jawziyya
+  - place/damascus
+- title:
+    ar: ابن رجب
+    en: Ibn Rajab
+  body:
+    ar: 'الحنبلي البغدادي: جامع العلوم والحكم.'
+    en: 'الحنبلي البغدادي: جامع العلوم والحكم.'
+  features:
+  - person/ibn-rajab
+  - work/jami-ulum-hikam
+- title:
+    ar: المذهب
+    en: The madhhab
+  body:
+    ar: 'أحمد بن حنبل والمغني: تراث المدرسة.'
+    en: 'أحمد بن حنبل والمغني: تراث المدرسة.'
+  features:
+  - person/ahmad-ibn-hanbal
+  - work/al-mughni
+- title:
+    ar: السياق
+    en: The context
+  body:
+    ar: بغداد محروقة والمغول عند الشام.
+    en: بغداد محروقة والمغول عند الشام.
+  features:
+  - event/sack-of-baghdad-656
+  - place/damascus
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
