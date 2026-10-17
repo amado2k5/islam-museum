@@ -1,0 +1,89 @@
+---
+// Poetry anthology (Phase 3, roadmap: "poetry anthology"): every work of kind: poem in the graph,
+// grouped under its poet where an authored edge names one. Poems without an author edge fall under
+// an "unattributed in the graph" group rather than a guessed one — the catalogue only shows what
+// the data attests. Cards link to the poem's page; poet names link to the person's page.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../components/PageHeader.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { byId, graph, href, labelOf, realNodes, summaryOf } from "../../../../lib/graph";
+import { formatDate } from "../../../../lib/dates";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const P = T.poetry;
+
+const poems = realNodes.filter((n) => n.class === "work" && n.data.kind === "poem");
+// poet of a poem = person end of an authored edge (person --authored--> work).
+const poetOf = new Map<string, any>();
+for (const e of graph.edges) {
+  if (e.type !== "authored" || e.inverse || !e.to.startsWith("work/")) continue;
+  const person = byId.get(e.from);
+  if (person?.class === "person" && !person.stub) poetOf.set(e.to, person);
+}
+const byPoet = new Map<string, { poet: any; poems: any[] }>();
+const unattributed: any[] = [];
+for (const p of poems) {
+  const poet = poetOf.get(p.id);
+  if (!poet) { unattributed.push(p); continue; }
+  (byPoet.get(poet.id) ?? byPoet.set(poet.id, { poet, poems: [] }).get(poet.id)!).poems.push(p);
+}
+// groups ordered by the poet's death date where known, else alphabetically at the end.
+const deathKey = (poet: any) => poet.data.died?.edtf ?? poet.data.died?.start?.edtf ?? "9999";
+const groups = [...byPoet.values()].sort((a, b) => {
+  const ka = deathKey(a.poet), kb = deathKey(b.poet);
+  return ka === kb ? labelOf(a.poet, lang).localeCompare(labelOf(b.poet, lang), lang) : ka < kb ? -1 : 1;
+});
+for (const g of groups) g.poems.sort((a, b) => labelOf(a, lang).localeCompare(labelOf(b, lang), lang));
+const dateOf = (n: any) => formatDate(n.data.died ?? n.data.born, lang).text;
+---
+<BaseLayout lang={lang} title={P.title} description={P.lede} path={`/${lang}/words/poetry/`}>
+  <PageHeader
+    title={P.title}
+    lede={P.lede}
+    crumbs={[
+      { label: T.entity.breadcrumb, href: `/${lang}/` },
+      { label: T.wings.words.title, href: `/${lang}/words/` },
+      { label: P.title },
+    ]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing="words"
+  />
+  <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
+    <p class="ui muted" style="max-width:var(--measure);margin:0 0 16px">{P.index_note}</p>
+    {groups.map((g) => (
+      <section style="margin-bottom:28px" aria-labelledby={`p-${g.poet.slug}`}>
+        <h2 id={`p-${g.poet.slug}`} style="font-size:1.3rem;margin:0 0 10px">
+          <a href={href(lang, g.poet.id)}>{labelOf(g.poet, lang)}</a>
+          {dateOf(g.poet) && <span class="ui muted" style="font-size:.85rem;font-weight:400"> · {P.died} {dateOf(g.poet)}</span>}
+        </h2>
+        <ul class="grid-cards">
+          {g.poems.map((p) => (
+            <li>
+              <a class="card" href={href(lang, p.id)}>
+                <h3 class="card-title" style="font-size:1.05rem">{labelOf(p, lang)}</h3>
+                <span>{summaryOf(p, lang)}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+    {unattributed.length > 0 && (
+      <section style="margin-bottom:28px" aria-labelledby="p-none">
+        <h2 id="p-none" style="font-size:1.3rem;margin:0 0 10px">{P.unattributed}</h2>
+        <ul class="grid-cards">
+          {unattributed.map((p) => (
+            <li>
+              <a class="card" href={href(lang, p.id)}>
+                <h3 class="card-title" style="font-size:1.05rem">{labelOf(p, lang)}</h3>
+                <span>{summaryOf(p, lang)}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </div>
+</BaseLayout>
