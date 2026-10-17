@@ -28,10 +28,12 @@ nav:
   screen: Screening Room
   themes: Themes
   learn: Tour / Learn
+  gift_shop: Gift shop
+  donate: Donate
 a11y:
   skip: Skip to content
   menu_open: Menu
-  theme_light: 'Switch to light theme'
+  theme_light: Switch to light theme
   theme: Toggle dark mode
   menu: Main navigation
 landing:
@@ -39,23 +41,22 @@ landing:
   title_pre: A museum for the
   title_strong: whole story
   title_post: of Islam.
-  lede: From the world it was born into, through fourteen centuries of faith, scholarship, art, cities, journeys and peoples, to today. Every person, place, event, idea, object and practice connected to
-    everything around it, in time and space, for the curious of every background.
+  lede: From the world it was born into, through fourteen centuries of faith, scholarship, art, cities, journeys and peoples, to today. Every person, place, event, idea, object and practice connected to everything around it, in time and space, for the curious of every background.
   meta_description: "Islam Museum: an open digital museum of Islamic history — fourteen centuries, every person, place, event and idea linked in time and space."
   soon: The first galleries are being built. Opening soon.
-  coverage: 'What is done and what is still waiting, in numbers: the coverage page'
+  coverage: "What is done and what is still waiting, in numbers: the coverage page"
   today_is: Today is
   wings: Nine wings
   start: Start with the Prophet's migration
   start_hint: A first visit
   how: How we build it
   pillars:
-  - Free, with no ads, forever
-  - Open data and open text
-  - Every claim sourced
-  - All traditions, fairly
-  - Arabic and English first, more languages to come
-  - Written for the curious stranger
+    - Free, with no ads, forever
+    - Open data and open text
+    - Every claim sourced
+    - All traditions, fairly
+    - Arabic and English first, more languages to come
+    - Written for the curious stranger
   entrances: Five ways in
   learn_title: Tour / Learn, in the making
   learn_text: Guided pathways, step by step, toward a goal you choose, so the museum never feels too big or confusing. About 300 are being planned, and five trial pathways are open.
@@ -77,10 +78,25 @@ landing:
   corresponds: corresponds to
   widget_none: No entry in the museum is dated to this day yet.
   widget_fail: This browser could not do the conversion.
-  widget_or: 'Or start with the most famous journey in the story:'
-  stats: '{items} entries · {pages} pages · 300 pathways planned'
+  widget_or: "Or start with the most famous journey in the story:"
+  stats: "{items} entries · {pages} pages · 300 pathways planned"
   honest: We show the gaps rather than hide them
   honest_link: see the coverage
+  shop_title: islam.museum gift shop
+  shop_cta: Visit the gift shop
+  shop_prev: Previous
+  shop_next: Next
+  shop_region: Gift shop categories
+  shop_cats:
+    apparel: Apparel & Clothing
+    art: Art Prints & Calligraphy
+    books: Books
+    ceramics: Ceramics & Pottery
+    home: Home Décor
+    jewelry: Jewelry & Accessories
+    kids: Kids
+    oud: Oud, Miswak & Islamic Heritage
+  give_title: Donate and support us
 wings:
   time:
     title: Time
@@ -90,7 +106,7 @@ wings:
     blurb: Cities, sites and routes on a map that moves through time.
   people:
     title: People
-    blurb: 'Prophets, companions, scholars, rulers, scientists, poets, travelers: women and men who shaped the story.'
+    blurb: "Prophets, companions, scholars, rulers, scientists, poets, travelers: women and men who shaped the story."
   ideas:
     title: Ideas
     blurb: Beliefs, concepts, sciences and schools, explained in plain words.
@@ -108,26 +124,26 @@ wings:
     blurb: Nations, institutions, data and the people of the present.
   made:
     title: Made
-    blurb: 'What Muslims make and own today: bookshops, publishers, apps, studios, brands and charities.'
+    blurb: "What Muslims make and own today: bookshops, publishers, apps, studios, brands and charities."
   counts:
-    time: '{n} events'
-    place: '{n} places'
-    people: '{n} people'
-    ideas: '{n} concepts'
-    objects: '{n} objects and buildings'
-    words: '{n} passages'
+    time: "{n} events"
+    place: "{n} places"
+    people: "{n} people"
+    ideas: "{n} concepts"
+    objects: "{n} objects and buildings"
+    words: "{n} passages"
     living: Worship and practice
     today: Where the calendars meet
     made: Made by Muslims today
 hall:
-  coming: 'What is in this wing so far:'
-  coming_time: 'What is in this wing so far, in time order; the Hijri timeline above gathers it on one axis.'
+  coming: "What is in this wing so far:"
+  coming_time: What is in this wing so far, in time order; the Hijri timeline above gathers it on one axis.
   empty: Nothing here yet. This wing opens as the collection grows.
-  phase: 'Roadmap: the full {wing} hall arrives in a later phase.'
+  phase: "Roadmap: the full {wing} hall arrives in a later phase."
   map_note: A schematic map of the places in this wing (an interactive map with a time slider is planned).
 entity:
-  dagger: '† Hijri date derived by computation from the Gregorian/Julian date; it may differ from the transmitted date by a day or two.'
-  stub_desc: '{label}: an entry that is still being written.'
+  dagger: † Hijri date derived by computation from the Gregorian/Julian date; it may differ from the transmitted date by a day or two.
+  stub_desc: "{label}: an entry that is still being written."
   breadcrumb: Museum
   at_a_glance: At a glance
   roles: Roles
@@ -143,7 +159,7 @@ entity:
   identifiers: Identifiers
   review: Review
   complete_help: Help complete it
-  map_credit: 'Map: Natural Earth, public domain · places and route from the graph'
+  map_credit: "Map: Natural Earth, public domain · places and route from the graph"
   completeness: Completeness
   in_time: In time
   life_in_time: Life in time
@@ -172,7 +188,7 @@ entity:
   alternate_names: Also known as
   figurative: Figurative depictions of prophets are never shown in this museum.
   sunni_frame: Sunni tradition (the museum's frame)
-  view: '{label} view'
+  view: "{label} view"
   opinions_title: Opinions on the question
   issue: The question
   lead_opinion: First opinion
@@ -227,16 +243,21 @@ search:
   filter_class: Class
   filter_wing: Wing
   noscript: Search needs JavaScript. You can still browse the wings from the home page.
-  hint: 'Try, for example:'
-  zero_results: 'No results for “[SEARCH_TERM]”. Try a shorter word or check the spelling, or try: Mecca, prayer, Andalusia.'
-  examples: [Hijra, Badr, Mecca, Aisha, Quran]
+  hint: "Try, for example:"
+  zero_results: "No results for “[SEARCH_TERM]”. Try a shorter word or check the spelling, or try: Mecca, prayer, Andalusia."
+  examples:
+    - Hijra
+    - Badr
+    - Mecca
+    - Aisha
+    - Quran
 wander:
   title: Wander
   lede: Let the museum choose. Each click takes you to an entry you did not ask for.
   button: Take me somewhere
 timeline:
   title: Hijri timeline
-  legend: '† Hijri date computed from the Gregorian — may differ from the transmitted date by a day or two'
+  legend: † Hijri date computed from the Gregorian — may differ from the transmitted date by a day or two
   lede: Fourteen centuries on a Hijri axis; drag the marker, click a dot to see that year's events, click an era to zoom in. The Gregorian is a second reading.
   calendar: Calendar
   year: Year
@@ -260,15 +281,15 @@ journey:
   km: km
   companions: Companions
   approx_place: approximate position on the map
-  schematic: 'Schematic map: the order of the stations is right; their positions on the drawing are illustrative.'
+  schematic: "Schematic map: the order of the stations is right; their positions on the drawing are illustrative."
   prev: Previous station
   next: Next station
 graph:
   title: Connections explorer
-  lede: 'People, events and places drawn as a constellation: one entry at the centre, what connects to it directly around it, then what connects to those. Click a star to make it the centre.'
+  lede: "People, events and places drawn as a constellation: one entry at the centre, what connects to it directly around it, then what connects to those. Click a star to make it the centre."
   from_label: Entry at the centre
   go: Show
-  hint: 'Entry id: class/slug, e.g. person/abu-bakr'
+  hint: "Entry id: class/slug, e.g. person/abu-bakr"
   legend: Legend
   neighbours: Connections
   centre: Centre
@@ -290,20 +311,20 @@ revelation:
   order_label: Order
   meccan: Meccan
   medinan: Medinan
-  order_n: 'Revealed {n}'
-  mushaf_n: 'Mushaf {n}'
-  verses: '{n} verses'
+  order_n: Revealed {n}
+  mushaf_n: Mushaf {n}
+  verses: "{n} verses"
   opening: Opening verse
   paired: Revealed concerning
   transmitted: transmitted
   estimated: estimated
   none: No museum event is yet recorded for this sura; the context is its Meccan or Medinan classification.
   source_note: The order of revelation and the Meccan/Medinan classification follow the Cairo edition (1924) as carried by Tanzil; a well-known ordering, not a unanimous one. Verse-level refinement comes later.
-  legend: 'Transmitted: carried by the sira and tafsir works cited on the link. Estimated: a link the museum recorded without a source yet.'
+  legend: "Transmitted: carried by the sira and tafsir works cited on the link. Estimated: a link the museum recorded without a source yet."
 surahmap:
   title: Surah maps
-  lede: 'Every surah as an interactive map: its stations and themes, verse by verse, from beginning to end.'
-  map_title: '{name} map'
+  lede: "Every surah as an interactive map: its stations and themes, verse by verse, from beginning to end."
+  map_title: "{name} map"
   map_lede: An interactive journey through {n} verses — from the surah's first verse to its last.
   hint: Drag the handle on the track to travel through the verses, click any station on the map — or start an auto journey.
   journey: Auto journey
@@ -311,33 +332,33 @@ surahmap:
   close_card: Close card
   prev: Previous
   next: Next
-  verse_n: 'Verse {n}'
-  verses_of: '{a}–{b}'
+  verse_n: Verse {n}
+  verses_of: "{a}–{b}"
   meccan: Meccan
   medinan: Medinan
-  rev_order: 'Revealed {n}'
-  mushaf_order: 'Mushaf {n}'
+  rev_order: Revealed {n}
+  mushaf_order: Mushaf {n}
   family_faith: Faith
   family_stories: Stories
   family_law: Law
   row_map: Map
 cards:
   title: Museum Cards
-  lede: 'Interactive study cards: word maps, lists, explainers, and stories.'
+  lede: "Interactive study cards: word maps, lists, explainers, and stories."
   wordmaps: Word maps
-  wordmaps_lede: 'Every map generated automatically from the Quran text (Tanzil) — forms, collocations, occurrences, no hand transcription.'
+  wordmaps_lede: Every map generated automatically from the Quran text (Tanzil) — forms, collocations, occurrences, no hand transcription.
   more_soon: Coming soon
-  more_soon_lede: 'Lists, explainers, and stories — built in phases.'
-  generated_from: 'Generated from'
+  more_soon_lede: Lists, explainers, and stories — built in phases.
+  generated_from: Generated from
   occurrences: occurrences
   collocations: Collocations
   all_occurrences: All occurrences
   close: Close
   quiz_title: Test yourself
-  quiz_start: '🎯 Test yourself'
+  quiz_start: 🎯 Test yourself
   quiz_next: New question
   lists: Lists
-  lists_lede: 'Flip cards for numbered material: keys, adhkar, names, prophets.'
+  lists_lede: "Flip cards for numbered material: keys, adhkar, names, prophets."
   all_decks: All decks
   items: cards
   flip: Flip the card
@@ -346,26 +367,30 @@ cards:
   next: Next
   all_items: All items
   explainers: Explainers
-  explainers_lede: 'Step-by-step explanations: Q&A, decision trees, timelines, comparisons.'
+  explainers_lede: "Step-by-step explanations: Q&A, decision trees, timelines, comparisons."
   all_explainers: All explainers
   stories: Stories
-  stories_lede: 'Quranic stories in numbered stations: facts, lessons, takeaway.'
+  stories_lede: "Quranic stories in numbered stations: facts, lessons, takeaway."
   all_stories: All stories
   stations: Stations
   stations_count: stations
   facts: Quick facts
   lessons: Lessons
   challenge: 30-day challenge
-  challenge_lede: 'Twelve habits over thirty days — check daily and track progress.'
+  challenge_lede: Twelve habits over thirty days — check daily and track progress.
   reset: Reset
-  reset_confirm: 'Reset? Click again to confirm'
+  reset_confirm: Reset? Click again to confirm
   habit: Habit
   day: Day
   printable: Printable version
   today: Card of the day
   restart: Restart
-  js_needed: 'This widget needs JavaScript to interact.'
-  widget_names: { stepper: 'Steps', decision-tree: 'Decision tree', timeline: 'Timeline', compare: 'Comparison' }
+  js_needed: This widget needs JavaScript to interact.
+  widget_names:
+    stepper: Steps
+    decision-tree: Decision tree
+    timeline: Timeline
+    compare: Comparison
 today:
   title: Today
   lede: Where the Islamic and the Gregorian calendars meet.
@@ -381,7 +406,7 @@ today:
   nearest: Nearest day with events
   all_h: All events on this Hijri day
   all_g: All events on this Gregorian day
-  wing_note: 'Also in this wing: nations, institutions, data and the people of the present.'
+  wing_note: "Also in this wing: nations, institutions, data and the people of the present."
   random_day: Another random day
 questions:
   title: Questions
@@ -430,6 +455,30 @@ footer:
   changelog: Change log
   report: Report an error or suggest a correction
   discuss: Project discussions
+  support: Support the museum
+support:
+  title: Support the museum
+  lede: The museum is free, open, with no ads and no tracking. If it is useful to you, your support keeps it that way and helps it grow faster.
+  why_title: Why support it?
+  why_body: "The museum is built entry by entry with care: every fact is cited to its source and every text is reviewed. Support helps sustain this work and extend it to English and other languages."
+  ways_title: How to support
+  patreon_title: Join on Patreon
+  patreon_body: An optional monthly membership that helps the work continue and lets you follow its progress.
+  patreon_cta: Go to the Patreon page
+  paypal_title: Donate once
+  paypal_body: A one-time donation through PayPal, with no subscription.
+  paypal_cta: Donate with PayPal
+  launchgood_title: LaunchGood campaign
+  launchgood_body: A donation campaign on LaunchGood to help build the first open digital museum of Islam.
+  launchgood_cta: Support the campaign on LaunchGood
+  other_title: Other ways
+  other_body: If a monthly membership does not suit you, you can contribute code, review or translation, or share the museum with people you know.
+  contribute: Contribute on GitHub
+  share: Share the museum
+  note: Support is optional and does not grant any say over the museum's content or review. Editorial work is independent, and the method is published.
+  github_title: GitHub Sponsors
+  github_body: Monthly or one-time sponsorship through GitHub, with sponsors listed on the project's GitHub profile.
+  github_cta: Sponsor on GitHub Sponsors
 roles:
   prophet-figure: Prophet
   family-of-the-prophet: Family of the Prophet
@@ -547,7 +596,7 @@ themes:
   on_this_theme: Tagged with
 screen:
   title: Screening Room
-  lede: 'An index of films, series and programmes about Islam. Listed, not endorsed: no ratings, no reviews, no clips.'
+  lede: "An index of films, series and programmes about Islam. Listed, not endorsed: no ratings, no reviews, no clips."
   empty: No titles are indexed yet.
   about: About
   set_in: Set in
@@ -650,7 +699,7 @@ conflict:
   casualties: Casualties
   one_sided: This entry has not yet recorded the other side.
 passage:
-  attribution: 'Text: Tanzil Project,'
+  attribution: "Text: Tanzil Project,"
   verbatim: verbatim and unchanged
   prev: previous verse
   next: next verse
@@ -686,25 +735,37 @@ learn:
   kind_trail: Trail
   offer_title: What you will find here
   offer:
-  - "Choose what you want to understand: a phase of history, a group of personalities, a group of events, an idea, a place, a text or a hard question."
-  - "Walk it step by step, or see the whole route at once as a list, a timeline and a map."
-  - "Every pathway states its goal: what you will know, and be able to place, by the end."
-  - "An honest time for each: ten minutes, half an hour, two hours or a week of evenings."
-  - "Your progress is kept in your browser only, with no account and no AI answering you: the pathways are written and reviewed."
-  - "Every step is a cited page of the museum, with side steps for going deeper or hearing the other view that never block the way."
+    - "Choose what you want to understand: a phase of history, a group of personalities, a group of events, an idea, a place, a text or a hard question."
+    - Walk it step by step, or see the whole route at once as a list, a timeline and a map.
+    - "Every pathway states its goal: what you will know, and be able to place, by the end."
+    - "An honest time for each: ten minutes, half an hour, two hours or a week of evenings."
+    - "Your progress is kept in your browser only, with no account and no AI answering you: the pathways are written and reviewed."
+    - Every step is a cited page of the museum, with side steps for going deeper or hearing the other view that never block the way.
   kinds_title: Three hundred pathways in preparation
   kinds_note: During planning, AI proposes the list of pathways, then people review and order it. None of that runs while you visit.
   kinds:
-  - { k: Eras and phases, n: 40 }
-  - { k: Personalities and groups, n: 55 }
-  - { k: Events grouped together, n: 40 }
-  - { k: Ideas, beliefs and practices, n: 45 }
-  - { k: Places and cities, n: 30 }
-  - { k: Texts and sciences, n: 30 }
-  - { k: Art, architecture and objects, n: 20 }
-  - { k: Living culture today, n: 15 }
-  - { k: Hard questions with their voices, n: 15 }
-  - { k: Starter paths by visitor and time, n: 10 }
+    - k: Eras and phases
+      n: 40
+    - k: Personalities and groups
+      n: 55
+    - k: Events grouped together
+      n: 40
+    - k: Ideas
+      beliefs and practices: null
+      n: 45
+    - k: Places and cities
+      n: 30
+    - k: Texts and sciences
+      n: 30
+    - k: Art
+      architecture and objects: null
+      n: 20
+    - k: Living culture today
+      n: 15
+    - k: Hard questions with their voices
+      n: 15
+    - k: Starter paths by visitor and time
+      n: 10
   meanwhile: In the meantime
   start: Start with the Hijra
   questions: Questions for newcomers
@@ -712,51 +773,50 @@ learn:
   suggest: Tell us what you want to learn
   plan: The design document
 foundation:
-  title: "About the Islam Museum foundation"
+  title: About the Islam Museum foundation
   lede: "A free, open, all-digital museum of Islam: its faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into to today."
-  logo_title: "The logo"
-  logo_intro: "The mark brings three elements of Islamic architecture and the book into one shape."
+  logo_title: The logo
+  logo_intro: The mark brings three elements of Islamic architecture and the book into one shape.
   logo_star: "The eight-pointed star, from Islamic geometry: time and space together, neither understood without the other."
   logo_arch: "The mihrab: the doorway a visitor enters through, and the turn toward the qibla."
   logo_book: "The open book: knowledge and words, and reading before judging."
-  logo_download: "Mark (PNG)"
-  emblem_alt: 'The museum emblem: a gold eight-point star around a lapis disc with a copper mihrab arch over an open book'
+  logo_download: Mark (PNG)
+  emblem_alt: "The museum emblem: a gold eight-point star around a lapis disc with a copper mihrab arch over an open book"
   emblem_download: Full emblem (image)
   logo_dark_download: Mark for dark backgrounds
-  logo_lockup_download: "Download the mark with the name"
-  story_title: "The story"
+  logo_lockup_download: Download the mark with the name
+  story_title: The story
   story_1: "The project began with a simple question: why is there no single place online that gathers the whole story of Islam, where a stranger can walk in and learn, and a researcher can check a claim and go back to the source? What is known about Islam is scattered across scripture sites, museum archives, encyclopedia articles, academic studies and press coverage, and much of it is written to defend or attack rather than to understand."
   story_2: "The project chose to be built as a museum, not as one long article: nine wings (Time, Place, People, Ideas, Objects, Words, Living Islam, Today, and Made) look at the same subject from different angles, and every person, place, event, idea or object is a node in a graph that connects it to what surrounds it in time and space."
   story_3: "The material lives in git as plain files: data without a language in YAML, prose for each language in Markdown, every fact tied to a source, and every date written in its precise form with its Hijri and Gregorian calendars. The site itself is static files published on GitHub Pages behind Cloudflare, with no server, no database, no paid service, and no AI model running when a visitor arrives."
   story_4: "When the museum chose its visual identity, its colours came from Islamic architecture and manuscript making: deep lapis blue, the muted gold of manuscript pages, warm alabaster, and the sand of tiles. No single ornament was copied from an existing work; the patterns grow from the geometry of the star, the square and the circle."
   story_5: "Then came shared work: contributors and parallel working sessions add small batches of material, and review turns drafts into reviewed entries before they are marked as such. The museum is still being built, and it says so on every page; the coverage page counts what is complete and what is still waiting."
-  founder_title: "The founder"
+  founder_title: The founder
   founder_body: "One person founded the project and wrote its first plan inside the repository itself, then opened the door to anyone who wanted to add or correct. The plan is built so the museum survives even if its founder stops: its text is in git, its data is open, and anyone can copy the whole museum to their own computer. This page describes the project and its purpose, not the life of the person behind it."
-  goal_title: "The goal"
+  goal_title: The goal
   goal_intro: "The museum's goal is to show the whole of Islam, from its beginnings to the present moment, fairly and without bias. To that end it commits to the following:"
   goal_1: "It describes rather than prescribes: facts with dates and sources, and judgements attributed to the people who made them."
-  goal_2: "The Sunni account is the main frame of research, and every other view is stated only after it is clearly labelled."
-  goal_3: "Opponents, critics and allies appear with their roles in their own time, written about without the language of enmity."
+  goal_2: The Sunni account is the main frame of research, and every other view is stated only after it is clearly labelled.
+  goal_3: Opponents, critics and allies appear with their roles in their own time, written about without the language of enmity.
   goal_4: "Contested questions appear as tension cards: two or more voices, each cited, with no verdict from the museum."
-  goal_5: "Every claim is tied to a source; Wikipedia is a pointer, never a source."
-  goal_6: "It begins in Arabic, and it serves the visitor who knows nothing of Islam as well as the specialist."
-  take_title: "Take part in building it"
-  take_body: "The content and the code are open to everyone. You can read the repository, report an error, suggest a new entry, or ask for a translation into another language."
-  take_repo: "The repository on GitHub"
-  take_suggest: "Suggest an entry or a correction"
+  goal_5: Every claim is tied to a source; Wikipedia is a pointer, never a source.
+  goal_6: It begins in Arabic, and it serves the visitor who knows nothing of Islam as well as the specialist.
+  take_title: Take part in building it
+  take_body: The content and the code are open to everyone. You can read the repository, report an error, suggest a new entry, or ask for a translation into another language.
+  take_repo: The repository on GitHub
+  take_suggest: Suggest an entry or a correction
   license: "Licence: text CC BY-SA 4.0 · data CC0 · code MIT"
-  breadcrumb: "Museum"
-
+  breadcrumb: Museum
 explore:
-  label: "Explore tools"
-  wings: "Wings"
-  share: "Share"
-  copied: "Link copied"
-  top: "Top of page"
-  next: "Keep exploring"
-  wing_card: "Wing"
-  related_card: "Related"
-  font: "Font"
+  label: Explore tools
+  wings: Wings
+  share: Share
+  copied: Link copied
+  top: Top of page
+  next: Keep exploring
+  wing_card: Wing
+  related_card: Related
+  font: Font
   pages:
     timeline:
       title: Hijri timeline
@@ -764,7 +824,7 @@ explore:
       menu: Fourteen centuries on a Hijri axis
     journeys:
       title: Interactive journeys
-      desc: 'Walk the Hijra route day by day: the stations, distances and nights.'
+      desc: "Walk the Hijra route day by day: the stations, distances and nights."
       menu: Walk the Hijra route day by day
     graph:
       title: Connections explorer
@@ -776,15 +836,15 @@ explore:
       menu: The Quran as revealed, with the events
     surahmaps:
       title: Surah maps
-      desc: 'Every surah as an interactive map: its themes and stations, verse by verse.'
+      desc: "Every surah as an interactive map: its themes and stations, verse by verse."
       menu: Interactive surah maps
     cards:
       title: Museum Cards
-      desc: 'Interactive study cards: word maps, lists, and stories.'
+      desc: "Interactive study cards: word maps, lists, and stories."
       menu: Interactive study cards
     sighar:
       title: Kids' Wing
-      desc: 'The museum''s children''s corner: the Word Garden and the Prophet Quest with Hudhud.'
+      desc: "The museum's children's corner: the Word Garden and the Prophet Quest with Hudhud."
       menu: Interactive kids' corner
     wander:
       title: Wander
@@ -799,9 +859,8 @@ by_values:
   a saying attributed to the Prophet in the tradition: a saying attributed to the Prophet in the tradition
   the Muslim community, polemically reversing his honorific: the Muslim community, polemically reversing his honorific
   usage in the sira tradition, possibly from a striking complexion: usage in the sira tradition, possibly from a striking complexion
-  "the Prophet's household and the tradition (her kunya, better known than her given name Baraka)": the Prophet's household and the tradition (her kunya, better known than her given name Baraka)
+  the Prophet's household and the tradition (her kunya, better known than her given name Baraka): the Prophet's household and the tradition (her kunya, better known than her given name Baraka)
   Islamic tradition, for marrying two daughters of the Prophet in succession: Islamic tradition, for marrying two daughters of the Prophet in succession
-
 references:
   title: References
   lede: Every book, website and dataset that the museum's texts, data and tools rely on, grouped by type. Classical reports cited in the texts use the same codes listed here.
@@ -821,7 +880,6 @@ references:
   licence: Licence
   language: Language
   none: none
-
 kids:
   hub_title: Kids' Wing
   hub_lede: The children's corner of the Islam Museum — play and learn with Hudhud!
@@ -869,7 +927,7 @@ kids:
   back_to_museum_short: Main museum
   kindness_title: Kindness Quest
   kindness_lede: One small kind deed a day for thirty days — tap a day to reveal the deed and place your sticker!
-  kindness_day: "Day {n}"
+  kindness_day: Day {n}
   kindness_tap_day: Tap a day to reveal the kind deed
   kindness_progress: "Your stickers: {n} of 30"
   kindness_done: Wonderful deed! 🌟
