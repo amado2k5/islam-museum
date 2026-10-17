@@ -62,19 +62,22 @@ export function kidsHonorify(text: string, lang: Lang, names: string[]): string 
   return t;
 }
 
+/** The text for a language; the stops are written in Arabic and English only, so Urdu falls back to English. */
+const pick = (b: Bilingual, lang: Lang): string => (lang === "ar" ? b.ar : b.en);
+
 /** Select the page language and honorify each stop's story with that stop's prophet name. */
 export function viewQuestStops(stops: QuestStop[], lang: Lang): QuestStopView[] {
   return stops.map((s) => ({
     slug: s.slug,
     icon: s.icon,
-    name: s.name[lang],
-    title: s.title[lang],
-    storyHtml: kidsHonorify(s.story[lang], lang, [s.name[lang]]),
-    value: s.value[lang],
+    name: pick(s.name, lang),
+    title: pick(s.title, lang),
+    storyHtml: kidsHonorify(pick(s.story, lang), lang, [pick(s.name, lang)]),
+    value: pick(s.value, lang),
     valueIcon: s.value_icon,
-    question: s.question[lang],
-    choices: s.choices.map((c) => c[lang]),
-    feedback: s.feedback[lang],
+    question: pick(s.question, lang),
+    choices: s.choices.map((c) => pick(c, lang)),
+    feedback: pick(s.feedback, lang),
   }));
 }
 
