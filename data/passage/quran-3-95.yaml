@@ -17,6 +17,7 @@ translations:
   ur: { text: "کہہ دو کہ خدا نے سچ فرمایا دیا پس دین ابراہیم کی پیروی کرو جو سب سے بےتعلق ہو کر ایک (خدا) کے ہو رہے تھے اور مشرکوں سے نہ تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
+  - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
