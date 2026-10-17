@@ -1,0 +1,77 @@
+id: exhibit/path-ibn-khaldun
+class: exhibit
+kind: trail
+label:
+  ar: ابن خلدون
+  en: Ibn Khaldun
+summary:
+  ar: 'مسار في مؤسس علم الاجتماع: المقدمة تكتب في المغرب وتُدرس في القاهرة، والعصبية نظرية التاريخ.'
+  en: A trail through the founder of sociology.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- maghreb
+rooms:
+- title:
+    ar: المقدمة
+    en: The Muqaddima
+  body:
+    ar: 'العمران البشري: علم جديد يولد.'
+    en: 'العمران البشري: علم جديد يولد.'
+  features:
+  - person/ibn-khaldun
+  - work/al-muqaddima
+- title:
+    ar: المغرب
+    en: The Maghreb
+  body:
+    ar: 'تونس وفاس وغرناطة: موطن وخدمة.'
+    en: 'تونس وفاس وغرناطة: موطن وخدمة.'
+  features:
+  - place/tunis
+  - place/fez
+  - place/tunis
+- title:
+    ar: القاهرة
+    en: Cairo
+  body:
+    ar: قاضي المالكية وكاتب السر عند برقوق.
+    en: قاضي المالكية وكاتب السر عند برقوق.
+  features:
+  - place/cairo
+  - person/ibn-khaldun
+- title:
+    ar: الفكرة
+    en: The idea
+  body:
+    ar: 'العصبية والدولة: فلسفة التاريخ.'
+    en: 'العصبية والدولة: فلسفة التاريخ.'
+  features:
+  - work/al-muqaddima
+  - person/ibn-khaldun
+- title:
+    ar: تيمور
+    en: Timur
+  body:
+    ar: اللقاء الشهير في دمشق 1401.
+    en: اللقاء الشهير في دمشق 1401.
+  features:
+  - person/timur-lang
+  - place/damascus
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

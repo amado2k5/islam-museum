@@ -1,0 +1,67 @@
+id: exhibit/path-najran
+class: exhibit
+kind: trail
+label:
+  ar: نجران
+  en: Najran
+summary:
+  ar: 'مسار في جنوب الجزيرة: مذبحة الأخدود القديمة، ووفد نصارى نجران إلى المدينة، وبعثة عمرو بن حزم.'
+  en: A trail through the south of the peninsula.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الأخدود
+    en: The trench
+  body:
+    ar: 'مذبحة نجران القديمة: ذو نواس ونصارى الحبشة.'
+    en: 'مذبحة نجران القديمة: ذو نواس ونصارى الحبشة.'
+  features:
+  - event/massacre-of-najran
+  - event/massacre-of-najran
+- title:
+    ar: الوفد
+    en: The delegation
+  body:
+    ar: 'نصارى نجران يزورون المدينة: المباهلة.'
+    en: 'نصارى نجران يزورون المدينة: المباهلة.'
+  features:
+  - event/delegation-of-najran
+  - place/medina
+- title:
+    ar: البعثة
+    en: The mission
+  body:
+    ar: 'عمرو بن حزم يعلم نجران: فرائض مكتوبة.'
+    en: 'عمرو بن حزم يعلم نجران: فرائض مكتوبة.'
+  features:
+  - event/mission-of-amr-ibn-hazm-to-najran
+  - event/mission-of-amr-ibn-hazm-to-najran
+- title:
+    ar: الإجلاء
+    en: The expulsion
+  body:
+    ar: نهاية نجران القديمة في دولة الإسلام.
+    en: نهاية نجران القديمة في دولة الإسلام.
+  features:
+  - event/expulsion-of-najran
+  - event/expulsion-of-najran
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

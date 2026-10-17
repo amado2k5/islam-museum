@@ -1,0 +1,78 @@
+id: exhibit/path-uhud
+class: exhibit
+kind: trail
+label:
+  ar: أحد
+  en: The Battle of Uhud
+summary:
+  ar: 'مسار في يوم أحد كاملًا: الشورى والخروج، وخطأ الرماة، واستشهاد حمزة، والدفن ثم الوداع بعد سنين.'
+  en: A trail through the day of Uhud.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الشورى
+    en: The council
+  body:
+    ar: المدينة أم الخروج؟ الشورى تقرر.
+    en: المدينة أم الخروج؟ الشورى تقرر.
+  features:
+  - event/council-of-uhud
+  - event/preparation-for-uhud
+- title:
+    ar: الخروج
+    en: The march
+  body:
+    ar: المسلمون ينتشرون تحت الجبل.
+    en: المسلمون ينتشرون تحت الجبل.
+  features:
+  - event/muslim-intelligence-uhud
+  - event/muslim-army-deployment-uhud
+  - event/uhud-deployment
+- title:
+    ar: النصر الأول
+    en: The first victory
+  body:
+    ar: المشركون ينهزمون ثم تحدث الثغرة.
+    en: المشركون ينهزمون ثم تحدث الثغرة.
+  features:
+  - event/uhud-initial-victory
+  - event/uhud-archers-mistake
+- title:
+    ar: حمزة
+    en: Hamza
+  body:
+    ar: سيد الشهداء يستشهد على يد وحشي.
+    en: سيد الشهداء يستشهد على يد وحشي.
+  features:
+  - event/uhud-martyrdom-of-hamza
+  - event/uhud-martyrdom-of-hamza
+- title:
+    ar: الخاتمة
+    en: The end
+  body:
+    ar: الدفن والانسحاب وزيارة الوداع بعد سنين.
+    en: الدفن والانسحاب وزيارة الوداع بعد سنين.
+  features:
+  - event/uhud-burial-of-martyrs
+  - event/uhud-withdrawal-to-shib
+  - event/farewell-visit-to-uhud-martyrs
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
