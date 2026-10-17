@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:75 (سورة ص، الآية 75)."
 text: "قَالَ يَـٰٓإِبْلِيسُ مَا مَنَعَكَ أَن تَسْجُدَ لِمَا خَلَقْتُ بِيَدَىَّ ۖ أَسْتَكْبَرْتَ أَمْ كُنتَ مِنَ ٱلْعَالِينَ"
 text_search: "قال يا إبليس ما منعك أن تسجد لما خلقت بيدي ۖ أستكبرت أم كنت من العالين"
+translations:
+  en: { text: "He said: O Iblis! What hindereth thee from falling prostrate before that which I have created with both My hands? Art thou too proud or art thou of the high exalted?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے) فرمایا کہ اے ابلیس جس شخص کو میں نے اپنے ہاتھوں سے بنایا اس کے آگے سجدہ کرنے سے تجھے کس چیز نے منع کیا۔ کیا تو غرور میں آگیا یا اونچے درجے والوں میں تھا؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

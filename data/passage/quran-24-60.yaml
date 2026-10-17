@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:60 (سورة النور، الآية 60)."
 text: "وَٱلْقَوَٰعِدُ مِنَ ٱلنِّسَآءِ ٱلَّـٰتِى لَا يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَـٰتٍۭ بِزِينَةٍ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ"
 text_search: "والقواعد من النساء اللاتي لا يرجون نكاحا فليس عليهن جناح أن يضعن ثيابهن غير متبرجات بزينة ۖ وأن يستعففن خير لهن ۗ والله سميع عليم"
+translations:
+  en: { text: "As for women past child-bearing, who have no hope of marriage, it is no sin for them if they discard their (outer) clothing in such a way as not to show adornment. But to refrain is better for them. Allah is Hearer, Knower.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بڑی عمر کی عورتیں جن کو نکاح کی توقع نہیں رہی، اور وہ کپڑے اتار کر سر ننگا کرلیا کریں تو ان پر کچھ گناہ نہیں بشرطیکہ اپنی زینت کی چیزیں نہ ظاہر کریں۔ اور اس سے بھی بچیں تو یہ ان کے حق میں بہتر ہے۔ اور خدا سنتا اور جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

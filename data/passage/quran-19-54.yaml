@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:54 (سورة مريم، الآية 54)."
 text: "وَٱذْكُرْ فِى ٱلْكِتَـٰبِ إِسْمَـٰعِيلَ ۚ إِنَّهُۥ كَانَ صَادِقَ ٱلْوَعْدِ وَكَانَ رَسُولًا نَّبِيًّا"
 text_search: "واذكر في الكتاب إسماعيل ۚ إنه كان صادق الوعد وكان رسولا نبيا"
+translations:
+  en: { text: "And make mention in the Scripture of Ishmael. Lo! he was a keeper of his promise, and he was a messenger (of Allah), a prophet.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کتاب میں اسمٰعیل کا بھی ذکر کرو وہ وعدے کے سچے اور ہمارے بھیجے ہوئے نبی تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

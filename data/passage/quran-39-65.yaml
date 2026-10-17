@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:65 (سورة الزمر، الآية 65)."
 text: "وَلَقَدْ أُوحِىَ إِلَيْكَ وَإِلَى ٱلَّذِينَ مِن قَبْلِكَ لَئِنْ أَشْرَكْتَ لَيَحْبَطَنَّ عَمَلُكَ وَلَتَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ"
 text_search: "ولقد أوحي إليك وإلى الذين من قبلك لئن أشركت ليحبطن عملك ولتكونن من الخاسرين"
+translations:
+  en: { text: "And verily it hath been revealed unto thee as unto those before thee (saying): If thou ascribe a partner to Allah thy work will fail and thou indeed wilt be among the losers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (اے محمدﷺ) تمہاری طرف اور ان (پیغمبروں) کی طرف جو تم سے پہلے ہوچکے ہیں یہی وحی بھیجی گئی ہے۔ کہ اگر تم نے شرک کیا تو تمہارے عمل برباد ہوجائیں گے اور تم زیاں کاروں میں ہوجاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

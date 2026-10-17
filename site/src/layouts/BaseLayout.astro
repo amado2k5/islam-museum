@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { ui, nextLang, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 import { wingCountLabel, explorePages } from "../lib/nav";
 import { SHOP } from "../lib/links";
@@ -21,9 +21,7 @@ const desc = description ?? T.landing.meta_description ?? T.landing.lede;
 const canonical = `${SITE}${path}`;
 const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
 const multilingual = LANGS.length > 1;
-const target = nextLang(lang);
-const switchHref = alt[target] ?? `/${target}/`;
-const switchLabel: Record<Lang, string> = { ar: "English", en: "اردو", ur: "العربية" };
+const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
 const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
 const wingCount = (w: string) => wingCountLabel(lang, w);
@@ -123,10 +121,11 @@ const EXPLORE = explorePages(lang);
           <a class="top-link" href={`/${lang}/support/`}>{T.support.title}</a>
           <a class="top-link" href={SHOP} rel="noopener">{T.nav.gift_shop}</a>
           <a class="top-link kids-link" href={`/${lang}/sighar/`}><span aria-hidden="true">🪶</span> {T.kids.hub_title}</a>
+          <a class="top-link tour-link" href={`/${lang}/3d/`}><span aria-hidden="true">🧊</span> {T.tour.nav_label}</a>
         </nav>
         <div class="nav-tools ui">
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
-          {multilingual && <a class="chip" href={switchHref} hreflang={target} lang={target} style="border:1px solid var(--line)"><span dir="auto">{switchLabel[lang]}</span></a>}
+          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)"><span class="ltr" dir="ltr">AR | EN</span></a>}
           <button class="chip" id="font-toggle" type="button" aria-pressed="false" style="border:0;cursor:pointer">{T.explore.font}</button>
           <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
         </div>
@@ -144,7 +143,7 @@ const EXPLORE = explorePages(lang);
           <div><h2>{T.footer.resources}</h2><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href={`/${lang}/art/`}>{T.nav.art}</a><a href={`/${lang}/support/`}>{T.support.title}</a><a href={SHOP} rel="noopener">{T.nav.gift_shop}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
           <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.changelog}</a><a href="https://github.com/amado2k5/islam-museum/issues/new/choose" rel="noopener">{T.footer.report}</a><a href="https://github.com/amado2k5/islam-museum/discussions" rel="noopener">{T.footer.discuss}</a><span>{T.footer.privacy}</span></div>
         </div>
-        <p class="fine">islam.museum · {T.footer.open} · {T.footer.licenses} · {T.footer.privacy}</p>
+        <p class="fine">islam.museum · {T.footer.open} · <a href={`/${lang}/licenses/`}>{T.footer.licenses}</a> · {T.footer.privacy}</p>
         <p class="fine contact"><a href="mailto:discover@islam.museum">{T.footer.contact}</a></p>
       </div>
     </footer>

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:127 (سورة الأعراف، الآية 127)."
 text: "وَقَالَ ٱلْمَلَأُ مِن قَوْمِ فِرْعَوْنَ أَتَذَرُ مُوسَىٰ وَقَوْمَهُۥ لِيُفْسِدُوا۟ فِى ٱلْأَرْضِ وَيَذَرَكَ وَءَالِهَتَكَ ۚ قَالَ سَنُقَتِّلُ أَبْنَآءَهُمْ وَنَسْتَحْىِۦ نِسَآءَهُمْ وَإِنَّا فَوْقَهُمْ قَـٰهِرُونَ"
 text_search: "وقال الملأ من قوم فرعون أتذر موسى وقومه ليفسدوا في الأرض ويذرك وآلهتك ۚ قال سنقتل أبناءهم ونستحيي نساءهم وإنا فوقهم قاهرون"
+translations:
+  en: { text: "The chiefs of Pharaoh's people said: (O King), wilt thou suffer Moses and his people to make mischief in the land, and flout thee and thy gods? He said: We will slay their sons and spare their women, for lo! we are in power over them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور قومِ فرعون میں جو سردار تھے کہنے لگے کہ کیا آپ موسیٰ اور اس کی قوم کو چھوڑ دیجیے گا کہ ملک میں خرابی کریں اور آپ سے اور آپ کے معبودوں سے دست کش ہوجائیں۔ وہ بولے کہ ہم ان کے لڑکوں کو قتل کرڈالیں گے اور لڑکیوں کو زندہ رہنے دیں گے اور بےشک ہم ان پر غالب ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

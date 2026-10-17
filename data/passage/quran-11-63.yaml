@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:63 (سورة هود، الآية 63)."
 text: "قَالَ يَـٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى مِنْهُ رَحْمَةً فَمَن يَنصُرُنِى مِنَ ٱللَّهِ إِنْ عَصَيْتُهُۥ ۖ فَمَا تَزِيدُونَنِى غَيْرَ تَخْسِيرٍ"
 text_search: "قال يا قوم أرأيتم إن كنت على بينة من ربي وآتاني منه رحمة فمن ينصرني من الله إن عصيته ۖ فما تزيدونني غير تخسير"
+translations:
+  en: { text: "He said: O my people! Bethink you: if I am (acting) on clear proof from my Lord and there hath come unto me a mercy from Him, who will save me from Allah if I disobey Him? Ye would add to me naught save perdition.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "صالح نے کہا اے قوم! بھلا دیکھو تو اگر میں اپنے پروردگار کی طرف سے کھلی دلیل پر ہوں اور اس نے مجھے اپنے ہاں سے (نبوت کی) نعمت بخشی ہو تو اگر میں خدا کی نافرمانی کروں تو اس کے سامنے میری کون مدد کرے گا؟ تم تو (کفر کی باتوں سے) میرا نقصان کرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

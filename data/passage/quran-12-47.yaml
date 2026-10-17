@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:47 (سورة يوسف، الآية 47)."
 text: "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًا مِّمَّا تَأْكُلُونَ"
 text_search: "قال تزرعون سبع سنين دأبا فما حصدتم فذروه في سنبله إلا قليلا مما تأكلون"
+translations:
+  en: { text: "He said: Ye shall sow seven years as usual, but that which ye reap, leave it in the ear, all save a little which ye eat.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا کہ تم لوگ سات سال متواتر کھیتی کرتے رہوگے تو جو (غلّہ) کاٹو تو تھوڑے سے غلّے کے سوا جو کھانے میں آئے اسے خوشوں میں ہی رہنے دینا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

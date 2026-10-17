@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:33 (سورة فصلت، الآية 33)."
 text: "وَمَنْ أَحْسَنُ قَوْلًا مِّمَّن دَعَآ إِلَى ٱللَّهِ وَعَمِلَ صَـٰلِحًا وَقَالَ إِنَّنِى مِنَ ٱلْمُسْلِمِينَ"
 text_search: "ومن أحسن قولا ممن دعا إلى الله وعمل صالحا وقال إنني من المسلمين"
+translations:
+  en: { text: "And who is better in speech than him who prayeth unto his Lord and doeth right, and saith: Lo! I am of those who are muslims (surrender unto Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس شخص سے بات کا اچھا کون ہوسکتا ہے جو خدا کی طرف بلائے اور عمل نیک کرے اور کہے کہ میں مسلمان ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

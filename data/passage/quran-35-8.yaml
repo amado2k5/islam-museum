@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:8 (سورة فاطر، الآية 8)."
 text: "أَفَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ فَرَءَاهُ حَسَنًا ۖ فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۖ فَلَا تَذْهَبْ نَفْسُكَ عَلَيْهِمْ حَسَرَٰتٍ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِمَا يَصْنَعُونَ"
 text_search: "أفمن زين له سوء عمله فرآه حسنا ۖ فإن الله يضل من يشاء ويهدي من يشاء ۖ فلا تذهب نفسك عليهم حسرات ۚ إن الله عليم بما يصنعون"
+translations:
+  en: { text: "Is he, the evil of whose deeds is made fairseeming unto him so that he deemeth it good, (other than Satan's dupe)? Allah verily sendeth whom He will astray, and guideth whom He will; so let not thy soul expire in sighings for them. Lo! Allah is Aware of what they do!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا جس شخص کو اس کے اعمال بد آراستہ کرکے دکھائے جائیں اور وہ ان کو عمدہ سمجھنے لگے تو (کیا وہ نیکوکار آدمی جیسا ہوسکتا ہے) ۔ بےشک خدا جس کو چاہتا ہے گمراہ کرتا ہے اور جس کو چاہتا ہے ہدایت دیتا ہے۔ تو ان لوگوں پر افسوس کرکے تمہارا دم نہ نکل جائے۔ یہ جو کچھ کرتے ہیں خدا اس سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:150 (سورة النساء، الآية 150)."
 text: "إِنَّ ٱلَّذِينَ يَكْفُرُونَ بِٱللَّهِ وَرُسُلِهِۦ وَيُرِيدُونَ أَن يُفَرِّقُوا۟ بَيْنَ ٱللَّهِ وَرُسُلِهِۦ وَيَقُولُونَ نُؤْمِنُ بِبَعْضٍ وَنَكْفُرُ بِبَعْضٍ وَيُرِيدُونَ أَن يَتَّخِذُوا۟ بَيْنَ ذَٰلِكَ سَبِيلًا"
 text_search: "إن الذين يكفرون بالله ورسله ويريدون أن يفرقوا بين الله ورسله ويقولون نؤمن ببعض ونكفر ببعض ويريدون أن يتخذوا بين ذلك سبيلا"
+translations:
+  en: { text: "Lo! those who disbelieve in Allah and His messengers, and seek to make distinction between Allah and His messengers, and say: We believe in some and disbelieve in others, and seek to choose a way in between;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ خدا سے اور اس کے پیغمبروں سے کفر کرتے ہیں اور خدا اور اس کے پیغمبروں میں فرق کرنا چاہتے ہیں اور کہتے ہیں کہ ہم بعض کو مانتے ہیں اور بعض کو نہیں مانتے اور ایمان اور کفر کے بیچ میں ایک راہ نکالنی چاہتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

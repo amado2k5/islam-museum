@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:34 (سورة غافر، الآية 34)."
 text: "وَلَقَدْ جَآءَكُمْ يُوسُفُ مِن قَبْلُ بِٱلْبَيِّنَـٰتِ فَمَا زِلْتُمْ فِى شَكٍّ مِّمَّا جَآءَكُم بِهِۦ ۖ حَتَّىٰٓ إِذَا هَلَكَ قُلْتُمْ لَن يَبْعَثَ ٱللَّهُ مِنۢ بَعْدِهِۦ رَسُولًا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَنْ هُوَ مُسْرِفٌ مُّرْتَابٌ"
 text_search: "ولقد جاءكم يوسف من قبل بالبينات فما زلتم في شك مما جاءكم به ۖ حتى إذا هلك قلتم لن يبعث الله من بعده رسولا ۚ كذلك يضل الله من هو مسرف مرتاب"
+translations:
+  en: { text: "And verily Joseph brought you of old clear proofs, yet ye ceased not to be in doubt concerning what he brought you till, when he died, ye said: Allah will not send any messenger after him. Thus Allah deceiveth him who is a prodigal, a doubter.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور پہلے یوسف بھی تمہارے پاس نشانیاں لے کر آئے تھے تو جو وہ لائے تھے اس سے تم ہمیشہ شک ہی میں رہے۔ یہاں تک کہ جب وہ فوت ہوگئے تو تم کہنے لگے کہ خدا اس کے بعد کبھی کوئی پیغمبر نہیں بھیجے گا۔ اسی طرح خدا اس شخص کو گمراہ کر دیتا ہے جو حد سے نکل جانے والا اور شک کرنے والا ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

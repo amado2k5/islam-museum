@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:114 (سورة المائدة، الآية 114)."
 text: "قَالَ عِيسَى ٱبْنُ مَرْيَمَ ٱللَّهُمَّ رَبَّنَآ أَنزِلْ عَلَيْنَا مَآئِدَةً مِّنَ ٱلسَّمَآءِ تَكُونُ لَنَا عِيدًا لِّأَوَّلِنَا وَءَاخِرِنَا وَءَايَةً مِّنكَ ۖ وَٱرْزُقْنَا وَأَنتَ خَيْرُ ٱلرَّٰزِقِينَ"
 text_search: "قال عيسى ابن مريم اللهم ربنا أنزل علينا مائدة من السماء تكون لنا عيدا لأولنا وآخرنا وآية منك ۖ وارزقنا وأنت خير الرازقين"
+translations:
+  en: { text: "Jesus, son of Mary, said: O Allah, Lord of us! Send down for us a table spread with food from heaven, that it may be a feast for us, for the first of us and for the last of us, and a sign from Thee. Give us sustenance, for Thou art the Best of Sustainers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(تب) عیسیٰ بن مریم نے دعا کی کہ اے ہمارے پروردگار! ہم پر آسمان سے خوان نازل فرما کہ ہمارے لیے (وہ دن) عید قرار پائے یعنی ہمارے اگلوں اور پچھلوں (سب) کے لیے اور وہ تیری طرف سے نشانی ہو اور ہمیں رزق دے تو بہتر رزق دینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

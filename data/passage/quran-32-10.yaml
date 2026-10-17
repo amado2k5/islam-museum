@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 32:10 (سورة السجدة، الآية 10)."
 text: "وَقَالُوٓا۟ أَءِذَا ضَلَلْنَا فِى ٱلْأَرْضِ أَءِنَّا لَفِى خَلْقٍ جَدِيدٍۭ ۚ بَلْ هُم بِلِقَآءِ رَبِّهِمْ كَـٰفِرُونَ"
 text_search: "وقالوا أإذا ضللنا في الأرض أإنا لفي خلق جديد ۚ بل هم بلقاء ربهم كافرون"
+translations:
+  en: { text: "And they say: When we are lost in the earth, how can we then be re-created? Nay but they are disbelievers in the meeting with their Lord.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہنے لگے کہ جب ہم زمین میں ملیامیٹ ہوجائیں گے تو کیا ازسرنو پیدا ہوں گے۔ حقیقت یہ ہے کہ یہ لوگ اپنے پروردگار کے سامنے جانے ہی کے قائل نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-32 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

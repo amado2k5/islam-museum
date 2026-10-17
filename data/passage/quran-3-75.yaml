@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:75 (سورة آل عمران، الآية 75)."
 text: "۞ وَمِنْ أَهْلِ ٱلْكِتَـٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍ يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا يُؤَدِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّـۧنَ سَبِيلٌ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ"
 text_search: "۞ ومن أهل الكتاب من إن تأمنه بقنطار يؤده إليك ومنهم من إن تأمنه بدينار لا يؤده إليك إلا ما دمت عليه قائما ۗ ذلك بأنهم قالوا ليس علينا في الأميين سبيل ويقولون على الله الكذب وهم يعلمون"
+translations:
+  en: { text: "Among the People of the Scripture there is he who, if thou trust him with a weight of treasure, will return it to thee. And among them there is he who, if thou trust him with a piece of gold, will not return it to thee unless thou keep standing over him. That is because they say: We have no duty to the Gentiles. They speak a lie concerning Allah knowingly.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اہلِ کتاب میں سے کوئی تو ایسا ہے کہ اگر تم اس کے پاس (روپوں کا) ڈھیر امانت رکھ دو تو تم کو (فوراً) واپس دے دے اور کوئی اس طرح کا ہے کہ اگر اس کے پاس ایک دینار بھی امانت رکھو تو جب تک اس کے سر پر ہر وقت کھڑے نہ رہو تمہیں دے ہی نہیں یہ اس لیے کہ وہ کہتے ہیں کہ امیوں کے بارے میں ہم سے مواخذہ نہیں ہوگا یہ خدا پر محض جھوٹ بولتے ہیں اور (اس بات کو) جانتے بھی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

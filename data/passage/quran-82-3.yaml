@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 82:3 (سورة الانفطار، الآية 3)."
 text: "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ"
 text_search: "وإذا البحار فجرت"
+translations:
+  en: { text: "When the seas are poured forth,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب دریا بہہ (کر ایک دوسرے سے مل) جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-82 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

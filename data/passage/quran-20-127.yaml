@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:127 (سورة طه، الآية 127)."
 text: "وَكَذَٰلِكَ نَجْزِى مَنْ أَسْرَفَ وَلَمْ يُؤْمِنۢ بِـَٔايَـٰتِ رَبِّهِۦ ۚ وَلَعَذَابُ ٱلْـَٔاخِرَةِ أَشَدُّ وَأَبْقَىٰٓ"
 text_search: "وكذلك نجزي من أسرف ولم يؤمن بآيات ربه ۚ ولعذاب الآخرة أشد وأبقى"
+translations:
+  en: { text: "Thus do We reward him who is prodigal and believeth not the revelations of his Lord; and verily the doom of the Hereafter will be sterner and more lasting.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص حد سے نکل جائے اور اپنے پروردگار کی آیتوں پر ایمان نہ لائے ہم اس کو ایسا ہی بدلہ دیتے ہیں۔ اور آخرت کا عذاب بہت سخت اور بہت دیر رہنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

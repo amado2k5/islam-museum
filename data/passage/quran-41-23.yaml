@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:23 (سورة فصلت، الآية 23)."
 text: "وَذَٰلِكُمْ ظَنُّكُمُ ٱلَّذِى ظَنَنتُم بِرَبِّكُمْ أَرْدَىٰكُمْ فَأَصْبَحْتُم مِّنَ ٱلْخَـٰسِرِينَ"
 text_search: "وذلكم ظنكم الذي ظننتم بربكم أرداكم فأصبحتم من الخاسرين"
+translations:
+  en: { text: "That, your thought which ye did think about your Lord, hath ruined you; and ye find yourselves (this day) among the lost.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اسی خیال نے جو تم اپنے پروردگار کے بارے میں رکھتے تھے تم کو ہلاک کردیا اور تم خسارہ پانے والوں میں ہوگئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

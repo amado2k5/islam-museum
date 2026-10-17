@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:93 (سورة الإسراء، الآية 93)."
 text: "أَوْ يَكُونَ لَكَ بَيْتٌ مِّن زُخْرُفٍ أَوْ تَرْقَىٰ فِى ٱلسَّمَآءِ وَلَن نُّؤْمِنَ لِرُقِيِّكَ حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَـٰبًا نَّقْرَؤُهُۥ ۗ قُلْ سُبْحَانَ رَبِّى هَلْ كُنتُ إِلَّا بَشَرًا رَّسُولًا"
 text_search: "أو يكون لك بيت من زخرف أو ترقى في السماء ولن نؤمن لرقيك حتى تنزل علينا كتابا نقرؤه ۗ قل سبحان ربي هل كنت إلا بشرا رسولا"
+translations:
+  en: { text: "Or thou have a house of gold; or thou ascend up into heaven, and even then we will put no faith in thine ascension till thou bring down for us a book that we can read. Say (O Muhammad): My Lord be Glorified! Am I aught save a mortal messenger?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یا تو تمہارا سونے کا گھر ہو یا تم آسمان پر چڑھ جاؤ۔ اور ہم تمہارے چڑھنے کو بھی نہیں مانیں گے جب تک کہ کوئی کتاب نہ لاؤ جسے ہم پڑھ بھی لیں۔ کہہ دو کہ میرا پروردگار پاک ہے میں تو صرف ایک پیغام پہنچانے والا انسان ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

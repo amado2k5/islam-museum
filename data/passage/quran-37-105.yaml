@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 37:105 (سورة الصافات، الآية 105)."
 text: "قَدْ صَدَّقْتَ ٱلرُّءْيَآ ۚ إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ"
 text_search: "قد صدقت الرؤيا ۚ إنا كذلك نجزي المحسنين"
+translations:
+  en: { text: "Thou hast already fulfilled the vision. Lo! thus do We reward the good.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تم نے خواب کو سچا کر دکھایا۔ ہم نیکوکاروں کو ایسا ہی بدلہ دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/sacrifice-of-ismail }
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

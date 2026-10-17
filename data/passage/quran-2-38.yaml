@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:38 (سورة البقرة، الآية 38)."
 text: "قُلْنَا ٱهْبِطُوا۟ مِنْهَا جَمِيعًا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ"
 text_search: "قلنا اهبطوا منها جميعا ۖ فإما يأتينكم مني هدى فمن تبع هداي فلا خوف عليهم ولا هم يحزنون"
+translations:
+  en: { text: "We said: Go down, all of you, from hence; but verily there cometh unto you from Me a guidance; and whoso followeth My guidance, there shall no fear come upon them neither shall they grieve.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم نے فرمایا کہ تم سب یہاں سے اتر جاؤ جب تمہارے پاس میری طرف سے ہدایت پہنچے تو (اس کی پیروی کرنا کہ) جنہوں نے میری ہدایت کی پیروی کی ان کو نہ کچھ خوف ہوگا اور نہ وہ غمناک ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

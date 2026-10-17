@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:89 (سورة النحل، الآية 89)."
 text: "وَيَوْمَ نَبْعَثُ فِى كُلِّ أُمَّةٍ شَهِيدًا عَلَيْهِم مِّنْ أَنفُسِهِمْ ۖ وَجِئْنَا بِكَ شَهِيدًا عَلَىٰ هَـٰٓؤُلَآءِ ۚ وَنَزَّلْنَا عَلَيْكَ ٱلْكِتَـٰبَ تِبْيَـٰنًا لِّكُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَىٰ لِلْمُسْلِمِينَ"
 text_search: "ويوم نبعث في كل أمة شهيدا عليهم من أنفسهم ۖ وجئنا بك شهيدا على هؤلاء ۚ ونزلنا عليك الكتاب تبيانا لكل شيء وهدى ورحمة وبشرى للمسلمين"
+translations:
+  en: { text: "And (bethink you of) the day when We raise in every nation a witness against them of their own folk, and We bring thee (Muhammad) as a witness against these. And We reveal the Scripture unto thee as an exposition of all things, and a guidance and a mercy and good tidings for those who have surrendered (to Allah).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (اس دن کو یاد کرو) جس دن ہم ہر اُمت میں سے خود اُن پر گواہ کھڑے کریں گے۔ اور (اے پیغمبر) تم کو ان لوگوں پر گواہ لائیں گے۔ اور ہم نے تم پر (ایسی) کتاب نازل کی ہے کہ (اس میں) ہر چیز کا بیان (مفصل) ہے اور مسلمانوں کے لیے ہدایت اور رحمت اور بشارت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

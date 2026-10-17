@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:21 (سورة سبأ، الآية 21)."
 text: "وَمَا كَانَ لَهُۥ عَلَيْهِم مِّن سُلْطَـٰنٍ إِلَّا لِنَعْلَمَ مَن يُؤْمِنُ بِٱلْـَٔاخِرَةِ مِمَّنْ هُوَ مِنْهَا فِى شَكٍّ ۗ وَرَبُّكَ عَلَىٰ كُلِّ شَىْءٍ حَفِيظٌ"
 text_search: "وما كان له عليهم من سلطان إلا لنعلم من يؤمن بالآخرة ممن هو منها في شك ۗ وربك على كل شيء حفيظ"
+translations:
+  en: { text: "And he had no warrant whatsoever against them, save that We would know him who believeth in the Hereafter from him who is in doubt thereof; and thy Lord (O Muhammad) taketh note of all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس کا ان پر کچھ زور نہ تھا مگر (ہمارا) مقصود یہ تھا کہ جو لوگ آخرت میں شک رکھتے ہیں ان سے ان لوگوں کو جو اس پر ایمان رکھتے تھے متمیز کردیں۔ اور تمہارا پروردگار ہر چیز پر نگہبان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

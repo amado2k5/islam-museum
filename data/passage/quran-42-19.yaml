@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:19 (سورة الشورى، الآية 19)."
 text: "ٱللَّهُ لَطِيفٌۢ بِعِبَادِهِۦ يَرْزُقُ مَن يَشَآءُ ۖ وَهُوَ ٱلْقَوِىُّ ٱلْعَزِيزُ"
 text_search: "الله لطيف بعباده يرزق من يشاء ۖ وهو القوي العزيز"
+translations:
+  en: { text: "Allah is gracious unto His slaves. He provideth for whom He will. And He is the Strong, the Mighty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا اپنے بندوں پر مہربان ہے وہ جس کو چاہتا ہے رزق دیتا ہے۔ اور وہ زور والا (اور) زبردست ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

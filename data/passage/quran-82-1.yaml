@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 82:1 (سورة الانفطار، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ"
 text_search: "بسم الله الرحمن الرحيم إذا السماء انفطرت"
+translations:
+  en: { text: "When the heaven is cleft asunder,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب آسمان پھٹ جائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-82 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

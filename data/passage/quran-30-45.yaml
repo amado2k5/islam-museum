@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:45 (سورة الروم، الآية 45)."
 text: "لِيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْكَـٰفِرِينَ"
 text_search: "ليجزي الذين آمنوا وعملوا الصالحات من فضله ۚ إنه لا يحب الكافرين"
+translations:
+  en: { text: "That He may reward out of His bounty those who believe and do good works. Lo! He loveth not the disbelievers (in His guidance).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ ایمان لائے اور نیک عمل کرتے رہے اُن کو خدا اپنے فضل سے بدلہ دے گا۔ بیشک وہ کافروں کو دوست نہیں رکھتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

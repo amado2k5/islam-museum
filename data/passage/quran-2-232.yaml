@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:232 (سورة البقرة، الآية 232)."
 text: "وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَلَا تَعْضُلُوهُنَّ أَن يَنكِحْنَ أَزْوَٰجَهُنَّ إِذَا تَرَٰضَوْا۟ بَيْنَهُم بِٱلْمَعْرُوفِ ۗ ذَٰلِكَ يُوعَظُ بِهِۦ مَن كَانَ مِنكُمْ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۗ ذَٰلِكُمْ أَزْكَىٰ لَكُمْ وَأَطْهَرُ ۗ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ"
 text_search: "وإذا طلقتم النساء فبلغن أجلهن فلا تعضلوهن أن ينكحن أزواجهن إذا تراضوا بينهم بالمعروف ۗ ذلك يوعظ به من كان منكم يؤمن بالله واليوم الآخر ۗ ذلكم أزكى لكم وأطهر ۗ والله يعلم وأنتم لا تعلمون"
+translations:
+  en: { text: "And when ye have divorced women and they reach their term, place not difficulties in the way of their marrying their husbands if it is agreed between them in kindness. This is an admonition for him among you who believeth in Allah and the Last Day. That is more virtuous for you, and cleaner. Allah knoweth; ye know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب تم عورتوں کو طلاق دے چکو اور ان کی عدت پوری ہوجائے تو ان کو دوسرے شوہروں کے ساتھ جب وہ آپس میں جائز طور پر راضی ہوجائیں نکاح کرنے سے مت روکو۔ اس (حکم) سے اس شخص کو نصیحت کی جاتی ہے جو تم میں خدا اور روز آخرت پر یقین رکھتا ہے۔ یہ تمہارے لئے نہایت خوب اور بہت پاکیزگی کی بات ہے اور خدا جانتا ہے اور تم نہیں جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

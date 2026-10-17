@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:10 (سورة يونس، الآية 10)."
 text: "دَعْوَىٰهُمْ فِيهَا سُبْحَـٰنَكَ ٱللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا سَلَـٰمٌ ۚ وَءَاخِرُ دَعْوَىٰهُمْ أَنِ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ"
 text_search: "دعواهم فيها سبحانك اللهم وتحيتهم فيها سلام ۚ وآخر دعواهم أن الحمد لله رب العالمين"
+translations:
+  en: { text: "Their prayer therein will be: Glory be to Thee, O Allah! and their greeting therein will be: Peace. And the conclusion of their prayer will be: Praise be to Allah, Lord of the Worlds!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(جب وہ) ان میں (ان نعمتوں کو دیکھوں گے تو بےساختہ) کہیں گے سبحان الله۔ اور آپس میں ان کی دعا سلامٌ علیکم ہوگی اور ان کا آخری قول یہ (ہوگا) کہ خدائے رب العالمین کی حمد (اور اس کا شکر) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

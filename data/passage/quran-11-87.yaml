@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:87 (سورة هود، الآية 87)."
 text: "قَالُوا۟ يَـٰشُعَيْبُ أَصَلَوٰتُكَ تَأْمُرُكَ أَن نَّتْرُكَ مَا يَعْبُدُ ءَابَآؤُنَآ أَوْ أَن نَّفْعَلَ فِىٓ أَمْوَٰلِنَا مَا نَشَـٰٓؤُا۟ ۖ إِنَّكَ لَأَنتَ ٱلْحَلِيمُ ٱلرَّشِيدُ"
 text_search: "قالوا يا شعيب أصلاتك تأمرك أن نترك ما يعبد آباؤنا أو أن نفعل في أموالنا ما نشاء ۖ إنك لأنت الحليم الرشيد"
+translations:
+  en: { text: "They said: O Shu'eyb! Doth thy way of prayer command thee that we should forsake that which our fathers (used to) worship, or that we (should leave off) doing what we will with our own property. Lo! thou art the mild, the guide to right behaviour.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا شعیب کیا تمہاری نماز تمہیں یہ سکھاتی ہے کہ جن کو ہمارے باپ دادا پوجتے آئے ہیں ہم ان کو ترک کر دیں یا اپنے مال میں تصرف کرنا چاہیں تو نہ کریں۔ تم تو بڑے نرم دل اور راست باز ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:18 (سورة الأنعام، الآية 18)."
 text: "وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ"
 text_search: "وهو القاهر فوق عباده ۚ وهو الحكيم الخبير"
+translations:
+  en: { text: "He is the Omnipotent over His slaves, and He is the Wise, the Knower.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہ اپنے بندوں پر غالب ہے اور وہ دانا اور خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

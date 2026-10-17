@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:41 (سورة إبراهيم، الآية 41)."
 text: "رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ"
 text_search: "ربنا اغفر لي ولوالدي وللمؤمنين يوم يقوم الحساب"
+translations:
+  en: { text: "Our Lord! Forgive me and my parents and believers on the day when the account is cast.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پروردگار حساب (کتاب) کے دن مجھ کو اور میرے ماں باپ کو اور مومنوں کو مغفرت کیجیو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

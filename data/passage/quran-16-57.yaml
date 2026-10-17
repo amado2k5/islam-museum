@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:57 (سورة النحل، الآية 57)."
 text: "وَيَجْعَلُونَ لِلَّهِ ٱلْبَنَـٰتِ سُبْحَـٰنَهُۥ ۙ وَلَهُم مَّا يَشْتَهُونَ"
 text_search: "ويجعلون لله البنات سبحانه ۙ ولهم ما يشتهون"
+translations:
+  en: { text: "And they assign unto Allah daughters - Be He Glorified! - and unto themselves what they desire;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ لوگ خدا کے لیے تو بیٹیاں تجویز کرتے ہیں۔ (اور) وہ ان سے پاک ہے اور اپنے لیے (بیٹے) جو مرغوب ودلپسند ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

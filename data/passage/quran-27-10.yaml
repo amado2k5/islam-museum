@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:10 (سورة النمل، الآية 10)."
 text: "وَأَلْقِ عَصَاكَ ۚ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَـٰمُوسَىٰ لَا تَخَفْ إِنِّى لَا يَخَافُ لَدَىَّ ٱلْمُرْسَلُونَ"
 text_search: "وألق عصاك ۚ فلما رآها تهتز كأنها جان ولى مدبرا ولم يعقب ۚ يا موسى لا تخف إني لا يخاف لدي المرسلون"
+translations:
+  en: { text: "And throw down thy staff! But when he saw it writhing as it were a demon, he turned to flee headlong; (but it was said unto him): O Moses! Fear not! the emissaries fear not in My presence,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اپنی لاٹھی ڈال دو۔ جب اُسے دیکھا تو (اس طرح) ہل رہی تھی گویا سانپ ہے تو پیٹھ پھیر کر بھاگے اور پیچھے مڑ کر نہ دیکھا (حکم ہوا کہ) موسیٰ ڈرو مت۔ ہمارے پاس پیغمبر ڈرا نہیں کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

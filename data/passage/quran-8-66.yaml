@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:66 (سورة الأنفال، الآية 66)."
 text: "ٱلْـَٔـٰنَ خَفَّفَ ٱللَّهُ عَنكُمْ وَعَلِمَ أَنَّ فِيكُمْ ضَعْفًا ۚ فَإِن يَكُن مِّنكُم مِّا۟ئَةٌ صَابِرَةٌ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُمْ أَلْفٌ يَغْلِبُوٓا۟ أَلْفَيْنِ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّـٰبِرِينَ"
 text_search: "الآن خفف الله عنكم وعلم أن فيكم ضعفا ۚ فإن يكن منكم مائة صابرة يغلبوا مائتين ۚ وإن يكن منكم ألف يغلبوا ألفين بإذن الله ۗ والله مع الصابرين"
+translations:
+  en: { text: "Now hath Allah lightened your burden, for He knoweth that there is weakness in you. So if there be of you a steadfast hundred they shall overcome two hundred, and if there be of you a thousand (steadfast) they shall overcome two thousand by permission of Allah. Allah is with the steadfast.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اب خدا نے تم پر سے بوجھ ہلکا کر دیا اور معلوم کرلیا کہ (ابھی) تم میں کسی قدر کمزوری ہے۔ پس اگر تم میں ایک سو ثابت قدم رہنے والے ہوں گے تو دو سو پر غالب رہیں گے۔ اور اگر ایک ہزار ہوں گے تو خدا کے حکم سے دو ہزار پر غالب رہیں گے۔ اور خدا ثابت قدم رہنے والوں کا مدد گار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

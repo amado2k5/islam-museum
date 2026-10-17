@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:90 (سورة يونس، الآية 90)."
 text: "۞ وَجَـٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتْبَعَهُمْ فِرْعَوْنُ وَجُنُودُهُۥ بَغْيًا وَعَدْوًا ۖ حَتَّىٰٓ إِذَآ أَدْرَكَهُ ٱلْغَرَقُ قَالَ ءَامَنتُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا ٱلَّذِىٓ ءَامَنَتْ بِهِۦ بَنُوٓا۟ إِسْرَٰٓءِيلَ وَأَنَا۠ مِنَ ٱلْمُسْلِمِينَ"
 text_search: "۞ وجاوزنا ببني إسرائيل البحر فأتبعهم فرعون وجنوده بغيا وعدوا ۖ حتى إذا أدركه الغرق قال آمنت أنه لا إله إلا الذي آمنت به بنو إسرائيل وأنا من المسلمين"
+translations:
+  en: { text: "And We brought the Children of Israel across the sea, and Pharaoh with his hosts pursued them in rebellion and transgression, till, when the (fate of) drowning overtook him, he exclaimed: I believe that there is no Allah save Him in Whom the Children of Israel believe, and I am of those who surrender (unto Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے بنی اسرائیل کو دریا سے پار کردیا تو فرعون اور اس کے لشکر نے سرکشی اور تعدی سے ان کا تعاقب کیا۔ یہاں تک کہ جب اس کو غرق (کے عذاب) نے آپکڑا تو کہنے لگا کہ میں ایمان لایا کہ جس (خدا) پر بنی اسرائیل ایمان لائے ہیں اس کے سوا کوئی معبود نہیں اور میں فرمانبرداروں میں ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

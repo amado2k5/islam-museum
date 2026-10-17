@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:87 (سورة الأعراف، الآية 87)."
 text: "وَإِن كَانَ طَآئِفَةٌ مِّنكُمْ ءَامَنُوا۟ بِٱلَّذِىٓ أُرْسِلْتُ بِهِۦ وَطَآئِفَةٌ لَّمْ يُؤْمِنُوا۟ فَٱصْبِرُوا۟ حَتَّىٰ يَحْكُمَ ٱللَّهُ بَيْنَنَا ۚ وَهُوَ خَيْرُ ٱلْحَـٰكِمِينَ"
 text_search: "وإن كان طائفة منكم آمنوا بالذي أرسلت به وطائفة لم يؤمنوا فاصبروا حتى يحكم الله بيننا ۚ وهو خير الحاكمين"
+translations:
+  en: { text: "And if there is a party of you which believeth in that wherewith I have been sent, and there is a party which believeth not, then have patience until Allah judge between us. He is the Best of all who deal in judgment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تم میں سے ایک جماعت میری رسالت پر ایمان لے آئی ہے اور ایک جماعت ایمان نہیں لائی ہے۔ اور ایک جماعت ایمان نہیں لائی۔ تو صبر کیے رہو یہاں تک کہ خدا ہمارے تمہارے درمیان فیصلہ کر دے اور وہ سب سے بہتر فیصلہ کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

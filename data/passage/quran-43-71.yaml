@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:71 (سورة الزخرف، الآية 71)."
 text: "يُطَافُ عَلَيْهِم بِصِحَافٍ مِّن ذَهَبٍ وَأَكْوَابٍ ۖ وَفِيهَا مَا تَشْتَهِيهِ ٱلْأَنفُسُ وَتَلَذُّ ٱلْأَعْيُنُ ۖ وَأَنتُمْ فِيهَا خَـٰلِدُونَ"
 text_search: "يطاف عليهم بصحاف من ذهب وأكواب ۖ وفيها ما تشتهيه الأنفس وتلذ الأعين ۖ وأنتم فيها خالدون"
+translations:
+  en: { text: "Therein are brought round for them trays of gold and goblets, and therein is all that souls desire and eyes find sweet. And ye are immortal therein.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان پر سونے کی پرچوں اور پیالوں کا دور چلے گا۔ اور وہاں جو جی چاہے اور جو آنکھوں کو اچھا لگے (موجود ہوگا) اور (اے اہل جنت) تم اس میں ہمیشہ رہو گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

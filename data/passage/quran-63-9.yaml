@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 63:9 (سورة المنافقون، الآية 9)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُلْهِكُمْ أَمْوَٰلُكُمْ وَلَآ أَوْلَـٰدُكُمْ عَن ذِكْرِ ٱللَّهِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ"
 text_search: "يا أيها الذين آمنوا لا تلهكم أموالكم ولا أولادكم عن ذكر الله ۚ ومن يفعل ذلك فأولئك هم الخاسرون"
+translations:
+  en: { text: "O ye who believe! Let not your wealth nor your children distract you from remembrance of Allah. Those who do so, they are the losers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! تمہارا مال اور اولاد تم کو خدا کی یاد سے غافل نہ کردے۔ اور جو ایسا کرے گا تو وہ لوگ خسارہ اٹھانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-63 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

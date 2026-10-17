@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:36 (سورة الأنبياء، الآية 36)."
 text: "وَإِذَا رَءَاكَ ٱلَّذِينَ كَفَرُوٓا۟ إِن يَتَّخِذُونَكَ إِلَّا هُزُوًا أَهَـٰذَا ٱلَّذِى يَذْكُرُ ءَالِهَتَكُمْ وَهُم بِذِكْرِ ٱلرَّحْمَـٰنِ هُمْ كَـٰفِرُونَ"
 text_search: "وإذا رآك الذين كفروا إن يتخذونك إلا هزوا أهذا الذي يذكر آلهتكم وهم بذكر الرحمن هم كافرون"
+translations:
+  en: { text: "And when those who disbelieve behold thee, they but choose thee out for mockery, (saying): Is this he who maketh mention of your gods? And they would deny all mention of the Beneficent.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب کافر تم کو دیکھتے ہیں تو تم سے استہزاء کرتے ہیں کہ کیا یہی شخص ہے جو تمہارے معبودوں کا ذکر (برائی سے) کیا کرتا ہے حالانکہ وہ خود رحمٰن کے نام سے منکر ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

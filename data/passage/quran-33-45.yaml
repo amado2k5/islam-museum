@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:45 (سورة الأحزاب، الآية 45)."
 text: "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَرْسَلْنَـٰكَ شَـٰهِدًا وَمُبَشِّرًا وَنَذِيرًا"
 text_search: "يا أيها النبي إنا أرسلناك شاهدا ومبشرا ونذيرا"
+translations:
+  en: { text: "O Prophet! Lo! We have sent thee as a witness and a bringer of good tidings and a warner.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پیغمبر ہم نے تم کو گواہی دینے والا اور خوشخبری سنانے اور ڈرانے والا بنا کر بھیجا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

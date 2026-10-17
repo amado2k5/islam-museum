@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 74:11 (سورة المدثر، الآية 11)."
 text: "ذَرْنِى وَمَنْ خَلَقْتُ وَحِيدًا"
 text_search: "ذرني ومن خلقت وحيدا"
+translations:
+  en: { text: "Leave Me (to deal) with him whom I created lonely,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہمیں اس شخص سے سمجھ لینے دو جس کو ہم نے اکیلا پیدا کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: person/al-walid-ibn-al-mughira, sources: [source/mubarakpuri-raheeq, source/ibn-hisham-sira] }
   - { type: part_of, target: passage/quran-74 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 66:12 (سورة التحريم، الآية 12)."
 text: "وَمَرْيَمَ ٱبْنَتَ عِمْرَٰنَ ٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَـٰتِ رَبِّهَا وَكُتُبِهِۦ وَكَانَتْ مِنَ ٱلْقَـٰنِتِينَ"
 text_search: "ومريم ابنت عمران التي أحصنت فرجها فنفخنا فيه من روحنا وصدقت بكلمات ربها وكتبه وكانت من القانتين"
+translations:
+  en: { text: "And Mary, daughter of 'Imran, whose body was chaste, therefor We breathed therein something of Our Spirit. And she put faith in the words of her Lord and His scriptures, and was of the obedient.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (دوسری) عمران کی بیٹی مریمؑ کی جنہوں نے اپنی شرمگاہ کو محفوظ رکھا تو ہم نے اس میں اپنی روح پھونک دی اور اپنے پروردگار کے کلام اور اس کی کتابوں کو برحق سمجھتی تھیں اور فرمانبرداروں میں سے تھیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-66 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

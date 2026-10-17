@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:94 (سورة طه، الآية 94)."
 text: "قَالَ يَبْنَؤُمَّ لَا تَأْخُذْ بِلِحْيَتِى وَلَا بِرَأْسِىٓ ۖ إِنِّى خَشِيتُ أَن تَقُولَ فَرَّقْتَ بَيْنَ بَنِىٓ إِسْرَٰٓءِيلَ وَلَمْ تَرْقُبْ قَوْلِى"
 text_search: "قال يا ابن أم لا تأخذ بلحيتي ولا برأسي ۖ إني خشيت أن تقول فرقت بين بني إسرائيل ولم ترقب قولي"
+translations:
+  en: { text: "He said: O son of my mother! Clutch not my beard nor my head! I feared lest thou shouldst say: Thou hast caused division among the Children of Israel, and hast not waited for my word.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہنے لگے کہ بھائی میری ڈاڑھی اور سر (کے بالوں) کو نہ پکڑیئے۔ میں تو اس سے ڈرا کہ آپ یہ نہ کہیں کہ تم نے بنی اسرائیل میں تفرقہ ڈال دیا اور میری بات کو ملحوظ نہ رکھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

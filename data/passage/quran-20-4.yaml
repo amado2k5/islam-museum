@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:4 (سورة طه، الآية 4)."
 text: "تَنزِيلًا مِّمَّنْ خَلَقَ ٱلْأَرْضَ وَٱلسَّمَـٰوَٰتِ ٱلْعُلَى"
 text_search: "تنزيلا ممن خلق الأرض والسماوات العلى"
+translations:
+  en: { text: "A revelation from Him Who created the earth and the high heavens,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ اس (ذات برتر) کا اتارا ہوا ہے جس نے زمین اور اونچے اونچے آسمان بنائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

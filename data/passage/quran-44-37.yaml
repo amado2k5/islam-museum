@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:37 (سورة الدخان، الآية 37)."
 text: "أَهُمْ خَيْرٌ أَمْ قَوْمُ تُبَّعٍ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ أَهْلَكْنَـٰهُمْ ۖ إِنَّهُمْ كَانُوا۟ مُجْرِمِينَ"
 text_search: "أهم خير أم قوم تبع والذين من قبلهم ۚ أهلكناهم ۖ إنهم كانوا مجرمين"
+translations:
+  en: { text: "Are they better, or the folk of Tubb'a and those before them? We destroyed them, for surely they were guilty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا یہ اچھے ہیں یا تُبّع کی قوم اور وہ لوگ جو تم سے پہلے ہوچکے ہیں۔ ہم نے ان (سب) کو ہلاک کردیا۔ بےشک وہ گنہگار تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

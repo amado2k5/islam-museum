@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:74 (سورة البقرة، الآية 74)."
 text: "ثُمَّ قَسَتْ قُلُوبُكُم مِّنۢ بَعْدِ ذَٰلِكَ فَهِىَ كَٱلْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً ۚ وَإِنَّ مِنَ ٱلْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ ٱلْأَنْهَـٰرُ ۚ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ ٱلْمَآءُ ۚ وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ"
 text_search: "ثم قست قلوبكم من بعد ذلك فهي كالحجارة أو أشد قسوة ۚ وإن من الحجارة لما يتفجر منه الأنهار ۚ وإن منها لما يشقق فيخرج منه الماء ۚ وإن منها لما يهبط من خشية الله ۗ وما الله بغافل عما تعملون"
+translations:
+  en: { text: "Then, even after that, your hearts were hardened and became as rocks, or worse than rocks, for hardness. For indeed there are rocks from out which rivers gush, and indeed there are rocks which split asunder so that water floweth from them. And indeed there are rocks which fall down for the fear of Allah. Allah is not unaware of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر اس کے بعد تمہارے دل سخت ہو گئے۔ گویا وہ پتھر ہیں یا ان سے بھی زیادہ سخت۔ اور پتھر تو بعضے ایسے ہوتے ہیں کہ ان میں سے چشمے پھوٹ نکلتے ہیں، اور بعضے ایسے ہوتے ہیں کہ پھٹ جاتے ہیں، اور ان میں سے پانی نکلنے لگتا ہے، اور بعضے ایسے ہوتے ہیں کہ خدا کے خوف سے گر پڑتے ہیں، اور خدا تمہارے عملوں سے بے خبر نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

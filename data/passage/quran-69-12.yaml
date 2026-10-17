@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 69:12 (سورة الحاقة، الآية 12)."
 text: "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةً وَتَعِيَهَآ أُذُنٌ وَٰعِيَةٌ"
 text_search: "لنجعلها لكم تذكرة وتعيها أذن واعية"
+translations:
+  en: { text: "That We might make it a memorial for you, and that remembering ears (that heard the story) might remember.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ اس کو تمہارے لئے یادگار بنائیں اور یاد رکھنے والے کان اسے یاد رکھیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-69 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

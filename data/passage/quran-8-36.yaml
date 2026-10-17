@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:36 (سورة الأنفال، الآية 36)."
 text: "إِنَّ ٱلَّذِينَ كَفَرُوا۟ يُنفِقُونَ أَمْوَٰلَهُمْ لِيَصُدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ فَسَيُنفِقُونَهَا ثُمَّ تَكُونُ عَلَيْهِمْ حَسْرَةً ثُمَّ يُغْلَبُونَ ۗ وَٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ يُحْشَرُونَ"
 text_search: "إن الذين كفروا ينفقون أموالهم ليصدوا عن سبيل الله ۚ فسينفقونها ثم تكون عليهم حسرة ثم يغلبون ۗ والذين كفروا إلى جهنم يحشرون"
+translations:
+  en: { text: "Lo! those who disbelieve spend their wealth in order that they may debar (men) from the way of Allah. They will spend it, then it will become an anguish for them, then they will be conquered. And those who disbelieve will be gathered unto hell,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ کافر ہیں اپنا مال خرچ کرتے ہیں کہ (لوگوں کو) خدا کے رستے سے روکیں۔ سو ابھی اور خرچ کریں گے مگر آخر وہ (خرچ کرنا) ان کے لیے (موجب) افسوس ہوگا اور وہ مغلوب ہوجائیں گے۔ اور کافر لوگ دوزخ کی طرف ہانکے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

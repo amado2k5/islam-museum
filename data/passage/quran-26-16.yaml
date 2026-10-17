@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:16 (سورة الشعراء، الآية 16)."
 text: "فَأْتِيَا فِرْعَوْنَ فَقُولَآ إِنَّا رَسُولُ رَبِّ ٱلْعَـٰلَمِينَ"
 text_search: "فأتيا فرعون فقولا إنا رسول رب العالمين"
+translations:
+  en: { text: "And come together unto Pharaoh and say: Lo! we bear a message of the Lord of the Worlds,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو دونوں فرعون کے پاس جاؤ اور کہو کہ ہم تمام جہان کے مالک کے بھیجے ہوئے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

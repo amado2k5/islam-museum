@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:7 (سورة الأحزاب، الآية 7)."
 text: "وَإِذْ أَخَذْنَا مِنَ ٱلنَّبِيِّـۧنَ مِيثَـٰقَهُمْ وَمِنكَ وَمِن نُّوحٍ وَإِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَى ٱبْنِ مَرْيَمَ ۖ وَأَخَذْنَا مِنْهُم مِّيثَـٰقًا غَلِيظًا"
 text_search: "وإذ أخذنا من النبيين ميثاقهم ومنك ومن نوح وإبراهيم وموسى وعيسى ابن مريم ۖ وأخذنا منهم ميثاقا غليظا"
+translations:
+  en: { text: "And when We exacted a covenant from the prophets, and from thee (O Muhammad) and from Noah and Abraham and Moses and Jesus son of Mary. We took from them a solemn covenant;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ہم نے پیغمبروں سے عہد لیا اور تم سے نوح سے اور ابراہیم سے اور موسیٰ سے اور مریم کے بیٹے عیسیٰ سے۔ اور عہد بھی اُن سے پکّا لیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

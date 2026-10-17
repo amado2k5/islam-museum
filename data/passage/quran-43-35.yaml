@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:35 (سورة الزخرف، الآية 35)."
 text: "وَزُخْرُفًا ۚ وَإِن كُلُّ ذَٰلِكَ لَمَّا مَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَٱلْـَٔاخِرَةُ عِندَ رَبِّكَ لِلْمُتَّقِينَ"
 text_search: "وزخرفا ۚ وإن كل ذلك لما متاع الحياة الدنيا ۚ والآخرة عند ربك للمتقين"
+translations:
+  en: { text: "And ornaments of gold. Yet all that would have been but a provision of the life of the world. And the Hereafter with your Lord would have been for those who keep from evil.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (خوب) تجمل وآرائش (کردیتے) اور یہ سب دنیا کی زندگی کا تھوڑا سا سامان ہے۔ اور آخرت تمہارے پروردگار کے ہاں پرہیزگاروں کے لئے ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

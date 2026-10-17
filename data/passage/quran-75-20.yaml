@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 75:20 (سورة القيامة، الآية 20)."
 text: "كَلَّا بَلْ تُحِبُّونَ ٱلْعَاجِلَةَ"
 text_search: "كلا بل تحبون العاجلة"
+translations:
+  en: { text: "Nay, but ye do love the fleeting Now", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر (لوگو) تم دنیا کو دوست رکھتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-75 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:36 (سورة الحج، الآية 36)."
 text: "وَٱلْبُدْنَ جَعَلْنَـٰهَا لَكُم مِّن شَعَـٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَـٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ"
 text_search: "والبدن جعلناها لكم من شعائر الله لكم فيها خير ۖ فاذكروا اسم الله عليها صواف ۖ فإذا وجبت جنوبها فكلوا منها وأطعموا القانع والمعتر ۚ كذلك سخرناها لكم لعلكم تشكرون"
+translations:
+  en: { text: "And the camels! We have appointed them among the ceremonies of Allah. Therein ye have much good. So mention the name of Allah over them when they are drawn up in lines. Then when their flanks fall (dead), eat thereof and feed the beggar and the suppliant. Thus have We made them subject unto you, that haply ye may give thanks.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور قربانی کے اونٹوں کو بھی ہم نے تمہارے لئے شعائر خدا مقرر کیا ہے۔ ان میں تمہارے لئے فائدے ہیں۔ تو (قربانی کرنے کے وقت) قطار باندھ کر ان پر خدا کا نام لو۔ جب پہلو کے بل گر پڑیں تو ان میں سے کھاؤ اور قناعت سے بیٹھ رہنے والوں اور سوال کرنے والوں کو بھی کھلاؤ۔ اس طرح ہم نے ان کو تمہارے زیرفرمان کردیا ہے تاکہ تم شکر کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

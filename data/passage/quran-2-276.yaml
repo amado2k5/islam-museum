@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:276 (سورة البقرة، الآية 276)."
 text: "يَمْحَقُ ٱللَّهُ ٱلرِّبَوٰا۟ وَيُرْبِى ٱلصَّدَقَـٰتِ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ"
 text_search: "يمحق الله الربا ويربي الصدقات ۗ والله لا يحب كل كفار أثيم"
+translations:
+  en: { text: "Allah hath blighted usury and made almsgiving fruitful. Allah loveth not the impious and guilty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا سود کو نابود (یعنی بےبرکت) کرتا اور خیرات (کی برکت) کو بڑھاتا ہے اور خدا کسی ناشکرے گنہگار کو دوست نہیں رکھتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

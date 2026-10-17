@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:189 (سورة الشعراء، الآية 189)."
 text: "فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ ٱلظُّلَّةِ ۚ إِنَّهُۥ كَانَ عَذَابَ يَوْمٍ عَظِيمٍ"
 text_search: "فكذبوه فأخذهم عذاب يوم الظلة ۚ إنه كان عذاب يوم عظيم"
+translations:
+  en: { text: "But they denied him, so there came on them the retribution of the day of gloom. Lo! it was the retribution of an awful day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان لوگوں نے ان کو جھٹلایا، پس سائبان کے عذاب نے ان کو آ پکڑا۔ بےشک وہ بڑے (سخت) دن کا عذاب تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

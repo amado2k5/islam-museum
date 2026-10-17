@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:129 (سورة البقرة، الآية 129)."
 text: "رَبَّنَا وَٱبْعَثْ فِيهِمْ رَسُولًا مِّنْهُمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِكَ وَيُعَلِّمُهُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَيُزَكِّيهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ"
 text_search: "ربنا وابعث فيهم رسولا منهم يتلو عليهم آياتك ويعلمهم الكتاب والحكمة ويزكيهم ۚ إنك أنت العزيز الحكيم"
+translations:
+  en: { text: "Our Lord! And raise up in their midst a messenger from among them who shall recite unto them Thy revelations, and shall instruct them in the Scripture and in wisdom and shall make them grow. Lo! Thou, only Thou, art the Mighty, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پروردگار، ان (لوگوں) میں انہیں میں سے ایک پیغمبر مبعوث کیجیو جو ان کو تیری آیتیں پڑھ پڑھ کر سنایا کرے اور کتاب اور دانائی سکھایا کرے اور ان (کے دلوں) کو پاک صاف کیا کرے۔ بےشک تو غالب اور صاحبِ حکمت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

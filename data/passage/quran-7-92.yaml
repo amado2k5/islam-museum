@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:92 (سورة الأعراف، الآية 92)."
 text: "ٱلَّذِينَ كَذَّبُوا۟ شُعَيْبًا كَأَن لَّمْ يَغْنَوْا۟ فِيهَا ۚ ٱلَّذِينَ كَذَّبُوا۟ شُعَيْبًا كَانُوا۟ هُمُ ٱلْخَـٰسِرِينَ"
 text_search: "الذين كذبوا شعيبا كأن لم يغنوا فيها ۚ الذين كذبوا شعيبا كانوا هم الخاسرين"
+translations:
+  en: { text: "Those who denied Shu'eyb became as though they had not dwelt there. Those who denied Shu'eyb, they were the losers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ لوگ) جنہوں نے شعیب کی تکذیب کی تھی ایسے برباد ہوئے تھے کہ گویا وہ ان میں کبھی آباد ہی نہیں ہوئے تھے (غرض) جنہوں نے شعیب کو جھٹلایا وہ خسارے میں پڑگئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

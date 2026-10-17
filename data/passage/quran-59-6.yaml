@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 59:6 (سورة الحشر، الآية 6)."
 text: "وَمَآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْهُمْ فَمَآ أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلَا رِكَابٍ وَلَـٰكِنَّ ٱللَّهَ يُسَلِّطُ رُسُلَهُۥ عَلَىٰ مَن يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
 text_search: "وما أفاء الله على رسوله منهم فما أوجفتم عليه من خيل ولا ركاب ولكن الله يسلط رسله على من يشاء ۚ والله على كل شيء قدير"
+translations:
+  en: { text: "And that which Allah gave as spoil unto His messenger from them, ye urged not any horse or riding-camel for the sake thereof, but Allah giveth His messenger lordship over whom He will. Allah is Able to do all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو (مال) خدا نے اپنے پیغمبر کو ان لوگوں سے (بغیر لڑائی بھڑائی کے) دلوایا ہے اس میں تمہارا کچھ حق نہیں کیونکہ اس کے لئے نہ تم نے گھوڑے دوڑائے نہ اونٹ لیکن خدا اپنے پیغمبروں کو جن پر چاہتا ہے مسلط کردیتا ہے۔ اور خدا ہر چیز پر قادر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

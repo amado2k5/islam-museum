@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:5 (سورة الزخرف، الآية 5)."
 text: "أَفَنَضْرِبُ عَنكُمُ ٱلذِّكْرَ صَفْحًا أَن كُنتُمْ قَوْمًا مُّسْرِفِينَ"
 text_search: "أفنضرب عنكم الذكر صفحا أن كنتم قوما مسرفين"
+translations:
+  en: { text: "Shall We utterly ignore you because ye are a wanton folk?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا اس لئے کہ تم حد سے نکلے ہوئے لوگ ہو ہم تم کو نصیحت کرنے سے باز رہیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

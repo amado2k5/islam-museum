@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:25 (سورة الحج، الآية 25)."
 text: "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَٱلْمَسْجِدِ ٱلْحَرَامِ ٱلَّذِى جَعَلْنَـٰهُ لِلنَّاسِ سَوَآءً ٱلْعَـٰكِفُ فِيهِ وَٱلْبَادِ ۚ وَمَن يُرِدْ فِيهِ بِإِلْحَادٍۭ بِظُلْمٍ نُّذِقْهُ مِنْ عَذَابٍ أَلِيمٍ"
 text_search: "إن الذين كفروا ويصدون عن سبيل الله والمسجد الحرام الذي جعلناه للناس سواء العاكف فيه والباد ۚ ومن يرد فيه بإلحاد بظلم نذقه من عذاب أليم"
+translations:
+  en: { text: "Lo! those who disbelieve and bar (men) from the way of Allah and from the Inviolable Place of Worship, which We have appointed for mankind together, the dweller therein and the nomad: whosoever seeketh wrongful partiality therein, him We shall cause to taste a painful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ کافر ہیں اور (لوگوں کو) خدا کے رستے سے اور مسجد محترم سے جسے ہم نے لوگوں کے لئے یکساں (عبادت گاہ) بنایا ہے روکتے ہیں۔ خواہ وہاں کے رہنے والے ہوں یا باہر سے آنے والے۔ اور جو اس میں شرارت سے کج روی (وکفر) کرنا چاہے اس کو ہم درد دینے والے عذاب کا مزہ چکھائیں گے۔", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

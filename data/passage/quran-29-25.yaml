@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:25 (سورة العنكبوت، الآية 25)."
 text: "وَقَالَ إِنَّمَا ٱتَّخَذْتُم مِّن دُونِ ٱللَّهِ أَوْثَـٰنًا مَّوَدَّةَ بَيْنِكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ ثُمَّ يَوْمَ ٱلْقِيَـٰمَةِ يَكْفُرُ بَعْضُكُم بِبَعْضٍ وَيَلْعَنُ بَعْضُكُم بَعْضًا وَمَأْوَىٰكُمُ ٱلنَّارُ وَمَا لَكُم مِّن نَّـٰصِرِينَ"
 text_search: "وقال إنما اتخذتم من دون الله أوثانا مودة بينكم في الحياة الدنيا ۖ ثم يوم القيامة يكفر بعضكم ببعض ويلعن بعضكم بعضا ومأواكم النار وما لكم من ناصرين"
+translations:
+  en: { text: "He said: Ye have chosen only idols instead of Allah. The love between you is only in the life of the world. Then on the Day of Resurrection ye will deny each other and curse each other, and your abode will be the Fire, and ye will have no helpers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ابراہیم نے کہا کہ تم جو خدا کو چھوڑ کر بتوں کو لے بیٹھے ہو تو دنیا کی زندگی میں باہم دوستی کے لئے (مگر) پھر قیامت کے دن تم ایک دوسرے (کی دوستی) سے انکار کر دو گے اور ایک دوسرے پر لعنت بھیجو گے اور تمہارا ٹھکانا دوزخ ہوگا اور کوئی تمہارا مددگار نہ ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:23 (سورة ص، الآية 23)."
 text: "إِنَّ هَـٰذَآ أَخِى لَهُۥ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِىَ نَعْجَةٌ وَٰحِدَةٌ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِى فِى ٱلْخِطَابِ"
 text_search: "إن هذا أخي له تسع وتسعون نعجة ولي نعجة واحدة فقال أكفلنيها وعزني في الخطاب"
+translations:
+  en: { text: "Lo! this my brother hath ninety and nine ewes while I had one ewe; and he said: Entrust it to me, and he conquered me in speech.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(کیفیت یہ ہے کہ) یہ میرا بھائی ہے اس کے (ہاں) ننانوے دنبیاں ہیں اور میرے (پاس) ایک دُنبی ہے۔ یہ کہتا ہے کہ یہ بھی میرے حوالے کردے اور گفتگو میں مجھ پر زبردستی کرتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

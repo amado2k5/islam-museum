@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 93:4 (سورة الضحى، الآية 4)."
 text: "وَلَلْـَٔاخِرَةُ خَيْرٌ لَّكَ مِنَ ٱلْأُولَىٰ"
 text_search: "وللآخرة خير لك من الأولى"
+translations:
+  en: { text: "And verily the latter portion will be better for thee than the former,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور آخرت تمہارے لیے پہلی (حالت یعنی دنیا) سے کہیں بہتر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-93 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

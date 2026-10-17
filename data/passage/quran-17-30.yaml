@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:30 (سورة الإسراء، الآية 30)."
 text: "إِنَّ رَبَّكَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ كَانَ بِعِبَادِهِۦ خَبِيرًۢا بَصِيرًا"
 text_search: "إن ربك يبسط الرزق لمن يشاء ويقدر ۚ إنه كان بعباده خبيرا بصيرا"
+translations:
+  en: { text: "Lo! thy Lord enlargeth the provision for whom He will, and straiteneth (it for whom He will). Lo, He was ever Knower, Seer of His slaves.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بےشک تمہارا پروردگار جس کی روزی چاہتا ہے فراخ کردیتا ہے اور (جس کی روزی چاہتا ہے) تنگ کردیتا ہے وہ اپنے بندوں سے خبردار ہے اور (ان کو) دیکھ رہا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

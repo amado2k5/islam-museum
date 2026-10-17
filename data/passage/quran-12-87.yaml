@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:87 (سورة يوسف، الآية 87)."
 text: "يَـٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَـٰفِرُونَ"
 text_search: "يا بني اذهبوا فتحسسوا من يوسف وأخيه ولا تيأسوا من روح الله ۖ إنه لا ييأس من روح الله إلا القوم الكافرون"
+translations:
+  en: { text: "Go, O my sons, and ascertain concerning Joseph and his brother, and despair not of the Spirit of Allah. Lo! none despaireth of the Spirit of Allah save disbelieving folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بیٹا (یوں کرو کہ ایک دفعہ پھر) جاؤ اور یوسف اور اس کے بھائی کو تلاش کرو اور خدا کی رحمت سے ناامید نہ ہو۔ کہ خدا کی رحمت سے بےایمان لوگ ناامید ہوا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

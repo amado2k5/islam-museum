@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:8 (سورة الأحزاب، الآية 8)."
 text: "لِّيَسْـَٔلَ ٱلصَّـٰدِقِينَ عَن صِدْقِهِمْ ۚ وَأَعَدَّ لِلْكَـٰفِرِينَ عَذَابًا أَلِيمًا"
 text_search: "ليسأل الصادقين عن صدقهم ۚ وأعد للكافرين عذابا أليما"
+translations:
+  en: { text: "That He may ask the loyal of their loyalty. And He hath prepared a painful doom for the unfaithful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تاکہ سچ کہنے والوں سے اُن کی سچائی کے بارے میں دریافت کرے اور اس نے کافروں کے لئے دکھ دینے والا عذاب تیار کر رکھا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

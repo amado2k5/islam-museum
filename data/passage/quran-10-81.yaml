@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:81 (سورة يونس، الآية 81)."
 text: "فَلَمَّآ أَلْقَوْا۟ قَالَ مُوسَىٰ مَا جِئْتُم بِهِ ٱلسِّحْرُ ۖ إِنَّ ٱللَّهَ سَيُبْطِلُهُۥٓ ۖ إِنَّ ٱللَّهَ لَا يُصْلِحُ عَمَلَ ٱلْمُفْسِدِينَ"
 text_search: "فلما ألقوا قال موسى ما جئتم به السحر ۖ إن الله سيبطله ۖ إن الله لا يصلح عمل المفسدين"
+translations:
+  en: { text: "And when they had cast, Moses said: That which ye have brought is magic. Lo! Allah will make it vain. Lo! Allah upholdeth not the work of mischief-makers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب انہوں نے (اپنی رسیوں اور لاٹھیوں کو) ڈالا تو موسیٰ نے کہا کہ جو چیزیں تم (بنا کر) لائے ہو جادو ہے خدا اس کو بھی نیست ونابود کردے گا۔ خدا شریروں کے کام سنوارا نہیں کرتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

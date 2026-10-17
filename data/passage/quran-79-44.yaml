@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 79:44 (سورة النازعات، الآية 44)."
 text: "إِلَىٰ رَبِّكَ مُنتَهَىٰهَآ"
 text_search: "إلى ربك منتهاها"
+translations:
+  en: { text: "Unto thy Lord belongeth (knowledge of) the term thereof.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس کا منتہا (یعنی واقع ہونے کا وقت) تمہارے پروردگار ہی کو (معلوم ہے)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-79 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

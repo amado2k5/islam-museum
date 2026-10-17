@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:56 (سورة النمل، الآية 56)."
 text: "۞ فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوٓا۟ أَخْرِجُوٓا۟ ءَالَ لُوطٍ مِّن قَرْيَتِكُمْ ۖ إِنَّهُمْ أُنَاسٌ يَتَطَهَّرُونَ"
 text_search: "۞ فما كان جواب قومه إلا أن قالوا أخرجوا آل لوط من قريتكم ۖ إنهم أناس يتطهرون"
+translations:
+  en: { text: "But the answer of his folk was naught save that they said: Expel the household of Lot from your township, for they (forsooth) are folk who would keep clean!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان کی قوم کے لوگ (بولے تو) یہ بولے اور اس کے سوا ان کا کچھ جواب نہ تھا کہ لوط کے گھر والوں کو اپنے شہر سے نکال دو۔ یہ لوگ پاک رہنا چاہتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

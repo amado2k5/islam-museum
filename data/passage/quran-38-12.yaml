@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:12 (سورة ص، الآية 12)."
 text: "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَعَادٌ وَفِرْعَوْنُ ذُو ٱلْأَوْتَادِ"
 text_search: "كذبت قبلهم قوم نوح وعاد وفرعون ذو الأوتاد"
+translations:
+  en: { text: "The folk of Noah before them denied (their messenger) and (so did the tribe of) A'ad, and Pharaoh firmly planted,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان سے پہلے نوح کی قوم اور عاد اور میخوں والا فرعون (اور اس کی قوم کے لوگ) بھی جھٹلا چکے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

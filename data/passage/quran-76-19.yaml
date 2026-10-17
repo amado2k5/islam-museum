@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 76:19 (سورة الإنسان، الآية 19)."
 text: "۞ وَيَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ إِذَا رَأَيْتَهُمْ حَسِبْتَهُمْ لُؤْلُؤًا مَّنثُورًا"
 text_search: "۞ ويطوف عليهم ولدان مخلدون إذا رأيتهم حسبتهم لؤلؤا منثورا"
+translations:
+  en: { text: "There wait on them immortal youths, whom, when thou seest, thou wouldst take for scattered pearls.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کے پاس لڑکے آتے جاتے ہوں گے جو ہمیشہ (ایک ہی حالت پر) رہیں گے۔ جب تم ان پر نگاہ ڈالو تو خیال کرو کہ بکھرے ہوئے موتی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-76 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

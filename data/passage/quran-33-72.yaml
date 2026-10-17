@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:72 (سورة الأحزاب، الآية 72)."
 text: "إِنَّا عَرَضْنَا ٱلْأَمَانَةَ عَلَى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَٱلْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا ٱلْإِنسَـٰنُ ۖ إِنَّهُۥ كَانَ ظَلُومًا جَهُولًا"
 text_search: "إنا عرضنا الأمانة على السماوات والأرض والجبال فأبين أن يحملنها وأشفقن منها وحملها الإنسان ۖ إنه كان ظلوما جهولا"
+translations:
+  en: { text: "Lo! We offered the trust unto the heavens and the earth and the hills, but they shrank from bearing it and were afraid of it. And man assumed it. Lo! he hath proved a tyrant and a fool.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم نے (بار) امانت کو آسمانوں اور زمین پر پیش کیا تو انہوں نے اس کے اٹھانے سے انکار کیا اور اس سے ڈر گئے۔ اور انسان نے اس کو اٹھا لیا۔ بےشک وہ ظالم اور جاہل تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

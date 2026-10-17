@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:72 (سورة هود، الآية 72)."
 text: "قَالَتْ يَـٰوَيْلَتَىٰٓ ءَأَلِدُ وَأَنَا۠ عَجُوزٌ وَهَـٰذَا بَعْلِى شَيْخًا ۖ إِنَّ هَـٰذَا لَشَىْءٌ عَجِيبٌ"
 text_search: "قالت يا ويلتى أألد وأنا عجوز وهذا بعلي شيخا ۖ إن هذا لشيء عجيب"
+translations:
+  en: { text: "She said: Oh woe is me! Shall I bear a child when I am an old woman, and this my husband is an old man? Lo! this is a strange thing!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس نے کہا اے ہے میرے بچہ ہوگا؟ میں تو بڑھیا ہوں اور میرے میاں بھی بوڑھے ہیں۔ یہ تو بڑی عجیب بات ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

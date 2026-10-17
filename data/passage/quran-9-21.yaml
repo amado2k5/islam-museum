@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:21 (سورة التوبة، الآية 21)."
 text: "يُبَشِّرُهُمْ رَبُّهُم بِرَحْمَةٍ مِّنْهُ وَرِضْوَٰنٍ وَجَنَّـٰتٍ لَّهُمْ فِيهَا نَعِيمٌ مُّقِيمٌ"
 text_search: "يبشرهم ربهم برحمة منه ورضوان وجنات لهم فيها نعيم مقيم"
+translations:
+  en: { text: "Their Lord giveth them good tidings of mercy from Him, and acceptance, and Gardens where enduring pleasure will be theirs;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کا پروردگار ان کو اپنی رحمت کی اور خوشنودی کی اور بہشتوں کی خوشخبری دیتا ہے جن میں ان کے لیے نعمت ہائے جاودانی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

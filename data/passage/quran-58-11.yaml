@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 58:11 (سورة المجادلة، الآية 11)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قِيلَ لَكُمْ تَفَسَّحُوا۟ فِى ٱلْمَجَـٰلِسِ فَٱفْسَحُوا۟ يَفْسَحِ ٱللَّهُ لَكُمْ ۖ وَإِذَا قِيلَ ٱنشُزُوا۟ فَٱنشُزُوا۟ يَرْفَعِ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ دَرَجَـٰتٍ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ"
 text_search: "يا أيها الذين آمنوا إذا قيل لكم تفسحوا في المجالس فافسحوا يفسح الله لكم ۖ وإذا قيل انشزوا فانشزوا يرفع الله الذين آمنوا منكم والذين أوتوا العلم درجات ۚ والله بما تعملون خبير"
+translations:
+  en: { text: "O ye who believe! when it is said unto you, Make room! in assemblies, then make room; Allah will make way for you (hereafter). And when it is said, Come up higher! go up higher; Allah will exalt those who believe among you, and those who have knowledge, to high ranks. Allah is Informed of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! جب تم سے کہا جائے کہ مجلس میں کھل کر بیٹھو تو کھل بیٹھا کرو۔ خدا تم کو کشادگی بخشے گا۔ اور جب کہا جائے کہ اُٹھ کھڑے ہو تو اُٹھ کھڑے ہوا کرو۔ جو لوگ تم میں سے ایمان لائے ہیں اور جن کو علم عطا کیا گیا ہے خدا ان کے درجے بلند کرے گا۔ اور خدا تمہارے سب کاموں سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-58 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

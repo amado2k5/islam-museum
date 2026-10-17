@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 46:32 (سورة الأحقاف، الآية 32)."
 text: "وَمَن لَّا يُجِبْ دَاعِىَ ٱللَّهِ فَلَيْسَ بِمُعْجِزٍ فِى ٱلْأَرْضِ وَلَيْسَ لَهُۥ مِن دُونِهِۦٓ أَوْلِيَآءُ ۚ أُو۟لَـٰٓئِكَ فِى ضَلَـٰلٍ مُّبِينٍ"
 text_search: "ومن لا يجب داعي الله فليس بمعجز في الأرض وليس له من دونه أولياء ۚ أولئك في ضلال مبين"
+translations:
+  en: { text: "And whoso respondeth not to Allah's summoner he can nowise escape in the earth, and he hath no protecting friends instead of Him. Such are in error manifest.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص خدا کی طرف بلانے والے کی بات قبول نہ کرے گا تو وہ زمین میں (خدا کو) عاجز نہیں کرسکے گا اور نہ اس کے سوا اس کے حمایتی ہوں گے۔ یہ لوگ صریح گمراہی میں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

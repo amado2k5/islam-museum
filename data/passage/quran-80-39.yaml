@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 80:39 (سورة عبس، الآية 39)."
 text: "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ"
 text_search: "ضاحكة مستبشرة"
+translations:
+  en: { text: "Laughing, rejoicing at good news;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خنداں و شاداں (یہ مومنان نیکو کار ہیں)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-80 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

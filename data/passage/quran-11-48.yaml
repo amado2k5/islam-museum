@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:48 (سورة هود، الآية 48)."
 text: "قِيلَ يَـٰنُوحُ ٱهْبِطْ بِسَلَـٰمٍ مِّنَّا وَبَرَكَـٰتٍ عَلَيْكَ وَعَلَىٰٓ أُمَمٍ مِّمَّن مَّعَكَ ۚ وَأُمَمٌ سَنُمَتِّعُهُمْ ثُمَّ يَمَسُّهُم مِّنَّا عَذَابٌ أَلِيمٌ"
 text_search: "قيل يا نوح اهبط بسلام منا وبركات عليك وعلى أمم ممن معك ۚ وأمم سنمتعهم ثم يمسهم منا عذاب أليم"
+translations:
+  en: { text: "It was said (unto him): O Noah! Go thou down (from the mountain) with peace from Us and blessings upon thee and some nations (that will spring) from those with thee. (There will be other) nations unto whom We shall give enjoyment a long while and then a painful doom from Us will overtake them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "حکم ہوا کہ نوح ہماری طرف سے سلامتی اور برکتوں کے ساتھ (جو) تم پر اور تمہارے ساتھ کی جماعتوں پر (نازل کی گئی ہیں) اتر آؤ۔ اور کچھ اور جماعتیں ہوں گی جن کو ہم (دنیا کے فوائد سے) محظوظ کریں گے پھر ان کو ہماری طرف سے عذاب الیم پہنچے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

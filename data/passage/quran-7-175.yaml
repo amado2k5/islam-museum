@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:175 (سورة الأعراف، الآية 175)."
 text: "وَٱتْلُ عَلَيْهِمْ نَبَأَ ٱلَّذِىٓ ءَاتَيْنَـٰهُ ءَايَـٰتِنَا فَٱنسَلَخَ مِنْهَا فَأَتْبَعَهُ ٱلشَّيْطَـٰنُ فَكَانَ مِنَ ٱلْغَاوِينَ"
 text_search: "واتل عليهم نبأ الذي آتيناه آياتنا فانسلخ منها فأتبعه الشيطان فكان من الغاوين"
+translations:
+  en: { text: "Recite unto them the tale of him to whom We gave Our revelations, but he sloughed them off, so Satan overtook him and he became of those who lead astray.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کو اس شخص کا حال پڑھ کر سنا دو جس کو ہم نے اپنی آیتیں عطا فرمائیں (اور ہفت پارچہٴ علم شرائع سے مزین کیا) تو اس نے ان کو اتار دیا پھر شیطان اس کے پیچھے لگا تو وہ گمراہوں میں ہوگیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

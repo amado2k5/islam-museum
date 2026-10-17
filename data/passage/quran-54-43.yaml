@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 54:43 (سورة القمر، الآية 43)."
 text: "أَكُفَّارُكُمْ خَيْرٌ مِّنْ أُو۟لَـٰٓئِكُمْ أَمْ لَكُم بَرَآءَةٌ فِى ٱلزُّبُرِ"
 text_search: "أكفاركم خير من أولئكم أم لكم براءة في الزبر"
+translations:
+  en: { text: "Are your disbelievers better than those, or have ye some immunity in the scriptures?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے اہل عرب) کیا تمہارے کافر ان لوگوں سے بہتر ہیں یا تمہارے لئے (پہلی) کتابوں میں کوئی فارغ خطی لکھ دی گئی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-54 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

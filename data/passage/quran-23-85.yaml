@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:85 (سورة المؤمنون، الآية 85)."
 text: "سَيَقُولُونَ لِلَّهِ ۚ قُلْ أَفَلَا تَذَكَّرُونَ"
 text_search: "سيقولون لله ۚ قل أفلا تذكرون"
+translations:
+  en: { text: "They will say: Unto Allah. Say: Will ye not then remember?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جھٹ بول اٹھیں گے کہ خدا کا۔ کہو کہ پھر تم سوچتے کیوں نہیں؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

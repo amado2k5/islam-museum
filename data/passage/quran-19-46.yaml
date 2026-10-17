@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:46 (سورة مريم، الآية 46)."
 text: "قَالَ أَرَاغِبٌ أَنتَ عَنْ ءَالِهَتِى يَـٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ ۖ وَٱهْجُرْنِى مَلِيًّا"
 text_search: "قال أراغب أنت عن آلهتي يا إبراهيم ۖ لئن لم تنته لأرجمنك ۖ واهجرني مليا"
+translations:
+  en: { text: "He said: Rejectest thou my gods, O Abraham? If thou cease not, I shall surely stone thee. Depart from me a long while!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس نے کہا ابراہیم کیا تو میرے معبودوں سے برگشتہ ہے؟ اگر تو باز نہ آئے گا تو میں تجھے سنگسار کردوں گا اور تو ہمیشہ کے لئے مجھ سے دور ہوجا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:28 (سورة يس، الآية 28)."
 text: "۞ وَمَآ أَنزَلْنَا عَلَىٰ قَوْمِهِۦ مِنۢ بَعْدِهِۦ مِن جُندٍ مِّنَ ٱلسَّمَآءِ وَمَا كُنَّا مُنزِلِينَ"
 text_search: "۞ وما أنزلنا على قومه من بعده من جند من السماء وما كنا منزلين"
+translations:
+  en: { text: "We sent not down against his people after him a host from heaven, nor do We ever send.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے اس کے بعد اس کی قوم پر کوئی لشکر نہیں اُتارا اور نہ ہم اُتارنے والے تھے ہی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

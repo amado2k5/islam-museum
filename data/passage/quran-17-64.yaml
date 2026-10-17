@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:64 (سورة الإسراء، الآية 64)."
 text: "وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُم بِصَوْتِكَ وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَـٰدِ وَعِدْهُمْ ۚ وَمَا يَعِدُهُمُ ٱلشَّيْطَـٰنُ إِلَّا غُرُورًا"
 text_search: "واستفزز من استطعت منهم بصوتك وأجلب عليهم بخيلك ورجلك وشاركهم في الأموال والأولاد وعدهم ۚ وما يعدهم الشيطان إلا غرورا"
+translations:
+  en: { text: "And excite any of them whom thou canst with thy voice, and urge thy horse and foot against them, and be a partner in their wealth and children, and promise them. Satan promiseth them only to deceive.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان میں سے جس کو بہکا سکے اپنی آواز سے بہکاتا رہ۔ اور ان پر اپنے سواروں اور پیاروں کو چڑھا کر لاتا رہ اور ان کے مال اور اولاد میں شریک ہوتا رہ اور ان سے وعدے کرتا رہ۔ اور شیطان جو وعدے ان سے کرتا ہے سب دھوکا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

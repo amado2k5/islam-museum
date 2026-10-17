@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:1 (سورة الكهف، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَـٰبَ وَلَمْ يَجْعَل لَّهُۥ عِوَجَا ۜ"
 text_search: "بسم الله الرحمن الرحيم الحمد لله الذي أنزل على عبده الكتاب ولم يجعل له عوجا ۜ"
+translations:
+  en: { text: "Praise be to Allah Who hath revealed the Scripture unto His slave, and hath not placed therein any crookedness,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "سب تعریف خدا ہی کو ہے جس نے اپنے بندے (محمدﷺ) پر (یہ) کتاب نازل کی اور اس میں کسی طرح کی کجی (اور پیچیدگی) نہ رکھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

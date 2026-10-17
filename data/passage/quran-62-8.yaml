@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 62:8 (سورة الجمعة، الآية 8)."
 text: "قُلْ إِنَّ ٱلْمَوْتَ ٱلَّذِى تَفِرُّونَ مِنْهُ فَإِنَّهُۥ مُلَـٰقِيكُمْ ۖ ثُمَّ تُرَدُّونَ إِلَىٰ عَـٰلِمِ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ"
 text_search: "قل إن الموت الذي تفرون منه فإنه ملاقيكم ۖ ثم تردون إلى عالم الغيب والشهادة فينبئكم بما كنتم تعملون"
+translations:
+  en: { text: "Say (unto them, O Muhammad): Lo! the death from which ye shrink will surely meet you, and afterward ye will be returned unto the Knower of the Invisible and the Visible, and He will tell you what ye used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ موت جس سے تم گریز کرتے ہو وہ تو تمہارے سامنے آ کر رہے گی۔ پھر تم پوشیدہ اور ظاہر کے جاننے والے (خدا) کی طرف لوٹائے جاؤ گے پھر جو کچھ تم کرتے رہے ہو وہ سب تمہیں بتائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-62 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

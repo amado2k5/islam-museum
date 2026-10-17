@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:69 (سورة هود، الآية 69)."
 text: "وَلَقَدْ جَآءَتْ رُسُلُنَآ إِبْرَٰهِيمَ بِٱلْبُشْرَىٰ قَالُوا۟ سَلَـٰمًا ۖ قَالَ سَلَـٰمٌ ۖ فَمَا لَبِثَ أَن جَآءَ بِعِجْلٍ حَنِيذٍ"
 text_search: "ولقد جاءت رسلنا إبراهيم بالبشرى قالوا سلاما ۖ قال سلام ۖ فما لبث أن جاء بعجل حنيذ"
+translations:
+  en: { text: "And Our messengers cam unto Abraham with good news. They said: Peace! He answered: Peace! and delayed not to bring a roasted calf.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہمارے فرشتے ابراہیم کے پاس بشارت لے کر آئے تو سلام کہا۔ انہوں نے بھی (جواب میں) سلام کہا۔ ابھی کچھ وقفہ نہیں ہوا تھا کہ (ابراہیم) ایک بھنا ہوا بچھڑا لے آئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

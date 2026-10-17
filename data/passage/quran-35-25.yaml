@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:25 (سورة فاطر، الآية 25)."
 text: "وَإِن يُكَذِّبُوكَ فَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ وَبِٱلزُّبُرِ وَبِٱلْكِتَـٰبِ ٱلْمُنِيرِ"
 text_search: "وإن يكذبوك فقد كذب الذين من قبلهم جاءتهم رسلهم بالبينات وبالزبر وبالكتاب المنير"
+translations:
+  en: { text: "And if they deny thee, those before them also denied. Their messengers came unto them with clear proofs (of Allah's Sovereignty), and with the Psalms and the Scripture giving light.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر یہ تمہاری تکذیب کریں تو جو لوگ ان سے پہلے تھے وہ بھی تکذیب کرچکے ہیں ان کے پاس ان کے پیغمبر نشانیاں اور صحیفے اور روشن کتابیں لے لے کر آتے رہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

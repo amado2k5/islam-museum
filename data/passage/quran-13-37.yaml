@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 13:37 (سورة الرعد، الآية 37)."
 text: "وَكَذَٰلِكَ أَنزَلْنَـٰهُ حُكْمًا عَرَبِيًّا ۚ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم بَعْدَ مَا جَآءَكَ مِنَ ٱلْعِلْمِ مَا لَكَ مِنَ ٱللَّهِ مِن وَلِىٍّ وَلَا وَاقٍ"
 text_search: "وكذلك أنزلناه حكما عربيا ۚ ولئن اتبعت أهواءهم بعد ما جاءك من العلم ما لك من الله من ولي ولا واق"
+translations:
+  en: { text: "Thus have We revealed it, a decisive utterance in Arabic; and if thou shouldst follow their desires after that which hath come unto thee of knowledge, then truly wouldst thou have from Allah no protecting friend nor defender.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اسی طرح ہم نے اس قرآن کو عربی زبان کا فرمان نازل کیا ہے۔ اور اگر تم علم (ودانش) آنے کے بعد ان لوگوں کی خواہشوں کے پیچھے چلو گے تو خدا کے سامنے کوئی نہ تمہارا مددگار ہوگا اور نہ کوئی بچانے والا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-13 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

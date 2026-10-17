@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:101 (سورة المائدة، الآية 101)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَسْـَٔلُوا۟ عَنْ أَشْيَآءَ إِن تُبْدَ لَكُمْ تَسُؤْكُمْ وَإِن تَسْـَٔلُوا۟ عَنْهَا حِينَ يُنَزَّلُ ٱلْقُرْءَانُ تُبْدَ لَكُمْ عَفَا ٱللَّهُ عَنْهَا ۗ وَٱللَّهُ غَفُورٌ حَلِيمٌ"
 text_search: "يا أيها الذين آمنوا لا تسألوا عن أشياء إن تبد لكم تسؤكم وإن تسألوا عنها حين ينزل القرآن تبد لكم عفا الله عنها ۗ والله غفور حليم"
+translations:
+  en: { text: "O ye who believe! Ask not of things which, if they were made unto you, would trouble you; but if ye ask of them when the Qur'an is being revealed, they will be made known unto you. Allah pardoneth this, for Allah is Forgiving, Clement.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! ایسی چیزوں کے بارے میں مت سوال کرو کہ اگر (ان کی حقیقتیں) تم پر ظاہر کر دی جائیں تو تمہیں بری لگیں اور اگر قرآن کے نازل ہونے کے ایام میں ایسی باتیں پوچھو گے تو تم پر ظاہر بھی کر دی جائیں گی (اب تو) خدا نے ایسی باتوں (کے پوچھنے) سے درگزر فرمایا ہے اور خدا بخشنے والا بردبار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 76:24 (سورة الإنسان، الآية 24)."
 text: "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تُطِعْ مِنْهُمْ ءَاثِمًا أَوْ كَفُورًا"
 text_search: "فاصبر لحكم ربك ولا تطع منهم آثما أو كفورا"
+translations:
+  en: { text: "So submit patiently to thy Lord's command, and obey not of them any guilty one or disbeliever.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اپنے پروردگار کے حکم کے مطابق صبر کئے رہو اور ان لوگوں میں سے کسی بد عمل اور ناشکرے کا کہا نہ مانو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-76 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

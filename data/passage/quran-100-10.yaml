@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 100:10 (سورة العاديات، الآية 10)."
 text: "وَحُصِّلَ مَا فِى ٱلصُّدُورِ"
 text_search: "وحصل ما في الصدور"
+translations:
+  en: { text: "And the secrets of the breasts are made known,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو (بھید) دلوں میں ہیں وہ ظاہر کر دیئے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-100 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

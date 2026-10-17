@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:25 (سورة غافر، الآية 25)."
 text: "فَلَمَّا جَآءَهُم بِٱلْحَقِّ مِنْ عِندِنَا قَالُوا۟ ٱقْتُلُوٓا۟ أَبْنَآءَ ٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ وَٱسْتَحْيُوا۟ نِسَآءَهُمْ ۚ وَمَا كَيْدُ ٱلْكَـٰفِرِينَ إِلَّا فِى ضَلَـٰلٍ"
 text_search: "فلما جاءهم بالحق من عندنا قالوا اقتلوا أبناء الذين آمنوا معه واستحيوا نساءهم ۚ وما كيد الكافرين إلا في ضلال"
+translations:
+  en: { text: "And when he brought them the Truth from Our presence, they said: Slay the sons of those who believe with him, and spare their women. But the plot of disbelievers is in naught but error.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "غرض جب وہ ان کے پاس ہماری طرف سے حق لے کر پہنچے تو کہنے لگے کہ جو اس کے ساتھ (خدا پر) ایمان لائے ہیں ان کے بیٹوں کو قتل کردو اور بیٹیوں کو زندہ رہنے دو۔ اور کافروں کی تدبیریں بےٹھکانے ہوتی ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:14 (سورة الأنعام، الآية 14)."
 text: "قُلْ أَغَيْرَ ٱللَّهِ أَتَّخِذُ وَلِيًّا فَاطِرِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ ۗ قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَكُونَ أَوَّلَ مَنْ أَسْلَمَ ۖ وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ"
 text_search: "قل أغير الله أتخذ وليا فاطر السماوات والأرض وهو يطعم ولا يطعم ۗ قل إني أمرت أن أكون أول من أسلم ۖ ولا تكونن من المشركين"
+translations:
+  en: { text: "Say: Shall I choose for a protecting friend other than Allah, the Originator of the heavens and the earth, Who feedeth and is never fed? Say: I am ordered to be the first to surrender (unto Him). And be not thou (O Muhammad) of the idolaters.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہو کیا میں خدا کو چھوڑ کر کسی اور کو مددگار بناؤں کہ (وہی تو) آسمانوں اور زمین کا پیدا کرنے والا ہے اور وہی (سب کو) کھانا دیتا ہے اور خود کسی سے کھانا نہیں لیتا (یہ بھی) کہہ دو کہ مجھے یہ حکم ہوا ہے کہ میں سب سے پہلے اسلام لانے والا ہوں اور یہ کہ تم (اے پیغمبر!) مشرکوں میں نہ ہونا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

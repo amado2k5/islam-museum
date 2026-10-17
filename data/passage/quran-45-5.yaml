@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:5 (سورة الجاثية، الآية 5)."
 text: "وَٱخْتِلَـٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن رِّزْقٍ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَتَصْرِيفِ ٱلرِّيَـٰحِ ءَايَـٰتٌ لِّقَوْمٍ يَعْقِلُونَ"
 text_search: "واختلاف الليل والنهار وما أنزل الله من السماء من رزق فأحيا به الأرض بعد موتها وتصريف الرياح آيات لقوم يعقلون"
+translations:
+  en: { text: "And the difference of night and day and the provision that Allah sendeth down from the sky and thereby quickeneth the earth after her death, and the ordering of the winds, are portents for a people who have sense.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور رات اور دن کے آگے پیچھے آنے جانے میں اور وہ جو خدا نے آسمان سے (ذریعہٴ) رزق نازل فرمایا پھر اس سے زمین کو اس کے مرجانے کے بعد زندہ کیا اس میں اور ہواؤں کے بدلنے میں عقل والوں کے لئے نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

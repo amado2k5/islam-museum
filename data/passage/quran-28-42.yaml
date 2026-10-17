@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:42 (سورة القصص، الآية 42)."
 text: "وَأَتْبَعْنَـٰهُمْ فِى هَـٰذِهِ ٱلدُّنْيَا لَعْنَةً ۖ وَيَوْمَ ٱلْقِيَـٰمَةِ هُم مِّنَ ٱلْمَقْبُوحِينَ"
 text_search: "وأتبعناهم في هذه الدنيا لعنة ۖ ويوم القيامة هم من المقبوحين"
+translations:
+  en: { text: "And We made a curse to follow them in this world, and on the Day of Resurrection they will be among the hateful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس دنیا سے ہم نے اُن کے پیچھے لعنت لگادی اور وہ قیامت کے روز بھی بدحالوں میں ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 72:5 (سورة الجن، الآية 5)."
 text: "وَأَنَّا ظَنَنَّآ أَن لَّن تَقُولَ ٱلْإِنسُ وَٱلْجِنُّ عَلَى ٱللَّهِ كَذِبًا"
 text_search: "وأنا ظننا أن لن تقول الإنس والجن على الله كذبا"
+translations:
+  en: { text: "And lo! we had supposed that humankind and jinn would not speak a lie concerning Allah -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہمارا (یہ) خیال تھا کہ انسان اور جن خدا کی نسبت جھوٹ نہیں بولتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-72 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

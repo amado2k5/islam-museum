@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:2 (سورة يونس، الآية 2)."
 text: "أَكَانَ لِلنَّاسِ عَجَبًا أَنْ أَوْحَيْنَآ إِلَىٰ رَجُلٍ مِّنْهُمْ أَنْ أَنذِرِ ٱلنَّاسَ وَبَشِّرِ ٱلَّذِينَ ءَامَنُوٓا۟ أَنَّ لَهُمْ قَدَمَ صِدْقٍ عِندَ رَبِّهِمْ ۗ قَالَ ٱلْكَـٰفِرُونَ إِنَّ هَـٰذَا لَسَـٰحِرٌ مُّبِينٌ"
 text_search: "أكان للناس عجبا أن أوحينا إلى رجل منهم أن أنذر الناس وبشر الذين آمنوا أن لهم قدم صدق عند ربهم ۗ قال الكافرون إن هذا لساحر مبين"
+translations:
+  en: { text: "Is it a wonder for mankind that We have inspired a man among them, saying: Warn mankind and bring unto those who believe the good tidings that they have a sure footing with their Lord? The disbelievers say: Lo! this is a mere wizard.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا لوگوں کو تعجب ہوا کہ ہم نے ان ہی میں سے ایک مرد کو حکم بھیجا کہ لوگوں کو ڈر سنا دو۔ اور ایمان لانے والوں کو خوشخبری دے دو کہ ان کے پروردگار کے ہاں ان کا سچا درجہ ہے۔ (ایسے شخص کی نسبت) کافر کہتے ہیں کہ یہ صریح جادوگر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

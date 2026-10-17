@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 89:8 (سورة الفجر، الآية 8)."
 text: "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَـٰدِ"
 text_search: "التي لم يخلق مثلها في البلاد"
+translations:
+  en: { text: "The like of which was not created in the lands;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ تمام ملک میں ایسے پیدا نہیں ہوئے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-89 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

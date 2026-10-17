@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:68 (سورة الأعراف، الآية 68)."
 text: "أُبَلِّغُكُمْ رِسَـٰلَـٰتِ رَبِّى وَأَنَا۠ لَكُمْ نَاصِحٌ أَمِينٌ"
 text_search: "أبلغكم رسالات ربي وأنا لكم ناصح أمين"
+translations:
+  en: { text: "I convey unto you the messages of my Lord and am for you a true adviser.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "میں تمہیں خدا کے پیغام پہنچاتا ہوں اور تمہارا امانت دار خیرخواہ ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:44 (سورة مريم، الآية 44)."
 text: "يَـٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَـٰنَ ۖ إِنَّ ٱلشَّيْطَـٰنَ كَانَ لِلرَّحْمَـٰنِ عَصِيًّا"
 text_search: "يا أبت لا تعبد الشيطان ۖ إن الشيطان كان للرحمن عصيا"
+translations:
+  en: { text: "O my father! Serve not the devil. Lo! the devil is a rebel unto the Beneficent.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ابّا شیطان کی پرستش نہ کیجیئے۔ بےشک شیطان خدا کا نافرمان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

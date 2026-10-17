@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:64 (سورة النحل، الآية 64)."
 text: "وَمَآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَـٰبَ إِلَّا لِتُبَيِّنَ لَهُمُ ٱلَّذِى ٱخْتَلَفُوا۟ فِيهِ ۙ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ"
 text_search: "وما أنزلنا عليك الكتاب إلا لتبين لهم الذي اختلفوا فيه ۙ وهدى ورحمة لقوم يؤمنون"
+translations:
+  en: { text: "And We have revealed the Scripture unto thee only that thou mayst explain unto them that wherein they differ, and (as) a guidance and a mercy for a people who believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے جو تم پر کتاب نازل کی ہے تو اس کے لیے جس امر میں ان لوگوں کو اختلاف ہے تم اس کا فیصلہ کردو۔ اور (یہ) مومنوں کے لیے ہدایت اور رحمت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

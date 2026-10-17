@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 9:74 (سورة التوبة، الآية 74)."
 text: "يَحْلِفُونَ بِٱللَّهِ مَا قَالُوا۟ وَلَقَدْ قَالُوا۟ كَلِمَةَ ٱلْكُفْرِ وَكَفَرُوا۟ بَعْدَ إِسْلَـٰمِهِمْ وَهَمُّوا۟ بِمَا لَمْ يَنَالُوا۟ ۚ وَمَا نَقَمُوٓا۟ إِلَّآ أَنْ أَغْنَىٰهُمُ ٱللَّهُ وَرَسُولُهُۥ مِن فَضْلِهِۦ ۚ فَإِن يَتُوبُوا۟ يَكُ خَيْرًا لَّهُمْ ۖ وَإِن يَتَوَلَّوْا۟ يُعَذِّبْهُمُ ٱللَّهُ عَذَابًا أَلِيمًا فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۚ وَمَا لَهُمْ فِى ٱلْأَرْضِ مِن وَلِىٍّ وَلَا نَصِيرٍ"
 text_search: "يحلفون بالله ما قالوا ولقد قالوا كلمة الكفر وكفروا بعد إسلامهم وهموا بما لم ينالوا ۚ وما نقموا إلا أن أغناهم الله ورسوله من فضله ۚ فإن يتوبوا يك خيرا لهم ۖ وإن يتولوا يعذبهم الله عذابا أليما في الدنيا والآخرة ۚ وما لهم في الأرض من ولي ولا نصير"
+translations:
+  en: { text: "They swear by Allah that they said nothing (wrong), yet they did say the word of disbelief, and did disbelieve after their Surrender (to Allah). And they purposed that which they could not attain, and they sought revenge only that Allah by His messenger should enrich them of His bounty. If they repent it will be better for them; and if they turn away, Allah will afflict them with a painful doom in the world and the Hereafter, and they have no protecting friend nor helper in the earth.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ خدا کی قسمیں کھاتے ہیں کہ انہوں نے (تو کچھ) نہیں کہا حالانکہ انہوں نے کفر کا کلمہ کہا ہے اور یہ اسلام لانے کے بعد کافر ہوگئے ہیں اور ایسی بات کا قصد کرچکے ہیں جس پر قدرت نہیں پاسکے۔ اور انہوں نے (مسلمانوں میں) عیب ہی کون سا دیکھا ہے سوا اس کے کہ خدا نے اپنے فضل سے اور اس کے پیغمبر نے (اپنی مہربانی سے) ان کو دولت مند کر دیا ہے۔ تو اگر یہ لوگ توبہ کرلیں تو ان کے حق میں بہتر ہوگا۔ اور اگر منہ پھیر لیں تو ان کو دنیا اور آخرت میں دکھ دینے والا عذاب دے گا اور زمین میں ان کا کوئی دوست اور مددگار نہ ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
   - { type: revealed_about, target: event/hypocrites-ambush-at-the-pass, note: "في «وهَمُّوا بما لم ينالوا» إشارة إلى مكر المنافقين بالعقبة (الرحيق ص436).", sources: [source/mubarakpuri-raheeq] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

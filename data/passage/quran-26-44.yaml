@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:44 (سورة الشعراء، الآية 44)."
 text: "فَأَلْقَوْا۟ حِبَالَهُمْ وَعِصِيَّهُمْ وَقَالُوا۟ بِعِزَّةِ فِرْعَوْنَ إِنَّا لَنَحْنُ ٱلْغَـٰلِبُونَ"
 text_search: "فألقوا حبالهم وعصيهم وقالوا بعزة فرعون إنا لنحن الغالبون"
+translations:
+  en: { text: "Then they threw down their cords and their staves and said: By Pharaoh's might, lo! we verily are the winners.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو انہوں نے اپنی رسیاں اور لاٹھیاں ڈالیں اور کہنے لگے کہ فرعون کے اقبال کی قسم ہم ضرور غالب رہیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:61 (سورة النحل، الآية 61)."
 text: "وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِظُلْمِهِم مَّا تَرَكَ عَلَيْهَا مِن دَآبَّةٍ وَلَـٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَـْٔخِرُونَ سَاعَةً ۖ وَلَا يَسْتَقْدِمُونَ"
 text_search: "ولو يؤاخذ الله الناس بظلمهم ما ترك عليها من دابة ولكن يؤخرهم إلى أجل مسمى ۖ فإذا جاء أجلهم لا يستأخرون ساعة ۖ ولا يستقدمون"
+translations:
+  en: { text: "If Allah were to take mankind to task for their wrong-doing, he would not leave hereon a living creature, but He reprieveth them to an appointed term, and when their term cometh they cannot put (it) off an hour nor (yet) advance (it).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر خدا لوگوں کو ان کے ظلم کے سبب پکڑنے لگے تو ایک جاندار کو زمین پر نہ چھوڑے لیکن ان کو ایک وقت مقرر تک مہلت دیئے جاتا ہے۔ جب وہ وقت آجاتا ہے تو ایک گھڑی نہ پیچھے رہ سکتے ہیں نہ آگے بڑھ سکتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

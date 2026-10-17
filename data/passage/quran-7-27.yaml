@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:27 (سورة الأعراف، الآية 27)."
 text: "يَـٰبَنِىٓ ءَادَمَ لَا يَفْتِنَنَّكُمُ ٱلشَّيْطَـٰنُ كَمَآ أَخْرَجَ أَبَوَيْكُم مِّنَ ٱلْجَنَّةِ يَنزِعُ عَنْهُمَا لِبَاسَهُمَا لِيُرِيَهُمَا سَوْءَٰتِهِمَآ ۗ إِنَّهُۥ يَرَىٰكُمْ هُوَ وَقَبِيلُهُۥ مِنْ حَيْثُ لَا تَرَوْنَهُمْ ۗ إِنَّا جَعَلْنَا ٱلشَّيَـٰطِينَ أَوْلِيَآءَ لِلَّذِينَ لَا يُؤْمِنُونَ"
 text_search: "يا بني آدم لا يفتننكم الشيطان كما أخرج أبويكم من الجنة ينزع عنهما لباسهما ليريهما سوآتهما ۗ إنه يراكم هو وقبيله من حيث لا ترونهم ۗ إنا جعلنا الشياطين أولياء للذين لا يؤمنون"
+translations:
+  en: { text: "O Children of Adam! Let not Satan seduce you as he caused your (first) parents to go forth from the Garden and tore off from them their robe (of innocence) that he might manifest their shame to them. Lo! he seeth you, he and his tribe, from whence ye see him not. Lo! We have made the devils protecting friends for those who believe not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے نبی آدم (دیکھنا کہیں) شیطان تمہیں بہکا نہ دے جس طرح تمہارے ماں باپ کو (بہکا کر) بہشت سے نکلوا دیا اور ان سے ان کے کپڑے اتروا دیئے تاکہ ان کے ستر ان کو کھول کر دکھا دے۔ وہ اور اس کے بھائی تم کو ایسی جگہ سے دیکھتے رہے ہیں جہاں سے تم ان کو نہیں دیکھ سکتے ہم نے شیطانوں کو انہیں لوگوں کا رفیق کار بنایا ہے جو ایمان نہیں رکھتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

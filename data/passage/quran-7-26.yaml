@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:26 (سورة الأعراف، الآية 26)."
 text: "يَـٰبَنِىٓ ءَادَمَ قَدْ أَنزَلْنَا عَلَيْكُمْ لِبَاسًا يُوَٰرِى سَوْءَٰتِكُمْ وَرِيشًا ۖ وَلِبَاسُ ٱلتَّقْوَىٰ ذَٰلِكَ خَيْرٌ ۚ ذَٰلِكَ مِنْ ءَايَـٰتِ ٱللَّهِ لَعَلَّهُمْ يَذَّكَّرُونَ"
 text_search: "يا بني آدم قد أنزلنا عليكم لباسا يواري سوآتكم وريشا ۖ ولباس التقوى ذلك خير ۚ ذلك من آيات الله لعلهم يذكرون"
+translations:
+  en: { text: "O Children of Adam! We have revealed unto you raiment to conceal your shame, and splendid vesture, but the raiment of restraint from evil, that is best. This is of the revelations of Allah, that they may remember.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے نبی آدم ہم نے تم پر پوشاک اتاری کہ تمہارا ستر ڈھانکے اور (تمہارے بدن کو) زینت (دے) اور (جو) پرہیزگاری کا لباس (ہے) وہ سب سے اچھا ہے۔ یہ خدا کی نشانیاں ہیں تاکہ لوگ نصحیت پکڑ یں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

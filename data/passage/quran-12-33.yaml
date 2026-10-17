@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:33 (سورة يوسف، الآية 33)."
 text: "قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَـٰهِلِينَ"
 text_search: "قال رب السجن أحب إلي مما يدعونني إليه ۖ وإلا تصرف عني كيدهن أصب إليهن وأكن من الجاهلين"
+translations:
+  en: { text: "He said: O my Lord! Prison is more dear than that unto which they urge me, and if Thou fend not off their wiles from me I shall incline unto them and become of the foolish.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یوسف نے دعا کی کہ پروردگار جس کام کی طرف یہ مجھے بلاتی ہیں اس کی نسبت مجھے قید پسند ہے۔ اور اگر تو مجھ سے ان کے فریب کو نہ ہٹائے گا تو میں ان کی طرف مائل ہوجاؤں گا اور نادانوں میں داخل ہوجاؤں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

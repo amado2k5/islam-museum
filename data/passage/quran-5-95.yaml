@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:95 (سورة المائدة، الآية 95)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌ ۚ وَمَن قَتَلَهُۥ مِنكُم مُّتَعَمِّدًا فَجَزَآءٌ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍ مِّنكُمْ هَدْيًۢا بَـٰلِغَ ٱلْكَعْبَةِ أَوْ كَفَّـٰرَةٌ طَعَامُ مَسَـٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ"
 text_search: "يا أيها الذين آمنوا لا تقتلوا الصيد وأنتم حرم ۚ ومن قتله منكم متعمدا فجزاء مثل ما قتل من النعم يحكم به ذوا عدل منكم هديا بالغ الكعبة أو كفارة طعام مساكين أو عدل ذلك صياما ليذوق وبال أمره ۗ عفا الله عما سلف ۚ ومن عاد فينتقم الله منه ۗ والله عزيز ذو انتقام"
+translations:
+  en: { text: "O ye who believe! Kill no wild game while ye are on the pilgrimage. Whoso of you killeth it of set purpose he shall pay its forfeit in the equivalent of that which he hath killed, of domestic animals, the judge to be two men among you known for justice, (the forfeit) to be brought as an offering to the Ka'bah; or, for expiation, he shall feed poor persons, or the equivalent thereof in fasting, that he may taste the evil consequences of his deed. Allah forgiveth whatever (of this kind) may have happened in the past, but whoso relapseth, Allah will take retribution from him. Allah is Mighty, Able to Requite (the wrong).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! جب تم احرام کی حالت میں ہو تو شکار نہ مارنا اور جو تم میں سے جان بوجھ کر اسے مارے تو (یا تو اس کا) بدلہ (دے اور وہ یہ ہے کہ) اسی طرح کا چارپایہ جسے تم میں دو معتبر شخص مقرر کردیں قربانی (کرے اور یہ قربانی) کعبے پہنچائی جائے یا کفارہ (دے اور وہ) مسکینوں کو کھانا کھلانا (ہے) یا اس کے برابر روزے رکھے تاکہ اپنے کام کی سزا (کا مزہ) چکھے (اور) جو پہلے ہو چکا وہ خدا نے معاف کر دیا اور جو پھر (ایسا کام) کرے گا تو خدا اس سے انتقام لے گا اور خدا غالب اور انتقام لینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

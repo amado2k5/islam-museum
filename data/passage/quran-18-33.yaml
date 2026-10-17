@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:33 (سورة الكهف، الآية 33)."
 text: "كِلْتَا ٱلْجَنَّتَيْنِ ءَاتَتْ أُكُلَهَا وَلَمْ تَظْلِم مِّنْهُ شَيْـًٔا ۚ وَفَجَّرْنَا خِلَـٰلَهُمَا نَهَرًا"
 text_search: "كلتا الجنتين آتت أكلها ولم تظلم منه شيئا ۚ وفجرنا خلالهما نهرا"
+translations:
+  en: { text: "Each of the gardens gave its fruit and withheld naught thereof. And We caused a river to gush forth therein.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "دونوں باغ (کثرت سے) پھل لاتے۔ اور اس (کی پیداوار) میں کسی طرح کی کمی نہ ہوتی اور دونوں میں ہم نے ایک نہر بھی جاری کر رکھی تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

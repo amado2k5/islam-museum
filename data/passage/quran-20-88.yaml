@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:88 (سورة طه، الآية 88)."
 text: "فَأَخْرَجَ لَهُمْ عِجْلًا جَسَدًا لَّهُۥ خُوَارٌ فَقَالُوا۟ هَـٰذَآ إِلَـٰهُكُمْ وَإِلَـٰهُ مُوسَىٰ فَنَسِىَ"
 text_search: "فأخرج لهم عجلا جسدا له خوار فقالوا هذا إلهكم وإله موسى فنسي"
+translations:
+  en: { text: "Then he produced for them a calf, of saffron hue, which gave forth a lowing sound. And they cried: This is your god and the god of Moses, but he hath forgotten.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اس نے ان کے لئے ایک بچھڑا بنا دیا (یعنی اس کا) قالب جس کی آواز گائے کی سی تھی۔ تو لوگ کہنے لگے کہ یہی تمہارا معبود ہے اور موسیٰ کا بھی معبود ہے۔ مگر وہ بھول گئے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:131 (سورة الأعراف، الآية 131)."
 text: "فَإِذَا جَآءَتْهُمُ ٱلْحَسَنَةُ قَالُوا۟ لَنَا هَـٰذِهِۦ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ يَطَّيَّرُوا۟ بِمُوسَىٰ وَمَن مَّعَهُۥٓ ۗ أَلَآ إِنَّمَا طَـٰٓئِرُهُمْ عِندَ ٱللَّهِ وَلَـٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ"
 text_search: "فإذا جاءتهم الحسنة قالوا لنا هذه ۖ وإن تصبهم سيئة يطيروا بموسى ومن معه ۗ ألا إنما طائرهم عند الله ولكن أكثرهم لا يعلمون"
+translations:
+  en: { text: "But whenever good befell them, they said: This is ours; and whenever evil smote them they ascribed it to the evil auspices of Moses and those with him. Surely their evil auspice was only with Allah. But most of them knew not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جب ان کو آسائش حاصل ہوتی تو کہتے کہ ہم اس کے مستحق ہیں۔ اور اگر سختی پہنچتی تو موسیٰ اور ان کے رفیقوں کی بدشگونی بتاتے۔ دیکھو ان کی بدشگونی خدا کے ہاں مقرر ہے لیکن ان میں اکثر نہیں جانتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

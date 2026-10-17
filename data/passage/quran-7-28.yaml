@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:28 (سورة الأعراف، الآية 28)."
 text: "وَإِذَا فَعَلُوا۟ فَـٰحِشَةً قَالُوا۟ وَجَدْنَا عَلَيْهَآ ءَابَآءَنَا وَٱللَّهُ أَمَرَنَا بِهَا ۗ قُلْ إِنَّ ٱللَّهَ لَا يَأْمُرُ بِٱلْفَحْشَآءِ ۖ أَتَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ"
 text_search: "وإذا فعلوا فاحشة قالوا وجدنا عليها آباءنا والله أمرنا بها ۗ قل إن الله لا يأمر بالفحشاء ۖ أتقولون على الله ما لا تعلمون"
+translations:
+  en: { text: "And when they do some lewdness they say: We found our fathers doing it and Allah hath enjoined it on us. Say: Allah, verily, enjoineth not lewdness. Tell ye concerning Allah that which ye know not?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب کوئی بے حیائی کا کام کرتے ہیں تو کہتے ہیں کہ ہم نے اپنے بزرگوں کو اسی طرح کرتے دیکھا ہے اور خدا نے بھی ہم کو یہی حکم دیا ہے۔ کہہ دو خدا بےحیائی کے کام کرنے کا ہرگز حکم نہیں دیتا۔ بھلا تم خدا کی نسبت ایسی بات کیوں کہتے ہو جس کا تمہیں علم نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

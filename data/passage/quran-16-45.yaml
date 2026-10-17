@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:45 (سورة النحل، الآية 45)."
 text: "أَفَأَمِنَ ٱلَّذِينَ مَكَرُوا۟ ٱلسَّيِّـَٔاتِ أَن يَخْسِفَ ٱللَّهُ بِهِمُ ٱلْأَرْضَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ"
 text_search: "أفأمن الذين مكروا السيئات أن يخسف الله بهم الأرض أو يأتيهم العذاب من حيث لا يشعرون"
+translations:
+  en: { text: "Are they who plan ill-deeds then secure that Allah will not cause the earth to swallow them, or that the doom will not come on them whence they know not?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا جو لوگ بری بری چالیں چلتے ہیں اس بات سے بےخوف ہیں کہ خدا ان کو زمین میں دھنسا دے یا (ایسی طرف سے) ان پر عذاب آجائے جہاں سے ان کو خبر ہی نہ ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

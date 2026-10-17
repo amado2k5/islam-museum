@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 70:12 (سورة المعارج، الآية 12)."
 text: "وَصَـٰحِبَتِهِۦ وَأَخِيهِ"
 text_search: "وصاحبته وأخيه"
+translations:
+  en: { text: "And his spouse and his brother", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اپنی بیوی اور اپنے بھائی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-70 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

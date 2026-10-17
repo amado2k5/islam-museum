@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 59:18 (سورة الحشر، الآية 18)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ"
 text_search: "يا أيها الذين آمنوا اتقوا الله ولتنظر نفس ما قدمت لغد ۖ واتقوا الله ۚ إن الله خبير بما تعملون"
+translations:
+  en: { text: "O ye who believe! Observe your duty to Allah. And let every soul look to that which it sendeth on before for the morrow. And observe your duty to Allah. Lo! Allah is Informed of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے ایمان والوں! خدا سے ڈرتے رہو اور ہر شخص کو دیکھنا چاہیئے کہ اس نے کل (یعنی فردائے قیامت) کے لئے کیا (سامان) بھیجا ہے اور (ہم پھر کہتے ہیں کہ) خدا سے ڈرتے رہو بےشک خدا تمہارے سب اعمال سے خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

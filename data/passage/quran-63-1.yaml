@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 63:1 (سورة المنافقون، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِذَا جَآءَكَ ٱلْمُنَـٰفِقُونَ قَالُوا۟ نَشْهَدُ إِنَّكَ لَرَسُولُ ٱللَّهِ ۗ وَٱللَّهُ يَعْلَمُ إِنَّكَ لَرَسُولُهُۥ وَٱللَّهُ يَشْهَدُ إِنَّ ٱلْمُنَـٰفِقِينَ لَكَـٰذِبُونَ"
 text_search: "بسم الله الرحمن الرحيم إذا جاءك المنافقون قالوا نشهد إنك لرسول الله ۗ والله يعلم إنك لرسوله والله يشهد إن المنافقين لكاذبون"
+translations:
+  en: { text: "When the hypocrites come unto thee (O Muhammad), they say: We bear witness that thou art indeed Allah's messenger. And Allah knoweth that thou art indeed His messenger, and Allah beareth witness that the hypocrites indeed are speaking falsely.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) جب منافق لوگ تمہارے پاس آتے ہیں تو (از راہ نفاق) کہتے ہیں کہ ہم اقرار کرتے ہیں کہ آپ بےشک خدا کے پیغمبر ہیں اور خدا جانتا ہے کہ درحقیقت تم اس کے پیغمبر ہو لیکن خدا ظاہر کئے دیتا ہے کہ منافق (دل سے اعتقاد نہ رکھنے کے لحاظ سے) جھوٹے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-63 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:31 (سورة الجاثية، الآية 31)."
 text: "وَأَمَّا ٱلَّذِينَ كَفَرُوٓا۟ أَفَلَمْ تَكُنْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَٱسْتَكْبَرْتُمْ وَكُنتُمْ قَوْمًا مُّجْرِمِينَ"
 text_search: "وأما الذين كفروا أفلم تكن آياتي تتلى عليكم فاستكبرتم وكنتم قوما مجرمين"
+translations:
+  en: { text: "And as for those who disbelieved (it will be said unto them): Were not Our revelations recited unto you? But ye were scornful and became a guilty folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جنہوں نے کفر کیا۔ (ان سے کہا جائے گا کہ) بھلا ہماری آیتیں تم کو پڑھ کر سنائی نہیں جاتی تھیں؟ پھر تم نے تکبر کیا اور تم نافرمان لوگ تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

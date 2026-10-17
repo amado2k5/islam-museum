@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:30 (سورة القصص، الآية 30)."
 text: "فَلَمَّآ أَتَىٰهَا نُودِىَ مِن شَـٰطِئِ ٱلْوَادِ ٱلْأَيْمَنِ فِى ٱلْبُقْعَةِ ٱلْمُبَـٰرَكَةِ مِنَ ٱلشَّجَرَةِ أَن يَـٰمُوسَىٰٓ إِنِّىٓ أَنَا ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ"
 text_search: "فلما أتاها نودي من شاطئ الواد الأيمن في البقعة المباركة من الشجرة أن يا موسى إني أنا الله رب العالمين"
+translations:
+  en: { text: "And when he reached it, he was called from the right side of the valley in the blessed field, from the tree: O Moses! Lo! I, even I, am Allah, the Lord of the Worlds;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب اس کے پاس پہنچے تو میدان کے دائیں کنارے سے ایک مبارک جگہ میں ایک درخت میں سے آواز آئی کہ موسٰی میں تو خدائے رب العالمین ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

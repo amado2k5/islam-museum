@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:18 (سورة القصص، الآية 18)."
 text: "فَأَصْبَحَ فِى ٱلْمَدِينَةِ خَآئِفًا يَتَرَقَّبُ فَإِذَا ٱلَّذِى ٱسْتَنصَرَهُۥ بِٱلْأَمْسِ يَسْتَصْرِخُهُۥ ۚ قَالَ لَهُۥ مُوسَىٰٓ إِنَّكَ لَغَوِىٌّ مُّبِينٌ"
 text_search: "فأصبح في المدينة خائفا يترقب فإذا الذي استنصره بالأمس يستصرخه ۚ قال له موسى إنك لغوي مبين"
+translations:
+  en: { text: "And morning found him in the city, fearing, vigilant, when behold! he who had appealed to him the day before cried out to him for help. Moses said unto him: Lo! thou art indeed a mere hothead.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "الغرض صبح کے وقت شہر میں ڈرتے ڈرتے داخل ہوئے کہ دیکھیں (کیا ہوتا ہے) تو ناگہاں وہی شخص جس نے کل اُن سے مدد مانگی تھی پھر اُن کو پکار رہا ہے۔ موسٰی نے اس سے کہا کہ تُو تو صریح گمراہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

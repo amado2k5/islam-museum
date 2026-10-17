@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:92 (سورة الأنعام، الآية 92)."
 text: "وَهَـٰذَا كِتَـٰبٌ أَنزَلْنَـٰهُ مُبَارَكٌ مُّصَدِّقُ ٱلَّذِى بَيْنَ يَدَيْهِ وَلِتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا ۚ وَٱلَّذِينَ يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ يُؤْمِنُونَ بِهِۦ ۖ وَهُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ"
 text_search: "وهذا كتاب أنزلناه مبارك مصدق الذي بين يديه ولتنذر أم القرى ومن حولها ۚ والذين يؤمنون بالآخرة يؤمنون به ۖ وهم على صلاتهم يحافظون"
+translations:
+  en: { text: "And this is a blessed Scripture which We have revealed, confirming that which (was revealed) before it, that thou mayst warn the Mother of Villages and those around her. Those who believe in the Hereafter believe herein, and they are careful of their worship.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (ویسی ہی) یہ کتاب ہے جسے ہم نے نازل کیا ہے بابرکت جو اپنے سے پہلی (کتابوں) کی تصدیق کرتی ہے اور (جو) اس لئے (نازل کی گئی ہے) کہ تم مکے اور اس کے آس پاس کے لوگوں کو آگاہ کردو۔ اور جو لوگ آخرت پر ایمان رکھتے ہیں وہ اس کتاب پر بھی ایمان رکھتے ہیں اور وہ اپنی نمازوں کی پوری خبر رکھتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

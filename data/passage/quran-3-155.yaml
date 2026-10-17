@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:155 (سورة آل عمران، الآية 155)."
 text: "إِنَّ ٱلَّذِينَ تَوَلَّوْا۟ مِنكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ إِنَّمَا ٱسْتَزَلَّهُمُ ٱلشَّيْطَـٰنُ بِبَعْضِ مَا كَسَبُوا۟ ۖ وَلَقَدْ عَفَا ٱللَّهُ عَنْهُمْ ۗ إِنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ"
 text_search: "إن الذين تولوا منكم يوم التقى الجمعان إنما استزلهم الشيطان ببعض ما كسبوا ۖ ولقد عفا الله عنهم ۗ إن الله غفور حليم"
+translations:
+  en: { text: "Lo! those of you who turned back on the day when the two hosts met, Satan alone it was who caused them to backslide, because of some of that which they have earned. Now Allah hath forgiven them. Lo! Allah is Forgiving, Clement.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ تم میں سے (اُحد کے دن) جبکہ (مومنوں اور کافروں کی) دو جماعتیں ایک دوسرے سے گتھ گئیں (جنگ سے) بھاگ گئے تو ان کے بعض افعال کے سبب شیطان نے ان کو پھسلا دیا مگر خدا نے ان کا قصور معاف کر دیا بےشک خدا بخشنے والا اور بردبار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

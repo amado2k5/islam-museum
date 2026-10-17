@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:50 (سورة النمل، الآية 50)."
 text: "وَمَكَرُوا۟ مَكْرًا وَمَكَرْنَا مَكْرًا وَهُمْ لَا يَشْعُرُونَ"
 text_search: "ومكروا مكرا ومكرنا مكرا وهم لا يشعرون"
+translations:
+  en: { text: "So they plotted a plot: and We plotted a plot, while they perceived not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہ ایک چال چلے اور ان کو کچھ خبر نہ ہوئی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:52 (سورة الأعراف، الآية 52)."
 text: "وَلَقَدْ جِئْنَـٰهُم بِكِتَـٰبٍ فَصَّلْنَـٰهُ عَلَىٰ عِلْمٍ هُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ"
 text_search: "ولقد جئناهم بكتاب فصلناه على علم هدى ورحمة لقوم يؤمنون"
+translations:
+  en: { text: "Verily We have brought them a Scripture which We expounded with knowledge, a guidance and a mercy for a people who believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے ان کے پاس کتاب پہنچا دی ہے جس کو علم ودانش کے ساتھ کھول کھول کر بیان کر دیا ہے (اور) وہ مومن لوگوں کے لیے ہدایت اور رحمت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

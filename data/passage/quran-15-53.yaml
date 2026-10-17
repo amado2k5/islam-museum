@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 15:53 (سورة الحجر، الآية 53)."
 text: "قَالُوا۟ لَا تَوْجَلْ إِنَّا نُبَشِّرُكَ بِغُلَـٰمٍ عَلِيمٍ"
 text_search: "قالوا لا توجل إنا نبشرك بغلام عليم"
+translations:
+  en: { text: "They said: Be not afraid! Lo! we bring thee good tidings of a boy possessing wisdom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(مہمانوں نے) کہا کہ ڈریئے نہیں ہم آپ کو ایک دانشمند لڑکے کی خوشخبری دیتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-15 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

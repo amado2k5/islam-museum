@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:52 (سورة الكهف، الآية 52)."
 text: "وَيَوْمَ يَقُولُ نَادُوا۟ شُرَكَآءِىَ ٱلَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَجَعَلْنَا بَيْنَهُم مَّوْبِقًا"
 text_search: "ويوم يقول نادوا شركائي الذين زعمتم فدعوهم فلم يستجيبوا لهم وجعلنا بينهم موبقا"
+translations:
+  en: { text: "And (be mindful of) the Day when He will say: Call those partners of Mine whom ye pretended. Then they will cry unto them, but they will not hear their prayer, and We shall set a gulf of doom between them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس دن خدا فرمائے گا کہ (اب) میرے شریکوں کو جن کی نسبت تم گمان (الوہیت) رکھتے تھے بلاؤ تو وہ ان کے بلائیں گے مگر وہ ان کو کچھ جواب نہ دیں گے۔ اور ہم ان کے بیچ میں ایک ہلاکت کی جگہ بنادیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

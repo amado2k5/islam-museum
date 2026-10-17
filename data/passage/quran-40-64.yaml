@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:64 (سورة غافر، الآية 64)."
 text: "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ قَرَارًا وَٱلسَّمَآءَ بِنَآءً وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَـٰتِ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ فَتَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَـٰلَمِينَ"
 text_search: "الله الذي جعل لكم الأرض قرارا والسماء بناء وصوركم فأحسن صوركم ورزقكم من الطيبات ۚ ذلكم الله ربكم ۖ فتبارك الله رب العالمين"
+translations:
+  en: { text: "Allah it is Who appointed for you the earth for a dwelling-place and the sky for a canopy, and fashioned you and perfected your shapes, and hath provided you with good things. Such is Allah, your Lord. Then blessed be Allah, the Lord of the Worlds!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا ہی تو ہے جس نے زمین کو تمہارے لئے ٹھیرنے کی جگہ اور آسمان کو چھت بنایا اور تمہاری صورتیں بنائیں اور صورتیں بھی خوب بنائیں اور تمہیں پاکیزہ چیزیں کھانے کو دیں۔ یہی خدا تمہارا پروردگار ہے۔ پس خدائے پروردگار عالم بہت ہی بابرکت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

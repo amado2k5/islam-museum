@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:47 (سورة الحج، الآية 47)."
 text: "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَلَن يُخْلِفَ ٱللَّهُ وَعْدَهُۥ ۚ وَإِنَّ يَوْمًا عِندَ رَبِّكَ كَأَلْفِ سَنَةٍ مِّمَّا تَعُدُّونَ"
 text_search: "ويستعجلونك بالعذاب ولن يخلف الله وعده ۚ وإن يوما عند ربك كألف سنة مما تعدون"
+translations:
+  en: { text: "And they will bid thee hasten on the Doom, and Allah faileth not His promise, but lo! a Day with Allah is as a thousand years of what ye reckon.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (یہ لوگ) تم سے عذاب کے لئے جلدی کر رہے ہیں اور خدا اپنا وعدہ ہرگز خلاف نہیں کرے گا۔ اور بےشک تمہارے پروردگار کے نزدیک ایک روز تمہارے حساب کے رو سے ہزار برس کے برابر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

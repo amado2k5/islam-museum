@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 51:34 (سورة الذاريات، الآية 34)."
 text: "مُّسَوَّمَةً عِندَ رَبِّكَ لِلْمُسْرِفِينَ"
 text_search: "مسومة عند ربك للمسرفين"
+translations:
+  en: { text: "Marked by thy Lord for (the destruction of) the wanton.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جن پر حد سے بڑھ جانے والوں کے لئے تمہارے پروردگار کے ہاں سے نشان کردیئے گئے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

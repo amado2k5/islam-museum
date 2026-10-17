@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:20 (سورة فاطر، الآية 20)."
 text: "وَلَا ٱلظُّلُمَـٰتُ وَلَا ٱلنُّورُ"
 text_search: "ولا الظلمات ولا النور"
+translations:
+  en: { text: "Nor is darkness (tantamount to) light;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور نہ اندھیرا اور روشنی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

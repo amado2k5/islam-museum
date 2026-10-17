@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:113 (سورة آل عمران، الآية 113)."
 text: "۞ لَيْسُوا۟ سَوَآءً ۗ مِّنْ أَهْلِ ٱلْكِتَـٰبِ أُمَّةٌ قَآئِمَةٌ يَتْلُونَ ءَايَـٰتِ ٱللَّهِ ءَانَآءَ ٱلَّيْلِ وَهُمْ يَسْجُدُونَ"
 text_search: "۞ ليسوا سواء ۗ من أهل الكتاب أمة قائمة يتلون آيات الله آناء الليل وهم يسجدون"
+translations:
+  en: { text: "They are not all alike. Of the People of the Scripture there is a staunch community who recite the revelations of Allah in the night season, falling prostrate (before Him).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ بھی سب ایک جیسے نہیں ہیں ان اہلِ کتاب میں کچھ لوگ (حکمِ خدا پر) قائم بھی ہیں جو رات کے وقت خدا کی آیتیں پڑھتے اور (اس کے آگے) سجدہ کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

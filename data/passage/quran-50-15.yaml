@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:15 (سورة ق، الآية 15)."
 text: "أَفَعَيِينَا بِٱلْخَلْقِ ٱلْأَوَّلِ ۚ بَلْ هُمْ فِى لَبْسٍ مِّنْ خَلْقٍ جَدِيدٍ"
 text_search: "أفعيينا بالخلق الأول ۚ بل هم في لبس من خلق جديد"
+translations:
+  en: { text: "Were We then worn out by the first creation? Yet they are in doubt about a new creation.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا ہم پہلی بار پیدا کرکے تھک گئے ہیں؟ (نہیں) بلکہ یہ ازسرنو پیدا کرنے میں شک میں (پڑے ہوئے) ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

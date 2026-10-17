@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:112 (سورة المؤمنون، الآية 112)."
 text: "قَـٰلَ كَمْ لَبِثْتُمْ فِى ٱلْأَرْضِ عَدَدَ سِنِينَ"
 text_search: "قال كم لبثتم في الأرض عدد سنين"
+translations:
+  en: { text: "He will say: How long tarried ye in the earth, counting by years?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(خدا) پوچھے گا کہ تم زمین میں کتنے برس رہے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:25 (سورة الشورى، الآية 25)."
 text: "وَهُوَ ٱلَّذِى يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَعْفُوا۟ عَنِ ٱلسَّيِّـَٔاتِ وَيَعْلَمُ مَا تَفْعَلُونَ"
 text_search: "وهو الذي يقبل التوبة عن عباده ويعفو عن السيئات ويعلم ما تفعلون"
+translations:
+  en: { text: "And He it is Who accepteth repentance from His bondmen, and pardoneth the evil deeds, and knoweth what ye do,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہی تو ہے جو اپنے بندوں کی توبہ قبول کرتا اور (ان کے) قصور معاف فرماتا ہے اور جو تم کرتے ہو (سب) جانتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

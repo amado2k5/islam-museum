@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:86 (سورة الأعراف، الآية 86)."
 text: "وَلَا تَقْعُدُوا۟ بِكُلِّ صِرَٰطٍ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ بِهِۦ وَتَبْغُونَهَا عِوَجًا ۚ وَٱذْكُرُوٓا۟ إِذْ كُنتُمْ قَلِيلًا فَكَثَّرَكُمْ ۖ وَٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُفْسِدِينَ"
 text_search: "ولا تقعدوا بكل صراط توعدون وتصدون عن سبيل الله من آمن به وتبغونها عوجا ۚ واذكروا إذ كنتم قليلا فكثركم ۖ وانظروا كيف كان عاقبة المفسدين"
+translations:
+  en: { text: "Lurk not on every road to threaten (wayfarers), and to turn away from Allah's path him who believeth in Him, and to seek to make it crooked. And remember, when ye were but few, how He did multiply you. And see the nature of the consequence for the corrupters!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہر رستے پر مت بیٹھا کرو کہ جو شخص خدا پر ایمان نہیں لاتا ہے اسے تم ڈراتے اور راہ خدا سے روکتے اور اس میں کجی ڈھونڈتے ہو اور (اس وقت کو) یاد کرو جب تم تھوڑے سے تھے تو خدا نے تم کو جماعت کثیر کر دیا اور دیکھ لو کہ خرابی کرنے والوں کا انجام کیسا ہوا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

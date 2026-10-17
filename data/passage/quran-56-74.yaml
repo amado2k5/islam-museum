@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:74 (سورة الواقعة، الآية 74)."
 text: "فَسَبِّحْ بِٱسْمِ رَبِّكَ ٱلْعَظِيمِ"
 text_search: "فسبح باسم ربك العظيم"
+translations:
+  en: { text: "Therefor (O Muhammad), praise the name of thy Lord, the Tremendous.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو تم اپنے پروردگار بزرگ کے نام کی تسبیح کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

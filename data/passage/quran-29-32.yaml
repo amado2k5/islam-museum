@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 29:32 (سورة العنكبوت، الآية 32)."
 text: "قَالَ إِنَّ فِيهَا لُوطًا ۚ قَالُوا۟ نَحْنُ أَعْلَمُ بِمَن فِيهَا ۖ لَنُنَجِّيَنَّهُۥ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ"
 text_search: "قال إن فيها لوطا ۚ قالوا نحن أعلم بمن فيها ۖ لننجينه وأهله إلا امرأته كانت من الغابرين"
+translations:
+  en: { text: "He said: Lo! Lot is there. They said: We are best aware of who is there. We are to deliver him and his household, all save his wife, who is of those who stay behind.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ابراہیم نے کہا کہ اس میں تو لوط بھی ہیں۔ وہ کہنے لگے کہ جو لوگ یہاں (رہتے) ہیں ہمیں سب معلوم ہیں۔ ہم اُن کو اور اُن کے گھر والوں کو بچالیں گے بجز اُن کی بیوی کے وہ پیچھے رہنے والوں میں ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

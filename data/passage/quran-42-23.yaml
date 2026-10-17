@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:23 (سورة الشورى، الآية 23)."
 text: "ذَٰلِكَ ٱلَّذِى يُبَشِّرُ ٱللَّهُ عِبَادَهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا إِلَّا ٱلْمَوَدَّةَ فِى ٱلْقُرْبَىٰ ۗ وَمَن يَقْتَرِفْ حَسَنَةً نَّزِدْ لَهُۥ فِيهَا حُسْنًا ۚ إِنَّ ٱللَّهَ غَفُورٌ شَكُورٌ"
 text_search: "ذلك الذي يبشر الله عباده الذين آمنوا وعملوا الصالحات ۗ قل لا أسألكم عليه أجرا إلا المودة في القربى ۗ ومن يقترف حسنة نزد له فيها حسنا ۚ إن الله غفور شكور"
+translations:
+  en: { text: "This it is which Allah announceth unto His bondmen who believe and do good works. Say (O Muhammad, unto mankind): I ask of you no fee therefor, save lovingkindness among kinsfolk. And whoso scoreth a good deed We add unto its good for him. Lo! Allah is Forgiving, Responsive.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہی وہ (انعام ہے) جس کی خدا اپنے ان بندوں کو جو ایمان لاتے اور عمل نیک کرتے ہیں بشارت دیتا ہے۔ کہہ دو کہ میں اس کا تم سے صلہ نہیں مانگتا مگر (تم کو) قرابت کی محبت (تو چاہیئے) اور جو کوئی نیکی کرے گا ہم اس کے لئے اس میں ثواب بڑھائیں گے۔ بےشک خدا بخشنے والا قدردان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

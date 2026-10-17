@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:3 (سورة غافر، الآية 3)."
 text: "غَافِرِ ٱلذَّنۢبِ وَقَابِلِ ٱلتَّوْبِ شَدِيدِ ٱلْعِقَابِ ذِى ٱلطَّوْلِ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ إِلَيْهِ ٱلْمَصِيرُ"
 text_search: "غافر الذنب وقابل التوب شديد العقاب ذي الطول ۖ لا إله إلا هو ۖ إليه المصير"
+translations:
+  en: { text: "The Forgiver of sin, the Accepter of repentance, the Stern in punishment, the Bountiful. There is no Allah save Him. Unto Him is the journeying.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو گناہ بخشنے والا اور توبہ قبول کرنے والا ہے اور سخت عذاب دینے والا اور صاحب کرم ہے۔ اس کے سوا کوئی معبود نہیں۔ اسی کی طرف پھر کر جانا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

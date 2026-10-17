@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:6 (سورة الأنعام، الآية 6)."
 text: "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ مَّكَّنَّـٰهُمْ فِى ٱلْأَرْضِ مَا لَمْ نُمَكِّن لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًا وَجَعَلْنَا ٱلْأَنْهَـٰرَ تَجْرِى مِن تَحْتِهِمْ فَأَهْلَكْنَـٰهُم بِذُنُوبِهِمْ وَأَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا ءَاخَرِينَ"
 text_search: "ألم يروا كم أهلكنا من قبلهم من قرن مكناهم في الأرض ما لم نمكن لكم وأرسلنا السماء عليهم مدرارا وجعلنا الأنهار تجري من تحتهم فأهلكناهم بذنوبهم وأنشأنا من بعدهم قرنا آخرين"
+translations:
+  en: { text: "See they not how many a generation We destroyed before them, whom We had established in the earth more firmly than We have established you, and We shed on them abundant showers from the sky, and made the rivers flow beneath them. Yet we destroyed them for their sins, and created after them another generation.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا انہوں نے نہیں دیکھا کہ ہم نے ان سے پہلے کتنی امتوں کو ہلاک کر دیا جن کے پاؤں ملک میں ایسے جما دیئے تھے کہ تمہارے پاؤں بھی ایسے نہیں جمائے اور ان پر آسمان سے لگاتار مینہ برسایا اور نہریں بنا دیں جو ان کے (مکانوں کے) نیچے بہہ رہی تھیں پھر ان کو ان کے گناہوں کے سبب ہلاک کر دیا اور ان کے بعد اور امتیں پیدا کر دیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

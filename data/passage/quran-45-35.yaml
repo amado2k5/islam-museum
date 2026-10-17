@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:35 (سورة الجاثية، الآية 35)."
 text: "ذَٰلِكُم بِأَنَّكُمُ ٱتَّخَذْتُمْ ءَايَـٰتِ ٱللَّهِ هُزُوًا وَغَرَّتْكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ لَا يُخْرَجُونَ مِنْهَا وَلَا هُمْ يُسْتَعْتَبُونَ"
 text_search: "ذلكم بأنكم اتخذتم آيات الله هزوا وغرتكم الحياة الدنيا ۚ فاليوم لا يخرجون منها ولا هم يستعتبون"
+translations:
+  en: { text: "This, forasmuch as ye made the revelations of Allah a jest, and the life of the world beguiled you. Therefor this day they come not forth from thence, nor can they make amends.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ اس لئے کہ تم نے خدا کی آیتوں کو مخول بنا رکھا تھا اور دنیا کی زندگی نے تم کو دھوکے میں ڈال رکھا تھا۔ سو آج یہ لوگ نہ دوزخ سے نکالے جائیں گے اور نہ ان کی توبہ قبول کی جائے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

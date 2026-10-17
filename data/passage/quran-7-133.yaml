@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:133 (سورة الأعراف، الآية 133)."
 text: "فَأَرْسَلْنَا عَلَيْهِمُ ٱلطُّوفَانَ وَٱلْجَرَادَ وَٱلْقُمَّلَ وَٱلضَّفَادِعَ وَٱلدَّمَ ءَايَـٰتٍ مُّفَصَّلَـٰتٍ فَٱسْتَكْبَرُوا۟ وَكَانُوا۟ قَوْمًا مُّجْرِمِينَ"
 text_search: "فأرسلنا عليهم الطوفان والجراد والقمل والضفادع والدم آيات مفصلات فاستكبروا وكانوا قوما مجرمين"
+translations:
+  en: { text: "So We sent against them the flood and the locusts and the vermin and the frogs and the blood - a succession of clear signs. But they were arrogant and became a guilty folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ہم نے ان پر طوفان اور ٹڈیاں اور جوئیں اور مینڈک اور خون کتنی کھلی ہوئی نشانیاں بھیجیں۔ مگر وہ تکبر ہی کرتے رہے اور وہ لوگ تھے ہی گنہگار", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

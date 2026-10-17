@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:22 (سورة الأحزاب، الآية 22)."
 text: "وَلَمَّا رَءَا ٱلْمُؤْمِنُونَ ٱلْأَحْزَابَ قَالُوا۟ هَـٰذَا مَا وَعَدَنَا ٱللَّهُ وَرَسُولُهُۥ وَصَدَقَ ٱللَّهُ وَرَسُولُهُۥ ۚ وَمَا زَادَهُمْ إِلَّآ إِيمَـٰنًا وَتَسْلِيمًا"
 text_search: "ولما رأى المؤمنون الأحزاب قالوا هذا ما وعدنا الله ورسوله وصدق الله ورسوله ۚ وما زادهم إلا إيمانا وتسليما"
+translations:
+  en: { text: "And when the true believers saw the clans, they said: This is that which Allah and His messenger promised us. Allah and His messenger are true. It did but confirm them in their faith and resignation.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب مومنوں نے (کافروں کے) لشکر کو دیکھا تو کہنے لگے یہ وہی ہے جس کا خدا اور اس کے پیغمبر نے ہم سے وعدہ کیا تھا اور خدا اور اس کے پیغمبر نے سچ کہا تھا۔ اور اس سے ان کا ایمان اور اطاعت اور زیادہ ہوگئی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:44 (سورة الفرقان، الآية 44)."
 text: "أَمْ تَحْسَبُ أَنَّ أَكْثَرَهُمْ يَسْمَعُونَ أَوْ يَعْقِلُونَ ۚ إِنْ هُمْ إِلَّا كَٱلْأَنْعَـٰمِ ۖ بَلْ هُمْ أَضَلُّ سَبِيلًا"
 text_search: "أم تحسب أن أكثرهم يسمعون أو يعقلون ۚ إن هم إلا كالأنعام ۖ بل هم أضل سبيلا"
+translations:
+  en: { text: "Or deemest thou that most of them hear or understand? They are but as the cattle - nay, but they are farther astray?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یا تم یہ خیال کرتے ہو کہ ان میں اکثر سنتے یا سمجھتے ہیں (نہیں) یہ تو چوپایوں کی طرح ہیں بلکہ ان سے بھی زیادہ گمراہ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

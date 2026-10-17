@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:23 (سورة الزمر، الآية 23)."
 text: "ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ كِتَـٰبًا مُّتَشَـٰبِهًا مَّثَانِىَ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ ۚ ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ"
 text_search: "الله نزل أحسن الحديث كتابا متشابها مثاني تقشعر منه جلود الذين يخشون ربهم ثم تلين جلودهم وقلوبهم إلى ذكر الله ۚ ذلك هدى الله يهدي به من يشاء ۚ ومن يضلل الله فما له من هاد"
+translations:
+  en: { text: "Allah hath (now) revealed the fairest of statements, a Scripture consistent, (wherein promises of reward are) paired (with threats of punishment), whereat doth creep the flesh of those who fear their Lord, so that their flesh and their hearts soften to Allah's reminder. Such is Allah's guidance, wherewith He guideth whom He will. And him whom Allah sendeth astray, for him there is no guide.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے نہایت اچھی باتیں نازل فرمائی ہیں (یعنی) کتاب (جس کی آیتیں باہم) ملتی جلتی (ہیں) اور دہرائی جاتی (ہیں) جو لوگ اپنے پروردگار سے ڈرتے ہیں ان کے بدن کے (اس سے) رونگٹے کھڑے ہوجاتے ہیں۔ پھر ان کے بدن اور دل نرم (ہو کر) خدا کی یاد کی طرف (متوجہ) ہوجاتے ہیں۔ یہی خدا کی ہدایت ہے وہ اس سے جس کو چاہتا ہے ہدایت دیتا ہے۔ اور جس کو خدا گمراہ کرے اس کو کوئی ہدایت دینے والا نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

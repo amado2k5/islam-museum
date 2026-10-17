@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:18 (سورة الزخرف، الآية 18)."
 text: "أَوَمَن يُنَشَّؤُا۟ فِى ٱلْحِلْيَةِ وَهُوَ فِى ٱلْخِصَامِ غَيْرُ مُبِينٍ"
 text_search: "أومن ينشأ في الحلية وهو في الخصام غير مبين"
+translations:
+  en: { text: "(Liken they then to Allah) that which is bred up in outward show, and in dispute cannot make itself plain?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا وہ جو زیور میں پرورش پائے اور جھگڑے کے وقت بات نہ کرسکے (خدا کی) بیٹی ہوسکتی ہے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

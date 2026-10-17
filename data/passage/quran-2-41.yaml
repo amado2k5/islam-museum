@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:41 (سورة البقرة، الآية 41)."
 text: "وَءَامِنُوا۟ بِمَآ أَنزَلْتُ مُصَدِّقًا لِّمَا مَعَكُمْ وَلَا تَكُونُوٓا۟ أَوَّلَ كَافِرٍۭ بِهِۦ ۖ وَلَا تَشْتَرُوا۟ بِـَٔايَـٰتِى ثَمَنًا قَلِيلًا وَإِيَّـٰىَ فَٱتَّقُونِ"
 text_search: "وآمنوا بما أنزلت مصدقا لما معكم ولا تكونوا أول كافر به ۖ ولا تشتروا بآياتي ثمنا قليلا وإياي فاتقون"
+translations:
+  en: { text: "And believe in that which I reveal, confirming that which ye possess already (of the Scripture), and be not first to disbelieve therein, and part not with My revelations for a trifling price, and keep your duty unto Me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو کتاب میں نے (اپنے رسول محمدﷺ پر) نازل کی ہے جو تمہاری کتاب تورات کو سچا کہتی ہے، اس پر ایمان لاؤ اور اس سے منکرِ اول نہ بنو، اور میری آیتوں میں (تحریف کر کے) ان کے بدلے تھوڑی سی قیمت (یعنی دنیاوی منعفت) نہ حاصل کرو، اور مجھی سے خوف رکھو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

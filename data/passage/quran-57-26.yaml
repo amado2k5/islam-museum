@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:26 (سورة الحديد، الآية 26)."
 text: "وَلَقَدْ أَرْسَلْنَا نُوحًا وَإِبْرَٰهِيمَ وَجَعَلْنَا فِى ذُرِّيَّتِهِمَا ٱلنُّبُوَّةَ وَٱلْكِتَـٰبَ ۖ فَمِنْهُم مُّهْتَدٍ ۖ وَكَثِيرٌ مِّنْهُمْ فَـٰسِقُونَ"
 text_search: "ولقد أرسلنا نوحا وإبراهيم وجعلنا في ذريتهما النبوة والكتاب ۖ فمنهم مهتد ۖ وكثير منهم فاسقون"
+translations:
+  en: { text: "And We verily sent Noah and Abraham and placed the prophethood and the scripture among their seed, and among them there is he who goeth right, but many of them are evil-livers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے نوح اور ابراہیم کو (پیغمبر بنا کر) بھیجا اور ان کی اولاد میں پیغمبری اور کتاب (کے سلسلے) کو (وقتاً فوقتاً جاری) رکھا تو بعض تو ان میں سے ہدایت پر ہیں۔ اور اکثر ان میں سے خارج از اطاعت ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

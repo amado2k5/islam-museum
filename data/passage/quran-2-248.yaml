@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:248 (سورة البقرة، الآية 248)."
 text: "وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ ءَايَةَ مُلْكِهِۦٓ أَن يَأْتِيَكُمُ ٱلتَّابُوتُ فِيهِ سَكِينَةٌ مِّن رَّبِّكُمْ وَبَقِيَّةٌ مِّمَّا تَرَكَ ءَالُ مُوسَىٰ وَءَالُ هَـٰرُونَ تَحْمِلُهُ ٱلْمَلَـٰٓئِكَةُ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ"
 text_search: "وقال لهم نبيهم إن آية ملكه أن يأتيكم التابوت فيه سكينة من ربكم وبقية مما ترك آل موسى وآل هارون تحمله الملائكة ۚ إن في ذلك لآية لكم إن كنتم مؤمنين"
+translations:
+  en: { text: "And their Prophet said unto them: Lo! the token of his kingdom is that there shall come unto you the ark wherein is peace of reassurance from your Lord, and a remnant of that which the house of Moses and the house of Aaron left behind, the angels bearing it. Lo! herein shall be a token for you if (in truth) ye are believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور پیغمبر نے ان سے کہا کہ ان کی بادشاہی کی نشانی یہ ہے کہ تمہارے پاس ایک صندوق آئے گا جس کو فرشتے اٹھائے ہوئے ہوں گے اس میں تمہارے پروردگار کی طرف سے تسلی (بخشنے والی چیز) ہوگی اور کچھ اور چیزیں بھی ہوں گی جو موسیٰ اور ہارون چھوڑ گئے تھے۔ اگر تم ایمان رکھتے ہو تو یہ تمہارے لئے ایک بڑی نشانی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

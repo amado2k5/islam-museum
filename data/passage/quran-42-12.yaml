@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:12 (سورة الشورى، الآية 12)."
 text: "لَهُۥ مَقَالِيدُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍ عَلِيمٌ"
 text_search: "له مقاليد السماوات والأرض ۖ يبسط الرزق لمن يشاء ويقدر ۚ إنه بكل شيء عليم"
+translations:
+  en: { text: "His are the keys of the heavens and the earth. He enlargeth providence for whom He will and straiteneth (it for whom He will). Lo! He is Knower of all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "آسمانوں اور زمین کی کنجیاں اسی کے ہاتھ میں ہیں۔ وہ جس کے لئے چاہتا ہے رزق فراخ کردیتا ہے (اور جس کے لئے چاہتا ہے) تنگ کردیتا ہے۔ بےشک وہ ہر چیز سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

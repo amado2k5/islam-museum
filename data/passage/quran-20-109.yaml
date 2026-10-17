@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:109 (سورة طه، الآية 109)."
 text: "يَوْمَئِذٍ لَّا تَنفَعُ ٱلشَّفَـٰعَةُ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَـٰنُ وَرَضِىَ لَهُۥ قَوْلًا"
 text_search: "يومئذ لا تنفع الشفاعة إلا من أذن له الرحمن ورضي له قولا"
+translations:
+  en: { text: "On that day no intercession availeth save (that of) him unto whom the Beneficent hath given leave and whose word He accepteth.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس روز (کسی کی) سفارش کچھ فائدہ نہ دے گی مگر اس شخص کی جسے خدا اجازت دے اور اس کی بات کو پسند فرمائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

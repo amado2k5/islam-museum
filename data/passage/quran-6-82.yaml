@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:82 (سورة الأنعام، الآية 82)."
 text: "ٱلَّذِينَ ءَامَنُوا۟ وَلَمْ يَلْبِسُوٓا۟ إِيمَـٰنَهُم بِظُلْمٍ أُو۟لَـٰٓئِكَ لَهُمُ ٱلْأَمْنُ وَهُم مُّهْتَدُونَ"
 text_search: "الذين آمنوا ولم يلبسوا إيمانهم بظلم أولئك لهم الأمن وهم مهتدون"
+translations:
+  en: { text: "Those who believe and obscure not their belief by wrongdoing, theirs is safety; and they are rightly guided.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ ایمان لائے اور اپنے ایمان کو (شرک کے) ظلم سے مخلوط نہیں کیا ان کے امن (اور جمعیت خاطر) ہے اور وہی ہدایت پانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

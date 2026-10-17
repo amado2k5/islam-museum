@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:5 (سورة الروم، الآية 5)."
 text: "بِنَصْرِ ٱللَّهِ ۚ يَنصُرُ مَن يَشَآءُ ۖ وَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ"
 text_search: "بنصر الله ۚ ينصر من يشاء ۖ وهو العزيز الرحيم"
+translations:
+  en: { text: "In Allah's help to victory. He helpeth to victory whom He will. He is the Mighty, the Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یعنی) خدا کی مدد سے۔ وہ جسے چاہتا ہے مدد دیتا ہے اور وہ غالب (اور) مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

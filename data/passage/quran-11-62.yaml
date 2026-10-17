@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:62 (سورة هود، الآية 62)."
 text: "قَالُوا۟ يَـٰصَـٰلِحُ قَدْ كُنتَ فِينَا مَرْجُوًّا قَبْلَ هَـٰذَآ ۖ أَتَنْهَىٰنَآ أَن نَّعْبُدَ مَا يَعْبُدُ ءَابَآؤُنَا وَإِنَّنَا لَفِى شَكٍّ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍ"
 text_search: "قالوا يا صالح قد كنت فينا مرجوا قبل هذا ۖ أتنهانا أن نعبد ما يعبد آباؤنا وإننا لفي شك مما تدعونا إليه مريب"
+translations:
+  en: { text: "They said: O Salih! Thou hast been among us hitherto as that wherein our hope was placed. Dost thou ask us not to worship what our fathers worshipped? Lo! we verily are in grave doubt concerning that to which thou callest us.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا کہ صالح اس سے پہلے ہم تم سے (کئی طرح کی) امیدیں رکھتے تھے (اب وہ منقطع ہوگئیں) کیا تم ہم کو ان چیزوں کے پوجنے سے منع کرتے ہو جن کو ہمارے بزرگ پوجتے آئے ہیں؟ اور جس بات کی طرف تم ہمیں بلاتے ہو، اس میں ہمیں قوی شبہ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

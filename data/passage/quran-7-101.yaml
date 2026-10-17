@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:101 (سورة الأعراف، الآية 101)."
 text: "تِلْكَ ٱلْقُرَىٰ نَقُصُّ عَلَيْكَ مِنْ أَنۢبَآئِهَا ۚ وَلَقَدْ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ فَمَا كَانُوا۟ لِيُؤْمِنُوا۟ بِمَا كَذَّبُوا۟ مِن قَبْلُ ۚ كَذَٰلِكَ يَطْبَعُ ٱللَّهُ عَلَىٰ قُلُوبِ ٱلْكَـٰفِرِينَ"
 text_search: "تلك القرى نقص عليك من أنبائها ۚ ولقد جاءتهم رسلهم بالبينات فما كانوا ليؤمنوا بما كذبوا من قبل ۚ كذلك يطبع الله على قلوب الكافرين"
+translations:
+  en: { text: "Such were the townships. We relate some tidings of them unto thee (Muhammad). Their messengers verily came unto them with clear proofs (of Allah's Sovereignty), but they could not believe because they had before denied. Thus doth Allah print upon the hearts of disbelievers (that they hear not).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ بستیاں ہیں جن کے کچھ حالات ہم تم کو سناتے ہیں۔ اور ان کے پاس ان کے پیغمبر نشانیاں لے کر آئے۔ مگر وہ ایسے نہیں تھے کہ جس چیز کو پہلے جھٹلا چکے ہوں اسے مان لیں اسی طرح خدا کافروں کے دلوں پر مہر لگا دیتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

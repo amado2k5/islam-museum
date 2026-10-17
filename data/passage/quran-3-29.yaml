@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:29 (سورة آل عمران، الآية 29)."
 text: "قُلْ إِن تُخْفُوا۟ مَا فِى صُدُورِكُمْ أَوْ تُبْدُوهُ يَعْلَمْهُ ٱللَّهُ ۗ وَيَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ"
 text_search: "قل إن تخفوا ما في صدوركم أو تبدوه يعلمه الله ۗ ويعلم ما في السماوات وما في الأرض ۗ والله على كل شيء قدير"
+translations:
+  en: { text: "Say, (O Muhammad): Whether ye hide that which is in your breasts or reveal it, Allah knoweth it. He knoweth that which is in the heavens and that which is in the earth, and Allah is Able to do all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے پیغمبر لوگوں سے) کہہ دو کہ کوئی بات تم اپنے دلوں میں مخفی رکھو یا اسے ظاہر کرو خدا اس کو جانتا ہے اور جو کچھ آسمانوں میں اور جو کچھ زمین میں ہے اس کو سب کی خبر ہے اور وہ ہر چیز پر قادر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

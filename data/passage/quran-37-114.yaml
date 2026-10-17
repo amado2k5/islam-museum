@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:114 (سورة الصافات، الآية 114)."
 text: "وَلَقَدْ مَنَنَّا عَلَىٰ مُوسَىٰ وَهَـٰرُونَ"
 text_search: "ولقد مننا على موسى وهارون"
+translations:
+  en: { text: "And We verily gave grace unto Moses and Aaron,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے موسیٰ اور ہارون پر بھی احسان کئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

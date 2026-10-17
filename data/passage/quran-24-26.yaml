@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:26 (سورة النور، الآية 26)."
 text: "ٱلْخَبِيثَـٰتُ لِلْخَبِيثِينَ وَٱلْخَبِيثُونَ لِلْخَبِيثَـٰتِ ۖ وَٱلطَّيِّبَـٰتُ لِلطَّيِّبِينَ وَٱلطَّيِّبُونَ لِلطَّيِّبَـٰتِ ۚ أُو۟لَـٰٓئِكَ مُبَرَّءُونَ مِمَّا يَقُولُونَ ۖ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ"
 text_search: "الخبيثات للخبيثين والخبيثون للخبيثات ۖ والطيبات للطيبين والطيبون للطيبات ۚ أولئك مبرءون مما يقولون ۖ لهم مغفرة ورزق كريم"
+translations:
+  en: { text: "Vile women are for vile men, and vile men for vile women. Good women are for good men, and good men for good women; such are innocent of that which people say: For them is pardon and a bountiful provision.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ناپاک عورتیں ناپاک مردوں کے لئے اور ناپاک مرد ناپاک عورتوں کے لئے۔ اور پاک عورتیں پاک مردوں کے لئے۔ اور پاک مرد پاک عورتوں کے لئے۔ یہ (پاک لوگ) ان (بدگویوں) کی باتوں سے بری ہیں (اور) ان کے لئے بخشش اور نیک روزی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

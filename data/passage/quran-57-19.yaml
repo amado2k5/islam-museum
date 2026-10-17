@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:19 (سورة الحديد، الآية 19)."
 text: "وَٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦٓ أُو۟لَـٰٓئِكَ هُمُ ٱلصِّدِّيقُونَ ۖ وَٱلشُّهَدَآءُ عِندَ رَبِّهِمْ لَهُمْ أَجْرُهُمْ وَنُورُهُمْ ۖ وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَحِيمِ"
 text_search: "والذين آمنوا بالله ورسله أولئك هم الصديقون ۖ والشهداء عند ربهم لهم أجرهم ونورهم ۖ والذين كفروا وكذبوا بآياتنا أولئك أصحاب الجحيم"
+translations:
+  en: { text: "And those who believe in Allah and His messengers, they are the loyal, and the martyrs are with their Lord; they have their reward and their light; while as for those who disbelieve and deny Our revelations, they are owners of hell-fire.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ خدا اور اس کے پیغمبروں پر ایمان لائے یہی اپنے پروردگار کے نزدیک صدیق اور شہید ہیں۔ ان کے لئے ان (کے اعمال) کا صلہ ہوگا۔ اور ان (کے ایمان) کی روشنی۔ اور جن لوگوں نے کفر کیا اور ہماری آیتوں کو جھٹلایا وہی اہل دوزخ ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

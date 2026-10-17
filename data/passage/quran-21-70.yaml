@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:70 (سورة الأنبياء، الآية 70)."
 text: "وَأَرَادُوا۟ بِهِۦ كَيْدًا فَجَعَلْنَـٰهُمُ ٱلْأَخْسَرِينَ"
 text_search: "وأرادوا به كيدا فجعلناهم الأخسرين"
+translations:
+  en: { text: "And they wished to set a snare for him, but We made them the greater losers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان لوگوں نے برا تو ان کا چاہا تھا مگر ہم نے ان ہی کو نقصان میں ڈال دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

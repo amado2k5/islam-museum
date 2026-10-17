@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:131 (سورة الأنعام، الآية 131)."
 text: "ذَٰلِكَ أَن لَّمْ يَكُن رَّبُّكَ مُهْلِكَ ٱلْقُرَىٰ بِظُلْمٍ وَأَهْلُهَا غَـٰفِلُونَ"
 text_search: "ذلك أن لم يكن ربك مهلك القرى بظلم وأهلها غافلون"
+translations:
+  en: { text: "This is because thy Lord destroyeth not the townships arbitrarily while their people are unconscious (of the wrong they do).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ!) یہ (جو پیغمبر آتے رہے اور کتابیں نازل ہوتی رہیں تو) اس لیے کہ تمہارا پروردگار ایسا نہیں کہ بستیوں کو ظلم سے ہلاک کر دے اور وہاں کے رہنے والوں کو (کچھ بھی) خبر نہ ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

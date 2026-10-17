@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 101:4 (سورة القارعة، الآية 4)."
 text: "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ"
 text_search: "يوم يكون الناس كالفراش المبثوث"
+translations:
+  en: { text: "A day wherein mankind will be as thickly-scattered moths", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(وہ قیامت ہے) جس دن لوگ ایسے ہوں گے جیسے بکھرے ہوئے پتنگے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-101 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

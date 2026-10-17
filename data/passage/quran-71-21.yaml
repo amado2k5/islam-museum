@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 71:21 (سورة نوح، الآية 21)."
 text: "قَالَ نُوحٌ رَّبِّ إِنَّهُمْ عَصَوْنِى وَٱتَّبَعُوا۟ مَن لَّمْ يَزِدْهُ مَالُهُۥ وَوَلَدُهُۥٓ إِلَّا خَسَارًا"
 text_search: "قال نوح رب إنهم عصوني واتبعوا من لم يزده ماله وولده إلا خسارا"
+translations:
+  en: { text: "Noah said: My Lord! Lo! they have disobeyed me and followed one whose wealth and children increase him in naught save ruin;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اس کے بعد) نوح نے عرض کی کہ میرے پروردگار! یہ لوگ میرے کہنے پر نہیں چلے اور ایسوں کے تابع ہوئے جن کو ان کے مال اور اولاد نے نقصان کے سوا کچھ فائدہ نہیں دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-71 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

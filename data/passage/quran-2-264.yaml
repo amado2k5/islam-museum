@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:264 (سورة البقرة، الآية 264)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُبْطِلُوا۟ صَدَقَـٰتِكُم بِٱلْمَنِّ وَٱلْأَذَىٰ كَٱلَّذِى يُنفِقُ مَالَهُۥ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۖ فَمَثَلُهُۥ كَمَثَلِ صَفْوَانٍ عَلَيْهِ تُرَابٌ فَأَصَابَهُۥ وَابِلٌ فَتَرَكَهُۥ صَلْدًا ۖ لَّا يَقْدِرُونَ عَلَىٰ شَىْءٍ مِّمَّا كَسَبُوا۟ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَـٰفِرِينَ"
 text_search: "يا أيها الذين آمنوا لا تبطلوا صدقاتكم بالمن والأذى كالذي ينفق ماله رئاء الناس ولا يؤمن بالله واليوم الآخر ۖ فمثله كمثل صفوان عليه تراب فأصابه وابل فتركه صلدا ۖ لا يقدرون على شيء مما كسبوا ۗ والله لا يهدي القوم الكافرين"
+translations:
+  en: { text: "O ye who believe! Render not vain your almsgiving by reproach and injury, like him who spendeth his wealth only to be seen of men and believeth not in Allah and the Last Day. His likeness is as the likeness of a rock whereon is dust of earth; a rainstorm smiteth it, leaving it smooth and bare. They have no control of aught of that which they have gained. Allah guideth not the disbelieving folk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! اپنے صدقات (وخیرات) احسان رکھنے اور ایذا دینے سے اس شخص کی طرح برباد نہ کردینا۔ جو لوگوں کو دکھاوے کے لئے مال خرچ کرتا ہے اور خدا اور روز آخرت پر ایمان نہیں رکھتا۔ تو اس (کے مال) کی مثال اس چٹان کی سی ہے جس پر تھوڑی سی مٹی پڑی ہو اور اس پر زور کا مینہ برس کر اسے صاف کر ڈالے۔ (اسی طرح) یہ (ریاکار) لوگ اپنے اعمال کا کچھ بھی صلہ حاصل نہیں کرسکیں گے۔ اور خدا ایسے ناشکروں کو ہدایت نہیں دیا کرتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

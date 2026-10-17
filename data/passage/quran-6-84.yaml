@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:84 (سورة الأنعام، الآية 84)."
 text: "وَوَهَبْنَا لَهُۥٓ إِسْحَـٰقَ وَيَعْقُوبَ ۚ كُلًّا هَدَيْنَا ۚ وَنُوحًا هَدَيْنَا مِن قَبْلُ ۖ وَمِن ذُرِّيَّتِهِۦ دَاوُۥدَ وَسُلَيْمَـٰنَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَىٰ وَهَـٰرُونَ ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ"
 text_search: "ووهبنا له إسحاق ويعقوب ۚ كلا هدينا ۚ ونوحا هدينا من قبل ۖ ومن ذريته داوود وسليمان وأيوب ويوسف وموسى وهارون ۚ وكذلك نجزي المحسنين"
+translations:
+  en: { text: "And We bestowed upon him Isaac and Jacob; each of them We guided; and Noah did We guide aforetime; and of his seed (We guided) David and Solomon and Job and Joseph and Moses and Aaron. Thus do We reward the good.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے ان کو اسحاق اور یعقوب بخشے۔ (اور) سب کو ہدایت دی۔ اور پہلے نوح کو بھی ہدایت دی تھی اور ان کی اولاد میں سے داؤد اور سلیمان اور ایوب اور یوسف اور موسیٰ اور ہارون کو بھی۔ اور ہم نیک لوگوں کو ایسا ہی بدلا دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

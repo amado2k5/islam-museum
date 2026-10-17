@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:125 (سورة التوبة، الآية 125)."
 text: "وَأَمَّا ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ فَزَادَتْهُمْ رِجْسًا إِلَىٰ رِجْسِهِمْ وَمَاتُوا۟ وَهُمْ كَـٰفِرُونَ"
 text_search: "وأما الذين في قلوبهم مرض فزادتهم رجسا إلى رجسهم وماتوا وهم كافرون"
+translations:
+  en: { text: "But as for those in whose hearts is disease, it only addeth wickedness to their wickedness, and they die while they are disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جن کے دلوں میں مرض ہے، ان کے حق میں خبث پر خبث زیادہ کیا اور وہ مرے بھی تو کافر کے کافر", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

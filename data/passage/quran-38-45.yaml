@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:45 (سورة ص، الآية 45)."
 text: "وَٱذْكُرْ عِبَـٰدَنَآ إِبْرَٰهِيمَ وَإِسْحَـٰقَ وَيَعْقُوبَ أُو۟لِى ٱلْأَيْدِى وَٱلْأَبْصَـٰرِ"
 text_search: "واذكر عبادنا إبراهيم وإسحاق ويعقوب أولي الأيدي والأبصار"
+translations:
+  en: { text: "And make mention of Our bondmen, Abraham, Isaac and Jacob, men of parts and vision.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہمارے بندوں ابراہیم اور اسحاق اور یعقوب کو یاد کرو جو ہاتھوں والے اور آنکھوں والے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

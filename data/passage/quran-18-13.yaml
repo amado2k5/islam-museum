@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:13 (سورة الكهف، الآية 13)."
 text: "نَّحْنُ نَقُصُّ عَلَيْكَ نَبَأَهُم بِٱلْحَقِّ ۚ إِنَّهُمْ فِتْيَةٌ ءَامَنُوا۟ بِرَبِّهِمْ وَزِدْنَـٰهُمْ هُدًى"
 text_search: "نحن نقص عليك نبأهم بالحق ۚ إنهم فتية آمنوا بربهم وزدناهم هدى"
+translations:
+  en: { text: "We narrate unto thee their story with truth. Lo! they were young men who believed in their Lord, and We increased them in guidance.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم اُن کے حالات تم سے صحیح صحیح بیان کرتے ہیں۔ وہ کئی جوان تھے جو اپنے پروردگار پر ایمان لائے تھے اور ہم نے ان کو اور زیادہ ہدایت دی تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

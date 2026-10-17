@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:2 (سورة مريم، الآية 2)."
 text: "ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُۥ زَكَرِيَّآ"
 text_search: "ذكر رحمت ربك عبده زكريا"
+translations:
+  en: { text: "A mention of the mercy of thy Lord unto His servant Zachariah.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ) تمہارے پروردگار کی مہربانی کا بیان (ہے جو اس نے) اپنے بندے زکریا پر (کی تھی)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

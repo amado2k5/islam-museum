@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 83:35 (سورة المطففين، الآية 35)."
 text: "عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ"
 text_search: "على الأرائك ينظرون"
+translations:
+  en: { text: "On high couches, gazing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور) تختوں پر (بیٹھے ہوئے ان کا حال) دیکھ رہے ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-83 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

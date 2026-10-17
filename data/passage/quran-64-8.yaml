@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 64:8 (سورة التغابن، الآية 8)."
 text: "فَـَٔامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلنُّورِ ٱلَّذِىٓ أَنزَلْنَا ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ"
 text_search: "فآمنوا بالله ورسوله والنور الذي أنزلنا ۚ والله بما تعملون خبير"
+translations:
+  en: { text: "So believe in Allah and His messenger and the light which We have revealed. And Allah is Informed of what ye do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو خدا پر اور اس کے رسول پر اور نور (قرآن) پر جو ہم نے نازل فرمایا ہے ایمان لاؤ۔ اور خدا تمہارے سب اعمال سے خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-64 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

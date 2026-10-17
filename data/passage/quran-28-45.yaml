@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:45 (سورة القصص، الآية 45)."
 text: "وَلَـٰكِنَّآ أَنشَأْنَا قُرُونًا فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِنَا وَلَـٰكِنَّا كُنَّا مُرْسِلِينَ"
 text_search: "ولكنا أنشأنا قرونا فتطاول عليهم العمر ۚ وما كنت ثاويا في أهل مدين تتلو عليهم آياتنا ولكنا كنا مرسلين"
+translations:
+  en: { text: "But We brought forth generations, and their lives dragged on for them. And thou wast not a dweller in Midian, reciting unto them Our revelations, but We kept sending (messengers to men).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لیکن ہم نے (موسٰی کے بعد) کئی اُمتوں کو پیدا کیا پھر ان پر مدت طویل گذر گئی اور نہ تم مدین والوں میں رہنے والے تھے کہ ان کو ہماری آیتیں پڑھ پڑھ کر سناتے تھے۔ ہاں ہم ہی تو پیغمبر بھیجنے والے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

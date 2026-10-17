@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 51:58 (سورة الذاريات، الآية 58)."
 text: "إِنَّ ٱللَّهَ هُوَ ٱلرَّزَّاقُ ذُو ٱلْقُوَّةِ ٱلْمَتِينُ"
 text_search: "إن الله هو الرزاق ذو القوة المتين"
+translations:
+  en: { text: "Lo! Allah! He it is that giveth livelihood, the Lord of unbreakable might.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا ہی تو رزق دینے والا زور آور اور مضبوط ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

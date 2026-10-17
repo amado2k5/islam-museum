@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:3 (سورة مريم، الآية 3)."
 text: "إِذْ نَادَىٰ رَبَّهُۥ نِدَآءً خَفِيًّا"
 text_search: "إذ نادى ربه نداء خفيا"
+translations:
+  en: { text: "When he cried unto his Lord a cry in secret,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب انہوں نے اپنے پروردگار کو دبی آواز سے پکارا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

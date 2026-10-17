@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:69 (سورة الأنبياء، الآية 69)."
 text: "قُلْنَا يَـٰنَارُ كُونِى بَرْدًا وَسَلَـٰمًا عَلَىٰٓ إِبْرَٰهِيمَ"
 text_search: "قلنا يا نار كوني بردا وسلاما على إبراهيم"
+translations:
+  en: { text: "We said: O fire, be coolness and peace for Abraham,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ہم نے حکم دیا اے آگ سرد ہوجا اور ابراہیم پر (موجب) سلامتی (بن جا)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

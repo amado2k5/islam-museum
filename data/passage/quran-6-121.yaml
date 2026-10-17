@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:121 (سورة الأنعام، الآية 121)."
 text: "وَلَا تَأْكُلُوا۟ مِمَّا لَمْ يُذْكَرِ ٱسْمُ ٱللَّهِ عَلَيْهِ وَإِنَّهُۥ لَفِسْقٌ ۗ وَإِنَّ ٱلشَّيَـٰطِينَ لَيُوحُونَ إِلَىٰٓ أَوْلِيَآئِهِمْ لِيُجَـٰدِلُوكُمْ ۖ وَإِنْ أَطَعْتُمُوهُمْ إِنَّكُمْ لَمُشْرِكُونَ"
 text_search: "ولا تأكلوا مما لم يذكر اسم الله عليه وإنه لفسق ۗ وإن الشياطين ليوحون إلى أوليائهم ليجادلوكم ۖ وإن أطعتموهم إنكم لمشركون"
+translations:
+  en: { text: "And eat not of that whereon Allah's name hath not been mentioned, for lo! it is abomination. Lo! the devils do inspire their minions to dispute with you. But if ye obey them, ye will be in truth idolaters.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس چیز پر خدا کا نام نہ لیا جائے اسے مت کھاؤ کہ اس کا کھانا گناہ ہے اور شیطان (لوگ) اپنے رفیقوں کے دلوں میں یہ بات ڈالتے ہیں کہ تم سے جھگڑا کریں اور اگر تم لوگ ان کے کہے پر چلے تو بےشک تم بھی مشرک ہوئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

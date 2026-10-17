@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:53 (سورة النمل، الآية 53)."
 text: "وَأَنجَيْنَا ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ"
 text_search: "وأنجينا الذين آمنوا وكانوا يتقون"
+translations:
+  en: { text: "And we saved those who believed and used to ward off (evil).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ ایمان لائے اور ڈرتے تھے ان کو ہم نے نجات دی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

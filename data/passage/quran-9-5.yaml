@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:5 (سورة التوبة، الآية 5)."
 text: "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ"
 text_search: "فإذا انسلخ الأشهر الحرم فاقتلوا المشركين حيث وجدتموهم وخذوهم واحصروهم واقعدوا لهم كل مرصد ۚ فإن تابوا وأقاموا الصلاة وآتوا الزكاة فخلوا سبيلهم ۚ إن الله غفور رحيم"
+translations:
+  en: { text: "Then, when the sacred months have passed, slay the idolaters wherever ye find them, and take them (captive), and besiege them, and prepare for them each ambush. But if they repent and establish worship and pay the poor-due, then leave their way free. Lo! Allah is Forgiving, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب عزت کے مہینے گزر جائیں تو مشرکوں کو جہاں پاؤ قتل کر دو اور پکڑلو اور گھیرلو اور ہر گھات کی جگہ ان کی تاک میں بیٹھے رہو۔ پھر اگر وہ توبہ کرلیں اور نماز پڑھنے اور زکوٰة دینے لگیں تو ان کی راہ چھوڑ دو۔ بےشک خدا بخشنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

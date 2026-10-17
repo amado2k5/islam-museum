@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:240 (سورة البقرة، الآية 240)."
 text: "وَٱلَّذِينَ يُتَوَفَّوْنَ مِنكُمْ وَيَذَرُونَ أَزْوَٰجًا وَصِيَّةً لِّأَزْوَٰجِهِم مَّتَـٰعًا إِلَى ٱلْحَوْلِ غَيْرَ إِخْرَاجٍ ۚ فَإِنْ خَرَجْنَ فَلَا جُنَاحَ عَلَيْكُمْ فِى مَا فَعَلْنَ فِىٓ أَنفُسِهِنَّ مِن مَّعْرُوفٍ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ"
 text_search: "والذين يتوفون منكم ويذرون أزواجا وصية لأزواجهم متاعا إلى الحول غير إخراج ۚ فإن خرجن فلا جناح عليكم في ما فعلن في أنفسهن من معروف ۗ والله عزيز حكيم"
+translations:
+  en: { text: "(In the case of) those of you who are about to die and leave behind them wives, they should bequeath unto their wives a provision for the year without turning them out, but if they go out (of their own accord) there is no sin for you in that which they do of themselves within their rights. Allah is Mighty, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ تم میں سے مرجائیں اور عورتیں چھوڑ جائیں وہ اپنی عورتوں کے حق میں وصیت کرجائیں کہ ان کو ایک سال تک خرچ دیا جائے اور گھر سے نہ نکالی جائیں۔ ہاں اگر وہ خود گھر سے نکل جائیں اور اپنے حق میں پسندیدہ کام (یعنی نکاح) کرلیں تو تم پر کچھ گناہ نہیں۔ اور خدا زبردست حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

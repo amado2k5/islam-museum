@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:27 (سورة النحل، الآية 27)."
 text: "ثُمَّ يَوْمَ ٱلْقِيَـٰمَةِ يُخْزِيهِمْ وَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تُشَـٰٓقُّونَ فِيهِمْ ۚ قَالَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ إِنَّ ٱلْخِزْىَ ٱلْيَوْمَ وَٱلسُّوٓءَ عَلَى ٱلْكَـٰفِرِينَ"
 text_search: "ثم يوم القيامة يخزيهم ويقول أين شركائي الذين كنتم تشاقون فيهم ۚ قال الذين أوتوا العلم إن الخزي اليوم والسوء على الكافرين"
+translations:
+  en: { text: "Then on the Day of Resurrection He will disgrace them and will say: Where are My partners, for whose sake ye opposed (My guidance)? Those who have been given knowledge will say: Disgrace this day and evil are upon the disbelievers,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر وہ ان کو قیامت کے دن بھی ذلیل کرے گا اور کہے گا کہ میرے وہ شریک کہاں ہیں جن کے بارے میں تم جھگڑا کرتے تھے۔ جن لوگوں کو علم دیا گیا تھا وہ کہیں گے کہ آج کافروں کی رسوائی اور برائی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

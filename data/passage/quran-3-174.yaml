@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:174 (سورة آل عمران، الآية 174)."
 text: "فَٱنقَلَبُوا۟ بِنِعْمَةٍ مِّنَ ٱللَّهِ وَفَضْلٍ لَّمْ يَمْسَسْهُمْ سُوٓءٌ وَٱتَّبَعُوا۟ رِضْوَٰنَ ٱللَّهِ ۗ وَٱللَّهُ ذُو فَضْلٍ عَظِيمٍ"
 text_search: "فانقلبوا بنعمة من الله وفضل لم يمسسهم سوء واتبعوا رضوان الله ۗ والله ذو فضل عظيم"
+translations:
+  en: { text: "So they returned with grace and favour from Allah, and no harm touched them. They followed the good pleasure of Allah, and Allah is of Infinite Bounty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر وہ خدا کی نعمتوں اور اس کے فضل کے ساتھ (خوش وخرم) واپس آئے ان کو کسی طرح کا ضرر نہ پہنچا۔ اور وہ خدا کی خوشنودی کے تابع رہے۔ اور خدا بڑے فضل کا مالک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

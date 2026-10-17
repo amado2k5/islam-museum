@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:17 (سورة ص، الآية 17)."
 text: "ٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱذْكُرْ عَبْدَنَا دَاوُۥدَ ذَا ٱلْأَيْدِ ۖ إِنَّهُۥٓ أَوَّابٌ"
 text_search: "اصبر على ما يقولون واذكر عبدنا داوود ذا الأيد ۖ إنه أواب"
+translations:
+  en: { text: "Bear with what they say, and remember Our bondman David, lord of might, Lo! he was ever turning in repentance (toward Allah).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے پیغمبر) یہ جو کچھ کہتے ہیں اس پر صبر کرو۔ اور ہمارے بندے داؤد کو یاد کرو جو صاحب قوت تھے (اور) بےشک وہ رجوع کرنے والے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

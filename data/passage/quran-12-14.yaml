@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:14 (سورة يوسف، الآية 14)."
 text: "قَالُوا۟ لَئِنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّآ إِذًا لَّخَـٰسِرُونَ"
 text_search: "قالوا لئن أكله الذئب ونحن عصبة إنا إذا لخاسرون"
+translations:
+  en: { text: "They said: If the wolf should devour him when we are (so strong) a band, then surely we should have already perished.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ کہنے لگے کہ اگر ہماری موجودگی میں کہ ہم ایک طاقتور جماعت ہیں، اسے بھیڑیا کھا گیا تو ہم بڑے نقصان میں پڑگئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

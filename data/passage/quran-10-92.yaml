@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:92 (سورة يونس، الآية 92)."
 text: "فَٱلْيَوْمَ نُنَجِّيكَ بِبَدَنِكَ لِتَكُونَ لِمَنْ خَلْفَكَ ءَايَةً ۚ وَإِنَّ كَثِيرًا مِّنَ ٱلنَّاسِ عَنْ ءَايَـٰتِنَا لَغَـٰفِلُونَ"
 text_search: "فاليوم ننجيك ببدنك لتكون لمن خلفك آية ۚ وإن كثيرا من الناس عن آياتنا لغافلون"
+translations:
+  en: { text: "But this day We save thee in thy body that thou mayst be a portent for those after thee. Lo! most of mankind are heedless of Our portents.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو آج ہم تیرے بدن کو (دریا سے) نکال لیں گے تاکہ تو پچھلوں کے لئے عبرت ہو۔ اور بہت سے لوگ ہماری نشانیوں سے بےخبر ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

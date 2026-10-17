@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 78:13 (سورة النبأ، الآية 13)."
 text: "وَجَعَلْنَا سِرَاجًا وَهَّاجًا"
 text_search: "وجعلنا سراجا وهاجا"
+translations:
+  en: { text: "And have appointed a dazzling lamp,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (آفتاب کا) روشن چراغ بنایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-78 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

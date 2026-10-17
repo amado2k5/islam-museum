@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:15 (سورة النمل، الآية 15)."
 text: "وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ وَسُلَيْمَـٰنَ عِلْمًا ۖ وَقَالَا ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا عَلَىٰ كَثِيرٍ مِّنْ عِبَادِهِ ٱلْمُؤْمِنِينَ"
 text_search: "ولقد آتينا داوود وسليمان علما ۖ وقالا الحمد لله الذي فضلنا على كثير من عباده المؤمنين"
+translations:
+  en: { text: "And We verily gave knowledge unto David and Solomon, and they said: Praise be to Allah, Who hath preferred us above many of His believing slaves!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے داؤد اور سلیمان کو علم بخشا اور انہوں نے کہا کہ خدا کا شکر ہے جس نے ہمیں بہت سے مومن بندوں پر فضلیت دی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

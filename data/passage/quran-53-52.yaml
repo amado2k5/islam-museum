@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 53:52 (سورة النجم، الآية 52)."
 text: "وَقَوْمَ نُوحٍ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ وَأَطْغَىٰ"
 text_search: "وقوم نوح من قبل ۖ إنهم كانوا هم أظلم وأطغى"
+translations:
+  en: { text: "And the folk of Noah aforetime, Lo! they were more unjust and more rebellious;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان سے پہلے قوم نوحؑ کو بھی۔ کچھ شک نہیں کہ وہ لوگ بڑے ہی ظالم اور بڑے ہی سرکش تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-53 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 74:24 (سورة المدثر، الآية 24)."
 text: "فَقَالَ إِنْ هَـٰذَآ إِلَّا سِحْرٌ يُؤْثَرُ"
 text_search: "فقال إن هذا إلا سحر يؤثر"
+translations:
+  en: { text: "And said: This is naught else than magic from of old;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر کہنے لگا کہ یہ تو جادو ہے جو (اگلوں سے) منتقل ہوتا آیا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-74 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

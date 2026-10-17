@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:42 (سورة يونس، الآية 42)."
 text: "وَمِنْهُم مَّن يَسْتَمِعُونَ إِلَيْكَ ۚ أَفَأَنتَ تُسْمِعُ ٱلصُّمَّ وَلَوْ كَانُوا۟ لَا يَعْقِلُونَ"
 text_search: "ومنهم من يستمعون إليك ۚ أفأنت تسمع الصم ولو كانوا لا يعقلون"
+translations:
+  en: { text: "And of them are some who listen unto thee. But canst thou make the deaf to hear even though they apprehend not?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان میں سے بعض ایسے ہیں کہ تمہاری طرف کان لگاتے ہیں تو کیا تم بہروں کو سناؤ گے اگرچہ کچھ بھی (سنتے) سمجھتے نہ ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

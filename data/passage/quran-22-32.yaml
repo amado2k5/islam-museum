@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:32 (سورة الحج، الآية 32)."
 text: "ذَٰلِكَ وَمَن يُعَظِّمْ شَعَـٰٓئِرَ ٱللَّهِ فَإِنَّهَا مِن تَقْوَى ٱلْقُلُوبِ"
 text_search: "ذلك ومن يعظم شعائر الله فإنها من تقوى القلوب"
+translations:
+  en: { text: "That (is the command). And whoso magnifieth the offerings consecrated to Allah, it surely is from devotion of the hearts,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ ہمارا حکم ہے) اور جو شخص ادب کی چیزوں کی جو خدا نے مقرر کی ہیں عظمت رکھے تو یہ (فعل) دلوں کی پرہیزگاری میں سے ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

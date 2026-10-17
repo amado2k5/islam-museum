@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 63:2 (سورة المنافقون، الآية 2)."
 text: "ٱتَّخَذُوٓا۟ أَيْمَـٰنَهُمْ جُنَّةً فَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ إِنَّهُمْ سَآءَ مَا كَانُوا۟ يَعْمَلُونَ"
 text_search: "اتخذوا أيمانهم جنة فصدوا عن سبيل الله ۚ إنهم ساء ما كانوا يعملون"
+translations:
+  en: { text: "They make their faith a pretext so that they may turn (men) from the way of Allah. Verily evil is that which they are wont to do,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے اپنی قسموں کو ڈھال بنا رکھا ہے اور ان کے ذریعے سے (لوگوں کو) راہ خدا سے روک رہے ہیں۔ کچھ شک نہیں کہ جو کام یہ کرتے ہیں برے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-63 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

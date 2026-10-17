@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:55 (سورة الأنفال، الآية 55)."
 text: "إِنَّ شَرَّ ٱلدَّوَآبِّ عِندَ ٱللَّهِ ٱلَّذِينَ كَفَرُوا۟ فَهُمْ لَا يُؤْمِنُونَ"
 text_search: "إن شر الدواب عند الله الذين كفروا فهم لا يؤمنون"
+translations:
+  en: { text: "Lo! the worst of beasts in Allah's sight are the ungrateful who will not believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جانداروں میں سب سے بدتر خدا کے نزدیک وہ لوگ ہیں جو کافر ہیں سو وہ ایمان نہیں لاتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

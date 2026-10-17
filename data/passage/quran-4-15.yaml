@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:15 (سورة النساء، الآية 15)."
 text: "وَٱلَّـٰتِى يَأْتِينَ ٱلْفَـٰحِشَةَ مِن نِّسَآئِكُمْ فَٱسْتَشْهِدُوا۟ عَلَيْهِنَّ أَرْبَعَةً مِّنكُمْ ۖ فَإِن شَهِدُوا۟ فَأَمْسِكُوهُنَّ فِى ٱلْبُيُوتِ حَتَّىٰ يَتَوَفَّىٰهُنَّ ٱلْمَوْتُ أَوْ يَجْعَلَ ٱللَّهُ لَهُنَّ سَبِيلًا"
 text_search: "واللاتي يأتين الفاحشة من نسائكم فاستشهدوا عليهن أربعة منكم ۖ فإن شهدوا فأمسكوهن في البيوت حتى يتوفاهن الموت أو يجعل الله لهن سبيلا"
+translations:
+  en: { text: "As for those of your women who are guilty of lewdness, call to witness four of you against them. And if they testify (to the truth of the allegation) then confine them to the houses until death take them or (until) Allah appoint for them a way (through new legislation).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مسلمانو تمہاری عورتوں میں جو بدکاری کا ارتکاب کر بیٹھیں ان پر اپنے لوگوں میں سے چار شخصوں کی شہادت لو۔ اگر وہ (ان کی بدکاری کی) گواہی دیں تو ان عورتوں کو گھروں میں بند رکھو یہاں تک کہ موت ان کا کام تمام کردے یا خدا ان کے لئے کوئی اور سبیل (پیدا) کرے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:125 (سورة الأنعام، الآية 125)."
 text: "فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَـٰمِ ۖ وَمَن يُرِدْ أَن يُضِلَّهُۥ يَجْعَلْ صَدْرَهُۥ ضَيِّقًا حَرَجًا كَأَنَّمَا يَصَّعَّدُ فِى ٱلسَّمَآءِ ۚ كَذَٰلِكَ يَجْعَلُ ٱللَّهُ ٱلرِّجْسَ عَلَى ٱلَّذِينَ لَا يُؤْمِنُونَ"
 text_search: "فمن يرد الله أن يهديه يشرح صدره للإسلام ۖ ومن يرد أن يضله يجعل صدره ضيقا حرجا كأنما يصعد في السماء ۚ كذلك يجعل الله الرجس على الذين لا يؤمنون"
+translations:
+  en: { text: "And whomsoever it is Allah's will to guide, He expandeth his bosom unto the Surrender, and whomsoever it is His Will to send astray, He maketh his bosom close and narrow as if he were engaged in sheer ascent. Thus Allah layeth ignominy upon those who believe not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جس شخص کو خدا چاہتا ہے کہ ہدایت بخشے اس کا سینہ اسلام کے لیے کھول دیتا ہے اور جسے چاہتا ہے کہ گمراہ کرے اس کا سینہ تنگ اور گھٹا ہوا کر دیتا ہے گویا وہ آسمان پر چڑھ رہا ہے اس طرح خدا ان لوگوں پر جو ایمان نہیں لاتے عذاب بھیجتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:113 (سورة النساء، الآية 113)."
 text: "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ وَرَحْمَتُهُۥ لَهَمَّت طَّآئِفَةٌ مِّنْهُمْ أَن يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِن شَىْءٍ ۚ وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًا"
 text_search: "ولولا فضل الله عليك ورحمته لهمت طائفة منهم أن يضلوك وما يضلون إلا أنفسهم ۖ وما يضرونك من شيء ۚ وأنزل الله عليك الكتاب والحكمة وعلمك ما لم تكن تعلم ۚ وكان فضل الله عليك عظيما"
+translations:
+  en: { text: "But for the grace of Allah upon thee (Muhammad), and His mercy, a party of them had resolved to mislead thee, but they will mislead only themselves and they will hurt thee not at all. Allah revealeth unto thee the Scripture and wisdom, and teacheth thee that which thou knewest not. The grace of Allah toward thee hath been infinite.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تم پر خدا کا فضل اور مہربانی نہ ہوتی تو ان میں سے ایک جماعت تم کو بہکانے کا قصد کر ہی چکی تھی اور یہ اپنے سوا (کسی کو) بہکا نہیں سکتے اور نہ تمہارا کچھ بگاڑ سکتے ہیں اور خدا نے تم پر کتاب اور دانائی نازل فرمائی ہے اور تمہیں وہ باتیں سکھائی ہیں جو تم جانتے نہیں تھے اور تم پر خدا کا بڑا فضل ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

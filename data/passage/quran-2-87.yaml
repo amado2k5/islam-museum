@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:87 (سورة البقرة، الآية 87)."
 text: "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ وَقَفَّيْنَا مِنۢ بَعْدِهِۦ بِٱلرُّسُلِ ۖ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَـٰتِ وَأَيَّدْنَـٰهُ بِرُوحِ ٱلْقُدُسِ ۗ أَفَكُلَّمَا جَآءَكُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ"
 text_search: "ولقد آتينا موسى الكتاب وقفينا من بعده بالرسل ۖ وآتينا عيسى ابن مريم البينات وأيدناه بروح القدس ۗ أفكلما جاءكم رسول بما لا تهوى أنفسكم استكبرتم ففريقا كذبتم وفريقا تقتلون"
+translations:
+  en: { text: "And verily We gave unto Moses the Scripture and We caused a train of messengers to follow after him, and We gave unto Jesus, son of Mary, clear proofs (of Allah's sovereignty), and We supported him with the Holy spirit. Is it ever so, that, when there cometh unto you a messenger (from Allah) with that which ye yourselves desire not, ye grow arrogant, and some ye disbelieve and some ye slay?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے موسیٰ کو کتاب عنایت کی اور ان کے پیچھے یکے بعد دیگرے پیغمبر بھیجتے رہے اور عیسیٰ بن مریم کو کھلے نشانات بخشے اور روح القدس (یعنی جبرئیل) سے ان کو مدد دی۔تو جب کوئی پیغمبر تمہارے پاس ایسی باتیں لے کر آئے، جن کو تمہارا جی نہیں چاہتا تھا، تو تم سرکش ہو جاتے رہے، اور ایک گروہ (انبیاء) کو تو جھٹلاتے رہے اور ایک گروہ کو قتل کرتے رہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

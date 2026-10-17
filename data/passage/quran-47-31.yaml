@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 47:31 (سورة محمد، الآية 31)."
 text: "وَلَنَبْلُوَنَّكُمْ حَتَّىٰ نَعْلَمَ ٱلْمُجَـٰهِدِينَ مِنكُمْ وَٱلصَّـٰبِرِينَ وَنَبْلُوَا۟ أَخْبَارَكُمْ"
 text_search: "ولنبلونكم حتى نعلم المجاهدين منكم والصابرين ونبلو أخباركم"
+translations:
+  en: { text: "And verily We shall try you till We know those of you who strive hard (for the cause of Allah) and the steadfast, and till We test your record.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم تو لوگوں کو آزمائیں گے تاکہ جو تم میں لڑائی کرنے والے اور ثابت قدم رہنے والے ہیں ان کو معلوم کریں۔ اور تمہارے حالات جانچ لیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

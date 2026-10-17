@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:11 (سورة الفرقان، الآية 11)."
 text: "بَلْ كَذَّبُوا۟ بِٱلسَّاعَةِ ۖ وَأَعْتَدْنَا لِمَن كَذَّبَ بِٱلسَّاعَةِ سَعِيرًا"
 text_search: "بل كذبوا بالساعة ۖ وأعتدنا لمن كذب بالساعة سعيرا"
+translations:
+  en: { text: "Nay, but they deny (the coming of) the Hour, and for those who deny (the coming of) the Hour We have prepared a flame.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بلکہ یہ تو قیامت ہی کو جھٹلاتے ہیں اور ہم نے قیامت کے جھٹلانے والوں کے لئے دوزخ تیار کر رکھی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

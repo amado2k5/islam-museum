@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 76:27 (سورة الإنسان، الآية 27)."
 text: "إِنَّ هَـٰٓؤُلَآءِ يُحِبُّونَ ٱلْعَاجِلَةَ وَيَذَرُونَ وَرَآءَهُمْ يَوْمًا ثَقِيلًا"
 text_search: "إن هؤلاء يحبون العاجلة ويذرون وراءهم يوما ثقيلا"
+translations:
+  en: { text: "Lo! these love fleeting life, and put behind them (the remembrance of) a grievous day.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ لوگ دنیا کو دوست رکھتے ہیں اور (قیامت کے) بھاری دن کو پس پشت چھوڑے دیتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-76 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

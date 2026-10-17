@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:145 (سورة البقرة، الآية 145)."
 text: "وَلَئِنْ أَتَيْتَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ بِكُلِّ ءَايَةٍ مَّا تَبِعُوا۟ قِبْلَتَكَ ۚ وَمَآ أَنتَ بِتَابِعٍ قِبْلَتَهُمْ ۚ وَمَا بَعْضُهُم بِتَابِعٍ قِبْلَةَ بَعْضٍ ۚ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم مِّنۢ بَعْدِ مَا جَآءَكَ مِنَ ٱلْعِلْمِ ۙ إِنَّكَ إِذًا لَّمِنَ ٱلظَّـٰلِمِينَ"
 text_search: "ولئن أتيت الذين أوتوا الكتاب بكل آية ما تبعوا قبلتك ۚ وما أنت بتابع قبلتهم ۚ وما بعضهم بتابع قبلة بعض ۚ ولئن اتبعت أهواءهم من بعد ما جاءك من العلم ۙ إنك إذا لمن الظالمين"
+translations:
+  en: { text: "And even if thou broughtest unto those who have received the Scripture all kinds of portents, they would not follow thy qiblah, nor canst thou be a follower of their qiblah; nor are some of them followers of the qiblah of others. And if thou shouldst follow their desires after the knowledge which hath come unto thee, then surely wert thou of the evil-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اگر تم ان اہلِ کتاب کے پاس تمام نشانیاں بھی لے کر آؤ، تو بھی یہ تمہارے قبلے کی پیروی نہ کریں۔ اور تم بھی ان کے قبلے کی پیروی کرنے والے نہیں ہو۔ اور ان میں سے بھی بعض بعض کے قبلے کے پیرو نہیں۔ اور اگر تم باوجود اس کے کہ تمہارے پاس دانش (یعنی وحئ خدا) آ چکی ہے، ان کی خواہشوں کے پیچھے چلو گے تو ظالموں میں (داخل) ہو جاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

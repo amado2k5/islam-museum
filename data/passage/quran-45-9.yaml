@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:9 (سورة الجاثية، الآية 9)."
 text: "وَإِذَا عَلِمَ مِنْ ءَايَـٰتِنَا شَيْـًٔا ٱتَّخَذَهَا هُزُوًا ۚ أُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ"
 text_search: "وإذا علم من آياتنا شيئا اتخذها هزوا ۚ أولئك لهم عذاب مهين"
+translations:
+  en: { text: "And when he knoweth aught of Our revelations he maketh it a jest. For such there is a shameful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ہماری کچھ آیتیں اسے معلوم ہوتی ہیں تو ان کی ہنسی اُڑاتا ہے۔ ایسے لوگوں کے لئے ذلیل کرنے والا عذاب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

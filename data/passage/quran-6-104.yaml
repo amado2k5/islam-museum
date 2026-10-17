@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:104 (سورة الأنعام، الآية 104)."
 text: "قَدْ جَآءَكُم بَصَآئِرُ مِن رَّبِّكُمْ ۖ فَمَنْ أَبْصَرَ فَلِنَفْسِهِۦ ۖ وَمَنْ عَمِىَ فَعَلَيْهَا ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍ"
 text_search: "قد جاءكم بصائر من ربكم ۖ فمن أبصر فلنفسه ۖ ومن عمي فعليها ۚ وما أنا عليكم بحفيظ"
+translations:
+  en: { text: "Proofs have come unto you from your Lord, so whoso seeth, it is for his own good, and whoso is blind is blind to his own hurt. And I am not a keeper over you.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ! ان سے کہہ دو کہ) تمہارے (پاس) پروردگار کی طرف سے (روشن) دلیلیں پہنچ چکی ہیں تو جس نے (ان کو آنکھ کھول کر) دیکھا اس نے اپنا بھلا کیا اور جو اندھا بنا رہا اس نے اپنے حق میں برا کیا۔ اور میں تمہارا نگہبان نہیں ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

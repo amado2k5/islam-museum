@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:38 (سورة الأحزاب، الآية 38)."
 text: "مَّا كَانَ عَلَى ٱلنَّبِىِّ مِنْ حَرَجٍ فِيمَا فَرَضَ ٱللَّهُ لَهُۥ ۖ سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۚ وَكَانَ أَمْرُ ٱللَّهِ قَدَرًا مَّقْدُورًا"
 text_search: "ما كان على النبي من حرج فيما فرض الله له ۖ سنة الله في الذين خلوا من قبل ۚ وكان أمر الله قدرا مقدورا"
+translations:
+  en: { text: "There is no reproach for the Prophet in that which Allah maketh his due. That was Allah's way with those who passed away of old - and the commandment of Allah is certain destiny -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پیغمبر پر اس کام میں کچھ تنگی نہیں جو خدا نے ان کے لئے مقرر کردیا۔ اور جو لوگ پہلے گزر چکے ہیں ان میں بھی خدا کا یہی دستور رہا ہے۔ اور خدا کا حکم ٹھیر چکا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

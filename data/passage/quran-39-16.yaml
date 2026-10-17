@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:16 (سورة الزمر، الآية 16)."
 text: "لَهُم مِّن فَوْقِهِمْ ظُلَلٌ مِّنَ ٱلنَّارِ وَمِن تَحْتِهِمْ ظُلَلٌ ۚ ذَٰلِكَ يُخَوِّفُ ٱللَّهُ بِهِۦ عِبَادَهُۥ ۚ يَـٰعِبَادِ فَٱتَّقُونِ"
 text_search: "لهم من فوقهم ظلل من النار ومن تحتهم ظلل ۚ ذلك يخوف الله به عباده ۚ يا عباد فاتقون"
+translations:
+  en: { text: "They have an awning of fire above them and beneath them a dais (of fire). With this doth Allah appal His bondmen. O My bondmen, therefor fear Me!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کے اوپر تو آگ کے سائبان ہوں گے اور نیچے (اس کے) فرش ہوں گے۔ یہ وہ (عذاب) ہے جس سے خدا اپنے بندوں کو ڈراتا ہے۔ تو اے میرے بندو مجھ سے ڈرتے رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

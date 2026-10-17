@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:58 (سورة الإسراء، الآية 58)."
 text: "وَإِن مِّن قَرْيَةٍ إِلَّا نَحْنُ مُهْلِكُوهَا قَبْلَ يَوْمِ ٱلْقِيَـٰمَةِ أَوْ مُعَذِّبُوهَا عَذَابًا شَدِيدًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَـٰبِ مَسْطُورًا"
 text_search: "وإن من قرية إلا نحن مهلكوها قبل يوم القيامة أو معذبوها عذابا شديدا ۚ كان ذلك في الكتاب مسطورا"
+translations:
+  en: { text: "There is not a township but We shall destroy it ere the Day of Resurrection, or punish it with dire punishment. That is set forth in the Book (of Our decrees).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (کفر کرنے والوں کی) کوئی بستی نہیں مگر قیامت کے دن سے پہلے ہم اسے ہلاک کردیں گے یا سخت عذاب سے معذب کریں گے۔ یہ کتاب (یعنی تقدیر) میں لکھا جاچکا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

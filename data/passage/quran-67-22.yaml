@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 67:22 (سورة الملك، الآية 22)."
 text: "أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ"
 text_search: "أفمن يمشي مكبا على وجهه أهدى أمن يمشي سويا على صراط مستقيم"
+translations:
+  en: { text: "Is he who goeth groping on his face more rightly guided, or he who walketh upright on a straight road?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا جو شخص چلتا ہوا منہ کے بل گر پڑتا ہے وہ سیدھے رستے پر ہے یا وہ جو سیدھے رستے پر برابر چل رہا ہو؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-67 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

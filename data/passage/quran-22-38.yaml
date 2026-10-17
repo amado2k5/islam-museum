@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:38 (سورة الحج، الآية 38)."
 text: "۞ إِنَّ ٱللَّهَ يُدَٰفِعُ عَنِ ٱلَّذِينَ ءَامَنُوٓا۟ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ خَوَّانٍ كَفُورٍ"
 text_search: "۞ إن الله يدافع عن الذين آمنوا ۗ إن الله لا يحب كل خوان كفور"
+translations:
+  en: { text: "Lo! Allah defendeth those who are true. Lo! Allah loveth not each treacherous ingrate.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا تو مومنوں سے ان کے دشمنوں کو ہٹاتا رہتا ہے۔ بےشک خدا کسی خیانت کرنے والے اور کفران نعمت کرنے والے کو دوست نہیں رکھتا۔", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

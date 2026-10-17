@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:106 (سورة المائدة، الآية 106)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ شَهَـٰدَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ حِينَ ٱلْوَصِيَّةِ ٱثْنَانِ ذَوَا عَدْلٍ مِّنكُمْ أَوْ ءَاخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنتُمْ ضَرَبْتُمْ فِى ٱلْأَرْضِ فَأَصَـٰبَتْكُم مُّصِيبَةُ ٱلْمَوْتِ ۚ تَحْبِسُونَهُمَا مِنۢ بَعْدِ ٱلصَّلَوٰةِ فَيُقْسِمَانِ بِٱللَّهِ إِنِ ٱرْتَبْتُمْ لَا نَشْتَرِى بِهِۦ ثَمَنًا وَلَوْ كَانَ ذَا قُرْبَىٰ ۙ وَلَا نَكْتُمُ شَهَـٰدَةَ ٱللَّهِ إِنَّآ إِذًا لَّمِنَ ٱلْـَٔاثِمِينَ"
 text_search: "يا أيها الذين آمنوا شهادة بينكم إذا حضر أحدكم الموت حين الوصية اثنان ذوا عدل منكم أو آخران من غيركم إن أنتم ضربتم في الأرض فأصابتكم مصيبة الموت ۚ تحبسونهما من بعد الصلاة فيقسمان بالله إن ارتبتم لا نشتري به ثمنا ولو كان ذا قربى ۙ ولا نكتم شهادة الله إنا إذا لمن الآثمين"
+translations:
+  en: { text: "O ye who believe! Let there be witnesses between you when death draweth nigh unto one of you, at the time of bequest - two witnesses, just men from among you, or two others from another tribe, in case ye are campaigning in the land and the calamity of death befall you. Ye shall empanel them both after the prayer, and, if ye doubt, they shall be made to swear by Allah (saying): We will not take a bribe, even though it were (on behalf of) a near kinsman nor will we hide the testimony of Allah, for then indeed we should be of the sinful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! جب تم میں سے کسی کی موت آموجود ہو تو شہادت (کا نصاب) یہ ہے کہ وصیت کے وقت تم (مسلمانوں) میں سے دو عادل (یعنی صاحب اعتبار) گواہ ہوں یا اگر (مسلمان نہ ملیں اور) تم سفر کر رہے ہو اور (اس وقت) تم پر موت کی مصیبت واقع ہو تو کسی دوسرے مذہب کے دو (شخصوں کو) گواہ (کر لو) اگر تم کو ان گواہوں کی نسبت کچھ شک ہو تو ان کو (عصر کی) نماز کے بعد کھڑا کرو اور دونوں خدا کی قسمیں کھائیں کہ ہم شہادت کا کچھ عوض نہیں لیں گے گو ہمارا رشتہ دار ہی ہو اور نہ ہم الله کی شہادت کو چھپائیں گے اگر ایسا کریں گے تو گنہگار ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

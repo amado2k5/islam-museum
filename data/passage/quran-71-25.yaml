@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 71:25 (سورة نوح، الآية 25)."
 text: "مِّمَّا خَطِيٓـَٔـٰتِهِمْ أُغْرِقُوا۟ فَأُدْخِلُوا۟ نَارًا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًا"
 text_search: "مما خطيئاتهم أغرقوا فأدخلوا نارا فلم يجدوا لهم من دون الله أنصارا"
+translations:
+  en: { text: "Because of their sins they were drowned, then made to enter a Fire. And they found they had no helpers in place of Allah.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(آخر) وہ اپنے گناہوں کے سبب پہلے غرقاب کردیئے گئے پھر آگ میں ڈال دیئے گئے۔ تو انہوں نے خدا کے سوا کسی کو اپنا مددگار نہ پایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-71 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

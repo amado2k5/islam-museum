@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 74:5 (سورة المدثر، الآية 5)."
 text: "وَٱلرُّجْزَ فَٱهْجُرْ"
 text_search: "والرجز فاهجر"
+translations:
+  en: { text: "Pollution shun!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ناپاکی سے دور رہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: revealed_about, target: event/fatrat-al-wahy, sources: [source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: part_of, target: passage/quran-74 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

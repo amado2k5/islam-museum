@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:14 (سورة الأنفال، الآية 14)."
 text: "ذَٰلِكُمْ فَذُوقُوهُ وَأَنَّ لِلْكَـٰفِرِينَ عَذَابَ ٱلنَّارِ"
 text_search: "ذلكم فذوقوه وأن للكافرين عذاب النار"
+translations:
+  en: { text: "That (is the award), so taste it, and (know) that for disbelievers is the torment of the Fire.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ (مزہ تو یہاں) چکھو اور یہ (جانے رہو) کہ کافروں کے لیے (آخرت میں) دوزخ کا عذاب (بھی تیار) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:17 (سورة الكهف، الآية 17)."
 text: "۞ وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ ءَايَـٰتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا"
 text_search: "۞ وترى الشمس إذا طلعت تزاور عن كهفهم ذات اليمين وإذا غربت تقرضهم ذات الشمال وهم في فجوة منه ۚ ذلك من آيات الله ۗ من يهد الله فهو المهتد ۖ ومن يضلل فلن تجد له وليا مرشدا"
+translations:
+  en: { text: "And thou mightest have seen the sun when it rose move away from their cave to the right, and when it set go past them on the left, and they were in the cleft thereof. That was (one) of the portents of Allah. He whom Allah guideth, he indeed is led aright, and he whom He sendeth astray, for him thou wilt not find a guiding friend.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب سورج نکلے تو تم دیکھو کہ (دھوپ) ان کے غار سے داہنی طرف سمٹ جائے اور جب غروب ہو تو ان سے بائیں طرف کترا جائے اور وہ اس کے میدان میں تھے۔ یہ خدا کی نشانیوں میں سے ہیں۔ جس کو خدا ہدایت دے یا وہ ہدایت یاب ہے اور جس کو گمراہ کرے تو تم اس کے لئے کوئی دوست راہ بتانے والا نہ پاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

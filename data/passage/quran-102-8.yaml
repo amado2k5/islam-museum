@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 102:8 (سورة التكاثر، الآية 8)."
 text: "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ"
 text_search: "ثم لتسألن يومئذ عن النعيم"
+translations:
+  en: { text: "Then, on that day, ye will be asked concerning pleasure.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر اس روز تم سے (شکر) نعمت کے بارے میں پرسش ہو گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-102 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

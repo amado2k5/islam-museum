@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 57:22 (سورة الحديد، الآية 22)."
 text: "مَآ أَصَابَ مِن مُّصِيبَةٍ فِى ٱلْأَرْضِ وَلَا فِىٓ أَنفُسِكُمْ إِلَّا فِى كِتَـٰبٍ مِّن قَبْلِ أَن نَّبْرَأَهَآ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ"
 text_search: "ما أصاب من مصيبة في الأرض ولا في أنفسكم إلا في كتاب من قبل أن نبرأها ۚ إن ذلك على الله يسير"
+translations:
+  en: { text: "Naught of disaster befalleth in the earth or in yourselves but it is in a Book before we bring it into being - Lo! that is easy for Allah -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کوئی مصیبت ملک پر اور خود تم پر نہیں پڑتی مگر پیشتر اس کے کہ ہم اس کو پیدا کریں ایک کتاب میں (لکھی ہوئی) ہے۔ (اور) یہ (کام) خدا کو آسان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

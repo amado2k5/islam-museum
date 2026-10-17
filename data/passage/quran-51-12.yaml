@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 51:12 (سورة الذاريات، الآية 12)."
 text: "يَسْـَٔلُونَ أَيَّانَ يَوْمُ ٱلدِّينِ"
 text_search: "يسألون أيان يوم الدين"
+translations:
+  en: { text: "They ask: When is the Day of Judgment?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پوچھتے ہیں کہ جزا کا دن کب ہوگا؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

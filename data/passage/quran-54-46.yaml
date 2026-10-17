@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 54:46 (سورة القمر، الآية 46)."
 text: "بَلِ ٱلسَّاعَةُ مَوْعِدُهُمْ وَٱلسَّاعَةُ أَدْهَىٰ وَأَمَرُّ"
 text_search: "بل الساعة موعدهم والساعة أدهى وأمر"
+translations:
+  en: { text: "Nay, but the Hour (of doom) is their appointed tryst, and the Hour will be more wretched and more bitter (than their earthly failure).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کے وعدے کا وقت تو قیامت ہے اور قیامت بڑی سخت اور بہت تلخ ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-54 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

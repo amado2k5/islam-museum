@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:89 (سورة يونس، الآية 89)."
 text: "قَالَ قَدْ أُجِيبَت دَّعْوَتُكُمَا فَٱسْتَقِيمَا وَلَا تَتَّبِعَآنِّ سَبِيلَ ٱلَّذِينَ لَا يَعْلَمُونَ"
 text_search: "قال قد أجيبت دعوتكما فاستقيما ولا تتبعان سبيل الذين لا يعلمون"
+translations:
+  en: { text: "He said: Your prayer is heard. Do ye twain keep to the straight path, and follow not the road of those who have no knowledge.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے فرمایا کہ تمہاری دعا قبول کرلی گئی تو تم ثابت قدم رہنا اور بےعقلوں کے رستے نہ چلنا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

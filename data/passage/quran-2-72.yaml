@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:72 (سورة البقرة، الآية 72)."
 text: "وَإِذْ قَتَلْتُمْ نَفْسًا فَٱدَّٰرَْٰٔتُمْ فِيهَا ۖ وَٱللَّهُ مُخْرِجٌ مَّا كُنتُمْ تَكْتُمُونَ"
 text_search: "وإذ قتلتم نفسا فادارأتم فيها ۖ والله مخرج ما كنتم تكتمون"
+translations:
+  en: { text: "And (remember) when ye slew a man and disagreed concerning it and Allah brought forth that which ye were hiding.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب تم نے ایک شخص کو قتل کیا، تو اس میں باہم جھگڑنے لگے۔ لیکن جو بات تم چھپا رہے تھے، خدا اس کو ظاہر کرنے والا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

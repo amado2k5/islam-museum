@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:58 (سورة مريم، الآية 58)."
 text: "أُو۟لَـٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّـۧنَ مِن ذُرِّيَّةِ ءَادَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍ وَمِن ذُرِّيَّةِ إِبْرَٰهِيمَ وَإِسْرَٰٓءِيلَ وَمِمَّنْ هَدَيْنَا وَٱجْتَبَيْنَآ ۚ إِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُ ٱلرَّحْمَـٰنِ خَرُّوا۟ سُجَّدًا وَبُكِيًّا ۩"
 text_search: "أولئك الذين أنعم الله عليهم من النبيين من ذرية آدم وممن حملنا مع نوح ومن ذرية إبراهيم وإسرائيل وممن هدينا واجتبينا ۚ إذا تتلى عليهم آيات الرحمن خروا سجدا وبكيا ۩"
+translations:
+  en: { text: "These are they unto whom Allah showed favour from among the prophets, of the seed of Adam and of those whom We carried (in the ship) with Noah, and of the seed of Abraham and Israel, and from among those whom We guided and chose. When the revelations of the Beneficent were recited unto them, they fell down, adoring and weeping.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ وہ لوگ ہیں جن پر خدا نے اپنے پیغمبروں میں سے فضل کیا۔ (یعنی) اولاد آدم میں سے اور ان لوگوں میں سے جن کو نوح کے ساتھ (کشتی میں) سوار کیا اور ابراہیم اور یعقوب کی اولاد میں سے اور ان لوگوں میں سے جن کو ہم نے ہدایت دی اور برگزیدہ کیا۔ جب ان کے سامنے ہماری آیتیں پڑھی جاتی تھیں تو سجدے میں گر پڑتے اور روتے رہتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

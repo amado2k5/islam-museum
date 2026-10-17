@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:55 (سورة النور، الآية 55)."
 text: "وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَيَسْتَخْلِفَنَّهُمْ فِى ٱلْأَرْضِ كَمَا ٱسْتَخْلَفَ ٱلَّذِينَ مِن قَبْلِهِمْ وَلَيُمَكِّنَنَّ لَهُمْ دِينَهُمُ ٱلَّذِى ٱرْتَضَىٰ لَهُمْ وَلَيُبَدِّلَنَّهُم مِّنۢ بَعْدِ خَوْفِهِمْ أَمْنًا ۚ يَعْبُدُونَنِى لَا يُشْرِكُونَ بِى شَيْـًٔا ۚ وَمَن كَفَرَ بَعْدَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْفَـٰسِقُونَ"
 text_search: "وعد الله الذين آمنوا منكم وعملوا الصالحات ليستخلفنهم في الأرض كما استخلف الذين من قبلهم وليمكنن لهم دينهم الذي ارتضى لهم وليبدلنهم من بعد خوفهم أمنا ۚ يعبدونني لا يشركون بي شيئا ۚ ومن كفر بعد ذلك فأولئك هم الفاسقون"
+translations:
+  en: { text: "Allah hath promised such of you as believe and do good work that He will surely make them to succeed (the present rulers) in the earth even as He caused those who were before them to succeed (others); and that He will surely establish for them their religion which He hath approved for them, and will give them in exchange safety after their fear. They serve Me. They ascribe no thing as partner unto Me. Those who disbelieve henceforth, they are the miscreants.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ تم میں سے ایمان لائے اور نیک کام کرتے رہے ان سے خدا کا وعدہ ہے کہ ان کو ملک کا حاکم بنادے گا جیسا ان سے پہلے لوگوں کو حاکم بنایا تھا اور ان کے دین کو جسے اس نے ان کے لئے پسند کیا ہے مستحکم وپائیدار کرے گا اور خوف کے بعد ان کو امن بخشے گا۔ وہ میری عبادت کریں گے اور میرے ساتھ کسی چیز کو شریک نہ بنائیں گے۔ اور جو اس کے بعد کفر کرے تو ایسے لوگ بدکردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

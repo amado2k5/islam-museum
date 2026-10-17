@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 52:19 (سورة الطور، الآية 19)."
 text: "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ"
 text_search: "كلوا واشربوا هنيئا بما كنتم تعملون"
+translations:
+  en: { text: "(And it is said unto them): Eat and drink in health (as a reward) for what ye used to do,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اپنے اعمال کے صلے میں مزے سے کھاؤ اور پیو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-52 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

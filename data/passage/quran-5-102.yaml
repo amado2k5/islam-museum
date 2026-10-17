@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:102 (سورة المائدة، الآية 102)."
 text: "قَدْ سَأَلَهَا قَوْمٌ مِّن قَبْلِكُمْ ثُمَّ أَصْبَحُوا۟ بِهَا كَـٰفِرِينَ"
 text_search: "قد سألها قوم من قبلكم ثم أصبحوا بها كافرين"
+translations:
+  en: { text: "A folk before you asked (for such disclosures) and then disbelieved therein.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس طرح کی باتیں تم سے پہلے لوگوں نے بھی پوچھی تھیں (مگر جب بتائی گئیں تو) پھر ان سے منکر ہو گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

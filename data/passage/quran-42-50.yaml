@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 42:50 (سورة الشورى، الآية 50)."
 text: "أَوْ يُزَوِّجُهُمْ ذُكْرَانًا وَإِنَـٰثًا ۖ وَيَجْعَلُ مَن يَشَآءُ عَقِيمًا ۚ إِنَّهُۥ عَلِيمٌ قَدِيرٌ"
 text_search: "أو يزوجهم ذكرانا وإناثا ۖ ويجعل من يشاء عقيما ۚ إنه عليم قدير"
+translations:
+  en: { text: "Or He mingleth them, males and females, and He maketh barren whom He will. Lo! He is Knower, Powerful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یا ان کو بیٹے اور بیٹیاں دونوں عنایت فرماتا ہے۔ اور جس کو چاہتا ہے بےاولاد رکھتا ہے۔ وہ تو جاننے والا (اور) قدرت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

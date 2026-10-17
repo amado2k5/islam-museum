@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 74:54 (سورة المدثر، الآية 54)."
 text: "كَلَّآ إِنَّهُۥ تَذْكِرَةٌ"
 text_search: "كلا إنه تذكرة"
+translations:
+  en: { text: "Nay, verily. Lo! this is an Admonishment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کچھ شک نہیں کہ یہ نصیحت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-74 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

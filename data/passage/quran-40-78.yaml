@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:78 (سورة غافر، الآية 78)."
 text: "وَلَقَدْ أَرْسَلْنَا رُسُلًا مِّن قَبْلِكَ مِنْهُم مَّن قَصَصْنَا عَلَيْكَ وَمِنْهُم مَّن لَّمْ نَقْصُصْ عَلَيْكَ ۗ وَمَا كَانَ لِرَسُولٍ أَن يَأْتِىَ بِـَٔايَةٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ فَإِذَا جَآءَ أَمْرُ ٱللَّهِ قُضِىَ بِٱلْحَقِّ وَخَسِرَ هُنَالِكَ ٱلْمُبْطِلُونَ"
 text_search: "ولقد أرسلنا رسلا من قبلك منهم من قصصنا عليك ومنهم من لم نقصص عليك ۗ وما كان لرسول أن يأتي بآية إلا بإذن الله ۚ فإذا جاء أمر الله قضي بالحق وخسر هنالك المبطلون"
+translations:
+  en: { text: "Verily We sent messengers before thee, among them those of whom We have told thee, and some of whom We have not told thee; and it was not given to any messenger that he should bring a portent save by Allah's leave, but when Allah's commandment cometh (the cause) is judged aright, and the followers of vanity will then be lost.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے تم سے پہلے (بہت سے) پیغمبر بھیجے۔ ان میں کچھ تو ایسے ہیں جن کے حالات تم سے بیان کر دیئے ہیں اور کچھ ایسے ہیں جن کے حالات بیان نہیں کئے۔ اور کسی پیغمبر کا مقدور نہ تھا کہ خدا کے حکم کے سوا کوئی نشانی لائے۔ پھر جب خدا کا حکم آپہنچا تو انصاف کے ساتھ فیصلہ کردیا گیا اور اہل باطل نقصان میں پڑ گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

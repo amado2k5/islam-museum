@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:96 (سورة مريم، الآية 96)."
 text: "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَـٰنُ وُدًّا"
 text_search: "إن الذين آمنوا وعملوا الصالحات سيجعل لهم الرحمن ودا"
+translations:
+  en: { text: "Lo! those who believe and do good works, the Beneficent will appoint for them love.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو لوگ ایمان لائے اور عمل نیک کئے خدا ان کی محبت (مخلوقات کے دل میں) پیدا کردے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

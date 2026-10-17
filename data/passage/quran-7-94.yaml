@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:94 (سورة الأعراف، الآية 94)."
 text: "وَمَآ أَرْسَلْنَا فِى قَرْيَةٍ مِّن نَّبِىٍّ إِلَّآ أَخَذْنَآ أَهْلَهَا بِٱلْبَأْسَآءِ وَٱلضَّرَّآءِ لَعَلَّهُمْ يَضَّرَّعُونَ"
 text_search: "وما أرسلنا في قرية من نبي إلا أخذنا أهلها بالبأساء والضراء لعلهم يضرعون"
+translations:
+  en: { text: "And We sent no prophet unto any township but We did afflict its folk with tribulation and adversity that haply they might grow humble.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے کسی شہر میں کوئی پیغمبر نہیں بھیجا مگر وہاں کے رہنے والوں کو (جو ایمان نہ لائے) دکھوں اور مصیبتوں میں مبتلا کیا تاکہ وہ عاجزی اور زاری کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

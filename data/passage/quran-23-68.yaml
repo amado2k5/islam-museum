@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:68 (سورة المؤمنون، الآية 68)."
 text: "أَفَلَمْ يَدَّبَّرُوا۟ ٱلْقَوْلَ أَمْ جَآءَهُم مَّا لَمْ يَأْتِ ءَابَآءَهُمُ ٱلْأَوَّلِينَ"
 text_search: "أفلم يدبروا القول أم جاءهم ما لم يأت آباءهم الأولين"
+translations:
+  en: { text: "Have they not pondered the Word, or hath that come unto them which came not unto their fathers of old?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا انہوں نے اس کلام میں غور نہیں کیا یا ان کے پاس کوئی ایسی چیز آئی ہے جو ان کے اگلے باپ دادا کے پاس نہیں تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

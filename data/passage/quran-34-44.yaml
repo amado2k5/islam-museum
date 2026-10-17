@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:44 (سورة سبأ، الآية 44)."
 text: "وَمَآ ءَاتَيْنَـٰهُم مِّن كُتُبٍ يَدْرُسُونَهَا ۖ وَمَآ أَرْسَلْنَآ إِلَيْهِمْ قَبْلَكَ مِن نَّذِيرٍ"
 text_search: "وما آتيناهم من كتب يدرسونها ۖ وما أرسلنا إليهم قبلك من نذير"
+translations:
+  en: { text: "And We have given them no scriptures which they study, nor sent We unto them, before thee, any warner.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے نہ تو ان (مشرکوں) کو کتابیں دیں جن کو یہ پڑھتے ہیں اور نہ تم سے پہلے ان کی طرف کوئی ڈرانے والا بھیجا مگر انہوں نے تکذیب کی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

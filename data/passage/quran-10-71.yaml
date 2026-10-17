@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 10:71 (سورة يونس، الآية 71)."
 text: "۞ وَٱتْلُ عَلَيْهِمْ نَبَأَ نُوحٍ إِذْ قَالَ لِقَوْمِهِۦ يَـٰقَوْمِ إِن كَانَ كَبُرَ عَلَيْكُم مَّقَامِى وَتَذْكِيرِى بِـَٔايَـٰتِ ٱللَّهِ فَعَلَى ٱللَّهِ تَوَكَّلْتُ فَأَجْمِعُوٓا۟ أَمْرَكُمْ وَشُرَكَآءَكُمْ ثُمَّ لَا يَكُنْ أَمْرُكُمْ عَلَيْكُمْ غُمَّةً ثُمَّ ٱقْضُوٓا۟ إِلَىَّ وَلَا تُنظِرُونِ"
 text_search: "۞ واتل عليهم نبأ نوح إذ قال لقومه يا قوم إن كان كبر عليكم مقامي وتذكيري بآيات الله فعلى الله توكلت فأجمعوا أمركم وشركاءكم ثم لا يكن أمركم عليكم غمة ثم اقضوا إلي ولا تنظرون"
+translations:
+  en: { text: "Recite unto them the story of Noah, when he told his people: O my people! If my sojourn (here) and my reminding you by Allah's revelations are an offence unto you, in Allah have I put my trust, so decide upon your course of action you and your partners. Let not your course of action be in doubt for you. Then have at me, give me no respite.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کو نوح کا قصہ پڑھ کر سنادو۔ جب انہوں نے اپنی قوم سے کہا کہ اے قوم! اگر تم کو میرا تم میں رہنا اور خدا کی آیتوں سے نصیحت کرنا ناگوار ہو تو میں خدا پر بھروسہ رکھتا ہوں۔ تم اپنے شریکوں کے ساتھ مل کر ایک کام (جو میرے بارے میں کرنا چاہو) مقرر کرلو اور وہ تمہاری تمام جماعت (کو معلوم ہوجائے اور کسی) سے پوشیدہ نہ رہے اور پھر وہ کام میرے حق میں کر گزرو اور مجھے مہلت نہ دو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-10 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:114 (سورة التوبة، الآية 114)."
 text: "وَمَا كَانَ ٱسْتِغْفَارُ إِبْرَٰهِيمَ لِأَبِيهِ إِلَّا عَن مَّوْعِدَةٍ وَعَدَهَآ إِيَّاهُ فَلَمَّا تَبَيَّنَ لَهُۥٓ أَنَّهُۥ عَدُوٌّ لِّلَّهِ تَبَرَّأَ مِنْهُ ۚ إِنَّ إِبْرَٰهِيمَ لَأَوَّٰهٌ حَلِيمٌ"
 text_search: "وما كان استغفار إبراهيم لأبيه إلا عن موعدة وعدها إياه فلما تبين له أنه عدو لله تبرأ منه ۚ إن إبراهيم لأواه حليم"
+translations:
+  en: { text: "The prayer of Abraham for the forgiveness of his father was only because of a promise he had promised him, but when it had become clear unto him that he (his father) was an enemy to Allah he (Abraham) disowned him. Lo! Abraham was soft of heart, long-suffering.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ابراہیم کا اپنے باپ کے لیے بخشش مانگنا تو ایک وعدے کا سبب تھا جو وہ اس سے کر چکے تھے۔ لیکن جب ان کو معلوم ہوگیا کہ وہ خدا کا دشمن ہے تو اس سے بیزار ہوگئے۔ کچھ شک نہیں کہ ابراہیم بڑے نرم دل اور متحمل تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:30 (سورة الجاثية، الآية 30)."
 text: "فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَيُدْخِلُهُمْ رَبُّهُمْ فِى رَحْمَتِهِۦ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْمُبِينُ"
 text_search: "فأما الذين آمنوا وعملوا الصالحات فيدخلهم ربهم في رحمته ۚ ذلك هو الفوز المبين"
+translations:
+  en: { text: "Then, as for those who believed and did good works, their Lord will bring them in unto His mercy. That is the evident triumph.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جو لوگ ایمان لائے اور نیک کام کرتے رہے ان کا پروردگار انہیں رحمت (کے باغ) میں داخل کرے گا۔ یہی صریح کامیابی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:2 (سورة الأنبياء، الآية 2)."
 text: "مَا يَأْتِيهِم مِّن ذِكْرٍ مِّن رَّبِّهِم مُّحْدَثٍ إِلَّا ٱسْتَمَعُوهُ وَهُمْ يَلْعَبُونَ"
 text_search: "ما يأتيهم من ذكر من ربهم محدث إلا استمعوه وهم يلعبون"
+translations:
+  en: { text: "Never cometh there unto them a new reminder from their Lord but they listen to it while they play,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ان کے پاس کوئی نئی نصیحت ان کے پروردگار کی طرف سے نہیں آتی مگر وہ اسے کھیلتے ہوئے سنتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:7 (سورة القصص، الآية 7)."
 text: "وَأَوْحَيْنَآ إِلَىٰٓ أُمِّ مُوسَىٰٓ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِى ٱلْيَمِّ وَلَا تَخَافِى وَلَا تَحْزَنِىٓ ۖ إِنَّا رَآدُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ ٱلْمُرْسَلِينَ"
 text_search: "وأوحينا إلى أم موسى أن أرضعيه ۖ فإذا خفت عليه فألقيه في اليم ولا تخافي ولا تحزني ۖ إنا رادوه إليك وجاعلوه من المرسلين"
+translations:
+  en: { text: "And We inspired the mother of Moses, saying: Suckle him and, when thou fearest for him, then cast him into the river and fear not nor grieve. Lo! We shall bring him back unto thee and shall make him (one) of Our messengers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے موسٰی کی ماں کی طرف وحی بھیجی کہ اس کو دودھ پلاؤ جب تم کو اس کے بارے میں کچھ خوف پیدا ہو تو اسے دریا میں ڈال دینا اور نہ تو خوف کرنا اور نہ رنج کرنا۔ ہم اس کو تمہارے پاس واپس پہنچا دیں گے اور (پھر) اُسے پیغمبر بنا دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

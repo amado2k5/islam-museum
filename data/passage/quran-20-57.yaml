@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:57 (سورة طه، الآية 57)."
 text: "قَالَ أَجِئْتَنَا لِتُخْرِجَنَا مِنْ أَرْضِنَا بِسِحْرِكَ يَـٰمُوسَىٰ"
 text_search: "قال أجئتنا لتخرجنا من أرضنا بسحرك يا موسى"
+translations:
+  en: { text: "He said: Hast come to drive us out from our land by thy magic, O Moses?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہنے لگا کہ موسیٰ تم ہمارے پاس اس لئے آئے ہو کہ اپنے جادو (کے زور) سے ہمیں ہمارے ملک سے نکال دو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

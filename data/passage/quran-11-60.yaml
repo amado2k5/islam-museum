@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:60 (سورة هود، الآية 60)."
 text: "وَأُتْبِعُوا۟ فِى هَـٰذِهِ ٱلدُّنْيَا لَعْنَةً وَيَوْمَ ٱلْقِيَـٰمَةِ ۗ أَلَآ إِنَّ عَادًا كَفَرُوا۟ رَبَّهُمْ ۗ أَلَا بُعْدًا لِّعَادٍ قَوْمِ هُودٍ"
 text_search: "وأتبعوا في هذه الدنيا لعنة ويوم القيامة ۗ ألا إن عادا كفروا ربهم ۗ ألا بعدا لعاد قوم هود"
+translations:
+  en: { text: "And a curse was made to follow them in the world and on the Day of Resurrection. Lo! A'ad disbelieved in their Lord. A far removal for A'ad, the folk of Hud!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اس دنیا میں بھی لعنت ان کے پیچھے لگی رہے گی اور قیامت کے دن بھی (لگی رہے گی) دیکھو عاد نے اپنے پروردگار سے کفر کیا۔ (اور) سن رکھو ہود کی قوم عاد پر پھٹکار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

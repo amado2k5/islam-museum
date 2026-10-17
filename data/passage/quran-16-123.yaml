@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:123 (سورة النحل، الآية 123)."
 text: "ثُمَّ أَوْحَيْنَآ إِلَيْكَ أَنِ ٱتَّبِعْ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًا ۖ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ"
 text_search: "ثم أوحينا إليك أن اتبع ملة إبراهيم حنيفا ۖ وما كان من المشركين"
+translations:
+  en: { text: "And afterward We inspired thee (Muhammad, saying): Follow the religion of Abraham, as one by nature upright. He was not of the idolaters.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر ہم نے تمہاری طرف وحی بھیجی کہ دین ابراہیم کی پیروی اختیار کرو جو ایک طرف کے ہو رہے تھے اور مشرکوں میں سے نہ تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:106 (سورة هود، الآية 106)."
 text: "فَأَمَّا ٱلَّذِينَ شَقُوا۟ فَفِى ٱلنَّارِ لَهُمْ فِيهَا زَفِيرٌ وَشَهِيقٌ"
 text_search: "فأما الذين شقوا ففي النار لهم فيها زفير وشهيق"
+translations:
+  en: { text: "As for those who will be wretched (on that day) they will be in the Fire; sighing and wailing will be their portion therein,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جو بدبخت ہوں گے وہ دوزخ میں (ڈال دیئے جائیں گے) اس میں ان کا چلانا اور دھاڑنا ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

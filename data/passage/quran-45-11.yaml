@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:11 (سورة الجاثية، الآية 11)."
 text: "هَـٰذَا هُدًى ۖ وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ رَبِّهِمْ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ"
 text_search: "هذا هدى ۖ والذين كفروا بآيات ربهم لهم عذاب من رجز أليم"
+translations:
+  en: { text: "This is guidance. And those who disbelieve the revelations of their Lord, for them there is a painful doom of wrath.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ ہدایت (کی کتاب) ہے۔ اور جو لوگ اپنے پروردگار کی آیتوں سے انکار کرتے ہیں ان کو سخت قسم کا درد دینے والا عذاب ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

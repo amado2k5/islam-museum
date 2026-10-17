@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:73 (سورة الحج، الآية 73)."
 text: "يَـٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن يَخْلُقُوا۟ ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن يَسْلُبْهُمُ ٱلذُّبَابُ شَيْـًٔا لَّا يَسْتَنقِذُوهُ مِنْهُ ۚ ضَعُفَ ٱلطَّالِبُ وَٱلْمَطْلُوبُ"
 text_search: "يا أيها الناس ضرب مثل فاستمعوا له ۚ إن الذين تدعون من دون الله لن يخلقوا ذبابا ولو اجتمعوا له ۖ وإن يسلبهم الذباب شيئا لا يستنقذوه منه ۚ ضعف الطالب والمطلوب"
+translations:
+  en: { text: "O mankind! A similitude is coined, so pay ye heed to it: Lo! those on whom ye call beside Allah will never create a fly though they combine together for the purpose. And if the fly took something from them, they could not rescue it from it. So weak are (both) the seeker and the sought!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لوگو! ایک مثال بیان کی جاتی ہے اسے غور سے سنو۔ کہ جن لوگوں کو تم خدا کے سوا پکارتے ہو وہ ایک مکھی بھی نہیں بنا سکتے اگرچہ اس کے لئے سب مجتمع ہوجائیں۔ اور اگر ان سے مکھی کوئی چیز لے جائے تو اسے اس سے چھڑا نہیں سکتے۔ طالب اور مطلوب (یعنی عابد اور معبود دونوں) گئے گزرے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

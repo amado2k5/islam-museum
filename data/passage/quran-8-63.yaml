@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:63 (سورة الأنفال، الآية 63)."
 text: "وَأَلَّفَ بَيْنَ قُلُوبِهِمْ ۚ لَوْ أَنفَقْتَ مَا فِى ٱلْأَرْضِ جَمِيعًا مَّآ أَلَّفْتَ بَيْنَ قُلُوبِهِمْ وَلَـٰكِنَّ ٱللَّهَ أَلَّفَ بَيْنَهُمْ ۚ إِنَّهُۥ عَزِيزٌ حَكِيمٌ"
 text_search: "وألف بين قلوبهم ۚ لو أنفقت ما في الأرض جميعا ما ألفت بين قلوبهم ولكن الله ألف بينهم ۚ إنه عزيز حكيم"
+translations:
+  en: { text: "And (as for the believers) hath attuned their hearts. If thou hadst spent all that is in the earth thou couldst not have attuned their hearts, but Allah hath attuned them. Lo! He is Mighty, Wise.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کے دلوں میں الفت پیدا کردی۔ اور اگر تم دنیا بھر کی دولت خرچ کرتے تب بھی ان کے دلوں میں الفت نہ پیدا کرسکتے۔ مگر خدا ہی نے ان میں الفت ڈال دی۔ بےشک وہ زبردست (اور) حکمت والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

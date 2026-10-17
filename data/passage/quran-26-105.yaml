@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:105 (سورة الشعراء، الآية 105)."
 text: "كَذَّبَتْ قَوْمُ نُوحٍ ٱلْمُرْسَلِينَ"
 text_search: "كذبت قوم نوح المرسلين"
+translations:
+  en: { text: "Noah's folk denied the messengers (of Allah),", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "قوم نوح نے بھی پیغمبروں کو جھٹلایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

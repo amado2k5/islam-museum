@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 41:13 (سورة فصلت، الآية 13)."
 text: "فَإِنْ أَعْرَضُوا۟ فَقُلْ أَنذَرْتُكُمْ صَـٰعِقَةً مِّثْلَ صَـٰعِقَةِ عَادٍ وَثَمُودَ"
 text_search: "فإن أعرضوا فقل أنذرتكم صاعقة مثل صاعقة عاد وثمود"
+translations:
+  en: { text: "But if they turn away, then say: I warn you of a thunderbolt like the thunderbolt (which fell of old upon the tribes) of A'ad and Thamud;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر اگر یہ منہ پھیر لیں تو کہہ دو کہ میں تم کو ایسے چنگھاڑ (کے عذاب) سے آگاہ کرتا ہوں جیسے عاد اور ثمود پر چنگھاڑ (کا عذاب آیا تھا)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

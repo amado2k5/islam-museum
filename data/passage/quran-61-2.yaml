@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 61:2 (سورة الصف، الآية 2)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ"
 text_search: "يا أيها الذين آمنوا لم تقولون ما لا تفعلون"
+translations:
+  en: { text: "O ye who believe! Why say ye that which ye do not?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مومنو! تم ایسی باتیں کیوں کہا کرتے ہو جو کیا نہیں کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-61 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

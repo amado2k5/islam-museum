@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:52 (سورة هود، الآية 52)."
 text: "وَيَـٰقَوْمِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًا وَيَزِدْكُمْ قُوَّةً إِلَىٰ قُوَّتِكُمْ وَلَا تَتَوَلَّوْا۟ مُجْرِمِينَ"
 text_search: "ويا قوم استغفروا ربكم ثم توبوا إليه يرسل السماء عليكم مدرارا ويزدكم قوة إلى قوتكم ولا تتولوا مجرمين"
+translations:
+  en: { text: "And, O my people! Ask forgiveness of your Lord, then turn unto Him repentant; He will cause the sky to rain abundance on you and will add unto you strength to your strength. Turn not away, guilty!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اے قوم! اپنے پروردگار سے بخشش مانگو پھر اس کے آگے توبہ کرو۔ وہ تم پر آسمان سے موسلادھار مینہ برسائے گا اور تمہاری طاقت پر طاقت بڑھائے گا اور (دیکھو) گنہگار بن کر روگردانی نہ کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

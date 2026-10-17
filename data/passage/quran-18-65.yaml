@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:65 (سورة الكهف، الآية 65)."
 text: "فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَآ ءَاتَيْنَـٰهُ رَحْمَةً مِّنْ عِندِنَا وَعَلَّمْنَـٰهُ مِن لَّدُنَّا عِلْمًا"
 text_search: "فوجدا عبدا من عبادنا آتيناه رحمة من عندنا وعلمناه من لدنا علما"
+translations:
+  en: { text: "Then found they one of Our slaves, unto whom We had given mercy from Us, and had taught him knowledge from Our presence.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(وہاں) انہوں نے ہمارے بندوں میں سے ایک بندہ دیکھا جس کو ہم نے اپنے ہاں سے رحمت (یعنی نبوت یا نعمت ولایت) دی تھی اور اپنے پاس سے علم بخشا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

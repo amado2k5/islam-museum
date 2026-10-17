@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:80 (سورة النساء، الآية 80)."
 text: "مَّن يُطِعِ ٱلرَّسُولَ فَقَدْ أَطَاعَ ٱللَّهَ ۖ وَمَن تَوَلَّىٰ فَمَآ أَرْسَلْنَـٰكَ عَلَيْهِمْ حَفِيظًا"
 text_search: "من يطع الرسول فقد أطاع الله ۖ ومن تولى فما أرسلناك عليهم حفيظا"
+translations:
+  en: { text: "Whoso obeyeth the messenger hath obeyed Allah, and whoso turneth away: We have not sent thee as a warder over them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص رسول کی فرمانبرداری کرے گا تو بےشک اس نے خدا کی فرمانبرداری کی اور جو نافرمانی کرے گا تو اے پیغمبر تمہیں ہم نے ان کا نگہبان بنا کر نہیں بھیجا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:109 (سورة الإسراء، الآية 109)."
 text: "وَيَخِرُّونَ لِلْأَذْقَانِ يَبْكُونَ وَيَزِيدُهُمْ خُشُوعًا ۩"
 text_search: "ويخرون للأذقان يبكون ويزيدهم خشوعا ۩"
+translations:
+  en: { text: "They fall down on their faces, weeping, and it increaseth humility in them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہ تھوڑیوں کے بل گر پڑتے ہیں (اور) روتے جاتے ہیں اور اس سے ان کو اور زیادہ عاجزی پیدا ہوتی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

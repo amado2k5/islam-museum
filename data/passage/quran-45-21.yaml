@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 45:21 (سورة الجاثية، الآية 21)."
 text: "أَمْ حَسِبَ ٱلَّذِينَ ٱجْتَرَحُوا۟ ٱلسَّيِّـَٔاتِ أَن نَّجْعَلَهُمْ كَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ سَوَآءً مَّحْيَاهُمْ وَمَمَاتُهُمْ ۚ سَآءَ مَا يَحْكُمُونَ"
 text_search: "أم حسب الذين اجترحوا السيئات أن نجعلهم كالذين آمنوا وعملوا الصالحات سواء محياهم ومماتهم ۚ ساء ما يحكمون"
+translations:
+  en: { text: "Or do those who commit ill-deeds suppose that We shall make them as those who believe and do good works, the same in life and death? Bad is their judgment!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ برے کام کرتے ہیں کیا وہ یہ خیال کرتے ہیں کہ ہم ان کو ان لوگوں جیسا کردیں گے جو ایمان لائے اور عمل نیک کرتے رہے اور ان کی زندگی اور موت یکساں ہوگی۔ یہ جو دعوے کرتے ہیں برے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-45 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

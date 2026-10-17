@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 44:36 (سورة الدخان، الآية 36)."
 text: "فَأْتُوا۟ بِـَٔابَآئِنَآ إِن كُنتُمْ صَـٰدِقِينَ"
 text_search: "فأتوا بآبائنا إن كنتم صادقين"
+translations:
+  en: { text: "Bring back our fathers, if ye speak the truth!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پس اگر تم سچے ہو تو ہمارے باپ دادا کو (زندہ کر) لاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

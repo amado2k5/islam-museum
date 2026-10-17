@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:87 (سورة مريم، الآية 87)."
 text: "لَّا يَمْلِكُونَ ٱلشَّفَـٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَـٰنِ عَهْدًا"
 text_search: "لا يملكون الشفاعة إلا من اتخذ عند الرحمن عهدا"
+translations:
+  en: { text: "They will have no power of intercession, save him who hath made a covenant with his Lord.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(تو لوگ) کسی کی سفارش کا اختیار نہ رکھیں گے مگر جس نے خدا سے اقرار لیا ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:22 (سورة غافر، الآية 22)."
 text: "ذَٰلِكَ بِأَنَّهُمْ كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَـٰتِ فَكَفَرُوا۟ فَأَخَذَهُمُ ٱللَّهُ ۚ إِنَّهُۥ قَوِىٌّ شَدِيدُ ٱلْعِقَابِ"
 text_search: "ذلك بأنهم كانت تأتيهم رسلهم بالبينات فكفروا فأخذهم الله ۚ إنه قوي شديد العقاب"
+translations:
+  en: { text: "That was because their messengers kept bringing them clear proofs (of Allah's Sovereignty) but they disbelieved; so Allah seized them. Lo! He is Strong, severe in punishment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ اس لئے کہ ان کے پاس پیغمبر کھلی دلیلیں لاتے تھے تو یہ کفر کرتے تھے سو خدا نے ان کو پکڑ لیا۔ بےشک وہ صاحب قوت (اور) سخت عذاب دینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:48 (سورة القصص، الآية 48)."
 text: "فَلَمَّا جَآءَهُمُ ٱلْحَقُّ مِنْ عِندِنَا قَالُوا۟ لَوْلَآ أُوتِىَ مِثْلَ مَآ أُوتِىَ مُوسَىٰٓ ۚ أَوَلَمْ يَكْفُرُوا۟ بِمَآ أُوتِىَ مُوسَىٰ مِن قَبْلُ ۖ قَالُوا۟ سِحْرَانِ تَظَـٰهَرَا وَقَالُوٓا۟ إِنَّا بِكُلٍّ كَـٰفِرُونَ"
 text_search: "فلما جاءهم الحق من عندنا قالوا لولا أوتي مثل ما أوتي موسى ۚ أولم يكفروا بما أوتي موسى من قبل ۖ قالوا سحران تظاهرا وقالوا إنا بكل كافرون"
+translations:
+  en: { text: "But when there came unto them the Truth from Our presence, they said: Why is he not given the like of what was given unto Moses? Did they not disbelieve in that which was given unto Moses of old? They say: Two magics that support each other; and they say: Lo! in both we are disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر جب اُن کے پاس ہماری طرف سے حق آپہنچا تو کہنے لگے کہ جیسی (نشانیاں) موسٰی کو ملی تھیں ویسی اس کو کیوں نہیں ملیں۔ کیا جو (نشانیاں) پہلے موسٰی کو دی گئی تھیں اُنہوں نے اُن سے کفر نہیں کیا۔ کہنے لگے کہ دونوں جادوگر ہیں ایک دوسرے کے موافق۔ اور بولے کہ ہم سب سے منکر ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

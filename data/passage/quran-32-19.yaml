@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 32:19 (سورة السجدة، الآية 19)."
 text: "أَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمْ جَنَّـٰتُ ٱلْمَأْوَىٰ نُزُلًۢا بِمَا كَانُوا۟ يَعْمَلُونَ"
 text_search: "أما الذين آمنوا وعملوا الصالحات فلهم جنات المأوى نزلا بما كانوا يعملون"
+translations:
+  en: { text: "But as for those who believe and do good works, for them are the Gardens of Retreat - a welcome (in reward) for what they used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ ایمان لائے اور نیک عمل کرتے رہے اُن کے (رہنے کے) لئے باغ ہیں یہ مہمانی اُن کاموں کی جزا ہے جو وہ کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-32 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

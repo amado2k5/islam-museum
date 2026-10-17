@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:130 (سورة طه، الآية 130)."
 text: "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا ۖ وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ"
 text_search: "فاصبر على ما يقولون وسبح بحمد ربك قبل طلوع الشمس وقبل غروبها ۖ ومن آناء الليل فسبح وأطراف النهار لعلك ترضى"
+translations:
+  en: { text: "Therefor (O Muhammad), bear with what they say, and celebrate the praise of thy Lord ere the rising of the sun and ere the going down thereof. And glorify Him some hours of the night and at the two ends of the day, that thou mayst find acceptance.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پس جو کچھ یہ بکواس کرتے ہیں اس پر صبر کرو۔ اور سورج کے نکلنے سے پہلے اور اس کے غروب ہونے سے پہلے اپنے پروردگار کی تسبیح وتحمید کیا کرو۔ اور رات کی ساعات (اولین) میں بھی اس کی تسبیح کیا کرو اور دن کی اطراف (یعنی دوپہر کے قریب ظہر کے وقت بھی) تاکہ تم خوش ہوجاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

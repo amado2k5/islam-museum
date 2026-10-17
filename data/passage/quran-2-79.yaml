@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:79 (سورة البقرة، الآية 79)."
 text: "فَوَيْلٌ لِّلَّذِينَ يَكْتُبُونَ ٱلْكِتَـٰبَ بِأَيْدِيهِمْ ثُمَّ يَقُولُونَ هَـٰذَا مِنْ عِندِ ٱللَّهِ لِيَشْتَرُوا۟ بِهِۦ ثَمَنًا قَلِيلًا ۖ فَوَيْلٌ لَّهُم مِّمَّا كَتَبَتْ أَيْدِيهِمْ وَوَيْلٌ لَّهُم مِّمَّا يَكْسِبُونَ"
 text_search: "فويل للذين يكتبون الكتاب بأيديهم ثم يقولون هذا من عند الله ليشتروا به ثمنا قليلا ۖ فويل لهم مما كتبت أيديهم وويل لهم مما يكسبون"
+translations:
+  en: { text: "Therefore woe be unto those who write the Scripture with their hands and then say, \"This is from Allah,\" that they may purchase a small gain therewith. Woe unto them for that their hands have written, and woe unto them for that they earn thereby.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو ان لوگوں پر افسوس ہے جو اپنے ہاتھ سے تو کتاب لکھتے ہیں اور کہتے یہ ہیں کہ یہ خدا کے پاس سے (آئی) ہے، تاکہ اس کے عوض تھوڑی سے قیمت (یعنی دنیوی منفعت) حاصل کریں۔ ان پر افسوس ہے، اس لیے کہ (بےاصل باتیں) اپنے ہاتھ سے لکھتے ہیں اور (پھر) ان پر افسوس ہے، اس لیے کہ ایسے کام کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

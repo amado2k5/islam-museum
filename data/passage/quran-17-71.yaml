@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:71 (سورة الإسراء، الآية 71)."
 text: "يَوْمَ نَدْعُوا۟ كُلَّ أُنَاسٍۭ بِإِمَـٰمِهِمْ ۖ فَمَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ فَأُو۟لَـٰٓئِكَ يَقْرَءُونَ كِتَـٰبَهُمْ وَلَا يُظْلَمُونَ فَتِيلًا"
 text_search: "يوم ندعو كل أناس بإمامهم ۖ فمن أوتي كتابه بيمينه فأولئك يقرءون كتابهم ولا يظلمون فتيلا"
+translations:
+  en: { text: "On the day when We shall summon all men with their record, whoso is given his book in his right hand - such will read their book and they will not be wronged a shred.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس دن ہم سب لوگوں کو ان کے پیشواؤں کے ساتھ بلائیں گے۔ تو جن (کے اعمال) کی کتاب ان کے داہنے ہاتھ میں دی جائے گی وہ اپنی کتاب کو (خوش ہو ہو کر) پڑھیں گے اور ان پر دھاگے برابر بھی ظلم نہ ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

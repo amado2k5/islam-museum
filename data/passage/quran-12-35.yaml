@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:35 (سورة يوسف، الآية 35)."
 text: "ثُمَّ بَدَا لَهُم مِّنۢ بَعْدِ مَا رَأَوُا۟ ٱلْـَٔايَـٰتِ لَيَسْجُنُنَّهُۥ حَتَّىٰ حِينٍ"
 text_search: "ثم بدا لهم من بعد ما رأوا الآيات ليسجننه حتى حين"
+translations:
+  en: { text: "And it seemed good to them (the men-folk) after they had seen the signs (of his innocence) to imprison him for a time.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر باوجود اس کے کہ وہ لوگ نشان دیکھ چکے تھے ان کی رائے یہی ٹھہری کہ کچھ عرصہ کے لیے ان کو قید ہی کردیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

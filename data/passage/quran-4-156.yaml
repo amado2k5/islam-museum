@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:156 (سورة النساء، الآية 156)."
 text: "وَبِكُفْرِهِمْ وَقَوْلِهِمْ عَلَىٰ مَرْيَمَ بُهْتَـٰنًا عَظِيمًا"
 text_search: "وبكفرهم وقولهم على مريم بهتانا عظيما"
+translations:
+  en: { text: "And because of their disbelief and of their speaking against Mary a tremendous calumny;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کے کفر کے سبب اور مریم پر ایک بہتان عظیم باندھنے کے سبب", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

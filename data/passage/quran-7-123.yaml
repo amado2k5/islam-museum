@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:123 (سورة الأعراف، الآية 123)."
 text: "قَالَ فِرْعَوْنُ ءَامَنتُم بِهِۦ قَبْلَ أَنْ ءَاذَنَ لَكُمْ ۖ إِنَّ هَـٰذَا لَمَكْرٌ مَّكَرْتُمُوهُ فِى ٱلْمَدِينَةِ لِتُخْرِجُوا۟ مِنْهَآ أَهْلَهَا ۖ فَسَوْفَ تَعْلَمُونَ"
 text_search: "قال فرعون آمنتم به قبل أن آذن لكم ۖ إن هذا لمكر مكرتموه في المدينة لتخرجوا منها أهلها ۖ فسوف تعلمون"
+translations:
+  en: { text: "Pharaoh said: Ye believe in Him before I give you leave! Lo! this is the plot that ye have plotted in the city that ye may drive its people hence. But ye shall come to know!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "فرعون نے کہا کہ پیشتر اس کے کہ میں تمہیں اجازت دوں تم اس پر ایمان لے آئے؟ بےشک یہ فریب ہے جو تم نے مل کر شہر میں کیا ہے تاکہ اہلِ شہر کو یہاں سے نکال دو۔ سو عنقریب (اس کا نتیجہ) معلوم کرلو گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

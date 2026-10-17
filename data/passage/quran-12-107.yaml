@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:107 (سورة يوسف، الآية 107)."
 text: "أَفَأَمِنُوٓا۟ أَن تَأْتِيَهُمْ غَـٰشِيَةٌ مِّنْ عَذَابِ ٱللَّهِ أَوْ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ"
 text_search: "أفأمنوا أن تأتيهم غاشية من عذاب الله أو تأتيهم الساعة بغتة وهم لا يشعرون"
+translations:
+  en: { text: "Deem they themselves secure from the coming on them of a pall of Allah's punishment, or the coming of the Hour suddenly while they are unaware?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا یہ اس (بات) سے بےخوف ہیں کہ ان پر خدا کا عذاب نازل ہو کر ان کو ڈھانپ لے یا ان پر ناگہاں قیامت آجائے اور انہیں خبر بھی نہ ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

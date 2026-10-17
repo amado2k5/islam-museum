@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:112 (سورة الشعراء، الآية 112)."
 text: "قَالَ وَمَا عِلْمِى بِمَا كَانُوا۟ يَعْمَلُونَ"
 text_search: "قال وما علمي بما كانوا يعملون"
+translations:
+  en: { text: "He said: And what knowledge have I of what they may have been doing (in the past)?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "نوح نے کہا کہ مجھے کیا معلوم کہ وہ کیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

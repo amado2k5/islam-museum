@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:52 (سورة الزمر، الآية 52)."
 text: "أَوَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ"
 text_search: "أولم يعلموا أن الله يبسط الرزق لمن يشاء ويقدر ۚ إن في ذلك لآيات لقوم يؤمنون"
+translations:
+  en: { text: "Know they not that Allah enlargeth providence for whom He will, and straiteneth it (for whom He will). Lo! herein verily are portents for people who believe.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا ان کو معلوم نہیں کہ خدا ہی جس کے لئے چاہتا ہے رزق کو فراخ کردیتا ہے اور (جس کے لئے چاہتا ہے) تنگ کر دیتا ہے۔ جو لوگ ایمان لاتے ہیں ان کے لئے اس میں (بہت سی) نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

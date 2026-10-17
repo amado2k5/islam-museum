@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:74 (سورة الزمر، الآية 74)."
 text: "وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى صَدَقَنَا وَعْدَهُۥ وَأَوْرَثَنَا ٱلْأَرْضَ نَتَبَوَّأُ مِنَ ٱلْجَنَّةِ حَيْثُ نَشَآءُ ۖ فَنِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ"
 text_search: "وقالوا الحمد لله الذي صدقنا وعده وأورثنا الأرض نتبوأ من الجنة حيث نشاء ۖ فنعم أجر العاملين"
+translations:
+  en: { text: "They say: Praise be to Allah, Who hath fulfilled His promise unto us and hath made us inherit the land, sojourning in the Garden where we will! So bounteous is the wage of workers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ کہیں گے کہ خدا کا شکر ہے جس نے اپنے وعدہ کو ہم سے سچا کردیا اور ہم کو اس زمین کا وارث بنا دیا ہم بہشت میں جس مکان میں چاہیں رہیں تو (اچھے) عمل کرنے والوں کا بدلہ بھی کیسا خوب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

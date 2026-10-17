@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 103:1 (سورة العصر، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ وَٱلْعَصْرِ"
 text_search: "بسم الله الرحمن الرحيم والعصر"
+translations:
+  en: { text: "By the declining day,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "عصر کی قسم", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-103 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

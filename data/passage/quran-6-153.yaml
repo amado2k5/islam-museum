@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:153 (سورة الأنعام، الآية 153)."
 text: "وَأَنَّ هَـٰذَا صِرَٰطِى مُسْتَقِيمًا فَٱتَّبِعُوهُ ۖ وَلَا تَتَّبِعُوا۟ ٱلسُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِۦ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَتَّقُونَ"
 text_search: "وأن هذا صراطي مستقيما فاتبعوه ۖ ولا تتبعوا السبل فتفرق بكم عن سبيله ۚ ذلكم وصاكم به لعلكم تتقون"
+translations:
+  en: { text: "And (He commandeth you, saying): This is My straight path, so follow it. Follow not other ways, lest ye be parted from His way. This hath He ordained for you, that ye may ward off (evil).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ کہ میرا سیدھا رستہ یہی ہے تو تم اسی پر چلنا اور اور رستوں پر نہ چلنا کہ (ان پر چل کر) خدا کے رستے سے الگ ہو جاؤ گے ان باتوں کا خدا تمہیں حکم دیتا ہے تاکہ تم پرہیزگار بنو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

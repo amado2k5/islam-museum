@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:53 (سورة الحج، الآية 53)."
 text: "لِّيَجْعَلَ مَا يُلْقِى ٱلشَّيْطَـٰنُ فِتْنَةً لِّلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْقَاسِيَةِ قُلُوبُهُمْ ۗ وَإِنَّ ٱلظَّـٰلِمِينَ لَفِى شِقَاقٍۭ بَعِيدٍ"
 text_search: "ليجعل ما يلقي الشيطان فتنة للذين في قلوبهم مرض والقاسية قلوبهم ۗ وإن الظالمين لفي شقاق بعيد"
+translations:
+  en: { text: "That He may make that which the devil proposeth a temptation for those in whose hearts is a disease, and those whose hearts are hardened - Lo! the evil-doers are in open schism -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "غرض (اس سے) یہ ہے کہ جو (وسوسہ) شیطان ڈالتا ہے اس کو ان لوگوں کے لئے جن کے دلوں میں بیماری ہے اور جن کے دل سخت ہیں ذریعہ آزمائش ٹھہرائے۔ بےشک ظالم پرلے درجے کی مخالفت میں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

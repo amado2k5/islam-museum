@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:197 (سورة الشعراء، الآية 197)."
 text: "أَوَلَمْ يَكُن لَّهُمْ ءَايَةً أَن يَعْلَمَهُۥ عُلَمَـٰٓؤُا۟ بَنِىٓ إِسْرَٰٓءِيلَ"
 text_search: "أولم يكن لهم آية أن يعلمه علماء بني إسرائيل"
+translations:
+  en: { text: "Is it not a token for them that the doctors of the Children of Israel know it?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا ان کے لئے یہ سند نہیں ہے کہ علمائے بنی اسرائیل اس (بات) کو جانتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

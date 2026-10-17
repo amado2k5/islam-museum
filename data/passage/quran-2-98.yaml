@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:98 (سورة البقرة، الآية 98)."
 text: "مَن كَانَ عَدُوًّا لِّلَّهِ وَمَلَـٰٓئِكَتِهِۦ وَرُسُلِهِۦ وَجِبْرِيلَ وَمِيكَىٰلَ فَإِنَّ ٱللَّهَ عَدُوٌّ لِّلْكَـٰفِرِينَ"
 text_search: "من كان عدوا لله وملائكته ورسله وجبريل وميكال فإن الله عدو للكافرين"
+translations:
+  en: { text: "Who is an enemy to Allah, and His angels and His messengers, and Gabriel and Michael! Then, lo! Allah (Himself) is an enemy to the disbelievers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص خدا کا اور اس کے فرشتوں کا اور اس کے پیغمبروں کا اور جبرئیل اور میکائیل کا دشمن ہو تو ایسے کافروں کا خدا دشمن ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

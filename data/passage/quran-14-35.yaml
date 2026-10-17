@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 14:35 (سورة إبراهيم، الآية 35)."
 text: "وَإِذْ قَالَ إِبْرَٰهِيمُ رَبِّ ٱجْعَلْ هَـٰذَا ٱلْبَلَدَ ءَامِنًا وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ"
 text_search: "وإذ قال إبراهيم رب اجعل هذا البلد آمنا واجنبني وبني أن نعبد الأصنام"
+translations:
+  en: { text: "And when Abraham said: My Lord! Make safe this territory, and preserve me and my sons from serving idols.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ابراہیم نے دعا کی کہ میرے پروردگار اس شہر کو (لوگوں کے لیے) امن کی جگہ بنا دے۔ اور مجھے اور میری اولاد کو اس بات سے کہ بتوں کی پرستش کرنے لگیں بچائے رکھ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-14 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

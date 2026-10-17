@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:73 (سورة الأنبياء، الآية 73)."
 text: "وَجَعَلْنَـٰهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ وَإِقَامَ ٱلصَّلَوٰةِ وَإِيتَآءَ ٱلزَّكَوٰةِ ۖ وَكَانُوا۟ لَنَا عَـٰبِدِينَ"
 text_search: "وجعلناهم أئمة يهدون بأمرنا وأوحينا إليهم فعل الخيرات وإقام الصلاة وإيتاء الزكاة ۖ وكانوا لنا عابدين"
+translations:
+  en: { text: "And We made them chiefs who guide by Our command, and We inspired in them the doing of good deeds and the right establishment of worship and the giving of alms, and they were worshippers of Us (alone).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ان کو پیشوا بنایا کہ ہمارے حکم سے ہدایت کرتے تھے اور ان کو نیک کام کرنے اور نماز پڑھنے اور زکوٰة دینے کا حکم بھیجا۔ اور وہ ہماری عبادت کیا کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

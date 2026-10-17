@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:164 (سورة النساء، الآية 164)."
 text: "وَرُسُلًا قَدْ قَصَصْنَـٰهُمْ عَلَيْكَ مِن قَبْلُ وَرُسُلًا لَّمْ نَقْصُصْهُمْ عَلَيْكَ ۚ وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًا"
 text_search: "ورسلا قد قصصناهم عليك من قبل ورسلا لم نقصصهم عليك ۚ وكلم الله موسى تكليما"
+translations:
+  en: { text: "And messengers We have mentioned unto thee before and messengers We have not mentioned unto thee; and Allah spake directly unto Moses;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور بہت سے پیغمبر ہیں جن کے حالات ہم تم سے پیشتر بیان کرچکے ہیں اور بہت سے پیغمبر ہیں جن کے حالات تم سے بیان نہیں کئے۔ اور موسیٰ سے تو خدا نے باتیں بھی کیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

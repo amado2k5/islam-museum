@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:61 (سورة الأنعام، الآية 61)."
 text: "وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۖ وَيُرْسِلُ عَلَيْكُمْ حَفَظَةً حَتَّىٰٓ إِذَا جَآءَ أَحَدَكُمُ ٱلْمَوْتُ تَوَفَّتْهُ رُسُلُنَا وَهُمْ لَا يُفَرِّطُونَ"
 text_search: "وهو القاهر فوق عباده ۖ ويرسل عليكم حفظة حتى إذا جاء أحدكم الموت توفته رسلنا وهم لا يفرطون"
+translations:
+  en: { text: "He is the Omnipotent over His slaves. He sendeth guardians over you until, when death cometh unto one of you, Our messengers receive him, and they neglect not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہ اپنے بندوں پر غالب ہے۔ اور تم پر نگہبان مقرر کئے رکھتا ہے۔ یہاں تک کہ جب تم میں سے کسی کی موت آتی ہے تو ہمارے فرشتے اس کی روح قبض کرلیتے ہیں اور وہ کسی طرح کی کوتاہی نہیں کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

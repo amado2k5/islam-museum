@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:21 (سورة الزمر، الآية 21)."
 text: "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَلَكَهُۥ يَنَـٰبِيعَ فِى ٱلْأَرْضِ ثُمَّ يُخْرِجُ بِهِۦ زَرْعًا مُّخْتَلِفًا أَلْوَٰنُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَجْعَلُهُۥ حُطَـٰمًا ۚ إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَـٰبِ"
 text_search: "ألم تر أن الله أنزل من السماء ماء فسلكه ينابيع في الأرض ثم يخرج به زرعا مختلفا ألوانه ثم يهيج فتراه مصفرا ثم يجعله حطاما ۚ إن في ذلك لذكرى لأولي الألباب"
+translations:
+  en: { text: "Hast thou not seen how Allah hath sent down water from the sky and hath caused it to penetrate the earth as watersprings, and afterward thereby produceth crops of divers hues; and afterward they wither and thou seest them turn yellow; then He maketh them chaff. Lo! herein verily is a reminder for men of understanding.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم نے نہیں دیکھا کہ خدا آسمان سے پانی نازل کرتا پھر اس کو زمین میں چشمے بنا کر جاری کرتا پھر اس سے کھیتی اُگاتا ہے جس کے طرح طرح کے رنگ ہوتے ہیں۔ پھر وہ خشک ہوجاتی ہے تو تم اس کو دیکھتے ہو (کہ) زرد (ہوگئی ہے) پھر اسے چورا چورا کر دیتا ہے۔ بےشک اس میں عقل والوں کے لئے نصیحت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

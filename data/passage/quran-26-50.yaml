@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:50 (سورة الشعراء، الآية 50)."
 text: "قَالُوا۟ لَا ضَيْرَ ۖ إِنَّآ إِلَىٰ رَبِّنَا مُنقَلِبُونَ"
 text_search: "قالوا لا ضير ۖ إنا إلى ربنا منقلبون"
+translations:
+  en: { text: "They said: It is no hurt, for lo! unto our Lord we shall return.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا کہ کچھ نقصان (کی بات) نہیں ہم اپنے پروردگار کی طرف لوٹ جانے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

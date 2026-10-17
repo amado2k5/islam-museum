@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 58:7 (سورة المجادلة، الآية 7)."
 text: "أَلَمْ تَرَ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ مَا يَكُونُ مِن نَّجْوَىٰ ثَلَـٰثَةٍ إِلَّا هُوَ رَابِعُهُمْ وَلَا خَمْسَةٍ إِلَّا هُوَ سَادِسُهُمْ وَلَآ أَدْنَىٰ مِن ذَٰلِكَ وَلَآ أَكْثَرَ إِلَّا هُوَ مَعَهُمْ أَيْنَ مَا كَانُوا۟ ۖ ثُمَّ يُنَبِّئُهُم بِمَا عَمِلُوا۟ يَوْمَ ٱلْقِيَـٰمَةِ ۚ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ"
 text_search: "ألم تر أن الله يعلم ما في السماوات وما في الأرض ۖ ما يكون من نجوى ثلاثة إلا هو رابعهم ولا خمسة إلا هو سادسهم ولا أدنى من ذلك ولا أكثر إلا هو معهم أين ما كانوا ۖ ثم ينبئهم بما عملوا يوم القيامة ۚ إن الله بكل شيء عليم"
+translations:
+  en: { text: "Hast thou not seen that Allah knoweth all that is in the heavens and all that is in the earth? There is no secret conference of three but He is their fourth, nor of five but He is their sixth, nor of less than that or more but He is with them wheresoever they may be; and afterward, on the Day of Resurrection, He will inform them of what they did. Lo! Allah is Knower of all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم کو معلوم نہیں کہ جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے خدا کو سب معلوم ہے۔ (کسی جگہ) تین (شخصوں) کا (مجمع اور) کانوں میں صلاح ومشورہ نہیں ہوتا مگر وہ ان میں چوتھا ہوتا ہے اور نہ کہیں پانچ کا مگر وہ ان میں چھٹا ہوتا ہے اور نہ اس سے کم یا زیادہ مگر وہ ان کے ساتھ ہوتا ہے خواہ وہ کہیں ہوں۔ پھر جو جو کام یہ کرتے رہے ہیں قیامت کے دن وہ (ایک ایک) ان کو بتائے گا۔ بےشک خدا ہر چیز سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-58 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

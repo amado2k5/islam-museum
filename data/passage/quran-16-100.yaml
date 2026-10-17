@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:100 (سورة النحل، الآية 100)."
 text: "إِنَّمَا سُلْطَـٰنُهُۥ عَلَى ٱلَّذِينَ يَتَوَلَّوْنَهُۥ وَٱلَّذِينَ هُم بِهِۦ مُشْرِكُونَ"
 text_search: "إنما سلطانه على الذين يتولونه والذين هم به مشركون"
+translations:
+  en: { text: "His power is only over those who make a friend of him, and those who ascribe partners unto Him (Allah).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس کا زور ان ہی لوگوں پر چلتا ہے جو اس کو رفیق بناتے ہیں اور اس کے (وسوسے کے) سبب (خدا کے ساتھ) شریک مقرر کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

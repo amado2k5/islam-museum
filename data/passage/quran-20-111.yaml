@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:111 (سورة طه، الآية 111)."
 text: "۞ وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا"
 text_search: "۞ وعنت الوجوه للحي القيوم ۖ وقد خاب من حمل ظلما"
+translations:
+  en: { text: "And faces humble themselves before the Living, the Eternal. And he who beareth (a burden of) wrongdoing is indeed a failure (on that day).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس زندہ و قائم کے رو برو منہ نیچے ہوجائیں گے۔ اور جس نے ظلم کا بوجھ اٹھایا وہ نامراد رہا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

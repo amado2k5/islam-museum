@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 58:4 (سورة المجادلة، الآية 4)."
 text: "فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ مِن قَبْلِ أَن يَتَمَآسَّا ۖ فَمَن لَّمْ يَسْتَطِعْ فَإِطْعَامُ سِتِّينَ مِسْكِينًا ۚ ذَٰلِكَ لِتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۗ وَلِلْكَـٰفِرِينَ عَذَابٌ أَلِيمٌ"
 text_search: "فمن لم يجد فصيام شهرين متتابعين من قبل أن يتماسا ۖ فمن لم يستطع فإطعام ستين مسكينا ۚ ذلك لتؤمنوا بالله ورسوله ۚ وتلك حدود الله ۗ وللكافرين عذاب أليم"
+translations:
+  en: { text: "And he who findeth not (the wherewithal), let him fast for two successive months before they touch one another; and for him who is unable to do so (the penance is) the feeding of sixty needy ones. This, that ye may put trust in Allah and His messenger. Such are the limits (imposed by Allah); and for disbelievers is a painful doom.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جس کو غلام نہ ملے وہ مجامعت سے پہلے متواتر دو مہینے کے روزے (رکھے) جس کو اس کا بھی مقدور نہ ہوا (اسے) ساٹھ مسکینوں کو کھانا کھلانا (چاہیئے) ۔ یہ (حکم) اس لئے (ہے) کہ تم خدا اور اسکے رسول کے فرمانبردار ہوجاؤ۔ اور یہ خدا کی حدیں ہیں۔ اور نہ ماننے والوں کے لئے درد دینے والا عذاب ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-58 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:17 (سورة مريم، الآية 17)."
 text: "فَٱتَّخَذَتْ مِن دُونِهِمْ حِجَابًا فَأَرْسَلْنَآ إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًا سَوِيًّا"
 text_search: "فاتخذت من دونهم حجابا فأرسلنا إليها روحنا فتمثل لها بشرا سويا"
+translations:
+  en: { text: "And had chosen seclusion from them. Then We sent unto her Our Spirit and it assumed for her the likeness of a perfect man.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو انہوں نے ان کی طرف سے پردہ کرلیا۔ (اس وقت) ہم نے ان کی طرف اپنا فرشتہ بھیجا۔ تو ان کے سامنے ٹھیک آدمی (کی شکل) بن گیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

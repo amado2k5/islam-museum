@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:63 (سورة النمل، الآية 63)."
 text: "أَمَّن يَهْدِيكُمْ فِى ظُلُمَـٰتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَـٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦٓ ۗ أَءِلَـٰهٌ مَّعَ ٱللَّهِ ۚ تَعَـٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ"
 text_search: "أمن يهديكم في ظلمات البر والبحر ومن يرسل الرياح بشرا بين يدي رحمته ۗ أإله مع الله ۚ تعالى الله عما يشركون"
+translations:
+  en: { text: "Is not He (best) Who guideth you in the darkness of the land and the sea, He Who sendeth the winds as heralds of His mercy? Is there any Allah beside Allah? High Exalted be Allah from all that they ascribe as partner (unto Him)!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا کون تم کو جنگل اور دریا کے اندھیروں میں رستہ بناتا ہے اور (کون) ہواؤں کو اپنی رحمت کے آگے خوشخبری بناکر بھیجتا ہے (یہ سب کچھ خدا کرتا ہے) تو کیا خدا کے ساتھ کوئی اور معبود بھی ہے؟ (ہرگز نہیں) ۔ یہ لوگ جو شرک کرتے ہیں خدا (کی شان) اس سے بلند ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

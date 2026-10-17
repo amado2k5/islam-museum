@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:85 (سورة الأنبياء، الآية 85)."
 text: "وَإِسْمَـٰعِيلَ وَإِدْرِيسَ وَذَا ٱلْكِفْلِ ۖ كُلٌّ مِّنَ ٱلصَّـٰبِرِينَ"
 text_search: "وإسماعيل وإدريس وذا الكفل ۖ كل من الصابرين"
+translations:
+  en: { text: "And (mention) Ishmael, and Idris, and Dhu'l-Kifl. All were of the steadfast.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اسمٰعیل اور ادریس اور ذوالکفل (کو بھی یاد کرو) یہ سب صبر کرنے والے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

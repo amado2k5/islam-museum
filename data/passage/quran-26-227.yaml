@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:227 (سورة الشعراء، الآية 227)."
 text: "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَذَكَرُوا۟ ٱللَّهَ كَثِيرًا وَٱنتَصَرُوا۟ مِنۢ بَعْدِ مَا ظُلِمُوا۟ ۗ وَسَيَعْلَمُ ٱلَّذِينَ ظَلَمُوٓا۟ أَىَّ مُنقَلَبٍ يَنقَلِبُونَ"
 text_search: "إلا الذين آمنوا وعملوا الصالحات وذكروا الله كثيرا وانتصروا من بعد ما ظلموا ۗ وسيعلم الذين ظلموا أي منقلب ينقلبون"
+translations:
+  en: { text: "Save those who believe and do good works, and remember Allah much, and vindicate themselves after they have been wronged. Those who do wrong will come to know by what a (great) reverse they will be overturned!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر جو لوگ ایمان لائے اور نیک کام کئے اور خدا کو بہت یاد کرتے رہے اور اپنے اوپر ظلم ہونے کے بعد انتقام لیا اور ظالم عنقریب جان لیں گے کہ کون سی جگہ لوٹ کر جاتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

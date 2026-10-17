@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:38 (سورة الأنعام، الآية 38)."
 text: "وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ وَلَا طَـٰٓئِرٍ يَطِيرُ بِجَنَاحَيْهِ إِلَّآ أُمَمٌ أَمْثَالُكُم ۚ مَّا فَرَّطْنَا فِى ٱلْكِتَـٰبِ مِن شَىْءٍ ۚ ثُمَّ إِلَىٰ رَبِّهِمْ يُحْشَرُونَ"
 text_search: "وما من دابة في الأرض ولا طائر يطير بجناحيه إلا أمم أمثالكم ۚ ما فرطنا في الكتاب من شيء ۚ ثم إلى ربهم يحشرون"
+translations:
+  en: { text: "There is not an animal in the earth, nor a flying creature flying on two wings, but they are peoples like unto you. We have neglected nothing in the Book (of Our decrees). Then unto their Lord they will be gathered.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور زمین میں جو چلنے پھرنے والا (حیوان) یا دو پروں سے اڑنے والا جانور ہے ان کی بھی تم لوگوں کی طرح جماعتیں ہیں۔ ہم نے کتاب (یعنی لوح محفوظ) میں کسی چیز (کے لکھنے) میں کوتاہی نہیں کی پھر سب اپنے پروردگار کی طرف جمع کئے جائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

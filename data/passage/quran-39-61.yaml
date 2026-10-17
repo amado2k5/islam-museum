@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:61 (سورة الزمر، الآية 61)."
 text: "وَيُنَجِّى ٱللَّهُ ٱلَّذِينَ ٱتَّقَوْا۟ بِمَفَازَتِهِمْ لَا يَمَسُّهُمُ ٱلسُّوٓءُ وَلَا هُمْ يَحْزَنُونَ"
 text_search: "وينجي الله الذين اتقوا بمفازتهم لا يمسهم السوء ولا هم يحزنون"
+translations:
+  en: { text: "And Allah delivereth those who ward off (evil) because of their deserts. Evil toucheth them not, nor do they grieve.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو پرہیزگار ہیں ان کی (سعادت اور) کامیابی کے سبب خدا ان کو نجات دے گا نہ تو ان کو کوئی سختی پہنچے گی اور نہ غمناک ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

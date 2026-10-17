@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:73 (سورة هود، الآية 73)."
 text: "قَالُوٓا۟ أَتَعْجَبِينَ مِنْ أَمْرِ ٱللَّهِ ۖ رَحْمَتُ ٱللَّهِ وَبَرَكَـٰتُهُۥ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ ۚ إِنَّهُۥ حَمِيدٌ مَّجِيدٌ"
 text_search: "قالوا أتعجبين من أمر الله ۖ رحمت الله وبركاته عليكم أهل البيت ۚ إنه حميد مجيد"
+translations:
+  en: { text: "They said: Wonderest thou at the commandment of Allah? The mercy of Allah and His blessings be upon you, O people of the house! Lo! He is Owner of Praise, Owner of Glory!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا کیا تم خدا کی قدرت سے تعجب کرتی ہو؟ اے اہل بیت تم پر خدا کی رحمت اور اس کی برکتیں ہیں۔ وہ سزاوار تعریف اور بزرگوار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

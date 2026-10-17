@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:13 (سورة الأنبياء، الآية 13)."
 text: "لَا تَرْكُضُوا۟ وَٱرْجِعُوٓا۟ إِلَىٰ مَآ أُتْرِفْتُمْ فِيهِ وَمَسَـٰكِنِكُمْ لَعَلَّكُمْ تُسْـَٔلُونَ"
 text_search: "لا تركضوا وارجعوا إلى ما أترفتم فيه ومساكنكم لعلكم تسألون"
+translations:
+  en: { text: "(But it was said unto them): Flee not, but return to that (existence) which emasculated you and to your dwellings, that ye may be questioned.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مت بھاگو اور جن (نعمتوں) میں تم عیش وآسائش کرتے تھے ان کی اور اپنے گھروں کی طرف لوٹ جاؤ۔ شاید تم سے (اس بارے میں) دریافت کیا جائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

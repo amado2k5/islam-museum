@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:103 (سورة الإسراء، الآية 103)."
 text: "فَأَرَادَ أَن يَسْتَفِزَّهُم مِّنَ ٱلْأَرْضِ فَأَغْرَقْنَـٰهُ وَمَن مَّعَهُۥ جَمِيعًا"
 text_search: "فأراد أن يستفزهم من الأرض فأغرقناه ومن معه جميعا"
+translations:
+  en: { text: "And he wished to scare them from the land, but We drowned him and those with him, all together.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اس نے چاہا کہ ان کو سر زمین (مصر) سے نکال دے تو ہم نے اس کو اور جو اس کے ساتھ تھے سب کو ڈبو دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

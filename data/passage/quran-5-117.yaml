@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:117 (سورة المائدة، الآية 117)."
 text: "مَا قُلْتُ لَهُمْ إِلَّا مَآ أَمَرْتَنِى بِهِۦٓ أَنِ ٱعْبُدُوا۟ ٱللَّهَ رَبِّى وَرَبَّكُمْ ۚ وَكُنتُ عَلَيْهِمْ شَهِيدًا مَّا دُمْتُ فِيهِمْ ۖ فَلَمَّا تَوَفَّيْتَنِى كُنتَ أَنتَ ٱلرَّقِيبَ عَلَيْهِمْ ۚ وَأَنتَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ"
 text_search: "ما قلت لهم إلا ما أمرتني به أن اعبدوا الله ربي وربكم ۚ وكنت عليهم شهيدا ما دمت فيهم ۖ فلما توفيتني كنت أنت الرقيب عليهم ۚ وأنت على كل شيء شهيد"
+translations:
+  en: { text: "I spake unto them only that which Thou commandedst me, (saying): Worship Allah, my Lord and your Lord. I was a witness of them while I dwelt among them, and when Thou tookest me Thou wast the Watcher over them. Thou art Witness over all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "میں نے ان سے کچھ نہیں کہا بجز اس کے جس کا تو نے مجھے حکم دیا ہے وہ یہ کہ تم خدا کی عبادت کرو جو میرا اور تمہارا سب کا پروردگار ہے اور جب تک میں ان میں رہا ان (کے حالات) کی خبر رکھتا رہا جب تو نے مجھے دنیا سے اٹھا لیا تو تو ان کا نگران تھا اور تو ہر چیز سے خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 70:10 (سورة المعارج، الآية 10)."
 text: "وَلَا يَسْـَٔلُ حَمِيمٌ حَمِيمًا"
 text_search: "ولا يسأل حميم حميما"
+translations:
+  en: { text: "And no familiar friend will ask a question of his friend", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کوئی دوست کسی دوست کا پرسان نہ ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-70 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

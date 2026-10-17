@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:113 (سورة المؤمنون، الآية 113)."
 text: "قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ فَسْـَٔلِ ٱلْعَآدِّينَ"
 text_search: "قالوا لبثنا يوما أو بعض يوم فاسأل العادين"
+translations:
+  en: { text: "They will say: We tarried by a day or part of a day. Ask of those who keep count!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ کہیں گے کہ ہم ایک روز یا ایک روز سے بھی کم رہے تھے، شمار کرنے والوں سے پوچھ لیجیئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

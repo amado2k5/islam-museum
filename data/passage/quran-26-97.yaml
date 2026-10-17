@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:97 (سورة الشعراء، الآية 97)."
 text: "تَٱللَّهِ إِن كُنَّا لَفِى ضَلَـٰلٍ مُّبِينٍ"
 text_search: "تالله إن كنا لفي ضلال مبين"
+translations:
+  en: { text: "By Allah, of a truth we were in error manifest", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ خدا کی قسم ہم تو صریح گمراہی میں تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

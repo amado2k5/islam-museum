@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 55:37 (سورة الرحمن، الآية 37)."
 text: "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ"
 text_search: "فإذا انشقت السماء فكانت وردة كالدهان"
+translations:
+  en: { text: "And when the heaven splitteth asunder and becometh rosy like red hide -", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر جب آسمان پھٹ کر تیل کی تلچھٹ کی طرح گلابی ہوجائے گا (تو) وہ کیسا ہولناک دن ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-55 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

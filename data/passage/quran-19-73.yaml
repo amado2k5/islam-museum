@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:73 (سورة مريم، الآية 73)."
 text: "وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَـٰتُنَا بَيِّنَـٰتٍ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَىُّ ٱلْفَرِيقَيْنِ خَيْرٌ مَّقَامًا وَأَحْسَنُ نَدِيًّا"
 text_search: "وإذا تتلى عليهم آياتنا بينات قال الذين كفروا للذين آمنوا أي الفريقين خير مقاما وأحسن نديا"
+translations:
+  en: { text: "And when Our clear revelations are recited unto them, those who disbelieve say unto those who believe: Which of the two parties (yours or ours) is better in position, and more imposing as an army?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ان لوگوں کے سامنے ہماری آیتیں پڑھی جاتی ہیں تو جو کافر ہیں وہ مومنوں سے کہتے ہیں کہ دونوں فریق میں سے مکان کس کے اچھے اور مجلسیں کس کی بہتر ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

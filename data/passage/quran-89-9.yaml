@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 89:9 (سورة الفجر، الآية 9)."
 text: "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ"
 text_search: "وثمود الذين جابوا الصخر بالواد"
+translations:
+  en: { text: "And with (the tribe of) Thamud, who clove the rocks in the valley;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ثمود کے ساتھ (کیا کیا) جو وادئِ (قریٰ) میں پتھر تراشتے تھے (اور گھر بناتے) تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-89 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

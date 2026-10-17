@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:89 (سورة النساء، الآية 89)."
 text: "وَدُّوا۟ لَوْ تَكْفُرُونَ كَمَا كَفَرُوا۟ فَتَكُونُونَ سَوَآءً ۖ فَلَا تَتَّخِذُوا۟ مِنْهُمْ أَوْلِيَآءَ حَتَّىٰ يُهَاجِرُوا۟ فِى سَبِيلِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَخُذُوهُمْ وَٱقْتُلُوهُمْ حَيْثُ وَجَدتُّمُوهُمْ ۖ وَلَا تَتَّخِذُوا۟ مِنْهُمْ وَلِيًّا وَلَا نَصِيرًا"
 text_search: "ودوا لو تكفرون كما كفروا فتكونون سواء ۖ فلا تتخذوا منهم أولياء حتى يهاجروا في سبيل الله ۚ فإن تولوا فخذوهم واقتلوهم حيث وجدتموهم ۖ ولا تتخذوا منهم وليا ولا نصيرا"
+translations:
+  en: { text: "They long that ye should disbelieve even as they disbelieve, that ye may be upon a level (with them). So choose not friends from them till they forsake their homes in the way of Allah; if they turn back (to enmity) then take them and kill them wherever ye find them, and choose no friend nor helper from among them,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "وہ تو یہی چاہتے ہیں کہ جس طرح وہ خود کافر ہیں (اسی طرح) تم بھی کافر ہو کر (سب) برابر ہوجاؤ تو جب تک وہ خدا کی راہ میں وطن نہ چھوڑ جائیں ان میں سے کسی کو دوست نہ بنانا اگر (ترک وطن کو) قبول نہ کریں تو ان کو پکڑ لو اور جہاں پاؤ قتل کردو اور ان میں سے کسی کو اپنا رفیق اور مددگار نہ بناؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

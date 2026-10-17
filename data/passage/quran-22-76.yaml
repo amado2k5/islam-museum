@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:76 (سورة الحج، الآية 76)."
 text: "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۗ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ"
 text_search: "يعلم ما بين أيديهم وما خلفهم ۗ وإلى الله ترجع الأمور"
+translations:
+  en: { text: "He knoweth all that is before them and all that is behind them, and unto Allah all things are returned. $$A", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو ان کے آگے ہے اور جن ان کے پیچھے ہے وہ اس سے واقف ہے۔ اور سب کاموں کا رجوع خدا ہی کی طرف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

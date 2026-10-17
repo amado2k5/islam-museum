@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:123 (سورة النساء، الآية 123)."
 text: "لَّيْسَ بِأَمَانِيِّكُمْ وَلَآ أَمَانِىِّ أَهْلِ ٱلْكِتَـٰبِ ۗ مَن يَعْمَلْ سُوٓءًا يُجْزَ بِهِۦ وَلَا يَجِدْ لَهُۥ مِن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا"
 text_search: "ليس بأمانيكم ولا أماني أهل الكتاب ۗ من يعمل سوءا يجز به ولا يجد له من دون الله وليا ولا نصيرا"
+translations:
+  en: { text: "It will not be in accordance with your desires, nor the desires of the People of the Scripture. He who doeth wrong will have the recompense thereof, and will not find against Allah any protecting friend or helper.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(نجات) نہ تو تمہاری آرزوؤں پر ہے اور نہ اہل کتاب کی آرزوؤں پر۔ جو شخص برے عمل کرے گا اسے اسی (طرح) کا بدلا دیا جائے گا اور وہ خدا کے سوا نہ کسی کو حمایتی پائے گا اور نہ مددگار", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

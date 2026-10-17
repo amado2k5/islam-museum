@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:59 (سورة البقرة، الآية 59)."
 text: "فَبَدَّلَ ٱلَّذِينَ ظَلَمُوا۟ قَوْلًا غَيْرَ ٱلَّذِى قِيلَ لَهُمْ فَأَنزَلْنَا عَلَى ٱلَّذِينَ ظَلَمُوا۟ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَفْسُقُونَ"
 text_search: "فبدل الذين ظلموا قولا غير الذي قيل لهم فأنزلنا على الذين ظلموا رجزا من السماء بما كانوا يفسقون"
+translations:
+  en: { text: "But those who did wrong changed the word which had been told them for another saying, and We sent down upon the evil-doers wrath from heaven for their evil-doing.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جو ظالم تھے، انہوں نے اس لفظ کو، جس کا ان کو حکم دیا تھا، بدل کر اس کی جگہ اور لفظ کہنا شروع کیا، پس ہم نے (ان) ظالموں پر آسمان سے عذاب نازل کیا، کیونکہ نافرمانیاں کئے جاتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

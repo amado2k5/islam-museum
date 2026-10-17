@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:69 (سورة يوسف، الآية 69)."
 text: "وَلَمَّا دَخَلُوا۟ عَلَىٰ يُوسُفَ ءَاوَىٰٓ إِلَيْهِ أَخَاهُ ۖ قَالَ إِنِّىٓ أَنَا۠ أَخُوكَ فَلَا تَبْتَئِسْ بِمَا كَانُوا۟ يَعْمَلُونَ"
 text_search: "ولما دخلوا على يوسف آوى إليه أخاه ۖ قال إني أنا أخوك فلا تبتئس بما كانوا يعملون"
+translations:
+  en: { text: "And when they went in before Joseph, he took his brother unto him, saying: Lo! I, even I, am thy brother, therefore sorrow not for what they did.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب وہ لوگ یوسف کے پاس پہنچے تو یوسف نے اپنے حقیقی بھائی کو اپنے پاس جگہ دی اور کہا کہ میں تمہارا بھائی ہوں تو جو سلوک یہ (ہمارے ساتھ) کرتے رہے ہیں اس پر افسوس نہ کرنا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

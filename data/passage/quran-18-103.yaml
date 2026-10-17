@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:103 (سورة الكهف، الآية 103)."
 text: "قُلْ هَلْ نُنَبِّئُكُم بِٱلْأَخْسَرِينَ أَعْمَـٰلًا"
 text_search: "قل هل ننبئكم بالأخسرين أعمالا"
+translations:
+  en: { text: "Say: Shall We inform you who will be the greatest losers by their works?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ ہم تمہیں بتائیں جو عملوں کے لحاظ سے بڑے نقصان میں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

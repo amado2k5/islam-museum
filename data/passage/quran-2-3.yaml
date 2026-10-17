@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:3 (سورة البقرة، الآية 3)."
 text: "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ"
 text_search: "الذين يؤمنون بالغيب ويقيمون الصلاة ومما رزقناهم ينفقون"
+translations:
+  en: { text: "Who believe in the Unseen, and establish worship, and spend of that We have bestowed upon them;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو غیب پر ایمان لاتے اور آداب کے ساتھ نماز پڑھتے اور جو کچھ ہم نے ان کو عطا فرمایا ہے اس میں سے خرچ کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

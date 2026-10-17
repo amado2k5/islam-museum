@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 39:32 (سورة الزمر، الآية 32)."
 text: "۞ فَمَنْ أَظْلَمُ مِمَّن كَذَبَ عَلَى ٱللَّهِ وَكَذَّبَ بِٱلصِّدْقِ إِذْ جَآءَهُۥٓ ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْكَـٰفِرِينَ"
 text_search: "۞ فمن أظلم ممن كذب على الله وكذب بالصدق إذ جاءه ۚ أليس في جهنم مثوى للكافرين"
+translations:
+  en: { text: "And who doth greater wrong than he who telleth a lie against Allah, and denieth the truth when it reacheth him? Will not the home of disbelievers be in hell?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو اس سے بڑھ کر ظالم کون جو خدا پر جھوٹ بولے اور سچی بات جب اس کے پاس پہنچ جائے تو اسے جھٹلائے۔ کیا جہنم میں کافروں کا ٹھکانا نہیں ہے؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-39 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

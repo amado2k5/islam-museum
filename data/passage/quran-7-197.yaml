@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:197 (سورة الأعراف، الآية 197)."
 text: "وَٱلَّذِينَ تَدْعُونَ مِن دُونِهِۦ لَا يَسْتَطِيعُونَ نَصْرَكُمْ وَلَآ أَنفُسَهُمْ يَنصُرُونَ"
 text_search: "والذين تدعون من دونه لا يستطيعون نصركم ولا أنفسهم ينصرون"
+translations:
+  en: { text: "They on whom ye call beside Him have no power to help you, nor can they help you, nor can they help themselves.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جن کو تم خدا کے سوا پکارتے ہو وہ نہ تمہاری ہی مدد کی طاقت رکھتے ہیں اور نہ خود ہی اپنی مدد کرسکتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:29 (سورة الكهف، الآية 29)."
 text: "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّـٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا"
 text_search: "وقل الحق من ربكم ۖ فمن شاء فليؤمن ومن شاء فليكفر ۚ إنا أعتدنا للظالمين نارا أحاط بهم سرادقها ۚ وإن يستغيثوا يغاثوا بماء كالمهل يشوي الوجوه ۚ بئس الشراب وساءت مرتفقا"
+translations:
+  en: { text: "Say: (It is) the truth from the Lord of you (all). Then whosoever will, let him believe, and whosoever will, let him disbelieve. Lo! We have prepared for disbelievers Fire. Its tent encloseth them. If they ask for showers, they will be showered with water like to molten lead which burneth the faces. Calamitous the drink and ill the resting-place!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہہ دو کہ (لوگو) یہ قرآن تمہارے پروردگار کی طرف سے برحق ہے تو جو چاہے ایمان لائے اور جو چاہے کافر رہے۔ ہم نے ظالموں کے لئے دوزخ کی آگ تیار کر رکھی ہے جس کی قناتیں ان کو گھیر رہی ہوں گی۔ اور اگر فریاد کریں گے تو ایسے کھولتے ہوئے پانی سے ان کی دادرسی کی جائے گی (جو) پگھلے ہوئے تانبے کی طرح (گرم ہوگا اور جو) مونہوں کو بھون ڈالے گا (ان کے پینے کا) پانی بھی برا اور آرام گاہ بھی بری", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

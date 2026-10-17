@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:31 (سورة الحج، الآية 31)."
 text: "حُنَفَآءَ لِلَّهِ غَيْرَ مُشْرِكِينَ بِهِۦ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَكَأَنَّمَا خَرَّ مِنَ ٱلسَّمَآءِ فَتَخْطَفُهُ ٱلطَّيْرُ أَوْ تَهْوِى بِهِ ٱلرِّيحُ فِى مَكَانٍ سَحِيقٍ"
 text_search: "حنفاء لله غير مشركين به ۚ ومن يشرك بالله فكأنما خر من السماء فتخطفه الطير أو تهوي به الريح في مكان سحيق"
+translations:
+  en: { text: "Turning unto Allah (only), not ascribing partners unto Him; for whoso ascribeth partners unto Allah, it is as if he had fallen from the sky and the birds had snatched him or the wind had blown him to a far-off place.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "صرف ایک خدا کے ہو کر اس کے ساتھ شریک نہ ٹھیرا کر۔ اور جو شخص (کسی کو) خدا کے ساتھ شریک مقرر کرے تو وہ گویا ایسا ہے جیسے آسمان سے گر پڑے پھر اس کو پرندے اُچک لے جائیں یا ہوا کسی دور جگہ اُڑا کر پھینک دے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

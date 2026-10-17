@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:83 (سورة الإسراء، الآية 83)."
 text: "وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَـٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ ۖ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَـُٔوسًا"
 text_search: "وإذا أنعمنا على الإنسان أعرض ونأى بجانبه ۖ وإذا مسه الشر كان يئوسا"
+translations:
+  en: { text: "And when We make life pleasant unto man, he turneth away and is averse; and when ill toucheth him he is in despair.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ہم انسان کو نعمت بخشتے ہیں تو ردگرداں ہوجاتا اور پہلو پھیر لیتا ہے۔ اور جب اسے سختی پہنچتی ہے تو ناامید ہوجاتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

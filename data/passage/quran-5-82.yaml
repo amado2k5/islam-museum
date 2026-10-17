@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 5:82 (سورة المائدة، الآية 82)."
 text: "۞ لَتَجِدَنَّ أَشَدَّ ٱلنَّاسِ عَدَٰوَةً لِّلَّذِينَ ءَامَنُوا۟ ٱلْيَهُودَ وَٱلَّذِينَ أَشْرَكُوا۟ ۖ وَلَتَجِدَنَّ أَقْرَبَهُم مَّوَدَّةً لِّلَّذِينَ ءَامَنُوا۟ ٱلَّذِينَ قَالُوٓا۟ إِنَّا نَصَـٰرَىٰ ۚ ذَٰلِكَ بِأَنَّ مِنْهُمْ قِسِّيسِينَ وَرُهْبَانًا وَأَنَّهُمْ لَا يَسْتَكْبِرُونَ"
 text_search: "۞ لتجدن أشد الناس عداوة للذين آمنوا اليهود والذين أشركوا ۖ ولتجدن أقربهم مودة للذين آمنوا الذين قالوا إنا نصارى ۚ ذلك بأن منهم قسيسين ورهبانا وأنهم لا يستكبرون"
+translations:
+  en: { text: "Thou wilt find the most vehement of mankind in hostility to those who believe (to be) the Jews and the idolaters. And thou wilt find the nearest of them in affection to those who believe (to be) those who say: Lo! We are Christians. That is because there are among them priests and monks, and because they are not proud.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے پیغمبرﷺ!) تم دیکھو گے کہ مومنوں کے ساتھ سب سے زیادہ دشمنی کرنے والے یہودی اور مشرک ہیں اور دوستی کے لحاظ سے مومنوں سے قریب تر ان لوگوں کو پاؤ گے جو کہتے ہیں کہ ہم نصاریٰ ہیں یہ اس لیے کہ ان میں عالم بھی ہیں اور مشائخ بھی اور وہ تکبر نہیں کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

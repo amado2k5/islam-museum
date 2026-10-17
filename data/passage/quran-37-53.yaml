@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:53 (سورة الصافات، الآية 53)."
 text: "أَءِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَدِينُونَ"
 text_search: "أإذا متنا وكنا ترابا وعظاما أإنا لمدينون"
+translations:
+  en: { text: "Can we, when we are dead and have become mere dust and bones - can we (then) verily be brought to book?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بھلا جب ہم مر گئے اور مٹی اور ہڈیاں ہوگئے تو کیا ہم کو بدلہ ملے گا؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

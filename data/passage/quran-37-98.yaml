@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:98 (سورة الصافات، الآية 98)."
 text: "فَأَرَادُوا۟ بِهِۦ كَيْدًا فَجَعَلْنَـٰهُمُ ٱلْأَسْفَلِينَ"
 text_search: "فأرادوا به كيدا فجعلناهم الأسفلين"
+translations:
+  en: { text: "And they designed a snare for him, but We made them the undermost.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "غرض انہوں نے ان کے ساتھ ایک چال چلنی چاہی اور ہم نے ان ہی کو زیر کردیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

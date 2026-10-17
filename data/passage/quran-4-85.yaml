@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:85 (سورة النساء، الآية 85)."
 text: "مَّن يَشْفَعْ شَفَـٰعَةً حَسَنَةً يَكُن لَّهُۥ نَصِيبٌ مِّنْهَا ۖ وَمَن يَشْفَعْ شَفَـٰعَةً سَيِّئَةً يَكُن لَّهُۥ كِفْلٌ مِّنْهَا ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقِيتًا"
 text_search: "من يشفع شفاعة حسنة يكن له نصيب منها ۖ ومن يشفع شفاعة سيئة يكن له كفل منها ۗ وكان الله على كل شيء مقيتا"
+translations:
+  en: { text: "Whoso interveneth in a good cause will have the reward thereof, and whoso interveneth in an evil cause will bear the consequence thereof. Allah overseeth all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو شخص نیک بات کی سفارش کرے تو اس کو اس (کے ثواب) میں سے حصہ ملے گا اور جو بری بات کی سفارش کرے اس کو اس (کے عذاب) میں سے حصہ ملے گا اور خدا ہر چیز پر قدرت رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

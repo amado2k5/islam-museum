@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:53 (سورة آل عمران، الآية 53)."
 text: "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ"
 text_search: "ربنا آمنا بما أنزلت واتبعنا الرسول فاكتبنا مع الشاهدين"
+translations:
+  en: { text: "Our Lord! We believe in that which Thou hast revealed and we follow him whom Thou hast sent. Enrol us among those who witness (to the truth).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے پروردگار جو (کتاب) تو نے نازل فرمائی ہے ہم اس پر ایمان لے آئے اور (تیرے) پیغمبر کے متبع ہو چکے تو ہم کو ماننے والوں میں لکھ رکھ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

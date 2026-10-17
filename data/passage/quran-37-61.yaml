@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 37:61 (سورة الصافات، الآية 61)."
 text: "لِمِثْلِ هَـٰذَا فَلْيَعْمَلِ ٱلْعَـٰمِلُونَ"
 text_search: "لمثل هذا فليعمل العاملون"
+translations:
+  en: { text: "For the like of this, then, let the workers work.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ایسی ہی (نعمتوں) کے لئے عمل کرنے والوں کو عمل کرنے چاہئیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-37 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

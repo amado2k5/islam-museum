@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:32 (سورة النساء، الآية 32)."
 text: "وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍ ۚ لِّلرِّجَالِ نَصِيبٌ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌ مِّمَّا ٱكْتَسَبْنَ ۚ وَسْـَٔلُوا۟ ٱللَّهَ مِن فَضْلِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ بِكُلِّ شَىْءٍ عَلِيمًا"
 text_search: "ولا تتمنوا ما فضل الله به بعضكم على بعض ۚ للرجال نصيب مما اكتسبوا ۖ وللنساء نصيب مما اكتسبن ۚ واسألوا الله من فضله ۗ إن الله كان بكل شيء عليما"
+translations:
+  en: { text: "And covet not the thing in which Allah hath made some of you excel others. Unto men a fortune from that which they have earned, and unto women a fortune from that which they have earned. (Envy not one another) but ask Allah of His bounty. Lo! Allah is ever Knower of all things.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جس چیز میں خدا نے تم میں سے بعض کو بعض پر فضیلت دی ہے اس کی ہوس مت کرو مردوں کو ان کاموں کا ثواب ہے جو انہوں نے کئے اور عورتوں کو ان کاموں کا ثواب ہے جو انہوں نے کئے اور خدا سے اس کا فضل (وکرم) مانگتے رہو کچھ شک نہیں کہ خدا ہر چیز سے واقف ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

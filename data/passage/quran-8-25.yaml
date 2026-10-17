@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:25 (سورة الأنفال، الآية 25)."
 text: "وَٱتَّقُوا۟ فِتْنَةً لَّا تُصِيبَنَّ ٱلَّذِينَ ظَلَمُوا۟ مِنكُمْ خَآصَّةً ۖ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ"
 text_search: "واتقوا فتنة لا تصيبن الذين ظلموا منكم خاصة ۖ واعلموا أن الله شديد العقاب"
+translations:
+  en: { text: "And guard yourselves against a chastisement which cannot fall exclusively on those of you who are wrong-doers, and know that Allah is severe in punishment.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور اس فتنے سے ڈرو جو خصوصیت کے ساتھ انہیں لوگوں پر واقع نہ ہوگا جو تم میں گنہگار ہیں۔ اور جان رکھو کہ خدا سخت عذاب دینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:32 (سورة ق، الآية 32)."
 text: "هَـٰذَا مَا تُوعَدُونَ لِكُلِّ أَوَّابٍ حَفِيظٍ"
 text_search: "هذا ما توعدون لكل أواب حفيظ"
+translations:
+  en: { text: "(And it is said): This is that which ye were promised. (It is) for every penitent and heedful one,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہی وہ چیز ہے جس کا تم سے وعدہ کیا جاتا تھا (یعنی) ہر رجوع لانے والے حفاظت کرنے والے سے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

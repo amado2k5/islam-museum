@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 8:32 (سورة الأنفال، الآية 32)."
 text: "وَإِذْ قَالُوا۟ ٱللَّهُمَّ إِن كَانَ هَـٰذَا هُوَ ٱلْحَقَّ مِنْ عِندِكَ فَأَمْطِرْ عَلَيْنَا حِجَارَةً مِّنَ ٱلسَّمَآءِ أَوِ ٱئْتِنَا بِعَذَابٍ أَلِيمٍ"
 text_search: "وإذ قالوا اللهم إن كان هذا هو الحق من عندك فأمطر علينا حجارة من السماء أو ائتنا بعذاب أليم"
+translations:
+  en: { text: "And when they said: O Allah! If this be indeed the truth from Thee, then rain down stones on us or bring on us some painful doom!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب انہوں نے کہا کہ اے خدا اگر یہ (قرآن) تیری طرف سے برحق ہے تو ہم پر آسمان سے پتھر برسا یا کوئی اور تکلیف دینے والا عذاب بھیج", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-8 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

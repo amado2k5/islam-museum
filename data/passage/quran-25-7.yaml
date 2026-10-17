@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 25:7 (سورة الفرقان، الآية 7)."
 text: "وَقَالُوا۟ مَالِ هَـٰذَا ٱلرَّسُولِ يَأْكُلُ ٱلطَّعَامَ وَيَمْشِى فِى ٱلْأَسْوَاقِ ۙ لَوْلَآ أُنزِلَ إِلَيْهِ مَلَكٌ فَيَكُونَ مَعَهُۥ نَذِيرًا"
 text_search: "وقالوا مال هذا الرسول يأكل الطعام ويمشي في الأسواق ۙ لولا أنزل إليه ملك فيكون معه نذيرا"
+translations:
+  en: { text: "And they say: What aileth this messenger (of Allah) that he eateth food and walketh in the markets? Why is not an angel sent down unto him, to be a warner with him.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کہتے ہیں کہ یہ کیسا پیغمبر ہے کہ کھاتا ہے اور بازاروں میں چلتا پھرتا ہے۔ کیوں نازل نہیں کیا گیا اس کے پاس کوئی فرشتہ اس کے ساتھ ہدایت کرنے کو رہتا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

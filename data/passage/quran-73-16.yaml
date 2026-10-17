@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 73:16 (سورة المزمل، الآية 16)."
 text: "فَعَصَىٰ فِرْعَوْنُ ٱلرَّسُولَ فَأَخَذْنَـٰهُ أَخْذًا وَبِيلًا"
 text_search: "فعصى فرعون الرسول فأخذناه أخذا وبيلا"
+translations:
+  en: { text: "But Pharaoh rebelled against the messenger, whereupon We seized him with no gentle grip.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "سو فرعون نے (ہمارے) پیغمبر کا کہا نہ مانا تو ہم نے اس کو بڑے وبال میں پکڑ لیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-73 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

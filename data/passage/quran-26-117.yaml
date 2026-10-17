@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 26:117 (سورة الشعراء، الآية 117)."
 text: "قَالَ رَبِّ إِنَّ قَوْمِى كَذَّبُونِ"
 text_search: "قال رب إن قومي كذبون"
+translations:
+  en: { text: "He said: My Lord! Lo! my own folk deny me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "نوح نے کہا کہ پروردگار میری قوم نے تو مجھے جھٹلا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

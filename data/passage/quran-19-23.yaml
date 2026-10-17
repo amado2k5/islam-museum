@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:23 (سورة مريم، الآية 23)."
 text: "فَأَجَآءَهَا ٱلْمَخَاضُ إِلَىٰ جِذْعِ ٱلنَّخْلَةِ قَالَتْ يَـٰلَيْتَنِى مِتُّ قَبْلَ هَـٰذَا وَكُنتُ نَسْيًا مَّنسِيًّا"
 text_search: "فأجاءها المخاض إلى جذع النخلة قالت يا ليتني مت قبل هذا وكنت نسيا منسيا"
+translations:
+  en: { text: "And the pangs of childbirth drove her unto the trunk of the palm-tree. She said: Oh, would that I had died ere this and had become a thing of naught, forgotten!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر درد زہ ان کو کھجور کے تنے کی طرف لے آیا۔ کہنے لگیں کہ کاش میں اس سے پہلے مرچکتی اور بھولی بسری ہوگئی ہوتی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

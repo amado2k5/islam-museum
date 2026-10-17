@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 70:1 (سورة المعارج، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ سَأَلَ سَآئِلٌۢ بِعَذَابٍ وَاقِعٍ"
 text_search: "بسم الله الرحمن الرحيم سأل سائل بعذاب واقع"
+translations:
+  en: { text: "A questioner questioned concerning the doom about to fall", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ایک طلب کرنے والے نے عذاب طلب کیا جو نازل ہو کر رہے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-70 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

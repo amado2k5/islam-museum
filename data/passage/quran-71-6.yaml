@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 71:6 (سورة نوح، الآية 6)."
 text: "فَلَمْ يَزِدْهُمْ دُعَآءِىٓ إِلَّا فِرَارًا"
 text_search: "فلم يزدهم دعائي إلا فرارا"
+translations:
+  en: { text: "But all my calling doth but add to their repugnance;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "لیکن میرے بلانے سے وہ اور زیادہ گزیر کرتے رہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-71 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

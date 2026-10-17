@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:150 (سورة آل عمران، الآية 150)."
 text: "بَلِ ٱللَّهُ مَوْلَىٰكُمْ ۖ وَهُوَ خَيْرُ ٱلنَّـٰصِرِينَ"
 text_search: "بل الله مولاكم ۖ وهو خير الناصرين"
+translations:
+  en: { text: "But Allah is your Protector, and He is the Best of Helpers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(یہ تمہارے مددگار نہیں ہیں) بلکہ خدا تمہارا مددگار ہے اور وہ سب سے بہتر مددگار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

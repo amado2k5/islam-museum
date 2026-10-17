@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 30:47 (سورة الروم، الآية 47)."
 text: "وَلَقَدْ أَرْسَلْنَا مِن قَبْلِكَ رُسُلًا إِلَىٰ قَوْمِهِمْ فَجَآءُوهُم بِٱلْبَيِّنَـٰتِ فَٱنتَقَمْنَا مِنَ ٱلَّذِينَ أَجْرَمُوا۟ ۖ وَكَانَ حَقًّا عَلَيْنَا نَصْرُ ٱلْمُؤْمِنِينَ"
 text_search: "ولقد أرسلنا من قبلك رسلا إلى قومهم فجاءوهم بالبينات فانتقمنا من الذين أجرموا ۖ وكان حقا علينا نصر المؤمنين"
+translations:
+  en: { text: "Verily We sent before thee (Muhammad) messengers to their own folk. Then we took vengeance upon those who were guilty (in regard to them). To help believers is ever incumbent upon Us.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور ہم نے تم سے پہلے بھی پیغمبر ان کی قوم کی طرف بھیجے تو وہ اُن کے پاس نشانیاں لےکر آئے سو جو لوگ نافرمانی کرتے تھے ہم نے اُن سے بدلہ لےکر چھوڑا اور مومنوں کی مدد ہم پر لازم تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-30 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

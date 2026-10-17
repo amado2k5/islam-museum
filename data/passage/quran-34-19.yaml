@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 34:19 (سورة سبأ، الآية 19)."
 text: "فَقَالُوا۟ رَبَّنَا بَـٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ فَجَعَلْنَـٰهُمْ أَحَادِيثَ وَمَزَّقْنَـٰهُمْ كُلَّ مُمَزَّقٍ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ"
 text_search: "فقالوا ربنا باعد بين أسفارنا وظلموا أنفسهم فجعلناهم أحاديث ومزقناهم كل ممزق ۚ إن في ذلك لآيات لكل صبار شكور"
+translations:
+  en: { text: "But they said: Our Lord! Make the stage between our journeys longer. And they wronged themselves, therefore We made them bywords (in the land) and scattered them abroad, a total scattering. Lo! herein verily are portents for each steadfast, grateful (heart).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو انہوں نے دعا کی کہ اے پروردگار ہماری مسافتوں میں بُعد (اور طول پیدا) کردے اور (اس سے) انہوں نے اپنے حق میں ظلم کیا تو ہم نے (انہیں نابود کرکے) ان کے افسانے بنادیئے اور انہیں بالکل منتشر کردیا۔ اس میں ہر صابر وشاکر کے لئے نشانیاں ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

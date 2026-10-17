@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:3 (سورة النور، الآية 3)."
 text: "ٱلزَّانِى لَا يَنكِحُ إِلَّا زَانِيَةً أَوْ مُشْرِكَةً وَٱلزَّانِيَةُ لَا يَنكِحُهَآ إِلَّا زَانٍ أَوْ مُشْرِكٌ ۚ وَحُرِّمَ ذَٰلِكَ عَلَى ٱلْمُؤْمِنِينَ"
 text_search: "الزاني لا ينكح إلا زانية أو مشركة والزانية لا ينكحها إلا زان أو مشرك ۚ وحرم ذلك على المؤمنين"
+translations:
+  en: { text: "The adulterer shall not marry save an adulteress or an idolatress, and the adulteress none shall marry save an adulterer or an idolater. All that is forbidden unto believers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بدکار مرد تو بدکار یا مشرک عورت کے سوا نکاح نہیں کرتا اور بدکار عورت کو بھی بدکار یا مشرک مرد کے سوا اور کوئی نکاح میں نہیں لاتا اور یہ (یعنی بدکار عورت سے نکاح کرنا) مومنوں پر حرام ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

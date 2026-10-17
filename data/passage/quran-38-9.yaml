@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:9 (سورة ص، الآية 9)."
 text: "أَمْ عِندَهُمْ خَزَآئِنُ رَحْمَةِ رَبِّكَ ٱلْعَزِيزِ ٱلْوَهَّابِ"
 text_search: "أم عندهم خزائن رحمة ربك العزيز الوهاب"
+translations:
+  en: { text: "Or are theirs the treasures of the mercy of thy Lord, the Mighty, the Bestower?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا ان کے پاس تمہارے پروردگار کی رحمت کے خزانے ہیں جو غالب اور بہت عطا کرنے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

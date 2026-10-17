@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:8 (سورة النمل، الآية 8)."
 text: "فَلَمَّا جَآءَهَا نُودِىَ أَنۢ بُورِكَ مَن فِى ٱلنَّارِ وَمَنْ حَوْلَهَا وَسُبْحَـٰنَ ٱللَّهِ رَبِّ ٱلْعَـٰلَمِينَ"
 text_search: "فلما جاءها نودي أن بورك من في النار ومن حولها وسبحان الله رب العالمين"
+translations:
+  en: { text: "But when he reached it, he was called, saying: Blessed is Whosoever is in the fire and Whosoever is round about it! And Glorified be Allah, the Lord of the Worlds!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب موسیٰ اس کے پاس آئے تو ندا آئی کہ وہ جو آگ میں (تجلّی دکھاتا) ہے بابرکت ہے۔ اور جو آگ کے اردگرد ہیں اور خدا جو تمام عالم کا پروردگار ہے پاک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

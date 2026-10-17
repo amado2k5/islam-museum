@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:40 (سورة طه، الآية 40)."
 text: "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ ۖ فَرَجَعْنَـٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًا فَنَجَّيْنَـٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّـٰكَ فُتُونًا ۚ فَلَبِثْتَ سِنِينَ فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يَـٰمُوسَىٰ"
 text_search: "إذ تمشي أختك فتقول هل أدلكم على من يكفله ۖ فرجعناك إلى أمك كي تقر عينها ولا تحزن ۚ وقتلت نفسا فنجيناك من الغم وفتناك فتونا ۚ فلبثت سنين في أهل مدين ثم جئت على قدر يا موسى"
+translations:
+  en: { text: "When thy sister went and said: Shall I show you one who will nurse him? and we restored thee to thy mother that her eyes might be refreshed and might not sorrow. And thou didst kill a man and We delivered thee from great distress, and tried thee with a heavy trial. And thou didst tarry years among the folk of Midian. Then camest thou (hither) by (My) providence, O Moses,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب تمہاری بہن (فرعون کے ہاں) گئی اور کہنے لگی کہ میں تمہیں ایسا شخص بتاؤں جو اس کو پالے۔ تو (اس طریق سے) ہم نے تم کو تمہاری ماں کے پاس پہنچا دیا تاکہ ان کی آنکھیں ٹھنڈی ہوں اور وہ رنج نہ کریں۔ اور تم نے ایک شخص کو مار ڈالا تو ہم نے تم کو غم سے مخلصی دی اور ہم نے تمہاری (کئی بار) آزمائش کی۔ پھر تم کئی سال اہل مدین میں ٹھہرے رہے۔ پھر اے موسیٰ تم (قابلیت رسالت کے) اندازے پر آ پہنچے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

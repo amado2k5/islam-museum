@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 49:12 (سورة الحجرات، الآية 12)."
 text: "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱجْتَنِبُوا۟ كَثِيرًا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌ ۖ وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا فَكَرِهْتُمُوهُ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ تَوَّابٌ رَّحِيمٌ"
 text_search: "يا أيها الذين آمنوا اجتنبوا كثيرا من الظن إن بعض الظن إثم ۖ ولا تجسسوا ولا يغتب بعضكم بعضا ۚ أيحب أحدكم أن يأكل لحم أخيه ميتا فكرهتموه ۚ واتقوا الله ۚ إن الله تواب رحيم"
+translations:
+  en: { text: "O ye who believe! Shun much suspicion; for lo! some suspicion is a crime. And spy not, neither backbite one another. Would one of you love to eat the flesh of his dead brother? Ye abhor that (so abhor the other)! And keep your duty (to Allah). Lo! Allah is Relenting, Merciful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اے اہل ایمان! بہت گمان کرنے سے احتراز کرو کہ بعض گمان گناہ ہیں۔ اور ایک دوسرے کے حال کا تجسس نہ کیا کرو اور نہ کوئی کسی کی غیبت کرے۔ کیا تم میں سے کوئی اس بات کو پسند کرے گا کہ اپنے مرے ہوئے بھائی کا گوشت کھائے؟ اس سے تو تم ضرور نفرت کرو گے۔ (تو غیبت نہ کرو) اور خدا کا ڈر رکھو بےشک خدا توبہ قبول کرنے والا مہربان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-49 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:87 (سورة الكهف، الآية 87)."
 text: "قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًا نُّكْرًا"
 text_search: "قال أما من ظلم فسوف نعذبه ثم يرد إلى ربه فيعذبه عذابا نكرا"
+translations:
+  en: { text: "He said: As for him who doeth wrong, we shall punish him, and then he will be brought back unto his Lord, Who will punish him with awful punishment!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ذوالقرنین نے کہا کہ جو (کفر وبدکرداری سے) ظلم کرے گا اسے ہم عذاب دیں گے۔ پھر (جب) وہ اپنے پروردگار کی طرف لوٹایا جائے گا تو وہ بھی اسے بُرا عذاب دے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

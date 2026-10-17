@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 28:60 (سورة القصص، الآية 60)."
 text: "وَمَآ أُوتِيتُم مِّن شَىْءٍ فَمَتَـٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا وَزِينَتُهَا ۚ وَمَا عِندَ ٱللَّهِ خَيْرٌ وَأَبْقَىٰٓ ۚ أَفَلَا تَعْقِلُونَ"
 text_search: "وما أوتيتم من شيء فمتاع الحياة الدنيا وزينتها ۚ وما عند الله خير وأبقى ۚ أفلا تعقلون"
+translations:
+  en: { text: "And whatsoever ye have been given is a comfort of the life of the world and an ornament thereof; and that which Allah hath is better and more lasting. Have ye then no sense?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو چیز تم کو دی گئی ہے وہ دنیا کی زندگی کا فائدہ اور اس کی زینت ہے۔ اور جو خدا کے پاس ہے وہ بہتر اور باقی رہنے والی ہے۔ کیا تم سمجھتے نہیں؟", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

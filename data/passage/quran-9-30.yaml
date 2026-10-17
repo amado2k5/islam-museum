@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:30 (سورة التوبة، الآية 30)."
 text: "وَقَالَتِ ٱلْيَهُودُ عُزَيْرٌ ٱبْنُ ٱللَّهِ وَقَالَتِ ٱلنَّصَـٰرَى ٱلْمَسِيحُ ٱبْنُ ٱللَّهِ ۖ ذَٰلِكَ قَوْلُهُم بِأَفْوَٰهِهِمْ ۖ يُضَـٰهِـُٔونَ قَوْلَ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ ۚ قَـٰتَلَهُمُ ٱللَّهُ ۚ أَنَّىٰ يُؤْفَكُونَ"
 text_search: "وقالت اليهود عزير ابن الله وقالت النصارى المسيح ابن الله ۖ ذلك قولهم بأفواههم ۖ يضاهئون قول الذين كفروا من قبل ۚ قاتلهم الله ۚ أنى يؤفكون"
+translations:
+  en: { text: "And the Jews say: Ezra is the son of Allah, and the Christians say: The Messiah is the son of Allah. That is their saying with their mouths. They imitate the saying of those who disbelieved of old. Allah (Himself) fighteth against them. How perverse are they!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہود کہتے ہیں کہ عُزیر خدا کے بیٹے ہیں اور عیسائی کہتے ہیں کہ مسیح خدا کے بیٹے ہیں۔ یہ ان کے منہ کی باتیں ہیں پہلے کافر بھی اسی طرح کی باتیں کہا کرتے تھے یہ بھی انہیں کی ریس کرنے میں لگے ہیں۔ خدا ان کو ہلاک کرے۔ یہ کہاں بہکے پھرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

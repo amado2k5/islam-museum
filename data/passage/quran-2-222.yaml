@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:222 (سورة البقرة، الآية 222)."
 text: "وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ ۖ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلْمُتَطَهِّرِينَ"
 text_search: "ويسألونك عن المحيض ۖ قل هو أذى فاعتزلوا النساء في المحيض ۖ ولا تقربوهن حتى يطهرن ۖ فإذا تطهرن فأتوهن من حيث أمركم الله ۚ إن الله يحب التوابين ويحب المتطهرين"
+translations:
+  en: { text: "They question thee (O Muhammad) concerning menstruation. Say: It is an illness, so let women alone at such times and go not in unto them till they are cleansed. And when they have purified themselves, then go in unto them as Allah hath enjoined upon you. Truly Allah loveth those who turn unto Him, and loveth those who have a care for cleanness.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تم سے حیض کے بارے میں دریافت کرتے ہیں۔ کہہ دو کہ وہ تو نجاست ہے۔ سو ایام حیض میں عورتوں سے کنارہ کش رہو۔ اور جب تک پاک نہ ہوجائیں ان سے مقاربت نہ کرو۔ ہاں جب پاک ہوجائیں تو جس طریق سے خدا نے ارشاد فرمایا ہے ان کے پاس جاؤ۔ کچھ شک نہیں کہ خدا توبہ کرنے والوں اور پاک صاف رہنے والوں کو دوست رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

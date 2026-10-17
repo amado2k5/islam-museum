@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 67:24 (سورة الملك، الآية 24)."
 text: "قُلْ هُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ"
 text_search: "قل هو الذي ذرأكم في الأرض وإليه تحشرون"
+translations:
+  en: { text: "Say: He it is Who multiplieth you in the earth, and unto Whom ye will be gathered.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ وہی ہے جس نے تم کو زمین میں پھیلایا اور اسی کے روبرو تم جمع کئے جاؤ گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-67 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

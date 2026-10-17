@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:33 (سورة الأعراف، الآية 33)."
 text: "قُلْ إِنَّمَا حَرَّمَ رَبِّىَ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ وَٱلْإِثْمَ وَٱلْبَغْىَ بِغَيْرِ ٱلْحَقِّ وَأَن تُشْرِكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ"
 text_search: "قل إنما حرم ربي الفواحش ما ظهر منها وما بطن والإثم والبغي بغير الحق وأن تشركوا بالله ما لم ينزل به سلطانا وأن تقولوا على الله ما لا تعلمون"
+translations:
+  en: { text: "Say: My Lord forbiddeth only indecencies, such of them as are apparent and such as are within, and sin and wrongful oppression, and that ye associate with Allah that for which no warrant hath been revealed, and that ye tell concerning Allah that which ye know not.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ میرے پروردگار نے تو بےحیائی کی باتوں کو ظاہر ہوں یا پوشیدہ اور گناہ کو اور ناحق زیادتی کرنے کو حرام کیا ہے۔ اور اس کو بھی کہ تم کسی کو خدا کا شریک بناؤ جس کی اس نے کوئی سند نازل نہیں کی اور اس کو بھی کہ خدا کے بارے میں ایسی باتیں کہو جن کا تمہیں کچھ علم نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

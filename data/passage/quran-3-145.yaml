@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 3:145 (سورة آل عمران، الآية 145)."
 text: "وَمَا كَانَ لِنَفْسٍ أَن تَمُوتَ إِلَّا بِإِذْنِ ٱللَّهِ كِتَـٰبًا مُّؤَجَّلًا ۗ وَمَن يُرِدْ ثَوَابَ ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَن يُرِدْ ثَوَابَ ٱلْـَٔاخِرَةِ نُؤْتِهِۦ مِنْهَا ۚ وَسَنَجْزِى ٱلشَّـٰكِرِينَ"
 text_search: "وما كان لنفس أن تموت إلا بإذن الله كتابا مؤجلا ۗ ومن يرد ثواب الدنيا نؤته منها ومن يرد ثواب الآخرة نؤته منها ۚ وسنجزي الشاكرين"
+translations:
+  en: { text: "No soul can ever die except by Allah's leave and at a term appointed. Whoso desireth the reward of the world, We bestow on him thereof; and whoso desireth the reward of the Hereafter, We bestow on him thereof. We shall reward the thankful.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کسی شخص میں طاقت نہیں کہ خدا کے حکم کے بغیر مر جائے (اس نے موت کا) وقت مقرر کر کے لکھ رکھا ہے اور جو شخص دنیا میں (اپنے اعمال کا) بدلہ چاہے اس کو ہم یہیں بدلہ دے دیں گے اور جو آخرت میں طالبِ ثواب ہو اس کو وہاں اجر عطا کریں گے اور ہم شکر گزاروں کو عنقریب (بہت اچھا) صلہ دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

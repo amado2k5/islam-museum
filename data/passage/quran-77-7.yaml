@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 77:7 (سورة المرسلات، الآية 7)."
 text: "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌ"
 text_search: "إنما توعدون لواقع"
+translations:
+  en: { text: "Surely that which ye are promised will befall.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہ جس بات کا تم سے وعدہ کیا جاتا ہے وہ ہو کر رہے گی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-77 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

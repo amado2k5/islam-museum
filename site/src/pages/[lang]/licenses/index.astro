@@ -1,0 +1,97 @@
+---
+// License registry (Phase 3, docs/plan/06): every layer of the museum and its licence —
+// our own code/data/prose, the frozen Tanzil Qur'an text, the media licence whitelist
+// with live counts, and the external pointers (catalogue pages, IIIF manifests) that
+// stay the holding institution's. The per-version audit trail is the git history.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
+import { REPO, realNodes } from "../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const L = T.licenses;
+
+// whitelist, kept in sync with schema/enums/licenses.yaml
+const WHITELIST = [
+  { id: "CC0", url: "https://creativecommons.org/publicdomain/zero/1.0/" },
+  { id: "CC-BY", url: "https://creativecommons.org/licenses/by/4.0/" },
+  { id: "CC-BY-SA", url: "https://creativecommons.org/licenses/by-sa/4.0/" },
+  { id: "PD", url: "https://creativecommons.org/publicdomain/mark/1.0/" },
+  { id: "institution-open", url: "" },
+];
+
+const mediaByLicense = new Map<string, number>();
+for (const n of realNodes) if (n.class === "media") mediaByLicense.set(n.data.license ?? "?", (mediaByLicense.get(n.data.license ?? "?") ?? 0) + 1);
+const iiifCount = realNodes.filter((n) => n.data.iiif_manifest).length;
+
+const layers = [
+  { key: "code", name: L.layer_code, lic: "MIT", url: `${REPO}/blob/main/LICENSE`, note: L.layer_code_note },
+  { key: "data", name: L.layer_data, lic: "CC0", url: "https://creativecommons.org/publicdomain/zero/1.0/", note: L.layer_data_note },
+  { key: "prose", name: L.layer_prose, lic: "CC BY-SA 4.0", url: "https://creativecommons.org/licenses/by-sa/4.0/", note: L.layer_prose_note },
+];
+---
+<BaseLayout lang={lang} title={L.title} description={L.lede} path={`/${lang}/licenses/`}>
+  <PageHeader
+    title={L.title}
+    lede={L.lede}
+    crumbs={[
+      { label: T.entity.breadcrumb, href: `/${lang}/` },
+      { label: L.title },
+    ]}
+    crumbsLabel={T.entity.breadcrumb}
+  />
+  <div class="wrap" style="padding-block:24px">
+    <article class="reading ui-body" style="max-width:52rem">
+      <section aria-labelledby="lic-layers">
+        <h2 id="lic-layers">{L.layers}</h2>
+        <table class="lic-table">
+          <thead><tr><th>{L.col_layer}</th><th>{L.col_license}</th><th>{L.col_note}</th></tr></thead>
+          <tbody>
+            {layers.map((r) => (
+              <tr><td>{r.name}</td><td><a href={r.url} rel="noopener">{r.lic}</a></td><td class="muted">{r.note}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="lic-quran">
+        <h2 id="lic-quran">{L.quran_title}</h2>
+        <p set:html={fmt(L.quran_body, { url: "https://tanzil.net" })} />
+      </section>
+
+      <section aria-labelledby="lic-media">
+        <h2 id="lic-media">{L.media_title}</h2>
+        <p>{L.media_body}</p>
+        <table class="lic-table">
+          <thead><tr><th>{L.col_license}</th><th>{L.col_records}</th></tr></thead>
+          <tbody>
+            {WHITELIST.map((w) => (
+              <tr>
+                <td>{w.url ? <a href={w.url} rel="noopener">{w.id}</a> : w.id}</td>
+                <td class="muted">{fmt(L.records, { n: String(mediaByLicense.get(w.id) ?? 0) })}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="lic-ext">
+        <h2 id="lic-ext">{L.ext_title}</h2>
+        <p>{fmt(L.ext_body, { n: String(iiifCount) })}</p>
+      </section>
+
+      <section aria-labelledby="lic-versions">
+        <h2 id="lic-versions">{L.versions_title}</h2>
+        <p set:html={fmt(L.versions_body, { url: `${REPO}/commits/main` })} />
+      </section>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .lic-table { width: 100%; border-collapse: collapse; margin-block: 10px 4px; font-size: .92rem; }
+  .lic-table th, .lic-table td { text-align: start; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  .lic-table th { color: var(--muted); font-weight: 600; font-size: .82rem; }
+</style>

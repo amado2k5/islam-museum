@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:241 (سورة البقرة، الآية 241)."
 text: "وَلِلْمُطَلَّقَـٰتِ مَتَـٰعٌۢ بِٱلْمَعْرُوفِ ۖ حَقًّا عَلَى ٱلْمُتَّقِينَ"
 text_search: "وللمطلقات متاع بالمعروف ۖ حقا على المتقين"
+translations:
+  en: { text: "For divorced women a provision in kindness: a duty for those who ward off (evil).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور مطلقہ عورتوں کو بھی دستور کے مطابق نان و نفقہ دینا چاہیئے پرہیزگاروں پر (یہ بھی) حق ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

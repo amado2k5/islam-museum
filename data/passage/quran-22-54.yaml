@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:54 (سورة الحج، الآية 54)."
 text: "وَلِيَعْلَمَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّكَ فَيُؤْمِنُوا۟ بِهِۦ فَتُخْبِتَ لَهُۥ قُلُوبُهُمْ ۗ وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ ءَامَنُوٓا۟ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ"
 text_search: "وليعلم الذين أوتوا العلم أنه الحق من ربك فيؤمنوا به فتخبت له قلوبهم ۗ وإن الله لهاد الذين آمنوا إلى صراط مستقيم"
+translations:
+  en: { text: "And that those who have been given knowledge may know that it is the truth from thy Lord, so that they may believe therein and their hearts may submit humbly unto Him. Lo! Allah verily is guiding those who believe unto a right path.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یہ بھی غرض ہے کہ جن لوگوں کو علم عطا ہوا ہے وہ جان لیں کہ وہ (یعنی وحی) تمہارے پروردگار کی طرف سے حق ہے تو وہ اس پر ایمان لائیں اور ان کے دل خدا کے آگے عاجزی کریں۔ اور جو لوگ ایمان لائے ہیں خدا ان کو سیدھے رستے کی طرف ہدایت کرتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

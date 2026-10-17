@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 18:40 (سورة الكهف، الآية 40)."
 text: "فَعَسَىٰ رَبِّىٓ أَن يُؤْتِيَنِ خَيْرًا مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًا مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ صَعِيدًا زَلَقًا"
 text_search: "فعسى ربي أن يؤتين خيرا من جنتك ويرسل عليها حسبانا من السماء فتصبح صعيدا زلقا"
+translations:
+  en: { text: "Yet it may be that my Lord will give me better than thy garden, and will send on it a bolt from heaven, and some morning it will be a smooth hillside,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو عجب نہیں کہ میرا پروردگار مجھے تمہارے باغ سے بہتر عطا فرمائے اور اس (تمہارے باغ) پر آسمان سے آفت بھیج دے تو وہ صاف میدان ہوجائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

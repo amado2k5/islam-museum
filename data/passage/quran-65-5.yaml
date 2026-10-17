@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 65:5 (سورة الطلاق، الآية 5)."
 text: "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُۥٓ إِلَيْكُمْ ۚ وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُعْظِمْ لَهُۥٓ أَجْرًا"
 text_search: "ذلك أمر الله أنزله إليكم ۚ ومن يتق الله يكفر عنه سيئاته ويعظم له أجرا"
+translations:
+  en: { text: "That is the commandment of Allah which He revealeth unto you. And whoso keepeth his duty to Allah, He will remit from him his evil deeds and magnify reward for him.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ خدا کے حکم ہیں جو خدا نے تم پر نازل کئے ہیں۔ اور جو خدا سے ڈرے گا وہ اس سے اس کے گناہ دور کر دے گا اور اسے اجر عظیم بخشے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-65 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:2 (سورة المؤمنون، الآية 2)."
 text: "ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَـٰشِعُونَ"
 text_search: "الذين هم في صلاتهم خاشعون"
+translations:
+  en: { text: "Who are humble in their prayers,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو نماز میں عجزو نیاز کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

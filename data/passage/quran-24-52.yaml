@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 24:52 (سورة النور، الآية 52)."
 text: "وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ وَيَخْشَ ٱللَّهَ وَيَتَّقْهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْفَآئِزُونَ"
 text_search: "ومن يطع الله ورسوله ويخش الله ويتقه فأولئك هم الفائزون"
+translations:
+  en: { text: "He who obeyeth Allah and His messenger, and feareth Allah, and keepeth duty (unto Him): such indeed are the victorious.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جو شخص خدا اور اس کے رسول کی فرمانبرداری کرے گا اور اس سے ڈرے گا تو ایسے لوگ مراد کو پہنچنے والے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-24 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

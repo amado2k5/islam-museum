@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 21:14 (سورة الأنبياء، الآية 14)."
 text: "قَالُوا۟ يَـٰوَيْلَنَآ إِنَّا كُنَّا ظَـٰلِمِينَ"
 text_search: "قالوا يا ويلنا إنا كنا ظالمين"
+translations:
+  en: { text: "They cried: Alas for us! we were wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہنے لگے ہائے شامت بےشک ہم ظالم تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

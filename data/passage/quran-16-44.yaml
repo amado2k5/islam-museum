@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:44 (سورة النحل، الآية 44)."
 text: "بِٱلْبَيِّنَـٰتِ وَٱلزُّبُرِ ۗ وَأَنزَلْنَآ إِلَيْكَ ٱلذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ وَلَعَلَّهُمْ يَتَفَكَّرُونَ"
 text_search: "بالبينات والزبر ۗ وأنزلنا إليك الذكر لتبين للناس ما نزل إليهم ولعلهم يتفكرون"
+translations:
+  en: { text: "With clear proofs and writings; and We have revealed unto thee the Remembrance that thou mayst explain to mankind that which hath been revealed for them, and that haply they may reflect.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اور ان پیغمبروں کو) دلیلیں اور کتابیں دے کر (بھیجا تھا) اور ہم نے تم پر بھی یہ کتاب نازل کی ہے تاکہ جو (ارشادات) لوگوں پر نازل ہوئے ہیں وہ ان پر ظاہر کردو اور تاکہ وہ غور کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

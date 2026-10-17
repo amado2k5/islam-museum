@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:100 (سورة التوبة، الآية 100)."
 text: "وَٱلسَّـٰبِقُونَ ٱلْأَوَّلُونَ مِنَ ٱلْمُهَـٰجِرِينَ وَٱلْأَنصَارِ وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحْسَـٰنٍ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ وَأَعَدَّ لَهُمْ جَنَّـٰتٍ تَجْرِى تَحْتَهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ"
 text_search: "والسابقون الأولون من المهاجرين والأنصار والذين اتبعوهم بإحسان رضي الله عنهم ورضوا عنه وأعد لهم جنات تجري تحتها الأنهار خالدين فيها أبدا ۚ ذلك الفوز العظيم"
+translations:
+  en: { text: "And the first to lead the way, of the Muhajirin and the Ansar, and those who followed them in goodness - Allah is well pleased with them and they are well pleased with Him, and He hath made ready for them Gardens underneath which rivers flow, wherein they will abide for ever. That is the supreme triumph.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جن لوگوں نے سبقت کی (یعنی سب سے) پہلے (ایمان لائے) مہاجرین میں سے بھی اور انصار میں سے بھی۔ اور جنہوں نے نیکو کاری کے ساتھ ان کی پیروی کی خدا ان سے خوش ہے اور وہ خدا سے خوش ہیں اور اس نے ان کے لیے باغات تیار کئے ہیں جن کے نیچے نہریں بہہ رہی ہیں اور ہمیشہ ان میں رہیں گے۔ یہ بڑی کامیابی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:72 (سورة المؤمنون، الآية 72)."
 text: "أَمْ تَسْـَٔلُهُمْ خَرْجًا فَخَرَاجُ رَبِّكَ خَيْرٌ ۖ وَهُوَ خَيْرُ ٱلرَّٰزِقِينَ"
 text_search: "أم تسألهم خرجا فخراج ربك خير ۖ وهو خير الرازقين"
+translations:
+  en: { text: "Or dost thou ask of them (O Muhammad) any tribute? But the bounty of thy Lord is better, for He is Best of all who make provision.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا تم ان سے (تبلیغ کے صلے میں) کچھ مال مانگتے ہو، تو تمہارا پروردگار کا مال بہت اچھا ہے اور وہ سب سے بہتر رزق دینے والا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 38:7 (سورة ص، الآية 7)."
 text: "مَا سَمِعْنَا بِهَـٰذَا فِى ٱلْمِلَّةِ ٱلْـَٔاخِرَةِ إِنْ هَـٰذَآ إِلَّا ٱخْتِلَـٰقٌ"
 text_search: "ما سمعنا بهذا في الملة الآخرة إن هذا إلا اختلاق"
+translations:
+  en: { text: "We have not heard of this in later religion. This is naught but an invention.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یہ پچھلے مذہب میں ہم نے کبھی سنی ہی نہیں۔ یہ بالکل بنائی ہوئی بات ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-38 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

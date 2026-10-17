@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 1:2 (سورة الفاتحة، الآية 2)."
 text: "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ"
 text_search: "الحمد لله رب العالمين"
+translations:
+  en: { text: "Praise be to Allah, Lord of the Worlds,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "سب طرح کی تعریف خدا ہی کو (سزاوار) ہے جو تمام مخلوقات کا پروردگار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-1 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

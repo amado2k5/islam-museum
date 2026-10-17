@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:24 (سورة مريم، الآية 24)."
 text: "فَنَادَىٰهَا مِن تَحْتِهَآ أَلَّا تَحْزَنِى قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيًّا"
 text_search: "فناداها من تحتها ألا تحزني قد جعل ربك تحتك سريا"
+translations:
+  en: { text: "Then (one) cried unto her from below her, saying: Grieve not! Thy Lord hath placed a rivulet beneath thee,", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس وقت ان کے نیچے کی جانب سے فرشتے نے ان کو آواز دی کہ غمناک نہ ہو تمہارے پروردگار نے تمہارے نیچے ایک چشمہ جاری کردیا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

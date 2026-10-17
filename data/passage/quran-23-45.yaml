@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 23:45 (سورة المؤمنون، الآية 45)."
 text: "ثُمَّ أَرْسَلْنَا مُوسَىٰ وَأَخَاهُ هَـٰرُونَ بِـَٔايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ"
 text_search: "ثم أرسلنا موسى وأخاه هارون بآياتنا وسلطان مبين"
+translations:
+  en: { text: "Then We sent Moses and his brother Aaron with Our tokens and a clear warrant", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "پھر ہم نے موسیٰ اور ان کے بھائی ہارون کو اپنی نشانیاں اور دلیل ظاہر دے کر بھیجا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

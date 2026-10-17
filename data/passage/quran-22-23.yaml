@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 22:23 (سورة الحج، الآية 23)."
 text: "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ"
 text_search: "إن الله يدخل الذين آمنوا وعملوا الصالحات جنات تجري من تحتها الأنهار يحلون فيها من أساور من ذهب ولؤلؤا ۖ ولباسهم فيها حرير"
+translations:
+  en: { text: "Lo! Allah will cause those who believe and do good works to enter Gardens underneath which rivers flow, wherein they will be allowed armlets of gold, and pearls, and their raiment therein will be silk.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ ایمان لائے اور عمل نیک کرتے رہے خدا ان کو بہشتوں میں داخل کرے گا جن کے تلے نہریں بہہ رہیں ہیں۔ وہاں ان کو سونے کے کنگن پہنائے جائیں گے اور موتی۔ اور وہاں ان کا لباس ریشمی ہوگا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 2:60 (سورة البقرة، الآية 60)."
 text: "۞ وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۖ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ"
 text_search: "۞ وإذ استسقى موسى لقومه فقلنا اضرب بعصاك الحجر ۖ فانفجرت منه اثنتا عشرة عينا ۖ قد علم كل أناس مشربهم ۖ كلوا واشربوا من رزق الله ولا تعثوا في الأرض مفسدين"
+translations:
+  en: { text: "And when Moses asked for water for his people, We said: Smite with thy staff the rock. And there gushed out therefrom twelve springs (so that) each tribe knew their drinking-place. Eat and drink of that which Allah hath provided, and do not act corruptly, making mischief in the earth.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب موسیٰ نے اپنی قوم کے لیے (خدا سے) پانی مانگا تو ہم نے کہا کہ اپنی لاٹھی پتھر پر مارو۔ (انہوں نے لاٹھی ماری) تو پھر اس میں سے بارہ چشمے پھوٹ نکلے، اور تمام لوگوں نے اپنا اپنا گھاٹ معلوم کر (کے پانی پی) لیا۔ (ہم نے حکم دیا کہ) خدا کی (عطا فرمائی ہوئی) روزی کھاؤ اور پیو، مگر زمین میں فساد نہ کرتے پھرنا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

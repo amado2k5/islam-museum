@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 9:94 (سورة التوبة، الآية 94)."
 text: "يَعْتَذِرُونَ إِلَيْكُمْ إِذَا رَجَعْتُمْ إِلَيْهِمْ ۚ قُل لَّا تَعْتَذِرُوا۟ لَن نُّؤْمِنَ لَكُمْ قَدْ نَبَّأَنَا ٱللَّهُ مِنْ أَخْبَارِكُمْ ۚ وَسَيَرَى ٱللَّهُ عَمَلَكُمْ وَرَسُولُهُۥ ثُمَّ تُرَدُّونَ إِلَىٰ عَـٰلِمِ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ"
 text_search: "يعتذرون إليكم إذا رجعتم إليهم ۚ قل لا تعتذروا لن نؤمن لكم قد نبأنا الله من أخباركم ۚ وسيرى الله عملكم ورسوله ثم تردون إلى عالم الغيب والشهادة فينبئكم بما كنتم تعملون"
+translations:
+  en: { text: "They will make excuse to you (Muslims) when ye return unto them. Say: Make no excuse, for we shall not believe you. Allah hath told us tidings of you. Allah and His messenger will see your conduct, and then ye will be brought back unto Him Who knoweth the Invisible as well as the Visible, and He will tell you what ye used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جب تم ان کے پاس واپس جاؤ گے تو تم سے عذر کریں گے تم کہنا کہ مت عذر کرو ہم ہرگز تمہاری بات نہیں مانیں گے خدا نے ہم کو تمہارے سب حالات بتا دیئے ہیں۔ اور ابھی خدا اور اس کا رسول تمہارے عملوں کو (اور) دیکھیں گے پھر تم غائب وحاضر کے جاننے والے (خدائے واحد) کی طرف لوٹائے جاؤ گے اور جو عمل تم کرتے رہے ہو وہ سب تمہیں بتائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

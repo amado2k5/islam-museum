@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 64:7 (سورة التغابن، الآية 7)."
 text: "زَعَمَ ٱلَّذِينَ كَفَرُوٓا۟ أَن لَّن يُبْعَثُوا۟ ۚ قُلْ بَلَىٰ وَرَبِّى لَتُبْعَثُنَّ ثُمَّ لَتُنَبَّؤُنَّ بِمَا عَمِلْتُمْ ۚ وَذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ"
 text_search: "زعم الذين كفروا أن لن يبعثوا ۚ قل بلى وربي لتبعثن ثم لتنبؤن بما عملتم ۚ وذلك على الله يسير"
+translations:
+  en: { text: "Those who disbelieve assert that they will not be raised again. Say (unto them, O Muhammad): Yea, verily, by my Lord! ye will be raised again and then ye will be informed of what ye did; and that is easy for Allah.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "جو لوگ کافر ہیں ان کا اعتقاد ہے کہ وہ (دوبارہ) ہرگز نہیں اٹھائے جائیں گے۔ کہہ دو کہ ہاں ہاں میرے پروردگار کی قسم تم ضرور اٹھائے جاؤ گے پھر جو کام تم کرتے رہے ہو وہ تمہیں بتائے جائیں گے اور یہ (بات) خدا کو آسان ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-64 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

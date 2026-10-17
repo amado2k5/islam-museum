@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 27:59 (سورة النمل، الآية 59)."
 text: "قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلَـٰمٌ عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰٓ ۗ ءَآللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ"
 text_search: "قل الحمد لله وسلام على عباده الذين اصطفى ۗ آلله خير أما يشركون"
+translations:
+  en: { text: "Say (O Muhammad): Praise be to Allah, and peace be on His slaves whom He hath chosen! Is Allah best, or (all) that ye ascribe as partners (unto Him)?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کہہ دو کہ سب تعریف خدا ہی کو سزاوار ہے اور اس کے بندوں پر سلام ہے جن کو اس نے منتخب فرمایا۔ بھلا خدا بہتر ہے یا وہ جن کو یہ (اس کا شریک) ٹھہراتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-27 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

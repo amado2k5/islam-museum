@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:60 (سورة الأنعام، الآية 60)."
 text: "وَهُوَ ٱلَّذِى يَتَوَفَّىٰكُم بِٱلَّيْلِ وَيَعْلَمُ مَا جَرَحْتُم بِٱلنَّهَارِ ثُمَّ يَبْعَثُكُمْ فِيهِ لِيُقْضَىٰٓ أَجَلٌ مُّسَمًّى ۖ ثُمَّ إِلَيْهِ مَرْجِعُكُمْ ثُمَّ يُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ"
 text_search: "وهو الذي يتوفاكم بالليل ويعلم ما جرحتم بالنهار ثم يبعثكم فيه ليقضى أجل مسمى ۖ ثم إليه مرجعكم ثم ينبئكم بما كنتم تعملون"
+translations:
+  en: { text: "He it is Who gathereth you at night and knoweth that which ye commit by day. Then He raiseth you again to life therein, that the term appointed (for you) may be accomplished. And afterward unto Him is your return. Then He will proclaim unto you what ye used to do.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور وہی تو ہے جو رات کو (سونے کی حالت میں) تمہاری روح قبض کرلیتا ہے اور جو کچھ تم دن میں کرتے ہو اس سے خبر رکھتا ہے پھر تمہیں دن کو اٹھا دیتا ہے تاکہ (یہی سلسلہ جاری رکھ کر زندگی کی) معین مدت پوری کردی جائے پھر تم (سب) کو اسی کی طرف لوٹ کر جانا ہے (اس روز) وہ تم کو تمہارے عمل جو تم کرتے ہو (ایک ایک کرکے) بتائے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 51:59 (سورة الذاريات، الآية 59)."
 text: "فَإِنَّ لِلَّذِينَ ظَلَمُوا۟ ذَنُوبًا مِّثْلَ ذَنُوبِ أَصْحَـٰبِهِمْ فَلَا يَسْتَعْجِلُونِ"
 text_search: "فإن للذين ظلموا ذنوبا مثل ذنوب أصحابهم فلا يستعجلون"
+translations:
+  en: { text: "And lo! for those who (now) do wrong there is an evil day like unto the evil day (which came for) their likes (of old); so let them not ask Me to hasten on (that day).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کچھ شک نہیں کہ ان ظالموں کے لئے بھی (عذاب کی) نوبت مقرر ہے جس طرح ان کے ساتھیوں کی نوبت تھی تو ان کو مجھ سے (عذاب) جلدی نہیں طلب کرنا چاہیئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 56:84 (سورة الواقعة، الآية 84)."
 text: "وَأَنتُمْ حِينَئِذٍ تَنظُرُونَ"
 text_search: "وأنتم حينئذ تنظرون"
+translations:
+  en: { text: "And ye are at that moment looking", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تم اس وقت کی (حالت کو) دیکھا کرتے ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-56 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

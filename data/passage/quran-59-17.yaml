@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 59:17 (سورة الحشر، الآية 17)."
 text: "فَكَانَ عَـٰقِبَتَهُمَآ أَنَّهُمَا فِى ٱلنَّارِ خَـٰلِدَيْنِ فِيهَا ۚ وَذَٰلِكَ جَزَٰٓؤُا۟ ٱلظَّـٰلِمِينَ"
 text_search: "فكان عاقبتهما أنهما في النار خالدين فيها ۚ وذلك جزاء الظالمين"
+translations:
+  en: { text: "And the consequence for both will be that they are in the Fire, therein abiding. Such is the reward of evil-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو دونوں کا انجام یہ ہوا کہ دونوں دوزخ میں (داخل ہوئے) ہمیشہ اس میں رہیں گے۔ اور بےانصافوں کی یہی سزا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-59 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

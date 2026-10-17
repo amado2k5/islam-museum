@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:96 (سورة طه، الآية 96)."
 text: "قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا۟ بِهِۦ فَقَبَضْتُ قَبْضَةً مِّنْ أَثَرِ ٱلرَّسُولِ فَنَبَذْتُهَا وَكَذَٰلِكَ سَوَّلَتْ لِى نَفْسِى"
 text_search: "قال بصرت بما لم يبصروا به فقبضت قبضة من أثر الرسول فنبذتها وكذلك سولت لي نفسي"
+translations:
+  en: { text: "He said: I perceived what they perceive not, so I seized a handful from the footsteps of the messenger, and then threw it in. Thus my soul commended to me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس نے کہا کہ میں نے ایسی چیز دیکھی جو اوروں نے نہیں دیکھی تو میں نے فرشتے کے نقش پا سے (مٹی کی) ایک مٹھی بھر لی۔ پھر اس کو (بچھڑے کے قالب میں) ڈال دیا اور مجھے میرے جی نے (اس کام کو) اچھا بتایا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:75 (سورة يوسف، الآية 75)."
 text: "قَالُوا۟ جَزَٰٓؤُهُۥ مَن وُجِدَ فِى رَحْلِهِۦ فَهُوَ جَزَٰٓؤُهُۥ ۚ كَذَٰلِكَ نَجْزِى ٱلظَّـٰلِمِينَ"
 text_search: "قالوا جزاؤه من وجد في رحله فهو جزاؤه ۚ كذلك نجزي الظالمين"
+translations:
+  en: { text: "They said: The penalty for it! He in whose bag (the cup) is found, he is the penalty for it. Thus we requite wrong-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "انہوں نے کہا کہ اس کی سزا یہ ہے کہ جس کے شلیتے میں وہ دستیاب ہو وہی اس کا بدل قرار دیا جائے ہم ظالموں کو یہی سزا دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

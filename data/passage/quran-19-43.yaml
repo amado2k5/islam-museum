@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 19:43 (سورة مريم، الآية 43)."
 text: "يَـٰٓأَبَتِ إِنِّى قَدْ جَآءَنِى مِنَ ٱلْعِلْمِ مَا لَمْ يَأْتِكَ فَٱتَّبِعْنِىٓ أَهْدِكَ صِرَٰطًا سَوِيًّا"
 text_search: "يا أبت إني قد جاءني من العلم ما لم يأتك فاتبعني أهدك صراطا سويا"
+translations:
+  en: { text: "O my father! Lo! there hath come unto me of knowledge that which came not unto thee. So follow me, and I will lead thee on a right path.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "ابّا مجھے ایسا علم ملا ہے جو آپ کو نہیں ملا ہے تو میرے ساتھ ہوجیئے میں آپ کو سیدھی راہ پر چلا دوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

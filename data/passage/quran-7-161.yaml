@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:161 (سورة الأعراف، الآية 161)."
 text: "وَإِذْ قِيلَ لَهُمُ ٱسْكُنُوا۟ هَـٰذِهِ ٱلْقَرْيَةَ وَكُلُوا۟ مِنْهَا حَيْثُ شِئْتُمْ وَقُولُوا۟ حِطَّةٌ وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا نَّغْفِرْ لَكُمْ خَطِيٓـَٔـٰتِكُمْ ۚ سَنَزِيدُ ٱلْمُحْسِنِينَ"
 text_search: "وإذ قيل لهم اسكنوا هذه القرية وكلوا منها حيث شئتم وقولوا حطة وادخلوا الباب سجدا نغفر لكم خطيئاتكم ۚ سنزيد المحسنين"
+translations:
+  en: { text: "And when it was said unto them: Dwell in this township and eat therefrom whence ye will, and say \"Repentance,\" and enter the gate prostrate; We shall forgive you your sins; We shall increase (reward) for the right-doers.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور (یاد کرو) جب ان سے کہا گیا کہ اس شہر میں سکونت اختیار کرلو اور اس میں جہاں سے جی چاہے کھانا (پینا) اور (ہاں شہر میں جانا تو) حِطّتہٌ کہنا اور دروازے میں داخل ہونا تو سجدہ کرنا۔ ہم تمہارے گناہ معاف کردیں گے۔ اور نیکی کرنے والوں کو اور زیادہ دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

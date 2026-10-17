@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 36:45 (سورة يس، الآية 45)."
 text: "وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ"
 text_search: "وإذا قيل لهم اتقوا ما بين أيديكم وما خلفكم لعلكم ترحمون"
+translations:
+  en: { text: "When it is said unto them: Beware of that which is before you and that which is behind you, that haply ye may find mercy (they are heedless).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب ان سے کہا جاتا ہے کہ جو تمہارے آگے اور جو تمہارے پیچھے ہے اس سے ڈرو تاکہ تم پر رحم کیا جائے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-36 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

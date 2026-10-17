@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 7:4 (سورة الأعراف، الآية 4)."
 text: "وَكَم مِّن قَرْيَةٍ أَهْلَكْنَـٰهَا فَجَآءَهَا بَأْسُنَا بَيَـٰتًا أَوْ هُمْ قَآئِلُونَ"
 text_search: "وكم من قرية أهلكناها فجاءها بأسنا بياتا أو هم قائلون"
+translations:
+  en: { text: "How many a township have We destroyed! As a raid by night, or while they slept at noon, Our terror came unto them.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور کتنی ہی بستیاں ہیں کہ ہم نے تباہ کر ڈالیں جن پر ہمارا عذاب (یا تو رات کو) آتا تھا جبکہ وہ سوتے تھے یا (دن کو) جب وہ قیلولہ (یعنی دوپہر کو آرام) کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

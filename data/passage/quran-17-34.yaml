@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 17:34 (سورة الإسراء، الآية 34)."
 text: "وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۚ وَأَوْفُوا۟ بِٱلْعَهْدِ ۖ إِنَّ ٱلْعَهْدَ كَانَ مَسْـُٔولًا"
 text_search: "ولا تقربوا مال اليتيم إلا بالتي هي أحسن حتى يبلغ أشده ۚ وأوفوا بالعهد ۖ إن العهد كان مسئولا"
+translations:
+  en: { text: "Come not near the wealth of the orphan save with that which is better till he come to strength; and keep the covenant. Lo! of the covenant it will be asked.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور یتیم کے مال کے پاس بھی نہ پھٹکنا مگر ایسے طریق سے کہ بہت بہتر ہو یہاں تک کہ ہو جوانی کو پہنچ جائے۔ اور عہد کو پورا کرو کہ عہد کے بارے میں ضرور پرسش ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

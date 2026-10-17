@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 50:27 (سورة ق، الآية 27)."
 text: "۞ قَالَ قَرِينُهُۥ رَبَّنَا مَآ أَطْغَيْتُهُۥ وَلَـٰكِن كَانَ فِى ضَلَـٰلٍۭ بَعِيدٍ"
 text_search: "۞ قال قرينه ربنا ما أطغيته ولكن كان في ضلال بعيد"
+translations:
+  en: { text: "His comrade saith: Our Lord! I did not cause him to rebel, but he was (himself) far gone in error.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اس کا ساتھی (شیطان) کہے گا کہ اے ہمارے پروردگار میں نے اس کو گمراہ نہیں کیا تھا بلکہ یہ آپ ہی رستے سے دور بھٹکا ہوا تھا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

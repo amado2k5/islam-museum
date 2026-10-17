@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 108:1 (سورة الكوثر، الآية 1)."
 text: "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ"
 text_search: "بسم الله الرحمن الرحيم إنا أعطيناك الكوثر"
+translations:
+  en: { text: "Lo! We have given thee Abundance;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "(اے محمدﷺ) ہم نے تم کو کوثر عطا فرمائی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-108 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

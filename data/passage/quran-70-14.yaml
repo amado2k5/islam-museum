@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 70:14 (سورة المعارج، الآية 14)."
 text: "وَمَن فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ يُنجِيهِ"
 text_search: "ومن في الأرض جميعا ثم ينجيه"
+translations:
+  en: { text: "And all that are in the earth, if then it might deliver him.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جتنے آدمی زمین میں ہیں (غرض) سب (کچھ دے دے) اور اپنے تئیں عذاب سے چھڑا لے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-70 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

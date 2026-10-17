@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 43:52 (سورة الزخرف، الآية 52)."
 text: "أَمْ أَنَا۠ خَيْرٌ مِّنْ هَـٰذَا ٱلَّذِى هُوَ مَهِينٌ وَلَا يَكَادُ يُبِينُ"
 text_search: "أم أنا خير من هذا الذي هو مهين ولا يكاد يبين"
+translations:
+  en: { text: "I am surely better than this fellow, who is despicable and can hardly make (his meaning) plain!", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بےشک میں اس شخص سے جو کچھ عزت نہیں رکھتا اور صاف گفتگو بھی نہیں کرسکتا کہیں بہتر ہوں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

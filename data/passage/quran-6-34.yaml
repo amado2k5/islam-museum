@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 6:34 (سورة الأنعام، الآية 34)."
 text: "وَلَقَدْ كُذِّبَتْ رُسُلٌ مِّن قَبْلِكَ فَصَبَرُوا۟ عَلَىٰ مَا كُذِّبُوا۟ وَأُوذُوا۟ حَتَّىٰٓ أَتَىٰهُمْ نَصْرُنَا ۚ وَلَا مُبَدِّلَ لِكَلِمَـٰتِ ٱللَّهِ ۚ وَلَقَدْ جَآءَكَ مِن نَّبَإِى۟ ٱلْمُرْسَلِينَ"
 text_search: "ولقد كذبت رسل من قبلك فصبروا على ما كذبوا وأوذوا حتى أتاهم نصرنا ۚ ولا مبدل لكلمات الله ۚ ولقد جاءك من نبإ المرسلين"
+translations:
+  en: { text: "Messengers indeed have been denied before thee, and they were patient under the denial and the persecution till Our succour reached them. There is none to alter the decisions of Allah. Already there hath reached thee (somewhat) of the tidings of the messengers (We sent before).", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تم سے پہلے کبھی پیغمبر جھٹلائے جاتے رہے تو وہ تکذیب اور ایذا پر صبر کرتے رہے یہاں تک کہ ان کے پاس ہماری مدد پہنچتی رہی اور خدا کی باتوں کو کوئی بھی بدلنے والا نہیں۔ اور تم کو پیغمبروں (کے احوال) کی خبریں پہنچ چکی ہیں (تو تم بھی صبر سے کام لو)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

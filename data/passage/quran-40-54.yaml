@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:54 (سورة غافر، الآية 54)."
 text: "هُدًى وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَـٰبِ"
 text_search: "هدى وذكرى لأولي الألباب"
+translations:
+  en: { text: "A guide and a reminder for men of understanding.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "عقل والوں کے لئے ہدایت اور نصیحت ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

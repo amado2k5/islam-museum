@@ -12,10 +12,13 @@ summary:
   ar: "القرآن 9:25 (سورة التوبة، الآية 25)."
 text: "لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًٔا وَضَاقَتْ عَلَيْكُمُ ٱلْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُم مُّدْبِرِينَ"
 text_search: "لقد نصركم الله في مواطن كثيرة ۙ ويوم حنين ۙ إذ أعجبتكم كثرتكم فلم تغن عنكم شيئا وضاقت عليكم الأرض بما رحبت ثم وليتم مدبرين"
+translations:
+  en: { text: "Allah hath given you victory on many fields and on the day of Huneyn, when ye exulted in your multitude but it availed you naught, and the earth, vast as it is, was straitened for you; then ye turned back in flight;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے بہت سے موقعوں پر تم کو مدد دی ہے اور (جنگ) حنین کے دن۔ جب تم کو اپنی (جماعت کی) کثرت پر غرّہ تھا تو وہ تمہارے کچھ بھی کام نہ آئی۔ اور زمین باوجود (اتنی بڑی) فراخی کے تم پر تنگ ہوگئی پھر تم پیٹھ پھیر کر پھر گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
   - { type: revealed_about, target: event/battle-of-hunayn }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

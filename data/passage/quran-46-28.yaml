@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 46:28 (سورة الأحقاف، الآية 28)."
 text: "فَلَوْلَا نَصَرَهُمُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ قُرْبَانًا ءَالِهَةًۢ ۖ بَلْ ضَلُّوا۟ عَنْهُمْ ۚ وَذَٰلِكَ إِفْكُهُمْ وَمَا كَانُوا۟ يَفْتَرُونَ"
 text_search: "فلولا نصرهم الذين اتخذوا من دون الله قربانا آلهة ۖ بل ضلوا عنهم ۚ وذلك إفكهم وما كانوا يفترون"
+translations:
+  en: { text: "Then why did those whom they had chosen for gods as a way of approach (unto Allah) not help them? Nay, but they did fail them utterly. And (all) that was their lie, and what they used to invent.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "تو جن کو ان لوگوں نے تقرب (خدا) کے سوا معبود بنایا تھا انہوں نے ان کی کیوں مدد نہ کی۔ بلکہ وہ ان (کے سامنے) سے گم ہوگئے۔ اور یہ ان کا جھوٹ تھا اور یہی وہ افتراء کیا کرتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-46 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

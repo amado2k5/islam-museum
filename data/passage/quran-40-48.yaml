@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 40:48 (سورة غافر، الآية 48)."
 text: "قَالَ ٱلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا كُلٌّ فِيهَآ إِنَّ ٱللَّهَ قَدْ حَكَمَ بَيْنَ ٱلْعِبَادِ"
 text_search: "قال الذين استكبروا إنا كل فيها إن الله قد حكم بين العباد"
+translations:
+  en: { text: "Those who were proud say: Lo! we are all (together) herein. Lo! Allah hath judged between (His) slaves.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "بڑے آدمی کہیں گے کہ تم (بھی اور) ہم (بھی) سب دوزخ میں (رہیں گے) خدا بندوں میں فیصلہ کرچکا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

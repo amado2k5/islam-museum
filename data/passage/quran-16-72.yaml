@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 16:72 (سورة النحل، الآية 72)."
 text: "وَٱللَّهُ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا وَجَعَلَ لَكُم مِّنْ أَزْوَٰجِكُم بَنِينَ وَحَفَدَةً وَرَزَقَكُم مِّنَ ٱلطَّيِّبَـٰتِ ۚ أَفَبِٱلْبَـٰطِلِ يُؤْمِنُونَ وَبِنِعْمَتِ ٱللَّهِ هُمْ يَكْفُرُونَ"
 text_search: "والله جعل لكم من أنفسكم أزواجا وجعل لكم من أزواجكم بنين وحفدة ورزقكم من الطيبات ۚ أفبالباطل يؤمنون وبنعمت الله هم يكفرون"
+translations:
+  en: { text: "And Allah hath given you wives of your own kind, and hath given you, from your wives, sons and grandsons, and hath made provision of good things for you. Is it then in vanity that they believe and in the grace of Allah that they disbelieve?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور خدا ہی نے تم میں سے تمہارے لیے عورتیں پیدا کیں اور عورتوں سے تمہارے بیٹے اور پوتے پیدا کیے اور کھانے کو تمہیں پاکیزہ چیزیں دیں۔ تو کیا بےاصل چیزوں پر اعتقاد رکھتے اور خدا کی نعمتوں سے انکار کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-16 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

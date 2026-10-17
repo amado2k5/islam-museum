@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 4:162 (سورة النساء، الآية 162)."
 text: "لَّـٰكِنِ ٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ مِنْهُمْ وَٱلْمُؤْمِنُونَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ ۚ وَٱلْمُقِيمِينَ ٱلصَّلَوٰةَ ۚ وَٱلْمُؤْتُونَ ٱلزَّكَوٰةَ وَٱلْمُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ أُو۟لَـٰٓئِكَ سَنُؤْتِيهِمْ أَجْرًا عَظِيمًا"
 text_search: "لكن الراسخون في العلم منهم والمؤمنون يؤمنون بما أنزل إليك وما أنزل من قبلك ۚ والمقيمين الصلاة ۚ والمؤتون الزكاة والمؤمنون بالله واليوم الآخر أولئك سنؤتيهم أجرا عظيما"
+translations:
+  en: { text: "But those of them who are firm in knowledge and the believers believe in that which is revealed unto thee, and that which was revealed before thee, especially the diligent in prayer and those who pay the poor-due, the believers in Allah and the Last Day. Upon these We shall bestow immense reward.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "مگر جو لوگ ان میں سے علم میں پکے ہیں اور جو مومن ہیں وہ اس (کتاب) پر جو تم پر نازل ہوئی اور جو (کتابیں) تم سے پہلے نازل ہوئیں (سب پر) ایمان رکھتے ہیں اور نماز پڑھتے ہیں اور زکوٰة دیتے ہیں اور خدا اور روز آخرت کو مانتے ہیں۔ ان کو ہم عنقریب اجر عظیم دیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

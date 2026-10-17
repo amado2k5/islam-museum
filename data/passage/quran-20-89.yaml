@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 20:89 (سورة طه، الآية 89)."
 text: "أَفَلَا يَرَوْنَ أَلَّا يَرْجِعُ إِلَيْهِمْ قَوْلًا وَلَا يَمْلِكُ لَهُمْ ضَرًّا وَلَا نَفْعًا"
 text_search: "أفلا يرون ألا يرجع إليهم قولا ولا يملك لهم ضرا ولا نفعا"
+translations:
+  en: { text: "See they not, then, that it returneth no saying unto them and possesseth for them neither hurt nor use?", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "کیا یہ لوگ نہیں دیکھتے کہ وہ ان کی کسی بات کا جواب نہیں دیتا۔ اور نہ ان کے نقصان اور نفع کا کچھ اختیار رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 33:34 (سورة الأحزاب، الآية 34)."
 text: "وَٱذْكُرْنَ مَا يُتْلَىٰ فِى بُيُوتِكُنَّ مِنْ ءَايَـٰتِ ٱللَّهِ وَٱلْحِكْمَةِ ۚ إِنَّ ٱللَّهَ كَانَ لَطِيفًا خَبِيرًا"
 text_search: "واذكرن ما يتلى في بيوتكن من آيات الله والحكمة ۚ إن الله كان لطيفا خبيرا"
+translations:
+  en: { text: "And bear in mind that which is recited in your houses of the revelations of Allah and wisdom. Lo! Allah is Subtile, Aware.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور تمہارے گھروں میں جو خدا کی آیتیں پڑھی جاتی ہیں اور حکمت (کی باتیں سنائی جاتی ہیں) ان کو یاد رکھو۔ بےشک خدا باریک بیں اور باخبر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-33 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

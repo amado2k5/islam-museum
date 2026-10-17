@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 11:46 (سورة هود، الآية 46)."
 text: "قَالَ يَـٰنُوحُ إِنَّهُۥ لَيْسَ مِنْ أَهْلِكَ ۖ إِنَّهُۥ عَمَلٌ غَيْرُ صَـٰلِحٍ ۖ فَلَا تَسْـَٔلْنِ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۖ إِنِّىٓ أَعِظُكَ أَن تَكُونَ مِنَ ٱلْجَـٰهِلِينَ"
 text_search: "قال يا نوح إنه ليس من أهلك ۖ إنه عمل غير صالح ۖ فلا تسألن ما ليس لك به علم ۖ إني أعظك أن تكون من الجاهلين"
+translations:
+  en: { text: "He said: O Noah! Lo! he is not of thy household; lo! he is of evil conduct, so ask not of Me that whereof thou hast no knowledge. I admonish thee lest thou be among the ignorant.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "خدا نے فرمایا کہ نوح وہ تیرے گھر والوں میں نہیں ہے وہ تو ناشائستہ افعال ہے تو جس چیز کی تم کو حقیقت معلوم نہیں ہے اس کے بارے میں مجھ سے سوال ہی نہ کرو۔ اور میں تم کو نصیحت کرتا ہوں کہ نادان نہ بنو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

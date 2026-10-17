@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 12:29 (سورة يوسف، الآية 29)."
 text: "يُوسُفُ أَعْرِضْ عَنْ هَـٰذَا ۚ وَٱسْتَغْفِرِى لِذَنۢبِكِ ۖ إِنَّكِ كُنتِ مِنَ ٱلْخَاطِـِٔينَ"
 text_search: "يوسف أعرض عن هذا ۚ واستغفري لذنبك ۖ إنك كنت من الخاطئين"
+translations:
+  en: { text: "O Joseph! Turn away from this, and thou, (O woman), ask forgiveness for thy sin. Lo! thou art of the faulty.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "یوسف اس بات کا خیال نہ کر۔ اور (زلیخا) تو اپنے گناہوں کی بخشش مانگ، بےشک خطا تیری ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

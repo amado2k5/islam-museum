@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 89:16 (سورة الفجر، الآية 16)."
 text: "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَـٰنَنِ"
 text_search: "وأما إذا ما ابتلاه فقدر عليه رزقه فيقول ربي أهانن"
+translations:
+  en: { text: "But whenever He trieth him by straitening his means of life, he saith: My Lord despiseth me.", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور جب (دوسری طرح) آزماتا ہے کہ اس پر روزی تنگ کر دیتا ہے تو کہتا ہے کہ (ہائے) میرے پروردگار نے مجھے ذلیل کیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-89 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }

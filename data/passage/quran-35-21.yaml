@@ -12,9 +12,12 @@ summary:
   ar: "القرآن 35:21 (سورة فاطر، الآية 21)."
 text: "وَلَا ٱلظِّلُّ وَلَا ٱلْحَرُورُ"
 text_search: "ولا الظل ولا الحرور"
+translations:
+  en: { text: "Nor is the shadow equal with the sun's full heat;", translator: "Marmaduke Pickthall", license: PD }
+  ur: { text: "اور نہ سایہ اور دھوپ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-35 }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
-sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/tanzil-translations]
 status: { review: draft, completeness: 1, generated_by: "scripts/harvest/quran/generate.py; text byte-identical to Tanzil v1.1" }
