@@ -17,6 +17,9 @@ translations:
   ur: { text: "اور اگر یہ لوگ تم کو جھٹلاتے ہیں ان سے پہلے نوح کی قوم اور عاد وثمود بھی (اپنے پیغمبروں کو) جھٹلا چکے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
+  - { type: mentions, target: group/aad, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

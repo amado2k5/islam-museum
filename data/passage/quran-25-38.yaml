@@ -17,6 +17,9 @@ translations:
   ur: { text: "اور عاد اور ثمود اور کنوئیں والوں اور ان کے درمیان اور بہت سی جماعتوں کو بھی (ہلاک کر ڈالا)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
+  - { type: mentions, target: group/aad, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/ashab-rass, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

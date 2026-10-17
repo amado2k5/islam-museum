@@ -17,6 +17,8 @@ translations:
   ur: { text: "پھر ہم نے موسیٰ اور ان کے بھائی ہارون کو اپنی نشانیاں اور دلیل ظاہر دے کر بھیجا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-23 }
+  - { type: mentions, target: person/harun, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
