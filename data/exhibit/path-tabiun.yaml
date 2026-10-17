@@ -1,0 +1,76 @@
+id: exhibit/path-tabiun
+class: exhibit
+kind: trail
+label:
+  ar: جيل التابعين
+  en: The Tabi'un Generation
+summary:
+  ar: 'مسار في جيل أخذ عن الصحابة: الحسن البصري والزهري وعروة وعطاء والقاسم — القرن الذهبي للرواية.'
+  en: A trail through the generation after the Companions.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الحسن البصري
+    en: Al-Hasan al-Basri
+  body:
+    ar: 'شيخ البصرة: الزهد والعلم والسياسة.'
+    en: 'شيخ البصرة: الزهد والعلم والسياسة.'
+  features:
+  - person/al-hasan-al-basri
+  - place/basra
+- title:
+    ar: الزهري
+    en: Al-Zuhri
+  body:
+    ar: 'ابن شهاب: مؤرخ المدينة وأول المدوّنين.'
+    en: 'ابن شهاب: مؤرخ المدينة وأول المدوّنين.'
+  features:
+  - person/muhammad-ibn-shihab-al-zuhri
+  - place/medina
+- title:
+    ar: عروة
+    en: Urwa
+  body:
+    ar: 'ابن الزبير: تاريخ السيرة الأول.'
+    en: 'ابن الزبير: تاريخ السيرة الأول.'
+  features:
+  - person/urwa-ibn-al-zubayr
+  - place/medina
+- title:
+    ar: عطاء
+    en: Ata
+  body:
+    ar: 'ابن أبي رباح: فقيه مكة ومفتي الحج.'
+    en: 'ابن أبي رباح: فقيه مكة ومفتي الحج.'
+  features:
+  - person/ata-ibn-abi-rabah
+  - place/mecca
+- title:
+    ar: القاسم
+    en: Al-Qasim
+  body:
+    ar: 'ابن محمد بن أبي بكر: من فقهاء المدينة السبعة.'
+    en: 'ابن محمد بن أبي بكر: من فقهاء المدينة السبعة.'
+  features:
+  - person/al-qasim-ibn-muhammad
+  - place/medina
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

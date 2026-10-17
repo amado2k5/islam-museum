@@ -1,0 +1,76 @@
+id: exhibit/path-surah-yasin
+class: exhibit
+kind: trail
+label:
+  ar: سورة يس
+  en: Surah Ya-Sin
+summary:
+  ar: 'مسار في قلب القرآن: ياسين والقرآن الحكيم، وأصحاب القرية، وآية الموتى وإحياؤهم — سورة العشيات.'
+  en: A trail through the heart of the Qur'an.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الافتتاح
+    en: The opening
+  body:
+    ar: 'يس والقرآن الحكيم: إنك لمن المرسلين.'
+    en: 'يس والقرآن الحكيم: إنك لمن المرسلين.'
+  features:
+  - passage/quran-36
+  - passage/quran-36-1
+- title:
+    ar: أصحاب القرية
+    en: The town
+  body:
+    ar: 'ثلاثة رسل ورجل يسعى: القصة.'
+    en: 'ثلاثة رسل ورجل يسعى: القصة.'
+  features:
+  - passage/quran-36-13
+  - passage/quran-36-13
+- title:
+    ar: الآيات
+    en: The signs
+  body:
+    ar: الأرض الميتة والشمس والقمر.
+    en: الأرض الميتة والشمس والقمر.
+  features:
+  - passage/quran-36-33
+  - passage/quran-36-33
+- title:
+    ar: السفينة
+    en: The ship
+  body:
+    ar: 'وآية لهم الفلك المشحون: نوح.'
+    en: 'وآية لهم الفلك المشحون: نوح.'
+  features:
+  - passage/quran-36-41
+  - passage/quran-36-41
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: سبحان الذي بيده ملكوت كل شيء.
+    en: سبحان الذي بيده ملكوت كل شيء.
+  features:
+  - passage/quran-36-83
+  - passage/quran-36-83
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

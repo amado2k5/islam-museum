@@ -1,0 +1,76 @@
+id: exhibit/path-surah-mulk
+class: exhibit
+kind: trail
+label:
+  ar: سورة الملك
+  en: Surah al-Mulk
+summary:
+  ar: 'مسار في سورة تبارك: الملك بيده، والموت والحياة اختبار، والنار والجنة — سورة المنجية كل ليلة.'
+  en: A trail through Tabarak.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الافتتاح
+    en: The opening
+  body:
+    ar: تبارك الذي بيده الملك.
+    en: تبارك الذي بيده الملك.
+  features:
+  - passage/quran-67
+  - passage/quran-67-1
+- title:
+    ar: الاختبار
+    en: The test
+  body:
+    ar: خلق الموت والحياة ليبلوكم.
+    en: خلق الموت والحياة ليبلوكم.
+  features:
+  - passage/quran-67-2
+  - concept/akhira
+- title:
+    ar: الكون
+    en: The cosmos
+  body:
+    ar: 'فطرت السماوات بلا فطور: النظر.'
+    en: 'فطرت السماوات بلا فطور: النظر.'
+  features:
+  - passage/quran-67-3
+  - passage/quran-67-3
+- title:
+    ar: جهنم
+    en: The fire
+  body:
+    ar: 'وعذاب السعير: سؤال القبر.'
+    en: 'وعذاب السعير: سؤال القبر.'
+  features:
+  - passage/quran-67-11
+  - concept/akhira
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: قل هو الرحمن آمنا به.
+    en: قل هو الرحمن آمنا به.
+  features:
+  - passage/quran-67-29
+  - passage/quran-67-29
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

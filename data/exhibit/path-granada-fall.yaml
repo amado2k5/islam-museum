@@ -1,0 +1,77 @@
+id: exhibit/path-granada-fall
+class: exhibit
+kind: trail
+label:
+  ar: سقوط غرناطة
+  en: The Fall of Granada
+summary:
+  ar: 'مسار في آخر مسلمي الأندلس: بنو نصر يدخلون غرناطة 1238، وقرنان ونصف صمود، وبوعبديل يسلم المفاتيح
+    1492.'
+  en: A trail through the last Andalusi state.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: بنو نصر
+    en: The Nasrids
+  body:
+    ar: 'دخول غرناطة 635هـ: إمارة جديدة.'
+    en: 'دخول غرناطة 635هـ: إمارة جديدة.'
+  features:
+  - event/nasrid-entry-granada-635
+  - polity/emirate-of-granada
+- title:
+    ar: الحمراء
+    en: The Alhambra
+  body:
+    ar: 'قصر الملوك: آية العمارة الإسلامية.'
+    en: 'قصر الملوك: آية العمارة الإسلامية.'
+  features:
+  - polity/emirate-of-granada
+  - polity/emirate-of-granada
+- title:
+    ar: بوعبديل
+    en: Boabdil
+  body:
+    ar: 'محمد الثاني عشر: آخر ملوك الأندلس.'
+    en: 'محمد الثاني عشر: آخر ملوك الأندلس.'
+  features:
+  - person/boabdil-muhammad-xii
+  - polity/emirate-of-granada
+- title:
+    ar: السقوط
+    en: The fall
+  body:
+    ar: 'يناير 1492: المفاتيح تسلم لفرناندو.'
+    en: 'يناير 1492: المفاتيح تسلم لفرناندو.'
+  features:
+  - event/fall-of-granada-897
+  - person/boabdil-muhammad-xii
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'الموريسكيون والذاكرة: أندلس لا تنتهي.'
+    en: 'الموريسكيون والذاكرة: أندلس لا تنتهي.'
+  features:
+  - event/fall-of-granada-897
+  - place/al-andalus
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

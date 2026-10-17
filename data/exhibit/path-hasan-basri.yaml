@@ -1,0 +1,76 @@
+id: exhibit/path-hasan-basri
+class: exhibit
+kind: trail
+label:
+  ar: الحسن البصري
+  en: Al-Hasan al-Basri
+summary:
+  ar: 'مسار في شيخ التابعين: يتيم مدني يصير إمام البصرة، والزهد والقدر والسياسة — عالم قرنه بلا منازع.'
+  en: A trail through the shaykh of the Tabi'un.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: النشأة
+    en: Origins
+  body:
+    ar: 'مولى أم سلمة: المدينة ثم البصرة.'
+    en: 'مولى أم سلمة: المدينة ثم البصرة.'
+  features:
+  - person/al-hasan-al-basri
+  - place/basra
+- title:
+    ar: الزهد
+    en: Zuhd
+  body:
+    ar: 'خطيب الزاهدين: أدب النفس قبل الفقه.'
+    en: 'خطيب الزاهدين: أدب النفس قبل الفقه.'
+  features:
+  - person/al-hasan-al-basri
+  - concept/zuhd
+- title:
+    ar: القدر
+    en: Qadar
+  body:
+    ar: 'رسالة القدر لعبد الملك: أول كلام.'
+    en: 'رسالة القدر لعبد الملك: أول كلام.'
+  features:
+  - concept/qadar
+  - person/al-hasan-al-basri
+- title:
+    ar: التلاميذ
+    en: The students
+  body:
+    ar: 'قتادة ويونس وأيوب: مدرسة البصرة.'
+    en: 'قتادة ويونس وأيوب: مدرسة البصرة.'
+  features:
+  - place/basra
+  - concept/isnad
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'في التصوف والكلام: جد المدارس.'
+    en: 'في التصوف والكلام: جد المدارس.'
+  features:
+  - concept/tasawwuf
+  - concept/ilm-al-kalam
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,77 @@
+id: exhibit/path-andalus-emirs
+class: exhibit
+kind: trail
+label:
+  ar: أمراء الأندلس
+  en: Emirs of al-Andalus
+summary:
+  ar: 'مسار في الدولة الأموية الأندلسية: عبد الرحمن الداخل يعيد بناء الدولة، والناصر يعلن الخلافة — قرطبة
+    تنافس بغداد.'
+  en: A trail through the Umayyad state in Iberia.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: الداخل
+    en: Al-Dakhil
+  body:
+    ar: 'عبد الرحمن الأول: الصقر يعبر إلى قرطبة.'
+    en: 'عبد الرحمن الأول: الصقر يعبر إلى قرطبة.'
+  features:
+  - person/abd-al-rahman-al-dakhil
+  - place/cordoba
+- title:
+    ar: الإمارة
+    en: The emirate
+  body:
+    ar: 'قرن ونصف: الأمراء يبنون الدولة.'
+    en: 'قرن ونصف: الأمراء يبنون الدولة.'
+  features:
+  - person/abd-al-rahman-ii-andalusi
+  - place/cordoba
+- title:
+    ar: الناصر
+    en: Al-Nasir
+  body:
+    ar: 'عبد الرحمن الثالث: الخلافة تعلن 929.'
+    en: 'عبد الرحمن الثالث: الخلافة تعلن 929.'
+  features:
+  - person/abd-al-rahman-iii-al-nasir
+  - place/cordoba
+- title:
+    ar: قرطبة
+    en: Cordoba
+  body:
+    ar: 'أعظم مدينة أوروبية: نصف مليون.'
+    en: 'أعظم مدينة أوروبية: نصف مليون.'
+  features:
+  - place/cordoba
+  - place/cordoba
+- title:
+    ar: النهاية
+    en: The end
+  body:
+    ar: 'فتنة 1031: الخلافة تنكسر لطوائف.'
+    en: 'فتنة 1031: الخلافة تنكسر لطوائف.'
+  features:
+  - place/cordoba
+  - place/cordoba
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
