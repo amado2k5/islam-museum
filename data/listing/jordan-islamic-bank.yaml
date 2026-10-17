@@ -1,0 +1,30 @@
+id: listing/jordan-islamic-bank
+class: listing
+kind: company
+label:
+  ar: البنك الإسلامي الأردني
+  en: Jordan Islamic Bank
+summary:
+  ar: أول بنك إسلامي في الأردن؛ تأسس 1978.
+  en: Jordan Islamic Bank.
+wings: []
+categories:
+- finance
+regions:
+- levant-iraq
+founded:
+  edtf: '1978'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/official-website
+external_ids:
+  official: https://www.jordanislamicbank.com
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
