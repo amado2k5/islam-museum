@@ -199,3 +199,24 @@ Shaheed-e Kufa — already catalogued, deduped.
   check catches near-identical Arabic-slug dupes; ~20% of candidate
   titles already existed under Arabic slugs — dedupe to the existing
   record, never delete it.
+
+## Questions lane (new — 2026-10-16)
+
+- **question** — 61 → **220** (mid-term target met): "who was" cards for
+  prophets, Companions, Rashidun, imams, scholars (Khwarizmi, Biruni,
+  Razi, Tabari, Ibn Hajar, Nawawi), rulers (Harun, Akbar, Mansa Musa,
+  Shajar al-Durr, Zheng He) and figures (Rumi, Malcolm X, Iqbal,
+  Fatima al-Fihri); "what was" cards for cities (Mecca, Medina,
+  Jerusalem, Damascus, Cairo, Istanbul, Fez, Granada, Samarra,
+  Bukhara, Karbala, Konya, Cordoba, Timbuktu), polities (Umayyad,
+  Abbasid, Fatimid, Seljuk, Safavid, Delhi Sultanate), battles
+  (Badr, Uhud, Khandaq, Hunayn, Yarmuk, Qadisiyya, Hattin, Ayn
+  Jalut, Constantinople), groups (Mutazila, Khawarij, Quraysh, Ahl
+  al-Bayt) and ethics (adab, birr, haya, zuhd, ikhlas, riya, ghiba,
+  sabr, tawakkul).
+- New persons created: jalal-al-din-rumi, malcolm-x, muhammad-iqbal,
+  akbar, zheng-he, fatima-al-fihri (all draft, wikidata-cited).
+- Method: question cards link `related` to existing entity ids only —
+  check `data/<class>/` first; ~20% of slug guesses need prefix fixes
+  (e.g. `isa-ibn-maryam`, `battle-of-the-trench`, `ayn-jalut-658`,
+  `conquest-constantinople-857`).
