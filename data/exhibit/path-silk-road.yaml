@@ -1,0 +1,79 @@
+id: exhibit/path-silk-road
+class: exhibit
+kind: trail
+label:
+  ar: طريق الحرير
+  en: The Silk Road
+summary:
+  ar: 'مسار في درب الحرير الإسلامي: سمرقند وبخارى وشيراز، ورحالة الطريق ابن بطوطة وجنغ خه، والعلم مسافرًا
+    شرقًا.'
+  en: 'A trail along the Muslim Silk Road: Samarkand, Bukhara, Shiraz, and its travellers Ibn Battuta
+    and Zheng He.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: سمرقند
+    en: Samarkand
+  body:
+    ar: 'ورقها وقبابها الزرق: عاصمة التيموريين.'
+    en: 'Its paper and blue domes: the Timurid capital.'
+  features:
+  - place/samarqand
+  - polity/timurid-empire
+- title:
+    ar: بخارى
+    en: Bukhara
+  body:
+    ar: 'قبة الإسلام: مدينة البخاري وابن سينا.'
+    en: '''Dome of Islam'': city of Bukhari and Ibn Sina.'
+  features:
+  - place/bukhara
+  - person/al-bukhari
+  - person/ibn-sina
+- title:
+    ar: شيراز وفارس
+    en: Shiraz
+  body:
+    ar: الشعر والحدائق والمدارس على الطريق الجنوبي.
+    en: Verse and gardens on the southern route.
+  features:
+  - place/shiraz
+  - place/tabriz
+- title:
+    ar: الرحالة
+    en: The travellers
+  body:
+    ar: ابن بطوطة ثلاثون سنة والصيني جنغ خه بالبحر.
+    en: Ibn Battuta on land and Zheng He by sea.
+  features:
+  - person/ibn-battuta-muhammad
+  - person/zheng-he
+  - practice/rihla-ilm
+- title:
+    ar: إلى الصين
+    en: To China
+  body:
+    ar: 'شيآن وجامعها العتيق: الإسلام في الصين منذ القرن الأول.'
+    en: 'Xi''an''s old mosque: Islam in China since the first century.'
+  features:
+  - place/xian
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
