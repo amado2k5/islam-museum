@@ -17,6 +17,7 @@ translations:
   ur: { text: "یہ وہی لوگ ہیں جنہوں نے کفر کیا اور تم کو مسجد حرام سے روک دیا اور قربانیوں کو بھی کہ اپنی جگہ پہنچنے سے رکی رہیں۔ اور اگر ایسے مسلمان مرد اور مسلمان عورتیں نہ ہوتیں جن کو تم جانتے نہ تھے کہ اگر تم ان کو پامال کر دیتے تو تم کو ان کی طرف سے بےخبری میں نقصان پہنچ جاتا۔ (تو بھی تمہارے ہاتھ سے فتح ہوجاتی مگر تاخیر) اس لئے (ہوئی) کہ خدا اپنی رحمت میں جس کو چاہے داخل کرلے۔ اور اگر دونوں فریق الگ الگ ہوجاتے تو جو ان میں کافر تھے ان ہم دکھ دینے والا عذاب دیتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-48 }
+  - { type: mentions, target: building/masjid-al-haram, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

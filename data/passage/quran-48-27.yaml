@@ -17,6 +17,7 @@ translations:
   ur: { text: "بےشک خدا نے اپنے پیغمبر کو سچا (اور) صحیح خواب دکھایا۔ کہ تم خدا نے چاہا تو مسجد حرام میں اپنے سر منڈوا کر اور اپنے بال کتروا کر امن وامان سے داخل ہوگے۔ اور کسی طرح کا خوف نہ کرو گے۔ جو بات تم نہیں جانتے تھے اس کو معلوم تھی سو اس نے اس سے پہلے ہی جلد فتح کرادی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-48 }
+  - { type: mentions, target: building/masjid-al-haram, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
