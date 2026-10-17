@@ -28,6 +28,11 @@ const dateOf = (n: any) => {
   const d = n.data;
   return formatDate(d.born ?? d.date?.start ?? d.start, lang).text;
 };
+// Hub cards show a 110-char teaser (cut at a word boundary) instead of the
+// full summary: /ar/people/ and /ar/time/ are multi-MB pages otherwise.
+// summaryOf already resolves [[wiki-links]] to label text, so no cut can
+// land inside a link. Rendered at build time, so no-JS readers still get text.
+const short = (s: string, n = 110) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
 const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinates) : [];
 // Objects hall: depict→media thumbnail index and collections grouping.
 const thumbByObject = new Map<string, { thumb: string; alt: string }>();
@@ -121,7 +126,7 @@ const collections = wing === "objects"
     {items.some((n) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start, lang).derived) && <p class="ui muted" style="font-size:.85rem;margin:1.2rem 0 0">{T.entity.dagger}</p>}
     <ul class="grid-cards" style="margin-top:1.5rem">
       {items.filter((n) => labelOf(n, lang)).map((n) => (
-        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{summaryOf(n, lang)}</span></a></li>
+        <li><a class="card" href={href(lang, n.id)}><span class="ui kicker">{T.class[n.class]}</span><h2 class="card-title">{labelOf(n, lang)}</h2>{dateOf(n) && <span class="ui" style="display:block;font-size:.85rem">{dateOf(n)}</span>}<span>{short(summaryOf(n, lang))}</span></a></li>
       ))}
     </ul>
 

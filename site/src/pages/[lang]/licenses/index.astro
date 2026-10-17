@@ -6,7 +6,7 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../components/PageHeader.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../lib/i18n";
-import { REPO, realNodes } from "../../../lib/graph";
+import { REPO, SITE, realNodes } from "../../../lib/graph";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
@@ -55,6 +55,11 @@ const layers = [
             ))}
           </tbody>
         </table>
+      </section>
+
+      <section aria-labelledby="lic-data">
+        <h2 id="lic-data">{L.data_title}</h2>
+        <p set:html={fmt(L.data_body, { repo: `${REPO}.git`, api: SITE, doc: `${REPO}/blob/main/docs/data/README.md` })} />
       </section>
 
       <section aria-labelledby="lic-quran">

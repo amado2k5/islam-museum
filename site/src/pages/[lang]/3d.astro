@@ -23,7 +23,9 @@ const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
   </nav>
   <Tour3D lang={lang} t={t} journeys={journeys} wingTitles={Object.fromEntries(WINGS.map(w => [w, T.wings[w].title]))} />
   <section class="tour-nojs">
-    <h1>{t.nojs_title}</h1>
+    <!-- The tour component renders the page's real h1; the no-JS fallback
+         title is an h2 visually identical to an h1 (single-h1 outline). -->
+    <h2 class="nojs-h1">{t.nojs_title}</h2>
     <p>{t.nojs_lede}</p>
     <h2>{t.nojs_wings}</h2>
     <ul>
@@ -37,3 +39,9 @@ const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
     </ul>
   </section>
 </BaseLayout>
+
+<style>
+  /* Matches the global h1 sizing exactly: the no-JS fallback title looks
+     identical, only its outline level changed for a single-h1 page. */
+  .nojs-h1 { font-size: clamp(2rem, 5vw, 3.4rem); margin-top: 0; font-weight: 500; }
+</style>
