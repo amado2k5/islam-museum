@@ -7,6 +7,7 @@ islam.museum is an open, free, all-digital museum of Islam: the faith, civilizat
 ## Read, in this order
 
 1. This file (the rules that never bend).
+   Then `docs/ai-change-gates.md`, binding on every agent: no edit without an approved written proposal, stay in scope, label anything that could alter a filed submission (DPGA, UNESCO) as submission-impacting, three-way merge before every push, the quality and content gates restated, attribution trailers, and the no-go registry of reserved areas (currently the Urdu edition).
 2. `docs/agents/README.md` (index of the agent documents), then the one or two you need:
    - `docs/agents/workflow.md`: how to set up, commit, push, merge, hand off.
    - `docs/agents/content-standards.md`: what a good entity looks like and the mistakes to avoid.
