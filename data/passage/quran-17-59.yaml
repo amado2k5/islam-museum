@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ہم نے نشانیاں بھیجنی اس لئے موقوف کردیں کہ اگلے لوگوں نے اس کی تکذیب کی تھی۔ اور ہم نے ثمود کو اونٹنی (نبوت صالح کی کھلی) نشانی دی۔ تو انہوں نے اس پر ظلم کیا اور ہم جو نشانیاں بھیجا کرتے ہیں تو ڈرانے کو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-17 }
+  - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

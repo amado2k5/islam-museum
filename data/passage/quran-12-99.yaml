@@ -17,6 +17,7 @@ translations:
   ur: { text: "جب یہ (سب لوگ) یوسف کے پاس پہنچے تو یوسف نے اپنے والدین کو اپنے پاس بٹھایا اور کہا مصر میں داخل ہو جائیے خدا نے چاہا تو جمع خاطر سے رہیئے گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
+  - { type: mentions, target: person/yusuf, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
