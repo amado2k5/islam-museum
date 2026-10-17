@@ -48,3 +48,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 92 — continue from سنة 424 (~line 6150) through ~450.
 - Batch 92 (Devin): AH 424–427 — the 425 Ramla earthquake & sea-drawback, the haramiyya anarchy gripping Baghdad 424–426 (emir Burjumi), and obits: Ibn Shahid the Cordoban poet (d. 426), Abu Ishaq al-Tha'labi the mufassir (d. 427); al-Barqani enriched with the Shadharat death detail. 4 new + 1 enriched + 2 prose.
 - Next: batch 93 — continue from سنة 428 (line ~6306) through ~450.
+- Batch 93 (Devin): AH 428–430 — obituary wave: al-Quduri (d. 5 Rajab 428), Ibn Manjuwayh (d. Muharram 428), Ibn Sina enriched (d. Ramadan 428 — washing, repentance, manumission detail), al-Talamanke & Ibn al-Saffar of Cordoba (d. 429), al-Qarrah of Herat (d. 429), al-Hawfi the grammarian (d. 430); Abu Imran al-Fasi enriched (d. Ramadan 430, kalam under Ibn al-Baqillani), Abu Nu'aym and the 430 Seljuk-takeover event sourced to Shadharat. 6 new + 4 enriched.
+- Next: batch 94 — سنة 431 (Dandanqan, line ~6712) through ~450.
