@@ -1,5 +1,5 @@
 // Gift shop carousel (landing page): arrows step one card at a time and wrap around; while the pointer rests on the carousel it
-// auto-slides, and it stops when the pointer leaves. Reduced-motion and touch screens get no auto-slide. Runs only in the browser.
+// auto-slides, and it stops when the pointer leaves. Visitors who ask the system for reduced motion get no auto-slide. Runs only in the browser.
 const root = document.querySelector<HTMLElement>("[data-carousel]");
 const track = root?.querySelector<HTMLElement>("[data-track]");
 const frame = root?.querySelector<HTMLElement>(".frame");
@@ -37,11 +37,9 @@ if (root && track && frame && prev && next) {
 
   prev.addEventListener("click", () => { show(index - 1); });
   next.addEventListener("click", () => { show(index + 1); });
-  // Auto-slide only with a mouse-style pointer; touch screens use the arrows.
-  if (window.matchMedia("(hover: hover)").matches) {
-    root.addEventListener("pointerenter", start);
-    root.addEventListener("pointerleave", stop);
-  }
+  // Hovering a mouse over the carousel starts the auto-slide; moving the mouse off stops it. Touch screens use the arrows.
+  root.addEventListener("mouseenter", start);
+  root.addEventListener("mouseleave", stop);
   window.addEventListener("resize", () => show(index));
   show(0);
 }
