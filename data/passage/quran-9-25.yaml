@@ -18,6 +18,7 @@ translations:
 relations:
   - { type: part_of, target: passage/quran-9 }
   - { type: revealed_about, target: event/battle-of-hunayn }
+  - { type: mentions, target: place/wadi-hunayn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

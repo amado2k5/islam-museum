@@ -17,6 +17,7 @@ translations:
   ur: { text: "بھلا مشرکوں کے لیے (جنہوں نے عہد توڑ ڈالا) خدا اور اس کے رسول کے نزدیک عہد کیونکر (قائم) رہ سکتا ہے ہاں جن لوگوں کے ساتھ تم نے مسجد محترم (یعنی خانہ کعبہ) کے نزدیک عہد کیا ہے اگر وہ (اپنے عہد پر) قائم رہیں تو تم بھی اپنے قول وقرار (پر) قائم رہو۔ بےشک خدا پرہیز گاروں کو دوست رکھتا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-9 }
+  - { type: mentions, target: building/masjid-al-haram, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
