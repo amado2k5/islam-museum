@@ -17,6 +17,7 @@ translations:
   ur: { text: "اس وقت خدا نے فرمایا کہ عیسیٰ! میں تمہاری دنیا میں رہنے کی مدت پوری کرکے تم کو اپنی طرف اٹھا لوں گا اور تمہیں کافروں (کی صحبت) سے پاک کر دوں گا اور جو لوگ تمہاری پیروی کریں گے ان کو کافروں پر قیامت تک فائق (وغالب) رکھوں گا پھر تم سب میرے پاس لوٹ کر آؤ گے تو جن باتوں میں تم اختلاف کرتے تھے اس دن تم میں ان کا فیصلہ کردوں گا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
+  - { type: mentions, target: person/isa-ibn-maryam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

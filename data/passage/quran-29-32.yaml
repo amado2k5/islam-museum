@@ -17,6 +17,7 @@ translations:
   ur: { text: "ابراہیم نے کہا کہ اس میں تو لوط بھی ہیں۔ وہ کہنے لگے کہ جو لوگ یہاں (رہتے) ہیں ہمیں سب معلوم ہیں۔ ہم اُن کو اور اُن کے گھر والوں کو بچالیں گے بجز اُن کی بیوی کے وہ پیچھے رہنے والوں میں ہوگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
+  - { type: mentions, target: person/lut, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
