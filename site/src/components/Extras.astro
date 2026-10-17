@@ -24,8 +24,15 @@ const depictions = edgesFrom(n.id)
   .filter((e) => e.type === "depicted_in")
   .map((e) => byId.get(e.to))
   .filter((m): m is Node => !!m && m.class === "media" && !!m.data.url);
-// deep-zoom: a direct IIIF image service on a depiction skips the manifest fetch
-const iiifService = depictions.find((m) => m.data.iiif_image)?.data.iiif_image;
+// deep-zoom: a direct IIIF image service on a depiction skips the manifest fetch.
+// Only open licences permit reproduction beyond a size cap: VAM-NC (the V&A
+// website terms) limits digital reproduction to 768 px on the longest side, so
+// non-open images render the static figure plus a manifest link, never tiles.
+const OPEN_ZOOM = new Set(["CC0", "PD", "CC-BY", "CC-BY-SA"]);
+const zoomMedia = depictions.find((m) => OPEN_ZOOM.has(m.data.license) && (m.data.iiif_image || m.data.iiif_manifest));
+const iiifService = zoomMedia?.data.iiif_image;
+const iiifManifest = d.iiif_manifest ?? zoomMedia?.data.iiif_manifest;
+const zoomCredit = zoomMedia ?? depictions[0];
 const faithText = (d.faith ?? []) as any[];
 ---
 {mapMedia && mapFile && (
@@ -59,17 +66,27 @@ const faithText = (d.faith ?? []) as any[];
 
 {/* IIIF deep-zoom (docs/plan/06 Phase 3): vendored OpenSeadragon over the manifest's
     image service; the manifest link and caption remain readable without JavaScript. */}
-{n.class === "object" && d.iiif_manifest && (
-  <section class="panel" style="margin:0 0 1.2rem" aria-label={T.figure.deepzoom}>
-    <h2 class="ui" style="font-size:1rem;margin:0 0 10px">{T.figure.deepzoom}</h2>
-    <div class="osd" data-iiif-viewer data-iiif-manifest={d.iiif_manifest} data-iiif-service={iiifService}>
-      <p class="ui muted" style="margin:0;font-size:.9rem">{T.figure.deepzoom_nojs} <a href={d.iiif_manifest} rel="noopener">IIIF ↗</a></p>
-    </div>
-    <p class="ui muted" style="margin:10px 0 0;font-size:.85rem">
-      {depictions[0]?.data.attribution} · {T.figure.licence}: {depictions[0]?.data.license} · <a href={d.iiif_manifest} rel="noopener">{T.ids.iiif} ↗</a>
-    </p>
-    <script is:inline src="/vendor/openseadragon-5.0.1.min.js" defer></script>
-    <script is:inline src="/vendor/iiif-viewer.js" defer></script>
+{n.class === "object" && iiifManifest && (
+  <section class="panel" style="margin:0 0 1.2rem" aria-label={zoomMedia ? T.figure.deepzoom : T.ids.iiif}>
+    <h2 class="ui" style="font-size:1rem;margin:0 0 10px">{zoomMedia ? T.figure.deepzoom : T.ids.iiif}</h2>
+    {zoomMedia ? (
+      <div class="osd" data-iiif-viewer data-iiif-manifest={iiifManifest} data-iiif-service={iiifService}>
+        <p class="ui muted" style="margin:0;font-size:.9rem">{T.figure.deepzoom_nojs} <a href={iiifManifest} rel="noopener">IIIF ↗</a></p>
+      </div>
+    ) : (
+      <p class="ui muted" style="margin:0;font-size:.9rem"><a href={iiifManifest} rel="noopener">{T.ids.iiif} ↗</a></p>
+    )}
+    {zoomCredit && (
+      <p class="ui muted" style="margin:10px 0 0;font-size:.85rem">
+        {zoomCredit.data.attribution} · {T.figure.licence}: {zoomCredit.data.license} · <a href={iiifManifest} rel="noopener">{T.ids.iiif} ↗</a>
+      </p>
+    )}
+    {zoomMedia && (
+      <>
+        <script is:inline src="/vendor/openseadragon-5.0.1.min.js" defer></script>
+        <script is:inline src="/vendor/iiif-viewer.js" defer></script>
+      </>
+    )}
   </section>
 )}
 
