@@ -242,3 +242,19 @@ Shaheed-e Kufa — already catalogued, deduped.
   per-country trails, object-collection trails, hadith-book deep
   trails. ~200 more possible but marginal value drops as themes
   get reused.
+
+## Pathways lane — COMPLETE (2026-10-16)
+
+- **exhibit/trail — 7 → 301** across 22 batches, all pushed to
+  `main`. The ~300 curated-trail aspiration is met.
+- Coverage: every era (Jahiliyya → contemporary), every region
+  (al-Andalus → China → Volga → Americas), every hadith collection
+  (six books + Muwatta + Arba'un), 20 sura trails, worship
+  lifecycle, sciences, arts, cities, dynasties, minority
+  traditions (Ibadi/Zaydi/Nizari/Isma'ili), national cinemas
+  (10 countries), modern institutions (finance/charity/education/
+  media), journey+period classes used as features, and a
+  grand-tour meta-trail.
+- Method: every room `features` link verified against
+  `data/<class>/` before writing; ~1,800 room links, zero
+  dangling references. All draft, provenance-tagged.
