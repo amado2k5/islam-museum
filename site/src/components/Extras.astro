@@ -19,6 +19,11 @@ const mapMedia = d.media?.map ? byId.get(d.media.map) : undefined;
 const mapFileRel = mapMedia?.data.files?.[`webp_${lang}`] ?? mapMedia?.data.files?.webp_en;
 // media files live in the media repo; show the figure only when the file is present at build time
 const mapFile = mapFileRel && existsSync(repoPath("site", "public", mapFileRel)) ? mapFileRel : undefined;
+// remote media (link-don't-copy): objects photographed by open-licence museums
+const depictions = edgesFrom(n.id)
+  .filter((e) => e.type === "depicted_in")
+  .map((e) => byId.get(e.to))
+  .filter((m): m is Node => !!m && m.class === "media" && !!m.data.url);
 const faithText = (d.faith ?? []) as any[];
 ---
 {mapMedia && mapFile && (
@@ -28,6 +33,35 @@ const faithText = (d.faith ?? []) as any[];
       {T.map.caption} · {T.map.precision[mapMedia.data.precision] ?? mapMedia.data.precision}
       {d.map?.note && <> · {d.map.note[lang] ?? d.map.note.en}</>}
       · <a href={href(lang, mapMedia.id)}>{T.map.details}</a>
+    </figcaption>
+  </figure>
+)}
+
+{depictions.length > 0 && (
+  <section class="panel" style="margin:0 0 1.2rem" aria-label={T.figure.title}>
+    <h2 class="ui" style="font-size:1rem;margin:0 0 10px">{T.figure.title}</h2>
+    <div class="depictions">
+      {depictions.map((m) => (
+        <figure>
+          <a href={m.data.url} rel="noopener" aria-label={T.figure.open}>
+            <img src={m.data.thumbnail ?? m.data.url} alt={m.data.alt?.[lang] ?? m.data.alt?.en} loading="lazy" />
+          </a>
+          <figcaption class="ui muted">
+            {m.data.attribution} · {T.figure.licence}: {m.data.license} · <a href={href(lang, m.id)}>{T.figure.details}</a>
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  </section>
+)}
+
+{n.class === "media" && d.url && (
+  <figure class="panel" style="margin:0 0 1.2rem">
+    <a href={d.url} rel="noopener" aria-label={T.figure.open}>
+      <img src={d.thumbnail ?? d.url} alt={d.alt?.[lang] ?? d.alt?.en} loading="lazy" style="width:100%;height:auto;border-radius:10px;background:var(--bg)" />
+    </a>
+    <figcaption class="ui muted" style="font-size:.85rem;margin-top:8px">
+      {d.attribution} · {T.figure.licence}: {d.license} · <a href={d.url} rel="noopener">{T.figure.open}</a>
     </figcaption>
   </figure>
 )}
