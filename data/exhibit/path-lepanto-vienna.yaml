@@ -1,0 +1,77 @@
+id: exhibit/path-lepanto-vienna
+class: exhibit
+kind: trail
+label:
+  ar: ليبانتو وفيينا
+  en: Lepanto and Vienna
+summary:
+  ar: 'مسار في الحدود الغربية للإمبراطورية: ليبانتو 1571 أعظم معركة بحرية، وفيينا محاصرة مرتين — جدار
+    أوروبا.'
+  en: A trail through the empire's western edge.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: ليبانتو
+    en: Lepanto
+  body:
+    ar: '7 أكتوبر 1571: الأسطول يُدمر.'
+    en: '7 أكتوبر 1571: الأسطول يُدمر.'
+  features:
+  - event/battle-lepanto-978
+  - polity/ottoman-empire
+- title:
+    ar: الرد
+    en: The response
+  body:
+    ar: 'ستة أشهر وأسطول جديد: عزيمة الدولة.'
+    en: 'ستة أشهر وأسطول جديد: عزيمة الدولة.'
+  features:
+  - event/battle-lepanto-978
+  - person/sokollu-mehmed-pasha
+- title:
+    ar: فيينا الأولى
+    en: First Vienna
+  body:
+    ar: '1529: القانوني يحاصر المدينة.'
+    en: '1529: القانوني يحاصر المدينة.'
+  features:
+  - person/sulayman-al-qanuni
+  - event/siege-vienna-935
+- title:
+    ar: فيينا الثانية
+    en: Second Vienna
+  body:
+    ar: '1683: مراد الرابع والكارا مصطفى.'
+    en: '1683: مراد الرابع والكارا مصطفى.'
+  features:
+  - event/siege-vienna-935
+  - event/siege-vienna-935
+- title:
+    ar: الحدود
+    en: The frontier
+  body:
+    ar: 'بين الأدريا والبحر الأسود: التماس.'
+    en: 'بين الأدريا والبحر الأسود: التماس.'
+  features:
+  - polity/ottoman-empire
+  - place/sarajevo
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
