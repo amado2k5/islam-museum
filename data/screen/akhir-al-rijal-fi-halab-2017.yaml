@@ -3,28 +3,46 @@ class: screen
 format: documentary
 relevance: substantial
 label:
-  ar: "آخر الرجال في حلب"
-  en: "Last Men in Aleppo"
+  en: Last Men in Aleppo
+  ar: آخر الرجال في حلب
 titles:
 - lang: en
-  value: "Last Men in Aleppo"
-  kind: original
+  value: Last Men in Aleppo
+  kind: release
 summary:
-  ar: "وثائقي سوري دنماركي عن متطوعين في الدفاع المدني خلال حصار حلب؛ عُرض في مهرجان سندانس وفاز بجوائز."
-  en: "Syrian-Danish documentary on Civil Defence volunteers during the siege of Aleppo; Sundance-screened and award-winning."
+  ar: وثائقي فيراس فياض — جائزة سندانس الكبرى — عن اثنين من الخوذ البيضاء يعملان في حلب المحاصرة.
+  en: Last Men in Aleppo.
 wings: []
-themes: [modern-conflicts, care-for-the-vulnerable]
+themes:
+- modern-conflicts
+- humanitarian-principles
+- care-for-the-vulnerable
 released:
   edtf: '2017'
   calendar: gregorian
   precision: year
-countries: [dk, sy]
+countries:
+- dk
+- sy
+- tr
+languages:
+  original:
+  - ar
+depiction:
+  prophet: not-applicable
+  companions: not-applicable
+  imams: not-applicable
 approach: documentary
-sources: [source/wikidata, source/imdb]
 external_ids:
   wikidata: Q28811037
   imdb: tt6333074
+sources:
+- source/wikidata
+- source/imdb
 status:
   review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), screen-index lane; title/year/IDs via enwiki→Wikidata, 2026-10-16
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against
+    Wikidata and IMDb, 2026-10-16
+relations: []
+reception: []

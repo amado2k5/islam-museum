@@ -3,28 +3,45 @@ class: screen
 format: film
 relevance: substantial
 label:
-  ar: الشيخ جاكسون
   en: Sheikh Jackson
+  ar: شيخ جاكسون
 titles:
 - lang: en
-  value: "Sheikh Jackson"
-  kind: original
+  value: Sheikh Jackson
+  kind: release
 summary:
-  ar: "فيلم مصري عن شيخ سلفي صدم بموت مايكل جاكسون في مراهقته؛ مثل مصر في الأوسكار وفاز بمهرجان تورونتو."
-  en: "Egyptian film about a Salafi sheikh shaken by the death of Michael Jackson who shaped his teens; Egypt's Oscar entry, won at Toronto."
+  ar: فيلم عمرو سلامة عن إمام أزهري يعشق مايكل جاكسون فينهار إيمانيًا حين يموت مطربه؛ مصر أرسلته للأوسكار.
+  en: Sheikh Jackson.
 wings: []
-themes: [music, tradition-versus-culture]
+themes:
+- tradition-versus-culture
+- music
+- religious-authorities
 released:
   edtf: '2017'
   calendar: gregorian
   precision: year
-countries: [eg]
+countries:
+- eg
+languages:
+  original:
+  - ar
+  - en
+depiction:
+  prophet: not-applicable
+  companions: not-applicable
+  imams: not-applicable
 approach: drama-of-muslim-life
-sources: [source/wikidata, source/imdb]
 external_ids:
   wikidata: Q39047277
   imdb: tt6953076
+sources:
+- source/wikidata
+- source/imdb
 status:
   review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), screen-index lane; title/year/IDs via enwiki→Wikidata, 2026-10-16
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against
+    Wikidata and IMDb, 2026-10-16
+relations: []
+reception: []

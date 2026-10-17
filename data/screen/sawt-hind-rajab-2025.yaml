@@ -3,28 +3,48 @@ class: screen
 format: film
 relevance: substantial
 label:
-  ar: "صوت هند رجب"
-  en: "The Voice of Hind Rajab"
+  en: The Voice of Hind Rajab
+  ar: صوت هند رجب
 titles:
 - lang: en
-  value: "The Voice of Hind Rajab"
-  kind: original
+  value: The Voice of Hind Rajab
+  kind: release
 summary:
-  ar: "فيلم تونسي لكوثر بن هنية عن الطفلة هند رجب التي قتلت في غزة 2024؛ دراما وثائقية عرضت في مهرجان البندقية."
-  en: "Kaouther Ben Hania's Tunisian film about Hind Rajab, the six-year-old killed in Gaza in 2024; a docudrama screened at Venice."
+  ar: فيلم كوثر بن هنية — الجائزة الكبرى في البندقية — عن الطفلة هند رجب ومحاولة الإنقاذ الموثقة صوتيًا
+    في غزة 2024.
+  en: The Voice of Hind Rajab.
 wings: []
-themes: [modern-conflicts, children-and-youth]
+themes:
+- modern-conflicts
+- children-and-youth
+- humanitarian-principles
 released:
   edtf: '2025'
   calendar: gregorian
   precision: year
-countries: [tn]
-approach: documentary
-sources: [source/wikidata, source/imdb]
+countries:
+- tn
+- fr
+- ps
+languages:
+  original:
+  - ar
+  - en
+depiction:
+  prophet: not-applicable
+  companions: not-applicable
+  imams: not-applicable
+approach: journalism
 external_ids:
   wikidata: Q135038882
   imdb: tt36943034
+sources:
+- source/wikidata
+- source/imdb
 status:
   review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), screen-index lane; title/year/IDs via enwiki→Wikidata, 2026-10-16
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against
+    Wikidata and IMDb, 2026-10-16
+relations: []
+reception: []

@@ -3,28 +3,46 @@ class: screen
 format: documentary
 relevance: substantial
 label:
-  ar: "مدينة الأشباح"
-  en: "City of Ghosts"
+  en: City of Ghosts
+  ar: مدينة الأشباح
 titles:
 - lang: en
-  value: "City of Ghosts"
-  kind: original
+  value: City of Ghosts
+  kind: release
 summary:
-  ar: "وثائقي عن ناشطي «الرقة تذبح بصمت» وهم يوثقون حكم تنظيم الدولة في مدينتهم؛ بطولة الحقيقة تحت الخطر."
-  en: "Documentary on the 'Raqqa is Being Slaughtered Silently' activists documenting ISIS rule in their city."
+  ar: وثائقي ماثيو هاينمان عن ناشطي «الرقة تذبح بصمت» السوريين الذين وثّقوا جرائم تنظيم الدولة ثم لجأوا
+    إلى أوروبا.
+  en: City of Ghosts.
 wings: []
-themes: [violent-extremism-and-the-muslim-response, modern-conflicts]
+themes:
+- violent-extremism-and-the-muslim-response
+- modern-conflicts
+- refugees-migrants-diaspora
 released:
   edtf: '2017'
   calendar: gregorian
   precision: year
-countries: [us]
-approach: documentary
-sources: [source/wikidata, source/imdb]
+countries:
+- us
+languages:
+  original:
+  - ar
+  - en
+depiction:
+  prophet: not-applicable
+  companions: not-applicable
+  imams: not-applicable
+approach: journalism
 external_ids:
   wikidata: Q30163735
   imdb: tt6333056
+sources:
+- source/wikidata
+- source/imdb
 status:
   review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), screen-index lane; title/year/IDs via enwiki→Wikidata, 2026-10-16
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against
+    Wikidata and IMDb, 2026-10-16
+relations: []
+reception: []

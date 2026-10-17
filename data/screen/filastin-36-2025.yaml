@@ -3,28 +3,53 @@ class: screen
 format: film
 relevance: substantial
 label:
-  ar: "فلسطين 36"
-  en: "Palestine 36"
+  en: Palestine 36
+  ar: فلسطين 36
 titles:
 - lang: en
-  value: "Palestine 36"
-  kind: original
+  value: Palestine 36
+  kind: release
 summary:
-  ar: "فيلم عنان بركاتي عن الثورة الفلسطينية الكبرى سنة 1936؛ عمل تاريخي عربي كبير افتتح التوقعات لسنة 2025."
-  en: "Annemarie Jacir's film about the 1936 Palestinian revolt; a major Arab historical production."
+  ar: فيلم أنّماري جاسر عن الثورة العربية الكبرى في فلسطين 1936–1939 ضد الانتداب البريطاني؛ افتُتح به
+    قسم في تورونتو.
+  en: Palestine 36.
 wings: []
-themes: [wars-and-campaigns, colonial-wars-and-resistance]
+themes:
+- modern-conflicts
+- colonial-wars-and-resistance
+- history-writing-and-social-thought
 released:
   edtf: '2025'
   calendar: gregorian
   precision: year
-countries: [ps, gb]
+countries:
+- ps
+- gb
+- fr
+- dk
+- 'no'
+- qa
+- sa
+- jo
+languages:
+  original:
+  - ar
+  - en
+depiction:
+  prophet: not-applicable
+  companions: not-applicable
+  imams: not-applicable
 approach: historical-drama
-sources: [source/wikidata, source/imdb]
 external_ids:
   wikidata: Q132853314
   imdb: tt29271622
+sources:
+- source/wikidata
+- source/imdb
 status:
   review: draft
-  completeness: 1
-  generated_by: Devin (SWE-2 High), screen-index lane; title/year/IDs via enwiki→Wikidata, 2026-10-16
+  completeness: 2
+  generated_by: Devin (SWE-2 High), screen-index lane; existence, year and identifiers verified against
+    Wikidata and IMDb, 2026-10-16
+relations: []
+reception: []
