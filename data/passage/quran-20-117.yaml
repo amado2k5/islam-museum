@@ -17,6 +17,7 @@ translations:
   ur: { text: "ہم نے فرمایا کہ آدم یہ تمہارا اور تمہاری بیوی کا دشمن ہے تو یہ کہیں تم دونوں کو بہشت سے نکلوا نہ دے۔ پھر تم تکلیف میں پڑجاؤ", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
+  - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

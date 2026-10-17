@@ -17,6 +17,7 @@ translations:
   ur: { text: "موسیٰ نے ان (جادوگروں) سے کہا کہ ہائے تمہاری کمبختی۔ خدا پر جھوٹ افتراء نہ کرو کہ وہ تمہیں عذاب سے فنا کردے گا اور جس نے افتراء کیا وہ نامراد رہا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
