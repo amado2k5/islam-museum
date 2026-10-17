@@ -1,0 +1,88 @@
+---
+// One hadith collection (Phase 3): if the collection is divided into chapter records
+// (passage unit: chapter — the Muwatta's books), list those as cards into per-book pages;
+// otherwise list every report as a row: reference, title, and the persons the report mentions.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../../components/PageHeader.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../../lib/i18n";
+import { byId, graph, href, labelOf, realNodes } from "../../../../../lib/graph";
+
+const hadithsOf = (work: string) =>
+  realNodes
+    .filter((n) => n.class === "passage" && n.data.unit === "hadith" && n.data.work === work)
+    .sort((a, b) => a.slug.localeCompare(b.slug, "en", { numeric: true }));
+const kitabsOf = (work: string) =>
+  realNodes
+    .filter((n) => n.class === "passage" && n.data.unit === "chapter" && n.data.work === work)
+    .sort((a, b) => a.slug.localeCompare(b.slug, "en", { numeric: true }));
+
+export function getStaticPaths() {
+  const works = [...new Set(realNodes.filter((n) => n.class === "passage" && n.data.unit === "hadith").map((n) => n.data.work))];
+  return LANGS.flatMap((lang) => works.map((work) => ({ params: { lang, work: work.split("/")[1] }, props: { lang, work } })));
+}
+const { lang, work } = Astro.props as { lang: Lang; work: string };
+const T = ui(lang);
+const H = T.hadith;
+const workNode = byId.get(work);
+if (!workNode) throw new Error(`hadith collection: no work entity ${work}`);
+const workSlug = work.split("/")[1];
+const kitabs = kitabsOf(work);
+const hadiths = hadithsOf(work);
+
+// persons each report points to via mentions edges (isnad figures, companions, scene actors).
+const mentionsPerson = new Map<string, any[]>();
+for (const e of graph.edges) {
+  if (e.type !== "mentions" || e.inverse || !e.from.startsWith("passage/")) continue;
+  const target = byId.get(e.to);
+  if (target?.class !== "person" || target.stub) continue;
+  const list = mentionsPerson.get(e.from) ?? mentionsPerson.set(e.from, []).get(e.from)!;
+  if (!list.some((p) => p.id === target.id)) list.push(target);
+}
+
+// hadiths per kitab come from the report's part_of edge to the chapter record.
+const kitabCount = new Map<string, number>();
+for (const e of graph.edges) {
+  if (e.type !== "part_of" || e.inverse || !e.from.startsWith("passage/")) continue;
+  if (kitabs.some((k) => k.id === e.to)) kitabCount.set(e.to, (kitabCount.get(e.to) ?? 0) + 1);
+}
+const kitabSlug = (k: any) => k.slug.replace(/^muwatta-/, "");
+const title = fmt(H.collection_title, { name: labelOf(workNode, lang) });
+---
+<BaseLayout lang={lang} title={title} description={fmt(H.collection_lede, { n: String(hadiths.length) })} path={`/${lang}/words/hadith/${workSlug}/`}>
+  <PageHeader
+    title={title}
+    lede={fmt(H.collection_lede, { n: String(hadiths.length) })}
+    crumbs={[
+      { label: T.entity.breadcrumb, href: `/${lang}/` },
+      { label: T.wings.words.title, href: `/${lang}/words/` },
+      { label: H.title, href: `/${lang}/words/hadith/` },
+      { label: labelOf(workNode, lang) },
+    ]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing="words"
+  />
+  <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
+    {kitabs.length > 0 ? (
+      <ol class="grid-cards" style="list-style:none;margin:0;padding:0">
+        {kitabs.map((k) => (
+          <li>
+            <a class="card" href={`/${lang}/words/hadith/${workSlug}/${kitabSlug(k)}/`}>
+              <h2 class="card-title">{labelOf(k, lang)}</h2>
+              <span class="ui">{fmt(H.reports, { n: String(kitabCount.get(k.id) ?? 0) })}</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    ) : (
+      <ol class="hd-list">
+        {hadiths.map((h) => (
+          <li>
+            <a href={href(lang, h.id)} class="hd-ref">{h.data.ref}</a>
+            <a href={href(lang, h.id)}>{labelOf(h, lang)}</a>
+            {(mentionsPerson.get(h.id) ?? []).slice(0, 4).map((p) => <a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>)}
+          </li>
+        ))}
+      </ol>
+    )}
+  </div>
+</BaseLayout>

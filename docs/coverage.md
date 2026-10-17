@@ -179,7 +179,7 @@ Average sources per entity: **1.15** · Women share of persons with a recorded g
 | ar | 7823 |
 | ur | 0 |
 
-### Themes with no entries yet (42 of 124)
+### Themes with no entries yet (42 of 132)
 
 `disability`, `sexuality-gender-diversity`, `indigenous-peoples`, `minorities-within-islam`, `local-islams-and-syncretism`, `colonial-wars-and-resistance`, `modern-conflicts`, `violent-extremism-and-the-muslim-response`, `scholarly-councils`, `international-bodies`, `religious-authorities`, `waqf`, `websites-and-apps`, `history-of-islam-online`, `ai-and-islam`, `waqf-in-service`, `modern-relief-and-development`, `animals-and-mercy`, `halal-certification-and-standards`, `halal-economy`, `cuisines`, `food-of-ramadan-and-feasts`, `foods-that-travelled`, `optics-and-physics`, `chemistry-and-alchemy`, `translation-and-transmission`, `science-today`, `evolution`, `scientific-miracles-claims`, `islam-and-modern-medicine`, `renewal-and-reform`, `islam-and-the-modern-state`, `law-today`, `rights-and-freedoms`, `islam-and-hinduism`, `islam-and-buddhism`, `islam-and-african-religions`, `islam-and-secular-thought`, `interfaith-dialogue`, `hostility-to-jews-and-christians`, `arts-of-the-book`, `sport`
 

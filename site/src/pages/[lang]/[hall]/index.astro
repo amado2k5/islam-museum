@@ -54,6 +54,16 @@ const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinate
       <figure style="margin:1.5rem 0;max-width:720px"><MiniMap places={placesWithCoords} lang={lang} /><figcaption class="muted ui" style="font-size:.85rem">{T.hall.map_note}</figcaption></figure>
     )}
 
+    {wing === "words" && (
+      <ul class="grid-cards" style="list-style:none;margin:0 0 8px;padding:0">
+        <li><a class="card" href={`/${lang}/words/quran/`}><h2 class="card-title">{T.reader.title}</h2><span>{T.reader.lede}</span></a></li>
+        <li><a class="card" href={`/${lang}/words/hadith/`}><h2 class="card-title">{T.hadith.title}</h2><span>{T.hadith.lede}</span></a></li>
+        <li><a class="card" href={`/${lang}/words/poetry/`}><h2 class="card-title">{T.poetry.title}</h2><span>{T.poetry.lede}</span></a></li>
+        <li><a class="card" href={`/${lang}/words/revelation/`}><h2 class="card-title">{T.revelation.title}</h2><span>{T.revelation.lede}</span></a></li>
+        <li><a class="card" href={`/${lang}/surah/`}><h2 class="card-title">{T.surahmap.title}</h2><span>{T.surahmap.lede}</span></a></li>
+      </ul>
+    )}
+
     {items.some((n) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start, lang).derived) && <p class="ui muted" style="font-size:.85rem;margin:1.2rem 0 0">{T.entity.dagger}</p>}
     <ul class="grid-cards" style="margin-top:1.5rem">
       {items.filter((n) => labelOf(n, lang)).map((n) => (

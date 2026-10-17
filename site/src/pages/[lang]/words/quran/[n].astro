@@ -1,0 +1,82 @@
+---
+// The Mushaf reader (Phase 3, roadmap: "Qur'an browser"): one sura as continuous Uthmani text.
+// Verse text is rendered verbatim from the frozen Tanzil records (passage/quran-N-M.data.text) —
+// nothing is typed or reshaped here. The basmala line reuses passage/quran-1-1, the frozen text
+// itself, shown before every sura except 1 (where it is ayah 1) and 9 (which opens without it).
+// Every verse links to its own museum page; the page reads fully without JavaScript.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../components/PageHeader.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { byId, href, labelOf, realNodes } from "../../../../lib/graph";
+import { listSurahMaps } from "../../../../lib/surah-maps";
+
+export function getStaticPaths() {
+  const suras = realNodes.filter((n) => n.class === "passage" && n.data.unit === "sura").sort((a, b) => a.data.sura - b.data.sura);
+  return LANGS.flatMap((lang) => suras.map((s) => ({ params: { lang, n: String(s.data.sura) }, props: { lang, sura: s } })));
+}
+const { lang, sura } = Astro.props as { lang: Lang; sura: any };
+const T = ui(lang);
+const R = T.reader;
+const n = sura.data.sura as number;
+const name = labelOf(sura, lang);
+const ayahs = realNodes
+  .filter((x) => x.class === "passage" && x.data.unit === "ayah" && x.data.sura === n)
+  .sort((a, b) => a.data.aya - b.data.aya);
+for (const [i, a] of ayahs.entries()) {
+  if (a.data.aya !== i + 1 || !a.data.text) throw new Error(`quran reader: sura ${n} missing or empty ayah at position ${i + 1}`);
+}
+const basmala = n === 1 || n === 9 ? undefined : (byId.get("passage/quran-1-1")!.data.text as string);
+// Verse-number markers use Eastern Arabic digits in every locale: they sit inside the Arabic line.
+const vn = new Intl.NumberFormat("ar-EG");
+const mapSlug = listSurahMaps().find((m) => m.n === n)?.slug;
+const prev = n > 1 ? byId.get(`passage/quran-${n - 1}`) : undefined;
+const next = n < 114 ? byId.get(`passage/quran-${n + 1}`) : undefined;
+const title = fmt(R.read_title, { name });
+const desc = fmt(R.read_lede, { n: String(ayahs.length), name });
+---
+<BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/words/quran/${n}/`}>
+  <PageHeader
+    title={name}
+    lede={desc}
+    crumbs={[
+      { label: T.entity.breadcrumb, href: `/${lang}/` },
+      { label: T.wings.words.title, href: `/${lang}/words/` },
+      { label: R.title, href: `/${lang}/words/quran/` },
+      { label: name },
+    ]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing="words"
+  />
+  <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
+    <div class="chips" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">
+      <span class="chip">{sura.data.revelation_place === "medinan" ? T.revelation.medinan : T.revelation.meccan}</span>
+      <span class="chip">{fmt(T.revelation.verses, { n: String(ayahs.length) })}</span>
+      <span class="chip">{fmt(T.surahmap.rev_order, { n: String(sura.data.revelation_order) })}</span>
+      {mapSlug && <a class="chip" href={`/${lang}/surah/${mapSlug}/`}>{R.map_link}</a>}
+      <a class="chip" href={`/${lang}/words/revelation/`}>{R.revelation_link}</a>
+    </div>
+
+    <article class="mushaf" aria-label={name}>
+      {basmala && <p class="mushaf-basmala" lang="ar" dir="rtl">{basmala}</p>}
+      <p class="mushaf-text" lang="ar" dir="rtl">
+        {ayahs.map((a, i) => (
+          <>
+            {i > 0 && " "}
+            <a class="qv" id={`v${a.data.aya}`} href={href(lang, a.id)} title={fmt(R.open_ayah, { ref: a.data.ref })}
+              >{a.data.text} <span class="qv-num">{vn.format(a.data.aya)}</span></a
+            >
+          </>
+        ))}
+      </p>
+    </article>
+
+    <nav class="ui" aria-label={R.sura_nav} style="display:flex;justify-content:space-between;gap:12px;margin-top:24px;flex-wrap:wrap">
+      {prev ? <a class="chip" href={`/${lang}/words/quran/${n - 1}/`}>← {labelOf(prev, lang)}</a> : <span />}
+      {next ? <a class="chip" href={`/${lang}/words/quran/${n + 1}/`}>{labelOf(next, lang)} →</a> : <span />}
+    </nav>
+
+    <p class="ui muted" style="font-size:.85rem;margin-top:20px;max-width:var(--measure)">
+      {R.credit} <a href={href(lang, "source/tanzil-quran")}>{R.credit_source}</a> · <a href="https://tanzil.net" rel="noopener">tanzil.net</a>
+    </p>
+  </div>
+</BaseLayout>
