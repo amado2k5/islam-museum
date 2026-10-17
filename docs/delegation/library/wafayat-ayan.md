@@ -99,3 +99,15 @@
 - **المصدر:** الجزء الخامس، حرف النون والفهرست العارض، طبعة إحسان عباس، djvu.
 - **السجلات:** نافع مولى ابن عمر (حسم استب موطأ — سلسلة الذهب: الشافعي عن مالك عن نافع)؛ مؤرج السدوسي (٢٠٤ البصرة — تلميذ الخليل، جماهر القبائل)؛ المعتضد بالله عباد (٤٦١ — قطب رحى الفتنة كما قال ابن بسّام)؛ الظافر القاضي محمد بن إسماعيل (مؤسس الدولة العبادية — أطاحوا يحيى بن علي الحمودي وملكوه)؛ ابن اللبانة الداني (لا تاريخ عند ابن خلكان — قدم مراكش ٤٣٩)؛ عميد الدولة ابن جهير (نائب أبيه فخر الدولة).
 - **موجودة أصلاً:** زيد بن علي، يحيى بن زيد، النضر بن شميل، المطرزي، الخبزأرزي، ابن قلاقس، ابن الأثير ضياء الدين، الجواليقي، القاضي النعمان، نفيسة، مهيار، الألومبي، ابن جهير فخر الدولة.
+
+### Batch 25 (session 7, diff-of-set) — pushed
+
+Six records from the v5 roster tail: `marwan-al-asghar` (last of the Banu Abi Hafsa
+poets — al-Mubarrad's "six poets in a line" remark), `al-hawfazan-ibn-shurayk`
+(generous-and-brave Shaybani, spear-goad naming story), `abu-al-ghayth-munqidh`
+(d. 539, Shayzar; Ibn al-Qaysarani's elegy), `abu-ata-marzuq-al-sindi` (the lisping
+poet baited into "jarada wa-zaj wa-shaytan" by Hammad's circle), `al-mughira-ibn-
+al-muhallab` (Muhallabid; Ziyad al-A'jam's dibaj satire), `abd-al-munim-ibn-ghulbun`
+(Aleppine qari' settled Egypt 378; taught Makki b. Abi Talib; al-Tha'alibi's praise).
+Three remain undated per OCR — bodies lack death lines. validate 0 errors, 19,835
+entities.
