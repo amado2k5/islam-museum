@@ -1,15 +1,18 @@
 id: person/sulayman-ibn-wahb
 class: person
 label: { ar: "سليمان بن وهب", en: "Sulayman ibn Wahb" }
+died: { edtf: "0884~", hijri: "0270~", calendar: julian, precision: year, status: tradition, derived: true, note: "عند المسعودي مات سنة سبعين ومائتين وكان آخر وزراء المعتمد قبل صاعد {cite:muruj-al-dhahab p. 579}؛ وعند ابن خلكان توفي مقبوضاً عليه {cite:wafayat-ayan}." }
 summary:
-  ar: "كاتب قام في الأتراك حين انقادوا للمهتدي بعد مواعظه فقال هذا سوء رأي منكم إن أعطاكم بلسانه فنيته فيكم غير هذا وسيأتي عليكم جميعاً ويفرق جمعكم، فاسترجعوا وجاءوا المهتدي بالخناجر {cite:muruj-al-dhahab p. 560}.، وعند المسعودي مات سنة سبعين ومائتين وكان آخر وزراء المعتمد قبل صاعد {cite:muruj-al-dhahab p. 579}"
-  en: "The secretary whose warning turned the wavering Turks back to kill al-Muhtadi — 'he will come upon you all and scatter your gathering' {cite:muruj-al-dhahab p. 560}."
+  ar: "أبو أيوب سليمان بن وهب بن سعيد بن عمرو بن حصين بن قيس بن فنال؛ من أسرة كتّاب عريقة — جده قيس كتب لمروان بن الحكم ثم لعبد الملك ثم لهشام؛ كتب للمأمون وهو ابن أربع عشرة سنة ثم للمعتصم ثم للواثق ثم ولي الوزارة للمهتدي بالله ثم للمعتمد على الله وله ديوان رسائل؛ وقام في الأتراك حين انقادوا للمهتدي بعد مواعظه فقال: هذا سوء رأي منكم، إن أعطاكم بلسانه فنيته فيكم غير هذا وسيأتي عليكم جميعاً ويفرق جمعكم، فاسترجعوا وجاءوا المهتدي بالخناجر {cite:muruj-al-dhahab p. 560}؛ وكان هو وأخوه الحسن بن وهب من أعيان عصرهما وقد مدحهما أبو تمام والبحتري {cite:wafayat-ayan}."
+  en: "Abu Ayyub Sulayman b. Wahb (d. c. 270 in custody) — vizier of al-Muhtadi and al-Mu'tamid who wrote for al-Ma'mun at fourteen; scion of a katib dynasty back to Mu'awiya's Syria; the man whose warning set the Turks back on al-Muhtadi {cite:muruj-al-dhahab p. 560} {cite:wafayat-ayan}."
 gender: male
+roles: [wazir, katib]
 wings: [people]
+periods: [period/abbasid-early]
 provenance:
   layer: own-research
-  source: "مروج الذهب للمسعودي ج2 ص 560"
-  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-muruj-dhahab-batch-103
-sources: [source/muruj-al-dhahab]
+  source: "مروج الذهب للمسعودي ج2 ص 560؛ وفيات الأعيان لابن خلكان — الجزء الثاني (ترجمة سليمان بن وهب)، طبعة إحسان عباس، djvu"
+  generated_by: "Devin (SWE-2 High): Apple Vision OCR (muruj) + djvu OCR (wafayat)"
+  run: lib-muruj-dhahab-batch-103; lib-wafayat-batch-19
+sources: [source/muruj-al-dhahab, source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
