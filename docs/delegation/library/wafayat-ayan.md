@@ -123,3 +123,14 @@ story), `mansur-ibn-nuh` (Samanid amir d. 365; al-Razi's Mansuri dedicatee), and
 enriched with his 619 Nasibin death date. Roster-only names with no bodies
 (Ildikizids, Baraka b. al-Muqallad, Abu Jutha) noted but not created. validate
 0 errors, 19,840 entities.
+
+### Batch 27 (session 7) — pushed; lane stubs cleared
+
+The lane stub file's four entries resolved: `al-qadi-al-fadil` (b. 535, d. 7
+Rabi' II 596; Salah al-Din's insha' chancellor; Ibn Khallikan read the death
+date off his Qarafa tomb's marble), `imad-al-din-al-katib-al-isfahani` (b. 519
+Isfahan; author of al-Barq al-Shami — death year lost to OCR, died at Damascus
+early Ramadan post-589), `al-thaalibi` (350–429; Yatimat al-Dahr) — each with
+Arabic prose. `al-afdal-shahanshah` was already covered by
+`al-malik-al-afdal-shahanshah`; stub removed. Lane stub file now empty.
+validate 0 errors, 19,843 entities.
