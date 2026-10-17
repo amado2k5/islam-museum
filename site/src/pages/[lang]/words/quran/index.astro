@@ -1,0 +1,52 @@
+---
+// The Mushaf reader index (Phase 3, roadmap: "Qur'an browser"): all 114 suras as cards into the
+// continuous-text reader. Order follows the mushaf; each card shows the sura name, verse count and
+// Meccan/Medinan classification from the frozen passage/quran-N records.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../components/PageHeader.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../lib/i18n";
+import { byId, labelOf, realNodes } from "../../../../lib/graph";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const R = T.reader;
+const suras = realNodes
+  .filter((n) => n.class === "passage" && n.data.unit === "sura")
+  .sort((a, b) => a.data.sura - b.data.sura);
+if (suras.length !== 114) throw new Error(`quran index: expected 114 suras, found ${suras.length}`);
+const ayahCount = new Map<number, number>();
+for (const n of realNodes) if (n.class === "passage" && n.data.unit === "ayah") ayahCount.set(n.data.sura, (ayahCount.get(n.data.sura) ?? 0) + 1);
+const cards = suras.map((s) => {
+  const n = s.data.sura as number;
+  if (!ayahCount.get(n)) throw new Error(`quran index: sura ${n} has no ayah passages`);
+  return { n, name: labelOf(s, lang), verses: ayahCount.get(n)!, place: s.data.revelation_place as string };
+});
+---
+<BaseLayout lang={lang} title={R.title} description={R.lede} path={`/${lang}/words/quran/`}>
+  <PageHeader
+    title={R.title}
+    lede={R.lede}
+    crumbs={[
+      { label: T.entity.breadcrumb, href: `/${lang}/` },
+      { label: T.wings.words.title, href: `/${lang}/words/` },
+      { label: R.title },
+    ]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing="words"
+  />
+  <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
+    <p class="ui muted" style="max-width:var(--measure);margin:0 0 16px">{R.index_note}</p>
+    <ol class="grid-cards" style="list-style:none;margin:0;padding:0">
+      {cards.map((c) => (
+        <li>
+          <a class="card" href={`/${lang}/words/quran/${c.n}/`}>
+            <span class="ui kicker">{fmt(R.sura_n, { n: String(c.n) })}</span>
+            <h2 class="card-title">{c.name}</h2>
+            <span class="ui">{fmt(T.revelation.verses, { n: String(c.verses) })} · {c.place === "medinan" ? T.revelation.medinan : T.revelation.meccan}</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </div>
+</BaseLayout>

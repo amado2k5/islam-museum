@@ -1,0 +1,71 @@
+---
+// One book (kitab) inside a hadith collection (Phase 3): every report the chapter record groups,
+// as rows with reference, title and the persons the report mentions. Reports link to their pages.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../../components/PageHeader.astro";
+import { ui, LANGS, fmt, type Lang } from "../../../../../lib/i18n";
+import { byId, graph, href, labelOf, realNodes } from "../../../../../lib/graph";
+
+export function getStaticPaths() {
+  const kitabs = realNodes.filter((n) => n.class === "passage" && n.data.unit === "chapter");
+  return LANGS.flatMap((lang) =>
+    kitabs.map((k) => ({
+      params: { lang, work: (k.data.work as string).split("/")[1], kitab: k.slug.replace(/^muwatta-/, "") },
+      props: { lang, kitabNode: k },
+    })),
+  );
+}
+const kitabSlug = (k: any) => k.slug.replace(/^muwatta-/, "");
+const { lang, kitabNode } = Astro.props as { lang: Lang; kitabNode: any };
+const T = ui(lang);
+const H = T.hadith;
+const workNode = byId.get(kitabNode.data.work);
+if (!workNode) throw new Error(`hadith kitab: no work entity ${kitabNode.data.work}`);
+const workSlug = (kitabNode.data.work as string).split("/")[1];
+
+// reports grouped under this chapter record via their part_of edge.
+const memberIds = new Set(
+  graph.edges.filter((e) => e.type === "part_of" && !e.inverse && e.to === kitabNode.id && e.from.startsWith("passage/")).map((e) => e.from),
+);
+const hadiths = realNodes
+  .filter((n) => memberIds.has(n.id) && n.data.unit === "hadith")
+  .sort((a, b) => a.slug.localeCompare(b.slug, "en", { numeric: true }));
+
+const mentionsPerson = new Map<string, any[]>();
+for (const e of graph.edges) {
+  if (e.type !== "mentions" || e.inverse || !memberIds.has(e.from)) continue;
+  const target = byId.get(e.to);
+  if (target?.class !== "person" || target.stub) continue;
+  const list = mentionsPerson.get(e.from) ?? mentionsPerson.set(e.from, []).get(e.from)!;
+  if (!list.some((p) => p.id === target.id)) list.push(target);
+}
+const title = labelOf(kitabNode, lang);
+const desc = fmt(H.kitab_lede, { n: String(hadiths.length), name: labelOf(workNode, lang) });
+---
+<BaseLayout lang={lang} title={title} description={desc} path={`/${lang}/words/hadith/${workSlug}/${kitabSlug(kitabNode)}/`}>
+  <PageHeader
+    title={title}
+    lede={desc}
+    crumbs={[
+      { label: T.entity.breadcrumb, href: `/${lang}/` },
+      { label: T.wings.words.title, href: `/${lang}/words/` },
+      { label: H.title, href: `/${lang}/words/hadith/` },
+      { label: labelOf(workNode, lang), href: `/${lang}/words/hadith/${workSlug}/` },
+      { label: title },
+    ]}
+    crumbsLabel={T.entity.breadcrumb}
+    wing="words"
+  />
+  <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
+    <p class="ui" style="margin:0 0 16px"><a class="chip" href={href(lang, kitabNode.id)}>{H.kitab_page} →</a></p>
+    <ol class="hd-list">
+      {hadiths.map((h) => (
+        <li>
+          <a href={href(lang, h.id)} class="hd-ref">{h.data.ref}</a>
+          <a href={href(lang, h.id)}>{labelOf(h, lang)}</a>
+          {(mentionsPerson.get(h.id) ?? []).slice(0, 4).map((p) => <a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>)}
+        </li>
+      ))}
+    </ol>
+  </div>
+</BaseLayout>
