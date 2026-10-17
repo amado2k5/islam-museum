@@ -1,0 +1,20 @@
+# Lane `lib-wafayat-ayan`: Wafayat al-A'yan wa-Anba' Abna' al-Zaman (Ibn Khallikan, d. 681 AH)
+
+**Book id:** `wafayat-ayan` · **Work:** `work/wafayat-al-ayan` · **Source:** `source/wafayat-ayan` · **Branch:** `content/lib-wafayat-ayan` · **Stubs:** `data/_stubs.d/lib-wafayat-ayan.yaml`
+
+**Edition and items used:** the harvest scans under `~/islam-museum-harvest/books/tareekh/wafayat-ayan/` — a mixed-edition set, all OCR'd with Apple Vision (no text layer in the PDFs):
+- `AAlexandrina-154776` (254 pp): «الجزء الأول» — early letters (أ–ز seen); ends near زيري بن مناد.
+- `AAlexandrina-224013` (548 pp): early-alphabet volume (table of contents opens with أبو دواد / أحمد / إبراهيم entries).
+- `AAlexandrina-147125` (458 pp): «الجزء الثاني» — حرف الميم.
+- `7_20211208_20211208` (383 pp): حرف الياء + the editor's concordance and name indexes (entry numbers like ٧٩٣ - يحيى بن أكثم point to other works' folios, not pages here).
+- Printed page ≠ scan page; printed numbers appear as standalone numeral lines in the OCR.
+
+**Method (dictionary lane rules):** do not read entry by entry. Work the priority list: unresolved `person/` stubs in `data/_stubs*.yaml` first, then narrators/figures with the most inbound references. For each target, search the four `book.txt` files for the normalised name; a hit inside a nasab chain or a «عن … قال» mention is not an entry — only mine a real biography (name opening its own section, followed by nasab/kunya/life/death material). Quote at most 40 words verbatim, own words otherwise; cite the scan page and the printed page where legible.
+
+## Progress
+
+- (Before this file) An earlier session mined ~36 `person/` records citing `source/wafayat-ayan`, concentrated on حرف الياء (Yusuf b. Tashfin dossier, Ya'qub b. Killis, Salah al-Din dossier, Almohad biographies, Yahya-group tarajim) — commits `be9dd8268` … `550177e03` under prefixes `feat(data): lib-wafayat` and `content(wafayat)`.
+- **Batch 5 (`lib-wafayat-batch-5`, Devin SWE-2):** 22 `person/` records from `AAlexandrina-154776` (حروف أ–ز). Entries verified as real biographies (standalone name openings + nasab/life/death bodies): Abu Bakr b. Abd al-Rahman al-Makhzumi (resolves a `muwatta-prose` stub; alias covers the -ibn-hisham variant), al-Shibli, Barkiyaruq, Ibrahim b. Hilal al-Sabi', Ibn Faris, Ibn Tabataba, al-Manazi, Ibn al-Khayyat, al-Urjani, Iyas b. Mu'awiya, Asbagh b. al-Faraj, Abu al-Salt al-Andalusi, Ibn Waki' al-Tinnisi, Abu al-Jawa'iz, al-Fariqi, Ibn Rashiq al-Qayrawani, al-Sukkari, Ahmad b. Harun al-Rashid, Ja'far b. Fallah al-Kutami, Nasir al-Din Ja'far b. Ya'qub, Abd al-Azim al-Mundhiri (author of the Takmila; Wafayat gives only a memorial line), Da'laj b. Ahmad. Dates only where the entry states them; `derived: true` on all converts.
+- **Corpus map (verified this session):** `154776` = «الجزء الأول» Wafayat text **with a bound-in later Sufi/Ottoman work interleaved in its back half** (entries like السلطان أورخان، ابن الفناري are NOT Ibn Khallikan — skip those pages); `224013` = a *second, fuller witness* of the early letters in a different print (2-up spreads, printed page numbers inline — useful for cross-verifying dates that `154776` garbles); `147125` = حرف الميم text; `7_20211208` = حرف الياء text + the editor's concordance/index (the numbered roster lists ALL ~850 entries — good for finding entry existence, useless for facts).
+- **Rejected this session (already written under other slugs):** al-Muzani, Aqsunqur al-Bursuqi, Sahib b. Abbad, Malik al-Nuhat (al-Baghdadi), al-Zajjaj, Ibn Zaydun, al-Karabisi, Dawud al-Zahiri, Ibn Sina, Khumarawayh, Raja' b. Haywa, Jawhar al-Siqilli, Rukn al-Dawla, Ziri b. Manad, Abu Yazid Makhlad, Abu Ali al-Tabari, al-Mansur (Ubadi). And `abd-al-rahman-ibn-abi-hurayra` stayed unwritten: the «ابن أبي هريرة» hit is a nasab mention inside another tarjama, no dedicated entry found.
+- **Next:** continue حروف أ–ز in `154776`/`224013` (the second witness fixes garbled dates), then حرف الميم in `147125` — work unresolved stubs first.
