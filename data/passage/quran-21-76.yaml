@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور نوح (کا قصہ بھی یاد کرو) جب (اس سے) پیشتر انہوں نے ہم کو پکارا تو ہم نے ان کی دعا قبول فرمائی اور ان کو اور ان کے ساتھیوں کو بڑی گھبراہٹ سے نجات دی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-21 }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
