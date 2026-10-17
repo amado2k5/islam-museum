@@ -17,6 +17,10 @@ translations:
   ur: { text: "بھلا جس وقت یعقوب وفات پانے لگے تو تم اس وقت موجود تھے، جب انہوں نے اپنے بیٹوں سے پوچھا کہ میرے بعد تم کس کی عبادت کرو گے، تو انہوں نے کہا کہ آپ کے معبود اور آپ کے باپ دادا ابراہیم اور اسمٰعیل اور اسحاق کے معبود کی عبادت کریں گے جو معبود یکتا ہے اور ہم اُسی کے حکم بردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
+  - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ishaq, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ismail, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/yaqub, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

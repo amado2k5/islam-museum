@@ -17,6 +17,8 @@ translations:
   ur: { text: "بےشک (کوہ) صفا اور مروہ خدا کی نشانیوں میں سے ہیں۔ تو جو شخص خانہٴ کعبہ کا حج یا عمرہ کرے اس پر کچھ گناہ نہیں کہ دونوں کا طواف کرے۔ (بلکہ طواف ایک قسم کا نیک کام ہے) اور جو کوئی نیک کام کرے تو خدا قدر شناس اور دانا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
+  - { type: mentions, target: place/al-marwa, sources: [source/tanzil-quran] }
+  - { type: mentions, target: place/al-safa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

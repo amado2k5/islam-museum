@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ان کو جہاں پاؤ قتل کردو اور جہاں سے انہوں نے تم کو نکالا ہے (یعنی مکے سے) وہاں سے تم بھی ان کو نکال دو۔ اور (دین سے گمراہ کرنے کا) فساد قتل وخونریزی سے کہیں بڑھ کر ہے اور جب تک وہ تم سے مسجد محترم (یعنی خانہ کعبہ) کے پاس نہ لڑیں تم بھی وہاں ان سے نہ لڑنا۔ ہاں اگر وہ تم سے لڑیں تو تم ان کو قتل کرڈالو۔ کافروں کی یہی سزا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
+  - { type: mentions, target: building/masjid-al-haram, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

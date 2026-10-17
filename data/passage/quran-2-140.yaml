@@ -17,6 +17,11 @@ translations:
   ur: { text: "(اے یہود ونصاریٰ) کیا تم اس بات کے قائل ہو کہ ابراہیم اور اسمٰعیل اور اسحاق اور یعقوب اور ان کی اولاد یہودی یا عیسائی تھے۔ (اے محمدﷺ ان سے) کہو کہ بھلا تم زیادہ جانتے ہو یا خدا؟ اور اس سے بڑھ کر ظالم کون، جو خدا کی شہادت کو، جو اس کے پاس (کتاب میں موجود) ہے چھپائے۔ اور جو کچھ تم کر رہے ہو، خدا اس سے غافل نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
+  - { type: mentions, target: person/hud, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ishaq, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ismail, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/yaqub, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
