@@ -1,0 +1,44 @@
+# Stub list for the Qur'an cross-link lane (scripts/harvest/quran/mentions.py).
+# Figures, places and groups named in the Qur'anic text that have no entity yet.
+# Same format as data/_stubs.yaml. Lines are removed as the real entities are written.
+
+# People named in the Qur'an
+- { id: person/firawn, label: { ar: "فرعون", en: "Pharaoh" }, note: "The Pharaoh of the Exodus in the Qur'anic narrative" }
+- { id: person/haman, label: { ar: "هامان", en: "Haman" }, note: "Pharaoh's minister in the Qur'anic narrative" }
+- { id: person/qarun, label: { ar: "قارون", en: "Qarun (Korah)" }, note: "Wealthy opponent of Musa swallowed by the earth" }
+- { id: person/jalut, label: { ar: "جالوت", en: "Jalut (Goliath)" }, note: "Warrior king defeated by Dawud" }
+- { id: person/talut, label: { ar: "طالوت", en: "Talut (Saul)" }, note: "First king appointed over Banu Israil" }
+- { id: person/al-samiri, label: { ar: "السامري", en: "al-Samiri" }, note: "Maker of the calf during Musa's absence" }
+- { id: person/uzair, label: { ar: "عزير", en: "Uzair (Ezra)" }, note: "Figure of 9:30 and the revived man tradition" }
+- { id: person/dhu-al-qarnayn, label: { ar: "ذو القرنين", en: "Dhu al-Qarnayn" }, note: "The two-horned ruler of sura al-Kahf" }
+- { id: person/dhu-al-kifl, label: { ar: "ذو الكفل", en: "Dhu al-Kifl" }, note: "Prophet counted among the patient" }
+- { id: person/zakariya, label: { ar: "زكريا", en: "Zakariya (Zechariah)" }, note: "Prophet; guardian of Maryam and father of Yahya" }
+- { id: person/idris, label: { ar: "إدريس", en: "Idris (Enoch)" }, note: "Prophet raised to a high station" }
+- { id: person/ilyas, label: { ar: "إلياس", en: "Ilyas (Elijah)" }, note: "Prophet sent against Baal worship" }
+- { id: person/al-yasa, label: { ar: "اليسع", en: "al-Yasaʿ (Elisha)" }, note: "Prophet counted among the elect" }
+- { id: person/hud, label: { ar: "هود", en: "Hud" }, note: "Prophet sent to the people of Aad" }
+- { id: person/iblis, label: { ar: "إبليس", en: "Iblis" }, note: "The jinn who refused to bow to Adam" }
+- { id: person/mikail, label: { ar: "ميكال", en: "Mikail (Michael)" }, note: "Angel named beside Jibril in 2:98" }
+- { id: person/harut, label: { ar: "هاروت", en: "Harut" }, note: "Angel of the Babylon trial in 2:102" }
+- { id: person/marut, label: { ar: "ماروت", en: "Marut" }, note: "Angel of the Babylon trial in 2:102" }
+- { id: person/imran, label: { ar: "عمران", en: "Imran" }, note: "Father of Maryam; head of Al Imran" }
+
+# Places named in the Qur'an
+- { id: place/yathrib, label: { ar: "يثرب", en: "Yathrib" }, note: "Pre-hijri name of Medina, named in 33:13" }
+- { id: place/tur-sina, label: { ar: "طور سينين", en: "Mount Sinai (Tur Sinin)" }, note: "The mount of Musa's commission, 95:2" }
+- { id: place/iram, label: { ar: "إرم", en: "Iram" }, note: "Iram dhat al-Imad, city of Aad in 89:7" }
+- { id: place/judi, label: { ar: "الجودي", en: "al-Judi" }, note: "Mount on which Nuh's ark rested, 11:44" }
+- { id: place/al-marwa, label: { ar: "المروة", en: "al-Marwa" }, note: "Second hill of the saʿy beside al-Safa, 2:158" }
+- { id: place/muzdalifah, label: { ar: "المزدلفة", en: "Muzdalifah" }, note: "al-Mashʿar al-Haram where pilgrims halt, 2:198" }
+- { id: place/al-ahqaf, label: { ar: "الأحقاف", en: "al-Ahqaf" }, note: "Sand-dune country of Aad, named in 46:21" }
+
+# Groups and communities named in the Qur'an
+- { id: group/aad, label: { ar: "عاد", en: "Aad" }, note: "Ancient Arab people of Hud" }
+- { id: group/yajuj-majuj, label: { ar: "يأجوج ومأجوج", en: "Yajuj and Majuj (Gog and Magog)" }, note: "People behind Dhu al-Qarnayn's barrier" }
+- { id: group/ashab-al-kahf, label: { ar: "أصحاب الكهف", en: "Companions of the Cave" }, note: "The sleepers of sura al-Kahf" }
+- { id: group/ashab-al-fil, label: { ar: "أصحاب الفيل", en: "Companions of the Elephant" }, note: "Abraha's army destroyed in sura al-Fil" }
+- { id: group/qawm-tubba, label: { ar: "قوم تبع", en: "People of Tubbaʿ" }, note: "Himyarite people warned as deniers" }
+- { id: group/ashab-rass, label: { ar: "أصحاب الرس", en: "Companions of al-Rass" }, note: "Denying community of 25:38 and 50:12" }
+- { id: group/ashab-ukhdud, label: { ar: "أصحاب الأخدود", en: "Companions of the Trench" }, note: "Burners of the believers in sura al-Buruj" }
+- { id: group/al-imran, label: { ar: "آل عمران", en: "The House of Imran" }, note: "Family of Maryam chosen in 3:33" }
+- { id: group/al-rum, label: { ar: "الروم", en: "al-Rum (the Byzantines)" }, note: "East Romans of sura al-Rum's opening" }
