@@ -134,3 +134,14 @@ early Ramadan post-589), `al-thaalibi` (350–429; Yatimat al-Dahr) — each wit
 Arabic prose. `al-afdal-shahanshah` was already covered by
 `al-malik-al-afdal-shahanshah`; stub removed. Lane stub file now empty.
 validate 0 errors, 19,843 entities.
+
+### Batch 28 (session 7) — pushed
+
+Six records from the v5 tail and v6 و-roster: `al-zafar-al-asadi` (b. 491
+Merv, d. 544 Khuzistan, buried beside al-Junayd's enclosure), `harun-ibn-
+al-munajjim` (Kitab al-Bari' on 161 poets), `yahya-ibn-ali-al-munajjim`
+(Mu'tazili nadim of al-Muwaffaq and al-Muktafi; Kitab al-Bahir), `jaafar-ibn-
+thiqat-al-dawla` (Kalbid prince-poet of Sicily), `jaafar-ibn-abd-al-wahid`
+(d. ~258; al-Ma'mun's three-day qadi of Egypt, 217), `mahraz-ibn-ziyad`
+(killed at Setif 555). Remaining v5/v6 roster-only names documented, no
+records (no recoverable bodies). validate 0 errors, 19,849 entities.
