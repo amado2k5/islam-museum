@@ -152,3 +152,21 @@ Three records closing the v6 و-roster diff: `yazid-ibn-mufarrigh` (d. 69, the
 Zubayrids' famous satirist), `thabit-qutna` (Khurasani warrior-poet, the
 minbar anecdote), `abu-shujaa-ibn-qasas` (al-Amir's confiscation monk, killed
 and crucified by al-Miqdad). validate 0 errors, 19,851 entities.
+
+### Batch 30 (session 7) — pushed; roster diff complete
+
+`shihab-al-din-al-kuni` (Yusuf b. Isma'il al-Kuni al-Halabi, the Aleppine
+poet Ibn Khallikan knew from 633 till his death; ~20,000-verse diwan).
+The v1–v7 roster diff of the Ihsan Abbas 8-volume set (djvu text) is now
+complete: every roster line was checked against `data/person/`; all bodies
+recoverable from the OCR are written. Roster-only names without locatable
+bodies documented per lane policy and not created.
+
+#### Remaining roster-only / unlocatable (v5–v6)
+- هلوان / شمس الدين / قزل بن ألدكز (Ildikizid atabegs — passing mention only)
+- زعيم الدولة بركة بن المقلد, أبو المعالي قريش بن بدران (Uqaylids — roster only)
+- أبو جوته عم الأمير قرواش; محمد بن مسلم بن قريش (embedded, no body)
+- الطاهر الحزري, ابن جهور, علم الدين قيصر بن عبد الغني (roster only)
+- بشر بن المغيرة بن المهلب, برهم بن بهرام, يوسف بن أبي يوسف القاضي,
+  يزيد بن شرحبيل الكندي, محمد بن يزيد بن معاوية (roster only)
+- Imad al-Din al-Katib's death year lost to OCR noise (b. 519 recorded)
