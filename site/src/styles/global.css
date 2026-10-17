@@ -627,3 +627,12 @@ html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
 @media (min-width: 1440px) {
   .wrap { max-width: 1240px; }
 }
+
+/* Objects hall — photo gallery + collections index */
+.obj-grid { columns: 4 220px; column-gap: 14px; list-style: none; padding: 0; margin: 0; }
+.obj-grid > li { break-inside: avoid; margin-bottom: 14px; }
+.obj-card { display: block; background: var(--card); border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; text-decoration: none; color: var(--fg); }
+.obj-card img { display: block; width: 100%; height: auto; background: var(--sand); }
+.obj-cap { display: block; padding: 10px 12px 12px; }
+.coll-list { columns: 3 280px; column-gap: 18px; list-style: none; padding: 0; margin: 0; }
+.coll-list > li { break-inside: avoid; display: flex; justify-content: space-between; gap: 12px; padding: 4px 0; border-bottom: 1px dotted var(--rule); font-size: .9rem; }

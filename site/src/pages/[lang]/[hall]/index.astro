@@ -29,6 +29,26 @@ const dateOf = (n: any) => {
   return formatDate(d.born ?? d.date?.start ?? d.start, lang).text;
 };
 const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinates) : [];
+// Objects hall: depict→media thumbnail index and collections grouping.
+const thumbByObject = new Map<string, { thumb: string; alt: string }>();
+if (wing === "objects") {
+  for (const m of realNodes.filter((n) => n.class === "media" && n.data.kind === "image")) {
+    for (const t of m.data.depicts ?? []) {
+      if (!thumbByObject.has(t) && m.data.thumbnail) {
+        thumbByObject.set(t, { thumb: m.data.thumbnail, alt: m.data.alt?.[lang] ?? m.data.alt?.en ?? labelOf(m, lang) });
+      }
+    }
+  }
+}
+const objectItems = wing === "objects" ? items.filter((n) => n.class === "object") : [];
+const pictured = objectItems.filter((n) => thumbByObject.has(n.id));
+const collections = wing === "objects"
+  ? [...objectItems.reduce((m, n) => {
+      const k = n.data.holding_institution as string | undefined;
+      if (k) m.set(k, (m.get(k) ?? 0) + 1);
+      return m;
+    }, new Map<string, number>()).entries()].sort((a, b) => b[1] - a[1])
+  : [];
 ---
 <BaseLayout lang={lang} title={T.wings[wing].title} description={T.wings[wing].blurb} path={`/${lang}/${WING_PATH[wing]}/`}>
   <PageHeader
@@ -38,7 +58,7 @@ const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinate
     crumbsLabel={T.entity.breadcrumb}
     wing={wing}
   >
-    <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}{" "}<span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span></p>
+    <p class="ui" style="color:#c9d3d6;margin:14px 0 0">{items.length ? (wing === "time" ? T.hall.coming_time : T.hall.coming) : T.hall.empty}{" "}{wing !== "objects" && <span>{fmt(T.hall.phase, { wing: T.wings[wing].title })}</span>}</p>
     {wing === "time" && <p class="ui tl-legend" style="color:#c9d3d6;font-size:.9rem;margin:6px 0 0">{T.timeline.legend}</p>}
   </PageHeader>
   <div class="wrap" style="padding-block:24px 20px" data-pagefind-ignore>
@@ -64,6 +84,40 @@ const placesWithCoords = wing === "place" ? realNodes.filter((n) => n.coordinate
       </ul>
     )}
 
+    {wing === "objects" && pictured.length > 0 && (
+      <section aria-labelledby="obj-gallery-h">
+        <h2 id="obj-gallery-h" class="ui" style="font-size:1.15rem;margin:1.5rem 0 .6rem">{T.hall.gallery}</h2>
+        <ul class="obj-grid">
+          {pictured.map((n) => {
+            const m = thumbByObject.get(n.id)!;
+            return (
+              <li>
+                <a class="obj-card" href={href(lang, n.id)}>
+                  <img src={m.thumb} alt={m.alt} loading="lazy" decoding="async" />
+                  <span class="obj-cap">
+                    <span class="card-title" style="font-size:.95rem">{labelOf(n, lang)}</span>
+                    <span class="ui" style="font-size:.8rem;color:var(--muted)">
+                      {[n.data.holding_institution, dateOf(n)].filter(Boolean).join(" · ")}
+                    </span>
+                  </span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )}
+    {wing === "objects" && collections.length > 0 && (
+      <section aria-labelledby="obj-colls-h">
+        <h2 id="obj-colls-h" class="ui" style="font-size:1.15rem;margin:1.8rem 0 .6rem">{T.hall.collections}</h2>
+        <ul class="coll-list">
+          {collections.map(([inst, n]) => (
+            <li><span>{inst}</span><span class="ui" style="color:var(--muted)">{n}</span></li>
+          ))}
+        </ul>
+      </section>
+    )}
+    {wing === "objects" && <h2 class="ui" style="font-size:1.15rem;margin:1.8rem 0 0">{T.hall.index}</h2>}
     {items.some((n) => formatDate(n.data.born ?? n.data.date?.start ?? n.data.start, lang).derived) && <p class="ui muted" style="font-size:.85rem;margin:1.2rem 0 0">{T.entity.dagger}</p>}
     <ul class="grid-cards" style="margin-top:1.5rem">
       {items.filter((n) => labelOf(n, lang)).map((n) => (
