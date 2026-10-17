@@ -1,14 +1,17 @@
 id: person/thabit-qutna
 class: person
-label: { ar: "ثابت قطنة الأزدي", en: "Thabit 'Qutna' al-Azdi" }
+label: { ar: "ثابت قطنة", en: "Thabit Qutna" }
 summary:
-  ar: "ثابت قطنة الأزدي؛ سمي قطنة لأن عينه فقئت فكان يضع عليها قطنة غضب لأهل ما وراء النهر حين أخذ أشرس المسالمة بعد إسلامهم فحبسه أشرس ثم خلاه بكفالة ووجهه في وجه فخرجت عليه الترك فقتلته."
-  en: "Thabit 'Qutna' al-Azdi — cotton-plugged for a gouged eye; he raged for the converts taxed after Islam, was jailed then bailed by al-Ashras, and sent where the Turks killed him."
-periods: [period/umayyad]
+  ar: "ثابت بن كعب بن جابر المازني مزيقياء، المعروف بثابت قطنة؛ من شعراء خراسان وفرسانها، ذهبت عينه فكان يحشوها قطنة فسمي به؛ استعمله يزيد بن المهلب على بعض كور خراسان، فلما علا المنبر أرتج عليه فلم ينطق حتى نزل، فدخل عليه الناس فقال: فإن لا أقم فيكم خطيباً فإنني بسيفي إذا جد الوغى لحطيب، فقالوا: لو كنت قلت هذا على المنبر لكنت أخطب الناس؛ ذكره ابن قتيبة في طبقات الشعراء {cite:wafayat-ayan}."
+  en: "Thabit 'Qutna' — the Khurasani warrior-poet of Yazid b. al-Muhallab's staff, nicknamed for the cotton in his lost eye; famed for the frozen-on-the-minbar anecdote and his sword-line {cite:wafayat-ayan}."
+gender: male
+roles: [poet]
 wings: [people]
-sources: [source/futuh-buldan-maarif-1407]
-status: { review: draft, completeness: 1 }
+periods: [period/umayyad]
 provenance:
   layer: own-research
-  generated_by: "Devin (SWE-2 High)"
-  extraction_flow: "Apple Vision OCR -> manual extraction"
+  source: "وفيات الأعيان لابن خلكان — الجزء السادس (ترجمة ثابت قطنة)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
+  generated_by: "Devin (SWE-2 High) from djvu OCR text"
+  run: lib-wafayat-batch-29
+sources: [source/wafayat-ayan]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

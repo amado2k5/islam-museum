@@ -145,3 +145,10 @@ thiqat-al-dawla` (Kalbid prince-poet of Sicily), `jaafar-ibn-abd-al-wahid`
 (d. ~258; al-Ma'mun's three-day qadi of Egypt, 217), `mahraz-ibn-ziyad`
 (killed at Setif 555). Remaining v5/v6 roster-only names documented, no
 records (no recoverable bodies). validate 0 errors, 19,849 entities.
+
+### Batch 29 (session 7) — pushed
+
+Three records closing the v6 و-roster diff: `yazid-ibn-mufarrigh` (d. 69, the
+Zubayrids' famous satirist), `thabit-qutna` (Khurasani warrior-poet, the
+minbar anecdote), `abu-shujaa-ibn-qasas` (al-Amir's confiscation monk, killed
+and crucified by al-Miqdad). validate 0 errors, 19,851 entities.
