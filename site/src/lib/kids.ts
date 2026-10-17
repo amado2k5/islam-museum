@@ -63,7 +63,7 @@ export function kidsHonorify(text: string, lang: Lang, names: string[]): string 
 }
 
 /** The text for a language; the stops are written in Arabic and English only, so Urdu falls back to English. */
-const pick = (b: Bilingual, lang: Lang): string => (lang === "ar" ? b.ar : b.en);
+const pick = <T>(b: { ar: T; en: T }, lang: Lang): T => (lang === "ar" ? b.ar : b.en);
 
 /** Select the page language and honorify each stop's story with that stop's prophet name. */
 export function viewQuestStops(stops: QuestStop[], lang: Lang): QuestStopView[] {
@@ -90,7 +90,7 @@ export interface DeedView {
 
 /** Select the page language for each deed (plain text, no honorifics needed). */
 export function viewDeeds(deeds: Deed[], lang: Lang): DeedView[] {
-  return deeds.map((d) => ({ day: d.day, icon: d.icon, deed: d.deed[lang] }));
+  return deeds.map((d) => ({ day: d.day, icon: d.icon, deed: pick(d.deed, lang) }));
 }
 
 export interface Deed { day: number; icon: string; deed: Bilingual }
@@ -141,10 +141,10 @@ export function viewStories(stories: BedtimeStory[], lang: Lang): BedtimeStoryVi
   return stories.map((s) => ({
     slug: s.slug,
     icon: s.icon,
-    prophet: s.prophet[lang],
-    title: s.title[lang],
-    bodyHtml: kidsHonorify(s.body[lang], lang, [s.prophet[lang]]),
-    talk: s.talk[lang],
+    prophet: pick(s.prophet, lang),
+    title: pick(s.title, lang),
+    bodyHtml: kidsHonorify(pick(s.body, lang), lang, [pick(s.prophet, lang)]),
+    talk: pick(s.talk, lang),
     audio: storyAudioExists(s.slug, lang),
   }));
 }
@@ -159,7 +159,7 @@ export function viewSproutLines(stops: QuestStop[], lang: Lang): SproutLine[] {
       slug: s.slug,
       icon: s.icon,
       line,
-      lineHtml: kidsHonorify(line, lang, [s.name[lang]]),
+      lineHtml: kidsHonorify(line, lang, [pick(s.name, lang)]),
     };
   });
 }
@@ -204,7 +204,7 @@ export interface RetellEntryView {
 }
 
 export function viewRetell(entries: RetellEntry[], lang: Lang): RetellEntryView[] {
-  return entries.map((e) => ({ stop_slug: e.stop_slug, prompts: e.prompts[lang] }));
+  return entries.map((e) => ({ stop_slug: e.stop_slug, prompts: pick(e.prompts, lang) }));
 }
 
 // ---------- Bridge cards (Phase 4) ----------
@@ -265,8 +265,8 @@ export function viewBridge(cards: BridgeCard[], lang: Lang): BridgeCardView[] {
   return cards.map((c) => ({
     slug: c.slug,
     kind: c.kind,
-    title: c.title[lang],
-    desc: c.desc[lang],
+    title: pick(c.title, lang),
+    desc: pick(c.desc, lang),
     href: bridgeHref(c, lang),
   }));
 }
@@ -342,7 +342,7 @@ export function loadLessons(): LessonUnit[] {
     if (![5, 6].includes(flowAr) || ![5, 6].includes(flowEn))
       throw new Error(`kids/lessons.yaml: unit ${u.unit_slug} flow_40min needs 5-6 steps per language`);
     for (const lang of ["ar", "en"] as const)
-      for (const s of u.flow_40min[lang])
+      for (const s of pick(u.flow_40min, lang))
         if (!s?.t || !s?.what)
           throw new Error(`kids/lessons.yaml: unit ${u.unit_slug} has an empty flow step`);
   }
@@ -353,10 +353,10 @@ export function viewLessons(units: LessonUnit[], lang: Lang): LessonUnitView[] {
   return units.map((u) => ({
     unit_slug: u.unit_slug,
     experience_href: u.experience_href,
-    objectives: u.objectives[lang],
-    flow_40min: u.flow_40min[lang],
-    discussion_prompts: u.discussion_prompts[lang],
-    worksheet: u.worksheet[lang],
+    objectives: pick(u.objectives, lang),
+    flow_40min: pick(u.flow_40min, lang),
+    discussion_prompts: pick(u.discussion_prompts, lang),
+    worksheet: pick(u.worksheet, lang),
   }));
 }
 
@@ -405,8 +405,8 @@ export function loadPaths(): CurriculumPath[] {
 export function viewPaths(paths: CurriculumPath[], lang: Lang): CurriculumPathView[] {
   return paths.map((p) => ({
     path_slug: p.path_slug,
-    title: p.title[lang],
-    desc: p.desc[lang],
+    title: pick(p.title, lang),
+    desc: pick(p.desc, lang),
     units: p.units,
   }));
 }
@@ -466,10 +466,10 @@ export function loadPilot(): Pilot {
 
 export function viewPilot(pilot: Pilot, lang: Lang): PilotView {
   return {
-    prepare: pilot.prepare[lang],
-    weeks: pilot.weeks.map((w) => ({ title: w.title[lang], points: w.points[lang] })),
-    feedback_questions: pilot.feedback_questions[lang],
-    contact_note: pilot.contact_note[lang],
+    prepare: pick(pilot.prepare, lang),
+    weeks: pilot.weeks.map((w) => ({ title: pick(w.title, lang), points: pick(w.points, lang) })),
+    feedback_questions: pick(pilot.feedback_questions, lang),
+    contact_note: pick(pilot.contact_note, lang),
   };
 }
 
