@@ -73,12 +73,12 @@ def vam_media(obj, data):
             return None
     iiif = iiif.rstrip("/")
     return {
-        "url": iiif + "/full/!800,/0/default.jpg",
+        "url": iiif + "/full/!768,/0/default.jpg",
         "thumbnail": thumb or iiif + "/full/!200,200/0/default.jpg",
         "iiif_image": iiif,
-        "attribution": "© Victoria and Albert Museum, London — via the V&A IIIF image service (free for non-commercial use)",
+        "attribution": "© Victoria and Albert Museum, London. Embedded by URL from the V&A IIIF image service, never copied, under the V&A website terms and conditions (non-commercial use only, credit required, 768 px maximum): https://www.vam.ac.uk/info/va-websites-terms-conditions",
         "source": "source/vam-collection",
-        "license": "institution-open",
+        "license": "VAM-NC",
         "creator": None,
     }
 
