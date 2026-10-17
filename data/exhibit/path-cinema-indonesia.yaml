@@ -1,0 +1,76 @@
+id: exhibit/path-cinema-indonesia
+class: exhibit
+kind: trail
+label:
+  ar: السينما الإندونيسية
+  en: Indonesian Cinema
+summary:
+  ar: 'مسار في سينما أكبر بلد مسلم: آيات الحب والمعلم تُكرمنوتو ونوسا للأطفال — جاوة تروي الإيمان.'
+  en: A trail through the largest Muslim nation's cinema.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- southeast-asia
+rooms:
+- title:
+    ar: آيات الحب
+    en: Verses of Love
+  body:
+    ar: '2008: الظاهرة السينمائية.'
+    en: '2008: الظاهرة السينمائية.'
+  features:
+  - screen/ayat-al-hubb-2008
+  - place/java
+- title:
+    ar: المعلم
+    en: The Teacher
+  body:
+    ar: 'تُكرمنوتو: سيرة المؤسس.'
+    en: 'تُكرمنوتو: سيرة المؤسس.'
+  features:
+  - screen/guru-bangsa-tjokroaminoto-2015
+  - screen/sang-pencerah-2010
+- title:
+    ar: نوسا
+    en: Nussa
+  body:
+    ar: 'أنيميشن الأطفال: التعليم بالرسوم.'
+    en: 'أنيميشن الأطفال: التعليم بالرسوم.'
+  features:
+  - screen/nussa-2019
+  - screen/nussa-film-2021
+- title:
+    ar: الدعوة
+    en: The da'wa
+  body:
+    ar: باحثو الله وحين يتسبح الحب.
+    en: باحثو الله وحين يتسبح الحب.
+  features:
+  - screen/para-pencari-tuhan-2007
+  - screen/hina-al-hubb-yatasabbah-2009
+- title:
+    ar: الحج
+    en: The hajj
+  body:
+    ar: 'بائع الببور يحج: الشعبية.'
+    en: 'بائع الببور يحج: الشعبية.'
+  features:
+  - screen/tukang-bubur-naik-haji-2012
+  - practice/hajj
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
