@@ -1,0 +1,76 @@
+id: exhibit/path-women-power
+class: exhibit
+kind: trail
+label:
+  ar: نساء في الحكم
+  en: Women in Power
+summary:
+  ar: 'مسار في من حكمن وأسسن: شجر الدر سلطانة، وفاطمة الفهري واقفة، وعائشة عالمة، وزينب — قوة النساء في
+    التاريخ.'
+  en: A trail through women who ruled and endowed.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: شجر الدر
+    en: Shajar al-Durr
+  body:
+    ar: 'سلطانة مصر ثمانين يومًا: أول امرأة في التاريخ.'
+    en: 'سلطانة مصر ثمانين يومًا: أول امرأة في التاريخ.'
+  features:
+  - person/shajar-al-durr
+  - place/cairo
+- title:
+    ar: فاطمة الفهري
+    en: Fatima al-Fihri
+  body:
+    ar: 'وقفت على القرويين: أقدم جامعة مستمرة.'
+    en: 'وقفت على القرويين: أقدم جامعة مستمرة.'
+  features:
+  - person/fatima-al-fihri
+  - place/fez
+- title:
+    ar: عائشة
+    en: Aisha
+  body:
+    ar: 'عالمة المدينة: الفقه والحديث والحرب.'
+    en: 'عالمة المدينة: الفقه والحديث والحرب.'
+  features:
+  - person/aisha
+  - event/battle-of-the-camel
+- title:
+    ar: حفصة وزينب
+    en: Hafsa and Zaynab
+  body:
+    ar: 'حافظة المصحف وبنت جحش: أمهات المؤمنين.'
+    en: 'حافظة المصحف وبنت جحش: أمهات المؤمنين.'
+  features:
+  - person/hafsa
+  - person/zaynab-bint-jahsh
+- title:
+    ar: الخنساء
+    en: Al-Khansa
+  body:
+    ar: 'شاعرة أم الشهداء: صوت النساء في الإسلام الأول.'
+    en: 'شاعرة أم الشهداء: صوت النساء في الإسلام الأول.'
+  features:
+  - person/al-khansa
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

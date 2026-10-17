@@ -1,0 +1,68 @@
+id: exhibit/path-navigators
+class: exhibit
+kind: trail
+label:
+  ar: بحارة الإسلام
+  en: Muslim Navigators
+summary:
+  ar: 'مسار في البحار: بيري ريس يرسم العالم، وجنغ خه يقود الكنوز، وبحارة المحيط الهندي بين عدن وملقا.'
+  en: A trail through the seafarers.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- southeast-asia
+rooms:
+- title:
+    ar: بيري ريس
+    en: Piri Reis
+  body:
+    ar: 'البحار العثماني: خريطة العالم 1513 في توب قابي.'
+    en: 'البحار العثماني: خريطة العالم 1513 في توب قابي.'
+  features:
+  - person/pir-reis-ahmad-ibn-muhyi-al-din
+  - place/istanbul
+- title:
+    ar: جنغ خه
+    en: Zheng He
+  body:
+    ar: 'أميرال الكنوز: سبع رحلات من الصين إلى جدة.'
+    en: 'أميرال الكنوز: سبع رحلات من الصين إلى جدة.'
+  features:
+  - person/zheng-he
+  - place/xian
+- title:
+    ar: ملاحو الهند
+    en: Indian Ocean pilots
+  body:
+    ar: 'بين عدن وزنجبار وملقا: علم المسافات والقمار.'
+    en: 'بين عدن وزنجبار وملقا: علم المسافات والقمار.'
+  features:
+  - place/aden
+  - place/malacca
+  - place/zanzibar
+- title:
+    ar: التجارة البحرية
+    en: Sea trade
+  body:
+    ar: 'التوابل والخزف والذهب: اقتصاد المحيط.'
+    en: 'التوابل والخزف والذهب: اقتصاد المحيط.'
+  features:
+  - place/muscat
+  - place/java
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
