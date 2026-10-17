@@ -57,14 +57,16 @@ export function loadJourneys(): Journey[] {
   return journeys;
 }
 
-/** Select the page language for each journey; narration lines stay plain text. */
+/** Select the page language for each journey; narration lines stay plain text.
+ *  A language the data has not been translated into yet (ur) falls back to English, as i18n/ui() does for UI strings. */
 export function viewJourneys(journeys: Journey[], lang: Lang): JourneyView[] {
+  const pick = <T,>(b: Record<string, T>): T => b[lang] ?? b.en;
   return journeys.map((j) => ({
     id: j.id,
     kind: j.kind,
     build: j.build,
-    title: j.title[lang],
-    sub: j.sub[lang],
-    lines: j.lines[lang],
+    title: pick(j.title),
+    sub: pick(j.sub),
+    lines: pick(j.lines),
   }));
 }
