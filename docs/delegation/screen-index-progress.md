@@ -220,3 +220,25 @@ Shaheed-e Kufa — already catalogued, deduped.
   check `data/<class>/` first; ~20% of slug guesses need prefix fixes
   (e.g. `isa-ibn-maryam`, `battle-of-the-trench`, `ayn-jalut-658`,
   `conquest-constantinople-857`).
+
+## Pathways lane (new — 2026-10-16)
+
+- **exhibit/trail** — 7 → **105** (of ~300 aspirational): curated
+  trails assembled entirely from existing graph entities — every
+  room `features` link validates. Themes covered: worship year and
+  life-cycle, prophets and mothers of believers, conquests and
+  fitna, all regions (andalus, maghreb, egypt, iraq, persia,
+  khorasan, anatolia, india, east/west africa, southeast asia,
+  china, volga, americas), sciences (falsafa, astronomy, medicine,
+  geography, grammar, calligraphy), objects (arms, textiles,
+  relics, museum treasures), law/ethics (sharia, muamalat, tahara,
+  creed, ethics), and meta-trails (screen room, questions, sira
+  books).
+- Method: trail rooms only link verified entity ids (checked via
+  `ls data/<class>/` before writing); trails reuse the question
+  cards created this session as learning anchors. All draft,
+  `prerequisites: [exhibit/path-islam-in-30-minutes]`.
+- Remaining trail ideas if continued: per-era timeline trails,
+  per-country trails, object-collection trails, hadith-book deep
+  trails. ~200 more possible but marginal value drops as themes
+  get reused.
