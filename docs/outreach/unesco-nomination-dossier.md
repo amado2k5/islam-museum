@@ -39,7 +39,7 @@ _Prepared 17 October 2026. Part A is an internal brief for the founder and is no
 
 ### A.4 Submission steps and calendar
 
-1. **This week.** Fill in the signature block in Part B. Export Parts B and C to PDF. Send to ccunesco@ccunesco.ca. Create the DPGA account at app.digitalpublicgoods.net/signup and complete the eligibility test first (about five minutes), then the application. Field descriptions, collection context and the data-extraction mechanism (the static JSON API under /api/v1/ and the git repository) are the documentation the DPGA asks for.
+1. **This week.** Fill in the signature block in Part B. Export Parts B and C to PDF. Send to ccunesco@ccunesco.ca. Create the DPGA account at app.digitalpublicgoods.net/signup and complete the eligibility test first (about five minutes), then the application. Every answer for the nine indicators, with its evidence in the repo or on the live site, is prepared in `docs/outreach/dpga-evidence-map.md`; the privacy and data statement it relies on is live at islam.museum/ar/privacy/.
 2. **Before any formal nomination.** Decide the legal vehicle. Prize money and most Canadian funding require a legal entity (a federally incorporated not-for-profit is the usual choice). The dossier says this is in progress; do not name an entity that does not exist.
 3. **November 2026.** Email prix.sharjah@unesco.org to confirm the 22nd edition deadline and ask whether a government nomination must come through CCUNESCO or through Canada's Permanent Delegation to UNESCO in Paris. Pass the answer to CCUNESCO.
 4. **December 2026.** When the WSIS Prizes 2027 call opens, submit under Action Line C8. English only; no nominator needed.
