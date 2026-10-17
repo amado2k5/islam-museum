@@ -5,6 +5,7 @@ import TimeStrip from "../components/TimeStrip.astro";
 import MiniMap from "../components/MiniMap.astro";
 import Extras from "../components/Extras.astro";
 import JourneyPlayer from "../components/JourneyPlayer.astro";
+import Pathway from "../components/Pathway.astro";
 import PageHeader from "../components/PageHeader.astro";
 import ExploreBar from "../components/ExploreBar.astro";
 import { byId, buildDate, href, labelOf, summaryOf, summaryRaw, related, REPO, SITE } from "../lib/graph";
@@ -127,7 +128,10 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
     </PageHeader>
 
     <div class="wrap" style="padding-block:24px 20px">
-      <div class="no-print" style="display:flex;justify-content:flex-end;max-width:920px;margin:0 auto 12px"><DepthDial client:load labels={T.depth} /></div>
+      <div class="no-print" style="display:flex;justify-content:flex-end;gap:10px;max-width:920px;margin:0 auto 12px">
+        <button type="button" class="chip" data-tour-add={n.id} data-save={T.mytour.save} data-saved={T.mytour.saved} aria-pressed="false">{T.mytour.save}</button>
+        <DepthDial client:load labels={T.depth} />
+      </div>
       <div class="reading">
     {n.stub ? (
       <section class="panel" style="margin-top:1.5rem">
@@ -168,6 +172,8 @@ const showGraph = n.degree > 0 && !(n.class === "passage" && d.unit === "ayah" &
         </div>
 
         {n.class === "journey" && d.waypoints && <JourneyPlayer node={n} lang={lang} />}
+        {n.class === "exhibit" && (d.rooms?.length ?? 0) > 0 && <Pathway node={n} lang={lang} />}
+        <script src="../scripts/mytour.ts"></script>
         <Extras node={n} lang={lang} />
 
         {untranslated && (

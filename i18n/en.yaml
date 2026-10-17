@@ -782,9 +782,9 @@ learn:
   title: Tour / Learn
   badge: In the making
   lede: The museum is big and you may not know where to start. Tour / Learn offers short, ordered pathways, each with a clear goal, that take you step by step through the museum's own pages, or show you the whole route at once.
-  status: This section is being built. We have opened five trial pathways so you can see the idea, and we are preparing a list of the 300 best pathways anyone can follow, opening each as its entries are ready. The rest of the museum stays as it is.
-  available_title: Pathways you can try now
-  available_note: Five trial pathways built on the museum's current pages. Their final form, with a step-by-step view and a whole-route view, comes at a later point in the plan.
+  status: This section is growing. Around three hundred pathways are drafted on the museum's current pages; the chooser and the step-by-step walk are live, and the catalogue review continues. The rest of the museum stays as it is.
+  available_title: Pathways you can walk now
+  available_note: Walk each pathway step by step, or see the whole route at once. Your progress stays in your browser.
   minutes: min
   steps: steps
   kind_tour: Tour
@@ -829,6 +829,90 @@ learn:
   themes: Themes
   suggest: Tell us what you want to learn
   plan: The design document
+  chooser_title: What do you want to understand?
+  filter_kind: By goal
+  filter_region: By region
+  filter_audience: For
+  filter_reset: Show all
+pathway:
+  title: Walk this pathway
+  steps: steps
+  minutes: min
+  walk: Walk step by step
+  see_all: See it all
+  resume: Resume
+  prev: Back
+  next: Next
+  skip: Skip this side step
+  optional: go deeper
+  recap: What you now know
+  before: 'Do first:'
+  after: 'Then:'
+  aud_newcomer: newcomer
+  aud_student: student
+  aud_teacher: teacher
+  aud_family: family
+  aud_researcher: researcher
+  level_intro: intro
+  level_standard: standard
+  level_deep: deep
+  depth_brief: brief
+  depth_standard: standard
+  depth_deep: deep
+  print: Print as handout
+  pk_era: an era
+  pk_personalities: personalities
+  pk_events: events
+  pk_ideas: ideas and practices
+  pk_places: places
+  pk_texts: texts and sciences
+  pk_art: art and objects
+  pk_culture: living culture
+  pk_hard_question: hard questions
+  pk_starter: start here
+calendar:
+  title: Hijri calendar
+  lede: The Islamic year as a month you can browse — Hijri days with their Gregorian twins, the year's observances linked to their museum pages, and a two-way converter. Dates before 1318 AH or after 1500 AH use the tabular calendar and may differ by a day or two from other reckonings.
+  today: Today
+  is_today: 'Today is'
+  prev_month: Previous month
+  next_month: Next month
+  jump: Go
+  observances: Observances this month
+  obs_none: No observances this month.
+  convert: Convert a date
+  convert_to_hijri: Gregorian → Hijri
+  convert_result: 'is'
+  approx: tabular calendar (approximate)
+  umalqura: Umm al-Qura
+  download_ics: Download this year's observances (.ics)
+  weekday_names: [Su, Mo, Tu, We, Th, Fr, Sa]
+  months: [Muharram, Safar, "Rabi' al-Awwal", "Rabi' al-Thani", "Jumada al-Ula", "Jumada al-Akhirah", Rajab, "Sha'ban", Ramadan, Shawwal, "Dhu al-Qa'dah", "Dhu al-Hijjah"]
+  obs:
+    new_year: Hijri New Year
+    ashura: Ashura
+    mawlid: Mawlid
+    isra: Isra and Mi'raj
+    mid_shaban: Mid-Sha'ban
+    ramadan: Ramadan
+    qadr: Laylat al-Qadr nights
+    eid_fitr: Eid al-Fitr
+    hajj: Hajj days
+    arafah: Day of Arafah
+    eid_adha: Eid al-Adha
+mytour:
+  title: My tour
+  lede: Entries you saved on your way through the museum. The list lives in this browser only — no account, nothing is sent anywhere. Share it as a link or print it.
+  save: Save to my tour
+  saved: In my tour
+  remove: Remove
+  clear: Clear all
+  share: Copy share link
+  copied: Copied
+  print: Print
+  add_all: Add all to my tour
+  items: entries
+  empty: Nothing saved yet. Open an entry and choose “Save to my tour”.
 foundation:
   title: About the Islam Museum foundation
   lede: 'A free, open, all-digital museum of Islam: its faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into to today.'
@@ -887,6 +971,10 @@ explore:
       title: Hijri timeline
       desc: Fourteen centuries on an interactive Hijri axis, with the Gregorian as a second reading.
       menu: Fourteen centuries on a Hijri axis
+    calendar:
+      title: Hijri calendar
+      desc: 'Browse the Hijri year month by month: every day with its Gregorian twin, the observances, a converter and an .ics download.'
+      menu: Browse the Hijri year month by month
     journeys:
       title: Interactive journeys
       desc: 'Walk the Hijra route day by day: the stations, distances and nights.'

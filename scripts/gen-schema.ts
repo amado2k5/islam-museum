@@ -307,7 +307,12 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
   exhibit: {
     properties: { ...kind("exhibit"), audience: strs, duration_minutes: intStr, curator: str, opened: { type: "string", format: "date" },
       prerequisites: entityRefs,
-      rooms: { type: "array", items: { type: "object", required: ["title"], properties: { title: L, body: L, features: entityRefs, media: entityRefs } } } },
+      goal: L, path_kind: enm(["era", "personalities", "events", "ideas", "places", "texts", "art", "culture", "hard-question", "starter"]),
+      level: enm(["intro", "standard", "deep"]),
+      outcomes: { type: "array", items: { type: "object", required: ["text"], properties: { text: L, steps: { type: "array", items: intStr } } } },
+      next: entityRefs,
+      rooms: { type: "array", items: { type: "object", required: ["title"], properties: { title: L, body: L, features: entityRefs, media: entityRefs,
+        depth: enm(["brief", "standard", "deep"]), optional: { type: "boolean" }, why_next: L, branch_of: intStr } } } },
     required: ["kind"],
   },
   question: {
