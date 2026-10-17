@@ -2,6 +2,7 @@
 // i18n parity, and required files. Mirrors scripts/cards.test.ts conventions.
 import { describe, expect, it } from "vitest";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { normalize } from "node:path";
 import { parse } from "yaml";
 
 // Same honorific guard as scripts/validate.ts: honorifics are never typed,
@@ -285,5 +286,40 @@ describe("kids wing", () => {
     expect(comp).toContain("print");
     const page = readFileSync("site/src/pages/[lang]/sighar/kindness.astro", "utf8");
     expect(page.includes("kindness_print") || comp.includes("kindness_print"), "t.kindness_print reference").toBe(true);
+  });
+
+  it("every relative <script src> in kids' .astro files resolves to a real file", () => {
+    const astroFiles = [
+      ...readdirSync("site/src/pages/[lang]/sighar").map((f) => `site/src/pages/[lang]/sighar/${f}`),
+      "site/src/components/Hudhud.astro",
+      "site/src/components/KidsWordGarden.astro",
+      "site/src/components/ProphetQuest.astro",
+      "site/src/components/KindnessQuest.astro",
+    ];
+    const SRC = /<script\s+src="(\.[^"]+)"/g;
+    for (const f of astroFiles) {
+      const dir = f.slice(0, f.lastIndexOf("/"));
+      const text = readFileSync(f, "utf8");
+      let m: RegExpExecArray | null;
+      while ((m = SRC.exec(text))) {
+        const resolved = normalize(`${dir}/${m[1]}`);
+        expect(existsSync(resolved), `${f}: script src ${m[1]} must exist`).toBe(true);
+      }
+    }
+  });
+
+  it("every kids' .astro file opens with a frontmatter fence (build-breaker guard)", () => {
+    const files = [
+      ...readdirSync("site/src/pages/[lang]/sighar").map((f) => `site/src/pages/[lang]/sighar/${f}`),
+      "site/src/components/Hudhud.astro",
+      "site/src/components/KidsWordGarden.astro",
+      "site/src/components/ProphetQuest.astro",
+      "site/src/components/KindnessQuest.astro",
+    ];
+    expect(files.length).toBeGreaterThan(0);
+    for (const f of files) {
+      const first = readFileSync(f, "utf8").split("\n")[0].trim();
+      expect(first, `${f} must start with ---`).toBe("---");
+    }
   });
 });
