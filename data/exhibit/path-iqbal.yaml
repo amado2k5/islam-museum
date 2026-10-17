@@ -1,0 +1,76 @@
+id: exhibit/path-iqbal
+class: exhibit
+kind: trail
+label:
+  ar: محمد إقبال
+  en: Muhammad Iqbal
+summary:
+  ar: 'مسار في شاعر الشرق: إقبال يكتب بالفارسية والأردية، ويدعو للنفس والتجدد — فلسفة الشعر الهندية.'
+  en: A trail through the poet of the East.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- south-asia
+rooms:
+- title:
+    ar: لاهور
+    en: Lahore
+  body:
+    ar: 'المولد والنشأة: صيالكوت ثم لاهور.'
+    en: 'المولد والنشأة: صيالكوت ثم لاهور.'
+  features:
+  - person/muhammad-iqbal
+  - place/lahore
+- title:
+    ar: الغرب
+    en: The West
+  body:
+    ar: 'كمبريدج وميونخ: فلسفة غربية.'
+    en: 'كمبريدج وميونخ: فلسفة غربية.'
+  features:
+  - person/muhammad-iqbal
+  - place/delhi
+- title:
+    ar: الشعر
+    en: The poetry
+  body:
+    ar: أسرار خودي وشكوى وجواب شكوى.
+    en: أسرار خودي وشكوى وجواب شكوى.
+  features:
+  - person/muhammad-iqbal
+  - person/muhammad-iqbal
+- title:
+    ar: الفكرة
+    en: The idea
+  body:
+    ar: 'النفس والتجدد: إحياء المسلم.'
+    en: 'النفس والتجدد: إحياء المسلم.'
+  features:
+  - person/muhammad-iqbal
+  - person/jalal-al-din-rumi
+- title:
+    ar: باكستان
+    en: Pakistan
+  body:
+    ar: 'الشاعر الوطني: إقبال وباكستان.'
+    en: 'الشاعر الوطني: إقبال وباكستان.'
+  features:
+  - person/muhammad-iqbal
+  - place/lahore
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,76 @@
+id: exhibit/path-hijra-converts
+class: exhibit
+kind: trail
+label:
+  ar: المسلمون الجدد
+  en: The New Muslims
+summary:
+  ar: 'مسار في من اعتنق الإسلام: سلمان وعبد الله بن سلام أولاً، ومالكوم ومئات الآلاف اليوم — قصص الاهتداء.'
+  en: A trail through those who embraced Islam.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: سلمان
+    en: Salman
+  body:
+    ar: 'الفارسي: النموذج الأول.'
+    en: 'الفارسي: النموذج الأول.'
+  features:
+  - person/salman-al-farisi
+  - place/isfahan
+- title:
+    ar: ابن سلام
+    en: Ibn Salam
+  body:
+    ar: 'حبر المدينة: العالم الذي آمن.'
+    en: 'حبر المدينة: العالم الذي آمن.'
+  features:
+  - person/abdullah-ibn-salam
+  - place/medina
+- title:
+    ar: مالكوم
+    en: Malcolm
+  body:
+    ar: 'الأمريكي: أشهر تحول قرن عشرين.'
+    en: 'الأمريكي: أشهر تحول قرن عشرين.'
+  features:
+  - person/malcolm-x
+  - place/mecca
+- title:
+    ar: الأدب
+    en: The adab
+  body:
+    ar: 'استقبال المهتدي: آداب الدعوة.'
+    en: 'استقبال المهتدي: آداب الدعوة.'
+  features:
+  - concept/adab
+  - concept/adab
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'المسلمون الجدد: ظاهرة عالمية.'
+    en: 'المسلمون الجدد: ظاهرة عالمية.'
+  features:
+  - concept/shahada
+  - concept/adab
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
