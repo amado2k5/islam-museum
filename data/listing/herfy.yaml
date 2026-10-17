@@ -1,0 +1,30 @@
+id: listing/herfy
+class: listing
+kind: restaurant
+label:
+  ar: هرفي
+  en: Herfy
+summary:
+  ar: سلسلة مطاعم سعودية تأسست 1981؛ أول مطعم وجبات سريعة سعودي ومن أكبر سلاسل المملكة.
+  en: Herfy.
+wings: []
+categories:
+- food
+regions:
+- arabia
+founded:
+  edtf: '1981'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/official-website
+external_ids:
+  official: https://www.herfy.com
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16
