@@ -1,0 +1,77 @@
+id: exhibit/path-periods
+class: exhibit
+kind: trail
+label:
+  ar: عصور الإسلام
+  en: The Ages of Islam
+summary:
+  ar: 'مسار عبر الزمن: النبوة والراشدون والأمويون والعباسيون والمماليك والبارود والحداثة — أربعة عشر قرنًا.'
+  en: A trail through fourteen centuries.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: النبوة
+    en: The Prophetic era
+  body:
+    ar: '610-632: الوحي والدولة.'
+    en: '610-632: الوحي والدولة.'
+  features:
+  - period/prophetic-era
+  - person/muhammad
+- title:
+    ar: الراشدون
+    en: The Rashidun
+  body:
+    ar: '632-661: الخلفاء الأربعة.'
+    en: '632-661: الخلفاء الأربعة.'
+  features:
+  - period/rashidun
+  - person/abu-bakr
+- title:
+    ar: الأمويون
+    en: The Umayyads
+  body:
+    ar: '661-750: دمشق تحكم العالم.'
+    en: '661-750: دمشق تحكم العالم.'
+  features:
+  - period/umayyad
+  - place/damascus
+- title:
+    ar: العباسيون
+    en: The Abbasids
+  body:
+    ar: '750-1258: بغداد والذهب.'
+    en: '750-1258: بغداد والذهب.'
+  features:
+  - period/abbasid-early
+  - period/abbasid-fragmentation
+- title:
+    ar: البارود
+    en: Gunpowder
+  body:
+    ar: '1500-1800: العثمانيون والصفويون والمغول.'
+    en: '1500-1800: العثمانيون والصفويون والمغول.'
+  features:
+  - period/gunpowder-empires
+  - polity/ottoman-empire
+  - period/modern-era
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
