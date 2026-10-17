@@ -25,5 +25,7 @@ export type Wing = (typeof WINGS)[number];
 
 export const WING_PATH: Record<Wing, string> = { time: "time", place: "place", people: "people", ideas: "ideas", objects: "objects", words: "words", living: "living", today: "today", made: "made" };
 export const wingHref = (lang: Lang, w: Wing) => `/${lang}/${WING_PATH[w]}/`;
+/** The language the AR | EN switch links to. */
+export const other = (l: Lang): Lang => (l === "en" ? "ar" : "en");
 
 export const t = (lang: Lang, path: string): string => path.split(".").reduce((o: any, k) => o?.[k], ui(lang)) ?? path;
