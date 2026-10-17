@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور فرعون کے لوگوں میں سے ایک مومن شخص جو اپنے ایمان کو پوشیدہ رکھتا تھا کہنے لگا کیا تم ایسے شخص کو قتل کرنا چاہتے ہو جو کہتا ہے کہ میرا پروردگار خدا ہے اور وہ تمہارے پروردگار (کی طرف) سے نشانیاں بھی لے کر آیا ہے۔ اور اگر وہ جھوٹا ہوگا تو اس کے جھوٹ کا ضرر اسی کو ہوگا۔ اور اگر سچا ہوگا تو کوئی سا عذاب جس کا وہ تم سے وعدہ کرتا ہے تم پر واقع ہو کر رہے گا۔ بےشک خدا اس شخص کو ہدایت نہیں دیتا جو بےلحاظ جھوٹا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

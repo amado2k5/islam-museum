@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور فرعون نے اپنی قوم سے پکار کر کہا کہ اے قوم کیا مصر کی حکومت میرے ہاتھ میں نہیں ہے۔ اور یہ نہریں جو میرے (محلوں کے) نیچے بہہ رہی ہیں (میری نہیں ہیں) کیا تم دیکھتے نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
+  - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

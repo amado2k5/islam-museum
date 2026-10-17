@@ -17,6 +17,7 @@ translations:
   ur: { text: "جو عاد تھے وہ ناحق ملک میں غرور کرنے لگے اور کہنے لگے کہ ہم سے بڑھ کر قوت میں کون ہے؟ کیا انہوں نے نہیں دیکھا کہ خدا جس نے ان کو پیدا کیا وہ ان سے قوت میں بہت بڑھ کر ہے۔ اور وہ ہماری آیتوں سے انکار کرتے رہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-41 }
+  - { type: mentions, target: group/aad, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

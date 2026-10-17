@@ -17,6 +17,7 @@ translations:
   ur: { text: "وہ تو ہمارے ایسے بندے تھے جن پر ہم نے فضل کیا اور بنی اسرائیل کے لئے ان کو (اپنی قدرت کا) نمونہ بنا دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-43 }
+  - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

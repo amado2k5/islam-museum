@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور اسی طرح تمہارے پاس قرآن عربی بھیجا ہے تاکہ تم بڑے گاؤں (یعنی مکّے) کے رہنے والوں کو اور جو لوگ اس کے اردگرد رہتے ہیں ان کو رستہ دکھاؤ اور انہیں قیامت کے دن کا بھی جس میں کچھ شک نہیں ہے خوف دلاؤ۔ اس روز ایک فریق بہشت میں ہوگا اور ایک فریق دوزخ میں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-42 }
+  - { type: mentions, target: place/makkah, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

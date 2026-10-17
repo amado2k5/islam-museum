@@ -17,6 +17,8 @@ translations:
   ur: { text: "(یعنی) آسمانوں کے رستوں پر، پھر موسیٰ کے خدا کو دیکھ لوں اور میں تو اسے جھوٹا سمجھتا ہوں۔ اور اسی طرح فرعون کو اس کے اعمال بد اچھے معلوم ہوتے تھے اور وہ رستے سے روک دیا گیا تھا۔ اور فرعون کی تدبیر تو بےکار تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

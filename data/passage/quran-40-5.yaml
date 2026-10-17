@@ -17,6 +17,7 @@ translations:
   ur: { text: "ان سے پہلے نوح کی قوم اور ان کے بعد اور اُمتوں نے بھی (پیغمبروں کی) تکذیب کی۔ اور ہر اُمت نے اپنے پیغمبر کے بارے میں یہی قصد کیا کہ اس کو پکڑ لیں اور بیہودہ (شہبات سے) جھگڑتے رہے کہ اس سے حق کو زائل کردیں تو میں نے ان کو پکڑ لیا (سو دیکھ لو) میرا عذاب کیسا ہوا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

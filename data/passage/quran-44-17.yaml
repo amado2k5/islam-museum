@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ان سے پہلے ہم نے قوم فرعون کی آزمائش کی اور ان کے پاس ایک عالی قدر پیغمبر آئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-44 }
+  - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
