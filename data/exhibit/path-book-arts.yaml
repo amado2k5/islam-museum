@@ -1,0 +1,75 @@
+id: exhibit/path-book-arts
+class: exhibit
+kind: trail
+label:
+  ar: فنون الكتاب
+  en: Arts of the Book
+summary:
+  ar: 'مسار في جمال الكلمة: الخط والتذهيب والزخرفة والتجليد والمصاحف والكسوة.'
+  en: A trail through the beauty of the word.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الخط
+    en: Calligraphy
+  body:
+    ar: من الكوفي إلى النسخ والثلث.
+    en: From Kufic to naskh and thuluth.
+  features:
+  - concept/khatt-al-arabi
+  - concept/islamic-calligraphy
+- title:
+    ar: التذهيب
+    en: Illumination
+  body:
+    ar: الذهب واللجورد يزينان المصحف.
+    en: Gold and lapis adorn the codex.
+  features:
+  - object/awraq-quran-abbasi
+  - object/al-mushaf-al-azraq
+- title:
+    ar: الزخرفة
+    en: Ornament
+  body:
+    ar: هندسة النجوم والأرابيسك.
+    en: Star geometry and arabesque.
+  features:
+  - concept/islamic-geometric-patterns
+  - concept/arabesque
+- title:
+    ar: التجليد
+    en: Binding
+  body:
+    ar: كرسي المصحف وجلوده.
+    en: The Qur'an stand and its bindings.
+  features:
+  - object/kursi-quran
+  - object/jild-quran-usmani
+- title:
+    ar: كسوة الكعبة
+    en: The Kiswa
+  body:
+    ar: ستارة بيت الله عبر القرون.
+    en: The Kaaba's covering across centuries.
+  features:
+  - object/kiswa
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,74 @@
+id: exhibit/path-poets
+class: exhibit
+kind: trail
+label:
+  ar: شعراء الأمة
+  en: Poets of the Umma
+summary:
+  ar: 'مسار في الشعر مع الإسلام: حسان ولعبد والخنساء والمتنبي وألف ليلة وشعر الصوفية.'
+  en: A trail through poetry and Islam.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: شاعر الرسول
+    en: His poet
+  body:
+    ar: 'حسان بن ثابت: لسان الإسلام الأول.'
+    en: 'Hassan: Islam''s first tongue.'
+  features:
+  - person/hassan-ibn-thabit
+- title:
+    ar: الجاهلية إلى الإسلام
+    en: From jahiliyya
+  body:
+    ar: 'لعبد بن ربيعة والخنساء: شعر ينتقل.'
+    en: 'Labid and al-Khansa: verse crossing over.'
+  features:
+  - person/labid-ibn-rabia
+  - person/al-khansa
+- title:
+    ar: مالئ الدنيا
+    en: The great voice
+  body:
+    ar: 'المتنبي: أشهر شعراء العربية.'
+    en: 'Mutanabbi: Arabic''s most famous poet.'
+  features:
+  - person/al-mutanabbi
+  - event/killing-of-mutanabbi-354
+- title:
+    ar: ألف ليلة
+    en: The Nights
+  body:
+    ar: حكاية الشعوب في دفتر واحد.
+    en: The peoples' tales in one ledger.
+  features:
+  - work/alf-layla-wa-layla
+- title:
+    ar: شعر الصوفية
+    en: Mystic verse
+  body:
+    ar: 'الرومي وإقبال: شعر الوجد والذات.'
+    en: 'Rumi and Iqbal: verse of longing and self.'
+  features:
+  - person/jalal-al-din-rumi
+  - person/muhammad-iqbal
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
