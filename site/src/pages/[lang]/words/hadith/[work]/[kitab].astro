@@ -66,7 +66,14 @@ const desc = fmt(H.kitab_lede, { n: String(hadiths.length), name: labelOf(workNo
         <li>
           <a href={href(lang, h.id)} class="hd-ref">{h.data.ref}</a>
           <a href={href(lang, h.id)}>{labelOf(h, lang)}</a>
-          {(mentionsPerson.get(h.id) ?? []).slice(0, 4).map((p) => <a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>)}
+          {h.data.chain?.length
+            ? h.data.chain.map((pid: string, i: number) => {
+                const p = byId.get(pid);
+                return <>{i > 0 && <span class="isnad-sep">{H.isnad_from}</span>}{p && !p.stub
+                  ? <a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>
+                  : <span class="chip">{p ? labelOf(p, lang) : pid.split("/")[1]}</span>}</>;
+              })
+            : (mentionsPerson.get(h.id) ?? []).slice(0, 4).map((p) => <a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>)}
           {sunnahReport(h.data.work, h.data.ref) && <a class="chip" href={sunnahReport(h.data.work, h.data.ref)} rel="noopener">Sunnah.com ↗</a>}
         </li>
       ))}

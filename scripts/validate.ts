@@ -144,6 +144,7 @@ export function validateAll(extra: { entity: any; file: string }[] = []): { issu
 
     // simple ref fields
     for (const per of entity.periods ?? []) if (!resolves(per)) err(file, `periods: ${per} does not exist`);
+    for (const c of entity.chain ?? []) if (!resolves(c)) err(file, `chain: ${c} does not exist`);
     for (const f of ["hero"]) {
       const v = entity.media?.[f];
       if (v && !known.has(v)) err(file, `media.${f}: ${v} does not exist`);

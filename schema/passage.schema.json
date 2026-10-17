@@ -83,6 +83,15 @@
         "pattern": "^[a-z]+/[a-z0-9][a-z0-9-]*$"
       }
     },
+    "chain": {
+      "type": "array",
+      "description": "ordered isnad as stated in the source: first narrator nearest the work; person/muhammad is the terminal when the report reaches him (marfu'), otherwise the last element is the Companion the report stops at",
+      "items": {
+        "type": "string",
+        "pattern": "^person/[a-z0-9][a-z0-9-]*$"
+      },
+      "minItems": 1
+    },
     "context": {
       "$ref": "_base.schema.json#/$defs/localized"
     }
