@@ -1,0 +1,26 @@
+---
+// Storytellers: a private notebook. No-JS: a static explanation + prompt;
+// entries need JavaScript and live only in this browser's localStorage.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import JournalBook from "../../../components/JournalBook.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={t.journal_title} description={t.journal_lede} path={`/${lang}/sighar/journal/`} kids={true}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{t.journal_title}</span>
+  </nav>
+  <JournalBook lang={lang} t={t} />
+  <details class="grownups">
+    <summary>{t.grownups_title}</summary>
+    <p>{t.grownups_hub}</p>
+  </details>
+</BaseLayout>

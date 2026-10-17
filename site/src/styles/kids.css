@@ -924,3 +924,141 @@ a.kids-back:visited {
     width: 12px;
   }
 }
+
+/* ================================================= vote banner (classroom) */
+/* Shown only in classroom mode: classroom.ts removes `hidden` when
+   ?classroom=1. The explicit [hidden] rule keeps it hidden even if another
+   rule ever sets display on .vote-banner. */
+.kids .vote-banner {
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--kids-lapis); /* >= 6.5:1 on the gradient below */
+  background: linear-gradient(135deg, #fdf3d7, #f2cf5c);
+  border: 3px solid var(--kids-gold);
+  border-radius: var(--kids-radius);
+  padding: 1rem 1.25rem;
+  margin: 0 0 1rem;
+  box-shadow: 0 4px 14px rgba(201, 162, 39, 0.35);
+}
+.kids .vote-banner[hidden] { display: none; }
+
+/* ======================================================= classroom mode == */
+/* ?classroom=1: bigger type for the back row, 64px touch targets, and all
+   erase controls hidden (classroom.ts adds the class; never hand-toggle). */
+html.classroom body { font-size: 130%; }
+html.classroom .kids .kids-btn,
+html.classroom .kids button {
+  min-height: 64px;
+  min-width: 64px;
+}
+html.classroom [data-erase],
+html.classroom .erase-wrap { display: none !important; }
+
+/* ================================================================ bridge == */
+/* "Grown-up museum door" cards: bridge cards out of the kids' wing. */
+.kids .bridge { margin-block: 2.5rem; }
+.kids .bridge-note {
+  border-inline-start: 4px solid var(--kids-gold);
+  padding-inline-start: 1rem;
+  color: var(--kids-ink-soft);
+  font-size: 1.05rem;
+}
+.kids .entry-card.bridge-card {
+  border: 2px dashed var(--kids-gold);
+  background: #fffdf6;
+}
+.kids .entry-card.bridge-card h3 { margin-block: 0 0.5rem; font-size: 1.25rem; }
+.kids .entry-card.bridge-card p { margin: 0; color: var(--kids-ink-soft); }
+
+/* ========================================================== teachers kit = */
+/* All Teacher's Kit pages are server-rendered; these rules are shared and
+   component-agnostic (interactive components scope their own styles). */
+.kids .teachers section,
+.kids .teachers-lesson section,
+.kids .teachers-path section,
+.kids .teachers-pilot-page section { margin-block: 2rem; }
+.kids .teachers h2,
+.kids .teachers-lesson h2,
+.kids .teachers-path h2,
+.kids .teachers-pilot-page h2 { font-size: 1.5rem; color: var(--kids-lapis); }
+.kids ul.entries { list-style: none; padding: 0; }
+.kids .entry-card h3 { margin-block: 0 0.5rem; font-size: 1.3rem; }
+
+.kids .lesson-flow table { width: 100%; border-collapse: collapse; margin-block: 1rem; }
+.kids .lesson-flow th,
+.kids .lesson-flow td {
+  border: 1px solid var(--kids-gold);
+  padding: 0.6rem 0.8rem;
+  text-align: start;
+  vertical-align: top;
+}
+.kids .lesson-flow thead th { background: #fdf3d7; color: var(--kids-lapis); }
+.kids .lesson-flow .mins { white-space: nowrap; font-weight: 700; }
+
+.kids .worksheet-lines { padding-inline-start: 1.5rem; }
+.kids .worksheet-lines > li { margin-bottom: 1rem; }
+.kids .write-lines {
+  height: 8rem;
+  margin: 0.5rem 0 1.5rem;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 1.9rem,
+    rgba(201, 162, 39, 0.55) 1.9rem,
+    rgba(201, 162, 39, 0.55) 2rem
+  );
+}
+@media print {
+  .kids .write-lines { height: 10rem; }
+}
+
+.kids .path-units > ol { padding-inline-start: 1.5rem; display: grid; gap: 1.25rem; }
+.kids .path-unit {
+  border: 2px solid var(--kids-gold);
+  border-radius: var(--kids-radius);
+  background: #fffdf6;
+  padding: 1.25rem 1.5rem;
+}
+.kids .path-unit h3 { margin-block: 0 0.5rem; }
+.kids .path-unit .unit-note { color: var(--kids-ink-soft); }
+
+.kids .checklist { list-style: none; padding: 0; display: grid; gap: 0.6rem; }
+.kids .checklist li {
+  padding-inline-start: 2.2rem;
+  position: relative;
+  font-size: 1.05rem;
+}
+.kids .checklist li::before {
+  content: "☐";
+  position: absolute;
+  inset-inline-start: 0.4rem;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  color: var(--kids-gold-deep);
+}
+
+.kids .weeks { padding-inline-start: 1.5rem; display: grid; gap: 1.25rem; }
+.kids .week {
+  border: 2px solid var(--kids-teal);
+  border-radius: var(--kids-radius);
+  background: #fff;
+  padding: 1.25rem 1.5rem;
+}
+.kids .week h3 { margin-block: 0 0.5rem; color: var(--kids-lapis); }
+
+/* Pilot contact: the YAML carries a TODO placeholder, never an email.
+   Rendered loud so no one mistakes it for real contact info. */
+.kids .pilot-contact .todo {
+  border: 3px dashed var(--kids-coral);
+  border-radius: var(--kids-radius);
+  background: #fff7f2;
+  padding: 1.25rem 1.5rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--kids-lapis);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kids .entry-card.bridge-card { transition: none; }
+}

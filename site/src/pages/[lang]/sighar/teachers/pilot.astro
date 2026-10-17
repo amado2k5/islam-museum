@@ -1,0 +1,62 @@
+---
+// Teacher's Kit: the 5-school pilot page — prepare checklist, 4-week outline,
+// feedback questions, and a contact section that shows the TODO placeholder
+// prominently (never an email). All server-rendered.
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { loadPilot, viewPilot } from "../../../../lib/kids";
+import "../../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+const pilot = viewPilot(loadPilot(), lang);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={t.pilot_title} description={t.pilot_lede} path={`/${lang}/sighar/teachers/pilot/`} kids={true}>
+  <div class="kids teachers-pilot-page">
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`/${lang}/sighar/teachers/`}>{t.teachers_title}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{t.pilot_title}</span>
+    </nav>
+    <h1>{t.pilot_title}</h1>
+    <p class="lede">{t.pilot_lede}</p>
+
+    <section class="pilot-prepare" aria-label={t.pilot_prepare_title}>
+      <h2>{t.pilot_prepare_title}</h2>
+      <ul class="checklist">
+        {pilot.prepare.map((p) => <li>{p}</li>)}
+      </ul>
+    </section>
+
+    <section class="pilot-weeks" aria-label={t.pilot_weeks_title}>
+      <h2>{t.pilot_weeks_title}</h2>
+      <ol class="weeks">
+        {pilot.weeks.map((w) => (
+          <li class="week">
+            <h3>{w.title}</h3>
+            <ul>
+              {w.points.map((p) => <li>{p}</li>)}
+            </ul>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <section class="pilot-feedback" aria-label={t.pilot_feedback_title}>
+      <h2>{t.pilot_feedback_title}</h2>
+      <ol>
+        {pilot.feedback_questions.map((f) => <li>{f}</li>)}
+      </ol>
+    </section>
+
+    <section class="pilot-contact" aria-label={t.pilot_contact_title}>
+      <h2>{t.pilot_contact_title}</h2>
+      <p class="todo">{pilot.contact_note}</p>
+    </section>
+  </div>
+</BaseLayout>

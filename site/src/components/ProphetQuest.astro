@@ -38,6 +38,7 @@ const valuesJoined = stops.map((s) => s.value).join(sep);
       <p class="value-badge"><span aria-hidden="true">{s.valueIcon}</span> {t.quest_value}: <b>{s.value}</b></p>
       <div class="quest-q">
         <p><b>{s.question}</b></p>
+        <p class="vote-banner" data-vote-banner hidden>{t.classroom_vote_banner}</p>
         <div class="choices" data-choices>
           {s.choices.map((c) => <button type="button" class="choice">{c}</button>)}
         </div>

@@ -288,38 +288,173 @@ describe("kids wing", () => {
     expect(page.includes("kindness_print") || comp.includes("kindness_print"), "t.kindness_print reference").toBe(true);
   });
 
-  it("every relative <script src> in kids' .astro files resolves to a real file", () => {
-    const astroFiles = [
-      ...readdirSync("site/src/pages/[lang]/sighar").map((f) => `site/src/pages/[lang]/sighar/${f}`),
-      "site/src/components/Hudhud.astro",
-      "site/src/components/KidsWordGarden.astro",
-      "site/src/components/ProphetQuest.astro",
-      "site/src/components/KindnessQuest.astro",
-    ];
+  /** All .astro files under the kids' pages dir (recursive) plus kids' components. */
+  const kidsAstroFiles = (): string[] => {
+    const out: string[] = [];
+    const walk = (dir: string) => {
+      for (const e of readdirSync(dir, { withFileTypes: true })) {
+        const p = `${dir}/${e.name}`;
+        if (e.isDirectory()) walk(p);
+        else if (e.name.endsWith(".astro")) out.push(p);
+      }
+    };
+    walk("site/src/pages/[lang]/sighar");
+    for (const f of readdirSync("site/src/components")) {
+      if (f.endsWith(".astro") && /Hudhud|Garden|Quest|Retell|Journal/i.test(f))
+        out.push(`site/src/components/${f}`);
+    }
+    return out;
+  };
+
+  it("every relative import and <script src> in kids' .astro files resolves to a real file", () => {
+    const astroFiles = kidsAstroFiles();
     const SRC = /<script\s+src="(\.[^"]+)"/g;
+    const IMP = /(?:import|from)\s+["'](\.[^"']+)["']/g;
     for (const f of astroFiles) {
       const dir = f.slice(0, f.lastIndexOf("/"));
       const text = readFileSync(f, "utf8");
-      let m: RegExpExecArray | null;
-      while ((m = SRC.exec(text))) {
-        const resolved = normalize(`${dir}/${m[1]}`);
-        expect(existsSync(resolved), `${f}: script src ${m[1]} must exist`).toBe(true);
-      }
+      const check = (re: RegExp, kind: string) => {
+        let m: RegExpExecArray | null;
+        while ((m = re.exec(text))) {
+          const base = normalize(`${dir}/${m[1]}`);
+          // TS-style imports omit the extension; try .ts/.tsx/index variants.
+          const ok =
+            existsSync(base) ||
+            existsSync(base + ".ts") ||
+            existsSync(base + ".tsx") ||
+            existsSync(base + "/index.ts");
+          expect(ok, `${f}: ${kind} ${m[1]} must exist`).toBe(true);
+        }
+      };
+      check(SRC, "script src");
+      check(IMP, "import");
     }
   });
 
   it("every kids' .astro file opens with a frontmatter fence (build-breaker guard)", () => {
-    const files = [
-      ...readdirSync("site/src/pages/[lang]/sighar").map((f) => `site/src/pages/[lang]/sighar/${f}`),
-      "site/src/components/Hudhud.astro",
-      "site/src/components/KidsWordGarden.astro",
-      "site/src/components/ProphetQuest.astro",
-      "site/src/components/KindnessQuest.astro",
-    ];
+    const files = kidsAstroFiles();
     expect(files.length).toBeGreaterThan(0);
     for (const f of files) {
       const first = readFileSync(f, "utf8").split("\n")[0].trim();
       expect(first, `${f} must start with ---`).toBe("---");
     }
+  });
+});
+
+describe("kids wing phase 4+5 (storytellers + teachers)", () => {
+  const QUEST_SLUGS = ["adam", "nuh", "ibrahim", "musa", "isa"];
+  const noHonorifics = (text: string, where: string) =>
+    expect(HONORIFIC.test(text), `${where}: typed honorific`).toBe(false);
+  const noQuranMarks = (text: string, where: string) =>
+    expect(text.includes("﴿") || text.includes("﴾"), `${where}: typed Quran marks`).toBe(false);
+  const bilingualOk = (v: any, where: string) => {
+    expect(typeof v?.ar === "string" && v.ar.length > 0, `${where}.ar`).toBe(true);
+    expect(typeof v?.en === "string" && v.en.length > 0, `${where}.en`).toBe(true);
+  };
+
+  it("retell.yaml: prompts for all 5 quest stops, 3 per language", () => {
+    const raw = parse(readFileSync("kids/retell.yaml", "utf8")) as any;
+    expect(raw.status?.review).toBe("draft");
+    expect(raw.provenance).toBeTruthy();
+    const slugs = raw.retell.map((p: any) => p.stop_slug).sort();
+    expect(slugs).toEqual([...QUEST_SLUGS].sort());
+    for (const p of raw.retell) {
+      expect(p.prompts.ar.length).toBe(3);
+      expect(p.prompts.en.length).toBe(3);
+      for (const q of [...p.prompts.ar, ...p.prompts.en]) {
+        noHonorifics(q, `retell ${p.stop_slug}`);
+        noQuranMarks(q, `retell ${p.stop_slug}`);
+      }
+    }
+  });
+
+  it("bridge.yaml: cards link to real built routes only", () => {
+    const raw = parse(readFileSync("kids/bridge.yaml", "utf8")) as any;
+    expect(raw.bridge.length).toBeGreaterThanOrEqual(6);
+    expect(raw.bridge.length).toBeLessThanOrEqual(9);
+    for (const c of raw.bridge) {
+      bilingualOk(c.title, `bridge ${c.slug}`);
+      bilingualOk(c.desc, `bridge ${c.slug}`);
+      const dataFile =
+        c.kind === "story" ? `cards/stories/${c.slug}.yaml`
+        : c.kind === "explain" ? `cards/explainers/${c.slug}.yaml`
+        : `cards/wordmap/${c.slug}.json`;
+      expect(existsSync(dataFile), `bridge ${c.slug}: ${dataFile} must exist`).toBe(true);
+      noHonorifics(c.title.ar + c.title.en + c.desc.ar + c.desc.en, `bridge ${c.slug}`);
+    }
+  });
+
+  it("lessons.yaml: 6 units with full 40-min plans", () => {
+    const raw = parse(readFileSync("kids/lessons.yaml", "utf8")) as any;
+    expect(raw.status?.review).toBe("draft");
+    const slugs = raw.lessons.map((u: any) => u.unit_slug).sort();
+    expect(slugs).toEqual(["garden", "journal", "kindness", "quest", "retell", "stories"]);
+    for (const u of raw.lessons) {
+      expect(u.experience_href.startsWith("/sighar/"), `${u.unit_slug}: experience_href`).toBe(true);
+      expect(u.objectives.ar.length).toBeGreaterThanOrEqual(3);
+      expect(u.objectives.en.length).toBeGreaterThanOrEqual(3);
+      expect(u.flow_40min.ar.length).toBeGreaterThanOrEqual(5);
+      for (const s of [...u.flow_40min.ar, ...u.flow_40min.en]) {
+        expect(s.t && s.what, `${u.unit_slug}: flow step needs t+what`).toBeTruthy();
+      }
+      expect(u.discussion_prompts.ar.length).toBeGreaterThanOrEqual(3);
+      expect(u.worksheet.ar.length).toBeGreaterThanOrEqual(5);
+      expect(u.worksheet.en.length).toBeGreaterThanOrEqual(5);
+      const all = JSON.stringify(u);
+      noHonorifics(all, `lesson ${u.unit_slug}`);
+      noQuranMarks(all, `lesson ${u.unit_slug}`);
+    }
+  });
+
+  it("paths.yaml: 3 paths whose units all exist in lessons.yaml", () => {
+    const raw = parse(readFileSync("kids/paths.yaml", "utf8")) as any;
+    const lessons = parse(readFileSync("kids/lessons.yaml", "utf8")) as any;
+    const unitSlugs = new Set(lessons.lessons.map((u: any) => u.unit_slug));
+    expect(raw.paths.length).toBe(3);
+    for (const p of raw.paths) {
+      bilingualOk(p.title, `path ${p.path_slug}`);
+      bilingualOk(p.desc, `path ${p.path_slug}`);
+      expect(p.units.length).toBeGreaterThanOrEqual(2);
+      for (const u of p.units)
+        expect(unitSlugs.has(u), `path ${p.path_slug}: unit ${u} must exist`).toBe(true);
+    }
+  });
+
+  it("pilot.yaml: prepare checklist, 4 weeks, feedback, TODO contact", () => {
+    const raw = parse(readFileSync("kids/pilot.yaml", "utf8")) as any;
+    expect(raw.prepare.ar.length).toBeGreaterThanOrEqual(4);
+    expect(raw.weeks.length).toBe(4);
+    for (const w of raw.weeks) {
+      bilingualOk(w.title, "pilot week");
+      expect(w.points.ar.length).toBeGreaterThanOrEqual(2);
+    }
+    expect(raw.feedback_questions.ar.length).toBe(3);
+    expect(/TODO/i.test(raw.contact_note.ar + raw.contact_note.en), "pilot contact is a TODO").toBe(true);
+    expect(/@/.test(raw.contact_note.ar + raw.contact_note.en), "pilot contact has no email").toBe(false);
+  });
+
+  it("new pages and scripts exist", () => {
+    for (const p of [
+      "site/src/pages/[lang]/sighar/retell.astro",
+      "site/src/pages/[lang]/sighar/journal.astro",
+      "site/src/pages/[lang]/sighar/teachers.astro",
+      "site/src/pages/[lang]/sighar/teachers/lessons/[unit].astro",
+      "site/src/pages/[lang]/sighar/teachers/paths/[path].astro",
+      "site/src/pages/[lang]/sighar/teachers/pilot.astro",
+      "site/src/scripts/retell.ts",
+      "site/src/scripts/journal.ts",
+      "site/src/scripts/classroom.ts",
+    ]) {
+      expect(existsSync(p), `${p} must exist`).toBe(true);
+    }
+  });
+
+  it("classroom mode is wired: script loaded in kids chrome, vote banner in quest", () => {
+    const layout = readFileSync("site/src/layouts/BaseLayout.astro", "utf8");
+    expect(layout).toContain("classroom.ts");
+    const quest = readFileSync("site/src/components/ProphetQuest.astro", "utf8");
+    expect(quest).toContain("data-vote-banner");
+    const css = readFileSync("site/src/styles/kids.css", "utf8");
+    expect(css).toContain("html.classroom");
   });
 });

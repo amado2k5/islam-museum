@@ -46,7 +46,7 @@ const dayLabel = (n: number) => fmt(t.kindness_day, { n: String(n) });
     <p class="erase-msg" data-erase-msg role="status"></p>
   </section>
 
-  <section class="kindness-chart print-only" aria-label={t.kindness_print}>
+  <section class="kindness-chart print-only" id="kindness-chart" aria-label={t.kindness_print}>
     <h2>{t.kindness_print}</h2>
     <p class="no-print"><button type="button" class="kids-btn" data-print>{t.kindness_print}</button></p>
     <ol class="sticker-chart">

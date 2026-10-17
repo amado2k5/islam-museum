@@ -3,12 +3,14 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Hudhud from "../../../components/Hudhud.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { loadBridge, viewBridge } from "../../../lib/kids";
 import "../../../styles/kids.css";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const t = T.kids;
+const bridges = viewBridge(loadBridge(), lang);
 ---
 <BaseLayout lang={lang} title={t.hub_title} description={t.hub_lede} path={`/${lang}/sighar/`} kids={true}>
   <div class="kids">
@@ -39,10 +41,27 @@ const t = T.kids;
           <a class="kids-btn" href={`/${lang}/sighar/stories/`}>{t.stories_title}</a>
         </p>
       </div>
-      <div class="age-band">
+      <div class="age-band on">
         <h2>📖 {t.band_storytellers}</h2>
         <p>{t.band_storytellers_desc}</p>
-        <span class="chip">{t.band_coming_soon}</span>
+        <p>
+          <a class="kids-btn" href={`/${lang}/sighar/retell/`}>{t.storytellers_retell_btn}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/journal/`}>{t.storytellers_journal_btn}</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="bridge" aria-label={t.bridge_title}>
+      <h2>🚪 {t.bridge_title}</h2>
+      <p>{t.bridge_lede}</p>
+      <p class="bridge-note">{t.bridge_door_note}</p>
+      <div class="entries">
+        {bridges.map((b) => (
+          <a class="entry-card bridge-card" href={b.href}>
+            <h3><span aria-hidden="true">🚪</span> {b.title}</h3>
+            <p>{b.desc}</p>
+          </a>
+        ))}
       </div>
     </section>
 
@@ -62,6 +81,10 @@ const t = T.kids;
       <a class="entry-card" href={`/${lang}/sighar/stories/`}>
         <h2>🌙 {t.stories_title}</h2>
         <p>{t.stories_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/teachers/`}>
+        <h2>🍎 {t.teachers_title}</h2>
+        <p>{t.teachers_lede}</p>
       </a>
     </section>
 

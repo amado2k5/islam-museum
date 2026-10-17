@@ -1,0 +1,49 @@
+---
+// Teacher's Kit: one learning path — an ordered journey. Each unit links to
+// its lesson plan and to the kid experience it is built on.
+// All server-rendered.
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import { ui, LANGS, type Lang } from "../../../../../lib/i18n";
+import { loadPaths, getPath, viewPaths, getLesson, viewLessons } from "../../../../../lib/kids";
+import "../../../../../styles/kids.css";
+
+export function getStaticPaths() {
+  const paths = loadPaths();
+  return LANGS.flatMap((lang) =>
+    paths.map((p) => ({ params: { lang, path: p.path_slug }, props: { lang, path: p.path_slug } })));
+}
+const { lang, path } = Astro.props as { lang: Lang; path: string };
+const T = ui(lang);
+const t = T.kids;
+const pathView = viewPaths([getPath(path)], lang)[0];
+const units = pathView.units.map((u) => {
+  const lv = viewLessons([getLesson(u)], lang)[0];
+  return { slug: lv.unit_slug, title: t[`${lv.unit_slug}_title`] as string, experienceHref: lv.experience_href };
+});
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={pathView.title} description={pathView.desc} path={`/${lang}/sighar/teachers/paths/${path}/`} kids={true}>
+  <div class="kids teachers-path">
+    <nav aria-label={crumbLabel} class="crumbs">
+      <a href={`/${lang}/sighar/`}>{t.hub_title}</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`/${lang}/sighar/teachers/`}>{t.teachers_title}</a>
+      <span aria-hidden="true"> / </span>
+      <span aria-current="page">{pathView.title}</span>
+    </nav>
+    <h1>{pathView.title}</h1>
+    <p class="lede">{pathView.desc}</p>
+
+    <section class="path-units" aria-label={t.path_units_title}>
+      <h2>{t.path_units_title}</h2>
+      <ol>
+        {units.map((u) => (
+          <li class="path-unit">
+            <h3><a href={`/${lang}/sighar/teachers/lessons/${u.slug}/`}>{u.title}</a></h3>
+            <p><a class="kids-btn" href={`/${lang}${u.experienceHref}`}>{t.lesson_try_it}</a></p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  </div>
+</BaseLayout>

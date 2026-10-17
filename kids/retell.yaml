@@ -1,0 +1,62 @@
+retell:
+  - stop_slug: adam
+    prompts:
+      ar:
+        - "بأي مشهد تبدأ حكايتك؟ صِف لنا أول شيء حدث في القصة."
+        - "ما الجزء الذي تحبه أكثر: تعلّم الأسماء، أم النجوم والبحار والطيور؟ ولماذا؟"
+        - "إذا حكيتَ هذه القصة لصديق، ما الدرس الذي تريد أن يتذكره؟"
+      en:
+        - "Which scene will you start your retelling with? Describe the first thing that happened in the story."
+        - "Which part do you like best: learning the names, or the stars, the seas and the birds? Why?"
+        - "If you told this story to a friend, what lesson would you want them to remember?"
+
+  - stop_slug: nuh
+    prompts:
+      ar:
+        - "كم سنة دعا النبي قومه إلى الخير؟ صِف صبره بكلماتك أنت."
+        - "تخيّل أنك تركب السفينة: ماذا ترى وماذا تسمع؟"
+        - "ما الذي تعلّمنا إياه هذه القصة عن الصبر؟"
+      en:
+        - "How many years did the prophet call his people to goodness? Describe his patience in your own words."
+        - "Imagine you are aboard the ark: what do you see and what do you hear?"
+        - "What does this story teach us about patience?"
+
+  - stop_slug: ibrahim
+    prompts:
+      ar:
+        - "ماذا رأى في السماء أولًا؟ احكِ ما حدث بالترتيب."
+        - "لماذا لم يقتنع بأن النجوم أو القمر أو الشمس هي الخالق؟"
+        - "ما السؤال الكبير الذي كان يبحث عن جوابه؟"
+      en:
+        - "What did he see in the sky first? Tell what happened, in order."
+        - "Why wasn't he convinced that the stars, the moon or the sun could be the Creator?"
+        - "What big question was he searching for the answer to?"
+
+  - stop_slug: musa
+    prompts:
+      ar:
+        - "صِف لحظة الوقوف أمام البحر: كيف كان يشعر الناس؟"
+        - "ماذا فعل عندما لم يكن أمامه أي طريق؟"
+        - "ما معنى أن تثق بالله وأنت خائف؟ احكِ بمثال من حياتك."
+      en:
+        - "Describe the moment of standing before the sea: how were the people feeling?"
+        - "What did he do when there was no road ahead of him?"
+        - "What does it mean to trust God while you are afraid? Tell it with an example from your own life."
+
+  - stop_slug: isa
+    prompts:
+      ar:
+        - "كيف كان يعامل المرضى والفقراء؟ احكِ بكلماتك."
+        - "أي جزء من القصة يدلّ على الرحمة؟"
+        - "ما العمل الرحيم الصغير الذي تستطيع أن تفعله اليوم كما تعلّمنا القصة؟"
+      en:
+        - "How did he treat the sick and the poor? Tell it in your own words."
+        - "Which part of the story shows mercy?"
+        - "What small kind act could you do today, like the story teaches us?"
+
+status: { review: draft }
+provenance:
+  generated_by: "Muse (AI)"
+  model: "Muse Spark"
+  run: "kids-wing-phase4-5"
+  note: "AI-drafted; scholar/educator review pending."

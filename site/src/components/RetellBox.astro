@@ -1,0 +1,117 @@
+---
+// Storytellers: RetellBox — pick one of the 5 Prophet Quest stops, read its
+// story, see 3 guiding prompts, then rewrite it in a big textarea.
+// Draft autosaves per stop slug to localStorage; erase is two-step; the print
+// button prints every story + prompts + saved drafts. All 5 stops server-render
+// so the page reads fully with no JS (client script: site/src/scripts/retell.ts).
+import type { QuestStopView, RetellEntryView } from "../lib/kids";
+import type { Lang } from "../lib/i18n";
+
+interface Props { lang: Lang; t: Record<string, string>; stops: QuestStopView[]; retell: RetellEntryView[] }
+const { t, stops, retell } = Astro.props;
+const promptsOf = new Map(retell.map((r) => [r.stop_slug, r.prompts]));
+---
+<div class="kids retell" id="retell-print" data-retell data-i18n-erase-done={t.erase_done}>
+  <h1>{t.retell_title}</h1>
+  <p class="lede">{t.retell_lede}</p>
+  <p class="nojs-note no-print" data-nojs-note>{t.retell_nojs_note}</p>
+
+  <nav class="retell-picker no-print" aria-label={t.retell_pick}>
+    {stops.map((s, i) => (
+      <button type="button" class="kids-btn" data-pick={s.slug} aria-pressed={i === 0 ? "true" : "false"}>
+        <span aria-hidden="true">{s.icon}</span> {s.name}
+      </button>
+    ))}
+  </nav>
+
+  {stops.map((s) => {
+    const prompts = promptsOf.get(s.slug) ?? [];
+    return (
+      <article class="retell-card" data-card={s.slug}>
+        <h2>{s.icon} {s.title}</h2>
+        <div class="story" set:html={s.storyHtml} />
+        <h3>{t.retell_prompts}</h3>
+        <ol class="prompts">
+          {prompts.map((p) => <li>{p}</li>)}
+        </ol>
+        <div class="draft-zone no-print">
+          <label class="draft-label" for={`draft-${s.slug}`}><b>{t.retell_your_turn}</b></label>
+          <textarea id={`draft-${s.slug}`} data-draft={s.slug} rows={10} placeholder={t.retell_placeholder}></textarea>
+          <p class="autosave-note">{t.retell_autosave_note}</p>
+          <p class="draft-actions">
+            <button type="button" class="kids-btn" data-print>{t.retell_print}</button>
+          </p>
+          <p class="erase-wrap">
+            <button type="button" class="kids-btn ghost" data-erase={s.slug} data-confirm={t.erase_confirm}>{t.erase}</button>
+          </p>
+          <p class="erase-msg" data-erase-msg={s.slug} role="status"></p>
+        </div>
+        <div class="draft-print print-only" data-draft-print={s.slug}></div>
+      </article>
+    );
+  })}
+</div>
+<script src="../scripts/retell.ts"></script>
+<style>
+.retell { max-width: 880px; margin-inline: auto; }
+.retell-picker { display: flex; flex-wrap: wrap; gap: 10px; margin: 1rem 0 1.5rem; }
+.retell-picker .kids-btn[aria-pressed="true"] {
+  background: var(--kids-lapis);
+  color: #fff;
+  border-color: var(--kids-lapis);
+}
+.retell-card {
+  border: 2px solid var(--kids-gold);
+  border-radius: var(--kids-radius);
+  background: #fffdf6;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.retell-card .story { font-size: 1.15rem; line-height: 1.9; }
+.retell-card .prompts { margin: .5rem 0 1.25rem; padding-inline-start: 1.5rem; }
+.retell-card .prompts li { margin-bottom: .4rem; font-size: 1.05rem; }
+.draft-label { display: block; font-size: 1.15rem; margin-bottom: .5rem; }
+.retell-card textarea {
+  width: 100%;
+  min-height: 220px;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  font-family: inherit;
+  color: inherit;
+  padding: 1rem;
+  border: 2px solid var(--kids-lapis);
+  border-radius: 1rem;
+  background: #fff;
+  resize: vertical;
+}
+.retell-card textarea:focus-visible { outline: 3px solid var(--kids-gold); outline-offset: 2px; }
+.autosave-note { font-size: .95rem; color: #5a5a5a; margin: .5rem 0 0; }
+.draft-actions, .erase-wrap { margin: .75rem 0 0; }
+.erase-msg { min-height: 1.4em; margin: .25rem 0 0; }
+.nojs-note {
+  border: 2px dashed var(--kids-gold);
+  border-radius: 1rem;
+  padding: .75rem 1rem;
+  background: #fdf3d7;
+  font-size: 1.05rem;
+}
+.retell .print-only { display: none; }
+@media print {
+  .retell .no-print { display: none !important; }
+  .retell .retell-card { break-inside: avoid; border: 1px solid #999; box-shadow: none; }
+  .retell .retell-card[hidden] { display: block !important; }
+  .retell .print-only { display: block !important; }
+  .retell .draft-print {
+    white-space: pre-wrap;
+    border: 2px dashed #8a6d1c;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+    min-height: 5rem;
+  }
+  .retell .draft-print:empty { display: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .retell * { animation: none !important; transition: none !important; }
+}
+</style>
