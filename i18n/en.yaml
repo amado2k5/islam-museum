@@ -701,6 +701,29 @@ figure:
   licence: Licence
   details: Media record
   open: Open full image
+licenses:
+  title: Licences
+  lede: Every layer of the museum and the licence it carries.
+  layers: The museum's own work
+  col_layer: Layer
+  col_license: Licence
+  col_note: Note
+  col_records: Records
+  layer_code: Site code and build scripts
+  layer_code_note: Free under MIT; see LICENSE in the repository.
+  layer_data: Knowledge-graph records
+  layer_data_note: Dedicated to the public domain under CC0.
+  layer_prose: Pages, essays and descriptions
+  layer_prose_note: Share-alike under CC BY-SA 4.0; attribute islam.museum and link back.
+  quran_title: The Quran text
+  quran_body: "The Quran text is the Tanzil v1.1 transmission, kept verbatim and never edited; attribution to <a href=\"{url}\">Tanzil</a> is required and given wherever it appears."
+  media_title: Media and images
+  media_body: "Every media record carries one of these whitelisted licences; the validator refuses anything else. The museum links rather than copies wherever it can."
+  records: "{n} records"
+  ext_title: Museum catalogues and IIIF
+  ext_body: "Object pages link to the holding institutions' catalogues; {n} objects also carry IIIF manifest links. Those images and manifests remain the institution's own."
+  versions_title: Per-version registry
+  versions_body: "The museum publishes from git: every release is a commit and every record carries its own provenance. The licence state at each point in time is the <a href=\"{url}\">commit log</a>."
 ids:
   iiif: IIIF manifest
   wikidata: Wikidata
