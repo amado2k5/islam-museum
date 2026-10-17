@@ -458,3 +458,87 @@ describe("kids wing phase 4+5 (storytellers + teachers)", () => {
     expect(css).toContain("html.classroom");
   });
 });
+
+describe("kids wing phase 6 (mosque builder + time machine)", () => {
+  const KIDSAFE = /(حرب|معركة|معارك|قتال|قتل|موت|دماء|عذاب|جهنم|غزو|مذبحة|\bwar\b|\bbattle\b|\bkill\w*|\bdeath\b|\bdied\b|\bblood\b|hellfire|\bpunish\w*|\bslain\b|massacre|\binvad\w*)/i;
+
+  it("mosque-parts.yaml: 7 parts, bilingual, real example buildings, draft, no typed honorifics", () => {
+    const raw = parse(readFileSync("kids/mosque-parts.yaml", "utf8")) as any;
+    expect(raw.status?.review).toBe("draft");
+    expect(raw.provenance?.generated_by).toBeTruthy();
+    const parts = raw.parts;
+    expect(parts.length).toBe(7);
+    const slugs = new Set(parts.map((p: any) => p.slug));
+    expect(slugs.size).toBe(7);
+    for (const p of parts) {
+      expect(p.icon, `${p.slug} icon`).toBeTruthy();
+      expect(!!(p.name?.ar && p.name?.en), `${p.slug} bilingual name`).toBe(true);
+      expect(!!(p.what?.ar && p.what?.en), `${p.slug} bilingual what`).toBe(true);
+      expect(!!(p.example_building?.ar && p.example_building?.en), `${p.slug} bilingual example`).toBe(true);
+      const text = JSON.stringify(p);
+      expect(HONORIFIC.test(text), `${p.slug} typed honorific`).toBe(false);
+      expect(/[﴿﴾]/.test(text), `${p.slug} typed Quran text`).toBe(false);
+      expect(KIDSAFE.test(p.what.ar + p.what.en), `${p.slug} kid-safe`).toBe(false);
+    }
+  });
+
+  it("eras.yaml: 5 eras x 4 events, verified sources, bilingual, kid-safe, no typed honorifics", () => {
+    const raw = parse(readFileSync("kids/eras.yaml", "utf8")) as any;
+    expect(raw.status?.review).toBe("draft");
+    expect(raw.provenance?.generated_by).toBeTruthy();
+    const eras = raw.eras;
+    expect(eras.length).toBe(5);
+    for (const e of eras) {
+      expect(!!(e.title?.ar && e.title?.en), `${e.slug} bilingual title`).toBe(true);
+      expect(!!(e.blurb?.ar && e.blurb?.en), `${e.slug} bilingual blurb`).toBe(true);
+      expect(e.events?.length, `${e.slug} event count`).toBe(4);
+      for (const ev of e.events) {
+        expect(!!(ev.title?.ar && ev.title?.en), `${e.slug} event bilingual title`).toBe(true);
+        expect(!!(ev.one_line?.ar && ev.one_line?.en), `${e.slug} event bilingual one_line`).toBe(true);
+        expect(ev.source, `${e.slug} event source`).toBeTruthy();
+        const [cls, slug] = String(ev.source).split("/");
+        const found =
+          existsSync(`data/${cls}/${slug}.yaml`) || existsSync(`data/${cls}/${slug}.json`);
+        expect(found, `${e.slug} event source ${ev.source} must exist in data/`).toBe(true);
+        const text = ev.title.ar + ev.title.en + ev.one_line.ar + ev.one_line.en;
+        expect(HONORIFIC.test(text), `${e.slug} event typed honorific`).toBe(false);
+        expect(/[﴿﴾]/.test(text), `${e.slug} event typed Quran text`).toBe(false);
+        expect(KIDSAFE.test(text), `${e.slug} event kid-safe`).toBe(false);
+      }
+      const eraText = e.title.ar + e.title.en + e.blurb.ar + e.blurb.en;
+      expect(HONORIFIC.test(eraText), `${e.slug} typed honorific`).toBe(false);
+      expect(KIDSAFE.test(eraText), `${e.slug} kid-safe`).toBe(false);
+    }
+  });
+
+  it("phase 6 pages, components and scripts exist", () => {
+    for (const p of [
+      "site/src/pages/[lang]/sighar/mosque.astro",
+      "site/src/pages/[lang]/sighar/timemachine.astro",
+      "site/src/components/MosqueBuilder.astro",
+      "site/src/components/TimeMachine.astro",
+      "site/src/scripts/mosque.ts",
+      "site/src/scripts/timemachine.ts",
+      "kids/mosque-parts.yaml",
+      "kids/eras.yaml",
+    ]) {
+      expect(existsSync(p), `${p} must exist`).toBe(true);
+    }
+  });
+
+  it("hub links the phase 6 experiences", () => {
+    const hub = readFileSync("site/src/pages/[lang]/sighar/index.astro", "utf8");
+    expect(hub).toContain("/sighar/mosque/");
+    expect(hub).toContain("/sighar/timemachine/");
+    expect(hub).toContain("t.mosque_title");
+    expect(hub).toContain("t.tm_title");
+  });
+
+  it("era views honorify prophet names via kidsHonorify (never typed)", () => {
+    const lib = readFileSync("site/src/lib/kids.ts", "utf8");
+    expect(lib).toContain("ERA_PROPHET_NAMES");
+    const comp = readFileSync("site/src/components/TimeMachine.astro", "utf8");
+    expect(comp).toContain("set:html={e.title}");
+    expect(comp).toContain("set:html={ev.oneLine}");
+  });
+});

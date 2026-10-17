@@ -1,0 +1,145 @@
+---
+// Little Time Machine (آلة الزمن المصغرة): pick one of 5 eras, travel with a
+// Hudhud pilot through a CSS whoosh overlay, read 4 big event cards per era,
+// collect visited stars (localStorage), finale banner after all 5.
+// No-JS fallback: era select and ALL era screens render statically and stay
+// readable — the client script (site/src/scripts/timemachine.ts) collapses
+// them into the interactive flow on load.
+import Hudhud from "./Hudhud.astro";
+import type { EraView } from "../lib/kids";
+import type { Lang } from "../lib/i18n";
+
+interface Props { lang: Lang; t: Record<string, string>; eras: EraView[] }
+const { t, eras } = Astro.props;
+---
+<div class="kids timemachine" data-timemachine>
+  <h1>{t.tm_title}</h1>
+  <p class="lede">{t.tm_lede}</p>
+  <p class="kids-hudhud" aria-hidden="true"><Hudhud pose="greet" size={110} /></p>
+
+  <section class="era-select" data-era-select aria-label={t.tm_pick_era}>
+    <h2>{t.tm_pick_era}</h2>
+    <div class="era-grid">
+      {eras.map((e) => (
+        <button type="button" class="era-card" data-era-goto={e.slug}>
+          <span class="era-star" data-era-star role="img" aria-label={t.tm_visited} hidden>⭐</span>
+          <span class="era-title" set:html={e.title} />
+          <span class="era-blurb" set:html={e.blurb} />
+        </button>
+      ))}
+    </div>
+  </section>
+
+  <div class="travel-overlay" data-travel-overlay hidden aria-hidden="true">
+    <div class="travel-inner">
+      <Hudhud pose="celebrate" size={140} />
+      <p class="travel-word">{t.tm_travel}</p>
+    </div>
+  </div>
+
+  {eras.map((e) => (
+    <section class="era-screen" data-era-screen={e.slug} aria-label={e.title}>
+      <h2 tabindex="-1" set:html={e.title} />
+      <p class="lede" set:html={e.blurb} />
+      <h3>{t.tm_events_label}</h3>
+      <ol class="event-cards">
+        {e.events.map((ev) => (
+          <li class="event-card">
+            <h4 set:html={ev.title} />
+            <p set:html={ev.oneLine} />
+          </li>
+        ))}
+      </ol>
+      <p><button type="button" class="kids-btn" data-travel-back>{t.tm_travel_back}</button></p>
+    </section>
+  ))}
+
+  <section class="tm-finale" data-tm-finale hidden aria-label={t.tm_all_visited} aria-live="polite">
+    <Hudhud pose="celebrate" size={120} />
+    <h2>{t.tm_all_visited}</h2>
+    <p><button type="button" class="kids-btn ghost" data-tm-again>{t.finale_restart}</button></p>
+  </section>
+</div>
+<script src="../scripts/timemachine.ts"></script>
+<style>
+  .timemachine .era-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    margin-block: 1rem 2rem;
+    padding: 0;
+    list-style: none;
+  }
+  .timemachine .era-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-block-size: 88px;
+    padding: 1.25rem 1rem;
+    border: 3px solid #c9a227;
+    border-radius: 1.25rem;
+    background: #faf6ea;
+    color: #1f2a44;
+    font: inherit;
+    text-align: start;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .timemachine .era-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(31, 42, 68, 0.18); }
+  .timemachine .era-card:focus-visible { outline: 3px solid #1f2a44; outline-offset: 3px; }
+  .timemachine .era-title { font-size: 1.5rem; font-weight: 800; }
+  .timemachine .era-blurb { font-size: 1.05rem; line-height: 1.7; }
+  .timemachine .era-star {
+    position: absolute;
+    inset-block-start: -0.9rem;
+    inset-inline-end: 0.75rem;
+    font-size: 1.75rem;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.25));
+  }
+  .timemachine .event-cards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+    margin: 1rem 0 1.5rem;
+    padding: 0;
+    list-style: none;
+  }
+  .timemachine .event-card {
+    border: 2px solid #1f2a44;
+    border-radius: 1rem;
+    background: #fffdf6;
+    padding: 1rem;
+  }
+  .timemachine .event-card h4 { margin: 0 0 0.5rem; font-size: 1.2rem; }
+  .timemachine .event-card p { margin: 0; line-height: 1.8; }
+  .timemachine .era-screen h2:focus { outline: none; }
+  .timemachine .tm-finale {
+    text-align: center;
+    border: 3px solid #c9a227;
+    border-radius: 1.5rem;
+    background: #faf6ea;
+    padding: 2rem 1rem;
+    margin-block-start: 2rem;
+  }
+  .timemachine .travel-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(ellipse at center, rgba(201, 162, 39, 0.25) 0%, rgba(31, 42, 68, 0.9) 100%);
+    animation: tm-whoosh 0.6s ease;
+    pointer-events: none;
+  }
+  .timemachine .travel-inner { text-align: center; animation: tm-zoom 0.6s ease; }
+  .timemachine .travel-word { color: #faf6ea; font-size: 2rem; font-weight: 800; margin: 0.5rem 0 0; }
+  @keyframes tm-whoosh { from { opacity: 0; } 40% { opacity: 1; } to { opacity: 1; } }
+  @keyframes tm-zoom { from { transform: scale(0.6); } to { transform: scale(1.15); } }
+  @media (prefers-reduced-motion: reduce) {
+    .timemachine .travel-overlay { display: none !important; animation: none !important; }
+    .timemachine .travel-inner { animation: none !important; }
+    .timemachine .era-card { transition: none; }
+  }
+</style>

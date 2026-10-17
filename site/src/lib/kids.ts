@@ -470,3 +470,160 @@ export function viewPilot(pilot: Pilot, lang: Lang): PilotView {
   };
 }
 
+// ---------- Mosque parts (Phase 6) ----------
+
+/** One part of a mosque, with a kid-friendly explanation and a real museum building as example. */
+export interface MosquePart {
+  slug: string;
+  icon: string;
+  name: Bilingual;
+  what: Bilingual;
+  example_building: Bilingual;
+}
+
+/** View model for the mosque-parts experience: lang-selected fields. */
+export interface MosquePartView {
+  slug: string;
+  icon: string;
+  name: string;
+  what: string;
+  exampleBuilding: string;
+}
+
+const EXPECTED_PART_SLUGS = [
+  "dome",
+  "minaret",
+  "courtyard",
+  "prayer-hall",
+  "mihrab",
+  "main-door",
+  "fountain",
+] as const;
+
+export function loadMosqueParts(): MosquePart[] {
+  const raw = parse(readFileSync(repoPath("kids/mosque-parts.yaml"), "utf8")) as {
+    parts?: MosquePart[];
+  };
+  const parts = raw?.parts;
+  if (!parts?.length) throw new Error("kids/mosque-parts.yaml: no parts found");
+  const got = parts.map((p) => p.slug);
+  if (
+    got.length !== EXPECTED_PART_SLUGS.length ||
+    new Set(got).size !== EXPECTED_PART_SLUGS.length ||
+    !EXPECTED_PART_SLUGS.every((s) => got.includes(s))
+  )
+    throw new Error(
+      "kids/mosque-parts.yaml: expected exactly the 7 part slugs: " + EXPECTED_PART_SLUGS.join(", ")
+    );
+  for (const p of parts) {
+    if (
+      !p.icon ||
+      !p.name?.ar ||
+      !p.name?.en ||
+      !p.what?.ar ||
+      !p.what?.en ||
+      !p.example_building?.ar ||
+      !p.example_building?.en
+    )
+      throw new Error(`kids/mosque-parts.yaml: part ${p.slug || "?"} has a missing field`);
+  }
+  return parts;
+}
+
+/** Select the page language for each mosque part. */
+export function viewMosqueParts(parts: MosquePart[], lang: Lang): MosquePartView[] {
+  return parts.map((p) => ({
+    slug: p.slug,
+    icon: p.icon,
+    name: p.name[lang],
+    what: p.what[lang],
+    exampleBuilding: p.example_building[lang],
+  }));
+}
+
+// ---------- Eras (Phase 6) ----------
+
+/** One museum-sourced event inside an era: kid-safe one-liner + the entity it links to. */
+export interface EraEvent {
+  title: Bilingual;
+  one_line: Bilingual;
+  source: string;
+}
+
+/** One historical era of the time-journey experience. */
+export interface Era {
+  slug: string;
+  title: Bilingual;
+  blurb: Bilingual;
+  events: EraEvent[];
+}
+
+/** View model for an era event: lang-selected fields, source entity id carried through. */
+export interface EraEventView {
+  title: string;
+  oneLine: string;
+  source: string;
+}
+
+/** View model for the eras experience: lang-selected fields. */
+export interface EraView {
+  slug: string;
+  title: string;
+  blurb: string;
+  events: EraEventView[];
+}
+
+const EXPECTED_ERA_SLUGS = ["makkah", "madinah", "baghdad", "cordoba", "istanbul"] as const;
+
+export function loadEras(): Era[] {
+  const raw = parse(readFileSync(repoPath("kids/eras.yaml"), "utf8")) as { eras?: Era[] };
+  const eras = raw?.eras;
+  if (!eras?.length) throw new Error("kids/eras.yaml: no eras found");
+  const got = eras.map((e) => e.slug);
+  if (
+    got.length !== EXPECTED_ERA_SLUGS.length ||
+    new Set(got).size !== EXPECTED_ERA_SLUGS.length ||
+    !EXPECTED_ERA_SLUGS.every((s) => got.includes(s))
+  )
+    throw new Error(
+      "kids/eras.yaml: expected exactly the 5 era slugs: " + EXPECTED_ERA_SLUGS.join(", ")
+    );
+  for (const e of eras) {
+    if (!e.title?.ar || !e.title?.en || !e.blurb?.ar || !e.blurb?.en)
+      throw new Error(`kids/eras.yaml: era ${e.slug || "?"} needs a bilingual title + blurb`);
+    if (e.events?.length !== 4)
+      throw new Error(`kids/eras.yaml: era ${e.slug} needs exactly 4 events`);
+    for (const ev of e.events) {
+      if (!ev.title?.ar || !ev.title?.en || !ev.one_line?.ar || !ev.one_line?.en)
+        throw new Error(`kids/eras.yaml: era ${e.slug} has an event with a missing title/one_line`);
+      if (!ev.source)
+        throw new Error(`kids/eras.yaml: era ${e.slug} has an event with an empty source`);
+    }
+  }
+  return eras;
+}
+
+/** Prophet names as they appear in the era prose, per language (for honorific rendering). */
+const ERA_PROPHET_NAMES: Record<Lang, string[]> = {
+  ar: ["النبي", "إبراهيم", "إسماعيل"],
+  en: ["the Prophet", "Ibrahim", "Ismail"],
+};
+
+/**
+ * Select the page language for each era; honorify prophet names in prose
+ * (the UI renders honorifics — authors never type them); source id passes through.
+ */
+export function viewEras(eras: Era[], lang: Lang): EraView[] {
+  const names = ERA_PROPHET_NAMES[lang];
+  return eras.map((e) => ({
+    slug: e.slug,
+    title: kidsHonorify(e.title[lang], lang, names),
+    blurb: kidsHonorify(e.blurb[lang], lang, names),
+    events: e.events.map((ev) => ({
+      title: kidsHonorify(ev.title[lang], lang, names),
+      oneLine: kidsHonorify(ev.one_line[lang], lang, names),
+      source: ev.source,
+    })),
+  }));
+}
+

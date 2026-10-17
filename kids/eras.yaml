@@ -1,0 +1,142 @@
+eras:
+  - slug: makkah
+    title: { ar: "مكة: زمن النبي", en: "Mecca: the Prophet's time" }
+    blurb:
+      ar: "قبل أكثر من أربعة عشر قرنًا، في مدينة مكة بين الجبال، بدأت قصة الإسلام. هنا نزل الوحي أول مرة، ومن هنا بدأت رحلة عظيمة."
+      en: "More than fourteen centuries ago, in the mountain city of Mecca, the story of Islam began. Here revelation came down for the first time, and from here a great journey started."
+    events:
+      - title: { ar: "أول الوحي في غار حراء", en: "The first revelation in the cave of Hira" }
+        one_line:
+          ar: "في غار حراء الصغير على جبل قرب مكة بدأ الوحي ينزل على النبي."
+          en: "In the little cave of Hira on a mountain near Mecca, revelation began to come to the Prophet."
+        source: "event/first-revelation"
+      - title: { ar: "رحلة إلى ملك عادل", en: "A journey to a just king" }
+        one_line:
+          ar: "بعض أصحاب النبي أبحروا في سفن صغيرة إلى ملك عادل استقبلهم بكرم ولطف."
+          en: "Some of the Prophet's companions sailed in small ships to a just king who welcomed them with kindness."
+        source: "event/first-migration-to-abyssinia"
+      - title: { ar: "الرحلة الكبيرة إلى المدينة", en: "The great journey to Medina" }
+        one_line:
+          ar: "سار النبي وأصحابه في رحلة طويلة من مكة إلى المدينة، ومن تلك السنة يبدأ التقويم الهجري."
+          en: "The Prophet and his companions made the long journey from Mecca to Medina — and the Hijri calendar counts from that year."
+        source: "event/hijra"
+      - title: { ar: "بناء الكعبة", en: "Raising the Kaaba" }
+        one_line:
+          ar: "إبراهيم وابنه إسماعيل رفعا معًا قواعد الكعبة حجرًا فوق حجر."
+          en: "Ibrahim and his son Ismail raised the Kaaba's foundations together, stone upon stone."
+        source: "event/building-of-the-kaaba"
+
+  - slug: madinah
+    title: { ar: "المدينة المنورة", en: "Medina" }
+    blurb:
+      ar: "بعد الرحلة الطويلة من مكة، استقر النبي وأصحابه في المدينة. هنا بُني أول مسجد، وهنا وجد المسلمون مدينة يحبونها."
+      en: "After the long journey from Mecca, the Prophet and his companions settled in Medina. Here the first mosque was built, and here the Muslims found a city to love."
+    events:
+      - title: { ar: "بناء المسجد النبوي", en: "Building the Prophet's Mosque" }
+        one_line:
+          ar: "اشترى النبي أرضًا صغيرة، وبناها هو وأصحابه مسجدًا بالطوب اللبن والحجارة."
+          en: "The Prophet bought a small plot of land, and he and his companions built it into a mosque of mudbrick and stone."
+        source: "event/prophets-mosque-built"
+      - title: { ar: "التوقف في قباء", en: "The stop at Quba" }
+        one_line:
+          ar: "في الطريق إلى المدينة توقف النبي في قباء وأسس هناك مسجدًا صغيرًا جميلًا."
+          en: "On the way to Medina the Prophet stopped at Quba and founded a lovely little mosque there."
+        source: "event/quba-sojourn"
+      - title: { ar: "أول صلاة جمعة", en: "The first Friday prayer" }
+        one_line:
+          ar: "أدركتهم صلاة الجمعة في الطريق، فصلى النبي بمئة رجل في مسجد صغير بالوادي."
+          en: "Friday prayer caught up with them on the road, and the Prophet prayed with a hundred men in a little valley mosque."
+        source: "event/first-jumma"
+      - title: { ar: "مسجد القبلتين", en: "The Mosque of the Two Qiblas" }
+        one_line:
+          ar: "في هذا المسجد الصغير استدار المصلّون أثناء صلاتهم نحو الكعبة."
+          en: "In this little mosque the worshippers turned around during prayer to face the Kaaba."
+        source: "building/masjid-al-qiblatayn"
+
+  - slug: baghdad
+    title: { ar: "بغداد العباسية", en: "Abbasid Baghdad" }
+    blurb:
+      ar: "على ضفاف نهر دجلة قامت مدينة مدوّرة اسمها مدينة السلام. صارت بغداد عاصمة العلم، يأتيها العلماء والكتب من كل مكان."
+      en: "On the banks of the Tigris rose a round city called the City of Peace. Baghdad became the capital of learning, where scholars and books arrived from everywhere."
+    events:
+      - title: { ar: "مدينة السلام الجديدة", en: "The new City of Peace" }
+        one_line:
+          ar: "بنى الخليفة المنصور مدينة جديدة مدوّرة على النهر وسماها مدينة السلام: بغداد."
+          en: "The caliph al-Mansur built a brand-new round city on the river and called it the City of Peace: Baghdad."
+        source: "event/founding-of-baghdad"
+      - title: { ar: "بيت الحكمة", en: "The House of Wisdom" }
+        one_line:
+          ar: "في بيت الحكمة جمع العلماء الكتب من بلاد كثيرة وترجموها إلى العربية."
+          en: "In the House of Wisdom, scholars gathered books from many lands and translated them into Arabic."
+        source: "building/bayt-al-hikma"
+      - title: { ar: "مدرسة كبيرة في بغداد", en: "A great school in Baghdad" }
+        one_line:
+          ar: "بُنيت في بغداد مدرسة كبيرة يتعلّم فيها الطلاب العلوم المختلفة."
+          en: "A great school was built in Baghdad where students learned all kinds of sciences."
+        source: "event/nizamiyya-founding-459"
+      - title: { ar: "عالم الأرقام", en: "The scholar of numbers" }
+        one_line:
+          ar: "الخوارزمي عالم أحبّ الأرقام والنجوم، وعلّم الناس طرقًا جديدة في الحساب."
+          en: "Al-Khwarizmi was a scholar who loved numbers and stars, and taught people new ways of counting."
+        source: "person/al-khwarizmi"
+
+  - slug: cordoba
+    title: { ar: "قرطبة والأندلس", en: "Cordoba and al-Andalus" }
+    blurb:
+      ar: "في بلاد الأندلس البعيدة أشرقت حضارة جميلة. في قرطبة مسجد بألف عمود ومكتبة ملكية، وفي غرناطة قصر الحمراء الساحر."
+      en: "In faraway al-Andalus a beautiful civilization shone. In Cordoba stood a mosque of a thousand columns and a royal library, and in Granada the enchanting Alhambra."
+    events:
+      - title: { ar: "غابة الأعمدة في قرطبة", en: "The forest of columns in Cordoba" }
+        one_line:
+          ar: "في جامع قرطبة غابة من الأعمدة: نحو ألف عمود تحمل سقفًا مزركشًا."
+          en: "Cordoba's mosque holds a forest of columns: about a thousand pillars carrying a decorated ceiling."
+        source: "building/great-mosque-cordoba"
+      - title: { ar: "مكتبة الملك", en: "The king's library" }
+        one_line:
+          ar: "في قصر قرطبة كانت مكتبة ملكية جمعت كتبًا من كل بلاد الدنيا."
+          en: "In Cordoba's palace stood a royal library that gathered books from every land in the world."
+        source: "building/khizanat-kutub-qurtuba"
+      - title: { ar: "مغنّي قرطبة", en: "Cordoba's singer" }
+        one_line:
+          ar: "زرياب مغنٍّ جاء من بغداد إلى قرطبة، وعلّم أهلها فنونًا جديدة في الموسيقى."
+          en: "Ziryab was a singer who came from Baghdad to Cordoba and taught its people new arts of music."
+        source: "person/ziryab"
+      - title: { ar: "قصر الحمراء", en: "The Alhambra" }
+        one_line:
+          ar: "قصر الحمراء في غرناطة بقصوره الأنيقة وزخارفه الجميلة."
+          en: "The Alhambra in Granada, with its elegant palaces and beautiful carvings."
+        source: "building/alhambra"
+
+  - slug: istanbul
+    title: { ar: "اسطنبول العثمانية", en: "Ottoman Istanbul" }
+    blurb:
+      ar: "مدينة على البحر بين قارتين، صار اسمها إسطنبول قبل نحو ستة قرون. امتلأت بالجوامع الجميلة ذات القباب العالية، وصارت عاصمة كبيرة."
+      en: "A city on the sea between two continents, it took the name Istanbul about six centuries ago. It filled with beautiful mosques of lofty domes and became a great capital."
+    events:
+      - title: { ar: "اسم جديد للمدينة", en: "A new name for the city" }
+        one_line:
+          ar: "قبل نحو ستة قرون صار للمدينة اسم جديد: إسطنبول، وبدأت صفحة جديدة في تاريخها."
+          en: "About six centuries ago the city got a new name — Istanbul — and a new chapter of its story began."
+        source: "event/ottoman-conquest-constantinople-1453"
+      - title: { ar: "البناء العتيق", en: "The ancient building" }
+        one_line:
+          ar: "آيا صوفيا بناء قديم جدًا في إسطنبول، بُني قبل أكثر من أربعة عشر قرنًا."
+          en: "Hagia Sophia is a very old building in Istanbul, built more than fourteen centuries ago."
+        source: "building/hagia-sophia"
+      - title: { ar: "جامع أيوب سلطان", en: "Eyüp Sultan Mosque" }
+        one_line:
+          ar: "جامع أيوب سلطان مسجد قديم في إسطنبول، بُني قبل أكثر من خمسة قرون."
+          en: "Eyüp Sultan Mosque is an old mosque in Istanbul, built more than five centuries ago."
+        source: "building/eyup-sultan-mosque"
+      - title: { ar: "يني جامع", en: "The New Mosque" }
+        one_line:
+          ar: "يني جامع مسجد كبير في إسطنبول من العصر العثماني."
+          en: "The New Mosque is a big Istanbul mosque from the Ottoman age."
+        source: "building/new-mosque-istanbul"
+
+status: { review: draft }
+provenance:
+  generated_by: "Muse (AI)"
+  model: "Muse Spark"
+  run: "kids-wing-phase6"
+  note: "AI-drafted eras; scholar review pending before leaving draft."

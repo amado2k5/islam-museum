@@ -72,3 +72,10 @@ Hudhud (هدهد), the wing's hoopoe guide, speaks in the first row's voice: war
 5. **Lesson titles come from i18n, not YAML.** `kids/lessons.yaml` carries no titles; lesson pages resolve `<unit_slug>_title` from the `kids:` i18n section (garden_title, quest_title, …). Adding a unit slug without a matching i18n key breaks the build.
 6. **Classroom mode is a URL param, not a setting.** `?classroom=1` adds a `classroom` class to `<html>` (via `site/src/scripts/classroom.ts`, loaded in BaseLayout's kids branch): type scales ~130%, touch targets grow, erase controls hide (the teacher manages the screen). On the quest page it also reveals a "vote together" banner above the choices — a facilitation cue, never vote counting (no backend, ever).
 7. **Pilot contact stays a TODO.** The pilot guide's contact section renders an obvious `TODO:` placeholder in both languages. Never invent an email, form URL, or phone number; the test suite rejects `@` in the contact note.
+
+## 9. Phase 6 additions (recorded 2026-10-17)
+
+1. **Era events cite real entities.** Every `kids/eras.yaml` event carries a `source` entity id (`event/…`, `building/…`, `person/…`) that must exist in `data/` — the test suite checks the file is there. If an event can't be verified against the corpus, it doesn't ship.
+2. **Tap-to-place beats drag-and-drop.** Builders (mosque parts, era cards) use tap-to-place: one interaction model works identically for touch, mouse, and keyboard. Native `<button>`s with `aria-pressed`; never custom drag handlers.
+3. **Honorifics render in views, never in data.** `viewEras` honorifies prophet names via `kidsHonorify` (same as quest stories); the TimeMachine component renders them with `set:html` since the strings arrive pre-escaped. Authors keep names plain in YAML.
+4. **Milestone speech is state-derived.** Hudhud's reaction line derives from current state (highest true milestone), never from the last action — removing parts must always land on the correct line.
