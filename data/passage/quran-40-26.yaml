@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور فرعون بولا کہ مجھے چھوڑو کہ موسیٰ کو قتل کردوں اور وہ اپنے پروردگار کو بلالے۔ مجھے ڈر ہے کہ وہ (کہیں) تمہارے دین کو نہ بدل دے یا ملک میں فساد (نہ) پیدا کردے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

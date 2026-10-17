@@ -17,6 +17,16 @@ translations:
   ur: { text: "(اے محمدﷺ) ہم نے تمہاری طرف اسی طرح وحی بھیجی ہے جس طرح نوح اور ان سے پچھلے پیغمبروں کی طرف بھیجی تھی۔ اور ابراہیم اور اسمعیل اور اسحاق اور یعقوب اور اولاد یعقوب اور عیسیٰ اور ایوب اور یونس اور ہارون اور سلیمان کی طرف بھی ہم نے وحی بھیجی تھی اور داؤد کو ہم نے زبور بھی عنایت کی تھی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-4 }
+  - { type: mentions, target: person/ayyub, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/harun, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/isa-ibn-maryam, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ishaq, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ismail, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/sulayman, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/yaqub, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/yunus, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
