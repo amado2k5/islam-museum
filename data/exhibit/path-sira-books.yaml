@@ -1,0 +1,75 @@
+id: exhibit/path-sira-books
+class: exhibit
+kind: trail
+label:
+  ar: كتب السيرة
+  en: Books of the Sira
+summary:
+  ar: 'مسار في مدونات السيرة: ابن إسحاق وابن هشام، والروض الأنف، والشفا لعياض، والرحيق المختوم — من أين
+    نعرف حياته.'
+  en: A trail through the sira's written tradition.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: ابن إسحاق وهشام
+    en: Ibn Ishaq
+  body:
+    ar: 'أول المدونين: سيرة المصدر التي نقلها ابن هشام.'
+    en: 'أول المدونين: سيرة المصدر التي نقلها ابن هشام.'
+  features:
+  - work/sira-ibn-ishaq-ibn-hisham
+  - person/muhammad
+- title:
+    ar: الروض الأنف
+    en: Al-Rawd al-Unuf
+  body:
+    ar: السهيلي يشرح السيرة ويفسر غريبها.
+    en: السهيلي يشرح السيرة ويفسر غريبها.
+  features:
+  - work/al-rawd-al-unuf
+- title:
+    ar: الشفا
+    en: Al-Shifa
+  body:
+    ar: القاضي عياض في حقوق المصطفى وصفاته.
+    en: القاضي عياض في حقوق المصطفى وصفاته.
+  features:
+  - work/al-shifa-bi-tarif-huquq-al-mustafa
+- title:
+    ar: الحديث والسيرة
+    en: Hadith and sira
+  body:
+    ar: السيرة تحفظ الأحداث والصحيح يحفظ الأقوال.
+    en: السيرة تحفظ الأحداث والصحيح يحفظ الأقوال.
+  features:
+  - work/sahih-al-bukhari
+  - exhibit/path-hadith
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'السيرة في العصر: من المطبوعات إلى المتحف.'
+    en: 'السيرة في العصر: من المطبوعات إلى المتحف.'
+  features:
+  - exhibit/path-life-of-the-prophet
+  - exhibit/path-meccan-period
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
