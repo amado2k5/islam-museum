@@ -538,9 +538,9 @@ export function viewMosqueParts(parts: MosquePart[], lang: Lang): MosquePartView
   return parts.map((p) => ({
     slug: p.slug,
     icon: p.icon,
-    name: p.name[lang],
-    what: p.what[lang],
-    exampleBuilding: p.example_building[lang],
+    name: pick(p.name, lang),
+    what: pick(p.what, lang),
+    exampleBuilding: pick(p.example_building, lang),
   }));
 }
 
@@ -607,7 +607,7 @@ export function loadEras(): Era[] {
 }
 
 /** Prophet names as they appear in the era prose, per language (for honorific rendering). */
-const ERA_PROPHET_NAMES: Record<Lang, string[]> = {
+const ERA_PROPHET_NAMES = {
   ar: ["النبي", "إبراهيم", "إسماعيل"],
   en: ["the Prophet", "Ibrahim", "Ismail"],
 };
@@ -617,14 +617,14 @@ const ERA_PROPHET_NAMES: Record<Lang, string[]> = {
  * (the UI renders honorifics — authors never type them); source id passes through.
  */
 export function viewEras(eras: Era[], lang: Lang): EraView[] {
-  const names = ERA_PROPHET_NAMES[lang];
+  const names = pick(ERA_PROPHET_NAMES, lang);
   return eras.map((e) => ({
     slug: e.slug,
-    title: kidsHonorify(e.title[lang], lang, names),
-    blurb: kidsHonorify(e.blurb[lang], lang, names),
+    title: kidsHonorify(pick(e.title, lang), lang, names),
+    blurb: kidsHonorify(pick(e.blurb, lang), lang, names),
     events: e.events.map((ev) => ({
-      title: kidsHonorify(ev.title[lang], lang, names),
-      oneLine: kidsHonorify(ev.one_line[lang], lang, names),
+      title: kidsHonorify(pick(ev.title, lang), lang, names),
+      oneLine: kidsHonorify(pick(ev.one_line, lang), lang, names),
       source: ev.source,
     })),
   }));
