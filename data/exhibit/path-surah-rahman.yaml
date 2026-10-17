@@ -1,0 +1,76 @@
+id: exhibit/path-surah-rahman
+class: exhibit
+kind: trail
+label:
+  ar: سورة الرحمن
+  en: Surah al-Rahman
+summary:
+  ar: 'مسار في عروس القرآن: الرحمن علّم القرآن، وفبأي آلاء ربكما تكذبان، والجنة والحور — سورة النعم.'
+  en: A trail through the bride of the Qur'an.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الافتتاح
+    en: The opening
+  body:
+    ar: الرحمن علّم القرآن خلق الإنسان.
+    en: الرحمن علّم القرآن خلق الإنسان.
+  features:
+  - passage/quran-55
+  - passage/quran-55-1
+- title:
+    ar: الميزان
+    en: The balance
+  body:
+    ar: 'السماء رفعها ووضع الميزان: عدل الكون.'
+    en: 'السماء رفعها ووضع الميزان: عدل الكون.'
+  features:
+  - passage/quran-55-7
+  - passage/quran-55-7
+- title:
+    ar: التكرار
+    en: The refrain
+  body:
+    ar: 'فبأي آلاء ربكما تكذبان: 31 مرة.'
+    en: 'فبأي آلاء ربكما تكذبان: 31 مرة.'
+  features:
+  - passage/quran-55-13
+  - passage/quran-55-13
+- title:
+    ar: الجنة
+    en: Paradise
+  body:
+    ar: ولمن خاف مقام ربه جنتان.
+    en: ولمن خاف مقام ربه جنتان.
+  features:
+  - passage/quran-55-46
+  - passage/quran-55-46
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: تبارك اسم ربك ذي الجلال والإكرام.
+    en: تبارك اسم ربك ذي الجلال والإكرام.
+  features:
+  - passage/quran-55-78
+  - passage/quran-55-78
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,76 @@
+id: exhibit/path-fatiha
+class: exhibit
+kind: trail
+label:
+  ar: الفاتحة
+  en: Al-Fatiha
+summary:
+  ar: 'مسار في أم الكتاب: سبع آيات تُقرأ في كل ركعة — الحمد والرحمة والملك والعبادة والاستعانة والهداية.'
+  en: A trail through the mother of the book.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: 'السبع المثاني: فاتحة الكتاب وأمه.'
+    en: 'السبع المثاني: فاتحة الكتاب وأمه.'
+  features:
+  - passage/quran-1
+  - passage/quran-1-1
+- title:
+    ar: الحمد
+    en: Praise
+  body:
+    ar: 'الحمد لله رب العالمين: افتتاح الذكر.'
+    en: 'الحمد لله رب العالمين: افتتاح الذكر.'
+  features:
+  - passage/quran-1-2
+  - practice/salat
+- title:
+    ar: الرحمة
+    en: Mercy
+  body:
+    ar: 'الرحمن الرحيم: الاسمان يتكرران.'
+    en: 'الرحمن الرحيم: الاسمان يتكرران.'
+  features:
+  - passage/quran-1-3
+  - passage/quran-1-3
+- title:
+    ar: العبادة
+    en: Worship
+  body:
+    ar: 'إياك نعبد وإياك نستعين: قلب الدين.'
+    en: 'إياك نعبد وإياك نستعين: قلب الدين.'
+  features:
+  - passage/quran-1-5
+  - passage/quran-1-5
+- title:
+    ar: الطلب
+    en: The ask
+  body:
+    ar: 'اهدنا الصراط المستقيم: دعاء كل ركعة.'
+    en: 'اهدنا الصراط المستقيم: دعاء كل ركعة.'
+  features:
+  - passage/quran-1-6
+  - passage/quran-1-7
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
