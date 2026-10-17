@@ -1,0 +1,12 @@
+---
+id: person/ardashir-i-ibn-babak
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+Ardashir ibn Babak, a king of the Sasanian Persians. Al-Tabari mentions him under the heading "The reign of Ardashir ibn Babak". {cite:tabari-tarikh-abu-al-fadl j.2 p.37}
+
+Al-Mas'udi says, in his account of backgammon, that he was the first to play it. He said that he made its houses twelve, to the number of the months, and its dogs thirty, to the number of the days. {cite:muruj-al-dhahab p.681}
+
+The details of his reign still need an additional source; they have not yet been read.
