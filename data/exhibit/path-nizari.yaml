@@ -1,0 +1,76 @@
+id: exhibit/path-nizari
+class: exhibit
+kind: trail
+label:
+  ar: النزارية
+  en: The Nizariyya
+summary:
+  ar: 'مسار في إسماعيلية الجبل: حسن الصباح يأخذ ألموت، ودعوة النزار تصل سوريا — أسطورة الحشاشين ودولتها.'
+  en: A trail through the Isma'ilis of the mountain.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: حسن الصباح
+    en: Hasan-i Sabbah
+  body:
+    ar: الفارسي يستولي على ألموت 1090.
+    en: الفارسي يستولي على ألموت 1090.
+  features:
+  - person/hasan-i-sabbah
+  - place/alamut
+- title:
+    ar: الدعوة
+    en: The da'wa
+  body:
+    ar: 'مراتب الدعوة النزارية: هرم الدعاة.'
+    en: 'مراتب الدعوة النزارية: هرم الدعاة.'
+  features:
+  - group/darajat-al-dawa-al-nizariyya
+  - group/ismaili-dawa
+- title:
+    ar: ألموت
+    en: Alamut
+  body:
+    ar: 'قلعة النسر: عاصمة الجبل 166 سنة.'
+    en: 'قلعة النسر: عاصمة الجبل 166 سنة.'
+  features:
+  - place/alamut
+  - place/alamut
+- title:
+    ar: سوريا
+    en: Syria
+  body:
+    ar: 'راشد الدين سنان: شيخ الجبل.'
+    en: 'راشد الدين سنان: شيخ الجبل.'
+  features:
+  - group/darajat-al-dawa-al-nizariyya
+  - place/damascus
+- title:
+    ar: الأغاخان
+    en: The Aga Khans
+  body:
+    ar: 'النزارية اليوم: إمامة حاضرة.'
+    en: 'النزارية اليوم: إمامة حاضرة.'
+  features:
+  - group/ismaili-dawa
+  - group/darajat-al-dawa-al-nizariyya
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
