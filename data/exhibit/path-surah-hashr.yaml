@@ -1,0 +1,77 @@
+id: exhibit/path-surah-hashr
+class: exhibit
+kind: trail
+label:
+  ar: سورة الحشر
+  en: Surah al-Hashr
+summary:
+  ar: 'مسار في سورة الإجلاء والجامعة: بنو النضير يجلون، والفيء وأحكامه، وأسماء الله تختم السورة — سورة
+    المدينة.'
+  en: A trail through the sura of exile.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السورة
+    en: The sura
+  body:
+    ar: 'الحشر: بنو النضير يجلون عن ديارهم.'
+    en: 'الحشر: بنو النضير يجلون عن ديارهم.'
+  features:
+  - passage/quran-59
+  - passage/quran-59
+- title:
+    ar: الإجلاء
+    en: The exile
+  body:
+    ar: 'النخل يُقطع: أول إجلاء في المدينة.'
+    en: 'النخل يُقطع: أول إجلاء في المدينة.'
+  features:
+  - passage/quran-59-2
+  - place/medina
+- title:
+    ar: الفيء
+    en: The fay'
+  body:
+    ar: 'أحكام الغنيمة بلا قتال: عدل التوزيع.'
+    en: 'أحكام الغنيمة بلا قتال: عدل التوزيع.'
+  features:
+  - passage/quran-59-7
+  - passage/quran-59-7
+- title:
+    ar: المهاجرون
+    en: The emigrants
+  body:
+    ar: 'الإيثار والأخوة: صفات أهل المدينة.'
+    en: 'الإيثار والأخوة: صفات أهل المدينة.'
+  features:
+  - passage/quran-59-8
+  - passage/quran-59-9
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: 'هو الله الذي لا إله إلا هو: الأسماء.'
+    en: 'هو الله الذي لا إله إلا هو: الأسماء.'
+  features:
+  - passage/quran-59-22
+  - passage/quran-59-24
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,77 @@
+id: exhibit/path-medina-mosques
+class: exhibit
+kind: trail
+label:
+  ar: مساجد المدينة
+  en: Mosques of Medina
+summary:
+  ar: 'مسار في مساجد المدينة الأولى: قباء أول المساجد، والقبلتين تحوّل القبلة، ومسجد الضرار يُهدم — تاريخ
+    في العمارة.'
+  en: A trail through Medina's first mosques.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: قباء
+    en: Quba
+  body:
+    ar: 'أول مسجد في الإسلام: عند الطريق.'
+    en: 'أول مسجد في الإسلام: عند الطريق.'
+  features:
+  - building/masjid-quba
+  - place/medina
+- title:
+    ar: النبوي
+    en: The Nabawi
+  body:
+    ar: المدينة تبني مسجدها الأعظم.
+    en: المدينة تبني مسجدها الأعظم.
+  features:
+  - building/prophets-mosque
+  - place/medina
+- title:
+    ar: القبلتين
+    en: Qiblatayn
+  body:
+    ar: 'القبلة تتحول وسط الصلاة: برواية أهله.'
+    en: 'القبلة تتحول وسط الصلاة: برواية أهله.'
+  features:
+  - building/masjid-al-qiblatayn
+  - concept/adillat-al-qibla
+- title:
+    ar: الضرار
+    en: Dirar
+  body:
+    ar: 'مسجد الضرار: النفاق يُهدم.'
+    en: 'مسجد الضرار: النفاق يُهدم.'
+  features:
+  - building/masjid-dirar
+  - place/medina
+- title:
+    ar: الزيارة
+    en: The visit
+  body:
+    ar: 'مساجد الزوار: قباء يوم السبت.'
+    en: 'مساجد الزوار: قباء يوم السبت.'
+  features:
+  - building/masjid-quba
+  - practice/salat
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
