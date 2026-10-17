@@ -1,8 +1,7 @@
 ---
 import "../styles/global.css";
-import { ui, nextLang, LANGS, ARABIC_SCRIPT, WINGS, wingHref, type Lang } from "../lib/i18n";
+import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
-import { SHOP } from "../lib/links";
 import { wingCountLabel, explorePages } from "../lib/nav";
 import Logo from "../components/Logo.astro";
 // Webfonts sit one hop behind the stylesheet, which delays first paint under throttled networks; the two faces above the fold
@@ -12,17 +11,17 @@ import amiri400 from "@fontsource/amiri/files/amiri-arabic-400-normal.woff2?url"
 import serif400 from "@fontsource/source-serif-4/files/source-serif-4-latin-400-normal.woff2?url";
 import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2?url";
 
-interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean }
-const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex } = Astro.props;
+interface Props { lang: Lang; title: string; description?: string; path: string; jsonld?: object | object[]; alternates?: Partial<Record<Lang, string>>; ogType?: string; noindex?: boolean; kids?: boolean }
+const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex, kids = false } = Astro.props;
 const T = ui(lang);
 const fullTitle = path === `/${lang}/` ? `${T.name} · ${T.tagline}` : `${title} · ${T.name}`;
 const desc = description ?? T.landing.meta_description ?? T.landing.lede;
 const canonical = `${SITE}${path}`;
 const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
 const multilingual = LANGS.length > 1;
-const switchHref = alt[nextLang(lang)] ?? `/${nextLang(lang)}/`;
+const switchHref = alt[other(lang)] ?? `/${other(lang)}/`;
 const ld = jsonld ? (Array.isArray(jsonld) ? jsonld : [jsonld]) : [];
-const fonts = ARABIC_SCRIPT.includes(lang) ? [naskh400, amiri400] : [serif400, inter400];
+const fonts = lang === "ar" ? [naskh400, amiri400] : [serif400, inter400];
 const wingCount = (w: string) => wingCountLabel(lang, w);
 const EXPLORE = explorePages(lang);
 ---
@@ -41,7 +40,7 @@ const EXPLORE = explorePages(lang);
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="islam.museum" />
-    <meta property="og:locale" content={({ ar: "ar_AR", en: "en_US", ur: "ur_PK" } as const)[lang]} />
+    <meta property="og:locale" content={lang === "ar" ? "ar_AR" : "en_US"} />
     <meta property="og:image" content={`${SITE}/brand/og-image.jpg`} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -76,6 +75,16 @@ const EXPLORE = explorePages(lang);
     </svg>
     <a class="skip" href="#main">{T.a11y.skip}</a>
     <header class="site topbar">
+      {kids ? (
+        <div class="wrap kids-topbar">
+          <a class="kids-brand" href={`/${lang}/sighar/`}>
+            <span aria-hidden="true">🪶</span> {T.kids.hub_title}
+          </a>
+          <a class="kids-back" href={`/${lang}/`}>
+            <span aria-hidden="true">🏛</span> {T.kids.back_to_museum}
+          </a>
+        </div>
+      ) : (
       <div class="wrap nav-row">
         <a class="ui brand" href={`/${lang}/`}>
           <Logo size={34} alt={T.name} />
@@ -97,18 +106,17 @@ const EXPLORE = explorePages(lang);
               <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
             </ul>
           </details>
-          <a class="top-link" href={`/${lang}/screen/`}>{T.nav.screen}</a>
           <a class="top-link" href={`/${lang}/today/`}>{T.nav.today}</a>
-          <a class="top-link" href={SHOP} rel="noopener">{T.nav.gift_shop}</a>
-          <a class="top-link" href={`/${lang}/support/`}>{T.nav.donate}</a>
+          <a class="top-link kids-link" href={`/${lang}/sighar/`}><span aria-hidden="true">🪶</span> {T.kids.hub_title}</a>
         </nav>
         <div class="nav-tools ui">
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
-          {multilingual && <a class="chip" href={switchHref} hreflang={nextLang(lang)} lang={nextLang(lang)} style="border:1px solid var(--line)"><span class="ltr" dir="ltr">{LANGS.map((l) => l.toUpperCase()).join(" | ")}</span></a>}
+          {multilingual && <a class="chip" href={switchHref} hreflang={other(lang)} lang={other(lang)} style="border:1px solid var(--line)"><span class="ltr" dir="ltr">AR | EN</span></a>}
           <button class="chip" id="font-toggle" type="button" aria-pressed="false" style="border:0;cursor:pointer">{T.explore.font}</button>
           <button class="chip" id="theme" type="button" aria-label={T.a11y.theme} data-to-dark={T.a11y.theme} data-to-light={T.a11y.theme_light} style="border:0;cursor:pointer">◐</button>
         </div>
       </div>
+      )}
     </header>
     <main id="main" style="flex:1">
       <slot />
@@ -116,7 +124,7 @@ const EXPLORE = explorePages(lang);
     <footer class="site foot">
       <div class="wrap ui">
         <div class="fcols">
-          <div><h2>{T.footer.about}</h2><a href={`/${lang}/foundation/`}>{T.nav.foundation}</a><a href={`/${lang}/support/`}>{T.footer.support}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/05-editorial.md" rel="noopener">{T.footer.editorial}</a><a href={`/${lang}/questions/`}>{T.footer.faq}</a><a href={`/${lang}/learn/`}>{T.nav.learn}</a></div>
+          <div><h2>{T.footer.about}</h2><a href={`/${lang}/foundation/`}>{T.nav.foundation}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/05-editorial.md" rel="noopener">{T.footer.editorial}</a><a href={`/${lang}/questions/`}>{T.footer.faq}</a><a href={`/${lang}/learn/`}>{T.nav.learn}</a></div>
           <div><h2>{T.footer.resources}</h2><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
           <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.changelog}</a><a href="https://github.com/amado2k5/islam-museum/issues/new/choose" rel="noopener">{T.footer.report}</a><a href="https://github.com/amado2k5/islam-museum/discussions" rel="noopener">{T.footer.discuss}</a><span>{T.footer.privacy}</span></div>
         </div>

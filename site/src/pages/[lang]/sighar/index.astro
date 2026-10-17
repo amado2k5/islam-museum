@@ -1,0 +1,60 @@
+---
+// Kids' Wing hub: age bands + entry cards. Uses BaseLayout's kids topbar (kids={true}).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Hudhud from "../../../components/Hudhud.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import "../../../styles/kids.css";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.kids;
+---
+<BaseLayout lang={lang} title={t.hub_title} description={t.hub_lede} path={`/${lang}/sighar/`} kids={true}>
+  <div class="kids">
+    <section class="kids-hero">
+      <div class="kids-hudhud"><Hudhud pose="greet" size={140} /></div>
+      <div>
+        <h1>{t.hub_title}</h1>
+        <p class="kids-speech">{t.hub_lede}</p>
+      </div>
+    </section>
+
+    <section class="age-bands">
+      <div class="age-band">
+        <h2>🌱 {t.band_sprouts}</h2>
+        <p>{t.band_sprouts_desc}</p>
+        <span class="chip">{t.band_coming_soon}</span>
+      </div>
+      <div class="age-band on">
+        <h2>🔍 {t.band_explorers}</h2>
+        <p>{t.band_explorers_desc}</p>
+        <p>
+          <a class="kids-btn" href={`/${lang}/sighar/garden/`}>{t.garden_title}</a>{" "}
+          <a class="kids-btn" href={`/${lang}/sighar/quest/`}>{t.quest_title}</a>
+        </p>
+      </div>
+      <div class="age-band">
+        <h2>📖 {t.band_storytellers}</h2>
+        <p>{t.band_storytellers_desc}</p>
+        <span class="chip">{t.band_coming_soon}</span>
+      </div>
+    </section>
+
+    <section class="entries">
+      <a class="entry-card" href={`/${lang}/sighar/garden/`}>
+        <h2>🌸 {t.garden_title}</h2>
+        <p>{t.garden_lede}</p>
+      </a>
+      <a class="entry-card" href={`/${lang}/sighar/quest/`}>
+        <h2>⭐ {t.quest_title}</h2>
+        <p>{t.quest_lede}</p>
+      </a>
+    </section>
+
+    <details class="grownups">
+      <summary>{t.grownups_title}</summary>
+      <p>{t.grownups_hub}</p>
+    </details>
+  </div>
+</BaseLayout>

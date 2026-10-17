@@ -18,8 +18,6 @@ nav:
   words: الكلمة
   living: الحياة
   today: اليوم
-  gift_shop: متجر الهدايا
-  donate: تبرّع
   made: صُنع
   questions: أسئلة
   exhibits: المعارض
@@ -37,21 +35,6 @@ a11y:
   menu: التنقل الرئيسي
   menu_open: القائمة
 landing:
-  shop_title: متجر islam.museum للهدايا
-  shop_cta: زيارة المتجر
-  shop_prev: السابق
-  shop_next: التالي
-  shop_region: فئات متجر الهدايا
-  shop_cats:
-    apparel: ملابس وأزياء
-    art: لوحات وخط عربي
-    books: كتب
-    ceramics: خزف وفخار
-    home: ديكور المنزل
-    jewelry: مجوهرات وإكسسوارات
-    kids: للأطفال
-    oud: عود وسواك وتراث إسلامي
-  give_title: تبرّع وادعم المتحف
   eyebrow: متحفٌ رقمي · مفتوحٌ للجميع
   title_pre: متحفٌ
   title_strong: لقصة الإسلام
@@ -447,30 +430,6 @@ footer:
   changelog: سجل التحديثات
   report: أبلغ عن خطأ أو اقترح تصحيحًا
   discuss: نقاشات المشروع
-  support: ادعم المتحف
-support:
-  title: "ادعم متحف الإسلام"
-  lede: "المتحف مجانيٌّ ومفتوح ولا إعلانات فيه ولا تتبّع. إن رأيتَ فيه نفعًا، فدعمك يُبقيه كذلك ويُسرّع بناءه."
-  why_title: "لماذا الدعم؟"
-  why_body: "يُبنى المتحف مادةً مادةً بعناية: كل معلومةٍ موثّقة بمصدرها، وكل نصٍّ يُراجع. الدعم يعين على استمرار هذا العمل وعلى توسيعه إلى الإنجليزية ولغاتٍ أخرى."
-  ways_title: "كيف تدعم"
-  patreon_title: "اشترك على Patreon"
-  patreon_body: "اشتراكٌ شهريّ اختياريّ يُعينُ على استمرار العمل ويُتيح لك متابعة تطوّره."
-  patreon_cta: "انتقل إلى صفحة Patreon"
-  paypal_title: "تبرّع مرةً واحدة"
-  paypal_body: "تبرّعٌ لمرةٍ واحدة عبر PayPal، دون اشتراك."
-  paypal_cta: "تبرّع عبر PayPal"
-  launchgood_title: "حملة LaunchGood"
-  launchgood_body: "حملة تبرّعٍ على منصة LaunchGood لدعم بناء المتحف الرقمي المفتوح الأول من نوعه."
-  launchgood_cta: "ادعم الحملة على LaunchGood"
-  github_title: "GitHub Sponsors"
-  github_body: "رعايةٌ شهريّة أو لمرّةٍ واحدة عبر GitHub، ويُعرض الراعون في صفحة المشروع على GitHub."
-  github_cta: "ادعم عبر GitHub Sponsors"
-  other_title: "طرقٌ أخرى"
-  other_body: "إن لم يناسبك الاشتراك الشهري، فيمكنك المساهمة في الشيفرة أو المراجعة أو الترجمة، أو نشر المتحف على من تعرف."
-  contribute: "ساهم على GitHub"
-  share: "شارك المتحف"
-  note: "الدعم اختياري ولا يمنح صلاحيةً على محتوى المتحف أو مراجعته. التحرير مستقلّ، والمنهج معلن."
 roles:
   prophet-figure: نبي
   family-of-the-prophet: من آل النبي
@@ -823,6 +782,10 @@ explore:
       title: بطاقات المتحف
       desc: 'بطاقات تفاعلية للمدارسة: خرائط الكلمات، والقوائم، والقصص.'
       menu: بطاقات تفاعلية للمدارسة
+    sighar:
+      title: جناح الصغار
+      desc: 'ركن الأطفال في المتحف: حديقة الكلمات ورحلة الأنبياء مع هدهد.'
+      menu: ركن الأطفال التفاعلي
     wander:
       title: تجوّل
       menu: صفحة عشوائية من المتحف
@@ -858,3 +821,49 @@ references:
   licence: الترخيص
   language: اللغة
   none: لا شيء
+
+kids:
+  hub_title: جناح الصغار
+  hub_lede: ركن الأطفال في متحف الإسلام — العب وتعلّم مع هدهد!
+  band_sprouts: البراعم
+  band_sprouts_desc: من ٤ إلى ٦ سنوات
+  band_explorers: المستكشفون
+  band_explorers_desc: من ٧ إلى ٩ سنوات
+  band_storytellers: الرواة
+  band_storytellers_desc: من ١٠ إلى ١٢ سنة
+  band_coming_soon: قريبًا
+  garden_title: حديقة الكلمات
+  garden_lede: كل زهرة سورة! المس زهرة لتتفتح وتقرأ الآيات التي وردت فيها الكلمة.
+  garden_word_label: كلمة اليوم
+  garden_meaning: "«وبشّر» تعني: خبرٌ مُفرح!"
+  garden_tap_flower: المس زهرة لتتفتح
+  garden_verses: الآيات
+  garden_ayah: آية
+  bee_title: ساعد النحلة
+  bee_lede: النحلة نسيت من أي سورة هذه الآية! اختر الإجابة الصحيحة.
+  bee_start: ابدأ
+  bee_next: سؤال جديد
+  bee_correct: أحسنت! إجابة صحيحة
+  bee_wrong: "ليس تمامًا — الإجابة الصحيحة: سورة {answer}"
+  bee_score: "نقاطك: {n}"
+  quest_title: رحلة الأنبياء
+  quest_lede: خمس محطات مع خمسة أنبياء — اجمع النجوم وتعلّم قيمة في كل محطة!
+  quest_stop: المحطة {n}
+  quest_value: القيمة
+  quest_prev: السابق
+  quest_next: التالي
+  quest_stars: "نجومك: {n}"
+  quest_done: أحسنت! أكملت المحطة
+  finale_title: مذهل! أكملت الرحلة
+  finale_lede: "جمعت خمس نجوم وتعلّمت: {values}. هدهد فخور بك!"
+  finale_restart: العب من جديد
+  grownups_title: للكبار
+  grownups_hub: "جناح الصغار يعيد تقديم محتوى المتحف بلغة الأطفال: تبسيط بلا تسطيح، وإطار سني، ومواد حساسة محجوبة عمريًا."
+  grownups_garden: حديقة الكلمات مبنية على خريطة كلمة «وبشّر» الحقيقية من بطاقات المتحف — نفس البيانات، بلغة الأطفال.
+  grownups_quest: قصص الأنبياء الخمسة مختصرة بأسلوب آمن للأطفال، وكل محطة تنتهي بقيمة وسؤال للنقاش العائلي.
+  erase: امسح تقدّمي
+  erase_confirm: متأكد؟ سيُمسح كل تقدّمك في جناح الصغار.
+  erase_done: تم المسح! يمكنك البدء من جديد.
+  close: أغلق
+  back_to_museum: عودة إلى المتحف الكبير
+  back_to_museum_short: المتحف الكبير

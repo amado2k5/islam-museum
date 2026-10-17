@@ -18,8 +18,6 @@ nav:
   words: Words
   living: Living
   today: Today
-  gift_shop: Gift shop
-  donate: Donate
   made: Made
   questions: Questions
   exhibits: Exhibits
@@ -37,21 +35,6 @@ a11y:
   theme: Toggle dark mode
   menu: Main navigation
 landing:
-  shop_title: islam.museum gift shop
-  shop_cta: Visit the gift shop
-  shop_prev: Previous
-  shop_next: Next
-  shop_region: Gift shop categories
-  shop_cats:
-    apparel: Apparel & Clothing
-    art: Art Prints & Calligraphy
-    books: Books
-    ceramics: Ceramics & Pottery
-    home: Home Décor
-    jewelry: Jewelry & Accessories
-    kids: Kids
-    oud: Oud, Miswak & Islamic Heritage
-  give_title: Donate and support us
   eyebrow: A digital museum · open to everyone
   title_pre: A museum for the
   title_strong: whole story
@@ -447,30 +430,6 @@ footer:
   changelog: Change log
   report: Report an error or suggest a correction
   discuss: Project discussions
-  support: Support the museum
-support:
-  title: "Support the museum"
-  lede: "The museum is free, open, with no ads and no tracking. If it is useful to you, your support keeps it that way and helps it grow faster."
-  why_title: "Why support it?"
-  why_body: "The museum is built entry by entry with care: every fact is cited to its source and every text is reviewed. Support helps sustain this work and extend it to English and other languages."
-  ways_title: "How to support"
-  patreon_title: "Join on Patreon"
-  patreon_body: "An optional monthly membership that helps the work continue and lets you follow its progress."
-  patreon_cta: "Go to the Patreon page"
-  paypal_title: "Donate once"
-  paypal_body: "A one-time donation through PayPal, with no subscription."
-  paypal_cta: "Donate with PayPal"
-  launchgood_title: "LaunchGood campaign"
-  launchgood_body: "A donation campaign on LaunchGood to help build the first open digital museum of Islam."
-  launchgood_cta: "Support the campaign on LaunchGood"
-  github_title: "GitHub Sponsors"
-  github_body: "Monthly or one-time sponsorship through GitHub, with sponsors listed on the project's GitHub profile."
-  github_cta: "Sponsor on GitHub Sponsors"
-  other_title: "Other ways"
-  other_body: "If a monthly membership does not suit you, you can contribute code, review or translation, or share the museum with people you know."
-  contribute: "Contribute on GitHub"
-  share: "Share the museum"
-  note: "Support is optional and does not grant any say over the museum's content or review. Editorial work is independent, and the method is published."
 roles:
   prophet-figure: Prophet
   family-of-the-prophet: Family of the Prophet
@@ -823,6 +782,10 @@ explore:
       title: Museum Cards
       desc: 'Interactive study cards: word maps, lists, and stories.'
       menu: Interactive study cards
+    sighar:
+      title: Kids' Wing
+      desc: 'The museum''s children''s corner: the Word Garden and the Prophet Quest with Hudhud.'
+      menu: Interactive kids' corner
     wander:
       title: Wander
       menu: A random page of the museum
@@ -858,3 +821,49 @@ references:
   licence: Licence
   language: Language
   none: none
+
+kids:
+  hub_title: Kids' Wing
+  hub_lede: The children's corner of the Islam Museum — play and learn with Hudhud!
+  band_sprouts: Sprouts
+  band_sprouts_desc: Ages 4 to 6
+  band_explorers: Explorers
+  band_explorers_desc: Ages 7 to 9
+  band_storytellers: Storytellers
+  band_storytellers_desc: Ages 10 to 12
+  band_coming_soon: Coming soon
+  garden_title: Word Garden
+  garden_lede: Every flower is a surah! Tap a flower to make it bloom and read the verses where the word appears.
+  garden_word_label: Word of the day
+  garden_meaning: '"Wa-bashshir" means: glad tidings!'
+  garden_tap_flower: Tap a flower to bloom it
+  garden_verses: Verses
+  garden_ayah: verse
+  bee_title: Help the Bee
+  bee_lede: The bee forgot which surah this verse is from! Pick the right answer.
+  bee_start: Start
+  bee_next: New question
+  bee_correct: Well done! Correct answer
+  bee_wrong: Not quite — the right answer is Surah {answer}
+  bee_score: "Your score: {n}"
+  quest_title: Prophet Quest
+  quest_lede: Five stops with five prophets — collect stars and learn one value at each stop!
+  quest_stop: Stop {n}
+  quest_value: Value
+  quest_prev: Back
+  quest_next: Next
+  quest_stars: "Your stars: {n}"
+  quest_done: Well done! Stop complete
+  finale_title: Amazing! You finished the journey
+  finale_lede: "You collected five stars and learned: {values}. Hudhud is proud of you!"
+  finale_restart: Play again
+  grownups_title: For grown-ups
+  grownups_hub: "The Kids' Wing retells museum content in children's language: simplified but never dumbed down, a Sunni frame, and age-gated sensitive material."
+  grownups_garden: The Word Garden is built on the real "wa-bashshir" word map from the Museum Cards — the same data, in children's language.
+  grownups_quest: The five prophets' stories are shortened in a child-safe style; each stop ends with a value and a family discussion question.
+  erase: Erase my progress
+  erase_confirm: Are you sure? All your Kids' Wing progress will be erased.
+  erase_done: Erased! You can start fresh.
+  close: Close
+  back_to_museum: Back to the main museum
+  back_to_museum_short: Main museum

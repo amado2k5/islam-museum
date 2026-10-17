@@ -1,0 +1,148 @@
+---
+// Hudhud — the Kids' Wing hoopoe mascot (inline SVG, no external assets).
+// Poses: greet (one wing raised, waving), think (wing up by the head +
+// thought dots), celebrate (both wings up + gold motion arcs).
+// Decorative by default (aria-hidden); pass `label` for role="img".
+// Clip-path IDs get a random per-instance suffix so multiple Hudhuds on one
+// page never collide.
+interface Props {
+  pose?: "greet" | "think" | "celebrate";
+  size?: number;
+  label?: string;
+}
+const { pose = "greet", size = 120, label } = Astro.props;
+
+const uid = `hudhud-${Math.random().toString(36).slice(2, 10)}`;
+const wingClip = `wingclip-${uid}`;
+const wingClip2 = `wingclip2-${uid}`;
+const tailClip = `tailclip-${uid}`;
+
+// viewBox is 200 x 222
+const height = Math.round((size * 222) / 200);
+
+const C = {
+  brown: "#a06a42",   // body
+  belly: "#e3bd8d",   // belly
+  orange: "#e8933c",  // crest feathers
+  dark: "#2b2b2b",    // tips, stripes, pupil
+  paper: "#faf6ea",   // wing base, eye white
+  beak: "#4a352a",    // beak, feet
+  gold: "#c9a227",    // motion arcs
+  blush: "#e0704f",   // cheek
+};
+
+const crestAngles = [-60, -40, -20, 0, 20, 40, 60];
+
+// wing transforms per pose (rotation about each wing's shoulder pivot)
+const nearWingT =
+  pose === "greet" ? "rotate(-38 120 95)" : pose === "think" ? "rotate(115 120 95)" : "rotate(-55 120 95)";
+const farWingT = pose === "celebrate" ? "rotate(55 80 95)" : "";
+
+const svgAttrs: Record<string, string | number | boolean> =
+  typeof label === "string" && label.length > 0
+    ? { role: "img", "aria-label": label }
+    : { "aria-hidden": "true" };
+---
+<svg
+  {...svgAttrs}
+  width={size}
+  height={height}
+  viewBox="0 0 200 222"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  focusable="false"
+>
+  <defs>
+    <clipPath id={wingClip}>
+      <ellipse cx="138" cy="126" rx="19" ry="42" transform="rotate(-12 138 126)" />
+    </clipPath>
+    <clipPath id={wingClip2}>
+      <ellipse cx="54" cy="122" rx="17" ry="38" transform="rotate(12 54 122)" />
+    </clipPath>
+    <clipPath id={tailClip}>
+      <path d="M76 158 L124 158 L136 200 L64 200 Z" />
+    </clipPath>
+  </defs>
+
+  {/* banded tail (behind body) */}
+  <g clip-path={`url(#${tailClip})`}>
+    <path d="M76 158 L124 158 L136 200 L64 200 Z" fill={C.paper} />
+    <rect x="60" y="170" width="80" height="9" fill={C.dark} />
+    <rect x="60" y="186" width="80" height="9" fill={C.dark} />
+  </g>
+
+  {/* little feet */}
+  <g stroke={C.beak} stroke-width="5" stroke-linecap="round">
+    <path d="M90 198v11" />
+    <path d="M84 209l-6 4M90 209v6M96 209l6 4" />
+    <path d="M112 198v11" />
+    <path d="M106 209l-6 4M112 209v6M118 209l6 4" />
+  </g>
+
+  {/* far wing (behind body, left edge) */}
+  <g transform={farWingT}>
+    <g clip-path={`url(#${wingClip2})`}>
+      <ellipse cx="54" cy="122" rx="17" ry="38" transform="rotate(12 54 122)" fill={C.paper} />
+      <g transform="rotate(12 54 122)">
+        <rect x="40" y="86" width="8" height="76" fill={C.dark} />
+        <rect x="56" y="86" width="8" height="76" fill={C.dark} />
+        <rect x="70" y="86" width="7" height="76" fill={C.dark} />
+      </g>
+    </g>
+  </g>
+
+  {/* round warm-brown body */}
+  <ellipse cx="100" cy="118" rx="54" ry="60" fill={C.brown} />
+  {/* lighter belly */}
+  <ellipse cx="100" cy="142" rx="32" ry="36" fill={C.belly} />
+
+  {/* long thin curved beak */}
+  <path d="M140 100 Q168 104 188 122" stroke={C.beak} stroke-width="7" stroke-linecap="round" />
+
+  {/* near wing (striped, pose-driven) */}
+  <g transform={nearWingT}>
+    <g clip-path={`url(#${wingClip})`}>
+      <ellipse cx="138" cy="126" rx="19" ry="42" transform="rotate(-12 138 126)" fill={C.paper} />
+      <g transform="rotate(-12 138 126)">
+        <rect x="122" y="86" width="9" height="84" fill={C.dark} />
+        <rect x="139" y="86" width="9" height="84" fill={C.dark} />
+        <rect x="154" y="86" width="8" height="84" fill={C.dark} />
+      </g>
+    </g>
+  </g>
+
+  {/* cheek blush */}
+  <circle cx="140" cy="110" r="8" fill={C.blush} opacity="0.35" />
+
+  {/* friendly eye */}
+  <circle cx="124" cy="86" r="11" fill={C.paper} />
+  <circle cx="126" cy="87" r="5.5" fill={C.dark} />
+  <circle cx="128" cy="85" r="2" fill="#fff" />
+
+  {/* fanned crest: 7 orange feathers with black tips */}
+  <g>
+    {crestAngles.map((a) => (
+      <g transform={`rotate(${a} 100 70)`}>
+        <rect x="94" y="18" width="12" height="44" rx="6" fill={C.orange} />
+        <rect x="94" y="18" width="12" height="14" rx="6" fill={C.dark} />
+      </g>
+    ))}
+  </g>
+
+  {/* think pose: thought dots rising from the head */}
+  {pose === "think" && (
+    <g fill={C.paper} opacity="0.9">
+      <circle cx="52" cy="42" r="4" />
+      <circle cx="42" cy="30" r="5.5" />
+      <circle cx="30" cy="16" r="7" />
+    </g>
+  )}
+
+  {/* celebrate pose: gold motion arcs */}
+  {pose === "celebrate" && (
+    <g stroke={C.gold} stroke-width="6" stroke-linecap="round">
+      <path d="M28 84 Q10 60 26 40" />
+      <path d="M172 84 Q190 60 174 40" />
+    </g>
+  )}
+</svg>

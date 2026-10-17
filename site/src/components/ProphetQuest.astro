@@ -1,0 +1,73 @@
+---
+// Prophet Quest: 5-prophet journey with route nav, star counter and per-stop value cards.
+// All stops server-render as static HTML (no-JS readable); client script
+// (site/src/scripts/quest.ts) shows one card at a time, awards stars, reveals the finale.
+import Hudhud from "./Hudhud.astro";
+import type { QuestStopView } from "../lib/kids";
+import { ui, fmt, type Lang } from "../lib/i18n";
+
+interface Props { lang: Lang; t: Record<string, string>; stops: QuestStopView[] }
+const { lang, t, stops } = Astro.props;
+const T = ui(lang);
+const sep = lang === "ar" ? "، " : ", ";
+const valuesJoined = stops.map((s) => s.value).join(sep);
+---
+<div class="kids quest" data-quest
+  data-i18n-stars={t.quest_stars}
+  data-i18n-erase-done={t.erase_done}>
+  <h1>{t.quest_title}</h1>
+  <p class="lede">{t.quest_lede}</p>
+
+  <p class="stars-line" data-stars role="status">{fmt(t.quest_stars, { n: "0" })} {"☆".repeat(stops.length)}</p>
+
+  <ol class="quest-route">
+    {stops.map((s, i) => (
+      <li>
+        <button type="button" class="quest-stop" data-goto={i}
+          aria-label={`${fmt(t.quest_stop, { n: String(i + 1) })} — ${s.name}`}>
+          <span aria-hidden="true">{s.icon}</span> {s.name}
+        </button>
+      </li>
+    ))}
+  </ol>
+
+  {stops.map((s, i) => (
+    <article class="stop-card" data-card={i} id={`stop-${s.slug}`}>
+      <h2>{s.icon} {fmt(t.quest_stop, { n: String(i + 1) })}: {s.title}</h2>
+      <div class="story" set:html={s.storyHtml} />
+      <p class="value-badge"><span aria-hidden="true">{s.valueIcon}</span> {t.quest_value}: <b>{s.value}</b></p>
+      <div class="quest-q">
+        <p><b>{s.question}</b></p>
+        <div class="choices" data-choices>
+          {s.choices.map((c) => <button type="button" class="choice">{c}</button>)}
+        </div>
+      </div>
+      <div class="quest-feedback" data-feedback hidden>
+        <Hudhud pose="celebrate" size={72} />
+        <p>{s.feedback}</p>
+        <p class="done-msg">⭐ {t.quest_done}</p>
+      </div>
+      <nav class="stop-nav" aria-label={fmt(t.quest_stop, { n: String(i + 1) })}>
+        {i > 0 && <button type="button" class="kids-btn" data-prev>{t.quest_prev}</button>}
+        {i < stops.length - 1 && <button type="button" class="kids-btn" data-next>{t.quest_next}</button>}
+      </nav>
+    </article>
+  ))}
+
+  <section class="finale" data-finale hidden aria-label={t.finale_title}>
+    <Hudhud pose="celebrate" size={120} />
+    <h2>{t.finale_title}</h2>
+    <p>{fmt(t.finale_lede, { values: valuesJoined })}</p>
+    <p>
+      <button type="button" class="kids-btn" data-restart>{t.finale_restart}</button>{" "}
+      <button type="button" class="kids-btn ghost" data-erase data-confirm={t.erase_confirm}>{t.erase}</button>
+    </p>
+    <p data-erase-msg role="status"></p>
+    <details class="grownups">
+      <summary>{t.grownups_title}</summary>
+      <p>{t.grownups_quest}</p>
+      <p><a href={`/${lang}/cards/stories/`}>{T.cards.stories}</a></p>
+    </details>
+  </section>
+</div>
+<script src="../scripts/quest.ts"></script>

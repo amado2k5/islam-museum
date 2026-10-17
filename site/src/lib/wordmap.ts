@@ -13,6 +13,8 @@ export interface WordMapFile {
   forms: WordForm[];
   collocations: WordColloc[];
   corpus: string;
+  /** Age-appropriate for the Kids' Wing (Word Garden). Default false: only words with positive/neutral valence are opted in. */
+  kids?: boolean;
 }
 
 const dir = () => repoPath("cards/wordmap");

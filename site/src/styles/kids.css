@@ -1,0 +1,926 @@
+/* ==========================================================================
+   Kids' Wing («جناح الصغار») styles — islam.museum
+   --------------------------------------------------------------------------
+   Tokens live on `:root, .kids` so they are available both under the `.kids`
+   wrapper AND in the site header (the kids topbar is rendered by
+   BaseLayout.astro outside any `.kids` scope).
+
+   CONTRAST LEDGER (WCAG 2.2 AA, normal text >= 4.5:1, UI components >= 3:1)
+   - white #fff on lapis #1b2a4a ............ 14.2:1  (hero text)
+   - lapis #1b2a4a on paper #faf6ea ......... 13.2:1  (brand, headings)
+   - ink #2b2b2b on paper #faf6ea ........... 13.1:1  (body text)
+   - ink-soft #5a5a5a on paper #faf6ea ......  6.4:1  (muted text)
+   - lapis text on gold #c9a227 .............  5.9:1  (kids-btn)
+     NOTE: --kids-gold-deep is too dark for lapis text (2.8:1), so buttons
+     use the raw gold token; gold-deep is reserved for white-text surfaces.
+   - white on gold-deep #876a18 .............  5.1:1  (kids-back)
+   - gold-deep #876a18 on paper #faf6ea .....  4.7:1  (kids-link, rings)
+   - white on teal #2a7b88 ..................  4.9:1  (value-badge)
+   - white on leaf-deep #2f6b31 .............  6.4:1  (flower ring)
+   - white on coral-deep #b0411f ............  5.8:1  (flower hover ring)
+   - white on state-green #1e7e34 ...........  5.1:1  (correct badges)
+   - white on state-red #c0392b .............  5.4:1  (wrong badges)
+   - state-green-deep #145c24 on #e8f4ea ....  7.2:1  (done-msg)
+   - state-red-deep #96271a on #fbe9e4 ......  6.9:1  (wrong tint text)
+   - lapis on finale gradient (#f2cf5c-#d9a92e) >= 6.5:1 across the gradient
+
+   Rules: logical properties only (RTL-first); every keyframe prefixed
+   `kids-`; no third-party assets, no external URLs.
+   ========================================================================== */
+
+:root,
+.kids {
+  --kids-lapis: #1b2a4a;
+  --kids-gold: #c9a227;
+  --kids-paper: #faf6ea;
+  --kids-teal: #2a7b88;
+  --kids-leaf: #4d8a4f;
+  --kids-coral: #e0704f;
+  --kids-ink: #2b2b2b;
+  --kids-radius: 1.5rem;
+  /* Derived AA-safe tones (raw gold/leaf/coral fail as text/background pairs) */
+  --kids-gold-deep: #876a18;        /* white text 5.1:1; on paper 4.7:1 */
+  --kids-leaf-deep: #2f6b31;        /* white text 6.4:1 */
+  --kids-coral-deep: #b0411f;       /* white text 5.8:1 */
+  --kids-state-green: #1e7e34;      /* white text 5.1:1 */
+  --kids-state-red: #c0392b;        /* white text 5.4:1 */
+  --kids-state-green-deep: #145c24; /* on --kids-tint-green 7.2:1 */
+  --kids-state-red-deep: #96271a;   /* on --kids-tint-red 6.9:1 */
+  --kids-ink-soft: #5a5a5a;         /* on paper 6.4:1 */
+  --kids-tint-green: #e8f4ea;
+  --kids-tint-red: #fbe9e4;
+  --kids-tint-gold: #f8eed3;
+}
+
+/* ---------------------------------------------------------------- base -- */
+.kids {
+  background: var(--kids-paper);
+  color: var(--kids-ink);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.kids h1,
+.kids h2,
+.kids h3 {
+  color: var(--kids-lapis);
+  line-height: 1.4;
+  text-wrap: balance;
+}
+
+.kids .lede {
+  font-size: 1.15rem;
+  color: var(--kids-ink-soft);
+  max-width: 60ch;
+}
+
+.kids .hint {
+  font-size: 0.95rem;
+  color: var(--kids-ink-soft);
+}
+
+/* ------------------------------------------------------- hero panel -- */
+.kids .kids-hero {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #243b66 0%, var(--kids-lapis) 60%, #141f38 100%);
+  color: #fff; /* 14.2:1 on lapis */
+  border-radius: var(--kids-radius);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-block-end: 2rem;
+}
+
+.kids .kids-hero h1,
+.kids .kids-hero h2 {
+  color: #fff;
+  margin-block: 0 0.5rem;
+  font-size: 2rem;
+}
+
+/* decorative CSS crescent (pure CSS, masked gold disc over the gradient) */
+.kids .kids-hero::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 1.25rem;
+  inset-inline-end: 1.75rem;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: var(--kids-gold);
+  -webkit-mask: radial-gradient(circle 58px at 68% 30%, transparent 57px, #000 58px);
+  mask: radial-gradient(circle 58px at 68% 30%, transparent 57px, #000 58px);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+/* decorative CSS star-field (pure CSS radial-gradient dots) */
+.kids .kids-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.85;
+  background-image:
+    radial-gradient(2px 2px at 12% 22%, #fff 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 28% 68%, #fff 50%, transparent 51%),
+    radial-gradient(2px 2px at 44% 15%, #fff 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 58% 78%, #fff 50%, transparent 51%),
+    radial-gradient(2px 2px at 72% 32%, #fff 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 86% 60%, #fff 50%, transparent 51%),
+    radial-gradient(2px 2px at 93% 18%, #fff 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 8% 82%, #fff 50%, transparent 51%),
+    radial-gradient(2px 2px at 36% 42%, var(--kids-gold) 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 64% 52%, var(--kids-gold) 50%, transparent 51%);
+}
+
+/* ------------------------------------------------------------ mascot -- */
+.kids .kids-hudhud {
+  display: inline-flex;
+  vertical-align: middle;
+  flex: none;
+}
+
+.kids .kids-hudhud svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.kids .kids-hero .kids-hudhud {
+  animation: kids-float 4s ease-in-out infinite;
+}
+
+/* ------------------------------------------------------ speech bubble -- */
+.kids .kids-speech {
+  position: relative;
+  background: #fff;
+  color: var(--kids-ink);
+  border-radius: 1.25rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 4px 14px rgba(27, 42, 74, 0.12);
+  max-width: 46ch;
+}
+
+/* RTL-aware tail: inset-inline-start flips automatically in RTL */
+.kids .kids-speech::after {
+  content: "";
+  position: absolute;
+  inset-inline-start: 2rem;
+  bottom: -10px;
+  width: 20px;
+  height: 20px;
+  background: inherit;
+  transform: rotate(45deg);
+  box-shadow: 4px 4px 8px rgba(27, 42, 74, 0.08);
+}
+
+/* ------------------------------------------------------------ age band -- */
+.kids .age-bands {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-block: 2rem;
+}
+
+.kids .age-band {
+  flex: 1 1 220px;
+  min-height: 64px;
+  background: #fff;
+  border: 2px solid transparent;
+  border-radius: var(--kids-radius);
+  padding: 1.25rem;
+  box-shadow: 0 4px 14px rgba(27, 42, 74, 0.08);
+  cursor: pointer;
+  text-align: start;
+  font: inherit;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.kids .age-band:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(27, 42, 74, 0.14);
+}
+
+.kids .age-band.on {
+  border-color: var(--kids-gold-deep);
+  box-shadow: 0 0 0 3px var(--kids-gold-deep), 0 6px 18px rgba(27, 42, 74, 0.1);
+}
+
+.kids .age-band h2 {
+  margin-block: 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.kids .age-band p {
+  margin-block: 0 0.75rem;
+}
+
+/* ----------------------------------------------------------------- buttons -- */
+.kids .kids-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background: var(--kids-gold); /* lapis text 5.9:1 (see ledger note) */
+  color: var(--kids-lapis);
+  font-weight: 800;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.kids a.kids-btn:visited {
+  color: var(--kids-lapis);
+}
+
+.kids .kids-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(27, 42, 74, 0.2);
+}
+
+/* secondary button */
+.kids .ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  background: transparent;
+  border: 2px solid var(--kids-lapis);
+  color: var(--kids-lapis); /* on paper 13.2:1 */
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.kids .ghost:hover {
+  background: rgba(27, 42, 74, 0.07);
+}
+
+/* circular close button */
+.kids .kids-x {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--kids-ink-soft);
+  background: transparent;
+  color: var(--kids-ink-soft); /* on paper 6.4:1 */
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.kids .kids-x:hover {
+  background: rgba(43, 43, 43, 0.07);
+  transform: rotate(90deg);
+}
+
+/* ------------------------------------------------------------- word garden -- */
+.kids .garden,
+.kids .garden-all {
+  margin-block: 2rem;
+}
+
+.kids .flowerbed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-block: 1.5rem;
+}
+
+.kids .flower {
+  min-width: 96px;
+  min-height: 96px;
+  padding: 0.75rem;
+  border-radius: 46% 54% 52% 48% / 48% 46% 54% 52%; /* playful organic circle */
+  border: 3px solid var(--kids-leaf-deep); /* 6.0:1 on paper */
+  background: #fff;
+  color: var(--kids-ink);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  box-shadow: 0 4px 12px rgba(27, 42, 74, 0.1);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kids .flower:hover {
+  border-color: var(--kids-coral-deep); /* 5.8:1 white; 3:1+ boundary on paper */
+  transform: translateY(-4px) rotate(-2deg);
+}
+
+.kids .flower.picked {
+  border-color: var(--kids-gold-deep);
+  box-shadow: 0 0 0 3px var(--kids-gold-deep), 0 8px 20px rgba(27, 42, 74, 0.16);
+  animation: kids-pop 0.45s ease;
+}
+
+.kids .flower-emoji {
+  display: block;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.kids .flower-name {
+  display: block;
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.kids .flower-count {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--kids-ink-soft);
+}
+
+.kids .bloom-panel {
+  display: none;
+  background: #fff;
+  border-radius: var(--kids-radius);
+  border: 2px solid var(--kids-gold-deep);
+  padding: 1.5rem;
+  margin-block: 1.5rem;
+  box-shadow: 0 8px 24px rgba(27, 42, 74, 0.12);
+}
+
+.kids .bloom-panel.show {
+  display: block;
+}
+
+.kids .bloom-panel ul {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.kids .garden-all ul {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.kids .verse-card {
+  background: #fff;
+  color: var(--kids-ink);
+  border-radius: 1rem;
+  border-inline-start: 6px solid var(--kids-gold-deep); /* 4.7:1 on white */
+  box-shadow: 0 4px 14px rgba(27, 42, 74, 0.08);
+  padding: 1.25rem 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+/* --------------------------------------------------------------- bee quiz -- */
+.kids .bee-quiz {
+  background: #fff;
+  border-radius: var(--kids-radius);
+  padding: 1.5rem;
+  margin-block: 2rem;
+  box-shadow: 0 6px 20px rgba(27, 42, 74, 0.1);
+  border: 2px dashed var(--kids-gold-deep);
+}
+
+.kids .bee-quiz h2 {
+  margin-block-start: 0;
+}
+
+.kids .bee-opts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-block: 1rem;
+}
+
+.kids .bee-opts button,
+.kids .choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 48px;
+  padding: 0.75rem 1.25rem;
+  border-radius: 1rem;
+  border: 2px solid var(--kids-lapis);
+  background: var(--kids-paper);
+  color: var(--kids-ink);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.15s ease, transform 0.15s ease, opacity 0.15s ease;
+}
+
+.kids .bee-opts button:hover:not(:disabled),
+.kids .choice:hover:not(:disabled) {
+  background: #fff;
+  transform: translateY(-2px);
+}
+
+.kids .bee-opts button:disabled,
+.kids .choice:disabled {
+  opacity: 0.55;
+  cursor: default;
+  transform: none;
+}
+
+/* shared correct / wrong answer states */
+.kids .q-correct {
+  background: var(--kids-tint-green) !important;
+  border-color: var(--kids-state-green) !important;
+  color: var(--kids-state-green-deep) !important; /* 7.2:1 on tint */
+}
+
+.kids .q-wrong {
+  background: var(--kids-tint-red) !important;
+  border-color: var(--kids-state-red) !important;
+  color: var(--kids-state-red-deep) !important; /* 6.9:1 on tint */
+}
+
+.kids .choices {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-block: 1rem;
+}
+
+/* ------------------------------------------------------------ quest route -- */
+.kids .quest {
+  margin-block: 2rem;
+}
+
+.kids .quest-route {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.kids .quest-route li {
+  display: flex;
+  align-items: center;
+}
+
+/* dotted connector lines between stops (logical margins: RTL-safe) */
+.kids .quest-route li + li::before {
+  content: "";
+  width: clamp(12px, 4vw, 40px);
+  border-top: 3px dotted var(--kids-gold-deep);
+  margin-inline: 6px;
+}
+
+.kids .quest-stop {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 3px solid var(--kids-lapis);
+  background: #fff;
+  color: var(--kids-lapis);
+  font-size: 0; /* icon-only circle; accessible name comes from aria-label */
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  box-shadow: 0 4px 12px rgba(27, 42, 74, 0.12);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.kids .quest-stop > span {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.kids .quest-stop:hover {
+  transform: scale(1.08);
+}
+
+.kids .quest-stop.done {
+  background: var(--kids-gold); /* lapis icon/text 5.9:1 */
+  border-color: var(--kids-gold-deep);
+}
+
+.kids .quest-stop.now {
+  border-color: var(--kids-gold-deep);
+  animation: kids-pulse 1.8s ease-out infinite;
+}
+
+/* -------------------------------------------------------------- stop card -- */
+.kids .stop-card {
+  background: #fff;
+  border-radius: var(--kids-radius);
+  box-shadow: 0 8px 26px rgba(27, 42, 74, 0.12);
+  padding: 1.75rem;
+  margin-block: 1.5rem;
+}
+
+.kids .stop-card h2 {
+  margin-block-start: 0;
+}
+
+.kids .story {
+  font-size: 1.15rem;
+  line-height: 1.9;
+}
+
+.kids .quest-q {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-block: 1.25rem 0.5rem;
+}
+
+.kids .quest-feedback {
+  background: var(--kids-tint-gold);
+  color: var(--kids-ink); /* 13.1:1 on tint */
+  border-radius: 1.25rem;
+  border: 2px solid var(--kids-gold-deep);
+  padding: 1.25rem;
+  margin-block: 1.25rem;
+}
+
+.kids .stop-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.kids .value-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--kids-teal); /* white text 4.9:1 */
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.5rem 1.1rem;
+  font-weight: 700;
+}
+
+.kids .done-msg {
+  background: var(--kids-tint-green);
+  color: var(--kids-state-green-deep); /* 7.2:1 */
+  border-radius: 1rem;
+  padding: 0.9rem 1.25rem;
+  font-weight: 700;
+}
+
+.kids .stars-line {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--kids-gold-deep); /* 4.7:1 on paper */
+  margin-block: 1rem;
+}
+
+/* ----------------------------------------------------------------- finale -- */
+.kids .finale {
+  background: linear-gradient(135deg, #f2cf5c 0%, #d9a92e 100%);
+  color: var(--kids-lapis); /* >= 6.5:1 across the gradient */
+  border-radius: var(--kids-radius);
+  padding: 2.5rem 2rem;
+  text-align: center;
+  margin-block: 2rem;
+  box-shadow: 0 10px 30px rgba(27, 42, 74, 0.18);
+}
+
+.kids .finale h2 {
+  color: var(--kids-lapis);
+  font-size: 1.9rem;
+  margin-block: 0.75rem;
+}
+
+.kids .finale p {
+  font-size: 1.15rem;
+  max-width: 52ch;
+  margin-inline: auto;
+}
+
+/* --------------------------------------------------------------- grownups -- */
+.kids .grownups {
+  font-size: 0.95rem;
+  color: var(--kids-ink-soft);
+  margin-block: 2rem;
+  border-top: 2px dashed var(--kids-gold-deep);
+  padding-block-start: 1rem;
+}
+
+.kids .grownups summary {
+  font-weight: 700;
+  color: var(--kids-ink);
+  cursor: pointer;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+/* ------------------------------------------------------------ entry cards -- */
+.kids .entries {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr;
+  margin-block: 2rem;
+}
+
+@media (min-width: 700px) {
+  .kids .entries {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.kids .entry-card {
+  display: block;
+  background: #fff;
+  color: var(--kids-ink); /* 13.1:1 */
+  text-decoration: none;
+  border-radius: var(--kids-radius);
+  box-shadow: 0 6px 20px rgba(27, 42, 74, 0.1);
+  padding: 20px;
+  border: 2px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.kids .entry-card:hover,
+.kids .entry-card:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(27, 42, 74, 0.16);
+  border-color: var(--kids-gold-deep);
+}
+
+.kids .entry-card h2 {
+  margin-block: 0 0.5rem;
+  font-size: 1.35rem;
+}
+
+.kids .entry-card p {
+  margin: 0;
+  color: var(--kids-ink-soft);
+}
+
+/* --------------------------------------------------------------- breadcrumbs -- */
+.kids .crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--kids-ink-soft);
+  margin-block: 0 1rem;
+}
+
+.kids .crumbs a {
+  color: var(--kids-gold-deep); /* 4.7:1 on paper */
+  text-decoration: none;
+  border-bottom: 2px solid var(--kids-gold);
+  font-weight: 700;
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.kids .crumbs [aria-current] {
+  color: var(--kids-ink);
+  font-weight: 800;
+}
+
+/* direction-appropriate separators */
+.kids .crumbs > * + *::before {
+  content: "\203A"; /* › in LTR */
+  margin-inline-end: 0.5rem;
+  color: var(--kids-ink-soft);
+}
+
+html[dir="rtl"] .kids .crumbs > * + *::before {
+  content: "\2039"; /* ‹ in RTL */
+}
+
+/* gold "coming soon" tone for the site-wide .chip inside kids pages */
+.kids .chip {
+  background: var(--kids-tint-gold);
+  color: var(--kids-ink);
+  border: 1px solid var(--kids-gold-deep);
+}
+
+/* ==========================================================================
+   Kids topbar — rendered by BaseLayout.astro in the SITE HEADER, so these
+   are deliberately NOT scoped under .kids. Tokens come from the `:root` block.
+   ========================================================================== */
+.kids-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--kids-paper);
+  border-bottom: 3px solid var(--kids-gold);
+}
+
+.kids-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--kids-lapis); /* 13.2:1 on paper */
+  text-decoration: none;
+}
+
+.kids-back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding-block: 8px;
+  padding-inline: 20px;
+  background: var(--kids-gold-deep); /* white text 5.1:1 */
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+a.kids-back:visited {
+  color: #fff;
+}
+
+/* main-nav entry to the kids' wing: easy for parents to spot */
+.kids-link {
+  color: var(--kids-gold-deep) !important; /* 4.7:1 on paper */
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--kids-gold);
+}
+
+/* ==========================================================================
+   Focus visibility — lapis outline + gold halo everywhere;
+   white outline variant on dark panels.
+   ========================================================================== */
+.kids a:focus-visible,
+.kids button:focus-visible,
+.kids summary:focus-visible,
+.kids input:focus-visible,
+.kids [tabindex]:focus-visible,
+.kids-topbar a:focus-visible,
+.kids-topbar button:focus-visible,
+.kids-link:focus-visible {
+  outline: 3px solid var(--kids-lapis);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px rgba(201, 162, 39, 0.55);
+  border-radius: 0.5rem;
+}
+
+.kids .kids-hero a:focus-visible,
+.kids .kids-hero button:focus-visible {
+  outline-color: #fff; /* 14.2:1 on lapis */
+}
+
+/* ==========================================================================
+   Keyframes (all prefixed `kids-`)
+   ========================================================================== */
+@keyframes kids-pop {
+  0% { transform: scale(0.6); }
+  60% { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+
+@keyframes kids-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(135, 106, 24, 0.55); }
+  70% { box-shadow: 0 0 0 14px rgba(135, 106, 24, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(135, 106, 24, 0); }
+}
+
+@keyframes kids-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+/* ================================================== reduced motion ====== */
+@media (prefers-reduced-motion: reduce) {
+  .kids *,
+  .kids *::before,
+  .kids *::after,
+  .kids-topbar *,
+  .kids-topbar *::before,
+  .kids-topbar *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ============================================================ print ====== */
+@media print {
+  .kids .age-band,
+  .kids .kids-btn,
+  .kids .flower,
+  .kids .bee-opts,
+  .kids .quest-stop,
+  .kids .choice,
+  .kids-back {
+    display: none !important;
+  }
+
+  .kids .bloom-panel {
+    display: block !important;
+  }
+
+  .kids .kids-hero {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+  }
+
+  .kids .kids-hero::before,
+  .kids .kids-hero::after {
+    display: none;
+  }
+
+  .kids .kids-hero h1,
+  .kids .kids-hero h2 {
+    color: #000;
+  }
+}
+
+/* =========================================================== mobile ====== */
+@media (max-width: 560px) {
+  .kids {
+    font-size: 1rem;
+  }
+
+  .kids .kids-hero {
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    gap: 1rem;
+  }
+
+  .kids .kids-hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .kids .kids-hero::before {
+    width: 64px;
+    height: 64px;
+    -webkit-mask: radial-gradient(circle 40px at 68% 30%, transparent 39px, #000 40px);
+    mask: radial-gradient(circle 40px at 68% 30%, transparent 39px, #000 40px);
+  }
+
+  .kids .stop-card,
+  .kids .entry-card,
+  .kids .bee-quiz {
+    padding: 1rem;
+    border-radius: 1.25rem;
+  }
+
+  .kids .verse-card {
+    font-size: 1.3rem;
+    padding: 1rem 1.25rem;
+  }
+
+  .kids .finale {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .kids-topbar {
+    padding: 10px 12px;
+  }
+
+  .kids-brand {
+    font-size: 1.1rem;
+  }
+
+  .kids .quest-route li + li::before {
+    width: 12px;
+  }
+}
