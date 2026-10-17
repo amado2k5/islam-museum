@@ -28,3 +28,6 @@ Source: Ibn al-'Imad al-Hanbali's annals (d. 1089), years 1–1000.
   Malikshah succession; never saw Baghdad; Abu Hanifa's dome) — p. 326-327.
 
 Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
+
+- **Batch 59 (Devin, 17 Oct 2026) — vol. 3 opened (AH 350–360).** New: `person/al-tabarani` + `work/al-mujam-{kabir,awsat,saghir}` (a major missing hadith scholar, d. 360 Isfahan), `person/ahmad-ibn-kamil` (al-Tabari's student, qadi of Kufa, d. 350), `person/al-hasan-ibn-ahmad-al-aasam` (the Qarmati), `event/killing-of-jafar-ibn-falah-360` (Fatimid governor vs Qarmati at Nahr Yazid), `event/killing-of-ziri-ibn-manad-360` (Ramadan 360 vs Ja'far al-Andalusi), `event/building-of-dar-al-sultana-350` (13M dirhams, ruins till ~600). Enriched: `ziri-ibn-manad` (+died), `abd-al-rahman-iii-al-nasir` (+died 350), `al-muti-billah` (+falij 360), `byzantine-capture-of-antioch-358` & `first-shii-observances-baghdad-352` (+source corroboration). Printed pages cited: 2–4, 28–30 (scan p = printed + 8).
+- Next: continue year-headers 361–390 (Buyid fitnas, Karmati pressure on Damascus, al-Aziz b. al-Mu'izz, early Hamdanids); skip obituary roll-calls except major scholars.

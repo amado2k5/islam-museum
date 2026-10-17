@@ -1,0 +1,22 @@
+id: event/killing-of-ziri-ibn-manad-360
+class: event
+kind: death
+label: { ar: "مقتل زيري بن مناد الصنهاجي" }
+summary:
+  ar: "في شهر رمضان سنة ستين وثلاثمائة قتل زيري بن مناد الصنهاجي جد المعزين بن باديس في حرب مع جعفر الأندلسي، إذ كانت بينهما عداوات وأحقاد أفضت إلى الحرب فلما تصافّا كبا بزيري فرسه فسقط إلى الأرض فقتل؛ وكان زيري أول من ملك من طائفته وهو الذي بنى مدينة أشير في إفريقية وحصّنها في أيام أبي يزيد الخارجي، وكان حسن السيرة شجاعاً صارماً وهو صاحب مدينة تاهرت {cite:shadharat-dhahab p. 29-30}."
+  en: "In Ramadan 360 Ziri b. Manad the Sanhaji — grandfather of the al-Mu'izz b. Badis line — was killed in his war with Ja'far al-Andalusi when his horse stumbled and he fell; founder and fortifier of Ashir under Abu Yazid's revolt, and lord of Tahert {cite:shadharat-dhahab p. 29-30}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+date:
+  start: { edtf: "0971~", hijri: "0360-09", calendar: julian, precision: month, status: tradition, derived: true, note: "شهر رمضان 360 {cite:shadharat-dhahab p. 30}." }
+relations:
+  - { type: had_participant, target: person/ziri-ibn-manad, role: "المقتول", sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/ashir, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-59
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

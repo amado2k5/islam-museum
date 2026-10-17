@@ -1,0 +1,22 @@
+id: event/building-of-dar-al-sultana-350
+class: event
+kind: founding
+label: { ar: "بناء معز الدولة دار السلطنة ببغداد" }
+summary:
+  ar: "في سنة خمسين وثلاثمائة بنى معز الدولة ببغداد دار السلطنة في غاية الحسن والكبر وغرّم عليها ثلاثة عشر ألف ألف درهم؛ وقد درست آثارها في حدود الستمائة وبقي مكانها دحلة تأوي إليها الوحوش وبعض أساسها موجود فإنه حفر لها في الأساسات ثلاثاً وثلاثين ذراعاً {cite:shadharat-dhahab p. 2}."
+  en: "In 350 Mu'izz al-Dawla built Baghdad's Dar al-Saltana at a cost of thirteen million dirhams; by c. 600 AH its traces had faded to a foxes' den, though parts of its thirty-three-cubit foundations still stood {cite:shadharat-dhahab p. 2}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0961~", hijri: "0350", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 350 {cite:shadharat-dhahab p. 2}." }
+relations:
+  - { type: had_participant, target: person/muizz-al-dawla, role: "الباني", sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-59
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
