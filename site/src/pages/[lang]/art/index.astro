@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import ExploreBar from "../../../components/ExploreBar.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import items from "../../../data/architecture-art.json";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const groups = [
+  { key: "architecture", title: T.art.group_architecture },
+  { key: "patterns", title: T.art.group_patterns },
+  { key: "art", title: T.art.group_art },
+];
+const labelFor = (i: (typeof items)[number]) => i.label[lang as "ar" | "en"] ?? i.label.ar;
+---
+<BaseLayout lang={lang} title={T.art.title} description={T.art.lede} path={`/${lang}/art/`}>
+  <PageHeader title={T.art.title} lede={T.art.lede} crumbs={[{ label: T.entity.breadcrumb, href: `/${lang}/` }, { label: T.art.title }]} crumbsLabel={T.entity.breadcrumb} />
+  <div class="wrap" style="padding-block:24px 20px">
+    <p class="panel ui">{T.art.disclaimer}</p>
+    {items.length === 0 ? <p class="panel ui">{T.art.empty}</p> : groups.map((g) => (
+      <section aria-labelledby={`art-${g.key}`} style="margin-top:32px">
+        <h2 id={`art-${g.key}`}>{g.title}</h2>
+        <ul class="grid-cards">
+          {items.filter((i) => i.group === g.key).map((i) => (
+            <li>
+              <figure class="card" style="margin:0">
+                <img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;border-radius:8px" />
+                <figcaption style="padding-top:8px">
+                  <strong>{labelFor(i)}</strong>
+                  <span class="ui muted" style="display:block;font-size:.85rem">{T.art.badge}</span>
+                </figcaption>
+              </figure>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+  <ExploreBar lang={lang} />
+</BaseLayout>
