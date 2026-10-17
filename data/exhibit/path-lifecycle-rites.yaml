@@ -1,0 +1,76 @@
+id: exhibit/path-lifecycle-rites
+class: exhibit
+kind: trail
+label:
+  ar: شعائر العمر
+  en: Rites of the Lifetime
+summary:
+  ar: 'مسار في شعائر الدورة الكاملة: العقيقة عند الميلاد، والنكاح عند البناء، والغسل والصلاة عند الرحيل.'
+  en: A trail through the whole lifecycle.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: العقيقة
+    en: Aqiqa
+  body:
+    ar: 'ذبيحة المولود: شكر وحلاقة وصدقة.'
+    en: 'ذبيحة المولود: شكر وحلاقة وصدقة.'
+  features:
+  - practice/aqiqa
+  - practice/dua
+- title:
+    ar: النكاح
+    en: Nikah
+  body:
+    ar: 'الزواج عقد وشهود ووليمة: نصف الدين.'
+    en: 'الزواج عقد وشهود ووليمة: نصف الدين.'
+  features:
+  - practice/nikah
+  - concept/adab
+- title:
+    ar: المرض
+    en: Illness
+  body:
+    ar: 'عيادة المريض والدعاء: شعائر المرض.'
+    en: 'عيادة المريض والدعاء: شعائر المرض.'
+  features:
+  - practice/dua
+  - concept/sabr
+- title:
+    ar: الغسل
+    en: Washing
+  body:
+    ar: 'غسل الميت: آخر خدمة يقدمها المجتمع.'
+    en: 'غسل الميت: آخر خدمة يقدمها المجتمع.'
+  features:
+  - practice/ghusl-al-janaza
+  - practice/salat-al-janaza
+- title:
+    ar: الجنازة
+    en: Janaza
+  body:
+    ar: 'الصلاة والدفن والعزاء: الختام.'
+    en: 'الصلاة والدفن والعزاء: الختام.'
+  features:
+  - practice/salat-al-janaza
+  - concept/akhira
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

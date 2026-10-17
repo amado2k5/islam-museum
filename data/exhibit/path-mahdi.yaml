@@ -1,0 +1,67 @@
+id: exhibit/path-mahdi
+class: exhibit
+kind: trail
+label:
+  ar: المهدي المنتظر
+  en: The Awaited Mahdi
+summary:
+  ar: 'مسار في موعود آخر الزمان: روايات المهدي في كتب السنة، ودولتان ادعتا الاسم، والمفهوم عبر العصور.'
+  en: A trail through the awaited one.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: المفهوم
+    en: The concept
+  body:
+    ar: 'المهدي في أهل السنة: خليفة آخر الزمان.'
+    en: 'المهدي في أهل السنة: خليفة آخر الزمان.'
+  features:
+  - concept/mahdiyya
+  - concept/akhira
+- title:
+    ar: الدولة المهدية
+    en: The Mahdiyya
+  body:
+    ar: 'السودان 1885: دولة باسم الموعود.'
+    en: 'السودان 1885: دولة باسم الموعود.'
+  features:
+  - concept/mahdiyya
+  - concept/mahdiyya
+- title:
+    ar: الفاطميون
+    en: The Fatimids
+  body:
+    ar: 'عبيد الله المهدي: أول الخلفاء.'
+    en: 'عبيد الله المهدي: أول الخلفاء.'
+  features:
+  - polity/fatimid-caliphate
+  - person/al-muizz-li-din-allah
+- title:
+    ar: آخر الزمان
+    en: The last days
+  body:
+    ar: 'علامات الساعة: بطاقات السنة.'
+    en: 'علامات الساعة: بطاقات السنة.'
+  features:
+  - concept/akhira
+  - passage/muslim-0008
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
