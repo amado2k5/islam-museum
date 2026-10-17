@@ -201,7 +201,7 @@ Average sources per entity: **1.16** · Women share of persons with a recorded g
 
 | Key | Count |
 |---|---|
-| en | 17498 |
+| en | 17648 |
 | ar | 19082 |
 | ur | 0 |
 
