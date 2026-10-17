@@ -1,0 +1,77 @@
+id: exhibit/path-fatimid-cairo
+class: exhibit
+kind: trail
+label:
+  ar: القاهرة الفاطمية
+  en: Fatimid Cairo
+summary:
+  ar: 'مسار في دولة الفاطميين: جوهر الصقلي يبني القاهرة، والمعز يدخلها، والأزهر يُفتتح، والحاكم في أقصى
+    العهد.'
+  en: A trail through the Fatimid state.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: جوهر
+    en: Jawhar
+  body:
+    ar: القائد الصقلي يفتح مصر ويؤسس القاهرة 969.
+    en: القائد الصقلي يفتح مصر ويؤسس القاهرة 969.
+  features:
+  - person/jawhar-al-siqilli
+  - place/cairo
+- title:
+    ar: المعز
+    en: Al-Mu'izz
+  body:
+    ar: الخليفة ينتقل من المغرب إلى عاصمته الجديدة.
+    en: الخليفة ينتقل من المغرب إلى عاصمته الجديدة.
+  features:
+  - person/al-muizz-li-din-allah
+  - polity/fatimid-caliphate
+- title:
+    ar: الأزهر
+    en: Al-Azhar
+  body:
+    ar: 'جوهر يبني الجامع: ألف سنة من العلم.'
+    en: 'جوهر يبني الجامع: ألف سنة من العلم.'
+  features:
+  - building/al-azhar
+  - place/cairo
+- title:
+    ar: الحاكم
+    en: Al-Hakim
+  body:
+    ar: 'أشهر الخلفاء إثارة للجدل: عصره وأخباره.'
+    en: 'أشهر الخلفاء إثارة للجدل: عصره وأخباره.'
+  features:
+  - person/al-hakim-bi-amr-allah
+  - place/cairo
+- title:
+    ar: الأيوبيون
+    en: The Ayyubids
+  body:
+    ar: صلاح الدين ينهي الدولة ويعيد السنة.
+    en: صلاح الدين ينهي الدولة ويعيد السنة.
+  features:
+  - polity/ayyubid-dynasty
+  - place/cairo
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,76 @@
+id: exhibit/path-ansar
+class: exhibit
+kind: trail
+label:
+  ar: الأنصار
+  en: The Ansar
+summary:
+  ar: 'مسار في أهل المدينة الذين آووا: بيعة العقبة، وسعد بن معاذ وسعد بن عبادة سيدا الأوس والخزرج، وحسان
+    شاعر الرسول.'
+  en: A trail through the people of Medina.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: البيعة
+    en: The pledge
+  body:
+    ar: 'العقبة: المدينة تفتح بابها للدعوة.'
+    en: 'العقبة: المدينة تفتح بابها للدعوة.'
+  features:
+  - place/medina
+  - place/medina
+- title:
+    ar: سعد بن معاذ
+    en: Sa'd ibn Mu'adh
+  body:
+    ar: 'سيد الأوس: حكمه في قريظة وموته الشهيد.'
+    en: 'سيد الأوس: حكمه في قريظة وموته الشهيد.'
+  features:
+  - person/sad-ibn-muadh
+  - passage/bukhari-3803
+- title:
+    ar: سعد بن عبادة
+    en: Sa'd ibn Ubada
+  body:
+    ar: 'سيد الخزرج: سقيفة بني ساعدة.'
+    en: 'سيد الخزرج: سقيفة بني ساعدة.'
+  features:
+  - person/sad-ibn-ubada
+  - place/medina
+- title:
+    ar: عبادة بن الصامت
+    en: Ubada ibn al-Samit
+  body:
+    ar: من نقباء العقبة ومعلمي القرآن.
+    en: من نقباء العقبة ومعلمي القرآن.
+  features:
+  - person/ubada-ibn-al-samit
+- title:
+    ar: حسان
+    en: Hassan
+  body:
+    ar: 'شاعر الرسول: المنبر والمديح والمراثي.'
+    en: 'شاعر الرسول: المنبر والمديح والمراثي.'
+  features:
+  - person/hassan-ibn-thabit
+  - work/hassan-poem-enumerating-the-maghazi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
