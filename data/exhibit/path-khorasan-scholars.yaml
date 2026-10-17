@@ -1,0 +1,68 @@
+id: exhibit/path-khorasan-scholars
+class: exhibit
+kind: trail
+label:
+  ar: 'خراسان: أرض العلماء'
+  en: Khorasan
+summary:
+  ar: 'مسار في إقليم أنجب الحديث: بخارى للبخاري، ونيسابور لمسلم، وترمذ — جيل الصحاح.'
+  en: A trail through the land that bore the hadith masters.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: بخارى
+    en: Bukhara
+  body:
+    ar: 'مولد البخاري: الصحيح الأول.'
+    en: 'مولد البخاري: الصحيح الأول.'
+  features:
+  - place/bukhara
+  - person/al-bukhari
+  - work/sahih-al-bukhari
+- title:
+    ar: نيسابور
+    en: Nishapur
+  body:
+    ar: 'مسلم والحاكم: مدرسة الحديث الكبرى.'
+    en: 'مسلم والحاكم: مدرسة الحديث الكبرى.'
+  features:
+  - place/nishapur
+  - person/muslim-ibn-al-hajjaj
+- title:
+    ar: ترمذ وما وراء النهر
+    en: Tirmidh
+  body:
+    ar: 'الترمذي وعلماء النهر: حديث وأصول.'
+    en: 'الترمذي وعلماء النهر: حديث وأصول.'
+  features:
+  - person/al-tirmidhi-muhammad-ibn-isa
+  - place/samarqand
+- title:
+    ar: الفلاسفة
+    en: The philosophers
+  body:
+    ar: 'ابن سينا والبيروني: فلسفة وفلك.'
+    en: 'ابن سينا والبيروني: فلسفة وفلك.'
+  features:
+  - person/ibn-sina
+  - person/al-biruni-muhammad-ibn-ahmad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

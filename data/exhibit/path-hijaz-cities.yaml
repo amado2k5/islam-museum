@@ -1,0 +1,75 @@
+id: exhibit/path-hijaz-cities
+class: exhibit
+kind: trail
+label:
+  ar: الحجاز
+  en: The Hijaz
+summary:
+  ar: 'مسار في إقليم البعثة: مكة والمدينة حرمان، والطائف وجدة بوابتان.'
+  en: A trail through the cradle province.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: مكة
+    en: Mecca
+  body:
+    ar: 'البلد الأمين: البيت والمشاعر.'
+    en: 'البلد الأمين: البيت والمشاعر.'
+  features:
+  - place/mecca
+  - building/masjid-al-haram
+- title:
+    ar: الطائف
+    en: Taif
+  body:
+    ar: 'مدينة الورد: رحلة النبي إليها 619.'
+    en: 'مدينة الورد: رحلة النبي إليها 619.'
+  features:
+  - place/taif
+  - event/battle-of-hunayn
+- title:
+    ar: جدة
+    en: Jeddah
+  body:
+    ar: 'بوابة الحرم البحرية: ميناء الحجاج ألف سنة.'
+    en: 'بوابة الحرم البحرية: ميناء الحجاج ألف سنة.'
+  features:
+  - place/jeddah
+- title:
+    ar: المدينة
+    en: Medina
+  body:
+    ar: 'طيبة الطيبة: دار الهجرة والمسجد.'
+    en: 'طيبة الطيبة: دار الهجرة والمسجد.'
+  features:
+  - place/medina
+  - building/prophets-mosque
+- title:
+    ar: الطريق
+    en: The road
+  body:
+    ar: 'بدر جنوبًا وأحد شمالًا: مواقع السيرة على الخريطة.'
+    en: 'بدر جنوبًا وأحد شمالًا: مواقع السيرة على الخريطة.'
+  features:
+  - event/badr-battle-day
+  - place/uhud
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

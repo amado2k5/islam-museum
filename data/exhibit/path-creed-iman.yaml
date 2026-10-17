@@ -1,0 +1,76 @@
+id: exhibit/path-creed-iman
+class: exhibit
+kind: trail
+label:
+  ar: الإيمان وأركانه
+  en: Iman and Its Pillars
+summary:
+  ar: 'مسار في عقيدة المسلم: الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر.'
+  en: A trail through the creed.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: التوحيد
+    en: Tawhid
+  body:
+    ar: 'لا إله إلا الله: أساس العقيدة كلها.'
+    en: 'لا إله إلا الله: أساس العقيدة كلها.'
+  features:
+  - question/what-is-tawhid
+  - question/what-is-shahada
+- title:
+    ar: الملائكة
+    en: The angels
+  body:
+    ar: 'جبرائيل وميكائيل وإسرافيل: عالم الغيب.'
+    en: 'جبرائيل وميكائيل وإسرافيل: عالم الغيب.'
+  features:
+  - question/what-are-angels
+  - question/what-are-jinn
+- title:
+    ar: الكتب والرسل
+    en: Books and messengers
+  body:
+    ar: 'التوراة والإنجيل والقرآن: سلسلة الوحي.'
+    en: 'التوراة والإنجيل والقرآن: سلسلة الوحي.'
+  features:
+  - question/what-is-the-quran
+  - exhibit/path-prophets-story
+- title:
+    ar: اليوم الآخر
+    en: The Last Day
+  body:
+    ar: الموت والبرزخ والبعث والحساب.
+    en: الموت والبرزخ والبعث والحساب.
+  features:
+  - question/what-is-the-afterlife
+  - question/what-is-barzakh
+- title:
+    ar: القدر
+    en: Qadar
+  body:
+    ar: 'خيره وشره من الله: الإيمان بالمقادير.'
+    en: 'خيره وشره من الله: الإيمان بالمقادير.'
+  features:
+  - question/what-is-qadar
+  - concept/imama
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
