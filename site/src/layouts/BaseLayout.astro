@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import { ui, other, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
+import { truncateDesc } from "../lib/meta";
 import { wingCountLabel, explorePages } from "../lib/nav";
 import { SHOP } from "../lib/links";
 import { BROWSE_CLASSES, browseSegment } from "../lib/browse";
@@ -17,7 +18,7 @@ interface Props { lang: Lang; title: string; description?: string; path: string;
 const { lang, title, description, path, jsonld, alternates, ogType = "website", noindex, kids = false } = Astro.props;
 const T = ui(lang);
 const fullTitle = path === `/${lang}/` ? `${T.name} · ${T.tagline}` : `${title} · ${T.name}`;
-const desc = description ?? T.landing.meta_description ?? T.landing.lede;
+const desc = truncateDesc(description ?? T.landing.meta_description ?? T.landing.lede);
 const canonical = `${SITE}${path}`;
 const alt = alternates ?? Object.fromEntries(LANGS.map((l) => [l, path.replace(`/${lang}/`, `/${l}/`)]));
 const multilingual = LANGS.length > 1;
