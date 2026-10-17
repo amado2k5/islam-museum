@@ -1,0 +1,66 @@
+id: exhibit/path-cairo-buildings
+class: exhibit
+kind: trail
+label:
+  ar: عمارة القاهرة
+  en: Cairo's Architecture
+summary:
+  ar: 'مسار في مدينة الألف مئذنة: ابن طولون والأزهر ومجمع قلاوون وشارع المعز.'
+  en: A trail through the city of a thousand minarets.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: ابن طولون
+    en: Ibn Tulun
+  body:
+    ar: '876: أقدم مسجد قائم في مصر بمنارة حلزونية.'
+    en: '876: أقدم مسجد قائم في مصر بمنارة حلزونية.'
+  features:
+  - building/masjid-ibn-tulun
+  - place/cairo
+- title:
+    ar: الأزهر
+    en: Al-Azhar
+  body:
+    ar: جامع الفاطميين يصير جامعة العالم.
+    en: جامع الفاطميين يصير جامعة العالم.
+  features:
+  - building/al-azhar
+  - building/dar-al-hikma-cairo
+- title:
+    ar: قلاوون
+    en: Qalawun
+  body:
+    ar: '1284: المدرسة والبيمارستان والقبة.'
+    en: '1284: المدرسة والبيمارستان والقبة.'
+  features:
+  - building/qalawun-complex
+- title:
+    ar: الشوارع
+    en: The streets
+  body:
+    ar: 'شارع المعز: أعظم متحف عمارة مفتوح.'
+    en: 'شارع المعز: أعظم متحف عمارة مفتوح.'
+  features:
+  - place/cairo
+  - building/al-azhar
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
