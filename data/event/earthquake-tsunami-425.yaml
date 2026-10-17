@@ -1,0 +1,21 @@
+id: event/earthquake-tsunami-425
+class: event
+kind: disaster-relief
+label: { ar: "زلزلة الرملة وارتداد البحر سنة 425" }
+summary:
+  ar: "في سنة خمس وعشرين وأربعمائة هبّت ريح سوداء بنصيبين فقلعت من بساتينها كثيراً ورمت قصراً مبنياً بآجر وحجارة وكلس، ووقع برد في أشكال الأكف والعواميد والأصابع، وزُلزلت الرملة فهُدم نحو نصفها وخُسف بقرى وسقط بعض حائط بيت المقدس وسقطت منارة جامع عسقلان، وجزر البحر نحو ثلاثة فراسخ فخرج الناس يتتبّعون السمك والصدف فعاد الماء فأخذ قوماً منهم {cite:shadharat-dhahab p. 228}."
+  en: "In 425 a black wind tore through Nisibis uprooting orchards and throwing down a masonry palace, hail fell in shapes like hands, pillars and fingers, an earthquake ruined half of Ramla, villages were swallowed, part of the wall of Bayt al-Maqdis fell and Ascalon's congregational-mosque minaret collapsed, and the sea drew back some three farsakhs before returning to take people who had gone out gathering fish and shells {cite:shadharat-dhahab p. 228}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1033~", hijri: "0425", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 425 {cite:shadharat-dhahab p. 228}." }
+relations:
+  - { type: occurred_at, target: place/ramla, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-92
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

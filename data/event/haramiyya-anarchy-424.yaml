@@ -1,0 +1,21 @@
+id: event/haramiyya-anarchy-424
+class: event
+kind: other
+label: { ar: "تسلّط الحرامية على بغداد" }
+summary:
+  ar: "في سنة أربع وعشرين وأربعمائة اشتد الخطب ببغداد بأمر الحرامية وأخذوا أموال الناس عياناً وقتلوا مساحب الشرطة وأخذوا لتاجر ما قيمته عشرة آلاف دينار، حتى نقّب الناس — لا يحسبون أن يقدر أحد على ذلك — خوفاً من أميرهم البرجمي الذي اشتهر أنه لا ينعرض لامرأة ولا يدع أحداً يأخذ عليها؛ ثم في سنة ست وعشرين زاد بلاء الحرامية وجاهروا بأخذ الأموال وإظهار الفسق والفجور والإفطار في رمضان حتى تملّكوا بغداد في المعنى {cite:shadharat-dhahab p. 227, 230}."
+  en: "From 424 Baghdad fell to the 'thieves' — robbing openly, killing the police dragmen, taking ten thousand dinars' worth from one merchant — until the emir Burjumi, famed for never sparing a woman nor letting anyone take from her, hunted them down; by 426 the robbers were eating openly in Ramadan and held Baghdad in all but name {cite:shadharat-dhahab p. 227, 230}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1032~", hijri: "0424", calendar: julian, precision: year, status: tradition, derived: true, note: "ابتدأت سنة 424 واشتدت سنة 426 {cite:shadharat-dhahab p. 227, 230}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-92
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

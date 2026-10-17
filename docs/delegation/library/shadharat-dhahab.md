@@ -46,3 +46,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 91 — continue from سنة 419 (line ~5789) through ~450.
 - Batch 91 (Devin): AH 420–423 — the giant hail of al-Nu'maniyya, al-Uqhuwana battle & Salih b. Mirdas's death (first Mirdasid of Aleppo, killed Jumada I 420), Mas'ud's sword-entry of Isfahan 423; enriched Mahmud of Ghazna (b. Ashura night 361, d. Jumada I 421) and al-Qadir (d. 11 Dhu al-Hijja 422, caliphate 41y3m). 5 new + 2 enriched + 2 prose.
 - Next: batch 92 — continue from سنة 424 (~line 6150) through ~450.
+- Batch 92 (Devin): AH 424–427 — the 425 Ramla earthquake & sea-drawback, the haramiyya anarchy gripping Baghdad 424–426 (emir Burjumi), and obits: Ibn Shahid the Cordoban poet (d. 426), Abu Ishaq al-Tha'labi the mufassir (d. 427); al-Barqani enriched with the Shadharat death detail. 4 new + 1 enriched + 2 prose.
+- Next: batch 93 — continue from سنة 428 (line ~6306) through ~450.
