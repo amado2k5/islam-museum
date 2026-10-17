@@ -17,6 +17,7 @@ translations:
   ur: { text: "(اور) کہنے لگے کہ اباجان ہم تو دوڑنے اور ایک دوسرے سے آگے نکلنے میں مصروف ہوگئے اور یوسف کو اپنے اسباب کے پاس چھوڑ گئے تو اسے بھیڑیا کھا گیا۔ اور آپ ہماری بات کو گو ہم سچ ہی کہتے ہوں باور نہیں کریں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
+  - { type: mentions, target: person/yusuf, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
