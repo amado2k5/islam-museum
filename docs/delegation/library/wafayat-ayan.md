@@ -111,3 +111,15 @@ al-muhallab` (Muhallabid; Ziyad al-A'jam's dibaj satire), `abd-al-munim-ibn-ghul
 (Aleppine qari' settled Egypt 378; taught Makki b. Abi Talib; al-Tha'alibi's praise).
 Three remain undated per OCR — bodies lack death lines. validate 0 errors, 19,835
 entities.
+
+### Batch 26 (session 7, diff-of-set) — pushed
+
+Five records plus one enrichment from the v5 roster tail: `al-alusi-abu-said-
+al-muayyad` (the Iraq poet; Ibn Khallikan met him in 555 half-blind after the
+dungeon), `ibn-al-ardakhal` (b. 577 Mosul, d. 628 Mayyafariqin), `musa-ibn-abd-
+al-malik-al-isbahani` (d. 246; kharaj-divan chief; the Qadisiyya singing-girl
+story), `mansur-ibn-nuh` (Samanid amir d. 365; al-Razi's Mansuri dedicatee), and
+`mutarrif-ibn-al-shikhkhir` (the Basran ascetic-faqih d. ~87). `ibn-al-nabih`
+enriched with his 619 Nasibin death date. Roster-only names with no bodies
+(Ildikizids, Baraka b. al-Muqallad, Abu Jutha) noted but not created. validate
+0 errors, 19,840 entities.
