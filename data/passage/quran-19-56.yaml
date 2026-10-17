@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور کتاب میں ادریس کا بھی ذکر کرو۔ وہ بھی نہایت سچے نبی تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
+  - { type: mentions, target: person/idris, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

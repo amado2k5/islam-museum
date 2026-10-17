@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور (یہودی اور عیسائی) کہتے ہیں کہ یہودیوں اور عیسائیوں کے سوا کوئی بہشت میں نہیں جانے کا۔ یہ ان لوگوں کے خیالاتِ باطل ہیں۔ (اے پیغمبر ان سے) کہہ دو کہ اگر سچے ہو تو دلیل پیش کرو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-2 }
+  - { type: mentions, target: person/hud, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
