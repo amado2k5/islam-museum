@@ -1,0 +1,25 @@
+id: event/tughril-takes-rayy-435
+class: event
+kind: conquest
+label: { ar: "طغرلبك يستولي على الري" }
+summary:
+  ar: "في سنة خمس وثلاثين وأربعمائة استولى طغرلبك السلجوقي على الري وخسّر بها عسكره بالقتل والنهب حتى لم يبق بها إلا نحو ثلاثة آلاف نفس، وجاءت رسل طغرلبك إلى بغداد فأرسل الخليفةُ القادر بالله القاضيَ الماوردي إليه يذم له ما صنع في البلاد ويأمره بالإحسان إلى الرعية، فتلقّاه طغرلبك واحترمه إجلالاً لرسالة الخليفة {cite:shadharat-dhahab p. 254}."
+  en: "In 435 Tughril Beg the Seljuk seized al-Rayy, and his soldiery killed and plundered until barely three thousand souls were left in it; his envoys came to Baghdad, and the caliph al-Qadir sent the qadi al-Mawardi to censure the deed and command him to treat the subjects well — Tughril received al-Mawardi with honour, in deference to the caliph's letter {cite:shadharat-dhahab p. 254}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+sides:
+  - label: { ar: "طغرلبك السلجوقي" }
+    commanders: [person/tughrul-beg]
+  - label: { ar: "أهل الري" }
+date:
+  start: { edtf: "1043~", hijri: "0435", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 435 {cite:shadharat-dhahab p. 254}." }
+relations:
+  - { type: had_participant, target: person/al-mawardi, role: caliph-envoy, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-94
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

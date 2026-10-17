@@ -50,3 +50,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 93 — continue from سنة 428 (line ~6306) through ~450.
 - Batch 93 (Devin): AH 428–430 — obituary wave: al-Quduri (d. 5 Rajab 428), Ibn Manjuwayh (d. Muharram 428), Ibn Sina enriched (d. Ramadan 428 — washing, repentance, manumission detail), al-Talamanke & Ibn al-Saffar of Cordoba (d. 429), al-Qarrah of Herat (d. 429), al-Hawfi the grammarian (d. 430); Abu Imran al-Fasi enriched (d. Ramadan 430, kalam under Ibn al-Baqillani), Abu Nu'aym and the 430 Seljuk-takeover event sourced to Shadharat. 6 new + 4 enriched.
 - Next: batch 94 — سنة 431 (Dandanqan, line ~6712) through ~450.
+- Batch 94 (Devin): AH 431–436 — the great Tabriz earthquake (40k+ dead, 434), Tughril's sack of al-Rayy & al-Mawardi's caliphal embassy (435), Abu Kalijar's Baghdad entry with the triple drums (436); new persons: the qadi Muhammad b. Abbad (Abbadid founder), al-Azhari al-Sayrafi; enriched Mas'ud (killed by his amirs), Jalal al-Dawla (d. 435), Jahwar b. Muhammad (d. 435). 5 new + 3 enriched + 3 prose.
+- Next: batch 95 — سنة 436 (~line 6922) through ~450.
