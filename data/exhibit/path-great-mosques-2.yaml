@@ -1,0 +1,77 @@
+id: exhibit/path-great-mosques-2
+class: exhibit
+kind: trail
+label:
+  ar: الجوامع الكبرى
+  en: The Great Mosques
+summary:
+  ar: 'مسار في جوامع الأمصار: قرطبة والكوفة والقيروان وديار بكر والنوري — أقدم الجوامع الباقية.'
+  en: A trail through the garrison-town mosques.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: قرطبة
+    en: Cordoba
+  body:
+    ar: 'الجامع الكبير: الغابة العمودية.'
+    en: 'الجامع الكبير: الغابة العمودية.'
+  features:
+  - building/great-mosque-cordoba
+  - place/cordoba
+- title:
+    ar: الكوفة
+    en: Kufa
+  body:
+    ar: 'جامع علي: أقدم جوامع العراق.'
+    en: 'جامع علي: أقدم جوامع العراق.'
+  features:
+  - building/great-mosque-of-kufa
+  - place/kufa
+- title:
+    ar: القيروان
+    en: Kairouan
+  body:
+    ar: 'جامع عقبة: أول جوامع المغرب.'
+    en: 'جامع عقبة: أول جوامع المغرب.'
+  features:
+  - building/jami-qayrawan
+  - place/qayrawan
+- title:
+    ar: ديار بكر
+    en: Diyarbakir
+  body:
+    ar: 'الجامع الكبير: خامس الحرمين.'
+    en: 'الجامع الكبير: خامس الحرمين.'
+  features:
+  - building/great-mosque-of-diyarbakir
+  - building/great-mosque-of-diyarbakir
+- title:
+    ar: النوري
+    en: Al-Nuri
+  body:
+    ar: 'حدباء الموصل: منارة نور الدين.'
+    en: 'حدباء الموصل: منارة نور الدين.'
+  features:
+  - building/great-mosque-of-al-nuri
+  - place/mosul
+  - person/nur-al-din-mahmud-ibn-zangi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
