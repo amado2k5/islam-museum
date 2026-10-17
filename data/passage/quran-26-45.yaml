@@ -17,6 +17,7 @@ translations:
   ur: { text: "پھر موسیٰ نے اپنی لاٹھی ڈالی تو وہ ان چیزوں کو جو جادوگروں نے بنائی تھیں یکایک نگلنے لگی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

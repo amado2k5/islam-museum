@@ -17,6 +17,8 @@ translations:
   ur: { text: "جو موسیٰ اور ہارون کا مالک ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
+  - { type: mentions, target: person/harun, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
