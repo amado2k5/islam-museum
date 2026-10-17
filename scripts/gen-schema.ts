@@ -279,7 +279,11 @@ const classProps: Record<string, { properties: any; required?: string[] }> = {
       revelation_order: intStr, revelation_place: enm(["meccan", "medinan"]),
       translations: { type: "object", additionalProperties: { type: "object", required: ["text"],
         properties: { text: str, translator: str, license: enm(licenses) } } },
-      audio: entityRefs, context: L },
+      audio: entityRefs,
+      // ordered isnad (commit 4d20f6f17): person refs only; the validator checks each one resolves
+      chain: { type: "array", description: "ordered isnad as stated in the source: first narrator nearest the work; person/muhammad is the terminal when the report reaches him (marfu'), otherwise the last element is the Companion the report stops at",
+        items: { type: "string", pattern: "^person/[a-z0-9][a-z0-9-]*$" }, minItems: 1 },
+      context: L },
     required: ["work", "ref"],
   },
   concept: {
