@@ -42,3 +42,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 89 — AH 378–400 leftovers were largely covered (Badi' al-Zaman, Hakim's Sepulchre, Tai deposition exist). Check 400–450 next (al-Qadir mid-reign, early Seljuks, Qushayri/ash'Ashari fitna at 469).
 - Batch 89 (Devin): AH 403–416 — Fulayta's Hajj-caravan massacre (~15k dead of thirst), al-Hakim's 405 women-confinement decree, Abu Hamid al-Isfarayini obit (d. 406), and the 416 Buyid succession collapse: Sultan Sharaf al-Dawla dead, Jalal al-Dawla vs Abu Kalijar, Baghdad anarchy. Baha' al-Dawla enriched (d. Jumada I 403, epilepsy). 8 new + 1 enriched + 3 prose; resolved stub person/abu-kalijar.
 - Next: batch 90 — continue from سنة 417 (line ~5571) through 450.
+- Batch 90 (Devin): AH 417–418 — Somnath raid (Mahmud's letter: Sha'ban 416, 30k horse, idol broken, ~50k dead), Jalal al-Dawla's khutba restored at Baghdad, plus obits: Abu Ishaq al-Isfarayini (d. Ashura 418, enriched), al-Lalaka'i (Sharh al-Sunna), Ibn al-Maghribi the vizier-poet, al-Qaffal al-Marwazi. 5 new + 1 enriched + 2 prose.
+- Next: batch 91 — continue from سنة 419 (line ~5789) through ~450.
