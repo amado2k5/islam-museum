@@ -1,0 +1,30 @@
+id: listing/bank-aljazira
+class: listing
+kind: company
+label:
+  ar: بنك الجزيرة
+  en: Bank Aljazira
+summary:
+  ar: مصرف سعودي كبير يقدم خدمات مصرفية متوافقة مع الشريعة منذ 1975.
+  en: Bank Aljazira.
+wings: []
+categories:
+- finance
+regions:
+- arabia
+founded:
+  edtf: '1975'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/wikidata
+external_ids:
+  wikidata: Q12199341
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16

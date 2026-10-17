@@ -1,0 +1,30 @@
+id: listing/bank-muamalat
+class: listing
+kind: company
+label:
+  ar: بنك معاملات
+  en: Bank Muamalat
+summary:
+  ar: ثاني بنك إسلامي في ماليزيا؛ تأسس 1999 بدمج ثلاث مؤسسات.
+  en: Bank Muamalat.
+wings: []
+categories:
+- finance
+regions:
+- southeast-asia
+founded:
+  edtf: '1999'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/wikidata
+external_ids:
+  wikidata: Q4855949
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16

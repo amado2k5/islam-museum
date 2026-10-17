@@ -1,0 +1,30 @@
+id: listing/alinma
+class: listing
+kind: company
+label:
+  ar: مصرف الإنماء
+  en: Alinma Bank
+summary:
+  ar: مصرف سعودي حديث تأسس 2006 بمرسوم ملكي؛ من أكبر المصارف الإسلامية في المملكة.
+  en: Alinma Bank.
+wings: []
+categories:
+- finance
+regions:
+- arabia
+founded:
+  edtf: '2006'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/wikidata
+external_ids:
+  wikidata: Q4120111
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16
