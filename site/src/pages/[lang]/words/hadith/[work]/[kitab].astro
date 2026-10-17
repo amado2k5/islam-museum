@@ -5,6 +5,7 @@ import BaseLayout from "../../../../../layouts/BaseLayout.astro";
 import PageHeader from "../../../../../components/PageHeader.astro";
 import { ui, LANGS, fmt, type Lang } from "../../../../../lib/i18n";
 import { byId, graph, href, labelOf, realNodes } from "../../../../../lib/graph";
+import { sunnahCollection, sunnahReport } from "../../../../../lib/sunnah";
 
 export function getStaticPaths() {
   const kitabs = realNodes.filter((n) => n.class === "passage" && n.data.unit === "chapter");
@@ -57,13 +58,16 @@ const desc = fmt(H.kitab_lede, { n: String(hadiths.length), name: labelOf(workNo
     wing="words"
   />
   <div class="wrap" style="padding-block:20px" data-pagefind-ignore>
-    <p class="ui" style="margin:0 0 16px"><a class="chip" href={href(lang, kitabNode.id)}>{H.kitab_page} →</a></p>
+    <p class="ui" style="margin:0 0 16px"><a class="chip" href={href(lang, kitabNode.id)}>{H.kitab_page} →</a>
+      {sunnahCollection(kitabNode.data.work) && <> <a class="chip" href={sunnahCollection(kitabNode.data.work)} rel="noopener">{T.hadith.on_sunnah} ↗</a></>}
+    </p>
     <ol class="hd-list">
       {hadiths.map((h) => (
         <li>
           <a href={href(lang, h.id)} class="hd-ref">{h.data.ref}</a>
           <a href={href(lang, h.id)}>{labelOf(h, lang)}</a>
           {(mentionsPerson.get(h.id) ?? []).slice(0, 4).map((p) => <a class="chip" href={href(lang, p.id)}>{labelOf(p, lang)}</a>)}
+          {sunnahReport(h.data.work, h.data.ref) && <a class="chip" href={sunnahReport(h.data.work, h.data.ref)} rel="noopener">Sunnah.com ↗</a>}
         </li>
       ))}
     </ol>
