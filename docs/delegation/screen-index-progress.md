@@ -114,3 +114,20 @@ Validation: 0 errors; prose total 14,600+ files. Remaining gap is
 duplicate. If the generator is rerun, keep the year-fallback from the
 slug suffix (50 records lack `released`) and verify wiki-link targets
 exist (place/samarkand→samarqand, event/the-hijra→hijra, etc.).
+
+## Passage prose (2026-10-16)
+
+Founder confirmed no lane was running passage prose, so this session
+closed the remaining 9,505 passage pages:
+
+- 6,350 `quran-*` (114 sura + 6,236 ayah): موجز with sura name/link,
+  meccan/medinan, ayah position, revelation order; revealed_about
+  links cited. No ayah text in prose (frozen Tanzil rule).
+- 3,155 hadith passages (muwatta/muslim/bukhari/arbaun): موجز reuses
+  the record's own summary.ar; موضعه section links part_of kitab,
+  mentions and basis_for targets.
+- Fix: removed a typed ﷺ from `passage/muwatta-6-932` data+prose.
+
+Generated from record fields only; deeper tafsir/isnad prose remains
+a future lane (the 41 pre-existing muwatta files show the target
+depth — OCR-sourced, page-cited).
