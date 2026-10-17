@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور یہ ہماری دلیل تھی جو ہم نے ابراہیم کو ان کی قوم کے مقابلے میں عطا کی تھی۔ ہم جس کے چاہتے ہیں درجے بلند کردیتے ہیں۔ بےشک تمہارا پروردگار دانا اور خبردار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
+  - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور (ویسی ہی) یہ کتاب ہے جسے ہم نے نازل کیا ہے بابرکت جو اپنے سے پہلی (کتابوں) کی تصدیق کرتی ہے اور (جو) اس لئے (نازل کی گئی ہے) کہ تم مکے اور اس کے آس پاس کے لوگوں کو آگاہ کردو۔ اور جو لوگ آخرت پر ایمان رکھتے ہیں وہ اس کتاب پر بھی ایمان رکھتے ہیں اور وہ اپنی نمازوں کی پوری خبر رکھتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
+  - { type: mentions, target: place/makkah, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

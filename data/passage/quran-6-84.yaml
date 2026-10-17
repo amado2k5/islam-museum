@@ -17,6 +17,14 @@ translations:
   ur: { text: "اور ہم نے ان کو اسحاق اور یعقوب بخشے۔ (اور) سب کو ہدایت دی۔ اور پہلے نوح کو بھی ہدایت دی تھی اور ان کی اولاد میں سے داؤد اور سلیمان اور ایوب اور یوسف اور موسیٰ اور ہارون کو بھی۔ اور ہم نیک لوگوں کو ایسا ہی بدلا دیا کرتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-6 }
+  - { type: mentions, target: person/ayyub, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/harun, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ishaq, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/sulayman, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/yaqub, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/yusuf, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
