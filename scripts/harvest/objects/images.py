@@ -123,7 +123,7 @@ def main():
                 m = met_media(obj, get(f"https://collectionapi.metmuseum.org/public/collection/v1/objects/{oid}"))
             elif "clevelandart.org/art/" in official:
                 acc = official.rstrip("/").rsplit("/", 1)[-1]
-                m = cleveland_media(obj, get(f"https://openaccess-api.clevelandart.org/api/artworks/{acc}"))
+                m = cleveland_media(obj, get(f"https://openaccess-api.clevelandart.org/api/artworks/{acc}").get("data", {}))
             elif "collections.vam.ac.uk/item/" in official:
                 oid = official.rstrip("/").rsplit("/", 1)[-1]
                 m = vam_media(obj, get(f"https://api.vam.ac.uk/v2/museumobject/{oid}"))
