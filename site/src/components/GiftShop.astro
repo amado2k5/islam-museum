@@ -7,17 +7,16 @@ import { SHOP, PATREON, PAYPAL, LAUNCHGOOD, GITHUB_SPONSORS } from "../lib/links
 const { lang } = Astro.props as { lang: Lang };
 const T = ui(lang);
 const L = T.landing;
-const CDN = "https://cdn.shopify.com/s/files/1/0795/3544/0040/collections/";
-// Category order follows the store's own navigation; each image is the collection's cover on the store.
+// Category order follows the store's own navigation; each image is the museum's own photograph in public/gift-shop/.
 const CATS: { key: keyof typeof L.shop_cats; file: string }[] = [
-  { key: "apparel", file: "apparel-clothing-collection.png?v=1792190329" },
-  { key: "art", file: "art-prints-calligraphy.png?v=1792190070" },
-  { key: "books", file: "books.png?v=1792190047" },
-  { key: "ceramics", file: "ceramics-pottery.png?v=1792190059" },
-  { key: "home", file: "home-d-cor.png?v=1792190020" },
-  { key: "jewelry", file: "jewelry-accessories.png?v=1792190037" },
-  { key: "kids", file: "kids-collection.png?v=1792190134" },
-  { key: "oud", file: "oud-miswak-islamic-heritage-collection.png?v=1792190394" },
+  { key: "apparel", file: "apparel.png" },
+  { key: "art", file: "art.png" },
+  { key: "books", file: "books.png" },
+  { key: "ceramics", file: "ceramics.png" },
+  { key: "home", file: "home.png" },
+  { key: "jewelry", file: "jewelry.png" },
+  { key: "kids", file: "kids.png" },
+  { key: "oud", file: "oud.png" },
 ];
 const GIVE = [
   { name: "Patreon", href: PATREON },
@@ -35,7 +34,7 @@ const GIVE = [
           {CATS.map((c) => (
             <li class="slide">
               <a class="card" href={SHOP} rel="noopener">
-                <img src={`${CDN}${c.file}&width=900`} alt={L.shop_cats[c.key]} loading="lazy" decoding="async" width="900" height="1125" />
+                <img src={`/gift-shop/${c.file}`} alt={L.shop_cats[c.key]} loading="lazy" decoding="async" />
                 <span class="cap">{L.shop_cats[c.key]}</span>
                 <span class="go ui">{L.shop_cta} <span class="flip" aria-hidden="true">→</span></span>
               </a>
