@@ -32,7 +32,7 @@ relations:
   - { type: corresponded_with, target: person/muhammad, start: { edtf: "0630~" }, note: "The sources preserve his letter proposing a partition of prophecy and Muhammad's reply.", sources: [source/tabari-donner-1993, source/ibn-sad-tabaqat-bewley] }
   - { type: fought, target: person/khalid-ibn-al-walid, start: { edtf: "0632" }, end: { edtf: "0632" }, sources: [source/tabari-donner-1993] }
   - { type: participated_in, target: event/battle-of-yamama, role: hanifa-commander, sources: [source/tabari-donner-1993] }
-  - { type: participated_in, target: event/delegation-of-banu-hanifa, role: وفد-member, note: "اختلفت الروايات في شأنه داخل الوفد: حضر مستوراً بالثياب أو خُلّف في الرحال (ابن إسحاق ص222-223).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
+  - { type: participated_in, target: event/delegation-of-banu-hanifa, role: عضو الوفد, note: "اختلفت الروايات في شأنه داخل الوفد: حضر مستوراً بالثياب أو خُلّف في الرحال (ابن إسحاق ص222-223).", sources: [source/ibn-hisham-saqqa, source/mubarakpuri-raheeq, source/sahih-al-bukhari] }
   - { type: participated_in, target: event/musaylima-claims-prophethood, role: "مدّعي النبوة", sources: [source/ibn-hisham-saqqa] }
   - { type: participated_in, target: event/musaylimas-letter-and-the-prophets-reply, role: "كاتب الرسالة", sources: [source/ibn-hisham-saqqa] }
   - { type: authored, target: work/letter-of-musaylima-to-the-prophet, sources: [source/ibn-hisham-saqqa] }
