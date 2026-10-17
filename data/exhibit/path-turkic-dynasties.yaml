@@ -1,0 +1,77 @@
+id: exhibit/path-turkic-dynasties
+class: exhibit
+kind: trail
+label:
+  ar: الأتراك في الإسلام
+  en: Turks in Islam
+summary:
+  ar: 'مسار في الشعوب التركية: الغزنويون والسلاجقة، والمماليك، والتيموريون، والعثمانيون — قرون حكمها الأتراك.'
+  en: A trail through the Turkic dynasties.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- anatolia-balkans
+rooms:
+- title:
+    ar: الغزنويون
+    en: Ghaznavids
+  body:
+    ar: محمود يحمل الإسلام إلى الهند.
+    en: محمود يحمل الإسلام إلى الهند.
+  features:
+  - polity/ghaznavid-empire
+  - place/lahore
+- title:
+    ar: السلاجقة
+    en: Seljuks
+  body:
+    ar: 'طغرل بك يحمي الخلافة: ملاذكرد والنظامية.'
+    en: 'طغرل بك يحمي الخلافة: ملاذكرد والنظامية.'
+  features:
+  - polity/seljuk-empire
+  - polity/rum-seljuk-sultanate
+- title:
+    ar: المماليك
+    en: Mamluks
+  body:
+    ar: عسكر الرقيق يصيرون سلاطين مصر والشام.
+    en: عسكر الرقيق يصيرون سلاطين مصر والشام.
+  features:
+  - person/qutuz
+  - person/baybars
+  - event/ayn-jalut-658
+- title:
+    ar: التيموريون
+    en: Timurids
+  body:
+    ar: 'تيمور وأحفاده: سمرقند عاصمة العالم.'
+    en: 'تيمور وأحفاده: سمرقند عاصمة العالم.'
+  features:
+  - polity/timurid-empire
+  - place/samarqand
+- title:
+    ar: العثمانيون
+    en: Ottomans
+  body:
+    ar: ستة قرون من بورصة إلى العالم.
+    en: ستة قرون من بورصة إلى العالم.
+  features:
+  - polity/ottoman-empire
+  - place/istanbul
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

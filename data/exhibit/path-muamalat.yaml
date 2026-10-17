@@ -1,0 +1,75 @@
+id: exhibit/path-muamalat
+class: exhibit
+kind: trail
+label:
+  ar: المعاملات
+  en: Mu'amalat
+summary:
+  ar: 'مسار في فقه المعاملة: البيع والربا والحلال، والنكاح والطلاق، والكفارات والنذور — أحكام الحياة اليومية.'
+  en: A trail through the fiqh of daily life.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: البيع
+    en: Trade
+  body:
+    ar: 'البيع حلال والربا حرام: فقه السوق.'
+    en: 'البيع حلال والربا حرام: فقه السوق.'
+  features:
+  - question/what-is-riba
+  - question/what-is-halal
+- title:
+    ar: الأسرة
+    en: The family
+  body:
+    ar: نكاح وطلاق وعدة ونفقة.
+    en: نكاح وطلاق وعدة ونفقة.
+  features:
+  - practice/nikah
+  - question/what-is-talaq
+  - practice/walima
+- title:
+    ar: الكفارات
+    en: Expiations
+  body:
+    ar: 'كفارة اليمين والصيام: تكفير الأيمان.'
+    en: 'كفارة اليمين والصيام: تكفير الأيمان.'
+  features:
+  - practice/kaffarat-al-yamin
+- title:
+    ar: النذر
+    en: Vows
+  body:
+    ar: 'نذر المال والعمل: التزام طوعي.'
+    en: 'نذر المال والعمل: التزام طوعي.'
+  features:
+  - practice/nadhr
+- title:
+    ar: الأطعمة
+    en: Food
+  body:
+    ar: 'ذبح وحلال: ما يؤكل وما لا يؤكل.'
+    en: 'ذبح وحلال: ما يؤكل وما لا يؤكل.'
+  features:
+  - question/what-is-halal
+  - practice/udhiyya
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
