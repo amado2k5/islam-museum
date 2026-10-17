@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import { compile } from "./build-graph";
 import { derive } from "./derive";
-import { edtfRange } from "./lib";
+import { clearRepoCache, edtfRange } from "./lib";
 import { hijriCeMismatch, hijriProblem, validateAll } from "./validate";
 import { p } from "./lib";
 import { scan } from "./check-static";
@@ -124,10 +124,12 @@ describe("the Qur'an text is frozen (docs/plan/15 §6.3 acceptance test 3)", () 
       // drop one combining mark from the text line (a one-character change)
       const lines = original.split("\n").map((l) => (l.startsWith("text: ") ? l.replace(/[ً-ْٰ]/, "") : l));
       writeFileSync(file, lines.join("\n"));
+      clearRepoCache();
       const errs = validateAll().issues.filter((i) => i.level === "error").map((i) => i.msg).join("\n");
       expect(errs).toMatch(/differs from the frozen Tanzil file/);
     } finally {
       writeFileSync(file, original);
+      clearRepoCache();
     }
     expect(validateAll().issues.filter((i) => i.level === "error")).toEqual([]);
   }, 120_000);
