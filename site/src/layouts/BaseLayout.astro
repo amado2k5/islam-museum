@@ -101,12 +101,14 @@ const EXPLORE = explorePages(lang);
               {WINGS.map((w) => <li><a href={wingHref(lang, w)}><span class="t">{T.wings[w].title}</span><span class="d">{wingCount(w)} — {T.wings[w].blurb}</span></a></li>)}
             </ul>
           </details>
-          <a class="top-link" href={`/${lang}/learn/`}>{T.nav.learn}</a>
           <details class="dd" data-dd>
             <summary>{T.nav.explore_menu}</summary>
             <ul class="dd-menu" role="list">
               {EXPLORE.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
               <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
+              <li><a href={`/${lang}/learn/`}><span class="t">{T.nav.learn}</span></a></li>
+              <li><a href={`/${lang}/3d/`}><span class="t"><span aria-hidden="true">🧊</span> {T.tour.nav_label}</span></a></li>
+              <li><a href={`/${lang}/sighar/`}><span class="t"><span aria-hidden="true">🪶</span> {T.kids.hub_title}</span></a></li>
             </ul>
           </details>
           <a class="top-link" href={`/${lang}/today/`}>{T.nav.today}</a>
@@ -116,12 +118,10 @@ const EXPLORE = explorePages(lang);
             <summary>{T.nav.more}</summary>
             <ul class="dd-menu" role="list">
               {[["screen", "screen"], ["exhibits", "exhibits"], ["questions", "questions"], ["themes", "themes"], ["references", "references"], ["coverage", "coverage"], ["foundation", "foundation"]].map(([seg, key]) => <li><a href={`/${lang}/${seg}/`}><span class="t">{T.nav[key]}</span></a></li>)}
+              <li><a href={`/${lang}/support/`}><span class="t">{T.support.title}</span></a></li>
+              <li><a href={SHOP} rel="noopener"><span class="t">{T.nav.gift_shop}</span></a></li>
             </ul>
           </details>
-          <a class="top-link" href={`/${lang}/support/`}>{T.support.title}</a>
-          <a class="top-link" href={SHOP} rel="noopener">{T.nav.gift_shop}</a>
-          <a class="top-link kids-link" href={`/${lang}/sighar/`}><span aria-hidden="true">🪶</span> {T.kids.hub_title}</a>
-          <a class="top-link tour-link" href={`/${lang}/3d/`}><span aria-hidden="true">🧊</span> {T.tour.nav_label}</a>
         </nav>
         <div class="nav-tools ui">
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>

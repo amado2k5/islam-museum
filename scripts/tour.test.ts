@@ -176,7 +176,7 @@ describe("3d tour: page, component and nav", () => {
 
   it("nav has the tour entry (way in)", () => {
     const layout = readFileSync(LAYOUT, "utf8");
-    expect(layout).toContain('class="top-link tour-link"');
+    expect(layout).toContain('href={`/${lang}/3d/`}');
     expect(layout).toContain("`/${lang}/3d/`");
     expect(layout).toContain("T.tour.nav_label");
   });
