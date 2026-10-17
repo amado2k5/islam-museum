@@ -167,7 +167,7 @@ Submitted to the Canadian Commission for UNESCO by Ahmed Abdelaal, founder, Oakv
 
 **Open data by design.**
 
-- **Licences.** Structured facts (`data/`, `geo/`, `datasets/`, `schema/`) are dedicated to the public domain under CC0 1.0 Universal. Prose (`content/`) is CC BY-SA 4.0. Code is MIT. Third-party media keep their own licences, recorded per item against a published whitelist.
+- **Licences.** Structured facts (`data/`, `geo/`, `datasets/`, `schema/`) are dedicated to the public domain under CC0 1.0 Universal. Prose (`content/`) is CC BY-SA 4.0. Code is MIT. Third-party media keep their own licences, recorded per item against a published whitelist and audited in `docs/outreach/media-licence-audit.md`; institution photographs that carry no open licence (187 from the V&A) are embedded by URL only, never copied, under the holder's own terms, and are not part of what the museum offers for reuse.
 - **Stable identifiers.** Every record has an immutable identifier of the form `class/slug`; renames are handled by aliases and redirects, so citations never break.
 - **Machine access.** A static JSON API (`/api/v1/<class>/<slug>.json` and per-class indexes), JSON-LD in every page using schema.org types with `sameAs` links to Wikidata, sitemaps, an `llms.txt` file and a public changelog. Data can be extracted wholesale by cloning the repository or record by record from the API, in non-proprietary formats.
 - **Dates with uncertainty.** Every dated fact carries an Extended Date/Time Format value, a Hijri string, the calendar used and a precision level; conversions are marked as derived. Nothing is invented: a date without two sources is flagged.
