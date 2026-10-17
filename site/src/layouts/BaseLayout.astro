@@ -3,6 +3,8 @@ import "../styles/global.css";
 import { ui, nextLang, LANGS, WINGS, wingHref, type Lang } from "../lib/i18n";
 import { SITE } from "../lib/graph";
 import { wingCountLabel, explorePages } from "../lib/nav";
+import { SHOP } from "../lib/links";
+import { BROWSE_CLASSES, browseSegment } from "../lib/browse";
 import Logo from "../components/Logo.astro";
 // Webfonts sit one hop behind the stylesheet, which delays first paint under throttled networks; the two faces above the fold
 // are preloaded so they fetch in parallel with the CSS instead.
@@ -111,6 +113,15 @@ const EXPLORE = explorePages(lang);
           </details>
           <a class="top-link" href={`/${lang}/today/`}>{T.nav.today}</a>
           <a class="top-link" href={`/${lang}/art/`}>{T.nav.art}</a>
+          <a class="top-link" href={`/${lang}/browse/`}>{T.nav.browse}</a>
+          <details class="dd" data-dd>
+            <summary>{T.nav.more}</summary>
+            <ul class="dd-menu" role="list">
+              {[["screen", "screen"], ["exhibits", "exhibits"], ["questions", "questions"], ["themes", "themes"], ["references", "references"], ["coverage", "coverage"], ["foundation", "foundation"]].map(([seg, key]) => <li><a href={`/${lang}/${seg}/`}><span class="t">{T.nav[key]}</span></a></li>)}
+            </ul>
+          </details>
+          <a class="top-link" href={`/${lang}/support/`}>{T.support.title}</a>
+          <a class="top-link" href={SHOP} rel="noopener">{T.nav.gift_shop}</a>
           <a class="top-link kids-link" href={`/${lang}/sighar/`}><span aria-hidden="true">🪶</span> {T.kids.hub_title}</a>
         </nav>
         <div class="nav-tools ui">
@@ -128,8 +139,9 @@ const EXPLORE = explorePages(lang);
     <footer class="site foot">
       <div class="wrap ui">
         <div class="fcols">
+          <div><h2>{T.footer.browse_all}</h2>{BROWSE_CLASSES.map((c) => <a href={`/${lang}/browse/${browseSegment(c)}/`}>{T.class[c]}</a>)}</div>
           <div><h2>{T.footer.about}</h2><a href={`/${lang}/foundation/`}>{T.nav.foundation}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/05-editorial.md" rel="noopener">{T.footer.editorial}</a><a href={`/${lang}/questions/`}>{T.footer.faq}</a><a href={`/${lang}/learn/`}>{T.nav.learn}</a></div>
-          <div><h2>{T.footer.resources}</h2><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href={`/${lang}/art/`}>{T.nav.art}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
+          <div><h2>{T.footer.resources}</h2><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href={`/${lang}/art/`}>{T.nav.art}</a><a href={`/${lang}/support/`}>{T.support.title}</a><a href={SHOP} rel="noopener">{T.nav.gift_shop}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
           <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.changelog}</a><a href="https://github.com/amado2k5/islam-museum/issues/new/choose" rel="noopener">{T.footer.report}</a><a href="https://github.com/amado2k5/islam-museum/discussions" rel="noopener">{T.footer.discuss}</a><span>{T.footer.privacy}</span></div>
         </div>
         <p class="fine">islam.museum · {T.footer.open} · {T.footer.licenses} · {T.footer.privacy}</p>

@@ -1,0 +1,25 @@
+---
+// A strip of four pictures from the Architecture and Art gallery, chosen at random when the site is built,
+// linking to the full gallery. The page is static, so the choice changes with each deploy, not each visit.
+import { ui, type Lang } from "../lib/i18n";
+import items from "../data/architecture-art.json";
+
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const pick = [...items].sort(() => Math.random() - 0.5).slice(0, 4);
+---
+<section class="block art-strip" aria-labelledby="art-strip-title">
+  <div class="wrap">
+    <h2 id="art-strip-title">{T.landing.art_title}</h2>
+    <ul class="grid-cards" style="grid-template-columns:repeat(auto-fill,minmax(180px,1fr))">
+      {pick.map((i) => (
+        <li>
+          <a class="card" href={`/${lang}/art/`} style="padding:0;overflow:hidden">
+            <img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;display:block" />
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="ui" style="margin-top:12px"><a href={`/${lang}/art/`}>{T.landing.art_cta}</a></p>
+  </div>
+</section>
