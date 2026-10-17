@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور (قوم) ثمود (کے حال) میں (نشانی ہے) جب ان سے کہا گیا کہ ایک وقت تک فائدہ اٹھالو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-51 }
+  - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "ہم نے بنی اسرائیل سے عہد بھی لیا اور ان کی طرف پیغمبر بھی بھیجے (لیکن) جب کوئی پیغمبر ان کے پاس ایسی باتیں لےکر آتا جن کو ان کے دل نہیں چاہتے تھے تو وہ (انبیاء کی) ایک جماعت کو تو جھٹلا دیتے اور ایک جماعت کو قتل کر دیتے تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

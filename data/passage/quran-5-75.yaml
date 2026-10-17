@@ -17,6 +17,8 @@ translations:
   ur: { text: "مسیح ابن مریم تو صرف (خدا) کے پیغمبر تھے ان سے پہلے بھی بہت سے رسول گزر چکے تھے اور ان کی والدہ (مریم خدا کی) ولی اور سچی فرمانبردار تھیں دونوں (انسان تھے اور) کھانا کھاتے تھے دیکھو ہم ان لوگوں کے لیے اپنی آیتیں کس طرح کھول کھول کر بیان کرتے ہیں پھر (یہ) دیکھو کہ یہ کدھر الٹے جا رہے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: person/isa-ibn-maryam, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/maryam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
