@@ -17,6 +17,8 @@ translations:
   ur: { text: "(اے محمدﷺ) ہم تمہیں موسٰی اور فرعون کے کچھ حالات مومن لوگوں کو سنانے کے لئے صحیح صحیح سناتے ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
+  - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

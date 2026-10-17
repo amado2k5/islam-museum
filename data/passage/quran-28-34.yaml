@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ہارون (جو) میرا بھائی (ہے) اس کی زبان مجھ سے زیادہ فصیح ہے تو اس کو میرے ساتھ مددگار بناکر بھیج کہ میری تصدیق کرے مجھے خوف ہے کہ وہ میری لوگ تکذیب کریں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
+  - { type: mentions, target: person/harun, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
