@@ -1,0 +1,27 @@
+---
+id: event/mission-of-khalid-to-banu-al-harith
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Overview
+In 10 AH the Prophet sent [[person/khalid-ibn-al-walid|Khalid ibn al-Walid]] to the [[group/banu-al-harith-ibn-kab|Banu al-Harith ibn Ka'b]] in [[place/najran|Najran]], and they accepted Islam without fighting. Khalid then brought their delegation to the Prophet. {cite:ibn-hisham-saqqa 4/239} {cite:ibn-hisham-saqqa 4/240}
+
+## The mission and the call
+The Prophet sent him in Rabi al-Akhir or Jumada al-Ula of the year ten, and ordered him to call them to Islam for three days before fighting them; if they responded he was to accept it, and otherwise fight them. {cite:ibn-hisham-saqqa 4/239} Khalid came to them and sent riders in every direction calling to Islam, saying: O people, accept Islam and you will be safe. The people accepted Islam and entered what they were called to. Khalid stayed among them, teaching them Islam and the Book of God and the Sunna of His Prophet, as the Prophet had ordered him if they accepted without fighting. {cite:ibn-hisham-saqqa 4/239}
+
+## Khalid's letter and the Prophet's answer
+Khalid wrote to the Prophet praising God and informing him that he had sent him to the Banu al-Harith and ordered him not to fight them for three days, and to call them; that he had called them for three days as he was ordered, and sent riders among them, and they accepted Islam without fighting; and that he remained among them to order them what God had ordered and forbid what He had forbidden, and to teach them the features of Islam until the Prophet wrote to him. {cite:ibn-hisham-saqqa 4/239} {cite:ibn-hisham-saqqa 4/240} The Prophet wrote back that his letter had come with his messenger, reporting that the Banu al-Harith had accepted Islam before he fought them and had testified to the two testimonies. He was to give them good news and warnings, and come with their delegation. {cite:ibn-hisham-saqqa 4/240} The editors note that the phrase "I stayed among them" is missing in one copy. {cite:ibn-hisham-saqqa 4/239}
+
+## Arrival of the delegation
+Khalid came with the delegation of the Banu al-Harith ibn Ka'b: [[person/qays-ibn-al-husayn-dhu-al-ghussa|Qays ibn al-Husayn Dhu al-Ghussa]], [[person/yazid-ibn-abd-al-madan|Yazid ibn Abd al-Madan]], [[person/yazid-ibn-al-muhajjal|Yazid ibn al-Muhajjal]], [[person/abdullah-ibn-qurad-al-ziyadi|Abd Allah ibn Qurad al-Ziyadi]], [[person/shaddad-ibn-abdullah-al-qanani|Shaddad ibn Abd Allah al-Qanani]] and [[person/amr-ibn-abdullah-al-dibabi|Amr ibn Abd Allah al-Dibabi]]. {cite:ibn-hisham-saqqa 4/240} When they came and the Prophet saw them, he said: who are these people who look like the men of India? He was told that they were the men of the Banu al-Harith ibn Ka'b. {cite:ibn-hisham-saqqa 4/240} When they stood before him they greeted him and testified that he was the Messenger of God. He said: and I testify that there is no god but God and that I am His Messenger. {cite:ibn-hisham-saqqa 4/240} Then he said: are you the people who, when they are driven back, advance? They were silent, and he repeated it four times, and no one answered him, until Yazid ibn Abd al-Madan said in the fourth: yes, Messenger of God, we are the people who, when driven back, advance. {cite:ibn-hisham-saqqa 4/240} {cite:ibn-hisham-saqqa 4/241} The Prophet said: had Khalid not written to me that you had accepted Islam without fighting, I would have put your heads beneath my feet. Yazid said: by God, we did not praise you, nor did we praise Khalid. He said: whom then did you praise? They said: we praised God, who guided us through you. He said: you have spoken the truth. {cite:ibn-hisham-saqqa 4/241} He then asked them: by what did you prevail over those who fought you in the Jahiliyya? They said: we did not prevail over anyone. He said: no, you did prevail. They said: we prevailed over those who fought us because we gathered together and did not scatter, and we never began any people with wrong. He said: you have spoken the truth. {cite:ibn-hisham-saqqa 4/241} The Prophet appointed Qays ibn al-Husayn over the Banu al-Harith ibn Ka'b. {cite:ibn-hisham-saqqa 4/241}
+
+## Return
+The delegation returned to their people in the remainder of Shawwal or the beginning of Dhu al-Qa'da. They did not stay more than four months after their return before the Prophet died. {cite:ibn-hisham-saqqa 4/241} After their delegation had been appointed, the Prophet sent [[person/amr-ibn-hazm|Amr ibn Hazm]] to them; see [[event/mission-of-amr-ibn-hazm-to-najran|the mission of Amr ibn Hazm]]. {cite:ibn-hisham-saqqa 4/241}
+
+## Notes from the editors
+Najran is a region between Yemen and Hajar. Qays was called Dhu al-Ghussa because when he spoke it was as if he were choking. The name "Dibab" is vowelled with a kasra for the Banu al-Harith ibn Ka'b and for Quraysh and the Banu Amir ibn Sa'sa'a, with a fatha in the lineage of al-Nabigha al-Dhubyani, and with a damma for the Banu Bakr, as reported from al-Suhayli. {cite:ibn-hisham-saqqa 4/239} {cite:ibn-hisham-saqqa 4/240}
+
+## Marks of the report
+- The month is uncertain: "Rabi al-Akhir or Jumada al-Ula"; and the return is "in the remainder of Shawwal or the beginning of Dhu al-Qa'da". {cite:ibn-hisham-saqqa 4/239} {cite:ibn-hisham-saqqa 4/241}
+- The texts of both letters are given in full by Ibn Ishaq, and their wording is recorded here. {cite:ibn-hisham-saqqa 4/239} {cite:ibn-hisham-saqqa 4/240}
