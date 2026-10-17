@@ -93,3 +93,24 @@ Beyond IMDb/Wikidata, three Arabic-first catalogues were distilled:
 
 Caveat for future passes: never accept a catalogue match on title
 alone — always confirm year ±1 or a Wikidata `sameAs` QID.
+
+## Arabic prose pass (2026-10-16)
+
+The non-passage Arabic prose backlog is closed. Every class except
+`passage` now has a `content/ar/` page for every record:
+
+- 107 culture-harvest entities (26 novels, 14 musicians, 5 bands,
+  24 buildings/bazaars, 9 objects, 8 gatherings, 4 practices,
+  3 places, 2 exhibits, 2 listings) — hand-written docent prose.
+- 130 `screen/` pages generated from each record's own fields
+  (format, year, countries, directors, cast wiki-links, subjects,
+  depiction rule, bans/fatwas/awards), cited to the record's sources.
+- 161 `source/` bibliography pages: title/author/publisher/kind/lang
+  plus a computed "cited by N records" line.
+- 16 `dataset/` + 4 `media/` pages.
+
+Validation: 0 errors; prose total 14,600+ files. Remaining gap is
+`passage` (9,505), owned by the `muwatta-prose` lane — do not
+duplicate. If the generator is rerun, keep the year-fallback from the
+slug suffix (50 records lack `released`) and verify wiki-link targets
+exist (place/samarkand→samarqand, event/the-hijra→hijra, etc.).
