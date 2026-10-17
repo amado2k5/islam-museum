@@ -12,8 +12,20 @@ export const nextLang = (l: Lang): Lang => LANGS[(LANGS.indexOf(l) + 1) % LANGS.
 export const ARABIC_SCRIPT: readonly Lang[] = ["ar", "ur"];
 
 const cache = new Map<string, any>();
+/** Fill keys a language has not translated yet from English, so a page renders instead of crashing. */
+const fillMissing = (target: any, base: any): any => {
+  for (const k of Object.keys(base)) {
+    const v = base[k];
+    if (v && typeof v === "object" && !Array.isArray(v)) target[k] = fillMissing(target[k] && typeof target[k] === "object" ? target[k] : {}, v);
+    else if (target[k] === undefined) target[k] = v;
+  }
+  return target;
+};
 export function ui(lang: Lang): any {
-  if (!cache.has(lang)) cache.set(lang, parse(readFileSync(repoPath("i18n", `${lang}.yaml`), "utf8")));
+  if (!cache.has(lang)) {
+    const data = parse(readFileSync(repoPath("i18n", `${lang}.yaml`), "utf8"));
+    cache.set(lang, lang === "en" ? data : fillMissing(data, ui("en")));
+  }
   return cache.get(lang);
 }
 
