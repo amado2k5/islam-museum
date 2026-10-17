@@ -12,7 +12,7 @@ relations:
   - { type: had_participant, target: person/umar-ibn-abd-al-aziz, role: "سائل عن الوراثة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "فرض للفطيم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abd-al-malik-ibn-marwan, role: "قاطع فريضة المولود", sources: [source/futuh-buldan-maarif-1407] }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

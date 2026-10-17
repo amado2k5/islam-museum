@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/aws-ibn-thalaba, role: "قائد الجيش", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/rabi-ibn-nahshal, role: "كاتب الكتاب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/harat }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

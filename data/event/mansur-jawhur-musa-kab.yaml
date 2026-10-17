@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/mughallis-al-abdi, role: "المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/musa-ibn-kab-al-tamimi, role: "الوالي الفائز", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/al-mansura }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

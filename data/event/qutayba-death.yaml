@@ -14,7 +14,7 @@ relations:
   - { type: had_participant, target: person/dirar-ibn-muslim, role: "الناجي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/salit-ibn-atta, role: "حامل الرأس إلى سليمان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/marw }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

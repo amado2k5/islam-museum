@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/sul-al-turki, role: "ملك الترك", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/jahm-ibn-zahr, role: "فاتح وجاه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/jurjan }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

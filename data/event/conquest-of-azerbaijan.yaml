@@ -13,7 +13,7 @@ relations:
   - { type: had_participant, target: person/al-ashath-ibn-qays, role: "المتتبع حاناً حاناً", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/said-ibn-al-as, role: "الوالي الغازي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/azerbaijan }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -10,7 +10,7 @@ relations:
   - { type: had_participant, target: person/qays-ibn-al-haytham, role: "القائد المضروب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/ata-ibn-al-saib, role: "مخرب النوبهار", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/balkh }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

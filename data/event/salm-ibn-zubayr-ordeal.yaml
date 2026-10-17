@@ -10,7 +10,7 @@ relations:
   - { type: had_participant, target: person/sallam-ibn-ziyad, role: "المغروم المحبوس", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdullah-ibn-al-zubayr-ibn-abd-al-muttalib, role: "الخلف", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-hajjaj-ibn-yusuf, role: "الحاصر لابن الزبير", sources: [source/futuh-buldan-maarif-1407] }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

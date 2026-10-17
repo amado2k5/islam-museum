@@ -10,7 +10,7 @@ relations:
   - { type: had_participant, target: person/maqil-ibn-yasar, role: "المسمى به وفاتحه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/ziyad-ibn-abi-sufyan, role: "الحافر", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/basra }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

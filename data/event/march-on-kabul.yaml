@@ -12,7 +12,7 @@ relations:
   - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "عاقر الفيل", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-muhallab-ibn-abi-sufra, role: "من الأشراف وحامل البشارة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/kabul }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

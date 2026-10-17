@@ -9,7 +9,7 @@ periods: [period/umayyad]
 relations:
   - { type: had_participant, target: person/abdallah-ibn-sawar, role: "صاحب الثغر المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qiqan }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

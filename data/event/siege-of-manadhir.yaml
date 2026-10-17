@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/al-rabi-ibn-ziyad-al-harithi, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abu-musa-al-ashari, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/manadhir }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

@@ -10,7 +10,7 @@ relations:
   - { type: had_participant, target: person/abu-bakr, role: "الخليفة", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "الآخذ بالزمام", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/khalid-ibn-al-walid, role: "المؤمر", sources: [source/tarikh-khulafa-minhaj-1434] }
-wings: [people, place, time]
+wings: [time]
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1 }
 provenance:

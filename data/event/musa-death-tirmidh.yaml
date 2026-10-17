@@ -12,7 +12,7 @@ relations:
   - { type: had_participant, target: person/wasil-ibn-taysala, role: "المجهز عليه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/mudrik-ibn-al-muhallab, role: "المسلمة إليه المدينة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tirmidh }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

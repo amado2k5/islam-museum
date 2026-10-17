@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/abd-al-rahman-ibn-muslim, role: "قاتل خرزاد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/ubaydallah-ibn-muslim, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/khwarizm }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

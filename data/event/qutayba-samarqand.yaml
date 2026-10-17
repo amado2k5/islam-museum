@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/ghurak, role: "المصالح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-dahhak-ibn-muzahim, role: "ممن خلف بها", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/samarqand }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1 }
 provenance:

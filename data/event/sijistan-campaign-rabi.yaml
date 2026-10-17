@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/aparwiz, role: "المرزبان المصالح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-hasan-al-basri, role: "الكاتب", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/sijistan }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

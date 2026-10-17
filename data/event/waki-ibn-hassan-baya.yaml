@@ -10,7 +10,7 @@ relations:
   - { type: had_participant, target: person/waki-ibn-hassan, role: "المبايع", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/al-hudayn-ibn-al-mundhir, role: "المشار إليه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/qutayba-ibn-muslim, role: "المخلع عليه", sources: [source/futuh-buldan-maarif-1407] }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

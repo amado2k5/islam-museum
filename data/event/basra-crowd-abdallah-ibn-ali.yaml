@@ -10,7 +10,7 @@ relations:
   - { type: had_participant, target: person/abdallah-ibn-ali-ibn-abdallah, role: "المصاح به", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/sulayman-ibn-ali, role: "المفرق للجمع", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/basra }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

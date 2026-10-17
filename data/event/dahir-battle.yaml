@@ -10,7 +10,7 @@ relations:
   - { type: had_participant, target: person/muhammad-ibn-al-qasim, role: "الأمير الفائز", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/dahir, role: "الملك المقتول", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/mihran }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

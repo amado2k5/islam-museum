@@ -12,7 +12,7 @@ relations:
   - { type: had_participant, target: person/umar-ibn-hafs-hazarmard, role: "الوالي بعده", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/dawud-ibn-yazid-ibn-hatim, role: "الوالي الثالث", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/qandahar }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

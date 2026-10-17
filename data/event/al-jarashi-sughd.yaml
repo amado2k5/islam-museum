@@ -9,7 +9,7 @@ periods: [period/umayyad]
 relations:
   - { type: had_participant, target: person/said-ibn-amr-al-jarashi, role: "الوالي", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/sughd }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

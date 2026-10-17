@@ -12,7 +12,7 @@ relations:
   - { type: had_participant, target: person/al-hakam-ibn-abi-al-as, role: "القائد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/amr-ibn-al-ahtam, role: "حامل البشرى", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/rayshahr }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

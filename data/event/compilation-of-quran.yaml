@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الصاحب بالرأي", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/zayd-ibn-thabit, role: "الجامع", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/khuzayma-ibn-thabit, role: "عنده الآيتان", sources: [source/tarikh-khulafa-minhaj-1434] }
-wings: [people, place, time]
+wings: [time]
 sources: [source/tarikh-khulafa-minhaj-1434, source/sahih-al-bukhari]
 status: { review: draft, completeness: 1 }
 provenance:

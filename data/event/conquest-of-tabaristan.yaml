@@ -14,7 +14,7 @@ relations:
   - { type: had_participant, target: person/husayn-ibn-ali, role: "فيما يقال من الغزاة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abd-allah-ibn-amir, role: "السابق إلى خراسان", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tabaristan }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

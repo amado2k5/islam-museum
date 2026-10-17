@@ -12,7 +12,7 @@ relations:
   - { type: had_participant, target: person/musab-ibn-al-zubayr, role: "ضارب الدراهم القليلة", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/said-ibn-al-musayyab, role: "الراوي", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/muawiya-ibn-abi-sufyan, role: "مقر السكة القديمة", sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434] }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407, source/tarikh-khulafa-minhaj-1434, source/salabi-umayyad-state-2020]
 status: { review: draft, completeness: 1 }
 provenance:

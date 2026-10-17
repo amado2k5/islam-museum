@@ -12,7 +12,7 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "المستخلف", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/al-harith-ibn-kalada, role: "الطبيب المسموم معه", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: occurred_at, target: place/medina }
-wings: [people, place, time]
+wings: [time]
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1 }
 provenance:

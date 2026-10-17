@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/dahir, role: "ملك البلاد", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/anbasa-ibn-ishaq-al-dabbi, role: "العامل الهادم", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/daybul }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

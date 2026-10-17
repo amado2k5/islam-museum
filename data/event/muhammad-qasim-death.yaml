@@ -12,7 +12,7 @@ relations:
   - { type: had_participant, target: person/yazid-ibn-abi-kabsha, role: "والي السند", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/muawiya-ibn-al-muhallab, role: "المحمول معه", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/wasit }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

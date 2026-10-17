@@ -10,7 +10,7 @@ relations:
   - { type: had_participant, target: person/umar-ibn-al-khattab, role: "الخليفة الحاكم", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/ali-ibn-abi-talib, role: "المشير بالغداء والعشاء", sources: [source/tarikh-khulafa-minhaj-1434] }
   - { type: had_participant, target: person/kab-ibn-suwar, role: "القاضي", sources: [source/tarikh-khulafa-minhaj-1434] }
-wings: [people, place, time]
+wings: [time]
 sources: [source/tarikh-khulafa-minhaj-1434]
 status: { review: draft, completeness: 1 }
 provenance:

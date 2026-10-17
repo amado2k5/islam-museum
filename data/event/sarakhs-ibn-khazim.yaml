@@ -10,7 +10,7 @@ relations:
   - { type: had_participant, target: person/abdallah-ibn-khazim-al-sulami, role: "الفاتح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/zadhuya, role: "المرزبان المصالح", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/sarakhs }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

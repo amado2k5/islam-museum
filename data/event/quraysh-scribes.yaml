@@ -14,7 +14,7 @@ relations:
   - { type: had_participant, target: person/hafsa, role: "كاتبة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/karima-bint-al-miqdad, role: "كاتبة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/umm-kulthum-bint-uqba, role: "كاتبة", sources: [source/futuh-buldan-maarif-1407] }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:

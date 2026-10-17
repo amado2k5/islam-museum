@@ -11,7 +11,7 @@ relations:
   - { type: had_participant, target: person/yazid-ibn-al-muhallab, role: "الأمير", sources: [source/futuh-buldan-maarif-1407] }
   - { type: had_participant, target: person/abdallah-ibn-mamar, role: "المقتول غيلة", sources: [source/futuh-buldan-maarif-1407] }
   - { type: occurred_at, target: place/tabaristan }
-wings: [people, place, time]
+wings: [time]
 sources: [source/futuh-buldan-maarif-1407]
 status: { review: draft, completeness: 1 }
 provenance:
