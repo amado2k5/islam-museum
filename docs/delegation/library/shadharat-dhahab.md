@@ -52,3 +52,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 94 — سنة 431 (Dandanqan, line ~6712) through ~450.
 - Batch 94 (Devin): AH 431–436 — the great Tabriz earthquake (40k+ dead, 434), Tughril's sack of al-Rayy & al-Mawardi's caliphal embassy (435), Abu Kalijar's Baghdad entry with the triple drums (436); new persons: the qadi Muhammad b. Abbad (Abbadid founder), al-Azhari al-Sayrafi; enriched Mas'ud (killed by his amirs), Jalal al-Dawla (d. 435), Jahwar b. Muhammad (d. 435). 5 new + 3 enriched + 3 prose.
 - Next: batch 95 — سنة 436 (~line 6922) through ~450.
+- Batch 95 (Devin): AH 437–440 — al-Mu'izz b. Badis's defection and the FIRST HILALI ENTRY into Ifriqiya (Banu Riyah & Zughba), Abu Kalijar's death on the Kerman road (son al-Malik al-Rahim enthroned), Abbasid prince-hafiz al-Hasan b. Isa, and the Hanbali wit Ibn al-Baqqal. 3 new + 2 enriched + 1 prose.
+- Next: batch 96 — سنة 441 (~line 7160) through ~450 (Ash'ari persecution lead-in at 445+).

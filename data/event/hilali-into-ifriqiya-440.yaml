@@ -1,0 +1,26 @@
+id: event/hilali-into-ifriqiya-440
+class: event
+kind: migration
+label: { ar: "أول دخول العربان إلى إفريقية" }
+summary:
+  ar: "في سنة أربعين وأربعمائة أقام المعز بن باديس الدعوة بالمغرب للقائم بأمر الله العباسي وخلع طاعة المستنصر العبيدي، فبعث المستنصر جيشاً من العرب يحاربونه، فذلك أول دخول العربان إلى إفريقية، وهم بنو رياح وبنو زغبة، وتمّت لهم أمور يطول شرحها {cite:shadharat-dhahab p. 264}."
+  en: "In 440 al-Mu'izz b. Badis raised the da'wa in the Maghreb for the Abbasid al-Qa'im bi-Amr Allah and cast off the obedience of the Fatimid al-Mustansir; al-Mustansir sent an army of Arabs to fight him — the first entry of the Arab tribes into Ifriqiya: Banu Riyah and Banu Zughba, whose story lengthens beyond telling {cite:shadharat-dhahab p. 264}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [maghreb]
+sides:
+  - label: { ar: "المعز بن باديس الزيري" }
+    commanders: [person/al-muizz-ibn-badis]
+  - label: { ar: "جيوش المستنصر وبنو رياح وبنو زغبة" }
+    commanders: [person/al-mustansir-billah]
+date:
+  start: { edtf: "1048~", hijri: "0440", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 440 {cite:shadharat-dhahab p. 264}؛ عند ابن خلدون انقطع الدعاء لهم سنة 440 {cite:tarikh-ibn-khaldun-ibar p. 1634}." }
+relations:
+  - { type: occurred_at, target: place/ifriqiya, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-95
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
