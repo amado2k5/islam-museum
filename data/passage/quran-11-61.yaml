@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور ثمود کی طرف ان کے بھائی صالح کو (بھیجا) تو انہوں نے کہا کہ قوم! خدا ہی کی عبادت کرو اس کے سوا تمہارا کوئی معبود نہیں۔ اسی نے تم کو زمین سے پیدا کیا اور اس میں آباد کیا تو اس سے مغفرت مانگو اور اس کے آگے توبہ کرو۔ بےشک میرا پروردگار نزدیک (بھی ہے اور دعا کا) قبول کرنے والا (بھی) ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
+  - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/salih, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

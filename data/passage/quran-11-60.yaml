@@ -17,6 +17,8 @@ translations:
   ur: { text: "تو اس دنیا میں بھی لعنت ان کے پیچھے لگی رہے گی اور قیامت کے دن بھی (لگی رہے گی) دیکھو عاد نے اپنے پروردگار سے کفر کیا۔ (اور) سن رکھو ہود کی قوم عاد پر پھٹکار ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
+  - { type: mentions, target: group/aad, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/hud, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
