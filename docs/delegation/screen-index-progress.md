@@ -131,3 +131,43 @@ closed the remaining 9,505 passage pages:
 Generated from record fields only; deeper tafsir/isnad prose remains
 a future lane (the 41 pre-existing muwatta files show the target
 depth — OCR-sourced, page-cited).
+
+## Breadth pass 2 (2026-10-16, same session)
+
+Filled Phase-1 class gaps after prose closure:
+
+- **language** — 15 records (0 → 15): Arabic, Persian, Turkish, Urdu,
+  Bengali, Malay, Indonesian, Swahili, Hausa, Pashto, Kurdish, Punjabi,
+  Somali, Bosnian, Amharic. Scripts, speaker estimates, ISO-639, QIDs.
+  Language schema quirk: `scripts` is a plain string list — quote any
+  value containing parentheses/colons.
+- **practice** — 17 records (8 → 25): wudu, ghusl, adhan, khutba,
+  taraweeh, itikaf, tawaf, sai, ziyara, istikhara, dua, janaza, aqiqa,
+  khitan, walima, dhikr, miswak. Sunni `basis: prophetic-practice`;
+  scriptural_basis linked to quran-* passages where relevant.
+- **question** — 22 records (39 → 61): newcomer cards for the new
+  practices plus hadith/sira/ilm/masjid-haram topics. No tensions —
+  all `sensitivity: none`.
+- **object** — 11 records (43 → 54): Black Stone, Maqam Ibrahim,
+  Birmingham & Topkapi mushafs, al-Jazari elephant clock, Roger II
+  coronation mantle, talismanic shirt, Piri Reis map, Sancak-ı Şerif,
+  Blacas ewer, Luck of Edenhall. Plus `building/bir-zamzam`.
+  Object schema quirk: `provenance` is the *chain-of-custody* field
+  (array of strings) — do NOT put the AI provenance block there;
+  attribution goes in `status.generated_by`.
+- **listing** — 6 records (2 → 8): Café Riche, Bakdash, Karim's,
+  Hafiz Mustafa 1864, Rick's Café Casablanca, Jarir Bookstore.
+- **screen** — +43 records (130 → 173): Majidi trio, Bab'Aziz, The
+  Physician, Black Gold, Ali and Nino, A Jihad for Love, Arranged,
+  The Lady of Heaven, Amreeka, The Source, Cairo Time, Desert Dancer,
+  Ali the Goat, Mawlana, Omar, Kandahar, Theeb, Farha, Boy from Heaven,
+  Blue Caftan, Ali's Wedding, Jinn, The Swimmers, For Sama; then
+  Alparslan, Uyanış Selçuklu, Mendirman Jaloliddin, Muhteşem Yüzyıl,
+  Bab al-Hara, Yacoubian Building, Hassan & Marcus, Day I Became a
+  Woman, Offside, Mustang, Limbo, It Must Be Heaven, Wajib,
+  Tel Aviv on Fire, Caliphate, Sheikh Jackson, Hala.
+
+Method note: "Children of Heaven" and "Offside" first resolved to
+disambiguation items — always check `description` in the REST summary
+before accepting a QID. "Imam Ali (1997 TV series)" resolves to
+Shaheed-e Kufa — already catalogued, deduped.
