@@ -1,0 +1,76 @@
+id: exhibit/path-riyad-palaces
+class: exhibit
+kind: trail
+label:
+  ar: قصور الوزراء
+  en: Palaces of Power
+summary:
+  ar: 'مسار في عمارة السلطة: قصر العمارة في الكوفة، وقصر العباس بن عمرو، وقصور البرامكة — بغداد تبني.'
+  en: A trail through the architecture of authority.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: قصر العمارة
+    en: Qasr al-Imara
+  body:
+    ar: 'كوفة زياد: أقدم قصر إسلامي.'
+    en: 'كوفة زياد: أقدم قصر إسلامي.'
+  features:
+  - building/qasr-al-imara-kufa
+  - place/kufa
+- title:
+    ar: العباس
+    en: Al-Abbas
+  body:
+    ar: 'قصر ابن عمرو: سمرقند الأموية.'
+    en: 'قصر ابن عمرو: سمرقند الأموية.'
+  features:
+  - building/qasr-al-abbas-ibn-amr
+  - building/qasr-al-abbas-ibn-amr
+- title:
+    ar: الشديخ
+    en: Al-Shadiyakh
+  body:
+    ar: 'قصر نيسابور: أموي ثم عباسي.'
+    en: 'قصر نيسابور: أموي ثم عباسي.'
+  features:
+  - building/qasr-al-shadiyakh
+  - place/nishapur
+- title:
+    ar: قوباذ
+    en: Qubadh
+  body:
+    ar: 'قصر البصرة: ساساني يستمر.'
+    en: 'قصر البصرة: ساساني يستمر.'
+  features:
+  - building/qasr-qubadh-basra
+  - place/basra
+- title:
+    ar: العمارة
+    en: The architecture
+  body:
+    ar: 'القصر الإسلامي: من أموي إلى عباسي.'
+    en: 'القصر الإسلامي: من أموي إلى عباسي.'
+  features:
+  - building/khirbat-al-mafjar
+  - building/qusayr-amra
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

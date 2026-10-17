@@ -1,0 +1,77 @@
+id: exhibit/path-ridda
+class: exhibit
+kind: trail
+label:
+  ar: حروب الردة
+  en: The Ridda Wars
+summary:
+  ar: 'مسار في أول أزمة بعد النبي: مسيلمة يدعي النبوة، واليمامة تقتل القراء، وأبو بكر يثبت — سنة تغير
+    الجزيرة.'
+  en: A trail through the first crisis.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الردة
+    en: The ridda
+  body:
+    ar: 'الجزيرة ترتد: أموال وقبائل وأنبياء كذبة.'
+    en: 'الجزيرة ترتد: أموال وقبائل وأنبياء كذبة.'
+  features:
+  - event/ridda-wars
+  - person/abu-bakr
+- title:
+    ar: مسيلمة
+    en: Musaylima
+  body:
+    ar: 'كذاب اليمامة: أخطر مدعي النبوة.'
+    en: 'كذاب اليمامة: أخطر مدعي النبوة.'
+  features:
+  - person/musaylima
+  - event/battle-of-yamama
+- title:
+    ar: اليمامة
+    en: Yamama
+  body:
+    ar: 'أعنف معركة: سبعون قارئًا يستشهدون.'
+    en: 'أعنف معركة: سبعون قارئًا يستشهدون.'
+  features:
+  - event/battle-of-yamama
+  - passage/bukhari-4986
+- title:
+    ar: عمان
+    en: Oman
+  body:
+    ar: 'الردة في الشرق: حملة عمان.'
+    en: 'الردة في الشرق: حملة عمان.'
+  features:
+  - event/oman-campaign-of-the-ridda
+  - event/oman-campaign-of-the-ridda
+- title:
+    ar: النتيجة
+    en: The outcome
+  body:
+    ar: 'جمع القرآن وحسم الخلافة: أثر الردة.'
+    en: 'جمع القرآن وحسم الخلافة: أثر الردة.'
+  features:
+  - passage/bukhari-4986
+  - person/abu-bakr
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

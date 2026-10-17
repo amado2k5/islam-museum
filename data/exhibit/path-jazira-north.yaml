@@ -1,0 +1,67 @@
+id: exhibit/path-jazira-north
+class: exhibit
+kind: trail
+label:
+  ar: الجزيرة والشمال
+  en: The Jazira and the North
+summary:
+  ar: 'مسار في شمال العراق والشام: الموصل وحلب والرها، وزنكي ونور الدين يوحّدان الجهاد.'
+  en: A trail through the northern lands.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الموصل
+    en: Mosul
+  body:
+    ar: عماد الدين زنكي يوحد الشمال.
+    en: عماد الدين زنكي يوحد الشمال.
+  features:
+  - place/mosul
+  - person/imad-al-din-zangi
+- title:
+    ar: حلب
+    en: Aleppo
+  body:
+    ar: قلعة الشام الشمالي ومدينة نور الدين.
+    en: قلعة الشام الشمالي ومدينة نور الدين.
+  features:
+  - place/aleppo
+  - person/nur-al-din-mahmud-ibn-zangi
+- title:
+    ar: نحو القدس
+    en: Toward Jerusalem
+  body:
+    ar: 'من الرها إلى حطين: استرداد الشرق.'
+    en: 'من الرها إلى حطين: استرداد الشرق.'
+  features:
+  - event/battle-of-hattin-583
+  - place/jerusalem
+- title:
+    ar: المدارس
+    en: The schools
+  body:
+    ar: المدارس النظامية في دمشق وحلب.
+    en: المدارس النظامية في دمشق وحلب.
+  features:
+  - question/what-is-madrasa
+  - place/damascus
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

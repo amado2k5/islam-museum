@@ -1,0 +1,74 @@
+id: exhibit/path-islam-on-screen
+class: exhibit
+kind: trail
+label:
+  ar: الإسلام على الشاشة
+  en: Islam on Screen
+summary:
+  ar: 'مسار في صالات العرض: الرسالة وأسد الصحراء، وبلال الرسوم، ومالكولم إكس، ووثائقيات العالم الإسلامي.'
+  en: A trail through the museum's Screening Room.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الملاحم
+    en: The epics
+  body:
+    ar: 'الرسالة 1976: أول ملحمة عن البعثة بلا تصوير للنبي.'
+    en: 'The Message 1976: the first epic without depicting him.'
+  features:
+  - screen/al-risala-1976
+- title:
+    ar: أسد الصحراء
+    en: Lion of the Desert
+  body:
+    ar: 'عمر المختار: المقاومة الليبية على الشاشة.'
+    en: 'Umar al-Mukhtar: Libyan resistance on screen.'
+  features:
+  - screen/umar-al-mukhtar-1981
+  - screen/mukhtarnameh-2011
+- title:
+    ar: الرسوم
+    en: Animation
+  body:
+    ar: 'بلال: حكاية المؤذن الأول للأجيال الجديدة.'
+    en: 'Bilal: the first muezzin''s story for new generations.'
+  features:
+  - screen/bilal-jil-jadid-2015
+  - person/bilal-ibn-rabah
+- title:
+    ar: السير
+    en: Biopics
+  body:
+    ar: 'مالكولم إكس لسبايك لي: الإسلام في أمريكا.'
+    en: 'Spike Lee''s Malcolm X: Islam in America.'
+  features:
+  - screen/malcolm-x-1992
+  - person/malcolm-x
+- title:
+    ar: الوثائقيات
+    en: Documentaries
+  body:
+    ar: 'عايدة والعالم اليوم: العدسة تسجل.'
+    en: 'Aida and the world today: the lens records.'
+  features:
+  - screen/aida-2020
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

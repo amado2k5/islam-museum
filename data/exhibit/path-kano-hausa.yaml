@@ -1,0 +1,68 @@
+id: exhibit/path-kano-hausa
+class: exhibit
+kind: trail
+label:
+  ar: كانو والهوسا
+  en: Kano and the Hausa
+summary:
+  ar: 'مسار في السافانا النيجيرية: كانو مدينة الأسوار والصباغين، ولغة الهوسا لسان خمسين مليونًا، وطريق
+    الذهب إلى تمبكتو.'
+  en: A trail through the Nigerian savanna.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- west-africa-sahel
+rooms:
+- title:
+    ar: كانو
+    en: Kano
+  body:
+    ar: 'مدينة الأسوار: صباغة وجلود وتجارة قرون.'
+    en: 'مدينة الأسوار: صباغة وجلود وتجارة قرون.'
+  features:
+  - place/kano
+  - language/hausa
+- title:
+    ar: الهوسا
+    en: Hausa
+  body:
+    ar: 'لسان السافانا: خمسون مليونًا يتكلمونها.'
+    en: 'لسان السافانا: خمسون مليونًا يتكلمونها.'
+  features:
+  - language/hausa
+  - place/kano
+- title:
+    ar: الطريق
+    en: The route
+  body:
+    ar: 'من كانو إلى تمبكتو: قوافل الملح والذهب.'
+    en: 'من كانو إلى تمبكتو: قوافل الملح والذهب.'
+  features:
+  - place/timbuktu
+  - place/kano
+- title:
+    ar: غرب أفريقيا
+    en: West Africa
+  body:
+    ar: 'الإسلام في السافانا: مالي وسونغاي وكانو.'
+    en: 'الإسلام في السافانا: مالي وسونغاي وكانو.'
+  features:
+  - place/timbuktu
+  - place/kano
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

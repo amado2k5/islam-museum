@@ -1,0 +1,77 @@
+id: exhibit/path-ibn-arabi
+class: exhibit
+kind: trail
+label:
+  ar: ابن عربي
+  en: Ibn Arabi
+summary:
+  ar: 'مسار في الشيخ الأكبر: محيي الدين يكتب الفتوحات والفصوص، ودمشق تحفظ قبره — الفلسفة الصوفية في أقصاها.'
+  en: A trail through the Greatest Shaykh.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: الشيخ
+    en: The shaykh
+  body:
+    ar: 'محيي الدين ابن عربي: مرسية إلى دمشق.'
+    en: 'محيي الدين ابن عربي: مرسية إلى دمشق.'
+  features:
+  - person/ibn-arabi-muhyi-al-din
+  - place/damascus
+- title:
+    ar: الرحلة
+    en: The journey
+  body:
+    ar: من الأندلس إلى مكة إلى الشام.
+    en: من الأندلس إلى مكة إلى الشام.
+  features:
+  - person/ibn-arabi-muhyi-al-din
+  - place/mecca
+  - place/cordoba
+- title:
+    ar: الكتابة
+    en: The writing
+  body:
+    ar: الفتوحات المكية وفصوص الحكم.
+    en: الفتوحات المكية وفصوص الحكم.
+  features:
+  - person/ibn-arabi-muhyi-al-din
+  - concept/tasawwuf
+- title:
+    ar: الجدل
+    en: The debate
+  body:
+    ar: 'وحدة الوجود: التوحيد والنقد.'
+    en: 'وحدة الوجود: التوحيد والنقد.'
+  features:
+  - concept/tasawwuf
+  - person/ibn-taymiyya
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من دمشق إلى قونية: مدرسة الأكبرية.'
+    en: 'من دمشق إلى قونية: مدرسة الأكبرية.'
+  features:
+  - place/damascus
+  - place/konya
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

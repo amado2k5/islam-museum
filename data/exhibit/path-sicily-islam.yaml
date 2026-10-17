@@ -1,0 +1,66 @@
+id: exhibit/path-sicily-islam
+class: exhibit
+kind: trail
+label:
+  ar: صقلية الإسلامية
+  en: Islamic Sicily
+summary:
+  ar: 'مسار في جزيرة البحر: الفتح الأغلبي، وباليرمو، والنورمان يرثون الصناعة.'
+  en: A trail through the island.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- andalus-europe
+rooms:
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: '827: الأغلبيون يعبرون من إفريقية.'
+    en: '827: الأغلبيون يعبرون من إفريقية.'
+  features:
+  - polity/emirate-of-sicily
+  - place/siqilliya
+- title:
+    ar: باليرمو
+    en: Palermo
+  body:
+    ar: 'بلرم: مدينة المساجد الثلاثمئة.'
+    en: 'بلرم: مدينة المساجد الثلاثمئة.'
+  features:
+  - place/palermo
+- title:
+    ar: العلم والزراعة
+    en: Learning and groves
+  body:
+    ar: 'الحمضيات والقنوات: صقلية تُزهر.'
+    en: 'الحمضيات والقنوات: صقلية تُزهر.'
+  features:
+  - place/siqilliya
+  - polity/emirate-of-sicily
+- title:
+    ar: النورمان
+    en: The Normans
+  body:
+    ar: روجر يأخذ الجزيرة 1091 فيبقى الفن العربي.
+    en: روجر يأخذ الجزيرة 1091 فيبقى الفن العربي.
+  features:
+  - place/palermo
+  - question/what-were-the-crusades
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-6
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,78 @@
+id: exhibit/path-maghreb-dynasties
+class: exhibit
+kind: trail
+label:
+  ar: دول المغرب
+  en: Dynasties of the Maghreb
+summary:
+  ar: 'مسار في ممالك الغرب الإسلامي: المرابطون والموحدون، والمرينيون والزيانيون والحفصيون والسعديون.'
+  en: A trail through the Maghreb's dynasties.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- maghreb
+rooms:
+- title:
+    ar: المرابطون
+    en: Almoravids
+  body:
+    ar: يوسف بن تاشفين يوحد المغرب ويحمل إلى الأندلس.
+    en: يوسف بن تاشفين يوحد المغرب ويحمل إلى الأندلس.
+  features:
+  - polity/almoravid-dynasty
+  - place/marrakesh
+- title:
+    ar: الموحدون
+    en: Almohads
+  body:
+    ar: 'ابن تومرت وعبد المؤمن: إمبراطورية من المحيط إلى الأندلس.'
+    en: 'ابن تومرت وعبد المؤمن: إمبراطورية من المحيط إلى الأندلس.'
+  features:
+  - polity/almohad-caliphate
+  - object/minbar-kutubiyya
+- title:
+    ar: المرينيون والزيانيون
+    en: Marinids and Zayyanids
+  body:
+    ar: 'فاس وتلمسان: مدارس وعمارة القرن السابع.'
+    en: 'فاس وتلمسان: مدارس وعمارة القرن السابع.'
+  features:
+  - polity/marinid-dynasty
+  - polity/zayyanid-tlemcen
+  - place/fez
+- title:
+    ar: الحفصيون
+    en: Hafsids
+  body:
+    ar: 'تونس عاصمة المغرب الأوسط: عصر ابن خلدون.'
+    en: 'تونس عاصمة المغرب الأوسط: عصر ابن خلدون.'
+  features:
+  - polity/hafsid-dynasty
+  - place/tunis
+  - person/ibn-khaldun
+- title:
+    ar: السعديون
+    en: Saadians
+  body:
+    ar: 'مراكش الشرفاء: معركة القصر الكبير.'
+    en: 'مراكش الشرفاء: معركة القصر الكبير.'
+  features:
+  - polity/saadi-dynasty
+  - place/marrakesh
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

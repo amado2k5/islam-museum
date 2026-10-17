@@ -1,0 +1,30 @@
+id: listing/shahid-vod
+class: listing
+kind: platform
+label:
+  ar: شاهد
+  en: Shahid
+summary:
+  ar: أكبر منصة بث عربية تابعة لمجموعة MBC؛ أطلقت 2011 وتضم أكبر مكتبة محتوى عربي.
+  en: Shahid.
+wings: []
+categories:
+- media-entertainment
+regions:
+- arabia
+founded:
+  edtf: '2011'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/official-website
+external_ids:
+  official: https://shahid.mbc.net
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16

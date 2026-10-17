@@ -1,0 +1,77 @@
+id: exhibit/path-muhaddithun
+class: exhibit
+kind: trail
+label:
+  ar: علماء الحديث
+  en: The Hadith Scholars
+summary:
+  ar: 'مسار في حملة السنة: البخاري ومسلم جمعا، والنووي وابن حجر شرحا، والدارمي والبيهقي أضافا.'
+  en: A trail through the bearers of the Sunna.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الجامعون
+    en: The compilers
+  body:
+    ar: 'البخاري ومسلم: أصح ما صنف.'
+    en: 'البخاري ومسلم: أصح ما صنف.'
+  features:
+  - person/al-bukhari
+  - person/muslim-ibn-al-hajjaj
+  - concept/kutub-al-sitta
+- title:
+    ar: الشّراح
+    en: The commentators
+  body:
+    ar: النووي على مسلم وابن حجر على البخاري.
+    en: النووي على مسلم وابن حجر على البخاري.
+  features:
+  - person/al-nawawi
+  - person/ibn-hajar-al-asqalani
+- title:
+    ar: الدارمي
+    en: Al-Darimi
+  body:
+    ar: 'سنن قبل الستة: سمرقند تروي.'
+    en: 'سنن قبل الستة: سمرقند تروي.'
+  features:
+  - person/al-darimi
+  - place/samarqand
+- title:
+    ar: البيهقي
+    en: Al-Bayhaqi
+  body:
+    ar: 'سنن الخبراء: نيسابور تكمل.'
+    en: 'سنن الخبراء: نيسابور تكمل.'
+  features:
+  - person/al-bayhaqi-abu-bakr-ahmad-ibn-al-husayn
+  - place/nishapur
+- title:
+    ar: العلم
+    en: The science
+  body:
+    ar: 'إسناد وجرح وتعديل: آلة التصحيح.'
+    en: 'إسناد وجرح وتعديل: آلة التصحيح.'
+  features:
+  - concept/isnad
+  - question/what-is-sanad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

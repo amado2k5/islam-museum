@@ -6,8 +6,10 @@ on:
 permissions:
   contents: read
 
+# Two jobs run side by side: the unit tests, and the content build with its checks.
+# Neither waits for the other, so the run takes as long as the slower job, not both added up.
 jobs:
-  validate:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,9 +23,21 @@ jobs:
       - run: npm ci && npm ci --prefix site
       - name: Unit tests
         run: npm test
-      - name: Validate content
-        run: npm run validate
-      - name: Build
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - run: npm ci && npm ci --prefix site
+      # `npm run build` runs `validate` first (prebuild), so content errors still stop the job before Astro starts.
+      - name: Validate, compile and build
         run: npm run build
       - name: No runtime AI or compute (guard)
         run: npm run check:static

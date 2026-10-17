@@ -1,0 +1,74 @@
+id: exhibit/path-mothers-believers
+class: exhibit
+kind: trail
+label:
+  ar: أمهات المؤمنين
+  en: Mothers of the Believers
+summary:
+  ar: 'مسار في بيت النبوة: خديجة الأولى، وعائشة العالمة، وحفصة حافظة المصحف.'
+  en: A trail through the Prophet's household.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: خديجة
+    en: Khadija
+  body:
+    ar: 'أولى الزوجات وأول المؤمنين: خمس عشرة سنة من الوفاء.'
+    en: 'أولى الزوجات وأول المؤمنين: خمس عشرة سنة من الوفاء.'
+  features:
+  - person/khadija
+  - person/muhammad
+- title:
+    ar: عائشة
+    en: Aisha
+  body:
+    ar: 'أم المؤمنين العالمة: نصف الدين في روايتها.'
+    en: 'أم المؤمنين العالمة: نصف الدين في روايتها.'
+  features:
+  - person/aisha
+- title:
+    ar: حفصة
+    en: Hafsa
+  body:
+    ar: 'ابنة عمر: أُودع عندها مصحف الأمة.'
+    en: 'ابنة عمر: أُودع عندها مصحف الأمة.'
+  features:
+  - person/hafsa
+  - person/umar-ibn-al-khattab
+- title:
+    ar: زينب وغيرها
+    en: Zaynab and others
+  body:
+    ar: 'بيت كبير: تسع نساء في تاريخ البعثة.'
+    en: 'بيت كبير: تسع نساء في تاريخ البعثة.'
+  features:
+  - person/zaynab-bint-jahsh
+  - exhibit/path-women-around-the-prophet
+- title:
+    ar: مريم
+    en: Maryam
+  body:
+    ar: 'سيدة نساء العالمين: أم عيسى وصاحبة السورة.'
+    en: 'سيدة نساء العالمين: أم عيسى وصاحبة السورة.'
+  features:
+  - person/maryam
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

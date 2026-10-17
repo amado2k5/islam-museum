@@ -1,0 +1,77 @@
+id: exhibit/path-delhi-sultans
+class: exhibit
+kind: trail
+label:
+  ar: دلهي والهند
+  en: Delhi and India
+summary:
+  ar: 'مسار في الهند المسلمة: سلطنة دلهي خمس قرون، وأكبر يوحد الإمبراطورية المغولية، وتاج محل يختم بياضًا
+    على يمنا.'
+  en: A trail through Muslim India.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- south-asia
+rooms:
+- title:
+    ar: السلطنة
+    en: The Sultanate
+  body:
+    ar: 'قطب الدين يؤسس 1206: خمس سلالات في دلهي.'
+    en: 'قطب الدين يؤسس 1206: خمس سلالات في دلهي.'
+  features:
+  - place/delhi
+  - polity/delhi-sultanate
+  - person/shajar-al-durr
+- title:
+    ar: أكبر
+    en: Akbar
+  body:
+    ar: 'جلال الدين أكبر: الإمبراطورية المغولية الكبرى.'
+    en: 'جلال الدين أكبر: الإمبراطورية المغولية الكبرى.'
+  features:
+  - person/jalal-al-din-akbar
+  - place/delhi
+- title:
+    ar: تاج محل
+    en: Taj Mahal
+  body:
+    ar: 'شاه جهان يبني للحب: أشهر ضريح في العالم.'
+    en: 'شاه جهان يبني للحب: أشهر ضريح في العالم.'
+  features:
+  - building/taj-mahal
+- title:
+    ar: اللغات
+    en: The languages
+  body:
+    ar: 'أردية وبنجابية وبنغالية: ألسنة المسلمين.'
+    en: 'أردية وبنجابية وبنغالية: ألسنة المسلمين.'
+  features:
+  - language/punjabi
+  - language/bengali
+- title:
+    ar: داكا
+    en: Dhaka
+  body:
+    ar: 'بنغال المسلمة: عاصمة الشرق على الدلتا.'
+    en: 'بنغال المسلمة: عاصمة الشرق على الدلتا.'
+  features:
+  - place/dhaka
+  - language/bengali
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

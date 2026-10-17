@@ -1,0 +1,77 @@
+id: exhibit/path-world-novels
+class: exhibit
+kind: trail
+label:
+  ar: روايات العالم
+  en: Novels of the World
+summary:
+  ar: 'مسار في روايات من عوالم مسلمة: ثلج باموق في قارص، وفرانكنشتاين في بغداد، وساق البامبو الكويتي —
+    العالم يكتب.'
+  en: A trail through novels from Muslim worlds.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: ثلج
+    en: Snow
+  body:
+    ar: 'أورهان باموق: قارص الثلجية والحجاب.'
+    en: 'أورهان باموق: قارص الثلجية والحجاب.'
+  features:
+  - work/thalj-pamuk
+  - work/thalj-pamuk
+- title:
+    ar: فرانكنشتاين
+    en: Frankenstein
+  body:
+    ar: 'أحمد سعداوي: بغداد بعد الغزو.'
+    en: 'أحمد سعداوي: بغداد بعد الغزو.'
+  features:
+  - work/frankinshtayn-fi-baghdad
+  - place/baghdad
+- title:
+    ar: ساق البامبو
+    en: Saq al-Bamboo
+  body:
+    ar: 'سعود السنعوسي: الهوية بين نصفين.'
+    en: 'سعود السنعوسي: الهوية بين نصفين.'
+  features:
+  - work/saq-al-bambu
+  - work/saq-al-bambu
+- title:
+    ar: ظل شجرة
+    en: Shadow of the Tree
+  body:
+    ar: 'الهوية اليمنية: رواية الرمان.'
+    en: 'الهوية اليمنية: رواية الرمان.'
+  features:
+  - work/zil-shajarat-al-rumman
+  - place/sanaa
+- title:
+    ar: الجوائز
+    en: The prizes
+  body:
+    ar: 'البوكر العربية: الرواية تُكافأ.'
+    en: 'البوكر العربية: الرواية تُكافأ.'
+  features:
+  - work/azazil
+  - work/saq-al-bambu
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

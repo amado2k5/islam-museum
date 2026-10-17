@@ -1,0 +1,76 @@
+id: exhibit/path-seljuk-age
+class: exhibit
+kind: trail
+label:
+  ar: عصر السلاجقة
+  en: The Seljuk Age
+summary:
+  ar: 'مسار في قرن السلاجقة: طغرل بك يدخل بغداد، ونظام الملك يبني المدارس، وسلاجقة الروم يفتحون الأناضول.'
+  en: A trail through the Seljuk century.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الدولة
+    en: The empire
+  body:
+    ar: 'طغرل وألب أرسلان وملكشاه: من مرو إلى بغداد.'
+    en: 'طغرل وألب أرسلان وملكشاه: من مرو إلى بغداد.'
+  features:
+  - polity/seljuk-empire
+  - place/baghdad
+- title:
+    ar: نظام الملك
+    en: Nizam al-Mulk
+  body:
+    ar: 'الوزير المؤسس: النظاميات وسياسة الملوك.'
+    en: 'الوزير المؤسس: النظاميات وسياسة الملوك.'
+  features:
+  - person/nizam-al-mulk
+  - place/nishapur
+- title:
+    ar: ملاذكرد
+    en: Manzikert
+  body:
+    ar: '1071: ألب أرسلان يفتح الأناضول.'
+    en: '1071: ألب أرسلان يفتح الأناضول.'
+  features:
+  - polity/seljuk-empire
+  - place/nicea
+- title:
+    ar: سلاجقة الروم
+    en: Rum Seljuks
+  body:
+    ar: 'قونية عاصمة: سنين من العمارة والصوفية.'
+    en: 'قونية عاصمة: سنين من العمارة والصوفية.'
+  features:
+  - polity/rum-seljuk-sultanate
+  - place/konya
+- title:
+    ar: النظامية
+    en: The Nizamiyya
+  body:
+    ar: 'مدارس بغداد ونيسابور: مهد الغزالي.'
+    en: 'مدارس بغداد ونيسابور: مهد الغزالي.'
+  features:
+  - person/al-ghazali-abu-hamid
+  - place/baghdad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -14,8 +14,9 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# The unit tests and the build run in parallel; deploy waits for both.
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,6 +32,21 @@ jobs:
         run: npm ci && npm ci --prefix site
       - name: Test
         run: npm test
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site
       - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
         run: npm run build
       - name: No runtime AI or compute (guard)
@@ -43,7 +59,7 @@ jobs:
           path: dist
 
   deploy:
-    needs: build
+    needs: [test, build]
     runs-on: ubuntu-latest
     environment:
       name: github-pages

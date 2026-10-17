@@ -1,0 +1,78 @@
+id: exhibit/path-sufi-way
+class: exhibit
+kind: trail
+label:
+  ar: طريق التصوف
+  en: The Sufi Path
+summary:
+  ar: 'مسار في التزكية: الزهد والإحسان، والذكر والسماع، والرومي وقونية، وموسم الأوراس.'
+  en: 'A trail through the inner path: zuhd, ihsan, dhikr, sama, Rumi''s Konya and the urs seasons.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الزهد والإحسان
+    en: Zuhd and ihsan
+  body:
+    ar: 'أن تعبد الله كأنك تراه: غاية التزكية.'
+    en: '''Worship as if you see Him'': the path''s summit.'
+  features:
+  - concept/zuhd
+  - concept/ihsan
+  - person/al-ghazali-abu-hamid
+- title:
+    ar: الذكر
+    en: Dhikr
+  body:
+    ar: 'ذكر الله على كل حال: قلب الحضور.'
+    en: Remembering God in every state.
+  features:
+  - practice/dhikr
+  - concept/tasawwuf
+- title:
+    ar: السماع المولوي
+    en: The Mevlevi sama
+  body:
+    ar: دروان الدراويش في طريقة الرومي.
+    en: The whirling of Rumi's order.
+  features:
+  - practice/sama-mawlawiyya
+  - person/jalal-al-din-rumi
+  - place/konya
+- title:
+    ar: الأوراس
+    en: The urs
+  body:
+    ar: مواسم الأولياء عند قبورهم.
+    en: Saints' festivals at their tombs.
+  features:
+  - practice/urs
+  - practice/mawlid-al-nabi
+- title:
+    ar: الزيارة
+    en: Visitation
+  body:
+    ar: زيارة القبور بين السنة والتحريم.
+    en: Grave-visiting between sunna and prohibition.
+  features:
+  - practice/ziyarat-al-qubur
+  - concept/karamat-al-awliya
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-1
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

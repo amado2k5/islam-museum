@@ -1,0 +1,67 @@
+id: exhibit/path-afghan-lands
+class: exhibit
+kind: trail
+label:
+  ar: أرض أفغانستان
+  en: The Afghan Lands
+summary:
+  ar: 'مسار في خراسان الكبرى: باميان وبوذاها، وغزنة والغزنويين، وكابل عقدة الطرق — حيث تلاقت فارس والهند
+    والترك.'
+  en: A trail through Greater Khorasan.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: باميان
+    en: Bamiyan
+  body:
+    ar: 'وادي البوذات الكبرى قبل طالبان: فن على الطريق.'
+    en: 'وادي البوذات الكبرى قبل طالبان: فن على الطريق.'
+  features:
+  - place/bamiyan
+- title:
+    ar: غزنة
+    en: Ghazna
+  body:
+    ar: 'عاصمة محمود: أول سلطنة تركية مسلمة كبرى.'
+    en: 'عاصمة محمود: أول سلطنة تركية مسلمة كبرى.'
+  features:
+  - place/ghazna
+  - polity/ghaznavid-empire
+- title:
+    ar: كابل
+    en: Kabul
+  body:
+    ar: 'عقدة الطرق: بين الهند وفارس وآسيا الوسطى.'
+    en: 'عقدة الطرق: بين الهند وفارس وآسيا الوسطى.'
+  features:
+  - place/kabul
+  - polity/ghaznavid-empire
+- title:
+    ar: تيمور
+    en: Timur
+  body:
+    ar: 'لنك يمر بالأرض: الإمبراطورية التيمورية.'
+    en: 'لنك يمر بالأرض: الإمبراطورية التيمورية.'
+  features:
+  - person/timur-lang
+  - polity/timurid-empire
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

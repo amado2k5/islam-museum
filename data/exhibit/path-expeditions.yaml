@@ -1,0 +1,76 @@
+id: exhibit/path-expeditions
+class: exhibit
+kind: trail
+label:
+  ar: السرايا
+  en: The Expeditions
+summary:
+  ar: 'مسار في سرايا السيرة: أبواء وبواط والعشيرة ونخلة — بعوث الصحابة الأولى على طرق قريش.'
+  en: A trail through the early expeditions.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: أبواء
+    en: Abwa
+  body:
+    ar: 'أول خروج: ودان في طريق الحجاز.'
+    en: 'أول خروج: ودان في طريق الحجاز.'
+  features:
+  - journey/abwa-first-expedition
+  - place/medina
+- title:
+    ar: بواط والعشيرة
+    en: Buwat
+  body:
+    ar: 'قوافل قريش: الرصد الأول.'
+    en: 'قوافل قريش: الرصد الأول.'
+  features:
+  - journey/buwat-expedition
+  - journey/dhu-al-ushayra-expedition
+- title:
+    ar: نخلة
+    en: Nakhla
+  body:
+    ar: 'عبد الله بن جحش: الشهر الحرام.'
+    en: 'عبد الله بن جحش: الشهر الحرام.'
+  features:
+  - journey/nakhla-expedition-ibn-jahsh
+  - journey/nakhla-expedition-ibn-jahsh
+- title:
+    ar: سفوان
+    en: Safwan
+  body:
+    ar: 'بدر الأولى: كرز بن جابر يُطارد.'
+    en: 'بدر الأولى: كرز بن جابر يُطارد.'
+  features:
+  - journey/safwan-expedition
+  - journey/hamra-al-asad-pursuit
+- title:
+    ar: النظام
+    en: The pattern
+  body:
+    ar: 'السرايا: عيون الدولة الجديدة.'
+    en: 'السرايا: عيون الدولة الجديدة.'
+  features:
+  - journey/al-kudr-expedition
+  - journey/dumat-al-jandal-expedition
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

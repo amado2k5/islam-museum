@@ -1,0 +1,78 @@
+id: exhibit/path-first-fitna
+class: exhibit
+kind: trail
+label:
+  ar: الفتنة الكبرى
+  en: The First Fitna
+summary:
+  ar: 'مسار في أصعب سنوات الأمة: قتل عثمان، والجمل وصفين، والتحكيم والنهروان، واغتيال علي — اختبار الأخوة.'
+  en: A trail through the community's hardest years.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: قتل عثمان
+    en: Uthman's death
+  body:
+    ar: '656: الفتنة تدخل دار الخليفة.'
+    en: '656: الفتنة تدخل دار الخليفة.'
+  features:
+  - person/uthman-ibn-affan
+- title:
+    ar: الجمل
+    en: The Camel
+  body:
+    ar: 'البصرة 656: علي وطلحة والزبير وعائشة.'
+    en: 'البصرة 656: علي وطلحة والزبير وعائشة.'
+  features:
+  - event/battle-of-the-camel
+  - person/ali-ibn-abi-talib
+  - person/aisha
+  - person/talha-ibn-ubaydullah
+- title:
+    ar: صفين
+    en: Siffin
+  body:
+    ar: 'الفرات 657: علي ومعاوية والمصاحف المرفوعة.'
+    en: 'الفرات 657: علي ومعاوية والمصاحف المرفوعة.'
+  features:
+  - event/battle-of-siffin
+  - person/muawiya-ibn-abi-sufyan
+- title:
+    ar: التحكيم والنهروان
+    en: Arbitration
+  body:
+    ar: الحكمان ثم الخوارج ينشقون.
+    en: الحكمان ثم الخوارج ينشقون.
+  features:
+  - event/arbitration-of-siffin
+  - event/battle-of-nahrawan
+  - group/khawarij
+- title:
+    ar: النهاية
+    en: The end
+  body:
+    ar: '661: علي يستشهد في محراب الكوفة.'
+    en: '661: علي يستشهد في محراب الكوفة.'
+  features:
+  - person/ali-ibn-abi-talib
+  - place/kufa
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

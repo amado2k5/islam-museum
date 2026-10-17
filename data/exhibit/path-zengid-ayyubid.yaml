@@ -1,0 +1,78 @@
+id: exhibit/path-zengid-ayyubid
+class: exhibit
+kind: trail
+label:
+  ar: الزنكيون والأيوبيون
+  en: Zengids and Ayyubids
+summary:
+  ar: 'مسار في رد الصليبيين: عماد الدين زنكي يسترد الرها، ونور الدين يوحد الشام، وصلاح الدين يفتح القدس.'
+  en: A trail through the counter-crusade.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: زنكي
+    en: Zangi
+  body:
+    ar: 'عماد الدين يأخذ الرها 1144: الرد يبدأ.'
+    en: 'عماد الدين يأخذ الرها 1144: الرد يبدأ.'
+  features:
+  - person/imad-al-din-zangi
+  - place/mosul
+  - polity/zengid-dynasty
+- title:
+    ar: نور الدين
+    en: Nur al-Din
+  body:
+    ar: 'الملك العادل: توحيد دمشق وحلب ومصر.'
+    en: 'الملك العادل: توحيد دمشق وحلب ومصر.'
+  features:
+  - person/nur-al-din-mahmud-ibn-zangi
+  - place/aleppo
+  - place/damascus
+- title:
+    ar: صلاح الدين
+    en: Saladin
+  body:
+    ar: الأيوبي يوحد مصر والشام ثم حطين.
+    en: الأيوبي يوحد مصر والشام ثم حطين.
+  features:
+  - person/salah-al-din-yusuf-ibn-ayyub
+  - polity/ayyubid-dynasty
+- title:
+    ar: حطين
+    en: Hattin
+  body:
+    ar: '4 يوليو 1187: المعركة التي فتحت القدس.'
+    en: '4 يوليو 1187: المعركة التي فتحت القدس.'
+  features:
+  - event/battle-of-hattin-583
+  - event/battle-of-hattin-583
+- title:
+    ar: المؤرخ
+    en: The chronicler
+  body:
+    ar: 'ابن الأثير يكتب الكامل: شاهد العصر.'
+    en: 'ابن الأثير يكتب الكامل: شاهد العصر.'
+  features:
+  - person/ibn-al-athir-imad-al-din
+  - work/al-kamil-fi-al-tarikh
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

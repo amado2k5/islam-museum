@@ -1,0 +1,67 @@
+id: exhibit/path-conquest-sind
+class: exhibit
+kind: trail
+label:
+  ar: فتح السند
+  en: The Conquest of Sind
+summary:
+  ar: 'مسار في أول فتح لهندوستان: محمد بن القاسم يفتح السند 711 — شباب في السابعة عشرة يؤسس قرونًا.'
+  en: A trail through the first opening of India.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- south-asia
+rooms:
+- title:
+    ar: القائد
+    en: The commander
+  body:
+    ar: 'محمد بن القاسم الثقفي: سبعة عشر عامًا.'
+    en: 'محمد بن القاسم الثقفي: سبعة عشر عامًا.'
+  features:
+  - person/muhammad-ibn-al-qasim
+  - event/conquest-of-sind-89
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: 'الديبول والملتان: وادي السند يفتح.'
+    en: 'الديبول والملتان: وادي السند يفتح.'
+  features:
+  - event/conquest-of-sind-89
+  - event/conquest-of-sind-89
+- title:
+    ar: الأمان
+    en: The covenant
+  body:
+    ar: 'أهل الذمة يعبدون في معابدهم: سياسة الفاتح.'
+    en: 'أهل الذمة يعبدون في معابدهم: سياسة الفاتح.'
+  features:
+  - event/conquest-of-sind-89
+  - event/conquest-of-sind-89
+- title:
+    ar: الإرث
+    en: The legacy
+  body:
+    ar: 'باكستان اليوم: من السند إلى دلهي.'
+    en: 'باكستان اليوم: من السند إلى دلهي.'
+  features:
+  - place/delhi
+  - polity/delhi-sultanate
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

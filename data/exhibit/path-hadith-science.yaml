@@ -1,0 +1,79 @@
+id: exhibit/path-hadith-science
+class: exhibit
+kind: trail
+label:
+  ar: علم الحديث
+  en: The Science of Hadith
+summary:
+  ar: 'مسار في علم الأمة الفريد: الإسناد والاتصال، والجرح والتعديل، والمصطلح، والكتب الستة — كيف حُفظت
+    السنة.'
+  en: A trail through the community's unique science.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الإسناد
+    en: The isnad
+  body:
+    ar: 'سلسلة النقل: خاصية الأمة التي لا نظير لها.'
+    en: 'سلسلة النقل: خاصية الأمة التي لا نظير لها.'
+  features:
+  - concept/isnad
+  - concept/ittisal-al-isnad
+- title:
+    ar: المصطلح
+    en: Mustalah
+  body:
+    ar: 'صحيح وحسن وضعيف: قواعد التصنيف.'
+    en: 'صحيح وحسن وضعيف: قواعد التصنيف.'
+  features:
+  - concept/mustalah-al-hadith
+  - concept/hadith-qudsi
+- title:
+    ar: الجامعون
+    en: The compilers
+  body:
+    ar: بخاري ومسلم وأصحاب السنن الأربعة.
+    en: بخاري ومسلم وأصحاب السنن الأربعة.
+  features:
+  - person/al-bukhari
+  - person/muslim-ibn-al-hajjaj
+  - person/al-tirmidhi-muhammad-ibn-isa
+- title:
+    ar: الشراح
+    en: The commentators
+  body:
+    ar: 'النووي وابن رجب: المتن يعيش بشرحه.'
+    en: 'النووي وابن رجب: المتن يعيش بشرحه.'
+  features:
+  - person/al-nawawi
+  - work/jami-ulum-hikam
+- title:
+    ar: النصوص
+    en: The texts
+  body:
+    ar: 'غرفة النصوص: حديث جبريل والنية والمناسك.'
+    en: 'غرفة النصوص: حديث جبريل والنية والمناسك.'
+  features:
+  - passage/arbaun-01
+  - passage/muslim-0008
+  - passage/muslim-1218
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

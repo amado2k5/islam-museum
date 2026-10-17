@@ -171,3 +171,90 @@ Method note: "Children of Heaven" and "Offside" first resolved to
 disambiguation items — always check `description` in the REST summary
 before accepting a QID. "Imam Ali (1997 TV series)" resolves to
 Shaheed-e Kufa — already catalogued, deduped.
+
+## Session update — 2026-10-16 (objects + screen targets cleared)
+
+- **object** — 43 → **512** (Phase 3 ≥500 target met): Met Open Access
+  highlights (~210), Cleveland Islamic dept (~110), V&A targeted
+  harvests (~180): Salting Mihrab, Kashan lustre, Kiswah fragments,
+  Mamluk minbar + ceiling, Fatimid wood panels, Samarra fragments,
+  Madinat al-Zahra ivories, Bursa velvets, Damascus tile group,
+  astrolabes, Deccan paintings. Sources: source/met-open-access,
+  source/cleveland-open-access, source/vam-collection.
+- **screen** — 173 → **315** (Phase 1 ~300 target met): world cinema —
+  Sembène trio (Ceddo, Moolaadé, Guelwaar, Xala), Majidi/Panahi/
+  Makhmalbaf, Saudi new wave (Barakah, Perfect Candidate), Bosnian
+  war films (Grbavica, Snow, Halima's Path, Aida), Syrian-war docs
+  (White Helmets, Last Men in Aleppo, The Cave, City of Ghosts),
+  Oscar winners (No Other Land), contested portrayals (Midnight
+  Express, Not Without My Daughter, Rules of Engagement, Siege),
+  Turkish epics (Fetih 1453, Mehmed series, Kingdoms of Fire,
+  Rashash), Arab golden age (Cairo Station, Nightingale's Prayer,
+  West Beirut, Capernaum), Bollywood (Mughal-e-Azam, Jodhaa Akbar,
+  Haider, Shahid, Padmaavat, Manto, Gully Boy, Veer-Zaara),
+  African cinema (Atlantics, Goodbye Julia, Gravedigger's Wife,
+  Milkmaid, Amina), Arab docs (The Square, Trials of Ali).
+- Method: batch `wbgetentities` (one call, all titles → QID + IMDb)
+  beats per-title REST — no throttling. Validator's dup external-id
+  check catches near-identical Arabic-slug dupes; ~20% of candidate
+  titles already existed under Arabic slugs — dedupe to the existing
+  record, never delete it.
+
+## Questions lane (new — 2026-10-16)
+
+- **question** — 61 → **220** (mid-term target met): "who was" cards for
+  prophets, Companions, Rashidun, imams, scholars (Khwarizmi, Biruni,
+  Razi, Tabari, Ibn Hajar, Nawawi), rulers (Harun, Akbar, Mansa Musa,
+  Shajar al-Durr, Zheng He) and figures (Rumi, Malcolm X, Iqbal,
+  Fatima al-Fihri); "what was" cards for cities (Mecca, Medina,
+  Jerusalem, Damascus, Cairo, Istanbul, Fez, Granada, Samarra,
+  Bukhara, Karbala, Konya, Cordoba, Timbuktu), polities (Umayyad,
+  Abbasid, Fatimid, Seljuk, Safavid, Delhi Sultanate), battles
+  (Badr, Uhud, Khandaq, Hunayn, Yarmuk, Qadisiyya, Hattin, Ayn
+  Jalut, Constantinople), groups (Mutazila, Khawarij, Quraysh, Ahl
+  al-Bayt) and ethics (adab, birr, haya, zuhd, ikhlas, riya, ghiba,
+  sabr, tawakkul).
+- New persons created: jalal-al-din-rumi, malcolm-x, muhammad-iqbal,
+  akbar, zheng-he, fatima-al-fihri (all draft, wikidata-cited).
+- Method: question cards link `related` to existing entity ids only —
+  check `data/<class>/` first; ~20% of slug guesses need prefix fixes
+  (e.g. `isa-ibn-maryam`, `battle-of-the-trench`, `ayn-jalut-658`,
+  `conquest-constantinople-857`).
+
+## Pathways lane (new — 2026-10-16)
+
+- **exhibit/trail** — 7 → **105** (of ~300 aspirational): curated
+  trails assembled entirely from existing graph entities — every
+  room `features` link validates. Themes covered: worship year and
+  life-cycle, prophets and mothers of believers, conquests and
+  fitna, all regions (andalus, maghreb, egypt, iraq, persia,
+  khorasan, anatolia, india, east/west africa, southeast asia,
+  china, volga, americas), sciences (falsafa, astronomy, medicine,
+  geography, grammar, calligraphy), objects (arms, textiles,
+  relics, museum treasures), law/ethics (sharia, muamalat, tahara,
+  creed, ethics), and meta-trails (screen room, questions, sira
+  books).
+- Method: trail rooms only link verified entity ids (checked via
+  `ls data/<class>/` before writing); trails reuse the question
+  cards created this session as learning anchors. All draft,
+  `prerequisites: [exhibit/path-islam-in-30-minutes]`.
+- Remaining trail ideas if continued: per-era timeline trails,
+  per-country trails, object-collection trails, hadith-book deep
+  trails. ~200 more possible but marginal value drops as themes
+  get reused.
+
+## Pathways lane — COMPLETE (2026-10-16)
+
+- **exhibit/trail — 7 → 301** across 22 batches, all pushed to
+  `main`. The ~300 curated-trail aspiration is met.
+- Coverage: every era (Jahiliyya → contemporary), every region
+  (al-Andalus → China → Volga → Americas), every hadith collection
+  (six books + Muwatta + Arba'un), 20 sura trails, worship
+  lifecycle, sciences, arts, cities, dynasties, minority
+  traditions (Ibadi/Zaydi/Nizari/Isma'ili), national cinemas
+  (10 countries), modern institutions (finance/charity/education/
+  media), journey+period classes used as features, and a
+  grand-tour meta-trail.
+- Method: every room `features` link verified against
+  `data/<class>/` before writing; ~1,800 room links, zero
+  dangling references. All draft, provenance-tagged.

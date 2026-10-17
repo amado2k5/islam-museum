@@ -1,0 +1,78 @@
+id: exhibit/path-qadiriyya
+class: exhibit
+kind: trail
+label:
+  ar: الطريقة القادرية
+  en: The Qadiriyya
+summary:
+  ar: 'مسار في أول الطرق الكبرى: عبد القادر الجيلاني يخطب في بغداد، والغنية والفتوح تنتشر — من الصين إلى
+    أفريقيا.'
+  en: A trail through the first great order.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الشيخ
+    en: The shaykh
+  body:
+    ar: 'عبد القادر الجيلاني: الفتوح والغنية.'
+    en: 'عبد القادر الجيلاني: الفتوح والغنية.'
+  features:
+  - person/abd-al-qadir-al-jilani
+  - place/baghdad
+- title:
+    ar: المدرسة
+    en: The school
+  body:
+    ar: 'الخطبة في مدرسته: قرن السادس.'
+    en: 'الخطبة في مدرسته: قرن السادس.'
+  features:
+  - person/abd-al-qadir-al-jilani
+  - place/baghdad
+- title:
+    ar: الطريقة
+    en: The tariqa
+  body:
+    ar: 'أبناؤه ينشرون: القادرية تعم.'
+    en: 'أبناؤه ينشرون: القادرية تعم.'
+  features:
+  - person/abd-al-qadir-al-jilani
+  - concept/tasawwuf
+- title:
+    ar: الانتشار
+    en: The spread
+  body:
+    ar: من العراق إلى الهند وأفريقيا وإندونيسيا.
+    en: من العراق إلى الهند وأفريقيا وإندونيسيا.
+  features:
+  - place/baghdad
+  - place/delhi
+  - place/zanzibar
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'القادرية اليوم: أوسع الطرق.'
+    en: 'القادرية اليوم: أوسع الطرق.'
+  features:
+  - concept/tasawwuf
+  - place/baghdad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

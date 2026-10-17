@@ -1,0 +1,76 @@
+id: exhibit/path-surah-waqia
+class: exhibit
+kind: trail
+label:
+  ar: سورة الواقعة
+  en: Surah al-Waqi'a
+summary:
+  ar: 'مسار في سورة القيامة والرزق: الواقعة تقع، والثلاثة الأصناف، والمقربون يُفصَّلون — سورة الغنى.'
+  en: A trail through the sura of the Event.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الوقوع
+    en: The Event
+  body:
+    ar: إذا وقعت الواقعة ليس لوقعتها كاذبة.
+    en: إذا وقعت الواقعة ليس لوقعتها كاذبة.
+  features:
+  - passage/quran-56
+  - passage/quran-56-1
+- title:
+    ar: الأصناف
+    en: The three
+  body:
+    ar: سابقون وأصحاب يمين وشمال.
+    en: سابقون وأصحاب يمين وشمال.
+  features:
+  - passage/quran-56-7
+  - concept/akhira
+- title:
+    ar: المقربون
+    en: The foremost
+  body:
+    ar: السابقون السابقون أولئك المقربون.
+    en: السابقون السابقون أولئك المقربون.
+  features:
+  - passage/quran-56-10
+  - passage/quran-56-10
+- title:
+    ar: اليمين
+    en: The right
+  body:
+    ar: 'أصحاب الميمنة: الجنة.'
+    en: 'أصحاب الميمنة: الجنة.'
+  features:
+  - passage/quran-56-27
+  - concept/akhira
+- title:
+    ar: الختام
+    en: The end
+  body:
+    ar: فسبح باسم ربك العظيم.
+    en: فسبح باسم ربك العظيم.
+  features:
+  - passage/quran-56-96
+  - passage/quran-56-96
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

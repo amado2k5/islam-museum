@@ -1,0 +1,77 @@
+id: exhibit/path-cinema-india
+class: exhibit
+kind: trail
+label:
+  ar: السينما الهندية
+  en: Indian Cinema
+summary:
+  ar: 'مسار في بوليوود المسلم: مغل عظم وجودها أكبر واسمي خان وبادماوات — المسلم الهندي على الشاشة.'
+  en: A trail through Bollywood's Muslim thread.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- south-asia
+rooms:
+- title:
+    ar: مغل عظم
+    en: Mughal-e-Azam
+  body:
+    ar: '1960: أكبر وأناركلي الخالدة.'
+    en: '1960: أكبر وأناركلي الخالدة.'
+  features:
+  - screen/mughal-azam-1960
+  - person/jalal-al-din-akbar
+- title:
+    ar: جودها أكبر
+    en: Jodhaa Akbar
+  body:
+    ar: '2008: الإمبراطور والراجبوتية.'
+    en: '2008: الإمبراطور والراجبوتية.'
+  features:
+  - screen/judha-akbar-2008
+  - person/jalal-al-din-akbar
+- title:
+    ar: اسمي خان
+    en: My Name Is Khan
+  body:
+    ar: '2010: الإسلاموفوبيا الأمريكية.'
+    en: '2010: الإسلاموفوبيا الأمريكية.'
+  features:
+  - screen/ismi-khan-2010
+  - screen/mammo-1994
+- title:
+    ar: بادماوات
+    en: Padmaavat
+  body:
+    ar: '2018: علاء الدين الخلجي على الشاشة.'
+    en: '2018: علاء الدين الخلجي على الشاشة.'
+  features:
+  - screen/padmavat-2018
+  - polity/delhi-sultanate
+- title:
+    ar: الواقعية
+    en: Realism
+  body:
+    ar: عليغarh ومانتو وفيRAAQ.
+    en: عليغarh ومانتو وفيRAAQ.
+  features:
+  - screen/aligarh-2015
+  - screen/manto-2018
+  - screen/firaaq-2008
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

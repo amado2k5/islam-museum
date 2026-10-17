@@ -1,0 +1,31 @@
+id: listing/halalbooking
+class: listing
+kind: travel
+label:
+  ar: حلال بوكينغ
+  en: HalalBooking
+summary:
+  ar: منصة سفر تركية-بريطانية متخصصة في السياحة المتوافقة مع احتياجات المسلمين.
+  en: HalalBooking.
+wings: []
+categories:
+- travel
+regions:
+- andalus-europe
+- anatolia-balkans
+founded:
+  edtf: '2009'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/official-website
+external_ids:
+  official: https://www.halalbooking.com
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16

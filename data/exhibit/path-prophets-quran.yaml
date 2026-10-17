@@ -1,0 +1,76 @@
+id: exhibit/path-prophets-quran
+class: exhibit
+kind: trail
+label:
+  ar: الأنبياء في القرآن
+  en: Prophets in the Qur'an
+summary:
+  ar: 'مسار في قصص الأنبياء القرآنية: مريم وطه والأنبياء — سور تُقرأ فتحكي خمسة وعشرين نبيًا.'
+  en: A trail through the Qur'anic prophets.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: مريم
+    en: Maryam
+  body:
+    ar: 'سورة باسمها: عيسى والعذراء.'
+    en: 'سورة باسمها: عيسى والعذراء.'
+  features:
+  - passage/quran-19
+  - passage/quran-19
+- title:
+    ar: طه
+    en: Ta-Ha
+  body:
+    ar: 'موسى والساحر والبحر: قصة الدعوة.'
+    en: 'موسى والساحر والبحر: قصة الدعوة.'
+  features:
+  - passage/quran-20
+  - passage/quran-20
+- title:
+    ar: الأنبياء
+    en: Al-Anbiya
+  body:
+    ar: 'واحد وعشرون نبيًا في سورة: الإبراهيميات.'
+    en: 'واحد وعشرون نبيًا في سورة: الإبراهيميات.'
+  features:
+  - passage/quran-21
+  - passage/quran-21
+- title:
+    ar: هود
+    en: Hud
+  body:
+    ar: 'سورة شيبت النبي: عاد وثمود.'
+    en: 'سورة شيبت النبي: عاد وثمود.'
+  features:
+  - passage/quran-11
+  - passage/quran-11
+- title:
+    ar: يوسف
+    en: Yusuf
+  body:
+    ar: 'أحسن القصص: سورة كاملة.'
+    en: 'أحسن القصص: سورة كاملة.'
+  features:
+  - passage/quran-12
+  - passage/quran-12
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

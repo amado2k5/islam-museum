@@ -1,0 +1,76 @@
+id: exhibit/path-persia-iran
+class: exhibit
+kind: trail
+label:
+  ar: الإسلام في إيران
+  en: Islam in Iran
+summary:
+  ar: 'مسار في إيران المسلمة: الفتح والبويهيين والسلاجقة، والصفويين يشيّعون الدولة، وأصفهان والعتبات.'
+  en: 'A trail through Muslim Iran: conquest, Buyids, Seljuks, the Safavid turn, Isfahan and the shrines.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: 'القادسية ونهاوند: الدولة الساسانية تنتهي 651.'
+    en: 'Qadisiyya and Nihavand: the Sasanian state ends, 651.'
+  features:
+  - event/battle-of-al-qadisiyya
+  - place/samarra
+- title:
+    ar: السلاجقة والبويهيون
+    en: Turks and Daylamites
+  body:
+    ar: قرن الملكشاه ونظام الملك والمدارس.
+    en: The century of Malikshah and Nizam al-Mulk's schools.
+  features:
+  - polity/seljuk-empire
+  - polity/buyid-dynasty
+- title:
+    ar: التحول الصفوي
+    en: The Safavid turn
+  body:
+    ar: '1501: إسماعيل يعلن التشيع مذهبًا للدولة.'
+    en: '1501: Isma''il declares Shi''ism the state creed.'
+  features:
+  - polity/safavid-iran
+  - polity/qajar-iran
+- title:
+    ar: أصفهان
+    en: Isfahan
+  body:
+    ar: 'نصف العالم في نظر الرحالة: محرابها وقبابها.'
+    en: '''Half the world'' to travellers: its mihrab and domes.'
+  features:
+  - object/mihrab-isfahan
+  - object/mihrab-kashan-1307
+- title:
+    ar: العتبات
+    en: The shrines
+  body:
+    ar: 'كربلاء والنجف: قبور الحسين وعلي.'
+    en: 'Karbala and Najaf: the tombs of Husayn and Ali.'
+  features:
+  - place/karbala
+  - place/najaf
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-3
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

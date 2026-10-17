@@ -1,0 +1,79 @@
+id: exhibit/path-islam-scholars-map
+class: exhibit
+kind: trail
+label:
+  ar: خريطة العلماء
+  en: Map of the Scholars
+summary:
+  ar: 'مسار في جغرافيا العلم: المدينة للفقه، والبصرة للنحو، وبغداد للترجمة، وبخارى للحديث، وقرطبة للفلسفة.'
+  en: A trail through the geography of learning.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: المدينة
+    en: Medina
+  body:
+    ar: 'فقه المدينة وحديثها: مدرسة الحجاز.'
+    en: 'فقه المدينة وحديثها: مدرسة الحجاز.'
+  features:
+  - place/medina
+  - person/malik-ibn-anas
+- title:
+    ar: البصرة والكوفة
+    en: Basra and Kufa
+  body:
+    ar: 'نحو البصرة وفقه الكوفة: مدينتا العراق.'
+    en: 'نحو البصرة وفقه الكوفة: مدينتا العراق.'
+  features:
+  - place/basra
+  - place/kufa
+  - person/sibawayh
+  - person/abu-hanifa
+- title:
+    ar: بغداد
+    en: Baghdad
+  body:
+    ar: 'الترجمة والكلام: عاصمة العلم ثلاثة قرون.'
+    en: 'الترجمة والكلام: عاصمة العلم ثلاثة قرون.'
+  features:
+  - place/baghdad
+  - building/bayt-al-hikma
+- title:
+    ar: خراسان
+    en: Khorasan
+  body:
+    ar: حديث بخارى ونيسابور وسمرقند.
+    en: حديث بخارى ونيسابور وسمرقند.
+  features:
+  - place/bukhara
+  - place/nishapur
+  - person/al-bukhari
+- title:
+    ar: الأندلس
+    en: Al-Andalus
+  body:
+    ar: فلسفة قرطبة ولغة إشبيلية.
+    en: فلسفة قرطبة ولغة إشبيلية.
+  features:
+  - place/cordoba
+  - person/ibn-rushd
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

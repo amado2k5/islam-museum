@@ -1,0 +1,76 @@
+id: exhibit/path-ibadi
+class: exhibit
+kind: trail
+label:
+  ar: الإباضية
+  en: The Ibadiyya
+summary:
+  ar: 'مسار في ثالث مذاهب الإسلام عددًا: الإباضية في عمان وميزاب وزنجبار — معتدل الخوارج ودولته العمانية.'
+  en: A trail through the third tradition.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- east-africa
+rooms:
+- title:
+    ar: المذهب
+    en: The tradition
+  body:
+    ar: 'الإباضية: جابر بن زيد ومدرسة البصرة.'
+    en: 'الإباضية: جابر بن زيد ومدرسة البصرة.'
+  features:
+  - group/ibadiyya
+  - place/basra
+- title:
+    ar: عمان
+    en: Oman
+  body:
+    ar: 'إمامة عمان: الإباضية دولة من 750.'
+    en: 'إمامة عمان: الإباضية دولة من 750.'
+  features:
+  - group/ibadiyya
+  - place/oman
+- title:
+    ar: ميزاب
+    en: Mzab
+  body:
+    ar: 'وادي ميزاب: الإباضية في الجزائر.'
+    en: 'وادي ميزاب: الإباضية في الجزائر.'
+  features:
+  - group/ibadiyya
+  - group/ibadiyya
+- title:
+    ar: زنجبار
+    en: Zanzibar
+  body:
+    ar: 'الإباضية في شرق أفريقيا: البوسعيد.'
+    en: 'الإباضية في شرق أفريقيا: البوسعيد.'
+  features:
+  - group/ibadiyya
+  - place/zanzibar
+- title:
+    ar: اليوم
+    en: Today
+  body:
+    ar: 'عمان الحديثة: الوسطية والاعتدال.'
+    en: 'عمان الحديثة: الوسطية والاعتدال.'
+  features:
+  - group/ibadiyya
+  - place/oman
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

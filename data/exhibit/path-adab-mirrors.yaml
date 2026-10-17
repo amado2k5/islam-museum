@@ -1,0 +1,76 @@
+id: exhibit/path-adab-mirrors
+class: exhibit
+kind: trail
+label:
+  ar: مرايا الأمراء
+  en: Mirrors for Princes
+summary:
+  ar: 'مسار في أدب السياسة: سياسة الملوك لنظام الملك، والسلطانية للماوردي، والتحف للمستنصر — كتب الحكم.'
+  en: A trail through political adab.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: نظام الملك
+    en: Nizam al-Mulk
+  body:
+    ar: 'سير الملوك: وصية الوزير العظيم.'
+    en: 'سير الملوك: وصية الوزير العظيم.'
+  features:
+  - person/nizam-al-mulk
+  - place/nishapur
+- title:
+    ar: الماوردي
+    en: Al-Mawardi
+  body:
+    ar: 'الأحكام السلطانية: فقه الدولة.'
+    en: 'الأحكام السلطانية: فقه الدولة.'
+  features:
+  - place/baghdad
+  - concept/sharia
+- title:
+    ar: الخلافة
+    en: The caliphate
+  body:
+    ar: 'نظرية الإمامة: السياسة الشرعية.'
+    en: 'نظرية الإمامة: السياسة الشرعية.'
+  features:
+  - concept/sharia
+  - polity/abbasid-caliphate
+- title:
+    ar: التجربة
+    en: The experience
+  body:
+    ar: ابن خلدون يتجاوز النصيحة إلى العلم.
+    en: ابن خلدون يتجاوز النصيحة إلى العلم.
+  features:
+  - person/ibn-khaldun
+  - work/al-muqaddima
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: من المرايا إلى العلوم السياسية.
+    en: من المرايا إلى العلوم السياسية.
+  features:
+  - work/al-muqaddima
+  - concept/adab
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

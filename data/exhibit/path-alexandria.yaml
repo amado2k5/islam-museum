@@ -1,0 +1,76 @@
+id: exhibit/path-alexandria
+class: exhibit
+kind: trail
+label:
+  ar: الإسكندرية
+  en: Alexandria
+summary:
+  ar: 'مسار في عروس المتوسط: منارة العالم القديم، ومسلة كليوباترا، وميناء الجمهورية — إسلامية منذ عمرو.'
+  en: A trail through the Mediterranean bride.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- egypt-nile
+rooms:
+- title:
+    ar: الفتح
+    en: The conquest
+  body:
+    ar: 'عمرو بن العاص يدخلها 641: مصر كلها بعدها.'
+    en: 'عمرو بن العاص يدخلها 641: مصر كلها بعدها.'
+  features:
+  - person/amr-ibn-al-as
+  - place/iskandariyya
+- title:
+    ar: المنارة
+    en: The lighthouse
+  body:
+    ar: 'عجيبة الدنيا السابعة: ألف عام تضيء.'
+    en: 'عجيبة الدنيا السابعة: ألف عام تضيء.'
+  features:
+  - building/al-manara-iskandariyya
+  - place/iskandariyya
+- title:
+    ar: المسلة
+    en: The obelisk
+  body:
+    ar: 'مسلة كليوباترا: أثر يشهد العصور.'
+    en: 'مسلة كليوباترا: أثر يشهد العصور.'
+  features:
+  - building/al-masalla-iskandariyya
+  - place/iskandariyya
+- title:
+    ar: المدينة اليوم
+    en: The city today
+  body:
+    ar: 'ميناء ومتنفس: الإسكندرية الحديثة.'
+    en: 'ميناء ومتنفس: الإسكندرية الحديثة.'
+  features:
+  - place/iskandariyya
+  - place/malab-iskandariyya
+- title:
+    ar: مصر
+    en: Egypt
+  body:
+    ar: 'من الإسكندرية إلى القاهرة: وادي النيل.'
+    en: 'من الإسكندرية إلى القاهرة: وادي النيل.'
+  features:
+  - place/cairo
+  - place/iskandarunah
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,75 @@
+id: exhibit/path-dhimma-history
+class: exhibit
+kind: trail
+label:
+  ar: أهل الذمة عبر التاريخ
+  en: Dhimmi Communities
+summary:
+  ar: 'مسار في علاقة المسلمين بأهل الكتاب: عقد الذمة والجزية، وعهدة عمر، وقرطبة وإسطنبول نماذج تعايش.'
+  en: A trail through Muslim-dhimmi relations.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: عقد الذمة
+    en: The covenant
+  body:
+    ar: 'أمان مقابل الجزية: ترتيب الفقه لأهل الكتاب.'
+    en: 'أمان مقابل الجزية: ترتيب الفقه لأهل الكتاب.'
+  features:
+  - concept/dhimma
+  - concept/jizya
+- title:
+    ar: العهدة العمرية
+    en: Umar's assurance
+  body:
+    ar: عمر يعطي أهل إيلياء أمانًا لأنفسهم وكنائسهم 638.
+    en: عمر يعطي أهل إيلياء أمانًا لأنفسهم وكنائسهم 638.
+  features:
+  - person/umar-ibn-al-khattab
+  - place/jerusalem
+- title:
+    ar: قرطبة
+    en: Cordoba
+  body:
+    ar: مسيحيو الأندلس ويهودها في العصر الأموي.
+    en: مسيحيو الأندلس ويهودها في العصر الأموي.
+  features:
+  - place/cordoba
+  - place/al-andalus
+- title:
+    ar: إسطنبول
+    en: Istanbul
+  body:
+    ar: المسيحيون واليهود في دولة الخلافة العثمانية.
+    en: المسيحيون واليهود في دولة الخلافة العثمانية.
+  features:
+  - place/istanbul
+  - polity/ottoman-empire
+- title:
+    ar: الأسئلة الصعبة
+    en: Hard questions
+  body:
+    ar: بطاقات المتحف في المواضيع الخلافية.
+    en: بطاقات المتحف في المواضيع الخلافية.
+  features:
+  - question/what-is-difference-sunni-shia
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

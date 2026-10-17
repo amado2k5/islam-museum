@@ -1,0 +1,30 @@
+id: listing/kuveyt-turk
+class: listing
+kind: company
+label:
+  ar: كويت ترك
+  en: Kuveyt Türk
+summary:
+  ar: أول بنك مشاركة في تركيا؛ تأسس 1989 بدعم كويتي ومن أكبر البنوك التشاركية التركية.
+  en: Kuveyt Türk.
+wings: []
+categories:
+- finance
+regions:
+- anatolia-balkans
+founded:
+  edtf: '1989'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/official-website
+external_ids:
+  official: https://www.kuveytturk.com.tr
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16

@@ -1,0 +1,76 @@
+id: exhibit/path-algeria
+class: exhibit
+kind: trail
+label:
+  ar: الجزائر
+  en: Algeria
+summary:
+  ar: 'مسار في الجزائر: قسنطينة الشرق، وتلمسان الزيانية، والجزائر العثمانية، وعبد القادر المقاوم — تاج
+    المغرب الأوسط.'
+  en: A trail through Algeria.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- maghreb
+rooms:
+- title:
+    ar: قسنطينة
+    en: Constantine
+  body:
+    ar: 'مدينة الجسور المعلقة: شرق الجزائر.'
+    en: 'مدينة الجسور المعلقة: شرق الجزائر.'
+  features:
+  - place/constantine
+- title:
+    ar: تلمسان
+    en: Tlemcen
+  body:
+    ar: 'عاصمة الزيانيين: مدارس وعمارة الموحدين.'
+    en: 'عاصمة الزيانيين: مدارس وعمارة الموحدين.'
+  features:
+  - place/tlemcen
+  - polity/zayyanid-tlemcen
+  - place/mansura-tlemcen
+- title:
+    ar: وهران
+    en: Oran
+  body:
+    ar: 'ميناء المتوسط: من المرابطين إلى الإسبان.'
+    en: 'ميناء المتوسط: من المرابطين إلى الإسبان.'
+  features:
+  - place/wahran
+- title:
+    ar: الجزائر العاصمة
+    en: Algiers
+  body:
+    ar: 'الدايات والبحرية: قلعة القصبة.'
+    en: 'الدايات والبحرية: قلعة القصبة.'
+  features:
+  - place/algiers
+  - person/khayr-al-din-barbarossa
+- title:
+    ar: عبد القادر
+    en: Abd al-Qadir
+  body:
+    ar: 'أمير المقاومة: خمس عشرة سنة ضد الاحتلال.'
+    en: 'أمير المقاومة: خمس عشرة سنة ضد الاحتلال.'
+  features:
+  - person/abd-al-qadir-al-jazairi
+  - place/damascus
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

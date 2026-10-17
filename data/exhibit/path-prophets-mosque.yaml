@@ -1,0 +1,77 @@
+id: exhibit/path-prophets-mosque
+class: exhibit
+kind: trail
+label:
+  ar: المسجد النبوي
+  en: The Prophet's Mosque
+summary:
+  ar: 'مسار في المسجد الثاني: تأسيس على التقوى، والروضة والمنبر، والقبة الخضراء — قلب المدينة أربعة عشر
+    قرنًا.'
+  en: A trail through the second mosque.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: التأسيس
+    en: The founding
+  body:
+    ar: 'أول عمل في المدينة: مسجد على تقوى.'
+    en: 'أول عمل في المدينة: مسجد على تقوى.'
+  features:
+  - building/prophets-mosque
+  - place/medina
+- title:
+    ar: الروضة
+    en: The Rawda
+  body:
+    ar: 'بين المنبر والبيت: جنة على الأرض.'
+    en: 'بين المنبر والبيت: جنة على الأرض.'
+  features:
+  - building/prophets-mosque
+  - person/muhammad
+- title:
+    ar: التوسعات
+    en: The expansions
+  body:
+    ar: عمر وعثمان والوليد والمماليك والعثمانيون.
+    en: عمر وعثمان والوليد والمماليك والعثمانيون.
+  features:
+  - building/prophets-mosque
+  - person/umar-ibn-al-khattab
+- title:
+    ar: القبة
+    en: The dome
+  body:
+    ar: 'الخضراء على الحجرة: علامة المدينة.'
+    en: 'الخضراء على الحجرة: علامة المدينة.'
+  features:
+  - building/prophets-mosque
+  - person/muhammad
+- title:
+    ar: الزيارة
+    en: The visit
+  body:
+    ar: 'السلام والمسجد: آداب الزيارة.'
+    en: 'السلام والمسجد: آداب الزيارة.'
+  features:
+  - place/medina
+  - practice/salat
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

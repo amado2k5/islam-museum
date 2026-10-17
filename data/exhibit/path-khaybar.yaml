@@ -1,0 +1,67 @@
+id: exhibit/path-khaybar
+class: exhibit
+kind: trail
+label:
+  ar: خيبر
+  en: Khaybar
+summary:
+  ar: 'مسار في خيبر: الحصون تفتح، وجعفر يعود من الحبشة، وعمر يجلي يهود خيبر وفدك — عهد جديد في الحجاز.'
+  en: A trail through Khaybar.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الحصون
+    en: The fortresses
+  body:
+    ar: 'سبع حصون تسقط: صفاح وناعم والقلعة.'
+    en: 'سبع حصون تسقط: صفاح وناعم والقلعة.'
+  features:
+  - event/battle-of-khaybar
+  - place/medina
+- title:
+    ar: عودة جعفر
+    en: Ja'far returns
+  body:
+    ar: الطيار يصل من الحبشة يوم الفتح.
+    en: الطيار يصل من الحبشة يوم الفتح.
+  features:
+  - event/jafar-arrival-at-khaybar
+  - event/jafar-arrival-at-khaybar
+- title:
+    ar: الأرض
+    en: The land
+  body:
+    ar: 'المزارعة على الشطر: خيبر تعطي ثمارها.'
+    en: 'المزارعة على الشطر: خيبر تعطي ثمارها.'
+  features:
+  - event/battle-of-khaybar
+  - event/battle-of-khaybar
+- title:
+    ar: الإجلاء
+    en: The expulsion
+  body:
+    ar: 'عمر يجلي يهود خيبر وفدك: تدبير الدولة.'
+    en: 'عمر يجلي يهود خيبر وفدك: تدبير الدولة.'
+  features:
+  - event/umar-expels-jews-of-khaybar-and-fadak
+  - event/umar-expels-jews-of-khaybar-and-fadak
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

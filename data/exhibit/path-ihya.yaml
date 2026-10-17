@@ -1,0 +1,77 @@
+id: exhibit/path-ihya
+class: exhibit
+kind: trail
+label:
+  ar: إحياء علوم الدين
+  en: Ihya Ulum al-Din
+summary:
+  ar: 'مسار في أعظم كتاب أخلاقي: الغزالي يترك التدريس ويخرج بالإحياء — عبادات وعادات ومهلكات ومنجيات في
+    أربعة أرباع.'
+  en: A trail through the greatest ethics book.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الغزالي
+    en: Al-Ghazali
+  body:
+    ar: 'حجة الإسلام: من نظامية بغداد إلى الزهد.'
+    en: 'حجة الإسلام: من نظامية بغداد إلى الزهد.'
+  features:
+  - person/al-ghazali-abu-hamid
+  - place/baghdad
+- title:
+    ar: الكتاب
+    en: The book
+  body:
+    ar: 'أربعة أرباع: العبادات والعادات والمهلكات والمنجيات.'
+    en: 'أربعة أرباع: العبادات والعادات والمهلكات والمنجيات.'
+  features:
+  - work/ihya-ulum-al-din
+  - concept/tasawwuf
+- title:
+    ar: الزهد
+    en: Zuhd
+  body:
+    ar: 'رياضة النفس: الزهد والإحسان درجات.'
+    en: 'رياضة النفس: الزهد والإحسان درجات.'
+  features:
+  - concept/zuhd
+  - concept/ihsan
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'الإحياء في المشرق والمغرب: إجماع ونقد.'
+    en: 'الإحياء في المشرق والمغرب: إجماع ونقد.'
+  features:
+  - work/ihya-ulum-al-din
+  - concept/tasawwuf
+- title:
+    ar: الطريق
+    en: The way
+  body:
+    ar: 'التصوف بعد الغزالي: علم يدخل المعترك.'
+    en: 'التصوف بعد الغزالي: علم يدخل المعترك.'
+  features:
+  - concept/tasawwuf
+  - person/al-nawawi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

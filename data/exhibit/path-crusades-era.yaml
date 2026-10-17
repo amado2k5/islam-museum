@@ -1,0 +1,77 @@
+id: exhibit/path-crusades-era
+class: exhibit
+kind: trail
+label:
+  ar: زمن الحروب الصليبية
+  en: The Crusading Era
+summary:
+  ar: 'مسار في قرنين من الحرب: سقوط القدس، ونور الدين وصلاح الدين وحطين، ونهاية الصليبيين في عكا.'
+  en: A trail through two centuries of crusade and counter-crusade.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: الصدمة
+    en: The shock
+  body:
+    ar: '1099: الصليبيون يدخلون القدس ويقتلون أهلها.'
+    en: '1099: the crusaders take Jerusalem.'
+  features:
+  - place/jerusalem
+  - question/what-were-the-crusades
+- title:
+    ar: الرد
+    en: The response
+  body:
+    ar: زنكي يسترد الرها ونور الدين يوحد الشام.
+    en: Zangi retakes Edessa; Nur al-Din unites Syria.
+  features:
+  - person/imad-al-din-zangi
+  - person/nur-al-din-mahmud-ibn-zangi
+- title:
+    ar: صلاح الدين
+    en: Saladin
+  body:
+    ar: حطين 1187 واسترداد القدس.
+    en: Hattin 1187 and Jerusalem's return.
+  features:
+  - person/salah-al-din-yusuf-ibn-ayyub
+  - event/battle-of-hattin-583
+  - polity/ayyubid-dynasty
+- title:
+    ar: الحملات اللاحقة
+    en: Later crusades
+  body:
+    ar: حملة بربروسا والحملات على مصر وتونس.
+    en: Barbarossa's march and the Egypt and Tunis campaigns.
+  features:
+  - event/barbarossa-crusade-586
+  - event/eighth-crusade-tunis-669
+- title:
+    ar: النهاية
+    en: The end
+  body:
+    ar: '1291: المماليك يطردون آخرهم من عكا.'
+    en: '1291: the Mamluks expel the last from Acre.'
+  features:
+  - person/baybars
+  - person/qutuz
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

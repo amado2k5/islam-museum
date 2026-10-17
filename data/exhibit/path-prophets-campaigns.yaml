@@ -1,0 +1,84 @@
+id: exhibit/path-prophets-campaigns
+class: exhibit
+kind: trail
+label:
+  ar: مغازي النبي
+  en: The Prophet's Campaigns
+summary:
+  ar: 'مسار في غزوات السيرة: بدر وأُحد والخندق والحديبية، ففتح مكة وحنين ومؤتة وتبوك — عشر سنين من الميدان.'
+  en: A trail through the sira's campaigns.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: بدر
+    en: Badr
+  body:
+    ar: 'الفرقان الأول: 2هـ/624م.'
+    en: 'الفرقان الأول: 2هـ/624م.'
+  features:
+  - event/badr-battle-day
+  - person/hamza
+- title:
+    ar: أُحد
+    en: Uhud
+  body:
+    ar: 'درس الطاعة: 3هـ/625م.'
+    en: 'درس الطاعة: 3هـ/625م.'
+  features:
+  - event/battle-of-uhud
+  - place/uhud
+- title:
+    ar: الخندق
+    en: The Trench
+  body:
+    ar: 'حصار الأحزاب: 5هـ/627م.'
+    en: 'حصار الأحزاب: 5هـ/627م.'
+  features:
+  - event/battle-of-the-trench
+  - person/salman-al-farisi
+- title:
+    ar: الحديبية
+    en: Hudaybiyya
+  body:
+    ar: 'الفتح بلا قتال: 6هـ/628م.'
+    en: 'الفتح بلا قتال: 6هـ/628م.'
+  features:
+  - event/treaty-of-hudaybiyya
+- title:
+    ar: الفتح وحنين
+    en: Conquest and Hunayn
+  body:
+    ar: 'مكة تفتح ثم وادي حنين: 8هـ/630م.'
+    en: 'مكة تفتح ثم وادي حنين: 8هـ/630م.'
+  features:
+  - event/fath-mecca-sermon
+  - event/battle-of-hunayn
+- title:
+    ar: مؤتة وتبوك
+    en: Mu'ta and Tabuk
+  body:
+    ar: 'الروم والشمال: 8-9هـ.'
+    en: 'الروم والشمال: 8-9هـ.'
+  features:
+  - event/battle-of-mutah
+  - event/expedition-to-tabuk
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

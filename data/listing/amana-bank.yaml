@@ -1,0 +1,30 @@
+id: listing/amana-bank
+class: listing
+kind: company
+label:
+  ar: بنك أمانة
+  en: Amana Bank
+summary:
+  ar: أول بنك إسلامي في سريلانكا؛ بدأ عمله 2011.
+  en: Amana Bank.
+wings: []
+categories:
+- finance
+regions:
+- south-asia
+founded:
+  edtf: '2011'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/wikidata
+external_ids:
+  wikidata: Q28451421
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16

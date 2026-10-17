@@ -1,0 +1,11 @@
+---
+id: passage/muwatta-18-2007
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+Malik transmits from Zayd ibn Aslam, from his father, that he said: Abdullah and Ubaydullah, the two sons of Umar ibn al-Khattab, went out with an army to Iraq. When they returned, they passed by Abu Musa al-Ashari, governor of Basra, who welcomed them warmly and said: if I could have done something more useful for you, I would have. He then said: there is money of God's money here, which I want to send to the Commander of the Believers. I will advance it to you; buy goods of Iraq with it, and sell them in Medina, and pay the capital to the Commander of the Believers, and the profit will be yours. They said: we would like that. He did it, and wrote to Umar ibn al-Khattab to take the money from them. When they arrived, they sold and made a profit. When they handed it to Umar, he said: did every soldier in the army get such an advance as you did? They said no. Umar said: you are the sons of the Commander of the Believers, so I advanced it to you; pay the money and its profit. Abdullah was silent, but Ubaydullah said: this is not right for you, Commander of the Believers; if the money had diminished or been lost, we would have guaranteed it. Umar said: pay it. Abdullah was silent, and Ubaydullah kept arguing. A man sitting with Umar said: Commander of the Believers, if you made it a profit-sharing arrangement. Umar said: I have made it one. Umar took back the capital and half the profit, and Abdullah and Ubaydullah took half the profit. {cite:muwatta-maruf-1997 p.221}
+
+## Place in the museum
+Belongs to [[passage/muwatta-kitab-18-qiraad|the Muwatta, Book of Profit-Sharing (qiradh)]]. Source: [[work/muwatta-malik|the Muwatta]]. Mentions [[person/malik-ibn-anas|Malik ibn Anas]], [[person/zayd-ibn-aslam|Zayd ibn Aslam]], [[person/abdullah-ibn-umar|Abdullah ibn Umar ibn al-Khattab]], [[person/ubaydallah-ibn-umar|Ubaydullah ibn Umar]], [[person/umar-ibn-al-khattab|Umar ibn al-Khattab]], [[person/abu-musa-al-ashari|Abu Musa al-Ashari]]. Built on in the chapters on [[concept/qiradh|profit-sharing (qiradh)]] and [[concept/salaf|advance purchase (salaf)]].

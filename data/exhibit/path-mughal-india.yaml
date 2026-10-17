@@ -1,0 +1,74 @@
+id: exhibit/path-mughal-india
+class: exhibit
+kind: trail
+label:
+  ar: الهند المغولية
+  en: Mughal India
+summary:
+  ar: 'مسار في إمبراطورية المغول: بابر وأكبر وتاج محل ودلهي وأغرا ولاهور.'
+  en: A trail through the Mughal empire.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- south-asia
+rooms:
+- title:
+    ar: التأسيس
+    en: The founding
+  body:
+    ar: بابر التيموري يفتح دلهي 1526 في بانيبات.
+    en: بابر التيموري يفتح دلهي 1526 في بانيبات.
+  features:
+  - polity/delhi-sultanate
+  - place/delhi
+- title:
+    ar: أكبر
+    en: Akbar
+  body:
+    ar: 'أعظم الأباطرة: صلح كلي وجدل الأديان.'
+    en: 'أعظم الأباطرة: صلح كلي وجدل الأديان.'
+  features:
+  - person/jalal-al-din-akbar
+  - place/agra
+- title:
+    ar: تاج محل
+    en: Taj Mahal
+  body:
+    ar: 'شاه جهان يبني ضريح ممتاز محل: أشهر بناء في العالم.'
+    en: 'شاه جهان يبني ضريح ممتاز محل: أشهر بناء في العالم.'
+  features:
+  - building/taj-mahal
+  - place/agra
+- title:
+    ar: لاهور
+    en: Lahore
+  body:
+    ar: 'عاصمة الشمال: قلعة ومسجد بادشاهي.'
+    en: 'عاصمة الشمال: قلعة ومسجد بادشاهي.'
+  features:
+  - place/lahore
+- title:
+    ar: الميراث
+    en: The legacy
+  body:
+    ar: إقبال يقرأ المغول ويكتب نهضة الأمة.
+    en: إقبال يقرأ المغول ويكتب نهضة الأمة.
+  features:
+  - person/muhammad-iqbal
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-4
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,30 @@
+id: listing/nzf
+class: listing
+kind: charity
+label:
+  ar: المؤسسة الوطنية للزكاة
+  en: National Zakat Foundation
+summary:
+  ar: مؤسسة بريطانية متخصصة في جمع الزكاة وتوزيعها على مسلمي بريطانيا المحتاجين.
+  en: National Zakat Foundation.
+wings: []
+categories:
+- charity
+regions:
+- andalus-europe
+founded:
+  edtf: '2011'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/official-website
+external_ids:
+  official: https://nzf.org.uk
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16

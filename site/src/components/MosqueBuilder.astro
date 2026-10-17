@@ -1,0 +1,268 @@
+---
+// Build-a-Mosque («ابنِ مسجدك»): tap-to-place mosque parts on a courtyard canvas.
+// The full parts catalog server-renders (no-JS readable); the client script
+// (site/src/scripts/mosque.ts) handles placing/removing parts, Hudhud's
+// milestone reactions, the mosque name, print and two-step start-over.
+import type { MosquePartView } from "../lib/kids";
+import Hudhud from "./Hudhud.astro";
+import type { Lang } from "../lib/i18n";
+
+interface Props { lang: Lang; t: Record<string, string>; parts: MosquePartView[] }
+const { lang, t, parts } = Astro.props;
+// Display pattern for the named mosque above the canvas: «مسجد {name}» / «{name} Mosque».
+const namePattern = lang === "ar" ? "مسجد {name}" : "{name} Mosque";
+---
+<div class="kids mosque" data-mosque
+  data-i18n-remove={t.mosque_remove}
+  data-i18n-pick={t.mosque_pick_part}
+  data-i18n-ms-first={t.mosque_milestone_first}
+  data-i18n-ms-dome={t.mosque_milestone_dome}
+  data-i18n-ms-minaret={t.mosque_milestone_minaret}
+  data-i18n-ms-all={t.mosque_milestone_all}
+  data-i18n-erase-done={t.erase_done}
+  data-name-pattern={namePattern}>
+  <h1>{t.mosque_title}</h1>
+  <p class="lede">{t.mosque_lede}</p>
+
+  <noscript><style>{`.mosque .js-only{display:none!important}`}</style></noscript>
+
+  <div class="mosque-hudhud js-only no-print">
+    <span class="hudhud-pose" data-hudhud="greet"><Hudhud pose="greet" size={96} /></span>
+    <span class="hudhud-pose" data-hudhud="think" hidden><Hudhud pose="think" size={96} /></span>
+    <span class="hudhud-pose" data-hudhud="celebrate" hidden><Hudhud pose="celebrate" size={96} /></span>
+    <p class="hudhud-speech" data-speech role="status">{t.mosque_pick_part}</p>
+  </div>
+
+  <p class="mosque-name-row js-only no-print">
+    <label for="mosque-name-input">{t.mosque_name_label}</label>
+    <input id="mosque-name-input" type="text" data-name-input
+      placeholder={t.mosque_name_placeholder} maxlength="40" autocomplete="off" />
+  </p>
+
+  <section class="mosque-palette js-only no-print" aria-label={t.mosque_pick_part}>
+    <h2>{t.mosque_pick_part}</h2>
+    <div class="parts-grid">
+      {parts.map((p) => (
+        <button type="button" class="part-btn" data-place={p.slug}
+          data-name={p.name} data-what={p.what} data-icon={p.icon}
+          aria-pressed="false" aria-label={`${p.name} — ${p.what}`}>
+          <span class="part-icon" aria-hidden="true">{p.icon}</span>
+          <span class="part-name">{p.name}</span>
+        </button>
+      ))}
+    </div>
+  </section>
+
+  <section class="mosque-canvas js-only" aria-label={t.mosque_canvas_title}>
+    <h2>{t.mosque_canvas_title}</h2>
+    <p class="mosque-named" data-name-line hidden><span data-name-text></span></p>
+    <div class="courtyard" data-canvas>
+      <p class="mosque-empty" data-empty>{t.mosque_empty_canvas}</p>
+    </div>
+  </section>
+
+  <p class="mosque-actions js-only no-print">
+    <button type="button" class="kids-btn" data-print>{t.mosque_print}</button>
+    <button type="button" class="kids-btn ghost" data-erase data-confirm={t.erase_confirm}>{t.mosque_start_over}</button>
+  </p>
+  <p class="erase-msg js-only" data-erase-msg role="status"></p>
+
+  <section class="mosque-print print-only" aria-label={t.mosque_print}>
+    <h2>{t.mosque_title}</h2>
+    <p class="print-name" data-print-name></p>
+    <ol class="print-list">
+      {parts.map((p) => (
+        <li data-print-item={p.slug}>
+          <span aria-hidden="true">{p.icon}</span>
+          {" "}<b>{p.name}</b> — {p.what}
+          <span class="print-example">{p.exampleBuilding}</span>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="mosque-all no-print" aria-label={t.mosque_all_parts}>
+    <h2>{t.mosque_all_parts}</h2>
+    <ul class="parts-catalog">
+      {parts.map((p) => (
+        <li>
+          <span class="cat-icon" aria-hidden="true">{p.icon}</span>
+          <div>
+            <b>{p.name}</b>
+            <p>{p.what}</p>
+            <p class="cat-example">{p.exampleBuilding}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+</div>
+<script src="../scripts/mosque.ts"></script>
+<style>
+.mosque { max-width: 920px; margin-inline: auto; }
+.mosque .lede { font-size: 1.1rem; }
+
+/* Hudhud host: mascot + speech bubble */
+.mosque-hudhud {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+.hudhud-pose { flex: none; }
+.hudhud-speech {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  background: #fffdf6;
+  border: 2px solid #c9a227;
+  border-radius: 14px;
+  padding: 0.75rem 1rem;
+  min-height: 48px;
+}
+
+/* name-your-mosque row */
+.mosque-name-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.mosque-name-row input {
+  min-height: 48px;
+  font-size: 1.1rem;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #c9a227;
+  border-radius: 12px;
+  background: #fffdf6;
+  color: inherit;
+  max-width: min(320px, 100%);
+}
+.mosque-name-row input:focus-visible { outline: 3px solid #1d3a6e; outline-offset: 2px; }
+
+/* parts palette */
+.parts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 1rem 0;
+}
+.part-btn {
+  min-height: 104px;
+  min-width: 48px;
+  padding: 12px 8px;
+  border: 2px solid #c9a227;
+  border-radius: 14px;
+  background: #fffdf6;
+  color: inherit;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+}
+.part-btn:focus-visible { outline: 3px solid #1d3a6e; outline-offset: 2px; }
+.part-btn .part-icon { font-size: 2.2rem; line-height: 1; }
+.part-btn .part-name { font-weight: 700; }
+.part-btn[aria-pressed="true"] { background: #fdf3d7; border-color: #8a6d1c; }
+
+/* courtyard canvas */
+.mosque-named {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 0.75rem;
+}
+.courtyard {
+  min-height: 240px;
+  border: 3px dashed #c9a227;
+  border-radius: 18px;
+  background: #f7f1de;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-content: flex-start;
+}
+.mosque-empty { margin: auto; font-size: 1.05rem; text-align: center; max-width: 34ch; }
+.placed-chip {
+  min-height: 104px;
+  min-width: 132px;
+  max-width: 220px;
+  padding: 12px;
+  border: 2px solid #8a6d1c;
+  border-radius: 14px;
+  background: #fffdf6;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+  animation: chip-pop 0.3s ease;
+}
+.placed-chip:focus-visible { outline: 3px solid #1d3a6e; outline-offset: 2px; }
+.placed-chip .chip-icon { font-size: 2rem; line-height: 1; }
+.placed-chip .chip-name { font-weight: 700; font-size: 1.05rem; }
+.placed-chip .chip-what { font-size: 0.9rem; opacity: 0.85; }
+@keyframes chip-pop {
+  0% { transform: scale(0.6); }
+  60% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+/* actions */
+.mosque-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 1.25rem; }
+.erase-msg { min-height: 1.4em; }
+
+/* print-only certificate */
+.mosque .print-only { display: none; }
+.print-name { font-size: 1.3rem; font-weight: 800; }
+.print-list { list-style: none; padding: 0; display: grid; gap: 8px; }
+.print-list li {
+  border: 1px solid #999;
+  border-radius: 10px;
+  padding: 8px 10px;
+  break-inside: avoid;
+  background: #fff;
+}
+.print-example, .cat-example { display: block; font-size: 0.95rem; opacity: 0.85; }
+
+/* static catalog (always on screen; the no-JS readable fallback) */
+.parts-catalog {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+.parts-catalog li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  border: 2px solid #c9a22788;
+  border-radius: 14px;
+  padding: 12px;
+  background: #fffdf6;
+}
+.parts-catalog .cat-icon { font-size: 2rem; line-height: 1.2; flex: none; }
+.parts-catalog p { margin: 0.25rem 0 0; }
+
+@media print {
+  .mosque .js-only,
+  .mosque .mosque-all { display: none !important; }
+  .mosque .print-only { display: block !important; }
+  .print-list { grid-template-columns: 1fr 1fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .placed-chip { animation: none; }
+}
+</style>

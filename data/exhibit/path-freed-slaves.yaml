@@ -1,0 +1,76 @@
+id: exhibit/path-freed-slaves
+class: exhibit
+kind: trail
+label:
+  ar: العتق في الإسلام
+  en: Freedom in Islam
+summary:
+  ar: 'مسار في الرق والعتق: بلال وخباب وسلمان وزيد عتقاء النبوة، والمماليك عبيدًا فسلاطين — رحلة الحرية.'
+  en: A trail through slavery and emancipation.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: العتقاء
+    en: The freed
+  body:
+    ar: بلال يعتقه أبو بكر وسلمان يشترى نفسه.
+    en: بلال يعتقه أبو بكر وسلمان يشترى نفسه.
+  features:
+  - person/bilal-ibn-rabah
+  - person/salman-al-farisi
+  - person/khabbab-ibn-al-aratt
+- title:
+    ar: زيد بن حارثة
+    en: Zayd
+  body:
+    ar: 'المولى الذي اختار النبي: ابن بالحب.'
+    en: 'المولى الذي اختار النبي: ابن بالحب.'
+  features:
+  - person/zayd-ibn-haritha
+- title:
+    ar: المماليك
+    en: The Mamluks
+  body:
+    ar: من الجند العبيد إلى سلاطين مصر والهند.
+    en: من الجند العبيد إلى سلاطين مصر والهند.
+  features:
+  - person/qutuz
+  - person/baybars
+  - polity/delhi-sultanate
+- title:
+    ar: شجر الدر
+    en: Shajar al-Durr
+  body:
+    ar: الجارية التي صارت سلطانة.
+    en: الجارية التي صارت سلطانة.
+  features:
+  - person/shajar-al-durr
+- title:
+    ar: الشرع والعصر
+    en: Law and era
+  body:
+    ar: 'فقه العتق وتاريخه: بطاقات المتحف.'
+    en: 'فقه العتق وتاريخه: بطاقات المتحف.'
+  features:
+  - question/what-is-islam
+  - concept/sharia
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

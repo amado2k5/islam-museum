@@ -1,0 +1,30 @@
+id: listing/ta-ha-publishers
+class: listing
+kind: publisher
+label:
+  ar: طه للنشر
+  en: Ta-Ha Publishers
+summary:
+  ar: دار نشر بريطانية إسلامية تأسست 1980؛ من أقدم ناشري الكتب الإسلامية الإنجليزية.
+  en: Ta-Ha Publishers.
+wings: []
+categories:
+- books
+regions:
+- andalus-europe
+founded:
+  edtf: '1980'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/official-website
+external_ids:
+  official: https://www.taha.co.uk
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16

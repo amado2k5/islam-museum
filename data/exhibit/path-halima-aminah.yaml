@@ -1,0 +1,76 @@
+id: exhibit/path-halima-aminah
+class: exhibit
+kind: trail
+label:
+  ar: الرضاعة والنشأة
+  en: The Foster Mother
+summary:
+  ar: 'مسار في طفولة النبي: آمنة تلده، وحليمة السعدية ترضعه في بني سعد — أول السيرة.'
+  en: A trail through the Prophet's infancy.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: آمنة
+    en: Amina
+  body:
+    ar: 'بنت وهب: الولادة في عام الفيل.'
+    en: 'بنت وهب: الولادة في عام الفيل.'
+  features:
+  - person/muhammad
+  - place/mecca
+- title:
+    ar: حليمة
+    en: Halima
+  body:
+    ar: 'السعدية: الرضيع في بادية بني سعد.'
+    en: 'السعدية: الرضيع في بادية بني سعد.'
+  features:
+  - person/halima-al-sadiyya
+  - place/mecca
+- title:
+    ar: البادية
+    en: The desert
+  body:
+    ar: 'بني سعد: فصاحة وصحة الجسد.'
+    en: 'بني سعد: فصاحة وصحة الجسد.'
+  features:
+  - person/halima-al-sadiyya
+  - person/halima-al-sadiyya
+- title:
+    ar: العودة
+    en: The return
+  body:
+    ar: 'ست سنوات ثم اليتم: أمه وجده.'
+    en: 'ست سنوات ثم اليتم: أمه وجده.'
+  features:
+  - person/muhammad
+  - place/mecca
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'الرضاعة في الفقه: باب كامل.'
+    en: 'الرضاعة في الفقه: باب كامل.'
+  features:
+  - concept/fiqh
+  - concept/fiqh
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,76 @@
+id: exhibit/path-surah-fajr
+class: exhibit
+kind: trail
+label:
+  ar: سورة الفجر
+  en: Surah al-Fajr
+summary:
+  ar: 'مسار في سورة الأيام: عاد إرم وثمود وفرعون، والإنسان يُختبر بالكرامة والبلاء، والنفس المطمئنة تُدعى.'
+  en: A trail through the dawn sura.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: القسم
+    en: The oath
+  body:
+    ar: والفجر وليال عشر.
+    en: والفجر وليال عشر.
+  features:
+  - passage/quran-89
+  - passage/quran-89-1
+- title:
+    ar: إرم
+    en: Iram
+  body:
+    ar: عاد إرم ذات العماد.
+    en: عاد إرم ذات العماد.
+  features:
+  - passage/quran-89-6
+  - passage/quran-89-6
+- title:
+    ar: فرعون
+    en: Pharaoh
+  body:
+    ar: 'وفرعون ذي الأوتاد: الجبابرة.'
+    en: 'وفرعون ذي الأوتاد: الجبابرة.'
+  features:
+  - passage/quran-89-10
+  - passage/quran-89-10
+- title:
+    ar: النفس
+    en: The soul
+  body:
+    ar: يا أيتها النفس المطمئنة.
+    en: يا أيتها النفس المطمئنة.
+  features:
+  - passage/quran-89-27
+  - concept/ihsan
+- title:
+    ar: العودة
+    en: The return
+  body:
+    ar: ارجعي إلى ربك راضية مرضية.
+    en: ارجعي إلى ربك راضية مرضية.
+  features:
+  - passage/quran-89-28
+  - concept/akhira
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

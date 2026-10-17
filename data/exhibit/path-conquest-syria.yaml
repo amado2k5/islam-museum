@@ -1,0 +1,80 @@
+id: exhibit/path-conquest-syria
+class: exhibit
+kind: trail
+label:
+  ar: فتح الشام
+  en: The Conquest of Syria
+summary:
+  ar: 'مسار في فتوح عمر: بصرى ودمشق وحمص تُفتح، واليرموك يحسم أمر الروم، والقدس تستسلم للخليفة نفسه.'
+  en: A trail through Umar's conquests.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: القيادة
+    en: The command
+  body:
+    ar: 'أبو عبيدة وخالد ويزيد وشرحبيل: جيوش أربعة.'
+    en: 'أبو عبيدة وخالد ويزيد وشرحبيل: جيوش أربعة.'
+  features:
+  - person/abu-ubayda-ibn-al-jarrah
+  - person/khalid-ibn-al-walid
+  - person/yazid-ibn-abi-sufyan
+  - person/shurahbil-ibn-hasana
+- title:
+    ar: المدن
+    en: The cities
+  body:
+    ar: بصرى أولًا ثم دمشق بعد حصارين.
+    en: بصرى أولًا ثم دمشق بعد حصارين.
+  features:
+  - event/conquest-of-busra
+  - event/conquest-of-damascus
+  - place/damascus
+- title:
+    ar: اليرموك
+    en: Yarmouk
+  body:
+    ar: '636: المعركة التي أنهت ألف سنة رومانية.'
+    en: '636: المعركة التي أنهت ألف سنة رومانية.'
+  features:
+  - event/battle-of-yarmuk
+  - person/khalid-ibn-al-walid
+- title:
+    ar: حمص وبعدها
+    en: Homs and beyond
+  body:
+    ar: 'الشمال يفتح: حمص وقنسرين وحلب.'
+    en: 'الشمال يفتح: حمص وقنسرين وحلب.'
+  features:
+  - event/conquest-of-hims
+  - place/aleppo
+  - event/conquest-of-syria
+- title:
+    ar: القدس
+    en: Jerusalem
+  body:
+    ar: 'المدينة تستسلم للخليفة: العهدة العمرية.'
+    en: 'المدينة تستسلم للخليفة: العهدة العمرية.'
+  features:
+  - event/conquest-of-jerusalem
+  - event/conquest-of-jerusalem
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

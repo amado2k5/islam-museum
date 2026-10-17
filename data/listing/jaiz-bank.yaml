@@ -1,0 +1,30 @@
+id: listing/jaiz-bank
+class: listing
+kind: company
+label:
+  ar: بنك جايز
+  en: Jaiz Bank
+summary:
+  ar: أول بنك غير ربوي كامل في نيجيريا؛ تأسس 2011 وبدأ العمل 2012.
+  en: Jaiz Bank.
+wings: []
+categories:
+- finance
+regions:
+- west-africa-sahel
+founded:
+  edtf: '2011'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/wikidata
+external_ids:
+  wikidata: Q6124318
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via Wikidata, 2026-10-16

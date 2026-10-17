@@ -1,0 +1,79 @@
+id: exhibit/path-rashidun-era
+class: exhibit
+kind: trail
+label:
+  ar: عهد الخلفاء الراشدين
+  en: The Rashidun Era
+summary:
+  ar: 'مسار في ثلاثين سنة شكّلت الإسلام: خلافة أبي بكر وعمر وعثمان وعلي — الإجماع والفتوح والمصحف والفتنة.'
+  en: 'A trail through thirty formative years: Abu Bakr, Umar, Uthman and Ali — consensus, conquests,
+    codex and strife.'
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: أبو بكر
+    en: Abu Bakr
+  body:
+    ar: 'سنتان: حرب الردة وجمع القرآن وفتح العراق والشام.'
+    en: 'Two years: the Ridda wars, the codex, Iraq and Syria.'
+  features:
+  - person/abu-bakr
+  - person/khalid-ibn-al-walid
+- title:
+    ar: عمر
+    en: Umar
+  body:
+    ar: 'عشر سنين: الفتوح والدواوين والأمصار والتقويم.'
+    en: 'Ten years: conquests, registers, garrison cities, calendar.'
+  features:
+  - person/umar-ibn-al-khattab
+  - event/battle-of-yarmuk
+  - event/battle-of-al-qadisiyya
+- title:
+    ar: عثمان
+    en: Uthman
+  body:
+    ar: 'اثنتا عشرة سنة: المصحف الجامع والأسطول ثم الفتنة.'
+    en: 'Twelve years: one codex, a navy, then strife.'
+  features:
+  - person/uthman-ibn-affan
+  - person/zayd-ibn-thabit
+- title:
+    ar: علي
+    en: Ali
+  body:
+    ar: 'خمس سنين بين الحق والخارج: الجمل وصفين والنهروان.'
+    en: 'Five years amid civil strife: Jamal, Siffin, Nahrawan.'
+  features:
+  - person/ali-ibn-abi-talib
+  - person/muawiya-ibn-abi-sufyan
+  - group/khawarij
+- title:
+    ar: النهاية والانتقال
+    en: The transition
+  body:
+    ar: 'عام الجماعة 661: معاوية يؤسس عهدًا جديدًا.'
+    en: 'The Year of Unity, 661: a new order begins.'
+  features:
+  - polity/umayyad-caliphate
+  - question/who-led-muslims-after-prophet
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-2
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

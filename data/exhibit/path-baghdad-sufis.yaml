@@ -1,0 +1,77 @@
+id: exhibit/path-baghdad-sufis
+class: exhibit
+kind: trail
+label:
+  ar: صوفية بغداد
+  en: The Baghdad Sufis
+summary:
+  ar: 'مسار في مدرسة بغداد: معروف الكرخي وسري السقطي والجنيد والمحاسبي والحلاج — التصوف يتأسس في عاصمة
+    الخلافة.'
+  en: A trail through the Baghdad school.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: معروف
+    en: Ma'ruf
+  body:
+    ar: 'الكرخي: أبو السلسلة البغدادية.'
+    en: 'الكرخي: أبو السلسلة البغدادية.'
+  features:
+  - person/maruf-al-karkhi
+  - place/baghdad
+- title:
+    ar: سري
+    en: Sari
+  body:
+    ar: 'السقطي: شيخ الجنيد وأول المقامات.'
+    en: 'السقطي: شيخ الجنيد وأول المقامات.'
+  features:
+  - person/sari-al-saqati
+  - place/baghdad
+- title:
+    ar: الجنيد
+    en: Al-Junayd
+  body:
+    ar: 'سيد الطائفة: صوفي العلماء.'
+    en: 'سيد الطائفة: صوفي العلماء.'
+  features:
+  - person/al-junayd-ibn-muhammad
+  - place/baghdad
+- title:
+    ar: المحاسبي
+    en: Al-Muhasibi
+  body:
+    ar: 'الحارث: محاسبة النفس علمًا.'
+    en: 'الحارث: محاسبة النفس علمًا.'
+  features:
+  - person/al-harith-al-muhasibi
+  - place/baghdad
+- title:
+    ar: الحلاج
+    en: Al-Hallaj
+  body:
+    ar: 'الشاهد والشهيد: أنا الحق.'
+    en: 'الشاهد والشهيد: أنا الحق.'
+  features:
+  - person/al-hallaj
+  - place/baghdad
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

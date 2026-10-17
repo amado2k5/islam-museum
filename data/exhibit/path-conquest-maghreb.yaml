@@ -1,0 +1,77 @@
+id: exhibit/path-conquest-maghreb
+class: exhibit
+kind: trail
+label:
+  ar: فتح المغرب
+  en: The Conquest of the Maghreb
+summary:
+  ar: 'مسار في فتوح إفريقية: عقبة بن نافع يؤسس القيروان، وطنجة تسقط، والمغرب كله إلى المحيط — ثمانون سنة
+    من التقدم.'
+  en: A trail through the conquest of Africa.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- maghreb
+rooms:
+- title:
+    ar: عقبة
+    en: Uqba
+  body:
+    ar: 'ابن نافع: صاحب القيروان وأسطورة الغرب.'
+    en: 'ابن نافع: صاحب القيروان وأسطورة الغرب.'
+  features:
+  - person/uqba-ibn-nafi
+  - place/qayrawan
+- title:
+    ar: القيروان
+    en: Kairouan
+  body:
+    ar: '670: أول مصر مغربي يُؤسس.'
+    en: '670: أول مصر مغربي يُؤسس.'
+  features:
+  - place/qayrawan
+  - place/tunis
+- title:
+    ar: طنجة
+    en: Tangier
+  body:
+    ar: 'الطريق الغربي ينفتح: باب الأندلس.'
+    en: 'الطريق الغربي ينفتح: باب الأندلس.'
+  features:
+  - event/conquest-of-tanja
+  - event/conquest-of-tanja
+- title:
+    ar: موسى بن نصير
+    en: Musa ibn Nusayr
+  body:
+    ar: والي إفريقية يكمل الفتح إلى المحيط.
+    en: والي إفريقية يكمل الفتح إلى المحيط.
+  features:
+  - person/musa-ibn-nusayr
+  - place/qayrawan
+- title:
+    ar: نحو الأندلس
+    en: Toward Iberia
+  body:
+    ar: 'الضفة الأخرى تنتظر: جبل طارق قريب.'
+    en: 'الضفة الأخرى تنتظر: جبل طارق قريب.'
+  features:
+  - person/tariq-ibn-ziyad
+  - place/al-andalus
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

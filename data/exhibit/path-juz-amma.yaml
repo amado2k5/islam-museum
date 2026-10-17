@@ -1,0 +1,79 @@
+id: exhibit/path-juz-amma
+class: exhibit
+kind: trail
+label:
+  ar: جزء عمّ
+  en: Juz Amma
+summary:
+  ar: 'مسار في الجزء الثلاثين: اقرأ أول الوحي، والكوثر، والإخلاص ربع القرآن، والمعوذتين — سور الطفل الأولى.'
+  en: A trail through the thirtieth juz.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: اقرأ
+    en: Iqra'
+  body:
+    ar: 'أول ما نزل: العلق يعلن الرسالة.'
+    en: 'أول ما نزل: العلق يعلن الرسالة.'
+  features:
+  - passage/quran-96-1
+  - passage/quran-96
+  - place/mecca
+- title:
+    ar: الكوثر
+    en: Al-Kawthar
+  body:
+    ar: 'أقصر سورة: النهر ووعد الكثرة.'
+    en: 'أقصر سورة: النهر ووعد الكثرة.'
+  features:
+  - passage/quran-108-1
+  - passage/quran-96-1
+- title:
+    ar: الإخلاص
+    en: Al-Ikhlas
+  body:
+    ar: 'قل هو الله أحد: ثلث القرآن في المعنى.'
+    en: 'قل هو الله أحد: ثلث القرآن في المعنى.'
+  features:
+  - passage/quran-112-1
+  - passage/quran-112
+- title:
+    ar: المعوذتان
+    en: The two protections
+  body:
+    ar: 'الفلق والناس: الاستعاذة اليومية.'
+    en: 'الفلق والناس: الاستعاذة اليومية.'
+  features:
+  - passage/quran-113-1
+  - passage/quran-114-1
+  - passage/quran-113
+  - passage/quran-114
+- title:
+    ar: الحفظ
+    en: Memorisation
+  body:
+    ar: 'سور الطفل الأولى: مدرسة الحفظ.'
+    en: 'سور الطفل الأولى: مدرسة الحفظ.'
+  features:
+  - practice/hifz-al-quran
+  - concept/kalam-allah
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

@@ -1,0 +1,30 @@
+id: listing/bindawood
+class: listing
+kind: company
+label:
+  ar: أسواق بن داود
+  en: BinDawood Holding
+summary:
+  ar: شركة تجزئة سعودية مدرجة تأسست 1984؛ تدير متاجر بن داود والدانوب في الحجاز وجدة.
+  en: BinDawood Holding.
+wings: []
+categories:
+- food
+regions:
+- arabia
+founded:
+  edtf: '1984'
+  calendar: gregorian
+  precision: year
+made:
+  by_muslims: true
+  basis: documented
+  sources: &id001
+  - source/official-website
+external_ids:
+  official: https://www.bindawood.com
+sources: *id001
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), listings lane; via official website, 2026-10-16

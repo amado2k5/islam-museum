@@ -1,0 +1,67 @@
+id: exhibit/path-screen-epics
+class: exhibit
+kind: trail
+label:
+  ar: الملاحم على الشاشة
+  en: Epics on Screen
+summary:
+  ar: 'مسار في سينما السيرة والبطولة: الرسالة يحكي البعثة، وعمر المختار أسد الصحراء، ومختارنامه الإيراني.'
+  en: A trail through sira and heroism on screen.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الرسالة
+    en: The Message
+  body:
+    ar: 'مصطفى العقاد 1976: البعثة بلا تجسيد.'
+    en: 'مصطفى العقاد 1976: البعثة بلا تجسيد.'
+  features:
+  - screen/al-risala-1976
+  - place/mecca
+- title:
+    ar: عمر المختار
+    en: Omar al-Mukhtar
+  body:
+    ar: 'أسد الصحراء 1981: العقاد الثاني في ليبيا.'
+    en: 'أسد الصحراء 1981: العقاد الثاني في ليبيا.'
+  features:
+  - screen/umar-al-mukhtar-1981
+  - place/cairo
+- title:
+    ar: مختارنامه
+    en: Mukhtarnameh
+  body:
+    ar: المختار الثقفي على الشاشة الإيرانية.
+    en: المختار الثقفي على الشاشة الإيرانية.
+  features:
+  - screen/mukhtarnameh-2011
+  - place/kufa
+- title:
+    ar: قاعة العرض
+    en: The Screening Room
+  body:
+    ar: 'الفهرس الكامل: 300+ عمل موثق.'
+    en: 'الفهرس الكامل: 300+ عمل موثق.'
+  features:
+  - screen/al-risala-1976
+  - concept/adab
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

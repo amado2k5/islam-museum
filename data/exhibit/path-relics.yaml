@@ -1,0 +1,68 @@
+id: exhibit/path-relics
+class: exhibit
+kind: trail
+label:
+  ar: آثار مقدسة
+  en: Sacred Relics
+summary:
+  ar: 'مسار في الآثار المرتبطة بالنبي: سيفه في توب قابي، وكرسي المصحف، وكسوة البيت — ذاكرة الأشياء.'
+  en: A trail through relics tied to the Prophet.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: السلاح
+    en: The arms
+  body:
+    ar: 'سيف النبي وآثار القتال: خزانة توب قابي.'
+    en: 'سيف النبي وآثار القتال: خزانة توب قابي.'
+  features:
+  - object/sayf-al-nabi
+  - place/istanbul
+- title:
+    ar: كسوة البيت
+    en: The Kiswa
+  body:
+    ar: 'أعظم نسيج: تجدد كل عام على الكعبة.'
+    en: 'أعظم نسيج: تجدد كل عام على الكعبة.'
+  features:
+  - object/kiswa
+  - building/kaaba
+- title:
+    ar: المصاحف
+    en: The codices
+  body:
+    ar: 'مصاحف الصحابة والخلفاء: أقدم الآثار.'
+    en: 'مصاحف الصحابة والخلفاء: أقدم الآثار.'
+  features:
+  - object/al-mushaf-al-azraq
+  - object/kursi-quran
+  - object/jild-quran-usmani
+- title:
+    ar: الزيارة
+    en: Visitation
+  body:
+    ar: 'الحرمان والروضة: رحلة الزائر.'
+    en: 'الحرمان والروضة: رحلة الزائر.'
+  features:
+  - building/prophets-mosque
+  - practice/ziyarat-al-qubur
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

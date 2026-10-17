@@ -46,18 +46,36 @@ export function loadEnumIds(name: string): string[] {
 }
 
 export interface Stub { id: string; label?: Localized; note?: string }
+// Parsing ~17,000 entity files takes seconds, and the pipeline tests load them once per test. The parsed
+// result is kept for the life of the process and handed out as a fresh deep copy, so a caller that mutates
+// its copy cannot change what the next caller sees. A test that edits a data file on disk must call
+// clearRepoCache() before it reads the repository again.
+let entityCache: { entity: Entity; file: string }[] | null = null;
+let stubCache: Stub[] | null = null;
+
+export function clearRepoCache(): void {
+  entityCache = null;
+  stubCache = null;
+}
+
 export function loadStubs(): Stub[] {
   // data/_stubs.yaml plus any data/_stubs.d/*.yaml, so parallel contributors never edit the same file
-  const files = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")];
-  return files.filter((f) => existsSync(f)).flatMap((f) => readYaml<Stub[]>(f) ?? []);
+  if (!stubCache) {
+    const files = [p("data", "_stubs.yaml"), ...listFiles(p("data", "_stubs.d"), ".yaml")];
+    stubCache = files.filter((f) => existsSync(f)).flatMap((f) => readYaml<Stub[]>(f) ?? []);
+  }
+  return structuredClone(stubCache);
 }
 
 export function loadEntities(): { entity: Entity; file: string }[] {
-  const out: { entity: Entity; file: string }[] = [];
-  for (const cls of CLASSES) {
-    for (const file of listFiles(p("data", cls), ".yaml")) out.push({ entity: readYaml<Entity>(file), file });
+  if (!entityCache) {
+    const out: { entity: Entity; file: string }[] = [];
+    for (const cls of CLASSES) {
+      for (const file of listFiles(p("data", cls), ".yaml")) out.push({ entity: readYaml<Entity>(file), file });
+    }
+    entityCache = out;
   }
-  return out;
+  return structuredClone(entityCache);
 }
 
 export function loadProse(): Prose[] {

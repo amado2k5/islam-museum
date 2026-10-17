@@ -1,0 +1,77 @@
+id: exhibit/path-darb-zubayda
+class: exhibit
+kind: trail
+label:
+  ar: درب زبيدة
+  en: Darb Zubayda
+summary:
+  ar: 'مسار في أعظم طريق حج في التاريخ: زبيدة تمده بالماء من الكوفة إلى مكة — طريق الخلافة العباسية.'
+  en: A trail through the greatest pilgrim road.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الطريق
+    en: The road
+  body:
+    ar: 1400 كم من الكوفة إلى مكة.
+    en: 1400 كم من الكوفة إلى مكة.
+  features:
+  - journey/darb-zubayda
+  - place/kufa
+  - place/mecca
+- title:
+    ar: زبيدة
+    en: Zubayda
+  body:
+    ar: 'زوجة الرشيد: الوقف يبني الطريق.'
+    en: 'زوجة الرشيد: الوقف يبني الطريق.'
+  features:
+  - journey/darb-zubayda
+  - journey/darb-zubayda
+- title:
+    ar: الماء
+    en: The water
+  body:
+    ar: 'البرك والآبار والقنوات: عطش الحجاج يُرد.'
+    en: 'البرك والآبار والقنوات: عطش الحجاج يُرد.'
+  features:
+  - journey/darb-zubayda
+  - practice/hajj
+- title:
+    ar: الحجاج
+    en: The pilgrims
+  body:
+    ar: 'قرون من القوافل: العراق يحج.'
+    en: 'قرون من القوافل: العراق يحج.'
+  features:
+  - journey/darb-zubayda
+  - place/baghdad
+- title:
+    ar: الآثار
+    en: The remains
+  body:
+    ar: 'المحطات اليوم: تسعة وثلاثون موقفًا.'
+    en: 'المحطات اليوم: تسعة وثلاثون موقفًا.'
+  features:
+  - journey/darb-zubayda
+  - practice/hajj
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

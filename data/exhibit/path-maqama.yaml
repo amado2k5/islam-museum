@@ -1,0 +1,77 @@
+id: exhibit/path-maqama
+class: exhibit
+kind: trail
+label:
+  ar: فن المقامة
+  en: The Art of the Maqama
+summary:
+  ar: 'مسار في الجنس الأدبي العربي الفريد: بديع الزمان يخترعها، والحريري يبلغ بها الذروة — عيّار يطوف
+    البلدان.'
+  en: A trail through the unique Arabic genre.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- levant-iraq
+rooms:
+- title:
+    ar: البديع
+    en: Badi' al-Zaman
+  body:
+    ar: 'ابن همذان يخترع المقامة: أدب التكفف.'
+    en: 'ابن همذان يخترع المقامة: أدب التكفف.'
+  features:
+  - work/maqamat-badi-al-zaman
+  - place/hamadan
+- title:
+    ar: الحريري
+    en: Al-Hariri
+  body:
+    ar: 'قاسم الحريري: خمسون مقامة تتوج الفن.'
+    en: 'قاسم الحريري: خمسون مقامة تتوج الفن.'
+  features:
+  - person/al-hariri
+  - work/maqamat-al-hariri
+- title:
+    ar: البصرة
+    en: Basra
+  body:
+    ar: 'مدينة المقامات: أدب البصرة يعم العالم.'
+    en: 'مدينة المقامات: أدب البصرة يعم العالم.'
+  features:
+  - place/basra
+  - work/maqamat-al-hariri
+- title:
+    ar: الأسلوب
+    en: The style
+  body:
+    ar: 'سجع وفصاحة وألغاز: نثر معقّد.'
+    en: 'سجع وفصاحة وألغاز: نثر معقّد.'
+  features:
+  - work/maqamat-al-hariri
+  - concept/adab
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'من المقامة إلى الرواية: أصل القصة.'
+    en: 'من المقامة إلى الرواية: أصل القصة.'
+  features:
+  - work/maqamat-al-hariri
+  - work/alf-layla-wa-layla
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
