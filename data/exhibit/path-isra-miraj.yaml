@@ -1,0 +1,76 @@
+id: exhibit/path-isra-miraj
+class: exhibit
+kind: trail
+label:
+  ar: الإسراء والمعراج
+  en: Al-Isra' wal-Mi'raj
+summary:
+  ar: 'مسار في الليلة الأعظم: من الحرم إلى الأقصى إلى السماوات، والصلاة تُفرض — رحلة الرسول الأخروية.'
+  en: A trail through the greatest night.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: الإسراء
+    en: The Isra'
+  body:
+    ar: 'من الحرم إلى الأقصى: البراق يطير.'
+    en: 'من الحرم إلى الأقصى: البراق يطير.'
+  features:
+  - event/isra-and-miraj
+  - building/al-aqsa-mosque
+- title:
+    ar: المعراج
+    en: The Mi'raj
+  body:
+    ar: 'السماوات السبع: إلى سدرة المنتهى.'
+    en: 'السماوات السبع: إلى سدرة المنتهى.'
+  features:
+  - event/isra-and-miraj
+  - passage/quran-17-1
+- title:
+    ar: الصلاة
+    en: The prayer
+  body:
+    ar: 'خمسون فخمس: هدية المعراج.'
+    en: 'خمسون فخمس: هدية المعراج.'
+  features:
+  - event/isra-and-miraj
+  - practice/salat
+- title:
+    ar: الأنبياء
+    en: The prophets
+  body:
+    ar: 'الأنبياء يصلون خلفه: الإمامة.'
+    en: 'الأنبياء يصلون خلفه: الإمامة.'
+  features:
+  - event/isra-and-miraj
+  - building/al-aqsa-mosque
+- title:
+    ar: سورة الإسراء
+    en: The sura
+  body:
+    ar: 'سبحان الذي أسرى: النص الأول.'
+    en: 'سبحان الذي أسرى: النص الأول.'
+  features:
+  - passage/quran-17
+  - passage/quran-17-1
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

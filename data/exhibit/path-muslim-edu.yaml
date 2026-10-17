@@ -1,0 +1,78 @@
+id: exhibit/path-muslim-edu
+class: exhibit
+kind: trail
+label:
+  ar: التعليم الإسلامي اليوم
+  en: Muslim Education Today
+summary:
+  ar: 'مسار في جامعات الأمة الجديدة: الآغا خان والزيتونة وكامبريدج والمغرب — العلم في العصر الرقمي.'
+  en: A trail through the community's new universities.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الآغا خان
+    en: Aga Khan
+  body:
+    ar: 'الجامعة الدولية: كراتشي إلى لندن.'
+    en: 'الجامعة الدولية: كراتشي إلى لندن.'
+  features:
+  - listing/aga-khan-university
+  - listing/aga-khan-university
+- title:
+    ar: زيتونة
+    en: Zaytuna
+  body:
+    ar: 'كاليفورنيا: أول كلية مسلمة أمريكية.'
+    en: 'كاليفورنيا: أول كلية مسلمة أمريكية.'
+  features:
+  - listing/zaytuna-college
+  - listing/zaytuna-college
+- title:
+    ar: كامبريدج
+    en: Cambridge
+  body:
+    ar: 'الكلية المسلمة: علم وأدب.'
+    en: 'الكلية المسلمة: علم وأدب.'
+  features:
+  - listing/cambridge-muslim-college
+  - listing/almaghrib
+- title:
+    ar: المغرب
+    en: AlMaghrib
+  body:
+    ar: 'الندوات الكبرى: المعهد الأمريكي.'
+    en: 'الندوات الكبرى: المعهد الأمريكي.'
+  features:
+  - listing/almaghrib
+  - listing/cambridge-muslim-college
+- title:
+    ar: التراث
+    en: The turath
+  body:
+    ar: 'دور النشر: كيوب وطه ووايت ثرد.'
+    en: 'دور النشر: كيوب وطه ووايت ثرد.'
+  features:
+  - listing/kube-publishing
+  - listing/ta-ha-publishers
+  - listing/white-thread-press
+  - listing/turath-publishing
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

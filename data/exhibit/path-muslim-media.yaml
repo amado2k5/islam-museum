@@ -1,0 +1,76 @@
+id: exhibit/path-muslim-media
+class: exhibit
+kind: trail
+label:
+  ar: الإعلام الإسلامي
+  en: Muslim Media
+summary:
+  ar: 'مسار في الشاشة والنشر: قنوات هدى وبيس وأهل البيت، وأواكينينغ للإنتاج — الإعلام الجديد.'
+  en: A trail through screen and press.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: القنوات
+    en: The channels
+  body:
+    ar: 'هدى وبيس تي في: بث الدعوة.'
+    en: 'هدى وبيس تي في: بث الدعوة.'
+  features:
+  - listing/huda-tv
+  - listing/peace-tv
+- title:
+    ar: أهل البيت
+    en: Ahlulbayt TV
+  body:
+    ar: 'قناة الشيعة: لندن تبث.'
+    en: 'قناة الشيعة: لندن تبث.'
+  features:
+  - listing/ahlulbayt-tv
+  - listing/huda-tv
+- title:
+    ar: الإنتاج
+    en: Production
+  body:
+    ar: 'أواكينينغ: أناشيد بلا موسيقى.'
+    en: 'أواكينينغ: أناشيد بلا موسيقى.'
+  features:
+  - listing/awakening-records
+  - group/raihan-band
+- title:
+    ar: النشر
+    en: Publishing
+  body:
+    ar: 'كيوب وطه: الكتاب الإسلامي الإنجليزي.'
+    en: 'كيوب وطه: الكتاب الإسلامي الإنجليزي.'
+  features:
+  - listing/kube-publishing
+  - listing/ta-ha-publishers
+- title:
+    ar: الرقمي
+    en: Digital
+  body:
+    ar: 'الدعوة عبر الإنترنت: العصر الجديد.'
+    en: 'الدعوة عبر الإنترنت: العصر الجديد.'
+  features:
+  - listing/almaghrib
+  - listing/almaghrib
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

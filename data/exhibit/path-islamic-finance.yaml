@@ -1,0 +1,77 @@
+id: exhibit/path-islamic-finance
+class: exhibit
+kind: trail
+label:
+  ar: المصارف الإسلامية
+  en: Islamic Finance
+summary:
+  ar: 'مسار في اقتصاد بلا ربا: الراجحي وبنك إسلام وأمانة والإنماء — المصرفية الإسلامية ثلاثة تريليون.'
+  en: A trail through riba-free banking.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الراجحي
+    en: Al Rajhi
+  body:
+    ar: 'أكبر مصرف إسلامي: الرياض 1957.'
+    en: 'أكبر مصرف إسلامي: الرياض 1957.'
+  features:
+  - listing/al-rajhi
+  - listing/al-rajhi
+- title:
+    ar: بنك إسلام
+    en: Bank Islam
+  body:
+    ar: 'ماليزيا 1983: التجربة الآسيوية.'
+    en: 'ماليزيا 1983: التجربة الآسيوية.'
+  features:
+  - listing/bank-islam
+  - listing/bank-muamalat
+- title:
+    ar: أمانة
+    en: Amana
+  body:
+    ar: 'سريلانكا: المصرفية للجميع.'
+    en: 'سريلانكا: المصرفية للجميع.'
+  features:
+  - listing/amana-bank
+  - listing/bank-aljazira
+- title:
+    ar: الخليج
+    en: The Gulf
+  body:
+    ar: الإنماء وبوبيان وسوريا الإندونيسية.
+    en: الإنماء وبوبيان وسوريا الإندونيسية.
+  features:
+  - listing/alinma
+  - listing/boubyan-bank
+  - listing/bank-syariah-indonesia
+- title:
+    ar: الفقه
+    en: The fiqh
+  body:
+    ar: 'المرابحة والمشاركة: المعاملات.'
+    en: 'المرابحة والمشاركة: المعاملات.'
+  features:
+  - listing/al-rajhi
+  - listing/al-rajhi
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
