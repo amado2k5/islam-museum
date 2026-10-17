@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ہوا کو (ہم نے) سلیمان کا تابع کردیا تھا اس کی صبح کی منزل ایک مہینے کی راہ ہوتی اور شام کی منزل بھی مہینے بھر کی ہوتی۔ اور ان کے لئے ہم نے تانبے کا چشمہ بہا دیا تھا اور جِنّوں میں سے ایسے تھے جو ان کے پروردگار کے حکم سے ان کے آگے کام کرتے تھے۔ اور جو کوئی ان میں سے ہمارے حکم سے پھرے گا اس کو ہم (جہنم کی) آگ کا مزہ چکھائیں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-34 }
+  - { type: mentions, target: person/sulayman, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

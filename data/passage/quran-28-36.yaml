@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جب موسٰی اُن کے پاس ہماری کھلی نشانیاں لےکر آئے تو وہ کہنے لگے کہ یہ جادو ہے جو اُس نے بنا کھڑا کیا ہے اور یہ باتیں ہم نے اپنے اگلے باپ دادا میں تو (کبھی) سنی نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -10,7 +10,7 @@ _Prepared 17 October 2026. Part A is an internal brief for the founder and is no
 
 **Nominator.** For every UNESCO prize that fits islam.museum, Canada's official nominating body is the **Canadian Commission for UNESCO (CCUNESCO)**, Canada's National Commission, housed within the Canada Council for the Arts in Ottawa. UNESCO prize rules allow two kinds of nominator only: a Member State acting through its National Commission, or a non-governmental organization in official partnership with UNESCO. Self-nominations are rejected by every secretariat. Because the founder and the project are based in Ontario, CCUNESCO is the correct door; an NGO in official partnership (for example the International Council of Museums, ICOM) is the fallback if CCUNESCO declines or has used its quota.
 
-**Timing.** Every 2026 UNESCO prize window relevant to the museum closed between February and May 2026. The next openings are the 2027 cycles. Planning and design began more than a year ago (fill in the month in A.5 and keep the evidence: planning documents, domain registration, early correspondence); the public site went live on 11 October 2026. The UNESCO ICT in Education Prize requires that the project "should have been implemented for at least 1 year with evidence of concrete activities", and a jury may read "implemented" as public use rather than planning, so the realistic UNESCO calendar is: register interest with CCUNESCO now, nominate for the UNESCO-Sharjah Prize in its 22nd edition (call expected winter 2026-27), and present the ICT in Education Prize candidacy in 2027 with the full project history (planning, design, content development, launch) documented as concrete activities, if the annual theme fits.
+**Timing.** Every 2026 UNESCO prize window relevant to the museum closed between February and May 2026. The next openings are the 2027 cycles. Planning began in September 2025 as a prototype timeline application, timelinethis.app (domain registered 19 September 2025); the public site went live on 11 October 2026. The UNESCO ICT in Education Prize requires that the project "should have been implemented for at least 1 year with evidence of concrete activities", and a jury may read "implemented" as public use rather than planning, so the realistic UNESCO calendar is: register interest with CCUNESCO now, nominate for the UNESCO-Sharjah Prize in its 22nd edition (call expected winter 2026-27), and present the ICT in Education Prize candidacy in 2027 with the full project history (planning, design, content development, launch) documented as concrete activities, if the annual theme fits.
 
 **Act now, no nominator needed.** Two channels accept direct applications and should be filed before any UNESCO letter goes out, because each one gives CCUNESCO an external validation to point to:
 
@@ -39,7 +39,7 @@ _Prepared 17 October 2026. Part A is an internal brief for the founder and is no
 
 ### A.4 Submission steps and calendar
 
-1. **This week.** Fill in the signature block in Part B. Export Parts B and C to PDF. Send to ccunesco@ccunesco.ca. Create the DPGA account at app.digitalpublicgoods.net/signup and complete the eligibility test first (about five minutes), then the application. Every answer for the nine indicators, with its evidence in the repo or on the live site, is prepared in `docs/outreach/dpga-evidence-map.md`; the privacy and data statement it relies on is live at islam.museum/ar/privacy/.
+1. **Done 17 October 2026.** Letter and dossier sent to ccunesco@ccunesco.ca. DPGA application submitted (GID0094424, under review; declared as Open Content). Every answer for the nine indicators, with its evidence in the repo or on the live site, is prepared in `docs/outreach/dpga-evidence-map.md`; the privacy and data statement it relies on is live at islam.museum/ar/privacy/.
 2. **Before any formal nomination.** Decide the legal vehicle. Prize money and most Canadian funding require a legal entity (a federally incorporated not-for-profit is the usual choice). The dossier says this is in progress; do not name an entity that does not exist.
 3. **November 2026.** Email prix.sharjah@unesco.org to confirm the 22nd edition deadline and ask whether a government nomination must come through CCUNESCO or through Canada's Permanent Delegation to UNESCO in Paris. Pass the answer to CCUNESCO.
 4. **December 2026.** When the WSIS Prizes 2027 call opens, submit under Action Line C8. English only; no nominator needed.
@@ -59,7 +59,7 @@ _Prepared 17 October 2026. Part A is an internal brief for the founder and is no
 | Static site, no servers, no databases, no runtime AI, no accounts, no cookies | `docs/plan/03-architecture.md` §13, ADR 0002, `AGENTS.md` | Verified in repo |
 | About 2,150 human unique visitors from more than 80 countries; about 200,000 automated AI and search-indexing requests | Founder's reading of Cloudflare edge analytics, which run at the network edge and set no cookies | Founder-reported; keep the "approximately" and the date |
 | Public site first published 11 October 2026 | First commit on `main` | Verified in repo |
-| Planning and design began more than a year before launch ([month, year]) | Founder's statement, 17 Oct 2026 | Founder-reported. Fill in the month and keep the evidence (dated planning documents, domain registration record, early correspondence); a jury may ask for it |
+| Planning began in September 2025 as the prototype timeline application timelinethis.app, which evolved into islam.museum | Domain registration confirmation for timelinethis.app, 19 September 2025 (Squarespace Domains, reseller Google Cloud Domains, email to the founder); prototype built in Google AI Studio (https://ai.studio/apps/599c9dfd-a952-4208-a2a9-d5b0a6dc1172, may require sign-in); two public videos: "Building timelineThis.app using Google AI Studio" (https://www.youtube.com/watch?v=LMkDOykCUYs) and "This app Demo" (https://www.youtube.com/watch?v=K4_SR_4udSo) | Founder-provided, 17 Oct 2026. Keep the registration email; a jury may ask for it |
 | Every record cites sources; dated facts need two sources or a flag | `AGENTS.md`, validator | Rule verified; average 1.16 sources per record today |
 | Every record is currently in `draft` review status; none is marked reviewed or verified | `docs/coverage.md`, "By review status" | Verified. The dossier must not say "verified content" |
 | WCAG 2.2 AA target; readable without JavaScript | `AGENTS.md`, `docs/site/README.md` | Rule verified; no third-party audit yet |
@@ -73,7 +73,7 @@ What the dossier deliberately does not claim: an institutional partner, a legal 
 Ahmed Abdelaal
 Founder, islam.museum
 Oakville, Ontario, Canada
-[email address] · [telephone]
+ahamdy@gmail.com · [telephone]
 https://islam.museum · https://github.com/amado2k5/islam-museum
 
 17 October 2026
@@ -92,7 +92,7 @@ I am writing to introduce islam.museum, a Canadian-led digital public good, and 
 
 islam.museum is a free, open, all-digital museum of Islamic civilization: its faith, peoples, places, ideas, objects, texts and living culture across fourteen centuries, published first in Arabic. It is built as an open knowledge graph in which every person, place, event, text and idea is a record with sources, dates in two calendars and documented relations to other records. As of 17 October 2026 the museum holds 19,084 structured records in 21 classes, linked by roughly 30,000 relations, with Arabic prose for every record and English prose for 17,738 of them. The structured data is dedicated to the public domain under CC0 1.0, the prose is licensed CC BY-SA 4.0, and the software is MIT-licensed, so that any school, library, museum or researcher may copy, translate and build on the whole collection.
 
-The museum is the result of more than a year of planning and design; its public site went live on 11 October 2026. It is designed to the standard of a public institution rather than a website. It runs as static files with no servers, no databases and no artificial intelligence on the visitor's path. It collects no personal data, sets no cookies, requires no account and carries no advertising. Every page is readable without JavaScript and is built to WCAG 2.2 AA. Its editorial charter commits the museum to a neutral, descriptive voice: contested questions are presented through labelled, cited perspectives with no verdict, and no record is marked reviewed until a person has checked it against its sources.
+The museum grew out of a prototype timeline application, timelinethis.app, which I began in September 2025; after a year of design and content development the public site went live on 11 October 2026. It is designed to the standard of a public institution rather than a website. It runs as static files with no servers, no databases and no artificial intelligence on the visitor's path. It collects no personal data, sets no cookies, requires no account and carries no advertising. Every page is readable without JavaScript and is built to WCAG 2.2 AA. Its editorial charter commits the museum to a neutral, descriptive voice: contested questions are presented through labelled, cited perspectives with no verdict, and no record is marked reviewed until a person has checked it against its sources.
 
 The museum's aims sit squarely within UNESCO's mandate and within Canada's priorities for the Commission: Sustainable Development Goal 4 (quality education, through a free multilingual learning resource), SDG 11.4 (safeguarding cultural heritage, through open, durable, machine-readable documentation of a civilization), and UNESCO's programmes on Arabic language, intercultural dialogue and open educational resources. In its first week online the site has been read by visitors from more than 80 countries and has become a cited source for automated search and AI systems, which increasingly mediate the public's first contact with knowledge about Islam.
 
@@ -144,7 +144,7 @@ Submitted to the Canadian Commission for UNESCO by Ahmed Abdelaal, founder, Oakv
 
 **Reach.** In its first week of publication the site was read by approximately 2,150 human unique visitors from more than 80 countries and answered approximately 200,000 automated requests from search engines and AI indexers (founder-reported, Cloudflare edge analytics, which set no cookies).
 
-**Who built it.** The museum is founded and led from Oakville, Ontario, by Ahmed Abdelaal. Planning and design began in [month, year], more than a year before the public site opened on 11 October 2026. It is Arabic-first by charter: Arabic labels, summaries, prose, alt text, map labels and interface come first; English and later languages are translations of the finished Arabic. Drafting is assisted by AI models at build time under a published editorial charter; every draft enters as a labelled draft with full provenance, and nothing is marked reviewed until a person has checked it.
+**Who built it.** The museum is founded and led from Oakville, Ontario, by Ahmed Abdelaal. Planning began in September 2025 with a prototype timeline application, timelinethis.app, more than a year before the public site opened on 11 October 2026. It is Arabic-first by charter: Arabic labels, summaries, prose, alt text, map labels and interface come first; English and later languages are translations of the finished Arabic. Drafting is assisted by AI models at build time under a published editorial charter; every draft enters as a labelled draft with full provenance, and nothing is marked reviewed until a person has checked it.
 
 **What is asked.** Endorsement and nomination by the Canadian Commission for UNESCO, beginning with the UNESCO-Sharjah Prize for Arab Culture, and guidance toward the UNESCO programmes where a Canadian open-knowledge institution can contribute most.
 
@@ -201,7 +201,7 @@ Submitted to the Canadian Commission for UNESCO by Ahmed Abdelaal, founder, Oakv
 
 The museum states its limits so that the Commission can judge it exactly.
 
-- **Age.** Planning, design and content development began in [month, year]; the public site was first published on 11 October 2026. Several UNESCO prizes require at least one year of implementation with evidence of concrete activities. The museum can document its full development history and asks for guidance now so that it is nominated in the first cycle for which the Commission judges it to qualify.
+- **Age.** Planning, design and content development began in September 2025 with the prototype timelinethis.app; the public site was first published on 11 October 2026. Several UNESCO prizes require at least one year of implementation with evidence of concrete activities. The museum can document its full development history and asks for guidance now so that it is nominated in the first cycle for which the Commission judges it to qualify.
 - **Review status.** All 19,084 records are machine-validated and cite sources, but none has yet been marked reviewed by a person. Human review is the museum's largest cost and its next priority; the review state is shown on every page.
 - **Legal vehicle.** The project is currently the founder's own. Incorporation as a Canadian not-for-profit is in progress so that prize funds, grants and partnerships can be received by an institution rather than an individual.
 - **Independence.** The project has received no funding from UNESCO and has no affiliation with it. It carries no advertising and will not change its editorial rules for any funder.
@@ -225,7 +225,7 @@ In return the museum commits to: completing its DPGA registration and WSIS submi
 | URL | https://islam.museum |
 | Repository | https://github.com/amado2k5/islam-museum |
 | Founder | Ahmed Abdelaal, Oakville, Ontario, Canada |
-| Planning and design began | [month, year] (more than a year before launch) |
+| Planning and design began | September 2025 (prototype timelinethis.app; domain registered 19 September 2025) |
 | First public release | 11 October 2026 |
 | Default language | Arabic (right-to-left); English translations in progress |
 | Records / relations | 19,084 / 29,996 (17 October 2026) |
@@ -250,4 +250,5 @@ Each record is a YAML file of facts (labels in Arabic and English, dates in EDTF
 - Digital Public Goods Alliance, submission guide and DPG Standard: https://digitalpublicgoods.net/digital-public-goods/submission-guide/
 - WSIS Prizes (ITU): https://www.itu.int/net4/wsis/stocktaking/Prizes
 - Sheikh Zayed Book Award, 21st edition call (Publishing and Technology): https://internationalpublishers.org/submissions-open-for-21st-edition-of-the-sheikh-zayed-book-award/
+- Project history: "Building timelineThis.app using Google AI Studio", https://www.youtube.com/watch?v=LMkDOykCUYs; "This app Demo", https://www.youtube.com/watch?v=K4_SR_4udSo
 - islam.museum architecture and charter: `docs/plan/03-architecture.md`, `AGENTS.md`, `docs/sources-policy.md`, `LICENSE-CONTENT.md` in the repository

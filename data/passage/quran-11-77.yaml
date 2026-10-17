@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جب ہمارے فرشتے لوط کے پاس آئے تو وہ ان (کے آنے) سے غمناک اور تنگ دل ہوئے اور کہنے لگے کہ آج کا دن بڑی مشکل کا دن ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
+  - { type: mentions, target: person/lut, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

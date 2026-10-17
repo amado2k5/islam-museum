@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور ابراہیمؑ کو (یاد کرو) جب اُنہوں نے اپنی قوم سے کہا کہ خدا کی عبادت کرو اور اس سے ڈرو اگر تم سمجھ رکھتے ہو تو یہ تمہارے حق میں بہتر ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
+  - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

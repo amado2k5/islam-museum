@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور بن کے رہنے والے اور تُبّع کی قوم۔ (غرض) ان سب نے پیغمبروں کو جھٹلایا تو ہمارا وعید (عذاب) بھی پورا ہو کر رہا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-50 }
+  - { type: mentions, target: group/qawm-tubba, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "اے قوم آج تمہاری ہی بادشاہت ہے اور تم ہی ملک میں غالب ہو۔ (لیکن) اگر ہم پر خدا کا عذاب آگیا تو (اس کے دور کرنے کے لئے) ہماری مدد کون کرے گا۔ فرعون نے کہا کہ میں تمہیں وہی بات سُجھاتا ہوں جو مجھے سوجھی ہے اور وہی راہ بتاتا ہوں جس میں بھلائی ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

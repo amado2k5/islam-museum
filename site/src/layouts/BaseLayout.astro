@@ -101,12 +101,14 @@ const EXPLORE = explorePages(lang);
               {WINGS.map((w) => <li><a href={wingHref(lang, w)}><span class="t">{T.wings[w].title}</span><span class="d">{wingCount(w)} — {T.wings[w].blurb}</span></a></li>)}
             </ul>
           </details>
-          <a class="top-link" href={`/${lang}/learn/`}>{T.nav.learn}</a>
           <details class="dd" data-dd>
             <summary>{T.nav.explore_menu}</summary>
             <ul class="dd-menu" role="list">
               {EXPLORE.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
               <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
+              <li><a href={`/${lang}/learn/`}><span class="t">{T.nav.learn}</span></a></li>
+              <li><a href={`/${lang}/3d/`}><span class="t"><span aria-hidden="true">🧊</span> {T.tour.nav_label}</span></a></li>
+              <li><a href={`/${lang}/sighar/`}><span class="t"><span aria-hidden="true">🪶</span> {T.kids.hub_title}</span></a></li>
             </ul>
           </details>
           <a class="top-link" href={`/${lang}/today/`}>{T.nav.today}</a>
@@ -116,12 +118,10 @@ const EXPLORE = explorePages(lang);
             <summary>{T.nav.more}</summary>
             <ul class="dd-menu" role="list">
               {[["screen", "screen"], ["exhibits", "exhibits"], ["questions", "questions"], ["themes", "themes"], ["references", "references"], ["coverage", "coverage"], ["foundation", "foundation"]].map(([seg, key]) => <li><a href={`/${lang}/${seg}/`}><span class="t">{T.nav[key]}</span></a></li>)}
+              <li><a href={`/${lang}/support/`}><span class="t">{T.support.title}</span></a></li>
+              <li><a href={SHOP} rel="noopener"><span class="t">{T.nav.gift_shop}</span></a></li>
             </ul>
           </details>
-          <a class="top-link" href={`/${lang}/support/`}>{T.support.title}</a>
-          <a class="top-link" href={SHOP} rel="noopener">{T.nav.gift_shop}</a>
-          <a class="top-link kids-link" href={`/${lang}/sighar/`}><span aria-hidden="true">🪶</span> {T.kids.hub_title}</a>
-          <a class="top-link tour-link" href={`/${lang}/3d/`}><span aria-hidden="true">🧊</span> {T.tour.nav_label}</a>
         </nav>
         <div class="nav-tools ui">
           <a class="chip" href={`/${lang}/search/`}>{T.nav.search} ⌕</a>
@@ -140,7 +140,7 @@ const EXPLORE = explorePages(lang);
         <div class="fcols">
           <div><h2>{T.footer.browse_all}</h2>{BROWSE_CLASSES.map((c) => <a href={`/${lang}/browse/${browseSegment(c)}/`}>{T.class[c]}</a>)}</div>
           <div><h2>{T.footer.about}</h2><a href={`/${lang}/foundation/`}>{T.nav.foundation}</a><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/plan/05-editorial.md" rel="noopener">{T.footer.editorial}</a><a href={`/${lang}/questions/`}>{T.footer.faq}</a><a href={`/${lang}/learn/`}>{T.nav.learn}</a></div>
-          <div><h2>{T.footer.resources}</h2><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href={`/${lang}/art/`}>{T.nav.art}</a><a href={`/${lang}/support/`}>{T.support.title}</a><a href={SHOP} rel="noopener">{T.nav.gift_shop}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
+          <div><h2>{T.footer.resources}</h2><a href={`/${lang}/words/quran/`}>{T.explore.pages.quran.title}</a><a href={`/${lang}/words/hadith/`}>{T.explore.pages.hadith.title}</a><a href="/api/v1/meta/index.json">{T.footer.open_data}</a><a href={`/${lang}/coverage/`}>{T.nav.coverage}</a><a href={`/${lang}/references/`}>{T.nav.references}</a><a href={`/${lang}/themes/`}>{T.nav.themes}</a><a href={`/${lang}/screen/`}>{T.nav.screen}</a><a href={`/${lang}/exhibits/`}>{T.nav.exhibits}</a><a href={`/${lang}/art/`}>{T.nav.art}</a><a href={`/${lang}/support/`}>{T.support.title}</a><a href={SHOP} rel="noopener">{T.nav.gift_shop}</a><a href="https://github.com/amado2k5/islam-museum" rel="noopener">{T.footer.contribute}</a></div>
           <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.changelog}</a><a href="https://github.com/amado2k5/islam-museum/issues/new/choose" rel="noopener">{T.footer.report}</a><a href="https://github.com/amado2k5/islam-museum/discussions" rel="noopener">{T.footer.discuss}</a><a href={`/${lang}/privacy/`}>{T.footer.privacy_policy}</a></div>
         </div>
         <p class="fine">islam.museum · {T.footer.open} · <a href={`/${lang}/licenses/`}>{T.footer.licenses}</a> · {T.footer.privacy}</p>

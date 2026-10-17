@@ -17,6 +17,10 @@ translations:
   ur: { text: "اور (وہ وقت بھی یاد کرو) جب مریمؑ کے بیٹے عیسیٰ نے کہا کے اے بنی اسرائیل میں تمہارے پاس خدا کا بھیجا ہوا آیا ہوں (اور) جو (کتاب) مجھ سے پہلے آچکی ہے (یعنی) تورات اس کی تصدیق کرتا ہوں اور ایک پیغمبر جو میرے بعد آئیں گے جن کا نام احمدﷺ ہوگا ان کی بشارت سناتا ہوں۔ (پھر) جب وہ ان لوگوں کے پاس کھلی نشانیاں لے کر آئے تو کہنے لگے کہ یہ تو صریح جادو ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-61 }
+  - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/isa-ibn-maryam, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/maryam, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/muhammad, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

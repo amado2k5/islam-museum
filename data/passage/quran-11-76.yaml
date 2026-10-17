@@ -17,6 +17,7 @@ translations:
   ur: { text: "اے ابراہیم اس بات کو جانے دو۔ تمہارے پروردگار کا حکم آپہنچا ہے۔ اور ان لوگوں پر عذاب آنے والا ہے جو کبھی نہیں ٹلنے کا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-11 }
+  - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

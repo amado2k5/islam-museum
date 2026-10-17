@@ -17,6 +17,7 @@ translations:
   ur: { text: "خدا نے عزت کے گھر (یعنی) کعبے کو لوگوں کے لیے موجب امن مقرر فرمایا ہے اور عزت کے مہینوں کو اور قربانی کو اور ان جانوروں کو جن کے گلے میں پٹے بندھے ہوں یہ اس لیے کہ تم جان لو کہ جو کچھ آسمانوں میں اور جو کچھ زمین میں ہے خدا سب کو جانتا ہے اور یہ کہ خدا کو ہر چیز کا علم ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: building/kaaba, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "جو میری اور اولاد یعقوب کی میراث کا مالک ہو۔ اور (اے) میرے پروردگار اس کو خوش اطوار بنائیو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-19 }
+  - { type: mentions, target: person/yaqub, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

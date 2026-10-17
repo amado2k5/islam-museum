@@ -17,6 +17,7 @@ translations:
   ur: { text: "بنی اسرائیل کے لیے (تورات کے نازل ہونے سے) پہلے کھانے کی تمام چیزیں حلال تھیں بجز ان کے جو یعقوب نے خود اپنے اوپر حرام کر لی تھیں کہہ دو کہ اگر سچے ہو تو تورات لاؤ اور اسے پڑھو (یعنی دلیل پیش کرو)", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
+  - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

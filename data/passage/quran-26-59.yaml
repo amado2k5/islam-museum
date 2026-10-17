@@ -17,6 +17,7 @@ translations:
   ur: { text: "(ان کے ساتھ ہم نے) اس طرح (کیا) اور ان چیزوں کا وارث بنی اسرائیل کو کر دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-26 }
+  - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

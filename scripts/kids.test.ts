@@ -129,8 +129,8 @@ describe("kids wing", () => {
 
   it("two-way navigation is wired", () => {
     const layout = readFileSync("site/src/layouts/BaseLayout.astro", "utf8");
-    // Way in: prominent top-level nav entry on the main site.
-    expect(layout).toContain('class="top-link kids-link"');
+    // Way in: an entry in the Explore menu on the main site.
+    expect(layout).toContain("T.kids.hub_title");
     expect(layout).toContain("`/${lang}/sighar/`");
     // Way back: kids prop switches to a simplified chrome with a big back button.
     expect(layout).toContain("kids?: boolean");

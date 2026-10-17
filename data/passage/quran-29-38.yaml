@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور عاد اور ثمود کو بھی (ہم نے ہلاک کر دیا) چنانچہ اُن کے (ویران گھر) تمہاری آنکھوں کے سامنے ہیں اور شیطان نے اُن کے اعمال ان کو آراستہ کر دکھائے اور ان کو (سیدھے) رستے سے روک دیا۔ حالانکہ وہ دیکھنے والے (لوگ) تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-29 }
+  - { type: mentions, target: group/aad, sources: [source/tanzil-quran] }
+  - { type: mentions, target: group/thamud, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

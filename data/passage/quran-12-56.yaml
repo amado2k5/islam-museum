@@ -17,6 +17,7 @@ translations:
   ur: { text: "اس طرح ہم نے یوسف کو ملک (مصر) میں جگہ دی اور وہ اس ملک میں جہاں چاہتے تھے رہتے تھے۔ ہم اپنی رحمت جس پر چاہتے ہیں کرتے ہیں اور نیکوکاروں کے اجر کو ضائع نہیں کرتے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-12 }
+  - { type: mentions, target: person/yusuf, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

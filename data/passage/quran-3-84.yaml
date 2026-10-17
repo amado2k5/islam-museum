@@ -17,6 +17,12 @@ translations:
   ur: { text: "کہو کہ ہم خدا پر ایمان لائے اور جو کتاب ہم پر نازل ہوئی اور جو صحیفے ابراہیم اور اسماعیل اور اسحٰق اور یعقوب اور ان کی اولاد پر اترے اور جو کتابیں موسیٰ اور عیسیٰ اور دوسرے انبیاء کو پروردگار کی طرف سے ملیں سب پر ایمان لائے ہم ان پیغمبروں میں سے کسی میں کچھ فرق نہیں کرتے اور ہم اسی (خدائے واحد) کے فرماں بردار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-3 }
+  - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/isa-ibn-maryam, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ishaq, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/ismail, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/yaqub, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "تو دونوں نے اس درخت کا پھل کھا لیا تو ان پر ان کی شرمگاہیں ظاہر ہوگئیں اور وہ اپنے (بدنوں) پر بہشت کے پتّے چپکانے لگے۔ اور آدم نے اپنے پروردگار کے حکم خلاف کیا تو (وہ اپنے مطلوب سے) بےراہ ہو گئے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
+  - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

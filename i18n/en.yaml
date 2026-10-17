@@ -145,6 +145,9 @@ hall:
   empty: Nothing here yet. This wing opens as the collection grows.
   phase: 'Roadmap: the full {wing} hall arrives in a later phase.'
   map_note: A schematic map of the places in this wing (an interactive map with a time slider is planned).
+  gallery: Object gallery
+  collections: Museum collections
+  index: Full object index
 entity:
   dagger: † Hijri date derived by computation from the Gregorian/Julian date; it may differ from the transmitted date by a day or two.
   stub_desc: '{label}: an entry that is still being written.'
@@ -357,6 +360,7 @@ reader:
   open_ayah: Museum page of verse {ref}
   map_link: The surah's thematic map
   revelation_link: The Qur'an in revelation order
+  named_in: Named in this sura
   sura_nav: Between surahs
   credit: 'Qur''anic text: Tanzil Project v1.1 (Uthmani script), copied verbatim and frozen in the museum''s data; source:'
   credit_source: source page
@@ -382,6 +386,8 @@ hadith:
   kitab_lede: '{n} reports in this book of {name}.'
   kitab_page: The book's museum page
   on_sunnah: Browse this collection on Sunnah.com
+  isnad: 'Chain of transmission'
+  isnad_from: from
 cards:
   title: Museum Cards
   lede: 'Interactive study cards: word maps, lists, explainers, and stories.'
@@ -735,6 +741,8 @@ figure:
   licence: Licence
   details: Media record
   open: Open full image
+  deepzoom: 'Deep zoom (IIIF)'
+  deepzoom_nojs: 'Deep zoom needs JavaScript; open the IIIF manifest or the full image.'
 licenses:
   title: Licences
   lede: Every layer of the museum and the licence it carries.
@@ -758,6 +766,8 @@ licenses:
   ext_body: Object pages link to the holding institutions' catalogues; {n} objects also carry IIIF manifest links. Those images and manifests remain the institution's own.
   versions_title: Per-version registry
   versions_body: 'The museum publishes from git: every release is a commit and every record carries its own provenance. The licence state at each point in time is the <a href="{url}">commit log</a>.'
+  layer_vendor: 'Vendored libraries'
+  layer_vendor_note: 'OpenSeadragon 5.0.1 for IIIF deep zoom, under BSD-3-Clause.'
 ids:
   iiif: IIIF manifest
   wikidata: Wikidata
@@ -865,6 +875,14 @@ explore:
   related_card: Related
   font: Font
   pages:
+    quran:
+      title: Quran explorer
+      desc: The whole Quran for continuous reading, surah by surah — the frozen Tanzil text, every verse a door to its museum page.
+      menu: Read the Quran, surah by surah
+    hadith:
+      title: Hadith explorer
+      desc: The hadith collections in the museum — browse each work by book and report, with links out to Sunnah.com.
+      menu: Browse the hadith collections
     timeline:
       title: Hijri timeline
       desc: Fourteen centuries on an interactive Hijri axis, with the Gregorian as a second reading.

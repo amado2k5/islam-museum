@@ -17,6 +17,7 @@ translations:
   ur: { text: "پھر چاہیئے کہ لوگ اپنا میل کچیل دور کریں اور نذریں پوری کریں اور خانہٴ قدیم (یعنی بیت الله) کا طواف کریں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-22 }
+  - { type: mentions, target: building/kaaba, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

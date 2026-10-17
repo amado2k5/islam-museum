@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جو ایمان لائے اور نیک عمل کرتے رہے اور جو (کتاب) محمدﷺ پر نازل ہوئی اسے مانتے رہے اور وہ ان کے پروردگار کی طرف سے برحق ہے ان سے ان کے گناہ دور کردیئے اور ان کی حالت سنوار دی", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-47 }
+  - { type: mentions, target: person/muhammad, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

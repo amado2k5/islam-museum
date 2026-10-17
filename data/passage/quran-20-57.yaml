@@ -17,6 +17,7 @@ translations:
   ur: { text: "کہنے لگا کہ موسیٰ تم ہمارے پاس اس لئے آئے ہو کہ اپنے جادو (کے زور) سے ہمیں ہمارے ملک سے نکال دو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

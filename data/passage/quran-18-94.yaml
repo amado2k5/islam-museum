@@ -17,6 +17,8 @@ translations:
   ur: { text: "ان لوگوں نے کہا ذوالقرنین! یاجوج اور ماجوج زمین میں فساد کرتے رہتے ہیں بھلا ہم آپ کے لئے خرچ (کا انتظام) کردیں کہ آپ ہمارے اور ان کے درمیان ایک دیوار کھینچ دیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-18 }
+  - { type: mentions, target: group/yajuj-majuj, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/dhu-al-qarnayn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

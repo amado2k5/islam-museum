@@ -24,6 +24,8 @@ const depictions = edgesFrom(n.id)
   .filter((e) => e.type === "depicted_in")
   .map((e) => byId.get(e.to))
   .filter((m): m is Node => !!m && m.class === "media" && !!m.data.url);
+// deep-zoom: a direct IIIF image service on a depiction skips the manifest fetch
+const iiifService = depictions.find((m) => m.data.iiif_image)?.data.iiif_image;
 const faithText = (d.faith ?? []) as any[];
 ---
 {mapMedia && mapFile && (
@@ -52,6 +54,22 @@ const faithText = (d.faith ?? []) as any[];
         </figure>
       ))}
     </div>
+  </section>
+)}
+
+{/* IIIF deep-zoom (docs/plan/06 Phase 3): vendored OpenSeadragon over the manifest's
+    image service; the manifest link and caption remain readable without JavaScript. */}
+{n.class === "object" && d.iiif_manifest && (
+  <section class="panel" style="margin:0 0 1.2rem" aria-label={T.figure.deepzoom}>
+    <h2 class="ui" style="font-size:1rem;margin:0 0 10px">{T.figure.deepzoom}</h2>
+    <div class="osd" data-iiif-viewer data-iiif-manifest={d.iiif_manifest} data-iiif-service={iiifService}>
+      <p class="ui muted" style="margin:0;font-size:.9rem">{T.figure.deepzoom_nojs} <a href={d.iiif_manifest} rel="noopener">IIIF ↗</a></p>
+    </div>
+    <p class="ui muted" style="margin:10px 0 0;font-size:.85rem">
+      {depictions[0]?.data.attribution} · {T.figure.licence}: {depictions[0]?.data.license} · <a href={d.iiif_manifest} rel="noopener">{T.ids.iiif} ↗</a>
+    </p>
+    <script is:inline src="/vendor/openseadragon-5.0.1.min.js" defer></script>
+    <script is:inline src="/vendor/iiif-viewer.js" defer></script>
   </section>
 )}
 
@@ -84,6 +102,30 @@ const faithText = (d.faith ?? []) as any[];
   <section class="panel" style="margin-bottom:1.2rem" aria-label={n.label[lang] ?? n.label.en}>
     <p lang="ar" dir="rtl" style="font-size:clamp(1.15rem,2.5vw,1.45rem);line-height:2;margin:0">«{d.text}»</p>
     <p class="ui muted" style="margin:10px 0 0;font-size:.85rem">{T.passage.excerpt}</p>
+  </section>
+)}
+
+{/* isnad mini-graph (docs/plan/04): the ordered chain stated for the report —
+    links run narrator to narrator toward the Prophet; stub narrators have no page yet
+    and render as text, honest rather than dropped */}
+{n.class === "passage" && Array.isArray(d.chain) && d.chain.length > 0 && (
+  <section class="panel" style="margin-bottom:1.2rem" aria-label={T.hadith.isnad}>
+    <h2 class="ui" style="font-size:1rem;margin:0 0 10px">{T.hadith.isnad}</h2>
+    <ol class="isnad">
+      {d.chain.map((pid: string, i: number) => {
+        const p = byId.get(pid);
+        const label = p ? labelOf(p, lang) : pid.split("/")[1];
+        const terminal = pid === "person/muhammad" && i === d.chain.length - 1;
+        return (
+          <li>
+            {p && !p.stub
+              ? <a class={`isnad-node${terminal ? " isnad-prophet" : ""}`} href={href(lang, p.id)}>{label}</a>
+              : <span class={`isnad-node${terminal ? " isnad-prophet" : ""}`}>{label}</span>}
+            {i < d.chain.length - 1 && <span class="isnad-sep" aria-hidden="true">{T.hadith.isnad_from}</span>}
+          </li>
+        );
+      })}
+    </ol>
   </section>
 )}
 

@@ -17,6 +17,7 @@ translations:
   ur: { text: "مجھ پر واجب ہے کہ خدا کی طرف سے جو کچھ کہوں سچ ہی کہوں۔ میں تمہارے پاس تمہارے پروردگار کی طرف سے نشانی لے کر آیا ہوں۔ سو بنی اسرائیل کو میرے ساتھ جانے کی رخصت دے دیجیے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
+  - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

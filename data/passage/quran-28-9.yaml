@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور فرعون کی بیوی نے کہا کہ (یہ) میری اور تمہاری (دونوں کی) آنکھوں کی ٹھنڈک ہے اس کو قتل نہ کرنا۔ شاید یہ ہمیں فائدہ پہنچائے یا ہم اُسے بیٹا بنالیں اور وہ انجام سے بےخبر تھے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-28 }
+  - { type: mentions, target: person/asiya, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/firawn, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

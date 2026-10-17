@@ -259,7 +259,7 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 
 /* ---- Part 3: the top bar (spec A): brand, two dropdowns, two links, tools; a hamburger below 720px ---- */
 .topbar { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-.nav-row { display: flex; align-items: center; gap: 14px; padding-block: 10px; }
+.nav-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding-block: 10px; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; letter-spacing: .02em; text-decoration: none; color: var(--fg); font-size: 1.05rem; }
 .nav-links { display: flex; align-items: center; gap: 2px; }
 .nav-links .top-link, .nav-links .dd > summary { display: inline-flex; align-items: center; gap: 4px; color: var(--fg); text-decoration: none; padding: 7px 11px; border-radius: 10px; cursor: pointer; font-size: .98rem; white-space: nowrap; }
@@ -273,7 +273,8 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .dd-menu .t { font-weight: 600; line-height: 1.5; display: flex; align-items: center; gap: 8px; }
 .dd-menu .d { font-size: .86rem; color: var(--muted); line-height: 1.6; }
 .chip.soon { font-size: .72rem; border: 1px solid var(--gold); background: transparent; padding: 0 8px; }
-.nav-tools { margin-inline-start: auto; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.nav-tools { margin-inline-start: auto; display: flex; align-items: center; gap: 8px; flex: none; }
+.nav-tools .chip { white-space: nowrap; }
 @media (max-width: 720px) {
   html.js .nav-links { display: none; }
   html.js .nav-links.open { display: flex; flex-direction: column; align-items: stretch; position: absolute; top: 100%; inset-inline: 0; background: var(--card); border-bottom: 1px solid var(--line); padding: 10px 16px 14px; gap: 0; box-shadow: 0 12px 24px rgba(10,37,51,.12); }
@@ -560,11 +561,25 @@ html[lang="ar"] .gx-label { font-family: var(--ar-body); font-size: 14px; }
 .hd-list > li > a { text-decoration: none; }
 .hd-list .hd-ref { font-weight: 700; color: var(--gold-text); font-variant-numeric: tabular-nums; }
 
+/* ---- Phase 3: isnad mini-graphs (ordered narrator chain, no-JS readable) ---- */
+.isnad { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.isnad > li { display: inline-flex; align-items: center; gap: 8px; }
+.isnad-node { display: inline-flex; align-items: center; font-family: var(--sans); font-size: .85rem; background: var(--sand); border-radius: 999px; padding: 3px 13px; color: var(--fg); text-decoration: none; }
+html[lang="ar"] .isnad-node, html[lang="ur"] .isnad-node { font-family: var(--ar-body); font-size: .95rem; }
+a.isnad-node:hover { outline: 1px solid var(--gold); }
+.isnad-prophet { background: var(--gold); color: #1a1a1a; font-weight: 600; }
+.isnad-sep { color: var(--muted); font-size: .8rem; font-family: var(--ar-body); }
+
 /* ---- Phase 3: object photographs (remote open-licence media) ---- */
 .depictions { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
 .depictions figure { margin: 0; }
 .depictions img { width: 100%; height: auto; border-radius: 10px; background: var(--bg); border: 1px solid var(--rule); }
 .depictions figcaption { font-size: .8rem; margin-top: 6px; line-height: 1.5; }
+
+/* ---- Phase 3: IIIF deep-zoom (vendored OpenSeadragon) ---- */
+.osd { width: 100%; height: 480px; max-height: 70vh; background: #141210; border-radius: 10px; overflow: hidden; }
+.osd:not(.osd-on) { display: grid; place-items: center; padding: 24px; text-align: center; }
+@media (max-width: 640px) { .osd { height: 320px; } }
 
 /* ---- Phase 3: verse translations (mushaf reader) ---- */
 .tr-list { margin: 12px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
@@ -613,3 +628,12 @@ html[dir="rtl"] .page-banner { background-position: -80px -60px, 0 0; }
 @media (min-width: 1440px) {
   .wrap { max-width: 1240px; }
 }
+
+/* Objects hall — photo gallery + collections index */
+.obj-grid { columns: 4 220px; column-gap: 14px; list-style: none; padding: 0; margin: 0; }
+.obj-grid > li { break-inside: avoid; margin-bottom: 14px; }
+.obj-card { display: block; background: var(--card); border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; text-decoration: none; color: var(--fg); }
+.obj-card img { display: block; width: 100%; height: auto; background: var(--sand); }
+.obj-cap { display: block; padding: 10px 12px 12px; }
+.coll-list { columns: 3 280px; column-gap: 18px; list-style: none; padding: 0; margin: 0; }
+.coll-list > li { break-inside: avoid; display: flex; justify-content: space-between; gap: 12px; padding: 4px 0; border-bottom: 1px dotted var(--rule); font-size: .9rem; }

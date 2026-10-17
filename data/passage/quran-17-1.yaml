@@ -18,6 +18,8 @@ translations:
 relations:
   - { type: revealed_about, target: event/isra-and-miraj }
   - { type: part_of, target: passage/quran-17 }
+  - { type: mentions, target: building/al-aqsa-mosque, sources: [source/tanzil-quran] }
+  - { type: mentions, target: building/masjid-al-haram, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

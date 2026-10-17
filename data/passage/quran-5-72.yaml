@@ -17,6 +17,9 @@ translations:
   ur: { text: "وہ لوگ بےشبہ کافر ہیں جو کہتے ہیں کہ مریم کے بیٹے (عیسیٰ) مسیح خدا ہیں حالانکہ مسیح یہود سے یہ کہا کرتے تھے کہ اے بنی اسرائیل خدا ہی کی عبادت کرو جو میرا بھی پروردگار ہے اور تمہارا بھی (اور جان رکھو کہ) جو شخص خدا کے ساتھ شرک کرے گا خدا اس پر بہشت حرام کر دے گا اور اس کا ٹھکانہ دوزخ ہے اور ظالموں کا کوئی مددگار نہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: group/banu-israil, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/isa-ibn-maryam, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/maryam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

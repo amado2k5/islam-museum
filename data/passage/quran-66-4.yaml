@@ -17,6 +17,7 @@ translations:
   ur: { text: "اگر تم دونوں خدا کے آگے توبہ کرو (تو بہتر ہے کیونکہ) تمہارے دل کج ہوگئے ہیں۔ اور اگر پیغمبر (کی ایذا) پر باہم اعانت کرو گی تو خدا اور جبریل اور نیک کردار مسلمان ان کے حامی (اور دوستدار) ہیں۔ اور ان کے علاوہ (اور) فرشتے بھی مددگار ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-66 }
+  - { type: mentions, target: person/jibril, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

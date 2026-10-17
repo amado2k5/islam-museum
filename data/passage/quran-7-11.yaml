@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور ہم ہی نے تم کو (ابتدا میں مٹی سے) پیدا کیا پھر تمہاری صورت شکل بنائی پھر فرشتوں کو حکم دیا آدم کے آگے سجدہ کرو تو (سب نے) سجدہ کیا لیکن ابلیس کہ وہ سجدہ کرنے والوں میں (شامل) نہ ہوا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
+  - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/iblis, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

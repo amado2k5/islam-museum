@@ -17,6 +17,8 @@ translations:
   ur: { text: "اور ہم نے نوح اور ابراہیم کو (پیغمبر بنا کر) بھیجا اور ان کی اولاد میں پیغمبری اور کتاب (کے سلسلے) کو (وقتاً فوقتاً جاری) رکھا تو بعض تو ان میں سے ہدایت پر ہیں۔ اور اکثر ان میں سے خارج از اطاعت ہیں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-57 }
+  - { type: mentions, target: person/ibrahim, sources: [source/tanzil-quran] }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

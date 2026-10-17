@@ -2,7 +2,7 @@
 
 _Prepared 17 October 2026 for the application at app.digitalpublicgoods.net. Companion to `unesco-nomination-dossier.md` (Part A.1 and A.4). The founder submits; this file says where every answer comes from. Indicator wording follows the Digital Public Goods Standard, version 1.1.4, and the DPGA submission guide (digitalpublicgoods.net/digital-public-goods/submission-guide); check both the day of submission, the Standard is revised through github.com/DPGAlliance/DPG-Standard._
 
-**Solution type to declare:** open content collection with an open dataset and open-source software (the museum is all three; the registry allows several types). **Authorised representative:** the founder, per `GOVERNANCE.md` "Ownership and legal status". **Submitted information is published under the Unlicense by the DPGA;** write every answer as public text.
+**Submitted 17 October 2026** by the founder, application GID0094424, status "under review" (the DPGA aims to review within 30 days; it writes to discover@islam.museum). The form allows one category per application: islam.museum was declared as **Open Content** (solution types: web app, website, data portal, dataset, API), with the CC0 data and MIT code as supporting evidence under indicators 2, 5 and 6. The knowledge graph can be filed later as a separate Open Data application if this one is approved. **Authorised representative:** the founder, per `GOVERNANCE.md` "Ownership and legal status". **Submitted information is published under the Unlicense by the DPGA;** write every answer as public text.
 
 ## The nine indicators
 

@@ -17,6 +17,7 @@ translations:
   ur: { text: "تو شیطان نے ان کے دل میں وسوسہ ڈالا۔ (اور) کہا کہ آدم بھلا میں تم کو (ایسا) درخت بتاؤں (جو) ہمیشہ کی زندگی کا (ثمرہ دے) اور (ایسی) بادشاہت کہ کبھی زائل نہ ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-20 }
+  - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور پہلے یوسف بھی تمہارے پاس نشانیاں لے کر آئے تھے تو جو وہ لائے تھے اس سے تم ہمیشہ شک ہی میں رہے۔ یہاں تک کہ جب وہ فوت ہوگئے تو تم کہنے لگے کہ خدا اس کے بعد کبھی کوئی پیغمبر نہیں بھیجے گا۔ اسی طرح خدا اس شخص کو گمراہ کر دیتا ہے جو حد سے نکل جانے والا اور شک کرنے والا ہو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-40 }
+  - { type: mentions, target: person/yusuf, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

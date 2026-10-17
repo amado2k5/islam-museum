@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور نوح کی قوم نے بھی جب پیغمبروں کو جھٹلایا تو ہم نے انہیں غرق کر ڈالا اور لوگوں کے لئے نشانی بنا دیا۔ اور ظالموں کے لئے ہم نے دکھ دینے والا عذاب تیار کر رکھا ہے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-25 }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

@@ -17,6 +17,7 @@ translations:
   ur: { text: "اور جب موسیٰ نے اپنی قوم سے کہا کہ بھائیو تم پر خدا نے جو احسان کئے ہیں ان کو یاد کرو کہ اس نے تم میں پیغمبر پیدا کیے اور تمہیں بادشاہ بنایا اور تم کو اتنا کچھ عنایت کیا کہ اہل عالم میں سے کسی کو نہیں دیا", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-5 }
+  - { type: mentions, target: person/musa, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
