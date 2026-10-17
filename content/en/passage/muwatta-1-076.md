@@ -1,0 +1,11 @@
+---
+id: passage/muwatta-1-076
+lang: en
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## Summary
+A report that Malik transmits from Nafi', in the chapter on wiping the head and the ears: Nafi' saw Safiyya bint Abi Ubayd, the wife of Abdullah ibn Umar, take off her headscarf and wipe her head with water, while Nafi' was still young. The editor notes that Abu Mus'ab, Suwayd, Abd al-Razzaq, Muhammad ibn al-Hasan, Waki' and Yahya ibn Bukayr transmitted it from Malik. {cite:muwatta-maruf-1997 p.74} {cite:muwatta-maruf-1997 p.75}
+
+## Place in the museum
+Belongs to [[passage/muwatta-kitab-01-salat|the Muwatta, Book of Prayer]]. Source: [[work/muwatta-malik|the Muwatta]]. Mentions [[person/safiyya-bint-abi-ubayd|Safiyya bint Abi Ubayd]], [[person/abdullah-ibn-umar|Abdullah ibn Umar ibn al-Khattab]] and [[person/nafi-mawla-ibn-umar|Nafi', client of Ibn Umar]]. Built on in the chapters on [[practice/wudu|ablution]].
