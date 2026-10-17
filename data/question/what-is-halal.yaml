@@ -1,34 +1,33 @@
 id: question/what-is-halal
 class: question
 label:
-  ar: ما الحلال والحرام في الإسلام؟
+  ar: ما الحلال؟
 summary:
-  ar: الحلال ما أباحه الشرع، والحرام ما منعه، وبينهما أمور مشتبهة يتجنبها المسلم احتياطاً؛ وهذا التقسيم أساس باب الطعام والمعاملات.
+  ar: الحلال هو ما أباحه الشرع من الأفعال والمآكل والمكاسب؛ نقيضه الحرام ويطبق على اللحوم بذبحها الشرعي
+    خاصة في الغذاء.
 question:
-  ar: ما الحلال والحرام في الإسلام؟
+  ar: ما الحلال؟
 short_answer:
-  ar: الحلال ما أباحه الشرع، والحرام ما منعه، وبينهما أمور مشتبهة يتجنبها المسلم احتياطاً؛ وهذا التقسيم أساس باب الطعام والمعاملات.
+  ar: الحلال هو ما أباحه الشرع من الأفعال والمآكل والمكاسب؛ نقيضه الحرام ويطبق على اللحوم بذبحها الشرعي
+    خاصة في الغذاء.
 long_answer:
-  ar: |
-    الحلال في الإسلام ما أباحته الشريعة، والحرام ما نهت عنه. وللعلماء تقسيم معروف إلى حلال واضح، وحرام واضح، ومشتبهات بينهما، كما يعرض مدخل [[concept/halal-haram|الحلال والحرام]].
-    وتطبيق هذا التقسيم في الطعام معروف، وأشهر ما يسأل عنه الناس هو اللحم والذبح وما يُشرب ويُؤكل.
-    والتفاصيل الدقيقة تختلف فيها المذاهب، ولهذا يحيل هذا المدخل إلى مدخل [[concept/halal-haram|الحلال والحرام]] بدل إصدار حكم عام.
+  ar: 'الحلال هو ما أباحه الشرع: من عبادات ومعاملات ومآكل ومشارب ومكاسب وأفعال. وفي الغذاء خاصة يشمل الحلال
+    مباحية المطعومات وذبح الحيوان المباح ذبحًا شرعيًا؛ وتقوم اليوم صناعة كبرى على مواصفاته وشهاداته في
+    العالم. {cite:wikidata}'
 related:
-- concept/halal-haram
-- concept/khamr
-audience:
-- newcomer
-sensitivity: none
+- concept/sharia
+wings: []
+themes:
+- worship-and-the-pillars
+provenance:
+  layer: own-research
+  source: Devin general-knowledge draft; verify against cited source
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: questions-newcomer-batch-2
+sources:
+- source/wikidata
 status:
   review: draft
   completeness: 1
-  generated_by: Claude (maintainer session)
-sources:
-- source/sahih-al-bukhari
-- source/tanzil-quran
-provenance:
-  layer: own-research
-  source: صحيح البخاري 8؛ مداخل الموسوعة المرتبطة
-  generated_by: Claude (maintainer session)
-  model: claude-haiku-5-5
-  run: questions-seed-2
+  generated_by: Devin (SWE-2 High), questions lane, 2026-10-16
