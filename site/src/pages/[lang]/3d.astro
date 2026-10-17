@@ -1,0 +1,39 @@
+---
+// 3D Virtual Tour («جولة 3D»): fixed-overlay Tour3D island + no-JS fallback.
+// Readable without JS (repo rule): the tour-nojs section is normal page
+// content; the Tour3D fixed overlay covers it only when JS runs.
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Tour3D from "../../components/Tour3D.astro";
+import { ui, LANGS, WINGS, wingHref, type Lang } from "../../lib/i18n";
+import { loadJourneys, viewJourneys } from "../../lib/tour";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const t = T.tour;
+if (!t?.page_title) throw new Error(`i18n: missing tour keys for ${lang}`);
+const journeys = viewJourneys(loadJourneys(), lang);
+const crumbLabel = lang === "ar" ? "مسار التنقل" : "breadcrumb";
+---
+<BaseLayout lang={lang} title={t.page_title} description={t.page_lede} path={`/${lang}/3d/`}>
+  <nav aria-label={crumbLabel} class="crumbs">
+    <a href={`/${lang}/`}>{T.name}</a>
+    <span aria-hidden="true"> / </span>
+    <span aria-current="page">{t.page_title}</span>
+  </nav>
+  <Tour3D lang={lang} t={t} journeys={journeys} wingTitles={Object.fromEntries(WINGS.map(w => [w, T.wings[w].title]))} />
+  <section class="tour-nojs">
+    <h1>{t.nojs_title}</h1>
+    <p>{t.nojs_lede}</p>
+    <h2>{t.nojs_wings}</h2>
+    <ul>
+      {WINGS.map((w) => (<li><a href={wingHref(lang, w)}>{T.wings[w].title}</a></li>))}
+    </ul>
+    <h2>{t.nojs_journeys}</h2>
+    <ul>
+      {journeys.map((j) => (
+        <li><strong>{j.title}</strong> — {j.sub}. {j.lines[0] ?? ""}</li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

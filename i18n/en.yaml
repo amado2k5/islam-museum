@@ -4,8 +4,6 @@ tagline: A museum for the whole story of Islam
 lang_name: English
 switch_to: العربية
 nav:
-  donate: "Donate"
-  gift_shop: "Gift shop"
   wings_menu: Wings
   explore_menu: Explore
   more: More
@@ -23,7 +21,6 @@ nav:
   made: Made
   questions: Questions
   exhibits: Exhibits
-  art: Architecture & Art
   wander: Wander
   search: Search
   coverage: Coverage
@@ -38,21 +35,6 @@ a11y:
   theme: Toggle dark mode
   menu: Main navigation
 landing:
-  give_title: "Donate and support us"
-  shop_title: "islam.museum gift shop"
-  shop_cta: "Browse the shop"
-  shop_prev: "Previous"
-  shop_next: "Next"
-  shop_region: "Gift shop categories"
-  shop_cats:
-    apparel: "Clothing and garments"
-    art: "Calligraphy and art prints"
-    books: "Books"
-    ceramics: "Pottery and ceramics"
-    home: "Home décor"
-    jewelry: "Jewellery and accessories"
-    kids: "For children"
-    oud: "Oud, miswak and Islamic heritage"
   eyebrow: A digital museum · open to everyone
   title_pre: A museum for the
   title_strong: whole story
@@ -339,38 +321,6 @@ surahmap:
   family_stories: Stories
   family_law: Law
   row_map: Map
-reader:
-  title: The Mushaf
-  lede: The full Qur'an for continuous reading, surah by surah — from the frozen Tanzil text, every verse a door to its museum page.
-  index_note: The surahs in mushaf order; open one to read it in full, and click any verse for its museum page with context and links.
-  sura_n: 'Surah {n}'
-  read_title: 'Surah {name} — read'
-  read_lede: 'Read {name} in full, {n} verses in the Tanzil Uthmani text; every verse leads to its museum page.'
-  open_ayah: 'Museum page of verse {ref}'
-  map_link: The surah's thematic map
-  revelation_link: The Qur'an in revelation order
-  sura_nav: Between surahs
-  credit: "Qur'anic text: Tanzil Project v1.1 (Uthmani script), copied verbatim and frozen in the museum's data; source:"
-  credit_source: source page
-  juz_nav: The thirty juz' of the mushaf
-  juz_n: 'Juz {n}'
-  juz_starts: 'Juz {n} begins at'
-poetry:
-  title: The Poetry Anthology
-  lede: The poems and verse pieces documented in the museum, arranged under their poets — every poem a page with its occasion, context and links.
-  index_note: The poems in the museum so far, attributed to their authors where the data attests it; what has no attested attribution is gathered in a final section, without guessing.
-  died: d.
-  unattributed: Poems not yet attributed in the data
-hadith:
-  title: The Hadith Library
-  lede: "The hadith collections in the museum: browse each work by book and report, and from every report to its page with its chain and links."
-  index_note: "Each card is a work with reports verified into the museum; numbering follows the editions named on each report's page."
-  reports: '{n} reports'
-  books: '{n} books'
-  collection_title: '{name} — hadith library'
-  collection_lede: '{n} verified reports from this work in the museum.'
-  kitab_lede: '{n} reports in this book of {name}.'
-  kitab_page: The book's museum page
 cards:
   title: Museum Cards
   lede: 'Interactive study cards: word maps, lists, explainers, and stories.'
@@ -460,7 +410,6 @@ not_found:
   body: This page is not in the museum, at least not yet.
   home: Back to the atrium
 footer:
-  support: "Support the museum"
   open: An open project in the making
   github: Follow the work on GitHub
   licenses: Prose CC BY-SA 4.0 · Data CC0 · Code MIT
@@ -762,26 +711,6 @@ learn:
   themes: Themes
   suggest: Tell us what you want to learn
   plan: The design document
-support:
-  title: "Support the museum"
-  lede: "This museum is free and open, with no ads and no tracking. If it is useful to you, your support keeps it that way and helps it grow faster."
-  why_title: "Why support us?"
-  why_body: "This museum is built carefully, one item at a time: every fact is attributed to its source and every text is reviewed. Your support helps keep this work going and extends it to English and other languages."
-  ways_title: "Ways to support"
-  patreon_title: "Join on Patreon"
-  patreon_body: "An optional monthly membership that helps keep this work going and lets you follow its progress."
-  patreon_cta: "Go to the Patreon page"
-  paypal_title: "One-time donation"
-  paypal_body: "A one-time donation through PayPal, with no subscription."
-  paypal_cta: "Donate with PayPal"
-  launchgood_title: "LaunchGood campaign"
-  launchgood_body: "A fundraising campaign on LaunchGood to help build the first open digital Islamic museum."
-  launchgood_cta: "Support the campaign on LaunchGood"
-  other_title: "Other ways to help"
-  other_body: "If a monthly membership does not suit you, you can contribute code, reviews or translations, or share the museum with people you know."
-  contribute: "Contribute on GitHub"
-  share: "Share the museum"
-  note: "Support is optional and gives no control over the museum's content or its review. Editorial work is independent and the method is published."
 foundation:
   title: "About the Islam Museum foundation"
   lede: "A free, open, all-digital museum of Islam: its faith, civilization, peoples, places, ideas, objects, texts and living culture, from the world Islam was born into to today."
@@ -1008,18 +937,6 @@ kids:
   pilot_feedback_title: What to ask afterwards
   pilot_contact_title: Contact us
   classroom_vote_banner: Hands up — let's vote together!
-
-
-art:
-  title: "Architecture and Art"
-  lede: "Mosques, madrasas, palaces, geometric and vegetal patterns, and objects, in fifty AI-drawn illustrations."
-  group_architecture: "Architecture"
-  group_patterns: "Patterns"
-  group_art: "Art and objects"
-  disclaimer: "These are AI-generated illustrations, not photographs, and they do not document one building or object. Dates and historical detail belong on the source-backed pages."
-  empty: "The first images are being prepared. They will appear here."
-  badge: "AI-generated illustration"
-
   tm_title: Little Time Machine
   tm_lede: Travel with Hudhud through five eras of the story of Islam — pick an era to visit and collect stars!
   tm_pick_era: Pick an era to visit
@@ -1047,3 +964,46 @@ art:
   mosque_all_parts: All the mosque parts
   mosque_grownups_title: For grown-ups
   mosque_grownups: “Build Your Mosque” introduces children to the seven parts of a mosque through free play — no scores, no wrong answers — and the finished mosque can be printed. To explore real mosques, visit the place wing in the big museum.
+
+tour:
+  page_title: 3D Virtual Tour
+  page_lede: Step into the museum and walk through its halls — nine portals to the wings, and journeys through time
+  nav_label: 3D Tour
+  enter_title: The Virtual Tour
+  enter_lede: Enter the museum and wander through it as if you were walking among its halls. Nine portals to the museum's nine wings — and journeys through time to the Cave of Hira, Cordoba, Baghdad…
+  enter_button: Enter the Museum
+  brand_sub: 3D Virtual Tour
+  journey_button: Journey Through Time
+  exit_button: Exit
+  exit_confirm: Leave the virtual tour and return to the museum site?
+  hint_desktop: "WASD or arrow keys to walk · drag to look · click to go"
+  hint_touch: "Use the joystick to walk · drag to look · tap to go"
+  loc_hall: The Grand Hall
+  panel_more: Read more in the museum
+  panel_close: Close
+  jp_title: Journey Through Time
+  jp_sub: Choose a destination — we will take you there to live the scene as it was
+  jp_close: Close
+  kind_event: Events
+  kind_place: Places
+  kind_time: Eras
+  jc_back: Back to the Grand Hall
+  portal_soon: A 3D hall for this wing is coming soon.
+  explore_wing: Explore the wing now
+  loading: Getting the Grand Hall ready…
+  failed: Could not run 3D graphics in your browser.
+  nojs_title: Virtual Tour — without JavaScript
+  nojs_lede: The 3D tour needs JavaScript, but you can explore the wings and journeys from here.
+  nojs_wings: Museum wings
+  nojs_journeys: Journeys through time
+
+  brand_name: islam.museum
+  hall_sub: virtual tour
+  gallery_hall: "{wing} gallery"
+  gallery_sub: "{wing} wing · {tour}"
+  gallery_back: Back to the Grand Hall
+  journey_tag: time journey
+  portal_toast: "The “{wing}” wing — 3D hall coming soon."
+  portal_explore: Explore the wing now
+  joy_label: Joystick — drag to walk
+  logo_alt: islam.museum logo

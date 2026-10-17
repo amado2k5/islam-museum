@@ -1,0 +1,295 @@
+---
+// 3D virtual museum tour («الجولة الافتراضية»).
+// Renders the fullscreen tour shell; the client script (site/src/scripts/tour.ts)
+// loads three.js lazily (dynamic import, only after the visitor presses Enter).
+// Localized strings arrive via `t` (see the key contract below); journey
+// narration via `journeys`; wing names via `wingTitles`. The 3D UI only appears
+// via JS — without JS this root stays display:none and the page's own fallback
+// content is what visitors see (this component never hides it).
+//
+// t key contract (all required; {wing}/{tour}/{sub} are placeholders):
+//   brand_name, brand_sub, journey_button, exit_button, loc_hall, hall_sub,
+//   hint_desktop, hint_touch, joy_label, panel_more, panel_close,
+//   gallery_back, gallery_hall ("قاعة {wing}"), gallery_sub ("جناح {wing} · {tour}"),
+//   journey_tag, portal_toast ("…«{wing}»…"), portal_explore,
+//   kind_event, kind_place, kind_time,
+//   jp_title, jp_sub, jp_close, jc_back,
+//   enter_title, enter_lede (plain text, \n for line breaks),
+//   enter_button, logo_alt, loading, failed
+// journeys[].kind must be one of: "event" | "place" | "time".
+interface JourneyView {
+  id: string;
+  kind: string;
+  build: string;
+  title: string;
+  sub: string;
+  lines: string[];
+}
+interface Props {
+  lang: "ar" | "en";
+  t: Record<string, string>;
+  journeys: JourneyView[];
+  wingTitles: Record<string, string>;
+}
+const { lang, t, journeys, wingTitles } = Astro.props;
+const dir = lang === "ar" ? "rtl" : "ltr";
+// Defensive: journeys carry no HTML, but never let a stray "<" break the
+// JSON script block (in particular "</script>").
+const payloadJson = JSON.stringify({ lang, t, journeys, wingTitles }).replace(/</g, "\\u003c");
+---
+<div id="tour3d-root" dir={dir} lang={lang}>
+  <div id="app"></div>
+
+  <div id="hud">
+    <div id="topbar">
+      <div id="brand">🏛️ {t.brand_name}<small id="wingLabel">{t.hall_sub}</small></div>
+      <div id="topBtns">
+        <button type="button" id="journeyBtn" aria-label={t.journey_button}>{t.journey_button}</button>
+        <button type="button" id="exitBtn" aria-label={t.exit_button}>{t.exit_button}</button>
+      </div>
+    </div>
+    <div id="loc" role="status">{t.loc_hall}</div>
+    <div id="cross" aria-hidden="true"></div>
+    <div id="hint">{t.hint_desktop}</div>
+  </div>
+
+  <div id="joy" aria-label={t.joy_label}><div id="joyKnob"></div></div>
+
+  <div id="panel" role="dialog" aria-live="polite" aria-labelledby="panelTitle">
+    <h2 id="panelTitle"></h2>
+    <p id="panelDesc"></p>
+    <div class="row">
+      <a id="panelLink" class="more" href="#" target="_blank" rel="noopener">{t.panel_more}</a>
+      <button type="button" id="panelClose" class="close" aria-label={t.panel_close}>{t.panel_close}</button>
+    </div>
+  </div>
+
+  <div id="journeyPanel" role="dialog" aria-live="polite" aria-labelledby="jpTitle">
+    <h2 id="jpTitle">{t.jp_title}</h2>
+    <div class="sub">{t.jp_sub}</div>
+    <div id="journeyChips"></div>
+    <button type="button" id="journeyClose" class="close" aria-label={t.jp_close}>{t.jp_close}</button>
+  </div>
+
+  <div id="journeyCard" role="dialog" aria-live="polite" aria-labelledby="jTitle">
+    <h2 id="jTitle"></h2><div class="jsub" id="jSub"></div><div id="jLines"></div>
+    <button type="button" id="jBack">{t.jc_back}</button>
+  </div>
+
+  <div id="toast" role="status"></div>
+  <div id="fade" aria-hidden="true"></div>
+
+  <div id="enterCard">
+    <div class="box">
+      <div class="cube"><img id="logoImg" src="/brand/logo-mark.svg" alt={t.logo_alt} width="150" height="150" /></div>
+      <h1>{t.enter_title}</h1>
+      <p class="lede">{t.enter_lede}</p>
+      <p class="fail" data-fail role="alert" hidden></p>
+      <button type="button" id="enterBtn">{t.enter_button}</button>
+    </div>
+  </div>
+
+  <div id="loading" aria-hidden="true"><div class="cube">🧊</div><p>{t.loading}</p></div>
+
+  <script type="application/json" set:html={payloadJson} />
+</div>
+<script src="../scripts/tour.ts"></script>
+<style is:global>
+/* 3D tour styles — every rule is prefixed with #tour3d-root so the fullscreen
+   tour never leaks into site chrome. The prototype's bare `*` reset and
+   `html,body{overflow:hidden}` are intentionally NOT ported. */
+#tour3d-root {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: #0d1b2e;
+  color: #f2f5fc;
+  font-family: "Segoe UI", Tahoma, "Noto Naskh Arabic", sans-serif;
+  overflow: hidden;
+}
+body:has(#tour3d-root) { overflow: hidden; }
+#tour3d-root #app { position: absolute; inset: 0; }
+#tour3d-root #app canvas { display: block; }
+#tour3d-root button { font-family: inherit; }
+#tour3d-root button:focus-visible,
+#tour3d-root a:focus-visible {
+  outline: 3px solid #f5d67b;
+  outline-offset: 2px;
+}
+
+/* ---------- HUD ---------- */
+#tour3d-root #hud { position: absolute; inset: 0; pointer-events: none; z-index: 10; }
+#tour3d-root #topbar {
+  position: absolute; top: 0; right: 0; left: 0;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 16px;
+  background: linear-gradient(to bottom, rgba(5,10,20,.65), transparent);
+}
+#tour3d-root #brand { color: #f5d67b; font-weight: 800; font-size: 1.05rem; text-shadow: 0 2px 8px #000; }
+#tour3d-root #brand small { display: block; color: #cfe0f5; font-weight: 400; font-size: .75rem; }
+#tour3d-root #exitBtn,
+#tour3d-root #journeyBtn {
+  pointer-events: auto; cursor: pointer;
+  border: 2px solid #d4a017; border-radius: 999px;
+  background: rgba(10,18,34,.8); color: #f5d67b;
+  font-weight: 700; font-size: .9rem; padding: 8px 18px;
+}
+#tour3d-root #exitBtn:hover,
+#tour3d-root #journeyBtn:hover { background: #d4a017; color: #1a1206; }
+#tour3d-root #topBtns { display: flex; gap: 8px; }
+#tour3d-root #hint {
+  position: absolute; bottom: 14px; right: 50%; transform: translateX(50%);
+  color: #e8eefb; background: rgba(8,14,28,.62);
+  border: 1px solid rgba(212,160,23,.45);
+  padding: 8px 18px; border-radius: 999px; font-size: .82rem; white-space: nowrap;
+  text-shadow: 0 1px 4px #000;
+}
+#tour3d-root #cross {
+  position: absolute; top: 50%; right: 50%; width: 6px; height: 6px; margin: -3px;
+  border-radius: 50%; background: rgba(245,214,123,.85); box-shadow: 0 0 6px #000;
+}
+#tour3d-root #loc {
+  position: absolute; top: 64px; right: 50%; transform: translateX(50%);
+  color: #f5d67b; font-size: .85rem; font-weight: 700; text-shadow: 0 2px 6px #000;
+  background: rgba(8,14,28,.5); padding: 4px 16px; border-radius: 999px;
+}
+
+/* ---------- overlays ---------- */
+#tour3d-root #fade {
+  position: absolute; inset: 0; background: #05080f; opacity: 1;
+  transition: opacity .7s; z-index: 40; pointer-events: none;
+}
+#tour3d-root #loading {
+  position: absolute; inset: 0; z-index: 50; display: none;
+  flex-direction: column; gap: 14px; align-items: center; justify-content: center;
+  background: #0d1b2e; color: #f5d67b;
+}
+#tour3d-root #loading .cube { font-size: 3rem; animation: tour-spin 2.4s linear infinite; }
+@keyframes tour-spin { to { transform: rotateY(360deg); } }
+#tour3d-root #loading p { color: #cfe0f5; font-size: .9rem; }
+
+#tour3d-root #panel {
+  position: absolute; z-index: 30; bottom: 70px; right: 50%;
+  transform: translateX(50%) translateY(20px);
+  width: min(420px, calc(100vw - 32px));
+  background: rgba(13,22,40,.94);
+  border: 2px solid #d4a017; border-radius: 18px; padding: 18px 20px; color: #f2f5fc;
+  opacity: 0; pointer-events: none; transition: opacity .3s, transform .3s;
+  box-shadow: 0 18px 60px rgba(0,0,0,.6);
+}
+#tour3d-root #panel.show { opacity: 1; pointer-events: auto; transform: translateX(50%) translateY(0); }
+#tour3d-root #panel h2 { color: #f5d67b; font-size: 1.25rem; margin: 0 0 6px; }
+#tour3d-root #panel p { font-size: .95rem; line-height: 1.8; color: #dbe4f5; margin: 0 0 12px; }
+#tour3d-root #panel .row { display: flex; gap: 10px; }
+#tour3d-root #panel a.more {
+  flex: 1; text-align: center; background: #d4a017; color: #1a1206; font-weight: 800;
+  text-decoration: none; padding: 10px; border-radius: 12px;
+}
+#tour3d-root #panel button.close {
+  border: 2px solid #5a6b8c; background: transparent; color: #dbe4f5;
+  border-radius: 12px; padding: 10px 16px; cursor: pointer; font-weight: 700;
+}
+
+#tour3d-root #toast {
+  position: absolute; z-index: 30; top: 110px; right: 50%;
+  transform: translateX(50%) translateY(-12px);
+  background: rgba(13,22,40,.94); border: 1.5px solid #d4a017; color: #f2f5fc;
+  border-radius: 14px; padding: 12px 20px; font-size: .92rem;
+  opacity: 0; pointer-events: none; transition: opacity .3s, transform .3s;
+  max-width: min(440px, calc(100vw - 32px)); text-align: center;
+}
+#tour3d-root #toast.show { opacity: 1; pointer-events: auto; transform: translateX(50%) translateY(0); }
+#tour3d-root #toast a { color: #f5d67b; font-weight: 800; }
+
+/* ---------- touch joystick ---------- */
+#tour3d-root #joy {
+  position: absolute; z-index: 20; bottom: 70px; left: 22px;
+  width: 120px; height: 120px; border-radius: 50%;
+  border: 2px solid rgba(212,160,23,.6); background: rgba(10,18,34,.4);
+  display: none; touch-action: none;
+}
+#tour3d-root #joyKnob {
+  position: absolute; top: 50%; left: 50%; width: 52px; height: 52px; margin: -26px;
+  border-radius: 50%; background: rgba(212,160,23,.85); box-shadow: 0 4px 14px rgba(0,0,0,.5);
+}
+body.touch #tour3d-root #joy { display: block; }
+body.touch #tour3d-root #hint { bottom: 200px; }
+
+/* ---------- entry card ---------- */
+#tour3d-root #enterCard {
+  position: absolute; inset: 0; z-index: 45;
+  display: flex; align-items: center; justify-content: center;
+  background: radial-gradient(ellipse at center, #16294a 0%, #0a1424 70%);
+  transition: opacity .6s;
+}
+#tour3d-root #enterCard.hide { opacity: 0; pointer-events: none; }
+#tour3d-root #enterCard .box { text-align: center; color: #f2f5fc; padding: 30px; max-width: 520px; }
+#tour3d-root #enterCard .cube { font-size: 4rem; }
+#tour3d-root #enterCard .cube img {
+  width: 150px; height: 150px;
+  filter: drop-shadow(0 8px 22px rgba(0,0,0,.65));
+}
+#tour3d-root #enterCard h1 { color: #f5d67b; font-size: 1.9rem; margin: 10px 0 6px; }
+#tour3d-root #enterCard p.lede { color: #c9d6ee; line-height: 2; margin: 0 0 20px; white-space: pre-line; }
+#tour3d-root #enterCard p.fail {
+  color: #ffd9a8; background: rgba(120,40,10,.35);
+  border: 1.5px solid #c75b6e; border-radius: 12px;
+  padding: 10px 16px; margin: 0 0 16px; line-height: 1.8;
+}
+#tour3d-root #enterBtn {
+  cursor: pointer; font-size: 1.15rem; font-weight: 800;
+  background: #d4a017; color: #1a1206; border: none; border-radius: 999px; padding: 14px 46px;
+}
+#tour3d-root #enterBtn:hover { transform: scale(1.04); }
+#tour3d-root #enterBtn:disabled { opacity: .6; cursor: wait; transform: none; }
+
+/* ---------- journey chooser + narration card ---------- */
+#tour3d-root #journeyPanel {
+  position: absolute; z-index: 30; bottom: 70px; right: 50%;
+  transform: translateX(50%) translateY(20px);
+  width: min(460px, calc(100vw - 32px)); max-height: 60vh; overflow: auto;
+  background: rgba(13,22,40,.96); border: 2px solid #d4a017; border-radius: 18px;
+  padding: 18px 20px; color: #f2f5fc;
+  opacity: 0; pointer-events: none; transition: opacity .3s, transform .3s;
+}
+#tour3d-root #journeyPanel.show { opacity: 1; pointer-events: auto; transform: translateX(50%) translateY(0); }
+#tour3d-root #journeyPanel h2 { color: #f5d67b; font-size: 1.2rem; margin: 0 0 4px; }
+#tour3d-root #journeyPanel .sub { color: #aeb9d4; font-size: .85rem; margin-bottom: 12px; }
+#tour3d-root #journeyPanel h3 { color: #d4a017; font-size: .85rem; margin: 12px 0 6px; }
+#tour3d-root .jchips { display: flex; flex-wrap: wrap; gap: 8px; }
+#tour3d-root .jchip {
+  cursor: pointer; border: 1.5px solid #5a6b8c; background: rgba(30,44,74,.8); color: #eef2fb;
+  border-radius: 999px; padding: 8px 14px; font-size: .85rem; font-weight: 700;
+}
+#tour3d-root .jchip:hover { border-color: #d4a017; color: #f5d67b; }
+#tour3d-root .jchip small { display: block; font-weight: 400; font-size: .72rem; color: #aeb9d4; }
+#tour3d-root #journeyPanel .close {
+  margin-top: 14px; width: 100%; border: 2px solid #5a6b8c; background: transparent;
+  color: #dbe4f5; border-radius: 12px; padding: 10px; cursor: pointer; font-weight: 700;
+}
+#tour3d-root #journeyCard {
+  position: absolute; z-index: 30; top: 110px; right: 50%;
+  transform: translateX(50%) translateY(-12px);
+  width: min(460px, calc(100vw - 32px));
+  background: rgba(10,17,32,.92);
+  border: 1.5px solid rgba(212,160,23,.6); border-radius: 16px;
+  padding: 16px 20px; color: #eef2fb;
+  opacity: 0; pointer-events: none; transition: opacity .4s, transform .4s;
+}
+#tour3d-root #journeyCard.show { opacity: 1; pointer-events: auto; transform: translateX(50%) translateY(0); }
+#tour3d-root #journeyCard h2 { color: #f5d67b; font-size: 1.15rem; margin: 0; }
+#tour3d-root #journeyCard .jsub { color: #aeb9d4; font-size: .8rem; margin-bottom: 8px; }
+#tour3d-root #journeyCard p { font-size: .92rem; line-height: 2; color: #dbe4f5; margin: 0 0 6px; }
+#tour3d-root #journeyCard button {
+  margin-top: 10px; width: 100%; background: #d4a017; color: #1a1206; border: none;
+  border-radius: 12px; padding: 10px; font-weight: 800; cursor: pointer;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #tour3d-root #loading .cube { animation: none; }
+  #tour3d-root #fade,
+  #tour3d-root #enterCard { transition: none; }
+  #tour3d-root #enterBtn:hover { transform: none; }
+}
+</style>

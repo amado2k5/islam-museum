@@ -1,0 +1,109 @@
+# 3D tour journeys (رحلات عبر الزمن): vignette scenes for the virtual museum tour.
+# AI-generated draft — scholar review pending.
+# Places and architecture only; no human figures are depicted in any scene.
+status:
+  review: draft
+provenance:
+  generated_by: Muse
+  model: "Muse Spark"
+  source: "3D tour prototype"
+  note: "AI-generated; scholar review pending"
+journeys:
+  - id: hira
+    kind: "حدث"
+    build: hira
+    title: { ar: "غار حراء", en: "Cave of Hira" }
+    sub: { ar: "مكة · 610م", en: "Mecca · 610 CE" }
+    lines:
+      ar:
+        - "ليلٌ ساكن يلفّ جبال مكة. أمامك جبل النور، وفي أعلاه غارٌ صغير مظلم."
+        - "في ليلة كهذه، قبل أكثر من 1400 عام، بدأ نزول القرآن الكريم."
+        - "لا نرى أحدًا هنا — فقط الصمت والنجوم والجبل. قف لحظة وتأمّل عظمة البداية."
+      en:
+        - "A still night wraps around the mountains of Mecca. Before you rises Jabal al-Nour, and near its peak a small dark cave."
+        - "On a night like this, over 1,400 years ago, the revelation of the Quran began."
+        - "We see no one here — only silence, stars, and the mountain. Stand a moment and contemplate the enormity of the beginning."
+  - id: madinah
+    kind: "مكان"
+    build: madinah
+    title: { ar: "المسجد الأول", en: "The First Mosque" }
+    sub: { ar: "المدينة · 622م", en: "Medina · 622 CE" }
+    lines:
+      ar:
+        - "ساحة من التراب، أعمدة من جذوع النخل، وسقف من سعف النخيل المضفور."
+        - "هكذا كان المسجد الأول في المدينة: بسيطًا قريبًا من الأرض، يجمع الناس على الخير."
+        - "البساطة هنا هي الجمال — انظر حولك وتخيّل الصفوف الأولى."
+      en:
+        - "A courtyard of packed earth, columns of palm trunks, and a roof of woven palm fronds."
+        - "This was the first mosque in Medina: simple, close to the earth, gathering people in goodness."
+        - "Simplicity here is beauty — look around and imagine the first rows."
+  - id: baghdad
+    kind: "مكان"
+    build: baghdad
+    title: { ar: "بيت الحكمة", en: "The House of Wisdom" }
+    sub: { ar: "بغداد · 830م", en: "Baghdad · 830 CE" }
+    lines:
+      ar:
+        - "المدينة المدوّرة: أسوار دائرية ضخمة تحيط بقصر الخلافة وقلب الدولة."
+        - "على ضفاف دجلة قامت «بيت الحكمة» — حيث تُرجمت علوم اليونان والفرس والهند."
+        - "تخيّل رفوف المخطوطات وأصوات الأقلام: هنا وُلد الجبر والخوارزميات."
+      en:
+        - "The Round City: massive circular walls enclosing the caliph's palace and the heart of the state."
+        - "On the banks of the Tigris stood the House of Wisdom — where the sciences of Greece, Persia, and India were translated."
+        - "Imagine shelves of manuscripts and the scratching of pens: algebra and algorithms were born here."
+  - id: cordoba
+    kind: "مكان"
+    build: cordoba
+    title: { ar: "جامع قرطبة الكبير", en: "The Great Mosque of Cordoba" }
+    sub: { ar: "قرطبة · 970م", en: "Cordoba · 970 CE" }
+    lines:
+      ar:
+        - "غابة من الأعمدة: مئات الأعمدة الرخامية تعلوها أقواس مخططة بالأحمر والأبيض."
+        - "كان جامع قرطبة منارة علم يقصدها طلاب المعرفة من المشرق والمغرب."
+        - "امشِ بين الأعمدة واستمع لصدى خطواتك تحت السقف."
+      en:
+        - "A forest of columns: hundreds of marble columns crowned with arches striped in red and white."
+        - "The mosque of Cordoba was a beacon of learning, sought by students of knowledge from east and west."
+        - "Walk between the columns and listen to your footsteps echo beneath the roof."
+  - id: cairo
+    kind: "زمن"
+    build: cairo
+    title: { ar: "القاهرة الفاطمية", en: "Fatimid Cairo" }
+    sub: { ar: "القاهرة · 969م", en: "Cairo · 969 CE" }
+    lines:
+      ar:
+        - "مدينة جديدة تولد من الرمال: القاهرة. مآذن وقباب ترتفع مع غروب الشمس."
+        - "هنا سيُبنى الجامع الأزهر — منارة علم تضيء لأكثر من ألف عام."
+        - "انظر إلى السماء البرتقالية فوق القباب."
+      en:
+        - "A new city rising from the sands: Cairo. Minarets and domes climb into the sunset."
+        - "Here al-Azhar Mosque would be built — a lighthouse of learning shining for over a thousand years."
+        - "Look at the orange sky above the domes."
+  - id: istanbul
+    kind: "زمن"
+    build: istanbul
+    title: { ar: "إسطنبول العثمانية", en: "Ottoman Istanbul" }
+    sub: { ar: "إسطنبول · 1600م", en: "Istanbul · 1600 CE" }
+    lines:
+      ar:
+        - "قبة عظيمة تتوسط السماء، تحفّ بها أنصاف القباب وأربع مآذن رشيقة كالأقلام."
+        - "هذه عمارة سنان: هندسة تتحدى الجاذبية وتسبّح بالجمال."
+        - "مياه البوسفور تلمع أمامك، والمدينة تمتد حتى الأفق."
+      en:
+        - "A mighty dome fills the sky, ringed by half-domes and four slender minarets like pens."
+        - "This is Sinan's architecture: engineering that defies gravity and glorifies beauty."
+        - "The waters of the Bosphorus glitter before you, and the city stretches to the horizon."
+  - id: kaaba
+    kind: "حدث"
+    build: kaaba
+    title: { ar: "الكعبة المشرفة", en: "The Kaaba" }
+    sub: { ar: "مكة · كل زمان", en: "Mecca · all eras" }
+    lines:
+      ar:
+        - "المكعّب المهيب مكسوًّا بالسواد المطرّز بالذهب — قبلة المسلمين في كل صلاة."
+        - "منذ آلاف السنين والناس يطوفون حوله صفًّا واحدًا، لا فرق بين غني وفقير."
+        - "قف هنا لحظة صمت وتأمّل."
+      en:
+        - "The majestic cube draped in gold-embroidered black — the qibla of Muslims in every prayer."
+        - "For thousands of years people have circled it in a single row, rich and poor alike."
+        - "Stand here in a moment of silence and contemplation."
