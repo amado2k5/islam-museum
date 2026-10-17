@@ -1,0 +1,77 @@
+id: exhibit/path-surah-balad
+class: exhibit
+kind: trail
+label:
+  ar: سورة البلد
+  en: Surah al-Balad
+summary:
+  ar: 'مسار في سورة الحِل: هذا البلد تقسم، والعقبة تقتحم، والرقبة تُعتق — سورة التكلفة.'
+  en: A trail through the sura of the city.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: البلد
+    en: The city
+  body:
+    ar: لا أقسم بهذا البلد وأنت حل به.
+    en: لا أقسم بهذا البلد وأنت حل به.
+  features:
+  - passage/quran-90
+  - passage/quran-90-1
+  - place/mecca
+- title:
+    ar: الكبد
+    en: The struggle
+  body:
+    ar: لقد خلقنا الإنسان في كبد.
+    en: لقد خلقنا الإنسان في كبد.
+  features:
+  - passage/quran-90-4
+  - concept/akhira
+- title:
+    ar: العقبة
+    en: The pass
+  body:
+    ar: فلا اقتحم العقبة وما أدراك.
+    en: فلا اقتحم العقبة وما أدراك.
+  features:
+  - passage/quran-90-11
+  - passage/quran-90-12
+- title:
+    ar: العتق
+    en: Emancipation
+  body:
+    ar: 'فك رقبة أو إطعام: عمل البر.'
+    en: 'فك رقبة أو إطعام: عمل البر.'
+  features:
+  - passage/quran-90-13
+  - passage/quran-90-13
+- title:
+    ar: الأصحاب
+    en: The companions
+  body:
+    ar: أصحاب الميمنة والمشأمة.
+    en: أصحاب الميمنة والمشأمة.
+  features:
+  - passage/quran-90-18
+  - concept/akhira
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
