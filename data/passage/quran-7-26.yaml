@@ -17,6 +17,7 @@ translations:
   ur: { text: "اے نبی آدم ہم نے تم پر پوشاک اتاری کہ تمہارا ستر ڈھانکے اور (تمہارے بدن کو) زینت (دے) اور (جو) پرہیزگاری کا لباس (ہے) وہ سب سے اچھا ہے۔ یہ خدا کی نشانیاں ہیں تاکہ لوگ نصحیت پکڑ یں", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
+  - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

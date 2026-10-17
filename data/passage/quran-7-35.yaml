@@ -17,6 +17,7 @@ translations:
   ur: { text: "اے نبی آدم! (ہم تم کو یہ نصیحت ہمیشہ کرتے رہے ہیں کہ) جب ہمارے پیغمبر تمہارے پاس آیا کریں اور ہماری آیتیں تم کو سنایا کریں (تو ان پر ایمان لایا کرو) کہ جو شخص (ان پر ایمان لا کر خدا سے) ڈرتا رہے گا اور اپنی حالت درست رکھے گا تو ایسے لوگوں کو نہ کچھ خوف ہوگا اور نہ وہ غمناک ہوں گے", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-7 }
+  - { type: mentions, target: person/adam, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]

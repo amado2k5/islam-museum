@@ -17,6 +17,7 @@ translations:
   ur: { text: "ہم نے نوحؑ کو ان کی قوم کی طرف بھیجا کہ پیشتر اس کے کہ ان پر درد دینے والا عذاب واقع ہو اپنی قوم کو ہدایت کردو", translator: "Fateh Muhammad Jalandhari", license: PD }
 relations:
   - { type: part_of, target: passage/quran-71 }
+  - { type: mentions, target: person/nuh, sources: [source/tanzil-quran] }
 sensitivity: sacred
 provenance: { layer: by, source: tanzil-quran-v1.1 }
 sources: [source/tanzil-quran, source/tanzil-translations]
