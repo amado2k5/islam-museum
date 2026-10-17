@@ -70,6 +70,21 @@ const desc = fmt(R.read_lede, { n: String(ayahs.length), name });
       </p>
     </article>
 
+    {lang !== "ar" && ayahs.some((a) => a.data.translations?.[lang]) && (
+      <details class="panel" style="margin-top:16px;max-width:52rem;margin-inline:auto">
+        <summary class="ui" style="cursor:pointer;font-weight:600">{R.translation_title}</summary>
+        <ol class="tr-list">
+          {ayahs.filter((a) => a.data.translations?.[lang]).map((a) => (
+            <li id={`t${a.data.aya}`}>
+              <a class="hd-ref" href={href(lang, a.id)}>{a.data.aya}</a>
+              <span lang={lang} dir={lang === "ur" ? "rtl" : "ltr"}>{a.data.translations[lang].text}</span>
+            </li>
+          ))}
+        </ol>
+        <p class="ui muted" style="font-size:.82rem;margin:10px 0 0">{fmt(R.translation_credit, { tr: ayahs[0].data.translations[lang].translator })}</p>
+      </details>
+    )}
+
     <nav class="ui" aria-label={R.sura_nav} style="display:flex;justify-content:space-between;gap:12px;margin-top:24px;flex-wrap:wrap">
       {prev ? <a class="chip" href={`/${lang}/words/quran/${n - 1}/`}>← {labelOf(prev, lang)}</a> : <span />}
       {next ? <a class="chip" href={`/${lang}/words/quran/${n + 1}/`}>{labelOf(next, lang)} →</a> : <span />}

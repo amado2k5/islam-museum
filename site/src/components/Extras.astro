@@ -73,6 +73,11 @@ const faithText = (d.faith ?? []) as any[];
       {d.aya > 1 && <> · <a href={href(lang, `passage/quran-${d.sura}-${d.aya - 1}`)}>{T.passage.prev}</a></>}
       {byId.has(`passage/quran-${d.sura}-${d.aya + 1}`) && <> · <a href={href(lang, `passage/quran-${d.sura}-${d.aya + 1}`)}>{T.passage.next}</a></>}
     </p>
+    {d.translations?.[lang] && (
+      <p class="ui" style="margin:14px 0 0;font-size:1rem;line-height:1.8;border-top:1px solid var(--rule);padding-top:12px">
+        {d.translations[lang].text} <span class="muted" style="font-size:.8rem">— {d.translations[lang].translator}</span>
+      </p>
+    )}
   </section>
 )}
 {n.class === "passage" && d.text && d.work !== "work/quran" && (
