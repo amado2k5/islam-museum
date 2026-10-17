@@ -1,0 +1,77 @@
+id: exhibit/path-tariqas
+class: exhibit
+kind: trail
+label:
+  ar: الطرق الصوفية
+  en: The Sufi Orders
+summary:
+  ar: 'مسار في تنظيم التصوف: القادرية والمولوية والشاذلية والنقشبندية — الرباط والزاوية والطريقة.'
+  en: A trail through the organized orders.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- global
+rooms:
+- title:
+    ar: الفكرة
+    en: The idea
+  body:
+    ar: 'الطريقة: شيخ ومريد وطريق.'
+    en: 'الطريقة: شيخ ومريد وطريق.'
+  features:
+  - concept/tasawwuf
+  - concept/zuhd
+- title:
+    ar: القادرية
+    en: Qadiriyya
+  body:
+    ar: 'الجيلاني في بغداد: أولى الكبرى.'
+    en: 'الجيلاني في بغداد: أولى الكبرى.'
+  features:
+  - person/abd-al-qadir-al-jilani
+  - place/baghdad
+- title:
+    ar: المولوية
+    en: Mevlevis
+  body:
+    ar: 'الرومي في قونية: الدوران.'
+    en: 'الرومي في قونية: الدوران.'
+  features:
+  - person/jalal-al-din-rumi
+  - place/konya
+- title:
+    ar: الأدب
+    en: The adab
+  body:
+    ar: الذكر والسماع والفقر.
+    en: الذكر والسماع والفقر.
+  features:
+  - practice/dhikr
+  - concept/adab
+- title:
+    ar: الأثر
+    en: The impact
+  body:
+    ar: 'الطرق تنشر الإسلام: أفريقيا وآسيا.'
+    en: 'الطرق تنشر الإسلام: أفريقيا وآسيا.'
+  features:
+  - place/timbuktu
+  - place/java
+  - place/zanzibar
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16

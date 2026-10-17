@@ -1,0 +1,76 @@
+id: exhibit/path-mystics-east
+class: exhibit
+kind: trail
+label:
+  ar: زهاد خراسان
+  en: The Eastern Mystics
+summary:
+  ar: 'مسار في زهاد الشرق: بيسطامي في بسطام، وذو النون في مصر، وسهل التستري في الأهواز — التصوف قبل بغداد.'
+  en: A trail through the eastern ascetics.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- persia-central-asia
+rooms:
+- title:
+    ar: البسطامي
+    en: Al-Bistami
+  body:
+    ar: 'بايزيد: شيخ الشطح والفناء.'
+    en: 'بايزيد: شيخ الشطح والفناء.'
+  features:
+  - person/bayazid-al-bistami
+  - place/nishapur
+- title:
+    ar: ذو النون
+    en: Dhu'l-Nun
+  body:
+    ar: 'المصري: حكيم الإخميم وأول الأدب.'
+    en: 'المصري: حكيم الإخميم وأول الأدب.'
+  features:
+  - person/dhu-al-nun-al-misri
+  - person/dhu-al-nun-al-misri
+- title:
+    ar: التستري
+    en: Al-Tustari
+  body:
+    ar: 'سهل بن عبد الله: عالم القلوب.'
+    en: 'سهل بن عبد الله: عالم القلوب.'
+  features:
+  - person/sahl-al-tustari
+  - concept/tasawwuf
+- title:
+    ar: المدرسة
+    en: The school
+  body:
+    ar: 'من خراسان إلى بغداد: النقل.'
+    en: 'من خراسان إلى بغداد: النقل.'
+  features:
+  - person/bayazid-al-bistami
+  - person/al-junayd-ibn-muhammad
+- title:
+    ar: الأثر
+    en: The legacy
+  body:
+    ar: 'الزهد يصير علمًا: التصوف ينضج.'
+    en: 'الزهد يصير علمًا: التصوف ينضج.'
+  features:
+  - concept/tasawwuf
+  - concept/zuhd
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
