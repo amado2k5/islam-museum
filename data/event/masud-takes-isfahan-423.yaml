@@ -1,0 +1,25 @@
+id: event/masud-takes-isfahan-423
+class: event
+kind: conquest
+label: { ar: "مسعود بن محمود يدخل أصبهان بالسيف" }
+summary:
+  ar: "في سنة ثلاث وعشرين وأربعمائة سار الملك المسعود بن محمود بن سبكتكين فدخل أصبهان بالسيف وقتل عالماً لا يُحصون {cite:shadharat-dhahab p. 226}."
+  en: "In 423 al-Malik al-Mas'ud b. Mahmud b. Sabuktigin marched on Isfahan, entered it by the sword and killed uncounted numbers; Ibn al-'Imad adds a censure of the deed's brutality {cite:shadharat-dhahab p. 226}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [persia-central-asia]
+sides:
+  - label: { ar: "المسعود بن محمود الغزنوي" }
+    commanders: [person/masud-ibn-mahmud]
+  - label: { ar: "أهل أصبهان" }
+date:
+  start: { edtf: "1032~", hijri: "0423", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 423 {cite:shadharat-dhahab p. 226}." }
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-91
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

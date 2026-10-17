@@ -44,3 +44,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 90 — continue from سنة 417 (line ~5571) through 450.
 - Batch 90 (Devin): AH 417–418 — Somnath raid (Mahmud's letter: Sha'ban 416, 30k horse, idol broken, ~50k dead), Jalal al-Dawla's khutba restored at Baghdad, plus obits: Abu Ishaq al-Isfarayini (d. Ashura 418, enriched), al-Lalaka'i (Sharh al-Sunna), Ibn al-Maghribi the vizier-poet, al-Qaffal al-Marwazi. 5 new + 1 enriched + 2 prose.
 - Next: batch 91 — continue from سنة 419 (line ~5789) through ~450.
+- Batch 91 (Devin): AH 420–423 — the giant hail of al-Nu'maniyya, al-Uqhuwana battle & Salih b. Mirdas's death (first Mirdasid of Aleppo, killed Jumada I 420), Mas'ud's sword-entry of Isfahan 423; enriched Mahmud of Ghazna (b. Ashura night 361, d. Jumada I 421) and al-Qadir (d. 11 Dhu al-Hijja 422, caliphate 41y3m). 5 new + 2 enriched + 2 prose.
+- Next: batch 92 — continue from سنة 424 (~line 6150) through ~450.

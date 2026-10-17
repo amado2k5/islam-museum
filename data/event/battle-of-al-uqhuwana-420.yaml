@@ -1,0 +1,26 @@
+id: event/battle-of-al-uqhuwana-420
+class: event
+kind: battle
+label: { ar: "وقعة الأقحوانة وقتل صالح بن مرداس" }
+summary:
+  ar: "في جمادى الأولى سنة عشرين وأربعمائة تلاقى صالح بن مرداس أميرُ حلب وأنوشكين الدزبري أميرُ جيوش الظاهر العبيدي على الأقحوانة — بلدة بالشام من أعمال فلسطين قرب طبريا — فتصافّا وجرت بينهما مقتلة انجلت عن قتل صالح المذكور، وهو أول ملوك بني مرداس المتملّكين بحلب {cite:shadharat-dhahab p. 215}."
+  en: "In Jumada I 420 Salih b. Mirdas, the new Mirdasid amir of Aleppo, met Anushtakin al-Dizbiri, al-Zahir's commander-in-chief, at al-Uqhuwana near Tiberias; the battle ended with Salih dead {cite:shadharat-dhahab p. 215}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "صالح بن مرداس" }
+    commanders: [person/salih-ibn-mirdas]
+  - label: { ar: "أنوشكين الدزبري وجيوش الظاهر" }
+    commanders: [person/anushtakin-al-dizbiri]
+date:
+  start: { edtf: "1029~", hijri: "0420-05", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الأولى سنة 420 {cite:shadharat-dhahab p. 215}." }
+relations:
+  - { type: occurred_at, target: place/tabariyya, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-91
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
