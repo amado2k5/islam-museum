@@ -1,0 +1,33 @@
+id: practice/wudu
+class: practice
+kind: ritual
+label:
+  ar: الوضوء
+  en: Wudu (ablution)
+summary:
+  ar: "الطهارة المائية الصغرى قبل الصلاة وبعض العبادات: غسل الوجه واليدين ومسح الرأس وغسل الرجلين، وردت في سورة المائدة."
+  en: "The minor water ablution before prayer and some rites: washing face and hands, wiping the head, washing the feet — set out in Sura al-Ma'ida."
+wings: []
+themes: [worship-and-the-pillars]
+obligation: obligatory
+when:
+  ar: قبل كل صلاة وعند الحدث الأصغر
+
+scriptural_basis:
+- passage/quran-5-6
+basis:
+- tradition: sunni
+  value: prophetic-practice
+relations:
+- type: based_on
+  target: passage/quran-5-6
+  sources: [source/tanzil-quran]
+sources: [source/tanzil-quran]
+provenance:
+  layer: own-research
+  source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
+  generated_by: Devin (SWE-2 High), practices lane
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), 2026-10-16

@@ -1,0 +1,33 @@
+id: practice/tawaf
+class: practice
+kind: ritual
+label:
+  ar: الطواف
+  en: Tawaf (circling the Kaaba)
+summary:
+  ar: "الطواف بالكعبة سبعًا في الحج والعمرة وفي التطوع؛ يبتدئ ويُختم بالحجر الأسود، والكعبة عن اليسار."
+  en: "Circling the Kaaba seven times in hajj, umrah and voluntary rites; beginning and ending at the Black Stone with the Kaaba on the left."
+wings: []
+themes: [sacred-space-and-pilgrimage, worship-and-the-pillars]
+obligation: obligatory
+when:
+  ar: في الحج والعمرة وعند دخول المسجد الحرام
+
+scriptural_basis:
+- passage/quran-2-125
+basis:
+- tradition: sunni
+  value: prophetic-practice
+relations:
+- type: based_on
+  target: passage/quran-2-125
+  sources: [source/tanzil-quran]
+sources: [source/tanzil-quran]
+provenance:
+  layer: own-research
+  source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
+  generated_by: Devin (SWE-2 High), practices lane
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), 2026-10-16

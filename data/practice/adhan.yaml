@@ -1,0 +1,33 @@
+id: practice/adhan
+class: practice
+kind: ritual
+label:
+  ar: الأذان
+  en: The call to prayer (adhan)
+summary:
+  ar: "النداء العلني إلى الصلاة بصيغة ثابتة: الله أكبر، الشهادتان، حي على الصلاة وحي على الفلاح، وتثويب في الفجر."
+  en: "The public call to prayer in its fixed formula: Allahu akbar, the two testimonies, 'hurry to prayer' and 'hurry to success', with an added phrase at dawn."
+wings: []
+themes: [worship-and-the-pillars, sacred-space-and-pilgrimage]
+obligation: recommended
+when:
+  ar: قبل كل صلاة مفروضة
+
+scriptural_basis:
+- passage/quran-62-9
+basis:
+- tradition: sunni
+  value: prophetic-practice
+relations:
+- type: based_on
+  target: passage/quran-62-9
+  sources: [source/tanzil-quran]
+sources: [source/sahih-al-bukhari, source/tanzil-quran]
+provenance:
+  layer: own-research
+  source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
+  generated_by: Devin (SWE-2 High), practices lane
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), 2026-10-16

@@ -1,0 +1,33 @@
+id: practice/khutba
+class: practice
+kind: ritual
+label:
+  ar: الخطبة
+  en: The sermon (khutba)
+summary:
+  ar: "الخطبتان قبل صلاة الجمعة وفي العيدين؛ شرط صحة الجمعة عند الجمهور، تتضمن حمد الله ووعظًا ودعاءً."
+  en: "The sermon(s) before Friday and Eid prayers; a condition of the Friday prayer for most schools, containing praise of God, exhortation and supplication."
+wings: []
+themes: [worship-and-the-pillars]
+obligation: obligatory
+when:
+  ar: قبل صلاة الجمعة وصلاة العيدين
+
+scriptural_basis:
+- passage/quran-62-9
+basis:
+- tradition: sunni
+  value: prophetic-practice
+relations:
+- type: based_on
+  target: passage/quran-62-9
+  sources: [source/tanzil-quran]
+sources: [source/tanzil-quran]
+provenance:
+  layer: own-research
+  source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
+  generated_by: Devin (SWE-2 High), practices lane
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), 2026-10-16

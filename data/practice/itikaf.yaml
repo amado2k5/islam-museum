@@ -1,0 +1,33 @@
+id: practice/itikaf
+class: practice
+kind: ritual
+label:
+  ar: الاعتكاف
+  en: I'tikaf (retreat)
+summary:
+  ar: "لبث في المسجد للعبادة خاصة في العشر الأواخر من رمضان؛ اعتكف النبي حتى توفي، واعتكفت أزواجه من بعده."
+  en: "Staying in the mosque for worship, especially in the last ten nights of Ramadan; the Prophet kept it until his death, and his wives after him."
+wings: []
+themes: [worship-and-the-pillars, sacred-time]
+obligation: recommended
+when:
+  ar: العشر الأواخر من رمضان غالبًا
+
+scriptural_basis:
+- passage/quran-2-187
+basis:
+- tradition: sunni
+  value: prophetic-practice
+relations:
+- type: based_on
+  target: passage/quran-2-187
+  sources: [source/tanzil-quran]
+sources: [source/tanzil-quran, source/sahih-al-bukhari]
+provenance:
+  layer: own-research
+  source: Qur'an refs via Tanzil; fiqh via standard madhhab literature
+  generated_by: Devin (SWE-2 High), practices lane
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), 2026-10-16
