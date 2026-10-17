@@ -161,7 +161,7 @@ Pagefind indexes rendered pages. Each entity page sets `data-pagefind-body`, plu
 ## 8. Media strategy
 
 1. **Prefer linking, not hosting.** Objects point to the holding institution's IIIF manifest. The page embeds the IIIF image (deep-zoom) and attributes it. CC0 institutions (Met, Smithsonian, Cleveland, Walters, Rijksmuseum, Wikimedia Commons) also allow us to cache a thumbnail.
-2. **Thumbnails** are generated at build in the media repo (AVIF/WebP, 3 sizes) with a license check against a whitelist (`CC0`, `CC BY`, `CC BY-SA`, `PD`, `institution-open`). Anything else fails validation.
+2. **Thumbnails** are generated at build in the media repo (AVIF/WebP, 3 sizes) with a license check against a whitelist (`CC0`, `CC-BY`, `CC-BY-SA`, `PD`, plus one entry per institution whose terms are not a Creative Commons licence, such as `VAM-NC` for the V&A; the list is `schema/enums/licenses.yaml` and the audit is `docs/outreach/media-licence-audit.md`). Anything else fails validation.
 3. **Hero images** for people/places use public-domain manuscripts, coins, calligraphy, architecture photos from Wikimedia Commons; the schema requires `alt` in every language published.
 4. **Figurative depictions of prophets** are never displayed; `sensitivity: figurative-prophet` forces a text description instead.
 5. **Audio** (recitation, poetry readings, pronunciations of names) from open sources (e.g. EveryAyah-type CC recordings, verify license) streamed from R2.
