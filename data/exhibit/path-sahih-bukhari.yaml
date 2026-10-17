@@ -1,0 +1,79 @@
+id: exhibit/path-sahih-bukhari
+class: exhibit
+kind: trail
+label:
+  ar: صحيح البخاري
+  en: Sahih al-Bukhari
+summary:
+  ar: 'مسار في أصح الكتب: البخاري يجمع سبع سنين، والمصحف يُجمع بعد اليمامة، والأحرف السبعة، وإمامة أبي
+    بكر — نصوص مؤسسة.'
+  en: A trail through the most authentic book.
+audience:
+- newcomer
+- student
+duration_minutes: 30
+wings: []
+regions:
+- arabia
+rooms:
+- title:
+    ar: المؤلف
+    en: The author
+  body:
+    ar: 'محمد بن إسماعيل البخاري: ست عشرة سنة في الجمع.'
+    en: 'محمد بن إسماعيل البخاري: ست عشرة سنة في الجمع.'
+  features:
+  - person/al-bukhari
+  - work/sahih-al-bukhari
+  - place/bukhara
+- title:
+    ar: جمع المصحف
+    en: Compiling the Mushaf
+  body:
+    ar: 'زيد بن ثابت يروي: إنذار عمر بعد قتل القراء.'
+    en: 'زيد بن ثابت يروي: إنذار عمر بعد قتل القراء.'
+  features:
+  - passage/bukhari-4986
+  - person/abu-bakr
+- title:
+    ar: الأحرف السبعة
+    en: The seven ahruf
+  body:
+    ar: خصومة عمر وهشام في القراءة أمام النبي.
+    en: خصومة عمر وهشام في القراءة أمام النبي.
+  features:
+  - passage/bukhari-2419
+  - concept/al-hadith-al-nabawi
+- title:
+    ar: إمامة أبي بكر
+    en: Abu Bakr leads
+  body:
+    ar: 'عائشة تروي: النبي يأمر أبا بكر بالصلاة بالناس.'
+    en: 'عائشة تروي: النبي يأمر أبا بكر بالصلاة بالناس.'
+  features:
+  - passage/bukhari-0716
+  - person/abu-bakr
+  - person/aisha
+- title:
+    ar: مناقب
+    en: Virtues
+  body:
+    ar: سعد بن معاذ واهتزاز العرش، وخاتم النبوة.
+    en: سعد بن معاذ واهتزاز العرش، وخاتم النبوة.
+  features:
+  - passage/bukhari-3803
+  - passage/bukhari-0190
+prerequisites:
+- exhibit/path-islam-in-30-minutes
+sources:
+- source/wikidata
+provenance:
+  layer: own-research
+  source: Devin-assembled trail from existing museum entities
+  generated_by: Devin (SWE-2 High)
+  model: SWE-2 High
+  run: pathways-batch-7
+status:
+  review: draft
+  completeness: 1
+  generated_by: Devin (SWE-2 High), pathways lane, 2026-10-16
