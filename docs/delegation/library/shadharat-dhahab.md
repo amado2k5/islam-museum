@@ -40,3 +40,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 
 - NOTE: vol-3 batches numbered 59–61 were already used by the 801–1000 volume session; vol-3 numbering continues from batch 86 (59→86, 60→87, 61→88). The 801–1000 vol was mined through batch 85; the 601–700 vol through batch 58. Vol 3 (350–600) is the only volume still open.
 - Next: batch 89 — AH 378–400 leftovers were largely covered (Badi' al-Zaman, Hakim's Sepulchre, Tai deposition exist). Check 400–450 next (al-Qadir mid-reign, early Seljuks, Qushayri/ash'Ashari fitna at 469).
+- Batch 89 (Devin): AH 403–416 — Fulayta's Hajj-caravan massacre (~15k dead of thirst), al-Hakim's 405 women-confinement decree, Abu Hamid al-Isfarayini obit (d. 406), and the 416 Buyid succession collapse: Sultan Sharaf al-Dawla dead, Jalal al-Dawla vs Abu Kalijar, Baghdad anarchy. Baha' al-Dawla enriched (d. Jumada I 403, epilepsy). 8 new + 1 enriched + 3 prose; resolved stub person/abu-kalijar.
+- Next: batch 90 — continue from سنة 417 (line ~5571) through 450.

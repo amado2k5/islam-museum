@@ -1,0 +1,19 @@
+id: person/sultan-al-dawla
+class: person
+label: { ar: "سلطان الدولة أبو شجاع بن بهاء الدولة" }
+summary:
+  ar: "أبو شجاع بن بهاء الدولة بن عضد الدولة بن ركن الدولة بن بويه الديلمي، بويع بعد موت أبيه سنة ثلاث وأربعمائة فبقي في الملك اثني عشر عاماً {cite:shadharat-dhahab p. 166}."
+  en: "Abu Shuja' b. Baha' al-Dawla — the last Buyid amir of Iraq; succeeded his father in 403 and held the realm twelve years {cite:shadharat-dhahab p. 166}."
+gender: male
+born: { edtf: "0993~", status: tradition, derived: false, note: "مولده غير مؤرخ في النص؛ خلف أباه سنة 403 {cite:shadharat-dhahab p. 166}." }
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: child_of, target: person/baha-al-dawla, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-89
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
