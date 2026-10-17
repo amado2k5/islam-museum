@@ -56,3 +56,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 96 — سنة 441 (~line 7160) through ~450 (Ash'ari persecution lead-in at 445+).
 - Batch 96 (Devin): AH 441–448 — the 448 twin set-pieces: al-Qa'im's marriage to Tughril's sister and the Egypt/Iraq famine-plague (people ate carrion, a pomegranate a dinar); Sultan Mawdud of Ghazna (d. Rajab 441, age 29), chief qadi Ibn Makula (d. Shawwal 447, father authored al-Ikmal), exegete al-Fath b. Sulaym al-Razi drowned off Jeddah, and musnid al-Andalus al-Hakam al-Judhami. 6 new + 2 prose.
 - Next: batch 97 — سنة 449–455 (Basasiri's rise, Tughril's death Ramadan 455).
+- Batch 97 (Devin): AH 449–451 — Shaykh al-Islam al-Sabuni (preached from age 10, d. Safar 449), qari' Ibn Shita (al-Tadhkara author), al-Karajiki (head of the Shi'a, Murtada's pupil); enriched al-Malik al-Rahim (died prisoner at Rayy 450, last Buyid), Ibn Battal (Safar 449), al-Basasiri (killed mid-Dhu al-Hijja 451, crucified at Bab al-Nubi), al-Mawardi (Rabi' I 450). 3 new + 4 enriched.
+- Next: batch 98 — سنة 452–456 (Tughril's death Ramadan 455, Alp Arslan's accession).
