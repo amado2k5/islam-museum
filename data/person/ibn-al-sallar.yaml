@@ -1,0 +1,30 @@
+id: person/ibn-al-sallar
+class: person
+label: { ar: "العادل ابن السلار" }
+names:
+  - { value: "الملك العادل علي بن السلار الكردي ثم المصري وزير الظافر", kind: full }
+summary:
+  ar: "الملك العادل علي بن السلار الكردي ثم المصري وزير الظافر بالله الفاطمي؛ أقبل من ولاية الإسكندرية إلى القاهرة ليأخذ الوزارة بالقهر فدخل وحكم ففر الوزير نجم الدين سليم بن مصال وجمع العساكر فجهز ابن السلار جيشاً لحربه فالتقوا بدلاص فقتل ابن مصال وطيف برأسه سنة أربع وأربعين؛ وكان ابن السلار سنياً شافعياً شجاعاً مقداماً بنى للسلفية مدرسة معروفة لكنه كان جباراً عنيداً ظالماً شديد البأس صعب المراس، وكان زوج أم عباس بن باديس فقتله نصر بن عباس هذا على فراشه بالقاهرة في المحرم سنة تسع وأربعين وخمسمائة وولى عباس الملك {cite:shadharat-dhahab p. 629}."
+  en: "Al-Malik al-Adil Ali ibn al-Sallar, the Kurd turned Egyptian, wazir of the Fatimid al-Zafir; he swept in from the Alexandria governorate to seize the vizierate by force, drove out wazir Najm al-Din Salim ibn Masal, and when Ibn Masal gathered an army Ibn al-Sallar met him at Dalas, killed him and paraded his head (544); a Sunni Shafi'i, brave and bold, who built the well-known Salafi madrasa — yet an overbearing tyrant of harsh rule; being wed to the mother of Abbas ibn Badis, this Nasr ibn Abbas killed him on his bed at Cairo in Muharram 549 and Abbas took the kingship {cite:shadharat-dhahab p. 629}."
+gender: male
+wings: [people]
+roles: [vizier]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+died:
+  edtf: "1154-03~"
+  hijri: "0549-01"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "قتله نصر بن عباس على فراشه بالقاهرة في المحرم سنة تسع وأربعين وخمسمائة {cite:shadharat-dhahab p. 629}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-116
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

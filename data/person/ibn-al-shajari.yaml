@@ -8,7 +8,8 @@ gender: male
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
-died: { edtf: "1176~", hijri: "0572", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 572هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 597}." }
+born: { edtf: "1058-08~", hijri: "0450-09", calendar: julian, precision: month, status: tradition, derived: true, note: "وكانت ولادته في شهر رمضان سنة خمسين وأربعمائة {cite:shadharat-dhahab p. 614}؛ التحويل مشتق." }
+died: { edtf: "1148-01~", hijri: "0542-09", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الخميس ثاني عشري رمضان سنة اثنتين وأربعين وخمسمائة ودفن من الغد في داره بالكرخ — ترجمته في أخبار سنة 542 {cite:shadharat-dhahab p. 614}؛ كشف الظنون أورده «المتوفى سنة 572» وهو خلاف مرجح عليه ما ورد في شذرات الذهب {cite:kashf-zunun-furqan p. 597}؛ التحويل مشتق." }
 relations:
   - { type: authored, target: work/amali-ibn-al-shajari, sources: [source/kashf-zunun-furqan] }
 provenance:
@@ -16,5 +17,5 @@ provenance:
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 597 مدخل 1702"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-20
-sources: [source/kashf-zunun-furqan]
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

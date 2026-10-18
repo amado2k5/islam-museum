@@ -1,0 +1,30 @@
+id: person/al-balansi-abu-al-hasan
+class: person
+label: { ar: "أبو الحسن البلنسي" }
+names:
+  - { value: "أبو الحسن الخير بن محمد بن سهل الأنصاري الأندلسي البلنسي المحدث", kind: full }
+summary:
+  ar: "أبو الحسن الخير بن محمد بن سهل الأنصاري الأندلسي البلنسي المحدث؛ رحل إلى المشرق وسافر في التجارة إلى الصين وكان فقيهاً عالماً متقناً سمع أبا عبد الله النعالي وطراد بن محمد وطائفة وسكن أصبهان مدة ثم بغداد وتفقه على الغزالي وتوفي في المحرم سنة إحدى وأربعين وخمسمائة {cite:shadharat-dhahab p. 608-609}."
+  en: "Abu al-Hasan al-Khayr ibn Muhammad ibn Sahl al-Ansari of Valencia, the muhaddith; he journeyed east and travelled in trade as far as China — a precise jurist-scholar who heard Abu Abdallah al-Nu'ali, Tirad ibn Muhammad and others, dwelt a while at Isfahan then Baghdad, read fiqh under al-Ghazali, and died in Muharram 541 {cite:shadharat-dhahab p. 608-609}."
+gender: male
+wings: [people]
+roles: [scholar, merchant]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [andalus-europe]
+died:
+  edtf: "1146-06~"
+  hijri: "0541-01"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في المحرم سنة إحدى وأربعين وخمسمائة {cite:shadharat-dhahab p. 609}؛ التحويل مشتق."
+relations:
+  - { type: student_of, target: person/al-ghazali-abu-hamid, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-116
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

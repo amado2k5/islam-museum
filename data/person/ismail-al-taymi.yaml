@@ -1,0 +1,38 @@
+id: person/ismail-al-taymi
+class: person
+label: { ar: "قوام السنة إسماعيل التيمي" }
+names:
+  - { value: "إسماعيل بن محمد بن الفضل التيمي الطلحي الأصبهاني قوام السنة أبو القاسم", kind: full }
+summary:
+  ar: "الحافظ الكبير قوام السنة أبو القاسم إسماعيل بن محمد التيمي الطلحي الأصبهاني الشافعي؛ قال أبو موسى المديني إمام أئمة وقته وأستاذ علماء عصره وقدوة أهل السنة في زمانه، وأصمت في صفر سنة أربع وثلاثين ثم أفلج؛ وكان إماماً في التفسير والحديث واللغة والأدب عارفاً بالمتون والأسانيد، أملى بجامع أصبهان قريباً من ثلاثة آلاف مجلس، وصنف تفسير الجامع في ثلاثين مجلدة كباراً والإيضاح في أربع مجلدات والموضح في ثلاث والمعتمد في عشر وتفسيراً بالعجمي وكتاب الترغيب والترهيب وشرح صحيحي البخاري ومسلم أتمهما ولده ودلائل النبوة والتذكرة في نحو ثلاثين جزءاً؛ وقال أئمة بغداد ما رحل إلى بغداد بعد أحمد بن حنبل أفضل ولا أحفظ منه؛ ومولده سنة سبع وخمسين وأربعمائة وتوفي بكرة يوم عيد الأضحى سنة خمس وثلاثين وخمسمائة {cite:shadharat-dhahab p. 585-586}."
+  en: "The great hafiz Qawam al-Sunna Abu al-Qasim Ismail ibn Muhammad al-Taymi al-Talhi of Isfahan; Abu Musa al-Madini calls him 'imam of the imams of his time, teacher of its scholars, exemplar of the Sunna' — struck mute in Safar 534 then paralysed; imam in tafsir, hadith, language and adab, master of texts and isnads, who dictated nearly three thousand sessions at Isfahan's mosque; his works: the thirty-volume tafsir al-Jami', al-Idah, al-Mawdih, the ten-volume Mu'tamad, a Persian tafsir, al-Targhib wa'l-tarhib, commentaries on both Sahihs (finished by his son), Dala'il al-nubuwwa and the thirty-part Tadhkira; Baghdad's imams said none better-versed nor more retentive had journeyed to Baghdad after Ahmad ibn Hanbal; b. 457, d. the morning of Eid al-Adha 535 {cite:shadharat-dhahab p. 585-586}."
+gender: male
+wings: [people]
+roles: [scholar, writer]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+born:
+  edtf: "1064~"
+  hijri: "0457"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "مولده سنة سبع وخمسين وأربعمائة {cite:shadharat-dhahab p. 586}؛ التحويل مشتق."
+died:
+  edtf: "1140-08~"
+  hijri: "0535-12"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "أصمت في صفر سنة 534 ثم أفلج وتوفي بكرة يوم عيد الأضحى سنة خمس وثلاثين وخمسمائة {cite:shadharat-dhahab p. 586}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/isfahan, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-115
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

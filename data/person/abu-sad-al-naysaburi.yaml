@@ -1,0 +1,31 @@
+id: person/abu-sad-al-naysaburi
+class: person
+label: { ar: "محيي الدين أبو سعد النيسابوري" }
+names:
+  - { value: "محمد بن يحيى العلامة أبو سعد النيسابوري محيي الدين", kind: full }
+summary:
+  ar: "محمد بن يحيى العلامة أبو سعد النيسابوري محيي الدين شيخ الشافعية وصاحب الغزالي؛ انتهت إليه رياسة المذهب بخراسان وقصده الفقهاء من البلاد وصنف التصانيف منها المحيط في شرح الوسيط؛ توفي في رمضان شهيداً على يد الغز عن اثنتين وسبعين سنة ورثاه جماعة منهم علي البيهقي {cite:shadharat-dhahab p. 631}."
+  en: "Muhammad ibn Yahya, the allama Abu Sa'd of Nishapur, Muhyi al-Din — shaykh of the Shafi'is and al-Ghazali's companion; the madhhab's headship in Khurasan ended with him, jurists sought him from every land, and his works include the Muhit commentary on the Wasit; he died a martyr at the hands of the Ghuzz in Ramadan aged seventy-two, elegised by many including Ali al-Bayhaqi {cite:shadharat-dhahab p. 631}."
+gender: male
+wings: [people]
+roles: [jurist, scholar]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died:
+  edtf: "1155-01~"
+  hijri: "0549-09"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في رمضان شهيداً على يد الغز عن اثنتين وسبعين سنة؛ ترجمته في أخبار سنة ثمان وأربعين وتسع وأربعين وخمسمائة {cite:shadharat-dhahab p. 631}؛ التحويل مشتق."
+relations:
+  - { type: student_of, target: person/al-ghazali-abu-hamid, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/nishapur, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-116
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -9,7 +9,7 @@ summary:
 gender: male
 roles: [ruler]
 traditions: [sunni]
-died: { edtf: "1145", hijri: "0541", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك بوهران سنة إحدى وأربعين بعد نزال تلمسان؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar] }
+died: { edtf: "1145", hijri: "0541", calendar: julian, precision: year, status: tradition, derived: true, note: "هلك بوهران سنة إحدى وأربعين بعد نزال تلمسان عند ابن خلدون؛ وذكره ابن العماد في أخبار سنة تسع وثلاثين وخمسمائة: سقط فرسه به من جبل فهلك {cite:shadharat-dhahab p. 599} — خلاف في السنة؛ التحويل مشتق.", sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab] }
 relations:
 - type: child_of
   target: person/ali-ibn-yusuf-al-murabiti
@@ -24,6 +24,7 @@ periods: [period/crusades-ayyubid-mamluk]
 regions: [maghreb]
 sources:
 - source/tarikh-ibn-khaldun-ibar
+- source/shadharat-dhahab
 provenance:
   layer: own-research
   source: ابن خلدون، العبر — أخبار نهاية دولة المرابطين، ص1649 (المجلد السادس، طبعة هيليوبوليس)

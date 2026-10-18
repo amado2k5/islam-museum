@@ -1,0 +1,38 @@
+id: person/al-mubarak-ibn-kamil
+class: person
+label: { ar: "المبارك بن كامل الطغري" }
+names:
+  - { value: "المبارك بن كامل بن أبي غالب محمد بن أبي طاهر الحسين الطغري البغدادي الحنبلي مفيد العراق أبو بكر", kind: full }
+summary:
+  ar: "المبارك بن كامل الطغري البغدادي المحدث الحنبلي مفيد العراق أبو بكر؛ ولد يوم الخميس ثاني عشر ذي الحجة سنة خمس وتسعين وأربعمائة وقرأ القرآن بالروايات وسمع الحديث الكثير وأول سماعه سنة ست وخمسمائة وعني بهذا الشأن سمع من أبي القاسم بن بيان وابن نبهات وغيرهما؛ قال ابن الجوزي وما زال يسمع العالي والنازل ويتتبع المشايخ في الروايات وينقل السماعات فلو قيل إنه سمع من ثلاثة آلاف شيخ لم يبعد القائل وجالس الحفاظ وكتب بخطه الكثير وانتهت إليه معرفة المشايخ ومقدار ما سمعوا والإجازات إلا أنه كان قليل التحقيق فيما ينقل من السماع مجازقة لكونه يأخذ عن ذلك ثمناً وكان فقيراً إلى ما يأخذ وكان كثير الأولاد وله كتاب سلوة الأحزان نحو ثلاثمائة جزء وأكثر وكان صدوقاً؛ توفي يوم الجمعة تاسع عشر جمادى الأولى سنة ثلاث وأربعين وخمسمائة ودفن بالشونيزية {cite:shadharat-dhahab p. 615-616}."
+  en: "Al-Mubarak ibn Kamil al-Tughri of Baghdad, the Hanbali muhaddith, mufid of Iraq; b. Thursday 12 Dhu al-Hijja 495, he read the Qur'an in its readings and heard hadith widely from 506 on, pursuing the shaykhs of every riwaya — Ibn al-Jawzi: 'were it said he heard from three thousand shaykhs the claim would not strain'; he sat with the huffaz, copied much, and became the final authority on who heard what from whom — though he took pay for passing on samā' certificates and was poor to what he earned; his Salwat al-Ahzan runs near three hundred juz'; a truthful man, he died Friday 19 Jumada I 543 and was buried at the Shuniziyya {cite:shadharat-dhahab p. 615-616}."
+gender: male
+wings: [people]
+roles: [scholar, writer]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1101-10~"
+  hijri: "0495-12"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ولد يوم الخميس ثاني عشر ذي الحجة سنة خمس وتسعين وأربعمائة {cite:shadharat-dhahab p. 615}؛ التحويل مشتق."
+died:
+  edtf: "1148-09~"
+  hijri: "0543-05"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي يوم الجمعة تاسع عشر جمادى الأولى سنة ثلاث وأربعين وخمسمائة ودفن بالشونيزية {cite:shadharat-dhahab p. 616}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-116
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
