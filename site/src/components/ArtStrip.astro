@@ -14,8 +14,8 @@ const pick = [...items].sort(() => Math.random() - 0.5).slice(0, 4);
     <ul class="grid-cards" style="grid-template-columns:repeat(auto-fill,clamp(240px,36vw,400px))">
       {pick.map((i) => (
         <li>
-          <a class="card" href={`/${lang}/art/`} style="padding:0;overflow:hidden">
-            <img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;display:block" />
+          <a class="card" href={`/${lang}/art/`} style="padding:0;overflow:hidden;display:block">
+            <img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center;display:block" />
           </a>
         </li>
       ))}
