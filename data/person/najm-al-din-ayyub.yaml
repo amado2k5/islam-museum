@@ -14,10 +14,18 @@ regions: [levant-iraq, persia-central-asia]
 relations:
   - { type: child_of, target: person/shadhi-ibn-marwan }
   - { type: sibling_of, target: person/asad-al-din-shirkuh }
+died:
+  edtf: "1173-08~"
+  hijri: "0568-12"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "كبته فرسه فحمل إلى داره ومات بعد أيام في ذي الحجة سنة ثمان وستين ودفن عند أخيه بالقاهرة ثم نقلا سنة تسع وسبعين إلى المدينة النبوية {cite:shadharat-dhahab p. 707}؛ التحويل مشتق."
 provenance:
   layer: own-research
   source: "وفيات الأعيان وأنباء أبناء الزمان — ابن خلكان (حرف الياء)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-2
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

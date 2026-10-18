@@ -1,0 +1,38 @@
+id: person/abu-al-najib-al-suhrawardi
+class: person
+label: { ar: "أبو النجيب السهروردي" }
+names:
+  - { value: "أبو النجيب السهروردي عبد القاهر بن عبد الله بن محمد بن يحمويه", kind: full }
+summary:
+  ar: "أبو النجيب السهروردي عبد القاهر بن عبد الله نسبة إلى سهرورد بلد عند زنجان؛ الصوفي القدوة الواعظ العارف الفقيه الشافعي قدم بغداد وسمع علي بن نبهان وجماعة وكان إماماً في الشافعية وعلماً في الصوفية لُقب بمفتي العراقين وقدوة الفريقين، شرح أحوال القوم وحرر المذهب وأفتى وناظر وروى الحديث ثم مال إلى المعاملة فصحب الشيخ حماد الدباس وأحمد الغزالي وبنى ببغداد رباطاً ومدرسة ودرس بالنظامية سنتين وصارت رباطه ملاذاً يعتصم به الخائف من الخليفة فن دونه؛ توجه إلى الشام سنة سبع وخمسين لزيارة بيت المقدس فلم يتفق له لانفساخ الهدنة فأقام بدمشق وأكرمه الملك العادل نور الدين وعاد إلى بغداد فتوفي بها يوم الجمعة وقت العصر سابع جمادى الآخرة سنة ثلاث وستين وخمسمائة ودفن بكرة الغد في مدرسته وكان مولده في صفر سنة تسعين وأربعمائة تقريباً؛ قال الأسنوي ظهرت بركته على أصحابه وصار شيخ العراق في وقته {cite:shadharat-dhahab p. 688-689}."
+  en: "Abu al-Najib al-Suhrawardi Abd al-Qahir ibn Abdallah, nisba to Suhraward near Zanjan; the exemplary Sufi preacher and Shafi'i jurist, titled mufti of the two Iraqs and exemplar of the two communities — he mastered the madhhab, then turned to the Path, accompanying Hammad al-Dabbas and Ahmad al-Ghazali, built a ribat and madrasa at Baghdad whose sanctuary 'kings sought'; lectured two years at the Nizamiyya; on a 557 Jerusalem visit blocked by the lapsed truce he stayed at Damascus honoured by Nur al-Din, and died at Baghdad Friday 7 Jumada II 563, buried at dawn in his own madrasa — born Safar ~490 {cite:shadharat-dhahab p. 688-689}."
+gender: male
+wings: [people]
+roles: [sufi, scholar, preacher, jurist]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1097~"
+  hijri: "0490~"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "مولده في صفر سنة تسعين وأربعمائة تقريباً {cite:shadharat-dhahab p. 689}؛ التحويل مشتق."
+died:
+  edtf: "1168-03~"
+  hijri: "0563-05"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي يوم الجمعة وقت العصر سابع جمادى الآخرة سنة ثلاث وستين ببغداد ودفن في مدرسته {cite:shadharat-dhahab p. 689}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-118
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
