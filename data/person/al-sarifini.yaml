@@ -1,0 +1,28 @@
+id: person/al-sarifini
+class: person
+label: { ar: "الصريفيني الحافظ", en: "al-Sarifini al-Hafiz" }
+names:
+  - { value: "تقي الدين أبو إسحاق إبراهيم بن محمد بن الأزهر بن أحمد بن محمد الصريفيني البغدادي الحنبلي", kind: full }
+born: { edtf: "1185~", hijri: "0581~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد ليلة حادي عشر محرم سنة إحدى وثمانين وخمسمائة بصريفين قرية ببغداد {cite:shadharat-dhahab p. 217-218}." }
+died: { edtf: "1243-10~", hijri: "0641-05-15~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في خامس عشر جمادى الأولى سنة إحدى وأربعين وستمائة ودفن بسفح قاسيون؛ صلى عليه أبو شامة بجامع دمشق {cite:shadharat-dhahab p. 218}." }
+summary:
+  ar: "الحافظ الحنبلي الفقيه نزيل دمشق؛ سمع ببغداد من ابن الأخضر وابن طبرزد ورحل إلى الأقطار فسمع بأصبهان ونيسابور وهراة وبوشنج ودينور ونهاوند وتستر وطوس والموصل ودمشق وبيت المقدس وحران، وتفقه ببغداد على ابن التاريخي وأبي البقاء العكبري؛ شيخ لدار حديث منبج ثم ولي دار الحديث التي للصاحب ابن شداد بحلب؛ قال البرزالي حافظ دين ثقة وقال أبو شامة كان عالما بالحديث دينا متواضعا {cite:shadharat-dhahab p. 218}."
+  en: "The Hanbali hafiz (d. 15 Jumada I 641, Damascus) — one of the great travelling memorizers: Baghdad, Isfahan, Nishapur, Herat, Dinawar, Tustar, Mosul, Jerusalem, Harran; shaykh of Manbij's dar al-hadith then Ibn Shaddad's at Aleppo; Abu Shama prayed over him; buried at Qasyun's foot {cite:shadharat-dhahab p. 217-218}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, persia-central-asia]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 641)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

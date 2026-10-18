@@ -8,7 +8,11 @@ summary:
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [levant-iraq]
-date: { start: { edtf: "1247~", hijri: "0644", calendar: julian, precision: year, status: tradition, derived: true, note: "جمادى الآخرة 644 {cite:shadharat-dhahab p. 230}", sources: [source/shadharat-dhahab] } }
+sides:
+  - label: { ar: "المسلمون بقيادة فخر الدين بن الشيخ" }
+  - label: { ar: "الفرنج" }
+map: { kind: battle, precision: approximate, center: [31.6693, 34.5710] }
+date: { start: { edtf: "1247~", hijri: "0644", calendar: julian, precision: year, status: debated, derived: true, note: "جمادى الآخرة 644؛ وفي نسخة شذرات الذهب المقروءة آلياً وردت الحادثة ضمن حوادث سنة خمس وأربعين — تباين موضع لا تباين وقوع {cite:shadharat-dhahab p. 230,239}", sources: [source/shadharat-dhahab] } }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5، سنين 601–700)"

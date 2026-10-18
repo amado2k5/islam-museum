@@ -1,0 +1,28 @@
+id: person/ibn-al-najjar
+class: person
+label: { ar: "ابن النجار صاحب تاريخ بغداد", en: "Ibn al-Najjar" }
+names:
+  - { value: "محب الدين أبو عبد الله محمد بن محمود بن الحسن بن هبة الله بن محاسن البغدادي", kind: full }
+born: { edtf: "1182", hijri: "0578", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ثمان وسبعين وخمسمائة {cite:shadharat-dhahab p. 235}." }
+died: { edtf: "1245", hijri: "0643", calendar: julian, precision: year, status: tradition, derived: true, note: "وردت ترجمته في أموات سنة ثلاث وأربعين وستمائة {cite:shadharat-dhahab p. 235}." }
+summary:
+  ar: "الحافظ الكبير صاحب تاريخ بغداد؛ ولد سنة ثمان وسبعين وخمسمائة؛ واسع الحفظ تام المعرفة بالفن؛ رتبه المستنصر بالله مع أبي منصور الحريمي شيخين لدار الحديث بالمستنصرية يشغلان بعلم الحديث {cite:shadharat-dhahab p. 235}."
+  en: "The great hafiz (b. 578, d. 643) — author of the Tarikh Baghdad that continues al-Khatib's; al-Mustansir paired him with Abu Mansur al-Harimi as the two hadith shaykhs of his madrasa's dar al-hadith {cite:shadharat-dhahab p. 235}."
+gender: male
+roles: [scholar, muhaddith, historian]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: born_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 643)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

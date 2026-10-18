@@ -1,0 +1,28 @@
+id: person/diya-al-din-al-maqdisi
+class: person
+label: { ar: "ضياء الدين المقدسي الحافظ", en: "Diya al-Din al-Maqdisi" }
+names:
+  - { value: "ضياء الدين أبو عبد الله محمد بن عبد الواحد بن عبد الرحمن المقدسي الحنبلي الحافظ", kind: full }
+born: { edtf: "1174", hijri: "0569-06-05~", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد في خامس جمادى الآخرة سنة تسع وستين وخمسمائة {cite:shadharat-dhahab p. 231}." }
+died: { edtf: "1245", hijri: "0643", calendar: julian, precision: year, status: tradition, derived: true, note: "وردت ترجمته في أموات سنة ثلاث وأربعين وستمائة {cite:shadharat-dhahab p. 231-233}." }
+summary:
+  ar: "الإمام العالم الحافظ الحجة محدث الشام شيخ السنة؛ قال ابن رجب يقال إنه كتب عن أزيد من خمسمائة شيخ، وقال ابن النجار كتبت عنه ببغداد ونيسابور ودمشق وهو حافظ؛ وكان المرجوع إليه في الجرح والتعديل؛ صنف وصحح وليّن وجرّح وعدّل؛ ومن مصنفاته الأحاديث المختارة خرّجها من مسموعاته كتب منها تسعين جزءاً {cite:shadharat-dhahab p. 231-233}."
+  en: "Muhaddith al-Sham, shaykh al-sunna (b. 569, d. 643) — Ibn Rajab: he wrote from more than five hundred shaykhs; the authority on jarh wa-ta'dil of his age; author of al-Ahadith al-Mukhtara, ninety booklets selected from his own audition records {cite:shadharat-dhahab p. 231-233}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: born_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 643)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127
