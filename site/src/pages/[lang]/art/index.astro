@@ -29,7 +29,7 @@ const labelFor = (i: (typeof items)[number]) => i.label[lang as "ar" | "en"] ?? 
                 <a href={`/${lang}/art/${i.slug}/`}><img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;border-radius:8px" /></a>
                 <figcaption style="padding-top:8px">
                   <strong>{labelFor(i)}</strong>
-                  <span class="ui muted" style="display:block;font-size:.85rem">{T.art.badge}</span>
+                  <span class="ui muted" style="display:block;font-size:.85rem">{i.source === "met" ? T.art.badge_met : T.art.badge}</span>
                 </figcaption>
               </figure>
             </li>
