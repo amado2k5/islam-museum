@@ -1,0 +1,26 @@
+id: person/al-rafii-jili
+class: person
+label: { ar: "الرفيع الجيلي قاضي دمشق", en: "al-Rafi'i al-Jili, qadi of Damascus" }
+names:
+  - { value: "رفيع الدين أبو حامد عبد العزيز بن عبد الواحد بن إسماعيل الجيلي الشافعي", kind: full }
+died: { edtf: "1244~", hijri: "0642~", calendar: julian, precision: year, status: debated, derived: true, note: "حبس بالمقدمية في ذي القعدة 641 ثم أخرج إلى مغارة بنواحي البقاع فانقطع خبره؛ قيل خنق وقيل ألقى من شاهق، وقال ابن قاضي شهبة رفسه داود سياف النقمة من رأس القلعة فتقطع قبل أن يصل الماء {cite:shadharat-dhahab p. 223}." }
+summary:
+  ar: "قاضي القضاة بدمشق؛ كان فقيهاً بارعاً مناظراً عارفاً بعلم الكلام والفلسفة وعلوم الأوائل، وشرح الإشارات لابن سينا شرحاً جيداً؛ ولي قضاء بعلبك ثم نقل إلى قضاء دمشق، فسار سيرة فاسدة من إثبات المحاضر الفاسدة والدعاوى الباطلة وإقامة شهود الزور وأكل الرشا وأموال الأيتام والأوقاف واستعمال المسكرات وحضور صلاة الجمعة وهو سكران؛ فقبض على أعوانه وعذبوا ومات كبيرهم ابن الرواس في العقوبة، وأخرج هو إلى مغارة في جبل لبنان فقيل خنق وقيل ألقى من شاهق {cite:shadharat-dhahab p. 222-223}."
+  en: "The Shafi'i qadi al-qudat of Damascus (d. 642) — a capable jurist and mutakallim who commented Ibn Sina's Isharat, then turned Damascus's bench into a racket of forged deeds, false witnesses, bribes and devoured waqf property; arrested in Dhu al-Qa'da 641 and thrown off a Lebanese crag, cut to pieces before he reached the water {cite:shadharat-dhahab p. 222-223}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 642)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

@@ -1,0 +1,27 @@
+id: person/kamal-al-din-ibn-yunus
+class: person
+label: { ar: "كمال الدين ابن يونس", en: "Kamal al-Din Ibn Yunus" }
+names:
+  - { value: "أبو الفتح موسى بن يونس بن محمد بن منعة بن مالك الموصلي الشافعي", kind: full }
+born: { edtf: "1156", hijri: "0551", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة إحدى وخمسين بالموصل {cite:shadharat-dhahab p. 206}." }
+died: { edtf: "1242", hijri: "0639-08-14", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بالموصل رابع عشر شعبان سنة تسع وثلاثين وستمائة {cite:shadharat-dhahab p. 207}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "العلامة الموصلي الشافعي أحد الأعلام؛ تفقه على والده وببغداد على معيد النظامية السديد السلماسي فبرع في الأصول والخلاف، وقرأ النحو على ابن سعدون القرطبي، وأكب على الاشتغال بالعقليات حتى بلغ فيها الغاية وقيل إنه كان يتقن أربعة عشر فناً — وقيل أربعة وعشرين علماً دراية متقنة — وتفرد بإتقان علم الرياضي ولم يكن له نظير، وكان يتهم في دينه لكون العلوم العقلية غالبة عليه؛ ولما وصلت كتب فخر الدين الرازي إلى الموصل لم يفهم أحد اصطلاحه فيها سواه، وأهل الذمة يقرءون عليه التوراة والإنجيل ويعترفون أنهم لا يجدون من يوضحهما مثله؛ رآه ابن خلكان بالموصل في رمضان سنة ست وعشرين وتردد إليه دفعات {cite:shadharat-dhahab p. 206-207}."
+  en: "Kamal al-Din Ibn Yunus (b. 551, d. 14 Sha'ban 639, Mosul) — the polymath said to master fourteen sciences, peerless in riyadi, the only man in Mosul who could parse al-Razi's terminology; dhimmis read Torah and Gospel with him, conceding none explained them better; Ibn Khallikan saw him in 626 {cite:shadharat-dhahab p. 206-207}."
+gender: male
+roles: [scholar, theologian, philosopher]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/mosul, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 639)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

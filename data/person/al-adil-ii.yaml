@@ -13,5 +13,7 @@ provenance:
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (عارضة داخل ترجمة الملك الكامل)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-13
-sources: [source/wafayat-ayan]
+relations:
+  - { type: participated_in, target: event/salih-ismail-takes-damascus-637, role: "المقبوض عليه من أمراء دولته", sources: [source/shadharat-dhahab] }
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
