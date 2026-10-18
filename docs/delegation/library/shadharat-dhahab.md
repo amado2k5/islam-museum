@@ -70,3 +70,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 103 — سنة 468–475 (al-Muqtadi's accession, Nizam al-Mulk's murder 485 lead-in).
 - Batch 103 (Devin): AH 468–469 — Ibn Babashadh (the jeweler-grammarian whose chancery letters passed only under his eye, d. ~469); enriched al-Wahidi (Jumada 468) and Ibn Hayyan Abu Marwan (Rabi' I 469, 92). 1 new + 2 enriched.
 - Next: batch 104 — سنة 470–475 (al-Muqtadi's accession 468/475).
+- Batch 104 (Devin): AH 473–474 — Ali b. Muhammad al-Sulayhi (the Maswar ascent with 60 sworn men, Najah's poisoning via al-Kudra', killed at al-Mahjam 473 with 160 of his house) + the sulayhid-dynasty polity; al-Baji sourced to Shadharat. Abd al-Qahir al-Jurjani already covered. 2 new + 1 enriched.
+- Next: batch 105 — سنة 475–480 (al-Muqtadi's accession 487 is later; watch for Yemen aftermath: al-Mukarram & Arwa).
