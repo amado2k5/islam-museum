@@ -8,10 +8,19 @@ gender: male
 roles: [poet]
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
+died:
+  edtf: "1113~"
+  hijri: "0507"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ذُكر في وفيات سنة سبع وخمسمائة {cite:shadharat-dhahab p. 500}؛ التحويل مشتق."
+  sources: [source/shadharat-dhahab]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الخامس (ترجمة ابن اللبانة)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-24
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

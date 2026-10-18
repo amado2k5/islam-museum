@@ -1,0 +1,22 @@
+id: event/earthquake-jazira-508
+class: event
+kind: other
+label: { ar: "زلزلة الجزيرة المخربة سنة 508" }
+summary:
+  ar: "في سنة ثمان وخمسمائة حدثت زلزلة فوقع من سور الرها ثلاثة عشر برجاً وبعض سور حران، وخسف بسميساط، وتساقط في بالس نحو مائة دار وقُلب نصف القلعة {cite:shadharat-dhahab p. 501}."
+  en: "In 508 an earthquake threw down thirteen towers of Edessa's wall and part of Harran's wall, swallowed ground at Samosata, and toppled some hundred houses at Balis with half its citadel {cite:shadharat-dhahab p. 501}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1114~", hijri: "0508", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 508؛ التحويل مشتق {cite:shadharat-dhahab p. 501}." }
+relations:
+  - { type: occurred_at, target: place/al-ruha, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/harran, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-111
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/mawdud-assassinated-damascus-507
+class: event
+kind: other
+label: { ar: "اغتيال مودود صاحب الموصل بجامع دمشق سنة 507" }
+summary:
+  ar: "في سنة سبع وخمسمائة جاء مودود صاحب الموصل بعسكر ليقاتل ملك الفرنج فوقع بينهم معركة هائلة، ثم رجع مودود إلى دمشق فصلى الجمعة في الجامع وإذا بباطني وثب عليه فجرحه فمات من يومه؛ وكتب ملك الفرنج إلى صاحب دمشق متعجباً أن أمة قتلت عميدها في يوم عيدها في بيت معبودها {cite:shadharat-dhahab p. 500-501}."
+  en: "In 507 Mawdud lord of Mosul marched against the Frankish king and fought a great battle, then returned to Damascus where, at Friday prayer in the mosque, a Batini sprang on him, wounded him, and he died that day; the Frankish king wrote Damascus's lord wondering at a nation that killed its champion on its feast day in its house of worship {cite:shadharat-dhahab p. 500-501}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1113~", hijri: "0507", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 507؛ التحويل مشتق {cite:shadharat-dhahab p. 500-501}." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/mawdud, role: "اغتاله باطني في الجامع", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-111
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
