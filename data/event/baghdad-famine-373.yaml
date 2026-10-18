@@ -1,0 +1,21 @@
+id: event/baghdad-famine-373
+class: event
+kind: famine
+label: { ar: "القحط الشديد ببغداد سنة ٣٧٣هـ" }
+summary:
+  ar: "في سنة ثلاث وسبعين وثلاثمائة كان القحط الشديد ببغداد حتى بلغ حساب الغرارة أربعمائة درهم {cite:shadharat-dhahab p. 80}."
+  en: "Severe drought-famine struck Baghdad in 373: a ghurara of grain reached four hundred dirhams {cite:shadharat-dhahab p. 80}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0983~", hijri: "0373", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 373 {cite:shadharat-dhahab p. 80}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-87
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

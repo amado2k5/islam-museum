@@ -1,0 +1,21 @@
+id: event/sharaf-al-dawla-lifts-mazalim-377
+class: event
+kind: other
+label: { ar: "شرف الدولة يرفع المظالم عن العراق" }
+summary:
+  ar: "في سنة سبع وسبعين وثلاثمائة رفع شرف الدولة عن العراق مظالم كثيرة، فمن ذلك أنه ردّ على الشريف أبي الحسن محمد بن عمر جميع أملاكه وكان مغلّها في العام ألفي ألف وخمسمائة ألف درهم — وكان الغلاء ببغداد فوق الوصف {cite:shadharat-dhahab p. 88}."
+  en: "In 377 Sharaf al-Dawla lifted many unjust levies from Iraq — among them returning all of al-Sharif Abu al-Hasan Muhammad b. Umar's estates yielding two and a half million dirhams a year — while Baghdad prices ran beyond description {cite:shadharat-dhahab p. 88}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0987~", hijri: "0377", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 377 {cite:shadharat-dhahab p. 88}." }
+relations:
+  - { type: had_participant, target: person/sharaf-al-dawla, role: "السلطان", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-88
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

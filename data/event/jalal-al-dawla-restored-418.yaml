@@ -1,0 +1,23 @@
+id: event/jalal-al-dawla-restored-418
+class: event
+kind: other
+label: { ar: "عودة الخطبة لجلال الدولة ببغداد" }
+summary:
+  ar: "في سنة ثمان عشرة وأربعمائة اجتمعت الحاشية ببغداد وضمّروا على الخليفة حتى عزل أبا كاليجار وأُعيدت الخطبة لجلال الدولة أبي طاهر {cite:shadharat-dhahab p. 209}."
+  en: "In 418 the Baghdad crowd pressed the caliph until Abu Kalijar was deposed and the khutba was restored to Jalal al-Dawla Abu Tahir {cite:shadharat-dhahab p. 209}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1027~", hijri: "0418", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 418 {cite:shadharat-dhahab p. 209}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/jalal-al-dawla, role: restored-to-khutba, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/abu-kalijar, role: deposed-from-khutba, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-90
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

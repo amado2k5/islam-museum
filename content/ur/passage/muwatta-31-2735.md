@@ -1,0 +1,11 @@
+---
+id: passage/muwatta-31-2735
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## موجز
+مالک کا قول: خضاب کو ترک کرنا سب کے لیے گنجائش ہے، اللہ نے چاہا تو، لوگوں پر اس میں کوئی تنگی نہیں۔ {cite:muwatta-maruf-1997 p.539}
+
+## موضعه في المتحف
+یندرج في [[passage/muwatta-kitab-31-jami|الموطأ، كتاب الجامع]]۔ مصدرہ [[work/muwatta-malik|الموطأ]]۔ یذکر [[person/malik-ibn-anas|مالک بن انس]]۔ ویُبنی علیه فی ابواب [[concept/shaar|شعر]]۔

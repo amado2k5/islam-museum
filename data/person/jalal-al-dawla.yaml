@@ -1,0 +1,20 @@
+id: person/jalal-al-dawla
+class: person
+label: { ar: "جلال الدولة أبو طاهر بن بهاء الدولة" }
+summary:
+  ar: "جلال الدولة أبو طاهر ولد بهاء الدولة بن عضد الدولة، تسلطن سنة ست عشرة وأربعمائة حين مات السلطان شرف الدولة وهو بالبصرة، فخلع على وزيره علم الدين شرف الملك أبي سعيد بن ماكولا، ثم عدل الجند عنه إلى الملك أبي كاليجار فخُطب لهذا ببغداد {cite:shadharat-dhahab p. 204}."
+  en: "Jalal al-Dawla Abu Tahir, son of Baha' al-Dawla — succeeded at Basra when Sultan Sharaf al-Dawla died in 416, robed his vizier Ibn Makula, then the army defected to Abu Kalijar who was proclaimed at Baghdad {cite:shadharat-dhahab p. 204}."
+gender: male
+died: { edtf: "1044~", hijri: "0435", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بالخوانق سنة خمس وثلاثين وأربعمائة وعاش اثنتين وخمسين سنة وكانت دولته سبع عشرة سنة وخلّف عشرين ولداً بنين وبنات؛ وولي بعده ابنه الملك العزيز أبو منصور فكاتب ابن عمه أبا كاليجار فخُطب للاثنين معاً {cite:shadharat-dhahab p. 254-255}." }
+roles: [ruler]
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: child_of, target: person/baha-al-dawla, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-89
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

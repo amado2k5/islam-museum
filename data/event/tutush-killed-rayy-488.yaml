@@ -1,0 +1,26 @@
+id: event/tutush-killed-rayy-488
+class: event
+kind: battle
+label: { ar: "مقتل السلطان تتش بنواحي الري سنة 488" }
+summary:
+  ar: "في سنة ثمان وثمانين وأربعمائة قتل السلطان تاج الدولة تتش بن ألب أرسلان السلجوقي بنواحي الري وهو يغادر للاستيلاء على ممالك ابن أخيه ملكشاه، فتمكن بعده ابناه بحلب ودمشق {cite:shadharat-dhahab p. 385}."
+  en: "In 488 Sultan Taj al-Dawla Tutush b. Alp Arslan was killed near Rayy while moving to seize his nephew Malikshah's realms; his sons Ridwan and Duqaq then held Aleppo and Damascus {cite:shadharat-dhahab p. 385}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1095~", hijri: "0488", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 488؛ التحويل مشتق {cite:shadharat-dhahab p. 385}." }
+sides:
+  - label: { ar: "تتش" }
+    commanders: [person/tutush]
+  - label: { ar: "بركياروق بن ملكشاه" }
+    commanders: [person/barkiyaruq]
+relations:
+  - { type: occurred_at, target: place/rayy, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-108
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

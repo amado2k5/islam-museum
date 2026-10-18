@@ -1,6 +1,6 @@
 id: person/abd-al-hamid-kabd
 class: person
-label: { ar: "أبو زيد عبد الحميد بن الوليد الكبد" }
+label: { ar: "أبو زيد عبد الحميد بن الوليد الكبد", en: "Abu Zayd Abd al-Hamid ibn al-Walid al-Kabd" }
 names:
   - { kind: full, lang: ar, value: "أبو زيد عبد الحميد بن الوليد بن المغيرة المصري" }
 gender: male
@@ -14,4 +14,4 @@ relations:
   - { type: student_of, target: person/al-shafii, role: "من أصحابه المصريين، روى عن الشافعي (PDF ص54)", sources: [source/tabaqat-fuqaha-abbas-1981] }
 sources: [source/tabaqat-fuqaha-abbas-1981]
 provenance: { layer: own-research, source: "طبقات الفقهاء (تحقيق إحسان عباس) PDF ص54–58", generated_by: "Claude (Haiku 5.5)", model: "claude-haiku-5-5", run: "lib-tabaqat-fuqaha-batch-6" }
-status: { review: draft, completeness: 1, generated_by: "Claude (Haiku 5.5); batch 6 (PDF ص54–58)" }
+status: { review: draft, completeness: 1, generated_by: "en label draft (Claude Haiku 5.5, batch 1); Claude (Haiku 5.5); batch 6 (PDF ص54–58)" }

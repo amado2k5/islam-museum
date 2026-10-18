@@ -43,6 +43,7 @@ provenance:
 sources:
 - source/tabaqat-fuqaha-abbas-1981
 - source/tarikh-khulafa-minhaj-1434
+- source/shadharat-dhahab
 born:
   hijri: "0393"
   edtf: 1003~
@@ -54,15 +55,16 @@ born:
   sources:
   - source/tabaqat-fuqaha-abbas-1981
 died:
-  hijri: '0476'
+  hijri: '0476-06'
   edtf: 1083~
   calendar: julian
-  precision: year
+  precision: month
   status: tradition
   derived: true
-  note: 'توفي سنة 476هـ (عنوان الكتاب: ٣٩٣ - ٤٧٦هـ)؛ التحويل الميلادي مشتق.'
+  note: "توفي في العشرين من جمادى الآخرة سنة ست وسبعين وأربعمائة وله ثلاث وثمانون سنة {cite:shadharat-dhahab p. 350}."
   sources:
   - source/tabaqat-fuqaha-abbas-1981
+  - source/shadharat-dhahab
 status:
   review: draft
   completeness: 1

@@ -1,0 +1,21 @@
+id: person/muhammad-ibn-abbad-al-qadi
+class: person
+label: { ar: "القاضي محمد بن إسماعيل بن عباد" }
+summary:
+  ar: "أبو القاسم محمد بن إسماعيل بن عباد بن قريش اللخمي، قاضي إشبيلية ومؤسس الدولة العبادية؛ وثب أهلها على يحيى فقتلوه وتم الأمر لمحمد فملك إشبيلية ثم ملك بعد ذلك قرطبة وغيرها؛ ولما مات قام مقامه ولده المعتضد بالله عباد {cite:shadharat-dhahab p. 253}."
+  en: "Abu al-Qasim Muhammad b. Isma'il b. Abbad — the qadi who founded the Abbadid state; the Sevillans leapt on Yahya and killed him and the rule fell to Muhammad, who held Seville then Cordoba and beyond; on his death in 433 his son al-Mu'tadid bi'llah Abbad took his place {cite:shadharat-dhahab p. 253}."
+gender: male
+died: { edtf: "1042~", hijri: "0433-05", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الأولى سنة ثلاث وثلاثين وأربعمائة ودفن بقصر أشيلية {cite:shadharat-dhahab p. 253}." }
+roles: [ruler, jurist]
+wings: [people]
+periods: [period/abbasid-early]
+regions: [andalus-europe]
+relations:
+  - { type: parent_of, target: person/al-mutadid-abbad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-94
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,22 @@
+id: event/abu-kalijar-enters-baghdad-436
+class: event
+kind: other
+label: { ar: "دخول أبي كاليجار بغداد وضرب العلبل" }
+summary:
+  ar: "في سنة ست وثلاثين وأربعمائة دخل السلطان أبو كاليجار بغداد وضُربت له العلبل في أوقات الصلوات الخمس، ولم تُضرب لأحد قبله إلا ثلاث مرات {cite:shadharat-dhahab p. 256}."
+  en: "In 436 Sultan Abu Kalijar entered Baghdad, and the kettle-drums were beaten for him at the five prayer-times — an honour struck for no one before him except three times {cite:shadharat-dhahab p. 256}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1044~", hijri: "0436", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 436 {cite:shadharat-dhahab p. 256}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/abu-kalijar, role: entrant-sultan, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-94
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

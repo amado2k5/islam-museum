@@ -22,6 +22,7 @@ The V&A developer guide (https://developers.vam.ac.uk/guide/v2/welcome.html, "Li
 - `attribution` now reads: "© Victoria and Albert Museum, London. Embedded by URL from the V&A IIIF image service, never copied, under the V&A website terms and conditions (non-commercial use only, credit required, 768 px maximum): https://www.vam.ac.uk/info/va-websites-terms-conditions". The credit line is the one section 3 and section 5 of the terms prescribe.
 - The full-size `url` requests `!768,` instead of `!800,` from the IIIF service, so the image the page shows stays inside the 768 px digital limit of section 3. The `thumbnail` (`!200,200`) was already inside it. The `iiif_image` base URL is unchanged.
 - Nothing else moved: the records never held a copy of the image (the site renders `<img src>` from the V&A's own URL, `site/src/components/Extras.astro`), which is what section 9.3 requires.
+- Deep zoom is withheld under this cap: object pages render the IIIF/OpenSeadragon viewer only when the depicting record's licence is open (`CC0`, `PD`, `CC-BY`, `CC-BY-SA`), so no page reproduces a V&A image beyond 768 px. `VAM-NC` objects show the static figure and a manifest link instead (`site/src/components/Extras.astro`).
 
 The harvester that produced these records, `scripts/harvest/objects/images.py`, now writes the same id, attribution and 768 px URL for any future V&A object.
 

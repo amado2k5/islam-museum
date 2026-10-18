@@ -1,0 +1,21 @@
+id: event/baghdad-fire-485
+class: event
+kind: other
+label: { ar: "الحريق العظيم ببغداد سنة 485" }
+summary:
+  ar: "في جمادى الآخرة سنة خمس وثمانين وأربعمائة وقع ببغداد حريق عظيم احترق فيه من الناس عدد كثير، وكان ممن احترق فيه القارئ أبو عبد الله البانياسي مالك بن أحمد بن علي بن الفراء البغدادي وله سبع وثمانون سنة {cite:shadharat-dhahab p. 376}."
+  en: "In Jumada II 485 a great fire struck Baghdad in which a great number perished — among them the qari' Abu Abd Allah al-Banyasi Malik b. Ahmad b. Ali b. al-Farra', aged eighty-seven {cite:shadharat-dhahab p. 376}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1092-07~", hijri: "0485-06", calendar: julian, precision: month, status: tradition, derived: true, note: "جمادى الآخرة سنة 485؛ التحويل مشتق {cite:shadharat-dhahab p. 376}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-107
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

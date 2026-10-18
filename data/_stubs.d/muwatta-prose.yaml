@@ -1,7 +1,7 @@
 # Stubs for the muwatta-prose lane (docs/agents/lanes/muwatta-prose.md): Medinan narrators of the Muwatta that no entity covers yet.
 # Remove each line as the entity is written.
 - { id: person/zayd-ibn-aslam, label: { ar: "زيد بن أسلم العدوي", en: "Zayd ibn Aslam" }, class: person }
-- { id: person/hisham-ibn-urwa, label: { ar: "هشام بن عروة بن الزبير", en: "Hisham ibn Urwa" }, class: person }
+# resolved: person/hisham-ibn-urwa (written in lib-wafayat-ayan batch 6)
 - { id: person/amra-bint-abd-al-rahman, label: { ar: "عمرة بنت عبد الرحمن الأنصارية", en: "Amra bint Abd al-Rahman" }, class: person }
 - { id: person/rabia-ibn-abi-abd-al-rahman, label: { ar: "ربيعة بن أبي عبد الرحمن (ربيعة الرأي)", en: "Rabi'a ibn Abi Abd al-Rahman (Rabi'a al-Ra'y)" }, class: person }
 - { id: person/abu-salama-ibn-abd-al-rahman, label: { ar: "أبو سلمة بن عبد الرحمن بن عوف", en: "Abu Salama ibn Abd al-Rahman" }, class: person }
@@ -16,7 +16,6 @@
 - { id: person/abu-suhayl-nafi-ibn-malik, label: { ar: "أبو سهيل نافع بن مالك بن أبي عامر الأصبحي، عم مالك", en: "Abu Suhayl Nafi' ibn Malik, Malik's uncle" }, class: person }
 - { id: person/abu-musab-al-zuhri, label: { ar: "أبو مصعب أحمد بن أبي بكر الزهري، راوي الموطأ", en: "Abu Mus'ab al-Zuhri, transmitter of the Muwatta" }, class: person }
 - { id: person/al-daraqutni, label: { ar: "علي بن عمر الدارقطني", en: "al-Daraqutni" }, class: person }
-- { id: person/nafi-mawla-ibn-umar, label: { ar: "نافع مولى عبد الله بن عمر", en: "Nafi', mawla of Ibn Umar" }, class: person }
 - { id: person/abdallah-ibn-rafi-mawla-umm-salama, label: { ar: "عبد الله بن رافع مولى أم سلمة", en: "Abdallah ibn Rafi', mawla of Umm Salama" }, class: person }
 - { id: person/yazid-ibn-ziyad-al-madani, label: { ar: "يزيد بن زياد المدني", en: "Yazid ibn Ziyad al-Madani" }, class: person }
 - { id: person/malik-ibn-abi-amir-al-asbahi, label: { ar: "مالك بن أبي عامر الأصبحي، جد مالك", en: "Malik ibn Abi Amir al-Asbahi, Malik's grandfather" }, class: person }
@@ -152,7 +151,7 @@
 - { id: place/dhat-al-nusub, label: { ar: "ذات النصب", en: "Dhat al-Nusub" }, class: place }
 - { id: person/abdallah-ibn-safwan-al-jumahi, label: { ar: "عبد الله بن صفوان بن أمية الجمحي", en: "Abdallah ibn Safwan al-Jumahi" }, class: person }
 - { id: person/safwan-ibn-abdallah-ibn-safwan, label: { ar: "صفوان بن عبد الله بن صفوان الجمحي", en: "Safwan ibn Abdallah ibn Safwan" }, class: person }
-- { id: person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith, label: { ar: "أبو بكر بن عبد الرحمن بن الحارث بن هشام المخزومي", en: "Abu Bakr ibn Abd al-Rahman ibn al-Harith" }, class: person }
+# resolved: person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith (written in lib-wafayat-ayan batch 5; alias covers -ibn-hisham variant)
 - { id: person/musa-ibn-maysara, label: { ar: "موسى بن ميسرة الديلي", en: "Musa ibn Maysara" }, class: person }
 - { id: person/abu-murra-mawla-aqil, label: { ar: "أبو مرة مولى عقيل بن أبي طالب", en: "Abu Murra, mawla of Aqil ibn Abi Talib" }, class: person }
 - { id: person/mulayka-grandmother-of-anas, label: { ar: "مليكة جدة أنس بن مالك", en: "Mulayka, grandmother of Anas ibn Malik" }, class: person }
@@ -386,7 +385,7 @@
 - { id: concept/faraid, label: { ar: "الفرائض والمواريث", en: "Faraid (inheritance shares)" }, class: concept }
 - { id: person/abd-al-rahman-ibn-hanzala-al-zuraqi, label: { ar: "عبد الرحمن بن حنظلة الزرقي", en: "Abd al-Rahman ibn Hanzala al-Zuraqi" }, class: person }
 - { id: person/yarfa, label: { ar: "يرفأ", en: "Yarfa (servant of Umar)" }, class: person }
-- { id: person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith-ibn-hisham, label: { ar: "أبو بكر بن عبد الرحمن بن الحارث بن هشام", en: "Abu Bakr ibn Abd al-Rahman ibn al-Harith ibn Hisham" }, class: person }
+# resolved via alias: person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith-ibn-hisham → person/abu-bakr-ibn-abd-al-rahman-ibn-al-harith
 - { id: person/umar-ibn-uthman-ibn-affan, label: { ar: "عمر بن عثمان بن عفان", en: "Umar ibn Uthman ibn Affan" }, class: person }
 - { id: person/muhammad-ibn-al-ashath, label: { ar: "محمد بن الأشعث", en: "Muhammad ibn al-Ash'ath" }, class: person }
 - { id: concept/nikah, label: { ar: "النكاح", en: "Nikah (marriage)" }, class: concept }
@@ -460,7 +459,6 @@
 - { id: concept/ihdad, label: { ar: "الإحداد", en: "mourning (ihdad)" }, class: concept }
 - { id: person/aflah-brother-of-abu-al-quays, label: { ar: "أفلح أخو أبي القعيس", en: "Aflah, brother of Abu al-Qu'ays" }, class: person }
 - { id: person/amr-ibn-al-sharid, label: { ar: "عمرو بن الشريد", en: "Amr ibn al-Sharid" }, class: person }
-- { id: person/umm-kulthum-bint-abi-bakr, label: { ar: "أم كلثوم بنت أبي بكر", en: "Umm Kulthum bint Abi Bakr" }, class: person }
 - { id: person/asim-ibn-abdallah-ibn-saad, label: { ar: "عاصم بن عبد الله بن سعد", en: "Asim ibn Abdallah ibn Sa'd" }, class: person }
 - { id: person/fatima-bint-umar-ibn-al-khattab, label: { ar: "فاطمة بنت عمر بن الخطاب", en: "Fatima bint Umar ibn al-Khattab" }, class: person }
 - { id: person/fatima-bint-al-walid-ibn-utba, label: { ar: "فاطمة بنت الوليد بن عتبة", en: "Fatima bint al-Walid ibn Utba" }, class: person }
@@ -535,7 +533,7 @@
 - { id: person/haram-ibn-said-ibn-muhayyisah, label: { ar: "حرام بن سعد بن محيصة", en: "Haram ibn Sa'd ibn Muhayyisah" }, class: person }
 - { id: person/muhammad-ibn-al-numan-ibn-bashir, label: { ar: "محمد بن النعمان بن بشير", en: "Muhammad ibn al-Numan ibn Bashir" }, class: person }
 - { id: person/bashir-ibn-saad, label: { ar: "بشير بن سعد", en: "Bashir ibn Sa'd" }, class: person }
-- { id: person/makhul-al-dimashqi, label: { ar: "مكحول الدمشقي", en: "Makhul al-Dimashqi" }, class: person }
+# resolved: person/makhul-al-dimashqi (written in lib-wafayat-ayan batch 6)
 - { id: person/yazid-mawla-al-munbath, label: { ar: "يزيد مولى المنبعث", en: "Yazid, mawla of al-Munba'ath" }, class: person }
 - { id: person/muawiyah-ibn-abdallah-ibn-badr, label: { ar: "معاوية بن عبد الله بن بدر الجهني", en: "Muawiya ibn Abdallah ibn Badr al-Juhani" }, class: person }
 - { id: person/thabit-ibn-al-dahhak, label: { ar: "ثابت بن الضحاك الأنصاري", en: "Thabit ibn al-Dahhak al-Ansari" }, class: person }

@@ -1,0 +1,23 @@
+id: event/killing-of-jafar-ibn-falah-360
+class: event
+kind: death
+label: { ar: "مقتل جعفر بن فلاح على يد القرمطي الأعصم" }
+summary:
+  ar: "في سنة ستين وثلاثمائة نزل جعفر بن فلاح الكتامي نائب بني عبيد على الشام إلى الدكة فوق نهر يزيد بظاهر دمشق، فقصده الحسن بن أحمد القرمطي المعروف بالأعصم فخرج إليه جعفر وهو عليل فظفر به القرمطي فأسره وقتله وقتل من أصحابه خلقاً كثيراً، وذلك يوم الخميس سادس ذي القعدة؛ وكان جعفر أول نائب ولي دمشق لبني عبيد، أخذ الرملة في ذي الحجة سنة ثمان وخمسين ثم دمشق في المحرم سنة تسع وخمسين بعد أن قاتل أهلها {cite:shadharat-dhahab p. 29}."
+  en: "In 360 the Fatimids' first governor of Damascus, Ja'far b. Fallah al-Kutami, camped sick at the dikka above the Yazid river outside the city; the Qarmati al-A'sam fell on him, captured and killed him with many of his men on Thursday 6 Dhu'l-Qa'da — Ja'far had taken Ramla in 358 and Damascus in 359 {cite:shadharat-dhahab p. 29}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "0971~", hijri: "0360-11-06", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الخميس سادس ذي القعدة 360 {cite:shadharat-dhahab p. 29}." }
+relations:
+  - { type: had_participant, target: person/jafar-ibn-fallah, role: "المقتول", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-hasan-ibn-ahmad-al-aasam, role: "القاتل", sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-86
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

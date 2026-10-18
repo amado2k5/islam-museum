@@ -1,0 +1,24 @@
+id: event/baghdad-sectarian-war-483
+class: event
+kind: civil-war
+label: { ar: "فتنة السنة والرافضة ببغداد سنة 483" }
+summary:
+  ar: "في سنة ثلاث وثمانين وأربعمائة قامت ببغداد فتنة هائلة لم يسمع بمثلها بين السنة والرافضة فقتل بينهم عدد كثير وعجز والي البلد، واستطهرت السنة بكثرة من معهم من أعوان الخليفة واستكانت الشيعة وذلوا ولزموا التقية حتى كتبوا على مساجد الكرخ خير الناس بعد رسول الله أبو بكر {cite:shadharat-dhahab p. 368}."
+  en: "In 483 an unprecedented fitna broke out in Baghdad between the Sunna and the Rafida with many killed and the governor helpless; the Sunna prevailed with the caliph's backers until the Shi'a humbled, kept taqiyya, and wrote on the Karkh mosques 'the best of men after the Messenger of God is Abu Bakr' {cite:shadharat-dhahab p. 368}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1090~", hijri: "0483", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 483؛ التحويل مشتق {cite:shadharat-dhahab p. 368}." }
+sides:
+  - label: { ar: "أهل السنة وأعوان الخليفة" }
+  - label: { ar: "الرافضة ببغداد" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-107
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -7,7 +7,7 @@ gender: male
 roles: [historian]
 traditions: [sunni]
 born: { edtf: "0987", hijri: "0377", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1076", hijri: "0469", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1076", hijri: "0469-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ربيع الأول سنة تسع وستين وأربعمائة وله اثنتان وتسعون سنة {cite:shadharat-dhahab p. 340}", sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab] }
 summary:
   ar: "مؤرخ أندلسي من قرطبة، صاحب كتاب «المقتبس» في تاريخ الأندلس."
   en: "An Andalusian historian from Cordoba, author of al-Muqtabas on the history of al-Andalus."
@@ -17,6 +17,6 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [andalus-europe]
 story_roles:
   - { role: historian, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 7 pp. 396, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج7 ص396", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

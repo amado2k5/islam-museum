@@ -2,19 +2,19 @@ id: person/abu-hayyan-al-tawhidi
 class: person
 label: { ar: "أبو حيان التوحيدي" }
 summary:
-  ar: "الشيخ أبو حيان علي بن محمد التوحيدي المتوفى سنة ٣٨٠هـ؛ صاحب الإمتاع والمؤانسة {cite:kashf-zunun-furqan p. 625}."
-  en: "Abu Hayyan Ali ibn Muhammad al-Tawhidi, d. AH 380 — author of al-Imta' wal-Mu'anasa, the record of the Sahib ibn Abbad's literary nights {cite:kashf-zunun-furqan p. 625}."
+  ar: "أبو حيان علي بن محمد التوحيدي البغدادي؛ فاضل مصنف له من الكتب المشهورة «الإمتاع والمؤانسة» في مجلدين و«البصائر والذخائر» و«الصديق والصداقة» و«المقابسات» و«مثالب الوزيرين» الذي خصّه بمعايب أبي الفضل ابن العميد والصاحب ابن عباد وتحامل عليهما وبالغ في التعصب عليهما — وهذا الكتاب من الكتب الحدودة فما ملكه أحد إلا تعكست أحواله {cite:wafayat-ayan}. ويقال إن أباه كان يبيع التوحيد — نوعاً من التمر — ببغداد؛ المتوفى سنة ٣٨٠هـ {cite:kashf-zunun-furqan p. 625}."
+  en: "Abu Hayyan al-Tawhidi of Baghdad (d. 380) — philosopher-adib; author of al-Imta' wa-l-Mu'anasa, al-Basa'ir wa-l-Dhakha'ir, al-Sadiq wa-l-Sadaqa, al-Muqabasat, and the ill-omened Mathalib al-Wazirayn against Ibn al-Amid and al-Sahib Ibn Abbad; Ibn Khallikan has him still alive in 400 on his own statement in al-Sadiq wa-l-Sadaqa {cite:kashf-zunun-furqan p. 625} {cite:wafayat-ayan}."
 gender: male
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [levant-iraq]
-died: { edtf: "0990~", hijri: "0380", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 380هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 625}." }
+died: { edtf: "0990~", hijri: "0380", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 380هـ {cite:kashf-zunun-furqan p. 625}؛ وقال ابن خلكان إنه كان موجوداً في السنة الأربعمائة ذكر ذلك في كتاب الصديق والصداقة {cite:wafayat-ayan}؛ التحويل مشتق." }
 relations:
-  - { type: authored, target: work/al-imta-wal-muanasa, sources: [source/kashf-zunun-furqan] }
+  - { type: authored, target: work/al-imta-wal-muanasa, sources: [source/kashf-zunun-furqan, source/wafayat-ayan] }
 provenance:
   layer: own-research
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 625 مدخل 1770"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-kashf-batch-8
-sources: [source/kashf-zunun-furqan]
+  run: lib-kashf-batch-8; lib-wafayat-batch-13
+sources: [source/kashf-zunun-furqan, source/wafayat-ayan]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
