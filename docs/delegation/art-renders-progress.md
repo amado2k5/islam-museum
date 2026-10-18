@@ -1,5 +1,5 @@
 # Art renders progress
-completed: 51 of 300 (17 Oct 2026 21:58)
+completed: 101 of 300 (17 Oct 2026 23:04)
 
 art3-001-bowl-abbasid
 art3-002-bowl-fatimid
@@ -52,3 +52,53 @@ art3-048-jar-almohad
 art3-049-jar-seljuk
 art3-050-jar-mughal
 art3-051-hanging-lamp-abbasid
+art3-052-hanging-lamp-fatimid
+art3-053-hanging-lamp-mamluk
+art3-054-hanging-lamp-ottoman
+art3-055-hanging-lamp-safavid
+art3-056-hanging-lamp-timurid
+art3-057-hanging-lamp-andalusian
+art3-058-hanging-lamp-almohad
+art3-059-hanging-lamp-seljuk
+art3-060-hanging-lamp-mughal
+art3-061-box-abbasid
+art3-062-box-fatimid
+art3-063-box-mamluk
+art3-064-box-ottoman
+art3-065-box-safavid
+art3-066-box-timurid
+art3-067-box-andalusian
+art3-068-box-almohad
+art3-069-box-seljuk
+art3-070-box-mughal
+art3-071-tray-abbasid
+art3-072-tray-fatimid
+art3-073-tray-mamluk
+art3-074-tray-ottoman
+art3-075-tray-safavid
+art3-076-tray-timurid
+art3-077-tray-andalusian
+art3-078-tray-almohad
+art3-079-tray-seljuk
+art3-080-tray-mughal
+art3-081-candlestick-abbasid
+art3-082-candlestick-fatimid
+art3-083-candlestick-mamluk
+art3-084-candlestick-ottoman
+art3-085-candlestick-safavid
+art3-086-candlestick-timurid
+art3-087-candlestick-andalusian
+art3-088-candlestick-almohad
+art3-089-candlestick-seljuk
+art3-090-candlestick-mughal
+art3-091-incense-burner-abbasid
+art3-092-incense-burner-fatimid
+art3-093-incense-burner-mamluk
+art3-094-incense-burner-ottoman
+art3-095-incense-burner-safavid
+art3-096-incense-burner-timurid
+art3-097-incense-burner-andalusian
+art3-098-incense-burner-almohad
+art3-099-incense-burner-seljuk
+art3-100-incense-burner-mughal
+art3-101-perfume-bottle-abbasid
