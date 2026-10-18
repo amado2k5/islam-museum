@@ -1,0 +1,31 @@
+id: person/abd-al-ghafir-al-farisi
+class: person
+label: { ar: "عبد الغافر الفارسي" }
+names:
+  - { value: "أبو الحسن عبد الغافر بن إسماعيل بن عبد الغافر بن محمد الفارسي الحافظ", kind: full }
+summary:
+  ar: "الحافظ الأديب أبو الحسن عبد الغافر بن إسماعيل الفارسي صاحب تاريخ نيسابور ومصنف مجمع الغرائب ومصنف المفهم في شرح مسلم؛ كان إماماً في الحديث واللغة والأدب والبلاغة فقيهاً شافعياً، حدث عن جده لأمه أبي القاسم القشيري وطبقته وأجاز له أبو محمد الجوهري وآخرون، وتفقه بإمام الحرمين فلازمه أربع سنين وأخذ عنه الخلاف والفقه، ورحل فأكثر الأسفار ولقي العلماء ثم رجع إلى نيسابور وولي خطابتها وأخذ التفسير والأصول عن خاليه أبي سعيد عبد الله وأبي سعيد عبد الواحد ابني أبي القاسم القشيري؛ توفي سنة تسع وعشرين وخمسمائة بنيسابور عن ثمان وسبعين سنة {cite:shadharat-dhahab p. 573}."
+  en: "The hafiz and littérateur Abu al-Hasan Abd al-Ghafir ibn Ismail al-Farisi — author of the Tarikh Nishapur, Majma al-ghara'ib and al-Mufhim, a commentary on Muslim; imam in hadith, language, adab and balagha and a Shafi'i jurist; he transmitted from his maternal grandfather Abu al-Qasim al-Qushayri's generation, kept Imam al-Haramayn's company four years learning khilaf and fiqh, travelled widely, then returned to Nishapur as its khatib, taking tafsir and usul from his uncles Abu Sa'id Abdallah and Abu Sa'id Abd al-Wahid, sons of al-Qushayri; d. at Nishapur in 529 at seventy-eight {cite:shadharat-dhahab p. 573}."
+gender: male
+wings: [people]
+roles: [historian, scholar, jurist]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died:
+  edtf: "1135~"
+  hijri: "0529"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "توفي بنيسابور سنة تسع وعشرين وخمسمائة عن ثمان وسبعين سنة {cite:shadharat-dhahab p. 573}؛ التحويل مشتق."
+relations:
+  - { type: student_of, target: person/imam-al-haramayn-al-juwayni, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/nishapur, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

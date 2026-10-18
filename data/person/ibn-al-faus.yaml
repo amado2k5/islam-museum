@@ -1,0 +1,30 @@
+id: person/ibn-al-faus
+class: person
+label: { ar: "ابن الفاؤوس الحنبلي" }
+names:
+  - { value: "أبو الحسن علي بن المبارك بن علي البغدادي الحنبلي الأسكاف ابن الفاؤوس", kind: full }
+summary:
+  ar: "ابن الفاؤوس أبو الحسن علي بن المبارك البغدادي الحنبلي الأسكاف الزاهد؛ كان يقص يوم الجمعة وللناس فيه عقيدة لصلاحه وتقشفه وإخلاصه، روى عن القاضي أبي يعلى وغيره وسمع منه أبو المؤيد الأنصاري؛ وكان يأتي ساقي الماء في مجلس إملائه فيتناول منه ليوهم الحاضرين أنه مفطر وهو صائم غالباً؛ توفي ليلة السبت تاسع عشر شوال سنة إحدى وعشرين وخمسمائة وصلى عليه من الغد بجامع القصر وكان يوماً مشهوداً ودفن قريباً من قبر الإمام أحمد وأُغلقت في ذلك اليوم أسواق بغداد وكان أمل بغداد يصيحون في جنازته هذا يوم سني حنبلي {cite:shadharat-dhahab p. 544}."
+  en: "Ibn al-Fa'us Abu al-Hasan Ali ibn al-Mubarak, the Hanbali ascetic of the shoemakers; he preached on Fridays and people held him in awe for his piety and austerity — he transmitted from qadi Abu Ya'la and Abu al-Mu'ayyad al-Ansari heard him; at his dictation circle he would sip from the water-seller's skin to let attendees think him not fasting, though he mostly was; d. the night of Saturday 19 Shawwal 521, prayed over next day at Jami' al-Qasr on a day of witness, buried near Imam Ahmad's grave while Baghdad's markets closed and the crowd cried 'a Sunni Hanbali day' {cite:shadharat-dhahab p. 544}."
+gender: male
+wings: [people]
+roles: [scholar, mystic]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died:
+  edtf: "1127-10~"
+  hijri: "0521-10"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي ليلة السبت تاسع عشر شوال سنة إحدى وعشرين وخمسمائة ودفن قريباً من قبر الإمام أحمد {cite:shadharat-dhahab p. 544}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

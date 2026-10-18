@@ -1,0 +1,31 @@
+id: person/shams-al-muluk-ismail-ibn-buri
+class: person
+label: { ar: "شمس الملوك إسماعيل بن بوري بن طغتكين" }
+names:
+  - { value: "شمس الملوك أبو الفتح إسماعيل بن تاج الملوك بوري بن طغتكين", kind: full }
+summary:
+  ar: "شمس الملوك أبو الفتح إسماعيل بن تاج الملوك بوري بن طغتكين؛ ولي دمشق بعد أبيه وكان وافر الحرمة موصوفاً بالشجاعة كثير الإغارة على الفرنج أخذ منهم عدة حصون، وحاصر أخاه ببعلبك مدة، لكنه كان ظالماً مصادراً جباراً فدبّرت أمه زمرة دخاتون قتلوه بقلعة دمشق في ربيع الأول سنة تسع وعشرين وخمسمائة وكانت دولته نحو ثلاث سنين، وترتب بعده في الملك أخوه محمود وصار أتابكه معين الدين أنر {cite:shadharat-dhahab p. 570-571}."
+  en: "Shams al-Muluk Abu al-Fath Ismail ibn Taj al-Muluk Buri ibn Tughtigin; ruled Damascus after his father — majestic, brave, a constant raider who took several fortresses from the Franks, though he besieged his own brother at Baalbek; a tyrant and expropriator, so his mother Zumurrud Khatun arranged for court ladies to kill him in Damascus's citadel in Rabi' I 529 after about three years' rule; succeeded by his brother Mahmud under the atabeg Mu'in al-Din Unur {cite:shadharat-dhahab p. 570-571}."
+gender: male
+wings: [people]
+roles: [emir, general]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+died:
+  edtf: "1135-01~"
+  hijri: "0529-03"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "قتلته دخاتون بقلعة دمشق في ربيع الأول بتدبير أمه زمر دخاتون {cite:shadharat-dhahab p. 571}؛ التحويل مشتق."
+relations:
+  - { type: ruler_of, target: polity/burid-dynasty, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

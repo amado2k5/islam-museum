@@ -1,0 +1,30 @@
+id: person/hammad-al-dabbas
+class: person
+label: { ar: "حماد الدباس" }
+names:
+  - { value: "أبو عبد الله حماد بن مسلم بن ددوة الدباس الرحّي", kind: full }
+summary:
+  ar: "الزاهد حماد بن مسلم الدباس شيخ الشيخ عبد القادر الجيلاني؛ نشأ ببغداد وكان له معمل للدبس وكان أمياً لا يكتب، وله أصحاب وأتباع وأحوال وكرامات دوّنوا كلامه في مجلدات، وكان شيخ العارفين في زمانه وكان ابن عقيل يحط عليه ويؤذيه؛ وذكر السخاوي أنه سافر وتغرّب ولقي المشايخ وجاهد نفسه وزاول المهن في طلب الحلال ثم أملى في الآداب والأعمال، وكان لا يأكل إلا مما يُهدى إليه عن المنامات؛ توفي ليلة السبت خامس رمضان سنة خمس وعشرين وخمسمائة ودفن بالشونيزية {cite:shadharat-dhahab p. 553-555}."
+  en: "The ascetic Hammad ibn Muslim al-Dabbas, shaykh of Shaykh Abd al-Qadir al-Jilani; raised at Baghdad, where he kept a date-syrup workshop, an ummi who did not write yet whose sayings disciples filled volumes with; shaykh of the gnostics of his time, though Ibn Aqil belittled and harassed him; al-Sakhawi records his travels, trades and scrupulous earnings, and that he would eat only what dream-gifts brought him; d. the night of Saturday 5 Ramadan 525, buried at al-Shuniziyya {cite:shadharat-dhahab p. 553-555}."
+gender: male
+wings: [people]
+roles: [mystic]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died:
+  edtf: "1131-08~"
+  hijri: "0525-09"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي ليلة السبت خامس رمضان سنة خمس وعشرين وخمسمائة ودفن بالشونيزية {cite:shadharat-dhahab p. 555}؛ التحويل مشتق."
+relations:
+  - { type: teacher_of, target: person/abd-al-qadir-al-jilani, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
