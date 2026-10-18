@@ -1,0 +1,26 @@
+id: person/al-malik-al-mansur-hajji
+class: person
+label: { ar: "الملك المنصور محمد بن المظفر حاجي", en: "al-Malik al-Mansur Muhammad ibn Hajji" }
+names:
+  - { value: "الملك المنصور محمد بن الملك المظفر حاجي بن الناصر محمد بن قلاوون الصالحي", kind: full }
+born: { edtf: "1347~", hijri: "0748", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ثمان وأربعين وسبعمائة {cite:shadharat-dhahab p. 18}." }
+died: { edtf: "1398-09~", hijri: "0801-01-09", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في تاسع محرم سنة إحدى وثمانمائة وخلف عشرة أولاد {cite:shadharat-dhahab p. 18}." }
+summary:
+  ar: "ولي السلطنة بعد عمه الناصر حسن في جمادى الأولى سنة اثنتين وستين ودبر دولته يلبغا وسافر معه إلى الشام وكان عمره نحو خمس عشرة سنة، فلما عاد من السفر كثر أمره ونهيه فأشاع يلبغا أنه مجنون وخلعه في شعبان سنة أربع وستين بعد ثلاث سنين وشهرين وخمسة أيام، واعتُقل بالحوش في المكان الذي به ذرية الملك الناصر إلى أن مات في تاسع محرم سنة إحدى وثمانمائة، وخلف عشرة أولاد قرر لهم الملك الظاهر مرتباً {cite:shadharat-dhahab p. 18}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 801)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

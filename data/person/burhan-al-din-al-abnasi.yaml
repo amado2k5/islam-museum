@@ -1,0 +1,27 @@
+id: person/burhan-al-din-al-abnasi
+class: person
+label: { ar: "برهان الدين الإبناسي", en: "Burhan al-Din al-Abnasi" }
+names:
+  - { value: "العلامة برهان الدين أبو محمد إبراهيم بن موسى بن أيوب الإبناسي الشافعي", kind: full }
+born: { edtf: "1327~", hijri: "0725", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بإبناس سنة خمس وعشرين وسبعمائة تقريباً {cite:shadharat-dhahab p. 10}." }
+died: { edtf: "1398-08~", hijri: "0801-01", calendar: julian, precision: month, status: tradition, derived: true, note: "حج فمات راجعاً في المحرم بعيون القصب بالقرب من عقبة أيلة ودفن هناك {cite:shadharat-dhahab p. 11}." }
+summary:
+  ar: "شيخ الديار المصرية مربياً للطلبة؛ تخرج بمغلطاي وتفقه بالأسناوي والمنفلوطي، وبنى زاوية بالمقس ظاهر القاهرة يحسن فيها إلى الطلبة ويرتب لهم الرزق حتى صار أكثر الطلبة بالقاهرة تلامذته وأخذ عنه ابن حجر العسقلاني؛ وعُيّن للقضاء فتوارى وفتح المصحف فخرجت آية السجن، وحج فمات راجعاً في المحرم بعيون القصب قرب عقبة أيلة ورثاه زين الدين العراقي {cite:shadharat-dhahab p. 10-11, 21-22}."
+  en: "'Shaykh of the Egyptian lands' — the students' provider of Cairo whose Muqs zawiya fed and taught them; offered the judgeship he hid, opened the mushaf and found the prison-verse; died returning from hajj near Aqabat Ayla, elegised by al-Iraqi {cite:shadharat-dhahab p. 10-11}."
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/ayla, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 801)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

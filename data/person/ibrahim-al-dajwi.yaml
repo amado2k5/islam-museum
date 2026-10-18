@@ -1,0 +1,26 @@
+id: person/ibrahim-al-dajwi
+class: person
+label: { ar: "إبراهيم الدجوي النحوي", en: "Ibrahim al-Dajwi, the grammarian" }
+names:
+  - { value: "إبراهيم بن محمد بن عثمان بن إسحاق الدجوي ثم المصري النحوي", kind: full }
+born: { edtf: "1322~", hijri: "0722~", calendar: julian, precision: year, status: tradition, derived: true, note: "بلغ الثمانين {cite:shadharat-dhahab p. 21}." }
+died: { edtf: "1399-10~", hijri: "0802-03", calendar: julian, precision: month, status: tradition, derived: true, note: "مات في ربيع الأول وقد بلغ الثمانين {cite:shadharat-dhahab p. 21}." }
+summary:
+  ar: "النحوي المصري؛ أخذ عن الشهاب بن المرحل وابن هشام وغيرهما ومهر في العربية وأشغل الناس فيها، وكان جل ما عنده شرح الألفية، وفيه دعابة {cite:shadharat-dhahab p. 21}."
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 802)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136

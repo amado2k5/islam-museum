@@ -1,0 +1,21 @@
+id: event/levant-earthquake-811
+class: event
+kind: disaster-relief
+label: { ar: "الزلزلة العظيمة بسواحل الشام سنة 811هـ", en: "The great Levantine coast earthquake, 811" }
+summary:
+  ar: "في عاشر شعبان سنة إحدى عشرة وثمانمائة جاءت زلزلة عظيمة في نواحي بلاد حلب وطرابلس قرب اللاذقية وجبلة وبلدان أماكن عديدة، وسقطت قلعة بلاطنس فمات تحت الردم خمسة عشر نفساً، وخرب شغر بكاس كلها وقلعتها ومات جميع أهلها إلا عشرين نفساً، وانتقلت بلد قدر ميل بأشجارها وأبنيتها وأهلها لم يُسعَروا بذلك، وخُرب من قبرص أماكن كثيرة، وشوهد بلح على رأس الجبل الأقرع وقد نزل البحر وطلع وبينه وبين البحر عشرة فراسخ، وذكر أهل البحر أن المراكب في البحر المالح وصلت إلى الأرض لما انحسر البحر ثم عاد الماء كما كان، قاله ابن حجر {cite:shadharat-dhahab p. 97}."
+  en: "10 Sha'ban 811 — a great earthquake from Aleppo's region to Tripoli, Latakia and Jabla: Balatanus castle fell, Shughr Bakas destroyed with all but twenty of its people, a whole town carried a mile on a landslip with its trees and folk unharmed, Cyprus damaged, and the sea drew back ten parasangs stranding ships before it returned {cite:shadharat-dhahab p. 97}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+map: { kind: locator, precision: approximate, center: [35.7800, 36.1000] }
+date: { start: { edtf: "1409-01~", hijri: "0811-08-10", calendar: julian, precision: day, status: tradition, derived: true, note: "عاشر شعبان سنة إحدى عشرة وثمانمائة {cite:shadharat-dhahab p. 97}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/ladhiqiyya, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 811)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
