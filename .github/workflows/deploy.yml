@@ -1,4 +1,4 @@
-name: Deploy islam.museum to Cloudflare Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -7,7 +7,8 @@ on:
 
 permissions:
   contents: read
-  deployments: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: pages
@@ -53,29 +54,35 @@ jobs:
         run: npm run build
       - name: No runtime AI or compute (guard)
         run: npm run check:static
-      - name: Upload built site
-        uses: actions/upload-artifact@v4
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: dist
           path: dist
-          retention-days: 1
 
   deploy:
     needs: [test, build]
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Download built site
-        uses: actions/download-artifact@v4
-        with:
-          name: dist
-          path: dist
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          wranglerVersion: "4"
-          command: pages deploy dist --project-name=islam-museum
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Purge Cloudflare cache
+        # Needs repository secrets CF_ZONE_ID and CF_API_TOKEN (Zone → Cache Purge). Skipped until they exist.
+        env:
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          if [ -z "$CF_ZONE_ID" ] || [ -z "$CF_API_TOKEN" ]; then
+            echo "Cloudflare secrets not set; skipping cache purge."; exit 0
+          fi
+          curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
+            -H "Authorization: Bearer ${CF_API_TOKEN}" -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}'
 
   # Pings IndexNow with the URLs changed in this push (scripts/indexnow.mjs), so
   # Bing/Yandex pick up new and updated pages without waiting for a crawl.
