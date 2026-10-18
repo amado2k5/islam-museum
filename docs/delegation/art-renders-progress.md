@@ -1,5 +1,5 @@
 # Art renders progress
-completed: 101 of 300 (17 Oct 2026 23:04)
+completed: 150 of 300 (18 Oct 2026 00:10)
 
 art3-001-bowl-abbasid
 art3-002-bowl-fatimid
@@ -102,3 +102,52 @@ art3-098-incense-burner-almohad
 art3-099-incense-burner-seljuk
 art3-100-incense-burner-mughal
 art3-101-perfume-bottle-abbasid
+art3-102-perfume-bottle-fatimid
+art3-103-perfume-bottle-mamluk
+art3-104-perfume-bottle-ottoman
+art3-105-perfume-bottle-safavid
+art3-106-perfume-bottle-timurid
+art3-107-perfume-bottle-andalusian
+art3-108-perfume-bottle-almohad
+art3-109-perfume-bottle-seljuk
+art3-110-perfume-bottle-mughal
+art3-111-mirror-frame-abbasid
+art3-112-mirror-frame-fatimid
+art3-113-mirror-frame-mamluk
+art3-114-mirror-frame-ottoman
+art3-115-mirror-frame-safavid
+art3-116-mirror-frame-timurid
+art3-117-mirror-frame-andalusian
+art3-118-mirror-frame-almohad
+art3-119-mirror-frame-seljuk
+art3-120-mirror-frame-mughal
+art3-121-bookstand-abbasid
+art3-122-bookstand-fatimid
+art3-123-bookstand-mamluk
+art3-124-bookstand-ottoman
+art3-125-bookstand-safavid
+art3-126-bookstand-timurid
+art3-127-bookstand-andalusian
+art3-128-bookstand-almohad
+art3-129-bookstand-seljuk
+art3-130-bookstand-mughal
+art3-131-inkwell-abbasid
+art3-132-inkwell-fatimid
+art3-133-inkwell-mamluk
+art3-134-inkwell-ottoman
+art3-135-inkwell-safavid
+art3-136-inkwell-timurid
+art3-137-inkwell-andalusian
+art3-138-inkwell-almohad
+art3-139-inkwell-seljuk
+art3-140-inkwell-mughal
+art3-141-pen-box-abbasid
+art3-142-pen-box-fatimid
+art3-143-pen-box-mamluk
+art3-144-pen-box-ottoman
+art3-145-pen-box-safavid
+art3-146-pen-box-timurid
+art3-147-pen-box-andalusian
+art3-148-pen-box-almohad
+art3-149-pen-box-seljuk
+art3-150-pen-box-mughal
