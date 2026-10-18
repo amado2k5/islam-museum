@@ -69,7 +69,6 @@ Areas reserved or frozen. An agent adds a row only when the founder says so, and
 
 | Area | Reserved by | Since | Until | Notes |
 |---|---|---|---|---|
-| `/ur/` pages, `content/ur/**`, `i18n/ur.yaml` and every `ur:` key in `i18n/ar.yaml` / `i18n/en.yaml` | Founder with Claude (the session he is finishing the Urdu edition in) | October 2026 | The founder declares the Urdu edition done | Other agents do not add, translate, rename or "repair" Urdu strings or pages. A missing `ur` alt text or label found while validating is reported, not filled in. |
 | Submission claims: `docs/outreach/unesco-nomination-dossier.md`, `docs/outreach/dpga-evidence-map.md`, `docs/outreach/media-licence-audit.md` | Founder | 17 October 2026 | Both reviews conclude | Edited only with a `submission-impacting` sign-off (section 3). |
 
 ## 9. What happens on a violation
