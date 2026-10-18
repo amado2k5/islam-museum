@@ -1,0 +1,26 @@
+id: person/ibn-qurqul
+class: person
+label: { ar: "ابن قرقول الحموي", en: "Ibn Qurqul al-Hamawi" }
+names:
+  - { value: "ابن قرقول صاحب كتاب مطالع الأنوار إبراهيم بن يوسف الحموي", kind: full }
+died: { edtf: "1271~", hijri: "0669", calendar: julian, precision: year, status: tradition, derived: true, note: "صلى الجمعة في الجامع ثم حضرته الوفاة فتلا سورة الإخلاص وكررها بسرعة ثم تشهد ثلاث مرات وسقط على وجهه ميتاً ساجداً {cite:shadharat-dhahab p. 573}." }
+summary:
+  ar: "صاحب كتاب «مطالع الأنوار»؛ كان من الفضلاء الصلحاء صحب علماء الأندلس وكتابه ضاهى به «مشارق الأنوار» للقاضي عياض؛ صلى الجمعة في الجامع ثم حضرته الوفاة فتلا سورة الإخلاص وكررها بسرعة ثم تشهد ثلاث مرات وسقط على وجهه ميتاً ساجداً {cite:shadharat-dhahab p. 573}."
+  en: "Author of Matali' al-Anwar, whose book 'rivalled Qadi Iyad's Mashariq'; he prayed the Friday prayer in the Jami', then death came on him — he recited Sura al-Ikhlas rapidly, bore witness thrice, and fell dead on his face in prostration {cite:shadharat-dhahab p. 573}."
+gender: male
+roles: [scholar, writer]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/hama, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 669)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

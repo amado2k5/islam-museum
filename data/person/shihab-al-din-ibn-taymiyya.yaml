@@ -1,0 +1,27 @@
+id: person/shihab-al-din-ibn-taymiyya
+class: person
+label: { ar: "شهاب الدين ابن تيمية", en: "Shihab al-Din ibn Taymiyya" }
+names:
+  - { value: "شهاب الدين عبد الحليم بن عبد السلام بن عبد الله بن محمد بن الخضر بن علي بن تيمية الحراني الحنبلي", kind: full }
+born: { edtf: "1232~", hijri: "0630~", calendar: julian, precision: year, status: debated, derived: true, note: "مواليد تقريبية؛ كان شيخاً حين هاجرت عائلته من حران سنة سبع وستين {cite:shadharat-dhahab p. 564}." }
+summary:
+  ar: "الإمام عبد الحليم بن عبد السلام، ابن سيف الدين خطيب حران وأب شيخ الإسلام تقي الدين؛ جلس لإقراء الحديث بحران وكان من أهل الخير والصلاح، ثم هاجرت العائلة إلى دمشق إثر إخلاء التتار حران سنة سبع وستين فسمع العلماء بها من صلبها {cite:shadharat-dhahab p. 564}."
+  en: "Son of Sayf al-Din, father of Taqi al-Din — the family's flight from evacuated Harran (667) brought him to Damascus, where the scholars heard hadith from his line {cite:shadharat-dhahab p. 564}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: child_of, target: person/sayf-al-din-ibn-taymiyya, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 667)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132
