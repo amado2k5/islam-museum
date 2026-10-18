@@ -1,5 +1,5 @@
 # Art renders progress
-completed: 150 of 300 (18 Oct 2026 00:10)
+completed: 200 of 300 (18 Oct 2026 01:06)
 
 art3-001-bowl-abbasid
 art3-002-bowl-fatimid
@@ -151,3 +151,53 @@ art3-147-pen-box-andalusian
 art3-148-pen-box-almohad
 art3-149-pen-box-seljuk
 art3-150-pen-box-mughal
+art3-151-dagger-hilt-abbasid
+art3-152-dagger-hilt-fatimid
+art3-153-dagger-hilt-mamluk
+art3-154-dagger-hilt-ottoman
+art3-155-dagger-hilt-safavid
+art3-156-dagger-hilt-timurid
+art3-157-dagger-hilt-andalusian
+art3-158-dagger-hilt-almohad
+art3-159-dagger-hilt-seljuk
+art3-160-dagger-hilt-mughal
+art3-161-shield-abbasid
+art3-162-shield-fatimid
+art3-163-shield-mamluk
+art3-164-shield-ottoman
+art3-165-shield-safavid
+art3-166-shield-timurid
+art3-167-shield-andalusian
+art3-168-shield-almohad
+art3-169-shield-seljuk
+art3-170-shield-mughal
+art3-171-goblet-abbasid
+art3-172-goblet-fatimid
+art3-173-goblet-mamluk
+art3-174-goblet-ottoman
+art3-175-goblet-safavid
+art3-176-goblet-timurid
+art3-177-goblet-andalusian
+art3-178-goblet-almohad
+art3-179-goblet-seljuk
+art3-180-goblet-mughal
+art3-181-flask-abbasid
+art3-182-flask-fatimid
+art3-183-flask-mamluk
+art3-184-flask-ottoman
+art3-185-flask-safavid
+art3-186-flask-timurid
+art3-187-flask-andalusian
+art3-188-flask-almohad
+art3-189-flask-seljuk
+art3-190-flask-mughal
+art3-191-coffee-pot-abbasid
+art3-192-coffee-pot-fatimid
+art3-193-coffee-pot-mamluk
+art3-194-coffee-pot-ottoman
+art3-195-coffee-pot-safavid
+art3-196-coffee-pot-timurid
+art3-197-coffee-pot-andalusian
+art3-198-coffee-pot-almohad
+art3-199-coffee-pot-seljuk
+art3-200-coffee-pot-mughal
