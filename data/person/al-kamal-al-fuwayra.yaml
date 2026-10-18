@@ -1,0 +1,26 @@
+id: person/al-kamal-al-fuwayra
+class: person
+label: { ar: "الكمال الفويرة مسند العراق", en: "al-Kamal al-Fuwayra, musnid of Iraq" }
+names:
+  - { value: "الكمال الفويرة مسند العراق أبو الفرج عبد الرحمن بن عبد اللطيف بن محمد البغدادي الحنبلي المقرئ البزار", kind: full }
+born: { edtf: "1202~", hijri: "0599~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وله ثمان وتسعون سنة {cite:shadharat-dhahab p. 766}." }
+died: { edtf: "1298-09~", hijri: "0697-12", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ذي الحجة سنة سبع وتسعين وله ثمان وتسعون سنة {cite:shadharat-dhahab p. 766}." }
+summary:
+  ar: "مسند العراق، شيخ المستنصرية؛ قرأ القراءات على الفخر الموصلي وانتهى إليه علو الإسناد في القراءات والحديث، وتوفي في ذي الحجة وله ثمان وتسعون سنة وقد وقع في الهرم {cite:shadharat-dhahab p. 765-766}."
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 697)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

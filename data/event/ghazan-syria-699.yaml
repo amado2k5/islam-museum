@@ -1,0 +1,23 @@
+id: event/ghazan-syria-699
+class: event
+kind: campaign
+label: { ar: "فتنة غازان بالشام سنة 699هـ", en: "Ghazan's devastation of Syria, 699" }
+summary:
+  ar: "في سنة تسع وتسعين كانت بالشام فتنة غازان ملك التتار: توفي فيها من شيوخ الحديث بدمشق والجبل — يعني بالصالحية — أكثر من مائة نفس، وقُتل بالجبل ومات برداً وجوعاً نحو أربعمائة نفس، وأُسر نحو أربعة آلاف منهم سبعون نسمة من ذرية الشيخ أبي عمر {cite:shadharat-dhahab p. 775}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+sides:
+  - { label: { ar: "التتار" }, participants: [person/ghazan-khan] }
+  - { label: { ar: "أهل الشام" } }
+map: { kind: campaign, precision: locality, center: [33.5138, 36.2765] }
+date: { start: { edtf: "1299~", hijri: "0699", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة تسع وتسعين وستمائة {cite:shadharat-dhahab p. 775}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 699)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

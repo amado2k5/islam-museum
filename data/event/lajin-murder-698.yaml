@@ -1,0 +1,20 @@
+id: event/lajin-murder-698
+class: event
+kind: death
+label: { ar: "قتل لاجين وعودة الملك الناصر سنة 698هـ", en: "Lajin murdered; al-Nasir restored, 698" }
+summary:
+  ar: "في سنة ثمان وتسعين استوحش قبجق المنصوري نائب الشام وبكتمري السلحدار وغيرهما من فعائل منكوتمر وخافوا أن يبطش بهم وبلغهم دخول ملك التتار في الإسلام فأجمعوا على المسير إليه من حمص، فلم يلبثوا أن جاء الخبر بقتل السلطان لاجين ونائبه منكوتمر على يد كرجي الأشرفي ومن قام معه: هجم عليه كرجي في ستة أنفس وهو يلعب بالشطرنج بعد العشاء، وشهد القاضي حسام الدين الحنفي سبعة أسياف تنزل عليه، ثم قُبض على نائبه فذُبح من الغد، ونودي للملك الناصر وأُحضر من الكرك فاستناب سلاراً في المملكة ثم قُتل طغجي وكرجي الأشرفيان، وركب الملك الناصر بخلعة الخليفة وتقليده وقدم الأفرم على نيابة دمشق في جمادى الأولى {cite:shadharat-dhahab p. 769-770}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+date: { start: { edtf: "1299-01~", hijri: "0698-04", calendar: julian, precision: month, status: tradition, derived: true, note: "في ربيع الآخر جاء الخبر بقتل السلطان ومنكوتمر {cite:shadharat-dhahab p. 769}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: had_participant, target: person/lajin, role: "السلطان المقتول", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-nasir-muhammad-ibn-qalawun, role: "أُعيد من الكرك إلى السلطنة", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 698)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

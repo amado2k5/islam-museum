@@ -13,10 +13,11 @@ relations:
   - { type: child_of, target: person/qalawun, sources: [source/shadharat-dhahab] }
   - { type: sibling_of, target: person/al-ashraf-khalil, sources: [source/shadharat-dhahab] }
   - { type: participated_in, target: event/ashraf-khalil-murder-693, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/lajin-murder-698, role: "أُعيد من الكرك إلى السلطنة", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-47
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

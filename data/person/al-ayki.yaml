@@ -1,0 +1,26 @@
+id: person/al-ayki
+class: person
+label: { ar: "الأيكي العلامة شمس الدين", en: "al-Ayki, Shams al-Din" }
+names:
+  - { value: "الأيكي العلامة شمس الدين أبو عبد الله محمد بن أبي بكر بن محمد الفارسي الشافعي", kind: full }
+born: { edtf: "1230~", hijri: "0627~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي عن سبعين سنة {cite:shadharat-dhahab p. 768}." }
+died: { edtf: "1298-06~", hijri: "0697-09-03", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بالمزة يوم الجمعة قبيل العصر ثالث شهر رمضان {cite:shadharat-dhahab p. 768}." }
+summary:
+  ar: "العلامة الفارسي الشافعي؛ كان فقيهاً صوفياً إماماً في الأصلين، ورد دمشق ودرّس بالغزالية وشرح منطق «مختصر ابن الحاجب»، ثم سافر إلى مصر فولي مشيخة الشيوخ بها فتكلم فيه الصوفية فخرج منها وعاد إلى دمشق؛ ورماه الإمام أبو حيان بالإلحاد وعدّه فيمن اشتهر بذلك — على ما نقله ابن العماد مع قوله والله أعلم {cite:shadharat-dhahab p. 767-768}."
+gender: male
+roles: [theologian, scholar, mystic]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, egypt-nile, levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 697)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

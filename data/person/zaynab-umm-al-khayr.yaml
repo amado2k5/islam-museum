@@ -1,0 +1,26 @@
+id: person/zaynab-umm-al-khayr
+class: person
+label: { ar: "زينب أم الخير القرشي", en: "Zaynab Umm al-Khayr al-Qurashi" }
+names:
+  - { value: "زينب بنت قاضي القضاة محبي الدين يحيى بن محمد بن الزكي القرشي الدمشقي أم الخير", kind: full }
+born: { edtf: "1228~", hijri: "0625~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفيت عن بضع وسبعين سنة {cite:shadharat-dhahab p. 797}." }
+died: { edtf: "1301-04~", hijri: "0700-08", calendar: julian, precision: month, status: tradition, derived: true, note: "توفيت في شعبان سنة سبعمائة عن بضع وسبعين سنة {cite:shadharat-dhahab p. 797}." }
+summary:
+  ar: "المحدثة الدمشقية، بنت قاضي القضاة محبي الدين القرشي؛ روت عن علي بن حجاج وابن المقير وجماعة، وتوفيت في شعبان سنة سبعمائة عن بضع وسبعين سنة {cite:shadharat-dhahab p. 797}."
+gender: female
+roles: [scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 700)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135
