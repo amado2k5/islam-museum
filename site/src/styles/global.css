@@ -278,7 +278,7 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .nav-tools .chip { white-space: nowrap; }
 @media (max-width: 720px) {
   html.js .nav-links { display: none; }
-  html.js .nav-links.open { display: flex; flex-direction: column; align-items: stretch; position: absolute; top: 100%; inset-inline: 0; background: var(--card); border-bottom: 1px solid var(--line); padding: 10px 16px 14px; gap: 0; box-shadow: 0 12px 24px rgba(10,37,51,.12); max-height: calc(100vh - 80px); max-height: calc(100dvh - 80px); overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
+  html.js .nav-links.open { display: flex; flex-direction: column; align-items: stretch; position: absolute; top: 100%; inset-inline: 0; background: var(--card); border-bottom: 1px solid var(--line); padding: 10px 16px 14px; gap: 0; box-shadow: 0 12px 24px rgba(10,37,51,.12); box-sizing: border-box; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
   html.js .nav-links.open .top-link, html.js .nav-links.open .dd > summary { padding: 11px 6px; border-bottom: 1px solid var(--line); border-radius: 0; }
   html.js .nav-links.open .dd-menu { position: static; box-shadow: none; border: 0; min-width: 0; max-width: none; max-height: none; overflow: visible; padding: 0 0 6px 10px; }
   html.js .nav-links.open .dd-menu .d { display: none; }
