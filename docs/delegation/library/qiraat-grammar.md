@@ -58,6 +58,12 @@ Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; sourc
 - no candidate found
 
 
+## Download status (18 Oct 2026)
+
+- Run stopped by the coordinator, not finished: 75 download attempts started; 0 `FAILED` lines; 0 new rows in `library/manifest.jsonl` (966 file rows before and after). The attempts re-fetched files already on the drive, so the run was stopped.
+- `fetch_books.py` now skips a book with a downloaded file and skips a file already on disk. Not yet committed.
+- Books with no candidate found: see the lane's Downloads section.
+
 ## Next step
 
 Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
