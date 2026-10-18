@@ -1,0 +1,30 @@
+id: person/ibn-al-qalanisi-hamza
+class: person
+label: { ar: "ابن القلانسي" }
+names:
+  - { value: "العميد أبو يعلى حمزة بن أرشد بن القلانسي التميمي الدمشقي", kind: full }
+summary:
+  ar: "العميد بن القلانسي أبو يعلى حمزة بن أرشد التميمي الدمشقي الكاتب صاحب تاريخ دمشق الذي انتهى به إلى سنة خمس وخمسين وخمسمائة؛ حدث عن سهل بن بشر الإسفرائيني وولي رئاسة البلد مرتين وكان يسعى أيضاً المسلك؛ توفي في ربيع الأول سنة خمس وخمسين وخمسمائة عن بضع وثمانين سنة {cite:shadharat-dhahab p. 654}."
+  en: "Al-Umayd Ibn al-Qalanisi Abu Ya'la Hamza ibn Arshad al-Tamimi of Damascus, chancery man and author of the Tarikh Dimashq which he carried down to the year 555; he transmitted from Sahl ibn Bishr al-Isfarayini, twice held the city's headship, and died in Rabi' I 555 at eighty-odd {cite:shadharat-dhahab p. 654}."
+gender: male
+wings: [people]
+roles: [historian, writer]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died:
+  edtf: "1160-02~"
+  hijri: "0555-03"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في ربيع الأول سنة خمس وخمسين وخمسمائة عن بضع وثمانين سنة {cite:shadharat-dhahab p. 654}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-117
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

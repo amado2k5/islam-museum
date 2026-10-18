@@ -1,0 +1,30 @@
+id: person/abu-al-waqt-al-sijzi
+class: person
+label: { ar: "أبو الوقت السجزي" }
+names:
+  - { value: "مسند الدنيا أبو الوقت عبد الأول بن عيسى السجزي ثم الهروي الماليني الصوفي الزاهد", kind: full }
+summary:
+  ar: "مسند الدنيا أبو الوقت عبد الأول بن عيسى السجزي ثم الهروي الصوفي الزاهد؛ سمع الصحيح ومسند الدارمي وعبد بن حميد من جمال الإسلام الداودي سنة خمس وستين وأربعمائة وصحب شيخ الإسلام الأنصاري وخدمه وقدم بغداد فازدحم الخلق عليه وكان خيراً متواضعاً متودداً حسن السمت متين الديانة محباً للرواية؛ حمله أبوه من هراة إلى بوشنج فسمع صحيح البخاري وعزم على الحج فأصبح ميتاً وكان آخر كلمة قالها «يا ليت قومي يعلمون بما غفر لي ربي وجعلني من المكرمين»؛ توفي سادس ذي القعدة سنة ثلاث وخمسين وخمسمائة ببغداد وله خمس وتسعون سنة ودفن بالشونيزية وعُمر متى يُلحق الأصاغر بالأكابر {cite:shadharat-dhahab p. 646}."
+  en: "Musnid al-dunya Abu al-Waqt Abd al-Awwal ibn Isa al-Sijzi then of Herat, Sufi ascetic; he heard the Sahih and the Musnads of al-Darimi and Abd ibn Humayd from Jamal al-Islam al-Dawudi in 465, attended Shaykh al-Islam al-Ansari, and when he reached Baghdad the crowds pressed on him; his father carried him from Herat to Bushanj where he heard Sahih al-Bukhari — setting out for hajj he awoke dead, his last words 'would that my people knew how my Lord has forgiven me'; d. 6 Dhu al-Qa'da 553 at Baghdad aged ninety-five, buried at the Shuniziyya — 'he lived till the younger were joined to the elder' {cite:shadharat-dhahab p. 646}."
+gender: male
+wings: [people]
+roles: [scholar, sufi]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+died:
+  edtf: "1158-12~"
+  hijri: "0553-11"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي سادس ذي القعدة سنة ثلاث وخمسين وخمسمائة ببغداد وله خمس وتسعون سنة {cite:shadharat-dhahab p. 646}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-117
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

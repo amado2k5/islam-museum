@@ -1,0 +1,39 @@
+id: person/ibn-nasir-al-sulami
+class: person
+label: { ar: "ابن ناصر الحافظ" }
+names:
+  - { value: "أبو الفضل محمد بن ناصر بن محمد بن علي بن عمر السلامي البغدادي الحنبلي محدث العراق", kind: full }
+summary:
+  ar: "الحافظ الثقة أبو الفضل ابن ناصر محمد بن ناصر السلامي البغدادي محدث العراق؛ ولد سنة سبع وستين وأربعمائة وعني بالحديث بعد أن برع في الفقه وتحول من مذهب الشافعي إلى مذهب الحنابلة لمنام رأى فيه النبي وهو يقول له عليك بمذهب الشيخ أبي منصور الخياط، وكان الناس يقولون يخرج ابن ناصر لغوي بغداد وابن الجواليقي محدثها فانعكس الأمر فصار ابن ناصر محدث بغداد وابن الجواليقي لغويها؛ قال ابن الجوزي هو الذي تولى تسميعي الحديث وعنه أخذت ما أخذت من علم الحديث قرأت عليه ثلاثين سنة ولم أستفد من أحد كاستفادتي منه، وقال أبو موسى المديني هو مقدم أصحاب الحديث في وقته ببغداد، ووقف كتبه وخلف ثياباً خَلِقة وثلاثة دنانير ولم يعقب؛ توفي حوالي سنة خمسين وخمسمائة {cite:shadharat-dhahab p. 635-636}."
+  en: "The trustworthy hafiz Abu al-Fadl Ibn Nasir Muhammad ibn Nasir al-Sulami of Baghdad, muhaddith of Iraq; b. 467, he turned to hadith after excelling in fiqh and moved from the Shafi'i to the Hanbali madhhab on a dream in which the Prophet told him 'keep to the madhhab of Shaykh Abu Mansur al-Khayyat' — people used to say Ibn Nasir would emerge Baghdad's linguist and Ibn al-Jawaliqi its muhaddith, and it turned out the reverse; Ibn al-Jawzi: 'he it was who dictated hadith to me — I read to him thirty years and profited from none as from him', and Abu Musa al-Madini: 'foremost of Baghdad's hadith men of his time'; he endowed his books and left three dinars, no offspring; d. about 550 {cite:shadharat-dhahab p. 635-636}."
+gender: male
+wings: [people]
+roles: [scholar, teacher]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1074~"
+  hijri: "0467"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد سنة سبع وستين وأربعمائة {cite:shadharat-dhahab p. 635}؛ التحويل مشتق."
+died:
+  edtf: "1155~"
+  hijri: "0550"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ترجمته في أخبار سنة خمسين وخمسمائة {cite:shadharat-dhahab p. 635}؛ التحويل مشتق."
+relations:
+  - { type: teacher_of, target: person/ibn-al-jawzi, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-117
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
