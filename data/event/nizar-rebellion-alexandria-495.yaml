@@ -1,0 +1,28 @@
+id: event/nizar-rebellion-alexandria-495
+class: event
+kind: civil-war
+label: { ar: "خروج نزار بن المستنصر بالإسكندرية وقمعه سنة 495" }
+summary:
+  ar: "في أيام المستعلي بالله هرب أخوه نزار — الذي تنسب إليه الدعوة النزارية بقلعة آلموت — فدخل الإسكندرية فبايعه أمنها وساعده قاضيها ابن عمار ومتوليها أفتكين، فنازلهم الأفضل بن بدر الجمالي فبرز لحربه أفتكين فهزمه الأفضل ثم نازلهم ثانية فظفر بهم ورجع إلى القاهرة بأفتكين ونزار فذبح أفتكين وبنى على نزار حائطاً فهلك {cite:shadharat-dhahab p. 402}."
+  en: "In al-Musta'li's days his brother Nizar — namesake of the Nizari da'wa of Alamut — fled to Alexandria, whose people swore to him with the backing of its qadi Ibn Ammar and its governor Iftakin; al-Afdal b. Badr al-Jamali besieged them, beat Iftakin's sortie, then prevailed and carried both men back to Cairo, where Iftakin was slaughtered and Nizar was walled up and perished {cite:shadharat-dhahab p. 402}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1101~", hijri: "0495", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 495؛ التحويل مشتق {cite:shadharat-dhahab p. 402}." }
+sides:
+  - label: { ar: "نزار بن المستنصر وأهل الإسكندرية وقاضيها ومتوليها" }
+    commanders: [person/nizar-ibn-al-mustansir]
+  - label: { ar: "الأفضل بن بدر الجمالي أمير الجيوش" }
+    commanders: [person/al-malik-al-afdal-shahanshah]
+relations:
+  - { type: occurred_at, target: place/alexandria, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/nizar-ibn-al-mustansir, role: "صاحب الدعوة المخروج بها", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-afdal-shahanshah, role: "أمير الجيوش الظافر بالفتنة", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-110
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: event/muhammad-tapar-batiniyya-fort-500
+class: event
+kind: siege
+label: { ar: "أخذ السلطان محمد بن ملكشاه قلعة الباطنية بأصبهان وقتل ابن عطاش سنة 500" }
+summary:
+  ar: "في سنة خمسمائة غزا السلطان محمد بن ملكشاه الباطنية وأخذ قلعتهم بأصبهان وقتل صاحبها أحمد بن عبد الملك بن عطاش وكان قد تملكها اثنتي عشرة سنة، وهي من بناء ملكشاه بناها على رأس جبل وأنفق عليها مائتي ألف دينار {cite:shadharat-dhahab p. 410}."
+  en: "In 500 Sultan Muhammad b. Malikshah campaigned against the Batiniyya, took their fortress at Isfahan, and killed its master Ahmad b. Abd al-Malik b. Attash, who had held it twelve years; the castle, built by Malikshah atop a mountain for two hundred thousand dinars {cite:shadharat-dhahab p. 410}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1106~", hijri: "0500", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 500؛ التحويل مشتق {cite:shadharat-dhahab p. 410}." }
+sides:
+  - label: { ar: "السلطان محمد بن ملكشاه" }
+    commanders: [person/muhammad-tapar]
+  - label: { ar: "الباطنية بأصبهان" }
+    commanders: [person/ahmad-ibn-attash]
+relations:
+  - { type: occurred_at, target: place/isfahan, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/muhammad-tapar, role: "السلطان الغازي", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ahmad-ibn-attash, role: "صاحب القلعة قُتل", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-110
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,37 @@
+id: person/abu-al-mahasin-al-ruyani
+class: person
+label: { ar: "أبو المحاسن الروياني" }
+names:
+  - { value: "تاج الإسلام أبو المحاسن عبد الواحد بن إسماعيل الروياني", kind: full }
+summary:
+  ar: "شيخ الشافعية وشافعي وقته؛ قال ابن قاضي شهبة: كانت له الوجاهة والرياسة والقبول التام عند الملوك، وبرع في المذهب حتى كان يقول لو احترقت كتب الشافعي لأمليتها من حفظي، وولي قضاء طبرستان وبنى مدرسة بآمل؛ من تصانيفه البحر والكافي والحلية والمبتدي وحقيقة القولين والوجهين؛ استشهد بجامع آمل بعد فراغه من الإملاء يوم الجمعة حادي عشر المحرم سنة اثنتين وخمسمائة قتله باطني {cite:shadharat-dhahab p. 484}."
+  en: "Shaykh of the Shafi'is, 'the Shafi'i of his time' — he used to say that if al-Shafi'i's books burned he could dictate them from memory; qadi of Tabaristan who built a madrasa at Amol; martyred in Amol's mosque by a Batini just after dictation, Friday 11 Muharram 502 {cite:shadharat-dhahab p. 484}."
+gender: male
+wings: [people]
+roles: [scholar, jurist]
+periods: [period/buyid-seljuk-fatimid-era]
+born:
+  edtf: "1024~"
+  hijri: "0415-12"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد في ذي الحجة سنة خمس عشرة وأربعمائة {cite:shadharat-dhahab p. 484}؛ التحويل مشتق."
+died:
+  edtf: "1108-07"
+  hijri: "0502-01-11"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "استشهد بجامع آمل يوم الجمعة حادي عشر المحرم سنة اثنتين وخمسمائة على يد باطني {cite:shadharat-dhahab p. 484}؛ التحويل مشتق."
+relations:
+  - { type: participated_in, target: event/batiniyya-assassinations-502, role: "استشهد بجامع آمل وهو يملي", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-111
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
