@@ -62,3 +62,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 99 — سنة 457–463 (Alp Arslan consolidates, Nizam al-Mulk's rise).
 - Batch 99 (Devin): AH 454–455 — al-Quda'i (Egypt's judge-historian, d. Dhu al-Hijja 454 at Mansura) and Thamal b. Salih the Mirdasid (Byzantine victory at Artah); enriched Tughril Beg (d. Rayy Ramadan 455, buried by his brother's grave) and al-Mu'izz b. Badis (d. Sha'ban 454 of leprosy at 56 — and his famous forcing of the Maghreb onto Malikism). 2 new + 2 enriched.
 - Next: batch 100 — سنة 457–463 (the al-Mustansir famine window, Alp Arslan's campaigns).
+- Batch 100 (Devin): AH 457–460 — Ibn Sidah of Murcia (blind author of al-Muhkam, d. 16 Jumada II 458) and the great Palestine earthquake of 460 (15k dead at Ramla, the sea receding a day's march); enriched Abu Ya'la Ibn al-Farra' (19 Ramadan 458). 2 new + 1 prose + 1 enriched.
+- Next: batch 101 — سنة 461–465.
