@@ -1,0 +1,21 @@
+id: event/sinjar-flood-511
+class: event
+kind: other
+label: { ar: "سيل سنجار العظيم سنة 511" }
+summary:
+  ar: "في سنة إحدى عشرة وخمسمائة عرم سيل عظيم على سنجار هدم أسوارها وغرق خلق، وحمل باب البلد مسيرة نصف يوم وطمره السيل سنوات، وحمل السيل سريراً فيه طفل فعلق بزيتونة فعاش الطفل وكبر {cite:shadharat-dhahab p. 510}."
+  en: "In 511 a great flood burst upon Sinjar, razing its walls and drowning many; it carried the town gate half a day's journey and buried it for years, and swept away a baby on his bed until the bed snagged on an olive tree — the child lived and grew {cite:shadharat-dhahab p. 510}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1117~", hijri: "0511", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 511؛ التحويل مشتق {cite:shadharat-dhahab p. 510}." }
+relations:
+  - { type: occurred_at, target: place/sinjar, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-112
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

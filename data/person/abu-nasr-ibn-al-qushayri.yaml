@@ -12,7 +12,16 @@ relations:
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
-sources: [source/muntazam-ibn-al-jawzi]
+died:
+  edtf: "1120-09~"
+  hijri: "0514-06"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في جمادى الآخرة سنة أربع عشرة وخمسمائة وهو في عشر الثمانين وأصابه فالج في آخر عمره {cite:shadharat-dhahab p. 525}؛ التحويل مشتق."
+  sources: [source/shadharat-dhahab]
+sources: [source/muntazam-ibn-al-jawzi, source/shadharat-dhahab]
 provenance:
   layer: own-research
   source: "المنتظم — ابن الجوزي، مسح AAlexandrina-224011 (ج8)، ص 305-307"
