@@ -1,0 +1,21 @@
+id: event/astrologers-scare-582
+class: event
+kind: other
+label: { ar: "ذعر اجتماع الكواكب الستة في الميزان سنة 582" }
+summary:
+  ar: "قال العماد الكاتب: أجمع المنجمون في هذا العام في جميع البلاد على خراب العالم في شعبان عند اجتماع الكواكب الستة في الميزان بعلوفان الريح، وخوفوا بذلك الأعاجم والروم فشرعوا في حفر مغارات ونقلوا إليها الماء والزاد وتهيأوا، فلما كانت الليلة التي عينها المنجمون لم يَهُبَّ زبد عاد «وكنا جلوساً عند السلطان والشموع توقد فلا تتحرك، ولم نر ليلة مثل ركودها» {cite:shadharat-dhahab p. 753}."
+  en: "Al-Imad the chancery secretary records: in this year astrologers in every land agreed the world would be ruined in Sha'ban when the six planets conjoined in Libra, portending a wind like the wind of 'Ad. They frightened the Persians and the Byzantines, who dug caverns and stocked them with water and provisions. When the appointed night came — 'we were sitting with the sultan and the candles burned without stirring; we never saw a night so still' {cite:shadharat-dhahab p. 753}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1186~", hijri: "0582", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 582هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 753}." }
+relations:
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "السلطان الذي شهد العماد الليلة عنده", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-120
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
