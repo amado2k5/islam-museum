@@ -10,7 +10,7 @@ gender: male
 roles: [scholar]
 traditions: [sunni]
 born: { edtf: "1073", hijri: "0465", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-died: { edtf: "1145", hijri: "0540", calendar: julian, precision: year, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
+died: { edtf: "1145-06~", hijri: "0540-01", calendar: julian, precision: day, status: tradition, note: "توفي ضحوة يوم الأربعاء خامس عشر المحرم سنة أربعين وخمسمائة ودفن بمقبرة باب حرب {cite:shadharat-dhahab p. 605}؛ التحويل مشتق.", sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab] }
 summary:
   ar: "لغوي وأديب بغدادي، ولد ببغداد ونشأ بها، ونُسب إلى «الجواليق»، وهي كلمة فارسية معناها العدل، وتوفي سنة 540هـ (1145م)."
   en: "Baghdadi philologist and man of letters, born and raised in Baghdad, named after the Persian word jawaliq meaning justice; died 540 AH (1145 CE)."
@@ -20,6 +20,6 @@ periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
 story_roles:
   - { role: scholar, status: tradition, sources: [source/mawsuat-a3lam-ulama-adaba] }
-sources: [source/mawsuat-a3lam-ulama-adaba]
+sources: [source/mawsuat-a3lam-ulama-adaba, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin; Mawsuat A'lam vol 5 pp. 516-517, lib-mawsuat-a3lam" }
 provenance: { layer: own-research, source: "موسوعة أعلام العلماء والأدباء (أليكسو/دار الجيل 2004) ج5 ص516", generated_by: "Devin", model: "SWE-2 High", run: "lib-mawsuat-a3lam" }

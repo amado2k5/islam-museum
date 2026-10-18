@@ -12,9 +12,17 @@ roles: [philosopher]
 wings: [people]
 periods: [period/abbasid-fragmentation]
 regions: [andalus-europe]
+died:
+  edtf: "1138~"
+  hijri: "0533"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "أدرج ابن العماد ترجمته في أخبار سنة ثلاث وثلاثين وخمسمائة {cite:shadharat-dhahab p. 583}؛ توفي شاباً بفاس {cite:al-aalam p. 868}؛ التحويل مشتق."
 relations:
   - { type: died_in, target: place/fez, sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/shadharat-dhahab]
 provenance:
   layer: own-research
   source: "الأعلام لخير الدين الزركلي (ط2) — باب محمد، ص868"

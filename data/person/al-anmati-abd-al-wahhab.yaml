@@ -1,0 +1,39 @@
+id: person/al-anmati-abd-al-wahhab
+class: person
+label: { ar: "أبو البركات الأنماطي" }
+names:
+  - { value: "أبو البركات عبد الوهاب بن المبارك بن أحمد الأنماطي الحافظ الحنبلي", kind: full }
+summary:
+  ar: "الحافظ الحنبلي أبو البركات عبد الوهاب بن المبارك الأنماطي مفيد بغداد؛ ولد في رجب سنة اثنتين وستين وأربعمائة وسمع الكثير وكتب بخطه الكثير وسمع العالي والنازل حتى قرأ على ابن الطيوري جميع ما عنده؛ قال ابن ناصر كان بقية الشيوخ ثقة ولم يتزوج قط، وقال أبو موسى المديني هو حافظ عصره بغداد، وذكره تلميذه ابن الجوزي في كتبه وأثنى عليه وقال كنت أقرأ عليه الحديث وهو يبكي فاستفدت ببكائه أكثر من استفادتي بروايته، ولم يغتب أحداً ولا يُغتاب عنده أحد وكان سهلاً في إعارة الأجزاء؛ توفي يوم الخميس حادي عشر المحرم سنة ثمان وثلاثين وخمسمائة ودفن بالشونيزية مقبرة أبي القاسم الجنيد غربي بغداد {cite:shadharat-dhahab p. 596-597}."
+  en: "The Hanbali hafiz Abu al-Barakat Abd al-Wahhab ibn al-Mubarak al-Anmati, mufid of Baghdad; b. Rajab 462, he heard and wrote copiously till he read back to Ibn al-Tuyuri all that man had; Ibn Nasir calls him 'the remnant of the shaykhs' — he never married — and Abu Musa al-Madini 'the hafiz of Baghdad in his age'; his student Ibn al-Jawzi said 'I read hadith to him while he wept, and profited more from his weeping than from his transmission'; he never slandered nor suffered it in his hearing; d. Thursday 11 Muharram 538, buried at the Shuniziyya cemetery of Abu al-Qasim al-Junayd, western Baghdad {cite:shadharat-dhahab p. 596-597}."
+gender: male
+wings: [people]
+roles: [scholar, teacher]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1070-06~"
+  hijri: "0462-07"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "ولد في رجب سنة اثنتين وستين وأربعمائة {cite:shadharat-dhahab p. 596}؛ التحويل مشتق."
+died:
+  edtf: "1143-07~"
+  hijri: "0538-01"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي يوم الخميس حادي عشر المحرم سنة ثمان وثلاثين وخمسمائة ودفن بالشونيزية {cite:shadharat-dhahab p. 597}؛ التحويل مشتق."
+relations:
+  - { type: teacher_of, target: person/ibn-al-jawzi, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-115
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

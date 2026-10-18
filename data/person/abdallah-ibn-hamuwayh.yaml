@@ -1,0 +1,38 @@
+id: person/abdallah-ibn-hamuwayh
+class: person
+label: { ar: "عبد الله بن حمويه الجويني" }
+names:
+  - { value: "شيخ الشيوخ أبو القاسم عبد الله بن حمويه الجويني", kind: full }
+summary:
+  ar: "شيخ الشيوخ أبو القاسم عبد الله بن حمويه الجويني جد بني حمويه؛ رجل الصلاح والهدي، ثني عليه قداسة وسكينة وتديناً، كان عالماً بمعارف التصوف وأموره وأقوال القوم وشرائعهم من قبل ومن بعد، وكان ساعياً في الخير مطبخه عامراً بإطعام الفقراء والصوفية؛ مولده سنة تسع وأربعين وأربعمائة بجوين، وسمع من أبي سعيد الصفار وأبي محمد الجرجاني وعبد الغافر الفارسي وكان آخر من روى عنهم، وقال بن الزركوني بلغنا من رغبته في الدين أنه لما مرض خرج إلى خارج جامع البلد فقعد هناك فقال ما قيل لي بأن الجامع مسجد فليس لي بأن أتفل فيه؛ توفي في رمضان سنة ثلاثين وخمسمائة {cite:shadharat-dhahab p. 580-581}."
+  en: "Shaykh of the shaykhs Abu al-Qasim Abdallah ibn Hamuwayh of Juwayn, forefather of the Banu Hamuwayh; a man of piety and guidance, versed in the lore of Sufism — the community's sayings and laws, early and late — ever labouring in charity, his kitchen busy feeding the poor and the Sufis; b. 449 at Juwayn, he heard from Abu Sa'id al-Saffar, Abu Muhammad al-Jurjani and Abd al-Ghafir al-Farisi and was the last to transmit from them; so scrupulous that when ill he sat outside the mosque lest he spit within it; d. Ramadan 530 {cite:shadharat-dhahab p. 580-581}."
+gender: male
+wings: [people]
+roles: [sufi, scholar]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+born:
+  edtf: "1057~"
+  hijri: "0449"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "مولده سنة تسع وأربعين وأربعمائة بجوين {cite:shadharat-dhahab p. 580}؛ التحويل مشتق."
+died:
+  edtf: "1136-05~"
+  hijri: "0530-09"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في رمضان سنة ثلاثين وخمسمائة {cite:shadharat-dhahab p. 581}؛ التحويل مشتق."
+relations:
+  - { type: student_of, target: person/abd-al-ghafir-al-farisi, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-115
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,39 @@
+id: person/ibn-al-razzaz-said
+class: person
+label: { ar: "أبو منصور بن الرزاز" }
+names:
+  - { value: "أبو منصور سعيد بن محمد بن عمر بن الرزاز البغدادي", kind: full }
+summary:
+  ar: "أبو منصور ابن الرزاز سعيد بن محمد البغدادي شيخ الشافعية ومدرس النظامية؛ تفقه على الغزالي وأسعد الميهني والكيا الهراسي وأبي بكر الشاشي وأبي سعد المتولي، وروى عن رزق الله التميمي، وبرع وساد وصارت إليه رياسة المذهب وكان ذا سمت ووقار وجلالة؛ مولده سنة اثنتين وستين وأربعمائة وتوفي في ذي الحجة سنة تسع وثلاثين وخمسمائة ودفن بتربة الشيخ أبي إسحاق الشيرازي {cite:shadharat-dhahab p. 601-602}."
+  en: "Abu Mansur Ibn al-Razzaz Sa'id ibn Muhammad, shaykh of the Shafi'is and mudarris of the Nizamiyya; he read fiqh under al-Ghazali, As'ad al-Mayhani, al-Kiya al-Harasi, Abu Bakr al-Shashi and Abu Sa'd al-Mutawalli, excelled and led till the madhhab's headship fell to him — a man of bearing, gravity and majesty; b. 462, d. Dhu al-Hijja 539, buried in Shaykh Abu Ishaq al-Shirazi's turbah {cite:shadharat-dhahab p. 601-602}."
+gender: male
+wings: [people]
+roles: [jurist, scholar, teacher]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1069~"
+  hijri: "0462"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "مولده سنة اثنتين وستين وأربعمائة {cite:shadharat-dhahab p. 602}؛ التحويل مشتق."
+died:
+  edtf: "1145-06~"
+  hijri: "0539-12"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في ذي الحجة سنة تسع وثلاثين وخمسمائة ودفن بتربة أبي إسحاق الشيرازي {cite:shadharat-dhahab p. 602}؛ التحويل مشتق."
+relations:
+  - { type: student_of, target: person/al-ghazali-abu-hamid, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/asad-al-mayhani, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-115
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

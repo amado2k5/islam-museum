@@ -1,0 +1,30 @@
+id: person/ali-ibn-tirad-al-zaynabi
+class: person
+label: { ar: "علي بن طراد الزينبي" }
+names:
+  - { value: "الوزير الكبير أبو القاسم علي بن طراد الزينبي العباسي", kind: full }
+summary:
+  ar: "الوزير الكبير أبو القاسم علي بن طراد الزينبي؛ وزير المسترشد والمقتفي، سمع من عمه أبي نصر الزينبي وأبي القاسم بن البصري، وكان صدراً مهيباً نبيلاً كامل السؤدد بعيد الغور دقيق النظر ذا رأي ودهاء وإقدام، نهض بأعباء بيعة المقتفي وخلع الراشد في نهار واحد وكان الناس يتعجبون من ذلك؛ ولما تغير عليه المقتفي وهمّ بالقبض عليه احتمى بدار السلطان مسعود ثم خلص ولزم داره واشتغل بالعبادة والخير إلى أن مات في رمضان سنة ثمان وثلاثين وخمسمائة {cite:shadharat-dhahab p. 597}."
+  en: "The great wazir Abu al-Qasim Ali ibn Tirad al-Zaynabi, minister to al-Mustarshid and al-Muqtafi; a stately, deep-sighted, daring statesman who in a single day carried through al-Muqtafi's bay'a and al-Rashid's deposition — at which people marvelled; when al-Muqtafi turned on him and meant to seize him he took refuge in Sultan Mas'ud's palace, then withdrew to his house for worship and good works till he died in Ramadan 538 {cite:shadharat-dhahab p. 597}."
+gender: male
+wings: [people]
+roles: [vizier]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died:
+  edtf: "1144-02~"
+  hijri: "0538-09"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "مات في رمضان سنة ثمان وثلاثين وخمسمائة {cite:shadharat-dhahab p. 597}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-115
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

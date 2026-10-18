@@ -1,0 +1,30 @@
+id: person/al-badi-al-asturlabi
+class: person
+label: { ar: "البديع الأسترلابي" }
+names:
+  - { value: "هبة الله بن الحسن بن يوسف البديع الأسترلابي البغدادي", kind: full }
+summary:
+  ar: "هبة الله بن الحسن بن يوسف المعروف بالبديع الأسترلابي؛ صاحب الترجمة شاعراً مشهوراً وأحد الأدباء الفضلاء، وكان وحيد زمانه في عمل الآلات الفلكية متقناً لهذه الصناعة وحصل له من جهة عملها مال جزيل في خلافة المسترشد، وذكره العماد الكاتب في الخريدة وأثنى عليه وأورد له مقاطيع من شعره، وقال ابن خلّكان كان كثير الخلاعة ظريفاً في جميع حركاته؛ توفي بعلة الفالج سنة ثلاث وثلاثين وخمسمائة ودفن بمقبرة الوردية من بغداد {cite:shadharat-dhahab p. 583-584}."
+  en: "Hibatallah ibn al-Hasan, known as al-Badi' al-Asturlabi; a translator, famed poet and eminent littérateur, and the unique master of his age in making astronomical instruments — a craft that earned him a large fortune in al-Mustarshid's caliphate; al-Imad al-Katib praises him in the Kharida, and Ibn Khallikan calls him witty in all his movements though much given to ribaldry; d. of paralysis in 533, buried at Baghdad's Wardiyya cemetery {cite:shadharat-dhahab p. 583-584}."
+gender: male
+wings: [people]
+roles: [astronomer, engineer, poet]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+died:
+  edtf: "1138~"
+  hijri: "0533"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "توفي بعلة الفالج سنة ثلاث وثلاثين وخمسمائة ودفن بمقبرة الوردية {cite:shadharat-dhahab p. 584}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-115
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
