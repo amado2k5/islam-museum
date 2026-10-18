@@ -1,0 +1,24 @@
+id: event/abd-al-ghani-damascus-595
+class: event
+kind: persecution
+label: { ar: "فتنة الحافظ عبد الغني بدمشق سنة 595" }
+summary:
+  ar: "في سنة خمس وتسعين كانت بدمشق فتنة الحافظ عبد الغني الخطيب وكان صاحب مأثر معروف داعية إلى السنة، فقام عليه الأشعرية وأفتوا بقتله فأُخرج من دمشق طريداً {cite:shadharat-dhahab p. 799}."
+  en: "In 595 Damascus saw the fitna of the hafiz Abd al-Ghani the khatib — a man of known merits, a caller to the Sunna. The Ash'aris rose against him and licensed his killing, so he was driven out of Damascus, a fugitive {cite:shadharat-dhahab p. 799}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1199~", hijri: "0595", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 595هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 799}." }
+sides:
+  - label: { ar: "الحافظ عبد الغني الخطيب" }
+  - label: { ar: "الأشعرية بدمشق" }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-121
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
