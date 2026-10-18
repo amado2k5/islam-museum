@@ -51,8 +51,28 @@ jobs:
         run: npm ci && npm ci --prefix site
       - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
         run: npm run build
+        env:
+          # Pagefind indexes are uploaded to R2 and served from there.
+          # Set PAGEFIND_BASE_URL as a GitHub Actions variable to the R2 public URL.
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
       - name: No runtime AI or compute (guard)
         run: npm run check:static
+      - name: Upload pagefind indexes to R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          ENDPOINT="https://${ACCOUNT_ID}.r2.cloudflarestorage.com"
+          for dir in pagefind-ar pagefind-en pagefind-ur; do
+            aws s3 sync dist/$dir s3://islam-museum-search/$dir \
+              --endpoint-url "$ENDPOINT" \
+              --cache-control "public, max-age=31536000, immutable" \
+              --delete
+          done
+      - name: Strip pagefind from Pages deployment
+        run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur
       - name: Upload built site
         uses: actions/upload-artifact@v4
         with:
@@ -74,6 +94,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4"
           command: pages deploy dist --project-name=islam-museum
 
   # Pings IndexNow with the URLs changed in this push (scripts/indexnow.mjs), so
