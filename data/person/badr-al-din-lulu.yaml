@@ -2,7 +2,7 @@ id: person/badr-al-din-lulu
 class: person
 label: { ar: "بدر الدين لؤلؤ صاحب الموصل" }
 summary:
-  ar: "صاحب الموصل، ولما وصل أخبار التتر إلى الموصل بعد ملكهم مراغة سنة ثمان عشرة وستمائة خافه أهلها حتى همّ بعضهم بالجلاء، فسير جمعاً صالحاً من عسكره نجدة إلى مظفر الدين صاحب إربل وهمّ أن يحفظ المضايق الوعرة من جهة التتر، ووصلت كتب الخليفة ورسله إلى الموصل يأمرهم بالاستعداد {cite:kamil-ibn-al-athir p. 412}. وفي الشذرات استولى على الموصل سنة إحدى وعشرين وخنق ابن أستاذه محمود بن القاهر وزعم أنه مات {cite:shadharat-dhahab p. 95}."
+  ar: "صاحب الموصل، ولما وصل أخبار التتر إلى الموصل بعد ملكهم مراغة سنة ثمان عشرة وستمائة خافه أهلها حتى همّ بعضهم بالجلاء، فسير جمعاً صالحاً من عسكره نجدة إلى مظفر الدين صاحب إربل وهمّ أن يحفظ المضايق الوعرة من جهة التتر، ووصلت كتب الخليفة ورسله إلى الموصل يأمرهم بالاستعداد {cite:kamil-ibn-al-athir p. 412}. وفي الشذرات استولى على الموصل سنة إحدى وعشرين وخنق ابن أستاذه محمود بن القاهر وزعم أنه مات {cite:shadharat-dhahab p. 95}، وتسلطن رسمياً سنة إحدى وثلاثين وانقرض البيت الأتابكي {cite:shadharat-dhahab p. 143}."
 gender: male
 wings: [people]
 periods: [period/mongol-post-mongol]
@@ -14,5 +14,6 @@ provenance:
   run: lib-kamil-562-629-09
 relations:
   - { type: participated_in, target: event/lulu-takes-mosul-621, role: "المستولي", sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/zangid-house-ends-631, role: "المتسلطن", sources: [source/shadharat-dhahab] }
 sources: [source/kamil-ibn-al-athir, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

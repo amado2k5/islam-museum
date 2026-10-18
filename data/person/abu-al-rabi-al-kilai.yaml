@@ -1,8 +1,10 @@
 id: person/abu-al-rabi-al-kilai
 class: person
 label: { ar: "أبو الربيع الكلاعي" }
+aliases: [person/sulayman-al-kalai]
+born: { edtf: "1169~", hijri: "0565", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة خمس وستين وخمسمائة {cite:shadharat-dhahab p. 164}." }
 summary:
-  ar: "الحافظ أبو الربيع الكلاعي الأندلسي؛ قتل بوقعة أنيجة يوم الخميس لعشر بقين من ذي الحجة سنة 634هـ وكان متقدماً أمام الصفوف ينادي بالمنهزمين «أعن الجنة تفرون» حتى قتل صابراً محتسباً، وكان يقول إن منتهى عمره سبعون سنة لرؤيا رآها في صغره فكان كذلك، ورثاه تلميذه الحافظ ابن الأبار {cite:nafh-tib-maqqari p. 477}."
+  ar: "الحافظ أبو الربيع الكلاعي الأندلسي؛ قتل بوقعة أنيجة يوم الخميس لعشر بقين من ذي الحجة سنة 634هـ وكان متقدماً أمام الصفوف ينادي بالمنهزمين «أعن الجنة تفرون» حتى قتل صابراً محتسباً، وكان يقول إن منتهى عمره سبعون سنة لرؤيا رآها في صغره فكان كذلك، ورثاه تلميذه الحافظ ابن الأبار {cite:nafh-tib-maqqari p. 477}. وفي الشذرات: سليمان بن موسى بن سالم البلنسي، الحافظ الكبير الثقة صاحب التصانيف وبقية أعلام الأثر بالأندلس، سمع ابن زرقون وطبقته وكان بصيراً بالحديث عارفاً بالجرح والتعديل، لا نظير لخطه في الإتقان والضبط مع الاستبحار في الأدب والبلاغة، ولى خطابة بلنسية وكان المتكلم عن الملوك على المنبر؛ استشهد بكائنة بقرب بلنسية مقبلاً غير مدبر في ذي الحجة {cite:shadharat-dhahab p. 164}."
   en: "The Andalusi hafiz Abu'l-Rabi al-Kila'i, killed at Anija in 634 calling to the rout 'are you fleeing Paradise?', mourned by his pupil Ibn al-Abbar {cite:nafh-tib-maqqari p. 477}."
 wings: [people]
 periods: [period/mongol-post-mongol]
@@ -12,5 +14,5 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-14
-sources: [source/nafh-tib-maqqari]
+sources: [source/nafh-tib-maqqari, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
