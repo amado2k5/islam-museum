@@ -1,0 +1,35 @@
+id: person/al-malik-al-qahir-masud
+class: person
+label: { ar: "الملك القاهر مسعود" }
+summary:
+  ar: "صاحب الموصل السلطان الملك القاهر عز الدين أبو الفتح مسعود بن السلطان نور الدين أرسلان شاه بن مسعود الأتابكي الزنكي؛ ولد سنة تسعين وخمسمائة وتملك بعد أبيه وله سبع عشرة سنة وكان موصوفاً بالملاحة والعدل والسماحة؛ قيل إنه سُمّ ومات في ربيع الآخر سنة خمس عشرة وستمائة وله خمس وعشرون سنة وعظم على الرعية فقده؛ وولي بعده بعهد منه ولده نور الدين أرسلان شاه ويسمى أيضاً علياً وله عشر سنين فمات في أواخر السنة أيضاً {cite:shadharat-dhahab p. 62}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1194~"
+  hijri: "0590"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 590هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 62}."
+died:
+  edtf: "1218~"
+  hijri: "0615-04"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "ربيع الآخر 615هـ وله خمس وعشرون سنة وقيل سُمّ؛ التحويل مشتق {cite:shadharat-dhahab p. 62}."
+relations:
+  - { type: ruler_of, target: place/mosul, sources: [source/shadharat-dhahab] }
+  - { type: child_of, target: person/nur-al-din-arslan-shah, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/mosul, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

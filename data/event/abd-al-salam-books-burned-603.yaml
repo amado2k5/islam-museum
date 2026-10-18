@@ -1,0 +1,24 @@
+id: event/abd-al-salam-books-burned-603
+class: event
+kind: persecution
+label: { ar: "إحراق كتب عبد السلام بن عبد القادر الجيلي وتفسيقه سنة 603" }
+summary:
+  ar: "في سنة ثلاث وستمائة قبض الخليفة على الركني عبد السلام بن الشيخ عبد القادر الجيلي وأحرقت كتبه وحكم بفسقه — وهو الذي وشى على الشيخ أبي الفرج ابن الجوزي حتى نُكب {cite:shadharat-dhahab p. 16}. وفي ترجمته سنة إحدى عشرة أن الوزير ابن يونس لبَّث دارَه فأخرج منها لُتبّاً من كتب الفلاسفة ورسائل إخوان الصفا وكتب السحر والنارنجات وعبادة النجوم، وقُرئ فيها مخاطبة زحل «أيها الكوكب المضيء المنير أنت تدبر الأفلاك وتحيي وتميت وأنت إلهنا» فقال له ابن يونس هذا خطك قال نعم، فأُضرمت نار عظيمة تحت المسجد وقام أبو بكر بن المارستانية يقرأ الكتب كتاباً كتاباً ويلعن من كتبها ومن يعتقدها وعبد السلام حاضر، فتعدى اللعن إلى الشيخ عبد القادر بل إلى الإمام أحمد، ثم حكم القاضي بتفسيقه ورمى طيلسانه وأخرجت مدرسة جده من يده ومن يد أبيه عبد الوهاب وفُوضت إلى ابن الجوزي {cite:shadharat-dhahab p. 53-54}."
+  en: "In 603 the caliph arrested al-Rukn Abd al-Salam, son of Shaykh Abd al-Qadir al-Jilani; his books were burned and he was ruled a fasiq — the same man who had informed on Ibn al-Jawzi until the latter was ruined {cite:shadharat-dhahab p. 16}. His obituary under 611 gives the mechanism: the wazir Ibn Yunus sealed his house and extracted volumes of the philosophers, the Rasa'il Ikhwan al-Safa, books of sorcery, narang and star-worship; read aloud was an address to Saturn — 'O luminous planet, you direct the spheres, give life and death, you are our god' — and when Abd al-Salam owned the hand, a great fire was lit beneath the mosque, Abu Bakr Ibn al-Maristaniyya read the volumes out one by one with curses on their writer and believers, and the crowd's cursing ran on to Abd al-Qadir and even Imam Ahmad; the qadi then ruled him fasiq, cast off his taylasan, and his grandfather's madrasa was taken from his father Abd al-Wahhab and entrusted to Ibn al-Jawzi {cite:shadharat-dhahab p. 53-54}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1206~", hijri: "0603", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 603هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 16}." }
+sides:
+  - label: { ar: "الخليفة الناصر والوزير ابن يونس" }
+  - label: { ar: "عبد السلام بن عبد القادر الجيلي" }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-122
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,34 @@
+id: person/al-shaykh-al-imad
+class: person
+label: { ar: "الشيخ العماد" }
+summary:
+  ar: "الشيخ العماد أبو إسحاق إبراهيم بن عبد الواحد المقدسي الحنبلي أخو الحافظ عبد الغني؛ ولد بجماعيل سنة ثلاث وأربعين وخمسمائة وهاجر سنة إحدى وخمسين مع أقاربه وسمع ببغداد من شهدة وصالح بن الرحلة وبالموصل من خطيبها وحفظ الخرقي وغريب العزيزي وألقى الدروس وناظر وقرأ القراءات على أبي الحسن البطايحي وكان متصدياً لإقراء القرآن والفقه، ورعاً تقياً متواضعاً سمحاً مفضالاً صواماً قواماً صاحب أحوال وكرامات موصوفاً بطول الصلاة؛ قال الشيخ الموفق ما فارقته إلا أن يسافر فما عرفته أنه عصى الله معصية، وقال الضياء كان عالماً بالقرآن والنحو والفرائض وصنف «كتاب الفروق في المسائل الفقهية»؛ وكان يشغل بالجبل إذا كان الشيخ موفق الدين في المدينة فإذا صعد الموفق نزل هو فأشغل بالمدينة، وكان يشغل بجامع دمشق من الفجر إلى العشاء لا يخرج إلا لما لا بد له منه، وكان كثير الأمر بالمعروف والنهي عن المنكر خرج مرة إلى قوم من الفساق فكسّر ما معهم فضربوه ونالوا منه حتى غشي عليه فأراد الوالي ضرب الذين نالوا منه فقال إن تابوا ولزموا الصلاة فلا تؤذوهم وهم في حل من قبلي فتابوا؛ توفي ليلة الخميس سابع عشر ذي القعدة سنة أربع عشرة وستمائة فجأة، وأخرجت جنازته إلى جامع دمشق فما وسع الناس الجامع وصلى عليه الموفق بحلقة الحنابلة بعد جهد جهيد وكان يوماً لم يُر في الإسلام مثله فيما وصف سبط ابن الجوزي {cite:shadharat-dhahab p. 57-60}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1148~"
+  hijri: "0543"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 543هـ بجماعيل؛ التحويل مشتق {cite:shadharat-dhahab p. 57}."
+died:
+  edtf: "1218~"
+  hijri: "0614-11-17"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ليلة الخميس سابع عشر ذي القعدة 614هـ فجأة؛ التحويل مشتق {cite:shadharat-dhahab p. 60}."
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

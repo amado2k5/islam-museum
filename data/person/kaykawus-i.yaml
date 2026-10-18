@@ -1,0 +1,25 @@
+id: person/kaykawus-i
+class: person
+label: { ar: "كيكاوس الأول" }
+summary:
+  ar: "صاحب الروم الملك الغالب عز الدين كيكاوس بن كيخسرو بن قلج أرسلان السلجوقي؛ سلطان قونية وأقصراي وملطية وأخو السلطان علاء الدين كيقباد؛ ذكرت الشذرات أنه أخذ إنطاكية من الفرنج سنة اثنتي عشرة وستمائة — وإنطاكية بقيت في يد الفرنج إلى سنة ست وستين وستمائة فالظاهر التباس في اسم المدينة والأرجح أنها سينوب التي فتحها سنة إحدى عشرة وستمائة؛ كان في وصف ابن العماد ظلوماً غشوماً سفاكاً للدماء، قيل إنه مات فجأة مخموراً فأخرجوا أخاه علاء الدين وملّكوه بعده وذلك في شوال سنة خمس عشرة وستمائة {cite:shadharat-dhahab p. 49, 64}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+died:
+  edtf: "1219~"
+  hijri: "0615-08"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "شوال 615هـ مات فجأة مخموراً فيما ذكر ابن العماد عن العبر؛ التحويل مشتق {cite:shadharat-dhahab p. 64}."
+relations:
+  - { type: ruler_of, target: place/konya, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

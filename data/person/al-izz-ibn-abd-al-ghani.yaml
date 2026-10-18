@@ -1,0 +1,34 @@
+id: person/al-izz-ibn-abd-al-ghani
+class: person
+label: { ar: "العز بن عبد الغني" }
+summary:
+  ar: "العز محمد بن الحافظ عبد الغني بن عبد الواحد المقدسي الحافظ ابن الحافظ أبو الفتح؛ ولد سنة ست وستين وخمسمائة ورحل إلى بغداد وهو مراهق فسمع من ابن شامل وطبقته وسمع بدمشق وارتحل إلى أصبهان وكان موصوفاً بحسن القراءة وجودة الحفظ والفهم؛ قال الضياء كان حافظاً فقيهاً حنبلياً ذا فنون ثم وصفه بالديانة المتينة والمروءة التامة، وقال أبو شامة صحب الملك المعظم عيسى وسمع بقراءته الكثير وكان حافظاً ديناً زاهداً ورعاً؛ روى عنه ابنا تقي الدين أحمد وعز الدين عبد الرحمن والضياء والشهاب القوصي وشمس الدين عبد الرحمن بن أبي عمر وابن البخاري؛ توفي ليلة الاثنين تاسع عشر شوال سنة ثلاث عشرة وستمائة ودفن بسفح قاسيون، وقال الضياء كنا نقرأ عنده ليلة مات فرأيت على بطنه نوراً مثل السراج {cite:shadharat-dhahab p. 56-57}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1170~"
+  hijri: "0566"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 566هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 56}."
+died:
+  edtf: "1217~"
+  hijri: "0613-08-19"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ليلة الاثنين تاسع عشر شوال 613هـ ودفن بسفح قاسيون؛ التحويل مشتق {cite:shadharat-dhahab p. 57}."
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

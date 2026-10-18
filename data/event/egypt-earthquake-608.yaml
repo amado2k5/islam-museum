@@ -1,0 +1,21 @@
+id: event/egypt-earthquake-608
+class: event
+kind: other
+label: { ar: "زلزلة مصر الكبرى سنة 608" }
+summary:
+  ar: "في سنة ثمان وستمائة كانت زلزلة عظيمة بمصر هدمت دوراً كثيرة بالقاهرة ومات خلق كثير تحت الهدم {cite:shadharat-dhahab p. 40}."
+  en: "In 608 a great earthquake struck Egypt, razing many houses in Cairo and killing many beneath the ruins {cite:shadharat-dhahab p. 40}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1212~", hijri: "0608", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 608هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 40}." }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-122
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

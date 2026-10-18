@@ -1,0 +1,34 @@
+id: person/abdallah-al-yunini
+class: person
+label: { ar: "عبد الله اليونيني" }
+summary:
+  ar: "أبو عثمان عبد الله بن عبد العزيز بن جعفر اليونيني الزاهد الكبير «أسد الشام»؛ من قرية يونين من قرى بعلبك؛ كان شيخاً مهيباً طوالاً حاد الحال تام الشجاعة، آمِراً بالمعروف ناهياً عن المنكر كثير الجهاد دائم الذكر، منقطع القرين صاحب مجاهدات وكرامات؛ كان الأمير أمجد صاحب بعلبك يزوره فيهينه ويقول له «يا أمجد أنت تظلم»؛ قيل كان قوسه ثمانين رطلاً، وما قامت غزاة بالشام قط إلا حضرها؛ لما قدم حمص للغزاة أهدى إليه الملك المجاهد أسد الدين حصاناً فركبه ودخل في العدو فعمل العجائب؛ ولم يقم لأحد قط تعظيماً لله، ولم يدّخر ولا لمس يده ديناراً ولا درهماً، وما لبس إلا الثوب الخام وقلنسوة من جلود الغنم؛ توفي سنة سبع عشرة وستمائة يوم السبت بعد صلاة الجمعة نائماً والسبحة في يده وقد جاوز الثمانين، وقبره يزار ببعلبك {cite:shadharat-dhahab p. 73-75}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1140~"
+  hijri: "0535~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "توفي وقد تجاوز الثمانين سنة 617هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 75}."
+died:
+  edtf: "1220~"
+  hijri: "0617"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "توفي يوم السبت في عشر ذي الحجة سنة سبع عشرة وستمائة وقبره يزار ببعلبك؛ التحويل مشتق {cite:shadharat-dhahab p. 75}."
+relations:
+  - { type: lived_in, target: place/baalbek, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/baalbek, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

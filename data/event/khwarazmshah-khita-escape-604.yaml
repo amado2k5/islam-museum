@@ -1,0 +1,25 @@
+id: event/khwarazmshah-khita-escape-604
+class: event
+kind: other
+label: { ar: "هزيمة خوارزم شاه وأَسره عند الخطا وخلاصه سنة 604" }
+summary:
+  ar: "في سنة أربع وستمائة سار خوارزم شاه محمد بن تكش بجيوشه وقصد الخطا فحشدوا له والتقوه فانهزم المسلمون وأُسر جماعة منهم السلطان خوارزم شاه واختبطت البلاد، وأُسر معه أمير من أمرائه فأظهر خوارزم شاه أنه مملوك لذلك الأمير، فقال الأمير للخطائي أريد أن أبعث رجلاً بكتابي إلى أهلي ليستفدوني فبعث «مملوكه» — يعني خوارزم شاه — فخلص بهذه الحيلة ووصل؛ ثم قال الخطائي لذلك الأمير: سلطانكم قد عَدِم، قال: أو ما تعرفه؟ قال: لا، قال: هو الذي قلتُ لك إنه مملوكي، قال: ما عرفتني حتى كنت أخدمه وأسير به إلى مملكته فأُسعد به {cite:shadharat-dhahab p. 20}."
+  en: "In 604 Khwarazmshah Muhammad b. Tekish marched with his armies against the Khita, who mustered and met him; the Muslims were routed and a group captured — among them the sultan himself, and the land fell into disorder. An amir was taken with him; the Khwarazmshah passed himself off as that amir's mamluk, and when the amir asked to send a man with a letter home for his ransom, he sent his 'mamluk' — the Khwarazmshah — who escaped by the ruse and reached safety. The Khitai then told the amir: 'your sultan is gone'; 'do you not know him?' — 'no' — 'he is the one I told you was my mamluk'; 'he knew me not, yet I was his servant and rode to his kingdom with him, happy in him' {cite:shadharat-dhahab p. 20}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [persia-central-asia]
+date:
+  start: { edtf: "1207~", hijri: "0604", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 604هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 20}." }
+sides:
+  - label: { ar: "الخوارزميون" }
+    commanders: [person/muhammad-khwarazmshah]
+  - label: { ar: "الخطا" }
+relations:
+  - { type: had_participant, target: person/muhammad-khwarazmshah, role: "السلطان الأسير الهارب", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-122
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

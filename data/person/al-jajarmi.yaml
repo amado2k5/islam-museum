@@ -1,0 +1,26 @@
+id: person/al-jajarmi
+class: person
+label: { ar: "الجاجرمي" }
+summary:
+  ar: "الإمام معين الدين أبو حامد محمد بن إبراهيم الجاجرمي نسبة إلى جاجرم بلدة بين نيسابور وجرجان؛ الفقيه الشافعي مؤلف «الكفاية في الفقه»؛ قال ابن خلكان كان إماماً فاضلاً متقناً مبرزاً سكن نيسابور ودرّس وصنف في الفقه «الكفاية» وهو في غاية الإيجاز مع اشتماله على كثير من المسائل التي تقع في الفتاوى وهو في مجلد واحد، وله «إيضاح الوجيز» في مجلدين، وله طريقة مشهورة في الخلاف والفوائد المشهورة منسوبة إليه واشتغل عليه الناس وانتفعوا به وبكتبه من بعده خصوصاً القواعد فإن الناس أكبوا على الاشتغال بها؛ توفي بكرة نهار الجمعة عاشر رجب سنة ثلاث عشرة وستمائة بنيسابور {cite:shadharat-dhahab p. 56}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+died:
+  edtf: "1216~"
+  hijri: "0613-05-10"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "بكرة نهار الجمعة عاشر رجب 613هـ بنيسابور؛ التحويل مشتق {cite:shadharat-dhahab p. 56}."
+relations:
+  - { type: lived_in, target: place/nishapur, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/nishapur, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,38 @@
+id: person/abd-al-razzaq-ibn-abd-al-qadir
+class: person
+label: { ar: "عبد الرزاق ابن عبد القادر الجيلي" }
+names:
+  - { value: "عبد الرزاق بن الشيخ عبد القادر بن أبي صالح الحافظ الثقة الحنبلي أبو بكر الجيلي", kind: full }
+summary:
+  ar: "عبد الرزاق بن الشيخ عبد القادر الجيلي الحنبلي أبو بكر؛ ولد يوم الاثنين ثامن عشر ذي القعدة سنة ثمان وعشرين وخمسمائة ببغداد، أسمعه أبوه من أبي الفضل الأرموي وطبقته ثم سمع بنفسه، قال الضياء: ما رأيت ببغداد في تيقظه وتحريه مثله، وقال ابن نقطة كان حافظاً ثقة مأموناً، وقال ابن النجار كان حافظاً متقناً فقيهاً على مذهب أحمد ورعاً منقطعاً في منزله لا يخرج إلا في الجمعات محباً للرواية مكرماً لطلاب العلم عزيز النفس على منهاج السلف، وقال أبو شامة كان زاهداً عابداً لم يكن في أولاد الشيخ مثله ولم يدخل فيما دخل فيه غيره من إخوته؛ توفي ليلة السبت سادس شوال سنة ثلاث وستمائة وصلى عليه بمواضع متعددة وكان يوماً مشهوداً ودفن بمقبرة الإمام أحمد {cite:shadharat-dhahab p. 17-18}."
+  en: "Abd al-Razzaq, son of Shaykh Abd al-Qadir al-Jilani, Hanbali hafiz — b. Monday 18 Dhu al-Qa'da 528 in Baghdad, trained by his father then in his own right; al-Diya' saw none in Baghdad more wakeful and painstaking, Ibn Nuqta and Ibn al-Najjar call him trustworthy, exact, a jurist of Ahmad's madhhab, pious, secluded at home save for Fridays, generous to knowledge-seekers; Abu Shama: 'ascetic, devout — none of the shaykh's sons like him, and he never entered what his brothers entered.' He died Saturday night 6 Shawwal 603, prayed over at several places on a witnessed day, buried at Imam Ahmad's cemetery {cite:shadharat-dhahab p. 17-18}."
+gender: male
+wings: [people]
+roles: [scholar]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born:
+  edtf: "1134-10~"
+  hijri: "0528-11-18"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ولد يوم الاثنين ثامن عشر ذي القعدة سنة ثمان وعشرين ببغداد {cite:shadharat-dhahab p. 17-18}؛ التحويل مشتق."
+died:
+  edtf: "1206-05~"
+  hijri: "0603-10-06"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي ليلة السبت سادس شوال سنة ثلاث وستمائة ودفن بمقبرة الإمام أحمد {cite:shadharat-dhahab p. 18}؛ التحويل مشتق."
+relations:
+  - { type: child_of, target: person/abd-al-qadir-al-jilani, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-122
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

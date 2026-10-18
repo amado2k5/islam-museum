@@ -1,0 +1,25 @@
+id: person/ibn-shas-al-judhami
+class: person
+label: { ar: "ابن شاس" }
+summary:
+  ar: "العلامة جمال الدين أبو محمد عبد الله بن نجم بن شاس بن نزار الجذامي السعدي المصري؛ شيخ المالكية وصاحب كتاب «الجواهر الثمينة في مذهب عالم المدينة»؛ كان من كبار الأئمة العاملين، حج في أواخر عمره ورجع فامتنع من الفتيا إلى أن مات مجاهداً في سبيل الله في حدود رجب سنة ست عشرة وستمائة {cite:shadharat-dhahab p. 69}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+died:
+  edtf: "1219~"
+  hijri: "0616-05"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "في حدود رجب 616هـ مات مجاهداً؛ التحويل مشتق {cite:shadharat-dhahab p. 69}."
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
