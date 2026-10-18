@@ -1,0 +1,28 @@
+id: person/ibn-al-jinbali
+class: person
+label: { ar: "ابن الجنبلي", en: "Ibn al-Jinbali" }
+names:
+  - { value: "الناصح أبو الفرج عبد الرحمن بن نجم بن عبد الوهاب بن الشيخ أبي الفرج الجزري السعدي العبادي الشيرازي الأصل الدمشقي الحنبلي", kind: full }
+born: { edtf: "1159~", hijri: "0554", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد بدمشق ليلة الجمعة سابع عشر شوال سنة أربع وخمسين وخمسمائة {cite:shadharat-dhahab p. 165}." }
+died: { edtf: "1237", hijri: "0634", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم السبت ثالث المحرم سنة أربع وثلاثين بدمشق ودفن بتربتهم بسفح قاسيون {cite:shadharat-dhahab p. 166}." }
+summary:
+  ar: "الناصح بن الحنبلي المعروف بابن الجنبلي، الواعظ الفقيه؛ رحل إلى البلاد فسمع ببغداد من شهدة والسقلاطوني وبأصبهان من أبي موسى المديني وهو آخر من سمع منه في مرض موته، وبالموصل من أبي أحمد الحداد، وقدم مصر مرتين وتفقه على ابن المني وأبي البقاء العكبري وقرأ فصيح ثعلب من حفظه؛ وعظ من أوائل عمره وحصل له القبول التام ووعظ بمصر وحلب وأربل والمدينة وبيت المقدس وكانت له حرمة عند ملوك الشام بني أيوب وحضر فتح القدس مع صلاح الدين؛ وانتهت إليه رياسة المذهب بعد الشيخ موفق الدين ابن قدامة وكان يساميه في حياته، ووقع بينهما اختلاف في فتوى في السماع المحدث فرد الناصح مقالة الموفق؛ له كتاب أسباب الحديث في مجلدات وكتاب الاستسعاد بمن لقيت من صالحي العباد وكتاب الإنجاد في الجهاد وتاريخ الوعاظ {cite:shadharat-dhahab p. 164-166}."
+  en: "al-Nasih b. al-Hanbali, Ibn al-Jinbali (554–634) — Damascus's Hanbali preacher-in-chief after Muwaffaq al-Din Ibn Qudama, whom he answered in the famous sama' dispute; heard hadith from Baghdad to Isfahan, preached in Egypt, Aleppo, Arbil, Medina and Jerusalem, stood beside Salah al-Din at the conquest; author of Asbab al-Hadith and a Tarikh al-Wu'az {cite:shadharat-dhahab p. 164-166}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/ibn-al-jawzi, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 634)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

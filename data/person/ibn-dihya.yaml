@@ -1,0 +1,24 @@
+id: person/ibn-dihya
+class: person
+label: { ar: "ابن دحية", en: "Ibn Dihya" }
+names:
+  - { value: "أبو الخطاب عمر بن الحسن بن محمد الحميلي الكلبي الداني ثم السبتي", kind: full }
+born: { edtf: "1151~", hijri: "0546~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات وله سبع وثمانون سنة في 633 فولد نحو 546 {cite:shadharat-dhahab p. 161}." }
+died: { edtf: "1235", hijri: "0633", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في رابع عشر ربيع الأول سنة ثلاث وثلاثين وستمائة ودفن بالقاهرة {cite:shadharat-dhahab p. 161}." }
+summary:
+  ar: "العلامة الحافظ أبو الخطاب عمر بن الحسن، الظاهري المذهب؛ جال في مدن الأندلس والعدوة وحج في الكهولة وسمع بمصر من البوصيري وبالعراق مسند الإمام أحمد وبأصبهان معجم الطبراني وبنيسابور صحيح مسلم بعلو، وكان يقول إنه حفظ الصحيح كله؛ ضعفه جماعة وقال الذهبي ليس بالقوي وله دعاوى مدحضة، ونفق على الكامل فجعله شيخ دار الحديث بالقاهرة ثم انكشف حاله فأخذها منه وأهانه؛ ناظر الشيخ تاج الدين الكندي بدمشق فلامه على نسبه إلى دحية الكلبي لأن دحية ما أعقب بإجماع المحدثين؛ توفي بالقاهرة {cite:shadharat-dhahab p. 160-161}."
+  en: "Ibn Dihya (~546–633) — the roving Andalusi hafiz who claimed to have memorized Sahih Muslim entire; showered by al-Kamil with Egypt's dar al-hadith then stripped and shamed when his standing collapsed; Ibn Unayn lampooned his claim to descent from Dihya al-Kalbi, who left no progeny; died at Cairo {cite:shadharat-dhahab p. 160-161}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb, egypt-nile]
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 633)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

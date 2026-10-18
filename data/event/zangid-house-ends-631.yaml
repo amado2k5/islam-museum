@@ -1,0 +1,22 @@
+id: event/zangid-house-ends-631
+class: event
+kind: other
+label: { ar: "تسلطن بدر الدين لؤلؤ بالموصل وانقراض البيت الأتابكي سنة 631" }
+summary:
+  ar: "في سنة إحدى وثلاثين وستمائة تسلطن بدر الدين لؤلؤ بالموصل وانقرض البيت الأتابكي {cite:shadharat-dhahab p. 143}؛ وكان لؤلؤ قد استولى على البلد سنة إحدى وعشرين وخنق ابن أستاذه الملك القاهر فظل يدبر المملكة عشر سنين باسم الأتابكية حتى جلس للملك رسمياً وخطب له على المنابر."
+  en: "In 631 Badr al-Din Lu'lu' was formally sultan at Mosul and the Atabegid (Zangid) house was extinguished — ten years after he had seized the city in 621 and strangled his master's son, ruling meanwhile in the Atabegid name {cite:shadharat-dhahab p. 143}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1233~", hijri: "0631", calendar: julian, precision: year, status: tradition, derived: true, note: "631هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 143}.", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/badr-al-din-lulu, role: "المتسلطن", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 631)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

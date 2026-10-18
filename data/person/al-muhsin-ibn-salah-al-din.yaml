@@ -1,0 +1,23 @@
+id: person/al-muhsin-ibn-salah-al-din
+class: person
+label: { ar: "الملك المحسن بن صلاح الدين", en: "al-Malik al-Muhsin ibn Salah al-Din" }
+names:
+  - { value: "عين الدين أحمد بن السلطان صلاح الدين يوسف بن أيوب", kind: full }
+died: { edtf: "1237", hijri: "0634", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بحلب في المحرم سنة أربع وثلاثين وستمائة {cite:shadharat-dhahab p. 162}." }
+summary:
+  ar: "الملك المحسن عين الدين أحمد بن السلطان صلاح الدين؛ روى عن ابن صدقة الحراني والبوصيري وعني بالحديث أتم عناية وكتب الكثير، وكان متواضعاً متزهداً كثير الإفضال على المحدثين وفيه تشيع قليل؛ توفي بحلب في المحرم {cite:shadharat-dhahab p. 162}."
+  en: "Al-Malik al-Muhsin Ayn al-Din Ahmad (d. Muharram 634) — a son of Salah al-Din who turned hadith scholar: transmitted from Ibn Sadaqa al-Harrani and al-Busiri, wrote copiously, humble and ascetic, generous to the hadith folk, with a slight Shi'i leaning; died at Aleppo {cite:shadharat-dhahab p. 162}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+  - { type: child_of, target: person/salah-al-din-yusuf-ibn-ayyub, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 634)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

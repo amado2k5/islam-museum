@@ -1,0 +1,29 @@
+id: person/ibn-al-farid
+class: person
+label: { ar: "ابن الفارض", en: "Ibn al-Farid" }
+names:
+  - { value: "شرف الدين أبو القاسم عمر بن علي بن مرشد الحموي الأصل المصري", kind: full }
+born: { edtf: "1170~", hijri: "0566", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بمصر في ذي القعدة سنة ست وستين وخمسمائة {cite:shadharat-dhahab p. 149}." }
+died: { edtf: "1235", hijri: "0632", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الأولى سنة اثنتين وثلاثين وستمائة عن ست وخمسين سنة الأشهرا ودفن بالمقطم {cite:shadharat-dhahab p. 153}." }
+summary:
+  ar: "شاعر العشق الإلهي الملقب بسلطان العشاق وحجة أهل الوحدة وحامل لواء الشعراء؛ نشأ بمصر متعبداً يطوف في جبل المقطم وخرابات القرافة ثم انقطع بمكة نحو خمس عشرة سنة، وعاد فأقرأ ببقاعة الخطابة بالجامع الأزهر حتى كان الملك الكامل ينزل لزيارته؛ له الديوان المشهور الذي اعترف به الموافق والمخالف وفيه القصيدة التائية التي اعتنى بشرحها جماعة كالسراج الهندي والشمس البساطي والجلال القزويني والفرغاني والقاشاني والقيصري؛ قيل إن أحسن شعره القصيدة الفائية «قلبي يحدثني بأنك متلفي»، وتوفي بمصر ودفن بالمقطم {cite:shadharat-dhahab p. 149-153}."
+  en: "Umar b. Ali Ibn al-Farid (566–632) — 'sultan of the lovers,' Egypt's supreme mystical poet; years of solitude at the Muqattam and a fifteen-year retreat at Mecca, then teaching at the Azhar's khitaba hall where even al-Kamil visited him; his diwan crowned by the Ta'iyya, commented on by the Siraj al-Hindi, al-Bisati, al-Qazwini, al-Farghani, al-Kashani and al-Qaysari; buried at the Muqattam {cite:shadharat-dhahab p. 149-153}."
+gender: male
+roles: [poet, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, arabia]
+faith:
+  - value: sufi
+    basis: tradition
+    note: "شيخ العارفين عند أهل الطريق؛ اختُلف في شأنه وأمثاله من الإنكار إلى التعظيم {cite:shadharat-dhahab p. 152}."
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/mecca, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 632)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125
