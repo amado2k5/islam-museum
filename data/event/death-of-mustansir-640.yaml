@@ -1,0 +1,23 @@
+id: event/death-of-mustansir-640
+class: event
+kind: death
+label: { ar: "وفاة الخليفة المستنصر بالله وبيعة المستعصم سنة 640" }
+summary:
+  ar: "توفي الخليفة أبو جعفر المستنصر بالله منصور بن الظاهر بكرة يوم الجمعة عاشر جمادى الآخرة سنة أربعين وستمائة، وحزن الناس عليه حزناً عظيماً، وبُويع لولده عبد الله المستعصم بالله {cite:shadharat-dhahab p. 209} {cite:tarikh-khulafa-minhaj-1434 p. 705-706}."
+  en: "Caliph al-Mustansir Billah died Friday morning, 10 Jumada II 640; the people mourned greatly and his son Abdallah al-Musta'sim was proclaimed {cite:shadharat-dhahab p. 209} {cite:tarikh-khulafa-minhaj-1434 p. 705-706}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1242-12-08", hijri: "0640-06-10", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الجمعة عاشر جمادى الآخرة 640هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 209}.", sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434] }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-mustansir-billah, role: "المتوفى", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-mustasim-billah, role: "المبويع خليفة", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab, source/tarikh-khulafa-minhaj-1434]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 640)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

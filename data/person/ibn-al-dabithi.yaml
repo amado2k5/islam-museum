@@ -1,0 +1,27 @@
+id: person/ibn-al-dabithi
+class: person
+label: { ar: "ابن الدبيثي الواسطي", en: "Ibn al-Dabithi al-Wasiti" }
+names:
+  - { value: "الحافظ المؤرخ أبو عبد الله محمد بن سعيد بن يحيى الواسطي الشافعي", kind: full }
+born: { edtf: "1163", hijri: "0558", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ثمان وخمسين وخمسمائة {cite:shadharat-dhahab p. 185}." }
+died: { edtf: "1239", hijri: "0637-04-08", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في ثامن ربيع الآخر ببغداد سنة سبع وثلاثين وستمائة {cite:shadharat-dhahab p. 186}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "الحافظ المؤرخ المقريء، نسبة إلى دبيثا قرية بواسط؛ سمع من أبي طالب الكناني وابن شاتيل وعبد المنعم بن الفراوي وطبقتهم، وتفقه على أبي الحسن بن البوقي وأتقن العربية وتقدم وساد، وعلق الأصول والخلاف وعُني بالحديث ورجاله، وصنّف كتاباً في تاريخ واسط وذيلاً على ذيل ابن السمعاني وأسمعهما؛ قال الحافظ ضياء الدين المقدسي «هو شيخي وهو آخر الحفاظ المكثرين، ما رأت عيناي مثله في حفظ التواريخ والسير وأيام الناس»، وأضرّ في آخر عمره {cite:shadharat-dhahab p. 185-186}."
+  en: "Ibn al-Dabithi (b. 558, d. 8 Rabi' II 637, Baghdad) — Wasit's historian: a Tarikh Wasit and a continuation to Ibn al-Sam'ani's Dhayl; al-Diya' al-Maqdisi called him 'my shaykh, the last of the great memorizers of histories' {cite:shadharat-dhahab p. 185-186}."
+gender: male
+roles: [scholar, historian]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 637)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126
