@@ -1,0 +1,36 @@
+id: person/ibn-kulayb
+class: person
+label: { ar: "ابن كليب" }
+names:
+  - { value: "مسند العراق أبو الفرج عبد المنعم بن عبد الوهاب بن سعد الحراني ثم البغدادي الحنبلي التاجر", kind: full }
+summary:
+  ar: "ابن كليب مسند العراق أبو الفرج عبد المنعم بن عبد الوهاب بن سعد الحراني ثم البغدادي الحنبلي التاجر؛ ولد في صفر سنة خمسمائة وسمع من ابن بيان وابن نبهان وابن زيدان الحلواني وطائفة؛ مات في ربيع الأول سنة ست وتسعين وخمسمائة ممتعاً بحواسه {cite:shadharat-dhahab p. 807}."
+  en: "Ibn Kulayb, musnid of Iraq — Abu al-Faraj Abd al-Mun'im b. Abd al-Wahhab b. Sa'd al-Harrani then Baghdadi, Hanbali and merchant; b. Safar 500, heard from Ibn Bayan, Ibn Nabhan, Ibn Zaydan al-Halwani and others; he died in Rabi' I 596 in full possession of his faculties {cite:shadharat-dhahab p. 807}."
+gender: male
+wings: [people]
+roles: [scholar]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born:
+  edtf: "1106-09~"
+  hijri: "0500-02"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "ولد في صفر سنة خمسمائة {cite:shadharat-dhahab p. 807}؛ التحويل مشتق."
+died:
+  edtf: "1200-01~"
+  hijri: "0596-03"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "مات في ربيع الأول سنة ست وتسعين {cite:shadharat-dhahab p. 807}؛ التحويل مشتق."
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-121
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

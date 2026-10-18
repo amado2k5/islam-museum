@@ -8,6 +8,8 @@ summary:
   ar: "أبو بكر محمد بن عبد الملك بن زهر الإيادي، من نوابغ الطب والأدب في الأندلس؛ ولد بإشبيلية وخدم دولتي الملثمين والموحدين، ولم يكن في زمنه أعلم منه بصناعة الطب وقد أخذها عن أبيه وعُرف بالحفيد ابن زهر، له «الترياق» في الطب وشعر رقيق وموشحات أجاد نظمها في عصره، توفي بمراكش {cite:al-aalam p. 937}."
   en: "Abu Bakr Muhammad ibn Abd al-Malik ibn Zuhr of Seville, among the foremost physicians and men of letters in al-Andalus; he served the Almoravid and Almohad states and had no equal in medicine in his day, having learnt it from his father — hence 'Ibn Zuhr the grandson'; he died at Marrakesh {cite:al-aalam p. 937}."
 roles: [physician]
+born: { edtf: "1113~", hijri: "0507", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة سبع وخمسمائة {cite:shadharat-dhahab p. 800}؛ التحويل مشتق.", sources: [source/shadharat-dhahab] }
+died: { edtf: "1199-11~", hijri: "0595-12", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بمراكش في ذي الحجة سنة خمس وتسعين؛ شيخ الطب وجالينوس عصره، قيل إنه حفظ صحيح البخاري كله {cite:shadharat-dhahab p. 800}؛ التحويل مشتق.", sources: [source/shadharat-dhahab] }
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, maghreb]
@@ -16,7 +18,7 @@ relations:
   - { type: died_in, target: place/marrakesh, sources: [source/al-aalam] }
   - { type: related_to, target: polity/almoravid-dynasty, note: "خدم دولتهم", sources: [source/al-aalam] }
   - { type: related_to, target: polity/almohad-caliphate, note: "خدم دولتهم", sources: [source/al-aalam] }
-sources: [source/al-aalam]
+sources: [source/al-aalam, source/shadharat-dhahab]
 provenance:
   layer: own-research
   source: "الأعلام لخير الدين الزركلي (ط2) — باب محمد، ص937"

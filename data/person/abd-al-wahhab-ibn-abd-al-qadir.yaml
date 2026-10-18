@@ -1,0 +1,38 @@
+id: person/abd-al-wahhab-ibn-abd-al-qadir
+class: person
+label: { ar: "عبد الوهاب ابن عبد القادر الجيلي" }
+names:
+  - { value: "أبو محمد عبد الوهاب بن الشيخ عبد القادر بن أبي صالح الجيلي البغدادي الحنبلي الواعظ", kind: full }
+summary:
+  ar: "أبو محمد عبد الوهاب بن الشيخ عبد القادر الجيلي البغدادي الحنبلي الواعظ؛ ولد في ثاني شعبان سنة اثنتين وعشرين وخمسمائة، وأسمعه والده في صباه، وقرأ الفقه على والده حتى برع، ودرس نيابة عن والده بمدرسته وهو حي وقد نيف على العشرين من عمره، ثم استقل بالتدريس بها بعده، وتولى المظالم للناصر سنة ثلاث وثمانين؛ وكان كيساً ظريفاً من ظرفاء بغداد ولم يكن في أولاد أبيه أفقه منه، فصيحاً في الوعظ وإيراد الملح، ذا مزح ودعابة وكياسة، قيل له يوماً على مجلس وعظه ما تقول في أهل البيت فقال قد أعموني — وكان أعمش — أجاب عن بيت نفسه؛ توفي ليلة الأربعاء خامس عشري شوال سنة ثلاث وتسعين وخمسمائة {cite:shadharat-dhahab p. 794}."
+  en: "Abu Muhammad Abd al-Wahhab, son of Shaykh Abd al-Qadir al-Jilani, the Baghdadi Hanbali preacher; b. 2 Sha'ban 522, trained under his father till he excelled, lecturing as his deputy at the madrasa from twenty-odd, then independently after him, and held the mazalim office for al-Nasir in 583. Clever, graceful, one of Baghdad's wits — none of his father's sons was more learned in fiqh; eloquent in preaching with a taste for jest. Once asked in his session 'what say you of the Prophet's house?' he answered 'they have blinded me' — being himself weak-eyed — answering for his own house. He died Wednesday night 15 Shawwal 593 {cite:shadharat-dhahab p. 794}."
+gender: male
+wings: [people]
+roles: [scholar, preacher]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born:
+  edtf: "1128-07~"
+  hijri: "0522-07-02"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ولد في ثاني شعبان سنة اثنتين وعشرين {cite:shadharat-dhahab p. 794}؛ التحويل مشتق."
+died:
+  edtf: "1197-09~"
+  hijri: "0593-10-15"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي ليلة الأربعاء خامس عشري شوال سنة ثلاث وتسعين {cite:shadharat-dhahab p. 794}؛ التحويل مشتق."
+relations:
+  - { type: child_of, target: person/abd-al-qadir-al-jilani, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-121
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

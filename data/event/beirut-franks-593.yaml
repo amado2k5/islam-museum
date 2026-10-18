@@ -1,0 +1,24 @@
+id: event/beirut-franks-593
+class: event
+kind: conquest
+label: { ar: "أخذ الفرنج بيروت من المسلمين سنة 593" }
+summary:
+  ar: "في سنة ثلاث وتسعين أخذت الفرنج من المسلمين بيروت وهرب أميرها عز الدين شامة إلى صيدا {cite:shadharat-dhahab p. 791}."
+  en: "In 593 the Franks took Beirut back from the Muslims; its amir Izz al-Din Shama fled to Sidon {cite:shadharat-dhahab p. 791}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1197~", hijri: "0593", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 593هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 791}." }
+sides:
+  - label: { ar: "الفرنج" }
+  - label: { ar: "أمير بيروت عز الدين شامة" }
+relations:
+  - { type: occurred_at, target: place/bayrut, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-121
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
