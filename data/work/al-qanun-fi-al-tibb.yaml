@@ -1,0 +1,26 @@
+id: work/al-qanun-fi-al-tibb
+class: work
+kind: book
+label: { ar: "القانون في الطب", en: "The Canon of Medicine" }
+summary:
+  ar: "موسوعة ابن سينا في الطب. يبدأ كتابها الأول بالأمور الكلية في علم الطب، في أربعة فنون: حدّ الطب وموضوعاته، والأركان، والأمزجة، والأخلاط، والأعضاء، والقوى والأفعال. ويبدأ كتابها الثاني بالأدوية المفردة {cite:canon-ibn-sina-print p.2} {cite:canon-ibn-sina-print p.232}."
+  en: "Ibn Sina's encyclopaedia of medicine. Its first book sets out the general principles of medicine in four sections; the first covers the definition and subject of medicine, the elements, temperaments, humours, organs, and powers and actions. Its second book opens with simple drugs {cite:canon-ibn-sina-print p.2} {cite:canon-ibn-sina-print p.232}."
+genre: [medicine]
+made: { by_muslims: true, basis: documented, sources: [source/canon-ibn-sina-print] }
+disciplines: [concept/medicine]
+authors: [person/ibn-sina]
+language: language/arabic
+structure: "الكتاب الأول: الأمور الكلية في علم الطب، أربعة فنون؛ الفن الأول من p.2، والثاني من p.77، والثالث من p.158، والرابع من p.197. الكتاب الثاني: الأدوية المفردة من p.232. الكتاب الثالث يبدأ في p.543. الكتب الرابع والخامس لم تُحدَّد صفحاتها بعد في الأجزاء المقروءة."
+editions: ["Arabic printed edition, publisher and date not verified (see source/canon-ibn-sina-print)"]
+wings: []
+themes: [medicine]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia]
+sources: [source/canon-ibn-sina-print]
+provenance:
+  layer: own-research
+  source: "Canon of Medicine, Arabic printed edition (digital copy), scan pages 2 to 18, 69, 232, 543 (headings only)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: lib-exp-medicine-science-canon-batch-1
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion); structure from OCR headings" }
