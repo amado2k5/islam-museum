@@ -1,0 +1,21 @@
+id: event/patriarchs-tombs-revealed-513
+class: event
+kind: other
+label: { ar: "ظهور قبور إبراهيم وإسحاق ويعقوب سنة 513" }
+summary:
+  ar: "في سنة ثلاث عشرة وخمسمائة ظهر قبر إبراهيم خليل الله وإسحاق ويعقوب ورآهم جماعة لم تبل أجسادهم، وعندهم في تلك المغارة قناديل من ذهب وفضة؛ رواية حمزة بن القلانسي في تاريخه {cite:shadharat-dhahab p. 515}."
+  en: "In 513 the tombs of Ibrahim, Ishaq and Ya'qub were uncovered — people saw them with their bodies undecayed, and in the cave were lamps of gold and silver; the report of Hamza b. al-Qalanisi in his history {cite:shadharat-dhahab p. 515}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1119~", hijri: "0513", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 513؛ التحويل مشتق {cite:shadharat-dhahab p. 515}." }
+relations:
+  - { type: occurred_at, target: place/al-khalil, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-112
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
