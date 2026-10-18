@@ -1,0 +1,28 @@
+id: person/al-rasani
+class: person
+label: { ar: "الرأسعيني", en: "al-Ras'ani" }
+names:
+  - { value: "الرأسعيني العلامة عز الدين عبد الرزاق بن رزق الله بن أبي بكر المحدث المفسر الحنبلي", kind: full }
+born: { edtf: "1193", hijri: "0589", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة تسع وثمانين وخمسمائة برأس عين الخابور {cite:shadharat-dhahab p. 529-530}." }
+died: { edtf: "1263-03~", hijri: "0661-04-12~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بسنجار ليلة الجمعة ثاني عشر ربيع الآخر قاله الذهبي {cite:shadharat-dhahab p. 530}." }
+summary:
+  ar: "المحدث المفسر الحنبلي؛ سمع بدمشق من الكندي وببغداد من ابن منينا وصنف تفسيراً جيداً، وكان شيخ الجزيرة في زمانه علماً وفضلاً وجلالةً؛ قال ابن رجب: تفقه على الشيخ موفق الدين وحفظ كتابه المقنع وتفنن في العلوم العقلية والنقلية، وعده الذهبي من الحفاظ، وولي مشيخة دار الحديث بالموصل وكانت له حرمة وافرة عند صاحب الموصل وغيره من ملوك الجزيرة، وصنف تفسيراً حسناً في أربع مجلدات ضخمة سماه «رموز الكنوز»، وكتاب «مصرع الحسين» ألزمه بتصنيفه صاحب الموصل فكتب فيه ما صح من المقتل دون غيره، وكان متمسكاً بالسنة والآثار وله نظم حسن {cite:shadharat-dhahab p. 529-530}."
+  en: "'Shaykh of the Jazira in his time' — Ibn Rajab: Ibn Qudama's pupil, counted by Dhahabi among the huffaz, shaykh of Mosul's dar al-hadith; his four-volume tafsir Rumuz al-Kunuz and his Masra' al-Husayn (commissioned by Mosul's ruler, containing only what is sound of the martyrdom account); d. Sinjar night of Friday 12 Rabi' II 661 {cite:shadharat-dhahab p. 529-530}."
+gender: male
+roles: [scholar, muhaddith, mufassir]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/ibn-qudama-al-maqdisi, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/mosul, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 661)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131

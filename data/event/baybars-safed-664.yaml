@@ -1,0 +1,24 @@
+id: event/baybars-safed-664
+class: event
+kind: conquest
+label: { ar: "أخذ بيبرس صفد سنة 664هـ", en: "Baybars takes Safed, 664" }
+summary:
+  ar: "غزا الملك الظاهر سنة أربع وستين وبث جيوشه بالسواحل فأغاروا على بلاد عكا وصور وطرابلس وحصن الأكراد، ثم نزل على صفد في ثامن رمضان وأخذت في أربعين يوماً بخديعة ثم ضربت رقاب مائتين من فرسانهم، وقد استشهد عليها خلق كثير {cite:shadharat-dhahab p. 546}."
+  en: "Baybars's coastal campaign of 664 — his columns raided Acre, Tyre, Tripoli and Hisn al-Akrad, then he sat down before Safed on 8 Ramadan; the great Templar fortress was tricked into surrender in forty days, two hundred of its knights were beheaded, and many of the besiegers fell martyred beneath it {cite:shadharat-dhahab p. 546}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "المسلمون — جيش الملك الظاهر بيبرس" }
+  - label: { ar: "الفرنج — حامية صفد" }
+map: { kind: siege, precision: locality, center: [32.9648, 35.4953] }
+date: { start: { edtf: "1266-06~", hijri: "0664-08-08~", calendar: julian, precision: day, status: tradition, derived: true, note: "نزل على صفد في ثامن رمضان سنة أربع وستين وأخذت في أربعين يوماً {cite:shadharat-dhahab p. 546}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: had_participant, target: person/baybars, role: "الفاتح", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 664)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
