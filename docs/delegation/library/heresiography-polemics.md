@@ -22,7 +22,40 @@ None recorded yet. Pre-check counts (18 Oct 2026, `grep -ril` over `data/`) are 
 
 ## Downloads
 
-None yet.
+Pre-download record. Each file is named by its archive.org identifier; the titles were checked only by the fetcher's token match, so each one must be confirmed against the book before OCR.
+
+### milal-nihal-shahrastani
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get AAlexandrina-150817  0.04 GiB  150817 - الملل والنحل
+- would get AAlexandrina-214563  0.01 GiB  214563 - كتاب الملل والنحل
+
+### fisal-ibn-hazm
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get 20211016_20211016_0215  0.01 GiB  الفصل في الملل والأهواء والنحل
+- would get AAlexandrina-150032  0.03 GiB  150032_الفصل_فى_الملل_والاهواء_والنحل
+
+### talbis-iblis-ibn-jawzi
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get noor-book.com_20260811  0.02 GiB  تلبيس إبليس
+- would get AAlexandrina-142479  0.05 GiB  142479 - تلبيس ابليس
+
+### farq-bayn-firaq-baghdadi
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get AAlexandrina-155048  0.03 GiB  155048 - الفرق بين الفرق
+- would get 1492Pdf_201812  0.01 GiB  1492 الفرق بين الفرق البغدادي Pdf
+
+
+## Duplicates skipped (canon)
+
+- Duplicate skipped: `fisal-ibn-hazm` is already in the canon (`books.yaml`, Ibn Hazm entry); no second entry added.
 
 ## Next step
 
