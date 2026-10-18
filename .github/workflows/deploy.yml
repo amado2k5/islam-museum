@@ -57,7 +57,7 @@ jobs:
           PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
       - name: No runtime AI or compute (guard)
         run: npm run check:static
-      - name: Upload pagefind indexes to R2
+      - name: Upload pagefind indexes and API to R2
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
@@ -65,14 +65,27 @@ jobs:
           ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           ENDPOINT="https://${ACCOUNT_ID}.r2.cloudflarestorage.com"
+          # --checksum-algorithm sha256 stores a SHA-256 with each object so
+          # subsequent syncs skip files whose content has not changed.
+          # Note: existing objects without a stored SHA-256 are re-uploaded once
+          # on the first run after this flag was added; every run after is incremental.
           for dir in pagefind-ar pagefind-en pagefind-ur; do
             aws s3 sync dist/$dir s3://islam-museum-search/$dir \
               --endpoint-url "$ENDPOINT" \
               --cache-control "public, max-age=31536000, immutable" \
+              --checksum-algorithm sha256 \
               --delete
           done
-      - name: Strip pagefind from Pages deployment
-        run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur
+          # API JSON: served via a transparent proxy rule in _redirects.
+          # Short TTL so stale entries refresh; stale-while-revalidate keeps
+          # responses fast while a fresh copy is fetched in the background.
+          aws s3 sync dist/api s3://islam-museum-search/api \
+            --endpoint-url "$ENDPOINT" \
+            --cache-control "public, max-age=3600, stale-while-revalidate=86400" \
+            --checksum-algorithm sha256 \
+            --delete
+      - name: Strip R2-served dirs from Pages deployment
+        run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api
       - name: Upload built site
         uses: actions/upload-artifact@v4
         with:
