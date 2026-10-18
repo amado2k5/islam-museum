@@ -1,0 +1,21 @@
+id: event/dar-sultana-fire-515
+class: event
+kind: other
+label: { ar: "احتراق دار السلطنة ببغداد سنة 515" }
+summary:
+  ar: "في سنة خمس عشرة وخمسمائة احترقت دار السلطنة ببغداد وذهب ما قيمته ألف ألف دينار {cite:shadharat-dhahab p. 527}."
+  en: "In 515 Baghdad's Dar al-Sultana burned, with losses valued at a million dinars {cite:shadharat-dhahab p. 527}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1121~", hijri: "0515", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 515؛ التحويل مشتق {cite:shadharat-dhahab p. 527}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-113
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

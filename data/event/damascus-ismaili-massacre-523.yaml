@@ -1,0 +1,25 @@
+id: event/damascus-ismaili-massacre-523
+class: event
+kind: massacre
+label: { ar: "مقتلة الإسماعيلية بدمشق سنة 523" }
+summary:
+  ar: "في سنة ثلاث وعشرين وخمسمائة قتل بدمشق نحو ستة آلاف ممن كان يُرمى بعقيدة الإسماعيلية؛ وكان بهرام الأستراباذي قد دخل الشام فأضمر خلقاً فولاه طغتكين بانياس، وأقام لبهرام داعية بدمشق فتكاثر أتباعه وملكوا حصوناً بالشام منها القدموس، وسُلّم أمان بانياس للفرنج {cite:shadharat-dhahab p. 546}."
+  en: "In 523 about six thousand people accused of Ismaili allegiance were killed at Damascus; Bahram al-Astarabadhi had entered Syria gathering followers, Tughtigin granted him Banyas, his da'i drew a large Damascus following, and they held Syrian fortresses including Qadmus — while Banyas's safe-conduct was handed to the Franks {cite:shadharat-dhahab p. 546}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1129~", hijri: "0523", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 523؛ التحويل مشتق {cite:shadharat-dhahab p. 546}." }
+sides:
+  - label: { ar: "دولة طغتكين وأهل دمشق" }
+    commanders: [person/tughtigin-atabeg]
+  - label: { ar: "المرميون بعقيدة الإسماعيلية بدمشق وأتباع بهرام الأستراباذي" }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

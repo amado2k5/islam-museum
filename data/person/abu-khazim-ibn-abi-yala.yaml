@@ -1,0 +1,38 @@
+id: person/abu-khazim-ibn-abi-yala
+class: person
+label: { ar: "أبو خازم ابن القاضي أبي يعلى" }
+names:
+  - { value: "محمد بن محمد بن الحسين بن محمد بن أحمد بن خلف بن الفراء الحنبلي أبو خازم", kind: full }
+summary:
+  ar: "الفقيه الحنبلي الزاهد أبو خازم محمد بن محمد بن القاضي الإمام أبي يعلى وأخو القاضي أبي الحسين؛ ولد في صفر سنة سبع وخمسين وأربعمائة — قبل موت والده بسنة فأجاز له — وسمع الحديث من ابن المسلمة وابن المأمون وغيرهما، وقرأ الفقه على القاضي يعقوب ولازمه وعلق عنه وبرع في معرفة المذهب والخلاف والأصول، وصنف تصانيف مفيدة له كتاب التبصرة في الخلاف وكتاب رؤوس المسائل وشرح مختصر الخرقي، وكان من الفقهاء الزاهدين والأخيار الصالحين؛ توفي يوم الاثنين تاسع عشر صفر سنة سبع وعشرين وخمسمائة ودفن بداره بباب الأزج ونقل سنة أربع وثلاثين إلى مقبرة الإمام أحمد فدفن عند أبيه {cite:shadharat-dhahab p. 562}."
+  en: "The ascetic Hanbali jurist Abu Khazim Muhammad ibn Muhammad — son of the qadi-imam Abu Ya'la and brother of qadi Abu al-Husayn; b. Safar 457, a year before his father's death, receiving his ijaza; he heard Ibn al-Muslima and Ibn al-Ma'mun, read fiqh under qadi Ya'qub and excelled in madhhab, khilaf and usul, authoring al-Tabsira on khilaf, Ru'us al-masa'il and a commentary on the Mukhtasar al-Khiraqi; d. Monday 19 Safar 527, buried at his Bab al-Azaj house, translated in 534 to Imam Ahmad's cemetery beside his father {cite:shadharat-dhahab p. 562}."
+gender: male
+wings: [people]
+roles: [jurist, scholar]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1065-01~"
+  hijri: "0457-02"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "ولد في صفر سنة سبع وخمسين وأربعمائة قبل موت والده بسنة {cite:shadharat-dhahab p. 562}؛ التحويل مشتق."
+died:
+  edtf: "1132-12~"
+  hijri: "0527-02"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي يوم الاثنين تاسع عشر صفر سنة سبع وعشرين وخمسمائة ودفن بداره بباب الأزج ونقل سنة 534 إلى مقبرة الإمام أحمد {cite:shadharat-dhahab p. 562}؛ التحويل مشتق."
+relations:
+  - { type: child_of, target: person/abu-yala-ibn-al-farra, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-114
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

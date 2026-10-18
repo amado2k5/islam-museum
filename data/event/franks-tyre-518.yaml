@@ -1,0 +1,24 @@
+id: event/franks-tyre-518
+class: event
+kind: siege
+label: { ar: "أخذ الفرنج صور بالأمان سنة 518" }
+summary:
+  ar: "في سنة ثمان عشرة وخمسمائة أخذت الفرنج صور بالأمان وبقيت في أيديهم إلى سنة تسعين وستمائة {cite:shadharat-dhahab p. 537}."
+  en: "In 518 the Franks took Tyre by safe-conduct, and it stayed in their hands until 690 {cite:shadharat-dhahab p. 537}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1124~", hijri: "0518", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 518؛ التحويل مشتق {cite:shadharat-dhahab p. 537}." }
+sides:
+  - label: { ar: "الفرنج" }
+  - label: { ar: "حامية صور" }
+relations:
+  - { type: occurred_at, target: place/sur-lubnan, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-113
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
