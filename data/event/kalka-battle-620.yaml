@@ -1,0 +1,23 @@
+id: event/kalka-battle-620
+class: event
+kind: battle
+label: { ar: "الملحمة الكبرى بين التتار والقفجاق والروس سنة 620" }
+summary:
+  ar: "في سنة عشرين وستمائة كانت الملحمة الكبرى بين التتار وبين القفجاق والروس، وثبت الجمعان أياماً ثم انتصرت التتار وعلُوا أولئك بالسيف {cite:shadharat-dhahab p. 87}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [andalus-europe, persia-central-asia]
+date:
+  start: { edtf: "1223~", hijri: "0620", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 620هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 87}." }
+sides:
+  - label: { ar: "التتار" }
+  - label: { ar: "القفجاق والروس" }
+relations:
+  - { type: occurred_at, target: place/kalka-river, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,35 @@
+id: person/ibn-al-hurastani
+class: person
+label: { ar: "ابن الحرستاني" }
+summary:
+  ar: "قاضي القضاة جمال الدين أبو القاسم عبد الصمد بن محمد بن أبي الفضل الأنصاري الخزرجي الدمشقي الشافعي المعروف بابن الحرستاني؛ ولد سنة عشرين وخمسمائة وسمع سنة خمس وعشرين من عبد الكريم بن حمزة وجمال الإسلام وطاهر بن سهل الإسفراييني والكبار ودرّس وأفتى وبرع في المذهب وانتهى إليه علو الإسناد وكان صالحاً عابداً من قضاة العدل؛ رحل إلى حلب وتفقه بها على أبي الحسن المرادي وناب في القضاء عن ابن أبي عصرون ثم ولي قضاء الشام في آخر عمره سنة اثنتي عشرة ودرس بالعزيزية وكان يجلس للحكم بالمجاهدية؛ قال أبو شامة حدثني الشيخ عز الدين بن عبد السلام أنه لم ير أفقه منه وعليه كان ابتداء اشتغاله، وكان يحفظ كتاب الوسيط للغزالي؛ ولما طلب للقضاء امتنع من الولاية حتى ألحوا عليه فيها وكان صارماً عادلاً على طريقة السلف في لباسه وعفته، بقي في القضاء سنتين وسبعة أشهر، واتفق أهل دمشق على أنه ما فاتته صلاة بجامع دمشق في جماعة إلا إذا كان مريضاً؛ توفي في رابع ذي الحجة سنة أربع عشرة وستمائة وهو ابن خمس وتسعين سنة {cite:shadharat-dhahab p. 60-61}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1126~"
+  hijri: "0520"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 520هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 60}."
+died:
+  edtf: "1217~"
+  hijri: "0614-12-04"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "رابع ذي الحجة 614هـ وهو ابن خمس وتسعين؛ التحويل مشتق {cite:shadharat-dhahab p. 61}."
+relations:
+  - { type: lived_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/aleppo, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

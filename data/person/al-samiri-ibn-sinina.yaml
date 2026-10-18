@@ -1,0 +1,36 @@
+id: person/al-samiri-ibn-sinina
+class: person
+label: { ar: "ابن سنينة السامري" }
+summary:
+  ar: "أبو عبد الله نصير الدين محمد بن عبد الله بن الحسين السامري الفقيه الفرضي الحنبلي المعروف بابن سنينة؛ قال ابن النجار ولد سنة خمس وثلاثين وخمسمائة بسامرا وسمع من ابن البطي وأبي حكيم النهرواني وغيرهما ببغداد وتفقه على أبي حكيم ولازمه وبرع في الفقه والفرائض وصنف فيهما تصانيف مشهورة منها «كتاب المستوعب في الفقه» و«كتاب الفروق» و«كتاب البيان في الفرائض»؛ وولي القضاء بسامرا وأعمالها مدة ثم ولي القضاء والحسبة ببغداد ثم عُزل عن القضاء وبقي على الحسبة ثم عُزل عنها وولي إشراف ديوان الزمام وعُزل أيضاً ولُقب في أيام ولاياته معظم الدين، ولما عُزل لزم بيته مدة ثم أُذن له بالعود إلى بلده فعاد إليها ثم رجع إلى بغداد في آخر عمره وبها توفي؛ توفي ليلة الثلاثاء سابع عشر رجب سنة ست عشرة وستمائة ودفن بمقبرة باب حرب {cite:shadharat-dhahab p. 70-71}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1140~"
+  hijri: "0535"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 535هـ بسامرا؛ التحويل مشتق {cite:shadharat-dhahab p. 70}."
+died:
+  edtf: "1219~"
+  hijri: "0616-05-17"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ليلة الثلاثاء سابع عشر رجب 616هـ ودفن بمقبرة باب حرب؛ التحويل مشتق {cite:shadharat-dhahab p. 71}."
+relations:
+  - { type: born_in, target: place/samarra, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

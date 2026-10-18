@@ -1,0 +1,38 @@
+id: person/abd-al-qadir-al-rahawi
+class: person
+label: { ar: "عبد القادر الرهاوي" }
+summary:
+  ar: "الحافظ أبو محمد عبد القادر الرهاوي الحنبلي محدث الجزيرة؛ كان مملوكاً لبعض أهل الموصل فأعتقه وحبب إليه فن الحديث فسمع الكثير؛ ولد في جمادى الآخرة سنة ست وثلاثين وخمسمائة بالرها ثم أصابه سبي لما فتح زنكي الرها سنة تسع وثلاثين فاشتراه بنو فهم الحرانيون وأعتقوه؛ سمع بأصبهان وبهمدان وبهراة وبمرو ونيسابور وسجستان وبغداد ودمشق ومصر، وصنف وجمع وله «الأربعون المتباينة الأسانيد والبلاد» وهو أمر ما سبقه إليه أحد ولا يُرجى بعده محدث لخراب البلاد؛ قال أبو شامة كان صالحاً مهيباً زاهداً خشن العيش ورعاً ناسكاً، وقال ابن خليل كان حافظاً ثبتاً كثير التصنيف ختم به الحديث؛ توفي يوم السبت ثاني جمادى الأولى سنة اثنتي عشرة وستمائة بحران {cite:shadharat-dhahab p. 50-51}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+born:
+  edtf: "1141~"
+  hijri: "0536-06"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "جمادى الآخرة 536هـ بالرها؛ التحويل مشتق {cite:shadharat-dhahab p. 50}."
+died:
+  edtf: "1215~"
+  hijri: "0612-05-02"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "يوم السبت ثاني جمادى الأولى 612هـ بحران؛ التحويل مشتق {cite:shadharat-dhahab p. 51}."
+relations:
+  - { type: born_in, target: place/al-ruha, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/harran, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/harran, sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: traveled_to, target: place/cairo, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,28 @@
+id: person/ibn-zuhra-al-husayni
+class: person
+label: { ar: "ابن زهرة الحسيني" }
+summary:
+  ar: "الشيخ أبو علي الحسن بن زهرة الحسيني النقيب؛ رأس الشيعة بحلب وعزهم وجاههم وعالمهم، كان عارفاً بالقراءات والعربية والأخبار والفقه على رأي القوم، وكان متعيناً للوزارة ونفذ رسولاً إلى العراق وغيرها؛ توفي سنة عشرين وستمائة واندكت الشيعة بموته {cite:shadharat-dhahab p. 87}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+faith:
+  - { value: shia-twelver, basis: tradition, note: "وصفه ابن العماد بأنه رأس الشيعة بحلب وعزهم وجاههم وعالمهم {cite:shadharat-dhahab p. 87}" }
+died:
+  edtf: "1223~"
+  hijri: "0620"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 620هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 87}."
+relations:
+  - { type: lived_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

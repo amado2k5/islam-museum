@@ -7,10 +7,21 @@ summary:
 gender: male
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
+died:
+  edtf: "1215~"
+  hijri: "0611-09"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في العشر الأوسط من رمضان سنة إحدى عشرة وستمائة في مدرسته بحلب؛ التحويل مشتق {cite:shadharat-dhahab p. 49}."
+relations:
+  - { type: lived_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — الجزء الثالث (ترجمة الشيخ علي الهروي السائح)، طبعة إحسان عباس، النص المقروء آلياً (djvu) من archive.org"
   generated_by: "Devin (SWE-2 High) from djvu OCR text"
   run: lib-wafayat-batch-20
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,23 @@
+id: event/georgians-azerbaijan-612
+class: event
+kind: raid
+label: { ar: "غارة الكرج على أذربيجان سنة 612" }
+summary:
+  ar: "في سنة اثنتي عشرة وستمائة ثارت الكرج وبدَّعوا في أذربيجان فقتلوا وسبوا وأسروا نحو مائة ألف {cite:shadharat-dhahab p. 49}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans, persia-central-asia]
+date:
+  start: { edtf: "1215~", hijri: "0612", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 612هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 49}." }
+sides:
+  - label: { ar: "الكرج" }
+  - label: { ar: "أهل أذربيجان" }
+relations:
+  - { type: occurred_at, target: place/azerbaijan, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

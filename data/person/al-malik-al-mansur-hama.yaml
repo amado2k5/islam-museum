@@ -1,0 +1,25 @@
+id: person/al-malik-al-mansur-hama
+class: person
+label: { ar: "الملك المنصور صاحب حماة" }
+summary:
+  ar: "صاحب حماة الملك المنصور محمد بن المظفر تقي الدين عمر بن شاهنشاه بن أيوب؛ سمع من أبي الظاهر بن عوف وجمع تاريخاً على السنين في مجلدات عُرف بتاريخه المنسوب إليه؛ وتملك حماة بعده ولده الناصر قلج أرسلان فأخذها منه الكامل وسجنه ثم أعطاها لأخيه الملك المظفر؛ توفي سنة سبع عشرة وستمائة {cite:shadharat-dhahab p. 77-78}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+died:
+  edtf: "1220~"
+  hijri: "0617"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "سنة 617هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 77}."
+relations:
+  - { type: ruler_of, target: place/hama, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

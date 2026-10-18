@@ -1,0 +1,27 @@
+id: person/ibn-al-hallawi
+class: person
+label: { ar: "ابن الحلاوي" }
+summary:
+  ar: "أبو بكر عماد الدين محمد بن معالى بن غنيمة البغدادي المأموني المعروف بابن الحلاوي؛ المقرئ الفقيه الحنبلي الزاهد؛ سمع من أبي الفتح بن الكروخي وابن ناصر وأبي بكر بن الزاغوني وتفقه على أبي الفتح بن المني وبرع في المذهب حتى قال الذهبي إنه شيخ الحنابلة في زمنه ببغداد وعليه تفقه الشيخ المجد جد ابن تيمية؛ كان ملازماً لزاويته في الجامع قليل المخالطة إلا لأهل الدين، ما دخل باب أحد من أرباب الدنيا ولا قبل لأحد هدية، وكان من أهل الابدال الذين يحفظ الله بهم الأرض ومن عليها فيما وصف به؛ اشتغل بالكسب من الخياطة وبالعلم وإقراء القرآن احتساباً؛ له تصانيف منها «المنير في الأصول»؛ توفي ليلة الجمعة ثامن عشر رمضان سنة إحدى عشرة وستمائة ودفن بباب حرب {cite:shadharat-dhahab p. 48-49}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+died:
+  edtf: "1215~"
+  hijri: "0611-09-18"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ليلة الجمعة ثامن عشر رمضان 611هـ ودفن بباب حرب؛ التحويل مشتق {cite:shadharat-dhahab p. 49}."
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

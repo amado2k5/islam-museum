@@ -1,0 +1,27 @@
+id: person/al-fasihi-al-istrabadhi
+class: person
+label: { ar: "الفصيحي الإستراباذي" }
+summary:
+  ar: "أبو الحسن علي بن أبي زيد بن محمد بن علي النحوي المعروف بالفصيحي الإستراباذي؛ أخذ النحو عن عبد القاهر صاحب الجمل الإستراباذي وتبحر فيه حتى صار أعرف أهل زمانه؛ قدم بغداد واستوطنها ودرّس النحو بالمدرسة النظامية مدة وانتفع به خلق كثير ومن جملة من أخذ عنه ملك النحاة الحسن بن صافي، وروى عنه أبو طاهر السلفي؛ توفي يوم الأربعاء ثالث عشر ذي الحجة سنة ست عشرة وستمائة ببغداد؛ وقال ابن خلكان لم يُعرف أنسبه بالفصيحي إلى كتاب الفصيح لثعلب أم لشيء آخر {cite:shadharat-dhahab p. 70}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+died:
+  edtf: "1220~"
+  hijri: "0616-12-13"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "يوم الأربعاء ثالث عشر ذي الحجة 616هـ ببغداد؛ التحويل مشتق {cite:shadharat-dhahab p. 70}."
+relations:
+  - { type: lived_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/abd-al-qahir-al-jurjani, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-123
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
