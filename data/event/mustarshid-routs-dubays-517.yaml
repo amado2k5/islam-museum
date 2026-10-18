@@ -1,0 +1,27 @@
+id: event/mustarshid-routs-dubays-517
+class: event
+kind: battle
+label: { ar: "انتصار المسترشد على دبيس الأسدي سنة 517" }
+summary:
+  ar: "في أول سنة سبع عشرة وخمسمائة التقى الخليفة المسترشد بالله ودبيس الأسدي وكان دبيس قد طغى وتمرد ووعد عسكره بنهب بغداد، فجرد المسترشد يومئذ سيفه ووقف على تل فانهزم جمع دبيس وقتل خلق منهم وقتل من جيش الخليفة نحو العشرين وعاد مؤيداً منصوراً، وذهب دبيس فعاث ونهب وقتل بنواحي البصرة {cite:shadharat-dhahab p. 533}."
+  en: "Early in 517 the caliph al-Mustarshid met Dubays al-Asadi in battle — Dubays had grown insolent and promised his army the sack of Baghdad, so the caliph drew his own sword and stood on a hill until Dubays's host broke, with about twenty of the caliph's men killed; Dubays fled to ravage the outskirts of Basra {cite:shadharat-dhahab p. 533}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1123~", hijri: "0517", calendar: julian, precision: year, status: tradition, derived: true, note: "في أول سنة 517؛ التحويل مشتق {cite:shadharat-dhahab p. 533}." }
+sides:
+  - label: { ar: "الخليفة المسترشد بالله" }
+    commanders: [person/al-mustarshid-billah]
+  - label: { ar: "دبيس بن صدقة المزيدي" }
+    commanders: [person/dubays-ibn-sadaqa]
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/dubays-ibn-sadaqa, role: "المنهزم الثائر", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-113
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
