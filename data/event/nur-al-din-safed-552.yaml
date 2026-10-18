@@ -1,0 +1,25 @@
+id: event/nur-al-din-safed-552
+class: event
+kind: battle
+label: { ar: "وقعة صفد وفتح غزة وبانياس وشيزر سنة 552" }
+summary:
+  ar: "في سنة اثنتين وخمسين وخمسمائة هزم نور الدين الفرنج على صفد وكانت وقعة عظيمة، وأخذ نور الدين من الفرنج غزة وبانياس وملك شيزر من بني منقذ {cite:shadharat-dhahab p. 641}."
+  en: "In 552 Nur al-Din routed the Franks at Safed — a great battle — and took Gaza and Banias from the Franks while Shayzar passed to him from the Banu Munqidh {cite:shadharat-dhahab p. 641}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1157~", hijri: "0552", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 552؛ التحويل مشتق {cite:shadharat-dhahab p. 641}." }
+sides:
+  - label: { ar: "نور الدين محمود بن زنكي" }
+    commanders: [person/nur-al-din-mahmud-ibn-zangi]
+  - label: { ar: "الفرنج" }
+relations:
+  - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, role: "القائد المنتصر", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-117
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

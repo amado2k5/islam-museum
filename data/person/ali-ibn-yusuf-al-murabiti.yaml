@@ -6,11 +6,24 @@ summary:
   en: "Ali ibn Yusuf, Almoravid emir; Ibn Tumart publicly rebuked him in the Marrakesh mosque — the astrologer-executioner Malik b. Wuhayb had foretold the man and the emir hunted him in vain {cite:tarikh-ibn-khaldun-ibar p. 1669}."
 gender: male
 wings: [people]
+roles: [ruler]
 periods: [period/abbasid-fragmentation]
+regions: [maghreb, andalus-europe]
+died:
+  edtf: "1143-01~"
+  hijri: "0537-07"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في رجب سنة سبع وثلاثين وخمسمائة وله إحدى وستون سنة {cite:shadharat-dhahab p. 594}؛ التحويل مشتق."
+relations:
+  - { type: child_of, target: person/yusuf-ibn-tashfin, sources: [source/shadharat-dhahab] }
+  - { type: ruler_of, target: polity/almoravid-dynasty, sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "كتاب العبر لابن خلدون (ط بيت الأفكار الدولية، إخراج أبي صهيب الكرمي)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-ibar-batch-4
-sources: [source/tarikh-ibn-khaldun-ibar]
+sources: [source/tarikh-ibn-khaldun-ibar, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
