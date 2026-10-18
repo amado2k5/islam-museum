@@ -22,7 +22,34 @@ None recorded yet. Pre-check counts (18 Oct 2026, `grep -ril` over `data/`) are 
 
 ## Downloads
 
-None yet.
+Pre-download record. Each file is named by its archive.org identifier; the titles were checked only by the fetcher's token match, so each one must be confirmed against the book before OCR.
+
+### siyasa-shariyya-ibn-taymiyya
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get AAlexandrina-149786  0.00 GiB  149786_كتاب_السياسة_الشرعية_فى_اصلاح_الراعى_والرعية
+- would get AAskZad-1110324  0.01 GiB  Book السياسة الشرعية في إصلاح الراعي والرعية [1110324] --- تقي الدين أ
+
+### hisba-ibn-taymiyya
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get alfirdwsiy2018_gmail_602_201809  0.00 GiB  ابن تيمية الحسبة في الإسلام أو وظيفة الحكومة الإسلامية كتاب اقرا اونلا
+- would get alfirdwsiy1433_gmail_019_20180212_0642  0.00 GiB  019 اقرا اونلاين كتاب ابن تيمية إبن تيميه الحسبة في الإسلام أو وظيفة ا
+
+### maalim-qurba-ibn-ukhuwwa
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- no candidate found
+
+
+## Download status (18 Oct 2026)
+
+- Run stopped by the coordinator, not finished: 75 download attempts started; 0 `FAILED` lines; 0 new rows in `library/manifest.jsonl` (966 file rows before and after). The attempts re-fetched files already on the drive, so the run was stopped.
+- `fetch_books.py` now skips a book with a downloaded file and skips a file already on disk. Not yet committed.
+- Books with no candidate found: see the lane's Downloads section.
 
 ## Next step
 

@@ -72,10 +72,10 @@ def log(row):
     with open(MAN, "a") as f: f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 done = {(json.loads(l)["id"], json.loads(l).get("file")) for l in MAN.read_text().splitlines() if l.strip()} if MAN.exists() else set()
-finished_books = {json.loads(l)["id"] for l in MAN.read_text().splitlines() if l.strip() and json.loads(l).get("status") in ("ok", "miss")} if MAN.exists() else set()
+have_file = {json.loads(l)["id"] for l in MAN.read_text().splitlines() if l.strip() and json.loads(l).get("status") == "file"} if MAN.exists() else set()
 with client() as http:
     for b in books:
-        if b["id"] in finished_books and not args.only: continue
+        if b["id"] in have_file: print(f"== {b['id']}: already downloaded, skipped", flush=True); continue
         print(f"== {b['id']}: {b['t']}", flush=True)
         try:
             cands = choose(b, search(http, b))
@@ -97,6 +97,7 @@ with client() as http:
             dest = OUT / b["cat"] / b["id"]; dest.mkdir(parents=True, exist_ok=True)
             url = f"https://archive.org/download/{ident}/{f['name']}"
             fname = f"{ident}.pdf"
+            if (dest / fname).exists(): print(f"  already on disk: {ident}, not downloaded"); got += 1; continue
             rc = subprocess.call(["aria2c", "-x2", "-s2", "-c", "--file-allocation=none", "--console-log-level=error", "--summary-interval=0",
                                   f"--user-agent={http.headers['user-agent']}", "-d", str(dest), "-o", fname, url])
             tgt = dest / fname

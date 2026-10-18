@@ -22,7 +22,47 @@ None recorded yet. Pre-check counts (18 Oct 2026, `grep -ril` over `data/`) are 
 
 ## Downloads
 
-None yet.
+Pre-download record. Each file is named by its archive.org identifier; the titles were checked only by the fetcher's token match, so each one must be confirmed against the book before OCR.
+
+### taysir-dani
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get AAlexandrina-424516  0.01 GiB  424516_كتاب_التيسير_في_القراءات_السبع
+- would get AAlexandrina-223598  0.02 GiB  223598_كتاب_التيسير_في_القراءات_السبع
+
+### nashr-ibn-jazari
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get tajjibatuannashrfialqiraatialashribnaljazari  0.04 GiB  طيبة النشر في القراءات العشر
+- would get nashrqraatashr  0.02 GiB  النشر في القراءات العشر الجزري
+
+### mughni-labib-ibn-hisham
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get 20250501_20250501_1944  0.02 GiB  مغني اللبيب عن كتب الأعاريب
+- would get mokhni00  0.01 GiB  مغني اللبيب عن كتب الأعاريب
+
+### alfiyya-ibn-malik
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get 4000pdf  0.01 GiB  4000 كتاب اقرا اونلاين Pdf شروح الألفية لابن مالك الخلاصة فى النحو الم
+
+### kitab-sibawayh
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- no candidate found
+
+
+## Download status (18 Oct 2026)
+
+- Run stopped by the coordinator, not finished: 75 download attempts started; 0 `FAILED` lines; 0 new rows in `library/manifest.jsonl` (966 file rows before and after). The attempts re-fetched files already on the drive, so the run was stopped.
+- `fetch_books.py` now skips a book with a downloaded file and skips a file already on disk. Not yet committed.
+- Books with no candidate found: see the lane's Downloads section.
 
 ## Next step
 

@@ -125,7 +125,6 @@ books:
 - {id: sira-nabawiyya-ibn-kathir, cat: seerah, t: السيرة النبوية, a: ابن كثير, d: 774, k: [السيره, النبويه, كثير]}
 - {id: uyun-athar, cat: seerah, t: عيون الأثر في فنون المغازي والشمائل والسير, a: ابن سيد الناس, d: 734, k: [عيون, الاثر]}
 - {id: subul-huda, cat: seerah, t: سبل الهدى والرشاد في سيرة خير العباد, a: الصالحي الشامي, d: 942, k: [سبل, الهدي, الرشاد]}
-- {id: shifa-qadi-iyad, cat: shamail, t: الشفا بتعريف حقوق المصطفى, a: القاضي عياض, d: 544, k: [الشفا, حقوق, المصطفي]}
 - {id: shamail-tirmidhi, cat: shamail, t: الشمائل المحمدية, a: الترمذي, d: 279, k: [الشمايل|الشمائل, المحمديه]}
 - {id: mawahib-laduniyya, cat: seerah, t: المواهب اللدنية, a: القسطلاني, d: 923, k: [المواهب, اللدنيه]}
 - {id: raheeq-makhtum, cat: seerah, t: الرحيق المختوم, a: صفي الرحمن المباركفوري, d: 1427, k: [الرحيق, المختوم]}
@@ -215,3 +214,68 @@ books:
 - {id: lisan-arab, cat: lugha, t: لسان العرب, a: ابن منظور, d: 711, k: [لسان, العرب]}
 - {id: qamus-muhit, cat: lugha, t: القاموس المحيط, a: الفيروزآبادي, d: 817, k: [القاموس, المحيط]}
 - {id: sahah-jawhari, cat: lugha, t: الصحاح تاج اللغة, a: الجوهري, d: 393, k: [الصحاح, اللغه]}
+# ---- library expansion lanes (docs/agents/lanes.md, "Library expansion lanes"; cats limited to the existing list)
+- {id: risalat-qushayri, cat: adab-zuhd, t: الرسالة القشيرية, a: القشيري, d: 465, k: [رساله, قشيريه|القشيري]}
+- {id: luma-sarraj, cat: adab-zuhd, t: اللمع في التصوف, a: أبو نصر السراج, d: 378, k: [لمع, تصوف|صوف]}
+- {id: kashf-mahjub-hujwiri, cat: adab-zuhd, t: كشف المحجوب, a: الهجويري, d: 465, k: [كشف, محجوب]}
+- {id: tabaqat-sufiyya-sulami, cat: adab-zuhd, t: طبقات الصوفية, a: السلمي, d: 412, k: [طبقات, صوفيه|السلمي]}
+- {id: hikam-ibn-ataillah, cat: adab-zuhd, t: الحكم العطائية, a: ابن عطاء الله السكندري, d: 709, k: [حكم, عطاء|عطائيه]}
+- {id: siyasa-shariyya-ibn-taymiyya, cat: fiqh, t: السياسة الشرعية, a: ابن تيمية, d: 728, k: [سياسه, تيميه|تيميه]}
+- {id: hisba-ibn-taymiyya, cat: fiqh, t: الحسبة في الإسلام, a: ابن تيمية, d: 728, k: [حسبه, تيميه]}
+- {id: maalim-qurba-ibn-ukhuwwa, cat: fiqh, t: معالم القربة في أحكام الحسبة, a: ابن الأخوة, d: 729, k: [معالم, قربه|حسبه]}
+- {id: milal-nihal-shahrastani, cat: aqeedah, t: الملل والنحل, a: الشهرستاني, d: 548, k: [ملل, نحل]}
+- {id: talbis-iblis-ibn-jawzi, cat: aqeedah, t: تلبيس إبليس, a: ابن الجوزي, d: 597, k: [تلبيس, ابليس|ابليس]}
+- {id: farq-bayn-firaq-baghdadi, cat: aqeedah, t: الفرق بين الفرق, a: البغدادي, d: 429, k: [فرق, فرق|الفرق]}
+- {id: taysir-dani, cat: quran-sciences, t: التيسير في القراءات السبع, a: الداني, d: 444, k: [تيسير, قراءات]}
+- {id: nashr-ibn-jazari, cat: quran-sciences, t: النشر في القراءات العشر, a: ابن الجزري, d: 833, k: [نشر, قراءات]}
+- {id: qisas-anbiya-kisai, cat: seerah, t: قصص الأنبياء, a: الكسائي, d: 189, k: [قصص, انبياء]}
+- {id: qisas-anbiya-thaalabi, cat: seerah, t: العرائس في قصص الأنبياء, a: الثعلبي, d: 427, k: [عرائس|قصص, انبياء]}
+- {id: khitat-maqrizi, cat: geography, t: المواعظ والاعتبار بذكر الخطط والآثار, a: المقريزي, d: 845, k: [خطط|مواعظ, مقريزي|المقريزي]}
+- {id: rihla-ibn-jubayr, cat: geography, t: رحلة ابن جبير, a: ابن جبير, d: 614, k: [رحله, جبير]}
+- {id: nuzhat-mushtaq-idrisi, cat: geography, t: نزهة المشتاق في اختراق الآفاق, a: الإدريسي, d: 560, k: [نزهه, ادريسي|الادريسي]}
+- {id: ahsan-taqasim-maqdisi, cat: geography, t: أحسن التقاسيم في معرفة الأقاليم, a: المقدسي, d: 380, k: [تقاسيم, مقدسي|المقدسي]}
+- {id: bayan-mughrib-idhari, cat: tareekh, t: البيان المغرب في أخبار الأندلس والمغرب, a: ابن عذاري, d: 712, k: [بيان, مغرب]}
+- {id: muwafaqat-shatibi, cat: usul, t: الموافقات, a: الشاطبي, d: 790, k: [موافقات]}
+- {id: burhan-juwayni, cat: usul, t: البرهان في أصول الفقه, a: الجويني, d: 478, k: [برهان, اصول]}
+- {id: mustasfa-ghazali, cat: usul, t: المستصفى, a: الغزالي, d: 505, k: [مستصفى]}
+- {id: bidayat-mujtahid-ibn-rushd, cat: fiqh, t: بداية المجتهد ونهاية المقتصد, a: ابن رشد, d: 595, k: [بدايه, مجتهد]}
+- {id: mughni-labib-ibn-hisham, cat: lugha, t: مغني اللبيب عن كتب الأعاريب, a: ابن هشام, d: 761, k: [مغني, لبيب]}
+- {id: alfiyya-ibn-malik, cat: lugha, t: الخلاصة الألفية, a: ابن مالك, d: 672, k: [الفيه|الفيه, مالك]}
+- {id: kitab-sibawayh, cat: lugha, t: الكتاب, a: سيبويه, d: 180, k: [كتاب, سيبويه]}
+- {id: lisan-arab-ibn-manzur, cat: lugha, t: لسان العرب, a: ابن منظور, d: 711, k: [لسان, عرب]}
+- {id: qamus-muhit-fayruzabadi, cat: lugha, t: القاموس المحيط, a: الفيروزآبادي, d: 817, k: [قاموس, محيط]}
+- {id: aghani-isfahani, cat: adab-zuhd, t: الأغاني, a: أبو الفرج الأصفهاني, d: 356, k: [اغاني]}
+- {id: bayan-tabyin-jahiz, cat: adab-zuhd, t: البيان والتبيين, a: الجاحظ, d: 255, k: [بيان, تبيين]}
+- {id: adab-katib-ibn-qutayba, cat: adab-zuhd, t: أدب الكاتب, a: ابن قتيبة, d: 276, k: [ادب, كاتب]}
+- {id: maqamat-hariri, cat: adab-zuhd, t: مقامات الحريري, a: الحريري, d: 516, k: [مقامات, حريري|الحريري]}
+- {id: canon-ibn-sina, cat: medicine-science, t: القانون في الطب, a: ابن سينا, d: 428, k: [قانون, طب]}
+- {id: ibn-haytham-manazir, cat: medicine-science, t: كتاب المناظر, a: ابن الهيثم, d: 430, k: [مناظر]}
+# ---- batch 18 Oct 2026 (user-supplied PDFs; cat "modern" is a new folder name for modern writers, to confirm)
+- {id: iqbal-reconstruction-religious-thought, cat: modern, t: The Reconstruction of Religious Thought in Islam, a: محمد إقبال, d: null, k: [reconstruction]}
+- {id: ghazali-islam-socialist-methods, cat: modern, t: الإسلام والمناهج الاشتراكية, a: محمد الغزالي, d: null, k: [الاسلام, اشتراكيه|الاشتراكيه]}
+- {id: risalat-tawhid-abduh, cat: modern, t: رسالة التوحيد, a: محمد عبده, d: 1323, k: [رساله, توحيد]}
+- {id: fiqh-mawsua-kuwaitiyya-noor-v3, cat: fiqh, t: الموسوعة الفقهية الكويتية, a: وزارة الأوقاف الكويتية, d: null, k: [موسوعه, فقهيه]}
+- {id: fiqh-mawsua-foulabook, cat: fiqh, t: الموسوعة الفقهية, a: unknown, d: null, k: [موسوعه, فقهيه]}
+- {id: jawab-sahih-ibn-taymiyya, cat: aqeedah, t: الجواب الصحيح لمن بدل دين المسيح, a: ابن تيمية, d: 728, k: [جواب, صحيح]}
+- {id: hirz-amani-shatibi, cat: quran-sciences, t: حرز الأماني ووجه التهاني, a: الشاطبي, d: 590, k: [حرز]}
+- {id: diwan-mutanabbi, cat: adab-zuhd, t: ديوان المتنبي, a: المتنبي, d: 354, k: [ديوان, متنبي|المتنبي]}
+- {id: diwan-ibn-arabi, cat: adab-zuhd, t: ديوان ابن عربي, a: ابن عربي, d: 638, k: [ديوان, عربي]}
+- {id: zij-sabi-harrani, cat: medicine-science, t: الزيج الصابئ, a: محمد بن سنان الحراني, d: null, k: [زيج]}
+- {id: athar-baqiya-biruni, cat: medicine-science, t: الآثار الباقية من القرون الخالية, a: البيروني, d: 440, k: [اثار, باقيه]}
+- {id: sharh-tashrih-qanun-ibn-nafis, cat: medicine-science, t: شرح تشريح القانون لابن سينا, a: ابن النفيس, d: 687, k: [شرح, تشريح]}
+- {id: hawi-razi, cat: medicine-science, t: الحاوي في الطب, a: أبو بكر الرازي, d: 313, k: [حاوي]}
+- {id: tafsir-manar-v01, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v02, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v03, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v04, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v05, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v06, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v07, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v08, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v09, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v10, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v11, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: tafsir-manar-v12, cat: tafsir, t: تفسير المنار, a: محمد رشيد رضا, d: 1354, k: [تفسير, المنار]}
+- {id: fiqh-mawsua-noor-doc, cat: fiqh, t: الموسوعة الفقهية, a: وزارة الأوقاف الكويتية, d: null, k: [موسوعه, فقهيه]}  # Word export (.doc): text route, no OCR; no page markers, cite via the Noor PDF
+- {id: tahrir-majisti-tusi, cat: medicine-science, t: تحرير كتاب المجسطي, a: نصير الدين الطوسي, d: 672, k: [تحرير, مجسطي]}
+- {id: khwarizmi-algebra, cat: medicine-science, t: الكتاب المختصر في حساب الجبر والمقابلة, a: محمد بن موسى الخوارزمي, d: null, k: [جبر, مقابله]}  # PDF is the Columbia scan queued at raw/library/unidentified/columbia-aco000196/

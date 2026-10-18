@@ -1,0 +1,11 @@
+---
+id: passage/quran-99-7
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## موجز
+الآية 7 من [[passage/quran-99|سورۃ الزلزلہ]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
+
+## موضعها
+موضعها: آیت 7، سورت کی کل 8 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔

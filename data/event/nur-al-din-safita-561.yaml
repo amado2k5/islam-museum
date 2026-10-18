@@ -1,0 +1,26 @@
+id: event/nur-al-din-safita-561
+class: event
+kind: conquest
+label: { ar: "نور الدين يأخذ حصن صافيتا من الفرنج سنة 561" }
+summary:
+  ar: "في سنة إحدى وستين وخمسمائة أخذ نور الدين من الفرنج حصن صافيتا {cite:shadharat-dhahab p. 677}."
+  en: "In 561 Nur al-Din took the fortress of Safita (Castel Blanc) from the Franks {cite:shadharat-dhahab p. 677}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1165~", hijri: "0561", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 561؛ التحويل مشتق {cite:shadharat-dhahab p. 677}." }
+sides:
+  - label: { ar: "نور الدين محمود بن زنكي" }
+    commanders: [person/nur-al-din-mahmud-ibn-zangi]
+  - label: { ar: "الفرنج" }
+relations:
+  - { type: occurred_at, target: place/safita, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/nur-al-din-mahmud-ibn-zangi, role: "الفاتح", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-118
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

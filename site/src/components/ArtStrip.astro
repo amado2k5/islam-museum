@@ -11,11 +11,11 @@ const pick = [...items].sort(() => Math.random() - 0.5).slice(0, 4);
 <section class="block art-strip" aria-labelledby="art-strip-title">
   <div class="wrap">
     <h2 id="art-strip-title">{T.landing.art_title}</h2>
-    <ul class="grid-cards" style="grid-template-columns:repeat(auto-fill,minmax(180px,1fr))">
+    <ul class="grid-cards" style="grid-template-columns:repeat(auto-fill,clamp(240px,36vw,400px))">
       {pick.map((i) => (
         <li>
-          <a class="card" href={`/${lang}/art/`} style="padding:0;overflow:hidden">
-            <img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;display:block" />
+          <a class="card" href={`/${lang}/art/`} style="padding:0;overflow:hidden;display:block">
+            <img src={`/media/architecture-art/${i.slug}.webp`} alt={i.alt.ar} width="1280" height="853" loading="lazy" style="width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center;display:block" />
           </a>
         </li>
       ))}
