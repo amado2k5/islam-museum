@@ -74,6 +74,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4"
           command: pages deploy dist --project-name=islam-museum
 
   # Pings IndexNow with the URLs changed in this push (scripts/indexnow.mjs), so
