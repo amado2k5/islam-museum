@@ -68,3 +68,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 102 — سنة 464–470.
 - Batch 102 (Devin): AH 465–467 — the Jalali calendar's origin (Nizam al-Mulk's astronomers fixing Nowruz), al-Bakharzi of Dumyat al-Qasr (killed in al-Andalus 467); enriched al-Qa'im (d. Sha'ban 467 after a 44-year caliphate — the Ka'ba-letter story already present). Alp Arslan, al-Qushayri, al-Mu'tadid already covered. 2 new + 1 prose + 1 enriched.
 - Next: batch 103 — سنة 468–475 (al-Muqtadi's accession, Nizam al-Mulk's murder 485 lead-in).
+- Batch 103 (Devin): AH 468–469 — Ibn Babashadh (the jeweler-grammarian whose chancery letters passed only under his eye, d. ~469); enriched al-Wahidi (Jumada 468) and Ibn Hayyan Abu Marwan (Rabi' I 469, 92). 1 new + 2 enriched.
+- Next: batch 104 — سنة 470–475 (al-Muqtadi's accession 468/475).
