@@ -1,0 +1,26 @@
+id: person/ahmad-ibn-attash
+class: person
+label: { ar: "أحمد بن عبد الملك بن عطاش" }
+summary:
+  ar: "صاحب قلعة الباطنية بأصبهان؛ تملكها اثنتي عشرة سنة، وهي من بناء ملكشاه على رأس جبل، فغزا السلطان محمد بن ملكشاه الباطنية سنة خمسمائة وأخذ القلعة وقتله {cite:shadharat-dhahab p. 410}."
+  en: "Master of the Batiniyya's fortress at Isfahan for twelve years — a castle Malikshah built atop a mountain — until Sultan Muhammad b. Malikshah stormed it and killed him in 500 {cite:shadharat-dhahab p. 410}."
+gender: male
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+died:
+  edtf: "1106~"
+  hijri: "0500"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "قتله السلطان محمد بن ملكشاه في قلعة الباطنية بأصبهان سنة 500 {cite:shadharat-dhahab p. 410}؛ التحويل مشتق."
+relations:
+  - { type: participated_in, target: event/muhammad-tapar-batiniyya-fort-500, role: "صاحب القلعة قُتل", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-110
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

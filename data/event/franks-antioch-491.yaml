@@ -1,0 +1,25 @@
+id: event/franks-antioch-491
+class: event
+kind: conquest
+label: { ar: "أخذ الفرنج أنطاكية ومقتلة المعرة سنة 491" }
+summary:
+  ar: "في سنة إحدى وتسعين وأربعمائة خرج الفرنج في ألف ألف وحاصروا أنطاكية سبعة أشهر وأخذوها عنوة، وخرج إليهم المسلمون فانكسروا، وتبعهم الفرنج إلى المعرة وقتلوا وفتكوا وأقاموا بها وقتلوا فيها مائة ألف مسلم، وبعد أربعين يوماً ساروا إلى حمص فصالحهم أهلها ثم توجهوا إلى القدس {cite:shadharat-dhahab p. 396}."
+  en: "In 491 the Franks marched out a hundred thousand strong, besieged Antioch seven months and took it by storm; the Muslim relief was broken, they followed to Ma'arra killing and slaughtering and slew a hundred thousand Muslims there, then after forty days moved to Homs whose people bought them off, and turned on Jerusalem {cite:shadharat-dhahab p. 396}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1097-10~", hijri: "0491", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 491؛ حصار سبعة أشهر؛ التحويل مشتق {cite:shadharat-dhahab p. 396}." }
+sides:
+  - label: { ar: "الفرنج" }
+  - label: { ar: "المسلمون" }
+    commanders: [person/kerbogha]
+relations:
+  - { type: occurred_at, target: place/antakiya, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-109
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
