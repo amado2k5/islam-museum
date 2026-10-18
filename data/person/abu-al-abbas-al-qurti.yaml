@@ -1,0 +1,27 @@
+id: person/abu-al-abbas-al-qurti
+class: person
+label: { ar: "أبو العباس القرطي", en: "Abu al-Abbas al-Qurti" }
+names:
+  - { value: "أبو العباس القرطي أحمد بن عمر بن إبراهيم الأنصاري المالكي المحدث", kind: full }
+born: { edtf: "1182", hijri: "0578", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ثمان وسبعين وخمسمائة {cite:shadharat-dhahab p. 274}." }
+died: { edtf: "1258-11~", hijri: "0656-11", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ذي القعدة سنة ست وخمسين وستمائة {cite:shadharat-dhahab p. 274}." }
+summary:
+  ar: "الشاهد، نزيل الإسكندرية، كان من كبار الأئمة؛ سمع بالمغرب من جماعة واختصر الصحيحين وصنف كتاب المفهم في شرح مختصر مسلم {cite:shadharat-dhahab p. 274}."
+  en: "The Maliki shahid of Alexandria (b. 578, d. Dhu al-Qa'da 656) — epitomist of the two Sahihs and author of al-Mufhim, his commentary on Mukhtasar Muslim {cite:shadharat-dhahab p. 274}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [maghreb, egypt-nile]
+faith:
+  - value: sunni-maliki
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/alexandria, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 656)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

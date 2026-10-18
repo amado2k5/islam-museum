@@ -1,0 +1,31 @@
+id: person/ali-ibn-al-jawzi
+class: person
+label: { ar: "علي بن الجوزي" }
+summary:
+  ar: "علي بن الجوزي أبو الحسن ولد العلامة جمال الدين أبي الفرج عبد الرحمن بن علي البغدادي؛ ناسخ نسخ الكثير بالأجرة وكان معاشراً لاعباً، روى عن ابن البطي وأبي زرعة وجماعة، وتوفي في رمضان سنة ثلاثين وستمائة {cite:shadharat-dhahab p. 137}."
+  en: "Ali b. al-Jawzi — son of the great historian Ibn al-Jawzi, a copyist who transcribed much for wages and a sociable man-about-town; he transmitted from Ibn al-Batti and Abu Zur'a and died in Ramadan 630 {cite:shadharat-dhahab p. 137}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "من بيت الحنابلة"
+died:
+  edtf: "1233~"
+  hijri: "0630-09"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في رمضان سنة ثلاثين؛ التحويل مشتق {cite:shadharat-dhahab p. 137}."
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 630)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

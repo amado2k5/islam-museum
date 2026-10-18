@@ -1,0 +1,30 @@
+id: person/ibn-shayth-al-qurashi
+class: person
+label: { ar: "ابن شيث القرشي وزير المعظم" }
+summary:
+  ar: "ابن شيث القرشي جمع الله له بين الفضل والمروءة والكرم والفتوة؛ كان كثير الصدقات وكان القاضي الفاضل يحتاج إليه في علم الرسائل؛ كتب إليه أبو المظفر الندنجي كتاباً يتشوق إليه؛ تولى الوزارة للملك المعظم بالشام ونشأ بقوص ومات بدمشق سنة خمس وعشرين وستمائة ودفن بتربته بقاسيون {cite:shadharat-dhahab p. 117}."
+  en: "Ibn Shayth al-Qurashi — in whom excellence, chivalry, generosity and futuwwa met; al-Qadi al-Fadil himself needed him for the chancery art; raised at Qus, he served as al-Mu'azzam's wazir in Damascus and died there in 625, buried in his own turba on Qasyun {cite:shadharat-dhahab p. 117}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, egypt-nile, arabia]
+faith:
+  - value: sunni
+    basis: tradition
+died:
+  edtf: "1228~"
+  hijri: "0625"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "مات بدمشق سنة خمس وعشرين ودفن بتربته بقاسيون؛ التحويل مشتق {cite:shadharat-dhahab p. 117}."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 625)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

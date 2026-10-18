@@ -4,15 +4,15 @@
 
 | Platform | Limit (free) | Implication |
 |---|---|---|
-| GitHub Pages | Static files only; published site ≤ 1 GB; soft 100 GB/month bandwidth; 10 builds/hour; 100 MB/file | Text-only main repo; media elsewhere; Cloudflare caches HTML so GitHub bandwidth is rarely hit |
-| GitHub Actions | 2,000 min/month (private) / generous for public repos | Public repo → effectively free CI; keep builds under ~10 min |
-| Cloudflare (DNS+CDN) | Unlimited bandwidth, free SSL, cache rules, redirects, Web Analytics | Cache everything at the edge; privacy-first analytics with no cookies |
+| GitHub Pages | Static files only; published site ≤ 1 GB; soft 100 GB/month bandwidth; 10 builds/hour; 100 MB/file | Fallback mirror only; the canonical host is Cloudflare Pages (see below). GitHub Pages is no longer the primary deployment target. |
+| GitHub Actions | 2,000 min/month (private) / generous for public repos | Public repo → effectively free CI; full build (~35 min: validate → graph → derive → api → astro → pagefind → R2 sync → CF Pages deploy); 6-hour job limit, well within budget |
+| Cloudflare (DNS+CDN) | Unlimited bandwidth, free SSL, cache rules, redirects, Web Analytics | DNS proxied; CF Pages serves HTML; R2 serves search indexes; privacy-first analytics |
 | Cloudflare Workers | 100k requests/day, 10 ms CPU | Not needed for visitors; reserved for build-side jobs only if ever required (redirects and headers are Cloudflare rules, not code) |
-| Cloudflare R2 | 10 GB storage, free egress, 1M writes/10M reads per month | Thumbnails, map tiles (PMTiles), audio, later 3D models |
+| Cloudflare R2 | 10 GB storage, free egress, 1M writes/10M reads per month | **Pagefind search indexes** (~96k content-addressed files: `pagefind-ar/en/ur`) and **API JSON** (~30k files under `api/`). Bucket `islam-museum-search`. Incremental sync via `aws s3 sync --checksum-algorithm sha256 --delete` — only files whose content changed are uploaded. Also thumbnails, map tiles (PMTiles), audio, later 3D models. |
+| Cloudflare Pages (paid) | 100,000 files per deployment, 25 MB/file, 500 builds/month (wrangler v4 required for 100k limit) | **Main host for HTML and assets** (~70k files after stripping pagefind and API). Project name `islam-museum`, served at `islam-museum.pages.dev` and `islam.museum`. |
 | Cloudflare D1 / KV / Vectorize / Workers AI | Free tiers | **Not used on the published site.** No runtime AI, no runtime database (see §13). |
-| Cloudflare Pages (alt host) | 20,000 files per deployment, 25 MB/file, 500 builds/month | **The file-count limit rules it out** for the main site at scale (a 10k-entity, 3-language site is >60k files). GitHub Pages wins. Use CF Pages only for PR previews if wanted. |
 
-Decision: **GitHub Pages hosts the site**, built by GitHub Actions (not the legacy Jekyll builder), proxied by **Cloudflare** with aggressive caching. Media on a second GitHub Pages repo (`media.islam.museum`) and/or R2. No runtime compute: the published site is static files only (see §13).
+Decision: **Cloudflare Pages (paid plan) hosts the site**, built by GitHub Actions. Pagefind search indexes go to **Cloudflare R2** (`islam-museum-search` bucket, public URL `https://pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev`) to stay within the 100k-file CF Pages limit. Both are deployed in the same GitHub Actions workflow on every push to `main`. No runtime compute: the published site is static files only (see §13).
 
 ## 2. Stack
 
@@ -85,7 +85,7 @@ islam-museum/
 │  │  └─ styles/tokens.css
 │  └─ public/ (fonts, favicon, robots.txt, llms.txt, manifest.webmanifest, sw.js)
 ├─ .github/
-│  ├─ workflows/validate.yml (PRs)  deploy.yml (main → gh-pages + Cloudflare purge)  link-check.yml  lighthouse.yml  wikidata-sync.yml (weekly)
+│  ├─ workflows/validate.yml (PRs)  deploy.yml (main → R2 + CF Pages via wrangler v4 + IndexNow notify)  link-check.yml  lighthouse.yml  wikidata-sync.yml (weekly)
 │  ├─ ISSUE_TEMPLATE/ (suggest-entity.yml, report-error.yml, request-translation.yml)
 │  └─ PULL_REQUEST_TEMPLATE.md  CODEOWNERS
 └─ .cache/                        # gitignored compiled graph
@@ -112,11 +112,18 @@ data/ + content/ + geo/ + schema/
         ▼  astro build             — pages per entity per lang, hall pages, exhibits, questions,
         │                             JSON-LD, OpenGraph images (satori) per entity, sitemaps, RSS (new entities, updated exhibits),
         │                             api/v1/*.json, redirects (_redirects → Cloudflare Bulk Redirects or meta refresh)
-        ▼  pagefind                — search index over built HTML with data-pagefind-filter attributes
-        ▼  deploy                  — push dist/ to gh-pages; call Cloudflare API to purge cache
+        ▼  pagefind                — three runs: pagefind-ar, pagefind-en, pagefind-ur; ~96k content-addressed chunk files
+        ▼  R2 sync                 — aws s3 sync --checksum-algorithm sha256 --delete (incremental: only changed files):
+        │                               dist/pagefind-{ar,en,ur} → s3://islam-museum-search/{pagefind-ar,en,ur}
+        │                                 cache-control: immutable, max-age=31536000
+        │                               dist/api → s3://islam-museum-search/api
+        │                                 cache-control: public, max-age=3600, stale-while-revalidate=86400
+        ▼  strip R2 dirs           — rm -rf dist/pagefind-{ar,en,ur} dist/api (leaves ~70k files, under CF Pages 100k limit)
+        ▼  CF Pages deploy         — wrangler v4: pages deploy dist --project-name=islam-museum
+        ▼  IndexNow notify         — scripts/indexnow.mjs submits changed URLs to Bing/Yandex
 ```
 
-CI on pull requests runs validate + build + link check + Lighthouse budget; a comment on the PR lists the entities changed and a preview (optional Cloudflare Pages preview, since previews don't hit the file-count limit for a long time).
+GitHub Actions runs the full pipeline on every push to `main` (~35 min); the `test` and `build` jobs run in parallel, `deploy` waits for both. CI on pull requests runs validate + build + link check + Lighthouse budget; a comment lists entities changed.
 
 ## 5. URLs
 
@@ -146,17 +153,30 @@ Slugs are ASCII, lowercase, hyphenated, derived from the common English/translit
 
 ## 6. Cloudflare configuration
 
-- DNS: `islam.museum` and `www` → GitHub Pages (A/AAAA records or CNAME flattening), proxied (orange cloud). `media` → media repo Pages or R2 custom domain.
+- DNS: `islam.museum` and `www` → `islam-museum.pages.dev` (CNAME, proxied, orange cloud). `media` → R2 custom domain.
 - SSL: Full (strict); HSTS; always HTTPS.
-- Cache rules: cache everything; HTML edge TTL 1 hour, browser 10 min; hashed assets 1 year; `/api/` 1 day with `stale-while-revalidate`. Deploy workflow purges cache.
-- Redirect rules: root → language; legacy aliases via Bulk Redirects (free list up to 20 rules; beyond that use static HTML meta-refresh pages generated at build).
-- Transform rules: add CORS `Access-Control-Allow-Origin: *` on `/api/*`; security headers.
+- Cache rules: cache everything; HTML edge TTL 1 hour, browser 10 min; hashed assets 1 year; `/api/` 1 day with `stale-while-revalidate`. CF Pages invalidates automatically on deploy.
+- Redirect rules: `site/public/_redirects` handles two cases: (1) a transparent 200 proxy `/api/* → R2/api/:splat` so `islam.museum/api/v1/…` URLs work without change even though the files live on R2; (2) entity slug 301 renames. Root → language via Cloudflare redirect rule.
+- Transform rules: add CORS `Access-Control-Allow-Origin: *` on `/api/*`; security headers. CORS applies to the client-facing `/api/*` URL before the proxy rewrites it, so external API consumers get the header.
+- R2 bucket `islam-museum-search`: public development URL enabled; CORS policy allows `https://islam.museum`; pagefind chunks `immutable, max-age=31536000`; API JSON `max-age=3600, stale-while-revalidate=86400`.
 - Web Analytics: enabled, no cookies.
 - No Workers in front of visitors. Random, on-this-day and search run client-side on prebuilt indexes; share cards are built at build time.
+
+### Required secrets and variables (GitHub repo)
+
+| Name | Kind | Value |
+|---|---|---|
+| `CLOUDFLARE_API_TOKEN` | Secret | CF API token, Account → CF Pages → Edit |
+| `CLOUDFLARE_ACCOUNT_ID` | Secret | Cloudflare account ID |
+| `R2_ACCESS_KEY_ID` | Secret | R2 access key with write permission to `islam-museum-search` |
+| `R2_SECRET_ACCESS_KEY` | Secret | R2 secret key |
+| `PAGEFIND_BASE_URL` | Variable | `https://pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev` (R2 public URL, baked into HTML at build time via `PUBLIC_PAGEFIND_BASE`) |
 
 ## 7. Search
 
 Pagefind indexes rendered pages. Each entity page sets `data-pagefind-body`, plus filters: `data-pagefind-filter="wing"`, `class`, `period`, `region`, `tradition`, `lang`, and sort keys for dates. Arabic stemming is supported; we also index transliteration variants and alternate names (`names[]`) in a hidden metadata block so "Avicenna" finds Ibn Sina. For 50k+ pages the index stays in chunks that load on demand; if it ever becomes too heavy, a Worker + D1 FTS5 fallback is the upgrade path.
+
+The ~96k pagefind chunk files (three language runs) are served from **Cloudflare R2** (`islam-museum-search` bucket), not from CF Pages. The search page (`[lang]/search/`) loads the JS/CSS from the R2 public URL baked in at build time (`PUBLIC_PAGEFIND_BASE` → `PAGEFIND_BASE_URL` variable). Falls back to local path for `astro preview` after a full build.
 
 ## 8. Media strategy
 
@@ -207,7 +227,7 @@ Decision (founder, 11 October 2026): AI exists only in the building phase. Once 
 | Symptom | Move |
 |---|---|
 | Build > 15 min | Split Astro build per language or wing into parallel jobs; cache `.cache/graph.json`; incremental builds |
-| Site > 1 GB | Move `api/` and OpenGraph images to R2; strip inline JSON-LD duplication |
+| Site > 1 GB | OpenGraph images to R2; strip inline JSON-LD duplication (`api/` already on R2) |
 | Search index too big | Shard the Pagefind index by wing and language and load chunks lazily; precompute per-wing indexes. No server-side search. |
 | Need user state | Bookmarks in localStorage first; then Worker + D1 with GitHub OAuth, opt-in |
 | Heavy traffic | Already on Cloudflare; nothing changes |

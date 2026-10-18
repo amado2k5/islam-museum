@@ -1,0 +1,25 @@
+id: event/shaqif-handed-to-franks-638
+class: event
+kind: other
+label: { ar: "تسليم قلعة الشقيف للفرنج سنة 638" }
+summary:
+  ar: "في سنة ثمان وثلاثين وستمائة سلّم الملك الصالح إسماعيل قلعة الشقيف للفرنج لغرض في نفسه فمقته المسلمون، وأنكر عليه العز ابن عبد السلام وأبو عمرو بن الحاجب فسجنهما وعزل ابن عبد السلام من خطابة دمشق {cite:shadharat-dhahab p. 189}."
+  en: "In 638 al-Salih Isma'il surrendered Beaufort castle to the Franks for his own purpose; the Muslims hated him for it — Ibn Abd al-Salam and Ibn al-Hajib denounced him and were jailed, Ibn Abd al-Salam removed from Damascus's minbar {cite:shadharat-dhahab p. 189}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+themes: [crusades]
+date:
+  start: { edtf: "1240", hijri: "0638", calendar: julian, precision: year, status: tradition, derived: true, note: "638هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 189}.", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/shaqif-arnun, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-salih-ismail-ibn-al-adil, role: "المسلِّم", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/izz-al-din-ibn-abd-al-salam, role: "المعترض المسجون المعزول", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/ibn-al-hajib, role: "المعترض المسجون", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 638)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

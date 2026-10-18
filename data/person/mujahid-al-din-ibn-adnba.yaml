@@ -1,0 +1,27 @@
+id: person/mujahid-al-din-ibn-adnba
+class: person
+label: { ar: "مجاهد الدين ابن أدنبا", en: "Mujahid al-Din Ibn Adnba" }
+names:
+  - { value: "الأمير مجاهد الدين إبراهيم بن أدنبا", kind: full }
+died: { edtf: "1256~", hijri: "0654", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي بدمشق ودفن بخانقاهه سنة أربع وخمسين وستمائة {cite:shadharat-dhahab p. 273}." }
+summary:
+  ar: "والي دمشق، كان عاقلاً فاضلاً؛ بنى الخانقاه المجاهدية بدمشق على الشرف القبلي، وله نظم منها: «أشبهك الغصن في خصال القد واللين والتثنّى * لكن تجنيك ما حكاه الغصن يجنى وأنت تجنى» {cite:shadharat-dhahab p. 272-273}."
+  en: "Wali of Damascus (d. 654) — builder of the Khanqah al-Mujahidiyya on the southern ridge, where he lies buried; a sensible, virtuous governor and a poet {cite:shadharat-dhahab p. 272-273}."
+gender: male
+roles: [emir, poet, patron]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 654)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-129

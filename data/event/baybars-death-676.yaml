@@ -1,0 +1,22 @@
+id: event/baybars-death-676
+class: event
+kind: death
+label: { ar: "وفاة الملك الظاهر بيبرس سنة 676هـ", en: "Death of al-Zahir Baybars, 676" }
+summary:
+  ar: "في نصف المحرم سنة ست وسبعين مرض السلطان بيبرس بقصره الأبلق بمرجة دمشق، وتوفي بعد ثلاثة عشر يوماً — قال الذهبي يوم الخميس لثمانٍ وعشرين من المحرم — فأخفي موته وسار نائبه بيلبك بمحفة يوهم أن السلطان فيها مريض حتى دخل بالجيش مصر، فأظهر موته وعمل العزاء وحلفت الأمراء لولده الملك السعيد. ونقله ولده إلى تربة بنى عليها مدرسة الظاهرية. وكان قد فتح من بلاد الفرنج أربعين حصناً عنوة {cite:shadharat-dhahab p. 610-611}."
+  en: "Mid-Muharram 676 — Baybars sickened at his Ablaq palace by Damascus's hippodrome and died thirteen days later (Dhahabi: Thursday 28 Muharram). His death concealed, the na'ib Bilbak marched the litter south feigning a sick sultan until the army was inside Egypt; then the mourning was declared and the amirs swore to his son al-Malik al-Sa'id. Forty Frankish fortresses had fallen to him by the sword {cite:shadharat-dhahab p. 610-611}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+map: { kind: locator, precision: locality, center: [33.5138, 36.2765] }
+date: { start: { edtf: "1277-06-26~", hijri: "0676-01-28", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الخميس لثمانٍ وعشرين من المحرم سنة ست وسبعين عند الذهبي {cite:shadharat-dhahab p. 611}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: had_participant, target: person/baybars, role: "المتوفى", sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 676)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

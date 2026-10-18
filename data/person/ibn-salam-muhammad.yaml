@@ -1,0 +1,38 @@
+id: person/ibn-salam-muhammad
+class: person
+label: { ar: "ابن سلام الزكي محمد بن الحسن" }
+summary:
+  ar: "ابن سلام المحدث الزكي أبو عبد الله محمد بن الحسن بن سالم بن سلام الدمشقي؛ سمع من داود بن ملاعب وابن البن وطبقتهما وكان إماماً فاضلاً يقظاً متقناً صالحاً ناسكاً على صغره، كتب الكثير وحفظ علوم الحديث للحاكم؛ مات في صفر سنة ثلاثين وستمائة عن إحدى وعشرين عاماً وفُجع به أبوه {cite:shadharat-dhahab p. 140}."
+  en: "Ibn Salam — Muhammad b. al-Hasan of Damascus, a precise and wakeful muhaddith who, despite his youth, had already written much and memorized al-Hakim's hadith sciences; he died in Safar 630 at twenty-one, leaving his father bereft {cite:shadharat-dhahab p. 140}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+born:
+  edtf: "1211~"
+  hijri: "0609~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "عن إحدى وعشرين عاماً عند وفاته سنة 630؛ التحويل مشتق {cite:shadharat-dhahab p. 140}."
+died:
+  edtf: "1232~"
+  hijri: "0630-02"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "مات في صفر سنة ثلاثين عن إحدى وعشرين عاماً؛ التحويل مشتق {cite:shadharat-dhahab p. 140}."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 630)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

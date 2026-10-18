@@ -1,0 +1,27 @@
+id: person/ibn-al-ustadh-aleppo
+class: person
+label: { ar: "ابن الأستاذ قاضي حلب", en: "Ibn al-Ustadh, qadi of Aleppo" }
+names:
+  - { value: "قاضي حلب كمال الدين أحمد بن قاضي القضاة زين الدين عبد الله بن عبد الرحمن بن الأستاذ الأسدي الشافعي المعروف بابن الأستاذ", kind: full }
+born: { edtf: "1214", hijri: "0611", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة إحدى عشرة وستمائة {cite:shadharat-dhahab p. 534}." }
+died: { edtf: "1264-08~", hijri: "0662-10-15~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في نصف شوال سنة اثنتين وستين وستمائة {cite:shadharat-dhahab p. 535}." }
+summary:
+  ar: "قاضي حلب؛ اشتغل في المذهب وبرع في العلوم والحديث وأفتى ودرس وولي القضاء بحلب في الدولتين الناصرية والظاهرية؛ قال الذهبي كان صدراً معظماً وافر الحرمة مجموع الفضائل؛ من تصانيفه شرح الوسيط في نحو عشر مجلدات لكن عز وجود شيء منه والظاهر أنه عدم في فتنة التتار بحلب فإنه أصيب بماله وأهله فيها؛ وقال السبكي له حواش على فتاوى ابن الصلاح تدل على فضل كثير واستحضار للمذهب جيد {cite:shadharat-dhahab p. 534-535}."
+  en: "Qadi of Aleppo under the Nasiri and Zahiri regimes (b. 611) — Dhahabi: 'a grand, honoured figure, an aggregate of virtues'; his ten-volume Sharh al-Wasit survived scarcely at all, presumed lost in the Tatar sack of Aleppo where his wealth and family were struck; al-Subki praises his glosses on Ibn al-Salah's fatwas {cite:shadharat-dhahab p. 534-535}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk, period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/aleppo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 662)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131

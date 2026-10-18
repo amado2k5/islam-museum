@@ -1,0 +1,28 @@
+id: person/al-salih-ismail-ibn-lulu
+class: person
+label: { ar: "الملك الصالح إسماعيل بن لؤلؤ", en: "al-Malik al-Salih Isma'il b. Lu'lu'" }
+names:
+  - { value: "الملك الصالح إسماعيل بن بدر الدين لؤلؤ الأرمني صاحب الموصل", kind: full }
+died: { edtf: "1262-08~", hijri: "0660-09~", calendar: julian, precision: month, status: tradition, derived: true, note: "أبقته التتار أياماً ثم قتلوه وقتلوا ولده علاء الدين الملك سنة ستين وستمائة {cite:shadharat-dhahab p. 308}." }
+summary:
+  ar: "صاحب الموصل بعد أبيه بدر الدين لؤلؤ؛ كان قد سير مع ولده الصالح إسماعيل مدداً لهلاكو سنة خمس وخمسين حين قصد بغداد {cite:shadharat-dhahab p. 278}؛ أخذت التتار الموصل بالخديعة سنة ستين بعد حصار أشهر وبذلوا السيف تسعة أيام وأبقوه أياماً ثم قتلوه وقتلوا ولده علاء الدين الملك {cite:shadharat-dhahab p. 308}."
+  en: "Lord of Mosul after Badr al-Din Lu'lu' — the same prince his father had sent with his contingent to Hulagu's Baghdad campaign in 655; when the Tatars took Mosul by ruse in 660 they spared him days, then killed him and his son Ala al-Din {cite:shadharat-dhahab p. 278, 308}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/badr-al-din-lulu, sources: [source/shadharat-dhahab] }
+  - { type: ruler_of, target: place/mosul, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/tatars-mosul-660, role: "المقتول", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 660)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-130

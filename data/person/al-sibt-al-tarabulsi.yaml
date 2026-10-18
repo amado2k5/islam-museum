@@ -1,0 +1,26 @@
+id: person/al-sibt-al-tarabulsi
+class: person
+label: { ar: "السبط جمال الدين الطرابلسي", en: "al-Sibt Jamal al-Din al-Tarabulsi" }
+names:
+  - { value: "جمال الدين أبو الفضل محمد بن محمد بن أحمد السبط الطرابلسي المالكي", kind: full }
+died: { edtf: "1253-10~", hijri: "0651-10-04~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في رابع شوال سنة إحدى وخمسين وستمائة {cite:shadharat-dhahab p. 260}." }
+summary:
+  ar: "حفيد الحافظ السلفي الأكبر؛ قدم مصر وسمع بها وأجاز وعلوّ إسنادها انقطع به — آخر من انقطع به علوّ الإسناد بمصر؛ توفي في رابع شوال سنة إحدى وخمسين وستمائة {cite:shadharat-dhahab p. 260}."
+  en: "Grandson of the elder hafiz al-Silafi (d. 4 Shawwal 651) — with him Egypt's high-isnad chain finally broke; he taught and granted ijazas there {cite:shadharat-dhahab p. 260}."
+gender: male
+roles: [scholar, muhaddith]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni-maliki
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 651)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

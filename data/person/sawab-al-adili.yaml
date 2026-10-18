@@ -1,0 +1,23 @@
+id: person/sawab-al-adili
+class: person
+label: { ar: "صواب العادلي", en: "Sawab al-Adili" }
+names:
+  - { value: "شمس الدين صواب العادلي الخادم", kind: full }
+died: { edtf: "1235", hijri: "0632", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بحران في رمضان سنة اثنتين وثلاثين وستمائة وكان نائباً عليها للكامل {cite:shadharat-dhahab p. 149}." }
+summary:
+  ar: "مقدم جيش الكامل وأحد من يضرب به المثل في الشجاعة، وكان له من جملة مماليكه مائة خادم فيهم جماعة أمراء؛ توفي بحران في رمضان وكان نائباً عليها للكامل {cite:shadharat-dhahab p. 149}."
+  en: "Shams al-Din Sawab al-Adili (d. Ramadan 632) — al-Kamil's field commander and Harran's governor, a byword for courage whose own retinue included a hundred mamluks, several of them amirs {cite:shadharat-dhahab p. 149}."
+gender: male
+roles: [commander]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/harran, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 632)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

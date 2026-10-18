@@ -1,0 +1,27 @@
+id: person/muin-ibn-tulwa
+class: person
+label: { ar: "المعين ابن تولوا الشاعر", en: "al-Mu'in ibn Tulwa" }
+names:
+  - { value: "المعين بن تولوا الشاعر المشهور عثمان بن سعيد الفهري المصري", kind: full }
+born: { edtf: "1208~", hijri: "0605~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وله ثمانون سنة {cite:shadharat-dhahab p. 663}." }
+died: { edtf: "1286-06~", hijri: "0685-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ربيع الأول بالقاهرة وله ثمانون سنة {cite:shadharat-dhahab p. 663}." }
+summary:
+  ar: "الشاعر المشهور الفهري المصري؛ توفي في ربيع الأول بالقاهرة وله ثمانون سنة {cite:shadharat-dhahab p. 663}."
+  en: "The famous Egyptian poet of the Fihri house — d. Cairo Rabi' I 685 at eighty {cite:shadharat-dhahab p. 663}."
+gender: male
+roles: [poet]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 685)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133

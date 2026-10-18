@@ -1,8 +1,10 @@
 id: person/al-malik-al-kamil
 class: person
 label: { ar: "الملك الكامل محمد بن العادل بن أيوب" }
+born: { edtf: "1180~", hijri: "0576", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ست وسبعين وخمسمائة {cite:shadharat-dhahab p. 172}." }
+died: { edtf: "1238-03-06~", hijri: "0635-07-22", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم الأربعاء بعد العصر ودفن بقلعة دمشق يوم الخميس الثاني والعشرين من رجب سنة خمس وثلاثين وستمائة وأخفوا موته إلى يوم الجمعة فقام الداعي على العريش وترحم عليه ودعا لولده العادل صاحب مصر — شهادة ابن خلكان وكان حاضراً {cite:shadharat-dhahab p. 173}.", sources: [source/shadharat-dhahab] }
 summary:
-  ar: "سلطان أيوبي، أقامه أبوه الملك العادل بمصر بعد ما تملكها لما مات الملك العزيز سنة خمس وتسعين وضعف عن مقاومة الفرنج لما أخذوا دمياط سنة ست عشرة وست مئة فابتنى مدينة عند مفرق البحرين وسماها المنصورة ونزلها بجيشه {cite:tarikh-khulafa-minhaj-1434 p. 694,696}."
+  ar: "سلطان أيوبي، أقامه أبوه الملك العادل بمصر بعد ما تملكها لما مات الملك العزيز سنة خمس وتسعين وضعف عن مقاومة الفرنج لما أخذوا دمياط سنة ست عشرة وست مئة فابتنى مدينة عند مفرق البحرين وسماها المنصورة ونزلها بجيشه {cite:tarikh-khulafa-minhaj-1434 p. 694,696}؛ وتملك المصرية عشرين سنة تحت جناح والده وعشرين بعده، وملك دمشق قبل موته بشهرين بعد أن حصرها وأخذها من ابن أخيه الصالح إسماعيل، وملك حران وآمد وديار الجزيرة؛ قال ابن خلكان كان سلطاناً عظيم القدر محباً للعلماء يبيت عنده كل ليلة جمعة جماعة من الفضلاء وهو معهم كواحد منهم، وخطب له بمكة «صاحب مكة وعبيدها واليمن وزييدها ومصر وصعيدها والشام وصناديدها والجزيرة ووليدها سلطان القبلتين ورب العلامتين خادم الحرمين الشريفين»؛ وبنى بالقاهرة دار حديث ورتب لها وقفاً وبنى على قبر الإمام الشافعي قبة عظيمة؛ توفي بدمشق في رجب سنة خمس وثلاثين {cite:shadharat-dhahab p. 172-173}."
   en: "Ayyubid sultan, set over Egypt by his father al-Adil in 595; when the Franks took Damietta in 616 he founded al-Mansura at the seas' fork and camped there {cite:tarikh-khulafa-minhaj-1434 p. 694,696}."
 gender: male
 wings: [people]
@@ -12,5 +14,5 @@ provenance:
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 694–704"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-44
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

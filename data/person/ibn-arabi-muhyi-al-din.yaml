@@ -2,10 +2,12 @@ id: person/ibn-arabi-muhyi-al-din
 class: person
 label: { ar: "محيي الدين ابن العربي" }
 gender: male
+born: { edtf: "1165", hijri: "0560", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بمرسية سنة ستين وخمسمائة ونشأ بها وانتقل إلى إشبيلية سنة ثمان وسبعين {cite:shadharat-dhahab p. 190}." }
+died: { edtf: "1240", hijri: "0638-04-22", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في الثاني والعشرين من ربيع الآخر سنة ثمان وثلاثين وستمائة بدمشق في دار القاضي محيي الدين بن الزكي وحمل إلى قاسيون فدفن في تربته المعلومة {cite:shadharat-dhahab p. 202}.", sources: [source/shadharat-dhahab] }
 summary:
-  ar: "الشيخ الأكبر محيي الدين بن العربي صاحب الفتوحات؛ ولد ابنه محمد المدعو سعد الدين بملطية في رمضان سنة 618هـ، ودفن سعد الدين عند والده بسفح قاسيون بدمشق {cite:nafh-tib-maqqari p. 172-173}."
-  en: "The 'Greatest Shaykh' Muhyi al-Din Ibn Arabi, author of the Futuhat, buried at the foot of Qasiyun in Damascus where his son Sa'd al-Din was later laid beside him {cite:nafh-tib-maqqari p. 172-173}."
-roles: [scholar]
+  ar: "الشيخ الأكبر محيي الدين بن العربي صاحب الفتوحات والفصوص؛ ولد بمرسية سنة ستين وخمسمائة ونشأ بها وانتقل إلى إشبيلية سنة ثمان وسبعين ثم ارتحل وطاف البلدان فطرق الشام والروم والمشرق ودخل بغداد وحدث بها، وإذا أُطلق «الشيخ الأكبر» في عرف القوم فهو المراد؛ تفرق الناس في شأنه شيعاً — ذهبت طائفة إلى أنه زنديق واعتقد آخرون أنه واسطة عقد الأولياء، وقال السيوطي في تنبيه الغبي إن الصوفية تواضعوا على ألفاظ اصطلاحية لا يصح حملها على متعارفها، ووُصفت فتاوى تكفير من أنكره ومن شك في كفر طائفته وقوفاً بين الطرفين، وكتب ابن كمال باشا وابن عبد السلام فيه ما نُقش فوق ضريحه؛ توفي بدمشق في دار القاضي محيي الدين بن الزكي وحمل إلى قاسيون {cite:shadharat-dhahab p. 190-202}؛ ودفن سعد الدين ابنه عنده بسفح قاسيون {cite:nafh-tib-maqqari p. 172-173}."
+  en: "The 'Greatest Shaykh' Muhyi al-Din Ibn Arabi (b. Murcia 560, d. 22 Rabi' II 638, Damascus, buried at Qasiyun) — author of the Futuhat and Fusus; the Shadharat dossier records the full controversy, from Ibn Abd al-Salam's first 'lying shaykh of evil' to his later qutb verdict and Ibn Kamal Pasha's tomb-inscribed fatwa {cite:shadharat-dhahab p. 190-202}."
+roles: [scholar, mystic]
 wings: [people]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [andalus-europe, levant-iraq]
@@ -14,5 +16,5 @@ provenance:
   source: "نفح الطيب من غصن الأندلس الرطيب للمقري"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-nafh-tib-batch-38
-sources: [source/nafh-tib-maqqari]
+sources: [source/nafh-tib-maqqari, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

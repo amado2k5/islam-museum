@@ -1,0 +1,39 @@
+id: person/al-iylani-muzaffar
+class: person
+label: { ar: "مظفر الدين العيلاني العروضي الأعمى" }
+summary:
+  ar: "أبو العز موفق الدين مظفر بن إبراهيم بن جماعة بن علي بن شامي بن أحمد بن ناهض بن عبد الرزاق العيلاني بالعين المهملة نسبة إلى قيس عيلان؛ الحنبلي الأديب الشاعر العروضي الضرير المصري؛ ولد لخمس بقين من جمادى الآخرة سنة أربع وأربعين وخمسمائة بمصر وسمع الحديث من أبي القاسم بن البستي وابن الصابوني وأبي طاهر السلفي والبوصيري وغيرهم ولقي جماعة من الأدباء وقال الشعر الجيد وبرع في علم العروض وصنف فيه تصنيفاً مشهوراً دل على حذقه؛ أجاب من سأله كيف يعشق وهو أعمى بأبياته المشهورة «أهوى بجارحة السمع ولا أرى ذات المسمى»؛ توفي بمصر سحرة يوم السبت من المحرم سنة ثلاث وعشرين وستمائة ودفن بسفح المقطم {cite:shadharat-dhahab p. 111-112}."
+  en: "Muwaffaq al-Din Muzaffar al-Iylani — Egypt's blind prosodist, born 544, whose celebrated arud treatise proved his mastery and whose rejoinder to 'how can a blind man love?' — 'أهوى بجارحة السمع ولا أرى ذات المسمى' — became proverb; he once solved at a sitting Ibn Khallikan's puzzle of an Abbasid-era verse-form quoted by Abu al-Ala; died dawn Muharram 623, buried at Muqattam's foot {cite:shadharat-dhahab p. 111-112}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [egypt-nile, arabia]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "حنبلي المذهب"
+born:
+  edtf: "1149~"
+  hijri: "0544-06"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "ولد لخمس بقين من جمادى الآخرة سنة أربع وأربعين بمصر؛ التحويل مشتق {cite:shadharat-dhahab p. 111}."
+died:
+  edtf: "1226~"
+  hijri: "0623-01"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي سحرة يوم السبت من المحرم سنة ثلاث وعشرين ودفن بسفح المقطم؛ التحويل مشتق {cite:shadharat-dhahab p. 112}."
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 623)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

@@ -1,0 +1,23 @@
+id: person/yusuf-ibn-haydara
+class: person
+label: { ar: "يوسف بن حيدرة الرخي", en: "Yusuf ibn Haydara al-Rakhi" }
+names:
+  - { value: "أبو الحجاج يوسف بن حيدرة الرخي النيسابوري", kind: full }
+died: { edtf: "1234", hijri: "0631", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي يوم عاشوراء سنة إحدى وثلاثين وقد عاش سبعاً وتسعين سنة ممتعاً بالسمع والبصر {cite:shadharat-dhahab p. 147}." }
+summary:
+  ar: "أبو الحجاج يوسف بن حيدرة الرخي نسبة إلى الرخ ناحية بنيسابور، شيخ الطب بالشام وأحد من انتهت إليه معرفة الفن؛ قدم دمشق مع أبيه حيدرة الكحال سنة خمس وخمسين وخمسمائة ولازم الاشتغال على المهذب ابن النقاش فنوّه باسمه وصار من أطباء صلاح الدين وامتدت أيامه وصارت أطباء البلد تلامذته حتى كان من جملة أصحابه المهذب الدخوار {cite:shadharat-dhahab p. 147}."
+  en: "Yusuf b. Haydara al-Rakhi (d. Ashura 631, aged 97) — dean of medicine in Syria, one of Salah al-Din's physicians; his pupils — among them al-Dakhwar — ran the country's medicine; he died with hearing and sight intact {cite:shadharat-dhahab p. 147}."
+gender: male
+roles: [physician]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 631)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

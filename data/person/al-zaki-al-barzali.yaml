@@ -1,0 +1,27 @@
+id: person/al-zaki-al-barzali
+class: person
+label: { ar: "الزكي البرزالي", en: "al-Zaki al-Barzali" }
+names:
+  - { value: "أبو عبد الله محمد بن يوسف بن محمد بن أبي يداش الإشبيلي البرزالي", kind: full }
+born: { edtf: "1180~", hijri: "0576~", calendar: julian, precision: year, status: tradition, derived: true, note: "مات في 636 وله ستون سنة {cite:shadharat-dhahab p. 190}." }
+died: { edtf: "1239", hijri: "0636-09", calendar: julian, precision: month, status: tradition, derived: true, note: "أدركه أجله بحماة في رمضان سنة ست وثلاثين وستمائة وله ستون سنة {cite:shadharat-dhahab p. 190}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "الحافظ الجوّال محدث الشام ومفيده؛ سمع بالحجاز ومصر والشام والعراق وأصبهان وخراسان والجزيرة فأكثر وجمع فأوعى، وأول طلبه سنة اثنتين وخمسمائة، وأقدم شيوخه عين الشمس الثقفية ومنصور الفراوي؛ أقام بمسجد فلوس بدمشق زماناً طويلاً وتوجه إلى حلب فأدركه أجله بحماة، وهو والد الشيخ علم الدين البرزالي {cite:shadharat-dhahab p. 190}."
+  en: "al-Zaki al-Barzali (d. Ramadan 636, Hama) — 'muhaddith al-Sham wa-mufiduhu', the Sevillan who began his rihla in 512 and heard from Isfahan to the Jazira; father of Alam al-Din al-Barzali {cite:shadharat-dhahab p. 190}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/hama, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 636)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

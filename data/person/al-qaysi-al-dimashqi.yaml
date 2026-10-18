@@ -1,0 +1,27 @@
+id: person/al-qaysi-al-dimashqi
+class: person
+label: { ar: "القيسي الدمشقي الأديب", en: "al-Qaysi al-Dimashqi" }
+names:
+  - { value: "القيسي أحمد بن راشد بن نافع بن القيسي الأديب", kind: full }
+born: { edtf: "1184~", hijri: "0580~", calendar: julian, precision: year, status: tradition, derived: true, note: "عن تسعين سنة عند وفاته سنة اثنتين وسبعين {cite:shadharat-dhahab p. 585}." }
+died: { edtf: "1274-08~", hijri: "0672-12-08", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي لثمان ليال خلون من ذي الحجة عن تسعين سنة {cite:shadharat-dhahab p. 585}." }
+summary:
+  ar: "الأديب الدمشقي؛ صحب ابن خليل وروى عنه الكثير، وكتب بالإنشاء للملك العادل بدمشق ثم الملك بيبرس؛ توفي لثمان خلون من ذي الحجة عن تسعين سنة {cite:shadharat-dhahab p. 585}."
+  en: "Damascus adib — companion and transmitter of Ibn Khalil, insha'-scribe for al-Adil then Baybars; d. 8 Dhu al-Hijja 672 at ninety {cite:shadharat-dhahab p. 585}."
+gender: male
+roles: [writer, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 672)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-132

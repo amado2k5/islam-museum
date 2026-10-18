@@ -1,0 +1,30 @@
+id: person/idris-ibn-yaqub-almohad
+class: person
+label: { ar: "إدريس بن يعقوب المأمون الموحدي" }
+summary:
+  ar: "إدريس بن السلطان يعقوب بن يوسف أبو العلاء المأمون؛ بايعوه بالأندلس ثم جاء إلى مراكش فملكها وعظم سلطانه وكان بطلاً شجاعاً ذا هيبة شديدة وسفك للدماء، قطع ذكر ابن تومرت من الخطبة، ومات غازياً سنة ثلاثين وستمائة {cite:shadharat-dhahab p. 136}."
+  en: "Idris b. Ya'qub al-Ma'mun — acclaimed in al-Andalus then master of Marrakesh, a warrior of fierce awe and bloodshed who struck Ibn Tumart's name from the khutba; he died a ghazi in 630 {cite:shadharat-dhahab p. 136}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb, andalus-europe]
+faith:
+  - value: sunni
+    basis: tradition
+died:
+  edtf: "1232~"
+  hijri: "0630"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "مات غازياً سنة ثلاثين؛ التحويل مشتق {cite:shadharat-dhahab p. 136}."
+relations:
+  - { type: died_in, target: place/marrakesh, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 630)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

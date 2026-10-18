@@ -1,0 +1,28 @@
+id: person/al-mundhiri-nabulsi
+class: person
+label: { ar: "المنذري النابلسي", en: "al-Mundhiri al-Nabulsi" }
+names:
+  - { value: "أبو الطاهر إسماعيل بن مظفر بن أحمد بن إبراهيم المنذري النابلسي الدمشقي الحنبلي", kind: full }
+born: { edtf: "1178", hijri: "0574", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة أربع وسبعين وخمسمائة بدمشق {cite:shadharat-dhahab p. 203}." }
+died: { edtf: "1242", hijri: "0639-10-04", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في رابع شوال بسفح قاسيون ودفن به سنة تسع وثلاثين وستمائة {cite:shadharat-dhahab p. 204}.", sources: [source/shadharat-dhahab] }
+summary:
+  ar: "المحدث الحنبلي النابلسي الدمشقي؛ ارتحل في طلب الحديث إلى الأمصار فسمع بمكة من ابن الحصري وبمصر من البوصيري والأرتاحي والحافظ عبد الغني، وببغداد من المبارك بن كليب وابن الجوزي، وبأصبهان من أبي المكارم اللبان، وبخراسان من عبد المنعم الفراوي والمؤيد الطوسي، وبنيسابور من أبي سعد الصفار، وبحران من الحافظ عبد القادر الرهاوي وانقطع إليه مدة؛ قال عمر بن الحاجب كان عبداً صالحاً صاحب كرامات ذا مروءة مع فقر مدقع، روي عنه الحافظ الضياء والمنذري والبرزالي والقاضي سليمان بن حمزة {cite:shadharat-dhahab p. 203-204}."
+  en: "Abu al-Tahir al-Mundhiri (b. 574 Damascus, d. 4 Shawwal 639 below Qasyun) — the Hanbali whose rihla ran Mecca to Nishapur, long-companion of Abd al-Qadir al-Rahawi at Harran; Ibn al-Hajib: 'a man of karamat and muru'a amid utter poverty' {cite:shadharat-dhahab p. 203-204}."
+gender: male
+roles: [scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/abd-al-qadir-al-rahawi, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 639)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-126

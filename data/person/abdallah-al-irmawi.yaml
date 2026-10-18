@@ -1,0 +1,25 @@
+id: person/abdallah-al-irmawi
+class: person
+label: { ar: "عبد الله الأرموي", en: "Abdallah al-Irmawi" }
+names:
+  - { value: "الشيخ عبد الله بن يونس الأرموي", kind: full }
+died: { edtf: "1234~", hijri: "0631", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة إحدى وثلاثين وستمائة {cite:shadharat-dhahab p. 145}." }
+summary:
+  ar: "الزاهد القدوة صاحب الزاوية بجبل قاسيون؛ كان صالحاً متواضعاً مطرحاً للتكلف يمشي وحده ويشتري الحاجة، وله أحوال ومجاهدات وقدم في الفقر وسافر الأقطار ولقي الأبدال والأبرار، وفي بدايته لا يأوي إلا القفار؛ حكى عن نفسه أنه وقع على حرامية الفرنج فعذبوه وربطوه فلما ناموا جاءت حرامية المسلمين فأيقظهم وأدخلهم مغارة فلما بعدوا سأله الفرنج هلا دللت علينا وتخلصت فقال إني صحبتكم وأكلت خبزكم وفي طريقنا أن الصحبة عزيزة فما رأيت خلاص نفسي بهلاككم فشكروه وأطلقوه {cite:shadharat-dhahab p. 145-146}."
+  en: "Abdallah b. Yunus al-Irmawi (d. 631) — the model ascetic of the Qasyun zawiya; once seized by Frankish robbers, he woke them when Muslim bandits approached and hid them in a cave, refusing to buy his freedom with his captors' lives — 'I ate your bread, and companionship is sacred'; they released him in wonder {cite:shadharat-dhahab p. 145-146}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sufi
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 631)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-125

@@ -1,0 +1,27 @@
+id: person/ibn-abi-al-dam
+class: person
+label: { ar: "ابن أبي الدم الحموي", en: "Ibn Abi al-Dam al-Hamawi" }
+names:
+  - { value: "القاضي شهاب الدين أبو إسحاق إبراهيم بن عبد الله بن عبد المنعم بن علي بن محمد بن فاتك المعروف بابن أبي الدم", kind: full }
+born: { edtf: "1187", hijri: "0583-05", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد بحماة في جمادى الأولى سنة ثلاث وثمانين وخمسمائة {cite:shadharat-dhahab p. 221}." }
+died: { edtf: "1244-11~", hijri: "0642-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الآخرة سنة اثنتين وأربعين وستمائة {cite:shadharat-dhahab p. 221}." }
+summary:
+  ar: "القاضي الشافعي المؤرخ؛ ولد بحماة ورحل إلى بغداد فتفقه بها وسمع بالقاهرة وحدث بها وبكثير من بلاد الشام، وولي قضاء بلده همدان وقضاء حماة أيضاً، وكان إماماً في مذهب الشافعي عالماً بالتاريخ؛ من تصانيفه شرح مشكل الوسيط وأدب القاضي وكتاب في التاريخ والفرق الإسلامية والتاريخ الكبير المظفري {cite:shadharat-dhahab p. 221}."
+  en: "The Shafi'i qadi-historian (b. Hama 583, d. Jumada II 642) — judge of Hamadan then of Hama; author of Sharh Mushkil al-Wasit, Adab al-Qadi, a book on the Islamic sects, and al-Tarikh al-Kabir al-Muzaffari {cite:shadharat-dhahab p. 221}."
+gender: male
+roles: [scholar, jurist, historian]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, persia-central-asia]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: born_in, target: place/hama, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 642)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

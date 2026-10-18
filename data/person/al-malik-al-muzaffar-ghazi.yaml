@@ -1,0 +1,27 @@
+id: person/al-malik-al-muzaffar-ghazi
+class: person
+label: { ar: "الملك المظفر غازي بن العادل", en: "al-Malik al-Muzaffar Ghazi b. al-Adil" }
+names:
+  - { value: "الملك المظفر شهاب الدين غازي بن الملك العادل", kind: full }
+died: { edtf: "1247", hijri: "0645", calendar: julian, precision: year, status: tradition, derived: true, note: "حج من بغداد ثم توفي في هذه السنة وتملك بعده ابنه الملك الكامل ناصر الدين {cite:shadharat-dhahab p. 241}." }
+summary:
+  ar: "ابن الملك العادل؛ كان فارساً شجاعاً وشهماً مهيباً وملكاً جواداً، وكان صاحب ميافارقين وخلاط وحصن منصور وغير ذلك؛ حج من بغداد ثم توفي في هذه السنة وتملك بعده ابنه الشهيد الملك الكامل ناصر الدين {cite:shadharat-dhahab p. 241}."
+  en: "Al-Adil's son (d. 645) — the bold, awe-inspiring lord of Mayyafariqin, Khilat and Hisn Mansur, who performed the hajj out of Baghdad; succeeded by his son the martyred al-Kamil Nasir al-Din {cite:shadharat-dhahab p. 241}."
+gender: male
+roles: [sultan]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, anatolia-balkans]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/al-malik-al-adil-ayyub, sources: [source/shadharat-dhahab] }
+  - { type: ruled_over, target: place/mayyafariqin, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 645)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-127

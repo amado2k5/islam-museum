@@ -1,0 +1,38 @@
+id: person/al-hasan-al-alawi-al-murtada
+class: person
+label: { ar: "الحسن بن الأمير علي المرتضى العلوي" }
+summary:
+  ar: "الحسن بن السيد الأمير علي بن المرتضى أبو محمد العلوي الحسيني؛ آخر من سمع من ابن ناصر، يروي عنه كتاب الذرية الطاهرة؛ توفي في شعبان سنة ثلاثين وستمائة عن ست وثمانين سنة وسماعه في الخامسة من عمره {cite:shadharat-dhahab p. 136}."
+  en: "al-Hasan b. al-Amir Ali b. al-Murtada — the Husayni Alid and last hearer of Ibn Nasir, transmitter of his Kitab al-Dhuriyya al-Tahira; his own audition dated to age five, he died in Sha'ban 630 at eighty-six {cite:shadharat-dhahab p. 136}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+born:
+  edtf: "1149~"
+  hijri: "0544~"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "عن ست وثمانين سنة عند وفاته سنة 630؛ التحويل مشتق {cite:shadharat-dhahab p. 136}."
+died:
+  edtf: "1233~"
+  hijri: "0630-08"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في شعبان سنة ثلاثين؛ التحويل مشتق {cite:shadharat-dhahab p. 136}."
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 630)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

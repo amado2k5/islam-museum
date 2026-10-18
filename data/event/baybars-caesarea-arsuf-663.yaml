@@ -1,0 +1,24 @@
+id: event/baybars-caesarea-arsuf-663
+class: event
+kind: conquest
+label: { ar: "فتح بيبرس قيسارية وأرسوف سنة 663هـ", en: "Baybars takes Caesarea and Arsuf, 663" }
+summary:
+  ar: "قدم السلطان بيبرس سنة ثلاث وستين فحاصر قيسارية وافتتحها عنوة وعصت القلعة أياماً ثم أخذت، ثم نازل أرسوف وأخذها بالسيف في رجب، ثم رجع فسلطن ابنه الملك السعيد في شوال وأركبه بأبهة الملك وله خمس سنين {cite:shadharat-dhahab p. 541}."
+  en: "In 663 Baybars besieged Caesarea and stormed it — the citadel held out days, then fell — then invested Arsuf and took it by the sword in Rajab; that Shawwal he enthroned his five-year-old son al-Malik al-Sa'id in full royal pomp {cite:shadharat-dhahab p. 541}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "المسلمون — جيش الملك الظاهر بيبرس" }
+  - label: { ar: "الفرنج — قيسارية وأرسوف" }
+map: { kind: siege, precision: locality, center: [32.5346, 34.9045] }
+date: { start: { edtf: "1265-04~", hijri: "0663-05~", calendar: julian, precision: month, status: tradition, derived: true, note: "أرسوف في رجب سنة ثلاث وستين {cite:shadharat-dhahab p. 541}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: had_participant, target: person/baybars, role: "الفاتح", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 663)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-131
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

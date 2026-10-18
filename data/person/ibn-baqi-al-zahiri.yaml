@@ -1,0 +1,31 @@
+id: person/ibn-baqi-al-zahiri
+class: person
+label: { ar: "ابن بقي الظاهري قاضي مراكش" }
+summary:
+  ar: "أبو القاسم أحمد بن يزيد بن عبد الرحمن بن أحمد الأموي مولاهم البغوي القرطي ابن بقي؛ قاضي الجماعة، سمع جده أبا الحسن ومحمد بن عبد الحق الخزرجي وأجاز له شريح وجماعة؛ كان ظاهري المذهب مسند أهل المغرب وعالمهم ورئيسهم، ولي القضاء بمراكش مضافاً إلى الغاية العليا وغير ذلك؛ توفي في نصف رمضان سنة خمس وعشرين وستمائة وقد تجاوز ثمانياً وثمانين سنة، وآخر من روى عنه عبد الله بن الحنبلي ببغداد {cite:shadharat-dhahab p. 117}."
+  en: "Ibn Baqi — the Cordoban mawla of the Umayyads, qadi al-jama'a of Marrakesh, the last great Zahiri: musnid, scholar and chief of the Maghreb's men of knowledge; he died mid-Ramadan 625 past eighty-eight, the last of his line hearing him at Baghdad {cite:shadharat-dhahab p. 117}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb, andalus-europe]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "ظاهري المذهب"
+died:
+  edtf: "1228~"
+  hijri: "0625-09-15"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي في نصف رمضان سنة خمس وعشرين عن بضع وثمانين سنة؛ التحويل مشتق {cite:shadharat-dhahab p. 117}."
+relations:
+  - { type: died_in, target: place/marrakesh, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 625)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

@@ -3,6 +3,8 @@ class: person
 label: { ar: "ابن الحاجب" }
 names:
   - { kind: full, lang: ar, value: أبو عمرو عثمان بن عمر بن أبي بكر الكردي الإسناثي }
+born: { edtf: "1174~", hijri: "0570-12~", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد في أواخر سنة سبعين وخمسمائة بأسنا {cite:shadharat-dhahab p. 234}." }
+died: { edtf: "1249-01-02~", hijri: "0646-10-16~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي ضحى نهار الخميس سادس عشرى شوال سنة ست وأربعين وستمائة بالإسكندرية ودفن خارج باب البحر بتربة الشيخ الصالح ابن أبي شامة {cite:shadharat-dhahab p. 235}." }
 summary:
   ar: "ابن الحاجب العلامة أبو عمرو عثمان بن عمر بن أبي بكر الكردي الإسناثي وأسنا بليدة صغيرة من أعمال القوصية بالصعيد الأعلى من مصر ولد في أواخر سنة سبعين وخمسمائة بأسنا وكان أبوه حاجباً للأمير عز الدين موسك الصلاحي فاشتغل هو بالقراءات على الشاطي وغيره وبرع في الأصول والعربية وتفقه في مذهب الإمام مالك قال اليافعي وبلغني أنه كان محباً للشيخ عز الدين بن عبد السلام وأن ابن عبد السلام حين حبس بسبب إنكاره على السلطان دخل معه الحبس موافقة ومراعاة وقال ابن خلكان انتقل إلى دمشق ودرس بها في زاوية المالكية وأكب الناس على الاشتغال عليه توفي سنة ست وأربعين وست مئة {cite:shadharat-dhahab p. 234}."
   en: "Ibn al-Hajib, the Kurdish grammarian of Isnā in Upper Egypt — his father chamberlain to the amir Musak; he mastered qira'at, usul and Arabic, and fiqh on Malik's school. When Ibn Abd al-Salam was jailed for denouncing the sultan, Ibn al-Hajib entered the prison with him in solidarity; he later moved to Damascus and taught in the Maliki zawiya to crowded pupils {cite:shadharat-dhahab p. 234}."
@@ -15,5 +17,9 @@ provenance:
   source: "شذرات الذهب — ابن العماد (ج5، سنة 646)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-shadharat-batch-48
+relations:
+  - { type: died_in, target: place/alexandria, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/alexandria, sources: [source/shadharat-dhahab] }
+  - { type: student_of, target: person/izz-al-din-ibn-abd-al-salam, sources: [source/shadharat-dhahab] }
 sources: [source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
