@@ -1,0 +1,11 @@
+---
+id: passage/quran-41
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## موجز
+سورۃ فصلت: مصحف کی ترتیب میں 41 نمبر کی سورت، مکی، اس کی آیات 54 ہیں، اور نزول کی ترتیب میں سورتوں کے درمیان اس کا نمبر 61 ہے۔ {cite:tanzil-quran}
+
+## المحتوى
+اس کی آیات متحف میں آیت آیت passage/quran-41-<رقم الآية> کے سجلّات کے تحت محفوظ ہیں۔
