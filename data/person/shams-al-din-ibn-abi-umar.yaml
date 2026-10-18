@@ -1,0 +1,28 @@
+id: person/shams-al-din-ibn-abi-umar
+class: person
+label: { ar: "شمس الدين ابن أبي عمر", en: "Shams al-Din ibn Abi Umar" }
+names:
+  - { value: "شيخ الإسلام وبقية الأعلام شمس الدين أبو الفرج عبد الرحمن بن القدوة الزاهد أبي عمر محمد بن أحمد بن قدامة المقدسي الصالحي الحنبلي", kind: full }
+born: { edtf: "1200-10~", hijri: "0597-10", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في أول شوال — وقيل في المحرم — سنة سبع وتسعين وخمسمائة بدير والده بسفح قاسيون {cite:shadharat-dhahab p. 645}." }
+died: { edtf: "1283-06~", hijri: "0682-04~", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي ليلة الثلاثاء سلخ ربيع الآخر سنة اثنتين وثمانين ودفن عند والده بسفح قاسيون، وكانت جنازته مشهودة حضرها أمم لا يحصون {cite:shadharat-dhahab p. 647}." }
+summary:
+  ar: "شيخ الحنابلة بل شيخ الإسلام وفقيه الشام وقدوة العباد وفريد وقته؛ شرح «المقنع» لعمه الموفق في عشر مجلدات ضخمة، وأخذ الأصول عن السيف الآمدي، وانتهت إليه رئاسة المذهب في عصره بل رئاسة العلم في زمانه. جمع ابن الخباز ترجمته وأخباره في مائة وخمسين جزءاً، وقال الذهبي: ما رأيت سيرة عالم أطول منها أبداً. وكان النووي يقول: هو أجل شيوخي. ولي القضاء ما يزيد على اثنتي عشرة سنة على كره منه ولم يتناول عليه معلوماً، وكان متواضعاً عند العامة مترفعاً عند الملوك، وممن أخذ عنه تقي الدين ابن تيمية والمِزّي والبرزالي؛ ومن رثاء ابن تيمية له: سيد أهل الإسلام في زمانه وقطب فلك الأيام في أوانه {cite:shadharat-dhahab p. 645-647}."
+  en: "The Hanbali colossus (b. 597, d. end-Rabi' II 682) — sharh al-Muqni' in ten heavy volumes, usul from al-Amidi, 'the headship of knowledge in his age'; Ibn al-Khabbaz filled 150 parts with his sira ('the longest scholar's life I ever saw' — Dhahabi); al-Nawawi called him 'the greatest of my shaykhs'; judged a dozen years unpaid, then removed himself; Ibn Taymiyya's eulogy: 'sayyid of the people of Islam in his time' {cite:shadharat-dhahab p. 645-647}."
+gender: male
+roles: [jurist, scholar, muhaddith]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: student_of, target: person/sayf-al-din-al-amidi, sources: [source/shadharat-dhahab] }
+  - { type: buried_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 682)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-133
