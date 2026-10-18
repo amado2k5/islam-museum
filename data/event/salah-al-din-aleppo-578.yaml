@@ -1,0 +1,28 @@
+id: event/salah-al-din-aleppo-578
+class: event
+kind: conquest
+label: { ar: "صلاح الدين يأخذ الشمال ويتسلم حلب سنة 578" }
+summary:
+  ar: "في سنة ثمان وسبعين سار صلاح الدين فافتتح حران وسروج وسنجار ونصيبين والرقة ونازل الموصل فحاصرها وتحير من حصانتها ثم جاءه رسول الخليفة بأمره بالترحل عنها فرحل، ورجع فأخذ حلب من عز الدين مسعود الأتابكي وعوضه بسنجار {cite:shadharat-dhahab p. 739}."
+  en: "In 578 Salah al-Din swept the north — Harran, Saruj, Sinjar, Nisibis and al-Raqqa — besieged Mosul till the caliph's envoy ordered him off, then took Aleppo from Izz al-Din Mas'ud in exchange for Sinjar {cite:shadharat-dhahab p. 739}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1182~", hijri: "0578", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 578؛ التحويل مشتق {cite:shadharat-dhahab p. 739}." }
+sides:
+  - label: { ar: "صلاح الدين" }
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "آل زنكي بالموصل وحلب" }
+    commanders: [person/izz-al-din-masud]
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "القائد", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/izz-al-din-masud, role: "صاحب حلب المعوَّض بسنجار", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-119
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
