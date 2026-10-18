@@ -1,5 +1,5 @@
 # Art renders progress
-completed: 251 of 300 (18 Oct 2026 02:04)
+completed: 300 of 300 (18 Oct 2026 03:00)
 
 art3-001-bowl-abbasid
 art3-002-bowl-fatimid
@@ -252,3 +252,52 @@ art3-248-chess-board-almohad
 art3-249-chess-board-seljuk
 art3-250-chess-board-mughal
 art3-251-cabinet-panel-abbasid
+art3-252-cabinet-panel-fatimid
+art3-253-cabinet-panel-mamluk
+art3-254-cabinet-panel-ottoman
+art3-255-cabinet-panel-safavid
+art3-256-cabinet-panel-timurid
+art3-257-cabinet-panel-andalusian
+art3-258-cabinet-panel-almohad
+art3-259-cabinet-panel-seljuk
+art3-260-cabinet-panel-mughal
+art3-261-sundial-abbasid
+art3-262-sundial-fatimid
+art3-263-sundial-mamluk
+art3-264-sundial-ottoman
+art3-265-sundial-safavid
+art3-266-sundial-timurid
+art3-267-sundial-andalusian
+art3-268-sundial-almohad
+art3-269-sundial-seljuk
+art3-270-sundial-mughal
+art3-271-water-basin-abbasid
+art3-272-water-basin-fatimid
+art3-273-water-basin-mamluk
+art3-274-water-basin-ottoman
+art3-275-water-basin-safavid
+art3-276-water-basin-timurid
+art3-277-water-basin-andalusian
+art3-278-water-basin-almohad
+art3-279-water-basin-seljuk
+art3-280-water-basin-mughal
+art3-281-oil-lamp-abbasid
+art3-282-oil-lamp-fatimid
+art3-283-oil-lamp-mamluk
+art3-284-oil-lamp-ottoman
+art3-285-oil-lamp-safavid
+art3-286-oil-lamp-timurid
+art3-287-oil-lamp-andalusian
+art3-288-oil-lamp-almohad
+art3-289-oil-lamp-seljuk
+art3-290-oil-lamp-mughal
+art3-291-comb-abbasid
+art3-292-comb-fatimid
+art3-293-comb-mamluk
+art3-294-comb-ottoman
+art3-295-comb-safavid
+art3-296-comb-timurid
+art3-297-comb-andalusian
+art3-298-comb-almohad
+art3-299-comb-seljuk
+art3-300-comb-mughal
