@@ -267,7 +267,8 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .nav-links .dd > summary::after { content: "▾"; margin-inline-start: 2px; color: var(--muted); font-size: .8em; }
 .nav-links .dd[open] > summary::after { content: "▴"; }
 .dd { position: relative; }
-.dd-menu { position: absolute; top: calc(100% + 8px); inset-inline-start: 0; min-width: 300px; max-width: min(92vw, 420px); background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 1px 2px rgba(10,37,51,.05), 0 8px 24px rgba(10,37,51,.1); padding: 6px; margin: 0; list-style: none; z-index: 60; }
+/* a submenu taller than the viewport scrolls inside itself; overflow-y:auto shows no scrollbar when everything fits */
+.dd-menu { position: absolute; top: calc(100% + 8px); inset-inline-start: 0; min-width: 300px; max-width: min(92vw, 420px); max-height: calc(100vh - 140px); max-height: calc(100dvh - 140px); overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; scrollbar-width: thin; background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 1px 2px rgba(10,37,51,.05), 0 8px 24px rgba(10,37,51,.1); padding: 6px; margin: 0; list-style: none; z-index: 60; }
 .dd-menu a { display: flex; flex-direction: column; gap: 2px; padding: 8px 12px; border-radius: 12px; color: var(--fg); text-decoration: none; }
 .dd-menu a:hover { background: color-mix(in srgb, var(--fg) 6%, transparent); }
 .dd-menu .t { font-weight: 600; line-height: 1.5; display: flex; align-items: center; gap: 8px; }
@@ -277,9 +278,9 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .nav-tools .chip { white-space: nowrap; }
 @media (max-width: 720px) {
   html.js .nav-links { display: none; }
-  html.js .nav-links.open { display: flex; flex-direction: column; align-items: stretch; position: absolute; top: 100%; inset-inline: 0; background: var(--card); border-bottom: 1px solid var(--line); padding: 10px 16px 14px; gap: 0; box-shadow: 0 12px 24px rgba(10,37,51,.12); }
+  html.js .nav-links.open { display: flex; flex-direction: column; align-items: stretch; position: absolute; top: 100%; inset-inline: 0; background: var(--card); border-bottom: 1px solid var(--line); padding: 10px 16px 14px; gap: 0; box-shadow: 0 12px 24px rgba(10,37,51,.12); max-height: calc(100vh - 80px); max-height: calc(100dvh - 80px); overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
   html.js .nav-links.open .top-link, html.js .nav-links.open .dd > summary { padding: 11px 6px; border-bottom: 1px solid var(--line); border-radius: 0; }
-  html.js .nav-links.open .dd-menu { position: static; box-shadow: none; border: 0; min-width: 0; max-width: none; padding: 0 0 6px 10px; }
+  html.js .nav-links.open .dd-menu { position: static; box-shadow: none; border: 0; min-width: 0; max-width: none; max-height: none; overflow: visible; padding: 0 0 6px 10px; }
   html.js .nav-links.open .dd-menu .d { display: none; }
   .nav-tools { margin-inline-start: 0; width: 100%; justify-content: flex-start; }
   .nav-row { flex-wrap: wrap; position: relative; }
