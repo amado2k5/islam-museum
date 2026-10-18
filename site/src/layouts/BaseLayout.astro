@@ -7,6 +7,7 @@ import { wingCountLabel, explorePages } from "../lib/nav";
 import { SHOP } from "../lib/links";
 import { BROWSE_CLASSES, browseSegment } from "../lib/browse";
 import Logo from "../components/Logo.astro";
+import SocialLinks from "../components/SocialLinks.astro";
 // Webfonts sit one hop behind the stylesheet, which delays first paint under throttled networks; the two faces above the fold
 // are preloaded so they fetch in parallel with the CSS instead.
 import naskh400 from "@fontsource/noto-naskh-arabic/files/noto-naskh-arabic-arabic-400-normal.woff2?url";
@@ -146,6 +147,7 @@ const EXPLORE = explorePages(lang);
           <div><h2>{T.footer.follow}</h2><a href="https://github.com/amado2k5/islam-museum/commits/main" rel="noopener">{T.footer.changelog}</a><a href="https://github.com/amado2k5/islam-museum/issues/new/choose" rel="noopener">{T.footer.report}</a><a href="https://github.com/amado2k5/islam-museum/discussions" rel="noopener">{T.footer.discuss}</a><a href={`/${lang}/privacy/`}>{T.footer.privacy_policy}</a></div>
         </div>
         <p class="fine">islam.museum · {T.footer.open} · <a href={`/${lang}/licenses/`}>{T.footer.licenses}</a> · {T.footer.privacy}</p>
+        <SocialLinks title={T.footer.social_title} />
         <p class="fine contact"><a href="mailto:discover@islam.museum">{T.footer.contact}</a></p>
       </div>
     </footer>
