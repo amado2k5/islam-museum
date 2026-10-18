@@ -1,0 +1,38 @@
+id: person/abd-al-salam-ibn-abd-al-qadir
+class: person
+label: { ar: "عبد السلام ابن عبد القادر الجيلي" }
+names:
+  - { value: "الركن عبد السلام بن عبد الوهاب بن عبد القادر الكيلاني", kind: full }
+summary:
+  ar: "الركن عبد السلام بن عبد الوهاب بن عبد القادر الجيلاني؛ ولد ليلة ثامن ذي الحجة سنة ثمان وأربعين وخمسمائة، وسمع من جده ودرس بمدرسته وتفقه بها، وولي عدة ولايات، وكان أديباً كيساً مطبوعاً عارفاً بالمنطق والفلسفة والتنجيم وغير ذلك من العلوم الردية حتى نُسب إلى عقيدة الأوائل — قيل إن والده رأى عليه ثوباً بخارياً فقال: مازلنا نسمع البخاري ومسلم، فأما البخاري وكافر فما سمعناه — وكان غير ضابط للسانه يرمى بالفواحش؛ جرت عليه محنة أيام الوزير ابن يونس فأخرج من داره كتب الفلاسفة ورسائل إخوان الصفا وكتب السحر وعبادة النجوم وفيه مخاطبة لزحل بخطه، فأحرقت كتبه على الملأ وحكم القاضي بتفسيقه وأخرجت مدرسة جده من يد أبيه وفوضت إلى ابن الجوزي، وهو الذي سعى على ابن الجوزي حتى قبض عليه ونزل معه في السفينة إلى واسط وادعى عليه هناك مجلساً حضره القضاة؛ توفي يوم الجمعة لثمان خلون من رجب سنة إحدى عشرة وستمائة ودفن شرقي بغداد، وذكره ابن النجار وذمه ذماً بليغاً وأنه لم يحدث بشيء {cite:shadharat-dhahab p. 16, 53-54}."
+  en: "Al-Rukn Abd al-Salam b. Abd al-Wahhab b. Abd al-Qadir al-Jilani — b. the night of 8 Dhu al-Hijja 548, grandson and student of Abd al-Qadir, holder of several offices; clever, well-bred, versed in logic, philosophy, astrology and 'those bad sciences' until he was charged with the creed of the ancients — his father, seeing a Bukharan gown on him, joked 'we hear Bukhari and Muslim, but a Bukhari who's a kafir we never heard of'. Under wazir Ibn Yunus his house yielded philosophy books, the Ikhwan al-Safa epistles, sorcery and star-worship texts with an address to Saturn in his own hand; his books were publicly burned, he was ruled fasiq, and his grandfather's madrasa was taken from his father and given to Ibn al-Jawzi — the same man he later informed on until the shaykh was arrested and shipped to Wasit, where Abd al-Salam sued him before the qadis. He died Friday 8 Rajab 611, buried east of Baghdad; Ibn al-Najjar reviled him bitterly and says he never transmitted a word {cite:shadharat-dhahab p. 16, 53-54}."
+gender: male
+wings: [people]
+roles: [scholar]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born:
+  edtf: "1154-03~"
+  hijri: "0548-12-08"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "ولد ليلة ثامن ذي الحجة سنة ثمان وأربعين {cite:shadharat-dhahab p. 53}؛ التحويل مشتق."
+died:
+  edtf: "1214-11~"
+  hijri: "0611-07-08"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "توفي يوم الجمعة لثمان خلون من رجب سنة إحدى عشرة ودفن شرقي بغداد {cite:shadharat-dhahab p. 54}؛ التحويل مشتق."
+relations:
+  - { type: child_of, target: person/abd-al-wahhab-ibn-abd-al-qadir, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الخامس، ممسوح مكتبة الحصاد (AAlexandrina-001518)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-122
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
