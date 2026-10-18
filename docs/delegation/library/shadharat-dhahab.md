@@ -72,3 +72,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 104 — سنة 470–475 (al-Muqtadi's accession 468/475).
 - Batch 104 (Devin): AH 473–474 — Ali b. Muhammad al-Sulayhi (the Maswar ascent with 60 sworn men, Najah's poisoning via al-Kudra', killed at al-Mahjam 473 with 160 of his house) + the sulayhid-dynasty polity; al-Baji sourced to Shadharat. Abd al-Qahir al-Jurjani already covered. 2 new + 1 enriched.
 - Next: batch 105 — سنة 475–480 (al-Muqtadi's accession 487 is later; watch for Yemen aftermath: al-Mukarram & Arwa).
+- Batch 105 (Devin): AH 475–476 — Muslim b. Quraysh's sack of Harran (qadi Ibn Julba's pro-Sunni handover bid, the mangonels, the slaughtered qadi and sons) + prose; Abu Ishaq al-Shirazi's death refined to 20 Jumada II 476. 1 new event + 1 prose + 1 enriched.
+- Next: batch 106 — سنة 477–483.

@@ -1,0 +1,25 @@
+id: event/muslim-ibn-quraysh-harran-476
+class: event
+kind: siege
+label: { ar: "أخذ مسلم بن قريش حران وقتل قاضيها" }
+summary:
+  ar: "في سنة ست وسبعين وأربعمائة عزم أهل حران وقاضيهم ابن جلبة الحنبلي على تسليم حران إلى جنق أمير التركمان لكونه سنياً وعصوا على مسلم بن قريش صاحب الموصل لكونه رافضياً ولكونه مشغولاً بمحاصرة دمشق مع المصريين، وكانوا يحاصرون بها تاج الدولة تتش، فأسرع مسلم إلى حران ورماها بالمجانيق وأخذها وذبح القاضي وولديه {cite:shadharat-dhahab p. 350}."
+  en: "In 476 Harran's people and their Hanbali qadi Ibn Julba resolved to hand the city to Janaq the Turkman amir — a Sunni — defying Muslim b. Quraysh, lord of Mosul, whom they counted a Rafidi and who was busy besieging Damascus with the Egyptians against Taj al-Dawla Tutush; Muslim raced to Harran, flung mangonels at it, took it, and slaughtered the qadi and his two sons {cite:shadharat-dhahab p. 350}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "مسلم بن قريش العقيلي" }
+    commanders: [person/muslim-ibn-quraysh]
+  - label: { ar: "أهل حران وقاضيها ابن جلبة" }
+date:
+  start: { edtf: "1083~", hijri: "0476", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 476 {cite:shadharat-dhahab p. 350}." }
+relations:
+  - { type: occurred_at, target: place/harran, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-105
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
