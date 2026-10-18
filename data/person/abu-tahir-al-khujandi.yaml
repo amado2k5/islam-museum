@@ -1,0 +1,26 @@
+id: person/abu-tahir-al-khujandi
+class: person
+label: { ar: "أبو طاهر الخجندي نزيل المدينة", en: "Abu Tahir al-Khujandi of Medina" }
+names:
+  - { value: "أبو طاهر أحمد بن أحمد الأخوي الخجندي الحنفي نزيل المدينة", kind: full }
+born: { edtf: "1320~", hijri: "0720~", calendar: julian, precision: year, status: tradition, derived: true, note: "جاوز الثمانين {cite:shadharat-dhahab p. 24}." }
+died: { edtf: "1399~", hijri: "0802", calendar: julian, precision: year, status: tradition, derived: true, note: "في أموات سنة اثنتين وثمانمائة {cite:shadharat-dhahab p. 24}." }
+summary:
+  ar: "الإمام العلامة الخجندي الحنفي؛ حدّث بجزء عن عز الدين بن جماعة وأشغل الناس بالمدينة أربعين سنة وانتفع به لدينه وعلمه وتوفي وقد جاوز الثمانين {cite:shadharat-dhahab p. 24}."
+gender: male
+roles: [scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [arabia, persia-central-asia]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+relations:
+  - { type: died_in, target: place/medina, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مثنى، ج7، سنة 802)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-136
