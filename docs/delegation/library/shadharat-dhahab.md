@@ -60,3 +60,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 98 — سنة 452–456 (Tughril's death Ramadan 455, Alp Arslan's accession).
 - Batch 98 (Devin): AH 456 — Qutlumush (grandfather of the Rum Seljuqs, killed by Alp Arslan); enriched Ibn Hazm (born last night of Ramadan 384 Cordoba, died 28 Sha'ban 456 in exile at Manta Lisham), al-Kunduri (killed at Marw al-Rudh, head to Nishapur), and merged the Hilali-flight biography + disputed death (456 vs 463) into the existing Ibn Rashiq record. 1 new + 3 enriched.
 - Next: batch 99 — سنة 457–463 (Alp Arslan consolidates, Nizam al-Mulk's rise).
+- Batch 99 (Devin): AH 454–455 — al-Quda'i (Egypt's judge-historian, d. Dhu al-Hijja 454 at Mansura) and Thamal b. Salih the Mirdasid (Byzantine victory at Artah); enriched Tughril Beg (d. Rayy Ramadan 455, buried by his brother's grave) and al-Mu'izz b. Badis (d. Sha'ban 454 of leprosy at 56 — and his famous forcing of the Maghreb onto Malikism). 2 new + 2 enriched.
+- Next: batch 100 — سنة 457–463 (the al-Mustansir famine window, Alp Arslan's campaigns).
