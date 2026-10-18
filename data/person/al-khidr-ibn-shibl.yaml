@@ -1,0 +1,38 @@
+id: person/al-khidr-ibn-shibl
+class: person
+label: { ar: "أبو البركات الخضر بن شبل" }
+names:
+  - { value: "خطيب دمشق أبو البركات الخضر بن شبل بن عبد الله الحارثي الدمشقي", kind: full }
+summary:
+  ar: "خطيب دمشق أبو البركات الخضر بن شبل الحارثي الدمشقي الفقيه الشافعي؛ درّس بالغزالية والمجاهدية وبنى له نور الدين مدرسته التي عند باب الفرج فدرّس بها وتعرف الآن بالعمادية لأن العماد الكاتب درّس بها بعده فاشتهرت به؛ كان واسع الحفظ ثبتاً في الرواية ذا ثروة ظاهرة وعالماً بالمذهب يتكلم في الأصول والخلاف، مولده سنة ست وثمانين وأربعمائة وتوفي في ذي القعدة سنة اثنتين وستين ودفن بباب الفراديس {cite:shadharat-dhahab p. 685-686}."
+  en: "Abu al-Barakat al-Khidr ibn Shibl, khatib of Damascus, Shafi'i jurist; he lectured at the Ghazaliyya and Mujahidiyya, and Nur al-Din built him the madrasa by Bab al-Faraj — now called the Imadiyya after al-Imad the Katib who lectured after him; wide in memory, firm in transmission, master of the madhhab and the khilaf; b. 486, d. Dhu al-Qa'da 562, buried at Bab al-Faradis {cite:shadharat-dhahab p. 685-686}."
+gender: male
+wings: [people]
+roles: [preacher, jurist, scholar]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+born:
+  edtf: "1093~"
+  hijri: "0486"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "مولده سنة ست وثمانين وأربعمائة {cite:shadharat-dhahab p. 686}؛ التحويل مشتق."
+died:
+  edtf: "1167-08~"
+  hijri: "0562-11"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي في ذي القعدة سنة اثنتين وستين ودفن بباب الفراديس {cite:shadharat-dhahab p. 686}؛ التحويل مشتق."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-118
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

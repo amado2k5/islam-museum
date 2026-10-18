@@ -1,0 +1,28 @@
+id: event/salah-al-din-damascus-570
+class: event
+kind: conquest
+label: { ar: "دخول صلاح الدين دمشق بلا قتال سنة 570" }
+summary:
+  ar: "في سنة سبعين وخمسمائة قدم صلاح الدين فأخذ دمشق بلا ضربة ولا طعنة وسار الصالح إسماعيل بن نور الدين الشهيد في حاشيته إلى حلب، ثم سار صلاح الدين فحاصر حمص بالمجانيق ثم أخذ حماة في جمادى الآخرة ثم حاصر حلب وأساء المشورة في حق آل نور الدين ثم رد وتسلم حمص وعطف إلى بعلبك فتسلمها، ثم التقى عز الدين مسعود بن مودود صاحب الموصل فانهزم المواصلة على قرون حماة أسوأ هزيمة، واستناب أخاه سيف الإسلام بدمشق وكان بمصر أخوه العادل {cite:shadharat-dhahab p. 716-717}."
+  en: "In 570 Salah al-Din took Damascus without a blow or a thrust — the young al-Salih Isma'il, Nur al-Din's heir, rode in his entourage to Aleppo — then besieged Homs with mangonels, took Hama in Jumada II, besieged Aleppo, doubled back to Homs and Baalbek, and routed Izz al-Din Mas'ud of Mosul's army at the Qurun of Hama in a crushing defeat; he left his brother Sayf al-Islam over Damascus while al-Adil held Egypt {cite:shadharat-dhahab p. 716-717}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1174~", hijri: "0570", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 570؛ حماة في جمادى الآخرة {cite:shadharat-dhahab p. 716}؛ التحويل مشتق." }
+sides:
+  - label: { ar: "صلاح الدين" }
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "المواصلة" }
+    commanders: [person/izz-al-din-masud]
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "الفاتح", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/izz-al-din-masud, role: "قائد المواصلة المهزومين عند قرون حماة", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-118
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
