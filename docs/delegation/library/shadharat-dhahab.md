@@ -74,3 +74,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 105 — سنة 475–480 (al-Muqtadi's accession 487 is later; watch for Yemen aftermath: al-Mukarram & Arwa).
 - Batch 105 (Devin): AH 475–476 — Muslim b. Quraysh's sack of Harran (qadi Ibn Julba's pro-Sunni handover bid, the mangonels, the slaughtered qadi and sons) + prose; Abu Ishaq al-Shirazi's death refined to 20 Jumada II 476. 1 new event + 1 prose + 1 enriched.
 - Next: batch 106 — سنة 477–483.
+- Batch 106 (Devin): AH 477–479 — the 479 Abbasid-khutba restoration in the two Harams (Ubaydid khutba cut) + prose; al-Udhri Abu al-Abbas the Almerian hafiz (hajj 408, Abu Dharr al-Harawi's teacher, d. Sha'ban 478); enriched Ibn Ammar (killed by al-Mu'tamid's own hand 477 after the Rimaykiyya satire) and corrected zallaqa-504's date to the Shadharat-attested 479. 2 new + 1 prose + 2 enriched.
+- Next: batch 107 — سنة 480–485 (Nizam al-Mulk's murder 485).
