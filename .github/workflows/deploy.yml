@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy islam.museum to Cloudflare Pages
 
 on:
   push:
@@ -7,8 +7,7 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
+  deployments: write
 
 concurrency:
   group: pages
@@ -52,37 +51,51 @@ jobs:
         run: npm ci && npm ci --prefix site
       - name: Validate, compile and build (validate → graph → derive → api → astro → pagefind)
         run: npm run build
+        env:
+          # Pagefind indexes are uploaded to R2 and served from there.
+          # Set PAGEFIND_BASE_URL as a GitHub Actions variable to the R2 public URL.
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
       - name: No runtime AI or compute (guard)
         run: npm run check:static
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload pagefind indexes to R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          ENDPOINT="https://${ACCOUNT_ID}.r2.cloudflarestorage.com"
+          for dir in pagefind-ar pagefind-en pagefind-ur; do
+            aws s3 sync dist/$dir s3://islam-museum-search/$dir \
+              --endpoint-url "$ENDPOINT" \
+              --cache-control "public, max-age=31536000, immutable" \
+              --delete
+          done
+      - name: Strip pagefind from Pages deployment
+        run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur
+      - name: Upload built site
+        uses: actions/upload-artifact@v4
         with:
+          name: dist
           path: dist
+          retention-days: 1
 
   deploy:
     needs: [test, build]
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
-      - name: Purge Cloudflare cache
-        # Needs repository secrets CF_ZONE_ID and CF_API_TOKEN (Zone → Cache Purge). Skipped until they exist.
-        env:
-          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: |
-          if [ -z "$CF_ZONE_ID" ] || [ -z "$CF_API_TOKEN" ]; then
-            echo "Cloudflare secrets not set; skipping cache purge."; exit 0
-          fi
-          curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
-            -H "Authorization: Bearer ${CF_API_TOKEN}" -H "Content-Type: application/json" \
-            --data '{"purge_everything":true}'
+      - name: Download built site
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4"
+          command: pages deploy dist --project-name=islam-museum
 
   # Pings IndexNow with the URLs changed in this push (scripts/indexnow.mjs), so
   # Bing/Yandex pick up new and updated pages without waiting for a crawl.
