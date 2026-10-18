@@ -1,0 +1,20 @@
+id: event/egypt-famine-plague-695
+class: event
+kind: famine
+label: { ar: "قحط مصر ووباؤها سنة 695هـ", en: "Egypt's famine and epidemic, 695" }
+summary:
+  ar: "استُهلّت سنة خمس وتسعين وأهل الديار المصرية في قحط شديد ووباء مفرط حتى أكلوا الجيف، وأُخرج في اليوم الواحد ألف وخمسمائة جنازة، وكانوا يحفرون الحفائر الكبار ويدفنون فيها الجماعة الكثيرة {cite:shadharat-dhahab p. 748}."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+map: { kind: locator, precision: locality, center: [30.0444, 31.2357] }
+date: { start: { edtf: "1295~", hijri: "0695", calendar: julian, precision: year, status: tradition, derived: true, note: "استهلت سنة خمس وتسعين وأهل الديار المصرية في قحط شديد ووباء مفرط {cite:shadharat-dhahab p. 748}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 695)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

@@ -1,0 +1,27 @@
+id: person/ibn-al-nafis
+class: person
+label: { ar: "ابن النفيس", en: "Ibn al-Nafis" }
+names:
+  - { value: "ابن النفيس العلامة علاء الدين علي بن أبي الحزم القرشي الدمشقي الشافعي", kind: full }
+born: { edtf: "1210~", hijri: "0607~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وقد قارب الثمانين {cite:shadharat-dhahab p. 703}." }
+died: { edtf: "1288-11~", hijri: "0687-11-21", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في الحادي والعشرين من ذي القعدة وقد قارب الثمانين {cite:shadharat-dhahab p. 703}." }
+summary:
+  ar: "شيخ الطب بالديار المصرية، ومن انتهت إليه معرفة الطب، مع الذكاء المفرط والذهن الخارق والمشار إليه في الفقه والأصول والحديث والعربية والمنطق؛ ألّف في الطب كتاب «الشامل» الذي تدل فهرسته على أنه يكون ثلثمائة مجلدة بيّض منها ثمانين، وكانت تصانيفه يمليها من حفظه لا يحتاج إلى مراجعة؛ قالوا: لم يكن على وجه الأرض مثله، وقيل لا جاء بعد ابن سينا مثله وكان في العلاج أعظم منه؛ وقف أملاكه وكتبه على المارستان المنصوري ولم يخلف مثله {cite:shadharat-dhahab p. 702-703}."
+  en: "Shaykh of medicine in Egypt — 'nothing like him on earth, nor since Ibn Sina, and greater than him in treatment'; al-Shamil was projected at 300 volumes of which he fair-copied eighty, all dictated from memory; endowed his estate and books to the Mansuri maristan {cite:shadharat-dhahab p. 702-703}."
+gender: male
+roles: [physician, scholar, jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 687)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

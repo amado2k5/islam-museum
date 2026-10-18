@@ -1,0 +1,26 @@
+id: person/ibn-wasil
+class: person
+label: { ar: "ابن واصل قاضي حماة المؤرخ", en: "Ibn Wasil, qadi and historian of Hama" }
+names:
+  - { value: "ابن واصل قاضي حماة جمال الدين أبو عبد الله محمد بن سالم بن نصر الله بن واصل الحموي الشافعي", kind: full }
+died: { edtf: "1298-07~", hijri: "0697-10-22", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بحماة يوم الجمعة الثاني والعشرين من شوال {cite:shadharat-dhahab p. 767}." }
+summary:
+  ar: "قاضي حماة المؤرخ؛ كان إماماً عالماً بعلوم كثيرة خصوصاً العقليات، مفرطاً في الذكاء مداوماً على الاشتغال والتفكر في العلم حتى كان يذهل عمن يجالسه وعن أحوال نفسه، وصنّف تصانيف كثيرة في الأصلين والحكمة والمنطق والعروض والطب والأدبيات {cite:shadharat-dhahab p. 766-767}."
+  en: "Hama's qadi-historian — so absorbed in the rational sciences that he forgot his company and his own state; works across usul, hikma, logic, prosody, medicine and letters {cite:shadharat-dhahab p. 766-767}."
+gender: male
+roles: [historian, jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/hama, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 697)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

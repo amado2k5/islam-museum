@@ -1,0 +1,26 @@
+id: person/izz-al-din-ibn-awad
+class: person
+label: { ar: "عز الدين ابن عواد قاضي القضاة", en: "Izz al-Din ibn 'Awad, qadi al-qudat" }
+names:
+  - { value: "العز بن عواد قاضي القضاة عز الدين أبو محمد عبد الله بن عثمان بن عواد المقدسي الدمشقي الحنبلي", kind: full }
+born: { edtf: "1233~", hijri: "0630~", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي وله ست وستون سنة {cite:shadharat-dhahab p. 762}." }
+died: { edtf: "1296-11~", hijri: "0696-02", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بالقاهرة في صفر سنة ست وتسعين وستمائة {cite:shadharat-dhahab p. 762}." }
+summary:
+  ar: "قاضي القضاة الحنبلي؛ استقضى للشيخ تاج الدين ابن الفركاح مرات وتصدر للقضاء دولة السلطان خليل، وكان آخر من رضع من القضاة بمصر مالكيةً؛ لم يكن له شيخ في الفقه يعنى به، وتوفي بالقاهرة في صفر وله ست وستون سنة {cite:shadharat-dhahab p. 762}."
+gender: male
+roles: [jurist]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile, levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 696)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

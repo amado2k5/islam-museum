@@ -1,0 +1,27 @@
+id: person/qutb-al-din-al-qastallani
+class: person
+label: { ar: "قطب الدين القسطلاني المكي", en: "Qutb al-Din al-Qastallani of Mecca" }
+names:
+  - { value: "ابن القسطلاني الإمام قطب الدين أبو بكر محمد بن أحمد بن علي المصري ثم المكي", kind: full }
+born: { edtf: "1217~", hijri: "0614", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة أربع عشرة وستمائة {cite:shadharat-dhahab p. 695}." }
+died: { edtf: "1287-01~", hijri: "0686-01", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في شهر المحرم سنة ست وثمانين وستمائة {cite:shadharat-dhahab p. 696}." }
+summary:
+  ar: "الإمام المصري ثم المكي؛ تفقه للشافعي وأفتى ورحل سنة تسع وأربعين فسمع ببغداد ومصر والشام والجزيرة، وكان ممن جمع بين العلم والعمل والهيبة والورع؛ وكان بينه وبين ابن سبعين عداوة وينكر عليه بمكة كثيراً من أحواله، وقد صنّف في الطائفة التي تسلك طريق ابن سبعين فبدأ بالحلاج وختم بالعفيف التلمساني؛ وكان مأوى الفقراء والواردين يبرهم ويعينهم، وطُلب من مكة ففوضت له مشيخة دار الحديث الكاملية بالقاهرة {cite:shadharat-dhahab p. 695-696}."
+  en: "The Meccan imam — 'shelter of the fuqara''; wrote against the Ibn Sab'in way, 'beginning with al-Hallaj and ending with Afif al-Tilimsani'; offered the Kamiliyya dar al-hadith in Cairo {cite:shadharat-dhahab p. 695-696}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [arabia, egypt-nile]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/mecca, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 686)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

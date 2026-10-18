@@ -1,0 +1,27 @@
+id: person/najm-al-din-ibn-shabib
+class: person
+label: { ar: "نجم الدين ابن شبيب الحراني", en: "Najm al-Din ibn Shabib" }
+names:
+  - { value: "نجم الدين أبو عبد الله أحمد بن حمدان بن شبيب النميري الحراني الحنبلي الفقيه الأصولي القاضي", kind: full }
+born: { edtf: "1206~", hijri: "0603", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة ثلاث وستمائة بحران {cite:shadharat-dhahab p. 748}." }
+died: { edtf: "1295-12~", hijri: "0695-02-06", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي بالقاهرة يوم الخميس سادس صفر عن اثنتين وتسعين سنة {cite:shadharat-dhahab p. 749}." }
+summary:
+  ar: "الفقيه الأصولي الحراني نزيل القاهرة؛ آخر من روى عن الحافظ عبد القادر الرهاوي، وسمع من الخطيب أبي عبد الله بن تيمية، وجالس ابن عمه مجد الدين بن تيمية وبحث معه كثيراً حتى انتهت إليه معرفة المذهب ودقائقه وغوامضه؛ من تصانيفه «الرعاية الصغرى» و«الرعاية الكبرى» في الفقه وكتاب «الوافي» و«مقدمة في أصول الدين» و«صفة المفتي والمستفتي»؛ وولي نيابة القضاء بالقاهرة وروى عنه الدمياطي والمزي والبرزالي {cite:shadharat-dhahab p. 748-749}."
+  en: "The Harrani Hanbali jurist — last rawi of al-Rahawi, Majd al-Din Ibn Taymiyya's debating companion until the madhhab's subtleties ended with him; author of al-Ri'aya al-Sughra and al-Kubra, al-Wafi, Sifat al-Mufti; Cairo's deputy qadi, dead at ninety-two {cite:shadharat-dhahab p. 748-749}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq, egypt-nile]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/cairo, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 695)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134

@@ -3,19 +3,24 @@ class: event
 kind: conquest
 label: { ar: "أخذ قلاوون طرابلس بالسيف" }
 summary:
-  ar: "وفي سنة ثمان وثمانين أخذ السلطان طرابلس بالسيف وكانت في أيدي الفرنج من سنة ثلاث وخمس مئة إلى الآن وكان أول فتحها في زمن معاوية وأنشأ التاج ابن الأثير كتاباً بالبشارة بذلك إلى صاحب اليمن، وذكر بعضهم أن معنى طرابلس باللسان الرومي ثلاثة حصون مجتمعة {cite:tarikh-khulafa-minhaj-1434 p. 729-730}."
+  ar: "وفي سنة ثمان وثمانين أخذ السلطان طرابلس بالسيف وكانت في أيدي الفرنج من سنة ثلاث وخمس مئة إلى الآن وكان أول فتحها في زمن معاوية وأنشأ التاج ابن الأثير كتاباً بالبشارة بذلك إلى صاحب اليمن، وذكر بعضهم أن معنى طرابلس باللسان الرومي ثلاثة حصون مجتمعة {cite:tarikh-khulafa-minhaj-1434 p. 729-730}. وفي طبعة أرناؤوط: نازلها في ربيع الأول ودام الحصار والقتال ورمي المجانيق الكبار وحفر النقوب ليلاً ونهاراً حتى افتتحها بالسيف في رابع ربيع الآخر، فخربها وتركها خاوية على عروشها ثم أنشأوا مدينة على ميل من شرقيها {cite:shadharat-dhahab p. 705}."
   en: "In 688 the sultan took Tripoli by the sword — Frankish-held since 503, first conquered in Mu'awiya's days. 'Tripolis' in the Roman tongue means three forts joined {cite:tarikh-khulafa-minhaj-1434 p. 729-730}."
 wings: [time]
 periods: [period/mongol-post-mongol]
 regions: [levant-iraq]
+sides:
+  - { label: { ar: "المماليك" }, participants: [person/qalawun] }
+  - { label: { ar: "فرنج طرابلس" } }
+map: { kind: siege, precision: locality, center: [34.4300, 35.8400] }
 date:
-  start: { edtf: "1289~", hijri: "0688", calendar: julian, precision: year, status: tradition, derived: true, note: "688؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 729}." }
+  start: { edtf: "1289-04~", hijri: "0688-04", calendar: julian, precision: month, status: tradition, derived: true, note: "نازلها في ربيع الأول وافتتحها بالسيف في رابع ربيع الآخر {cite:shadharat-dhahab p. 705}؛ التحويل مشتق {cite:tarikh-khulafa-minhaj-1434 p. 729}." }
 relations:
   - { type: had_participant, target: person/qalawun, role: "الفاتح", sources: [source/tarikh-khulafa-minhaj-1434] }
+  - { type: occurred_at, target: place/tarabulus-sham, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-tarikh-khulafa-batch-47
-sources: [source/tarikh-khulafa-minhaj-1434]
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

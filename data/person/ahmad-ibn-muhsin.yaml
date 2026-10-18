@@ -1,0 +1,26 @@
+id: person/ahmad-ibn-muhsin
+class: person
+label: { ar: "أحمد بن محسن البعلبكي", en: "Ahmad ibn Muhsin al-Ba'labakki" }
+names:
+  - { value: "شهاب الدين أبو العباس أحمد بن محسن بن أبي حبيب الحريري البعلبكي الشافعي", kind: full }
+born: { edtf: "1220-09~", hijri: "0617-09", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد في رمضان سنة سبع عشرة وستمائة ببعلبك {cite:shadharat-dhahab p. 777}." }
+died: { edtf: "1300-02~", hijri: "0699-05", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في جمادى الأولى سنة تسع وتسعين وستمائة {cite:shadharat-dhahab p. 777}." }
+summary:
+  ar: "الفقيه الشافعي البعلبكي؛ قدم دمشق وتفقه على زين الدين عبد الرحيم بن غانم وسمع من الحافظ القاسم الدمياطي، وكان مناظراً يكثر الكلام ويستدل بغير ما به التدليل في الرامز من الأعيان، واتهم بحسب المصدر بمعاص وشهادات زور أثبتها عليه السلطان؛ قال السبكي: ما مر بي في الشافعية مثله {cite:shadharat-dhahab p. 777}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-shafii
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 699)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-135

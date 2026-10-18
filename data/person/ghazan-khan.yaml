@@ -2,11 +2,19 @@ id: person/ghazan-khan
 class: person
 label: { ar: "قازان بن أرغون بن أبغا بن هولاكو" }
 summary:
-  ar: "ملك التتار، دخل في الإسلام سنة أربع وتسعين وست مئة وفرح الناس بذلك وفشا الإسلام في جيشه {cite:tarikh-khulafa-minhaj-1434 p. 731}."
+  ar: "ملك التتار، دخل في الإسلام سنة أربع وتسعين وست مئة وفرح الناس بذلك وفشا الإسلام في جيشه {cite:tarikh-khulafa-minhaj-1434 p. 731}؛ وفي شذرات الذهب أن شيخ الشيوخ صدر الدين ابن حموية الجويني أخبر الذهبي سنة خمس وتسعين أن غازان أسلم على يده بواسطة نائبه نوروز وكان يوماً مشهوداً {cite:shadharat-dhahab p. 748}."
   en: "King of the Tatars, Hulagu's great-grandson; his conversion in 694 rejoiced the people and spread Islam through his army {cite:tarikh-khulafa-minhaj-1434 p. 731}."
 gender: male
+roles: [sultan]
 wings: [people]
 periods: [period/mongol-post-mongol]
+regions: [persia-central-asia]
+faith:
+  - value: sunni
+    basis: documented
+relations:
+  - { type: child_of, target: person/arghun-khan, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/ghazan-islam-694, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 723–734"

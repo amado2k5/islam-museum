@@ -1,0 +1,27 @@
+id: person/taqi-al-din-ibn-al-wasiti
+class: person
+label: { ar: "تقي الدين الواسطي بركة الشام", en: "Taqi al-Din al-Wasiti, Syria's blessing" }
+names:
+  - { value: "تقي الدين أبو إسحاق إبراهيم بن علي بن أحمد بن فضل بن الواسطي الصالحي الفقيه الحنبلي الزاهد", kind: full }
+born: { edtf: "1205~", hijri: "0602", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وستمائة {cite:shadharat-dhahab p. 733}." }
+died: { edtf: "1293-05~", hijri: "0692-06", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي آخر نهار الجمعة في جمادى الآخرة ودفن بتربة الشيخ موفق الدين {cite:shadharat-dhahab p. 734}." }
+summary:
+  ar: "شيخ الإسلام بركة الشام وقطب الوقت؛ رحل في طلب الحديث فسمع ببغداد والموصل وحلب وحران، ودرّس بالصاحبة بقاسيون نحو عشرين سنة وولي في آخر عمره مشيخة دار الحديث الظاهرية؛ قال ابن الزملكاني في حقه: مبالغاً في إنكار المنكر لا يبالي على من أنكر، داعيةً إلى عقيدة أهل السنة والسلف الصالح؛ وقال البرزالي: تفرد بعلو الإسناد وكثرة الروايات والعبادة ولم يخلف مثله {cite:shadharat-dhahab p. 733-734}."
+  en: "'Syria's blessing, the pole of the age' — twenty years at the Sahibiyya, the Zahiriyya dar al-hadith at the end; al-Barzali: 'unique in isnad-loftiness, transmission and worship, and left no like' {cite:shadharat-dhahab p. 733-734}."
+gender: male
+roles: [jurist, scholar, teacher]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanbali
+    basis: tradition
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج7، سنة 692)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-134
