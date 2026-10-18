@@ -8,7 +8,7 @@ gender: male
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
-died: { edtf: "1066~", hijri: "0458", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 458هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 214}." }
+died: { edtf: "1066~", hijri: "0458-09-19", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي في تاسع عشر رمضان سنة 458 عن ثمان وسبعين سنة وكان قد ولي قضاء الحريم {cite:shadharat-dhahab p. 314; kashf-zunun-furqan p. 214}." }
 relations:
   - { type: authored, target: work/al-ahkam-al-sultaniyya-abu-yala, sources: [source/kashf-zunun-furqan] }
 provenance:
@@ -16,5 +16,5 @@ provenance:
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 214 مدخل 142"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-11
-sources: [source/kashf-zunun-furqan]
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

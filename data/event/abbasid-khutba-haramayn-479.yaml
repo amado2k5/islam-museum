@@ -1,0 +1,22 @@
+id: event/abbasid-khutba-haramayn-479
+class: event
+kind: declaration
+label: { ar: "إعادة الخطبة العباسية بالحرمين سنة 479" }
+summary:
+  ar: "في سنة تسع وسبعين وأربعمائة أعيدت الخطبة العباسية بالحرمين وقطعت خطبة العبيديين {cite:shadharat-dhahab p. 366}."
+  en: "In 479 the Abbasid khutba was restored in the two Harams and the Ubaydid khutba cut off {cite:shadharat-dhahab p. 366}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [arabia]
+date:
+  start: { edtf: "1086~", hijri: "0479", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 479؛ التحويل مشتق {cite:shadharat-dhahab p. 366}." }
+relations:
+  - { type: occurred_at, target: place/mecca, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/medina, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-106
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

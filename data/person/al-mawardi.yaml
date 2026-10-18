@@ -8,7 +8,7 @@ gender: male
 wings: [people]
 periods: [period/buyid-seljuk-fatimid-era]
 regions: [levant-iraq]
-died: { edtf: "1058~", hijri: "0450", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 450هـ؛ التحويل مشتق {cite:kashf-zunun-furqan p. 518}." }
+died: { edtf: "1058~", hijri: "0450-03", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي في ربيع الأول سنة خمسين وأربعمائة بعد موت أبي الطيب بأحد عشر يوماً عن ست وثمانين سنة، ولم يكن أبرز شيئاً من مصنفاته في حياته حتى أوصى بها عند موته {cite:shadharat-dhahab p. 294; kashf-zunun-furqan p. 518}." }
 relations:
   - { type: authored, target: work/alam-al-tubwa, sources: [source/kashf-zunun-furqan] }
   - { type: authored, target: work/al-ahkam-al-sultaniyya-mawardi, sources: [source/kashf-zunun-furqan] }
@@ -19,5 +19,5 @@ provenance:
   source: "كشف الظنون لحاجي خليفة (ط الفرقان) ج١ ص 518 مدخل 1335"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-kashf-batch-6
-sources: [source/kashf-zunun-furqan]
+sources: [source/kashf-zunun-furqan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

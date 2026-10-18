@@ -1,17 +1,19 @@
 id: person/ibn-rashiq-al-qayrawani
 class: person
 label: { ar: "ابن رشيق القيرواني", en: "Ibn Rashiq al-Qayrawani" }
-died: { edtf: "1064~", hijri: "0456", calendar: julian, precision: year, status: tradition, derived: true, note: "قرابة سنة 456هـ — النص المقروء غير واضح في التاريخ." }
+born: { edtf: "1000~", hijri: "0390", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد بالمهدية سنة تسعين وثلاثمائة على قول غير ابن بسام {cite:shadharat-dhahab p. 306}." }
+died: { edtf: "1071~", hijri: "0463", calendar: julian, precision: year, status: debated, derived: true, note: "مات سنة 456 على رواية ابن الأثير، وقيل سنة 463 وهو الأصح {cite:shadharat-dhahab p. 306}." }
 summary:
-  ar: "أبو علي الحسن بن رشيق المعروف بالقيرواني؛ صاحب الخطب المشهورة والرسائل المحيرة، كان من فرسان النثر وقال القاضي الفاضل إن جل اعتماده كان على حفظ كلامه، وذكره عماد الدين الأصبهاني في الخريدة وابن بسام في الذخيرة، وله كتاب الشذوذ في اللغة وغيره من التصانيف {cite:wafayat-ayan}."
+  ar: "أبو علي الحسن بن رشيق المعروف بالقيرواني؛ صاحب الخطب المشهورة والرسائل المحيرة، كان من فرسان النثر وقال القاضي الفاضل إن جل اعتماده كان على حفظ كلامه، وذكره عماد الدين الأصبهاني في الخريدة وابن بسام في الذخيرة، وله كتاب الشذوذ في اللغة وغيره من التصانيف {cite:wafayat-ayan}. وله التصانيف الحسنة منها كتاب العمدة في صناعة الشعر ونقده وكتاب الأنموذج والسائل الفاتك والنظم الجميل؛ كان أبوه مملوكاً رومياً صائغاً بالمحمدية، وقرأ الأدب بها وقال الشعر ثم ارتحل إلى القيروان واشتهر بها ومدح صاحبها واتصل بخدمته، ولم يزل بها حتى هجم العرب القيروان وقتلوا أهلها وأخربوها فانتقل إلى جزيرة صقلية وأقام بها إلى أن مات {cite:shadharat-dhahab p. 305-306}."
   en: "Ibn Rashiq al-Qayrawani — master of ornate prose and author of al-Umda on the virtues of poetry; al-Qadi al-Fadil prized his speech, and he is quoted by al-Imad in the Kharida and Ibn Bassam in the Dhakhira {cite:wafayat-ayan}."
 gender: male
 wings: [people]
-periods: [period/crusades-ayyubid-mamluk]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [maghreb]
 provenance:
   layer: own-research
   source: "وفيات الأعيان لابن خلكان — المسح المحلي المقروء بآبل فيجن (الجزء الأول)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
   run: lib-wafayat-batch-5
-sources: [source/wafayat-ayan]
+sources: [source/wafayat-ayan, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

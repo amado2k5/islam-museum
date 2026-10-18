@@ -1,0 +1,22 @@
+id: event/hakim-women-confinement-405
+class: event
+kind: law-enacted
+label: { ar: "الحاكم يمنع نساء مصر من الخروج" }
+summary:
+  ar: "في سنة خمس وأربعمائة منع الحاكم بأمر الله النساء في مصر من الخروج من بيوتهن أبداً ومن دخول الحمّامات، وأبطل صنعة الخفاف لهن، وقتل عدة نسوة خالفن أمره وغرّق جماعة من العجائز {cite:shadharat-dhahab p. 173}."
+  en: "In 405 al-Hakim bi-Amr Allah forbade the women of Egypt ever to leave their houses or enter the bathhouses, abolished women's shoemaking so they could not be shod for the street, and had several women who defied the order killed and a group of old women drowned {cite:shadharat-dhahab p. 173}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1014~", hijri: "0405", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 405 {cite:shadharat-dhahab p. 173}." }
+relations:
+  - { type: had_participant, target: person/al-hakim-bi-amr-illah, role: decree-issuer, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/misr, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-89
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

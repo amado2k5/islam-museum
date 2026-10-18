@@ -1,0 +1,22 @@
+id: person/abu-kalijar
+class: person
+label: { ar: "الملك أبو كاليجار بن سلطان الدولة" }
+summary:
+  ar: "الملك أبو كاليجار بن سلطان الدولة بن بهاء الدولة بن عضد الدولة، كان وليّ عهد أبيه؛ لما مات السلطان شرف الدولة سنة ست عشرة وأربعمائة عدل الجند إليه ونوّهوا باسمه فخُطب له ببغداد {cite:shadharat-dhahab p. 204}."
+  en: "Al-Malik Abu Kalijar b. Sultan al-Dawla — his father's designated heir; when Sultan Sharaf al-Dawla died in 416 the army went over to him and proclaimed his name, and he was given the khutba at Baghdad {cite:shadharat-dhahab p. 204}."
+gender: male
+born: { edtf: "1008~", hijri: "0399", calendar: julian, precision: year, status: tradition, derived: true, note: "ولادته بالبصرة سنة تسع وتسعين وثلاثمائة {cite:shadharat-dhahab p. 263}." }
+died: { edtf: "1048~", hijri: "0440", calendar: julian, precision: year, status: tradition, derived: true, note: "مات بطريق كرمان سنة أربعين وأربعمائة، وهجم عليه في يوم ثلاث مرات وكان معه نحو أربعة آلاف من الترك والديلم فنُهبت خزائنه وحريمه وجواريه، وطلبوا شيراز فسلطنوا ابنه الملك الرحيم؛ وكانت مدته أربع سنين {cite:shadharat-dhahab p. 263}." }
+roles: [ruler]
+wings: [people]
+periods: [period/abbasid-early]
+relations:
+  - { type: child_of, target: person/sultan-al-dawla, sources: [source/shadharat-dhahab] }
+  - { type: parent_of, target: person/al-malik-al-rahim, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-89
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

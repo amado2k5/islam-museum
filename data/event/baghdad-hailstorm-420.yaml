@@ -1,0 +1,21 @@
+id: event/baghdad-hailstorm-420
+class: event
+kind: other
+label: { ar: "برد العراق العظيم" }
+summary:
+  ar: "في سنة عشرين وأربعمائة وقع بالنعمانية من العراق بردٌ عظام إلى الغاية كل واحدة رطل وأكثر حتى قيل إن بردةً وُجدت تزيد على قنطار، وقد نزلت في الأرض نحو نصف ذراع فكانت كالثور البارك، وفي تاريخ لم يُسمع بمثلها؛ قلعت الأصول العاتية من الزيتون والتفاح {cite:shadharat-dhahab p. 214}."
+  en: "In 420 giant hailstones fell at al-Nu'maniyya in Iraq — each a pound or more, one said to exceed a qintar, punching half a cubit into the ground like a couched bull; a fall the annals had never heard the like of, uprooting great olive and apple trees {cite:shadharat-dhahab p. 214}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1029~", hijri: "0420", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 420 {cite:shadharat-dhahab p. 214}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-91
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

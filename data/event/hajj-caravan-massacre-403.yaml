@@ -1,0 +1,24 @@
+id: event/hajj-caravan-massacre-403
+class: event
+kind: massacre
+label: { ar: "مذبحة فليتة بن القرى لركب الحج" }
+summary:
+  ar: "في سنة ثلاث وأربعمائة سبق بدويّ اسمه فليتة بن القرى الحاجّ في ستمائة إنسان من بني خفاجة قبيلته ففجّر الآبار وطرح الحنظل في مصانع البرمكي والريان وغورهما، فلما جاء الركب إلى العقبة حبسهم ومنعهم العبور إلا بخمسين ألف دينار، فلما ضعفوا وعطشوا هجم عليهم فسلّموا أنفسهم فاحتوى على الجمال بالأحمال فاستاقها، وهلك الركب بالعطش فقيل إنه هلك خمسة عشر ألف إنسان؛ فأمّر فخر الدولة الوزيرَ عليَّ بن مزيد فأدركهم بناحية البصرة فظفر بهم وقتل طائفة كثيرة وأسر والد فليتة والمشتر وأربعة عشر رجلاً، فعُطّشوا الأسرى على جانب دجلة يرون الماء ولا يُسقون حتى هلكوا {cite:shadharat-dhahab p. 166}."
+  en: "In 403 the Bedouin Fulayta b. al-Qarri' of Banu Khafaja spoiled the wells and blocked the Hajj caravan at the pass until they paid fifty thousand dinars; when they weakened with thirst he fell on them — some fifteen thousand pilgrims died. Fakhr al-Dawla's vizier Ali b. Mazid overtook the raiders near Basra, took Fulayta's father and fourteen men, and left them to die of thirst within sight of the Tigris {cite:shadharat-dhahab p. 166}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [arabia, levant-iraq]
+date:
+  start: { edtf: "1012~", hijri: "0403", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 403 {cite:shadharat-dhahab p. 166}." }
+sides:
+  - label: { ar: "فليتة بن القرى وأعوانه من بني خفاجة" }
+  - label: { ar: "ركب الحج" }
+relations:
+  - { type: occurred_at, target: place/iraq, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-89
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

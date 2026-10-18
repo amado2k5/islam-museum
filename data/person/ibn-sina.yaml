@@ -9,7 +9,7 @@ names:
   - { kind: latinized, lang: la, value: Avicenna }
 gender: male
 born: { edtf: "0980~", hijri: "0370~", calendar: julian, precision: year, status: historical, note: "Traditional date; his biography implies 980, some give 973.", sources: [source/shadharat-dhahab, source/gutas-2014] }
-died: { edtf: "1037-06", hijri: "0428-09", calendar: julian, precision: month, status: historical, sources: [source/gutas-2014] }
+died: { edtf: "1037-06", hijri: "0428-09", calendar: julian, precision: month, status: historical, sources: [source/gutas-2014, source/shadharat-dhahab], note: "مات بهمدان يوم جمعة في شهر رمضان سنة ثمان وعشرين وأربعمائة وعاش ثلاثاً وخمسين سنة؛ اغتسل وتاب وتصدّق بما معه على الفقراء ورد المظالم وأعتق مماليكه وجعل يختم في كل ثلاثة أيام ختمة {cite:shadharat-dhahab p. 234}." }
 roles: [physician, philosopher, astronomer, vizier, poet]
 disciplines: [concept/medicine, concept/falsafa, concept/logic]
 traditions: [sunni-hanafi]
@@ -48,5 +48,5 @@ perspectives:
     summary: { en: "His father served the Samanids and is reported to have been Ismaili; Ibn Sina's own confessional identity is debated, and his philosophy was attacked by al-Ghazali and defended by later thinkers.", ar: "يشير المؤرخون إلى أن والده يُروى أنه كان إسماعيليًّا، وأن انتماء ابن سينا المذهبي نفسه محل خلاف." }
     sources: [source/gutas-2014]
 external_ids: { wikidata: Q8011, viaf: "31996761" }
-sources: [source/gohlman-1974, source/gutas-2014]
+sources: [source/gohlman-1974, source/gutas-2014, source/shadharat-dhahab]
 status: { review: draft, completeness: 3, generated_by: "Claude Sonnet 5.5 (scaffold from docs/plan/02 §10)" }

@@ -1,0 +1,23 @@
+id: event/qaim-tughril-sister-marriage-448
+class: event
+kind: other
+label: { ar: "زواج القائم بأمر الله بأخت طغرل بك" }
+summary:
+  ar: "في سنة ثمان وأربعين وأربعمائة تزوج القائم بأمر الله بأخت طغرل بك، وتمكن القائم وعظمت الخلافة بسلطنة طغرل بك {cite:shadharat-dhahab p. 278}."
+  en: "In 448 the caliph al-Qa'im bi-Amr Allah married Tughril Beg's sister; al-Qa'im's position was secured and the caliphate magnified by Tughril's sultanate {cite:shadharat-dhahab p. 278}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1056~", hijri: "0448", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 448؛ التحويل مشتق {cite:shadharat-dhahab p. 278}." }
+relations:
+  - { type: had_participant, target: person/al-qaim-billah, role: "العريس", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/tughrul-beg, role: "أخو العروس", sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-96
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "SWE-2 High" }

@@ -1,0 +1,24 @@
+id: event/somnath-raid-416
+class: event
+kind: raid
+label: { ar: "محمود الغزنوي يكسر صومنات" }
+summary:
+  ar: "في سنة ثمان عشرة وأربعمائة ورد كتاب الملك محمود بن سبكتكين بما فتحه من بلاد الهند وكسر صومنات، ووصف أن أهلها كانوا يأتونه من كل فج عميق ويقربون له القرابين حتى بلغت أوقافه عشرة آلاف قرية وامتلأت خزانة الصنم بالأموال وله ألف نفس يخدمونه وثلاثمائة يحلقون لحاجه وثلاثمائة يغنون؛ فنهض في شعبان سنة ست عشرة وأربعمائة في ثلاثين ألف فارس سوى المتطوعة ووصل إلى بلد الصنم فملك الصنم والبلاد وأُوقدت النيران على الصنم حتى تقطّع، وقُتل خمسون ألفاً من أهل البلد {cite:shadharat-dhahab p. 209}."
+  en: "In 418 Mahmud b. Sabuktigin's letter arrived describing his conquests in India and the breaking of Somnath — the idol whose endowments had reached ten thousand villages, served by a thousand attendants, three hundred barbers and three hundred singers. He had set out in Sha'ban 416 with thirty thousand cavalry besides volunteers, took the idol-town and the lands, had fire set on the idol until it broke apart, and fifty thousand of the townsfolk were killed {cite:shadharat-dhahab p. 209}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [south-asia]
+sides:
+  - label: { ar: "محمود بن سبكتكين وجنده" }
+    commanders: [person/mahmud-ghaznawi]
+  - label: { ar: "أهل بلد صومنات" }
+date:
+  start: { edtf: "1025~", hijri: "0416-08", calendar: julian, precision: month, status: tradition, derived: true, note: "نهض في شعبان سنة ست عشرة وأربعمائة؛ وورد كتابه بالفتح سنة 418 {cite:shadharat-dhahab p. 209}." }
+relations: []
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-90
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

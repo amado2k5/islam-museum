@@ -1,0 +1,22 @@
+id: event/al-ghazali-damascus-retreat-488
+class: event
+kind: other
+label: { ar: "قدوم الغزالي دمشق متزهداً سنة 488" }
+summary:
+  ar: "في سنة ثمان وثمانين وأربعمائة قدم الإمام الغزالي دمشق متزهداً وصنف الإحياء وأسمعه بدمشق، وأقام بها سنتين ثم حج ورد إلى وطنه {cite:shadharat-dhahab p. 384}."
+  en: "In 488 Imam al-Ghazali came to Damascus in zuhd, composed the Ihya' and had it read back to him there, stayed two years, then made hajj and returned home {cite:shadharat-dhahab p. 384}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1095~", hijri: "0488", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 488؛ أقام بها سنتين {cite:shadharat-dhahab p. 384}." }
+relations:
+  - { type: occurred_at, target: place/damascus, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-ghazali-abu-hamid, role: "الزاهد مصنف الإحياء", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-108
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

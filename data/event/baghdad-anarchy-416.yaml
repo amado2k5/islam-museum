@@ -1,0 +1,26 @@
+id: event/baghdad-anarchy-416
+class: event
+kind: civil-war
+label: { ar: "موت السلطان شرف الدولة وفوضى بغداد" }
+summary:
+  ar: "في سنة ست عشرة وأربعمائة مات السلطان شرف الدولة ونُهبت خزائنه، وتسلطن جلال الدولة أبو طاهر ولد بهاء الدولة وهو بالبصرة فخلع على وزيره علم الدين شرف الملك أبي سعيد بن ماكولا، ثم إن الجند عدلوا إلى الملك أبي كاليجار ونوّهوا باسمه وكان وليّ عهد أبيه سلطان الدولة فخُطب له ببغداد؛ واخْتَبط الناس وأخذت العيّارون الناس جهاراً وكانوا يمشون بالليل بالشمع والمشاعل ويكبسون البيت ويأخذون صاحبه ويعذبونه حتى يقرّ لهم بذخائره، وأحرقوا دار الشريف المرتضى ولم يخرج ركب من بغداد {cite:shadharat-dhahab p. 204}."
+  en: "In 416 Sultan Sharaf al-Dawla died and his treasuries were looted; Jalal al-Dawla Abu Tahir b. Baha' al-Dawla succeeded from Basra, but the soldiery defected to al-Malik Abu Kalijar, heir of his father Sultan al-Dawla, who was proclaimed at Baghdad. The city broke down: night-roaming gangs robbed openly, broke into houses and tortured owners for their hoards, burned the house of al-Sharif al-Murtada, and no caravan left Baghdad {cite:shadharat-dhahab p. 204}."
+wings: [time]
+periods: [period/abbasid-early]
+regions: [levant-iraq]
+sides:
+  - label: { ar: "جلال الدولة بن بهاء الدولة" }
+    commanders: [person/jalal-al-dawla]
+  - label: { ar: "الملك أبو كاليجار بن سلطان الدولة" }
+    commanders: [person/abu-kalijar]
+date:
+  start: { edtf: "1025~", hijri: "0416", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 416 {cite:shadharat-dhahab p. 204}." }
+relations:
+  - { type: occurred_at, target: place/baghdad, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الثالث، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-89
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
