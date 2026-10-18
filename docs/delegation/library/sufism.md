@@ -22,7 +22,43 @@ None recorded yet. Pre-check counts (18 Oct 2026, `grep -ril` over `data/`) are 
 
 ## Downloads
 
-None yet.
+Pre-download record. Each file is named by its archive.org identifier; the titles were checked only by the fetcher's token match, so each one must be confirmed against the book before OCR.
+
+### risalat-qushayri
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get Library.mmn_20160412  0.02 GiB  الرسالة القشيرية
+- would get rquchairya  0.03 GiB  الرسالة القشيرية
+
+### luma-sarraj
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get al-luma_fit_tasawwuf_202506  0.03 GiB  اللمع في التصوف - ت الجادر للشاملة
+- would get al-luma_fit_tasawwuf  0.01 GiB  اللمع في التصوف - ت نيكلسون للشاملة
+
+### kashf-mahjub-hujwiri
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get ar117myst27  0.01 GiB  الهجويري كشف المحجوب
+- would get elshandawily519  0.01 GiB  كشف المحجوب الهجويري 1
+
+### tabaqat-sufiyya-sulami
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get BBib-Alex-17435  0.02 GiB  طبقات_الصوفية_17435_السلمى,_ابو_عبد_الرحمن_محمد_بن_الحسين_بن_محمد
+- would get TabakatSufiya  0.02 GiB  طبقات الصوفية
+
+### hikam-ibn-ataillah
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get AAlexandrina-095550  0.02 GiB  095550 - الحكم العطائية
+- would get Library.mmn_20150920  0.00 GiB  المنح القدسية على الحكم العطائية
+
 
 ## Next step
 
