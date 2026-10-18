@@ -1,5 +1,5 @@
 ---
-id: person/al-masud-atsiz-yemen
+id: person/al-malik-al-masud-ibn-al-kamil
 lang: ar
 source_lang: ar
 translators: []

@@ -1,0 +1,31 @@
+id: person/al-muafa-ibn-al-haddus
+class: person
+label: { ar: "أبو محمد المعافى ابن الحدوس الموصلي" }
+summary:
+  ar: "أبو محمد المعافى بن إسماعيل بن الحسين الموصلي ويعرف أيضاً بابن الحدوس؛ الشافعي، كان إماماً فقيهاً بارعاً جيداً صالحاً أديباً، ولد بالموصل وتفقه بها على ابن مهاجر ثم على القاضي الفخر السهروردي ثم على العماد بن يونس، وسمع وحدث وأفتى وصنف وناظر؛ من تصانيفه كتاب الكامل في الفقه كتاب مطول وأنس المنقطعين وهو مشهور وتفسير يسمى البيان وكتاب الموجز في الذكر؛ توفي بالموصل في شعبان أو في رمضان سنة ثلاثين وستمائة {cite:shadharat-dhahab p. 143}."
+  en: "al-Mu'afa b. al-Haddus of Mosul — the Shafi'i imam, pupil of Ibn Muhajir, al-Fakhr al-Suhrawardi and al-Imad Ibn Yunus, author of the lengthy al-Kamil fi al-Fiqh, the well-known Uns al-Munqati'in, a tafsir called al-Bayan and al-Mujiz fi al-Dhikr; died at Mosul in Sha'ban or Ramadan 630 {cite:shadharat-dhahab p. 143}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+    note: "شافعي المذهب"
+died:
+  edtf: "1233~"
+  hijri: "0630-08"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "توفي بالموصل في شعبان أو في رمضان سنة ثلاثين؛ التحويل مشتق {cite:shadharat-dhahab p. 143}."
+relations:
+  - { type: died_in, target: place/mosul, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 630)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

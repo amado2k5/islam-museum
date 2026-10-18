@@ -1,0 +1,30 @@
+id: person/abd-al-wahid-ii-almohad
+class: person
+label: { ar: "عبد الواحد الثاني المأمون الموحدي" }
+summary:
+  ar: "عبد الواحد بن يوسف بن عبد المؤمن بن علي سلطان المغرب أبو محمد؛ ولي الأمر في العام الماضي فلم يُدر أمراء البربر تخلموه وخنقوه في شعبان سنة إحدى وعشرين وستمائة وكانت ولايته تسعة أشهر؛ وفي أيامه استولى على مملكة الأندلس ابن أخيه عبد الله بن يعقوب الملقب بالعادل والتقى الأفرنج فهزموا جيشه ثم طال مراكش بأسوأ حال فقبضوا عليه، وتملك الأندلس بعده أخوه إدريس مديدة فخرج عليه محمد بن هود الجذامي ودعا إلى آل العباس فمال الناس إليه فهرب إدريس بعسكره إلى مراكش فالتقاه صاحبها يؤمئذ يحيى بن محمد بن يوسف فهزم يحيى {cite:shadharat-dhahab p. 96}."
+  en: "Abd al-Wahid II b. Yusuf b. Abd al-Mu'min — the Almohad caliph deserted by his Berber amirs and strangled in Sha'ban 621 after a nine-month reign; in his days the Maghribi al-Adil's Andalus venture collapsed and Ibn Hud al-Judhami rose calling to the Abbasids {cite:shadharat-dhahab p. 96}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [maghreb]
+faith:
+  - value: sunni
+    basis: tradition
+died:
+  edtf: "1224~"
+  hijri: "0621-08"
+  calendar: julian
+  precision: month
+  status: tradition
+  derived: true
+  note: "خنقه أمراء البربر في شعبان سنة إحدى وعشرين بعد تسعة أشهر في الملك؛ التحويل مشتق {cite:shadharat-dhahab p. 96}."
+relations:
+  - { type: died_in, target: place/marrakesh, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 621)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

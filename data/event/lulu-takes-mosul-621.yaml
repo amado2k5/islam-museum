@@ -1,0 +1,23 @@
+id: event/lulu-takes-mosul-621
+class: event
+kind: other
+label: { ar: "استيلاء بدر الدين لؤلؤ على الموصل سنة 621" }
+summary:
+  ar: "في سنة إحدى وعشرين وستمائة استولى بدر الدين لؤلؤ على الموصل وخنق ابن أستاذه محمود بن القاهر وزعم أنه مات {cite:shadharat-dhahab p. 95}، فانقرض بذلك الحكم الظاهري للبيت الزنكي بها وصار لؤلؤ يحكمها بنفسه في الواقع وإن بقي يحكم باسم الأتابكية شكلاً حتى تسلطن سنة إحدى وثلاثين."
+  en: "In 621 Badr al-Din Lu'lu' seized Mosul and strangled Mahmud b. al-Qahir, son of his ustadh, claiming he had died a natural death {cite:shadharat-dhahab p. 95}; effective Zangid rule at Mosul ended, Lu'lu' ruling in fact under the Atabeg name until he took the sultanate openly in 631."
+wings: [time]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1224~", hijri: "0621", calendar: julian, precision: year, status: tradition, derived: true, note: "621هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 95}.", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/mosul }
+  - { type: had_participant, target: person/badr-al-din-lulu, role: "المستولي", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-qahir-masud, role: "والد المخنوق محمود", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 621)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

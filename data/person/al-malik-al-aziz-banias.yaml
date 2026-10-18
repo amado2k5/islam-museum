@@ -1,0 +1,30 @@
+id: person/al-malik-al-aziz-banias
+class: person
+label: { ar: "الملك العزيز عثمان بن العادل صاحب بانياس" }
+summary:
+  ar: "الملك العزيز عثمان بن العادل أبي بكر بن أيوب شقيق المعظم؛ وهو صاحب بانياس وتبنين وهونين وهو الذي بنى قلعة الصبيبة بين هؤلاء البلدان، وكان عاقلاً ساكناً؛ اتفق موته بالناعمة وهو بستان له يبيت به من صالحية دمشق في عاشر رمضان سنة ثلاثين وستمائة {cite:shadharat-dhahab p. 136}."
+  en: "al-Malik al-Aziz Uthman b. al-Adil — full brother of al-Mu'azzam, lord of Banias, Tibnin and Hunin and builder of Qal'at al-Subayba among them; a man of quiet sense, he died at his Na'ima garden estate in Salihiyya, 10 Ramadan 630 {cite:shadharat-dhahab p. 136}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni
+    basis: tradition
+died:
+  edtf: "1232~"
+  hijri: "0630-09-10"
+  calendar: julian
+  precision: day
+  status: tradition
+  derived: true
+  note: "اتفق موته بالناعمة من صالحية دمشق في عاشر رمضان سنة ثلاثين؛ التحويل مشتق {cite:shadharat-dhahab p. 136}."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 630)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

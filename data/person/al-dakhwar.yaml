@@ -1,0 +1,35 @@
+id: person/al-dakhwar
+class: person
+label: { ar: "مهذب الدين الدخوار شيخ الطب" }
+summary:
+  ar: "المهذب الدخوار عبد الرحيم بن علي بن حامد الدمشقي شيخ الطب وواقف المدرسة التي بالصاغة العتيقة على الأطباء؛ ولد سنة خمس وستين وخمسمائة وأخذ عن الموفق بن المطران والرضي الرحبي وأخذ الأدب عن الكندي وانتهت إليه معرفة الطب وصنف التصانيف فيه وحظي عند الملوك؛ وكان دخله في الشهر مائة وخمسون ديناراً وله أقطاع تعدل ستة آلاف وخمسمائة دينار؛ ولما تجاوز سن الكهولة عرض له طرف خرس حتى بقي لا يكاد يفهم كلامه واجتهد في علاج نفسه فما أفاد بل ولد له أمراضاً، وكان الجماعة يبحثون بين يديه فيكتب لهم ما أشكل عليهم في اللوح، واستعمل المعاجين الحادة فعرضت له حمى قوية أضعفت قوته وزادت إلى أن سالت عينه؛ توفي سنة ثمان وعشرين وستمائة {cite:shadharat-dhahab p. 127-128}."
+  en: "al-Muhadhdhib al-Dakhwar — Damascus's shaykh of medicine, pupil of Ibn al-Matran and al-Radi al-Rahbi, who endowed the physicians' madrasa at the old goldsmiths' quarter; his income ran to 150 dinars a month plus an iqta' worth 6,500. Late in life an aphonia struck until his speech could scarce be understood — he wrote his answers on a tablet — and his harsh self-treatment brought fevers that drained him till his eye ran and he died, in 628 {cite:shadharat-dhahab p. 127-128}."
+gender: male
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+born:
+  edtf: "1170~"
+  hijri: "0565"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "ولد سنة خمس وستين وخمسمائة؛ التحويل مشتق {cite:shadharat-dhahab p. 127}."
+died:
+  edtf: "1231~"
+  hijri: "0628"
+  calendar: julian
+  precision: year
+  status: tradition
+  derived: true
+  note: "توفي سنة ثمان وعشرين؛ التحويل مشتق {cite:shadharat-dhahab p. 128}."
+relations:
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 628)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124
