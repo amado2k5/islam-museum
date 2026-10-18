@@ -64,3 +64,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 100 — سنة 457–463 (the al-Mustansir famine window, Alp Arslan's campaigns).
 - Batch 100 (Devin): AH 457–460 — Ibn Sidah of Murcia (blind author of al-Muhkam, d. 16 Jumada II 458) and the great Palestine earthquake of 460 (15k dead at Ramla, the sea receding a day's march); enriched Abu Ya'la Ibn al-Farra' (19 Ramadan 458). 2 new + 1 prose + 1 enriched.
 - Next: batch 101 — سنة 461–465.
+- Batch 101 (Devin): AH 461–463 — Karima Umm al-Kiram al-Marwaziyya (Meccan transmitter of Sahih al-Bukhari, d. 463 near 100) and Cordoba's Maliki mufti Ibn Uthbah al-Judhami; enriched Ibn Abd al-Barr (d. end of Rabi' II 463, 95y) and Ibn Zaydun (d. 463 at al-Mu'tamid's court). Manzikert already covered. 2 new + 2 enriched.
+- Next: batch 102 — سنة 464–470.
