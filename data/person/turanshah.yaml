@@ -1,16 +1,27 @@
 id: person/turanshah
 class: person
 label: { ar: "توران شاه الملك المعظم بن الملك الصالح" }
+names:
+  - { value: "الملك المعظم غياث الدين توران شاه بن الملك الصالح نجم الدين أيوب", kind: full }
+died: { edtf: "1250-05~", hijri: "0648-02~", calendar: julian, precision: month, status: tradition, derived: true, note: "قُتل في صفر سنة ثمان وأربعين وستمائة — وقِعت ترجمته في سنة 648 {cite:shadharat-dhahab p. 248-249}." }
 summary:
-  ar: "ولد الملك الصالح أيوب، استدعته أمه شجر الدر ليتملك مصر لما مات أبوه سنة سبع وأربعين فحضر ثم لم يلبث أن وثب عليه غلمان أبيه فقتلوه في محرم سنة ثمان وأربعين وست مئة {cite:tarikh-khulafa-minhaj-1434 p. 709}."
-  en: "Al-Salih's son, fetched to rule Egypt — his father's ghilman killed him in Muharram 648 {cite:tarikh-khulafa-minhaj-1434 p. 709}."
+  ar: "ولد الملك الصالح أيوب، استدعته أمه شجر الدر ليتملك مصر لما مات أبوه سنة سبع وأربعين فحضر ثم لم يلبث أن وثب عليه غلمان أبيه فقتلوه في محرم سنة ثمان وأربعين وست مئة {cite:tarikh-khulafa-minhaj-1434 p. 709}؛ وذُكر أنه ساء سيرته فيهم حتى قطعوا النعمة فوثب عليه مماليك أبيه البحرية ليلاً فهرب إلى برج على النيل كان فيه خشب ونفط فرماه بالنفط وأشعل فيه النار فخرج إلى النهر فتلقوه بالسيوف وبقي في النيل ثلاثة أيام لا يُدفن حتى جمعوا له قبراً، وقال ابن الدجاجية فيه أبياتاً {cite:shadharat-dhahab p. 248-249}."
+  en: "Al-Salih's son, fetched to rule Egypt — his father's ghilman killed him in Muharram 648 {cite:tarikh-khulafa-minhaj-1434 p. 709}; the Bahriyya mamluks fired his naft-tower on the Nile, cut him down as he reached the water, and left him three days unburied {cite:shadharat-dhahab p. 248-249}."
 gender: male
+roles: [sultan]
 wings: [people]
 periods: [period/mongol-post-mongol]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: child_of, target: person/al-malik-al-salih-ayyub, sources: [source/shadharat-dhahab] }
+  - { type: successor_of, target: person/al-malik-al-salih-ayyub, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/turanshah-murder-shajar-durr-648, role: "المقتول", sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
-  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 704–714"
+  source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 704–714؛ شذرات الذهب — ابن العماد (ج5، سنة 648)"
   generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
-  run: lib-tarikh-khulafa-batch-45
-sources: [source/tarikh-khulafa-minhaj-1434]
+  run: lib-tarikh-khulafa-batch-45, lib-shadharat-batch-128
+sources: [source/tarikh-khulafa-minhaj-1434, source/shadharat-dhahab]
 status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

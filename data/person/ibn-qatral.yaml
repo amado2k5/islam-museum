@@ -1,0 +1,29 @@
+id: person/ibn-qatral
+class: person
+label: { ar: "ابن قطرة", en: "Ibn Qatral" }
+names:
+  - { value: "قاضي القضاة جمال الدين أبو الفضل ولا يزال قيس بن الحسين ابن قطرة المقدسي", kind: full }
+died: { edtf: "1254-03~", hijri: "0652-03~", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بمراكش شهر ربيع الأول عن ثمان وثمانين سنة {cite:shadharat-dhahab p. 261}." }
+summary:
+  ar: "قاضي القضاة؛ ولي القضاء بعميد مدة وكان يوم أخذ الفرنج عميد سنة تسع وستمائة أسيراً في أيديهم ثم أفلت منهم وسار إلى الأندلس فولي قضاء شاطبة ثم قرطبة ثم أخيراً قضاء فاس، وتوفي بمراكش عن ثمان وثمانين سنة {cite:shadharat-dhahab p. 261}."
+  en: "Qadi of qadis (d. Marrakesh, Rabi' I 652, aged 88) — taken captive when the Franks seized Amid in 609, he escaped west and held the judicature of Játiva, then Cordoba, then Fez {cite:shadharat-dhahab p. 261}."
+gender: male
+roles: [jurist, scholar]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq, maghreb, andalus-europe]
+faith:
+  - value: sunni
+    basis: tradition
+relations:
+  - { type: lived_in, target: place/cordoba, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/shatiba, sources: [source/shadharat-dhahab] }
+  - { type: lived_in, target: place/fez, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/marrakesh, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 651-652)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128

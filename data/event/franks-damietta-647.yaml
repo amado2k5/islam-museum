@@ -8,7 +8,13 @@ summary:
 wings: [time]
 periods: [period/crusades-ayyubid-mamluk]
 regions: [egypt-nile]
+sides:
+  - label: { ar: "الفرنج — حملة لويس التاسع" }
+  - label: { ar: "المسلمون — عسكر مصر الأيوبي" }
+map: { kind: siege, precision: locality, center: [31.4165, 31.8133] }
 date: { start: { edtf: "1249-06~", hijri: "0647-04~", calendar: julian, precision: month, status: tradition, derived: true, note: "ربيع الأول 647هـ {cite:shadharat-dhahab p. 245}", sources: [source/shadharat-dhahab] } }
+relations:
+  - { type: occurred_at, target: place/dimyat, sources: [source/shadharat-dhahab] }
 provenance:
   layer: own-research
   source: "شذرات الذهب — ابن العماد (ج5، سنين 601–700)"

@@ -1,0 +1,28 @@
+id: person/khwaharzada-al-kurdari
+class: person
+label: { ar: "بدر الدين خواهرزادة", en: "Badr al-Din Khwaharzada" }
+names:
+  - { value: "بدر الدين خواهرزادة أبو عبد الله محمد بن عبد الحميد بن عيسى الكردري الحنفي", kind: full }
+born: { edtf: "1166", hijri: "0562", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة اثنتين وستين وخمسمائة {cite:shadharat-dhahab p. 263}." }
+died: { edtf: "1253~", hijri: "0651", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي سنة إحدى وخمسين وستمائة {cite:shadharat-dhahab p. 263}." }
+summary:
+  ar: "ابن أخت شمس الأئمة علاء الدين الكردري صاحب البداية؛ قرأ الفقه على خاله وأخذ عنه، ودرّس بالبلبيسية بدمشق؛ قال ابن كمال باشا ويسمى بدر الدين خواهرزادة أبو عبد الله محمد بن عبد الحميد بن عيسى وقد روى عن صاحب الهداية وذلك أن أباه كان أخا أم صاحب الهداية {cite:shadharat-dhahab p. 262-263}."
+  en: "Nephew of Shams al-A'imma al-Kurdari — read fiqh on his uncle, taught at the Balbisiyya in Damascus; Ibn Kamal Pasha's note distinguishes him from the younger Khwaharzada {cite:shadharat-dhahab p. 262-263}."
+gender: male
+roles: [scholar, jurist]
+wings: [people]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+faith:
+  - value: sunni-hanafi
+    basis: tradition
+relations:
+  - { type: student_of, target: person/al-kurdari, sources: [source/shadharat-dhahab] }
+  - { type: died_in, target: place/damascus, sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 651-652)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-128
