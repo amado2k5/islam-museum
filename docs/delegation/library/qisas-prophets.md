@@ -22,7 +22,21 @@ None recorded yet. Pre-check counts (18 Oct 2026, `grep -ril` over `data/`) are 
 
 ## Downloads
 
-None yet.
+Pre-download record. Each file is named by its archive.org identifier; the titles were checked only by the fetcher's token match, so each one must be confirmed against the book before OCR.
+
+### qisas-anbiya-kisai
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- would get AAlexandrina-146548  0.04 GiB  146548 - قصص الانبياء
+- would get 7_20210114  0.00 GiB  قصص الأنبياء
+
+### qisas-anbiya-thaalabi
+
+Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; source archive.org/download/<identifier>/):
+
+- no candidate found
+
 
 ## Next step
 
