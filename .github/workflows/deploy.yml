@@ -65,15 +65,13 @@ jobs:
           ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           ENDPOINT="https://${ACCOUNT_ID}.r2.cloudflarestorage.com"
-          # --checksum-algorithm sha256 stores a SHA-256 with each object so
-          # subsequent syncs skip files whose content has not changed.
-          # Note: existing objects without a stored SHA-256 are re-uploaded once
-          # on the first run after this flag was added; every run after is incremental.
+          # aws s3 sync compares remote ETags (MD5 stored by R2 for each object)
+          # against the local file's MD5 and skips unchanged files automatically.
+          # No extra checksum flag needed.
           for dir in pagefind-ar pagefind-en pagefind-ur; do
             aws s3 sync dist/$dir s3://islam-museum-search/$dir \
               --endpoint-url "$ENDPOINT" \
               --cache-control "public, max-age=31536000, immutable" \
-              --checksum-algorithm sha256 \
               --delete
           done
           # API JSON: served via a transparent proxy rule in _redirects.
@@ -82,7 +80,6 @@ jobs:
           aws s3 sync dist/api s3://islam-museum-search/api \
             --endpoint-url "$ENDPOINT" \
             --cache-control "public, max-age=3600, stale-while-revalidate=86400" \
-            --checksum-algorithm sha256 \
             --delete
       - name: Strip R2-served dirs from Pages deployment
         run: rm -rf dist/pagefind-ar dist/pagefind-en dist/pagefind-ur dist/api
