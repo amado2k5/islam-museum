@@ -66,3 +66,5 @@ Mine year-headers via `===== [pN]` + سنة markers; cite printed pages.
 - Next: batch 101 — سنة 461–465.
 - Batch 101 (Devin): AH 461–463 — Karima Umm al-Kiram al-Marwaziyya (Meccan transmitter of Sahih al-Bukhari, d. 463 near 100) and Cordoba's Maliki mufti Ibn Uthbah al-Judhami; enriched Ibn Abd al-Barr (d. end of Rabi' II 463, 95y) and Ibn Zaydun (d. 463 at al-Mu'tamid's court). Manzikert already covered. 2 new + 2 enriched.
 - Next: batch 102 — سنة 464–470.
+- Batch 102 (Devin): AH 465–467 — the Jalali calendar's origin (Nizam al-Mulk's astronomers fixing Nowruz), al-Bakharzi of Dumyat al-Qasr (killed in al-Andalus 467); enriched al-Qa'im (d. Sha'ban 467 after a 44-year caliphate — the Ka'ba-letter story already present). Alp Arslan, al-Qushayri, al-Mu'tadid already covered. 2 new + 1 prose + 1 enriched.
+- Next: batch 103 — سنة 468–475 (al-Muqtadi's accession, Nizam al-Mulk's murder 485 lead-in).
