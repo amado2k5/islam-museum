@@ -1,0 +1,21 @@
+id: event/almoravid-collapse-552
+class: event
+kind: other
+label: { ar: "انقراض دولة الملثمين بالأندلس سنة 552" }
+summary:
+  ar: "في سنة اثنتين وخمسين وخمسمائة انقرضت دولة الملثمين بالأندلس فلم يبق منهم إلا جزيرة ميورقة {cite:shadharat-dhahab p. 641}."
+  en: "In 552 the Almoravid (Mulaththimun) state in al-Andalus was extinguished — nothing remained to them but the island of Majorca {cite:shadharat-dhahab p. 641}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [andalus-europe, maghreb]
+date:
+  start: { edtf: "1157~", hijri: "0552", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 552؛ التحويل مشتق {cite:shadharat-dhahab p. 641}." }
+relations:
+  - { type: had_participant, target: polity/almoravid-dynasty, role: "الدولة المنقرضة", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-117
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
