@@ -1,0 +1,30 @@
+id: event/salah-al-din-mosul-581
+class: event
+kind: siege
+label: { ar: "حصار صلاح الدين للموصل وصلح شهرزور سنة 581" }
+summary:
+  ar: "في سنة إحدى وثمانين نازل صلاح الدين الموصل فحاصرها وبذل أهلها نفوسهم وقاتلوا أشد قتال فتردد عنهم لحصانتها، ثم نزل على ميافارقين فأخذها بالأمان ثم عاد إلى الموصل وحاصرها أيضاً حتى وقع الصلح على أن يخطبوا له وأن يكون صاحبها طوعه وأن يكون لصلاح الدين شهرزور وحصونها، ثم رحل فمرض واشتد مرضه بحران حتى أُرجف بموته وسقط شعر لحيته ورأسه {cite:shadharat-dhahab p. 748}."
+  en: "In 581 Salah al-Din besieged Mosul; its people fought their hardest and its strength turned him back. He took Mayyafariqin by safe-conduct, returned to the siege, and peace came on terms: the khutba in his name, the city's lord his liege, and Shahrizur and its fortresses ceded. He withdrew, then fell gravely ill at Harran until his death was rumoured and the hair of his beard and head fell out {cite:shadharat-dhahab p. 748}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1185~", hijri: "0581", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 581هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 748}." }
+sides:
+  - label: { ar: "صلاح الدين" }
+    commanders: [person/salah-al-din-yusuf-ibn-ayyub]
+  - label: { ar: "صاحب الموصل عز الدين مسعود" }
+    commanders: [person/izz-al-din-masud]
+relations:
+  - { type: occurred_at, target: place/mosul, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/mayyafariqin, sources: [source/shadharat-dhahab] }
+  - { type: occurred_at, target: place/harran, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "السلطان المحاصر", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/izz-al-din-masud, role: "صاحب الموصل", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-120
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

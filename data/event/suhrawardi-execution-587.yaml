@@ -1,0 +1,27 @@
+id: event/suhrawardi-execution-587
+class: event
+kind: death
+label: { ar: "قتل شهاب الدين السهروردي بحلب سنة 587" }
+summary:
+  ar: "في سنة سبع وثمانين قُتل الفيلسوف شهاب الدين يحيى السهروردي بحلب؛ قدمها واشتهر اسمه فأقام له الملك الظاهر غازي ولد السلطان صلاح الدين مجلساً فبان فضله وبهر علمه فارتبط عليه الظاهر واختص به، وظهر للعلماء منه زندقة وانحلال فعلّموا حُرُماً بكفره وسيروه إلى صلاح الدين وخوفوه من أن يفسد عقيدة ولده، فبعث إلى ولده بأن يقتله بلا مراجعة، فخُيّره فاختار أن يموت جوعاً لأنه كان له عادة بالرياضة، فمُنع من الطعام حتى تلف وعاش ستاً وثلاثين سنة؛ وقال السيف الآمدي رأيته كثير العلم قليل العقل {cite:shadharat-dhahab p. 770}."
+  en: "In 587 the philosopher Shihab al-Din Yahya al-Suhrawardi was killed at Aleppo. He had come there famous; al-Malik al-Zahir Ghazi, Salah al-Din's son, sat him in session, his brilliance dazzled, and the prince attached himself to him. The scholars marked him for heresy, drew up a warrant of unbelief, and warned Salah al-Din he would corrupt his son's creed — so the sultan ordered him killed without further consultation. Offered the manner of his death, he chose starvation, for austerity was his habit; food was withheld till he perished, aged thirty-six. Sayf al-Amidi: 'I saw him — much learning, little sense' {cite:shadharat-dhahab p. 770}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1191~", hijri: "0587", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 587هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 770}. عند ابن خلكان: خُنق بقلعة حلب في خامس رجب 587 {cite:wafayat-ayan}." }
+sides:
+  - label: { ar: "شهاب الدين السهروردي" }
+    commanders: [person/shihab-al-din-al-suhrawardi]
+  - label: { ar: "أمر الدولة الأيوبية بحلب" }
+relations:
+  - { type: occurred_at, target: place/aleppo, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/shihab-al-din-al-suhrawardi, role: "الفيلسوف المقتول", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/salah-al-din-yusuf-ibn-ayyub, role: "من أمر بالقتل من بعيد", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب لابن العماد — الجزء الرابع، ممسوح مكتبة الحصاد (AAlexandrina-223861)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-120
+sources: [source/shadharat-dhahab, source/wafayat-ayan]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
