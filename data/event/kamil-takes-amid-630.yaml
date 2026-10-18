@@ -1,0 +1,26 @@
+id: event/kamil-takes-amid-630
+class: event
+kind: conquest
+label: { ar: "أخذ الملك الكامل آمد سنة 630" }
+summary:
+  ar: "في سنة ثلاثين وستمائة حاصر الملك الكامل آمد وأخذها من صاحبها الملك المسعود، فضربها بالمجانيق فلما رأى المسعود الغلبة خرج وفي رقبته منديل فرسم عليه وتسلم منه البلد، وطلب منه تسليم القلاع فسلم الجميع إلا حصن كيفا فعذبه بأنواع العذاب وكان يبغضه؛ وكان المسعود فاسقاً يأخذ الحرم غصباً حتى وجدوا في قصره خمسمائة حرة من بنات الناس {cite:shadharat-dhahab p. 135}."
+  en: "In 630 al-Kamil besieged Amid and took it from its lord al-Malik al-Mas'ud; battered by mangonels, al-Mas'ud came out with a kerchief round his neck and yielded the city. When he surrendered every fortress save Kayfa, al-Kamil tortured him for it — a prince he loathed, and justly infamous: they found five hundred free women seized as concubines in his palace {cite:shadharat-dhahab p. 135}."
+wings: [time]
+periods: [period/crusades-ayyubid-mamluk]
+regions: [anatolia-balkans, levant-iraq]
+date:
+  start: { edtf: "1232~", hijri: "0630", calendar: julian, precision: year, status: tradition, derived: true, note: "630هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 135}.", sources: [source/shadharat-dhahab] }
+sides:
+  - label: { ar: "الأيوبيون بقيادة الملك الكامل" }
+  - label: { ar: "آمد تحت الملك المسعود" }
+relations:
+  - { type: occurred_at, target: place/amid }
+  - { type: had_participant, target: person/al-malik-al-kamil, role: "الفاتح", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-malik-al-masud-amid, role: "المستسلم المعذب", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 630)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124

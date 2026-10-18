@@ -1,0 +1,28 @@
+id: event/tatars-shahrazur-629
+class: event
+kind: campaign
+label: { ar: "غارة التتار إلى شهرزور سنة 629" }
+summary:
+  ar: "في سنة تسع وعشرين وستمائة عاثت التتار لموت جلال الدين ووصلوا إلى شهرزور، فأنفق المستنصر بالله في العساكر وجهزهم مع قستم الناصري فانضموا إلى صاحب أربل مظفر الدين كوكبوري فتقهقرت التتار {cite:shadharat-dhahab p. 129}."
+  en: "In 629, with Jalal al-Din dead, the Tatars raided as far as Shahrazur; the caliph al-Mustansir spent on armies sent with Qushtumur al-Nasiri, who joined Muzaffar al-Din Kokburi of Arbil, and the Tatars fell back {cite:shadharat-dhahab p. 129}."
+wings: [time]
+themes: [mongol-invasions]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+date:
+  start: { edtf: "1231~", hijri: "0629", calendar: julian, precision: year, status: tradition, derived: true, note: "629هـ؛ التحويل مشتق {cite:shadharat-dhahab p. 129}.", sources: [source/shadharat-dhahab] }
+sides:
+  - label: { ar: "التتار" }
+  - label: { ar: "عساكر الخلافة وجند صاحب أربل" }
+relations:
+  - { type: occurred_at, target: place/shahrazur }
+  - { type: had_participant, target: polity/mongol-empire, role: "الغازون المتراجعون", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-mustansir-billah, role: "الخليفة المجهز للعساكر", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/muzaffar-al-din-kokburi, role: "صاحب أربل المنضم إليه العسكر", sources: [source/shadharat-dhahab] }
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2 }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ج5، سنة 629)"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-124
