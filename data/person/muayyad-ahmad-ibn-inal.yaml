@@ -1,0 +1,24 @@
+id: person/muayyad-ahmad-ibn-inal
+class: person
+label: { ar: "الملك المؤيد أحمد بن إينال", en: "al-Malik al-Mu'ayyad Ahmad ibn Inal" }
+names:
+  - { value: "الملك المؤيد شهاب الدين أبو الفتح أحمد بن إينال الأشرفي", kind: full }
+gender: male
+summary:
+  ar: "الملك المؤيد أحمد بن إينال؛ عقد له أبوه السلطان الأشرف إينال السلطنة في يوم الأربعاء رابع عشر ليلة خلت من جمادى الأولى سنة خمس وستين وثمانمائة وخلع أتابكه خشقدم بعد خمسة أشهر وخمسة أيام {cite:shadharat-dhahab p. 305}."
+  en: "Al-Mu'ayyad Ahmad ibn Inal — proclaimed sultan by his abdicating father al-Ashraf Inal on Wed 14 Jumada I 865; his atabeg Khushqadam deposed him after five months and five days {cite:shadharat-dhahab p. 305}."
+roles: [sultan]
+wings: [people]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+faith: [{ value: sunni, basis: documented }]
+relations:
+  - { type: child_of, target: person/al-ashraf-inal, sources: [source/shadharat-dhahab] }
+  - { type: participated_in, target: event/khushqadam-accession-865, role: "السلطان المعزول", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 865)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-140
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

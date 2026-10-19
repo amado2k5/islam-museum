@@ -1,0 +1,47 @@
+---
+id: event/expedition-to-tabuk
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## خلاصہ
+غزوۂ تبوک میں نبی رجب 9ھ میں تنگی اور شدید گرمی کے زمانے میں [[place/tabuk|تبوک]] کی طرف روانہ ہوئے۔ ابن اسحاق کے مطابق اس میں کوئی لڑائی نہ ہوئی۔ یہ وہ غزوہ تھا جس کی منزل آپ نے اپنی عادت کے خلاف لوگوں کے سامنے صراحت سے بیان کی۔ {cite:ibn-hisham-saqqa 4/159}
+
+## تیاری
+- [[event/tabuk-mobilisation-order|لوگوں کو رومیوں کے خلاف تیاری کا حکم]]۔ {cite:ibn-hisham-saqqa 4/159}
+- [[event/al-jadd-ibn-qays-asks-to-stay-behind|جد بن قیس کا پیچھے رہنے کی اجازت مانگنا]] اور [[event/hypocrites-discourage-marching-in-the-heat|ان میں سے بعض کا کہنا کہ گرمی میں نہ نکلو]]۔ {cite:ibn-hisham-saqqa 4/159-160}
+- [[event/uthman-funds-the-army-of-hardship|عثمان کا]] [[concept/jaysh-al-usra|جیش العسرہ]] پر خرچ اور [[event/the-weepers-al-bakkaun|رونے والوں]] کا واقعہ۔ {cite:ibn-hisham-saqqa 4/161}
+- [[event/burning-of-suwaylims-house|سویلم کے گھر کو جلانے]] کی خبر، جو ابن ہشام نے نقل کی۔ {cite:ibn-hisham-saqqa 4/160}
+
+## پیچھے رہ جانے والے
+دیکھیے [[concept/takhalluf-an-ghazwat-tabuk|غزوۂ تبوک سے پیچھے رہ جانا]]: [[event/bedouin-excuse-makers|دیہاتی عذر پیش کرنے والے]]، [[event/believers-who-lagged-without-doubt|شک کے بغیر پیچھے رہ جانے والے چار مومنین]] اور [[event/ibn-ubayy-separate-camp-and-withdrawal|عبد اللہ بن ابی کا الگ پڑاؤ اور واپسی]]۔ {cite:ibn-hisham-saqqa 4/162}
+
+## روانگی اور راستہ
+- [[event/tabuk-departure-and-deputies|روانگی اور مدینہ پر نائب مقرر کرنا]]، اور [[event/ali-left-with-the-prophets-family|علی کو گھر والوں پر خلیفہ بنانا]]۔ {cite:ibn-hisham-saqqa 4/162-163}
+- [[event/abu-khaythama-joins-the-army|ابو خیثمہ کا لشکر سے ملنا]]۔ {cite:ibn-hisham-saqqa 4/163-164}
+- [[event/camp-at-al-hijr|الحجر میں پڑاؤ]] اور [[event/rain-at-al-hijr-after-the-prophets-prayer|نبی کی دعا کے بعد بارش]]۔ {cite:ibn-hisham-saqqa 4/164-166}
+- [[event/the-prophets-she-camel-strays|اونٹنی کا گم ہونا اور ابن اللصیت کا قول]]۔ {cite:ibn-hisham-saqqa 4/166-167}
+- [[event/abu-dharr-lags-behind-on-the-march|ابو ذر کا پیچھے رہ جانا]] اور [[event/death-of-abu-dharr-at-al-rabadha|ربذہ میں ان کی وفات]]۔ {cite:ibn-hisham-saqqa 4/167-168}
+- [[event/hypocrites-mock-the-army-and-excuse|منافقین کے ایک گروہ کا لشکر کا مذاق اڑانا اور عذر پیش کرنا]]۔ {cite:ibn-hisham-saqqa 4/168-169}
+
+## تبوک میں
+- [[event/treaty-of-ayla|ایلہ کے حاکم اور جرباء و اذرح کے لوگوں کے ساتھ صلح]]، جس میں [[work/covenant-of-ayla|امان کا عہد نامہ]] تھا۔ {cite:ibn-hisham-saqqa 4/169}
+- [[event/khalid-expedition-to-ukaydir|خالد کو اکیدر کی طرف بھیجنا]] اور [[event/treaty-of-ukaydir|ان سے صلح]]۔ {cite:ibn-hisham-saqqa 4/169-170}
+- [[event/tabuk-stay-and-return|قیام اور واپسی]]۔ {cite:ibn-hisham-saqqa 4/170}
+
+## واپسی کا سفر
+[[event/water-of-wadi-al-mushaqqaq|وادی المشقق کا پانی]]، [[event/burial-of-dhu-al-bijadayn|ذو البجادین کی تدفین]]، اور [[event/abu-ruhm-and-the-stragglers-of-ghifar-and-aslam|ابو رہم کی روایت پیچھے رہ جانے والے غفار و اسلم کے لوگوں کے بارے میں]]۔ {cite:ibn-hisham-saqqa 4/171-173}
+
+جغرافیائی راستہ [[journey/tabuk-march-out-and-back|نبی کا تبوک جانا اور واپس آنا]] میں دیکھا جا سکتا ہے۔
+
+## مسجد ضرار
+واپسی کے بعد: [[event/masjid-al-dirar-builders-ask-the-prophet-to-pray|مسجد والوں کا نبی سے وہاں نماز پڑھنے کی درخواست کرنا]] جو روانگی سے پہلے ہوئی، پھر [[event/demolition-of-masjid-al-dirar|ذی اوان پر مسجد کا گرانا]]، اور اس کے بانی [[group/builders-of-masjid-al-dirar|اپنے گروہ]] میں شامل تھے۔ {cite:ibn-hisham-saqqa 4/173-174}
+
+مدینہ اور تبوک کے درمیان ابن اسحاق نے [[event/prophets-mosques-between-medina-and-tabuk|نبی کی معروف مساجد]] کا ذکر کیا ہے۔ {cite:ibn-hisham-saqqa 4/174-175}
+
+## تین پیچھے رہ جانے والے
+واپسی کے بعد: [[event/the-three-left-behind|ان تین کا واقعہ]] (کعب، مرارہ اور ہلال) جنہیں پیچھے چھوڑا گیا، پچاس راتوں کا بائیکاٹ اور پھر توبہ قبول ہونا۔ {cite:ibn-hisham-saqqa 4/175-181}
+
+## ملاحظات
+- ابن اسحاق کے مطابق اس میں کوئی لڑائی نہیں ہوئی، اور متن میں رومی لشکر سے کسی مقابلے کا ذکر نہیں۔ {cite:ibn-hisham-saqqa 4/159-173}
+- تاریخ سرخی «رجب سنہ نو» سے لی گئی ہے، باقی واقعات بغیر دن کے غزوے سے منسوب ہیں۔ {cite:ibn-hisham-saqqa 4/159}

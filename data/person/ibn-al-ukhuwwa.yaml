@@ -1,0 +1,24 @@
+id: person/ibn-al-ukhuwwa
+class: person
+label: { ar: "ابن الأخوة", en: "Ibn al-Ukhuwwa" }
+names:
+  - { kind: full, lang: ar, value: "محمد بن محمد بن أحمد القرشي" }
+  - { kind: laqab, lang: ar, value: "ابن الأخوة" }
+gender: male
+roles: [jurist, writer]
+disciplines: [concept/hisba]
+summary:
+  ar: "محمد بن محمد بن أحمد القرشي، المعروف بابن الأخوة، صاحب كتاب معالم القربة في أحكام الحسبة. يذكر محققا الكتاب أنه توفي سنة 729هـ {cite:maalim-qurba-edition-1976 p.6}."
+  en: "Muhammad ibn Muhammad ibn Ahmad al-Qurashi, known as Ibn al-Ukhuwwa, author of Maʿalim al-Qurba fi Ahkam al-Hisba. The editors give his death as 729 AH {cite:maalim-qurba-edition-1976 p.6}."
+wings: [people]
+died: { edtf: "1329~", hijri: "0729", calendar: julian, precision: year, status: historical, sources: [source/maalim-qurba-edition-1976], note: "توفي سنة 729هـ بحسب مقدمة المحققين {cite:maalim-qurba-edition-1976 p.6}. The Gregorian year is derived from the Hijri year (derived conversion). needs_source: a second source is required before this date leaves draft." }
+relations:
+  - { type: authored, target: work/maalim-al-qurba-fi-ahkam-al-hisba, sources: [source/maalim-qurba-edition-1976] }
+sources: [source/maalim-qurba-edition-1976]
+provenance:
+  layer: own-research
+  source: "Maalim al-Qurba fi Ahkam al-Hisba, Arabic edition (1976), scan pages 2 and 6"
+  generated_by: "Claude Haiku 5.5 (library-expansion)"
+  model: claude-haiku-5-5
+  run: lib-exp-medicine-science-manazir-maalim-zij-batch-1
+status: { review: draft, completeness: 1, generated_by: "Claude Haiku 5.5 (library-expansion)" }

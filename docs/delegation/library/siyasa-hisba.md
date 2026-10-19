@@ -51,6 +51,21 @@ Candidates (dry run, 18 Oct 2026; `--max-items 2`; identifier, file, size; sourc
 - `fetch_books.py` now skips a book with a downloaded file and skips a file already on disk. Not yet committed.
 - Books with no candidate found: see the lane's Downloads section.
 
+## Batch 1 (draft, branch `lib-exp-medicine-science/manazir-maalim-zij-batch-1`, shared with the medicine-science batch)
+
+- **Book:** Ibn al-Ukhuwwa, *Maʿalim al-Qurba fi Ahkam al-Hisba*. Local OCR copy on the harvest drive (`books/fiqh/maalim-qurba-ibn-ukhuwwa/`, 421 scan pages). The earlier "no candidate found" note above is superseded: the copy is on the drive.
+- **Pages covered (scan markers):** pp.1–9 (title pages, editors' introduction, start of the "importance of the manuscript" section). Chapters after p.9 not yet read.
+- **Entities created (all `status.review: draft`):**
+  - `work/maalim-al-qurba-fi-ahkam-al-hisba`
+  - `person/ibn-al-ukhuwwa` (death 729 AH from the editors' introduction, p.6; flagged `needs_source`)
+  - `concept/hisba`
+  - `source/maalim-qurba-edition-1976` (edition not verified; a second printing of 1408 AH is named on p.4)
+- **Skipped and why:** the author's nisba is OCR'd as الفرشي on p.2 and as القمرشي on p.4; the spelling used is القرشي, to be checked on the image. No traditions field set: the faith or madhhab of Ibn al-Ukhuwwa is not stated in the pages read.
+- **Schema or enum needs:** none.
+
 ## Next step
 
-Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
+1. Read the Maʿalim chapters from p.10 (the muhtasib's duties in markets, weights, crafts, and forbidden contracts), create concept or work entities only where they are absent from `data/`.
+2. Find a second source for Ibn al-Ukhuwwa's death year (729 AH) before it leaves draft.
+3. Confirm the printed edition on the page images (pp.2 and 4) before any record moves from draft.
+4. Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's own commit, then run `fetch_books.py` for the lane after the workstream commit is on `origin/main`.
