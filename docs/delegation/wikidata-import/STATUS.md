@@ -23,3 +23,11 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Batch 6 (560–659) alone: 20 creates, 23 links, 57 skips — al-Dhahabi, Ibn Tumart, al-Kashi, Ibn Miskawayh, Ismail Samani, Bairam Khan, al-Askari shrine, the Tabi'un, and Ottoman figures (Cem, Rustem, Halime, Lala Mustafa, Sehzade Bayezid, Tahmasp II); links incl. Qilij Arslan I, Abu Ma'shar, Sa'id ibn Zayd, al-Muhtadi, al-Kamil, al-Nasa'i, Abu Yusuf, Qalawun, al-Mu'tazz, Ubayd Allah al-Mahdi, Yaqub al-Mansur, Ibn Hisham, al-Zamakhshari.
 - `npm run validate`: 0 errors / 1997 warnings; `npm test` 101 passed; graph 22,800 nodes.
 - Pushed to main: `af59bb827`. Nothing blocked.
+
+## 19 Oct 2026 — batches 7–11 (candidates 660–1059)
+
+- Created: **159** draft records total · Linked: **263** · Skipped: **638** · `next_index`: **1060**
+- Batch 11 (960–1059): 21 creates — Zagan Pasha, Abd al-Razzaq Samarqandi, Sikandar Lodi, Kilic Ali Pasha, Masud I of Rum, Miran Shah, Shahrukh Afshar, Ibn Bakhtiyar Khalji, Khizr Khan, Chand Bibi, Fazil Mustafa Koprulu, al-Fazari, Kilij Arslan II, Minhaj-i Siraj, Sinan Pasha, Qara Yusuf, Piyale Pasha, Isa Celebi, Gawhar Shad, Pir Muhammad, Devlet Hatun.
+- Duplicate resolved: my `person/sulayman-pasha-khadim` record for Hadim Suleyman Pasha merged into the richer existing `person/hadim-suleyman-pasha` (QID moved; new file deleted).
+- `npm run validate`: 0 errors / 1998 warnings; `npm test` 101 passed.
+- Pushed to main: `01c3208b5`. Nothing blocked.
