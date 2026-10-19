@@ -1,0 +1,27 @@
+id: event/ghuri-accession-906
+class: event
+kind: other
+label: { ar: "من جان بلاط إلى طومان باي إلى قانصوه الغوري 905–906هـ", en: "From Jan Balat through Tuman Bay to Qansuh al-Ghuri, 905–906" }
+summary:
+  ar: "بعد مقتل الملك الناصر محمد بن قايتباي غلب الأمير الكبير جان بلاط مملوك قايتباي على السلطان الظاهر قانصوه فخرج من قلعة مصر وتركها له، فتسلطن جان بلاط في ضحوة يوم الاثنين ثاني ذي القعدة سنة خمس وتسعمائة فأقام نصف سنة وستة عشر يوماً وبنى المدرسة الجنبلاطية خارج باب النصر، ثم خُلع ونُفي إلى الإسكندرية وقتل بها خنقاً، وبويع بعده الملك العادل طومان باي في ثامن عشر جمادى الآخرة سنة ست فأقام ثلاثة أشهر وثلاثة وعشرين يوماً من حين بيعته بقلعة الجبل وبنى المدرسة العادلية، ثم هجم عليه العسكر وقتلوه، وتولى بعده الملك الأشرف أبو النصر قانصوه الغوري يوم الاثنين عيد الفطر من سنة ست وتسعمائة — وهي ولايته الثانية بعد نحو أحد عشر يوماً كانت له سنة 902 حين فر إلى غزة وفُقد في وقعة خان يونس {cite:shadharat-dhahab p. 439-440, 445}."
+  en: "After al-Nasir Muhammad b. Qaytbay was killed, the amir-kabir Jan Balat overcame Sultan al-Zahir Qansuh, who vacated the citadel; Jan Balat took the sultanate at mid-morning Monday 2 Dhu'l-Qa'da 905, held it half a year and sixteen days and built the Janbalatiyya madrasa outside Bab al-Nasr before deposition, exile to Alexandria and strangulation. Al-'Adil Tuman Bay was then invested on 18 Jumada II 906, held the Citadel three months and twenty-three days and built the 'Adiliyya before the army killed him; al-Ashraf Abu al-Nasr Qansuh al-Ghuri followed on 'Id al-Fitr 906 — his second reign after about eleven days in 902 when he fled to Gaza and was lost at the battle of Khan Yunus {cite:shadharat-dhahab p. 439-440, 445}."
+wings: [time]
+themes: [politics-governance-and-authority]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+date:
+  start: { edtf: "1500-06-04~", hijri: "0905-11-02", calendar: julian, precision: day, status: tradition, derived: true, note: "تسلطن جان بلاط الاثنين 2 ذي القعدة 905 {cite:shadharat-dhahab p. 445}", sources: [source/shadharat-dhahab] }
+  end: { edtf: "1501-04-24~", hijri: "0906-10-01", calendar: julian, precision: day, status: tradition, derived: true, note: "تولية قانصوه الغوري الاثنين عيد الفطر 906 {cite:shadharat-dhahab p. 445}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: occurred_at, target: place/cairo, sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/jan-balat, role: "السلطان المخلوع المقتول", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/tuman-bay-i, role: "السلطان الذي بعده", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/qansuh-al-ghawri, role: "السلطان الجديد", sources: [source/shadharat-dhahab] }
+  - { type: had_participant, target: person/al-zahir-qansuh, role: "السلطان المغلوب قبل جان بلاط", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنتا 904 و906)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-143
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

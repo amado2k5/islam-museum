@@ -1,0 +1,24 @@
+id: person/al-nasir-muhammad-ibn-qaytbay
+class: person
+label: { ar: "الملك الناصر محمد بن قايتباي", en: "al-Malik al-Nasir Muhammad ibn Qaytbay" }
+names:
+  - { kind: full, lang: ar, value: "الملك الناصر أبو السعادات محمد بن الملك الأشرف قايتباي الظاهري" }
+gender: male
+roles: [sultan]
+wings: [people]
+themes: [politics-governance-and-authority]
+periods: [period/mongol-post-mongol]
+regions: [egypt-nile]
+summary:
+  ar: "الملك الناصر أبو السعادات محمد بن السلطان قايتباي؛ بويع بالسلطنة قبل موت أبيه بيوم وهو في سن البلوغ سنة إحدى وتسعمائة فأقام ستة أشهر ويومين ثم خُلع، فتولى الملك الأشرف قانصوه الغوري نحو أحد عشر يوماً ثم تحرك عليه العسكر فهرب إلى غزة وفُقد في وقعة خان يونس، فعاد الملك الناصر بعد ثبوت رشده فأقام سنة وستة أشهر ونصف شهر ثم قُتل شر قتلة قبل غروب شمس يوم الأربعاء خامس عشر ربيع الأول سنة أربع وتسعمائة، ويحكى عنه في مصادر المؤرخ أمور قبيحة {cite:shadharat-dhahab p. 425, 439}."
+  en: "Qaytbay's son, acclaimed a day before his father's death in 901 while just of age; deposed after six months and two days, restored after al-Ghuri's eleven days and disappearance at Khan Yunus, reigned a year and a half more, then killed before sunset on Wednesday 15 Rabi' I 904 — the chronicles relate ugly things of him {cite:shadharat-dhahab p. 425, 439}."
+died: { edtf: "1499-11-12~", hijri: "0904-03-15", calendar: julian, precision: day, status: tradition, derived: true, note: "قُتل يوم الأربعاء 15 ربيع الأول 904 {cite:shadharat-dhahab p. 439}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/qaytbay, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنتا 901 و904)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-143
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
