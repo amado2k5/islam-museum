@@ -10,3 +10,7 @@ cpu_ms = 120000
 [[r2_buckets]]
 binding = "SYNC_BUCKET"
 bucket_name = "islam-museum-sync-test"
+
+[vars]
+# Only these prefixes may be written or deleted by an archive.
+ALLOWED_PREFIXES = "_sync-test/"
