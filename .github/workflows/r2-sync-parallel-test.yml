@@ -66,8 +66,9 @@ jobs:
       SYNC_URL: ${{ secrets.R2_SYNC_TEST_URL }}
       SYNC_TOKEN: ${{ secrets.R2_SYNC_TEST_TOKEN }}
       ENDPOINT: "https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com"
-      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      # Test-bucket key only. The production publish keys (R2_ACCESS_KEY_ID) must not be used here.
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_SYNC_TEST_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SYNC_TEST_SECRET_ACCESS_KEY }}
       AWS_DEFAULT_REGION: auto
       BUCKET: islam-museum-sync-test
       FILES: ${{ inputs.files || 'all' }}
