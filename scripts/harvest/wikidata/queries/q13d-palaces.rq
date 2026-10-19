@@ -1,0 +1,2 @@
+# Palaces (Q16560) or subclasses with at least 4 sitelinks. Split from q13 after a server timeout. IDs verified 2026-10-18.
+SELECT DISTINCT ?item WHERE { ?item wdt:P31/wdt:P279* wd:Q16560 ; wikibase:sitelinks ?sl . FILTER(?sl >= 4) } LIMIT 3000
