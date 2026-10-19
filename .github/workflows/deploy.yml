@@ -108,17 +108,23 @@ jobs:
             done | sort > /tmp/manifest-new.txt
 
             # Try to fetch the previous manifest; if absent, treat as empty.
+            # Clear the file first: a failed fetch must not leave the previous
+            # prefix's manifest behind.
+            : > /tmp/manifest-old.txt
             aws s3 cp "$BUCKET/$manifest_key" /tmp/manifest-old.txt \
-              --endpoint-url "$ENDPOINT" --quiet 2>/dev/null || touch /tmp/manifest-old.txt
+              --endpoint-url "$ENDPOINT" --quiet 2>/dev/null || : > /tmp/manifest-old.txt
             sort /tmp/manifest-old.txt -o /tmp/manifest-old.txt
 
             # Files to upload: in new but not in old (new or changed size).
             comm -23 /tmp/manifest-new.txt /tmp/manifest-old.txt \
               | awk '{print $2}' > /tmp/to-upload.txt
 
-            # Files to delete: in old but not in new (removed).
-            comm -13 /tmp/manifest-new.txt /tmp/manifest-old.txt \
-              | awk '{print $2}' > /tmp/to-delete.txt
+            # Files to delete: a path in old but no longer in new (removed).
+            # Compare paths only: a changed-size file has different lines in
+            # the two manifests but is still present, so it must not be deleted.
+            awk '{print $2}' /tmp/manifest-new.txt | sort > /tmp/paths-new.txt
+            awk '{print $2}' /tmp/manifest-old.txt | sort > /tmp/paths-old.txt
+            comm -13 /tmp/paths-new.txt /tmp/paths-old.txt > /tmp/to-delete.txt
 
             upload_count=$(wc -l < /tmp/to-upload.txt)
             delete_count=$(wc -l < /tmp/to-delete.txt)
