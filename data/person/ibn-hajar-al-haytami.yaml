@@ -1,0 +1,26 @@
+id: person/ibn-hajar-al-haytami
+class: person
+label: { ar: "ابن حجر الهيتمي", en: "Ibn Hajar al-Haytami" }
+names:
+  - { kind: full, lang: ar, value: "شهاب الدين أبو العباس أحمد بن محمد بن محمد بن علي بن حجر الهيتمي السعدي الأنصاري الشافعي" }
+gender: male
+roles: [jurist, scholar, writer]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts, scripture-and-its-sciences]
+periods: [period/gunpowder-empires]
+regions: [egypt-nile, arabia]
+summary:
+  ar: "شهاب الدين أحمد بن حجر الهيتمي السعدي الأنصاري الشافعي، الإمام العلامة البحر الزاخر؛ ولد في رجب سنة تسع وتسعمائة بمحلة أبي الهيثم من إقليم الغريسة بمصر، ومات أبوه وهو صغير فكفله الإمامان شمس الدين بن أبي الجمائل وشمس الدين الشناوي، ونقله الشناوي إلى مقام سيدي أحمد البدوي ثم إلى جامع الأزهر سنة أربع وعشرين فأخذ عن علماء مصر منهم القاضي زكريا وعبد الحق السنباطي والسمهودي والرملي والطبلاوي واللقاني وأذنوا له بالإفتاء والتدريس وعمره دون العشرين، وقدم مكة سنة ثلاث وثلاثين فحج وجاور ثم نزع سنة أربعين فجاور بمكة يدرس ويفتي ويؤلف؛ ومن مؤلفاته شرح المشكاة وشرح المنهاج وشرحان على الإرشاد وشرح الهمزية البوصيرية وشرح الأربعين النووية والصواعق المحرقة وكف الرعاع عن محرمات اللهو والسماع والزواجر عن اقتراف الكبائر ونصيحة الملوك وشرح العباب المسمى بالإيضاح وتحذير الثقات عن أكل الكفتة والقات ومناقب أبي حنيفة؛ وكان شيخ الإسلام خاتمة العلماء الأعلام إمام الحرمين؛ توفي بمكة في رجب ودُفن بالمعلاة في تربة الطبريين {cite:shadharat-dhahab p. 370-371}."
+  en: "Ibn Hajar al-Haytami — b. Rajab 909 at Abu al-Haytham in Gharbiyya, orphaned young and fostered by Ibn Abi al-Jamayil and al-Shinnawi, licensed to teach before twenty; from 940 a Meccan mujawir teaching, issuing fatwas and writing: Sharh al-Mishkat, Sharh al-Minhaj, al-Sawa'iq al-Muhriqa, Kaff al-Ri'a', al-Zawajir; 'shaykh al-Islam, seal of the scholars, imam of the two Harams'; died at Mecca in Rajab 973, buried at Ma'la {cite:shadharat-dhahab p. 370-371}."
+born: { edtf: "1503-12~", hijri: "0909-07", calendar: julian, precision: month, status: tradition, derived: true, note: "ولد رجب 909 بمحلة أبي الهيثم {cite:shadharat-dhahab p. 370}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1566-01~", hijri: "0973-07", calendar: julian, precision: month, status: tradition, derived: true, note: "توفي بمكة في رجب 973 ودُفن بالمعلاة {cite:shadharat-dhahab p. 371}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: buried_in, target: place/mecca, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 973)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-147
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }
