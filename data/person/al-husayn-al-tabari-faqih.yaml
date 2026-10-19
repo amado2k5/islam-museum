@@ -1,0 +1,23 @@
+id: person/al-husayn-al-tabari-faqih
+class: person
+label: { ar: "أبو علي الطبري صاحب المحرر", en: "Abu 'Ali al-Tabari, author of al-Muharrar" }
+names:
+  - { value: "الحسين بن القاسم أبو علي الطبري الفقيه الشافعي", kind: full }
+gender: male
+roles: [jurist, author]
+summary:
+  ar: "الحسين بن القاسم أبو علي الطبري الفقيه الشافعي (ت 350هـ)؛ درس على أبي علي بن أبي هريرة وبرع في العلم وسكن بغداد، وصنّف كتاب «المحرر» وهو أول كتاب صُنّف في الخلاف، وصنّف كتاب «الإفصاح» في المذهب وكتاباً في الجدل وكتاباً في أصول الفقه، وتوفي ببغداد سنة خمسين وثلثمائة {cite:muntazam-ibn-al-jawzi j.7 p.8-9}."
+  en: "Al-Husayn b. al-Qasim Abu 'Ali al-Tabari the Shafi'i jurist (d. 350); he studied under Abu 'Ali b. Abi Hurayra, excelled and settled at Baghdad, and composed al-Muharrar — the first book ever written on legal divergence — plus al-Ifsah on the madhhab, a book on jadal and one on usul al-fiqh; he died at Baghdad in 350 {cite:muntazam-ibn-al-jawzi j.7 p.8-9}."
+wings: [people]
+periods: [period/abbasid-fragmentation]
+regions: [levant-iraq]
+themes: [law-and-courts]
+died:
+  { edtf: "0961~", hijri: "0350", calendar: julian, precision: year, status: tradition, derived: true, note: "توفي ببغداد سنة 350؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.8-9}", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، وفيات سنة 350)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

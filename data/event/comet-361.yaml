@@ -1,0 +1,18 @@
+id: event/comet-361
+class: event
+kind: other
+label: { ar: "مذنب 361هـ", en: "The comet of 361" }
+summary:
+  ar: "في صبيحة يوم الأربعاء التاسع من صفر سنة إحدى وستين وثلثمائة ظهر كوكب عظيم له دوي كدوي الرعد، سطع من السماء ومضى نحو القبلة {cite:muntazam-ibn-al-jawzi j.7 p.62}."
+  en: "On the morning of Wednesday 9 Safar 361 a great star appeared, roaring like thunder, blazing from the sky and moving toward the south {cite:muntazam-ibn-al-jawzi j.7 p.62}."
+wings: [time]
+periods: [period/abbasid-fragmentation]
+date:
+  start: { edtf: "0971-12-14~", hijri: "0361-02-09", calendar: julian, precision: day, status: tradition, derived: true, note: "صبيحة الأربعاء 9 صفر 361؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.62}", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم لابن الجوزي (ط حيدرآباد 1357، ج7، سنة 361)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-350-474-2
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
