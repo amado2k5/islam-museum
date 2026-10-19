@@ -1,0 +1,26 @@
+id: person/badr-al-din-al-ghazzi
+class: person
+label: { ar: "بدر الدين الغزي العامري شيخ إسلام دمشق", en: "Badr al-Din al-Ghazzi, shaykh al-Islam of Damascus" }
+names:
+  - { kind: full, lang: ar, value: "بدر الدين أبو البركات محمد بن القاضي رضي الدين محمد الغزي العامري القرشي الشافعي" }
+gender: male
+roles: [scholar, jurist, teacher, writer]
+traditions: [sunni]
+wings: [people]
+themes: [scripture-and-its-sciences, education, spirituality-and-sufism]
+periods: [period/gunpowder-empires]
+regions: [levant-iraq, egypt-nile]
+summary:
+  ar: "بدر الدين أبو البركات الغزي العامري القرشي الشافعي شيخ الإسلام بدمشق وبحر العلوم؛ ولد وقت العشاء ليلة الاثنين رابع عشر ذي القعدة سنة أربع وتسعمائة، وحمله والده إلى الشيخ أبي الفتح المزي الصوفي فألبسه خرقة التصوف ولقنه الذكر وأجازه بكل ما تجوز له وهو دون السنتين، وقرأ القرآن بالعشر على البدر السنهوري ولزم والده في الفقه والعربية والمنطق وقرأ على تقي الدين بن قاضي عجلون، ثم رحل إلى القاهرة فأخذ عن القاضي زكريا والبرهان بن أبي شريف والقلقشندي والقسطلاني نحو خمس سنين، وتصدَّر للتدريس وهو ابن سبع عشرة سنة؛ وولي مشيخة القراء بالجامع الأموي وإمامة المقصورة ودرس بالعادلية والشامية البرانية والمقدمية والتقوية وجمع له بين التقوية والشامية الجوانية، ولزم العزلة لا يأتي قاضياً ولا حاكماً بل يقصدونه ويستأذنون عليه، ولم يأخذ على الفتوى شيئاً وسدّ باب الهدية مطلقاً؛ وبلغت تصانيفه مائة وخمسة عشر مصنفاً من أشهرها التفاسير الثلاثة المنثور والمنظومان وأشهرها المنظوم الكبير في مائة ألف بيت وثمانين ألف بيت؛ وتوفي يوم الأربعاء سادس عشر شوال ودُفن بتربة الشيخ أرسلان {cite:shadharat-dhahab p. 403-406}."
+  en: "Badr al-Din al-Ghazzi — Damascus's shaykh al-Islam; given the khirqa and a full ijaza by Abu al-Fath al-Mizzi before he was two, teaching from seventeen; holder of the Umayyad qurra' mashyakha and six madrasa chairs, who let qadis and na'ibs wait at his door and closed the gift-door absolutely; 115 works including the great verse tafsir in 180,000 verses; died Wednesday 16 Shawwal 984, buried at Shaykh Arslan's turba {cite:shadharat-dhahab p. 403-406}."
+born: { edtf: "1499-06-12~", hijri: "0904-11-14", calendar: julian, precision: day, status: tradition, derived: true, note: "ولد وقت العشاء ليلة الاثنين 14 ذو القعدة 904 {cite:shadharat-dhahab p. 403}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1577-01-16~", hijri: "0984-10-16~", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي الأربعاء 16 شوال ودُفن بتربة الشيخ أرسلان؛ التحويل مشتق {cite:shadharat-dhahab p. 405-406}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: student_of, target: person/taqi-ibn-qadi-ajlun, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 984، عن النجم الغزي)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

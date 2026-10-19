@@ -1,0 +1,24 @@
+id: person/ali-al-qitali-zade
+class: person
+label: { ar: "علي القتالي زاده القاضي الشاعر", en: "'Ali al-Qitali-zade, the poet-qadi" }
+names:
+  - { kind: full, lang: ar, value: "المولى علي بن محمد القتالي زاده" }
+gender: male
+roles: [jurist, poet]
+traditions: [sunni]
+wings: [people]
+themes: [law-and-courts, literature]
+periods: [period/gunpowder-empires]
+regions: [anatolia-balkans]
+summary:
+  ar: "المولى علي القتالي زاده؛ قال في الكواكب: كان من القضاة الفضلاء الشعراء الظرفاء، ولد سنة ثمان عشرة وتسعمائة، وخالف في مسألة الضرب بالمشباب وألّف فيه كتاباً، وكان له في حياة أبي السعود صيت جميل، وكان شاعراً حسن الذوق جميل الأدب له قصيدة «الطريد إلى الله ملتجي حرمه» شملت الفنون؛ وقُتل بالطلسم في أنطاكية وقيل سقاه زوجته شيئاً في مرهقه فمات في سابع رمضان {cite:shadharat-dhahab p. 388-389}."
+  en: "Molla 'Ali al-Qitali-zade — b. 918, 'one of the excellent poet-courtier qadis'; author of a tract on the mashbab punishment, poet of 'al-Tarid ila'llah'; killed by a poisoned draught said to be given by his wife at Antioch, died 7 Ramadan 979 {cite:shadharat-dhahab p. 388-389}."
+born: { edtf: "1512~", hijri: "0918", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد سنة 918 {cite:shadharat-dhahab p. 388}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1572-01-14~", hijri: "0979-09-07", calendar: julian, precision: day, status: tradition, derived: true, note: "مات في 7 رمضان وقيل سُقي مرهقاً؛ التحويل مشتق {cite:shadharat-dhahab p. 389}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 979، عن الكواكب)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-148
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

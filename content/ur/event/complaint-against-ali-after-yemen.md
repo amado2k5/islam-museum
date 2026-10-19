@@ -15,10 +15,10 @@ translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 
 :::perspectives
 - tradition: sunni
-  summary: ابن اسحاق اسے نبی کی طرف سے علی کی حق میں سختی پر تعریف کے طور پر روایت کرتے ہیں، اور مناقب کی کتابیں اسے ان کی فضیلت میں ذکر کرتی ہیں۔
+  summary: ابن اسحاق اسے نبی کی طرف سے علی کی حق میں سختی پر تعریف کے طور پر روایت کرتے ہیں، اور مناقب کی کتابیں اسے ان کی فضیلت میں ذکر کرتی ہیں۔ {cite:ibn-hisham-saqqa 4/250}
   sources: [source/ibn-hisham-saqqa]
 - tradition: shia
-  summary: امامیہ اس شکایت کو حج کے بعد غدیر خم کے واقعے سے جوڑتے ہیں، اور خطبے کو اس کی تمہید اور علی کے دفاع کے طور پر دیکھتے ہیں؛ اس کا خلاصہ کسی مخصوص شیعہ ماخذ سے درکار ہے (needs_source)۔
+  summary: امامیہ اس شکایت کو حج کے بعد [[event/ghadir-khumm|غدیر خم]] کے واقعے سے جوڑتے ہیں، اور خطبے کو اس کی تمہید اور علی کے دفاع کے طور پر دیکھتے ہیں؛ اس کا خلاصہ کسی مخصوص شیعہ ماخذ سے درکار ہے (needs_source)۔ {cite:ibn-hisham-saqqa 4/250}
   sources: [source/ibn-hisham-saqqa]
 :::
 
