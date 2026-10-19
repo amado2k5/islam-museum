@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 2160,
+ "next_index": 2260,
  "created_ids": [
   {
    "i": 24,
@@ -2196,6 +2196,121 @@
    "i": 2144,
    "qid": "Q61669",
    "id": "person/ibn-bibi"
+  },
+  {
+   "i": 2163,
+   "qid": "Q8050417",
+   "id": "person/yavuz-ali-pasha"
+  },
+  {
+   "i": 2164,
+   "qid": "Q8053361",
+   "id": "building/yesil-mosque-iznik"
+  },
+  {
+   "i": 2167,
+   "qid": "Q838360",
+   "id": "building/al-muayyad-mosque-cairo"
+  },
+  {
+   "i": 2182,
+   "qid": "Q1295082",
+   "id": "person/sultanzade-mehmet-pasha"
+  },
+  {
+   "i": 2194,
+   "qid": "Q141055",
+   "id": "person/ibrahim-ghaznavi"
+  },
+  {
+   "i": 2201,
+   "qid": "Q16863366",
+   "id": "person/shihab-al-din-umar-khalji"
+  },
+  {
+   "i": 2206,
+   "qid": "Q2121628",
+   "id": "building/qingjing-mosque-quanzhou"
+  },
+  {
+   "i": 2207,
+   "qid": "Q22686625",
+   "id": "building/abu-dulaf-mosque-samarra"
+  },
+  {
+   "i": 2209,
+   "qid": "Q2369205",
+   "id": "person/hoca-sadeddin-efendi"
+  },
+  {
+   "i": 2212,
+   "qid": "Q25451679",
+   "id": "person/abu-al-muin-al-nasafi"
+  },
+  {
+   "i": 2213,
+   "qid": "Q256724",
+   "id": "person/koci-bey"
+  },
+  {
+   "i": 2215,
+   "qid": "Q2617033",
+   "id": "person/al-qasim-ibn-muhammad-ibn-abi-bakr"
+  },
+  {
+   "i": 2222,
+   "qid": "Q2768005",
+   "id": "person/mahmud-begada"
+  },
+  {
+   "i": 2225,
+   "qid": "Q2820926",
+   "id": "person/hatefi"
+  },
+  {
+   "i": 2226,
+   "qid": "Q288260",
+   "id": "person/abu-said-al-jannabi"
+  },
+  {
+   "i": 2228,
+   "qid": "Q293651",
+   "id": "person/al-sulami"
+  },
+  {
+   "i": 2230,
+   "qid": "Q3030270",
+   "id": "building/sidi-mahrez-mosque"
+  },
+  {
+   "i": 2231,
+   "qid": "Q308115",
+   "id": "person/abd-al-salam-ibn-mashish"
+  },
+  {
+   "i": 2234,
+   "qid": "Q3147516",
+   "id": "person/ibrahim-sultan-timurid"
+  },
+  {
+   "i": 2249,
+   "qid": "Q3609224",
+   "id": "building/great-mosque-mahdia"
+  },
+  {
+   "i": 2253,
+   "qid": "Q375436",
+   "id": "group/kubrawiyya"
+  },
+  {
+   "i": 2255,
+   "qid": "Q3780308",
+   "id": "group/bayramiyya"
+  },
+  {
+   "i": 2259,
+   "qid": "Q3827910",
+   "id": "person/ibrahim-al-imam"
   }
  ],
  "linked_ids": [
@@ -4470,7 +4585,44 @@
    "i": 2149,
    "qid": "Q6762300",
    "to": "person/sari-al-saqati"
-  }
+  },
+  {
+   "i": 2161,
+   "qid": "Q7876446",
+   "to": "person/ubada-ibn-al-samit"
+  },
+  {
+   "i": 2168,
+   "qid": "Q846536",
+   "to": "person/kamal-al-din-ibn-al-adim"
+  },
+  {
+   "i": 2173,
+   "qid": "Q1048593",
+   "to": "person/amr-ibn-ubayd"
+  },
+  {
+   "i": 2176,
+   "qid": "Q12177901",
+   "to": "person/ibn-furak"
+  },
+  {
+   "i": 2178,
+   "qid": "Q12208658",
+   "to": "person/hammad-ibn-buluggin"
+  },
+  {
+   "i": 2237,
+   "qid": "Q3321466",
+   "to": "person/ibn-al-abbar-muhammad"
+  },
+  {
+   "i": 2256,
+   "qid": "Q3783239",
+   "to": "person/hanzala-ibn-abi-amir"
+  },
+  "person/al-dahhak-ibn-qays-al-fihri",
+  "person/muqatil-ibn-sulayman"
  ],
  "skipped": [
   [
@@ -10822,9 +10974,349 @@
    2159,
    "Q7418443",
    "Indian actor b.1941; modern"
+  ],
+  [
+   2160,
+   "Q7461226",
+   "Shah Abdul Aziz Dehlavi d.1823; post-1800"
+  ],
+  [
+   2162,
+   "Q794432",
+   "Azzan of Oman d.1870; post-1800"
+  ],
+  [
+   2165,
+   "Q8082462",
+   "Ottoman painter d.1907; post-1800"
+  ],
+  [
+   2166,
+   "Q809777",
+   "Gjirokaster mosque; no confirmed source"
+  ],
+  [
+   2169,
+   "Q9226",
+   "Northern Yuan khagan; non-Muslim steppe ruler, out of scope"
+  ],
+  [
+   2170,
+   "Q959920",
+   "ayatollah d.2020; modern"
+  ],
+  [
+   2171,
+   "Q984219",
+   "Halil Rifat Pasha d.1901; modern"
+  ],
+  [
+   2172,
+   "Q1026624",
+   "Free Officer d.2018; modern"
+  ],
+  [
+   2174,
+   "Q10986114",
+   "Muhammad Imara d.2020; modern"
+  ],
+  [
+   2175,
+   "Q1137520",
+   "Kizimkazi mosque Zanzibar; deferred"
+  ],
+  [
+   2179,
+   "Q12220069",
+   "Mubarakpuri d.2006; modern"
+  ],
+  [
+   2180,
+   "Q12238123",
+   "singer; modern"
+  ],
+  [
+   2181,
+   "Q1277350",
+   "al-Nasir Muhammad madrasa Cairo; deferred"
+  ],
+  [
+   2183,
+   "Q13047913",
+   "King Mosque Elbasan; no confirmed source"
+  ],
+  [
+   2184,
+   "Q13403447",
+   "al-A'zami d.2017; modern"
+  ],
+  [
+   2185,
+   "Q1362338",
+   "Nashashibi d.1951; modern"
+  ],
+  [
+   2186,
+   "Q13668326",
+   "Namazgoh mosque Bukhara; deferred"
+  ],
+  [
+   2187,
+   "Q1387931",
+   "Nurcholish Madjid d.2005; modern"
+  ],
+  [
+   2188,
+   "Q1392056",
+   "Ibn Saud's wife d.1934; modern"
+  ],
+  [
+   2189,
+   "Q1393513",
+   "Faisal bin Turki d.1865; post-1800"
+  ],
+  [
+   2190,
+   "Q1395423",
+   "qareen jinn term; deferred"
+  ],
+  [
+   2191,
+   "Q1398072",
+   "Fatih mosque Dura; no confirmed source"
+  ],
+  [
+   2192,
+   "Q140085",
+   "M.A.G. Osmani d.1984; modern"
+  ],
+  [
+   2195,
+   "Q15229440",
+   "footballer; modern"
+  ],
+  [
+   2196,
+   "Q1584132",
+   "Topal Recep Pasha d.1632; deferred — batch cap"
+  ],
+  [
+   2197,
+   "Q1586213",
+   "Mirahori mosque Albania; no confirmed source"
+  ],
+  [
+   2198,
+   "Q1590626",
+   "Burmali mosque Istanbul; no confirmed source"
+  ],
+  [
+   2199,
+   "Q1595620",
+   "Sultan of Sokoto b.1956; modern"
+  ],
+  [
+   2200,
+   "Q16053240",
+   "Iranian economist; modern"
+  ],
+  [
+   2202,
+   "Q17556244",
+   "actress; modern"
+  ],
+  [
+   2203,
+   "Q18349849",
+   "Abdullah ibn Unais companion; deferred"
+  ],
+  [
+   2204,
+   "Q1907069",
+   "Kazakhstan mosque; modern"
+  ],
+  [
+   2205,
+   "Q1983940",
+   "Hamidov d.2020; modern"
+  ],
+  [
+   2208,
+   "Q2364324",
+   "Ait Atta ethnic group; out of scope"
+  ],
+  [
+   2210,
+   "Q2478866",
+   "Johor mosque 1900; modern"
+  ],
+  [
+   2211,
+   "Q2529197",
+   "Fittja mosque Sweden; modern"
+  ],
+  [
+   2214,
+   "Q2602302",
+   "Saudi royal d.2017; modern"
+  ],
+  [
+   2216,
+   "Q2620819",
+   "Abbas Qumi d.1941; modern"
+  ],
+  [
+   2217,
+   "Q2622743",
+   "Yemeni PM d.2011; modern"
+  ],
+  [
+   2218,
+   "Q263102",
+   "Recai Kutan d.2024; modern"
+  ],
+  [
+   2219,
+   "Q267762",
+   "Neku Siyar Mughal prince; deferred"
+  ],
+  [
+   2220,
+   "Q2744961",
+   "actor d.2018; modern"
+  ],
+  [
+   2221,
+   "Q2745413",
+   "al-Hadi ila'l-Haqq Zaydi founder; check existing — deferred"
+  ],
+  [
+   2223,
+   "Q279545",
+   "Niamey grand mosque; modern"
+  ],
+  [
+   2224,
+   "Q28086147",
+   "Sultan of Kedah b.1942; modern"
+  ],
+  [
+   2227,
+   "Q29081",
+   "Sultan Ahmad of Brunei; thin, no confirmed source"
+  ],
+  [
+   2229,
+   "Q2995077",
+   "Shahrbanu; legendary figure, hagiographic — deferred"
+  ],
+  [
+   2232,
+   "Q308257",
+   "Haeri Yazdi d.1937; modern"
+  ],
+  [
+   2233,
+   "Q3128212",
+   "footballer; modern"
+  ],
+  [
+   2235,
+   "Q317430",
+   "Syrian PM d.2025; modern"
+  ],
+  [
+   2236,
+   "Q3246260",
+   "Swat princely state; modern"
+  ],
+  [
+   2238,
+   "Q3324861",
+   "Hadum mosque Gjakova; no confirmed source"
+  ],
+  [
+   2239,
+   "Q3327503",
+   "Alawi al-Maliki d.2004; modern"
+  ],
+  [
+   2240,
+   "Q3339429",
+   "singer; modern"
+  ],
+  [
+   2241,
+   "Q3346393",
+   "Ibrahim Shah Suri; deferred — batch cap"
+  ],
+  [
+   2242,
+   "Q3349172",
+   "Tipu Sultan mosque Kolkata; modern"
+  ],
+  [
+   2243,
+   "Q3386504",
+   "hizb term; deferred"
+  ],
+  [
+   2244,
+   "Q3407634",
+   "Kampung Laut mosque; deferred"
+  ],
+  [
+   2245,
+   "Q3415922",
+   "al-Madkhali d.2025; modern"
+  ],
+  [
+   2246,
+   "Q343026",
+   "Ozturk d.2016; modern"
+  ],
+  [
+   2247,
+   "Q3595798",
+   "Gailani d.2017; modern"
+  ],
+  [
+   2248,
+   "Q359766",
+   "Pachachi d.2019; modern"
+  ],
+  [
+   2250,
+   "Q3622985",
+   "Ulubatli Hasan Constantinople hero; deferred"
+  ],
+  [
+   2251,
+   "Q3635804",
+   "Wajid Ali Shah d.1887; post-1800"
+  ],
+  [
+   2252,
+   "Q373635",
+   "Rahimuddin Khan d.2022; modern"
+  ],
+  [
+   2254,
+   "Q376445",
+   "Baltoglu admiral; deferred"
+  ],
+  [
+   2257,
+   "Q3817955",
+   "Sikandar Shah Miri; contested iconoclast, needs perspectives — deferred"
+  ],
+  [
+   2258,
+   "Q3818737",
+   "Ali Dinar d.1916; modern"
   ]
  ],
- "skipped_total": 1270,
+ "skipped_total": 1340,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -11733,7 +12225,7 @@
   "South Yemen leader b.1939; modern": 1,
   "Fawzi al-Qawuqji d.1977; modern": 1,
   "Azerbaijani mufti b.1949; modern": 1,
-  "footballer; modern": 1,
+  "footballer; modern": 3,
   "Darod clan; no confirmed source on the page": 1,
   "Iranian general b.1965; modern": 1,
   "Russian general d.1919; modern": 1,
@@ -11913,7 +12405,7 @@
   "Ibrahim Hakki Pasha d.1918; modern": 1,
   "Somali politician d.2020; modern": 1,
   "link-failed:already has wikidata": 1,
-  "singer; modern": 1,
+  "singer; modern": 3,
   "Bakht Khan d.1859; post-1800": 1,
   "Afghan crown prince d.2024; modern": 1,
   "Syrian PM d.2020; modern": 1,
@@ -11926,7 +12418,7 @@
   "Suharto first lady; modern": 1,
   "karama concept; deferred": 1,
   "Indonesian general d.1948; modern": 1,
-  "actor d.2018; modern": 1,
+  "actor d.2018; modern": 2,
   "Sayed Kashua; modern": 1,
   "Kars cathedral-mosque; deferred": 1,
   "Dubai grand mosque; modern": 1,
@@ -12028,10 +12520,74 @@
   "al-Qaeda militant d.2015; modern": 1,
   "Qutlugh Nigar Khanum; thin, deferred": 1,
   "Iraqi militant d.2015; modern": 1,
-  "Indian actor b.1941; modern": 1
+  "Indian actor b.1941; modern": 1,
+  "Shah Abdul Aziz Dehlavi d.1823; post-1800": 1,
+  "Azzan of Oman d.1870; post-1800": 1,
+  "Ottoman painter d.1907; post-1800": 1,
+  "Gjirokaster mosque; no confirmed source": 1,
+  "Northern Yuan khagan; non-Muslim steppe ruler, out of scope": 1,
+  "ayatollah d.2020; modern": 1,
+  "Halil Rifat Pasha d.1901; modern": 1,
+  "Free Officer d.2018; modern": 1,
+  "Muhammad Imara d.2020; modern": 1,
+  "Kizimkazi mosque Zanzibar; deferred": 1,
+  "create-failed:file-exists": 2,
+  "Mubarakpuri d.2006; modern": 1,
+  "al-Nasir Muhammad madrasa Cairo; deferred": 1,
+  "King Mosque Elbasan; no confirmed source": 1,
+  "al-A'zami d.2017; modern": 1,
+  "Nashashibi d.1951; modern": 1,
+  "Namazgoh mosque Bukhara; deferred": 1,
+  "Nurcholish Madjid d.2005; modern": 1,
+  "Ibn Saud's wife d.1934; modern": 1,
+  "Faisal bin Turki d.1865; post-1800": 1,
+  "qareen jinn term; deferred": 1,
+  "Fatih mosque Dura; no confirmed source": 1,
+  "M.A.G. Osmani d.1984; modern": 1,
+  "Topal Recep Pasha d.1632; deferred — batch cap": 1,
+  "Mirahori mosque Albania; no confirmed source": 1,
+  "Burmali mosque Istanbul; no confirmed source": 1,
+  "Sultan of Sokoto b.1956; modern": 1,
+  "Iranian economist; modern": 1,
+  "actress; modern": 1,
+  "Abdullah ibn Unais companion; deferred": 1,
+  "Kazakhstan mosque; modern": 1,
+  "Hamidov d.2020; modern": 1,
+  "Ait Atta ethnic group; out of scope": 1,
+  "Johor mosque 1900; modern": 1,
+  "Fittja mosque Sweden; modern": 1,
+  "Saudi royal d.2017; modern": 1,
+  "Abbas Qumi d.1941; modern": 1,
+  "Yemeni PM d.2011; modern": 1,
+  "Recai Kutan d.2024; modern": 1,
+  "Neku Siyar Mughal prince; deferred": 1,
+  "al-Hadi ila'l-Haqq Zaydi founder; check existing — deferred": 1,
+  "Niamey grand mosque; modern": 1,
+  "Sultan of Kedah b.1942; modern": 1,
+  "Sultan Ahmad of Brunei; thin, no confirmed source": 1,
+  "Shahrbanu; legendary figure, hagiographic — deferred": 1,
+  "Haeri Yazdi d.1937; modern": 1,
+  "Syrian PM d.2025; modern": 1,
+  "Swat princely state; modern": 1,
+  "Hadum mosque Gjakova; no confirmed source": 1,
+  "Alawi al-Maliki d.2004; modern": 1,
+  "Ibrahim Shah Suri; deferred — batch cap": 1,
+  "Tipu Sultan mosque Kolkata; modern": 1,
+  "hizb term; deferred": 1,
+  "Kampung Laut mosque; deferred": 1,
+  "al-Madkhali d.2025; modern": 1,
+  "Ozturk d.2016; modern": 1,
+  "Gailani d.2017; modern": 1,
+  "Pachachi d.2019; modern": 1,
+  "Ulubatli Hasan Constantinople hero; deferred": 1,
+  "Wajid Ali Shah d.1887; post-1800": 1,
+  "Rahimuddin Khan d.2022; modern": 1,
+  "Baltoglu admiral; deferred": 1,
+  "Sikandar Shah Miri; contested iconoclast, needs perspectives — deferred": 1,
+  "Ali Dinar d.1916; modern": 1
  },
  "last_commit": "d6d413304",
  "last_push": "66fdae59b",
  "batch_current": 7,
- "updated_at": "2026-10-19T18:23:01-04:00"
+ "updated_at": "2026-10-19T18:26:51-04:00"
 }
