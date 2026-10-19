@@ -107,7 +107,9 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, log 
 
   // COPY ops run COPY_CONCURRENCY at a time. A MOVE, DELETE or unknown op runs alone,
   // in manifest order, so it can never race a COPY to the same key.
-  const COPY_CONCURRENCY = 10;
+  // A Worker invocation can hold six connections open at once (Cloudflare Workers limits).
+  // A seventh R2 call waits for one of them, so six is the most that can run in parallel.
+  const COPY_CONCURRENCY = 6;
   let lastStatusAt = 0;
 
   const copyOp = async (op, i) => {
