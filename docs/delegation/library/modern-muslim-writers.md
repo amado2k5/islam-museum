@@ -120,6 +120,27 @@ Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's ow
   - No question or tension card written yet for the Crusades passage (Rida's answer on p. 9–10 is recorded only in the concept prose).
 - **Next step:** read vol. 7 from p. 12 on (Ma'ida 86 onward, then An'am), add a `person` record for the Negus only if it is needed for an edge, and once the other agent's `work/tafsir-al-manar` is on main, link the source to it. Then volumes 8 to 12, one source record each.
 
+## Tafsir al-Manar, volumes 4 and 5 (batch, draft, branch `lib-exp/tafsir-manar-v04-05`, 19 Oct 2026)
+
+- **Pages covered (OCR page markers):** vol. 4, pp. 1 to 12 (title pages; commentary on Q. 3:93 to 97: Abraham's religion, the first house, the station, the sanctity of the Haram, the duty of the pilgrimage, Rida's footnote on the Hajj in his time); vol. 5, pp. 1 to 8 (title pages; opening of the commentary on Q. 4:24 and 4:25: married women, those whom the right hand possesses, captives in a religious war).
+- **Entities created (all `status.review: draft`, with provenance):**
+  - `source/tafsir-manar-v04` (primary, book; edition not verified, reliability note says so)
+  - `source/tafsir-manar-v05` (primary, book; edition not verified, reliability note says so)
+  - `concept/maqam-ibrahim-ayat-tafsir` (Rida's reading of the station and the signs listed for it; the stone itself is `object/maqam-ibrahim`, reused by link, not duplicated)
+  - `concept/hurmat-al-haram-makka` (security of the Sacred Precinct; the two objections and Abduh's answers; Rida's footnote on Hajj in his time)
+  - `concept/wujub-al-hajj-fawran-aw-tarakhi` (immediate or deferrable Hajj; perspectives with two sunni entries, holders not named in the text)
+  - `concept/al-sabi-fi-al-harb-al-diniyya` (captives and married women, Q. 4:24; three perspectives: majority reading, Hanafi and some Hanbali view, Rida and Abduh's conditions labelled other)
+- **Reused, not created (linked in prose or in perspectives):** `practice/hajj`, `place/mecca`, `object/maqam-ibrahim`, `person/rashid-rida`, `person/muhammad-abduh`, `person/ibrahim`, `person/al-hajjaj-ibn-yusuf`, `person/sad-ibn-ubada`, `person/sad-ibn-malik-al-khudri`, `passage/quran-3-97`. `work/tafsir-al-manar` is not yet linked from the new sources (no edge written in this batch).
+- **Skipped and why:**
+  - No new person record for Ibn Sa'ud (named in Rida's footnote; no record exists and no source beyond Rida was read).
+  - No event record for the Hajjaj bombardment of the Ka'ba or the conquest of Mecca: no date is given in the text read, and a dated event needs two sources.
+  - No perspectives entry on tawassul (Rida's criticism of seeking intercession through saints, vol. 4, p. 10): a Sunni lead needs a sourced Sunni position beyond Rida's report; left for a later batch.
+  - No record for the Imamiyya view on married slave women (vol. 5, p. 5): reported only in one sentence; left as prose.
+  - No Qur'an text typed anywhere; verses linked only as `passage/quran-3-97`.
+  - Rida's remarks on France (vol. 5, p. 8) are not used.
+- **Dates flagged:** the 1924 date in Rida's footnote (vol. 4, p. 9) is the book's own claim and needs a second source before any use. Hijri and other dates are not derived here.
+- **Edition:** both volumes are an OCR of a modern printing (editor Ibrahim Shams al-Din; Dar al-Kutub al-Ilmiyya, Beirut). The year is not read in the OCR. Every page number must be checked against the printed copy.
+- **Next step:** read vol. 4 from p. 13 (the rest of Q. 3:98 onward to 4:23) and vol. 5 from p. 9 (the rest of Q. 4:25), find a second source for the 1924 date, add a Sunni-frame source for the tawassul entry, and decide on a person record for Ibn Sa'ud only if an edge needs it.
 ## Tafsir al-Manar, volumes 9 and 10 (library-expansion, draft, 19 Oct 2026)
 
 - **Branch:** `worktree-agent-ae03fbebc05a8aa96` (not pushed to main, not merged). Scope: at most 25 entities; 9 written.
