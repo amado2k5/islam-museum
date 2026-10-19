@@ -1,0 +1,24 @@
+id: person/taqi-ibn-zurayq
+class: person
+label: { ar: "التقي ابن زريق", en: "al-Taqi Ibn Zurayq" }
+names:
+  - { kind: full, lang: ar, value: "الشيخ تقي الدين أحمد بن ناصر الدين بن زريق الشافعي الدمشقي" }
+gender: male
+roles: [scholar]
+traditions: [sunni]
+wings: [people]
+themes: [education]
+periods: [period/mongol-post-mongol]
+regions: [levant-iraq]
+summary:
+  ar: "الشيخ التقي ابن زريق الدمشقي الشافعي ولد سنة سبع وثلاثين وثمانمائة، واشتغل بعمل مدرسة جولاق بعد تمامها فكان أول من جلس فيه، وولي مشيخة الزوايا ونظره والحسبة ودرس وتدرس في زمانه وكثر نقله وتوفي بدمشق سنة سبع عشرة وتسعمائة {cite:shadharat-dhahab p. 468}."
+  en: "Damascene Shafi'i (b. 837) — first to sit teaching at the Jawlaq madrasa upon its completion, held the zawiya mashyakha and the hisba, 'profuse in transmission'; d. Damascus 917 {cite:shadharat-dhahab p. 468}."
+born: { edtf: "1433/1434", hijri: "0837", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد 837 {cite:shadharat-dhahab p. 468}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1511/1512", hijri: "0917", calendar: julian, precision: year, status: tradition, derived: true, note: "917؛ التحويل مشتق {cite:shadharat-dhahab p. 468}", sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج8، سنة 917)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-144
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

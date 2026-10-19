@@ -9,6 +9,8 @@ roles: [sultan]
 wings: [people]
 periods: [period/mongol-post-mongol]
 regions: [egypt-nile]
+born: { edtf: "1422/1423", hijri: "0826", calendar: julian, precision: year, status: tradition, derived: true, note: "ولد 826 {cite:shadharat-dhahab p. 422}", sources: [source/shadharat-dhahab] }
+died: { edtf: "1496-08-05~", hijri: "0901-11-17", calendar: julian, precision: day, status: tradition, derived: true, note: "توفي آخر نهار الأحد 17 ذي القعدة 901 بعد تسع وعشرين سنة وأربعة أشهر وعشرين يوماً في السلطنة، ودفن يوم الاثنين بقبة بناها بتربة الصحراء شرقي القاهرة وقبره ظاهر يزار {cite:shadharat-dhahab p. 425}", sources: [source/shadharat-dhahab] }
 relations:
   - { type: participated_in, target: event/qaytbay-accession-872, role: "السلطان الجديد", sources: [source/shadharat-dhahab] }
 provenance:
