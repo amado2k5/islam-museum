@@ -57,7 +57,24 @@ jobs:
           PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
       - name: No runtime AI or compute (guard)
         run: npm run check:static
+      - name: Check whether data/content changed (gate for R2 sync)
+        id: content_gate
+        run: |
+          # R2 holds the pagefind indexes and API JSON, both of which are derived
+          # exclusively from data/ and content/. If neither directory changed in the
+          # commits included in this push, the R2 files are already correct and the
+          # sync can be skipped entirely — saving ~4 GET + 4 PUT + N upload ops.
+          # Falls back to "changed" (forces sync) whenever git history is uncertain.
+          if git rev-parse HEAD~1 >/dev/null 2>&1 && \
+             git diff --quiet HEAD~1 HEAD -- data/ content/; then
+            echo "skip=true"  >> "$GITHUB_OUTPUT"
+            echo "No data/content changes — R2 sync skipped."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "data/ or content/ changed — R2 sync will run."
+          fi
       - name: Upload pagefind indexes and API to R2
+        if: steps.content_gate.outputs.skip == 'false'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
