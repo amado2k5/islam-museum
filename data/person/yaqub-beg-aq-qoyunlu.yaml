@@ -1,0 +1,24 @@
+id: person/yaqub-beg-aq-qoyunlu
+class: person
+label: { ar: "يعقوب بك بن حسن بك سلطان العراقين", en: "Ya'qub Beg ibn Hasan Beg, sultan of the two Iraqs" }
+names:
+  - { value: "يعقوب بك بن حسن بك سلطان العراقين", kind: full }
+gender: male
+summary:
+  ar: "يعقوب بك بن حسن بك سلطان العراقين من دولة آق قويونلو، خلف أباه أوزن حسن في سلطنة العراقين وأذربيجان، توفي سنة ست وتسعين وثمانمائة {cite:shadharat-dhahab p. 359}."
+  en: "Ya'qub Beg — Uzun Hasan's successor as Aq Qoyunlu 'sultan of the two Iraqs'; died 896 {cite:shadharat-dhahab p. 359}."
+roles: [sultan]
+wings: [people]
+themes: [politics-governance-and-authority]
+periods: [period/mongol-post-mongol]
+regions: [persia-central-asia, levant-iraq]
+died: { edtf: "1491~", hijri: "0896", calendar: julian, precision: year, status: tradition, derived: true, note: "ترجمته ضمن سنة 896 {cite:shadharat-dhahab p. 359}", sources: [source/shadharat-dhahab] }
+relations:
+  - { type: child_of, target: person/uzun-hasan, sources: [source/shadharat-dhahab] }
+provenance:
+  layer: own-research
+  source: "شذرات الذهب — ابن العماد (ط مكتبة المثنى 1351، ج7، سنة 896)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-shadharat-batch-142
+sources: [source/shadharat-dhahab]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }
