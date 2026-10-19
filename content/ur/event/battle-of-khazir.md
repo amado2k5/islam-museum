@@ -1,0 +1,14 @@
+---
+id: event/battle-of-khazir
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+
+## خلاصہ
+66ھ میں [[person/ubayd-allah-ibn-ziyad|عبید اللہ بن زیاد]] شام کے لشکروں کے ساتھ عراق کی طرف بڑھے۔ جب وہ موصل ([[place/mosul|موصل]]) پہنچے تو خازر کے مقام پر ان کا سامنا [[person/ibrahim-ibn-al-ashtar|ابراہیم بن اشتر]] سے ہوا، جو مختار کی طرف سے عراق کے گھڑ سواروں کے سردار تھے۔ {cite:bakr-umayyad-state-1134715 p. 209}
+
+## نتیجہ
+کتاب اس جنگ کو عظیم قرار دیتی ہے۔ اس میں ابن زیاد، حصین بن نمیر، شرحبیل بن ذی الکلاع اور شام کے کئی سردار قتل ہوئے۔ {cite:bakr-umayyad-state-1134715 p. 209}
+
+خضری بیان کرتے ہیں کہ غلبہ ابن الاشتر کو حاصل ہوا، اور شام کے لشکر کو قتل اور غرق ہونے کا سامنا کرنا پڑا۔ {cite:khudari-umayyad-state p.300} ان کی رائے ہے کہ ان کی شکست اس وقت ہوئی جب قیس اور یمن کے درمیان عصبیت کی رگ پھڑکی۔ {cite:khudari-umayyad-state p.365}
