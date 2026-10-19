@@ -39,3 +39,11 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Batch 13 (1160–1259): 25 creates incl. Baha al-Din al-Amili, al-Shaykh al-Mufid, al-Shadhili, Ibn Manzur, Kaysaniyya, al-Zaytuna, Danishmend Gazi; 14 links incl. al-Zuhri, al-Qushayri, Jawhar, Ibn al-Kalbi, al-Baydawi.
 - `npm run validate`: 0 errors / 1998 warnings; `npm test` 101 passed.
 - Pushed to main. Nothing blocked.
+
+## 19 Oct 2026 — batches 14–21 (candidates 1260–2059)
+
+- Created: **413** draft records total · Linked: **447** · Skipped: **1202** · `next_index`: **2060**
+- Batch 21 (1960–2059) applied 26 creates and was split into two commits (`574672a0f`, `d6d413304`) to honor the 25-per-commit cap; one link-FAILED logged where Q3556309 (Hadim Mesih Pasha, d.1592) differs from the existing `person/mesih-pasha` (d.1501) — skipped and deferred.
+- Earlier batches: 24 creates (1260–1359), 24 creates (1360–1459), 30 creates split into two commits (1460–1559), 25 creates (1560–1659), 25 creates (1660–1759), 24 creates + duplicate merge of al-Abbas al-Jawhari (1760–1859), 25 creates (1860–1959).
+- `npm run validate`: 0 errors / 1999 warnings; `npm test` 101 passed.
+- Pushed to main: `66fdae59b` (merge `66fdae59b` includes art assets from the parallel lane). Nothing blocked.
