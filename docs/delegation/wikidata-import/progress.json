@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 560,
+ "next_index": 660,
  "created_ids": [
   {
    "i": 24,
@@ -351,6 +351,106 @@
    "i": 556,
    "qid": "Q210704",
    "id": "person/sulayman-i-safavi"
+  },
+  {
+   "i": 564,
+   "qid": "Q334752",
+   "id": "person/abu-al-fadl-ibn-mubarak"
+  },
+  {
+   "i": 565,
+   "qid": "Q335362",
+   "id": "person/ala-al-din-khalji"
+  },
+  {
+   "i": 577,
+   "qid": "Q115466",
+   "id": "person/al-kashi"
+  },
+  {
+   "i": 581,
+   "qid": "Q2606870",
+   "id": "person/shahzade-bayezid"
+  },
+  {
+   "i": 585,
+   "qid": "Q297065",
+   "id": "person/uljaitu-ilkhani"
+  },
+  {
+   "i": 586,
+   "qid": "Q309484",
+   "id": "building/al-askari-shrine"
+  },
+  {
+   "i": 592,
+   "qid": "Q335282",
+   "id": "person/abu-said-abul-khayr"
+  },
+  {
+   "i": 598,
+   "qid": "Q379723",
+   "id": "person/nogai-khan"
+  },
+  {
+   "i": 600,
+   "qid": "Q481384",
+   "id": "person/ibn-miskawayh"
+  },
+  {
+   "i": 602,
+   "qid": "Q6088718",
+   "id": "person/halime-sultan"
+  },
+  {
+   "i": 603,
+   "qid": "Q642614",
+   "id": "person/rustam-pasha"
+  },
+  {
+   "i": 610,
+   "qid": "Q2355095",
+   "id": "person/magtymguly-pyragy"
+  },
+  {
+   "i": 611,
+   "qid": "Q293554",
+   "id": "person/al-dhahabi"
+  },
+  {
+   "i": 616,
+   "qid": "Q374516",
+   "id": "person/tahmasp-ii-safavi"
+  },
+  {
+   "i": 618,
+   "qid": "Q441311",
+   "id": "person/jem-sultan"
+  },
+  {
+   "i": 619,
+   "qid": "Q455925",
+   "id": "person/ibn-tumart"
+  },
+  {
+   "i": 622,
+   "qid": "Q862648",
+   "id": "person/ismail-i-samani"
+  },
+  {
+   "i": 650,
+   "qid": "Q431712",
+   "id": "group/tabiun"
+  },
+  {
+   "i": 651,
+   "qid": "Q455424",
+   "id": "person/bayram-khan"
+  },
+  {
+   "i": 656,
+   "qid": "Q529665",
+   "id": "person/lala-mustafa-pasha"
   }
  ],
  "linked_ids": [
@@ -1123,6 +1223,116 @@
    "qid": "Q182363",
    "to": "person/fatima-al-fihri",
    "replaced": "Q3067547"
+  },
+  {
+   "i": 566,
+   "qid": "Q345544",
+   "to": "person/qilij-arslan-i"
+  },
+  {
+   "i": 575,
+   "qid": "Q11373",
+   "to": "person/abu-mashar"
+  },
+  {
+   "i": 576,
+   "qid": "Q1145757",
+   "to": "person/said-ibn-zayd"
+  },
+  {
+   "i": 579,
+   "qid": "Q219228",
+   "to": "concept/akhira"
+  },
+  {
+   "i": 580,
+   "qid": "Q2444841",
+   "to": "person/asma-bint-abi-bakr"
+  },
+  {
+   "i": 582,
+   "qid": "Q293458",
+   "to": "person/al-muhtadi"
+  },
+  {
+   "i": 583,
+   "qid": "Q293464",
+   "to": "person/al-malik-al-kamil"
+  },
+  {
+   "i": 584,
+   "qid": "Q293535",
+   "to": "person/al-nasai"
+  },
+  {
+   "i": 591,
+   "qid": "Q334813",
+   "to": "person/abu-ayyub-al-ansari"
+  },
+  {
+   "i": 601,
+   "qid": "Q4917977",
+   "to": "practice/zakat-al-fitr"
+  },
+  {
+   "i": 612,
+   "qid": "Q301261",
+   "to": "person/musa-ibn-nusayr"
+  },
+  {
+   "i": 613,
+   "qid": "Q307312",
+   "to": "person/abd-al-mumin-ibn-ali"
+  },
+  {
+   "i": 617,
+   "qid": "Q390123",
+   "to": "person/hajji-khalifa-abdallah"
+  },
+  {
+   "i": 620,
+   "qid": "Q471046",
+   "to": "person/rashid-rida"
+  },
+  {
+   "i": 629,
+   "qid": "Q169640",
+   "to": "person/hisham-ii-al-muayyad"
+  },
+  {
+   "i": 633,
+   "qid": "Q220697",
+   "to": "person/abu-yusuf-al-qadi"
+  },
+  {
+   "i": 634,
+   "qid": "Q249121",
+   "to": "person/qalawun"
+  },
+  {
+   "i": 636,
+   "qid": "Q281989",
+   "to": "person/al-mutazz"
+  },
+  {
+   "i": 639,
+   "qid": "Q307629",
+   "to": "person/ubayd-allah-al-mahdi"
+  },
+  {
+   "i": 652,
+   "qid": "Q455739",
+   "to": "person/yaqub-al-mansur-al-muwahhidi"
+  },
+  {
+   "i": 653,
+   "qid": "Q461096",
+   "to": "person/ibn-hisham"
+  },
+  {
+   "i": 654,
+   "qid": "Q482451",
+   "to": "person/al-zamakhshari"
   }
  ],
  "skipped": [
@@ -2820,9 +3030,299 @@
    559,
    "Q2419984",
    "modern royal d.2016"
+  ],
+  [
+   560,
+   "Q242051",
+   "modern writer b.1968"
+  ],
+  [
+   561,
+   "Q259331",
+   "modern president d.1970"
+  ],
+  [
+   562,
+   "Q2682334",
+   "Handan Sultan; no confirmed source on the page beyond coverage caveats — deferred"
+  ],
+  [
+   563,
+   "Q299530",
+   "modern sultan b.1962"
+  ],
+  [
+   567,
+   "Q357116",
+   "modern politician b.1942"
+  ],
+  [
+   568,
+   "Q365913",
+   "modern businessman d.2023"
+  ],
+  [
+   569,
+   "Q379595",
+   "modern writer d.1956"
+  ],
+  [
+   570,
+   "Q46213694",
+   "modern activist b.2001"
+  ],
+  [
+   571,
+   "Q537251",
+   "modern politician d.2023"
+  ],
+  [
+   572,
+   "Q6084858",
+   "modern prime minister b.1960"
+  ],
+  [
+   573,
+   "Q73030804",
+   "modern militant d.2022"
+  ],
+  [
+   574,
+   "Q842921",
+   "modern mosque (1958); out of scope"
+  ],
+  [
+   578,
+   "Q176380",
+   "Ortakoy mosque is a 19th-c building; out of scope"
+  ],
+  [
+   587,
+   "Q313449",
+   "modern president d.2004"
+  ],
+  [
+   588,
+   "Q319464",
+   "modern politician b.1963"
+  ],
+  [
+   589,
+   "Q328734",
+   "modern politician d.1927"
+  ],
+  [
+   590,
+   "Q329759",
+   "Mudejars as a group; no confirmed source covering the collective, deferred"
+  ],
+  [
+   593,
+   "Q340549",
+   "modern mosque (2008); out of scope"
+  ],
+  [
+   594,
+   "Q3514836",
+   "modern politician b.1945"
+  ],
+  [
+   595,
+   "Q368858",
+   "modern nationalist d.1979"
+  ],
+  [
+   596,
+   "Q3700793",
+   "modern prime minister b.1970"
+  ],
+  [
+   597,
+   "Q379707",
+   "modern musician d.2006"
+  ],
+  [
+   599,
+   "Q379946",
+   "modern figure b.1956"
+  ],
+  [
+   604,
+   "Q756189",
+   "Fatih mosque complex; no confirmed source covering the building itself, deferred"
+  ],
+  [
+   605,
+   "Q780743",
+   "tajwid term; no matching record, deferred"
+  ],
+  [
+   606,
+   "Q804009",
+   "modern mosque (1968); out of scope"
+  ],
+  [
+   607,
+   "Q836076",
+   "Lipka Tatars; no confirmed source"
+  ],
+  [
+   608,
+   "Q1454820",
+   "congregational-mosque type term; no matching record"
+  ],
+  [
+   609,
+   "Q2091579",
+   "Akbar Shah II d.1837, post-1800"
+  ],
+  [
+   614,
+   "Q335460",
+   "modern militant d.2002"
+  ],
+  [
+   615,
+   "Q3679864",
+   "modern Moscow mosque rebuilt 2015; out of scope"
+  ],
+  [
+   621,
+   "Q56367643",
+   "modern officer b.1964"
+  ],
+  [
+   623,
+   "Q879869",
+   "modern sultan d.1972"
+  ],
+  [
+   624,
+   "Q931510",
+   "islamization process term; no matching record, deferred"
+  ],
+  [
+   625,
+   "Q1136761",
+   "modern writer d.1936"
+  ],
+  [
+   626,
+   "Q1144576",
+   "Little Hagia Sophia; no confirmed source covering the building, deferred"
+  ],
+  [
+   627,
+   "Q1356818",
+   "modern mosque (1965); out of scope"
+  ],
+  [
+   628,
+   "Q146720",
+   "modern mandate territory"
+  ],
+  [
+   630,
+   "Q177851",
+   "modern politician b.1951"
+  ],
+  [
+   631,
+   "Q1951842",
+   "modern figure b.1943"
+  ],
+  [
+   632,
+   "Q204225",
+   "zina legal term; no matching record, deferred"
+  ],
+  [
+   635,
+   "Q26689638",
+   "modern figure b.1989"
+  ],
+  [
+   637,
+   "Q296724",
+   "modern politician d.2020"
+  ],
+  [
+   638,
+   "Q299743",
+   "modern politician d.2023"
+  ],
+  [
+   640,
+   "Q309650",
+   "modern emir d.1999"
+  ],
+  [
+   641,
+   "Q313816",
+   "modern prime minister b.1944"
+  ],
+  [
+   642,
+   "Q317948",
+   "modern imam b.1962"
+  ],
+  [
+   643,
+   "Q327127",
+   "modern president b.1941"
+  ],
+  [
+   644,
+   "Q331896",
+   "modern writer d.1904"
+  ],
+  [
+   645,
+   "Q360792",
+   "modern politician b.1941"
+  ],
+  [
+   646,
+   "Q365919",
+   "modern officer d.1911"
+  ],
+  [
+   647,
+   "Q366292",
+   "modern politician d.1943"
+  ],
+  [
+   648,
+   "Q369930",
+   "Midhat Pasha d.1883, post-1800"
+  ],
+  [
+   649,
+   "Q380452",
+   "Uthman dan Fodio d.1817, post-1800; record creation for the Sokoto founder deferred to a sourced pass"
+  ],
+  [
+   655,
+   "Q519718",
+   "Taungoo dynasty of Burma; no Islamic-history source"
+  ],
+  [
+   657,
+   "Q557630",
+   "modern politician b.1966"
+  ],
+  [
+   658,
+   "Q558515",
+   "modern president d.1993"
+  ],
+  [
+   659,
+   "Q7531880",
+   "modern figure b.1926"
   ]
  ],
- "skipped_total": 339,
+ "skipped_total": 397,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -2844,10 +3344,10 @@
   "modern actor; no matching record": 1,
   "modern leader d.1989; no matching record": 1,
   "modern president; no matching record": 2,
-  "modern president d.1970": 1,
+  "modern president d.1970": 2,
   "modern political/militant organisation; no matching record": 1,
   "modern president d.2019": 3,
-  "modern politician d.2023": 1,
+  "modern politician d.2023": 3,
   "modern president b.1950": 1,
   "modern ethnic group item; the Islamic-world counterpart (al-Rum/Byzantines) is a different item": 1,
   "modern lawyer/activist b.1947": 1,
@@ -2896,7 +3396,7 @@
   "modern prime minister b.1949": 1,
   "mythological garden; no matching record, deferred": 1,
   "prophethood concept needs an aqida source citation; deferred": 1,
-  "modern president d.1993": 1,
+  "modern president d.1993": 2,
   "Baloch not confirmed in cited sources; deferred": 1,
   "modern king d.1975": 1,
   "modern president b.1982": 1,
@@ -3028,7 +3528,7 @@
   "modern king d.1958": 1,
   "modern khedive d.1895": 1,
   "Jordanian royal house item; a modern-dynasty frame, deferred": 1,
-  "modern politician b.1941": 2,
+  "modern politician b.1941": 3,
   "modern royal consort d.2013": 1,
   "Mahdi of Sudan d.1885, post-1800": 1,
   "modern king d.1936": 1,
@@ -3135,10 +3635,63 @@
   "modern figure d.2020": 1,
   "amir al-mu'minin title; no matching record": 1,
   "modern province": 1,
-  "modern royal d.2016": 1
+  "modern royal d.2016": 1,
+  "modern writer b.1968": 1,
+  "Handan Sultan; no confirmed source on the page beyond coverage caveats — deferred": 1,
+  "modern sultan b.1962": 1,
+  "modern politician b.1942": 1,
+  "modern businessman d.2023": 1,
+  "modern writer d.1956": 1,
+  "modern activist b.2001": 1,
+  "modern prime minister b.1960": 1,
+  "modern militant d.2022": 1,
+  "modern mosque (1958); out of scope": 1,
+  "Ortakoy mosque is a 19th-c building; out of scope": 1,
+  "modern president d.2004": 1,
+  "modern politician b.1963": 1,
+  "modern politician d.1927": 1,
+  "Mudejars as a group; no confirmed source covering the collective, deferred": 1,
+  "modern mosque (2008); out of scope": 1,
+  "modern politician b.1945": 1,
+  "modern nationalist d.1979": 1,
+  "modern prime minister b.1970": 1,
+  "modern musician d.2006": 1,
+  "modern figure b.1956": 1,
+  "Fatih mosque complex; no confirmed source covering the building itself, deferred": 1,
+  "tajwid term; no matching record, deferred": 1,
+  "modern mosque (1968); out of scope": 1,
+  "Lipka Tatars; no confirmed source": 1,
+  "congregational-mosque type term; no matching record": 1,
+  "Akbar Shah II d.1837, post-1800": 1,
+  "modern militant d.2002": 1,
+  "modern Moscow mosque rebuilt 2015; out of scope": 1,
+  "modern officer b.1964": 1,
+  "modern sultan d.1972": 1,
+  "islamization process term; no matching record, deferred": 1,
+  "modern writer d.1936": 1,
+  "Little Hagia Sophia; no confirmed source covering the building, deferred": 1,
+  "modern mosque (1965); out of scope": 1,
+  "modern mandate territory": 1,
+  "modern politician b.1951": 1,
+  "modern figure b.1943": 1,
+  "zina legal term; no matching record, deferred": 1,
+  "modern figure b.1989": 1,
+  "modern politician d.2020": 1,
+  "modern emir d.1999": 1,
+  "modern prime minister b.1944": 1,
+  "modern imam b.1962": 1,
+  "modern president b.1941": 1,
+  "modern writer d.1904": 1,
+  "modern officer d.1911": 1,
+  "modern politician d.1943": 1,
+  "Midhat Pasha d.1883, post-1800": 1,
+  "Uthman dan Fodio d.1817, post-1800; record creation for the Sokoto founder deferred to a sourced pass": 1,
+  "Taungoo dynasty of Burma; no Islamic-history source": 1,
+  "modern politician b.1966": 1,
+  "modern figure b.1926": 1
  },
- "last_commit": "8176ef6d5",
+ "last_commit": "00bbf1129",
  "last_push": "2caca308e",
- "batch_current": 5,
- "updated_at": "2026-10-19T17:01:50-04:00"
+ "batch_current": 6,
+ "updated_at": "2026-10-19T17:05:29-04:00"
 }
