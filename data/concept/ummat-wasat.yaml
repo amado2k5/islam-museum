@@ -1,0 +1,41 @@
+id: concept/ummat-wasat
+class: concept
+kind: term
+label: { ar: "الأمة الوسط" }
+issue:
+  ar: "ما معنى وصف هذه الأمة بالوسط، وهل هو العدل والخيار أم الاعتدال بين طرفين؟"
+summary:
+  ar: "وصف الأمة في قوله تعالى «جعلناكم أمة وسطاً» في سورة البقرة. يذكر محمد رشيد رضا أن الوسط عند المفسرين العدل والخيار، لأن الإفراط والتفريط ميل عن الجادة، ثم يقرأ الوصف قراءة خاصة به: اعتدال الأمة بين حق الروح وحق الجسد، وبين الغلو والتعطيل، وأنها تكون وسطاً بقدر اتباعها لسنة الرسول."
+perspectives:
+  - tradition: sunni
+    id: wasat-as-justice-and-choice
+    stance:
+      ar: "الوسط بمعنى العدل والخيار"
+    summary:
+      ar: "المعنى الذي يذكره رضا عن المفسرين: الوسط هو العدل والخيار، لأن الزيادة على المطلوب إفراط والنقص عنه تفريط، والخيار هو المتوسط بين الطرفين. {cite:tafsir-manar-v02 p.4}"
+    holders: []
+    evidence:
+      - ref: source/tafsir-manar-v02
+        note:
+          ar: "ص 4"
+    sources: [source/tafsir-manar-v02]
+  - tradition: sunni
+    id: wasat-as-balance-rida
+    stance:
+      ar: "الاعتدال بين الروح والجسد، وبين الغلو والتعطيل، والتزام سنة الرسول"
+    summary:
+      ar: "قراءة رضا الخاصة، وهي تعليل لا تفسير متفق عليه: الأمة جمعت بين حق الروح وحق الجسد، فلم تكن كالماديين ولا كالمفرطين في الرياضة، وشهيدة على الناس بقدر استقامتها على هدي الرسول. {cite:tafsir-manar-v02 p.5}"
+    holders: [person/rashid-rida]
+    evidence:
+      - ref: source/tafsir-manar-v02
+        note:
+          ar: "ص 4 إلى 6"
+    sources: [source/tafsir-manar-v02]
+sources: [source/tafsir-manar-v02]
+provenance:
+  layer: own-research
+  source: "تفسير المنار، المجلد الثاني، ص 4-6 (نسخة OCR محلية)"
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "lib-exp-tafsir-manar-v02-v03"
+status: { review: draft, completeness: 2, generated_by: "library-expansion (Claude Haiku 5.5); from Rida's commentary on Q. 2:143, volume 2 pp. 4 to 6" }
