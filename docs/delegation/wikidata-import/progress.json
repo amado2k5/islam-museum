@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 1760,
+ "next_index": 1860,
  "created_ids": [
   {
    "i": 24,
@@ -1686,6 +1686,131 @@
    "i": 1742,
    "qid": "Q5263293",
    "id": "person/dervish-mehmed-pasha"
+  },
+  {
+   "i": 1767,
+   "qid": "Q938348",
+   "id": "person/abu-l-layth-al-samarqandi"
+  },
+  {
+   "i": 1768,
+   "qid": "Q944433",
+   "id": "person/mustafa-celebi"
+  },
+  {
+   "i": 1779,
+   "qid": "Q1324080",
+   "id": "building/mosque-of-cristo-de-la-luz"
+  },
+  {
+   "i": 1783,
+   "qid": "Q1372236",
+   "id": "person/shaykh-bedreddin"
+  },
+  {
+   "i": 1785,
+   "qid": "Q1528137",
+   "id": "person/ozdemiroglu-osman-pasha"
+  },
+  {
+   "i": 1786,
+   "qid": "Q1572431",
+   "id": "building/semsi-pasha-mosque"
+  },
+  {
+   "i": 1788,
+   "qid": "Q16859436",
+   "id": "person/nasir-jang"
+  },
+  {
+   "i": 1794,
+   "qid": "Q1990225",
+   "id": "person/al-tabarsi"
+  },
+  {
+   "i": 1799,
+   "qid": "Q2447460",
+   "id": "person/hadim-ali-pasha"
+  },
+  {
+   "i": 1802,
+   "qid": "Q2474911",
+   "id": "person/al-abbas-ibn-said-al-jawhari"
+  },
+  {
+   "i": 1810,
+   "qid": "Q2637299",
+   "id": "person/ibrahim-i-shirvan"
+  },
+  {
+   "i": 1813,
+   "qid": "Q2827459",
+   "id": "person/abu-l-aish-ahmad-idrisi"
+  },
+  {
+   "i": 1814,
+   "qid": "Q288013",
+   "id": "person/al-salih-salih"
+  },
+  {
+   "i": 1815,
+   "qid": "Q2989371",
+   "id": "building/great-mosque-tlemcen"
+  },
+  {
+   "i": 1817,
+   "qid": "Q3015226",
+   "id": "person/abu-ishaq-al-thaalabi"
+  },
+  {
+   "i": 1821,
+   "qid": "Q3124772",
+   "id": "person/karamani-mehmed-pasha"
+  },
+  {
+   "i": 1824,
+   "qid": "Q3178975",
+   "id": "person/mansur-ii-samani"
+  },
+  {
+   "i": 1829,
+   "qid": "Q330616",
+   "id": "person/kamal-al-din-al-damiri"
+  },
+  {
+   "i": 1833,
+   "qid": "Q335335",
+   "id": "person/abu-said-uthman-ii-marinid"
+  },
+  {
+   "i": 1839,
+   "qid": "Q367949",
+   "id": "person/hafiz-ahmed-pasha"
+  },
+  {
+   "i": 1841,
+   "qid": "Q3776964",
+   "id": "person/khusrau-khan"
+  },
+  {
+   "i": 1850,
+   "qid": "Q4273784",
+   "id": "building/sultan-sanjar-mausoleum"
+  },
+  {
+   "i": 1854,
+   "qid": "Q4664888",
+   "id": "person/abd-al-wahid-al-marrakushi"
+  },
+  {
+   "i": 1855,
+   "qid": "Q4702240",
+   "id": "building/al-attarine-madrasa"
+  },
+  {
+   "i": 1857,
+   "qid": "Q4724557",
+   "id": "person/ali-adil-shah-i"
   }
  ],
  "linked_ids": [
@@ -3678,7 +3803,78 @@
    "i": 1756,
    "qid": "Q712890",
    "to": "person/mujahid-ibn-jabr"
-  }
+  },
+  {
+   "i": 1772,
+   "qid": "Q1046622",
+   "to": "person/qudama-ibn-jafar"
+  },
+  {
+   "i": 1774,
+   "qid": "Q1110326",
+   "to": "person/malik-ibn-dinar-al-khattat"
+  },
+  {
+   "i": 1775,
+   "qid": "Q112465",
+   "to": "person/nafi-al-madani"
+  },
+  {
+   "i": 1776,
+   "qid": "Q1145312",
+   "to": "person/uqba-ibn-amir-al-juhani"
+  },
+  {
+   "i": 1777,
+   "qid": "Q12232298",
+   "to": "person/qutham-ibn-al-abbas"
+  },
+  {
+   "i": 1804,
+   "qid": "Q253605",
+   "to": "person/al-hasan-ibn-kannun"
+  },
+  {
+   "i": 1808,
+   "qid": "Q2621743",
+   "to": "person/al-shatibi"
+  },
+  {
+   "i": 1826,
+   "qid": "Q32625",
+   "to": "person/mawdud-ibn-masud-ghaznawi"
+  },
+  {
+   "i": 1831,
+   "qid": "Q3350606",
+   "to": "concept/tawakkul"
+  },
+  {
+   "i": 1838,
+   "qid": "Q3607438",
+   "to": "person/al-daraqutni"
+  },
+  {
+   "i": 1840,
+   "qid": "Q3738508",
+   "to": "person/umm-hani-bint-abi-talib"
+  },
+  {
+   "i": 1847,
+   "qid": "Q4120472",
+   "to": "person/al-bara-ibn-azib"
+  },
+  {
+   "i": 1848,
+   "qid": "Q4165518",
+   "to": "person/khalid-ibn-yazid-ibn-muawiya"
+  },
+  {
+   "i": 1856,
+   "qid": "Q4703043",
+   "to": "person/al-qaqa-ibn-amr"
+  },
+  "person/al-abbas-al-jawhari"
  ],
  "skipped": [
   [
@@ -8820,9 +9016,314 @@
    1759,
    "Q7244305",
    "Iraqi prince d.1970; modern"
+  ],
+  [
+   1760,
+   "Q76306",
+   "Indonesian VP d.2003; modern"
+  ],
+  [
+   1761,
+   "Q7685765",
+   "Canadian writer d.2023; modern"
+  ],
+  [
+   1762,
+   "Q7809224",
+   "Tirimujgan Kadin d.1853; post-1800"
+  ],
+  [
+   1763,
+   "Q797526",
+   "Bab al-Baradiyin mosque Meknes; no confirmed source on the page"
+  ],
+  [
+   1764,
+   "Q82066",
+   "Indian poet d.2002; modern"
+  ],
+  [
+   1765,
+   "Q836500",
+   "Albanian politician d.1967; modern"
+  ],
+  [
+   1766,
+   "Q888050",
+   "Muscat sultan d.1866; post-1800"
+  ],
+  [
+   1769,
+   "Q959465",
+   "King Fahd Mosque Sarajevo 2000; modern"
+  ],
+  [
+   1770,
+   "Q967441",
+   "love-of-God concept; deferred — no confirmed source on the page"
+  ],
+  [
+   1771,
+   "Q97933143",
+   "Omani consort b.1969; modern"
+  ],
+  [
+   1773,
+   "Q1107753",
+   "Ali al-Asghar Karbala infant; hagiographic, needs two cited voices — deferred"
+  ],
+  [
+   1778,
+   "Q13040753",
+   "Fatih Sultan Mehmet Mosque Shkoder; deferred — no confirmed source on the page"
+  ],
+  [
+   1780,
+   "Q1328033",
+   "Finsbury Park mosque; modern"
+  ],
+  [
+   1781,
+   "Q1345264",
+   "French general convert d.1810; post-1800 death"
+  ],
+  [
+   1782,
+   "Q1352851",
+   "Hussein Avni Pasha d.1876; post-1800"
+  ],
+  [
+   1784,
+   "Q1469697",
+   "Hassan Pasha Mosque Oran 1796; deferred — no confirmed source on the page"
+  ],
+  [
+   1787,
+   "Q16074458",
+   "Khamenei's wife; modern"
+  ],
+  [
+   1789,
+   "Q1745687",
+   "Yusuf al-Azma d.1920; modern"
+  ],
+  [
+   1790,
+   "Q1815635",
+   "Venezuela mosque; modern"
+  ],
+  [
+   1791,
+   "Q18193736",
+   "IS deputy d.2016; modern"
+  ],
+  [
+   1792,
+   "Q195122",
+   "Dawud Pasha of Iraq d.1851; post-1800"
+  ],
+  [
+   1793,
+   "Q1977474",
+   "al-Ghayb concept; deferred — no confirmed source on the page"
+  ],
+  [
+   1795,
+   "Q2031965",
+   "Srinagar Jamia Masjid; deferred — no confirmed source on the page"
+  ],
+  [
+   1796,
+   "Q2041222",
+   "Shusha mosque; no confirmed source on the page"
+  ],
+  [
+   1797,
+   "Q2348035",
+   "Uzbek militant d.2009; modern"
+  ],
+  [
+   1798,
+   "Q2371076",
+   "Pakistani politician; modern"
+  ],
+  [
+   1800,
+   "Q2460824",
+   "Turki bin Abdullah d.1834; post-1800"
+  ],
+  [
+   1801,
+   "Q2474371",
+   "Shakib Arslan d.1946; modern"
+  ],
+  [
+   1803,
+   "Q2478856",
+   "Hazratbal shrine; modern building"
+  ],
+  [
+   1805,
+   "Q25520",
+   "Tuareg militant b.1954; modern"
+  ],
+  [
+   1806,
+   "Q2567259",
+   "9/11 hijacker; modern"
+  ],
+  [
+   1807,
+   "Q2614002",
+   "Ayatollah d.2022; modern"
+  ],
+  [
+   1809,
+   "Q2635118",
+   "Iraqi PM d.1929; modern"
+  ],
+  [
+   1811,
+   "Q2667099",
+   "Ottoman prince d.1983; modern"
+  ],
+  [
+   1812,
+   "Q2699532",
+   "9/11 hijacker; modern"
+  ],
+  [
+   1816,
+   "Q2992817",
+   "Indonesian general d.1965; modern"
+  ],
+  [
+   1818,
+   "Q307587",
+   "Abdullah bin Saud d.1818; post-1800"
+  ],
+  [
+   1819,
+   "Q31190329",
+   "Taksim mosque 2021; modern"
+  ],
+  [
+   1820,
+   "Q3123755",
+   "Resid Mehmed Pasha d.1836; post-1800"
+  ],
+  [
+   1822,
+   "Q3125368",
+   "Mahdist Sudan 1880s; modern state"
+  ],
+  [
+   1823,
+   "Q31543",
+   "Kelantan sultan d.2019; modern"
+  ],
+  [
+   1825,
+   "Q31800",
+   "Bolkiah of Brunei; no confirmed source on the page"
+  ],
+  [
+   1827,
+   "Q3277857",
+   "Nasir al-Din Mahmud Tughluq; deferred — batch cap"
+  ],
+  [
+   1828,
+   "Q3281165",
+   "Kapitan Keling mosque 1801; post-1800"
+  ],
+  [
+   1830,
+   "Q3319066",
+   "Iraqi politician b.1954; modern"
+  ],
+  [
+   1832,
+   "Q3352688",
+   "East London Mosque; modern"
+  ],
+  [
+   1834,
+   "Q3407426",
+   "Kabul Id Gah mosque 1893; post-1800"
+  ],
+  [
+   1835,
+   "Q343262",
+   "Edhem Pasha d.1893; post-1800"
+  ],
+  [
+   1836,
+   "Q3493692",
+   "9/11 hijacker; modern"
+  ],
+  [
+   1837,
+   "Q3595469",
+   "eidgah item; out of scope"
+  ],
+  [
+   1842,
+   "Q3807326",
+   "footballer d.2018; modern"
+  ],
+  [
+   1843,
+   "Q388677",
+   "Berlin mosque; modern"
+  ],
+  [
+   1844,
+   "Q401199",
+   "Cevad Pasha d.1900; modern"
+  ],
+  [
+   1845,
+   "Q4055170",
+   "Abu Salma poet d.1980; modern"
+  ],
+  [
+   1846,
+   "Q4115837",
+   "Al Saleh Mosque Sana'a 2008; modern"
+  ],
+  [
+   1849,
+   "Q4204328",
+   "isti'adha term item; deferred — no confirmed source on the page"
+  ],
+  [
+   1851,
+   "Q4295658",
+   "Iranian director b.1966; modern"
+  ],
+  [
+   1852,
+   "Q433500",
+   "Iranian politician b.1962; modern"
+  ],
+  [
+   1853,
+   "Q4481452",
+   "Fatima de Madrid; dubious attestation, no confirmed source"
+  ],
+  [
+   1858,
+   "Q4937382",
+   "Laleh Bakhtiar d.2020; modern"
+  ],
+  [
+   1859,
+   "Q5600070",
+   "Ben Fares mosque Algiers; no confirmed source on the page"
   ]
  ],
- "skipped_total": 1028,
+ "skipped_total": 1089,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -9537,7 +10038,7 @@
   "Lala Tulpan mosque Ufa 1998; modern": 1,
   "9/11 hijacker; modern, out of scope": 1,
   "Jezzar Pasha d.1804; post-1800": 1,
-  "9/11 hijacker; modern": 3,
+  "9/11 hijacker; modern": 6,
   "Ibrahim Bey Mamluk d.1817; post-1800": 1,
   "Aga Khan I d.1881; post-1800": 1,
   "Iraqi queen consort d.1950; modern": 1,
@@ -9791,10 +10292,68 @@
   "Israeli politician; modern": 1,
   "Murad Bakhsh; deferred — batch cap": 1,
   "Chechen warlord d.2009; modern": 1,
-  "Iraqi prince d.1970; modern": 1
+  "Iraqi prince d.1970; modern": 1,
+  "Indonesian VP d.2003; modern": 1,
+  "Canadian writer d.2023; modern": 1,
+  "Tirimujgan Kadin d.1853; post-1800": 1,
+  "Bab al-Baradiyin mosque Meknes; no confirmed source on the page": 1,
+  "Indian poet d.2002; modern": 1,
+  "Albanian politician d.1967; modern": 1,
+  "Muscat sultan d.1866; post-1800": 1,
+  "King Fahd Mosque Sarajevo 2000; modern": 1,
+  "love-of-God concept; deferred — no confirmed source on the page": 1,
+  "Omani consort b.1969; modern": 1,
+  "Ali al-Asghar Karbala infant; hagiographic, needs two cited voices — deferred": 1,
+  "Fatih Sultan Mehmet Mosque Shkoder; deferred — no confirmed source on the page": 1,
+  "Finsbury Park mosque; modern": 1,
+  "French general convert d.1810; post-1800 death": 1,
+  "Hussein Avni Pasha d.1876; post-1800": 1,
+  "Hassan Pasha Mosque Oran 1796; deferred — no confirmed source on the page": 1,
+  "Khamenei's wife; modern": 1,
+  "Yusuf al-Azma d.1920; modern": 1,
+  "Venezuela mosque; modern": 1,
+  "IS deputy d.2016; modern": 1,
+  "Dawud Pasha of Iraq d.1851; post-1800": 1,
+  "al-Ghayb concept; deferred — no confirmed source on the page": 1,
+  "Srinagar Jamia Masjid; deferred — no confirmed source on the page": 1,
+  "Shusha mosque; no confirmed source on the page": 1,
+  "Uzbek militant d.2009; modern": 1,
+  "Pakistani politician; modern": 1,
+  "Turki bin Abdullah d.1834; post-1800": 1,
+  "Shakib Arslan d.1946; modern": 1,
+  "Hazratbal shrine; modern building": 1,
+  "Tuareg militant b.1954; modern": 1,
+  "Ayatollah d.2022; modern": 1,
+  "Iraqi PM d.1929; modern": 1,
+  "Ottoman prince d.1983; modern": 1,
+  "Indonesian general d.1965; modern": 1,
+  "Abdullah bin Saud d.1818; post-1800": 1,
+  "Taksim mosque 2021; modern": 1,
+  "Resid Mehmed Pasha d.1836; post-1800": 1,
+  "Mahdist Sudan 1880s; modern state": 1,
+  "Kelantan sultan d.2019; modern": 1,
+  "Bolkiah of Brunei; no confirmed source on the page": 1,
+  "Nasir al-Din Mahmud Tughluq; deferred — batch cap": 1,
+  "Kapitan Keling mosque 1801; post-1800": 1,
+  "Iraqi politician b.1954; modern": 1,
+  "East London Mosque; modern": 1,
+  "Kabul Id Gah mosque 1893; post-1800": 1,
+  "Edhem Pasha d.1893; post-1800": 1,
+  "eidgah item; out of scope": 1,
+  "footballer d.2018; modern": 1,
+  "Berlin mosque; modern": 1,
+  "Cevad Pasha d.1900; modern": 1,
+  "Abu Salma poet d.1980; modern": 1,
+  "Al Saleh Mosque Sana'a 2008; modern": 1,
+  "isti'adha term item; deferred — no confirmed source on the page": 1,
+  "Iranian director b.1966; modern": 1,
+  "Iranian politician b.1962; modern": 1,
+  "Fatima de Madrid; dubious attestation, no confirmed source": 1,
+  "Laleh Bakhtiar d.2020; modern": 1,
+  "Ben Fares mosque Algiers; no confirmed source on the page": 1
  },
  "last_commit": "d246b7e49",
  "last_push": "2caca308e",
  "batch_current": 7,
- "updated_at": "2026-10-19T18:04:21-04:00"
+ "updated_at": "2026-10-19T18:08:29-04:00"
 }
