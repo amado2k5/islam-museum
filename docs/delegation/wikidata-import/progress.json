@@ -5,7 +5,7 @@
  "candidates_file": "$HARVEST/wikidata-import/candidates.tsv",
  "candidates_query": "select distinct id from wd_claim where property='P140' and value_id='Q432' minus Wikidata ids already linked in data/, ordered by sitelink count desc",
  "linked_preexisting": 987,
- "next_index": 2460,
+ "next_index": 2560,
  "created_ids": [
   {
    "i": 24,
@@ -2556,6 +2556,121 @@
    "i": 2459,
    "qid": "Q4116323",
    "id": "building/derbent-juma-mosque"
+  },
+  {
+   "i": 2468,
+   "qid": "Q4664581",
+   "id": "person/abd-al-rahim-al-iraqi"
+  },
+  {
+   "i": 2469,
+   "qid": "Q4664689",
+   "id": "person/abdallah-ibn-abd-al-malik"
+  },
+  {
+   "i": 2472,
+   "qid": "Q4670097",
+   "id": "person/ibn-mujahid"
+  },
+  {
+   "i": 2473,
+   "qid": "Q4670207",
+   "id": "person/abu-hatim-muhammad-al-razi"
+  },
+  {
+   "i": 2474,
+   "qid": "Q4670407",
+   "id": "person/abu-umama-al-bahili"
+  },
+  {
+   "i": 2475,
+   "qid": "Q4695507",
+   "id": "person/ahmad-al-buni"
+  },
+  {
+   "i": 2476,
+   "qid": "Q4703988",
+   "id": "person/abu-qatada-al-ansari"
+  },
+  {
+   "i": 2490,
+   "qid": "Q6008261",
+   "id": "person/imran-ibn-husayn"
+  },
+  {
+   "i": 2494,
+   "qid": "Q6419128",
+   "id": "person/ibn-shahrashub"
+  },
+  {
+   "i": 2501,
+   "qid": "Q6684511",
+   "id": "person/sunan-ampel"
+  },
+  {
+   "i": 2503,
+   "qid": "Q6758211",
+   "id": "person/jalal-al-din-al-mahalli"
+  },
+  {
+   "i": 2504,
+   "qid": "Q677097",
+   "id": "person/gazi-evrenos-bey"
+  },
+  {
+   "i": 2505,
+   "qid": "Q6896332",
+   "id": "person/molla-fenari"
+  },
+  {
+   "i": 2511,
+   "qid": "Q8082467",
+   "id": "person/semsi-pasha"
+  },
+  {
+   "i": 2518,
+   "qid": "Q10299689",
+   "id": "person/ibn-ghazi-al-maknasi"
+  },
+  {
+   "i": 2519,
+   "qid": "Q10854137",
+   "id": "person/asim-ibn-abi-al-najud"
+  },
+  {
+   "i": 2530,
+   "qid": "Q12178251",
+   "id": "person/abu-yala-al-mawsili"
+  },
+  {
+   "i": 2531,
+   "qid": "Q12204214",
+   "id": "building/al-janad-mosque"
+  },
+  {
+   "i": 2539,
+   "qid": "Q12242839",
+   "id": "building/qaytbay-complex-cairo"
+  },
+  {
+   "i": 2547,
+   "qid": "Q13408456",
+   "id": "person/malikussaleh-samudra"
+  },
+  {
+   "i": 2554,
+   "qid": "Q1514121",
+   "id": "person/yahya-ii-hafsid"
+  },
+  {
+   "i": 2555,
+   "qid": "Q1528126",
+   "id": "person/abaza-siyavush-pasha-i"
+  },
+  {
+   "i": 2559,
+   "qid": "Q1584208",
+   "id": "person/ivaz-mehmed-pasha"
   }
  ],
  "linked_ids": [
@@ -4950,7 +5065,75 @@
   },
   "person/abdallah-ibn-ibad",
   "person/al-tartushi",
-  "person/abu-al-abbas-al-mursi"
+  "person/abu-al-abbas-al-mursi",
+  {
+   "i": 2470,
+   "qid": "Q4666114",
+   "to": "person/abdallah-ibn-muawiya-ibn-abdallah-ibn-jafar"
+  },
+  {
+   "i": 2496,
+   "qid": "Q6536228",
+   "to": "person/ibn-sayyid-al-nas-al-akbar"
+  },
+  {
+   "i": 2507,
+   "qid": "Q7404507",
+   "to": "person/salih-ibn-ali"
+  },
+  {
+   "i": 2508,
+   "qid": "Q7645423",
+   "to": "person/suraqa-ibn-malik"
+  },
+  {
+   "i": 2510,
+   "qid": "Q7902730",
+   "to": "person/uthman-ibn-abi-al-as"
+  },
+  {
+   "i": 2512,
+   "qid": "Q846343",
+   "to": "person/sibt-ibn-al-jawzi"
+  },
+  {
+   "i": 2520,
+   "qid": "Q1108685",
+   "to": "person/amir-ibn-fuhayra"
+  },
+  {
+   "i": 2521,
+   "qid": "Q1108701",
+   "to": "person/hatib-ibn-abi-baltaa"
+  },
+  {
+   "i": 2522,
+   "qid": "Q1108710",
+   "to": "person/salim-mawla-abi-hudhayfa"
+  },
+  {
+   "i": 2525,
+   "qid": "Q11728390",
+   "to": "person/ibn-aqil"
+  },
+  {
+   "i": 2529,
+   "qid": "Q12178019",
+   "to": "person/al-samani"
+  },
+  {
+   "i": 2533,
+   "qid": "Q12223823",
+   "to": "person/abd-al-malik-ibn-habib"
+  },
+  {
+   "i": 2535,
+   "qid": "Q12227985",
+   "to": "person/al-wahidi"
+  },
+  "person/abdullah-ibn-abd-al-malik",
+  "person/layla-al-akhyaliyya",
+  "person/khuzayma-ibn-thabit"
  ],
  "skipped": [
   [
@@ -12312,9 +12495,319 @@
    2458,
    "Q4116099",
    "Mustafa Ismail reciter d.1978; modern"
+  ],
+  [
+   2460,
+   "Q4119774",
+   "Sayed al-Hashim mosque Gaza; no confirmed source"
+  ],
+  [
+   2461,
+   "Q4120514",
+   "Isa Qassim; modern"
+  ],
+  [
+   2462,
+   "Q4165313",
+   "al-Oud cemetery; deferred"
+  ],
+  [
+   2463,
+   "Q4165852",
+   "al-Mazini d.1949; modern"
+  ],
+  [
+   2464,
+   "Q42332440",
+   "journalist; modern"
+  ],
+  [
+   2465,
+   "Q4248571",
+   "Kurmanj ethnic group; out of scope"
+  ],
+  [
+   2466,
+   "Q4469911",
+   "Uzun-Hajji d.1920; modern"
+  ],
+  [
+   2467,
+   "Q4584408",
+   "ta'wil term; deferred"
+  ],
+  [
+   2471,
+   "Q4667606",
+   "Abidin mosque Terengganu; deferred"
+  ],
+  [
+   2477,
+   "Q4778059",
+   "Anwar Shah Kashmiri d.1933; modern"
+  ],
+  [
+   2478,
+   "Q495676",
+   "Tahar Ben Ammar d.1985; modern"
+  ],
+  [
+   2479,
+   "Q509503",
+   "al-Oweini d.1971; modern"
+  ],
+  [
+   2480,
+   "Q5104483",
+   "al-Kahlawi dean; modern"
+  ],
+  [
+   2481,
+   "Q517932",
+   "Senussi leader d.1902; post-1800"
+  ],
+  [
+   2482,
+   "Q5429658",
+   "Egyptian princess d.1983; modern"
+  ],
+  [
+   2483,
+   "Q5431566",
+   "Indonesian politician d.1968; modern"
+  ],
+  [
+   2484,
+   "Q5437818",
+   "Sudanese politician d.2018; modern"
+  ],
+  [
+   2485,
+   "Q570059",
+   "Ilinski d.1861; post-1800"
+  ],
+  [
+   2486,
+   "Q591801",
+   "actor; modern"
+  ],
+  [
+   2487,
+   "Q595176",
+   "Kaunas mosque 1930; modern"
+  ],
+  [
+   2488,
+   "Q5960647",
+   "Dorchehie d.1923; modern"
+  ],
+  [
+   2489,
+   "Q5984420",
+   "Ibrahim Adil Shah I Bijapur; deferred — batch cap"
+  ],
+  [
+   2491,
+   "Q6034923",
+   "Ottoman princess; thin, deferred"
+  ],
+  [
+   2492,
+   "Q6087144",
+   "Ottoman princess d.1915; modern"
+  ],
+  [
+   2493,
+   "Q6102857",
+   "Altinay d.1937; modern"
+  ],
+  [
+   2497,
+   "Q657549",
+   "Hysen Pasha mosque; no confirmed source"
+  ],
+  [
+   2498,
+   "Q657875",
+   "Naziresha mosque; no confirmed source"
+  ],
+  [
+   2499,
+   "Q6668703",
+   "Lokman Slim d.2021; modern"
+  ],
+  [
+   2500,
+   "Q6684473",
+   "Bingkudu mosque; deferred"
+  ],
+  [
+   2502,
+   "Q668603",
+   "Mardam Bey d.1959; modern"
+  ],
+  [
+   2506,
+   "Q6966007",
+   "Narjis mother of Mahdi; tradition-bound, deferred"
+  ],
+  [
+   2509,
+   "Q77676",
+   "Hatice Sultan; thin, deferred"
+  ],
+  [
+   2513,
+   "Q851196",
+   "Araki; modern"
+  ],
+  [
+   2514,
+   "Q883660",
+   "Lead mosque Shkoder; no confirmed source"
+  ],
+  [
+   2515,
+   "Q942690",
+   "Mihnea Turcitul; convert ruler, thin — deferred"
+  ],
+  [
+   2516,
+   "Q9572819",
+   "Taichung mosque; modern"
+  ],
+  [
+   2517,
+   "Q1009860",
+   "Ishak Bey mosque; no confirmed source"
+  ],
+  [
+   2524,
+   "Q113771520",
+   "Ibn Yuzayy Andalusi poet; deferred — batch cap"
+  ],
+  [
+   2526,
+   "Q11904701",
+   "Ala al-Dawla Mirza Timurid; deferred — batch cap"
+  ],
+  [
+   2527,
+   "Q11927146",
+   "Jalayir tribe; out of scope"
+  ],
+  [
+   2528,
+   "Q11930016",
+   "Kucuk Huseyin Pasha d.1803; post-1800"
+  ],
+  [
+   2532,
+   "Q12209738",
+   "actress; modern"
+  ],
+  [
+   2534,
+   "Q12227911",
+   "Tantawi d.1999; modern"
+  ],
+  [
+   2536,
+   "Q12230027",
+   "fahisha term; deferred"
+  ],
+  [
+   2537,
+   "Q12239678",
+   "al-Shanqiti; modern"
+  ],
+  [
+   2538,
+   "Q12240815",
+   "al-Sabuni d.2021; modern"
+  ],
+  [
+   2540,
+   "Q12251502",
+   "imam; modern"
+  ],
+  [
+   2541,
+   "Q12497331",
+   "Medan grand mosque 1909; modern"
+  ],
+  [
+   2542,
+   "Q12630328",
+   "Cekrekcija mosque; no confirmed source"
+  ],
+  [
+   2543,
+   "Q127634639",
+   "Arif Agha mosque Edirne; no confirmed source"
+  ],
+  [
+   2544,
+   "Q1294336",
+   "Ali Pasha of Gucia d.1888; post-1800"
+  ],
+  [
+   2545,
+   "Q1295761",
+   "Selimiye Konya; deferred"
+  ],
+  [
+   2546,
+   "Q131421221",
+   "Beylerbeyi mosque Edirne; deferred"
+  ],
+  [
+   2548,
+   "Q1366538",
+   "Bardakoglu; modern"
+  ],
+  [
+   2549,
+   "Q1395679",
+   "Serif Pasa d.1951; modern"
+  ],
+  [
+   2550,
+   "Q1397281",
+   "Necdet Kent d.2002; modern"
+  ],
+  [
+   2551,
+   "Q1477754",
+   "Gonja people; out of scope"
+  ],
+  [
+   2552,
+   "Q14917386",
+   "Tuo Kayu Jao mosque; deferred"
+  ],
+  [
+   2553,
+   "Q15051389",
+   "surau building type; deferred"
+  ],
+  [
+   2556,
+   "Q15391394",
+   "Mughal princess; thin, deferred"
+  ],
+  [
+   2557,
+   "Q1572444",
+   "Rum Mehmed Pasha mosque; deferred"
+  ],
+  [
+   2558,
+   "Q1575116",
+   "Novogrudok mosque; no confirmed source"
   ]
  ],
- "skipped_total": 1475,
+ "skipped_total": 1539,
  "skipped_by_reason": {
   "modern sovereign state; no matching record (al-Hind region is a different entity)": 1,
   "modern sovereign state; no matching record": 8,
@@ -13346,7 +13839,7 @@
   "consort d.1898; post-1800": 1,
   "Mimar Kemaleddin d.1927; modern": 1,
   "Fatma Sultan; no confirmed source on the page": 1,
-  "actor; modern": 1,
+  "actor; modern": 2,
   "Sisli Mosque 1949; modern": 1,
   "Muhammadu Bello d.1837; post-1800": 1,
   "Ilyas Kandhlawi d.1944; modern": 1,
@@ -13529,7 +14022,7 @@
   "Free Officer d.2018; modern": 1,
   "Muhammad Imara d.2020; modern": 1,
   "Kizimkazi mosque Zanzibar; deferred": 1,
-  "create-failed:file-exists": 3,
+  "create-failed:file-exists": 5,
   "Mubarakpuri d.2006; modern": 1,
   "al-Nasir Muhammad madrasa Cairo; deferred": 1,
   "King Mosque Elbasan; no confirmed source": 1,
@@ -13547,7 +14040,7 @@
   "Burmali mosque Istanbul; no confirmed source": 1,
   "Sultan of Sokoto b.1956; modern": 1,
   "Iranian economist; modern": 1,
-  "actress; modern": 2,
+  "actress; modern": 3,
   "Abdullah ibn Unais companion; deferred": 1,
   "Kazakhstan mosque; modern": 1,
   "Hamidov d.2020; modern": 1,
@@ -13600,12 +14093,12 @@
   "Princess Faiza; modern": 1,
   "laylat al-jaiza term; deferred": 1,
   "Fukuoka mosque; modern": 1,
-  "Mughal princess; thin, deferred": 2,
+  "Mughal princess; thin, deferred": 3,
   "Dervish Hima d.1928; modern": 1,
   "al-Qasim ibn al-Hasan Karbala figure; hagiographic, deferred": 1,
   "Ibn Nusayr sect founder; contested, needs perspectives — deferred": 1,
   "sutrah term; deferred": 1,
-  "Ottoman princess; thin, deferred": 1,
+  "Ottoman princess; thin, deferred": 2,
   "Bebek mosque; no confirmed source": 1,
   "Basmah bint Saud; modern": 1,
   "janaba term; deferred": 1,
@@ -13711,10 +14204,68 @@
   "Brunei sultan d.1906; post-1800": 1,
   "Brunei sultan d.1852; post-1800": 1,
   "al-Attas; modern": 1,
-  "Mustafa Ismail reciter d.1978; modern": 1
+  "Mustafa Ismail reciter d.1978; modern": 1,
+  "Sayed al-Hashim mosque Gaza; no confirmed source": 1,
+  "Isa Qassim; modern": 1,
+  "al-Oud cemetery; deferred": 1,
+  "al-Mazini d.1949; modern": 1,
+  "journalist; modern": 1,
+  "Kurmanj ethnic group; out of scope": 1,
+  "Uzun-Hajji d.1920; modern": 1,
+  "ta'wil term; deferred": 1,
+  "Abidin mosque Terengganu; deferred": 1,
+  "Anwar Shah Kashmiri d.1933; modern": 1,
+  "Tahar Ben Ammar d.1985; modern": 1,
+  "al-Oweini d.1971; modern": 1,
+  "al-Kahlawi dean; modern": 1,
+  "Senussi leader d.1902; post-1800": 1,
+  "Egyptian princess d.1983; modern": 1,
+  "Indonesian politician d.1968; modern": 1,
+  "Sudanese politician d.2018; modern": 1,
+  "Ilinski d.1861; post-1800": 1,
+  "Kaunas mosque 1930; modern": 1,
+  "Dorchehie d.1923; modern": 1,
+  "Ibrahim Adil Shah I Bijapur; deferred — batch cap": 1,
+  "Ottoman princess d.1915; modern": 1,
+  "Altinay d.1937; modern": 1,
+  "Hysen Pasha mosque; no confirmed source": 1,
+  "Naziresha mosque; no confirmed source": 1,
+  "Lokman Slim d.2021; modern": 1,
+  "Bingkudu mosque; deferred": 1,
+  "Mardam Bey d.1959; modern": 1,
+  "Narjis mother of Mahdi; tradition-bound, deferred": 1,
+  "Hatice Sultan; thin, deferred": 1,
+  "Araki; modern": 1,
+  "Lead mosque Shkoder; no confirmed source": 1,
+  "Mihnea Turcitul; convert ruler, thin — deferred": 1,
+  "Taichung mosque; modern": 1,
+  "Ishak Bey mosque; no confirmed source": 1,
+  "Ibn Yuzayy Andalusi poet; deferred — batch cap": 1,
+  "Ala al-Dawla Mirza Timurid; deferred — batch cap": 1,
+  "Jalayir tribe; out of scope": 1,
+  "Kucuk Huseyin Pasha d.1803; post-1800": 1,
+  "Tantawi d.1999; modern": 1,
+  "fahisha term; deferred": 1,
+  "al-Shanqiti; modern": 1,
+  "al-Sabuni d.2021; modern": 1,
+  "imam; modern": 1,
+  "Medan grand mosque 1909; modern": 1,
+  "Cekrekcija mosque; no confirmed source": 1,
+  "Arif Agha mosque Edirne; no confirmed source": 1,
+  "Ali Pasha of Gucia d.1888; post-1800": 1,
+  "Selimiye Konya; deferred": 1,
+  "Beylerbeyi mosque Edirne; deferred": 1,
+  "Bardakoglu; modern": 1,
+  "Serif Pasa d.1951; modern": 1,
+  "Necdet Kent d.2002; modern": 1,
+  "Gonja people; out of scope": 1,
+  "Tuo Kayu Jao mosque; deferred": 1,
+  "surau building type; deferred": 1,
+  "Rum Mehmed Pasha mosque; deferred": 1,
+  "Novogrudok mosque; no confirmed source": 1
  },
  "last_commit": "d6d413304",
  "last_push": "66fdae59b",
  "batch_current": 7,
- "updated_at": "2026-10-19T18:34:09-04:00"
+ "updated_at": "2026-10-19T18:37:44-04:00"
 }
