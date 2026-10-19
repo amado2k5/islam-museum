@@ -143,6 +143,10 @@ async function main() {
   log(`${desired.size} files in dist, ${Object.keys(previous).length} in last publish: ${copies} to copy, ${deletes} to delete`);
 
   if (dryRun) return;
+  // Clear archives left by earlier runs that timed out before the Worker applied them.
+  // Runs never overlap (deploy.yml concurrency group "pages"), so nothing in staging is in use.
+  execFileSync("aws", ["s3", "rm", `s3://${bucket}/${STAGING_PREFIX}`, "--recursive", "--endpoint-url", endpoint, "--only-show-errors"], { stdio: "inherit" });
+  log(`cleared s3://${bucket}/${STAGING_PREFIX}`);
   if (ops.length === 0) {
     log("nothing changed");
     return;
