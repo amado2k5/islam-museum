@@ -8,11 +8,11 @@
 | GitHub Actions | 2,000 min/month (private) / generous for public repos | Public repo → effectively free CI; full build (~35 min: validate → graph → derive → api → astro → pagefind → R2 sync → CF Pages deploy); 6-hour job limit, well within budget |
 | Cloudflare (DNS+CDN) | Unlimited bandwidth, free SSL, cache rules, redirects, Web Analytics | DNS proxied; CF Pages serves HTML; R2 serves search indexes; privacy-first analytics |
 | Cloudflare Workers | 100k requests/day, 10 ms CPU | Not needed for visitors; reserved for build-side jobs only if ever required (redirects and headers are Cloudflare rules, not code) |
-| Cloudflare R2 | 10 GB storage, free egress, 1M writes/10M reads per month | **Pagefind search indexes** (~96k content-addressed files: `pagefind-ar/en/ur`) and **API JSON** (~30k files under `api/`). Bucket `islam-museum-search`. Incremental sync via `aws s3 sync --checksum-algorithm sha256 --delete` — only files whose content changed are uploaded. Also thumbnails, map tiles (PMTiles), audio, later 3D models. |
-| Cloudflare Pages (paid) | 100,000 files per deployment, 25 MB/file, 500 builds/month (wrangler v4 required for 100k limit) | **Main host for HTML and assets** (~70k files after stripping pagefind and API). Project name `islam-museum`, served at `islam-museum.pages.dev` and `islam.museum`. |
+| Cloudflare R2 | 10 GB storage, free egress, 1M Class-A writes/10M Class-B reads per month | **Pagefind search indexes** (~37k content-addressed files after passage pages are excluded from indexing: `pagefind-ar/en/ur`) and **API JSON** (~30k files under `api/`). Bucket `islam-museum-search`. Incremental manifest-based sync (see §4 and §7) — only changed files are uploaded and only on commits that touch `data/` or `content/`. Also thumbnails, map tiles (PMTiles), audio, later 3D models. |
+| Cloudflare Pages (paid) | 100,000 files per deployment, 25 MB/file, 500 builds/month (wrangler v4 required for 100k limit) | **Main host for HTML and assets** (~69k files after stripping pagefind and API, well under 100k limit). Project name `islam-museum`, served at `islam-museum.pages.dev` and `islam.museum`. |
 | Cloudflare D1 / KV / Vectorize / Workers AI | Free tiers | **Not used on the published site.** No runtime AI, no runtime database (see §13). |
 
-Decision: **Cloudflare Pages (paid plan) hosts the site**, built by GitHub Actions. Pagefind search indexes go to **Cloudflare R2** (`islam-museum-search` bucket, public URL `https://pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev`) to stay within the 100k-file CF Pages limit. Both are deployed in the same GitHub Actions workflow on every push to `main`. No runtime compute: the published site is static files only (see §13).
+Decision: **Cloudflare Pages (paid plan) hosts the site**, built by GitHub Actions. Pagefind search indexes and the API JSON go to **Cloudflare R2** (`islam-museum-search` bucket, public URL `https://pub-ab3983f1cb684ba8bb7c10be32804f74.r2.dev`) to stay within the 100k-file CF Pages limit — the site HTML alone is ~69k files, leaving no room for the ~37k pagefind chunk files. Both are deployed in the same GitHub Actions workflow on every push to `main`. No runtime compute: the published site is static files only (see §13).
 
 ## 2. Stack
 
@@ -112,13 +112,20 @@ data/ + content/ + geo/ + schema/
         ▼  astro build             — pages per entity per lang, hall pages, exhibits, questions,
         │                             JSON-LD, OpenGraph images (satori) per entity, sitemaps, RSS (new entities, updated exhibits),
         │                             api/v1/*.json, redirects (_redirects → Cloudflare Bulk Redirects or meta refresh)
-        ▼  pagefind                — three runs: pagefind-ar, pagefind-en, pagefind-ur; ~96k content-addressed chunk files
-        ▼  R2 sync                 — aws s3 sync --checksum-algorithm sha256 --delete (incremental: only changed files):
-        │                               dist/pagefind-{ar,en,ur} → s3://islam-museum-search/{pagefind-ar,en,ur}
-        │                                 cache-control: immutable, max-age=31536000
-        │                               dist/api → s3://islam-museum-search/api
-        │                                 cache-control: public, max-age=3600, stale-while-revalidate=86400
-        ▼  strip R2 dirs           — rm -rf dist/pagefind-{ar,en,ur} dist/api (leaves ~70k files, under CF Pages 100k limit)
+        ▼  pagefind                — three runs: pagefind-ar, pagefind-en, pagefind-ur
+        │                             ~37k content-addressed chunk files total (passage pages excluded — see §7)
+        ▼  content-change gate     — git diff HEAD~1 HEAD -- data/ content/
+        │                             if nothing changed, R2 sync is SKIPPED entirely (0 ops for UI/config pushes)
+        ▼  R2 sync (manifest-based, runs only when data/ or content/ changed)
+        │   For each of {pagefind-ar, pagefind-en, pagefind-ur, api}:
+        │     1. Build a local "size path" manifest of the new dist output
+        │     2. Fetch the previous manifest from R2 (1 GET; empty on first run)
+        │     3. diff: upload only new/changed files; delete removed files
+        │     4. Write updated manifest back to R2 (1 PUT)
+        │   Net ops per content push: ~4 GETs + N PUTs + 4 manifest PUTs
+        │   (N = number of chunk files that actually changed, typically hundreds not tens of thousands)
+        │   cache-control: pagefind immutable max-age=31536000; api max-age=3600 stale-while-revalidate=86400
+        ▼  strip R2 dirs           — rm -rf dist/pagefind-{ar,en,ur} dist/api (leaves ~69k files, under CF Pages 100k limit)
         ▼  CF Pages deploy         — wrangler v4: pages deploy dist --project-name=islam-museum
         ▼  IndexNow notify         — scripts/indexnow.mjs submits changed URLs to Bing/Yandex
 ```
@@ -174,9 +181,36 @@ Slugs are ASCII, lowercase, hyphenated, derived from the common English/translit
 
 ## 7. Search
 
-Pagefind indexes rendered pages. Each entity page sets `data-pagefind-body`, plus filters: `data-pagefind-filter="wing"`, `class`, `period`, `region`, `tradition`, `lang`, and sort keys for dates. Arabic stemming is supported; we also index transliteration variants and alternate names (`names[]`) in a hidden metadata block so "Avicenna" finds Ibn Sina. For 50k+ pages the index stays in chunks that load on demand; if it ever becomes too heavy, a Worker + D1 FTS5 fallback is the upgrade path.
+Pagefind indexes rendered pages. Each entity page uses `data-pagefind-body` in `EntityLayout.astro`, plus filter tags: `data-pagefind-filter="wing"`, `class`, `period`, `region`, `tradition`, `lang`, and sort keys for dates. Arabic stemming is supported; we also index transliteration variants and alternate names (`names[]`) in a hidden metadata block so "Avicenna" finds Ibn Sina. The index loads in lazy chunks; if it ever becomes too heavy, a Worker + D1 FTS5 fallback is the upgrade path.
 
-The ~96k pagefind chunk files (three language runs) are served from **Cloudflare R2** (`islam-museum-search` bucket), not from CF Pages. The search page (`[lang]/search/`) loads the JS/CSS from the R2 public URL baked in at build time (`PUBLIC_PAGEFIND_BASE` → `PAGEFIND_BASE_URL` variable). Falls back to local path for `astro preview` after a full build.
+**What is and is not indexed:**
+
+| Class | Indexed | Reason |
+|---|---|---|
+| person, event, place, concept, work, group, exhibit, screen, … | ✓ | Main searchable entities |
+| passage (`quran-*`) | ✗ | 9,547 pages × 3 languages = 28k+ pagefind fragments; Qurʾān verse lookup is better served by the dedicated Sura browser (`/[lang]/surah/`) and the Words wing. Excluding these pages cuts pagefind chunk files by ~44%. |
+| surah, words/quran, words/hadith, … | ✗ | Those pages already carry `data-pagefind-ignore` on their content wrapper |
+| search, browse, questions index, … | ✗ | Utility pages carry `data-pagefind-ignore` |
+
+Passage pages are excluded via pagefind's `data-pagefind-body` mechanism: once **any** page on the site declares `data-pagefind-body`, pagefind skips every page that does **not** have it. `EntityLayout.astro` sets `data-pagefind-body={n.class !== "passage" || undefined}`, which omits the attribute for passage nodes and causes pagefind to silently skip them.
+
+**File counts and R2 cost:**
+
+```
+Pagefind chunk files per language:  ~12,300  (down from ~21,800 before passage exclusion)
+Three languages total:              ~37,000
+API JSON:                           ~30,200
+Total R2 objects:                   ~67,200  (138 MB)
+
+R2 Class A operations (free tier = 1M/month):
+  Initial full upload:      ~67,200 PUTs (one-time, first deploy)
+  Typical content push:     ~4 GET + N PUTs (changed chunks only, via manifest diff) + 4 PUT (manifests)
+                            N ≈ few hundred for 20 entity commit; well under 1k ops/push
+  UI/config push:           0 ops (content-change gate skips R2 entirely)
+  Estimated monthly (3 content + 12 UI pushes): ~3,000 ops — 0.3% of free tier
+```
+
+The ~37k pagefind chunk files are served from **Cloudflare R2** (`islam-museum-search` bucket), not from CF Pages (which has a 100k-file limit; the site HTML alone uses ~69k of that). The search page (`[lang]/search/`) loads the JS/CSS from the R2 public URL baked in at build time (`PUBLIC_PAGEFIND_BASE` → `PAGEFIND_BASE_URL` variable in GitHub Actions). Falls back to local path for `astro preview` after a full build.
 
 ## 8. Media strategy
 
