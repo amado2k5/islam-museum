@@ -119,3 +119,26 @@ Add this lane's entries to `scripts/harvest/library/books.yaml` in the lane's ow
   - The schema has no edge from a concept to a passage (`revealed_about` runs passage to concept only), so the verse links are in prose, not in `relations`.
   - No question or tension card written yet for the Crusades passage (Rida's answer on p. 9–10 is recorded only in the concept prose).
 - **Next step:** read vol. 7 from p. 12 on (Ma'ida 86 onward, then An'am), add a `person` record for the Negus only if it is needed for an edge, and once the other agent's `work/tafsir-al-manar` is on main, link the source to it. Then volumes 8 to 12, one source record each.
+
+## Tafsir al-Manar, volumes 9 and 10 (library-expansion, draft, 19 Oct 2026)
+
+- **Branch:** `worktree-agent-ae03fbebc05a8aa96` (not pushed to main, not merged). Scope: at most 25 entities; 9 written.
+- **Pages covered (OCR markers):** vol. 9: title page and pp. 3 to 11 (Al-A'raf 88 to 93, the Shu'ayb story); pp. 20 to 23 (Al-A'raf 94 to 100, sunan of peoples); pp. 486 to 493 (Al-Anfal opening and 1 to 4, wajal of hearts); pp. 512 to 513 (Al-Anfal 9 to 14, the angels at Badr). Vol. 10: title page and pp. 3 to 5 (Al-Anfal 41, khums and the definitions of ghanima and fay').
+- **Entities created (all `status.review: draft`, with provenance):**
+  - `source/tafsir-manar-v09` and `source/tafsir-manar-v10` (edition not verified; reliability notes say so; the editor's name is OCR-garbled and not recorded; OCR markers were not checked against page images)
+  - `concept/ghanima` (term; Rida's definitions of ghanima, fay', nafl, salab, safi; the timing of the fifth at Badr as he reports it)
+  - `concept/khums-al-ghanima` (legal; the first Anfal verse as abrogated or muhkam, with Rida preferring Ibn Zayd's view; `perspectives`)
+  - `concept/angels-at-badr` (doctrine; `perspectives`: Rida's view that the angels did not fight, and the reports of angelic fighting he rejects)
+  - `concept/rajfa` (term; quake versus cry in the Madyan and Thamud accounts)
+  - `concept/sunan-allah-fi-al-umam` (doctrine; remnant of the righteous, religion and worldly good, causes of chastisement)
+  - `concept/fath-bayn-al-qawm` (term; judgment, the Ibn Abbas narration and the Yemeni usage as Rida reports them)
+  - `concept/wajal-al-qulub` (doctrine; awe versus fear at the remembrance of God, and his reconciliation with Ar-Ra'd 28)
+- **Reused by id (linked in prose, not edited):** `person/rashid-rida`, `person/al-tabari`, `person/abdullah-ibn-abbas`, `person/mujahid-ibn-jabr`, `person/ikrima-mawla-ibn-abbas`, `event/battle-of-badr`, `concept/fay`, `concept/tawakkul` (not used), passages `quran-7-78`, `7-89`, `7-91`, `7-96`, `8-1`, `8-2`, `8-9`, `8-10`, `8-12`, `8-14`, `8-41`.
+- **Skipped / blocked:**
+  - Al-Suddi (the exegete, Ismail ibn Abd al-Rahman) has no record. `person/salim-al-suddi` is a different man (courtier of Umar II) and was not reused. Ibn Zayd and Ibn Kathir have no records either; they are named in plain text.
+  - No edges from concepts to passages: the schema allows `revealed_about` only from passage to concept, so Qur'an links are in prose.
+  - `concept/ghanima` is also listed as a stub in `data/_stubs.d/muwatta-prose.yaml` (another lane). Not edited here; the validator warns to remove it once that lane reconciles.
+  - Ibn Abbas's narration on the word fath is cited as Rida gives it; the chain is not checked.
+  - The academic and non-Sunni views on the angels and the abrogation question are not yet added.
+  - Nothing on the Shu'ayb story beyond the verses read; no event or person entities created from tafsir alone.
+- **Next step:** read vol. 9 from p. 12 to p. 19 and from p. 24 onward (Al-A'raf 101 to 170 and the rest of Al-Anfal 1 to 40), and vol. 10 from p. 6 (Al-Anfal 42 to the Badr accounts, then Al-Tawba). Add the second source for any dated fact (for example the battle dates in the Badr passages), and add the al-Suddi record only when an edge needs it.
