@@ -1,0 +1,21 @@
+id: person/ibn-jinni
+class: person
+label: { ar: "أبو الفتح عثمان بن جني الموصلي النحوي" }
+summary:
+  ar: "عثمان بن جني الموصلي النحوي اللغوي، سكن بغداد ودرس بها العلم حتى مات. له كتب مصنفة في علم النحو منها اللمع والتعاقب في العربية وشرح القوافي والمذكر والمؤنث وسر الصنعة والخصائص وغير ذلك، وكان يقول الشعر ويجيد نظمه، وأبوه جني كان عبداً رومياً مملوكاً لسليمان بن فهد بن أحمد الأزدي الموصلي. توفي ببغداد يوم الجمعة لليلتين بقيتا من صفر سنة اثنتين وتسعين ودفن بالخيزرانية {cite:muntazam-ibn-al-jawzi j.7 p.219-221}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar, poet, teacher]
+themes: [literature]
+died:
+  { edtf: "1002-01-22~", hijri: "0392-02-28", calendar: julian, precision: day, status: tradition, derived: true, note: "يوم الجمعة لليلتين بقيتا من صفر 392 ببغداد، دفن بالخيزرانية؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.221}" }
+relations:
+  - { type: died_in, target: place/baghdad, sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 392)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

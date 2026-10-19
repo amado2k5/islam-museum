@@ -1,0 +1,23 @@
+id: person/abu-al-abbas-ibn-wasil
+class: person
+label: { ar: "أبو العباس بن واصل صاحب البطيحة" }
+summary:
+  ar: "أبو العباس بن واصل، كان يخدم الكرج فكان يخرج له في الحساب أنه يملك فكانوا يهزؤون به ويقول له بعضهم إذا صرت ملكاً فاستخدمني ويقول الآخر اخلع عليّ، فصار ملكاً وملك سيراف ثم البصرة وقصد الأهواز وهزم بهاء الدولة وملك البطيحة وأخرج عنها مهذب الدولة علي بن نصر إلى بغداد، وقد فرج بهاء الدولة بما أمكنه من أمواله فأخذت في الطريق واضطر حتى ركب بقرة، ثم قصد ابن واصل فاستجار بحسان بن ثمال الخفاجي فصيره إلى مشهد علي فتصدق هناك بصدقات كثيرة وسار قاصداً بدر بن حسنويه لصداقة بينهما فكيسه أبو الفتح بن عناز فسلمه إلى أصحاب بهاء الدولة فقتله بواسط في صفر سنة سبع وتسعين {cite:muntazam-ibn-al-jawzi j.7 p.236-237}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [emir]
+story_roles:
+  - { role: ruler, status: tradition, sources: [source/muntazam-ibn-al-jawzi] }
+died:
+  { edtf: "1006-12~", hijri: "0397-02", calendar: julian, precision: month, status: tradition, derived: true, note: "صفر 397 بواسط؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.237}" }
+relations:
+  - { type: opposed, target: person/baha-al-dawla, role: "هزمه وملك البطيحة وأخذ أمواله", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: died_in, target: place/wasit, role: "قتل بها", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، وفيات سنة 397)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

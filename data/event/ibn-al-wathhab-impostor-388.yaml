@@ -1,0 +1,22 @@
+id: event/ibn-al-wathhab-impostor-388
+class: event
+kind: other
+label: { ar: "ادعاء ابن الوثاب أنه الطائع بجيلان" }
+summary:
+  ar: "هرب عبد الله بن جعفر المعروف بابن الوثاب من الاعتقال لما خلع الطائع، وتنقل في البلاد ثم نفذ القادر من أحضره مقبوضاً عليه فحبس ثم هرب فمضى إلى جيلان وادعى أنه هو الطائع لله وذكر لهم علامات عرفها بحكم أنسه بدار الخلافة فقبلوه وعظموه وزوجه ابن العباس أحد أمرائهم ابنته وأقام له الدعوة في بلده وأطاعه أهل نواحٍ أخر وأدوا إليه العشر، ثم ورد قوم منهم إلى بغداد فانكشف لهم حاله فانصرف عنهم {cite:muntazam-ibn-al-jawzi j.7 p.206-207}."
+wings: [time]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [persia-central-asia, levant-iraq]
+date:
+  start: { edtf: "0998", hijri: "0388", calendar: julian, precision: year, status: tradition, derived: true, note: "أحداث سنة 388؛ التحويل مشتق {cite:muntazam-ibn-al-jawzi j.7 p.206}" }
+relations:
+  - { type: had_participant, target: person/abd-allah-ibn-jafar-al-wathhab, role: "المدعي", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-qadir-billah, role: "أمر بإحضاره مقبوضاً فهرب", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: had_participant, target: person/al-tai-billah, role: "ادعى ابن الوثاب أنه هو", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 388)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 2, generated_by: "Devin (SWE-2 High)" }

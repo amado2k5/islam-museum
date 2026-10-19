@@ -1,0 +1,19 @@
+id: person/ibn-al-khashab
+class: person
+label: { ar: "أبو الحسن ابن الخشاب القارئ" }
+summary:
+  ar: "أبو الحسن ابن الخشاب القارئ، كان مليح الصوت حسن التلاوة، وهو تلميذ أبي بكر بن الآدمي الموصوف بطيب التلاوة، وعليه تلقن أبو الحسين بن الرفاء. وأنه قرأ في جامع الرصافة في بعض الليالي الأحياء قوله تعالى ألم يأن للذين آمنوا أن تخشع قلوبهم لذكر الله فتواجد صوفاً وقال بلى قد آن ثم جلس وبكى طويلاً وسكت سكتة طالت فحرك فإذا هو ميت {cite:muntazam-ibn-al-jawzi j.7 p.228}."
+wings: [people]
+periods: [period/buyid-seljuk-fatimid-era]
+regions: [levant-iraq]
+roles: [scholar]
+themes: [scripture-and-its-sciences]
+relations:
+  - { type: teacher_of, target: person/ibn-al-raffa-qari, role: "تلقن عنه القراءة", sources: [source/muntazam-ibn-al-jawzi] }
+provenance:
+  layer: own-research
+  source: "المنتظم في تاريخ الملوك والأمم — ابن الجوزي (ج7، أحداث سنة 394)، قراءة آبل فيجن"
+  generated_by: "Devin (SWE-2 High) from Apple Vision OCR"
+  run: lib-muntazam-batch-21
+sources: [source/muntazam-ibn-al-jawzi]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 High)" }

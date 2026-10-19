@@ -7,6 +7,9 @@ summary:
 gender: male
 wings: [people]
 periods: [period/abbasid-early]
+relations:
+  - { type: patron_of, target: person/ibn-al-raffa-qari, role: "أخذه مع ابن البهلول ورتبهما لصلاة التراويح به", sources: [source/muntazam-ibn-al-jawzi] }
+  - { type: patron_of, target: person/ibn-al-bahlul, role: "أخذه مع ابن الرفاء ورتبهما لصلاة التراويح به", sources: [source/muntazam-ibn-al-jawzi] }
 provenance:
   layer: own-research
   source: "تاريخ الخلفاء للسيوطي (ط المنهاج 1434هـ/2013م) ص 604–615"
