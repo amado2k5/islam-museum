@@ -5,7 +5,7 @@ source_lang: ar
 translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
 ---
 ## خلاصہ
-نحوی اختلاف کوفہ میں [[person/al-khalil-ibn-ahmad-al-farahidi|الرؤاسی]] اور بصرہ میں [[person/al-khalil-ibn-ahmad-al-farahidi|خلیل]] کے درمیان نرمی سے شروع ہوا، پھر کوفہ میں [[person/al-kisai|کسائی]] اور بصرہ میں [[person/sibawayh|سیبویہ]] کے درمیان شدت اختیار کر گیا۔ {cite:duha-islam}
+نحوی اختلاف کوفہ میں الرؤاسی اور بصرہ میں [[person/al-khalil-ibn-ahmad-al-farahidi|خلیل]] کے درمیان نرمی سے شروع ہوا، پھر کوفہ میں [[person/al-kisai|کسائی]] اور بصرہ میں [[person/sibawayh|سیبویہ]] کے درمیان شدت اختیار کر گیا۔ {cite:duha-islam}
 
 ماخذ کے مطابق یہ علمی عصبیت دونوں شہروں کے درمیان سیاسی عصبیت پر قائم ظاہر ہوتی ہے۔ اور یہ نحو کے ظہور کے بعد اس کی ترقی ہے، دیکھیں [[concept/ibtida-al-nahw|ابتداء النحو]]۔ {cite:duha-islam}
 
