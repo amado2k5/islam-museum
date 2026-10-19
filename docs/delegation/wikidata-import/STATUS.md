@@ -31,3 +31,11 @@ Updated at every push to `main`. Lane: `wikidata-import` (`docs/delegation/wikid
 - Duplicate resolved: my `person/sulayman-pasha-khadim` record for Hadim Suleyman Pasha merged into the richer existing `person/hadim-suleyman-pasha` (QID moved; new file deleted).
 - `npm run validate`: 0 errors / 1998 warnings; `npm test` 101 passed.
 - Pushed to main: `01c3208b5`. Nothing blocked.
+
+## 19 Oct 2026 — batches 12–13 (candidates 1060–1259)
+
+- Created: **208** draft records total · Linked: **302** · Skipped: **750** · `next_index`: **1260**
+- Batch 12 (1060–1159): 24 creates incl. Hersekzade Ahmed Pasha, Shaykh al-Saduq, al-Qurtubi, Ibn Sa'd link, Green Mosque Bursa, Eski/Uc Serefeli Edirne, Suhrawardiyya, Sidrat al-Muntaha; 25 links incl. al-Juwayni, al-Bayhaqi, al-Khatib, Wasil ibn Ata, Idris II.
+- Batch 13 (1160–1259): 25 creates incl. Baha al-Din al-Amili, al-Shaykh al-Mufid, al-Shadhili, Ibn Manzur, Kaysaniyya, al-Zaytuna, Danishmend Gazi; 14 links incl. al-Zuhri, al-Qushayri, Jawhar, Ibn al-Kalbi, al-Baydawi.
+- `npm run validate`: 0 errors / 1998 warnings; `npm test` 101 passed.
+- Pushed to main. Nothing blocked.
