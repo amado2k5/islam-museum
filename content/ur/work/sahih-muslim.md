@@ -1,0 +1,10 @@
+---
+id: work/sahih-muslim
+lang: ur
+source_lang: ar
+translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+---
+## موجز
+«المسند الصحیح المختصر بنقل العدل عن العدل الی رسول اللہ» مسلم بن الحجاج قشیری نیشاپوری (وفات 261ھ) کی کتاب ہے ([[person/muslim-ibn-al-hajjaj|ان کی سوانح]])۔ یہ [[concept/kutub-al-sitta|کتب ستہ]] میں سے ہے۔ {cite:sahih-muslim}
+
+یہ حدیث کی دوسری مشہور ترین کتاب سمجھی جاتی ہے۔ یہ ایک ہی حدیث کے مختلف طرق کو ایک جگہ جمع کرنے کے لیے مشہور ہے، اور اس کا اصطلاحِ حدیث پر مقدمہ علمِ حدیث میں بنیادی متن بن گیا ہے۔ {cite:sahih-muslim}
