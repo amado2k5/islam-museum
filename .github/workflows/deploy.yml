@@ -12,6 +12,10 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: false
+  # Keep every waiting run, so each push's R2 publish runs in order. Without this,
+  # a newer waiting run replaces an older one and the older content change is never
+  # published (the content gate only compares HEAD~1 to HEAD).
+  queue: max
 
 # The unit tests and the build run in parallel; deploy waits for both.
 jobs:
