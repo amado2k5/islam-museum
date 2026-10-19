@@ -68,7 +68,7 @@ let inflight = 0;
 let peak = 0;
 const results = [];
 const queue = archives.map((a) => a.name);
-async function process(name) {
+async function postArchive(name) {
   inflight += 1;
   peak = Math.max(peak, inflight);
   try {
@@ -88,7 +88,7 @@ async function process(name) {
 const started = Date.now();
 await Promise.all(
   Array.from({ length: PARALLEL }, async () => {
-    while (queue.length) await process(queue.shift());
+    while (queue.length) await postArchive(queue.shift());
   }),
 );
 console.log(`posted ${results.length} archives in ${((Date.now() - started) / 1000).toFixed(1)} s`);
