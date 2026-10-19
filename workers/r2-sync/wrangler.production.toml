@@ -6,6 +6,10 @@ compatibility_date = "2025-10-11"
 [limits]
 cpu_ms = 120000
 
+# Keep the Worker's console.log lines in Cloudflare Workers Logs (dashboard, searchable by time).
+[observability]
+enabled = true
+
 # Production search bucket: Pagefind indexes and API JSON served from R2.
 [[r2_buckets]]
 binding = "SYNC_BUCKET"

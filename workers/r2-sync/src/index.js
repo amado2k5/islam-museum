@@ -59,6 +59,21 @@ function validateDst(dst, allowed) {
   }
 }
 
+// Progress for GET /status. It lives in R2, not in memory, so it survives a client
+// that dropped the connection. A failed status write never stops the archive.
+const STATUS_KEY = "_r2-sync/status.json";
+const STATUS_EVERY = 100;
+
+async function writeStatus(bucket, status, log) {
+  try {
+    await bucket.put(STATUS_KEY, JSON.stringify({ ...status, updated: new Date().toISOString() }, null, 2), {
+      httpMetadata: { contentType: "application/json" },
+    });
+  } catch (err) {
+    log(`[status] write failed: ${err.message ?? err}`);
+  }
+}
+
 // Applies one archive. `bucket` is an R2 bucket binding (or a compatible stub).
 // `log` receives progress lines. Returns a report; throws only on a bad archive.
 export async function processArchive({ bucket, archiveKey, allowedPrefixes, log = console.log }) {
@@ -75,8 +90,23 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, log 
 
   const report = { archive: archiveKey, copied: [], moved: [], deleted: [], folders: [], failed: [] };
   const seen = new Set();
+  const total = manifest.ops.length;
+  const startedAt = new Date().toISOString();
+  const snapshot = (state, done) => ({
+    archive: archiveKey,
+    state,
+    started: startedAt,
+    total,
+    done,
+    copied: report.copied.length,
+    moved: report.moved.length,
+    deleted: report.deleted.length,
+    failed: report.failed.length,
+  });
+  await writeStatus(bucket, snapshot("running", 0), log);
 
   for (const [i, op] of manifest.ops.entries()) {
+    if (i > 0 && i % STATUS_EVERY === 0) await writeStatus(bucket, snapshot("running", i), log);
     try {
       if (op.op === "COPY") {
         validateDst(op.dst, allowedPrefixes);
@@ -118,6 +148,7 @@ export async function processArchive({ bucket, archiveKey, allowedPrefixes, log 
   } else {
     log(`[kept] ${archiveKey} kept because ${report.failed.length} operation(s) failed`);
   }
+  await writeStatus(bucket, { ...snapshot(report.failed.length === 0 ? "done" : "kept", total), finished: new Date().toISOString() }, log);
   report.summary = {
     copied: report.copied.length,
     moved: report.moved.length,
@@ -138,6 +169,11 @@ export default {
       return json({ error: "unauthorised" }, 401);
     }
     const url = new URL(request.url);
+    if (request.method === "GET" && url.pathname === "/status") {
+      const status = await env.SYNC_BUCKET.get(STATUS_KEY);
+      if (!status) return json({ error: "no status yet" }, 404);
+      return new Response(await status.text(), { headers: { "content-type": "application/json" } });
+    }
     if (request.method !== "POST" || url.pathname !== "/process") return json({ error: "not found" }, 404);
 
     const { archive } = await request.json();
